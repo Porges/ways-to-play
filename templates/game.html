@@ -1,0 +1,45 @@
+<article itemscope="itemscope" itemtype="http://schema.org/Article" itemprop="mainEntity" itemref="author">
+  <h1 itemprop="headline"$if(title-lang)$ lang="$title-lang$"$endif$>
+    <a itemprop="mainEntityOfPage" href="$url$">$title$</a>
+  </h1>
+  <section class="infobox">
+    <h4>Game info</h4>
+    <div class="info">
+      <span itemprop="about" itemscope="itemscope" itemtype="http://schema.org/Game">
+        <meta itemprop="name"$if(title-lang)$ lang="$title-lang$"$endif$ content="$title$" />
+        <span
+          itemprop="numberOfPlayers"
+          itemscope="itemscope"
+          itemtype="http://schema.org/QuantitativeValue">
+          <span itemprop="unitText">Players</span>:
+          $-if(playersMin)$ <span itemprop="minValue"><a href="/tags/players/$playersMin$.html">$playersMin$</a></span>–<span itemprop="maxValue"><a href="/tags/players/$playersMax$.html">$playersMax$</a></span>
+          $-else$ <span itemprop="value"><a href="/tags/players/$players$.html">$players$</a></span>
+          $-endif$
+        </span>
+        <br/>
+        $if(country)-$
+        <span
+          itemprop="gameLocation"
+          itemscope="itemscope"
+          itemtype="http://schema.org/Country">
+          Country:
+          <span itemprop="name"><a href="/tags/country/$country$.html">$country$</a></span>
+        </span>
+        <br/>
+        $-endif$
+      </span>
+      $if(tags)-$
+      <h4>Categories</h4>
+      <ul class="tags" itemprop="keywords">$tags$</ul>
+      $-endif$
+    </div>
+    <h4>Posted</h4>
+    <div class="info">
+      <time itemprop="datePublished" datetime="$published$">$date$</time>
+      $if(updated)$<time itemprop="dateModified" datetime="$updated$"></time>$endif$
+    </div>
+  </section>
+  <section itemprop="articleBody">
+    $body$
+  </section>
+</article>

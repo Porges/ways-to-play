@@ -1,0 +1,6 @@
+resolver: nightly-2018-06-29
+packages:
+- .
+extra-deps:
+- hakyll-4.12.3.0
+- fsnotify-0.3.0.1
