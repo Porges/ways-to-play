@@ -65,8 +65,8 @@ href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY
 3.0" target="_blank">CC 3.0 BY</a>.
 
 [UniHentaiKana](https://wakufactory.jp/densho/font/hentai/) is used as a
-fallback font for hentaigana characters. It is licensed under the [IPA Font
-License](https://opensource.org/licenses/IPA).
+fallback font for [hentaigana]{lang="ja-Latn"} characters. It is licensed under
+the [IPA Font License](https://opensource.org/licenses/IPA).
 
 ## Colophon
 
