@@ -33,14 +33,11 @@ with chalk on slates—such as were used by children in schools during this
 period.
 
 The earliest known references to the game occur in Charles Babbage’s unpublished
-manuscript ‘Essays on the Philosophy of Analysis’ (composed 1812–1820, held in
-the British Library as Add. MS&nbsp;37202), although the game is never mentioned
-by name [@SourcesInRecreationalMathematics]. Later in 1842, ‘tit-tat-to’ occurs
-in his notebooks, where he conceptualizes an automaton that would play
-tic-tac-toe against a human [@ICommencedAnExamination;
-@SourcesInRecreationalMathematics].
-
-TODO: Mentioned in Notes & Queries.
+manuscript ‘Essays on the Philosophy of Analysis’ (1812–1820),^[Now held in the
+British Library as Add. MS&nbsp;37202.] although the game is never mentioned by
+name [@SourcesInRecreationalMathematics]. Later in 1842, ‘tit-tat-to’ occurs in
+his notebooks, where he conceptualizes an automaton that would play the game
+against a human [@ICommencedAnExamination; @SourcesInRecreationalMathematics].
 
 <figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
 class="wide"><div class="multi"><img itemprop="contentUrl"
@@ -97,7 +94,10 @@ appearance or goal of the game.
 
 In the former group we have: Dutch ‘[tik tak tol]{lang="nl"}’ [@Fiske, p. 122],
 or ‘[boter-kaas-en-eieren]{lang="nl"}’ (‘butter cheese and eggs’); and in
-Swedish  ‘[tripp, trapp, trull]{lang="sv"}’ [@Fiske, p. 137].
+Swedish ‘<audio
+src="/audio/pronunciation_sv_tripp,_trapp,_trull.mp3"></audio><span lang="sv"
+class="pronunciation" onclick="this.previousSibling.play()">tripp, trapp,
+trull</span>’ [@Fiske, p. 137].
 
 Like the English names, one Dutch name ([boter, melk, kaas]{lang="nl"}) is
 derived from the rhyme:
@@ -120,9 +120,9 @@ The languages with ‘folkish’ names also tend to have ‘functional’ names 
 an alternate Swedish name is ‘[tre-i-rad]{lang="sv"}’ (‘three in a row’), and
 Dutch also has ‘[kruisje rondje]{lang="nl"}’ (‘cross circle’).
 
-On the other hand, @Wordsworth [lines 538–544] didn’t think it was worthy of
-a name at all. In <cite>The Prelude</cite>, he describes playing the game as
-a child:
+On the other hand, Wordsworth didn’t think it was
+worthy of a name at all. In <cite>The Prelude</cite>, he describes playing the
+game as a child [@Wordsworth, lines 538–544]:
 
 > Eager and never weary we pursued  
 > Our home-amusements by the warm peat-fire  
@@ -146,12 +146,20 @@ commercial](/images/nc.svg)](https://creativecommons.org/licenses/by-nc/2.0/){it
 
 ## Play
 
+You know this, right?
+
+## Strategy
+
+See, e.g. @Gardner1 [p. 37–46].
+
+<!-- Claimed that “yih” 弈 is an old name for the game. No, this is go, or maybe
+something older. -->
+
 ## Variants
 
 ### The 15 Game
 
-This game is also known as “Number Scrabble” [@TheGameOfJAM] or “Pick15” (TODO:
-cite).
+This game is also known as “Number Scrabble” [@TheGameOfJAM] or “Pick15”.
 
 To play: Write down the numbers from 1–9 on a piece of paper. Each turn,
 a player claims a number for themselves by marking it, and a number can only be
@@ -177,14 +185,16 @@ This is another isomorphic variant invented by John Michon [@TheGameOfJAM].
 
 ### Spit
 
-Yet another isomorphic variant is [@WinningWaysV3, p. 732]:
+Yet another isomorphic variant is played as follows [@WinningWaysV3, p. 732]:
 
 Write down the nine words ‘Spit’, ‘Not’, ‘So’, ‘Fat’, ‘Fop’, ‘As’, ‘If’, ‘In’,
 and ‘Pan’ on separate pieces of paper. The players take turns taking a single
 card. A player wins if they collect all the cards with a given letter (e.g.
 ‘In’, ‘If’, and ‘Spit’ would win since these are all the words containing ‘i’).
 
-This can be shown to be the same game as follows:
+This can be shown to be the same game in this way (note that the number of
+letters in each word is the same as the number of lines that can be formed
+through that square):
 
 <table class="centred rule-first-row rule-first-col
 rule-last-col"><tbody><tr><td><strong
@@ -209,18 +219,7 @@ class="color-8-3">S</span><span class="color-8-8">O</span></td><td><span
 class="color-8-4">F</span><span class="color-8-8">O</span><span
 class="color-8-1">P</span></td><td/></tr> </tbody></table>
 
-## TODO
 
-
-@Gardner1 [p. 37–46]
-
-<!-- Claimed that “yih” 弈 is an old name for the game. No, this is go, or maybe
-something older. -->
-
-### Computer implementations
-
-* <https://en.wikipedia.org/wiki/Bertie_the_Brain>
-* <https://en.wikipedia.org/wiki/OXO>
 
 <figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
 class="wide"><img itemprop="contentUrl"
@@ -236,9 +235,28 @@ commercial](/images/nc.svg)![No
 derivatives](/images/nd.svg)](https://creativecommons.org/licenses/by-nc-nd/2.0/){itemprop="license"})
 </figcaption></figure>
 
+### Computer implementations
+
+
+Being a simple game, Tic-Tac-Toe is easily implemented on a computer, and so was
+one of the first computerized games. Some early versions include:
+
+* [<cite>Bertie the
+  Brain</cite>](https://en.wikipedia.org/wiki/Bertie_the_Brain) (analog, 1950)
+* [<cite>OXO</cite>](https://en.wikipedia.org/wiki/OXO) (for the EDSAC, 1952)
+
 ## References
 
 Some general references for the game are @OxfordBG [112–113], @Bell [p. 91], and
 @Murray2 [§3.2.1, p. 40].
 
 <hr/>
+
+<div id="refs" class="references"></div>
+
+## Audio Credits
+
+All audio is licensed under [CC-BY-NC-SA
+3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/). Pronunciations are by:
+
+* [tripp, trapp, trull]{lang="sv"} &copy; [tigris](https://forvo.com/user/tigris/).

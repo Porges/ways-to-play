@@ -110,10 +110,10 @@ houses on the left. (Map from the [University of
 Hawaiʻi](https://digicoll.manoa.hawaii.edu/savedmaps/Pages/viewtext.php?s=browse&tid=61&route=browseby.php&by=newest).)
 </figcaption> </figure>
 
-The game continued to be popular throughout the 19th century; @Brigham08 [p.
-378]^[William Brigham was the first director of Hawaii’s state museum.]
-reported that King Kalākaua (1836–1891) and his wife Queen Kapiʻolani
-(1834–1899) were “experts at konane”.
+The game continued to be popular throughout the 19th century; William Brigham
+(first director of Hawaii’s state museum) reported that King Kalākaua
+(1836–1891) and his wife Queen Kapiʻolani (1834–1899) were “experts at konane”
+[@Brigham08, p. 378].
 
 In current times, it is a popular game during the Makahiki (new year) festival
 [@MolokaiDispatch].

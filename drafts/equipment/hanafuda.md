@@ -776,7 +776,7 @@ can also be on the full moon card, or on the jokers.
 ## Manufacturers
 
 Many of these are taken from @ModernJapaneseWrappers and the manufacturers do
-not exist any more. Angel, Nintendo, and Ōishi Tengudō and the main ones still
+not exist any more. Angel, Nintendo, and Ōishi Tengudō are the main ones still
 in business. Matsui Tengudō appears to have been the last manufacturer making
 cards by hand [@SalterJapanese].
 

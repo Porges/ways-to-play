@@ -13,9 +13,9 @@ identical pieces.
 
 ### Equipment
 
-To play you will need a gridded board (@Murray2 [93] suggests 15&times;15 to
-18&times;18 squares), and enough pieces to fill all the spaces on it. All the
-pieces are the same.
+To play you will need a gridded board (Murray [@Murray2, 93] suggests
+15&times;15 to 18&times;18 squares), and enough pieces to fill all the spaces on
+it. All the pieces are the same.
 
 ### Setup
 
@@ -38,13 +38,13 @@ most pieces is the winner.
 board randomly filled with white, red, yellow, and green pieces."/><figcaption>A
 sample initial configuration for Murray’s variation.</figcaption></figure>
 
-@Murray2 [pp. 93–94] invented a variant in 1898. The undifferentiated pieces are
-replaced by pieces coloured white, yellow, red, and green, in the ratios
-4:3:2:1. The pieces now count points according to these ratios (i.e. green is
-worth 4 points while white is worth 1). To set up the board, the pieces are
-arranged randomly on the squares, and the first player must remove a white piece
-to begin. The player with the highest point value of pieces taken at the end
-wins.
+Murray [@Murray2, pp. 93–94] invented a variant in 1898. The undifferentiated
+pieces are replaced by pieces coloured white, yellow, red, and green, in the
+ratios 4:3:2:1. The pieces now count points according to these ratios (i.e.
+green is worth 4 points while white is worth 1). To set up the board, the pieces
+are arranged randomly on the squares, and the first player must remove a white
+piece to begin. The player with the highest point value of pieces taken at the
+end wins.
 
 <table> <caption>Example piece counts for different board sizes</caption>
 <thead><tr><th>Board

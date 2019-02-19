@@ -14,9 +14,19 @@ It was known in the past by many names in England. Some of them include
 ‘knockings in and out’ [@NotesOnTheAbbey, p. 20; @OnTheIndoorGamesOfSchoolBoys,
 p. 321].
 
-@Murray2 claims that a distinct game called ‘Nine Holes’ existed, but I don’t
-believe that it was separate to Three Men’s Morris, as all the references seem
-to track back to a single entry in @NaresGlossary [p. 345].
+Murray [@Murray2] claims that a distinct game called ‘Nine Holes’ existed, but
+I don’t believe that it was separate to Three Men’s Morris, as all the
+references seem to track back to a single entry in Robert Nares’
+<cite>Glossary</cite> [@NaresGlossary, p. 345].
+
+Writing in 1694,[@Hyde] Hyde said it (or the variant where 3 pieces line up on
+each side to begin with) was called “Che-Lo” in Chinese (i.e. [直六]{lang="zh"}
+[zhí liù]{lang="zh-Latn"} ‘straight six’^[Although he gives a corrupted
+character that looks more like [有]{lang="zh"}]), “Hugjurè” in Persian (probably
+[هجوره]{lang="fa"} “his majesty”, but he also said that each player has
+6 pieces), “cashlan gherra” in Irish (i.e. [caisleáin gearr]{lang="ga"} ‘short
+castle’), and “Copped-Crown” in Cumbria & Westmorland.
+
 
 In other parts of the world, it is known as Tapatan in the Philippines, or
 [六卒棋]{lang="yue-Hans-HK"} ([luk<sup>6</sup> zeot<sup>1</sup>
@@ -30,14 +40,6 @@ Ref: [@OxfordBG; @Bell, p. 91; @Murray2, §3.3, p. 41]
 To write up: Tapatan, Achi, Picaria.
 
 See also: Picaria in [@Zaslavsky; @TicTacToe].
-
-Hyde, writing in 1694, says it (or the variant where 3 pieces line up on each
-side to begin with) is called “Che-Lo” in Chinese. This is probably
-[直六]{lang="zh"} ([zhí liù]{lang="zh-Latn"} ‘straight six’), although he gives
-a corrupted character that looks more like [有]{lang="zh"}. In Persian he states
-it is “Hugjurè”, probably [هجوره]{lang="fa"} “his majesty”, but also says each
-player has 6 pieces. In Irish “cashlan gherra”—i.e. [caisleáin gearr]{lang="ga"}
-‘short castle’. Cumbria & Westmorland Copped-Crown.
 
 
 Also called corsicrown in Scotland [@Gallovidian, 142], played on a grid instead

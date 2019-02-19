@@ -188,6 +188,12 @@ td.centred, table.centred td {
   font-feature-settings: "salt";
 }
 
+/* Citations */
+
+/* - citations are lighter */
+.citation { color: grey }
+.citation a { color: #5a7cc9 }
+
 /* Side images */
 
 .side-image-r, .side-image-l {
@@ -214,7 +220,7 @@ td.centred, table.centred td {
     line-height: 1.1em;
 }
 
-.footnote-ref sup {
+.footnote-ref sup, .citation sup {
   line-height: 0;
 }
 
@@ -378,8 +384,8 @@ figure.wide {
 
 /* create a hanging indent for references */
 .references p {
-    margin-left: 3.5em;
-    text-indent: -3.5em;
+    margin-left: 3em;
+    text-indent: -3em;
 }
 
 /* Indexed game titles: */
@@ -402,14 +408,14 @@ span[id^="index-"] {
 
 /* Colourings */
 
-.color-8-1 { color: grey }
-.color-8-2 { color: red }
-.color-8-3 { color: indigo }
-.color-8-4 { color: orange }
-.color-8-5 { color: violet }
-.color-8-6 { color: goldenrod }
-.color-8-7 { color: blue }
-.color-8-8 { color: green }
+.color-8-1 { color: #e41a1c }
+.color-8-2 { color: #377eb8 }
+.color-8-3 { color: #4daf4a }
+.color-8-4 { color: #984ea3 }
+.color-8-5 { color: #ff7f00 }
+.color-8-6 { color: #ffff33 }
+.color-8-7 { color: #a65628 }
+.color-8-8 { color: #f781bf }
 
 /* Linear lists */
 
@@ -428,4 +434,5 @@ ul.linear li:first-child:before {
 ul.linear li {
     display: inline;
 }
+
 

@@ -440,7 +440,8 @@ references:
     given: Ralph E.
   publisher: Hurst & Blackett
   publisher-place: London, UK
-  issued: 1912
+  issued:
+      year: 1912
   URL: 'https://archive.org/details/in.ernet.dli.2015.81470'
 
 - id: IntroductionToShax
@@ -449,7 +450,8 @@ references:
   author:
   - family: Davies
     given: Rick
-  issued: 1988
+  issued:
+      year: 1988
   URL: "https://mogadishuimages.files.wordpress.com/2016/05/an-introduction-to-shax-a-somali-game2.pdf"
 
 - type: book
@@ -568,7 +570,8 @@ references:
   container-title: 'Journal of the Asiatic Society of Bengal'
   volume: '29 (New Series)'
   page: 167–170
-  issued: 1933
+  issued:
+      year: 1933
   URL: 'https://archive.org/stream/in.ernet.dli.2015.55416/2015.55416.Journal-Of-The-Asiatic-Society-Of-Bengalnew-Seriesvol29-1933#page/n203/mode/2up'
 
 - type: article-journal
@@ -580,7 +583,8 @@ references:
   container-title: "Journal of the Asiatic Society of Bengal"
   page: 117–127
   volume: "2 (New Series)"
-  issued: 1906
+  issued:
+      year: 1906
   URL: 'https://archive.org/stream/mobot31753003193114#page/116/mode/2up'
 
 - type: article-journal
@@ -940,7 +944,8 @@ references:
     family: Mann
   - given: Virginia
     family: Wayland
-  issued: 1973
+  issued:
+      year: 1973
   publisher: Sandford
   publisher-place: Surrey, England, UK
 
@@ -950,7 +955,8 @@ references:
   author:
   - given: Daina
     family: Chiba
-  issued: 2016
+  issued:
+      year: 2016
   URL: 'http://riichi.dynaman.net/'
 
 - type: book
@@ -961,7 +967,8 @@ references:
     family: Johnson
   - given: Antonietta
     family: Fazio-Johnson
-  issued: 2017
+  issued:
+      year: 2017
   ISBN:  '978-0-9992802-0-1'
   publisher: IndianWolf Studios
   publisher-place: Pittsburgh, PA, USA
@@ -972,7 +979,8 @@ references:
   author:
   - given: Claudia
     family: Zaslavsky
-  issued: 1999
+  issued:
+      year: 1999
   edition: 3
   ISBN:  '978-1-55652-350-2'
   publisher: Lawrence Hill Books
@@ -984,7 +992,8 @@ references:
   author:
   - given: Claudia
     family: Zaslavsky
-  issued: 1982
+  issued:
+      year: 1982
   ISBN:  '0-690-04317-1'
   publisher: Thomas Y. Crowell
   publisher-place: New York, NY, USA
@@ -1010,7 +1019,8 @@ references:
     given: George Frederick
   publisher: Cambridge University Press
   publisher-place: Cambridge, UK
-  issued: 1903
+  issued:
+      year: 1903
   URL: 'https://archive.org/details/macedonianfolklo00abborich'
 
 - type: book
@@ -1019,7 +1029,8 @@ references:
   author:
   - family: Hyde
     given: Thomas
-  issued: 1694
+  issued:
+      year: 1694
   publisher: Oxford University Press
   publisher-place: Oxford, UK
   URL: 'https://books.google.com.au/books?id=FIFcAAAAcAAJ'
@@ -1030,7 +1041,8 @@ references:
   author:
   - given: Willard
     family: Fiske
-  issued: 1905
+  issued:
+      year: 1905
   publisher: The Florentine Typographical Society
   publisher-place: Florence
   URL: 'https://archive.org/details/chessinicelandin00fiskuoft'
@@ -1051,7 +1063,8 @@ references:
 
 - type: book
   id: Wordsworth
-  issued: 1850
+  issued:
+      year: 1850
   title: 'The Prelude'
   author:
   - given: William
@@ -1063,7 +1076,8 @@ references:
 - type: book
   id: GamesBookForBoysAndGirls
   title: "The Games Book for Boys and Girls"
-  issued: 1897
+  issued:
+      year: 1897
   publisher: Ernest Nister
   publisher-place: London, UK
   URL: 'https://archive.org/details/gamesbookforboys00nist'
@@ -1074,7 +1088,8 @@ references:
   author:
   - given: Edward
     family: Moor
-  issued: 1823
+  issued:
+      year: 1823
   URL: "https://archive.org/details/suffolkwordsand00moorgoog"
   publisher-place: London, UK
 
@@ -1124,7 +1139,8 @@ references:
   - family: Monkhouse
     given: Cosmo
   container-title: "The Magazine of Art"
-  issued: 1884
+  issued:
+      year: 1884
   volume: 7
   page: 133–137
   publisher: "Cassel and Company"
@@ -1137,7 +1153,8 @@ references:
   author:
   - family: Woodson
     given: W. W.
-  issued: 1871
+  issued:
+      year: 1871
   volume: 3
   page: 371–375
   container-title: Our Monthly
@@ -1148,7 +1165,8 @@ references:
 - type: book
   id: GommeI
   title: "The Traditional Games of England, Scotland, and Ireland"
-  issued: 1894
+  issued:
+      year: 1894
   volume: I
   author:
   - family: Gomme
@@ -1160,7 +1178,8 @@ references:
 - type: book
   id: GommeII
   title: "The Traditional Games of England, Scotland, and Ireland"
-  issued: 1898
+  issued:
+      year: 1898
   volume: II
   author:
   - family: Gomme
@@ -1172,7 +1191,8 @@ references:
 - type: book
   id: MerylsBoardEnigma
   title: "The Merels Board Enigma"
-  issued: 2012
+  issued:
+      year: 2012
   author:
   - given: Marisa
     family: Uberti
@@ -1187,7 +1207,8 @@ references:
   author:
   - given: Maurice
     family: Kraitchik
-  issued: 1942
+  issued:
+      year: 1942
   publisher: Dover Publications
   publisher-place: New York
   URL: https://catalog.hathitrust.org/Record/005830903
@@ -1211,7 +1232,8 @@ references:
   author:
   - given: Stephen L.
     family: Desha
-  issued: 2000
+  issued:
+      year: 2000
   publisher: Kamehameha Schools Press
   publisher-place: Honolulu, Hawaii
   URL: "http://ulukau.org/cgi-bin/library?c=elibrary&l=en"
@@ -1222,7 +1244,8 @@ references:
   author:
   - given: John R. K.
     family: Clark
-  issued: 1985
+  issued:
+      year: 1985
   publisher: University of Hawaii Press
   ISBN: 978-0824809768
   URL: "https://books.google.com.au/books?id=ligZzOytgK4C"
@@ -1233,7 +1256,8 @@ references:
   author:
   - given: Marion
     family: Kelly
-  issued: 1980
+  issued:
+      year: 1980
   publisher: Bernice P. Bishop Museum
   publisher-place: Honolulu, Hawaii
   URL: "http://data.bishopmuseum.org/archaeology/docs/DRS_80_2MajesticKau.pdf"
@@ -1256,7 +1280,8 @@ references:
   author:
   - family: Buck
     given: Peter
-  issued: 1957
+  issued:
+      year: 1957
   publisher: Bishop Museum Press
   publisher-place: Honolulu, Hawaii
   ISBN: 1-58178-027-3
@@ -1268,7 +1293,8 @@ references:
   author:
   - family: Westervelt
     given: William Drake
-  issued: 1915
+  issued:
+      year: 1915
   publisher: Press of Geo. H. Ellis
   publisher-place: Boston, MA, USA
   URL: 'https://archive.org/details/legendsofoldhono01west'
@@ -1292,7 +1318,8 @@ references:
   author:
   - given: Haruo
     family: Shirane
-  issued: 2012
+  issued:
+      year: 2012
   publisher: Columbia University Press
   publisher-place: New York, NY, USA
   ISBN: 978-0-231-52652-4
@@ -1303,7 +1330,8 @@ references:
   author:
   - given: Helen
     family: McCollough
-  issued: 1968
+  issued:
+      year: 1968
   publisher: Stanford University Press
   publisher-place: Stanford, CA, USA
 
@@ -1313,7 +1341,8 @@ references:
   author:
   - given: Helen
     family: McCollough
-  issued: 1985
+  issued:
+      year: 1985
   publisher: Stanford University Press
   publisher-place: Stanford, CA, USA
   ISBN: 0804712581
@@ -1487,7 +1516,8 @@ references:
   author:
   - given: Gabi
     family: Greve
-  issued: 2006
+  issued:
+      year: 2006
   container-title: World Kigo Database
   URL: https://worldkigo2005.blogspot.com/2006/06/ricewine-sake-05.html
 
@@ -1497,7 +1527,8 @@ references:
   author:
       - given: Paul
         family: Atkins
-  issued: 2008
+  issued:
+      year: 2008
   container-title: The Journal of Asian Studies
   page: 947–970
   volume: 67
@@ -1510,7 +1541,8 @@ references:
   author:
       - given: Robert
         family: Huey
-  issued: 2002
+  issued:
+      year: 2002
   publisher: Harvard University Press
   publisher-place: Cambridge, MA, USA
   ISBN: 9780674008533
@@ -1532,7 +1564,8 @@ references:
 - type: book
   id: MathematicalWorkOfBabbage
   title: "The Mathematical Work of Charles Babbage"
-  issued: 1978
+  issued:
+      year: 1978
   publisher: Cambridge University Press
   publisher-place: Cambridge, UK
   author:
@@ -1603,21 +1636,24 @@ references:
   id: Cats325
   title: How to Play 3–2–5
   container-title: Cats at Cards
-  issued: 2016
+  issued:
+      year: 2016
   URL: http://www.catsatcards.com/Games/ThreeTwoFive.html
 
 - type: webpage
   id: Yahoo325
   title: How to play paanch-teen-do.....?
   container-title: Yahoo! Answers
-  issued: 2008
+  issued:
+      year: 2008
   URL: https://in.answers.yahoo.com/question/index?qid=20090217063034AA1SO5Y
 
 - type: webpage
   id: IndiaMike325
   title: Game......teen-do-Panch (3-2-5)
   container-title: India Mike
-  issued: 2008
+  issued:
+      year: 2008
   URL: https://www.indiamike.com/india/sports-in-india-f111/game-teen-do-panch-3-2-5-a-t51329/
 
 - type: webpage
@@ -1627,14 +1663,16 @@ references:
       - family: Sharma
         given: Swati 
   container-title: iJini
-  issued: 2010
+  issued:
+      year: 2010
   URL: https://ijini.blogspot.com/2010/04/most-popular-indain-card-games.html
 
 - type: webpage
   id: Gamesnomy325
   title: Teen do Paanch Card Game
   container-title: Gamesnomy
-  issued: 2011
+  issued:
+      year: 2011
   author:
       - family: Chadha
         given: Sujay 
@@ -1646,7 +1684,8 @@ references:
   author:
   - given: Helen
     family: McCollough
-  issued: 1988
+  issued:
+      year: 1988
   URL: https://books.google.co.nz/books?id=D5Oqj3TsMlUC
   publisher: Stanford University Press
   publisher-place: Stanford, CA, USA
@@ -1658,7 +1697,8 @@ references:
   author:
       - given: Robert
         family: Nares
-  issued: 1822
+  issued:
+      year: 1822
   publisher: Rivington & Co.
   publisher-place: London, UK
   URL: https://archive.org/details/bub_gb_OjITAAAAQAAJ
@@ -1669,13 +1709,15 @@ references:
   author:
     - given: Michael
       family: Nolan
-  issued: 2012
+  issued:
+      year: 2012
   URL: http://www.worldcamelotfederation.com/
 
 - type: book
   id: BradleysGames
   title: Bradley’s Game and Toy Catalogue 
-  issued: 1890
+  issued:
+      year: 1890
   URL: https://archive.org/details/catalogueofgames00milt/
   publisher: Milton Bradley Co.
   publisher-place: Springfield, MA, USA
@@ -1687,7 +1729,8 @@ references:
       - given: Bruce
         family: Whitehill
   container-title: "Step by Step: Proceedings of the Colloquium, Board Games in Academia IV"
-  issued: 2002
+  issued:
+      year: 2002
   publisher-place: Fribourg, Switzerland
   page: 37–47
   publisher: University Press, Fribourg University
@@ -1700,7 +1743,8 @@ references:
       - family: Neto 
         given: João 
   container-title: Trabsact Sagme Diaries
-  issued: 2013
+  issued:
+      year: 2013
   URL: https://sagme.blogspot.com/2013/06/peg-show-telka.html
 
 - type: article-journal
@@ -1710,7 +1754,8 @@ references:
       - family: Ludovici
         given: Leopold
   container-title: "The Journal of the Ceylon Branch of the Royal Asiatic Society of Great Britain & Ireland"
-  issued: 1873
+  issued:
+      year: 1873
   publisher: Ceylon Times Press
   publisher-place: Colombo, Sri Lanka
   pages: 17–41
@@ -1724,7 +1769,8 @@ references:
   author:
       - family: Parker
         given: Henry
-  issued: 1909
+  issued:
+      year: 1909
   publisher: Luzac & Co.
   publisher-place: London, UK
   URL: https://archive.org/details/ancientceylonacc00park
@@ -1735,7 +1781,8 @@ references:
   author:
       - family: Stahlhacke
         given: Peter 
-  issued: 2003
+  issued:
+      year: 2003
   URL: https://althofer.de/stahlhacke-lasker-morris-2003.pdf
 
 - type: article-journal
@@ -1744,7 +1791,8 @@ references:
   author:
       - family: Moloi
         given: Tshele J
-  issued: 2014
+  issued:
+      year: 2014
   container-title: Mediterranean Journal of Social Sciences
   volume: 5
   issue: 27
@@ -1757,7 +1805,8 @@ references:
   author:
       - family: Ntšihlele
         given: Flora Mpho
-  issued: 2003
+  issued:
+      year: 2003
   publisher: University of South Africa
   publisher-place: Pretoria, South Africa
   genre: PhD thesis
@@ -1769,7 +1818,8 @@ references:
   author:
       - given: Nkopodi
         family: Nkopodi
-  issued: 2001
+  issued:
+      year: 2001
   container-title: Proceedings of the International Conference on New Ideas in Mathematics Education
   page: 283–287
   editor:
@@ -1786,7 +1836,8 @@ references:
   author:
       - family: Debouck
         given: Pieterjan
-  issued: 2018
+  issued:
+      year: 2018
   publisher: University of Ghent
   publisher-place: Ghent, Belgium
   URL: https://lib.ugent.be/fulltxt/RUG01/002/478/969/RUG01-002478969_2018_0001_AC.pdf
@@ -1807,7 +1858,8 @@ references:
 - type: book
   id: IndigenousGamesRuleBook
   title: Indigenous Games Rule Book
-  issued: 2006
+  issued:
+      year: 2006
   publisher: Sport and Recreation South Africa
   publisher-place: Pretoria, South Africa
   URL: http://www.kzndsr.gov.za/LinkClick.aspx?link=GIS%2FIndigenous+Games+Rule+Book.pdf&tabid
@@ -1818,7 +1870,8 @@ references:
   author:
       - family: Powe
         given: Edward L.  
-  issued: 2015
+  issued:
+      year: 2015
   container-title: BLAC Foundation
   URL: http://blacfoundation.org/umlabalaba-article/
 
@@ -1830,7 +1883,8 @@ references:
         given: Nigel
   publisher: Samuel Weiser
   publisher-place: York Beach, ME, USA
-  issued: 1989
+  issued:
+      year: 1989
   ISBN: 0877286965
 
 - type: chapter
@@ -1840,10 +1894,12 @@ references:
   author:
       - given: Michael
         family: Sebbane
-  issued: 2000
+  issued:
+      year: 2000
   page: 226–231
   publisher: The Israel Exploration Society
   publisher-place: Jerusalem, Israel
+  URL: "https://www.academia.edu/30854592/Sebbane_M._2000._Two_Game_Boards._In_Y._Hirschfeld._Ramat_Hanadiv_Excavations.pdf" 
 
 - type: chapter
   id: GamesGreekAndRoman
@@ -1862,7 +1918,8 @@ references:
 - type: manuscript
   id: AlfonsoGames
   title: Libro de açedrex, dados e tablas
-  issued: 1283
+  issued:
+      year: 1283
   publisher: Alfonso X
   publisher-place: Toledo, Spain
 
@@ -1887,7 +1944,8 @@ references:
         given: Adolphe
       - family: Jacottet
         given: E.
-  issued: 1893
+  issued:
+      year: 1893
   publisher: Khatiso
   publisher-place: Moria, Limpopo, South Africa
   URL: https://books.google.co.nz/books?id=3CkUAAAAYAAJ
@@ -1903,7 +1961,8 @@ references:
   volume: 10
   issue: 4
   page: 345–353
-  issued: 1990
+  issued:
+      year: 1990
 
 - type: article-journal
   id: MkeleMorabaraba
@@ -1912,7 +1971,8 @@ references:
       - given: N.
         family: Mkele
   container-title: Journal of the National Institute for Personnel Research
-  issued: 1956
+  issued:
+      year: 1956
   volume: 6
   issue: 3
   page: 132–134
@@ -1924,14 +1984,16 @@ references:
       - given: Marie-Claude
         family: Mosimann–Barbier
   ISBN: 9781443856652
-  issued: 2014
+  issued:
+      year: 2014
   publisher: Cambridge Scholars Publishing
   publisher-place: Newcastle upon Tyne, England, UK
    
 - type: book
   id: TheWorldAndCattle
   title: The World and the Cattle
-  issued: 2008
+  issued:
+      year: 2008
   author:
       - family: Mopeli-Paulus
         given: Atwell Sidwell
@@ -1943,7 +2005,8 @@ references:
   id: Gallovidian
   title: The Scottish Gallovidian Encyclopedia
   URL: https://archive.org/details/scottishgallovi00mactgoog
-  issued: 1876
+  issued:
+      year: 1876
   author:
       - given: John
         family: MacTaggart
@@ -1958,7 +2021,8 @@ references:
       - given: Florian
         family: Heimann
   container-title: Board Game Studies Journal
-  issued: 2014
+  issued:
+      year: 2014
   issue: 8
   publisher: Associação Ludus
   publisher-place: Lisboa, Portugal
@@ -1979,7 +2043,8 @@ references:
         family: Guy
   publisher: A K Peters
   publisher-place: Natick, MA, USA
-  issued: 2003
+  issued:
+      year: 2003
   ISBN: 1567711438
 
 
@@ -1991,7 +2056,19 @@ references:
         family: Volker
   publisher: E. J. Brill
   publisher-place: Leiden, Netherlands
-  issued: 1975
+  issued:
+      year: 1975
   ISBN: 9004042954
+
+- type: webpage
+  id: FiggiUndMuliHaa
+  title: "Schweizerisches Idiotikon: Figgi und Müli haa"
+  publisher: "Schweizerdeutsches Wörterbuch"
+  publisher-place: Zürich, Switzerland
+  URL: https://www.idiotikon.ch/wortgeschichten1/368-figgi-und-mueli-haa
+  issued:
+    year: 2018
+    month: 3
+    day: 21
 
 ...

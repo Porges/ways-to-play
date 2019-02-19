@@ -113,8 +113,8 @@ pieces in a cross shape (with one empty square between).
 * Somali [irmaan]{lang="so"} ‘milch’ (i.e. milk-cow) [@SomaliGames, p. 505;
   @BritishSomaliland, p. 210; @IntroductionToShax].
 * Swiss [figgi]{lang="gsw"} or [figge]{lang="gsw"} (there is a saying that one
-  has one’s [«Figgi und Mühli»]{lang="gsw"}, “have two options open” CITE
-  `https://www.idiotikon.ch/wortgeschichten1/368-figgi-und-mueli-haa`).
+  has one’s [«Figgi und Müli»]{lang="gsw"}, meaning “to have two options open”
+  [@FiggiUndMuliHaa]).
 
 **Corner**: a position with three pieces in a corner, which cannot be prevented from forming
 a mill upon the next turn.

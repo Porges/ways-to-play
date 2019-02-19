@@ -8,20 +8,20 @@ players: 2
 
 [Shax]{lang="so" id="index-shax" .game-title} (pronounced “<audio
 src="/audio/pronunciation_so_shax.mp3"></audio><span class="pronunciation"
-onclick="this.previousSibling.play()">shah</span>” in Somali) is a [mill
+onclick="this.previousSibling.play()">shaħ</span>” in Somali) is a [mill
 game](/families/mill-games.html) from Somalia. In central and southern regions
 of Somalia it is called [jare]{lang="so"} ‘cut’ [@IntroductionToShax, p. 1].
 
 Unlike most mill games, captures cannot be made during the placement phase.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a
+<!-- <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a
 href="https://twitter.com/hashtag/Shax?src=hash&amp;ref_src=twsrc%5Etfw">#Shax</a>
 Somali traditional Board game on <a
 href="https://twitter.com/hashtag/HIBF2017?src=hash&amp;ref_src=twsrc%5Etfw">#HIBF2017</a>
 <a href="https://t.co/Zcf3S04xY2">pic.twitter.com/Zcf3S04xY2</a></p>&mdash;
 🐪Tirsit Yetbarek (\@tirsity) <a
 href="https://twitter.com/tirsity/status/890503033280507904?ref_src=twsrc%5Etfw">July
-27, 2017</a></blockquote>
+27, 2017</a></blockquote> -->
 
 ## Play
 
@@ -59,16 +59,10 @@ aheyn]{lang="so"} ‘give me a way without cutting’.
 
 There is no ‘flying’ rule.
 
-## TODO
-
-Ref: [@OxfordBG; @SomaliGames; @Zaslavsky, p. 9; @Murray2, §3.5.25, p. 48; @BritishSomaliland]
-
-TBC: Also known as Jar, Djelga, or Mororova. (Wiki)
-
-
-* https://twitter.com/ombui/status/890526494958784512
-
 ## References
+
+Other general references include: [@OxfordBG; @SomaliGames; @Zaslavsky, p. 9;
+@Murray2, §3.5.25, p. 48; @BritishSomaliland]
 
 <div id="refs" class="references"></div>
 

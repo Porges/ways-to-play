@@ -55,7 +55,7 @@ name [morabaraba]{lang="tn"} refers solely to a mancala game.
 A distinctive feature of this game is its bovine theme: in each language, the
 pieces are called ‘cows’. In seSotho this is
 [dikgomo]{lang="st"}/[likhomo]{lang="st"} (singular
-[kgomo]{lang="st"}/[khomo]{lang="st"}) [@UseOfMorabara, p. 588]. In isiZulu it
+[kgomo]{lang="st"}/[khomo]{lang="st"}) [@UseOfMorabara, p. 588]; in isiZulu it
 is [izinkomo]{lang="zu"} (singular [inkomo]{lang="zu"}). Forming a mill (‘gun’)
 allows you to “shoot” an opponent’s cow.
 
