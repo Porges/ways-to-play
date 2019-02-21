@@ -51,17 +51,28 @@ header, footer {
 .infobox {
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
+    padding-bottom: 1rem;
 }
 
-@media (min-width: 640px) {
+@media(min-width: 640px) {
+    .infobox {
+        margin: 1rem 1rem 1rem 0;
+        padding: 0 1rem 1rem 1rem;
+        float: left;
+        border: 1px solid lightgrey;
+    }
+}
+
+@media (min-width: 950px) {
     /* floats on big screens */
     .infobox {
-        float: right;
-        max-width: 18rem;
-        padding-left: 1rem;
-        margin-left: 1rem;
+        text-align: right;
+        width: 50%;
+        float: left;
+        margin: 0 0 0 calc(-50% - 3rem);
+        padding-right: 1rem;
         border: none;
-        border-left: 1px solid lightgrey;
+        border-right: 1px solid lightgrey;
     }
 }
 
@@ -133,7 +144,7 @@ h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
   font-weight: bold;
-  clear: both;
+  clear: right;
   page-break-after: avoid;
 }
 
@@ -242,7 +253,6 @@ article .infobox {
   font-family: "Archer SSm A", "Archer SSm B";
   font-size: 1.3rem;
   color: #555;
-
 }
 
 
