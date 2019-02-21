@@ -260,7 +260,7 @@ td.centred, table.centred td {
 
 /* Footnotes */
 
-.aside {
+aside {
     text-indent: -.7em;
     font-size: 0.8em;
 
@@ -272,7 +272,7 @@ td.centred, table.centred td {
     padding-left: 2rem;
 }
 
-.aside p:first-child {
+aside p:first-child {
     margin-top: .5rem;
 }
 
@@ -283,7 +283,7 @@ td.centred, table.centred td {
     font-size: 0.8em;
 }
 
-.aside .footnote-marker {
+aside .footnote-marker {
     vertical-align: inherit;
     font-size: inherit;
 }
@@ -293,7 +293,7 @@ td.centred, table.centred td {
 }
 
 @media (min-width: 950px) {
-    .aside {
+    aside {
         width: 40%;
         margin: 0 -45% 0 0;
         font-size: 0.8em;
