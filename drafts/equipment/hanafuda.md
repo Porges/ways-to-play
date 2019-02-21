@@ -354,7 +354,7 @@ cherry blossoms.
 Blossom-viewing ([花見]{lang="ja"} <audio
 src="/audio/pronunciation_ja_花見.mp3"></audio><span lang="ja-Latn"
 class="pronunciation" onclick="this.previousSibling.play()">hanami</span>),
-particularly of cherry blossoms, is a custom that dates back to the Heian
+parti&shy;cularly of cherry blossoms, is a custom that dates back to the Heian
 period.
 
 The curtains ([幕]{lang="ja"} <audio

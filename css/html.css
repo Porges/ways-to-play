@@ -13,6 +13,10 @@ article {
     text-align: justify;
 }
 
+.multi {
+    text-align: left;
+}
+
 @font-face {
     font-family: "UniHentaiKana";
     src: url('/fonts/UniHentaiKana-Regular.woff') format('woff');
@@ -32,6 +36,14 @@ body {
 
 header {
   border-bottom: 0.2rem solid #000;
+}
+
+section {
+    display: flow-root;
+}
+
+section.header {
+    display: block;
 }
 
 footer {
@@ -66,25 +78,17 @@ article .infobox {
     padding-bottom: 1rem;
 }
 
-@media(min-width: 640px) {
-    .infobox {
-        margin: 1rem 1rem 1rem 0;
-        padding: 0 1rem 1rem 1rem;
-        float: left;
-        border: 1px solid lightgrey;
-    }
-}
-
 @media (min-width: 950px) {
     /* floats on big screens */
     .infobox {
+        margin: 1rem 1rem 1rem 0;
+        padding: 0 1rem 1rem 1rem;
+        border: none;
+        border-right: 1px solid lightgrey;
         text-align: right;
         width: 40%;
         float: left;
         margin: 0 0 0 calc(-45% - 3rem);
-        padding-right: 1rem;
-        border: none;
-        border-right: 1px solid lightgrey;
     }
 }
 
@@ -156,7 +160,6 @@ h4, h5, h6 {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Gotham SSm A", "Gotham SSm B", sans-serif;
   font-weight: bold;
-  clear: right;
   page-break-after: avoid;
 }
 
@@ -261,19 +264,25 @@ td.centred, table.centred td {
 /* Footnotes */
 
 aside {
+    opacity: 0.5;
+
     text-indent: -.7em;
     font-size: 0.8em;
 
     text-align: left;
 
-    width: 40%;
+    width: 45%;
     clear: right;
     float: right;
     padding-left: 2rem;
 }
 
+aside:hover {
+    opacity: 1;
+}
+
 aside p:first-child {
-    margin-top: .5rem;
+    margin-top: 0;
 }
 
 .footnote-marker {
@@ -292,11 +301,10 @@ aside .footnote-marker {
     text-decoration: underline;
 }
 
-@media (min-width: 950px) {
+@media (min-width: 1200px) {
     aside {
         width: 40%;
         margin: 0 -45% 0 0;
-        font-size: 0.8em;
     }
 }
 
@@ -452,6 +460,7 @@ figure.wide {
     position: relative;
     width: 80rem;
     left: -10rem;
+    clear: both;
   }
 }
 

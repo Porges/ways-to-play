@@ -14,16 +14,17 @@ Hawaiian abstract game for two players. While it looks similar to checkers at
 first glance, the object of the game is different, and the strategy is very
 deep.
 
-## History
-
-<figure class="side-image-r" itemscope="itemscope"
-itemtype="http://schema.org/Photograph"> <img itemprop="image"
-src="/images/konane_960-1600.jpg" alt="A child playing kōnane."/> <figcaption>A
-game of [kōnane]{lang="haw"} in action ([![Public
+<figure itemscope="itemscope" itemtype="http://schema.org/Photograph"><img
+itemprop="image" src="/images/konane_960-1600.jpg" alt="A child playing
+kōnane."/><figcaption>A game of [kōnane]{lang="haw"} in action ([![Public
 Domain](/images/publicdomain.svg)](https://creativecommons.org/publicdomain/mark/1.0/){itemprop="license"}
 [NPS/Janice
 Wei](https://www.nps.gov/havo/learn/news/20180315_pr_april_events.htm){itemprop="sameAs"}).</figcaption>
 </figure> 
+
+
+## History
+
 
 [Kōnane]{lang="haw"} stands alone as a purely-abstract game in Hawaiian
 culture.^[John F. G. Stokes (1875–1960, an Australian archæologist on Hawaii)
