@@ -252,25 +252,25 @@ which bear the poem."/> <figcaption>[Echigo-bana]{lang="ja-Latn"} junk cards,
 with [tanka]{lang="ja-Latn"}.</figcaption></figure>
 
 In the [Echigo-bana]{lang="ja-Latn"} pattern, the junk cards carry
-a [tanka]{lang="ja-Latn"} composed by [Mina&shy;moto no Mune&shy;yuki]{lang="ja-Latn"
-.proper-noun} ([源宗于]{lang="ja"}, —983)^[[Mina&shy;moto no
-Mune&shy;yuki]{lang="ja-Latn" .proper-noun} was a Heian era poet, and named one of
-the ‘Thirty-Six Immortals of Poetry’.] at a poetry competition organized by the
-Empress during the reign of Emperor [Uda]{lang="ja-Latn" .proper-noun}
-([宇多天皇]{lang="ja"}). It is featured as poem 24 in the ‘Spring’ section of
-the <audio src="/audio/pronunciation_ja_古今和歌集.mp3"></audio><cite
-lang="ja-Latn" class="pronunciation proper-noun"
-onclick="this.previousSibling.play()">Kokin Wakashū</cite>
-(<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):
+a [tanka]{lang="ja-Latn"} composed by [Mina&shy;moto no
+Mune&shy;yuki]{lang="ja-Latn" .proper-noun} ([源宗于]{lang="ja"},
+—983)^[[Mina&shy;moto no Mune&shy;yuki]{lang="ja-Latn" .proper-noun} was a Heian
+era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.] at a poetry
+competition organized by the Empress during the reign of Emperor
+[Uda]{lang="ja-Latn" .proper-noun} ([宇多天皇]{lang="ja"}). It is featured as
+poem 24 in the ‘Spring’ section of the <audio
+src="/audio/pronunciation_ja_古今和歌集.mp3"></audio><cite lang="ja-Latn"
+class="pronunciation proper-noun" onclick="this.previousSibling.play()">Kokin
+Wakashū</cite> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New
+Poems”):^[@PoemsOfTheEchigobana notes that in the standard design printed by
+Nintendo and [Ōishi Tengudō]{lang="ja-Latn" .proper-noun}, the card is missing
+the [も]{lang="ja"} on the second ‘line’.]
 
 <div class="multi"><p lang="ja" class="vertical-rl">ときはなる<br/>松のみどりも
-^[@PoemsOfTheEchigobana notes that in the standard design printed by Nintendo
-and [Ōishi Tengudō]{lang="ja-Latn" .proper-noun}, the card is missing the
-[も]{lang="ja"} on the second ‘line’.]
 <br/>春くれば<br/>今ひとしほの<br/>色まさりけり</p><p>Even the verdure<br/>of
 foliage on the pine tree,<br/>“ever unchanging”,<br/>deepens into new
-richness<br/>now that springtime has arrived.<br/>[@KokinWakashu, 18]</p></div>
-
+richness<br/>now that springtime has arrived.<br/>[@KokinWakashu,
+18]</p></div>
 The junk cards of the [Awa&shy;bana]{lang="ja-Latn" .proper-noun} also carry the
 same poem.
 

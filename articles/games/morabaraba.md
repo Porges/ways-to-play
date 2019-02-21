@@ -23,7 +23,7 @@ Africans played the game [@MorabarabaGetOnBoard].
 Surprisingly, we know precisely who imported the game from Europe
 [@MkeleMorabaraba, 134; @FromBearnToSouthernAfrica, p. 79]: it was introduced to
 Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis
-(or Cazalis), a French protestant missionary. ^[Upon his return to France he
+(or Cazalis), a French protestant missionary.^[Upon his return to France he
 wrote about his experiences in <cite lang="fr">Les Bassoutos: Vingt-Trois Années
 de Séjour et D’Observations au Sud de L’Afrique</cite> (Paris, 1859) (later
 published in English as <cite>The Basutos: or Twenty-Three Years in South
@@ -64,14 +64,15 @@ allows you to “shoot” an opponent’s cow.
 The following description is based on Mind Sports South Africa’s “Generally
 Accepted Rules”. As with all traditional board games, local rules can vary.
 
-<figure class="side-image-r"><img src="/images/large_merels_with_diagonals.svg"
-/> <figcaption>Standard [Morabaraba]{lang="st" .game-title} is played on the
-large mill board with diagonals.</figcaption></figure>
 
 Each player has 12 pieces. Commonly, plastic or metal bottle caps are used in two
 contrasting colours.^[This is so common that even [commercial sets use bottle
 caps](https://www.instagram.com/p/BMBbRAzBg1z/), and it shows up in
 [computerized versions](https://www.instagram.com/p/Bf-isgxnIPF/) as a skeuomorphic feature.]
+
+<figure class="side-image-r"><img src="/images/large_merels_with_diagonals.svg"
+/> <figcaption>Standard [Morabaraba]{lang="st" .game-title} is played on the
+large mill board with diagonals.</figcaption></figure>
 
 During the placement phase, players must place a single piece on any vacant
 point of the board. Once all their pieces are placed, players can move a single

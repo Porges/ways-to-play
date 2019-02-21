@@ -9,6 +9,10 @@ main {
     flex: 1 0 auto;
 }
 
+article {
+    text-align: justify;
+}
+
 @font-face {
     font-family: "UniHentaiKana";
     src: url('/fonts/UniHentaiKana-Regular.woff') format('woff');
@@ -48,6 +52,14 @@ header, footer {
   background-color: #333;
 }
 
+/* Infobox */
+
+article .infobox {
+  font-family: "Archer SSm A", "Archer SSm B";
+  font-size: 1.3rem;
+  color: #555;
+}
+
 .infobox {
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
@@ -67,9 +79,9 @@ header, footer {
     /* floats on big screens */
     .infobox {
         text-align: right;
-        width: 50%;
+        width: 40%;
         float: left;
-        margin: 0 0 0 calc(-50% - 3rem);
+        margin: 0 0 0 calc(-45% - 3rem);
         padding-right: 1rem;
         border: none;
         border-right: 1px solid lightgrey;
@@ -218,18 +230,19 @@ td.centred, table.centred td {
 /* - citations are lighter */
 .citation { color: grey }
 .citation a { color: #5a7cc9 }
+.citation sup { line-height: 0 }
 
 /* Side images */
 
 .side-image-r, .side-image-l {
-  max-width: 50%;
-  position: relative;
-  margin-bottom: 0.5rem;
+  max-width: 45%;
+  margin-bottom: 1rem;
 }
 
 .side-image-r {
   float: right;
-  margin-left: 1.5rem;
+  clear: right;
+  margin-left: 1rem;
   margin-right: 0;
 }
 
@@ -245,16 +258,47 @@ td.centred, table.centred td {
     line-height: 1.1em;
 }
 
-.footnote-ref sup, .citation sup {
-  line-height: 0;
+/* Footnotes */
+
+.aside {
+    text-indent: -.7em;
+    font-size: 0.8em;
+
+    text-align: left;
+
+    width: 40%;
+    clear: right;
+    float: right;
+    padding-left: 2rem;
 }
 
-article .infobox {
-  font-family: "Archer SSm A", "Archer SSm B";
-  font-size: 1.3rem;
-  color: #555;
+.aside p:first-child {
+    margin-top: .5rem;
 }
 
+.footnote-marker {
+    color: crimson;
+    vertical-align: super;
+    line-height: 0;
+    font-size: 0.8em;
+}
+
+.aside .footnote-marker {
+    vertical-align: inherit;
+    font-size: inherit;
+}
+
+.asided:hover .footnote-marker  {
+    text-decoration: underline;
+}
+
+@media (min-width: 950px) {
+    .aside {
+        width: 40%;
+        margin: 0 -45% 0 0;
+        font-size: 0.8em;
+    }
+}
 
 .logo a {
   font-family: "Archer SSm A", "Archer SSm B";
@@ -409,6 +453,11 @@ figure.wide {
     width: 80rem;
     left: -10rem;
   }
+}
+
+/* References */
+.references {
+    text-align: left;
 }
 
 /* create a hanging indent for references */

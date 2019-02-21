@@ -72,7 +72,7 @@ figure {
 
 /* Centre captions: */
 figcaption {
-    margin: 0 5%;
+    margin: 1rem 5%;
     text-align: center;
     font-size: 0.8em;
 }
@@ -98,8 +98,6 @@ div.multi {
     display: flex;
     max-width: 100%;
     justify-content: space-around;
-
-    clear:both;
 }
 
 div.multi > img {
