@@ -14,6 +14,18 @@ of the standardized version is very similar to [Twelve Men’s
 Morris](/games/twelve-mens-morris.html){.game-title} (with a few minor
 differences), but the version played in Lesotho has a unique board.
 
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject"><img itemprop="contentUrl"
+src="/images/8237668945_878d81116c_o-1600.jpg" alt="A well-used morabaraba board
+with two different types of bottle caps for pieces." /><figcaption>A Sotho-style
+morabaraba board in Kliptown, Soweto
+(©[2012]{itemprop="copyrightYear"}&nbsp;[[[Kandukuru
+Nagarjun]{itemprop="name"}]{itemprop="copyrightHolder"
+itemtype="http://schema.org/Person"
+itemscope="itemscope"}](https://www.flickr.com/photos/nagarjun/8237668945){itemprop="sameAs
+url"}, [![Creative
+Commons](/images/cc.svg)![Attribution](/images/by.svg)](https://creativecommons.org/licenses/by/2.0/){itemprop="license"})</figcaption></figure>
+
 [Morabaraba]{lang="st" .proper-noun .game-title} is played as a competitive
 sport in South Africa, administered by [Mind Sports South
 Africa](http://mindsportsa.co.za/). It is widely played throughout the country;
@@ -119,6 +131,7 @@ only be the middle piece of a mill. Other lines of three formed with the central
 point do not count as mills.
 
 Note that it is not possible to form a diagonal mill on this board.
+
 
 <figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
 class="wide"><img itemprop="contentUrl"

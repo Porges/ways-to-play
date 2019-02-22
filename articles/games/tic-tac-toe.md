@@ -10,10 +10,8 @@ players that is well-known as being a draw if played ‘rationally’. Unlike mo
 board games, pieces cannot be moved or removed once placed, making it an ideal
 game to play with pen & paper.
 
-## History
-
-<figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
-class="side-image-r"><img itemprop="contentUrl"
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject"><img itemprop="contentUrl"
 src="/images/170341558_785e3e7d31_o.jpg" alt="Several completed games of
 tic-tac-toe chalked onto the ground." /><figcaption>Chalked tic-tac-toe
 boards<br/>
@@ -23,6 +21,9 @@ itemscope="itemscope"}](https://www.flickr.com/photos/taquai/170341558/){itempro
 url"}, [![Creative
 Commons](/images/cc.svg)![Attribution](/images/by.svg)](https://creativecommons.org/licenses/by/2.0/){itemprop="license"},
 cropped) </figcaption></figure>
+
+
+## History
 
 
 The origins of tic-tac-toe are unclear. Many sources claim that it dates from

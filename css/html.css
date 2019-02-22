@@ -1,3 +1,7 @@
+:root {
+    --lh: 22.5px; /* from browser */
+}
+
 html {
   height: 100%;
   font-size: 62.5%;
@@ -28,7 +32,7 @@ body {
   height: 100vh; /* apparently fixes something in IE10/11 */
 
   font-size: 1.5rem;
-  line-height: 1.2em; /* this is the default but it fixes issues with Han characters intermingled in Latin */
+  line-height: 1.5em; /* this is the default but it fixes issues with Han characters intermingled in Latin */
   font-family: "Mercury SSm A", "Mercury SSm B", Georgia, serif, "UniHentaiKana"; /* fallback for Hentaigana chars */
   font-weight: 300;
   font-variant-numeric: oldstyle-nums;
@@ -106,7 +110,8 @@ article .infobox {
 }
 
 p {
-    margin-top: 1rem;
+    margin-top: 0;
+    margin-bottom: var(--lh);
 }
 
 nav {
@@ -147,9 +152,23 @@ h2 {
   font-size: 2rem;
 }
 
-h2, h3 {
-    margin-top: 3rem;
+h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+h2::before { font-family: serif; font-weight: 100; content: "― " }
+h2::after { font-family: serif; font-weight: 100; content: " ―" }
+
+h3 {
+    margin-top: 2rem;
     margin-bottom: 1rem;
+}
+
+h2 + section > h3,
+h3 + section > h4 {
+    margin-top: 0;
 }
 
 h4, h5, h6 {
@@ -266,7 +285,7 @@ td.centred, table.centred td {
 aside {
     opacity: 0.5;
 
-    text-indent: -.7em;
+    text-indent: -.8em;
     font-size: 0.8em;
 
     text-align: left;
@@ -274,7 +293,7 @@ aside {
     width: 45%;
     clear: right;
     float: right;
-    padding-left: 2rem;
+    padding-left: var(--lh);
 }
 
 aside:hover {
@@ -440,6 +459,19 @@ figure>img {
 /* add a smaller version too */
 figure.small>img {
     max-height: 200px;
+}
+
+/* image borders */
+figure > img {
+    border: 1px solid black;
+}
+
+figure > img[src$=".svg"] { /* don't border diagrams */
+    border: none;
+}
+
+figure.wide > img {
+    border: 2px solid black;
 }
 
 /* don't limit height of wide images */
