@@ -46,10 +46,10 @@ him](http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-poin
 The introduction of the game had unintended consequences for the mission: young
 men preferred to play the game rather than attend mass
 [@FromBearnToSouthernAfrica, 79]. Obsession with the game also led herders to
-neglect their flocks [@FromBearnToSouthernAfrica, 79], so it is known by
-the epithet ‘morabaraba-that-betrays-herdboys’: “for when you play it, old or
-young, you forget your herds, and they wander into the corn...”
-[@TheWorldAndCattle, 56].
+neglect their flocks [@FromBearnToSouthernAfrica, 79], so it became known by the
+epithet ‘morabaraba-that-betrays-herdboys’: “for when you play it, old or young,
+you forget your herds, and they wander into the corn...” [@TheWorldAndCattle,
+56].
 
 The name [morabaraba]{lang="st"} comes from the seSotho language, and is related to the verb [ho raba
 raba]{lang="st"} ‘to roam/fly about in small circles’, as of a bird around its nest
