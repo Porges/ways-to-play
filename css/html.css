@@ -80,6 +80,7 @@ article .infobox {
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
     padding-bottom: 1rem;
+    margin: 1rem;
 }
 
 @media (min-width: 950px) {
