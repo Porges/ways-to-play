@@ -12,19 +12,16 @@ game to play with pen & paper.
 
 <figure itemprop="image" itemscope="itemscope"
 itemtype="http://schema.org/ImageObject"><img itemprop="contentUrl"
-src="/images/170341558_785e3e7d31_o.jpg" alt="Several completed games of
-tic-tac-toe chalked onto the ground." /><figcaption>Chalked tic-tac-toe
-boards<br/>
-(©[2006]{itemprop="copyrightYear"}&nbsp;[[[taquai]{itemprop="name"}]{itemprop="copyrightHolder"
+src="/images/7429845046_ddc7a1464a_o-1600.jpg" alt="Several games of tic-tac-toe
+scrawled on a concrete wall." /><figcaption>Some tic-tac-toe games
+(©[2012]{itemprop="copyrightYear"}&nbsp;[[[gerogeri]{itemprop="name"}]{itemprop="copyrightHolder"
 itemtype="http://schema.org/Person"
-itemscope="itemscope"}](https://www.flickr.com/photos/taquai/170341558/){itemprop="sameAs
+itemscope="itemscope"}](https://www.flickr.com/photos/65029995@N05/7429845046){itemprop="sameAs
 url"}, [![Creative
-Commons](/images/cc.svg)![Attribution](/images/by.svg)](https://creativecommons.org/licenses/by/2.0/){itemprop="license"},
-cropped) </figcaption></figure>
+Commons](/images/cc.svg)![Attribution](/images/by.svg)![No-Commercial](/images/nc.svg)![No-Derivatives](/images/nd.svg)](https://creativecommons.org/licenses/by-nc-nd/2.0/){itemprop="license"})</figcaption></figure>
 
 
 ## History
-
 
 The origins of tic-tac-toe are unclear. Many sources claim that it dates from
 antiquity, but to me it seems like a more recent invention—a degenerate version

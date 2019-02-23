@@ -159,6 +159,19 @@ similar to [damas]{lang="es"} (‘Spanish draughts’), which is known in Hawaii
 [mū]{lang="haw"}. However, it could also be used to play [kōnane]{lang="haw"} by
 playing the game on the diagonal.
 
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject" class="wide"><img
+itemprop="contentUrl" src="/images/33654775226_96814ca128_o-1600.jpg" alt="A
+photograph of a kōnane board set up for play on a beach, with two chairs carved
+from tree trunks." /><figcaption>A [kōnane]{lang="haw"} board at Alahaka Bay
+(©&nbsp;[[[[Deb]{itemprop="givenName"}
+[Nystrom]{itemprop="familyName"}]{itemprop="name"}]{itemprop="copyrightHolder"
+itemtype="http://schema.org/Person"
+itemscope="itemscope"}](https://www.flickr.com/photos/stella12/33654775226/){itemprop="sameAs"}
+[![Creative
+Commons](/images/cc.svg)![Attribution](/images/by.svg)](https://creativecommons.org/licenses/by/2.0/){itemprop="license"})
+</figcaption></figure>
+
 ### The pieces
 
 The game is played with black & white pebbles ([ʻiliʻili]{lang="haw"}); often
@@ -177,22 +190,24 @@ Commercially produced boards are readily available in Hawaii or online. They are
 often wooden, with black & white glass pieces. You could also play the game on
 a beach, using rocks & shells.
 
-<figure itemscope="itemscope" itemtype="http://schema.org/Photograph" class="wide"> <img
-itemprop="image" src="/images/33654775226_96814ca128_o-1600.jpg" alt="A
-photograph of a kōnane board set up for play on a beach, with two chairs carved
-from tree trunks." /> <figcaption>A [kōnane]{lang="haw"} board at Alahaka Bay
-(©&nbsp;[[[[Deb]{itemprop="givenName"}
-[Nystrom]{itemprop="familyName"}]{itemprop="name"}]{itemprop="copyrightHolder"
-itemtype="http://schema.org/Person"
-itemscope="itemscope"}](https://www.flickr.com/photos/stella12/33654775226/){itemprop="sameAs"}
-[![Creative
-Commons](/images/cc.svg)![Attribution](/images/by.svg)](https://creativecommons.org/licenses/by/2.0/){itemprop="license"})
-</figcaption> </figure>
-
 ## Play
 
 The board is set up by filling it with black and white pieces in a checkerboard
 pattern.
+
+
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject"><img itemprop="contentUrl"
+src="/images/24417651849_e661252c66_o-1600.jpg" alt="A kōnane board set up for
+play with pieces in a checkerboard pattern." /><figcaption>A
+[kōnane]{lang="haw"} board ready to play
+(©[2016]{itemprop="copyrightYear"}&nbsp;[[[Kris
+Arnold]{itemprop="name"}]{itemprop="copyrightHolder"
+itemtype="http://schema.org/Person"
+itemscope="itemscope"}](https://www.flickr.com/photos/43675529@N00/24417651849){itemprop="sameAs
+url"}, [![Creative
+Commons](/images/cc.svg)![Attribution](/images/by.svg)](https://creativecommons.org/licenses/by/2.0/){itemprop="license"})</figcaption></figure>
+
 
 To begin, the first player removes a piece from the centre of the board (or one
 of the squares adjacent to that, on an even-sized board), or from any corner.
