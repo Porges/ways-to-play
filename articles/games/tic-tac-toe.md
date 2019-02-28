@@ -98,7 +98,7 @@ class="pronunciation" onclick="this.previousSibling.play()">tripp, trapp,
 trull</span>’ [@Fiske, p. 137].
 
 Like the English names, one Dutch name ([boter, melk, kaas]{lang="nl"}) is
-derived from the rhyme:
+derived from the rhyme:[@WinningWaysV3, p. 732]
 
 <div class="multi"><p lang="nl">Boter, melk, kaas,<br/>ik ben de
 baas.</p><p>Butter, milk, cheese,<br/>I am the boss.</p></div>

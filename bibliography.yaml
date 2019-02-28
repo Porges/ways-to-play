@@ -1117,7 +1117,7 @@ references:
   container-title: 'The Archaeological Journal'
   volume: 33
   page: 15–48
-  URL: 'https://archive.org/details/archaeologicalj01unkngoog'
+  URL: 'https://archive.org/details/archaeologicalj01unkngoog/page/n46'
 
 - type: article-journal
   id: OnTheIndoorGamesOfSchoolBoys
@@ -1130,7 +1130,7 @@ references:
   container-title: 'The Archaeological Journal'
   volume: 49
   page: 319–328
-  URL: 'https://archive.org/details/archaeologicaljo49brit'
+  URL: 'https://archive.org/details/archaeologicaljo49brit/page/318'
 
 - type: article-journal
   id: MagazineOfArt
@@ -1758,7 +1758,7 @@ references:
       year: 1873
   publisher: Ceylon Times Press
   publisher-place: Colombo, Sri Lanka
-  pages: 17–41
+  page: 17–41
   volume: 5
   issue: 18
   URL: http://hdl.handle.net/2027/mdp.39015020463454
@@ -2070,5 +2070,72 @@ references:
     year: 2018
     month: 3
     day: 21
+
+- type: book
+  id: CrokerCrofton
+  title: "Researches in the south of Ireland"
+  author:
+      - given: Thomas Crofton
+        family: Croker
+  publisher: John Murray
+  publisher-place: Albemarle Street, London, UK
+  issued:
+      year: 1824
+  URL: https://archive.org/details/researchesinsout00crokuoft
+
+- type: article-journal
+  id: GentlemansMagazineLibrary
+  title: "Top-Castle"
+  container-title: "The Gentleman’s magazine library"
+  editor:
+      - family: Gomme
+        given: George Laurence
+  original-date:
+      year: 1818
+  issued:
+      year: 1883
+  publisher: Elliot Stock
+  publisher-place: Paternoster Row, London, UK
+  URL: https://archive.org/details/gentlemansmagazi01gommuoft/
+  author:
+      - family: Carey
+        given: John
+  page: 256–258
+
+- type: article-journal
+  id: LocalPlantNames
+  title: "Local plant names reveal that enslaved Africans recognized substantial parts of the New World flora"
+  container-title: Proceedings of the National Academy of Sciences
+  issued:
+      year: 2014
+      month: 12
+  volume: 111
+  issue: 50
+  author:
+    - family: van Andel
+      given: Tinde R.
+    - family: van ‘t Klooster
+      given: Charlotte I. E. A.
+    - family: Quiroz
+      given: Diana
+    - family: Towns
+      given: Alexandra M.
+    - family: Ruysschaert
+      given: Sofie
+    - family: van den Berg
+      given: Margot
+  URL: https://doi.org/10.1073/pnas.1418836111
+
+- type: article-journal
+  id: MetropoliticalVisitation
+  title: The Metropolitical Visitation of Archdeacon Laud
+  editor:
+      - given: A. Percival
+        family: Moore
+  container-title: Associated Architectural Societies Reports and Papers
+  issued:
+      year: 1907
+  volume: 29
+  page: 477–534
 
 ...

@@ -76,6 +76,12 @@ game.
 
 ## Terminology
 
+**Pieces**: names for the pieces.
+
+* Galloway, Scotland: “flitchers” [@Gallovidian, 142]
+
+
+
 **Mill**: three pieces in a row.
 
 * Icelandic [mylna]{lang="is"}, ‘mill’ [@Fiske, p. 138].

@@ -17,7 +17,7 @@ article {
     text-align: justify;
 }
 
-.multi {
+.multi, ul {
     text-align: left;
 }
 
@@ -94,6 +94,10 @@ article .infobox {
         width: 40%;
         float: left;
         margin: 0 0 0 calc(-45% - 3rem);
+    }
+    
+    .infobox ul {
+        text-align: right;
     }
 }
 

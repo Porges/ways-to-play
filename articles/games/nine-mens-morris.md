@@ -38,6 +38,31 @@ they are unable to make a valid move on their turn.
 
 ## History
 
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject" class="wide"><img itemprop="contentUrl"
+src="/images/DSCF0525-1600.jpg" alt="A weathered Nine Men’s Morris board
+scratched into some rock" /><figcaption>A Nine Men’s Morris board of unknown age
+in the Roman Agora, Athens (©[2014]{itemprop="copyrightYear"}&nbsp;[George
+Pollard]{itemprop="copyrightHolder author" itemtype="http://schema.org/Person"
+itemscope="itemscope"}, [![Creative
+Commons](/images/cc.svg)![Attribution](/images/by.svg)![No-Commercial](/images/nc.svg)![Share-Alike](/images/sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/){itemprop="license"})</figcaption></figure>
+
+The game dates from at least the Byzantine period, but no earlier trace of it
+has yet been found [@GamesGreekAndRoman, p. 3].^[@RamatHanadiv [p. 227]
+describes a board found in a Byzantine villa in [חורבת עקב]{lang="he"} ([Ḥorvat
+ʿAqav]{lang="he-Latn" .proper-noun}), dated 500–700&nbsp;CE.]
+
+A double-sided game board with a Nine Men’s Morris layout on one side was
+discovered as part of the 9th-century [Gokstad Viking ship
+burial](https://en.wikipedia.org/wiki/Gokstad_ship) discovered in Norway.
+
+Later on, it can be traced in English history through
+[visitation](https://en.wikipedia.org/wiki/Canonical_visitation) records
+[@MetropoliticalVisitation, p. 497]:
+
+> Bitteswell (1634): Robert Lord the Younger, for playing at nine men’s morris
+> in the churchyard on Sunday. (Admonished and dismissed.)
+
 <figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
 class="side-image-r"><img itemprop="contentUrl" src="/images/82-001079.jpg"
 alt="A peasant boy holding a Nine Men’s Morris board." /><figcaption>Detail from
@@ -48,26 +73,9 @@ author" itemtype="http://schema.org/Organization"
 itemscope="itemscope"}](https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits\_fil-de-soie\_tapisserie-technique\_laine-textile){itemprop="url
 sameAs"})</figcaption></figure>
 
-The game dates from at least the Byzantine period, but no earlier trace of it
-has yet been found [@GamesGreekAndRoman, p. 3].^[@RamatHanadiv [p. 227]
-describes a board found in a Byzantine villa in [חורבת עקב]{lang="he"} [Ḥorvat
-ʿAqav]{lang="he-Latn" .proper-noun}.]
-
 Ref: [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @Bell, p. 93; @Murray2,
-§3.5.4, p. 43; @Goddard1901; @GuptaD; @NotesAndQueriesS8V12, pp. 28, 89–90, 173,
-333]
+§3.5.4, p. 43; @Goddard1901; @NotesAndQueriesS8V12, pp. 28, 89–90, 173, 333]
 
-> Bitteswell (1634): Robert Lord the Younger, for playing at nine men’s morris
-> in the churchyard on Sunday. (Admonished and dismissed.)
-
-Source: A. Percival Moore (ed.), ‘The Metropolitical Visitation of Archdeacon
-Laud’, Associated Architectural Societies Reports and Papers, vol. 29 (1907),
-pp. 477-534. [497]
-
-https://wilhelmszabel.wordpress.com/2015/05/29/gokstad-ship-game-board-fragment/
-
-
-Called ‘nao-guti’ (TODO: lang, real script) [@GuptaD].
 
 Images:
 
@@ -153,25 +161,21 @@ Other English names for the game include:
 <li> Nine Stone Morris [@NotesAndQueriesS8V12, 89]</li>
 <li> Madell or Medal [@NotesAndQueriesS8V12, 333]</li>
 <li> Puzzle-Pound [@NotesAndQueriesS8V12, 333]</li>
-<li> Figmill (in Clarence, New York, USA) [@Figmill]</li>
+<li> Figmill (in Clarence, New York, USA) [@Figmill] (This name comes from an
+American manufacturer of equipment, but originally might derive from the Swiss
+term [«Figgi und Müli»]{lang="gsw"}.)</li>
 </ul>
 
-In Greece:
+### Other languages
 
-* [τὸ τριόδι]{lang="grc"} ‘trio’ [@MacedonianFolklore, p. 295], or
+* Bengali: [নয় গুটি]{lang="bn"} ([naẏa guṭi]{lang="bn-Latn"}) ‘nine
+  game’ [@GuptaD, p. 145]
+* Greek:  [τὸ τριόδι]{lang="grc"} ‘trio’ [@MacedonianFolklore, p. 295], or
   [τριώδιον]{lang="grc"} ‘triodium’ [@Hyde, 205].
-
-In Germany:
-
-* [Neunstein]{lang="de"} ‘nine stone’ or simply [Mühlespiel]{lang="de"} ‘mill
-  game’.
-
-Germany has a ‘world’ league, the “[Weltmühlespiel Dachverband]{lang="de"
+* German: [Neunstein]{lang="de"} ‘nine stone’ or simply [Mühlespiel]{lang="de"} ‘mill
+  game’. Germany has a ‘world’ league, the “[Weltmühlespiel Dachverband]{lang="de"
 .proper-noun}”: CITE `http://www.muehlespiel.eu/`
-
-In Switzerland:
-
-* [Nüünischtei]{lang="gsw"} (CITE:
+* Swiss: [Nüünischtei]{lang="gsw"} (CITE:
   `https://www.srf.ch/sendungen/schnabelweid/mundart-lexikon`)
 
 

@@ -29,6 +29,8 @@ during the placement phase.
 
 ## Also known as
 
+* Benali: [বারো গুটি পাইত পাইত]{lang="bn"} ([bārō-guṭi pāit
+  pāit]{lang="bn-Latn"})[@GuptaD, p. 145]
 * Sri Lanka: [නෙරෙංචි]{lang="si"} ([Nereṁci]{lang="si-Latn"}, often given as
   [Nerenchi]{lang="si-Latn"}) [@Zaslavsky, p. 16; @SportsAndGamesOfSinghalese,
   p. 34; @AncientCeylon, p. 577].

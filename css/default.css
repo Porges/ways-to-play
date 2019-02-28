@@ -7,7 +7,9 @@ span[lang|=si-Latn] /* Sinhalese Latin - otherwise dotted m has issues */
 }
 
 /* Italicize non-English (but Latin) languages: */
+span[lang|=bn-Latn], /* Bangla */
 span[lang|=de], /* German */
+span[lang|=ee], /* Ewe */
 span[lang|=es], /* Spanish */
 span[lang|=fr], /* French */
 span[lang|=ga], /* Gaelic */
