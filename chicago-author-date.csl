@@ -376,29 +376,11 @@
       <if variable="locator">
         <choose>
           <if locator="page" match="none">
-            <choose>
-              <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-                <choose>
-                  <if variable="volume">
-                    <group>
-                      <text term="volume" form="short" suffix=" "/>
-                      <number variable="volume" form="numeric"/>
-                      <label variable="locator" form="symbol" prefix=", " suffix=" "/>
-                    </group>
-                  </if>
-                  <else>
-                    <label variable="locator" form="symbol" suffix=" "/>
-                  </else>
-                </choose>
-              </if>
-              <else>
-                <label variable="locator" form="symbol" suffix=" "/>
-              </else>
-            </choose>
+            <label variable="locator" form="symbol" suffix=" "/>
           </if>
-          <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
-            <number variable="volume" form="numeric" suffix=":"/>
-          </else-if>
+          <!-- <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any"> -->
+          <!--   <number variable="volume" form="numeric" suffix=":"/> -->
+          <!-- </else-if> -->
         </choose>
         <text variable="locator"/>
       </if>
