@@ -2153,6 +2153,16 @@ references:
     year: 2016
   ISBN: 978-1-47422-119-1
 
-
+- type: book
+  id: TheVikingShipFromGokstad
+  title: "The Viking-Ship from Gokstad"
+  author:
+      - family: Nicolaysen
+        given: N.
+  issued:
+      year: 1882
+  publisher: Alb. Cammermeyer
+  publisher-place: Oslo, Norway
+  URL: http://dbooks.bodleian.ox.ac.uk/books/PDFs/401201988.pdf
 
 ...

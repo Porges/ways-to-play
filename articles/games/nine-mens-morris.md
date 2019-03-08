@@ -47,19 +47,20 @@ Pollard]{itemprop="copyrightHolder author" itemtype="http://schema.org/Person"
 itemscope="itemscope"}, [![Creative
 Commons](/images/cc.svg)![Attribution](/images/by.svg)![No-Commercial](/images/nc.svg)![Share-Alike](/images/sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/){itemprop="license"})</figcaption></figure>
 
-The game dates from at least the Byzantine period, and at the moment we do not
-have evidence for an earlier date [@GamesGreekAndRoman, p. 3].^[@RamatHanadiv
-[p. 227] describes a board found in a Byzantine villa in [חורבת עקב]{lang="he"}
-([Ḥorvat ʿAqav]{lang="he-Latn" .proper-noun}), dated 500–700&nbsp;CE.] Earlier
+The game dates from at least the Byzantine period,^[@RamatHanadiv [p. 227]
+describes a board found in a Byzantine villa in [חורבת עקב]{lang="he"} ([Ḥorvat
+ʿAqav]{lang="he-Latn" .proper-noun}), dated 500–700&nbsp;CE.] and at the moment
+we do not have evidence for an earlier date [@GamesGreekAndRoman, p. 3]. Earlier
 dates have often been proposed based upon the existence of boards carved on
 ancient monuments such as the Ramesseum [@AncientEgyptiansAtPlay, p. 144] and
 the Mortuary Temple of Seti I at Qurna [@AncientCeylon, p. 644], but these are
 not able to be dated definitively—the monument only provides an _earliest
 possible_ date.
 
-A double-sided game board with a Nine Men’s Morris layout on one side was
-discovered as part of the 9th-century [Gokstad Viking ship
-burial](https://en.wikipedia.org/wiki/Gokstad_ship) discovered in Norway.
+The game spread throughout Europe quickly: a double-sided game board with a Nine
+Men’s Morris layout on one side was found as part of the 9th-century [Gokstad
+Viking ship burial](https://en.wikipedia.org/wiki/Gokstad_ship) discovered in
+Norway [@TheVikingShipFromGokstad, pp. 44, 99].
 
 <figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
 class="side-image-r"><img itemprop="contentUrl" src="/images/82-001079.jpg"
@@ -71,7 +72,7 @@ author" itemtype="http://schema.org/Organization"
 itemscope="itemscope"}](https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits\_fil-de-soie\_tapisserie-technique\_laine-textile){itemprop="url
 sameAs"})</figcaption></figure>
 
-Later on, it can be traced in English history through
+Later, it can be traced in English history through
 [visitation](https://en.wikipedia.org/wiki/Canonical_visitation) records; one
 instance from Bitteswell in 1634 records that a certain Robert Lord the Younger
 was “admonished and dismissed” for “playing at nine men’s morris in the
