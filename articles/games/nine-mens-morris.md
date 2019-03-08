@@ -82,6 +82,22 @@ Images:
 * https://www.flickr.com/photos/23416307@N04/8377509552
 * https://www.flickr.com/photos/eob/4141913858
 
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject" class="wide"><img itemprop="contentUrl"
+src="/images/P1130411a-1600.jpg" alt="A Morris board in a brick wall, made out
+of black and red bricks" /><figcaption>A [jeu du moulin]{lang="fr"} in the
+south-west wall of the [Château du Moulin]{lang="fr" .proper-noun}
+([Loir-et-Cher]{lang="fr" .proper-noun}, France). Built between 1480–1501, this
+is a punny reference to the name of the original owner, [Philippe du
+Moulin]{lang="fr" .proper-noun}. There is another Three Men’s Morris board on
+the east wall, and the nearby [Château de Gien]{lang="fr" .proper-noun} has
+a similar motif [@MerylsBoardEnigma, p. 103].
+(©[2016]{itemprop="copyrightYear"}&nbsp;[[Ken
+Broadhurst]{itemprop="copyrightHolder author"
+itemtype="http://schema.org/Person"
+itemscope="itemscope"}](https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html),
+used with permission)</figcaption></figure>
+
 ## Variants
 
 ### With Dice
@@ -168,8 +184,7 @@ term [«Figgi und Müli»]{lang="gsw"}.)</li>
 
 ### Other languages
 
-* Bengali: [নয় গুটি]{lang="bn"} ([naẏa guṭi]{lang="bn-Latn"}) ‘nine
-  game’ [@GuptaD, p. 145]
+* Bengali: [নয় গুটি]{lang="bn"} ([naẏa guṭi]{lang="bn-Latn"}) ‘nine pieces’ [@GuptaD, p. 145]
 * Greek:  [τὸ τριόδι]{lang="grc"} ‘trio’ [@MacedonianFolklore, p. 295], or
   [τριώδιον]{lang="grc"} ‘triodium’ [@Hyde, 205].
 * German: [Neunstein]{lang="de"} ‘nine stone’ or simply [Mühlespiel]{lang="de"} ‘mill

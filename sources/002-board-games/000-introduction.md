@@ -1,6 +1,0 @@
-# Board games
-
-### Introduction
-
-
-
