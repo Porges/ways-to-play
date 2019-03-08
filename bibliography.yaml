@@ -1908,8 +1908,7 @@ references:
       - given: Ulrich
         family: Schädler
   issued:
-      - year: 2012
-        month: 11
+      year: 2013
   publisher: Wiley Blackwell
   URL: https://www.academia.edu/2135663/Games_Greek_and_Roman
   container-title: Encyclopedia of Ancient History
@@ -2137,5 +2136,23 @@ references:
       year: 1907
   volume: 29
   page: 477–534
+
+- type: book
+  id: AncientEgyptiansAtPlay
+  title: "Ancient Egyptians at Play"
+  author:
+      - family: Crist
+        given: Walter
+      - family: Dunn-Vaturi
+        given: Anne-Elizabeth
+      - family: de Voogt
+        given: Alex
+  publisher: Bloomsbury Academic
+  publisher-place: London, UK
+  issued: 
+    year: 2016
+  ISBN: 978-1-47422-119-1
+
+
 
 ...
