@@ -85,6 +85,7 @@ game.
 **Mill**: three pieces in a row.
 
 * Icelandic [mylna]{lang="is"}, ‘mill’ [@Fiske, p. 138].
+* SeSotho [molamu]{lang="st"} ‘staff’ [@BasothoChildren, p. 35].
 * Somali [charri]{lang="so"} ‘halter’ [@SomaliGames, p. 504; @BritishSomaliland,
   p. 130], <audio src="/audio/pronunciation_so_saddex.mp3"></audio><span lang="so" class="pronunciation"
   onclick="this.previousSibling.play()">saddex</span>

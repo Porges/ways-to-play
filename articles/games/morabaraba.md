@@ -47,16 +47,16 @@ The introduction of the game had unintended consequences for the mission: young
 men preferred to play the game rather than attend mass
 [@FromBearnToSouthernAfrica, 79]. Obsession with the game also led herders to
 neglect their flocks [@FromBearnToSouthernAfrica, 79], so it became known by the
-epithet ‘morabaraba-that-betrays-herdboys’: “for when you play it, old or young,
-you forget your herds, and they wander into the corn...” [@TheWorldAndCattle,
-56].
+epithet [sethetsabadisana]{lang="st"} ‘deceiver of the
+herd-boys’:[@BasothoChildren, p. 41] “for when you play it, old or young, you
+forget your herds, and they wander into the corn...” [@TheWorldAndCattle, 56]
 
-The name [morabaraba]{lang="st"} comes from the seSotho language, and is related to the verb [ho raba
-raba]{lang="st"} ‘to roam/fly about in small circles’, as of a bird around its nest
-[@SeSothoDictionary, p. 304]. In Nguni languages (isiZulu, isiXhosa), it is
-known as [(Um)labalaba]{lang="zu" .proper-noun}, with similar meaning
-[@GamesBasotho, p. 247–250], and in Ronga, spoken in Mozambique, it is called
-[Muravarava]{lang="rng" .proper-noun}.
+The name [morabaraba]{lang="st"} comes from the seSotho language, and is related
+to the verb [ho raba raba]{lang="st"} ‘to roam/fly about in small circles’, as
+of a bird around its nest [@SeSothoDictionary, p. 304]. In Nguni languages
+(isiZulu, isiXhosa), it is known as [(Um)labalaba]{lang="zu" .proper-noun}, with
+similar meaning [@GamesBasotho, p. 247–250], and in Ronga, spoken in Mozambique,
+it is called [Muravarava]{lang="rng" .proper-noun}.
 
 There are other names which are probably derived from the European name of
 ‘mill’ [@MkeleMorabaraba, 134]: an alternate seSotho name is [mmila]{lang="st"},
@@ -121,10 +121,11 @@ src="/images/large_merels_with_diagonals_and_centre.svg" /> <figcaption>The
 Sotho version of the game is played on a board with a central
 cross.</figcaption></figure>
 
-The Sotho version of the game is played on a special board where the centre
-square is also crossed, and the inner diagonals are missing, giving 25 points
-that can be played on [@IndigenousGamesRuleBook; @MkeleMorabaraba, p. 133]. This means that there is no
-possibility of a deadlock after the placement phase.
+The Sotho version of the game is played on a special board or flat stone
+([letlapa]{lang="st"})[@BasothoChildren, p. 35] where the centre square is
+also crossed, and the inner diagonals are missing, giving 25 points that can be
+played on [@IndigenousGamesRuleBook; @MkeleMorabaraba, p. 133]. This means that
+there is no possibility of a deadlock after the placement phase.
 
 Some rulesets (e.g. @BlacUmlabalaba) state that a piece on the central point can
 only be the middle piece of a mill. Other lines of three formed with the central

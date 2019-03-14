@@ -2165,4 +2165,80 @@ references:
   publisher-place: Oslo, Norway
   URL: http://dbooks.bodleian.ox.ac.uk/books/PDFs/401201988.pdf
 
+- type: article-newspaper
+  id: CrossOutALandmark
+  title: "Cross Out a Landmark On the Chinatown Tour"
+  author:
+      - family: Kaufman
+        given: Michael
+  issued:
+      year: 1993
+      month: 8
+      day: 14
+  container-title: The New York Times
+  URL: https://www.nytimes.com/1993/08/14/nyregion/about-new-york-cross-out-a-landmark-on-the-chinatown-tour.html
+
+- type: article-newspaper
+  id: ChinatownFairIsBack
+  title: "Chinatown Fair Is Back, Without Chickens Playing Tick-Tack-Toe"
+  author:
+      - family: Gregory
+        given: Kia
+  issued: 
+    year: 2012
+    month: 6
+    day: 10
+  container-title: The New York Times
+  URL: https://www.nytimes.com/2012/06/11/nyregion/chinatown-fair-returns-but-without-chicken-playing-tick-tack-toe.html
+
+- type: article-magazine
+  id: TheChickenVanishes
+  title: "The Chicken Vanishes"
+  author:
+      - family: Trillin
+        given: Calvin
+  issued:
+      year: 1999
+      month: 2
+      day: 8
+  container-title: The New Yorker
+  page: 38–41
+  URL: http://archives.newyorker.com/?i=1999-02-08#folio=038
+
+- type: pamphlet
+  id: BirdBrainManual
+  title: "Bird Brain Manual"
+  publisher: Animal Behavior Enterprises
+  URL: https://www3.uca.edu/iqzoo/Media/PDF/Manual/manual5.pdf
+
+- type: article-journal
+  id: TheMouseWhoReinforced
+  title: "Marian Breland Bailey: The Mouse Who Reinforced"
+  author:
+      - family: Marr
+        given: John N.
+  container-title: The Arkansas Historical Quarterly
+  volume: 61
+  issue: 1
+  issued:
+      season: Spring
+      year: 2002
+  page: 59–79
+  URL: https://www.jstor.org/stable/40031038
+
+- type: thesis
+
+- type: thesis
+  id: BasothoChildren
+  title: The Traditional Games of Basotho Children
+  author:
+      - family: Masiea
+        given: Joshua Rawley
+  issued:
+      year: 1973
+  publisher: University of Cape Town
+  publisher-place: Cape Town, South Africa
+  genre: Master’s thesis
+  URL: https://open.uct.ac.za/handle/11427/23281?show=full
+
 ...
