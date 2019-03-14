@@ -244,10 +244,10 @@ one of the first computerized games. Some early versions include:
 * [<cite>OXO</cite>](https://en.wikipedia.org/wiki/OXO) (for the EDSAC, 1952)
 
 Chickens have also been trained to ‘play’ the game [@CrossOutALandmark;
-@TheChickenVanishes; @ChinatownFairIsBack].^[The first of these games, “Bird
+@TheChickenVanishes; @ChinatownFairIsBack]. The first of these games, “Bird
 Brain”, was developed in the late 1970s by Animal Behavior Enterprises,
-a company that was founded by Marian & Keller Breland, students of B.
-F. Skinner, the behavioural psychologist [@TheMouseWhoReinforced, p. 73].] In
+a company that was founded by Marian & Keller Breland, students of B. F.
+Skinner, the behavioural psychologist [@TheMouseWhoReinforced, p. 73]. In
 reality, the game is rigged—the chicken only ever pushes a single button, and
 the move to be played is chosen by a computer [@BirdBrainManual].
 
