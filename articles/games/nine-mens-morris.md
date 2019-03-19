@@ -57,11 +57,6 @@ the Mortuary Temple of Seti I at Qurna [@AncientCeylon, p. 644], but these are
 not able to be dated definitively—the monument only provides an _earliest
 possible_ date.
 
-The game spread throughout Europe quickly: a double-sided game board with a Nine
-Men’s Morris layout on one side was found as part of the 9th-century [Gokstad
-Viking ship burial](https://en.wikipedia.org/wiki/Gokstad_ship) discovered in
-Norway [@TheVikingShipFromGokstad, pp. 44, 99].
-
 <figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
 class="side-image-r"><img itemprop="contentUrl" src="/images/82-001079.jpg"
 alt="A peasant boy holding a Nine Men’s Morris board." /><figcaption>Detail from
@@ -72,37 +67,19 @@ author" itemtype="http://schema.org/Organization"
 itemscope="itemscope"}](https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits\_fil-de-soie\_tapisserie-technique\_laine-textile){itemprop="url
 sameAs"})</figcaption></figure>
 
+The game spread throughout Europe quickly: a double-sided game board with a Nine
+Men’s Morris layout on one side was found as part of the 9th-century [Gokstad
+Viking ship burial](https://en.wikipedia.org/wiki/Gokstad_ship) discovered in
+Norway [@TheVikingShipFromGokstad, pp. 44, 99].
+
+Game sets with a chess board on one side and a Morris board on the other were
+very popular in the TODOth century.
+
 Later, it can be traced in English history through
 [visitation](https://en.wikipedia.org/wiki/Canonical_visitation) records; one
 instance from Bitteswell in 1634 records that a certain Robert Lord the Younger
 was “admonished and dismissed” for “playing at nine men’s morris in the
 churchyard on Sunday” [@MetropoliticalVisitation, p. 497].
-
-
-Ref: [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @Bell, p. 93; @Murray2,
-§3.5.4, p. 43; @Goddard1901; @NotesAndQueriesS8V12, pp. 28, 89–90, 173, 333]
-
-
-Images:
-
-* https://www.flickr.com/photos/23416307@N04/8377509552
-* https://www.flickr.com/photos/eob/4141913858
-
-<figure itemprop="image" itemscope="itemscope"
-itemtype="http://schema.org/ImageObject" class="wide"><img itemprop="contentUrl"
-src="/images/P1130411a-1600.jpg" alt="A Morris board in a brick wall, made out
-of black and red bricks" /><figcaption>A [jeu du moulin]{lang="fr"} in the
-south-west wall of the [Château du Moulin]{lang="fr" .proper-noun}
-([Loir-et-Cher]{lang="fr" .proper-noun}, France). Built between 1480–1501, this
-is a punny reference to the name of the original owner, [Philippe du
-Moulin]{lang="fr" .proper-noun}. There is another Three Men’s Morris board on
-the east wall, and the nearby [Château de Gien]{lang="fr" .proper-noun} has
-a similar motif [@MerylsBoardEnigma, p. 103].
-(©[2016]{itemprop="copyrightYear"}&nbsp;[[Ken
-Broadhurst]{itemprop="copyrightHolder author"
-itemtype="http://schema.org/Person"
-itemscope="itemscope"}](https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html),
-used with permission)</figcaption></figure>
 
 ## Variants
 
@@ -186,6 +163,7 @@ Other English names for the game include:
 <li> Figmill (in Clarence, New York, USA) [@Figmill] (This name comes from an
 American manufacturer of equipment, but originally might derive from the Swiss
 term [«Figgi und Müli»]{lang="gsw"}.)</li>
+<li>Nine Men’s Welcome [@PubGamesOfEngland, p. 103]</li>
 </ul>
 
 ### Other languages
@@ -199,5 +177,27 @@ term [«Figgi und Müli»]{lang="gsw"}.)</li>
 * Swiss: [Nüünischtei]{lang="gsw"} (CITE:
   `https://www.srf.ch/sendungen/schnabelweid/mundart-lexikon`)
 
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject" class="wide"><img itemprop="contentUrl"
+src="/images/P1130411a-1600.jpg" alt="A Morris board in a brick wall, made out
+of black and red bricks" /><figcaption>A [jeu du moulin]{lang="fr"} in the
+south-west wall of the [Château du Moulin]{lang="fr" .proper-noun}
+([Loir-et-Cher]{lang="fr" .proper-noun}, France). Built between 1480–1501, this
+is a punny reference to the name of the original owner, [Philippe du
+Moulin]{lang="fr" .proper-noun}. There is another Three Men’s Morris board on
+the east wall, and the nearby [Château de Gien]{lang="fr" .proper-noun} has
+a similar motif [@MerylsBoardEnigma, p. 103].
+(©[2016]{itemprop="copyrightYear"}&nbsp;[[Ken
+Broadhurst]{itemprop="copyrightHolder author"
+itemtype="http://schema.org/Person"
+itemscope="itemscope"}](https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html),
+used with permission)</figcaption></figure>
+
 
 ## References
+
+Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @Bell, p. 93; @Murray2,
+§3.5.4, p. 43; @Goddard1901; @NotesAndQueriesS8V12, pp. 28, 89–90, 173, 333;
+@PlayedAtThePub, p. 150].
+
+

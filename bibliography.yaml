@@ -2227,8 +2227,6 @@ references:
   URL: https://www.jstor.org/stable/40031038
 
 - type: thesis
-
-- type: thesis
   id: BasothoChildren
   title: The Traditional Games of Basotho Children
   author:
@@ -2240,5 +2238,43 @@ references:
   publisher-place: Cape Town, South Africa
   genre: Master’s thesis
   URL: https://open.uct.ac.za/handle/11427/23281?show=full
+
+- type: book
+  id: PubGamesOfEngland
+  title: "Pub Games of England"
+  author:
+    - family: Finn
+      given: Timothy
+  issued:
+      year: 1981
+  publisher: The Oleander Press
+  edition: 2
+  publisher-place: Cambridge, England, UK
+  ISBN: 0-900891-66-1
+
+- type: book
+  id: PlayedAtThePub
+  title: Played at the Pub
+  author:
+      - family: Taylor
+        given: Arthur
+  issued:
+      year: 2009
+  publisher: English Heritage
+  publisher-place: Swindon, England, UK
+
+- type: article-magazine 
+  id: RelayMoe
+  title: “Relay Moe” Plays Tick-Tack-Toe
+  author:
+      - family: Berkeley
+        given: Edmund C.
+  issued:
+      year: 1956
+      month: 12
+  container-title: Radio-Electronics
+  page: 50–52
+  
+  URL: https://www.vintagecomputer.net/cisc367/Radio%20Electronics%20Dec%201956%20Relay%20Moe%20Plays%20Tic-tac-toe.pdf
 
 ...

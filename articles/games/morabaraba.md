@@ -51,7 +51,7 @@ epithet [sethetsabadisana]{lang="st"} ‘deceiver of the
 herd-boys’:[@BasothoChildren, p. 41] “for when you play it, old or young, you
 forget your herds, and they wander into the corn...” [@TheWorldAndCattle, 56]
 
-The name [morabaraba]{lang="st"} comes from the seSotho language, and is related
+The name [morabaraba]{lang="st"} comes from the Sotho language, and is related
 to the verb [ho raba raba]{lang="st"} ‘to roam/fly about in small circles’, as
 of a bird around its nest [@SeSothoDictionary, p. 304]. In Nguni languages
 (isiZulu, isiXhosa), it is known as [(Um)labalaba]{lang="zu" .proper-noun}, with
@@ -59,13 +59,14 @@ similar meaning [@GamesBasotho, p. 247–250], and in Ronga, spoken in Mozambiqu
 it is called [Muravarava]{lang="rng" .proper-noun}.
 
 There are other names which are probably derived from the European name of
-‘mill’ [@MkeleMorabaraba, 134]: an alternate seSotho name is [mmila]{lang="st"},
-‘road’ [@UsingGamesToPromote, 283]. In Botswana, the game is called
-[mhele]{lang="tn"} (‘reedbuck’, a type of antelope [@OldTswana, 350]), and the
-name [morabaraba]{lang="tn"} refers solely to a mancala game.
+‘mill’ [@MkeleMorabaraba, 134]: an alternate Sotho name is
+[mmila]{lang="st"}/[’mila]{lang="st"}, ‘road’ [@UsingGamesToPromote, 283]. In
+Botswana, the game is called [mhele]{lang="tn"} (‘reedbuck’, a type of antelope
+[@OldTswana, 350]), and the name [morabaraba]{lang="tn"} refers solely to
+a mancala game.
 
 A distinctive feature of this game is its bovine theme: in each language, the
-pieces are called ‘cows’. In seSotho this is
+pieces are called ‘cows’. In Sotho this is
 [dikgomo]{lang="st"}/[likhomo]{lang="st"} (singular
 [kgomo]{lang="st"}/[khomo]{lang="st"}) [@UseOfMorabara, p. 588]; in isiZulu it
 is [izinkomo]{lang="zu"} (singular [inkomo]{lang="zu"}). Forming a mill (‘gun’)

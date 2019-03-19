@@ -242,6 +242,8 @@ one of the first computerized games. Some early versions include:
 * [<cite>Bertie the
   Brain</cite>](https://en.wikipedia.org/wiki/Bertie_the_Brain) (analog, 1950)
 * [<cite>OXO</cite>](https://en.wikipedia.org/wiki/OXO) (for the EDSAC, 1952)
+* <cite>Relay Moe</cite> (relay-based, 1965) [@RelayMoe], the first to be
+  programmed with a variable strategy and with a chance of making a mistake
 
 Chickens have also been trained to ‘play’ the game [@CrossOutALandmark;
 @TheChickenVanishes; @ChinatownFairIsBack]. The first of these games, “Bird
