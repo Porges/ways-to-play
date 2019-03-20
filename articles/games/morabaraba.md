@@ -1,7 +1,9 @@
 ---
 title: Morabaraba
 title-lang: st
-tags: players/2, perfect-information, country/South Africa
+
+tags: players/2, perfect-information, country/South Africa, boards/large mill
+
 country: South Africa
 players: 2
 published: 2018-12-13

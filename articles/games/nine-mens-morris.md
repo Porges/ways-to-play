@@ -2,7 +2,7 @@
 title: Nine Men’s Morris
 tags: players/2
 published: 2018-04-17
-tags: alignment, perfect-information, players/2
+tags: alignment, perfect-information, players/2, boards/large mill
 players: 2
 ---
 
@@ -42,20 +42,56 @@ they are unable to make a valid move on their turn.
 itemtype="http://schema.org/ImageObject" class="wide"><img itemprop="contentUrl"
 src="/images/DSCF0525-1600.jpg" alt="A weathered Nine Men’s Morris board
 scratched into some rock" /><figcaption>A Nine Men’s Morris board of unknown age
-in the Roman Agora, Athens (©[2014]{itemprop="copyrightYear"}&nbsp;[George
+in the Roman Agora, Athens (©[2014]{itemprop="copyrightYear"} [George
 Pollard]{itemprop="copyrightHolder author" itemtype="http://schema.org/Person"
 itemscope="itemscope"}, [![Creative
 Commons](/images/cc.svg)![Attribution](/images/by.svg)![No-Commercial](/images/nc.svg)![Share-Alike](/images/sa.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/){itemprop="license"})</figcaption></figure>
 
-The game dates from at least the Byzantine period,^[@RamatHanadiv [p. 227]
-describes a board found in a Byzantine villa in [חורבת עקב]{lang="he"} ([Ḥorvat
-ʿAqav]{lang="he-Latn" .proper-noun}), dated 500–700&nbsp;CE.] and at the moment
-we do not have evidence for an earlier date [@GamesGreekAndRoman, p. 3]. Earlier
-dates have often been proposed based upon the existence of boards carved on
-ancient monuments such as the Ramesseum [@AncientEgyptiansAtPlay, p. 144] and
-the Mortuary Temple of Seti I at Qurna [@AncientCeylon, p. 644], but these are
-not able to be dated definitively—the monument only provides an _earliest
-possible_ date.
+The game dates from at least the Byzantine period, and at the moment we do not
+have evidence for an earlier date [@GamesGreekAndRoman, p. 3].^[@RamatHanadiv
+[p. 227] describes a board found in a Byzantine villa in [חורבת עקב]{lang="he"}
+([Ḥorvat ʿAqav]{lang="he-Latn" .proper-noun}), dated 500–700&nbsp;CE, while
+a cache of gaming boards found in a Roman fort at [Abu Sha’ar]{lang="ar-Latn"}
+that was abandoned in the late 4th century contained no mills boards
+[@RomanGameBoards].] Earlier dates have often been proposed based upon the
+existence of boards carved on ancient monuments such as the Ramesseum
+[@AncientEgyptiansAtPlay, p. 144] and the Mortuary Temple of Seti I at Qurna
+[@AncientCeylon, p. 644], but these are not able to be dated definitively—the
+monument only provides an _earliest possible_ date.
+
+The game spread throughout Europe quickly: a double-sided game board with a Nine
+Men’s Morris layout on one side was found as part of the 9th-century [Gokstad
+Viking ship burial](https://en.wikipedia.org/wiki/Gokstad_ship) discovered in
+Norway [@TheVikingShipFromGokstad, pp. 44, 99].
+
+In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite>
+(<cite>Book of Games</cite>). In the same century the <cite lang="la">Bonus
+Socius</cite> series of manuscripts contained problems for the game, alongside
+other problems for chess and various table games [@Murray, p. 619]. 
+
+
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject"><img itemprop="contentUrl"
+src="/images/Nicolas_de_btv1b6000238t_361-1600.jpg" alt="Page from a manuscript
+with a Nine Men’s Morris board on it." /><figcaption>The first problem in one of
+the <cite>Bonus Socius</cite> manuscripts written in Picardy.<br/>(MS Latin
+10286, ©[[Bibliothèque nationale de France]{itemprop="copyrightHolder author"
+.proper-noun lang="fr" itemtype="http://schema.org/Organization"
+itemscope="itemscope"}](https://gallica.bnf.fr/ark:/12148/btv1b6000238t/f359.item){itemprop="url
+sameAs"})</figcaption></figure>
+
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject"><img
+itemprop="contentUrl" src="/images/O.2.45_010_O.2.45_p002-p003.jpg-1600.jpg"
+alt="Page from a manuscript with a Nine Men’s Morris board on it."
+/><figcaption>A 13th-century English manuscript from Cerne Abbey shows a Nine
+Men’s Morris board alongside an Alquerque board and another unidentified board.
+<br/> (MS O.2.45, ©[[Trinity College]{itemprop="copyrightHolder author"
+itemtype="http://schema.org/Organization"
+itemscope="itemscope"}](http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=668){itemprop="url
+sameAs"}, [![Creative
+Commons](/images/cc.svg)![Attribution](/images/by.svg)![No-Commercial](/images/nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/){itemprop="license"})</figcaption></figure>
+
 
 <figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
 class="side-image-r"><img itemprop="contentUrl" src="/images/82-001079.jpg"
@@ -67,21 +103,58 @@ author" itemtype="http://schema.org/Organization"
 itemscope="itemscope"}](https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits\_fil-de-soie\_tapisserie-technique\_laine-textile){itemprop="url
 sameAs"})</figcaption></figure>
 
-The game spread throughout Europe quickly: a double-sided game board with a Nine
-Men’s Morris layout on one side was found as part of the 9th-century [Gokstad
-Viking ship burial](https://en.wikipedia.org/wiki/Gokstad_ship) discovered in
-Norway [@TheVikingShipFromGokstad, pp. 44, 99].
-
-Game sets with a chess board on one side and a Morris board on the other were
-very popular in the TODOth century.
-
-Later, it can be traced in English history through
-[visitation](https://en.wikipedia.org/wiki/Canonical_visitation) records; one
-instance from Bitteswell in 1634 records that a certain Robert Lord the Younger
-was “admonished and dismissed” for “playing at nine men’s morris in the
-churchyard on Sunday” [@MetropoliticalVisitation, p. 497].
+In England the game has always had an association with rusticity, often
+mentioned as a game played by shepherds. It can be traced in English history
+through [visitation](https://en.wikipedia.org/wiki/Canonical_visitation)
+records; one instance from Bitteswell in 1634 records that a certain Robert Lord
+the Younger was “admonished and dismissed” for “playing at nine men’s morris in
+the churchyard on Sunday” [@MetropoliticalVisitation, p. 497].
 
 ## Variants
+
+### Alternate boards
+
+The standard rules can be adapted to play on many different boards. As in
+standard Nine Men’s Morris, mills must always be in a straight line and may not
+turn corners.
+
+<figure><div class="multi"><img src="/images/windmill.svg" /><img
+src="/images/merel-pentagon.svg" /><img src="/images/merel-pentagon2.svg"
+/></div><figcaption>Boards from [TODO: cite German book]: windmill, and two
+boards constructed from nested pentagons.</figcaption></figure>
+
+<figure><div class="multi"><img src="/images/merel-cube2.svg" /><img
+src="/images/merel-cube1.svg" /></div><figcaption>Two variations of a ‘cube’
+board by David Parlett [@OxfordBG, p. 122]. On the coloured board, a mill may
+not cross between differently-coloured regions, and the middle point may only be
+taken to complete a mill or prevent completion of a mill on the next
+turn.</figcaption></figure>
+
+<figure><div class="multi"><img src="/images/merel-mobius.svg" /><img
+src="/images/merel-pentagon3.svg" /><img src="/images/merel-hexagon.svg"
+/></div><figcaption>The Möbius board (invented by [Ingo Althöfer]{lang="de"
+.proper-noun}), another pentagonal board, and a hexagonal
+board.</figcaption></figure>
+
+### Mozog
+
+<figure><img src="/images/mozog-published.svg"
+/><figcaption>The Mozog board as published has 7 nested squares, giving 56
+points.</figcaption></figure>
+
+[Mozog](https://boardgamegeek.com/boardgame/22075/mozog){.game-title
+id="index-mozog"} is a variant created in 1984 by Wilhelm Reman, and it is
+played on a custom board. Each player has 20 pieces, and play is as in Nine
+Men’s Morris except that mills may not be made along the dotted lines on the
+board. The game is over when one player is reduced to two pieces.
+
+<figure class="small"><img src="/images/mozog.svg" /><figcaption>The board from
+the patent was much more complex, but with fewer squares.</figcaption></figure> 
+
+The version as originally patented (US
+[4,579,347](https://patents.google.com/patent/US4579347A)) is slightly
+different: the board is more complex and each player has 14 pieces.
+
 
 ### With Dice
 
@@ -192,7 +265,6 @@ Broadhurst]{itemprop="copyrightHolder author"
 itemtype="http://schema.org/Person"
 itemscope="itemscope"}](https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html),
 used with permission)</figcaption></figure>
-
 
 ## References
 

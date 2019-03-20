@@ -1,6 +1,6 @@
 ---
 title: Tic-Tac-Toe
-tags: players/2, perfect-information
+tags: players/2, perfect-information, boards/3×3
 players: 2
 published: 2018-04-15
 ---

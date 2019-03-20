@@ -2,7 +2,7 @@
 title: Shax
 title-lang: so
 published: 2018-04-26
-tags: alignment, perfect-information, players/2
+tags: alignment, perfect-information, players/2, boards/large mill
 players: 2
 ---
 

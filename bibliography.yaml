@@ -2274,7 +2274,35 @@ references:
       month: 12
   container-title: Radio-Electronics
   page: 50–52
-  
   URL: https://www.vintagecomputer.net/cisc367/Radio%20Electronics%20Dec%201956%20Relay%20Moe%20Plays%20Tic-tac-toe.pdf
+
+- type: book
+  id: Teeko
+  title: Scarne on Teeko
+  author:
+      - family: Scarne
+        given: John
+  original-date:
+      year: 1955
+  original-publisher: Crown Publishers
+  issued:
+      year: 2007
+  publisher: Lybrary.com
+
+- type: article-journal
+  id: RomanGameBoards
+  title: Roman Game Boards from Abu Sha’ar (Red Sea Coast, Egypt)
+  author:
+      - family: Mulvin
+        given: Lynda
+      - family: Sidebotham
+        given: Steven E.
+  issued:
+      year: 2004
+      month: 9
+  volume: 78
+  issue: 301
+  container-title: Antiquity
+  URL: https://doi.org/10.1017/S0003598X00113250
 
 ...

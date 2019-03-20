@@ -1,6 +1,6 @@
 ---
 title: Teeko
-tags: players/2, perfect-information
+tags: players/2, perfect-information, boards/5×5
 players: 2
 published: 2018-11-18
 ---
@@ -9,6 +9,10 @@ published: 2018-11-18
 Scarne](/people/john-scarne.html).
 
 ## History
+
+Teeko was developed over a period of 15 years by John Scarne [@Teeko]. He
+believed that it was a game to rival chess and checkers, and that it would
+eventually rank alongside (or above) them. Nowadays it is barely known.
 
 ## Equipment
 

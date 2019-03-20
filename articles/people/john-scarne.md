@@ -11,6 +11,6 @@ John Scarne (1903–1985).
 
 ## Games
 
-* [Teeko](/games/teeko.html){.game-title}
+* [Teeko](/games/teeko.html){.game-title} [@Teeko]
 
 ## Books
