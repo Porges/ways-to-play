@@ -16,6 +16,14 @@ eventually rank alongside (or above) them. Nowadays it is barely known.
 
 ## Equipment
 
+<figure><img src="/images/teeko.svg" /> <figcaption>Teeko is played on the
+points of a 5&times;5 grid.</figcaption></figure>
+
+
+<figure><div class="multi"><img src="/images/teeko-vertline.svg"
+/> <img src="/images/teeko-line.svg" /><img src="/images/teeko-diag.svg"
+/></div><figcaption>Examples of winning lines in Teeko.</figcaption></figure>
+
 ## Play
 
 ## Analysis
