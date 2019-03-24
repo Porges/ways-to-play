@@ -125,8 +125,7 @@ nav {
 }
 
 nav a {
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-size: 1.4rem;
   color: inherit;
   text-decoration: none;
   text-transform: uppercase;
@@ -337,7 +336,6 @@ aside .footnote-marker {
   color: inherit;
   font-weight: bold;
   text-decoration: none;
-  font-style: italic;
 }
 
 .copyrightInfo {
