@@ -36,14 +36,15 @@ Africans played the game [@MorabarabaGetOnBoard].
 
 Surprisingly, we know precisely who imported the game from Europe
 [@MkeleMorabaraba, 134; @FromBearnToSouthernAfrica, p. 79]: it was introduced to
-Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis
-(or Cazalis), a French protestant missionary.^[Upon his return to France he
-wrote about his experiences in <cite lang="fr">Les Bassoutos: Vingt-Trois Années
-de Séjour et D’Observations au Sud de L’Afrique</cite> (Paris, 1859) (later
-published in English as <cite>The Basutos: or Twenty-Three Years in South
-Africa</cite> (London: Nisbet, 1861)), but the book contains no mention of any
-board games. There is now [a roundabout](https://goo.gl/maps/jymZMMft3fB2) in
-his home town, [Orthez]{lang="fr" .proper-noun}, [named after
+Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène
+Casalis, a French protestant missionary.^[Sometimes also referred to as Cazalis,
+upon his return to France he wrote about his experiences in <cite lang="fr">Les
+Bassoutos: Vingt-Trois Années de Séjour et D’Observations au Sud de
+L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The Basutos:
+or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)), but the
+book contains no mention of any board games. There is now [a
+roundabout](https://goo.gl/maps/jymZMMft3fB2) in his home town,
+[Orthez]{lang="fr" .proper-noun}, [named after
 him](http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php).]
 The introduction of the game had unintended consequences for the mission: young
 men preferred to play the game rather than attend mass
