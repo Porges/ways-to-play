@@ -92,7 +92,7 @@ large mill board with diagonals.</figcaption></figure>
 
 During the placement phase, players must place a single piece on any vacant
 point of the board. Once all their pieces are placed, players can move a single
-piece from to another vacant point, along one of the lines.
+piece to another vacant point, along one of the lines.
 
 If a player places or moves a piece to form a new mill, they remove one of the
 opponent’s pieces. The removed piece may not be from a mill unless there are no
