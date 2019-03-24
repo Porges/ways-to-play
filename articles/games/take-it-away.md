@@ -9,8 +9,8 @@ updated: 2018-11-14
 
 [Take It Away]{.game-title id="index-take-it-away"} is a game for 2–4 players
 invented by [Sid Sackson](/people/sid-sackson.html) [@Gamut, pp. 142–143], in
-which players try to capture the most point value of pieces from a shared set of
-pieces on the board.
+which players try to achieve the highest score by capturing from a shared set
+of pieces on the board.
 
 ## Equipment
 
@@ -27,10 +27,10 @@ configuration.</figcaption> </figure>
 
 ## Play
 
-The first player removes any white chip from the board and places it in front of
-themselves. This counts as one of their captured pieces. A captured piece counts
-as points at the end of the game: 3 points for a blue piece, 2 points for a red
-piece, and 1 point for white.
+The first player starts the game by removing any white chip from the board and
+placing it in front of themselves. This counts as one of their captured pieces.
+A captured piece counts as points at the end of the game: 3 points for a blue
+piece, 2 points for a red piece, and 1 point for white.
 
 After this, the players take turns jumping a piece over another (including
 diagonally) and capturing the jumped piece. Multiple jumps may be made, and
