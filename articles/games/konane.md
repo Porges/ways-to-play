@@ -148,16 +148,17 @@ account implies a board of 14×17 squares, while Campbell’s account implies a 
 board. An archæological survey on the island of Lanai [@Emory24, p. 84] found 14
 boards, with sizes ranging from 8×8 to 13×20.^[The complete list of sizes found
 was: 8×8, 8×11, 8×13, 9×10 (2 boards), 9×13 (2), 10×10, 11×11, 11×13, 13×13,
-13×15, 13×20, and 15×15.] @PeterBuck shows two 12×15 boards from the Bishop
-Museum.^[One of these is also shown in @CulinHawaiian.]
+13×15, 13×20, and 15×15.] Peter Buck shows two 12×15 boards from the Bishop
+Museum [@PeterBuck].^[One of these is also shown by Culin [@CulinHawaiian].]
 
-@PeterBuck also describes another board in the Bishop Museum which has 10 rows
-that alternate in length between 6 & 7 holes. This seems to be the same board
-described by @Emory24 [p. 84], where the pits are set “quincuncially”. This is
-probably not a board for playing [kōnane]{lang="haw"}, but for playing a game
-similar to [damas]{lang="es"} (‘Spanish draughts’), which is known in Hawaii as
-[mū]{lang="haw"}. However, it could also be used to play [kōnane]{lang="haw"} by
-playing the game on the diagonal.
+Peter Buck also describes another board in the Bishop Museum which has 10 rows
+that alternate in length between 6 & 7 holes [@PeterBuck]. This seems to be the
+same board described by Emory, where the pits are set quincuncially
+[@Emory24, p. 84]. This is probably not a board for playing
+[kōnane]{lang="haw"}, but for playing a game similar to [damas]{lang="es"}
+(‘Spanish draughts’), which is known in Hawaii as [mū]{lang="haw"}. However, it
+could also be used to play [kōnane]{lang="haw"} by playing the game on the
+diagonal.
 
 <figure itemprop="image" itemscope="itemscope"
 itemtype="http://schema.org/ImageObject" class="wide"><img
@@ -226,7 +227,7 @@ possible.
 <figure itemscope="itemscope" itemtype="http://schema.org/Photograph" class="wide"> <img
 itemprop="image" src="/images/Z0092008-1600.jpg" alt="" /> <figcaption>A
 commercial version of [kōnane]{lang="haw"}. The board can be seen on the top of
-the box. (©&nbsp;[[[The Strong National Museum of
+the box.<br/>(©&nbsp;[[[The Strong National Museum of
 Play]{itemprop="name"}]{itemprop="copyrightHolder"
 itemtype="http://schema.org/Organization"
 itemscope="itemscope"}](http://www.museumofplay.org/online-collections/3/48/112.7273){itemprop="sameAs"}
@@ -236,7 +237,8 @@ Commons](/images/cc.svg)![Attribution](/images/by.svg)![Non-Commercial](/images/
 
 ## Analysis
 
-See @Ernst95 for game-theoretic analysis of various board positions.
+Michael Ernst has performed game-theoretic analysis of various board positions
+[@Ernst95].
 
 ## See also
 
