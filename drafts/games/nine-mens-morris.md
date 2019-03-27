@@ -64,10 +64,11 @@ Men’s Morris layout on one side was found as part of the 9th-century [Gokstad
 Viking ship burial](https://en.wikipedia.org/wiki/Gokstad_ship) discovered in
 Norway [@TheVikingShipFromGokstad, pp. 44, 99].
 
-In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite>
-(<cite>Book of Games</cite>). In the same century the <cite lang="la">Bonus
-Socius</cite> series of manuscripts contained problems for the game, alongside
-other problems for chess and various table games [@Murray, p. 619]. 
+In 1283 it appeared in Alfonso X’s [<cite lang="es">Libro de los
+Juegos</cite>](/sources/libro-de-los-juegos.html) (<cite>Book of Games</cite>).
+In the same century the <cite lang="la">Bonus Socius</cite> series of
+manuscripts contained problems for the game, alongside other problems for chess
+and various table games [@Murray, p. 619]. 
 
 
 <figure itemprop="image" itemscope="itemscope"
@@ -93,22 +94,24 @@ sameAs"}, [![Creative
 Commons](/images/cc.svg)![Attribution](/images/by.svg)![No-Commercial](/images/nc.svg)](https://creativecommons.org/licenses/by-nc/4.0/){itemprop="license"})</figcaption></figure>
 
 
-<figure itemprop="image" itemscope="itemscope" itemtype="http://schema.org/ImageObject"
-class="side-image-r"><img itemprop="contentUrl" src="/images/82-001079.jpg"
-alt="A peasant boy holding a Nine Men’s Morris board." /><figcaption>Detail from
-the 16th-century tapestry <cite lang="fr">Suite des Nobles
-Pastorales</cite><br/>(©&nbsp; [[[RMN-Grand Palais (musée du
-Louvre)]{itemprop="name" lang="fr" .proper-noun}]{itemprop="copyrightHolder
-author" itemtype="http://schema.org/Organization"
-itemscope="itemscope"}](https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits\_fil-de-soie\_tapisserie-technique\_laine-textile){itemprop="url
-sameAs"})</figcaption></figure>
-
 In England the game has always had an association with rusticity, often
 mentioned as a game played by shepherds. It can be traced in English history
 through [visitation](https://en.wikipedia.org/wiki/Canonical_visitation)
 records; one instance from Bitteswell in 1634 records that a certain Robert Lord
 the Younger was “admonished and dismissed” for “playing at nine men’s morris in
 the churchyard on Sunday” [@MetropoliticalVisitation, p. 497].
+
+<figure itemprop="image" itemscope="itemscope"
+itemtype="http://schema.org/ImageObject"><img
+itemprop="contentUrl" src="/images/82-001079.jpg" alt="A peasant boy holding
+a Nine Men’s Morris board." /><figcaption>Detail from the 16th-century tapestry
+<cite lang="fr">Suite des Nobles Pastorales</cite><br/>(©&nbsp; [[[RMN-Grand
+Palais (musée du Louvre)]{itemprop="name" lang="fr"
+.proper-noun}]{itemprop="copyrightHolder author"
+itemtype="http://schema.org/Organization"
+itemscope="itemscope"}](https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits\_fil-de-soie\_tapisserie-technique\_laine-textile){itemprop="url
+sameAs"})</figcaption></figure>
+
 
 ## Variants
 

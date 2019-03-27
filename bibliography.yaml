@@ -2305,4 +2305,100 @@ references:
   container-title: Antiquity
   URL: https://doi.org/10.1017/S0003598X00113250
 
+- type: paper-conference
+  id: OnTheRulesForTheRoyalGameOfUr
+  title: On the Rules for the Royal Game of Ur
+  author:
+      - given: Irving L.
+        family: Finkel
+  container-title: Ancient Board Games in Perspective
+  issued:
+      year: 2007
+  publisher-place: London, UK
+  page: 16–32
+  publisher: British Museum Press
+
+- type: paper-conference
+  id: TheEgyptianGameOfTwentySquares
+  title: The Egyptian ‘Game of Twenty Squares’
+  author:
+      - given: Edgar B.
+        family: Pusch
+  container-title: Ancient Board Games in Perspective
+  issued:
+      year: 2007
+  publisher-place: London, UK
+  page: 69–86
+  publisher: British Museum Press
+
+- type: thesis
+  id: DimensionsOfBookOfGames
+  title: "<cite lang='es'>Los Libros de Acedrex Dados e Tablas</cite>: Historical, Artistic, and Metaphysical Dimensions of Alfonso X’s <cite>Book of Games</cite>"
+  author:
+      - family: Golladay
+        given: Sonja Musser
+  issued:
+      year: 2007
+  publisher: University of Arizona
+  publisher-place: Arizona, USA
+  genre: PhD thesis
+  URL: https://www.ancientgames.org/wp-content/uploads/Los-libros-de-acedrex-dados-e-tablas-Historical-Artistic-and-Metaphysical-Dimensions-of-Alfonso-Xs-Book-of-Games-Sonja-Musser-Golladay-2007.pdf
+
+- type: book
+  id: BookOfGames
+  title: Alfonso X’s Book of Games
+  author:
+      - family: Golladay
+        given: Sonja Musser
+  issued:
+      year: 2003
+  URL: https://www.ancientgames.org/wp-content/uploads/Alfonso-Xs-Book-of-Games-Translated-by-Sonja-Musser-Golladay-2003.pdf
+
+- type: chapter
+  id: InfluenceAndPower
+  title: "Influence and Power: Arabic Iconography in Alfonso X’s <cite>Book of Chess</cite>"
+  author:
+      - family: Kennedy
+        given: Kirstin
+  editor:
+      - family: Lowden
+        given: John
+      - family: Bovey
+        given: Alixe
+  issued: 
+    year: 2007
+  container-title: "Under the Influence: The Concept of Influence and the Study of Illuminated Manuscripts"
+  page: 89–96
+  publisher: Brepols
+  publisher-location: Belgium
+  URL: https://www.academia.edu/15688480/Influence_and_Power_Arabic_Iconography_in_Alfonso_Xs_Book_of_Chess
+
+- type: article-journal
+  id: ChessAndCourtlyCulture
+  title: "Chess and Courtly Culture in Medieval Castile: The “Libro de ajedrez” of Alfonso X, el Sabio"
+  author:
+      - family: Constable
+        given: Olivia Remie
+  container-title: Speculum
+  volume: 82
+  issue: 2
+  issued:
+      year: 2007
+      month: 4
+  page: 301–347
+  URL: https://www.jstor.org/stable/20464089
+
+- type: article-journal
+  id: TheKingIsDead
+  title: "The King is Dead, Long Live the Game: Alfonso X, el Sabio, and the <cite lang='es'>Libro de açedrex, dados e tablas</cite>"
+  author:
+      - family: Fajardo-Acosta
+        given: Fidel
+  issued:
+      year: 2015
+  container-title: eHumanista
+  issue: 31
+  page: 489–523
+  URL: https://dialnet.unirioja.es/descarga/articulo/5457094.pdf
+  
 ...

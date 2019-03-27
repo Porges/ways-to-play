@@ -1,4 +1,4 @@
-﻿$rootPath = 'C:\Users\porges\game_book\docs'
+﻿$rootPath = 'C:\Users\porges\game_book\docs\games'
 
 pushd $rootPath
 
@@ -8,12 +8,12 @@ ls -r *.html | % {
 
     [xml]$doc = cat $_ -Encoding UTF8
 
-    $relPath = (Resolve-Path $_ -Relative).Substring(1).Replace('\', '/')
+    $relPath =  (Resolve-Path $_ -Relative).Substring(1).Replace('\', '/')
 
     $doc.SelectNodes('//*[starts-with(@id, "index-")]') | % {
         $node = $_
         #echo $node.InnerText
-        $dict[$node.InnerText] = "<li><a href='$relPath#$($node.id)'>$($node.InnerText)</a></li>"
+        $dict[$node.InnerText] = "<li><a href='/games$relPath#$($node.id)'>$($node.InnerText)</a></li>"
     }
 }
 
@@ -39,6 +39,8 @@ $dict.GetEnumerator() | % {
 
 $result += "</ul>"
 
+popd
+pushd 'C:\users\porges\game_book\docs'
 
 [xml]$index = cat 'archive.html' -Encoding UTF8
 $node = $index.SelectSingleNode('//*[@id="replace-index"]')
