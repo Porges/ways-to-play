@@ -87,11 +87,14 @@ game.
 * Icelandic [mylna]{lang="is"}, ‘mill’ [@Fiske, p. 138].
 * SeSotho [molamu]{lang="st"} ‘staff’ [@BasothoChildren, p. 35].
 * Somali [charri]{lang="so"} ‘halter’ [@SomaliGames, p. 504; @BritishSomaliland,
-  p. 130], <audio src="/audio/pronunciation_so_saddex.mp3"></audio><span lang="so" class="pronunciation"
-  onclick="this.previousSibling.play()">saddex</span>
-  ‘three’ [@BritishSomaliland, p. 130], or [jare]{lang="so"} ‘cut’
-  [@IntroductionToShax, p. 4].
-* Zulu [isibhamu]{lang="zu"} ‘gun’ – this is used to “shoot” the pieces (cows).
+  p. 130], <audio src="/audio/pronunciation_so_saddex.mp3"></audio><span
+  lang="so" class="pronunciation"
+  onclick="this.previousSibling.play()">saddex</span> ‘three’
+  [@BritishSomaliland, p. 130], or [jare]{lang="so"} ‘cut’ [@IntroductionToShax,
+  p. 4].
+* Zulu <audio src="/audio/pronunciation_zu_isibhamu.mp3"></audio><span lang="zu"
+  class="pronunciation" onclick="this.previousSibling.play()">isibhamu</span>
+  ‘gun’ – this is used to “shoot” the pieces (cows).
 
 **Cross-mill**: a position where a mill can be formed every other move, with
 pieces in a cross shape (with one empty square between).
@@ -147,6 +150,7 @@ All audio is licensed under [CC-BY-NC-SA
 * [afar]{lang="so"} and [saddex]{lang="so"} &copy;2013
   [ahmed\_aw\_abdi](https://forvo.com/user/ahmed_aw_abdi/).
 * [δίπορτο]{lang="el"} &copy; [jpapa](https://forvo.com/user/jpapa/).
+* [isibhamu]{lang="zu"} &copy; [Lungii](https://forvo.com/user/Lungii/).
 * [Zwickmühle]{lang="de"} &copy;
   [Thonatas](https://forvo.com/user/Thonatas/).
 * [Kreuzmühle]{lang="de"} &copy;
