@@ -122,9 +122,15 @@ standard Nine Men’s Morris, mills must always be in a straight line and may no
 turn corners.
 
 <figure><div class="multi"><img src="/images/windmill.svg" /><img
-src="/images/merel-pentagon.svg" /><img src="/images/merel-pentagon2.svg"
-/></div><figcaption>Boards from [TODO: cite German book]: windmill, and two
-boards constructed from nested pentagons.</figcaption></figure>
+src="/images/merel-pentagon.svg" alt="A board constructed from three nested
+pentagons with corners and side-middles connected." /><img
+src="/images/merel-pentagon2.svg" alt="A board constructed from five nested
+pentagons in alternating orientations."/></div><figcaption>Alternate boards of
+German origin [@KlassicheSpiele]: a ‘sun-mill’ (played with 12 pieces each), and
+two boards constructed from nested pentagons. The first pentagonal board is
+played with 11 pieces each, the second is designed to be played by two or more
+players: for two players use 12 pieces; for three, 8; for four, 6; and for five,
+5.</figcaption></figure>
 
 <figure><div class="multi"><img src="/images/merel-cube2.svg" /><img
 src="/images/merel-cube1.svg" /></div><figcaption>Two variations of a ‘cube’
@@ -136,8 +142,8 @@ turn.</figcaption></figure>
 <figure><div class="multi"><img src="/images/merel-mobius.svg" /><img
 src="/images/merel-pentagon3.svg" /><img src="/images/merel-hexagon.svg"
 /></div><figcaption>The Möbius board (invented by [Ingo Althöfer]{lang="de"
-.proper-noun}), another pentagonal board, and a hexagonal
-board.</figcaption></figure>
+.proper-noun}), another pentagonal board (without joined corners), and
+a hexagonal board.</figcaption></figure>
 
 ### Mozog
 

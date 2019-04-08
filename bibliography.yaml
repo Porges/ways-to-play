@@ -2400,5 +2400,18 @@ references:
   issue: 31
   page: 489–523
   URL: https://dialnet.unirioja.es/descarga/articulo/5457094.pdf
+
+- type: book
+  id: KlassicheSpiele
+  title: Klassiche Spiele ganz neu
+  author:
+      - family: Bücken
+        given: Hajo
+      - family: Hanneforth
+        given: Dirk
+  issued:
+      year: 1990
+  publisher: Rowohlt Taschenbuch Verlag
+  publisher-place: Germany
   
 ...
