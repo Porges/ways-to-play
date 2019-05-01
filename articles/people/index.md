@@ -4,5 +4,5 @@ title: List of People
 ---
 
 
-* [John Scarne](/people/john-scarne.html)
+<!-- * [John Scarne](/people/john-scarne.html) -->
 * [Sid Sackson](/people/sid-sackson.html)

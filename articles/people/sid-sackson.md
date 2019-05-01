@@ -9,7 +9,8 @@ nocite:
 - '@CardGamesAroundTheWorld'
 ---
 
-Sid Sackson (1920–2002) was a prolific game designer.
+Sid Sackson (1920–2002) was a prolific game designer and author of books about
+games.
 
 ## Board Games
 
