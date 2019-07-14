@@ -126,8 +126,8 @@ src="/images/merel-pentagon.svg" alt="A board constructed from three nested
 pentagons with corners and side-middles connected." /><img
 src="/images/merel-pentagon2.svg" alt="A board constructed from five nested
 pentagons in alternating orientations."/></div><figcaption>Alternate boards of
-German origin [@KlassicheSpiele]: a ‘sun-mill’ (played with 12 pieces each), and
-two boards constructed from nested pentagons. The first pentagonal board is
+German origin [@KlassischeSpiele]: a ‘sun-mill’ (played with 12 pieces each),
+and two boards constructed from nested pentagons. The first pentagonal board is
 played with 11 pieces each, the second is designed to be played by two or more
 players: for two players use 12 pieces; for three, 8; for four, 6; and for five,
 5.</figcaption></figure>
