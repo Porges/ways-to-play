@@ -135,8 +135,10 @@ a mill upon the next turn.
 
 **Other positions**: unknown positions.
 
-* Icelandic [rennihestur]{lang="is"} ‘sliding horse’ possibly refers to
-  a “triple mill” position [@Fiske, p. 139].
+* Icelandic <audio src="/audio/pronunciation_is_rennihestur.mp3"></audio><span
+  lang="is" class="pronunciation"
+  onclick="this.previousSibling.play()">rennihestur</span> ‘sliding horse’
+  possibly refers to a “triple mill” position [@Fiske, p. 139].
 
 ## References
 
@@ -151,8 +153,9 @@ All audio is licensed under [CC-BY-NC-SA
   [ahmed\_aw\_abdi](https://forvo.com/user/ahmed_aw_abdi/).
 * [δίπορτο]{lang="el"} &copy; [jpapa](https://forvo.com/user/jpapa/).
 * [isibhamu]{lang="zu"} &copy; [Lungii](https://forvo.com/user/Lungii/).
-* [Zwickmühle]{lang="de"} &copy;
-  [Thonatas](https://forvo.com/user/Thonatas/).
 * [Kreuzmühle]{lang="de"} &copy;
   [Bartleby](https://forvo.com/user/Bartleby/).
+* [rennihestur]{lang="is"} &copy; [wertxi](https://forvo.com/user/wertxi/).
+* [Zwickmühle]{lang="de"} &copy;
+  [Thonatas](https://forvo.com/user/Thonatas/).
 
