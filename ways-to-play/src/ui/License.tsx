@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-export type License
+export type LicenseName
     = "cc0"
     | "cc-by"
     | "cc-by-sa"
@@ -13,28 +13,40 @@ export type License
 export type Version = "2.0" | "4.0"
 
 type Props = {
-    license: License
+    license: LicenseName
     version?: Version
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>
+
+const charFor = (input: string) => {
+    switch (input) {
+        case 'cc0': return '\u{1f16e}';
+        case 'cc': return '\u{1f16d}';
+        case 'by': return '\u{1f16f}';
+        case 'nc': return '\u{1f10f}';
+        case 'sa': return '\u{1f10e}';
+        case 'nd': return '⊜';
+        default: return null;
+    }
+}
 
 const altText = (input: string) => {
     switch (input) {
         case "cc0":
             return "Public Domain";
         case "cc":
-            return "Creative Commons ";
+            return "Creative Commons";
         case "by":
-            return "Attribution ";
+            return "Attribution";
         case "nc":
-            return "Non-Commercial ";
+            return "Non-Commercial";
         case "nd":
-            return "No Derivatives ";
+            return "No Derivatives";
         case "sa":
-            return "Share-Alike ";
+            return "Share-Alike";
     }
 }
 
-export const Licence: React.FC<Props> = (props: Props) => {
+export const License: React.FC<Props> = (props: Props) => {
 
     const
         { license
@@ -50,18 +62,15 @@ export const Licence: React.FC<Props> = (props: Props) => {
             ? "https://creativecommons.org/publicdomain/zero/1.0/"
             : `https://creativecommons.org/licenses/${license.substr(3)}/${version}`;
 
-    const images =
-            license === "cc0"
-            ? ["publicdomain"]
-            : license.split('-');
+    const parts = license.split('-');
 
     return (
         <a
             itemProp="license"
             href={href}
+            title={`Licensed under the ${parts.map(altText).join(' ')} license, ${version}`}
             {...htmlAttributes}>
-        { images.map(img => <img key={img} src={`/images/${img}.svg`} alt={altText(img)} />) }
+            { parts.map(charFor).join('\u{200a}') }
         </a>
     );
-
 };

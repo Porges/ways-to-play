@@ -1,5 +1,4 @@
-{
-    "references": [
+export const references = [
        {
           "type": "book",
           "id": "OxfordBG",
@@ -217,7 +216,7 @@
        {
           "type": "article-journal",
           "id": "FalkenerReview",
-          "title": "Falkener’s *Ancient Games*",
+          "title": "Falkener’s <cite>Ancient Games</cite>",
           "author": [
              {
                 "family": "Wayte",
@@ -393,11 +392,7 @@
           "author": [
              {
                 "family": "Hackler",
-                "given": [
-                   "Rhoda",
-                   "E.",
-                   "A."
-                ]
+                "given": [ "Rhoda", "E.", "A." ]
              }
           ],
           "container-title": "The Hawaiian Journal of History",
@@ -411,7 +406,7 @@
        {
           "type": "article-journal",
           "id": "Jackson92",
-          "title": "The *Duke of Portland*, the *Traveller*, and the *Prince Regent*: Three Little-known Vessels from Australia",
+          "title": "The <i>Duke of Portland</i>, the <i>Traveller</i>, and the <i>Prince Regent</i>: Three Little-known Vessels from Australia",
           "author": [
              {
                 "family": "Jackson",
@@ -1477,7 +1472,7 @@
           "URL": "https://archive.org/details/chessinicelandin00fiskuoft"
        },
        {
-          "type": "article-journal",
+          "type": "paper-conference",
           "id": "ThinkingThroughDiagrams",
           "title": "Thinking Through Diagrams: Discovery in Game Playing",
           "author": [
@@ -2113,7 +2108,7 @@
           "URL": "https://www.wakapoetry.net/skks-iv-422/"
        },
        {
-          "type": "article",
+          "type": "webpage",
           "id": "GreveSake",
           "title": "Ricewine (sake)",
           "author": [
@@ -2575,7 +2570,7 @@
           "URL": "https://lib.ugent.be/fulltxt/RUG01/002/478/969/RUG01-002478969_2018_0001_AC.pdf"
        },
        {
-          "type": "article-newspaper",
+          "type": "webpage",
           "id": "MorabarabaGetOnBoard",
           "title": "Morabaraba? Get on board!",
           "author": [
@@ -2825,7 +2820,7 @@
           "issued": {
              "year": 2014
           },
-          "issue": 8,
+          "volume": 8,
           "publisher": "Associação Ludus",
           "publisher-place": "Lisboa, Portugal",
           "page": "51–61",
@@ -3381,5 +3376,4 @@
           "publisher": "Rowohlt Taschenbuch Verlag",
           "publisher-place": "Germany"
        }
-    ]
- }
+    ] as const;

@@ -7,7 +7,7 @@ export const Home: React.FC = () => {
             <Helmet>
                 <body itemScope itemType="http://schema.org/WebSite" />
             </Helmet>
-            <p>Home</p>;
+            <p>Home</p>
         </>
     );
 }

@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "UniHentaiKana";
+    src: url('./UniHentaiKana-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: "cc-icons";
+    src: url('./cc-icons.woff2') format('woff2');
+}
+
+$font-family-serif:
+    "Mercury SSm A", "Mercury SSm B",
+    Georgia,
+    serif,
+    "UniHentaiKana", /* fallback for Hentaigana chars */
+    "cc-icons"; /* Creative Commons Unicode characters */
+
+$font-family-sans-serif: "Gotham SSm A", "Gotham SSm B", sans-serif;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-sans-serif;
+$text-color: #000;
+
+$brand-primary: #2455c3;
+
+$font-size-base: 0.9375rem;
+$h1-font-size: 2 * $font-size-base;
+$h2-font-size: 1.5 * $font-size-base;
+$h3-font-size: 1.33333 * $font-size-base;
+$h4-font-size: 1.3 * $font-size-base;
+$h5-font-size: 1.25 * $font-size-base;
+$h6-font-size: 1.2 * $font-size-base;
+
+$theme-colors: ("darker": #333);
+
+$figure-caption-font-size: 1.2 * .625rem;
+
+@import '~bootstrap/scss/bootstrap.scss';
+@import './text.css';
+
+body {
+    /* this is the default but it fixes issues with Han characters intermingled in Latin */
+    line-height: 1.5em;
+    font-variant-numeric: oldstyle-nums;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+a {
+    color: $brand-primary;
+    text-decoration: none;
+}
+
+h1 {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0rem;
+}
+
+h1 a {
+    color: inherit;
+}
+
+h2 {
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2::before { 
+    font-family: serif;
+    font-weight: 100;
+    content: "― " 
+}
+
+h2::after {
+    font-family: serif;
+    font-weight: 100;
+    content: " ―";
+}
+
+.navbar {
+    font-family: "Archer SSm A", "Archer SSm B", "cc-icons", /* Creative Commons Unicode characters */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 50px;
+    text-align: justify;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    padding-bottom: 3em;
+}
+
+blockquote {
+  margin-left: 2em;
+}
+
+/*** Figures ***/
+figure.float-lg-left, figure.float-lg-right {
+    max-width: 45%;
+}
+
+figcaption {
+    line-height: 1.1rem;
+}
+
+/* set a max height for images */
+figure > img {
+    max-height: 400px;
+}
+
+/* add a smaller version too */
+figure.small > img {
+    max-height: 200px;
+}
+
+/* image borders */
+figure > img {
+    border: 1px solid black;
+}
+
+/* don't border diagrams */
+figure > img[src$=".svg"] {
+    border: none;
+}
+
+@media(min-width: 992px) {
+    figure.wide {
+        width: 120%;
+        margin-left: -10%;
+    }
+
+    figure.wide > img  {
+        max-height: inherit;
+        border: 2px solid black;
+    }
+}
+
+/*** References ***/
+/* space them out */
+.reference-list > li {
+    margin-top: 1em;
+    text-align: left;
+}
+
+.reference-list.list-unstyled > li {
+    margin-left: 3em;
+    text-indent: -3em;
+}
+
+/* Highlight target */
+*:target {
+    background: lightyellow;
+}
+
+/*** Citations ***/
+.citation { color: grey }
+.citation a { color: #5a7cc9 }
+sup.citation { line-height: 0 }
+
+/*** Tables ***/
+td.numeric, th.numeric, table.numeric tbody td {
+    /* use tabular fonts for numbers then fall back to other characters */
+    font-family: "Mercury SSm Tabular A", "Mercury SSm Tabular B", $font-family-serif;
+    font-variant-numeric: tabular-nums; /* redundant due to font-family, but useful for fallback */
+    text-align: right;
+}
+
+table.table {
+    width: unset;
+    clear: both;
+}
+
+table caption {
+    line-height: 1.1em;
+    text-align: center;
+    font-size: $figure-caption-font-size;
+}

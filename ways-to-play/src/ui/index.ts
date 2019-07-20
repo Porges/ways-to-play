@@ -1,4 +1,5 @@
 export * from "./ArticleImage";
-export * from "./Citation";
+export * from "./Footnote";
 export * from "./License";
+export * from "./Noun";
 export * from "./Person";

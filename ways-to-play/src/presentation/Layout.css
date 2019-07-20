@@ -21,10 +21,6 @@ article {
     text-align: left;
 }
 
-@font-face {
-    font-family: "UniHentaiKana";
-    src: url('/fonts/UniHentaiKana-Regular.woff') format('woff');
-}
     
 body {
   display: flex; /* making footer stick */
@@ -161,9 +157,6 @@ h2 {
     margin-bottom: 1.5rem;
     text-align: center;
 }
-
-h2::before { font-family: serif; font-weight: 100; content: "― " }
-h2::after { font-family: serif; font-weight: 100; content: " ―" }
 
 h3 {
     margin-top: 2rem;
@@ -346,9 +339,6 @@ body {
   overflow-wrap: break-word;
 }
 
-blockquote {
-  margin-left: 2em;
-}
 
 /* small */
 @media (max-width: 319px) {
@@ -454,29 +444,6 @@ figure>img {
     margin: auto;
 }
 
-/* limit max height */
-figure>img {
-    max-height: 400px;
-}
-
-/* add a smaller version too */
-figure.small>img {
-    max-height: 200px;
-}
-
-/* image borders */
-figure > img {
-    border: 1px solid black;
-}
-
-figure > img[src$=".svg"] { /* don't border diagrams */
-    border: none;
-}
-
-figure.wide > img {
-    border: 2px solid black;
-}
-
 /* don't limit height of wide images */
 figure.wide>img {
     max-height: unset;
@@ -557,60 +524,7 @@ ul.linear li {
     display: inline;
 }
 
-/* Mercury doesn't have support for everything so we'll override in some cases:
- */
- span[lang|=grc], /* Ancient (Polytonic) Greek - otherwise graves have a weird rendering */
- span[lang|=si-Latn] /* Sinhalese Latin - otherwise dotted m has issues */
- {
-     font-family: serif;
- }
- 
- /* Italicize non-English (but Latin) languages: */
- span[lang|=bn-Latn], /* Bangla */
- span[lang|=de], /* German */
- span[lang|=ee], /* Ewe */
- span[lang|=es], /* Spanish */
- span[lang|=fr], /* French */
- span[lang|=ga], /* Gaelic */
- span[lang|=grc-Latn], /* Ancient Greek */
- span[lang|=gsw], /* Swiss German */
- span[lang|=haw], /* Hawaiian */
- span[lang|=is], /* Icelandic */
- span[lang|=it], /* Italian */ 
- span[lang|=ja-Latn], /* Japanese */
- span[lang|=ko-Latn], /* Korean */
- span[lang|=nl], /* Dutch */
- span[lang|=pt], /* Portuguese */
- span[lang|=rng], /* Ronga */
- span[lang|=si-Latn], /* Sinhalese */
- span[lang|=st], /* seSotho */
- span[lang|=so], /* Somali */
- span[lang|=sv], /* Swedish */
- span[lang|=tn], /* Tswana */
- span[lang|=yue-Latn], /* Cantonese */
- span[lang|=zh-Latn], /* (Mandarin) Chinese */
- span[lang|=zu] /* isiZulu */
- { font-style: italic }
- 
- /* present proper nouns upright as there is no need to distinguish from
-  * surrounding text */
- span.proper-noun, span.game-title { font-style: inherit }
- 
- /* Work titles in non-Latin languages: */
- cite:lang(zh) { font-style: inherit }
- cite:lang(zh)::before { content: '《' }
- cite:lang(zh)::after { content: '》' }
- cite:lang(ja) { font-style: inherit } 
- cite:lang(ja)::before { content: '『' }
- cite:lang(ja)::after { content: '』' }
- 
- cite:lang(zh-Latn) { font-style: italic }
- cite:lang(zh-Latn)::before { content: '' }
- cite:lang(zh-Latn)::after { content: '' }
- cite:lang(ja-Latn) { font-style: italic }
- cite:lang(ja-Latn)::before { content: '' }
- cite:lang(ja-Latn)::after { content: '' }
- 
+
  /* Vertical text for Japanese poems to match cards: */
  .vertical-rl {
      writing-mode: vertical-rl;
