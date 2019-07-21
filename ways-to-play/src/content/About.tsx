@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row';
 export const About: React.FC = () => (
     <Row>
         <Helmet>
+            <title>About</title>
             <body itemScope itemType="http://schema.org/AboutPage" />
         </Helmet>
         <Col />

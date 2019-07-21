@@ -2,6 +2,8 @@ import * as React from 'react';
 import { ArticleImage } from '../../../ui';
 import { GameProps } from '../Game';
 
+import { WCF } from '../../../References/bibliography.json';
+
 import imgCamette from './camette.svg';
 import imgCam from './cam.svg';
 import imgCamelot from './camelot.svg';
@@ -29,7 +31,7 @@ const Camelot: React.FC<GameProps> = ({cite}) => (
         
         President Kennedy also grew up playing it:
         `http://www.cardsanddominoes.com/html/camelot.html` -->*/}
-        <p>In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to popularize the game on the internet.{cite("WCF")} The rules descriptions below are based on his website (they differ slightly from the original rules supplied by Parker Brothers).</p>
+        <p>In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to popularize the game on the internet.{cite(WCF)} The rules descriptions below are based on his website (they differ slightly from the original rules supplied by Parker Brothers).</p>
     </section>
     <section id="basic-rules">
         <h2>Basic Rules</h2>

@@ -1,9 +1,22 @@
 import * as React from 'react';
+import Helmet from 'react-helmet';
 
-import { references, renderActualReference } from '../References';
+import * as references from '../References/bibliography.json';
+import { renderReference } from '../References';
 
-export const Bibliography: React.FC = () =>
+type T = keyof typeof references;
+
+const Bibliography: React.FC = () =>
+    <>
+    <Helmet>
+        <title>Bibliography</title>
+    </Helmet>
     <section>
         <h1>Bibliography</h1>
-        <ul className="reference-list list-unstyled">{references.map((r, ix) => <li key={ix}>{renderActualReference(r)}</li>)}</ul>
-    </section>;
+        <ul className="reference-list list-unstyled">
+            {Object.entries(references).map(([id, r]) => <li key={id}>{renderReference(r)}</li>)}
+        </ul>
+    </section>
+    </>;
+
+export default Bibliography;

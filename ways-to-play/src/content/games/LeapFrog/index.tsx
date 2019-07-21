@@ -5,6 +5,8 @@ import Table from 'react-bootstrap/Table';
 import { GameProps, GameRef } from '../Game';
 import { ArticleImage } from '../../../ui';
 
+import { Murray2 } from '../../../References/bibliography.json';
+
 import imgLeapFrogVariation from './leap-frog-variation.svg';
 
 const LeapFrog: React.FC<GameProps> = ({cite}) => (
@@ -12,7 +14,7 @@ const LeapFrog: React.FC<GameProps> = ({cite}) => (
     <p><span id="index-leap-frog" className="game-title">Leap-Frog</span> is a game for two or more players in which the object is to capture the most pieces from a board containing identical pieces.</p>
     <section id="equipment">
     <h3>Equipment</h3>
-    <p>To play you will need a gridded board (Murray{cite("Murray2", 93)} suggests 15×15 to 18×18 squares), and enough pieces to fill all the spaces on it. All the pieces are the same.</p>
+    <p>To play you will need a gridded board (Murray{cite(Murray2, 93)} suggests 15×15 to 18×18 squares), and enough pieces to fill all the spaces on it. All the pieces are the same.</p>
     </section>
     <section id="setup">
     <h3>Setup</h3>
@@ -31,7 +33,7 @@ const LeapFrog: React.FC<GameProps> = ({cite}) => (
         src={imgLeapFrogVariation}>
         A sample initial configuration for Murray’s variation.
     </ArticleImage>
-    <p>Murray{cite("Murray2", [93, 94])} invented a variant in 1898. The undifferentiated pieces are replaced by pieces coloured white, yellow, red, and green, in the ratios 4:3:2:1. The pieces now count points according to these ratios (i.e. green is worth 4 points while white is worth 1). To set up the board, the pieces are arranged randomly on the squares, and the first player must remove a white piece to begin. The player with the highest point value of pieces taken at the end wins.</p>
+    <p>Murray{cite(Murray2, [93, 94])} invented a variant in 1898. The undifferentiated pieces are replaced by pieces coloured white, yellow, red, and green, in the ratios 4:3:2:1. The pieces now count points according to these ratios (i.e. green is worth 4 points while white is worth 1). To set up the board, the pieces are arranged randomly on the squares, and the first player must remove a white piece to begin. The player with the highest point value of pieces taken at the end wins.</p>
     <Table size="sm" borderless className="mx-auto">
     <caption>
     Example piece counts for different board sizes
@@ -325,7 +327,7 @@ const LeapFrog: React.FC<GameProps> = ({cite}) => (
     </section>
     <section id="see-also" className="level2">
     <h2>See also</h2>
-    <p><GameRef id="takeItAway"/> is a similar game by Sid Sackson.</p>
+    <p><GameRef id="take-it-away"/> is a similar game by Sid Sackson.</p>
     </section>
     </>
 );

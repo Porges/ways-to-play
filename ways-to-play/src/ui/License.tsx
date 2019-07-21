@@ -64,11 +64,16 @@ export const License: React.FC<Props> = (props: Props) => {
 
     const parts = license.split('-');
 
+    const title =
+        license === 'cc0'
+        ? "Public Domain"
+        : `Licensed under the ${parts.map(altText).join(' ')} license, ${version}`
+
     return (
         <a
             itemProp="license"
             href={href}
-            title={`Licensed under the ${parts.map(altText).join(' ')} license, ${version}`}
+            title={title}
             {...htmlAttributes}>
             { parts.map(charFor).join('\u{200a}') }
         </a>

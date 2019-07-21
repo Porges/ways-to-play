@@ -1,49 +1,41 @@
 import * as React from 'react';
 
-import { references } from  './bibliography';
-
-export * from './bibliography';
-
-const getReference = (ix: number) => references[ix];
-const getReferenceId = (ix: number) => references[ix].id;
-const getReferenceType = (ix: number) => references[ix].type;
-
-type Reference = ReturnType<typeof getReference>
-type ReferenceType = ReturnType<typeof getReferenceType>
-export type ReferenceId = ReturnType<typeof getReferenceId>
-
 type Author = { readonly family?: string, readonly given: (readonly string[] | string) }
 
-export const renderReference = (id: string) => {
-    const reference  = references.find(ref => ref.id === id);
-    if (!reference) {
-        throw new Error(`Undefined reference: ${id}`)
-    }
+export type Reference =  Readonly<{
+    type: string,
+    id: string,
+    title: string,
+    author?: readonly Author[],
+    editor?: readonly Author[],
+    URL?: string,
+    ISBN?: string|number,
+    ['container-title']?: string,
+    volume?: string|number,
+    issue?: string|number,
+    ['original-date']?: { year: number },
+    issued?: { year: number } | { year: number, month: number } | { year: number, month: number, day: number },
+    ['publisher-place']?: string,
+    publisher?: string,
+    page?: string|number,
+}>
 
-    return renderActualReference(reference);
-}
-
-const getItemType = (type: ReferenceType) => {
-    switch (type) {
-        case 'article-journal': return 'http://schema.org/ScholarlyArticle';
-        case 'book': return 'http://schema.org/Book';
-        case 'thesis': return 'http://schema.org/Thesis';
-        case 'webpage': return 'http://schema.org/WebPage';
-        case 'paper-conference': return 'http://schema.org/ScholarlyArticle';
-        case 'article': return 'http://schema.org/Article';
-        case 'manuscript': return 'http://schema.org/Article'; //TODO
-        case 'pamphlet': return 'http://schema.org/Article'; //TODO
-        case 'article-newspaper': return 'http://schema.org/Article'; //TODO
-        case 'article-magazine': return 'http://schema.org/Article'; //TODO
-        case 'chapter': return 'http://schema.org/Article'; //TODO
-        default: 
-            const r: never = type;
-            return r; // make sure all cases handled
-    }
-}
+const itemTypes: {[key: string]: string} = {
+    'article-journal': 'http://schema.org/ScholarlyArticle',
+    'book': 'http://schema.org/Book',
+    'thesis': 'http://schema.org/Thesis',
+    'webpage': 'http://schema.org/WebPage',
+    'paper-conference': 'http://schema.org/ScholarlyArticle',
+    'article': 'http://schema.org/Article',
+    'manuscript': 'http://schema.org/Article', //TODO
+    'pamphlet': 'http://schema.org/Article', //TODO
+    'article-newspaper': 'http://schema.org/Article', //TODO
+    'article-magazine': 'http://schema.org/Article', //TODO
+    'chapter': 'http://schema.org/Article', //TODO
+};
 
 const renderAuthors = (reference: Reference) => {
-    if ('author' in reference) {
+    if (reference.author) {
         return <>{renderPeople(reference.author, true, true, 'author')} </>;
     } else if ('publisher' in reference) {
         return <><span itemScope itemType="http://schema.org/Organization" itemProp="author"><span itemProp="name">{reference.publisher}</span></span>. </>;
@@ -56,20 +48,20 @@ const renderTitle = (reference: Reference) => {
     const html = {__html: reference.title};
 
     const linked =
-        'URL' in reference
+        reference.URL
         ? <a itemProp="url" href={reference.URL} dangerouslySetInnerHTML={html} />
         : <span dangerouslySetInnerHTML={html} />;
 
     return reference.type === 'book'
-        ? <><cite itemProp="name">{linked}</cite>. </>
+        ? <><cite itemProp="name">{linked}</cite>{reference.volume && <> (volume {reference.volume})</>}. </>
         : <><span itemProp="name headline">‘{linked}’</span>. </>;
 }
 
 const renderDate = (reference: Reference) => {
 
-    if ('issued' in reference) {
+    if (reference.issued) {
         const original =
-            'original-date' in reference
+            reference['original-date']
             ? <>({reference['original-date'].year}) </>
             : null;
 
@@ -89,12 +81,12 @@ const renderDate = (reference: Reference) => {
 }
 
 const renderPublisher = (reference: Reference) => (<>
-        {'publisher-place' in reference && (reference['publisher-place'] + ': ') }
-        {'publisher' in reference && (reference.publisher + (reference.publisher.endsWith('.') ? ' ' : '. ')) }
+        {reference['publisher-place'] && (reference['publisher-place'] + ': ') }
+        {reference.publisher && (reference.publisher + (reference.publisher.endsWith('.') ? ' ' : '. ')) }
     </>);
 
 const renderISBN = (reference: Reference) => (
-    'ISBN' in reference &&
+    reference.ISBN &&
      <><abbr className="initialism">ISBN</abbr>: <a itemProp="isbn" href={`https://www.worldcat.org/isbn/${reference.ISBN}`}>{reference.ISBN}</a>. </>
 );
 
@@ -162,17 +154,19 @@ const renderContainer = (reference: Reference) => {
             return (<>
                 {' '}
                 In <i>{containerTitle}</i>
-                { 'editor' in reference && <>, edited by {renderPeople(reference.editor, false, false, 'editor')}</> }
+                { reference.editor && <>, edited by {renderPeople(reference.editor, false, false, 'editor')}</> }
                 {pageSuffix}
             </>);
 
         case 'article-magazine':
         case 'article-newspaper':
             const { issued } = reference; 
+            if (!issued || !('month' in issued)) throw new Error('Magazine/newspaper citations must have issued date (including month)');
+
             return <><cite>{containerTitle}</cite>, {months[issued.month-1]}{'day' in issued && <> {issued.day}</>}, {issued.year}. </>;
 
         case 'article-journal':
-            if ('issue' in reference && 'volume' in reference) {
+            if (reference.issue && reference.volume) {
                 const { issue, volume } = reference;
                 return (<>
                     <span itemScope itemType="http://schema.org/Periodical" itemID={`#${id}-periodical`}>
@@ -192,7 +186,7 @@ const renderContainer = (reference: Reference) => {
                     </>);
             }
 
-            if ('issue' in reference) {
+            if (reference.issue) {
                 const { issue } = reference;
                 return (<>
                     <span itemScope itemType="http://schema.org/Periodical" itemID={`#${id}-periodical`}>
@@ -207,7 +201,7 @@ const renderContainer = (reference: Reference) => {
                     </>);
             }
 
-            if ('volume' in reference) {
+            if (reference.volume) {
                 const { volume } = reference;
                 return (<>
                     <span itemScope itemType="http://schema.org/Periodical" itemID={`#${id}-periodical`}>
@@ -225,24 +219,17 @@ const renderContainer = (reference: Reference) => {
     }
 }
 
-export const renderActualReference = (reference: Reference) => {
-
-
+export const renderReference = (reference: Reference) => {
     const { id, type } = reference;
+
     return (
-        <span itemScope itemType={getItemType(type)} id={`ref-${id}`} itemProp="citation">
+        <span itemScope itemType={itemTypes[type]} id={`ref-${id}`} itemProp="citation">
             { renderAuthors(reference) }
             { renderDate(reference) }
             { renderTitle(reference) }
             { renderContainer(reference) }
             { renderPublisher(reference) }
             { renderISBN(reference) }
-            {/* 
-            { renderContainer(reference) }
-            { page && <>: <span itemProp="pagination">{page}</span>.</> }
-            { genre && <> <span itemProp="inSupportOf">{genre}</span>, </>}
-            { publisherPlace && ` ${publisherPlace}:` }{ publisher && ` ${publisher}.` }
-            { ISSN && <> <abbr className="initialism">ISSN</abbr>: <a href={`https://www.worldcat.org/issn/${ISSN}`}>{ISSN}</a>.</> } */}
         </span>
     );
 }

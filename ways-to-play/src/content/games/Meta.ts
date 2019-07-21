@@ -5,6 +5,7 @@ import { GameProps } from './Game';
 export type GameMeta = Readonly<{
     name: string,
     nameLang?: string,
+    players: readonly number[]
     import: React.LazyExoticComponent<React.FC<GameProps>>
 }>
 
@@ -12,19 +13,29 @@ const games = {
     morabaraba: {
         name: "Morabaraba",
         nameLang: "st",
-        import: React.lazy(() => import('./Morabaraba'))
+        players: [2],
+        import: React.lazy(() => import(/* webpackChunkName: 'morabaraba' */ './Morabaraba'))
     }, 
     camelot: {
         name: "Camelot family",
-        import: React.lazy(() => import('./Camelot'))
+        players: [2, 4],
+        import: React.lazy(() => import(/* webpackChunkName: 'camelot' */ './Camelot'))
     },
-    leapfrog: {
-        name: "Leapfrog",
-        import: React.lazy(() => import('./LeapFrog'))
+    ['leap-frog']: {
+        name: "Leap-Frog",
+        players: [2],
+        import: React.lazy(() => import(/* webpackChunkName: 'leap-frog' */ './LeapFrog'))
     },
-    takeItAway: {
+    ['take-it-away']: {
         name: "Take It Away",
-        import: React.lazy(() => import('./TakeItAway'))
+        players: [2,3,4],
+        import: React.lazy(() => import(/* webpackChunkName: 'take-it-away' */ './TakeItAway'))
+    },
+    konane: {
+        name: "Kōnane",
+        nameLang: "haw",
+        players: [2],
+        import: React.lazy(() => import(/* webpackChunkName: 'konane' */ './Konane'))
     }
 } as const;
 

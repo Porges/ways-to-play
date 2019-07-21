@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
 
-import { ReferenceId } from '../../References';
+import { Reference } from '../../References';
 import { GameId, Games } from './Meta';
 
 export type GameProps = {
-    cite: (id: ReferenceId, ...pages:(number|[number,number])[]) => React.ReactNode
+    cite: (ref: Reference, ...pages:(number|[number,number])[]) => React.ReactNode
 }
 
 export const GameRef: React.FC<{id: GameId}> = ({id}) => {

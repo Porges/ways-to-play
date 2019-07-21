@@ -3,6 +3,11 @@ import * as React from 'react';
 import { GameProps } from '../Game';
 import { ArticleImage, Footnote, Noun } from '../../../ui';
 
+import
+    { MorabarabaGetOnBoard, FromBearnToSouthernAfrica, MkeleMorabaraba, BasothoChildren
+    , OldTswana, SeSothoDictionary, GamesBasotho, TheWorldAndCattle, UseOfMorabara
+    , UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook } from '../../../References/bibliography.json';
+
 import imgKliptown from "./8237668945_878d81116c_o.jpg";
 
 const Morabaraba: React.FC<GameProps> = ({cite}) => (
@@ -19,15 +24,15 @@ const Morabaraba: React.FC<GameProps> = ({cite}) => (
                 licenseVersion: "2.0"}}>
             A Sotho-style morabaraba board in Kliptown, Soweto
         </ArticleImage>
-        <p><Noun lang="st">Morabaraba</Noun> is played as a competitive sport in South Africa, administered by <a href="http://mindsportsa.co.za/">Mind Sports South Africa</a>. It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.{cite("MorabarabaGetOnBoard")}</p>
+        <p><Noun lang="st">Morabaraba</Noun> is played as a competitive sport in South Africa, administered by <a href="http://mindsportsa.co.za/">Mind Sports South Africa</a>. It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.{cite(MorabarabaGetOnBoard)}</p>
         <Footnote>
             <p><span className="footnote-marker">*</span> Sometimes also referred to as Cazalis, upon his return to France he wrote about his experiences in <cite lang="fr">Les Bassoutos: Vingt-Trois Années de Séjour et D’Observations au Sud de L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The Basutos: or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)), but the book contains no mention of any board games. There is now <a href="https://goo.gl/maps/jymZMMft3fB2">a roundabout</a> in his home town, <Noun lang="fr">Orthez</Noun>, <a href="http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php">named after him</a>.</p>
 
-            <p>Surprisingly, we know precisely who imported the game from Europe:{cite("MkeleMorabaraba", 134)}{cite("FromBearnToSouthernAfrica", 79)} it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis, a French protestant missionary.<span className="footnote-marker">*</span>  The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.{cite("FromBearnToSouthernAfrica", 79)} Obsession with the game also led herders to neglect their flocks,{cite("FromBearnToSouthernAfrica", 79)} so it became known by the epithet <span lang="st">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌{cite("BasothoChildren", 41)} “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌{cite( "TheWorldAndCattle", 56)}</p>
+            <p>Surprisingly, we know precisely who imported the game from Europe:{cite(MkeleMorabaraba, 134)}{cite(FromBearnToSouthernAfrica, 79)} it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis, a French protestant missionary.<span className="footnote-marker">*</span>  The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.{cite(FromBearnToSouthernAfrica, 79)} Obsession with the game also led herders to neglect their flocks,{cite(FromBearnToSouthernAfrica, 79)} so it became known by the epithet <span lang="st">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌{cite(BasothoChildren, 41)} “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌{cite(TheWorldAndCattle, 56)}</p>
         </Footnote>
-        <p>The name <span lang="st">morabaraba</span> comes from the Sotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam/fly about in small circles’, as of a bird around its nest.‌{cite("SeSothoDictionary", 304)} In Nguni languages (isiZulu, isiXhosa), it is known as <Noun lang="zu">(Um)labalaba</Noun>, with similar meaning,‌{cite("GamesBasotho", [247, 250])} and in Ronga, spoken in Mozambique, it is called <Noun lang="rng">Muravarava</Noun>.</p>
-        <p>There are other names which are probably derived from the European name of ‘mill’:‌{cite("MkeleMorabaraba", 134)} an alternate Sotho name is <span lang="st">mmila</span>/<span lang="st">’mila</span>, ‘road’.‌{cite("UsingGamesToPromote", 283)} In Botswana, the game is called <span lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌{cite("OldTswana", 350)}), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.</p>
-        <p>A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌{cite("UseOfMorabara", 588)} in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). Forming a mill (‘gun’) allows you to “shoot” an opponent’s cow.</p>
+        <p>The name <span lang="st">morabaraba</span> comes from the Sotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam/fly about in small circles’, as of a bird around its nest.‌{cite(SeSothoDictionary, 304)} In Nguni languages (isiZulu, isiXhosa), it is known as <Noun lang="zu">(Um)labalaba</Noun>, with similar meaning,‌{cite(GamesBasotho, [247, 250])} and in Ronga, spoken in Mozambique, it is called <Noun lang="rng">Muravarava</Noun>.</p>
+        <p>There are other names which are probably derived from the European name of ‘mill’:‌{cite(MkeleMorabaraba, 134)} an alternate Sotho name is <span lang="st">mmila</span>/<span lang="st">’mila</span>, ‘road’.‌{cite(UsingGamesToPromote, 283)} In Botswana, the game is called <span lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌{cite(OldTswana, 350)}), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.</p>
+        <p>A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌{cite(UseOfMorabara, 588)} in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). Forming a mill (‘gun’) allows you to “shoot” an opponent’s cow.</p>
         <section id="play">
             <h2>Play</h2>
             <p>The following description is based on Mind Sports South Africa’s “Generally Accepted Rules”. As with all traditional board games, local rules can vary.</p>
@@ -59,8 +64,8 @@ const Morabaraba: React.FC<GameProps> = ({cite}) => (
                     alt="">
                     The Sotho version of the game is played on a board with a central cross.
                 </ArticleImage>
-                <p>The Sotho version of the game is played on a special board or flat stone (<span lang="st">letlapa</span>){cite("BasothoChildren", 35)} where the centre square is also crossed, and the inner diagonals are missing, giving 25 points that can be played on.‌{cite("IndigenousGamesRuleBook")}{cite("MkeleMorabaraba", 133)} This means that there is no possibility of a deadlock after the placement phase.</p>
-                <p>Some rulesets{cite("BlacUmlabalaba")} state that a piece on the central point can only be the middle piece of a mill. Other lines of three formed with the central point do not count as mills.</p>
+                <p>The Sotho version of the game is played on a special board or flat stone (<span lang="st">letlapa</span>){cite(BasothoChildren, 35)} where the centre square is also crossed, and the inner diagonals are missing, giving 25 points that can be played on.‌{cite(IndigenousGamesRuleBook)}{cite(MkeleMorabaraba, 133)} This means that there is no possibility of a deadlock after the placement phase.</p>
+                <p>Some rulesets{cite(BlacUmlabalaba)} state that a piece on the central point can only be the middle piece of a mill. Other lines of three formed with the central point do not count as mills.</p>
                 <p>Note that it is not possible to form a diagonal mill on this board.</p>
                 <ArticleImage
                     position="wide"

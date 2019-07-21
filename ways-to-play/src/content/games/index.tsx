@@ -6,51 +6,71 @@ import Helmet from 'react-helmet';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
-import { renderReference } from '../../References';
+import { renderReference, Reference } from '../../References';
 
 import * as Meta from './Meta';
 
-const renderGames = () => {
-    return (
+type GamesListProps = RouteComponentProps<{ players?: string }>
+
+const GamesList: React.FC<GamesListProps> = ({location, match}) => {
+
+    let title = "Games";
+    let allGames = Object.entries(Meta.Games).sort();
+
+    const playersQuery = match.params.players;
+    if (playersQuery) {
+        const players = parseInt(playersQuery);
+        title += `, ${players} players`;
+        allGames = allGames.filter(([path, g]) => g.players.includes(players));
+    }
+
+    return (<>
+        <h1>{title}</h1>
         <ul>
-        { Object.entries(Meta.Games).sort().map(([path, game]) =>
+        { allGames.map(([path, game]) =>
              <li key={path}><Link to={`/games/${path}`} lang={game.nameLang}>{game.name}</Link></li>) }
         </ul>
-    );
+    </>);
 }
 
 const GameArticle : React.FC<RouteComponentProps<{gameId: string}>> = ({match}) => {
 
-    const [cited, setCited] = React.useState([] as string[]);
+    const gameId = match.params.gameId;
+    const [state, setState] = React.useState({ gameId, cited: [] as Reference[]});
 
-    const game: Meta.GameMeta | undefined = Meta.getGameMeta(match.params.gameId);
+    const game: Meta.GameMeta | undefined = Meta.getGameMeta(gameId);
     if (!game) {
         return null;
     }
 
-    const cite = (id: string, ...pages: (number|[number, number])[]) => {
+    const cite = (ref: Reference, ...pages: (number|[number, number])[]) => {
 
-        let index = cited.findIndex(x => x === id);
+        let index = state.cited.findIndex(x => x === ref);
         if (index === -1) {
-            index = cited.length;
+            index = state.cited.length;
             // this will trigger re-render but next time around we won't
-            setCited(s => {
+            setState(s => {
+                // we switched page, need to clear out old ones
+                if (gameId !== s.gameId) {
+                    return {gameId, cited: [ref]};
+                }
+
                 // need to re-check so it doesn't get added twice - 
                 // this can be called "in parallel"
-                if (s.find(x => x === id)) return s;
-                return [...s, id];
+                if (s.cited.find(x => x === ref)) return s;
+                return { ...s, cited: [...s.cited, ref] };
             });
         }
 
         const suffix = pages.map(p => typeof p === 'number' ? `, ${p}` : `, ${p[0]}–${p[1]}`).join();
-        return <sup className="citation">[<a href={`#ref-${id}`}>{index+1}</a>{suffix}]</sup>;
+        return <sup className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>{suffix}]</sup>;
     };
 
-    
     const Import = game.import;
     return (
         <article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author">
             <Helmet>
+                <title lang={game.nameLang}>{game.name}</title>
                 <body itemScope itemType="http://schema.org/WebPage" />
             </Helmet>
             <Row>
@@ -73,7 +93,7 @@ const GameArticle : React.FC<RouteComponentProps<{gameId: string}>> = ({match}) 
                     <section className="text-left">
                         <h2>References</h2>
                         <ol className="reference-list">
-                        { cited.map(c => <li key={c}>{renderReference(c)}</li>) }
+                        { state.cited.map((c, i) => <li key={i}>{renderReference(c)}</li>) }
                         </ol>
                     </section>
                 </Col>
@@ -85,6 +105,16 @@ const GameArticle : React.FC<RouteComponentProps<{gameId: string}>> = ({match}) 
 }
 
 const renderInfoBox = (game: Meta.GameMeta) => {
+
+    const players = [...game.players].sort();
+    const consecutive = players.every((p, i, ps) => i+1 === ps.length || p+1 === ps[i+1]);
+    const renderedPlayers =
+        players.length === 1
+        ? <Link to={`/games/players=${players[0]}`} itemProp="value">{players[0]}</Link>
+        : consecutive
+          ? <><span itemProp="minValue">{players[0]}</span>–<span itemProp="maxValue">{players[players.length-1]}</span></>
+          : players.map((p, i) => <React.Fragment key={i}>{i>0 && '/'}<span itemProp="value">{p}</span></React.Fragment>);
+
     return (
         <section className="infobox">
             <h4>Game info</h4>
@@ -95,7 +125,7 @@ const renderInfoBox = (game: Meta.GameMeta) => {
                         itemScope
                         itemProp="numberOfPlayers"
                         itemType="http://schema.org/QuantitativeValue">
-                        <span itemProp="unitText">Players</span>: <span itemProp="value"><a href="/tags/players/2.html">2</a></span>
+                        <span itemProp="unitText">Players</span>: {renderedPlayers}
                     </span>
                     <br />
                     <span
@@ -120,8 +150,9 @@ const renderInfoBox = (game: Meta.GameMeta) => {
 export const Games: React.FC<RouteComponentProps> = ({match}) => {
     return (
         <Switch>
-            <Route path={match.path} exact render={renderGames} />
-            <Route path={`${match.path}:gameId`} component={GameArticle} />
+            <Route path={match.path} exact component={GamesList} />
+            <Route path={`${match.path}/players=:players`} component={GamesList} />
+            <Route path={`${match.path}/:gameId`} component={GameArticle} />
         </Switch>
     );
 };

@@ -104,10 +104,6 @@ blockquote {
 }
 
 /*** Figures ***/
-figure.float-lg-left, figure.float-lg-right {
-    max-width: 45%;
-}
-
 figcaption {
     line-height: 1.1rem;
 }
@@ -132,6 +128,12 @@ figure > img[src$=".svg"] {
     border: none;
 }
 
+/* Wide images */
+figure.wide {
+    width: 100%;
+}
+
+/* Wide images are oversize on >=large bootstrap size */
 @media(min-width: 992px) {
     figure.wide {
         width: 120%;
@@ -151,12 +153,13 @@ figure > img[src$=".svg"] {
     text-align: left;
 }
 
+/* hanging indent */
 .reference-list.list-unstyled > li {
     margin-left: 3em;
     text-indent: -3em;
 }
 
-/* Highlight target */
+/*** Highlight target of link ***/
 *:target {
     background: lightyellow;
 }
@@ -164,7 +167,7 @@ figure > img[src$=".svg"] {
 /*** Citations ***/
 .citation { color: grey }
 .citation a { color: #5a7cc9 }
-sup.citation { line-height: 0 }
+sup.citation { line-height: 0 } /* don't let superscript affect calculated lineheight */
 
 /*** Tables ***/
 td.numeric, th.numeric, table.numeric tbody td {

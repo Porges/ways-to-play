@@ -8,10 +8,12 @@ import Row from 'react-bootstrap/Row';
 
 import { Person, License } from './ui';
 import { Routes } from './content';
+import Helmet from 'react-helmet';
 
 const App: React.FC = () => {
   return (
     <>
+    <Helmet defaultTitle="Ways To Play" titleTemplate="%s · Ways To Play" />
     <header>
       <Navbar bg="darker" variant="dark" expand="sm">
       <Container>

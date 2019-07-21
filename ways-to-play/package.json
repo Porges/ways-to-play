@@ -21,12 +21,14 @@
     "typescript": "3.5.3"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "postbuild": "react-snap"
   },
+  "sideEffects": false,
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -43,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "react-snap": "^1.23.0"
+    "react-snap": "^1.23.0",
+    "source-map-explorer": "^2.0.1"
   }
 }
