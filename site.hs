@@ -1,6 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import Control.Monad
+import Control.Monad.IO.Class
+import Data.Either (fromRight)
 import Data.Function ((&))
 import Data.List (intersperse, isPrefixOf)
 import qualified Data.Map as Map
@@ -11,6 +13,7 @@ import System.FilePath
 import qualified Text.CSL as CSL
 import Text.CSL.Pandoc (processCites)
 import Text.Pandoc
+import Text.Pandoc.Filter
 import qualified Hakyll.Core.Configuration as Config
 import qualified Text.Blaze.Html5                as H
 import qualified Text.Blaze.Html5.Attributes     as A
@@ -183,9 +186,18 @@ readerOptions =
             readerExtensions defaultHakyllReaderOptions
     }
 
+writerOptions =
+    defaultHakyllWriterOptions {
+        writerSectionDivs = True
+    }
+
 addLinkCitations :: Pandoc -> Pandoc
 addLinkCitations (Pandoc (Meta meta) blocks) =
-    let newMeta = Map.insert "link-citations" (MetaBool True) meta in
+    let newMeta =
+            Map.insert "link-citations" (MetaBool True) $
+            Map.insert "notes-after-punctuation" (MetaBool True) $
+            meta in
+    
     Pandoc (Meta newMeta) blocks
 
 myReadPandocBiblio :: ReaderOptions
@@ -210,7 +222,11 @@ myPandocBiblioCompiler :: String -> String -> Compiler (Item String)
 myPandocBiblioCompiler cslFileName bibFileName = do
     csl <- load $ fromFilePath cslFileName
     bib <- load $ fromFilePath bibFileName
-    liftM writePandoc (getResourceBody >>= myReadPandocBiblio readerOptions csl bib)
+    let filterPath = "C:/Users/porges/game_book/footnote-asides/.stack-work/install/05b66a6c/bin/footnote-asides.exe"
+    getResourceBody 
+        >>= myReadPandocBiblio readerOptions csl bib
+        >>= withItemBody (unsafeCompiler . runIOorExplode . applyFilters readerOptions [JSONFilter filterPath] [])
+        >>= return . writePandocWith writerOptions
 
 myTagsField = tagsFieldWith myGetTags mySimpleRenderLink mconcat
     where

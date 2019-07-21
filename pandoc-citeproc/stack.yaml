@@ -1,0 +1,16 @@
+flags:
+  pandoc-citeproc:
+    bibutils: true
+    embed_data_files: false
+    unicode_collation: false
+    test_citeproc: false
+    debug: false
+    static: false
+packages:
+- '.'
+extra-deps:
+- pandoc-2.6
+- ipynb-0.1
+ghc-options:
+   "$locals": -fhide-source-paths
+resolver: lts-13.5

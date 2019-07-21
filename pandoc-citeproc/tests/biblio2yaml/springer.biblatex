@@ -1,0 +1,52 @@
+@comment{
+
+Adapted from biblatex-example.bib
+
+
+Formatted with pandoc and chicago-author-date.csl, 2013-10-23:
+
+(Springer 1950)
+
+Springer, Otto. 1950. “Mediaeval Pilgrim Routes from Scandinavia to
+Rome.” *Mediaeval Studies* 12: 92–122.
+
+
+Formatted with pandoc and apa.csl, 2013-10-23:
+
+(Springer, 1950)
+
+Springer, O. (1950). Mediaeval pilgrim routes from Scandinavia to Rome.
+*Mediaeval Studies*, *12*, 92–122.
+
+
+}
+
+@Article{springer,
+  author       = {Springer, Otto},
+  title        = {Mediaeval Pilgrim Routes from {Scandinavia} to {Rome}},
+  journaltitle = {Mediaeval Studies},
+  date         = 1950,
+  volume       = 12,
+  pages        = {92-122},
+  hyphenation  = {british},
+  shorttitle   = {Mediaeval Pilgrim Routes},
+  annotation   = {A plain article entry},
+}
+
+---
+references:
+- id: springer
+  type: article-journal
+  author:
+  - family: Springer
+    given: Otto
+  issued:
+  - year: 1950
+  title: Mediaeval pilgrim routes from Scandinavia to Rome
+  title-short: Mediaeval pilgrim routes
+  container-title: Mediaeval Studies
+  page: 92-122
+  volume: '12'
+  annote: A plain article entry
+  language: en-GB
+...

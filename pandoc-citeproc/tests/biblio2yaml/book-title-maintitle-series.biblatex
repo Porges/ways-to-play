@@ -1,0 +1,33 @@
+@book{item1,
+	Author = {Author, Al},
+	Date = {2013},
+	Hyphenation = {french},
+	Location = {Location},
+	Mainsubtitle = {Mainsubtitle},
+	Maintitle = {Maintitle},
+	Maintitleaddon = {Maintitleaddon},
+	Number = {3},
+	Publisher = {Publisher},
+	Series = {Series},
+	Subtitle = {Subtitle},
+	Title = {Title of the Book},
+	Titleaddon = {Titleaddon},
+}
+
+---
+references:
+- id: item1
+  type: book
+  author:
+  - family: Author
+    given: Al
+  issued:
+  - year: 2013
+  title: 'Maintitle: Mainsubtitle. Maintitleaddon'
+  volume-title: 'Title of the Book: Subtitle. Titleaddon'
+  collection-title: Series
+  collection-number: '3'
+  publisher: Publisher
+  publisher-place: Location
+  language: fr-FR
+...

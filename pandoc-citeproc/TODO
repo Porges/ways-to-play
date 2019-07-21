@@ -1,0 +1,6 @@
+TODO:
+
+- man pages
+- error reporting has been improved, but warnings still don't appear with
+  numerical styles
+

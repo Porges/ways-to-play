@@ -11,6 +11,6 @@ executable site
                   , blaze-html
                   , filepath
                   , containers
-                  , pandoc-citeproc
+                  , pandoc-citeproc == 1.16.1
   ghc-options:      -threaded
   default-language: Haskell2010
