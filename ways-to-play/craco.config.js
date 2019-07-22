@@ -17,14 +17,13 @@ module.exports = {
             
             loader.use =
                 [ { loader: loader.loader
-                  , options: Object.assign({}, loader.options) 
-                  }
-                , { loader: require.resolve('responsive-loader')
                   , options:
-                    { adapter: require('responsive-loader/sharp')
-                    , name: 'static/media/[name]-[width].[hash:8].[ext]'
-                    , sizes: [ 300, 600, 800, 1200, 1600 ]
-                    }
+                        { ...loader.options 
+                        , fallback: 'responsive-loader'
+                        , adapter: require('responsive-loader/sharp')
+                        , name: 'static/media/[name]-[width].[hash:8].[ext]'
+                        , sizes: [ 300, 600, 800, 1200, 1600 ]
+                        } 
                   }
                 ];
 
