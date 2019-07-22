@@ -17,7 +17,7 @@ type SourceInfo = {
 type Props = {
     position?: "wide" | "left" | "right" | "small"
 
-    src: string,
+    src: { src: string, srcSet: string } | string,
     alt: string,
 
     source?: SourceInfo
@@ -60,7 +60,15 @@ export const ArticleImage: React.FC<Props> = props => {
             <Figure.Image
                 itemProp="contentUrl"
                 alt={props.alt}
-                src={props.src} />
+                src={typeof props.src === 'string' ? props.src : props.src.src}
+                srcSet={typeof props.src === 'string' ? undefined : props.src.srcSet}
+                sizes="
+                (max-width: 575.98px) 300px,
+                (max-width: 767.98px) 600px,
+                (max-width: 991.98px) 800px,
+                (max-width: 1199.98px) 1200px
+                "
+                /> {/* sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ */}
             <Figure.Caption className="text-center">
                 {props.children} {props.source && renderSource(props.source) }
             </Figure.Caption>

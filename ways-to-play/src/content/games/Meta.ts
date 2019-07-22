@@ -21,12 +21,12 @@ const games = {
         players: [2, 4],
         import: React.lazy(() => import(/* webpackChunkName: 'camelot' */ './Camelot'))
     },
-    ['leap-frog']: {
+    'leap-frog': {
         name: "Leap-Frog",
         players: [2],
         import: React.lazy(() => import(/* webpackChunkName: 'leap-frog' */ './LeapFrog'))
     },
-    ['take-it-away']: {
+    'take-it-away': {
         name: "Take It Away",
         players: [2,3,4],
         import: React.lazy(() => import(/* webpackChunkName: 'take-it-away' */ './TakeItAway'))
@@ -37,7 +37,7 @@ const games = {
         players: [2],
         import: React.lazy(() => import(/* webpackChunkName: 'konane' */ './Konane'))
     }
-} as const;
+};
 
 export type GameId = keyof typeof games
 type GamesType = {
@@ -45,9 +45,10 @@ type GamesType = {
 }
 export const Games: GamesType = games
 
-const hasKey = <T>(o : T, key: keyof any): key is keyof T => key in o;
+const hasKey = <T extends Object>(o : T, key: keyof any): key is keyof T => o.hasOwnProperty(key);
 
-export const getGameMeta = (name: string): GameMeta|undefined => {
+export const getGameMeta = (name: keyof any): GameMeta|undefined => {
+    
     if (hasKey(games, name)) {
         return games[name];
     }

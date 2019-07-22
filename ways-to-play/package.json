@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^5.2.4",
     "@types/jest": "24.0.15",
     "@types/node": "12.6.2",
     "@types/react": "16.8.23",
@@ -11,6 +12,7 @@
     "@types/react-router": "^5.0.3",
     "@types/react-router-dom": "^4.3.4",
     "bootstrap": "^4.3.1",
+    "imagemin-webpack-plugin": "^2.4.2",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.9",
@@ -18,13 +20,14 @@
     "react-helmet": "^5.2.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
+    "responsive-loader": "^1.2.0",
     "typescript": "3.5.3"
   },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject",
     "postbuild": "react-snap"
   },
@@ -46,6 +49,7 @@
   },
   "devDependencies": {
     "react-snap": "^1.23.0",
+    "sharp": "^0.22.1",
     "source-map-explorer": "^2.0.1"
   }
 }

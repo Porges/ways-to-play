@@ -10,7 +10,7 @@ import
     from '../../../References/bibliography.json';
 
 import imgKonane_960 from './konane_960.jpg';
-import img61_611 from './61-511high.gif';
+import img61_611 from './61-511high.png';
 import img_3365 from './33654775226_96814ca128_o.jpg';
 import img_2441 from './24417651849_e661252c66_o.jpg';
 import img_Z009 from './Z0092008.jpg';
