@@ -34,7 +34,7 @@ export const About: React.FC = () => (
             title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
             title="Flaticon">www.flaticon.com</a>, and is licensed under <a
             href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY
-            3.0" target="_blank">CC 3.0 BY</a>.</p>
+            3.0">CC 3.0 BY</a>.</p>
             <p><a href="https://wakufactory.jp/densho/font/hentai/">UniHentaiKana</a> is used as a fallback font for <span lang="ja-Latn">hentaigana</span> characters. It is licensed under the <a href="https://opensource.org/licenses/IPA">IPA Font License</a>.</p>
             <p>A modified version of the <a href="https://cc-icons.github.io/">Creative Commons Web Font</a> (1.2.0) by Ricardo Barros is used to indicate licensing information. Both the font and my modifications are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">CC 4.0 BY</a> license.</p>
             <h2 id="colophon">Colophon</h2>
