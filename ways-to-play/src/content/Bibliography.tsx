@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Helmet from 'react-helmet';
 
-import * as references from '../References/bibliography.json';
+import references from '../References/bibliography.json';
 import { renderReference } from '../References';
 
 const Bibliography: React.FC = () => {
