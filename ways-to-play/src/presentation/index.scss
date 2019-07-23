@@ -38,8 +38,6 @@ $figure-caption-font-size: 1.2 * .625rem;
 @import './text.css';
 
 body {
-    /* this is the default but it fixes issues with Han characters intermingled in Latin */
-    line-height: 1.5em;
     font-variant-numeric: oldstyle-nums;
 }
 
@@ -106,6 +104,10 @@ main {
     padding-bottom: 3em;
 }
 
+section {
+    display: flow-root;
+}
+
 blockquote {
   margin-left: 2em;
 }
@@ -141,7 +143,7 @@ figure.wide {
 }
 
 /* Wide images are oversize on >=large bootstrap size */
-@media(min-width: 992px) {
+@include media-breakpoint-up(lg) {
     figure.wide {
         width: 120%;
         margin-left: -10%;
@@ -193,4 +195,24 @@ table caption {
     line-height: 1.1em;
     text-align: center;
     font-size: $figure-caption-font-size;
+}
+
+/*** Footnotes ***/
+.footnote {
+    text-indent: -.8em;
+    font-size: 0.8em;
+
+    text-align: left;
+
+    width: 40%;
+    clear: right;
+    float: right;
+    padding-left: 1.5em;
+}
+
+@include media-breakpoint-up(xl) {
+    .footnote {
+        padding-left: 0;
+        margin: 0 -45% 0 0;
+    }
 }

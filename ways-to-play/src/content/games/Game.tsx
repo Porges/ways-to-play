@@ -5,7 +5,7 @@ import { Reference } from '../../References';
 import { GameId, Games } from './Meta';
 
 export type GameProps = {
-    cite: (ref: Reference, ...pages:(number|[number,number])[]) => React.ReactNode
+    cite: (ref: Reference, pages?: number|((number|[number,number])[]), inline?: boolean) => React.ReactNode
 }
 
 export const GameRef: React.FC<{id: GameId}> = ({id}) => {
