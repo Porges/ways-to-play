@@ -1,12 +1,13 @@
-/* Mercury doesn't have support for everything so we'll override in some cases:
-*/
+/*
+ * Mercury doesn't have support for everything so we'll override in some cases:
+ */
 span[lang|=grc], /* Ancient (Polytonic) Greek - otherwise graves have a weird rendering */
 span[lang|=si-Latn] /* Sinhalese Latin - otherwise dotted m has issues */
 {
     font-family: serif;
 }
 
-/* Italicize non-English (but Latin) languages: */
+/*** Italicize non-English (but Latin) languages: ***/
 span[lang|=bn-Latn], /* Bangla */
 span[lang|=de], /* German */
 span[lang|=ee], /* Ewe */
