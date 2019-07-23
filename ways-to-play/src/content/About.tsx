@@ -14,7 +14,7 @@ export const About: React.FC = () => (
         <Col lg="6">
             <article>
             <h1>About</h1>
-            <p className="lead text-center">This is a site about games and how to play them.</p>
+            <p className="lead text-center">This is a site about games<br/>and how to play them.</p>
             <h2 id="why">Why?</h2>
             <p>As Alan Ferg says in <cite>Playing Cards of the Apaches</cite> (p. 35):</p>
             <blockquote>
