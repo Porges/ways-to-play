@@ -62,7 +62,7 @@ export const ArticleImage: React.FC<Props> = props => {
                 alt={props.alt}
                 src={typeof props.src === 'string' ? props.src : props.src.src}
                 srcSet={typeof props.src === 'string' ? undefined : props.src.srcSet}
-                sizes="(max-width: 575.98px) 300px, 600px"
+                sizes={props.position === 'wide' ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px" : "(max-width: 575.98px) 300px, 600px"}
                 /> {/* sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ */}
             <Figure.Caption className="text-center">
                 {props.children} {props.source && renderSource(props.source) }
