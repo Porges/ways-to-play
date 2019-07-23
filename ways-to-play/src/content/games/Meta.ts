@@ -5,7 +5,8 @@ import { GameProps } from './Game';
 export type GameMeta = Readonly<{
     name: string,
     nameLang?: string,
-    players: readonly number[]
+    players: readonly number[],
+    draft?: boolean,
     import: React.LazyExoticComponent<React.FC<GameProps>>
 }>
 

@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async';
 
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Badge from 'react-bootstrap/Badge';
 
 import { renderReference, Reference } from '../../References';
 
@@ -50,7 +51,7 @@ const GamesList: React.FC<GamesListProps> = ({location, match}) => {
         <hr/>
         <ul>
         { allGames.map(([path, game]) =>
-             <li key={path}><Link to={`/games/${path}`} lang={game.nameLang}>{game.name}</Link></li>) }
+             <li key={path}><Link to={`/games/${path}`} lang={game.nameLang}>{game.name} {game.draft && <Badge variant="warning">Draft</Badge>}</Link></li>) }
         </ul>
     </>);
 }
@@ -112,15 +113,15 @@ const GameArticle : React.FC<RouteComponentProps<{gameId: string}>> = ({match, h
             <Row>
                 <Col>
                     <h1 itemProp="headline" lang={game.nameLang}>
-                        <Link itemProp="mainEntityOfPage" to={match.url}>{game.name}</Link>
+                        <Link itemProp="mainEntityOfPage" to={match.url}>{game.name}</Link> {game.draft&&<Badge variant="warning">Draft</Badge>}
                     </h1>
                 </Col>
             </Row>
             <Row>
-                <Col lg="3">
+                <Col lg="3" xl="2">
                     { renderInfoBox(game) }
                 </Col>
-                <Col lg="7">
+                <Col lg="8" xl="7">
                     <section itemProp="articleBody">
                         <React.Suspense fallback={<p>Loading content...</p>}>
                             <Import cite={cite} />
@@ -155,8 +156,8 @@ const renderInfoBox = (game: Meta.GameMeta) => {
             <div className="info">
                 <dl itemProp="about" itemScope itemType="http://schema.org/Game" className="row no-gutters">
                     <meta itemProp="name" lang={game.nameLang} content={game.name} />
-                    <dt className="col-4 text-right pr-1">Players</dt>
-                    <dd className="col-8"
+                    <dt className="col-5 text-right pr-1">Players</dt>
+                    <dd className="col-7"
                         itemScope
                         itemProp="numberOfPlayers"
                         itemType="http://schema.org/QuantitativeValue">

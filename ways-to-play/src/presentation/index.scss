@@ -113,6 +113,11 @@ blockquote {
 }
 
 /*** Figures ***/
+.figure {
+    display: block;
+    clear: both;
+}
+
 figcaption {
     line-height: 1.1rem;
 }
