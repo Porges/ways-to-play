@@ -43,6 +43,12 @@ body {
     font-variant-numeric: oldstyle-nums;
 }
 
+#root {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -92,6 +98,7 @@ h2::after {
 }
 
 main {
+    flex: 1;
     margin-top: 50px;
     text-align: justify;
     hyphens: auto;
