@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import { Person, License } from './ui';
 import { Routes } from './content';
-import Helmet from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 
 const App: React.FC = () => {
   return (
