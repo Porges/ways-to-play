@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import svgGPL from './gpl.svg';
+
 export type LicenseName
     = "cc0"
     | "cc-by"
@@ -9,6 +11,7 @@ export type LicenseName
     | "cc-by-nc-sa"
     | "cc-by-nc-nd"
     | "instagram"
+    | "gpl"
 
 export type Version = "2.0" | "4.0"
 
@@ -43,6 +46,8 @@ const altText = (input: string) => {
             return "No Derivatives";
         case "sa":
             return "Share-Alike";
+        case "gpl":
+            return "GPL";
     }
 }
 
@@ -58,7 +63,9 @@ export const License: React.FC<Props> = (props: Props) => {
     }
 
     const href =
-            license === "cc0"
+        license === 'gpl'
+        ? "https://www.gnu.org/licenses/gpl.html" 
+        : license === "cc0"
             ? "https://creativecommons.org/publicdomain/zero/1.0/"
             : `https://creativecommons.org/licenses/${license.substr(3)}/${version}`;
 
@@ -75,7 +82,11 @@ export const License: React.FC<Props> = (props: Props) => {
             href={href}
             title={title}
             {...htmlAttributes}>
-            { parts.map(charFor).join('\u{200a}') }
+            {
+                license === 'gpl'
+                ? <img src={svgGPL} alt={`GPLv${version}`} width={14} height={14} />
+                : parts.map(charFor).join('\u{200a}')
+            }
         </a>
     );
 };

@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { ArticleImage } from '../../../ui';
-import { GameProps } from '../Game';
+import { ArticleImage, ArticleContentProps } from '../../../ui';
 
 import { WCF } from '../../../References/bibliography.json';
 
@@ -12,7 +11,7 @@ import imgFourHandedChivalry from './four-handed-chivalry.svg';
 import imgGrandCam from './grand-cam.svg';
 import imgGrandCamelot from './grand-camelot.svg';
 
-const Camelot: React.FC<GameProps> = ({cite}) => (
+const Camelot: React.FC<ArticleContentProps> = ({cite}) => (
     <>
     <section itemProp="description">
         <p><span className="game-title">Chivalry</span>, <span className="game-title">Camelot</span>, <span className="game-title">Cam</span>, and <span className="game-title">Camette</span> are members of a series of related 2-player games originally developed by George Parker (of Parker Brothers fame).</p>

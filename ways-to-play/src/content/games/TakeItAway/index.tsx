@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { GameProps, GameRef } from '../Game';
-import { ArticleImage } from '../../../ui';
+import { GameRef } from '../Game';
+import { ArticleImage, ArticleContentProps } from '../../../ui';
 
 import { Gamut } from '../../../References/bibliography.json';
 
 import imgTakeItAway from './take-it-away.svg';
 
-const TakeItAway: React.FC<GameProps> = ({cite}) => {
+const TakeItAway: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
     <p><span id="index-take-it-away" className="game-title">Take It Away</span> is a game for 2–4 players invented by <a href="/people/sid-sackson.html">Sid Sackson</a>,{cite(Gamut, [142,143])} in which players try to achieve the highest score by capturing from a shared set of pieces on the board.</p>
     <section id="equipment" className="level2">

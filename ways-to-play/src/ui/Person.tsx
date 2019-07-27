@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Organization, RenderOrganization } from './Organization';
 
-export type Name = string | { given: string, family: string, familyFirst?: boolean } 
+export type Name = string | { given: string, family: string, familyFirst?: boolean, lang?: string } 
 
 type Props = {
     name: Name,
@@ -29,9 +29,9 @@ export const Person: React.FC<Props> = (props) => {
             {
                 typeof name === 'string'
                 ? name
-                : name.familyFirst
-                ? <><span itemProp="familyName">{name.family}</span> <span itemProp="givenName">{name.given}</span></>
-                : <><span itemProp="givenName">{name.given}</span> <span itemProp="familyName">{name.family}</span></>
+                : name.familyFirst // note: also no space for family-first names, at the moment
+                ? <span lang={name.lang}><span itemProp="familyName">{name.family}</span><span itemProp="givenName">{name.given}</span></span>
+                : <span lang={name.lang}><span itemProp="givenName">{name.given}</span> <span itemProp="familyName">{name.family}</span></span>
             }
             </span>
         </span>

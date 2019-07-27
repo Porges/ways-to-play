@@ -145,7 +145,7 @@ const renderContainer = (reference: Reference) => {
             return (<>
                 {' '}
                 <span itemScope itemType="http://schema.org/WebSite" itemProp="isPartOf">
-                    <span itemProp="name">{containerTitle}</span>
+                    <i><span itemProp="name">{containerTitle}</span></i>.
                 </span>
             </>);
 

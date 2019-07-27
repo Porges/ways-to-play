@@ -8,6 +8,24 @@ module.exports = {
 
             const config = { ...webpackConfig };
 
+
+            const mp3Loader = 
+                {
+                    test: /\.mp3$/,
+                    loader: 'file-loader',
+                    options: { name: 'static/media/[name].[hash:8].[ext]' }
+                };
+
+            const rule = config.module.rules[2];
+            if (!('oneOf' in rule)) {
+                throw new Error('Craco config needs updating, CRA has been updated.');
+            }
+
+            rule.oneOf = [mp3Loader, ...rule.oneOf];
+
+
+
+
             const urlLoader = getLoader(config, loaderByName('url-loader'));
             if (!urlLoader.isFound) {
                 throw new Error("Unable to find 'url-loader' in CRA config");
@@ -29,6 +47,9 @@ module.exports = {
 
             delete loader.loader;
             delete loader.options;
+
+
+
 
             const imageMin =
                 new ImageminPlugin(

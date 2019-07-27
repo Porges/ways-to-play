@@ -2,19 +2,19 @@ import * as React from 'react';
 
 import Table from 'react-bootstrap/Table';
 
-import { GameProps, GameRef } from '../Game';
-import { ArticleImage } from '../../../ui';
+import { GameRef } from '../Game';
+import { ArticleImage, ArticleContentProps } from '../../../ui';
 
 import { Murray2 } from '../../../References/bibliography.json';
 
 import imgLeapFrogVariation from './leap-frog-variation.svg';
 
-const LeapFrog: React.FC<GameProps> = ({cite}) => (
+const LeapFrog: React.FC<ArticleContentProps> = ({cite}) => (
     <>
     <p><span id="index-leap-frog" className="game-title">Leap-Frog</span> is a game for two or more players in which the object is to capture the most pieces from a board containing identical pieces.</p>
     <section id="equipment">
     <h3>Equipment</h3>
-    <p>To play you will need a gridded board (Murray{cite(Murray2, 93)} suggests 15×15 to 18×18 squares), and enough pieces to fill all the spaces on it. All the pieces are the same.</p>
+    <p>To play you will need a gridded board (Murray{cite(Murray2, [93])} suggests 15×15 to 18×18 squares), and enough pieces to fill all the spaces on it. All the pieces are the same.</p>
     </section>
     <section id="setup">
     <h3>Setup</h3>
@@ -25,7 +25,7 @@ const LeapFrog: React.FC<GameProps> = ({cite}) => (
     <p>To start, the first player removes one piece and places it in front of themselves. After this, the players take turns by jumping a piece (not diagonally) over another into an empty space, and capturing the piece that was jumped. Multiple pieces may be jumped in a turn, even changing direction, and the player must capture as many as possible with the piece that was moved.</p>
     <p>The game ends when no more captures can be made, and the player who captured the most pieces is the winner.</p>
     </section>
-    <section id="variants" className="level2">
+    <section id="variants">
     <h2>Variants</h2>
     <ArticleImage
         position="right"
@@ -325,7 +325,7 @@ const LeapFrog: React.FC<GameProps> = ({cite}) => (
     </Table>
     <p>Another way to vary the game would be to play on a non-square or non-uniform board.</p>
     </section>
-    <section id="see-also" className="level2">
+    <section id="see-also">
     <h2>See also</h2>
     <p><GameRef id="take-it-away"/> is a similar game by Sid Sackson.</p>
     </section>

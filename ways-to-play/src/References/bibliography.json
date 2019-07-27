@@ -1840,7 +1840,7 @@
         "URL": "https://themolokaidispatch.com/konane/",
         "id": "MolokaiDispatch"
     },
-    "4Seasons": {
+    "FourSeasons": {
         "type": "book",
         "title": "Japan and the Culture of the Four Seasons",
         "author": [
@@ -1855,7 +1855,7 @@
         "publisher": "Columbia University Press",
         "publisher-place": "New York, NY, USA",
         "ISBN": "978-0-231-52652-4",
-        "id": "4Seasons"
+        "id": "FourSeasons"
     },
     "TalesOfIse": {
         "type": "book",
@@ -1887,7 +1887,7 @@
         },
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA",
-        "ISBN": 160425,
+        "ISBN": "0804712581",
         "id": "KokinWakashu"
     },
     "NoteOnAMissingLink": {
@@ -2076,7 +2076,7 @@
         "id": "Teesdale"
     },
     "KKS135": {
-        "type": "article",
+        "type": "webpage",
         "title": "KKS III: 135",
         "author": [
             {
@@ -2094,7 +2094,7 @@
         "id": "KKS135"
     },
     "SKKS442": {
-        "type": "article",
+        "type": "webpage",
         "title": "SKKS IV: 442",
         "author": [
             {

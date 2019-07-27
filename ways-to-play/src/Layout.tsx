@@ -22,6 +22,7 @@ const App: React.FC = () => {
           <Nav as="ul" className="ml-auto">
             <li><Nav.Link as={Link} to="/about/">About</Nav.Link></li>
             <li><Nav.Link as={Link} to="/games/">Games</Nav.Link></li>
+            <li><Nav.Link as={Link} to="/equipment/">Equipment</Nav.Link></li>
             <li><Nav.Link as={Link} to="/bibliography/">Bibliography</Nav.Link></li>
           </Nav>
         </Navbar.Collapse>
