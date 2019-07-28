@@ -1871,6 +1871,7 @@
         },
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA",
+        "ISBN": "0804706537",
         "id": "TalesOfIse"
     },
     "KokinWakashu": {
@@ -3376,6 +3377,7 @@
         "issued": {
             "year": 1990
         },
+        "ISBN": "9783499189012",
         "publisher": "Rowohlt Taschenbuch Verlag",
         "publisher-place": "Germany",
         "id": "KlassischeSpiele"
