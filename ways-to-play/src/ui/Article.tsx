@@ -16,8 +16,8 @@ type Props = {
 export type ArticleContentProps = {
     readonly cite: (
         reference: Reference,
-        pages?: (number|[number, number]|[number, number, string])[],
-        options?: {inline: boolean} ) => React.ReactNode
+        pages?: (number|[number, number])[],
+        options?: {inline?: boolean, page?: string} ) => React.ReactNode
 }
 
 export type ArticleContent = Readonly<{
@@ -37,7 +37,7 @@ export const Article : React.FC<Props> = ({url, content, infoBox}) => {
         window.scrollTo(0, 0);
     }, [url]);
 
-    const cite = (ref: Reference, pages?: (number|[number, number]|[number, number, string])[], options?: { inline: boolean }) => {
+    const cite = (ref: Reference, pages?: (number|[number, number])[], options?: { inline?: boolean, page?: string }) => {
 
         let index = state.cited.findIndex(x => x === ref);
         if (index === -1) {
@@ -61,11 +61,14 @@ export const Article : React.FC<Props> = ({url, content, infoBox}) => {
             ? null
             : typeof pages === 'number'
                 ? pages
-                : pages.map(p => typeof p === 'number' ? p : `${p.length > 2 ? p[2] : ''}${p[0]}–${p[1]}`).join(', ');
+                : pages.map(p => typeof p === 'number' ? p : `${p[0]}–${p[1]}`).join(', ');
+
+    
+        const pageType = options && options.page ? options.page + ' ' : '';
 
         return options && options.inline 
-            ? <span className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>]{suffix && <> ({suffix})</>}</span>
-            : <sup className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>{suffix && <>: {suffix}</>}]</sup>;
+            ? <span className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>]{suffix && <> ({pageType}{suffix})</>}</span>
+            : <sup className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>{suffix && <>: {pageType}{suffix}</>}]</sup>;
     };
 
     const Import = content.import;

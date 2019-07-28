@@ -144,7 +144,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <h3>History</h3>
     <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the early 19th century, during the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). <Noun lang="ja-Latn">Edo</Noun> culture was heavily influenced by the aristocratic culture of the earlier <Noun lang="ja-Latn">Heian</Noun> period (794–1185). As such, the cards abound with references to <Noun lang="ja-Latn">Heian</Noun> period literature, festivals, and artistic tropes:</p>
     <blockquote className="blockquote">
-    <p>With the exception of the peony, which entered the poetic canon in the <Noun lang="ja-Latn">Edo</Noun> period, all the images are from classical poetry of the <Noun lang="ja-Latn">Heian</Noun> period and reflect urban commoners’ knowledge of the poetic and cultural associations of the months.{cite(FourSeasons)}</p>
+    <p>With the exception of the peony, which entered the poetic canon in the <Noun lang="ja-Latn">Edo</Noun> period, all the images are from classical poetry of the <Noun lang="ja-Latn">Heian</Noun> period and reflect urban commoners’ knowledge of the poetic and cultural associations of the months.{cite(FourSeasons, [[1739,1741]], {page:"l."})}</p>
     </blockquote>
     <p>Artistically, the cards derive from the <span lang="ja-Latn">kachōga</span> (<span lang="ja">花鳥画</span> ‘flower and bird painting’) tradition. Artworks in this style often have poems written upon them, and these appear on some cards of the <span lang="ja-Latn">Echigo-bana</span> pattern.</p>
     <ArticleImage
@@ -170,13 +170,13 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <Footnote>
         <p><span className="footnote-marker">*</span> In particular, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.{cite(SatireWithinKibyōshi, [44])}</p>
     </Footnote>
-    <p><Noun lang="ja-Latn">Hanafuda</Noun> were banned as part of widespread restrictions on gambling that were introduced by the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1789–1801).<span className="footnote-marker">*</span>  This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
+    <p><Noun lang="ja-Latn">Hanafuda</Noun> were banned as part of widespread restrictions on gambling that were introduced by the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793).<span className="footnote-marker">*</span>  This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
     </section>
     <section id="composition-of-the-deck">
     <h3>Composition of the deck</h3>
     <p><Noun lang="ja-Latn">Hanafuda</Noun> decks comprise 12 ‘suits’ of 4 cards each, giving 48 cards total. Each suit corresponds to a month, and is represented on the cards by a plant related to that month.</p>
     <Footnote>
-    <p><span className="footnote-marker">†</span> In Kyoto from the 11th to 13th centuries, the average peak of the cherry blossom season was April 17th.{cite(FourSeasons)}</p>
+    <p><span className="footnote-marker">†</span> In Kyoto from the 11th to 13th centuries, the average peak of the cherry blossom season was April 17th.{cite(FourSeasons, [484], {page:"l."})}</p>
     </Footnote>
     <p>While nominally the cards start in ‘January’, at the time the deck was created Japan’s calendar was based upon the lunisolar Chinese calendar, which started in what is now February. This explains why ‘March’ is the month of the cherry blossom when—according to the current calendar—it should be April,<span className="footnote-marker">†</span>  and why ‘August’ shows the full moon when the full moon festival (<span lang="ja">月見</span> <Pronunciation
     src={pronTsukimi} lang="ja-Latn">tsukimi</Pronunciation>) actually falls in September–October.</p>
@@ -358,7 +358,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         ]}/>
     <p>The cards for April show the drooping branches of wisteria. They are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronunciation src={pronKuromame} lang="ja-Latn">kuromame</Pronunciation>). There is one species card, one red scroll card, and two junk cards.</p>
     <p>This month shows the transition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronunciation
-    src={pronHototogisu} lang="ja-Latn">hototogisu</Pronunciation>) is a bird of summer,{cite(FourSeasons)} while wisteria is associated with the end of spring.{cite(FourSeasons)}</p>
+    src={pronHototogisu} lang="ja-Latn">hototogisu</Pronunciation>) is a bird of summer,{cite(FourSeasons, [1065], {page:"l."})} while wisteria is associated with the end of spring.{cite(FourSeasons, [1021], {page:"l."})}</p>
     <Footnote>
         <p><span className="footnote-marker">*</span> This may be a reference to the tale of <Noun lang="ja-Latn">Yorimasa</Noun> from the <Noun lang="ja-Latn">Heike Monogatari</Noun>, but I cannot be sure about that.{cite(HeikeMonogatari, [[161,163]])}</p>
     </Footnote>
@@ -498,7 +498,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <Footnote>
         <p><span className="footnote-marker">§</span> A story invented by Tendai monks in the 14th century <Noun lang="ja-Latn">Taiheiki</Noun> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:{cite(ChigoJapanese, [958,959])} A boy banished to a remote mountain writes out passages of the Buddhist Lotus Sūtra on chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks, and he goes on to live for 800 years without ageing a day.</p>
     </Footnote>
-    <p>The species card appears to show the implements of <Pronunciation src={pronChoyo} lang="ja-Latn">chōyō</Pronunciation> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).{cite(FourSeasons)}<span className="footnote-marker">§</span> </p>
+    <p>The species card appears to show the implements of <Pronunciation src={pronChoyo} lang="ja-Latn">chōyō</Pronunciation> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).{cite(FourSeasons, [1214], {page:"l."})}<span className="footnote-marker">§</span> </p>
     <p>During the festival, chrysanthemum petals are added to sake and consumed. The sake cup pictured on the card has the character <span lang="ja">寿</span> (<Pronunciation src={pronKotobuki} lang="ja-Latn">kotobuki</Pronunciation>), meaning ‘long life’, written in a cursive script.</p>
     <p>A poem by <Noun lang="ja-Latn">Bashō</Noun>, Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, commemorates the evening of the 9th day of the 9th month, in 1691. <Noun lang="ja-Latn">Bashō</Noun> was staying at the temple <Noun lang="ja-Latn">Gichu-ji</Noun> (<span lang="ja">義仲寺</span>) in a hermitage known as ‘nameless hut’ (<span lang="ja">無名庵</span> <Noun lang="ja-Latn">Mumyō-an</Noun>). His disciple <Noun lang="ja-Latn">Kawai Otokuni</Noun> (<span lang="ja">河合乙州</span>) came to visit him:</p>
     <blockquote>
@@ -521,7 +521,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
             [imgHanafuda10_1, ""],
         ]}/>
     <p>The cards for October show fallen maple leaves. There is one species card, one blue/purple scroll card, and two junk cards.</p>
-    <p>While the leaves on the species card are attached to a tree, the leaves on the other cards appear to be floating on water. This could be a reference to the <Noun lang="ja-Latn">Tatsuta</Noun> river (<span lang="ja">竜田川</span>), which was as famous for autumn foliage as <Noun lang="ja-Latn">Yoshino</Noun> was for cherry blossoms in the spring.{cite(FourSeasons)}</p>
+    <p>While the leaves on the species card are attached to a tree, the leaves on the other cards appear to be floating on water. This could be a reference to the <Noun lang="ja-Latn">Tatsuta</Noun> river (<span lang="ja">竜田川</span>), which was as famous for autumn foliage as <Noun lang="ja-Latn">Yoshino</Noun> was for cherry blossoms in the spring.{cite(FourSeasons, [1756], {page:"l."})}</p>
     <ArticleImage
         position="small"
         src={imgPoem2}
