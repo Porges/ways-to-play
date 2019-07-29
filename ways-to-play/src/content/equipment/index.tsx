@@ -7,6 +7,7 @@ const equipment = {
     hanafuda: {
         title: 'Hanafuda',
         titleLang: 'ja',
+        draft: true,
         import: React.lazy(() => /* webpackChunkName: hanafuda */ import('./hanafuda'))
     }
 } as const;
