@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { GameRef } from '../Game';
-import { ArticleImage, ArticleContentProps } from '../../../ui';
 
-import { Gamut } from '../../../References/bibliography.json';
+import { ArticleImage, ArticleContentProps } from 'ui';
+import { Gamut } from 'References/bibliography.json';
 
 import imgTakeItAway from './take-it-away.svg';
 

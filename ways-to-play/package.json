@@ -21,6 +21,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "responsive-loader": "^1.2.0",
+    "tslib": "^1.10.0",
     "typescript": "3.5.3"
   },
   "scripts": {

@@ -1,7 +1,7 @@
 import * as React from 'react';
-import { ArticleImage, ArticleContentProps } from '../../../ui';
 
-import { WCF } from '../../../References/bibliography.json';
+import { ArticleImage, ArticleContentProps } from 'ui';
+import { WCF } from 'References/bibliography.json';
 
 import imgCamette from './camette.svg';
 import imgCam from './cam.svg';

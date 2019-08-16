@@ -1,13 +1,14 @@
 import * as React from 'react';
 import { GameRef } from '../Game';
-import { ArticleImage, Footnote, Noun, ArticleContentProps } from '../../../ui';
+
+import { ArticleImage, Footnote, Noun, ArticleContentProps } from 'ui';
 
 import 
     { Stokes, KamehamehaAndHisWarrior, Ellis17, VoyageToPacific
     , Hackler86, Jackson92, LegendsOfHonolulu, AVoyageRoundTheWorld
     , Brigham08, Emory24, MolokaiDispatch, CulinHawaiian, PeterBuck
     , ClarkBeaches, MajesticKau, Ernst95 }
-    from '../../../References/bibliography.json';
+    from 'References/bibliography.json';
 
 import imgKonane_960 from './konane_960.jpg';
 import img61_611 from './61-511high.png';

@@ -1,120 +1,122 @@
 import * as React from 'react';
 
-import { Pronunciation, Noun, ArticleImage, ArticleContentProps, Footnote, SourceInfo } from '../../../ui';
+import { Pronunciation, Noun, ArticleImage, ArticleContentProps, Footnote, SourceInfo } from 'ui';
  
-import { MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, SalterJapanese, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, ModernJapaneseWrappers, ModernKoreanCards, KokinWakashu } from '../../../References/bibliography.json';
+import { HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, SalterJapanese, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, ModernJapaneseWrappers, ModernKoreanCards, KokinWakashu } from 'References/bibliography.json';
 
-import imgSC232146 from "./SC232146.jpg";
-import imgSC232139 from "./SC232139.jpg";
-import imgSC232140 from "./SC232140.jpg";
-import imgSC232143 from "./SC232143.jpg";
-import imgSC232156 from "./SC232156.jpg";
-import imgSC232159 from "./SC232159.jpg";
-import imgSC232172 from "./SC232172.jpg";
-import imgSC232177 from "./SC232177.jpg";
-import imgSC232155 from "./SC232155.jpg";
-import imgSC152627 from './SC152627.jpg';
-import imgIrises1 from "./Irises_at_Yatsuhashi_(left).jpg";
-import imgIrises2 from "./Irises_at_Yatsuhashi_(right).jpg";
+import imgSC232146 from "../SC232146.jpg";
+import imgSC232139 from "../SC232139.jpg";
+import imgSC232140 from "../SC232140.jpg";
+import imgSC232143 from "../SC232143.jpg";
+import imgSC232156 from "../SC232156.jpg";
+import imgSC232159 from "../SC232159.jpg";
+import imgSC232172 from "../SC232172.jpg";
+import imgSC232177 from "../SC232177.jpg";
+import imgSC232155 from "../SC232155.jpg";
+import imgSC152627 from '../SC152627.jpg';
+import imgIrises1 from "../Irises_at_Yatsuhashi_(left).jpg";
+import imgIrises2 from "../Irises_at_Yatsuhashi_(right).jpg";
 
-import imgHanafuda1_1 from './Hanafuda_1-1.svg';
-import imgHanafuda1_2 from './Hanafuda_1-2.svg';
-import imgHanafuda1_3 from './Hanafuda_1-3.svg';
-import imgHanafuda1_4 from './Hanafuda_1-4.svg';
-import imgHanafuda2_1 from './Hanafuda_2-1.svg';
-import imgHanafuda2_2 from './Hanafuda_2-2.svg';
-import imgHanafuda2_3 from './Hanafuda_2-3.svg';
-import imgHanafuda2_4 from './Hanafuda_2-4.svg';
-import imgHanafuda3_1 from './Hanafuda_3-1.svg';
-import imgHanafuda3_2 from './Hanafuda_3-2.svg';
-import imgHanafuda3_3 from './Hanafuda_3-3.svg';
-import imgHanafuda3_4 from './Hanafuda_3-4.svg';
-import imgHanafuda4_1 from './Hanafuda_4-1.svg';
-import imgHanafuda4_2 from './Hanafuda_4-2.svg';
-import imgHanafuda4_3 from './Hanafuda_4-3.svg';
-import imgHanafuda4_4 from './Hanafuda_4-4.svg';
-import imgHanafuda5_1 from './Hanafuda_5-1.svg';
-import imgHanafuda5_2 from './Hanafuda_5-2.svg';
-import imgHanafuda5_3 from './Hanafuda_5-3.svg';
-import imgHanafuda5_4 from './Hanafuda_5-4.svg';
-import imgHanafuda6_1 from './Hanafuda_6-1.svg';
-import imgHanafuda6_2 from './Hanafuda_6-2.svg';
-import imgHanafuda6_3 from './Hanafuda_6-3.svg';
-import imgHanafuda6_4 from './Hanafuda_6-4.svg';
-import imgHanafuda7_1 from './Hanafuda_7-1.svg';
-import imgHanafuda7_2 from './Hanafuda_7-2.svg';
-import imgHanafuda7_3 from './Hanafuda_7-3.svg';
-import imgHanafuda7_4 from './Hanafuda_7-4.svg';
-import imgHanafuda8_1 from './Hanafuda_8-1.svg';
-import imgHanafuda8_2 from './Hanafuda_8-2.svg';
-import imgHanafuda8_3 from './Hanafuda_8-3.svg';
-import imgHanafuda8_4 from './Hanafuda_8-4.svg';
-import imgHanafuda9_1 from './Hanafuda_9-1.svg';
-import imgHanafuda9_2 from './Hanafuda_9-2.svg';
-import imgHanafuda9_3 from './Hanafuda_9-3.svg';
-import imgHanafuda9_4 from './Hanafuda_9-4.svg';
-import imgHanafuda10_1 from './Hanafuda_10-1.svg';
-import imgHanafuda10_2 from './Hanafuda_10-2.svg';
-import imgHanafuda10_3 from './Hanafuda_10-3.svg';
-import imgHanafuda10_4 from './Hanafuda_10-4.svg';
-import imgHanafuda11_1 from './Hanafuda_11-1.svg';
-import imgHanafuda11_2 from './Hanafuda_11-2.svg';
-import imgHanafuda11_3 from './Hanafuda_11-3.svg';
-import imgHanafuda11_4 from './Hanafuda_11-4.svg';
-import imgHanafuda12_1 from './Hanafuda_12-1.svg';
-import imgHanafuda12_2 from './Hanafuda_12-2.svg';
-import imgHanafuda12_3 from './Hanafuda_12-3.svg';
-import imgHanafuda12_4 from './Hanafuda_12-4.svg';
+import imgHanafuda1_1 from '../Hanafuda_1-1.svg';
+import imgHanafuda1_2 from '../Hanafuda_1-2.svg';
+import imgHanafuda1_3 from '../Hanafuda_1-3.svg';
+import imgHanafuda1_4 from '../Hanafuda_1-4.svg';
+import imgHanafuda2_1 from '../Hanafuda_2-1.svg';
+import imgHanafuda2_2 from '../Hanafuda_2-2.svg';
+import imgHanafuda2_3 from '../Hanafuda_2-3.svg';
+import imgHanafuda2_4 from '../Hanafuda_2-4.svg';
+import imgHanafuda3_1 from '../Hanafuda_3-1.svg';
+import imgHanafuda3_2 from '../Hanafuda_3-2.svg';
+import imgHanafuda3_3 from '../Hanafuda_3-3.svg';
+import imgHanafuda3_4 from '../Hanafuda_3-4.svg';
+import imgHanafuda4_1 from '../Hanafuda_4-1.svg';
+import imgHanafuda4_2 from '../Hanafuda_4-2.svg';
+import imgHanafuda4_3 from '../Hanafuda_4-3.svg';
+import imgHanafuda4_4 from '../Hanafuda_4-4.svg';
+import imgHanafuda5_1 from '../Hanafuda_5-1.svg';
+import imgHanafuda5_2 from '../Hanafuda_5-2.svg';
+import imgHanafuda5_3 from '../Hanafuda_5-3.svg';
+import imgHanafuda5_4 from '../Hanafuda_5-4.svg';
+import imgHanafuda6_1 from '../Hanafuda_6-1.svg';
+import imgHanafuda6_2 from '../Hanafuda_6-2.svg';
+import imgHanafuda6_3 from '../Hanafuda_6-3.svg';
+import imgHanafuda6_4 from '../Hanafuda_6-4.svg';
+import imgHanafuda7_1 from '../Hanafuda_7-1.svg';
+import imgHanafuda7_2 from '../Hanafuda_7-2.svg';
+import imgHanafuda7_3 from '../Hanafuda_7-3.svg';
+import imgHanafuda7_4 from '../Hanafuda_7-4.svg';
+import imgHanafuda8_1 from '../Hanafuda_8-1.svg';
+import imgHanafuda8_2 from '../Hanafuda_8-2.svg';
+import imgHanafuda8_3 from '../Hanafuda_8-3.svg';
+import imgHanafuda8_4 from '../Hanafuda_8-4.svg';
+import imgHanafuda9_1 from '../Hanafuda_9-1.svg';
+import imgHanafuda9_2 from '../Hanafuda_9-2.svg';
+import imgHanafuda9_3 from '../Hanafuda_9-3.svg';
+import imgHanafuda9_4 from '../Hanafuda_9-4.svg';
+import imgHanafuda10_1 from '../Hanafuda_10-1.svg';
+import imgHanafuda10_2 from '../Hanafuda_10-2.svg';
+import imgHanafuda10_3 from '../Hanafuda_10-3.svg';
+import imgHanafuda10_4 from '../Hanafuda_10-4.svg';
+import imgHanafuda11_1 from '../Hanafuda_11-1.svg';
+import imgHanafuda11_2 from '../Hanafuda_11-2.svg';
+import imgHanafuda11_3 from '../Hanafuda_11-3.svg';
+import imgHanafuda11_4 from '../Hanafuda_11-4.svg';
+import imgHanafuda12_1 from '../Hanafuda_12-1.svg';
+import imgHanafuda12_2 from '../Hanafuda_12-2.svg';
+import imgHanafuda12_3 from '../Hanafuda_12-3.svg';
+import imgHanafuda12_4 from '../Hanafuda_12-4.svg';
 
-import img1620 from './16201732242_8d1d3ed19d_o.jpg'
-import img5Brights from './5_brights.jpg';
-import img5BrightsKr from './5_brights_kr.jpg';
-import imgAutumnMaples from './Autumn_Maples_with_Poem_Slips.jpg';
-import imgPoem1 from './poem-1.jpg';
-import imgPoem2 from './poem-2.jpg';
-import imgPoem3 from './poem-3.jpg';
-import imgPoem4 from './poem-4.jpg';
-import imgPoem5 from './poem-5.jpg';
-import imgPoem6 from './poem-6.jpg';
-import img16944 from './16944707362_9f2f1aa838_o.jpg';
-import imgSC14 from './SC148933.jpg';
-import imgMarks from './manufacturer-marks.jpg';
+import img1620 from '../16201732242_8d1d3ed19d_o.jpg'
+import img5Brights from '../5_brights.jpg';
+import img5BrightsKr from '../5_brights_kr.jpg';
+import imgAutumnMaples from '../Autumn_Maples_with_Poem_Slips.jpg';
+import imgPoem1 from '../poem-1.jpg';
+import imgPoem2 from '../poem-2.jpg';
+import imgPoem3 from '../poem-3.jpg';
+import imgPoem4 from '../poem-4.jpg';
+import imgPoem5 from '../poem-5.jpg';
+import imgPoem6 from '../poem-6.jpg';
+import img16944 from '../16944707362_9f2f1aa838_o.jpg';
+import imgSC14 from '../SC148933.jpg';
 
-import pronHanafuda from './pronunciation_ja_花札.mp3';
-import pronHwatu from './pronunciation_ko_화투.mp3';
-import pronTsukimi from './pronunciation_ja_月見.mp3';
-import pronHikari from './pronunciation_ja_光.mp3';
-import pronTane from './pronunciation_ja_種.mp3';
-import pronTanzaku from './pronunciation_ja_短冊.mp3';
-import pronHachihachibana from './pronunciation_ja_八八花.mp3';
-import pronEchigobana from './pronunciation_ja_越後花.mp3';
-import pronTanka from './pronunciation_ja_短歌.mp3';
-import pronKokinWakashu from './pronunciation_ja_古今和歌集.mp3';
-import pronSakura from './pronunciation_ja_桜.mp3';
-import pronHanami from './pronunciation_ja_花見.mp3';
-import pronMaku from './pronunciation_ja_幕.mp3';
-import pronFuji from './pronunciation_ja_藤.mp3';
-import pronMatsu from './pronunciation_ja_松.mp3';
-import pronUme from './pronunciation_ja_梅.mp3';
-import pronHototogisu from './pronunciation_ja_ホトトギス.mp3';
-import pronKuromame from './pronunciation_ja_黒豆.mp3'; 
-import pronAyame from './pronunciation_ja_菖蒲.mp3';
-import pronYatsuhashi from './pronunciation_ja_八橋.mp3';
-import pronKakitsubata from './pronunciation_ja_カキツバタ.mp3';
-import pronBotan from './pronunciation_ja_牡丹.mp3';
-import pronHagi from './pronunciation_ja_萩.mp3';
-import pronAzuki from './pronunciation_ja_赤豆.mp3';
-import pronSusuki from './pronunciation_ja_スズキ.mp3';
-import pronBozu from './pronunciation_ja_坊主.mp3';
-import pronKiku from './pronunciation_ja_菊.mp3';
-import pronChoyo from './pronunciation_ja_重陽.mp3';
-import pronKotobuki from './pronunciation_ja_寿.mp3';
-import pronKoyo from './pronunciation_ja_紅葉.mp3';
-import pronYanagi from './pronunciation_ja_柳.mp3';
-import pronOnifuda from './pronunciation_ja_鬼札.mp3';
-import pronAme from './pronunciation_ja_雨.mp3';
-import pronKiri from './pronunciation_ja_桐.mp3';
-import pronHoo from './pronunciation_ja_鳳凰.mp3';
+import pronHanafuda from '../pronunciation_ja_花札.mp3';
+import pronHwatu from '../pronunciation_ko_화투.mp3';
+import pronTsukimi from '../pronunciation_ja_月見.mp3';
+import pronHikari from '../pronunciation_ja_光.mp3';
+import pronTane from '../pronunciation_ja_種.mp3';
+import pronTanzaku from '../pronunciation_ja_短冊.mp3';
+import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
+import pronEchigobana from '../pronunciation_ja_越後花.mp3';
+import pronTanka from '../pronunciation_ja_短歌.mp3';
+import pronKokinWakashu from '../pronunciation_ja_古今和歌集.mp3';
+import pronSakura from '../pronunciation_ja_桜.mp3';
+import pronHanami from '../pronunciation_ja_花見.mp3';
+import pronMaku from '../pronunciation_ja_幕.mp3';
+import pronFuji from '../pronunciation_ja_藤.mp3';
+import pronMatsu from '../pronunciation_ja_松.mp3';
+import pronUme from '../pronunciation_ja_梅.mp3';
+import pronHototogisu from '../pronunciation_ja_ホトトギス.mp3';
+import pronKuromame from '../pronunciation_ja_黒豆.mp3'; 
+import pronAyame from '../pronunciation_ja_菖蒲.mp3';
+import pronYatsuhashi from '../pronunciation_ja_八橋.mp3';
+import pronKakitsubata from '../pronunciation_ja_カキツバタ.mp3';
+import pronBotan from '../pronunciation_ja_牡丹.mp3';
+import pronHagi from '../pronunciation_ja_萩.mp3';
+import pronAzuki from '../pronunciation_ja_赤豆.mp3';
+import pronSusuki from '../pronunciation_ja_スズキ.mp3';
+import pronBozu from '../pronunciation_ja_坊主.mp3';
+import pronKiku from '../pronunciation_ja_菊.mp3';
+import pronChoyo from '../pronunciation_ja_重陽.mp3';
+import pronKotobuki from '../pronunciation_ja_寿.mp3';
+import pronKoyo from '../pronunciation_ja_紅葉.mp3';
+import pronYanagi from '../pronunciation_ja_柳.mp3';
+import pronOnifuda from '../pronunciation_ja_鬼札.mp3';
+import pronAme from '../pronunciation_ja_雨.mp3';
+import pronKiri from '../pronunciation_ja_桐.mp3';
+import pronHoo from '../pronunciation_ja_鳳凰.mp3';
+import pronShigure from '../pronunciation_ja_時雨.mp3';
+import pronNegi from '../pronunciation_ja_葱.mp3';
+import pronKasu from '../pronunciation_ja_滓.mp3';
 
 const svgSourceInfo: SourceInfo = {
     license: 'gpl',
@@ -146,6 +148,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <blockquote className="blockquote">
     <p>With the exception of the peony, which entered the poetic canon in the <Noun lang="ja-Latn">Edo</Noun> period, all the images are from classical poetry of the <Noun lang="ja-Latn">Heian</Noun> period and reflect urban commoners’ knowledge of the poetic and cultural associations of the months.{cite(FourSeasons, [[1739,1741]], {page:"l."})}</p>
     </blockquote>
+    <p>They were probably derived from older “matching games” (<span lang="ja">物合</span> <span lang="ja-Latn">mono-awase</span>).</p>
     <p>Artistically, the cards derive from the <span lang="ja-Latn">kachōga</span> (<span lang="ja">花鳥画</span> ‘flower and bird painting’) tradition. Artworks in this style often have poems written upon them, and these appear on some cards of the <span lang="ja-Latn">Echigo-bana</span> pattern.</p>
     <ArticleImage
         src={[
@@ -170,7 +173,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <Footnote>
         <p><span className="footnote-marker">*</span> In particular, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.{cite(SatireWithinKibyōshi, [44])}</p>
     </Footnote>
-    <p><Noun lang="ja-Latn">Hanafuda</Noun> were banned as part of widespread restrictions on gambling that were introduced by the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793).<span className="footnote-marker">*</span>  This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
+    <p><Noun lang="ja-Latn">Hanafuda</Noun> were introduced during a period where gambling had been banned as part of the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793).<span className="footnote-marker">*</span> This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
     </section>
     <section id="composition-of-the-deck">
     <h3>Composition of the deck</h3>
@@ -212,7 +215,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <ul>
     <li>9 ‘species’ (<span lang="ja">種</span> <Pronunciation src={pronTane} lang="ja-Latn">tane</Pronunciation>) cards. These feature animals, but also a sake cup, and the ‘eight-planked bridge’.</li>
     <li>10 ‘scroll’ (<span lang="ja">短冊</span> <Pronunciation src={pronTanzaku} lang="ja-Latn">tanzaku</Pronunciation> cards. These are the cards with the coloured ‘scrolls’ on them. Small pieces of paper were used to write poems on at poetry competitions (see the image below). For some games these are further subdivided into three sub-groups: scrolls with writing, plain red scrolls, and plain blue/purple scrolls.</li>
-    <li>24 ‘dregs’ (<span lang="ja">カス</span> <span lang="ja-Latn">kasu</span>) or ‘junk’ cards. This is everything that isn’t in one of the previous categories.</li>
+    <li>24 ‘dregs’ (<span lang="ja">滓</span> <Pronunciation src={pronKasu} lang="ja-Latn">kasu</Pronunciation>) or ‘junk’ cards. This is everything that isn’t in one of the previous categories.</li>
     </ul>
     <p>In many games these cards will carry point values of 20, 10, 5, and 1, but this can vary. In some modern decks these values are printed on the cards.</p>
     <p>Korean decks often contain extra (up to 6) joker cards.</p>
@@ -233,7 +236,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <h3>Patterns</h3>
     <section id="standard">
     <h4>Standard</h4>
-    <p>The standard pattern is now one that is called <span lang="ja">八八花</span>/<span lang="ja">八々花</span> <Pronunciation src={pronHachihachibana} lang="ja-Latn">hachi­hachi­bana</Pronunciation>, as it is used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images of it are shown below.</p>
+    <p>The standard pattern is now one that is called <Pronunciation src={pronHachihachibana} lang="ja-Latn">hachi­hachi­bana</Pronunciation> (<span lang="ja">八八花</span>/<span lang="ja">八々花</span>), as it is used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images of it are shown below.</p>
     <p>Korean decks also use the standard <span lang="ja-Latn">hachi­hachi­bana</span> pattern, but the ribbons are usually blue instead of purple, and bear Korean text.</p>
     </section>
     <section id="echigo-bana">
@@ -243,7 +246,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     </section>
     <section id="awabanakintokibana">
     <h4><span lang="ja-Latn">Awa­bana</span>/<span lang="ja-Latn">Kintoki­bana</span></h4>
-    <p>This is another regional pattern called <span lang="ja">阿波花</span> <span lang="ja-Latn">Awa­bana</span> or <span lang="ja">金時花</span> <span lang="ja-Latn">Kintoki­bana</span>. It originated in <Noun lang="ja-Latn">Awa</Noun> province, in what is now <Noun lang="ja-Latn">Tokushima</Noun> prefecture.</p>
+    <p>This is another regional pattern called <span lang="ja-Latn">Awa­bana</span> (<span lang="ja">阿波花</span>) or <span lang="ja-Latn">Kintoki­bana</span> (<span lang="ja">金時花</span>). It originated in <Noun lang="ja-Latn">Awa</Noun> province, in what is now <Noun lang="ja-Latn">Tokushima</Noun> prefecture.</p>
     </section>
     <section id="modern-novelty-decks">
     <h4>Modern/Novelty decks</h4>
@@ -305,10 +308,10 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <p>TODO: There is a saying about plums &amp; warblers (in 4 seasons?)</p>
     <div className="multi">
     <p lang="ja" className="vertical-rl">
-    鴬の鳴音はしるき梅の花<br/>色まがえとや<br/>雪の降るらん
+    鴬の<br/>鳴音はしるき<br/>梅の花<br/>色まがえとや<br/>雪の降るらん
     </p>
     <p>
-    The nightingale’s<br/>Song is clear<br/>And the white plum blossom<br/>Becomes lost<br/>In the falling snow.
+    The nightingale’s<br/>Song is clear<br/>And the white plum blossom<br/>Becomes lost<br/>In the falling snow.{cite(PoemsOfTheEchigobana, [99])}
     </p>
     </div>
     <ArticleImage
@@ -342,7 +345,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         }} >
         <cite>3rd Month: Blossom-Viewing in Askukayama</cite><br/><cite lang="ja">三月　飛鳥山花見</cite><br/>by <Noun lang="ja-Latn">Kitao Shigemasa</Noun> (<span lang="ja">北尾 重政</span>, 1739–1820).
     </ArticleImage>
-    <p>The text on the scroll reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’. This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
+    <p>The text on the scroll reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’ (some older cards have variations like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>). This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
     <p>Blossom-viewing (<span lang="ja">花見</span> <Pronunciation lang="ja-Latn" src={pronHanami}>hanami</Pronunciation>), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period.</p>
     <p>The curtains (<span lang="ja">幕</span> <Pronunciation src={pronMaku} lang="ja-Latn">maku</Pronunciation>) on the bright card are for providing privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the right. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>
     </section>
@@ -359,10 +362,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <p>The cards for April show the drooping branches of wisteria. They are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronunciation src={pronKuromame} lang="ja-Latn">kuromame</Pronunciation>). There is one species card, one red scroll card, and two junk cards.</p>
     <p>This month shows the transition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronunciation
     src={pronHototogisu} lang="ja-Latn">hototogisu</Pronunciation>) is a bird of summer,{cite(FourSeasons, [1065], {page:"l."})} while wisteria is associated with the end of spring.{cite(FourSeasons, [1021], {page:"l."})}</p>
-    <Footnote>
-        <p><span className="footnote-marker">*</span> This may be a reference to the tale of <Noun lang="ja-Latn">Yorimasa</Noun> from the <Noun lang="ja-Latn">Heike Monogatari</Noun>, but I cannot be sure about that.{cite(HeikeMonogatari, [[161,163]])}</p>
-    </Footnote>
-    <p>The cuckoo swooping in front of the moon is a common motif in Japanese art.<span className="footnote-marker">*</span> </p>
+    <p>The cuckoo swooping in front of the moon is a common motif in Japanese art. It is tempting to claim that this may be a reference to the tale of <Noun lang="ja-Latn">Yorimasa</Noun> from the <Noun lang="ja-Latn">Heike Monogatari</Noun>,{cite(HeikeMonogatari, [[161,163]])} but the oldest decks do not have a moon on this card.</p>
     <ArticleImage
         position="small"
         alt="The junk cards of the Echigo-bana pattern which bear the poem."
@@ -388,6 +388,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
             [imgHanafuda5_1, ""],
         ]}/>
     <p>The cards for May depict iris flowers. There is one species card, one red scroll card, and two junk cards.</p>
+    <p>A nickname for the month is <Pronunciation src={pronNegi} lang="ja-Latn">negi</Pronunciation> (<span lang="ja">葱</span>, ‘scallion/leek’).{cite(HanaAwase)}</p>
     <Footnote>
         <p><span className="footnote-marker">†</span> Traditionally this is presumed to be the poet <Noun lang="ja-Latn">Ariwara no Narihira</Noun> (<span lang="ja">在原 業平</span>).</p>
     </Footnote>
@@ -404,7 +405,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <Footnote>
         <p><span className="footnote-marker">‡</span> At the time the poem was written, written Japanese did not distinguish between <span lang="ja">は</span> <span lang="ja-Latn">ha</span> and <span lang="ja">ば</span> <span lang="ja-Latn">ba</span>.</p>
     </Footnote>
-    <p>This poem, which appears in full on the junk cards of the <span lang="ja-Latn">Echigo-bana</span> pattern,{cite(PoemsOfTheEchigobana, [100])} is in the form of an acrostic; the first letters of each line spell out <span lang="ja-Latn">kakitsuhata</span> <span lang="ja">かきつはた</span>, which is a reference to the name of the Japanese iris <Pronunciation src={pronKakitsubata} lang="ja-Latn">kakitsubata</Pronunciation>.<span className="footnote-marker">‡</span>  Because of this scene, the iris and the planked bridge have a long association in Japan.</p>
+    <p>This poem, which appears in full on the junk cards of the <span lang="ja-Latn">Echigo-bana</span> pattern,{cite(PoemsOfTheEchigobana, [100])} is in the form of an acrostic; the first letters of each line spell out <span lang="ja-Latn">kakitsuhata</span> <span lang="ja">かきつはた</span>, which is a reference to the name of the Japanese iris <span lang="ja">杜若</span> <Pronunciation src={pronKakitsubata} lang="ja-Latn">kakitsubata</Pronunciation>.<span className="footnote-marker">‡</span>  Because of this scene, the iris and the planked bridge have a long association in Japan.</p>
     <ArticleImage
         position="wide"
         src={[
@@ -445,7 +446,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     deer are renowned for being separated from their lovers... */}
     </section>
     <section id="miscanthussilvergrass--susuki">
-    <h3><span lang="ja">8月</span> — miscanthus/silvergrass (<span lang="ja">薄</span> <Pronunciation src={pronSusuki} lang="ja-Latn">susuki</Pronunciation>)</h3>
+    <h3><span lang="ja">8月</span> — miscanthus/silvergrass (<span lang="ja">芒/薄</span> <Pronunciation src={pronSusuki} lang="ja-Latn">susuki</Pronunciation>)</h3>
     <ArticleImage
         source={svgSourceInfo}
         src={[
@@ -455,7 +456,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
             [imgHanafuda8_1, ""],
         ]}/>
     <p>The cards for August show waving fields of miscanthus, also known as silvergrass. There is one bright card, one species card, and two junk cards.</p>
-    <p>On printed cards, the fields of grass are often simplified into solid black circles. This has led to the nickname of ‘baldy’ (<span lang="ja">坊主</span> <Pronunciation src={pronBozu} lang="ja-Latn">bōzu</Pronunciation>) for the cards of August.</p>
+    <p>On printed cards, the fields of grass are often simplified into solid black circles. Because of the resemblance of this to the head of a bald man, one nickname for the cards is ‘baldy’ (<span lang="ja">坊主</span> <Pronunciation src={pronBozu} lang="ja-Latn">bōzu</Pronunciation>), a slang term for a Buddhist monk.</p>
     <ArticleImage
         position="wide"
         src={imgSC14} 
@@ -465,7 +466,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
             organization: { orgName: 'Boston Museum of Fine Arts' },
             originalUrl: "https://www.mfa.org/collections/object/musashi-plain-musashino-from-the-series-famous-places-in-the-provinces-shokoku-meisho-233023"
         }} >
-        <cite>Famous places in the provinces: <Noun lang="ja-Latn">Musashi</Noun> Plain</cite><br/><cite lang="ja">諸国名所　武蔵野</cite><br/>A woodblock print by <Noun lang="ja-Latn">Totoya Hokkei</Noun> (<span lang="ja">魚屋 北渓</span>, 1780–1850) 
+        <cite>Famous places in the provinces: <Noun lang="ja-Latn">Musashi</Noun> Plain</cite><br/><cite lang="ja">諸国名所　武蔵野</cite><br/>A woodblock print by <Noun lang="ja-Latn">Totoya Hokkei</Noun> (<span lang="ja">魚屋 北渓</span>, 1780–1850)
     </ArticleImage>
     <ArticleImage
         position="small"
@@ -496,10 +497,10 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         ]}/>
     <p>The cards for September show chrysanthemums. There is one species card, one blue/purple scroll card, and two junk cards.</p>
     <Footnote>
-        <p><span className="footnote-marker">§</span> A story invented by Tendai monks in the 14th century <Noun lang="ja-Latn">Taiheiki</Noun> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:{cite(ChigoJapanese, [958,959])} A boy banished to a remote mountain writes out passages of the Buddhist Lotus Sūtra on chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks, and he goes on to live for 800 years without ageing a day.</p>
+        <p><span className="footnote-marker">§</span> A story invented by Tendai monks in the 14th century <Noun lang="ja-Latn">Taiheiki</Noun> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:{cite(ChigoJapanese, [[958,959]])} A boy banished to a remote mountain writes out passages of the Buddhist Lotus Sūtra on chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks, and he goes on to live for 800 years without ageing a day.</p>
     </Footnote>
     <p>The species card appears to show the implements of <Pronunciation src={pronChoyo} lang="ja-Latn">chōyō</Pronunciation> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).{cite(FourSeasons, [1214], {page:"l."})}<span className="footnote-marker">§</span> </p>
-    <p>During the festival, chrysanthemum petals are added to sake and consumed. The sake cup pictured on the card has the character <span lang="ja">寿</span> (<Pronunciation src={pronKotobuki} lang="ja-Latn">kotobuki</Pronunciation>), meaning ‘long life’, written in a cursive script.</p>
+    <p>During the festival, chrysanthemum petals are added to sake and consumed. The sake cup pictured on the card has the character <span lang="ja">壽/寿</span> (<Pronunciation src={pronKotobuki} lang="ja-Latn">kotobuki</Pronunciation>), meaning ‘long life’, written in a cursive script.</p>
     <p>A poem by <Noun lang="ja-Latn">Bashō</Noun>, Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, commemorates the evening of the 9th day of the 9th month, in 1691. <Noun lang="ja-Latn">Bashō</Noun> was staying at the temple <Noun lang="ja-Latn">Gichu-ji</Noun> (<span lang="ja">義仲寺</span>) in a hermitage known as ‘nameless hut’ (<span lang="ja">無名庵</span> <Noun lang="ja-Latn">Mumyō-an</Noun>). His disciple <Noun lang="ja-Latn">Kawai Otokuni</Noun> (<span lang="ja">河合乙州</span>) came to visit him:</p>
     <blockquote>
     <p><span lang="ja">草の戸や日暮てくれし菊の酒</span></p>
@@ -549,7 +550,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
             [imgHanafuda11_1, ""],
         ]}/>
     <p>The cards for November show willow trees. There is one bright card, one species card, one red scroll card, and one junk card, which is called the lightning card or devil card (<span lang="ja">鬼札</span> <Pronunciation src={pronOnifuda} lang="ja-Latn">onifuda</Pronunciation>).</p>
-    <p>The month of November is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronunciation src={pronAme} lang="ja-Latn">ame</Pronunciation>). This month has a strange relationship to the others—in many games they have special powers, or they are valued lower than the cards of other months. For example, the bright of November will often score less than the other four brights, and in some games the lightning card has special powers.</p>
+    <p>The month of November is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronunciation src={pronAme} lang="ja-Latn">ame</Pronunciation>) or ‘drizzle’ (<span lang="ja">時雨</span> <Pronunciation src={pronShigure} lang="ja-Latn">shigure</Pronunciation>). This month has a strange relationship to the others—in many games they have special powers, or they are valued lower than the cards of other months. For example, the bright of November will often score less than the other four brights, and in some games the lightning card has special powers.</p>
     <p>The man pictured on the bright card is the poet <Noun lang="ja-Latn">Ono no Michikaze</Noun> (<span lang="ja">小野道風</span>), who is considered to be one of the founders of Japanese calligraphy. The jumping frog recalls an episode in his life: he had failed seven times to achieve a promotion, and was considering abandoning his attempts. One day, walking beside a stream, he saw a frog attempting to jump onto a willow branch. Seven times it jumped, and seven times it failed. On the eighth attempt, the frog reached the branch successfully. <Noun lang="ja-Latn">Michikaze</Noun> was thus inspired to persevere.{cite(AnimalInFarEasternArt, [[86, 87]])}</p>
     </section>
     <section id="paulownia--kiri">
@@ -578,40 +579,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <p>The tree itself is associated with the prime minister’s office in Japan. In (TODO), <Noun lang="ja-Latn">Oishi Tengudo</Noun> produced a special deck for the TODO Prime Minister. In addition, <Noun lang="ja-Latn">Oishi Tengudo</Noun> boxes many of their decks using Paulownia wood.</p>
     <p>Usually (in Japanese decks) the manufacturer’s mark is on the coloured junk card, much like the ace of spades is used in European decks. In Korea the mark can also be on the full moon card, or on the jokers.</p>
     </section>
-    <section id="manufacturers">
-    <h2>Manufacturers</h2>
-    <p>Many of these are taken from {cite(ModernJapaneseWrappers)} and the manufacturers do not exist any more. Angel, Nintendo, and Ōishi Tengudō are the main ones still in business. Matsui Tengudō appears to have been the last manufacturer making cards by hand.{cite(SalterJapanese)}</p>
-    <ArticleImage
-        position="small"
-        src={imgMarks}
-        alt="TODO">
-        Manufacturer’s marks from <Noun lang="ja-Latn">Nintendo</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.
-    </ArticleImage>
-    <ul>
-    <li>Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>), Kyōto</li>
-    <li><a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>), Yōkaichi, Shiga Ken</li>
-    <li>Dai Nippon, Yōkaichi, Shiga Ken</li>
-    <li>Heibon (<span lang="ja">平凡</span>), Tōkyō {/*<!--
-    https://www.ebay.com/itm/Heibon-Playing-Cards-Vintage-New-Old-Stock-Hanafuda-Kintoki-Zakura-Red-/271168560044
-    -->*/}</li>
-    <li>Iwata (cards made by Tamura Shōgun)</li>
-    <li>Kawakita (cards made by Yamashiro)</li>
-    <li>Kohara, Ōsaka</li>
-    <li>Kyōto Karuta, Kyōto</li>
-    <li><Noun lang="ja-Latn">Maruē</Noun> (<span lang="ja">マルエー</span>), Minoshi, Gifu Ken</li>
-    <li>Matsui Tengudō, Kyōto</li>
-    <li>Nihon Karuta Seizō, Kyōto</li>
-    <li><Noun lang="ja-Latn">Nintendō</Noun>, Kyōto</li>
-    <li><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>), Tōkyō (1946) {/*<!-- no longer seems to produce
-    hanafuda, only tarot -->*/}</li>
-    <li>Nishimura, Tōkyō</li>
-    <li><a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>), Kyōto</li>
-    <li><a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村將軍堂</span>), Kyōto (1921)</li>
-    <li>Tanaka Gyokusuidō</li>
-    <li>Universal, Ōsaka</li>
-    <li>Yamashiro</li>
-    </ul>
-    </section>
+    
     <section id="audio-credits">
     <h2>Audio Credits</h2>
     <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>. Pronunciations are by:</p>
@@ -621,16 +589,16 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <li><span lang="ja">ホトトギス</span> © <a href="https://forvo.com/user/forsmith/">forsmith</a>.</li>
     <li><span lang="ja">光</span>, <span lang="ja">桜</span>, <span lang="ja">萩</span>, <span lang="ja">寿</span>, <span lang="ja">鬼札</span>, <span lang="ja">雨</span> © <a href="https://forvo.com/user/strawberrybrown/">strawberrybrown</a>.</li>
     <li><span lang="ja">坊主</span> © <a href="https://forvo.com/user/skpronounce/">skpronounce</a>.</li>
-    <li><span lang="ja">月見</span>, <span lang="ja">短冊</span>, <span lang="ja">幕</span>, <span lang="ja">重陽</span>, <span lang="ja">古今和歌集</span> © <a href="https://forvo.com/user/skent/">skent</a>.</li>
+    <li><span lang="ja">月見</span>, <span lang="ja">短冊</span>, <span lang="ja">幕</span>, <span lang="ja">重陽</span>, <span lang="ja">古今和歌集</span>, <span lang="ja">葱</span> © <a href="https://forvo.com/user/skent/">skent</a>.</li>
     <li><span lang="ja">松</span> © <a href="https://forvo.com/user/_ai_/">_ai_</a>.</li>
     <li><span lang="ja">牡丹</span> © <a href="https://forvo.com/user/ryomasakamoto/">ryomasakamoto</a>.</li>
-    <li><span lang="ja">短歌</span>, <span lang="ja">梅</span>, <span lang="ja">菖蒲</span>, <span lang="ja">菊</span>, <span lang="ja">柳</span>, <span lang="ja">鳳凰</span> © <a href="https://forvo.com/user/akitomo/">akitomo</a>.</li>
+    <li><span lang="ja">短歌</span>, <span lang="ja">梅</span>, <span lang="ja">菖蒲</span>, <span lang="ja">菊</span>, <span lang="ja">柳</span>, <span lang="ja">鳳凰</span>, <span lang="ja">時雨</span> © <a href="https://forvo.com/user/akitomo/">akitomo</a>.</li>
     <li><span lang="ja">種</span> © <a href="https://forvo.com/user/yasuo/">yasuo</a>.</li>
     <li><span lang="ja">紅葉</span> © <a href="https://forvo.com/user/El55/">El55</a>.</li>
     <li><span lang="ja">花札</span> © <a href="https://forvo.com/user/biscuit/">biscuit</a>.</li>
     <li><span lang="ja">花見</span> © <a href="https://forvo.com/user/samchie/">samchie</a>.</li>
     <li><span lang="ja">藤</span>, <span lang="ja">桐</span> © <a href="https://forvo.com/user/kaoring/">kaoring</a>.</li>
-    <li><span lang="ja">越後花</span>, <span lang="ja">八八花</span>, <span lang="ja">八橋</span>, <span lang="ja">小豆</span> © <a href="https://forvo.com/user/poyotan/">poyotan</a>.</li>
+    <li><span lang="ja">越後花</span>, <span lang="ja">八八花</span>, <span lang="ja">八橋</span>, <span lang="ja">小豆</span>, <span lang="ja">滓</span> © <a href="https://forvo.com/user/poyotan/">poyotan</a>.</li>
     <li><span lang="ja">黒豆</span> © <a href="https://forvo.com/user/usako_usagiclub/">usako_usagiclub</a>.</li>
     <li><span lang="ko">화투</span> © <a href="https://forvo.com/user/ssoonkimi/">ssoonkimi</a>.</li>
     </ul>

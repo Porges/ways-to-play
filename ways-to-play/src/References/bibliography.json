@@ -3381,5 +3381,25 @@
         "publisher": "Rowohlt Taschenbuch Verlag",
         "publisher-place": "Germany",
         "id": "KlassischeSpiele"
+    },
+    "HanaAwase": {
+        "id": "HanaAwase",
+        "type": "article-journal",
+        "title": "Hana-Awase",
+        "author": [
+            {
+                "given": "H. Spencer",
+                "family": "Palmer"
+            }
+        ],
+        "issued": {
+            "year": 1891,
+            "month": 5,
+            "day": 13
+        },
+        "container-title": "Transactions of the Asiatic Society of Japan",
+        "volume": 19,
+        "page": "545–564",
+        "URL": "https://archive.org/details/transactionsasi07japagoog/page/n680"
     }
 }

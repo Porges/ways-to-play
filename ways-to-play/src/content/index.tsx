@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router';
 import { About } from './About';
 import { Home } from './Home';
 import { Games } from './games';
-import { Equipment } from './equipment';
+import { Articles } from './articles';
 
 const Bibliography = React.lazy(() => import(/* webpackChunkName: 'bibliography' */ './Bibliography'))
 
@@ -15,7 +15,7 @@ export const Routes: React.FC = () => {
                 <Route path="/" exact component={Home} />
                 <Route path="/about" exact component={About} />
                 <Route path="/games" component={Games} />
-                <Route path="/equipment" component={Equipment} />
+                <Route path="/articles" component={Articles} />
                 <Route path="/bibliography" exact component={Bibliography} />
             </Switch>
         </React.Suspense>

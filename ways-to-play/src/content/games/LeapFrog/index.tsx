@@ -3,9 +3,9 @@ import * as React from 'react';
 import Table from 'react-bootstrap/Table';
 
 import { GameRef } from '../Game';
-import { ArticleImage, ArticleContentProps } from '../../../ui';
 
-import { Murray2 } from '../../../References/bibliography.json';
+import { ArticleImage, ArticleContentProps } from 'ui';
+import { Murray2 } from 'References/bibliography.json';
 
 import imgLeapFrogVariation from './leap-frog-variation.svg';
 

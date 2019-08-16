@@ -1,11 +1,11 @@
 import * as React from 'react';
 
-import { ArticleImage, Footnote, Noun, ArticleContentProps } from '../../../ui';
+import { ArticleImage, Footnote, Noun, ArticleContentProps } from 'ui';
 
 import
     { MorabarabaGetOnBoard, FromBearnToSouthernAfrica, MkeleMorabaraba, BasothoChildren
     , OldTswana, SeSothoDictionary, GamesBasotho, TheWorldAndCattle, UseOfMorabara
-    , UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook } from '../../../References/bibliography.json';
+    , UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook } from 'References/bibliography.json';
 
 import imgKliptown from "./8237668945_878d81116c_o.jpg";
 
