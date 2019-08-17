@@ -20,14 +20,17 @@ const articles: List = {
                     articles: new Map([
                         ['history', {
                             title: "History of Hanafuda",
+                            draft: true,
                             import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-history' */ './japan/hanafuda/history'))
                         }],
                         ['art', {
                             title: "The Art of Hanafuda",
+                            draft: true,
                             import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './japan/hanafuda/art'))
                         }],
                         ['manufacturers', {
                             title: "Hanafuda Manufacturers & Brands",
+                            draft: true,
                             import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-manufacturers' */ './japan/hanafuda/manufacturers'))
                         }]
                     ])
