@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { RouteComponentProps, Switch, Route } from 'react-router';
 import { Link } from 'react-router-dom';
+
+import Badge from 'react-bootstrap/Badge';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 import { Article, ArticleContent } from 'ui';
@@ -52,7 +54,11 @@ const renderArticleList = (list: ListEntries, pathSoFar: string) => {
                 {
                     'articles' in obj
                     ? <><b>{obj.title}</b>{renderArticleList(obj.articles, `${pathSoFar}/${path}`)}</>
-                    : <Link to={`${pathSoFar}/${path}`} lang={obj.titleLang}>{obj.title}</Link>
+                    : <Link to={`${pathSoFar}/${path}`} lang={obj.titleLang}>
+                        {obj.title}
+                        {' '}
+                        {obj.draft && <Badge variant="warning">Draft</Badge>}
+                      </Link>
                 }
                 </li> )) }
         </ul>
@@ -110,7 +116,7 @@ const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
     const breadCrumbs = 
         <Breadcrumb>
             { crumbs.map(({title, link, titleLang}, ix) => 
-                <li key={ix} className="breadcrumb-item"><Link to={link} lang={titleLang}>{title}</Link></li>) }
+                <li key={ix} className="breadcrumb-item"><Link to={link} lang={titleLang}>{title} {}</Link></li>) }
         </Breadcrumb>;
 
     if ('import' in found) {
