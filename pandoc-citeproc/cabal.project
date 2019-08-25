@@ -1,4 +1,0 @@
-packages: pandoc-citeproc.cabal
-
-package pandoc-citeproc
-  flags: +embed_data_files +bibutils -unicode_collation -test_citeproc -debug
