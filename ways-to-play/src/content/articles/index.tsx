@@ -41,6 +41,10 @@ const articles: List = {
 };
 
 const renderArticleList = (list: ListEntries, pathSoFar: string) => {
+    while (pathSoFar.endsWith('/')) {
+        pathSoFar = pathSoFar.substr(0, pathSoFar.length - 1);
+    }
+
     return (
         <ul>
             { [...list.entries()].map(([path, obj]) => (
