@@ -21,12 +21,12 @@ const articles: List = {
                     titleLang: 'ja-Latn',
                     articles: new Map([
                         ['history', {
-                            title: "History of Hanafuda",
+                            title: "Hanafuda Basics",
                             draft: true,
-                            import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-history' */ './japan/hanafuda/history'))
+                            import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-basics' */ './japan/hanafuda/basics'))
                         }],
                         ['art', {
-                            title: "The Art of Hanafuda",
+                            title: "The History & Art of Hanafuda",
                             draft: true,
                             import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './japan/hanafuda/art'))
                         }],

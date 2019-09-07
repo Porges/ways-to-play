@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Pronunciation, Noun, ArticleImage, ArticleContentProps, Footnote, SourceInfo } from 'ui';
  
-import { HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, SalterJapanese, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, ModernJapaneseWrappers, ModernKoreanCards, KokinWakashu } from 'References/bibliography.json';
+import { HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu } from 'References/bibliography.json';
 
 import imgSC232146 from "../SC232146.jpg";
 import imgSC232139 from "../SC232139.jpg";
@@ -67,9 +67,6 @@ import imgHanafuda12_3 from '../Hanafuda_12-3.svg';
 import imgHanafuda12_4 from '../Hanafuda_12-4.svg';
 
 import img1620 from '../16201732242_8d1d3ed19d_o.jpg'
-import img5Brights from '../5_brights.jpg';
-import img5BrightsKr from '../5_brights_kr.jpg';
-import imgAutumnMaples from '../Autumn_Maples_with_Poem_Slips.jpg';
 import imgPoem1 from '../poem-1.jpg';
 import imgPoem2 from '../poem-2.jpg';
 import imgPoem3 from '../poem-3.jpg';
@@ -81,10 +78,6 @@ import imgSC14 from '../SC148933.jpg';
 
 import pronHanafuda from '../pronunciation_ja_花札.mp3';
 import pronHwatu from '../pronunciation_ko_화투.mp3';
-import pronTsukimi from '../pronunciation_ja_月見.mp3';
-import pronHikari from '../pronunciation_ja_光.mp3';
-import pronTane from '../pronunciation_ja_種.mp3';
-import pronTanzaku from '../pronunciation_ja_短冊.mp3';
 import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
 import pronEchigobana from '../pronunciation_ja_越後花.mp3';
 import pronTanka from '../pronunciation_ja_短歌.mp3';
@@ -116,7 +109,7 @@ import pronKiri from '../pronunciation_ja_桐.mp3';
 import pronHoo from '../pronunciation_ja_鳳凰.mp3';
 import pronShigure from '../pronunciation_ja_時雨.mp3';
 import pronNegi from '../pronunciation_ja_葱.mp3';
-import pronKasu from '../pronunciation_ja_滓.mp3';
+import pronTsukimi from '../pronunciation_ja_月見.mp3';
 
 const svgSourceInfo: SourceInfo = {
     license: 'gpl',
@@ -148,7 +141,15 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <blockquote className="blockquote">
     <p>With the exception of the peony, which entered the poetic canon in the <Noun lang="ja-Latn">Edo</Noun> period, all the images are from classical poetry of the <Noun lang="ja-Latn">Heian</Noun> period and reflect urban commoners’ knowledge of the poetic and cultural associations of the months.{cite(FourSeasons, [[1739,1741]], {page:"l."})}</p>
     </blockquote>
-    <p>They were probably derived from older “matching games” (<span lang="ja">物合</span> <span lang="ja-Latn">mono-awase</span>).</p>
+    <section>
+        <p>They were probably derived from older “matching games” (<span lang="ja">物合</span> <span lang="ja-Latn">mono-awase</span>).</p>
+        <Footnote>
+            <p><span className="footnote-marker">†</span> In Kyoto from the 11th to 13th centuries, the average peak of the cherry blossom season was April 17th.{cite(FourSeasons, [484], { page: "l." })}</p>
+        </Footnote>
+        <p>While nominally the cards start in ‘January’, at the time the deck was created Japan’s calendar was based upon the lunisolar Chinese calendar, which started in what is now February. This explains why ‘March’ is the month of the cherry blossom when—according to the current calendar—it should be April,<span className="footnote-marker">†</span>  and why ‘August’ shows the full moon when the full moon festival (<span lang="ja">月見</span> <Pronunciation
+            src={pronTsukimi} lang="ja-Latn">tsukimi</Pronunciation>) actually falls in September–October.</p>
+        <p>However, even with these modifications the 11th (willow) and 12th (paulownia) cards are in the wrong place. The 11th month depicts rain, willows, and a frog, all of which are associated with summer.</p>
+    </section>
     <p>Artistically, the cards derive from the <span lang="ja-Latn">kachōga</span> (<span lang="ja">花鳥画</span> ‘flower and bird painting’) tradition. Artworks in this style often have poems written upon them, and these appear on some cards of the <span lang="ja-Latn">Echigo-bana</span> pattern.</p>
     <ArticleImage
         src={[
@@ -175,63 +176,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     </Footnote>
     <p><Noun lang="ja-Latn">Hanafuda</Noun> were introduced during a period where gambling had been banned as part of the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793).<span className="footnote-marker">*</span> This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
     </section>
-    <section id="composition-of-the-deck">
-    <h3>Composition of the deck</h3>
-    <p><Noun lang="ja-Latn">Hanafuda</Noun> decks comprise 12 ‘suits’ of 4 cards each, giving 48 cards total. Each suit corresponds to a month, and is represented on the cards by a plant related to that month.</p>
-    <Footnote>
-    <p><span className="footnote-marker">†</span> In Kyoto from the 11th to 13th centuries, the average peak of the cherry blossom season was April 17th.{cite(FourSeasons, [484], {page:"l."})}</p>
-    </Footnote>
-    <p>While nominally the cards start in ‘January’, at the time the deck was created Japan’s calendar was based upon the lunisolar Chinese calendar, which started in what is now February. This explains why ‘March’ is the month of the cherry blossom when—according to the current calendar—it should be April,<span className="footnote-marker">†</span>  and why ‘August’ shows the full moon when the full moon festival (<span lang="ja">月見</span> <Pronunciation
-    src={pronTsukimi} lang="ja-Latn">tsukimi</Pronunciation>) actually falls in September–October.</p>
-    <p>However, even with these modifications the 11th (willow) and 12th (paulownia) cards are in the wrong place. The 11th month depicts rain, willows, and a frog, all of which are associated with summer.</p>
-    <p>In Korean and some Hawaiian decks, the months of November &amp; December are switched. This rarely makes a difference except when the cards are being used as stand-ins for numeric cards (in gambling games).</p>
-    <section id="types-of-card">
-    <h4>Types of card</h4>
-    <p>The deck is divided into four categories of card. In descending order of value, there are:</p>
-    <ArticleImage
-        position="small"
-        src={img5Brights}
-        alt="TODO">
-        The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.
-    </ArticleImage>
-    <ul>
-    <li>
-    <Footnote>
-    <p><span className="footnote-marker">‡</span> <Noun lang="ja-Latn">Maeda Masabumi</Noun> (<span lang="ja">前田???</span>) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that this was actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.{cite(ModernKoreanCards)}</p>
-    </Footnote>
-    5 ‘bright’ (<span lang="ja">光</span> <Pronunciation src={pronHikari} lang="ja-Latn">hikari</Pronunciation>) cards. In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<span className="footnote-marker">‡</span>  The five bright cards are:
-    <ul>
-        <li>the crane with pine (January)</li>
-        <li>the cherry blossom curtain (March)</li>
-        <li>the full moon (August)</li>
-        <li>the rain man (November)</li>
-        <li>the phoenix (December)</li>
-    </ul>
-    </li>
-    </ul>
-    <ArticleImage position="small" src={img5BrightsKr} alt="TODO">
-        The five bright cards, from a Korean Clown brand deck.
-    </ArticleImage>
-    <ul>
-    <li>9 ‘species’ (<span lang="ja">種</span> <Pronunciation src={pronTane} lang="ja-Latn">tane</Pronunciation>) cards. These feature animals, but also a sake cup, and the ‘eight-planked bridge’.</li>
-    <li>10 ‘scroll’ (<span lang="ja">短冊</span> <Pronunciation src={pronTanzaku} lang="ja-Latn">tanzaku</Pronunciation> cards. These are the cards with the coloured ‘scrolls’ on them. Small pieces of paper were used to write poems on at poetry competitions (see the image below). For some games these are further subdivided into three sub-groups: scrolls with writing, plain red scrolls, and plain blue/purple scrolls.</li>
-    <li>24 ‘dregs’ (<span lang="ja">滓</span> <Pronunciation src={pronKasu} lang="ja-Latn">kasu</Pronunciation>) or ‘junk’ cards. This is everything that isn’t in one of the previous categories.</li>
-    </ul>
-    <p>In many games these cards will carry point values of 20, 10, 5, and 1, but this can vary. In some modern decks these values are printed on the cards.</p>
-    <p>Korean decks often contain extra (up to 6) joker cards.</p>
-    <ArticleImage
-        alt="A screen with a painting of a maple tree in autumn colours, with many tanzaku hanging from its branches."
-        position="wide"
-        src={imgAutumnMaples}
-        source={{
-            originalUrl: "https://www.artic.edu/artworks/127644/autumn-maples-with-poem-slips",
-            license: 'cc0',
-            organization: {orgName: 'The Art Institute of Chicago'}
-        }}>
-        <cite>Autumn Maples with Poem Slips</cite> (c. 1675)<br/><cite lang="ja">櫻楓短冊圖</cite><br/>A six-panel screen (one of a pair) by <Noun lang="ja-Latn">Tosa Mitsuoki</Noun> (<span lang="ja">土佐 光起</span>, 1617–1691) 
-    </ArticleImage>
-    </section>
-    </section>
+    
     <section id="patterns">
     <h3>Patterns</h3>
     <section id="standard">
@@ -587,18 +532,17 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <li><span lang="ja">カキツバタ</span> © <a href="https://forvo.com/user/straycat88/">straycat88</a>.</li>
     <li><span lang="ja">スズキ</span> © <a href="https://forvo.com/user/Ruby8823/">Ruby8823</a>.</li>
     <li><span lang="ja">ホトトギス</span> © <a href="https://forvo.com/user/forsmith/">forsmith</a>.</li>
-    <li><span lang="ja">光</span>, <span lang="ja">桜</span>, <span lang="ja">萩</span>, <span lang="ja">寿</span>, <span lang="ja">鬼札</span>, <span lang="ja">雨</span> © <a href="https://forvo.com/user/strawberrybrown/">strawberrybrown</a>.</li>
+    <li><span lang="ja">桜</span>, <span lang="ja">萩</span>, <span lang="ja">寿</span>, <span lang="ja">鬼札</span>, <span lang="ja">雨</span> © <a href="https://forvo.com/user/strawberrybrown/">strawberrybrown</a>.</li>
     <li><span lang="ja">坊主</span> © <a href="https://forvo.com/user/skpronounce/">skpronounce</a>.</li>
-    <li><span lang="ja">月見</span>, <span lang="ja">短冊</span>, <span lang="ja">幕</span>, <span lang="ja">重陽</span>, <span lang="ja">古今和歌集</span>, <span lang="ja">葱</span> © <a href="https://forvo.com/user/skent/">skent</a>.</li>
+    <li><span lang="ja">月見</span>, <span lang="ja">幕</span>, <span lang="ja">重陽</span>, <span lang="ja">古今和歌集</span>, <span lang="ja">葱</span> © <a href="https://forvo.com/user/skent/">skent</a>.</li>
     <li><span lang="ja">松</span> © <a href="https://forvo.com/user/_ai_/">_ai_</a>.</li>
     <li><span lang="ja">牡丹</span> © <a href="https://forvo.com/user/ryomasakamoto/">ryomasakamoto</a>.</li>
     <li><span lang="ja">短歌</span>, <span lang="ja">梅</span>, <span lang="ja">菖蒲</span>, <span lang="ja">菊</span>, <span lang="ja">柳</span>, <span lang="ja">鳳凰</span>, <span lang="ja">時雨</span> © <a href="https://forvo.com/user/akitomo/">akitomo</a>.</li>
-    <li><span lang="ja">種</span> © <a href="https://forvo.com/user/yasuo/">yasuo</a>.</li>
     <li><span lang="ja">紅葉</span> © <a href="https://forvo.com/user/El55/">El55</a>.</li>
     <li><span lang="ja">花札</span> © <a href="https://forvo.com/user/biscuit/">biscuit</a>.</li>
     <li><span lang="ja">花見</span> © <a href="https://forvo.com/user/samchie/">samchie</a>.</li>
     <li><span lang="ja">藤</span>, <span lang="ja">桐</span> © <a href="https://forvo.com/user/kaoring/">kaoring</a>.</li>
-    <li><span lang="ja">越後花</span>, <span lang="ja">八八花</span>, <span lang="ja">八橋</span>, <span lang="ja">小豆</span>, <span lang="ja">滓</span> © <a href="https://forvo.com/user/poyotan/">poyotan</a>.</li>
+    <li><span lang="ja">越後花</span>, <span lang="ja">八八花</span>, <span lang="ja">八橋</span>, <span lang="ja">小豆</span>  © <a href="https://forvo.com/user/poyotan/">poyotan</a>.</li>
     <li><span lang="ja">黒豆</span> © <a href="https://forvo.com/user/usako_usagiclub/">usako_usagiclub</a>.</li>
     <li><span lang="ko">화투</span> © <a href="https://forvo.com/user/ssoonkimi/">ssoonkimi</a>.</li>
     </ul>
