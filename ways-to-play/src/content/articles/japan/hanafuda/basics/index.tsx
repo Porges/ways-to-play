@@ -31,7 +31,7 @@ const Basics: React.FC<ArticleContentProps> = ({cite}) => {
                 <ul>
                     <li>
                         <Footnote>
-                            <p><span className="footnote-marker">‡</span> <Noun lang="ja-Latn">Maeda Masabumi</Noun> (<span lang="ja">前田???</span>) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that this was actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.{cite(ModernKoreanCards)}</p>
+                            <p><span className="footnote-marker">‡</span> <Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that this was actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.{cite(ModernKoreanCards)}</p>
                         </Footnote>
                         5 ‘bright’ (<span lang="ja">光</span> <Pronunciation src={pronHikari} lang="ja-Latn">hikari</Pronunciation>) cards. In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<span className="footnote-marker">‡</span>  The five bright cards are:
     <ul>
