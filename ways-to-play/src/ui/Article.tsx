@@ -95,12 +95,14 @@ export const Article : React.FC<Props> = ({url, content, infoBox}) => {
                             <Import cite={cite} />
                         </React.Suspense>
                     </section>
-                    <section className="text-left">
-                        <h2>References</h2>
-                        <ol className="reference-list">
-                        { state.cited.map((c, i) => <li key={i}>{renderReference(c)}</li>) }
-                        </ol>
-                    </section>
+                    { state.cited.length > 0 &&
+                        <section className="text-left">
+                            <h2>References</h2>
+                            <ol className="reference-list">
+                            { state.cited.map((c, i) => <li key={i}>{renderReference(c)}</li>) }
+                            </ol>
+                        </section>
+                    }
                 </Col>
             </Row>
         </article>
