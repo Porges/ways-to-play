@@ -86,10 +86,10 @@ export const Article : React.FC<Props> = ({url, content, infoBox}) => {
                 </Col>
             </Row>
             <Row>
-                <Col lg="3" xl="2">
+                <Col>
                     { infoBox }
                 </Col>
-                <Col lg="8" xl="7">
+                <Col lg="7">
                     <section itemProp="articleBody">
                         <React.Suspense fallback={<p>Loading content...</p>}>
                             <Import cite={cite} />
@@ -103,6 +103,8 @@ export const Article : React.FC<Props> = ({url, content, infoBox}) => {
                             </ol>
                         </section>
                     }
+                </Col>
+                <Col style={{zIndex: -1}}>
                 </Col>
             </Row>
         </article>
