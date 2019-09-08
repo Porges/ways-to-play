@@ -66,7 +66,6 @@ import imgHanafuda12_2 from '../Hanafuda_12-2.svg';
 import imgHanafuda12_3 from '../Hanafuda_12-3.svg';
 import imgHanafuda12_4 from '../Hanafuda_12-4.svg';
 
-import img1620 from '../16201732242_8d1d3ed19d_o.jpg'
 import imgPoem1 from '../poem-1.jpg';
 import imgPoem2 from '../poem-2.jpg';
 import imgPoem3 from '../poem-3.jpg';
@@ -76,8 +75,6 @@ import imgPoem6 from '../poem-6.jpg';
 import img16944 from '../16944707362_9f2f1aa838_o.jpg';
 import imgSC14 from '../SC148933.jpg';
 
-import pronHanafuda from '../pronunciation_ja_花札.mp3';
-import pronHwatu from '../pronunciation_ko_화투.mp3';
 import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
 import pronEchigobana from '../pronunciation_ja_越後花.mp3';
 import pronTanka from '../pronunciation_ja_短歌.mp3';
@@ -121,20 +118,6 @@ const svgSourceInfo: SourceInfo = {
 
 const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     return (<section>
-    <p><Noun><Pronunciation lang="ja-Latn" src={pronHanafuda}>Hanafuda</Pronunciation></Noun> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronunciation lang="ko-Latn" src={pronHwatu}>hwatu</Pronunciation> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
-    <ArticleImage
-        position="wide"
-        src={img1620}
-        alt="A pile of hanafuda cards."
-        source={{
-            author: "Japanexpertna.se",
-            copyrightYear: 2015,
-            license: 'cc-by-sa',
-            licenseVersion: '2.0',
-            originalUrl: "https://www.flickr.com/photos/68532869@N08/16201732242"
-        }}>
-        Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintendo 
-    </ArticleImage>
     <section id="history">
     <h3>History</h3>
     <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the early 19th century, during the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). <Noun lang="ja-Latn">Edo</Noun> culture was heavily influenced by the aristocratic culture of the earlier <Noun lang="ja-Latn">Heian</Noun> period (794–1185). As such, the cards abound with references to <Noun lang="ja-Latn">Heian</Noun> period literature, festivals, and artistic tropes:</p>
@@ -539,12 +522,10 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <li><span lang="ja">牡丹</span> © <a href="https://forvo.com/user/ryomasakamoto/">ryomasakamoto</a>.</li>
     <li><span lang="ja">短歌</span>, <span lang="ja">梅</span>, <span lang="ja">菖蒲</span>, <span lang="ja">菊</span>, <span lang="ja">柳</span>, <span lang="ja">鳳凰</span>, <span lang="ja">時雨</span> © <a href="https://forvo.com/user/akitomo/">akitomo</a>.</li>
     <li><span lang="ja">紅葉</span> © <a href="https://forvo.com/user/El55/">El55</a>.</li>
-    <li><span lang="ja">花札</span> © <a href="https://forvo.com/user/biscuit/">biscuit</a>.</li>
     <li><span lang="ja">花見</span> © <a href="https://forvo.com/user/samchie/">samchie</a>.</li>
     <li><span lang="ja">藤</span>, <span lang="ja">桐</span> © <a href="https://forvo.com/user/kaoring/">kaoring</a>.</li>
     <li><span lang="ja">越後花</span>, <span lang="ja">八八花</span>, <span lang="ja">八橋</span>, <span lang="ja">小豆</span>  © <a href="https://forvo.com/user/poyotan/">poyotan</a>.</li>
     <li><span lang="ja">黒豆</span> © <a href="https://forvo.com/user/usako_usagiclub/">usako_usagiclub</a>.</li>
-    <li><span lang="ko">화투</span> © <a href="https://forvo.com/user/ssoonkimi/">ssoonkimi</a>.</li>
     </ul>
     </section>
     </section>);

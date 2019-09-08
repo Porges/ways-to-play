@@ -5,16 +5,33 @@ import { Noun, Footnote, Pronunciation, ArticleImage, ArticleContentProps } from
 import img5Brights from '../5_brights.jpg';
 import img5BrightsKr from '../5_brights_kr.jpg';
 import imgAutumnMaples from '../Autumn_Maples_with_Poem_Slips.jpg';
+import img1620 from '../16201732242_8d1d3ed19d_o.jpg'
 
 import pronHikari from '../pronunciation_ja_光.mp3';
 import pronTane from '../pronunciation_ja_種.mp3';
 import pronKasu from '../pronunciation_ja_滓.mp3';
 import pronTanzaku from '../pronunciation_ja_短冊.mp3';
+import pronHanafuda from '../pronunciation_ja_花札.mp3';
+import pronHwatu from '../pronunciation_ko_화투.mp3';
 
 import { ModernKoreanCards } from 'References/bibliography.json';
 
 const Basics: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
+        <p><Noun><Pronunciation lang="ja-Latn" src={pronHanafuda}>Hanafuda</Pronunciation></Noun> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronunciation lang="ko-Latn" src={pronHwatu}>hwatu</Pronunciation> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
+        <ArticleImage
+            position="wide"
+            src={img1620}
+            alt="A pile of hanafuda cards."
+            source={{
+                author: "Japanexpertna.se",
+                copyrightYear: 2015,
+                license: 'cc-by-sa',
+                licenseVersion: '2.0',
+                originalUrl: "https://www.flickr.com/photos/68532869@N08/16201732242"
+            }}>
+            Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintendo 
+        </ArticleImage>
         <section id="composition-of-the-deck">
             <h3>Composition of the deck</h3>
             <p><Noun lang="ja-Latn">Hanafuda</Noun> decks comprise 12 ‘suits’ of 4 cards each, giving 48 cards total. Each suit corresponds to a month, and is represented on the cards by a plant related to that month.</p>
@@ -74,6 +91,8 @@ const Basics: React.FC<ArticleContentProps> = ({cite}) => {
                 <li><span lang="ja">光</span> © <a href="https://forvo.com/user/strawberrybrown/">strawberrybrown</a>.</li>
                 <li><span lang="ja">種</span> © <a href="https://forvo.com/user/yasuo/">yasuo</a>.</li>
                 <li><span lang="ja">滓</span> © <a href="https://forvo.com/user/poyotan/">poyotan</a>.</li>
+                <li><span lang="ja">花札</span> © <a href="https://forvo.com/user/biscuit/">biscuit</a>.</li>
+                <li><span lang="ko">화투</span> © <a href="https://forvo.com/user/ssoonkimi/">ssoonkimi</a>.</li>
             </ul>
         </section>
     </>);
