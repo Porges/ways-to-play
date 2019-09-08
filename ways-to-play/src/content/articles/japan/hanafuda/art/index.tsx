@@ -119,8 +119,8 @@ const svgSourceInfo: SourceInfo = {
 const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     return (<section>
     <section id="history">
-    <h3>History</h3>
-    <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the early 19th century, during the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). <Noun lang="ja-Latn">Edo</Noun> culture was heavily influenced by the aristocratic culture of the earlier <Noun lang="ja-Latn">Heian</Noun> period (794–1185). As such, the cards abound with references to <Noun lang="ja-Latn">Heian</Noun> period literature, festivals, and artistic tropes:</p>
+    <h2>Origins</h2>
+    <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). <Noun lang="ja-Latn">Edo</Noun> culture was heavily influenced by the aristocratic culture of the earlier <Noun lang="ja-Latn">Heian</Noun> period (794–1185). As such, the cards abound with references to <Noun lang="ja-Latn">Heian</Noun> period literature, festivals, and artistic tropes:</p>
     <blockquote className="blockquote">
     <p>With the exception of the peony, which entered the poetic canon in the <Noun lang="ja-Latn">Edo</Noun> period, all the images are from classical poetry of the <Noun lang="ja-Latn">Heian</Noun> period and reflect urban commoners’ knowledge of the poetic and cultural associations of the months.{cite(FourSeasons, [[1739,1741]], {page:"l."})}</p>
     </blockquote>
