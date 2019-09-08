@@ -20,7 +20,7 @@ const articles: List = {
                     title: 'Hanafuda',
                     titleLang: 'ja-Latn',
                     articles: new Map([
-                        ['history', {
+                        ['basics', {
                             title: "Hanafuda Basics",
                             draft: true,
                             import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-basics' */ './japan/hanafuda/basics'))
