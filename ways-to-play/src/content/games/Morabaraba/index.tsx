@@ -35,10 +35,9 @@ const Morabaraba: React.FC<ArticleContentProps> = ({cite}) => (
             <h2>Play</h2>
             <p>The following description is based on Mind Sports South Africa’s “Generally Accepted Rules”. As with all traditional board games, local rules can vary.</p>
             <Footnote>
-                <p><span className="footnote-marker">†</span> This is so common that even <a href="https://www.instagram.com/p/BMBbRAzBg1z/">commercial sets use bottle caps</a>, and it shows up in <a href="https://www.instagram.com/p/Bf-isgxnIPF/">computerized versions</a> as a skeuomorphic feature.</p>
-
-                <p>Each player has 12 pieces. Commonly, plastic or metal bottle caps are used in two contrasting colours.<span className="footnote-marker">†</span> </p>
+              <p><span className="footnote-marker">†</span> This is so common that even <a href="https://www.instagram.com/p/BMBbRAzBg1z/">commercial sets use bottle caps</a>, and it shows up in <a href="https://www.instagram.com/p/Bf-isgxnIPF/">computerized versions</a> as a skeuomorphic feature.</p>
             </Footnote>
+            <p>Each player has 12 pieces. Commonly, plastic or metal bottle caps are used in two contrasting colours.<span className="footnote-marker">†</span> </p>
             <ArticleImage
                 position="right"
                 src="/images/large_merels_with_diagonals.svg"
