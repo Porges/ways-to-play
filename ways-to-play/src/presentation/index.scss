@@ -115,7 +115,6 @@ blockquote {
 /*** Figures ***/
 .figure {
     display: block;
-    clear: both;
 }
 
 figcaption {
@@ -152,6 +151,7 @@ figure.wide {
     figure.wide {
         width: 120%;
         margin-left: -10%;
+        clear: both;
     }
 
     figure.wide > img  {
