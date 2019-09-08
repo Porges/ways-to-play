@@ -22,7 +22,7 @@ const Camelot: React.FC<ArticleContentProps> = ({cite}) => (
         <h2>History</h2>
         <p>George Parker developed Chivalry over a number of years starting in 1882. It was eventually published by George S. Parker &amp; Co. in 1887, and then again by the newly-formed Parker Brothers in 1888.</p>
         <p>In 1930 he simplified the game of Chivalry to produce Camelot, and received a patent <a href="https://patents.google.com/patent/US1780038">US1780038</a> for the game. Camelot remained popular until the 1960s, but was eventually discontinued in 1968. In 1985 the game was re-introduced as <span className="game-title">Inside Moves</span> but production stopped a year later.</p>
-        <p>Parker called Chivalry “the best game in 2000 years”, and he was clearly enamoured with it. After his death in 1952, his wife commissioned stained-glass windows for the First Church in Salem in his memory, and they include the knight featured on the Camelot box front (also featured is another game called <a
+        <p>Parker called Chivalry “the best game in 2000 years”, and he was clearly enamoured with it. After his death in 1952, his wife commissioned stained-glass windows for the First Church in Salem in his memory, and they include the knight featured on the Camelot box front (also included is another game called <a
         href="https://boardgamegeek.com/boardgame/186268/knights-journey">The Knight’s Journey</a>{/* https://mysteriouswritings.com/my-1928-knights-in-shining-armor/*/}).</p>
         {/*<!-- It was George S. Parker’s favourite game. It is featured in stained glass
         windows in the First Church of Salem, that were donated after his death by his
