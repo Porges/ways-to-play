@@ -11,9 +11,13 @@ jobs:
     - uses: actions/checkout@v1
     - name: Yarn Install
       uses: nuxt/actions-yarn@master
-      args: install ways-to-play
+      working-directory: ways-to-play
+      with:
+        args: install
     - name: Yarn Build
       uses: nuxt/actions-yarn@master
-      args: build ways-to-play
+      working-directory: ways-to-play
+      with:
+        args: build
       env:
         CI: true
