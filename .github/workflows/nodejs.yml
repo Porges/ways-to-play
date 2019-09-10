@@ -1,0 +1,23 @@
+name: Build site
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Yarn Install
+      uses: nuxt/actions-yarn@master
+      args: install ways-to-play
+    - name: Yarn Build
+      uses: nuxt/actions-yarn@master
+      args: build ways-to-play
+      env:
+        CI: true
