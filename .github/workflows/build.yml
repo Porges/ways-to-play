@@ -1,0 +1,21 @@
+name: Build site
+on:
+  pull_request:
+    branches:
+    - master
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Yarn Install
+      uses: ianwalter/puppeteer@v2.0.0
+      with:
+        args: yarn install --frozen-lockfile
+    - name: Yarn Build
+      uses: ianwalter/puppeteer@v2.0.0
+      with:
+        args: yarn build
+      env:
+        CI: true

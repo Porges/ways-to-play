@@ -1,5 +1,9 @@
-name: Build site
-on: [push]
+name: Publish site
+on:
+  push:
+    branches:
+    - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -9,9 +13,9 @@ jobs:
       uses: ianwalter/puppeteer@v2.0.0
       with:
         args: yarn install --frozen-lockfile
-    - name: Yarn Build
+    - name: Yarn Publish
       uses: ianwalter/puppeteer@v2.0.0
       with:
-        args: yarn build
+        args: yarn publish
       env:
         CI: true
