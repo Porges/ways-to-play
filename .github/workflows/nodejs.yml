@@ -6,12 +6,12 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Yarn Install
-      uses: nuxt/actions-yarn@master
+      uses: ianwalter/puppeteer@v2.0.0
       with:
-        args: install --frozen-lockfile
+        args: yarn install --frozen-lockfile
     - name: Yarn Build
-      uses: nuxt/actions-yarn@master
+      uses: ianwalter/puppeteer@v2.0.0
       with:
-        args: build 
+        args: yarn build
       env:
         CI: true
