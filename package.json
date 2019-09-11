@@ -36,6 +36,7 @@
   },
   "reactSnap": {
     "puppeteerExecutablePath": "google-chrome-unstable",
+    "puppeteerArgs": ["--no-sandbox"],
     "removeScriptTags": true
   },
   "sideEffects": false,
