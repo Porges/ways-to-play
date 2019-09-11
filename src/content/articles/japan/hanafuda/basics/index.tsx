@@ -79,6 +79,8 @@ import pronSusuki from '../pronunciation_ja_スズキ.mp3';
 import pronKiku from '../pronunciation_ja_菊.mp3';
 import pronKoyo from '../pronunciation_ja_紅葉.mp3';
 
+import imgHwatooJokers from './hwatoo_jokers.jpg';
+
 import { ModernKoreanCards } from 'References/bibliography.json';
 
 const Basics: React.FC<ArticleContentProps> = ({ cite }) => {
@@ -225,10 +227,19 @@ const Basics: React.FC<ArticleContentProps> = ({ cite }) => {
         </section>
         <section id="extra-cards">
           <h4>Extra cards</h4>
-          {/* <p>In many games these cards will carry point values of 20, 10, 5, and 1, but this can vary. In some modern decks these values are printed on the cards.</p> */}
+          <ArticleImage position="small"
+            src={imgHwatooJokers}
+            alt="Two cards labelled ‘joker’, one with a frog and one with a black bird.">
+            Two joker cards from the Yongjaeng Hwatoo ‘Style’ deck.
+          </ArticleImage>
           <p>Korean decks often contain extra (up to six) joker cards. How these are used (if at all) depends upon the game being played.</p>
         </section>
       </section>
+    </section>
+    <section>
+      <h2>Basic Matching Rules</h2>
+
+
     </section>
     <section id="terminology">
       <h2>Terminology</h2>
