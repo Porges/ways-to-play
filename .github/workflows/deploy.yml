@@ -16,6 +16,6 @@ jobs:
     - name: Yarn Publish
       uses: ianwalter/puppeteer@v2.0.0
       with:
-        args: yarn publish
+        args: yarn deploy
       env:
         CI: true
