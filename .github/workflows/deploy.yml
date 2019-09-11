@@ -13,9 +13,14 @@ jobs:
       uses: ianwalter/puppeteer@v2.0.0
       with:
         args: yarn install --frozen-lockfile
-    - name: Yarn Publish
+    - name: Yarn Build
       uses: ianwalter/puppeteer@v2.0.0
       with:
-        args: yarn deploy
+        args: yarn build
       env:
         CI: true
+    - name: GH Pages publish
+      uses: maxheld83/ghpages@v0.2.1
+      env:
+        BUILD_DIR: 'build/'
+        GH_PAT: ${{ secrets.GH_PAT }}
