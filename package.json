@@ -30,7 +30,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "postbuild": "react-snap && purgecss --css build/static/css/*.css --content build/**/*.html --out build/static/css/",
+    "postbuild": "react-snap",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
