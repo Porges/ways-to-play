@@ -1,0 +1,21 @@
+name: Publish site
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Yarn Install
+      uses: ianwalter/puppeteer@v2.0.0
+      with:
+        args: yarn install --frozen-lockfile
+    - name: Yarn Publish
+      uses: ianwalter/puppeteer@v2.0.0
+      with:
+        args: yarn publish
+      env:
+        CI: true
