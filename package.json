@@ -34,6 +34,10 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
   },
+  "reactSnap": {
+    "puppeteerExecutablePath": "google-chrome-unstable",
+    "removeScriptTags": true
+  },
   "sideEffects": false,
   "eslintConfig": {
     "extends": "react-app"
