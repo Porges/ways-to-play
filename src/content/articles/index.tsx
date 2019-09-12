@@ -13,6 +13,11 @@ type ListEntries = Map<string, ArticleContent|List>
 const articles: List = {
     title: "Articles",
     articles: new Map([
+        ['mill-games', {
+          title: "Mill Games",
+          draft: true,
+          import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games'))
+        } ],
         ['japan', {
             title: "Japanese Cards",
             articles: new Map([
