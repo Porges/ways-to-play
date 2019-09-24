@@ -26,7 +26,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         <h3><a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)</h3>
         <p>Originally based in Yōkaichi, Shiga Ken, now based in Kyōto. They currently produce <Noun lang="ja-Latn">hanafuda</Noun> and <Noun lang="ja-Latn">kabufuda</Noun> in two brands: <span lang="ja">千鳥</span> (<span lang="ja-Latn">chidori</span> ‘numerous birds’) and <span lang="ja">元禄</span> (<span lang="ja-Latn">genroku</span>, an era name).</p>
         <p>Angel also produces cardboard novelty <Noun lang="ja-Latn">hanafuda</Noun> for brands like Disney and Hello Kitty, and both <Noun lang="ja-Latn">Hyakunin Isshu</Noun> and <Noun lang="ja-Latn">Iroha Karuta</Noun>.</p>
-        <h3><a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村將軍堂</span>)</h3>
+        <h3><a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</h3>
         <p>A small manufacturer, founded in 1921. They produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
         <h2>New Brands</h2>
         <p>Here are some internet-era brands that are produced on a small scale (they aren’t manufacturers themselves):</p>
