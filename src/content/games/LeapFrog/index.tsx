@@ -34,295 +34,125 @@ const LeapFrog: React.FC<ArticleContentProps> = ({cite}) => (
         A sample initial configuration for Murray’s variation.
     </ArticleImage>
     <p>Murray{cite(Murray2, [93, 94])} invented a variant in 1898. The undifferentiated pieces are replaced by pieces coloured white, yellow, red, and green, in the ratios 4:3:2:1. The pieces now count points according to these ratios (i.e. green is worth 4 points while white is worth 1). To set up the board, the pieces are arranged randomly on the squares, and the first player must remove a white piece to begin. The player with the highest point value of pieces taken at the end wins.</p>
-    <Table size="sm" borderless className="mx-auto">
-    <caption>
-    Example piece counts for different board sizes
-    </caption>
-    <thead>
-    <tr>
-    <th>
-    Board size
-    </th>
-    <th className="numeric">
-    Green
-    </th>
-    <th className="numeric">
-    Red
-    </th>
-    <th className="numeric">
-    Yellow
-    </th>
-    <th className="numeric">
-    White
-    </th>
-    <th className="numeric">
-        Points
-    </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td>
-    8×8 (64)
-    </td>
-    <td className="numeric">
-    6
-    </td>
-    <td className="numeric">
-    13
-    </td>
-    <td className="numeric">
-    19
-    </td>
-    <td className="numeric">
-    26
-    </td>
-    <td className="numeric">
-    127
-    </td>
-    </tr>
-    <tr>
-    <td>
-    9×9 (81)
-    </td>
-    <td className="numeric">
-    8
-    </td>
-    <td className="numeric">
-    16
-    </td>
-    <td className="numeric">
-    24
-    </td>
-    <td className="numeric">
-    33
-    </td>
-    <td className="numeric">
-    161
-    </td>
-    </tr>
-    <tr>
-    <td>
-    10×10 (100)
-    </td>
-    <td className="numeric">
-    10
-    </td>
-    <td className="numeric">
-    20
-    </td>
-    <td className="numeric">
-    30
-    </td>
-    <td className="numeric">
-    40
-    </td>
-    <td className="numeric">
-    200
-    </td>
-    </tr>
-    <tr>
-    <td>
-    11×11 (121)
-    </td>
-    <td className="numeric">
-    12
-    </td>
-    <td className="numeric">
-    24
-    </td>
-    <td className="numeric">
-    36
-    </td>
-    <td className="numeric">
-    49
-    </td>
-    <td className="numeric">
-    241
-    </td>
-    </tr>
-    <tr>
-    <td>
-    12×12 (144)
-    </td>
-    <td className="numeric">
-    14
-    </td>
-    <td className="numeric">
-    29
-    </td>
-    <td className="numeric">
-    43
-    </td>
-    <td className="numeric">
-    58
-    </td>
-    <td className="numeric">
-    287
-    </td>
-    </tr>
-    <tr>
-    <td>
-    13×13 (169)
-    </td>
-    <td className="numeric">
-    17
-    </td>
-    <td className="numeric">
-    34
-    </td>
-    <td className="numeric">
-    51
-    </td>
-    <td className="numeric">
-    67
-    </td>
-    <td className="numeric">
-    339
-    </td>
-    </tr>
-    <tr>
-    <td>
-    14×14 (196)
-    </td>
-    <td className="numeric">
-    20
-    </td>
-    <td className="numeric">
-    39
-    </td>
-    <td className="numeric">
-    59
-    </td>
-    <td className="numeric">
-    78
-    </td>
-    <td className="numeric">
-    393
-    </td>
-    </tr>
-    <tr>
-    <td>
-    15×15 (225)
-    </td>
-    <td className="numeric">
-    23
-    </td>
-    <td className="numeric">
-    45
-    </td>
-    <td className="numeric">
-    68
-    </td>
-    <td className="numeric">
-    89
-    </td>
-    <td className="numeric">
-    452
-    </td>
-    </tr>
-    <tr>
-    <td>
-    16×16 (256)
-    </td>
-    <td className="numeric">
-    26
-    </td>
-    <td className="numeric">
-    51
-    </td>
-    <td className="numeric">
-    77
-    </td>
-    <td className="numeric">
-    102
-    </td>
-    <td className="numeric">
-    513
-    </td>
-    </tr>
-    <tr>
-    <td>
-    17×17 (289)
-    </td>
-    <td className="numeric">
-    29
-    </td>
-    <td className="numeric">
-    58
-    </td>
-    <td className="numeric">
-    87
-    </td>
-    <td className="numeric">
-    115
-    </td>
-    <td className="numeric">
-    579
-    </td>
-    </tr>
-    <tr>
-    <td>
-    18×18 (324)
-    </td>
-    <td className="numeric">
-    32
-    </td>
-    <td className="numeric">
-    65
-    </td>
-    <td className="numeric">
-    97
-    </td>
-    <td className="numeric">
-    130
-    </td>
-    <td className="numeric">
-    647
-    </td>
-    </tr>
-    <tr>
-    <td>
-    19×19 (361)
-    </td>
-    <td className="numeric">
-    36
-    </td>
-    <td className="numeric">
-    72
-    </td>
-    <td className="numeric">
-    108
-    </td>
-    <td className="numeric">
-    145
-    </td>
-    <td className="numeric">
-    721
-    </td>
-    </tr>
-    <tr>
-    <td>
-    20×20 (400)
-    </td>
-    <td className="numeric">
-    40
-    </td>
-    <td className="numeric">
-    80
-    </td>
-    <td className="numeric">
-    120
-    </td>
-    <td className="numeric">
-    160
-    </td>
-    <td className="numeric">
-    800
-    </td>
-    </tr>
-    </tbody>
-    </Table>
+    <Table size="sm">
+        <caption>Example piece counts for different board sizes</caption>
+        <thead>
+          <tr>
+            <th>Board size</th>
+            <th className="numeric">Green</th>
+            <th className="numeric">Red</th>
+            <th className="numeric">Yellow</th>
+            <th className="numeric">White</th>
+            <th className="numeric">Points</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8×8 (64)</td>
+            <td className="numeric">6</td>
+            <td className="numeric">13</td>
+            <td className="numeric">19</td>
+            <td className="numeric">26</td>
+            <td className="numeric">127</td>
+          </tr>
+          <tr>
+            <td>9×9 (81)</td>
+            <td className="numeric">8</td>
+            <td className="numeric">16</td>
+            <td className="numeric">24</td>
+            <td className="numeric">33</td>
+            <td className="numeric">161</td>
+          </tr>
+          <tr>
+            <td>10×10 (100)</td>
+            <td className="numeric">10</td>
+            <td className="numeric">20</td>
+            <td className="numeric">30</td>
+            <td className="numeric">40</td>
+            <td className="numeric">200</td>
+          </tr>
+          <tr>
+            <td>11×11 (121)</td>
+            <td className="numeric">12</td>
+            <td className="numeric">24</td>
+            <td className="numeric">36</td>
+            <td className="numeric">49</td>
+            <td className="numeric">241</td>
+          </tr>
+          <tr>
+            <td>12×12 (144)</td>
+            <td className="numeric">14</td>
+            <td className="numeric">29</td>
+            <td className="numeric">43</td>
+            <td className="numeric">58</td>
+            <td className="numeric">287</td>
+          </tr>
+          <tr>
+            <td>13×13 (169)</td>
+            <td className="numeric">17</td>
+            <td className="numeric">34</td>
+            <td className="numeric">51</td>
+            <td className="numeric">67</td>
+            <td className="numeric">339</td>
+          </tr>
+          <tr>
+            <td>14×14 (196)</td>
+            <td className="numeric">20</td>
+            <td className="numeric">39</td>
+            <td className="numeric">59</td>
+            <td className="numeric">78</td>
+            <td className="numeric">393</td>
+          </tr>
+          <tr>
+            <td>15×15 (225)</td>
+            <td className="numeric">23</td>
+            <td className="numeric">45</td>
+            <td className="numeric">68</td>
+            <td className="numeric">89</td>
+            <td className="numeric">452</td>
+          </tr>
+          <tr>
+            <td>16×16 (256)</td>
+            <td className="numeric">26</td>
+            <td className="numeric">51</td>
+            <td className="numeric">77</td>
+            <td className="numeric">102</td>
+            <td className="numeric">513</td>
+          </tr>
+          <tr>
+            <td>17×17 (289)</td>
+            <td className="numeric">29</td>
+            <td className="numeric">58</td>
+            <td className="numeric">87</td>
+            <td className="numeric">115</td>
+            <td className="numeric">579</td>
+          </tr>
+          <tr>
+            <td>18×18 (324)</td>
+            <td className="numeric">32</td>
+            <td className="numeric">65</td>
+            <td className="numeric">97</td>
+            <td className="numeric">130</td>
+            <td className="numeric">647</td>
+          </tr>
+          <tr>
+            <td>19×19 (361)</td>
+            <td className="numeric">36</td>
+            <td className="numeric">72</td>
+            <td className="numeric">108</td>
+            <td className="numeric">145</td>
+            <td className="numeric">721</td>
+          </tr>
+          <tr>
+            <td>20×20 (400)</td>
+            <td className="numeric">40</td>
+            <td className="numeric">80</td>
+            <td className="numeric">120</td>
+            <td className="numeric">160</td>
+            <td className="numeric">800</td>
+          </tr>
+        </tbody>
+      </Table>
     <p>Another way to vary the game would be to play on a non-square or non-uniform board.</p>
     </section>
     <section id="see-also">

@@ -1535,6 +1535,7 @@
             "year": 1823
         },
         "URL": "https://archive.org/details/suffolkwordsand00moorgoog",
+        "publisher": "J. Loder",
         "publisher-place": "London, UK",
         "id": "SuffolkWords"
     },
@@ -2633,7 +2634,7 @@
         "issued": {
             "year": 1989
         },
-        "ISBN": 259509,
+        "ISBN": "0877286965",
         "id": "GamesOfTheGods"
     },
     "RamatHanadiv": {

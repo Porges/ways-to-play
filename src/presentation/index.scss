@@ -201,9 +201,18 @@ td.numeric, th.numeric, table.numeric tbody td {
     text-align: right;
 }
 
+table {
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
 table.table {
     width: unset;
     clear: both;
+}
+
+td {
+    padding: 0.8rem;
 }
 
 table caption {
@@ -211,6 +220,46 @@ table caption {
     text-align: center;
     font-size: $figure-caption-font-size;
 }
+
+table.rule-between-cells tr+tr {
+    border-top: thin solid black;
+}
+table.rule-between-cells td+td {
+    border-left: thin solid black;
+}
+
+table.rule-first-row tr:first-child {
+    border-bottom: thin solid black;
+}
+
+table.rule-first-col td:first-child {
+    border-right: thin solid black;
+}
+
+table.rule-last-col td:last-child {
+    border-left: thin solid black;
+}
+
+table.rule-last-row tr:last-child {
+    border-top: thin solid black;
+}
+
+// table {
+//     border-spacing: 0;
+//     clear: both;
+//     border-spacing: 0;
+//     margin: 2rem auto;
+//   }
+  
+//   td {
+//       padding: 0.8rem;
+//   }
+  
+//   td.numeric, table.numeric tbody td {
+//     font-family: "Mercury SSm Tabular A", "Mercury SSm Tabular B";
+//     font-variant-numeric: tabular-nums; /* redundant due to font-family, but useful for fallback */
+//     text-align: right;
+//   }
 
 /*** Footnotes ***/
 .footnote {
@@ -238,6 +287,7 @@ div.multi {
     max-width: 100%;
     justify-content: space-around;
     text-align: left;
+    margin-bottom: 1em;
 }
 
 div.multi > * {
