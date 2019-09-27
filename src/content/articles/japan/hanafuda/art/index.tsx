@@ -2,7 +2,9 @@ import * as React from 'react';
 
 import { Pronunciation, Noun, ArticleImage, ArticleContentProps, Footnote, SourceInfo } from 'ui';
  
-import { HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu } from 'References/bibliography.json';
+import { HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
+AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu } from
+'References/bibliography.json';
 
 import imgSC232146 from "../SC232146.jpg";
 import imgSC232139 from "../SC232139.jpg";
@@ -133,7 +135,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
             src={pronTsukimi} lang="ja-Latn">tsukimi</Pronunciation>) actually falls in September–October.</p>
         <p>However, even with these modifications the 11th (willow) and 12th (paulownia) cards are in the wrong place. The 11th month depicts rain, willows, and a frog, all of which are associated with summer.</p>
     </section>
-    <p>Artistically, the cards derive from the <span lang="ja-Latn">kachōga</span> (<span lang="ja">花鳥画</span> ‘flower and bird painting’) tradition. Artworks in this style often have poems written upon them, and these appear on some cards of the <span lang="ja-Latn">Echigo-bana</span> pattern.</p>
+    <p>Artistically, the cards derive from the <span lang="ja-Latn">kachō-ga</span> (<span lang="ja">花鳥画</span> ‘flower and bird image’) tradition. Artworks in this style often have poems written upon them, and these appear on some cards of the <span lang="ja-Latn">Echigo-bana</span> pattern.</p>
     <ArticleImage
         src={[
             [imgSC232146, ""],
@@ -161,30 +163,34 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     </section>
     
     <section id="patterns">
-    <h3>Patterns</h3>
+    <h2>Patterns</h2>
     <section id="standard">
-    <h4>Standard</h4>
+    <h3>Standard</h3>
     <p>The standard pattern is now one that is called <Pronunciation src={pronHachihachibana} lang="ja-Latn">hachi­hachi­bana</Pronunciation> (<span lang="ja">八八花</span>/<span lang="ja">八々花</span>), as it is used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images of it are shown below.</p>
     <p>Korean decks also use the standard <span lang="ja-Latn">hachi­hachi­bana</span> pattern, but the ribbons are usually blue instead of purple, and bear Korean text.</p>
     </section>
     <section id="echigo-bana">
-    <h4><span lang="ja-Latn">Echigo-bana</span></h4>
+    <h3><span lang="ja-Latn">Echigo-bana</span></h3>
     <p>The regional <Pronunciation src={pronEchigobana} lang="ja-Latn">Echigo-bana</Pronunciation> (<span lang="ja">越後花</span> ‘Echigo flowers’) pattern is based on designs that are older than the standard pattern. The most obvious difference is that all the cards are overpainted with gold and silver in various patterns.</p>
-    <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronunciation src={pronTanka} lang="ja-Latn" >tanka</Pronunciation>). Poetry is a common sight on traditional Japanese art—as seen on the prints above—and often provides more context to the images. The poems of the <span lang="ja-Latn">Echigo-bana</span> will be explained below.</p>
+    <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronunciation src={pronTanka} lang="ja-Latn" >tanka</Pronunciation>). Poetry is a common sight on traditional Japanese art—as seen on the <span lang="ja-Latn">kachō-ga</span> prints above—and often provides more context to the images. The poems of the <span lang="ja-Latn">Echigo-bana</span> will be explained below.</p>
     </section>
     <section id="awabanakintokibana">
-    <h4><span lang="ja-Latn">Awa­bana</span>/<span lang="ja-Latn">Kintoki­bana</span></h4>
-    <p>This is another regional pattern called <span lang="ja-Latn">Awa­bana</span> (<span lang="ja">阿波花</span>) or <span lang="ja-Latn">Kintoki­bana</span> (<span lang="ja">金時花</span>). It originated in <Noun lang="ja-Latn">Awa</Noun> province, in what is now <Noun lang="ja-Latn">Tokushima</Noun> prefecture.</p>
+    <h3><span lang="ja-Latn">Awa­bana</span>/<span lang="ja-Latn">Kintoki­bana</span></h3>
+    <p>This is another regional pattern called <span lang="ja-Latn">Awa­bana</span> (<span lang="ja">阿波花</span>) or
+    <span lang="ja-Latn">Kintoki­bana</span> (<span lang="ja">金時花</span>). It originated in <Noun
+    lang="ja-Latn">Awa</Noun> province, in what is now <Noun lang="ja-Latn">Tokushima</Noun> prefecture.</p>
     </section>
     <section id="modern-novelty-decks">
-    <h4>Modern/Novelty decks</h4>
-    <p>In addition to the traditional standard patterns, there are also many modern revisions or novelty decks that can be found.</p>
+    <h3>Modern/Novelty decks</h3>
+    <p>In addition to the traditional standard patterns, there are also many modern revisions or novelty decks that
+    can be found. More information and examples of these can be found in the article about <Noun
+    lang="ja-Latn">Hanafuda</Noun> manufacturers.</p>
     </section>
     </section>
     <section id="the-cards-in-depth">
-    <h3>The cards in depth</h3>
+    <h2>The cards in depth</h2>
     <section id="pine-matsu">
-    <h4><span lang="ja">1月</span> — pine (<span lang="ja">松</span> <Pronunciation src={pronMatsu} lang="ja-Latn">matsu</Pronunciation>)</h4>
+    <h3><span lang="ja">1月</span> — pine (<span lang="ja">松</span> <Pronunciation src={pronMatsu} lang="ja-Latn">matsu</Pronunciation>)</h3>
     <ArticleImage
         src={[
             [imgHanafuda1_4, "A card with a red moon, a crane, and pine trees."],
@@ -210,7 +216,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <Footnote>
         <p><span className="footnote-marker">¶</span> {cite(PoemsOfTheEchigobana, [4], {inline: true})} notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
     </Footnote>
-    <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<span lang="ja">源宗于</span>, —983)<span className="footnote-marker">‖</span>  at a poetry competition organized by the Empress during the reign of Emperor <Noun lang="ja-Latn">Uda</Noun> (<span lang="ja">宇多天皇</span>). It is featured as poem 24 in the ‘Spring’ section of the <Noun><Pronunciation src={pronKokinWakashu} lang="ja-Latn">Kokin Wakashū</Pronunciation></Noun> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):<span className="footnote-marker">¶</span></p>
+    <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun> (<span lang="ja">源宗于</span>, —983)<span className="footnote-marker">‖</span>  at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as poem 24 in the ‘Spring’ section of the <Noun><Pronunciation src={pronKokinWakashu} lang="ja-Latn">Kokin Wakashū</Pronunciation></Noun> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):<span className="footnote-marker">¶</span></p>
     <div className="multi">
     <p lang="ja" className="vertical-rl">
     ときはなる<br/>松のみどりも <br/>春くれば<br/>今ひとしほの<br/>色まさりけり
@@ -411,7 +417,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     Its destination:<br/> The skies, one with<br/> Musashi Plain, where<br/> From among the fields of grass<br/> Emerges moonlight.<br/>{cite(SKKS442)}
     </p>
     </div>
-    <p>This poem was composed by <Noun lang="ja-Latn">Fujiwara no Yoshitsune</Noun> (<span lang="ja">藤原良経</span>, 1169–1206).</p>
+    <p>This poem was composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Kuj%C5%8D_Yoshitsune">Fujiwara no Yoshitsune</a></Noun> (<span lang="ja">藤原良経</span>, 1169–1206).</p>
     </section>
     <section id="chrysanthemum--kiku">
     <h3><span lang="ja">9月</span> — chrysanthemum (<span lang="ja">菊</span> <Pronunciation src={pronKiku} lang="ja-Latn">kiku</Pronunciation>)</h3>
@@ -503,7 +509,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         }}>
         <cite>Phoenix and Paulownia Tree</cite><br/><cite lang="ja">桐に鳳凰</cite><br/>by <Noun lang="ja-Latn">Isoda Koryūsai</Noun> (<span lang="ja">礒田 湖龍斎</span>, 1735–1790)
     </ArticleImage>
-    <p>The phoenix (<span lang="ja">鳳凰</span> <Pronunciation src={pronHoo} lang="ja-Latn">hōō</Pronunciation>, or <span lang="zh-Latn">fènghuáng</span> in Chinese) featured on the bright card is from Japanese mythology, and is particularly associated with the empress of Japan. According to legend the phoenix will only land on a paulownia tree. What appear to be ‘spikes’ on the card are really its long tail feathers.</p>
+    <p>The phoenix (<span lang="ja">鳳凰</span> <Pronunciation src={pronHoo} lang="ja-Latn">hōō</Pronunciation>, or <span lang="zh-Latn">fènghuáng</span> in Mandarin Chinese) featured on the bright card is from Japanese mythology, and is particularly associated with the empress of Japan. According to legend the phoenix will only land on a paulownia tree. What appear to be ‘spikes’ on the card are really its long tail feathers.</p>
     <p>The tree itself is associated with the prime minister’s office in Japan. In (TODO), <Noun lang="ja-Latn">Oishi Tengudo</Noun> produced a special deck for the TODO Prime Minister. In addition, <Noun lang="ja-Latn">Oishi Tengudo</Noun> boxes many of their decks using Paulownia wood.</p>
     <p>Usually (in Japanese decks) the manufacturer’s mark is on the coloured junk card, much like the ace of spades is used in European decks. In Korea the mark can also be on the full moon card, or on the jokers.</p>
     </section>
