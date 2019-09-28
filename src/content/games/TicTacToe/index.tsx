@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { GameRef } from '../Game';
+//import { GameRef } from '../Game';
 
 import { ArticleImage, ArticleContentProps, Footnote, Pronunciation } from 'ui';
 import { BirdBrainManual, TheMouseWhoReinforced, CrossOutALandmark, TheChickenVanishes, ChinatownFairIsBack, RelayMoe, MathematicalWorkOfBabbage, TheGameOfJAM, Gardner1, Wordsworth, GamesOfTheGods, WinningWaysV3, Fiske, GamesBookForBoysAndGirls, MagazineOfArt, NurseryWitch, SuffolkWords, SourcesInRecreationalMathematics, ICommencedAnExamination, Teesdale, NotesAndQueriesS8V12 } from 'References/bibliography.json';
