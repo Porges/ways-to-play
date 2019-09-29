@@ -121,6 +121,11 @@ figcaption {
     line-height: 1.1rem;
 }
 
+/* fix image orientation */
+img {
+    image-orientation: from-image;
+}
+
 /* set a max height for images */
 figure > img {
     max-height: 400px;

@@ -68,6 +68,7 @@ import imgHanafuda12_2 from '../Hanafuda_12-2.svg';
 import imgHanafuda12_3 from '../Hanafuda_12-3.svg';
 import imgHanafuda12_4 from '../Hanafuda_12-4.svg';
 
+import imgEchigoBana from './EchigoBana.jpg';
 import imgPoem1 from '../poem-1.jpg';
 import imgPoem2 from '../poem-2.jpg';
 import imgPoem3 from '../poem-3.jpg';
@@ -172,6 +173,11 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <section id="echigo-bana">
     <h3><span lang="ja-Latn">Echigo-bana</span></h3>
     <p>The regional <Pronunciation src={pronEchigobana} lang="ja-Latn">Echigo-bana</Pronunciation> (<span lang="ja">越後花</span> ‘Echigo flowers’) pattern is based on designs that are older than the standard pattern. The most obvious difference is that all the cards are overpainted with gold and silver in various patterns.</p>
+    <ArticleImage
+      src={imgEchigoBana}
+      alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details.">
+      The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern.
+    </ArticleImage>
     <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronunciation src={pronTanka} lang="ja-Latn" >tanka</Pronunciation>). Poetry is a common sight on traditional Japanese art—as seen on the <span lang="ja-Latn">kachō-ga</span> prints above—and often provides more context to the images. The poems of the <span lang="ja-Latn">Echigo-bana</span> will be explained below.</p>
     </section>
     <section id="awabanakintokibana">

@@ -11,6 +11,20 @@ import imgAce from './AceGrandDuke.jpg';
 import imgOishiTengudo from './OishiTengudo.jpg';
 import imgNintendo from './Nintendo.jpg';
 import imgNintendoEnd from './NintendoEnd.jpg';
+import imgHanaTrump5Brights from './HanaTrump_5Brights.jpg';
+import imgHanaTrumpExtra from './HanaTrump_Extra.jpg';
+import imgNaPua5Brights from './NaPua_5Brights.jpg';
+import imgNaPuaNovember from './NaPua_November.jpg';
+import imgHawaii5Brights from './Hawaii_5Brights.jpg';
+import imgHawaii5November from './Hawaii_November.jpg';
+import imgNyangTu from './Nyangtu.jpg';
+import imgMeongTu from './Meongtu.jpg';
+import imgKyoHana from './KyoHana.jpg';
+import imgNishikiHana from './NishikiHana.jpg';
+import imgNishikiFuda from './NishikiFuda.jpg';
+import imgPebbleHwatu from './PebbleHwatu.jpg';
+import imgYongJaengStyle from './YongJaengStyle.jpg';
+import imgHanami from './Hanami.jpg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (
@@ -38,12 +52,32 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           alt="A Hanafuda wrapper featuring an image of Napoleon on the front.">
           <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s).
         </ArticleImage>
+        <p>Previously <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mefuda</Noun>.</p>
+        <p>One interesting deck they used to produce was <b>Hana-Trump</b>, which combined <Noun lang="ja-Latn">Hanafuda</Noun> cards with the cards of the international standard playing card deck. Each rank of the standard pack corresponds to a month of the <Noun lang="ja-Latn">Hanafuda</Noun> deck:</p>
+        <ArticleImage
+          src={imgHanaTrump5Brights}
+          alt="The 5 bright cards from a Hana-Trump deck, which are hanafuda cards printed on the center of the standard international playing card deck.">
+          The 5 Brights of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck.
+        </ArticleImage>
+        <p>Because there are four more cards in the standard deck compared to the <Noun lang="ja-Latn">Hanafuda</Noun> one, <Noun lang="ja-Latn">Nintendō</Noun> added an additional four cards (and two jokers) to the set:</p>
+        <ArticleImage
+          src={imgHanaTrumpExtra}
+          alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
+          The extra cards of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck. From left-to-right, after the joker, these are: a blindfolded person, with text reading ‘<span lang="ja">不見出</span>’; a <span lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s fan which is nowadays used by sumo referees, which is inscribed <span lang="ja">跡絶の章</span> (track/ruin stop prize); something else inscribed <span lang="ja">手役の章</span> (hand yaku prize); and an award medal with <span lang="ja">吟見勲賞</span> (<span lang="ja-Latn">Ginmikun-shō</span>), evidently some kind of prize... sing visual merit award???
+        </ArticleImage>
         <h3><a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</h3>
         <p>Also based in <Noun lang="ja-Latn">Kyōto</Noun>, <Noun lang="ja-Latn">Ōishi Tengudō</Noun> produces a wide variety of traditional Japanese card games. As far as I know, they are the only major manufacturer still producing <Noun lang="ja-Latn">Mefuda</Noun> cards. They also produce reproductions of even older cards, such as the <Noun lang="ja-Latn">Unsun</Noun> deck.</p>
         <ArticleImage
           src={imgOishiTengudo}
           alt="The front of a wooden Hanafuda box with a pasted-on image of a Tengu mask.">
           High-quality <Noun lang="ja-Latn">Ōishi Tengudō</Noun> decks come in Paulownia-wood boxes.
+        </ArticleImage>
+        <p>In addition to the many standard & local patterns of <Noun lang="ja-Latn">Hanafuda</Noun> they produce, they also publish some novelty decks, such as the <b><Noun lang="ja-Latn">Kyōto Hanafuda</Noun></b>:</p>
+        <ArticleImage
+          src={imgKyoHana}
+          alt="Five hanafuda cards with depictions of landmarks and various aspects of Kyōto life.">
+          The <Noun lang="ja-Latn">Kyōto Hanafuda</Noun>’s 5 Brights, showing icons and landmarks of <Noun lang="ja-Latn">Kyōto</Noun>.
+          From left to right they represent: a fox with a jewel in its mouth, from the gate of the <a href="https://en.wikipedia.org/wiki/Fushimi_Inari-taisha"><Noun lang="ja-Latn">Fushimi Inari</Noun> shrine</a> (<span lang="ja">伏見稲荷大社</span>); <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"><Noun lang="ja-Latn">Toyotomi Hideyoshi</Noun></a> (<span lang="ja">豊臣秀吉</span>), <a href="https://en.wikipedia.org/wiki/K%C5%8Ddai-in"><Noun lang="ja-Latn">Kita no Mandokoro</Noun></a> (<span lang="ja">北政所</span>), and <a href="https://en.wikipedia.org/wiki/Yodo-dono"><Noun lang="ja-Latn">Yodogimi</Noun></a> (<span lang="ja">淀君</span>) at <a href="https://en.wikipedia.org/wiki/Fushimi_Castle">Fushimi Castle</a> (<span lang="ja">伏見城</span>); the character <span lang="ja">大</span> (<span lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <Noun lang="ja-Latn">Daimonji</Noun> (<span lang="ja">大文字山</span>) during the festival of <a href="https://en.wikipedia.org/wiki/Gozan_no_Okuribi"><Noun lang="ja-Latn">Gozan no Okuribi</Noun></a> (<span lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk <a href="https://en.wikipedia.org/wiki/Benkei"><Noun lang="ja-Latn">Benkei</Noun></a> (<span lang="ja">弁慶</span>) meeting <a href="https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune"><Noun lang="ja-Latn">Minamoto no Yoshitsune</Noun></a> (<span lang="ja">源義経</span>), who is playing the flute, at <Noun lang="ja-Latn">Gojō</Noun> bridge (<span lang="ja">五条橋</span>); and the <a href="https://en.wikipedia.org/wiki/Kyoto_Sanga_FC"><Noun lang="ja-Latn">Kyōto Sanga</Noun></a> (<span lang="ja">京都サンガ</span>) football club, whose logo contains the Chinese/Japanese phoenix that is featured on the Paulownia bright card.
         </ArticleImage>
         <section>
         <h3><a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)</h3>
@@ -87,20 +121,79 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           </li>
         </ol>
         <h2>New Brands</h2>
-        <p>Here are some internet-era brands that are produced on a small scale (they aren’t manufacturers themselves):</p>
+        <p>Here are some internet-era brands that are produced on a small scale (most aren’t manufacturers themselves):</p>
         <h3><a href="https://blankproject.kr/">Blank Project</a></h3>
         <p>Blank Project have created several Hwatu decks with custom art: Pebble, Pebble (Film Edition), and Golden Toad. They have also created custom promotional decks for Jeju beer.</p>
+        <ArticleImage
+          src={imgPebbleHwatu}
+          alt="TODO">
+          The five Bright cards of the Pebble <Noun lang="ko-Latn">Hwatu</Noun> deck.
+        </ArticleImage>
         <h3><a href="http://www.hanafudahawaii.com/">Hanafuda Hawaii</a></h3>
         <p>Produces two different decks: Hanafuda Hawai‘i Style, and Hanafuda Nā Pua Hawai‘i.</p>
+        <p><b>Hanafuda Hawai‘i Style</b> recreates the traditional Japanese deck with bold artwork, including scores printed on the cards and with helpful icons to identify scoring combinations on the cards. In the rules given with the deck, there are not “5 Brights”, so the “4 Brights” are reproduced here:</p>
+        <ArticleImage
+          src={imgHawaii5Brights}
+          alt="TODO">
+          Hanafuda Hawai‘i Style bright cards.
+        </ArticleImage>
+        <p>The cards of November show more of the style of the cards (note the ‘rain man’ is worth a mere 5 points with the Hawaiian rules):</p>
+        <ArticleImage
+          src={imgHawaii5November}
+          alt="TODO">
+          Hanafuda Hawai‘i Style November cards.
+        </ArticleImage>
+        <p><b>Hanafuda Nā Pua Hawai‘i</b> is probably my favourite of all the modern <Noun lang="ja-Latn">Hanafuda</Noun> decks. It recontextualizes the game with the flora and fauna native to Hawai‘i, matching visual puns to the bold art of the Hawai‘i Style deck: in the month of March, for example, the cherry blossoms become <span lang="haw">‘iliahi</span> (sandalwood) flowers, and the curtain becomes the traditional <span lang="haw">kapa</span> cloth.</p>
+        <ArticleImage
+          src={imgNaPua5Brights}
+          alt="TODO">
+          Hanafuda Nā Pua Hawai‘i bright cards.
+        </ArticleImage>
+        <ArticleImage
+          src={imgNaPuaNovember}
+          alt="TODO">
+          Hanafuda Nā Pua Hawai‘i November cards.
+        </ArticleImage>
         <h3><a href="http://www.indianwolfstudios.com/hanami.html">Indianwolf Studios</a></h3>
-        <p>Produces Hanami Hanafuda and Sensu Hanafuda.</p>
+        <p>Indianwolf have so far produced the <Noun lang="ja-Latn">Hanami Hanafuda</Noun> and <Noun lang="ja-Latn">Sensu Hanafuda</Noun> decks, in poker-sized cards printed by Legends Playing Card Company. Both of these are available in a plain version, or one that has indices to aid new players.</p>
+        <ArticleImage
+          src={imgHanami}
+          alt="Five hanafuda cards drawn in a minimalistic but realistic style.">
+          The five Bright cards of the <Noun lang="ja-Latn">Hanami Hanafuda</Noun> deck.
+        </ArticleImage>
         <h3><a href="https://www.instagram.com/jamaistore/"><span lang="ko">자매상점</span> (jamaistore)</a></h3>
-        <p>Produces ridiculously-cute cat &amp; dog themed <span lang="ko-Latn">hwatu</span> decks.</p>
-        <h3>Nishiki Fuda</h3>
-        <p>Produces the only 3-way Western/<Noun lang="ja-Latn">Hanafuda</Noun>/<Noun lang="ja-Latn">Kabufuda</Noun> deck that I know of.</p>
-        <p>by Hanako: https://profile.ameba.jp/ameba/estudio-artes</p>
+        <p>Produces ridiculously-cute cat &amp; dog themed <span lang="ko-Latn">hwatu</span> decks. Each of them comes with an additional six joker cards, appropriate to the theme.</p>
+        <ArticleImage
+          src={imgNyangTu}
+          alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.">
+          Jamaistore’s <span lang="ko">냥투</span> (<span lang="ko-Latn">nyangtu</span>, ‘meow fight’) deck.<br/>The name is a pun on <span lang="ko-Latn">hwatu</span> with the Korean <span lang="ko-Latn">nyang</span> meaning ‘meow’.
+        </ArticleImage>
+        <ArticleImage
+          src={imgMeongTu}
+          alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.">
+          Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘bruise fight’) deck.<br/>
+          I am uncertain of the meaning!
+        </ArticleImage>
+        <h3><a href="https://www.etsy.com/shop/nishikie" lang="ja-Latn" className="proper-noun">Nishiki Fuda</a></h3>
+        <p>This redesign by <Noun lang="ja-Latn">Hanako</Noun> of <a href="http://www.estudio-artes.com/">estudio artes</a> produced the only 3-way standard/<Noun lang="ja-Latn">Hanafuda</Noun>/<Noun lang="ja-Latn">Kabufuda</Noun> deck that I know of, which is printed on poker-sized cards. There is also a <Noun lang="ja-Latn">Hanafuda</Noun>-only deck, in a traditional format.</p>
+        {/*<p>by Hanako: https://profile.ameba.jp/ameba/estudio-artes</p>*/}
+        <ArticleImage
+          src={imgNishikiFuda}
+          alt="TODO">
+          The 5 Bright cards of the combination <Noun lang="ja-Latn">Nishiki Fuda</Noun> deck. The cards from A–10 have Japanese numerals for use as  <Noun lang="ja-Latn">Kabufuda</Noun> cards.
+        </ArticleImage>
+        <ArticleImage
+          src={imgNishikiHana}
+          alt="TODO">
+          The 5 Bright cards of the standard <Noun lang="ja-Latn">Nishiki Fuda</Noun> deck.
+        </ArticleImage>
         <h3><a href="http://www.hatoo.net/"><span lang="ko">용쟁화투</span> (<Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun>)</a></h3>
-        <p>Style</p>
+        <p><Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun> produce <span lang="ko-Latn">hwatu</span> decks in three varieties: Classic, Cute, and Style (pictured below).</p>
+        <ArticleImage
+          src={imgYongJaengStyle}
+          alt="TODO">
+          The five Bright cards of the <Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun> Style deck.
+        </ArticleImage>
         <h2>Past Manufacturers</h2>
         <p>These are manufacturers that do not exist any more. The information here is mostly taken from {cite(ModernJapaneseWrappers, undefined, {inline: true})}. Matsui Tengudō appears to have been the last manufacturer making cards by hand.{cite(SalterJapanese)}</p>
         <ArticleImage
