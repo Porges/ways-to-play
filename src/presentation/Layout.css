@@ -301,22 +301,6 @@ aside p:first-child {
     margin-top: 0;
 }
 
-.footnote-marker {
-    color: crimson;
-    vertical-align: super;
-    line-height: 0;
-    font-size: 0.8em;
-}
-
-aside .footnote-marker {
-    vertical-align: inherit;
-    font-size: inherit;
-}
-
-.asided:hover .footnote-marker  {
-    text-decoration: underline;
-}
-
 @media (min-width: 1200px) {
     aside {
         width: 40%;

@@ -1,11 +1,11 @@
 import * as React from 'react';
+import Figure from 'react-bootstrap/Figure'
+import BalanceText from 'react-balance-text';
+import uuid from 'uuid';
+
 import { Person, Name } from './Person';
 import * as L from './License';
 import { Organization, RenderOrganization } from './Organization';
-
-import uuid from 'uuid';
-
-import Figure from 'react-bootstrap/Figure'
 
 export type SourceInfo = {
     originalUrl?: string,
@@ -119,7 +119,7 @@ export const ArticleImage: React.FC<Props> = props => {
         return (
             <Figure itemProp='image' itemScope itemType={imageObject} className={className}>
                 { renderImage(props.src, 'alt' in props ? props.alt : '', sizes) }
-                <Figure.Caption className="text-center">
+                <Figure.Caption className="text-center" as={BalanceText}>
                     {props.children} {props.source && renderSource(props.source) }
                 </Figure.Caption>
             </Figure>

@@ -130,9 +130,9 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <section>
         <p>They were probably derived from older “matching games” (<span lang="ja">物合</span> <span lang="ja-Latn">mono-awase</span>).</p>
         <Footnote>
-            <p><span className="footnote-marker">†</span> In Kyoto from the 11th to 13th centuries, the average peak of the cherry blossom season was April 17th.{cite(FourSeasons, [484], { page: "l." })}</p>
+            <p>In Kyoto from the 11th to 13th centuries, the average peak of the cherry blossom season was April 17th.{cite(FourSeasons, [484], { page: "l." })}</p>
         </Footnote>
-        <p>While nominally the cards start in ‘January’, at the time the deck was created Japan’s calendar was based upon the lunisolar Chinese calendar, which started in what is now February. This explains why ‘March’ is the month of the cherry blossom when—according to the current calendar—it should be April,<span className="footnote-marker">†</span>  and why ‘August’ shows the full moon when the full moon festival (<span lang="ja">月見</span> <Pronunciation
+        <p>While nominally the cards start in ‘January’, at the time the deck was created Japan’s calendar was based upon the lunisolar Chinese calendar, which started in what is now February. This explains why ‘March’ is the month of the cherry blossom when—according to the current calendar—it should be April, and why ‘August’ shows the full moon when the full moon festival (<span lang="ja">月見</span> <Pronunciation
             src={pronTsukimi} lang="ja-Latn">tsukimi</Pronunciation>) actually falls in September–October.</p>
         <p>However, even with these modifications the 11th (willow) and 12th (paulownia) cards are in the wrong place. The 11th month depicts rain, willows, and a frog, all of which are associated with summer.</p>
     </section>
@@ -158,9 +158,9 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         A selection of prints from the series <cite>Forty-Eight Hawks Drawn From Life</cite><br/> <cite lang="ja">生うつし四十八鷹</cite> (1859), by <Noun lang="ja-Latn">Nakayama Sūgakudō</Noun>
     </ArticleImage>
     <Footnote>
-        <p><span className="footnote-marker">*</span> In particular, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.{cite(SatireWithinKibyōshi, [44])}</p>
+        <p>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.{cite(SatireWithinKibyōshi, [44])}</p>
     </Footnote>
-    <p><Noun lang="ja-Latn">Hanafuda</Noun> were introduced during a period where gambling had been banned as part of the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793).<span className="footnote-marker">*</span> This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
+    <p><Noun lang="ja-Latn">Hanafuda</Noun> were introduced during a period where gambling had been banned as part of the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793). This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
     </section>
     
     <section id="patterns">
@@ -207,9 +207,9 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         source={svgSourceInfo} />
     <p>The cards for January feature pine trees. There is one bright card, one scroll card (with text), and two junk cards.</p>
     <Footnote>
-    <p><span className="footnote-marker">§</span> The card uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.</p>
+      <p>The writing on the scroll uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.</p>
     </Footnote>
-    <p>The text on the scroll reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.<span className="footnote-marker">§</span>  The meaning of this phrase is unclear, even to <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers, but it may be something like ‘clearly the best’.</p>
+    <p>The text on the scroll reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>. The meaning of this phrase is unclear, even to <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers, but it may be something like ‘clearly the best’.</p>
     <ArticleImage
         position="small"
         src={imgPoem1}
@@ -217,12 +217,12 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
     </ArticleImage>
     <Footnote>
-        <p><span className="footnote-marker">‖</span> <Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</p>
+        <p><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</p>
     </Footnote>
+    <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun> (<span lang="ja">源宗于</span>, —983) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as poem 24 in the ‘Spring’ section of the <Noun><Pronunciation src={pronKokinWakashu} lang="ja-Latn">Kokin Wakashū</Pronunciation></Noun> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
     <Footnote>
-        <p><span className="footnote-marker">¶</span> {cite(PoemsOfTheEchigobana, [4], {inline: true})} notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
+        <p>{cite(PoemsOfTheEchigobana, [4], {inline: true})} notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
     </Footnote>
-    <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun> (<span lang="ja">源宗于</span>, —983)<span className="footnote-marker">‖</span>  at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as poem 24 in the ‘Spring’ section of the <Noun><Pronunciation src={pronKokinWakashu} lang="ja-Latn">Kokin Wakashū</Pronunciation></Noun> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):<span className="footnote-marker">¶</span></p>
     <div className="multi">
     <p lang="ja" className="vertical-rl">
     ときはなる<br/>松のみどりも <br/>春くれば<br/>今ひとしほの<br/>色まさりけり
@@ -330,9 +330,9 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <p>The cards for May depict iris flowers. There is one species card, one red scroll card, and two junk cards.</p>
     <p>A nickname for the month is <Pronunciation src={pronNegi} lang="ja-Latn">negi</Pronunciation> (<span lang="ja">葱</span>, ‘scallion/leek’).{cite(HanaAwase)}</p>
     <Footnote>
-        <p><span className="footnote-marker">†</span> Traditionally this is presumed to be the poet <Noun lang="ja-Latn">Ariwara no Narihira</Noun> (<span lang="ja">在原 業平</span>).</p>
+        <p>Traditionally the protagonist is presumed to be the poet <Noun lang="ja-Latn">Ariwara no Narihira</Noun> (<span lang="ja">在原 業平</span>).</p>
     </Footnote>
-    <p>The bridge shown on the species card is a reference to the ‘eight bridges’ (<span lang="ja">八橋</span> <Pronunciation src={pronYatsuhashi} lang="ja-Latn">yatsuhashi</Pronunciation>) featured in an episode of the <cite>Tales of Ise</cite> (<cite lang="ja">伊勢物語</cite> <span lang="ja-Latn">Ise Monogatari</span>), in which the unnamed protagonist of the story<span className="footnote-marker">†</span>  comes across a braided river that is crossed by eight overlapping planks forming a zig-zag bridge. Challenged to compose a poem on the subject “a traveller’s sentiments”, he recites the following:</p>
+    <p>The bridge shown on the species card is a reference to the ‘eight bridges’ (<span lang="ja">八橋</span> <Pronunciation src={pronYatsuhashi} lang="ja-Latn">yatsuhashi</Pronunciation>) featured in an episode of the <cite>Tales of Ise</cite> (<cite lang="ja">伊勢物語</cite> <span lang="ja-Latn">Ise Monogatari</span>), in which the unnamed protagonist of the story comes across a braided river that is crossed by eight overlapping planks forming a zig-zag bridge. Challenged to compose a poem on the subject “a traveller’s sentiments”, he recites the following:</p>
     <div className="multi">
         <p lang="ja" className="vertical-rl"><b>か</b>らごろも<br/><b>き</b>つつなれにし<br/><b>つ</b>ましあれば<br/><b>は</b>るばるきぬる<br/><b>た</b>びをしぞおもふ</p>
         <p>I have a beloved wife,<br/>Familiar as the skirt<br/>Of a well-worn robe,<br/>And so this distant journeying<br/>Fills my heart with grief.{cite(TalesOfIse, [[74, 75]])}</p>
@@ -343,9 +343,9 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
     </ArticleImage>
     <Footnote>
-        <p><span className="footnote-marker">‡</span> At the time the poem was written, written Japanese did not distinguish between <span lang="ja">は</span> <span lang="ja-Latn">ha</span> and <span lang="ja">ば</span> <span lang="ja-Latn">ba</span>.</p>
+        <p>Note that at the time this poem was written, written Japanese did not distinguish between <span lang="ja">は</span> <span lang="ja-Latn">ha</span> and <span lang="ja">ば</span> <span lang="ja-Latn">ba</span>.</p>
     </Footnote>
-    <p>This poem, which appears in full on the junk cards of the <span lang="ja-Latn">Echigo-bana</span> pattern,{cite(PoemsOfTheEchigobana, [100])} is in the form of an acrostic; the first letters of each line spell out <span lang="ja-Latn">kakitsuhata</span> <span lang="ja">かきつはた</span>, which is a reference to the name of the Japanese iris <span lang="ja">杜若</span> <Pronunciation src={pronKakitsubata} lang="ja-Latn">kakitsubata</Pronunciation>.<span className="footnote-marker">‡</span>  Because of this scene, the iris and the planked bridge have a long association in Japan.</p>
+    <p>This poem, which appears in full on the junk cards of the <span lang="ja-Latn">Echigo-bana</span> pattern,{cite(PoemsOfTheEchigobana, [100])} is in the form of an acrostic; the first letters of each line spell out <span lang="ja-Latn">kakitsuhata</span> <span lang="ja">かきつはた</span>, which is a reference to the name of the Japanese iris <span lang="ja">杜若</span> <Pronunciation src={pronKakitsubata} lang="ja-Latn">kakitsubata</Pronunciation>.  Because of this scene, the iris and the planked bridge have a long association in Japan.</p>
     <ArticleImage
         position="wide"
         src={[
@@ -437,9 +437,9 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         ]}/>
     <p>The cards for September show chrysanthemums. There is one species card, one blue/purple scroll card, and two junk cards.</p>
     <Footnote>
-        <p><span className="footnote-marker">§</span> A story invented by Tendai monks in the 14th century <Noun lang="ja-Latn">Taiheiki</Noun> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:{cite(ChigoJapanese, [[958,959]])} A boy banished to a remote mountain writes out passages of the Buddhist Lotus Sūtra on chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks, and he goes on to live for 800 years without ageing a day.</p>
+        <p>A story invented by Tendai monks in the 14th century <Noun lang="ja-Latn">Taiheiki</Noun> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:{cite(ChigoJapanese, [[958,959]])} A boy banished to a remote mountain writes out passages of the Buddhist Lotus Sūtra on chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks, and he goes on to live for 800 years without ageing a day.</p>
     </Footnote>
-    <p>The species card appears to show the implements of <Pronunciation src={pronChoyo} lang="ja-Latn">chōyō</Pronunciation> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).{cite(FourSeasons, [1214], {page:"l."})}<span className="footnote-marker">§</span> </p>
+    <p>The species card appears to show the implements of <Pronunciation src={pronChoyo} lang="ja-Latn">chōyō</Pronunciation> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).{cite(FourSeasons, [1214], {page:"l."})}</p>
     <p>During the festival, chrysanthemum petals are added to sake and consumed. The sake cup pictured on the card has the character <span lang="ja">壽/寿</span> (<Pronunciation src={pronKotobuki} lang="ja-Latn">kotobuki</Pronunciation>), meaning ‘long life’, written in a cursive script.</p>
     <p>A poem by <Noun lang="ja-Latn">Bashō</Noun>, Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, commemorates the evening of the 9th day of the 9th month, in 1691. <Noun lang="ja-Latn">Bashō</Noun> was staying at the temple <Noun lang="ja-Latn">Gichu-ji</Noun> (<span lang="ja">義仲寺</span>) in a hermitage known as ‘nameless hut’ (<span lang="ja">無名庵</span> <Noun lang="ja-Latn">Mumyō-an</Noun>). His disciple <Noun lang="ja-Latn">Kawai Otokuni</Noun> (<span lang="ja">河合乙州</span>) came to visit him:</p>
     <blockquote>

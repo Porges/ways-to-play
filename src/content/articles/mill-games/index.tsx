@@ -37,7 +37,7 @@ const MillGames: React.FC<ArticleContentProps> = ({ cite }) => {
     <ul>
       <li>[Nine Men’s Morris] is the most well-known, and can be viewed as the stereotypical mill game.</li>
       <li>[Twelve Men’s Morris] is common in the USA. [Eleven Men’s Morris] is a variant with one fewer piece per player.</li>
-      <li> [Morabaraba] is a mill game played competitively in South Africa. It differs slightly from [Twelve Men’s Morris]. </li>
+      <li><GameRef id="morabaraba" /> is a mill game played competitively in South Africa. It differs slightly from [Twelve Men’s Morris]. </li>
       <li>[Shax] is a mill game played in Somalia. It is distinguished by not permitting capturing during the placement phase.</li>
     </ul>
     <h3>Medium mill board</h3>
@@ -81,7 +81,7 @@ const MillGames: React.FC<ArticleContentProps> = ({ cite }) => {
     </ul>
     <p><b>Other positions</b>: unknown positions.</p>
     <ul>
-      <li>Icelandic <Pronunciation src={pronRennihestur}>rennihestur</Pronunciation> ‘sliding horse’ possibly refers to a “triple mill” position.{cite(Fiske, [139])}</li>
+      <li>Icelandic <Pronunciation src={pronRennihestur} lang="is">rennihestur</Pronunciation> ‘sliding horse’ possibly refers to a “triple mill” position.{cite(Fiske, [139])}</li>
     </ul>
     <h2>Audio Credits</h2>
     <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>. Pronunciations are by:</p>

@@ -141,9 +141,9 @@ const Basics: React.FC<ArticleContentProps> = ({ cite }) => {
                 ]}
               perRow={5}>The bright cards.</ArticleImage>
           <Footnote>
-            <p><span className="footnote-marker">‡</span> <Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that this was actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.{cite(ModernKoreanCards)}</p>
+            <p><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.{cite(ModernKoreanCards)}</p>
           </Footnote>
-          <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<span className="footnote-marker">‡</span></p>
+          <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.</p>
           <ArticleImage position="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
           <ArticleImage position="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Clown brand deck.</ArticleImage>
         </section>

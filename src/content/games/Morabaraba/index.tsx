@@ -8,6 +8,9 @@ import
     , UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook } from 'References/bibliography.json';
 
 import imgKliptown from "./8237668945_878d81116c_o.jpg";
+import imgSothoBoard from "./large_merels_with_diagonals_and_centre.svg";
+import imgLargeMerelsWithDiagonals from "content/articles/mill-games/large_merels_with_diagonals.svg";
+import imgLargeMerelsWithFullDiagonals from "./large_merels_with_full_diagonals.svg";
 
 const Morabaraba: React.FC<ArticleContentProps> = ({cite}) => (
     <>
@@ -25,9 +28,9 @@ const Morabaraba: React.FC<ArticleContentProps> = ({cite}) => (
         </ArticleImage>
         <p><Noun lang="st">Morabaraba</Noun> is played as a competitive sport in South Africa, administered by <a href="http://mindsportsa.co.za/">Mind Sports South Africa</a>. It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.{cite(MorabarabaGetOnBoard)}</p>
         <Footnote>
-            <p><span className="footnote-marker">*</span> Sometimes also referred to as Cazalis, upon his return to France he wrote about his experiences in <cite lang="fr">Les Bassoutos: Vingt-Trois Années de Séjour et D’Observations au Sud de L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The Basutos: or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)), but the book contains no mention of any board games. There is now <a href="https://goo.gl/maps/jymZMMft3fB2">a roundabout</a> in his home town, <Noun lang="fr">Orthez</Noun>, <a href="http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php">named after him</a>.</p>
+            <p>Eugène Casalis is sometimes also referred to as Cazalis. Upon his return to France he wrote about his experiences in <cite lang="fr">Les Bassoutos: Vingt-Trois Années de Séjour et D’Observations au Sud de L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The Basutos: or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)), but the book contains no mention of any board games. There is now <a href="https://goo.gl/maps/jymZMMft3fB2">a roundabout</a> in his home town, <Noun lang="fr">Orthez</Noun>, <a href="http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php">named after him</a>.</p>
         </Footnote>
-        <p>Surprisingly, we know precisely who imported the game from Europe:{cite(MkeleMorabaraba, [134])}{cite(FromBearnToSouthernAfrica, [79])} it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis, a French protestant missionary.<span className="footnote-marker">*</span>  The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.{cite(FromBearnToSouthernAfrica, [79])} Obsession with the game also led herders to neglect their flocks,{cite(FromBearnToSouthernAfrica, [79])} so it became known by the epithet <span lang="st">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌{cite(BasothoChildren, [41])} “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌{cite(TheWorldAndCattle, [56])}</p>
+        <p>Surprisingly, we know precisely who imported the game from Europe:{cite(MkeleMorabaraba, [134])}{cite(FromBearnToSouthernAfrica, [79])} it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis, a French protestant missionary. The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.{cite(FromBearnToSouthernAfrica, [79])} Obsession with the game also led herders to neglect their flocks,{cite(FromBearnToSouthernAfrica, [79])} so it became known by the epithet <span lang="st">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌{cite(BasothoChildren, [41])} “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌{cite(TheWorldAndCattle, [56])}</p>
         <p>The name <span lang="st">morabaraba</span> comes from the Sotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam/fly about in small circles’, as of a bird around its nest.‌{cite(SeSothoDictionary, [304])} In Nguni languages (isiZulu, isiXhosa), it is known as <Noun lang="zu">(Um)labalaba</Noun>, with similar meaning,‌{cite(GamesBasotho, [[247, 250]])} and in Ronga, spoken in Mozambique, it is called <Noun lang="rng">Muravarava</Noun>.</p>
         <p>There are other names which are probably derived from the European name of ‘mill’:‌{cite(MkeleMorabaraba, [134])} an alternate Sotho name is <span lang="st">mmila</span>/<span lang="st">’mila</span>, ‘road’.‌{cite(UsingGamesToPromote, [283])} In Botswana, the game is called <span lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌{cite(OldTswana, [350])}), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.</p>
         <p>A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌{cite(UseOfMorabara, [588])} in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). Forming a mill (‘gun’) allows you to “shoot” an opponent’s cow.</p>
@@ -35,12 +38,12 @@ const Morabaraba: React.FC<ArticleContentProps> = ({cite}) => (
             <h2>Play</h2>
             <p>The following description is based on Mind Sports South Africa’s “Generally Accepted Rules”. As with all traditional board games, local rules can vary.</p>
             <Footnote>
-              <p><span className="footnote-marker">†</span> This is so common that even <a href="https://www.instagram.com/p/BMBbRAzBg1z/">commercial sets use bottle caps</a>, and it shows up in <a href="https://www.instagram.com/p/Bf-isgxnIPF/">computerized versions</a> as a skeuomorphic feature.</p>
+              <p>The use of bottle caps is so common that even <a href="https://www.instagram.com/p/BMBbRAzBg1z/">commercial sets use bottle caps</a>, and it shows up in <a href="https://www.instagram.com/p/Bf-isgxnIPF/">computerized versions</a> as a skeuomorphic feature.</p>
             </Footnote>
-            <p>Each player has 12 pieces. Commonly, plastic or metal bottle caps are used in two contrasting colours.<span className="footnote-marker">†</span> </p>
+            <p>Each player has 12 pieces. Commonly, plastic or metal bottle caps are used in two contrasting colours.</p>
             <ArticleImage
                 position="right"
-                src="/images/large_merels_with_diagonals.svg"
+                src={imgLargeMerelsWithDiagonals}
                 alt="">
                 Standard <span className="game-title" lang="st">Morabaraba</span> is played on the large mill board with diagonals.
             </ArticleImage>
@@ -57,7 +60,7 @@ const Morabaraba: React.FC<ArticleContentProps> = ({cite}) => (
                 <h3>Sotho version</h3>
                 <ArticleImage
                     position="right"
-                    src="/images/large_merels_with_diagonals_and_centre.svg"
+                    src={imgSothoBoard}
                     alt="">
                     The Sotho version of the game is played on a board with a central cross.
                 </ArticleImage>
@@ -80,7 +83,7 @@ const Morabaraba: React.FC<ArticleContentProps> = ({cite}) => (
                 <h3>Alternate board</h3>
                 <ArticleImage
                     position="small"
-                    src="/images/large_merels_with_full_diagonals.svg"
+                    src={imgLargeMerelsWithFullDiagonals}
                     alt="">
                     An alternate <span className="game-title" lang="st">Morabaraba</span> board.
                 </ArticleImage>

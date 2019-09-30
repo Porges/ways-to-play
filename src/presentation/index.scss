@@ -256,19 +256,9 @@ table.rule-last-row tr:last-child {
 //     margin: 2rem auto;
 //   }
   
-//   td {
-//       padding: 0.8rem;
-//   }
-  
-//   td.numeric, table.numeric tbody td {
-//     font-family: "Mercury SSm Tabular A", "Mercury SSm Tabular B";
-//     font-variant-numeric: tabular-nums; /* redundant due to font-family, but useful for fallback */
-//     text-align: right;
-//   }
-
 /*** Footnotes ***/
 .footnote {
-    text-indent: -.8em;
+    // text-indent: -.8em;
     font-size: 0.8em;
 
     text-align: left;
