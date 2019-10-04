@@ -238,10 +238,8 @@ const Basics: React.FC<ArticleContentProps> = ({ cite }) => {
     </section>
     <section>
       <h2>Basic Matching Rules</h2>
-
-
     </section>
-    <section id="terminology">
+    {/* <section id="terminology">
       <h2>Terminology</h2>
       <dl>
         <dt><span lang="ja">場</span> <span lang="ja-Latn">ba</span>, ‘field’</dt>
@@ -256,7 +254,7 @@ const Basics: React.FC<ArticleContentProps> = ({ cite }) => {
         <dt><span lang="ja">ビキ</span> <span lang="ja-Latn">biki</span></dt>
         <dd>The third player in a three-player game.</dd>
       </dl>
-    </section>
+    </section> */}
     <section id="audio-credits">
       <h2>Audio Credits</h2>
       <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>. Pronunciations are by:</p>

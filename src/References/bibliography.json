@@ -3402,5 +3402,24 @@
         "volume": 19,
         "page": "545–564",
         "URL": "https://archive.org/details/transactionsasi07japagoog/page/n680"
+    },
+    "ANewCantingDictionary": {
+        "id": "ANewCantingDictionary",
+        "type": "book",
+        "title": "A New Canting Dictionary",
+        "issued": { "year": 1725 },
+        "author": [{ "given": "Anonymous" }],
+        "publisher-place": "London, UK",
+        "URL": "https://books.google.co.nz/books?id=A6NWAAAAcAAJ"
+    },
+    "BerkshirePhrases": {
+        "id": "BerkshirePhrases",
+        "type": "book",
+        "title": "A Glossary of Berkshire Words and Phrases",
+        "author": [{"given": "Barzillai", "family": "Lowsley"}],
+        "publisher": "English Dialect Society",
+        "publisher-place": "London, UK",
+        "issued": { "year": 1888 },
+        "URL": "https://archive.org/details/aglossaryberksh00lowsgoog"
     }
 }

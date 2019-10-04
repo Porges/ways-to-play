@@ -3,7 +3,7 @@ import * as React from 'react';
 //import { GameRef } from '../Game';
 
 import { ArticleImage, ArticleContentProps, Footnote, Pronunciation } from 'ui';
-import { BirdBrainManual, TheMouseWhoReinforced, CrossOutALandmark, TheChickenVanishes, ChinatownFairIsBack, RelayMoe, MathematicalWorkOfBabbage, TheGameOfJAM, Gardner1, Wordsworth, GamesOfTheGods, WinningWaysV3, Fiske, GamesBookForBoysAndGirls, MagazineOfArt, NurseryWitch, SuffolkWords, SourcesInRecreationalMathematics, ICommencedAnExamination, Teesdale, NotesAndQueriesS8V12 } from 'References/bibliography.json';
+import { BerkshirePhrases, ANewCantingDictionary, BirdBrainManual, TheMouseWhoReinforced, CrossOutALandmark, TheChickenVanishes, ChinatownFairIsBack, RelayMoe, MathematicalWorkOfBabbage, TheGameOfJAM, Gardner1, Wordsworth, GamesOfTheGods, WinningWaysV3, Fiske, GamesBookForBoysAndGirls, MagazineOfArt, NurseryWitch, SuffolkWords, SourcesInRecreationalMathematics, ICommencedAnExamination, Teesdale, NotesAndQueriesS8V12 } from 'References/bibliography.json';
 
 import img7429 from './7429845046_ddc7a1464a_o.jpg';
 import imageBab1 from './large_BAB_S20_0002.jpg';
@@ -34,15 +34,16 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => {
         Some tic-tac-toe games
       </ArticleImage>
       <h2>History</h2>
-      <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems
-      like a more recent invention—adegenerate version of [Three Men’s Morris]. Mentions of it only appear in the
-      19th century, and the game is strongly suited to be played with chalk on slates—such as were used by children
-      in schools during this period.</p>
+      <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems like a more recent invention—a degenerate version of [Three Men’s Morris]. Mentions of it only appear in the 19th century, and the game is strongly suited to being played with chalk on slates—such as were used by children in schools during this period. Indeed, {cite(BerkshirePhrases, [164], {inline: true, page: 'p.'})} describes the game as “the first game taught to children when they can use a slate pencil”.</p>
       <p>The earliest known written references to the game occur in Charles Babbage’s unpublished manuscript ‘Essays
       on the Philosophy of Analysis’ (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the
       game is never mentioned by name.{cite(SourcesInRecreationalMathematics)} In 1842, ‘tit-tat-to’ again occurs in
       his notebooks, when he conceptualizes an automaton that would play the game against a
       human.{cite(SourcesInRecreationalMathematics)}{cite(ICommencedAnExamination)}</p>
+      <p>In 1830, Robert Taylor (an anti-clerical Radical, nicknamed “the Devil’s chaplain”) used tic-tac-toe as an example of a children’s game in his sermon “The Star of Bethlehem”:</p>
+      <blockquote>
+        Just as a fool, who has but seen the diagrams and delineations in the elements of Euclid, will make himself dead sure that all the mathematics in the world could have consisted in nothing more than in making hobscotches [hop-scotch], and catgallowses [a high-jump], and scratchcradles [cat’s cradle], [or] to play at tit-tat-toe with.
+      </blockquote>
       <ArticleImage
         position='wide'
         src={[
@@ -61,10 +62,11 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => {
       </ArticleImage>
       <h2>Terminology</h2>
       <p>In English, tic-tac-toe has gone by many names. It has been variously called ‘tit-tat-to(e)’,
-      ‘tick-tack-toe’, ‘(n)oughts &amp; crosses’, ‘tip-tap-toe’,{cite(Teesdale, [136])}{cite(NotesAndQueriesS8V12,
+      ‘tic(k)-tac(k)-to(e)’, ‘(n)oughts &amp; crosses’, ‘crisscross’, ‘tip-tap-toe’,{cite(Teesdale, [136])}{cite(NotesAndQueriesS8V12,
       [333])} ‘Exeter’s Nose’ (a pun on ‘<i>X</i>s and <i>O</i>s’),{cite(SourcesInRecreationalMathematics)} or
       ‘kit-cat-cannio’.{cite(SuffolkWords, [200])}</p>
-      <p>These names mostly derive from an old counting-out rhyme (think ‘eeny meeny miny mo’):</p>
+      <p>These names mostly derive from old counting-out rhymes (think ‘eeny meeny miny mo’) beginning with ‘tit, tat, toe’, which date from at least the early 18th century (in 1725, {cite(ANewCantingDictionary, undefined, {inline: true})} described ‘Tit-Tat’ as “the aiming of Children to go at first”).</p>
+      <p>The fullest expression of this rhyme is along the lines of:</p>
       <Footnote>Some sources (e.g. {cite(NurseryWitch, [374], {inline: true})}) give this last line as “… in the old
       man’s (burial-)ground!”; I have no idea what this means.</Footnote>
       <blockquote>
@@ -76,6 +78,11 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => {
       Stick one down,<br/>
       Stick one in the old man’s crown!
       </blockquote>
+      <p>In the later 19th century, this children’s rhyme became the basis of songs in several musicals:</p>
+      <blockquote>
+        Insert one here!
+      </blockquote>
+      <p>Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to any set of lined-up objects. (Examples: Bluebeard’s wives, the windows on a building.) This usage is still current with the Swedish equivalent of <Pronunciation src={pronTrippTrapp} lang="sv">tripp, trapp, trull</Pronunciation> (see below).</p>
       <ArticleImage
         position="right"
         src={imgTickTack}

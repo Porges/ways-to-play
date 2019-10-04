@@ -63,12 +63,20 @@ export const Article : React.FC<Props> = ({url, content, infoBox}) => {
                 ? pages
                 : pages.map(p => typeof p === 'number' ? p : `${p[0]}–${p[1]}`).join(', ');
 
-    
         const pageType = options && options.page ? options.page + ' ' : '';
 
-        return options && options.inline 
-            ? <span className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>]{suffix && <> ({pageType}{suffix})</>}</span>
-            : <sup className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>{suffix && <>: {pageType}{suffix}</>}]</sup>;
+        if (options && options.inline) {
+          switch (ref.type) {
+            case 'book':
+              return <><a href={`#ref-${ref.id}`}><cite>{ref.title}</cite></a>{suffix && <> ({pageType}{suffix})</>}</>;
+            case 'article-journal':
+              return <><a href={`#ref-${ref.id}`}>{ref.author && ref.author[0].family}</a> ({ref.issued && ref.issued.year}{suffix && <>, {pageType}{suffix}</>})</>;
+            default:
+              return <span className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>]{suffix && <> ({pageType}{suffix})</>}</span>
+          }
+        } else {
+          return <sup className="citation">[<a href={`#ref-${ref.id}`}>{index+1}</a>{suffix && <>: {pageType}{suffix}</>}]</sup>;
+        }
     };
 
     const Import = content.import;
