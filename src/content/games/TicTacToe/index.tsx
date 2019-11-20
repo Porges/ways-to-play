@@ -3,7 +3,7 @@ import * as React from 'react';
 //import { GameRef } from '../Game';
 
 import { ArticleImage, ArticleContentProps, Footnote, Pronunciation } from 'ui';
-import { BerkshirePhrases, ANewCantingDictionary, BirdBrainManual, TheMouseWhoReinforced, CrossOutALandmark, TheChickenVanishes, ChinatownFairIsBack, RelayMoe, MathematicalWorkOfBabbage, TheGameOfJAM, Gardner1, Wordsworth, GamesOfTheGods, WinningWaysV3, Fiske, GamesBookForBoysAndGirls, MagazineOfArt, NurseryWitch, SuffolkWords, SourcesInRecreationalMathematics, ICommencedAnExamination, Teesdale, NotesAndQueriesS8V12 } from 'References/bibliography.json';
+import { LancasterianSystem, Koolman, SkeatTitTatTo, BerkshirePhrases, ANewCantingDictionary, BirdBrainManual, TheMouseWhoReinforced, CrossOutALandmark, TheChickenVanishes, ChinatownFairIsBack, RelayMoe, MathematicalWorkOfBabbage, TheGameOfJAM, Gardner1, Wordsworth, GamesOfTheGods, WinningWaysV3, Fiske, GamesBookForBoysAndGirls, MagazineOfArt, NurseryWitch, SuffolkWords, SourcesInRecreationalMathematics, ICommencedAnExamination, Teesdale, NotesAndQueriesS8V12 } from 'References/bibliography.json';
 
 import img7429 from './7429845046_ddc7a1464a_o.jpg';
 import imageBab1 from './large_BAB_S20_0002.jpg';
@@ -34,15 +34,19 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => {
         Some tic-tac-toe games
       </ArticleImage>
       <h2>History</h2>
-      <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems like a more recent invention—a degenerate version of [Three Men’s Morris]. Mentions of it only appear in the 19th century, and the game is strongly suited to being played with chalk on slates—such as were used by children in schools during this period. Indeed, {cite(BerkshirePhrases, [164], {inline: true, page: 'p.'})} describes the game as “the first game taught to children when they can use a slate pencil”.</p>
-      <p>The earliest known written references to the game occur in Charles Babbage’s unpublished manuscript ‘Essays
+      <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems like a more recent invention—a degenerate version of [Three Men’s Morris]. Mentions of it only appear in the 19th century, and the game is very well suited to being played with chalk on slates—such as were used by children in schools during this period. Indeed, {cite(BerkshirePhrases, [164], {inline: true, page: 'p.'})} describes the game as “the first game taught to children when they can use a slate pencil”.</p>
+      <p>Some of the earliest known written references to the game occur in Charles Babbage’s unpublished manuscript ‘Essays
       on the Philosophy of Analysis’ (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the
       game is never mentioned by name.{cite(SourcesInRecreationalMathematics)} In 1842, ‘tit-tat-to’ again occurs in
       his notebooks, when he conceptualizes an automaton that would play the game against a
       human.{cite(SourcesInRecreationalMathematics)}{cite(ICommencedAnExamination)}</p>
+      <p>It also appears in 1818 in an article on the <a href="https://en.wikipedia.org/wiki/Monitorial_System">Lancasterian system</a>:{cite(LancasterianSystem)}</p>
+      <blockquote>
+        One boy who is acquainted with the popular game of <i>checkers</i>, <i>fox and geese</i>, <i>tit-tat-to</i>, <i>hop skip and jump</i>, and a thousand other childish amusements,  will communicate all he knows to his school companions with surprising facility.
+      </blockquote>
       <p>In 1830, Robert Taylor (an anti-clerical Radical, nicknamed “the Devil’s chaplain”) used tic-tac-toe as an example of a children’s game in his sermon “The Star of Bethlehem”:</p>
       <blockquote>
-        Just as a fool, who has but seen the diagrams and delineations in the elements of Euclid, will make himself dead sure that all the mathematics in the world could have consisted in nothing more than in making hobscotches [hop-scotch], and catgallowses [a high-jump], and scratchcradles [cat’s cradle], [or] to play at tit-tat-toe with.
+        Just as a fool, who has but seen the diagrams and delineations in the elements of Euclid, will make himself dead sure that all the mathematics in the world could have consisted in nothing more than in making hobscotches [hop-scotch], and catgallowses [a high-jump], and scratchcradles [cat’s cradle], to play at tit-tat-toe with.
       </blockquote>
       <ArticleImage
         position='wide'
@@ -58,7 +62,7 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => {
           licenseVersion: '4.0'
         }}
         >
-        Some of Babbage’s notes on “Tit-Tat-To”, dated 15th September 1860
+        Some of Babbage’s notes on “Tit-Tat-To”, dated 15th–16th September 1860
       </ArticleImage>
       <h2>Terminology</h2>
       <p>In English, tic-tac-toe has gone by many names. It has been variously called ‘tit-tat-to(e)’,
@@ -93,8 +97,10 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => {
       <p>The same rhyme and name were also used for an unrelated game, using a circular board, in which a player
       would attempt to locate high-scoring sections of a circle while blindfolded.{cite(GamesBookForBoysAndGirls,
       [55])}</p>
-      <p>There seems to be a distinction we can draw between languages that have folkish names and those that have
-      more functional names derived from the outward appearance or goal of the game.</p>
+      <p>There seems to be a distinction we can draw between languages that have folkish names and those that have more functional names derived from the outward appearance or goal of the game.</p>
+      <Footnote>
+        {cite(SkeatTitTatTo, undefined, {inline: true})} also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but looking at his source,{cite(Koolman, [410])} it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “Tik-Tak-Tuk” is also the name of the game in Indonesian.
+      </Footnote>
       <p>In the former group we have: Dutch ‘<span lang="nl">tik tak tol</span>’,{cite(Fiske, [122])} or ‘<span
       lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and in Swedish ‘<Pronunciation
       src={pronTrippTrapp} lang="sv">tripp, trapp, trull</Pronunciation>’.{cite(Fiske, [137])}</p>
@@ -110,7 +116,7 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => {
       <p>The languages with ‘folkish’ names also tend to have ‘functional’ names as well; an alternate Swedish name
       is ‘<span lang="sv">tre-i-rad</span>’ (‘three in a row’), and Dutch has ‘<span lang="nl">kruisje rondje</span>’
       (‘cross circle’).</p>
-      <p>On the other hand, the English poet Wordsworth didn’t think it was worthy of a name at all. In <cite>The Prelude</cite>, he describes playing the game as a child:{cite(Wordsworth, [[538,544]], {page:"lines"})}</p>
+      <p>On the other hand, the English poet Wordsworth didn’t think the game was worthy of a name at all. In <cite>The Prelude</cite>, he describes playing the game as a child:{cite(Wordsworth, [[538,544]], {page:"lines"})}</p>
       <blockquote>
         Eager and never weary we pursued  <br/>
         Our home-amusements by the warm peat-fire  <br/>

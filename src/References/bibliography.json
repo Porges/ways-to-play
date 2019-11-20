@@ -3421,5 +3421,50 @@
         "publisher-place": "London, UK",
         "issued": { "year": 1888 },
         "URL": "https://archive.org/details/aglossaryberksh00lowsgoog"
+    },
+    "SkeatTitTatTo": {
+        "id": "SkeatTitTatTo",
+        "type": "article-journal",
+        "title": "“Tit-Tat-To”",
+        "author": [{"given":"Walter W.", "family": "Skeat"}],
+        "container-title": "Notes and Queries",
+        "issued": {
+            "year": 1898,
+            "month": 7,
+            "day": 9
+        },
+        "volume": "9 (Series II)",
+        "issue": 28,
+        "page": 26,
+        "URL": "https://archive.org/details/s9notesqueries02londuoft/page/26"
+    },
+    "Koolman": {
+        "id": "Koolman",
+        "type": "book",
+        "title": "Wörterbuch der Ostfriesischen Sprache (Dritter Band, Q–Z)",
+        "author": [{"given": "Jan ten", "family": "Doornkaat Koolman"}],
+        "issued": {
+            "year": 1889
+        },
+        "publisher": "Norden",
+        "publisher-place": "Herm. Braams",
+        "URL": "https://archive.org/details/wrterbuchderos03dooruoft"
+    },
+    "LancasterianSystem": {
+        "id": "LancasterianSystem",
+        "type": "article-journal",
+        "title": "The New School; or Lancasterian System",
+        "author": [{"given": "John", "family": "Pickett"}],
+        "container-title": "The Academician",
+        "issue": 1,
+        "issued": {
+            "year": 1818,
+            "month": 5,
+            "day": 19
+        },
+        "page": 91,
+        "publisher": "John C. Francis",
+        "publisher-place": "London, England, UK",
+        "URL": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnl9na&view=1up&seq=113"
     }
 }
