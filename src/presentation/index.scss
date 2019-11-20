@@ -306,3 +306,8 @@ div.multi > * {
 figcaption img {
     vertical-align: text-bottom;
 }
+
+/*** Abbreviations ***/
+abbr.initialism {
+    font-variant: small-caps;
+}
