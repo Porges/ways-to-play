@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import './presentation/index.scss';
 import App from './Layout';
 
-const root = document.getElementById('root');
+const root = document.getElementById('root')!;
 const app =
     <React.StrictMode>
         <HelmetProvider>
@@ -18,8 +18,8 @@ const app =
         </HelmetProvider>
     </React.StrictMode>;
 
-const hydrate = root!.hasChildNodes();
-const reactRoot = (ReactDOM as any).unstable_createRoot(root, { hydrate });
+const hydrate = root.hasChildNodes();
+const reactRoot = (ReactDOM as any).createRoot(root, { hydrate });
 reactRoot.render(app);
 
 // If you want your app to work offline and load faster, you can change
