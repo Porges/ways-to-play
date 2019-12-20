@@ -3466,5 +3466,50 @@
         "publisher": "John C. Francis",
         "publisher-place": "London, England, UK",
         "URL": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnl9na&view=1up&seq=113"
+    },
+    "AnIntroductionToJapaneseTeaRitual": {
+        "id": "AnIntroductionToJapaneseTeaRitual",
+        "type": "book",
+        "title": "An Introduction to Japanese Tea Ritual",
+        "author": [{"given":"Jennifer Lea", "family": "Anderson"}],
+        "issued": {
+            "year": 1991 
+        },
+        "publisher": "SUNY Press",
+        "ISBN": "978-0-7914-0749-3",
+        "publisher-place": "Albany, NY, USA"
+    },
+    "EbashiSadakuro": {
+        "id": "EbashiSadakuro",
+        "type": "webpage",
+        "title": "<span lang='ja'>後世の花札図柄との異同</span>",
+        "author": [{"given": "崇", "family": "江橋"}],
+        "issued": {
+            "year": 2019
+        },
+        "URL": "https://japanplayingcardmuseum.com/3-3-2-3-flowercarta-difference-laterflowercarta/",
+        "publisher": "Japan Playing Card Museum"
+    },
+    "OishiSadakuro": {
+        "id": "OishiSadakuro",
+        "type": "webpage",
+        "title": "<span lang='ja'>花札の謎シリーズ！１１月札『柳に小野道風（おののとうふう）』</span>",
+        "issued": {
+            "year": 2013,
+            "month": 10,
+            "day": 26
+        },
+        "publisher": "Ōishi Tengudō",
+        "URL": "https://www.tengudo.jp/blog/karuta-news/392.html"
+    },
+    "IwanoMatsui": {
+        "id": "IwanoMatsui",
+        "type": "webpage",
+        "title": "<span lang='ja'>松井天狗堂の買取致します</span>",
+        "issued": {
+            "year": 2017
+        },
+        "publisher": "Iwano Art Co.",
+        "URL": "https://web.archive.org/web/20180715011619/https://iwano.biz/news/20170512matui.html"
     }
 }

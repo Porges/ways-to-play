@@ -145,7 +145,7 @@ const Basics: React.FC<ArticleContentProps> = ({ cite }) => {
           </Footnote>
           <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.</p>
           <ArticleImage position="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
-          <ArticleImage position="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Clown brand deck.</ArticleImage>
+          <ArticleImage position="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) brand deck.</ArticleImage>
         </section>
         <section id="species-cards">
           <h4>Species cards</h4>

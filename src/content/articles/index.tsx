@@ -21,6 +21,11 @@ const articles: List = {
         ['japan', {
             title: "Japanese Cards",
             articles: new Map([
+                ['introduction', {
+                    title: 'Japanese Cards',
+                    draft: true,
+                    import: React.lazy(() => import(/* webpackChunkName: 'japanese-cards' */ './japan/introduction'))
+                }],
                 ['hanafuda', {
                     title: 'Hanafuda',
                     titleLang: 'ja-Latn',

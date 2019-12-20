@@ -2,11 +2,10 @@ import * as React from 'react';
 
 import { Pronunciation, Noun, ArticleImage, ArticleContentProps, Footnote, SourceInfo } from 'ui';
  
-import { HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
+import { OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
 AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu } from
 'References/bibliography.json';
 
-import imgSC232146 from "../SC232146.jpg";
 import imgSC232139 from "../SC232139.jpg";
 import imgSC232140 from "../SC232140.jpg";
 import imgSC232143 from "../SC232143.jpg";
@@ -18,6 +17,10 @@ import imgSC232155 from "../SC232155.jpg";
 import imgSC152627 from '../SC152627.jpg';
 import imgIrises1 from "../Irises_at_Yatsuhashi_(left).jpg";
 import imgIrises2 from "../Irises_at_Yatsuhashi_(right).jpg";
+import imgJapanvsKorea from "./Japan_vs_Korean_man.jpg";
+import imgKoreanTanzaku from './Korean_tanzaku.jpg';
+import imgKoreanMagpie from './Magpie_vs_Hototogisu.jpg';
+import img5Brights from '../5_brights.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.svg';
 import imgHanafuda1_2 from '../Hanafuda_1-2.svg';
@@ -69,6 +72,7 @@ import imgHanafuda12_3 from '../Hanafuda_12-3.svg';
 import imgHanafuda12_4 from '../Hanafuda_12-4.svg';
 
 import imgEchigoBana from './EchigoBana.jpg';
+import imgKintokiBana from './KintokiBana_Brights.jpg';
 import imgPoem1 from '../poem-1.jpg';
 import imgPoem2 from '../poem-2.jpg';
 import imgPoem3 from '../poem-3.jpg';
@@ -110,6 +114,7 @@ import pronHoo from '../pronunciation_ja_鳳凰.mp3';
 import pronShigure from '../pronunciation_ja_時雨.mp3';
 import pronNegi from '../pronunciation_ja_葱.mp3';
 import pronTsukimi from '../pronunciation_ja_月見.mp3';
+import { Link } from 'react-router-dom';
 
 const svgSourceInfo: SourceInfo = {
     license: 'gpl',
@@ -124,7 +129,8 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <section id="history">
     <section>
       <h2>Origins</h2>
-      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). They were most probably derived from older “matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>). The oldest of these seems to have been a game based upon matching pairs of shells (<span lang="ja">貝合わせ</span> <span lang="ja-Latn">kai-awase</span>). This must have been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually this developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span>) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
+      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). The origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>). These were courtly competitions in which various objects were compared as to their qualities: objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, sweet-flag roots, wild pinks); animals (insects, songbirds); incense; tea{cite(AnIntroductionToJapaneseTeaRitual, [26])}; birds; or shells. The most privileged of these competitions was the poetry match (<span lang="ja">歌合</span> <Noun lang="ja-Latn">uta-awase</Noun>).</p>
+      <p>The oldest of these seems to have been a game based upon matching pairs of shells (<span lang="ja">貝合わせ</span> <span lang="ja-Latn">kai-awase</span>). This must have been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually this developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span>) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
       <Footnote>
           <p>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.{cite(SatireWithinKibyōshi, [44])}</p>
       </Footnote>
@@ -145,7 +151,6 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <p>Artistically, the cards derive from the <span lang="ja-Latn">kachō-ga</span> (<span lang="ja">花鳥画</span> ‘flower and bird image’) tradition. Artworks in this style often have poems written upon them, and these appear on some cards of the <span lang="ja-Latn">Echigo-bana</span> pattern.</p>
     <ArticleImage
         src={[
-            [imgSC232146, ""],
             [imgSC232139, ""],
             [imgSC232140, ""],
             [imgSC232143, ""],
@@ -155,43 +160,69 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
             [imgSC232177, ""],
             [imgSC232155, ""],
          ]}
-        perRow={3}
+        perRow={4}
         source={{
             license: 'cc0',
             organization: { orgName: 'Boston Museum of Fine Arts' },
             originalUrl: "https://www.mfa.org/collections/object/title-page-from-the-series-forty-eight-hawks-drawn-from-life-ikiutsushi-shij%C3%BBhachi-taka-209778",
         }}>
-        A selection of prints from the series <cite>Forty-Eight Hawks Drawn From Life</cite><br/> <cite lang="ja">生うつし四十八鷹</cite> (1859), by <Noun lang="ja-Latn">Nakayama Sūgakudō</Noun>
+        Art in the <span lang="ja-Latn">kachō-ga</span> style: a selection of prints from the series <cite>Forty-Eight Hawks Drawn From Life</cite><br/> <cite lang="ja">生うつし四十八鷹</cite> (1859), by <Noun lang="ja-Latn">Nakayama Sūgakudō</Noun>
     </ArticleImage>
     </section>
     <section id="patterns">
     <h2>Card Patterns</h2>
     <section id="standard">
     <h3>Standard</h3>
-    <p>The standard pattern is now one that is called <Pronunciation src={pronHachihachibana} lang="ja-Latn">hachi­hachi-­bana</Pronunciation> (<span lang="ja">八八花</span>/<span lang="ja">八々花</span>), since it was primarily used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images of it are shown below.</p>
-    <p>Korean decks also use the standard <span lang="ja-Latn">hachi­hachi­-bana</span> pattern, but the ribbons are usually blue instead of purple, and bear Korean text.</p>
+    <p>The standard pattern is now one that is called <Pronunciation src={pronHachihachibana} lang="ja-Latn">hachi­hachi-­bana</Pronunciation> (<span lang="ja">八八花</span>/<span lang="ja">八々花</span>), since it was primarily used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images from it are used to show the cards of each month below.</p>
+    <ArticleImage position="small" src={img5Brights} alt="TODO">The 5 Bright cards of the <span lang="ja-Latn">hachihachi-bana</span> pattern, from a <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
+    <h4>Korean deck differences</h4>
+    <p>Korean decks also use the standard <span lang="ja-Latn">hachi­hachi­-bana</span> pattern, but the ribbons are usually blue instead of purple, and there is Korean text on the standard three red ribbons (labelled <span lang="ko">홍단</span>, <span lang="ko-Latn">hongdan</span> ‘great rank’) and all three blue ribbons (<span lang="ko">청단</span>, <span lang="ko-Latn">cheongdan</span> ‘blue rank’).</p>
+    <ArticleImage
+        src={imgKoreanTanzaku}
+        alt="Six Hwatu cards showing ribbons with Korean text written on them.">
+        Korean <Noun lang="ko-Latn">Hwatu</Noun> cards with ribbons.
+    </ArticleImage>
+    <p>There are also differences in the rain main (see below), and depending on the deck, other aspects of the cards can also be translated into Korean cultural terms. For example, the lesser cuckoo of the Japanese cards is in some decks the Oriental magpie, which is the national bird of Korea.</p>
+    <div className="multi">
+        <ArticleImage position="small"
+            src={imgKoreanMagpie}
+            alt="Two hwatu-format cards: the left shows cherry blossoms with a Korean magpie that has a blue chest with black and yellow wings, while the right shows cherry blossoms with a lesser cuckoo that has a yellow body and green wings.">
+            The <span lang="ko">무지개</span> (‘rainbow’) brand <Noun lang="ko-Latn">Hwatu</Noun> deck (on left) features a Korean magpie (<span lang="ko">까치</span>), instead of the usual lesser cuckoo as shown on the Daiso <Noun lang="ko-Latn">Hwatu</Noun>-format deck.
+        </ArticleImage>
+        <ArticleImage
+            position="small"
+            src={imgJapanvsKorea}
+            alt="Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean.">
+        The ‘rain main’ wears traditional clothing in both Japanese and Korean decks. The Japanese man (left) wears a <Noun lang="ja-Latn">Heian</Noun> period courtier’s daily outfit (<span lang="ja">狩衣</span> <span lang="ja-Latn">kariginu</span>), with tall <span lang="ja-Latn">tate-eboshi</span> (<span lang="ja">楯烏帽子</span>) hat, and very tall rain-clogs (<span lang="ja">足駄</span> <span lang="ja-Latn">ashida</span>) on his feet. The Korean man is wearing a noble’s <span lang="ko-Latn">gat</span> (<span lang="ko">갓</span>) hat, and an outer coat with very large sleeves.
+        </ArticleImage>
+    </div>
     </section>
     <section id="echigo-bana">
-    <h3><Noun lang="ja-Latn">Echigo-bana</Noun></h3>
-    <p>The regional <Pronunciation src={pronEchigobana} lang="ja-Latn">Echigo-bana</Pronunciation> (<span lang="ja">越後花</span> ‘Echigo flowers’) pattern is based on designs that are older than the standard pattern. The most obvious difference is that all the cards are overpainted with gold and silver in various patterns.</p>
-    <ArticleImage
-      src={imgEchigoBana}
-      alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details.">
-      The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern.
-    </ArticleImage>
-    <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronunciation src={pronTanka} lang="ja-Latn" >tanka</Pronunciation>). Poetry is a common sight on traditional Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints above — and often provides more context to the images. The poems of the <span lang="ja-Latn">Echigo-bana</span> will be explained below.</p>
+        <h3><Noun lang="ja-Latn">Echigo-bana</Noun></h3>
+        <p>The regional <Pronunciation src={pronEchigobana} lang="ja-Latn">Echigo-bana</Pronunciation> (<span lang="ja">越後花</span> ‘Echigo flowers’) pattern is based on designs that are older than the standard pattern. The most obvious difference is that all the cards are overpainted with gold and silver in various patterns.</p>
+        <ArticleImage
+        src={imgEchigoBana}
+        alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details.">
+        The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
+        </ArticleImage>
+        <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronunciation src={pronTanka} lang="ja-Latn" >tanka</Pronunciation>). Poetry is a common sight on traditional Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints above — and often provides more context to the images. The poems of the <span lang="ja-Latn">Echigo-bana</span> will be explained below.</p>
     </section>
     <section id="awabanakintokibana">
-    <h3><Noun lang="ja-Latn">Awa-­bana</Noun>/<Noun lang="ja-Latn">Kintoki­-bana</Noun></h3>
-    <p>This is another regional pattern called <span lang="ja-Latn">Awa­-bana</span> (<span lang="ja">阿波花</span>) or <span lang="ja-Latn">Kintoki­-bana</span> (<span lang="ja">金時花</span>). It originated in <Noun
-    lang="ja-Latn">Awa</Noun> province, in what is now <Noun lang="ja-Latn">Tokushima</Noun> prefecture.</p>
-    <p>Like the <Noun lang="ja-Latn">Echigo-bana</Noun> pattern, some of the <Noun lang="ja-Latn">Awa-­bana</Noun> carry poems (in fact, they carry the same poems).</p>
+        <h3><Noun lang="ja-Latn">Awa-­bana</Noun>/<Noun lang="ja-Latn">Kintoki­-bana</Noun></h3>
+        <p>This is another regional pattern called <span lang="ja-Latn">Awa­-bana</span> (<span lang="ja">阿波花</span>) or <span lang="ja-Latn">Kintoki­-bana</span> (<span lang="ja">金時花</span>). It originated in <Noun
+        lang="ja-Latn">Awa</Noun> province, in what is now <Noun lang="ja-Latn">Tokushima</Noun> prefecture.</p>
+        <p>Like the <Noun lang="ja-Latn">Echigo-bana</Noun> pattern, some of the <Noun lang="ja-Latn">Awa-­bana</Noun> carry poems (in fact, they carry the same poems).</p>
+        <ArticleImage
+            src={imgKintokiBana}
+            alt="Five hanafuda cards with bright colours and overpainted with silver.">
+            The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
+        </ArticleImage>
     </section>
     <section id="modern-novelty-decks">
     <h3>Modern/Novelty decks</h3>
     <p>In addition to the traditional standard patterns, there are also many modern revisions or novelty decks that
-    can be found. More information and examples of these can be found in the article about <Noun
-    lang="ja-Latn">Hanafuda</Noun> manufacturers.</p>
+    can be found. More information and examples of these can be found in the <Link to="/articles/japan/hanafuda/manufacturers">article about <Noun
+    lang="ja-Latn">Hanafuda</Noun> manufacturers</Link>.</p>
     </section>
     </section>
     <section id="the-cards-in-depth">
@@ -220,15 +251,15 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
     </ArticleImage>
     <Footnote>
-        <p><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</p>
+        <p><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<abbr title="died">d.</abbr> 983) was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</p>
     </Footnote>
-    <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun> (<span lang="ja">源宗于</span>, —983) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as poem 24 in the ‘Spring’ section of the <Noun><Pronunciation src={pronKokinWakashu} lang="ja-Latn">Kokin Wakashū</Pronunciation></Noun> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
+    <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the <Noun><Pronunciation src={pronKokinWakashu} lang="ja-Latn">Kokin Wakashū</Pronunciation></Noun> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
     <Footnote>
         <p>{cite(PoemsOfTheEchigobana, [4], {inline: true})} notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
     </Footnote>
     <div className="multi">
     <p lang="ja" className="vertical-rl">
-    ときはなる<br/>松のみどりも <br/>春くれば<br/>今ひとしほの<br/>色まさりけり
+    ときはなる<br/>松のみどりも<br/>春くれば<br/>今ひとしほの<br/>色まさりけり
     </p>
     <p>Even the verdure<br/>of foliage on the pine tree,<br/>“ever unchanging”,<br/>deepens into new richness<br/>now that springtime has arrived.{cite(KokinWakashu, [18])}</p>
     </div>
@@ -254,6 +285,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
       <p lang="ja">うぐひすの谷よりいづるこゑなくは春くることをたれかしらまし</p>
       <p>Without the voice of the warbler that comes out of the valley, how would we know the arrival of spring?{cite(FourSeasons, [952], {page: "loc."})}</p>
     </div>
+    <br/>
     <ArticleImage
         position="small"
         src={imgPoem4}
@@ -282,6 +314,9 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         ]}>
         The cards for March show the famous cherry blossoms of Japan. There is one bright card, one scroll card (with text), and two junk cards.
     </ArticleImage>
+    <Footnote>
+        Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
+    </Footnote>
     <ArticleImage
         position="right"
         src={img16944}
@@ -293,7 +328,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         }} >
         <cite>3rd Month: Blossom-Viewing in Askukayama</cite><br/><cite lang="ja">三月　飛鳥山花見</cite><br/>by <Noun lang="ja-Latn">Kitao Shigemasa</Noun> (<span lang="ja">北尾 重政</span>, 1739–1820).
     </ArticleImage>
-    <p>The scroll of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’ (some older cards have variations like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>). This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
+    <p>The scroll of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’. This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
     <p>Blossom-viewing (<span lang="ja">花見</span> <Pronunciation lang="ja-Latn" src={pronHanami}>hanami</Pronunciation>), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period.</p>
     <p>The curtains (<span lang="ja">幕</span> <Pronunciation src={pronMaku} lang="ja-Latn">maku</Pronunciation>) on the bright card are for providing privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the right. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>
     </section>
@@ -345,15 +380,17 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         <p>Traditionally the protagonist is presumed to be the poet <Noun lang="ja-Latn">Ariwara no Narihira</Noun> (<span lang="ja">在原 業平</span>).</p>
     </Footnote>
     <p>The bridge shown on the species card is a reference to the ‘eight bridges’ (<span lang="ja">八橋</span> <Pronunciation src={pronYatsuhashi} lang="ja-Latn">yatsuhashi</Pronunciation>) featured in an episode of the <cite>Tales of Ise</cite> (<cite lang="ja">伊勢物語</cite> <span lang="ja-Latn">Ise Monogatari</span>), in which the unnamed protagonist of the story comes across a braided river that is crossed by eight overlapping planks forming a zig-zag bridge. Challenged to compose a poem on the subject “a traveller’s sentiments”, he recites the following:</p>
+    <section>
+    <ArticleImage
+        position="left"
+        src={imgPoem5} alt="The junk cards of the Echigo-bana pattern which bear the poem.">
+        <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
+    </ArticleImage>
     <div className="multi">
         <p lang="ja" className="vertical-rl"><b>か</b>らごろも<br/><b>き</b>つつなれにし<br/><b>つ</b>ましあれば<br/><b>は</b>るばるきぬる<br/><b>た</b>びをしぞおもふ</p>
         <p>I have a beloved wife,<br/>Familiar as the skirt<br/>Of a well-worn robe,<br/>And so this distant journeying<br/>Fills my heart with grief.{cite(TalesOfIse, [[74, 75]])}</p>
     </div>
-    <ArticleImage
-        position="small"
-        src={imgPoem5} alt="The junk cards of the Echigo-bana pattern which bear the poem.">
-        <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
-    </ArticleImage>
+    </section>
     <Footnote>
         <p>Note that at the time this poem was written, written Japanese did not distinguish between <span lang="ja">は</span> <span lang="ja-Latn">ha</span> and <span lang="ja">ば</span> <span lang="ja-Latn">ba</span>.</p>
     </Footnote>
@@ -508,8 +545,11 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         The cards for November show willow trees. There is one bright card, one species card, one red scroll card, and one junk card.
     </ArticleImage>
     <p>The month of November is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronunciation src={pronAme} lang="ja-Latn">ame</Pronunciation>) or ‘drizzle’ (<span lang="ja">時雨</span> <Pronunciation src={pronShigure} lang="ja-Latn">shigure</Pronunciation>). These cards have a strange relationship to the others — in many games they have special powers, or they are valued lower than the cards of other months. For example, the bright of November will often score less than the other four brights, and in some games the lightning card has special powers.</p>
-    <p>The lightning card is the red-coloured junk card, which is also called the ogre card (<span lang="ja">鬼札</span> <Pronunciation src={pronOnifuda} lang="ja-Latn">onifuda</Pronunciation>). The drums, which are visible in some patterns, are an attribute of the thunder god <Noun lang="ja-Latn">Raijin</Noun> (<span lang="ja">雷神</span>). In many games this card has special abilities such as being able to match any other card.</p>
+    <Footnote>
+        It has been suggested (e.g. by author <Noun lang="ja-Latn">Murai Shōzō</Noun> <Noun lang="ja">村井省三</Noun> and by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>{cite(OishiSadakuro)}) that the “Umbrella Man” has its origins in the character of <Noun lang="ja-Latn">Sadakurō</Noun> from the <span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <Noun lang="ja-Latn">Ebashi</Noun> points out,{cite(EbashiSadakuro)} there is an early progenitor of the Hanafuda deck from 1704 that contains the “Umbrella Man”. This precludes the <Noun lang="ja-Latn">Sadakurō</Noun> origin story, as the play was written some 40 years after the deck was produced.
+    </Footnote>
     <p>The man pictured on the bright card is the poet <Noun lang="ja-Latn">Ono no Michikaze</Noun> (<span lang="ja">小野道風</span>), who is considered to be one of the founders of Japanese calligraphy. The jumping frog recalls an episode in his life: he had failed seven times to achieve a promotion, and was considering abandoning his attempts. One day, walking beside a stream, he saw a frog attempting to jump onto a willow branch. Seven times it jumped, and seven times it failed. On the eighth attempt, the frog reached the branch successfully. <Noun lang="ja-Latn">Michikaze</Noun> was thus inspired to persevere with his attempts.{cite(AnimalInFarEasternArt, [[86, 87]])}</p>
+    <p>The lightning card is the red-coloured junk card, which is also called the ogre card (<span lang="ja">鬼札</span> <Pronunciation src={pronOnifuda} lang="ja-Latn">onifuda</Pronunciation>). The drums, which are visible in some patterns, are an attribute of the thunder god <Noun lang="ja-Latn">Raijin</Noun> (<span lang="ja">雷神</span>). In many games this card has special abilities such as being able to match any other card.</p>
     </section>
     <section id="paulownia--kiri">
     <h3><span lang="ja">12月</span> — paulownia (<span lang="ja">桐</span> <Pronunciation src={pronKiri} lang="ja-Latn">kiri</Pronunciation>)</h3>
