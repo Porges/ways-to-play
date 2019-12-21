@@ -3511,5 +3511,15 @@
         },
         "publisher": "Iwano Art Co.",
         "URL": "https://web.archive.org/web/20180715011619/https://iwano.biz/news/20170512matui.html"
+    },
+    "Yamaguchi": {
+        "id": "Yamaguchi",
+        "type": "book",
+        "title": "<span lang='ja'>最後の読みカルタ</span>",
+        "author": [ { "family": "山口", "given": "泰彦" } ],
+        "issued": {
+            "year": 1998
+        },
+        "publisher": "帝国コンサルタント社友会科学文化部出版局"
     }
 }

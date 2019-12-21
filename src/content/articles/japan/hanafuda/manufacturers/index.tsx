@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { ArticleContentProps, ArticleImage, Noun } from 'ui';
-import { IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
+import { Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -296,22 +296,31 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           </ArticleImage>
         </section>
         <h3>Other past manufacturers</h3>
+        <h4>From <Noun lang="ja-Latn">Kyōto</Noun></h4>
+        <p>Information about these was manufacturers was found in <Noun lang="ja-Latn">Yamaguchi</Noun>’s book.{cite(Yamaguchi, [102])}</p>
+        <ul>
+          <li><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>). Existed in 1948; mark was <span lang="ja">田</span> with corner on top.</li>
+          <li><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun> (<span lang="ja">日本骨牌製造</span>). Existed in 1948; mark was <span lang="ja">中</span> with corner at top-right.</li>
+          <li><Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>). Existed in 1948; mark was a circled <span lang="ja">十</span>.</li>
+          <li><Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>). Existed in 1948; mark was a circled <span lang="ja">龍</span>.</li>
+          <li><Noun lang="ja-Latn">Inoue Juntendō</Noun> (<span lang="ja">井上順天堂</span>). Existed in 1948; mark was a circled <span lang="ja">順</span>.</li>
+          <li><Noun lang="ja-Latn">Nakao Seikadō</Noun> (<span lang="ja">中尾清花堂</span>). Existed in 1948; mark was <span lang="ja">セ</span> with corner at top-right.</li>
+          <li><Noun lang="ja-Latn">Baba Keieidō</Noun> (<span lang="ja">馬場京栄堂</span>). Existed in 1948; mark was a circled <span lang="ja">京</span>.</li>
+        </ul>
+        <h4>Elsewhere</h4>
         <p>I have very little information about these manufacturers other than that they existed. The information here is mostly taken from {cite(ModernJapaneseWrappers, undefined, {inline: true})}.</p>
         <ul>
-        <li>Heibon (<span lang="ja">平凡</span>), Tōkyō {/*<!--
-        https://www.ebay.com/itm/Heibon-Playing-Cards-Vintage-New-Old-Stock-Hanafuda-Kintoki-Zakura-Red-/271168560044
-        -->*/}</li>
-        <li>Iwata (cards made by Tamura Shōgun)</li>
-        <li>Kawakita (cards made by Yamashiro)</li>
-        <li>Kohara, Ōsaka</li>
-        <li>Kyōto Karuta, Kyōto</li>
-        <li>Dai Nippon, Yōkaichi (now part of Higashiōmi), Shiga prefucture</li>
-        <li>Nihon Karuta Seizō, Kyōto</li>
-        <li><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>), Tōkyō (1946). Still exists but no longer appears to produce <Noun lang="ja-Latn">Hanafuda</Noun> cards, specializes in tarot.</li>
-        <li>Nishimura, Tōkyō</li>
-        <li>Tanaka Gyokusuidō, Kyōto</li>
-        <li>Universal, Ōsaka. At one time Universal produced cards (such as the Hana-Trump deck) for Nintendo.</li>
-        <li>Yamashiro Shōten, Kyōto</li>
+          <li>Heibon (<span lang="ja">平凡</span>), Tōkyō {/*<!--
+          https://www.ebay.com/itm/Heibon-Playing-Cards-Vintage-New-Old-Stock-Hanafuda-Kintoki-Zakura-Red-/271168560044
+          -->*/}</li>
+          <li>Iwata (cards made by Tamura Shōgun-dō)</li>
+          <li>Kawakita (cards made by Yamashiro Shōten)</li>
+          <li>Kohara, Ōsaka</li>
+          <li>Nishimura, Tōkyō</li>
+          <li>Kyōto Karuta, Kyōto</li>
+          <li>Dai Nippon, Yōkaichi (now part of Higashiōmi), Shiga prefucture</li>
+          <li><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>), Tōkyō (1946). Still exists but no longer appears to produce <Noun lang="ja-Latn">Hanafuda</Noun> cards, specializes in tarot.</li>
+          <li>Universal, Ōsaka. At one time Universal produced cards (such as the Hana-Trump deck) for Nintendo.</li>
         </ul>
         </section>
     );
