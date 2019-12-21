@@ -30,6 +30,8 @@ import imgAngelJokers from './Angel_Jokers.jpg';
 import imgCochaeBrights from './Cochae_Brights.jpg';
 import imgMatsuiBrights from './Matsui_Brights.jpg';
 import imgMarioBrights from './Nintendo_Mario_Brights.jpg';
+import imgJuniorBrights from './Junior_Brights.jpg';
+import imgJuniorBamboo from './Junior_Bamboo.jpg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (
@@ -156,17 +158,17 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         <h2>New Brands</h2>
         <p>Here are some internet-era brands that are produced on a small scale (most aren’t manufacturers themselves):</p>
         <section id="blank-project">
-          <h3><a href="https://blankproject.kr/">Blank Project</a></h3>
-          <p>Blank Project have created several Hwatu decks with custom art: Pebble, Pebble (Film Edition), and Golden Toad. They have also created custom promotional decks for Jeju beer.</p>
+          <h3><a href="https://blankproject.kr/">Blank’s Art Project</a> (2016—)</h3>
+          <p>Blank’s Art Project have created several Hwatu decks with custom art: Pebble (2016), Golden Toad (2018 & 2019 editions, crowdfunded on Korean site ‘wadiz’), and Pebble Film Edition (2019). They have also created custom promotional decks for Jeju beer (2017).</p>
           <ArticleImage
             src={imgPebbleHwatu}
             alt="TODO">
-            The five Bright cards of the Pebble <Noun lang="ko-Latn">Hwatu</Noun> deck.
+            The five Bright cards of the Pebble <Noun lang="ko-Latn">Hwatu</Noun> deck (2016).
           </ArticleImage>
         </section>
         <section id="hawaii">
-          <h3><a href="http://www.hanafudahawaii.com/">Hanafuda Hawaii</a></h3>
-          <p>Produces two different decks: Hanafuda Hawai‘i Style, and Hanafuda Nā Pua Hawai‘i.</p>
+          <h3><a href="http://www.hanafudahawaii.com/">Hanafuda Hawaii</a> (2009—)</h3>
+          <p>Produces two different decks: Hanafuda Hawai‘i Style (2009), and Hanafuda Nā Pua Hawai‘i (2016).</p>
           <p><b>Hanafuda Hawai‘i Style</b> recreates the traditional Japanese deck with bold artwork, including scores printed on the cards and with helpful icons to identify scoring combinations on the cards. In the rules given with the deck, there are not “5 Brights”, so the “4 Brights” are reproduced here:</p>
           <ArticleImage
             src={imgHawaii5Brights}
@@ -192,31 +194,32 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           </ArticleImage>
         </section>
         <section id="indianwolf">
-          <h3><a href="http://www.indianwolfstudios.com/hanami.html">Indianwolf Studios</a></h3>
-          <p>Indianwolf have so far produced the <Noun lang="ja-Latn">Hanami Hanafuda</Noun> and <Noun lang="ja-Latn">Sensu Hanafuda</Noun> decks, in poker-sized cards printed by Legends Playing Card Company. Both of these are available in a plain version, or one that has indices to aid new players.</p>
+          <h3><a href="http://www.indianwolfstudios.com/hanami.html">Indianwolf Studios</a> (2018—)</h3>
+          <p>Indianwolf have so far produced the <Noun lang="ja-Latn">Hanami Hanafuda</Noun> (2018) and <Noun lang="ja-Latn">Sensu Hanafuda</Noun> (2019) decks, in poker-sized cards printed by Legends Playing Card Company. Both of these are available in a plain version, or one that has indices to aid new players.</p>
           <ArticleImage
             src={imgHanami}
             alt="Five hanafuda cards drawn in a minimalistic but realistic style.">
             The five Bright cards of the <Noun lang="ja-Latn">Hanami Hanafuda</Noun> deck.
           </ArticleImage>
+          <p>Indianwolf are also currently producing the ‘Night Parade’ deck, expected to ship in 2020. All Indianwolf’s decks have been crowdfunded through Kickstarter.</p>
         </section>
         <section id="jamaistore">
-          <h3><a href="https://www.instagram.com/jamaistore/"><span lang="ko">자매상점</span> (jamaistore)</a></h3>
-          <p>Produces ridiculously-cute cat &amp; dog themed <span lang="ko-Latn">hwatu</span> decks. Each of them comes with an additional six joker cards, appropriate to the theme.</p>
+          <h3><a href="https://www.instagram.com/jamaistore/"><span lang="ko">자매상점</span> (jamaistore)</a> (2016—)</h3>
+          <p>Produces ridiculously-cute cat &amp; dog themed <span lang="ko-Latn">hwatu</span> decks. Each of them comes with an additional six joker cards, appropriate to the theme. Both decks were crowfunded on the Korean site ‘tumblbug’.</p>
           <ArticleImage
             src={imgNyangTu}
             alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.">
-            Jamaistore’s <span lang="ko">냥투</span> (<span lang="ko-Latn">nyangtu</span>, ‘meow fight’) deck.<br/>The name is a pun on <span lang="ko-Latn">hwatu</span> with the Korean <span lang="ko-Latn">nyang</span> meaning ‘meow’.
+            Jamaistore’s <span lang="ko">냥투</span> (<span lang="ko-Latn">nyangtu</span>, ‘meow fight’) deck (2016).<br/>The name is a pun on <span lang="ko-Latn">hwatu</span> with the Korean <span lang="ko-Latn">nyang</span> meaning ‘meow’.
           </ArticleImage>
           <ArticleImage
             src={imgMeongTu}
             alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.">
-            Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘bruise fight’) deck.<br/>
+            Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘bruise fight’) deck (2017).<br/>
             I am uncertain of the meaning!
           </ArticleImage>
         </section>
         <section id="nishiki-fuda">
-          <h3><a href="https://www.etsy.com/shop/nishikie" lang="ja-Latn" className="proper-noun">Nishiki Fuda</a></h3>
+          <h3><a href="https://www.etsy.com/shop/nishikie" lang="ja-Latn" className="proper-noun">NISHIKI <span lang="ja">錦</span></a> (2017)</h3>
           <p>This redesign by <Noun lang="ja-Latn">Hanako</Noun> of <a href="http://www.estudio-artes.com/">estudio artes</a> produced the only 3-way standard/<Noun lang="ja-Latn">Hanafuda</Noun>/<Noun lang="ja-Latn">Kabufuda</Noun> deck that I know of, which is printed on poker-sized cards. There is also a <Noun lang="ja-Latn">Hanafuda</Noun>-only deck, in a traditional format.</p>
           {/*<p>by Hanako: https://profile.ameba.jp/ameba/estudio-artes</p>*/}
           <ArticleImage
@@ -229,47 +232,72 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="TODO">
             The 5 Bright cards of the standard <Noun lang="ja-Latn">Nishiki Fuda</Noun> deck.
           </ArticleImage>
-          <h3><a href="http://www.hatoo.net/"><span lang="ko">용쟁화투</span> (<Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun>)</a></h3>
-          <p><Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun> produce <span lang="ko-Latn">hwatu</span> decks in three varieties: Classic, Cute, and Style (pictured below).</p>
+          <h3><a href="http://www.hatoo.net/"><span lang="ko">용쟁화투</span> <Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun></a> (2001—)</h3>
+          <p><Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun> produce <span lang="ko-Latn">hwatu</span> decks in three varieties: Classic, Cute, and Style (pictured below). These designs have been produced in several editions over the years.</p>
           <ArticleImage
             src={imgYongJaengStyle}
             alt="TODO">
-            The five Bright cards of the <Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun> Style deck.
+            The five Bright cards of the <Noun lang="ko-Latn">Yongjaeng Hwatoo</Noun> Style deck (2017).
           </ArticleImage>
         </section>
         <section id="cochae">
           <h3>Cochae</h3>
-          <p>Japanese paper design house Cochae produces <strong lang="ja-Latn">Kokoyo</strong>, a deck with bold, crisp visuals and faces on everything. The cards are coded by background colour so that Bright cards have a gold background, Tane have silver, etc.</p>
+          <p>Japanese paper design house Cochae produces <a href="http://www.cochae.com/system/goods/2359/"><strong lang="ja-Latn">Kokoyo</strong></a> (2019), a deck with bold, crisp visuals and faces on everything. The cards are coded by background colour so that Bright cards have a gold background, Tane have silver, etc.</p>
           <ArticleImage
             src={imgCochaeBrights}
             alt="TODO">
-            The 5 Bright cards of the Cochae <Noun lang="ja-Latn">Kokoyo</Noun> deck. The backgrounds are a metallic gold colour, which doesn’t show up well here.
+            The 5 Bright cards of the Cochae <Noun lang="ja-Latn">Kokoyo</Noun> deck (2019). The backgrounds are a metallic gold colour, which doesn’t show up well here.
+          </ArticleImage>
+        </section>
+        <section id="junior">
+          <h3><a href="https://www.junior.cards/">Junior Cards</a> (2019—)</h3>
+          <p>Junior Cards have produced a ground-up redesign of Hanafuda into a poker format deck, printed by <abbr title="the United States Playing Card Company">USPCC</abbr>. The different kinds of cards have different backgrounds and all are identified by suit marker indices, which helps to clarify the cards for new players.</p>
+          <ArticleImage
+            src={imgJuniorBrights}
+            alt="TODO">
+            The 5 Bright cards of the Junior <Noun lang="ja-Latn">Hanafuda</Noun> deck (2019).
+          </ArticleImage>
+          <p>To fill out the full 54 cards of a standard poker deck, there are an additional 6 ‘bamboo’ cards including an additional <Noun lang="ja-Latn">Fuji</Noun> Bright and second Oni card:</p>
+          <ArticleImage
+            src={imgJuniorBamboo}
+            alt="TODO">
+            The additional ‘Bamboo’ suit of the Junior <Noun lang="ja-Latn">Hanafuda</Noun> deck.
           </ArticleImage>
         </section>
         <h2>Past Manufacturers</h2>
         <p>These are manufacturers that do not exist any more.</p>
         <section id="matsui-tengudo">
           <h3><Noun lang="ja-Latn">Matsui Tengu-dō</Noun> (<span lang="ja">松井天狗堂</span>)</h3>
-          <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> appears to have been the last Japanese manufacturer making cards entirely by hand.{cite(SalterJapanese)} It was founded in <Noun lang="ja-Latn">Kyōto</Noun> in 1897 by <Noun lang="ja-Latn">Matsui Shigejiro</Noun> (<span lang="ja">松井重次郎</span>), and was run by the <Noun lang="ja-Latn">Matsui</Noun> family for three generations until it closed in 2010 after <Noun lang="ja-Latn">Matsui Shigeo</Noun> (<span lang="ja">松井重夫</span>) retired.{cite(IwanoMatsui)} Since closing their decks now fetch high prices on Yahoo! Auctions, often selling for several hundred US dollars.</p>
+          <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> appears to have been the last Japanese manufacturer making cards entirely by hand.{cite(SalterJapanese)} It was founded in <Noun lang="ja-Latn">Kyōto</Noun> in 1897 by <Noun lang="ja-Latn">Matsui Shigejiro</Noun> (<span lang="ja">松井重次郎</span>), and was run by the <Noun lang="ja-Latn">Matsui</Noun> family for three generations until it closed in 2010 after <Noun lang="ja-Latn">Matsui Shigeo</Noun> (<span lang="ja">松井重夫</span>) retired.{cite(IwanoMatsui)} Since closing, their decks now fetch high prices on Yahoo! Auctions, often selling for several hundred US dollars.</p>
           <ArticleImage
             src={imgMatsuiBrights}
             alt="TODO">
             The 5 Bright cards from a deck produced by <Noun lang="ja-Latn">Matsui Tengudō</Noun> to demonstrate their printing technique (1978).
           </ArticleImage>
         </section>
+        <section id="ace">
+          <h3>Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>)</h3>
+          <p>Ace was based in <Noun lang="ja-Latn">Kyōto</Noun>. Their brands included <span lang="ja">大公爵</span> ‘grand duke’.</p>
+          <ArticleImage
+            position="small"
+            src={imgAce}
+            alt="A Hanafuda wrapper with the image of a European nobleman on the front.">
+            Packaging of Ace’s <Noun lang="ja-Latn">Dai Kōshaku</Noun> brand.
+          </ArticleImage>
+        </section>
+        <section>
+          <h3><Noun lang="ja-Latn">Maruē</Noun> (<span lang="ja">マルエー</span>)</h3>
+          <p><Noun lang="ja-Latn">Maruē</Noun> was from the city of <Noun lang="ja-Latn">Mino</Noun>, in <Noun lang="ja-Latn">Gifu</Noun> prefecture. Their manufacturer’s mark was a circled <span lang="ja">英</span> (<span lang="ja-Latn">ē</span>), i.e. <span lang="ja-Latn">maru-ē</span>. However, <span lang="ja">英</span> has the meaning of ‘flower’ and can also be read with the same pronunciation as <span lang="ja">花</span> <span lang="ja-Latn">hana</span>, making this mark very punny.</p>
+          <ArticleImage
+            position="small"
+            src={imgMarue}
+            alt="A Hanafuda wrapper with an image of cherry blossoms on the front.">
+            Packaging by <Noun lang="ja-Latn">Maruē</Noun> (1970s).
+          </ArticleImage>
+        </section>
         <h3>Other past manufacturers</h3>
-        <p>The information here is mostly taken from {cite(ModernJapaneseWrappers, undefined, {inline: true})}.</p>
-        <ArticleImage
-          position="small"
-          src={[
-            [imgMarue, "A Hanafuda wrapper with an image of cherry blossoms on the front."],
-            [imgAce, "A Hanafuda wrapper with the image of a European nobleman on the front."]
-          ]}>
-          Packaging by <Noun lang="ja-Latn">Maruē</Noun> (1970s), and Ace.
-        </ArticleImage>
+        <p>I have very little information about these manufacturers other than that they existed. The information here is mostly taken from {cite(ModernJapaneseWrappers, undefined, {inline: true})}.</p>
         <ul>
-        <li>Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>), Kyōto. Brands include <span lang="ja">大公爵</span> ‘grand duke’.</li>
-        <li>Dai Nippon, Yōkaichi, Shiga Ken</li>
         <li>Heibon (<span lang="ja">平凡</span>), Tōkyō {/*<!--
         https://www.ebay.com/itm/Heibon-Playing-Cards-Vintage-New-Old-Stock-Hanafuda-Kintoki-Zakura-Red-/271168560044
         -->*/}</li>
@@ -277,14 +305,13 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         <li>Kawakita (cards made by Yamashiro)</li>
         <li>Kohara, Ōsaka</li>
         <li>Kyōto Karuta, Kyōto</li>
-        <li><Noun lang="ja-Latn">Maruē</Noun> (<span lang="ja">マルエー</span>), Minoshi, Gifu Ken. <Noun lang="ja-Latn">Maruē</Noun>’s manufacturer’s mark is a circled <span lang="ja">英</span> (<span lang="ja-Latn">ē</span>), i.e. <span lang="ja-Latn">maru-ē</span>. However, <span lang="ja">英</span> has the meaning of ‘flower’ and can also be read with the same pronunciation as <span lang="ja">花</span> <span lang="ja-Latn">hana</span>, making this mark very punny.</li>
-        <li>Matsui Tengudō, Kyōto</li>
+        <li>Dai Nippon, Yōkaichi (now part of Higashiōmi), Shiga prefucture</li>
         <li>Nihon Karuta Seizō, Kyōto</li>
-        <li><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>), Tōkyō (1946). No longer appears to produce <Noun lang="ja-Latn">hanafuda</Noun> cards, specializes in tarot.</li>
+        <li><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>), Tōkyō (1946). Still exists but no longer appears to produce <Noun lang="ja-Latn">Hanafuda</Noun> cards, specializes in tarot.</li>
         <li>Nishimura, Tōkyō</li>
-        <li>Tanaka Gyokusuidō</li>
-        <li>Universal, Ōsaka</li>
-        <li>Yamashiro</li>
+        <li>Tanaka Gyokusuidō, Kyōto</li>
+        <li>Universal, Ōsaka. At one time Universal produced cards (such as the Hana-Trump deck) for Nintendo.</li>
+        <li>Yamashiro Shōten, Kyōto</li>
         </ul>
         </section>
     );
