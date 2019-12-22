@@ -18,7 +18,6 @@ import imgNishikiBrights from './Nishiki_Brights.jpg';
 import imgAngelJokers from './Angel_Jokers.jpg';
 import imgMatsuiBrights from './Matsui_Brights.jpg';
 import imgMarioBrights from './Nintendo_Mario_Brights.jpg';
-import { monitorEventLoopDelay } from 'perf_hooks';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (
