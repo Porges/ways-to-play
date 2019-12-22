@@ -221,7 +221,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <section id="modern-novelty-decks">
     <h3>Modern/Novelty decks</h3>
     <p>In addition to the traditional standard patterns, there are also many modern revisions or novelty decks that
-    can be found. More information and examples of these can be found in the <Link to="/articles/japan/hanafuda/manufacturers">article about <Noun
+    can be found. More information and examples of these can be found in the <Link to="/articles/japan/hanafuda/traditional-manufacturers">article about <Noun
     lang="ja-Latn">Hanafuda</Noun> manufacturers</Link>.</p>
     </section>
     </section>
