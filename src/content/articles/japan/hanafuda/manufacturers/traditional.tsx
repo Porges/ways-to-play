@@ -18,6 +18,7 @@ import imgNishikiBrights from './Nishiki_Brights.jpg';
 import imgAngelJokers from './Angel_Jokers.jpg';
 import imgMatsuiBrights from './Matsui_Brights.jpg';
 import imgMarioBrights from './Nintendo_Mario_Brights.jpg';
+import imgOishiMark from './Oishi_Mark.jpg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (
@@ -83,7 +84,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         <section id="oishi-tengudo">
           <h3><a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</h3>
           <p>Also based in <Noun lang="ja-Latn">Kyōto</Noun>, <Noun lang="ja-Latn">Ōishi Tengudō</Noun> produces a wide variety of traditional Japanese card games. As far as I know, they are the only major manufacturer still producing <Noun lang="ja-Latn">Mefuda</Noun> cards. They also produce reproductions of even older cards, such as the <Noun lang="ja-Latn">Unsun</Noun> deck.</p>
-          <p>Brands produced by <Noun lang="ja-Latn">Ōishi Tengudō</Noun> in the past included:{cite(ModernJapaneseWrappers, [[57, 58]])}</p>
+          <p>Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top, but on some decks (e.g. <Noun lang="ja-Latn">Echigo-kobana</Noun>), they have used <span lang="ja">大</span> in a square. Brands produced by <Noun lang="ja-Latn">Ōishi Tengudō</Noun> in the past included:{cite(ModernJapaneseWrappers, [[57, 58]])}</p>
           <ul>
             <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kin tengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabu</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
             <li><span lang="ja">銀天狗</span> (<span lang="ja-Latn">gin tengu</span>, ‘silver <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
@@ -94,11 +95,20 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">四季</span> (<span lang="ja-Latn">shiki</span>, ‘four seasons’)</li>
             <li><span lang="ja">大江山</span> (<span lang="ja-Latn">ōeyama</span>, <a href="https://en.wikipedia.org/wiki/%C5%8Ceyama">a mountain near <Noun lang="ja-Latn">Kyōto</Noun></a>)</li>
           </ul>
+          <div className="multi">
           <ArticleImage
+            position="small"
             src={imgOishiTengudo}
             alt="The front of a wooden Hanafuda box with a pasted-on image of a Tengu mask.">
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <Noun lang="ja-Latn">Kin Tengu</Noun> decks come in Paulownia-wood boxes.
           </ArticleImage>
+          <ArticleImage
+            position="small"
+            src={imgOishiMark}
+            alt="A card with wistera showing the manufacturer’s mark.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s manufacturer’s mark, on a Wisteria card from an old <Noun lang="ja-Latn">Narikin</Noun> deck.
+          </ArticleImage>
+          </div>
           <p>In addition to the many standard & local patterns of <Noun lang="ja-Latn">Hanafuda</Noun> they produce, they also publish some novelty decks, such as the <b><Noun lang="ja-Latn">Kyōto Hanafuda</Noun></b>:</p>
           <ArticleImage
             src={imgKyoHana}
@@ -140,7 +150,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             src={imgShogundo}>
             <Noun lang="ja-Latn">Tamura Shōgun-dō</Noun>’s <span lang="ja-Latn">Kyō maiko</span> brand.
           </ArticleImage>
-          <p>A small manufacturer (founded in either 1921 or 1963?). They produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
+          <p>A small manufacturer (founded in either 1921 or 1963?). Their manufacturer’s mark is a snowflake-like shape, not a standard <span lang="ja-Latn">kanji</span> with shape, and they have also published <Noun lang="ja-Latn">Harifuda</Noun> and <Noun lang="ja-Latn">Shirofuda</Noun> (blank cards) under the mark ㊀ (circled <span lang="ja">一</span>). They currently produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
           <p>Most of <Noun lang="ja-Latn">Tamura Shōgun-dō</Noun>’s cards are produced with hand-wrapped backing paper; they have <a href="http://www5f.biglobe.ne.jp/~karutaya/brand.html">another web page that details their manufacturing process</a>.</p>
           <p><Noun lang="ja-Latn">Tamura</Noun> manufactures two types of <Noun lang="ja-Latn">Hanafuda</Noun> cards; firstly the standard pattern, with brands (these have been maintained since the 1970s):{cite(ModernJapaneseWrappers, [39])}</p>
           <ul>
