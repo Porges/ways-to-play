@@ -234,7 +234,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,{cite(Yamaguchi, [102])} but had stopped producing in the early 1960s.{cite(ModernJapaneseWrappers, [33])} Their manufacturer’s mark was <span lang="ja">田</span> with corner on top. The brand <Noun lang="ja-Latn">Fukusuke</Noun> and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>.{cite(ModernJapaneseWrappers, [59])}</p>
         </section>
         <section id="iwata-honten">
-          <h3><Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本手</span>)</h3>
+          <h3><Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</h3>
           <p><Noun lang="ja-Latn">Iwata</Noun> (<Noun lang="ja-Latn">Kyōto</Noun>) had its own brands but the cards were made by <Noun lang="ja-Latn">Tamura Shōgun-dō</Noun>. Brands included:{cite(ModernJapaneseWrappers, [48])}</p>
           <ul>
             <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
