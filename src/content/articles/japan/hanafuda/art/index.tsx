@@ -21,6 +21,9 @@ import imgJapanvsKorea from "./Japan_vs_Korean_man.jpg";
 import imgKoreanTanzaku from './Korean_tanzaku.jpg';
 import imgKoreanMagpie from './Magpie_vs_Hototogisu.jpg';
 import img5Brights from '../5_brights.jpg';
+import imgEchigoKobanaBrights from './Echigo_Kobana_Brights.jpg';
+import imgEchigoKobanaExtra from './Echigo_Kobana_Extras.jpg';
+import imgKintoki from './KintoBana_Kintoki.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.svg';
 import imgHanafuda1_2 from '../Hanafuda_1-2.svg';
@@ -172,7 +175,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
     <section id="patterns">
     <h2>Card Patterns</h2>
     <section id="standard">
-    <h3>Standard</h3>
+    <h3>Standard (<Noun lang="ja-Latn">Hachihachi-bana</Noun>)</h3>
     <p>The standard pattern is now one that is called <Pronunciation src={pronHachihachibana} lang="ja-Latn">hachi­hachi-­bana</Pronunciation> (<span lang="ja">八八花</span>/<span lang="ja">八々花</span>), since it was primarily used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images from it are used to show the cards of each month below.</p>
     <ArticleImage position="small" src={img5Brights} alt="TODO">The 5 Bright cards of the <span lang="ja-Latn">hachihachi-bana</span> pattern, from a <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
     <h4>Korean deck differences</h4>
@@ -207,6 +210,22 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
         </ArticleImage>
         <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronunciation src={pronTanka} lang="ja-Latn" >tanka</Pronunciation>). Poetry is a common sight on traditional Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints above — and often provides more context to the images. The poems of the <span lang="ja-Latn">Echigo-bana</span> will be explained below.</p>
     </section>
+    <section id="echigo-bana">
+        <h3><Noun lang="ja-Latn">Echigo-kobana</Noun></h3>
+        <p>The <span lang="ja-Latn">Echigo-kobana</span> (<span lang="ja">越後小花</span> ‘Echigo small flowers’) pattern is similar to the <Noun lang="ja-Latn">Echigo-bana</Noun>, but with very small cards measuring approximately 3&nbsp;cm × 4.5&nbsp;cm (1⅛″ × 1¾″).</p>
+        <ArticleImage
+            src={imgEchigoKobanaBrights}
+            alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details.">
+            The 5 Brights of the <span lang="ja-Latn">Echigo-kobana</span> pattern, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
+        </ArticleImage>
+        <p>Because of the small size, there are no poems on this deck. However, it does contain four extra cards. Any special rules for the deck, including the use of these extra cards, are unknown — <Noun lang="ja-Latn">Ōishi Tengudō</Noun> even includes a note with every deck sold asking for anyone who knows the rules to contact them!</p>
+        <ArticleImage
+            position="small"
+            src={imgEchigoKobanaExtra}
+            alt="Four hanafuda cards, one with a picture of a Tengu and manfacturer’s name, the rest with a stylized depection of a spearman.">
+            The four extra cards of an <span lang="ja-Latn">Echigo-kobana</span> deck by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
+        </ArticleImage>
+    </section>
     <section id="awabanakintokibana">
         <h3><Noun lang="ja-Latn">Awa-­bana</Noun>/<Noun lang="ja-Latn">Kintoki­-bana</Noun></h3>
         <p>This is another regional pattern called <span lang="ja-Latn">Awa­-bana</span> (<span lang="ja">阿波花</span>) or <span lang="ja-Latn">Kintoki­-bana</span> (<span lang="ja">金時花</span>). It originated in <Noun
@@ -217,11 +236,18 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite}) => {
             alt="Five hanafuda cards with bright colours and overpainted with silver.">
             The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
         </ArticleImage>
+        <p>The deck also contains an extra card which features the titular <Noun lang="ja-Latn">Kintoki</Noun>, <a href="https://en.wikipedia.org/wiki/Kintar%C5%8D">a legendary strong-boy also known as <Noun lang="ja-Latn">Kintarō</Noun></a>.</p>
+        <ArticleImage
+            position="small"
+            src={imgKintoki}
+            alt="A Hanafuda card depicting a red boy carrying an axe, and wearing a shirt with the character for ‘gold’ on it.">
+            The <Noun lang="ja-Latn">Kintoki</Noun> card, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>. He is depicted carrying an axe and wearing a shirt with the character <span lang="ja">金</span> (<span lang="ja-Latn">kin</span>, ‘gold’) on it.
+        </ArticleImage>
     </section>
     <section id="modern-novelty-decks">
     <h3>Modern/Novelty decks</h3>
     <p>In addition to the traditional standard patterns, there are also many modern revisions or novelty decks that
-    can be found. More information and examples of these can be found in the <Link to="/articles/japan/hanafuda/traditional-manufacturers">article about <Noun
+    can be found. More information and examples of these can be found in the <Link to="/articles/japan/hanafuda/new-manufacturers">article about new <Noun
     lang="ja-Latn">Hanafuda</Noun> manufacturers</Link>.</p>
     </section>
     </section>

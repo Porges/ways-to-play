@@ -23,8 +23,8 @@ import imgOishiMark from './Oishi_Mark.jpg';
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (
         <section id="manufacturers">
-        <h3>Packaging</h3>
-        <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the brand (indicated by the artwork on the box or wrapper) indicates the quality of the cards, and the <em>type</em> of cards is written on the end. So a box of Nintendo cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
+        <h2>Identification</h2>
+        <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the front of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the end of the container. So a box of Nintendo cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
         <ArticleImage
             position="small"
             src={imgNintendoEnd}
