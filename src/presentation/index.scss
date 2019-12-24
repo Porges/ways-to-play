@@ -71,16 +71,20 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-h2::before { 
-    font-family: serif;
-    font-weight: 100;
-    content: "― " 
-}
+@include media-breakpoint-up(sm) {
+    // decorate headers on larger screens
 
-h2::after {
-    font-family: serif;
-    font-weight: 100;
-    content: " ―";
+    h2::before { 
+        font-family: serif;
+        font-weight: 100;
+        content: "― " 
+    }
+
+    h2::after {
+        font-family: serif;
+        font-weight: 100;
+        content: " ―";
+    }
 }
 
 .navbar {
@@ -98,14 +102,13 @@ h2::after {
 main {
     flex: 1;
     margin-top: 50px;
-    text-align: justify;
     hyphens: auto;
     overflow-wrap: break-word;
     padding-bottom: 3em;
 }
 
-ul {
-    text-align: start;
+p {
+    text-align: justify;
 }
 
 section {
