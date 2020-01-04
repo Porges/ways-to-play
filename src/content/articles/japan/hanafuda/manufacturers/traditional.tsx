@@ -281,7 +281,12 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </section>
         <section id="ryutendo">
           <h3><Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</h3>
-          <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">龍</span>.</p>
+          <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">龍</span> (they also possibly had another trade name of <span lang="ja">マルナ</span> with circled <span lang="ja">名</span> as mark). Brands included:</p>
+          <ul>
+            <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsuta gawa</span> ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’)</li>
+            <li><span lang="ja">天龍</span> (<span lang="ja-Latn">tenryū</span> ‘<Noun lang="ja-Latn">Tenryū</Noun>’)</li>
+            <li><span lang="ja">龍王</span> (<span lang="ja-Latn">ryūō</span> ‘dragon king’)</li>
+          </ul>
         </section>
         <section id="inoue">
           <h3><Noun lang="ja-Latn">Inoue Juntendō</Noun> (<span lang="ja">井上順天堂</span>)</h3>

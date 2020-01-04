@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 import { ArticleImage, Footnote, Noun, ArticleContentProps } from 'ui';
 
@@ -14,7 +15,7 @@ import imgLargeMerelsWithFullDiagonals from "./large_merels_with_full_diagonals.
 
 const Morabaraba: React.FC<ArticleContentProps> = ({cite}) => (
     <>
-        <p><Noun lang="st">Morabaraba</Noun> is a <a href="/families/mill-games.html">mill game</a> from south-eastern Africa. The gameplay of the standardized version is very similar to <a href="/games/twelve-mens-morris.html" className="game-title">Twelve Men’s Morris</a> (with a few minor differences), but the version played in Lesotho has a unique board.</p>
+        <p><Noun lang="st">Morabaraba</Noun> is a <Link to="/articles/mill-games">mill game</Link> from south-eastern Africa. The gameplay of the standardized version is very similar to <Link to="/games/twelve-mens-morris" className="game-title">Twelve Men’s Morris</Link> (with a few minor differences), but the version played in Lesotho has a unique board.</p>
         <ArticleImage
             src={imgKliptown}
             alt="A well-used morabaraba board with two different types of bottle caps for pieces."

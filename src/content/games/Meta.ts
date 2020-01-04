@@ -7,6 +7,13 @@ export type GameMeta = Readonly<{
 } & ArticleContent>
 
 const games = {
+    kakkuri: {
+        title: "Kakkuri",
+        titleLang: "ja-Latn",
+        players: [2,3,4,5,6,7,8],
+        import: React.lazy(() => import(/* webpackChunkName: 'kakkuri' */ './Kakkuri'))
+
+    },
     morabaraba: {
         title: "Morabaraba",
         titleLang: "st",

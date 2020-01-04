@@ -40,10 +40,12 @@ const GamesList: React.FC<GamesListProps> = ({location, match}) => {
             </ul>
         </Col>
         <Col>
+        {/*
             <h3>By country</h3>
             <ul>
                 <li>New Zealand</li>
             </ul>
+        */}
         </Col>
         </Row>
         <hr/>

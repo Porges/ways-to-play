@@ -3521,5 +3521,15 @@
             "year": 1998
         },
         "publisher": "帝国コンサルタント社友会科学文化部出版局"
+    },
+    "KakkuriYomi": {
+        "id": "KakkuriYomi",
+        "type": "article-journal",
+        "title": "<span lang='ja-Latn'>Kakkuri</span>: The Last <span lang='ja-Latn'>Yomi</span> Game of Japan",
+        "author": [{"given": "Kimihiko", "family": "Kuromiya"}],
+        "issued": { "year": 2005 },
+        "container-title": "Journal of the International Playing-Card Society",
+        "volume": 33,
+        "issue": 4
     }
 }
