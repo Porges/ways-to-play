@@ -31,7 +31,7 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     <p>As in other Japanese games, all actions (dealing and playing) are performed in an anti-clockwise direction.</p>
     <p>The game is usually played for money: a stake should be decided between the players, and all payments are made in multiples of this stake (1×, 2×, 3×). Otherwise, these can be counted as points.</p>
     <p>Deal 6 cards to each player in groups of 3. The remaining cards are set in a stack face-down in the middle of the table; this is called the ‘box’ (<span lang="ja">箱</span> {pronounce("poyotan", "hako", "ja-Latn", pronHako)}).</p>
-    <p>If there are 8 people playing, then there will be no cards leftover to form the box; instead, whoever received the <Cards>3</Cards> of <span lang="ja-Latn">pao</span> (or use <Cards>3c</Cards> with standard deck) drops out and their hand is shuffled to become the box.</p>
+    <p>If there are 8 people playing, then there will be no cards leftover to form the box; instead, whoever received the <Cards>3</Cards> of <span lang="ja-Latn">pao</span> (or <Cards>3c</Cards> with standard deck) drops out and their hand is shuffled to become the box.</p>
     <ArticleImage
       position="small"
       src={img3pao}
@@ -51,9 +51,13 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
   <section id="play">
     <h2>Play</h2>
     <p>To start play, the dealer turns up the top card of the box, which will count as the first card played. The dealer then takes the first turn.</p>
-    <p>On a player’s turn they must play a card one rank higher than the last card played (e.g. if the last card is a <Cards>3</Cards>, you can only play a <Cards>4</Cards>). Suits do not matter, and cards are played on the table in front of the person playing them, rather than in the middle of the table.</p>
-    <p>Alternatively, they can pass. Passing is ‘soft’ and doesn’t prevent you from playing again later in the round.</p>
-    <p>As long as they haven’t played any cards yet, a player can drop out on their turn by paying 1× to the pot.</p>
+    <p>On a player’s turn they must play a card one rank higher than the last card played (e.g. if the last card is a <Cards>3</Cards>, you can only play a <Cards>4</Cards>). However, a <Cards>1</Cards> can be played after a <Cards>1</Cards>, and a <Cards>2</Cards> can be played after a <Cards>2</Cards>. When the last card played is a <Cards>12</Cards> <span lang="ja-Latn">kiri </span>(or <Cards>K</Cards>), then any rank can be played next. Suits do not matter, and cards are played on the table in front of the person playing them, rather than in the middle of the table.</p>
+    <p>There are two other special cases that allow more than one card of the same rank to be played:</p>
+    <ul>
+      <li>If a player has three cards of the same rank they can play all of them together. Four cannot be played together, but you can play three out of a set of four.</li>
+      <li>If a player’s hand consists of three pairs, then any time before they play their first card they can declare ‘three pairs’ (<span lang="ja">三足</span> {pronounce("usako_usagiclub", "sansoku", "ja-Latn", pronSansoku)}). After that they can (and must) play their cards in pairs.</li>
+    </ul>
+    <p>A player can keep playing cards until they run out of valid moves, so if they have several cards in sequence they can play them all.</p>
     <p>The <Cards>1</Cards> of <span lang="ja-Latn">pao</span> (<Cards>Ac</Cards>) and <Cards>2</Cards> of <span lang="ja-Latn">ouro</span> (<Cards>2d</Cards>) are wild and can be played as any other card. If turned up from the box they count as a normal <Cards>1</Cards> &amp; <Cards>2</Cards>.</p>
     <ArticleImage
       position="small"
@@ -61,15 +65,9 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
       alt="">
       The wild cards: <Cards>1</Cards> of <span lang="ja-Latn">pao</span> and <Cards>2</Cards> of <span lang="ja-Latn">ouro</span>.
     </ArticleImage>
-    <p>A player can keep playing cards until they run out of valid moves, so if they have several cards in sequence they can play them all.</p>
-    <p>It is not permitted to play more than one card of the same rank, except:</p>
-    <ul>
-      <li>You can play as many <Cards>1</Cards>s or <Cards>2</Cards>s as you like. You can also play a <Cards>1</Cards> on a <Cards>1</Cards> or a <Cards>2</Cards> on a <Cards>2</Cards>.</li>
-      <li>If you have three cards of the same rank you can play all of them together. You cannot play two or four of the same rank, but you can play three out of a set of four.</li>
-      <li>If you hand consists of 3 pairs, then any time before you play your first card you can declare ‘three pairs’ (<span lang="ja">三足</span> {pronounce("usako_usagiclub", "sansoku", "ja-Latn", pronSansoku)}). After that you can (and must) play your cards in pairs.</li>
-    </ul>
-    <p>When the last card played is a <Cards>12</Cards> <span lang="ja-Latn">kiri </span>(or <Cards>K</Cards>), then any rank can be played next.</p>
-    <p>After all players pass in a row, the last player can either take another turn, or turn up a new card from the box before taking another turn.</p>
+    <p>Once a player has finished their turn, they say ‘pass’ and it is the next player’s turn. Passing is ‘soft’ and doesn’t prevent a player from playing again later in the round.</p>
+    <p>As long as they haven’t played any cards yet, a player can drop out on their turn by paying 1× to the pot.</p>
+    <p>After all players pass in a row without playing, the last player can either take another turn, or turn up a new card from the box before taking another turn.</p>
     <p>The first player to get rid of all their cards wins and all other players (who did not drop out) must pay 1× to the pot, which the winner takes. If a player wins by playing all their cards in one go, then everyone else must pay 2× instead; this is called <span lang="ja">グリ</span> <span lang="ja-Latn">guri</span>. Note that you can still claim <span lang="ja-Latn">guri</span> if you have had previous turns but did not play any cards, so if you see someone passing a lot without playing any cards, be careful!</p>
     <p>The winner becomes the dealer for the next game.</p>
   </section>
