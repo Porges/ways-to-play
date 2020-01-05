@@ -40,7 +40,7 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
       The 3 of <span lang="ja-Latn">pao</span>, also known as <span lang="ja">黒火箸</span> <span lang="ja-Latn">kuro-hibashi</span> ‘black fire tongs’.
       </ArticleImage>
     <p>Before looking at their cards, each player in turn can exchange their hand with the dealer’s hand. This can happen multiple times so that players can end up with the hands of previous players if multiple players swapped.</p>
-    <p>Next, the players look at their cards. If any player has been dealt the non-red <Cards>1</Cards>s of <span lang="ja-Latn">isu</span>, <span lang="ja-Latn">ouro</span>, and <span lang="ja-Latn">kotsu</span> (or <Cards>AsAdAh</Cards> if playing with standard playing cards), then they win instantly and are paid 3× by each other player. This is called <span lang="ja">打たず</span> (<span lang="ja-Latn">utazu</span>, “without playing”).</p>
+    <p>Next, the players look at their cards. If any player has been dealt the non-red <Cards>1</Cards>s of <span lang="ja-Latn">isu</span>, <span lang="ja-Latn">ouro</span>, and <span lang="ja-Latn">kotsu</span> (or <Cards>AsAdAh</Cards> if playing with standard playing cards), then they win instantly and are paid 3× by each other player. This is called <span lang="ja">ウタズ</span> (from <span lang="ja">打たず</span> <span lang="ja-Latn">utazu</span>, “without playing”).</p>
     <ArticleImage
       position="small"
       src={imgUtazu}
