@@ -39,14 +39,20 @@ span[lang|=zu] /* isiZulu */
 span.proper-noun, span.game-title {
    font-style: inherit 
 }
+
+/* We are going to be embedding Japanese and Chinese in Latin text,
+  so make them proportional. This has better spacing for kana etc. */
+*[lang=ja], *[lang=zh] {
+  font-feature-settings: "pwid"
+}
  
 /* Work titles in non-Latin languages: */
 cite:lang(zh) { font-style: inherit }
-cite:lang(zh)::before { content: '《' }
-cite:lang(zh)::after { content: '》' }
+cite:lang(zh)::before { content: '《'; font-feature-settings: "palt" }
+cite:lang(zh)::after { content: '》'; font-feature-settings: "palt" }
 cite:lang(ja) { font-style: inherit } 
-cite:lang(ja)::before { content: '『' }
-cite:lang(ja)::after { content: '』' }
+cite:lang(ja)::before { content: '『'; font-feature-settings: "palt" }
+cite:lang(ja)::after { content: '』'; font-feature-settings: "palt" }
 
 cite:lang(zh-Latn) { font-style: italic }
 cite:lang(zh-Latn)::before { content: '' }
@@ -58,7 +64,6 @@ cite:lang(ja-Latn)::after { content: '' }
 /* Deuce font for playing-card numerals */
 .playing-cards {
   font-family: "Numbers Deuce A", "Numbers Deuce B";
-  font-feature-settings: "salt" "ss10" "ss11";
 }
 
 .playing-cards .red {
