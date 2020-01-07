@@ -26,6 +26,7 @@ export type ArticleContentProps = {
         word: string,
         lang: string,
         file: string,
+        noun?: boolean,
         ) => React.ReactNode;
 }
 
@@ -54,7 +55,7 @@ export const Article : React.FC<Props> = ({url, content, infoBox}) => {
         //    window.scrollTo(0, 0);
     }, [url]);
 
-    const pronunciation = (pronouncer: string, word: string, lang: string, file: string) => {
+    const pronunciation = (pronouncer: string, word: string, lang: string, file: string, noun: boolean = false) => {
         let index = state.pronunciation.findIndex(x => x.word === word);
         if (index === -1) {
             index = state.pronunciation.length;
@@ -65,7 +66,7 @@ export const Article : React.FC<Props> = ({url, content, infoBox}) => {
             })
         }
 
-        return <Pronunciation src={file} lang={lang}>{word}</Pronunciation>;
+        return <Pronunciation src={file} lang={lang} noun={noun}>{word}</Pronunciation>;
     };
 
     const cite = (ref: Reference, pages?: (number|[number, number])[], options?: { inline?: boolean, page?: string }) => {

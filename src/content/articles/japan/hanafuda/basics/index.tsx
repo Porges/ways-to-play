@@ -85,7 +85,7 @@ import { ModernKoreanCards } from 'References/bibliography.json';
 
 const Basics: React.FC<ArticleContentProps> = ({ cite }) => {
   return (<>
-    <p><Noun><Pronunciation lang="ja-Latn" src={pronHanafuda}>Hanafuda</Pronunciation></Noun> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronunciation lang="ko-Latn" src={pronHwatu}>hwatu</Pronunciation> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
+    <p><Pronunciation lang="ja-Latn" src={pronHanafuda} noun={true}>Hanafuda</Pronunciation> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronunciation lang="ko-Latn" src={pronHwatu}>hwatu</Pronunciation> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
     <ArticleImage
       position="wide"
       src={img1620}

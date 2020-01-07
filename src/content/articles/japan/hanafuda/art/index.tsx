@@ -117,6 +117,8 @@ import pronHoo from '../pronunciation_ja_鳳凰.mp3';
 import pronShigure from '../pronunciation_ja_時雨.mp3';
 import pronNegi from '../pronunciation_ja_葱.mp3';
 import pronTsukimi from '../pronunciation_ja_月見.mp3';
+import pronManyoshu from './pronunciation_ja_万葉集.mp3'
+
 import { Link } from 'react-router-dom';
 
 const svgSourceInfo: SourceInfo = {
@@ -279,7 +281,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     <Footnote>
         <p><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<abbr title="died">d.</abbr> 983) was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</p>
     </Footnote>
-    <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the <Noun>{pronounce("skent", "Kokin Wakashū", "ja-Latn", pronKokinWakashu)}</Noun> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
+    <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the {pronounce("skent", "Kokin Wakashū", "ja-Latn", pronKokinWakashu, true)} (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
     <Footnote>
         <p>{cite(PoemsOfTheEchigobana, [4], {inline: true})} notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
     </Footnote>
@@ -304,7 +306,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
         ]}>
         The cards for February feature plum trees in blossom. There is one species card, one scroll card (with text), and two junk cards. The text on the scroll is the same as that on January’s.
     </ArticleImage>
-    <p>The bush warbler/plum blossom combination has been associated with the arrival of spring since early times, dating at least from the <Noun lang="ja-Latn">Man’yōshū</Noun> (<span lang="ja">万葉集</span> ‘Collection of Ten Thousand Leaves’), a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759.{cite(FourSeasons, [978], {page: 'loc.'})} At this time, the plum blossom was the favourite flower; cherry blossoms would only become more favoured during the Heian period.{cite(FourSeasons, [997], {page: 'loc.'})}</p>
+    <p>The bush warbler/plum blossom combination has been associated with the arrival of spring since early times, dating at least from the {pronounce("monekuson", "Man’yōshū", "ja-Latn", pronManyoshu, true)}  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’), a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759.{cite(FourSeasons, [978], {page: 'loc.'})} At this time, the plum blossom was the favourite flower; cherry blossoms would only become more favoured during the Heian period.{cite(FourSeasons, [997], {page: 'loc.'})}</p>
     <p>The bush warbler was famed for its song, as shown by this poem from <Noun lang="ja-Latn">Ōe no Chisato</Noun> (<span lang="ja">大江千里</span>), composed during a competition in the <Noun lang="ja-Latn">Kanpyō</Noun> era (889–898). The first cry of the bush warbler was considered to announce the beginning of spring:</p>
     <Footnote>This is Poem 14 from the ‘Spring 1’ section of the <Noun lang="ja-Latn">Kokinshū</Noun>.</Footnote>
     <div className="multi">
