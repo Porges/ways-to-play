@@ -238,6 +238,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kin ryū</span>, ‘gold dragon’)</li>
             <li><span lang="ja">銀龍</span> (<span lang="ja-Latn">gin ryū</span>, ‘silver dragon’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">goten sakura</span>, ‘palace cherry blossoms’)</li>
+            <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yoru sakura</span> ‘evening cherry blossoms’)</li>
           </ul>
         </section>
         <section id="tanaka-gyokusuido">
