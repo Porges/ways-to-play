@@ -60,6 +60,12 @@ cite:lang(zh-Latn)::after { content: '' }
 cite:lang(ja-Latn) { font-style: italic }
 cite:lang(ja-Latn)::before { content: '' }
 cite:lang(ja-Latn)::after { content: '' }
+
+/* Fingers crossed these are the same across all fonts.
+   These are correct on Yu Mincho and Kozuka Mincho, at least.
+ */
+.circled { font-feature-settings: "nalt" 2 }
+.squared { font-feature-settings: "nalt" 4 }
    
 /* Deuce font for playing-card numerals */
 .playing-cards {

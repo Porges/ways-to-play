@@ -61,6 +61,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">朝日桜</span> (<span lang="ja-Latn">asahi sakura</span>, ‘sunrise cherry blossoms’)</li>
             <li><span lang="ja">三羽鶴</span> (<span lang="ja-Latn">san-ba tsuru</span>, ‘three cranes’), not in use as of 1980</li>
             <li><span lang="ja">大天狗</span> (<span lang="ja-Latn">dai tengu</span>, ‘chief <Noun lang="ja-Latn">Tengu</Noun>’), introduced in 1977</li>
+            <li><span lang="ja">千代桜</span> (<span lang="ja-Latn">chiyo zakura</span>, ‘thousand-year cherry blossoms’)</li>
           </ul>
           <p>One interesting deck they used to produce was <b>Hana-Trump</b>, which combined <Noun lang="ja-Latn">Hanafuda</Noun> cards with the cards of the international standard playing card deck. Each rank of the standard pack corresponds to a month of the <Noun lang="ja-Latn">Hanafuda</Noun> deck:</p>
           <ArticleImage
@@ -190,7 +191,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="TODO">
             The 5 Bright cards from a deck produced by <Noun lang="ja-Latn">Matsui Tengudō</Noun> to demonstrate their printing technique (1978).
           </ArticleImage>
-          <p><Noun lang="ja-Latn">Matsui</Noun> brands included:</p>
+          <p><Noun lang="ja-Latn">Matsui</Noun>’s mark was <span lang="ja">松</span> in a square, and brands included:</p>
           <ul>
             <li><span lang="ja">鳳凰</span> (<span lang="ja-Latn">hōō</span>, the Japanese phoenix)</li>
             <li><span lang="ja">龍虎</span> (<span lang="ja-Latn">ryū ko</span>, ‘dragon and tiger’), also used for <Noun lang="ja-Latn">Kabu</Noun>, <Noun lang="ja-Latn">Tehonbiki</Noun>, and <Noun lang="ja-Latn">Komaru</Noun> cards</li>
@@ -281,7 +282,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </section>
         <section id="ryutendo">
           <h3><Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</h3>
-          <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">龍</span> (they also possibly had another trade name of <span lang="ja">マルナ</span> with circled <span lang="ja">名</span> as mark). Brands included:</p>
+          <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">龍</span> (they also possibly had another trade name of <span lang="ja">マルナ</span> with circled <span lang="ja" className="circled">名</span> as mark). Brands included:</p>
           <ul>
             <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsuta gawa</span> ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’)</li>
             <li><span lang="ja">天龍</span> (<span lang="ja-Latn">tenryū</span> ‘<Noun lang="ja-Latn">Tenryū</Noun>’)</li>
@@ -325,7 +326,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </section>
         <section id="kohara">
           <h3><Noun lang="ja-Latn">Kohara Honten</Noun> (<span lang="ja">小原本店</span>)</h3>
-          <p><Noun lang="ja-Latn">Kohara</Noun> was a manufacturer based in <Noun lang="ja-Latn">Ōsaka</Noun> until 1980.{cite(ModernJapaneseWrappers, [48])} Their manufacturer’s mark was a circled <span lang="ja">さ</span>, and brands included:</p>
+          <p><Noun lang="ja-Latn">Kohara</Noun> was a manufacturer based in <Noun lang="ja-Latn">Ōsaka</Noun> until 1980.{cite(ModernJapaneseWrappers, [48])} Their manufacturer’s mark was a circled <span lang="ja" className="circled">さ</span>, and brands included:</p>
           <ul>
             <li><span lang="ja">鬼印</span> (<span lang="ja-Latn">oni jirushi</span>, ‘ogre brand’, also for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Harifuda</Noun>)</li>
             <li><span lang="ja">王将</span> (<span lang="ja-Latn">ōshō</span>, the king of the stronger player in <Noun lang="ja-Latn">Shōgi</Noun>, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
