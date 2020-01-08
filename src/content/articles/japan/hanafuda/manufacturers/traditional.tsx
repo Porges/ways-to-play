@@ -259,8 +259,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <ul>
             <li><span lang="ja">花の王</span> (<span lang="ja-Latn">hana no ō</span>, ‘queen of flowers’, the <a href="https://en.wikipedia.org/wiki/Cattleya">Cattleya</a>)</li>
             <li><span lang="ja">七福神</span> (<span lang="ja-Latn">shichi fukujin</span>, the <a href="https://en.wikipedia.org/wiki/Seven_Lucky_Gods">Seven Lucky Gods</a>)</li>
-            <li><span lang="ja">特性大隊長</span> (<span lang="ja-Latn">tokusei daitaichō</span>, ‘special battalion commander’)</li>
-            <li><span lang="ja">特性ふじ</span> (<span lang="ja-Latn">tokusei fuji</span>, ‘special <Noun lang="ja-Latn">Fuji</Noun>’)</li>
+            <li><span lang="ja">大隊長</span> (<span lang="ja-Latn">daitaichō</span>, ‘battalion commander’)</li>
+            <li><span lang="ja">ふじ</span> (<span lang="ja-Latn">fuji</span>, ‘<Noun lang="ja-Latn">Fuji</Noun>’)</li>
             <li><span lang="ja">四光</span> (<span lang="ja-Latn">shi kō</span>, ‘four brights’)</li>
             <li><span lang="ja">金の仲</span> (<span lang="ja-Latn">kane no naka</span>, ‘golden relationship’, a reference to the trademark pronounced <span lang="ja-Latn">kane-naka</span>)</li>
             <li><span lang="ja">百万ドル</span> (<span lang="ja-Latn">hyakuman doru</span>, ‘a million dollars’)</li>
