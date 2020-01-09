@@ -21,7 +21,7 @@ const games = {
         import: React.lazy(() => import(/* webpackChunkName: 'morabaraba' */ './Morabaraba'))
     }, 
     camelot: {
-        title: "Camelot family",
+        title: "The Camelot Group",
         players: [2, 4],
         import: React.lazy(() => import(/* webpackChunkName: 'camelot' */ './Camelot'))
     },

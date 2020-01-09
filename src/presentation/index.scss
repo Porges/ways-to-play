@@ -15,23 +15,15 @@ $font-family-serif:
     "UniHentaiKana", /* fallback for Hentaigana chars */
     "cc-icons"; /* Creative Commons Unicode characters */
 
-
+//$body-bg: #fffff8;
+//$body-color: #111;
 
 $font-family-base: $font-family-serif;
-$text-color: #000;
 
 $headings-font-family: "Archer SSm A", "Archer SSm B", serif;
 $headings-font-weight: bold;
 
 $brand-primary: #2455c3;
-
-$font-size-base: 0.9375rem;
-$h1-font-size: 2 * $font-size-base;
-$h2-font-size: 1.5 * $font-size-base;
-$h3-font-size: 1.33333 * $font-size-base;
-$h4-font-size: 1.3 * $font-size-base;
-$h5-font-size: 1.25 * $font-size-base;
-$h6-font-size: 1.2 * $font-size-base;
 
 $theme-colors: ("darker": #333);
 
@@ -271,7 +263,6 @@ table.rule-last-row tr:last-child {
     // text-indent: -.8em;
     font-size: 0.8em;
 
-    text-align: left;
 
     width: 40%;
     clear: right;
@@ -279,7 +270,11 @@ table.rule-last-row tr:last-child {
     padding-left: 1.5em;
 }
 
-@include media-breakpoint-up(xl) {
+.footnote p {
+    text-align: left;
+}
+
+@include media-breakpoint-up(lg) {
     .footnote {
         padding-left: 0;
         margin: 0 -45% 0 0;
