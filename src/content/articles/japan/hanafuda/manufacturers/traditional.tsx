@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { ArticleContentProps, ArticleImage, Noun, Footnote } from 'ui';
-import { OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
+import { Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -19,6 +19,8 @@ import imgAngelJokers from './Angel_Jokers.jpg';
 import imgMatsuiBrights from './Matsui_Brights.jpg';
 import imgMarioBrights from './Nintendo_Mario_Brights.jpg';
 import imgOishiMark from './Oishi_Mark.jpg';
+import imgAkataNewspaper from './Akata-Newspaper.jpg';
+import imgAkataCard from './Akata-Card.jpg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (
@@ -400,8 +402,39 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           </ul>
         </section>
         <section id="kawai">
-          <h3><span lang="ja-Latn">Kawai</span></h3>
+          <h3><Noun lang="ja-Latn">Kawai</Noun></h3>
           <p>A manufacturer from <Noun lang="ja-Latn">Ōsaka</Noun>, whose mark was <span lang="ja">万</span> with corner at top-right.{cite(OstasiatischeSpielkarten, [135])}</p>
+        </section>
+        <section id="akada">
+          <h3><Noun lang="ja-Latn">Akata Shōjōya</Noun> (<span lang="ja">赤田猩々屋</span>)</h3>
+          <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer whose mark was <span lang="ja">松</span> in a circle.</p>
+          <div className="multi">
+            <ArticleImage
+              alt="A card with an image of a woman carrying a fan with the manufacturer’s name written upon it, surrounded by leaves of the various plants of the Hanafuda deck"
+              src={imgAkataCard}
+              source={{
+                license: "cc0",
+                originalUrl: 'https://gallica.bnf.fr/ark:/12148/btv1b105093472',
+                organization: {orgName: 'Bibliothèque nationale de France', orgAbbr: 'BnF'}
+              }}
+              >
+              An additional manufacturer’s card included with an <Noun lang="ja-Latn">Akata Shōjōya</Noun> deck, produced after 1902.
+              </ArticleImage>
+            <ArticleImage
+              alt="A newspaper ad in Japanese with pictures of Hanafuda and Western playing cards."
+              src={imgAkataNewspaper}
+              source={{
+                license:"cc0",
+                originalUrl: 'https://hojishinbun.hoover.org/?a=d&d=jan19210920-01.1.4',
+                organization: {orgName: 'Hoover Institution'}}}
+              >
+              An advertisement for <Noun lang="ja-Latn">Akata Shōjōya</Noun> cards in the <a href="https://en.wikipedia.org/wiki/Nichi_Bei_Times">Nichi Bei Times</a>, September 1921. This indicates the cards were being imported into San Francisco in the 1920s.
+            </ArticleImage>
+          </div>
+        </section>
+        <section id="suisando">
+          <h3><Noun lang="ja-Latn">Suisando</Noun> (<span lang="ja">翠山堂</span>)</h3>
+          <p>A manufacturer that has a very finely-detailed deck of cards reproduced in {cite(Hargrave, [13], {inline:true})}.</p>
         </section>
         </section>
     );

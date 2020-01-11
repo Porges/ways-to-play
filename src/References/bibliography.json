@@ -3540,5 +3540,16 @@
         "issued": { "year": 1969 },
         "publisher": "Deutsches Spielkarten Museum",
         "publisher-place": "Germany"
+    },
+    "Hargrave": {
+        "id": "Hargrave",
+        "type": "book",
+        "title": "A History of Playing Cards",
+        "author": [{"given": "Catherine Perry", "family": "Hargrave"}],
+        "issued": { "year": 2000 },
+        "original-date": { "year": 1930 },
+        "publisher": "Dover Publications",
+        "publisher-place": "Mineola, New York, USA",
+        "ISBN": "978-0-486-41236-8"
     }
 }
