@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { ArticleContentProps, ArticleImage, Noun } from 'ui';
-import { Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
+import { OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -397,6 +397,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomu hana</span>, ‘rubber flower’)</li>
             <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">man-nen hana</span>, ‘10&thinsp;000 year flower’)</li>
           </ul>
+        </section>
+        <section id="kawai">
+          <h3><span lang="ja-Latn">Kawai</span></h3>
+          <p>A manufacturer from <Noun lang="ja-Latn">Ōsaka</Noun>, whose mark was <span lang="ja">万</span> with corner at top-right.{cite(OstasiatischeSpielkarten, [135])}</p>
         </section>
         </section>
     );

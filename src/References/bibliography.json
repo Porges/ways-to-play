@@ -3531,5 +3531,14 @@
         "container-title": "Journal of the International Playing-Card Society",
         "volume": 33,
         "issue": 4
+    },
+    "OstasiatischeSpielkarten": {
+        "id": "OstasiatischeSpielkarten",
+        "type": "book",
+        "title": "<span lang='de'>Ostasiatische Spielkarten</span>",
+        "author": [{"given": "Gernot", "family": "Prunner"}],
+        "issued": { "year": 1969 },
+        "publisher": "Deutsches Spielkarten Museum",
+        "publisher-place": "Germany"
     }
 }
