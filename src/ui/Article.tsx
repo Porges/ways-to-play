@@ -95,7 +95,7 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
     if (options && options.inline) {
       switch (ref.type) {
         case 'book':
-          return <><a href={`#ref-${ref.id}`}><cite>{ref.title}</cite></a>{suffix && <> ({pageType}{suffix})</>}</>;
+          return <><a href={`#ref-${ref.id}`}><cite dangerouslySetInnerHTML={{__html:ref.title}} /></a>{suffix && <> ({pageType}{suffix})</>}</>;
         case 'article-journal':
           return <><a href={`#ref-${ref.id}`}>{ref.author && ref.author[0].family}</a> ({ref.issued && ref.issued.year}{suffix && <>, {pageType}{suffix}</>})</>;
         default:

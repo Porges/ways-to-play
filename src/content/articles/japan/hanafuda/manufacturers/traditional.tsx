@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleContentProps, ArticleImage, Noun } from 'ui';
+import { ArticleContentProps, ArticleImage, Noun, Footnote } from 'ui';
 import { OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
@@ -32,7 +32,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             The end of a <Noun lang="ja-Latn">Nintendō</Noun> wrapper indicating that it contains<br/>standard (<span lang="ja">八々花</span> <span lang="ja-Latn">hachihachibana</span>) Hanafuda cards, with black (<span lang="ja">黒</span>) backs.
         </ArticleImage>
         <h3>Manufacturer’s marks</h3>
-        <p>Within the deck, the manufacturer’s mark is nowadays always on one of the Paulownia junk cards, but on older decks it is often on the Peony, or another card entirely.</p>
+        <Footnote>Also be aware that Japanese can be written in either direction; {cite(OstasiatischeSpielkarten, [136], {inline: true})} describes a deck made by a mysterious manufacturer named ‘<Noun lang="ja-Latn">Dōtennin</Noun>’.</Footnote>
+        <p>Within the deck, the manufacturer’s name or mark is nowadays always on one of the Paulownia junk cards, but on older decks it is often on the Peony, or another card entirely.</p>
         <ArticleImage
             position="small"
             src={imgMarks}
@@ -42,7 +43,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         <h2>Japanese Manufacturers</h2>
         <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture.</p>
         <section id="nintendo">
-          <h3><Noun lang="ja-Latn">Nintendō</Noun></h3>
+          <h3><Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</h3>
           <ArticleImage
             position="right"
             src={imgNintendo}
