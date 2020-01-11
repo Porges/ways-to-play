@@ -53,7 +53,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <p>Founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889, Nintendo is the most prominent company producing <Noun lang="jp-Latn">Hanafuda</Noun> cards today. In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mefuda</Noun>, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> ‘president’ (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span> (<Noun lang="ja-Latn">Marufuku</Noun> being <Noun lang="ja-Latn">Nintendo</Noun>’s manufacturer’s mark); and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
           <p>Nintendo <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:{cite(ModernJapaneseWrappers, [54])}</p>
           <ul>
-            <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitoryō</span>, ‘president’)</li>
+            <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804)</li>
             <li><span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>, ‘moon-faced woman’)</li>
             <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<Noun lang="ja-Latn">Tengu</Noun>’)</li>
             <li><span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’)</li>
@@ -133,7 +133,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">玉将</span> (<span lang="ja-Latn">gyokushō</span>, ‘king of the lesser player’, a <Noun lang ="ja-Latn">Shōgi</Noun> term)</li>
             <li><span lang="ja">翁</span> (<span lang="ja-Latn">okina</span>, ‘old man’)</li>
             <li><span lang="ja">泰平</span> (<span lang="ja-Latn">tai hei</span>, ‘tranquility’)</li>
-            <li><span lang="ja">纏</span> (<span lang="ja-Latn">matoi</span>, ‘<a href="https://en.wikipedia.org/wiki/Matoi">fireman’s standard</a>’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
+            <li><span lang="ja">纏</span> (<span lang="ja-Latn">matoi</span>, ‘<a href="https://en.wikipedia.org/wiki/Matoi">fireman’s standard</a>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">旅</span> (<span lang="ja-Latn">tabi</span>, ‘trip’)</li>
           </ul>
           <p>Angel also produces cardboard novelty <Noun lang="ja-Latn">hanafuda</Noun> for brands like Disney and Hello Kitty, and both <Noun lang="ja-Latn">Hyakunin Isshu</Noun> and <Noun lang="ja-Latn">Iroha Karuta</Noun>.</p>
@@ -332,7 +332,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <ul>
             <li><span lang="ja">鬼印</span> (<span lang="ja-Latn">oni jirushi</span>, ‘ogre brand’, also for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Harifuda</Noun>)</li>
             <li><span lang="ja">王将</span> (<span lang="ja-Latn">ōshō</span>, the king of the stronger player in <Noun lang="ja-Latn">Shōgi</Noun>, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
-            <li><span lang="ja">大登龍</span> (<span lang="ja-Latn">daitoryū</span>, ‘great rising dragon’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
+            <li><span lang="ja">大登龍</span> (<span lang="ja-Latn">daitōryū</span>, ‘great rising dragon’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">金札印</span> (<span lang="ja-Latn">kinfuda jirushi</span>, ‘golden card brand’)</li>
             <li><span lang="ja">鍾馗</span> (<span lang="ja-Latn">shōki</span>, <a href="https://en.wikipedia.org/wiki/Zhong_Kui"><Noun lang="ja-Latn">Shōki</Noun> the demon-queller</a>)</li>
             <li><span lang="ja">馬印</span> (<span lang="ja-Latn">uma jirushi</span>, ‘horse brand’)</li>
