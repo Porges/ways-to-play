@@ -92,12 +92,14 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <ul>
             <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kin tengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabu</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
             <li><span lang="ja">銀天狗</span> (<span lang="ja-Latn">gin tengu</span>, ‘silver <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+            <li><span lang="ja">三天狗</span> (<span lang="ja-Latn">san tengu</span>, ‘three <Noun lang="ja-Latn">Tengu</Noun>’)</li>
             <li><span lang="ja">成金</span> (<span lang="ja-Latn">narikin</span>, ‘newly rich’, derived from a <Noun lang="ja-Latn">Shogi</Noun> term), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">リンカン</span> (<span lang="ja-Latn">rinkan</span>, ‘Lincoln’), no longer in use as of 1979</li>
             <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>), no longer in use as of 1979</li>
             <li><span lang="ja">當矢</span> (<span lang="ja-Latn">atari ya</span>, ‘winning arrow’)</li>
             <li><span lang="ja">四季</span> (<span lang="ja-Latn">shiki</span>, ‘four seasons’)</li>
             <li><span lang="ja">大江山</span> (<span lang="ja-Latn">ōeyama</span>, <a href="https://en.wikipedia.org/wiki/%C5%8Ceyama">a mountain near <Noun lang="ja-Latn">Kyōto</Noun></a>)</li>
+            <li><span lang="ja">寳船</span> (<span lang="ja-Latn">takara fune</span> ‘treasure ship’)</li>
           </ul>
           <div className="multi">
           <ArticleImage
@@ -164,7 +166,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">栄光</span> (<span lang="ja-Latn">eikō</span>, ‘glory’), also <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">京乃錦</span> (<span lang="ja-Latn">Kyō no nishiki</span>, ‘brocade of <Noun lang="ja-Latn">Kyōto</Noun>’, indicating the autumn leaves)</li>
             <li><span lang="ja">花くらべ</span> (<span lang="ja-Latn">hanakurabe</span>, ‘comparing flowers’)</li>
-            <li><span lang="ja">夜桜</span> (<span lang="ja-Latn">yozakura</span>, ‘evening cherry blossoms’)</li>
+            <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yozakura</span>, ‘evening cherry blossoms’)</li>
             <li><span lang="ja">春風</span> (<span lang="ja-Latn">harukaze</span>, ‘spring breeze’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">花あそび</span> (<span lang="ja-Latn">hana asobi</span>, ‘flower playing’), no longer in use as of 2019</li>
             <li><span lang="ja">世界長</span> (<span lang="ja-Latn">sekaichō</span>, ‘world leader’), no longer in use as of 1980</li>
@@ -258,7 +260,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </section>
         <section id="nihon-karuta">
           <h3><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)</h3>
-          <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948{cite(Yamaguchi, [102])} and through to at least the early 1980s.{cite(ModernJapaneseWrappers, [54])} Their mark was <span lang="ja">中</span> with corner at top-right. Brands included:{cite(ModernJapaneseWrappers, [[54,55]])}</p>
+          <p><Noun lang="ja-Latn">Nihon Karuta</Noun> has existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895. Records show that they also existed in 1948{cite(Yamaguchi, [102])} and through to at least the early 1980s.{cite(ModernJapaneseWrappers, [54])} Their mark was <span lang="ja">中</span> with corner at top-right. Brands included:{cite(ModernJapaneseWrappers, [[54,55]])}</p>
           <ul>
             <li><span lang="ja">花の王</span> (<span lang="ja-Latn">hana no ō</span>, ‘queen of flowers’, the <a href="https://en.wikipedia.org/wiki/Cattleya">Cattleya</a>)</li>
             <li><span lang="ja">七福神</span> (<span lang="ja-Latn">shichi fukujin</span>, the <a href="https://en.wikipedia.org/wiki/Seven_Lucky_Gods">Seven Lucky Gods</a>)</li>
@@ -266,12 +268,14 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">ふじ</span> (<span lang="ja-Latn">fuji</span>, ‘<Noun lang="ja-Latn">Fuji</Noun>’)</li>
             <li><span lang="ja">四光</span> (<span lang="ja-Latn">shi kō</span>, ‘four brights’)</li>
             <li><span lang="ja">金の仲</span> (<span lang="ja-Latn">kane no naka</span>, ‘golden relationship’, a reference to the trademark pronounced <span lang="ja-Latn">kane-naka</span>)</li>
-            <li><span lang="ja">百万ドル</span> (<span lang="ja-Latn">hyakuman doru</span>, ‘a million dollars’)</li>
+            <li><span lang="ja">百万弗</span> (<span lang="ja-Latn">hyakuman doru</span>, ‘a million dollars’)</li>
             <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, Tengu)</li>
-            <li><span lang="ja">ふじ</span> (<span lang="ja-Latn">fuji</span>, <Noun lang="ja-Latn">Fuji</Noun>)</li>
             <li><span lang="ja">万両</span> (<span lang="ja-Latn">man ryū</span>, ‘10&thinsp;000 coins’)</li>
             <li><span lang="ja">千両</span> (<span lang="ja-Latn">sen ryū</span>, ‘1000 coins’)</li>
             <li><span lang="ja">九重櫻</span> (<span lang="ja-Latn">kokonoe sakura</span>, ‘<Noun lang="ja-Latn">Kokonoe</Noun> cherry blossoms’)</li>
+            <li><span lang="ja">梅印</span> (<span lang="ja-Latn">ume shirushi</span> ‘plum seal’)</li>
+            <li><span lang="ja">金富士</span> (<span lang="ja-Latn">kin fuji</span> ‘gold <Noun lang="ja-Latn">Fuji</Noun>’)</li>
+            <li><span lang="ja">御所車</span> (<span lang="ja-Latn">gosho guruma</span> ‘ox-drawn cart’)</li>
           </ul>
         </section>
         <section id="yamashiro">
@@ -407,6 +411,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </section>
         <section id="akada">
           <h3><Noun lang="ja-Latn">Akata Shōjōya</Noun> (<span lang="ja">赤田猩々屋</span>)</h3>
+          <Footnote>BnF Gallica has <a href="https://gallica.bnf.fr/ark:/12148/btv1b105093472">high-quality scans</a> of this deck, and Yale University also <a href="https://search.library.yale.edu/catalog/13318512">owns a copy</a>.</Footnote>
           <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer whose mark was <span lang="ja">松</span> in a circle.</p>
           <div className="multi">
             <ArticleImage
