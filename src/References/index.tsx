@@ -6,6 +6,7 @@ export type Reference =  Readonly<{
     type: string,
     id: string,
     title: string,
+    ['title-lang']?: string,
     author?: readonly Author[],
     editor?: readonly Author[],
     URL?: string,
@@ -53,8 +54,8 @@ const renderTitle = (reference: Reference) => {
         : <span dangerouslySetInnerHTML={html} />;
 
     return reference.type === 'book'
-        ? <><cite itemProp="name">{linked}</cite>{reference.volume && <> (volume {reference.volume})</>}. </>
-        : <><span itemProp="name headline">‘{linked}’</span>. </>;
+        ? <><cite itemProp="name" lang={reference["title-lang"]}>{linked}</cite>{reference.volume && <> (volume {reference.volume})</>}. </>
+        : <>‘<span itemProp="name headline">{linked}</span>’. </>;
 }
 
 const renderDate = (reference: Reference) => {

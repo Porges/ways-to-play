@@ -3515,7 +3515,8 @@
     "Yamaguchi": {
         "id": "Yamaguchi",
         "type": "book",
-        "title": "<span lang='ja'>最後の読みカルタ</span>",
+        "title": "最後の読みカルタ",
+        "title-lang": "ja",
         "author": [ { "family": "山口", "given": "泰彦" } ],
         "issued": {
             "year": 1998
@@ -3535,7 +3536,8 @@
     "OstasiatischeSpielkarten": {
         "id": "OstasiatischeSpielkarten",
         "type": "book",
-        "title": "<span lang='de'>Ostasiatische Spielkarten</span>",
+        "title": "Ostasiatische Spielkarten",
+        "title-lang": "de",
         "author": [{"given": "Gernot", "family": "Prunner"}],
         "issued": { "year": 1969 },
         "publisher": "Deutsches Spielkarten Museum",
