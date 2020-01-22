@@ -97,12 +97,12 @@ h2 {
 main {
     flex: 1;
     margin-top: 50px;
-    hyphens: auto;
     overflow-wrap: break-word;
     padding-bottom: 3em;
 }
 
 p {
+    hyphens: auto;
     text-align: justify;
 }
 
