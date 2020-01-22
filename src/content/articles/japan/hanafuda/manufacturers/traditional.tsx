@@ -62,7 +62,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">白梅</span> (<span lang="ja-Latn">shira ume</span>, ‘white plum’), not in use as of 1980</li>
             <li><span lang="ja">櫻乃山</span> (<span lang="ja-Latn">sakura no yama</span>, ‘mountain cherry blossoms’), not in use as of 1980</li>
             <li><span lang="ja">朝日桜</span> (<span lang="ja-Latn">asahi sakura</span>, ‘sunrise cherry blossoms’)</li>
-            <li><span lang="ja">三羽鶴</span> (<span lang="ja-Latn">san-ba tsuru</span>, ‘three cranes’), not in use as of 1980</li>
+            <li><span lang="ja">三羽鶴</span> (<span lang="ja-Latn">sanbazuru</span>, ‘three cranes’), not in use as of 1980</li>
             <li><span lang="ja">大天狗</span> (<span lang="ja-Latn">dai tengu</span>, ‘chief <Noun lang="ja-Latn">Tengu</Noun>’), introduced in 1977</li>
             <li><span lang="ja">千代桜</span> (<span lang="ja-Latn">chiyo zakura</span>, ‘thousand-year cherry blossoms’)</li>
           </ul>
@@ -90,16 +90,16 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <p>Also based in <Noun lang="ja-Latn">Kyōto</Noun>, <Noun lang="ja-Latn">Ōishi Tengudō</Noun> produces a wide variety of traditional Japanese card games. As far as I know, they are the only major manufacturer still producing <Noun lang="ja-Latn">Mefuda</Noun> cards. They also produce reproductions of even older cards, such as the <Noun lang="ja-Latn">Unsun</Noun> deck.</p>
           <p>Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top, but on some decks (e.g. <Noun lang="ja-Latn">Echigo-kobana</Noun>), they have used <span lang="ja">大</span> in a square. Brands produced by <Noun lang="ja-Latn">Ōishi Tengudō</Noun> in the past included:{cite(ModernJapaneseWrappers, [[57, 58]])}</p>
           <ul>
-            <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kin tengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabu</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
-            <li><span lang="ja">銀天狗</span> (<span lang="ja-Latn">gin tengu</span>, ‘silver <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-            <li><span lang="ja">三天狗</span> (<span lang="ja-Latn">san tengu</span>, ‘three <Noun lang="ja-Latn">Tengu</Noun>’)</li>
+            <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabu</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
+            <li><span lang="ja">銀天狗</span> (<span lang="ja-Latn">gintengu</span>, ‘silver <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+            <li><span lang="ja">三天狗</span> (<span lang="ja-Latn">santengu</span>, ‘three <Noun lang="ja-Latn">Tengu</Noun>’)</li>
             <li><span lang="ja">成金</span> (<span lang="ja-Latn">narikin</span>, ‘newly rich’, derived from a <Noun lang="ja-Latn">Shogi</Noun> term), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-            <li><span lang="ja">リンカン</span> (<span lang="ja-Latn">rinkan</span>, ‘Lincoln’), no longer in use as of 1979</li>
+            <li><span lang="ja">リンカーン</span> (<span lang="ja-Latn">rinkān</span>, ‘Lincoln’), no longer in use as of 1979</li>
             <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>), no longer in use as of 1979</li>
-            <li><span lang="ja">當矢</span> (<span lang="ja-Latn">atari ya</span>, ‘winning arrow’)</li>
+            <li><span lang="ja">當矢</span> (<span lang="ja-Latn">atariya</span>, ‘winning arrow’)</li>
             <li><span lang="ja">四季</span> (<span lang="ja-Latn">shiki</span>, ‘four seasons’)</li>
             <li><span lang="ja">大江山</span> (<span lang="ja-Latn">ōeyama</span>, <a href="https://en.wikipedia.org/wiki/%C5%8Ceyama">a mountain near <Noun lang="ja-Latn">Kyōto</Noun></a>)</li>
-            <li><span lang="ja">寳船</span> (<span lang="ja-Latn">takara fune</span> ‘treasure ship’)</li>
+            <li><span lang="ja">寳船</span> (<span lang="ja-Latn">takarabune</span> ‘treasure ship’)</li>
           </ul>
           <div className="multi">
           <ArticleImage
@@ -136,7 +136,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <ul>
             <li><span lang="ja">玉将</span> (<span lang="ja-Latn">gyokushō</span>, ‘king of the lesser player’, a <Noun lang ="ja-Latn">Shōgi</Noun> term)</li>
             <li><span lang="ja">翁</span> (<span lang="ja-Latn">okina</span>, ‘old man’)</li>
-            <li><span lang="ja">泰平</span> (<span lang="ja-Latn">tai hei</span>, ‘tranquility’)</li>
+            <li><span lang="ja">泰平</span> (<span lang="ja-Latn">taihei</span>, ‘tranquility’)</li>
             <li><span lang="ja">纏</span> (<span lang="ja-Latn">matoi</span>, ‘<a href="https://en.wikipedia.org/wiki/Matoi">fireman’s standard</a>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">旅</span> (<span lang="ja-Latn">tabi</span>, ‘trip’)</li>
           </ul>
@@ -168,7 +168,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">花くらべ</span> (<span lang="ja-Latn">hanakurabe</span>, ‘comparing flowers’)</li>
             <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yozakura</span>, ‘evening cherry blossoms’)</li>
             <li><span lang="ja">春風</span> (<span lang="ja-Latn">harukaze</span>, ‘spring breeze’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-            <li><span lang="ja">花あそび</span> (<span lang="ja-Latn">hana asobi</span>, ‘flower playing’), no longer in use as of 2019</li>
+            <li><span lang="ja">花あそび</span> (<span lang="ja-Latn">hanaasobi</span>, ‘flower playing’), no longer in use as of 2019</li>
             <li><span lang="ja">世界長</span> (<span lang="ja-Latn">sekaichō</span>, ‘world leader’), no longer in use as of 1980</li>
             <li><span lang="ja">宝玉</span> (<span lang="ja-Latn">hōgyoku</span>, ‘jewel’), no longer in use as of 1980</li>
             <li><span lang="ja">将軍</span> (<span lang="ja-Latn">shōgun</span>, <Noun lang="ja-Latn">Shogun</Noun>), used for <Noun lang="ja-Latn">Tehonbiki</Noun> only</li>
@@ -201,10 +201,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">鳳凰</span> (<span lang="ja-Latn">hōō</span>, the Japanese phoenix)</li>
             <li><span lang="ja">龍虎</span> (<span lang="ja-Latn">ryū ko</span>, ‘dragon and tiger’), also used for <Noun lang="ja-Latn">Kabu</Noun>, <Noun lang="ja-Latn">Tehonbiki</Noun>, and <Noun lang="ja-Latn">Komaru</Noun> cards</li>
             <li><span lang="ja">九一</span> (<span lang="ja-Latn">kuppin</span>, ‘nine and one’, the highest combination in <Noun lang="ja-Latn">Kabufuda</Noun> games), used for <Noun lang="ja-Latn">Kabu</Noun> cards only</li>
-            <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kin ryū</span>, ‘gold dragon’), used for <Noun lang="ja-Latn">Komaru</Noun> cards only</li>
+            <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kinryū</span>, ‘gold dragon’), used for <Noun lang="ja-Latn">Komaru</Noun> cards only</li>
             <li><span lang="ja">菊華</span> (<span lang="ja-Latn">kikka</span>, ‘chrysanthemum’)</li>
             <li><span lang="ja">牡丹</span> (<span lang="ja-Latn">botan</span>, ‘peony’)</li>
-            <li><span lang="ja">冨士櫻</span> (<span lang="ja-Latn">fuji sakura</span>, ‘<Noun lang="ja-Latn">Fuji</Noun> cherry blossoms’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+            <li><span lang="ja">冨士櫻</span> (<span lang="ja-Latn">fujizakura</span>, ‘<Noun lang="ja-Latn">Fuji</Noun> cherry blossoms’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">三光</span> (<span lang="ja-Latn">sankō</span>, ‘three brights’)</li>
           </ul>
         </section>
@@ -218,11 +218,11 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           </ArticleImage>
           <p>Ace was a manufacturer based in <Noun lang="ja-Latn">Kyōto</Noun>. Their brands included:{cite(ModernJapaneseWrappers, [44])}</p>
           <ul>
-            <li><span lang="ja">大公爵</span> (<span lang="ja-Latn">dai kōshaku</span> ‘grand duke’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
-            <li><span lang="ja">大西郷</span> (<span lang="ja-Latn">dai saigō</span> ‘great <a href="https://en.wikipedia.org/wiki/Saig%C5%8D_Takamori">Saigō</a>’)</li>
+            <li><span lang="ja">大公爵</span> (<span lang="ja-Latn">daikōshaku</span> ‘grand duke’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
+            <li><span lang="ja">大西郷</span> (<span lang="ja-Latn">daisaigō</span> ‘great <a href="https://en.wikipedia.org/wiki/Saig%C5%8D_Takamori">Saigō</a>’)</li>
             <li><span lang="ja">エース</span> (<span lang="ja-Latn">ēsu</span>, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
-            <li><span lang="ja">大提督</span> (<span lang="ja-Latn">dai teitoku</span> ‘grand admiral’)</li>
-            <li><span lang="ja">大勝利</span> (<span lang="ja-Latn">dai shōri</span> ‘huge win’)</li>
+            <li><span lang="ja">大提督</span> (<span lang="ja-Latn">daiteitoku</span> ‘grand admiral’)</li>
+            <li><span lang="ja">大勝利</span> (<span lang="ja-Latn">daishōri</span> ‘huge win’)</li>
             <li><span lang="ja">紅葉</span> (<span lang="ja-Latn">momiji</span> ‘autumn leaves’)</li>
           </ul>
           <p>They also made two all-plastic <Noun lang="ja-Latn">Hanafuda</Noun> decks: <span lang="ja">金花</span> (<span lang="ja-Latn">kin-hana</span> ‘gold flowers’) and <span lang="ja">銀花</span> (<span lang="ja-Latn">gin-hana</span> ‘silver flowers’).</p>
@@ -238,12 +238,12 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <p><Noun lang="ja-Latn">Maruē</Noun> was from the city of <Noun lang="ja-Latn">Mino</Noun>, in <Noun lang="ja-Latn">Gifu</Noun> prefecture. Their manufacturer’s mark was a circled <span lang="ja">英</span> (<span lang="ja-Latn">ē</span>), i.e. <span lang="ja-Latn">maru-ē</span>. However, <span lang="ja">英</span> has the meaning of ‘flower’ and can also be read with the same pronunciation as <span lang="ja">花</span> <span lang="ja-Latn">hana</span>, making this mark very punny.</p>
           <p>Brands produced by <Noun lang="ja-Latn">Maruē</Noun> included:{cite(ModernJapaneseWrappers, [52])}</p>
           <ul>
-            <li><span lang="ja">東洋一</span> (<span lang="ja-Latn">tōyō ichi</span>, ‘best in the East’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-            <li><span lang="ja">金獅子</span> (<span lang="ja-Latn">kin jishi</span>, ‘gold lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
-            <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kin ryū</span>, ‘gold dragon’)</li>
-            <li><span lang="ja">銀龍</span> (<span lang="ja-Latn">gin ryū</span>, ‘silver dragon’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-            <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">goten sakura</span>, ‘palace cherry blossoms’)</li>
-            <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yoru sakura</span> ‘evening cherry blossoms’)</li>
+            <li><span lang="ja">東洋一</span> (<span lang="ja-Latn">tōyōichi</span>, ‘best in the East’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+            <li><span lang="ja">金獅子</span> (<span lang="ja-Latn">kinjishi</span>, ‘gold lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
+            <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kinryū</span>, ‘gold dragon’)</li>
+            <li><span lang="ja">銀龍</span> (<span lang="ja-Latn">ginryū</span>, ‘silver dragon’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+            <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">gotensakura</span>, ‘palace cherry blossoms’)</li>
+            <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yorusakura</span> ‘evening cherry blossoms’)</li>
           </ul>
         </section>
         <section id="tanaka-gyokusuido">
@@ -255,7 +255,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <p><Noun lang="ja-Latn">Iwata</Noun> (<Noun lang="ja-Latn">Kyōto</Noun>) had its own brands but the cards were made by <Noun lang="ja-Latn">Tamura Shōgun-dō</Noun>. Brands included:{cite(ModernJapaneseWrappers, [48])}</p>
           <ul>
             <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
-            <li><span lang="ja">銀末広</span> (<span lang="ja-Latn">gin suehiro</span> ‘silver fan’)</li>
+            <li><span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
           </ul>
         </section>
         <section id="nihon-karuta">
@@ -266,25 +266,25 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">七福神</span> (<span lang="ja-Latn">shichi fukujin</span>, the <a href="https://en.wikipedia.org/wiki/Seven_Lucky_Gods">Seven Lucky Gods</a>)</li>
             <li><span lang="ja">大隊長</span> (<span lang="ja-Latn">daitaichō</span>, ‘battalion commander’)</li>
             <li><span lang="ja">ふじ</span> (<span lang="ja-Latn">fuji</span>, ‘<Noun lang="ja-Latn">Fuji</Noun>’)</li>
-            <li><span lang="ja">四光</span> (<span lang="ja-Latn">shi kō</span>, ‘four brights’)</li>
+            <li><span lang="ja">四光</span> (<span lang="ja-Latn">shikō</span>, ‘four brights’)</li>
             <li><span lang="ja">金の仲</span> (<span lang="ja-Latn">kane no naka</span>, ‘golden relationship’, a reference to the trademark pronounced <span lang="ja-Latn">kane-naka</span>)</li>
-            <li><span lang="ja">百万弗</span> (<span lang="ja-Latn">hyakuman doru</span>, ‘a million dollars’)</li>
+            <li><span lang="ja">百万弗</span> (<span lang="ja-Latn">hyakumandoru</span>, ‘a million dollars’)</li>
             <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, Tengu)</li>
-            <li><span lang="ja">万両</span> (<span lang="ja-Latn">man ryū</span>, ‘10&thinsp;000 coins’)</li>
-            <li><span lang="ja">千両</span> (<span lang="ja-Latn">sen ryū</span>, ‘1000 coins’)</li>
-            <li><span lang="ja">九重櫻</span> (<span lang="ja-Latn">kokonoe sakura</span>, ‘<Noun lang="ja-Latn">Kokonoe</Noun> cherry blossoms’)</li>
-            <li><span lang="ja">梅印</span> (<span lang="ja-Latn">ume shirushi</span> ‘plum seal’)</li>
-            <li><span lang="ja">金富士</span> (<span lang="ja-Latn">kin fuji</span> ‘gold <Noun lang="ja-Latn">Fuji</Noun>’)</li>
-            <li><span lang="ja">御所車</span> (<span lang="ja-Latn">gosho guruma</span> ‘ox-drawn cart’)</li>
+            <li><span lang="ja">万両</span> (<span lang="ja-Latn">manryū</span>, ‘10&thinsp;000 coins’)</li>
+            <li><span lang="ja">千両</span> (<span lang="ja-Latn">senryū</span>, ‘1000 coins’)</li>
+            <li><span lang="ja">九重櫻</span> (<span lang="ja-Latn">kokonoezakura</span>, ‘<Noun lang="ja-Latn">Kokonoe</Noun> cherry blossoms’)</li>
+            <li><span lang="ja">梅印</span> (<span lang="ja-Latn">umejirushi</span> ‘plum seal’)</li>
+            <li><span lang="ja">金富士</span> (<span lang="ja-Latn">kinfuji</span> ‘gold <Noun lang="ja-Latn">Fuji</Noun>’)</li>
+            <li><span lang="ja">御所車</span> (<span lang="ja-Latn">goshoguruma</span> ‘ox-drawn cart’)</li>
           </ul>
         </section>
         <section id="yamashiro">
           <h3><Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</h3>
           <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,{cite(Yamaguchi, [102])} but stopped producing in 1962.{cite(ModernJapaneseWrappers, [33])} Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span lang="ja">十</span>). Brands included:</p>
           <ul>
-            <li><span lang="ja">金坊主</span> (<span lang="ja-Latn">kin bōzu</span>, ‘gold baldy’, ‘baldy’ being a nickname for a priest)</li>
-            <li><span lang="ja">関羽</span> (<span lang="ja-Latn">kan-u</span>, <a href="https://en.wikipedia.org/wiki/Guan_Yu">Guan Yu</a>)</li>
-            <li><span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumon ryū</span>, ‘nine-tattoo dragon’, a nickname for <a href="https://en.wikipedia.org/wiki/Shi_Jin">Shi Jin</a>)</li>
+            <li><span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold baldy’, ‘baldy’ being a nickname for a priest)</li>
+            <li><span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, <a href="https://en.wikipedia.org/wiki/Guan_Yu">Guan Yu</a>)</li>
+            <li><span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>, ‘nine-tattoo dragon’, a nickname for <a href="https://en.wikipedia.org/wiki/Shi_Jin">Shi Jin</a>)</li>
             <li><span lang="ja">大黒</span> (<span lang="ja-Latn">daikoku</span>, <a href="https://en.wikipedia.org/wiki/Daikokuten">Daikokuten</a>)</li>
           </ul>
         </section>
@@ -292,7 +292,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <h3><Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</h3>
           <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">龍</span> (they also possibly had another trade name of <span lang="ja">マルナ</span> with circled <span lang="ja" className="circled">名</span> as mark). Brands included:</p>
           <ul>
-            <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsuta gawa</span> ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’)</li>
+            <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsutagawa</span> ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’)</li>
             <li><span lang="ja">天龍</span> (<span lang="ja-Latn">tenryū</span> ‘<Noun lang="ja-Latn">Tenryū</Noun>’)</li>
             <li><span lang="ja">龍王</span> (<span lang="ja-Latn">ryūō</span> ‘dragon king’)</li>
           </ul>
@@ -314,10 +314,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <p>This <Noun lang="ja-Latn">Tōkyō</Noun> manufacturer stopped producing shortly after 1972.{cite(ModernJapaneseWrappers, [42])} Brands included:</p>
           <ul>
             <li><span lang="ja">四天王</span> (<span lang="ja-Latn">shi tennō</span> the <a href="https://en.wikipedia.org/wiki/Four_Heavenly_Kings">four heavenly kings</a>), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-            <li><span lang="ja">牡丹獅子</span> (<span lang="ja-Latn">botan shishi</span> ‘peony and lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-            <li><span lang="ja">金時桜</span> (<span lang="ja-Latn">kintoki sakura</span> ‘<a href="https://en.wikipedia.org/wiki/Kintar%C5%8D">Kintoki</a> and cherry blossom’)</li>
-            <li><span lang="ja">旭富士</span> (<span lang="ja-Latn">asahi fuji</span> ‘<Noun lang="ja-Latn">Fuji</Noun> sunrise’)</li>
-            <li><span lang="ja">桜判官</span> (<span lang="ja-Latn">sakura hangan</span> ‘cherry blossom judge’, apparently a reference to a judge with a cherry blossom tattoo)</li>
+            <li><span lang="ja">牡丹獅子</span> (<span lang="ja-Latn">botanshishi</span> ‘peony and lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+            <li><span lang="ja">金時桜</span> (<span lang="ja-Latn">kintokizakura</span> ‘<a href="https://en.wikipedia.org/wiki/Kintar%C5%8D">Kintoki</a> and cherry blossom’)</li>
+            <li><span lang="ja">旭富士</span> (<span lang="ja-Latn">asahifuji</span> ‘<Noun lang="ja-Latn">Fuji</Noun> sunrise’)</li>
+            <li><span lang="ja">桜判官</span> (<span lang="ja-Latn">sakurahangan</span> ‘cherry blossom judge’, apparently a reference to a judge with a cherry blossom tattoo)</li>
           </ul>
         </section>
         <section id="kawakita">
@@ -336,27 +336,27 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <h3><Noun lang="ja-Latn">Kohara Honten</Noun> (<span lang="ja">小原本店</span>)</h3>
           <p><Noun lang="ja-Latn">Kohara</Noun> was a manufacturer based in <Noun lang="ja-Latn">Ōsaka</Noun> until 1980.{cite(ModernJapaneseWrappers, [48])} Their manufacturer’s mark was a circled <span lang="ja" className="circled">さ</span>, and brands included:</p>
           <ul>
-            <li><span lang="ja">鬼印</span> (<span lang="ja-Latn">oni jirushi</span>, ‘ogre brand’, also for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Harifuda</Noun>)</li>
+            <li><span lang="ja">鬼印</span> (<span lang="ja-Latn">onijirushi</span>, ‘ogre brand’, also for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Harifuda</Noun>)</li>
             <li><span lang="ja">王将</span> (<span lang="ja-Latn">ōshō</span>, the king of the stronger player in <Noun lang="ja-Latn">Shōgi</Noun>, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
             <li><span lang="ja">大登龍</span> (<span lang="ja-Latn">daitōryū</span>, ‘great rising dragon’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-            <li><span lang="ja">金札印</span> (<span lang="ja-Latn">kinfuda jirushi</span>, ‘golden card brand’)</li>
+            <li><span lang="ja">金札印</span> (<span lang="ja-Latn">kinfudajirushi</span>, ‘golden card brand’)</li>
             <li><span lang="ja">鍾馗</span> (<span lang="ja-Latn">shōki</span>, <a href="https://en.wikipedia.org/wiki/Zhong_Kui"><Noun lang="ja-Latn">Shōki</Noun> the demon-queller</a>)</li>
-            <li><span lang="ja">馬印</span> (<span lang="ja-Latn">uma jirushi</span>, ‘horse brand’)</li>
+            <li><span lang="ja">馬印</span> (<span lang="ja-Latn">umajirushi</span>, ‘horse brand’)</li>
             <li><span lang="ja">宝船</span> (<span lang="ja-Latn">takarabune</span>, ‘treasure ship’)</li>
-            <li><span lang="ja">寶引</span> (<span lang="ja-Latn">hobiki</span>, ‘treasure pull’, a kind of lottery where one rope out of a bundle was tied to the prize, and whoever pulled it won; these were <Noun lang="ja-Latn">Hikifuda</Noun> cards)</li>
+            <li><span lang="ja">寶引</span> (<span lang="ja-Latn">hōbiki</span>, ‘treasure pull’, a kind of lottery where one rope out of a bundle was tied to the prize, and whoever pulled it won; these were <Noun lang="ja-Latn">Hikifuda</Noun> cards)</li>
           </ul>
         </section>
         <section id="nishimura">
           <h3><Noun lang="ja-Latn">Nishimura</Noun> (<span lang="ja">西村</span>)</h3>
           <p>At first an important manufacturer in <Noun lang="ja-Latn">Tōkyō</Noun>, but later cards were made by other makers including <Noun lang="ja-Latn">Ōishi Tengudō</Noun>. Their brands included:{cite(ModernJapaneseWrappers, [54, 58])}</p>
           <ul>
-            <li><span lang="ja">金助六</span> (<span lang="ja-Latn">kin sukeroku</span>, ‘golden <a href="https://en.wikipedia.org/wiki/Sukeroku" className="proper-noun" lang="ja-Latn">Sukeroku</a>’)</li>
-            <li><span lang="ja">銀助六</span> (<span lang="ja-Latn">gin sukeroku</span>, ‘silver Sukeroku’)</li>
-            <li><span lang="ja">小天狗</span> (<span lang="ja-Latn">ko tengu</span>, ‘little <Noun lang="ja-Latn">Tengu</Noun>’)</li>
+            <li><span lang="ja">金助六</span> (<span lang="ja-Latn">kinsukeroku</span>, ‘golden <a href="https://en.wikipedia.org/wiki/Sukeroku" className="proper-noun" lang="ja-Latn">Sukeroku</a>’)</li>
+            <li><span lang="ja">銀助六</span> (<span lang="ja-Latn">ginsukeroku</span>, ‘silver Sukeroku’)</li>
+            <li><span lang="ja">小天狗</span> (<span lang="ja-Latn">kotengu</span>, ‘little <Noun lang="ja-Latn">Tengu</Noun>’)</li>
             <li><span lang="ja">花の花</span> (<span lang="ja-Latn">hana no hana</span>, ‘flower of flowers’)</li>
-            <li><span lang="ja">白雪</span> (<span lang="ja-Latn">shira yuki</span>, ‘white snow’)</li>
-            <li><span lang="ja">百万石</span> (<span lang="ja-Latn">hyakuman goku</span>, ‘one million <a href="https://en.wikipedia.org/wiki/Koku" lang="ja-Latn">koku</a>’, a nickname for the rich <a lang="ja-Latn" href="https://en.wikipedia.org/wiki/Kaga_Domain">Kaga domain</a>, or its lord, in the <Noun lang="ja-Latn">Edo</Noun> period), no longer produced as of 1980</li>
-            <li><span lang="ja">奴さん</span> (<span lang="ja-Latn">yakko san</span>, ‘guy’, a samurai manservant, also a traditional origami shape imitating a man), no longer produced as of 1980</li>
+            <li><span lang="ja">白雪</span> (<span lang="ja-Latn">shirayuki</span>, ‘white snow’)</li>
+            <li><span lang="ja">百万石</span> (<span lang="ja-Latn">hyakumangoku</span>, ‘one million <a href="https://en.wikipedia.org/wiki/Koku" lang="ja-Latn">koku</a>’, a nickname for the rich <a lang="ja-Latn" href="https://en.wikipedia.org/wiki/Kaga_Domain">Kaga domain</a>, or its lord, in the <Noun lang="ja-Latn">Edo</Noun> period), no longer produced as of 1980</li>
+            <li><span lang="ja">奴さん</span> (<span lang="ja-Latn">yakkosan</span>, ‘guy’, a samurai manservant, also a traditional origami shape imitating a man), no longer produced as of 1980</li>
           </ul>
         </section>
         <section id="kyoto-karuta">
@@ -364,10 +364,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer, whose brands included:{cite(ModernJapaneseWrappers, [49])}</p>
           <ul>
             <li><span lang="ja">金の司</span> (<span lang="ja-Latn">kin no tsukasa</span> ‘officer of gold’)</li>
-            <li><span lang="ja">大帝王</span> (<span lang="ja-Latn">dai teiō</span> ‘great emperor’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
-            <li><span lang="ja">神鉾</span> (<span lang="ja-Latn">kami hoko</span> ‘sacred halberd’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
-            <li><span lang="ja">つかさ天狗</span> (<span lang="ja-Latn">tsukasa tengu</span>, ‘chief tengu’)</li>
-            <li><span lang="ja">花あらし</span> (<span lang="ja-Latn">hana arashi</span>, ‘flower storm’, a heavy fall of blossoms)</li>
+            <li><span lang="ja">大帝王</span> (<span lang="ja-Latn">daiteiō</span> ‘great emperor’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
+            <li><span lang="ja">神鉾</span> (<span lang="ja-Latn">kamihoko</span> ‘sacred halberd’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
+            <li><span lang="ja">つかさ天狗</span> (<span lang="ja-Latn">tsukasatengu</span>, ‘chief tengu’)</li>
+            <li><span lang="ja">花あらし</span> (<span lang="ja-Latn">hanaarashi</span>, ‘flower storm’, a heavy fall of blossoms)</li>
             <li><span lang="ja">短冊</span> (<span lang="ja-Latn">tanzaku</span>, ‘poetry strip’)</li>
             <li><span lang="ja">ぼたん</span> (<span lang="ja-Latn">botan</span>, ‘peony’)</li>
           </ul>
@@ -376,10 +376,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <h3><Noun lang="ja-Latn">Dai Nippon</Noun> (<span lang="ja">大日本</span>)</h3>
           <p>A manufacturer from <Noun lang="ja-Latn">Yōkaichi</Noun> (now part of <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture. Brands included:{cite(ModernJapaneseWrappers, [46])}</p>
           <ul>
-            <li><span lang="ja">銀達磨</span> (<span lang="ja-Latn">gin daruma</span> ‘silver <a href="https://en.wikipedia.org/wiki/Bodhidharma">Daruma</a>’)</li>
+            <li><span lang="ja">銀達磨</span> (<span lang="ja-Latn">gindaruma</span> ‘silver <a href="https://en.wikipedia.org/wiki/Bodhidharma">Daruma</a>’)</li>
             <li><span lang="ja">千姫</span> (<span lang="ja-Latn">senhime</span> ‘<a href="https://en.wikipedia.org/wiki/Senhime">Lady Sen</a>’)</li>
-            <li><span lang="ja">銀瓠</span> (<span lang="ja-Latn">gin hyō</span> ‘silver gourd’)</li>
-            <li><span lang="ja">金瓠</span> (<span lang="ja-Latn">kin hyō</span> ‘gold gourd’)</li>
+            <li><span lang="ja">銀瓠</span> (<span lang="ja-Latn">ginhyō</span> ‘silver gourd’)</li>
+            <li><span lang="ja">金瓠</span> (<span lang="ja-Latn">kinhyō</span> ‘gold gourd’)</li>
             <li><span lang="ja">豊太閤</span> (<span lang="ja-Latn">hōtaikō</span>, a title of honour for <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi">Toyotomi Hideyoshi</a>)</li>
           </ul>
         </section>
@@ -387,22 +387,22 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <h3><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>)</h3>
           <p><Noun lang="ja-Latn">Nippon Yūgi</Noun> was founded in <Noun lang="ja-Latn">Tōkyō</Noun> in 1946. They still exist but no longer appear to produce <Noun lang="ja-Latn">Hanafuda</Noun> cards, instead specializing in tarot. Their previous brands included:{cite(ModernJapaneseWrappers, [54])}</p>
           <ul>
-            <li><span lang="ja">白鶴</span> (<span lang="ja-Latn">haku tsuru</span>, ‘white crane’)</li>
-            <li><span lang="ja">(日遊)金天狗</span> (<span lang="ja-Latn">(nichi yū) kin tengu</span>, ‘<Noun lang="ja-Latn">Nippon Yūgi</Noun> golden <Noun lang="ja-Latn">Tengu</Noun>’)</li>
+            <li><span lang="ja">白鶴</span> (<span lang="ja-Latn">hakuzuru</span>, ‘white crane’)</li>
+            <li><span lang="ja">(日遊)金天狗</span> (<span lang="ja-Latn">(nichiyū) kintengu</span>, ‘<Noun lang="ja-Latn">Nippon Yūgi</Noun> golden <Noun lang="ja-Latn">Tengu</Noun>’)</li>
             <li><span lang="ja">鳳</span> (<span lang="ja-Latn">ōtori</span>, ‘splendid bird’, a male Japanese phoenix)</li>
             <li><span lang="ja">宴</span> (<span lang="ja-Latn">utage</span>, ‘banquet’)</li>
             <li><span lang="ja">大入り</span> (<span lang="ja-Latn">ōiri</span>, ‘full house’)</li>
             <li><span lang="ja">兜</span> (<span lang="ja-Latn">kabuto</span>, ‘samurai helmet’)</li>
             <li><span lang="ja">花川戸</span> (<span lang="ja-Latn">hanakawado</span>, a place in <Noun lang="ja-Latn">Tōkyō</Noun>)</li>
-            <li><span lang="ja">花あわせ</span> (<span lang="ja-Latn">hana awase</span>, ‘flower matching’)</li>
+            <li><span lang="ja">花あわせ</span> (<span lang="ja-Latn">hana-awase</span>, ‘flower matching’)</li>
           </ul>
         </section> 
         <section id="universal">
           <h3>Universal (<span lang="ja">ユニバーサル</span>)</h3>
           <p>Universal was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for Nintendo. Their own brands included:{cite(ModernJapaneseWrappers, [59, 62])}</p>
           <ul>
-            <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomu hana</span>, ‘rubber flower’)</li>
-            <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">man-nen hana</span>, ‘10&thinsp;000 year flower’)</li>
+            <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomuhana</span>, ‘rubber flower’)</li>
+            <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’)</li>
           </ul>
         </section>
         <section id="kawai">
