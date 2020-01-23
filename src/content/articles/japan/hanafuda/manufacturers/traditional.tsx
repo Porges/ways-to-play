@@ -276,6 +276,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">梅印</span> (<span lang="ja-Latn">umejirushi</span> ‘plum seal’)</li>
             <li><span lang="ja">金富士</span> (<span lang="ja-Latn">kinfuji</span> ‘gold <Noun lang="ja-Latn">Fuji</Noun>’)</li>
             <li><span lang="ja">御所車</span> (<span lang="ja-Latn">goshoguruma</span> ‘ox-drawn cart’)</li>
+            <li><span lang="ja">金鷲</span> (<span lang="ja-Latn">kinshū</span> ‘golden eagle’)</li>
           </ul>
         </section>
         <section id="yamashiro">
