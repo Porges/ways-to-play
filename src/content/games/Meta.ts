@@ -12,7 +12,13 @@ const games = {
         titleLang: "ja-Latn",
         players: [2,3,4,5,6,7,8],
         import: React.lazy(() => import(/* webpackChunkName: 'kakkuri' */ './Kakkuri'))
-
+    },
+    'oicho-kabu': {
+        title: "Oicho-Kabu",
+        titleLang: "ja-Latn",
+        players: [2,3,4,5,6,7,8,9,10],
+        import: React.lazy(() => import(/* webpackChunkName: 'oicho-kabu' */ './OichoKabu')),
+        draft: true
     },
     morabaraba: {
         title: "Morabaraba",
