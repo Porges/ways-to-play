@@ -3553,5 +3553,15 @@
         "publisher": "Dover Publications",
         "publisher-place": "Mineola, New York, USA",
         "ISBN": "978-0-486-41236-8"
+    },
+    "TewazaNoKioku": {
+        "id": "TewazaNoKioku",
+        "type": "book",
+        "title": "手わざの記憶",
+        "title-lang": "ja",
+        "author": [{"given": "健司", "family": "村上"}],
+        "issued": {"year": 2009},
+        "publisher": "中央公論新社",
+        "publisher-place": "Tōkyō, Japan"
     }
 }

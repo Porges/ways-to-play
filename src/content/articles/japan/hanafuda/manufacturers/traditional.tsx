@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { ArticleContentProps, ArticleImage, Noun, Footnote } from 'ui';
-import { Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
+import { TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -26,7 +26,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (
         <section id="manufacturers">
         <h2>Identification</h2>
-        <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the front of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the end of the container. So a box of Nintendo cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
+        <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the front of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the end of the container. So a box of <Noun lang="ja-Latn">Nintendō</Noun> cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
         <ArticleImage
             position="small"
             src={imgNintendoEnd}
@@ -40,10 +40,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             position="small"
             src={imgMarks}
             alt="Three cards all featuring Paulownia flowers, with maker’s marks printed upon them.">
-            Manufacturer’s marks from <Noun lang="ja-Latn">Nintendo</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.</ArticleImage>
-        <p>Often the mark is a simplified version of the name, or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that Nintendo’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “<a href="https://en.wikipedia.org/wiki/Circle_K">Circle K</a>”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).</p>
+            Manufacturer’s marks from <Noun lang="ja-Latn">Nintendō</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.</ArticleImage>
+        <p>Often the mark is a simplified version of the name, or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <Noun lang="ja-Latn">Nintendō</Noun>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “<a href="https://en.wikipedia.org/wiki/Circle_K">Circle K</a>”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).</p>
         <h2>Current Manufacturers</h2>
-        <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture.</p>
+        <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture. The <Noun lang="ja-Latn">Kansai</Noun> region (which contains both <Noun lang="ja-Latn">Kyōto</Noun> and <Noun lang="ja-Latn">Ōsaka</Noun>) is the original source of <Noun lang="ja-Latn">Hanafuda</Noun> cards.</p>
         <section id="nintendo">
           <h3><Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</h3>
           <ArticleImage
@@ -52,8 +52,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="A Hanafuda wrapper featuring an image of Napoleon on the front.">
             <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s). Note the <Noun lang="ja-Latn">Marufuku</Noun> mark at top right.
           </ArticleImage>
-          <p>Founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889, Nintendo is the most prominent company producing <Noun lang="jp-Latn">Hanafuda</Noun> cards today. In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mefuda</Noun>, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> ‘president’ (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span> (<Noun lang="ja-Latn">Marufuku</Noun> being <Noun lang="ja-Latn">Nintendo</Noun>’s manufacturer’s mark); and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
-          <p>Nintendo <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:{cite(ModernJapaneseWrappers, [54])}</p>
+          <p>Founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889, <Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company producing <Noun lang="jp-Latn">Hanafuda</Noun> cards today. In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mefuda</Noun>, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> ‘president’ (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span> (<Noun lang="ja-Latn">Marufuku</Noun> being <Noun lang="ja-Latn">Nintendō</Noun>’s manufacturer’s mark); and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
+          <p><Noun lang="ja-Latn">Nintendō</Noun> <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:{cite(ModernJapaneseWrappers, [54])}</p>
           <ul>
             <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804)</li>
             <li><span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>, ‘moon-faced woman’)</li>
@@ -78,11 +78,11 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
           The extra cards of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck. From left-to-right, after the joker, these are: a blindfolded samurai, with text reading <span lang="ja"><q>不見出</q></span> (88 sets have a piece labelled <span lang="ja"><q>不見転</q></span>, ‘loose morals’); a <span lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s fan which is nowadays used by sumo referees, which is inscribed <span lang="ja"><q>跡絶之章</q></span> (pause prize, 88 sets have a piece labelled <span lang="ja"><q>両桐絶体之章</q></span>); a rice winnowing basket (<span lang="ja">箕</span> <span lang="ja-Latn">mi</span>) inscribed <span lang="ja"><q>手役之章</q></span> (hand-<span lang="ja-Latn">yaku</span> prize); and an award medal reading <span lang="ja"><q>吟見勲賞</q></span> (<span lang="ja-Latn">Ginmi Kunshō</span>, ‘<span lang="ja-Latn">Ginmi</span> Medal’), which is a prize for the ‘top player’ (<span lang="ja-Latn">Ginmi</span>, usually spelt <span lang="ja">吟味</span>, 88 sets have a piece labelled <span lang="ja">銀見勲章</span>).
           </ArticleImage>
-          <p>Currently Nintendo also produce many novelty decks themed to their videogame characters, such as Mario (pictured below), Pokémon, Mario Pikachu (limited edition, 2016), Kirby (2020), among others.</p>
+          <p>Currently <Noun lang="ja-Latn">Nintendō</Noun> also produce many novelty decks themed to their videogame characters, such as Mario (pictured below), Pokémon, Mario Pikachu (limited edition, 2016), Kirby (2020), among others.</p>
           <ArticleImage
             src={imgMarioBrights}
             alt="TODO">
-            Nintendo’s Mario deck, featuring recurring characters from the Mario series.
+            <Noun lang="ja-Latn">Nintendō</Noun>’s Mario deck, featuring recurring characters from the Mario series.
           </ArticleImage>
         </section>
         <section id="oishi-tengudo">
@@ -148,7 +148,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">旅</span> (<span lang="ja-Latn">tabi</span>, ‘trip’)</li>
           </ul>
           <p>Angel also produces cardboard novelty <Noun lang="ja-Latn">hanafuda</Noun> for brands like Disney and Hello Kitty, and both <Noun lang="ja-Latn">Hyakunin Isshu</Noun> and <Noun lang="ja-Latn">Iroha Karuta</Noun>.</p>
-          <p>At one point they produced a Hana-Trump deck with similar construction to that of Nintendo’s (above).</p>
+          <p>At one point they produced a Hana-Trump deck with similar construction to that of <Noun lang="ja-Latn">Nintendō</Noun>’s (above).</p>
           <ArticleImage
             src={imgAngelJokers}
             alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
@@ -197,7 +197,9 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         <p>These are producers that do not exist any more.</p>
         <section id="matsui-tengudo">
           <h3><Noun lang="ja-Latn">Matsui Tengu-dō</Noun> (<span lang="ja">松井天狗堂</span>)</h3>
-          <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> appears to have been the last Japanese manufacturer making cards entirely by hand.{cite(SalterJapanese)} It was founded in <Noun lang="ja-Latn">Kyōto</Noun> in 1897 by <Noun lang="ja-Latn">Matsui Shigejiro</Noun> (<span lang="ja">松井重次郎</span>), and was run by the <Noun lang="ja-Latn">Matsui</Noun> family for three generations until it closed in 2010 after <Noun lang="ja-Latn">Matsui Shigeo</Noun> (<span lang="ja">松井重夫</span>) retired.{cite(IwanoMatsui)} Since closing, their decks now fetch high prices on Yahoo! Auctions, often selling for several hundred US dollars.</p>
+          <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> was founded in <Noun lang="ja-Latn">Kyōto</Noun> in 1897 by <Noun lang="ja-Latn">Matsui Shigejiro</Noun> (<span lang="ja">松井重次郎</span>), and was run by the <Noun lang="ja-Latn">Matsui</Noun> family for three generations until it closed in 2010 after <Noun lang="ja-Latn">Matsui Shigeo</Noun> (<span lang="ja">松井重夫</span>) retired.{cite(IwanoMatsui)}</p>
+          <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> was the last manufacturer to make cards entirely by hand;{cite(SalterJapanese)} <Noun lang="ja-Latn">Matsui Shigeo</Noun> had recovered this process in 1976 as a way to distinguish his cards from those being produced by other manufacturers, after a former teacher of his told him to “make something that doesn’t exist anywhere”.{cite(TewazaNoKioku)}</p>
+          <p>Since closing, <Noun lang="ja-Latn">Matsui Tengudō</Noun> decks now fetch high prices on Yahoo! Auctions, often selling for several hundred US dollars.</p>
           <ArticleImage
             src={imgMatsuiBrights}
             alt="TODO">
@@ -267,7 +269,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </section>
         <section id="nihon-karuta">
           <h3><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)</h3>
-          <p><Noun lang="ja-Latn">Nihon Karuta</Noun> has existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895. Records show that they also existed in 1948{cite(Yamaguchi, [102])} and through to at least the early 1980s.{cite(ModernJapaneseWrappers, [54])} Their mark was <span lang="ja">中</span> with corner at top-right. Brands included:{cite(ModernJapaneseWrappers, [[54,55]])}</p>
+          <p><Noun lang="ja-Latn">Nihon Karuta</Noun> claimed to have been founded in 1806.{cite(TewazaNoKioku)} It had definitely existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895. Records show that they also existed in 1948{cite(Yamaguchi, [102])} and through to at least the early 1980s.{cite(ModernJapaneseWrappers, [54])} Their mark was <span lang="ja">中</span> with corner at top-right. Brands included:{cite(ModernJapaneseWrappers, [[54,55]])}</p>
           <ul>
             <li><span lang="ja">花の王</span> (<span lang="ja-Latn">hana no ō</span>, ‘queen of flowers’, the <a href="https://en.wikipedia.org/wiki/Cattleya">Cattleya</a>)</li>
             <li><span lang="ja">七福神</span> (<span lang="ja-Latn">shichi fukujin</span>, the <a href="https://en.wikipedia.org/wiki/Seven_Lucky_Gods">Seven Lucky Gods</a>)</li>
@@ -286,7 +288,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">金鷲</span> (<span lang="ja-Latn">kinshū</span> ‘golden eagle’)</li>
             <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kinryū</span> ‘golden dragon’)</li>
             <li><span lang="ja">大入</span> (<span lang="ja-Latn">ōiri</span>, ‘full house’, a theatre term)</li>
-            <li><span lang="ja">東錦</span> (<span lang="ja-Latn">higashinishiki</span>, ‘eastern fine dress’)</li>
+            <li><span lang="ja">東錦</span> (<span lang="ja-Latn">higashinishiki</span>, ‘eastern brocade’)</li>
           </ul>
         </section>
         <section id="yamashiro">
@@ -410,7 +412,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </section> 
         <section id="universal">
           <h3>Universal (<span lang="ja">ユニバーサル</span>)</h3>
-          <p>Universal was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for Nintendo. Their own brands included:{cite(ModernJapaneseWrappers, [59, 62])}</p>
+          <p>Universal was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for <Noun lang="ja-Latn">Nintendō</Noun>. Their own brands included:{cite(ModernJapaneseWrappers, [59, 62])}</p>
           <ul>
             <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomuhana</span>, ‘rubber flower’)</li>
             <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’)</li>
