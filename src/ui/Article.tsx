@@ -164,7 +164,7 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
                   .from(groupedProns, ([author, words]) => ({ author, words }))
                   .sort((x, y) => y.words.length - x.words.length)
                   .map(({ author, words }, i) =>
-                    <li key={i}>{words.map(([word, lang], i) => <>{i > 0 && ", "}<span lang={lang}>{word}</span></>)} © <a href={`https://forvo.com/user/${author}/`}>{author}</a>.</li>
+                    <li key={i}>{words.map(([word, lang], i) => <React.Fragment key={i}>{i > 0 && ", "}<span lang={lang}>{word}</span></React.Fragment>)} © <a href={`https://forvo.com/user/${author}/`}>{author}</a>.</li>
                   )}
               </ul>
             </section>
