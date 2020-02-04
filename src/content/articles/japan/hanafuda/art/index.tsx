@@ -84,6 +84,9 @@ import imgPoem5 from '../poem-5.jpg';
 import imgPoem6 from '../poem-6.jpg';
 import img16944 from '../16944707362_9f2f1aa838_o.jpg';
 import imgSC14 from '../SC148933.jpg';
+import imgKaiAwase from './DP135571.jpg';
+import imgKai1 from './2008_0079_0000_01_P.jpg';
+import imgKai2 from './2008_0079_0000_02_P.jpg';
 
 import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
 import pronEchigobana from '../pronunciation_ja_越後花.mp3';
@@ -135,7 +138,21 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     <section>
       <h2>Origins</h2>
       <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). The origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>). These were courtly competitions in which various objects were compared as to their qualities: objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, sweet-flag roots, wild pinks); animals (insects, songbirds); incense; tea{cite(AnIntroductionToJapaneseTeaRitual, [26])}; birds; or shells. The most privileged of these competitions was the poetry match (<span lang="ja">歌合</span> <Noun lang="ja-Latn">uta-awase</Noun>).</p>
-      <p>The oldest of these seems to have been a game based upon matching pairs of shells (<span lang="ja">貝合わせ</span> <span lang="ja-Latn">kai-awase</span>). This must have been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually this developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span>) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
+      <ArticleImage
+        src={imgKaiAwase}
+        alt="Girls in traditional Japanese dress sitting in a circle around shells that are arranged face-down on the floor."
+        source={{license: 'cc0', organization: {orgName: "Metropolitan Museum of Art"}, originalUrl: 'https://www.metmuseum.org/art/collection/search/37303'}}>
+        Girls playing a game of <span lang="ja-Latn">kai-awase</span>.<br/>From <cite lang="ja">潮干のつと</cite> (<cite>Gifts from the Ebb Tide</cite>, 1790), by <Noun lang="ja-Latn">Kitagawa Utamaro</Noun> (<span lang="ja">喜多川歌麿</span>)<br/>
+      </ArticleImage>
+      <p>The most relevant of these games was one based upon matching pairs of shells called <span lang="ja-Latn">kai-awase</span> (<span lang="ja">貝合わせ</span>, ‘shell matching’). This must have originally been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually it developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span>) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
+      <ArticleImage
+        src={
+            [ [imgKai1, 'Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.']
+            , [imgKai2, 'Eight shells whose interiors have been painted with garden scenes and ornamented with gold.']
+            ]}
+        source={{license: 'cc0', organization: {orgName: "Portland Art Museum"}, originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101'}}>
+        An 18th-century <span lang="ja-Latn">kai-awase</span> set. The paired boxes are called <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell buckets’), and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
+    </ArticleImage>
       <Footnote>
           <p>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.{cite(SatireWithinKibyōshi, [44])}</p>
       </Footnote>
