@@ -182,7 +182,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     <p>The standard pattern is now one that is called {pronounce("poyotan", "hachihachi-bana", "ja-Latn", pronHachihachibana)} (<span lang="ja">八八花</span>/<span lang="ja">八々花</span>), since it was primarily used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images from it are used to show the cards of each month below.</p>
     <ArticleImage position="small" src={img5Brights} alt="TODO">The 5 Bright cards of the <span lang="ja-Latn">hachihachi-bana</span> pattern, from a <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
     <h4>Korean deck differences</h4>
-    <p>Korean decks also use the standard <span lang="ja-Latn">hachi­hachi­-bana</span> pattern, but the ribbons are usually blue instead of purple, and there is Korean text on the standard three red ribbons (labelled <span lang="ko">홍단</span>, <span lang="ko-Latn">hongdan</span> ‘great rank’) and all three blue ribbons (<span lang="ko">청단</span>, <span lang="ko-Latn">cheongdan</span> ‘blue rank’).</p>
+    <p>Korean decks also use the standard <span lang="ja-Latn">hachi­hachi­-bana</span> pattern, but the ribbons are usually blue instead of purple, and there is Korean text on the standard three red ribbons (labelled <span lang="ko">홍단</span>, <span lang="ko-Latn">hongdan</span> ‘crimson ribbon’) and all three blue ribbons (<span lang="ko">청단</span>, <span lang="ko-Latn">cheongdan</span> ‘blue ribbon’).</p>
     <ArticleImage
         src={imgKoreanTanzaku}
         alt="Six Hwatu cards showing ribbons with Korean text written on them.">
