@@ -140,6 +140,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
           <p>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.{cite(SatireWithinKibyōshi, [44])}</p>
       </Footnote>
       <p><Noun lang="ja-Latn">Hanafuda</Noun> were introduced during a period where gambling had been banned as part of the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793). This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
+      <p>Even after prohibition had ended, <Noun lang="ja-Latn">Hanafuda</Noun> had a poor reputation. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other Supreme Court judges of <span lang="ja-Latn">rōka</span> (<span lang="ja">弄花</span>, gambling with <Noun lang="ja-Latn">Hanafuda</Noun>). Despite a lack of evidence, <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.</p>
     </section>
     <section>
       <h2>The cards</h2>
