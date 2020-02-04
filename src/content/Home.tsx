@@ -12,12 +12,12 @@ export const Home: React.FC = () => {
     <h1>Ways to Play</h1>
     <p>
       There are a few things here:
-      <ul>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/articles">Articles</Link></li>
-        <li><Link to="/games">Games</Link></li>
-        <li><Link to="/bibliography">Bibliography</Link></li>
-      </ul>
     </p>
+    <ul>
+      <li><Link to="/about">About</Link></li>
+      <li><Link to="/articles">Articles</Link></li>
+      <li><Link to="/games">Games</Link></li>
+      <li><Link to="/bibliography">Bibliography</Link></li>
+    </ul>
   </>);
 }
