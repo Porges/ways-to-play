@@ -157,13 +157,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </section>
         <section id="tamura-shogundo">
           <h3><a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</h3>
-          <ArticleImage
-            position="right"
-            alt="A box of hanafuda cards with a depiction of an apprentice geisha under blossoms and autumn leaves on the front."
-            src={imgShogundo}>
-            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">Kyō maiko</span> brand.
-          </ArticleImage>
-          <p>A small manufacturer (founded in either 1921 or 1963?). Their manufacturer’s mark is a snowflake-like shape, not a standard <span lang="ja-Latn">kanji</span> with shape, and they have also published <Noun lang="ja-Latn">Harifuda</Noun> and <Noun lang="ja-Latn">Shirofuda</Noun> (blank cards) under the mark <span lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
+          <Footnote>The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th <a href="https://en.wikipedia.org/wiki/Tango_no_sekku"><Noun lang="ja-Latn">Tango no Sekku</Noun></a> festival, where they are placed on top of tall poles from which <a href="https://en.wikipedia.org/wiki/Koinobori"><span lang="ja-Latn">koi</span> streamers</a> are flown.</Footnote>
+          <p>A small manufacturer (founded in either 1921 or 1963?). Unlike other manufacturers, their mark is not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">矢車</span>, ‘arrow wheel’). They have also published <Noun lang="ja-Latn">Harifuda</Noun> and <Noun lang="ja-Latn">Shirofuda</Noun> (blank cards) under the mark <span lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
           <p>Most of <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s cards are produced with hand-wrapped backing paper; they have <a href="http://www5f.biglobe.ne.jp/~karutaya/brand.html">another web page that details their manufacturing process</a>.</p>
           <p><Noun lang="ja-Latn">Tamura</Noun> manufactures two types of <Noun lang="ja-Latn">Hanafuda</Noun> cards; firstly the standard pattern, with brands (these have been maintained since the 1970s):{cite(ModernJapaneseWrappers, [39])}</p>
           <ul>
@@ -181,6 +176,12 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">将軍</span> (<span lang="ja-Latn">shōgun</span>, <Noun lang="ja-Latn">Shogun</Noun>), used for <Noun lang="ja-Latn">Tehonbiki</Noun> only</li>
             <li><span lang="ja">総帥</span> (<span lang="ja-Latn">sōsui</span>, ‘commander-in-chief’), no longer in use as of 1980</li>
           </ul>
+          <ArticleImage
+            position="right"
+            alt="A box of hanafuda cards with a depiction of an apprentice geisha under blossoms and autumn leaves on the front."
+            src={imgShogundo}>
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">Kyō maiko</span> brand.
+          </ArticleImage>
           <p>They also print a revised pattern, <Noun lang="ja-Latn">Nishiki</Noun> (<span lang="ja">錦</span>), which is larger and has a squarer format than standard cards, and is printed with more, bolder colours. This is sold under brands:</p>
           <ul>
             <li><span lang="ja">京舞妓</span> <span lang="ja-Latn">Kyō maiko</span>, ‘<Noun lang="ja-Latn">Kyōto maiko</Noun>’ (an apprentice <span lang="ja-Latn">geisha</span>)</li>
