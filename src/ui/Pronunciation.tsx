@@ -1,5 +1,7 @@
 import * as React from 'react'
 
+import * as Server from 'react-dom/server';
+
 type OwnProps = {
     src: string,
     children: string,
@@ -8,17 +10,13 @@ type OwnProps = {
 }
 
 export const Pronunciation: React.FC<OwnProps> = ({src, lang, children, noun}) => {
-    const audioRef = React.useRef(null as HTMLAudioElement | null);
 
     let className = "pronunciation";
     if (noun) {
         className += " proper-noun"
     }
 
-    return (<>
-        <audio src={src} ref={audioRef} />
-        <span className={className} lang={lang} onClick={() => audioRef.current && audioRef.current.play()}>
-            {children}
-        </span>
-    </>);
+    const result = `<audio src="${src}"></audio><span class="${className}" lang="${lang}" onclick="this.previousSibling.play()">${Server.renderToStaticMarkup(<>{children}</>)}</span>`;
+
+    return <span dangerouslySetInnerHTML={{__html: result}} />;
 }
