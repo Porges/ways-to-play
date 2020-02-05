@@ -205,7 +205,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
         alt="Six Hwatu cards showing ribbons with Korean text written on them.">
         Korean <Noun lang="ko-Latn">Hwatu</Noun> cards with ribbons.
     </ArticleImage>
-    <p>There are also differences in the rain main (see below), and depending on the deck, other aspects of the cards can also be translated into Korean cultural terms. For example, the lesser cuckoo of the Japanese cards is in some decks the Oriental magpie, which is the national bird of Korea.</p>
+    <p>There are also differences in the ‘rain man’ (see below), and depending on the deck, other aspects of the cards can also be translated into Korean cultural terms. For example, the lesser cuckoo of the Japanese cards is in some decks the Oriental magpie, which is the national bird of Korea.</p>
     <div className="multi">
         <ArticleImage position="small"
             src={imgKoreanMagpie}
@@ -216,7 +216,7 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
             position="small"
             src={imgJapanvsKorea}
             alt="Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean.">
-        The ‘rain main’ wears traditional clothing in both Japanese and Korean decks. The Japanese man (left) wears a <Noun lang="ja-Latn">Heian</Noun> period courtier’s daily outfit (<span lang="ja">狩衣</span> <span lang="ja-Latn">kariginu</span>), with tall <span lang="ja-Latn">tate-eboshi</span> (<span lang="ja">楯烏帽子</span>) hat, and very tall rain-clogs (<span lang="ja">足駄</span> <span lang="ja-Latn">ashida</span>) on his feet. The Korean man is wearing a noble’s <span lang="ko-Latn">gat</span> (<span lang="ko">갓</span>) hat, and an outer coat with very large sleeves.
+        The ‘rain man’ wears traditional clothing in both Japanese and Korean decks. The Japanese man (left) wears a <Noun lang="ja-Latn">Heian</Noun> period courtier’s daily outfit (<span lang="ja">狩衣</span> <span lang="ja-Latn">kariginu</span>), with tall <span lang="ja-Latn">tate-eboshi</span> (<span lang="ja">楯烏帽子</span>) hat, and very tall rain-clogs (<span lang="ja">足駄</span> <span lang="ja-Latn">ashida</span>) on his feet. The Korean man is wearing a noble’s <span lang="ko-Latn">gat</span> (<span lang="ko">갓</span>) hat, and an outer coat with very large sleeves.
         </ArticleImage>
     </div>
     </section>
