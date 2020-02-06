@@ -7,6 +7,13 @@ export type GameMeta = Readonly<{
 } & ArticleContent>
 
 const games = {
+    'hachi-hachi': {
+        title: "Hachi-Hachi",
+        titleLang: "ja-Latn",
+        players: [3,4,5,6,7],
+        import: React.lazy(() => import(/* webpackChunkName: 'hachi-hachi' */ './HachiHachi')),
+        draft: true
+    },
     kakkuri: {
         title: "Kakkuri",
         titleLang: "ja-Latn",
@@ -27,7 +34,7 @@ const games = {
         import: React.lazy(() => import(/* webpackChunkName: 'morabaraba' */ './Morabaraba'))
     }, 
     camelot: {
-        title: "The Camelot Group",
+        title: "The Camelot Family",
         players: [2, 4],
         import: React.lazy(() => import(/* webpackChunkName: 'camelot' */ './Camelot'))
     },

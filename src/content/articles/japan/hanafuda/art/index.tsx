@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Noun, ArticleImage, ArticleContentProps, Footnote, SourceInfo } from 'ui';
  
-import { OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
+import { EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
 AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu } from
 'References/bibliography.json';
 
@@ -137,12 +137,12 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     <section id="history">
     <section>
       <h2>Origins</h2>
-      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). The origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>). These were courtly competitions in which various objects were compared as to their qualities: objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, sweet-flag roots, wild pinks); animals (insects, songbirds); incense; tea{cite(AnIntroductionToJapaneseTeaRitual, [26])}; birds; or shells. The most privileged of these competitions was the poetry match (<span lang="ja">歌合</span> <Noun lang="ja-Latn">uta-awase</Noun>).</p>
+      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). The distant origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>), which existed since the <Noun lang="ja-Latn">Heian</Noun> period. These were courtly competitions in which various objects were compared as to their qualities: objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, sweet-flag roots, wild pinks); animals (insects, songbirds); incense; tea{cite(AnIntroductionToJapaneseTeaRitual, [26])}; birds; or shells. The most privileged of these competitions was the poetry match (<span lang="ja">歌合</span> <Noun lang="ja-Latn">uta-awase</Noun>).</p>
       <ArticleImage
         src={imgKaiAwase}
         alt="Girls in traditional Japanese dress sitting in a circle around shells that are arranged face-down on the floor."
         source={{license: 'cc0', organization: {orgName: "Metropolitan Museum of Art"}, originalUrl: 'https://www.metmuseum.org/art/collection/search/37303'}}>
-        Girls playing a game of <span lang="ja-Latn">kai-awase</span>.<br/>From <cite lang="ja">潮干のつと</cite> (<cite>Gifts from the Ebb Tide</cite>, 1790), by <Noun lang="ja-Latn">Kitagawa Utamaro</Noun> (<span lang="ja">喜多川歌麿</span>)<br/>
+        Girls playing a game of <span lang="ja-Latn">kai-awase</span>.<br/>From <cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790), by <Noun lang="ja-Latn">Kitagawa Utamaro</Noun> (<span lang="ja">喜多川歌麿</span>)<br/>
       </ArticleImage>
       <p>The most relevant of these games was one based upon matching pairs of shells called <span lang="ja-Latn">kai-awase</span> (<span lang="ja">貝合わせ</span>, ‘shell matching’). This must have originally been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually it developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span>) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
       <ArticleImage
@@ -152,15 +152,21 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
             ]}
         source={{license: 'cc0', organization: {orgName: "Portland Art Museum"}, originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101'}}>
         An 18th-century <span lang="ja-Latn">kai-awase</span> set. The paired boxes are called <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell buckets’), and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
-    </ArticleImage>
+      </ArticleImage>
+      <p><Noun lang="ja-Latn">Hanafuda</Noun> seem to originate in a combination of the ideas of <span lang="ja-Latn">kai-awase</span> (matching sets, poetry, conventionalized art) with the ideas introduced by the Portuguese playing cards (a regular structure of <i>n</i> suits of <i>m</i> cards). Early ancestors of <Noun lang="ja-Latn">Hanafuda</Noun> such as a deck created circa 1704 show a very regular configuration of cards for each flower, which later seems to devolve into the unusual configuration of the <Noun lang="ja-Latn">Hanafuda</Noun> deck.</p>
       <Footnote>
           <p>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.{cite(SatireWithinKibyōshi, [44])}</p>
       </Footnote>
-      <p><Noun lang="ja-Latn">Hanafuda</Noun> were introduced during a period where gambling had been banned as part of the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793). This ban was not lifted until 1886, and the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889.</p>
-      <p>Even after prohibition had ended, <Noun lang="ja-Latn">Hanafuda</Noun> had a poor reputation. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other Supreme Court judges of <span lang="ja-Latn">rōka</span> (<span lang="ja">弄花</span>, gambling with <Noun lang="ja-Latn">Hanafuda</Noun>). Despite a lack of evidence, <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.</p>
+      <p>The game was later restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793). This ban was to remain in place until 1886, when <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
+      <p><Noun lang="ja-Latn">Kihei</Noun> had recently moved to <Noun lang="ja-Latn">Tōkyō</Noun> and was convinced through his reading of legal texts that <Noun lang="ja-Latn">Hanafuda</Noun> were not actually prohibited. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince newspapers to print his advertisements. So, in order to prove himself correct, he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hanafuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hanafuda</Noun> was legal, and later that month he opened his first shop in Nihonbashi, named <Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>).{cite(EbashiHanafuda, [[189, 192]])}</p>
+      <Footnote>
+        <p><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</p>
+      </Footnote>
+      <p><Noun lang="ja-Latn">Kamigataya</Noun> was the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Kihei</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in the Ginza area, which became instantly successful. Once the viability of <Noun lang="ja-Latn">Hanafuda</Noun> had been proven, other manufacturers appeared quickly: the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889. Other companies such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> claim to have been operating discreetly during the prohibition period; in their case behind the doors of a rice merchant named <Noun lang="ja-Latn">Minatoya</Noun> (<span lang="ja">湊屋</span>).{cite(OishiTengudoHistory4)}</p>
+      <p>However, even after prohibition had ended, <Noun lang="ja-Latn">Hanafuda</Noun> retained a poor reputation. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other Supreme Court judges of <span lang="ja-Latn">rōka</span> (<span lang="ja">弄花</span>, gambling with <Noun lang="ja-Latn">Hanafuda</Noun>). Despite a lack of evidence, <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.</p>
     </section>
     <section>
-      <h2>The cards</h2>
+      <h2>The Cards</h2>
       <p>The culture of the <Noun lang="ja-Latn">Edo</Noun> period in which <Noun lang="ja-Latn">Hanafuda</Noun> cards appeared was heavily influenced by the aristocratic culture of the earlier <Noun lang="ja-Latn">Heian</Noun> period (794–1185). As such, the art of the cards abounds with references to <Noun lang="ja-Latn">Heian</Noun> period literature, festivals, and artistic tropes:</p>
       <blockquote className="blockquote">
       <p>With the exception of the peony, which entered the poetic canon in the <Noun lang="ja-Latn">Edo</Noun> period, all the images are from classical poetry of the <Noun lang="ja-Latn">Heian</Noun> period and reflect urban commoners’ knowledge of the poetic and cultural associations of the months.{cite(FourSeasons, [[1739,1741]], {page:"l."})}</p>
@@ -360,11 +366,8 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
         ]}>
         The cards for March show the famous cherry blossoms of Japan. There is one bright card, one scroll card (with text), and two junk cards.
     </ArticleImage>
-    <Footnote>
-        Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
-    </Footnote>
     <ArticleImage
-        position="right"
+        position="left"
         src={img16944}
         alt="A picture of three women and a man consuming heated sake under a cherry tree in blossom, while surrounded by striped curtains."
         source={{
@@ -372,8 +375,12 @@ const Hanafuda: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
             originalUrl: "https://www.flickr.com/photos/library_of_congress/16944707362",
             organization: { orgName: "Library of Congress" }
         }} >
-        <cite>3rd Month: Blossom-Viewing in Askukayama</cite><br/><cite lang="ja">三月　飛鳥山花見</cite><br/>by <Noun lang="ja-Latn">Kitao Shigemasa</Noun> (<span lang="ja">北尾 重政</span>, 1739–1820).
+        <cite>Third Month: Blossom-Viewing in Askukayama</cite><br/><cite lang="ja">三月　飛鳥山花見</cite><br/>by <Noun lang="ja-Latn">Kitao Shigemasa</Noun> (<span lang="ja">北尾 重政</span>, 1739–1820).
     </ArticleImage>
+    <Footnote>
+        <p>Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.</p>
+        <p>Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).</p>
+    </Footnote>
     <p>The scroll of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’. This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
     <p>Blossom-viewing (<span lang="ja">花見</span> {pronounce("samchie", "hanami", "ja-Latn", pronHanami)}), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period.</p>
     <p>The curtains (<span lang="ja">幕</span> {pronounce("skent", "maku", "ja-Latn", pronMaku)}) on the bright card are for providing privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the right. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>

@@ -3563,5 +3563,24 @@
         "issued": {"year": 2009},
         "publisher": "中央公論新社",
         "publisher-place": "Tōkyō, Japan"
+    },
+    "OishiTengudoHistory4": {
+        "id": "OishiTengudoHistory4",
+        "type": "webpage",
+        "title": "大石天狗堂口伝　第四章",
+        "title-lang": "ja",
+        "publisher": "大石天狗堂",
+        "issued": {"year": 2014},
+        "URL": "https://www.tengudo.jp/blog/karuta-news/692.html"
+    },
+    "EbashiHanafuda": {
+        "id": "EbashiHanafuda",
+        "type": "book",
+        "title": "花札",
+        "title-lang": "ja",
+        "author": [{"given":"崇","family":"江橋"}],
+        "issued": {"year": 2014},
+        "publisher": "法政大学出版局",
+        "publisher-place": "Tōkyō, Japan"
     }
 }
