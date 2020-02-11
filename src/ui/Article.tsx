@@ -9,6 +9,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
 
+import { SectionContext } from './Section';
+
 type Props = {
   content: ArticleContent,
   infoBox?: React.ReactNode,
@@ -136,11 +138,13 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
       <Row>
         <Col lg="1" />
         <Col lg="7">
-          <section itemProp="articleBody">
-            <React.Suspense fallback={<p>Loading content...</p>}>
-              <Import cite={cite} pronounce={pronunciation} />
-            </React.Suspense>
-          </section>
+          <SectionContext.Provider value={2}>
+            <section itemProp="articleBody">
+              <React.Suspense fallback={<p>Loading content...</p>}>
+                <Import cite={cite} pronounce={pronunciation} />
+              </React.Suspense>
+            </section>
+          </SectionContext.Provider>
           {state.cited.length > 0 &&
             <section id="references">
               <h2>References</h2>

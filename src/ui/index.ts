@@ -6,3 +6,4 @@ export * from "./License";
 export * from "./Noun";
 export * from "./Person";
 export * from "./Pronunciation";
+export * from "./Section";

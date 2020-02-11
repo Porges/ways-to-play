@@ -57,8 +57,16 @@ h1 {
     margin-bottom: 0rem;
 }
 
-h1 a {
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
+}
+
+.permalink {
+    display: none;
+}
+
+:hover > .permalink {
+    display: inline;
 }
 
 h2 {
