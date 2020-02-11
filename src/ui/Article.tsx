@@ -49,12 +49,6 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
     setState({ url, cited: [], pronunciation: [] });
   }
 
-  // scroll to top when navigating to a new game
-  React.useEffect(() => {
-    // TODO: a better way to save/restore scroll state
-    //    window.scrollTo(0, 0);
-  }, [url]);
-
   const pronunciation = (pronouncer: string, word: string, lang: string, file: string, noun: boolean = false) => {
     let index = state.pronunciation.findIndex(x => x.word === word);
     if (index === -1) {
