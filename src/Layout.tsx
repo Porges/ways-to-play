@@ -16,10 +16,10 @@ const App: React.FC = () => {
     <header>
       <Navbar bg="darker" variant="dark">
       <Container>
-        <Navbar.Brand as={Link} to="/"><img src="/images/favicon.png" height="16" width="16" alt=""/> Ways to Play</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"><img src="/images/favicon.png" height="16" width="16" alt=""/>&#8239;Ways to Play</Navbar.Brand>
         <Nav as="ul">
-          <li><Nav.Link as={Link} to="/articles"><span role="img" aria-label="">🧾</span>&nbsp;Articles</Nav.Link></li>
-          <li><Nav.Link as={Link} to="/games"><span role="img" aria-label="">🎲</span>&nbsp;Games</Nav.Link></li>
+          <li><Nav.Link as={Link} to="/articles"><span role="img" aria-label="">🧾</span>&#8239;Articles</Nav.Link></li>
+          <li><Nav.Link as={Link} to="/games"><span role="img" aria-label="">🎲</span>&#8239;Games</Nav.Link></li>
         </Nav>
         </Container>
       </Navbar>
