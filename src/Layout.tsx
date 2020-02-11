@@ -14,18 +14,13 @@ const App: React.FC = () => {
     <>
     <Helmet defaultTitle="Ways To Play" titleTemplate="%s · Ways To Play" />
     <header>
-      <Navbar bg="darker" variant="dark" expand="sm">
+      <Navbar bg="darker" variant="dark">
       <Container>
         <Navbar.Brand as={Link} to="/"><img src="/images/favicon.png" height="16" width="16" alt=""/> Ways to Play</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbar-nav" />
-        <Navbar.Collapse id="navbar-nav">
-          <Nav as="ul" className="ml-auto">
-            <li><Nav.Link as={Link} to="/about">About</Nav.Link></li>
-            <li><Nav.Link as={Link} to="/articles">Articles</Nav.Link></li>
-            <li><Nav.Link as={Link} to="/games">Games</Nav.Link></li>
-            <li><Nav.Link as={Link} to="/bibliography">Bibliography</Nav.Link></li>
-          </Nav>
-        </Navbar.Collapse>
+        <Nav as="ul">
+          <li><Nav.Link as={Link} to="/articles"><span role="img" aria-label="">🧾</span>&nbsp;Articles</Nav.Link></li>
+          <li><Nav.Link as={Link} to="/games"><span role="img" aria-label="">🎲</span>&nbsp;Games</Nav.Link></li>
+        </Nav>
         </Container>
       </Navbar>
     </header>
