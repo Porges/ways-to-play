@@ -110,10 +110,14 @@ main {
     padding-bottom: 3em;
 }
 
+// I really want these but they mostly look bad
+// due to poor justification algorithms.
+/*
 p {
     hyphens: auto;
     text-align: justify;
 }
+*/
 
 section {
     display: flow-root;
