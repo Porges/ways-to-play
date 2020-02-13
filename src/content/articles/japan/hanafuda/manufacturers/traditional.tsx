@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleContentProps, ArticleImage, Noun, Footnote } from 'ui';
+import { ArticleContentProps, ArticleImage, Noun, Footnote, Section } from 'ui';
 import { TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
@@ -21,11 +21,11 @@ import imgMarioBrights from './Nintendo_Mario_Brights.jpg';
 import imgOishiMark from './Oishi_Mark.jpg';
 import imgAkataNewspaper from './Akata-Newspaper.jpg';
 import imgAkataCard from './Akata-Card.jpg';
+import imgNintendoShop from './nintendo-shop.jpg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
-    return (
-        <section id="manufacturers">
-        <h2>Identification</h2>
+    return (<>
+      <Section title="Identification">
         <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the front of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the end of the container. So a box of <Noun lang="ja-Latn">Nintendō</Noun> cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
         <ArticleImage
             position="small"
@@ -33,26 +33,35 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="The end of a Hanafuda wrapper with Japanese writing indicating its contents.">
             The end of a <Noun lang="ja-Latn">Nintendō</Noun> wrapper indicating that it contains<br/>standard (<span lang="ja">八々花</span> <span lang="ja-Latn">hachihachibana</span>) Hanafuda cards, with black (<span lang="ja">黒</span>) backs.
         </ArticleImage>
-        <h3>Manufacturer’s marks</h3>
-        <Footnote>Also be aware that Japanese can be written in either direction; {cite(OstasiatischeSpielkarten, [136], {inline: true})} describes a deck made by a mysterious manufacturer named ‘<Noun lang="ja-Latn">Dōtennin</Noun>’.</Footnote>
-        <p>Within the deck, the manufacturer’s name or mark is nowadays always on one of the Paulownia junk cards, but on older decks it is often on the Peony, or another card entirely.</p>
-        <ArticleImage
-            position="small"
-            src={imgMarks}
-            alt="Three cards all featuring Paulownia flowers, with maker’s marks printed upon them.">
-            Manufacturer’s marks from <Noun lang="ja-Latn">Nintendō</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.</ArticleImage>
-        <p>Often the mark is a simplified version of the name, or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <Noun lang="ja-Latn">Nintendō</Noun>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “<a href="https://en.wikipedia.org/wiki/Circle_K">Circle K</a>”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).</p>
-        <h2>Current Manufacturers</h2>
+        <Section title="Manufacturer’s marks">
+          <Footnote>Also be aware that Japanese can be written in either direction; {cite(OstasiatischeSpielkarten, [136], {inline: true})} describes a deck made by a mysterious manufacturer named ‘<Noun lang="ja-Latn">Dōtennin</Noun>’.</Footnote>
+          <p>Within the deck, the manufacturer’s name or mark is nowadays always on one of the Paulownia junk cards, but on older decks it is can be on a Peony or Wisteria (or another card entirely).</p>
+          <ArticleImage
+              position="small"
+              src={imgMarks}
+              alt="Three cards all featuring Paulownia flowers, with maker’s marks printed upon them.">
+              Manufacturer’s marks from <Noun lang="ja-Latn">Nintendō</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.</ArticleImage>
+          <p>Often the mark is a simplified version of the name, or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <Noun lang="ja-Latn">Nintendō</Noun>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “<a href="https://en.wikipedia.org/wiki/Circle_K">Circle K</a>”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).</p>
+        </Section>
+      </Section>
+      <Section title="Current Manufacturers">
         <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture. The <Noun lang="ja-Latn">Kansai</Noun> region (which contains both <Noun lang="ja-Latn">Kyōto</Noun> and <Noun lang="ja-Latn">Ōsaka</Noun>) is the original source of <Noun lang="ja-Latn">Hanafuda</Noun> cards.</p>
-        <section id="nintendo">
-          <h3><Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</h3>
+        <Section title={<><Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</>}>
+          <p>Founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889, <Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company producing <Noun lang="jp-Latn">Hanafuda</Noun> cards today.</p>
+          <ArticleImage
+            position="wide"
+            src={imgNintendoShop}
+            alt="A wooden storefront with wrought-iron railings and a bicycle parked outside."
+            source={{license: "cc0"}}>
+            The <Noun lang="ja-Latn">Nintendō</Noun> storefront in Kyōtō in 1889.
+          </ArticleImage>
           <ArticleImage
             position="right"
             src={imgNintendo}
             alt="A Hanafuda wrapper featuring an image of Napoleon on the front.">
             <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s). Note the <Noun lang="ja-Latn">Marufuku</Noun> mark at top right.
           </ArticleImage>
-          <p>Founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889, <Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company producing <Noun lang="jp-Latn">Hanafuda</Noun> cards today. In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mekuri</Noun> cards, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> ‘president’ (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span> (<Noun lang="ja-Latn">Marufuku</Noun> being <Noun lang="ja-Latn">Nintendō</Noun>’s manufacturer’s mark); and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
+          <p>In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mekuri</Noun> cards, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> ‘president’ (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span> (<Noun lang="ja-Latn">Marufuku</Noun> being <Noun lang="ja-Latn">Nintendō</Noun>’s manufacturer’s mark); and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
           <p><Noun lang="ja-Latn">Nintendō</Noun> <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:{cite(ModernJapaneseWrappers, [54])}</p>
           <ul>
             <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804)</li>
@@ -84,9 +93,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="TODO">
             <Noun lang="ja-Latn">Nintendō</Noun>’s Mario deck, featuring recurring characters from the Mario series.
           </ArticleImage>
-        </section>
-        <section id="oishi-tengudo">
-          <h3><a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</h3>
+        </Section>
+        <Section title={<><a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</>}>
           <p>Also based in <Noun lang="ja-Latn">Kyōto</Noun>, <Noun lang="ja-Latn">Ōishi Tengudō</Noun> produces a wide variety of traditional Japanese card games. As far as I know, they are the only major manufacturer still producing <Noun lang="ja-Latn">Mefuda</Noun> cards. They also produce reproductions of even older cards, such as the <Noun lang="ja-Latn">Unsun</Noun> deck.</p>
           <p>Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top, but on some decks (e.g. <Noun lang="ja-Latn">Echigo-kobana</Noun>), they have used <span lang="ja">大</span> in a square. Brands produced by <Noun lang="ja-Latn">Ōishi Tengudō</Noun> in the past included:{cite(ModernJapaneseWrappers, [[57, 58]])}</p>
           <ul>
@@ -109,18 +117,18 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">一癶</span>, (<span lang="ja-Latn">ippatsu</span>, ‘one shot’, e.g. baseball home run or a mahjong term)</li>
           </ul>
           <div className="multi">
-          <ArticleImage
-            position="small"
-            src={imgOishiTengudo}
-            alt="The front of a wooden Hanafuda box with a pasted-on image of a Tengu mask.">
-            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <Noun lang="ja-Latn">Kin Tengu</Noun> decks come in Paulownia-wood boxes.
-          </ArticleImage>
-          <ArticleImage
-            position="small"
-            src={imgOishiMark}
-            alt="A card with wistera showing the manufacturer’s mark.">
-            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s manufacturer’s mark, on a Wisteria card from an old <Noun lang="ja-Latn">Narikin</Noun> deck.
-          </ArticleImage>
+            <ArticleImage
+              position="small"
+              src={imgOishiTengudo}
+              alt="The front of a wooden Hanafuda box with a pasted-on image of a Tengu mask.">
+              <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <Noun lang="ja-Latn">Kin Tengu</Noun> decks come in Paulownia-wood boxes.
+            </ArticleImage>
+            <ArticleImage
+              position="small"
+              src={imgOishiMark}
+              alt="A card with wistera showing the manufacturer’s mark.">
+              <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s manufacturer’s mark, on a Wisteria card from an old <Noun lang="ja-Latn">Narikin</Noun> deck.
+            </ArticleImage>
           </div>
           <p>In addition to the many standard & local patterns of <Noun lang="ja-Latn">Hanafuda</Noun> they produce, they also publish some novelty decks, such as the <b><Noun lang="ja-Latn">Kyōto Hanafuda</Noun></b>:</p>
           <ArticleImage
@@ -129,9 +137,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             The <Noun lang="ja-Latn">Kyōto Hanafuda</Noun>’s 5 Brights, showing icons and landmarks of <Noun lang="ja-Latn">Kyōto</Noun>.
             From left to right they represent: a fox with a jewel in its mouth, from the gate of the <a href="https://en.wikipedia.org/wiki/Fushimi_Inari-taisha"><Noun lang="ja-Latn">Fushimi Inari</Noun> shrine</a> (<span lang="ja">伏見稲荷大社</span>); <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"><Noun lang="ja-Latn">Toyotomi Hideyoshi</Noun></a> (<span lang="ja">豊臣秀吉</span>), <a href="https://en.wikipedia.org/wiki/K%C5%8Ddai-in"><Noun lang="ja-Latn">Kita no Mandokoro</Noun></a> (<span lang="ja">北政所</span>), and <a href="https://en.wikipedia.org/wiki/Yodo-dono"><Noun lang="ja-Latn">Yodogimi</Noun></a> (<span lang="ja">淀君</span>) at <a href="https://en.wikipedia.org/wiki/Fushimi_Castle">Fushimi Castle</a> (<span lang="ja">伏見城</span>); the character <span lang="ja">大</span> (<span lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <Noun lang="ja-Latn">Daimonji</Noun> (<span lang="ja">大文字山</span>) during the festival of <a href="https://en.wikipedia.org/wiki/Gozan_no_Okuribi"><Noun lang="ja-Latn">Gozan no Okuribi</Noun></a> (<span lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk <a href="https://en.wikipedia.org/wiki/Benkei"><Noun lang="ja-Latn">Benkei</Noun></a> (<span lang="ja">弁慶</span>) meeting <a href="https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune"><Noun lang="ja-Latn">Minamoto no Yoshitsune</Noun></a> (<span lang="ja">源義経</span>), who is playing the flute, at <Noun lang="ja-Latn">Gojō</Noun> bridge (<span lang="ja">五条橋</span>); and the <a href="https://en.wikipedia.org/wiki/Kyoto_Sanga_FC"><Noun lang="ja-Latn">Kyōto Sanga</Noun></a> (<span lang="ja">京都サンガ</span>) football club, whose logo contains the Chinese/Japanese phoenix that is normally featured on the Paulownia bright card.
           </ArticleImage>
-        </section>
-        <section id="angel">
-          <h3><a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)</h3>
+        </Section>
+        <Section title={<><a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)</>}>
           <ArticleImage
             position="right"
             src={imgGenroku}
@@ -154,9 +161,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
             The extra cards of Angel’s “Hana-Trump” deck. 
           </ArticleImage>
-        </section>
-        <section id="tamura-shogundo">
-          <h3><a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</h3>
+        </Section>
+        <Section title={<><a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</>}>
           <Footnote>The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th <a href="https://en.wikipedia.org/wiki/Tango_no_sekku"><Noun lang="ja-Latn">Tango no Sekku</Noun></a> festival, where they are placed on top of tall poles from which <a href="https://en.wikipedia.org/wiki/Koinobori"><span lang="ja-Latn">koi</span> streamers</a> are flown.</Footnote>
           <p>A small manufacturer (founded in either 1921 or 1963?). Unlike other manufacturers, their mark is not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">矢車</span>, ‘arrow wheel’). They have also published <Noun lang="ja-Latn">Harifuda</Noun> and <Noun lang="ja-Latn">Shirofuda</Noun> (blank cards) under the mark <span lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
           <p>Most of <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s cards are produced with hand-wrapped backing paper; they have <a href="http://www5f.biglobe.ne.jp/~karutaya/brand.html">another web page that details their manufacturing process</a>.</p>
@@ -193,11 +199,11 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               alt="Five hanafuda cards with very bold colours, unlike normal hanafuda cards.">
               The 5 Brights of the <span lang="ja-Latn">Nishiki</span> pattern.
           </ArticleImage>
-        </section>
-        <h2>Extinct Japanese Producers</h2>
+        </Section>
+      </Section>
+      <Section title="Extinct Manufacturers">
         <p>These are producers that do not exist any more.</p>
-        <section id="matsui-tengudo">
-          <h3><Noun lang="ja-Latn">Matsui Tengudō</Noun> (<span lang="ja">松井天狗堂</span>)</h3>
+        <Section title={<><Noun lang="ja-Latn">Matsui Tengudō</Noun> (<span lang="ja">松井天狗堂</span>)</>}>
           <Footnote>There was also an <Noun lang="ja-Latn">Ōsaka</Noun>-based <Noun lang="ja-Latn">Matsui Tengudō</Noun>, started by the younger brother of <Noun lang="ja-Latn">Matsui Shigejiro</Noun>, which had actually opened before the <Noun lang="ja-Latn">Kyōto</Noun> branch. It used the same manufacturer’s mark but closed after the second generation.</Footnote>
           <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> was founded in <Noun lang="ja-Latn">Kyōto</Noun> in 1897 by <Noun lang="ja-Latn">Matsui Shigejiro</Noun> (<span lang="ja">松井重次郎</span>), and was run by the <Noun lang="ja-Latn">Matsui</Noun> family for three generations until it closed in 2010 after <Noun lang="ja-Latn">Matsui Shigeo</Noun> (<span lang="ja">松井重夫</span>, <abbr title="born">b.</abbr> 1931) retired.{cite(IwanoMatsui)}</p>
           <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> was the last manufacturer to make cards entirely by hand;{cite(SalterJapanese)} <Noun lang="ja-Latn">Matsui Shigeo</Noun> had recovered this process in 1976 as a way to distinguish his cards from those being produced by other manufacturers, after a former teacher of his told him to “make something that doesn’t exist anywhere”.{cite(TewazaNoKioku)}</p>
@@ -218,9 +224,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">冨士櫻</span> (<span lang="ja-Latn">fujizakura</span>, ‘<Noun lang="ja-Latn">Fuji</Noun> cherry blossoms’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">三光</span> (<span lang="ja-Latn">sankō</span>, ‘three brights’)</li>
           </ul>
-        </section>
-        <section id="ace">
-          <h3>Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>)</h3>
+        </Section>
+        <Section title={<>Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>)</>}>
           <ArticleImage
             position="right"
             src={imgAce}
@@ -237,9 +242,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">紅葉</span> (<span lang="ja-Latn">momiji</span> ‘autumn leaves’)</li>
           </ul>
           <p>They also made two all-plastic <Noun lang="ja-Latn">Hanafuda</Noun> decks: <span lang="ja">金花</span> (<span lang="ja-Latn">kin-hana</span> ‘gold flowers’) and <span lang="ja">銀花</span> (<span lang="ja-Latn">gin-hana</span> ‘silver flowers’).</p>
-        </section>
-        <section>
-          <h3><Noun lang="ja-Latn">Maruē</Noun> (<span lang="ja">マルエー</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Maruē</Noun> (<span lang="ja">マルエー</span>)</>}>
           <ArticleImage
             position="right"
             src={imgMarue}
@@ -256,21 +260,18 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">gotensakura</span>, ‘palace cherry blossoms’)</li>
             <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yorusakura</span> ‘evening cherry blossoms’)</li>
           </ul>
-        </section>
-        <section id="tanaka-gyokusuido">
-          <h3><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)</>}>
           <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,{cite(Yamaguchi, [102])} but had stopped producing in the early 1960s.{cite(ModernJapaneseWrappers, [33])} Their manufacturer’s mark was <span lang="ja">田</span> with corner on top. The brand <Noun lang="ja-Latn">Fukusuke</Noun> and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>.{cite(ModernJapaneseWrappers, [59])}</p>
-        </section>
-        <section id="iwata-honten">
-          <h3><Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
           <p><Noun lang="ja-Latn">Iwata</Noun> (<Noun lang="ja-Latn">Kyōto</Noun>) had its own brands but the cards were made by <Noun lang="ja-Latn">Tamura Shōgundō</Noun>. Brands included:{cite(ModernJapaneseWrappers, [48])}</p>
           <ul>
             <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
             <li><span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
           </ul>
-        </section>
-        <section id="nihon-karuta">
-          <h3><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)</>}>
           <p><Noun lang="ja-Latn">Nihon Karuta</Noun> claimed to have been founded in 1806.{cite(TewazaNoKioku)} It had definitely existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895. Records show that they also existed in 1948{cite(Yamaguchi, [102])} and through to at least the early 1980s.{cite(ModernJapaneseWrappers, [54])} Their mark was <span lang="ja">中</span> with corner at top-right. Brands included:{cite(ModernJapaneseWrappers, [[54,55]])}</p>
           <ul>
             <li><span lang="ja">花の王</span> (<span lang="ja-Latn">hana no ō</span>, ‘queen of flowers’, the <a href="https://en.wikipedia.org/wiki/Cattleya">Cattleya</a>)</li>
@@ -292,9 +293,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">大入</span> (<span lang="ja-Latn">ōiri</span>, ‘full house’, a theatre term)</li>
             <li><span lang="ja">東錦</span> (<span lang="ja-Latn">higashinishiki</span>, ‘eastern brocade’)</li>
           </ul>
-        </section>
-        <section id="yamashiro">
-          <h3><Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</>}>
           <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,{cite(Yamaguchi, [102])} but stopped producing in 1962.{cite(ModernJapaneseWrappers, [33])} Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span lang="ja">十</span>). Brands included:</p>
           <ul>
             <li><span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold baldy’, ‘baldy’ being a nickname for a priest)</li>
@@ -302,30 +302,25 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>, ‘nine-tattoo dragon’, a nickname for <a href="https://en.wikipedia.org/wiki/Shi_Jin">Shi Jin</a>)</li>
             <li><span lang="ja">大黒</span> (<span lang="ja-Latn">daikoku</span>, <a href="https://en.wikipedia.org/wiki/Daikokuten">Daikokuten</a>)</li>
           </ul>
-        </section>
-        <section id="ryutendo">
-          <h3><Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</>}>
           <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">龍</span> (they also possibly had another trade name of <span lang="ja">マルナ</span> with circled <span lang="ja" className="circled">名</span> as mark). Brands included:</p>
           <ul>
             <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsutagawa</span> ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’)</li>
             <li><span lang="ja">天龍</span> (<span lang="ja-Latn">tenryū</span> ‘<Noun lang="ja-Latn">Tenryū</Noun>’)</li>
             <li><span lang="ja">龍王</span> (<span lang="ja-Latn">ryūō</span> ‘dragon king’)</li>
           </ul>
-        </section>
-        <section id="inoue">
-          <h3><Noun lang="ja-Latn">Inoue Juntendō</Noun> (<span lang="ja">井上順天堂</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Inoue Juntendō</Noun> (<span lang="ja">井上順天堂</span>)</>}>
           <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">順</span>.</p>
-        </section>
-        <section id="nakao">
-          <h3><Noun lang="ja-Latn">Nakao Seikadō</Noun> (<span lang="ja">中尾清花堂</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Nakao Seikadō</Noun> (<span lang="ja">中尾清花堂</span>)</>}>
           <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was <span lang="ja">セ</span> with corner at top-right.</p>
-        </section>
-        <section id="baba">
-          <h3><Noun lang="ja-Latn">Baba Keieidō</Noun> (<span lang="ja">馬場京栄堂</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Baba Keieidō</Noun> (<span lang="ja">馬場京栄堂</span>)</>}>
           <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">京</span>.</p>
-        </section>
-        <section id="heibon">
-          <h3><Noun lang="ja-Latn">Heibon</Noun> (<span lang="ja">平凡</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Heibon</Noun> (<span lang="ja">平凡</span>)</>}>
           <p>This <Noun lang="ja-Latn">Tōkyō</Noun> manufacturer stopped producing shortly after 1972.{cite(ModernJapaneseWrappers, [42])} Brands included:</p>
           <ul>
             <li><span lang="ja">四天王</span> (<span lang="ja-Latn">shi tennō</span> the <a href="https://en.wikipedia.org/wiki/Four_Heavenly_Kings">four heavenly kings</a>), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
@@ -334,9 +329,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">旭富士</span> (<span lang="ja-Latn">asahifuji</span> ‘<Noun lang="ja-Latn">Fuji</Noun> sunrise’)</li>
             <li><span lang="ja">桜判官</span> (<span lang="ja-Latn">sakurahangan</span> ‘cherry blossom judge’, apparently a reference to a judge with a cherry blossom tattoo)</li>
           </ul>
-        </section>
-        <section id="kawakita">
-          <h3><Noun lang="ja-Latn">Kawakita</Noun> (<span lang="ja">川北</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Kawakita</Noun> (<span lang="ja">川北</span>)</>}>
           <p><Noun lang="ja-Latn">Kawakita</Noun> had its own brands but cards were made by <Noun lang="ja-Latn">Yamashiro Shōten</Noun>. It closed after 1962.{cite(ModernJapaneseWrappers, [[48, 49]])} Brands included:</p>
           <ul>
             <li><span lang="ja">牛若丸</span> (<span lang="ja-Latn">ushiwakamaru</span>, the childhood name of <a href="https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune" lang="ja-Latn" className="proper-noun">Minamoto no Yoshitsune</a>)</li>
@@ -346,9 +340,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">大文字</span> (<span lang="ja-Latn">daimonji</span>, <a href="https://en.wikipedia.org/wiki/Gozan_no_Okuribi">a mountain in <Noun lang="ja-Latn">Kyōto</Noun></a>)</li>
             <li><span lang="ja">祇園</span> (<span lang="ja-Latn">gion</span>, the <span lang="ja-Latn">geisha</span> district of <Noun lang="ja-Latn">Kyōto</Noun>)</li>
           </ul>
-        </section>
-        <section id="kohara">
-          <h3><Noun lang="ja-Latn">Kohara Honten</Noun> (<span lang="ja">小原本店</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Kohara Honten</Noun> (<span lang="ja">小原本店</span>)</>}>
           <p><Noun lang="ja-Latn">Kohara</Noun> was a manufacturer based in <Noun lang="ja-Latn">Ōsaka</Noun> until 1980.{cite(ModernJapaneseWrappers, [48])} Their manufacturer’s mark was a circled <span lang="ja" className="circled">さ</span>, and brands included:</p>
           <ul>
             <li><span lang="ja">鬼印</span> (<span lang="ja-Latn">onijirushi</span>, ‘ogre brand’, also for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Harifuda</Noun>)</li>
@@ -360,9 +353,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">宝船</span> (<span lang="ja-Latn">takarabune</span>, ‘treasure ship’)</li>
             <li><span lang="ja">寶引</span> (<span lang="ja-Latn">hōbiki</span>, ‘treasure pull’, a kind of lottery where one rope out of a bundle was tied to the prize, and whoever pulled it won; these were <Noun lang="ja-Latn">Hikifuda</Noun> cards)</li>
           </ul>
-        </section>
-        <section id="nishimura">
-          <h3><Noun lang="ja-Latn">Nishimura</Noun> (<span lang="ja">西村</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Nishimura</Noun> (<span lang="ja">西村</span>)</>}>
           <p>At first an important manufacturer in <Noun lang="ja-Latn">Tōkyō</Noun>, but later cards were made by other makers including <Noun lang="ja-Latn">Ōishi Tengudō</Noun>. Their mark was a circled <span lang="ja" className="circled">い</span>, and their brands included:{cite(ModernJapaneseWrappers, [54, 58])}</p>
           <ul>
             <li><span lang="ja">金助六</span> (<span lang="ja-Latn">kinsukeroku</span>, ‘golden <a href="https://en.wikipedia.org/wiki/Sukeroku" className="proper-noun" lang="ja-Latn">Sukeroku</a>’)</li>
@@ -373,9 +365,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">百万石</span> (<span lang="ja-Latn">hyakumangoku</span>, ‘one million <a href="https://en.wikipedia.org/wiki/Koku" lang="ja-Latn">koku</a>’, a nickname for the rich <a lang="ja-Latn" href="https://en.wikipedia.org/wiki/Kaga_Domain">Kaga domain</a>, or its lord, in the <Noun lang="ja-Latn">Edo</Noun> period), no longer produced as of 1980</li>
             <li><span lang="ja">奴さん</span> (<span lang="ja-Latn">yakkosan</span>, ‘guy’, a samurai manservant, also a traditional origami shape imitating a man), no longer produced as of 1980</li>
           </ul>
-        </section>
-        <section id="kyoto-karuta">
-          <h3><Noun lang="ja-Latn">Kyōto Karuta</Noun> (<span lang="ja">京都かるた</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Kyōto Karuta</Noun> (<span lang="ja">京都かるた</span>)</>}>
           <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer, whose brands included:{cite(ModernJapaneseWrappers, [49])}</p>
           <ul>
             <li><span lang="ja">金の司</span> (<span lang="ja-Latn">kin no tsukasa</span> ‘officer of gold’)</li>
@@ -386,9 +377,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">短冊</span> (<span lang="ja-Latn">tanzaku</span>, ‘poetry strip’)</li>
             <li><span lang="ja">ぼたん</span> (<span lang="ja-Latn">botan</span>, ‘peony’)</li>
           </ul>
-        </section>
-        <section id="dai-nippon">
-          <h3><Noun lang="ja-Latn">Dai Nippon</Noun> (<span lang="ja">大日本</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Dai Nippon</Noun> (<span lang="ja">大日本</span>)</>}>
           <p>A manufacturer from <Noun lang="ja-Latn">Yōkaichi</Noun> (now part of <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture. Brands included:{cite(ModernJapaneseWrappers, [46])}</p>
           <ul>
             <li><span lang="ja">銀達磨</span> (<span lang="ja-Latn">gindaruma</span> ‘silver <a href="https://en.wikipedia.org/wiki/Bodhidharma">Daruma</a>’)</li>
@@ -397,9 +387,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">金瓠</span> (<span lang="ja-Latn">kinhyō</span> ‘gold gourd’)</li>
             <li><span lang="ja">豊太閤</span> (<span lang="ja-Latn">hōtaikō</span>, a title of honour for <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi">Toyotomi Hideyoshi</a>)</li>
           </ul>
-        </section>
-        <section id="nippon-yugi">
-          <h3><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>)</h3>
+        </Section>
+        <Section title={<><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>)</>}>
           <p><Noun lang="ja-Latn">Nippon Yūgi</Noun> was founded in <Noun lang="ja-Latn">Tōkyō</Noun> in 1946. They still exist but no longer appear to produce <Noun lang="ja-Latn">Hanafuda</Noun> cards, instead specializing in tarot. Their previous brands included:{cite(ModernJapaneseWrappers, [54])}</p>
           <ul>
             <li><span lang="ja">白鶴</span> (<span lang="ja-Latn">hakuzuru</span>, ‘white crane’)</li>
@@ -411,21 +400,18 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">花川戸</span> (<span lang="ja-Latn">hanakawado</span>, a place in <Noun lang="ja-Latn">Tōkyō</Noun>)</li>
             <li><span lang="ja">花あわせ</span> (<span lang="ja-Latn">hana-awase</span>, ‘flower matching’)</li>
           </ul>
-        </section> 
-        <section id="universal">
-          <h3>Universal (<span lang="ja">ユニバーサル</span>)</h3>
+        </Section> 
+        <Section title={<>Universal (<span lang="ja">ユニバーサル</span>)</>}>
           <p>Universal was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for <Noun lang="ja-Latn">Nintendō</Noun>. Their own brands included:{cite(ModernJapaneseWrappers, [59, 62])}</p>
           <ul>
             <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomuhana</span>, ‘rubber flower’)</li>
             <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’)</li>
           </ul>
-        </section>
-        <section id="kawai">
-          <h3><Noun lang="ja-Latn">Kawai</Noun></h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Kawai</Noun></>}>
           <p>A manufacturer from <Noun lang="ja-Latn">Ōsaka</Noun>, whose mark was <span lang="ja">万</span> with corner at top-right.{cite(OstasiatischeSpielkarten, [135])}</p>
-        </section>
-        <section id="akada">
-          <h3><Noun lang="ja-Latn">Akata Shōjōya</Noun> (<span lang="ja">赤田猩々屋</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Akata Shōjōya</Noun> (<span lang="ja">赤田猩々屋</span>)</>}>
           <Footnote>BnF Gallica has <a href="https://gallica.bnf.fr/ark:/12148/btv1b105093472">high-quality scans</a> of this deck, and Yale University also <a href="https://search.library.yale.edu/catalog/13318512">owns a copy</a>.</Footnote>
           <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer whose mark was <span lang="ja">松</span> in a circle.</p>
           <div className="multi">
@@ -451,25 +437,23 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               An advertisement for <Noun lang="ja-Latn">Akata Shōjōya</Noun> cards in the <a href="https://en.wikipedia.org/wiki/Nichi_Bei_Times">Nichi Bei Times</a>, September 1921. This indicates the cards were being imported into San Francisco in the 1920s.
             </ArticleImage>
           </div>
-        </section>
-        <section id="suisando">
-          <h3><Noun lang="ja-Latn">Suisando</Noun> (<span lang="ja">翠山堂</span>)</h3>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Suisando</Noun> (<span lang="ja">翠山堂</span>)</>}>
           <p>A manufacturer that has a very finely-detailed deck of cards reproduced in {cite(Hargrave, [13], {inline:true})}.</p>
-        </section>
-        <section id="unknown">
-          <h2>Unknown</h2>
-          <p>The following brands are by unknown manufacturers. Any help identifying them would be greatly appreciated!</p>
-          <ul>
-            <li><span lang="ja">𛂁𛁲゙𛁈𛀸</span>/<span lang="ja">な𛁲゙𛁈𛀸</span>/<span lang="ja">なでしこ</span> (<span lang="ja-Latn">nadeshiko</span>, ‘pink’ (the flower))</li>
-            <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon)</li>
-            <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’)</li>
-            <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’)</li>
-            <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’), maker’s mark a circled <span lang="ja">筞</span></li>
-            <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’), maker’s mark <span lang="ja">片&#xe0103;</span> with angle</li>
-          </ul>
-        </section>
-        </section>
-    );
+        </Section>
+      </Section>
+      <Section title="Unknown">
+        <p>The following brands are by unknown manufacturers. Any help identifying them would be greatly appreciated!</p>
+        <ul>
+          <li><span lang="ja">𛂁𛁲゙𛁈𛀸</span>/<span lang="ja">な𛁲゙𛁈𛀸</span>/<span lang="ja">なでしこ</span> (<span lang="ja-Latn">nadeshiko</span>, ‘pink’ (the flower))</li>
+          <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon)</li>
+          <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’)</li>
+          <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’)</li>
+          <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’), maker’s mark a circled <span lang="ja">筞</span></li>
+          <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’), maker’s mark <span lang="ja">片&#xe0103;</span> with angle</li>
+        </ul>
+      </Section>
+    </>);
 };
 
 export default Manufacturers;

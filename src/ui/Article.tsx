@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Badge from 'react-bootstrap/Badge';
 
-import { SectionContext } from './Section';
+import { SectionContext, Section } from './Section';
 
 type Props = {
   content: ArticleContent,
@@ -146,16 +146,14 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
             </section>
           </SectionContext.Provider>
           {state.cited.length > 0 &&
-            <section id="references">
-              <h2>References</h2>
+            <Section title="References">
               <ol className="reference-list">
                 {state.cited.map((c, i) => <li key={i}>{renderReference(c)}</li>)}
               </ol>
-            </section>
+            </Section>
           }
           {groupedProns.size > 0 &&
-            <section id="credits-pronunciation">
-              <h2>Audio Credits</h2>
+            <Section title="Audio Credits">
               <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>. Pronunciations are by:</p>
               <ul>
                 {Array
@@ -165,7 +163,7 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
                     <li key={i}>{words.map(([word, lang], i) => <React.Fragment key={i}>{i > 0 && ", "}<span lang={lang}>{word}</span></React.Fragment>)} © <a href={`https://forvo.com/user/${author}/`}>{author}</a>.</li>
                   )}
               </ul>
-            </section>
+            </Section>
           }
         </Col>
         <Col lg="1" style={{ zIndex: -1 }} />

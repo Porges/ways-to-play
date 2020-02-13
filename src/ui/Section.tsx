@@ -27,7 +27,7 @@ export const Section: React.FC<OwnProps> = ({title, nesting, children}) => {
 
     const ctx = React.useContext(SectionContext);
 
-    const id = slug(Server.renderToString(<>{title}</>).replace(/<(.*?)>/, ''));
+    const id = slug(Server.renderToStaticMarkup(<>{title}</>).normalize("NFKD").replace(/<(.*?)>/g, ''));
     
     return (
         <section id={id}>
