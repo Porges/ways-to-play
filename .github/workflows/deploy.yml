@@ -9,8 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+
+    - name: Get yarn cache
+      id: get-yarn-cache
+      run: echo "::set-output name=dir::$(yarn cache dir)"
+    - uses: actions/cache@v1
+      id: yarn-cache
+      with:
+        path: ${{ steps.get-yarn-cache.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+
     - name: Yarn Install
       uses: ianwalter/puppeteer@v2.0.0
+      if: steps.yarn-cache.outputs.cache-hit != 'true'
       with:
         args: yarn install --frozen-lockfile
     - name: Yarn Build
