@@ -73,13 +73,13 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <ArticleImage
             src={imgNyangTu}
             alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.">
-            Jamaistore’s <span lang="ko">냥투</span> (<span lang="ko-Latn">nyangtu</span>, ‘meow fight’) deck (2016).<br/>The name is a pun on <span lang="ko-Latn">hwatu</span> with the Korean <span lang="ko-Latn">nyang</span> meaning ‘meow’.
+            Jamaistore’s <span lang="ko">냥투</span> (<span lang="ko-Latn">nyangtu</span>, ‘meow fight’) deck (2016).<br/>
+            The name is a pun on <span lang="ko-Latn">hwatu</span> with the Korean <span lang="ko-Latn">nyang</span> meaning ‘meow’.
           </ArticleImage>
           <ArticleImage
             src={imgMeongTu}
             alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.">
-            Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘bruise fight’) deck (2017).<br/>
-            I am uncertain of the meaning!
+            Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘woof fight’) deck (2017).
           </ArticleImage>
         </section>
         <section id="nishiki-fuda">
