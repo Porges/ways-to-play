@@ -62,7 +62,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="A Hanafuda wrapper featuring an image of Napoleon on the front.">
             <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s). Note the <Noun lang="ja-Latn">Marufuku</Noun> mark at top right.
           </ArticleImage>
-          <p>In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mekuri</Noun> cards, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> ‘president’ (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span> (<Noun lang="ja-Latn">Marufuku</Noun> being <Noun lang="ja-Latn">Nintendō</Noun>’s manufacturer’s mark); and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
+          <p>In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mekuri</Noun> cards, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span> (<Noun lang="ja-Latn">Marufuku</Noun> being <Noun lang="ja-Latn">Nintendō</Noun>’s manufacturer’s mark); and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
           <p><Noun lang="ja-Latn">Nintendō</Noun> <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:{cite(ModernJapaneseWrappers, [54])}</p>
           <ul>
             <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804)</li>
@@ -263,6 +263,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">銀龍</span> (<span lang="ja-Latn">ginryū</span>, ‘silver dragon’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
             <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">gotensakura</span>, ‘palace cherry blossoms’)</li>
             <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yorusakura</span> ‘evening cherry blossoms’)</li>
+            <li><span lang="ja">梅の花</span> (<span lang="ja-Latn">ume no hana</span> ‘plum flowers’)</li>
           </ul>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)</>}>
@@ -296,6 +297,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kinryū</span> ‘golden dragon’)</li>
             <li><span lang="ja">大入</span> (<span lang="ja-Latn">ōiri</span>, ‘full house’, a theatre term)</li>
             <li><span lang="ja">東錦</span> (<span lang="ja-Latn">higashinishiki</span>, ‘eastern brocade’)</li>
+            <li><span lang="ja">三福</span> (<span lang="ja-Latn">sanfuku</span>, ‘three fortunes’)</li>
           </ul>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</>}>
