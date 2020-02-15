@@ -23,6 +23,8 @@ import imgAkataNewspaper from './Akata-Newspaper.jpg';
 import imgAkataCard from './Akata-Card.jpg';
 import imgNintendoShop from './nintendo-shop.jpg';
 import imgYaguruma from './yaguruma.png';
+import imgNishimura1 from './nishimura_1.png';
+import imgNishimura2 from './nishimura_2.png';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
@@ -312,9 +314,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         <Section title={<><Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</>}>
           <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;{cite(Yamaguchi, [102])} mark was a circled <span lang="ja">龍</span> (they also possibly had another trade name of <span lang="ja">マルナ</span> with circled <span lang="ja" className="circled">名</span> as mark). Brands included:</p>
           <ul>
-            <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsutagawa</span> ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’)</li>
-            <li><span lang="ja">天龍</span> (<span lang="ja-Latn">tenryū</span> ‘<Noun lang="ja-Latn">Tenryū</Noun>’)</li>
-            <li><span lang="ja">龍王</span> (<span lang="ja-Latn">ryūō</span> ‘dragon king’)</li>
+            <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsutagawa</span>, ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’)</li>
+            <li><span lang="ja">天龍</span> (<span lang="ja-Latn">tenryū</span>, ‘<Noun lang="ja-Latn">Tenryū</Noun>’)</li>
+            <li><span lang="ja">龍王</span> (<span lang="ja-Latn">ryūō</span>, ‘dragon king’)</li>
+            <li><span lang="ja">鞍馬金天狗</span> (<span lang="ja-Latn">kurama kintengu</span>, ‘<a href="https://en.wikipedia.org/wiki/Mount_Kurama"><Noun lang="ja-Latn">Kurama</Noun></a> golden tengu’; according to myth, <Noun lang="ja-Latn">Kurama</Noun> is the home of the king of the <span lang="ja-Latn">tengu</span>)</li>
           </ul>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Inoue Juntendō</Noun> (<span lang="ja">井上順天堂</span>)</>}>
@@ -371,6 +374,14 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">百万石</span> (<span lang="ja-Latn">hyakumangoku</span>, ‘one million <a href="https://en.wikipedia.org/wiki/Koku" lang="ja-Latn">koku</a>’, a nickname for the rich <a lang="ja-Latn" href="https://en.wikipedia.org/wiki/Kaga_Domain">Kaga domain</a>, or its lord, in the <Noun lang="ja-Latn">Edo</Noun> period), no longer produced as of 1980</li>
             <li><span lang="ja">奴さん</span> (<span lang="ja-Latn">yakkosan</span>, ‘guy’, a samurai manservant, also a traditional origami shape imitating a man), no longer produced as of 1980</li>
           </ul>
+          <ArticleImage
+            src={[
+              [imgNishimura1, "A picture of a die surrounded by various playing cards."],
+              [imgNishimura2, "A picture of a hand holding various playing cards, and a Tengu mask."]
+            ]}
+            source={{license: "cc0", originalUrl: "http://www.tga-j.org/documents/i/627/detail.html", organization: { orgName: "日本粧業会 資料館" }}}>
+          Two <Noun lang="ja-Latn">Nishimura</Noun> advertisements, from the December 1907 issue of the “Tokyo Toilet Trade Journal”. The advert on the right shows that they also sold <Noun lang="ja-Latn">Ōishi Tengudō</Noun> products.
+          </ArticleImage>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Kyōto Karuta</Noun> (<span lang="ja">京都かるた</span>)</>}>
           <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer, whose brands included:{cite(ModernJapaneseWrappers, [49])}</p>
