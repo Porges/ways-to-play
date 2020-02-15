@@ -22,6 +22,7 @@ import imgOishiMark from './Oishi_Mark.jpg';
 import imgAkataNewspaper from './Akata-Newspaper.jpg';
 import imgAkataCard from './Akata-Card.jpg';
 import imgNintendoShop from './nintendo-shop.jpg';
+import imgYaguruma from './yaguruma.png';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
@@ -81,7 +82,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             alt="The 5 bright cards from a Hana-Trump deck, which are hanafuda cards printed on the center of the standard international playing card deck.">
             The 5 Brights of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck.
           </ArticleImage>
-          <p>Because there are four more cards in the standard deck compared to the <Noun lang="ja-Latn">Hanafuda</Noun> one, <Noun lang="ja-Latn">Nintendō</Noun> added an additional four cards (and two jokers) to the set. These extra cards are counterparts for specialized pieces of equipment present in boxed <Noun lang="ja-Latn">Hachi-Hachi</Noun> (<span lang="ja">八八</span>) sets.</p>
+          <p>Because there are four more cards in the standard deck compared to the <Noun lang="ja-Latn">Hanafuda</Noun> one, <Noun lang="ja-Latn">Nintendō</Noun> added an additional four cards (and two jokers) to the set. These extra cards are counterparts for specialized pieces of equipment present in boxed <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun> (<span lang="ja">八八</span>)</a> sets.</p>
           <ArticleImage
             src={imgHanaTrumpExtra}
             alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
@@ -110,7 +111,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">大江山</span> (<span lang="ja-Latn">ōeyama</span>, <a href="https://en.wikipedia.org/wiki/%C5%8Ceyama">a mountain near <Noun lang="ja-Latn">Kyōto</Noun></a>)</li>
             <li><span lang="ja">寳船</span> (<span lang="ja-Latn">takarabune</span>, ‘treasure ship’)</li>
             <li><span lang="ja">御所車</span> (<span lang="ja-Latn">goshoguruma</span>, ‘ox-drawn coach’)</li>
-            <li><span lang="ja">来福</span> (<span lang="ja-Latn">raifuku</span>, ‘visiting <Noun lang="ja-Latn">Fukuoka</Noun>’)</li>
+            <li><span lang="ja">来福</span> (<span lang="ja-Latn">raifuku</span>, ‘fortune comes’, a reference to the full <a href="https://en.wikipedia.org/wiki/Yojijukugo"><span lang="ja-Latn">yojijukugo</span></a> “<span lang="ja">笑門来福</span>”, ‘fortune comes to the home of those who smile’)</li>
             <li><span lang="ja">花津久志/花𛁫くし</span> (<span lang="ja-Latn">hanazukushi</span>, ‘assorted flowers’)</li>
             <li><span lang="ja">舞楽</span>, (<span lang="ja-Latn">bugaku</span>, <a href="https://en.wikipedia.org/wiki/Bugaku">a courtly dance with music</a>)</li>
             <li><span lang="ja">𛀿𛀬ら</span>, (<span lang="ja-Latn">sakura</span>, but written with <span lang="ja-Latn">hentaigana</span> characters)</li>
@@ -163,7 +164,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           </ArticleImage>
         </Section>
         <Section title={<><a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</>}>
-          <Footnote>The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th <a href="https://en.wikipedia.org/wiki/Tango_no_sekku"><Noun lang="ja-Latn">Tango no Sekku</Noun></a> festival, where they are placed on top of tall poles from which <a href="https://en.wikipedia.org/wiki/Koinobori"><span lang="ja-Latn">koi</span> streamers</a> are flown.</Footnote>
+          <Footnote>
+            <img className="d-block mx-auto w-75" src={imgYaguruma.src} alt="An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards." />
+            <p>The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th <a href="https://en.wikipedia.org/wiki/Tango_no_sekku"><Noun lang="ja-Latn">Tango no Sekku</Noun></a> festival, where they are placed on top of tall poles from which <a href="https://en.wikipedia.org/wiki/Koinobori"><span lang="ja-Latn">koi</span> streamers</a> are flown.</p>
+          </Footnote>
           <p>A small manufacturer (founded in either 1921 or 1963?). Unlike other manufacturers, their mark is not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">矢車</span>, ‘arrow wheel’). They have also published <Noun lang="ja-Latn">Harifuda</Noun> and <Noun lang="ja-Latn">Shirofuda</Noun> (blank cards) under the mark <span lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
           <p>Most of <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s cards are produced with hand-wrapped backing paper; they have <a href="http://www5f.biglobe.ne.jp/~karutaya/brand.html">another web page that details their manufacturing process</a>.</p>
           <p><Noun lang="ja-Latn">Tamura</Noun> manufactures two types of <Noun lang="ja-Latn">Hanafuda</Noun> cards; firstly the standard pattern, with brands (these have been maintained since the 1970s):{cite(ModernJapaneseWrappers, [39])}</p>
