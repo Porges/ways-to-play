@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import Table from 'react-bootstrap/Table';
+
 import { ArticleContentProps, ArticleImage, Noun, Footnote, Section } from 'ui';
 import { TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
@@ -22,9 +24,19 @@ import imgOishiMark from './Oishi_Mark.jpg';
 import imgAkataNewspaper from './Akata-Newspaper.jpg';
 import imgAkataCard from './Akata-Card.jpg';
 import imgNintendoShop from './nintendo-shop.jpg';
-import imgYaguruma from './yaguruma.png';
 import imgNishimura1 from './nishimura_1.png';
 import imgNishimura2 from './nishimura_2.png';
+
+import imgYaguruma from './yaguruma.png';
+import imgMarufuku from './marufuku.svg';
+import imgYamami from './yamami.svg';
+import imgKakudai from './kakudai.svg';
+import imgKakumatsu from './kakumatsu.svg';
+import imgMarueSvg from './marue.svg';
+import imgYamata from './yamata.svg';
+import imgKanenaka from './kanenaka.svg';
+import imgMarujuu from './marujuu.svg';
+import imgMaruryu from './maruryu.svg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
@@ -45,6 +57,61 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               alt="Three cards all featuring Paulownia flowers, with maker’s marks printed upon them.">
               Manufacturer’s marks from <Noun lang="ja-Latn">Nintendō</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.</ArticleImage>
           <p>Often the mark is a simplified version of the name, or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <Noun lang="ja-Latn">Nintendō</Noun>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “<a href="https://en.wikipedia.org/wiki/Circle_K">Circle K</a>”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).</p>
+          <Table>
+            <caption>Index of manufacturer’s marks</caption>
+            <thead>
+              <tr>
+                <th>Mark</th>
+                <th>Manufacturer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src={imgMarufuku} height="24" alt="The Marufuku symbol" /></td>
+                <td><a href="#Nintendo"><Noun lang="ja-Latn">Nintendō</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgYamami} height="24" alt="The Yamami symbol" /> or <img src={imgKakudai} height="24" alt="The Kakudai symbol" /></td>
+                <td><a href="#Oishi-Tengudo"><Noun lang="ja-Latn">Ōishi Tengudō</Noun></a></td>
+              </tr>
+              <tr>
+                <td>&mdash;</td>
+                <td><a href="#Angel-enzeru">Angel</a></td>
+              </tr>
+              <tr>
+                <td><img src={imgYaguruma.src} height="24" alt="The Yaguruma symbol" /></td>
+                <td><a href="#Tamura-Shogundo"><Noun lang="ja-Latn">Tamura Shōgundō</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgKakumatsu} height="24" alt="The Kakumatsu symbol" /></td>
+                <td><a href="#Matsui-Tengudo"><Noun lang="ja-Latn">Matsui Tengudō</Noun></a></td>
+              </tr>
+              <tr>
+                <td>&mdash;</td>
+                <td><a href="#Ace-esu">Ace</a></td>
+              </tr>
+              <tr>
+                <td><img src={imgMarueSvg} height="24" alt="The Marue symbol" /></td>
+                <td><a href="#Marue"><Noun lang="ja-Latn">Maruē</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgYamata} height="24" alt="The Yamata symbol" /></td>
+                <td><a href="#Tanaka-Gyokusuido"><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgKanenaka} height="24" alt="The Kanenaka symbol" /></td>
+                <td><a href="#Nihon-Karuta-Seizo"><Noun lang="ja-Latn">Nihon Karuta</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgMarujuu} height="24" alt="The Marujuu symbol" /></td>
+                <td><a href="#Yamashiro-Shoten"><Noun lang="ja-Latn">Yamashiro Shōten</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgMaruryu} height="24" alt="The Maruryu symbol" /></td>
+                <td><a href="#Ryutendo"><Noun lang="ja-Latn">Ryūtendō</Noun></a></td>
+              </tr>
+            </tbody>
+          </Table>
         </Section>
       </Section>
       <Section title="Current Manufacturers">
