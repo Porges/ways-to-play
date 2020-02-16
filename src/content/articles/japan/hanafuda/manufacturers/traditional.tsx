@@ -37,6 +37,13 @@ import imgYamata from './yamata.svg';
 import imgKanenaka from './kanenaka.svg';
 import imgMarujuu from './marujuu.svg';
 import imgMaruryu from './maruryu.svg';
+import imgMarujun from './marujun.svg';
+import imgKanese from './kanese.svg';
+import imgMarukyou from './marukyou.svg';
+import imgMarusa from './marusa.svg';
+import imgMarui from './marui.svg';
+import imgKaneman from './kaneman.svg';
+import imgMarumatsu from './marumatsu.svg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
@@ -57,8 +64,8 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               alt="Three cards all featuring Paulownia flowers, with maker’s marks printed upon them.">
               Manufacturer’s marks from <Noun lang="ja-Latn">Nintendō</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.</ArticleImage>
           <p>Often the mark is a simplified version of the name, or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <Noun lang="ja-Latn">Nintendō</Noun>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “<a href="https://en.wikipedia.org/wiki/Circle_K">Circle K</a>”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).</p>
+          <div className="multi">
           <Table>
-            <caption>Index of manufacturer’s marks</caption>
             <thead>
               <tr>
                 <th>Mark</th>
@@ -75,7 +82,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><a href="#Oishi-Tengudo"><Noun lang="ja-Latn">Ōishi Tengudō</Noun></a></td>
               </tr>
               <tr>
-                <td>&mdash;</td>
+                <td><span lang="ja" style={{fontFamily: "sans-serif"}}>翁</span></td>
                 <td><a href="#Angel-enzeru">Angel</a></td>
               </tr>
               <tr>
@@ -87,7 +94,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><a href="#Matsui-Tengudo"><Noun lang="ja-Latn">Matsui Tengudō</Noun></a></td>
               </tr>
               <tr>
-                <td>&mdash;</td>
+                <td>?</td>
                 <td><a href="#Ace-esu">Ace</a></td>
               </tr>
               <tr>
@@ -103,15 +110,82 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><a href="#Nihon-Karuta-Seizo"><Noun lang="ja-Latn">Nihon Karuta</Noun></a></td>
               </tr>
               <tr>
-                <td><img src={imgMarujuu} height="24" alt="The Marujuu symbol" /></td>
+                <td><img src={imgMarujuu} height="24" alt="The Marujū symbol" /></td>
                 <td><a href="#Yamashiro-Shoten"><Noun lang="ja-Latn">Yamashiro Shōten</Noun></a></td>
               </tr>
               <tr>
                 <td><img src={imgMaruryu} height="24" alt="The Maruryu symbol" /></td>
                 <td><a href="#Ryutendo"><Noun lang="ja-Latn">Ryūtendō</Noun></a></td>
               </tr>
+              <tr>
+                <td><img src={imgMarujun} height="24" alt="The Marujun symbol" /></td>
+                <td><a href="#Inoue-Juntendo"><Noun lang="ja-Latn">Inoue Juntendō</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgKanese} height="24" alt="The Kanese symbol" /></td>
+                <td><a href="#Nakao-Seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
+              </tr>
             </tbody>
           </Table>
+          <Table>
+            <thead>
+              <tr>
+                <th>Mark</th>
+                <th>Manufacturer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
+                <td><a href="#Baba-Keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
+              </tr>
+              <tr>
+                <td>?</td>
+                <td><a href="#Heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
+              </tr>
+              <tr>
+                <td>?</td>
+                <td><a href="#Kawakita"><Noun lang="ja-Latn">Kawakita</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgMarusa} height="24" alt="The Marusa symbol" /></td>
+                <td><a href="#Kohara-Honten"><Noun lang="ja-Latn">Kohara Honten</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgMarui} height="24" alt="The Marui symbol" /></td>
+                <td><a href="#Nishimura"><Noun lang="ja-Latn">Nishimura</Noun></a></td>
+              </tr>
+              <tr>
+                <td>?</td>
+                <td><a href="#Kyoto-Karuta"><Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
+              </tr>
+              <tr>
+                <td>?</td>
+                <td><a href="#Dai-Nippon"><Noun lang="ja-Latn">Dai Nippon</Noun></a></td>
+              </tr>
+              <tr>
+                <td>?</td>
+                <td><a href="#Nippon-Yugi-Gangu"><Noun lang="ja-Latn">Nippon Yūgi Gangu</Noun></a></td>
+              </tr>
+              <tr>
+                <td>?</td>
+                <td><a href="#Universal"><Noun lang="ja-Latn">Universal</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgKaneman} height="24" alt="The Kaneman symbol" /></td>
+                <td><a href="#Kawai"><Noun lang="ja-Latn">Kawai</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgMarumatsu} height="24" alt="The Marumatsu symbol" /></td>
+                <td><a href="#Akata-Shojoya"><Noun lang="ja-Latn">Akata Shōjōya</Noun></a></td>
+              </tr>
+              <tr>
+                <td>?</td>
+                <td><a href="#Suisando"><Noun lang="ja-Latn">Suisando</Noun></a></td>
+              </tr>
+            </tbody>
+          </Table>
+          </div>
         </Section>
       </Section>
       <Section title="Current Manufacturers">
