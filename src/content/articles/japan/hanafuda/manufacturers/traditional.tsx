@@ -64,15 +64,9 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               alt="Three cards all featuring Paulownia flowers, with maker’s marks printed upon them.">
               Manufacturer’s marks from <Noun lang="ja-Latn">Nintendō</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.</ArticleImage>
           <p>Often the mark is a simplified version of the name, or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <Noun lang="ja-Latn">Nintendō</Noun>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “<a href="https://en.wikipedia.org/wiki/Circle_K">Circle K</a>”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).</p>
-          <div className="multi">
-          <Table size="small">
-            <thead>
-              <tr>
-                <th>Mark</th>
-                <th>Name</th>
-              </tr>
-            </thead>
-            <tbody>
+          <Section title="Index of marks">
+            <div className="multi">
+            <Table size="small">
               <tr>
                 <td><img src={imgMarufuku} height="24" alt="The Marufuku symbol" /></td>
                 <td><a href="#Nintendo"><Noun lang="ja-Latn">Nintendō</Noun></a></td>
@@ -121,20 +115,12 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><img src={imgMarujun} height="24" alt="The Marujun symbol" /></td>
                 <td><a href="#Inoue-Juntendo"><Noun lang="ja-Latn">Inoue Juntendō</Noun></a></td>
               </tr>
+            </Table>
+            <Table size="small">
               <tr>
                 <td><img src={imgKanese} height="24" alt="The Kanese symbol" /></td>
                 <td><a href="#Nakao-Seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
               </tr>
-            </tbody>
-          </Table>
-          <Table size="small">
-            <thead>
-              <tr>
-                <th>Mark</th>
-                <th>Name</th>
-              </tr>
-            </thead>
-            <tbody>
               <tr>
                 <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
                 <td><a href="#Baba-Keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
@@ -183,9 +169,9 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td>?</td>
                 <td><a href="#Suisando"><Noun lang="ja-Latn">Suisando</Noun></a></td>
               </tr>
-            </tbody>
-          </Table>
-          </div>
+            </Table>
+            </div>
+          </Section>
         </Section>
       </Section>
       <Section title="Current Manufacturers">
