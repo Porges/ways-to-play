@@ -41,8 +41,7 @@ const articles: List = {
                             import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './japan/hanafuda/art'))
                         }],
                         ['traditional-manufacturers', {
-                            title: "Traditional Japanese Manufacturers",
-                            draft: true,
+                            title: "Traditional Hanafuda Manufacturers",
                             import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-manufacturers' */ './japan/hanafuda/manufacturers/traditional'))
                         }],
                         ['new-manufacturers', {
