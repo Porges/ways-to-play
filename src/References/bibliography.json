@@ -3582,5 +3582,16 @@
         "issued": {"year": 2014},
         "publisher": "法政大学出版局",
         "publisher-place": "Tōkyō, Japan"
+    },
+    "UmebayashiIsao":{
+        "id": "UmebayashiIsao",
+        "type": "article-journal",
+        "title": "地方の花札屋さん",
+        "title-lang": "ja",
+        "author": [{"family": "梅林", "given": "勲"}],
+        "issued": {"year": 2006, "month": 6, "day": 31},
+        "container-title": "Japan Academy of Gambling & Gaming Studies Newsletter",
+        "issue": 9,
+        "URL": "http://www.jirg.org/wp-content/themes/jirg/newsletter/download/newsletter_008.php"
     }
 }

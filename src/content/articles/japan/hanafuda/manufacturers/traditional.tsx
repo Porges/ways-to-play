@@ -3,7 +3,7 @@ import * as React from 'react';
 import Table from 'react-bootstrap/Table';
 
 import { ArticleContentProps, ArticleImage, Noun, Footnote, Section } from 'ui';
-import { TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
+import { UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -45,6 +45,7 @@ import imgMarui from './marui.svg';
 import imgKaneman from './kaneman.svg';
 import imgMarumatsu from './marumatsu.svg';
 import imgKanekata from './kanekata.svg';
+import imgMarutano from './marutano.svg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
@@ -121,14 +122,14 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><img src={imgKanese} height="24" alt="The Kanese symbol" /></td>
                 <td><a href="#Nakao-Seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
               </tr>
-              </tbody>
-            </Table>
-            <Table size="small">
-              <tbody>
               <tr>
                 <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
                 <td><a href="#Baba-Keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
               </tr>
+              </tbody>
+            </Table>
+            <Table size="small">
+              <tbody>
               <tr>
                 <td>?</td>
                 <td><a href="#Heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
@@ -146,7 +147,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><a href="#Nishimura"><Noun lang="ja-Latn">Nishimura</Noun></a></td>
               </tr>
               <tr>
-                <td>?</td>
+                <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
                 <td><a href="#Kyoto-Karuta"><Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
               </tr>
               <tr>
@@ -172,6 +173,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               <tr>
                 <td>?</td>
                 <td><a href="#Suisando"><Noun lang="ja-Latn">Suisando</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgMarutano} height="24" alt="The Marutano symbol" /></td>
+                <td><a href="#Nihon-Goraku"><Noun lang="ja-Latn">Nihon Goraku</Noun></a></td>
               </tr>
               <tr>
                 <td><img src={imgKanekata} height="24" alt="The Kanekata symbol" /></td>
@@ -521,7 +526,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           </ArticleImage>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Kyōto Karuta</Noun> (<span lang="ja">京都かるた</span>)</>}>
-          <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer, whose brands included:{cite(ModernJapaneseWrappers, [49])}</p>
+          <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer, founded by an ex-employee of <Noun lang="ja-Latn">Nihon Karuta</Noun>. They were active in the 1960s & ’70s, but closed in the 1990s.{cite(UmebayashiIsao)} Their brands included:{cite(ModernJapaneseWrappers, [49])}</p>
           <ul>
             <li><span lang="ja">金の司</span> (<span lang="ja-Latn">kin no tsukasa</span> ‘officer of gold’)</li>
             <li><span lang="ja">大帝王</span> (<span lang="ja-Latn">daiteiō</span> ‘great emperor’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
@@ -594,6 +599,15 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
         </Section>
         <Section title={<><Noun lang="ja-Latn">Suisando</Noun> (<span lang="ja">翠山堂</span>)</>}>
           <p>A manufacturer that has a very finely-detailed deck of cards reproduced in {cite(Hargrave, [13], {inline:true})}.</p>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Nihon Goraku</Noun> (<span lang="ja">日本娯楽</span>)</>}>
+          <p>A company who had cards manufactured by <Noun lang="">Kyōto Karuta</Noun>. Their mark was circled <span lang="ja">娯</span>. Brands included:</p>
+          <ul>
+            <li><span lang="ja">山伏</span> (<span lang="ja-Latn">yamabushi</span>, a mountain-dwelling hermit)</li>
+            <li><span lang="ja">福の神</span> (<span lang="ja-Latn">fuku no kami</span>, ‘god of fortune’, the name of a recurring character in <a href="https://en.wikipedia.org/wiki/Ky%C5%8Dgen"><span lang="ja-Latn">kyōgen</span></a> and also the title of a play)</li>
+            <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>)</li>
+            <li><span lang="ja">竹印</span> (<span lang="ja-Latn">takejirushi</span>, ‘bamboo brand’)</li>
+          </ul>
         </Section>
       </Section>
       <Section title="Unknown">
