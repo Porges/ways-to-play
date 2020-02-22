@@ -44,6 +44,7 @@ import imgMarusa from './marusa.svg';
 import imgMarui from './marui.svg';
 import imgKaneman from './kaneman.svg';
 import imgMarumatsu from './marumatsu.svg';
+import imgKanekata from './kanekata.svg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
@@ -67,6 +68,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <Section title="Index of marks">
             <div className="multi">
             <Table size="small">
+              <tbody>
               <tr>
                 <td><img src={imgMarufuku} height="24" alt="The Marufuku symbol" /></td>
                 <td><a href="#Nintendo"><Noun lang="ja-Latn">Nintendō</Noun></a></td>
@@ -88,7 +90,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><a href="#Matsui-Tengudo"><Noun lang="ja-Latn">Matsui Tengudō</Noun></a></td>
               </tr>
               <tr>
-                <td>?</td>
+                <td><span lang="ja" style={{fontFamily: "sans-serif"}}>エース</span></td>
                 <td><a href="#Ace-esu">Ace</a></td>
               </tr>
               <tr>
@@ -115,12 +117,14 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><img src={imgMarujun} height="24" alt="The Marujun symbol" /></td>
                 <td><a href="#Inoue-Juntendo"><Noun lang="ja-Latn">Inoue Juntendō</Noun></a></td>
               </tr>
-            </Table>
-            <Table size="small">
               <tr>
                 <td><img src={imgKanese} height="24" alt="The Kanese symbol" /></td>
                 <td><a href="#Nakao-Seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
               </tr>
+              </tbody>
+            </Table>
+            <Table size="small">
+              <tbody>
               <tr>
                 <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
                 <td><a href="#Baba-Keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
@@ -169,6 +173,11 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td>?</td>
                 <td><a href="#Suisando"><Noun lang="ja-Latn">Suisando</Noun></a></td>
               </tr>
+              <tr>
+                <td><img src={imgKanekata} height="24" alt="The Kanekata symbol" /></td>
+                <td><a href="#Unknown">(Unknown)</a></td>
+              </tr>
+              </tbody>
             </Table>
             </div>
           </Section>
@@ -367,12 +376,13 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           </ArticleImage>
           <p>Ace was a manufacturer based in <Noun lang="ja-Latn">Kyōto</Noun>. Their brands included:{cite(ModernJapaneseWrappers, [44])}</p>
           <ul>
-            <li><span lang="ja">大公爵</span> (<span lang="ja-Latn">daikōshaku</span> ‘grand duke’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
-            <li><span lang="ja">大西郷</span> (<span lang="ja-Latn">daisaigō</span> ‘great <a href="https://en.wikipedia.org/wiki/Saig%C5%8D_Takamori">Saigō</a>’)</li>
+            <li><span lang="ja">大公爵</span> (<span lang="ja-Latn">daikōshaku</span>, ‘grand duke’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
+            <li><span lang="ja">大西郷</span> (<span lang="ja-Latn">daisaigō</span>, ‘great <a href="https://en.wikipedia.org/wiki/Saig%C5%8D_Takamori">Saigō</a>’)</li>
             <li><span lang="ja">エース</span> (<span lang="ja-Latn">ēsu</span>, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
-            <li><span lang="ja">大提督</span> (<span lang="ja-Latn">daiteitoku</span> ‘grand admiral’)</li>
-            <li><span lang="ja">大勝利</span> (<span lang="ja-Latn">daishōri</span> ‘huge win’)</li>
-            <li><span lang="ja">紅葉</span> (<span lang="ja-Latn">momiji</span> ‘autumn leaves’)</li>
+            <li><span lang="ja">大提督</span> (<span lang="ja-Latn">daiteitoku</span>, ‘grand admiral’)</li>
+            <li><span lang="ja">大勝利</span> (<span lang="ja-Latn">daishōri</span>, ‘huge win’)</li>
+            <li><span lang="ja">紅葉</span> (<span lang="ja-Latn">momiji</span>, ‘autumn leaves’)</li>
+            <li><span lang="ja">源氏</span> (<span lang="ja-Latn">genji</span>, ‘<a href="https://en.wikipedia.org/wiki/Hikaru_Genji" lang="ja-Latn" className="proper-noun">Genji</a>’)</li>
           </ul>
           <p>They also made two all-plastic <Noun lang="ja-Latn">Hanafuda</Noun> decks: <span lang="ja">金花</span> (<span lang="ja-Latn">kin-hana</span> ‘gold flowers’) and <span lang="ja">銀花</span> (<span lang="ja-Latn">gin-hana</span> ‘silver flowers’).</p>
         </Section>
@@ -556,7 +566,6 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <p>A manufacturer from <Noun lang="ja-Latn">Ōsaka</Noun>, whose mark was <span lang="ja">万</span> with corner at top-right.{cite(OstasiatischeSpielkarten, [135])}</p>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Akata Shōjōya</Noun> (<span lang="ja">赤田猩々屋</span>)</>}>
-          <Footnote>BnF Gallica has <a href="https://gallica.bnf.fr/ark:/12148/btv1b105093472">high-quality scans</a> of this deck, and Yale University also <a href="https://search.library.yale.edu/catalog/13318512">owns a copy</a>.</Footnote>
           <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer whose mark was <span lang="ja">松</span> in a circle.</p>
           <div className="multi">
             <ArticleImage
@@ -569,6 +578,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               }}
               >
               An additional manufacturer’s card included with an <Noun lang="ja-Latn">Akata Shōjōya</Noun> deck, produced after 1902.
+              BnF Gallica has <a href="https://gallica.bnf.fr/ark:/12148/btv1b105093472">high-quality scans</a> of this deck, and Yale University also <a href="https://search.library.yale.edu/catalog/13318512">owns a copy</a>.
               </ArticleImage>
             <ArticleImage
               alt="A newspaper ad in Japanese with pictures of Hanafuda and Western playing cards."
@@ -594,7 +604,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’)</li>
           <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’)</li>
           <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’), maker’s mark a circled <span lang="ja">筞</span></li>
-          <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’), maker’s mark <span lang="ja">片&#xe0103;</span> with angle</li>
+          <li>maker’s mark <span lang="ja">片&#xe0103;</span> with angle, brands include <span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’) and <span lang="ja">倭錦</span> (<span lang="ja-Latn">wanishiki</span>, ‘Japanese brocade’)</li>
         </ul>
       </Section>
     </>);
