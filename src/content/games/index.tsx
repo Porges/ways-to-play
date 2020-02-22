@@ -51,7 +51,9 @@ const GamesList: React.FC<GamesListProps> = ({location, match}) => {
         <hr/>
         <ul>
         { allGames.map(([path, game]) =>
-             <li key={path}><Link to={`/games/${path}`} lang={game.titleLang}>{game.title} {game.draft && <Badge variant="warning">Draft</Badge>}</Link></li>) }
+            (process.env.NODE_ENV === 'production' && game.draft)
+            ? null
+            : <li key={path}><Link to={`/games/${path}`} lang={game.titleLang}>{game.title} {game.draft && <Badge variant="warning">Draft</Badge>}</Link></li>) }
         </ul>
     </>);
 }

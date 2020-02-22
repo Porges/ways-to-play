@@ -64,17 +64,20 @@ const renderArticleList = (list: ListEntries, pathSoFar: string) => {
     return (
         <ul>
             { [...list.entries()].map(([path, obj]) => (
-                <li key={path}>
-                {
-                    'articles' in obj
-                    ? <><b>{obj.title}</b>{renderArticleList(obj.articles, `${pathSoFar}/${path}`)}</>
-                    : <Link to={`${pathSoFar}/${path}`} lang={obj.titleLang}>
-                        {obj.title}
-                        {' '}
-                        {obj.draft && <Badge variant="warning">Draft</Badge>}
-                      </Link>
-                }
-                </li> )) }
+                (process.env.NODE_ENV === 'production' && ('draft' in obj && obj.draft))
+                ? null
+                : <li key={path}>
+                    {
+                        'articles' in obj
+                        ? <><b>{obj.title}</b>{renderArticleList(obj.articles, `${pathSoFar}/${path}`)}</>
+                        : <Link to={`${pathSoFar}/${path}`} lang={obj.titleLang}>
+                            {obj.title}
+                            {' '}
+                            {obj.draft && <Badge variant="warning">Draft</Badge>}
+                        </Link>
+                    }
+                    </li>
+            )) }
         </ul>
     );
 };
