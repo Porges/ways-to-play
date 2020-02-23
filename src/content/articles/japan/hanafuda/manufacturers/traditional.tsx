@@ -122,14 +122,14 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><img src={imgKanese} height="24" alt="The Kanese symbol" /></td>
                 <td><a href="#Nakao-Seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
               </tr>
-              <tr>
-                <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
-                <td><a href="#Baba-Keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
-              </tr>
               </tbody>
             </Table>
             <Table size="small">
               <tbody>
+              <tr>
+                <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
+                <td><a href="#Baba-Keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
+              </tr>
               <tr>
                 <td>?</td>
                 <td><a href="#Heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
