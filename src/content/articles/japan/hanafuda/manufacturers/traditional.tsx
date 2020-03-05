@@ -46,6 +46,7 @@ import imgKaneman from './kaneman.svg';
 import imgMarumatsu from './marumatsu.svg';
 import imgKanekata from './kanekata.svg';
 import imgMarutano from './marutano.svg';
+import imgMaruei from './maruei.svg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
@@ -122,14 +123,14 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
                 <td><img src={imgKanese} height="24" alt="The Kanese symbol" /></td>
                 <td><a href="#Nakao-Seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
               </tr>
-              </tbody>
-            </Table>
-            <Table size="small">
-              <tbody>
               <tr>
                 <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
                 <td><a href="#Baba-Keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
               </tr>
+              </tbody>
+            </Table>
+            <Table size="small">
+              <tbody>
               <tr>
                 <td>?</td>
                 <td><a href="#Heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
@@ -177,6 +178,10 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               <tr>
                 <td><img src={imgMarutano} height="24" alt="The Marutano symbol" /></td>
                 <td><a href="#Nihon-Goraku"><Noun lang="ja-Latn">Nihon Goraku</Noun></a></td>
+              </tr>
+              <tr>
+                <td><img src={imgMaruei} height="24" alt="The Maruei symbol" /></td>
+                <td><a href="#Kyowado"><Noun lang="ja-Latn">Kyōwadō</Noun></a></td>
               </tr>
               <tr>
                 <td><img src={imgKanekata} height="24" alt="The Kanekata symbol" /></td>
@@ -610,6 +615,13 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">竹印</span> (<span lang="ja-Latn">takejirushi</span>, ‘bamboo brand’)</li>
           </ul>
         </Section>
+        <Section title={<><Noun lang="ja-Latn">Kyōwadō</Noun> (<span lang="ja">京和堂</span>)</>}>
+          <p>A company about which I know little. Presumably from the name they were based in <Noun lang="ja-Latn">Kyōtō</Noun>. Their mark was a circled <span lang="ja">榮</span>. Brands included:</p>
+          <ul>
+            <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)</li>
+            <li><span lang="ja">京寶船</span> (<span lang="ja-Latn">kyōtakarabune</span>, ‘<Noun lang="ja-Latn">Kyōtō</Noun> treasure ship’)</li>
+          </ul>
+        </Section>
       </Section>
       <Section title="Unknown">
         <p>The following brands are by unknown manufacturers. Any help identifying them would be greatly appreciated!</p>
@@ -617,7 +629,6 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <li><span lang="ja">𛂁𛁲゙𛁈𛀸</span>/<span lang="ja">な𛁲゙𛁈𛀸</span>/<span lang="ja">なでしこ</span> (<span lang="ja-Latn">nadeshiko</span>, ‘pink’ (the flower))</li>
           <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’)</li>
           <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’)</li>
-          <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’), maker’s mark a circled <span lang="ja">筞</span></li>
           <li>maker’s mark <span lang="ja">片&#xe0103;</span> with angle, brands include <span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’) and <span lang="ja">倭錦</span> (<span lang="ja-Latn">wanishiki</span>, ‘Japanese brocade’)</li>
         </ul>
       </Section>
