@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleContentProps, Noun, Cards, ArticleImage } from 'ui';
+import { ArticleContentProps, Noun, Cards, ArticleImage, Section } from 'ui';
 
 import { KakkuriYomi } from 'References/bibliography.json';
 
@@ -16,8 +16,7 @@ import imgWilds from './wilds.jpg';
 const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     return (<>
   <p>{pronounce("strawberrybrown", "Kakkuri", "ja-Latn", pronKakkuri, true)} (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.{cite(KakkuriYomi)} It is still played in the town of <Noun lang="ja-Latn">Yafune</Noun> (<span lang="ja">矢船町</span>), in the city of <Noun lang="ja-Latn">Echizen</Noun> (<span lang="ja">越前市</span>) in <Noun lang="ja-Latn">Fukui</Noun> prefecture (<span lang="ja">福井県</span>).</p>
-  <section id="equipment">
-    <h2>Equipment</h2>
+  <Section title="Equipment">
     <p><Noun lang="ja-Latn">Kakkuri</Noun> is played with <span lang="ja-Latn">komatsufuda</span> (<span lang="ja">小松札</span>), a deck of 48 cards which run from 1–12 in four suits. Alternatively, it can be played with <Noun lang="ja-Latn">Hanafuda</Noun> cards if you are very familiar with the deck ordering, or you can play with a standard deck of cards by removing all <Cards>10</Cards>s.</p>
     <ArticleImage
       src={imgKomatsufuda}
@@ -25,9 +24,8 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
       source={{license: 'cc-by-sa', licenseVersion: '4.0', author: 'Outlookxp', copyrightYear: 2014, originalUrl: 'https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%9D%BE%E6%9C%AD.png'}}>
       The 48 cards of the traditional <span lang="ja-Latn">komatsufuda</span> deck.
     </ArticleImage>
-  </section>
-  <section id="setup">
-    <h2>Setup</h2>
+  </Section>
+  <Section title="Setup">
     <p>As in other Japanese games, all actions (dealing and playing) are performed in an anti-clockwise direction.</p>
     <p>The game is usually played for money: a stake should be decided between the players, and all payments are made in multiples of this stake (1×, 2×, 3×). Otherwise, these can be counted as points.</p>
     <p>To begin, deal 6 cards to each player in groups of 3. The remaining cards are set in a stack face-down in the middle of the table; this is called the ‘box’ (<span lang="ja">箱</span> {pronounce("poyotan", "hako", "ja-Latn", pronHako)}).</p>
@@ -47,9 +45,8 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
       alt="">
       The <Cards>1</Cards>s of <span lang="ja-Latn">isu</span>, <span lang="ja-Latn">ouro</span>, and <span lang="ja-Latn">kotsu</span>.
     </ArticleImage>
-  </section>
-  <section id="play">
-    <h2>Play</h2>
+  </Section>
+  <Section title="Play">
     <p>To start play, the dealer turns up the top card of the box, which will count as the first card played. The dealer then takes the first turn.</p>
     <p>On a player’s turn they may play several cards. Each card must be one rank higher than the last card played (e.g. if the last card is a <Cards>3</Cards>, you can only play a <Cards>4</Cards>). However, a <Cards>1</Cards> can be played after a <Cards>1</Cards>, and a <Cards>2</Cards> can be played after a <Cards>2</Cards>. When the last card played is a <Cards>12</Cards> <span lang="ja-Latn">kiri </span>(or <Cards>K</Cards>), then any rank can be played next. Suits do not matter, and cards are played on the table in front of the person playing them, rather than in the middle of the table (this makes it easier to see how many cards each player has remaining).</p>
     <p>In addition, the <Cards>1</Cards> of <span lang="ja-Latn">pao</span> (<Cards>Ac</Cards>) and <Cards>2</Cards> of <span lang="ja-Latn">ouro</span> (<Cards>2d</Cards>) are wild and can be played as any other card. If turned up from the box they count as a normal <Cards>1</Cards> &amp; <Cards>2</Cards>.</p>
@@ -69,7 +66,7 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     <p>After all players pass in a row without playing, the last player that played any cards can either take another turn, or turn up a new card from the box and then take another turn.</p>
     <p>The first player to get rid of all their cards wins and all other players (who did not drop out) must pay 1× to the pot, which the winner takes. If a player wins by playing all their cards in one go, then everyone else must pay 2× instead; this is called <span lang="ja">グリ</span> <span lang="ja-Latn">guri</span>. Note that you can still claim <span lang="ja-Latn">guri</span> if you have had previous turns but did not play any cards, so if you see someone passing a lot without playing any cards, be careful!</p>
     <p>The winner becomes the dealer for the next game.</p>
-  </section>
+  </Section>
 </>);
 }
 

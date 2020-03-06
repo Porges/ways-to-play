@@ -232,7 +232,6 @@ const Basics: React.FC<ArticleContentProps> = ({ cite, pronounce }) => {
     <Section title="Basic matching rules">
     </Section>
     {/* <section id="terminology">
-      <h2>Terminology</h2>
       <dl>
         <dt><span lang="ja">場</span> <span lang="ja-Latn">ba</span>, ‘field’</dt>
         <dd>The area where cards are played.</dd>
