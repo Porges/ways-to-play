@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 import Table from 'react-bootstrap/Table';
 
@@ -185,7 +186,7 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
               </tr>
               <tr>
                 <td><img src={imgKanekata} height="24" alt="The Kanekata symbol" /></td>
-                <td><a href="#Unknown">(Unknown)</a></td>
+                <td><a href="#Kamigataya"><Noun lang="ja-Latn">Kamigataya</Noun></a></td>
               </tr>
               </tbody>
             </Table>
@@ -631,6 +632,14 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">京寶船</span> (<span lang="ja-Latn">kyōtakarabune</span>, ‘<Noun lang="ja-Latn">Kyōtō</Noun> treasure ship’)</li>
           </ul>
         </Section>
+        <Section title={<><Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>)</>}>
+          <p>For more about <Noun lang="ja-Latn">Kamigataya</Noun>, see the <Link to="/articles/japan/hanafuda/art">history article</Link>. Early on, <Noun lang="ja-Latn">Kamigataya</Noun> had decks made (by <Noun lang="ja-Latn">Nintendō</Noun>) with their own brand, but they would later sell <Noun lang="ja-Latn">Nintendō</Noun>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xe0103;</span> with angle. Brands included:</p>
+          <ul>
+            <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’)</li>
+            <li><span lang="ja">倭錦</span> (<span lang="ja-Latn">yamatonishiki</span>, ‘ancient Japanese brocade’)</li>
+            <li><span lang="ja">都錦</span> (<span lang="ja-Latn">miyakonishiki</span>, ‘capital brocade’)</li>
+          </ul>
+        </Section>
       </Section>
       <Section title="Unknown">
         <p>The following brands are by unknown manufacturers. Any help identifying them would be greatly appreciated!</p>
@@ -638,7 +647,6 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
           <li><span lang="ja">𛂁𛁲゙𛁈𛀸</span>/<span lang="ja">な𛁲゙𛁈𛀸</span>/<span lang="ja">なでしこ</span> (<span lang="ja-Latn">nadeshiko</span>, ‘pink’ (the flower))</li>
           <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’)</li>
           <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’)</li>
-          <li>maker’s mark <span lang="ja">片&#xe0103;</span> with angle, brands include <span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’) and <span lang="ja">倭錦</span> (<span lang="ja-Latn">wanishiki</span>, ‘Japanese brocade’)</li>
         </ul>
       </Section>
     </>);
