@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Link } from 'react-router-dom';
-
 import Table from 'react-bootstrap/Table';
 
 import { ArticleContentProps, ArticleImage, Noun, Footnote, Section } from 'ui';
@@ -48,6 +47,7 @@ import imgMarumatsu from './marumatsu.svg';
 import imgKanekata from './kanekata.svg';
 import imgMarutano from './marutano.svg';
 import imgMaruei from './maruei.svg';
+import imgNihonKaruta四光 from './NihonKaruta_四光.jpg';
 
 const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
     return (<>
@@ -459,6 +459,11 @@ const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
             <li><span lang="ja">三福</span> (<span lang="ja-Latn">sanfuku</span>, ‘three fortunes’)</li>
             <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon)</li>
           </ul>
+          <ArticleImage
+            alt="Five Hanafuda cards, which have thin blue lines showing detail in the black areas, unlike standard Hanafuda cards."
+            src={imgNihonKaruta四光}>
+             The bright cards of <Noun lang="ja-Latn">Nihon Karuta</Noun>’s <span lang="ja">四光</span> (<span lang="ja-Latn">shikō</span>, ‘four brights’) pattern.
+          </ArticleImage>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</>}>
           <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,{cite(Yamaguchi, [102])} but stopped producing in 1962.{cite(ModernJapaneseWrappers, [33])} Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span lang="ja">十</span>). Brands included:</p>
