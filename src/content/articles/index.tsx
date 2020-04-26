@@ -14,40 +14,45 @@ const articles: List = {
     title: "Articles",
     articles: new Map([
         ['mill-games', {
-          title: "Mill Games",
-          draft: true,
-          import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games'))
-        } ],
-        ['japan', {
-            title: "Japanese Cards",
+            title: "Mill Games",
+            draft: true,
+            import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games'))
+        }],
+        ['cards', {
+            title: "Playing Cards",
             articles: new Map([
-                ['introduction', {
-                    title: 'Japanese Cards',
-                    draft: true,
-                    import: React.lazy(() => import(/* webpackChunkName: 'japanese-cards' */ './japan/introduction'))
-                }],
-                ['hanafuda', {
-                    title: 'Hanafuda',
-                    titleLang: 'ja-Latn',
+                ['japan', {
+                    title: "Japanese Cards",
                     articles: new Map([
-                        ['basics', {
-                            title: "Hanafuda Basics",
+                        ['introduction', {
+                            title: 'Japanese Cards',
                             draft: true,
-                            import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-basics' */ './japan/hanafuda/basics'))
+                            import: React.lazy(() => import(/* webpackChunkName: 'japanese-cards' */ './cards/japan/introduction'))
                         }],
-                        ['art', {
-                            title: "The History & Art of Hanafuda",
-                            draft: true,
-                            import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './japan/hanafuda/art'))
-                        }],
-                        ['traditional-manufacturers', {
-                            title: "Traditional Hanafuda Brands",
-                            import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-traditional-brands' */ './japan/hanafuda/manufacturers/traditional'))
-                        }],
-                        ['new-manufacturers', {
-                            title: "New Hanafuda Brands",
-                            draft: true,
-                            import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-new-brands' */ './japan/hanafuda/manufacturers/new'))
+                        ['hanafuda', {
+                            title: 'Hanafuda',
+                            titleLang: 'ja-Latn',
+                            articles: new Map([
+                                ['basics', {
+                                    title: "Hanafuda Basics",
+                                    draft: true,
+                                    import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-basics' */ './cards/japan/hanafuda/basics'))
+                                }],
+                                ['art', {
+                                    title: "The History & Art of Hanafuda",
+                                    draft: true,
+                                    import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './cards/japan/hanafuda/art'))
+                                }],
+                                ['traditional-manufacturers', {
+                                    title: "Traditional Hanafuda Brands",
+                                    import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-traditional-brands' */ './cards/japan/hanafuda/manufacturers/traditional'))
+                                }],
+                                ['new-manufacturers', {
+                                    title: "New Hanafuda Brands",
+                                    draft: true,
+                                    import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-new-brands' */ './cards/japan/hanafuda/manufacturers/new'))
+                                }]
+                            ])
                         }]
                     ])
                 }]

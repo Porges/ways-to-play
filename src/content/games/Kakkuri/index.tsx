@@ -8,7 +8,7 @@ import pronKakkuri from './pronunciation_ja_がっくり.mp3';
 import pronHako from './pronunciation_ja_箱.mp3';
 import pronSansoku from './pronunciation_ja_三足.mp3';
 
-import imgKomatsufuda from 'content/articles/japan/komatsufuda.png';
+import imgKomatsufuda from 'content/articles/cards/japan/komatsufuda.png';
 import img3pao from './3pao.jpg';
 import imgUtazu from './utazu.jpg';
 import imgWilds from './wilds.jpg';
