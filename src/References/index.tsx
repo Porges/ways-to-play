@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-type Author = { readonly family?: string, readonly given: (readonly string[] | string) }
+type Author = { readonly family?: string, readonly given: (readonly string[] | string), readonly lang?: string }
 
 export type Reference =  Readonly<{
     type: string,
@@ -18,6 +18,7 @@ export type Reference =  Readonly<{
     issued?: { year: number } | { year: number, month: number } | { year: number, month: number, day: number },
     ['publisher-place']?: string,
     publisher?: string,
+    ['publisher-lang']?: string,
     page?: string|number,
 }>
 
@@ -39,7 +40,8 @@ const renderAuthors = (reference: Reference) => {
     if (reference.author) {
         return <>{renderPeople(reference.author, true, true, 'author')} </>;
     } else if ('publisher' in reference) {
-        return <><span itemScope itemType="http://schema.org/Organization" itemProp="author"><span itemProp="name">{reference.publisher}</span></span>. </>;
+        return (<><span itemScope itemType="http://schema.org/Organization" itemProp="author">
+            <span itemProp="name" lang={reference['publisher-lang']}>{reference.publisher}</span></span>. </>);
     } else {
         return 'TODO';
     }
@@ -48,14 +50,16 @@ const renderAuthors = (reference: Reference) => {
 const renderTitle = (reference: Reference) => {
     const html = {__html: reference.title};
 
+    const lang = reference["title-lang"];
+
     const linked =
         reference.URL
         ? <a itemProp="url" href={reference.URL} dangerouslySetInnerHTML={html} />
         : <span dangerouslySetInnerHTML={html} />;
 
     return reference.type === 'book'
-        ? <><cite itemProp="name" lang={reference["title-lang"]}>{linked}</cite>{reference.volume && <> (volume {reference.volume})</>}. </>
-        : <>‘<span itemProp="name headline">{linked}</span>’. </>;
+        ? <><cite itemProp="name" lang={lang}>{linked}</cite>{reference.volume && <> (volume {reference.volume})</>}. </>
+        : <>‘<span itemProp="name headline" lang={lang}>{linked}</span>’. </>;
 }
 
 const renderDate = (reference: Reference) => {
@@ -83,7 +87,7 @@ const renderDate = (reference: Reference) => {
 
 const renderPublisher = (reference: Reference) => (<>
         {reference['publisher-place'] && (reference['publisher-place'] + ': ') }
-        {reference.publisher && (reference.publisher + (reference.publisher.endsWith('.') ? ' ' : '. ')) }
+        {reference.publisher && <><span lang={reference['publisher-lang']}>{reference.publisher}</span>{reference.publisher.endsWith('.') ? ' ' : '. '}</> }
     </>);
 
 const renderISBN = (reference: Reference) => (
@@ -104,7 +108,7 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
     return as.map((a, ix) => (
         <React.Fragment key={ix}>
             { ix > 0 && (ix === as.length - 1 ? <>{(as.length > 2) && ','} and </> : ", ") }
-            <span itemScope itemType="http://schema.org/Person" itemProp={itemProp}>
+            <span itemScope itemType="http://schema.org/Person" itemProp={itemProp} lang={a.lang}>
                 { reverseFirst && ix === 0 
                   ? <>{renderFirst(a, ix)}, {renderLast(a, ix)}</>
                   : <>{renderLast(a, ix)} {renderFirst(a, ix)}</> }

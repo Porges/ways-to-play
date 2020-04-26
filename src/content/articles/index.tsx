@@ -142,9 +142,9 @@ const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
         </Breadcrumb>;
 
     if ('import' in found) {
-        return <>{breadCrumbs}<Article url={match.url} content={found} /></>;
+        return <>{breadCrumbs}<Article key={match.url} url={match.url} content={found} /></>;
     } else {
-        return <>{breadCrumbs}<ArticleList route={props} list={found} /></>;
+        return <>{breadCrumbs}<ArticleList key={match.url} route={props} list={found} /></>;
     }
 }
 

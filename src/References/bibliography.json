@@ -3517,11 +3517,12 @@
         "type": "book",
         "title": "最後の読みカルタ",
         "title-lang": "ja",
-        "author": [ { "family": "山口", "given": "泰彦" } ],
+        "author": [ { "family": "山口", "given": "泰彦", "lang": "ja" } ],
         "issued": {
             "year": 1998
         },
-        "publisher": "帝国コンサルタント社友会科学文化部出版局"
+        "publisher": "帝国コンサルタント社友会科学文化部出版局",
+        "publisher-lang": "ja"
     },
     "KakkuriYomi": {
         "id": "KakkuriYomi",
@@ -3559,9 +3560,10 @@
         "type": "book",
         "title": "手わざの記憶",
         "title-lang": "ja",
-        "author": [{"given": "健司", "family": "村上"}],
+        "author": [{"given": "健司", "family": "村上", "lang": "ja"}],
         "issued": {"year": 2009},
         "publisher": "中央公論新社",
+        "publisher-lang": "ja",
         "publisher-place": "Tōkyō, Japan"
     },
     "OishiTengudoHistory4": {
@@ -3570,6 +3572,7 @@
         "title": "大石天狗堂口伝　第四章",
         "title-lang": "ja",
         "publisher": "大石天狗堂",
+        "publisher-lang": "ja",
         "issued": {"year": 2014},
         "URL": "https://www.tengudo.jp/blog/karuta-news/692.html"
     },
@@ -3578,9 +3581,10 @@
         "type": "book",
         "title": "花札",
         "title-lang": "ja",
-        "author": [{"given":"崇","family":"江橋"}],
+        "author": [{"given":"崇","family":"江橋", "lang": "ja"}],
         "issued": {"year": 2014},
         "publisher": "法政大学出版局",
+        "publisher-lang": "ja",
         "publisher-place": "Tōkyō, Japan"
     },
     "UmebayashiIsao":{
@@ -3588,7 +3592,7 @@
         "type": "article-journal",
         "title": "地方の花札屋さん",
         "title-lang": "ja",
-        "author": [{"family": "梅林", "given": "勲"}],
+        "author": [{"family": "梅林", "given": "勲", "lang": "ja"}],
         "issued": {"year": 2006, "month": 6, "day": 31},
         "container-title": "Japan Academy of Gambling & Gaming Studies Newsletter",
         "issue": 9,
