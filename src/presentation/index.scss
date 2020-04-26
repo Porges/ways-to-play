@@ -9,7 +9,7 @@
 }
 
 $font-family-serif:
-    "Mercury SSm A", "Mercury SSm B",
+    "Lora",
     Georgia,
     serif,
     "UniHentaiKana", /* fallback for Hentaigana chars */
@@ -20,8 +20,10 @@ $font-family-serif:
 
 $font-family-base: $font-family-serif;
 
-$headings-font-family: "Archer SSm A", "Archer SSm B", serif;
-$headings-font-weight: bold;
+$my-heading-font-family: "Quicksand";
+
+$headings-font-family: $my-heading-font-family, serif;
+$headings-font-weight: medium;
 
 $brand-primary: #2455c3;
 
@@ -92,7 +94,7 @@ h2 {
 }
 
 .navbar {
-    font-family: "Archer SSm A", "Archer SSm B", "cc-icons", /* Creative Commons Unicode characters */
+    font-family: $my-heading-font-family, "cc-icons", /* Creative Commons Unicode characters */
 }
 
 .navbar-brand {
@@ -216,9 +218,8 @@ sup.citation { line-height: 0 } /* don't let superscript affect calculated lineh
 
 /*** Tables ***/
 td.numeric, th.numeric, table.numeric tbody td {
-    /* use tabular fonts for numbers then fall back to other characters */
-    font-family: "Mercury SSm Tabular A", "Mercury SSm Tabular B", $font-family-serif;
-    font-variant-numeric: tabular-nums; /* redundant due to font-family, but useful for fallback */
+    // TODO: font doesn't support it 
+    font-variant-numeric: tabular-nums;
     text-align: right;
 }
 
@@ -264,13 +265,6 @@ table.rule-last-col td:last-child {
 table.rule-last-row tr:last-child {
     border-top: thin solid black;
 }
-
-// table {
-//     border-spacing: 0;
-//     clear: both;
-//     border-spacing: 0;
-//     margin: 2rem auto;
-//   }
 
 /*** Lists ***/
 
