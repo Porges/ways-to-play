@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleImage, ArticleContentProps, Section } from 'ui';
+import { ArticleImage, Cite, Section } from 'ui';
 import { WCF } from 'References/bibliography.json';
 
 import imgCamette from './camette.svg';
@@ -11,7 +11,7 @@ import imgFourHandedChivalry from './four-handed-chivalry.svg';
 import imgGrandCam from './grand-cam.svg';
 import imgGrandCamelot from './grand-camelot.svg';
 
-const Camelot: React.FC<ArticleContentProps> = ({cite}) => (
+const Camelot: React.FC = () => (
     <>
     <section itemProp="description">
         <p><span className="game-title">Chivalry</span>, <span className="game-title">Camelot</span>, <span className="game-title">Cam</span>, and <span className="game-title">Camette</span> are members of a series of related 2-player games originally developed by George Parker (of Parker Brothers fame).</p>
@@ -29,7 +29,7 @@ const Camelot: React.FC<ArticleContentProps> = ({cite}) => (
         
         President Kennedy also grew up playing it:
         `http://www.cardsanddominoes.com/html/camelot.html` -->*/}
-        <p>In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to popularize the game on the internet.{cite(WCF)} The rules descriptions below are based on his website (they differ slightly from the original rules supplied by Parker Brothers).</p>
+        <p>In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to popularize the game on the internet.<Cite r={WCF}  /> The rules descriptions below are based on his website (they differ slightly from the original rules supplied by Parker Brothers).</p>
     </Section>
     <Section title="Basic Rules">
         <p>Across all the games, there are only two different pieces—the foot-soldier and the knight—and these pieces have the same powers of movement and capture in each game.</p>

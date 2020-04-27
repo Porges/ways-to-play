@@ -1,14 +1,14 @@
 import * as React from 'react';
 import Table from 'react-bootstrap/Table';
 
-import { ArticleContentProps, Noun, Cards, Footnote, ArticleImage, Section } from 'ui';
+import { Cite, Noun, Cards, Footnote, ArticleImage, Section } from 'ui';
 
 import { CardGamesAroundTheWorld, NoteOnAMissingLink, CardGamesAmongAborigines } from 'References/bibliography.json';
 
 import imgKabufuda1 from 'content/articles/cards/japan/kabufuda/Kabufuda_1.jpg';
 import imgKabufuda2 from 'content/articles/cards/japan/kabufuda/Kabufuda_2.jpg';
 
-const OichoKabu: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
+const OichoKabu: React.FC = () => {
   return (<>
     <p><Noun lang="ja-Latn">Oicho-Kabu</Noun> (<span lang="ja">おいちょかぶ</span>, ‘eight-nine’) is a Japanese gambling game in the style of Baccarat.</p>
     <Footnote>
@@ -24,7 +24,7 @@ const OichoKabu: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     <Footnote>
       A <Noun lang="ja-Latn">Nintendō</Noun> advertising poster from the early 20th century also indicates that their cards were being exported to Australia.
   </Footnote>
-    <p>The game originated in Japan, but has surprisingly also been spotted in the northern parts of Australia amongst Aboriginal communities; apparently having been transferred there by Japanese sailors working in the pearl industry.{cite(NoteOnAMissingLink)}{cite(CardGamesAmongAborigines)}</p>
+    <p>The game originated in Japan, but has surprisingly also been spotted in the northern parts of Australia amongst Aboriginal communities; apparently having been transferred there by Japanese sailors working in the pearl industry.<Cite r={NoteOnAMissingLink}  /><Cite r={CardGamesAmongAborigines}  /></p>
     <Section title="Play">
       <p>Up to ten people can play the game (aside from the dealer).</p>
     </Section>
@@ -106,7 +106,7 @@ const OichoKabu: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     </Section>
     <Section title="Variants">
       <Section title="Kabu">
-        <p>This is a simplified variant by Sid Sackson, for 2–6 players.{cite(CardGamesAroundTheWorld, [12])}</p>
+        <p>This is a simplified variant by Sid Sackson, for 2–6 players.<Cite r={CardGamesAroundTheWorld} page={12} /></p>
         <p>Play with the <Cards>A–10</Cards> from a standard deck of cards. You will also need some chips to keep track of score. Sids’ suggested chip distribution for each player is:</p>
         <Table>
           <thead>

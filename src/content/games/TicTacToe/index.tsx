@@ -2,7 +2,7 @@ import * as React from 'react';
 
 //import { GameRef } from '../Game';
 
-import { ArticleImage, ArticleContentProps, Footnote, Pronunciation, Section } from 'ui';
+import { ArticleImage, Cite, Footnote, Pronunciation, Section } from 'ui';
 import { LancasterianSystem, Koolman, SkeatTitTatTo, BerkshirePhrases, ANewCantingDictionary, BirdBrainManual, TheMouseWhoReinforced, CrossOutALandmark, TheChickenVanishes, ChinatownFairIsBack, RelayMoe, MathematicalWorkOfBabbage, TheGameOfJAM, Gardner1, Wordsworth, GamesOfTheGods, WinningWaysV3, Fiske, GamesBookForBoysAndGirls, MagazineOfArt, NurseryWitch, SuffolkWords, SourcesInRecreationalMathematics, ICommencedAnExamination, Teesdale, NotesAndQueriesS8V12 } from 'References/bibliography.json';
 
 import img7429 from './7429845046_ddc7a1464a_o.jpg';
@@ -14,7 +14,7 @@ import img8576 from './8576897675_c7c5785b4a_o.jpg'
 
 import pronTrippTrapp from './pronunciation_sv_tripp,_trapp,_trull.mp3';
 
-const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => <>
+const TicTacToe: React.FC = () => <>
   {/*<p>(Some general references for the game are @OxfordBG [112–113], @Bell [p. 91], and
       @Murray2 [§3.2.1, p. 40].)</p>*/}
   <p>Tic-Tac-Toe is a simple game for two players that is well-known as being a draw if played ‘rationally’.
@@ -33,13 +33,13 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => <>
     Some tic-tac-toe games
       </ArticleImage>
   <Section title="History">
-    <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems like a more recent invention—a degenerate version of [Three Men’s Morris]. Mentions of it only appear in the 19th century, and the game is very well suited to being played with chalk on slates—such as were used by children in schools during this period. Indeed, {cite(BerkshirePhrases, [164], { inline: true, page: 'p.' })} describes the game as “the first game taught to children when they can use a slate pencil”.</p>
+    <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems like a more recent invention—a degenerate version of [Three Men’s Morris]. Mentions of it only appear in the 19th century, and the game is very well suited to being played with chalk on slates—such as were used by children in schools during this period. Indeed, <Cite r={BerkshirePhrases} page={164} inline  /> describes the game as “the first game taught to children when they can use a slate pencil”.</p>
     <p>Some of the earliest known written references to the game occur in Charles Babbage’s unpublished manuscript ‘Essays
     on the Philosophy of Analysis’ (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the
-      game is never mentioned by name.{cite(SourcesInRecreationalMathematics)} In 1842, ‘tit-tat-to’ again occurs in
+      game is never mentioned by name.<Cite r={SourcesInRecreationalMathematics}/> In 1842, ‘tit-tat-to’ again occurs in
       his notebooks, when he conceptualizes an automaton that would play the game against a
-      human.{cite(SourcesInRecreationalMathematics)}{cite(ICommencedAnExamination)}</p>
-    <p>It also appears in 1818 in an article on the <a href="https://en.wikipedia.org/wiki/Monitorial_System">Lancasterian system</a>:{cite(LancasterianSystem)}</p>
+      human.<Cite r={SourcesInRecreationalMathematics}/><Cite r={ICommencedAnExamination}/></p>
+    <p>It also appears in 1818 in an article on the <a href="https://en.wikipedia.org/wiki/Monitorial_System">Lancasterian system</a>:<Cite r={LancasterianSystem}  /></p>
     <blockquote>
       One boy who is acquainted with the popular game of <i>checkers</i>, <i>fox and geese</i>, <i>tit-tat-to</i>, <i>hop skip and jump</i>, and a thousand other childish amusements,  will communicate all he knows to his school companions with surprising facility.
       </blockquote>
@@ -66,12 +66,12 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => <>
   </Section>
   <Section title="Terminology">
     <p>In English, tic-tac-toe has gone by many names. It has been variously called ‘tit-tat-to(e)’,
-      ‘tic(k)-tac(k)-to(e)’, ‘(n)oughts &amp; crosses’, ‘crisscross’, ‘tip-tap-toe’,{cite(Teesdale, [136])}{cite(NotesAndQueriesS8V12,
-      [333])} ‘Exeter’s Nose’ (a pun on ‘<i>X</i>s and <i>O</i>s’),{cite(SourcesInRecreationalMathematics)} or
-      ‘kit-cat-cannio’.{cite(SuffolkWords, [200])}</p>
-    <p>These names mostly derive from old counting-out rhymes (think ‘eeny meeny miny mo’) beginning with ‘tit, tat, toe’, which date from at least the early 18th century (in 1725, {cite(ANewCantingDictionary, undefined, { inline: true })} described ‘Tit-Tat’ as “the aiming of Children to go at first”).</p>
+      ‘tic(k)-tac(k)-to(e)’, ‘(n)oughts &amp; crosses’, ‘crisscross’, ‘tip-tap-toe’,<Cite r={Teesdale} page={136} /><Cite r={NotesAndQueriesS8V12}
+      page={333} /> ‘Exeter’s Nose’ (a pun on ‘<i>X</i>s and <i>O</i>s’),<Cite r={SourcesInRecreationalMathematics}/> or
+      ‘kit-cat-cannio’.<Cite r={SuffolkWords} page={200} /></p>
+    <p>These names mostly derive from old counting-out rhymes (think ‘eeny meeny miny mo’) beginning with ‘tit, tat, toe’, which date from at least the early 18th century (in 1725, <Cite r={ANewCantingDictionary} inline  /> described ‘Tit-Tat’ as “the aiming of Children to go at first”).</p>
     <p>The fullest expression of this rhyme is along the lines of:</p>
-    <Footnote>Some sources (e.g. {cite(NurseryWitch, [374], { inline: true })}) give this last line as “… in the old
+    <Footnote>Some sources (e.g. <Cite r={NurseryWitch} page={374} inline/>) give this last line as “… in the old
       man’s (burial-)ground!”; I have no idea what this means.</Footnote>
     <blockquote>
       Tit, tat, toe,<br />
@@ -92,31 +92,31 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => <>
       src={imgTickTack}
       alt="A drawing of children playing ‘tick-tack-toe’ on a circular board drawn on the sidewalk."
       source={{ license: 'cc0' }}>
-      Children playing a <em>different</em> game of ‘tick-tack-toe’ (by F. J. Shields, as reproduced in {cite(MagazineOfArt, [136], { inline: true })}).
+      Children playing a <em>different</em> game of ‘tick-tack-toe’ (by F. J. Shields, as reproduced in <Cite r={MagazineOfArt} page={136} inline/>).
       </ArticleImage>
     <p>The same rhyme and name were also used for an unrelated game, using a circular board, in which a player
-      would attempt to locate high-scoring sections of a circle while blindfolded.{cite(GamesBookForBoysAndGirls,
-      [55])}</p>
+      would attempt to locate high-scoring sections of a circle while blindfolded.<Cite r={GamesBookForBoysAndGirls}
+      page={55}/></p>
     <p>There seems to be a distinction we can draw between languages that have folkish names and those that have more functional names derived from the outward appearance or goal of the game.</p>
     <Footnote>
-      {cite(SkeatTitTatTo, undefined, { inline: true })} also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but looking at his source,{cite(Koolman, [410])} it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “Tik-Tak-Tuk” is also the name of the game in Indonesian.
+      <Cite r={SkeatTitTatTo} inline  /> also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but looking at his source,<Cite r={Koolman} page={410} /> it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “Tik-Tak-Tuk” is also the name of the game in Indonesian.
       </Footnote>
-    <p>In the former group we have: Dutch ‘<span lang="nl">tik tak tol</span>’,{cite(Fiske, [122])} or ‘<span
+    <p>In the former group we have: Dutch ‘<span lang="nl">tik tak tol</span>’,<Cite r={Fiske} page={122} /> or ‘<span
       lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and in Swedish ‘<Pronunciation
-        src={pronTrippTrapp} lang="sv">tripp, trapp, trull</Pronunciation>’.{cite(Fiske, [137])}</p>
-    <p>Like the English names, one Dutch name (<span lang="nl">boter, melk, kaas</span>) is derived from a rhyme:{cite(WinningWaysV3, [732])}</p>
+        src={pronTrippTrapp} lang="sv">tripp, trapp, trull</Pronunciation>’.<Cite r={Fiske} page={137} /></p>
+    <p>Like the English names, one Dutch name (<span lang="nl">boter, melk, kaas</span>) is derived from a rhyme:<Cite r={WinningWaysV3} page={732} /></p>
     <div className="multi text-center">
       <p lang="nl">Boter, melk, kaas,<br />ik ben de baas.</p>
       <p>Butter, milk, cheese,<br />I am the boss.</p>
     </div>
-    <p>Sweden had a similar rhyme:{cite(GamesOfTheGods, [163])}</p>
+    <p>Sweden had a similar rhyme:<Cite r={GamesOfTheGods} page={163} /></p>
     <div className="multi text-center"> <p lang="sv">Tripp, trapp, trull,<br />min kvarn är full.</p> <p>Tripp, trapp, trull,<br />my mill is full.</p>
     </div>
     <p>In the ‘functional’ group of names are those like the Arabic <span lang="ar">لعبة إكس-أو</span> ‘the <i>X</i>–<i>O</i> game’; or the Chinese <span lang="zh">圈圈叉叉</span> ‘circles &amp; crosses’, or <span lang="zh">井字棋</span> ‘<code>井</code> character game’.</p>
     <p>The languages with ‘folkish’ names also tend to have ‘functional’ names as well; an alternate Swedish name
       is ‘<span lang="sv">tre-i-rad</span>’ (‘three in a row’), and Dutch has ‘<span lang="nl">kruisje rondje</span>’
       (‘cross circle’).</p>
-    <p>On the other hand, the English poet Wordsworth didn’t think the game was worthy of a name at all. In <cite>The Prelude</cite>, he describes playing the game as a child:{cite(Wordsworth, [[538, 544]], { page: "lines" })}</p>
+    <p>On the other hand, the English poet Wordsworth didn’t think the game was worthy of a name at all. In <cite>The Prelude</cite>, he describes playing the game as a child:<Cite r={Wordsworth} page={[[538, 544]]} pageType="lines"   /></p>
     <blockquote>
       Eager and never weary we pursued  <br />
       Our home-amusements by the warm peat-fire  <br />
@@ -144,13 +144,13 @@ const TicTacToe: React.FC<ArticleContentProps> = ({cite}) => <>
     <p>You know this, right?</p>
   </Section>
   <Section title="Strategy">
-    <p>See, e.g. {cite(Gardner1, [[37, 46]], { inline: true })}.</p>
+    <p>See, e.g. <Cite r={Gardner1} page={[[37, 46]]} inline  />.</p>
     {/*<!-- It is claimed that “yih” 弈 is an old name for the game. No, this is go, or maybe
       something older. -->*/}
   </Section>
   <Section title="Variants">
     <Section title="The 15 Game">
-      <p>This game is also known as “Number Scrabble”{cite(TheGameOfJAM)} or “Pick15”.</p>
+      <p>This game is also known as “Number Scrabble”<Cite r={TheGameOfJAM}  /> or “Pick15”.</p>
       <p>
         To play: Write down the numbers from 1–9 on a piece of paper. Each turn,
         a player claims a number for themselves by marking it, and a number can only be
@@ -159,7 +159,7 @@ first player to claim 3 numbers that add to 15 is the winner.
       </p>
       <p>
         This game is isomorphic to the game of tic-tac-toe. Astonishingly, this form was
-        invented by Babbage in his initial analysis of the game.{cite(MathematicalWorkOfBabbage, [127])}
+        invented by Babbage in his initial analysis of the game.<Cite r={MathematicalWorkOfBabbage} page={127} />
       </p>
       <p>To show the equivalence, write down the numbers in the form of the (unique) 3&times;3 magic square:</p>
       <table className="numeric rule-between-cells">
@@ -176,12 +176,12 @@ first player to claim 3 numbers that add to 15 is the winner.
     </Section>
     <Section title="JAM">
       <p>
-        This is another isomorphic variant invented by John Michon.{cite(TheGameOfJAM)}
+        This is another isomorphic variant invented by John Michon.<Cite r={TheGameOfJAM} />
       </p>
     </Section>
     <Section title="Spit">
       <p>
-        Yet another isomorphic variant is played as follows:{cite(WinningWaysV3, [732])}
+        Yet another isomorphic variant is played as follows:<Cite r={WinningWaysV3} page={732} />
       </p>
       <p>
         Write down the nine words ‘Spit’, ‘Not’, ‘So’, ‘Fat’, ‘Fop’, ‘As’, ‘If’, ‘In’,
@@ -253,14 +253,14 @@ first player to claim 3 numbers that add to 15 is the winner.
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Bertie_the_Brain"><cite>Bertie the Brain</cite></a> (analog, 1950)</li>
       <li><a href="https://en.wikipedia.org/wiki/OXO"><cite>OXO</cite></a> (for the EDSAC, 1952)</li>
-      <li><cite>Relay Moe</cite>{cite(RelayMoe)} (relay-based, 1956), the first to be programmed with a variable
+      <li><cite>Relay Moe</cite><Cite r={RelayMoe}  /> (relay-based, 1956), the first to be programmed with a variable
         strategy and with a chance of making a mistake</li>
     </ul>
     <p>Chickens have also been trained to ‘play’ the
-      game.{cite(CrossOutALandmark)}{cite(TheChickenVanishes)}{cite(ChinatownFairIsBack)} The first of these games,
+      game.<Cite r={CrossOutALandmark}  /><Cite r={TheChickenVanishes}  /><Cite r={ChinatownFairIsBack}  /> The first of these games,
       “Bird Brain”, was developed in the late 1970s by Animal Behavior Enterprises, a company founded by
       Marian &amp; Keller Breland, who were students of B. F. Skinner, the behavioural
-      psychologist.{cite(TheMouseWhoReinforced, [73])} In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.{cite(BirdBrainManual)}</p>
+      psychologist.<Cite r={TheMouseWhoReinforced} page={73} /> In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.<Cite r={BirdBrainManual}  /></p>
   </Section>
   <h2>Audio Credits</h2>
   <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>. Pronunciations are by:</p>

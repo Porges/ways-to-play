@@ -4,15 +4,15 @@ import Table from 'react-bootstrap/Table';
 
 import { GameRef } from '../Game';
 
-import { ArticleImage, ArticleContentProps, Section } from 'ui';
+import { ArticleImage, Cite, Section } from 'ui';
 import { Murray2 } from 'References/bibliography.json';
 
 import imgLeapFrogVariation from './leap-frog-variation.svg';
 
-const LeapFrog: React.FC<ArticleContentProps> = ({ cite }) => (<>
+const LeapFrog: React.FC = () => (<>
   <p><span id="index-leap-frog" className="game-title">Leap-Frog</span> is a game for two or more players in which the object is to capture the most pieces from a board containing identical pieces.</p>
   <Section title="Equipment">
-    <p>To play you will need a gridded board (Murray{cite(Murray2, [93])} suggests 15×15 to 18×18 squares), and enough pieces to fill all the spaces on it. All the pieces are the same.</p>
+    <p>To play you will need a gridded board (<Cite r={Murray2} page={93} inline /> suggests 15×15 to 18×18 squares), and enough pieces to fill all the spaces on it. All the pieces are the same.</p>
   </Section>
   <Section title="Setup">
     <p>Place one piece on each square of the board.</p>
@@ -28,7 +28,7 @@ const LeapFrog: React.FC<ArticleContentProps> = ({ cite }) => (<>
       src={imgLeapFrogVariation}>
       A sample initial configuration for Murray’s variation.
   </ArticleImage>
-    <p>Murray{cite(Murray2, [93, 94])} invented a variant in 1898. The undifferentiated pieces are replaced by pieces coloured white, yellow, red, and green, in the ratios 4:3:2:1. The pieces now count points according to these ratios (i.e. green is worth 4 points while white is worth 1). To set up the board, the pieces are arranged randomly on the squares, and the first player must remove a white piece to begin. The player with the highest point value of pieces taken at the end wins.</p>
+    <p>Murray<Cite r={Murray2} page={[[93, 94]]} /> invented a variant in 1898. The undifferentiated pieces are replaced by pieces coloured white, yellow, red, and green, in the ratios 4:3:2:1. The pieces now count points according to these ratios (i.e. green is worth 4 points while white is worth 1). To set up the board, the pieces are arranged randomly on the squares, and the first player must remove a white piece to begin. The player with the highest point value of pieces taken at the end wins.</p>
     <Table size="sm">
       <caption>Example piece counts for different board sizes</caption>
       <thead>

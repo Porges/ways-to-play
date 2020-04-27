@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { GameRef } from '../Game';
 
-import { ArticleImage, Footnote, Noun, ArticleContentProps, Section } from 'ui';
+import { ArticleImage, Footnote, Noun, Cite, Section } from 'ui';
 
 import 
     { Stokes, KamehamehaAndHisWarrior, Ellis17, VoyageToPacific
@@ -16,7 +16,7 @@ import img_3365 from './33654775226_96814ca128_o.jpg';
 import img_2441 from './24417651849_e661252c66_o.jpg';
 import img_Z009 from './Z0092008.jpg';
 
-const Konane: React.FC<ArticleContentProps> = ({cite}) => {
+const Konane: React.FC = () => {
   return (<>
     <p><span id="index-konane" className="game-title" lang="haw">Kōnane</span> (sometimes also called <span lang="haw">mū</span>, which is also used to refer to draughts) is a traditional Hawaiian abstract game for two players. While it looks similar to checkers at first glance, the object of the game is different, and the strategy is very deep.</p>
     <ArticleImage
@@ -33,49 +33,49 @@ const Konane: React.FC<ArticleContentProps> = ({cite}) => {
     </ArticleImage>
     <Section title="History">
       <Footnote>
-        <p>John F. G. Stokes (1875–1960, an Australian archæologist on <Noun lang="haw">Hawaiʻi</Noun>) suggested at one point—with only a sliver of linguistic evidence—that <Noun lang="haw">Kōnane</Noun> could be a distant descendant of Go, which had been transmitted by the survivors of Japanese shipwrecks.{cite(Stokes)}</p>
+        <p>John F. G. Stokes (1875–1960, an Australian archæologist on <Noun lang="haw">Hawaiʻi</Noun>) suggested at one point—with only a sliver of linguistic evidence—that <Noun lang="haw">Kōnane</Noun> could be a distant descendant of Go, which had been transmitted by the survivors of Japanese shipwrecks.<Cite r={Stokes}/></p>
       </Footnote>
       <p><Noun lang="haw">Kōnane</Noun> stands alone as a purely-abstract game in Hawaiian culture.  However, it definitely existed before European contact, as it was described by Captain Cook’s voyage, which was the first of its kind to reach the islands (see below).</p>
       <p>The game dates at least from the early 18th century, as it was played by Kahekili II (c. 1737–1794), who was high chief (<span lang="haw">aliʻi nui</span>) of Maui. Kahekili and his advisers possibly used the board, or at least the pieces, to plan battles:</p>
       <blockquote>
-        <p>[T]here was no other king so genuinely accomplished in making war as King Kahekili of Maui and the actions on the battlefield plainly showed his knowledge of the checkers game of war. […] It was also said that at the house of Kahekili the heaps of little stones were maneuvered for battle strategy so that his generals need only fulfill their movements.{cite(KamehamehaAndHisWarrior, [41])}</p>
+        <p>[T]here was no other king so genuinely accomplished in making war as King Kahekili of Maui and the actions on the battlefield plainly showed his knowledge of the checkers game of war. […] It was also said that at the house of Kahekili the heaps of little stones were maneuvered for battle strategy so that his generals need only fulfill their movements.<Cite r={KamehamehaAndHisWarrior} page={41} /></p>
       </blockquote>
       <blockquote>
-        <p>Not only were [the old <span lang="haw">kāhuna</span> of this land] seers, but some of them used the <span lang="haw">papa kōnane hoʻoneʻe ʻiliʻili</span> [<span lang="haw">kōnane</span> stones] to guide them in understanding the movements on the battlefield.{cite(KamehamehaAndHisWarrior, [123])}</p>
+        <p>Not only were [the old <span lang="haw">kāhuna</span> of this land] seers, but some of them used the <span lang="haw">papa kōnane hoʻoneʻe ʻiliʻili</span> [<span lang="haw">kōnane</span> stones] to guide them in understanding the movements on the battlefield.<Cite r={KamehamehaAndHisWarrior} page={123} /></p>
       </blockquote>
-      <p>The gods were also rumoured to enjoy <span lang="haw">kōnane</span>: the volcano goddess <Noun lang="haw">Pele</Noun> was said to play it at her home in <Noun lang="haw">Hale-maʻumaʻu</Noun> crater.{cite(Ellis17, [183])}</p>
+      <p>The gods were also rumoured to enjoy <span lang="haw">kōnane</span>: the volcano goddess <Noun lang="haw">Pele</Noun> was said to play it at her home in <Noun lang="haw">Hale-maʻumaʻu</Noun> crater.<Cite r={Ellis17} page={183} /></p>
       <Footnote>
         <p>At the time of the entry quoted, Captain Cook himself had been killed. James King completed the official account of the voyage upon returning to England.</p>
       </Footnote>
       <p>The earliest written record we have of the game is from James King, who was an officer that sailed on board Captain Cook’s third voyage to the Pacific.  In an entry dated March 1779, he wrote:</p>
       <blockquote>
-        <p>It is very remarkable, that the people of theſe iſlands are great gamblers. They have a game very much like our draughts; but, if one may judge from the number of ſquares, it is much more intricate. The board is about two feet long, and it is divided into two hundred and thirty-eight ſquares, of which there are fourteen in a row, and they make uſe of black and white pebbles, which they move from ſquare to ſquare.{cite(VoyageToPacific, [144])}</p>
+        <p>It is very remarkable, that the people of theſe iſlands are great gamblers. They have a game very much like our draughts; but, if one may judge from the number of ſquares, it is much more intricate. The board is about two feet long, and it is divided into two hundred and thirty-eight ſquares, of which there are fourteen in a row, and they make uſe of black and white pebbles, which they move from ſquare to ſquare.<Cite r={VoyageToPacific} page={144} /></p>
       </blockquote>
       <Footnote>
-        <p>Campbell arrived in <Noun lang="haw">Hawaiʻi</Noun> aboard the <em>Neva</em>, the first Russian ship to circumnavigate the world, on the 29th of January 1809, and left aboard the <em>Duke of Portland</em>, a whaler, on the 4th of March 1810. The <em>Duke of Portland</em> also carried a letter from King Kamehameha to King George III, see {cite(Hackler86, undefined, { inline: true })}. More information about the ships is available in {cite(Jackson92, undefined, { inline: true })}.</p>
+        <p>Campbell arrived in <Noun lang="haw">Hawaiʻi</Noun> aboard the <em>Neva</em>, the first Russian ship to circumnavigate the world, on the 29th of January 1809, and left aboard the <em>Duke of Portland</em>, a whaler, on the 4th of March 1810. The <em>Duke of Portland</em> also carried a letter from King Kamehameha to King George III, see <Cite r={Hackler86} inline />. More information about the ships is available in <Cite r={Jackson92} inline/>.</p>
       </Footnote>
       <p>Another early witness was Archibald Campbell, a Scottish sailor who visited Oʻahu from 1809–1810. In his book, he described the game:</p>
       <blockquote>
         <p>They have a game somewhat resembling draughts, but more complicated. It is played upon a board about twenty-two inches by fourteen, painted black, with white spots, on which the men are placed; these consist of black and white pebbles, eighteen upon each side, and the game is won by the capture of the adversary’s pieces.</p>
         <p>Tamaahmaah [King Kamehameha I, rumoured to be the son of Kahekili II] excels at this game. I have seen him sit for hours playing with his chiefs, giving an occasional smile, but without uttering a word. I could not play, but William Moxely [Campbell’s interpreter], who understood it well, told me that he had seen none who could beat the king.</p>
-        <p>The game of draughts is now introduced, and the natives play it uncommonly well.{cite(AVoyageRoundTheWorld, [145])}</p>
+        <p>The game of draughts is now introduced, and the natives play it uncommonly well.<Cite r={AVoyageRoundTheWorld} page={145} /></p>
       </blockquote>
       <Footnote>
-        <p>{cite(LegendsOfHonolulu, undefined, { inline: true })} indicates that the site of the large stone board was the “Spreckels Building”, which was on Fort Street between Merchant St and Queen St, and that the smaller boards mentioned were near <Noun lang="haw">Kekūanāoʻa</Noun>’s house, which was on the corner of King and Richards Streets.</p>
+        <p><Cite r={LegendsOfHonolulu} inline /> indicates that the site of the large stone board was the “Spreckels Building”, which was on Fort Street between Merchant St and Queen St, and that the smaller boards mentioned were near <Noun lang="haw">Kekūanāoʻa</Noun>’s house, which was on the corner of King and Richards Streets.</p>
       </Footnote>
-      <p>The area around where Kamehameha lived was called Kou, and was famous as being a location for playing <span lang="haw">kōnane</span>.{cite(LegendsOfHonolulu, [8])} A large stone <span lang="haw">kōnane</span> board was reported to be opposite the temple (marked “Hale o Lono” in the map below), in the current location of the Hawaii Community Foundation. Smaller boards were near what is now Iolani Palace.</p>
+      <p>The area around where Kamehameha lived was called Kou, and was famous as being a location for playing <span lang="haw">kōnane</span>.<Cite r={LegendsOfHonolulu} page={8} /> A large stone <span lang="haw">kōnane</span> board was reported to be opposite the temple (marked “Hale o Lono” in the map below), in the current location of the Hawaii Community Foundation. Smaller boards were near what is now Iolani Palace.</p>
       <ArticleImage
         position="wide"
         src={img61_611}
         alt="A map of Honolulu as it was in 1810.">
         A reconstruction of Honolulu as it was in 1810. Kamehameha lived in the large compound on the point at the bottom centre. Kou is the area around there, bordered by the yam field at the top. Archibald Campbell stayed for some time with Isaac Davis, who lived in the rightmost of the three houses on the left. (Map from the <a href="https://digicoll.manoa.hawaii.edu/savedmaps/Pages/viewtext.php?s=browse&amp;tid=61&amp;route=browseby.php&amp;by=newest">University of <Noun lang="haw">Hawaiʻi</Noun></a>.)
     </ArticleImage>
-      <p>The game continued to be popular throughout the 19th century; William Brigham (first director of Hawaii’s state museum) reported that King Kalākaua (1836–1891) and his wife Queen Kapiʻolani (1834–1899) were “experts at konane”.{cite(Brigham08, [378])}</p>
-      <p>In current times, it is a popular game during the Makahiki (new year) festival.{cite(MolokaiDispatch)}</p>
+      <p>The game continued to be popular throughout the 19th century; William Brigham (first director of Hawaii’s state museum) reported that King Kalākaua (1836–1891) and his wife Queen Kapiʻolani (1834–1899) were “experts at konane”.<Cite r={Brigham08} page={378} /></p>
+      <p>In current times, it is a popular game during the Makahiki (new year) festival.<Cite r={MolokaiDispatch}/></p>
     </Section>
     <Section title="Equipment">
       <Section title="The board">
-        <p>The board (<span lang="haw">papakōnane</span> or <span lang="haw">papamū</span>) is a square or rectangular grid of pits (<span lang="haw">lua</span>). Traditionally, boards were carved out of wood and raised slightly off the ground for ease of play, or were made by scraping holes into a slab of volcanic rock. Games could also be played on the squares of a woven <span lang="haw">lauhala</span> mat.{cite(Emory24, [85])}</p>
+        <p>The board (<span lang="haw">papakōnane</span> or <span lang="haw">papamū</span>) is a square or rectangular grid of pits (<span lang="haw">lua</span>). Traditionally, boards were carved out of wood and raised slightly off the ground for ease of play, or were made by scraping holes into a slab of volcanic rock. Games could also be played on the squares of a woven <span lang="haw">lauhala</span> mat.<Cite r={Emory24} page={85} /></p>
         <Footnote>
           <p>Peter Faris’ ‘Rock Art Blog’ has <a href="https://rockartblog.blogspot.com/2013/01/hawaiian-rock-art-konane-game-boards.html">pictures of several stone boards</a>.</p>
         </Footnote>
@@ -83,15 +83,15 @@ const Konane: React.FC<ArticleContentProps> = ({cite}) => {
           <p>An image of a traditional carved board from <span className="proper-noun" lang="haw">Iolani</span> Palace can be seen in <a href="https://www.hawaiimagazine.com/content/see-iolani-palaces-hidden-relics-once-belonged-hawaiian-royalty">this Hawaiʻi Magazine article</a>.</p>
           <p>In November 2017, an antique wooden board with shell inlay <a href="https://www.christies.com/lotfinder/lot_details.aspx?intObjectID=6105340&amp;lid=1">sold at auction</a> for €150 000.</p>
         </Footnote>
-        <p>Stone boards can be found all over the islands of Hawaii, whereas traditional wooden boards are now hard to find, and are mostly restricted to museums.  Wooden boards sometimes had a human molar inset in the central hole (<span lang="haw">piko</span>, ‘navel’), or in some cases in all the holes of the board.{cite(PeterBuck)}</p>
+        <p>Stone boards can be found all over the islands of Hawaii, whereas traditional wooden boards are now hard to find, and are mostly restricted to museums.  Wooden boards sometimes had a human molar inset in the central hole (<span lang="haw">piko</span>, ‘navel’), or in some cases in all the holes of the board.<Cite r={PeterBuck}/></p>
         <Footnote>
           <p>The complete list of sizes found by Emory’s team was: 8×8, 8×11, 8×13, 9×10 (2 boards), 9×13 (2), 10×10, 11×11, 11×13, 13×13, 13×15, 13×20, and 15×15.</p>
         </Footnote>
         <Footnote>
-          <p>One of the boards shown by Peter Buck is also shown by Culin.{cite(CulinHawaiian)}</p>
+          <p>One of the boards shown by Peter Buck is also shown by Culin.<Cite r={CulinHawaiian}/></p>
         </Footnote>
-        <p>Historical board sizes vary greatly, and there is no standard size. King’s account implies a board of 14×17 squares, while Campbell’s account implies a 6×6 board. An archæological survey on the island of Lanai{cite(Emory24, [84])} found 14 boards, with sizes ranging from 8×8 to 13×20. Peter Buck shows two 12×15 boards from the Bishop Museum.{cite(PeterBuck)}</p>
-        <p>Peter Buck also describes another board in the Bishop Museum which has 10 rows that alternate in length between 6 &amp; 7 holes.{cite(PeterBuck)} This seems to be the same board described by Emory, where the pits are set quincuncially.{cite(Emory24, [84])} This is probably not a board for playing <span lang="haw">kōnane</span>, but for playing a game similar to <span lang="es">damas</span> (‘Spanish draughts’), which is known in Hawaii as <span lang="haw">mū</span>. However, it could also be used to play <span lang="haw">kōnane</span> by playing the game on the diagonal.</p>
+        <p>Historical board sizes vary greatly, and there is no standard size. King’s account implies a board of 14×17 squares, while Campbell’s account implies a 6×6 board. An archæological survey on the island of Lanai<Cite r={Emory24} page={84} /> found 14 boards, with sizes ranging from 8×8 to 13×20. Peter Buck shows two 12×15 boards from the Bishop Museum.<Cite r={PeterBuck}/></p>
+        <p>Peter Buck also describes another board in the Bishop Museum which has 10 rows that alternate in length between 6 &amp; 7 holes.<Cite r={PeterBuck}/> This seems to be the same board described by Emory, where the pits are set quincuncially.<Cite r={Emory24} page={84} /> This is probably not a board for playing <span lang="haw">kōnane</span>, but for playing a game similar to <span lang="es">damas</span> (‘Spanish draughts’), which is known in Hawaii as <span lang="haw">mū</span>. However, it could also be used to play <span lang="haw">kōnane</span> by playing the game on the diagonal.</p>
         <ArticleImage
           position="wide"
           src={img_3365}
@@ -108,9 +108,9 @@ const Konane: React.FC<ArticleContentProps> = ({cite}) => {
       </Section>
       <Section title="The pieces">
         <Footnote>
-          <p><Noun lang="haw">Kōloa</Noun> was also famous for its reproducing stones (<span lang="haw">ʻiliʻili hānau</span>). For more about these, see {cite(ClarkBeaches, undefined, { inline: true })} or {cite(MajesticKau, undefined, { inline: true })}.</p>
+          <p><Noun lang="haw">Kōloa</Noun> was also famous for its reproducing stones (<span lang="haw">ʻiliʻili hānau</span>). For more about these, see <Cite r={ClarkBeaches} inline /> or <Cite r={MajesticKau} inline/>.</p>
         </Footnote>
-        <p>The game is played with black &amp; white pebbles (<span lang="haw">ʻiliʻili</span>); often the black pieces (<span lang="haw">ʻiliʻili ʻeloʻelo</span>) were basalt and the white pieces (<span lang="haw">ʻiliʻili keʻokeʻo</span> or <span lang="haw">kea</span>) made of branch coral.{cite(Ellis17, [159])} One <span lang="haw">wahi pana</span> (celebrated location) for stones was Kōloa, a beach situated between Nīnole and Punaluʻu in Kaʻū on Hawaiʻi.{cite(Ellis17, [258])} Unfortunately most of this beach has been stripped of its stones for commercial purposes.{cite(ClarkBeaches, [62])} </p>
+        <p>The game is played with black &amp; white pebbles (<span lang="haw">ʻiliʻili</span>); often the black pieces (<span lang="haw">ʻiliʻili ʻeloʻelo</span>) were basalt and the white pieces (<span lang="haw">ʻiliʻili keʻokeʻo</span> or <span lang="haw">kea</span>) made of branch coral.<Cite r={Ellis17} page={159} /> One <span lang="haw">wahi pana</span> (celebrated location) for stones was Kōloa, a beach situated between Nīnole and Punaluʻu in Kaʻū on Hawaiʻi.<Cite r={Ellis17} page={258} /> Unfortunately most of this beach has been stripped of its stones for commercial purposes.<Cite r={ClarkBeaches} page={62} /> </p>
       </Section>
       <Section title="Acquiring a set">
         <p>Commercially produced boards are readily available in Hawaii or online. They are often wooden, with black &amp; white glass pieces. You could also play the game on a beach, using rocks &amp; shells.</p>
@@ -147,7 +147,7 @@ const Konane: React.FC<ArticleContentProps> = ({cite}) => {
 </ArticleImage>
     </Section>
     <Section title="Analysis">
-      <p>Michael Ernst has performed game-theoretic analysis of various board positions.{cite(Ernst95)}</p>
+      <p>Michael Ernst has performed game-theoretic analysis of various board positions.<Cite r={Ernst95}/></p>
     </Section>
     <Section title="See also">
       <p><GameRef id="take-it-away" /> and <GameRef id="leap-frog" /> play similarly but have different winning conditions.</p>

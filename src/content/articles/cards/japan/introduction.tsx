@@ -1,9 +1,9 @@
 import * as React from 'react';
 
-import { ArticleContentProps, Noun } from 'ui';
+import { Noun } from 'ui';
 import { Link } from 'react-router-dom';
 
-const Introduction: React.FC<ArticleContentProps> = ({ cite }) => 
+const Introduction: React.FC = () => 
 <section>
     <p>Japanese card games:</p>
     <ul>

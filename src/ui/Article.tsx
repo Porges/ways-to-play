@@ -17,93 +17,130 @@ type Props = {
   url: string,
 }
 
-export type ArticleContentProps = {
-  readonly cite: (
-    reference: Reference,
-    pages?: (number | [number, number])[],
-    options?: { inline?: boolean, page?: string }) => React.ReactNode;
-
-  readonly pronounce: (
-    pronouncer: string,
-    word: string,
-    lang: string,
-    file: string,
-    noun?: boolean,
-  ) => React.ReactNode;
-}
-
 export type ArticleContent = Readonly<{
   title: string,
   titleLang?: string,
   draft?: boolean,
-  import: React.LazyExoticComponent<React.FC<ArticleContentProps>>
+  import: React.LazyExoticComponent<React.FC>
 }>
 
 // For a Forvo pronunciation
 type Pronunciation = { pronouncer: string, word: string, lang: string }
+const PronunciationContext = React.createContext<{ pronunciations: Pronunciation[], addPronunciation: (p: Pronunciation) => void}>({ pronunciations: [], addPronunciation: () => {} });
+const PronunciationProvider: React.FC = ({children}) => {
+  const [pronunciations, setPronunciations] = React.useState<Pronunciation[]>([]);
+  const addPronunciation = React.useCallback((p: Pronunciation) => {
+    setPronunciations(s => {
+      if (s.find(x => x.word === p.word)) return s;
+      return [...s, p];
+    });
+  }, []);
 
-export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
+  return (
+    <PronunciationContext.Provider value={{pronunciations, addPronunciation}}>
+      {children}
+    </PronunciationContext.Provider>
+  );
+};
 
-  const [state, setState] = React.useState({ url, cited: [] as Reference[], pronunciation: [] as Pronunciation[] });
+type PronounceProps = Pronunciation & { file: string, noun?: boolean }
+export const Pronounce: React.FC<PronounceProps> = ({pronouncer, word, lang, file, noun}) => {
+  const { addPronunciation } = React.useContext(PronunciationContext);
+  React.useEffect(() => addPronunciation({word, pronouncer, lang}), [word, pronouncer, lang, addPronunciation])
+  return <Pronunciation src={file} lang={lang} noun={noun}>{word}</Pronunciation>;
+};
 
-  // switched page, need to re-render
-  if (url !== state.url) {
-    setState({ url, cited: [], pronunciation: [] });
-  }
 
-  const pronunciation = (pronouncer: string, word: string, lang: string, file: string, noun: boolean = false) => {
-    let index = state.pronunciation.findIndex(x => x.word === word);
+// For citations:
+const CitationContext = React.createContext<{ references: Reference[], addReference: (ref: Reference) => number}>({ references: [], addReference: () => 0});
+const CitationProvider: React.FC = ({children}) => {
+
+  const [references, setReferences] = React.useState<Reference[]>([]);
+
+  const addReference = React.useCallback((ref: Reference) => {
+    let index = references.findIndex(x => x === ref);
     if (index === -1) {
-      index = state.pronunciation.length;
-
-      setState(s => {
-        if (s.pronunciation.find(x => x.word === word)) return s;
-        return { ...s, pronunciation: [...s.pronunciation, { word, pronouncer, lang }] };
-      })
-    }
-
-    return <Pronunciation src={file} lang={lang} noun={noun}>{word}</Pronunciation>;
-  };
-
-  const cite = (ref: Reference, pages?: (number | [number, number])[], options?: { inline?: boolean, page?: string }) => {
-
-    let index = state.cited.findIndex(x => x === ref);
-    if (index === -1) {
-      index = state.cited.length;
+      index = references.length;
       // this will trigger re-render but next time around we won't
-      setState(s => {
+      setReferences(s => {
         // need to re-check so it doesn't get added twice - 
         // this can be called "in parallel"
-        if (s.cited.find(x => x === ref)) return s;
-        return { ...s, cited: [...s.cited, ref] };
+        if (s.find(x => x === ref)) return s;
+        return [ ...s,  ref];
       });
     }
 
-    const suffix =
-      pages === undefined
-        ? null
-        : typeof pages === 'number'
-          ? pages
-          : pages.map(p => typeof p === 'number' ? p : `${p[0]}–${p[1]}`).join(', ');
+    return index;
+  }, [references]);
 
-    const pageType = options && options.page ? options.page + ' ' : '';
+  return (
+    <CitationContext.Provider value={{references, addReference}}>
+      {children}
+    </CitationContext.Provider>
+  );
+}
+type CiteProps = {
+  r: Reference,
+  page?: number | (number | [number, number])[],
+  pageType?: string,
+  inline?: boolean,
+}
+export const Cite: React.FC<CiteProps> = ({pageType, page, inline, r}) => {
 
-    if (options && options.inline) {
-      switch (ref.type) {
-        case 'book':
-          return <><a href={`#ref-${ref.id}`}><cite dangerouslySetInnerHTML={{__html:ref.title}} /></a>{suffix && <> ({pageType}{suffix})</>}</>;
-        case 'article-journal':
-          return <><a href={`#ref-${ref.id}`}>{ref.author && ref.author[0].family}</a> ({ref.issued && ref.issued.year}{suffix && <>, {pageType}{suffix}</>})</>;
-        default:
-          return <span className="citation">[<a href={`#ref-${ref.id}`}>{index + 1}</a>]{suffix && <> ({pageType}{suffix})</>}</span>
-      }
-    } else {
-      return <sup className="citation">[<a href={`#ref-${ref.id}`}>{index + 1}</a>{suffix && <>: {pageType}{suffix}</>}]</sup>;
+  const { addReference }  = React.useContext(CitationContext);
+
+  const [index, setIndex] = React.useState(-1);
+
+  React.useEffect(() => setIndex(addReference(r)), [r, addReference]);
+
+  const suffix =
+    page === undefined
+      ? null
+      : typeof page === 'number'
+        ? page
+        : page.map(p => typeof p === 'number' ? p : `${p[0]}–${p[1]}`).join(', ');
+
+  const pageTypeS = pageType ? pageType + ' ' : '';
+  if (inline) {
+    switch (r.type) {
+      case 'book':
+        return <><a href={`#ref-${r.id}`}><cite lang={r["title-lang"]} dangerouslySetInnerHTML={{__html:r.title}} /></a>{suffix && <> ({pageTypeS}{suffix})</>}</>;
+      case 'article-journal':
+        return <><a href={`#ref-${r.id}`}>{r.author && r.author[0].family}</a> ({r.issued && r.issued.year}{suffix && <>, {pageTypeS}{suffix}</>})</>;
+      default:
+        return <span className="citation">[<a href={`#ref-${r.id}`}>{index + 1}</a>]{suffix && <> ({pageTypeS}{suffix})</>}</span>
     }
-  };
+  } else {
+    return <sup className="citation">[<a href={`#ref-${r.id}`}>{index + 1}</a>{suffix && <>: {pageTypeS}{suffix}</>}]</sup>;
+  }
+};
+
+
+// done with boilerplatey stuff
+
+const ReferenceSummary: React.FC = () => {
+  let {references} = React.useContext(CitationContext);
+  if (references.length === 0) {
+    return null;
+  }
+
+  return (
+    <Section title="References">
+      <ol className="reference-list">
+        {references.map((c, i) => <li key={i}>{renderReference(c)}</li>)}
+      </ol>
+    </Section>
+  );
+};
+
+const PronunciationSummary: React.FC = () => {
+  let {pronunciations} = React.useContext(PronunciationContext);
+  if (pronunciations.length === 0) {
+    return null;
+  }
 
   const groupedProns = new Map<string, [string, string][]>();
-  for (const { word, pronouncer, lang } of state.pronunciation) {
+  for (const { word, pronouncer, lang } of pronunciations) {
     let current = groupedProns.get(pronouncer);
     if (current === undefined) {
       current = [];
@@ -113,6 +150,25 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
     current.push([word, lang]);
     current.sort();
   }
+
+  return (
+    <Section title="Audio Credits">
+      <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>.
+       Pronunciations are by:</p>
+      <ul>
+        {Array
+          .from(groupedProns, ([author, words]) => ({ author, words }))
+          .sort((x, y) => y.words.length - x.words.length)
+          .map(({ author, words }, i) =>
+            <li key={i}>{words.map(([word, lang], i) =>
+               <React.Fragment key={i}>{i > 0 && ", "}<span lang={lang}>{word}</span></React.Fragment>)} © <a href={`https://forvo.com/user/${author}/`}>{author}</a>.</li>
+          )}
+      </ul>
+    </Section>
+  );
+}
+
+export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
 
   const Import = content.import;
   return (
@@ -138,33 +194,19 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
       <Row>
         <Col lg="1" />
         <Col lg="7">
-          <SectionContext.Provider value={2}>
-            <section itemProp="articleBody">
-              <React.Suspense fallback={<p>Loading content...</p>}>
-                <Import cite={cite} pronounce={pronunciation} />
-              </React.Suspense>
-            </section>
-          </SectionContext.Provider>
-          {state.cited.length > 0 &&
-            <Section title="References">
-              <ol className="reference-list">
-                {state.cited.map((c, i) => <li key={i}>{renderReference(c)}</li>)}
-              </ol>
-            </Section>
-          }
-          {groupedProns.size > 0 &&
-            <Section title="Audio Credits">
-              <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>. Pronunciations are by:</p>
-              <ul>
-                {Array
-                  .from(groupedProns, ([author, words]) => ({ author, words }))
-                  .sort((x, y) => y.words.length - x.words.length)
-                  .map(({ author, words }, i) =>
-                    <li key={i}>{words.map(([word, lang], i) => <React.Fragment key={i}>{i > 0 && ", "}<span lang={lang}>{word}</span></React.Fragment>)} © <a href={`https://forvo.com/user/${author}/`}>{author}</a>.</li>
-                  )}
-              </ul>
-            </Section>
-          }
+          <PronunciationProvider>
+            <CitationProvider>
+              <SectionContext.Provider value={2}>
+                <section itemProp="articleBody">
+                  <React.Suspense fallback={<p>Loading content...</p>}>
+                    <Import />
+                  </React.Suspense>
+                </section>
+              </SectionContext.Provider>
+              <ReferenceSummary />
+            </CitationProvider>
+            <PronunciationSummary />
+          </PronunciationProvider>
         </Col>
         <Col lg="1" style={{ zIndex: -1 }} />
       </Row>

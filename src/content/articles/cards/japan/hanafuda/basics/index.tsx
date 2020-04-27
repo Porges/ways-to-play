@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Noun, Footnote, ArticleImage, ArticleContentProps, Section } from 'ui';
+import { Noun, Footnote, ArticleImage, Section, Pronounce, Cite } from 'ui';
 
 import img5Brights from '../5_brights.jpg';
 import img5BrightsKr from '../5_brights_kr.jpg';
@@ -83,9 +83,9 @@ import imgHwatooJokers from './hwatoo_jokers.jpg';
 
 import { ModernKoreanCards } from 'References/bibliography.json';
 
-const Basics: React.FC<ArticleContentProps> = ({ cite, pronounce }) => {
+const Basics: React.FC = () => {
   return (<>
-    <p>{pronounce("biscuit", "Hanafuda", "ja-Latn", pronHanafuda, true)} (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as {pronounce("ssoonkimi", "hwatu","ko-Latn", pronHwatu)} (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
+    <p><Pronounce pronouncer="biscuit" word="Hanafuda" lang="ja-Latn" file={pronHanafuda} noun/> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronounce pronouncer="ssoonkimi" word= "hwatu" lang="ko-Latn" file={pronHwatu} /> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
     <ArticleImage
       position="wide"
       src={img1620}
@@ -103,24 +103,24 @@ const Basics: React.FC<ArticleContentProps> = ({ cite, pronounce }) => {
       <p><Noun lang="ja-Latn">Hanafuda</Noun> decks comprise 12 ‘suits’ of 4 cards each, giving 48 cards total. Each suit corresponds to a month, and is represented on the cards by a plant related to that month.</p>
       <p>The months and their associated plants are:</p>
       <ol>
-        <li>January: pine (<span lang="ja">松</span> {pronounce("_ai_", "matsu", "ja-Latn", pronMatsu)})</li>
-        <li>February: plum (<span lang="ja">梅</span> {pronounce("akitomo", "ume", "ja-Latn", pronUme)})</li>
-        <li>March: cherry (<span lang="ja">桜</span> {pronounce("strawberrybrown", "sakura", "ja-Latn", pronSakura)})</li>
-        <li>April: wisteria (<span lang="ja">藤</span> {pronounce("kaoring", "fuji", "ja-Latn", pronFuji)})</li>
-        <li>May: iris (<span lang="ja">菖蒲</span> {pronounce("akitomo", "ayame", "ja-Latn", pronAyame)})</li>
-        <li>June: peony (<span lang="ja">牡丹</span> {pronounce("ryomasakamoto", "botan", "ja-Latn", pronBotan)})</li>
-        <li>July: bush clover (<span lang="ja">萩</span> {pronounce("strawberrybrown", "hagi", "ja-Latn", pronHagi)})</li>
-        <li>August: silvergrass (<span lang="ja">芒/薄</span> {pronounce("kaoring", "susuki", "ja-Latn", pronSusuki)})</li>
-        <li>September: chrysanthemum (<span lang="ja">菊</span> {pronounce("akitomo", "kiku", "ja-Latn", pronKiku)})</li>
-        <li>October: maple (<span lang="ja">紅葉</span> {pronounce("El55", "kōyō", "ja-Latn", pronKoyo)})</li>
-        <li>November: willow (<span lang="ja">柳</span> {pronounce("akitomo", "yanagi", "ja-Latn", pronYanagi)})</li>
-        <li>December: paulownia (<span lang="ja">桐</span> {pronounce("kaoring", "kiri", "ja-Latn", pronKiri)})</li>
+        <li>January: pine (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" word= "matsu" lang= "ja-Latn" file={pronMatsu} />)</li>
+        <li>February: plum (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word= "ume" lang= "ja-Latn" file={pronUme} />)</li>
+        <li>March: cherry (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word= "sakura" lang= "ja-Latn" file={pronSakura} />)</li>
+        <li>April: wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" word= "fuji" lang= "ja-Latn" file={pronFuji} />)</li>
+        <li>May: iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" word= "ayame" lang= "ja-Latn" file={pronAyame} />)</li>
+        <li>June: peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" word= "botan" lang= "ja-Latn" file={pronBotan} />)</li>
+        <li>July: bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word= "hagi" lang= "ja-Latn" file={pronHagi} />)</li>
+        <li>August: silvergrass (<span lang="ja">芒/薄</span> <Pronounce pronouncer="kaoring" word= "susuki" lang= "ja-Latn" file={pronSusuki} />)</li>
+        <li>September: chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo" word= "kiku" lang= "ja-Latn" file={pronKiku} />)</li>
+        <li>October: maple (<span lang="ja">紅葉</span> <Pronounce pronouncer="El55" word= "kōyō" lang= "ja-Latn" file={pronKoyo} />)</li>
+        <li>November: willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo" word= "yanagi" lang= "ja-Latn" file={pronYanagi} />)</li>
+        <li>December: paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring" word= "kiri" lang= "ja-Latn" file={pronKiri} />)</li>
       </ol>
       <p>In Korean and some Hawaiian decks, the months of November &amp; December are switched. This rarely makes a difference except when the cards are being used as stand-ins for numeric cards (in gambling games).</p>
       <Section title="Types of card">
         <p>The deck is divided into four categories of card. In descending order of value, these are:</p>
         <Section title="Bright cards">
-          <p>There are 5 ‘bright’ (<span lang="ja">光</span> {pronounce("strawberrybrown", "hikari", "ja-Latn", pronHikari)}) cards. In most games, these are worth 20 points. The five bright cards are:</p>
+          <p>There are 5 ‘bright’ (<span lang="ja">光</span> <Pronounce pronouncer="strawberrybrown" word= "hikari" lang= "ja-Latn" file={pronHikari} />) cards. In most games, these are worth 20 points. The five bright cards are:</p>
           <ul>
             <li>the crane with pine (January), <span lang="ja">松に鶴</span> <span lang="ja-Latn">matsu ni tsuru</span></li>
             <li>the cherry blossom curtain (March), <span lang="ja">桜に幕</span> <span lang="ja-Latn">sakura ni maku</span></li>
@@ -138,14 +138,14 @@ const Basics: React.FC<ArticleContentProps> = ({ cite, pronounce }) => {
                 ]}
               perRow={5}>The bright cards.</ArticleImage>
           <Footnote>
-            <p><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.{cite(ModernKoreanCards)}</p>
+            <p><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r={ModernKoreanCards}/></p>
           </Footnote>
           <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.</p>
           <ArticleImage position="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
           <ArticleImage position="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) brand deck.</ArticleImage>
         </Section>
         <Section title="Species cards">
-          <p>There are 9 ‘species’ (<span lang="ja">種</span> {pronounce("yasuo", "tane", "ja-Latn", pronTane)}) cards, which are usually worth 10 points each. These feature animals, but also a sake cup, and the ‘eight-planked bridge’.</p>
+          <p>There are 9 ‘species’ (<span lang="ja">種</span> <Pronounce pronouncer="yasuo" word= "tane" lang= "ja-Latn" file={pronTane} />) cards, which are usually worth 10 points each. These feature animals, but also a sake cup, and the ‘eight-planked bridge’.</p>
           <ArticleImage
               src={[
                   [imgHanafuda2_4, "The species card for February, a bush warbler."],
@@ -161,7 +161,7 @@ const Basics: React.FC<ArticleContentProps> = ({ cite, pronounce }) => {
               perRow={5}>The 9 species cards.</ArticleImage>
         </Section>
         <Section title="Scroll cards">
-          <p>There are 10 ‘scroll’ (<span lang="ja">短冊</span> {pronounce("skent", "tanzaku", "ja-Latn", pronTanzaku)}) cards, usually worth 5 points each. These are the cards with the coloured ‘scrolls’ on them. Small pieces of paper were used to write poems on at poetry competitions (see the image below). For some games these are further subdivided into three sub-groups: scrolls with writing, plain red scrolls, and plain blue/purple scrolls.</p>
+          <p>There are 10 ‘scroll’ (<span lang="ja">短冊</span> <Pronounce pronouncer="skent" word= "tanzaku" lang= "ja-Latn" file={pronTanzaku} />) cards, usually worth 5 points each. These are the cards with the coloured ‘scrolls’ on them. Small pieces of paper were used to write poems on at poetry competitions (see the image below). For some games these are further subdivided into three sub-groups: scrolls with writing, plain red scrolls, and plain blue/purple scrolls.</p>
           <ArticleImage
               src={[
                   [imgHanafuda1_3, "The scroll card for January."],
@@ -189,7 +189,7 @@ const Basics: React.FC<ArticleContentProps> = ({ cite, pronounce }) => {
                     </ArticleImage>
         </Section>
         <Section title="Junk cards">
-          <p>The remaining 24 cards that aren’t in one of the previous categories are called ‘dregs’ (<span lang="ja">滓</span> {pronounce("poyotan", "kasu", "ja-Latn", pronKasu)}) or ‘junk’ cards. They are usually worth a single point each. Most months have two junk cards, but November has only one, and December has three.</p>
+          <p>The remaining 24 cards that aren’t in one of the previous categories are called ‘dregs’ (<span lang="ja">滓</span> <Pronounce pronouncer="poyotan" word= "kasu" lang= "ja-Latn" file={pronKasu} />) or ‘junk’ cards. They are usually worth a single point each. Most months have two junk cards, but November has only one, and December has three.</p>
           <ArticleImage
               src={[
                   [imgHanafuda1_2, "A junk card for January."],

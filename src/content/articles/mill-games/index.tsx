@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleContentProps, ArticleImage, Noun, Pronunciation, Section } from 'ui';
+import { Cite, ArticleImage, Noun, Pronunciation, Section } from 'ui';
 import { Murray2, MkeleMorabaraba, FiggiUndMuliHaa, MacedonianFolklore, Gallovidian, IntroductionToShax, Fiske, BasothoChildren, SomaliGames, BritishSomaliland } from 'References/bibliography.json';
 import { GameRef } from 'content/games/Game';
 
@@ -16,7 +16,7 @@ import pronZwickmühle from './pronunciation_de_zwickmühle.mp3';
 import pronDiporto from './pronunciation_el_δίπορτο.mp3';
 import pronRennihestur from './pronunciation_is_rennihestur.mp3';
 
-const MillGames: React.FC<ArticleContentProps> = ({ cite }) => {
+const MillGames: React.FC = () => {
   return (<>
     <p>Mill games are also known as <i>Morris</i> or <i>Merels</i> games. The main aim of any mill game is to try to form a row of three pieces, which is called a ‘mill’. In most games this allows the player to remove one of the opponent’s pieces from the board (usually not from another mill).</p>
     <p>Most mill games are split into two phases of <i>placement</i> and <i>movement</i>.</p>
@@ -54,38 +54,38 @@ const MillGames: React.FC<ArticleContentProps> = ({ cite }) => {
     <Section title="Terminology">
       <p><b>Pieces</b>: names for the pieces.</p>
       <ul>
-        <li>Galloway, Scotland: “flitchers”. {cite(Gallovidian, [142])}</li>
+        <li>Galloway, Scotland: “flitchers”. <Cite r={Gallovidian} page={142} /></li>
       </ul>
       <p><b>Mill</b>: three pieces in a row.</p>
       <ul>
-        <li>Icelandic <span lang="is">mylna</span>, ‘mill’.{cite(Fiske, [138])}</li>
-        <li>SeSotho <span lang="st">molamu</span> ‘staff’.{cite(BasothoChildren, [35])}</li>
-        <li>Somali <span lang="so">charri</span> ‘halter’,{cite(SomaliGames, [504])}{cite(BritishSomaliland, [130])} <Pronunciation src={pronSaddex} lang="so">saddex</Pronunciation> ‘three’,{cite(BritishSomaliland, [130])} or <span lang="so">jare</span> ‘cut’.{cite(IntroductionToShax, [4])}</li>
+        <li>Icelandic <span lang="is">mylna</span>, ‘mill’.<Cite r={Fiske} page={138} /></li>
+        <li>SeSotho <span lang="st">molamu</span> ‘staff’.<Cite r={BasothoChildren} page={35} /></li>
+        <li>Somali <span lang="so">charri</span> ‘halter’,<Cite r={SomaliGames} page={504} /><Cite r={BritishSomaliland} page={130} /> <Pronunciation src={pronSaddex} lang="so">saddex</Pronunciation> ‘three’,<Cite r={BritishSomaliland} page={130} /> or <span lang="so">jare</span> ‘cut’.<Cite r={IntroductionToShax} page={4} /></li>
         <li>Zulu <Pronunciation src={pronIsibhamu} lang="zu">isibhamu</Pronunciation> ‘gun’ – this is used to “shoot” the pieces (cows).</li>
       </ul>
       <p><b>Cross-mill</b>: a position where a mill can be formed every other move, with pieces in a cross shape (with one empty square between).</p>
       <ul>
         <li>German <Pronunciation src={pronKreuzmühle} lang="de">Kreuzmühle</Pronunciation> ‘cross mill’.</li>
-        <li>Icelandic <span lang="is">krossmylna</span> ‘cross mill’ or <span lang="is">vængjamylna</span> ‘winged mill’ {cite(Fiske, [139])}.</li>
-        <li>Somali <Pronunciation src={pronAfar} lang="so">afar</Pronunciation> ‘four’.{cite(SomaliGames, [505])}{cite(BritishSomaliland, [130])}{cite(IntroductionToShax, [5])}</li>
+        <li>Icelandic <span lang="is">krossmylna</span> ‘cross mill’ or <span lang="is">vængjamylna</span> ‘winged mill’ <Cite r={Fiske} page={139} />.</li>
+        <li>Somali <Pronunciation src={pronAfar} lang="so">afar</Pronunciation> ‘four’.<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={130} /><Cite r={IntroductionToShax} page={5} /></li>
       </ul>
       <p><b>Running mill</b>: a position where a mill can be formed on every move.</p>
       <ul>
-        <li>In Yorkshire: “running Jenny”.{cite(Murray2, /*['section', 3.5],*/[45])}</li>
+        <li>In Yorkshire: “running Jenny”.<Cite r={Murray2} /*['section', 3.5],*/ page={45}/></li>
         <li>German <Pronunciation src={pronZwickmühle} lang="de">Zwickmühle</Pronunciation> ‘double mill’.</li>
-        <li>Greek <Pronunciation src={pronDiporto}>δίπορτο</Pronunciation> ‘double door’.{cite(MacedonianFolklore, [295])}</li>
-        <li>Icelandic <span lang="is">svikamylna</span> ‘mill of treachery’.{cite(Fiske, [139])}</li>
-        <li>seSotho <span lang="st">khutla</span> ‘the return’.{cite(MkeleMorabaraba, [134])}</li>
-        <li>Somali <span lang="so">irmaan</span> ‘milch’ (i.e. milk-cow).{cite(SomaliGames, [505])}{cite(BritishSomaliland, [210])}{cite(IntroductionToShax)}</li>
-        <li>Swiss <span lang="gsw">figgi</span> or <span lang="gsw">figge</span> (there is a saying that one has one’s <span lang="gsw">«Figgi und Müli»</span>, meaning “to have two options open”).{cite(FiggiUndMuliHaa)}</li>
+        <li>Greek <Pronunciation src={pronDiporto}>δίπορτο</Pronunciation> ‘double door’.<Cite r={MacedonianFolklore} page={295} /></li>
+        <li>Icelandic <span lang="is">svikamylna</span> ‘mill of treachery’.<Cite r={Fiske} page={139} /></li>
+        <li>seSotho <span lang="st">khutla</span> ‘the return’.<Cite r={MkeleMorabaraba} page={134} /></li>
+        <li>Somali <span lang="so">irmaan</span> ‘milch’ (i.e. milk-cow).<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={210} /><Cite r={IntroductionToShax}  /></li>
+        <li>Swiss <span lang="gsw">figgi</span> or <span lang="gsw">figge</span> (there is a saying that one has one’s <span lang="gsw">«Figgi und Müli»</span>, meaning “to have two options open”).<Cite r={FiggiUndMuliHaa}  /></li>
       </ul>
       <p><b>Corner</b>: a position with three pieces in a corner, which cannot be prevented from forming a mill upon the next turn.</p>
       <ul>
-        <li>Somali <span lang="so">charrisoron</span> ‘crooked halter’,{cite(SomaliGames, [505])}{cite(BritishSomaliland, [130])} or simply <span lang="so">suran</span>.{cite(IntroductionToShax, [5])}</li>
+        <li>Somali <span lang="so">charrisoron</span> ‘crooked halter’,<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={130} /> or simply <span lang="so">suran</span>.<Cite r={IntroductionToShax} page={5} /></li>
       </ul>
       <p><b>Other positions</b>: unknown positions.</p>
       <ul>
-        <li>Icelandic <Pronunciation src={pronRennihestur} lang="is">rennihestur</Pronunciation> ‘sliding horse’ possibly refers to a “triple mill” position.{cite(Fiske, [139])}</li>
+        <li>Icelandic <Pronunciation src={pronRennihestur} lang="is">rennihestur</Pronunciation> ‘sliding horse’ possibly refers to a “triple mill” position.<Cite r={Fiske} page={139} /></li>
       </ul>
     </Section>
     <h2>Audio Credits</h2>

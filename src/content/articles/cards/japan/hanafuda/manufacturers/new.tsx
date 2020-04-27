@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleContentProps, ArticleImage, Noun, Section } from 'ui';
+import { ArticleImage, Noun, Section } from 'ui';
 
 import imgNaPua5Brights from './NaPua_5Brights.jpg';
 import imgNaPuaNovember from './NaPua_November.jpg';
@@ -17,7 +17,7 @@ import imgCochaeBrights from './Cochae_Brights.jpg';
 import imgJuniorBrights from './Junior_Brights.jpg';
 import imgJuniorBamboo from './Junior_Bamboo.jpg';
 
-const Manufacturers: React.FC<ArticleContentProps> = ({cite}) => {
+const Manufacturers: React.FC = () => {
     return (<>
         <p>In the internet era there are now many brands that are produced on a small scale (most aren’t manufacturers themselves). Thanks to the rise of crowdfunding, the variety of designs has greatly expanded from the traditional patterns.</p>
         <Section title={<a href="https://blankproject.kr/">Blank’s Art Project</a>}>

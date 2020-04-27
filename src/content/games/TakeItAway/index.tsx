@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { GameRef } from '../Game';
 
-import { ArticleImage, ArticleContentProps, Section } from 'ui';
+import { ArticleImage, Cite, Section } from 'ui';
 import { Gamut } from 'References/bibliography.json';
 
 import imgTakeItAway from './take-it-away.svg';
 
-const TakeItAway: React.FC<ArticleContentProps> = ({cite}) => <>
-    <p><span id="index-take-it-away" className="game-title">Take It Away</span> is a game for 2–4 players invented by <a href="/people/sid-sackson.html">Sid Sackson</a>,{cite(Gamut, [142, 143])} in which players try to achieve the highest score by capturing from a shared set of pieces on the board.</p>
+const TakeItAway: React.FC = () => <>
+    <p><span id="index-take-it-away" className="game-title">Take It Away</span> is a game for 2–4 players invented by <a href="/people/sid-sackson.html">Sid Sackson</a>,<Cite r={Gamut} page={[[142, 143]]} /> in which players try to achieve the highest score by capturing from a shared set of pieces on the board.</p>
     <Section title="Equipment">
         <p>To play you will need an 8×8 chess or checkerboard, and 64 coloured pieces (Sackson suggests poker chips): 34 white, 20 red, and 10 blue.</p>
     </Section>

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleContentProps, Noun, Cards, ArticleImage, Section } from 'ui';
+import { Noun, Cards, ArticleImage, Section, Pronounce, Cite } from 'ui';
 
 import { KakkuriYomi } from 'References/bibliography.json';
 
@@ -13,9 +13,9 @@ import img3pao from './3pao.jpg';
 import imgUtazu from './utazu.jpg';
 import imgWilds from './wilds.jpg';
 
-const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
+const Kakkuri: React.FC = () => {
     return (<>
-  <p>{pronounce("strawberrybrown", "Kakkuri", "ja-Latn", pronKakkuri, true)} (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.{cite(KakkuriYomi)} It is still played in the town of <Noun lang="ja-Latn">Yafune</Noun> (<span lang="ja">矢船町</span>), in the city of <Noun lang="ja-Latn">Echizen</Noun> (<span lang="ja">越前市</span>) in <Noun lang="ja-Latn">Fukui</Noun> prefecture (<span lang="ja">福井県</span>).</p>
+  <p><Pronounce pronouncer="strawberrybrown" word= "Kakkuri" lang= "ja-Latn" file={pronKakkuri} /> (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.<Cite r={KakkuriYomi} /> It is still played in the town of <Noun lang="ja-Latn">Yafune</Noun> (<span lang="ja">矢船町</span>), in the city of <Noun lang="ja-Latn">Echizen</Noun> (<span lang="ja">越前市</span>) in <Noun lang="ja-Latn">Fukui</Noun> prefecture (<span lang="ja">福井県</span>).</p>
   <Section title="Equipment">
     <p><Noun lang="ja-Latn">Kakkuri</Noun> is played with <span lang="ja-Latn">komatsufuda</span> (<span lang="ja">小松札</span>), a deck of 48 cards which run from 1–12 in four suits. Alternatively, it can be played with <Noun lang="ja-Latn">Hanafuda</Noun> cards if you are very familiar with the deck ordering, or you can play with a standard deck of cards by removing all <Cards>10</Cards>s.</p>
     <ArticleImage
@@ -28,7 +28,7 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
   <Section title="Setup">
     <p>As in other Japanese games, all actions (dealing and playing) are performed in an anti-clockwise direction.</p>
     <p>The game is usually played for money: a stake should be decided between the players, and all payments are made in multiples of this stake (1×, 2×, 3×). Otherwise, these can be counted as points.</p>
-    <p>To begin, deal 6 cards to each player in groups of 3. The remaining cards are set in a stack face-down in the middle of the table; this is called the ‘box’ (<span lang="ja">箱</span> {pronounce("poyotan", "hako", "ja-Latn", pronHako)}).</p>
+    <p>To begin, deal 6 cards to each player in groups of 3. The remaining cards are set in a stack face-down in the middle of the table; this is called the ‘box’ (<span lang="ja">箱</span> <Pronounce pronouncer="poyotan" word= "hako" lang= "ja-Latn" file={pronHako} />).</p>
     <p>If there are 8 people playing, then there will be no cards leftover to form the box; instead, whoever received the <Cards>3</Cards> of <span lang="ja-Latn">pao</span> (or <Cards>3c</Cards> with standard deck) drops out and their hand is shuffled to become the box.</p>
     <ArticleImage
       position="small"
@@ -59,7 +59,7 @@ const Kakkuri: React.FC<ArticleContentProps> = ({cite, pronounce}) => {
     <p>There are two other special cases that allow more than one card of the same rank to be played:</p>
     <ul>
       <li>If a player has three cards of the same rank they can play all of them together. Four cannot be played together, but you can play three cards out of a set of four.</li>
-      <li>If a player’s hand consists of three pairs, then any time before they play their first card they can declare ‘three pairs’ (<span lang="ja">三足</span> {pronounce("usako_usagiclub", "sansoku", "ja-Latn", pronSansoku)}). After that they can (and must) play their cards in pairs.</li>
+      <li>If a player’s hand consists of three pairs, then any time before they play their first card they can declare ‘three pairs’ (<span lang="ja">三足</span> <Pronounce pronouncer="usako_usagiclub" word= "sansoku" lang= "ja-Latn" file={pronSansoku} />). After that they can (and must) play their cards in pairs.</li>
     </ul>
     <p>Once a player has finished their turn, they say “pass” and it is the next player’s turn. Passing is ‘soft’ and doesn’t prevent a player from playing again later in the round.</p>
     <p>As long as they haven’t played any cards yet, a player can drop out on their turn by paying 1× to the pot.</p>
