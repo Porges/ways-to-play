@@ -1,9 +1,9 @@
 import * as React from 'react';
-import { Reference, renderReference } from '../References';
+import { renderReference } from '../References';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 
-import { Pronunciation } from './Pronunciation';
+import { PronunciationProvider, PronunciationContext, CitationContext, CitationProvider } from 'ui';
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -23,100 +23,6 @@ export type ArticleContent = Readonly<{
   draft?: boolean,
   import: React.LazyExoticComponent<React.FC>
 }>
-
-// For a Forvo pronunciation
-type Pronunciation = { pronouncer: string, word: string, lang: string }
-const PronunciationContext = React.createContext<{ pronunciations: Pronunciation[], addPronunciation: (p: Pronunciation) => void}>({ pronunciations: [], addPronunciation: () => {} });
-const PronunciationProvider: React.FC = ({children}) => {
-  const [pronunciations, setPronunciations] = React.useState<Pronunciation[]>([]);
-  const addPronunciation = React.useCallback((p: Pronunciation) => {
-    setPronunciations(s => {
-      if (s.find(x => x.word === p.word)) return s;
-      return [...s, p];
-    });
-  }, []);
-
-  return (
-    <PronunciationContext.Provider value={{pronunciations, addPronunciation}}>
-      {children}
-    </PronunciationContext.Provider>
-  );
-};
-
-type PronounceProps = Pronunciation & { file: string, noun?: boolean }
-export const Pronounce: React.FC<PronounceProps> = ({pronouncer, word, lang, file, noun}) => {
-  const { addPronunciation } = React.useContext(PronunciationContext);
-  React.useEffect(() => addPronunciation({word, pronouncer, lang}), [word, pronouncer, lang, addPronunciation])
-  return <Pronunciation src={file} lang={lang} noun={noun}>{word}</Pronunciation>;
-};
-
-
-// For citations:
-const CitationContext = React.createContext<{ references: Reference[], addReference: (ref: Reference) => number}>({ references: [], addReference: () => 0});
-const CitationProvider: React.FC = ({children}) => {
-
-  const [references, setReferences] = React.useState<Reference[]>([]);
-
-  const addReference = React.useCallback((ref: Reference) => {
-    let index = references.findIndex(x => x === ref);
-    if (index === -1) {
-      index = references.length;
-      // this will trigger re-render but next time around we won't
-      setReferences(s => {
-        // need to re-check so it doesn't get added twice - 
-        // this can be called "in parallel"
-        if (s.find(x => x === ref)) return s;
-        return [ ...s,  ref];
-      });
-    }
-
-    return index;
-  }, [references]);
-
-  return (
-    <CitationContext.Provider value={{references, addReference}}>
-      {children}
-    </CitationContext.Provider>
-  );
-}
-type CiteProps = {
-  r: Reference,
-  page?: number | (number | [number, number])[],
-  pageType?: string,
-  inline?: boolean,
-}
-export const Cite: React.FC<CiteProps> = ({pageType, page, inline, r}) => {
-
-  const { addReference }  = React.useContext(CitationContext);
-
-  const [index, setIndex] = React.useState(-1);
-
-  React.useEffect(() => setIndex(addReference(r)), [r, addReference]);
-
-  const suffix =
-    page === undefined
-      ? null
-      : typeof page === 'number'
-        ? page
-        : page.map(p => typeof p === 'number' ? p : `${p[0]}–${p[1]}`).join(', ');
-
-  const pageTypeS = pageType ? pageType + ' ' : '';
-  if (inline) {
-    switch (r.type) {
-      case 'book':
-        return <><a href={`#ref-${r.id}`}><cite lang={r["title-lang"]} dangerouslySetInnerHTML={{__html:r.title}} /></a>{suffix && <> ({pageTypeS}{suffix})</>}</>;
-      case 'article-journal':
-        return <><a href={`#ref-${r.id}`}>{r.author && r.author[0].family}</a> ({r.issued && r.issued.year}{suffix && <>, {pageTypeS}{suffix}</>})</>;
-      default:
-        return <span className="citation">[<a href={`#ref-${r.id}`}>{index + 1}</a>]{suffix && <> ({pageTypeS}{suffix})</>}</span>
-    }
-  } else {
-    return <sup className="citation">[<a href={`#ref-${r.id}`}>{index + 1}</a>{suffix && <>: {pageTypeS}{suffix}</>}]</sup>;
-  }
-};
-
-
-// done with boilerplatey stuff
 
 const ReferenceSummary: React.FC = () => {
   let {references} = React.useContext(CitationContext);

@@ -2,7 +2,7 @@ import * as React from 'react';
 
 //import { GameRef } from '../Game';
 
-import { ArticleImage, Cite, Footnote, Pronunciation, Section } from 'ui';
+import { ArticleImage, Cite, Footnote, Pronounce, Section } from 'ui';
 import { LancasterianSystem, Koolman, SkeatTitTatTo, BerkshirePhrases, ANewCantingDictionary, BirdBrainManual, TheMouseWhoReinforced, CrossOutALandmark, TheChickenVanishes, ChinatownFairIsBack, RelayMoe, MathematicalWorkOfBabbage, TheGameOfJAM, Gardner1, Wordsworth, GamesOfTheGods, WinningWaysV3, Fiske, GamesBookForBoysAndGirls, MagazineOfArt, NurseryWitch, SuffolkWords, SourcesInRecreationalMathematics, ICommencedAnExamination, Teesdale, NotesAndQueriesS8V12 } from 'References/bibliography.json';
 
 import img7429 from './7429845046_ddc7a1464a_o.jpg';
@@ -86,7 +86,7 @@ const TicTacToe: React.FC = () => <>
     <blockquote>
       Insert one here!
       </blockquote>
-    <p>Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to any set of lined-up objects. (Examples: Bluebeard’s wives, the windows on a building.) This usage is still current with the Swedish equivalent of <Pronunciation src={pronTrippTrapp} lang="sv">tripp, trapp, trull</Pronunciation> (see below).</p>
+    <p>Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to any set of lined-up objects. (Examples: Bluebeard’s wives, the windows on a building.) This usage is still current with the Swedish equivalent of <Pronounce file={pronTrippTrapp} lang="sv" pronouncer="tigris" word="tripp, trapp, trull" /> (see below).</p>
     <ArticleImage
       position="right"
       src={imgTickTack}
@@ -102,8 +102,8 @@ const TicTacToe: React.FC = () => <>
       <Cite r={SkeatTitTatTo} inline  /> also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but looking at his source,<Cite r={Koolman} page={410} /> it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “Tik-Tak-Tuk” is also the name of the game in Indonesian.
       </Footnote>
     <p>In the former group we have: Dutch ‘<span lang="nl">tik tak tol</span>’,<Cite r={Fiske} page={122} /> or ‘<span
-      lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and in Swedish ‘<Pronunciation
-        src={pronTrippTrapp} lang="sv">tripp, trapp, trull</Pronunciation>’.<Cite r={Fiske} page={137} /></p>
+      lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and in Swedish ‘<Pronounce
+        file={pronTrippTrapp} lang="sv" word="tripp, trapp, trull" pronouncer="tigris" />’.<Cite r={Fiske} page={137} /></p>
     <p>Like the English names, one Dutch name (<span lang="nl">boter, melk, kaas</span>) is derived from a rhyme:<Cite r={WinningWaysV3} page={732} /></p>
     <div className="multi text-center">
       <p lang="nl">Boter, melk, kaas,<br />ik ben de baas.</p>
@@ -262,11 +262,6 @@ first player to claim 3 numbers that add to 15 is the winner.
       Marian &amp; Keller Breland, who were students of B. F. Skinner, the behavioural
       psychologist.<Cite r={TheMouseWhoReinforced} page={73} /> In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.<Cite r={BirdBrainManual}  /></p>
   </Section>
-  <h2>Audio Credits</h2>
-  <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>. Pronunciations are by:</p>
-  <ul>
-    <li><span lang="sv">tripp, trapp, trull</span> &copy; <a href="https://forvo.com/user/tigris/">tigris</a>.</li>
-  </ul>
 </>;
 
 export default TicTacToe;

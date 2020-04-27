@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Cite, ArticleImage, Noun, Pronunciation, Section } from 'ui';
+import { Cite, ArticleImage, Noun, Section, Pronounce } from 'ui';
 import { Murray2, MkeleMorabaraba, FiggiUndMuliHaa, MacedonianFolklore, Gallovidian, IntroductionToShax, Fiske, BasothoChildren, SomaliGames, BritishSomaliland } from 'References/bibliography.json';
 import { GameRef } from 'content/games/Game';
 
@@ -60,20 +60,20 @@ const MillGames: React.FC = () => {
       <ul>
         <li>Icelandic <span lang="is">mylna</span>, ‘mill’.<Cite r={Fiske} page={138} /></li>
         <li>SeSotho <span lang="st">molamu</span> ‘staff’.<Cite r={BasothoChildren} page={35} /></li>
-        <li>Somali <span lang="so">charri</span> ‘halter’,<Cite r={SomaliGames} page={504} /><Cite r={BritishSomaliland} page={130} /> <Pronunciation src={pronSaddex} lang="so">saddex</Pronunciation> ‘three’,<Cite r={BritishSomaliland} page={130} /> or <span lang="so">jare</span> ‘cut’.<Cite r={IntroductionToShax} page={4} /></li>
-        <li>Zulu <Pronunciation src={pronIsibhamu} lang="zu">isibhamu</Pronunciation> ‘gun’ – this is used to “shoot” the pieces (cows).</li>
+        <li>Somali <span lang="so">charri</span> ‘halter’,<Cite r={SomaliGames} page={504} /><Cite r={BritishSomaliland} page={130} /> <Pronounce file={pronSaddex} lang="so" word="saddex" pronouncer="ahmed_aw_abdi"/> ‘three’,<Cite r={BritishSomaliland} page={130} /> or <span lang="so">jare</span> ‘cut’.<Cite r={IntroductionToShax} page={4} /></li>
+        <li>Zulu <Pronounce pronouncer="Lungii" word="isibhamu" file={pronIsibhamu} lang="zu" /> ‘gun’ – this is used to “shoot” the pieces (cows).</li>
       </ul>
       <p><b>Cross-mill</b>: a position where a mill can be formed every other move, with pieces in a cross shape (with one empty square between).</p>
       <ul>
-        <li>German <Pronunciation src={pronKreuzmühle} lang="de">Kreuzmühle</Pronunciation> ‘cross mill’.</li>
+        <li>German <Pronounce file={pronKreuzmühle} lang="de" word="Kreuzmühle" pronouncer='Bartleby' /> ‘cross mill’.</li>
         <li>Icelandic <span lang="is">krossmylna</span> ‘cross mill’ or <span lang="is">vængjamylna</span> ‘winged mill’ <Cite r={Fiske} page={139} />.</li>
-        <li>Somali <Pronunciation src={pronAfar} lang="so">afar</Pronunciation> ‘four’.<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={130} /><Cite r={IntroductionToShax} page={5} /></li>
+        <li>Somali <Pronounce file={pronAfar} lang="so" word="afar" pronouncer='ahmed_aw_abdi'/> ‘four’.<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={130} /><Cite r={IntroductionToShax} page={5} /></li>
       </ul>
       <p><b>Running mill</b>: a position where a mill can be formed on every move.</p>
       <ul>
         <li>In Yorkshire: “running Jenny”.<Cite r={Murray2} /*['section', 3.5],*/ page={45}/></li>
-        <li>German <Pronunciation src={pronZwickmühle} lang="de">Zwickmühle</Pronunciation> ‘double mill’.</li>
-        <li>Greek <Pronunciation src={pronDiporto}>δίπορτο</Pronunciation> ‘double door’.<Cite r={MacedonianFolklore} page={295} /></li>
+        <li>German <Pronounce file={pronZwickmühle} lang="de" word="Zwickmühle" pronouncer='Thonatas'/> ‘double mill’.</li>
+        <li>Greek <Pronounce lang="el" file={pronDiporto} word="δίπορτο" pronouncer='jpapa'/> ‘double door’.<Cite r={MacedonianFolklore} page={295} /></li>
         <li>Icelandic <span lang="is">svikamylna</span> ‘mill of treachery’.<Cite r={Fiske} page={139} /></li>
         <li>seSotho <span lang="st">khutla</span> ‘the return’.<Cite r={MkeleMorabaraba} page={134} /></li>
         <li>Somali <span lang="so">irmaan</span> ‘milch’ (i.e. milk-cow).<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={210} /><Cite r={IntroductionToShax}  /></li>
@@ -85,19 +85,9 @@ const MillGames: React.FC = () => {
       </ul>
       <p><b>Other positions</b>: unknown positions.</p>
       <ul>
-        <li>Icelandic <Pronunciation src={pronRennihestur} lang="is">rennihestur</Pronunciation> ‘sliding horse’ possibly refers to a “triple mill” position.<Cite r={Fiske} page={139} /></li>
+        <li>Icelandic <Pronounce file={pronRennihestur} lang="is" word="rennihestur" pronouncer="wertxi" /> ‘sliding horse’ possibly refers to a “triple mill” position.<Cite r={Fiske} page={139} /></li>
       </ul>
     </Section>
-    <h2>Audio Credits</h2>
-    <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>. Pronunciations are by:</p>
-    <ul>
-      <li><span lang="so">afar</span> and <span lang="so">saddex</span> &copy;2013 <a href="https://forvo.com/user/ahmed_aw_abdi/">ahmed_aw_abdi</a>.</li>
-      <li><span lang="el">δίπορτο</span> &copy; <a href="https://forvo.com/user/jpapa/">jpapa</a>.</li>
-      <li><span lang="zu">isibhamu</span> &copy; <a href="https://forvo.com/user/Lungii/">Lungii</a>.</li>
-      <li><span lang="de">Kreuzmühle</span> &copy; <a href="https://forvo.com/user/Bartleby/">Bartleby</a>.</li>
-      <li><span lang="is">rennihestur</span> &copy; <a href="https://forvo.com/user/wertxi/">wertxi</a>.</li>
-      <li><span lang="de">Zwickmühle</span> &copy; <a href="https://forvo.com/user/Thonatas/">Thonatas</a>.</li>
-    </ul>
   </>);
 };
 
