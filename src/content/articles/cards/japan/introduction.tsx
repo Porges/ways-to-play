@@ -23,7 +23,7 @@ const Introduction: React.FC = () =>
                 <li><Noun lang="ja-Latn">Iroha-garuta</Noun> (<span lang="ja">伊呂波ガルタ</span>, ‘alphabetical cards’</li>
             </ul>
         </li>
-        <li><Link to="/articles/japan/hanafuda"><Noun lang="ja-Latn">Hanafuda</Noun></Link> (<span lang="ja">花札</span>, ‘flower cards’)</li>
+        <li><Link to="/articles/cards/japan/hanafuda"><Noun lang="ja-Latn">Hanafuda</Noun></Link> (<span lang="ja">花札</span>, ‘flower cards’)</li>
     </ul>
 </section>;
 

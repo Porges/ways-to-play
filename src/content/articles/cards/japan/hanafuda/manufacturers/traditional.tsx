@@ -638,7 +638,7 @@ const Manufacturers: React.FC = () => {
           </ul>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>)</>}>
-          <p>For more about <Noun lang="ja-Latn">Kamigataya</Noun>, see the <Link to="/articles/japan/hanafuda/art">history article</Link>. Early on, <Noun lang="ja-Latn">Kamigataya</Noun> had decks made (by <Noun lang="ja-Latn">Nintendō</Noun>) with their own brand, but they would later sell <Noun lang="ja-Latn">Nintendō</Noun>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xe0103;</span> with angle. Brands included:</p>
+          <p>For more about <Noun lang="ja-Latn">Kamigataya</Noun>, see the <Link to="/articles/cards/japan/hanafuda/art">history article</Link>. Early on, <Noun lang="ja-Latn">Kamigataya</Noun> had decks made (by <Noun lang="ja-Latn">Nintendō</Noun>) with their own brand, but they would later sell <Noun lang="ja-Latn">Nintendō</Noun>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xe0103;</span> with angle. Brands included:</p>
           <ul>
             <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’)</li>
             <li><span lang="ja">倭錦</span> (<span lang="ja-Latn">yamatonishiki</span>, ‘ancient Japanese brocade’)</li>
