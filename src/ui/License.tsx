@@ -12,6 +12,7 @@ export type LicenseName
     | "cc-by-nc-nd"
     | "instagram"
     | "gpl"
+    | "with-permission"
 
 export type Version = "2.0" | "4.0"
 
@@ -59,15 +60,21 @@ export const License: React.FC<Props> = (props: Props) => {
         , ...htmlAttributes } = props;
 
     if (license === 'instagram') {
-        return <span>Instagram</span>;
+        return <span>, Instagram</span>;
     }
+
+    if (license === 'with-permission') {
+        return <span>, with permission</span>;
+    }
+
+    // license == gpl | creative-common
 
     const href =
         license === 'gpl'
-        ? "https://www.gnu.org/licenses/gpl.html" 
-        : license === "cc0"
-            ? "https://creativecommons.org/publicdomain/zero/1.0/"
-            : `https://creativecommons.org/licenses/${license.substr(3)}/${version}`;
+            ? "https://www.gnu.org/licenses/gpl.html" 
+            : license === "cc0"
+                ? "https://creativecommons.org/publicdomain/zero/1.0/"
+                : `https://creativecommons.org/licenses/${license.substr(3)}/${version}`;
 
     const parts = license.split('-');
 
@@ -76,7 +83,8 @@ export const License: React.FC<Props> = (props: Props) => {
         ? "Public Domain"
         : `Licensed under the ${parts.map(altText).join(' ')} license, ${version}`
 
-    return (
+    return (<>
+        {' '}
         <a
             itemProp="license"
             href={href}
@@ -88,5 +96,5 @@ export const License: React.FC<Props> = (props: Props) => {
                 : parts.map(charFor).join('\u{200a}')
             }
         </a>
-    );
+    </>);
 };

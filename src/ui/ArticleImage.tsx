@@ -47,9 +47,9 @@ const renderSource = (source: SourceInfo) => {
 
     return <>({source.license === 'cc0' ? '' : '© ' }{source.copyrightYear && <><span itemProp="copyrightYear">{source.copyrightYear}</span> </>}
         {copyrightHolder && 
-            <><a href={source.originalUrl} itemProp="sameAs url">
+            <a href={source.originalUrl} itemProp="sameAs url">
                 {copyrightHolder}
-            </a> </>}
+            </a>}
         <L.License license={source.license} version={source.licenseVersion} />)</>;
 }
 
