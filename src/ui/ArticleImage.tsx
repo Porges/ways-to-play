@@ -18,7 +18,7 @@ export type SourceInfo = {
 type ResponsiveImageSrc = { src: string, srcSet: string } | string
 
 type Props = {
-    position?: "wide" | "left" | "right" | "small"
+    position?: "wide" | "left" | "right" | "small" | "aside"
     source?: SourceInfo
 } & (
     { src: ResponsiveImageSrc, alt: string }
@@ -93,6 +93,7 @@ export const ArticleImage: React.FC<Props> = props => {
         props.position === "right" ? "float-lg-right ml-lg-3 my-lg-1 text-center col-12 col-lg-5" :
         props.position === "left" ? "float-lg-left mr-lg-3 my-lg-1 text-center col-12 col-lg-5" :
         props.position === "wide" ? "wide text-center" :
+        props.position === "aside" ? "footnote" :
         `${props.position === undefined ? '' : props.position} w-100 text-center`;
 
     // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 

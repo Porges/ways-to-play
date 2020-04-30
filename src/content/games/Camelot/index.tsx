@@ -17,19 +17,18 @@ import imgGrandCamelot from './grand-camelot.svg';
 
 const Camelot: React.FC = () => (
     <>
-            <Footnote>
-            <ArticleImage
-                src={imgCamelotBox}
-                alt="A board game box with a picture of two knights on the front."
-                source={{
-                    author: { family: "Thompson", given: "Mike" },
-                    originalUrl: "https://tomsk3000.com/product/1930-camelot-board-game-by-parker-brothers/",
-                    copyrightYear: 2020,
-                    license: "with-permission",
-                }}>
-                A 1930s Camelot box.
-        </ArticleImage>
-        </Footnote>
+        <ArticleImage
+            position="aside"
+            src={imgCamelotBox}
+            alt="A board game box with a picture of two knights on the front."
+            source={{
+                author: { family: "Thompson", given: "Mike" },
+                originalUrl: "https://tomsk3000.com/product/1930-camelot-board-game-by-parker-brothers/",
+                copyrightYear: 2020,
+                license: "with-permission",
+            }}>
+            A 1930s Camelot box.
+    </ArticleImage>
         <section itemProp="description">
             <p><span className="game-title">Chivalry</span>, <span className="game-title">Camelot</span>, <span className="game-title">Cam</span>, and <span className="game-title">Camette</span> are members of a series of related 2-player games originally developed by George Parker (of Parker Brothers fame).</p>
             <p>Also in the family are the 4-player games of <span className="game-title">Four-Handed Chivalry</span>, <span className="game-title">Grand Camelot</span>, and <span className="game-title">Grand Cam</span>.</p>
