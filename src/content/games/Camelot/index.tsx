@@ -17,10 +17,7 @@ import imgGrandCamelot from './grand-camelot.svg';
 
 const Camelot: React.FC = () => (
     <>
-        <section itemProp="description">
-            <p><span className="game-title">Chivalry</span>, <span className="game-title">Camelot</span>, <span className="game-title">Cam</span>, and <span className="game-title">Camette</span> are members of a series of related 2-player games originally developed by George Parker (of Parker Brothers fame).</p>
-            <p>Also in the family are the 4-player games of <span className="game-title">Four-Handed Chivalry</span>, <span className="game-title">Grand Camelot</span>, and <span className="game-title">Grand Cam</span>.</p>
-            <p>While <span className="game-title">Camelot</span> was popular for a long time (<a href="http://worldcamelotfederation.com/President.htm">US President John F. Kennedy grew up playing it</a>), it is little-known today.</p>
+            <Footnote>
             <ArticleImage
                 src={imgCamelotBox}
                 alt="A board game box with a picture of two knights on the front."
@@ -32,10 +29,16 @@ const Camelot: React.FC = () => (
                 }}>
                 A 1930s Camelot box.
         </ArticleImage>
+        </Footnote>
+        <section itemProp="description">
+            <p><span className="game-title">Chivalry</span>, <span className="game-title">Camelot</span>, <span className="game-title">Cam</span>, and <span className="game-title">Camette</span> are members of a series of related 2-player games originally developed by George Parker (of Parker Brothers fame).</p>
+            <p>Also in the family are the 4-player games of <span className="game-title">Four-Handed Chivalry</span>, <span className="game-title">Grand Camelot</span>, and <span className="game-title">Grand Cam</span>.</p>
+            <p>While <span className="game-title">Camelot</span> was popular for a long time (<a href="http://worldcamelotfederation.com/President.htm">US President John F. Kennedy grew up playing it</a>), it is little-known today.</p>
         </section>
         <Section title="History">
+            <p>George Parker developed Chivalry over a number of years starting in 1882. It was eventually published by George S. Parker &amp; Co. in 1887, and then again by the newly-formed Parker Brothers in 1888.</p>
             <ArticleImage
-                position="right"
+                position="left"
                 src={imgCamelotPatent}
                 alt="A black and white drawing of a game board"
                 source={{
@@ -44,8 +47,7 @@ const Camelot: React.FC = () => (
                     license: "cc0"
                 }}>
                 A diagram of the board from George Parker’s 1930 patent.
-        </ArticleImage>
-            <p>George Parker developed Chivalry over a number of years starting in 1882. It was eventually published by George S. Parker &amp; Co. in 1887, and then again by the newly-formed Parker Brothers in 1888.</p>
+            </ArticleImage>
             <p>In 1930 he simplified the game of Chivalry to produce Camelot, and received a patent <a href="https://patents.google.com/patent/US1780038">US1780038</a> for the game. Camelot remained popular until the 1960s, but was eventually discontinued in 1968. In 1985 the game was re-introduced as <span className="game-title">“Inside Moves”</span> but production stopped a year later.</p>
             <Footnote>Images of the windows can be seen <a href="http://www.worldcamelotfederation.com/Art.htm">on the WCF website</a>.</Footnote>
             <p>Parker called Chivalry “the best game in 2000 years”, and he was clearly enamoured with it. After his death in 1952, his wife commissioned stained-glass windows for the First Church in Salem in his memory, and they include the knight featured on the Camelot box front (also included is another game called <a
