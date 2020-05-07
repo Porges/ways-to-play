@@ -19,7 +19,7 @@ const app =
     </React.StrictMode>;
 
 const hydrate = root.hasChildNodes();
-const reactRoot = (ReactDOM as any).createRoot(root, { hydrate });
+const reactRoot = (ReactDOM as any).unstable_createRoot(root, { hydrate });
 reactRoot.render(app);
 
 // If you want your app to work offline and load faster, you can change
