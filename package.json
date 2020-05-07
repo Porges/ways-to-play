@@ -26,6 +26,9 @@
     "tslib": "^1.11.1",
     "typescript": "^3.9.0-beta"
   },
+  "resolutions": {
+    "react-snap/mkdirp": "^0.5.5"
+  },
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "craco start",
