@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Noun, ArticleImage, Footnote, SourceInfo, Section, Cite, Pronounce } from 'ui';
+import { Noun, ArticleImage, Footnote, Section, Cite, Pronounce } from 'ui';
  
 import { EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
 AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu } from
@@ -25,54 +25,54 @@ import imgEchigoKobanaBrights from './Echigo_Kobana_Brights.jpg';
 import imgEchigoKobanaExtra from './Echigo_Kobana_Extras.jpg';
 import imgKintoki from './KintoBana_Kintoki.jpg';
 
-import imgHanafuda1_1 from '../Hanafuda_1-1.svg';
-import imgHanafuda1_2 from '../Hanafuda_1-2.svg';
-import imgHanafuda1_3 from '../Hanafuda_1-3.svg';
-import imgHanafuda1_4 from '../Hanafuda_1-4.svg';
-import imgHanafuda2_1 from '../Hanafuda_2-1.svg';
-import imgHanafuda2_2 from '../Hanafuda_2-2.svg';
-import imgHanafuda2_3 from '../Hanafuda_2-3.svg';
-import imgHanafuda2_4 from '../Hanafuda_2-4.svg';
-import imgHanafuda3_1 from '../Hanafuda_3-1.svg';
-import imgHanafuda3_2 from '../Hanafuda_3-2.svg';
-import imgHanafuda3_3 from '../Hanafuda_3-3.svg';
-import imgHanafuda3_4 from '../Hanafuda_3-4.svg';
-import imgHanafuda4_1 from '../Hanafuda_4-1.svg';
-import imgHanafuda4_2 from '../Hanafuda_4-2.svg';
-import imgHanafuda4_3 from '../Hanafuda_4-3.svg';
-import imgHanafuda4_4 from '../Hanafuda_4-4.svg';
-import imgHanafuda5_1 from '../Hanafuda_5-1.svg';
-import imgHanafuda5_2 from '../Hanafuda_5-2.svg';
-import imgHanafuda5_3 from '../Hanafuda_5-3.svg';
-import imgHanafuda5_4 from '../Hanafuda_5-4.svg';
-import imgHanafuda6_1 from '../Hanafuda_6-1.svg';
-import imgHanafuda6_2 from '../Hanafuda_6-2.svg';
-import imgHanafuda6_3 from '../Hanafuda_6-3.svg';
-import imgHanafuda6_4 from '../Hanafuda_6-4.svg';
-import imgHanafuda7_1 from '../Hanafuda_7-1.svg';
-import imgHanafuda7_2 from '../Hanafuda_7-2.svg';
-import imgHanafuda7_3 from '../Hanafuda_7-3.svg';
-import imgHanafuda7_4 from '../Hanafuda_7-4.svg';
-import imgHanafuda8_1 from '../Hanafuda_8-1.svg';
-import imgHanafuda8_2 from '../Hanafuda_8-2.svg';
-import imgHanafuda8_3 from '../Hanafuda_8-3.svg';
-import imgHanafuda8_4 from '../Hanafuda_8-4.svg';
-import imgHanafuda9_1 from '../Hanafuda_9-1.svg';
-import imgHanafuda9_2 from '../Hanafuda_9-2.svg';
-import imgHanafuda9_3 from '../Hanafuda_9-3.svg';
-import imgHanafuda9_4 from '../Hanafuda_9-4.svg';
-import imgHanafuda10_1 from '../Hanafuda_10-1.svg';
-import imgHanafuda10_2 from '../Hanafuda_10-2.svg';
-import imgHanafuda10_3 from '../Hanafuda_10-3.svg';
-import imgHanafuda10_4 from '../Hanafuda_10-4.svg';
-import imgHanafuda11_1 from '../Hanafuda_11-1.svg';
-import imgHanafuda11_2 from '../Hanafuda_11-2.svg';
-import imgHanafuda11_3 from '../Hanafuda_11-3.svg';
-import imgHanafuda11_4 from '../Hanafuda_11-4.svg';
-import imgHanafuda12_1 from '../Hanafuda_12-1.svg';
-import imgHanafuda12_2 from '../Hanafuda_12-2.svg';
-import imgHanafuda12_3 from '../Hanafuda_12-3.svg';
-import imgHanafuda12_4 from '../Hanafuda_12-4.svg';
+import imgHanafuda1_1 from '../Hanafuda_1-1.png';
+import imgHanafuda1_2 from '../Hanafuda_1-2.png';
+import imgHanafuda1_3 from '../Hanafuda_1-3.png';
+import imgHanafuda1_4 from '../Hanafuda_1-4.png';
+import imgHanafuda2_1 from '../Hanafuda_2-1.png';
+import imgHanafuda2_2 from '../Hanafuda_2-2.png';
+import imgHanafuda2_3 from '../Hanafuda_2-3.png';
+import imgHanafuda2_4 from '../Hanafuda_2-4.png';
+import imgHanafuda3_1 from '../Hanafuda_3-1.png';
+import imgHanafuda3_2 from '../Hanafuda_3-2.png';
+import imgHanafuda3_3 from '../Hanafuda_3-3.png';
+import imgHanafuda3_4 from '../Hanafuda_3-4.png';
+import imgHanafuda4_1 from '../Hanafuda_4-1.png';
+import imgHanafuda4_2 from '../Hanafuda_4-2.png';
+import imgHanafuda4_3 from '../Hanafuda_4-3.png';
+import imgHanafuda4_4 from '../Hanafuda_4-4.png';
+import imgHanafuda5_1 from '../Hanafuda_5-1.png';
+import imgHanafuda5_2 from '../Hanafuda_5-2.png';
+import imgHanafuda5_3 from '../Hanafuda_5-3.png';
+import imgHanafuda5_4 from '../Hanafuda_5-4.png';
+import imgHanafuda6_1 from '../Hanafuda_6-1.png';
+import imgHanafuda6_2 from '../Hanafuda_6-2.png';
+import imgHanafuda6_3 from '../Hanafuda_6-3.png';
+import imgHanafuda6_4 from '../Hanafuda_6-4.png';
+import imgHanafuda7_1 from '../Hanafuda_7-1.png';
+import imgHanafuda7_2 from '../Hanafuda_7-2.png';
+import imgHanafuda7_3 from '../Hanafuda_7-3.png';
+import imgHanafuda7_4 from '../Hanafuda_7-4.png';
+import imgHanafuda8_1 from '../Hanafuda_8-1.png';
+import imgHanafuda8_2 from '../Hanafuda_8-2.png';
+import imgHanafuda8_3 from '../Hanafuda_8-3.png';
+import imgHanafuda8_4 from '../Hanafuda_8-4.png';
+import imgHanafuda9_1 from '../Hanafuda_9-1.png';
+import imgHanafuda9_2 from '../Hanafuda_9-2.png';
+import imgHanafuda9_3 from '../Hanafuda_9-3.png';
+import imgHanafuda9_4 from '../Hanafuda_9-4.png';
+import imgHanafuda10_1 from '../Hanafuda_10-1.png';
+import imgHanafuda10_2 from '../Hanafuda_10-2.png';
+import imgHanafuda10_3 from '../Hanafuda_10-3.png';
+import imgHanafuda10_4 from '../Hanafuda_10-4.png';
+import imgHanafuda11_1 from '../Hanafuda_11-1.png';
+import imgHanafuda11_2 from '../Hanafuda_11-2.png';
+import imgHanafuda11_3 from '../Hanafuda_11-3.png';
+import imgHanafuda11_4 from '../Hanafuda_11-4.png';
+import imgHanafuda12_1 from '../Hanafuda_12-1.png';
+import imgHanafuda12_2 from '../Hanafuda_12-2.png';
+import imgHanafuda12_3 from '../Hanafuda_12-3.png';
+import imgHanafuda12_4 from '../Hanafuda_12-4.png';
 
 import imgEchigoBana from './EchigoBana.jpg';
 import imgKintokiBana from './KintokiBana_Brights.jpg';
@@ -124,14 +124,6 @@ import pronTsukimi from '../pronunciation_ja_月見.mp3';
 import pronManyoshu from './pronunciation_ja_万葉集.mp3'
 
 import { Link } from 'react-router-dom';
-
-const svgSourceInfo: SourceInfo = {
-    license: 'gpl',
-    licenseVersion: '2.0',
-    author: { given: '宇帆', family: '張', familyFirst: true, lang: 'zh' },
-    copyrightYear: 2014,
-    originalUrl: "https://en.wikipedia.org/wiki/User:A2569875"
-}
 
 const Hanafuda: React.FC = () => {
     return (<>
@@ -280,12 +272,11 @@ const Hanafuda: React.FC = () => {
     <Section title={<><span lang="ja">1月</span> — pine (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file={pronMatsu}/>)</>}>
         <ArticleImage
             src={[
-                [imgHanafuda1_4, "A card with a red moon, a crane, and pine trees."],
-                [imgHanafuda1_3, "A card with pine trees and a red scroll with writing." ],
-                [imgHanafuda1_2, "A card with pine trees." ],
-                [imgHanafuda1_1, "A card with pine trees." ],
-            ]}
-            source={svgSourceInfo}>
+                [imgHanafuda1_1, "A card with a red moon, a crane, and pine trees."],
+                [imgHanafuda1_2, "A card with pine trees and a red scroll with writing." ],
+                [imgHanafuda1_3, "A card with pine trees." ],
+                [imgHanafuda1_4, "A card with pine trees." ],
+            ]}>
         The cards for January feature pine trees. There is one bright card, one scroll card (with text), and two junk cards.
         </ArticleImage>
         <p>The bright card for January shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity, so they are a common combination in Japanese art; the mythical Mount <Noun lang="ja-Latn">Hōrai</Noun>, dwelling-place of immortals, is depicted as wooded with pine trees and populated by cranes. The pine is associated with winter and snow, so these cards show the lingering influence of winter during the new year. One traditional new year celebration involved pulling up small pine trees.</p>
@@ -316,12 +307,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">2月</span> — plum (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda2_4, ""],
-                [imgHanafuda2_3, ""],
-                [imgHanafuda2_2, ""],
                 [imgHanafuda2_1, ""],
+                [imgHanafuda2_2, ""],
+                [imgHanafuda2_3, ""],
+                [imgHanafuda2_4, ""],
             ]}>
             The cards for February feature plum trees in blossom. There is one species card, one scroll card (with text), and two junk cards. The text on the scroll is the same as that on January’s.
         </ArticleImage>
@@ -351,12 +341,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">3月</span> — cherry (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file={pronSakura}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda3_4, ""],
-                [imgHanafuda3_3, ""],
-                [imgHanafuda3_2, ""],
                 [imgHanafuda3_1, ""],
+                [imgHanafuda3_2, ""],
+                [imgHanafuda3_3, ""],
+                [imgHanafuda3_4, ""],
             ]}>
             The cards for March show the famous cherry blossoms of Japan. There is one bright card, one scroll card (with text), and two junk cards.
         </ArticleImage>
@@ -381,12 +370,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">4月</span> — wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" word="fuji" lang="ja-Latn" file={pronFuji}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda4_4, ""],
-                [imgHanafuda4_3, ""],
-                [imgHanafuda4_2, ""],
                 [imgHanafuda4_1, ""],
+                [imgHanafuda4_2, ""],
+                [imgHanafuda4_3, ""],
+                [imgHanafuda4_4, ""],
             ]}>
             The cards for April show the drooping branches of wisteria. There is one species card, one red scroll card, and two junk cards.
         </ArticleImage>
@@ -410,12 +398,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">5月</span> — iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" word="ayame" lang="ja-Latn" file={pronAyame}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda5_4, ""],
-                [imgHanafuda5_3, ""],
-                [imgHanafuda5_2, ""],
                 [imgHanafuda5_1, ""],
+                [imgHanafuda5_2, ""],
+                [imgHanafuda5_3, ""],
+                [imgHanafuda5_4, ""],
             ]}>
             The cards for May depict iris flowers. There is one species card, one red scroll card, and two junk cards.
         </ArticleImage>
@@ -452,24 +439,22 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">6月</span> — peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" word="botan" lang="ja-Latn" file={pronBotan}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda6_4, ""],
-                [imgHanafuda6_3, ""],
-                [imgHanafuda6_2, ""],
                 [imgHanafuda6_1, ""],
+                [imgHanafuda6_2, ""],
+                [imgHanafuda6_3, ""],
+                [imgHanafuda6_4, ""],
             ]}>
             The cards for June show peony flowers. There is one species card, one blue/purple scroll card, and two junk cards.
         </ArticleImage>
     </Section>
     <Section title={<><span lang="ja">7月</span> — bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file={pronHagi}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda7_4, ""],
-                [imgHanafuda7_3, ""],
-                [imgHanafuda7_2, ""],
                 [imgHanafuda7_1, ""],
+                [imgHanafuda7_2, ""],
+                [imgHanafuda7_3, ""],
+                [imgHanafuda7_4, ""],
             ]}>
             The cards for July show bush clover. There is one species card, one red scroll card, and two junk cards.
         </ArticleImage>
@@ -479,12 +464,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">8月</span> — miscanthus/silvergrass (<span lang="ja">芒/薄</span> <Pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn" file={pronSusuki}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda8_4, ""],
-                [imgHanafuda8_3, ""],
-                [imgHanafuda8_2, ""],
                 [imgHanafuda8_1, ""],
+                [imgHanafuda8_2, ""],
+                [imgHanafuda8_3, ""],
+                [imgHanafuda8_4, ""],
             ]}>
         The cards for August show waving fields of miscanthus, also known as silvergrass. There is one bright card, one species card, and two junk cards.
         </ArticleImage>
@@ -519,12 +503,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">9月</span> — chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo" word="kiku" lang="ja-Latn" file={pronKiku}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda9_4, ""],
-                [imgHanafuda9_3, ""],
-                [imgHanafuda9_2, ""],
                 [imgHanafuda9_1, ""],
+                [imgHanafuda9_2, ""],
+                [imgHanafuda9_3, ""],
+                [imgHanafuda9_4, ""],
             ]}>
             The cards for September show chrysanthemums. There is one species card, one blue/purple scroll card, and two junk cards.
         </ArticleImage>
@@ -545,12 +528,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">10月</span> — autumn leaves/maple (<span lang="ja">紅葉</span> <span lang="ja-Latn">momiji</span>/<Pronounce pronouncer="El55" word="kōyō" lang="ja-Latn" file={pronKoyo}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda10_4, ""],
-                [imgHanafuda10_3, ""],
-                [imgHanafuda10_2, ""],
                 [imgHanafuda10_1, ""],
+                [imgHanafuda10_2, ""],
+                [imgHanafuda10_3, ""],
+                [imgHanafuda10_4, ""],
             ]}>
             The cards for October show fallen maple leaves. There is one species card, one blue/purple scroll card, and two junk cards.
         </ArticleImage>
@@ -573,12 +555,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">11月</span> — willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo" word="yanagi" lang="ja-Latn" file={pronYanagi}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda11_4, ""],
-                [imgHanafuda11_3, ""],
-                [imgHanafuda11_2, ""],
                 [imgHanafuda11_1, ""],
+                [imgHanafuda11_2, ""],
+                [imgHanafuda11_3, ""],
+                [imgHanafuda11_4, ""],
             ]}>
             The cards for November show willow trees. There is one bright card, one species card, one red scroll card, and one junk card.
         </ArticleImage>
@@ -592,12 +573,11 @@ const Hanafuda: React.FC = () => {
     </Section>
     <Section title={<><span lang="ja">12月</span> — paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring" word="kiri" lang="ja-Latn" file={pronKiri}/>)</>}>
         <ArticleImage
-            source={svgSourceInfo}
             src={[
-                [imgHanafuda12_4, ""],
-                [imgHanafuda12_3, ""],
-                [imgHanafuda12_2, ""],
                 [imgHanafuda12_1, ""],
+                [imgHanafuda12_2, ""],
+                [imgHanafuda12_3, ""],
+                [imgHanafuda12_4, ""],
             ]}>
             The cards for December show paulownia flowers. There is one bright card and three junk cards.
         </ArticleImage>
