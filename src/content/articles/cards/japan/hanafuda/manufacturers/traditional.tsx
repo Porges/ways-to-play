@@ -47,6 +47,8 @@ import imgMarumatsu from './marumatsu.svg';
 import imgKanekata from './kanekata.svg';
 import imgMarutano from './marutano.svg';
 import imgMaruei from './maruei.svg';
+import imgMarukin from './marukin.svg';
+
 import imgNihonKaruta四光 from './NihonKaruta_四光.jpg';
 
 const Manufacturers: React.FC = () => {
@@ -189,6 +191,10 @@ const Manufacturers: React.FC = () => {
                 <td><a href="#Kamigataya"><Noun lang="ja-Latn">Kamigataya</Noun></a></td>
               </tr>
               </tbody>
+              <tr>
+                <td><img src={imgMarukin} height="24" alt="The Marukin symbol" /></td>
+                <td><a href="#Marukin"><Noun lang="ja-Latn">Marukin</Noun></a></td>
+              </tr>
             </Table>
             </div>
           </Section>
@@ -644,6 +650,12 @@ const Manufacturers: React.FC = () => {
             <li><span lang="ja">倭錦</span> (<span lang="ja-Latn">yamatonishiki</span>, ‘ancient Japanese brocade’)</li>
             <li><span lang="ja">都錦</span> (<span lang="ja-Latn">miyakonishiki</span>, ‘capital brocade’)</li>
           </ul>
+        </Section>
+        <Section title={<><Noun lang="ja-Latn">Marukin</Noun></>}>
+        <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in <Noun lang="ja-Latn">Sakata</Noun> <span lang="ja">酒田</span>, <Noun lang="ja-Latn">Yamaguchi</Noun> Prefecture. Their mark was a circled <span lang="ja" className="circled">金</span>.</p>
+        <ul>
+          <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’)</li>
+        </ul>
         </Section>
       </Section>
       <Section title="Unknown">
