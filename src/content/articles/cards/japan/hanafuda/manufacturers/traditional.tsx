@@ -652,7 +652,7 @@ const Manufacturers: React.FC = () => {
           </ul>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Marukin</Noun></>}>
-        <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in <Noun lang="ja-Latn">Sakata</Noun> <span lang="ja">酒田</span>, <Noun lang="ja-Latn">Yamaguchi</Noun> Prefecture. Their mark was a circled <span lang="ja" className="circled">金</span>.</p>
+        <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in <Noun lang="ja-Latn">Sakata</Noun> (<span lang="ja">酒田</span>), <Noun lang="ja-Latn">Yamaguchi</Noun> Prefecture (<span lang="ja">山口県</span>). Their mark was a circled <span lang="ja" className="circled">金</span>. Brands included:</p>
         <ul>
           <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’)</li>
         </ul>
