@@ -209,7 +209,7 @@ const Manufacturers: React.FC = () => {
             src={imgNintendoShop}
             alt="A wooden storefront with wrought-iron railings and a bicycle parked outside."
             source={{license: "cc0"}}>
-            The <Noun lang="ja-Latn">Nintendō</Noun> storefront in Kyōtō in 1889.
+            The <Noun lang="ja-Latn">Nintendō</Noun> storefront in <Noun lang="ja-Latn">Kyōto</Noun> in 1889.
           </ArticleImage>
           <ArticleImage
             position="right"
@@ -637,10 +637,10 @@ const Manufacturers: React.FC = () => {
           </ul>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Kyōwadō</Noun> (<span lang="ja">京和堂</span>)</>}>
-          <p>A company about which I know little. Presumably from the name they were based in <Noun lang="ja-Latn">Kyōtō</Noun>. Their mark was a circled <span lang="ja">榮</span>. Brands included:</p>
+          <p>A company about which I know little. Presumably from the name they were based in <Noun lang="ja-Latn">Kyōto</Noun>. Their mark was a circled <span lang="ja">榮</span>. Brands included:</p>
           <ul>
             <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)</li>
-            <li><span lang="ja">京寶船</span> (<span lang="ja-Latn">kyōtakarabune</span>, ‘<Noun lang="ja-Latn">Kyōtō</Noun> treasure ship’)</li>
+            <li><span lang="ja">京寶船</span> (<span lang="ja-Latn">kyōtakarabune</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> treasure ship’)</li>
           </ul>
         </Section>
         <Section title={<><Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>)</>}>
