@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Noun, ArticleImage, Footnote, Section, Cite, Pronounce } from 'ui';
  
-import { EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
+import { Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
 AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu } from
 'References/bibliography.json';
 
@@ -149,10 +149,13 @@ const Hanafuda: React.FC = () => {
             <p>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></p>
         </Footnote>
         <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms (1787–1793). This ban was to remain in place until 1886, when <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
-        <p><Noun lang="ja-Latn">Kihei</Noun> had recently moved to <Noun lang="ja-Latn">Tōkyō</Noun> and was convinced through his reading of legal texts that <Noun lang="ja-Latn">Hanafuda</Noun> were not actually prohibited. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince newspapers to print his advertisements. So, in order to prove himself correct, he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hanafuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hanafuda</Noun> was legal, and later that month he opened his first shop on <Noun lang="ja-Latn">Ningyocho</Noun> Street (<span lang="ja">人形町通り</span>), in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋</span>). The shop was named <Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /></p>
         <Footnote>
             <p><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</p>
         </Footnote>
+        <Footnote>
+          <p><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <Noun lang="ja-Latn">Sumiyoshi-kai</Noun> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai}/> It is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</p>
+        </Footnote>
+        <p><Noun lang="ja-Latn">Kihei</Noun> had recently moved to <Noun lang="ja-Latn">Tōkyō</Noun> and was convinced through his reading of legal texts that <Noun lang="ja-Latn">Hanafuda</Noun> were not actually prohibited. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince newspapers to print his advertisements. So, in order to prove himself correct, he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hanafuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hanafuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Sumiyoshi</Noun> neighbourhood (<span lang="ja">住吉町</span>) on <Noun lang="ja-Latn">Ningyōchō</Noun> street (<span lang="ja">人形町通り</span>), in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋</span>). The shop was named “<Noun lang="ja-Latn">Kamigataya</Noun>” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /></p>
         <ArticleImage
             position="left"
             src={imgKamigatayaGinza}

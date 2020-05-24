@@ -108,7 +108,7 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
     return as.map((a, ix) => (
         <React.Fragment key={ix}>
             { ix > 0 && (ix === as.length - 1 ? <>{(as.length > 2) && ','} and </> : ", ") }
-            <span itemScope itemType="http://schema.org/Person" itemProp={itemProp} lang={a.lang}>
+            <span itemScope itemType="http://schema.org/Person" itemProp={itemProp} lang={a.lang} className="proper-noun">
                 { reverseFirst && ix === 0 
                   ? <>{renderFirst(a, ix)}, {renderLast(a, ix)}</>
                   : <>{renderLast(a, ix)} {renderFirst(a, ix)}</> }

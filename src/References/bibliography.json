@@ -3597,5 +3597,14 @@
         "container-title": "Japan Academy of Gambling & Gaming Studies Newsletter",
         "issue": 9,
         "URL": "http://www.jirg.org/wp-content/themes/jirg/newsletter/download/newsletter_008.php"
+    },
+    "Sumiyoshikai": {
+        "id": "Sumiyoshikai",
+        "type": "article-magazine",
+        "title": "Capital punishment: Japan’s yakuza vie for control of Tokyo",
+        "author": [{"family": "Takahashi", "given": "Kōsuke", "lang": "ja-Latn"}],
+        "container-title": "Jane’s Intelligence Review",
+        "issued": {"year": 2009, "month": 12},
+        "URL": "http://www.kosuke.net/japanyakuza.pdf"
     }
 }
