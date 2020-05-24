@@ -88,6 +88,7 @@ import imgKaiAwase from './DP135571.jpg';
 import imgKai1 from './2008_0079_0000_01_P.jpg';
 import imgKai2 from './2008_0079_0000_02_P.jpg';
 import imgKamigatayaGinza from './Kamigataya-Ginza.jpg';
+import imgKamigatayaMotomachi from './Kamigataya-Motomachi.jpg';
 
 import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
 import pronEchigobana from '../pronunciation_ja_越後花.mp3';
@@ -164,6 +165,12 @@ const Hanafuda: React.FC = () => {
             A newspaper advertisement depicting the outside of the <Noun lang="ja-Latn">Ginza</Noun> <Noun lang="ja-Latn">Kamigataya</Noun> store, 1889.
         </ArticleImage>
         <p><Noun lang="ja-Latn">Kamigataya</Noun> was the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Kihei</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in the <Noun lang="ja-Latn">Ginza</Noun> (<Noun lang="ja-Latn">Tōkyō</Noun>) area, which became instantly successful. Once the viability of <Noun lang="ja-Latn">Hanafuda</Noun> had been proven, other manufacturers appeared quickly: the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889. Other companies such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> claim to have been operating discreetly during the prohibition period; in their case behind the doors of a rice merchant named <Noun lang="ja-Latn">Minatoya</Noun> (<span lang="ja">湊屋</span>).<Cite r={OishiTengudoHistory4} /></p>
+        <ArticleImage
+            src={imgKamigatayaMotomachi}
+            alt="An image of a Japanese street with lots of signs and flags for stores"
+            source={{license: "cc0"}}>
+            In this later postcard from (???), another branch of <Noun lang="ja-Latn">Kamigataya</Noun> can be seen; this one is in <Noun lang="ja-Latn">Motomachi</Noun> in <Noun lang="ja-Latn">Yokohama</Noun>. 
+        </ArticleImage>
         <p>However, even after prohibition had ended, <Noun lang="ja-Latn">Hanafuda</Noun> retained a poor reputation. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other supreme court judges of <span lang="ja-Latn">rōka</span> (<span lang="ja">弄花</span>, gambling with <Noun lang="ja-Latn">Hanafuda</Noun>). Despite a lack of evidence, <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.</p>
     </Section>
     <Section title="Art of the Cards">
