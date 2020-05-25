@@ -18,7 +18,7 @@ export type SourceInfo = {
 type ResponsiveImageSrc = { src: string, srcSet: string } | string
 
 type Props = {
-    position?: "wide" | "left" | "right" | "small" | "aside"
+    position?: "wide" | "left" | "right" | "small" | "aside" | "aside-wide"
     source?: SourceInfo
 } & (
     { src: ResponsiveImageSrc, alt: string }
@@ -46,11 +46,8 @@ const renderSource = (source: SourceInfo) => {
     }
 
     return <>({source.license === 'cc0' ? '' : '© ' }{source.copyrightYear && <><span itemProp="copyrightYear">{source.copyrightYear}</span> </>}
-        {copyrightHolder && 
-            <a href={source.originalUrl} itemProp="sameAs url">
-                {copyrightHolder}
-            </a>}
-        <L.License license={source.license} version={source.licenseVersion} />)</>;
+        {copyrightHolder && <a href={source.originalUrl} itemProp="sameAs url">{copyrightHolder}</a>}
+        <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />)</>;
 }
 
 const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string) => {
@@ -93,6 +90,7 @@ export const ArticleImage: React.FC<Props> = props => {
         props.position === "right" ? "float-lg-right ml-lg-3 my-lg-1 text-center col-12 col-lg-5" :
         props.position === "left" ? "float-lg-left mr-lg-3 my-lg-1 text-center col-12 col-lg-5" :
         props.position === "wide" ? "wide text-center" :
+        props.position === "aside-wide" ? "footnote wide" :
         props.position === "aside" ? "footnote" :
         `${props.position === undefined ? '' : props.position} w-100 text-center`;
 

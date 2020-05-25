@@ -18,6 +18,7 @@ export type Version = "2.0" | "4.0"
 
 type Props = {
     license: LicenseName
+    leading: boolean
     version?: Version
 } & React.AnchorHTMLAttributes<HTMLAnchorElement>
 
@@ -56,15 +57,16 @@ export const License: React.FC<Props> = (props: Props) => {
 
     const
         { license
+        , leading
         , version
         , ...htmlAttributes } = props;
 
     if (license === 'instagram') {
-        return <span>, Instagram</span>;
+        return <span>{leading && ', '}Instagram</span>;
     }
 
     if (license === 'with-permission') {
-        return <span>, with permission</span>;
+        return <span>{leading && ', '}with permission</span>;
     }
 
     // license == gpl | creative-common
@@ -84,7 +86,7 @@ export const License: React.FC<Props> = (props: Props) => {
         : `Licensed under the ${parts.map(altText).join(' ')} license, ${version}`
 
     return (<>
-        {' '}
+        {leading && ' '}
         <a
             itemProp="license"
             href={href}

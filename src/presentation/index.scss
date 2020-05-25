@@ -284,14 +284,24 @@ ul {
     padding-left: 1.5em;
 }
 
+.footnote.wide {
+    width: 60%;
+    clear: right;
+}
+
 .footnote p {
     text-align: left;
 }
+
 
 @include media-breakpoint-up(lg) {
     .footnote {
         padding-left: 0;
         margin: 0 -45% 0 0;
+    }
+
+    .footnote.wide {
+        margin: 0 -65% 0 0;
     }
 }
 
@@ -300,7 +310,7 @@ div.multi {
     display: flex;
     max-width: 100%;
     justify-content: space-around;
-    align-items: center;
+    //align-items: center;
 }
 
 div.multi > * {
