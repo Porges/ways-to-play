@@ -91,6 +91,7 @@ import imgKamigatayaGinza from './Kamigataya-Ginza.jpg';
 import imgKamigatayaMotomachi from './Kamigataya-Motomachi.jpg';
 import imgTatsutagawa from './Tatsutagawa.jpg';
 import imgYoshino from './Yoshino.jpg';
+import imgHoraiKimono from './HoraiKimono.jpg';
 
 import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
 import pronEchigobana from '../pronunciation_ja_越後花.mp3';
@@ -277,6 +278,18 @@ const Hanafuda: React.FC = () => {
                 [imgHanafuda1_4, "A card with pine trees." ],
             ]}>
         The cards for January feature pine trees. There is one bright card, one scroll card (with text), and two junk cards.
+        </ArticleImage>
+        <ArticleImage
+          position="aside"
+          alt="A kimono featuring pine trees and cranes on the back of a large turtle."
+          src={imgHoraiKimono}
+          source={{
+            originalUrl: "https://collections.mfa.org/objects/30805/kimono-uchikake",
+            organization: { orgAbbr: "MFA", orgName: "Museum of Fine Arts Boston" },
+            license: 'cc0'
+          }}
+          >
+          An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <Noun lang="ja-Latn">Hōrai</Noun> pattern: plum and pine trees with cranes, atop a large turtle.
         </ArticleImage>
         <p>The bright card for January shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity, so they are a common combination in Japanese art; the mythical Mount <Noun lang="ja-Latn">Hōrai</Noun>, dwelling-place of immortals, is depicted as wooded with pine trees and populated by cranes. The pine is associated with winter and snow, so these cards show the lingering influence of winter during the new year. One traditional new year celebration involved pulling up small pine trees.</p>
         <p>The text on the scroll reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.<Footnote>The writing on the scroll uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.</Footnote> The meaning of this phrase is unclear, even to <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers, but it may be something like ‘clearly the best’.</p>
