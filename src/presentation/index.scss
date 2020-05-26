@@ -282,6 +282,7 @@ ul {
     clear: right;
     float: right;
     padding-left: 1.5em;
+    margin-bottom: 1rem;
 }
 
 .footnote.wide {
@@ -293,15 +294,41 @@ ul {
     text-align: left;
 }
 
+body {
+    counter-reset: footnote;
+}
+
+.footnote-indicator::before {
+    counter-increment: footnote;
+    content: counter(footnote);
+    vertical-align: super;
+    line-height: 0;
+    font-size: 0.8em;
+    margin-left: 1px;
+}
+
+span.footnote::before {
+    content: counter(footnote) ": "
+}
+
+.footnote-indicator:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.footnote-indicator:hover + .footnote::before {
+    color: red;
+    font-weight: bold;
+}
 
 @include media-breakpoint-up(lg) {
     .footnote {
         padding-left: 0;
-        margin: 0 -45% 0 0;
+        margin-right: -45%;
     }
 
     .footnote.wide {
-        margin: 0 -65% 0 0;
+        margin-right: -65%;
     }
 }
 
