@@ -181,6 +181,10 @@ figure.wide {
         max-height: inherit;
         border: 2px solid black;
     }
+
+    figure.wide.footnote > img {
+      border: 1px solid black;
+    }
 }
 
 /*** References ***/
@@ -275,28 +279,48 @@ ul {
   
 /*** Footnotes ***/
 .footnote {
-    // text-indent: -.8em;
-    font-size: 0.8em;
-
-    width: 40%;
-    clear: right;
-    float: right;
-    padding-left: 1.5em;
-    margin-bottom: 1rem;
+  font-size: 0.8em;
+  padding: 0.5em;
+  border: 1px lightgray dotted;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .footnote.wide {
-    width: 60%;
-    clear: right;
+  text-align: center;
+  border: none;
 }
 
 .footnote p {
     text-align: left;
 }
 
+// remove bottom margin from last <p>
+.footnote p:last-child {
+  margin-bottom: 0;
+}
+
 body {
     counter-reset: footnote;
 }
+
+span.footnote {
+  float: left;
+  width: 100%;
+
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+aside.footnote::before {
+  content: "☞ ";
+  font-size: 1.5em;
+  line-height: 1rem;
+  float: left;
+  color: grey;
+}
+
+// indicators:
 
 .footnote-indicator::before {
     counter-increment: footnote;
@@ -308,7 +332,11 @@ body {
 }
 
 span.footnote::before {
-    content: counter(footnote) ": "
+    content: counter(footnote);
+    vertical-align: super;
+    line-height: 0;
+    font-size: 0.8em;
+    margin-right: 2px;
 }
 
 .footnote-indicator:hover {
@@ -322,13 +350,26 @@ span.footnote::before {
 }
 
 @include media-breakpoint-up(lg) {
-    .footnote {
-        padding-left: 0;
-        margin-right: -45%;
+    span.footnote, aside.footnote, figure.footnote {
+      padding: 0;
+
+      margin-top: 0;
+      margin-right: -45%;
+      width: 40%;
+
+      clear: right;
+      float: right;
+
+      border: none;
+    }
+
+    span.footnote {
+      text-indent: -.6em; // outdent the number
     }
 
     .footnote.wide {
-        margin-right: -65%;
+      width: 60%;
+      margin-right: -65%;
     }
 }
 
@@ -337,7 +378,11 @@ div.multi {
     display: flex;
     max-width: 100%;
     justify-content: space-around;
-    //align-items: center;
+    margin-bottom: 1rem;
+}
+
+figure > div.multi {
+  margin-bottom: 0;
 }
 
 div.multi > * {
