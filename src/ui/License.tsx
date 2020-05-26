@@ -14,7 +14,7 @@ export type LicenseName
     | "gpl"
     | "with-permission"
 
-export type Version = "2.0" | "4.0"
+export type Version = "2.0" | "3.0" | "4.0"
 
 type Props = {
     license: LicenseName

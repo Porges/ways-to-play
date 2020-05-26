@@ -89,6 +89,8 @@ import imgKai1 from './2008_0079_0000_01_P.jpg';
 import imgKai2 from './2008_0079_0000_02_P.jpg';
 import imgKamigatayaGinza from './Kamigataya-Ginza.jpg';
 import imgKamigatayaMotomachi from './Kamigataya-Motomachi.jpg';
+import imgTatsutagawa from './Tatsutagawa.jpg';
+import imgYoshino from './Yoshino.jpg';
 
 import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
 import pronEchigobana from '../pronunciation_ja_越後花.mp3';
@@ -147,10 +149,7 @@ const Hanafuda: React.FC = () => {
         </ArticleImage>
         <p><Noun lang="ja-Latn">Hanafuda</Noun> seem to originate in a combination of the themes of <span lang="ja-Latn">kai-awase</span> — matching sets, poetry, conventionalized art — with the ideas introduced by the Portuguese playing cards — a regular structure of <i>suits</i> divided into different <i>ranks</i>. Early ancestors of <Noun lang="ja-Latn">Hanafuda</Noun> (such as a deck created circa 1704) show a very regular configuration of cards for each flower, which later seems to devolve into the unusual configuration of the <Noun lang="ja-Latn">Hanafuda</Noun> deck.</p>
         <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></Footnote> (1787–1793). This ban was to remain in place until 1886, when <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
-        <Footnote standalone>
-            <p><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</p>
-        </Footnote>
-        <p><Noun lang="ja-Latn">Kihei</Noun> had recently moved to <Noun lang="ja-Latn">Tōkyō</Noun> and was convinced through his reading of legal texts that <Noun lang="ja-Latn">Hanafuda</Noun> were not actually prohibited. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince newspapers to print his advertisements. So, in order to prove himself correct, he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hanafuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hanafuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Sumiyoshi</Noun> neighbourhood<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <Noun lang="ja-Latn">Sumiyoshi-kai</Noun> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai}/> It is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> (<span lang="ja">住吉町</span>) on <Noun lang="ja-Latn">Ningyōchō</Noun> street (<span lang="ja">人形町通り</span>), in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋</span>). The shop was named “<Noun lang="ja-Latn">Kamigataya</Noun>” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /></p>
+        <p><Noun lang="ja-Latn">Kihei</Noun><Footnote><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</Footnote> had recently moved to <Noun lang="ja-Latn">Tōkyō</Noun> and was convinced through his reading of legal texts that <Noun lang="ja-Latn">Hanafuda</Noun> were not actually prohibited. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince newspapers to print his advertisements. So, in order to prove himself correct, he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hanafuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hanafuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Sumiyoshi</Noun> neighbourhood<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <Noun lang="ja-Latn">Sumiyoshi-kai</Noun> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai}/> It is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> (<span lang="ja">住吉町</span>) on <Noun lang="ja-Latn">Ningyōchō</Noun> street (<span lang="ja">人形町通り</span>), in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋</span>). The shop was named “<Noun lang="ja-Latn">Kamigataya</Noun>” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /></p>
         <ArticleImage
             position="left"
             src={imgKamigatayaGinza}
@@ -230,7 +229,7 @@ const Hanafuda: React.FC = () => {
         alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details.">
         The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
         </ArticleImage>
-        <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronounce pronouncer="akitomo" word="tanka" lang="ja-Latn" file={pronTanka}/>). Poetry is a common sight on traditional Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints above — and often provides more context to the images. The poems of the <span lang="ja-Latn">Echigo-bana</span> will be explained below.</p>
+        <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronounce pronouncer="akitomo" word="tanka" lang="ja-Latn" file={pronTanka}/>). Poetry is a common sight on traditional Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints above — and often provides more context to the images. The poems of the <Noun lang="ja-Latn">Echigo-bana</Noun> will be explained below.</p>
     </Section>
     <Section title={<Noun lang="ja-Latn">Echigo-kobana</Noun>}>
         <p>The <span lang="ja-Latn">Echigo-kobana</span> (<span lang="ja">越後小花</span> ‘Echigo small flowers’) pattern is similar to the <Noun lang="ja-Latn">Echigo-bana</Noun>, but with very small cards measuring approximately 3&nbsp;cm × 4.5&nbsp;cm (1⅛″ × 1¾″).</p>
@@ -248,20 +247,18 @@ const Hanafuda: React.FC = () => {
         </ArticleImage>
     </Section>
     <Section title={<><Noun lang="ja-Latn">Awa-­bana</Noun>/<Noun lang="ja-Latn">Kintoki­-bana</Noun></>}>
-        <p>This is another regional pattern called <span lang="ja-Latn">Awa­-bana</span> (<span lang="ja">阿波花</span>) or <span lang="ja-Latn">Kintoki­-bana</span> (<span lang="ja">金時花</span>). It originated in <Noun
-        lang="ja-Latn">Awa</Noun> province, in what is now <Noun lang="ja-Latn">Tokushima</Noun> prefecture.</p>
-        <p>Like the <Noun lang="ja-Latn">Echigo-bana</Noun> pattern, some of the <Noun lang="ja-Latn">Awa-­bana</Noun> carry poems (in fact, they carry the same poems).</p>
+        <ArticleImage
+            position="left"
+            src={imgKintoki}
+            alt="A Hanafuda card depicting a red boy carrying an axe, and wearing a shirt with the character for ‘gold’ on it.">
+            The <Noun lang="ja-Latn">Kintoki</Noun> card, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>. He is depicted carrying an axe and wearing a shirt with the character <span lang="ja">金</span> (<span lang="ja-Latn">kin</span>, ‘gold’) on it.
+        </ArticleImage>
+        <p>This is another regional pattern called <span lang="ja-Latn">Awa­-bana</span> (<span lang="ja">阿波花</span>) or <span lang="ja-Latn">Kintoki­-bana</span> (<span lang="ja">金時花</span>). It originated in <Noun lang="ja-Latn">Awa</Noun> province, in what is now <Noun lang="ja-Latn">Tokushima</Noun> prefecture.</p>
+        <p>Like the <Noun lang="ja-Latn">Echigo-bana</Noun> pattern, some of the <Noun lang="ja-Latn">Awa-­bana</Noun> carry poems (in fact, they carry the same poems). The deck also contains an extra card which features the titular <Noun lang="ja-Latn">Kintoki</Noun>, <a href="https://en.wikipedia.org/wiki/Kintar%C5%8D">a legendary strong-boy also known as <Noun lang="ja-Latn">Kintarō</Noun></a>.</p>
         <ArticleImage
             src={imgKintokiBana}
             alt="Five hanafuda cards with bright colours and overpainted with silver.">
             The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
-        </ArticleImage>
-        <p>The deck also contains an extra card which features the titular <Noun lang="ja-Latn">Kintoki</Noun>, <a href="https://en.wikipedia.org/wiki/Kintar%C5%8D">a legendary strong-boy also known as <Noun lang="ja-Latn">Kintarō</Noun></a>.</p>
-        <ArticleImage
-            position="small"
-            src={imgKintoki}
-            alt="A Hanafuda card depicting a red boy carrying an axe, and wearing a shirt with the character for ‘gold’ on it.">
-            The <Noun lang="ja-Latn">Kintoki</Noun> card, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>. He is depicted carrying an axe and wearing a shirt with the character <span lang="ja">金</span> (<span lang="ja-Latn">kin</span>, ‘gold’) on it.
         </ArticleImage>
     </Section>
     <Section title="Modern/Novelty decks">
@@ -360,6 +357,19 @@ const Hanafuda: React.FC = () => {
             Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
             Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
         </Footnote> This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
+        <ArticleImage
+          src={imgYoshino}
+          position="aside-wide"
+          alt="A mountain covered in cherry blossom trees showing light pink blooms, amongst other dark green trees."
+          source={{
+            license: 'cc-by-nc-nd',
+            licenseVersion: '4.0',
+            originalUrl: 'http://photozou.jp/photo/show/314766/35962820',
+            copyrightYear: 2010,
+            author: 'ゆぼ'
+          }}>
+          The <Noun lang="ja-Latn">Yoshino</Noun> mountainside with cherry trees in bloom.
+        </ArticleImage>
         <p>Blossom-viewing (<span lang="ja">花見</span> <Pronounce pronouncer="samchie" word="hanami" lang="ja-Latn" file={pronHanami}/>), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period.</p>
         <p>The curtains (<span lang="ja">幕</span> <Pronounce pronouncer="skent" word="maku" lang="ja-Latn" file={pronMaku}/>) on the bright card are for providing privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the right. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>
     </Section>
@@ -523,6 +533,20 @@ const Hanafuda: React.FC = () => {
                 [imgHanafuda10_4, ""],
             ]}>
             The cards for October show fallen maple leaves. There is one species card, one blue/purple scroll card, and two junk cards.
+        </ArticleImage>
+        <ArticleImage 
+          position="aside-wide"
+          src={imgTatsutagawa}
+          alt="Maple trees with their leaves showing a bright red-orange colour."
+          source={{
+            license: 'cc-by-sa',
+            licenseVersion: '3.0',
+            originalUrl: 'https://commons.wikimedia.org/wiki/File:Nara_Prefectural_Tatsuta_Park01s3s4200.jpg',
+            author: '663highland',
+            copyrightYear: 2010
+          }}
+          >
+          Maple trees along the banks of the <Noun lang="ja-Latn">Tatsuta-gawa</Noun> in autumn.
         </ArticleImage>
         <p>While the leaves on the species card are attached to a tree, the leaves on the other cards appear to be floating on water. This could be a reference to the <Noun lang="ja-Latn">Tatsuta</Noun> river (<span lang="ja">竜田川</span>), which was as famous for autumn foliage as <Noun lang="ja-Latn">Yoshino</Noun> was for cherry blossoms in the spring.<Cite r={FourSeasons} page={1756} pageType="l."/></p>
         <ArticleImage
