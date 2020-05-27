@@ -458,7 +458,7 @@
             "year": 1924
         },
         "publisher": "Bernice P. Bishop Museum",
-        "publisher-place": "Honolulu, Hawaii",
+        "publisher-place": "Honolulu, Hawaiʻi",
         "URL": "https://hdl.handle.net/2027/miun.arf6076.0001.001",
         "id": "Emory24"
     },
@@ -478,7 +478,7 @@
             "year": 1908
         },
         "publisher": "Bishop Museum Press",
-        "publisher-place": "Honolulu, Hawaii",
+        "publisher-place": "Honolulu, Hawaiʻi",
         "URL": "https://archive.org/details/ancienthawaiian01briggoog",
         "id": "Brigham08"
     },
@@ -498,7 +498,7 @@
             "year": 1827
         },
         "publisher": "Hawaiian Gazette Company",
-        "publisher-place": "Honolulu, Hawaii",
+        "publisher-place": "Honolulu, Hawaiʻi",
         "URL": "https://archive.org/details/journalofwilliam000434mbp",
         "id": "Ellis17"
     },
@@ -1736,7 +1736,7 @@
             "year": 2000
         },
         "publisher": "Kamehameha Schools Press",
-        "publisher-place": "Honolulu, Hawaii",
+        "publisher-place": "Honolulu, Hawaiʻi",
         "URL": "http://ulukau.org/cgi-bin/library?c=elibrary&l=en",
         "id": "KamehamehaAndHisWarrior"
     },
@@ -1770,7 +1770,7 @@
             "year": 1980
         },
         "publisher": "Bernice P. Bishop Museum",
-        "publisher-place": "Honolulu, Hawaii",
+        "publisher-place": "Honolulu, Hawaiʻi",
         "URL": "http://data.bishopmuseum.org/archaeology/docs/DRS_80_2MajesticKau.pdf",
         "id": "MajesticKau"
     },
@@ -1801,7 +1801,7 @@
             "year": 1957
         },
         "publisher": "Bishop Museum Press",
-        "publisher-place": "Honolulu, Hawaii",
+        "publisher-place": "Honolulu, Hawaiʻi",
         "ISBN": "1-58178-027-3",
         "URL": "https://www.bishopmuseum.org/artsandcraftsofhawaii/",
         "id": "PeterBuck"
@@ -3606,5 +3606,15 @@
         "container-title": "Jane’s Intelligence Review",
         "issued": {"year": 2009, "month": 12},
         "URL": "http://www.kosuke.net/japanyakuza.pdf"
+    },
+    "PopularJapanesePrints": {
+        "id": "PopularJapanesePrints",
+        "type": "book",
+        "title": "Popular Japanese Prints",
+        "issued": {"year": 2009},
+        "author": [{"family": "Salter", "given": "Rebecca"}],
+        "publisher": "University of Hawaiʻi Press",
+        "publisher-place": "Honolulu, Hawaiʻi",
+        "ISBN": "978-0-8248-3083-0"
     }
 }
