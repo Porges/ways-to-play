@@ -462,7 +462,7 @@ const Manufacturers: React.FC = () => {
             <li><span lang="ja">東錦</span> (<span lang="ja-Latn">higashinishiki</span>, ‘eastern brocade’)</li>
             <li><span lang="ja">三福</span> (<span lang="ja-Latn">sanfuku</span>, ‘three fortunes’)</li>
             <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon)</li>
-            <li><span lang="ja">萬國一</span>/<span lang="ja">万国一</span> (<span lang="ja-Latn">bankokuichi</span>, ‘first among nations’)</li>
+            <li><span lang="ja">萬國一</span>/<span lang="ja">万国一</span> (<span lang="ja-Latn">bankokuichi</span>, ‘best in the world’)</li>
           </ul>
           <ArticleImage
             alt="Five Hanafuda cards, which have thin blue lines showing detail in the black areas, unlike standard Hanafuda cards."
