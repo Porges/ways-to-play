@@ -3616,5 +3616,15 @@
         "publisher": "University of Hawaiʻi Press",
         "publisher-place": "Honolulu, Hawaiʻi",
         "ISBN": "978-0-8248-3083-0"
+    },
+    "CartaTaxLawContents": {
+        "id": "CartaTaxLawContents",
+        "title": "後世の花札図柄との異同",
+        "title-lang": "ja",
+        "author": [{"given": "崇", "family": "江橋"}],
+        "type": "webpage",
+        "issued": {"year": 2020},
+        "publisher": "Japan Playing Card Museum",
+        "URL": "https://japanplayingcardmuseum.com/2-0-cartatax-law-contents/"
     }
 }

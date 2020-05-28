@@ -18,6 +18,9 @@ $font-family-serif:
 //$body-bg: #fffff8;
 //$body-color: #111;
 
+$breadcrumb-bg: none;
+$breadcrumb-divider: quote('•');
+
 $font-family-base: $font-family-serif;
 
 $my-heading-font-family: "Quicksand";
@@ -107,7 +110,6 @@ h2 {
 
 main {
     flex: 1;
-    margin-top: 50px;
     overflow-wrap: break-word;
     padding-bottom: 3em;
 }
@@ -115,14 +117,15 @@ main {
 // I really want these but they mostly look bad
 // due to poor justification algorithms.
 /*
-p {
+section > p {
     hyphens: auto;
     text-align: justify;
 }
 */
 
 section {
-    display: flow-root;
+  // trap floats inside:
+  display: flow-root;
 }
 
 blockquote {
@@ -411,4 +414,19 @@ figcaption img {
 /*** Abbreviations ***/
 abbr.initialism {
     font-variant: small-caps;
+}
+
+ul.article-list {
+  @extend .my-2;
+  @extend .mx-auto;
+  padding-left: 0;
+}
+
+ul.article-list ul.article-list {
+  @extend .my-0;
+  padding-left: 1.1em;
+}
+
+ul.article-list li {
+  list-style-type: '• '
 }

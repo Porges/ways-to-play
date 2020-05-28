@@ -74,21 +74,25 @@ const PronunciationSummary: React.FC = () => {
   );
 }
 
+
+
 export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
 
   const Import = content.import;
-  return (
+  return (<>
+    <Helmet>
+      <title lang={content.titleLang}>{content.title}</title>
+      <body itemScope itemType="http://schema.org/WebPage" />
+    </Helmet>
     <article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author">
-      <Helmet>
-        <title lang={content.titleLang}>{content.title}</title>
-        <body itemScope itemType="http://schema.org/WebPage" />
-      </Helmet>
       <Row>
-        <Col>
+        <Col lg="1" />
+        <Col lg="7">
           <h1 itemProp="headline" lang={content.titleLang}>
             <Link itemProp="mainEntityOfPage" to={url}>{content.title}</Link> {content.draft && <Badge variant="warning">Draft</Badge>}
           </h1>
         </Col>
+        <Col lg="1" style={{ zIndex: -1 }} />
       </Row>
       { /*
             <Row>
@@ -117,5 +121,5 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
         <Col lg="1" style={{ zIndex: -1 }} />
       </Row>
     </article>
-  );
+  </>);
 }
