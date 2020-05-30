@@ -26,6 +26,8 @@ import imgAkataCard from './Akata-Card.jpg';
 import imgNintendoShop from './nintendo-shop.jpg';
 import imgNishimura1 from './nishimura_1.png';
 import imgNishimura2 from './nishimura_2.png';
+import imgTaxStampPurple from './tax_stamp_purple.jpg';
+import imgTaxStampPink from './tax_stamp_pink.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -237,6 +239,12 @@ const Manufacturers: React.FC = () => {
           </tbody>
         </Table>
       </Section>
+      <ArticleImage
+        src={[
+          [imgTaxStampPink, "A long rectangular stamp coloured pink, with elaborate border and a serial number in centre."],
+          [imgTaxStampPurple, "A long rectangular stamp coloured purple, with elaborate border and a serial number in centre."]]}>
+        Tax stamps of the type used from 1960 until the tax was abolished in 1989. Pink was used for <Noun lang="ja-Latn">Hanafuda</Noun> decks and purple was used for Western style (“trump” decks).
+      </ArticleImage>
     </Section>
     <Section title="Current Manufacturers">
       <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture. The <Noun lang="ja-Latn">Kansai</Noun> region (which contains both <Noun lang="ja-Latn">Kyōto</Noun> and <Noun lang="ja-Latn">Ōsaka</Noun>) is the original source of <Noun lang="ja-Latn">Hanafuda</Noun> cards.</p>
