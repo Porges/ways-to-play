@@ -243,7 +243,7 @@ const Manufacturers: React.FC = () => {
         src={[
           [imgTaxStampPink, "A long rectangular stamp coloured pink, with elaborate border and a serial number in centre."],
           [imgTaxStampPurple, "A long rectangular stamp coloured purple, with elaborate border and a serial number in centre."]]}>
-        Tax stamps of the type used from 1960 until the tax was abolished in 1989. Pink was used for <Noun lang="ja-Latn">Hanafuda</Noun> decks and purple was used for Western style (“trump” decks).
+        Tax stamps of the type used from 1960 until the tax was abolished in 1989. Pink was used for <Noun lang="ja-Latn">Hanafuda</Noun> decks and purple was used for Western style (“trump”) decks.
       </ArticleImage>
     </Section>
     <Section title="Current Manufacturers">
