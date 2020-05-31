@@ -41,12 +41,10 @@ const renderSource = (source: SourceInfo) => {
         copyrightHolder = <Person itemProp="copyrightHolder" name={source.author} />;
     }
 
-    if (copyrightHolder && !source.originalUrl) {
-        throw new Error("must link if copyright holder supplied");
-    }
-
     return <>({source.license === 'cc0' ? '' : '© ' }{source.copyrightYear && <><span itemProp="copyrightYear">{source.copyrightYear}</span> </>}
-        {copyrightHolder && <a href={source.originalUrl} itemProp="sameAs url">{copyrightHolder}</a>}
+        {copyrightHolder && (
+          (source.originalUrl && <a href={source.originalUrl} itemProp="sameAs url">{copyrightHolder}</a>)
+          || copyrightHolder)}
         <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />)</>;
 }
 

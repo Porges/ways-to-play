@@ -28,6 +28,8 @@ import imgNishimura1 from './nishimura_1.png';
 import imgNishimura2 from './nishimura_2.png';
 import imgTaxStampPurple from './tax_stamp_purple.jpg';
 import imgTaxStampPink from './tax_stamp_pink.jpg';
+import img50SenStamp from './20190921_timbre1.jpg';
+import img1YenStamp from './20190921_timbre.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -239,6 +241,17 @@ const Manufacturers: React.FC = () => {
           </tbody>
         </Table>
       </Section>
+      <ArticleImage
+        src={[
+          [img50SenStamp, "A square blue stamp reading ‘50 sen’ in Japanese with a stylized chrysanthemum flower."],
+          [img1YenStamp, "A square red stamp reading ‘1 yen’ in Japanese with a stylized chrysanthemum flower and elaborate border."]]}
+        source={{
+          copyrightYear: 2019,
+          author: {given: "Fabrice", family: "Heilig"},
+          license: 'with-permission'
+        }}>
+        Late <Noun lang="ja-Latn">Taishō</Noun>‐era tax stamps: blue 50 <span lang="ja-Latn">sen</span> on left, red 1 <span lang="ja-Latn">yen</span> on right.
+      </ArticleImage>
       <ArticleImage
         src={[
           [imgTaxStampPink, "A long rectangular stamp coloured pink, with elaborate border and a serial number in centre."],
