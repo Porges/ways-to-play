@@ -43,15 +43,15 @@ const renderSource = (source: SourceInfo) => {
 
     return <>({source.license === 'cc0' ? '' : '© ' }{source.copyrightYear && <><span itemProp="copyrightYear">{source.copyrightYear}</span> </>}
         {copyrightHolder && (
-          (source.originalUrl && <a href={source.originalUrl} itemProp="sameAs url">{copyrightHolder}</a>)
+          (source.originalUrl && <a href={source.originalUrl} itemProp="sameAs">{copyrightHolder}</a>)
           || copyrightHolder)}
         <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />)</>;
 }
 
 const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string) => {
     return typeof src === 'string'
-        ? <Figure.Image itemProp="contentUrl" alt={alt} src={src} />
-        : <Figure.Image itemProp="contentUrl" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />;
+        ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} />
+        : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />;
 }
 
 const imageObject = "http://schema.org/ImageObject";
@@ -60,8 +60,8 @@ const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: strin
     return (
         <div itemScope itemType={imageObject} itemProp="image" key={ix} itemRef={sourceId}>{
             typeof src === 'string'
-            ? <Figure.Image itemProp="contentUrl" alt={alt} src={src} />
-            : <Figure.Image itemProp="contentUrl" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />
+            ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} />
+            : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />
         }</div>
     );
 }
@@ -105,7 +105,7 @@ export const ArticleImage: React.FC<Props> = props => {
                 { renderImages(props.src, 'perRow' in props ? props.perRow : undefined, sourceId, sizes) }
                 <Figure.Caption className="text-center" itemScope>
                     <div id={sourceId}>
-                        {props.children} {props.source && renderSource(props.source) }
+                        <span itemProp="caption">{props.children}</span> {props.source && renderSource(props.source) }
                     </div>
                 </Figure.Caption>
             </Figure>
@@ -116,7 +116,7 @@ export const ArticleImage: React.FC<Props> = props => {
             <Figure itemProp='image' itemScope itemType={imageObject} className={className}>
                 { renderImage(props.src, 'alt' in props ? props.alt : '', sizes) }
                 <Figure.Caption className="text-center">
-                    {props.children} {props.source && renderSource(props.source) }
+                    <span itemProp="caption">{props.children}</span> {props.source && renderSource(props.source) }
                 </Figure.Caption>
             </Figure>
         );
