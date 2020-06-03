@@ -76,10 +76,10 @@ const renderArticleList = (list: ListEntries, pathSoFar: string) => {
             {
               'articles' in obj
                 ? (<>
-                  <Link to={`${pathSoFar}/${path}`} lang={obj.titleLang}>{obj.title}</Link>
+                  <Link to={`${pathSoFar}/${path}/`} lang={obj.titleLang}>{obj.title}</Link>
                   {renderArticleList(obj.articles, `${pathSoFar}/${path}`)}
                 </>)
-                : <Link to={`${pathSoFar}/${path}`} lang={obj.titleLang}>
+                : <Link to={`${pathSoFar}/${path}/`} lang={obj.titleLang}>
                   {obj.title}
                   {' '}
                   {obj.draft && <Badge variant="warning">Draft</Badge>}
@@ -112,7 +112,7 @@ const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
     let at: ListEntries|null = articles.articles;
 
     const crumbs: {title: string, link: string, titleLang?: string}[] = []
-    let crumbLink = '/articles';
+    let crumbLink = '/articles/';
     crumbs.push({title: articles.title, link: crumbLink});
 
     for (let ix = 0; ix < idParts.length; ++ix) {
@@ -124,7 +124,7 @@ const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
         const part = idParts[ix];
         const next: List|ArticleContent|undefined = at.get(part);
         if (next) {
-            crumbLink += '/' + part;
+            crumbLink += part + '/';
             crumbs.push({title: next.title, titleLang: next.titleLang, link: crumbLink});
             found = next;
 
@@ -141,11 +141,11 @@ const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
               const article = at.get(key)!;
               if (!atFound) {
                 if (process.env.NODE_ENV !== 'production' || !('draft' in article) || !article.draft) {
-                  prevArticle = { link: key, title: article.title, titleLang: article.titleLang };
+                  prevArticle = { link: `../${key}/`, title: article.title, titleLang: article.titleLang };
                 }
               } else {
                 if (process.env.NODE_ENV !== 'production' || !('draft' in article) || !article.draft) {
-                  nextArticle = { link: key, title: article.title, titleLang: article.titleLang };
+                  nextArticle = { link: `../${key}/`, title: article.title, titleLang: article.titleLang };
                   break;
                 }
               }
@@ -238,7 +238,7 @@ export const Articles: React.FC<RouteComponentProps> = ({match}) => {
     return (
         <Switch>
             <Route path={match.path} exact render={route => <ArticleList route={route} list={articles} />} />;
-            <Route path={`${match.path}/:id+`} component={Lookup} />
+            <Route path={`${match.path}/:id+/`} component={Lookup} />
         </Switch>
     );
 };
