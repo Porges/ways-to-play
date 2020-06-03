@@ -114,14 +114,13 @@ main {
     padding-bottom: 3em;
 }
 
-// I really want these but they mostly look bad
-// due to poor justification algorithms.
-/*
-section > p {
-    hyphens: auto;
-    text-align: justify;
+// Do full justification on small screens:
+@include media-breakpoint-down(sm) {
+    section > p {
+        hyphens: auto;
+        text-align: justify;
+    }
 }
-*/
 
 section {
   // trap floats inside:
@@ -282,8 +281,8 @@ ul {
   
 /*** Footnotes ***/
 .footnote {
-  font-size: 0.8em;
-  padding: 0.5em;
+  font-size: 0.8rem;
+  padding: .5em 1em;
   border: 1px lightgray dotted;
   margin-top: 1rem;
   margin-bottom: 1rem;
