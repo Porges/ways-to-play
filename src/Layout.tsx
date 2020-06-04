@@ -38,7 +38,7 @@ const App: React.FC = () => {
         url="https://porg.es"
         sameAs="https://twitter.com/porges"
         itemProp="copyrightHolder author publisher"
-        id="author" />
+        innerId="author" />
       <License leading rel="license" license="cc-by-nc-sa" version="4.0" />
       {' '}
       · Feedback? Let <a href="https://twitter.com/porges">@porges</a> know or <a href="https://github.com/Porges/ways-to-play/issues/new">open an issue</a>.
