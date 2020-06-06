@@ -145,7 +145,7 @@ const Hanafuda: React.FC = () => {
           alt="A grandmother, a mother, two young women, and a child sitting in a circle around shells on a tatami mat."
           position="aside-wide"
           src={imgKaiAwaseGame}
-          source={{license: 'cc0', organization: {orgName: "ADEAC"}, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/'}}>
+          source={{license: 'cc0', organization: {orgName: "跡見学園女子大学"}, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/'}}>
           A family game of <span lang="ja-Latn" >kai-awase</span>, from <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>)
         </ArticleImage>
         <p>The most relevant of these games was one based upon matching pairs of shells called <span lang="ja-Latn">kai-awase</span> (<span lang="ja">貝合わせ</span>, ‘shell matching’). This must have originally been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually it developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span>) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
