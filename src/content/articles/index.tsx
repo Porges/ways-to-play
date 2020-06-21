@@ -9,57 +9,67 @@ import Row from 'react-bootstrap/Row';
 import { Article, ArticleContent } from 'ui';
 
 type List = { title: string, titleLang?: string, article?: ArticleContent, articles: ListEntries }
-type ListEntries = Map<string, ArticleContent|List>
+type ListEntries = Map<string, ArticleContent | List>
 
 const articles: List = {
-    title: "🧾",
-    articles: new Map([
-        ['mill-games', {
-            title: "Mill Games",
+  title: "🧾",
+  article: {
+    title: 'Articles',
+    import: React.lazy(() => import(/* webpackChunkName: 'articles-intro' */ './articles-intro')),
+  },
+  articles: new Map([
+    ['mill-games', {
+      title: "Mill Games",
+      draft: true,
+      import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games'))
+    }],
+    ['cards', {
+      title: "Playing Cards",
+      articles: new Map([
+        ['japan', {
+          title: "Japanese Cards",
+          article: {
+            title: 'Japanese Cards',
             draft: true,
-            import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games'))
-        }],
-        ['cards', {
-            title: "Playing Cards",
-            articles: new Map([
-                ['japan', {
-                    title: "Japanese Cards",
-                    article: {
-                        title: 'Japanese Cards',
-                        draft: true,
-                        import: React.lazy(() => import(/* webpackChunkName: 'japanese-cards' */ './cards/japan/introduction'))
-                    },
-                    articles: new Map([
-                        ['hanafuda', {
-                            title: 'Hanafuda',
-                            titleLang: 'ja-Latn',
-                            article: {
-                              title: "Introduction to Hanafuda",
-                              draft: true,
-                              import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-intro' */ './cards/japan/hanafuda/basics'))
-                            },
-                            articles: new Map([
-                                ['art', {
-                                    title: "The History & Art of Hanafuda",
-                                    draft: true,
-                                    import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './cards/japan/hanafuda/art'))
-                                }],
-                                ['traditional-manufacturers', {
-                                    title: "Traditional Hanafuda Brands",
-                                    import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-traditional-brands' */ './cards/japan/hanafuda/manufacturers/traditional'))
-                                }],
-                                ['new-manufacturers', {
-                                    title: "New Hanafuda Brands",
-                                    draft: true,
-                                    import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-new-brands' */ './cards/japan/hanafuda/manufacturers/new'))
-                                }]
-                            ])
-                        }]
-                    ])
+            import: React.lazy(() => import(/* webpackChunkName: 'japanese-cards' */ './cards/japan/introduction'))
+          },
+          articles: new Map([
+            ['hanafuda', {
+              title: 'Hanafuda',
+              titleLang: 'ja-Latn',
+              article: {
+                title: "Introduction to Hanafuda",
+                draft: true,
+                import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-intro' */ './cards/japan/hanafuda/basics'))
+              },
+              articles: new Map([
+                ['art', {
+                  title: "The History & Art of Hanafuda",
+                  draft: true,
+                  import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './cards/japan/hanafuda/art'))
+                }],
+                ['traditional-manufacturers', {
+                  title: "Traditional Hanafuda Brands",
+                  import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-traditional-brands' */ './cards/japan/hanafuda/manufacturers/traditional'))
+                }],
+                ['new-manufacturers', {
+                  title: "New Hanafuda Brands",
+                  draft: true,
+                  import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-new-brands' */ './cards/japan/hanafuda/manufacturers/new'))
                 }]
-            ])
+              ])
+            }],
+            ['kabu-karuta', {
+              title: 'Kabu Karuta',
+              titleLang: 'ja-Latn',
+              draft: true,
+              import: React.lazy(() => import(/* webpackChunkName: 'kabufuda' */ './cards/japan/kabu-karuta/kabu-karuta')),
+            }]
+          ])
         }]
-    ])
+      ])
+    }]
+  ])
 };
 
 const renderArticleList = (list: ListEntries, pathSoFar: string) => {
@@ -91,91 +101,91 @@ const renderArticleList = (list: ListEntries, pathSoFar: string) => {
   );
 };
 
-const ArticleList: React.FC<{list: List, route: RouteComponentProps}> = ({list, route}) => {
-    const { match } = route;
-    return (<>
-        { renderArticleList(list.articles, match.url) }
-    </>);
+const ArticleList: React.FC<{ list: List, route: RouteComponentProps }> = ({ list, route }) => {
+  const { match } = route;
+  return (<>
+    {renderArticleList(list.articles, match.url)}
+  </>);
 }
 
-type ArticleLink = {link: string, title: string, titleLang?: string};
+type ArticleLink = { link: string, title: string, titleLang?: string };
 
-const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
+const Lookup: React.FC<RouteComponentProps<{ id?: string }>> = (props) => {
 
-    const { match } = props;
-    const idParts = match.params.id.split('/');
+  const { match } = props;
+  const idParts = (match.params.id || '').split('/').filter(x => x !== '');
 
-    let found: ArticleContent|List|null = null;
-    let nextArticle: ArticleLink|undefined = undefined;
-    let prevArticle: ArticleLink|undefined = undefined;
+  let found: ArticleContent | List | null = articles;
+  let nextArticle: ArticleLink | undefined = undefined;
+  let prevArticle: ArticleLink | undefined = undefined;
 
-    let at: ListEntries|null = articles.articles;
+  let at: ListEntries | null = articles.articles;
 
-    const crumbs: {title: string, link: string, titleLang?: string}[] = []
-    let crumbLink = '/articles/';
-    crumbs.push({title: articles.title, link: crumbLink});
+  const crumbs: { title: string, link: string, titleLang?: string }[] = []
+  let crumbLink = '/articles/';
+  crumbs.push({ title: articles.title, link: crumbLink });
 
-    for (let ix = 0; ix < idParts.length; ++ix) {
-        if (at === null) {
-            found = null;
-            break;
+  for (let ix = 0; ix < idParts.length; ++ix) {
+    if (at === null) {
+      found = null;
+      break;
+    }
+
+    const part = idParts[ix];
+    const next: List | ArticleContent | undefined = at.get(part);
+    if (next) {
+      crumbLink += part + '/';
+      crumbs.push({ title: next.title, titleLang: next.titleLang, link: crumbLink });
+      found = next;
+
+      nextArticle = undefined;
+      prevArticle = undefined;
+
+      let atFound = false;
+      for (const key of at.keys()) {
+        if (key === part) {
+          atFound = true;
+          continue;
         }
 
-        const part = idParts[ix];
-        const next: List|ArticleContent|undefined = at.get(part);
-        if (next) {
-            crumbLink += part + '/';
-            crumbs.push({title: next.title, titleLang: next.titleLang, link: crumbLink});
-            found = next;
-
-            nextArticle = undefined;
-            prevArticle = undefined;
-
-            let atFound = false;
-            for (const key of at.keys()) {
-              if (key === part) {
-                atFound = true;
-                continue;
-              }
-
-              const article = at.get(key)!;
-              if (!atFound) {
-                if (process.env.NODE_ENV !== 'production' || !('draft' in article) || !article.draft) {
-                  prevArticle = { link: `../${key}/`, title: article.title, titleLang: article.titleLang };
-                }
-              } else {
-                if (process.env.NODE_ENV !== 'production' || !('draft' in article) || !article.draft) {
-                  nextArticle = { link: `../${key}/`, title: article.title, titleLang: article.titleLang };
-                  break;
-                }
-              }
-            }
-
-            if ('articles' in next) {
-                at = next.articles;
-            } else {
-                at = null;
-            }
+        const article = at.get(key)!;
+        if (!atFound) {
+          if (process.env.NODE_ENV !== 'production' || !('draft' in article) || !article.draft) {
+            prevArticle = { link: `../${key}/`, title: article.title, titleLang: article.titleLang };
+          }
         } else {
-            found = null;
+          if (process.env.NODE_ENV !== 'production' || !('draft' in article) || !article.draft) {
+            nextArticle = { link: `../${key}/`, title: article.title, titleLang: article.titleLang };
             break;
+          }
         }
-    }
+      }
 
-    if (!found) {
-        return null;
+      if ('articles' in next) {
+        at = next.articles;
+      } else {
+        at = null;
+      }
+    } else {
+      found = null;
+      break;
     }
+  }
+
+  if (!found) {
+    return null;
+  }
 
   const breadCrumbs =
     <nav aria-label="breadcrumb">
       <ol className="breadcrumb m-1 p-1">
         {crumbs.map(({ title, link, titleLang }, ix) =>
           (ix === crumbs.length - 1)
-          ? <li className="breadcrumb-item active" key={ix} aria-current="page" lang={titleLang}>
+            ? <li className="breadcrumb-item active" key={ix} aria-current="page" lang={titleLang}>
               {title}
             </li>
-          : <li className="breadcrumb-item" key={ix}>
-            <Link to={link} lang={titleLang}>{title}</Link>
+            : <li className="breadcrumb-item" key={ix}>
+              <Link to={link} lang={titleLang}>{title}</Link>
             </li>)}
       </ol>
     </nav>;
@@ -196,14 +206,14 @@ const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
       <Nearby>
         <Col>
           <Row className="border-bottom border-light">{breadCrumbs}</Row>
-          { (prevArticle || nextArticle) && <Row>{prevNext}</Row> }
+          {(prevArticle || nextArticle) && <Row>{prevNext}</Row>}
         </Col>
       </Nearby>
       <Article key={match.url} url={match.url} content={found} />
       <div aria-hidden="true">
         {/* hidden as this is already present at the top */}
         <Nearby>
-          { (prevArticle || nextArticle) && prevNext }
+          {(prevArticle || nextArticle) && prevNext}
         </Nearby>
       </div>
     </>);
@@ -214,10 +224,10 @@ const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
       <Nearby>
         <Col>
           <Row className="border-bottom border-light">{breadCrumbs}</Row>
-          { (prevArticle || nextArticle) && <Row>{prevNext}</Row> }
+          {(prevArticle || nextArticle) && <Row>{prevNext}</Row>}
         </Col>
       </Nearby>
-      { listArticle && <Article key={match.url + "$"} url={match.url} content={listArticle} />}
+      {listArticle && <Article key={match.url + "$"} url={match.url} content={listArticle} />}
       <div aria-hidden="true">
         {/* hidden as this is already present at the top */}
         <Nearby>
@@ -228,17 +238,17 @@ const Lookup: React.FC<RouteComponentProps<{id: string}>> = (props) => {
   }
 }
 
-const Nearby: React.FC = ({children}) => (
+const Nearby: React.FC = ({ children }) => (
   <Row className="border-bottom border-top border-light m-4" as="nav" aria-label="Nearby Articles">
     {children}
   </Row>
 );
 
-export const Articles: React.FC<RouteComponentProps> = ({match}) => {
-    return (
-        <Switch>
-            <Route path={match.path} exact render={route => <ArticleList route={route} list={articles} />} />;
-            <Route path={`${match.path}/:id+/`} component={Lookup} />
-        </Switch>
-    );
+export const Articles: React.FC<RouteComponentProps> = ({ match }) => {
+  return (
+    <Switch>
+      <Route path={match.path} exact component={Lookup} />
+      <Route path={`${match.path}/:id+/`} component={Lookup} />
+    </Switch>
+  );
 };

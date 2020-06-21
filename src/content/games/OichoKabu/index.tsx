@@ -5,8 +5,8 @@ import { Cite, Noun, Cards, Footnote, ArticleImage, Section } from 'ui';
 
 import { CardGamesAroundTheWorld, NoteOnAMissingLink, CardGamesAmongAborigines } from 'References/bibliography.json';
 
-import imgKabufuda1 from 'content/articles/cards/japan/kabufuda/Kabufuda_1.jpg';
-import imgKabufuda2 from 'content/articles/cards/japan/kabufuda/Kabufuda_2.jpg';
+import imgKabufuda1 from 'content/articles/cards/japan/kabu-karuta/Kabufuda_1.jpg';
+import imgKabufuda2 from 'content/articles/cards/japan/kabu-karuta/Kabufuda_2.jpg';
 
 const OichoKabu: React.FC = () => {
   return (<>
