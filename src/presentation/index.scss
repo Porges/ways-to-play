@@ -18,6 +18,14 @@ $font-family-serif:
 //$body-bg: #fffff8;
 //$body-color: #111;
 
+$primary: #6b5293;
+$secondary: #7c85a3;
+$light: #f4f7f5;
+$dark: #201521;
+
+$link-hover-decoration: underline #af4157;
+$link-decoration: underline $light;
+
 $breadcrumb-bg: none;
 $breadcrumb-divider: quote('•');
 
@@ -27,10 +35,6 @@ $my-heading-font-family: "Quicksand";
 
 $headings-font-family: $my-heading-font-family, sans-serif;
 $headings-font-weight: medium;
-
-$brand-primary: #2455c3;
-
-$theme-colors: ("darker": #333);
 
 $figure-caption-font-size: 1.2 * .625rem;
 
@@ -49,11 +53,6 @@ body {
 
 h1, h2 {
     text-align: center;
-}
-
-a {
-    color: $brand-primary;
-    text-decoration: none;
 }
 
 h1 {
@@ -102,6 +101,7 @@ h2 {
 
 .navbar-brand {
     font-weight: bold;
+    text-decoration: none;
 }
 
 .navbar-nav {
@@ -214,12 +214,12 @@ sup.citation { line-height: 0 } /* don't let superscript affect calculated lineh
 
 /*** Pronunciation ***/
 .pronunciation {
-    text-decoration: grey underline dotted;
+    text-decoration: lighten($secondary, 20%) underline dashed;
     cursor: help;
 }
 
 .pronunciation:hover {
-    text-decoration: black underline dotted;
+    text-decoration: $secondary underline dashed;
 }
 
 /*** Tables ***/
@@ -428,4 +428,9 @@ ul.article-list ul.article-list {
 
 ul.article-list li {
   list-style-type: '• '
+}
+
+article a {
+  //border: $light 1px solid;
+  padding: 1px;
 }

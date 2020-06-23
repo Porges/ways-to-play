@@ -14,7 +14,7 @@ const App: React.FC = () => {
     <>
     <Helmet defaultTitle="Ways To Play" titleTemplate="%s · Ways To Play" />
     <header>
-      <Navbar bg="darker" variant="dark">
+      <Navbar bg="primary" variant="dark">
       <Container>
         <Navbar.Brand as={Link} to="/">Ways to Play</Navbar.Brand>
         <Nav as="ul">
@@ -29,7 +29,7 @@ const App: React.FC = () => {
       <Routes/>
     </Container>
 
-    <footer className="navbar navbar-expand navbar-dark bg-darker">
+    <footer className="navbar navbar-expand navbar-dark bg-primary">
       <Navbar.Text className="ml-auto">
       ©
       {' '}
