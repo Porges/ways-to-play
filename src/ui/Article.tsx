@@ -112,10 +112,10 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
                     <Import />
                   </React.Suspense>
                 </section>
+                <ReferenceSummary />
+                <PronunciationSummary />
               </SectionContext.Provider>
-              <ReferenceSummary />
             </CitationProvider>
-            <PronunciationSummary />
           </PronunciationProvider>
         </Col>
         <Col lg="1" style={{ zIndex: -1 }} />
