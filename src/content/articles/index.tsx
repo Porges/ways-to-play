@@ -178,14 +178,16 @@ const Lookup: React.FC<RouteComponentProps<{ id?: string }>> = (props) => {
 
   const breadCrumbs =
     <nav aria-label="breadcrumb">
-      <ol className="breadcrumb m-1 p-1">
+      <ol className="breadcrumb m-1 p-1" itemProp="breadcrumb" itemScope itemType="https://schema.org/BreadcrumbList">
         {crumbs.map(({ title, link, titleLang }, ix) =>
           (ix === crumbs.length - 1)
-            ? <li className="breadcrumb-item active" key={ix} aria-current="page" lang={titleLang}>
-              {title}
+            ? <li className="breadcrumb-item active" key={ix} aria-current="page" lang={titleLang} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+              <meta itemProp="position" content={`${ix+1}`} />
+              <span itemProp="name">{title}</span>
             </li>
-            : <li className="breadcrumb-item" key={ix}>
-              <Link to={link} lang={titleLang}>{title}</Link>
+            : <li className="breadcrumb-item" key={ix} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
+              <meta itemProp="position" content={`${ix+1}`} />
+              <Link to={link} lang={titleLang} itemProp="item" itemScope itemType="https://schema.org/WebPage" itemID={link}><span itemProp="name">{title}</span></Link>
             </li>)}
       </ol>
     </nav>;
