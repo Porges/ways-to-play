@@ -84,7 +84,7 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
       <title lang={content.titleLang}>{content.title}</title>
       <body itemScope itemType="http://schema.org/WebPage" />
     </Helmet>
-    <article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author">
+    <article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author-outer">
       <Row>
         <Col lg="1" />
         <Col lg="7">
