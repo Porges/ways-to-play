@@ -1,11 +1,13 @@
 @font-face {
     font-family: "UniHentaiKana";
     src: url('./UniHentaiKana-Regular.woff') format('woff');
+    unicode-range: U+1B000-1B0FF, U+1B000-1B12F;
 }
 
 @font-face {
     font-family: "cc-icons";
     src: url('./cc-icons.woff2') format('woff2');
+    unicode-range: U+1f16-1f16f, U+1f10d-1f10f, U+229c;
 }
 
 $font-family-serif:
@@ -96,12 +98,15 @@ h2 {
 }
 
 .navbar {
-    font-family: $my-heading-font-family, "cc-icons", /* Creative Commons Unicode characters */
+    font-family: $my-heading-font-family, "cc-icons", /* Creative Commons Unicode characters */ sans-serif;
+}
+
+.navbar a:not(:hover) {
+    text-decoration: none;
 }
 
 .navbar-brand {
     font-weight: bold;
-    text-decoration: none;
 }
 
 .navbar-nav {
