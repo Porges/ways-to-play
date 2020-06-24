@@ -218,8 +218,7 @@ figure.wide {
 /*** Citations ***/
 .citation { color: $secondary }
 .citation a { color: $accent }
-sup.citation::before {
-  color: $accent;
+sup.citation a::before {
   content: '∗';
 }
 sup.citation {
