@@ -24,7 +24,7 @@ const Introduction: React.FC = () =>
                 <li><Noun lang="ja-Latn">Iroha-garuta</Noun> (<span lang="ja">いろはかるた</span>, ‘alphabet cards’)</li>
             </ul>
         </li>
-        <li><Link to="/articles/cards/japan/hanafuda"><Noun lang="ja-Latn">Hanafuda</Noun></Link> (<span lang="ja">花札</span>, ‘flower cards’) are derived from a combination of both the Portuguese and the matching-type cards.</li>
+        <li><Link to="/articles/cards/japan/hanafuda/"><Noun lang="ja-Latn">Hanafuda</Noun></Link> (<span lang="ja">花札</span>, ‘flower cards’) are derived from a combination of both the Portuguese and the matching-type cards.</li>
     </ul>
 </section>;
 

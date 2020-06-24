@@ -32,7 +32,7 @@ const ReferenceSummary: React.FC = () => {
 
   return (
     <Section title="References">
-      <ol className="reference-list">
+      <ol className="reference-list" type="a">
         {references.map((c, i) => <li key={i}>{renderReference(c)}</li>)}
       </ol>
     </Section>

@@ -34,6 +34,12 @@ const articles: List = {
             import: React.lazy(() => import(/* webpackChunkName: 'japanese-cards' */ './cards/japan/introduction'))
           },
           articles: new Map([
+            ['kabu-karuta', {
+              title: 'Kabu Karuta',
+              titleLang: 'ja-Latn',
+              draft: true,
+              import: React.lazy(() => import(/* webpackChunkName: 'kabufuda' */ './cards/japan/kabu-karuta/kabu-karuta')),
+            }],
             ['hanafuda', {
               title: 'Hanafuda',
               titleLang: 'ja-Latn',
@@ -58,12 +64,6 @@ const articles: List = {
                 }]
               ])
             }],
-            ['kabu-karuta', {
-              title: 'Kabu Karuta',
-              titleLang: 'ja-Latn',
-              draft: true,
-              import: React.lazy(() => import(/* webpackChunkName: 'kabufuda' */ './cards/japan/kabu-karuta/kabu-karuta')),
-            }]
           ])
         }]
       ])

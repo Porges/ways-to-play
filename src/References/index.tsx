@@ -105,10 +105,15 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
                     { period && reverseFirst && ix === 0 && ix === (as.length-1) && (a.given[a.given.length-1].endsWith('.') || '.') }
                     </> );
 
+    const reverseName = (a: Author) => a.lang === undefined ? false : (a.lang.startsWith('zh')||a.lang.startsWith('ja'));
+
+    const hiddenName = (a: Author) => <meta itemProp="name" content={ reverseName(a) ? `${a.family}${a.given}` : `${a.given} ${a.family}` }/>
+
     return as.map((a, ix) => (
         <React.Fragment key={ix}>
             { ix > 0 && (ix === as.length - 1 ? <>{(as.length > 2) && ','} and </> : ", ") }
             <span itemScope itemType="http://schema.org/Person" itemProp={itemProp} lang={a.lang} className="proper-noun">
+                { hiddenName(a) }
                 { reverseFirst && ix === 0 
                   ? <>{renderFirst(a, ix)}, {renderLast(a, ix)}</>
                   : <>{renderLast(a, ix)} {renderFirst(a, ix)}</> }

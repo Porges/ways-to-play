@@ -26,7 +26,9 @@ $secondary: #7c85a3;
 $light: #f4f7f5;
 $dark: #201521;
 
-$link-hover-decoration: underline #af4157;
+$accent: #af4157;
+
+$link-hover-decoration: underline $accent;
 $link-decoration: underline $light;
 
 $breadcrumb-bg: none;
@@ -214,8 +216,8 @@ figure.wide {
 }
 
 /*** Citations ***/
-.citation { color: grey }
-.citation a { color: #5a7cc9 }
+.citation { color: $secondary }
+.citation a { color: $accent }
 sup.citation { line-height: 0 } /* don't let superscript affect calculated lineheight */
 
 /*** Pronunciation ***/
@@ -325,7 +327,8 @@ aside.footnote::before {
   font-size: 1.5em;
   line-height: 1rem;
   float: left;
-  color: grey;
+  padding-top: 1px;
+  color: $accent;
 }
 
 // indicators:
@@ -347,14 +350,10 @@ span.footnote::before {
     margin-right: 2px;
 }
 
-.footnote-indicator:hover {
-    color: red;
-    text-decoration: underline;
-}
-
+.footnote-indicator:hover,
 .footnote-indicator:hover + .footnote::before {
-    color: red;
-    font-weight: bold;
+    color: $accent;
+    text-decoration: underline;
 }
 
 @include media-breakpoint-up(lg) {

@@ -28,12 +28,50 @@ export const CitationProvider: React.FC = ({children}) => {
     </CitationContext.Provider>
   );
 }
+
 type CiteProps = {
   r: Reference,
   page?: number | (number | [number, number])[],
   pageType?: string,
   inline?: boolean,
 }
+
+const indexToString = (index: number): string => {
+  let result = "";
+  
+  do {
+    const num = index % 26;
+    result = String.fromCodePoint('a'.charCodeAt(0) + num) + result
+    index = index - num;
+  } while (index !== 0)
+
+  return result;
+};
+
+const formatRange = (start: number, end: number): string => {
+
+  const startS = start.toString();
+  const endS = end.toString();
+
+  if (endS.length > startS.length) {
+    return startS + "–" + endS;
+  }
+
+  if (endS.length < startS.length) {
+    throw new Error("bad range");
+  }
+
+  let trimmedEnd = '';
+  for (let i = 0; i < endS.length; ++i) {
+    if (startS[i] !== endS[i]) {
+      trimmedEnd = endS.substring(i);
+      break;
+    }
+  }
+
+  return startS + "–" + trimmedEnd;
+}
+
 export const Cite: React.FC<CiteProps> = ({pageType, page, inline, r}) => {
 
   const { addReference }  = React.useContext(CitationContext);
@@ -47,7 +85,9 @@ export const Cite: React.FC<CiteProps> = ({pageType, page, inline, r}) => {
       ? null
       : typeof page === 'number'
         ? page
-        : page.map(p => typeof p === 'number' ? p : `${p[0]}–${p[1]}`).join(', ');
+        : page.map(p => typeof p === 'number' ? p : formatRange(p[0], p[1])).join(', ');
+      
+  const indicator = indexToString(index);
 
   const pageTypeS = pageType ? pageType + ' ' : '';
   if (inline) {
@@ -57,9 +97,9 @@ export const Cite: React.FC<CiteProps> = ({pageType, page, inline, r}) => {
       case 'article-journal':
         return <><a href={`#ref-${r.id}`}>{r.author && r.author[0].family}</a> ({r.issued && r.issued.year}{suffix && <>, {pageTypeS}{suffix}</>})</>;
       default:
-        return <span className="citation">[<a href={`#ref-${r.id}`}>{index + 1}</a>]{suffix && <> ({pageTypeS}{suffix})</>}</span>
+        return <span className="citation">[<a href={`#ref-${r.id}`}>{indicator}</a>]{suffix && <> ({pageTypeS}{suffix})</>}</span>
     }
   } else {
-    return <sup className="citation">[<a href={`#ref-${r.id}`}>{index + 1}</a>{suffix && <>: {pageTypeS}{suffix}</>}]</sup>;
+    return <sup className="citation"><a href={`#ref-${r.id}`}>{indicator}</a>{suffix && <>[{pageTypeS}{suffix}]</>}</sup>;
   }
 };
