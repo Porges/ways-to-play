@@ -54,7 +54,6 @@ const articles: List = {
                 }],
                 ['new-manufacturers', {
                   title: "New Hanafuda Brands",
-                  draft: true,
                   import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-new-brands' */ './cards/japan/hanafuda/manufacturers/new'))
                 }]
               ])
