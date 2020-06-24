@@ -114,7 +114,9 @@ export const ArticleImage: React.FC<Props> = props => {
                 { renderImages(props.src, 'perRow' in props ? props.perRow : undefined, sourceId, sizes) }
                 <Figure.Caption className="text-center" itemScope>
                     <div id={sourceId}>
-                        <span itemProp="caption">{props.children}</span> {sourceInfo}
+                        <span itemProp="caption">{props.children}</span>
+                        <br/>
+                        {sourceInfo}
                     </div>
                 </Figure.Caption>
             </Figure>
@@ -125,7 +127,9 @@ export const ArticleImage: React.FC<Props> = props => {
             <Figure itemProp='image' itemScope itemType={imageObject} className={className}>
                 { renderImage(props.src, 'alt' in props ? props.alt : '', sizes) }
                 <Figure.Caption className="text-center">
-                    <span itemProp="caption">{props.children}</span> {sourceInfo}
+                    <span itemProp="caption">{props.children}</span>
+                    <br/>
+                    {sourceInfo}
                 </Figure.Caption>
             </Figure>
         );

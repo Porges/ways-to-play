@@ -45,7 +45,6 @@ const articles: List = {
               titleLang: 'ja-Latn',
               article: {
                 title: "Introduction to Hanafuda",
-                draft: true,
                 import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-intro' */ './cards/japan/hanafuda/basics'))
               },
               articles: new Map([

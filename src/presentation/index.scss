@@ -218,7 +218,13 @@ figure.wide {
 /*** Citations ***/
 .citation { color: $secondary }
 .citation a { color: $accent }
-sup.citation { line-height: 0 } /* don't let superscript affect calculated lineheight */
+sup.citation::before {
+  color: $accent;
+  content: '∗';
+}
+sup.citation {
+  line-height: 0; // don't let superscript affect calculated lineheight 
+}
 
 /*** Pronunciation ***/
 .pronunciation {

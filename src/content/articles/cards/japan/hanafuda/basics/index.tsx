@@ -80,12 +80,15 @@ import pronKiku from '../pronunciation_ja_菊.mp3';
 import pronKoyo from '../pronunciation_ja_紅葉.mp3';
 
 import imgHwatooJokers from './hwatoo_jokers.jpg';
+import imgFlowerJokers from '../Flower_jokers.jpg';
+import imgRainbowJokers from '../Rainbow_jokers.jpg';
+import imgKoiKoiSetup from './Koi-Koi_Setup.jpg';
 
 import { ModernKoreanCards } from 'References/bibliography.json';
 
 const Basics: React.FC = () => {
   return (<>
-    <p><Pronounce pronouncer="biscuit" word="Hanafuda" lang="ja-Latn" file={pronHanafuda} noun/> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronounce pronouncer="ssoonkimi" word= "hwatu" lang="ko-Latn" file={pronHwatu} /> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
+    <p><Pronounce pronouncer="biscuit" word="Hanafuda" lang="ja-Latn" file={pronHanafuda} noun /> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronounce pronouncer="ssoonkimi" word="hwatu" lang="ko-Latn" file={pronHwatu} /> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
     <ArticleImage
       position="wide"
       src={img1620}
@@ -100,27 +103,27 @@ const Basics: React.FC = () => {
       Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintendo
         </ArticleImage>
     <Section title="Composition of the deck">
-      <p><Noun lang="ja-Latn">Hanafuda</Noun> decks comprise 12 ‘suits’ of 4 cards each, giving 48 cards total. Each suit corresponds to a month, and is represented on the cards by a plant related to that month.</p>
+      <p>Unlike Western playing cards which have 4 suits of 13 cards each, <Noun lang="ja-Latn">Hanafuda</Noun> decks comprise 12 ‘suits’ of 4 cards each, giving 48 cards total. Each suit corresponds to a month, and is represented on the cards by a plant related to that month.</p>
       <p>The months and their associated plants are:</p>
       <ol>
-        <li>January: pine (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" word= "matsu" lang= "ja-Latn" file={pronMatsu} />)</li>
-        <li>February: plum (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word= "ume" lang= "ja-Latn" file={pronUme} />)</li>
-        <li>March: cherry (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word= "sakura" lang= "ja-Latn" file={pronSakura} />)</li>
-        <li>April: wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" word= "fuji" lang= "ja-Latn" file={pronFuji} />)</li>
-        <li>May: iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" word= "ayame" lang= "ja-Latn" file={pronAyame} />)</li>
-        <li>June: peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" word= "botan" lang= "ja-Latn" file={pronBotan} />)</li>
-        <li>July: bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word= "hagi" lang= "ja-Latn" file={pronHagi} />)</li>
-        <li>August: silvergrass (<span lang="ja">芒/薄</span> <Pronounce pronouncer="kaoring" word= "susuki" lang= "ja-Latn" file={pronSusuki} />)</li>
-        <li>September: chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo" word= "kiku" lang= "ja-Latn" file={pronKiku} />)</li>
-        <li>October: maple (<span lang="ja">紅葉</span> <Pronounce pronouncer="El55" word= "kōyō" lang= "ja-Latn" file={pronKoyo} />)</li>
-        <li>November: willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo" word= "yanagi" lang= "ja-Latn" file={pronYanagi} />)</li>
-        <li>December: paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring" word= "kiri" lang= "ja-Latn" file={pronKiri} />)</li>
+        <li>January: pine (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file={pronMatsu} />)</li>
+        <li>February: plum (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />)</li>
+        <li>March: cherry (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file={pronSakura} />)</li>
+        <li>April: wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" word="fuji" lang="ja-Latn" file={pronFuji} />)</li>
+        <li>May: iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" word="ayame" lang="ja-Latn" file={pronAyame} />)</li>
+        <li>June: peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" word="botan" lang="ja-Latn" file={pronBotan} />)</li>
+        <li>July: bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file={pronHagi} />)</li>
+        <li>August: silvergrass (<span lang="ja">芒/薄</span> <Pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn" file={pronSusuki} />)</li>
+        <li>September: chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo" word="kiku" lang="ja-Latn" file={pronKiku} />)</li>
+        <li>October: maple (<span lang="ja">紅葉</span> <Pronounce pronouncer="El55" word="kōyō" lang="ja-Latn" file={pronKoyo} />)</li>
+        <li>November: willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo" word="yanagi" lang="ja-Latn" file={pronYanagi} />)</li>
+        <li>December: paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring" word="kiri" lang="ja-Latn" file={pronKiri} />)</li>
       </ol>
       <p>In Korean and some Hawaiian decks, the months of November &amp; December are switched. This rarely makes a difference except when the cards are being used as stand-ins for numeric cards (in gambling games).</p>
       <Section title="Types of card">
         <p>The deck is divided into four categories of card. In descending order of value, these are:</p>
         <Section title="Bright cards">
-          <p>There are 5 ‘bright’ (<span lang="ja">光</span> <Pronounce pronouncer="strawberrybrown" word= "hikari" lang= "ja-Latn" file={pronHikari} />) cards. In most games, these are worth 20 points. The five bright cards are:</p>
+          <p>There are 5 ‘bright’ (<span lang="ja">光</span> <Pronounce pronouncer="strawberrybrown" word="hikari" lang="ja-Latn" file={pronHikari} />) cards. In most games, these are worth 20 points. The five bright cards are:</p>
           <ul>
             <li>the crane with pine (January), <span lang="ja">松に鶴</span> <span lang="ja-Latn">matsu ni tsuru</span></li>
             <li>the cherry blossom curtain (March), <span lang="ja">桜に幕</span> <span lang="ja-Latn">sakura ni maku</span></li>
@@ -129,50 +132,50 @@ const Basics: React.FC = () => {
             <li>the phoenix (December), <span lang="ja">桐に鳳凰</span> <span lang="ja-Latn">kiri ni hōō</span></li>
           </ul>
           <ArticleImage
-              src={[
-                  [imgHanafuda1_1, "The crane and pine."],
-                  [imgHanafuda3_1, "The cherry blossom curtain."],
-                  [imgHanafuda8_1, "The full moon."],
-                  [imgHanafuda11_1, "The rain man."],
-                  [imgHanafuda12_1, "The phoenix."],
-                ]}
-              perRow={5}>The bright cards.</ArticleImage>
-          <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<Footnote><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r={ModernKoreanCards}/></Footnote></p>
+            src={[
+              [imgHanafuda1_1, "The crane and pine."],
+              [imgHanafuda3_1, "The cherry blossom curtain."],
+              [imgHanafuda8_1, "The full moon."],
+              [imgHanafuda11_1, "The rain man."],
+              [imgHanafuda12_1, "The phoenix."],
+            ]}
+            perRow={5}>The bright cards.</ArticleImage>
+          <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<Footnote><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r={ModernKoreanCards} /></Footnote></p>
           <ArticleImage position="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
-          <ArticleImage position="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) brand deck.</ArticleImage>
+          <ArticleImage position="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.</ArticleImage>
         </Section>
         <Section title="Species cards">
-          <p>There are 9 ‘species’ (<span lang="ja">種</span> <Pronounce pronouncer="yasuo" word= "tane" lang= "ja-Latn" file={pronTane} />) cards, which are usually worth 10 points each. These feature animals, but also a sake cup, and the ‘eight-planked bridge’.</p>
+          <p>There are 9 ‘species’ (<span lang="ja">種</span> <Pronounce pronouncer="yasuo" word="tane" lang="ja-Latn" file={pronTane} />) cards, which are usually worth 10 points each. These feature animals, but also a sake cup, and the ‘eight-planked bridge’.</p>
           <ArticleImage
-              src={[
-                  [imgHanafuda2_1, "The species card for February, a bush warbler."],
-                  [imgHanafuda4_1, "The species card for April, a lesser cuckoo."],
-                  [imgHanafuda5_1, "The species card for May, a bridge."],
-                  [imgHanafuda6_1, "The species card for June, butterflies."],
-                  [imgHanafuda7_1, "The species card for July, a boar."],
-                  [imgHanafuda8_2, "The species card for August, geese."],
-                  [imgHanafuda9_1, "The species card for September, a sake cup."],
-                  [imgHanafuda10_1, "The species card for October, a deer."],
-                  [imgHanafuda11_2, "The species card for November, a swallow."],
-                ]}
-              perRow={5}>The 9 species cards.</ArticleImage>
+            src={[
+              [imgHanafuda2_1, "The species card for February, a bush warbler."],
+              [imgHanafuda4_1, "The species card for April, a lesser cuckoo."],
+              [imgHanafuda5_1, "The species card for May, a bridge."],
+              [imgHanafuda6_1, "The species card for June, butterflies."],
+              [imgHanafuda7_1, "The species card for July, a boar."],
+              [imgHanafuda8_2, "The species card for August, geese."],
+              [imgHanafuda9_1, "The species card for September, a sake cup."],
+              [imgHanafuda10_1, "The species card for October, a deer."],
+              [imgHanafuda11_2, "The species card for November, a swallow."],
+            ]}
+            perRow={5}>The 9 species cards.</ArticleImage>
         </Section>
         <Section title="Scroll cards">
-          <p>There are 10 ‘scroll’ (<span lang="ja">短冊</span> <Pronounce pronouncer="skent" word= "tanzaku" lang= "ja-Latn" file={pronTanzaku} />) cards, usually worth 5 points each. These are the cards with the coloured ‘scrolls’ on them. Small pieces of paper were used to write poems on at poetry competitions (see the image below). For some games these are further subdivided into three sub-groups: scrolls with writing, plain red scrolls, and plain blue/purple scrolls.</p>
+          <p>There are 10 ‘scroll’ (<span lang="ja">短冊</span> <Pronounce pronouncer="skent" word="tanzaku" lang="ja-Latn" file={pronTanzaku} />) cards, usually worth 5 points each. These are the cards with the coloured ‘scrolls’ on them. Small pieces of paper were used to write poems on at poetry competitions (see the image below). For some games these are further subdivided into three sub-groups: scrolls with writing, plain red scrolls, and plain blue/purple scrolls.</p>
           <ArticleImage
-              src={[
-                  [imgHanafuda1_2, "The scroll card for January."],
-                  [imgHanafuda2_2, "The scroll card for February."],
-                  [imgHanafuda3_2, "The scroll card for March."],
-                  [imgHanafuda4_2, "The scroll card for April."],
-                  [imgHanafuda5_2, "The scroll card for May."],
-                  [imgHanafuda6_2, "The scroll card for June."],
-                  [imgHanafuda7_2, "The scroll card for July."],
-                  [imgHanafuda9_2, "The scroll card for September."],
-                  [imgHanafuda10_2, "The scroll card for October."],
-                  [imgHanafuda11_3, "The scroll card for November."],
-                ]}
-              perRow={5}>The 10 scroll cards.</ArticleImage>
+            src={[
+              [imgHanafuda1_2, "The scroll card for January."],
+              [imgHanafuda2_2, "The scroll card for February."],
+              [imgHanafuda3_2, "The scroll card for March."],
+              [imgHanafuda4_2, "The scroll card for April."],
+              [imgHanafuda5_2, "The scroll card for May."],
+              [imgHanafuda6_2, "The scroll card for June."],
+              [imgHanafuda7_2, "The scroll card for July."],
+              [imgHanafuda9_2, "The scroll card for September."],
+              [imgHanafuda10_2, "The scroll card for October."],
+              [imgHanafuda11_3, "The scroll card for November."],
+            ]}
+            perRow={5}>The 10 scroll cards.</ArticleImage>
           <ArticleImage
             alt="A screen with a painting of a maple tree in autumn colours, with many tanzaku hanging from its branches."
             position="wide"
@@ -183,41 +186,54 @@ const Basics: React.FC = () => {
               organization: { orgName: 'The Art Institute of Chicago' }
             }}>
             <cite>Autumn Maples with Poem Slips</cite> (c. 1675)<br /><cite lang="ja">櫻楓短冊圖</cite><br />A six-panel screen (one of a pair) by <Noun lang="ja-Latn">Tosa Mitsuoki</Noun> (<span lang="ja">土佐 光起</span>, 1617–1691)
-                    </ArticleImage>
+          </ArticleImage>
         </Section>
         <Section title="Junk cards">
-          <p>The remaining 24 cards that aren’t in one of the previous categories are called ‘dregs’ (<span lang="ja">滓</span> <Pronounce pronouncer="poyotan" word= "kasu" lang= "ja-Latn" file={pronKasu} />) or ‘junk’ cards. They are usually worth a single point each. Most months have two junk cards, but November has only one, and December has three.</p>
+          <p>The remaining 24 cards that aren’t in one of the previous categories are called ‘dregs’ (<span lang="ja">滓</span> <Pronounce pronouncer="poyotan" word="kasu" lang="ja-Latn" file={pronKasu} />) or ‘junk’ cards. They are usually worth a single point each. Most months have two junk cards, but November has only one, and December has three.</p>
+          <p>These cards can be identified by their lack of distinguishing features. The odd one out is the “lightning card” of the November month, which is printed with a bold red &amp; black pattern. One of the December junk cards also has a yellow background and this card is treated specially in some games.</p>
           <ArticleImage
-              src={[
-                  [imgHanafuda1_3, "A junk card for January."],
-                  [imgHanafuda1_4, "A junk card for January."],
-                  [imgHanafuda2_3, "A junk card for February."],
-                  [imgHanafuda2_4, "A junk card for February."],
-                  [imgHanafuda3_3, "A junk card for March."],
-                  [imgHanafuda3_4, "A junk card for March."],
-                  [imgHanafuda4_3, "A junk card for April."],
-                  [imgHanafuda4_4, "A junk card for April."],
-                  [imgHanafuda5_3, "A junk card for May."],
-                  [imgHanafuda5_4, "A junk card for May."],
-                  [imgHanafuda6_3, "A junk card for June."],
-                  [imgHanafuda6_4, "A junk card for June."],
-                  [imgHanafuda7_3, "A junk card for July."],
-                  [imgHanafuda7_4, "A junk card for July."],
-                  [imgHanafuda8_3, "A junk card for August."],
-                  [imgHanafuda8_4, "A junk card for August."],
-                  [imgHanafuda9_3, "A junk card for September."],
-                  [imgHanafuda9_4, "A junk card for September."],
-                  [imgHanafuda10_3, "A junk card for October."],
-                  [imgHanafuda10_4, "A junk card for October."],
-                  [imgHanafuda11_4, "A junk card for November."],
-                  [imgHanafuda12_2, "A junk card for December."],
-                  [imgHanafuda12_3, "A junk card for December."],
-                  [imgHanafuda12_4, "A junk card for December."],
-                ]}
-              perRow={8}>The 24 junk cards.</ArticleImage>
+            src={[
+              [imgHanafuda1_3, "A junk card for January."],
+              [imgHanafuda1_4, "A junk card for January."],
+              [imgHanafuda2_3, "A junk card for February."],
+              [imgHanafuda2_4, "A junk card for February."],
+              [imgHanafuda3_3, "A junk card for March."],
+              [imgHanafuda3_4, "A junk card for March."],
+              [imgHanafuda4_3, "A junk card for April."],
+              [imgHanafuda4_4, "A junk card for April."],
+              [imgHanafuda5_3, "A junk card for May."],
+              [imgHanafuda5_4, "A junk card for May."],
+              [imgHanafuda6_3, "A junk card for June."],
+              [imgHanafuda6_4, "A junk card for June."],
+              [imgHanafuda7_3, "A junk card for July."],
+              [imgHanafuda7_4, "A junk card for July."],
+              [imgHanafuda8_3, "A junk card for August."],
+              [imgHanafuda8_4, "A junk card for August."],
+              [imgHanafuda9_3, "A junk card for September."],
+              [imgHanafuda9_4, "A junk card for September."],
+              [imgHanafuda10_3, "A junk card for October."],
+              [imgHanafuda10_4, "A junk card for October."],
+              [imgHanafuda11_4, "The junk card for November."],
+              [imgHanafuda12_2, "A junk card for December, with yellow background."],
+              [imgHanafuda12_3, "A junk card for December."],
+              [imgHanafuda12_4, "A junk card for December."],
+            ]}
+            perRow={8}>The 24 junk cards.</ArticleImage>
         </Section>
         <Section title="Extra cards">
-          <p>Korean decks often contain extra (up to six) joker cards. How these are used (if at all) depends upon the game being played.</p>
+          <p>Korean decks often contain extra (up to six) joker cards. How these are used (if at all) depends upon the game being played. Many traditional Japanese decks also contain a white (<span lang="ja">白</span> <span lang="ja-Latn">shiro</span>) blank card which can be used to replace a card if it is damaged or lost. Some Japanese decks also contain joker-like cards featuring <span lang="ja-Latn">oni</span> (<span lang="ja">鬼</span>, a Japanese ogre); see the next page for more examples of these.</p>
+          <div className="multi">
+            <ArticleImage 
+              src={imgFlowerJokers}
+              alt="Six cards each with a different face.">
+              Assorted jokers from a Korean Flower deck.
+            </ArticleImage>
+            <ArticleImage 
+              src={imgRainbowJokers}
+              alt="Six cards each with a different face.">
+              Assorted jokers from a Korean Rainbow deck.
+            </ArticleImage>
+          </div>
           <ArticleImage position="small"
             src={imgHwatooJokers}
             alt="Two cards labelled ‘joker’, one with a frog and one with a black bird.">
@@ -227,6 +243,25 @@ const Basics: React.FC = () => {
       </Section>
     </Section>
     <Section title="Basic matching rules">
+      <p>Many <Noun lang="ja-Latn">Hanafuda</Noun> games are of the ‘fishing’ variety, where each player tries to capture cards from a shared pool of cards in the centre of the table. The goal is to capture high-value cards or to form specific scoring patterns called <span lang="ja-Latn">yaku</span> (<span lang="ja">役</span>).</p>
+      <ArticleImage
+        position="left"
+        src={imgKoiKoiSetup}
+        alt="Two hands of Hanafuda cards face down on a table with eight cards dealt face-up between them and the remainder of the cards in a stack face-down to the side."
+        source={{
+          copyrightYear: 2007,
+          author: "Alderon",
+          originalUrl: 'https://commons.wikimedia.org/wiki/File:Koi-Koi_Setup.jpg',
+          license: 'cc-by-sa',
+          licenseVersion: '3.0',
+        }}
+        >
+        A sample setup for the game of <Noun lang="ja-Latn">Koi-Koi</Noun>, with a pool of eight cards.
+      </ArticleImage>
+      <p>In most <Noun lang="ja-Latn">Hanafuda</Noun> fishing games a turn proceeds as follows:</p>
+      <p>First, the player chooses a card from their hand. If it matches (is of the same month as) one of the face-up cards in the pool, they place it face-up on top of that card. If it doesn’t match any of the cards in the pool, they lay it face-up in the pool next to the other cards.</p>
+      <p>Next, the player turns over the top card of the face-down deck. If it matches any of the single cards in the pool, they place the card on top of that one. If the player previously formed a match with the card from their hand and the turned-up card also matches that card (and there are no other single cards of that month), then they place the card on top of the already-matched pair. (The precise way in which stacks of three matched cards are handled varies depending on what game is being played.)</p>
+      <p>Finally, the player takes (‘captures’) any cards that were matched together out of the pool, and places them face-up in front of themselves. This ends their turn.</p>
     </Section>
     {/* <section id="terminology">
       <dl>
