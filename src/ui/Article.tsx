@@ -57,6 +57,8 @@ const PronunciationSummary: React.FC = () => {
     current.sort();
   }
 
+  const comparer = new Intl.Collator('en');
+
   return (
     <Section title="Audio Credits">
       <p>All audio is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/">CC-BY-NC-SA 3.0</a>.
@@ -64,6 +66,7 @@ const PronunciationSummary: React.FC = () => {
       <ul>
         {Array
           .from(groupedProns, ([author, words]) => ({ author, words }))
+          .sort((x, y) => comparer.compare(x.author, y.author))
           .sort((x, y) => y.words.length - x.words.length)
           .map(({ author, words }, i) =>
             <li key={i}>{words.map(([word, lang], i) =>
