@@ -18,6 +18,7 @@ export type SourceInfo = {
 type ResponsiveImageSrc = { src: string, srcSet: string } | string
 
 type Props = {
+    noborder?: boolean
     position?: "wide" | "left" | "right" | "small" | "aside" | "aside-wide"
     source?: SourceInfo
 } & (
@@ -48,10 +49,11 @@ const renderSource = (source: SourceInfo) => {
         <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />)</>;
 }
 
-const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string) => {
-    return typeof src === 'string'
-        ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} />
-        : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />;
+const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, noborder?: boolean) => {
+  const className = noborder ? "border-0" : undefined;
+  return typeof src === 'string'
+    ? <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} />
+    : <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />;
 }
 
 const imageObject = "http://schema.org/ImageObject";
@@ -125,7 +127,7 @@ export const ArticleImage: React.FC<Props> = props => {
     else {        
         return (
             <Figure itemProp='image' itemScope itemType={imageObject} className={className}>
-                { renderImage(props.src, 'alt' in props ? props.alt : '', sizes) }
+                { renderImage(props.src, 'alt' in props ? props.alt : '', sizes, props.noborder) }
                 <Figure.Caption className="text-center">
                     <span itemProp="caption">{props.children}</span>
                     <br/>
