@@ -208,7 +208,7 @@ const Manufacturers: React.FC = () => {
         <ul>
           <li>Japanese written in a right-to-left ordering generally indicates that the deck would have been made before the end of <abbr title="World War Two">WWII</abbr> (from here on, I use the term ‘pre-war’). Thus, <span lang="ja">任天堂</span> is written <bdo dir="rtl" lang="ja">任天堂</bdo> on very old decks. <em>However</em>, some manufacturers such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> or <Noun lang="ja-Latn">Nihon Karuta</Noun> have persisted in using right-to-left ordering even into the present era.</li>
           <li>The most accurate method of dating is to use tax stamps (see below), if the deck has any still present. This only works for decks produced up to 1989, when the tax on playing-cards was removed.</li>
-          <li>For more recent decks, barcodes can give some clues: Japanese barcodes beginning with 49… have been used since 1978, but barcodes beginning with 45… were introduced in 1992.</li>
+          <li>For more recent decks, barcodes can give some clues: Japanese barcodes beginning with <span className="barcode">49⋯</span> have been used since 1978, but barcodes beginning with <span className="barcode">45⋯</span> were introduced in 1992.</li>
         </ul>
       </Section>
       <Section title="Tax Stamps">

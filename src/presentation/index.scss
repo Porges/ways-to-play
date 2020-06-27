@@ -444,3 +444,9 @@ article a {
   //border: $light 1px solid;
   padding: 1px;
 }
+
+/** Barcode font? ha. **/
+.barcode {
+  font-family: sans-serif;
+  font-variant-numeric: lining-nums;
+}
