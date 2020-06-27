@@ -110,7 +110,7 @@ export const ArticleImage: React.FC<Props> = props => {
         </>;
 
     if (Array.isArray(props.src)) {
-        const sourceId = "src_" + uuid();
+        const sourceId = "src_" + uuid.v4();
         return (
             <Figure className={className}>
                 { renderImages(props.src, 'perRow' in props ? props.perRow : undefined, sourceId, sizes) }
