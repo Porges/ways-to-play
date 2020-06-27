@@ -40,7 +40,7 @@
     "deploy": "gh-pages -d build"
   },
   "reactSnap": {
-    "puppeteerExecutablePath": "google-chrome-unstable",
+    "puppeteerExecutablePath": "google-chrome",
     "puppeteerArgs": [
       "--no-sandbox"
     ],
