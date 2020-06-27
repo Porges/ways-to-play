@@ -129,13 +129,24 @@ import pronShigure from '../pronunciation_ja_時雨.mp3';
 import pronNegi from '../pronunciation_ja_葱.mp3';
 import pronTsukimi from '../pronunciation_ja_月見.mp3';
 import pronManyoshu from './pronunciation_ja_万葉集.mp3'
+import pronHongdan from './pronunciation_ko_홍단.mp3'
+import pronCheongdan from './pronunciation_ko_청단.mp3'
+import pronKaiAwase from './pronunciation_ja_貝合わせ.mp3';
+import pronGenjiMonogatari from './pronunciation_ja_源氏物語.mp3';
+import pronHeian from './pronunciation_ja_平安.mp3';
+import pronEdo from './pronunciation_ja_江戸.mp3';
+import pronKkachi from './pronunciation_ko_까치.mp3';
+import pronMujigae from './pronunciation_ko_무지개.mp3';
+import pronKariginu from './pronunciation_ja_狩衣.mp3';
+import pronGat from './pronunciation_ko_갓.mp3';
+import pronAshida from './pronunciation_ja_足駄.mp3';
 
 import { Link } from 'react-router-dom';
 
 const Hanafuda: React.FC = () => {
   return (<>
     <Section title="Origins">
-      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Noun lang="ja-Latn">Edo</Noun> period (1603–1868). The distant origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>), which existed since the <Noun lang="ja-Latn">Heian</Noun> period. These were courtly competitions in which various objects were compared as to their qualities: objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, sweet-flag roots, wild pinks); animals (insects, songbirds); incense; tea<Cite r={AnIntroductionToJapaneseTeaRitual} page={26} />; birds; or shells. The most privileged of these competitions was the poetry match (<span lang="ja">歌合</span> <Noun lang="ja-Latn">uta-awase</Noun>).</p>
+      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn" word="Edo" noun pronouncer="Nipponese" file={pronEdo} /> period (<span lang="ja">江戸</span>, 1603–1868). The distant origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>), which existed since the <Noun lang="ja-Latn">Heian</Noun> period. These were courtly competitions in which various objects were compared as to their qualities: objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, sweet-flag roots, wild pinks); animals (insects, songbirds); incense; tea<Cite r={AnIntroductionToJapaneseTeaRitual} page={26} />; birds; or shells. The most privileged of these competitions was the poetry match (<span lang="ja">歌合</span> <span lang="ja-Latn">uta-awase</span>).</p>
       <ArticleImage
         src={imgKaiAwase}
         position="wide"
@@ -150,11 +161,11 @@ const Hanafuda: React.FC = () => {
         source={{ license: 'cc0', organization: { orgName: "跡見学園女子大学" }, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/' }}>
         A family game of <span lang="ja-Latn" >kai-awase</span>, from <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>)
         </ArticleImage>
-      <p>The most relevant of these games was one based upon matching pairs of shells called <span lang="ja-Latn">kai-awase</span> (<span lang="ja">貝合わせ</span>, ‘shell matching’). This must have originally been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually it developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span>) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
+      <p>The most relevant of these games was one based upon matching pairs of shells called <Pronounce lang="ja-Latn" word="kai-awase" pronouncer="skent" file={pronKaiAwase} /> (<span lang="ja">貝合わせ</span>, ‘shell matching’). This must have originally been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually it developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span> <Pronounce word="Genji monogatari" file={pronGenjiMonogatari} pronouncer="straycat88" lang="ja-Latn" />) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
       <ArticleImage
         src={
-          [[imgKai1, 'Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.']
-            , [imgKai2, 'Eight shells whose interiors have been painted with garden scenes and ornamented with gold.']
+          [ [imgKai1, 'Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.']
+          , [imgKai2, 'Eight shells whose interiors have been painted with garden scenes and ornamented with gold.']
           ]}
         source={{ license: 'cc0', organization: { orgName: "Portland Art Museum" }, originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101' }}>
         An 18th-century <span lang="ja-Latn">kai-awase</span> set. The paired boxes are called <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell buckets’), and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
@@ -181,7 +192,7 @@ const Hanafuda: React.FC = () => {
       <p>In 1902 a stamp duty was introduced that was inspired by similar taxes imposed in Western countries; the effect being to raise the cost of cards (and thereby discourage their use) but to also raise tax revenue. The tax imposed was crushing: 20 <span lang="ja-Latn">sen</span> per set,<Footnote>The <span lang="ja-Latn">sen</span> (<span lang="ja">銭</span>) was a unit of currency representing 1⁄100 of a <span lang="ja-Latn">yen</span>.</Footnote> in a time when cheap <Noun lang="ja-Latn">Hanafuda</Noun> decks could be had for as little as 2–3 <span lang="ja-Latn">sen</span>. The effect on card manufacturers was “dire”, as Rebecca Salter puts it.<Cite r={PopularJapanesePrints} page={186} /> Japanese <Noun lang="ja-Latn">Hanafuda</Noun> scholar <Noun lang="ja-Latn">Ebashi Takashi</Noun> (<span lang="ja">江橋崇</span>) states that the law led to the closure of many small producers, and made it much harder for new manufacturers to enter the industry; both due to the tax itself as well as onerous record-keeping and inspection requirements.<Cite r={CartaTaxLawContents} /></p>
     </Section>
     <Section title="Art of the Cards">
-      <p>The culture of the <Noun lang="ja-Latn">Edo</Noun> period in which <Noun lang="ja-Latn">Hanafuda</Noun> cards appeared was heavily influenced by the aristocratic culture of the earlier <Noun lang="ja-Latn">Heian</Noun> period (794–1185). As such, the art of the cards abounds with references to <Noun lang="ja-Latn">Heian</Noun> period literature, festivals, and artistic tropes:</p>
+      <p>The culture of the <Noun lang="ja-Latn">Edo</Noun> period in which <Noun lang="ja-Latn">Hanafuda</Noun> cards appeared was heavily influenced by the aristocratic culture of the earlier <Pronounce lang="ja-Latn" word="Heian" noun pronouncer="skent" file={pronHeian}/> period (<span lang="ja">平安</span>, 794–1185). As such, the art of the cards abounds with references to <Noun lang="ja-Latn">Heian</Noun> period literature, festivals, and artistic tropes:</p>
       <blockquote className="blockquote">
         <p>With the exception of the peony, which entered the poetic canon in the <Noun lang="ja-Latn">Edo</Noun> period, all the images are from classical poetry of the <Noun lang="ja-Latn">Heian</Noun> period and reflect urban commoners’ knowledge of the poetic and cultural associations of the months.<Cite r={FourSeasons} page={[[1739, 1741]]} pageType="l." /></p>
       </blockquote>
@@ -213,7 +224,7 @@ const Hanafuda: React.FC = () => {
         <p>The standard pattern is now one that is called <Pronounce pronouncer="poyotan" word="hachihachi-bana" lang="ja-Latn" file={pronHachihachibana} /> (<span lang="ja">八八花</span>/<span lang="ja">八々花</span>), since it was primarily used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images from it are used to show the cards of each month below.</p>
         <ArticleImage position="small" src={img5Brights} alt="TODO">The 5 Bright cards of the <span lang="ja-Latn">hachihachi-bana</span> pattern, from a <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
         <Section title="Korean deck differences">
-          <p>Korean decks are also based on the <span lang="ja-Latn">hachi­hachi­-bana</span> pattern, but the ribbons are usually blue instead of purple, and there is Korean text on the standard three red ribbons (labelled <span lang="ko">홍단</span>, <span lang="ko-Latn">hongdan</span> ‘crimson ribbon’) and all three blue ribbons (<span lang="ko">청단</span>, <span lang="ko-Latn">cheongdan</span> ‘blue ribbon’).</p>
+          <p>Korean decks are also based on the <span lang="ja-Latn">hachi­hachi­-bana</span> pattern, but the ribbons are usually blue instead of purple, and there is Korean text on the standard three red ribbons (labelled <span lang="ko">홍단</span>, <Pronounce lang="ko-Latn" pronouncer="glamstar77" word="hongdan" file={pronHongdan} /> ‘crimson ribbon’) and all three blue ribbons (<span lang="ko">청단</span>, <Pronounce lang="ko-Latn" word="cheongdan" pronouncer="glamstar77" file={pronCheongdan} /> ‘blue ribbon’).</p>
           <ArticleImage
             src={imgKoreanTanzaku}
             alt="Six Hwatu cards showing ribbons with Korean text written on them.">
@@ -224,13 +235,13 @@ const Hanafuda: React.FC = () => {
             <ArticleImage position="small"
               src={imgKoreanMagpie}
               alt="Two hwatu-format cards: the left shows cherry blossoms with a Korean magpie that has a blue chest with black and yellow wings, while the right shows cherry blossoms with a lesser cuckoo that has a yellow body and green wings.">
-              The <span lang="ko">무지개</span> (‘rainbow’) brand <Noun lang="ko-Latn">Hwatu</Noun> deck (on left) features a Korean magpie (<span lang="ko">까치</span>), instead of the usual lesser cuckoo as shown on the Daiso <Noun lang="ko-Latn">Hwatu</Noun>-format deck.
+              The <span lang="ko">무지개</span> (<Pronounce word="mujigae" lang="ko-Latn" file={pronMujigae} pronouncer="fairybel" />, ‘rainbow’) brand <Noun lang="ko-Latn">Hwatu</Noun> deck (on left) features a Korean magpie (<span lang="ko">까치</span> <Pronounce file={pronKkachi} word="kkachi" lang="ko-Latn" pronouncer="goeun" />), instead of the usual lesser cuckoo as shown on the Daiso <Noun lang="ko-Latn">Hwatu</Noun>-format deck.
                 </ArticleImage>
             <ArticleImage
               position="small"
               src={imgJapanvsKorea}
               alt="Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean.">
-              The ‘rain man’ wears traditional clothing in both Japanese and Korean decks. The Japanese man (left) wears a <Noun lang="ja-Latn">Heian</Noun> period courtier’s daily outfit (<span lang="ja">狩衣</span> <span lang="ja-Latn">kariginu</span>), with tall <span lang="ja-Latn">tate-eboshi</span> (<span lang="ja">楯烏帽子</span>) hat, and very tall rain-clogs (<span lang="ja">足駄</span> <span lang="ja-Latn">ashida</span>) on his feet. The Korean man is wearing a noble’s <span lang="ko-Latn">gat</span> (<span lang="ko">갓</span>) hat, and an outer coat with very large sleeves.
+              The ‘rain man’ wears traditional clothing in both Japanese and Korean decks. The Japanese man (left) wears a <Noun lang="ja-Latn">Heian</Noun> period courtier’s daily outfit (<span lang="ja">狩衣</span> <Pronounce pronouncer="skent" lang="ja-Latn" word="kariginu" file={pronKariginu} />), with tall <span lang="ja-Latn">tate-eboshi</span> (<span lang="ja">楯烏帽子</span>) hat, and very tall rain-clogs (<span lang="ja">足駄</span> <Pronounce lang="ja-Latn" word="ashida" pronouncer="skent" file={pronAshida} />) on his feet. The Korean man is wearing a noble’s <Pronounce pronouncer="glamstar77" lang="ko-Latn" word="gat" file={pronGat} /> (<span lang="ko">갓</span>) hat, and an outer coat with very large sleeves.
                 </ArticleImage>
           </div>
         </Section>

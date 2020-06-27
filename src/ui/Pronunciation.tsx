@@ -43,6 +43,6 @@ const RenderPronunciation: React.FC<RenderPronunciationProps> = ({src, lang, chi
     }
 
     // render HTML directly as we will strip React scripts from built site:
-    const result = `<audio src="${src}"></audio><span class="${className}" lang="${lang}" onclick="this.previousSibling.play()">${Server.renderToStaticMarkup(<>{children}</>)}</span>`;
+    const result = `<audio preload="none" src="${src}"></audio><span class="${className}" lang="${lang}" onclick="this.previousSibling.play()">${Server.renderToStaticMarkup(<>{children}</>)}</span>`;
     return <span dangerouslySetInnerHTML={{__html: result}} />;
 }
