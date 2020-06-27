@@ -22,11 +22,11 @@ jobs:
           ${{ runner.os }}-yarn-
 
     - name: Yarn Install
-      uses: ianwalter/puppeteer@v2.0.0
+      uses: ianwalter/puppeteer@v3.0.0
       with:
         args: yarn install --frozen-lockfile
     - name: Yarn Build
-      uses: ianwalter/puppeteer@v2.0.0
+      uses: ianwalter/puppeteer@v3.0.0
       with:
         args: yarn build
       env:
