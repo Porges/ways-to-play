@@ -75,7 +75,7 @@ export const License: React.FC<Props> = (props: Props) => {
         license === 'gpl'
             ? "https://www.gnu.org/licenses/gpl.html" 
             : license === "cc0"
-                ? "https://creativecommons.org/publicdomain/zero/1.0/"
+                ? "https://creativecommons.org/publicdomain/mark/1.0/"
                 : `https://creativecommons.org/licenses/${license.substr(3)}/${version}`;
 
     const parts = license.split('-');
