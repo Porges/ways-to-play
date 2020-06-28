@@ -71,8 +71,6 @@ const TicTacToe: React.FC = () => <>
       ‘kit-cat-cannio’.<Cite r={SuffolkWords} page={200} /></p>
     <p>These names mostly derive from old counting-out rhymes (think ‘eeny meeny miny mo’) beginning with ‘tit, tat, toe’, which date from at least the early 18th century (in 1725, <Cite r={ANewCantingDictionary} inline  /> described ‘Tit-Tat’ as “the aiming of Children to go at first”).</p>
     <p>The fullest expression of this rhyme is along the lines of:</p>
-    <Footnote>Some sources (e.g. <Cite r={NurseryWitch} page={374} inline/>) give this last line as “… in the old
-      man’s (burial-)ground!”; I have no idea what this means.</Footnote>
     <blockquote>
       Tit, tat, toe,<br />
       My first go,<br />
@@ -80,7 +78,7 @@ const TicTacToe: React.FC = () => <>
       All in a row;<br />
       Stick one up,<br />
       Stick one down,<br />
-      Stick one in the old man’s crown!
+      Stick one in the old man’s crown!<Footnote>Some sources (e.g. <Cite r={NurseryWitch} page={374} inline/>) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.</Footnote>
       </blockquote>
     <p>In the later 19th century, this children’s rhyme became the basis of songs in several musicals:</p>
     <blockquote>
@@ -98,11 +96,11 @@ const TicTacToe: React.FC = () => <>
       would attempt to locate high-scoring sections of a circle while blindfolded.<Cite r={GamesBookForBoysAndGirls}
       page={55}/></p>
     <p>There seems to be a distinction we can draw between languages that have folkish names and those that have more functional names derived from the outward appearance or goal of the game.</p>
-    <Footnote>
-      <Cite r={SkeatTitTatTo} inline  /> also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but looking at his source,<Cite r={Koolman} page={410} /> it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “Tik-Tak-Tuk” is also the name of the game in Indonesian.
-      </Footnote>
-    <p>In the former group we have: Dutch ‘<span lang="nl">tik tak tol</span>’,<Cite r={Fiske} page={122} /> or ‘<span
-      lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and in Swedish ‘<Pronounce
+    <Footnote standalone>
+      <Cite r={SkeatTitTatTo} inline  /> also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but after examining his source,<Cite r={Koolman} page={410} /> it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “Tik-Tak-Tuk” is also the name of the game in Indonesian.
+    </Footnote>
+    <p>In the ‘folkish’ group we have examples like the Dutch ‘<span lang="nl">tik tak tol</span>’,<Cite r={Fiske} page={122} /> or ‘<span
+      lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and the Swedish ‘<Pronounce
         file={pronTrippTrapp} lang="sv" word="tripp, trapp, trull" pronouncer="tigris" />’.<Cite r={Fiske} page={137} /></p>
     <p>Like the English names, one Dutch name (<span lang="nl">boter, melk, kaas</span>) is derived from a rhyme:<Cite r={WinningWaysV3} page={732} /></p>
     <div className="multi text-center">
@@ -114,7 +112,7 @@ const TicTacToe: React.FC = () => <>
     </div>
     <p>In the ‘functional’ group of names are those like the Arabic <span lang="ar">لعبة إكس-أو</span> ‘the <i>X</i>–<i>O</i> game’; or the Chinese <span lang="zh">圈圈叉叉</span> ‘circles &amp; crosses’, or <span lang="zh">井字棋</span> ‘<code>井</code> character game’.</p>
     <p>The languages with ‘folkish’ names also tend to have ‘functional’ names as well; an alternate Swedish name
-      is ‘<span lang="sv">tre-i-rad</span>’ (‘three in a row’), and Dutch has ‘<span lang="nl">kruisje rondje</span>’
+      is ‘<span lang="sv">tre-i-rad</span>’ (‘three in a row’), and Dutch has the straightforward ‘<span lang="nl">kruisje rondje</span>’
       (‘cross circle’).</p>
     <p>On the other hand, the English poet Wordsworth didn’t think the game was worthy of a name at all. In <cite>The Prelude</cite>, he describes playing the game as a child:<Cite r={Wordsworth} page={[[538, 544]]} pageType="lines"   /></p>
     <blockquote>
@@ -122,7 +120,7 @@ const TicTacToe: React.FC = () => <>
       Our home-amusements by the warm peat-fire  <br />
       At evening, when with pencil and smooth slate,  <br />
       In square divisions parcelled out, and all  <br />
-      With crosses and with cyphers [i.e. zeroes] scribbled o’er  <br />
+      With crosses and with cyphers<Footnote>“cyphers” here means “zeroes”</Footnote> scribbled o’er  <br />
       We schemed and puzzled, head opposed to head  <br />
       In strife too humble to be named in verse
       </blockquote>
