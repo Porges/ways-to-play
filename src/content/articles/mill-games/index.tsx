@@ -15,11 +15,12 @@ import pronKreuzmühle from './pronunciation_de_kreuzmühle.mp3';
 import pronZwickmühle from './pronunciation_de_zwickmühle.mp3';
 import pronDiporto from './pronunciation_el_δίπορτο.mp3';
 import pronRennihestur from './pronunciation_is_rennihestur.mp3';
+import pronFiggi from './pronunciation_gsw_figgi.mp3';
 
 const MillGames: React.FC = () => {
   return (<>
     <p>Mill games are also known as <i>Morris</i> or <i>Merels</i> games. The main aim of any mill game is to try to form a row of three pieces, which is called a ‘mill’. In most games this allows the player to remove one of the opponent’s pieces from the board (usually not from another mill).</p>
-    <p>Most mill games are split into two phases of <i>placement</i> and <i>movement</i>.</p>
+    <p>Most mill games are split into two phases of <i>placement</i> and <i>movement</i>, so that all pieces are placed on the board before any pieces are moved.</p>
     <ArticleImage
       src={
         [[small_merels, "The small mill board of a single square."]
@@ -47,7 +48,7 @@ const MillGames: React.FC = () => {
       <Section title="Small mill board ">
         <ul>
           <li>[Three Men’s Morris] is a simple mill game that is known around the world.</li>
-          <li>[Tic-Tac-Toe] can be viewed as a degenerate mill game (and could derive from Three Men’s Morris?)</li>
+          <li><GameRef id="tic-tac-toe" /> can be viewed as a degenerate mill game (and could derive from Three Men’s Morris?)</li>
         </ul>
       </Section>
     </Section>
@@ -60,24 +61,24 @@ const MillGames: React.FC = () => {
       <ul>
         <li>Icelandic <span lang="is">mylna</span>, ‘mill’.<Cite r={Fiske} page={138} /></li>
         <li>SeSotho <span lang="st">molamu</span> ‘staff’.<Cite r={BasothoChildren} page={35} /></li>
-        <li>Somali <span lang="so">charri</span> ‘halter’,<Cite r={SomaliGames} page={504} /><Cite r={BritishSomaliland} page={130} /> <Pronounce file={pronSaddex} lang="so" word="saddex" pronouncer="ahmed_aw_abdi"/> ‘three’,<Cite r={BritishSomaliland} page={130} /> or <span lang="so">jare</span> ‘cut’.<Cite r={IntroductionToShax} page={4} /></li>
+        <li>Somali <span lang="so">charri</span> ‘halter’,<Cite r={SomaliGames} page={504} /><Cite r={BritishSomaliland} page={130} /> <Pronounce file={pronSaddex} lang="so" word="saddex" pronouncer="ahmed_aw_abdi" /> ‘three’,<Cite r={BritishSomaliland} page={130} /> or <span lang="so">jare</span> ‘cut’.<Cite r={IntroductionToShax} page={4} /></li>
         <li>Zulu <Pronounce pronouncer="Lungii" word="isibhamu" file={pronIsibhamu} lang="zu" /> ‘gun’ – this is used to “shoot” the pieces (cows).</li>
       </ul>
       <p><b>Cross-mill</b>: a position where a mill can be formed every other move, with pieces in a cross shape (with one empty square between).</p>
       <ul>
         <li>German <Pronounce file={pronKreuzmühle} lang="de" word="Kreuzmühle" pronouncer='Bartleby' /> ‘cross mill’.</li>
         <li>Icelandic <span lang="is">krossmylna</span> ‘cross mill’ or <span lang="is">vængjamylna</span> ‘winged mill’ <Cite r={Fiske} page={139} />.</li>
-        <li>Somali <Pronounce file={pronAfar} lang="so" word="afar" pronouncer='ahmed_aw_abdi'/> ‘four’.<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={130} /><Cite r={IntroductionToShax} page={5} /></li>
+        <li>Somali <Pronounce file={pronAfar} lang="so" word="afar" pronouncer='ahmed_aw_abdi' /> ‘four’.<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={130} /><Cite r={IntroductionToShax} page={5} /></li>
       </ul>
       <p><b>Running mill</b>: a position where a mill can be formed on every move.</p>
       <ul>
-        <li>In Yorkshire: “running Jenny”.<Cite r={Murray2} /*['section', 3.5],*/ page={45}/></li>
-        <li>German <Pronounce file={pronZwickmühle} lang="de" word="Zwickmühle" pronouncer='Thonatas'/> ‘double mill’.</li>
-        <li>Greek <Pronounce lang="el" file={pronDiporto} word="δίπορτο" pronouncer='jpapa'/> ‘double door’.<Cite r={MacedonianFolklore} page={295} /></li>
+        <li>In Yorkshire: “running Jenny”.<Cite r={Murray2} /*['section', 3.5],*/ page={45} /></li>
+        <li>German <Pronounce file={pronZwickmühle} lang="de" word="Zwickmühle" pronouncer='Thonatas' /> ‘double mill’.</li>
+        <li>Greek <Pronounce lang="el" file={pronDiporto} word="δίπορτο" pronouncer='jpapa' /> ‘double door’.<Cite r={MacedonianFolklore} page={295} /></li>
         <li>Icelandic <span lang="is">svikamylna</span> ‘mill of treachery’.<Cite r={Fiske} page={139} /></li>
         <li>seSotho <span lang="st">khutla</span> ‘the return’.<Cite r={MkeleMorabaraba} page={134} /></li>
-        <li>Somali <span lang="so">irmaan</span> ‘milch’ (i.e. milk-cow).<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={210} /><Cite r={IntroductionToShax}  /></li>
-        <li>Swiss <span lang="gsw">figgi</span> or <span lang="gsw">figge</span> (there is a saying that one has one’s <span lang="gsw">«Figgi und Müli»</span>, meaning “to have two options open”).<Cite r={FiggiUndMuliHaa}  /></li>
+        <li>Somali <span lang="so">irmaan</span> ‘milch’ (i.e. milk-cow).<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={210} /><Cite r={IntroductionToShax} /></li>
+        <li>Swiss <Pronounce lang="gsw" word="figgi" pronouncer="kuusikuusta" file={pronFiggi} /> or <span lang="gsw">figge</span> (there is a saying that one has one’s <span lang="gsw">«Figgi und Müli»</span>, meaning “to have two options open”).<Cite r={FiggiUndMuliHaa} /></li>
       </ul>
       <p><b>Corner</b>: a position with three pieces in a corner, which cannot be prevented from forming a mill upon the next turn.</p>
       <ul>

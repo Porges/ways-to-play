@@ -69,7 +69,7 @@ const TicTacToe: React.FC = () => <>
       ‘tic(k)-tac(k)-to(e)’, ‘(n)oughts &amp; crosses’, ‘crisscross’, ‘tip-tap-toe’,<Cite r={Teesdale} page={136} /><Cite r={NotesAndQueriesS8V12}
       page={333} /> ‘Exeter’s Nose’ (a pun on ‘<i>X</i>s and <i>O</i>s’),<Cite r={SourcesInRecreationalMathematics}/> or
       ‘kit-cat-cannio’.<Cite r={SuffolkWords} page={200} /></p>
-    <p>These names mostly derive from old counting-out rhymes (think ‘eeny meeny miny mo’) beginning with ‘tit, tat, toe’, which date from at least the early 18th century (in 1725, <Cite r={ANewCantingDictionary} inline  /> described ‘Tit-Tat’ as “the aiming of Children to go at first”).</p>
+    <p>These names mostly derive from several old counting-out rhymes — think ‘eeny meeny miny mo’ — that begin with ‘tit, tat, toe’. These rhymes date from at least the early 18th century: in 1725, <Cite r={ANewCantingDictionary} inline /> described ‘Tit-Tat’ as “the aiming of Children to go at first”.</p>
     <p>The fullest expression of this rhyme is along the lines of:</p>
     <blockquote>
       Tit, tat, toe,<br />
