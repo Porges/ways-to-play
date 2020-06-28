@@ -45,23 +45,6 @@ $figure-caption-font-size: 1.2 * .625rem;
 
 @import '~bootstrap/scss/bootstrap.scss';
 @import './text.css';
-@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '~@fortawesome/fontawesome-free/scss/brands.scss';
-
-a[href*="wikipedia.org" i] {
-    &:after {
-        @extend %fa-icon;
-        @extend .fab;
-        content: fa-content($fa-var-wikipedia-w);
-        vertical-align: sub;
-        font-size: .5em;
-        line-height: 0; // don't let sub/superscript affect line-height
-    }
-
-    &:hover:after {
-        color: $accent;
-    }
-}
 
 body {
     font-variant-numeric: oldstyle-nums;
@@ -466,4 +449,32 @@ article a {
 .barcode {
   font-family: sans-serif;
   font-variant-numeric: lining-nums;
+}
+
+/** Branding **/
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+a[href*="wikipedia.org" i] {
+    &:after {
+        @extend %fa-icon;
+        @extend .fab;
+        content: fa-content($fa-var-wikipedia-w);
+        vertical-align: sub;
+        font-size: .5em;
+        line-height: 0; // don't let sub/superscript affect line-height
+    }
+
+    &:hover:after {
+        color: $accent;
+    }
+}
+
+.license-instagram {
+    &:before {
+        @extend %fa-icon;
+        @extend .fab;
+        content: fa-content($fa-var-instagram) '\a0';
+    }
 }

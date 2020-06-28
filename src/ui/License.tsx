@@ -62,7 +62,7 @@ export const License: React.FC<Props> = (props: Props) => {
         , ...htmlAttributes } = props;
 
     if (license === 'instagram') {
-        return <span>{leading && ', '}Instagram</span>;
+        return <span>{leading && ', '}from <span className="license-instagram">Instagram</span></span>;
     }
 
     if (license === 'with-permission') {
