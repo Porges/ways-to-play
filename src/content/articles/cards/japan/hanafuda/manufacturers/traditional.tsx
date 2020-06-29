@@ -32,6 +32,12 @@ import imgTaxStampPurple from './tax_stamp_purple.jpg';
 import imgTaxStampPink from './tax_stamp_pink.jpg';
 import img50SenStamp from './20190921_timbre1.jpg';
 import img1YenStamp from './20190921_timbre.jpg';
+import imgNihonKaruta四光 from './NihonKaruta_四光.jpg';
+import imgWindmillBrights from './Windmill_Brights.jpg';
+import imgWindmillExtra from './Windmill_Extra.jpg';
+import imgUniversalTrumpHanaBrights from './Universal_TrumpHana_Brights.jpg';
+import imgUniversalTrumpHanaExtras from './Universal_TrumpHana_Extras.jpg';
+import imgShikishima from './Shikishima.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -54,7 +60,6 @@ import imgKanekata from './kanekata.svg';
 import imgMarutano from './marutano.svg';
 import imgMaruei from './maruei.svg';
 import imgMarukin from './marukin.svg';
-import imgNihonKaruta四光 from './NihonKaruta_四光.jpg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -81,59 +86,59 @@ const Manufacturers: React.FC = () => {
               <tbody>
                 <tr>
                   <td><img src={imgMarufuku} height="24" alt="The Marufuku symbol" /></td>
-                  <td><a href="#Nintendo"><Noun lang="ja-Latn">Nintendō</Noun></a></td>
+                  <td><a href="#nintendo"><Noun lang="ja-Latn">Nintendō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgYamami} height="24" alt="The Yamami symbol" /> or <img src={imgKakudai} height="24" alt="The Kakudai symbol" /></td>
-                  <td><a href="#Oishi-Tengudo"><Noun lang="ja-Latn">Ōishi Tengudō</Noun></a></td>
+                  <td><a href="#oishi-tengudo"><Noun lang="ja-Latn">Ōishi Tengudō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><span lang="ja" style={{ fontFamily: "sans-serif" }}>翁</span></td>
-                  <td><a href="#Angel-enzeru">Angel</a></td>
+                  <td><a href="#angel-enzeru">Angel</a></td>
                 </tr>
                 <tr>
                   <td><img src={imgYaguruma.src} height="24" alt="The Yaguruma symbol" /></td>
-                  <td><a href="#Tamura-Shogundo"><Noun lang="ja-Latn">Tamura Shōgundō</Noun></a></td>
+                  <td><a href="#tamura-shogundo"><Noun lang="ja-Latn">Tamura Shōgundō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgKakumatsu} height="24" alt="The Kakumatsu symbol" /></td>
-                  <td><a href="#Matsui-Tengudo"><Noun lang="ja-Latn">Matsui Tengudō</Noun></a></td>
+                  <td><a href="#matsui-tengudo"><Noun lang="ja-Latn">Matsui Tengudō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><span lang="ja" style={{ fontFamily: "sans-serif" }}>エース</span></td>
-                  <td><a href="#Ace-esu">Ace</a></td>
+                  <td><a href="#ace-esu">Ace</a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarueSvg} height="24" alt="The Marue symbol" /></td>
-                  <td><a href="#Marue"><Noun lang="ja-Latn">Maruē</Noun></a></td>
+                  <td><a href="#marue"><Noun lang="ja-Latn">Maruē</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgYamata} height="24" alt="The Yamata symbol" /></td>
-                  <td><a href="#Tanaka-Gyokusuido"><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun></a></td>
+                  <td><a href="#tanaka-gyokusuido"><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgKanenaka} height="24" alt="The Kanenaka symbol" /></td>
-                  <td><a href="#Nihon-Karuta-Seizo"><Noun lang="ja-Latn">Nihon Karuta</Noun></a></td>
+                  <td><a href="#nihon-karuta-seizo"><Noun lang="ja-Latn">Nihon Karuta</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarujuu} height="24" alt="The Marujū symbol" /></td>
-                  <td><a href="#Yamashiro-Shoten"><Noun lang="ja-Latn">Yamashiro Shōten</Noun></a></td>
+                  <td><a href="#yamashiro-shoten"><Noun lang="ja-Latn">Yamashiro Shōten</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMaruryu} height="24" alt="The Maruryu symbol" /></td>
-                  <td><a href="#Ryutendo"><Noun lang="ja-Latn">Ryūtendō</Noun></a></td>
+                  <td><a href="#ryutendo"><Noun lang="ja-Latn">Ryūtendō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarujun} height="24" alt="The Marujun symbol" /></td>
-                  <td><a href="#Inoue-Juntendo"><Noun lang="ja-Latn">Inoue Juntendō</Noun></a></td>
+                  <td><a href="#inoue-juntendo"><Noun lang="ja-Latn">Inoue Juntendō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgKanese} height="24" alt="The Kanese symbol" /></td>
-                  <td><a href="#Nakao-Seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
+                  <td><a href="#nakao-seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
-                  <td><a href="#Baba-Keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
+                  <td><a href="#baba-keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
                 </tr>
               </tbody>
             </Table>
@@ -141,63 +146,63 @@ const Manufacturers: React.FC = () => {
               <tbody>
                 <tr>
                   <td>?</td>
-                  <td><a href="#Heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
+                  <td><a href="#heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
                 </tr>
                 <tr>
                   <td>?</td>
-                  <td><a href="#Kawakita"><Noun lang="ja-Latn">Kawakita</Noun></a></td>
+                  <td><a href="#kawakita"><Noun lang="ja-Latn">Kawakita</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarusa} height="24" alt="The Marusa symbol" /></td>
-                  <td><a href="#Kohara-Honten"><Noun lang="ja-Latn">Kohara Honten</Noun></a></td>
+                  <td><a href="#kohara-honten"><Noun lang="ja-Latn">Kohara Honten</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarui} height="24" alt="The Marui symbol" /></td>
-                  <td><a href="#Nishimura"><Noun lang="ja-Latn">Nishimura</Noun></a></td>
+                  <td><a href="#nishimura"><Noun lang="ja-Latn">Nishimura</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
-                  <td><a href="#Kyoto-Karuta"><Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
+                  <td><a href="#kyoto-karuta"><Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
                 </tr>
                 <tr>
                   <td>?</td>
-                  <td><a href="#Dai-Nippon"><Noun lang="ja-Latn">Dai Nippon</Noun></a></td>
+                  <td><a href="#dai-nippon"><Noun lang="ja-Latn">Dai Nippon</Noun></a></td>
                 </tr>
                 <tr>
                   <td>?</td>
-                  <td><a href="#Nippon-Yugi-Gangu"><Noun lang="ja-Latn">Nippon Yūgi Gangu</Noun></a></td>
+                  <td><a href="#nippon-yugi-gangu"><Noun lang="ja-Latn">Nippon Yūgi Gangu</Noun></a></td>
                 </tr>
                 <tr>
                   <td>?</td>
-                  <td><a href="#Universal"><Noun lang="ja-Latn">Universal</Noun></a></td>
+                  <td><a href="#universal"><Noun lang="ja-Latn">Universal</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgKaneman} height="24" alt="The Kaneman symbol" /></td>
-                  <td><a href="#Kawai"><Noun lang="ja-Latn">Kawai</Noun></a></td>
+                  <td><a href="#kawai"><Noun lang="ja-Latn">Kawai</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarumatsu} height="24" alt="The Marumatsu symbol" /></td>
-                  <td><a href="#Akata-Shojoya"><Noun lang="ja-Latn">Akata Shōjōya</Noun></a></td>
+                  <td><a href="#akata-shojoya"><Noun lang="ja-Latn">Akata Shōjōya</Noun></a></td>
                 </tr>
                 <tr>
                   <td>?</td>
-                  <td><a href="#Suisando"><Noun lang="ja-Latn">Suisando</Noun></a></td>
+                  <td><a href="#suisando"><Noun lang="ja-Latn">Suisando</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarutano} height="24" alt="The Marutano symbol" /></td>
-                  <td><a href="#Nihon-Goraku"><Noun lang="ja-Latn">Nihon Goraku</Noun></a></td>
+                  <td><a href="#nihon-goraku"><Noun lang="ja-Latn">Nihon Goraku</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMaruei} height="24" alt="The Maruei symbol" /></td>
-                  <td><a href="#Kyowado"><Noun lang="ja-Latn">Kyōwadō</Noun></a></td>
+                  <td><a href="#kyowado"><Noun lang="ja-Latn">Kyōwadō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgKanekata} height="24" alt="The Kanekata symbol" /></td>
-                  <td><a href="#Kamigataya"><Noun lang="ja-Latn">Kamigataya</Noun></a></td>
+                  <td><a href="#kamigataya"><Noun lang="ja-Latn">Kamigataya</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarukin} height="24" alt="The Marukin symbol" /></td>
-                  <td><a href="#Marukin"><Noun lang="ja-Latn">Marukin</Noun></a></td>
+                  <td><a href="#marukin"><Noun lang="ja-Latn">Marukin</Noun></a></td>
                 </tr>
               </tbody>
             </Table>
@@ -309,6 +314,12 @@ const Manufacturers: React.FC = () => {
           alt="TODO">
           <Noun lang="ja-Latn">Nintendō</Noun>’s Mario deck, featuring recurring characters from the Mario series.
           </ArticleImage>
+        <p><Noun lang="ja-Latn">Nintendō</Noun> have also on occasion produced decks for other companies, such as the <Noun lang="ja-Latn">Shikishima Hanafuda</Noun> (<span lang="ja">敷島花札</span>) produced for <Noun lang="ja-Latn">Okuno Karuta</Noun> (<span lang="ja">奥野かるた店</span>), a games shop in <Noun lang="ja-Latn">Tōkyō</Noun>.</p>
+        <ArticleImage
+          src={imgShikishima}
+          alt="">
+          <Noun lang="ja-Latn">Okuno Karuta’s Shikishima Hanafuda</Noun>. The cards were designed by the print artist <Noun lang="ja-Latn">Itō Takumi</Noun> (<span lang="ja">伊藤卓美</span>, <abbr title="born">b.</abbr> 1946).
+        </ArticleImage>
       </Section>
       <Section title={<><a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</>}>
         <p>Also based in <Noun lang="ja-Latn">Kyōto</Noun>, <Noun lang="ja-Latn">Ōishi Tengudō</Noun> produces a wide variety of traditional Japanese card games. As far as I know, they are the only major manufacturer still producing <Noun lang="ja-Latn">Mefuda</Noun> cards. They also produce reproductions of even older cards, such as the <Noun lang="ja-Latn">Unsun</Noun> deck.</p>
@@ -530,6 +541,17 @@ const Manufacturers: React.FC = () => {
           src={imgNihonKaruta四光}>
           The bright cards of <Noun lang="ja-Latn">Nihon Karuta</Noun>’s <span lang="ja">四光</span> (<span lang="ja-Latn">shikō</span>, ‘four brights’) pattern.
           </ArticleImage>
+        <p>Under the brand name of “Wind Mill”, <Noun lang="ja-Latn">Nihon Karuta</Noun> have also produced Western-style playing cards, including their own Hana-Trump deck:</p>
+        <ArticleImage
+          alt="Five playing cards with the Hanafuda design in center and a corresponding Western card depicted in the corners that are not occupied by the card indices."
+          src={imgWindmillBrights}>
+          The bright cards of <Noun lang="ja-Latn">Nihon Karuta</Noun>’s Hana-Trump deck. These are obviously based on the much older <a href="#universal">Universal</a> <Noun lang="ja-Latn">Trump-Hana</Noun> deck.
+        </ArticleImage>
+        <ArticleImage
+          alt="Five cards, one a joker and the other four being kings with various objects depicted."
+          src={imgWindmillExtra}>
+          The extra <GameRef id="hachi-hachi" />-related cards of <Noun lang="ja-Latn">Nihon Karuta</Noun>’s Hana-Trump deck. There is a windmill depicted in the corners of the Joker card.
+        </ArticleImage>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</>}>
         <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,<Cite r={Yamaguchi} page={102} /> but stopped producing in 1962.<Cite r={ModernJapaneseWrappers} page={33} /> Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span lang="ja">十</span>). Brands included:</p>
@@ -648,11 +670,22 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<>Universal (<span lang="ja">ユニバーサル</span>)</>}>
-        <p>Universal was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for <Noun lang="ja-Latn">Nintendō</Noun>. Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
+        <p>The Universal Playing Card Company was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for <Noun lang="ja-Latn">Nintendō</Noun>. Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
         <ul>
           <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomuhana</span>, ‘rubber flower’)</li>
           <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’)</li>
         </ul>
+        <p>They also, like other manufacturers, produced a <Noun lang="ja-Latn">Trump-Hana</Noun> (<span lang="ja">トランプ花</span>) deck. The size of the cards in this deck is much closer to that of <Noun lang="ja-Latn">Hanafuda</Noun> than Trump cards.</p>
+        <ArticleImage
+          src={imgUniversalTrumpHanaBrights}
+          alt="">
+          The Bright cards of Universal’s <Noun lang="ja-Latn">Trump-Hana</Noun> deck. This particular deck is listed as number “350” on the packaging.
+        </ArticleImage>
+        <ArticleImage
+          src={imgUniversalTrumpHanaExtras}
+          alt="">
+          The extra <GameRef id="hachi-hachi"/>-related cards of Universal’s <Noun lang="ja-Latn">Trump-Hana</Noun> deck. I’m not sure of the significance of the “vase” Joker, since usually the Joker has the manufacturer’s name. It could be intended as a multilingual pun on “Universal” (<span lang="ja">ユニバーセル</span> <span lang="ja-Latn">yunibāseru</span>) → “Universe” (<span lang="ja">ユニバース</span> <span lang="ja-Latn">yunibāsu</span>), which sounds like “uni-vase” (one vase).
+        </ArticleImage>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Kawai</Noun></>}>
         <p>A manufacturer from <Noun lang="ja-Latn">Ōsaka</Noun>, whose mark was <span lang="ja">万</span> with corner at top-right.<Cite r={OstasiatischeSpielkarten} page={135} /></p>
