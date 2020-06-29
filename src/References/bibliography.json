@@ -3626,5 +3626,15 @@
         "issued": {"year": 2020},
         "publisher": "Japan Playing Card Museum",
         "URL": "https://japanplayingcardmuseum.com/2-0-cartatax-law-contents/"
+    },
+    "SchreiberCollection": {
+        "id": "SchreiberCollection",
+        "title": "Catalogue of the collection of playing cards bequeathed to the Trustees of the British museum by the late Lady Charlotte Schreiber",
+        "author": [{"given": "Freeman Marius", "family": "O’Donoghue"}],
+        "issued": {"year": 1901},
+        "type": "book",
+        "publisher": "Longmans & Co.",
+        "publisher-place": "London, UK",
+        "URL": "https://archive.org/details/catalogueofcoll00brit"
     }
 }
