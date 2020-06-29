@@ -38,6 +38,8 @@ import imgWindmillExtra from './Windmill_Extra.jpg';
 import imgUniversalTrumpHanaBrights from './Universal_TrumpHana_Brights.jpg';
 import imgUniversalTrumpHanaExtras from './Universal_TrumpHana_Extras.jpg';
 import imgShikishima from './Shikishima.jpg';
+import imgAceSaigo from './Ace_Saigo.jpg';
+import imgAceAdmiral from './Ace_Admiral.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -318,7 +320,7 @@ const Manufacturers: React.FC = () => {
         <ArticleImage
           src={imgShikishima}
           alt="">
-          <Noun lang="ja-Latn">Okuno Karuta’s Shikishima Hanafuda</Noun>. The cards were designed by the print artist <Noun lang="ja-Latn">Itō Takumi</Noun> (<span lang="ja">伊藤卓美</span>, <abbr title="born">b.</abbr> 1946).
+          <Noun lang="ja-Latn">Okuno Karuta’s Shikishima Hanafuda</Noun>. The cards were designed by the print artist <Noun lang="ja-Latn">Itō Takumi</Noun> (<span lang="ja">伊藤卓美</span>, <abbr title="born">b.</abbr> 1946). They are larger than normal <Noun lang="ja-Latn">Hanafuda</Noun> and the cards are printed on flat cardboard, not wrapped with backing paper.
         </ArticleImage>
       </Section>
       <Section title={<><a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</>}>
@@ -454,12 +456,6 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<>Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>)</>}>
-        <ArticleImage
-          position="right"
-          src={imgAce}
-          alt="A Hanafuda wrapper with the image of a European nobleman on the front.">
-          Packaging of Ace’s <Noun lang="ja-Latn">Dai Kōshaku</Noun> brand; this is from a <Noun lang="ja-Latn">Kurofuda deck</Noun>.
-          </ArticleImage>
         <p>Ace was a manufacturer based in <Noun lang="ja-Latn">Kyōto</Noun>. Their brands included:<Cite r={ModernJapaneseWrappers} page={44} /></p>
         <ul>
           <li><span lang="ja">大公爵</span> (<span lang="ja-Latn">daikōshaku</span>, ‘grand duke’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
@@ -471,6 +467,23 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">源氏</span> (<span lang="ja-Latn">genji</span>, ‘<a href="https://en.wikipedia.org/wiki/Hikaru_Genji" lang="ja-Latn" className="proper-noun">Genji</a>’)</li>
         </ul>
         <p>They also made two all-plastic <Noun lang="ja-Latn">Hanafuda</Noun> decks: <span lang="ja">金花</span> (<span lang="ja-Latn">kin-hana</span> ‘gold flowers’) and <span lang="ja">銀花</span> (<span lang="ja-Latn">gin-hana</span> ‘silver flowers’).</p>
+        <div className="multi">
+          <ArticleImage
+            src={imgAceAdmiral}
+            alt="A Hanafuda wrapper with the image of a Lord Nelson on the front.">
+            Packaging of Ace’s <Noun lang="ja-Latn">Dai Teitoku</Noun> brand, featuring Lord Nelson.
+          </ArticleImage>
+          <ArticleImage
+            src={imgAce}
+            alt="A Hanafuda wrapper with the image of a European nobleman on the front.">
+            Packaging of Ace’s <Noun lang="ja-Latn">Dai Kōshaku</Noun> brand; this is from a <Noun lang="ja-Latn">Kurofuda deck</Noun>.
+          </ArticleImage>
+          <ArticleImage
+            src={imgAceSaigo}
+            alt="A Hanafuda wrapper with the image of a Japanese man in a double-breasted coat.">
+            Packaging of Ace’s <Noun lang="ja-Latn">Dai Saigō</Noun> brand.
+          </ArticleImage>
+        </div>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Maruē</Noun> (<span lang="ja">マルエー</span>)</>}>
         <ArticleImage
