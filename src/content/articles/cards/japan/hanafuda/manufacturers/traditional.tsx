@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 
 import { Cite, ArticleImage, Noun, Footnote, Section } from 'ui';
+import { GameRef } from 'content/games/Game';
+
 import { UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
@@ -52,7 +54,6 @@ import imgKanekata from './kanekata.svg';
 import imgMarutano from './marutano.svg';
 import imgMaruei from './maruei.svg';
 import imgMarukin from './marukin.svg';
-
 import imgNihonKaruta四光 from './NihonKaruta_四光.jpg';
 
 const Manufacturers: React.FC = () => {
@@ -296,7 +297,7 @@ const Manufacturers: React.FC = () => {
           alt="The 5 bright cards from a Hana-Trump deck, which are hanafuda cards printed on the center of the standard international playing card deck.">
           The 5 Brights of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck.
           </ArticleImage>
-        <p>Because there are four more cards in the standard deck compared to the <Noun lang="ja-Latn">Hanafuda</Noun> one, <Noun lang="ja-Latn">Nintendō</Noun> added an additional four cards (and two jokers) to the set. These extra cards are counterparts for specialized pieces of equipment present in boxed <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun> (<span lang="ja">八八</span>)</a> sets.</p>
+        <p>Because there are four more cards in the standard deck compared to the <Noun lang="ja-Latn">Hanafuda</Noun> one, <Noun lang="ja-Latn">Nintendō</Noun> added an additional four cards (and two jokers) to the set. These extra cards are counterparts for specialized pieces of equipment present in boxed <GameRef id="hachi-hachi" /> (<span lang="ja">八八</span>) sets.</p>
         <ArticleImage
           src={imgHanaTrumpExtra}
           alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
