@@ -122,7 +122,7 @@ const Manufacturers: React.FC = () => {
                 </tr>
                 <tr>
                   <td><img src={imgKanenaka} height="24" alt="The Kanenaka symbol" /></td>
-                  <td><a href="#nihon-karuta-seizo"><Noun lang="ja-Latn">Nihon Karuta</Noun></a></td>
+                  <td><a href="#nihon-karuta-seizo-tamada-fukushodo"><Noun lang="ja-Latn">Nihon Karuta</Noun>/<Noun lang="ja-Latn">Tamada Fukushōdō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarujuu} height="24" alt="The Marujū symbol" /></td>
@@ -532,7 +532,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)</>}>
+      <Section title={<><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)/<Noun lang="ja-Latn">Tamada Fukushōdō</Noun> (<span lang="ja">玉田福勝堂</span>)</>}>
         <ArticleImage
           position="aside"
           src={imgNihon1896}
@@ -544,9 +544,12 @@ const Manufacturers: React.FC = () => {
             originalUrl: "https://www.britishmuseum.org/collection/object/A_1896-0501-876-1-96"
           }}
           >
-          A <Noun lang="ja-Latn">Nihon Karuta</Noun> box from the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in 1895. Despite the logo, the storefront depicted is not actually that of the manufacturer <Noun lang="ja-Latn">Nihon Karuta</Noun>, but of the retailer <Noun lang="ja-Latn">Kamigata-ya</Noun>; about whom see the <a href="/articles/cards/japan/hanafuda/art">History article</a>. (This deck is briefly described in <Cite inline r={SchreiberCollection} page={184} />, under ‘Japanese #2’.)
+          A <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> box from the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in 1895. Despite the logo, the storefront depicted is not actually that of the manufacturer <Noun lang="ja-Latn">Tamada Fukushōdō</Noun>, but of the retailer <Noun lang="ja-Latn">Kamigata-ya</Noun>; about whom see the <a href="/articles/cards/japan/hanafuda/art">History article</a>. (This deck is briefly described in <Cite inline r={SchreiberCollection} page={184} />, under ‘Japanese #2’.)
         </ArticleImage>
-        <p><Noun lang="ja-Latn">Nihon Karuta</Noun> claimed to have been founded in 1806.<Cite r={TewazaNoKioku} /> It had definitely existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895 (see image). Records show that they also existed in 1948<Cite r={Yamaguchi} page={102} /> and through to at least the early 1980s.<Cite r={ModernJapaneseWrappers} page={54} /> Their mark was <span lang="ja">中</span> with corner at top-right. Brands included:<Cite r={ModernJapaneseWrappers} page={[[54, 55]]} /></p>
+        <p>The mark of both of these companies was <span lang="ja">中</span> with corner at top-right.</p>
+        <p><Noun lang="ja-Latn">Nihon Karuta</Noun> claimed to have been founded in 1806.<Cite r={TewazaNoKioku} /> It is hard to prove this, but an earlier company named <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> that used the same manufacturer’s mark had definitely existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895 (see image). It is unclear what the relationship was between the two companies, but <Noun lang="ja-Latn">Nihon Karuta</Noun> advertised their decks as being in the “<Noun lang="ja-Latn">Tamada</Noun> style” (<span lang="ja">玉田式</span>), and certainly the patterns they printed were very similar.</p>
+        <p>Later records show that <Noun lang="ja-Latn">Nihon Karuta</Noun> existed in 1948<Cite r={Yamaguchi} page={102} /> and through to at least the early 1980s.<Cite r={ModernJapaneseWrappers} page={54} /></p>
+        <p>Brands of both companies have included:<Cite r={ModernJapaneseWrappers} page={[[54, 55]]} /></p>
         <ul>
           <li><span lang="ja">花の王</span> (<span lang="ja-Latn">hana no ō</span>, ‘queen of flowers’, the <a href="https://en.wikipedia.org/wiki/Cattleya">Cattleya</a>)</li>
           <li><span lang="ja">七福神</span> (<span lang="ja-Latn">shichi fukujin</span>, the <a href="https://en.wikipedia.org/wiki/Seven_Lucky_Gods">Seven Lucky Gods</a>)</li>
