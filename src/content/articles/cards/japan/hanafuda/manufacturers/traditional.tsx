@@ -64,6 +64,7 @@ import imgKanekata from './kanekata.svg';
 import imgMarutano from './marutano.svg';
 import imgMaruei from './maruei.svg';
 import imgMarukin from './marukin.svg';
+import imgMarudai from './marudai.svg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -118,7 +119,7 @@ const Manufacturers: React.FC = () => {
                 </tr>
                 <tr>
                   <td><img src={imgYamata} height="24" alt="The Yamata symbol" /></td>
-                  <td><a href="#tanaka-gyokusuido"><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun></a></td>
+                  <td><a href="#tanaka-gyokusuido-iwata-honten"><Noun lang="ja-Latn">Tanaka Gyokusuidō/Iwata Honten</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgKanenaka} height="24" alt="The Kanenaka symbol" /></td>
@@ -207,6 +208,10 @@ const Manufacturers: React.FC = () => {
                 <tr>
                   <td><img src={imgMarukin} height="24" alt="The Marukin symbol" /></td>
                   <td><a href="#marukin"><Noun lang="ja-Latn">Marukin</Noun></a></td>
+                </tr>
+                <tr>
+                  <td><img src={imgMarudai} height="24" alt="The Marudai symbol" /></td>
+                  <td><a href="#otani-shoten"><Noun lang="ja-Latn">Ōtani Shōten</Noun></a></td>
                 </tr>
               </tbody>
             </Table>
@@ -512,8 +517,9 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">梅の花</span> (<span lang="ja-Latn">ume no hana</span> ‘plum flowers’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)</>}>
-        <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,<Cite r={Yamaguchi} page={102} /> but had stopped producing in the early 1960s.<Cite r={ModernJapaneseWrappers} page={33} /> Their manufacturer’s mark was <span lang="ja">田</span> with corner on top. The brand <Noun lang="ja-Latn">Fukusuke</Noun> and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>.<Cite r={ModernJapaneseWrappers} page={59} /> Brands included:</p>
+      <Section title={<><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)/<Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
+        <p>Both of these companies used a mark of <span lang="ja">田</span> with corner on top.</p>
+        <p><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,<Cite r={Yamaguchi} page={102} /> but had stopped producing in the early 1960s.<Cite r={ModernJapaneseWrappers} page={33} /> Their brands (including <Noun lang="ja-Latn">Fukusuke</Noun> and <Noun lang="ja-Latn">Ginsuehiro</Noun>) and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>, who had their cards made by <Noun lang="ja-Latn">Tamura Shōgundō</Noun>.<Cite r={ModernJapaneseWrappers} page={[48, 59]} /> Brands included:</p>
         <ul>
           <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
           <li><span lang="ja">銀末廣</span>/<span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
@@ -523,13 +529,6 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">大関</span> (<span lang="ja-Latn">ōzeki</span>, the second-highest <span lang="ja-Latn">sumo</span> rank)</li>
           <li><span lang="ja">春</span> (<span lang="ja-Latn">haru</span>, ‘spring’)</li>
           <li><span lang="ja">小判</span> (<span lang="ja-Latn">koban</span>, a <a href="https://en.wikipedia.org/wiki/Koban_(coin)">type of coin</a>)</li>
-        </ul>
-      </Section>
-      <Section title={<><Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
-        <p><Noun lang="ja-Latn">Iwata</Noun> (<Noun lang="ja-Latn">Kyōto</Noun>) had its own brands but the cards were made by <Noun lang="ja-Latn">Tamura Shōgundō</Noun>. Brands included:<Cite r={ModernJapaneseWrappers} page={48} /></p>
-        <ul>
-          <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
-          <li><span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
         </ul>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)/<Noun lang="ja-Latn">Tamada Fukushōdō</Noun> (<span lang="ja">玉田福勝堂</span>)</>}>
@@ -783,9 +782,15 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Marukin</Noun></>}>
-        <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in <Noun lang="ja-Latn">Sakata</Noun> (<span lang="ja">酒田</span>), <Noun lang="ja-Latn">Yamaguchi</Noun> Prefecture (<span lang="ja">山口県</span>). Their mark was a circled <span lang="ja" className="circled">金</span>. Brands included:</p>
+        <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in <Noun lang="ja-Latn">Sakata</Noun> (<span lang="ja">酒田市</span>), <Noun lang="ja-Latn">Yamaguchi</Noun> prefecture (<span lang="ja">山口県</span>). Their mark was a circled <span lang="ja" className="circled">金</span>. Brands included:</p>
         <ul>
           <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’)</li>
+        </ul>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Ōtani Shōten</Noun> (<span lang="ja">大谷商店</span>)</>}>
+        <p><Noun lang="ja-Latn">Ōtani Shōten</Noun> was a company based in <Noun lang="ja-Latn">Sakurai</Noun> town (<span lang="ja">桜井町</span>), in <Noun lang="ja-Latn">Shiki</Noun> district (<span lang="ja">磯城郡</span>), <Noun lang="ja-Latn">Nara</Noun> prefecture (<span lang="ja">奈良県</span>). Their mark was a circled <span lang="ja" className="circled">大</span>. Brands included:</p>
+        <ul>
+          <li><span lang="ja">千島</span> (<span lang="ja-Latn">chishima</span>, ‘thousand islands’, the Japanese name for the <a href="https://en.wikipedia.org/wiki/Kuril_Islands">Kuril Islands</a>)</li>
         </ul>
       </Section>
     </Section>
