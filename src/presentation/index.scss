@@ -395,7 +395,9 @@ figure > div.multi {
 
 div.multi > * {
     margin: 5px 10px;
+}
 
+div.multi > img {
     /* In flexbox images have an implied min-width of their 
      * implicit size so we need to override that. Then setting
      * width and height to 100% fixes the aspect ratio. /shrug
