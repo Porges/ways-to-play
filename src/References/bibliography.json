@@ -3649,5 +3649,26 @@
         "issue": 18,
         "page": "101–76",
         "issued": {"year":2016, "month":6, "day":30}
+    },
+    "MuraiSun":{
+      "id": "MuraiSun",
+      "author": [{"family": "村井", "given": "省三", "lang": "ja"}],
+      "title": "明治の花札",
+      "title-lang": "ja",
+      "type": "article-magazine",
+      "issue": 9,
+      "issued": {"year": 1974, "season": "Winter"},
+      "page": "160–4",
+      "container-title": "別冊太陽"
+    },
+    "DevilsPictureBooks": {
+      "id": "DevilsPictureBooks",
+      "type": "book",
+      "title": "The Devil’s Picture-Books",
+      "author": [{"family": "van Rensselaer", "given": "Mrs. John King"}],
+      "URL": "https://archive.org/details/TheDevilsPictureBooks",
+      "issued": {"year": 1890},
+      "publisher": "Dodd, Mead, and Company",
+      "publisher-place": "New York, USA"
     }
 }
