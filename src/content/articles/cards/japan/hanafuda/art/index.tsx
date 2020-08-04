@@ -101,6 +101,7 @@ import imgOtsueRaijin from './otsue_raijin.jpg';
 import imgRaijinCardSun from './raijin_card_sun.jpg';
 import imgRaijinCard1 from './hanafuda-musashino-09.pdf-000.jpg';
 import imgRaijinCard2 from './kaikinki-hanafuda11.pdf-000.jpg';
+import imgRunningMan from './running_man.jpg';
 
 import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
 import pronEchigobana from '../pronunciation_ja_越後花.mp3';
@@ -635,9 +636,23 @@ const Hanafuda: React.FC = () => {
         <p>The month of November is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronounce pronouncer="strawberrybrown" word="ame" lang="ja-Latn" file={pronAme} />) or ‘drizzle’ (<span lang="ja">時雨</span> <Pronounce pronouncer="akitomo" word="shigure"
           lang="ja-Latn" file={pronShigure} />). These cards have a strange relationship to the others — in many games they have special powers, or they are valued lower than the cards of other months. For example, the bright of November will often score less than the other four brights, and in some games the “lightning card” has special powers, such as being able to match any other card.</p>
         <Footnote standalone>
-          <p>It has been suggested (e.g. by author <Noun lang="ja-Latn">Murai Shōzō</Noun> <Noun lang="ja">村井省三</Noun> and by <Noun lang="ja-Latn">Ōishi Tengudō</Noun><Cite r={OishiSadakuro} /> that the “Umbrella Man” has its origins in the character of <Noun lang="ja-Latn">Sadakurō</Noun> from the <span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <Noun lang="ja-Latn">Ebashi</Noun> points out,<Cite r={EbashiSadakuro} /> there is an early progenitor of the Hanafuda deck from 1704 that contains the “Umbrella Man”. This precludes the <Noun lang="ja-Latn">Sadakurō</Noun> origin story, as the play was written some 40 years after the deck was produced.</p>
+          <p>It has been suggested (e.g. by author <Noun lang="ja-Latn">Murai Shōzō</Noun> <span lang="ja">村井省三</span> and by <Noun lang="ja-Latn">Ōishi Tengudō</Noun><Cite r={OishiSadakuro} />) that the running “Umbrella Man” has its origins in the character of <Noun lang="ja-Latn">Sadakurō</Noun> from the <span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <Noun lang="ja-Latn">Ebashi</Noun> points out,<Cite r={EbashiSadakuro} /> the <span lang="ja-Latn">hana-awase</span> deck pictured at the top of this article contains an “Umbrella Man”. This precludes the <Noun lang="ja-Latn">Sadakurō</Noun> origin story, as the play was written some 40 years after that deck was produced.</p>
+          <ArticleImage 
+            noborder
+            position="small"
+            src={imgRunningMan}
+            alt="A very old card picturing a man with an umbrella running from lightning."
+            source={{
+              organization: { 
+                orgName: "Japan Playing Card Museum",
+                orgAbbr: "JPCM",
+              },
+              originalUrl: "https://japanplayingcardmuseum.com/image/hanafuda-hanaawase04.pdf",
+              license: "with-permission"
+            }} />
         </Footnote>
         <p>The man pictured on the bright card is the poet <Noun lang="ja-Latn">Ono no Michikaze</Noun> (<span lang="ja">小野道風</span>), who is considered to be one of the founders of Japanese calligraphy. The jumping frog recalls an episode in his life: he had failed seven times to achieve a promotion, and was considering abandoning his attempts. One day, walking beside a stream, he saw a frog attempting to jump onto a willow branch. Seven times it jumped, and seven times it failed. On the eighth attempt, the frog reached the branch successfully. <Noun lang="ja-Latn">Michikaze</Noun> was thus inspired to persevere with his attempts.<Cite r={AnimalInFarEasternArt} page={[[86, 87]]} /></p>
+        <p>On older decks a different “rain man” is pictured. On these cards the man is running in the rain with the umbrella closed around his head. This feature is preserved in the <Noun lang="ja-Latn">Echigo-bana</Noun> pattern.</p>
         <p>The “lightning card” is the red-coloured junk card, which is usually called the ogre card in Japanese (<span lang="ja">鬼札</span> <Pronounce pronouncer="strawberrybrown" word="onifuda" lang="ja-Latn" file={pronOnifuda} />). The drums, which are visible in some patterns, are an attribute of the thunder god <Pronounce noun lang="ja-Latn" word="Raijin" pronouncer="kaori410f" file={pronRaijin} /> (<span lang="ja">雷神</span>).</p>
         <ArticleImage
           position="aside"
