@@ -3636,5 +3636,18 @@
         "publisher": "Longmans & Co.",
         "publisher-place": "London, UK",
         "URL": "https://archive.org/details/catalogueofcoll00brit"
+    },
+    "HironoriGunjin":{
+        "id": "HironoriGunjin",
+        "title": "日本と世界の行軍将棋",
+        "title-lang": "ja",
+        "author": [{"given": "浩徳", "family": "高橋", "lang": "ja"}],
+        "URL": "http://id.nii.ac.jp/1297/00000560",
+        "type": "article-journal",
+        "container-title": "Bulletin of the Amusement Industry Research Institute",
+        "publisher": "Osaka University of Commerce",
+        "issue": 18,
+        "page": "101–76",
+        "issued": {"year":2016, "month":6, "day":30}
     }
 }
