@@ -106,6 +106,7 @@ import imgRunningMan from './running_man.jpg';
 import imgAwaTanka1 from './awa_tanka_1.jpg';
 import imgEkbJunk12 from './ekb_junk_12.jpg';
 import imgAwaJunk12 from './awa_junk_12.jpg';
+import imgAwaJunk8 from './awa_junk_8.jpg';
 
 import pronHachihachibana from '../pronunciation_ja_八八花.mp3';
 import pronEchigobana from '../pronunciation_ja_越後花.mp3';
@@ -165,15 +166,15 @@ const Hanafuda: React.FC = () => {
         size="wide"
         alt="Girls in elaborate traditional Japanese dress sitting in a circle around shells that are arranged face-down on the floor."
         source={{ license: 'cc0', organization: { orgName: "Metropolitan Museum of Art" }, originalUrl: 'https://www.metmuseum.org/art/collection/search/37303' }}>
-        Girls playing a game of <span lang="ja-Latn">kai-awase</span>.<br />From <cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790), by <Noun lang="ja-Latn">Kitagawa Utamaro</Noun> (<span lang="ja">喜多川歌麿</span>)
+        Girls playing a game of <span lang="ja-Latn">kai-awase</span>.<br />From <cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790), by <Noun lang="ja-Latn">Kitagawa Utamaro</Noun> (<span lang="ja">喜多川歌麿</span>).
       </ArticleImage>
       <ArticleImage
         alt="A grandmother, a mother, two young women, and a child sitting in a circle around shells on a tatami mat."
         position="aside"
         size="wide"
         src={imgKaiAwaseGame}
-        source={{ license: 'cc0', organization: { orgName: "跡見学園女子大学" }, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/' }}>
-        A family game of <span lang="ja-Latn" >kai-awase</span>, from <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>)
+        source={{ license: 'cc0', organization: { orgName: "跡見学園女子大学", orgLang: "ja" }, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/' }}>
+        Four generations of women playing <span lang="ja-Latn" >kai-awase</span>.<br/>From <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>).
         </ArticleImage>
       <p>The most relevant of these games was one based upon matching pairs of shells called <Pronounce lang="ja-Latn" word="kai-awase" pronouncer="skent" file={pronKaiAwase} /> (<span lang="ja">貝合わせ</span>, ‘shell matching’). This must have originally been a difficult game, since there is no way to test if shells truly match without placing them together. Eventually it developed into a memory game played with shells that were elaborately painted on the inside, often with scenes from the Tale of Genji (<span lang="ja">源氏物語</span> <Pronounce word="Genji monogatari" file={pronGenjiMonogatari} pronouncer="straycat88" lang="ja-Latn" />) — the game is also played in chapter 45 of the novel itself. Traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells, but modern replicas only have around 54.</p>
       <ArticleImage
@@ -197,7 +198,7 @@ const Hanafuda: React.FC = () => {
           originalUrl: "http://jpcm.sub.jp/home/image/hanafuda-hanaawase02.pdf",
           license: "with-permission",
         }}>
-        Some of the cards from a <span lang="ja-Latn">hana-awase</span> deck produced circa 1704 (at least before 1710). The deck originally contained 400 cards but many are missing. Note the chrysanthemum with <span lang="ja-Latn">sake</span> cup in the third card on the top row.
+        Some of the cards from a <span lang="ja-Latn">hana-awase</span> deck produced circa 1704 (at least before 1710). The deck originally contained 400 cards but many are missing, and the extant deck contains cards from several original decks. Note the chrysanthemum with <span lang="ja-Latn">sake</span> cup in the third card on the top row.
         </ArticleImage>
       <p>The earliest type of card that is recognizably a <Noun lang="ja-Latn">Hanafuda</Noun> deck is that of the <Noun lang="ja-Latn">Musashino</Noun> pattern.</p>
       <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></Footnote> (1787–1793). This ban was to remain in place until 1886, when <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
@@ -441,7 +442,7 @@ const Hanafuda: React.FC = () => {
             licenseVersion: '4.0',
             originalUrl: 'http://photozou.jp/photo/show/314766/35962820',
             copyrightYear: 2010,
-            author: 'ゆぼ'
+            author: { name: 'ゆぼ', lang: "ja" }
           }}>
           The <Noun lang="ja-Latn">Yoshino</Noun> mountainside with cherry trees in bloom.
         </ArticleImage>
@@ -556,13 +557,21 @@ const Hanafuda: React.FC = () => {
           }} >
           <cite>Famous places in the provinces: <Noun lang="ja-Latn">Musashi</Noun> Plain</cite><br /><cite lang="ja">諸国名所　武蔵野</cite><br />A woodblock print by <Noun lang="ja-Latn">Totoya Hokkei</Noun> (<span lang="ja">魚屋 北渓</span>, 1780–1850)
         </ArticleImage>
-        <ArticleImage
-          size="small"
-          src={imgPoem3}
-          alt="The junk cards of the Echigo-bana pattern which bear the poem.">
-          <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
-        </ArticleImage>
-        <p><Cite r={PoemsOfTheEchigobana} inline /> says that the poem on the <span lang="ja-Latn">Echigo-bana</span> junk cards is “untranslatable”, because it has been corrupted. His contact believes it is meant to be poem 422 of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>, or perhaps a revision of it:</p>
+        <div className="multi">
+          <ArticleImage
+            size="small"
+            src={imgPoem3}
+            alt="The junk cards of the Echigo-bana pattern which bear a poem.">
+            <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
+          </ArticleImage>
+          <ArticleImage
+            size="small"
+            src={imgAwaJunk8}
+            alt="The junk cards of the Awa-bana pattern which bears a different portion of the poem.">
+            <span lang="ja-Latn">Awa-bana</span> junk cards, with reduced form of the <span lang="ja-Latn">tanka</span>.
+          </ArticleImage>
+        </div>
+        <p><Cite r={PoemsOfTheEchigobana} inline /> says that the poem on the <span lang="ja-Latn">Echigo-bana</span> junk cards is “untranslatable”, because it has been corrupted. Ebashi believes it is meant to be poem 422 of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>, or perhaps a revision of it:</p>
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             行く末は<br />空もひとつの<br />武蔵野に<br />草の原より<br />出づる月影
