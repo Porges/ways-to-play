@@ -66,7 +66,7 @@ const Morabaraba: React.FC = () => (
         <p>Some rulesets<Cite r={BlacUmlabalaba} /> state that a piece on the central point can only be the middle piece of a mill. Other lines of three formed with the central point do not count as mills.</p>
         <p>Note that it is not possible to form a diagonal mill on this board.</p>
         <ArticleImage
-          position="wide"
+          size="wide"
           src="https://www.instagram.com/p/_glPKmNkd5/media?size=l"
           alt=""
           source={{
@@ -80,14 +80,14 @@ const Morabaraba: React.FC = () => (
       </Section>
       <Section title="Alternate board">
         <ArticleImage
-          position="small"
+          size="small"
           src={imgLargeMerelsWithFullDiagonals}
           alt="">
           An alternate <span className="game-title" lang="st">Morabaraba</span> board.
                 </ArticleImage>
         <p>Another board pattern is also used to play <span className="game-title" lang="st">Morabaraba</span>, with a diagonally crossed central square. I do not know if the rules vary in any way.</p>
         <ArticleImage
-          position="wide"
+          size="wide"
           src="https://www.instagram.com/p/BQ-F9JHhjXa/media?size=l"
           alt=""
           source={{

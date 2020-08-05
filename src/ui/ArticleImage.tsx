@@ -19,12 +19,13 @@ type ResponsiveImageSrc = { src: string, srcSet: string } | string
 
 type Props = {
     noborder?: boolean
-    position?: "wide" | "left" | "right" | "small" | "aside" | "aside-wide"
     source?: SourceInfo
 } & (
     { src: ResponsiveImageSrc, alt: string }
     | { src: [ResponsiveImageSrc, string][], perRow?: number } 
-)
+) & SizePosition
+
+type SizePosition = { size: "wide", position?: "aside" } | { size?: "small", position?: "left"|"right"|"aside" }
 
 const renderSource = (source: SourceInfo) => {
 
@@ -86,17 +87,25 @@ const renderImages = (src: [ResponsiveImageSrc, string][], perRow: number|undefi
 }
 
 export const ArticleImage: React.FC<Props> = props => {
-    const className = 
+    let className = 
         props.position === "right" ? "float-lg-right ml-lg-3 my-lg-1 text-center col-12 col-lg-5" :
         props.position === "left" ? "float-lg-left mr-lg-3 my-lg-1 text-center col-12 col-lg-5" :
-        props.position === "wide" ? "wide text-center" :
-        props.position === "aside-wide" ? "footnote wide" :
-        props.position === "aside" ? "footnote" :
-        `${props.position === undefined ? '' : props.position} w-100 text-center`;
+        props.position === "aside" ? "footnote" : 'text-center';
 
+    if (props.size) {
+      // wide or small
+      className += ` ${props.size}`;
+      if (props.size !== "wide") {
+        className += " w-100";
+      }
+    } else if (!props.position) {
+      className += " w-100";
+    }
+
+      
     // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
     const sizes =
-        props.position === 'wide'
+        props.size === 'wide'
         ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px"
         : "(max-width: 575.98px) 300px, 600px";
 

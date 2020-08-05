@@ -31,7 +31,7 @@ const Kakkuri: React.FC = () => {
     <p>To begin, deal 6 cards to each player in groups of 3. The remaining cards are set in a stack face-down in the middle of the table; this is called the ‘box’ (<span lang="ja">箱</span> <Pronounce pronouncer="poyotan" word= "hako" lang= "ja-Latn" file={pronHako} />).</p>
     <p>If there are 8 people playing, then there will be no cards leftover to form the box; instead, whoever received the <Cards>3</Cards> of <span lang="ja-Latn">pao</span> (or <Cards>3c</Cards> with standard deck) drops out and their hand is shuffled to become the box.</p>
     <ArticleImage
-      position="small"
+      size="small"
       src={img3pao}
       alt="A card with three black lines which overlap each other."
       >
@@ -40,7 +40,7 @@ const Kakkuri: React.FC = () => {
     <p>Before looking at their cards, each player in turn can exchange their hand with the dealer’s hand. This can happen multiple times so that players can end up with the hands of previous players if multiple players swapped.</p>
     <p>Next, the players look at their cards. If any player has been dealt the non-red <Cards>1</Cards>s of <span lang="ja-Latn">isu</span>, <span lang="ja-Latn">ouru</span>, and <span lang="ja-Latn">kotsu</span> (or <Cards>AsAdAh</Cards> if playing with standard playing cards), then they win instantly and are paid 3× by each other player. This is called <span lang="ja">ウタズ</span> (from <span lang="ja">打たず</span> <span lang="ja-Latn">utazu</span>, “without playing”).</p>
     <ArticleImage
-      position="small"
+      size="small"
       src={imgUtazu}
       alt="">
       The <Cards>1</Cards>s of <span lang="ja-Latn">isu</span>, <span lang="ja-Latn">ouru</span>, and <span lang="ja-Latn">kotsu</span>.
@@ -51,7 +51,7 @@ const Kakkuri: React.FC = () => {
     <p>On a player’s turn they may play several cards. Each card must be one rank higher than the last card played (e.g. if the last card is a <Cards>3</Cards>, you can only play a <Cards>4</Cards>). However, a <Cards>1</Cards> can be played after a <Cards>1</Cards>, and a <Cards>2</Cards> can be played after a <Cards>2</Cards>. When the last card played is a <Cards>12</Cards> <span lang="ja-Latn">kiri </span>(or <Cards>K</Cards>), then any rank can be played next. Suits do not matter, and cards are played on the table in front of the person playing them, rather than in the middle of the table (this makes it easier to see how many cards each player has remaining).</p>
     <p>In addition, the <Cards>1</Cards> of <span lang="ja-Latn">pao</span> (<Cards>Ac</Cards>) and <Cards>2</Cards> of <span lang="ja-Latn">ouru</span> (<Cards>2d</Cards>) are wild and can be played as any other card. If turned up from the box they count as a normal <Cards>1</Cards> &amp; <Cards>2</Cards>.</p>
     <ArticleImage
-      position="small"
+      size="small"
       src={imgWilds}
       alt="">
       The wild cards: <Cards>1</Cards> of <span lang="ja-Latn">pao</span> and <Cards>2</Cards> of <span lang="ja-Latn">ouru</span>.

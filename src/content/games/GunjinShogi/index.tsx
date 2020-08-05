@@ -17,14 +17,14 @@ const Kakkuri: React.FC = () => {
       <p>There exist many different versions of <Noun lang="ja-Latn">Gunjin Shogi</Noun>, with between 15 and 35 pieces, and with different ranks or powers given to the pieces. I present two versions that I have access to here.</p>
       <Section title="15-piece version">
         <ArticleImage
-          position="small"
+          size="small"
           alt="A board game box with an image of a soldier riding a white horse and carrying the flag of the Japanese army. On the side of the image are depicted two aeroplanes and a mushroom cloud."
           src={imgGunjinShogiBox1}>
           The box for <span lang="ja">新行軍将棋</span>. This was probably produced some time between 1945–55.<Cite r={HironoriGunjin} />
         </ArticleImage>
         <p>This version was sold as <span lang="ja">新行軍将棋</span> (<span lang="ja-Latn">shinkōgunshōgi</span> ‘new marching chess’). There are fourteen pieces: the first eleven are soldiers ranking from <span lang="ja">元帥</span><Footnote>In the game this is mistakenly spelled “<span lang="ja">元師</span>” both on the piece and in the rules.</Footnote> ‘marshal’ down to <span lang="ja">少尉</span> ‘second lieutenant’; the rest are special pieces <a href="https://en.wikipedia.org/wiki/Military_police"><span lang="ja">ＭＰ</span></a>, <span lang="ja">ヒコーキ</span> ‘aeroplane’, <span lang="ja">原子爆弾</span> ‘atomic bomb’, and <span lang="ja">スパイ</span> ‘spy’.</p>
         <p>The ordinary soldier pieces capture by rank: each can capture any other soldier piece ranked lower than itself. In general, if two pieces of the same rank meet, both are removed from the board. My interpretation of the ranking of each piece is as follows:</p>
-        <ArticleImage src={imgGunjinShogi} alt="TODO" position="aside-wide">
+        <ArticleImage src={imgGunjinShogi} alt="TODO" position="aside" size="wide">
           The board for the 14-piece version, printed on thin paper.
         </ArticleImage>
         {/*TODO: this table is a best-guess at the moment */}
@@ -311,7 +311,7 @@ const Kakkuri: React.FC = () => {
       </Section>
       <Section title="31-piece version">
         <ArticleImage
-          position="small"
+          size="small"
           alt="A board game box with an image of a soldier riding a white horse and carrying the flag of the Japanese army. On the side of the image are depicted two aeroplanes and a tank."
           src={imgGunjinShogiBox2}>
           The box for <span lang="ja">大型行軍将棋</span>.

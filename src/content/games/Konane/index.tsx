@@ -57,7 +57,7 @@ const Konane: React.FC = () => {
         <Cite r={LegendsOfHonolulu} inline /> indicates that the site of the large stone board was the “Spreckels Building”, which was on Fort Street between Merchant St and Queen St, and that the smaller boards mentioned were near <Noun lang="haw">Kekūanāoʻa</Noun>’s house, which was on the corner of King and Richards Streets.
       </Footnote> was reported to be opposite the temple (marked “Hale o Lono” in the map below), in the current location of the Hawaii Community Foundation. Smaller boards were near what is now Iolani Palace.</p>
       <ArticleImage
-        position="wide"
+        size="wide"
         src={img61_611}
         alt="A map of Honolulu as it was in 1810.">
         A reconstruction of Honolulu as it was in 1810. Kamehameha lived in the large compound on the point at the bottom centre. Kou is the area around there, bordered by the yam field at the top. Archibald Campbell stayed for some time with Isaac Davis, who lived in the rightmost of the three houses on the left. (Map from the <a href="https://digicoll.manoa.hawaii.edu/savedmaps/Pages/viewtext.php?s=browse&amp;tid=61&amp;route=browseby.php&amp;by=newest">University of <Noun lang="haw">Hawaiʻi</Noun></a>.)
@@ -81,7 +81,7 @@ const Konane: React.FC = () => {
         </Footnote> from the Bishop Museum.<Cite r={PeterBuck}/></p>
         <p>Peter Buck also describes another board in the Bishop Museum which has 10 rows that alternate in length between 6 &amp; 7 holes.<Cite r={PeterBuck}/> This seems to be the same board described by Emory, where the pits are set quincuncially.<Cite r={Emory24} page={84} /> This is probably not a board for playing <span lang="haw">kōnane</span>, but for playing a game similar to <span lang="es">damas</span> (‘Spanish draughts’), which is known in Hawaii as <span lang="haw">mū</span>. However, it could also be used to play <span lang="haw">kōnane</span> by playing the game on the diagonal.</p>
         <ArticleImage
-          position="wide"
+          size="wide"
           src={img_3365}
           alt="A photograph of a kōnane board set up for play on a beach, with two chairs carved from tree trunks."
           source={{

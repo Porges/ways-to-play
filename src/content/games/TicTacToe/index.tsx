@@ -48,7 +48,7 @@ const TicTacToe: React.FC = () => <>
       Just as a fool, who has but seen the diagrams and delineations in the elements of Euclid, will make himself dead sure that all the mathematics in the world could have consisted in nothing more than in making hobscotches [hop-scotch], and catgallowses [a high-jump], and scratchcradles [cat’s cradle], to play at tit-tat-toe with.
       </blockquote>
     <ArticleImage
-      position='wide'
+      size='wide'
       src={[
         [imageBab1, "Sketches of various games of tic-tac-toe in a notebook."],
         [imageBab2, "Sketches of various games of tic-tac-toe in a notebook."]]}
@@ -125,7 +125,7 @@ const TicTacToe: React.FC = () => <>
       In strife too humble to be named in verse
       </blockquote>
     <ArticleImage
-      position="wide"
+      size="wide"
       src={img5072}
       alt="A wall with a completed tic-tac-toe game drawn on it in chalk."
       source={{
@@ -232,7 +232,7 @@ first player to claim 3 numbers that add to 15 is the winner.
       </table>
     </Section>
     <ArticleImage
-      position="wide"
+      size="wide"
       src={img8576}
       alt="A wall with completed tic-tac-toe games drawn on it in blue pen."
       source={{

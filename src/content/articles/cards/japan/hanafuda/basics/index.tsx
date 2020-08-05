@@ -90,7 +90,7 @@ const Basics: React.FC = () => {
   return (<>
     <p><Pronounce pronouncer="biscuit" word="Hanafuda" lang="ja-Latn" file={pronHanafuda} noun /> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronounce pronouncer="ssoonkimi" word="hwatu" lang="ko-Latn" file={pronHwatu} /> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.</p>
     <ArticleImage
-      position="wide"
+      size="wide"
       src={img1620}
       alt="A pile of hanafuda cards."
       source={{
@@ -141,8 +141,8 @@ const Basics: React.FC = () => {
             ]}
             perRow={5}>The bright cards.</ArticleImage>
           <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<Footnote><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r={ModernKoreanCards} /></Footnote></p>
-          <ArticleImage position="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
-          <ArticleImage position="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.</ArticleImage>
+          <ArticleImage size="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
+          <ArticleImage size="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.</ArticleImage>
         </Section>
         <Section title="Species cards">
           <p>There are 9 ‘species’ (<span lang="ja">種</span> <Pronounce pronouncer="yasuo" word="tane" lang="ja-Latn" file={pronTane} />) cards, which are usually worth 10 points each. These feature animals, but also a sake cup, and the ‘eight-planked bridge’.</p>
@@ -178,7 +178,7 @@ const Basics: React.FC = () => {
             perRow={5}>The 10 scroll cards.</ArticleImage>
           <ArticleImage
             alt="A screen with a painting of a maple tree in autumn colours, with many tanzaku hanging from its branches."
-            position="wide"
+            size="wide"
             src={imgAutumnMaples}
             source={{
               originalUrl: "https://www.artic.edu/artworks/127644/autumn-maples-with-poem-slips",
@@ -234,7 +234,7 @@ const Basics: React.FC = () => {
               Assorted jokers from a Korean Rainbow deck.
             </ArticleImage>
           </div>
-          <ArticleImage position="small"
+          <ArticleImage size="small"
             src={imgHwatooJokers}
             alt="Two cards labelled ‘joker’, one with a frog and one with a black bird.">
             Two joker cards from the Yongjaeng Hwatoo ‘Style’ deck.

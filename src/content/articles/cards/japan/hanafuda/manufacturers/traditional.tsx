@@ -45,6 +45,7 @@ import imgNihon1896 from './Nihon_1896.jpg';
 import imgTakarabune from './Takarabune_by_Hiroshige.jpg';
 import imgOtafuku from './otafuku.jpg';
 import imgMatsuiShop from './2448px-松井天狗堂.jpg';
+import imgNishimuraBrand from './nishimura_brand.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -74,7 +75,7 @@ const Manufacturers: React.FC = () => {
     <Section title="Identification">
       <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the front of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the end of the container. So a box of <Noun lang="ja-Latn">Nintendō</Noun> cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
       <ArticleImage
-        position="small"
+        size="small"
         src={imgNintendoEnd}
         alt="The end of a Hanafuda wrapper with Japanese writing indicating its contents.">
         The end of a <Noun lang="ja-Latn">Nintendō</Noun> wrapper indicating that it contains<br />standard (<span lang="ja">八々花</span> <span lang="ja-Latn">hachihachibana</span>) Hanafuda cards, with black (<span lang="ja">黒</span>) backs.
@@ -82,7 +83,7 @@ const Manufacturers: React.FC = () => {
       <Section title="Manufacturer’s Marks">
         <p>Within the deck, the manufacturer’s name or mark is nowadays always on one of the Paulownia junk cards, but on older decks it is can be on a Peony or Wisteria (or another card entirely).</p>
         <ArticleImage
-          position="small"
+          size="small"
           src={imgMarks}
           alt="Three cards all featuring Paulownia flowers, with maker’s marks printed upon them.">
           Manufacturer’s marks from <Noun lang="ja-Latn">Nintendō</Noun>, Angel, and <Noun lang="ja-Latn">Maruē</Noun>.
@@ -282,7 +283,7 @@ const Manufacturers: React.FC = () => {
       <Section title={<><Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</>}>
         <p><Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company producing <Noun lang="jp-Latn">Hanafuda</Noun> cards today. The company was founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun> (<span lang="ja">山内 房治郎</span>), and it was run by the <Noun lang="ja-Latn">Yamauchi</Noun> family for three generations until <Noun lang="ja-Latn">Yamauchi Hiroshi</Noun> (<span lang="ja">山内 溥</span>) stepped down in 2002.</p>
         <ArticleImage
-          position="wide"
+          size="wide"
           src={imgNintendoShop}
           alt="A wooden storefront with wrought-iron railings and a bicycle parked outside."
           source={{ license: "cc0" }}>
@@ -349,7 +350,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">當矢</span> (<span lang="ja-Latn">atariya</span>, ‘winning arrow’)</li>
           <li><span lang="ja">四季</span> (<span lang="ja-Latn">shiki</span>, ‘four seasons’)</li>
           <li><span lang="ja">大江山</span> (<span lang="ja-Latn">ōeyama</span>, <a href="https://en.wikipedia.org/wiki/%C5%8Ceyama">a mountain near <Noun lang="ja-Latn">Kyōto</Noun></a>)</li>
-          <li><span lang="ja">寳船</span> (<span lang="ja-Latn">takarabune</span>, ‘treasure ship’)<ArticleImage position="aside-wide" src={imgTakarabune} alt="TODO" source={{originalUrl: "https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license:"cc0", author: "MichaelMaggs"}}>The <span lang="ja-Latn">takarabune</span> is a <a href="https://en.wikipedia.org/wiki/Takarabune">mythical ship</a> that carries the <a href="https://en.wikipedia.org/wiki/Seven_Lucky_Gods">seven lucky gods</a>, as shown in this print by <a href="https://en.wikipedia.org/wiki/Hiroshige">Hiroshige</a> (<abbr title="circa">c.</abbr> 1840). </ArticleImage></li>
+          <li><span lang="ja">寳船</span> (<span lang="ja-Latn">takarabune</span>, ‘treasure ship’)<ArticleImage position="aside" size="wide" src={imgTakarabune} alt="TODO" source={{originalUrl: "https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license:"cc0", author: "MichaelMaggs"}}>The <span lang="ja-Latn">takarabune</span> is a <a href="https://en.wikipedia.org/wiki/Takarabune">mythical ship</a> that carries the <a href="https://en.wikipedia.org/wiki/Seven_Lucky_Gods">seven lucky gods</a>, as shown in this print by <a href="https://en.wikipedia.org/wiki/Hiroshige">Hiroshige</a> (<abbr title="circa">c.</abbr> 1840). </ArticleImage></li>
           <li><span lang="ja">御所車</span> (<span lang="ja-Latn">goshoguruma</span>, ‘ox-drawn coach’)</li>
           <li><span lang="ja">来福</span> (<span lang="ja-Latn">raifuku</span>, ‘fortune comes’, a reference to the full <a href="https://en.wikipedia.org/wiki/Yojijukugo"><span lang="ja-Latn">yojijukugo</span></a> “<span lang="ja">笑門来福</span>”, ‘fortune comes to the home of those who smile’)</li>
           <li><span lang="ja">花津久志/花𛁫くし</span> (<span lang="ja-Latn">hanazukushi</span>, ‘assorted flowers’)</li>
@@ -359,19 +360,19 @@ const Manufacturers: React.FC = () => {
         </ul>
         <div className="multi">
           <ArticleImage
-            position="small"
+            size="small"
             src={imgOishiTengudo}
             alt="The front of a wooden Hanafuda box with a pasted-on image of a Tengu mask.">
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <Noun lang="ja-Latn">Kin Tengu</Noun> decks come in Paulownia-wood boxes.
             </ArticleImage>
           <ArticleImage
-            position="small"
+            size="small"
             src={imgOishiNarikin}
             alt="A Hanafuda box front featuring a large Koban coin with ‘Narikin’ (newly rich) written on it.">
             The packaging for <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <Noun lang="ja-Latn">Narikin</Noun> brand.
             </ArticleImage>
           <ArticleImage
-            position="small"
+            size="small"
             src={imgOishiMark}
             alt="A card with wistera showing the manufacturer’s mark.">
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s manufacturer’s mark, on a Wisteria card from an old <Noun lang="ja-Latn">Narikin</Noun> deck.
@@ -674,6 +675,20 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Nishimura</Noun> (<span lang="ja">西村</span>)</>}>
+        <ArticleImage
+          position="aside"
+          src={imgNishimuraBrand}
+          alt="A card with a samurai wearing traditional clothing and carrying an open umbrella"
+          source={{
+            author: {
+              family: "Richert",
+              given: "Marcus"
+            },
+            copyrightYear: 2020,
+            license: "with-permission"
+          }}>
+          A <Noun lang="ja-Latn">Nishimura</Noun> advertising card featuring the <span lang="ja-Latn">kabuki</span> character <a href="https://en.wikipedia.org/wiki/Sukeroku"><Noun lang="ja-Latn">Sukeroku</Noun></a>, who appeared often in their branding. <Noun lang="ja-Latn">Sukeroku</Noun> popularized the style of umbrella called a ‘snake-eye umbrella’ (<span lang="ja">蛇の目傘</span>) due to its pattern, so this type of umbrella is also referred to as a <span lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
+        </ArticleImage>
         <p>At first an important manufacturer in <Noun lang="ja-Latn">Tōkyō</Noun>, but later cards were made by other makers including <Noun lang="ja-Latn">Ōishi Tengudō</Noun>. Their mark was a circled <span lang="ja" className="circled">い</span>, and their brands included:<Cite r={ModernJapaneseWrappers} page={[54, 58]} /></p>
         <ul>
           <li><span lang="ja">金助六</span> (<span lang="ja-Latn">kinsukeroku</span>, ‘golden <a href="https://en.wikipedia.org/wiki/Sukeroku" className="proper-noun" lang="ja-Latn">Sukeroku</a>’)</li>
