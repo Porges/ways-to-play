@@ -95,13 +95,11 @@ export const ArticleImage: React.FC<Props> = props => {
     if (props.size) {
       // wide or small
       className += ` ${props.size}`;
-      if (props.size !== "wide") {
-        className += " w-100";
-      }
-    } else if (!props.position) {
-      className += " w-100";
     }
 
+    if (props.size !== 'wide' && !props.position) {
+      className += " w-100";
+    }
       
     // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
     const sizes =
