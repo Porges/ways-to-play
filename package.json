@@ -4,7 +4,7 @@
   "homepage": "https://games.porg.es/",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^5.6.3",
+    "@craco/craco": "^5.6.4",
     "@fortawesome/fontawesome-free": "^5.13.1",
     "@types/jest": "^26.0.3",
     "@types/node": "^14.0.14",
@@ -22,7 +22,7 @@
     "react-helmet-async": "^1.0.2",
     "react-router-dom": "^5.0.1",
     "react-scripts": "^3.4.1",
-    "responsive-loader": "^2.0.0",
+    "responsive-loader": "1.2.0",
     "slug": "^3.3.0",
     "tslib": "^2.0.0",
     "typescript": "^3.9.5"

@@ -1,13 +1,13 @@
 const { getLoader, loaderByName } = require('@craco/craco');
 const { resolve } = require('path');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
+const { inspect } = require('util');
 
 module.exports = {
     webpack : {
         configure: (webpackConfig, { env, paths }) => {
 
             const config = { ...webpackConfig };
-
 
             const mp3Loader = 
                 {
@@ -23,9 +23,6 @@ module.exports = {
 
             rule.oneOf = [mp3Loader, ...rule.oneOf];
 
-
-
-
             const urlLoader = getLoader(config, loaderByName('url-loader'));
             if (!urlLoader.isFound) {
                 throw new Error("Unable to find 'url-loader' in CRA config");
@@ -37,10 +34,14 @@ module.exports = {
                 [ { loader: loader.loader
                   , options:
                         { ...loader.options 
-                        , fallback: 'responsive-loader'
-                        , adapter: require('responsive-loader/sharp')
+                        , fallback:
+                          { loader: require.resolve('responsive-loader')
+                          , options:
+                            { adapter: require('responsive-loader/sharp')
+                            , sizes: [ 300, 600, 800, 1200, 1600 ]
+                            }
+                          }
                         , name: 'static/media/[name]-[width].[hash:8].[ext]'
-                        , sizes: [ 300, 600, 800, 1200, 1600 ]
                         } 
                   }
                 ];
@@ -48,8 +49,7 @@ module.exports = {
             delete loader.loader;
             delete loader.options;
 
-
-
+            console.error(inspect(loader, false, 100, true));
 
             const imageMin =
                 new ImageminPlugin(
