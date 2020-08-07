@@ -254,6 +254,7 @@ const Hanafuda: React.FC = () => {
       </ArticleImage>
     </Section>
     <Section title="Hanafuda Patterns">
+      <p>A playing-card ‘pattern’ is a common set of designs that has been used by multiple different manufacturers over a period of time. With <span lang="ja-Latn">hanafuda</span> there is now one primary or “standard” pattern: all other patterns are referred to as ‘local cards’ (<span lang="ja">地方札</span> <span lang="ja-Latn">chihōfuda</span>), and considered to be specific to a particular region. Most of these are of historical interest only and are no longer manufactured, and there is little information about how gameplay differed in different regions.</p>
       <Section title={<>Standard (<Noun lang="ja-Latn">Hachihachi-bana</Noun>)</>}>
         <p>The standard pattern is now one that is called <Pronounce pronouncer="poyotan" word="hachihachi-bana" lang="ja-Latn" file={pronHachihachibana} /> (<span lang="ja">八八花</span>/<span lang="ja">八々花</span>), since it was primarily used to play the game <span lang="ja">八八</span> ‘88’. Almost all decks use this pattern, and images from it are used to show the cards of each month below.</p>
         <ArticleImage size="small" src={img5Brights} alt="TODO">The 5 Bright cards of the <span lang="ja-Latn">hachihachi-bana</span> pattern, from a <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
