@@ -91,20 +91,8 @@ const renderImages = (src: [ResponsiveImageSrc, string][], perRow: number|undefi
 }
 
 export const ArticleImage: React.FC<Props> = props => {
-    let className = 
-        props.position === "right" ? "float-lg-right ml-lg-3 my-lg-1 text-center col-12 col-lg-5" :
-        props.position === "left" ? "float-lg-left mr-lg-3 my-lg-1 text-center col-12 col-lg-5" :
-        props.position === "aside" ? "footnote" : 'text-center';
+    const className = `${props.position || ''} ${props.size || ''}`;
 
-    if (props.size) {
-      // wide or small
-      className += ` ${props.size}`;
-    }
-
-    if (props.size !== 'wide' && !props.position) {
-      className += " w-100";
-    }
-      
     // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
     const sizes =
         props.size === 'wide'

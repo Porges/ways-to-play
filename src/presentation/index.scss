@@ -154,6 +154,13 @@ img {
 figure > img {
     max-height: 400px;
     width: auto;
+
+    border: 1px solid black;
+}
+
+/* don't border diagrams by default */
+figure > img[src$=".svg"] {
+    border: none;
 }
 
 /* add a smaller version too */
@@ -162,19 +169,27 @@ figure.small > img {
     width: auto;
 }
 
-/* image borders */
-figure > img {
-    border: 1px solid black;
-}
 
-/* don't border diagrams */
-figure > img[src$=".svg"] {
-    border: none;
-}
-
-/* Wide images */
-figure.wide {
+/* Figure placements */
+figure {
     width: 100%;
+    @extend .text-center;
+
+    &.right {
+        @extend .float-lg-right, .ml-lg-3, .my-lg-1;
+    }
+
+    &.left {
+        @extend .float-lg-left, .mr-lg-3, .my-lg-1;
+    }
+
+    &.left, &.right {
+      @extend .col-12, .col-lg-5;
+    }
+
+    &.aside {
+      @extend .footnote;
+    }
 }
 
 /* Wide images are oversize on >=large bootstrap size */
@@ -386,7 +401,7 @@ span.footnote::before {
 /*** Multiple items in a row: ***/
 div.multi {
     display: flex;
-    max-width: 100%;
+    width: 100%;
     justify-content: space-around;
     margin-bottom: 1rem;
 }
