@@ -322,9 +322,7 @@ const Hanafuda: React.FC = () => {
         </ArticleImage>
       </Section>
       <Section title="Modern/Novelty decks">
-        <p>In addition to the traditional standard patterns, there are also many modern revisions or novelty decks that
-        can be found. More information and examples of these can be found in the <Link to="/articles/cards/japan/hanafuda/new-manufacturers">article about new <Noun
-            lang="ja-Latn">Hanafuda</Noun> manufacturers</Link>.</p>
+        <p>In addition to the above, there are also many modern revisions or novelty decks that do not conform to any one of the traditional patterns. More information and examples of these can be found in the <Link to="/articles/cards/japan/hanafuda/new-manufacturers">article about new <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers</Link>.</p>
       </Section>
     </Section>
     <Section title="Cards in Depth">
