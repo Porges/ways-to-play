@@ -153,11 +153,13 @@ img {
 /* set a max height for images */
 figure > img {
     max-height: 400px;
+    width: auto;
 }
 
 /* add a smaller version too */
 figure.small > img {
     max-height: 200px;
+    width: auto;
 }
 
 /* image borders */

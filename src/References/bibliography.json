@@ -3670,5 +3670,28 @@
       "issued": {"year": 1890},
       "publisher": "Dodd, Mead, and Company",
       "publisher-place": "New York, USA"
+    },
+    "KaiOi": {
+        "id": "KaiOi",
+        "type": "webpage",
+        "URL": "http://www.asahi-net.or.jp/~rp9h-tkhs/dg_kaioi.htm",
+        "title": "貝覆い",
+        "title-lang": "ja",
+        "author": [{"given": "浩徳", "family": "高橋", "lang": "ja"}],
+        "issued": {"year": 2016}
+    },
+    "WorldOfTheShiningPrince": {
+        "id": "WorldOfTheShiningPrince",
+        "type": "book",
+        "URL": "https://archive.org/stream/worldofshiningpr00morr",
+        "title": "The World of the Shining Prince",
+        "author": [
+            { "given": "Ivan", "family": "Morris" }
+        ],
+        "issued": {"year": 1979},
+        "original-date": { "year": 1964},
+        "publisher": "Penguin Books",
+        "publisher-place": "Middlesex, England, UK",
+        "ISBN": "0-14-00-5479-0"
     }
 }

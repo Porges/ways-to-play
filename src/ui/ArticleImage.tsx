@@ -15,7 +15,7 @@ export type SourceInfo = {
     licenseVersion?: L.Version,
 }
 
-type ResponsiveImageSrc = { src: string, srcSet: string } | string
+type ResponsiveImageSrc = ResponsiveImageOutput | string
 
 type Props = {
     noborder?: boolean
@@ -51,10 +51,14 @@ const renderSource = (source: SourceInfo) => {
 }
 
 const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, noborder?: boolean) => {
+
   const className = noborder ? "border-0" : undefined;
-  return typeof src === 'string'
-    ? <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} />
-    : <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />;
+  if (typeof src === 'string') {
+    return <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} loading="lazy" />;
+  }
+
+  const maxImage = src.images[src.images.length-1];
+  return <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} width={maxImage.width} height={maxImage.height} loading="lazy" />;
 }
 
 const imageObject = "http://schema.org/ImageObject";
