@@ -153,7 +153,12 @@ img {
 /* set a max height for images */
 figure > img {
     max-height: 400px;
+    max-width: 100%;
     width: auto;
+    height: auto;
+
+    // see: https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/
+    //aspect-ratio: attr(width) / attr(height);
 
     border: 1px solid black;
 }
@@ -166,9 +171,7 @@ figure > img[src$=".svg"] {
 /* add a smaller version too */
 figure.small > img {
     max-height: 200px;
-    width: auto;
 }
-
 
 /* Figure placements */
 figure {
@@ -201,8 +204,9 @@ figure {
     }
 
     figure.wide > img  {
-        max-height: inherit;
-        border: 2px solid black;
+        max-height: none;
+
+        border-width: 2px;
     }
 
     figure.wide.footnote > img {

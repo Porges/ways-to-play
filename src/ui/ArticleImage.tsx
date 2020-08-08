@@ -54,11 +54,11 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
 
   const className = noborder ? "border-0" : undefined;
   if (typeof src === 'string') {
-    return <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} loading="lazy" />;
+    return <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} loading="lazy" fluid={false} />;
   }
 
   const maxImage = src.images[src.images.length-1];
-  return <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} width={maxImage.width} height={maxImage.height} loading="lazy" />;
+  return <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} width={maxImage.width} height={maxImage.height} loading="lazy" fluid={false} />;
 }
 
 const imageObject = "http://schema.org/ImageObject";
@@ -67,8 +67,8 @@ const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: strin
     return (
         <div itemScope itemType={imageObject} itemProp="image" key={ix} itemRef={sourceId}>{
             typeof src === 'string'
-            ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} />
-            : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />
+            ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} loading="lazy" />
+            : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} loading="lazy" />
         }</div>
     );
 }
