@@ -28,6 +28,8 @@ import imgEchigoKobanaBrights from './Echigo_Kobana_Brights.jpg';
 import imgEchigoKobanaExtra from './Echigo_Kobana_Extras.jpg';
 import imgKintoki from './KintoBana_Kintoki.jpg';
 import imgEkbRainman from './ekb_rainman.jpg';
+import imgHinaMatsuri from './HinaMatsuri-Masanobu.jpg';
+import imgHinaMatsuriDetail from './HinaMatsuri-Masanobu-Detail.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.png';
 import imgHanafuda1_2 from '../Hanafuda_1-2.png';
@@ -160,9 +162,7 @@ import { Link } from 'react-router-dom';
 const Hanafuda: React.FC = () => {
   return (<>
     <Section title="Origins">
-      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn" word="Edo" noun pronouncer="Nipponese" file={pronEdo} /> period (<span lang="ja">江戸</span>, 1603–1868). The distant origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>), which existed since the <Noun lang="ja-Latn">Heian</Noun> period (<span lang="ja">平安</span>, 794–1185). These were courtly competitions in which various objects were compared as to their qualities: objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, iris roots,<Cite r={WorldOfTheShiningPrince} page={163} /> wild pinks); animals (insects, songbirds<Cite r={WorldOfTheShiningPrince} page={163}/>); incense; tea<Cite r={AnIntroductionToJapaneseTeaRitual} page={26} />; or shells. The most esteemed of these competitions were the poetry match (<span lang="ja">歌合</span> <span lang="ja-Latn">uta-awase</span>) and the painting competition (<span lang="ja">絵合せ</span> <span lang="ja-Latn">e-awase</span>).</p>
-      <p>Each of these competitions was based upon comparing and contrasting the specific features or attributes of the objects being scrutinized.<Footnote>Although the same terminology was also used for sports such as cock-fighting.<Cite r={WorldOfTheShiningPrince} page={165} /></Footnote> From these comparing competitions, the <Pronounce lang="ja-Latn" word="kai-awase" pronouncer="skent" file={pronKaiAwase} /> (<span lang="ja">貝合わせ</span>, ‘shell matching’) game was developed into a different style of game, based upon collecting matching pairs of shells.<Footnote>In this form it became known as <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell cover’), and <Noun lang="ja-Latn">Takahashi Hironori</Noun> draws a distinction between the two games.<Cite r={KaiOi}/> However, <span lang="ja-Latn">kai-awase</span> is still the most commonly-used term for the matching game, so I continue to use it here.</Footnote></p>
-      <p>The game must have been difficult, since the shells were placed face-down and the only clues to figure out a match were the subtle shades and contours of the shell. The only way to test if shells truly matched was to pick them up and attempt to join them together. Considering that traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells,<Footnote>Modern replicas usually only have around 54.</Footnote> this was a game for a class of person with a lot of time on their hands.</p>
+      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn" word="Edo" noun pronouncer="Nipponese" file={pronEdo} /> period (<span lang="ja">江戸</span>, 1603–1868). The distant origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>) that had been played since the <Noun lang="ja-Latn">Heian</Noun> period (<span lang="ja">平安</span>, 794–1185). These were courtly competitions in which various objects were compared as to their qualities or unique attributes:<Footnote>Although the same terminology of <span lang="ja-Latn">awase</span> was also used for sports such as cock-fighting.<Cite r={WorldOfTheShiningPrince} page={165} /></Footnote> objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, iris roots,<Cite r={WorldOfTheShiningPrince} page={163} /> wild pinks); animals (insects, songbirds<Cite r={WorldOfTheShiningPrince} page={163}/>); incense; tea<Cite r={AnIntroductionToJapaneseTeaRitual} page={26} />; or shells. The most esteemed of these competitions were the poetry match (<span lang="ja">歌合</span> <span lang="ja-Latn">uta-awase</span>) and the painting competition (<span lang="ja">絵合せ</span> <span lang="ja-Latn">e-awase</span>).</p>
       <ArticleImage
         src={imgKaiAwase}
         size="wide"
@@ -177,8 +177,10 @@ const Hanafuda: React.FC = () => {
         src={imgKaiAwaseGame}
         source={{ license: 'cc0', organization: { orgName: "跡見学園女子大学", orgLang: "ja" }, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/' }}>
         Four generations of women playing <span lang="ja-Latn" >kai-awase</span>.<br/>From <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>).
-        </ArticleImage>
-      <p>Later the interior of the shells became elaborately painted or gilded on the inside, often illustrating scenes from the Tale of Genji (<span lang="ja">源氏物語</span> <Pronounce word="Genji monogatari" file={pronGenjiMonogatari} pronouncer="straycat88" lang="ja-Latn" />) — the game is also played in chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem. These elaborate sets with their hand-painted and gilded interiors must have been expensive to create and only owned by richest of families.</p>
+      </ArticleImage>
+      <p>From these comparing competitions, the <Pronounce lang="ja-Latn" word="kai-awase" pronouncer="skent" file={pronKaiAwase} /> (<span lang="ja">貝合わせ</span>, ‘shell matching’) game was developed into a different style of game, based upon collecting matching pairs of shells.<Footnote>In this form it became known as <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell cover’), and <Noun lang="ja-Latn">Takahashi Hironori</Noun> draws a distinction between the two games.<Cite r={KaiOi}/> However, <span lang="ja-Latn">kai-awase</span> is still the most commonly-used term for the matching game, so I continue to use it here.</Footnote></p>
+      <p>The game must have been difficult, since the shells were placed face-down and the only clues to figure out a match were the subtle shades and contours of the shell. The only way to test if shells truly matched was to pick them up and attempt to join them together. Considering that traditional <span lang="ja-Latn">kai-awase</span> sets have up to 360 shells,<Footnote>Modern replicas usually only have around 54.</Footnote> this was a game for a class of person with a lot of time on their hands.</p>
+      <p>Later the interior of the shells became elaborately painted or gilded on the inside, often illustrating scenes from the Tale of Genji (<span lang="ja">源氏物語</span> <Pronounce word="Genji monogatari" file={pronGenjiMonogatari} pronouncer="straycat88" lang="ja-Latn" />) — the game is also played in Chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem. These elaborate sets with their hand-painted and gilded interiors must have been expensive to create and only owned by richest of families.</p>
       <ArticleImage
         src={
           [[imgKai1, 'Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.']
@@ -187,7 +189,20 @@ const Hanafuda: React.FC = () => {
         source={{ license: 'cc0', organization: { orgName: "Portland Art Museum" }, originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101' }}>
         An 18th-century <span lang="ja-Latn">kai-awase</span> set. The paired boxes are called <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell buckets’), and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
       </ArticleImage>
-      <p>A personal set <span lang="ja-Latn">kai-awase</span> became part of a noble bride’s wedding gifts, as the joining of the matching shells was symbolic of the joining of husband and wife in marriage. In this role, miniature <span lang="ja-Latn">kai-awase</span> sets can be found in <a href="https://en.wikipedia.org/wiki/Hinamatsuri"><span lang="ja-Latn">hina-matsuri</span></a> collections.</p>
+      <p>A personal set <span lang="ja-Latn">kai-awase</span> became part of a noble bride’s wedding gifts, as the joining of the matching shells was symbolic of the joining of husband and wife in marriage. In this role, depictions of <span lang="ja-Latn">kai-awase</span> can be found in <a href="https://en.wikipedia.org/wiki/Hinamatsuri"><span lang="ja-Latn">hina-matsuri</span></a> collections, and miniature <span lang="ja-Latn">kai-oke</span> can still be purchased today.</p>
+      <ArticleImage
+        position="aside"
+        size="small"
+        src={imgHinaMatsuriDetail}
+        alt="">
+        Detail of the miniature <span lang="ja-Latn">kai-oke</span> in the print.
+      </ArticleImage>
+      <ArticleImage
+        src={imgHinaMatsuri}
+        alt=""
+        source={{license: "cc0"}}>
+        A miniature <span lang="ja-Latn">kai-oke</span> can be seen in this depiction of a <span lang="ja-Latn">hina-matsuri</span> set.<br/>By <a href="https://en.wikipedia.org/wiki/Okumura_Masanobu"><Noun lang="ja-Latn">Okumura Masanobu</Noun></a> (<span lang="ja">奥村政信</span>, 1686–1764).
+      </ArticleImage>
       <p><Noun lang="ja-Latn">Hanafuda</Noun> seem to originate in a combination of the themes of <span lang="ja-Latn">kai-awase</span> — matching sets, poetry, conventionalized art — with the ideas introduced by the Portuguese playing cards — a regular structure of <i>suits</i> divided into different <i>ranks</i>.</p>
       <p>These two distinct schools of playing-card games first combined in the form of <span lang="ja-Latn">hana-awase</span> decks. These early 18th century ancestors of <Noun lang="ja-Latn">Hanafuda</Noun> (such as the deck below) show a very regular configuration of cards for each flower, which evolved during the 18th and 19th centuries into the unusual configuration of the <Noun lang="ja-Latn">Hanafuda</Noun> deck.</p>
       <ArticleImage
@@ -644,7 +659,7 @@ const Hanafuda: React.FC = () => {
           alt="The junk cards of the Echigo-bana pattern which bear the poem.">
           <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
         </ArticleImage>
-        <p>The poem on the <span lang="ja-Latn">Echigo-bana</span> junk cards is Poem 437 from the ‘Autumn 2’ section of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>. It was composed by <Noun lang="ja-Latn">Fujiwara no Ietaka</Noun>, upon the finalization of the poetry collection:<Cite r={MakingShinkokinshu} page={318} /></p>
+        <p>The poem on the <span lang="ja-Latn">Echigo-bana</span> junk cards is Poem 437 from the ‘Autumn 2’ section of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>. It was composed by <Noun lang="ja-Latn">Fujiwara no Ietaka</Noun> (<span lang="ja">藤原家隆</span>, 1158–1237), upon the finalization of the poetry collection:<Cite r={MakingShinkokinshu} page={318} /></p>
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             したもみぢ<br />かつちる山の<br />ゆふしぐれ<br />ぬれてやひとり<br />鹿のなくらん
