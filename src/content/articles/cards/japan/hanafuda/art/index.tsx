@@ -303,7 +303,7 @@ const Hanafuda: React.FC = () => {
           alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details.">
           The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
         </ArticleImage>
-        <p>Some of the junk cards also carry short poems (<span lang="ja">短歌</span> <Pronounce pronouncer="akitomo" word="tanka" lang="ja-Latn" file={pronTanka} />). Poetry is a common sight on traditional Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints above — and often provides more context to the images. The poems of the <Noun lang="ja-Latn">Echigo-bana</Noun> will be explained below.</p>
+        <p>Some of the <span lang="ja-Latn">kasu</span> cards also carry short poems (<span lang="ja">短歌</span> <Pronounce pronouncer="akitomo" word="tanka" lang="ja-Latn" file={pronTanka} />). Poetry is a common sight on traditional Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints above — and often provides more context to the images. The poems of the <Noun lang="ja-Latn">Echigo-bana</Noun> will be explained below.</p>
       </Section>
       <Section title={<Noun lang="ja-Latn">Echigo-kobana</Noun>}>
         <p>The <span lang="ja-Latn">Echigo-kobana</span> (<span lang="ja">越後小花</span> ‘Echigo small flowers’) pattern is similar to the <Noun lang="ja-Latn">Echigo-bana</Noun>, but with very small cards measuring approximately 3&nbsp;cm × 4.5&nbsp;cm (1⅛″ × 1¾″).</p>
@@ -345,11 +345,11 @@ const Hanafuda: React.FC = () => {
         <ArticleImage
           src={[
             [imgHanafuda1_1, "A card with a red moon, a crane, and pine trees."],
-            [imgHanafuda1_2, "A card with pine trees and a red scroll with writing."],
+            [imgHanafuda1_2, "A card with pine trees and a red tanzaku with writing."],
             [imgHanafuda1_3, "A card with pine trees."],
             [imgHanafuda1_4, "A card with pine trees."],
           ]}>
-          The cards for January feature pine trees. There is one bright card, one scroll card (with text), and two junk cards.
+          The cards for January feature pine trees. There is one bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
           position="aside"
@@ -364,22 +364,22 @@ const Hanafuda: React.FC = () => {
         </ArticleImage>
         <p>The bright card for January shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity, so they are a common combination in Japanese art; the mythical Mount <Noun lang="ja-Latn">Hōrai</Noun>, dwelling-place of immortals, is depicted as wooded with pine trees and populated by cranes.</p>
         <p>The pine is associated with winter and snow, so these cards show the lingering influence of winter during the new year. The traditional held on the first Day of the Rat of the new year (<span lang="ja">子の日の宴</span> <span lang="ja-Latn">nenohi no en</span>) involved uprooting small pine trees.<Cite r={WorldOfTheShiningPrince} page={168} /></p>
-        <p>The text on the scroll reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.<Footnote>The writing on the scroll uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.</Footnote> This means ‘red/good’ and was an older name of a <span lang="ja-Latn">hachi-hachi yaku</span> which is now called <span lang="ja-Latn">akatan</span>.<Footnote>The meaning of this phrase is usually said to be “unclear”, even by <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers. Some derive a meaning like ‘clearly good’ based on reading <span lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span> show <span lang="ja-Latn">akayoroshi</span> alongside <span lang="ja-Latn">aoyoroshi</span> (‘blue/good’) indicating that <span lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).</Footnote></p>
+        <p>The text on the <span lang="ja-Latn">tanzaku</span> reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.<Footnote>The writing on the <span lang="ja-Latn">tanzaku</span> uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.</Footnote> This means ‘red/good’ and was an older name of a <span lang="ja-Latn">hachi-hachi yaku</span> which is now called <span lang="ja-Latn">akatan</span>.<Footnote>The meaning of this phrase is usually said to be “unclear”, even by <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers. Some derive a meaning like ‘clearly good’ based on reading <span lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span> show <span lang="ja-Latn">akayoroshi</span> alongside <span lang="ja-Latn">aoyoroshi</span> (‘blue/good’) indicating that <span lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).</Footnote></p>
         <div className="multi">
           <ArticleImage
             size="small"
             src={imgPoem1}
-            alt="The junk cards of the Echigo-bana pattern which bear the poem.">
-            <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
+            alt="The kasu cards of the Echigo-bana pattern which bear the poem.">
+            <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
           </ArticleImage>
           <ArticleImage
             size="small"
             src={imgAwaTanka1}
-            alt="The junk cards of the Awa-bana pattern which bears a poem.">
-            An <span lang="ja-Latn">Awa-bana</span> junk card, with a shortened version of the same <span lang="ja-Latn">tanka</span> (the other junk card bears the same phrases).
+            alt="The kasu cards of the Awa-bana pattern which bears a poem.">
+            An <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> card, with a shortened version of the same <span lang="ja-Latn">tanka</span> (the other <span lang="ja-Latn">kasu</span> card bears the same phrases).
           </ArticleImage>
         </div>
-        <p>In the <span lang="ja-Latn">Echigo-bana</span> and <span lang="ja-Latn">Awa-bana</span> patterns, the junk cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun><Footnote><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<abbr title="died">d.</abbr> 983) was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</Footnote> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the <Pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn" file={pronKokinWakashu} noun /> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
+        <p>In the <span lang="ja-Latn">Echigo-bana</span> and <span lang="ja-Latn">Awa-bana</span> patterns, the <span lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun><Footnote><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<abbr title="died">d.</abbr> 983) was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</Footnote> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the <Pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn" file={pronKokinWakashu} noun /> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
         <Footnote standalone>
           <p><Cite r={PoemsOfTheEchigobana} page={4} inline /> notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
         </Footnote>
@@ -389,7 +389,7 @@ const Hanafuda: React.FC = () => {
         </p>
           <p>Even the verdure<br />of foliage on the pine tree,<br />“ever unchanging”,<br />deepens into new richness<br />now that springtime has arrived.<Cite r={KokinWakashu} page={18} /></p>
         </div>
-        <p>The junk cards of the <Noun lang="ja-Latn">Awa­-bana</Noun> also carry a portion of the same poem.</p>
+        <p>The <span lang="ja-Latn">kasu</span> cards of the <Noun lang="ja-Latn">Awa­-bana</Noun> also carry a portion of the same poem.</p>
       </Section>
       <Section title={<><span lang="ja">2月</span> — plum (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />)</>}>
         <ArticleImage
@@ -399,7 +399,7 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda2_3, ""],
             [imgHanafuda2_4, ""],
           ]}>
-          The cards for February feature plum trees in blossom. There is one species card, one scroll card (with text), and two junk cards. The text on the scroll is the same as that on January’s.
+          The cards for February feature plum trees in blossom. There is one <span lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards. The text on the <span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
         </ArticleImage>
         <p>The bush warbler/plum blossom combination has been associated with the arrival of spring since early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’), a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759.<Cite r={FourSeasons} page={978} pageType={'loc.'} /> At this time, the plum blossom was the favourite flower; cherry blossoms would only become more favoured during the Heian period.<Cite r={FourSeasons} page={997} pageType='loc.' /></p>
         <p>The bush warbler was famed for its song, as shown by this poem from <Noun lang="ja-Latn">Ōe no Chisato</Noun> (<span lang="ja">大江千里</span>), composed during a competition in the <Noun lang="ja-Latn">Kanpyō</Noun> era (889–898). The first cry of the bush warbler was considered to announce the beginning of spring:</p>
@@ -412,10 +412,10 @@ const Hanafuda: React.FC = () => {
         <ArticleImage
           size="small"
           src={imgPoem4}
-          alt="The junk cards of the Echigo-bana pattern which bear the poem.">
-          <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
+          alt="The kasu cards of the Echigo-bana pattern which bear the poem.">
+          <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
         </ArticleImage>
-        <p>The poem on the <Noun lang="ja-Latn">Echigo-bana</Noun> junk cards (the origin of which is unknown) also describes the call of the bush warbler. Note that while the poem must be describing white plum blossoms (<span lang="ja">白梅</span> <span lang="ja-Latn">hakubai</span>), all <Noun lang="ja-Latn">Hanafuda</Noun> patterns depict red plum blossoms (<span lang="ja">紅梅</span> <span lang="ja-Latn">kōbai</span>), which became more popular later on:</p>
+        <p>The poem on the <Noun lang="ja-Latn">Echigo-bana</Noun> <span lang="ja-Latn">kasu</span> cards (the origin of which is unknown) also describes the call of the bush warbler. Note that while the poem must be describing white plum blossoms (<span lang="ja">白梅</span> <span lang="ja-Latn">hakubai</span>), all <Noun lang="ja-Latn">Hanafuda</Noun> patterns depict red plum blossoms (<span lang="ja">紅梅</span> <span lang="ja-Latn">kōbai</span>), which became more popular later on:</p>
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             鴬の<br />鳴音はしるき<br />梅の花<br />色まがえとや<br />雪の降るらん
@@ -433,7 +433,7 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda3_3, ""],
             [imgHanafuda3_4, ""],
           ]}>
-          The cards for March show the famous cherry blossoms of Japan. There is one bright card, one scroll card (with text), and two junk cards.
+          The cards for March show the famous cherry blossoms of Japan. There is one bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
           position="left"
@@ -446,7 +446,7 @@ const Hanafuda: React.FC = () => {
           }} >
           <cite>Third Month: Blossom-Viewing in Askukayama</cite><br /><cite lang="ja">三月　飛鳥山花見</cite><br />by <Noun lang="ja-Latn">Kitao Shigemasa</Noun> (<span lang="ja">北尾 重政</span>, 1739–1820).
         </ArticleImage>
-        <p>The scroll of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’.<Footnote>
+        <p>The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’.<Footnote>
           Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
             Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
         </Footnote> This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
@@ -474,17 +474,17 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda4_3, ""],
             [imgHanafuda4_4, ""],
           ]}>
-          The cards for April show the drooping branches of wisteria. There is one species card, one red scroll card, and two junk cards.
+          The cards for April show the drooping branches of wisteria. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <p>The cards for April are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronounce pronouncer="usako_usagiclub" word="kuromame" lang="ja-Latn" file={pronKuromame} />), due to their appearance. This month shows the transition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronounce pronouncer="forsmith" word="hototogisu" lang="ja-Latn" file={pronHototogisu} />) is a bird of summer,<Cite r={FourSeasons} page={1065} pageType="l." /> while wisteria is associated with the end of spring.<Cite r={FourSeasons} page={1021} pageType="l." /> Like the bush warbler and spring, the first cry of the cuckoo was considered to announce the beginning of summer.</p>
         <p>The cuckoo swooping in front of the moon is a common motif in Japanese art. It is tempting to claim that this may be a reference to the tale of <Noun lang="ja-Latn">Yorimasa</Noun> from the <Noun lang="ja-Latn">Heike Monogatari</Noun>,<Cite r={HeikeMonogatari} page={[[161, 163]]} /> but the oldest decks do not have a moon on this card.</p>
         <ArticleImage
           size="small"
-          alt="The junk cards of the Echigo-bana pattern which bear the poem."
+          alt="The kasu cards of the Echigo-bana pattern which bear the poem."
           src={imgPoem6}>
-          <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
+          <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
         </ArticleImage>
-        <p>The <span lang="ja-Latn">tanka</span> on the junk cards is similar to Poem 135 from the Summer section of the <Noun lang="ja-Latn">Kokinshū</Noun>.<Footnote>
+        <p>The <span lang="ja-Latn">tanka</span> on the <span lang="ja-Latn">kasu</span> cards is similar to Poem 135 from the Summer section of the <Noun lang="ja-Latn">Kokinshū</Noun>.<Footnote>
           The poem on the card differs slightly in that the last line starts with <span lang="ja-Latn">ima ya</span> <span lang="ja">今や</span> instead of <span lang="ja-Latn">itu ka</span> <span lang="ja">いつか</span>.<Cite r={PoemsOfTheEchigobana} page={100} />
         </Footnote> This poem (perhaps written by <Noun lang="ja-Latn">Kakinomoto no Hitomaro</Noun> <span lang="ja">柿本 人麻呂</span>) again focuses on the transition from spring (represented by wisteria) to summer (represented by the arrival of the cuckoo):</p>
         <div className="multi">
@@ -501,22 +501,22 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda5_3, ""],
             [imgHanafuda5_4, ""],
           ]}>
-          The cards for May depict iris flowers. There is one species card, one red scroll card, and two junk cards.
+          The cards for May depict iris flowers. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <p>A nickname for the month is <Pronounce pronouncer="skent" word="negi" lang="ja-Latn" file={pronNegi} /> (<span lang="ja">葱</span>, ‘scallion/leek’).<Cite r={HanaAwase} /></p>
-        <p>The bridge shown on the species card is a reference to the ‘eight bridges’ (<span lang="ja">八橋</span> <Pronounce pronouncer="poyotan" word="yatsuhashi" lang="ja-Latn" file={pronYatsuhashi} />) featured in an episode of the <cite>Tales of Ise</cite> (<cite lang="ja">伊勢物語</cite> <span lang="ja-Latn">Ise Monogatari</span>), in which the unnamed protagonist<Footnote>Traditionally this is presumed to be the poet <Noun lang="ja-Latn">Ariwara no Narihira</Noun> (<span lang="ja">在原 業平</span>).</Footnote> of the story comes across a braided river that is crossed by eight overlapping planks forming a zig-zag bridge. Challenged to compose a poem on the subject “a traveller’s sentiments”, he recites the following:</p>
+        <p>The bridge shown on the <span lang="ja-Latn">tane</span> card is a reference to the ‘eight bridges’ (<span lang="ja">八橋</span> <Pronounce pronouncer="poyotan" word="yatsuhashi" lang="ja-Latn" file={pronYatsuhashi} />) featured in an episode of the <cite>Tales of Ise</cite> (<cite lang="ja">伊勢物語</cite> <span lang="ja-Latn">Ise Monogatari</span>), in which the unnamed protagonist<Footnote>Traditionally this is presumed to be the poet <Noun lang="ja-Latn">Ariwara no Narihira</Noun> (<span lang="ja">在原 業平</span>).</Footnote> of the story comes across a braided river that is crossed by eight overlapping planks forming a zig-zag bridge. Challenged to compose a poem on the subject “a traveller’s sentiments”, he recites the following:</p>
         <section>
           <ArticleImage
             position="left"
-            src={imgPoem5} alt="The junk cards of the Echigo-bana pattern which bear the poem.">
-            <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
+            src={imgPoem5} alt="The kasu cards of the Echigo-bana pattern which bear the poem.">
+            <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
             </ArticleImage>
           <div className="multi">
             <p lang="ja" className="vertical-rl"><b>か</b>らごろも<br /><b>き</b>つつなれにし<br /><b>つ</b>ましあれば<br /><b>は</b>るばるきぬる<br /><b>た</b>びをしぞおもふ</p>
             <p>I have a beloved wife,<br />Familiar as the skirt<br />Of a well-worn robe,<br />And so this distant journeying<br />Fills my heart with grief.<Cite r={TalesOfIse} page={[[74, 75]]} /></p>
           </div>
         </section>
-        <p>This poem, which appears in full on the junk cards of the <span lang="ja-Latn">Echigo-bana</span> pattern,<Cite r={PoemsOfTheEchigobana} page={100} /> is in the form of an acrostic; the first letters of each line spell out <span lang="ja-Latn">kakitsuhata</span> <span lang="ja">かきつはた</span>, which is a reference to the name of the Japanese iris (<span lang="ja">杜若</span> <Pronounce pronouncer="kaoring" word="kakitsubata" lang="ja-Latn" file={pronKakitsubata} />).<Footnote>Note that at the time this poem was written, written Japanese did not distinguish between <span lang="ja">は</span> <span lang="ja-Latn">ha</span> and <span lang="ja">ば</span> <span lang="ja-Latn">ba</span>.</Footnote>  Because of this scene, the iris and the planked bridge have a long association in Japan.</p>
+        <p>This poem, which appears in full on the <span lang="ja-Latn">kasu</span> cards of the <span lang="ja-Latn">Echigo-bana</span> pattern,<Cite r={PoemsOfTheEchigobana} page={100} /> is in the form of an acrostic; the first letters of each line spell out <span lang="ja-Latn">kakitsuhata</span> <span lang="ja">かきつはた</span>, which is a reference to the name of the Japanese iris (<span lang="ja">杜若</span> <Pronounce pronouncer="kaoring" word="kakitsubata" lang="ja-Latn" file={pronKakitsubata} />).<Footnote>Note that at the time this poem was written, written Japanese did not distinguish between <span lang="ja">は</span> <span lang="ja-Latn">ha</span> and <span lang="ja">ば</span> <span lang="ja-Latn">ba</span>.</Footnote>  Because of this scene, the iris and the planked bridge have a long association in Japan.</p>
         <ArticleImage
           size="wide"
           src={[
@@ -536,7 +536,7 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda6_3, ""],
             [imgHanafuda6_4, ""],
           ]}>
-          The cards for June show peony flowers. There is one species card, one blue/purple scroll card, and two junk cards.
+          The cards for June show peony flowers. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
       </Section>
       <Section title={<><span lang="ja">7月</span> — bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file={pronHagi} />)</>}>
@@ -547,7 +547,7 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda7_3, ""],
             [imgHanafuda7_4, ""],
           ]}>
-          The cards for July show bush clover. There is one species card, one red scroll card, and two junk cards.
+          The cards for July show bush clover. There is one <span lang="ja-Latn">tanzaku</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <p>The cards for July are also nicknamed ‘red bean’ (<span lang="ja">赤豆</span> <span lang="ja-Latn">akamame</span>/<span lang="ja">小豆</span> <Pronounce pronouncer="poyotan" word="azuki" lang="ja-Latn" file={pronAzuki} />). Bush clover is very strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.</p>
         {/* Deer is associated with bush clover but instead we have a boar? But also
@@ -561,7 +561,7 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda8_3, ""],
             [imgHanafuda8_4, ""],
           ]}>
-          The cards for August show waving fields of miscanthus, also known as silvergrass. There is one bright card, one species card, and two junk cards.
+          The cards for August show waving fields of miscanthus, also known as silvergrass. There is one bright card, one <span lang="ja-Latn">tane</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <p>The bold moon card is possibly the most well-recognized of all <span lang="ja-Latn">hanafuda</span> cards. It is the standard card chosen as a representive emoji: 🎴</p>
         <p>Traditionally, the most important date for moon viewing was the 15th day of the 8th month (<span lang="ja">中秋観月</span> <span lang="ja-Latn">chūshū kangetsu</span>);<Cite r={WorldOfTheShiningPrince} page={176} /> the full moon always fell on the 15th due to the way the calendar was constructed.<Cite r={WorldOfTheShiningPrince} page={170} /></p>
@@ -581,17 +581,17 @@ const Hanafuda: React.FC = () => {
           <ArticleImage
             size="small"
             src={imgPoem3}
-            alt="The junk cards of the Echigo-bana pattern which bear a poem.">
-            <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
+            alt="The kasu cards of the Echigo-bana pattern which bear a poem.">
+            <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
           </ArticleImage>
           <ArticleImage
             size="small"
             src={imgAwaJunk8}
-            alt="The junk cards of the Awa-bana pattern which bears a different portion of the poem.">
-            <span lang="ja-Latn">Awa-bana</span> junk cards, with reduced form of the <span lang="ja-Latn">tanka</span>.
+            alt="The kasu cards of the Awa-bana pattern which bears a different portion of the poem.">
+            <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> cards, with reduced form of the <span lang="ja-Latn">tanka</span>.
           </ArticleImage>
         </div>
-        <p><Cite r={PoemsOfTheEchigobana} inline /> says that the poem on the <span lang="ja-Latn">Echigo-bana</span> junk cards is “untranslatable”, because it has been corrupted. Ebashi believes it is meant to be poem 422 of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>, or perhaps a revision of it:</p>
+        <p><Cite r={PoemsOfTheEchigobana} inline /> says that the poem on the <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards is “untranslatable”, because it has been corrupted. Ebashi believes it is meant to be poem 422 of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>, or perhaps a revision of it:</p>
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             行く末は<br />空もひとつの<br />武蔵野に<br />草の原より<br />出づる月影
@@ -610,12 +610,12 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda9_3, ""],
             [imgHanafuda9_4, ""],
           ]}>
-          The cards for September show chrysanthemums. There is one species card, one blue/purple scroll card, and two junk cards.
+          The cards for September show chrysanthemums. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <Footnote standalone>
           <p>A story invented by <Noun lang="ja-Latn">Tendai</Noun> monks in the 14th century <Noun lang="ja-Latn">Taiheiki</Noun> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:<Cite r={ChigoJapanese} page={[[958, 959]]} /> King <Noun lang="zh-Latn">Mu</Noun>’s (<span lang="zh">周穆王</span>) favourite, a young boy, is banished to a remote mountain. Following the king’s advice, he recites passages of the Buddhist Lotus Sūtra, and writes them upon on chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks. Eight hundred years later he has not aged a day, and he returns to court as the legendary <Noun lang="zh-Latn">Peng Zu</Noun> (<span lang="zh">彭祖</span>) during the reign of King <Noun lang="zh-Latn">Wen</Noun> (<span lang="zh">周文王</span>, <abbr title="reigned">r.</abbr> 1112–1050 <abbr className="initialism">BCE</abbr>), who subsequently institutes the festival.</p>
         </Footnote>
-        <p>The species card for September depicts a sake cup, which is an implement of <Pronounce pronouncer="skent" word="chōyō" lang="ja-Latn" file={pronChoyo} /> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).<Cite r={FourSeasons} page={1214} pageType="l." /></p>
+        <p>The <span lang="ja-Latn">tane</span> card for September depicts a sake cup, which is an implement of <Pronounce pronouncer="skent" word="chōyō" lang="ja-Latn" file={pronChoyo} /> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).<Cite r={FourSeasons} page={1214} pageType="l." /></p>
         <p>During the festival, chrysanthemum petals are added to sake and consumed. The sake cup pictured on the card has the character <span lang="ja">壽/寿</span> (<Pronounce pronouncer="strawberrybrown" word="kotobuki" lang="ja-Latn" file={pronKotobuki} />), meaning ‘long life’, written in a cursive script.</p>
         <p>A poem by <Noun lang="ja-Latn">Bashō</Noun>, Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, commemorates the evening of the 9th day of the 9th month, in 1691. <Noun lang="ja-Latn">Bashō</Noun> was staying at the temple <Noun lang="ja-Latn">Gichu-ji</Noun> (<span lang="ja">義仲寺</span>) in a hermitage known as ‘nameless hut’ (<span lang="ja">無名庵</span> <Noun lang="ja-Latn">Mumyō-an</Noun>). His disciple <Noun lang="ja-Latn">Kawai Otokuni</Noun> (<span lang="ja">河合乙州</span>) came to visit him:</p>
         <blockquote>
@@ -635,7 +635,7 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda10_3, ""],
             [imgHanafuda10_4, ""],
           ]}>
-          The cards for October show fallen maple leaves. There is one species card, one blue/purple scroll card, and two junk cards.
+          The cards for October show fallen maple leaves. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
           position="aside"
@@ -652,14 +652,14 @@ const Hanafuda: React.FC = () => {
         >
           Maple trees along the banks of the <Noun lang="ja-Latn">Tatsuta-gawa</Noun> in autumn.
         </ArticleImage>
-        <p>While the leaves on the species card are attached to a tree, the leaves on the other cards appear to be floating on water. This could be a reference to the <Noun lang="ja-Latn">Tatsuta</Noun> river (<span lang="ja">竜田川</span>), which was as famous for autumn foliage as <Noun lang="ja-Latn">Yoshino</Noun> was for cherry blossoms in the spring.<Cite r={FourSeasons} page={1756} pageType="l." /></p>
+        <p>While the leaves on the <span lang="ja-Latn">tane</span> card are attached to a tree, the leaves on the other cards appear to be floating on water. This could be a reference to the <Noun lang="ja-Latn">Tatsuta</Noun> river (<span lang="ja">竜田川</span>), which was as famous for autumn foliage as <Noun lang="ja-Latn">Yoshino</Noun> was for cherry blossoms in the spring.<Cite r={FourSeasons} page={1756} pageType="l." /></p>
         <ArticleImage
           size="small"
           src={imgPoem2}
-          alt="The junk cards of the Echigo-bana pattern which bear the poem.">
-          <span lang="ja-Latn">Echigo-bana</span> junk cards, with <span lang="ja-Latn">tanka</span>.
+          alt="The kasu cards of the Echigo-bana pattern which bear the poem.">
+          <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
         </ArticleImage>
-        <p>The poem on the <span lang="ja-Latn">Echigo-bana</span> junk cards is Poem 437 from the ‘Autumn 2’ section of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>. It was composed by <Noun lang="ja-Latn">Fujiwara no Ietaka</Noun> (<span lang="ja">藤原家隆</span>, 1158–1237), upon the finalization of the poetry collection:<Cite r={MakingShinkokinshu} page={318} /></p>
+        <p>The poem on the <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards is Poem 437 from the ‘Autumn 2’ section of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>. It was composed by <Noun lang="ja-Latn">Fujiwara no Ietaka</Noun> (<span lang="ja">藤原家隆</span>, 1158–1237), upon the finalization of the poetry collection:<Cite r={MakingShinkokinshu} page={318} /></p>
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             したもみぢ<br />かつちる山の<br />ゆふしぐれ<br />ぬれてやひとり<br />鹿のなくらん
@@ -677,7 +677,7 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda11_3, ""],
             [imgHanafuda11_4, ""],
           ]}>
-          The cards for November show willow trees. There is one bright card, one species card, one red scroll card, and one junk card.
+          The cards for November show willow trees. There is one bright card, one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and one <span lang="ja-Latn">kasu</span> card.
         </ArticleImage>
         <p>The month of November is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronounce pronouncer="strawberrybrown" word="ame" lang="ja-Latn" file={pronAme} />) or ‘drizzle’ (<span lang="ja">時雨</span> <Pronounce pronouncer="akitomo" word="shigure"
           lang="ja-Latn" file={pronShigure} />). These cards have a strange relationship to the others — in many games they have special powers, or they are valued lower than the cards of other months. For example, the bright of November will often score less than the other four brights, and in some games the “lightning card” has special powers, such as being able to match any other card.</p>
@@ -707,7 +707,7 @@ const Hanafuda: React.FC = () => {
           The <Noun lang="ja-Latn">Echigo-kobana</Noun> “rain man” appears to be some kind of animal.
         </ArticleImage>
         <p>On the <Noun lang="ja-Latn">Echigo-kobana</Noun>’s “rain man” card, the figure has a bushy tail and appears to be either a <span lang="ja-Latn">kitsune</span>, a Japanese fox/spirit; or a <span lang="ja-Latn">tanuki</span>, the raccoon-dog. I am not sure of the significance of this.</p>
-        <p>The “lightning card” mentioned above is the red-coloured junk card, which is usually called the ogre card in Japanese (<span lang="ja">鬼札</span> <Pronounce pronouncer="strawberrybrown" word="onifuda" lang="ja-Latn" file={pronOnifuda} />). The drums, which are visible in some patterns, are an attribute of the thunder god <Pronounce noun lang="ja-Latn" word="Raijin" pronouncer="kaori410f" file={pronRaijin} /> (<span lang="ja">雷神</span>).</p>
+        <p>The “lightning card” mentioned above is the red-coloured <span lang="ja-Latn">kasu</span> card, which is usually called the ogre card in Japanese (<span lang="ja">鬼札</span> <Pronounce pronouncer="strawberrybrown" word="onifuda" lang="ja-Latn" file={pronOnifuda} />). The drums, which are visible in some patterns, are an attribute of the thunder god <Pronounce noun lang="ja-Latn" word="Raijin" pronouncer="kaori410f" file={pronRaijin} /> (<span lang="ja">雷神</span>).</p>
         <ArticleImage
           position="aside"
           alt="A grinning ogre in a cloud lowers an anchor towards a Taiko drum floating in the ocean."
@@ -753,7 +753,7 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda12_3, ""],
             [imgHanafuda12_4, ""],
           ]}>
-          The cards for December show paulownia flowers. There is one bright card and three junk cards.
+          The cards for December show paulownia flowers. There is one bright card and three <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
           position="left"
@@ -768,7 +768,7 @@ const Hanafuda: React.FC = () => {
         </ArticleImage>
         <p>The phoenix (<span lang="ja">鳳凰</span> <Pronounce pronouncer="akitomo" word="hōō" lang="ja-Latn" file={pronHoo} />, or <span lang="zh-Latn">fèng&shy;huáng</span> in Mandarin Chinese) featured on the bright card is from Japanese mythology, and is particularly associated with the empress of Japan. According to legend the phoenix will only land on a paulownia tree. What appear to be ‘spikes’ on the card are really its long tail feathers.</p>
         <p>In modern times, the paulownia tree is associated with the government, and in particular prime minister’s office. In (TODO), the manufacturer <Noun lang="ja-Latn">Ōishi Tengudo</Noun> produced a special deck for the TODO Prime Minister. In addition, <Noun lang="ja-Latn">Ōishi Tengudo</Noun> boxes many of their decks using Paulownia wood.</p>
-        <p>One of the junk cards is usually coloured, often yellow, but sometimes with red as well. In some games it becomes a species card, or even a scroll card.</p>
+        <p>One of the <span lang="ja-Latn">kasu</span> cards is usually coloured, often yellow, but sometimes with red as well. In some games it becomes a <span lang="ja-Latn">tane</span> card, or even a <span lang="ja-Latn">tanzaku</span> card.</p>
         <div className="multi">
           <ArticleImage
             size="small"
@@ -780,10 +780,10 @@ const Hanafuda: React.FC = () => {
             size="small"
             src={imgAwaJunk12}
             alt="TODO">
-            The yellow-coloured junk of the <Noun lang="ja-Latn">Awa-bana</Noun> pattern is marked with the red clouds that usually indicate a <span lang="ja-Latn">tane</span> card.
+            The yellow-coloured <span lang="ja-Latn">kasu</span> of the <Noun lang="ja-Latn">Awa-bana</Noun> pattern is marked with the red clouds that usually indicate a <span lang="ja-Latn">tane</span> card.
           </ArticleImage>
         </div>
-        <p>Usually (in Japanese decks) the manufacturer’s mark is on the coloured junk card, much like the ace of spades is used in European decks. In Korean decks the mark can also be on the full moon card, or on the jokers.</p>
+        <p>Usually (in Japanese decks) the manufacturer’s mark is on the coloured <span lang="ja-Latn">kasu</span> card, much like the ace of spades is used in European decks. In Korean decks the mark can also be on the full moon card, or on the jokers.</p>
       </Section>
     </Section>
   </>);

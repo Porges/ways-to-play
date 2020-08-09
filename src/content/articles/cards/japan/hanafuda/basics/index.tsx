@@ -144,38 +144,38 @@ const Basics: React.FC = () => {
           <ArticleImage size="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
           <ArticleImage size="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.</ArticleImage>
         </Section>
-        <Section title="Species cards">
-          <p>There are 9 ‘species’ (<span lang="ja">種</span> <Pronounce pronouncer="yasuo" word="tane" lang="ja-Latn" file={pronTane} />) cards, which are usually worth 10 points each. These feature animals, but also a sake cup, and the ‘eight-planked bridge’.</p>
+        <Section title={<><span lang="ja-Latn">Tane</span> cards</>}>
+          <p>There are 9 <Pronounce pronouncer="yasuo" word="tane" lang="ja-Latn" file={pronTane} /> (<span lang="ja">種</span>) cards, which are usually worth 10 points each. These cards mostly feature animals, but also a sake cup, and the ‘eight-planked bridge’.</p>
           <ArticleImage
             src={[
-              [imgHanafuda2_1, "The species card for February, a bush warbler."],
-              [imgHanafuda4_1, "The species card for April, a lesser cuckoo."],
-              [imgHanafuda5_1, "The species card for May, a bridge."],
-              [imgHanafuda6_1, "The species card for June, butterflies."],
-              [imgHanafuda7_1, "The species card for July, a boar."],
-              [imgHanafuda8_2, "The species card for August, geese."],
-              [imgHanafuda9_1, "The species card for September, a sake cup."],
-              [imgHanafuda10_1, "The species card for October, a deer."],
-              [imgHanafuda11_2, "The species card for November, a swallow."],
+              [imgHanafuda2_1, "The tane card for February, a bush warbler."],
+              [imgHanafuda4_1, "The tane card for April, a lesser cuckoo."],
+              [imgHanafuda5_1, "The tane card for May, a bridge."],
+              [imgHanafuda6_1, "The tane card for June, butterflies."],
+              [imgHanafuda7_1, "The tane card for July, a boar."],
+              [imgHanafuda8_2, "The tane card for August, geese."],
+              [imgHanafuda9_1, "The tane card for September, a sake cup."],
+              [imgHanafuda10_1, "The tane card for October, a deer."],
+              [imgHanafuda11_2, "The tane card for November, a swallow."],
             ]}
-            perRow={5}>The 9 species cards.</ArticleImage>
+            perRow={5}>The 9 <span lang="ja-Latn">tane</span> cards.</ArticleImage>
         </Section>
-        <Section title="Scroll cards">
-          <p>There are 10 ‘scroll’ (<span lang="ja">短冊</span> <Pronounce pronouncer="skent" word="tanzaku" lang="ja-Latn" file={pronTanzaku} />) cards, usually worth 5 points each. These are the cards with the coloured ‘scrolls’ on them. Small pieces of paper were used to write poems on at poetry competitions (see the image below). For some games these are further subdivided into three sub-groups: scrolls with writing, plain red scrolls, and plain blue/purple scrolls.</p>
+        <Section title={<><span lang="ja-Latn">Tanzaku</span> cards</>}>
+          <p>There are 10 <Pronounce pronouncer="skent" word="tanzaku" lang="ja-Latn" file={pronTanzaku} /> (<span lang="ja">短冊</span>) cards, usually worth 5 points each. These are the cards with the coloured ‘scrolls’ on them. Small pieces of paper were used to write poems on at poetry competitions (see the image below). For some games these are further subdivided into three sub-groups: <span lang="ja-Latn">tanzaku</span> with writing, plain red <span lang="ja-Latn">tanzaku</span>, and plain blue/purple <span lang="ja-Latn">tanzaku</span>.</p>
           <ArticleImage
             src={[
-              [imgHanafuda1_2, "The scroll card for January."],
-              [imgHanafuda2_2, "The scroll card for February."],
-              [imgHanafuda3_2, "The scroll card for March."],
-              [imgHanafuda4_2, "The scroll card for April."],
-              [imgHanafuda5_2, "The scroll card for May."],
-              [imgHanafuda6_2, "The scroll card for June."],
-              [imgHanafuda7_2, "The scroll card for July."],
-              [imgHanafuda9_2, "The scroll card for September."],
-              [imgHanafuda10_2, "The scroll card for October."],
-              [imgHanafuda11_3, "The scroll card for November."],
+              [imgHanafuda1_2, "The tanzaku card for January."],
+              [imgHanafuda2_2, "The tanzaku card for February."],
+              [imgHanafuda3_2, "The tanzaku card for March."],
+              [imgHanafuda4_2, "The tanzaku card for April."],
+              [imgHanafuda5_2, "The tanzaku card for May."],
+              [imgHanafuda6_2, "The tanzaku card for June."],
+              [imgHanafuda7_2, "The tanzaku card for July."],
+              [imgHanafuda9_2, "The tanzaku card for September."],
+              [imgHanafuda10_2, "The tanzaku card for October."],
+              [imgHanafuda11_3, "The tanzaku card for November."],
             ]}
-            perRow={5}>The 10 scroll cards.</ArticleImage>
+            perRow={5}>The 10 <span lang="ja-Latn">tanzaku</span> cards.</ArticleImage>
           <ArticleImage
             alt="A screen with a painting of a maple tree in autumn colours, with many tanzaku hanging from its branches."
             size="wide"
@@ -188,37 +188,37 @@ const Basics: React.FC = () => {
             <cite>Autumn Maples with Poem Slips</cite> (c. 1675)<br /><cite lang="ja">櫻楓短冊圖</cite><br />A six-panel screen (one of a pair) by <Noun lang="ja-Latn">Tosa Mitsuoki</Noun> (<span lang="ja">土佐 光起</span>, 1617–1691)
           </ArticleImage>
         </Section>
-        <Section title="Junk cards">
-          <p>The remaining 24 cards that aren’t in one of the previous categories are called ‘dregs’ (<span lang="ja">滓</span> <Pronounce pronouncer="poyotan" word="kasu" lang="ja-Latn" file={pronKasu} />) or ‘junk’ cards. They are usually worth a single point each. Most months have two junk cards, but November has only one, and December has three.</p>
-          <p>These cards can be identified by their lack of distinguishing features. The odd one out is the “lightning card” of the November month, which is printed with a bold red &amp; black pattern. One of the December junk cards also has a yellow background and this card is treated specially in some games.</p>
+        <Section title={<><span lang="ja-Latn">Kasu</span> cards</>}>
+          <p>The remaining 24 cards that aren’t in one of the previous categories are called <Pronounce pronouncer="poyotan" word="kasu" lang="ja-Latn" file={pronKasu} /> (<span lang="ja">滓</span>, ‘dregs’ or ‘junk’). They are usually worth a single point each. The first ten months have two <span lang="ja-Latn">kasu</span> cards, but November has only one, and December has three.</p>
+          <p>These cards can be identified by their lack of distinguishing features. The odd one out is the “lightning card” of the November month, which is printed with a bold red &amp; black pattern. One of the December <span lang="ja-Latn">kasu</span> cards also has a yellow background and this card is treated specially in some games.</p>
           <ArticleImage
             src={[
-              [imgHanafuda1_3, "A junk card for January."],
-              [imgHanafuda1_4, "A junk card for January."],
-              [imgHanafuda2_3, "A junk card for February."],
-              [imgHanafuda2_4, "A junk card for February."],
-              [imgHanafuda3_3, "A junk card for March."],
-              [imgHanafuda3_4, "A junk card for March."],
-              [imgHanafuda4_3, "A junk card for April."],
-              [imgHanafuda4_4, "A junk card for April."],
-              [imgHanafuda5_3, "A junk card for May."],
-              [imgHanafuda5_4, "A junk card for May."],
-              [imgHanafuda6_3, "A junk card for June."],
-              [imgHanafuda6_4, "A junk card for June."],
-              [imgHanafuda7_3, "A junk card for July."],
-              [imgHanafuda7_4, "A junk card for July."],
-              [imgHanafuda8_3, "A junk card for August."],
-              [imgHanafuda8_4, "A junk card for August."],
-              [imgHanafuda9_3, "A junk card for September."],
-              [imgHanafuda9_4, "A junk card for September."],
-              [imgHanafuda10_3, "A junk card for October."],
-              [imgHanafuda10_4, "A junk card for October."],
-              [imgHanafuda11_4, "The junk card for November."],
-              [imgHanafuda12_2, "A junk card for December, with yellow background."],
-              [imgHanafuda12_3, "A junk card for December."],
-              [imgHanafuda12_4, "A junk card for December."],
+              [imgHanafuda1_3, "A kasu card for January."],
+              [imgHanafuda1_4, "A kasu card for January."],
+              [imgHanafuda2_3, "A kasu card for February."],
+              [imgHanafuda2_4, "A kasu card for February."],
+              [imgHanafuda3_3, "A kasu card for March."],
+              [imgHanafuda3_4, "A kasu card for March."],
+              [imgHanafuda4_3, "A kasu card for April."],
+              [imgHanafuda4_4, "A kasu card for April."],
+              [imgHanafuda5_3, "A kasu card for May."],
+              [imgHanafuda5_4, "A kasu card for May."],
+              [imgHanafuda6_3, "A kasu card for June."],
+              [imgHanafuda6_4, "A kasu card for June."],
+              [imgHanafuda7_3, "A kasu card for July."],
+              [imgHanafuda7_4, "A kasu card for July."],
+              [imgHanafuda8_3, "A kasu card for August."],
+              [imgHanafuda8_4, "A kasu card for August."],
+              [imgHanafuda9_3, "A kasu card for September."],
+              [imgHanafuda9_4, "A kasu card for September."],
+              [imgHanafuda10_3, "A kasu card for October."],
+              [imgHanafuda10_4, "A kasu card for October."],
+              [imgHanafuda11_4, "The kasu card for November."],
+              [imgHanafuda12_2, "A kasu card for December, with yellow background."],
+              [imgHanafuda12_3, "A kasu card for December."],
+              [imgHanafuda12_4, "A kasu card for December."],
             ]}
-            perRow={8}>The 24 junk cards.</ArticleImage>
+            perRow={8}>The 24 <span lang="ja-Latn">kasu</span> cards.</ArticleImage>
         </Section>
         <Section title="Extra cards">
           <p>Korean decks often contain extra (up to six) joker cards. How these are used (if at all) depends upon the game being played. Many traditional Japanese decks also contain a white (<span lang="ja">白</span> <span lang="ja-Latn">shiro</span>) blank card which can be used to replace a card if it is damaged or lost. Some Japanese decks also contain joker-like cards featuring <span lang="ja-Latn">oni</span> (<span lang="ja">鬼</span>, a Japanese ogre); see the next page for more examples of these.</p>
