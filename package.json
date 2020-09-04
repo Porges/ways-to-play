@@ -16,7 +16,7 @@
     "@types/uuid": "^8.0.0",
     "bootstrap": "^4.4.1",
     "node-sass": "^4.14.1",
-    "react": "^0.0.0-experimental-3d0895557",
+    "react": "^0.14.0",
     "react-bootstrap": "^1.3.0",
     "react-dom": "^0.0.0-experimental-3d0895557",
     "react-helmet-async": "^1.0.2",
