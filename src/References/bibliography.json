@@ -3407,8 +3407,14 @@
         "id": "ANewCantingDictionary",
         "type": "book",
         "title": "A New Canting Dictionary",
-        "issued": { "year": 1725 },
-        "author": [{ "given": "Anonymous" }],
+        "issued": {
+            "year": 1725
+        },
+        "author": [
+            {
+                "given": "Anonymous"
+            }
+        ],
         "publisher-place": "London, UK",
         "URL": "https://books.google.co.nz/books?id=A6NWAAAAcAAJ"
     },
@@ -3416,17 +3422,29 @@
         "id": "BerkshirePhrases",
         "type": "book",
         "title": "A Glossary of Berkshire Words and Phrases",
-        "author": [{"given": "Barzillai", "family": "Lowsley"}],
+        "author": [
+            {
+                "given": "Barzillai",
+                "family": "Lowsley"
+            }
+        ],
         "publisher": "English Dialect Society",
         "publisher-place": "London, UK",
-        "issued": { "year": 1888 },
+        "issued": {
+            "year": 1888
+        },
         "URL": "https://archive.org/details/aglossaryberksh00lowsgoog"
     },
     "SkeatTitTatTo": {
         "id": "SkeatTitTatTo",
         "type": "article-journal",
         "title": "“Tit-Tat-To”",
-        "author": [{"given":"Walter W.", "family": "Skeat"}],
+        "author": [
+            {
+                "given": "Walter W.",
+                "family": "Skeat"
+            }
+        ],
         "container-title": "Notes and Queries",
         "issued": {
             "year": 1898,
@@ -3442,7 +3460,12 @@
         "id": "Koolman",
         "type": "book",
         "title": "Wörterbuch der Ostfriesischen Sprache (Dritter Band, Q–Z)",
-        "author": [{"given": "Jan ten", "family": "Doornkaat Koolman"}],
+        "author": [
+            {
+                "given": "Jan ten",
+                "family": "Doornkaat Koolman"
+            }
+        ],
         "issued": {
             "year": 1889
         },
@@ -3454,7 +3477,12 @@
         "id": "LancasterianSystem",
         "type": "article-journal",
         "title": "The New School; or Lancasterian System",
-        "author": [{"given": "John", "family": "Pickett"}],
+        "author": [
+            {
+                "given": "John",
+                "family": "Pickett"
+            }
+        ],
         "container-title": "The Academician",
         "issue": 1,
         "issued": {
@@ -3471,9 +3499,14 @@
         "id": "AnIntroductionToJapaneseTeaRitual",
         "type": "book",
         "title": "An Introduction to Japanese Tea Ritual",
-        "author": [{"given":"Jennifer Lea", "family": "Anderson"}],
+        "author": [
+            {
+                "given": "Jennifer Lea",
+                "family": "Anderson"
+            }
+        ],
         "issued": {
-            "year": 1991 
+            "year": 1991
         },
         "publisher": "SUNY Press",
         "ISBN": "978-0-7914-0749-3",
@@ -3483,7 +3516,13 @@
         "id": "EbashiSadakuro",
         "type": "webpage",
         "title": "<span lang='ja'>後世の花札図柄との異同</span>",
-        "author": [{"given": "崇", "family": "江橋"}],
+        "author": [
+            {
+                "given": "崇",
+                "family": "江橋",
+                "lang": "ja"
+            }
+        ],
         "issued": {
             "year": 2019
         },
@@ -3517,7 +3556,13 @@
         "type": "book",
         "title": "最後の読みカルタ",
         "title-lang": "ja",
-        "author": [ { "family": "山口", "given": "泰彦", "lang": "ja" } ],
+        "author": [
+            {
+                "family": "山口",
+                "given": "泰彦",
+                "lang": "ja"
+            }
+        ],
         "issued": {
             "year": 1998
         },
@@ -3528,8 +3573,15 @@
         "id": "KakkuriYomi",
         "type": "article-journal",
         "title": "<span lang='ja-Latn'>Kakkuri</span>: The Last <span lang='ja-Latn'>Yomi</span> Game of Japan",
-        "author": [{"given": "Kimihiko", "family": "Kuromiya"}],
-        "issued": { "year": 2005 },
+        "author": [
+            {
+                "given": "Kimihiko",
+                "family": "Kuromiya"
+            }
+        ],
+        "issued": {
+            "year": 2005
+        },
         "container-title": "Journal of the International Playing-Card Society",
         "volume": 33,
         "issue": 4
@@ -3539,8 +3591,15 @@
         "type": "book",
         "title": "Ostasiatische Spielkarten",
         "title-lang": "de",
-        "author": [{"given": "Gernot", "family": "Prunner"}],
-        "issued": { "year": 1969 },
+        "author": [
+            {
+                "given": "Gernot",
+                "family": "Prunner"
+            }
+        ],
+        "issued": {
+            "year": 1969
+        },
         "publisher": "Deutsches Spielkarten Museum",
         "publisher-place": "Germany"
     },
@@ -3548,9 +3607,18 @@
         "id": "Hargrave",
         "type": "book",
         "title": "A History of Playing Cards",
-        "author": [{"given": "Catherine Perry", "family": "Hargrave"}],
-        "issued": { "year": 2000 },
-        "original-date": { "year": 1930 },
+        "author": [
+            {
+                "given": "Catherine Perry",
+                "family": "Hargrave"
+            }
+        ],
+        "issued": {
+            "year": 2000
+        },
+        "original-date": {
+            "year": 1930
+        },
         "publisher": "Dover Publications",
         "publisher-place": "Mineola, New York, USA",
         "ISBN": "978-0-486-41236-8"
@@ -3560,8 +3628,16 @@
         "type": "book",
         "title": "手わざの記憶",
         "title-lang": "ja",
-        "author": [{"given": "健司", "family": "村上", "lang": "ja"}],
-        "issued": {"year": 2009},
+        "author": [
+            {
+                "given": "健司",
+                "family": "村上",
+                "lang": "ja"
+            }
+        ],
+        "issued": {
+            "year": 2009
+        },
         "publisher": "中央公論新社",
         "publisher-lang": "ja",
         "publisher-place": "Tōkyō, Japan"
@@ -3573,7 +3649,9 @@
         "title-lang": "ja",
         "publisher": "大石天狗堂",
         "publisher-lang": "ja",
-        "issued": {"year": 2014},
+        "issued": {
+            "year": 2014
+        },
         "URL": "https://www.tengudo.jp/blog/karuta-news/692.html"
     },
     "EbashiHanafuda": {
@@ -3581,19 +3659,37 @@
         "type": "book",
         "title": "花札",
         "title-lang": "ja",
-        "author": [{"given":"崇","family":"江橋", "lang": "ja"}],
-        "issued": {"year": 2014},
+        "author": [
+            {
+                "given": "崇",
+                "family": "江橋",
+                "lang": "ja"
+            }
+        ],
+        "issued": {
+            "year": 2014
+        },
         "publisher": "法政大学出版局",
         "publisher-lang": "ja",
         "publisher-place": "Tōkyō, Japan"
     },
-    "UmebayashiIsao":{
+    "UmebayashiIsao": {
         "id": "UmebayashiIsao",
         "type": "article-journal",
         "title": "地方の花札屋さん",
         "title-lang": "ja",
-        "author": [{"family": "梅林", "given": "勲", "lang": "ja"}],
-        "issued": {"year": 2006, "month": 6, "day": 31},
+        "author": [
+            {
+                "family": "梅林",
+                "given": "勲",
+                "lang": "ja"
+            }
+        ],
+        "issued": {
+            "year": 2006,
+            "month": 6,
+            "day": 31
+        },
         "container-title": "Japan Academy of Gambling & Gaming Studies Newsletter",
         "issue": 9,
         "URL": "http://www.jirg.org/wp-content/themes/jirg/newsletter/download/newsletter_008.php"
@@ -3602,17 +3698,33 @@
         "id": "Sumiyoshikai",
         "type": "article-magazine",
         "title": "Capital punishment: Japan’s yakuza vie for control of Tokyo",
-        "author": [{"family": "Takahashi", "given": "Kōsuke", "lang": "ja-Latn"}],
+        "author": [
+            {
+                "family": "Takahashi",
+                "given": "Kōsuke",
+                "lang": "ja-Latn"
+            }
+        ],
         "container-title": "Jane’s Intelligence Review",
-        "issued": {"year": 2009, "month": 12},
+        "issued": {
+            "year": 2009,
+            "month": 12
+        },
         "URL": "http://www.kosuke.net/japanyakuza.pdf"
     },
     "PopularJapanesePrints": {
         "id": "PopularJapanesePrints",
         "type": "book",
         "title": "Popular Japanese Prints",
-        "issued": {"year": 2009},
-        "author": [{"family": "Salter", "given": "Rebecca"}],
+        "issued": {
+            "year": 2009
+        },
+        "author": [
+            {
+                "family": "Salter",
+                "given": "Rebecca"
+            }
+        ],
         "publisher": "University of Hawaiʻi Press",
         "publisher-place": "Honolulu, Hawaiʻi",
         "ISBN": "978-0-8248-3083-0"
@@ -3621,55 +3733,96 @@
         "id": "CartaTaxLawContents",
         "title": "骨牌税法の内容",
         "title-lang": "ja",
-        "author": [{"given": "崇", "family": "江橋"}],
+        "author": [
+            {
+                "given": "崇",
+                "family": "江橋",
+                "lang": "ja"
+            }
+        ],
         "type": "webpage",
-        "issued": {"year": 2020},
+        "issued": {
+            "year": 2020
+        },
         "publisher": "Japan Playing Card Museum",
         "URL": "https://japanplayingcardmuseum.com/2-0-cartatax-law-contents/"
     },
     "SchreiberCollection": {
         "id": "SchreiberCollection",
         "title": "Catalogue of the collection of playing cards bequeathed to the Trustees of the British museum by the late Lady Charlotte Schreiber",
-        "author": [{"given": "Freeman Marius", "family": "O’Donoghue"}],
-        "issued": {"year": 1901},
+        "author": [
+            {
+                "given": "Freeman Marius",
+                "family": "O’Donoghue"
+            }
+        ],
+        "issued": {
+            "year": 1901
+        },
         "type": "book",
         "publisher": "Longmans & Co.",
         "publisher-place": "London, UK",
         "URL": "https://archive.org/details/catalogueofcoll00brit"
     },
-    "HironoriGunjin":{
+    "HironoriGunjin": {
         "id": "HironoriGunjin",
         "title": "日本と世界の行軍将棋",
         "title-lang": "ja",
-        "author": [{"given": "浩徳", "family": "高橋", "lang": "ja"}],
+        "author": [
+            {
+                "given": "浩徳",
+                "family": "高橋",
+                "lang": "ja"
+            }
+        ],
         "URL": "http://id.nii.ac.jp/1297/00000560",
         "type": "article-journal",
         "container-title": "Bulletin of the Amusement Industry Research Institute",
         "publisher": "Osaka University of Commerce",
         "issue": 18,
         "page": "101–76",
-        "issued": {"year":2016, "month":6, "day":30}
+        "issued": {
+            "year": 2016,
+            "month": 6,
+            "day": 30
+        }
     },
-    "MuraiSun":{
-      "id": "MuraiSun",
-      "author": [{"family": "村井", "given": "省三", "lang": "ja"}],
-      "title": "明治の花札",
-      "title-lang": "ja",
-      "type": "article-magazine",
-      "issue": 9,
-      "issued": {"year": 1974, "season": "Winter"},
-      "page": "160–4",
-      "container-title": "別冊太陽"
+    "MuraiSun": {
+        "id": "MuraiSun",
+        "author": [
+            {
+                "family": "村井",
+                "given": "省三",
+                "lang": "ja"
+            }
+        ],
+        "title": "明治の花札",
+        "title-lang": "ja",
+        "type": "article-magazine",
+        "issue": 9,
+        "issued": {
+            "year": 1974,
+            "season": "Winter"
+        },
+        "page": "160–4",
+        "container-title": "別冊太陽"
     },
     "DevilsPictureBooks": {
-      "id": "DevilsPictureBooks",
-      "type": "book",
-      "title": "The Devil’s Picture-Books",
-      "author": [{"family": "van Rensselaer", "given": "Mrs. John King"}],
-      "URL": "https://archive.org/details/TheDevilsPictureBooks",
-      "issued": {"year": 1890},
-      "publisher": "Dodd, Mead, and Company",
-      "publisher-place": "New York, USA"
+        "id": "DevilsPictureBooks",
+        "type": "book",
+        "title": "The Devil’s Picture-Books",
+        "author": [
+            {
+                "family": "van Rensselaer",
+                "given": "Mrs. John King"
+            }
+        ],
+        "URL": "https://archive.org/details/TheDevilsPictureBooks",
+        "issued": {
+            "year": 1890
+        },
+        "publisher": "Dodd, Mead, and Company",
+        "publisher-place": "New York, USA"
     },
     "KaiOi": {
         "id": "KaiOi",
@@ -3677,8 +3830,16 @@
         "URL": "http://www.asahi-net.or.jp/~rp9h-tkhs/dg_kaioi.htm",
         "title": "貝覆い",
         "title-lang": "ja",
-        "author": [{"given": "浩徳", "family": "高橋", "lang": "ja"}],
-        "issued": {"year": 2016}
+        "author": [
+            {
+                "given": "浩徳",
+                "family": "高橋",
+                "lang": "ja"
+            }
+        ],
+        "issued": {
+            "year": 2016
+        }
     },
     "WorldOfTheShiningPrince": {
         "id": "WorldOfTheShiningPrince",
@@ -3686,12 +3847,58 @@
         "URL": "https://archive.org/stream/worldofshiningpr00morr",
         "title": "The World of the Shining Prince",
         "author": [
-            { "given": "Ivan", "family": "Morris" }
+            {
+                "given": "Ivan",
+                "family": "Morris"
+            }
         ],
-        "issued": {"year": 1979},
-        "original-date": { "year": 1964},
+        "issued": {
+            "year": 1979
+        },
+        "original-date": {
+            "year": 1964
+        },
         "publisher": "Penguin Books",
         "publisher-place": "Middlesex, England, UK",
         "ISBN": "0-14-00-5479-0"
+    },
+    "FolkloreAndSymbolismOfFlowersPlantsAndTrees": {
+        "id": "FolkloreAndSymbolismOfFlowersPlantsAndTrees",
+        "title": "Folklore and Symbolism of Flowers, Plants, and Trees",
+        "type": "book",
+        "URL": "https://archive.org/details/isbn_9780814803202",
+        "issued": {
+            "year": 1960
+        },
+        "publisher": "Tudor Publishing Company",
+        "publisher-place": "New York, USA",
+        "author": [
+            {
+                "given": "Ernst",
+                "family": "Lehner"
+            },
+            {
+                "given": "Johanna",
+                "family": "Lehner"
+            }
+        ],
+        "ISBN": "9780814803202"
+    },
+    "WanderingWords": {
+        "id": "WanderingWords",
+        "title": "Wandering Words",
+        "type": "book",
+        "URL": "https://archive.org/details/dli.granth.36761",
+        "issued": {
+            "year": 1894
+        },
+        "publisher": "Longmans, Green, and Co.",
+        "publisher-place": "London & New York",
+        "author": [
+            {
+                "family": "Arnold",
+                "given": "Edwin"
+            }
+        ]
     }
 }

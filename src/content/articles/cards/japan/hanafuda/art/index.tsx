@@ -3,11 +3,11 @@ import * as React from 'react';
 import { Noun, ArticleImage, Footnote, Section, Cite, Pronounce } from 'ui';
 
 import {
+  FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords,
   MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince,
   CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
   AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu
-} from
-  'References/bibliography.json';
+} from 'References/bibliography.json';
 
 import imgSC232139 from "../SC232139.jpg";
 import imgSC232140 from "../SC232140.jpg";
@@ -30,6 +30,8 @@ import imgKintoki from './KintoBana_Kintoki.jpg';
 import imgEkbRainman from './ekb_rainman.jpg';
 import imgHinaMatsuri from './HinaMatsuri-Masanobu.jpg';
 import imgHinaMatsuriDetail from './HinaMatsuri-Masanobu-Detail.jpg';
+import imgPineUrasu from './pine_urasu.jpg';
+import imgCherryBugaku1 from './cherry_bugaku1.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.png';
 import imgHanafuda1_2 from '../Hanafuda_1-2.png';
@@ -162,7 +164,7 @@ import { Link } from 'react-router-dom';
 const Hanafuda: React.FC = () => {
   return (<>
     <Section title="Origins">
-      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn" word="Edo" noun pronouncer="Nipponese" file={pronEdo} /> period (<span lang="ja">江戸</span>, 1603–1868). The distant origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>) that had been played since the <Pronounce lang="ja-Latn" word="Heian" noun pronouncer="skent" file={pronHeian} /> period (<span lang="ja">平安</span>, 794–1185). These were courtly competitions in which various objects were compared as to their qualities or unique attributes:<Footnote>Although the same terminology of <span lang="ja-Latn">awase</span> was also used for sports such as cock-fighting.<Cite r={WorldOfTheShiningPrince} page={165} /></Footnote> objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, iris roots,<Cite r={WorldOfTheShiningPrince} page={163} /> wild pinks); animals (insects, songbirds<Cite r={WorldOfTheShiningPrince} page={163}/>); incense; tea<Cite r={AnIntroductionToJapaneseTeaRitual} page={26} />; or shells. The most esteemed of these competitions were the poetry match (<span lang="ja">歌合</span> <span lang="ja-Latn">uta-awase</span>) and the painting competition (<span lang="ja">絵合せ</span> <span lang="ja-Latn">e-awase</span>).</p>
+      <p><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn" word="Edo" noun pronouncer="Nipponese" file={pronEdo} /> period (<span lang="ja">江戸</span>, 1603–1868). The distant origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in older “object-matching games” (<span lang="ja">物合わせ</span> <span lang="ja-Latn">mono-awase</span>) that had been played since the <Pronounce lang="ja-Latn" word="Heian" noun pronouncer="skent" file={pronHeian} /> period (<span lang="ja">平安</span>, 794–1185). These were courtly competitions in which various objects were compared as to their qualities or unique attributes:<Footnote>Although the same terminology of <span lang="ja-Latn">awase</span> was also used for sports such as cock-fighting.<Cite r={WorldOfTheShiningPrince} page={165} /></Footnote> objects that were judged in these competitions included artifacts such as fans or paintings; flowers and plants (chrysanthemums, iris roots,<Cite r={WorldOfTheShiningPrince} page={163} /> wild pinks); animals (insects, songbirds<Cite r={WorldOfTheShiningPrince} page={163} />); incense; tea<Cite r={AnIntroductionToJapaneseTeaRitual} page={26} />; or shells. The most esteemed of these competitions were the poetry match (<span lang="ja">歌合</span> <span lang="ja-Latn">uta-awase</span>) and the painting competition (<span lang="ja">絵合せ</span> <span lang="ja-Latn">e-awase</span>).</p>
       <ArticleImage
         src={imgKaiAwase}
         size="wide"
@@ -170,79 +172,85 @@ const Hanafuda: React.FC = () => {
         source={{ license: 'cc0', organization: { orgName: "Metropolitan Museum of Art" }, originalUrl: 'https://www.metmuseum.org/art/collection/search/37303' }}>
         Girls playing a game of <span lang="ja-Latn">kai-awase</span>.<br />From <cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790), by <Noun lang="ja-Latn">Kitagawa Utamaro</Noun> (<span lang="ja">喜多川歌麿</span>).
       </ArticleImage>
-      <ArticleImage
-        alt="A grandmother, a mother, two young women, and a child sitting in a circle around shells on a tatami mat."
-        position="aside"
-        size="wide"
-        src={imgKaiAwaseGame}
-        source={{ license: 'cc0', organization: { orgName: "跡見学園女子大学", orgLang: "ja" }, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/' }}>
-        Four generations of women playing <span lang="ja-Latn" >kai-awase</span>.<br/>From <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>).
-      </ArticleImage>
-      <p>From these comparing competitions, the <Pronounce lang="ja-Latn" word="kai-awase" pronouncer="skent" file={pronKaiAwase} /> (<span lang="ja">貝合わせ</span>, ‘shell matching’) game was developed into a different style of game, based upon collecting matching pairs of shells.<Footnote>In this form it became known as <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell cover’), and <Noun lang="ja-Latn">Takahashi Hironori</Noun> draws a distinction between the two games.<Cite r={KaiOi}/> However, <span lang="ja-Latn">kai-awase</span> is still the most commonly-used term for the matching game, so I continue to use it here.</Footnote></p>
-      <p>In one form of the game, the left-hand sides of the shells — also termed the “male” or ‘ground’ (<span lang="ja">地</span>) shells — were arranged face-down on the ground. The right-hand sides — the “female” or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their storage-bucket one-by-one and the players would attempt to match them with those on the floor.</p>
-      <p>The game must have been difficult, since the only clues to a match were the subtle shades and contours of the shell. The only way to test if shells truly matched was to pick them up and attempt to join them together. Considering that traditional <span lang="ja-Latn">kai-awase</span> sets contained up to 360 shells,<Footnote>Modern replicas usually only have around 54.</Footnote> this was a game for a class of person who had a lot of leisure time on their hands.</p>
-      <p>Later the interior of the shells became elaborately painted or even gilded, often illustrating scenes from the <a href="https://en.wikipedia.org/wiki/The_Tale_of_Genji">Tale of Genji</a> (<span lang="ja">源氏物語</span> <Pronounce word="Genji monogatari" file={pronGenjiMonogatari} pronouncer="straycat88" lang="ja-Latn" />) — the game is also played in Chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem. These elaborate sets with their hand-painted and gilded interiors must have been expensive to create and only owned by richest of families.</p>
-      <ArticleImage
-        src={
-          [[imgKai1, 'Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.']
-            , [imgKai2, 'Eight shells whose interiors have been painted with garden scenes and ornamented with gold.']
-          ]}
-        source={{ license: 'cc0', organization: { orgName: "Portland Art Museum" }, originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101' }}>
-        An 18th-century <span lang="ja-Latn">kai-awase</span> set. The paired boxes are called <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell buckets’), and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
-      </ArticleImage>
-      <p>A personal set <span lang="ja-Latn">kai-awase</span> became part of a noble bride’s wedding gifts, as the joining of the matching shells was symbolic of the joining of husband and wife in marriage. In this role, depictions of <span lang="ja-Latn">kai-awase</span> can be found in <a href="https://en.wikipedia.org/wiki/Hinamatsuri"><span lang="ja-Latn">hina-matsuri</span></a> collections, and miniature <span lang="ja-Latn">kai-oke</span> can still be purchased today.</p>
-      <ArticleImage
-        position="aside"
-        size="small"
-        src={imgHinaMatsuriDetail}
-        alt="">
-        Detail of the miniature <span lang="ja-Latn">kai-oke</span> in the print.
-      </ArticleImage>
-      <ArticleImage
-        src={imgHinaMatsuri}
-        alt=""
-        source={{license: "cc0"}}>
-        A miniature <span lang="ja-Latn">kai-oke</span> can be seen in this depiction of a <span lang="ja-Latn">hina-matsuri</span> set.<br/>By <a href="https://en.wikipedia.org/wiki/Okumura_Masanobu"><Noun lang="ja-Latn">Okumura Masanobu</Noun></a> (<span lang="ja">奥村政信</span>, 1686–1764).
-      </ArticleImage>
-      <p><Noun lang="ja-Latn">Hanafuda</Noun> seem to originate in a combination of the themes of <span lang="ja-Latn">kai-awase</span> — matching sets, poetry, conventionalized art — with the ideas introduced by the Portuguese playing cards — a regular structure of <i>suits</i> divided into different <i>ranks</i>.</p>
-      <p>These two distinct schools of playing-card games first combined in the form of <span lang="ja-Latn">hana-awase</span> decks. These early 18th century ancestors of <Noun lang="ja-Latn">Hanafuda</Noun> (such as the deck below) show a very regular configuration of cards for each flower, which evolved during the 18th and 19th centuries into the unusual configuration of the <Noun lang="ja-Latn">Hanafuda</Noun> deck.</p>
-      <ArticleImage
-        noborder
-        size="wide"
-        src={img1704Deck}
-        alt=""
-        source={{
-          copyrightYear: 2019,
-          organization: {
-            orgName: "Japan Playing Card Museum",
-            orgAbbr: "JPCM"
-          },
-          originalUrl: "http://jpcm.sub.jp/home/image/hanafuda-hanaawase02.pdf",
-          license: "with-permission",
-        }}>
-        Some of the cards from a <span lang="ja-Latn">hana-awase</span> deck produced circa 1704 (at least before 1710). The deck originally contained 400 cards but many are missing, and the extant deck contains cards from several original decks. Note the chrysanthemum with <span lang="ja-Latn">sake</span> cup in the third card on the top row.
+      <Section title={<span lang="ja-Latn">Kai-awase</span>}>
+        <ArticleImage
+          alt="A grandmother, a mother, two young women, and a child sitting in a circle around shells on a tatami mat."
+          position="aside"
+          size="wide"
+          src={imgKaiAwaseGame}
+          source={{ license: 'cc0', organization: { orgName: "跡見学園女子大学", orgLang: "ja" }, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/' }}>
+          Four generations of women playing <span lang="ja-Latn" >kai-awase</span>.<br />From <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>).
         </ArticleImage>
-      <p>While decks such as the above are obviously for a different style of game, most of the imagery that would become part of the <span lang="ja-Latn">hanafuda</span> deck was already present.</p>
-      <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></Footnote> (1787–1793). This ban was to remain in place until 1886, when <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
-      <p>Things had begun to change in 1885, after a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.<Cite r={EbashiHanafuda} page={[[189, 192]]} /> <Noun lang="ja-Latn">Maeda Kihei</Noun><Footnote><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</Footnote> became convinced through his reading of legal texts that the selling of <Noun lang="ja-Latn">Hanafuda</Noun> was not actually prohibited, and he moved to <Noun lang="ja-Latn">Tōkyō</Noun> in December 1885 with a plan to open a <Noun lang="ja-Latn">Hanafuda</Noun> shop. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince newspapers to print his advertisements. In order to prove himself correct, he came up with a cunning plan: he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hanafuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hanafuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Sumiyoshi</Noun> neighbourhood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <Noun lang="ja-Latn">Sumiyoshi-kai</Noun> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai} /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> (<span lang="ja">住吉町</span>) on <Noun lang="ja-Latn">Ningyōchō</Noun> street (<span lang="ja">人形町通り</span>) in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋</span>). The shop was named “<Noun lang="ja-Latn">Kamigataya</Noun>” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /></p>
-      <ArticleImage
-        position="left"
-        src={imgKamigatayaGinza}
-        alt="A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda."
-        source={{ license: "cc0" }}>
-        A newspaper advertisement depicting the outside of the <Noun lang="ja-Latn">Ginza</Noun> <Noun lang="ja-Latn">Kamigataya</Noun> store, 1889.
+        <p>From these comparing competitions, the <Pronounce lang="ja-Latn" word="kai-awase" pronouncer="skent" file={pronKaiAwase} /> (<span lang="ja">貝合わせ</span>, ‘shell matching’) game was developed into a different style of game, based upon collecting matching pairs of shells.<Footnote>In this form it became known as <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell cover’), and <Noun lang="ja-Latn">Takahashi Hironori</Noun> draws a distinction between the two games.<Cite r={KaiOi} /> However, <span lang="ja-Latn">kai-awase</span> is still the most commonly-used term for the matching game, so I continue to use it here.</Footnote></p>
+        <p>In one form of the game, the left-hand sides of the shells — also termed the “male” or ‘ground’ (<span lang="ja">地</span>) shells — were arranged face-down on the ground. The right-hand sides — the “female” or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their storage-bucket one-by-one and the players would attempt to match them with those on the floor.</p>
+        <p>The game must have been difficult, since the only clues to a match were the subtle shades and contours of the shell. The only way to test if shells truly matched was to pick them up and attempt to join them together. Considering that traditional <span lang="ja-Latn">kai-awase</span> sets contained up to 360 shells,<Footnote>Modern replicas usually only have around 54.</Footnote> this was a game for a class of person who had a lot of leisure time on their hands.</p>
+        <p>Later the interior of the shells became elaborately painted or even gilded, often illustrating scenes from the <a href="https://en.wikipedia.org/wiki/The_Tale_of_Genji">Tale of Genji</a> (<span lang="ja">源氏物語</span> <Pronounce word="Genji monogatari" file={pronGenjiMonogatari} pronouncer="straycat88" lang="ja-Latn" />) — the game is also played in Chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem. These elaborate sets with their hand-painted and gilded interiors must have been expensive to create and only owned by the richest of families.</p>
+        <ArticleImage
+          src={
+            [[imgKai1, 'Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.']
+              , [imgKai2, 'Eight shells whose interiors have been painted with garden scenes and ornamented with gold.']
+            ]}
+          source={{ license: 'cc0', organization: { orgName: "Portland Art Museum" }, originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101' }}>
+          An 18th-century <span lang="ja-Latn">kai-awase</span> set. The paired boxes are called <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell buckets’), and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
+      </ArticleImage>
+        <p>A personal <span lang="ja-Latn">kai-awase</span> set became part of a noble bride’s wedding gifts, as the joining of the matching shells was symbolic of the joining of husband and wife in marriage. In this role, depictions of <span lang="ja-Latn">kai-awase</span> can be found in <a href="https://en.wikipedia.org/wiki/Hinamatsuri"><span lang="ja-Latn">hina-matsuri</span></a> collections, and miniature <span lang="ja-Latn">kai-oke</span> produced for this purpose can still be purchased today.</p>
+        <ArticleImage
+          position="aside"
+          size="small"
+          src={imgHinaMatsuriDetail}
+          alt="">
+          Detail of the miniature <span lang="ja-Latn">kai-oke</span> in the print.
+      </ArticleImage>
+        <ArticleImage
+          src={imgHinaMatsuri}
+          alt=""
+          source={{ license: "cc0" }}>
+          A miniature <span lang="ja-Latn">kai-oke</span> can be seen in this depiction of a <span lang="ja-Latn">hina-matsuri</span> set.<br />By <a href="https://en.wikipedia.org/wiki/Okumura_Masanobu"><Noun lang="ja-Latn">Okumura Masanobu</Noun></a> (<span lang="ja">奥村政信</span>, 1686–1764).
+      </ArticleImage>
+      </Section>
+      <Section title={<span lang="ja-Latn">Hana-awase</span>}>
+        <p><Noun lang="ja-Latn">Hanafuda</Noun> seem to originate in a combination of the themes of <span lang="ja-Latn">kai-awase</span> — matching sets, poetry, conventionalized art — with the ideas introduced by the Portuguese playing cards — a regular structure of <i>suits</i> divided into different <i>ranks</i>.</p>
+        <p>These two distinct schools of playing-card games first combined in the form of <span lang="ja-Latn">hana-awase</span> decks. These early 18th century ancestors of <Noun lang="ja-Latn">Hanafuda</Noun> (such as the deck below) show a very regular configuration of cards for each flower, which evolved during the 18th and 19th centuries into the unusual configuration of the <Noun lang="ja-Latn">Hanafuda</Noun> deck.</p>
+        <ArticleImage
+          noborder
+          size="wide"
+          src={img1704Deck}
+          alt=""
+          source={{
+            copyrightYear: 2019,
+            organization: {
+              orgName: "Japan Playing Card Museum",
+              orgAbbr: "JPCM"
+            },
+            originalUrl: "http://jpcm.sub.jp/home/image/hanafuda-hanaawase02.pdf",
+            license: "with-permission",
+          }}>
+          Some of the cards from a <span lang="ja-Latn">hana-awase</span> deck produced circa 1704 (at least before 1710). This type of deck originally contained 400 cards but many are missing, and the extant set pictured here comprises cards from several different packs. Note the chrysanthemum with <span lang="ja-Latn">sake</span> cup in the third card on the top row.
         </ArticleImage>
-      <ArticleImage
-        position="aside"
-        size="wide"
-        src={imgKamigatayaMotomachi}
-        alt="An image of a Japanese street with lots of signs and flags for stores"
-        source={{ license: "cc0" }}>
-        In this early 20th century postcard, another branch of <Noun lang="ja-Latn">Kamigataya</Noun> can be seen on the left, identified by the large die; this one is in <Noun lang="ja-Latn">Motomachi</Noun> in <Noun lang="ja-Latn">Yokohama</Noun>.
+        <p>While decks such as the above are obviously for a different style of game, most of the imagery that would become part of the <span lang="ja-Latn">hanafuda</span> deck was already present.</p>
+      </Section>
+      <Section title="Legalization">
+        <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></Footnote> (1787–1793). This ban was to remain in place until 1886, when <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
+        <p>Things had begun to change in 1885, after a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.<Cite r={EbashiHanafuda} page={[[189, 192]]} /> <Noun lang="ja-Latn">Maeda Kihei</Noun><Footnote><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</Footnote> became convinced through his reading of legal texts that the selling of <Noun lang="ja-Latn">Hanafuda</Noun> was not actually prohibited, and he moved to <Noun lang="ja-Latn">Tōkyō</Noun> in December 1885 with a plan to open a <Noun lang="ja-Latn">Hanafuda</Noun> shop. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince newspapers to print his advertisements. In order to prove himself correct, he came up with a cunning plan: he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hanafuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hanafuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Sumiyoshi</Noun> neighbourhood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <Noun lang="ja-Latn">Sumiyoshi-kai</Noun> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai} /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> (<span lang="ja">住吉町</span>) on <Noun lang="ja-Latn">Ningyōchō</Noun> street (<span lang="ja">人形町通り</span>) in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋</span>). The shop was named “<Noun lang="ja-Latn">Kamigataya</Noun>” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /></p>
+        <ArticleImage
+          position="left"
+          src={imgKamigatayaGinza}
+          alt="A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda."
+          source={{ license: "cc0" }}>
+          A newspaper advertisement depicting the outside of the <Noun lang="ja-Latn">Ginza</Noun> <Noun lang="ja-Latn">Kamigataya</Noun> store, 1889.
         </ArticleImage>
-      <p><Noun lang="ja-Latn">Kamigataya</Noun> was the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Kihei</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in the <Noun lang="ja-Latn">Ginza</Noun> (<span lang="ja">銀座</span>) district, which became instantly successful. Once the viability of <Noun lang="ja-Latn">Hanafuda</Noun> had been proven, other manufacturers appeared quickly: the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889. Other companies such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> claim to have been operating discreetly during the prohibition period; in their case behind the doors of a rice merchant named <Noun lang="ja-Latn">Minatoya</Noun> (<span lang="ja">湊屋</span>).<Cite r={OishiTengudoHistory4} /></p>
-      <p>Despite the ending of prohibition, <Noun lang="ja-Latn">Hanafuda</Noun> retained a poor reputation, and gambling with the cards remained illegal. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other supreme court judges of gambling with <Noun lang="ja-Latn">Hanafuda</Noun> (<span lang="ja">弄花</span>, <span lang="ja-Latn">rōka</span>). Despite a lack of evidence, <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.</p>
-      <p>In 1902 a stamp duty was introduced that was inspired by similar taxes imposed in Western countries; the effect being to raise the cost of cards (and thereby discourage their use) but to also raise tax revenue. The tax imposed was crushing: 20 <span lang="ja-Latn">sen</span> per set,<Footnote>The <span lang="ja-Latn">sen</span> (<span lang="ja">銭</span>) was a unit of currency representing 1⁄100 of a <span lang="ja-Latn">yen</span>.</Footnote> in a time when cheap <Noun lang="ja-Latn">Hanafuda</Noun> decks could be had for as little as 2–3 <span lang="ja-Latn">sen</span>. The effect on card manufacturers was “dire”, as Rebecca Salter puts it.<Cite r={PopularJapanesePrints} page={186} /> Japanese <Noun lang="ja-Latn">Hanafuda</Noun> scholar <Noun lang="ja-Latn">Ebashi Takashi</Noun> (<span lang="ja">江橋崇</span>) states that the law led to the closure of many small producers, and made it much harder for new manufacturers to enter the industry; both due to the tax itself as well as onerous record-keeping and inspection requirements.<Cite r={CartaTaxLawContents} /></p>
+        <ArticleImage
+          position="aside"
+          size="wide"
+          src={imgKamigatayaMotomachi}
+          alt="An image of a Japanese street with lots of signs and flags for stores"
+          source={{ license: "cc0" }}>
+          In this early 20th century postcard, another branch of <Noun lang="ja-Latn">Kamigataya</Noun> can be seen on the left, identified by the large die; this one is in <Noun lang="ja-Latn">Motomachi</Noun> in <Noun lang="ja-Latn">Yokohama</Noun>.
+        </ArticleImage>
+        <p><Noun lang="ja-Latn">Kamigataya</Noun> was the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Kihei</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in the <Noun lang="ja-Latn">Ginza</Noun> (<span lang="ja">銀座</span>) district, which became instantly successful. Once the viability of <Noun lang="ja-Latn">Hanafuda</Noun> had been proven, other manufacturers appeared quickly: the company that was later to become <Noun lang="ja-Latn">Nintendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889. Other companies such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> claim to have been operating discreetly during the prohibition period; in their case behind the doors of a rice merchant named <Noun lang="ja-Latn">Minatoya</Noun> (<span lang="ja">湊屋</span>).<Cite r={OishiTengudoHistory4} /></p>
+        <p>Despite the ending of prohibition, <Noun lang="ja-Latn">Hanafuda</Noun> retained a poor reputation, and gambling with the cards remained illegal. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other supreme court judges of gambling with <Noun lang="ja-Latn">Hanafuda</Noun> (<span lang="ja">弄花</span>, <span lang="ja-Latn">rōka</span>). Despite a lack of evidence, <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.</p>
+        <p>In 1902 a stamp duty was introduced that was inspired by similar taxes imposed in Western countries, the intent being to raise the cost of cards (and thereby discourage their use) but to also raise tax revenue. The tax imposed was crushing: 20 <span lang="ja-Latn">sen</span> per set,<Footnote>The <span lang="ja-Latn">sen</span> (<span lang="ja">銭</span>) was a unit of currency representing 1⁄100 of a <span lang="ja-Latn">yen</span>.</Footnote> in a time when cheap <Noun lang="ja-Latn">Hanafuda</Noun> decks could be had for as little as 2–3 <span lang="ja-Latn">sen</span>. The effect on card manufacturers was “dire”, as Rebecca Salter puts it.<Cite r={PopularJapanesePrints} page={186} /> Japanese <Noun lang="ja-Latn">Hanafuda</Noun> scholar <Noun lang="ja-Latn">Ebashi Takashi</Noun> (<span lang="ja">江橋崇</span>) states that the law led to the closure of many small producers, and made it much harder for new manufacturers to enter the industry; both due to the tax itself as well as onerous record-keeping and inspection requirements.<Cite r={CartaTaxLawContents} /></p>
+      </Section>
     </Section>
     <Section title="Art of the Cards">
       <p>The culture of the <Noun lang="ja-Latn">Edo</Noun> period in which <Noun lang="ja-Latn">Hanafuda</Noun> cards appeared was heavily influenced by the aristocratic culture of the earlier <Noun lang="ja-Latn">Heian</Noun> period. As such, the art of the cards abounds with references to <Noun lang="ja-Latn">Heian</Noun> period literature, festivals, and artistic tropes:</p>
@@ -345,7 +353,7 @@ const Hanafuda: React.FC = () => {
       </Section>
     </Section>
     <Section title="Cards in Depth">
-      <Section title={<><span lang="ja">1月</span> — pine (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file={pronMatsu} />)</>}>
+      <Section title={<span lang="ja">1月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda1_1, "A card with a red moon, a crane, and pine trees."],
@@ -366,9 +374,36 @@ const Hanafuda: React.FC = () => {
           }}>
           An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <Noun lang="ja-Latn">Hōrai</Noun> pattern: plum and pine trees with cranes, atop a large turtle.
         </ArticleImage>
-        <p>The bright card for January shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity, so they are a common combination in Japanese art; the mythical Mount <Noun lang="ja-Latn">Hōrai</Noun>, dwelling-place of immortals, is depicted as wooded with pine trees and populated by cranes.</p>
-        <p>The pine is associated with winter and snow, so these cards show the lingering influence of winter during the new year. The traditional held on the first Day of the Rat of the new year (<span lang="ja">子の日の宴</span> <span lang="ja-Latn">nenohi no en</span>) involved uprooting small pine trees.<Cite r={WorldOfTheShiningPrince} page={168} /></p>
-        <p>The text on the <span lang="ja-Latn">tanzaku</span> reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.<Footnote>The writing on the <span lang="ja-Latn">tanzaku</span> uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.</Footnote> This means ‘red/good’ and was an older name of a <span lang="ja-Latn">hachi-hachi yaku</span> which is now called <span lang="ja-Latn">akatan</span>.<Footnote>The meaning of this phrase is usually said to be “unclear”, even by <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers. Some derive a meaning like ‘clearly good’ based on reading <span lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span> show <span lang="ja-Latn">akayoroshi</span> alongside <span lang="ja-Latn">aoyoroshi</span> (‘blue/good’) indicating that <span lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).</Footnote></p>
+        <p>The first month is represented by pine trees (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file={pronMatsu} />). The bright card shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity, so they are a common combination in Japanese art; the mythical <a href="https://en.wikipedia.org/wiki/Mount_Penglai">Mount <Noun lang="ja-Latn">Hōrai</Noun></a>, dwelling-place of immortals, is depicted as wooded with pine trees and populated by cranes.</p>
+        <p>The pine is associated with winter and snow, so these cards show the lingering influence of winter during the new year. The traditional festival held on the first Day of the Rat of the new year (<span lang="ja">子の日の宴</span> <span lang="ja-Latn">nenohi no en</span>) involved uprooting small pine trees.<Cite r={WorldOfTheShiningPrince} page={168} /></p>
+        <ArticleImage
+          noborder
+          position="left"
+          size="small"
+          src={imgPineUrasu}
+          alt="A card with a pine tree and a red ribbon"
+          source={{
+            organization: {
+              orgName: "Japan Playing Card Museum",
+              orgAbbr: "JPCM",
+            },
+            originalUrl: "https://japanplayingcardmuseum.com/image/hachihachi-hanafuda16.pdf",
+            license: "with-permission"
+          }}>
+          An old pine <span lang="ja-Latn">tanzaku</span> card with inscription reading <span lang="ja-Latn">urasu</span> (<span lang="ja">宇良す</span>), the name of a <Noun lang="ja-Latn">Hachi-Hachi</Noun> <span lang="ja-Latn">yaku</span>. Produced by <span lang="ja">現〇商会</span>. 
+        </ArticleImage>
+        <p>The text on the <span lang="ja-Latn">tanzaku</span> reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.<Footnote>The writing on the <span lang="ja-Latn">tanzaku</span> uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.</Footnote> This means ‘red/good’ and was an older name of a <Noun lang="ja-Latn">Hachi-Hachi</Noun> <span lang="ja-Latn">yaku</span> (scoring combination) which is now called <span lang="ja-Latn">akatan</span>.<Footnote>The meaning of this phrase is usually said to be “unclear”, even by <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers. Some derive a meaning like ‘clearly good’ based on reading <span lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span> show <span lang="ja-Latn">akayoroshi</span> alongside <span lang="ja-Latn">aoyoroshi</span> (‘blue/good’) indicating that <span lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).</Footnote> Cards from vintage decks can carry older names for this <span lang="ja-Latn">yaku</span>, such as <span lang="ja-Latn">urasu</span>, or sometimes simply <span lang="ja">正月/初月</span>, indicating the first lunar month.</p>
+        <p>In the <span lang="ja-Latn">Echigo-bana</span> and <span lang="ja-Latn">Awa-bana</span> patterns, the <span lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun><Footnote><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<abbr title="died">d.</abbr> 983) was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</Footnote> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the <Pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn" file={pronKokinWakashu} noun /> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
+        <Footnote standalone>
+          <p><Cite r={PoemsOfTheEchigobana} page={4} inline /> notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
+        </Footnote>
+        <div className="multi">
+          <p lang="ja" className="vertical-rl">
+            ときはなる<br />松のみどりも<br />春くれば<br />今ひとしほの<br />色まさりけり
+        </p>
+          <p>Even the verdure<br />of foliage on the pine tree,<br />“ever unchanging”,<br />deepens into new richness<br />now that springtime has arrived.<Cite r={KokinWakashu} page={18} /></p>
+        </div>
+        <br/>
         <div className="multi">
           <ArticleImage
             size="small"
@@ -383,19 +418,8 @@ const Hanafuda: React.FC = () => {
             An <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> card, with a shortened version of the same <span lang="ja-Latn">tanka</span> (the other <span lang="ja-Latn">kasu</span> card bears the same phrases).
           </ArticleImage>
         </div>
-        <p>In the <span lang="ja-Latn">Echigo-bana</span> and <span lang="ja-Latn">Awa-bana</span> patterns, the <span lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun><Footnote><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<abbr title="died">d.</abbr> 983) was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</Footnote> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the <Pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn" file={pronKokinWakashu} noun /> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
-        <Footnote standalone>
-          <p><Cite r={PoemsOfTheEchigobana} page={4} inline /> notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
-        </Footnote>
-        <div className="multi">
-          <p lang="ja" className="vertical-rl">
-            ときはなる<br />松のみどりも<br />春くれば<br />今ひとしほの<br />色まさりけり
-        </p>
-          <p>Even the verdure<br />of foliage on the pine tree,<br />“ever unchanging”,<br />deepens into new richness<br />now that springtime has arrived.<Cite r={KokinWakashu} page={18} /></p>
-        </div>
-        <p>The <span lang="ja-Latn">kasu</span> cards of the <Noun lang="ja-Latn">Awa­-bana</Noun> also carry a portion of the same poem.</p>
       </Section>
-      <Section title={<><span lang="ja">2月</span> — plum (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />)</>}>
+      <Section title={<span lang="ja">2月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda2_1, ""],
@@ -405,9 +429,9 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for February feature plum trees in blossom. There is one <span lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards. The text on the <span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
         </ArticleImage>
-        <p>The bush warbler/plum blossom combination has been associated with the arrival of spring since early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’), a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759.<Cite r={FourSeasons} page={978} pageType={'loc.'} /> At this time, the plum blossom was the favourite flower; cherry blossoms would only become more favoured during the Heian period.<Cite r={FourSeasons} page={997} pageType='loc.' /></p>
-        <p>The bush warbler was famed for its song, as shown by this poem from <Noun lang="ja-Latn">Ōe no Chisato</Noun> (<span lang="ja">大江千里</span>), composed during a competition in the <Noun lang="ja-Latn">Kanpyō</Noun> era (889–898). The first cry of the bush warbler was considered to announce the beginning of spring:</p>
-        <Footnote standalone><p>This is Poem 14 from the ‘Spring 1’ section of the <Noun lang="ja-Latn">Kokinshū</Noun>.</p></Footnote>
+        <p>The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />). The <span lang="ja-Latn">tane</span> has a bush warbler–plum blossom combination that has been associated with spring since very early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759).<Cite r={FourSeasons} page={978} pageType={'loc.'} /> During the <Noun lang="ja-Latn">Nara</Noun> period, plum blossom was the favoured flower in poetry and art; cherry blossoms would only become more popular during the <Noun lang="ja-Latn">Heian</Noun> period.<Cite r={FourSeasons} page={997} pageType='loc.' /></p>
+        <p>The bush warbler was famed for its song, and the first cry of the bush warbler was considered to announce the beginning of spring:</p>
+      <Footnote standalone><p>This is Poem 14 from the ‘Spring 1’ section of the <Noun lang="ja-Latn">Kokinshū</Noun>. It was composed by <a href="https://en.wikipedia.org/wiki/%C5%8Ce_no_Chisato"><Noun lang="ja-Latn">Ōe no Chisato</Noun></a> (<span lang="ja">大江千里</span>) during a competition in the <Noun lang="ja-Latn">Kanpyō</Noun> era (889–898).</p></Footnote>
         <div className="multi">
           <p lang="ja">うぐひすの谷よりいづるこゑなくは春くることをたれかしらまし</p>
           <p>Without the voice of the warbler that comes out of the valley, how would we know the arrival of spring?<Cite r={FourSeasons} page={952} pageType="loc." /></p>
@@ -429,7 +453,7 @@ const Hanafuda: React.FC = () => {
           </p>
         </div>
       </Section>
-      <Section title={<><span lang="ja">3月</span> — cherry (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file={pronSakura} />)</>}>
+      <Section title={<span lang="ja">3月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda3_1, ""],
@@ -450,10 +474,6 @@ const Hanafuda: React.FC = () => {
           }} >
           <cite>Third Month: Blossom-Viewing in Askukayama</cite><br /><cite lang="ja">三月　飛鳥山花見</cite><br />by <Noun lang="ja-Latn">Kitao Shigemasa</Noun> (<span lang="ja">北尾 重政</span>, 1739–1820).
         </ArticleImage>
-        <p>The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’.<Footnote>
-          Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
-            Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
-        </Footnote> This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
         <ArticleImage
           src={imgYoshino}
           position="aside"
@@ -468,9 +488,30 @@ const Hanafuda: React.FC = () => {
           }}>
           The <Noun lang="ja-Latn">Yoshino</Noun> mountainside with cherry trees in bloom.
         </ArticleImage>
-        <p>Blossom-viewing (<span lang="ja">花見</span> <Pronounce pronouncer="samchie" word="hanami" lang="ja-Latn" file={pronHanami} />), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period. The curtains (<span lang="ja">幕</span> <Pronounce pronouncer="skent" word="maku" lang="ja-Latn" file={pronMaku} />) that are shown on the bright card provide privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the right. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>
+        <p>The third month is represented by cherry trees in bloom (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file={pronSakura} />). Blossom-viewing (<span lang="ja">花見</span> <Pronounce pronouncer="samchie" word="hanami" lang="ja-Latn" file={pronHanami} />), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period. The curtains (<span lang="ja">幕</span> <Pronounce pronouncer="skent" word="maku" lang="ja-Latn" file={pronMaku} />) that are shown on the bright card provide privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the right. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>
+        <p>The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’.<Footnote>
+          Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
+            Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
+        </Footnote> This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
+        <p>Rather than <span lang="ja-Latn">hanami</span>, some older designs depict a <a href="https://en.wikipedia.org/wiki/Bugaku"><span lang="ja-Latn">bugaku</span></a> (<span lang="ja">舞楽</span>) scene, with a large drum decorated with flames (<span lang="ja">火焔太鼓</span> <span lang="ja-Latn">kaendaiko</span>).</p>
+        <div className="multi">
+          <ArticleImage
+            size="small"
+            src={imgCherryBugaku1}
+            alt=""
+            source={{
+              organization: {
+                orgName: "Worshipful Company of the Makers of Playing Cards",
+                orgAbbr: "WCMPC",
+              },
+              originalUrl: "http://www.playingcardmakerscollection.co.uk/Cardhtml/W0329.html",
+              license: "with-permission"
+            }}>
+            A <span lang="ja-Latn">bugaku</span> scene from a combination card produced by <Noun lang="ja-Latn">Tenguya Tsutida</Noun>.
+          </ArticleImage>
+        </div>
       </Section>
-      <Section title={<><span lang="ja">4月</span> — wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" word="fuji" lang="ja-Latn" file={pronFuji} />)</>}>
+      <Section title={<span lang="ja">4月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda4_1, ""],
@@ -480,7 +521,7 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for April show the drooping branches of wisteria. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
-        <p>The cards for April are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronounce pronouncer="usako_usagiclub" word="kuromame" lang="ja-Latn" file={pronKuromame} />), due to their appearance. This month shows the transition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronounce pronouncer="forsmith" word="hototogisu" lang="ja-Latn" file={pronHototogisu} />) is a bird of summer,<Cite r={FourSeasons} page={1065} pageType="l." /> while wisteria is associated with the end of spring.<Cite r={FourSeasons} page={1021} pageType="l." /> Like the bush warbler and spring, the first cry of the cuckoo was considered to announce the beginning of summer.</p>
+        <p>The fourth month is represented by wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" word="fuji" lang="ja-Latn" file={pronFuji} />). These cards are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronounce pronouncer="usako_usagiclub" word="kuromame" lang="ja-Latn" file={pronKuromame} />), due to their appearance. This month shows the transition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronounce pronouncer="forsmith" word="hototogisu" lang="ja-Latn" file={pronHototogisu} />) is a bird of summer,<Cite r={FourSeasons} page={1065} pageType="l." /> while wisteria is associated with the end of spring.<Cite r={FourSeasons} page={1021} pageType="l." /> Like the bush warbler and spring, the first cry of the cuckoo was considered to announce the beginning of summer.</p>
         <p>The cuckoo swooping in front of the moon is a common motif in Japanese art. It is tempting to claim that this may be a reference to the tale of <Noun lang="ja-Latn">Yorimasa</Noun> from the <Noun lang="ja-Latn">Heike Monogatari</Noun>,<Cite r={HeikeMonogatari} page={[[161, 163]]} /> but the oldest decks do not have a moon on this card.</p>
         <ArticleImage
           size="small"
@@ -496,8 +537,9 @@ const Hanafuda: React.FC = () => {
           <p>At my home<br />On the pond wisteria waves<br />Are breaking:<br />Mountain cuckoo,<br />When might you come and sing?<br /><Cite r={KKS135} /></p>
           <p>Cascades of flowers<br />bloom on the wisteria<br />by my garden lake.<br />When might the mountain cuckoo<br />come with his melodious song?<br /><Cite r={KokinWakashu} page={40} /></p>
         </div>
+        <p>In Korean contexts the non-<span lang="ja-Latn">tane</span> wisteria cards are almost always shown upside-down, so that the plants are presented in the same manner as the bush clover in the seventh month. The cards are also referred to as <span lang="ko">흑싸리</span>, “black bush clover”, possibly because wisteria is not native to Korea. The <span lang="ja-Latn">tane</span> card is never shown inverted.</p>
       </Section>
-      <Section title={<><span lang="ja">5月</span> — iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" word="ayame" lang="ja-Latn" file={pronAyame} />)</>}>
+      <Section title={<span lang="ja">5月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda5_1, ""],
@@ -507,7 +549,7 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for May depict iris flowers. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
-        <p>A nickname for the month is <Pronounce pronouncer="skent" word="negi" lang="ja-Latn" file={pronNegi} /> (<span lang="ja">葱</span>, ‘scallion/leek’).<Cite r={HanaAwase} /></p>
+        <p>The fifth month is represented by iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" word="ayame" lang="ja-Latn" file={pronAyame} />); a nickname for the month is <Pronounce pronouncer="skent" word="negi" lang="ja-Latn" file={pronNegi} /> (<span lang="ja">葱</span>, ‘scallion/leek’).<Cite r={HanaAwase} /></p>
         <p>The bridge shown on the <span lang="ja-Latn">tane</span> card is a reference to the ‘eight bridges’ (<span lang="ja">八橋</span> <Pronounce pronouncer="poyotan" word="yatsuhashi" lang="ja-Latn" file={pronYatsuhashi} />) featured in an episode of the <cite>Tales of Ise</cite> (<cite lang="ja">伊勢物語</cite> <span lang="ja-Latn">Ise Monogatari</span>), in which the unnamed protagonist<Footnote>Traditionally this is presumed to be the poet <Noun lang="ja-Latn">Ariwara no Narihira</Noun> (<span lang="ja">在原 業平</span>).</Footnote> of the story comes across a braided river that is crossed by eight overlapping planks forming a zig-zag bridge. Challenged to compose a poem on the subject “a traveller’s sentiments”, he recites the following:</p>
         <section>
           <ArticleImage
@@ -532,7 +574,7 @@ const Hanafuda: React.FC = () => {
           <cite>Irises at <Noun lang="ja-Latn">Yatsuhashi</Noun></cite><br /><cite lang="ja">八橋図屏風</cite><br />A pair of screens by the artist <Noun lang="ja-Latn">Ogata Kōrin</Noun> (<span lang="ja">尾形光琳</span>, 1658–1716)
         </ArticleImage>
       </Section>
-      <Section title={<><span lang="ja">6月</span> — peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" word="botan" lang="ja-Latn" file={pronBotan} />)</>}>
+      <Section title={<span lang="ja">6月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda6_1, ""],
@@ -542,8 +584,9 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for June show peony flowers. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
+        <p>The sixth month is represented by peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" word="botan" lang="ja-Latn" file={pronBotan} />).</p>
       </Section>
-      <Section title={<><span lang="ja">7月</span> — bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file={pronHagi} />)</>}>
+      <Section title={<span lang="ja">7月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda7_1, ""],
@@ -553,11 +596,14 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for July show bush clover. There is one <span lang="ja-Latn">tanzaku</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
-        <p>The cards for July are also nicknamed ‘red bean’ (<span lang="ja">赤豆</span> <span lang="ja-Latn">akamame</span>/<span lang="ja">小豆</span> <Pronounce pronouncer="poyotan" word="azuki" lang="ja-Latn" file={pronAzuki} />). Bush clover is very strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.</p>
+        <Footnote standalone>
+          One common species of bush clover in Japan is <a href="https://en.wikipedia.org/wiki/Lespedeza_thunbergii"><cite>Lespedeza thunbergii</cite></a>, named after the Swedish botanist Carl Peter Thunberg who visited Japan from 1775–6. Oddly enough, Thunberg also collected some <span lang="ja-Latn">karuta</span> decks during his stay, and was probably the first European to take one back to Europe. His decks are now <a href="http://collections.smvk.se/carlotta-em/web/object/1000639">in the Swedish Museum of Ethnography in Stockholm</a>. (Thanks to Marcus Richert for pointing out this connection.)
+        </Footnote>
+        <p>The seventh month is represented by bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file={pronHagi} />). These cards are also nicknamed ‘red bean’ (<span lang="ja">赤豆</span> <span lang="ja-Latn">akamame</span>/<span lang="ja">小豆</span> <Pronounce pronouncer="poyotan" word="azuki" lang="ja-Latn" file={pronAzuki} />). Bush clover is very strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.</p>
         {/* Deer is associated with bush clover but instead we have a boar? But also
         deer are renowned for being separated from their lovers... */}
       </Section>
-      <Section title={<><span lang="ja">8月</span> — miscanthus/silvergrass (<span lang="ja">芒/薄</span> <Pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn" file={pronSusuki} />)</>}>
+      <Section title={<span lang="ja">8月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda8_1, ""],
@@ -567,9 +613,9 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for August show waving fields of miscanthus, also known as silvergrass. There is one bright card, one <span lang="ja-Latn">tane</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
-        <p>The bold moon card is possibly the most well-recognized of all <span lang="ja-Latn">hanafuda</span> cards. It is the standard card chosen as a representive emoji: 🎴</p>
+        <p>The eighth month is represented by miscanthus or silvergrass (<span lang="ja">芒/薄</span> <Pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn" file={pronSusuki} />). It can also be called <span lang="ja-Latn">tsuki</span> (<span lang="ja">月</span>, ‘moon’),<Cite r={WanderingWords} page={194} /> or <span lang="ja-Latn">oka</span> (<span lang="ja">丘</span> ‘hill’).<Cite r={FolkloreAndSymbolismOfFlowersPlantsAndTrees} page={107} /></p>
+        <p>The bold moon card is possibly the most well-recognized of all <span lang="ja-Latn">hanafuda</span> cards. It is the standard card chosen as a representive emoji: 🎴 On printed cards, the fields of grass are often simplified into solid black circles. Because of the resemblance of this to the head of a bald man, another nickname for this month is ‘baldy’ (<span lang="ja">坊主</span> <Pronounce pronouncer="skpronounce" word="bōzu" lang="ja-Latn" file={pronBozu} />), a slang term for a Buddhist monk.</p>
         <p>Traditionally, the most important date for moon viewing was the 15th day of the 8th month (<span lang="ja">中秋観月</span> <span lang="ja-Latn">chūshū kangetsu</span>);<Cite r={WorldOfTheShiningPrince} page={176} /> the full moon always fell on the 15th due to the way the calendar was constructed.<Cite r={WorldOfTheShiningPrince} page={170} /></p>
-        <p>On printed cards, the fields of grass are often simplified into solid black circles. Because of the resemblance of this to the head of a bald man, one nickname for the cards is ‘baldy’ (<span lang="ja">坊主</span> <Pronounce pronouncer="skpronounce" word="bōzu" lang="ja-Latn" file={pronBozu} />), a slang term for a Buddhist monk.</p>
         <ArticleImage
           size="wide"
           src={imgSC14}
@@ -596,6 +642,7 @@ const Hanafuda: React.FC = () => {
           </ArticleImage>
         </div>
         <p><Cite r={PoemsOfTheEchigobana} inline /> says that the poem on the <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards is “untranslatable”, because it has been corrupted. Ebashi believes it is meant to be poem 422 of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>, or perhaps a revision of it:</p>
+        <Footnote standalone>This poem was composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Kuj%C5%8D_Yoshitsune">Fujiwara no Yoshitsune</a></Noun> (<span lang="ja">藤原良経</span>, 1169–1206).</Footnote>
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             行く末は<br />空もひとつの<br />武蔵野に<br />草の原より<br />出づる月影
@@ -604,9 +651,8 @@ const Hanafuda: React.FC = () => {
             Its destination:<br /> The skies, one with<br /> Musashi Plain, where<br /> From among the fields of grass<br /> Emerges moonlight.<br /><Cite r={SKKS442} />
           </p>
         </div>
-        <p>This poem was composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Kuj%C5%8D_Yoshitsune">Fujiwara no Yoshitsune</a></Noun> (<span lang="ja">藤原良経</span>, 1169–1206).</p>
       </Section>
-      <Section title={<><span lang="ja">9月</span> — chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo" word="kiku" lang="ja-Latn" file={pronKiku} />)</>}>
+      <Section title={<span lang="ja">9月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda9_1, ""],
@@ -616,6 +662,7 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for September show chrysanthemums. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
+        <p>The ninth month is represented by chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo" word="kiku" lang="ja-Latn" file={pronKiku} />).</p>
         <Footnote standalone>
           <p>A story invented by <Noun lang="ja-Latn">Tendai</Noun> monks in the 14th century <Noun lang="ja-Latn">Taiheiki</Noun> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:<Cite r={ChigoJapanese} page={[[958, 959]]} /> King <Noun lang="zh-Latn">Mu</Noun>’s (<span lang="zh">周穆王</span>) favourite, a young boy, is banished to a remote mountain. Following the king’s advice, he recites passages of the Buddhist Lotus Sūtra, and writes them upon on chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks. Eight hundred years later he has not aged a day, and he returns to court as the legendary <Noun lang="zh-Latn">Peng Zu</Noun> (<span lang="zh">彭祖</span>) during the reign of King <Noun lang="zh-Latn">Wen</Noun> (<span lang="zh">周文王</span>, <abbr title="reigned">r.</abbr> 1112–1050 <abbr className="initialism">BCE</abbr>), who subsequently institutes the festival.</p>
         </Footnote>
@@ -631,7 +678,7 @@ const Hanafuda: React.FC = () => {
           </p>
         </blockquote>
       </Section>
-      <Section title={<><span lang="ja">10月</span> — autumn leaves/maple (<span lang="ja">紅葉</span> <span lang="ja-Latn">momiji</span>/<Pronounce pronouncer="El55" word="kōyō" lang="ja-Latn" file={pronKoyo} />)</>}>
+      <Section title={<span lang="ja">10月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda10_1, ""],
@@ -641,6 +688,7 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for October show fallen maple leaves. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
+        <p>The tenth month is represnted by autumn leaves/maple (<span lang="ja">紅葉</span> <span lang="ja-Latn">momiji</span>/<Pronounce pronouncer="El55" word="kōyō" lang="ja-Latn" file={pronKoyo} />).</p>
         <ArticleImage
           position="aside"
           size="wide"
@@ -673,7 +721,7 @@ const Hanafuda: React.FC = () => {
             </p>
         </div>
       </Section>
-      <Section title={<><span lang="ja">11月</span> — willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo" word="yanagi" lang="ja-Latn" file={pronYanagi} />)</>}>
+      <Section title={<span lang="ja">11月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda11_1, ""],
@@ -683,8 +731,9 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for November show willow trees. There is one bright card, one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and one <span lang="ja-Latn">kasu</span> card.
         </ArticleImage>
-        <p>The month of November is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronounce pronouncer="strawberrybrown" word="ame" lang="ja-Latn" file={pronAme} />) or ‘drizzle’ (<span lang="ja">時雨</span> <Pronounce pronouncer="akitomo" word="shigure"
-          lang="ja-Latn" file={pronShigure} />). These cards have a strange relationship to the others — in many games they have special powers, or they are valued lower than the cards of other months. For example, the bright of November will often score less than the other four brights, and in some games the “lightning card” has special powers, such as being able to match any other card.</p>
+        <p>The eleventh month is represented by willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo" word="yanagi" lang="ja-Latn" file={pronYanagi} />); it is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronounce pronouncer="strawberrybrown" word="ame" lang="ja-Latn" file={pronAme} />) or ‘drizzle’ (<span lang="ja">時雨</span> <Pronounce pronouncer="akitomo" word="shigure"
+          lang="ja-Latn" file={pronShigure} />).</p>
+        <p>These cards have a strange relationship to the others — in many games they have special powers, or they are valued lower than the cards of other months. For example, the bright of November will often score less than the other four brights, and in some games the “lightning card” has special powers, such as being able to match any other card.</p>
         <Footnote standalone>
           <p>It has been suggested (e.g. by author <Noun lang="ja-Latn">Murai Shōzō</Noun> <span lang="ja">村井省三</span> and by <Noun lang="ja-Latn">Ōishi Tengudō</Noun><Cite r={OishiSadakuro} />) that the running “Umbrella Man” has its origins in the character of <Noun lang="ja-Latn">Sadakurō</Noun> from the <span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <Noun lang="ja-Latn">Ebashi</Noun> points out,<Cite r={EbashiSadakuro} /> the <span lang="ja-Latn">hana-awase</span> deck pictured at the top of this article contains an “Umbrella Man”. This precludes the <Noun lang="ja-Latn">Sadakurō</Noun> origin story, as the play was written some 40 years after that deck was produced.</p>
           <ArticleImage
@@ -749,7 +798,7 @@ const Hanafuda: React.FC = () => {
           </ArticleImage>
         </div>
       </Section>
-      <Section title={<><span lang="ja">12月</span> — paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring" word="kiri" lang="ja-Latn" file={pronKiri} />)</>}>
+      <Section title={<span lang="ja">12月</span>}>
         <ArticleImage
           src={[
             [imgHanafuda12_1, ""],
@@ -759,6 +808,7 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for December show paulownia flowers. There is one bright card and three <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
+        <p>The twelfth month is represented by paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring" word="kiri" lang="ja-Latn" file={pronKiri} />).</p>
         <ArticleImage
           position="left"
           src={imgSC152627}

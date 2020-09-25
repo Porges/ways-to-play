@@ -37,13 +37,15 @@ type CiteProps = {
 }
 
 const indexToString = (index: number): string => {
+  index += 1;
+
   let result = "";
   
-  do {
-    const num = index % 26;
+  while (index > 0) {
+    const num = (index - 1) % 26;
     result = String.fromCodePoint('a'.charCodeAt(0) + num) + result
-    index = index - num;
-  } while (index !== 0)
+    index = Math.floor((index - num) / 26);
+  }
 
   return result;
 };
