@@ -32,6 +32,8 @@ import imgHinaMatsuri from './HinaMatsuri-Masanobu.jpg';
 import imgHinaMatsuriDetail from './HinaMatsuri-Masanobu-Detail.jpg';
 import imgPineUrasu from './pine_urasu.jpg';
 import imgCherryBugaku1 from './cherry_bugaku1.jpg';
+import imgCherryBugaku2 from './cherry_bugaku2.jpg';
+import imgCherryBugaku3 from './cherry_bugaku3.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.png';
 import imgHanafuda1_2 from '../Hanafuda_1-2.png';
@@ -493,7 +495,7 @@ const Hanafuda: React.FC = () => {
           Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
             Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
         </Footnote> This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
-        <p>Rather than <span lang="ja-Latn">hanami</span>, some older designs depict a <a href="https://en.wikipedia.org/wiki/Bugaku"><span lang="ja-Latn">bugaku</span></a> (<span lang="ja">舞楽</span>) scene, with a large drum decorated with flames (<span lang="ja">火焔太鼓</span> <span lang="ja-Latn">kaendaiko</span>).</p>
+        <p>Rather than <span lang="ja-Latn">hanami</span>, some older non-standard designs depict a <a href="https://en.wikipedia.org/wiki/Bugaku"><span lang="ja-Latn">bugaku</span></a> (<span lang="ja">舞楽</span>) scene, with a large drum decorated with flames (<span lang="ja">火焔太鼓</span> <span lang="ja-Latn">kaendaiko</span>).</p>
         <div className="multi">
           <ArticleImage
             size="small"
@@ -508,6 +510,34 @@ const Hanafuda: React.FC = () => {
               license: "with-permission"
             }}>
             A <span lang="ja-Latn">bugaku</span> scene from a combination card produced by <Noun lang="ja-Latn">Tenguya Tsutida</Noun>.
+          </ArticleImage>
+          <ArticleImage
+            size="small"
+            src={imgCherryBugaku2}
+            alt=""
+            source={{
+              organization: {
+                orgName: "Japan Playing Card Museum",
+                orgAbbr: "JPCM",
+              },
+              originalUrl: "https://japanplayingcardmuseum.com/image/kaikinki-hanafuda19.pdf",
+              license: "with-permission"
+            }}>
+            A <span lang="ja-Latn">bugaku</span> scene from a non-standard card by an unknown manufacturer.
+          </ArticleImage>
+          <ArticleImage
+            size="small"
+            src={imgCherryBugaku3}
+            alt=""
+            source={{
+              organization: {
+                orgName: "Japan Playing Card Museum",
+                orgAbbr: "JPCM",
+              },
+              originalUrl: "https://japanplayingcardmuseum.com/image/hanafuda-musashino-12.pdf",
+              license: "with-permission"
+            }}>
+            A <span lang="ja-Latn">bugaku</span> scene from a mid-<span lang="ja-Latn">Meiji</span> deck by <span lang="ja-Latn">Arakawa Fujibei</span> (<span lang="ja">荒川藤兵衛</span>). Another subtle detail are the <a href="https://en.wikipedia.org/wiki/Yukitsuri"><span lang="ja-Latn">yukitsuri</span></a> at top right.
           </ArticleImage>
         </div>
       </Section>

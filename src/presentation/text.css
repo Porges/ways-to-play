@@ -67,12 +67,18 @@ cite:lang(ja-Latn)::after { content: '' }
 .circled { font-feature-settings: "nalt" 2 }
 .squared { font-feature-settings: "nalt" 4 }
    
-/* Deuce font for playing-card numerals 
 .playing-cards {
-  font-family: "Numbers Deuce A", "Numbers Deuce B";
+  font-family: "NKD04";
+
+  /* this font looks disproportionate so scale it down */
+  font-size: 0.8em;
+  vertical-align: text-bottom;
 }
-😢
-*/
+
+figcaption .playing-cards {
+  /* fix alignment in captions… */
+  vertical-align: text-top;
+}
 
 .playing-cards .red {
   color: #CC0000;
