@@ -107,8 +107,8 @@ const Manufacturers: React.FC = () => {
         The 5 Bright cards of the Cochae <Noun lang="ja-Latn">Kokoyo</Noun> deck (2019). The backgrounds are a metallic gold colour, which doesn’t show up well here.
           </ArticleImage>
     </Section>
-    <Section title={<a href="https://www.junior.cards/">Junior Cards</a>}>
-      <p>Junior Cards have produced a ground-up redesign of Hanafuda into a poker format deck, printed by <abbr title="the United States Playing Card Company">USPCC</abbr>. The different kinds of cards have different backgrounds and all are identified by suit marker indices, which helps to clarify the cards for new players.</p>
+    <Section title={<a href="https://www.junior.cards/">Junior</a>}>
+      <p>Junior have produced a ground-up redesign of Hanafuda into a poker format deck, printed by <abbr title="the United States Playing Card Company">USPCC</abbr>. The different kinds of cards have different backgrounds and all are identified by suit marker indices, which helps to clarify the cards for new players.</p>
       <ArticleImage
         src={imgJuniorBrights}
         alt="TODO">
@@ -118,7 +118,7 @@ const Manufacturers: React.FC = () => {
       <ArticleImage
         src={imgJuniorBamboo}
         alt="TODO">
-        The additional ‘Bamboo’ suit of the Junior <Noun lang="ja-Latn">Hanafuda</Noun> deck.
+        The additional ‘Bamboo’ suit of the Junior “Phoenix” <Noun lang="ja-Latn">Hanafuda</Noun> deck.
           </ArticleImage>
     </Section>
   </>);
