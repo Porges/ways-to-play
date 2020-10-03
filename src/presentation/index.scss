@@ -179,7 +179,7 @@ figure > img[src$=".svg"] {
 }
 
 /* add a smaller version too */
-figure.small > img {
+figure.small > img, figure.small > .multi img {
     max-height: 200px;
 }
 
