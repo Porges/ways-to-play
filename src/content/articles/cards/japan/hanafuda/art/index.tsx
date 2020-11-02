@@ -6,7 +6,7 @@ import {
   FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords,
   MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince,
   CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
-  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu
+  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad
 } from 'References/bibliography.json';
 
 import imgSC232139 from "../SC232139.jpg";
@@ -39,6 +39,8 @@ import imgKnotOut from './knot_out.jpg';
 import imgWisteriaBloom from './wisteria_bloom.jpg';
 import imgHagiBloom from './hagi_bloom.jpg';
 import imgMiscanthus from './miscanthus.jpg';
+import imgHagiTemple from './hagi_temple.jpg';
+import imgHagiBoar from './SC138896.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.png';
 import imgHanafuda1_2 from '../Hanafuda_1-2.png';
@@ -451,12 +453,12 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for February feature plum trees in blossom. There is one <span lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards. The text on the <span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
         </ArticleImage>
-        <p>The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />). The <span lang="ja-Latn">tane</span> has a bush warbler–plum blossom combination that has been associated with spring since very early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759).<Cite r={FourSeasons} page={978} pageType={'loc.'} /> During the <Noun lang="ja-Latn">Nara</Noun> period, plum blossom was the favoured flower in poetry and art; cherry blossoms would only become more popular during the <Noun lang="ja-Latn">Heian</Noun> period.<Cite r={FourSeasons} page={997} pageType='loc.' /></p>
+        <p>The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />). The <span lang="ja-Latn">tane</span> has a bush warbler–plum blossom combination that has been associated with spring since very early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759).<Cite r={FourSeasons} page={978} pageType={'l.'} /> During the <Noun lang="ja-Latn">Nara</Noun> period, plum blossom was the favoured flower in poetry and art; cherry blossoms would only become more popular during the <Noun lang="ja-Latn">Heian</Noun> period.<Cite r={FourSeasons} page={997} pageType='l.' /></p>
         <p>The bush warbler was famed for its song, and the first cry of the bush warbler was considered to announce the beginning of spring:</p>
         <Footnote standalone><p>This is Poem 14 from the ‘Spring 1’ section of the <Noun lang="ja-Latn">Kokinshū</Noun>. It was composed by <a href="https://en.wikipedia.org/wiki/%C5%8Ce_no_Chisato"><Noun lang="ja-Latn">Ōe no Chisato</Noun></a> (<span lang="ja">大江千里</span>) during a competition in the <Noun lang="ja-Latn">Kanpyō</Noun> era (889–898).</p></Footnote>
         <div className="multi">
           <p lang="ja">うぐひすの谷よりいづるこゑなくは春くることをたれかしらまし</p>
-          <p>Without the voice of the warbler that comes out of the valley, how would we know the arrival of spring?<Cite r={FourSeasons} page={952} pageType="loc." /></p>
+          <p>Without the voice of the warbler that comes out of the valley, how would we know the arrival of spring?<Cite r={FourSeasons} page={952} pageType="l." /></p>
         </div>
         <br />
         <ArticleImage
@@ -511,10 +513,18 @@ const Hanafuda: React.FC = () => {
           The <Noun lang="ja-Latn">Yoshino</Noun> mountainside with cherry trees in bloom.
         </ArticleImage>
         <p>The third month is represented by cherry trees in bloom (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file={pronSakura} />). Blossom-viewing (<span lang="ja">花見</span> <Pronounce pronouncer="samchie" word="hanami" lang="ja-Latn" file={pronHanami} />), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period. The curtains (<span lang="ja">幕</span> <Pronounce pronouncer="skent" word="maku" lang="ja-Latn" file={pronMaku} />) that are shown on the bright card provide privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the right. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>
-        <p>The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’.<Footnote>
+        <p>The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">miyoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’,<Footnote>
           Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
             Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
-        </Footnote> This is a reference to the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, which is famous for its cherry blossoms.</p>
+        </Footnote> which is a sobriquet for the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, famous for its cherry blossoms. The term <span lang="ja-Latn">miyoshino</span> is <a href="http://www.wakapoetry.net/?s=miyosino">often used to refer to this location</a> in the imperial poetry collections.</p>
+        <p><Noun lang="ja-Latn">Bashō</Noun>, Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, visited <Noun lang="ja-Latn">Yoshino</Noun> during his travels but found himself unable to compose a single poem, overwhelmed by the pressure of trying to live up to his predecessors.<Cite r={NarrowRoad} page={84} /> One of them, <Noun lang="ja-Latn">Yasuhara Teishitsu</Noun>, had composed what <Noun lang="ja-Latn">Bashō</Noun> considered to be the “finest <span lang="ja-Latn">hokku</span> ever written”:<Cite r={TheClassicTraditionOfHaiku} page={8} /></p>
+        <blockquote>
+          <p>
+            Look at that! and that!<br/>
+            Is all I can say of the blossoms<br/>
+            At Yoshino mountain.
+          </p>
+        </blockquote>
         <p>Rather than <span lang="ja-Latn">hanami</span>, some older non-standard designs depict a <a href="https://en.wikipedia.org/wiki/Bugaku"><span lang="ja-Latn">bugaku</span></a> (<span lang="ja">舞楽</span>) scene, with a large drum decorated with flames (<span lang="ja">火焔太鼓</span> <span lang="ja-Latn">kaendaiko</span>).</p>
         <div className="multi">
           <ArticleImage
@@ -674,10 +684,54 @@ const Hanafuda: React.FC = () => {
           >
           Bush clover in bloom.
         </ArticleImage>
+        <ArticleImage
+          position="aside"
+          src={imgHagiBoar}
+          source={{
+            organization: {
+              orgName: "Boston Museum of Fine Arts",
+              orgAbbr: "MFA"
+            },
+            originalUrl: "https://collections.mfa.org/objects/234703",
+            license: "cc0"
+          }}
+          alt="TODO">
+          This print by <Noun lang="ja-Latn">Hiroshige</Noun> featuring a boar and bush clover shows a remarkably similar form to that of the boar card.
+        </ArticleImage>
         <Footnote standalone>
           One common species of bush clover in Japan is <a href="https://en.wikipedia.org/wiki/Lespedeza_thunbergii"><cite>Lespedeza thunbergii</cite></a>, named after the Swedish botanist Carl Peter Thunberg who visited Japan from 1775–6. Oddly enough, Thunberg also collected some <span lang="ja-Latn">karuta</span> decks during his stay, and was probably the first European to take one back to Europe. His decks are now <a href="http://collections.smvk.se/carlotta-em/web/object/1000639">in the Swedish Museum of Ethnography in Stockholm</a>. (Thanks to Marcus Richert for pointing out this connection.)
         </Footnote>
         <p>The seventh month is represented by bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file={pronHagi} />). These cards are also nicknamed ‘red bean’ (<span lang="ja">赤豆</span> <span lang="ja-Latn">akamame</span>/<span lang="ja">小豆</span> <Pronounce pronouncer="poyotan" word="azuki" lang="ja-Latn" file={pronAzuki} />). Bush clover is very strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.</p>
+        <ArticleImage
+          src={imgHagiTemple}
+          source={{license: "cc0"}}
+          alt="Under a full moon, figures walk amongst flowerbeds in a temple courtyard.">
+          People viewing <span lang="ja-Latn">hagi</span> flowers at <a href="https://en.wikipedia.org/wiki/Taiy%C5%AB-ji"><Noun lang="ja-Latn">Taiyū</Noun> temple</a> (<span lang="ja">太融寺</span>), by <Noun lang="ja-Latn">Hasegawa Sadanobu</Noun>  (<span lang="ja">長谷川貞信</span>).
+        </ArticleImage>
+        <p>Bush clover is also (along with miscanthus, see the next month) considered one of the “seven flowers of autumn” (<span lang="ja">秋の七草</span>), a term which derives from a pair of poems in the <Noun lang="ja-Latn">Man’yōshū</Noun> (book 8:1537–8):<Cite r={TheManyoshu} page={212} /></p>
+        <div className="multi">
+          <p>
+            The flowers that blow<br/>
+            In the autumn fields<br/>
+            When I count them on my fingers,<br/>
+            There they are—<br/>
+            The flowers of seven kinds.<br/>
+          </p>
+          <p>
+            They are the bush-clover,<br/>
+            The ‘tail flower’, the flowers<br/>
+            Of the kuzu vine and patrinia,<br/>
+            The fringed pink, and the agrimony,<br/>
+            And last the blithe ‘morning face’.<br/>
+          </p>
+        </div>
+        <p>
+          On the other hand, the wild boar pictured on the <span lang="ja-Latn">tane</span> card does not feature in any of the imperial poetry collections. As a representative of rural life, it was considered to be outside the boundaries of the aristocratic worldview of the poets.
+          For the common people, however, the boar was very important as a source of food. When <a href="https://en.wikipedia.org/wiki/Emperor_Tenmu">Emperor Tenmu</a> banned the consumption of meat in 675, only cattle, horses, dogs, monkeys, and chickens were prohibited.<Cite r={FourSeasons} page={4261} pageType="l." /> Wild game such as boar and deer were not included: either they escaped the imagination of the Emperor, or they were too important as food sources for commoners.
+        </p>
+        <p>
+
+        </p>
         {/* Deer is associated with bush clover but instead we have a boar? But also
         deer are renowned for being separated from their lovers... */}
       </Section>
@@ -759,7 +813,7 @@ const Hanafuda: React.FC = () => {
         </Footnote>
         <p>The ninth month is represented by chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo" word="kiku" lang="ja-Latn" file={pronKiku} />). The <span lang="ja-Latn">tane</span> card depicts a sake cup, which is an implement of <Pronounce pronouncer="skent" word="chōyō" lang="ja-Latn" file={pronChoyo} /> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).<Cite r={FourSeasons} page={1214} pageType="l." /></p>
         <p>During the festival, chrysanthemum petals are added to sake and consumed. The sake cup pictured on the card has the character <span lang="ja">壽/寿</span> (<Pronounce pronouncer="strawberrybrown" word="kotobuki" lang="ja-Latn" file={pronKotobuki} />), meaning ‘long life’, written in a cursive script.</p>
-        <p>A poem by <Noun lang="ja-Latn">Bashō</Noun>, Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, commemorates the evening of the 9th day of the 9th month, in 1691. <Noun lang="ja-Latn">Bashō</Noun> was staying at the temple <Noun lang="ja-Latn">Gichu-ji</Noun> (<span lang="ja">義仲寺</span>) in a hermitage known as ‘nameless hut’ (<span lang="ja">無名庵</span> <Noun lang="ja-Latn">Mumyō-an</Noun>). His disciple <Noun lang="ja-Latn">Kawai Otokuni</Noun> (<span lang="ja">河合乙州</span>) came to visit him:</p>
+        <p>A poem by <Noun lang="ja-Latn">Bashō</Noun> commemorates the evening of the 9th day of the 9th month, in 1691. He was staying at the temple <Noun lang="ja-Latn">Gichu-ji</Noun> (<span lang="ja">義仲寺</span>) in a hermitage known as ‘nameless hut’ (<span lang="ja">無名庵</span> <Noun lang="ja-Latn">Mumyō-an</Noun>), when his disciple <Noun lang="ja-Latn">Kawai Otokuni</Noun> (<span lang="ja">河合乙州</span>) came to visit him with a gift:</p>
         <blockquote>
           <p><span lang="ja">草の戸や日暮てくれし菊の酒</span></p>
         </blockquote>

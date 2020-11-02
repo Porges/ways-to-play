@@ -3900,5 +3900,58 @@
                 "given": "Edwin"
             }
         ]
+    },
+    "TheManyoshu": {
+        "id": "TheManyoshu",
+        "title": "The Manyōshū",
+        "type": "book",
+        "URL": "https://archive.org/details/in.ernet.dli.2015.182951",
+        "issued": {
+            "year": 1965
+        },
+        "publisher": "Columbia University Press",
+        "publisher-place": "New York, USA",
+        "author": [
+            {
+                "given": "Nippon Gakujutsu Shinkōkai"
+            }
+        ],
+        "ISBN": "0-231-02818-0"
+    },
+    "TheClassicTraditionOfHaiku": {
+        "id": "TheClassicTraditionOfHaiku",
+        "title": "The Classic Tradition of Haiku",
+        "type": "book",
+        "URL": "https://archive.org/details/classictradition00bowe",
+        "issued": {
+            "year": 1996
+        },
+        "publisher": "Dover Publications",
+        "publisher-place": "Mineola, New York, USA",
+        "author": [
+            {
+                "given": "Faubion",
+                "family": "Bowers"
+            }
+        ],
+        "ISBN": "0-486-29274-6"
+    },
+    "NarrowRoad": {
+        "id": "NarrowRoad",
+        "title": "The Narrow Road to the Deep North",
+        "type": "book",
+        "URL": "https://archive.org/details/narrowroadtodeep008800",
+        "issued": {
+            "year": 1986
+        },
+        "publisher": "Penguin Books",
+        "publisher-place": "Middlesex, England, UK",
+        "author": [
+            {
+                "given": "Nobuyuki",
+                "family": "Yuasa"
+            }
+        ],
+        "ISBN": "0-14-044185-9"
     }
 }
