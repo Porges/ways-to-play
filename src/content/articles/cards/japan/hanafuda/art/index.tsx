@@ -604,8 +604,9 @@ const Hanafuda: React.FC = () => {
           <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
         </ArticleImage>
         <p>The <span lang="ja-Latn">tanka</span> on the <span lang="ja-Latn">kasu</span> cards is similar to Poem 135 from the Summer section of the <Noun lang="ja-Latn">Kokinshū</Noun>.<Footnote>
-          The poem on the card differs slightly in that the last line starts with <span lang="ja-Latn">ima ya</span> <span lang="ja">今や</span> instead of <span lang="ja-Latn">itu ka</span> <span lang="ja">いつか</span>.<Cite r={PoemsOfTheEchigobana} page={100} />
-        </Footnote> This poem (perhaps written by <Noun lang="ja-Latn">Kakinomoto no Hitomaro</Noun> <span lang="ja">柿本 人麻呂</span>) again focuses on the transition from spring (represented by wisteria) to summer (represented by the arrival of the cuckoo):</p>
+          <p>The poem on the card differs slightly in that the last line starts with <span lang="ja-Latn">ima ya</span> <span lang="ja">今や</span> instead of <span lang="ja-Latn">itu ka</span> <span lang="ja">いつか</span>.<Cite r={PoemsOfTheEchigobana} page={100} /></p>
+          <p>It was perhaps written by <Noun lang="ja-Latn">Kakinomoto no Hitomaro</Noun> <span lang="ja">柿本 人麻呂</span>.</p>
+        </Footnote> This poem  again focuses on the transition from spring (represented by wisteria) to summer (represented by the arrival of the cuckoo):</p>
         <div className="multi">
           <p lang="ja" className="vertical-rl">わがやどの<br />池の藤波<br />さきにけり<br />山郭公<br />いつかきなかむ</p>
           <p>At my home<br />On the pond wisteria waves<br />Are breaking:<br />Mountain cuckoo,<br />When might you come and sing?<br /><Cite r={KKS135} /></p>
@@ -823,6 +824,7 @@ const Hanafuda: React.FC = () => {
           </p>
         </blockquote>
         <p>Chrysanthemums were also prized for their secular beauty, and collectors competed to breed particularly beautiful varieties.</p>
+        <p>In modern times a stylized version of the chrysanthemum flower is famously used as the Chrysanthemum Seal (<span lang="ja">菊紋</span> <span lang="ja-Latn">kikumon</span>), which is the crest of the Emperor of Japan (who uses a 16-petal version) and other members of the imperial family (who use a 14-petal version). It was officially adopted for this purpose in the <Noun lang="ja-Latn">Meiji</Noun> period.</p>
       </Section>
       <Section title={<span lang="ja">10月</span>}>
         <ArticleImage
