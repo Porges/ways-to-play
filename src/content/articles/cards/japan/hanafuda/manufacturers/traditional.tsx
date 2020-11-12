@@ -648,7 +648,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">牡丹獅子</span> (<span lang="ja-Latn">botanjishi</span> ‘peony and lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">金時桜</span> (<span lang="ja-Latn">kintokizakura</span> ‘<a href="https://en.wikipedia.org/wiki/Kintar%C5%8D">Kintoki</a> and cherry blossom’)</li>
           <li><span lang="ja">旭富士</span> (<span lang="ja-Latn">asahifuji</span> ‘<Noun lang="ja-Latn">Fuji</Noun> sunrise’)</li>
-          <li><span lang="ja">桜判官</span> (<span lang="ja-Latn">sakurahangan</span> ‘cherry blossom judge’, apparently a reference to a judge with a cherry blossom tattoo)</li>
+          <li><span lang="ja">桜判官</span> (<span lang="ja-Latn">sakurahangan</span> ‘cherry blossom judge’, a reference to <a href="https://en.wikipedia.org/wiki/T%C5%8Dyama_Kagemoto"><Noun lang="ja-Latn">Tōyama Kagemoto</Noun></a>)</li>
         </ul>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Kawakita</Noun> (<span lang="ja">川北</span>)</>}>
