@@ -406,6 +406,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">泰平</span> (<span lang="ja-Latn">taihei</span>, ‘tranquility’)</li>
           <li><span lang="ja">纏</span> (<span lang="ja-Latn">matoi</span>, ‘<a href="https://en.wikipedia.org/wiki/Matoi">fireman’s standard</a>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">旅</span> (<span lang="ja-Latn">tabi</span>, ‘trip’)</li>
+          <li><span lang="ja">大天龍</span> (<span lang="ja-Latn">daitenryū</span> ‘great <Noun lang="ja-Latn">Tenryū</Noun>’b)</li>
         </ul>
         <p>Angel also produces cardboard novelty <Noun lang="ja-Latn">hanafuda</Noun> for brands like Disney and Hello Kitty, and both <Noun lang="ja-Latn">Hyakunin Isshu</Noun> and <Noun lang="ja-Latn">Iroha Karuta</Noun>.</p>
         <p>At one point they produced a Hana-Trump deck with similar construction to that of <Noun lang="ja-Latn">Nintendō</Noun>’s (above).</p>
@@ -497,8 +498,8 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">大公爵</span> (<span lang="ja-Latn">daikōshaku</span>, ‘grand duke’, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
           <li><span lang="ja">大西郷</span> (<span lang="ja-Latn">daisaigō</span>, ‘great <a href="https://en.wikipedia.org/wiki/Saig%C5%8D_Takamori">Saigō</a>’)</li>
           <li><span lang="ja">エース</span> (<span lang="ja-Latn">ēsu</span>, also used for <Noun lang="ja-Latn">Kabufuda</Noun>)</li>
-          <li><span lang="ja">大提督</span> (<span lang="ja-Latn">daiteitoku</span>, ‘grand admiral’)</li>
-          <li><span lang="ja">大勝利</span> (<span lang="ja-Latn">daishōri</span>, ‘huge win’)</li>
+          <li><span lang="ja">大提督</span> (<span lang="ja-Latn">daiteitoku</span>, ‘grand admiral’, featuring a picture of <a href="https://en.wikipedia.org/wiki/Horatio_Nelson,_1st_Viscount_Nelson">Horatio Nelson</a>)</li>
+          <li><span lang="ja">大勝利</span> (<span lang="ja-Latn">daishōri</span>, ‘huge win’, featuring a picture of <a href="https://en.wikipedia.org/wiki/T%C5%8Dg%C5%8D_Heihachir%C5%8D">Tōgō Heihachirō</a>)</li>
           <li><span lang="ja">紅葉</span> (<span lang="ja-Latn">momiji</span>, ‘autumn leaves’)</li>
           <li><span lang="ja">源氏</span> (<span lang="ja-Latn">genji</span>, ‘<a href="https://en.wikipedia.org/wiki/Hikaru_Genji" lang="ja-Latn" className="proper-noun">Genji</a>’)</li>
         </ul>
@@ -644,7 +645,7 @@ const Manufacturers: React.FC = () => {
         <p>This <Noun lang="ja-Latn">Tōkyō</Noun> manufacturer stopped producing shortly after 1972.<Cite r={ModernJapaneseWrappers} page={42} /> Brands included:</p>
         <ul>
           <li><span lang="ja">四天王</span> (<span lang="ja-Latn">shi tennō</span> the <a href="https://en.wikipedia.org/wiki/Four_Heavenly_Kings">four heavenly kings</a>), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-          <li><span lang="ja">牡丹獅子</span> (<span lang="ja-Latn">botanshishi</span> ‘peony and lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+          <li><span lang="ja">牡丹獅子</span> (<span lang="ja-Latn">botanjishi</span> ‘peony and lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">金時桜</span> (<span lang="ja-Latn">kintokizakura</span> ‘<a href="https://en.wikipedia.org/wiki/Kintar%C5%8D">Kintoki</a> and cherry blossom’)</li>
           <li><span lang="ja">旭富士</span> (<span lang="ja-Latn">asahifuji</span> ‘<Noun lang="ja-Latn">Fuji</Noun> sunrise’)</li>
           <li><span lang="ja">桜判官</span> (<span lang="ja-Latn">sakurahangan</span> ‘cherry blossom judge’, apparently a reference to a judge with a cherry blossom tattoo)</li>
@@ -721,13 +722,15 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Dai Nippon</Noun> (<span lang="ja">大日本</span>)</>}>
-        <p>A manufacturer from <Noun lang="ja-Latn">Yōkaichi</Noun> (now part of <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture. Brands included:<Cite r={ModernJapaneseWrappers} page={46} /></p>
+        <p>A manufacturer from <Noun lang="ja-Latn">Yōkaichi</Noun> (now part of <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture. Their logo is a group of three gourds, which are considered to be lucky.</p>
+        <p>Brands included:<Cite r={ModernJapaneseWrappers} page={46} /></p>
         <ul>
           <li><span lang="ja">銀達磨</span> (<span lang="ja-Latn">gindaruma</span> ‘silver <a href="https://en.wikipedia.org/wiki/Bodhidharma">Daruma</a>’)</li>
           <li><span lang="ja">千姫</span> (<span lang="ja-Latn">senhime</span> ‘<a href="https://en.wikipedia.org/wiki/Senhime">Lady Sen</a>’)</li>
           <li><span lang="ja">銀瓠</span> (<span lang="ja-Latn">ginhyō</span> ‘silver gourd’)</li>
           <li><span lang="ja">金瓠</span> (<span lang="ja-Latn">kinhyō</span> ‘gold gourd’)</li>
-          <li><span lang="ja">豊太閤</span> (<span lang="ja-Latn">hōtaikō</span>, a title of honour for <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi">Toyotomi Hideyoshi</a>)</li>
+          <li><span lang="ja">豊太閤</span><Footnote>On the box this is misspelt <span lang="ja">豊太閣</span>.</Footnote> (<span lang="ja-Latn">hōtaikō</span>, a title of honour for <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi">Toyotomi Hideyoshi</a>)</li>
+          <li><span lang="ja">千成</span> (<span lang="ja-Latn">sennari</span>, short for <span lang="ja">千成瓢箪</span> <span lang="ja-Latn">sennaribyōtan</span> ‘thousand gourds’, the standard used by <Noun lang="ja-Latn">Hideyoshi</Noun>)</li>
         </ul>
       </Section>
       <Section title={<><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>)</>}>
@@ -798,9 +801,9 @@ const Manufacturers: React.FC = () => {
       <Section title={<><Noun lang="ja-Latn">Nihon Goraku</Noun> (<span lang="ja">日本娯楽</span>)</>}>
         <p>A company who had cards manufactured by <Noun lang="">Kyōto Karuta</Noun>. Their mark was circled <span lang="ja">娯</span>. Brands included:</p>
         <ul>
-          <li><span lang="ja">山伏</span> (<span lang="ja-Latn">yamabushi</span>, a mountain-dwelling hermit)</li>
+          <li><span lang="ja">山伏</span> (<span lang="ja-Latn">yamabushi</span>, a mountain-dwelling hermit, practitioner of <a href="https://en.wikipedia.org/wiki/Shugend%C5%8D"><Noun lang="ja-Latn">Shugendō</Noun></a>)</li>
           <li><span lang="ja">福の神</span> (<span lang="ja-Latn">fuku no kami</span>, ‘god of fortune’, the name of a recurring character in <a href="https://en.wikipedia.org/wiki/Ky%C5%8Dgen"><span lang="ja-Latn">kyōgen</span></a> and also the title of a play)</li>
-          <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>)</li>
+          <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">竹印</span> (<span lang="ja-Latn">takejirushi</span>, ‘bamboo brand’)</li>
         </ul>
       </Section>
