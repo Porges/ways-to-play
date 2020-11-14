@@ -799,7 +799,8 @@ const Manufacturers: React.FC = () => {
         <p>A manufacturer that has a very finely-detailed deck of cards reproduced in <Cite r={Hargrave} page={13} inline />.</p>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Nihon Goraku</Noun> (<span lang="ja">日本娯楽</span>)</>}>
-        <p>A company who had cards manufactured by <Noun lang="">Kyōto Karuta</Noun>. Their mark was circled <span lang="ja">娯</span>. Brands included:</p>
+        <p><Noun lang="ja-Latn">Nihon Goraku</Noun> was founded in 1945 in <Noun lang="ja-Latn">Shinhama</Noun> (<span lang="ja">新浜</span>), <Noun lang="ja-Latn">Onomichi</Noun> city (<span lang="ja">尾道市</span>), <Noun lang="ja-Latn">Hiroshima</Noun> prefecture (<span lang="ja">広島県</span>), and originally had cards manufactured by <Noun lang="">Kyōto Karuta</Noun>. Nowadays the company imports musical instruments.</p>
+        <p>Their mark was circled <span lang="ja">娯</span>, and brands included:</p>
         <ul>
           <li><span lang="ja">山伏</span> (<span lang="ja-Latn">yamabushi</span>, a mountain-dwelling hermit, practitioner of <a href="https://en.wikipedia.org/wiki/Shugend%C5%8D"><Noun lang="ja-Latn">Shugendō</Noun></a>)</li>
           <li><span lang="ja">福の神</span> (<span lang="ja-Latn">fuku no kami</span>, ‘god of fortune’, the name of a recurring character in <a href="https://en.wikipedia.org/wiki/Ky%C5%8Dgen"><span lang="ja-Latn">kyōgen</span></a> and also the title of a play)</li>

@@ -3953,5 +3953,20 @@
             }
         ],
         "ISBN": "0-14-044185-9"
+    },
+    "ElementsOfJapaneseDesign": {
+        "id": "ElementsOfJapaneseDesign",
+        "title": "The Elements of Japanese Design",
+        "type": "book",
+        "ISBN": "978-0-8348-0229-5",
+        "author": [
+            {"given": "John", "family": "Dower"}
+        ],
+        "publisher": "Weatherhill",
+        "publisher-place": "Boston, MA, USA",
+        "issued": {
+            "year": 2005
+        }
     }
+
 }

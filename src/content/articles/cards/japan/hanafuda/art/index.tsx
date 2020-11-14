@@ -5,7 +5,7 @@ import { Noun, ArticleImage, Footnote, Section, Cite, Pronounce } from 'ui';
 import {
   FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords,
   MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince,
-  CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442,
+  CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign,
   AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad
 } from 'References/bibliography.json';
 
@@ -41,6 +41,7 @@ import imgHagiBloom from './hagi_bloom.jpg';
 import imgMiscanthus from './miscanthus.jpg';
 import imgHagiTemple from './hagi_temple.jpg';
 import imgHagiBoar from './SC138896.jpg';
+import imgImperialSealOfJapan from './Imperial_Seal_of_Japan.svg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.png';
 import imgHanafuda1_2 from '../Hanafuda_1-2.png';
@@ -726,6 +727,7 @@ const Hanafuda: React.FC = () => {
             And last the blithe ‘morning face’.<br/>
           </p>
         </div>
+        <p>The bush clover is referred to in the <Noun lang="ja-Latn">Man’yōshū</Noun> even more than the plum or cherry blossoms.<Cite r={ElementsOfJapaneseDesign} page={54}/></p>
         <p>
           On the other hand, the wild boar pictured on the <span lang="ja-Latn">tane</span> card does not feature in any of the imperial poetry collections. As a representative of rural life, it was considered to be outside the boundaries of the aristocratic worldview of the poets.
           For the common people, however, the boar was very important as a source of food. When <a href="https://en.wikipedia.org/wiki/Emperor_Tenmu">Emperor Tenmu</a> banned the consumption of meat in 675, only cattle, horses, dogs, monkeys, and chickens were prohibited.<Cite r={FourSeasons} page={4261} pageType="l." /> Wild game such as boar and deer were not included: either they escaped the imagination of the Emperor, or they were too important as food sources for commoners.
@@ -813,7 +815,7 @@ const Hanafuda: React.FC = () => {
           <p>A story invented by <Noun lang="ja-Latn">Tendai</Noun> monks in the 14th century <Noun lang="ja-Latn">Taiheiki</Noun> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:<Cite r={ChigoJapanese} page={[[958, 959]]} /> King <Noun lang="zh-Latn">Mu</Noun>’s (<span lang="zh">周穆王</span>) favourite, a young boy, is banished to a remote mountain. Following the king’s advice, he recites passages of the Buddhist Lotus Sūtra, and writes them upon on chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks. Eight hundred years later he has not aged a day, and he returns to court as the legendary <Noun lang="zh-Latn">Peng Zu</Noun> (<span lang="zh">彭祖</span>) during the reign of King <Noun lang="zh-Latn">Wen</Noun> (<span lang="zh">周文王</span>, <abbr title="reigned">r.</abbr> 1112–1050 <abbr className="initialism">BCE</abbr>), who subsequently institutes the festival.</p>
         </Footnote>
         <p>The ninth month is represented by chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo" word="kiku" lang="ja-Latn" file={pronKiku} />). The <span lang="ja-Latn">tane</span> card depicts a sake cup, which is an implement of <Pronounce pronouncer="skent" word="chōyō" lang="ja-Latn" file={pronChoyo} /> <span lang="ja">重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <Noun lang="ja-Latn">Kanmu</Noun> (<span lang="ja">桓武天皇</span>, 735–806).<Cite r={FourSeasons} page={1214} pageType="l." /></p>
-        <p>During the festival, chrysanthemum petals are added to sake and consumed. The sake cup pictured on the card has the character <span lang="ja">壽/寿</span> (<Pronounce pronouncer="strawberrybrown" word="kotobuki" lang="ja-Latn" file={pronKotobuki} />), meaning ‘long life’, written in a cursive script.</p>
+        <p>During the festival, chrysanthemum petals are added to sake and consumed. The sake cup (<span lang="ja">杯</span> <span lang="ja-Latn">sakazuki</span>) pictured on the card has the character <span lang="ja">壽/寿</span> (<Pronounce pronouncer="strawberrybrown" word="kotobuki" lang="ja-Latn" file={pronKotobuki} />), meaning ‘long life’, written on it in a cursive script.</p>
         <p>A poem by <Noun lang="ja-Latn">Bashō</Noun> commemorates the evening of the 9th day of the 9th month, in 1691. He was staying at the temple <Noun lang="ja-Latn">Gichu-ji</Noun> (<span lang="ja">義仲寺</span>) in a hermitage known as ‘name&shy;less hut’ (<span lang="ja">無名庵</span> <Noun lang="ja-Latn">Mumyō-an</Noun>), when his disciple <Noun lang="ja-Latn">Kawai Otokuni</Noun> (<span lang="ja">河合乙州</span>) came to visit him with a gift:</p>
         <blockquote>
           <p><span lang="ja">草の戸や日暮てくれし菊の酒</span></p>
@@ -823,8 +825,24 @@ const Hanafuda: React.FC = () => {
             this grass door—<br />dusk arrives with a present<br />of chrysanthemum sake<Cite r={GreveSake} />
           </p>
         </blockquote>
+        <ArticleImage
+          src={imgImperialSealOfJapan}
+          position="aside"
+          size="small"
+          alt="A very stylized image of a chrysanthemum with 16 petals radiating outward."
+          source={{
+            license: "cc0",
+            originalUrl: "https://commons.wikimedia.org/wiki/File:Imperial_Seal_of_Japan.svg",
+            author: {
+              given: "Philip",
+              family: "Nilsson",
+            },
+            copyrightYear: 2006,
+          }}>
+          The Imperial Seal of Japan.
+        </ArticleImage>
         <p>Chrysanthemums were also prized for their secular beauty, and collectors competed to breed particularly beautiful varieties.</p>
-        <p>In modern times a stylized version of the chrysanthemum flower is famously used as the Chrysanthemum Seal (<span lang="ja">菊紋</span> <span lang="ja-Latn">kikumon</span>), which is the crest of the Emperor of Japan (who uses a 16-petal version) and other members of the imperial family (who use a 14-petal version). It was officially adopted for this purpose in the <Noun lang="ja-Latn">Meiji</Noun> period.</p>
+        <p>The chrysanthemum is also used as a symbol by the Emperor of Japan. It was first adopted by <a href="https://en.wikipedia.org/wiki/Emperor_Go-Toba">Emperor <Noun lang="ja-Latn">Go-Toba</Noun></a> (<abbr title="reigned">r.</abbr> 1183–1198), but was not restricted to this purpose until the <Noun lang="ja-Latn">Meiji</Noun> period. In modern times a stylized version of the chrysanthemum flower is used as the Chrysanthemum Seal (<span lang="ja">菊紋</span> <span lang="ja-Latn">kikumon</span>), which is the crest of the Emperor of Japan (who uses a 16-petal version) and other members of the imperial family (who use a 14-petal version).</p>
       </Section>
       <Section title={<span lang="ja">10月</span>}>
         <ArticleImage
@@ -968,8 +986,9 @@ const Hanafuda: React.FC = () => {
           }}>
           <cite>Phoenix and Paulownia Tree</cite><br /><cite lang="ja">桐に鳳凰</cite><br />by <Noun lang="ja-Latn">Isoda Koryūsai</Noun> (<span lang="ja">礒田 湖龍斎</span>, 1735–1790)
         </ArticleImage>
-        <p>The phoenix (<span lang="ja">鳳凰</span> <Pronounce pronouncer="akitomo" word="hōō" lang="ja-Latn" file={pronHoo} />, or <span lang="zh-Latn">fèng&shy;huáng</span> in Mandarin Chinese) featured on the bright card is from Japanese mythology, and is particularly associated with the empress of Japan. According to legend the phoenix will only land on a paulownia tree. What appear to be ‘spikes’ on the card are really its long tail feathers.</p>
-        <p>In modern times, the paulownia tree is associated with the government, and in particular prime minister’s office. In (TODO), the manufacturer <Noun lang="ja-Latn">Ōishi Tengudo</Noun> produced a special deck for the TODO Prime Minister. In addition, <Noun lang="ja-Latn">Ōishi Tengudo</Noun> boxes many of their decks using Paulownia wood.</p>
+        <p>The phoenix (<span lang="ja">鳳凰</span> <Pronounce pronouncer="akitomo" word="hōō" lang="ja-Latn" file={pronHoo} />, or <span lang="zh-Latn">fèng&shy;huáng</span> in Mandarin Chinese) featured on the bright card is from Japanese mythology, and was traditionally associated with the empress of Japan. According to legend the phoenix will only land on a paulownia tree. What appear to be ‘spikes’ on the card are really its long tail feathers. This card is sometimes casually referred to as the “rooster” card.</p>
+        <p>In modern times, the paulownia tree is associated with the government, and in particular prime minister’s office.</p>
+        <p>The wood of the paulownia is light and strong and often used for boxes; older high-quality <Noun lang="ja-Latn">Hanafuda</Noun> decks came encased in an outer box of paulownia wood. The manufacturer <Noun lang="ja-Latn">Ōishi Tengudo</Noun> still boxes many of their decks in this way.</p>
         <p>One of the <span lang="ja-Latn">kasu</span> cards is usually coloured, often yellow, but sometimes with red as well. In some games it becomes a <span lang="ja-Latn">tane</span> card, or even a <span lang="ja-Latn">tanzaku</span> card.</p>
         <div className="multi">
           <ArticleImage
