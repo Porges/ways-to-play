@@ -3967,6 +3967,34 @@
         "issued": {
             "year": 2005
         }
+    },
+    "NintendoHistory": {
+        "id": "NintendoHistory",
+        "title": "在卖游戏之前，任天堂还上演过一出豪门宫斗",
+        "title-lang": "zh",
+        "type": "webpage",
+        "URL": "https://zhuanlan.zhihu.com/p/31321595",
+        "author": [
+            {"given": "鲤衣荷", "family": "夏", "lang": "zh"}
+        ],
+        "issued": {"year": 2017}
+    },
+    "EbashiCigaretteCards": {
+        "id": "EbashiCigaretteCards",
+        "title": "花札図柄の「煙草カード」",
+        "title-lang": "ja",
+        "URL": "https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/",
+        "author": [
+            {
+                "given": "崇",
+                "family": "江橋",
+                "lang": "ja"
+            }
+        ],
+        "issued": {
+            "year": 2020
+        },
+        "type": "webpage",
+        "publisher": "Japan Playing Card Museum"
     }
-
 }

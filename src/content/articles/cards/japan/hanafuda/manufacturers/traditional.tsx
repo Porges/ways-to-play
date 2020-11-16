@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import { Cite, ArticleImage, Noun, Footnote, Section } from 'ui';
 import { GameRef } from 'content/games/Game';
 
-import { SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese } from 'References/bibliography.json';
+import { SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, EbashiCigaretteCards } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -46,6 +46,7 @@ import imgTakarabune from './Takarabune_by_Hiroshige.jpg';
 import imgOtafuku from './otafuku.jpg';
 import imgMatsuiShop from './2448px-松井天狗堂.jpg';
 import imgNishimuraBrand from './nishimura_brand.jpg';
+import imgMuraiBrosCard from './murai-bros-card.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -282,6 +283,17 @@ const Manufacturers: React.FC = () => {
       <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture. The <Noun lang="ja-Latn">Kansai</Noun> region (which contains both <Noun lang="ja-Latn">Kyōto</Noun> and <Noun lang="ja-Latn">Ōsaka</Noun>) is the original source of <Noun lang="ja-Latn">Hanafuda</Noun> cards.</p>
       <Section title={<><Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</>}>
         <p><Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company producing <Noun lang="jp-Latn">Hanafuda</Noun> cards today. The company was founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun> (<span lang="ja">山内 房治郎</span>), and it was run by the <Noun lang="ja-Latn">Yamauchi</Noun> family for three generations until <Noun lang="ja-Latn">Yamauchi Hiroshi</Noun> (<span lang="ja">山内 溥</span>) stepped down in 2002.</p>
+        <p>In their early days, <Noun lang="ja-Latn">Nintendō</Noun> was one of the first companies producing Western-style cards in Japan. <Noun lang="ja-Latn">Fusajirō</Noun> also joined forces with the “tobacco king” <Noun lang="ja-Latn">Murai Kichibee</Noun> (<span lang="ja">村井吉兵衛</span>) who had founded the <Noun lang="ja-Latn">Murai</Noun> Brothers tobacco company in 1892. Like <Noun lang="ja-Latn">Nintendō</Noun>, <Noun lang="ja-Latn">Murai</Noun> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing” (<span lang="ja">東洋印刷</span>).<Cite r={EbashiCigaretteCards} /></p>
+        <ArticleImage 
+          position="left"
+          alt="An image of a cigarette card with a combination Hanafuda (Wisteria) and Western (4 of clubs) on the front, and on the reverse reading “A different card in each package of cigarettes”."
+          src={imgMuraiBrosCard}
+          source={{
+            license: "cc0"
+          }}>
+          An example of a combination <Noun lang="ja-Latn">Hanafuda</Noun> card included with a packet of Murai Bros. cigarettes. Note that the clubs are printed in the “wrong” colour.
+        </ArticleImage>
+        <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <Noun lang="ja-Latn">Hanafuda</Noun> card included with each packet of cigarettes sold. These cards often featured a design combining Western and <Noun lang="ja-Latn">Hanafuda</Noun> card designs. In 1904, the Japanese government nationalized the manufacture of all tobacco products,<Footnote><Noun lang="ja-Latn">Kichibee</Noun> was compensated massively for being pushed out of the industry and so founded a bank instead.</Footnote> and the partnership between the two companies ended.</p>
         <ArticleImage
           size="wide"
           src={imgNintendoShop}
@@ -321,7 +333,7 @@ const Manufacturers: React.FC = () => {
         <ArticleImage
           src={imgHanaTrumpExtra}
           alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
-          The extra cards of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck. From left-to-right, after the joker, these are: a blindfolded samurai, with text reading <span lang="ja"><q>不見出</q></span> (88 sets have a piece labelled <span lang="ja"><q>不見転</q></span>, ‘loose morals’); a <span lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s fan which is nowadays used by sumo referees, which is inscribed <span lang="ja"><q>跡絶之章</q></span> (pause prize, 88 sets have a piece labelled <span lang="ja"><q>両桐絶体之章</q></span>); a rice winnowing basket (<span lang="ja">箕</span> <span lang="ja-Latn">mi</span>) inscribed <span lang="ja"><q>手役之章</q></span> (hand-<span lang="ja-Latn">yaku</span> prize); and an award medal reading <span lang="ja"><q>吟見勲賞</q></span> (<span lang="ja-Latn">Ginmi Kunshō</span>, ‘<span lang="ja-Latn">Ginmi</span> Medal’), which is a prize for the ‘top player’ (<span lang="ja-Latn">Ginmi</span>, usually spelt <span lang="ja">吟味</span>, 88 sets have a piece labelled <span lang="ja">銀見勲章</span>).
+          The extra cards of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck. From left-to-right, after the joker, these are: a blindfolded samurai, with text reading <span lang="ja"><q>不見出</q></span> (88 sets have a piece labelled <span lang="ja"><q>不見転</q></span>, ‘loose morals’); a <span lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s fan which is nowadays used by sumo referees, which is inscribed <span lang="ja"><q>跡絶之章</q></span> (88 sets have a piece labelled <span lang="ja"><q>両桐絶体之章</q></span>); a rice winnowing basket (<span lang="ja">箕</span> <span lang="ja-Latn">mi</span>) inscribed <span lang="ja"><q>手役之章</q></span> (hand-<span lang="ja-Latn">yaku</span> prize); and an award medal reading <span lang="ja"><q>吟見勲賞</q></span> (<span lang="ja-Latn">Ginmi Kunshō</span>, ‘<span lang="ja-Latn">Ginmi</span> Medal’), which is a prize for the ‘top player’ (<span lang="ja-Latn">Ginmi</span>, usually spelt <span lang="ja">吟味</span>, 88 sets have a piece labelled <span lang="ja">銀見勲章</span>).
           </ArticleImage>
         <p>Currently <Noun lang="ja-Latn">Nintendō</Noun> also produce many novelty decks themed to their videogame characters, such as Mario (pictured below), Pokémon, Mario Pikachu (limited edition, 2016), Kirby (2020), among others.</p>
         <ArticleImage
