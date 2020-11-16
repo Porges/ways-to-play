@@ -293,7 +293,7 @@ const Manufacturers: React.FC = () => {
           }}>
           An example of a combination <Noun lang="ja-Latn">Hanafuda</Noun> card included with a packet of Murai Bros. cigarettes. Note that the clubs are printed in the “wrong” colour.
         </ArticleImage>
-        <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <Noun lang="ja-Latn">Hanafuda</Noun> card included with each packet of cigarettes sold. These cards often featured a design combining Western and <Noun lang="ja-Latn">Hanafuda</Noun> card designs. In 1904, the Japanese government nationalized the manufacture of all tobacco products,<Footnote><Noun lang="ja-Latn">Kichibee</Noun> was compensated massively for being pushed out of the industry and so founded a bank instead.</Footnote> and the partnership between the two companies ended.</p>
+        <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <Noun lang="ja-Latn">Hanafuda</Noun> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <Noun lang="ja-Latn">Hanafuda</Noun> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,<Footnote><Noun lang="ja-Latn">Kichibee</Noun> was compensated massively for being pushed out of the industry and so founded a bank instead.</Footnote> and the partnership between the two companies ended.</p>
         <ArticleImage
           size="wide"
           src={imgNintendoShop}
@@ -335,7 +335,7 @@ const Manufacturers: React.FC = () => {
           alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
           The extra cards of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck. From left-to-right, after the joker, these are: a blindfolded samurai, with text reading <span lang="ja"><q>不見出</q></span> (88 sets have a piece labelled <span lang="ja"><q>不見転</q></span>, ‘loose morals’); a <span lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s fan which is nowadays used by sumo referees, which is inscribed <span lang="ja"><q>跡絶之章</q></span> (88 sets have a piece labelled <span lang="ja"><q>両桐絶体之章</q></span>); a rice winnowing basket (<span lang="ja">箕</span> <span lang="ja-Latn">mi</span>) inscribed <span lang="ja"><q>手役之章</q></span> (hand-<span lang="ja-Latn">yaku</span> prize); and an award medal reading <span lang="ja"><q>吟見勲賞</q></span> (<span lang="ja-Latn">Ginmi Kunshō</span>, ‘<span lang="ja-Latn">Ginmi</span> Medal’), which is a prize for the ‘top player’ (<span lang="ja-Latn">Ginmi</span>, usually spelt <span lang="ja">吟味</span>, 88 sets have a piece labelled <span lang="ja">銀見勲章</span>).
           </ArticleImage>
-        <p>Currently <Noun lang="ja-Latn">Nintendō</Noun> also produce many novelty decks themed to their videogame characters, such as Mario (pictured below), Pokémon, Mario Pikachu (limited edition, 2016), Kirby (2020), among others.</p>
+        <p>Currently <Noun lang="ja-Latn">Nintendō</Noun> also produce many novelty decks themed with their videogame characters, such as Mario (pictured below), Pokémon, Mario Pikachu (limited edition, 2016), Kirby (2020), among others.</p>
         <ArticleImage
           src={imgMarioBrights}
           alt="TODO">
