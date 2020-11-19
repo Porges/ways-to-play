@@ -13,6 +13,7 @@ export type LicenseName
     | "instagram"
     | "gpl"
     | "with-permission"
+    | "us-fair-use"
 
 export type Version = "2.0" | "3.0" | "4.0"
 
@@ -67,6 +68,10 @@ export const License: React.FC<Props> = (props: Props) => {
 
     if (license === 'with-permission') {
         return <span>{leading && ', '}with permission</span>;
+    }
+
+    if (license === 'us-fair-use') {
+      return <span>{leading && ', '}under US fair use</span>;
     }
 
     // license == gpl | creative-common

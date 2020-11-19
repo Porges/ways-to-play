@@ -6,7 +6,7 @@ import {
   FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords,
   MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince,
   CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign,
-  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory
+  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory, HandbookForJapan
 } from 'References/bibliography.json';
 
 import imgSC232139 from "../SC232139.jpg";
@@ -42,6 +42,7 @@ import imgMiscanthus from './miscanthus.jpg';
 import imgHagiTemple from './hagi_temple.jpg';
 import imgHagiBoar from './SC138896.jpg';
 import imgImperialSealOfJapan from './Imperial_Seal_of_Japan.svg';
+import imgBushWarbler from './bush_warbler.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.png';
 import imgHanafuda1_2 from '../Hanafuda_1-2.png';
@@ -455,8 +456,21 @@ const Hanafuda: React.FC = () => {
           ]}>
           The cards for February feature plum trees in blossom. There is one <span lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards. The text on the <span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
         </ArticleImage>
-        <p>The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />). The <span lang="ja-Latn">tane</span> has a bush warbler–plum blossom combination that has been associated with spring since very early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759).<Cite r={FourSeasons} page={978} pageType={'l.'} /> During the <Noun lang="ja-Latn">Nara</Noun> period, plum blossom was the favoured flower in poetry and art; cherry blossoms would only become more popular during the <Noun lang="ja-Latn">Heian</Noun> period.<Cite r={FourSeasons} page={997} pageType='l.' /></p>
-        <p>The bush warbler was famed for its song, and the first cry of the bush warbler was considered to announce the beginning of spring:</p>
+        <ArticleImage
+          position="aside"
+          alt="A small dull-coloured bird sitting on a branch."
+          src={imgBushWarbler}
+          source={{
+            author: { family: "Gropp", given: "Eric" },
+            originalUrl: "https://www.flickr.com/photos/egropp/16717864053",
+            license: "cc-by",
+            copyrightYear: 2015,
+            licenseVersion: "2.0"
+          }}>
+          In reality, the bush warbler is not a brightly-coloured bird.
+        </ArticleImage>
+        <p>The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />). The <span lang="ja-Latn">tane</span> has a bush warbler–plum blossom combination that has been associated with spring since very early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759).<Cite r={FourSeasons} page={978} pageType={'l.'} /> During the <Noun lang="ja-Latn">Nara</Noun> period, plum blossom was the favoured flower in poetry and art; cherry blossoms would only become more popular during the <Noun lang="ja-Latn">Heian</Noun> period:<Cite r={FourSeasons} page={997} pageType='l.' /> after a famous plum tree planted by Emperor <Noun lang="ja-Latn">Kanmu</Noun> at the imperial palace died, it was replaced by a cherry tree in 834.<Cite r={HandbookForJapan} page={301}/><Footnote>This cherry tree has been replanted several times since then, and is called the <span lang="ja-Latn">sakon no sakura</span> (<span lang="ja">左近桜</span> ‘left-side cherry’).</Footnote></p>
+        <p>The bush warbler (<span lang="ja">鶯</span> <span lang="ja-Latn">uguisu</span>) was praised for its song, and one of its cries is said to repeat the phrase <span lang="ja-Latn">hō-hoke-kyō</span>, the Japanese name of the <a href="https://en.wikipedia.org/wiki/Lotus_Sutra">Lotus Sutra</a> (<span lang="ja">法華経</span> <span lang="ja-Latn">hokekyō</span>). The first cry of the bush warbler was considered to announce the beginning of spring:</p>
         <Footnote standalone><p>This is Poem 14 from the ‘Spring 1’ section of the <Noun lang="ja-Latn">Kokinshū</Noun>. It was composed by <a href="https://en.wikipedia.org/wiki/%C5%8Ce_no_Chisato"><Noun lang="ja-Latn">Ōe no Chisato</Noun></a> (<span lang="ja">大江千里</span>) during a competition in the <Noun lang="ja-Latn">Kanpyō</Noun> era (889–898).</p></Footnote>
         <div className="multi">
           <p lang="ja">うぐひすの谷よりいづるこゑなくは春くることをたれかしらまし</p>

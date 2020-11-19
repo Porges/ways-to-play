@@ -11,6 +11,7 @@ import imageBab2 from './large_BAB_S20_0003.jpg';
 import imgTickTack from './tick-tack-toe.png'
 import img5072 from './5072574617_9afa5ee9ae_o.jpg';
 import img8576 from './8576897675_c7c5785b4a_o.jpg'
+import imgBirdBrain from './bird_brain.jpg';
 
 import pronTrippTrapp from './pronunciation_sv_tripp,_trapp,_trull.mp3';
 
@@ -255,10 +256,19 @@ first player to claim 3 numbers that add to 15 is the winner.
         strategy and with a chance of making a mistake</li>
     </ul>
     <p>Chickens have also been trained to ‘play’ the
-      game.<Cite r={CrossOutALandmark}  /><Cite r={TheChickenVanishes}  /><Cite r={ChinatownFairIsBack}  /> The first of these games,
-      “Bird Brain”, was developed in the late 1970s by Animal Behavior Enterprises, a company founded by
-      Marian &amp; Keller Breland, who were students of B. F. Skinner, the behavioural
-      psychologist.<Cite r={TheMouseWhoReinforced} page={73} /> In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.<Cite r={BirdBrainManual}  /></p>
+      game.<Cite r={CrossOutALandmark}  /><Cite r={TheChickenVanishes}  /><Cite r={ChinatownFairIsBack}  /> The first of these games, “Bird Brain”, was developed in the late 1970s by Animal Behavior Enterprises, a company founded by Marian &amp; Keller Breland, who were students of B. F. Skinner, the behavioural psychologist.<Cite r={TheMouseWhoReinforced} page={73} /> In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.<Cite r={BirdBrainManual}  /></p>
+    <ArticleImage src={imgBirdBrain}
+      alt=""
+      source={{
+        originalUrl: "http://n2t.net/ark:/65665/ng49ca746ab-6f36-704b-e053-15f76fa0b4fa",
+        copyrightYear: 2004,
+        organization: {
+          orgName: "Smithsonian"
+        },
+        license: "us-fair-use"
+      }}>
+      A surviving copy of Animal Behaviour Enterprises’ Bird Brain game.
+    </ArticleImage>
   </Section>
 </>;
 

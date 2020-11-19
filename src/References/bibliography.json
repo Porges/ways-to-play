@@ -3996,5 +3996,18 @@
         },
         "type": "webpage",
         "publisher": "Japan Playing Card Museum"
+    },
+    "HandbookForJapan": {
+        "id": "HandbookForJapan",
+        "title": "A Handbook for Travellers in Central & Northern Japan",
+        "URL": "https://archive.org/details/ahandbookfortra00hawegoog",
+        "author": [
+            { "given": "Ernest Mason", "family": "Satow" },
+            { "given": "A. G. S.", "family": "Hawes"}
+        ],
+        "issued": {"year": 1881},
+        "publisher": "Kelly & Co.",
+        "publisher-place": "Yokohama, Japan",
+        "type": "book"
     }
 }
