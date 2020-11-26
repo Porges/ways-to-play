@@ -4013,7 +4013,7 @@
     "JapaneseGamesOfMemory": {
         "id": "JapaneseGamesOfMemory",
         "type": "chapter",
-        "title": "Japanes Games of Memory, Matching, and Identification",
+        "title": "Japanese Games of Memory, Matching, and Identification",
         "container-title": "Asian Games: The Art of Contest",
         "ISBN": "0-87848-099-4",
         "issued": {"year": 2004},
@@ -4022,5 +4022,20 @@
         ],
         "page": "252–271",
         "publisher": "Asia Society"
+    }, 
+    "EssaysInIdleness": {
+        "id": "EssaysInIdleness",
+        "type": "book",
+        "title": "Essays in Idleness: the <span lang='ja-Latn'>Tsurezuregusa</span> of <span lang='ja-Latn' class='noun'>Kenkō</span>",
+        "author": [
+            {"given": "Donald", "family": "Keene"}
+        ],
+        "issued": {
+            "year": 1967
+        },
+        "URL": "https://archive.org/details/essaysinidleness0000yosh",
+        "publisher": "Columbia University Press",
+        "publisher-place": "New York, NY, USA",
+        "ISBN": "0-231-03080-0"
     }
 }

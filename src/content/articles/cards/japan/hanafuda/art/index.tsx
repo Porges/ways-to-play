@@ -6,7 +6,7 @@ import {
   FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords,
   MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince,
   CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign,
-  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory, HandbookForJapan, JapaneseGamesOfMemory
+  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory, HandbookForJapan, JapaneseGamesOfMemory, EssaysInIdleness
 } from 'References/bibliography.json';
 
 import imgSC219954 from './SC219954.jpg';
@@ -212,6 +212,8 @@ const Hanafuda: React.FC = () => {
         </ArticleImage>
         <p>In one form of the game, the left-hand sides of the shells — also termed the “male” or ‘ground’ (<span lang="ja">地</span>) shells — were arranged face-down on the ground. The right-hand sides — the “female” or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell bucket’) one-by-one and the players would attempt to match them with those on the floor.</p>
         <p>Early instructional books for women from the <Noun lang="ja-Latn">Muromachi</Noun> period (1392–1573) include rules that state that the game is played with twelve shells, which should be arranged in a circle on the ground, and that the drawn shell should be placed in the centre, with the pointed end (“head”) directed towards the highest-ranking person in the room.<Cite r={JapaneseGamesOfMemory} page={270} /> Evidently the game could get physical, as those same books warn that “to quarrel and remove shells by force is something that only men and courtesans do.”</p>
+        <p>As the monk <a href="https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D">Yoshida Kenkō</a> mentioned in his book <cite>Essays in Idleness</cite>, published around 1330:<Cite r={EssaysInIdleness} page={147}/></p>
+        <blockquote>The good players do not seem to strain themselves to capture shells from a distance, but though they appear to match only those nearby, they cover [i.e. match] a great many.</blockquote>
         <p>While later images (such as those above) usually represent the game as only played by women, earlier depictions and diary entries show that the game was originally played by everyone.<Cite r={JapaneseGamesOfMemory} page={257} /></p>
         <ArticleImage
           size="wide"
