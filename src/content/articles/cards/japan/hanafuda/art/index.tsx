@@ -6,9 +6,10 @@ import {
   FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords,
   MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince,
   CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign,
-  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory, HandbookForJapan
+  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory, HandbookForJapan, JapaneseGamesOfMemory
 } from 'References/bibliography.json';
 
+import imgSC219954 from './SC219954.jpg';
 import imgSC232139 from "../SC232139.jpg";
 import imgSC232140 from "../SC232140.jpg";
 import imgSC232143 from "../SC232143.jpg";
@@ -179,12 +180,13 @@ const Hanafuda: React.FC = () => {
       <ArticleImage
         src={imgKaiAwase}
         size="wide"
-        alt="Girls in elaborate traditional Japanese dress sitting in a circle around shells that are arranged face-down on the floor."
+        alt="Ladies in elaborate traditional Japanese dress sitting in a circle around shells that are arranged face-down on the floor."
         source={{ license: 'cc0', organization: { orgName: "Metropolitan Museum of Art" }, originalUrl: 'https://www.metmuseum.org/art/collection/search/37303' }}>
-        Girls playing a game of <span lang="ja-Latn">kai-awase</span>.<br />From <cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790), by <Noun lang="ja-Latn">Kitagawa Utamaro</Noun> (<span lang="ja">喜多川歌麿</span>).
+        Ladies playing a game of <span lang="ja-Latn">kai-ōi</span>.<br />From <cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790), by <Noun lang="ja-Latn">Kitagawa Utamaro</Noun> (<span lang="ja">喜多川歌麿</span>).
       </ArticleImage>
-      <Section title={<span lang="ja-Latn">Kai-awase</span>}>
-        <p>From these comparing competitions, the <Pronounce lang="ja-Latn" word="kai-awase" pronouncer="skent" file={pronKaiAwase} /> (<span lang="ja">貝合せ</span>, ‘shell matching’) game was developed into a different style of game, based upon collecting matching pairs of shells.<Footnote>In this form it became known as <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell cover’), and <Noun lang="ja-Latn">Takahashi Hironori</Noun> draws a distinction between the two games.<Cite r={KaiOi} /> However, <span lang="ja-Latn">kai-awase</span> is still the most commonly-used term for the matching game, so I continue to use it here.</Footnote></p>
+      <Section title={<><span lang="ja-Latn">Kai-awase</span> to <span lang="ja-Latn">Kai-ōi</span></>}>
+        <p>The earliest recorded <Pronounce lang="ja-Latn" word="kai-awase" pronouncer="skent" file={pronKaiAwase} /> (<span lang="ja">貝合せ</span>, ‘shell competition’) contest dates from 1040, and was held at <a href="https://en.wikipedia.org/wiki/Ise_Grand_Shrine">the Ise shrine</a> by <a href="https://en.wikipedia.org/wiki/Emperor_Go-Suzaku">Emperor Go-Suzaku</a>’s first daughter, Princess <Noun lang="ja-Latn">Nagako</Noun>. This was a competition very much in the spirit of the other <span lang="ja-Latn">awase</span> games, and consisted of twenty rounds, each shell presented with an accompanying poem.<Cite r={JapaneseGamesOfMemory} page={269} /></p>
+        <p><span lang="ja-Latn">Kai-awase</span> developed from this comparing-competition form into a completely different style of game called <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell covering’) that was based upon collecting matching pairs of shells.<Footnote>However, by the <Noun lang="ja-Latn">Edo</Noun> period, the two terms would be conflated, with <span lang="ja-Latn">kai-awase</span> being used for the matching game as well.<Cite r={KaiOi} /><Cite r={JapaneseGamesOfMemory} page={270} /></Footnote> <span lang="ja-Latn">Kai-awase</span> itself died out and there is no record of any competitions taking place after the <Noun lang="ja-Latn">Heian</Noun> period.<Cite r={JapaneseGamesOfMemory} page={270} /></p>
         <ArticleImage
           size="small"
           position="left"
@@ -206,20 +208,34 @@ const Hanafuda: React.FC = () => {
           size="wide"
           src={imgKaiAwaseGame}
           source={{ license: 'cc0', organization: { orgName: "跡見学園女子大学", orgLang: "ja" }, originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/' }}>
-          Four generations of women playing <span lang="ja-Latn" >kai-awase</span>.<br />From <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>).
+          Four generations of women playing <span lang="ja-Latn" >kai-ōi</span>.<br />From <cite lang="ja">女有職莩文庫</cite> (1866), by <Noun lang="ja-Latn">Okada Tamayama</Noun> (<span lang="ja">岡田玉山</span>).
         </ArticleImage>
         <p>In one form of the game, the left-hand sides of the shells — also termed the “male” or ‘ground’ (<span lang="ja">地</span>) shells — were arranged face-down on the ground. The right-hand sides — the “female” or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell bucket’) one-by-one and the players would attempt to match them with those on the floor.</p>
-        <p>The game must have been difficult, since the only clues to a match were the subtle shades and contours of the shell. The only way to test if shells truly matched was to pick them up and attempt to join them together. Considering that traditional <span lang="ja-Latn">kai-awase</span> sets contained up to 360 shells,<Footnote>Modern replicas usually only have around 54.</Footnote> this was a game for a class of person who had a lot of leisure time on their hands.</p>
-        <p>Later the interior of the shells became elaborately painted or even gilded, often illustrating scenes from the <a href="https://en.wikipedia.org/wiki/The_Tale_of_Genji">Tale of Genji</a> (<span lang="ja">源氏物語</span> <Pronounce word="Genji monogatari" file={pronGenjiMonogatari} pronouncer="straycat88" lang="ja-Latn" />) — the game is also played in Chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem. These elaborate sets with their hand-painted and gilded interiors must have been ex&shy;pen&shy;sive to create and only owned by the richest of families.</p>
+        <p>Early instructional books for women from the <Noun lang="ja-Latn">Muromachi</Noun> period (1392–1573) include rules that state that the game is played with twelve shells, which should be arranged in a circle on the ground, and that the drawn shell should be placed in the centre, with the pointed end (“head”) directed towards the highest-ranking person in the room.<Cite r={JapaneseGamesOfMemory} page={270} /> Evidently the game could get physical, as those same books warn that “to quarrel and remove shells by force is something that only men and courtesans do.”</p>
+        <p>While later images (such as those above) usually represent the game as only played by women, earlier depictions and diary entries show that the game was originally played by everyone.<Cite r={JapaneseGamesOfMemory} page={257} /></p>
+        <ArticleImage
+          size="wide"
+          src={imgSC219954}
+          alt="A group of four people playing a game of kai-oi, one of them a man"
+          source={{
+            organization: { orgName: 'Boston Museum of Fine Arts' },
+            license: 'cc0',
+            originalUrl: 'https://collections.mfa.org/objects/27189'
+          }}>
+          This early depiction from the 16th-century scroll <cite>Tale of Brief Slumbers</cite> <cite lang="ja">うたたね草紙</cite> shows a mixed group playing <span lang="ja-Latn">kai-ōi</span> (at left).
+        </ArticleImage>
+        <p>When played with many shells, the game must have been difficult, since the clues that point to a match are solely the subtle shades and contours of the shell, and the only way to test if shells truly match is to pick them up and attempt to join them together. Considering that traditional sets could contain up to 360 shells,<Footnote>Modern replicas usually only have around 54.</Footnote> this was a game for a class of person who had a lot of leisure time on their hands.</p>
+        <p>Later the game set itself turned into a luxury item: the interior of the shells was at first decorated with matching fabrics, and then elaborately painted or even gilded, often illustrating scenes from the <a href="https://en.wikipedia.org/wiki/The_Tale_of_Genji">Tale of Genji</a> (<span lang="ja">源氏物語</span> <Pronounce word="Genji monogatari" file={pronGenjiMonogatari} pronouncer="straycat88" lang="ja-Latn" />) — the game is also played in Chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem; these types of the game would eventually evolve into the <span lang="ja-Latn">uta-garuta</span> (<span lang="ja">歌骨牌</span>) poetry cards.</p>
         <ArticleImage
           src={
             [[imgKai1, 'Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.']
               , [imgKai2, 'Eight shells whose interiors have been painted with garden scenes and ornamented with gold.']
             ]}
           source={{ license: 'cc0', organization: { orgName: "Portland Art Museum" }, originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101' }}>
-          An 18th-century <span lang="ja-Latn">kai-awase</span> set. The paired boxes are the <span lang="ja-Latn">kai-oke</span>, and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
+          An 18th-century <span lang="ja-Latn">kai-ōi</span> set. The paired boxes are the <span lang="ja-Latn">kai-oke</span>, and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
       </ArticleImage>
-        <p>A personal <span lang="ja-Latn">kai-awase</span> set was often part of a noble bride’s wedding gifts, as the joining of the matching shells was symbolic of the join&shy;ing of husband and wife in marriage. In this role, depictions of <span lang="ja-Latn">kai-awase</span> can be found in <a href="https://en.wikipedia.org/wiki/Hinamatsuri"><span lang="ja-Latn">hina-matsuri</span></a> col&shy;lections, and miniature <span lang="ja-Latn">kai-oke</span> produced for this purpose can still be purchased today.</p>
+        <p>A personal <span lang="ja-Latn">kai-ōi</span> set became a standard  part of a noble bride’s wedding gifts, as the joining of the matching shells was symbolic of the join&shy;ing of husband and wife in marriage. However, the elaborate sets with their hand-painted and gilded interiors must have been ex&shy;pen&shy;sive to create and only owned by the richest of families. Indeed, at times restrictions were put in place so that <em>only</em> noble families of the upper ranks were permitted to include the game in their bridal trousseaux.<Cite r={JapaneseGamesOfMemory} page={265} /> When time came to hand over the wedding gifts, it was customary for the <span lang="ja-Latn">kai-oke</span> to be the first item presented.<Cite r={JapaneseGamesOfMemory} page={265} /></p>
+        <p> In this role, miniature <span lang="ja-Latn">kai-oke</span> can be found in <a href="https://en.wikipedia.org/wiki/Hinamatsuri"><span lang="ja-Latn">hina-matsuri</span></a> col&shy;lections, and these are still produced for this purpose today.</p>
         <ArticleImage
           position="aside"
           size="small"
@@ -256,7 +272,7 @@ const Hanafuda: React.FC = () => {
         <p>While decks such as the above are obviously for a different style of game, most of the imagery that would become part of the <span lang="ja-Latn">hanafuda</span> deck was already present.</p>
       </Section>
       <Section title="Banning &amp; Legalization">
-        <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></Footnote> (1787–1793). This ban was to remain in place until 1886, when <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
+        <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></Footnote> (1787–1793). This ban was to remain in place for nearly 200 years until, in 1886, <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
         <p>Things had already begun to change in 1885, after a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.<Cite r={EbashiHanafuda} page={[[189, 192]]} /> <Noun lang="ja-Latn">Maeda Kihei</Noun><Footnote><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</Footnote> became convinced through his reading of legal texts that the selling of <Noun lang="ja-Latn">Hanafuda</Noun> was not actually prohibited, and he moved to <Noun lang="ja-Latn">Tōkyō</Noun> in December 1885 with a plan to open a <Noun lang="ja-Latn">Hana&shy;fuda</Noun> shop. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince news&shy;papers to print his advertisements. In order to prove himself correct, he came up with a cunning plan: he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Sumi&shy;yoshi</Noun> neigh&shy;bour&shy;hood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <a href="https://en.wikipedia.org/wiki/Sumiyoshi-kai"><Noun lang="ja-Latn">Sumiyoshi-kai</Noun></a> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai} /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> (<span lang="ja">住吉町</span>) on <Noun lang="ja-Latn">Ningyōchō</Noun> street (<span lang="ja">人形町通り</span>) in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋</span>). The shop was named “<Noun lang="ja-Latn">Kamigataya</Noun>” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /></p>
         <ArticleImage
           position="left"
@@ -469,7 +485,7 @@ const Hanafuda: React.FC = () => {
           }}>
           In reality, the bush warbler is not a brightly-coloured bird.
         </ArticleImage>
-        <p>The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />). The <span lang="ja-Latn">tane</span> has a bush warbler–plum blossom combination that has been associated with spring since very early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759).<Cite r={FourSeasons} page={978} pageType={'l.'} /> During the <Noun lang="ja-Latn">Nara</Noun> period, plum blossom was the favoured flower in poetry and art; cherry blossoms would only become more popular during the <Noun lang="ja-Latn">Heian</Noun> period:<Cite r={FourSeasons} page={997} pageType='l.' /> after a famous plum tree planted by Emperor <Noun lang="ja-Latn">Kanmu</Noun> at the imperial palace died, it was replaced by a cherry tree in 834.<Cite r={HandbookForJapan} page={301}/><Footnote>This cherry tree has been replanted several times since then, and is called the <span lang="ja-Latn">sakon no sakura</span> (<span lang="ja">左近桜</span> ‘left-side cherry’).</Footnote></p>
+        <p>The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file={pronUme} />). The <span lang="ja-Latn">tane</span> has a bush warbler–plum blossom combination that has been associated with spring since very early times, dating at least from the <Pronounce pronouncer="monekuson" word="Man’yōshū" lang="ja-Latn" file={pronManyoshu} noun />  (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of poetry compiled during the <Noun lang="ja-Latn">Nara</Noun> period sometime after 759).<Cite r={FourSeasons} page={978} pageType={'l.'} /> During the <Noun lang="ja-Latn">Nara</Noun> period, plum blossom was the favoured flower in poetry and art; cherry blossoms would only become more popular during the <Noun lang="ja-Latn">Heian</Noun> period:<Cite r={FourSeasons} page={997} pageType='l.' /> after a famous plum tree planted by Emperor <Noun lang="ja-Latn">Kanmu</Noun> at the imperial palace died, it was replaced by a cherry tree in 834.<Cite r={HandbookForJapan} page={301} /><Footnote>This cherry tree has been replanted several times since then, and is called the <span lang="ja-Latn">sakon no sakura</span> (<span lang="ja">左近桜</span> ‘left-side cherry’).</Footnote></p>
         <p>The bush warbler (<span lang="ja">鶯</span> <span lang="ja-Latn">uguisu</span>) was praised for its song, and one of its cries is said to repeat the phrase <span lang="ja-Latn">hō-hoke-kyō</span>, the Japanese name of the <a href="https://en.wikipedia.org/wiki/Lotus_Sutra">Lotus Sutra</a> (<span lang="ja">法華経</span> <span lang="ja-Latn">hokekyō</span>). The first cry of the bush warbler was considered to announce the beginning of spring:</p>
         <Footnote standalone><p>This is Poem 14 from the ‘Spring 1’ section of the <Noun lang="ja-Latn">Kokinshū</Noun>. It was composed by <a href="https://en.wikipedia.org/wiki/%C5%8Ce_no_Chisato"><Noun lang="ja-Latn">Ōe no Chisato</Noun></a> (<span lang="ja">大江千里</span>) during a competition in the <Noun lang="ja-Latn">Kanpyō</Noun> era (889–898).</p></Footnote>
         <div className="multi">
@@ -536,8 +552,8 @@ const Hanafuda: React.FC = () => {
         <p>In 1688, <a href="https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D"><Noun lang="ja-Latn">Matsuo Bashō</Noun></a> (<span lang="ja">松尾芭蕉</span>), Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, visited <Noun lang="ja-Latn">Yoshino</Noun> during his travels but found himself unable to compose a single poem, overwhelmed by the pressure of trying to live up to his predecessors.<Cite r={NarrowRoad} page={84} /> One of them, <Noun lang="ja-Latn">Yasuhara Teishitsu</Noun> (<span lang="ja">安原貞室</span>), had composed what <Noun lang="ja-Latn">Bashō</Noun> considered to be the “finest <span lang="ja-Latn">hokku</span> ever written”:<Cite r={TheClassicTraditionOfHaiku} page={8} /></p>
         <blockquote>
           <p>
-            Look at that! and that!<br/>
-            Is all I can say of the blossoms<br/>
+            Look at that! and that!<br />
+            Is all I can say of the blossoms<br />
             At Yoshino mountain.
           </p>
         </blockquote>
@@ -608,7 +624,7 @@ const Hanafuda: React.FC = () => {
             license: "cc-by-nc-nd",
             licenseVersion: "2.0",
           }}
-          >
+        >
           Wisteria in bloom.
         </ArticleImage>
         <p>The fourth month is represented by wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" word="fuji" lang="ja-Latn" file={pronFuji} />). These cards are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronounce pronouncer="usako_usagiclub" word="kuromame" lang="ja-Latn" file={pronKuromame} />), due to their appearance. This month shows the tran&shy;sition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronounce pronouncer="forsmith" word="hototogisu" lang="ja-Latn" file={pronHototogisu} />) is a bird of summer,<Cite r={FourSeasons} page={1065} pageType="l." /> while wisteria is associated with the end of spring.<Cite r={FourSeasons} page={1021} pageType="l." /> Like the bush warbler and spring, the first cry of the cuckoo was considered to announce the beginning of summer. By the time of the <Noun lang="ja-Latn">Edo</Noun> period this was perhaps more of a poetic dream than reality; the poet <a href="https://en.wikipedia.org/wiki/Yosa_Buson"><Noun lang="ja-Latn">Buson</Noun></a> remarked that he had only heard the bird twice, despite living in Kyoto for 20 years.<Cite r={TheClassicTraditionOfHaiku} page={56} /></p>
@@ -698,7 +714,7 @@ const Hanafuda: React.FC = () => {
             license: "cc-by-nc-nd",
             licenseVersion: "2.0",
           }}
-          >
+        >
           Bush clover in bloom.
         </ArticleImage>
         <ArticleImage
@@ -721,28 +737,28 @@ const Hanafuda: React.FC = () => {
         <p>The seventh month is represented by bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file={pronHagi} />). These cards are also nicknamed ‘red bean’ (<span lang="ja">赤豆</span> <span lang="ja-Latn">akamame</span>/<span lang="ja">小豆</span> <Pronounce pronouncer="poyotan" word="azuki" lang="ja-Latn" file={pronAzuki} />). Bush clover is very strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.</p>
         <ArticleImage
           src={imgHagiTemple}
-          source={{license: "cc0"}}
+          source={{ license: "cc0" }}
           alt="Under a full moon, figures walk amongst flowerbeds in a temple courtyard.">
           People viewing <span lang="ja-Latn">hagi</span> flowers at <a href="https://en.wikipedia.org/wiki/Taiy%C5%AB-ji"><Noun lang="ja-Latn">Taiyū</Noun> temple</a> (<span lang="ja">太融寺</span>), by <Noun lang="ja-Latn">Hasegawa Sadanobu</Noun>  (<span lang="ja">長谷川貞信</span>).
         </ArticleImage>
         <p>Bush clover is also (along with miscanthus, see the next month) considered one of the “seven flowers of autumn” (<span lang="ja">秋の七草</span>), a term which derives from a pair of poems in the <Noun lang="ja-Latn">Man’yōshū</Noun> (book 8:1537–8):<Cite r={TheManyoshu} page={212} /></p>
         <div className="multi">
           <p>
-            The flowers that blow<br/>
-            In the autumn fields<br/>
-            When I count them on my fingers,<br/>
-            There they are—<br/>
-            The flowers of seven kinds.<br/>
+            The flowers that blow<br />
+            In the autumn fields<br />
+            When I count them on my fingers,<br />
+            There they are—<br />
+            The flowers of seven kinds.<br />
           </p>
           <p>
-            They are the bush-clover,<br/>
-            The ‘tail flower’, the flowers<br/>
-            Of the kuzu vine and patrinia,<br/>
-            The fringed pink, and the agrimony,<br/>
-            And last the blithe ‘morning face’.<br/>
+            They are the bush-clover,<br />
+            The ‘tail flower’, the flowers<br />
+            Of the kuzu vine and patrinia,<br />
+            The fringed pink, and the agrimony,<br />
+            And last the blithe ‘morning face’.<br />
           </p>
         </div>
-        <p>The bush clover is referred to in the <Noun lang="ja-Latn">Man’yōshū</Noun> even more than the plum or cherry blossoms.<Cite r={ElementsOfJapaneseDesign} page={54}/></p>
+        <p>The bush clover is referred to in the <Noun lang="ja-Latn">Man’yōshū</Noun> even more than the plum or cherry blossoms.<Cite r={ElementsOfJapaneseDesign} page={54} /></p>
         <p>
           On the other hand, the wild boar pictured on the <span lang="ja-Latn">tane</span> card does not feature in any of the imperial poetry collections. As a representative of rural life, it was considered to be outside the boundaries of the aristocratic worldview of the poets.
           For the common people, however, the boar was very important as a source of food. When <a href="https://en.wikipedia.org/wiki/Emperor_Tenmu">Emperor Tenmu</a> banned the consumption of meat in 675, only cattle, horses, dogs, monkeys, and chickens were prohibited.<Cite r={FourSeasons} page={4261} pageType="l." /> Wild game such as boar and deer were not included: either they escaped the imagination of the Emperor, or they were too important as food sources for commoners.

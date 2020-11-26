@@ -4009,5 +4009,18 @@
         "publisher": "Kelly & Co.",
         "publisher-place": "Yokohama, Japan",
         "type": "book"
+    },
+    "JapaneseGamesOfMemory": {
+        "id": "JapaneseGamesOfMemory",
+        "type": "chapter",
+        "title": "Japanes Games of Memory, Matching, and Identification",
+        "container-title": "Asian Games: The Art of Contest",
+        "ISBN": "0-87848-099-4",
+        "issued": {"year": 2004},
+        "author": [
+            {"given": "Tomoko", "family": "Sakomura"}
+        ],
+        "page": "252–271",
+        "publisher": "Asia Society"
     }
 }
