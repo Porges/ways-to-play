@@ -12,7 +12,7 @@ type OwnProps = {
 export const SectionContext = React.createContext(1);
 
 const renderHeader = (nesting: number, node: React.ReactNode, slug: string)  => {
-    const inner = <>{node} <a href={'#'+slug} className="permalink">#</a></>
+    const inner = <><a href={'#'+slug} aria-hidden={true} className="permalink" title="link to section">#</a> {node}</>
     switch (nesting) {
         case 1: return <h1>{inner}</h1>;
         case 2: return <h2>{inner}</h2>;

@@ -79,6 +79,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .permalink {
     display: none;
     color: lightgray;
+    width: 1em;
+    float: left;
+    margin-left: -1em;
 }
 
 :hover > .permalink {
