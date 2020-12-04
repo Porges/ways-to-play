@@ -47,6 +47,8 @@ import imgOtafuku from './otafuku.jpg';
 import imgMatsuiShop from './2448px-松井天狗堂.jpg';
 import imgNishimuraBrand from './nishimura_brand.jpg';
 import imgMuraiBrosCard from './murai-bros-card.jpg';
+import imgYamashiroExterior from './yamashiro_exterior.jpg';
+import imgYamashiroPricelist from './yamashiro_pricelist_cover.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -95,23 +97,23 @@ const Manufacturers: React.FC = () => {
             <Table size="small">
               <tbody>
                 <tr>
-                  <td><img src={imgMarufuku} height="24" alt="The Marufuku symbol" /></td>
+                  <td><img src={imgMarufuku} className="inline-img big" alt="The Marufuku symbol" /></td>
                   <td><a href="#nintendo"><Noun lang="ja-Latn">Nintendō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgYamami} height="24" alt="The Yamami symbol" /> or <img src={imgKakudai} height="24" alt="The Kakudai symbol" /></td>
+                  <td><img src={imgYamami} className="inline-img big" alt="The Yamami symbol" /> or <img src={imgKakudai} className="inline-img big" alt="The Kakudai symbol" /></td>
                   <td><a href="#oishi-tengudo"><Noun lang="ja-Latn">Ōishi Tengudō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><span lang="ja" style={{ fontFamily: "sans-serif" }}>翁</span></td>
+                  <td><span lang="ja" className="inline-img big" style={{ fontFamily: "sans-serif" }}>翁</span></td>
                   <td><a href="#angel-enzeru">Angel</a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgYaguruma.src} height="24" alt="The Yaguruma symbol" /></td>
+                  <td><img src={imgYaguruma.src} className="inline-img big" alt="The Yaguruma symbol" /></td>
                   <td><a href="#tamura-shogundo"><Noun lang="ja-Latn">Tamura Shōgundō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgKakumatsu} height="24" alt="The Kakumatsu symbol" /></td>
+                  <td><img src={imgKakumatsu} className="inline-img big" alt="The Kakumatsu symbol" /></td>
                   <td><a href="#matsui-tengudo"><Noun lang="ja-Latn">Matsui Tengudō</Noun></a></td>
                 </tr>
                 <tr>
@@ -119,35 +121,35 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#ace-esu">Ace</a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarueSvg} height="24" alt="The Marue symbol" /></td>
+                  <td><img src={imgMarueSvg} className="inline-img big" alt="The Marue symbol" /></td>
                   <td><a href="#marue"><Noun lang="ja-Latn">Maruē</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgYamata} height="24" alt="The Yamata symbol" /></td>
+                  <td><img src={imgYamata} className="inline-img big" alt="The Yamata symbol" /></td>
                   <td><a href="#tanaka-gyokusuido-iwata-honten"><Noun lang="ja-Latn">Tanaka Gyokusuidō/Iwata Honten</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgKanenaka} height="24" alt="The Kanenaka symbol" /></td>
+                  <td><img src={imgKanenaka} className="inline-img big" alt="The Kanenaka symbol" /></td>
                   <td><a href="#nihon-karuta-seizo-tamada-fukushodo"><Noun lang="ja-Latn">Nihon Karuta</Noun>/<Noun lang="ja-Latn">Tamada Fukushōdō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarujuu} height="24" alt="The Marujū symbol" /></td>
+                  <td><img src={imgMarujuu} className="inline-img big" alt="The Marujū symbol" /></td>
                   <td><a href="#yamashiro-shoten"><Noun lang="ja-Latn">Yamashiro Shōten</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMaruryu} height="24" alt="The Maruryu symbol" /></td>
+                  <td><img src={imgMaruryu} className="inline-img big" alt="The Maruryu symbol" /></td>
                   <td><a href="#ryutendo"><Noun lang="ja-Latn">Ryūtendō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarujun} height="24" alt="The Marujun symbol" /></td>
+                  <td><img src={imgMarujun} className="inline-img big" alt="The Marujun symbol" /></td>
                   <td><a href="#inoue-juntendo"><Noun lang="ja-Latn">Inoue Juntendō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgKanese} height="24" alt="The Kanese symbol" /></td>
+                  <td><img src={imgKanese} className="inline-img big" alt="The Kanese symbol" /></td>
                   <td><a href="#nakao-seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
+                  <td><img src={imgMarukyou} className="inline-img big" alt="The Marukyō symbol" /></td>
                   <td><a href="#baba-keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
                 </tr>
               </tbody>
@@ -163,15 +165,15 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#kawakita"><Noun lang="ja-Latn">Kawakita</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarusa} height="24" alt="The Marusa symbol" /></td>
+                  <td><img src={imgMarusa} className="inline-img big" alt="The Marusa symbol" /></td>
                   <td><a href="#kohara-honten"><Noun lang="ja-Latn">Kohara Honten</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarui} height="24" alt="The Marui symbol" /></td>
+                  <td><img src={imgMarui} className="inline-img big" alt="The Marui symbol" /></td>
                   <td><a href="#nishimura"><Noun lang="ja-Latn">Nishimura</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarukyou} height="24" alt="The Marukyō symbol" /></td>
+                  <td><img src={imgMarukyou} className="inline-img big" alt="The Marukyō symbol" /></td>
                   <td><a href="#kyoto-karuta"><Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
                 </tr>
                 <tr>
@@ -187,11 +189,11 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#universal"><Noun lang="ja-Latn">Universal</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgKaneman} height="24" alt="The Kaneman symbol" /></td>
+                  <td><img src={imgKaneman} className="inline-img big" alt="The Kaneman symbol" /></td>
                   <td><a href="#kawai"><Noun lang="ja-Latn">Kawai</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarumatsu} height="24" alt="The Marumatsu symbol" /></td>
+                  <td><img src={imgMarumatsu} className="inline-img big" alt="The Marumatsu symbol" /></td>
                   <td><a href="#akata-shojoya"><Noun lang="ja-Latn">Akata Shōjōya</Noun></a></td>
                 </tr>
                 <tr>
@@ -199,23 +201,23 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#suisando"><Noun lang="ja-Latn">Suisando</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarutano} height="24" alt="The Marutano symbol" /></td>
+                  <td><img src={imgMarutano} className="inline-img big" alt="The Marutano symbol" /></td>
                   <td><a href="#nihon-goraku"><Noun lang="ja-Latn">Nihon Goraku</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMaruei} height="24" alt="The Maruei symbol" /></td>
+                  <td><img src={imgMaruei} className="inline-img big" alt="The Maruei symbol" /></td>
                   <td><a href="#kyowado"><Noun lang="ja-Latn">Kyōwadō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgKanekata} height="24" alt="The Kanekata symbol" /></td>
+                  <td><img src={imgKanekata} className="inline-img big" alt="The Kanekata symbol" /></td>
                   <td><a href="#kamigataya"><Noun lang="ja-Latn">Kamigataya</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarukin} height="24" alt="The Marukin symbol" /></td>
+                  <td><img src={imgMarukin} className="inline-img big" alt="The Marukin symbol" /></td>
                   <td><a href="#marukin"><Noun lang="ja-Latn">Marukin</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgMarudai} height="24" alt="The Marudai symbol" /></td>
+                  <td><img src={imgMarudai} className="inline-img big" alt="The Marudai symbol" /></td>
                   <td><a href="#otani-shoten"><Noun lang="ja-Latn">Ōtani Shōten</Noun></a></td>
                 </tr>
               </tbody>
@@ -281,7 +283,7 @@ const Manufacturers: React.FC = () => {
     </Section>
     <Section title="Current Manufacturers">
       <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture. The <Noun lang="ja-Latn">Kansai</Noun> region (which contains both <Noun lang="ja-Latn">Kyōto</Noun> and <Noun lang="ja-Latn">Ōsaka</Noun>) is the original source of <Noun lang="ja-Latn">Hanafuda</Noun> cards.</p>
-      <Section title={<><Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</>}>
+      <Section title={<><img src={imgMarufuku} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</>}>
         <p><Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company that produces <Noun lang="jp-Latn">Hanafuda</Noun> cards today. The company was founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun> (<span lang="ja">山内 房治郎</span>), and it was run by the <Noun lang="ja-Latn">Yamauchi</Noun> family for three generations until <Noun lang="ja-Latn">Yamauchi Hiroshi</Noun> (<span lang="ja">山内 溥</span>) stepped down in 2002.</p>
         <p> In the early days of the company,  <Noun lang="ja-Latn">Fusajirō</Noun> joined forces with the “tobacco king” <Noun lang="ja-Latn">Murai Kichibee</Noun> (<span lang="ja">村井吉兵衛</span>) who had founded the <Noun lang="ja-Latn">Murai</Noun> Brothers tobacco company in 1892. Like <Noun lang="ja-Latn">Nintendō</Noun>, who were one of the first companies to produce Western-style cards in Japan, <Noun lang="ja-Latn">Murai</Noun> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing” (<span lang="ja">東洋印刷</span>).<Cite r={EbashiCigaretteCards} /></p>
         <ArticleImage 
@@ -349,7 +351,7 @@ const Manufacturers: React.FC = () => {
           <Noun lang="ja-Latn">Okuno Karuta’s Shikishima Hanafuda</Noun>. The cards were designed by the print artist <Noun lang="ja-Latn">Itō Takumi</Noun> (<span lang="ja">伊藤卓美</span>, <abbr title="born">b.</abbr> 1946). They are larger than normal <Noun lang="ja-Latn">Hanafuda</Noun> and the cards are printed on flat cardboard, not wrapped with backing paper.
         </ArticleImage>
       </Section>
-      <Section title={<><a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</>}>
+      <Section title={<><img src={imgYamami} alt="" className="inline-img" /> <a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</>}>
         <p>Also based in <Noun lang="ja-Latn">Kyōto</Noun>, <Noun lang="ja-Latn">Ōishi Tengudō</Noun> produces a wide variety of traditional Japanese card games. As far as I know, they are the only major manufacturer still producing <Noun lang="ja-Latn">Mefuda</Noun> cards. They also produce reproductions of even older cards, such as the <Noun lang="ja-Latn">Unsun</Noun> deck.</p>
         <p>Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top, but on some decks (e.g. <Noun lang="ja-Latn">Echigo-kobana</Noun>), they have used <span lang="ja">大</span> in a square. Brands produced by <Noun lang="ja-Latn">Ōishi Tengudō</Noun> in the past included:<Cite r={ModernJapaneseWrappers} page={[[57, 58]]} /></p>
         <ul>
@@ -429,7 +431,7 @@ const Manufacturers: React.FC = () => {
           The extra cards of Angel’s “Hana-Trump” deck.
           </ArticleImage>
       </Section>
-      <Section title={<><a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</>}>
+      <Section title={<><img src={imgYaguruma.src} alt="" className="inline-img" /> <a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</>}>
         <p>A small manufacturer, founded in 1921. Unlike other manufacturers, their mark is not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">矢車</span>, ‘arrow wheel’).<Footnote>
           The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th <a href="https://en.wikipedia.org/wiki/Tango_no_sekku"><Noun lang="ja-Latn">Tango no Sekku</Noun></a> festival, where they are placed on top of tall poles from which <a href="https://en.wikipedia.org/wiki/Koinobori"><span lang="ja-Latn">koi</span> streamers</a> are flown.
             <img className="d-block mx-auto w-75" src={imgYaguruma.src} alt="An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards." />
@@ -472,7 +474,7 @@ const Manufacturers: React.FC = () => {
     </Section>
     <Section title="Extinct Manufacturers">
       <p>These are producers that do not exist any more.</p>
-      <Section title={<><Noun lang="ja-Latn">Matsui Tengudō</Noun> (<span lang="ja">松井天狗堂</span>)</>}>
+      <Section title={<><img src={imgKakumatsu} alt="" className="inline-img" /> <Noun lang="ja-Latn">Matsui Tengudō</Noun> (<span lang="ja">松井天狗堂</span>)</>}>
         <ArticleImage
           position="aside"
           src={imgMatsuiShop}
@@ -535,7 +537,7 @@ const Manufacturers: React.FC = () => {
           </ArticleImage>
         </div>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Maruē</Noun> (<span lang="ja">マルエー</span>)</>}>
+      <Section title={<><img src={imgMarueSvg} alt="" className="inline-img" /> <Noun lang="ja-Latn">Maruē</Noun> (<span lang="ja">マルエー</span>)</>}>
         <ArticleImage
           position="right"
           src={imgMarue}
@@ -554,7 +556,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">梅の花</span> (<span lang="ja-Latn">ume no hana</span> ‘plum flowers’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)/<Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
+      <Section title={<><img src={imgYamata} alt="" className="inline-img" /> <Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)/<Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
         <p>Both of these companies used a mark of <span lang="ja">田</span> with corner on top.</p>
         <p><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,<Cite r={Yamaguchi} page={102} /> but had stopped producing in the early 1960s.<Cite r={ModernJapaneseWrappers} page={33} /> Their brands (including <Noun lang="ja-Latn">Fukusuke</Noun> and <Noun lang="ja-Latn">Ginsuehiro</Noun>) and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>, who had their cards made by <Noun lang="ja-Latn">Tamura Shōgundō</Noun>.<Cite r={ModernJapaneseWrappers} page={[48, 59]} /> Brands included:</p>
         <ul>
@@ -568,7 +570,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">小判</span> (<span lang="ja-Latn">koban</span>, a <a href="https://en.wikipedia.org/wiki/Koban_(coin)">type of coin</a>)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)/<Noun lang="ja-Latn">Tamada Fukushōdō</Noun> (<span lang="ja">玉田福勝堂</span>)</>}>
+      <Section title={<><img src={imgKanenaka} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)/<Noun lang="ja-Latn">Tamada Fukushōdō</Noun> (<span lang="ja">玉田福勝堂</span>)</>}>
         <ArticleImage
           position="aside"
           src={imgNihon1896}
@@ -626,16 +628,29 @@ const Manufacturers: React.FC = () => {
           The extra <GameRef id="hachi-hachi" />-related cards of <Noun lang="ja-Latn">Nihon Karuta</Noun>’s Hana-Trump deck. There is a windmill depicted in the corners of the Joker card.
         </ArticleImage>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</>}>
+      <Section title={<><img className="inline-img" src={imgMarujuu} alt="" /> <Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</>}>
         <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,<Cite r={Yamaguchi} page={102} /> but stopped producing in 1962.<Cite r={ModernJapaneseWrappers} page={33} /> Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span lang="ja">十</span>). Brands included:</p>
         <ul>
           <li><span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold baldy’, ‘baldy’ being a nickname for a priest)</li>
-          <li><span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, <a href="https://en.wikipedia.org/wiki/Guan_Yu">Guan Yu</a>)</li>
-          <li><span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>, ‘nine-tattoo dragon’, a nickname for <a href="https://en.wikipedia.org/wiki/Shi_Jin">Shi Jin</a>)</li>
+          <li><span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, <a lang="zh-Latn" href="https://en.wikipedia.org/wiki/Guan_Yu">Guan Yu</a>)</li>
+          <li><span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>, ‘nine-tattoo dragon’, a nickname for <a lang="zh-Latn" href="https://en.wikipedia.org/wiki/Shi_Jin">Shi Jin</a>)</li>
           <li><span lang="ja">大黒</span> (<span lang="ja-Latn">daikoku</span>, <a href="https://en.wikipedia.org/wiki/Daikokuten">Daikokuten</a>)</li>
         </ul>
+        <ArticleImage
+          alt="The frontage of a very wide Japanese store, with signs depicting several figures."
+          size="wide"
+          src={imgYamashiroExterior}
+          source={{ license: "cc0" }}>
+          A box wrapper from around 1900 featuring an imaginary depiction of the <Noun lang="ja-Latn">Yamashiro</Noun> store exterior; in reality it was nowhere near as large as this. The advertising boards at the left depict <Noun lang="zh-Latn">Guan Yu</Noun> and <Noun lang="zh-Latn">Shi Jin</Noun>, who represent two of the company’s brands.
+        </ArticleImage>
+        <ArticleImage
+          alt="The front and back cover of a pamphlet"
+          src={imgYamashiroPricelist}
+          source={{ license: "cc0" }}>
+          The cover of their pricelist shows a more realistic shopfront, of similar construction to <Noun lang="ja-Latn">Nintendō</Noun>’s store that is shown in a photo above.
+        </ArticleImage>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</>}>
+      <Section title={<><img src={imgMaruryu} alt="" className="inline-img" /> <Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</>}>
         <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was a circled <span lang="ja">龍</span> (they also possibly had another trade name of <span lang="ja">マルナ</span> with circled <span lang="ja" className="circled">名</span> as mark). Brands included:</p>
         <ul>
           <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsutagawa</span>, ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’)</li>
@@ -645,13 +660,13 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">福宝</span> (<span lang="ja-Latn">fukuhō</span>, ‘good fortune, treasure’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Inoue Juntendō</Noun> (<span lang="ja">井上順天堂</span>)</>}>
+      <Section title={<><img src={imgMarujun} alt="" className="inline-img" /> <Noun lang="ja-Latn">Inoue Juntendō</Noun> (<span lang="ja">井上順天堂</span>)</>}>
         <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was a circled <span lang="ja">順</span>.</p>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Nakao Seikadō</Noun> (<span lang="ja">中尾清花堂</span>)</>}>
+      <Section title={<><img src={imgKanese} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nakao Seikadō</Noun> (<span lang="ja">中尾清花堂</span>)</>}>
         <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was <span lang="ja">セ</span> with corner at top-right.</p>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Baba Keieidō</Noun> (<span lang="ja">馬場京栄堂</span>)</>}>
+      <Section title={<><img src={imgMarukyou} alt="" className="inline-img" /> <Noun lang="ja-Latn">Baba Keieidō</Noun> (<span lang="ja">馬場京栄堂</span>)</>}>
         <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was a circled <span lang="ja">京</span>.</p>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Heibon</Noun> (<span lang="ja">平凡</span>)</>}>
@@ -675,7 +690,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">祇園</span> (<span lang="ja-Latn">gion</span>, the <span lang="ja-Latn">geisha</span> district of <Noun lang="ja-Latn">Kyōto</Noun>)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Kohara Honten</Noun> (<span lang="ja">小原本店</span>)</>}>
+      <Section title={<><img src={imgMarusa} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kohara Honten</Noun> (<span lang="ja">小原本店</span>)</>}>
         <p><Noun lang="ja-Latn">Kohara</Noun> was a manufacturer based in <Noun lang="ja-Latn">Ōsaka</Noun> until 1980.<Cite r={ModernJapaneseWrappers} page={48} /> Their manufacturer’s mark was a circled <span lang="ja" className="circled">さ</span>, and brands included:</p>
         <ul>
           <li><span lang="ja">鬼印</span> (<span lang="ja-Latn">onijirushi</span>, ‘ogre brand’, also for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Harifuda</Noun>)</li>
@@ -688,7 +703,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">寶引</span> (<span lang="ja-Latn">hōbiki</span>, ‘treasure pull’, a kind of lottery where one rope out of a bundle was tied to the prize, and whoever pulled it won; these were <Noun lang="ja-Latn">Hikifuda</Noun> cards)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Nishimura</Noun> (<span lang="ja">西村</span>)</>}>
+      <Section title={<><img src={imgMarui} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nishimura</Noun> (<span lang="ja">西村</span>)</>}>
         <ArticleImage
           position="aside"
           src={imgNishimuraBrand}
@@ -701,7 +716,7 @@ const Manufacturers: React.FC = () => {
             copyrightYear: 2020,
             license: "with-permission"
           }}>
-          A <Noun lang="ja-Latn">Nishimura</Noun> advertising card featuring the <span lang="ja-Latn">kabuki</span> character <a href="https://en.wikipedia.org/wiki/Sukeroku"><Noun lang="ja-Latn">Sukeroku</Noun></a>, who appeared often in their branding. <Noun lang="ja-Latn">Sukeroku</Noun> popularized the style of umbrella called a ‘snake-eye umbrella’ (<span lang="ja">蛇の目傘</span>) due to its pattern, so this type of umbrella is also referred to as a <span lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
+          An extra ‘advertising’ card featuring the <span lang="ja-Latn">kabuki</span> character <a href="https://en.wikipedia.org/wiki/Sukeroku"><Noun lang="ja-Latn">Sukeroku</Noun></a>, who appeared often in <Noun lang="ja-Latn">Nishimura</Noun>’s branding. <Noun lang="ja-Latn">Sukeroku</Noun> popularized the style of umbrella called a ‘snake-eye umbrella’ (<span lang="ja">蛇の目傘</span>) due to its pattern, so this type of umbrella is also referred to as a <span lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
         </ArticleImage>
         <p>At first an important manufacturer in <Noun lang="ja-Latn">Tōkyō</Noun>, but later cards were made by other makers including <Noun lang="ja-Latn">Ōishi Tengudō</Noun>. Their mark was a circled <span lang="ja" className="circled">い</span>, and their brands included:<Cite r={ModernJapaneseWrappers} page={[54, 58]} /></p>
         <ul>
@@ -722,7 +737,7 @@ const Manufacturers: React.FC = () => {
           Two <Noun lang="ja-Latn">Nishimura</Noun> advertisements, from the December 1907 issue of the “Tokyo Toilet Trade Journal”. The advert on the right shows that they also sold <Noun lang="ja-Latn">Ōishi Tengudō</Noun> products.
           </ArticleImage>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Kyōto Karuta</Noun> (<span lang="ja">京都かるた</span>)</>}>
+      <Section title={<><img src={imgMarukyou} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kyōto Karuta</Noun> (<span lang="ja">京都かるた</span>)</>}>
         <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer, founded by an ex-employee of <Noun lang="ja-Latn">Nihon Karuta</Noun>. They were active in the 1960s & ’70s, but closed in the 1990s.<Cite r={UmebayashiIsao} /> Their brands included:<Cite r={ModernJapaneseWrappers} page={49} /></p>
         <ul>
           <li><span lang="ja">金の司</span> (<span lang="ja-Latn">kin no tsukasa</span> ‘officer of gold’)</li>
@@ -777,10 +792,10 @@ const Manufacturers: React.FC = () => {
           The extra <GameRef id="hachi-hachi"/>-related cards of Universal’s <Noun lang="ja-Latn">Trump-Hana</Noun> deck. I’m not sure of the significance of the “vase” Joker, since usually the Joker has the manufacturer’s name. It could be intended as a multilingual pun on “Universal” (<span lang="ja">ユニバーセル</span> <span lang="ja-Latn">yunibāseru</span>) → “Universe” (<span lang="ja">ユニバース</span> <span lang="ja-Latn">yunibāsu</span>), which sounds like “uni-vase” (one vase).
         </ArticleImage>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Kawai</Noun></>}>
+      <Section title={<><img src={imgKaneman} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kawai</Noun></>}>
         <p>A manufacturer from <Noun lang="ja-Latn">Ōsaka</Noun>, whose mark was <span lang="ja">万</span> with corner at top-right.<Cite r={OstasiatischeSpielkarten} page={135} /></p>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Akata Shōjōya</Noun> (<span lang="ja">赤田猩々屋</span>)</>}>
+      <Section title={<><img src={imgMarumatsu} alt="" className="inline-img" /> <Noun lang="ja-Latn">Akata Shōjōya</Noun> (<span lang="ja">赤田猩々屋</span>)</>}>
         <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer whose mark was <span lang="ja">松</span> in a circle.</p>
         <div className="multi">
           <ArticleImage
@@ -811,7 +826,7 @@ const Manufacturers: React.FC = () => {
       <Section title={<><Noun lang="ja-Latn">Suisando</Noun> (<span lang="ja">翠山堂</span>)</>}>
         <p>A manufacturer that has a very finely-detailed deck of cards reproduced in <Cite r={Hargrave} page={13} inline />.</p>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Nihon Goraku</Noun> (<span lang="ja">日本娯楽</span>)</>}>
+      <Section title={<><img src={imgMarutano} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nihon Goraku</Noun> (<span lang="ja">日本娯楽</span>)</>}>
         <p><Noun lang="ja-Latn">Nihon Goraku</Noun> was founded in 1945 in <Noun lang="ja-Latn">Shinhama</Noun> (<span lang="ja">新浜</span>), <Noun lang="ja-Latn">Onomichi</Noun> city (<span lang="ja">尾道市</span>), <Noun lang="ja-Latn">Hiroshima</Noun> prefecture (<span lang="ja">広島県</span>), and originally had cards manufactured by <Noun lang="">Kyōto Karuta</Noun>. Nowadays the company imports musical instruments.</p>
         <p>Their mark was circled <span lang="ja">娯</span>, and brands included:</p>
         <ul>
@@ -821,14 +836,14 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">竹印</span> (<span lang="ja-Latn">takejirushi</span>, ‘bamboo brand’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Kyōwadō</Noun> (<span lang="ja">京和堂</span>)</>}>
+      <Section title={<><img src={imgMaruei} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kyōwadō</Noun> (<span lang="ja">京和堂</span>)</>}>
         <p>A company about which I know little, other than that they were a company that also produced board games. Presumably from the name they were based in <Noun lang="ja-Latn">Kyōto</Noun>. Their mark was a circled <span lang="ja">榮</span>. Brands included:</p>
         <ul>
           <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)</li>
           <li><span lang="ja">京寶船</span> (<span lang="ja-Latn">kyōtakarabune</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> treasure ship’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>)</>}>
+      <Section title={<><img src={imgKanekata} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>)</>}>
         <p>For more about <Noun lang="ja-Latn">Kamigataya</Noun>, see the <Link to="/articles/cards/japan/hanafuda/art">history article</Link>. Early on, <Noun lang="ja-Latn">Kamigataya</Noun> had decks made (by <Noun lang="ja-Latn">Nintendō</Noun>) with their own brand, but they would later sell <Noun lang="ja-Latn">Nintendō</Noun>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xe0103;</span> with angle. Brands included:</p>
         <ul>
           <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’)</li>
@@ -836,13 +851,13 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">都錦</span> (<span lang="ja-Latn">miyakonishiki</span>, ‘capital brocade’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Marukin</Noun></>}>
+      <Section title={<><img src={imgMarukin} alt="" className="inline-img" /> <Noun lang="ja-Latn">Marukin</Noun></>}>
         <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in <Noun lang="ja-Latn">Sakata</Noun> (<span lang="ja">酒田市</span>), <Noun lang="ja-Latn">Yamaguchi</Noun> prefecture (<span lang="ja">山口県</span>). Their mark was a circled <span lang="ja" className="circled">金</span>. Brands included:</p>
         <ul>
           <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Ōtani Shōten</Noun> (<span lang="ja">大谷商店</span>)</>}>
+      <Section title={<><img src={imgMarudai} alt="" className="inline-img" /> <Noun lang="ja-Latn">Ōtani Shōten</Noun> (<span lang="ja">大谷商店</span>)</>}>
         <p><Noun lang="ja-Latn">Ōtani Shōten</Noun> was a company based in <Noun lang="ja-Latn">Sakurai</Noun> town (<span lang="ja">桜井町</span>), in <Noun lang="ja-Latn">Shiki</Noun> district (<span lang="ja">磯城郡</span>), <Noun lang="ja-Latn">Nara</Noun> prefecture (<span lang="ja">奈良県</span>). Their mark was a circled <span lang="ja" className="circled">大</span>. Brands included:</p>
         <ul>
           <li><span lang="ja">千島</span> (<span lang="ja-Latn">chishima</span>, ‘thousand islands’, the Japanese name for the <a href="https://en.wikipedia.org/wiki/Kuril_Islands">Kuril Islands</a>)</li>

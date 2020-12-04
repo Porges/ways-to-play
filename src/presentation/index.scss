@@ -502,3 +502,12 @@ a[href*="wikipedia.org" i] {
         content: fa-content($fa-var-instagram) '\a0';
     }
 }
+
+.inline-img {
+    height: 1em;
+    vertical-align: bottom;
+
+    &.big {
+        height: 2em;
+    }
+}
