@@ -44,6 +44,7 @@ import imgHagiTemple from './hagi_temple.jpg';
 import imgHagiBoar from './SC138896.jpg';
 import imgImperialSealOfJapan from './Imperial_Seal_of_Japan.svg';
 import imgBushWarbler from './bush_warbler.jpg';
+import imgMushibana from './nintendo_mushibana.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.png';
 import imgHanafuda1_2 from '../Hanafuda_1-2.png';
@@ -352,6 +353,14 @@ const Hanafuda: React.FC = () => {
                 </ArticleImage>
           </div>
         </Section>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Mushi-bana</Noun></>}>
+        <p>The <Noun lang="ja-Latn">Mushi-bana</Noun> (<span lang="ja">虫花</span> ‘insect flowers’) deck is a variant that contains only ten months, as it lacks the sixth (peony) and seventh (bush clover). It is especially used for playing the game of the same name, <Noun lang="ja-Latn">Mushi</Noun> (‘insects’). It is sometimes described as a shortened version of a standard <Noun lang="ja-Latn">Hachihachi</Noun> deck, but in reality it originated as its own regional pattern.</p>
+        <ArticleImage
+          src={imgMushibana}
+          alt="">
+          <Noun lang="ja-Latn">Nintendō</Noun>’s <Noun lang="ja-Latn">Mushi</Noun> pattern differs slightly from that of its standard deck.
+        </ArticleImage>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Echigo-bana</Noun></>}>
         <p>The regional <Pronounce pronouncer="poyotan" word="Echigo-bana" lang="ja-Latn" file={pronEchigobana} /> (<span lang="ja">越後花</span> ‘Echigo flowers’) pattern is based on designs that are older than the standard pattern. The most obvious difference is that all the cards are overpainted with gold and silver in various patterns.</p>
