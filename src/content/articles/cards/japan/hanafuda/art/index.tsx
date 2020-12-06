@@ -45,6 +45,7 @@ import imgHagiBoar from './SC138896.jpg';
 import imgImperialSealOfJapan from './Imperial_Seal_of_Japan.svg';
 import imgBushWarbler from './bush_warbler.jpg';
 import imgMushibana from './nintendo_mushibana.jpg';
+import imgDairenbana from './dairenbana.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.png';
 import imgHanafuda1_2 from '../Hanafuda_1-2.png';
@@ -356,6 +357,7 @@ const Hanafuda: React.FC = () => {
       </Section>
       <Section title={<><Noun lang="ja-Latn">Mushi-bana</Noun></>}>
         <p>The <Noun lang="ja-Latn">Mushi-bana</Noun> (<span lang="ja">虫花</span> ‘insect flowers’) deck is a variant that contains only ten months, as it lacks the sixth (peony) and seventh (bush clover). It is especially used for playing the game of the same name, <Noun lang="ja-Latn">Mushi</Noun> (‘insects’). It is sometimes described as a shortened version of a standard <Noun lang="ja-Latn">Hachihachi</Noun> deck, but in reality it originated as its own regional pattern.</p>
+        <p><Noun lang="ja-Latn">Nintendō</Noun> produced this pattern until recently, but it now appears to be extinct.</p>
         <ArticleImage
           src={imgMushibana}
           alt="">
@@ -400,6 +402,15 @@ const Hanafuda: React.FC = () => {
           src={imgKintokiBana}
           alt="Five hanafuda cards with bright colours and overpainted with silver.">
           The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.
+        </ArticleImage>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Dairen-bana</Noun></>}>
+        <p><Noun lang="ja-Latn">Dairen-bana</Noun> (<span lang="ja-Latn">大連花</span>) is an extinct regional pattern from city of <a href="https://en.wikipedia.org/wiki/Dalian"><Noun lang="zh-Latn">Dalian</Noun></a> (<span lang="zh">大连市</span>) in China. It dates from the era of the <a href="https://en.wikipedia.org/wiki/Kwantung_Leased_Territory">Kwangtung Leased Territory</a>, when Japan occupied the region from 1905 until the end of WWII. The pattern possibly existed as a way to reduce government taxation on cards, as cards sold in occupied regions did not attract the same level of tax as those sold within Japan’s own islands.</p>
+        <p>The main distinguishing feature of the pattern is that each type of <span lang="ja-Latn">tanzaku</span> card has its own background pattern (as opposed to the usual ‘confetti’). The remainder of the cards follow the standard pattern very closely.</p>
+        <ArticleImage
+          src={imgDairenbana}
+          alt="Three hanafuda cards: the first, with a red ribbon with writing on it, has a background consisting of a wave pattern; the second, with a red ribbon without writing, has a diagonal-striped background; and the third, with a blue ribbon, has a hatched background.">
+          Three cards showing the different backgrounds for each type of <span lang="ja-Latn">tanzaku</span> card.
         </ArticleImage>
       </Section>
       <Section title="Modern/Novelty decks">
