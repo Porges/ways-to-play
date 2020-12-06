@@ -781,7 +781,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">花川戸</span> (<span lang="ja-Latn">hanakawado</span>, a place in <Noun lang="ja-Latn">Tōkyō</Noun>)</li>
           <li><span lang="ja">花あわせ</span> (<span lang="ja-Latn">hana-awase</span>, ‘flower matching’)</li>
         </ul>
-        <p>Like many of the other brands, they have also produced a mixed hana-trump deck.</p>
+        <p>They also produced a poker-sized <Noun lang="ja-Latn">Hanafuda</Noun> deck that included point values on the cards, as well as the name of the month and the flower associated with the month. Interestingly, the point values on some of the cards indicate that they were intended to be played with Hawaiian rules.</p>
         <ArticleImage 
           alt="Five hanafuda cards with points which are marked with values listed in the corners, the flower listed at top, and the month listed at bottom."
           src={imgNGYHanaTrump}>
