@@ -49,6 +49,8 @@ import imgNishimuraBrand from './nishimura_brand.jpg';
 import imgMuraiBrosCard from './murai-bros-card.jpg';
 import imgYamashiroExterior from './yamashiro_exterior.jpg';
 import imgYamashiroPricelist from './yamashiro_pricelist_cover.jpg';
+import imgNGYHanaTrump from './NYG_hanatrump.jpg';
+import imgNYGTengu from './NYG_tengu.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -762,6 +764,12 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>)</>}>
+        <ArticleImage
+          position="right"
+          alt=""
+          src={imgNYGTengu}>
+          <Noun lang="ja-Latn">Nippon Yūgi</Noun>’s <span lang="ja-Latn">kintengu</span> brand.
+        </ArticleImage>
         <p><Noun lang="ja-Latn">Nippon Yūgi</Noun> was founded in <Noun lang="ja-Latn">Tōkyō</Noun> in 1946. They still exist but no longer appear to produce <Noun lang="ja-Latn">Hanafuda</Noun> cards, instead specializing in tarot. Their previous brands included:<Cite r={ModernJapaneseWrappers} page={54} /></p>
         <ul>
           <li><span lang="ja">白鶴</span> (<span lang="ja-Latn">hakuzuru</span>, ‘white crane’)</li>
@@ -773,6 +781,12 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">花川戸</span> (<span lang="ja-Latn">hanakawado</span>, a place in <Noun lang="ja-Latn">Tōkyō</Noun>)</li>
           <li><span lang="ja">花あわせ</span> (<span lang="ja-Latn">hana-awase</span>, ‘flower matching’)</li>
         </ul>
+        <p>Like many of the other brands, they have also produced a mixed hana-trump deck.</p>
+        <ArticleImage 
+          alt="Five hanafuda cards with points which are marked with values listed in the corners, the flower listed at top, and the month listed at bottom."
+          src={imgNGYHanaTrump}>
+          <Noun lang="ja-Latn">Nippon Yūgi</Noun>’s hana-trump deck, possibly created for sale in <Noun lang="haw">Hawai'i</Noun>.
+        </ArticleImage>
       </Section>
       <Section title={<>Universal (<span lang="ja">ユニバーサル</span>)</>}>
         <p>The Universal Playing Card Company was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for <Noun lang="ja-Latn">Nintendō</Noun>. Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
