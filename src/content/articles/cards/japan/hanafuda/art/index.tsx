@@ -3,11 +3,8 @@ import * as React from 'react';
 import { Noun, ArticleImage, Footnote, Section, Cite, Pronounce } from 'ui';
 
 import {
-  FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords,
-  MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince,
-  CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign,
-  AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory, HandbookForJapan, JapaneseGamesOfMemory, EssaysInIdleness
-} from 'References/bibliography.json';
+  FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords, MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince, CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign, CabinetOfficeEntertainment, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory, HandbookForJapan, JapaneseGamesOfMemory, EssaysInIdleness
+ } from 'References/bibliography.json';
 
 import imgSC219954 from './SC219954.jpg';
 import imgSC232139 from "../SC232139.jpg";
@@ -297,6 +294,12 @@ const Hanafuda: React.FC = () => {
         <p>Despite the ending of prohibition, <Noun lang="ja-Latn">Hanafuda</Noun> retained a poor reputation, and gambling with the cards remained illegal. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other supreme court judges of gambling with <Noun lang="ja-Latn">Hanafuda</Noun> (<span lang="ja">弄花</span>, <span lang="ja-Latn">rōka</span>). Despite a lack of evidence, <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.</p>
         <p>In 1902 a stamp duty was introduced that was inspired by similar taxes imposed in Western countries, the intent being to raise the cost of cards (and thereby dis&shy;cour&shy;age their use) but to also raise tax revenue. The tax imposed was crushing: 20 <span lang="ja-Latn">sen</span> per set,<Footnote>The <span lang="ja-Latn">sen</span> (<span lang="ja">銭</span>) was a unit of currency representing 1⁄100 of a <span lang="ja-Latn">yen</span>.</Footnote> in a time when cheap <Noun lang="ja-Latn">Hanafuda</Noun> decks could be had for as little as 2–3 <span lang="ja-Latn">sen</span>. The effect on card manufacturers was “dire”, as Rebecca Salter puts it.<Cite r={PopularJapanesePrints} page={186} /> Japanese <Noun lang="ja-Latn">Hanafuda</Noun> scholar <Noun lang="ja-Latn">Ebashi Takashi</Noun> (<span lang="ja">江橋崇</span>) states that the law led to the closure of many small producers, and made it much harder for new manufacturers to enter the industry; both due to the tax itself as well as onerous record-keeping and inspection requirements.<Cite r={CartaTaxLawContents} /></p>
         <p>During this period, <Noun lang="ja-Latn">Nintendō</Noun> managed to survive in part by taking up the manufacture of regional patterns of Japanese cards (<span lang="ja">地方札</span> <span lang="ja-Latn">chihōfuda</span>), whose original, small-time, manufacturers had failed due to the new taxation law.<Cite r={NintendoHistory} /></p>
+      </Section>
+      <Section title="Decline &amp; Revival">
+        <p>By the mid to late 20th century, interest in the game was waning. A poll by Japan’s Cabinet Office in 1956 indicated that only 9% of people played <Noun lang="ja-Latn">Hanafuda</Noun>, compared with 28% who played Western playing cards.<Cite r={CabinetOfficeEntertainment} /></p>
+        <p>(I think Mahjong overtook it as a gambling game?)</p>
+        <p>(Boosted by character Hanafuda sets in 1990s–2000s… Summer Wars, etc)</p>
+        <p>(Still not that popular <em>as a game</em> in Japan, whereas it is in Korea, see: Instagram hashtag counts vs Instagram population. Also Tazza.)</p>
       </Section>
     </Section>
     <Section title="Art of the Cards">
@@ -657,10 +660,7 @@ const Hanafuda: React.FC = () => {
           src={imgPoem6}>
           <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
         </ArticleImage>
-        <p>The <span lang="ja-Latn">tanka</span> on the <span lang="ja-Latn">kasu</span> cards is similar to Poem 135 from the Summer section of the <Noun lang="ja-Latn">Kokinshū</Noun>.<Footnote>
-          <p>The poem on the card differs slightly in that the last line starts with <span lang="ja-Latn">ima ya</span> <span lang="ja">今や</span> instead of <span lang="ja-Latn">itu ka</span> <span lang="ja">いつか</span>.<Cite r={PoemsOfTheEchigobana} page={100} /></p>
-          <p>It was perhaps written by <Noun lang="ja-Latn">Kakinomoto no Hitomaro</Noun> <span lang="ja">柿本 人麻呂</span>.</p>
-        </Footnote> This poem  again focuses on the transition from spring (represented by wisteria) to summer (represented by the arrival of the cuckoo):</p>
+        <p>The <span lang="ja-Latn">tanka</span> on the <span lang="ja-Latn">kasu</span> cards is similar to Poem 135 from the Summer section of the <Noun lang="ja-Latn">Kokinshū</Noun>,<Footnote>The poem on the card differs slightly in that the last line starts with <span lang="ja-Latn">ima ya</span> <span lang="ja">今や</span> instead of <span lang="ja-Latn">itu ka</span> <span lang="ja">いつか</span>.<Cite r={PoemsOfTheEchigobana} page={100} /></Footnote> perhaps written by <Noun lang="ja-Latn">Kakinomoto no Hitomaro</Noun> <span lang="ja">柿本 人麻呂</span>. The poem again focuses on the transition from spring (represented by wisteria) to summer (represented by the arrival of the cuckoo):</p>
         <div className="multi">
           <p lang="ja" className="vertical-rl">わがやどの<br />池の藤波<br />さきにけり<br />山郭公<br />いつかきなかむ</p>
           <p>At my home<br />On the pond wisteria waves<br />Are breaking:<br />Mountain cuckoo,<br />When might you come and sing?<br /><Cite r={KKS135} /></p>

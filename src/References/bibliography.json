@@ -3830,6 +3830,7 @@
         "URL": "http://www.asahi-net.or.jp/~rp9h-tkhs/dg_kaioi.htm",
         "title": "貝覆い",
         "title-lang": "ja",
+        "publisher": "Boardwalk Community",
         "author": [
             {
                 "given": "浩徳",
@@ -4037,5 +4038,17 @@
         "publisher": "Columbia University Press",
         "publisher-place": "New York, NY, USA",
         "ISBN": "0-231-03080-0"
+    },
+    "CabinetOfficeEntertainment": {
+        "id": "CabinetOfficeEntertainment",
+        "type": "webpage",
+        "issued": { "year": 1956 },
+        "title": "娯楽に関する世論調査",
+        "title-lang": "ja",
+        "author": [ { "given": "内閣府", "lang": "ja" } ],
+        "publisher": "内閣府大臣官房政府広報室",
+        "publisher-place": "Tokyo, Japan",
+        "publisher-lang": "ja",
+        "URL": "https://survey.gov-online.go.jp/s31/S31-07-31-07.html"
     }
 }
