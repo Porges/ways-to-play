@@ -40,7 +40,7 @@ import imgUniversalTrumpHanaExtras from './Universal_TrumpHana_Extras.jpg';
 import imgShikishima from './Shikishima.jpg';
 import imgAceSaigo from './Ace_Saigo.jpg';
 import imgAceAdmiral from './Ace_Admiral.jpg';
-import imgOishiNarikin from './Oishi_Narikin.jpg';
+//import imgOishiNarikin from './Oishi_Narikin.jpg';
 import imgNihon1896 from './Nihon_1896.jpg';
 import imgTakarabune from './Takarabune_by_Hiroshige.jpg';
 import imgOtafuku from './otafuku.jpg';
@@ -51,6 +51,20 @@ import imgYamashiroExterior from './yamashiro_exterior.jpg';
 import imgYamashiroPricelist from './yamashiro_pricelist_cover.jpg';
 import imgNGYHanaTrump from './NYG_hanatrump.jpg';
 import imgNYGTengu from './NYG_tengu.jpg';
+import imgNKhigashinishiki from './NK_higashinishiki.jpg';
+import imgNKkoekoe from './NK_kokonoezakura.jpg';
+import imgDNhotaiko from './DN_hotaiko.jpg';
+import imgDNsenhime from './DN_senhime.jpg';
+import imgOToeyama from './OT_oeyama.jpg';
+import imgOTtakarabune from './OT_takarabune.jpg';
+import imgOThanazukushi from './OT_hanazukushi.jpg';
+import imgOTsakura from './OT_sakura.jpg';
+import imgOTlincoln from './OT_lincoln.jpg';
+import imgOTnarikin from './OT_narikin.jpg';
+import imgOTatariya from './OT_atariya.jpg';
+import imgOTsantengu from './OT_santengu.jpg';
+import imgTSyozakura from './TS_yozakura.jpg';
+import imgTSharuzake from './TS_haruzake.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -355,6 +369,13 @@ const Manufacturers: React.FC = () => {
       </Section>
       <Section title={<><img src={imgYamami} alt="" className="inline-img" /> <a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</>}>
         <p>Also based in <Noun lang="ja-Latn">Kyōto</Noun>, <Noun lang="ja-Latn">Ōishi Tengudō</Noun> produces a wide variety of traditional Japanese card games. As far as I know, they are the only major manufacturer still producing <Noun lang="ja-Latn">Mefuda</Noun> cards. They also produce reproductions of even older cards, such as the <Noun lang="ja-Latn">Unsun</Noun> deck.</p>
+        <ArticleImage
+          position="right"
+          size="small"
+          src={imgOishiMark}
+          alt="A card with wistera showing the manufacturer’s mark.">
+          <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s manufacturer’s mark, on a Wisteria card from an old <Noun lang="ja-Latn">Narikin</Noun> deck.
+        </ArticleImage>
         <p>Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top, but on some decks (e.g. <Noun lang="ja-Latn">Echigo-kobana</Noun>), they have used <span lang="ja">大</span> in a square. Brands produced by <Noun lang="ja-Latn">Ōishi Tengudō</Noun> in the past included:<Cite r={ModernJapaneseWrappers} page={[[57, 58]]} /></p>
         <ul>
           <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabu</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
@@ -377,23 +398,40 @@ const Manufacturers: React.FC = () => {
         </ul>
         <div className="multi">
           <ArticleImage
-            size="small"
             src={imgOishiTengudo}
             alt="The front of a wooden Hanafuda box with a pasted-on image of a Tengu mask.">
-            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <Noun lang="ja-Latn">Kin Tengu</Noun> decks come in Paulownia-wood boxes.
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">kintengu</span> wrapper. This is now their standard brand.
             </ArticleImage>
           <ArticleImage
-            size="small"
-            src={imgOishiNarikin}
+            src={imgOTnarikin}
             alt="A Hanafuda box front featuring a large Koban coin with ‘Narikin’ (newly rich) written on it.">
-            The packaging for <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <Noun lang="ja-Latn">Narikin</Noun> brand.
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">narikin</span> wrapper.
             </ArticleImage>
-          <ArticleImage
-            size="small"
-            src={imgOishiMark}
-            alt="A card with wistera showing the manufacturer’s mark.">
-            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s manufacturer’s mark, on a Wisteria card from an old <Noun lang="ja-Latn">Narikin</Noun> deck.
-            </ArticleImage>
+          <ArticleImage src={imgOToeyama} alt="A hanafuda wrapper with a mountain and a man gazing into the distance.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">ōeyama</span> wrapper. The man is wearing the clothing of the <a href="https://en.wikipedia.org/wiki/Shugend%C5%8D"><Noun lang="ja-Latn">Shugendō</Noun></a> sect, which <Noun lang="ja-Latn">Tengu</Noun> are also depicted as wearing.
+          </ArticleImage>
+        </div>
+        <div className="multi">
+          <ArticleImage src={imgOTtakarabune} alt="A hanafuda wrapper with a boat carrying seven people.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">takarabune</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgOTsakura} alt="A hanafuda wrapper with cherry blossoms and an old street light.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">sakura</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgOThanazukushi} alt="A hanafuda wrapper with peonies, cherry blossoms, and other flowers.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">hanazukushi</span> wrapper.
+          </ArticleImage>
+        </div>
+        <div className="multi">
+          <ArticleImage src={imgOTlincoln} alt="A hanafuda wrapper with an image of Abaraham Lincoln.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s Lincoln wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgOTatariya} alt="A hanafuda wrapper with an arrow striking the centre of a target.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">atariya</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgOTsantengu} alt="A hanafuda wrapper three tengu masks.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">santengu</span> wrapper.
+          </ArticleImage>
         </div>
         <p>In addition to the many standard & local patterns of <Noun lang="ja-Latn">Hanafuda</Noun> they produce, they also publish some novelty decks, such as the <b><Noun lang="ja-Latn">Kyōto Hanafuda</Noun></b>:</p>
         <ArticleImage
@@ -455,9 +493,18 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">将軍</span> (<span lang="ja-Latn">shōgun</span>, <Noun lang="ja-Latn">Shogun</Noun>), used for <Noun lang="ja-Latn">Tehonbiki</Noun> only</li>
           <li><span lang="ja">総帥</span> (<span lang="ja-Latn">sōsui</span>, ‘commander-in-chief’), no longer in use as of 1980</li>
         </ul>
+        <div className="multi wide">
+          <ArticleImage src={imgTSyozakura} alt="A hanafuda wrapper with cherry blossoms and a brazier.">
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">yozakura</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgTSharuzake} alt="A hanafuda wrapper with a palace on a lake.">
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">haruzake</span> wrapper.
+          </ArticleImage>
+        </div>
         <ArticleImage
+          size="small"
           position="right"
-          alt="A box of hanafuda cards with a depiction of an apprentice geisha under blossoms and autumn leaves on the front."
+          alt="A hanafuda wrapper with a depiction of an apprentice geisha under blossoms and autumn leaves."
           src={imgShogundo}>
           <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">Kyō maiko</span> brand.
           </ArticleImage>
@@ -613,10 +660,19 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon)</li>
           <li><span lang="ja">萬國一</span>/<span lang="ja">万国一</span> (<span lang="ja-Latn">bankokuichi</span>, ‘best in the world’)</li>
         </ul>
+        <div className="multi wide">
+          <ArticleImage src={imgNKhigashinishiki} alt="A hanafuda wrapper featuring a fan.">
+            <Noun lang="ja-Latn">Nihon Karuta</Noun>’s <span lang="ja-Latn">higashinishiki</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgNKkoekoe} alt="A hanafuda wrapper featuring a palace and cherry blossom trees.">
+            <Noun lang="ja-Latn">Nihon Karuta</Noun>’s <span lang="ja-Latn">kokonoezakura</span> wrapper.
+          </ArticleImage>
+        </div>
+        <p><Noun lang="ja-Latn">Nihon Karuta</Noun>’s standard pattern was a variation on the <Noun lang="ja-Latn">Hachi&shy;hachi&shy;bana</Noun> which included more detailing in the form of fine blue lines. The standout feature was the full moon card, which featured a <a href="https://en.wikipedia.org/wiki/Moon_rabbit">rabbit pounding <span lang="ja-Latn">mochi</span></a> in the moon:</p>
         <ArticleImage
           alt="Five Hanafuda cards, which have thin blue lines showing detail in the black areas, unlike standard Hanafuda cards."
           src={imgNihonKaruta四光}>
-          The bright cards of <Noun lang="ja-Latn">Nihon Karuta</Noun>’s <span lang="ja">四光</span> (<span lang="ja-Latn">shikō</span>, ‘four brights’) pattern.
+          The bright cards of <Noun lang="ja-Latn">Nihon Karuta</Noun>’s special pattern.
           </ArticleImage>
         <p>Under the brand name of “Wind Mill”, <Noun lang="ja-Latn">Nihon Karuta</Noun> have also produced Western-style playing cards, including their own Hana-Trump deck:</p>
         <ArticleImage
@@ -759,9 +815,17 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">千姫</span> (<span lang="ja-Latn">senhime</span> ‘<a href="https://en.wikipedia.org/wiki/Senhime">Lady Sen</a>’)</li>
           <li><span lang="ja">銀瓠</span> (<span lang="ja-Latn">ginhyō</span> ‘silver gourd’)</li>
           <li><span lang="ja">金瓠</span> (<span lang="ja-Latn">kinhyō</span> ‘gold gourd’)</li>
-          <li><span lang="ja">豊太閤</span><Footnote>On the box this is misspelt <span lang="ja">豊太閣</span>.</Footnote> (<span lang="ja-Latn">hōtaikō</span>, a title of honour for <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi">Toyotomi Hideyoshi</a>)</li>
+          <li><span lang="ja">豊太閤</span><Footnote>On some versions of this, it is misspelt <span lang="ja">豊太閣</span>.</Footnote> (<span lang="ja-Latn">hōtaikō</span>, a title of honour for <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi">Toyotomi Hideyoshi</a>)</li>
           <li><span lang="ja">千成</span> (<span lang="ja-Latn">sennari</span>, short for <span lang="ja">千成瓢箪</span> <span lang="ja-Latn">sennaribyōtan</span> ‘thousand gourds’, the standard used by <Noun lang="ja-Latn">Hideyoshi</Noun>)</li>
         </ul>
+        <div className="multi">
+          <ArticleImage src={imgDNhotaiko} alt="A hanafuda wrapper with a man wearing tall headdress and holding a fan.">
+            <Noun lang="ja-Latn">Dai Nippon</Noun>’s <span lang="ja-Latn">hōtaikō</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgDNsenhime} alt="A hanafuda wrapper with a woman wearing robes.">
+            <Noun lang="ja-Latn">Dai Nippon</Noun>’s <span lang="ja-Latn">senhime</span> wrapper.
+          </ArticleImage>
+        </div>
       </Section>
       <Section title={<><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>)</>}>
         <ArticleImage

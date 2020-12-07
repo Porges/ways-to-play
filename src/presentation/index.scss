@@ -210,7 +210,7 @@ figure {
 
 /* Wide images are oversize on >=large bootstrap size */
 @include media-breakpoint-up(lg) {
-    figure.wide {
+    figure.wide, div.multi.wide {
         width: 120%;
         margin-left: -10%;
         clear: both;
