@@ -89,6 +89,7 @@ import imgMaruei from './maruei.svg';
 import imgMarukin from './marukin.svg';
 import imgMarudai from './marudai.svg';
 import img3gourds from './3gourds.svg';
+import imgHeibon from './heibon.svg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -174,7 +175,7 @@ const Manufacturers: React.FC = () => {
             <Table size="small">
               <tbody>
                 <tr>
-                  <td>?</td>
+                  <td><img src={imgHeibon} className="inline-img big" alt="A large coin symbol" /></td>
                   <td><a href="#heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
                 </tr>
                 <tr>
@@ -728,8 +729,8 @@ const Manufacturers: React.FC = () => {
       <Section title={<><img src={imgMarukyou} alt="" className="inline-img" /> <Noun lang="ja-Latn">Baba Keieidō</Noun> (<span lang="ja">馬場京栄堂</span>)</>}>
         <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was a circled <span lang="ja">京</span>.</p>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Heibon</Noun> (<span lang="ja">平凡</span>)</>}>
-        <p>This <Noun lang="ja-Latn">Tōkyō</Noun> manufacturer stopped producing shortly after 1972.<Cite r={ModernJapaneseWrappers} page={42} /> Brands included:</p>
+      <Section title={<><img src={imgHeibon} alt="" className="inline-img" /> <Noun lang="ja-Latn">Heibon</Noun> (<span lang="ja">平凡</span>)</>}>
+        <p>This <Noun lang="ja-Latn">Tōkyō</Noun> manufacturer stopped producing shortly after 1972.<Cite r={ModernJapaneseWrappers} page={42} /> Their maker’s mark was the phrase <span lang="ja">天下一</span> (<span lang="ja-Latn">tenkaichi</span> ‘best in the world’) written inside a large <a href="https://en.wikipedia.org/wiki/Koban_(coin)"><span lang="ja-Latn">koban</span></a>. Their brands included:</p>
         <ul>
           <li><span lang="ja">四天王</span> (<span lang="ja-Latn">shi tennō</span> the <a href="https://en.wikipedia.org/wiki/Four_Heavenly_Kings">four heavenly kings</a>), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">牡丹獅子</span> (<span lang="ja-Latn">botanjishi</span> ‘peony and lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
@@ -949,6 +950,7 @@ const Manufacturers: React.FC = () => {
         <li><span lang="ja">𛂁𛁲゙𛁈𛀸</span>/<span lang="ja">な𛁲゙𛁈𛀸</span>/<span lang="ja">なでしこ</span> (<span lang="ja-Latn">nadeshiko</span>, ‘pink’ (the flower))</li>
         <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’)</li>
         <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’)</li>
+        <li><span lang="ja">勝力士</span> (<span lang="ja-Latn">katsu rikishi</span>, ‘winning sumo wrestler’)</li>
       </ul>
     </Section>
   </>);
