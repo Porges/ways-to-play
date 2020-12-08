@@ -855,7 +855,7 @@ const Manufacturers: React.FC = () => {
         </ArticleImage>
       </Section>
       <Section title={<>Universal (<span lang="ja">ユニバーサル</span>)</>}>
-        <p>The Universal Playing Card Company was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for <Noun lang="ja-Latn">Nintendō</Noun>. Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
+        <p>The Universal Playing Card Company was based in <Noun lang="ja-Latn">Ōsaka</Noun>, at one stage producing cards (such as the <Noun lang="ja-Latn">Hana-Trump</Noun> deck) for <Noun lang="ja-Latn">Nintendō</Noun>. Their maker’s mark was a drawstring purse (<span lang="ja">巾着</span> <span lang="ja-Latn">kinchaku</span>). Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
         <ul>
           <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomuhana</span>, ‘rubber flower’)</li>
           <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’)</li>
