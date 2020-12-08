@@ -16,6 +16,8 @@ import imgHanami from './Hanami.jpg';
 import imgCochaeBrights from './Cochae_Brights.jpg';
 import imgJuniorBrights from './Junior_Brights.jpg';
 import imgJuniorBamboo from './Junior_Bamboo.jpg';
+import imgPixelHanafuda from './pixel_hanafuda.jpg';
+import imgPixelHanafudaSwapped from './pixel_hanafuda_swapped.jpg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -108,18 +110,32 @@ const Manufacturers: React.FC = () => {
           </ArticleImage>
     </Section>
     <Section title={<a href="https://www.junior.cards/">Junior</a>}>
-      <p>Junior have produced a ground-up redesign of Hanafuda into a poker format deck, printed by <abbr title="the United States Playing Card Company">USPCC</abbr>. The different kinds of cards have different backgrounds and all are identified by suit marker indices, which helps to clarify the cards for new players.</p>
+      <p>Junior have produced a ground-up redesign of Hanafuda into a poker format deck, printed by <abbr title="the United States Playing Card Company">USPCC</abbr>. The first edition is called the <strong>Phoenix</strong> deck (2019). Each different type of <Noun lang="ja-Latn">Hanafuda</Noun> card has a different background, and all are identified by suit marker indices, which helps to clarify the cards for new players.</p>
       <ArticleImage
         src={imgJuniorBrights}
         alt="TODO">
-        The 5 Bright cards of the Junior <Noun lang="ja-Latn">Hanafuda</Noun> deck (2019).
-          </ArticleImage>
+        The 5 Bright cards of the Junior Phoenix <Noun lang="ja-Latn">Hanafuda</Noun> deck.
+      </ArticleImage>
       <p>To fill out the full 54 cards of a standard poker deck, there are an additional 6 ‘bamboo’ cards including an additional <Noun lang="ja-Latn">Fuji</Noun> Bright and second Oni card:</p>
       <ArticleImage
         src={imgJuniorBamboo}
         alt="TODO">
-        The additional ‘Bamboo’ suit of the Junior “Phoenix” <Noun lang="ja-Latn">Hanafuda</Noun> deck.
-          </ArticleImage>
+        The additional ‘Bamboo’ suit of the Phoenix deck.
+      </ArticleImage>
+      <p>After the successful completion of <a href="https://www.kickstarter.com/projects/juniorcards/junior-hanafuda">a Kickstarter campaign</a> in 2020, two more Junior decks are being produced: <strong>Dragon</strong> and <strong>Tiger</strong>.</p>
+    </Section>
+    <Section title="Pixel Hanafuda">
+      <p>Ryan Sartor has produced <strong>Pixel Hanafuda</strong>, which is currently available from <a href="https://www.thegamecrafter.com/games/pixel-hanafuda">The Game Crafter</a>. The art is inspired by 8- &amp; 16-bit video games, and the cards are designed with a 29×44 pixel grid. The full set includes two decks, one each with black and red borders, and an additional 12 cards with “<a href="https://en.wikipedia.org/wiki/Palette_swap">palette-swapped</a>” colours, as an homage to the artistic techniques of the era. These additional cards can be used to play or invent new games; the set also includes rules for three original games invented by Ryan.</p>
+      <ArticleImage
+        src={imgPixelHanafuda}
+        alt="">
+        The five Brights of the Pixel <Noun lang="ja-Latn">Hanafuda</Noun> deck.
+      </ArticleImage>
+      <ArticleImage
+        src={imgPixelHanafudaSwapped}
+        alt="">
+        Some of the palette-swapped cards from the Pixel <Noun lang="ja-Latn">Hanafuda</Noun> deck.
+      </ArticleImage>
     </Section>
   </>);
 };
