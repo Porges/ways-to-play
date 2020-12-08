@@ -88,11 +88,12 @@ import imgMarutano from './marutano.svg';
 import imgMaruei from './maruei.svg';
 import imgMarukin from './marukin.svg';
 import imgMarudai from './marudai.svg';
+import img3gourds from './3gourds.svg';
 
 const Manufacturers: React.FC = () => {
   return (<>
     <Section title="Identification">
-      <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the front of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the end of the container. So a box of <Noun lang="ja-Latn">Nintendō</Noun> cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
+      <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the front of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the end of the container. For example, a box of <Noun lang="ja-Latn">Nintendō</Noun> cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
       <ArticleImage
         size="small"
         src={imgNintendoEnd}
@@ -193,7 +194,7 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#kyoto-karuta"><Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
                 </tr>
                 <tr>
-                  <td>?</td>
+                  <td><img src={img3gourds} className="inline-img big" alt="A symbol consisting of a bunch of 3 gourds" /></td>
                   <td><a href="#dai-nippon"><Noun lang="ja-Latn">Dai Nippon</Noun></a></td>
                 </tr>
                 <tr>
@@ -807,7 +808,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">ぼたん</span> (<span lang="ja-Latn">botan</span>, ‘peony’)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Dai Nippon</Noun> (<span lang="ja">大日本</span>)</>}>
+      <Section title={<><img src={img3gourds} alt="" className="inline-img" /> <Noun lang="ja-Latn">Dai Nippon</Noun> (<span lang="ja">大日本</span>)</>}>
         <p>A manufacturer from <Noun lang="ja-Latn">Yōkaichi</Noun> (now part of <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture. Their logo is a group of three gourds, which are considered to be lucky.</p>
         <p>Brands included:<Cite r={ModernJapaneseWrappers} page={46} /></p>
         <ul>
