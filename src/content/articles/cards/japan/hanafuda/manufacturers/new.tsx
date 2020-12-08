@@ -67,7 +67,7 @@ const Manufacturers: React.FC = () => {
         alt="Five hanafuda cards drawn in a minimalistic but realistic style.">
         The five Bright cards of the <Noun lang="ja-Latn">Hanami Hanafuda</Noun> deck.
           </ArticleImage>
-      <p>After another successful Kickstarter campaign, Indianwolf also produced the <a href="http://www.indianwolfstudios.com/night-parade-fusion.html"><strong>Night Parade</strong></a> deck (2020). Each month is a tetraptych of four images which combine to form one wide image. The deck is themed upon traditional Japanese monsters (<span lang="ja-Latn">yōkai</span>), and it also comes with rules for a new game called “<a href="https://en.wikipedia.org/wiki/Yamata_no_Orochi">Orochi</a>”.</p>
+      <p>After another successful Kickstarter campaign, Indianwolf also produced the <a href="http://www.indianwolfstudios.com/night-parade-fusion.html"><strong>Night Parade</strong></a> deck (2020). The four cards of each month combine to form one wide tetraptych. The deck is themed upon traditional Japanese monsters (<span lang="ja-Latn">yōkai</span>), and it also comes with rules for a new game called “<a href="https://en.wikipedia.org/wiki/Yamata_no_Orochi">Orochi</a>”.</p>
       <ArticleImage
         src={imgIWnightparade}
         alt="">
