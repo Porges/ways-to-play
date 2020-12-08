@@ -20,6 +20,8 @@ import imgPixelHanafuda from './pixel_hanafuda.jpg';
 import imgPixelHanafudaSwapped from './pixel_hanafuda_swapped.jpg';
 import imgIWnightparade from './IW_night_parade.jpg';
 import imgIWtetraptych from './IW_tetraptych.jpg';
+import imgJRbrights from './JR_brights.jpg';
+import imgJRtetraptych from './JR_tetraptych.jpg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -147,6 +149,20 @@ const Manufacturers: React.FC = () => {
         src={imgPixelHanafudaSwapped}
         alt="">
         Some of the palette-swapped cards from the Pixel <Noun lang="ja-Latn">Hanafuda</Noun> deck.
+      </ArticleImage>
+    </Section>
+    <Section title={<Noun lang="ja-Latn">Tetsufuda</Noun>}>
+      <p><strong><a href="https://www.kotsu.co.jp/en/tetsufuda/"><Noun lang="ja-Latn">Tetsufuda</Noun></a></strong> (<span lang="ja">鉄札</span>, 2020) is a train-themed deck created by <Noun lang="ja-Latn">Kotsu Shimbunsha</Noun>, the publishing arm of the Japan Railways group (JR).</p>
+      <p>Each month features a real train that runs on a JR line, and the cards show attributes or specialities of the different regions of Japan. The four cards of each month combine to form a tetraptych.</p>
+      <ArticleImage
+        src={imgJRbrights}
+        alt="">
+        The five Brights of the <Noun lang="ja-Latn">Tetsufuda</Noun> deck.
+      </ArticleImage>
+      <ArticleImage
+        src={imgJRtetraptych}
+        alt="">
+        The maple cards feature the <a href="https://en.wikipedia.org/wiki/Nozomi_(train)"><Noun lang="ja-Latn">Nozomi Shinkansen</Noun></a> of the <a href="https://en.wikipedia.org/wiki/Tokaido_Shinkansen"><Noun lang="ja-Latn">Tōkaidō</Noun> line</a>.
       </ArticleImage>
     </Section>
   </>);
