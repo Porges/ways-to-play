@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleImage, Noun, Section } from 'ui';
+import { ArticleImage, Noun, Section, Cards } from 'ui';
 
 import imgNaPua5Brights from './NaPua_5Brights.jpg';
 import imgNaPuaNovember from './NaPua_November.jpg';
@@ -18,6 +18,8 @@ import imgJuniorBrights from './Junior_Brights.jpg';
 import imgJuniorBamboo from './Junior_Bamboo.jpg';
 import imgPixelHanafuda from './pixel_hanafuda.jpg';
 import imgPixelHanafudaSwapped from './pixel_hanafuda_swapped.jpg';
+import imgIWnightparade from './IW_night_parade.jpg';
+import imgIWtetraptych from './IW_tetraptych.jpg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -56,14 +58,24 @@ const Manufacturers: React.FC = () => {
         Hanafuda Nā Pua Hawai‘i November cards.
           </ArticleImage>
     </Section>
-    <Section title={<a href="http://www.indianwolfstudios.com/hanami.html">Indianwolf Studios</a>}>
-      <p>Indianwolf have so far produced the <Noun lang="ja-Latn"><strong>Hanami Hanafuda</strong></Noun> (2018) and <Noun lang="ja-Latn">Sensu Hanafuda</Noun> (2019) decks, in poker-sized cards printed by Legends Playing Card Company. Both of these are available in a plain version, or one that has indices to aid new players.</p>
+    <Section title={<a href="http://www.indianwolfstudios.com/">Indianwolf Studios</a>}>
+      <p>Indianwolf have so far produced the <a href="http://www.indianwolfstudios.com/hanami.html"><Noun lang="ja-Latn"><strong>Hanami Hanafuda</strong></Noun></a> (2018) and <a href="http://www.indianwolfstudios.com/sensu.html"><Noun lang="ja-Latn">Sensu Hanafuda</Noun></a> (2019) decks, in poker-sized cards printed by Legends Playing Card Company. Both of these are available in a plain version, or one that has indices to aid new players.</p>
       <ArticleImage
         src={imgHanami}
         alt="Five hanafuda cards drawn in a minimalistic but realistic style.">
         The five Bright cards of the <Noun lang="ja-Latn">Hanami Hanafuda</Noun> deck.
           </ArticleImage>
-      <p>Indianwolf are also currently producing the ‘Night Parade’ deck, expected to ship in 2020. All Indianwolf’s decks have been crowdfunded through Kickstarter.</p>
+      <p>After another successful Kickstarter campaign, Indianwolf also produced the <a href="http://www.indianwolfstudios.com/night-parade-fusion.html"><strong>Night Parade</strong></a> deck (2020). Each month is a tetraptych of four images which combine to form one wide image. The deck is themed upon traditional Japanese monsters (<span lang="ja-Latn">yōkai</span>), and it also comes with rules for a new game called “<a href="https://en.wikipedia.org/wiki/Yamata_no_Orochi">Orochi</a>”.</p>
+      <ArticleImage
+        src={imgIWnightparade}
+        alt="">
+        The five Bright cards of the Night Parade deck, and one joker.
+      </ArticleImage>
+      <ArticleImage
+        src={imgIWtetraptych}
+        alt="">
+        The tetraptych formed by the four <Cards>K</Cards>s, all of which can be used as jokers.
+      </ArticleImage>
     </Section>
     <Section title={<><a href="https://www.instagram.com/jamaistore/"><span lang="ko">자매상점</span> (jamaistore)</a></>}>
       <p>Produces ridiculously-cute cat &amp; dog themed <span lang="ko-Latn">hwatu</span> decks. Each of them comes with an additional six joker cards, appropriate to the theme. Both decks were crowfunded on the Korean site ‘tumblbug’.</p>
