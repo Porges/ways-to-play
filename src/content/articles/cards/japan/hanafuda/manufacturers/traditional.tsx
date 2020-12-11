@@ -851,7 +851,7 @@ const Manufacturers: React.FC = () => {
         <ArticleImage 
           alt="Five hanafuda cards with points which are marked with values listed in the corners, the flower listed at top, and the month listed at bottom."
           src={imgNGYHanaTrump}>
-          <Noun lang="ja-Latn">Nippon Yūgi</Noun>’s hana-trump deck, possibly created for sale in <Noun lang="haw">Hawai'i</Noun>.
+          <Noun lang="ja-Latn">Nippon Yūgi</Noun>’s poker-format deck, possibly created for sale in <Noun lang="haw">Hawai'i</Noun>.
         </ArticleImage>
       </Section>
       <Section title={<>Universal (<span lang="ja">ユニバーサル</span>)</>}>
