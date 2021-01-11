@@ -66,6 +66,7 @@ import imgOTsantengu from './OT_santengu.jpg';
 import imgTSyozakura from './TS_yozakura.jpg';
 import imgTSharuzake from './TS_haruzake.jpg';
 import imgNGBamboo from './NG_bamboo.jpg';
+import imgSeedoEbisu from './Seedo_Ebisu.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -171,14 +172,14 @@ const Manufacturers: React.FC = () => {
                   <td><img src={imgMarukyou} className="inline-img big" alt="The Marukyō symbol" /></td>
                   <td><a href="#baba-keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
                 </tr>
-              </tbody>
-            </Table>
-            <Table size="small">
-              <tbody>
                 <tr>
                   <td><img src={imgHeibon} className="inline-img big" alt="A large coin symbol" /></td>
                   <td><a href="#heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
                 </tr>
+              </tbody>
+            </Table>
+            <Table size="small">
+              <tbody>
                 <tr>
                   <td>?</td>
                   <td><a href="#kawakita"><Noun lang="ja-Latn">Kawakita</Noun></a></td>
@@ -238,6 +239,10 @@ const Manufacturers: React.FC = () => {
                 <tr>
                   <td><img src={imgMarudai} className="inline-img big" alt="The Marudai symbol" /></td>
                   <td><a href="#otani-shoten"><Noun lang="ja-Latn">Ōtani Shōten</Noun></a></td>
+                </tr>
+                <tr>
+                  <td>(none)</td>
+                  <td><a href="#seedo"><Noun lang="ja-Latn">Sēēdō</Noun></a></td>
                 </tr>
               </tbody>
             </Table>
@@ -954,6 +959,25 @@ const Manufacturers: React.FC = () => {
         <ul>
           <li><span lang="ja">千島</span> (<span lang="ja-Latn">chishima</span>, ‘thousand islands’, the Japanese name for the <a href="https://en.wikipedia.org/wiki/Kuril_Islands">Kuril Islands</a>)</li>
         </ul>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Sēēdō</Noun> (<span lang="ja">精英堂</span>)</>}>
+        <p><Noun lang="ja-Latn">Sēēdō</Noun> was a post-war manufacturer based in <Noun lang="ja-Latn">Kyōto</Noun>. They do not appear to have had a manufacturer’s mark, instead writing their full name on the Paulownia card. Their brands included:</p>
+        <ul>
+          <li><span lang="ja">戎印</span> (<span lang="ja-Latn">ebisu&shy;jirushi</span>, ‘<a href="https://en.wikipedia.org/wiki/Ebisu_(mythology)"><Noun lang="ja-Latn">Ebisu</Noun></a> brand’)</li>
+        </ul>
+        <ArticleImage 
+          src={imgSeedoEbisu}
+          alt="A hanafuda deck wrapper with an image of a smiling man carrying a fishing pole and two fish."
+          source={{
+            license: "with-permission",
+            copyrightYear: 2020,
+            author: {
+              family: "Sartor",
+              given: "Ryan"
+            }
+          }}>
+          <Noun lang="ja-Latn">Sēēdō</Noun>’s <Noun lang="ja-Latn">Ebisu</Noun> brand.
+        </ArticleImage>
       </Section>
     </Section>
     <Section title="Unknown">
