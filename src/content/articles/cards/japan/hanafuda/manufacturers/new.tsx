@@ -22,6 +22,8 @@ import imgIWnightparade from './IW_night_parade.jpg';
 import imgIWtetraptych from './IW_tetraptych.jpg';
 import imgJRbrights from './JR_brights.jpg';
 import imgJRtetraptych from './JR_tetraptych.jpg';
+import imgHerokuBrights from './Heroku_Brights.jpg';
+import imgTuhwaBrights from './Tuhwa_Brights.jpg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -163,6 +165,23 @@ const Manufacturers: React.FC = () => {
         src={imgJRtetraptych}
         alt="">
         The maple cards feature the <a href="https://en.wikipedia.org/wiki/Nozomi_(train)"><Noun lang="ja-Latn">Nozomi Shinkansen</Noun></a> of the <a href="https://en.wikipedia.org/wiki/Tokaido_Shinkansen"><Noun lang="ja-Latn">Tōkaidō</Noun> line</a>.
+      </ArticleImage>
+    </Section>
+    <Section title="Heroku Hanafuda">
+      <p><a href="https://www.heroku.com/hanafuda">Created by Heroku as a promotional item</a>, this deck was designed by <a href="https://lynnandtonic.com/">Lynn Fisher</a>. The cards feature icons and imagery related to Heroku’s products.</p>
+      <ArticleImage
+        src={imgHerokuBrights}
+        alt="">
+        The 5 Brights of Heroku’s deck.
+      </ArticleImage>
+    </Section>
+    <Section title={<><a href="http://utmost.co.kr/portfolio/flower-war/">Tuhwa (<span lang="ko">투화</span>)</a></>}>
+      <p>This deck was designed by Korean design firm Utmost, and was first <a href="https://www.wadiz.kr/web/campaign/detail/21803">crowdfunded on wadiz</a>. The name is a reversal of the standard Korean name <Noun lang="ko-Latn">Hwatu</Noun> (<span lang="ko">화투</span>). There are several editions of the deck available — <strong><a href="http://utmost.co.kr/portfolio/flower-war/">v2</a></strong> (2018) and <strong><a href="http://utmost.co.kr/portfolio/flowerwar2020/">v3</a></strong> (2020) (“v1” appears to have been a small or private printing) — and each features different art based on traditional Korean art styles. The cards are much larger than those in a standard deck, and are made of plastic like other Korean decks.</p>
+      <ArticleImage
+        src={imgTuhwaBrights}
+        size="wide"
+        alt="">
+        The 5 Brights of the Tuhwa (v2) deck.
       </ArticleImage>
     </Section>
   </>);
