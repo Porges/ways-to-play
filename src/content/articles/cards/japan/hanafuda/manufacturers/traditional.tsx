@@ -65,6 +65,7 @@ import imgOTatariya from './OT_atariya.jpg';
 import imgOTsantengu from './OT_santengu.jpg';
 import imgTSyozakura from './TS_yozakura.jpg';
 import imgTSharuzake from './TS_haruzake.jpg';
+import imgNGBamboo from './NG_bamboo.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -908,6 +909,16 @@ const Manufacturers: React.FC = () => {
         <p>A manufacturer that has a very finely-detailed deck of cards reproduced in <Cite r={Hargrave} page={13} inline />.</p>
       </Section>
       <Section title={<><img src={imgMarutano} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nihon Goraku</Noun> (<span lang="ja">日本娯楽</span>)</>}>
+        <ArticleImage 
+          src={imgNGBamboo}
+          alt=""
+          position="right"
+          source={{
+            license: 'with-permission',
+            author: {family: "Richert", given: "Marcus"}
+          }}>
+          <Noun lang="ja-Latn">Nihon Goraku</Noun>’s <span lang="ja-Latn">takejirushi</span> wrapper.
+        </ArticleImage>
         <p><Noun lang="ja-Latn">Nihon Goraku</Noun> was founded in 1945 in <Noun lang="ja-Latn">Shinhama</Noun> (<span lang="ja">新浜</span>), <Noun lang="ja-Latn">Onomichi</Noun> city (<span lang="ja">尾道市</span>), <Noun lang="ja-Latn">Hiroshima</Noun> prefecture (<span lang="ja">広島県</span>), and originally had cards manufactured by <Noun lang="">Kyōto Karuta</Noun>. Nowadays the company imports musical instruments.</p>
         <p>Their mark was circled <span lang="ja">娯</span>, and brands included:</p>
         <ul>
