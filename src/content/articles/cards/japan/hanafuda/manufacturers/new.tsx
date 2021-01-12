@@ -24,6 +24,7 @@ import imgJRbrights from './JR_brights.jpg';
 import imgJRtetraptych from './JR_tetraptych.jpg';
 import imgHerokuBrights from './Heroku_Brights.jpg';
 import imgTuhwaBrights from './Tuhwa_Brights.jpg';
+import imgModernHanafuda from './Modern_Hanafuda.jpg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -94,6 +95,14 @@ const Manufacturers: React.FC = () => {
         alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.">
         Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘woof fight’) deck (2017).
           </ArticleImage>
+    </Section>
+    <Section title={<a href="http://www.modernhanafuda.net/">Modern Hanafuda</a>}>
+      <p><strong>Modern Hanafuda</strong> (2012) was one of the earliest Kickstarted <Noun lang="ja-Latn">Hanafuda</Noun> decks. It was designed by Sarah Thomas, and the cards are decorated with bold flat colours and geometric patterns. The cards are larger and longer than normal playing cards.</p>
+      <ArticleImage
+        src={imgModernHanafuda}
+        alt="Five playing cards, the first with a crane with its neck arched back and pine trees patterened with criss-crossing stripes, the second with cherry blossoms behind a curtain bearing a cherry blossom pattern, the third of a white moon in a red sky over circular hills in orange and yellow, the fourth with a man holding an umbrella and standing under a willow tree watching a frog, and the fifth with a Japanese phoenix beating its wings over realistically-shaped Paulownia flowers.">
+        The 5 Bright cards of the Modern Hanafuda deck.
+        </ArticleImage>
     </Section>
     <Section title={<a href="https://www.etsy.com/shop/nishikie" lang="ja-Latn" className="proper-noun">NISHIKI <span lang="ja">錦</span></a>}>
       <p>This redesign by <Noun lang="ja-Latn">Hanako</Noun> of <a href="http://www.estudio-artes.com/">estudio artes</a> produced the only 3-way standard/<Noun lang="ja-Latn">Hanafuda</Noun>/<Noun lang="ja-Latn">Kabufuda</Noun> deck that I know of, which is printed on poker-sized cards. There is also a <Noun lang="ja-Latn">Hanafuda</Noun>-only deck, in a traditional format.</p>
