@@ -66,7 +66,7 @@ import imgOTsantengu from './OT_santengu.jpg';
 import imgTSyozakura from './TS_yozakura.jpg';
 import imgTSharuzake from './TS_haruzake.jpg';
 import imgNGBamboo from './NG_bamboo.jpg';
-import imgSeedoEbisu from './Seedo_Ebisu.jpg';
+import imgSeieidoEbisu from './Seedo_Ebisu.jpg';
 
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
@@ -242,7 +242,7 @@ const Manufacturers: React.FC = () => {
                 </tr>
                 <tr>
                   <td>(none)</td>
-                  <td><a href="#seedo"><Noun lang="ja-Latn">Sēēdō</Noun></a></td>
+                  <td><a href="#seieido"><Noun lang="ja-Latn">Seieidō</Noun></a></td>
                 </tr>
               </tbody>
             </Table>
@@ -960,13 +960,13 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">千島</span> (<span lang="ja-Latn">chishima</span>, ‘thousand islands’, the Japanese name for the <a href="https://en.wikipedia.org/wiki/Kuril_Islands">Kuril Islands</a>)</li>
         </ul>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Sēēdō</Noun> (<span lang="ja">精英堂</span>)</>}>
-        <p><Noun lang="ja-Latn">Sēēdō</Noun> was a post-war manufacturer based in <Noun lang="ja-Latn">Kyōto</Noun>. They do not appear to have had a manufacturer’s mark, instead writing their full name on the Paulownia card. Their brands included:</p>
+      <Section title={<><Noun lang="ja-Latn">Seieidō</Noun> (<span lang="ja">精英堂</span>)</>}>
+        <p><Noun lang="ja-Latn">Seieidō</Noun> was a post-war manufacturer based in <Noun lang="ja-Latn">Kyōto</Noun>. They do not appear to have had a manufacturer’s mark, instead writing their full name on the Paulownia card. Their brands included:</p>
         <ul>
           <li><span lang="ja">戎印</span> (<span lang="ja-Latn">ebisu&shy;jirushi</span>, ‘<a href="https://en.wikipedia.org/wiki/Ebisu_(mythology)"><Noun lang="ja-Latn">Ebisu</Noun></a> brand’)</li>
         </ul>
         <ArticleImage 
-          src={imgSeedoEbisu}
+          src={imgSeieidoEbisu}
           alt="A hanafuda deck wrapper with an image of a smiling man carrying a fishing pole and two fish."
           source={{
             license: "with-permission",
@@ -976,7 +976,7 @@ const Manufacturers: React.FC = () => {
               given: "Ryan"
             }
           }}>
-          <Noun lang="ja-Latn">Sēēdō</Noun>’s <Noun lang="ja-Latn">Ebisu</Noun> brand.
+          <Noun lang="ja-Latn">Seieidō</Noun>’s <Noun lang="ja-Latn">Ebisu</Noun> brand.
         </ArticleImage>
       </Section>
     </Section>
