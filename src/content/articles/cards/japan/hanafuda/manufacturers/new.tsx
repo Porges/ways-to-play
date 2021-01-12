@@ -83,7 +83,7 @@ const Manufacturers: React.FC = () => {
       </ArticleImage>
     </Section>
     <Section title={<><a href="https://www.instagram.com/jamaistore/"><span lang="ko">자매상점</span> (jamaistore)</a></>}>
-      <p>Produces ridiculously-cute cat &amp; dog themed <span lang="ko-Latn">hwatu</span> decks. Each of them comes with an additional six joker cards, appropriate to the theme. Both decks were crowfunded on the Korean site ‘tumblbug’.</p>
+      <p>Jamaistore produces ridiculously-cute cat &amp; dog themed <span lang="ko-Latn">hwatu</span> decks. Each of them comes with an additional six joker cards, appropriate to the theme. Both decks were crowdfunded on the Korean site ‘tumblbug’.</p>
       <ArticleImage
         src={imgNyangTu}
         alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.">
