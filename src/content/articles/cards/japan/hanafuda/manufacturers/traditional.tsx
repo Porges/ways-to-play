@@ -37,6 +37,11 @@ import imgWindmillBrights from './Windmill_Brights.jpg';
 import imgWindmillExtra from './Windmill_Extra.jpg';
 import imgUniversalTrumpHanaBrights from './Universal_TrumpHana_Brights.jpg';
 import imgUniversalTrumpHanaExtras from './Universal_TrumpHana_Extras.jpg';
+import imgUniversal25Brights from './Universal_25_brights.jpg';
+import imgUniversal25Extras from './Universal_25_extras.jpg';
+import imgUniversal25Jokers from './Universal_25_jokers.jpg';
+import imgUniversalAce from './Universal_Ace.jpg';
+import imgStarJoker from './Star_Joker.jpg';
 import imgShikishima from './Shikishima.jpg';
 import imgAceSaigo from './Ace_Saigo.jpg';
 import imgAceAdmiral from './Ace_Admiral.jpg';
@@ -68,6 +73,7 @@ import imgTSharuzake from './TS_haruzake.jpg';
 import imgNGBamboo from './NG_bamboo.jpg';
 import imgSeieidoEbisu from './Seedo_Ebisu.jpg';
 
+import imgMaruToku from './marutoku.svg';
 import imgYaguruma from './yaguruma.png';
 import imgMarufuku from './marufuku.svg';
 import imgYamami from './yamami.svg';
@@ -239,6 +245,10 @@ const Manufacturers: React.FC = () => {
                 <tr>
                   <td><img src={imgMarudai} className="inline-img big" alt="The Marudai symbol" /></td>
                   <td><a href="#otani-shoten"><Noun lang="ja-Latn">Ōtani Shōten</Noun></a></td>
+                </tr>
+                <tr>
+                  <td><img src={imgMaruToku} className="inline-img big" alt="The Marutoku symbol" /></td>
+                  <td><a href="#tohoku-karuta"><Noun lang="ja-Latn">Tōhoku Karuta</Noun></a></td>
                 </tr>
                 <tr>
                   <td>(none)</td>
@@ -836,14 +846,14 @@ const Manufacturers: React.FC = () => {
           </ArticleImage>
         </div>
       </Section>
-      <Section title={<><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu</a> (<span lang="ja">日本遊戯玩具</span>)</>}>
+      <Section title={<><a href="http://www.nichiyu.net/en" className="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu/Nichiyū</a> (<span lang="ja">日本遊戯玩具</span>/<span lang="ja">ニチユー</span>)</>}>
         <ArticleImage
           position="right"
           alt=""
           src={imgNYGTengu}>
           <Noun lang="ja-Latn">Nippon Yūgi</Noun>’s <span lang="ja-Latn">kintengu</span> brand.
         </ArticleImage>
-        <p><Noun lang="ja-Latn">Nippon Yūgi</Noun> was founded in <Noun lang="ja-Latn">Tōkyō</Noun> in 1946. They still exist but no longer appear to produce <Noun lang="ja-Latn">Hanafuda</Noun> cards, instead specializing in tarot. Their previous brands included:<Cite r={ModernJapaneseWrappers} page={54} /></p>
+        <p><Noun lang="ja-Latn">Nippon Yūgi</Noun> (also known as <Noun lang="ja-Latn">Nichiyū</Noun>) was founded in <Noun lang="ja-Latn">Tōkyō</Noun> in 1946. They still exist but no longer appear to produce <Noun lang="ja-Latn">Hanafuda</Noun> cards, instead specializing in tarot. Their previous brands included:<Cite r={ModernJapaneseWrappers} page={54} /></p>
         <ul>
           <li><span lang="ja">白鶴</span> (<span lang="ja-Latn">hakuzuru</span>, ‘white crane’)</li>
           <li><span lang="ja">(日遊)金天狗</span> (<span lang="ja-Latn">(nichiyū) kintengu</span>, ‘<Noun lang="ja-Latn">Nippon Yūgi</Noun> golden <Noun lang="ja-Latn">Tengu</Noun>’)</li>
@@ -862,12 +872,27 @@ const Manufacturers: React.FC = () => {
         </ArticleImage>
       </Section>
       <Section title={<>Universal (<span lang="ja">ユニバーサル</span>)</>}>
-        <p>The Universal Playing Card Company was based in <Noun lang="ja-Latn">Ōsaka</Noun>. Their maker’s mark was a drawstring purse (<span lang="ja">巾着</span> <span lang="ja-Latn">kinchaku</span>). Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
+        <ArticleImage
+          src={imgUniversalAce}
+          alt=""
+          position="aside"
+          source={{
+            author: {
+              family: "Bostock",
+              given: "Paul"
+            },
+            license: "with-permission",
+            originalUrl: "http://plainbacks.com/imagegroups/T-STD-Eng1970.html#T206:~:text=Universal%20Japan"
+          }}>
+          Universal also published standard Western decks; this Ace shows the logo of a star containing the letters U &amp; C intertwined.
+        </ArticleImage>
+        <p>The Universal Playing Card Company was based in <Noun lang="ja-Latn">Ōsaka</Noun>. Their maker’s mark on <Noun lang="ja-Latn">Hanafuda</Noun> decks was a drawstring purse (<span lang="ja">巾着</span> <span lang="ja-Latn">kinchaku</span>); elsewhere they used a six-pointed star containing “<small>UNIVERSAL</small>” or an interlocked U &amp; C. Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
         <ul>
           <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomuhana</span>, ‘rubber flower’)</li>
           <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’)</li>
         </ul>
-        <p>They also, like other manufacturers, produced a <Noun lang="ja-Latn">Trump-Hana</Noun> (<span lang="ja">トランプ花</span>) deck. The size of the cards in this deck is much closer to that of <Noun lang="ja-Latn">Hanafuda</Noun> than Trump cards.</p>
+        <p>They also, like other manufacturers, produced combination <Noun lang="ja-Latn">Trump-Hana</Noun> (<span lang="ja">トランプ花</span>) decks, and in multiple sizes.</p>
+        <p>The smallest size deck (numbered “<strong>350</strong>”) has cards that are much closer in size to that of <Noun lang="ja-Latn">Hanafuda</Noun> than other brands’ combination cards are. A very similar deck was published under the brand “Star Playing Cards” (numbered “<strong>807</strong>”, with a five-pointed star).</p>
         <ArticleImage
           src={imgUniversalTrumpHanaBrights}
           alt="">
@@ -877,6 +902,29 @@ const Manufacturers: React.FC = () => {
           src={imgUniversalTrumpHanaExtras}
           alt="">
           The extra <GameRef id="hachi-hachi"/>-related cards of Universal’s <Noun lang="ja-Latn">Trump-Hana</Noun> deck. I’m not sure of the significance of the “vase” Joker, since usually the Joker has the manufacturer’s name. It could be intended as a multilingual pun on “Universal” (<span lang="ja">ユニバーセル</span> <span lang="ja-Latn">yunibāseru</span>) → “Universe” (<span lang="ja">ユニバース</span> <span lang="ja-Latn">yunibāsu</span>), which sounds like “uni-vase” (one vase).
+        </ArticleImage>
+        <ArticleImage
+          src={imgStarJoker}
+          size="small"
+          alt="Two small playing cards, the first a joker with a person in a robber-mask inside a star shape, and the second a paulownia card with yellow background and the words “U.P.C. Co.”">
+          The joker and manufacturer’s Paulownia card from the “Star Playing Cards” brand. The Universal #350 deck’s manufacturer’s card is identical to this one.
+        </ArticleImage>
+        <p>A larger sized <Noun lang="ja-Latn">Hana-Trump</Noun> deck (numbered “<strong>25</strong>”) of theirs has different Kings which feature additional <Noun lang="ja-Latn">Hanafuda</Noun>-style cards that could be used as an additional suit in games with more players.</p>
+        <ArticleImage
+          src={imgUniversal25Brights}
+          alt="">
+          The Bright cards of Universal’s <Noun lang="ja-Latn">Hana-Trump</Noun> deck. This particular deck is listed as number “25” on the packaging.
+        </ArticleImage>
+        <ArticleImage
+          src={imgUniversal25Extras}
+          alt="">
+          The Bamboo–King extra suit of Universal’s <Noun lang="ja-Latn">Hana-Trump</Noun> deck. The extra cards, from left-to-right, are: an additional Bright card featuring Princess <Noun lang="ja-Latn">Yaegaki</Noun> (<span lang="ja">八重垣姫</span>), a character from the traditional <span lang="ja-Latn">bunraku</span> (and later <span lang="ja-Latn">kabuki</span>) play <cite>24 Paragons of Filial Piety</cite> (<span lang="ja">本朝廿四孝</span>, <span lang="ja-Latn">Honchō Nijūshikō</span>), who follows her lover across frozen <a href="https://en.wikipedia.org/wiki/Lake_Suwa">Lake <Noun lang="ja-Latn">Suwa</Noun></a> after praying to a helmet (shown in her hands) possessed by a fox spirit; the <span lang="ja-Latn">tanzaku</span> card, which is inscribed <span lang="ja">さゝ𛂜ゆき</span> (<span lang="ja-Latn">sasa no yuki</span>, ‘snow on bamboo’); the <span lang="ja-Latn">tane</span> card, showing two sparrows; and the <span lang="ja-Latn">kasu</span> card, which has a yellow background similar to one of the Paulownia cards.
+        </ArticleImage>
+        <ArticleImage
+          src={imgUniversal25Jokers}
+          size="small"
+          alt="">
+          The reverse of the deck features a grape vine pattern. There are also two jokers included, one featuring a <a href="https://en.wikipedia.org/wiki/Kadomatsu"><span lang="ja-Latn">kadomatsu</span></a> (<span lang="ja">門松</span>), and the other with significantly less effort invested in its design. Note the small six-pointed stars in the corners, containing the letters U &amp; C intertwined.
         </ArticleImage>
       </Section>
       <Section title={<><img src={imgKaneman} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kawai</Noun></>}>
@@ -960,8 +1008,16 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">千島</span> (<span lang="ja-Latn">chishima</span>, ‘thousand islands’, the Japanese name for the <a href="https://en.wikipedia.org/wiki/Kuril_Islands">Kuril Islands</a>)</li>
         </ul>
       </Section>
+      <Section title={<><img src={imgMaruToku} alt="" className="inline-img" /> <Noun lang="ja-Latn">Tōhoku Karuta</Noun> (<span lang="ja">東北骨牌</span>)</>}>
+        <p><Noun lang="ja-Latn">Tōhoku</Noun> was a manufacturer based in <a href="https://en.wikipedia.org/wiki/Tend%C5%8D,_Yamagata"><Noun lang="ja-Latn">Tendō</Noun> city</a> (<span lang="ja">天童市</span>), <Noun lang="ja-Latn">Yamagata</Noun> prefecture (<span lang="ja">山形県</span>). They originally appear to have been a manufacturer (including for <Noun lang="ja-Latn">Seieidō</Noun>), but later outsourced production to <Noun lang="ja-Latn">Tamura Shōgundō</Noun>. The company seems to still exist in some form as <a className="proper-noun" lang="ja-Latn" href="http://www.syougi.co.jp/">Tendon Shogi</a>.  Their manufacturer’s mark was a circled <span className="circled" lang="ja">特</span>, and their own brands included:</p>
+        <ul>
+          <li><span lang="ja">初梅</span> (<span lang="ja-Latn">hatsu&shy;ume</span>, ‘new plum’)</li>
+          <li><span lang="ja">出羽桜</span> (<span lang="ja-Latn">dewa&shy;zakura</span>, ‘<a href="https://en.wikipedia.org/wiki/Dewa_Province"><Noun lang="ja-Latn">Dewa</Noun></a> cherry’)</li>
+          <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shira&shy;giku</span>, ‘white chrysanthemum’)</li>
+        </ul>
+      </Section>
       <Section title={<><Noun lang="ja-Latn">Seieidō</Noun> (<span lang="ja">精英堂</span>)</>}>
-        <p><Noun lang="ja-Latn">Seieidō</Noun> was a post-war manufacturer based in <Noun lang="ja-Latn">Kyōto</Noun>. They do not appear to have had a manufacturer’s mark, instead writing their full name on the Paulownia card. Their brands included:</p>
+        <p><Noun lang="ja-Latn">Seieidō</Noun> was a post-war manufacturer. They do not appear to have had a manufacturer’s mark, instead writing their full name on the Paulownia card. Their brands included:</p>
         <ul>
           <li><span lang="ja">戎印</span> (<span lang="ja-Latn">ebisu&shy;jirushi</span>, ‘<a href="https://en.wikipedia.org/wiki/Ebisu_(mythology)"><Noun lang="ja-Latn">Ebisu</Noun></a> brand’)</li>
         </ul>
