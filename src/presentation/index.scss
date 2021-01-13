@@ -164,7 +164,7 @@ img {
 }
 
 /* set a max height for images */
-figure > img {
+.figure-img {
     max-height: 400px;
     max-width: 100%;
     width: auto;
@@ -177,12 +177,12 @@ figure > img {
 }
 
 /* don't border diagrams by default */
-figure > img[src$=".svg"] {
+.figure-img[src$=".svg"] {
     border: none;
 }
 
 /* add a smaller version too */
-figure.small > img, figure.small > .multi img {
+figure.small .figure-img {
     max-height: 200px;
 }
 
@@ -216,13 +216,13 @@ figure {
         clear: both;
     }
 
-    figure.wide > img  {
+    figure.wide .figure-img {
         max-height: none;
 
         border-width: 2px;
     }
 
-    figure.wide.footnote > img {
+    figure.wide.footnote .figure-img {
       border: 1px solid black;
     }
 }
@@ -426,7 +426,8 @@ div.multi > * {
     margin: 5px 10px;
 }
 
-div.multi > img {
+/* note that this applies to multi-image figures, not figures inside a multi */
+figure > div.multi .figure-img {
     /* In flexbox images have an implied min-width of their 
      * implicit size so we need to override that. Then setting
      * width and height to 100% fixes the aspect ratio. /shrug
@@ -435,6 +436,8 @@ div.multi > img {
     min-width: 0;
     width: 100%;
     // height: 100%;
+
+    border: none;
 }
 
 /*** For Japanese/Chinese, where needed ***/
@@ -513,4 +516,50 @@ a[href*="wikipedia.org" i] {
     &.big {
         height: 2em;
     }
+}
+
+/** Lightbox **/
+
+// ideas from: https://codepen.io/gschier/pen/HCoqh
+
+.lightbox {
+  /* Default to hidden */
+  display: none;
+
+  /* Overlay entire screen */
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+  /* A bit of padding around image */
+  padding: 1em;
+
+  /* Translucent background */
+  background: rgba(0, 0, 0, 0.8);
+
+  cursor: zoom-out;
+}
+
+a .figure-img {
+    cursor: zoom-in;
+}
+
+/* Unhide the lightbox when it's the target */
+.lightbox:target {
+  display: block;
+}
+
+.lightbox span {
+  /* Full width and height */
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Size and position background image */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }

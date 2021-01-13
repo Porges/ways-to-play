@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Figure from 'react-bootstrap/Figure'
 import uuid from 'uuid';
+import slug from 'slug';
 
 import { Person, Name } from './Person';
 import * as L from './License';
@@ -54,22 +55,44 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
 
   const className = noborder ? "border-0" : undefined;
   if (typeof src === 'string') {
-    return <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} fluid={false} />;
+    const id = slug(src);
+    // eslint-disable-next-line
+    return (<><a href="#" className="lightbox" id={id}>
+        <span style={{backgroundImage: `url('${src}')`}}></span>
+      </a>
+      <a href={'#'+id}>
+        <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} fluid={false} />
+      </a></>);
   }
 
   const maxImage = src.images[src.images.length - 1];
-  return <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} width={maxImage.width} height={maxImage.height} fluid={false} />;
+  const id = slug(maxImage.path);
+  // eslint-disable-next-line
+  return (<><a href="#" className="lightbox" id={id}>
+        <span style={{backgroundImage: `url('${maxImage.path}')`}}></span>
+      </a>
+      <a href={'#'+id}>
+        <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} width={maxImage.width} height={maxImage.height} fluid={false} />
+      </a></>);
 }
 
 const imageObject = "http://schema.org/ImageObject";
 
 const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: string, alt: string, sizes: string) => {
+  const bigImage = typeof src == 'string' ? src : src.images[src.images.length-1].path;
+  const id = slug(bigImage);
   return (
-    <div itemScope itemType={imageObject} itemProp="image" key={ix} itemRef={sourceId}>{
-      typeof src === 'string'
-        ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} />
-        : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />
-    }</div>
+    <div itemScope itemType={imageObject} itemProp="image" key={ix} itemRef={sourceId}>
+      {/* eslint-disable-next-line */}
+      <a href="#" className="lightbox" id={id}>
+        <span style={{backgroundImage: `url('${bigImage}')`}}></span>
+      </a>
+      <a href={'#'+id}>
+        {typeof src === 'string'
+          ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} />
+          : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />}
+      </a>
+    </div>
   );
 }
 
