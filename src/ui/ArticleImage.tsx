@@ -57,7 +57,7 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
   if (typeof src === 'string') {
     const id = slug(src);
     // eslint-disable-next-line
-    return (<><a href="#" className="lightbox" id={id}>
+    return (<><a href="#!" className="lightbox" id={id}>
         <span style={{backgroundImage: `url('${src}')`}}></span>
       </a>
       <a href={'#'+id}>
@@ -68,7 +68,7 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
   const maxImage = src.images[src.images.length - 1];
   const id = slug(maxImage.path);
   // eslint-disable-next-line
-  return (<><a href="#" className="lightbox" id={id}>
+  return (<><a href="#!" className="lightbox" id={id}>
         <span style={{backgroundImage: `url('${maxImage.path}')`}}></span>
       </a>
       <a href={'#'+id}>
@@ -84,7 +84,7 @@ const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: strin
   return (
     <div itemScope itemType={imageObject} itemProp="image" key={ix} itemRef={sourceId}>
       {/* eslint-disable-next-line */}
-      <a href="#" className="lightbox" id={id}>
+      <a href="#!" className="lightbox" id={id}>
         <span style={{backgroundImage: `url('${bigImage}')`}}></span>
       </a>
       <a href={'#'+id}>
