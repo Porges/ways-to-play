@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import { Cite, ArticleImage, Noun, Footnote, Section } from 'ui';
 import { GameRef } from 'content/games/Game';
 
-import { SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, EbashiCigaretteCards } from 'References/bibliography.json';
+import { NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, EbashiCigaretteCards } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -208,7 +208,7 @@ const Manufacturers: React.FC = () => {
                 </tr>
                 <tr>
                   <td>?</td>
-                  <td><a href="#nippon-yugi-gangu"><Noun lang="ja-Latn">Nippon Yūgi Gangu</Noun></a></td>
+                  <td><a href="#nippon-yugi-gangunichiyu"><Noun lang="ja-Latn">Nippon Yūgi Gangu</Noun></a></td>
                 </tr>
                 <tr>
                   <td>?</td>
@@ -232,7 +232,7 @@ const Manufacturers: React.FC = () => {
                 </tr>
                 <tr>
                   <td><img src={imgMaruei} className="inline-img big" alt="The Maruei symbol" /></td>
-                  <td><a href="#kyowado"><Noun lang="ja-Latn">Kyōwadō</Noun></a></td>
+                  <td><a href="#kyowado"><Noun lang="ja-Latn">Kyōwadō</Noun></a> or <a href="#nishiguchi-shoten"><Noun lang="ja-Latn">Nishi­&shy;guchi Shōten</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgKanekata} className="inline-img big" alt="The Kanekata symbol" /></td>
@@ -466,7 +466,7 @@ const Manufacturers: React.FC = () => {
           alt="The front of a Hanafuda wrapper reading ‘genroku’ in Japanese characters and with cherry blossoms.">
           Angel’s <span lang="ja-Latn">Genroku</span> packaging (1970s).
           </ArticleImage>
-        <p>Angel was originally named <Noun lang="ja-Latn">Okina Karuta Honpo</Noun> (<span lang="ja">翁かるた本舗</span>), and was based in <Noun lang="ja-Latn">Yōkaichi</Noun> (now <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture. It is now based in <Noun lang="ja-Latn">Kyōto</Noun>. They still use <span lang="ja">翁</span> (<span lang="ja-Latn">okina</span>) as their maker’s mark, or otherwise the name Angel is written <span lang="ja">エンゼル</span>. On some cards this is spelled <span lang="ja">縁是留</span>.</p>
+        <p>Angel was originally named <Noun lang="ja-Latn">Okina Karuta Honpo</Noun> (<span lang="ja">翁かるた本舗</span>), and was first based in the city of <a href="https://en.wikipedia.org/wiki/Y%C5%8Dkaichi,_Shiga"><Noun lang="ja-Latn">Yōkaichi</Noun></a> (now <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture (<span lang="ja">滋賀県八日市市</span>). It is now based in <Noun lang="ja-Latn">Kyōto</Noun>. They still use the character <span lang="ja">翁</span> (<span lang="ja-Latn">okina</span>) as their maker’s mark, or otherwise the name Angel is written <span lang="ja">エンゼル</span>. On some cards this is spelled <span lang="ja">縁是留</span>.</p>
         <p>Angel currently produces <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> in two brands:</p>
         <ul>
           <li><span lang="ja">千鳥</span> (<span lang="ja-Latn">chidori</span> ‘numerous birds’)</li>
@@ -516,7 +516,7 @@ const Manufacturers: React.FC = () => {
             <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">yozakura</span> wrapper.
           </ArticleImage>
           <ArticleImage src={imgTSharuzake} alt="A hanafuda wrapper with a palace on a lake.">
-            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">haruzake</span> wrapper.
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">harukaze</span> wrapper.
           </ArticleImage>
         </div>
         <ArticleImage
@@ -611,7 +611,7 @@ const Manufacturers: React.FC = () => {
           alt="A Hanafuda wrapper with an image of cherry blossoms on the front.">
           Packaging for <Noun lang="ja-Latn">Maruē</Noun>’s <Noun lang="ja-Latn">Goten Sakura</Noun> brand (1970s).
           </ArticleImage>
-        <p><Noun lang="ja-Latn">Maruē</Noun> was from the city of <Noun lang="ja-Latn">Mino</Noun>, in <Noun lang="ja-Latn">Gifu</Noun> prefecture. Their manufacturer’s mark was a circled <span lang="ja">英</span> (<span lang="ja-Latn">ē</span>), i.e. <span lang="ja-Latn">maru-ē</span>. However, <span lang="ja">英</span> has the meaning of ‘flower’ and can also be read with the same pronunciation as <span lang="ja">花</span> <span lang="ja-Latn">hana</span>, making this mark very punny.</p>
+        <p><Noun lang="ja-Latn">Maruē</Noun> was from the city of <a href="https://en.wikipedia.org/wiki/Mino,_Gifu"><Noun lang="ja-Latn">Mino</Noun></a>, in <Noun lang="ja-Latn">Gifu</Noun> prefecture (<span lang="ja">岐阜県美濃市</span>). Their manufacturer’s mark was a circled <span lang="ja">英</span> (<span lang="ja-Latn">ē</span>), i.e. <span lang="ja-Latn">maru-ē</span>. However, <span lang="ja">英</span> has the meaning of ‘flower’ and can also be read with the same pronunciation as <span lang="ja">花</span> <span lang="ja-Latn">hana</span>, making this mark very punny.</p>
         <p>Brands produced by <Noun lang="ja-Latn">Maruē</Noun> included:<Cite r={ModernJapaneseWrappers} page={52} /></p>
         <ul>
           <li><span lang="ja">東洋一</span> (<span lang="ja-Latn">tōyōichi</span>, ‘best in the East’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
@@ -827,7 +827,7 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><img src={img3gourds} alt="" className="inline-img" /> <Noun lang="ja-Latn">Dai Nippon</Noun> (<span lang="ja">大日本</span>)</>}>
-        <p>A manufacturer from <Noun lang="ja-Latn">Yōkaichi</Noun> (now part of <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture. Their logo is a group of three gourds, which are considered to be lucky.</p>
+        <p>A manufacturer from the city of <a href="https://en.wikipedia.org/wiki/Y%C5%8Dkaichi,_Shiga"><Noun lang="ja-Latn">Yōkaichi</Noun></a> (now part of <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture (<span lang="ja">滋賀県八日市市</span>). Their logo is a group of three gourds, which is considered to be a lucky symbol.</p>
         <p>Brands included:<Cite r={ModernJapaneseWrappers} page={46} /></p>
         <ul>
           <li><span lang="ja">銀達磨</span> (<span lang="ja-Latn">gindaruma</span> ‘silver <a href="https://en.wikipedia.org/wiki/Bodhidharma">Daruma</a>’)</li>
@@ -972,7 +972,7 @@ const Manufacturers: React.FC = () => {
           }}>
           <Noun lang="ja-Latn">Nihon Goraku</Noun>’s <span lang="ja-Latn">takejirushi</span> wrapper.
         </ArticleImage>
-        <p><Noun lang="ja-Latn">Nihon Goraku</Noun> was founded in 1945 in <Noun lang="ja-Latn">Shinhama</Noun> (<span lang="ja">新浜</span>), <Noun lang="ja-Latn">Onomichi</Noun> city (<span lang="ja">尾道市</span>), <Noun lang="ja-Latn">Hiroshima</Noun> prefecture (<span lang="ja">広島県</span>), and originally had cards manufactured by <Noun lang="">Kyōto Karuta</Noun>. Nowadays the company imports musical instruments.</p>
+        <p><Noun lang="ja-Latn">Nihon Goraku</Noun> was founded in 1945 as <Noun lang="ja-Latn">Takahashi Shōten</Noun> (<span lang="ja">高橋商店</span>), was renamed <Noun lang="ja-Latn">Nishinihon Koppai</Noun> (<span lang="ja">西日本骨牌</span>) in 1966, and became <Noun lang="ja-Latn">Nihon Goraku</Noun> in 1968.<Cite r={NihonGoraku} /> They were based in <Noun lang="ja-Latn">Shinhama</Noun>, <a href="https://en.wikipedia.org/wiki/Onomichi,_Hiroshima"><Noun lang="ja-Latn">Onomichi</Noun> city</a>, <Noun lang="ja-Latn">Hiroshima</Noun> (<span lang="ja">広島県尾道市新浜</span>), and originally had their cards manufactured by <Noun lang="">Kyōto Karuta</Noun>. Nowadays the company imports musical instruments.</p>
         <p>Their mark was circled <span lang="ja">娯</span>, and brands included:</p>
         <ul>
           <li><span lang="ja">山伏</span> (<span lang="ja-Latn">yamabushi</span>, a mountain-dwelling hermit, practitioner of <a href="https://en.wikipedia.org/wiki/Shugend%C5%8D"><Noun lang="ja-Latn">Shugendō</Noun></a>)</li>
@@ -981,11 +981,17 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">竹印</span> (<span lang="ja-Latn">takejirushi</span>, ‘bamboo brand’)</li>
         </ul>
       </Section>
-      <Section title={<><img src={imgMaruei} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kyōwadō</Noun> (<span lang="ja">京和堂</span>)</>}>
-        <p>A company about which I know little, other than that they were a company that also produced board games. Presumably from the name they were based in <Noun lang="ja-Latn">Kyōto</Noun>. Their mark was a circled <span lang="ja">榮</span>. Brands included:</p>
+      <Section title={<><img src={imgMaruei} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nishi&shy;guchi Shōten</Noun> (<span lang="ja">西口商店</span>)</>}>
+        <p><Noun lang="ja-Latn">Nishi&shy;gushi</Noun> also manufactured board games (such as <GameRef id="gunjin-shoji" />) Some of their decks were manufactured by <Noun lang="ja-Latn">Nihon Karuta</Noun>. Their mark was a circled <span className="circled" lang="ja">榮</span>, the same as <Noun lang="ja-Latn">Kyōwadō</Noun>. Brands included:</p>
         <ul>
           <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)</li>
-          <li><span lang="ja">京寶船</span> (<span lang="ja-Latn">kyōtakarabune</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> treasure ship’)</li>
+        </ul>
+      </Section>
+      <Section title={<><img src={imgMaruei} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kyōwadō</Noun> (<span lang="ja">京和堂</span>)</>}>
+        <p>A company about which I know very little. Presumably from the name they were based in <Noun lang="ja-Latn">Kyōto</Noun>. Their mark was a circled <span className="circled" lang="ja">榮</span>, the same as <Noun lang="ja-Latn">Nishi&shy;guchi Shōten</Noun>. Their brands included:</p>
+        <ul>
+          <li><span lang="ja">京寶船</span> (<span lang="ja-Latn">kyō&shy;takarabune</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> treasure ship’)</li>
+          <li><span lang="ja">京紅梅</span> (<span lang="ja-Latn">kyō&shy;kōbai</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> red plum’)<Footnote>This is a <em>likely</em> categorization based upon the design of the box, but the maker’s mark appears to be different.</Footnote></li>
         </ul>
       </Section>
       <Section title={<><img src={imgKanekata} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>)</>}>
@@ -997,19 +1003,19 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><img src={imgMarukin} alt="" className="inline-img" /> <Noun lang="ja-Latn">Marukin</Noun></>}>
-        <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in <Noun lang="ja-Latn">Sakata</Noun> (<span lang="ja">酒田市</span>), <Noun lang="ja-Latn">Yamaguchi</Noun> prefecture (<span lang="ja">山口県</span>). Their mark was a circled <span lang="ja" className="circled">金</span>. Brands included:</p>
+        <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in the city of <Noun lang="ja-Latn">Sakata</Noun>, <Noun lang="ja-Latn">Yamagata</Noun> prefecture (<span lang="ja">山形県酒田市</span>). Their mark was a circled <span lang="ja" className="circled">金</span>. Brands included:</p>
         <ul>
           <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’)</li>
         </ul>
       </Section>
       <Section title={<><img src={imgMarudai} alt="" className="inline-img" /> <Noun lang="ja-Latn">Ōtani Shōten</Noun> (<span lang="ja">大谷商店</span>)</>}>
-        <p><Noun lang="ja-Latn">Ōtani Shōten</Noun> was a company based in <Noun lang="ja-Latn">Sakurai</Noun> town (<span lang="ja">桜井町</span>), in <Noun lang="ja-Latn">Shiki</Noun> district (<span lang="ja">磯城郡</span>), <Noun lang="ja-Latn">Nara</Noun> prefecture (<span lang="ja">奈良県</span>). Their mark was a circled <span lang="ja" className="circled">大</span>. Brands included:</p>
+        <p><Noun lang="ja-Latn">Ōtani Shōten</Noun> was a company based in the town of <Noun lang="ja-Latn">Sakurai</Noun>, in <Noun lang="ja-Latn">Shiki</Noun> district, <Noun lang="ja-Latn">Nara</Noun> prefecture (<span lang="ja">奈良県磯城郡桜井町</span>, now part of <a href="https://en.wikipedia.org/wiki/Sakurai,_Nara"><Noun lang="ja-Latn">Sakurai</Noun></a>). Their mark was a circled <span lang="ja" className="circled">大</span>. Brands included:</p>
         <ul>
           <li><span lang="ja">千島</span> (<span lang="ja-Latn">chishima</span>, ‘thousand islands’, the Japanese name for the <a href="https://en.wikipedia.org/wiki/Kuril_Islands">Kuril Islands</a>)</li>
         </ul>
       </Section>
       <Section title={<><img src={imgMaruToku} alt="" className="inline-img" /> <Noun lang="ja-Latn">Tōhoku Karuta</Noun> (<span lang="ja">東北骨牌</span>)</>}>
-        <p><Noun lang="ja-Latn">Tōhoku</Noun> was a manufacturer based in <a href="https://en.wikipedia.org/wiki/Tend%C5%8D,_Yamagata"><Noun lang="ja-Latn">Tendō</Noun> city</a> (<span lang="ja">天童市</span>), <Noun lang="ja-Latn">Yamagata</Noun> prefecture (<span lang="ja">山形県</span>). They originally appear to have been a manufacturer (including for <Noun lang="ja-Latn">Seieidō</Noun>), but later outsourced production to <Noun lang="ja-Latn">Tamura Shōgundō</Noun>. The company seems to still exist in some form as <a className="proper-noun" lang="ja-Latn" href="http://www.syougi.co.jp/">Tendon Shogi</a>.  Their manufacturer’s mark was a circled <span className="circled" lang="ja">特</span>, and their own brands included:</p>
+        <p><Noun lang="ja-Latn">Tōhoku</Noun> was a manufacturer based in the city of <a href="https://en.wikipedia.org/wiki/Tend%C5%8D,_Yamagata"><Noun lang="ja-Latn">Tendō</Noun></a>, <Noun lang="ja-Latn">Yamagata</Noun> prefecture (<span lang="ja">山形県天童市</span>). They originally appear to have been a manufacturer (including for <Noun lang="ja-Latn">Seieidō</Noun>), but later outsourced production to <Noun lang="ja-Latn">Tamura Shōgundō</Noun>. The company seems to still exist in some form as <a className="proper-noun" lang="ja-Latn" href="http://www.syougi.co.jp/">Tendon Shogi</a>.  Their manufacturer’s mark was a circled <span className="circled" lang="ja">特</span>, and their own brands included:</p>
         <ul>
           <li><span lang="ja">初梅</span> (<span lang="ja-Latn">hatsu&shy;ume</span>, ‘new plum’)</li>
           <li><span lang="ja">出羽桜</span> (<span lang="ja-Latn">dewa&shy;zakura</span>, ‘<a href="https://en.wikipedia.org/wiki/Dewa_Province"><Noun lang="ja-Latn">Dewa</Noun></a> cherry’)</li>

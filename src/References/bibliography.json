@@ -4050,5 +4050,44 @@
         "publisher-place": "Tokyo, Japan",
         "publisher-lang": "ja",
         "URL": "https://survey.gov-online.go.jp/s31/S31-07-31-07.html"
+    },
+    "NihonGoraku": {
+        "id": "NihonGoraku",
+        "type": "webpage",
+        "issued": {"year": 2018},
+        "title": "会社案内｜日本娯楽",
+        "title-lang": "ja",
+        "author": [ { "given": "日本娯楽", "lang": "ja" } ],
+        "URL": "http://nihongoraku.co.jp/company/"
+    }, 
+    "TheEastandtheIdeaofEurope": {
+        "id": "TheEastandtheIdeaofEurope",
+        "type": "chapter",
+        "issued": {"year": 2010},
+        "title": "Invention of the West in Japan",
+        "container-title": "The East and the Idea of Europe",
+        "ISBN": "9781443825313",
+        "author": [
+            {"given": "Rio", "family": "Takeuchi"}
+        ],
+        "editor": [
+            {"given": "Katalin", "family": "Miklóssy"},
+            {"given": "Pekka", "family": "Korhonen"}
+        ],
+        "page": "23–42",
+        "publisher-place": "Newcastle upon Tyne, UK",
+        "publisher": "Cambridge Scholars Publishing"
+    }, 
+    "FantasyOfFarJapan": {
+        "id": "FantasyOfFarJapan",
+        "title": "A Fantasy of Far Japan: Or, Summer Dream Dialogues",
+        "type": "book",
+        "author": [
+            { "family": "Suematsu", "given": "Kenchō" }
+        ],
+        "issued": {"year": 1905},
+        "publisher-place": "London, UK",
+        "publisher": "Archibald Constable & Co.",
+        "URL": "https://archive.org/details/afantasyfarjapa01suemgoog"
     }
 }
