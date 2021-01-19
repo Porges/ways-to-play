@@ -4057,7 +4057,8 @@
         "issued": {"year": 2018},
         "title": "会社案内｜日本娯楽",
         "title-lang": "ja",
-        "author": [ { "given": "日本娯楽", "lang": "ja" } ],
+        "publisher":  "日本娯楽",
+        "publisher-lang": "ja",
         "URL": "http://nihongoraku.co.jp/company/"
     }, 
     "TheEastandtheIdeaofEurope": {
@@ -4076,7 +4077,8 @@
         ],
         "page": "23–42",
         "publisher-place": "Newcastle upon Tyne, UK",
-        "publisher": "Cambridge Scholars Publishing"
+        "publisher": "Cambridge Scholars Publishing",
+        "URL": "https://www.oulu.fi/Harukaze/Takeuchi_2010.html"
     }, 
     "FantasyOfFarJapan": {
         "id": "FantasyOfFarJapan",
@@ -4089,5 +4091,30 @@
         "publisher-place": "London, UK",
         "publisher": "Archibald Constable & Co.",
         "URL": "https://archive.org/details/afantasyfarjapa01suemgoog"
+    },
+    "JapanInTheTaishoEra": {
+        "id": "JapanInTheTaishoEra",
+        "type": "book",
+        "title": "Japan in the Taisho Era",
+        "issued": {"year": 1917},
+        "author": [
+            {"family": "Iwata", "given": "Nishizawa"}
+        ],
+        "URL": "https://archive.org/details/japanintaishoera00nishrich"
+    },
+    "TarHeel": {
+        "id": "TarHeel",
+        "type": "article-journal",
+        "title": "Tar Heel Tobacconist in Tokyo, 1899–1904",
+        "author": [
+            { "family": "Durdern", "given": ["Robert", "F."] }
+        ],
+        "publisher": "North Carolina Office of Archives and History",
+        "volume": "50",
+        "issue": "4",
+        "issued": {"year":1976},
+        "container-title": "The North Carolina Historical Review",
+        "URL": "https://www.jstor.org/stable/23529457",
+        "page": "347–363"
     }
 }

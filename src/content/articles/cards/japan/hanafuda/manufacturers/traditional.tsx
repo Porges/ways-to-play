@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import { Cite, ArticleImage, Noun, Footnote, Section } from 'ui';
 import { GameRef } from 'content/games/Game';
 
-import { NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, EbashiCigaretteCards } from 'References/bibliography.json';
+import { TarHeel, JapanInTheTaishoEra, NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, EbashiCigaretteCards } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -14,6 +14,7 @@ import imgMarue from './Marue.jpg';
 import imgAce from './AceGrandDuke.jpg';
 import imgOishiTengudo from './OishiTengudo.jpg';
 import imgNintendo from './Nintendo.jpg';
+import imgNintendoTengu from './Nintendo_Tengu.jpg';
 import imgNintendoEnd from './NintendoEnd.jpg';
 import imgHanaTrump5Brights from './HanaTrump_5Brights.jpg';
 import imgHanaTrumpExtra from './HanaTrump_Extra.jpg';
@@ -319,7 +320,7 @@ const Manufacturers: React.FC = () => {
       <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture. The <Noun lang="ja-Latn">Kansai</Noun> region (which contains both <Noun lang="ja-Latn">Kyōto</Noun> and <Noun lang="ja-Latn">Ōsaka</Noun>) is the original source of <Noun lang="ja-Latn">Hanafuda</Noun> cards.</p>
       <Section title={<><img src={imgMarufuku} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</>}>
         <p><Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company that produces <Noun lang="jp-Latn">Hanafuda</Noun> cards today. The company was founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun> (<span lang="ja">山内 房治郎</span>), and it was run by the <Noun lang="ja-Latn">Yamauchi</Noun> family for three generations until <Noun lang="ja-Latn">Yamauchi Hiroshi</Noun> (<span lang="ja">山内 溥</span>) stepped down in 2002.</p>
-        <p> In the early days of the company,  <Noun lang="ja-Latn">Fusajirō</Noun> joined forces with the “tobacco king” <Noun lang="ja-Latn">Murai Kichibee</Noun> (<span lang="ja">村井吉兵衛</span>) who had founded the <Noun lang="ja-Latn">Murai</Noun> Brothers tobacco company in 1892. Like <Noun lang="ja-Latn">Nintendō</Noun>, who were one of the first companies to produce Western-style cards in Japan, <Noun lang="ja-Latn">Murai</Noun> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing” (<span lang="ja">東洋印刷</span>).<Cite r={EbashiCigaretteCards} /></p>
+        <p> In the early days of the company,  <Noun lang="ja-Latn">Fusajirō</Noun> joined forces with the “tobacco king” <Noun lang="ja-Latn">Murai Kichibei</Noun> (<span lang="ja">村井吉兵衛</span>) who had founded the <Noun lang="ja-Latn">Murai</Noun> Brothers tobacco company in 1892. Like <Noun lang="ja-Latn">Nintendō</Noun>, who were one of the first companies to produce Western-style cards in Japan, <Noun lang="ja-Latn">Murai</Noun> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing”<Footnote>In some sources this is given in its translated form as the “Oriental Printing Company”.</Footnote> (<span lang="ja">東洋印刷</span>).<Cite r={EbashiCigaretteCards} /></p>
         <ArticleImage 
           position="left"
           alt="An image of a cigarette card with a combination Hanafuda (Wisteria) and Western (4 of clubs) on the front, and on the reverse reading “A different card in each package of cigarettes”."
@@ -329,7 +330,7 @@ const Manufacturers: React.FC = () => {
           }}>
           An example of a combination <Noun lang="ja-Latn">Hanafuda</Noun> card included with a packet of Murai Bros. cigarettes. Note that the clubs are printed in the “wrong” colour.
         </ArticleImage>
-        <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <Noun lang="ja-Latn">Hanafuda</Noun> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <Noun lang="ja-Latn">Hanafuda</Noun> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,<Footnote><Noun lang="ja-Latn">Kichibee</Noun> was compensated massively for being pushed out of the industry and so founded a bank instead.</Footnote> and the partnership between the two companies ended.</p>
+        <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <Noun lang="ja-Latn">Hanafuda</Noun> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <Noun lang="ja-Latn">Hanafuda</Noun> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,<Footnote><Noun lang="ja-Latn">Kichibei</Noun> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.<Cite r={JapanInTheTaishoEra} page={632} /></Footnote> and <Noun lang="ja-Latn">Tōyō</Noun> Printing was sold along with the rest of the company.<Cite r={TarHeel} page={362} /></p>
         <p>A too-brief summary of their later success: after WWII, <Noun lang="jp-Latn">Nintendō</Noun> managed to survive a period of crushing taxation on playing-card products, which wiped out many of the smaller manufacturers. In the second half of the 20th century they (famously!) diversified into children’s toys and, later on, video games.</p>
         <ArticleImage
           size="wide"
@@ -339,12 +340,20 @@ const Manufacturers: React.FC = () => {
           The <Noun lang="ja-Latn">Nintendō</Noun> storefront in <Noun lang="ja-Latn">Kyōto</Noun> in 1889.
           </ArticleImage>
         <p><Noun lang="ja-Latn">Nintendō</Noun>’s manufacturers mark is a circled <span lang="ja" className="circled">福</span> (<span lang="ja-Latn">fuku</span>, ‘fortune’). This was originally the trade-name (<span lang="ja">屋号</span> <a href="https://en.wikipedia.org/wiki/Yag%C5%8D"><span lang="ja-Latn">yagō</span></a>) of the <Noun lang="ja-Latn">Yamauchi</Noun> family.</p>
-        <ArticleImage
-          position="right"
-          src={imgNintendo}
-          alt="A Hanafuda wrapper featuring an image of Napoleon on the front.">
-          <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s). Note the <Noun lang="ja-Latn">Marufuku</Noun> mark at top right.
+        <div className="multi">
+          <ArticleImage
+            position="right"
+            src={imgNintendo}
+            alt="A Hanafuda wrapper featuring an image of Napoleon on the front.">
+            <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s). Note the <Noun lang="ja-Latn">Marufuku</Noun> mark at top right.
           </ArticleImage>
+          <ArticleImage
+            position="right"
+            src={imgNintendoTengu}
+            alt="A Hanafuda wrapper featuring a red figure with a big nose, holding a fan made of feathers.">
+            <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Tengu</span> packaging.
+          </ArticleImage>
+        </div>
         <p>In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mekuri</Noun> cards, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span>; and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
         <p><Noun lang="ja-Latn">Nintendō</Noun> <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:<Cite r={ModernJapaneseWrappers} page={54} /></p>
         <ul>

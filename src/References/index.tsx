@@ -96,8 +96,8 @@ const renderISBN = (reference: Reference) => (
 );
 
 const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: boolean, itemProp: string) => {
-  const renderFirst = (a: Author, ix: number) => a.family && <><span itemProp="familyName">{a.family}</span>{period && ix > 0 && ix === (as.length - 1) && (a.family.endsWith('.') || '.')}</>;
-  const renderLast = (a: Author, ix: number) =>
+  const renderFamily = (a: Author, ix: number) => a.family && <><span itemProp="familyName">{a.family}</span>{period && ix > 0 && ix === (as.length - 1) && (a.family.endsWith('.') || '.')}</>;
+  const renderGiven = (a: Author, ix: number) =>
     (typeof a.given === 'string'
       ? <><span itemProp="givenName">{a.given}</span>{period && reverseFirst && ix === 0 && ix === (as.length - 1) && (a.given.endsWith('.') || '.')}</>
       : <><span itemProp="givenName">{a.given[0]}</span>
@@ -115,8 +115,8 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
       <span itemScope itemType="http://schema.org/Person" itemProp={itemProp} lang={a.lang} className="proper-noun">
         {hiddenName(a)}
         {reverseFirst && ix === 0
-          ? <>{renderFirst(a, ix)}, {renderLast(a, ix)}</>
-          : <>{renderLast(a, ix)} {renderFirst(a, ix)}</>}
+          ? <>{a.family && <>{renderFamily(a, ix)}, </>}{renderGiven(a, ix)}</>
+          : <>{renderGiven(a, ix)}{a.family && <> {renderFamily(a, ix)}</>}</>}
       </span>
     </React.Fragment>))
 };
