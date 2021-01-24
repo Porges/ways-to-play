@@ -426,6 +426,12 @@ div.multi > * {
     margin: 5px 10px;
 }
 
+@include media-breakpoint-down(sm) {
+    div.multi.only-large {
+        display: block;
+    }
+}
+
 /* note that this applies to multi-image figures, not figures inside a multi */
 figure > div.multi .figure-img {
     /* In flexbox images have an implied min-width of their 

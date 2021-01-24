@@ -120,7 +120,7 @@ const Manufacturers: React.FC = () => {
         </ArticleImage>
         <p>Often the mark is a simplified version of the name,<Footnote>Also be aware that Japanese can be written in either direction; <Cite r={OstasiatischeSpielkarten} page={136} inline /> describes a deck made by a mysterious manufacturer named ‘<Noun lang="ja-Latn">Dōtennin</Noun>’.</Footnote> or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <Noun lang="ja-Latn">Nintendō</Noun>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “<a href="https://en.wikipedia.org/wiki/Circle_K">Circle K</a>”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).</p>
         <Section title="Index of Marks">
-          <div className="multi">
+          <div className="multi only-large">
             <Table size="small">
               <tbody>
                 <tr>
@@ -342,13 +342,11 @@ const Manufacturers: React.FC = () => {
         <p><Noun lang="ja-Latn">Nintendō</Noun>’s manufacturers mark is a circled <span lang="ja" className="circled">福</span> (<span lang="ja-Latn">fuku</span>, ‘fortune’). This was originally the trade-name (<span lang="ja">屋号</span> <a href="https://en.wikipedia.org/wiki/Yag%C5%8D"><span lang="ja-Latn">yagō</span></a>) of the <Noun lang="ja-Latn">Yamauchi</Noun> family.</p>
         <div className="multi">
           <ArticleImage
-            position="right"
             src={imgNintendo}
             alt="A Hanafuda wrapper featuring an image of Napoleon on the front.">
             <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s). Note the <Noun lang="ja-Latn">Marufuku</Noun> mark at top right.
           </ArticleImage>
           <ArticleImage
-            position="right"
             src={imgNintendoTengu}
             alt="A Hanafuda wrapper featuring a red figure with a big nose, holding a fan made of feathers.">
             <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Tengu</span> packaging.
