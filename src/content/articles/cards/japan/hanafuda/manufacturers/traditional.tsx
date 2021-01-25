@@ -73,6 +73,8 @@ import imgTSyozakura from './TS_yozakura.jpg';
 import imgTSharuzake from './TS_haruzake.jpg';
 import imgNGBamboo from './NG_bamboo.jpg';
 import imgSeieidoEbisu from './Seedo_Ebisu.jpg';
+import imgFlatWrapper from './flat_wrapper.jpg';
+import imgDateCard from './date_card.jpg';
 
 import imgMaruToku from './marutoku.svg';
 import imgYaguruma from './yaguruma.png';
@@ -103,12 +105,18 @@ import imgHeibon from './heibon.svg';
 const Manufacturers: React.FC = () => {
   return (<>
     <Section title="Identification">
-      <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the front of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the end of the container. For example, a box of <Noun lang="ja-Latn">Nintendō</Noun> cards with Napoleon on the front indicates their highest-quality card, but can contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
+      <p>The branding system of traditional <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers can be confusing. Generally the top of the container (whether a box or wrapper) will have a brand, which indicates the quality of the cards, and the <em>type</em> of cards is written on the front end of the container. For example, a box of <Noun lang="ja-Latn">Nintendō</Noun> cards with Napoleon on the front indicates their highest-quality card, but it could contain either <Noun lang="ja-Latn">Hanafuda</Noun> or <Noun lang="ja-Latn">Kabufuda</Noun> cards.</p>
       <ArticleImage
         size="small"
         src={imgNintendoEnd}
         alt="The end of a Hanafuda wrapper with Japanese writing indicating its contents.">
         The end of a <Noun lang="ja-Latn">Nintendō</Noun> wrapper indicating that it contains<br />standard (<span lang="ja">八々花</span> <span lang="ja-Latn">hachihachibana</span>) Hanafuda cards, with black (<span lang="ja">黒</span>) backs.
+      </ArticleImage>
+      <p>Traditionally, decks were boxed in sets of two, usually one with black backs and the other with red backs. The outer box containing the two decks would have a wider image on the front, and then each deck inside the box would be wrapped individually. An example wrapper is shown folded flat below. The front end of the box (at bottom right) is as discussed above. The sides of the box show the manufacturer’s other brands, and sometimes awards that they have won, and the back end of the box (at top left) usually has text about the manufacturer or a list of brands.</p>
+      <ArticleImage
+        src={imgFlatWrapper}
+        alt="A hanafuda wrapper folded flat, showing the top face of the box and the four sides around it.">
+        Anatomy of a <a href="#tamura-shogundo"><Noun lang="ja-Latn">Tamura Shōgundō</Noun></a> <Noun lang="ja-Latn">Hanafuda</Noun> wrapper.
       </ArticleImage>
       <Section title="Manufacturer’s Marks">
         <p>Within the deck, the manufacturer’s name or mark is nowadays always on one of the Paulownia junk cards, but on older decks it is can be on a Peony or Wisteria (or another card entirely).</p>
@@ -262,10 +270,18 @@ const Manufacturers: React.FC = () => {
       </Section>
       <Section title="Dating Decks">
         <p>Dating old decks can be difficult. As manufacturers have not published any information about when certain brands or decks were produced, we can only go via public information. Some suggested methods are:</p>
+        <ArticleImage
+          position="aside"
+          size="small"
+          src={imgDateCard}
+          alt="A blank hanafuda card with the number 120124 printed on it.">
+          A <Noun lang="ja-Latn">Nintendō</Noun> blank card indicating the date of manufacture (2012–01–24).
+        </ArticleImage>
         <ul>
-          <li>Japanese written in a right-to-left ordering generally indicates that the deck would have been made before the end of <abbr title="World War Two">WWII</abbr> (from here on, I use the term ‘pre-war’). Thus, <span lang="ja">任天堂</span> is written <bdo dir="rtl" lang="ja">任天堂</bdo> on very old decks. <em>However</em>, some manufacturers such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> or <Noun lang="ja-Latn">Nihon Karuta</Noun> have persisted in using right-to-left ordering even into the present era.</li>
-          <li>The most accurate method of dating is to use tax stamps (see below), if the deck has any still present. This only works for decks produced up to 1989, when the tax on playing-cards was removed.</li>
+          <li>With recent <Noun lang="ja-Latn">Nintendō</Noun> decks, the blank card included has a 6-digit date of manufacture printed on it. This is the only case I know where the date is explicitly marked.</li>
+          <li>Otherwise, the most accurate method of dating is to use tax stamps (see below), if the deck has any still present. This only works for decks produced up to 1989, when the tax on playing-cards was removed.</li>
           <li>For more recent decks, barcodes can give some clues: Japanese barcodes beginning with <span className="barcode">49⋯</span> have been used since 1978, but barcodes beginning with <span className="barcode">45⋯</span> were introduced in 1992.</li>
+          <li>Japanese written in a right-to-left ordering generally indicates that the deck would have been made before the end of <abbr title="World War Two">WWII</abbr> (from here on, I use the term ‘pre-war’). Thus, <span lang="ja">任天堂</span> is written <bdo dir="rtl" lang="ja">任天堂</bdo> on very old decks. <em>However</em>, some manufacturers such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> or <Noun lang="ja-Latn">Nihon Karuta</Noun> have persisted in using right-to-left ordering even into the present era.</li>
         </ul>
       </Section>
       <Section title="Tax Stamps">
@@ -520,10 +536,10 @@ const Manufacturers: React.FC = () => {
         </ul>
         <div className="multi wide">
           <ArticleImage src={imgTSyozakura} alt="A hanafuda wrapper with cherry blossoms and a brazier.">
-            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">yozakura</span> wrapper.
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">yozakura</span> wrapper. This is an outer-box wrapper designed to contain two decks.
           </ArticleImage>
           <ArticleImage src={imgTSharuzake} alt="A hanafuda wrapper with a palace on a lake.">
-            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">harukaze</span> wrapper.
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">harukaze</span> wrapper. This is an outer-boxed wrapper designed to contain two decks; <a href="#staticmediaflatwrapper-160054165411jpg">a wrapper for the individual deck can be seen above</a>.
           </ArticleImage>
         </div>
         <ArticleImage
