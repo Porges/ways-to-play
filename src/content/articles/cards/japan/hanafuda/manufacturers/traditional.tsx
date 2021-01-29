@@ -58,6 +58,7 @@ import imgYamashiroPricelist from './yamashiro_pricelist_cover.jpg';
 import imgNGYHanaTrump from './NYG_hanatrump.jpg';
 import imgNYGTengu from './NYG_tengu.jpg';
 import imgNKhigashinishiki from './NK_higashinishiki.jpg';
+import imgNKhigashinishiki1 from './NK_higashinishiki-1.jpg';
 import imgNKkoekoe from './NK_kokonoezakura.jpg';
 import imgDNhotaiko from './DN_hotaiko.jpg';
 import imgDNsenhime from './DN_senhime.jpg';
@@ -75,6 +76,29 @@ import imgNGBamboo from './NG_bamboo.jpg';
 import imgSeieidoEbisu from './Seedo_Ebisu.jpg';
 import imgFlatWrapper from './flat_wrapper.jpg';
 import imgDateCard from './date_card.jpg';
+import imgKinmaiogi from './kinmaiogi.jpg';
+import imgGinmaiogi from './ginmaiogi.jpg';
+import imgOTGinTengu from './OT_gintengu.jpg';
+import imgOTShiki from './OT_shiki.jpg';
+import imgTSdaishogun from './TS_daishōgun.jpg';
+import imgTSeiko from './TS_eiko.jpg';
+import imgTShanakurabe from './TS_hanakurabe.jpg';
+import imgTSkyononishiki from './TS_kyō_no_nishiki.jpg';
+import imgTSmanten from './TS_manten.jpg';
+import imgTSshishinden from './TS_shishinden.jpg';
+import imgNSotanoshimi from './NS_otanoshimi.jpg';
+import imgKHonijirushi from './KH_onijirushi.jpg';
+import imgKHshoki from './KH_shoki.jpg';
+import imgKHtakarabune from './KH_takarabune.jpg';
+import imgDNginhyo from './DN_ginhyō.jpg';
+import imgDNkinhyo from './DN_kinhyō.jpg';
+import imgNKhyakumandoru from './NK_hyakumandoru.jpg';
+import imgNKkanenonaka from './NK_kane_no_naka.jpg';
+import imgNKkinfuji from './NK_kinfuji.jpg';
+import imgNKoshogatsu from './NK_oshogatsu.jpg';
+import imgNKumejirushi from './NK_umejirushi.jpg';
+import imgHannya from './hannya.jpg';
+import imgTaiheiraku from './taiheiraku.jpg';
 
 import imgMaruToku from './marutoku.svg';
 import imgYaguruma from './yaguruma.png';
@@ -440,17 +464,19 @@ const Manufacturers: React.FC = () => {
         <div className="multi">
           <ArticleImage
             src={imgOishiTengudo}
-            alt="The front of a wooden Hanafuda box with a pasted-on image of a Tengu mask.">
+            alt="An image of a tengu mask on a gold background.">
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">kintengu</span> wrapper. This is now their standard brand.
-            </ArticleImage>
+          </ArticleImage>
+          <ArticleImage
+            src={imgOTGinTengu}
+            alt="An image of a tengu mask on a silver background.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">gintengu</span> wrapper.
+          </ArticleImage>
           <ArticleImage
             src={imgOTnarikin}
             alt="A Hanafuda box front featuring a large Koban coin with ‘Narikin’ (newly rich) written on it.">
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">narikin</span> wrapper.
             </ArticleImage>
-          <ArticleImage src={imgOToeyama} alt="A hanafuda wrapper with a mountain and a man gazing into the distance.">
-            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">ōeyama</span> wrapper. The man is wearing the clothing of the <a href="https://en.wikipedia.org/wiki/Shugend%C5%8D"><Noun lang="ja-Latn">Shugendō</Noun></a> sect, which <Noun lang="ja-Latn">Tengu</Noun> are also depicted as wearing.
-          </ArticleImage>
         </div>
         <div className="multi">
           <ArticleImage src={imgOTtakarabune} alt="A hanafuda wrapper with a boat carrying seven people.">
@@ -462,6 +488,9 @@ const Manufacturers: React.FC = () => {
           <ArticleImage src={imgOThanazukushi} alt="A hanafuda wrapper with peonies, cherry blossoms, and other flowers.">
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">hanazukushi</span> wrapper.
           </ArticleImage>
+          <ArticleImage src={imgOToeyama} alt="A hanafuda wrapper with a mountain and a man gazing into the distance.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">ōeyama</span> wrapper. The man is wearing the clothing of the <a href="https://en.wikipedia.org/wiki/Shugend%C5%8D"><Noun lang="ja-Latn">Shugendō</Noun></a> sect, which <Noun lang="ja-Latn">Tengu</Noun> are also depicted as wearing.
+          </ArticleImage>
         </div>
         <div className="multi">
           <ArticleImage src={imgOTlincoln} alt="A hanafuda wrapper with an image of Abaraham Lincoln.">
@@ -472,6 +501,9 @@ const Manufacturers: React.FC = () => {
           </ArticleImage>
           <ArticleImage src={imgOTsantengu} alt="A hanafuda wrapper three tengu masks.">
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">santengu</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgOTShiki} alt="A hanafuda wrapper with flowers.">
+            <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">shiki</span> wrapper.
           </ArticleImage>
         </div>
         <p>In addition to the many standard & local patterns of <Noun lang="ja-Latn">Hanafuda</Noun> they produce, they also publish some novelty decks, such as the <b><Noun lang="ja-Latn">Kyōto Hanafuda</Noun></b>:</p>
@@ -525,7 +557,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">満点</span> (<span lang="ja-Latn">manten</span>, ‘perfect score’), also <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">栄光</span> (<span lang="ja-Latn">eikō</span>, ‘glory’), also <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">京乃錦</span> (<span lang="ja-Latn">Kyō no nishiki</span>, ‘brocade of <Noun lang="ja-Latn">Kyōto</Noun>’, indicating the autumn leaves)</li>
-          <li><span lang="ja">花くらべ</span> (<span lang="ja-Latn">hanakurabe</span>, ‘comparing flowers’)</li>
+          <li><span lang="ja">花くらべ</span> (<span lang="ja-Latn">hana&shy;kurabe</span>, ‘comparing flowers’)</li>
           <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yozakura</span>, ‘evening cherry blossoms’)</li>
           <li><span lang="ja">春風</span> (<span lang="ja-Latn">harukaze</span>, ‘spring breeze’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">花あそび</span> (<span lang="ja-Latn">hanaasobi</span>, ‘flower playing’), no longer in use as of 2019</li>
@@ -540,6 +572,28 @@ const Manufacturers: React.FC = () => {
           </ArticleImage>
           <ArticleImage src={imgTSharuzake} alt="A hanafuda wrapper with a palace on a lake.">
             <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">harukaze</span> wrapper. This is an outer-boxed wrapper designed to contain two decks; <a href="#staticmediaflatwrapper-160054165411jpg">a wrapper for the individual deck can be seen above</a>.
+          </ArticleImage>
+        </div>
+        <div className="multi">
+          <ArticleImage src={imgTSdaishogun} alt="A hanafuda wrappper with a man in military uniform.">
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">daishōgun</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgTSeiko} alt="A hanafuda wrapper with a sunrise surrounded by wreaths.">
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">eikō</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgTShanakurabe} alt="A hanafuda wrapper with flowers on a wagon.">
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">hana&shy;kurabe</span> wrapper.
+          </ArticleImage>
+        </div>
+        <div className="multi">
+          <ArticleImage src={imgTSkyononishiki} alt="A hanafuda wrapper with a bridge and overhanging maple leaves in autumn colours.">
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">kyō no nishiki</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgTSmanten} alt="A hanafuda wrapper with 'manten' written in kanji.">
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">manten</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgTSshishinden} alt="A hanafuda wrapper with a Japanese palace.">
+            <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">Shishinden</span> wrapper.
           </ArticleImage>
         </div>
         <ArticleImage
@@ -699,15 +753,39 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">大入</span> (<span lang="ja-Latn">ōiri</span>, ‘full house’, a theatre term)</li>
           <li><span lang="ja">東錦</span> (<span lang="ja-Latn">higashinishiki</span>, ‘eastern brocade’)</li>
           <li><span lang="ja">三福</span> (<span lang="ja-Latn">sanfuku</span>, ‘three fortunes’)</li>
-          <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon)</li>
           <li><span lang="ja">萬國一</span>/<span lang="ja">万国一</span> (<span lang="ja-Latn">bankokuichi</span>, ‘best in the world’)</li>
+          <li><span lang="ja"><img src={imgKanenaka} alt="the kane-naka symbol" className="inline-img" />のお正月</span> (<span lang="ja-Latn">[nihon karuta] no oshōgatsu</span>, ‘<Noun lang="ja-Latn">Nihon Karuta</Noun>’s new year’)</li>
         </ul>
-        <div className="multi wide">
+        <div className="multi">
           <ArticleImage src={imgNKhigashinishiki} alt="A hanafuda wrapper featuring a fan.">
-            <Noun lang="ja-Latn">Nihon Karuta</Noun>’s <span lang="ja-Latn">higashinishiki</span> wrapper.
+            The outer <span lang="ja-Latn">higashinishiki</span> wrapper, for two decks.
           </ArticleImage>
+          <ArticleImage src={imgNKhigashinishiki1} alt="A hanafuda wrapper featuring a fan." size="small">
+            The inner <span lang="ja-Latn">higashinishiki</span> wrapper, for a single deck.
+          </ArticleImage>
+        </div>
+        <div className="multi wide">
+          <ArticleImage src={imgNKumejirushi} alt="A hanafuda wrapper with plum blossoms">
+            The <span lang="ja-Latn">umejirushi</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgNKkanenonaka} alt="A hanafuda wrapper featuring three people sitting on the floor playing a hanafuda game.">
+            The <span lang="ja-Latn">kane no naka</span> wrapper.
+          </ArticleImage>
+        </div>
+        <div className="multi">
           <ArticleImage src={imgNKkoekoe} alt="A hanafuda wrapper featuring a palace and cherry blossom trees.">
             <Noun lang="ja-Latn">Nihon Karuta</Noun>’s <span lang="ja-Latn">kokonoezakura</span> wrapper.
+          </ArticleImage>
+        </div>
+        <div className="multi">
+          <ArticleImage src={imgNKkinfuji} alt="A hanafuda wrapper with an image of Mount Fuji.">
+            The <span lang="ja-Latn">kinfuji</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgNKhyakumandoru} alt="A hanafuda wrapper with a shining jewel.">
+            The <span lang="ja-Latn">hyakuman&shy;doru</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgNKoshogatsu} alt="A hanafuda wrapper with a battledore paddle.">
+            The <span lang="ja-Latn">oshōgatsu</span> wrapper.
           </ArticleImage>
         </div>
         <p><Noun lang="ja-Latn">Nihon Karuta</Noun>’s standard pattern was a variation on the <Noun lang="ja-Latn">Hachi&shy;hachi&shy;bana</Noun> which included more detailing in the form of fine blue lines. The standout feature was the full moon card, which featured a <a href="https://en.wikipedia.org/wiki/Moon_rabbit">rabbit pounding <span lang="ja-Latn">mochi</span></a> in the moon:</p>
@@ -802,6 +880,17 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">宝船</span> (<span lang="ja-Latn">takarabune</span>, ‘treasure ship’)</li>
           <li><span lang="ja">寶引</span> (<span lang="ja-Latn">hōbiki</span>, ‘treasure pull’, a kind of lottery where one rope out of a bundle was tied to the prize, and whoever pulled it won; these were <Noun lang="ja-Latn">Hikifuda</Noun> cards)</li>
         </ul>
+        <div className="multi">
+          <ArticleImage src={imgKHonijirushi} alt="A hanafuda wrapper with an angry ogre mask.">
+            The <span lang="ja-Latn">onijirushi</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgKHtakarabune} alt="A hanafuda wrapper with a ship sailing a flag reading “treasure” in Japanese.">
+            The <span lang="ja-Latn">takarabune</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgKHshoki} alt="A hanafuda wrapper with a warrior wearing a helmet with long horns.">
+            The <span lang="ja-Latn">shōki</span> wrapper.
+          </ArticleImage>
+        </div>
       </Section>
       <Section title={<><img src={imgMarui} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nishimura</Noun> (<span lang="ja">西村</span>)</>}>
         <ArticleImage
@@ -860,12 +949,18 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">豊太閤</span><Footnote>On some versions of this, it is misspelt <span lang="ja">豊太閣</span>.</Footnote> (<span lang="ja-Latn">hōtaikō</span>, a title of honour for <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi">Toyotomi Hideyoshi</a>)</li>
           <li><span lang="ja">千成</span> (<span lang="ja-Latn">sennari</span>, short for <span lang="ja">千成瓢箪</span> <span lang="ja-Latn">sennaribyōtan</span> ‘thousand gourds’, the standard used by <Noun lang="ja-Latn">Hideyoshi</Noun>)</li>
         </ul>
-        <div className="multi">
+        <div className="multi wide">
           <ArticleImage src={imgDNhotaiko} alt="A hanafuda wrapper with a man wearing tall headdress and holding a fan.">
-            <Noun lang="ja-Latn">Dai Nippon</Noun>’s <span lang="ja-Latn">hōtaikō</span> wrapper.
+            The <span lang="ja-Latn">hōtaikō</span> wrapper.
           </ArticleImage>
           <ArticleImage src={imgDNsenhime} alt="A hanafuda wrapper with a woman wearing robes.">
-            <Noun lang="ja-Latn">Dai Nippon</Noun>’s <span lang="ja-Latn">senhime</span> wrapper.
+            The <span lang="ja-Latn">senhime</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgDNkinhyo} alt="A hanafuda wrapper with a gold gourd on a red background and with cherry petals falling.">
+            The <span lang="ja-Latn">kinhyō</span> wrapper.
+          </ArticleImage>
+          <ArticleImage src={imgDNginhyo} alt="A hanafuda wrapper with a silver gourd on a blue background and with maple leaves falling.">
+            The <span lang="ja-Latn">ginhyō</span> wrapper.
           </ArticleImage>
         </div>
       </Section>
@@ -1009,6 +1104,9 @@ const Manufacturers: React.FC = () => {
         <ul>
           <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)</li>
         </ul>
+        <ArticleImage size="small" src={imgNSotanoshimi} alt="A hanafuda wrapper showing images of hanafuda cards.">
+          The <span lang="ja-Latn">otanoshimi</span> wrapper.
+        </ArticleImage>
       </Section>
       <Section title={<><img src={imgMaruei} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kyōwadō</Noun> (<span lang="ja">京和堂</span>)</>}>
         <p>A company about which I know very little. Presumably from the name they were based in <Noun lang="ja-Latn">Kyōto</Noun>. Their mark was a circled <span className="circled" lang="ja">榮</span>, the same as <Noun lang="ja-Latn">Nishi&shy;guchi Shōten</Noun>. Their brands included:</p>
@@ -1072,7 +1170,31 @@ const Manufacturers: React.FC = () => {
         <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’)</li>
         <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’)</li>
         <li><span lang="ja">勝力士</span> (<span lang="ja-Latn">katsu rikishi</span>, ‘winning sumo wrestler’)</li>
+        <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon)</li>
+        <li><span lang="ja">優良太平楽</span> (<span lang="ja-Latn">yūryō taiheiraku</span> ‘excellent happy-go-lucky’, which is the name of a <span lang="ja-Latn">gagaku</span> piece)</li>
       </ul>
+      <div className="multi wide">
+        <ArticleImage
+          src={imgKinmaiogi}
+          alt="A hanafuda wrapper with an image of a fan, and a gold background">
+          The <span lang="ja-Latn">kinmaiōgi</span> wrapper.
+        </ArticleImage>
+        <ArticleImage
+          src={imgGinmaiogi}
+          alt="A hanafuda wrapper with an image of a fan, and a silver background">
+          The <span lang="ja-Latn">ginmaiōgi</span> wrapper.
+        </ArticleImage>
+        <ArticleImage
+          src={imgHannya}
+          alt="A hanafuda wrapper with an image of a horned mask.">
+          The <span lang="ja-Latn">hannya</span> wrapper.
+        </ArticleImage>
+        <ArticleImage
+          src={imgTaiheiraku}
+          alt="A hanafuda wrapper with a costumed dancer and drum.">
+          The <span lang="ja-Latn">taiheiraku</span> wrapper.
+        </ArticleImage>
+      </div>
     </Section>
   </>);
 };
