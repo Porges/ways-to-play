@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Noun, Footnote, ArticleImage, Section, Pronounce, Cite } from 'ui';
+import { Noun, Footnote, ArticleImage, Section, Pronounce, Cite, SourceInfo } from 'ui';
 
 import img5Brights from '../5_brights.jpg';
 import img5BrightsKr from '../5_brights_kr.jpg';
@@ -14,57 +14,57 @@ import pronTanzaku from '../pronunciation_ja_短冊.mp3';
 import pronHanafuda from '../pronunciation_ja_花札.mp3';
 import pronHwatu from '../pronunciation_ko_화투.mp3';
 
-import imgHanafuda1_3 from '../Hanafuda_1-3.png';
-import imgHanafuda2_3 from '../Hanafuda_2-3.png';
-import imgHanafuda3_3 from '../Hanafuda_3-3.png';
-import imgHanafuda4_3 from '../Hanafuda_4-3.png';
-import imgHanafuda5_3 from '../Hanafuda_5-3.png';
-import imgHanafuda6_3 from '../Hanafuda_6-3.png';
-import imgHanafuda7_3 from '../Hanafuda_7-3.png';
-import imgHanafuda9_3 from '../Hanafuda_9-3.png';
-import imgHanafuda10_3 from '../Hanafuda_10-3.png';
-import imgHanafuda11_2 from '../Hanafuda_11-2.png';
+import imgHanafuda1_3 from '../Hanafuda_1-3.svg';
+import imgHanafuda2_3 from '../Hanafuda_2-3.svg';
+import imgHanafuda3_3 from '../Hanafuda_3-3.svg';
+import imgHanafuda4_3 from '../Hanafuda_4-3.svg';
+import imgHanafuda5_3 from '../Hanafuda_5-3.svg';
+import imgHanafuda6_3 from '../Hanafuda_6-3.svg';
+import imgHanafuda7_3 from '../Hanafuda_7-3.svg';
+import imgHanafuda9_3 from '../Hanafuda_9-3.svg';
+import imgHanafuda10_3 from '../Hanafuda_10-3.svg';
+import imgHanafuda11_2 from '../Hanafuda_11-2.svg';
 
-import imgHanafuda1_4 from '../Hanafuda_1-4.png';
-import imgHanafuda3_4 from '../Hanafuda_3-4.png';
-import imgHanafuda8_4 from '../Hanafuda_8-4.png';
-import imgHanafuda11_4 from '../Hanafuda_11-4.png';
-import imgHanafuda12_4 from '../Hanafuda_12-4.png';
+import imgHanafuda1_4 from '../Hanafuda_1-4.svg';
+import imgHanafuda3_4 from '../Hanafuda_3-4.svg';
+import imgHanafuda8_4 from '../Hanafuda_8-4.svg';
+import imgHanafuda11_4 from '../Hanafuda_11-4.svg';
+import imgHanafuda12_4 from '../Hanafuda_12-4.svg';
 
-import imgHanafuda2_4 from '../Hanafuda_2-4.png';
-import imgHanafuda4_4 from '../Hanafuda_4-4.png';
-import imgHanafuda5_4 from '../Hanafuda_5-4.png';
-import imgHanafuda6_4 from '../Hanafuda_6-4.png';
-import imgHanafuda7_4 from '../Hanafuda_7-4.png';
-import imgHanafuda8_3 from '../Hanafuda_8-3.png';
-import imgHanafuda9_4 from '../Hanafuda_9-4.png';
-import imgHanafuda10_4 from '../Hanafuda_10-4.png';
-import imgHanafuda11_3 from '../Hanafuda_11-3.png';
+import imgHanafuda2_4 from '../Hanafuda_2-4.svg';
+import imgHanafuda4_4 from '../Hanafuda_4-4.svg';
+import imgHanafuda5_4 from '../Hanafuda_5-4.svg';
+import imgHanafuda6_4 from '../Hanafuda_6-4.svg';
+import imgHanafuda7_4 from '../Hanafuda_7-4.svg';
+import imgHanafuda8_3 from '../Hanafuda_8-3.svg';
+import imgHanafuda9_4 from '../Hanafuda_9-4.svg';
+import imgHanafuda10_4 from '../Hanafuda_10-4.svg';
+import imgHanafuda11_3 from '../Hanafuda_11-3.svg';
 
-import imgHanafuda1_2 from '../Hanafuda_1-2.png';
-import imgHanafuda1_1 from '../Hanafuda_1-1.png';
-import imgHanafuda2_2 from '../Hanafuda_2-2.png';
-import imgHanafuda2_1 from '../Hanafuda_2-1.png';
-import imgHanafuda3_2 from '../Hanafuda_3-2.png';
-import imgHanafuda3_1 from '../Hanafuda_3-1.png';
-import imgHanafuda4_2 from '../Hanafuda_4-2.png';
-import imgHanafuda4_1 from '../Hanafuda_4-1.png';
-import imgHanafuda5_2 from '../Hanafuda_5-2.png';
-import imgHanafuda5_1 from '../Hanafuda_5-1.png';
-import imgHanafuda6_2 from '../Hanafuda_6-2.png';
-import imgHanafuda6_1 from '../Hanafuda_6-1.png';
-import imgHanafuda7_2 from '../Hanafuda_7-2.png';
-import imgHanafuda7_1 from '../Hanafuda_7-1.png';
-import imgHanafuda8_2 from '../Hanafuda_8-2.png';
-import imgHanafuda8_1 from '../Hanafuda_8-1.png';
-import imgHanafuda9_2 from '../Hanafuda_9-2.png';
-import imgHanafuda9_1 from '../Hanafuda_9-1.png';
-import imgHanafuda10_2 from '../Hanafuda_10-2.png';
-import imgHanafuda10_1 from '../Hanafuda_10-1.png';
-import imgHanafuda11_1 from '../Hanafuda_11-1.png';
-import imgHanafuda12_3 from '../Hanafuda_12-3.png';
-import imgHanafuda12_2 from '../Hanafuda_12-2.png';
-import imgHanafuda12_1 from '../Hanafuda_12-1.png';
+import imgHanafuda1_2 from '../Hanafuda_1-2.svg';
+import imgHanafuda1_1 from '../Hanafuda_1-1.svg';
+import imgHanafuda2_2 from '../Hanafuda_2-2.svg';
+import imgHanafuda2_1 from '../Hanafuda_2-1.svg';
+import imgHanafuda3_2 from '../Hanafuda_3-2.svg';
+import imgHanafuda3_1 from '../Hanafuda_3-1.svg';
+import imgHanafuda4_2 from '../Hanafuda_4-2.svg';
+import imgHanafuda4_1 from '../Hanafuda_4-1.svg';
+import imgHanafuda5_2 from '../Hanafuda_5-2.svg';
+import imgHanafuda5_1 from '../Hanafuda_5-1.svg';
+import imgHanafuda6_2 from '../Hanafuda_6-2.svg';
+import imgHanafuda6_1 from '../Hanafuda_6-1.svg';
+import imgHanafuda7_2 from '../Hanafuda_7-2.svg';
+import imgHanafuda7_1 from '../Hanafuda_7-1.svg';
+import imgHanafuda8_2 from '../Hanafuda_8-2.svg';
+import imgHanafuda8_1 from '../Hanafuda_8-1.svg';
+import imgHanafuda9_2 from '../Hanafuda_9-2.svg';
+import imgHanafuda9_1 from '../Hanafuda_9-1.svg';
+import imgHanafuda10_2 from '../Hanafuda_10-2.svg';
+import imgHanafuda10_1 from '../Hanafuda_10-1.svg';
+import imgHanafuda11_1 from '../Hanafuda_11-1.svg';
+import imgHanafuda12_3 from '../Hanafuda_12-3.svg';
+import imgHanafuda12_2 from '../Hanafuda_12-2.svg';
+import imgHanafuda12_1 from '../Hanafuda_12-1.svg';
 
 import pronMatsu from '../pronunciation_ja_松.mp3';
 import pronFuji from '../pronunciation_ja_藤.mp3';
@@ -85,6 +85,16 @@ import imgRainbowJokers from '../Rainbow_jokers.jpg';
 import imgKoiKoiSetup from './Koi-Koi_Setup.jpg';
 
 import { ModernKoreanCards } from 'References/bibliography.json';
+
+const louieSource: SourceInfo = {
+  author: {
+    family: "Mantia",
+    given: "Louie",
+  },
+  copyrightYear: 2020,
+  license: "cc-by-sa",
+  licenseVersion: "4.0",
+};
 
 const Basics: React.FC = () => {
   return (<>
@@ -139,6 +149,7 @@ const Basics: React.FC = () => {
               [imgHanafuda11_1, "The rain man."],
               [imgHanafuda12_1, "The phoenix."],
             ]}
+            source={louieSource}
             perRow={5}>The bright cards.</ArticleImage>
           <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<Footnote><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r={ModernKoreanCards} /></Footnote></p>
           <ArticleImage size="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
@@ -158,6 +169,7 @@ const Basics: React.FC = () => {
               [imgHanafuda10_1, "The tane card for October, a deer."],
               [imgHanafuda11_2, "The tane card for November, a swallow."],
             ]}
+            source={louieSource}
             perRow={5}>The 9 <span lang="ja-Latn">tane</span> cards.</ArticleImage>
         </Section>
         <Section title={<><span lang="ja-Latn">Tanzaku</span> cards</>}>
@@ -175,6 +187,7 @@ const Basics: React.FC = () => {
               [imgHanafuda10_2, "The tanzaku card for October."],
               [imgHanafuda11_3, "The tanzaku card for November."],
             ]}
+            source={louieSource}
             perRow={5}>The 10 <span lang="ja-Latn">tanzaku</span> cards.</ArticleImage>
           <ArticleImage
             alt="A screen with a painting of a maple tree in autumn colours, with many tanzaku hanging from its branches."
@@ -218,6 +231,7 @@ const Basics: React.FC = () => {
               [imgHanafuda12_3, "A kasu card for December."],
               [imgHanafuda12_4, "A kasu card for December."],
             ]}
+            source={louieSource}
             perRow={8}>The 24 <span lang="ja-Latn">kasu</span> cards.</ArticleImage>
         </Section>
         <Section title="Extra cards">

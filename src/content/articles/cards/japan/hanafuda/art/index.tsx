@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Noun, ArticleImage, Footnote, Section, Cite, Pronounce } from 'ui';
+import { Noun, ArticleImage, Footnote, Section, Cite, Pronounce, SourceInfo } from 'ui';
 
 import {
   FantasyOfFarJapan, TheEastandtheIdeaofEurope, FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords, MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince, CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign, CabinetOfficeEntertainment, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, NarrowRoad, NintendoHistory, HandbookForJapan, JapaneseGamesOfMemory, EssaysInIdleness
@@ -44,54 +44,54 @@ import imgBushWarbler from './bush_warbler.jpg';
 import imgMushibana from './nintendo_mushibana.jpg';
 import imgDairenbana from './dairenbana.jpg';
 
-import imgHanafuda1_1 from '../Hanafuda_1-1.png';
-import imgHanafuda1_2 from '../Hanafuda_1-2.png';
-import imgHanafuda1_3 from '../Hanafuda_1-3.png';
-import imgHanafuda1_4 from '../Hanafuda_1-4.png';
-import imgHanafuda2_1 from '../Hanafuda_2-1.png';
-import imgHanafuda2_2 from '../Hanafuda_2-2.png';
-import imgHanafuda2_3 from '../Hanafuda_2-3.png';
-import imgHanafuda2_4 from '../Hanafuda_2-4.png';
-import imgHanafuda3_1 from '../Hanafuda_3-1.png';
-import imgHanafuda3_2 from '../Hanafuda_3-2.png';
-import imgHanafuda3_3 from '../Hanafuda_3-3.png';
-import imgHanafuda3_4 from '../Hanafuda_3-4.png';
-import imgHanafuda4_1 from '../Hanafuda_4-1.png';
-import imgHanafuda4_2 from '../Hanafuda_4-2.png';
-import imgHanafuda4_3 from '../Hanafuda_4-3.png';
-import imgHanafuda4_4 from '../Hanafuda_4-4.png';
-import imgHanafuda5_1 from '../Hanafuda_5-1.png';
-import imgHanafuda5_2 from '../Hanafuda_5-2.png';
-import imgHanafuda5_3 from '../Hanafuda_5-3.png';
-import imgHanafuda5_4 from '../Hanafuda_5-4.png';
-import imgHanafuda6_1 from '../Hanafuda_6-1.png';
-import imgHanafuda6_2 from '../Hanafuda_6-2.png';
-import imgHanafuda6_3 from '../Hanafuda_6-3.png';
-import imgHanafuda6_4 from '../Hanafuda_6-4.png';
-import imgHanafuda7_1 from '../Hanafuda_7-1.png';
-import imgHanafuda7_2 from '../Hanafuda_7-2.png';
-import imgHanafuda7_3 from '../Hanafuda_7-3.png';
-import imgHanafuda7_4 from '../Hanafuda_7-4.png';
-import imgHanafuda8_1 from '../Hanafuda_8-1.png';
-import imgHanafuda8_2 from '../Hanafuda_8-2.png';
-import imgHanafuda8_3 from '../Hanafuda_8-3.png';
-import imgHanafuda8_4 from '../Hanafuda_8-4.png';
-import imgHanafuda9_1 from '../Hanafuda_9-1.png';
-import imgHanafuda9_2 from '../Hanafuda_9-2.png';
-import imgHanafuda9_3 from '../Hanafuda_9-3.png';
-import imgHanafuda9_4 from '../Hanafuda_9-4.png';
-import imgHanafuda10_1 from '../Hanafuda_10-1.png';
-import imgHanafuda10_2 from '../Hanafuda_10-2.png';
-import imgHanafuda10_3 from '../Hanafuda_10-3.png';
-import imgHanafuda10_4 from '../Hanafuda_10-4.png';
-import imgHanafuda11_1 from '../Hanafuda_11-1.png';
-import imgHanafuda11_2 from '../Hanafuda_11-2.png';
-import imgHanafuda11_3 from '../Hanafuda_11-3.png';
-import imgHanafuda11_4 from '../Hanafuda_11-4.png';
-import imgHanafuda12_1 from '../Hanafuda_12-1.png';
-import imgHanafuda12_2 from '../Hanafuda_12-2.png';
-import imgHanafuda12_3 from '../Hanafuda_12-3.png';
-import imgHanafuda12_4 from '../Hanafuda_12-4.png';
+import imgHanafuda1_1 from '../Hanafuda_1-1.svg';
+import imgHanafuda1_2 from '../Hanafuda_1-2.svg';
+import imgHanafuda1_3 from '../Hanafuda_1-3.svg';
+import imgHanafuda1_4 from '../Hanafuda_1-4.svg';
+import imgHanafuda2_1 from '../Hanafuda_2-1.svg';
+import imgHanafuda2_2 from '../Hanafuda_2-2.svg';
+import imgHanafuda2_3 from '../Hanafuda_2-3.svg';
+import imgHanafuda2_4 from '../Hanafuda_2-4.svg';
+import imgHanafuda3_1 from '../Hanafuda_3-1.svg';
+import imgHanafuda3_2 from '../Hanafuda_3-2.svg';
+import imgHanafuda3_3 from '../Hanafuda_3-3.svg';
+import imgHanafuda3_4 from '../Hanafuda_3-4.svg';
+import imgHanafuda4_1 from '../Hanafuda_4-1.svg';
+import imgHanafuda4_2 from '../Hanafuda_4-2.svg';
+import imgHanafuda4_3 from '../Hanafuda_4-3.svg';
+import imgHanafuda4_4 from '../Hanafuda_4-4.svg';
+import imgHanafuda5_1 from '../Hanafuda_5-1.svg';
+import imgHanafuda5_2 from '../Hanafuda_5-2.svg';
+import imgHanafuda5_3 from '../Hanafuda_5-3.svg';
+import imgHanafuda5_4 from '../Hanafuda_5-4.svg';
+import imgHanafuda6_1 from '../Hanafuda_6-1.svg';
+import imgHanafuda6_2 from '../Hanafuda_6-2.svg';
+import imgHanafuda6_3 from '../Hanafuda_6-3.svg';
+import imgHanafuda6_4 from '../Hanafuda_6-4.svg';
+import imgHanafuda7_1 from '../Hanafuda_7-1.svg';
+import imgHanafuda7_2 from '../Hanafuda_7-2.svg';
+import imgHanafuda7_3 from '../Hanafuda_7-3.svg';
+import imgHanafuda7_4 from '../Hanafuda_7-4.svg';
+import imgHanafuda8_1 from '../Hanafuda_8-1.svg';
+import imgHanafuda8_2 from '../Hanafuda_8-2.svg';
+import imgHanafuda8_3 from '../Hanafuda_8-3.svg';
+import imgHanafuda8_4 from '../Hanafuda_8-4.svg';
+import imgHanafuda9_1 from '../Hanafuda_9-1.svg';
+import imgHanafuda9_2 from '../Hanafuda_9-2.svg';
+import imgHanafuda9_3 from '../Hanafuda_9-3.svg';
+import imgHanafuda9_4 from '../Hanafuda_9-4.svg';
+import imgHanafuda10_1 from '../Hanafuda_10-1.svg';
+import imgHanafuda10_2 from '../Hanafuda_10-2.svg';
+import imgHanafuda10_3 from '../Hanafuda_10-3.svg';
+import imgHanafuda10_4 from '../Hanafuda_10-4.svg';
+import imgHanafuda11_1 from '../Hanafuda_11-1.svg';
+import imgHanafuda11_2 from '../Hanafuda_11-2.svg';
+import imgHanafuda11_3 from '../Hanafuda_11-3.svg';
+import imgHanafuda11_4 from '../Hanafuda_11-4.svg';
+import imgHanafuda12_1 from '../Hanafuda_12-1.svg';
+import imgHanafuda12_2 from '../Hanafuda_12-2.svg';
+import imgHanafuda12_3 from '../Hanafuda_12-3.svg';
+import imgHanafuda12_4 from '../Hanafuda_12-4.svg';
 
 import imgEchigoBana from './EchigoBana.jpg';
 import imgKintokiBana from './KintokiBana_Brights.jpg';
@@ -171,6 +171,16 @@ import pronKintoki from './pronunciation_ja_kintoki.mp3';
 import pronRaijin from './pronunciation_ja_雷神.mp3';
 
 import { Link } from 'react-router-dom';
+
+const louieSource: SourceInfo = {
+  author: {
+    family: "Mantia",
+    given: "Louie",
+  },
+  copyrightYear: 2020,
+  license: "cc-by-sa",
+  licenseVersion: "4.0",
+};
 
 const Hanafuda: React.FC = () => {
   return (<>
@@ -435,7 +445,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda1_2, "A card with pine trees and a red tanzaku with writing."],
             [imgHanafuda1_3, "A card with pine trees."],
             [imgHanafuda1_4, "A card with pine trees."],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for January feature pine trees. There is one bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
@@ -501,7 +512,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda2_2, ""],
             [imgHanafuda2_3, ""],
             [imgHanafuda2_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for February feature plum trees in blossom. There is one <span lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards. The text on the <span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
         </ArticleImage>
         <ArticleImage
@@ -548,7 +560,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda3_2, ""],
             [imgHanafuda3_3, ""],
             [imgHanafuda3_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for March show the famous cherry blossoms of Japan. There is one bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
@@ -642,7 +655,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda4_2, ""],
             [imgHanafuda4_3, ""],
             [imgHanafuda4_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for April show the drooping branches of wisteria. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
@@ -682,7 +696,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda5_2, ""],
             [imgHanafuda5_3, ""],
             [imgHanafuda5_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for May depict iris flowers. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <p>The fifth month is represented by iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" word="ayame" lang="ja-Latn" file={pronAyame} />); a nickname for the month is <Pronounce pronouncer="skent" word="negi" lang="ja-Latn" file={pronNegi} /> (<span lang="ja">葱</span>, ‘scallion/leek’).<Cite r={HanaAwase} /></p>
@@ -717,7 +732,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda6_2, ""],
             [imgHanafuda6_3, ""],
             [imgHanafuda6_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for June show peony flowers. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <p>The sixth month is represented by peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" word="botan" lang="ja-Latn" file={pronBotan} />).</p>
@@ -729,7 +745,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda7_2, ""],
             [imgHanafuda7_3, ""],
             [imgHanafuda7_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for July show bush clover. There is one <span lang="ja-Latn">tanzaku</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
@@ -805,7 +822,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda8_2, ""],
             [imgHanafuda8_3, ""],
             [imgHanafuda8_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for August show waving fields of miscanthus, also known as silvergrass. There is one bright card, one <span lang="ja-Latn">tane</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
@@ -868,7 +886,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda9_2, ""],
             [imgHanafuda9_3, ""],
             [imgHanafuda9_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for September show chrysanthemums. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <Footnote standalone>
@@ -911,7 +930,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda10_2, ""],
             [imgHanafuda10_3, ""],
             [imgHanafuda10_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for October show fallen maple leaves. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <ArticleImage
@@ -954,7 +974,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda11_2, ""],
             [imgHanafuda11_3, ""],
             [imgHanafuda11_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for November show willow trees. There is one bright card, one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and one <span lang="ja-Latn">kasu</span> card.
         </ArticleImage>
         <p>The eleventh month is represented by willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo" word="yanagi" lang="ja-Latn" file={pronYanagi} />); it is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronounce pronouncer="strawberrybrown" word="ame" lang="ja-Latn" file={pronAme} />) or ‘drizzle’ (<span lang="ja">時雨</span> <Pronounce pronouncer="akitomo" word="shigure"
@@ -1031,7 +1052,8 @@ const Hanafuda: React.FC = () => {
             [imgHanafuda12_2, ""],
             [imgHanafuda12_3, ""],
             [imgHanafuda12_4, ""],
-          ]}>
+          ]}
+          source={louieSource}>
           The cards for December show paulownia flowers. There is one bright card and three <span lang="ja-Latn">kasu</span> cards.
         </ArticleImage>
         <p>The twelfth month is represented by paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring" word="kiri" lang="ja-Latn" file={pronKiri} />).</p>
