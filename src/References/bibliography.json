@@ -2577,7 +2577,7 @@
     },
     "MorabarabaGetOnBoard": {
         "type": "webpage",
-        "title": "Morabaraba? Get on board!",
+        "title": "Getting morabaraba back on board",
         "author": [
             {
                 "family": "Russouw",
@@ -2587,10 +2587,10 @@
         "issued": {
             "year": 2002,
             "month": 9,
-            "day": 26
+            "day": 20
         },
-        "container-title": "Brand South Africa",
-        "URL": "https://www.brandsouthafrica.com/people-culture/sport/features/morabaraba",
+        "container-title": "City of Johannesburg",
+        "URL": "https://web.archive.org/web/20031025224828/http://www.joburg.org.za/sep_2002/game.stm",
         "id": "MorabarabaGetOnBoard"
     },
     "IndigenousGamesRuleBook": {
