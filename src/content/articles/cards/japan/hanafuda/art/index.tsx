@@ -177,7 +177,7 @@ const louieSource: SourceInfo = {
     family: "Mantia",
     given: "Louie",
   },
-  copyrightYear: 2020,
+  copyrightYear: 2021,
   license: "cc-by-sa",
   licenseVersion: "4.0",
 };

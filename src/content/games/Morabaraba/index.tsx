@@ -4,42 +4,54 @@ import { Link } from 'react-router-dom';
 import { ArticleImage, Footnote, Noun, Section, Cite } from 'ui';
 
 import {
-MorabarabaGetOnBoard, FromBearnToSouthernAfrica, MkeleMorabaraba, BasothoChildren
-, OldTswana, SeSothoDictionary, GamesBasotho, TheWorldAndCattle, UseOfMorabara
-, UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook
+  MorabarabaGetOnBoard, FromBearnToSouthernAfrica, MkeleMorabaraba, BasothoChildren
+  , OldTswana, SeSothoDictionary, GamesBasotho, TheWorldAndCattle, UseOfMorabara
+  , UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook
 } from 'References/bibliography.json';
 
 import imgKliptown from "./8237668945_878d81116c_o.jpg";
 import imgSothoBoard from "./large_merels_with_diagonals_and_centre.svg";
 import imgLargeMerelsWithDiagonals from "content/articles/mill-games/large_merels_with_diagonals.svg";
 import imgLargeMerelsWithFullDiagonals from "./large_merels_with_full_diagonals.svg";
+import imgInPlay from "./shutterstock_1431198950.jpg";
+import imgMuravarava from "./shutterstock_1268455078.jpg";
 
 const Morabaraba: React.FC = () => (
   <>
     <p><Noun lang="st">Morabaraba</Noun> is a <Link to="/articles/mill-games">mill game</Link> from south-eastern Africa. The gameplay of the standardized version is very similar to <Link to="/games/twelve-mens-morris" className="game-title">Twelve Men’s Morris</Link> (with a few minor differences), but the version played in Lesotho has a unique board.</p>
-    <ArticleImage
-      src={imgKliptown}
-      alt="A well-used morabaraba board with two different types of bottle caps for pieces."
-      source={{
-        copyrightYear: 2012,
-        originalUrl: "https://www.flickr.com/photos/nagarjun/8237668945",
-        author: { given: "Nagarjun", family: "Kandukuru" },
-        license: "cc-by-nc-nd",
-        licenseVersion: "2.0"
-      }}>
-      A Sotho-style morabaraba board in Kliptown, Soweto
-        </ArticleImage>
     <p><Noun lang="st">Morabaraba</Noun> is played as a competitive sport in South Africa, administered by <a href="http://mindsportsa.co.za/">Mind Sports South Africa</a>. It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.<Cite r={MorabarabaGetOnBoard} /></p>
+    <ArticleImage
+      alt="A morabaraba board with bottlecaps being used as pieces. One player is using them right-side-up and the other player is using them upside-down."
+      size="wide"
+      src={imgInPlay}
+      source={{
+        author: "ivanfolio",
+        originalUrl: "https://www.shutterstock.com/image-photo/traditonal-african-strategy-board-game-know-1431198950",
+        license: "stock-image",
+      }}>
+      A game of <Noun lang="st">Morabaraba</Noun> being played.
+    </ArticleImage>
     <p>Surprisingly, we know precisely who imported the game from Europe:<Cite r={MkeleMorabaraba} page={134} /><Cite r={FromBearnToSouthernAfrica} page={79} /> it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis,<Footnote>
       Eugène Casalis is sometimes also referred to as Cazalis. Upon his return to France he wrote about his experiences in <cite lang="fr">Les Bassoutos: Vingt-Trois Années de Séjour et D’Observations au Sud de L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The Basutos: or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)), but the book contains no mention of any board games. There is now <a href="https://goo.gl/maps/jymZMMft3fB2">a roundabout</a> in his home town, <Noun lang="fr">Orthez</Noun>, <a href="http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php">named after him</a>.
         </Footnote> a French protestant missionary. The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.<Cite r={FromBearnToSouthernAfrica} page={79} /> Obsession with the game also led herders to neglect their flocks,<Cite r={FromBearnToSouthernAfrica} page={79} /> so it became known by the epithet <span lang="st">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌<Cite r={BasothoChildren} page={41} /> “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌<Cite r={TheWorldAndCattle} page={56} /></p>
     <p>The name <span lang="st">morabaraba</span> comes from the Sotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam/fly about in small circles’, as of a bird around its nest.‌<Cite r={SeSothoDictionary} page={304} /> In Nguni languages (isiZulu, isiXhosa), it is known as <Noun lang="zu">(Um)labalaba</Noun>, with similar meaning,‌<Cite r={GamesBasotho} page={[[247, 250]]} /> and in Ronga, spoken in Mozambique, it is called <Noun lang="rng">Muravarava</Noun>.</p>
+    <ArticleImage
+      alt="Two school chidren stand next to a table where a game of muravarava is being played, looking at the board intensely, while an umpire watches."
+      src={imgMuravarava}
+      source={{
+        copyrightYear: 2018,
+        author: "ivanfolio",
+        originalUrl: "https://www.shutterstock.com/image-photo/manica-mozambique-december-19-2018-young-1268455078",
+        license: "stock-image",
+      }}>
+      A game of <Noun lang="rng">Muravarava</Noun> being played in Mozambique, at Chinhamapere Secondary School.
+    </ArticleImage>
     <p>There are other names which are probably derived from the European name of ‘mill’:‌<Cite r={MkeleMorabaraba} page={134} /> an alternate Sotho name is <span lang="st">mmila</span>/<span lang="st">’mila</span>, ‘road’.‌<Cite r={UsingGamesToPromote} page={283} /> In Botswana, the game is called <span lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌<Cite r={OldTswana} page={350} />), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.</p>
     <p>A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌<Cite r={UseOfMorabara} page={588} /> in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). Forming a mill (‘gun’) allows you to “shoot” an opponent’s cow.</p>
     <Section title="Play">
       <p>The following description is based on Mind Sports South Africa’s “Generally Accepted Rules”. As with all traditional board games, local rules can vary.</p>
       <p>Each player has 12 pieces. Commonly, plastic or metal bottle caps<Footnote>
-        The use of bottle caps is so common that even <a href="https://www.instagram.com/p/BMBbRAzBg1z/">commercial sets use bottle caps</a>, and it shows up in <a href="https://www.instagram.com/p/Bf-isgxnIPF/">computerized versions</a> as a skeuomorphic feature.
+        The use of bottle caps is so common that even <a href="https://www.instagram.com/p/BMBbRAzBg1z/">commercial sets use bottle caps</a>, and they show up in <a href="https://www.instagram.com/p/Bf-isgxnIPF/">computerized versions</a> as a skeuomorphic feature.
             </Footnote> are used in two contrasting colours.</p>
       <ArticleImage
         position="right"
@@ -66,17 +78,17 @@ const Morabaraba: React.FC = () => (
         <p>Some rulesets<Cite r={BlacUmlabalaba} /> state that a piece on the central point can only be the middle piece of a mill. Other lines of three formed with the central point do not count as mills.</p>
         <p>Note that it is not possible to form a diagonal mill on this board.</p>
         <ArticleImage
-          size="wide"
-          src="https://www.instagram.com/p/_glPKmNkd5/media?size=l"
-          alt=""
+          src={imgKliptown}
+          alt="A well-used morabaraba board with two different types of bottle caps for pieces."
           source={{
-            copyrightYear: 2015,
-            originalUrl: "https://www.instagram.com/p/_glPKmNkd5/",
-            author: "lebophoo",
-            license: "instagram"
+            copyrightYear: 2012,
+            originalUrl: "https://www.flickr.com/photos/nagarjun/8237668945",
+            author: { given: "Nagarjun", family: "Kandukuru" },
+            license: "cc-by-nc-nd",
+            licenseVersion: "2.0"
           }}>
-          A Sotho-style <span className="game-title" lang="st">Morabaraba</span> board (more examples of this board can be seen on Instagram: <a href="https://www.instagram.com/p/BD-gorsFbjf/">1</a>, <a href="https://www.instagram.com/p/_glPKmNkd5/">2</a>, <a href="https://www.instagram.com/p/-voBcjAFc9/">3</a>, <a href="https://www.instagram.com/p/yPNmJpPNzW/">4</a>)
-        </ArticleImage>
+          A Sotho-style morabaraba board in Kliptown, Soweto (more examples of this board can be seen on Instagram: <a href="https://www.instagram.com/p/BD-gorsFbjf/">1</a>, <a href="https://www.instagram.com/p/_glPKmNkd5/">2</a>, <a href="https://www.instagram.com/p/-voBcjAFc9/">3</a>, <a href="https://www.instagram.com/p/yPNmJpPNzW/">4</a>).
+      </ArticleImage>
       </Section>
       <Section title="Alternate board">
         <ArticleImage
@@ -85,19 +97,7 @@ const Morabaraba: React.FC = () => (
           alt="">
           An alternate <span className="game-title" lang="st">Morabaraba</span> board.
                 </ArticleImage>
-        <p>Another board pattern is also used to play <span className="game-title" lang="st">Morabaraba</span>, with a diagonally crossed central square. I do not know if the rules vary in any way.</p>
-        <ArticleImage
-          size="wide"
-          src="https://www.instagram.com/p/BQ-F9JHhjXa/media?size=l"
-          alt=""
-          source={{
-            copyrightYear: 2017,
-            originalUrl: "https://www.instagram.com/p/BQ-F9JHhjXa/",
-            author: "mosqkenpachi_photography",
-            license: "instagram"
-          }}>
-          An unknown <span className="game-title" lang="st">Morabaraba</span> board (at left), in Mahwelereng, Limpopo, South Africa (more examples can be seen on Instagram: <a href="https://www.instagram.com/p/-lij8bskZZ/">1</a>, <a href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>, <a href="https://www.instagram.com/p/BQ-F9JHhjXa/">3</a>)
-                </ArticleImage>
+        <p>Another board pattern is also used to play <span className="game-title" lang="st">Morabaraba</span>, with a diagonally crossed central square. I do not know if the rules vary in any way. Examples of this board can be found on Instagram: <a href="https://www.instagram.com/p/-lij8bskZZ/">1</a>, <a href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>, <a href="https://www.instagram.com/p/BQ-F9JHhjXa/">3</a>.</p>
       </Section>
     </Section>
   </>);

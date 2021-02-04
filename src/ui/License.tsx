@@ -10,7 +10,7 @@ export type LicenseName
     | "cc-by-nc"
     | "cc-by-nc-sa"
     | "cc-by-nc-nd"
-    | "instagram"
+    | "stock-image"
     | "gpl"
     | "with-permission"
     | "us-fair-use"
@@ -62,8 +62,8 @@ export const License: React.FC<Props> = (props: Props) => {
         , version
         , ...htmlAttributes } = props;
 
-    if (license === 'instagram') {
-        return <span>{leading && ', '}from <span className="license-instagram">Instagram</span></span>;
+    if (license === 'stock-image') {
+        return <span>{leading && ', '}stock image</span>;
     }
 
     if (license === 'with-permission') {
