@@ -1057,7 +1057,7 @@ const Manufacturers: React.FC = () => {
             source={{
               license: "cc0",
               originalUrl: 'https://gallica.bnf.fr/ark:/12148/btv1b105093472',
-              organization: { orgName: 'Bibliothèque nationale de France', orgAbbr: 'BnF' }
+              organization: { orgName: 'Bibliothèque nationale de France', orgLang: "fr", orgAbbr: 'BnF' }
             }}
           >
             An additional manufacturer’s card included with an <Noun lang="ja-Latn">Akata Shōjōya</Noun> deck, produced after 1902.

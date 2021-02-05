@@ -50,6 +50,13 @@ const games = {
     players: [2],
     import: React.lazy(() => import(/* webpackChunkName: 'leap-frog' */ './LeapFrog'))
   },
+  'nine-mens-morris': {
+    title: "Nine Men’s Morris",
+    players: [2],
+    draft: true,
+    import: React.lazy(() => import(/* webpackChunkName: 'nine-mens-morris' */ './NineMensMorris/NineMensMorris'))
+
+  },
   'take-it-away': {
     title: "Take It Away",
     players: [2, 3, 4],
@@ -85,4 +92,3 @@ export const getGameMeta = (name: keyof any): GameMeta|undefined => {
 
     return undefined;
 }
-

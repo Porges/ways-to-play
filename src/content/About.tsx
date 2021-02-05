@@ -29,7 +29,6 @@ export const About: React.FC = () => (
             <p>Unless otherwise noted, all content on this site, including all images, is under my copyright (George Pollard). This content is licensed under the Creative Commons <a
             href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International</a> license (CC BY-NC-SA). This means that you may reuse the content, but you must credit me as the author, you may not charge money for your derivative work, and your work must be released under the same license.</p>
             <p>Any content that is not created by me has its copyright status or license noted on it (and in metadata on the page). Please check these licenses before reusing any of this material, to confirm that you are complying with their terms.</p>
-            <p>Images from Instagram are <a href="https://www.instagram.com/developer/embedding/">embedded</a> in a way that comports with the <a href="https://help.instagram.com/581066165581870">Instagram terms of use</a>.</p>
             <p>The favicon is by <a href="https://www.freepik.com/"
             title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
             title="Flaticon">www.flaticon.com</a>, and is licensed under <a

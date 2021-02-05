@@ -4116,5 +4116,17 @@
         "container-title": "The North Carolina Historical Review",
         "URL": "https://www.jstor.org/stable/23529457",
         "page": "347–363"
+    },
+    "MundartLexikon": {
+        "id": "MundartLexikon",
+        "type": "webpage",
+        "title": "Mundart-Lexikon",
+        "title-lang": "gsw",
+        "issued": {
+            "year": 2014
+        },
+        "publisher": "SRF Schweizer Radio und Fernsehen",
+        "publisher-lang": "gsw",
+        "URL": "https://web.archive.org/web/20141118232655/http://www.srf.ch/sendungen/schnabelweid/mundart-lexikon"
     }
 }

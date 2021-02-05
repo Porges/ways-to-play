@@ -42,8 +42,10 @@ const renderAuthors = (reference: Reference) => {
   } else if ('publisher' in reference) {
     return (<><span itemScope itemType="http://schema.org/Organization" itemProp="author">
       <span itemProp="name" lang={reference['publisher-lang']}>{reference.publisher}</span></span>. </>);
+  } else if ('editor' in reference && reference.editor) {
+    return <>{renderPeople(reference.editor, true, true, 'editor')}, (<abbr title="editor">ed.</abbr>) </>;
   } else {
-    return 'TODO';
+    return "Unknown, ";
   }
 }
 
