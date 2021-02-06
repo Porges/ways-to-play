@@ -3961,7 +3961,10 @@
         "type": "book",
         "ISBN": "978-0-8348-0229-5",
         "author": [
-            {"given": "John", "family": "Dower"}
+            {
+                "given": "John",
+                "family": "Dower"
+            }
         ],
         "publisher": "Weatherhill",
         "publisher-place": "Boston, MA, USA",
@@ -3976,9 +3979,15 @@
         "type": "webpage",
         "URL": "https://zhuanlan.zhihu.com/p/31321595",
         "author": [
-            {"given": "鲤衣荷", "family": "夏", "lang": "zh"}
+            {
+                "given": "鲤衣荷",
+                "family": "夏",
+                "lang": "zh"
+            }
         ],
-        "issued": {"year": 2017}
+        "issued": {
+            "year": 2017
+        }
     },
     "EbashiCigaretteCards": {
         "id": "EbashiCigaretteCards",
@@ -4003,10 +4012,18 @@
         "title": "A Handbook for Travellers in Central & Northern Japan",
         "URL": "https://archive.org/details/ahandbookfortra00hawegoog",
         "author": [
-            { "given": "Ernest Mason", "family": "Satow" },
-            { "given": "A. G. S.", "family": "Hawes"}
+            {
+                "given": "Ernest Mason",
+                "family": "Satow"
+            },
+            {
+                "given": "A. G. S.",
+                "family": "Hawes"
+            }
         ],
-        "issued": {"year": 1881},
+        "issued": {
+            "year": 1881
+        },
         "publisher": "Kelly & Co.",
         "publisher-place": "Yokohama, Japan",
         "type": "book"
@@ -4017,19 +4034,27 @@
         "title": "Japanese Games of Memory, Matching, and Identification",
         "container-title": "Asian Games: The Art of Contest",
         "ISBN": "0-87848-099-4",
-        "issued": {"year": 2004},
+        "issued": {
+            "year": 2004
+        },
         "author": [
-            {"given": "Tomoko", "family": "Sakomura"}
+            {
+                "given": "Tomoko",
+                "family": "Sakomura"
+            }
         ],
         "page": "252–271",
         "publisher": "Asia Society"
-    }, 
+    },
     "EssaysInIdleness": {
         "id": "EssaysInIdleness",
         "type": "book",
         "title": "Essays in Idleness: the <span lang='ja-Latn'>Tsurezuregusa</span> of <span lang='ja-Latn' class='noun'>Kenkō</span>",
         "author": [
-            {"given": "Donald", "family": "Keene"}
+            {
+                "given": "Donald",
+                "family": "Keene"
+            }
         ],
         "issued": {
             "year": 1967
@@ -4042,10 +4067,17 @@
     "CabinetOfficeEntertainment": {
         "id": "CabinetOfficeEntertainment",
         "type": "webpage",
-        "issued": { "year": 1956 },
+        "issued": {
+            "year": 1956
+        },
         "title": "娯楽に関する世論調査",
         "title-lang": "ja",
-        "author": [ { "given": "内閣府", "lang": "ja" } ],
+        "author": [
+            {
+                "given": "内閣府",
+                "lang": "ja"
+            }
+        ],
         "publisher": "内閣府大臣官房政府広報室",
         "publisher-place": "Tokyo, Japan",
         "publisher-lang": "ja",
@@ -4054,40 +4086,58 @@
     "NihonGoraku": {
         "id": "NihonGoraku",
         "type": "webpage",
-        "issued": {"year": 2018},
+        "issued": {
+            "year": 2018
+        },
         "title": "会社案内｜日本娯楽",
         "title-lang": "ja",
-        "publisher":  "日本娯楽",
+        "publisher": "日本娯楽",
         "publisher-lang": "ja",
         "URL": "http://nihongoraku.co.jp/company/"
-    }, 
+    },
     "TheEastandtheIdeaofEurope": {
         "id": "TheEastandtheIdeaofEurope",
         "type": "chapter",
-        "issued": {"year": 2010},
+        "issued": {
+            "year": 2010
+        },
         "title": "Invention of the West in Japan",
         "container-title": "The East and the Idea of Europe",
         "ISBN": "9781443825313",
         "author": [
-            {"given": "Rio", "family": "Takeuchi"}
+            {
+                "given": "Rio",
+                "family": "Takeuchi"
+            }
         ],
         "editor": [
-            {"given": "Katalin", "family": "Miklóssy"},
-            {"given": "Pekka", "family": "Korhonen"}
+            {
+                "given": "Katalin",
+                "family": "Miklóssy"
+            },
+            {
+                "given": "Pekka",
+                "family": "Korhonen"
+            }
         ],
         "page": "23–42",
         "publisher-place": "Newcastle upon Tyne, UK",
         "publisher": "Cambridge Scholars Publishing",
         "URL": "https://www.oulu.fi/Harukaze/Takeuchi_2010.html"
-    }, 
+    },
     "FantasyOfFarJapan": {
         "id": "FantasyOfFarJapan",
         "title": "A Fantasy of Far Japan: Or, Summer Dream Dialogues",
         "type": "book",
         "author": [
-            { "family": "Suematsu", "given": "Kenchō" }
+            {
+                "family": "Suematsu",
+                "given": "Kenchō"
+            }
         ],
-        "issued": {"year": 1905},
+        "issued": {
+            "year": 1905
+        },
         "publisher-place": "London, UK",
         "publisher": "Archibald Constable & Co.",
         "URL": "https://archive.org/details/afantasyfarjapa01suemgoog"
@@ -4096,9 +4146,14 @@
         "id": "JapanInTheTaishoEra",
         "type": "book",
         "title": "Japan in the Taisho Era",
-        "issued": {"year": 1917},
+        "issued": {
+            "year": 1917
+        },
         "author": [
-            {"family": "Iwata", "given": "Nishizawa"}
+            {
+                "family": "Iwata",
+                "given": "Nishizawa"
+            }
         ],
         "URL": "https://archive.org/details/japanintaishoera00nishrich"
     },
@@ -4107,12 +4162,20 @@
         "type": "article-journal",
         "title": "Tar Heel Tobacconist in Tokyo, 1899–1904",
         "author": [
-            { "family": "Durdern", "given": ["Robert", "F."] }
+            {
+                "family": "Durdern",
+                "given": [
+                    "Robert",
+                    "F."
+                ]
+            }
         ],
         "publisher": "North Carolina Office of Archives and History",
         "volume": "50",
         "issue": "4",
-        "issued": {"year":1976},
+        "issued": {
+            "year": 1976
+        },
         "container-title": "The North Carolina Historical Review",
         "URL": "https://www.jstor.org/stable/23529457",
         "page": "347–363"
@@ -4128,5 +4191,88 @@
         "publisher": "SRF Schweizer Radio und Fernsehen",
         "publisher-lang": "gsw",
         "URL": "https://web.archive.org/web/20141118232655/http://www.srf.ch/sendungen/schnabelweid/mundart-lexikon"
+    },
+    "BasothoOralPoetry": {
+        "id": "BasothoOralPoetry",
+        "type": "thesis",
+        "title": "Basotho oral poetry at the beginning of the 21st century",
+        "author": [
+            {
+                "family": "Tšiu",
+                "given": "William Moruti"
+            }
+        ],
+        "issued": {
+            "year": 2008
+        },
+        "publisher": "University of South Africa",
+        "publisher-place": "Pretoria, South Africa",
+        "URL": "http://uir.unisa.ac.za/handle/10500/1362"
+    },
+    "UltraStrongMorris": {
+        "id": "UltraStrongMorris",
+        "type": "article-journal",
+        "title": "Calculating Ultrastrong and Extended Solutions for Nine Men’s Morris, Morabaraba, and Lasker Morris",
+        "author": [
+            {
+                "given": "Gábor E.",
+                "family": "Gévay"
+            },
+            {
+                "given": "Gábor",
+                "family": "Danner"
+            }
+        ],
+        "issued": {
+            "year": 2016
+        },
+        "volume": 8,
+        "issue": 3,
+        "pages": "256–267",
+        "container-title": "IEEE Transactions on Computational Intelligence and AI in Games",
+        "URL": "https://ieeexplore.ieee.org/document/7080922/"
+    },
+    "MasculinityAccordion": {
+        "id": "MasculinityAccordion",
+        "title": "Masculinity as a popular theme in the development of Basotho accordion music",
+        "type": "thesis",
+        "author": [
+            { "given" : "Palesa", "family": "Khotso"}
+        ],
+        "issued": {"year": 2017},
+        "publisher": "University of South Africa",
+        "publisher-place": "Pretoria, South Africa",
+        "URL": "https://core.ac.uk/download/pdf/160476343.pdf"
+    },
+    "TransmitterOfAccolades": {
+        "id": "TransmitterOfAccolades",
+        "type": "article-newspaper",
+        "title": "Transmitter of accolades to the deserving",
+        "author": [
+            {"given": "Pali", "family": "Lehohla"}
+        ],
+        "issued": {"year": 2018, "month": 11, "day": 20 },
+        "container-title": "Independent Online",
+        "URL": "https://www.iol.co.za/business-report/opinion/transmitter-of-accolades-to-the-deserving-18185114"
+    },
+    "SesothoFarming": {
+        "id": "SesothoFarming",
+        "type": "thesis",
+        "title": "Sesotho farming: the condition and prospects of agriculture in the lowlands and foothills of Lesotho",
+        "author": [
+            { "given": "Stephen D.", "family": "Turner" }
+        ],
+        "issued": {"year": 1978},
+        "publisher": "School of Oriental and African Studies, University of London",
+        "URL": "https://eprints.soas.ac.uk/29099/1/10731194.pdf"
+    },
+    "SaudahBhaimia": {
+        "id": "SaudahBhaimia",
+        "type": "webpage",
+        "issued": {"year": 2021},
+        "publisher": "Mind Sports South Africa",
+        "container-title": "Esports, and other games",
+        "title": "Saudah Bhaimia (Curro Klerksdorp) leads the pack",
+        "URL": "https://esportscommentator.blogspot.com/2021/02/saudah-bhaimia-curro-klerksdorp-leads.html"
     }
 }

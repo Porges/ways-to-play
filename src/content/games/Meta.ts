@@ -55,7 +55,6 @@ const games = {
     players: [2],
     draft: true,
     import: React.lazy(() => import(/* webpackChunkName: 'nine-mens-morris' */ './NineMensMorris/NineMensMorris'))
-
   },
   'take-it-away': {
     title: "Take It Away",

@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { GameRef } from 'content/games/Game';
 import { ArticleImage, Cite, Section, Noun, Footnote } from 'ui';
-import { MundartLexikon, MerylsBoardEnigma, GamesGreekAndRoman, TheVikingShipFromGokstad, RamatHanadiv, RomanGameBoards, AncientEgyptiansAtPlay, AncientCeylon, Murray, MetropoliticalVisitation, KlassischeSpiele, OxfordBG, AlfonsoGames, SolvingLaskerMorris, Hyde, GommeI, NotesAndQueriesS8V12, Figmill, PubGamesOfEngland, MacedonianFolklore, GuptaD } from 'References/bibliography.json';
+import { MundartLexikon, UltraStrongMorris, MerylsBoardEnigma, GamesGreekAndRoman, TheVikingShipFromGokstad, RamatHanadiv, RomanGameBoards, AncientEgyptiansAtPlay, AncientCeylon, Murray, MetropoliticalVisitation, KlassischeSpiele, OxfordBG, AlfonsoGames, SolvingLaskerMorris, Hyde, GommeI, NotesAndQueriesS8V12, Figmill, PubGamesOfEngland, MacedonianFolklore, GuptaD } from 'References/bibliography.json';
 
 import imgWall from './P1130411a.jpg';
 import imgLargeMerels from 'content/articles/mill-games/large_merels.svg';
@@ -25,7 +25,7 @@ import imgTrenchoBoard from './nma_149016_ma45226671_trencho_board_game.jpg';
 import imgTwelveMensMorris from './shutterstock_235028281.jpg';
 
 const TakeItAway: React.FC = () => <>
-  <p><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Byzatine times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</p>
+  <p><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Byzantine times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</p>
   <p>In addition to being a game, the board was used as some kind of talisman or symbol; <Cite r={MerylsBoardEnigma} inline page={330} /> collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.</p>
   {/*
 Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @Bell, p. 93; @Murray2,
@@ -147,6 +147,9 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       Detail from the 16th-century tapestry <cite lang="fr">Suite des Nobles Pastorales</cite>.
     </ArticleImage>
   </Section>
+  <Section title="Theory">
+    <p>With perfect play, the game is a draw.<Cite r={UltraStrongMorris} /></p>
+  </Section>
   <Section title="Variants">
     <Section title="Alternate boards">
       <p>The standard rules can be adapted to play on many different boards. As in standard Nine Men’s Morris, mills must always be in a straight line and may not turn corners.</p>
@@ -194,7 +197,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     <Section title="Lasker Morris">
       <p>This variant was developed by <Noun lang="de">Emanuel Lasker</Noun>, who was World Chess Champion from 1894 to 1921. It unifies the two phases of the game into one.</p>
       <p>Play is as in the standard game, except that each player has 10 pieces instead of 9, and on a player’s turn they may <em>either</em> place a new piece or move a piece that is already on the board.</p>
-      <p>With perfect play the game is a draw.<Cite r={SolvingLaskerMorris} /></p>
+      <p>With perfect play the game is a draw.<Cite r={SolvingLaskerMorris} /><Cite r={UltraStrongMorris}/></p>
     </Section>
   </Section>
   <Section title="Commercial Variants">

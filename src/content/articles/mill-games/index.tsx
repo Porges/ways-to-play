@@ -60,7 +60,7 @@ const MillGames: React.FC = () => {
       <p><b>Mill</b>: three pieces in a row.</p>
       <ul>
         <li>Icelandic <span lang="is">mylna</span>, ‘mill’.<Cite r={Fiske} page={138} /></li>
-        <li>SeSotho <span lang="st">molamu</span> ‘staff’.<Cite r={BasothoChildren} page={35} /></li>
+        <li>Sotho <span lang="st">molamu</span> ‘staff’.<Cite r={BasothoChildren} page={35} /></li>
         <li>Somali <span lang="so">charri</span> ‘halter’,<Cite r={SomaliGames} page={504} /><Cite r={BritishSomaliland} page={130} /> <Pronounce file={pronSaddex} lang="so" word="saddex" pronouncer="ahmed_aw_abdi" /> ‘three’,<Cite r={BritishSomaliland} page={130} /> or <span lang="so">jare</span> ‘cut’.<Cite r={IntroductionToShax} page={4} /></li>
         <li>Zulu <Pronounce pronouncer="Lungii" word="isibhamu" file={pronIsibhamu} lang="zu" /> ‘gun’ – this is used to “shoot” the pieces (cows).</li>
       </ul>
@@ -76,7 +76,7 @@ const MillGames: React.FC = () => {
         <li>German <Pronounce file={pronZwickmühle} lang="de" word="Zwickmühle" pronouncer='Thonatas' /> ‘double mill’.</li>
         <li>Greek <Pronounce lang="el" file={pronDiporto} word="δίπορτο" pronouncer='jpapa' /> ‘double door’.<Cite r={MacedonianFolklore} page={295} /></li>
         <li>Icelandic <span lang="is">svikamylna</span> ‘mill of treachery’.<Cite r={Fiske} page={139} /></li>
-        <li>seSotho <span lang="st">khutla</span> ‘the return’.<Cite r={MkeleMorabaraba} page={134} /></li>
+        <li>Sotho <span lang="st">kgutla</span>/<span lang="st">khutla</span> ‘to return’.<Cite r={MkeleMorabaraba} page={134} /></li>
         <li>Somali <span lang="so">irmaan</span> ‘milch’ (i.e. milk-cow).<Cite r={SomaliGames} page={505} /><Cite r={BritishSomaliland} page={210} /><Cite r={IntroductionToShax} /></li>
         <li>Swiss <Pronounce lang="gsw" word="figgi" pronouncer="kuusikuusta" file={pronFiggi} /> or <span lang="gsw">figge</span> (there is a saying that one has one’s <span lang="gsw">«Figgi und Müli»</span>, meaning “to have two options open”).<Cite r={FiggiUndMuliHaa} /></li>
       </ul>
