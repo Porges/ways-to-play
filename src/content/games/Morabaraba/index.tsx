@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArticleImage, Footnote, Noun, Section, Cite, Pronounce } from 'ui';
 
 import {
-  MorabarabaGetOnBoard, FromBearnToSouthernAfrica, MkeleMorabaraba, BasothoChildren, OldTswana, SeSothoDictionary, GamesBasotho, TheWorldAndCattle, UseOfMorabara, UltraStrongMorris, UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook, BasothoOralPoetry, MasculinityAccordion, TransmitterOfAccolades, SesothoFarming, SaudahBhaimia
+  MorabarabaGetOnBoard, FromBearnToSouthernAfrica, MkeleMorabaraba, BasothoChildren, OldTswana, SeSothoDictionary, GamesBasotho, TheWorldAndCattle, UseOfMorabara, UltraStrongMorris, UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook, BasothoOralPoetry, /*MasculinityAccordion, TransmitterOfAccolades,*/ SesothoFarming, SaudahBhaimia
 } from 'References/bibliography.json';
 
 import imgKliptown from "./8237668945_878d81116c_o.jpg";
