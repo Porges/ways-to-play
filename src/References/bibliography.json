@@ -4237,9 +4237,14 @@
         "title": "Masculinity as a popular theme in the development of Basotho accordion music",
         "type": "thesis",
         "author": [
-            { "given" : "Palesa", "family": "Khotso"}
+            {
+                "given": "Palesa",
+                "family": "Khotso"
+            }
         ],
-        "issued": {"year": 2017},
+        "issued": {
+            "year": 2017
+        },
         "publisher": "University of South Africa",
         "publisher-place": "Pretoria, South Africa",
         "URL": "https://core.ac.uk/download/pdf/160476343.pdf"
@@ -4249,9 +4254,16 @@
         "type": "article-newspaper",
         "title": "Transmitter of accolades to the deserving",
         "author": [
-            {"given": "Pali", "family": "Lehohla"}
+            {
+                "given": "Pali",
+                "family": "Lehohla"
+            }
         ],
-        "issued": {"year": 2018, "month": 11, "day": 20 },
+        "issued": {
+            "year": 2018,
+            "month": 11,
+            "day": 20
+        },
         "container-title": "Independent Online",
         "URL": "https://www.iol.co.za/business-report/opinion/transmitter-of-accolades-to-the-deserving-18185114"
     },
@@ -4260,19 +4272,44 @@
         "type": "thesis",
         "title": "Sesotho farming: the condition and prospects of agriculture in the lowlands and foothills of Lesotho",
         "author": [
-            { "given": "Stephen D.", "family": "Turner" }
+            {
+                "given": "Stephen D.",
+                "family": "Turner"
+            }
         ],
-        "issued": {"year": 1978},
+        "issued": {
+            "year": 1978
+        },
         "publisher": "School of Oriental and African Studies, University of London",
         "URL": "https://eprints.soas.ac.uk/29099/1/10731194.pdf"
     },
     "SaudahBhaimia": {
         "id": "SaudahBhaimia",
         "type": "webpage",
-        "issued": {"year": 2021},
+        "issued": {
+            "year": 2021
+        },
         "publisher": "Mind Sports South Africa",
         "container-title": "Esports, and other games",
         "title": "Saudah Bhaimia (Curro Klerksdorp) leads the pack",
         "URL": "https://esportscommentator.blogspot.com/2021/02/saudah-bhaimia-curro-klerksdorp-leads.html"
+    },
+    "TimeOfCannibals": {
+        "id": "TimeOfCannibals",
+        "type": "book",
+        "title": "In the time of cannibals: the word music of South Africa’s Basotho migrants",
+        "issued": {
+            "year": 1994
+        },
+        "author": [
+            {
+                "given": "David B.",
+                "family": "Coplin"
+            }
+        ],
+        "publisher": "The University Of Chicago Press",
+        "publisher-place": "Chicago",
+        "URL": "https://archive.org/details/intimeofcannibal0000copl",
+        "ISBN": "0-266-11573-9"
     }
 }

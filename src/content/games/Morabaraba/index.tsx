@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { ArticleImage, Footnote, Noun, Section, Cite, Pronounce } from 'ui';
 
 import {
-  MorabarabaGetOnBoard, FromBearnToSouthernAfrica, MkeleMorabaraba, BasothoChildren, OldTswana, SeSothoDictionary, GamesBasotho, TheWorldAndCattle, UseOfMorabara, UltraStrongMorris, UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook, BasothoOralPoetry, /*MasculinityAccordion, TransmitterOfAccolades,*/ SesothoFarming, SaudahBhaimia
+  MorabarabaGetOnBoard, FromBearnToSouthernAfrica, MkeleMorabaraba, BasothoChildren, OldTswana, SeSothoDictionary, GamesBasotho, TheWorldAndCattle, UseOfMorabara, UltraStrongMorris, UsingGamesToPromote, BlacUmlabalaba, IndigenousGamesRuleBook, BasothoOralPoetry, /*MasculinityAccordion, TransmitterOfAccolades,*/ SesothoFarming, SaudahBhaimia, TimeOfCannibals
 } from 'References/bibliography.json';
 
 import imgKliptown from "./8237668945_878d81116c_o.jpg";
@@ -13,6 +13,8 @@ import imgLargeMerelsWithDiagonals from "content/articles/mill-games/large_merel
 import imgLargeMerelsWithFullDiagonals from "./large_merels_with_full_diagonals.svg";
 import imgInPlay from "./shutterstock_1431198950.jpg";
 import imgMuravarava from "./shutterstock_1268455078.jpg";
+import imgStaff from "./shutterstock_1759308824.jpg";
+import imgThabaBosiu from "./shutterstock_1180878514.jpg";
 
 import pronIsibhamu from 'content/articles/mill-games/pronunciation_zu_isibhamu.mp3';
 
@@ -25,6 +27,7 @@ const Morabaraba: React.FC = () => (
       size="wide"
       src={imgInPlay}
       source={{
+        organization: {orgName: "Shutterstock.com"},
         author: "ivanfolio",
         originalUrl: "https://www.shutterstock.com/image-photo/traditonal-african-strategy-board-game-know-1431198950",
         license: "stock-image",
@@ -32,17 +35,30 @@ const Morabaraba: React.FC = () => (
       A game of <Noun lang="st">Morabaraba</Noun> being played.
     </ArticleImage>
     <Section title="History">
-      <p>Surprisingly, we know precisely who imported the game from Europe:<Cite r={MkeleMorabaraba} page={134} /><Cite r={FromBearnToSouthernAfrica} page={79} /> it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis, a French protestant missionary who acted as Foreign Advisor to <a href="https://en.wikipedia.org/wiki/Moshoeshoe_I">King Moshoeshoe I</a> for nearly two decades.<Footnote>Casalis is also sometimes also referred to as Cazalis in English sources. Upon his return to France he wrote about his experiences in <cite lang="fr">Les Bassoutos: Vingt-Trois Années de Séjour et D’Observations au Sud de L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The Basutos: or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)), but the book contains no mention of any board games. There is now <a href="https://goo.gl/maps/jymZMMft3fB2">a roundabout</a> in his home town, <Noun lang="fr">Orthez</Noun>, <a href="http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php">named after him</a>.</Footnote> The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.<Cite r={FromBearnToSouthernAfrica} page={79} /> Obsession with the game also led herders to neglect their flocks,<Cite r={FromBearnToSouthernAfrica} page={79} /> so it became known by the epithet <span lang="st">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌<Cite r={BasothoChildren} page={41} /> “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌<Cite r={TheWorldAndCattle} page={56} /></p>
-      <p>The game was also popular amongst Basotho men who travelled to South Africa to work in its mines. References to <Noun lang="st">Morabaraba</Noun> can be found in <span lang="st">difela</span>/<span lang="st">lifela</span> (singular <span lang="st">sefela</span>), song–poems that were sung by these migrant workers.<Cite r={BasothoOralPoetry} page={17} /></p>
-      <p>In the past the game was restricted to being played by men, to the point that women were not permitted in the vicinity of the gaming area.<Cite r={SesothoFarming} page={95} /> Thankfully, times are changing, and as of 2021, the top-ranked player in Mind Sports South Africa’s league is a woman, named Saudah Bhaimia.<Cite r={SaudahBhaimia} /> </p>
+      <p>Surprisingly, unlike most board games we know who was responsible for transmitting the game from Europe:<Cite r={MkeleMorabaraba} page={134} /><Cite r={FromBearnToSouthernAfrica} page={79} /> it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis, a French protestant missionary who acted as Foreign Advisor to <a href="https://en.wikipedia.org/wiki/Moshoeshoe_I">King Moshoeshoe I</a> for nearly two decades.<Footnote>Casalis is also sometimes also referred to as Cazalis in English sources. Upon his return to France he wrote about his experiences in <cite lang="fr">Les Bassoutos: Vingt-Trois Années de Séjour et D’Observations au Sud de L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The Basutos: or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)), but the book contains no mention of any board games. There is now <a href="https://goo.gl/maps/jymZMMft3fB2">a roundabout</a> in his home town, <Noun lang="fr">Orthez</Noun>, <a href="http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php">named after him</a>.</Footnote> The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.<Cite r={FromBearnToSouthernAfrica} page={79} /> Obsession with the game also led herders to neglect their flocks,<Cite r={FromBearnToSouthernAfrica} page={79} /> so it became known by the epithet <span lang="st">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌<Cite r={BasothoChildren} page={41} /> “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌<Cite r={TheWorldAndCattle} page={56} /></p>
+      <p>The game was also popular amongst Basotho men who travelled to South Africa to work in its mines. References to <Noun lang="st">Morabaraba</Noun> can be found in <span lang="st">difela</span>/<span lang="st">lifela</span> (singular <span lang="st">sefela</span>), song–poems that were sung by these migrant workers.<Cite r={BasothoOralPoetry} page={[17, 175, 229]} /><Cite r={TimeOfCannibals} page={[[98, 101]]} /></p>
+      <p>In Lesotho’s past the game was restricted to being played by men, to the point that women were not permitted in the vicinity of the gaming area.<Cite r={SesothoFarming} page={95} /> Thankfully, times are changing, and as of 2021, the top-ranked player in Mind Sports South Africa’s league is a woman, named Saudah Bhaimia, who has won the last three national championships.<Cite r={SaudahBhaimia} /> </p>
+      <ArticleImage
+        src={imgThabaBosiu}
+        size="extra-wide"
+        alt=""
+        source={{
+          organization: {orgName: "Shutterstock.com"},
+          originalUrl: "https://www.shutterstock.com/image-photo/thaba-bosiu-lesotho-royal-graveyard-1180878514",
+          author: {given: "Damian", family: "Ryszawy"},
+          license: "stock-image"
+        }}>
+        Casalis was stationed at Moshoeshoe’s stronghold <a href="https://en.wikipedia.org/wiki/Thaba_Bosiu">Thaba-Bosiu</a>, which was positioned atop a sandstone plateau.
+      </ArticleImage>
     </Section>
     <Section title="Terminology">
-      <p>The name <span lang="st">moraba-raba</span> comes from the Sotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small circles’,<Cite r={SeSothoDictionary} page={304} /> so could refer to the action of a mill.‌ In Nguni languages (isiZulu, isiXhosa), it is known as <Noun lang="zu">(Um)labalaba</Noun>, with similar meaning,‌<Cite r={GamesBasotho} page={[[247, 250]]} /> and in Ronga, spoken in Mozambique, it is called <Noun lang="rng">Muravarava</Noun>.</p>
+      <p>The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small circles’,<Cite r={SeSothoDictionary} page={304} /> so could refer to the action of a mill.‌ In Nguni languages (isiZulu, isiXhosa), it is known as <Noun lang="zu">(Um)labalaba</Noun>, with similar meaning,‌<Cite r={GamesBasotho} page={[[247, 250]]} /> and in Ronga, spoken in Mozambique, it is called <Noun lang="rng">Muravarava</Noun>.</p>
       <ArticleImage
         alt="Two school chidren stand next to a table where a game of muravarava is being played, looking at the board intensely, while an umpire watches."
         src={imgMuravarava}
         source={{
           copyrightYear: 2018,
+          organization: {orgName: "Shutterstock.com"},
           author: "ivanfolio",
           originalUrl: "https://www.shutterstock.com/image-photo/manica-mozambique-december-19-2018-young-1268455078",
           license: "stock-image",
@@ -50,8 +66,22 @@ const Morabaraba: React.FC = () => (
         A game of <Noun lang="rng">Muravarava</Noun> being played in Mozambique, at Chinhamapere Secondary School.
     </ArticleImage>
       <Footnote standalone>There are two different <a href="https://en.wikipedia.org/wiki/Sesotho_orthography">Sesotho orthographies</a>. In this article I give the South African one first, followed by the Lesotho.</Footnote>
-      <p>There are other names which are probably derived from the European name of ‘mill’:‌<Cite r={MkeleMorabaraba} page={134} /> an alternate Sesotho name is <span lang="st">mmila</span>/<span lang="st">’mila</span>, ‘road’.‌<Cite r={UsingGamesToPromote} page={283} /> In Botswana, the game is called <span lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌<Cite r={OldTswana} page={350} />), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.<Footnote>Because of the large overlap of names, in written descriptions <Noun lang="st">Morabaraba</Noun> is often confused with other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe); see, for example, <Cite r={MorabarabaGetOnBoard} inline />.</Footnote></p>
-      <p>A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌<Cite r={UseOfMorabara} page={588} /> in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). In isiZulu a mill is a <Pronounce pronouncer="Lungii" word="isibhamu" file={pronIsibhamu} lang="zu" /> (‘gun’), which allows you to “shoot” an opponent’s cow, while in Sotho the mill is called a <span lang="st">molamu</span> (a traditional staff carried by shepherds), and you can eat (<span lang="st">ja</span>) a cow.<Cite r={BasothoChildren} page={36} /></p>
+      <p>There are other names which are probably derived from the European name of ‘mill’:‌<Cite r={MkeleMorabaraba} page={134} /> an alternate Sesotho name is <span lang="st">mmila</span>/<span lang="st">’mila</span>, ‘road’.‌<Cite r={UsingGamesToPromote} page={283} /> In Botswana, the game is called <span lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌<Cite r={OldTswana} page={350} />), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.
+      <Footnote>Because of the large overlap of names, in written descriptions <Noun lang="st">Morabaraba</Noun> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, <Cite r={MorabarabaGetOnBoard} inline />).</Footnote></p>
+      <ArticleImage
+        alt="Two men dressed in warm blankets, gumboots, and balaclava, carrying staffs"
+        position="left"
+        src={imgStaff}
+        source={{
+          originalUrl: "https://www.shutterstock.com/image-photo/bloemfontein-south-africa-september-11th-2019-1759308824",
+          author: { given :"Vladimira", family: "Pufflerova" },
+          organization: {orgName: "Shutterstock.com"},
+          license: "stock-image"
+        }}
+        >
+        Two Lesotho herdmen carrying staffs. What appear to be caps are rolled-up balaclava.
+      </ArticleImage>
+      <p>A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sesotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌<Cite r={UseOfMorabara} page={588} /> in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). In isiZulu a mill is a <Pronounce pronouncer="Lungii" word="isibhamu" file={pronIsibhamu} lang="zu" /> (‘gun’), which allows you to “shoot” an opponent’s cow, while in Sesotho the mill is called a <span lang="st">molamu</span> (a staff carried by shepherds), and you can eat (<span lang="st">ja</span>) a cow.<Cite r={BasothoChildren} page={36} /></p>
     </Section>
     <Section title="Play">
       <p>The following description is based on Mind Sports South Africa’s “Generally Accepted Rules”. As with all traditional board games, local rules can vary.</p>
@@ -73,7 +103,7 @@ const Morabaraba: React.FC = () => (
     </Section>
     {/*
     <Section title="Strategy">
-      <p>There are some well-known strategies (<span lang="st">mawa</span>/<span lang="st">maoa</span>, singular <span lang="st">lewa</span>/<span lang="st">leoa</span>) that have been named. Unfortunately I have not been able to figure out exactly what they represent, but possibly they are names of specific piece formations.<Cite r={TransmitterOfAccolades} /> The Sotho names are: <span lang="st">tjhitja</span>/<span lang="st">chitja</span> (‘hornless’ or ‘round’), which is apparently a winning strategy; <span lang="st">katapane</span>, another good strategy; and <span lang="st">qheane</span>, which is a poor or losing strategy.<Cite r={MasculinityAccordion} page={[[185, 186]]} /> {/*Others are seakgela/seakhela and qholo. thoenthoere/thwenthwere is a 'double hit' when two are formed at once (BasuthoChildren) /}</p>
+      <p>There are some well-known strategies (<span lang="st">mawa</span>/<span lang="st">maoa</span>, singular <span lang="st">lewa</span>/<span lang="st">leoa</span>) that have been named. Unfortunately I have not been able to figure out exactly what they represent, but possibly they are names of specific piece formations.<Cite r={TransmitterOfAccolades} /> The Sesotho names are: <span lang="st">tjhitja</span>/<span lang="st">chitja</span> (‘hornless’ or ‘round’), which is apparently a winning strategy; <span lang="st">katapane</span>, another good strategy; and <span lang="st">qheane</span>, which is a poor or losing strategy.<Cite r={MasculinityAccordion} page={[[185, 186]]} /> {/*Others are seakgela/seakhela and qholo. thoenthoere/thwenthwere is a 'double hit' when two are formed at once (BasuthoChildren) /}</p>
     </Section>
     */}
     <Section title="Theory">
@@ -86,7 +116,7 @@ const Morabaraba: React.FC = () => (
           src={imgSothoBoard}
           alt="">
           The Sotho version of the game is played on a board with a central cross.
-                </ArticleImage>
+        </ArticleImage>
         <p>The Sotho version of the game is played on a special board or flat stone (<span lang="st">letlapa</span>)<Cite r={BasothoChildren} page={35} /> where the centre square is also crossed, and the inner diagonals are missing, giving 25 points that can be played on.‌<Cite r={IndigenousGamesRuleBook} /><Cite r={MkeleMorabaraba} page={133} /> This means that there is no possibility of a deadlock after the placement phase.</p>
         <p>Some rulesets<Cite r={BlacUmlabalaba} /> state that a piece on the central point can only be the middle piece of a mill. Other lines of three formed with the central point do not count as mills.</p>
         <p>Note that it is not possible to form a diagonal mill on this board.</p>

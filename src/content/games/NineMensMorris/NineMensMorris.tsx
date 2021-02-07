@@ -183,6 +183,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         alt="An old man’s hand reaches towards a worn morris board to move a piece."
         src={imgTwelveMensMorris}
         source={{
+          organization: {orgName: "Shutterstock.com"},
           author: "Delpixel",
           originalUrl: "https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281",
           license: "stock-image"

@@ -7,14 +7,27 @@ import { Person, Name } from './Person';
 import * as L from './License';
 import { Organization, RenderOrganization } from './Organization';
 
-export type SourceInfo = {
+type CommonInfo = {
   originalUrl?: string,
   copyrightYear?: number,
   author?: Name,
   organization?: Organization,
-  license: L.LicenseName,
   licenseVersion?: L.Version,
+  license: L.LicenseName,
 }
+
+// this just requires Organization for stock-image license
+type StockInfo = {
+  originalUrl?: string,
+  copyrightYear?: number,
+  author?: Name,
+  organization: Organization,
+  licenseVersion?: L.Version,
+  license: "stock-image",
+}
+
+export type SourceInfo = CommonInfo | StockInfo
+
 
 type ResponsiveImageSrc = ResponsiveImageOutput | string
 
@@ -26,7 +39,7 @@ type Props = {
     | { src: [ResponsiveImageSrc, string][], perRow?: number }
   ) & SizePosition
 
-type SizePosition = { size: "wide", position?: "aside" } | { size?: "small", position?: "left" | "right" | "aside" }
+type SizePosition = { size: "wide", position?: "aside" } | { size?: "small", position?: "left" | "right" | "aside" } | {size: "extra-wide", position?: "aside"}
 
 const renderSource = (source: SourceInfo) => {
 
@@ -48,7 +61,7 @@ const renderSource = (source: SourceInfo) => {
     {copyrightHolder && (
       (source.originalUrl && <a href={source.originalUrl} itemProp="sameAs">{copyrightHolder}</a>)
       || copyrightHolder)}
-    <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />)</>;
+    {source.license !== 'stock-image' && <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />})</>;
 }
 
 const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, noborder?: boolean) => {
@@ -118,9 +131,11 @@ export const ArticleImage: React.FC<Props> = props => {
 
   // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
   const sizes =
-    props.size === 'wide'
-      ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px"
-      : "(max-width: 575.98px) 300px, 600px";
+    props.size === 'extra-wide'
+      ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, (max-width: 1199.98px) 800px, 1000px"
+      : props.size === 'wide' 
+        ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px"
+        : "(max-width: 575.98px) 300px, 600px";
 
   // if no source was provided, source is me
   const sourceInfo =

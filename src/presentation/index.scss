@@ -216,9 +216,15 @@ figure {
         clear: both;
     }
 
-    figure.wide .figure-img {
-        max-height: none;
+    figure.extra-wide {
+        width: 155%;
+        margin-left: -10%;
+        clear: both;
+    }
 
+    figure.wide .figure-img,
+    figure.extra-wide .figure-img {
+        max-height: none;
         border-width: 2px;
     }
 

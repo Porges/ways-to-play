@@ -715,12 +715,12 @@ const Hanafuda: React.FC = () => {
         </section>
         <p>This poem, which appears in full on the <span lang="ja-Latn">kasu</span> cards of the <span lang="ja-Latn">Echigo-bana</span> pattern,<Cite r={PoemsOfTheEchigobana} page={100} /> is in the form of an acrostic; the first letters of each line spell out <span lang="ja-Latn">kakitsuhata</span> <span lang="ja">かきつはた</span>, which is the name of the Japanese iris (<span lang="ja">杜若</span> <Pronounce pronouncer="kaoring" word="kakitsubata" lang="ja-Latn" file={pronKakitsubata} />).<Footnote>Note that at the time this poem was written, written Japanese did not distinguish between <span lang="ja">は</span> <span lang="ja-Latn">ha</span> and <span lang="ja">ば</span> <span lang="ja-Latn">ba</span>.</Footnote>  Because of this scene, the iris and the planked bridge have a long association in Japan.</p>
         <ArticleImage
-          size="wide"
+          size="extra-wide"
           src={[
             [imgIrises1, ""],
             [imgIrises2, ""],
           ]}
-          perRow={1}
+          perRow={2}
           source={{ license: 'cc0' }}>
           <cite>Irises at <Noun lang="ja-Latn">Yatsuhashi</Noun></cite><br /><cite lang="ja">八橋図屏風</cite><br />A pair of screens by the artist <Noun lang="ja-Latn">Ogata Kōrin</Noun> (<span lang="ja">尾形光琳</span>, 1658–1716)
         </ArticleImage>
