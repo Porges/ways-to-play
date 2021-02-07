@@ -15,6 +15,7 @@ import imgInPlay from "./shutterstock_1431198950.jpg";
 import imgMuravarava from "./shutterstock_1268455078.jpg";
 import imgStaff from "./shutterstock_1759308824.jpg";
 import imgThabaBosiu from "./shutterstock_1180878514.jpg";
+import imgMenPlaying from './16908233_1262123897217460_4095342219718819840_n.jpg';
 
 import pronIsibhamu from 'content/articles/mill-games/pronunciation_zu_isibhamu.mp3';
 
@@ -139,8 +140,19 @@ const Morabaraba: React.FC = () => (
           src={imgLargeMerelsWithFullDiagonals}
           alt="">
           An alternate <span className="game-title" lang="st">Morabaraba</span> board.
-                </ArticleImage>
-        <p>Another board pattern is also used to play <span className="game-title" lang="st">Morabaraba</span>, with a diagonally crossed central square. I do not know if the rules vary in any way. Examples of this board can be found on Instagram: <a href="https://www.instagram.com/p/-lij8bskZZ/">1</a>, <a href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>, <a href="https://www.instagram.com/p/BQ-F9JHhjXa/">3</a>.</p>
+        </ArticleImage>
+        <p>Another board pattern is also used to play <span className="game-title" lang="st">Morabaraba</span>, with a diagonally crossed central square. I do not know if the rules vary in any way.</p>
+        <ArticleImage
+          src={imgMenPlaying}
+          alt="Two sets of men playing on two different morabaraba boards."
+          source={{
+            copyrightYear: 2017,
+            author: "mk11photography",
+            license: "with-permission",
+            originalUrl: "https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624"
+          }}>
+          Men playing on a different <span className="game-title" lang="st">Morabaraba</span> board. More examples of this board can be found on Instagram: <a href="https://www.instagram.com/p/-lij8bskZZ/">1</a>, <a href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>.
+        </ArticleImage>
       </Section>
     </Section>
   </>);
