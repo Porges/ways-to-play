@@ -28,6 +28,7 @@ type StockInfo = {
 
 export type SourceInfo = CommonInfo | StockInfo
 
+
 type ResponsiveImageSrc = ResponsiveImageOutput | string
 
 type Props = {
@@ -73,15 +74,7 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
         <span style={{backgroundImage: `url('${src}')`}}></span>
       </a>
       <a href={'#'+id}>
-        <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} fluid={false} onLoadedMetadata={ev => {
-          ev.currentTarget.width = ev.currentTarget.naturalWidth;
-          ev.currentTarget.height = ev.currentTarget.naturalHeight;
-        }} ref={el => {
-          if (el?.complete) {
-            el.width = el.naturalWidth;
-            el.height = el.naturalHeight;
-          }
-        }} />
+        <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} fluid={false} />
       </a></>);
   }
 
@@ -109,16 +102,8 @@ const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: strin
       </a>
       <a href={'#'+id}>
         {typeof src === 'string'
-          ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} fluid={false} onLoadedMetadata={ev => {
-            ev.currentTarget.width = ev.currentTarget.naturalWidth;
-            ev.currentTarget.height = ev.currentTarget.naturalHeight;
-          } } ref={el => {
-            if (el?.complete) {
-              el.width = el.naturalWidth;
-              el.height = el.naturalHeight;
-            }
-          } } />
-          : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} fluid={false} />}
+          ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} />
+          : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />}
       </a>
     </div>
   );
