@@ -170,9 +170,6 @@ img {
     width: auto;
     height: auto;
 
-    // see: https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/
-    //aspect-ratio: attr(width) / attr(height);
-
     border: 1px solid black;
 }
 
@@ -440,15 +437,6 @@ div.multi > * {
 
 /* note that this applies to multi-image figures, not figures inside a multi */
 figure > div.multi .figure-img {
-    /* In flexbox images have an implied min-width of their 
-     * implicit size so we need to override that. Then setting
-     * width and height to 100% fixes the aspect ratio. /shrug
-     * This solution from: https://github.com/philipwalton/flexbugs/issues/225
-     */
-    min-width: 0;
-    width: 100%;
-    // height: 100%;
-
     border: none;
 }
 
