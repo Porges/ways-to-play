@@ -1,38 +1,36 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+﻿<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"[]><svg width="800" height="800" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <g id="Board">
         <g transform="matrix(0.428571,0,0,0.428571,57.1429,57.1429)">
-            <rect x="100" y="100" width="1400" height="1400" style="fill:white;stroke:black;stroke-width:18.74px;"/>
+            <rect x="100" y="100" width="1400" height="1400" style="fill:white;stroke:black;stroke-width:18.74px;" />
         </g>
-        <path d="M100,400L700,400" style="fill:none;stroke:black;stroke-width:8.03px;"/>
-        <path d="M400,100L400,700" style="fill:none;stroke:black;stroke-width:8.03px;"/>
+        <path d="M100,400L700,400" style="fill:none;stroke:black;stroke-width:8.03px;" />
+        <path d="M400,100L400,700" style="fill:none;stroke:black;stroke-width:8.03px;" />
         <g transform="matrix(0.5,0,0,0.5,0,50)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
         <g transform="matrix(0.5,0,0,0.5,0,350)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
         <g transform="matrix(0.5,0,0,0.5,-300,50)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
         <g transform="matrix(0.5,0,0,0.5,300,50)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
         <g transform="matrix(0.5,0,0,0.5,300,350)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
         <g transform="matrix(0.5,0,0,0.5,-300,350)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
         <g transform="matrix(0.5,0,0,0.5,300,650)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
         <g transform="matrix(0.5,0,0,0.5,0,650)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
         <g transform="matrix(0.5,0,0,0.5,-300,650)">
-            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;"/>
+            <circle cx="800" cy="100" r="40" style="fill:rgb(235,235,235);stroke:black;stroke-width:16.06px;" />
         </g>
     </g>
 </svg>
