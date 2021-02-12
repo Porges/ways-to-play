@@ -29,7 +29,7 @@ module.exports = {
             }
 
             const loader = urlLoader.match.loader;
-            
+
             loader.use =
                 [ { loader: loader.loader
                   , options:
@@ -39,6 +39,7 @@ module.exports = {
                           , options:
                             { adapter: require('responsive-loader/sharp')
                             , sizes: [ 300, 600, 800, 1200, 1600 ]
+                            , esModule: true
                             }
                           }
                         , name: 'static/media/[name]-[width].[hash:8].[ext]'
