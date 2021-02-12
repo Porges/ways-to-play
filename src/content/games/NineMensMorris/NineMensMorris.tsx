@@ -23,6 +23,7 @@ import imgMozog from './mozog.svg';
 import imgTrencho from './trencho.svg';
 import imgTrenchoBoard from './nma_149016_ma45226671_trencho_board_game.jpg';
 import imgTwelveMensMorris from './shutterstock_235028281.jpg';
+import imgWithDice from "./Nine_Mens_Morris_with_dice_in_Libro_de_los_juegos.jpg";
 
 const TakeItAway: React.FC = () => <>
   <p><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Byzantine times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</p>
@@ -100,7 +101,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       src={imgAgora}>
       A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
     </ArticleImage>
-    <p>The game dates from at least the Byzantine period, and at the moment we do not have evidence for an earlier date.<Cite r={GamesGreekAndRoman} page={3} /><Footnote><Cite r={RamatHanadiv} page={227} inline /> describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 500–700&nbsp;CE, while a cache of gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun> that was abandoned in the late 4th century contained no mills boards.<Cite r={RomanGameBoards} /></Footnote> Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum<Cite r={AncientEgyptiansAtPlay} page={144} /> and the Mortuary Temple of Seti I at Qurna,<Cite r={AncientCeylon} page={644} /> but these are not able to be dated definitively—the monument only provides an <em>earliest possible</em> date.</p>
+    <p>The game dates from at least the Byzantine period, and at the moment we do not have evidence for an earlier date.<Cite r={GamesGreekAndRoman} page={3} /><Footnote><Cite r={RamatHanadiv} page={227} inline /> describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 400–600&nbsp;CE, while a cache of gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun> that was abandoned in the late 4th century contained no mills boards.<Cite r={RomanGameBoards} /></Footnote> Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum<Cite r={AncientEgyptiansAtPlay} page={144} /> and the Mortuary Temple of Seti I at Qurna,<Cite r={AncientCeylon} page={644} /> but these are not able to be dated definitively—the monument only provides an <em>earliest possible</em> date.</p>
     <p>The game spread throughout Europe quickly: a double-sided game board with a Nine Men’s Morris layout on one side was found as part of the 9th-century <a href="https://en.wikipedia.org/wiki/Gokstad_ship">Gokstad Viking ship burial</a> discovered in Norway.<Cite r={TheVikingShipFromGokstad} page={[44, 99]} />.</p>
     <ArticleImage
       src={imgBonus}
@@ -183,7 +184,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         alt="An old man’s hand reaches towards a worn morris board to move a piece."
         src={imgTwelveMensMorris}
         source={{
-          organization: {orgName: "Shutterstock.com"},
+          organization: { orgName: "Shutterstock.com" },
           author: "Delpixel",
           originalUrl: "https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281",
           license: "stock-image"
@@ -192,13 +193,18 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       </ArticleImage>
     </Section>
     <Section title="With Dice">
+      <ArticleImage
+        alt="A manuscript drawing of two men sitting beside a morris board with pieces and dice on it, while their attendants hold their spears."
+        src={imgWithDice}>
+        A game being played with dice, from Alfonso X’s <cite>Book of Games</cite>.
+      </ArticleImage>
       <p>Alfonso X’s book of games describes a variant played with dice.<Cite r={AlfonsoGames} /> While it is unclear from the manuscript what the exact rules are, there are two suggested versions:</p>
       <p>TODO</p>
     </Section>
     <Section title="Lasker Morris">
       <p>This variant was developed by <Noun lang="de">Emanuel Lasker</Noun>, who was World Chess Champion from 1894 to 1921. It unifies the two phases of the game into one.</p>
       <p>Play is as in the standard game, except that each player has 10 pieces instead of 9, and on a player’s turn they may <em>either</em> place a new piece or move a piece that is already on the board.</p>
-      <p>With perfect play the game is a draw.<Cite r={SolvingLaskerMorris} /><Cite r={UltraStrongMorris}/></p>
+      <p>With perfect play the game is a draw.<Cite r={SolvingLaskerMorris} /><Cite r={UltraStrongMorris} /></p>
     </Section>
   </Section>
   <Section title="Commercial Variants">
