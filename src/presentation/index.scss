@@ -429,6 +429,11 @@ div.multi > * {
     margin: 5px 10px;
 }
 
+// space out after poetry etc
+div.multi > p {
+    margin-bottom: 1em;
+}
+
 @include media-breakpoint-down(sm) {
     div.multi.only-large {
         display: block;
