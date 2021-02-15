@@ -17,10 +17,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "incremental": true,
     "jsx": "react",
     "baseUrl": "./src",
     "downlevelIteration": true,
-    "importHelpers": true
+    "importHelpers": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src"

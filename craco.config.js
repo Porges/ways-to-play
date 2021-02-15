@@ -16,8 +16,8 @@ module.exports = {
                     options: { name: 'static/media/[name].[hash:8].[ext]' }
                 };
 
-            const rule = config.module.rules[2];
-            if (!('oneOf' in rule)) {
+            const rule = config.module.rules[1];
+            if (!rule || !('oneOf' in rule)) {
                 throw new Error('Craco config needs updating, CRA has been updated.');
             }
 
