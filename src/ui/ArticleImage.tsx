@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Figure from 'react-bootstrap/Figure'
-import uuid from 'uuid';
+import * as uuid from 'uuid';
 import slug from 'slug';
 
 import { Person, Name } from './Person';
