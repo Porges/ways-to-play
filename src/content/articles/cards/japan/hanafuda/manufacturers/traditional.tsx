@@ -990,6 +990,7 @@ const Manufacturers: React.FC = () => {
         </ArticleImage>
       </Section>
       <Section title={<>Universal (<span lang="ja">ユニバーサル</span>)</>}>
+        <Footnote standalone>There was also <a href="https://www.wopc.co.uk/alfcooke/index">a Universal Playing Card Co. based in England</a>. As far as I can tell, the two companies were unrelated.</Footnote>
         <ArticleImage
           src={imgUniversalAce}
           alt=""
