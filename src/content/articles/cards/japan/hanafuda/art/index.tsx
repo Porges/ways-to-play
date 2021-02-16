@@ -865,16 +865,37 @@ const Hanafuda: React.FC = () => {
             <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> cards, with reduced form of the <span lang="ja-Latn">tanka</span>.
           </ArticleImage>
         </div>
-        <p><Cite r={PoemsOfTheEchigobana} inline /> says that the poem on the <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards is “untranslatable”, because it has been corrupted. Ebashi believes it is meant to be poem 422 of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>, or perhaps a revision of it:</p>
+        <p><Cite r={PoemsOfTheEchigobana} inline /> says that the poem on the <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards is “untranslatable”, because it has been corrupted, but that it is based on poem 422 of the <Noun lang="ja-Latn">Shin Kokinshū</Noun>:</p>
         <Footnote standalone>This poem was composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Kuj%C5%8D_Yoshitsune">Fujiwara no Yoshitsune</a></Noun> (<span lang="ja">藤原良経</span>, 1169–1206).</Footnote>
         <div className="multi">
+          {/*
+          <p lang="ja" className="vertical-rl">
+            行く末𛂞<br/>雲もひと𛁩に<br/>むさ𛁅の<br/>陰𛂜原より<br/>?𛂦る月影
+          </p>
+          */}
           <p lang="ja" className="vertical-rl">
             行く末は<br />空もひとつの<br />武蔵野に<br />草の原より<br />出づる月影
-        </p>
+          </p>
           <p>
             Its destination:<br /> The skies, one with<br /> Musashi Plain, where<br /> From among the fields of grass<br /> Emerges moonlight.<br /><Cite r={SKKS442} />
           </p>
         </div>
+        <p>The <span lang="ja-Latn">Awa-bana kasu</span> carry a shortened version, with the two cards carrying mirror versions:</p>
+        <div className="multi">
+          <p lang="ja" className="vertical-rl">
+            月のけ𛀆<br/>
+            むさしのゝ𛂦ら<br/>
+            <br/>
+            むさしの〻<br/>
+            月𛂜け𛀆
+          </p>
+          <p lang="ja" className="vertical-rl">
+            月の景武蔵野の原<br/>
+            武蔵野の月の景
+          </p>
+          <p>View of the moon: <Noun lang="ja-Latn">Musashino</Noun> plain<br/><br/><Noun lang="ja-Latn">Musashino</Noun>’s view of the moon</p>
+        </div>
+        <br/>
         <ArticleImage
           size="wide"
           src={imgSC14}
