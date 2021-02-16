@@ -479,7 +479,7 @@ const Hanafuda: React.FC = () => {
           An old pine <span lang="ja-Latn">tanzaku</span> card with inscription reading <span lang="ja-Latn">urasu</span> (<span lang="ja">宇良す</span>), the name of a <Noun lang="ja-Latn">Hachi-Hachi</Noun> <span lang="ja-Latn">yaku</span>. Produced by <span lang="ja">現〇商会</span>.
         </ArticleImage>
         <p>The text on the <span lang="ja-Latn">tanzaku</span> reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.<Footnote>The writing on the <span lang="ja-Latn">tanzaku</span> uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.</Footnote> This means ‘red is good’ and was an older name of a <Noun lang="ja-Latn">Hachi-Hachi</Noun> <span lang="ja-Latn">yaku</span> (scoring com&shy;bin&shy;ation) which is now called <span lang="ja-Latn">akatan</span>.<Footnote>The meaning of this phrase is usually said to be “unclear”, even by <Noun lang="ja-Latn">Hanafuda</Noun> manufacturers. Some derive a meaning like ‘clearly good’ based on reading <span lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span> show <span lang="ja-Latn">akayoroshi</span> alongside <span lang="ja-Latn">aoyoroshi</span> (‘blue is good’) indicating that <span lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).</Footnote> Cards from vintage decks can carry older names for this <span lang="ja-Latn">yaku</span>, such as <span lang="ja-Latn">urasu</span>, or sometimes simply <span lang="ja">正月/初月</span>, indicating the first lunar month.</p>
-        <p>In the <span lang="ja-Latn">Echigo-bana</span> and <span lang="ja-Latn">Awa-bana</span> patterns, the <span lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun><Footnote><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<abbr title="died">d.</abbr> 983) was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</Footnote> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the <Pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn" file={pronKokinWakashu} noun /> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
+        <p>In the <span lang="ja-Latn">Echigo-bana</span> pattern, the <span lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span> composed by <Noun lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki">Mina­moto no Mune­yuki</a></Noun><Footnote><Noun lang="ja-Latn">Mina­moto no Mune­yuki</Noun> (<abbr title="died">d.</abbr> 983) was a Heian era poet, and named one of the ‘Thirty-Six Immortals of Poetry’.</Footnote> (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of <a href="https://en.wikipedia.org/wiki/Emperor_Uda">Emperor <Noun lang="ja-Latn">Uda</Noun></a> (<span lang="ja">宇多天皇</span>). It is featured as Poem 24 in the ‘Spring’ section of the <Pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn" file={pronKokinWakashu} noun /> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):</p>
         <Footnote standalone>
           <p><Cite r={PoemsOfTheEchigobana} page={4} inline /> notes that in the standard design printed by Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing the <span lang="ja">も</span> on the second ‘line’.</p>
         </Footnote>
@@ -489,7 +489,16 @@ const Hanafuda: React.FC = () => {
         </p>
           <p>Even the verdure<br />of foliage on the pine tree,<br />“ever unchanging”,<br />deepens into new richness<br />now that springtime has arrived.<Cite r={KokinWakashu} page={18} /></p>
         </div>
-        <br />
+        <p>The <span lang="ja-Latn">Awa-bana kasu</span> carries a shortened reference to this poem, announcing that spring is here:</p>
+        <div className="multi">
+          <p lang="ja" className="vertical-rl">
+            とき𛂞き𛂞<br/>みどり
+          </p>
+          <p lang="ja" className="vertical-rl">
+            常磐木は<br/>緑
+          </p>
+          <p>The unchanging tree<br/>is green.</p>
+        </div>
         <div className="multi">
           <ArticleImage
             size="small"
@@ -536,7 +545,6 @@ const Hanafuda: React.FC = () => {
           <p lang="ja">うぐひすの谷よりいづるこゑなくは春くることをたれかしらまし</p>
           <p>Without the voice of the warbler that comes out of the valley, how would we know the arrival of spring?<Cite r={FourSeasons} page={952} pageType="l." /></p>
         </div>
-        <br />
         <ArticleImage
           size="small"
           src={imgPoem4}
@@ -591,7 +599,7 @@ const Hanafuda: React.FC = () => {
         </ArticleImage>
         <p>The third month is represented by cherry trees in bloom (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file={pronSakura} />). Blossom-viewing (<span lang="ja">花見</span> <Pronounce pronouncer="samchie" word="hanami" lang="ja-Latn" file={pronHanami} />), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period. The curtains (<span lang="ja">幕</span> <Pronounce pronouncer="skent" word="maku" lang="ja-Latn" file={pronMaku} />) that are shown on the bright card provide privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the right. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>
         <p>The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">mi&shy;yoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’,<Footnote>
-          Some older cards have variations on this phrase, like <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
+          Some older cards spell this phrase differently, some examples are: <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
             Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
         </Footnote> which is a sobriquet for the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, famous for its cherry blossoms. The term <span lang="ja-Latn">miyoshino</span> is <a href="http://www.wakapoetry.net/?s=miyosino">often used to refer to this location</a> in the imperial poetry collections.</p>
         <p>In 1688, <a href="https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D"><Noun lang="ja-Latn">Matsuo Bashō</Noun></a> (<span lang="ja">松尾芭蕉</span>), Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, visited <Noun lang="ja-Latn">Yoshino</Noun> during his travels but found himself unable to compose a single poem, overwhelmed by the pressure of trying to live up to his predecessors.<Cite r={NarrowRoad} page={84} /> One of them, <Noun lang="ja-Latn">Yasuhara Teishitsu</Noun> (<span lang="ja">安原貞室</span>), had composed what <Noun lang="ja-Latn">Bashō</Noun> considered to be the “finest <span lang="ja-Latn">hokku</span> ever written”:<Cite r={TheClassicTraditionOfHaiku} page={8} /></p>
@@ -794,14 +802,14 @@ const Hanafuda: React.FC = () => {
             In the autumn fields<br />
             When I count them on my fingers,<br />
             There they are—<br />
-            The flowers of seven kinds.<br />
+            The flowers of seven kinds.
           </p>
           <p>
             They are the bush-clover,<br />
             The ‘tail flower’, the flowers<br />
             Of the kuzu vine and patrinia,<br />
             The fringed pink, and the agrimony,<br />
-            And last the blithe ‘morning face’.<br />
+            And last the blithe ‘morning face’.
           </p>
         </div>
         <p>The bush clover is referred to in the <Noun lang="ja-Latn">Man’yōshū</Noun> even more than the plum or cherry blossoms.<Cite r={ElementsOfJapaneseDesign} page={54} /></p>

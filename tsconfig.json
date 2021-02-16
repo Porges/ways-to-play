@@ -18,7 +18,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "incremental": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "baseUrl": "./src",
     "downlevelIteration": true,
     "importHelpers": true,
