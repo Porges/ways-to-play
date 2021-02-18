@@ -185,6 +185,7 @@ figure.small .figure-img {
 
 /* Figure placements */
 figure {
+    break-inside: avoid;
     width: 100%;
     @extend .text-center;
 
@@ -418,6 +419,31 @@ span.footnote::before {
     }
 }
 
+@media print {
+    section[itemprop="articleBody"] {
+        margin-right: 35%;
+    }
+
+    span.footnote, aside.footnote, figure.footnote {
+        padding: 0;
+        margin-top: 0;
+        margin-right: -40%;
+        width: 35%;
+        clear: right;
+        float: right;
+        border: none;
+    }
+
+    span.footnote {
+      text-indent: -.6em; // outdent the number
+    }
+
+    .footnote.wide {
+      width: 55%;
+      margin-right: -60%;
+    }
+}
+
 /*** Multiple items in a row: ***/
 div.multi {
     display: flex;
@@ -506,13 +532,33 @@ a[href*="wikipedia.org" i] {
     }
 }
 
-.license-instagram {
-    &:before {
-        @extend %fa-icon;
-        @extend .fab;
-        content: fa-content($fa-var-instagram) '\a0';
+/* TO FINISH LATER
+@media print {
+    a {
+        text-decoration: none !important;
+    }
+
+    a:not([href^="#"]){
+        &:before {
+            content: "† " attr(href);
+            font-family: monospace;
+            float: right;
+            clear: right;
+
+            width: 55%;
+            margin-right: -60%;
+
+            font-size: inherit;
+        }
+
+        &:after {
+            content: "†";
+            font-size: inherit;
+            vertical-align: inherit;
+        }
     }
 }
+*/
 
 .inline-img {
     height: 1em;
