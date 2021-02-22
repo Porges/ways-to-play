@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { GameRef } from 'content/games/Game';
 import { ArticleImage, Cite, Section, Noun, Footnote } from 'ui';
-import { MundartLexikon, UltraStrongMorris, MerylsBoardEnigma, GamesGreekAndRoman, TheVikingShipFromGokstad, RamatHanadiv, RomanGameBoards, AncientEgyptiansAtPlay, AncientCeylon, Murray, MetropoliticalVisitation, KlassischeSpiele, OxfordBG, AlfonsoGames, SolvingLaskerMorris, Hyde, GommeI, NotesAndQueriesS8V12, Figmill, PubGamesOfEngland, MacedonianFolklore, GuptaD } from 'References/bibliography.json';
+import { TheRuleOfTheTemplars, LaRegleDuTemple, MundartLexikon, UltraStrongMorris, MerylsBoardEnigma, GamesGreekAndRoman, TheVikingShipFromGokstad, RamatHanadiv, RomanGameBoards, AncientEgyptiansAtPlay, AncientCeylon, Murray, MetropoliticalVisitation, KlassischeSpiele, OxfordBG, AlfonsoGames, SolvingLaskerMorris, Hyde, GommeI, NotesAndQueriesS8V12, Figmill, PubGamesOfEngland, MacedonianFolklore, GuptaD } from 'References/bibliography.json';
 
 import imgWall from './P1130411a.jpg';
 import imgLargeMerels from 'content/articles/mill-games/large_merels.svg';
@@ -24,6 +24,7 @@ import imgTrencho from './trencho.svg';
 import imgTrenchoBoard from './nma_149016_ma45226671_trencho_board_game.jpg';
 import imgTwelveMensMorris from './shutterstock_235028281.jpg';
 import imgWithDice from "./Nine_Mens_Morris_with_dice_in_Libro_de_los_juegos.jpg";
+import imgTemplarRule from "./templar-rule.jpg";
 
 const TakeItAway: React.FC = () => <>
   <p><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Byzantine times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</p>
@@ -33,6 +34,89 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
 §3.5.4, p. 43; @Goddard1901; @NotesAndQueriesS8V12, pp. 28, 89–90, 173, 333;
 @PlayedAtThePub, p. 150].
   */}
+  <Section title="Play">
+    <ArticleImage
+      position="right"
+      alt="TODO"
+      src={imgLargeMerels}>
+      Nine Men’s Morris is played on the large mill board.
+      </ArticleImage>
+    <p>The game (as most mill games) is split into two phases. During the first (placement) phase, the players take turns placing a single piece at a time onto one of the vacant points on the board. Once all the pieces have been placed, the movement phase begins. In this part of the game, players take turns moving a single piece along a line to another vacant point. Once a player is reduced to three pieces, their pieces can ‘fly’ and move to any empty point on the board. </p>
+    <p>Throughout the game, each time a player forms a mill they remove any piece of their opponent’s that is not part of a mill. If all their opponent’s pieces are in mills, no piece may be removed.</p>
+    <p>During the movement phase, it is possible to form two mills simultaneously. In this case the player may remove two of the opponent’s pieces from the board.</p>
+    <p>A player loses the game when they are reduced to fewer than three pieces, or if they are unable to make a valid move on their turn.</p>
+  </Section>
+  <Section title="History">
+    <ArticleImage
+      size="wide"
+      alt="A weathered Nine Men’s Morris board scratched into a rock."
+      src={imgAgora}>
+      A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
+    </ArticleImage>
+    <p>The game dates from at least the Byzantine period, and at the moment we do not have evidence for an earlier date.<Cite r={GamesGreekAndRoman} page={3} /><Footnote><Cite r={RamatHanadiv} page={227} inline /> describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 400–600&nbsp;CE, while a cache of gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun> that was abandoned in the late 4th century contained no mills boards.<Cite r={RomanGameBoards} /></Footnote> Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum<Cite r={AncientEgyptiansAtPlay} page={144} /> and the Mortuary Temple of Seti I at Qurna,<Cite r={AncientCeylon} page={644} /> but these are not able to be dated definitively—the monument only provides an <em>earliest possible</em> date.</p>
+    <p>The game spread throughout Europe quickly: a double-sided game board with a Nine Men’s Morris layout on one side was found as part of the 9th-century <a href="https://en.wikipedia.org/wiki/Gokstad_ship">Gokstad Viking ship burial</a> discovered in Norway.<Cite r={TheVikingShipFromGokstad} page={[44, 99]} /></p>
+    <ArticleImage
+      position="aside"
+      alt="A section of a manuscript written in calligraphy"
+      src={imgTemplarRule}
+      source={{
+        originalUrl: "https://gallica.bnf.fr/ark:/12148/btv1b9058924p/f58.item.zoom",
+        license: "cc0",
+        organization: { orgName: 'Bibliothèque nationale de France', orgLang: "fr", orgAbbr: 'BnF' }
+      }}>
+      Text of the French Templar rule from an early 14th-century manuscript (with quoted passage highlighted).
+    </ArticleImage>
+    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order, as the only board game permissible to be played by Templar brothers:</p>
+    <div className="multi">
+      <p lang="fr">Et sachies que a nul autre jeu frere dou Temple ne doit joer, fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as eschaçons.<Cite r={LaRegleDuTemple} page={185} /></p>
+      <p>And let it be known that a brother of the Temple should play no other game except <span lang="fr">marelles</span>, which each may play if he wishes, for pleasure without placing wagers. No brother should play chess, backgammon, or <span lang="fr">eschaçons</span> [an unknown game].<Cite r={TheRuleOfTheTemplars} page={90} /></p>
+    </div>
+    <p>It is unclear <em>why</em> mill games were permitted by the Templars<Footnote>TODO: it has been suggested (?) that the tripartite board was taken as supportive of the trinity, or remniscent of the First Temple of Jerusalem.</Footnote>, but, given that the rest of the passage (not quoted above), the intent of the Rule seems to be to prevent playing games for money — bets were allowed to be placed on games, but only with worthless items such as wooden tent pegs. Viewed in this light, perhaps mill games were considered less susceptible to gambling, and therefore permissible.</p>
+    <ArticleImage
+      src={imgBonus}
+      position="aside"
+      alt="Page from a manuscript with a Nine Men’s Morris board on it."
+      source={{
+        organization: {
+          orgName: "Bibliothèque nationale de France",
+          orgLang: "fr",
+        },
+        originalUrl: "https://gallica.bnf.fr/ark:/12148/btv1b6000238t/f359.item",
+        license: "cc0"
+      }}>
+      The first problem in one of the <cite>Bonus Socius</cite> manuscripts written in Picardy (MS Latin 10286).
+    </ArticleImage>
+    <p>In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite> (<cite>Book of Games</cite>). In the same century the <cite lang="la">Bonus Socius</cite> series of manuscripts contained problems for the game, alongside other problems for chess and various table games.<Cite r={Murray} page={619} /></p>
+    <ArticleImage
+      src={imgCerne}
+      alt="Page from a manuscript with a Nine Men’s Morris board on it."
+      source={{
+        organization: { orgName: "Trinity College" },
+        license: "cc-by-nc",
+        originalUrl: "http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=668"
+      }}
+    >
+      A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board.
+    </ArticleImage>
+    <p>In England the game has always had an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from Bitteswell in 1634 records that a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r={MetropoliticalVisitation} page={497} /></p>
+    <ArticleImage
+      src={imgPeasant}
+      alt="A peasant boy holding a Nine Men’s Morris board."
+      source={{
+        author: {
+          given: "Jean",
+          family: "Schormans",
+        },
+        organization: {
+          orgName: "RMN-Grand Palais (musée du Louvre)",
+          orgLang: "fr",
+        },
+        originalUrl: "https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits_fil-de-soie_tapisserie-technique_laine-textile",
+        license: "cc0"
+      }}>
+      Detail from the 16th-century tapestry <cite lang="fr">Suite des Nobles Pastorales</cite>.
+    </ArticleImage>
+  </Section>
   <Section title="Nomenclature">
     <p>Other English names for the game include:</p>
     <ul className="columnar">
@@ -80,72 +164,6 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         originalUrl: "https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html"
       }}>
       A <span lang="fr">jeu du moulin</span> in the south-west wall of the <Noun lang="fr">Château du Moulin</Noun> (<Noun lang="fr">Loir-et-Cher</Noun>, France). Built between 1480–1501, this is a punny reference to the name of the original owner, <Noun lang="fr">Philippe du Moulin</Noun>. There is another Three Men’s Morris board on the eastern wall, and the nearby <Noun lang="fr">Château de Gien</Noun> has a similar motif.<Cite r={MerylsBoardEnigma} page={103} />
-    </ArticleImage>
-  </Section>
-  <Section title="Play">
-    <ArticleImage
-      position="right"
-      alt="TODO"
-      src={imgLargeMerels}>
-      Nine Men’s Morris is played on the large mill board.
-      </ArticleImage>
-    <p>The game (as most mill games) is split into two phases. During the first (placement) phase, the players take turns placing a single piece at a time onto one of the vacant points on the board. Once all the pieces have been placed, the movement phase begins. In this part of the game, players take turns moving a single piece along a line to another vacant point. Once a player is reduced to three pieces, their pieces can ‘fly’ and move to any empty point on the board. </p>
-    <p>Throughout the game, each time a player forms a mill they remove any piece of their opponent’s that is not part of a mill. If all their opponent’s pieces are in mills, no piece may be removed.</p>
-    <p>During the movement phase, it is possible to form two mills simultaneously. In this case the player may remove two of the opponent’s pieces from the board.</p>
-    <p>A player loses the game when they are reduced to fewer than three pieces, or if they are unable to make a valid move on their turn.</p>
-  </Section>
-  <Section title="History">
-    <ArticleImage
-      size="wide"
-      alt="A weathered Nine Men’s Morris board scratched into a rock."
-      src={imgAgora}>
-      A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
-    </ArticleImage>
-    <p>The game dates from at least the Byzantine period, and at the moment we do not have evidence for an earlier date.<Cite r={GamesGreekAndRoman} page={3} /><Footnote><Cite r={RamatHanadiv} page={227} inline /> describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 400–600&nbsp;CE, while a cache of gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun> that was abandoned in the late 4th century contained no mills boards.<Cite r={RomanGameBoards} /></Footnote> Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum<Cite r={AncientEgyptiansAtPlay} page={144} /> and the Mortuary Temple of Seti I at Qurna,<Cite r={AncientCeylon} page={644} /> but these are not able to be dated definitively—the monument only provides an <em>earliest possible</em> date.</p>
-    <p>The game spread throughout Europe quickly: a double-sided game board with a Nine Men’s Morris layout on one side was found as part of the 9th-century <a href="https://en.wikipedia.org/wiki/Gokstad_ship">Gokstad Viking ship burial</a> discovered in Norway.<Cite r={TheVikingShipFromGokstad} page={[44, 99]} />.</p>
-    <ArticleImage
-      src={imgBonus}
-      position="aside"
-      alt="Page from a manuscript with a Nine Men’s Morris board on it."
-      source={{
-        organization: {
-          orgName: "Bibliothèque nationale de France",
-          orgLang: "fr",
-        },
-        originalUrl: "https://gallica.bnf.fr/ark:/12148/btv1b6000238t/f359.item",
-        license: "cc0"
-      }}>
-      The first problem in one of the <cite>Bonus Socius</cite> manuscripts written in Picardy (MS Latin 10286).
-    </ArticleImage>
-    <p>In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite> (<cite>Book of Games</cite>). In the same century the <cite lang="la">Bonus Socius</cite> series of manuscripts contained problems for the game, alongside other problems for chess and various table games.<Cite r={Murray} page={619} /></p>
-    <ArticleImage
-      src={imgCerne}
-      alt="Page from a manuscript with a Nine Men’s Morris board on it."
-      source={{
-        organization: { orgName: "Trinity College" },
-        license: "cc-by-nc",
-        originalUrl: "http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=668"
-      }}
-    >
-      A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board.
-    </ArticleImage>
-    <p>In England the game has always had an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from Bitteswell in 1634 records that a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r={MetropoliticalVisitation} page={497} /></p>
-    <ArticleImage
-      src={imgPeasant}
-      alt="A peasant boy holding a Nine Men’s Morris board."
-      source={{
-        author: {
-          given: "Jean",
-          family: "Schormans",
-        },
-        organization: {
-          orgName: "RMN-Grand Palais (musée du Louvre)",
-          orgLang: "fr",
-        },
-        originalUrl: "https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits_fil-de-soie_tapisserie-technique_laine-textile",
-        license: "cc0"
-      }}>
-      Detail from the 16th-century tapestry <cite lang="fr">Suite des Nobles Pastorales</cite>.
     </ArticleImage>
   </Section>
   <Section title="Theory">

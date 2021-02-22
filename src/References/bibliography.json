@@ -4311,5 +4311,42 @@
         "publisher-place": "Chicago",
         "URL": "https://archive.org/details/intimeofcannibal0000copl",
         "ISBN": "0-266-11573-9"
+    },
+    "LaRegleDuTemple": {
+        "id": "LaRegleDuTemple",
+        "type": "book",
+        "title": "La Règle Du Temple",
+        "title-lang": "fr",
+        "issued": {
+            "year": 1886
+        },
+        "author": [
+            {
+                "given": "Henri",
+                "family": "De Curzon",
+                "lang": "fr"
+            }
+        ],
+        "publisher": "Librairie Renouard",
+        "publisher-lang": "fr",
+        "publisher-place": "Paris, France",
+        "URL": "https://archive.org/details/DeCurzonHenriLaRegleDuTemple"
+    },
+    "TheRuleOfTheTemplars": {
+        "id": "TheRuleOfTheTemplars",
+        "type": "book",
+        "title": "The Rule of the Templars",
+        "author": [
+            {
+                "given": "J. M.",
+                "family": "Upton–Ward"
+            }
+        ],
+        "issued": {
+            "year": 1992
+        },
+        "publisher": "The Boydell Press",
+        "publisher-place": "Woodbridge, Suffolk, UK",
+        "ISBN": "0-85115-315-1"
     }
 }

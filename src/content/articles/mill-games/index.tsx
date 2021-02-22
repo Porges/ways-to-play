@@ -4,6 +4,7 @@ import { Cite, ArticleImage, Noun, Section, Pronounce } from 'ui';
 import { Murray2, MkeleMorabaraba, FiggiUndMuliHaa, MacedonianFolklore, Gallovidian, IntroductionToShax, Fiske, BasothoChildren, SomaliGames, BritishSomaliland } from 'References/bibliography.json';
 import { GameRef } from 'content/games/Game';
 
+import imgGameInProgress from './shutterstock_120413827.jpg';
 import small_merels from './small_merels.svg';
 import large_merels from './large_merels.svg';
 import large_merels_with_diagonals from './large_merels_with_diagonals.svg';
@@ -19,26 +20,34 @@ import pronFiggi from './pronunciation_gsw_figgi.mp3';
 
 const MillGames: React.FC = () => {
   return (<>
-    <p>Mill games are also known as <i>Morris</i> or <i>Merels</i> games. The main aim of any mill game is to try to form a row of three pieces, which is called a ‘mill’. In most games this allows the player to remove one of the opponent’s pieces from the board (usually not from another mill).</p>
+    <p>Mill games are a family of boardgames also known as <i>Morris</i> or <i>Merels</i> games. The main aim of any mill game is to try to form a row of three pieces, which is called a ‘mill’, and which usually allows the player to remove one of the opponent’s pieces from the board (usually not from another mill).</p>
     <p>Most mill games are split into two phases of <i>placement</i> and <i>movement</i>, so that all pieces are placed on the board before any pieces are moved.</p>
-    <ArticleImage
-      src={
-        [[small_merels, "The small mill board of a single square."]
-          , [large_merels, "The large mill board of three nested squares."]
-          , [large_merels_with_diagonals, "The large mill board of three nested squares, with diagonal lines."]
-        ]}>
-      Some different mill boards.
-      </ArticleImage>
+    <ArticleImage src={imgGameInProgress} alt="A Nine Men’s Morris game, just after all pieces have been placed"
+      size="wide"
+      source={{
+          organization: {orgName: "Shutterstock.com"},
+          author: "FooTToo",
+          license: "stock-image",
+          originalUrl: "https://www.shutterstock.com/image-photo/old-nine-mens-morris-board-on-120413827"
+        }}>
+      A game in progress, just after the <i>placement</i> phase has been finished, and all 18 pieces are on the board.
+    </ArticleImage>
     <Section title="Games">
-      <p>Many of the games overlap so much that they could be considered to be the same game.</p>
-      <p>For example, <GameRef id="morabaraba" /> as standardized by Mind Sports South Africa has only two small differences from [Twelve Men’s Morris] as standardized by the <Noun lang="de">Weltmühlespiel Dachverband</Noun>.</p>
-      <p>The ‘base games’ are [Nine Men’s Morris], [Three Men’s Morris], and [Twelve Men’s Morris]. Games that are minor variations on these are listed as variants in those pages. Games that are larger variations, that have an interesting/distinct history, or that are otherwise standardized (like <GameRef id="morabaraba" />) are listed separately. (Although some ‘large variations’ like [Lasker Morris] are listed in the main pages if they don’t have significant history or cultural background around them.)</p>
-      <p>If you are looking for somewhere to start, [Nine Men’s Morris] is probably the “classic” game.</p>
-      <Section title="Large Mill Board">
+      <p>Many of the games overlap so much that they could be considered to be the same game. For example, <GameRef id="morabaraba" /> as standardized by Mind Sports South Africa has only two small differences from <GameRef id='nine-mens-morris' fragment="#twelve-mens-morris">Twelve Men’s Morris</GameRef> as standardized by the <Noun lang="de">Weltmühlespiel Dachverband</Noun>. However, I have chosen to describe it separately due to the interesting history and cultural context around the game.</p>
+      <p>The most important representative of the type is <GameRef id='nine-mens-morris' />, and it is a good place to start if you have never played this type of game before.</p>
+      <Section title="Large mill Board">
+        <ArticleImage
+          size="small"
+          src={
+            [[large_merels, "The large mill board of three nested squares."]
+              , [large_merels_with_diagonals, "The large mill board of three nested squares, with diagonal lines."]
+            ]}>
+          Two different large mill boards, one without diagonals, and one with diagonals.
+      </ArticleImage>
         <ul>
-          <li>[Nine Men’s Morris] is the most well-known, and can be viewed as the stereotypical mill game.</li>
-          <li>[Twelve Men’s Morris] is common in the USA. [Eleven Men’s Morris] is a variant with one fewer piece per player.</li>
-          <li><GameRef id="morabaraba" /> is a mill game played competitively in South Africa. It differs slightly from [Twelve Men’s Morris]. </li>
+          <li><GameRef id='nine-mens-morris'/> is the most well-known, and can be viewed as the stereotypical mill game. Many variants are described on this page.</li>
+          <li><GameRef id='nine-mens-morris' fragment="#twelve-mens-morris">Twelve Men’s Morris</GameRef> is the most common form in the United States. Eleven Men’s Morris is a variant with one fewer piece per player.</li>
+          <li><GameRef id="morabaraba" /> is a mill game played competitively in South Africa. It differs slightly from Twelve Men’s Morris.</li>
           <li>[Shax] is a mill game played in Somalia. It is distinguished by not permitting capturing during the placement phase.</li>
         </ul>
       </Section>
@@ -46,6 +55,9 @@ const MillGames: React.FC = () => {
         <ul><li>[Five Men’s Morris] or [Six Men’s Morris] is a mid-sized version that is less common than the bigger or smaller games.</li></ul>
       </Section>
       <Section title="Small mill board ">
+        <ArticleImage size="small" src={small_merels} alt="The small mill board of a single square.">
+          The small mill board.
+      </ArticleImage>
         <ul>
           <li>[Three Men’s Morris] is a simple mill game that is known around the world.</li>
           <li><GameRef id="tic-tac-toe" /> can be viewed as a degenerate mill game (and could derive from Three Men’s Morris?)</li>

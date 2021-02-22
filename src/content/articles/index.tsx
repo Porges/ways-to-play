@@ -20,7 +20,6 @@ const articles: List = {
   articles: new Map([
     ['mill-games', {
       title: "Mill Games",
-      draft: true,
       import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games'))
     }],
     ['cards', {
