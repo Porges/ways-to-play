@@ -530,7 +530,7 @@ const Manufacturers: React.FC = () => {
         <p>Other brands produced in the past included:<Cite r={ModernJapaneseWrappers} page={45} /></p>
         <ul>
           <li><span lang="ja">玉将</span> (<span lang="ja-Latn">gyokushō</span>, ‘king of the lesser player’, a <Noun lang="ja-Latn">Shōgi</Noun> term)</li>
-          <li><span lang="ja">翁</span> (<span lang="ja-Latn">okina</span>, ‘old man’)</li>
+          <li><span lang="ja">翁</span> (<span lang="ja-Latn">okina</span>, ‘old man’, the name of <a href="https://www.the-noh.com/en/plays/data/program_067.html">a special ritual <Noun lang="ja-Latn">Noh</Noun> play</a>)</li>
           <li><span lang="ja">泰平</span> (<span lang="ja-Latn">taihei</span>, ‘tranquility’)</li>
           <li><span lang="ja">纏</span> (<span lang="ja-Latn">matoi</span>, ‘<a href="https://en.wikipedia.org/wiki/Matoi">fireman’s standard</a>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">旅</span> (<span lang="ja-Latn">tabi</span>, ‘trip’)</li>
@@ -564,7 +564,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">世界長</span> (<span lang="ja-Latn">sekaichō</span>, ‘world leader’), no longer in use as of 1980</li>
           <li><span lang="ja">宝玉</span> (<span lang="ja-Latn">hōgyoku</span>, ‘jewel’), no longer in use as of 1980</li>
           <li><span lang="ja">将軍</span> (<span lang="ja-Latn">shōgun</span>, <Noun lang="ja-Latn">Shogun</Noun>), used for <Noun lang="ja-Latn">Tehonbiki</Noun> only</li>
-          <li><span lang="ja">総帥</span> (<span lang="ja-Latn">sōsui</span>, ‘commander-in-chief’), no longer in use as of 1980</li>
+          <li><span lang="ja">総帥</span> (<span lang="ja-Latn">sōsui</span>, ‘commander-in-chief’, depicting the <a href="https://en.wikipedia.org/wiki/Arthur_Wellesley,_1st_Duke_of_Wellington">Duke of Wellington</a> (<span lang="ja">ウエリントン</span>)), no longer in use as of 1980</li>
         </ul>
         <div className="multi wide">
           <ArticleImage src={imgTSyozakura} alt="A hanafuda wrapper with cherry blossoms and a brazier.">
