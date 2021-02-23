@@ -23,12 +23,10 @@ module.exports = {
 
             rule.oneOf = [mp3Loader, ...rule.oneOf];
 
-            const urlLoader = getLoader(config, loaderByName('url-loader'));
-            if (!urlLoader.isFound) {
-                throw new Error("Unable to find 'url-loader' in CRA config");
+            const loader = rule.oneOf[2];
+            if (!loader.loader.includes('url-loader')) {
+                throw new Error("Craco config needs updating, CRA has been updated.");
             }
-
-            const loader = urlLoader.match.loader;
 
             loader.use =
                 [ { loader: loader.loader
