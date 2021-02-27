@@ -27,7 +27,7 @@ import imgWithDice from "./Nine_Mens_Morris_with_dice_in_Libro_de_los_juegos.jpg
 import imgTemplarRule from "./templar-rule.jpg";
 
 const TakeItAway: React.FC = () => <>
-  <p><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Byzantine times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</p>
+  <p><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Roman times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</p>
   <p>In addition to being a game, the board was used as some kind of talisman or symbol; <Cite r={MerylsBoardEnigma} inline page={330} /> collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.</p>
   {/*
 Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @Bell, p. 93; @Murray2,
@@ -53,7 +53,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       src={imgAgora}>
       A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
     </ArticleImage>
-    <p>The game dates from at least the Byzantine period, and at the moment we do not have evidence for an earlier date.<Cite r={GamesGreekAndRoman} page={3} /><Footnote><Cite r={RamatHanadiv} page={227} inline /> describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 400–600&nbsp;CE, while a cache of gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun> that was abandoned in the late 4th century contained no mills boards.<Cite r={RomanGameBoards} /></Footnote> Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum<Cite r={AncientEgyptiansAtPlay} page={144} /> and the Mortuary Temple of Seti I at Qurna,<Cite r={AncientCeylon} page={644} /> but these are not able to be dated definitively—the monument only provides an <em>earliest possible</em> date.</p>
+    <p>The game dates from at least the late Roman Empire or Byzantine period, and at the moment we do not have evidence for an earlier date.<Cite r={GamesGreekAndRoman} page={3} /><Footnote><Cite r={RamatHanadiv} page={227} inline /> describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 400–600&nbsp;CE, while a cache of gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun> that was abandoned in the late 4th century contained no mills boards.<Cite r={RomanGameBoards} /></Footnote> Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum<Cite r={AncientEgyptiansAtPlay} page={144} /> and the Mortuary Temple of Seti I at Qurna,<Cite r={AncientCeylon} page={644} /> but these are not able to be dated definitively—the monument only provides an <em>earliest possible</em> date.</p>
     <p>The game spread throughout Europe quickly: a double-sided game board with a Nine Men’s Morris layout on one side was found as part of the 9th-century <a href="https://en.wikipedia.org/wiki/Gokstad_ship">Gokstad Viking ship burial</a> discovered in Norway.<Cite r={TheVikingShipFromGokstad} page={[44, 99]} /></p>
     <ArticleImage
       position="aside"
@@ -66,12 +66,12 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}>
       Text of the French Templar rule from an early 14th-century manuscript (with quoted passage highlighted).
     </ArticleImage>
-    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order, as the only board game permissible to be played by Templar brothers:</p>
+    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order (probably written between 1139 and 1147&nbsp;CE<Cite r={TheRuleOfTheTemplars} page={12}/>), as the only board game allowed to be played by Templar brothers:</p>
     <div className="multi">
       <p lang="fr">Et sachies que a nul autre jeu frere dou Temple ne doit joer, fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as eschaçons.<Cite r={LaRegleDuTemple} page={185} /></p>
       <p>And let it be known that a brother of the Temple should play no other game except <span lang="fr">marelles</span>, which each may play if he wishes, for pleasure without placing wagers. No brother should play chess, backgammon, or <span lang="fr">eschaçons</span> [an unknown game].<Cite r={TheRuleOfTheTemplars} page={90} /></p>
     </div>
-    <p>It is unclear <em>why</em> mill games were permitted by the Templars<Footnote>TODO: it has been suggested (?) that the tripartite board was taken as supportive of the trinity, or remniscent of the First Temple of Jerusalem.</Footnote>, but, given that the rest of the passage (not quoted above), the intent of the Rule seems to be to prevent playing games for money — bets were allowed to be placed on games, but only with worthless items such as wooden tent pegs. Viewed in this light, perhaps mill games were considered less susceptible to gambling, and therefore permissible.</p>
+    <p>It is unclear <em>why</em> mill games were permitted by the Templars<Footnote>TODO: it has been suggested (?) that the tripartite board was taken as supportive of the trinity, or remniscent of the First Temple of Jerusalem.</Footnote>, but, reading the rest of the passage (not quoted above), the intent of the Rule seems to be to prevent playing games for money — bets were allowed to be placed on games, but only with worthless items such as wooden tent pegs. Viewed in this light, perhaps mill games were considered less susceptible to gambling, and therefore permissible.</p>
     <ArticleImage
       src={imgBonus}
       position="aside"
@@ -156,9 +156,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       src={imgWall}
       size="wide"
       source={{
-        author: {
-          given: "Ken", family: "Broadhurst",
-        },
+        author: { given: "Ken", family: "Broadhurst" },
         copyrightYear: 2016,
         license: "with-permission",
         originalUrl: "https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html"

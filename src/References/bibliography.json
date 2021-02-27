@@ -4348,5 +4348,33 @@
         "publisher": "The Boydell Press",
         "publisher-place": "Woodbridge, Suffolk, UK",
         "ISBN": "0-85115-315-1"
+    },
+    "CroxleyHistory": {
+        "id": "CroxleyHistory",
+        "type": "book",
+        "title": "Croxley Stationery",
+        "publisher": "Croxley Stationery",
+        "URL": "https://www.yumpu.com/en/document/read/8966910/croxley-stationery"
+    },
+    "CroxleyClosing": {
+        "id": "CroxleyClosing",
+        "type": "article-newspaper",
+        "title": "Croxley confirms factory closure, 100 job losses",
+        "publisher": "1 NEWS",
+        "publisher-place": "New Zealand",
+        "URL": "https://www.tvnz.co.nz/one-news/new-zealand/croxley-confirms-factory-closure-100-job-losses-6072343.html",
+        "issued": {
+            "year": 2014,
+            "month": 9,
+            "day": 24
+        }
+    },
+    "DRGCompany": {
+        "id": "DRGCompany",
+        "type": "webpage",
+        "title": "Companies Register: DRNZ Limited",
+        "URL": "https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/87664",
+        "publisher": "New Zealand Companies Office",
+        "issued": {"year": 2021}
     }
 }
