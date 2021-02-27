@@ -142,6 +142,7 @@ main {
 section {
   // trap floats inside:
   display: flow-root;
+  clear: both;
 }
 
 blockquote {
