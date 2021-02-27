@@ -30,7 +30,7 @@ const NZ: React.FC = () =>
             An early “John Dickinson & Co.” Ace.
           </ArticleImage>
           <ArticleImage noborder alt="" src={imgCroxleyA2}>
-            An “John Dickinson” Ace.
+            A “John Dickinson” Ace.
           </ArticleImage>
           <ArticleImage noborder alt="" src={imgCroxleyA3}>
             A “DRG” Ace.
@@ -42,7 +42,7 @@ const NZ: React.FC = () =>
             An early “John Dickinson & Co.” Jack, printed in four colours.
           </ArticleImage>
           <ArticleImage noborder alt="" src={imgCroxleyJ2}>
-            An “John Dickinson” Jack, printed in two colours.
+            A “John Dickinson” Jack, printed in two colours.
           </ArticleImage>
           <ArticleImage noborder alt="" src={imgCroxleyJ3}>
             A “DRG” Jack, with visible degradation of linework and sans-serif indices.
