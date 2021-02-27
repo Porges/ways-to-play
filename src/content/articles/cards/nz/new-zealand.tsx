@@ -11,6 +11,9 @@ import imgCroxleyA3 from './Croxley-A-3.jpg';
 import imgCroxleyJ1 from './Croxley-J-1.jpg';
 import imgCroxleyJ2 from './Croxley-J-2.jpg';
 import imgCroxleyJ3 from './Croxley-J-3.jpg';
+import imgCroxleyPictorialJ from './Croxley-pictorial-J.jpg';
+import imgCroxleyPictorialJoker from './Croxley-pictorial-joker.jpg';
+import imgCroxleyPictorialBack from './Croxley-pictorial-back.jpg';
 
 const NZ: React.FC = () =>
   <>
@@ -33,7 +36,7 @@ const NZ: React.FC = () =>
             A “DRG” Ace.
           </ArticleImage>
         </div>
-        <p>The earlier (pre-DRG) cards are most easily identified by a <Cards>J</Cards>-index which has a turned-in tail, but this feature is lost in the DRG cards which shifted to a sans-serif index. The index is useful in identifying tourist decks where the card images are replaced by photographs of scenic locations.</p>
+        <p>The earlier (pre-DRG) cards are most easily identified by a <Cards>J</Cards>-index which has a turned-in tail, but this feature is lost in the DRG cards which shifted to a sans-serif index.</p>
         <div className="multi wide">
           <ArticleImage noborder alt="" src={imgCroxleyJ1}>
             An early “John Dickinson & Co.” Jack, printed in four colours.
@@ -43,6 +46,18 @@ const NZ: React.FC = () =>
           </ArticleImage>
           <ArticleImage noborder alt="" src={imgCroxleyJ3}>
             A “DRG” Jack, with visible degradation of linework and sans-serif indices.
+          </ArticleImage>
+        </div>
+        <p>The index is useful in identifying tourist pictorial decks where the card images are replaced by photographs of scenic locations, so that the Ace gives no identifying information.</p>
+        <div className="multi wide">
+          <ArticleImage noborder alt="" src={imgCroxleyPictorialJ}>
+            A pictorial card with the characteristic <Cards>J</Cards> index.
+          </ArticleImage>
+          <ArticleImage noborder alt="" src={imgCroxleyPictorialBack}>
+            The back of the card deck, showing a woman performing with <a href="https://en.wikipedia.org/wiki/Poi_(performance_art)"><span lang="mi">poi</span></a>.
+          </ArticleImage>
+          <ArticleImage noborder alt="" src={imgCroxleyPictorialJoker}>
+            The joker of the deck, featuring a <a href="https://en.wikipedia.org/wiki/Hei-tiki"><span lang="mi">hei-tiki</span></a>.
           </ArticleImage>
         </div>
       </Section>
