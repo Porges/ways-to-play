@@ -66,7 +66,6 @@ const articles: List = {
         }],
         ['new-zealand', {
           title: "Playing Cards in New Zealand",
-          draft: true,
           import: React.lazy(() => import(/* webpackChunkName: 'playing-cards-nz' */ './cards/nz/new-zealand'))
         }]
       ])

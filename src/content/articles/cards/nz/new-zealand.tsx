@@ -48,7 +48,7 @@ const NZ: React.FC = () =>
             A “DRG” Jack, with visible degradation of linework and sans-serif indices.
           </ArticleImage>
         </div>
-        <p>The index is useful in identifying tourist pictorial decks where the card images are replaced by photographs of scenic locations, so that the Ace gives no identifying information.</p>
+        <p>The index is useful in identifying tourist pictorial decks where the card images are replaced by photographs of scenic locations, so that the Ace gives no identifying information. The following cards are from a deck produced before 1958:</p>
         <div className="multi wide">
           <ArticleImage noborder alt="" src={imgCroxleyPictorialJ}>
             A pictorial card with the characteristic <Cards>J</Cards> index.
