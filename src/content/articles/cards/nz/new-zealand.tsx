@@ -27,6 +27,9 @@ import imgWillisQueen from './Willis-Queen.jpg';
 import imgUEBAce from './UEB-Ace.jpg';
 import imgUEBJoker from './UEB-Joker.jpg';
 import imgUEBQueen from './UEB-Queen.jpg';
+import imgUEB2Back from './UEB2-Back.jpg';
+import imgUEB2Joker from './UEB2-Joker.jpg';
+import imgUEB2Queen from './UEB2-Queen.jpg';
 
 import imgGoodallEgmont from './Goodall-Egmont.jpg';
 import imgGoodallMatheson from './Goodall-Matheson.jpg';
@@ -120,6 +123,16 @@ const NZ: React.FC = () =>
           [imgUEBJoker, ""],
         ]}>
         Cards in the Willis/UEB style, this deck probably made by UEB. This deck is unusual in that the paper is uncoated and the cards feel like plain cardboard.
+      </ArticleImage>
+      <p>UEB also produced pictorial souvenir decks, such as the one below.</p>
+      <ArticleImage
+        size="wide"
+        src={[
+          [imgUEB2Back, ""],
+          [imgUEB2Queen, ""],
+          [imgUEB2Joker, ""],
+        ]}>
+        Back and cards from a UEB tourist deck.
       </ArticleImage>
     </Section>
     <Section title="Foreign manufacturers">
