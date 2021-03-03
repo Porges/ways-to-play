@@ -176,15 +176,16 @@ const renderContainer = (reference: Reference) => {
       if (!issued || !('month' in issued || 'season' in issued)) throw new Error('Magazine/newspaper citations must have issued date (including month or season)');
 
       const issue = 'issue' in reference ? <> ({reference.issue})</> : null;
+      const volume = 'volume' in reference ? <> {reference.volume}</> : null;
 
       // TODO: metadata
       if ('month' in issued) {
         return (<>
-            <cite itemProp="name">{containerTitle}</cite>{issue}, {months[issued.month - 1]}{'day' in issued && <> {issued.day}</>}, {issued.year}.{' '}
+            <cite itemProp="name">{containerTitle}</cite>{volume}{issue}, {months[issued.month - 1]}{'day' in issued && <> {issued.day}</>}, {issued.year}.{' '}
           </>);
       } else {
         return (<>
-              <cite itemProp="name">{containerTitle}</cite>{issue}, {issued.season}, {issued.year}.{' '} 
+              <cite itemProp="name">{containerTitle}</cite>{volume}{issue}, {issued.season}, {issued.year}.{' '} 
           </>);
       }
 

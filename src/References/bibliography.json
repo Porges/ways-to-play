@@ -4376,5 +4376,90 @@
         "URL": "https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/87664",
         "publisher": "New Zealand Companies Office",
         "issued": {"year": 2021}
+    },
+    "EmperorOfJapan": {
+        "id": "EmperorOfJapan",
+        "type": "book",
+        "URL": "https://archive.org/details/emperorofjapanme00keen",
+        "title": "Emperor of Japan: Meiji and His world, 1852–1912",
+        "author": [
+            { "given": "Donald", "family": "Keene" }
+        ],
+        "publisher": "Columbia University Press",
+        "publisher-place": "New York, NY, USA",
+        "issued": {"year": 2002},
+        "ISBN": "0-231-12340-X"
+    },
+    "GrantsToKugeNobles": {
+        "id": "GrantsToKugeNobles",
+        "title": "Grants to the <span lang='ja-Latn'>Kuge</span> Nobles",
+        "type": "article-newspaper",
+        "container-title": "The Japan Weekly Mail",
+        "issued": {
+            "year": 1894, "month": 3, "day": 24
+        },
+        "publisher": "Jappan Mēru Shinbunsha",
+        "publisher-lang": "ja-Latn",
+        "publisher-place": "Yokohama, Japan",
+        "volume": "XXI",
+        "issue": 12,
+        "URL": "https://archive.org/details/japandailymail2118unse/page/354/mode/2up"
+    },
+    "UtaawaseJudgments": {
+        "id": "UtaawaseJudgments",
+        "title": "<span lang='ja-Latn'>Uta&shy;awase</span> Judgments as Poetry Criticism",
+        "author": [
+            {"given": "Clifton W.", "family": "Royston"}
+        ],
+        "type": "article-journal",
+        "container-title": "The Journal of Asian Studies",
+        "volume": "XXXIV",
+        "issue": 1,
+        "issued": {
+            "year": 1974
+        },
+        "page": "99–108",
+        "URL": "https://www.jstor.org/stable/2052411"
+    },
+    "JapaneseAristocraticLife": {
+        "id": "JapaneseArtistocraticLife",
+        "type": "book",
+        "title": "A Tale of Flowering Fortunes: Annals of Japanese Aristocratic Life in the Heian Period",
+        "URL": "https://archive.org/details/taleoffloweringf0000unse",
+        "author": [
+            { "given": "William H.", "family": "McCullough" },
+            { "given": "Helen Craig", "family": "McCullough" }
+        ],
+        "issued": {"year": 1980},
+        "publisher": "Stanford University Press",
+        "publisher-place": "Stanford, CA, USA"
+    }, 
+    "MuseInCompetition": {
+        "id": "MuseInCompetition",
+        "title": "The Muse in Competition: Uta-awase Through The Ages",
+        "type": "article-journal",
+        "container-title": "Monumenta Nipponica",
+        "issued": {"year": 1982, "season": "Summer"},
+        "volume": 37,
+        "issue": 2,
+        "page": "201–222",
+        "author": [
+            {"family": "Ito", "given": "Setsuko" }
+        ],
+        "publisher": "Sophia University",
+        "URL": "https://www.jstor.org/stable/2384242"
+    }, 
+    "BrocadeByNight": {
+        "id": "BrocadeByNight",
+        "title": "Brocade by Night: “Kokin Wakashu” and the court style in Japanese classic poetry",
+        "type": "book",
+        "author": [
+            {"family": "McCollough", "given": "Helen Craig"}
+        ],
+        "ISBN": "0-8047-1246-8",
+        "issued": {"year": 1985},
+        "publisher": "Stanford University Press",
+        "publisher-place": "Stanford, CA, USA",
+        "URL": "https://archive.org/details/brocadebynightko00mccu"
     }
 }

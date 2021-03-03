@@ -7,7 +7,8 @@ export const CitationProvider: React.FC = ({children}) => {
   const [references, setReferences] = React.useState<Reference[]>([]);
 
   const addReference = React.useCallback((ref: Reference) => {
-    let index = references.findIndex(x => x === ref);
+    let refJson = JSON.stringify(ref);
+    let index = references.findIndex(x => JSON.stringify(x) === refJson /*oh god*/); // <- this is so when the page hot-reloads the objects compare as equal!
     if (index === -1) {
       index = references.length;
       // this will trigger re-render but next time around we won't

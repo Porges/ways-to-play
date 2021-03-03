@@ -82,7 +82,7 @@ import pronKoyo from '../pronunciation_ja_紅葉.mp3';
 import imgHwatooJokers from './hwatoo_jokers.jpg';
 import imgFlowerJokers from '../Flower_jokers.jpg';
 import imgRainbowJokers from '../Rainbow_jokers.jpg';
-import imgKoiKoiSetup from './Koi-Koi_Setup.jpg';
+import imgKoiKoiSetup from './Hanafuda_Koi-Koi_Setup.jpg';
 
 import { ModernKoreanCards } from 'References/bibliography.json';
 
@@ -151,7 +151,7 @@ const Basics: React.FC = () => {
             ]}
             source={louieSource}
             perRow={5}>The bright cards.</ArticleImage>
-          <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<Footnote><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has stated that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r={ModernKoreanCards} /></Footnote></p>
+          <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<Footnote><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has claimed that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r={ModernKoreanCards} /></Footnote></p>
           <ArticleImage size="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
           <ArticleImage size="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.</ArticleImage>
         </Section>
@@ -190,7 +190,7 @@ const Basics: React.FC = () => {
             source={louieSource}
             perRow={5}>The 10 <span lang="ja-Latn">tanzaku</span> cards.</ArticleImage>
           <ArticleImage
-            alt="A screen with a painting of a maple tree in autumn colours, with many tanzaku hanging from its branches."
+            alt="A screen with a painting of a maple tree in autumn colours, and many tanzaku hanging from its branches."
             size="wide"
             src={imgAutumnMaples}
             source={{
@@ -198,7 +198,7 @@ const Basics: React.FC = () => {
               license: 'cc0',
               organization: { orgName: 'The Art Institute of Chicago' }
             }}>
-            <cite>Autumn Maples with Poem Slips</cite> (c. 1675)<br /><cite lang="ja">櫻楓短冊圖</cite><br />A six-panel screen (one of a pair) by <Noun lang="ja-Latn">Tosa Mitsuoki</Noun> (<span lang="ja">土佐 光起</span>, 1617–1691)
+            <cite>Maple with Poem Slips</cite> (c. 1675)<br /><cite lang="ja">櫻楓短冊圖</cite><br />A six-panel screen (one of a pair) by <Noun lang="ja-Latn">Tosa Mitsuoki</Noun> (<span lang="ja">土佐 光起</span>, 1617–1691)
           </ArticleImage>
         </Section>
         <Section title={<><span lang="ja-Latn">Kasu</span> cards</>}>
@@ -259,22 +259,21 @@ const Basics: React.FC = () => {
     <Section title="Basic matching rules">
       <p>Many <Noun lang="ja-Latn">Hanafuda</Noun> games are of the ‘fishing’ variety, where each player tries to capture cards from a shared pool of cards in the centre of the table. The goal is to capture high-value cards or to form specific scoring patterns called <span lang="ja-Latn">yaku</span> (<span lang="ja">役</span>).</p>
       <ArticleImage
-        position="left"
         src={imgKoiKoiSetup}
         alt="Two hands of Hanafuda cards face down on a table with eight cards dealt face-up between them and the remainder of the cards in a stack face-down to the side."
         source={{
-          copyrightYear: 2007,
-          author: "Alderon",
-          originalUrl: 'https://commons.wikimedia.org/wiki/File:Koi-Koi_Setup.jpg',
-          license: 'cc-by-sa',
-          licenseVersion: '3.0',
+          copyrightYear: 2021,
+          author: {given: "Marcus", family: "Richert"},
+          originalUrl: 'http://www.marcusrichert.com/images/koikoi1/',
+          license: 'cc-by',
+          licenseVersion: '2.0',
         }}
         >
         A sample setup for the game of <Noun lang="ja-Latn">Koi-Koi</Noun>, with a pool of eight cards.
       </ArticleImage>
       <p>In most <Noun lang="ja-Latn">Hanafuda</Noun> fishing games a turn proceeds as follows:</p>
       <p>First, the player chooses a card from their hand. If it matches (is of the same month as) one of the face-up cards in the pool, they place it face-up on top of that card. If it doesn’t match any of the cards in the pool, they lay it face-up in the pool next to the other cards.</p>
-      <p>Next, the player turns over the top card of the face-down deck. If it matches any of the single cards in the pool, they place the card on top of that one. If the player previously formed a match with the card from their hand and the turned-up card also matches that card (and there are no other single cards of that month), then they place the card on top of the already-matched pair. (The precise way in which stacks of three matched cards are handled varies depending on what game is being played.)</p>
+      <p>Next, the player turns over the top card of the face-down deck. If it matches any of the single cards in the pool, they place the card on top of that one.</p>
       <p>Finally, the player takes (‘captures’) any cards that were matched together out of the pool, and places them face-up in front of themselves. This ends their turn.</p>
     </Section>
     {/* <section id="terminology">
