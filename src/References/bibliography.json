@@ -4461,5 +4461,17 @@
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA",
         "URL": "https://archive.org/details/brocadebynightko00mccu"
+    },
+    "JapaneseFloralCalendar": {
+        "id":"JapaneseFloralCalendar",
+        "type": "book",
+        "title": "The Japanese Floral Calendar",
+        "issued": {"year":1905},
+        "author":[
+            {"given": "Ernest W.", "family": "Clement"}
+        ],
+        "publisher": "The Open Court Publishing Company",
+        "publisher-place": "Chicago, IL, USA",
+        "URL": "https://archive.org/details/japanesefloralca00clemrich"
     }
 }
