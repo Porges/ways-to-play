@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Noun, ArticleImage, Footnote, Section, Cite, Pronounce, SourceInfo } from 'ui';
 
 import {
-  FantasyOfFarJapan, TheEastandtheIdeaofEurope, FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords, MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince, CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign, CabinetOfficeEntertainment, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, EmperorOfJapan, NarrowRoad, GrantsToKugeNobles, UtaawaseJudgments, NintendoHistory, HandbookForJapan, JapaneseGamesOfMemory, EssaysInIdleness, JapaneseAristocraticLife, MuseInCompetition, BrocadeByNight, JapaneseFloralCalendar
+  FantasyOfFarJapan, TheEastandtheIdeaofEurope, FolkloreAndSymbolismOfFlowersPlantsAndTrees, WanderingWords, MuraiSun, DevilsPictureBooks, KaiOi, WorldOfTheShiningPrince, CartaTaxLawContents, PopularJapanesePrints, Sumiyoshikai, EbashiHanafuda, OishiTengudoHistory4, OishiSadakuro, EbashiSadakuro, AnIntroductionToJapaneseTeaRitual, HanaAwase, MakingShinkokinshu, GreveSake, TalesOfIse, KKS135, SatireWithinKibyōshi, SKKS442, ElementsOfJapaneseDesign, CabinetOfficeEntertainment, AnimalInFarEasternArt, ChigoJapanese, FourSeasons, PoemsOfTheEchigobana, HeikeMonogatari, KokinWakashu, TheManyoshu, TheClassicTraditionOfHaiku, EmperorOfJapan, NarrowRoad, GrantsToKugeNobles, UtaawaseJudgments, NintendoHistory, HandbookForJapan, JapaneseGamesOfMemory, EssaysInIdleness, JapaneseAristocraticLife, MuseInCompetition, BrocadeByNight, JapaneseFloralCalendar, OpeningKamigataya
 } from 'References/bibliography.json';
 
 import imgSC219954 from './SC219954.jpg';
@@ -49,6 +49,10 @@ import imgPaulownia from './shutterstock_666401218.jpg';
 import imgToyotomiCrest from './shutterstock_1546151357.jpg';
 import imgTatsutagawaPrint from './587094001.jpg';
 import imgJapaneseCrane from './shutterstock_1043519431.jpg';
+import imgKamigatayaSugoroku from './Kamigataya-Sugoroku.jpg';
+import imgPlayLeft from './Play-Left.jpg';
+import imgPlayRight from './Play-Right.jpg';
+import imgNakagataya from './Nakagataya.jpg';
 
 import imgHanafuda1_1 from '../Hanafuda_1-1.svg';
 import imgHanafuda1_2 from '../Hanafuda_1-2.svg';
@@ -324,24 +328,54 @@ const Hanafuda: React.FC = () => {
         <p>While decks such as the above are obviously for a different style of game, most of the imagery that would become part of the <span lang="ja-Latn">hanafuda</span> deck was already present.</p>
       </Section>
       <Section title="Banning &amp; Legalization">
-        <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></Footnote> (1787–1793). This ban was to remain in place for nearly 200 years until, in 1886, <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
-        <p>Things had already begun to change in 1885, after a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.<Cite r={EbashiHanafuda} page={[[189, 192]]} /> <Noun lang="ja-Latn">Maeda Kihei</Noun><Footnote><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</Footnote> became convinced through his reading of legal texts that the selling of <Noun lang="ja-Latn">Hanafuda</Noun> was not actually prohibited, and he moved to <Noun lang="ja-Latn">Tōkyō</Noun> in December 1885 with a plan to open a <Noun lang="ja-Latn">Hana&shy;fuda</Noun> shop. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince news&shy;papers to print his advertisements. In order to prove himself correct, he came up with a cunning plan: he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun>. His petition was declined, the court stating that the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Sumi&shy;yoshi</Noun> neigh&shy;bour&shy;hood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <a href="https://en.wikipedia.org/wiki/Sumiyoshi-kai"><Noun lang="ja-Latn">Sumiyoshi-kai</Noun></a> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai} /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> (<span lang="ja">住吉町</span>) on <Noun lang="ja-Latn">Ningyōchō</Noun> street (<Pronounce lang="ja" word="人形町通り" pronouncer="keto2204" file={pron人形町通り} />) in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋</span>). The shop was named “<Pronounce lang="ja-Latn" word="Kamigataya" noun pronouncer="poyotan" file={pronKamigataya} />” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /></p>
-        <ArticleImage
-          position="left"
-          src={imgKamigatayaGinza}
-          alt="A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda."
-          source={{ license: "cc0" }}>
-          A newspaper advertisement depicting the outside of the <Noun lang="ja-Latn">Ginza</Noun> <Noun lang="ja-Latn">Kamigataya</Noun> store, 1889.
+        <p>Some time after its introduction, the game was restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r={SatireWithinKibyōshi} page={44} /></Footnote> (1787–1793). This ban was to remain in place for nearly 200 years until, in 1886, a bookstore owner in <Noun lang="ja-Latn">Ōsaka</Noun> named <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
+        <p>Things had already begun to change in 1885, after a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.<Cite r={EbashiHanafuda} page={[[189, 192]]} /> <Noun lang="ja-Latn">Maeda Kihei</Noun><Footnote><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</Footnote> became convinced through his reading of legal texts that the selling of <Noun lang="ja-Latn">Hanafuda</Noun> was not actually prohibited, and he moved to <Noun lang="ja-Latn">Tōkyō</Noun> in December 1885 with a plan to open a <Noun lang="ja-Latn">Hana&shy;fuda</Noun> shop. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince news&shy;papers to print his advertisements. In order to prove himself correct, he came up with a cunning plan: he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun>. His petition was declined, the police stating that the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Yagenbori</Noun> neighbourhood of <a href="https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo">Chūō</a> district in <Noun lang="ja-Latn">Tōkyō</Noun> (<span lang="ja">中央区薬研堀町</span>, now part of <Noun lang="ja-Latn">Higashi–Nihonbashi</Noun>).  The shop was named “<Pronounce lang="ja-Latn" word="Kamigataya" noun pronouncer="poyotan" file={pronKamigataya} />” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r={EbashiHanafuda} page={[[189, 192]]} /><Cite r={OpeningKamigataya}/></p>
+        <ArticleImage 
+          src={imgKamigatayaSugoroku}
+          alt="A Japanese sugoroku board game with images spiraling in counter-clockwise from the outside to the center, showing scenes of Maeda applying to the police to open his store, along with products such as cards and dice."
+          size="extra-wide"
+          source={{
+            organization: {
+              orgName: "Japan Playing Card Museum",
+              orgAbbr: "JPCM",
+            },
+            originalUrl: "https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/",
+            license: "with-permission"
+          }}>
+          Ever the promotor, at the end of 1887, <Noun lang="ja-Latn">Maeda</Noun> published this <span lang="ja-Latn">sugoroku</span> game featuring his struggle to open a store selling playing cards. At the centre of the board is the final square (marked <span lang="ja">上り</span>), where Japanese and Western cards and dice are celebrating.
         </ArticleImage>
+        <p><Noun lang="ja-Latn">Kamigataya</Noun> was the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Maeda</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in the <Noun lang="ja-Latn">Ginza</Noun> (<span lang="ja">銀座</span>) district. To promote the opening of the <Noun lang="ja-Latn">Ginza</Noun> store, <Noun lang="ja-Latn">Maeda</Noun> also staged a <Noun lang="ja-Latn">Hanafuda</Noun>-themed play, featuring <a href="https://ja.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%9C%98%E8%94%B5_(7%E4%BB%A3%E7%9B%AE)"><Noun lang="ja-Latn">Ichikawa Kuzō</Noun> III</a> (<span lang="ja">三代目市川九蔵</span>) as <Noun lang="ja-Latn">Ono no Michikaze</Noun>.</p>
         <ArticleImage
+          src={[
+            [imgPlayLeft,""],
+            [imgPlayRight,""]
+          ]}>
+          Advertisement for <Noun lang="ja-Latn">Maeda</Noun>’s play entitled <cite lang="ja">花合四季盃</cite> (“”). The background shows an early form of <Noun lang="ja-Latn">Hanafuda</Noun> deck.
+        </ArticleImage>
+        <div className="multi">
+          <ArticleImage
+            src={imgKamigatayaGinza}
+            alt="A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda."
+            source={{ license: "cc0" }}>
+            A newspaper advertisement depicting the outside of the <Noun lang="ja-Latn">Ginza</Noun> <Noun lang="ja-Latn">Kamigataya</Noun> store, 1889.
+          </ArticleImage>
+          <ArticleImage
+            src={imgNakagataya}
+            alt="A Japanese storefront, open to the street, with a large die shop marker."
+            source={{license: "cc0"}}>
+            The storefront of <Noun lang="ja-Latn">Nakagataya</Noun>, as shown on a <Noun lang="ja-Latn">Hyakunin Isshu</Noun> box.
+          </ArticleImage>
+        </div>
+        <ArticleImage
+          src={imgKamigatayaMotomachi}
           position="aside"
           size="wide"
-          src={imgKamigatayaMotomachi}
           alt="An image of a Japanese street with lots of signs and flags for stores"
           source={{ license: "cc0" }}>
           In this early 20th century postcard, another branch of <Noun lang="ja-Latn">Kamigataya</Noun> can be seen on the left, identified by the large die; this one is in <Noun lang="ja-Latn">Motomachi</Noun> in <Noun lang="ja-Latn">Yokohama</Noun>.
         </ArticleImage>
-        <p><Noun lang="ja-Latn">Kamigataya</Noun> was the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Kihei</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in the <Noun lang="ja-Latn">Ginza</Noun> (<span lang="ja">銀座</span>) district, which became instantly successful. Once the viability of <Noun lang="ja-Latn">Hanafuda</Noun> had been pro&shy;ven, other manufacturers appeared quickly: the com&shy;pany that was later to become <Noun lang="ja-Latn">Nin&shy;tendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889. Other companies such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> claim to have been operating discreetly during the pro&shy;hi&shy;bition period; in their case behind the doors of a rice merchant named <Noun lang="ja-Latn">Minatoya</Noun> (<span lang="ja">湊屋</span>).<Cite r={OishiTengudoHistory4} /></p>
+        <p>The store was an instant success, and another store was opened in <Noun lang="ja-Latn">Muromachi</Noun> and a specialized wholesale store in the <Pronounce lang="ja-Latn" noun word="Ningyōchō" pronouncer="keto2204" file={pron人形町通り} /> street in the <Noun lang="ja-Latn">Sumi&shy;yoshi</Noun> neigh&shy;bour&shy;hood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <a href="https://en.wikipedia.org/wiki/Sumiyoshi-kai"><Noun lang="ja-Latn">Sumiyoshi-kai</Noun></a> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai} /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋住吉町人形町通り</span>). He later also started other stores with similar names, such as <Noun lang="ja-Latn">Nakagataya</Noun> (<span lang="ja">中方屋</span>).<Cite r={OpeningKamigataya}/></p>
+        <p>Once the viability of <Noun lang="ja-Latn">Hanafuda</Noun> had been pro&shy;ven, other manufacturers appeared quickly: the com&shy;pany that was later to become <Noun lang="ja-Latn">Nin&shy;tendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889. Other companies such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> claim to have been operating discreetly during the pro&shy;hi&shy;bition period; in their case behind the doors of a rice merchant named <Noun lang="ja-Latn">Minatoya</Noun> (<span lang="ja">湊屋</span>).<Cite r={OishiTengudoHistory4} /></p>
         <p>Even after prohibition had ended, <Noun lang="ja-Latn">Hanafuda</Noun> retained a poor reputation, and gambling with the cards remained illegal. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other supreme court judges of gambling with <Noun lang="ja-Latn">Hanafuda</Noun> (<span lang="ja">弄花</span>, <span lang="ja-Latn">rōka</span>). Due to a lack of evidence, the case was dropped, but <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.<Cite r={EmperorOfJapan} page={813} /></p>
         <p>Despite this “image problem”, playing <Noun lang="ja-Latn">Hanafuda</Noun> became part of what it meant to be a <span lang="ja-Latn">shinshi</span> (<span lang="ja">紳士</span>) — that is, a modern, wordly gentleman.<Footnote>The Japanese word <span lang="ja-Latn">shinshi</span> had originally been coined in order to translate the English “gentleman”,<Cite r={TheEastandtheIdeaofEurope} page={[[32, 38]]} /> and was particularly associated with those who enthusiastically embraced Westernization during the <Noun lang="ja-Latn">Meiji</Noun> period.</Footnote> The author <Noun lang="ja-Latn">Uchida Roan</Noun> (1868–1929) is said to have joked:</p>
         <blockquote lang="ja">紳士の資格は？　弄花と蓄妾と負債と奔走。</blockquote>

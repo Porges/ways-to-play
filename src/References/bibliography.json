@@ -4473,5 +4473,21 @@
         "publisher": "The Open Court Publishing Company",
         "publisher-place": "Chicago, IL, USA",
         "URL": "https://archive.org/details/japanesefloralca00clemrich"
+    },
+    "OpeningKamigataya": {
+        "id": "OpeningKamigataya",
+        "type": "webpage",
+        "container-title": "Ja",
+        "URL": "https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/",
+        "title": "<span lang='ja'>花札の公然の販売‥‥「上方屋」の挑戦</span>",
+        "author": [
+            {
+                "given": "崇",
+                "family": "江橋",
+                "lang": "ja"
+            }
+        ],
+        "publisher": "Japan Playing Card Museum",
+        "issued": {"year": 2020}
     }
 }
