@@ -344,28 +344,21 @@ const Hanafuda: React.FC = () => {
           }}>
           Ever the promotor, at the end of 1887, <Noun lang="ja-Latn">Maeda</Noun> published this <span lang="ja-Latn">sugoroku</span> game featuring his struggle to open a store selling playing cards. At the centre of the board is the final square (marked <span lang="ja">上り</span>), where Japanese and Western cards and dice are celebrating.
         </ArticleImage>
-        <p><Noun lang="ja-Latn">Kamigataya</Noun> was the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Maeda</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in the <Noun lang="ja-Latn">Ginza</Noun> (<span lang="ja">銀座</span>) district. To promote the opening of the <Noun lang="ja-Latn">Ginza</Noun> store, <Noun lang="ja-Latn">Maeda</Noun> also staged a <Noun lang="ja-Latn">Hanafuda</Noun>-themed play, featuring <a href="https://ja.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%9C%98%E8%94%B5_(7%E4%BB%A3%E7%9B%AE)"><Noun lang="ja-Latn">Ichikawa Kuzō</Noun> III</a> (<span lang="ja">三代目市川九蔵</span>) as <Noun lang="ja-Latn">Ono no Michikaze</Noun>.</p>
+        <p><Noun lang="ja-Latn">Kamigataya</Noun> was the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Maeda</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in <Noun lang="ja-Latn">Muromachi</Noun> district (<span lang="ja">室町</span>), and this was quickly followed by a third store in <Noun lang="ja-Latn">Ginza</Noun> (<span lang="ja">銀座</span>) in March. To promote the opening of the <Noun lang="ja-Latn">Ginza</Noun> store, <Noun lang="ja-Latn">Maeda</Noun> also staged a <Noun lang="ja-Latn">Hanafuda</Noun>-themed play in March 1886, which was held at the <Noun lang="ja-Latn">Chitose</Noun> theatre (now called the <a href="https://en.wikipedia.org/wiki/Meiji-za"><Noun lang="ja-Latn">Meiji-za</Noun></a>).</p>
         <ArticleImage
           src={[
             [imgPlayLeft,""],
             [imgPlayRight,""]
-          ]}>
-          Advertisement for <Noun lang="ja-Latn">Maeda</Noun>’s play entitled <cite lang="ja">花合四季盃</cite> (“”). The background shows an early form of <Noun lang="ja-Latn">Hanafuda</Noun> deck.
+          ]}
+          source={{
+            organization: {orgName: "Art Research Center, Ritsumeikan University"},
+            originalUrl: "https://jpsearch.go.jp/item/arc_nishikie-M648_011aNr010a",
+            license: "cc-by-nc-sa",
+            licenseVersion: "4.0"
+          }}>
+          Advertisement for <Noun lang="ja-Latn">Maeda</Noun>’s play entitled <cite lang="ja">花合四季盃</cite> (“Flower-matching four seasons sake cup”). The background shows an early form of <Noun lang="ja-Latn">Hanafuda</Noun> deck. On left is <a href="https://en.wikipedia.org/wiki/Onoe_Kikugor%C5%8D_V">Onoe Kikugorō V</a> (<span lang="ja">五代目尾上菊五郎</span>), on right <a href="https://ja.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%9C%98%E8%94%B5_(7%E4%BB%A3%E7%9B%AE)"><Noun lang="ja-Latn">Ichikawa Kuzō III</Noun></a> (<span lang="ja">三代目市川九蔵</span>) as <Noun lang="ja-Latn">Ono no Michikaze</Noun>.
         </ArticleImage>
-        <div className="multi">
-          <ArticleImage
-            src={imgKamigatayaGinza}
-            alt="A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda."
-            source={{ license: "cc0" }}>
-            A newspaper advertisement depicting the outside of the <Noun lang="ja-Latn">Ginza</Noun> <Noun lang="ja-Latn">Kamigataya</Noun> store, 1889.
-          </ArticleImage>
-          <ArticleImage
-            src={imgNakagataya}
-            alt="A Japanese storefront, open to the street, with a large die shop marker."
-            source={{license: "cc0"}}>
-            The storefront of <Noun lang="ja-Latn">Nakagataya</Noun>, as shown on a <Noun lang="ja-Latn">Hyakunin Isshu</Noun> box.
-          </ArticleImage>
-        </div>
+        <p>In addition to the retail stores, a specialized wholesale store was opened in the <Pronounce lang="ja-Latn" noun word="Ningyōchō" pronouncer="keto2204" file={pron人形町通り} /> street in the <Noun lang="ja-Latn">Sumi&shy;yoshi</Noun> neigh&shy;bour&shy;hood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <a href="https://en.wikipedia.org/wiki/Sumiyoshi-kai"><Noun lang="ja-Latn">Sumiyoshi-kai</Noun></a> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai} /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋住吉町人形町通り</span>). <Noun lang="ja-Latn">Maeda</Noun> later also started other stores with names that punned on the original store, such as <Noun lang="ja-Latn">Nakagataya</Noun> (<span lang="ja">中方屋</span>) and <Noun lang="ja-Latn">Shimogataya</Noun> (<span lang="ja">下方屋</span>).<Cite r={OpeningKamigataya}/></p>
         <ArticleImage
           src={imgKamigatayaMotomachi}
           position="aside"
@@ -374,16 +367,31 @@ const Hanafuda: React.FC = () => {
           source={{ license: "cc0" }}>
           In this early 20th century postcard, another branch of <Noun lang="ja-Latn">Kamigataya</Noun> can be seen on the left, identified by the large die; this one is in <Noun lang="ja-Latn">Motomachi</Noun> in <Noun lang="ja-Latn">Yokohama</Noun>.
         </ArticleImage>
-        <p>The store was an instant success, and another store was opened in <Noun lang="ja-Latn">Muromachi</Noun> and a specialized wholesale store in the <Pronounce lang="ja-Latn" noun word="Ningyōchō" pronouncer="keto2204" file={pron人形町通り} /> street in the <Noun lang="ja-Latn">Sumi&shy;yoshi</Noun> neigh&shy;bour&shy;hood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <a href="https://en.wikipedia.org/wiki/Sumiyoshi-kai"><Noun lang="ja-Latn">Sumiyoshi-kai</Noun></a> <span lang="ja-Latn">yakuza</span> organization.<Cite r={Sumiyoshikai} /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋住吉町人形町通り</span>). He later also started other stores with similar names, such as <Noun lang="ja-Latn">Nakagataya</Noun> (<span lang="ja">中方屋</span>).<Cite r={OpeningKamigataya}/></p>
+        <div className="multi">
+          <ArticleImage
+            src={imgKamigatayaGinza}
+            alt="A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda."
+            source={{ license: "cc0" }}>
+            A newspaper advertisement depicting the outside of the <Noun lang="ja-Latn">Ginza</Noun> <Noun lang="ja-Latn">Kamigataya</Noun> store, 1889. The large die was added to the store in December 1886.
+          </ArticleImage>
+          <ArticleImage
+            src={imgNakagataya}
+            alt="A Japanese storefront, open to the street, with a large die shop marker."
+            source={{license: "cc0"}}>
+            The storefront of <Noun lang="ja-Latn">Nakagataya</Noun>, as shown on a <Noun lang="ja-Latn">Hyakunin Isshu</Noun> box.
+          </ArticleImage>
+        </div>
         <p>Once the viability of <Noun lang="ja-Latn">Hanafuda</Noun> had been pro&shy;ven, other manufacturers appeared quickly: the com&shy;pany that was later to become <Noun lang="ja-Latn">Nin&shy;tendo</Noun> began producing <Noun lang="ja-Latn">Hanafuda</Noun> cards in 1889. Other companies such as <Noun lang="ja-Latn">Ōishi Tengudō</Noun> claim to have been operating discreetly during the pro&shy;hi&shy;bition period; in their case behind the doors of a rice merchant named <Noun lang="ja-Latn">Minatoya</Noun> (<span lang="ja">湊屋</span>).<Cite r={OishiTengudoHistory4} /></p>
+      </Section>
+      <Section title="Changing Attitudes">
         <p>Even after prohibition had ended, <Noun lang="ja-Latn">Hanafuda</Noun> retained a poor reputation, and gambling with the cards remained illegal. In 1892, <Noun lang="ja-Latn">Korekata Kojima</Noun> (<span lang="ja">児島惟謙</span>, 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five other supreme court judges of gambling with <Noun lang="ja-Latn">Hanafuda</Noun> (<span lang="ja">弄花</span>, <span lang="ja-Latn">rōka</span>). Due to a lack of evidence, the case was dropped, but <Noun lang="ja-Latn">Kojima</Noun> accepted ‘moral responsibility’ for the scandal and resigned his position.<Cite r={EmperorOfJapan} page={813} /></p>
         <p>Despite this “image problem”, playing <Noun lang="ja-Latn">Hanafuda</Noun> became part of what it meant to be a <span lang="ja-Latn">shinshi</span> (<span lang="ja">紳士</span>) — that is, a modern, wordly gentleman.<Footnote>The Japanese word <span lang="ja-Latn">shinshi</span> had originally been coined in order to translate the English “gentleman”,<Cite r={TheEastandtheIdeaofEurope} page={[[32, 38]]} /> and was particularly associated with those who enthusiastically embraced Westernization during the <Noun lang="ja-Latn">Meiji</Noun> period.</Footnote> The author <Noun lang="ja-Latn">Uchida Roan</Noun> (1868–1929) is said to have joked:</p>
         <blockquote lang="ja">紳士の資格は？　弄花と蓄妾と負債と奔走。</blockquote>
         <blockquote>What are the qualifications of a <span lang="ja-Latn">shinshi</span>? Gambling with <Noun lang="ja-Latn">Hanafuda</Noun>, keeping a mistress, being in debt, and running about.</blockquote>
         <p>Another commentator remarked ironically that “if you can’t play skillfully with 48 flower cards, you can’t be a <span lang="ja-Latn">sōninkan</span> [<span lang="ja">奏任官</span>, a type of official appointed by the prime minister]”.</p>
-        <p>The author and politician <a href="https://en.wikipedia.org/wiki/Suematsu_Kench%C5%8D"><Noun lang="ja-Latn">Suematsu Kenchō</Noun></a> (<span lang="ja">末松 謙澄</span>) describes the attitude at the time in his 1905 English-language book <Cite r={FantasyOfFarJapan} page={176} inline />:</p>
+        <p>The author and politician <a href="https://en.wikipedia.org/wiki/Suematsu_Kench%C5%8D"><Noun lang="ja-Latn">Suematsu Kenchō</Noun></a> (<span lang="ja">末松 謙澄</span>) described the attitude at the time in his 1905 English-language book <Cite r={FantasyOfFarJapan} page={176} inline />:</p>
         <blockquote>In times gone by no game of cards having any resemblance to gambling was played among the gentry; moral discipline forbade such. Since the introduction of European ideas, the rigidity of discipline has somewhat slackened and cards are now played to some extent. Nevertheless, people do not consider card-playing good taste. If they play they do so with some diffidence, somewhat in a similar way as smoking is done by ladies in European society nowadays.</blockquote>
-        <p>However, despite his protestation that “I do not care for playing at cards, but I know the methods”, he goes on to give a detailed account of the gameplay — far more than a casual observer would know!</p>
+        <p>However, despite his protestation in the book that “I do not care for playing at cards, but I know the methods”, he goes on to give a detailed account of the gameplay — far more than a casual observer would know!</p>
       </Section>
       <Section title="Traditional Methods of Manufacture">
         <p>(Often manufactured by <span lang="ja-Latn">kuge</span> nobles,<Cite r={GrantsToKugeNobles} /> as they were very poor. Iwakura’s family had even resorted to renting out their house as a gambling den<Cite r={EmperorOfJapan} page={4} /> (although he was later very successful — he was excluded from the grants cited previously.))</p>
