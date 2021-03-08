@@ -228,14 +228,14 @@ const Manufacturers: React.FC = () => {
                   <td><img src={imgHeibon} className="inline-img big" alt="A large coin symbol" /></td>
                   <td><a href="#heibon"><Noun lang="ja-Latn">Heibon</Noun></a></td>
                 </tr>
-              </tbody>
-            </Table>
-            <Table size="small">
-              <tbody>
                 <tr>
                   <td>?</td>
                   <td><a href="#kawakita"><Noun lang="ja-Latn">Kawakita</Noun></a></td>
                 </tr>
+              </tbody>
+            </Table>
+            <Table size="small">
+              <tbody>
                 <tr>
                   <td><img src={imgMarusa} className="inline-img big" alt="The Marusa symbol" /></td>
                   <td><a href="#kohara-honten"><Noun lang="ja-Latn">Kohara Honten</Noun></a></td>
