@@ -21,6 +21,8 @@ import imgCroxleyChch from './Croxley-Chch.jpg';
 import imgCroxleyCook from './Croxley-Cook.jpg';
 import imgCroxleyQueenstown from './Croxley-Queenstown.jpg';
 import imgCroxleyJoker from './Croxley-Joker.jpg';
+import imgDRGWaddingtonsAce from './DRG-Waddingtons-Ace.jpg';
+import imgDRGWaddingtonsJoker from './DRG-Waddingtons-Joker.jpg';
 
 import imgTannerCouchAce from './TannerCouch-A.jpg';
 import imgTannerCouchJoker from './TannerCouch-Joker.jpg';
@@ -85,7 +87,15 @@ const NZ: React.FC = () =>
             A “Croxley” Realm Jack, with courts no longer derived from the John Dickinson pattern.
           </ArticleImage>
         </div>
-        <p>The curled-<Cards>J</Cards> index is useful in identifying tourist pictorial decks where the card images are replaced by photographs of scenic locations, so that the Ace gives no identifying information. The following cards are from a deck produced before 1958:</p>
+        <p>At one point, DRG also produced Waddington’s cards in New Zealand, under licence:</p>
+        <ArticleImage
+          src={[
+            [imgDRGWaddingtonsAce,"An ace of spades with text reading ‘Made under licence from Waddington’s Playing Card Co Ltd. Made in New Zealand by DRG Stationery. A Dickinson–Robinson Group Product.’"],
+            [imgDRGWaddingtonsJoker,"A Waddington’s-style Joker card."],
+          ]}>
+          DRG-produced Waddington’s cards. Note the text on the Ace and the small ® on the joker.
+        </ArticleImage>
+        <p>The curled-<Cards>J</Cards> index on the pre-DRG cards is useful in identifying tourist pictorial decks where the card images are replaced by photographs of scenic locations, so that the Ace gives no identifying information. The following cards are from a deck produced before 1958:</p>
         <div className="multi wide">
           <ArticleImage noborder alt="" src={imgCroxleyPictorialJ}>
             A pictorial card with the characteristic <Cards>J</Cards> index.
@@ -97,7 +107,7 @@ const NZ: React.FC = () =>
             The joker of the deck, featuring a <a href="https://en.wikipedia.org/wiki/Hei-tiki"><span lang="mi">hei-tiki</span></a>.
           </ArticleImage>
         </div>
-        <p>The cards are probably most often found with backs depicting tourist spots around New Zealand.</p>
+        <p>The Dickinson and DRG cards are probably most often found with backs designed for tourists, depicting locations around New Zealand, or New Zealand wildlife:</p>
         <div className="multi">
           <ArticleImage noborder alt="" src={imgCroxleyTui}>
             Croxley/John Dickinson & Co. card back showing a <a href="https://en.wikipedia.org/wiki/Tui_(bird)">Tūī</a>.
