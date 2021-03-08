@@ -453,9 +453,10 @@ div.multi {
     justify-content: space-around;
 }
 
-div.multi > * {
-    margin: 5px 10px;
-}
+// margings for children
+div.multi > * { margin: 5px 10px; }
+div.multi :last-child { margin-right: 0; }
+div.multi :first-child { margin-left: 0; }
 
 // space out after poetry etc
 div.multi > p {
