@@ -86,6 +86,12 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
     <Helmet>
       <title lang={content.titleLang}>{content.title}</title>
       <body itemScope itemType="http://schema.org/WebPage" />
+
+      {/* OpenGraph stuff */}
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content={url} />
+      <meta lang={content.titleLang} property="og:title" content={content.title} />
+      <meta property="og:site_name" content="Ways to Play" />
     </Helmet>
     <article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author-outer">
       <Row>
