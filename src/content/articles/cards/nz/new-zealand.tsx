@@ -3,7 +3,6 @@ import * as React from 'react';
 import { CroxleyHistory, CroxleyClosing, DRGCompany } from 'References/bibliography.json';
 
 import { ArticleImage, Cards, Cite, Footnote, Noun, Section } from 'ui';
-import { Link } from 'react-router-dom';
 
 import imgCroxleyA1 from './Croxley-A-1.jpg';
 import imgCroxleyA2 from './Croxley-A-2.jpg';
