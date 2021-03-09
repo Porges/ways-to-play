@@ -113,8 +113,9 @@ import imgNKumegae from './NKumegae.jpg';
 import imgNKmatsukaze from './NKmatsukaze.jpg';
 import imgKHnarikomaya from './KHnarikomaya.jpg';
 
+import imgAngelLogo from './angel-logo.svg';
 import imgMaruToku from './marutoku.svg';
-import imgYaguruma from './yaguruma.png';
+import imgYaguruma from './yaguruma.svg';
 import imgMarufuku from './marufuku.svg';
 import imgYamami from './yamami.svg';
 import imgKakudai from './kakudai.svg';
@@ -177,11 +178,11 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#oishi-tengudo"><Noun lang="ja-Latn">Ōishi Tengudō</Noun></a></td>
                 </tr>
                 <tr>
-                  <td><span lang="ja" className="inline-img big" style={{ fontFamily: "sans-serif" }}>翁</span></td>
+                  <td><img src={imgAngelLogo} className="inline-img big" alt="The okina symbol" /></td>
                   <td><a href="#angel-enzeru">Angel</a></td>
                 </tr>
                 <tr>
-                  <td><img src={imgYaguruma.src} className="inline-img big" alt="The Yaguruma symbol" /></td>
+                  <td><img src={imgYaguruma} className="inline-img big" alt="The Yaguruma symbol" /></td>
                   <td><a href="#tamura-shogundo"><Noun lang="ja-Latn">Tamura Shōgundō</Noun></a></td>
                 </tr>
                 <tr>
@@ -531,7 +532,7 @@ const Manufacturers: React.FC = () => {
             From left to right they represent: a fox with a jewel in its mouth, from the gate of the <a href="https://en.wikipedia.org/wiki/Fushimi_Inari-taisha"><Noun lang="ja-Latn">Fushimi Inari</Noun> shrine</a> (<span lang="ja">伏見稲荷大社</span>); <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"><Noun lang="ja-Latn">Toyotomi Hideyoshi</Noun></a> (<span lang="ja">豊臣秀吉</span>), <a href="https://en.wikipedia.org/wiki/K%C5%8Ddai-in"><Noun lang="ja-Latn">Kita no Mandokoro</Noun></a> (<span lang="ja">北政所</span>), and <a href="https://en.wikipedia.org/wiki/Yodo-dono"><Noun lang="ja-Latn">Yodogimi</Noun></a> (<span lang="ja">淀君</span>) at <a href="https://en.wikipedia.org/wiki/Fushimi_Castle">Fushimi Castle</a> (<span lang="ja">伏見城</span>); the character <span lang="ja">大</span> (<span lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <Noun lang="ja-Latn">Daimonji</Noun> (<span lang="ja">大文字山</span>) during the festival of <a href="https://en.wikipedia.org/wiki/Gozan_no_Okuribi"><Noun lang="ja-Latn">Gozan no Okuribi</Noun></a> (<span lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk <a href="https://en.wikipedia.org/wiki/Benkei"><Noun lang="ja-Latn">Benkei</Noun></a> (<span lang="ja">弁慶</span>) meeting <a href="https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune"><Noun lang="ja-Latn">Minamoto no Yoshitsune</Noun></a> (<span lang="ja">源義経</span>), who is playing the flute, at <Noun lang="ja-Latn">Gojō</Noun> bridge (<span lang="ja">五条橋</span>); and the <a href="https://en.wikipedia.org/wiki/Kyoto_Sanga_FC"><Noun lang="ja-Latn">Kyōto Sanga</Noun></a> (<span lang="ja">京都サンガ</span>) football club, whose logo contains the Chinese/Japanese phoenix that is normally featured on the Paulownia bright card.
           </ArticleImage>
       </Section>
-      <Section title={<><a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)</>}>
+      <Section title={<><img src={imgAngelLogo} alt="" className="inline-img" /> <a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)</>}>
         <ArticleImage
           position="right"
           src={imgGenroku}
@@ -561,10 +562,10 @@ const Manufacturers: React.FC = () => {
           The extra cards of Angel’s “Hana-Trump” deck.
           </ArticleImage>
       </Section>
-      <Section title={<><img src={imgYaguruma.src} alt="" className="inline-img" /> <a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</>}>
+      <Section title={<><img src={imgYaguruma} alt="" className="inline-img" /> <a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</>}>
         <p>A small manufacturer, founded in 1921. Unlike other manufacturers, their mark is not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">矢車</span>, ‘arrow wheel’).<Footnote>
           The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th <a href="https://en.wikipedia.org/wiki/Tango_no_sekku"><Noun lang="ja-Latn">Tango no Sekku</Noun></a> festival, where they are placed on top of tall poles from which <a href="https://en.wikipedia.org/wiki/Koinobori"><span lang="ja-Latn">koi</span> streamers</a> are flown.
-            <img className="d-block mx-auto w-75" src={imgYaguruma.src} alt="An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards." />
+            <img className="d-block mx-auto w-75" src={imgYaguruma} alt="An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards." />
         </Footnote> They have also published <Noun lang="ja-Latn">Harifuda</Noun> and <Noun lang="ja-Latn">Shirofuda</Noun> (blank cards) under the mark <span lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
         <p>Most of <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s cards are produced with hand-wrapped backing paper; they have <a href="http://www5f.biglobe.ne.jp/~karutaya/brand.html">another web page that details their manufacturing process</a>.</p>
         <p><Noun lang="ja-Latn">Tamura</Noun> manufactures two types of <Noun lang="ja-Latn">Hanafuda</Noun> cards; firstly the standard pattern, with brands (these have been maintained since the 1970s):<Cite r={ModernJapaneseWrappers} page={39} /></p>
