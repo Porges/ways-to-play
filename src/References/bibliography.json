@@ -4489,5 +4489,16 @@
         ],
         "publisher": "Japan Playing Card Museum",
         "issued": {"year": 2020}
+    },
+    "AstuteBusinessman": {
+        "id": "AstuteBusinessman",
+        "URL": "https://www.nzherald.co.nz/whanganui-chronicle/news/museum-notebook-whanganui-philanthropist-also-an-astute-businessman/KGR57UHEBIWHL2RKIYZGBVP26U/",
+        "title": "Museum Notebook: Whanganui philanthropist also an astute businessman",
+        "type": "article-newspaper",
+        "container-title": "Whanganui Chronicle",
+        "issued": {"year": 2021, "month": 2, "day": 15},
+        "author": [
+            {"given": "Sandi", "family": "Black"}
+        ]
     }
 }

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { CroxleyHistory, CroxleyClosing, DRGCompany } from 'References/bibliography.json';
+import { CroxleyHistory, AstuteBusinessman, CroxleyClosing, DRGCompany } from 'References/bibliography.json';
 
 import { ArticleImage, Cards, Cite, Footnote, Noun, Section } from 'ui';
 
@@ -33,6 +33,12 @@ import imgStrongReady1953Joker from './StrongReady-1953-Joker.jpg';
 import imgStrongReady1953Ad1 from './StrongReady-1953-Ad1.jpg';
 import imgStrongReady1953Ad2 from './StrongReady-1953-Ad2.jpg';
 
+import imgArchibaldDudingstonWillis from './Archibald_Dudingston_Willis.jpg';
+import imgWillisAd from './22738050.jpg';
+import imgWillisBox500 from './ADWillis-500.jpg';
+import imgWillisBoxArcade1 from './ADWillis-Arcade-Old.jpg';
+import imgWillisBoxArcade2 from './ADWillis-Arcade-New.jpg';
+import imgWillisBoxStrand from './ADWillis-Strand-Box.jpg';
 import imgWillisAce from './Willis-Ace.jpg';
 import imgWillisJoker from './Willis-Joker.jpg';
 import imgWillisQueen from './Willis-Queen.jpg';
@@ -133,38 +139,65 @@ const NZ: React.FC = () =>
         </div>
       </Section>
     </Section>
-    <Section title="A. D. Willis/United Empire Box">
-      <p>A. D. Willis was a very early manufacturer of playing cards in New Zealand, operating from the 1880s. His designs were eventually taken over by United Empire Box (UEB), some time in the 1960s. In the late 1980s the design was taken over by Kiwi Packaging (part of Amcor), and sold under the “Arcade” brand name. This line of designs now appears to be out-of-print, as Amcor no longer manufacture playing cards.</p>
-      <ArticleImage
+    <Section title="A. D. Willis/Weeks Ltd./United Empire Box/Amcor">
+      <ArticleImage 
         size="wide"
+        src={imgWillisAd}
+        alt=""
+        source={{
+          originalUrl: "https://natlib.govt.nz/records/22738050",
+          license: "cc0",
+          organization: {orgName:"Alexander Turnbull Library"},
+        }}>
+        An advertisement for A. D. Willis’s playing cards.
+      </ArticleImage>
+      <ArticleImage 
+        position="aside"
+        src={imgArchibaldDudingstonWillis}
+        alt=""
+        source={{
+          originalUrl: "https://natlib.govt.nz/records/22778453",
+          license: "cc0",
+          organization: {orgName:"Alexander Turnbull Library"},
+        }}>
+        Archibald Dudingston Willis, circa 1902.
+      </ArticleImage>
+      <p>Archibald Dudingston Willis was a very early manufacturer of playing cards in New Zealand, who operated in Wanganui from the 1880s. In 1951 the company was sold to Weeks Ltd, which kept A. D. Willis as a subsidiary, and the business was sold in turn to United Empire Box (UEB) around 1964.<Cite r={AstuteBusinessman}/> In the late 1980s the design was taken over by Kiwi Packaging (part of Amcor). This line of designs now appears to be out-of-print, as Amcor no longer manufacture playing cards.</p>
+      <ArticleImage
         src={[
           [imgWillisAce, ""],
           [imgWillisQueen, ""],
           [imgWillisJoker, ""],
+          [imgWillisBox500, ""],
         ]}>
-        Cards in the Willis/UEB style, this deck possibly produced by A. D. Willis. The deck is a 500 deck and includes <Cards>&#x246A;</Cards>s, <Cards>&#x246B;</Cards>s, and <Cards>&#x246C;</Cards>s.
+        Cards in the Willis style, this deck possibly produced by A. D. Willis. The deck is a 500 deck and includes <Cards>&#x246A;</Cards>s, <Cards>&#x246B;</Cards>s, and <Cards>&#x246C;</Cards>s. An unusual detail is that the tail of the <Cards>Q</Cards> index is truncated on the red cards.
       </ArticleImage>
       <ArticleImage
-        size="wide"
         src={[
           [imgUEBAce, ""],
           [imgUEBQueen, ""],
           [imgUEBJoker, ""],
+          [imgWillisBoxStrand, ""],
         ]}>
-        Cards in the Willis/UEB style, this deck probably made by UEB. This deck is unusual in that the paper is uncoated and the cards feel like plain cardboard.
+        “Strand” Cards in the Willis style, this deck probably made by UEB. The designs are redrawn from the deck above. This deck is unusual in that the paper is uncoated and the cards feel like plain cardboard, despite the box promising a “Linen Finish”.
       </ArticleImage>
       <ArticleImage
-        size="wide"
+        src={imgWillisBoxArcade1}
+        alt=""
+        position="aside">
+        An earlier “Arcade” box as produced by Weeks Ltd.
+      </ArticleImage>
+      <ArticleImage
         src={[
           [imgAmcorAce, ""],
           [imgAmcorQueen, ""],
           [imgAmcorJoker, ""],
+          [imgWillisBoxArcade2, ""],
         ]}>
-        Cards in the Willis/UEB style, produced by Amcor Cartons.
+        “Arcade” Cards in the Willis style, produced by Amcor Cartons.
       </ArticleImage>
       <p>UEB also produced pictorial souvenir decks, such as the one below.</p>
       <ArticleImage
-        size="wide"
         src={[
           [imgUEB2Back, ""],
           [imgUEB2Queen, ""],
