@@ -29,11 +29,9 @@ const Camelot: React.FC = () => (
       }}>
       A 1930s Camelot box.
     </ArticleImage>
-    <section itemProp="description">
-      <p><span className="game-title">Chivalry</span>, <span className="game-title">Camelot</span>, <span className="game-title">Cam</span>, and <span className="game-title">Camette</span> are members of a series of related 2-player games originally developed by George Parker (of Parker Brothers fame).</p>
-      <p>Also in the family are the 4-player games of <span className="game-title">Four-Handed Chivalry</span>, <span className="game-title">Grand Camelot</span>, and <span className="game-title">Grand Cam</span>.</p>
-      <p>While <span className="game-title">Camelot</span> was popular for a long time (<a href="http://worldcamelotfederation.com/President.htm">US President John F. Kennedy grew up playing it</a>), it is little-known today.</p>
-    </section>
+    <p><span className="game-title">Chivalry</span>, <span className="game-title">Camelot</span>, <span className="game-title">Cam</span>, and <span className="game-title">Camette</span> are members of a series of related 2-player games originally developed by George Parker (of Parker Brothers fame).</p>
+    <p>Also in the family are the 4-player games of <span className="game-title">Four-Handed Chivalry</span>, <span className="game-title">Grand Camelot</span>, and <span className="game-title">Grand Cam</span>.</p>
+    <p>While <span className="game-title">Camelot</span> was popular for a long time (<a href="http://worldcamelotfederation.com/President.htm">US President John F. Kennedy grew up playing it</a>), it is little-known today.</p>
     <Section title="History">
       <p>George Parker developed Chivalry over a number of years starting in 1882. It was eventually published by George S. Parker &amp; Co. in 1887, and then again by the newly-formed Parker Brothers in 1888.</p>
       <ArticleImage
