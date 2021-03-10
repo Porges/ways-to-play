@@ -28,6 +28,10 @@ import imgTannerCouchAce from './TannerCouch-A.jpg';
 import imgTannerCouchJoker from './TannerCouch-Joker.jpg';
 import imgStrongReadyAce from './StrongReady-A.jpg';
 import imgStrongReadyJoker from './StrongReady-Joker.jpg';
+import imgStrongReady1953Ace from './StrongReady-1953-Ace.jpg';
+import imgStrongReady1953Joker from './StrongReady-1953-Joker.jpg';
+import imgStrongReady1953Ad1 from './StrongReady-1953-Ad1.jpg';
+import imgStrongReady1953Ad2 from './StrongReady-1953-Ad2.jpg';
 
 import imgWillisAce from './Willis-Ace.jpg';
 import imgWillisJoker from './Willis-Joker.jpg';
@@ -170,14 +174,23 @@ const NZ: React.FC = () =>
       </ArticleImage>
     </Section>
     <Section title="Strong & Ready/Tanner Couch">
-        <div className="multi wide">
-          <ArticleImage noborder src={[[imgStrongReadyJoker, ""],[imgStrongReadyAce, ""]]}>
-            Strong & Ready Joker and Ace, from a “Mark 1 Canasta” deck.
-          </ArticleImage>
-          <ArticleImage noborder alt="" src={[[imgTannerCouchAce, ""],[imgTannerCouchJoker, ""]]}>
-            Tanner Couch Ace and Joker, from a “Royal Flush 500” deck.
-          </ArticleImage>
-        </div>
+      <p>Strong & Ready Ltd. was registered from 1948–1974.</p>
+      <ArticleImage noborder size="wide" src={[
+        [imgStrongReady1953Joker, ""],
+        [imgStrongReady1953Ace, ""],
+        [imgStrongReady1953Ad1, ""],
+        [imgStrongReady1953Ad2, ""],
+      ]}>
+        Strong & Ready cards from a Canasta deck, 1953.
+      </ArticleImage>
+      <div className="multi wide">
+        <ArticleImage noborder src={[[imgStrongReadyJoker, ""],[imgStrongReadyAce, ""]]}>
+          Strong & Ready Joker and Ace, from a “Mark 1 Canasta” deck.
+        </ArticleImage>
+        <ArticleImage noborder alt="" src={[[imgTannerCouchAce, ""],[imgTannerCouchJoker, ""]]}>
+          Tanner Couch Ace and Joker, from a “Royal Flush 500” deck.
+        </ArticleImage>
+      </div>
     </Section>
     <Section title="Foreign manufacturers">
       <p>In addition to cards manufactured in New Zealand, cards featuring New Zealand scenes were manufactured in other countries, such as the United Kingdom.</p>
