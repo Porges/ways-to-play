@@ -183,6 +183,7 @@ const NZ: React.FC = () =>
       </ArticleImage>
       <ArticleImage
         src={imgWillisBoxArcade1}
+        size="small"
         alt=""
         position="aside">
         An earlier “Arcade” box as produced by Weeks Ltd.
