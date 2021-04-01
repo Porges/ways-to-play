@@ -77,7 +77,7 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
   const meta = 
     mainImage && (
     <Helmet>
-      <meta property="og:image" content={public_url + (typeof src == "string" ? src : src.images[src.images.length-1])} />
+      <meta property="og:image" content={public_url + (typeof src == "string" ? src : src.images[src.images.length-1].path)} />
     </Helmet>
     );
 
