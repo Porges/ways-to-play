@@ -1,7 +1,7 @@
 {
   "name": "ways-to-play",
   "version": "0.1.0",
-  "homepage": "https://games.porg.es/",
+  "homepage": "https://games.porg.es",
   "private": true,
   "dependencies": {
     "@craco/craco": "6.1",
@@ -32,7 +32,7 @@
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "craco start",
-    "build": "craco build",
+    "build": "PUBLIC_URL=https://games.porg.es craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "postbuild": "react-snap",

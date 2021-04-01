@@ -72,11 +72,11 @@ const renderSource = (source: SourceInfo) => {
 const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, noborder?: boolean, mainImage?: boolean) => {
 
   const meta = 
-    mainImage || <>
+    mainImage && (
     <Helmet>
       <meta property="og:image" content={process.env.PUBLIC_URL + (typeof src == "string" ? src : src.src)} />
     </Helmet>
-    </>;
+    );
 
   const className = noborder ? "border-0" : undefined;
   if (typeof src === 'string') {
