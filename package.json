@@ -32,7 +32,7 @@
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "craco start",
-    "build": "PUBLIC_URL=https://games.porg.es craco build",
+    "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
     "postbuild": "react-snap",

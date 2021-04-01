@@ -71,10 +71,13 @@ const renderSource = (source: SourceInfo) => {
 
 const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, noborder?: boolean, mainImage?: boolean) => {
 
+  // horrible hack. for some reason process.env.PUBLIC_URL doesn't work
+  const public_url = "https://games.porg.es";
+
   const meta = 
     mainImage && (
     <Helmet>
-      <meta property="og:image" content={process.env.PUBLIC_URL + (typeof src == "string" ? src : src.src)} />
+      <meta property="og:image" content={public_url + (typeof src == "string" ? src : src.src)} />
     </Helmet>
     );
 
