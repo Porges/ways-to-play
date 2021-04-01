@@ -28,7 +28,7 @@ import imgModernHanafuda from './Modern_Hanafuda.jpg';
 
 const Manufacturers: React.FC = () => {
   return (<>
-    <p>In the internet era there are now many brands that are produced on a small scale (most aren’t manufacturers themselves). Thanks to the rise of crowdfunding, the variety of designs has greatly expanded from the traditional patterns.</p>
+    <p>In the internet era there are now many <Noun lang="ja-Latn">Hanafuda</Noun> brands that are produced on a small scale. Most of the production is outsourced to larger firms, and the designs aren’t made by the themselves. Thanks to the rise of crowdfunding, the variety of designs has greatly expanded from the traditional patterns.</p>
     <Section title={<a href="https://blankproject.kr/">Blank’s Art Project</a>}>
       <p>Blank’s Art Project have created several Hwatu decks with custom art: <strong>Pebble</strong> (2016), Golden Toad (2018 & 2019 editions, crowdfunded on Korean site ‘wadiz’), and Pebble Film Edition (2019). They have also created custom promotional decks for Jeju beer (2017).</p>
       <ArticleImage

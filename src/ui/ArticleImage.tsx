@@ -6,8 +6,10 @@ import slug from 'slug';
 import { Person, Name } from './Person';
 import * as L from './License';
 import { Organization, RenderOrganization } from './Organization';
+import { Helmet } from 'react-helmet-async';
 
 type CommonInfo = {
+  identifier?: string,
   originalUrl?: string,
   copyrightYear?: number,
   author?: Name,
@@ -18,6 +20,7 @@ type CommonInfo = {
 
 // this just requires Organization for stock-image license
 type StockInfo = {
+  identifier?: string,
   originalUrl?: string,
   copyrightYear?: number,
   author?: Name,
@@ -33,6 +36,7 @@ type ResponsiveImageSrc = ResponsiveImageOutput | string
 
 type Props = {
   noborder?: boolean
+  mainImage?: boolean
   source?: SourceInfo
 } & (
     { src: ResponsiveImageSrc, alt: string }
@@ -61,16 +65,24 @@ const renderSource = (source: SourceInfo) => {
     {copyrightHolder && (
       (source.originalUrl && <a href={source.originalUrl} itemProp="sameAs">{copyrightHolder}</a>)
       || copyrightHolder)}
-    {source.license !== 'stock-image' && <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />})</>;
+    {source.license !== 'stock-image' && <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />}
+    {source.identifier && <>: {source.identifier}</>})</>;
 }
 
-const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, noborder?: boolean) => {
+const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, noborder?: boolean, mainImage?: boolean) => {
+
+  const meta = 
+    mainImage || <>
+    <Helmet>
+      <meta property="og:image" content={process.env.PUBLIC_URL + (typeof src == "string" ? src : src.src)} />
+    </Helmet>
+    </>;
 
   const className = noborder ? "border-0" : undefined;
   if (typeof src === 'string') {
     const id = slug(src);
     // eslint-disable-next-line
-    return (<><a href="#!" className="lightbox" id={id}>
+    return (<>{meta}<a href="#!" hidden className="lightbox" id={id}>
         <span style={{backgroundImage: `url('${src}')`}}></span>
       </a>
       <a href={'#'+id}>
@@ -81,7 +93,7 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
   const maxImage = src.images[src.images.length - 1];
   const id = slug(maxImage.path);
   // eslint-disable-next-line
-  return (<><a href="#!" className="lightbox" id={id}>
+  return (<>{meta}<a href="#!" hidden className="lightbox" id={id}>
         <span style={{backgroundImage: `url('${maxImage.path}')`}}></span>
       </a>
       <a href={'#'+id}>
@@ -97,7 +109,7 @@ const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: strin
   return (
     <div itemScope itemType={imageObject} itemProp="image" key={ix} itemRef={sourceId}>
       {/* eslint-disable-next-line */}
-      <a href="#!" className="lightbox" id={id}>
+      <a href="#!" hidden className="lightbox" id={id}>
         <span style={{backgroundImage: `url('${bigImage}')`}}></span>
       </a>
       <a href={'#'+id}>
@@ -166,7 +178,7 @@ export const ArticleImage: React.FC<Props> = props => {
   else {
     return (
       <Figure itemProp='image' itemScope itemType={imageObject} className={className}>
-        {renderImage(props.src, 'alt' in props ? props.alt : '', sizes, props.noborder)}
+        {renderImage(props.src, 'alt' in props ? props.alt : '', sizes, props.noborder, props.mainImage)}
         <Figure.Caption className="text-center">
           {props.children && <><span itemProp="caption">{props.children}</span>{lineBreak}</>}
           {sourceInfo}

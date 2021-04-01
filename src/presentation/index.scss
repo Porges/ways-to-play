@@ -603,7 +603,7 @@ a .figure-img {
 
 /* Unhide the lightbox when it's the target */
 .lightbox:target {
-  display: block;
+  display: block !important;
 }
 
 .lightbox span {

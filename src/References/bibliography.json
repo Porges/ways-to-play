@@ -4500,5 +4500,16 @@
         "author": [
             {"given": "Sandi", "family": "Black"}
         ]
+    },
+    "TaxStampNZ": {
+        "id": "TaxStampNZ",
+        "type": "webpage",
+        "title": "Playing-Card Tax Stamps from New Zealand",
+        "author": [
+            {"given": "Peter", "family": "Endebrock"}
+        ],
+        "issued": {"year":2017},
+        "container-title": "Peter Endebrock’s Playing-card Pages",
+        "URL": "http://www.endebrock.de/stamps/st-nz.html"
     }
 }
