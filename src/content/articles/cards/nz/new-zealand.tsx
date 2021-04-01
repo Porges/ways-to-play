@@ -168,7 +168,7 @@ const NZ: React.FC = () =>
           The back of the card deck, showing a woman performing with <a href="https://en.wikipedia.org/wiki/Poi_(performance_art)"><span lang="mi">poi</span></a>.
           </ArticleImage>
         <ArticleImage noborder alt="" src={imgCroxleyPictorialJoker}>
-          The joker of the deck, featuring a <a href="https://en.wikipedia.org/wiki/Hei-tiki"><span lang="mi">hei-tiki</span></a>.
+          The joker of the deck, featuring a <a href="https://en.wikipedia.org/wiki/Hei-tiki"><span lang="mi">hei-tiki</span></a>. Note that this rather offensively reduces a <a href="https://en.wikipedia.org/wiki/Taonga"><span lang="mi">taonga</span></a> to the status of a jester.
           </ArticleImage>
       </div>
       <p>The Dickinson and DRG cards are probably most often found with backs designed for tourists, depicting locations around New Zealand, or New Zealand wildlife:</p>
