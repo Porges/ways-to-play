@@ -4049,20 +4049,19 @@
     "EssaysInIdleness": {
         "id": "EssaysInIdleness",
         "type": "book",
-        "title": "Essays in Idleness: the <span lang='ja-Latn'>Tsurezuregusa</span> of <span lang='ja-Latn' class='noun'>Kenkō</span>",
+        "title": "Essays in Idleness and Hōjōki",
         "author": [
             {
-                "given": "Donald",
-                "family": "Keene"
+                "given": "Meredith",
+                "family": "McKinney"
             }
         ],
         "issued": {
-            "year": 1967
+            "year": 2013
         },
-        "URL": "https://archive.org/details/essaysinidleness0000yosh",
-        "publisher": "Columbia University Press",
-        "publisher-place": "New York, NY, USA",
-        "ISBN": "0-231-03080-0"
+        "publisher": "Penguin Group",
+        "publisher-place": "London, UK",
+        "ISBN": "978-0-141-95787-6"
     },
     "CabinetOfficeEntertainment": {
         "id": "CabinetOfficeEntertainment",
@@ -4511,5 +4510,17 @@
         "issued": {"year":2017},
         "container-title": "Peter Endebrock’s Playing-card Pages",
         "URL": "http://www.endebrock.de/stamps/st-nz.html"
+    },
+    "FlowersAndGardensOfJapan": {
+        "id": "FlowersAndGardensOfJapan",
+        "type": "book",
+        "title": "The Flowers And Gardens Of Japan",
+        "author": [
+            {"given": "Florence", "family": "Du Cane"}
+        ],
+        "issued": {"year": 1908},
+        "publisher": "Adam & Charles Black",
+        "publisher-place": "London",
+        "URL": "https://archive.org/details/in.ernet.dli.2015.222896"
     }
 }
