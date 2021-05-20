@@ -49,7 +49,6 @@ const articles: List = {
               articles: new Map([
                 ['art', {
                   title: "The History & Art of Hanafuda",
-                  draft: true,
                   import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './cards/japan/hanafuda/art'))
                 }],
                 ['traditional-manufacturers', {

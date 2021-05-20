@@ -4476,7 +4476,6 @@
     "OpeningKamigataya": {
         "id": "OpeningKamigataya",
         "type": "webpage",
-        "container-title": "Ja",
         "URL": "https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/",
         "title": "<span lang='ja'>花札の公然の販売‥‥「上方屋」の挑戦</span>",
         "author": [
@@ -4522,5 +4521,21 @@
         "publisher": "Adam & Charles Black",
         "publisher-place": "London",
         "URL": "https://archive.org/details/in.ernet.dli.2015.222896"
+    },
+    "JapaneseInstagramUsers": {
+        "id": "JapaneseInstagramUsers",
+        "type": "webpage",
+        "title": "Instagram Users in Japan, April 2021",
+        "issued": {"year": 2021},
+        "publisher": "NapoleonCat",
+        "URL": "https://napoleoncat.com/stats/instagram-users-in-japan/2021/04"
+    },
+    "KoreanInstagramUsers": {
+        "id": "KoreanInstagramUsers",
+        "type": "webpage",
+        "title": "Instagram Users in Korea, April 2021",
+        "issued": {"year": 2021},
+        "publisher": "NapoleonCat",
+        "URL": "https://napoleoncat.com/stats/instagram-users-in-republic_of_korea/2021/04"
     }
 }
