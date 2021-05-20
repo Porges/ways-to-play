@@ -233,6 +233,7 @@ const Hanafuda: React.FC = () => {
         <p></p>
       </Section>
       <ArticleImage
+        mainImage
         src={imgKaiAwase}
         size="wide"
         alt="Ladies in elaborate traditional Japanese dress sitting in a circle around shells that are arranged face-down on the floor."
