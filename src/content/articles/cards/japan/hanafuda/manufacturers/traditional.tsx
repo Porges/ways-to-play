@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import { Cite, ArticleImage, Noun, Footnote, Section } from 'ui';
 import { GameRef } from 'content/games/Game';
 
-import { /*EbashiCigaretteCards, TarHeel, JapanInTheTaishoEra,*/ NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, } from 'References/bibliography.json';
+import { /*EbashiCigaretteCards, TarHeel, JapanInTheTaishoEra,*/ NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, JapaneseBusinessmen1914, JapaneseBusinessmen1916, Trademarks1905 } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -112,6 +112,19 @@ import imgKHfune from './KHfune.jpg';
 import imgNKumegae from './NKumegae.jpg';
 import imgNKmatsukaze from './NKmatsukaze.jpg';
 import imgKHnarikomaya from './KHnarikomaya.jpg';
+
+import imgGyokusuidoTrademark from './Gyokusuido_trademark.png';
+import imgOishiTrademark from './Oishi_trademark.png';
+import imgSanjoyaTrademark from './Sanjoya_trademark.png';
+import imgKamigatayaTrademark from './Kamigataya_trademark.png';
+import imgSeikadoTrademark from './Seikado_trademark.png';
+import imgTsuchidaTrademark from './Tsuchida_trademark.png';
+import imgUsuiTrademark from './Usui_trademark.png';
+import imgTamadaTrademark1 from './Tamada_trademark1.png';
+import imgTamadaTrademark2 from './Tamada_trademark2.png';
+import imgYamashiroTrademark1 from './Yamashiro_trademark1.png';
+import imgYamashiroTrademark2 from './Yamashiro_trademark2.png';
+import imgYamashiroTrademark3 from './Yamashiro_trademark3.png';
 
 import imgAngelLogo from './angel-logo.svg';
 import imgMaruToku from './marutoku.svg';
@@ -222,6 +235,14 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#nakao-seikado"><Noun lang="ja-Latn">Nakao Seikadō</Noun></a></td>
                 </tr>
                 <tr>
+                  <td>?</td>
+                  <td><a href="#tsuchida-tenguya"><Noun lang="ja-Latn">Tsuchida Tenguya</Noun></a></td>
+                </tr>
+                <tr>
+                  <td>?</td>
+                  <td><a href="#usui-nikkagetsudo"><Noun lang="ja-Latn">Usui Nikkagetsudō</Noun></a></td>
+                </tr>
+                <tr>
                   <td><img src={imgMarukyou} className="inline-img big" alt="The Marukyō symbol" /></td>
                   <td><a href="#baba-keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
                 </tr>
@@ -304,6 +325,10 @@ const Manufacturers: React.FC = () => {
                 <tr>
                   <td>(none)</td>
                   <td><a href="#seieido"><Noun lang="ja-Latn">Seieidō</Noun></a></td>
+                </tr>
+                <tr>
+                  <td>?</td>
+                  <td><a href="#sanjoya"><Noun lang="ja-Latn">Sanjōya</Noun></a></td>
                 </tr>
               </tbody>
             </Table>
@@ -456,6 +481,14 @@ const Manufacturers: React.FC = () => {
         </ArticleImage>
       </Section>
       <Section title={<><img src={imgYamami} alt="" className="inline-img" /> <a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</>}>
+        <ArticleImage
+          noborder
+          position="aside"
+          alt=""
+          src={imgOishiTrademark}
+          source={{license: "cc0"}}>
+          <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s earliest trademark, registered on the 5th of October 1893 by <Noun lang="ja-Latn">Ōishi Sato</Noun> (<span lang="ja">大石サト</span>).<Cite r={Trademarks1905} page={65} /> This trademark was clearly based on that of <a href="#sanjoya"><Noun lang="ja-Latn">Sanjōya</Noun></a>.
+        </ArticleImage>
         <p>Also based in <Noun lang="ja-Latn">Kyōto</Noun>, <Noun lang="ja-Latn">Ōishi Tengudō</Noun> produces a wide variety of traditional Japanese card games. As far as I know, they are the only major manufacturer still producing <Noun lang="ja-Latn">Mefuda</Noun> cards. They also produce reproductions of even older cards, such as the <Noun lang="ja-Latn">Unsun</Noun> deck.</p>
         <ArticleImage
           position="right"
@@ -654,7 +687,7 @@ const Manufacturers: React.FC = () => {
           }}>
           The <Noun lang="ja-Latn">Matsui Tengudō</Noun> store as it appeared in 2017, 7 years after shutting down.
         </ArticleImage>
-        <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> was founded in <Noun lang="ja-Latn">Kyōto</Noun><Footnote>There was also an <Noun lang="ja-Latn">Ōsaka</Noun>-based <Noun lang="ja-Latn">Matsui Tengudō</Noun>, started by the younger brother of <Noun lang="ja-Latn">Matsui Shigejiro</Noun>, which had actually opened before the <Noun lang="ja-Latn">Kyōto</Noun> branch. It used the same manufacturer’s mark but closed after the second generation.</Footnote> in 1897 by <Noun lang="ja-Latn">Matsui Shigejiro</Noun> (<span lang="ja">松井重次郎</span>), and was run by the <Noun lang="ja-Latn">Matsui</Noun> family for three generations until it closed in 2010 after <Noun lang="ja-Latn">Matsui Shigeo</Noun> (<span lang="ja">松井重夫</span>, 1931–2016) retired.<Cite r={IwanoMatsui} /></p>
+        <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> was founded in <Noun lang="ja-Latn">Kyōto</Noun><Footnote>There was also an <Noun lang="ja-Latn">Ōsaka</Noun>-based <Noun lang="ja-Latn">Matsui Tengudō</Noun>, started by the younger brother of <Noun lang="ja-Latn">Matsui Shigejiro</Noun>, which had actually opened before the <Noun lang="ja-Latn">Kyōto</Noun> branch. It used the same manufacturer’s mark and existed in 1914<Cite r={JapaneseBusinessmen1914} page={219}/> but closed after the second generation.</Footnote> in 1897 by <Noun lang="ja-Latn">Matsui Shigejiro</Noun> (<span lang="ja">松井重次郎</span>), and was run by the <Noun lang="ja-Latn">Matsui</Noun> family for three generations until it closed in 2010 after <Noun lang="ja-Latn">Matsui Shigeo</Noun> (<span lang="ja">松井重夫</span>, 1931–2016) retired.<Cite r={IwanoMatsui} /></p>
         <p><Noun lang="ja-Latn">Matsui Tengudō</Noun> was the last manufacturer to make cards entirely by hand;<Cite r={SalterJapanese} /> <Noun lang="ja-Latn">Matsui Shigeo</Noun> had recovered this process in 1976 as a way to distinguish his cards from those being produced by other manufacturers, after a former teacher of his told him to “make something that doesn’t exist anywhere”.<Cite r={TewazaNoKioku} /></p>
         <p>Since closing, <Noun lang="ja-Latn">Matsui Tengudō</Noun> decks now fetch high prices on Yahoo! Auctions, often selling for several hundred US dollars.</p>
         <ArticleImage
@@ -742,8 +775,16 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><img src={imgYamata} alt="" className="inline-img" /> <Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)/<Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
+        <ArticleImage
+          noborder
+          position="aside"
+          alt=""
+          src={imgGyokusuidoTrademark}
+          source={{license: "cc0"}}>
+          <Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun>’s trademark, registered on the 16th of October 1893 by <Noun lang="ja-Latn">Tanaka Heibe</Noun> (<span lang="ja">田中平兵衛</span>).<Cite r={Trademarks1905} page={65} />
+        </ArticleImage>
         <p>Both of these companies used a mark of <span lang="ja">田</span> with corner on top.</p>
-        <p><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,<Cite r={Yamaguchi} page={102} /> but had stopped producing in the early 1960s.<Cite r={ModernJapaneseWrappers} page={33} /> Their brands (including <Noun lang="ja-Latn">Fukusuke</Noun> and <Noun lang="ja-Latn">Ginsuehiro</Noun>) and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>, who had their cards made by <Noun lang="ja-Latn">Tamura Shōgundō</Noun>.<Cite r={ModernJapaneseWrappers} page={[48, 59]} /> Brands included:</p>
+        <p><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> was founded around 1893, and existed in <Noun lang="ja-Latn">Kyōto</Noun> through 1914 (when it was run by <Noun lang="ja-Latn">Tanaka Haru</Noun> <span lang="ja">田中ハル</span>),<Cite r={JapaneseBusinessmen1914} page={151}/> and 1948,<Cite r={Yamaguchi} page={102} /> but had stopped producing in the early 1960s.<Cite r={ModernJapaneseWrappers} page={33} /> Their brands (including <Noun lang="ja-Latn">Fukusuke</Noun> and <Noun lang="ja-Latn">Ginsuehiro</Noun>) and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>, who had their cards made by <Noun lang="ja-Latn">Tamura Shōgundō</Noun>.<Cite r={ModernJapaneseWrappers} page={[48, 59]} /> Brands included:</p>
         <ul>
           <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
           <li><span lang="ja">銀末廣</span>/<span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
@@ -769,9 +810,20 @@ const Manufacturers: React.FC = () => {
           >
           A <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> box depicting a storefront, from the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in 1895. (This deck is briefly described in <Cite inline r={SchreiberCollection} page={184} />, under ‘Japanese #2’.)
         </ArticleImage>
+        <ArticleImage
+          noborder
+          size="wide"
+          position="aside"
+          src={[
+            [imgTamadaTrademark1, ""],
+            [imgTamadaTrademark2, ""],
+          ]}
+          source={{license: "cc0"}}>
+          Some of <Noun lang="ja-Latn">Tamada</Noun>’s trademarks, registered in 1899 by <Noun lang="ja-Latn">Tamada Yasunosuke</Noun> (<span lang="ja">玉田安之助</span>).<Cite r={Trademarks1905} page={66} /> 
+        </ArticleImage>
         <p>The mark of both of these companies was <span lang="ja">中</span> with corner at top-right.</p>
         <p><Noun lang="ja-Latn">Nihon Karuta</Noun> claimed to have been founded in 1806.<Cite r={TewazaNoKioku} /> It is hard to prove this, but an earlier company named <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> that used the same manufacturer’s mark had definitely existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895 (see image). It is unclear precisely what the relationship was between the two companies, but <Noun lang="ja-Latn">Nihon Karuta</Noun> advertised their decks as being in the “<Noun lang="ja-Latn">Tamada</Noun> style” (<span lang="ja">玉田式</span>), and certainly the patterns they printed were very similar. <Noun lang="ja-Latn">Nihon Karuta</Noun> decks also often have the <Noun lang="ja-Latn">Tamada</Noun> name printed on their branding cards. A safe guess would be that <Noun lang="ja-Latn">Nihon Karuta</Noun> was a rebranding or expansion of the original <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> name, either to reflect the scope of a larger company or to project its ambitions.</p>
-        <p>Later records show that <Noun lang="ja-Latn">Nihon Karuta</Noun> existed in 1948<Cite r={Yamaguchi} page={102} /> and through to at least the early 1980s.<Cite r={ModernJapaneseWrappers} page={54} /></p>
+        <p>Later records show that <Noun lang="ja-Latn">Nihon Karuta</Noun> existed in 1916<Cite r={JapaneseBusinessmen1916} page={135} />, 1948<Cite r={Yamaguchi} page={102} /> and through to at least the early 1980s.<Cite r={ModernJapaneseWrappers} page={54} /></p>
         <p>Brands of both companies have included:<Cite r={ModernJapaneseWrappers} page={[[54, 55]]} /></p>
         <ul>
           <li><span lang="ja">花の王</span> (<span lang="ja-Latn">hana no ō</span>, ‘queen of flowers’, the <a href="https://en.wikipedia.org/wiki/Cattleya">Cattleya</a>)</li>
@@ -850,6 +902,18 @@ const Manufacturers: React.FC = () => {
         </ArticleImage>
       </Section>
       <Section title={<><img className="inline-img" src={imgMarujuu} alt="" /> <Noun lang="ja-Latn">Yamashiro Shōten</Noun> (<span lang="ja">山城商店</span>)</>}>
+        <ArticleImage
+          noborder
+          size="wide"
+          position="aside"
+          src={[
+            [imgYamashiroTrademark1, ""],
+            [imgYamashiroTrademark2, ""],
+            [imgYamashiroTrademark3, ""],
+          ]}
+          source={{license: "cc0"}}>
+          Some of <Noun lang="ja-Latn">Yamashiro</Noun>’s trademarks, registered in 1901 & 1902 by <Noun lang="ja-Latn">Yamashiro Kōzaburō</Noun> (<span lang="ja">山城興三郎</span>).<Cite r={Trademarks1905} page={66} /> 
+        </ArticleImage>
         <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,<Cite r={Yamaguchi} page={102} /> but stopped producing in 1962.<Cite r={ModernJapaneseWrappers} page={33} /> Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span lang="ja">十</span>). Brands included:</p>
         <ul>
           <li><span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold baldy’, ‘baldy’ being a nickname for a priest)</li>
@@ -858,17 +922,17 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">大黒</span> (<span lang="ja-Latn">daikoku</span>, <a href="https://en.wikipedia.org/wiki/Daikokuten">Daikokuten</a>)</li>
         </ul>
         <ArticleImage
+          alt="The front and back cover of a pamphlet"
+          src={imgYamashiroPricelist}
+          source={{ license: "cc0" }}>
+          The cover of their pricelist shows a realistic shopfront, of similar construction to <Noun lang="ja-Latn">Nintendō</Noun>’s store that is shown in a photo above.
+        </ArticleImage>
+        <ArticleImage
           alt="The frontage of a very wide Japanese store, with signs depicting several figures."
           size="wide"
           src={imgYamashiroExterior}
           source={{ license: "cc0" }}>
-          A box wrapper from around 1900 featuring an imaginary depiction of the <Noun lang="ja-Latn">Yamashiro</Noun> store exterior; in reality it was nowhere near as large as this. The advertising boards at the left depict <Noun lang="zh-Latn">Guan Yu</Noun> and <Noun lang="zh-Latn">Shi Jin</Noun>, who represent two of the company’s brands.
-        </ArticleImage>
-        <ArticleImage
-          alt="The front and back cover of a pamphlet"
-          src={imgYamashiroPricelist}
-          source={{ license: "cc0" }}>
-          The cover of their pricelist shows a more realistic shopfront, of similar construction to <Noun lang="ja-Latn">Nintendō</Noun>’s store that is shown in a photo above.
+          A box wrapper from around 1900 featuring an imaginary depiction of the <Noun lang="ja-Latn">Yamashiro</Noun> store exterior; in reality it was nowhere near as large as this. The advertising boards at the left depict <Noun lang="zh-Latn">Guan Yu</Noun> and <Noun lang="zh-Latn">Shi Jin</Noun>, who represent two of the company’s brands (see trademark images at right).
         </ArticleImage>
       </Section>
       <Section title={<><img src={imgMaruryu} alt="" className="inline-img" /> <Noun lang="ja-Latn">Ryūtendō</Noun> (<span lang="ja">龍天堂</span>)</>}>
@@ -885,7 +949,37 @@ const Manufacturers: React.FC = () => {
         <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was a circled <span lang="ja">順</span>.</p>
       </Section>
       <Section title={<><img src={imgKanese} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nakao Seikadō</Noun> (<span lang="ja">中尾清花堂</span>)</>}>
-        <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was <span lang="ja">セ</span> with corner at top-right.</p>
+          <ArticleImage
+            noborder
+            position="aside"
+            alt=""
+            src={imgSeikadoTrademark}
+            source={{license: "cc0"}}>
+            <Noun lang="ja-Latn">Nakao Seikadō</Noun>’s trademark, registered on the 12th of July 1894 by <Noun lang="ja-Latn">Nakao Kiyosuke</Noun> (<span lang="ja">中尾清助</span>).<Cite r={Trademarks1905} page={66} /> 
+          </ArticleImage>
+        <p>Founded around 1894, and still existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was <span lang="ja">セ</span> with corner at top-right.</p>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Tsuchida Tenguya</Noun> (<span lang="ja">土田天狗屋</span>)</>}>
+          <ArticleImage
+            noborder
+            position="aside"
+            alt=""
+            src={imgTsuchidaTrademark}
+            source={{license: "cc0"}}>
+            <Noun lang="ja-Latn">Tsuchida Tenguya</Noun>’s trademark, registered on the 16th of April 1894 by <Noun lang="ja-Latn">Tsurumatsu Tsuchida</Noun> (<span lang="ja">土田鶴松</span>).<Cite r={Trademarks1905} page={66} /> 
+          </ArticleImage>
+        <p>Founded around 1894.</p>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Usui Nikkagetsudō</Noun> (<span lang="ja">臼井日月堂</span>)</>}>
+          <ArticleImage
+            noborder
+            position="aside"
+            alt=""
+            src={imgUsuiTrademark}
+            source={{license: "cc0"}}>
+            <Noun lang="ja-Latn">Usui Nikkagetsudō</Noun>’s trademark, registered on the 9th of October 1894 by <Noun lang="ja-Latn">Usui Iwajirō</Noun> (<span lang="ja">臼井岩次郎</span>).<Cite r={Trademarks1905} page={66} /> 
+          </ArticleImage>
+        <p>Founded around 1894, their mark was <span lang="ja">ヱ</span> in an angle.</p>
       </Section>
       <Section title={<><img src={imgMarukyou} alt="" className="inline-img" /> <Noun lang="ja-Latn">Baba Keieidō</Noun> (<span lang="ja">馬場京栄堂</span>)</>}>
         <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was a circled <span lang="ja">京</span>.</p>
@@ -997,7 +1091,9 @@ const Manufacturers: React.FC = () => {
           }}>
           An extra ‘advertising’ card featuring the <span lang="ja-Latn">kabuki</span> character <a href="https://en.wikipedia.org/wiki/Sukeroku"><Noun lang="ja-Latn">Sukeroku</Noun></a>, who appeared often in <Noun lang="ja-Latn">Nishimura</Noun>’s branding. <Noun lang="ja-Latn">Sukeroku</Noun> popularized the style of umbrella called a ‘snake-eye umbrella’ (<span lang="ja">蛇の目傘</span>) due to its pattern, so this type of umbrella is also referred to as a <span lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
         </ArticleImage>
-        <p>At first an important manufacturer in <Noun lang="ja-Latn">Tōkyō</Noun>, but later cards were made by other makers including <Noun lang="ja-Latn">Ōishi Tengudō</Noun>. Their mark was a circled <span lang="ja" className="circled">い</span>, and their brands included:<Cite r={ModernJapaneseWrappers} page={[54, 58]} /></p>
+        <p>At first an important manufacturer in <Noun lang="ja-Latn">Tōkyō</Noun>, but later cards were made by other makers including <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.</p>
+        <p>The company existed in 1914, and was run by a <Noun lang="ja-Latn">Nishimura Inosuke</Noun> (<span lang="ja">西村伊之助</span>).<Cite r={JapaneseBusinessmen1914} page={45}/></p>
+        <p>Their mark was a circled <span lang="ja" className="circled">い</span>, and their brands included:<Cite r={ModernJapaneseWrappers} page={[54, 58]} /></p>
         <ul>
           <li><span lang="ja">金助六</span> (<span lang="ja-Latn">kinsukeroku</span>, ‘golden <a href="https://en.wikipedia.org/wiki/Sukeroku" className="proper-noun" lang="ja-Latn">Sukeroku</a>’)</li>
           <li><span lang="ja">銀助六</span> (<span lang="ja-Latn">ginsukeroku</span>, ‘silver Sukeroku’)</li>
@@ -1207,7 +1303,17 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><img src={imgKanekata} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kamigataya</Noun> (<span lang="ja">上方屋</span>)</>}>
-        <p>For more about <Noun lang="ja-Latn">Kamigataya</Noun>, see the <Link to="/articles/cards/japan/hanafuda/art">history article</Link>. Early on, <Noun lang="ja-Latn">Kamigataya</Noun> had decks made (by <Noun lang="ja-Latn">Nintendō</Noun>) with their own brand, but they would later sell <Noun lang="ja-Latn">Nintendō</Noun>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xe0103;</span> with angle. Brands included:</p>
+        <ArticleImage
+          noborder
+          position="aside"
+          alt=""
+          src={imgKamigatayaTrademark}
+          source={{license: "cc0"}}>
+          <Noun lang="ja-Latn">Kamigataya</Noun>’s earliest trademark, registered on the 2nd of October 1889 by <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>).<Cite r={Trademarks1905} page={65} /> 
+        </ArticleImage>
+        <p>For more about <Noun lang="ja-Latn">Kamigataya</Noun>, see the <Link to="/articles/cards/japan/hanafuda/art">history article</Link>. Early on, <Noun lang="ja-Latn">Kamigataya</Noun> had decks made (by <Noun lang="ja-Latn">Nintendō</Noun>) with their own brand, but they would later sell <Noun lang="ja-Latn">Nintendō</Noun>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xe0103;</span> with angle.</p>
+        <p>In 1914, the company was run by one <Noun lang="ja-Latn">Kataoka Ei</Noun> (<span lang="ja">片岡エイ</span>). (Probably the logo dates from after <Noun lang="ja-Latn">Kamigataya</Noun> was taken over by the <Noun lang="ja-Latn">Kataoka</Noun> family.)</p>
+        <p>Their brands included:</p>
         <ul>
           <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’)</li>
           <li><span lang="ja">倭錦</span> (<span lang="ja-Latn">yamatonishiki</span>, ‘ancient Japanese brocade’)</li>
@@ -1252,6 +1358,17 @@ const Manufacturers: React.FC = () => {
           }}>
           <Noun lang="ja-Latn">Seieidō</Noun>’s <Noun lang="ja-Latn">Ebisu</Noun> brand.
         </ArticleImage>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Sanjōya</Noun> (<span lang="ja">三條屋</span>)</>}>
+          <ArticleImage
+            noborder
+            position="aside"
+            alt=""
+            src={imgSanjoyaTrademark}
+            source={{license: "cc0"}}>
+            <Noun lang="ja-Latn">Sanjōya</Noun>’s trademark, registered on the 24th of November 1890 by <Noun lang="ja-Latn">Kawasaki Matayoshi</Noun> (<span lang="ja">川崎又吉</span>).<Cite r={Trademarks1905} page={65} /> 
+          </ArticleImage>
+        <p><Noun lang="ja-Latn">Sanjōya</Noun> was the second company to apply for a trademark for <Noun lang="ja-Latn">Hanafuda</Noun> after <a href="#kamigataya"><Noun lang="ja-Latn">Kamigataya</Noun></a>. Their logo was <span lang="ja">上</span> in a square. Another logo they used (for the store itself) was <span lang="ja">又</span> under a mountain.</p>
       </Section>
     </Section>
     <Section title="Unknown">

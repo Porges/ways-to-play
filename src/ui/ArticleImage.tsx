@@ -106,9 +106,10 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
 
 const imageObject = "http://schema.org/ImageObject";
 
-const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: string, alt: string, sizes: string) => {
+const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: string, alt: string, sizes: string, noborder?: boolean) => {
   const bigImage = typeof src == 'string' ? src : src.images[src.images.length-1].path;
   const id = slug(bigImage);
+  const className = noborder ? "border-0" : undefined;
   return (
     <div itemScope itemType={imageObject} itemProp="image" key={ix} itemRef={sourceId}>
       {/* eslint-disable-next-line */}
@@ -117,14 +118,14 @@ const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: strin
       </a>
       <a href={'#'+id}>
         {typeof src === 'string'
-          ? <Figure.Image itemProp="contentUrl url" alt={alt} src={src} />
-          : <Figure.Image itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />}
+          ? <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} />
+          : <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />}
       </a>
     </div>
   );
 }
 
-const renderImages = (src: [ResponsiveImageSrc, string][], perRow: number | undefined, sourceId: string, sizes: string) => {
+const renderImages = (src: [ResponsiveImageSrc, string][], perRow: number | undefined, sourceId: string, sizes: string, noborder?: boolean) => {
 
   let take = perRow === undefined ? 1000 : perRow;
 
@@ -133,7 +134,7 @@ const renderImages = (src: [ResponsiveImageSrc, string][], perRow: number | unde
   for (let at = 0; at < src.length; at += take) {
     result.push(
       <div className="multi" key={at}>
-        {src.slice(at, at + take).map((x, ix) => renderSourcedImage(x[0], ix, sourceId, x[1], sizes))}
+        {src.slice(at, at + take).map((x, ix) => renderSourcedImage(x[0], ix, sourceId, x[1], sizes, noborder))}
       </div>
     );
   }
@@ -168,7 +169,7 @@ export const ArticleImage: React.FC<Props> = props => {
     const sourceId = "src_" + uuid.v4();
     return (
       <Figure className={className}>
-        {renderImages(props.src, 'perRow' in props ? props.perRow : undefined, sourceId, sizes)}
+        {renderImages(props.src, 'perRow' in props ? props.perRow : undefined, sourceId, sizes, props.noborder)}
         <Figure.Caption className="text-center" itemScope>
           <div id={sourceId}>
             {props.children && <><span itemProp="caption">{props.children}</span>{lineBreak}</>}

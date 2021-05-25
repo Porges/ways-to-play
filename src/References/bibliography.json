@@ -4537,5 +4537,37 @@
         "issued": {"year": 2021},
         "publisher": "NapoleonCat",
         "URL": "https://napoleoncat.com/stats/instagram-users-in-republic_of_korea/2021/04"
+    },
+    "JapaneseBusinessmen1914": {
+        "id": "JapaneseBusinessmen1914",
+        "type": "book",
+        "title": "日本全国商工人名録",
+        "title-lang": "ja",
+        "publisher": "商工社",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/932534",
+        "issued": {"year": 1914}
+    },
+    "JapaneseBusinessmen1916": {
+        "id": "JapaneseBusinessmen1916",
+        "type": "book",
+        "title": "日本全国商工人名録",
+        "title-lang": "ja",
+        "publisher": "商工社",
+        "publisher-lang": "ja",
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/969017",
+        "publisher-place": "Japan",
+        "issued": {"year": 1916}
+    },
+    "Trademarks1905": {
+        "id": "Trademarks1905",
+        "type": "book",
+        "title": "日本登録商標大全. 第六編",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "issued": {"year": 1905},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/845526"
     }
 }
