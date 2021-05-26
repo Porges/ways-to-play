@@ -112,6 +112,10 @@ import imgKHfune from './KHfune.jpg';
 import imgNKumegae from './NKumegae.jpg';
 import imgNKmatsukaze from './NKmatsukaze.jpg';
 import imgKHnarikomaya from './KHnarikomaya.jpg';
+import imgTsuchidaWrapper from './Tsuchida_wrapper.jpg';
+import imgTsuchida1 from './W0317_Extra2.jpg';
+import imgTsuchida2 from './W0317_Card19.jpg';
+import imgTsuchida3 from './W0317_Extra1.jpg';
 
 import imgGyokusuidoTrademark from './Gyokusuido_trademark.png';
 import imgOishiTrademark from './Oishi_trademark.png';
@@ -125,6 +129,13 @@ import imgTamadaTrademark2 from './Tamada_trademark2.png';
 import imgYamashiroTrademark1 from './Yamashiro_trademark1.png';
 import imgYamashiroTrademark2 from './Yamashiro_trademark2.png';
 import imgYamashiroTrademark3 from './Yamashiro_trademark3.png';
+import imgAkataTrademark from './Akata_trademark.png';
+import imgTameiTrademark from './Tamei_trademark.png';
+import imgNintendoTrademark1 from './Nintendo_trademark1.png';
+import imgNintendoTrademark2 from './Nintendo_trademark2.png';
+import imgNintendoTrademark3 from './Nintendo_trademark3.png';
+import imgNintendoTrademark4 from './Nintendo_trademark4.png';
+import imgNintendoTrademark5 from './Nintendo_trademark5.png';
 
 import imgAngelLogo from './angel-logo.svg';
 import imgMaruToku from './marutoku.svg';
@@ -170,7 +181,7 @@ const Manufacturers: React.FC = () => {
         Anatomy of a <a href="#tamura-shogundo"><Noun lang="ja-Latn">Tamura Shōgundō</Noun></a> <Noun lang="ja-Latn">Hanafuda</Noun> wrapper.
       </ArticleImage>
       <Section title="Manufacturer’s Marks">
-        <p>Within the deck, the manufacturer’s name or mark is nowadays always on one of the Paulownia junk cards, but on older decks it is can be on a Peony or Wisteria (or another card entirely).</p>
+        <p>Within the deck, the manufacturer’s name or mark is nowadays always on one of the Paulownia junk cards, but on older decks it can be on a Peony or Wisteria (for an example, see <a href="#oishi-tengudo">below</a>), or another card entirely.</p>
         <ArticleImage
           size="small"
           src={imgMarks}
@@ -328,6 +339,10 @@ const Manufacturers: React.FC = () => {
                 </tr>
                 <tr>
                   <td>?</td>
+                  <td><a href="#tamei-fukujudo"><Noun lang="ja-Latn">Tamei Fukujudō</Noun></a></td>
+                </tr>
+                <tr>
+                  <td>?</td>
                   <td><a href="#sanjoya"><Noun lang="ja-Latn">Sanjōya</Noun></a></td>
                 </tr>
               </tbody>
@@ -402,7 +417,15 @@ const Manufacturers: React.FC = () => {
     <Section title="Current Manufacturers">
       <p>All current Japanese manufacturers that I know of are based in <Noun lang="ja-Latn">Kyōto</Noun> prefecture. The <Noun lang="ja-Latn">Kansai</Noun> region (which contains both <Noun lang="ja-Latn">Kyōto</Noun> and <Noun lang="ja-Latn">Ōsaka</Noun>) is the original source of <Noun lang="ja-Latn">Hanafuda</Noun> cards.</p>
       <Section title={<><img src={imgMarufuku} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</>}>
-        <p><Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company that produces <Noun lang="jp-Latn">Hanafuda</Noun> cards today. The company was founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun> (<span lang="ja">山内 房治郎</span>), and it was run by the <Noun lang="ja-Latn">Yamauchi</Noun> family for three generations until <Noun lang="ja-Latn">Yamauchi Hiroshi</Noun> (<span lang="ja">山内 溥</span>) stepped down in 2002.</p>
+        <ArticleImage
+          noborder
+          position="aside"
+          alt=""
+          src={imgNintendoTrademark1}
+          source={{license: "cc0"}}>
+          <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">marufuku</span> mark, registered in 1900 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun>.<Cite r={Trademarks1905} page={67} /> 
+        </ArticleImage>
+        <p><Noun lang="ja-Latn">Nintendō</Noun> is the most prominent company that produces <Noun lang="jp-Latn">Hanafuda</Noun> cards today. The company was founded in <Noun lang="jp-Latn">Kyōto</Noun> in 1889 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun> (<span lang="ja">山内房治郎</span>), and it was run by the <Noun lang="ja-Latn">Yamauchi</Noun> family for three generations until <Noun lang="ja-Latn">Yamauchi Hiroshi</Noun> (<span lang="ja">山内溥</span>) stepped down in 2002.</p>
         {/*
         TODO: this seems dubious.
 
@@ -420,14 +443,27 @@ const Manufacturers: React.FC = () => {
         */
         }
         <p>A too-brief summary of their later success: after WWII, <Noun lang="jp-Latn">Nintendō</Noun> managed to survive a period of crushing taxation on playing-card products, which wiped out many of the smaller manufacturers. In the second half of the 20th century they (famously!) diversified into children’s toys and, later on, video games.</p>
+        <p><Noun lang="ja-Latn">Nintendō</Noun>’s manufacturers mark is a circled <span lang="ja" className="circled">福</span> (<span lang="ja-Latn">fuku</span>, ‘fortune’). This was originally the trade-name (<span lang="ja">屋号</span> <a href="https://en.wikipedia.org/wiki/Yag%C5%8D"><span lang="ja-Latn">yagō</span></a>) of the <Noun lang="ja-Latn">Yamauchi</Noun> family.</p>
         <ArticleImage
           size="wide"
           src={imgNintendoShop}
           alt="A wooden storefront with wrought-iron railings and a bicycle parked outside."
           source={{ license: "cc0" }}>
-          The <Noun lang="ja-Latn">Nintendō</Noun> storefront in <Noun lang="ja-Latn">Kyōto</Noun> in 1889.
+          The <Noun lang="ja-Latn">Nintendō</Noun> storefront in <Noun lang="ja-Latn">Kyōto</Noun> (original source dates this as 1889, but it seems more likely to be after 1900).
           </ArticleImage>
-        <p><Noun lang="ja-Latn">Nintendō</Noun>’s manufacturers mark is a circled <span lang="ja" className="circled">福</span> (<span lang="ja-Latn">fuku</span>, ‘fortune’). This was originally the trade-name (<span lang="ja">屋号</span> <a href="https://en.wikipedia.org/wiki/Yag%C5%8D"><span lang="ja-Latn">yagō</span></a>) of the <Noun lang="ja-Latn">Yamauchi</Noun> family.</p>
+        <ArticleImage
+          noborder
+          position="aside"
+          perRow={2}
+          src={[
+            [imgNintendoTrademark2, ""],
+            [imgNintendoTrademark3, ""],
+            [imgNintendoTrademark4, ""],
+            [imgNintendoTrademark5, ""],
+          ]}
+          source={{license: "cc0"}}>
+          Some more <Noun lang="ja-Latn">Nintendō</Noun> trademarks, registered in 1900 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun>.<Cite r={Trademarks1905} page={67} /> 
+        </ArticleImage>
         <div className="multi">
           <ArticleImage
             src={imgNintendo}
@@ -805,7 +841,7 @@ const Manufacturers: React.FC = () => {
             organization: { orgName: "British Museum" },
             license: "cc-by-nc-sa",
             licenseVersion: "4.0",
-            originalUrl: "https://www.britishmuseum.org/collection/object/A_1896-0501-876-1-96"
+            originalUrl: "https://www.britishmuseum.org/collection/object/A_1896-0501-876"
           }}
           >
           A <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> box depicting a storefront, from the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in 1895. (This deck is briefly described in <Cite inline r={SchreiberCollection} page={184} />, under ‘Japanese #2’.)
@@ -819,7 +855,7 @@ const Manufacturers: React.FC = () => {
             [imgTamadaTrademark2, ""],
           ]}
           source={{license: "cc0"}}>
-          Some of <Noun lang="ja-Latn">Tamada</Noun>’s trademarks, registered in 1899 by <Noun lang="ja-Latn">Tamada Yasunosuke</Noun> (<span lang="ja">玉田安之助</span>).<Cite r={Trademarks1905} page={66} /> 
+          Some early <Noun lang="ja-Latn">Tamada</Noun> trademarks, registered in 1899 by <Noun lang="ja-Latn">Tamada Yasunosuke</Noun> (<span lang="ja">玉田安之助</span>).<Cite r={Trademarks1905} page={66} /> 
         </ArticleImage>
         <p>The mark of both of these companies was <span lang="ja">中</span> with corner at top-right.</p>
         <p><Noun lang="ja-Latn">Nihon Karuta</Noun> claimed to have been founded in 1806.<Cite r={TewazaNoKioku} /> It is hard to prove this, but an earlier company named <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> that used the same manufacturer’s mark had definitely existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895 (see image). It is unclear precisely what the relationship was between the two companies, but <Noun lang="ja-Latn">Nihon Karuta</Noun> advertised their decks as being in the “<Noun lang="ja-Latn">Tamada</Noun> style” (<span lang="ja">玉田式</span>), and certainly the patterns they printed were very similar. <Noun lang="ja-Latn">Nihon Karuta</Noun> decks also often have the <Noun lang="ja-Latn">Tamada</Noun> name printed on their branding cards. A safe guess would be that <Noun lang="ja-Latn">Nihon Karuta</Noun> was a rebranding or expansion of the original <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> name, either to reflect the scope of a larger company or to project its ambitions.</p>
@@ -968,7 +1004,43 @@ const Manufacturers: React.FC = () => {
             source={{license: "cc0"}}>
             <Noun lang="ja-Latn">Tsuchida Tenguya</Noun>’s trademark, registered on the 16th of April 1894 by <Noun lang="ja-Latn">Tsurumatsu Tsuchida</Noun> (<span lang="ja">土田鶴松</span>).<Cite r={Trademarks1905} page={66} /> 
           </ArticleImage>
-        <p>Founded around 1894.</p>
+        <p>Founded around 1894, <Noun lang="ja-Latn">Tsuchida Tenguya</Noun> was based in <Noun lang="ja-Latn">Ōsaka</Noun>, and also manufactured Western and <span lang="ja-Latn">kabu</span> cards. Their mark was <span lang="ja">天</span> in a square.</p>
+        <ArticleImage
+          src={[
+            [imgTsuchida1, ""],
+            [imgTsuchida2, ""],
+            [imgTsuchida3, ""],
+          ]}
+          alt=""
+            source={{
+              organization: {
+                orgName: "Worshipful Company of the Makers of Playing Cards",
+                orgAbbr: "WCMPC",
+              },
+              originalUrl: "http://www.playingcardmakerscollection.co.uk/Cardhtml/W0317.html",
+              license: "with-permission"
+            }}>
+            Wrapper, maker’s mark (on Wisteria), and advertising card from a <span lang="ja-Latn">dai&shy;tengu</span> deck.
+        </ArticleImage>
+        <p>The only brand I know of is:</p>
+        <ul>
+          <li><span lang="ja">大天狗</span> (<span lang="ja-Latn">dai&shy;tengu</span>, ‘great <span lang="ja-Latn">tengu</span>’)</li>
+        </ul>
+        <ArticleImage
+          src={imgTsuchidaWrapper}
+          size="wide"
+          noborder
+          alt=""
+            source={{
+              organization: {
+                orgName: "Worshipful Company of the Makers of Playing Cards",
+                orgAbbr: "WCMPC",
+              },
+              originalUrl: "http://www.playingcardmakerscollection.co.uk/Cardhtml/W0329.html",
+              license: "with-permission"
+            }}>
+          An outer wrapper for the <span lang="ja-Latn">dai&shy;tengu</span> brand.
+        </ArticleImage>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Usui Nikkagetsudō</Noun> (<span lang="ja">臼井日月堂</span>)</>}>
           <ArticleImage
@@ -1236,6 +1308,14 @@ const Manufacturers: React.FC = () => {
         <p>A manufacturer from <Noun lang="ja-Latn">Ōsaka</Noun>, whose mark was <span lang="ja">万</span> with corner at top-right.<Cite r={OstasiatischeSpielkarten} page={135} /></p>
       </Section>
       <Section title={<><img src={imgMarumatsu} alt="" className="inline-img" /> <Noun lang="ja-Latn">Akata Shōjōya</Noun> (<span lang="ja">赤田猩々屋</span>)</>}>
+          <ArticleImage
+            noborder
+            position="aside"
+            alt=""
+            src={imgAkataTrademark}
+            source={{license: "cc0"}}>
+            <Noun lang="ja-Latn">Aakata Shōjōya</Noun>’s trademark, registered on the 24th of April 1900 by <Noun lang="ja-Latn">Akada Hanjirō</Noun> (<span lang="ja">赤田半次郎</span>).<Cite r={Trademarks1905} page={67} /> 
+          </ArticleImage>
         <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer whose mark was <span lang="ja">松</span> in a circle.</p>
         <div className="multi">
           <ArticleImage
@@ -1358,6 +1438,20 @@ const Manufacturers: React.FC = () => {
           }}>
           <Noun lang="ja-Latn">Seieidō</Noun>’s <Noun lang="ja-Latn">Ebisu</Noun> brand.
         </ArticleImage>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Tamei Fukujudō</Noun> (<span lang="ja">為井福寿堂</span>)</>}>
+          <ArticleImage
+            noborder
+            position="aside"
+            alt=""
+            src={imgTameiTrademark}
+            source={{license: "cc0"}}>
+            <Noun lang="ja-Latn">Tamei</Noun>’s trademark, registered on the 8th of January 1900 by <Noun lang="ja-Latn">Tamei Tatsunosuke</Noun> (<span lang="ja">為井辰之助</span>).<Cite r={Trademarks1905} page={67} /> 
+          </ArticleImage>
+        <p>Tamei was founded around 1900 and unusally used a romanized version of their name as a mark. I only know of one brand:</p>
+        <ul>
+          <li><span lang="ja">弁慶</span> (<span lang="ja-Latn">benkei</span>, not printed on box)</li>
+        </ul>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Sanjōya</Noun> (<span lang="ja">三條屋</span>)</>}>
           <ArticleImage
