@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import { Cite, ArticleImage, Noun, Footnote, Section } from 'ui';
 import { GameRef } from 'content/games/Game';
 
-import { /*EbashiCigaretteCards, TarHeel, JapanInTheTaishoEra,*/ NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, JapaneseBusinessmen1914, JapaneseBusinessmen1916, Trademarks1905 } from 'References/bibliography.json';
+import { /*EbashiCigaretteCards, TarHeel, JapanInTheTaishoEra,*/ NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, JapaneseBusinessmen1914, JapaneseBusinessmen1916, Trademarks1905, UniversalInfo } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -479,10 +479,11 @@ const Manufacturers: React.FC = () => {
         <p>In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mekuri</Noun> cards, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span>; and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
         <p><Noun lang="ja-Latn">Nintendō</Noun> <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:<Cite r={ModernJapaneseWrappers} page={54} /></p>
         <ul>
-          <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804)</li>
-          <li><span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>, ‘moon-faced woman’) <ArticleImage position="aside" alt="An actor wearing a mask of a white-faced woman with large cheeks, raised eyebrows, and a smile on her lips." src={imgOtafuku} source={{originalUrl: "https://www.flickr.com/photos/kryptos5/2953289035", author: { given: "See Tatt", family: "Yeo" }, license: "cc-by-nc-nd", licenseVersion: "2.0"}}><Noun lang="ja-Latn">Otafuku</Noun> (also known as <Noun lang="ja-Latn">Okame</Noun>) is a traditional character associated with good luck, and often appears in <span lang="ja-Latn">kagura</span> performances alongside <a href="https://en.wikipedia.org/wiki/Hyottoko"><Noun lang="ja-Latn">Hyottoko</Noun></a>.</ArticleImage></li>
+          <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804), trademarked in 1901<Cite r={Trademarks1905} page={67} /></li>
+          <li><span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>, ‘moon-faced woman’), trademarked in 1900<Cite r={Trademarks1905} page={67} /> <ArticleImage position="aside" alt="An actor wearing a mask of a white-faced woman with large cheeks, raised eyebrows, and a smile on her lips." src={imgOtafuku} source={{originalUrl: "https://www.flickr.com/photos/kryptos5/2953289035", author: { given: "See Tatt", family: "Yeo" }, license: "cc-by-nc-nd", licenseVersion: "2.0"}}><Noun lang="ja-Latn">Otafuku</Noun> (also known as <Noun lang="ja-Latn">Okame</Noun>) is a traditional character associated with good luck, and often appears in <span lang="ja-Latn">kagura</span> performances alongside <a href="https://en.wikipedia.org/wiki/Hyottoko"><Noun lang="ja-Latn">Hyottoko</Noun></a>.</ArticleImage></li>
+          <li><span lang="ja">正宗</span> (<span lang="ja-Latn">masamune</span>, <a href="https://en.wikipedia.org/wiki/Masamune">a famous swordsmith</a>), trademarked in 1900<Cite r={Trademarks1905} page={67} /></li>
           <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<Noun lang="ja-Latn">Tengu</Noun>’)</li>
-          <li><span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’)</li>
+          <li><span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’), trademarked in 1900<Cite r={Trademarks1905} page={67} /></li>
           <li><span lang="ja">白梅</span> (<span lang="ja-Latn">shira ume</span>, ‘white plum’), not in use as of 1980</li>
           <li><span lang="ja">櫻乃山</span> (<span lang="ja-Latn">sakura no yama</span>, ‘mountain cherry blossoms’), not in use as of 1980</li>
           <li><span lang="ja">朝日桜</span> (<span lang="ja-Latn">asahi sakura</span>, ‘sunrise cherry blossoms’)</li>
@@ -944,8 +945,8 @@ const Manufacturers: React.FC = () => {
           position="aside"
           src={[
             [imgYamashiroTrademark1, ""],
-            [imgYamashiroTrademark2, ""],
             [imgYamashiroTrademark3, ""],
+            [imgYamashiroTrademark2, ""],
           ]}
           source={{license: "cc0"}}>
           Some of <Noun lang="ja-Latn">Yamashiro</Noun>’s trademarks, registered in 1901 & 1902 by <Noun lang="ja-Latn">Yamashiro Kōzaburō</Noun> (<span lang="ja">山城興三郎</span>).<Cite r={Trademarks1905} page={66} /> 
@@ -953,8 +954,8 @@ const Manufacturers: React.FC = () => {
         <p>A manufacturer that existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948,<Cite r={Yamaguchi} page={102} /> but stopped producing in 1962.<Cite r={ModernJapaneseWrappers} page={33} /> Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span lang="ja">十</span>). Brands included:</p>
         <ul>
           <li><span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold baldy’, ‘baldy’ being a nickname for a priest)</li>
-          <li><span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, <a lang="zh-Latn" href="https://en.wikipedia.org/wiki/Guan_Yu">Guan Yu</a>)</li>
-          <li><span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>, ‘nine-tattoo dragon’, a nickname for <a lang="zh-Latn" href="https://en.wikipedia.org/wiki/Shi_Jin">Shi Jin</a>)</li>
+          <li><span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, <a lang="zh-Latn" href="https://en.wikipedia.org/wiki/Guan_Yu">Guan Yu</a>), trademarked in 1901<Cite r={Trademarks1905} page={67} /></li>
+          <li><span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>, ‘nine-tattoo dragon’, a nickname for <a lang="zh-Latn" href="https://en.wikipedia.org/wiki/Shi_Jin">Shi Jin</a>), trademarked in 1902<Cite r={Trademarks1905} page={67} /></li>
           <li><span lang="ja">大黒</span> (<span lang="ja-Latn">daikoku</span>, <a href="https://en.wikipedia.org/wiki/Daikokuten">Daikokuten</a>)</li>
         </ul>
         <ArticleImage
@@ -1263,13 +1264,13 @@ const Manufacturers: React.FC = () => {
           }}>
           Universal also published standard Western decks; this Ace shows the logo of a star containing the letters U &amp; C intertwined.
         </ArticleImage>
-        <p>The Universal Playing Card Company was based in <Noun lang="ja-Latn">Ōsaka</Noun>. Their maker’s mark on <Noun lang="ja-Latn">Hanafuda</Noun> decks was a drawstring purse (<span lang="ja">巾着</span> <span lang="ja-Latn">kinchaku</span>); elsewhere they used a six-pointed star containing “<small>UNIVERSAL</small>” or an interlocked U &amp; C. Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
+        <p>The Universal Playing Card Company was founded in 1914, and based in <Noun lang="ja-Latn">Ōsaka</Noun>.<Cite r={UniversalInfo} /> Their maker’s mark on <Noun lang="ja-Latn">Hanafuda</Noun> decks was a drawstring purse (<span lang="ja">巾着</span> <span lang="ja-Latn">kinchaku</span>); elsewhere they used a six-pointed star containing “<small>UNIVERSAL</small>” or an interlocked U &amp; C. Their own brands included:<Cite r={ModernJapaneseWrappers} page={[[59, 62]]} /></p>
         <ul>
           <li><span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomuhana</span>, ‘rubber flower’)</li>
           <li><span lang="ja">萬年花</span> (<span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’)</li>
         </ul>
-        <p>They also, like other manufacturers, produced combination <Noun lang="ja-Latn">Trump-Hana</Noun> (<span lang="ja">トランプ花</span>) decks, and in multiple sizes.</p>
-        <p>The smallest size deck (numbered “<strong>350</strong>”) has cards that are much closer in size to that of <Noun lang="ja-Latn">Hanafuda</Noun> than other brands’ combination cards are. A very similar deck was published under the brand “Star Playing Cards” (numbered “<strong>807</strong>”, with a five-pointed star).</p>
+        <p>In addition to <Noun lang="ja-Latn">Hanafuda</Noun>, they produced Western cards and Ceki cards for export. In 1935 they exported a total of 10 million decks.<Cite r={UniversalInfo} /></p>
+        <p>Like other manufacturers, they produced combination <Noun lang="ja-Latn">Trump-Hana</Noun> (<span lang="ja">トランプ花</span>) decks, and in multiple sizes: the smallest size deck (numbered “<strong>350</strong>”) has cards that are much closer in size to that of <Noun lang="ja-Latn">Hanafuda</Noun> than other brands’ combination cards are. A very similar deck was published under the brand “Star Playing Cards” (numbered “<strong>807</strong>”, with a five-pointed star).</p>
         <ArticleImage
           src={imgUniversalTrumpHanaBrights}
           alt="">

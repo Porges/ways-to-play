@@ -4567,7 +4567,33 @@
         "title-lang": "ja",
         "publisher": "東京書院",
         "publisher-lang": "ja",
+        "publisher-place": "Japan",
         "issued": {"year": 1905},
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/845526"
+    },
+    "UniversalInfo": {
+        "id": "UniversalInfo",
+        "type": "chapter",
+        "title": "ウニバーセルトランプ",
+        "title-lang": "ja",
+        "container-title": "全国百貨店有名取引業者総覧",
+        "container-title-lang": "ja",
+        "publisher": "百貨店新聞社",
+        "publisher-place": "Japan",
+        "publisher-lang": "ja",
+        "issued": { "year": 1935 },
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/1031083/285",
+        "page": "472"
+    },
+    "Trademarks1913": {
+        "id": "Trademarks1913",
+        "type": "book",
+        "title": "日本登録商標大全. 　第７輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1913},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941553"
     }
 }
