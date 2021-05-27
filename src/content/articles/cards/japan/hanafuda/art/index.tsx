@@ -428,6 +428,7 @@ const Hanafuda: React.FC = () => {
           [imgSC232177, ""],
           [imgSC232155, ""],
         ]}
+        noborder
         perRow={4}
         source={{
           license: 'cc0',

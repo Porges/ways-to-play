@@ -5,7 +5,7 @@ import Table from 'react-bootstrap/Table';
 import { Cite, ArticleImage, Noun, Footnote, Section } from 'ui';
 import { GameRef } from 'content/games/Game';
 
-import { /*EbashiCigaretteCards, TarHeel, JapanInTheTaishoEra,*/ NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, JapaneseBusinessmen1914, JapaneseBusinessmen1916, Trademarks1905, UniversalInfo } from 'References/bibliography.json';
+import { /*EbashiCigaretteCards, TarHeel, JapanInTheTaishoEra,*/ NihonGoraku, SchreiberCollection, UmebayashiIsao, TewazaNoKioku, Hargrave, OstasiatischeSpielkarten, Yamaguchi, IwanoMatsui, ModernJapaneseWrappers, SalterJapanese, JapaneseBusinessmen1914, JapaneseBusinessmen1916, Trademarks1905, UniversalInfo, Trademarks1924_7, Trademarks1924_8, Trademarks1924_9, Trademarks1924_5, Trademarks1924_11, Trademarks1924_14, Trademarks1924_17, Trademarks1924_18 } from 'References/bibliography.json';
 
 import imgMarks from '../manufacturer-marks.jpg';
 import imgShogundo from './Shogundo.jpg';
@@ -116,6 +116,7 @@ import imgTsuchidaWrapper from './Tsuchida_wrapper.jpg';
 import imgTsuchida1 from './W0317_Extra2.jpg';
 import imgTsuchida2 from './W0317_Card19.jpg';
 import imgTsuchida3 from './W0317_Extra1.jpg';
+import imgNakaoAdvert from './Nakao_advert.jpg';
 
 import imgGyokusuidoTrademark from './Gyokusuido_trademark.png';
 import imgOishiTrademark from './Oishi_trademark.png';
@@ -136,6 +137,13 @@ import imgNintendoTrademark2 from './Nintendo_trademark2.png';
 import imgNintendoTrademark3 from './Nintendo_trademark3.png';
 import imgNintendoTrademark4 from './Nintendo_trademark4.png';
 import imgNintendoTrademark5 from './Nintendo_trademark5.png';
+import imgNishiguchiTrademark from './Nishiguchi_trademark.png';
+import imgNihonKarutaTrademark1 from './NihonKaruta_trademark1.png';
+import imgNihonKarutaTrademark2 from './NihonKaruta_trademark2.png';
+import imgNishimuraTrademark1 from './Nishimura_trademark1.png';
+import imgNishimuraTrademark2 from './Nishimura_trademark2.png';
+import imgNishimuraTrademark3 from './Nishimura_trademark3.png';
+import imgIwataTrademark from './Iwata_trademark.png';
 
 import imgAngelLogo from './angel-logo.svg';
 import imgMaruToku from './marutoku.svg';
@@ -163,6 +171,8 @@ import imgMarukin from './marukin.svg';
 import imgMarudai from './marudai.svg';
 import img3gourds from './3gourds.svg';
 import imgHeibon from './heibon.svg';
+import imgKanewe from './kanewe.svg';
+import imgMarukei from './marukei.svg';
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -223,7 +233,11 @@ const Manufacturers: React.FC = () => {
                 </tr>
                 <tr>
                   <td><img src={imgYamata} className="inline-img big" alt="The Yamata symbol" /></td>
-                  <td><a href="#tanaka-gyokusuido-iwata-honten"><Noun lang="ja-Latn">Tanaka Gyokusuidō/Iwata Honten</Noun></a></td>
+                  <td><a href="#tanaka-gyokusuido"><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun></a></td>
+                </tr>
+                <tr>
+                  <td><img src={imgIwataTrademark.src} className="inline-img big" alt="Iwata’s symbol" /></td>
+                  <td><a href="#iwata-honten"><Noun lang="ja-Latn">Iwata Honten</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgKanenaka} className="inline-img big" alt="The Kanenaka symbol" /></td>
@@ -250,12 +264,8 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#tsuchida-tenguya"><Noun lang="ja-Latn">Tsuchida Tenguya</Noun></a></td>
                 </tr>
                 <tr>
-                  <td>?</td>
-                  <td><a href="#usui-nikkagetsudo"><Noun lang="ja-Latn">Usui Nikkagetsudō</Noun></a></td>
-                </tr>
-                <tr>
-                  <td><img src={imgMarukyou} className="inline-img big" alt="The Marukyō symbol" /></td>
-                  <td><a href="#baba-keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a></td>
+                  <td><img src={imgKanewe} className="inline-img big" alt="The Kanewe symbol" /></td>
+                  <td><a href="#usui-nikkagetsudo-kyoto-karuta"><Noun lang="ja-Latn">Usui Nikkagetsudō</Noun>/<Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgHeibon} className="inline-img big" alt="A large coin symbol" /></td>
@@ -278,12 +288,12 @@ const Manufacturers: React.FC = () => {
                   <td><a href="#nishimura"><Noun lang="ja-Latn">Nishimura</Noun></a></td>
                 </tr>
                 <tr>
-                  <td>?</td>
+                  <td><img src={imgMarukei} className="inline-img big" alt="The Marukei symbol" /></td>
                   <td><a href="#nakao-kokeido"><Noun lang="ja-Latn">Nakao Kōkeidō</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={imgMarukyou} className="inline-img big" alt="The Marukyō symbol" /></td>
-                  <td><a href="#kyoto-karuta"><Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
+                  <td><a href="#baba-keieido"><Noun lang="ja-Latn">Baba Keieidō</Noun></a> or <a href="#kyoto-karuta"><Noun lang="ja-Latn">Kyōto Karuta</Noun></a></td>
                 </tr>
                 <tr>
                   <td><img src={img3gourds} className="inline-img big" alt="A symbol consisting of a bunch of 3 gourds" /></td>
@@ -419,6 +429,7 @@ const Manufacturers: React.FC = () => {
       <Section title={<><img src={imgMarufuku} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nintendō</Noun> (<span lang="ja">任天堂</span>)</>}>
         <ArticleImage
           noborder
+          size="small"
           position="aside"
           alt=""
           src={imgNintendoTrademark1}
@@ -462,7 +473,7 @@ const Manufacturers: React.FC = () => {
             [imgNintendoTrademark5, ""],
           ]}
           source={{license: "cc0"}}>
-          Some more <Noun lang="ja-Latn">Nintendō</Noun> trademarks, registered in 1900 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun>.<Cite r={Trademarks1905} page={67} /> 
+          Some early <Noun lang="ja-Latn">Nintendō</Noun> trademarks, registered in 1900 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun>.<Cite r={Trademarks1905} page={67} /> Note that at this time <Noun lang="ja-Latn">Nintendō</Noun> had not yet started using the stylized form of the <span lang="ja-Latn">marufuku</span> symbol.
         </ArticleImage>
         <div className="multi">
           <ArticleImage
@@ -482,7 +493,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804), trademarked in 1901<Cite r={Trademarks1905} page={67} /></li>
           <li><span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>, ‘moon-faced woman’), trademarked in 1900<Cite r={Trademarks1905} page={67} /> <ArticleImage position="aside" alt="An actor wearing a mask of a white-faced woman with large cheeks, raised eyebrows, and a smile on her lips." src={imgOtafuku} source={{originalUrl: "https://www.flickr.com/photos/kryptos5/2953289035", author: { given: "See Tatt", family: "Yeo" }, license: "cc-by-nc-nd", licenseVersion: "2.0"}}><Noun lang="ja-Latn">Otafuku</Noun> (also known as <Noun lang="ja-Latn">Okame</Noun>) is a traditional character associated with good luck, and often appears in <span lang="ja-Latn">kagura</span> performances alongside <a href="https://en.wikipedia.org/wiki/Hyottoko"><Noun lang="ja-Latn">Hyottoko</Noun></a>.</ArticleImage></li>
           <li><span lang="ja">正宗</span> (<span lang="ja-Latn">masamune</span>, <a href="https://en.wikipedia.org/wiki/Masamune">a famous swordsmith</a>), trademarked in 1900<Cite r={Trademarks1905} page={67} /></li>
-          <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<Noun lang="ja-Latn">Tengu</Noun>’)</li>
+          <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<Noun lang="ja-Latn">Tengu</Noun>’), trademarked in 1912<Cite r={Trademarks1924_5} page={276} /></li>
           <li><span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’), trademarked in 1900<Cite r={Trademarks1905} page={67} /></li>
           <li><span lang="ja">白梅</span> (<span lang="ja-Latn">shira ume</span>, ‘white plum’), not in use as of 1980</li>
           <li><span lang="ja">櫻乃山</span> (<span lang="ja-Latn">sakura no yama</span>, ‘mountain cherry blossoms’), not in use as of 1980</li>
@@ -491,6 +502,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">大天狗</span> (<span lang="ja-Latn">dai tengu</span>, ‘chief <Noun lang="ja-Latn">Tengu</Noun>’), introduced in 1977</li>
           <li><span lang="ja">千代桜</span> (<span lang="ja-Latn">chiyo zakura</span>, ‘thousand-year cherry blossoms’)</li>
           <li><span lang="ja">春遊</span> (<span lang="ja-Latn">shun’yu</span>, ‘spring outing’, especially of the Emperor)</li>
+          <li><span lang="ja">四光印</span> (<span lang="ja-Latn">shikōjirushi</span>, ‘four brights brand’), trademarked in 1916<Cite r={Trademarks1924_9} page={286} /></li>
         </ul>
         <p>One interesting deck they used to produce was <b>Hana-Trump</b>, which combined <Noun lang="ja-Latn">Hanafuda</Noun> cards with the cards of the international standard playing card deck. Each rank of the standard pack corresponds to a month of the <Noun lang="ja-Latn">Hanafuda</Noun> deck:</p>
         <ArticleImage
@@ -520,6 +532,7 @@ const Manufacturers: React.FC = () => {
       <Section title={<><img src={imgYamami} alt="" className="inline-img" /> <a href="https://www.tengudo.jp/" className="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)</>}>
         <ArticleImage
           noborder
+          size="small"
           position="aside"
           alt=""
           src={imgOishiTrademark}
@@ -534,25 +547,35 @@ const Manufacturers: React.FC = () => {
           alt="A card with wistera showing the manufacturer’s mark.">
           <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s manufacturer’s mark, on a Wisteria card from an old <Noun lang="ja-Latn">Narikin</Noun> deck.
         </ArticleImage>
-        <p>Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top, but on some decks (e.g. <Noun lang="ja-Latn">Echigo-kobana</Noun>), they have used <span lang="ja">大</span> in a square. Brands produced by <Noun lang="ja-Latn">Ōishi Tengudō</Noun> in the past included:<Cite r={ModernJapaneseWrappers} page={[[57, 58]]} /></p>
+        <p>Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top, but on some decks (e.g. <Noun lang="ja-Latn">Echigo-kobana</Noun>), they have used <span lang="ja">大</span> in a square. In the past they have also used circled <span className="circled" lang="ja">高</span>. Brands produced by <Noun lang="ja-Latn">Ōishi Tengudō</Noun> have included:<Cite r={ModernJapaneseWrappers} page={[[57, 58]]} /></p>
         <ul>
-          <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabu</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
-          <li><span lang="ja">銀天狗</span> (<span lang="ja-Latn">gintengu</span>, ‘silver <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+          <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabu</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards, trademarked in 1921<Cite r={Trademarks1924_18} page={330} /></li>
+          <li><span lang="ja">銀天狗</span> (<span lang="ja-Latn">gintengu</span>, ‘silver <Noun lang="ja-Latn">Tengu</Noun>’), also used for <Noun lang="ja-Latn">Kabufuda</Noun>, trademarked in 1921<Cite r={Trademarks1924_18} page={331} /></li>
           <li><span lang="ja">若天狗</span> (<span lang="ja-Latn">wakatengu</span>, ‘young <Noun lang="ja-Latn">Tengu</Noun>’)</li>
           <li><span lang="ja">三天狗</span> (<span lang="ja-Latn">santengu</span>, ‘three <Noun lang="ja-Latn">Tengu</Noun>’)</li>
-          <li><span lang="ja">成金</span> (<span lang="ja-Latn">narikin</span>, ‘newly rich’, derived from a <Noun lang="ja-Latn">Shogi</Noun> term), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
+          <li><span lang="ja">成金</span> (<span lang="ja-Latn">narikin</span>, ‘newly rich’, derived from a <Noun lang="ja-Latn">Shogi</Noun> term), also used for <Noun lang="ja-Latn">Kabufuda</Noun>, trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
           <li><span lang="ja">リンカーン</span> (<span lang="ja-Latn">rinkān</span>, ‘Lincoln’), no longer in use as of 1979</li>
-          <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>), no longer in use as of 1979</li>
+          <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>), trademarked in 1917,<Cite r={Trademarks1924_11} page={328} /> no longer in use as of 1979</li>
           <li><span lang="ja">當矢</span> (<span lang="ja-Latn">atariya</span>, ‘winning arrow’)</li>
           <li><span lang="ja">四季</span> (<span lang="ja-Latn">shiki</span>, ‘four seasons’)</li>
           <li><span lang="ja">大江山</span> (<span lang="ja-Latn">ōeyama</span>, <a href="https://en.wikipedia.org/wiki/%C5%8Ceyama">a mountain near <Noun lang="ja-Latn">Kyōto</Noun></a>)</li>
           <li><span lang="ja">寳船</span> (<span lang="ja-Latn">takarabune</span>, ‘treasure ship’)<ArticleImage position="aside" size="wide" src={imgTakarabune} alt="TODO" source={{originalUrl: "https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license:"cc0", author: "MichaelMaggs"}}>The <span lang="ja-Latn">takarabune</span> is a <a href="https://en.wikipedia.org/wiki/Takarabune">mythical ship</a> that carries the <a href="https://en.wikipedia.org/wiki/Seven_Lucky_Gods">seven lucky gods</a>, as shown in this print by <a href="https://en.wikipedia.org/wiki/Hiroshige">Hiroshige</a> (<abbr title="circa">c.</abbr> 1840). </ArticleImage></li>
           <li><span lang="ja">御所車</span> (<span lang="ja-Latn">goshoguruma</span>, ‘ox-drawn coach’)</li>
-          <li><span lang="ja">来福</span> (<span lang="ja-Latn">raifuku</span>, ‘fortune comes’, a reference to the full <a href="https://en.wikipedia.org/wiki/Yojijukugo"><span lang="ja-Latn">yojijukugo</span></a> “<span lang="ja">笑門来福</span>”, ‘fortune comes to the home of those who smile’)</li>
+          <li><span lang="ja">来福</span> (<span lang="ja-Latn">raifuku</span>, ‘fortune comes’, a reference to the full <a href="https://en.wikipedia.org/wiki/Yojijukugo"><span lang="ja-Latn">yojijukugo</span></a> “<span lang="ja">笑門来福</span>”, ‘fortune comes to the home of those who smile’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
           <li><span lang="ja">花津久志/花𛁫くし</span> (<span lang="ja-Latn">hanazukushi</span>, ‘assorted flowers’)</li>
           <li><span lang="ja">舞楽</span>, (<span lang="ja-Latn">bugaku</span>, <a href="https://en.wikipedia.org/wiki/Bugaku">a courtly dance with music</a>)</li>
           <li><span lang="ja">𛀿𛀬ら</span>, (<span lang="ja-Latn">sakura</span>, but written with <span lang="ja-Latn">hentaigana</span> characters)</li>
           <li><span lang="ja">一癶</span>, (<span lang="ja-Latn">ippatsu</span>, ‘one shot’, e.g. baseball home run or a mahjong term)</li>
+          <li><span lang="ja">梅印</span>, (<span lang="ja-Latn">umejirushi</span>, ‘plum brand’), trademarked in 1915<Cite r={Trademarks1924_8} page={293} /></li>
+          <li><span lang="ja">三福</span>, (<span lang="ja-Latn">sanfuku</span>, ‘three <span lang="ja-Latn">fuku</span> [masks]’), trademarked in 1915<Cite r={Trademarks1924_8} page={295} /></li>
+          <li><span lang="ja">國光</span>, (<span lang="ja-Latn">kokkou</span>, ‘national glory’), trademarked in 1915<Cite r={Trademarks1924_8} page={297} /></li>
+          <li><span lang="ja">橋立印</span>, (<span lang="ja-Latn">hashidate&shy;jirushi</span>, ‘<a href="https://en.wikipedia.org/wiki/Amanohashidate"><Noun lang="ja-Latn">Hashidate</Noun></a> brand’), trademarked in 1921<Cite r={Trademarks1924_17} page={272} /></li>
+          <li><span lang="ja">松島印</span>, (<span lang="ja-Latn">matsushima&shy;jirushi</span>, ‘<a href="https://en.wikipedia.org/wiki/Matsushima"><Noun lang="ja-Latn">Matsu&shy;shima</Noun></a> brand’), trademarked in 1921<Cite r={Trademarks1924_17} page={272} /></li>
+          <li>(unnamed but with a picture of <a href="https://en.wikipedia.org/wiki/Itsukushima"><Noun lang="ja-Latn">Miyajima</Noun></a>, completing the <a href="https://en.wikipedia.org/wiki/Three_Views_of_Japan">Three Views of Japan</a>), trademarked in 1921<Cite r={Trademarks1924_17} page={272} /></li>
+          <li><span lang="ja">由良之助</span>, (<span lang="ja-Latn">Yuranosuke</span>, the name of a fictionalized version of the real-life <a href="https://en.wikipedia.org/wiki/%C5%8Cishi_Yoshio"><Noun lang="ja-Latn">Ōishi Kuranosuke</Noun></a>), trademarked in 1921<Cite r={Trademarks1924_17} page={272} /></li>
+          <li><span lang="ja">覇王</span> (<span lang="ja-Latn">haō</span>, ‘supreme ruler’), trademarked in 1921<Cite r={Trademarks1924_18} page={332} /></li>
+          <li><span lang="ja">曻龍</span> (<span lang="ja-Latn">shoryū</span>, ‘rising dragon’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">將軍</span> (<span lang="ja-Latn">shōgun</span>, ‘<Noun lang="ja-Latn">Shogun</Noun>’), trademarked in 1921<Cite r={Trademarks1924_18} page={334} /></li>
         </ul>
         <div className="multi">
           <ArticleImage
@@ -771,6 +794,11 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">大勝利</span> (<span lang="ja-Latn">daishōri</span>, ‘huge win’, featuring a picture of <a href="https://en.wikipedia.org/wiki/T%C5%8Dg%C5%8D_Heihachir%C5%8D">Tōgō Heihachirō</a>)</li>
           <li><span lang="ja">紅葉</span> (<span lang="ja-Latn">momiji</span>, ‘autumn leaves’)</li>
           <li><span lang="ja">源氏</span> (<span lang="ja-Latn">genji</span>, ‘<a href="https://en.wikipedia.org/wiki/Hikaru_Genji" lang="ja-Latn" className="proper-noun">Genji</a>’)</li>
+          <li><span lang="ja">金鶏</span> (<span lang="ja-Latn">kinkei</span>, ‘golden pheasant’)</li>
+          <li><span lang="ja">日本光</span> (<span lang="ja-Latn">nihon hikari</span>, ‘light (of) Japan’, i.e. <Noun lang="ja-Latn">Fuji</Noun>)</li>
+          <li><span lang="ja">祇園桜</span> (<span lang="ja-Latn">gionzakura</span>, ‘<Noun lang="ja-Latn">Gion</Noun> cherries’)</li>
+          <li><span lang="ja">聖徳太子</span> (<span lang="ja-Latn">Shōtoku Taishi</span>, ‘<a href="https://en.wikipedia.org/wiki/Prince_Sh%C5%8Dtoku">Prince <Noun lang="ja-Latn">Shōtoku</Noun></a>’)</li>
+          <li><span lang="ja">白梅</span> (<span lang="ja-Latn">shira ume</span>, ‘white plum’)</li>
         </ul>
         <p>They also made two all-plastic <Noun lang="ja-Latn">Hanafuda</Noun> decks: <span lang="ja">金花</span> (<span lang="ja-Latn">kin-hana</span> ‘gold flowers’) and <span lang="ja">銀花</span> (<span lang="ja-Latn">gin-hana</span> ‘silver flowers’).</p>
         <div className="multi">
@@ -805,33 +833,75 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">金獅子</span> (<span lang="ja-Latn">kinjishi</span>, ‘gold lion’), also used for <Noun lang="ja-Latn">Kabufuda</Noun> and <Noun lang="ja-Latn">Tehonbiki</Noun> cards</li>
           <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kinryū</span>, ‘gold dragon’)</li>
           <li><span lang="ja">銀龍</span> (<span lang="ja-Latn">ginryū</span>, ‘silver dragon’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
-          <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">gotensakura</span>, ‘palace cherry blossoms’)</li>
-          <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yorusakura</span> ‘evening cherry blossoms’)</li>
+          <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">gotenzakura</span>, ‘palace cherry blossoms’)</li>
+          <li><span lang="ja">夜櫻</span> (<span lang="ja-Latn">yoruzakura</span> ‘evening cherry blossoms’)</li>
           <li><span lang="ja">梅の花</span> (<span lang="ja-Latn">ume no hana</span> ‘plum flowers’)</li>
           <li><span lang="ja">秀吉</span> (<span lang="ja-Latn">hideyoshi</span> ‘Hideyoshi’)</li>
         </ul>
       </Section>
-      <Section title={<><img src={imgYamata} alt="" className="inline-img" /> <Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)/<Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
+      <Section title={<><img src={imgYamata} alt="" className="inline-img" /> <Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> (<span lang="ja">田中玉水堂</span>)</>}>
         <ArticleImage
           noborder
+          size="small"
           position="aside"
           alt=""
           src={imgGyokusuidoTrademark}
           source={{license: "cc0"}}>
           <Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun>’s trademark, registered on the 16th of October 1893 by <Noun lang="ja-Latn">Tanaka Heibe</Noun> (<span lang="ja">田中平兵衛</span>).<Cite r={Trademarks1905} page={65} />
         </ArticleImage>
-        <p>Both of these companies used a mark of <span lang="ja">田</span> with corner on top.</p>
-        <p><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> was founded around 1893, and existed in <Noun lang="ja-Latn">Kyōto</Noun> through 1914 (when it was run by <Noun lang="ja-Latn">Tanaka Haru</Noun> <span lang="ja">田中ハル</span>),<Cite r={JapaneseBusinessmen1914} page={151}/> and 1948,<Cite r={Yamaguchi} page={102} /> but had stopped producing in the early 1960s.<Cite r={ModernJapaneseWrappers} page={33} /> Their brands (including <Noun lang="ja-Latn">Fukusuke</Noun> and <Noun lang="ja-Latn">Ginsuehiro</Noun>) and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>, who had their cards made by <Noun lang="ja-Latn">Tamura Shōgundō</Noun>.<Cite r={ModernJapaneseWrappers} page={[48, 59]} /> Brands included:</p>
+        <p><Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun> was founded around 1893, and existed in <Noun lang="ja-Latn">Kyōto</Noun> through 1914 (when it was run by <Noun lang="ja-Latn">Tanaka Haru</Noun> <span lang="ja">田中ハル</span>),<Cite r={JapaneseBusinessmen1914} page={151}/> and 1948,<Cite r={Yamaguchi} page={102} /> but had stopped producing in the early 1960s.<Cite r={ModernJapaneseWrappers} page={33} /> Their brands (including <Noun lang="ja-Latn">Fukusuke</Noun> and <Noun lang="ja-Latn">Ginsuehiro</Noun>) and manufacturer’s mark were taken over by <Noun lang="ja-Latn">Iwata Honten</Noun>.<Cite r={ModernJapaneseWrappers} page={[48, 59]} /></p>
+        <p>Their maker’s mark was <span lang="ja">田</span> with corner on top, and brands included:</p>
         <ul>
           <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
           <li><span lang="ja">銀末廣</span>/<span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
-          <li><span lang="ja">花扇</span> (<span lang="ja-Latn">hanaōgi</span>, ‘flower fan’)</li>
-          <li><span lang="ja">金剛</span> (<span lang="ja-Latn">kongō</span>, a mythical indestructible substance)</li>
+          <li><span lang="ja">大帝王</span> (<span lang="ja-Latn">daiteiō</span> ‘great emperor’)</li>
+          <li><span lang="ja">春</span> (<span lang="ja-Latn">haru</span>, ‘spring’)</li>
           <li><span lang="ja">横綱</span> (<span lang="ja-Latn">yokozuna</span>, the highest rank in <span lang="ja-Latn">sumo</span>)</li>
           <li><span lang="ja">大関</span> (<span lang="ja-Latn">ōzeki</span>, the second-highest <span lang="ja-Latn">sumo</span> rank)</li>
-          <li><span lang="ja">春</span> (<span lang="ja-Latn">haru</span>, ‘spring’)</li>
-          <li><span lang="ja">小判</span> (<span lang="ja-Latn">koban</span>, a <a href="https://en.wikipedia.org/wiki/Koban_(coin)">type of coin</a>)</li>
+          <li><span lang="ja">高徳</span> (<span lang="ja-Latn">Takanori</span>, <Noun lang="ja-Latn">Takanori Kojima</Noun>, a warrior famous for inscribing a poem of loyalty to the emperor onto a cherry tree)</li>
+          <li><span lang="ja">花扇</span> (<span lang="ja-Latn">hanaōgi</span>, ‘flower fan’)</li>
+          <li><span lang="ja">金剛</span> (<span lang="ja-Latn">kongō</span>, a mythical indestructible substance)</li>
+          <li><span lang="ja">よろしい</span> (<span lang="ja-Latn">yoroshii</span>, ‘all right’), trademarked in 1947</li>
         </ul>
+      </Section>
+      <Section title={<><Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
+        <ArticleImage
+          noborder
+          size="small"
+          position="aside"
+          alt=""
+          src={imgIwataTrademark}
+          source={{license: "cc0"}}>
+          <Noun lang="ja-Latn">Iwata Honten</Noun>’s trademark, registered on the 27th of February 1918 by <Noun lang="ja-Latn">Iwata Yoshinosuke</Noun> (<span lang="ja">岩田芳之助</span>).<Cite r={Trademarks1924_11} page={330} />
+        </ArticleImage>
+        <p><Noun lang="ja-Latn">Iwata</Noun> was founded around 1918. They did not make their own cards but had them made by other manufacturers, including <Noun lang="ja-Latn">Tamura Shōgundō</Noun>, <Noun lang="ja-Latn">Nintendō</Noun>, and <Noun lang="ja-Latn">Nihon Karuta</Noun>. Their mark was <span lang="ja">や</span> in a fan shape.</p>
+        <p>Brands included:<Cite r={ModernJapaneseWrappers} page={48} /></p>
+        <ul>
+          <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
+          <li><span lang="ja">銀末廣</span>/<span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
+          <li><span lang="ja">小判</span> (<span lang="ja-Latn">koban</span>, a <a href="https://en.wikipedia.org/wiki/Koban_(coin)">type of coin</a>), manufactured by <Noun lang="ja-Latn">Nintendō</Noun></li>
+          <li><span lang="ja">雪月花</span> (<span lang="ja-Latn">setsugetsubana </span> ‘snow, moon, and flowers’), manufactured by <Noun lang="ja-Latn">Nintendō</Noun></li>
+          <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon), manufactured by <Noun lang="ja-Latn">Nihon Karuta</Noun></li>
+          <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’), (probably) manufactured by <Noun lang="ja-Latn">Nihon Karuta</Noun></li>
+          <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’), (probably) manufactured by <Noun lang="ja-Latn">Nihon Karuta</Noun></li>
+        </ul>
+        <div className="multi">
+          <ArticleImage
+            src={imgKinmaiogi}
+            alt="A hanafuda wrapper with an image of a fan, and a gold background">
+            The <span lang="ja-Latn">kinmaiōgi</span> wrapper.
+          </ArticleImage>
+          <ArticleImage
+            src={imgGinmaiogi}
+            alt="A hanafuda wrapper with an image of a fan, and a silver background">
+            The <span lang="ja-Latn">ginmaiōgi</span> wrapper.
+          </ArticleImage>
+          <ArticleImage
+            src={imgHannya}
+            alt="A hanafuda wrapper with an image of a horned mask.">
+            The <span lang="ja-Latn">hannya</span> wrapper.
+          </ArticleImage>
+        </div>
       </Section>
       <Section title={<><img src={imgKanenaka} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nihon Karuta Seizō</Noun>  (<span lang="ja">日本骨牌製造</span>)/<Noun lang="ja-Latn">Tamada Fukushōdō</Noun> (<span lang="ja">玉田福勝堂</span>)</>}>
         <ArticleImage
@@ -849,7 +919,6 @@ const Manufacturers: React.FC = () => {
         </ArticleImage>
         <ArticleImage
           noborder
-          size="wide"
           position="aside"
           src={[
             [imgTamadaTrademark1, ""],
@@ -858,9 +927,19 @@ const Manufacturers: React.FC = () => {
           source={{license: "cc0"}}>
           Some early <Noun lang="ja-Latn">Tamada</Noun> trademarks, registered in 1899 by <Noun lang="ja-Latn">Tamada Yasunosuke</Noun> (<span lang="ja">玉田安之助</span>).<Cite r={Trademarks1905} page={66} /> 
         </ArticleImage>
+        <ArticleImage
+          noborder
+          position="aside"
+          src={[
+            [imgNihonKarutaTrademark1, ""],
+            [imgNihonKarutaTrademark2, ""],
+          ]}
+          source={{license: "cc0"}}>
+          Earliest <Noun lang="ja-Latn">Nihon Karuta</Noun> trademarks, registered in 1915.<Cite r={Trademarks1924_8} page={295} /> 
+        </ArticleImage>
         <p>The mark of both of these companies was <span lang="ja">中</span> with corner at top-right.</p>
         <p><Noun lang="ja-Latn">Nihon Karuta</Noun> claimed to have been founded in 1806.<Cite r={TewazaNoKioku} /> It is hard to prove this, but an earlier company named <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> that used the same manufacturer’s mark had definitely existed in <Noun lang="ja-Latn">Kyōto</Noun> since before 1895 (see image). It is unclear precisely what the relationship was between the two companies, but <Noun lang="ja-Latn">Nihon Karuta</Noun> advertised their decks as being in the “<Noun lang="ja-Latn">Tamada</Noun> style” (<span lang="ja">玉田式</span>), and certainly the patterns they printed were very similar. <Noun lang="ja-Latn">Nihon Karuta</Noun> decks also often have the <Noun lang="ja-Latn">Tamada</Noun> name printed on their branding cards. A safe guess would be that <Noun lang="ja-Latn">Nihon Karuta</Noun> was a rebranding or expansion of the original <Noun lang="ja-Latn">Tamada Fukushōdō</Noun> name, either to reflect the scope of a larger company or to project its ambitions.</p>
-        <p>Later records show that <Noun lang="ja-Latn">Nihon Karuta</Noun> existed in 1916<Cite r={JapaneseBusinessmen1916} page={135} />, 1948<Cite r={Yamaguchi} page={102} /> and through to at least the early 1980s.<Cite r={ModernJapaneseWrappers} page={54} /></p>
+        <p><Noun lang="ja-Latn">Nihon Karuta</Noun> itself seems to have been founded in 1915, as this is when its earliest trademark registrations appear.<Cite r={Trademarks1924_8} page={295} /> Other records show that it existed in 1916<Cite r={JapaneseBusinessmen1916} page={135} />, 1948<Cite r={Yamaguchi} page={102} /> and through to at least the early 1980s.<Cite r={ModernJapaneseWrappers} page={54} /></p>
         <p>Brands of both companies have included:<Cite r={ModernJapaneseWrappers} page={[[54, 55]]} /></p>
         <ul>
           <li><span lang="ja">花の王</span> (<span lang="ja-Latn">hana no ō</span>, ‘queen of flowers’, the <a href="https://en.wikipedia.org/wiki/Cattleya">Cattleya</a>)</li>
@@ -868,21 +947,22 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">大隊長</span> (<span lang="ja-Latn">daitaichō</span>, ‘battalion commander’)</li>
           <li><span lang="ja">ふじ</span> (<span lang="ja-Latn">fuji</span>, ‘<Noun lang="ja-Latn">Fuji</Noun>’)</li>
           <li><span lang="ja">四光</span> (<span lang="ja-Latn">shikō</span>, ‘four brights’)</li>
-          <li><span lang="ja">金の仲</span> (<span lang="ja-Latn">kane no naka</span>, ‘golden relationship’, a reference to the trademark pronounced <span lang="ja-Latn">kane-naka</span>)</li>
+          <li><span lang="ja">金の仲</span> (<span lang="ja-Latn">kane no naka</span>, ‘golden relationship’, a reference to the trademark pronounced <span lang="ja-Latn">kane-naka</span>), trademarked by NK in 1919 <Cite r={Trademarks1924_14} page={242} /></li>
           <li><span lang="ja">百万弗</span> (<span lang="ja-Latn">hyakumandoru</span>, ‘a million dollars’)</li>
           <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, Tengu)</li>
-          <li><span lang="ja">万両</span> (<span lang="ja-Latn">manryū</span>, ‘10&thinsp;000 coins’)</li>
+          <li><span lang="ja">万両</span> (<span lang="ja-Latn">manryū</span>, ‘10&thinsp;000 coins’), trademarked by NK in 1919 <Cite r={Trademarks1924_14} page={242} /></li>
           <li><span lang="ja">千両</span> (<span lang="ja-Latn">senryū</span>, ‘1000 coins’)</li>
           <li><span lang="ja">九重櫻</span>/<span lang="ja">九重さくら</span> (<span lang="ja-Latn">kokonoezakura</span>, ‘<Noun lang="ja-Latn">Kokonoe</Noun> cherry blossoms’)</li>
-          <li><span lang="ja">梅印</span> (<span lang="ja-Latn">umejirushi</span> ‘plum seal’)</li>
+          <li><span lang="ja">梅印</span> (<span lang="ja-Latn">umejirushi</span> ‘plum brand’)</li>
           <li><span lang="ja">金富士</span> (<span lang="ja-Latn">kinfuji</span> ‘gold <Noun lang="ja-Latn">Fuji</Noun>’)</li>
           <li><span lang="ja">御所車</span> (<span lang="ja-Latn">goshoguruma</span> ‘ox-drawn coach’)</li>
           <li><span lang="ja">金鷲</span> (<span lang="ja-Latn">kinshū</span> ‘golden eagle’)</li>
-          <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kinryū</span> ‘golden dragon’)</li>
-          <li><span lang="ja">大入</span> (<span lang="ja-Latn">ōiri</span>, ‘full house’, a theatre term)</li>
-          <li><span lang="ja">東錦</span> (<span lang="ja-Latn">higashinishiki</span>, ‘eastern brocade’)</li>
-          <li><span lang="ja">三福</span> (<span lang="ja-Latn">sanfuku</span>, ‘three fortunes’)</li>
-          <li><span lang="ja">萬國一</span>/<span lang="ja">万国一</span> (<span lang="ja-Latn">bankokuichi</span>, ‘best in the world’)</li>
+          <li><span lang="ja">雲龍</span> (<span lang="ja-Latn">unryū</span> ‘cloud dragon’), trademarked by NK in 1919 <Cite r={Trademarks1924_14} page={241} /></li>
+          <li><span lang="ja">金龍</span> (<span lang="ja-Latn">kinryū</span> ‘golden dragon’), trademarked by NK in 1919 <Cite r={Trademarks1924_14} page={242} /></li>
+          <li><span lang="ja">金世界</span> (<span lang="ja-Latn">kinsekai</span>, ‘gold world’), trademarked by NK in 1919 <Cite r={Trademarks1924_14} page={242} /></li>
+          <li><span lang="ja">大入</span> (<span lang="ja-Latn">ōiri</span>, ‘full house’, a theatre term), trademarked by NK in 1919 <Cite r={Trademarks1924_14} page={242} /></li>
+          <li><span lang="ja">東錦</span> (<span lang="ja-Latn">higashinishiki</span>, ‘eastern brocade’), trademarked by NK in 1919 <Cite r={Trademarks1924_14} page={242} /></li>
+          <li><span lang="ja">萬國一</span>/<span lang="ja">万国一</span> (<span lang="ja-Latn">bankokuichi</span>, ‘best in the world’), trademarked by NK in 1919 <Cite r={Trademarks1924_14} page={242} /></li>
           <li><span lang="ja"><img src={imgKanenaka} alt="the kane-naka symbol" className="inline-img" />のお正月</span> (<span lang="ja-Latn">[nihon karuta] no oshōgatsu</span>, ‘<Noun lang="ja-Latn">Nihon Karuta</Noun>’s new year’)</li>
         </ul>
         <div className="multi">
@@ -957,6 +1037,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, <a lang="zh-Latn" href="https://en.wikipedia.org/wiki/Guan_Yu">Guan Yu</a>), trademarked in 1901<Cite r={Trademarks1905} page={67} /></li>
           <li><span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>, ‘nine-tattoo dragon’, a nickname for <a lang="zh-Latn" href="https://en.wikipedia.org/wiki/Shi_Jin">Shi Jin</a>), trademarked in 1902<Cite r={Trademarks1905} page={67} /></li>
           <li><span lang="ja">大黒</span> (<span lang="ja-Latn">daikoku</span>, <a href="https://en.wikipedia.org/wiki/Daikokuten">Daikokuten</a>)</li>
+          <li><span lang="ja">山猟</span> (<span lang="ja-Latn">yamasatsu</span>, ‘mountain hunter’)</li>
         </ul>
         <ArticleImage
           alt="The front and back cover of a pamphlet"
@@ -988,13 +1069,26 @@ const Manufacturers: React.FC = () => {
       <Section title={<><img src={imgKanese} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nakao Seikadō</Noun> (<span lang="ja">中尾清花堂</span>)</>}>
           <ArticleImage
             noborder
+            size="small"
             position="aside"
             alt=""
             src={imgSeikadoTrademark}
             source={{license: "cc0"}}>
             <Noun lang="ja-Latn">Nakao Seikadō</Noun>’s trademark, registered on the 12th of July 1894 by <Noun lang="ja-Latn">Nakao Kiyosuke</Noun> (<span lang="ja">中尾清助</span>).<Cite r={Trademarks1905} page={66} /> 
           </ArticleImage>
-        <p>Founded around 1894, and still existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was <span lang="ja">セ</span> with corner at top-right.</p>
+        <p>Founded around 1894, and still existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948. Their <Cite r={Yamaguchi} page={102} /> mark was <span lang="ja">セ</span> with corner at top-right.</p>
+        <p>Brands included:</p>
+        <ul>
+          <li><span lang="ja">世界長</span> (<span lang="ja-Latn">sekaichō</span>, ‘world leader’), trademarked in 1921<Cite r={Trademarks1924_18} page={331} /></li>
+          <li><span lang="ja">日の出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)</li>
+          <li><span lang="ja">三日月</span> (<span lang="ja-Latn">mikazuki</span>, ‘crescent moon’)</li>
+        </ul>
+        <ArticleImage
+          alt=""
+          src={imgNakaoAdvert}
+          source={{license: "cc0"}}>
+          A 1926 advertisement for <Noun lang="ja-Latn">Nakao Seikadō</Noun>.
+        </ArticleImage>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Tsuchida Tenguya</Noun> (<span lang="ja">土田天狗屋</span>)</>}>
           <ArticleImage
@@ -1043,16 +1137,21 @@ const Manufacturers: React.FC = () => {
           An outer wrapper for the <span lang="ja-Latn">dai&shy;tengu</span> brand.
         </ArticleImage>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Usui Nikkagetsudō</Noun> (<span lang="ja">臼井日月堂</span>)</>}>
-          <ArticleImage
-            noborder
-            position="aside"
-            alt=""
-            src={imgUsuiTrademark}
-            source={{license: "cc0"}}>
-            <Noun lang="ja-Latn">Usui Nikkagetsudō</Noun>’s trademark, registered on the 9th of October 1894 by <Noun lang="ja-Latn">Usui Iwajirō</Noun> (<span lang="ja">臼井岩次郎</span>).<Cite r={Trademarks1905} page={66} /> 
-          </ArticleImage>
-        <p>Founded around 1894, their mark was <span lang="ja">ヱ</span> in an angle.</p>
+      <Section title={<><img src={imgKanewe} alt="" className="inline-img" /> <Noun lang="ja-Latn">Usui Nikkagetsudō</Noun> (<span lang="ja">臼井日月堂</span>)/<Noun lang="ja-Latn">Kyōto Karuta</Noun> (<span lang="ja">京都カルタ</span>)</>}>
+        <ArticleImage
+          noborder
+          size="small"
+          position="aside"
+          alt=""
+          src={imgUsuiTrademark}
+          source={{license: "cc0"}}>
+          <Noun lang="ja-Latn">Usui Nikkagetsudō</Noun>’s trademark, registered on the 9th of October 1894 by <Noun lang="ja-Latn">Usui Iwajirō</Noun> (<span lang="ja">臼井岩次郎</span>).<Cite r={Trademarks1905} page={66} /> 
+        </ArticleImage>
+        <p>Founded around 1894, their mark was <span lang="ja">ヱ</span> in an angle, this company was at first called <Noun lang="ja-Latn">Usui Nikkagetsudō</Noun> and then later <Noun lang="ja-Latn">Kyōto Karuta</Noun> — not to be confused with the later <Noun lang="ja-Latn">Kyōto Karuta</Noun> who were active in the 1960s & 70s!</p>
+        <p>Their brands included:</p>
+        <ul>
+          <li><span lang="ja">百萬圓</span> (<span lang="ja-Latn">hyakumanen</span>, ‘one million <span lang="ja-Latn">yen</span>’), trademarked in 1921<Cite r={Trademarks1924_18} page={331} /></li>
+        </ul>
       </Section>
       <Section title={<><img src={imgMarukyou} alt="" className="inline-img" /> <Noun lang="ja-Latn">Baba Keieidō</Noun> (<span lang="ja">馬場京栄堂</span>)</>}>
         <p>Existed in <Noun lang="ja-Latn">Kyōto</Noun> in 1948;<Cite r={Yamaguchi} page={102} /> mark was a circled <span lang="ja">京</span>.</p>
@@ -1096,6 +1195,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">鳴戸</span> (<span lang="ja-Latn">naruto</span>, ‘whirlpool’)</li>
           <li><span lang="ja">船</span> (<span lang="ja-Latn">fune</span>, ‘ship’), used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
           <li><span lang="ja">成駒家</span> (<span lang="ja-Latn">narikomaya</span>, a <span lang="ja-Latn">kabuki</span> actor’s <a href="https://en.wikipedia.org/wiki/Yag%C5%8D"><span lang="ja-Latn">yagō</span></a>, probably here referring to <a href="https://en.wikipedia.org/wiki/Nakamura_Ganjir%C5%8D_II"><Noun lang="ja-Latn">Nakamura Ganjirō</Noun> II</a>)</li>
+          <li><span lang="ja">三ッ葉葵</span> (<span lang="ja-Latn">mitsuba-aoi</span>, a <span lang="ja-Latn">mon</span> consisting of three birthwort leaves used by the <a href="https://en.wikipedia.org/wiki/Tokugawa_clan#Crest"><Noun lang="ja-Latn">Tokugawa</Noun></a> clan)</li>
         </ul>
         <div className="multi">
           <ArticleImage src={imgKHonijirushi} alt="A hanafuda wrapper with an angry ogre mask.">
@@ -1134,7 +1234,7 @@ const Manufacturers: React.FC = () => {
           </ArticleImage>
         </div>
       </Section>
-      <Section title={<><Noun lang="ja-Latn">Nakao Kōkeidō</Noun> (<span lang="ja">中尾晃恵堂</span>)</>}>
+      <Section title={<><img src={imgMarukei} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nakao Kōkeidō</Noun> (<span lang="ja">中尾晃恵堂</span>)</>}>
         <p>A company in <Noun lang="ja-Latn">Ōsaka</Noun> which had its cards manufactured by <Noun lang="ja-Latn">Nihon Karuta</Noun>. Its mark was circled <span lang="ja" className="circled">恵</span>. The only brands I know of are:</p>
         <ul>
           <li><span lang="ja">梅ヶ枝</span> (<span lang="ja-Latn">umegae</span>, ‘plum branch’)</li>
@@ -1164,6 +1264,18 @@ const Manufacturers: React.FC = () => {
           }}>
           An extra ‘advertising’ card featuring the <span lang="ja-Latn">kabuki</span> character <a href="https://en.wikipedia.org/wiki/Sukeroku"><Noun lang="ja-Latn">Sukeroku</Noun></a>, who appeared often in <Noun lang="ja-Latn">Nishimura</Noun>’s branding. <Noun lang="ja-Latn">Sukeroku</Noun> popularized the style of umbrella called a ‘snake-eye umbrella’ (<span lang="ja">蛇の目傘</span>) due to its pattern, so this type of umbrella is also referred to as a <span lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
         </ArticleImage>
+        <ArticleImage
+          noborder
+          size="wide"
+          position="aside"
+          src={[
+            [imgNishimuraTrademark1, ""],
+            [imgNishimuraTrademark2, ""],
+            [imgNishimuraTrademark3, ""],
+          ]}
+          source={{license: "cc0"}}>
+          Early <Noun lang="ja-Latn">Nishimura</Noun> trademarks, registered in 1915 by <Noun lang="ja-Latn">Nishimura Inosuke</Noun> (<span lang="ja">西村伊之助</span>).<Cite r={Trademarks1924_8} page={296} /> 
+        </ArticleImage>
         <p>At first an important manufacturer in <Noun lang="ja-Latn">Tōkyō</Noun>, but later cards were made by other makers including <Noun lang="ja-Latn">Ōishi Tengudō</Noun>.</p>
         <p>The company existed in 1914, and was run by a <Noun lang="ja-Latn">Nishimura Inosuke</Noun> (<span lang="ja">西村伊之助</span>).<Cite r={JapaneseBusinessmen1914} page={45}/></p>
         <p>Their mark was a circled <span lang="ja" className="circled">い</span>, and their brands included:<Cite r={ModernJapaneseWrappers} page={[54, 58]} /></p>
@@ -1175,6 +1287,18 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">白雪</span> (<span lang="ja-Latn">shirayuki</span>, ‘white snow’)</li>
           <li><span lang="ja">百万石</span> (<span lang="ja-Latn">hyakumangoku</span>, ‘one million <a href="https://en.wikipedia.org/wiki/Koku" lang="ja-Latn">koku</a>’, a nickname for the rich <a lang="ja-Latn" href="https://en.wikipedia.org/wiki/Kaga_Domain">Kaga domain</a>, or its lord, in the <Noun lang="ja-Latn">Edo</Noun> period), no longer produced as of 1980</li>
           <li><span lang="ja">奴さん</span> (<span lang="ja-Latn">yakkosan</span>, ‘guy’, a samurai manservant, also a traditional origami shape imitating a man), no longer produced as of 1980</li>
+          <li><span lang="ja">奴印</span> (<span lang="ja-Latn">yakko&shy;jirushi</span>, ‘guy brand’), trademarked in 1921<Cite r={Trademarks1924_18} page={331} /></li>
+          <li><span lang="ja">竹印</span> (<span lang="ja-Latn">takejirushi</span>, ‘bamboo brand’), trademarked in 1915<Cite r={Trademarks1924_8} page={296} /></li>
+          <li><span lang="ja">櫻印</span> (<span lang="ja-Latn">sakurajirushi</span>, ‘cherry brand’), trademarked in 1915<Cite r={Trademarks1924_8} page={296} /></li>
+          <li><span lang="ja">月𛀙瀬</span>/<span lang="ja">月ヶ瀬</span> (<span lang="ja-Latn">tsukigase</span>, a place famous for its plum blossoms), trademarked in 1915<Cite r={Trademarks1924_8} page={296} /></li>
+          <li><span lang="ja">星印</span> (<span lang="ja-Latn">hoshi&shy;jirushi</span>, ‘star brand’), trademarked in 1916<Cite r={Trademarks1924_9} page={289} /></li>
+          <li><span lang="ja">花乃王</span> (<span lang="ja-Latn">hana no ō</span>, ‘king of flowers’, i.e. the peony), trademarked in 1918<Cite r={Trademarks1924_11} page={331} /></li>
+          <li><span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsutagawa</span>, ‘<Noun lang="ja-Latn">Tatsuta</Noun> river’), trademarked in 1918<Cite r={Trademarks1924_11} page={331} /></li>
+          <li><span lang="ja">大正錦</span> (<span lang="ja-Latn">Taishō nishiki</span>, ‘<Noun lang="ja-Latn">Taishō</Noun> brocade’), trademarked in 1921<Cite r={Trademarks1924_18} page={330} /></li>
+          <li><span lang="ja">弁慶</span> (<span lang="ja-Latn">Benkei</span>, ‘<Noun lang="ja-Latn">Benkei</Noun>’), trademarked in 1921<Cite r={Trademarks1924_18} page={330} /></li>
+          <li><span lang="ja">二福</span> (<span lang="ja-Latn">nifuku</span>, ‘two fortunes’, picturing <Noun lang="ja-Latn">Ebisu</Noun> and <Noun lang="ja-Latn">Daikokuten</Noun>), trademarked in 1921<Cite r={Trademarks1924_18} page={331} /></li>
+          <li><span lang="ja">圓満</span> (<span lang="ja-Latn">enman</span>, ‘harmony’), trademarked in 1921<Cite r={Trademarks1924_18} page={332} /></li>
+          <li><span lang="ja">東山</span> (<span lang="ja-Latn">higashiyama</span>, ‘<a href="https://en.wikipedia.org/wiki/Higashiyama-ku,_Kyoto"><Noun lang="ja-Latn">Higashiyama</Noun></a>’)</li>
         </ul>
         <ArticleImage
           src={[
@@ -1368,6 +1492,15 @@ const Manufacturers: React.FC = () => {
         </ul>
       </Section>
       <Section title={<><img src={imgMaruei} alt="" className="inline-img" /> <Noun lang="ja-Latn">Nishi&shy;guchi Shōten</Noun> (<span lang="ja">西口商店</span>)</>}>
+        <ArticleImage
+          noborder
+          size="small"
+          position="aside"
+          alt=""
+          src={imgNishiguchiTrademark}
+          source={{license: "cc0"}}>
+          <Noun lang="ja-Latn">Nishiguchi</Noun>’s trademark, registered on the 3rd of October 1914 by <Noun lang="ja-Latn">Nishiguchi Eisuke</Noun> (<span lang="ja">西口榮助</span>).<Cite r={Trademarks1924_7} page={226} /> 
+        </ArticleImage>
         <p><Noun lang="ja-Latn">Nishi&shy;gushi</Noun> also manufactured board games (such as <GameRef id="gunjin-shoji" />) Some of their decks were manufactured by <Noun lang="ja-Latn">Nihon Karuta</Noun>. Their mark was a circled <span className="circled" lang="ja">榮</span>, the same as <Noun lang="ja-Latn">Kyōwadō</Noun>. Brands included:</p>
         <ul>
           <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)</li>
@@ -1398,7 +1531,15 @@ const Manufacturers: React.FC = () => {
         <ul>
           <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’)</li>
           <li><span lang="ja">倭錦</span> (<span lang="ja-Latn">yamatonishiki</span>, ‘ancient Japanese brocade’)</li>
-          <li><span lang="ja">都錦</span> (<span lang="ja-Latn">miyakonishiki</span>, ‘capital brocade’)</li>
+          <li><span lang="ja">都錦</span> (<span lang="ja-Latn">miyakonishiki</span>, ‘capital brocade’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">𣲅戸錦</span> (<span lang="ja-Latn">edonishiki</span>, ‘<Noun lang="ja-Latn">Edo</Noun> brocade’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">八重錦</span> (<span lang="ja-Latn">yaenishiki</span>, ‘multilayered brocade’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">goten&shy;zakura</span>, ‘palace cherry blossoms’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">大正櫻</span> (<span lang="ja-Latn">taishō&shy;zakura</span>, ‘<Noun lang="ja-Latn">Taishō</Noun> cherry blossoms’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">大正花</span> (<span lang="ja-Latn">taishō&shy;hana</span>, ‘<Noun lang="ja-Latn">Taishō</Noun> flowers’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">大正錦</span> (<span lang="ja-Latn">taishō&shy;nishiki</span>, ‘<Noun lang="ja-Latn">Taishō</Noun> brocade’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">𠮷野櫻</span> (<span lang="ja-Latn">yoshino&shy;zakura</span>, ‘<Noun lang="ja-Latn">Yoshino</Noun> cherry blossoms’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
+          <li><span lang="ja">百萬圓</span> (<span lang="ja-Latn">hyakumanen</span>, ‘a million yen’), trademarked in 1921<Cite r={Trademarks1924_18} page={333} /></li>
         </ul>
       </Section>
       <Section title={<><img src={imgMarukin} alt="" className="inline-img" /> <Noun lang="ja-Latn">Marukin</Noun></>}>
@@ -1457,41 +1598,24 @@ const Manufacturers: React.FC = () => {
       <Section title={<><Noun lang="ja-Latn">Sanjōya</Noun> (<span lang="ja">三條屋</span>)</>}>
           <ArticleImage
             noborder
+            size="small"
             position="aside"
             alt=""
             src={imgSanjoyaTrademark}
             source={{license: "cc0"}}>
             <Noun lang="ja-Latn">Sanjōya</Noun>’s trademark, registered on the 24th of November 1890 by <Noun lang="ja-Latn">Kawasaki Matayoshi</Noun> (<span lang="ja">川崎又吉</span>).<Cite r={Trademarks1905} page={65} /> 
           </ArticleImage>
-        <p><Noun lang="ja-Latn">Sanjōya</Noun> was the second company to apply for a trademark for <Noun lang="ja-Latn">Hanafuda</Noun> after <a href="#kamigataya"><Noun lang="ja-Latn">Kamigataya</Noun></a>. Their logo was <span lang="ja">上</span> in a square. Another logo they used (for the store itself) was <span lang="ja">又</span> under a mountain.</p>
+        <p><Noun lang="ja-Latn">Sanjōya</Noun> was the second company to apply for a trademark for <Noun lang="ja-Latn">Hanafuda</Noun> after <a href="#kamigataya"><Noun lang="ja-Latn">Kamigataya</Noun></a>. Their mark was <span lang="ja">上</span> in a square. Another mark they used (for the store itself) was <span lang="ja">又</span> under a mountain.</p>
       </Section>
     </Section>
     <Section title="Unknown">
       <p>The following brands are by unknown manufacturers. Any help identifying them would be greatly appreciated!</p>
       <ul>
         <li><span lang="ja">𛂁𛁲゙𛁈𛀸</span>/<span lang="ja">な𛁲゙𛁈𛀸</span>/<span lang="ja">なでしこ</span> (<span lang="ja-Latn">nadeshiko</span>, ‘pink’ (the flower))</li>
-        <li><span lang="ja">金舞扇</span> (<span lang="ja-Latn">kinmaiōgi</span>, ‘gold dancer’s fan’)</li>
-        <li><span lang="ja">銀舞扇</span> (<span lang="ja-Latn">ginmaiōgi</span>, ‘silver dancer’s fan’)</li>
         <li><span lang="ja">勝力士</span> (<span lang="ja-Latn">katsu rikishi</span>, ‘winning sumo wrestler’)</li>
-        <li><span lang="ja">般若</span> (<span lang="ja-Latn">hannya</span>, a <span lang="ja-Latn">noh</span> mask representing a horned female demon)</li>
         <li><span lang="ja">優良太平楽</span> (<span lang="ja-Latn">yūryō taiheiraku</span> ‘excellent happy-go-lucky’, which is the name of a <span lang="ja-Latn">gagaku</span> piece)</li>
       </ul>
       <div className="multi wide">
-        <ArticleImage
-          src={imgKinmaiogi}
-          alt="A hanafuda wrapper with an image of a fan, and a gold background">
-          The <span lang="ja-Latn">kinmaiōgi</span> wrapper.
-        </ArticleImage>
-        <ArticleImage
-          src={imgGinmaiogi}
-          alt="A hanafuda wrapper with an image of a fan, and a silver background">
-          The <span lang="ja-Latn">ginmaiōgi</span> wrapper.
-        </ArticleImage>
-        <ArticleImage
-          src={imgHannya}
-          alt="A hanafuda wrapper with an image of a horned mask.">
-          The <span lang="ja-Latn">hannya</span> wrapper.
-        </ArticleImage>
         <ArticleImage
           src={imgTaiheiraku}
           alt="A hanafuda wrapper with a costumed dancer and drum.">

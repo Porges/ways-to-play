@@ -469,11 +469,6 @@ div.multi > p {
     }
 }
 
-/* note that this applies to multi-image figures, not figures inside a multi */
-figure > div.multi .figure-img {
-    border: none;
-}
-
 /*** For Japanese/Chinese, where needed ***/
 .vertical-rl {
     writing-mode: vertical-rl;

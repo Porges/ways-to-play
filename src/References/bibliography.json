@@ -4585,15 +4585,103 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/1031083/285",
         "page": "472"
     },
-    "Trademarks1913": {
-        "id": "Trademarks1913",
+    "Trademarks1924_7": {
+        "id": "Trademarks1924_7",
         "type": "book",
         "title": "日本登録商標大全. 　第７輯　下",
         "title-lang": "ja",
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1913},
+        "issued": {"year": 1924},
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941553"
+    },
+    "Trademarks1924_8": {
+        "id": "Trademarks1924_8",
+        "type": "book",
+        "title": "日本登録商標大全. 　第８輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1924},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941555"
+    },
+    "Trademarks1924_9": {
+        "id": "Trademarks1924_9",
+        "type": "book",
+        "title": "日本登録商標大全. 　第９輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1924},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941557"
+    },
+    "Trademarks1924_11": {
+        "id": "Trademarks1924_11",
+        "type": "book",
+        "title": "日本登録商標大全. 　第１１輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1924},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941560"
+    },
+    "Trademarks1924_5": {
+        "id": "Trademarks1924_5",
+        "type": "book",
+        "title": "日本登録商標大全. 　第５輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1924},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941550"
+    },
+    "Trademarks1924_14": {
+        "id": "Trademarks1924_14",
+        "type": "book",
+        "title": "日本登録商標大全. 　第１４輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1924},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941566"
+    },
+    "Trademarks1924_15": {
+        "id": "Trademarks1924_15",
+        "type": "book",
+        "title": "日本登録商標大全. 　第１５輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1924},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941568"
+    },
+    "Trademarks1924_17": {
+        "id": "Trademarks1924_17",
+        "type": "book",
+        "title": "日本登録商標大全. 　第１７輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1924},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941572"
+    },
+    "Trademarks1924_18": {
+        "id": "Trademarks1924_18",
+        "type": "book",
+        "title": "日本登録商標大全. 　第１８輯　下",
+        "title-lang": "ja",
+        "publisher": "東京書院",
+        "publisher-lang": "ja",
+        "publisher-place": "Japan",
+        "issued": {"year": 1924},
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941574"
     }
 }
