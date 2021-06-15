@@ -35,12 +35,23 @@ span[lang|=ve], /* Venda */
 span[lang|=yue-Latn], /* Cantonese */
 span[lang|=zh-Latn], /* (Mandarin) Chinese */
 span[lang|=zu] /* isiZulu */
-{ font-style: italic }
+{ 
+  @include italic-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  span[lang] {
+    font-family: inherit;
+    font-weight: inherit;
+  }
+}
 
  /* present proper nouns upright as there is no need to distinguish from
   * surrounding text */
 span.proper-noun, span.game-title {
-   font-style: inherit 
+   font-style: inherit;
+   font-family: inherit;
+   font-weight: inherit;
 }
 
 /* We are going to be embedding Japanese and Chinese in Latin text,

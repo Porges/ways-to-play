@@ -20,12 +20,19 @@
     font-display: swap;
 }
 
-$font-family-serif:
-    "Lora",
-    Georgia,
-    serif,
+$font-family-sans-serif:
+    "Inter",
+    serif, /* i prefer how the serif CJK fonts look… */
     "UniHentaiKana", /* fallback for Hentaigana chars */
     "cc-icons"; /* Creative Commons Unicode characters */
+
+@mixin italic-font {
+    font-family: "Fira Sans", sans-serif;
+    font-style: italic;
+}
+
+$font-weight-light: 200;
+$font-weight-normal: 300;
 
 $primary: #6b5293;
 $secondary: #7c85a3;
@@ -40,20 +47,23 @@ $link-decoration: underline $light;
 $breadcrumb-bg: none;
 $breadcrumb-divider: quote('•');
 
-$font-family-base: $font-family-serif;
-
-$my-heading-font-family: "Quicksand";
+$my-heading-font-family: "Vollkorn";
 
 $headings-font-family: $my-heading-font-family, sans-serif;
-$headings-font-weight: medium;
+$headings-font-weight: 500;
+$h1-font-size: 3rem;
 
 $figure-caption-font-size: 1.2 * .625rem;
 
 @import '~bootstrap/scss/bootstrap.scss';
-@import './text.css';
+@import './text.scss';
 
 body {
     font-variant-numeric: oldstyle-nums;
+}
+
+i, cite, em {
+    @include italic-font;
 }
 
 #root {
@@ -70,6 +80,10 @@ h1 {
     margin-top: 2rem;
     padding-bottom: 2rem;
     margin-bottom: 0rem;
+
+    a {
+        text-decoration: none;
+    }
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -110,7 +124,7 @@ h2 {
 }
 
 .navbar {
-    font-family: $my-heading-font-family, "cc-icons", /* Creative Commons Unicode characters */ sans-serif;
+    font-family: $font-family-sans-serif, "cc-icons", /* Creative Commons Unicode characters */ sans-serif;
 }
 
 .navbar a:not(:hover) {
