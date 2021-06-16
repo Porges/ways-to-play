@@ -153,8 +153,7 @@ const TicTacToe: React.FC = () => <>
       <p>
         To play: Write down the numbers from 1–9 on a piece of paper. Each turn,
         a player claims a number for themselves by marking it, and a number can only be
-        claimed by one player. The
-first player to claim 3 numbers that add to 15 is the winner.
+        claimed by one player. The first player to claim 3 numbers that add to 15 is the winner.
       </p>
       <p>
         This game is isomorphic to the game of tic-tac-toe. Astonishingly, this form was
@@ -175,7 +174,7 @@ first player to claim 3 numbers that add to 15 is the winner.
     </Section>
     <Section title="JAM">
       <p>
-        This is another isomorphic variant invented by John Michon.<Cite r={TheGameOfJAM} />
+        This is another isomorphic variant invented by John Michon.<Cite r={TheGameOfJAM} /> It is the <a href="https://en.wikipedia.org/wiki/Dual_graph">graph theory dual</a> of the standard game, where each cell is replaced by a line and each winning line by a cell, in such a way that each cell-line intersects the appropriate winning-line cells.
       </p>
     </Section>
     <Section title="Spit">

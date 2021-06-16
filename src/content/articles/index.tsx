@@ -12,7 +12,7 @@ type List = { title: string, titleLang?: string, article?: ArticleContent, artic
 type ListEntries = Map<string, ArticleContent | List>
 
 const articles: List = {
-  title: "🧾",
+  title: "Articles",
   article: {
     title: 'Articles',
     import: React.lazy(() => import(/* webpackChunkName: 'articles-intro' */ './articles-intro')),
@@ -195,11 +195,27 @@ const Lookup: React.FC<RouteComponentProps<{ id?: string }>> = (props) => {
   const prevNext = (<>
     <Col xs={12} md={6}>
       {prevArticle &&
-        <p className="text-left m-2">← <a href={prevArticle.link} lang={prevArticle.titleLang} rel="prev">{prevArticle.title}</a></p>}
+      <>
+        <a href={prevArticle.link} className="nav-link" rel="prev">
+          <p className="text-left m-2">
+            <span className="prevNextArticle">← Previous Article</span><br/>
+            <span className="prevNextArticle invisible">← </span>
+            <span lang={prevArticle.titleLang}>{prevArticle.title}</span>
+          </p>
+        </a>
+      </> }
     </Col>
     <Col xs={12} md={6}>
       {nextArticle &&
-        <p className="text-right m-2"><a href={nextArticle.link} lang={nextArticle.titleLang} rel="next">{nextArticle.title}</a> →</p>}
+      <>
+        <a href={nextArticle.link} className="nav-link" rel="next">
+          <p className="text-right m-2">
+            <span className="prevNextArticle">Next Article →</span><br/>
+            <span className="prevNextArticle invisible"> →</span>
+            <span lang={nextArticle.titleLang}>{nextArticle.title}</span>
+          </p>
+        </a>
+      </> }
     </Col>
   </>);
 
@@ -207,17 +223,13 @@ const Lookup: React.FC<RouteComponentProps<{ id?: string }>> = (props) => {
     return (<>
       <Nearby>
         <Col>
-          <Row className="border-bottom border-light">{breadCrumbs}</Row>
-          {(prevArticle || nextArticle) && <Row>{prevNext}</Row>}
+          <Row>{breadCrumbs}</Row>
         </Col>
       </Nearby>
       <Article key={match.url} url={match.url} content={found} />
-      <div aria-hidden="true">
-        {/* hidden as this is already present at the top */}
-        <Nearby>
-          {(prevArticle || nextArticle) && prevNext}
-        </Nearby>
-      </div>
+      <Nearby>
+        {(prevArticle || nextArticle) && prevNext}
+      </Nearby>
     </>);
   }
   else {
@@ -225,17 +237,24 @@ const Lookup: React.FC<RouteComponentProps<{ id?: string }>> = (props) => {
     return (<>
       <Nearby>
         <Col>
-          <Row className="border-bottom border-light">{breadCrumbs}</Row>
-          {(prevArticle || nextArticle) && <Row>{prevNext}</Row>}
+          <Row>{breadCrumbs}</Row>
         </Col>
       </Nearby>
       {listArticle && <Article key={match.url + "$"} url={match.url} content={listArticle} />}
-      <div aria-hidden="true">
-        {/* hidden as this is already present at the top */}
-        <Nearby>
-          <ArticleList key={match.url} route={props} list={found} />
-        </Nearby>
-      </div>
+      <Row>
+        <Col lg={1}/>
+        <Col lg={10}>
+          { listArticle && <hr/> }
+          <p className="articlesInThisSection text-center">Articles in this Section</p>
+          <p>
+            <ArticleList key={match.url} route={props} list={found} />
+          </p>
+        </Col>
+        <Col lg={1}/>
+      </Row>
+      <Nearby>
+        {(prevArticle || nextArticle) && prevNext}
+      </Nearby>
     </>);
   }
 }

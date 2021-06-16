@@ -35,6 +35,17 @@ $font-family-sans-serif:
 $font-weight-light: 200;
 $font-weight-normal: 300;
 
+$line-height-base: 1.4;
+article { letter-spacing: -0.011em; }
+.lead { letter-spacing: -0.017em; }
+
+/*
+From: https://rsms.me/inter/dynmetrics/
+font-size: 16px;
+letter-spacing: -0.011em;
+line-height: 22px; // I loosened this a little from 1.375 to 1.4
+*/
+
 $primary: #6b5293;
 $secondary: #7c85a3;
 $light: #f4f7f5;
@@ -46,7 +57,7 @@ $link-hover-decoration: underline $accent;
 $link-decoration: underline $light;
 
 $breadcrumb-bg: none;
-$breadcrumb-divider: quote('•');
+$breadcrumb-divider: quote('›');
 
 $headings-font-family: "Vollkorn", serif;
 $headings-font-weight: 500;
@@ -122,6 +133,29 @@ h2 {
     }
 }
 
+.articlesInThisSection {
+    color: $secondary;
+    font-size: .95em;
+    text-transform: uppercase;
+}
+
+.prevNextArticle {
+    color: $secondary;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+// collapse breadcrumbs when small
+@include media-breakpoint-down(md) {
+    .breadcrumb {
+        display: unset;
+    }
+
+    .breadcrumb-item + .breadcrumb-item {
+        padding-left: .25em;
+    }
+}
+
 .navbar {
     font-family: $font-family-sans-serif, "cc-icons", /* Creative Commons Unicode characters */ sans-serif;
 }
@@ -168,7 +202,8 @@ blockquote {
 }
 
 figcaption {
-    line-height: 1.1rem;
+    line-height: 17px;
+    letter-spacing: 0em;
     /* TODO: text-wrap: balance; */
 }
 
@@ -261,12 +296,20 @@ figure {
 
 /*** Highlight target of link ***/
 *:target {
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-left: -1em;
-    margin-right: -1em;
-    border-radius: 1em;
+    padding: 5px;
+    margin-right: -5px;
+    margin-left: -5px;
+    border-radius: 10px;
     border: 1px dashed $accent;
+}
+
+p[itemprop="citation"]:target {
+    margin-left: -2em;
+    padding-left: 2em;
+}
+
+abbr[title] {
+    text-decoration: none;
 }
 
 /*** Citations ***/
@@ -350,7 +393,10 @@ ul {
   
 /*** Footnotes ***/
 .footnote {
-  font-size: 0.8rem;
+  font-size: 13px;
+  letter-spacing: -0.003em;
+  line-height: 18px;
+
   padding: .5em 1em;
   border: 1px lightgray dotted;
   margin-top: 1rem;
@@ -397,18 +443,13 @@ aside.footnote::before {
 .footnote-indicator::before {
     counter-increment: footnote;
     content: counter(footnote);
-    vertical-align: super;
-    line-height: 0;
-    font-size: 0.8em;
+    font-feature-settings: "sups";
     margin-left: 1px;
 }
 
 span.footnote::before {
-    content: counter(footnote);
-    vertical-align: super;
-    line-height: 0;
-    font-size: 0.8em;
-    margin-right: 2px;
+    content: counter(footnote) " ";
+    font-feature-settings: "sups";
 }
 
 .footnote-indicator:hover,
@@ -431,13 +472,22 @@ span.footnote::before {
       border: none;
     }
 
-    span.footnote {
-      text-indent: -.6em; // outdent the number
+    span.footnote::before{
+        // outdent footnote 
+        position:absolute;
+        right: -.7em;
     }
+
 
     .footnote.wide {
       width: 60%;
       margin-right: -65%;
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    span.footnote::before {
+      right: -1em;
     }
 }
 
@@ -507,12 +557,11 @@ abbr.initialism {
 ul.article-list {
   @extend .my-2;
   @extend .mx-auto;
-  padding-left: 0;
 }
 
 ul.article-list ul.article-list {
   @extend .my-0;
-  padding-left: 1.1em;
+  padding-left: .8em;
 }
 
 ul.article-list li {

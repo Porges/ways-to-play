@@ -96,7 +96,7 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
     <article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author-outer">
       <Row>
         <Col lg="1" />
-        <Col lg="7">
+        <Col lg="10">
           <h1 itemProp="headline" lang={content.titleLang}>
             <Link itemProp="mainEntityOfPage" to={url}>{content.title}</Link> {content.draft && <Badge variant="warning">Draft</Badge>}
           </h1>

@@ -247,13 +247,13 @@ export const renderReference = (reference: Reference) => {
   const { id, type } = reference;
 
   return (
-    <span itemScope itemType={itemTypes[type]} id={`ref-${id}`} itemProp="citation">
+    <p itemScope itemType={itemTypes[type]} id={`ref-${id}`} itemProp="citation">
       {renderAuthors(reference)}
       {renderDate(reference)}
       {renderTitle(reference)}
       {renderContainer(reference)}
       {renderPublisher(reference)}
       {renderISBN(reference)}
-    </span>
+    </p>
   );
 }

@@ -54,21 +54,7 @@ const Morabaraba: React.FC = () => (
     </Section>
     <Section title="Terminology">
       <p>The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small circles’,<Cite r={SeSothoDictionary} page={304} /> so could refer to the action of a mill.‌ In Nguni languages (isiZulu, isiXhosa), it is known as <Noun lang="zu">(Um)labalaba</Noun>, with similar meaning,‌<Cite r={GamesBasotho} page={[[247, 250]]} /> and in Ronga, spoken in Mozambique, it is called <Noun lang="rng">Muravarava</Noun>.</p>
-      <ArticleImage
-        alt="Two school chidren stand next to a table where a game of muravarava is being played, looking at the board intensely, while an umpire watches."
-        src={imgMuravarava}
-        source={{
-          copyrightYear: 2018,
-          organization: {orgName: "Shutterstock.com"},
-          author: "ivanfolio",
-          originalUrl: "https://www.shutterstock.com/image-photo/manica-mozambique-december-19-2018-young-1268455078",
-          license: "stock-image",
-        }}>
-        A game of <Noun lang="rng">Muravarava</Noun> being played in Mozambique, at Chinhamapere Secondary School.
-    </ArticleImage>
       <Footnote standalone>There are two different <a href="https://en.wikipedia.org/wiki/Sesotho_orthography">Sesotho orthographies</a>. In this article I give the South African one first, followed by the Lesotho.</Footnote>
-      <p>There are other names which are probably derived from the European name of ‘mill’:‌<Cite r={MkeleMorabaraba} page={134} /> an alternate Sesotho name is <span lang="st">mmila</span>/<span lang="st">’mila</span>, ‘road’.‌<Cite r={UsingGamesToPromote} page={283} /> In Botswana, the game is called <span lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌<Cite r={OldTswana} page={350} />), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.
-      <Footnote>Because of the large overlap of names, in written descriptions <Noun lang="st">Morabaraba</Noun> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, <Cite r={MorabarabaGetOnBoard} inline />).</Footnote></p>
       <ArticleImage
         alt="Two men dressed in warm blankets, gumboots, and balaclava, carrying staffs"
         position="left"
@@ -80,8 +66,10 @@ const Morabaraba: React.FC = () => (
           license: "stock-image"
         }}
         >
-        Two Lesotho herdmen carrying staffs. What appear to be caps are rolled-up balaclava.
+        Two Lesotho herdsmen carrying staffs. What appear to be caps are rolled-up balaclava: most of Lesotho is above 1&#x202f;800&nbsp;m, so it is cooler than many neighbouring countries.
       </ArticleImage>
+      <p>There are other names which are probably derived from the European name of ‘mill’:‌<Cite r={MkeleMorabaraba} page={134} /> an alternate Sesotho name is <span lang="st">mmila</span>/<span lang="st">’mila</span>, ‘road’.‌<Cite r={UsingGamesToPromote} page={283} /> In Botswana, the game is called <span lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌<Cite r={OldTswana} page={350} />), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.
+      <Footnote>Because of the large overlap of names, in written descriptions <Noun lang="st">Morabaraba</Noun> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, <Cite r={MorabarabaGetOnBoard} inline />).</Footnote></p>
       <p>A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sesotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌<Cite r={UseOfMorabara} page={588} /> in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). In isiZulu a mill is a <Pronounce pronouncer="Lungii" word="isibhamu" file={pronIsibhamu} lang="zu" /> (‘gun’), which allows you to “shoot” an opponent’s cow, while in Sesotho the mill is called a <span lang="st">molamu</span> (a staff carried by shepherds), and you can eat (<span lang="st">ja</span>) a cow.<Cite r={BasothoChildren} page={36} /></p>
     </Section>
     <Section title="Play">
@@ -100,6 +88,18 @@ const Morabaraba: React.FC = () => (
       <p>During the placement phase it is possible to form two mills at once. In <span className="game-title" lang="st">Morabaraba</span> this only allows a player to remove one piece.</p>
       <p>When a player is reduced to three pieces, their pieces can ‘fly’ and move to any vacant point on the board, ignoring the lines.</p>
       <p>A player loses the game when they are reduced to fewer than three pieces, or if they are unable to make a valid move on their turn.</p>
+      <ArticleImage
+        alt="Two school chidren stand next to a table where a game of muravarava is being played, looking at the board intensely, while an umpire watches."
+        src={imgMuravarava}
+        source={{
+          copyrightYear: 2018,
+          organization: {orgName: "Shutterstock.com"},
+          author: "ivanfolio",
+          originalUrl: "https://www.shutterstock.com/image-photo/manica-mozambique-december-19-2018-young-1268455078",
+          license: "stock-image",
+        }}>
+        A game of <Noun lang="rng">Muravarava</Noun> being played in Mozambique, at Chinhamapere Secondary School.
+    </ArticleImage>
       <p>In tournament play, Mind Sports adopted an additional rule: During the movement phase, a piece that is moved from one mill to form another mill may not move back to form a mill again at the original point on the next turn. Instead, a different move must be taken before doing so. This rule prevents a player from moving backwards and forwards between two mills quickly. This rule seems to me to be unlikely to be used in casual play.</p>
     </Section>
     {/*
