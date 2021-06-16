@@ -1,12 +1,3 @@
-/*
- * Mercury doesn't have support for everything so we'll override in some cases:
- */
-span[lang|=grc], /* Ancient (Polytonic) Greek - otherwise graves have a weird rendering */
-span[lang|=si-Latn] /* Sinhalese Latin - otherwise dotted m has issues */
-{
-    font-family: serif;
-}
-
 /*** Italicize non-English (but Latin) languages: ***/
 span[lang|=bn-Latn], /* Bangla */
 span[lang|=de], /* German */
@@ -39,19 +30,31 @@ span[lang|=zu] /* isiZulu */
   @include italic-font;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   span[lang] {
+    /* undo effects of italic-font, except font-style */
     font-family: inherit;
     font-weight: inherit;
+    font-size: inherit;
   }
+}
+
+cite:lang(zh), cite:lang(ja) {
+  font-style: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
  /* present proper nouns upright as there is no need to distinguish from
   * surrounding text */
 span.proper-noun, span.game-title {
-   font-style: inherit;
-   font-family: inherit;
-   font-weight: inherit;
+  /* undo effects of italic-font */
+  font-style: inherit;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 /* We are going to be embedding Japanese and Chinese in Latin text,

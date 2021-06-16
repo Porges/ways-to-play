@@ -29,6 +29,7 @@ $font-family-sans-serif:
 @mixin italic-font {
     font-family: "Fira Sans", sans-serif;
     font-style: italic;
+    font-size: 1.03em;
 }
 
 $font-weight-light: 200;
@@ -275,12 +276,13 @@ sup.citation {
 
 /*** Pronunciation ***/
 .pronunciation {
-    text-decoration: lighten($secondary, 20%) underline dashed;
+    text-decoration: lighten($secondary, 30%) underline wavy;
+    text-decoration-skip-ink: none;
     cursor: help;
 }
 
 .pronunciation:hover {
-    text-decoration: $secondary underline dashed;
+    text-decoration: $secondary underline wavy;
 }
 
 /*** Tables ***/

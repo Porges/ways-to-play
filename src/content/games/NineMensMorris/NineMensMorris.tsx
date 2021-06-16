@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { GameRef } from 'content/games/Game';
 import { ArticleImage, Cite, Section, Noun, Footnote } from 'ui';
-import { TheRuleOfTheTemplars, LaRegleDuTemple, MundartLexikon, UltraStrongMorris, MerylsBoardEnigma, GamesGreekAndRoman, TheVikingShipFromGokstad, RamatHanadiv, RomanGameBoards, AncientEgyptiansAtPlay, AncientCeylon, Murray, MetropoliticalVisitation, KlassischeSpiele, OxfordBG, AlfonsoGames, SolvingLaskerMorris, Hyde, GommeI, NotesAndQueriesS8V12, Figmill, PubGamesOfEngland, MacedonianFolklore, GuptaD } from 'References/bibliography.json';
+import { TheRuleOfTheTemplars, LaRegleDuTemple, MundartLexikon, UltraStrongMorris, MerylsBoardEnigma, GamesGreekAndRoman, TheVikingShipFromGokstad, RamatHanadiv, RomanGameBoards, AncientEgyptiansAtPlay, AncientCeylon, Murray, MetropoliticalVisitation, KlassischeSpiele, OxfordBG, AlfonsoGames, SolvingLaskerMorris, Hyde, GommeI, NotesAndQueriesS8V12, Figmill, PubGamesOfEngland, MacedonianFolklore, GuptaD, Zaslavsky, SportsAndGamesOfSinghalese, Murray2 } from 'References/bibliography.json';
 
 import imgWall from './P1130411a.jpg';
 import imgLargeMerels from 'content/articles/mill-games/large_merels.svg';
@@ -195,7 +195,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     </ArticleImage>
     </Section>
     <Section title="Twelve Men’s Morris">
-      <p>This is played with twelve pieces per player, on a board that has diagonals.</p>
+      <p>This is played with twelve pieces per player, on a board that has diagonals.<Cite r={Zaslavsky} page={7}/><Cite r={Murray2} page={48}/></p>
       <ArticleImage
         alt="An old man’s hand reaches towards a worn morris board to move a piece."
         src={imgTwelveMensMorris}
@@ -207,6 +207,13 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         }}>
         A Twelve Men’s Morris game being played.
       </ArticleImage>
+      <Section title="Nomenclature">
+        <p>In other countries or languages it is known as:</p>
+        <ul>
+          <li>Bengali: <span lang="bn">বারো গুটি পাইত পাইত</span> (<span lang="bn-Latn">bārō-guṭi pāit pāit</span>)<Cite r={GuptaD} page={145}/></li>
+          <li>Sri Lanka (Sinhala): <span lang="si">නෙරෙංචි</span> (<span lang="si-Latn">Nereṁci</span><Footnote>Also transcribed as <span lang="si-Latn">Nerenchi</span> or <span lang="si-Latn">Niranchy</span>.</Footnote>), seemingly named after a plant that has very thorny seeds<Cite r={Zaslavsky} page={16}/><Cite r={SportsAndGamesOfSinghalese} page={34}/><Cite r={AncientCeylon} page={577}/></li>
+        </ul>
+      </Section>
     </Section>
     <Section title="With Dice">
       <ArticleImage
