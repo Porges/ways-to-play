@@ -261,15 +261,21 @@ figure {
 
 /*** Highlight target of link ***/
 *:target {
-    background: lightyellow;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left: -1em;
+    margin-right: -1em;
+    border-radius: 1em;
+    border: 1px dashed $accent;
 }
 
 /*** Citations ***/
 .citation { color: $secondary }
 .citation a { color: $accent }
 sup.citation a::before {
-  content: '∗';
+  content: '•';
 }
+
 sup.citation {
   line-height: 0; // don't let superscript affect calculated lineheight 
 }
@@ -534,7 +540,7 @@ a[href*="wikipedia.org" i] {
         @extend %fa-icon;
         @extend .fab;
         content: fa-content($fa-var-wikipedia-w);
-        vertical-align: sub;
+        vertical-align: super;
         font-size: .5em;
         line-height: 0; // don't let sub/superscript affect line-height
     }
