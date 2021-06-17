@@ -127,6 +127,7 @@ import imgMarueSilverDragonBox from './Marue_silver_dragon_box.jpg';
 import imgAngelTaihei from './Angel_Taihei.jpg';
 import imgAngelDaitenryu from './Angel_Daitenryu.jpg';
 import imgOishiTengudoHandprint from './OishiTengudo_handprint.jpg';
+import imgOishiTengudoCat from './OishiTengudo_Cat.jpg';
 
 import imgGyokusuidoTrademark from './Gyokusuido_trademark.png';
 import imgOishiTrademark from './Oishi_trademark.png';
@@ -643,13 +644,18 @@ const Manufacturers: React.FC = () => {
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">shiki</span> wrapper.
           </ArticleImage>
         </div>
-        <p>In addition to the many standard & local patterns of <Noun lang="ja-Latn">Hanafuda</Noun> they produce, they also publish some novelty decks, such as the <b><Noun lang="ja-Latn">Kyōto Hanafuda</Noun></b>:</p>
+        <p>In addition to the many standard & local patterns of <Noun lang="ja-Latn">Hanafuda</Noun> they produce, they also publish some novelty decks, such as the <strong><Noun lang="ja-Latn">Kyōto Hanafuda</Noun></strong>:</p>
         <ArticleImage
           src={imgKyoHana}
           alt="Five hanafuda cards with depictions of landmarks and various aspects of Kyōto life.">
           The <Noun lang="ja-Latn">Kyōto Hanafuda</Noun>’s 5 Brights, showing icons and landmarks of <Noun lang="ja-Latn">Kyōto</Noun>.
             From left to right they represent: a fox with a jewel in its mouth, from the gate of the <a href="https://en.wikipedia.org/wiki/Fushimi_Inari-taisha"><Noun lang="ja-Latn">Fushimi Inari</Noun> shrine</a> (<span lang="ja">伏見稲荷大社</span>); <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"><Noun lang="ja-Latn">Toyotomi Hideyoshi</Noun></a> (<span lang="ja">豊臣秀吉</span>), <a href="https://en.wikipedia.org/wiki/K%C5%8Ddai-in"><Noun lang="ja-Latn">Kita no Mandokoro</Noun></a> (<span lang="ja">北政所</span>), and <a href="https://en.wikipedia.org/wiki/Yodo-dono"><Noun lang="ja-Latn">Yodogimi</Noun></a> (<span lang="ja">淀君</span>) at <a href="https://en.wikipedia.org/wiki/Fushimi_Castle">Fushimi Castle</a> (<span lang="ja">伏見城</span>); the character <span lang="ja">大</span> (<span lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <Noun lang="ja-Latn">Daimonji</Noun> (<span lang="ja">大文字山</span>) during the festival of <a href="https://en.wikipedia.org/wiki/Gozan_no_Okuribi"><Noun lang="ja-Latn">Gozan no Okuribi</Noun></a> (<span lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk <a href="https://en.wikipedia.org/wiki/Benkei"><Noun lang="ja-Latn">Benkei</Noun></a> (<span lang="ja">弁慶</span>) meeting <a href="https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune"><Noun lang="ja-Latn">Minamoto no Yoshitsune</Noun></a> (<span lang="ja">源義経</span>), who is playing the flute, at <Noun lang="ja-Latn">Gojō</Noun> bridge (<span lang="ja">五条橋</span>); and the <a href="https://en.wikipedia.org/wiki/Kyoto_Sanga_FC"><Noun lang="ja-Latn">Kyōto Sanga</Noun></a> (<span lang="ja">京都サンガ</span>) football club, whose logo contains the Chinese/Japanese phoenix that is normally featured on the Paulownia bright card.
           </ArticleImage>
+        <p>In conjunction with <Noun lang="ja-Latn">Ganzo&shy;futo&shy;neko&shy;dō</Noun> (<span lang="ja">元祖ふとねこ堂</span>), they produced <strong><Noun lang="ja-Latn">Hana&shy;neko&shy;fuda</Noun></strong> (<span lang="ja">花猫札</span>), featuring Japanese cats:</p>
+        <ArticleImage
+          src={imgOishiTengudoCat}
+          alt="Hanafuda cards with Japanese cats on them.">
+        </ArticleImage>
       </Section>
       <Section title={<><img src={imgAngelLogo} alt="" className="inline-img" /> <a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)</>}>
         <div className="multi">
