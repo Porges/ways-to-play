@@ -4374,7 +4374,9 @@
         "title": "Companies Register: DRNZ Limited",
         "URL": "https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/87664",
         "publisher": "New Zealand Companies Office",
-        "issued": {"year": 2021}
+        "issued": {
+            "year": 2021
+        }
     },
     "EmperorOfJapan": {
         "id": "EmperorOfJapan",
@@ -4382,11 +4384,16 @@
         "URL": "https://archive.org/details/emperorofjapanme00keen",
         "title": "Emperor of Japan: Meiji and His world, 1852–1912",
         "author": [
-            { "given": "Donald", "family": "Keene" }
+            {
+                "given": "Donald",
+                "family": "Keene"
+            }
         ],
         "publisher": "Columbia University Press",
         "publisher-place": "New York, NY, USA",
-        "issued": {"year": 2002},
+        "issued": {
+            "year": 2002
+        },
         "ISBN": "0-231-12340-X"
     },
     "GrantsToKugeNobles": {
@@ -4395,7 +4402,9 @@
         "type": "article-newspaper",
         "container-title": "The Japan Weekly Mail",
         "issued": {
-            "year": 1894, "month": 3, "day": 24
+            "year": 1894,
+            "month": 3,
+            "day": 24
         },
         "publisher": "Jappan Mēru Shinbunsha",
         "publisher-lang": "ja-Latn",
@@ -4408,7 +4417,10 @@
         "id": "UtaawaseJudgments",
         "title": "<span lang='ja-Latn'>Uta&shy;awase</span> Judgments as Poetry Criticism",
         "author": [
-            {"given": "Clifton W.", "family": "Royston"}
+            {
+                "given": "Clifton W.",
+                "family": "Royston"
+            }
         ],
         "type": "article-journal",
         "container-title": "The Journal of Asian Studies",
@@ -4426,48 +4438,72 @@
         "title": "A Tale of Flowering Fortunes: Annals of Japanese Aristocratic Life in the Heian Period",
         "URL": "https://archive.org/details/taleoffloweringf0000unse",
         "author": [
-            { "given": "William H.", "family": "McCullough" },
-            { "given": "Helen Craig", "family": "McCullough" }
+            {
+                "given": "William H.",
+                "family": "McCullough"
+            },
+            {
+                "given": "Helen Craig",
+                "family": "McCullough"
+            }
         ],
-        "issued": {"year": 1980},
+        "issued": {
+            "year": 1980
+        },
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA"
-    }, 
+    },
     "MuseInCompetition": {
         "id": "MuseInCompetition",
         "title": "The Muse in Competition: Uta-awase Through The Ages",
         "type": "article-journal",
         "container-title": "Monumenta Nipponica",
-        "issued": {"year": 1982, "season": "Summer"},
+        "issued": {
+            "year": 1982,
+            "season": "Summer"
+        },
         "volume": 37,
         "issue": 2,
         "page": "201–222",
         "author": [
-            {"family": "Ito", "given": "Setsuko" }
+            {
+                "family": "Ito",
+                "given": "Setsuko"
+            }
         ],
         "publisher": "Sophia University",
         "URL": "https://www.jstor.org/stable/2384242"
-    }, 
+    },
     "BrocadeByNight": {
         "id": "BrocadeByNight",
         "title": "Brocade by Night: “Kokin Wakashu” and the court style in Japanese classic poetry",
         "type": "book",
         "author": [
-            {"family": "McCollough", "given": "Helen Craig"}
+            {
+                "family": "McCollough",
+                "given": "Helen Craig"
+            }
         ],
         "ISBN": "0-8047-1246-8",
-        "issued": {"year": 1985},
+        "issued": {
+            "year": 1985
+        },
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA",
         "URL": "https://archive.org/details/brocadebynightko00mccu"
     },
     "JapaneseFloralCalendar": {
-        "id":"JapaneseFloralCalendar",
+        "id": "JapaneseFloralCalendar",
         "type": "book",
         "title": "The Japanese Floral Calendar",
-        "issued": {"year":1905},
-        "author":[
-            {"given": "Ernest W.", "family": "Clement"}
+        "issued": {
+            "year": 1905
+        },
+        "author": [
+            {
+                "given": "Ernest W.",
+                "family": "Clement"
+            }
         ],
         "publisher": "The Open Court Publishing Company",
         "publisher-place": "Chicago, IL, USA",
@@ -4486,7 +4522,9 @@
             }
         ],
         "publisher": "Japan Playing Card Museum",
-        "issued": {"year": 2020}
+        "issued": {
+            "year": 2020
+        }
     },
     "AstuteBusinessman": {
         "id": "AstuteBusinessman",
@@ -4494,9 +4532,16 @@
         "title": "Museum Notebook: Whanganui philanthropist also an astute businessman",
         "type": "article-newspaper",
         "container-title": "Whanganui Chronicle",
-        "issued": {"year": 2021, "month": 2, "day": 15},
+        "issued": {
+            "year": 2021,
+            "month": 2,
+            "day": 15
+        },
         "author": [
-            {"given": "Sandi", "family": "Black"}
+            {
+                "given": "Sandi",
+                "family": "Black"
+            }
         ]
     },
     "TaxStampNZ": {
@@ -4504,9 +4549,14 @@
         "type": "webpage",
         "title": "Playing-Card Tax Stamps from New Zealand",
         "author": [
-            {"given": "Peter", "family": "Endebrock"}
+            {
+                "given": "Peter",
+                "family": "Endebrock"
+            }
         ],
-        "issued": {"year":2017},
+        "issued": {
+            "year": 2017
+        },
         "container-title": "Peter Endebrock’s Playing-card Pages",
         "URL": "http://www.endebrock.de/stamps/st-nz.html"
     },
@@ -4515,9 +4565,14 @@
         "type": "book",
         "title": "The Flowers And Gardens Of Japan",
         "author": [
-            {"given": "Florence", "family": "Du Cane"}
+            {
+                "given": "Florence",
+                "family": "Du Cane"
+            }
         ],
-        "issued": {"year": 1908},
+        "issued": {
+            "year": 1908
+        },
         "publisher": "Adam & Charles Black",
         "publisher-place": "London",
         "URL": "https://archive.org/details/in.ernet.dli.2015.222896"
@@ -4526,7 +4581,9 @@
         "id": "JapaneseInstagramUsers",
         "type": "webpage",
         "title": "Instagram Users in Japan, April 2021",
-        "issued": {"year": 2021},
+        "issued": {
+            "year": 2021
+        },
         "publisher": "NapoleonCat",
         "URL": "https://napoleoncat.com/stats/instagram-users-in-japan/2021/04"
     },
@@ -4534,7 +4591,9 @@
         "id": "KoreanInstagramUsers",
         "type": "webpage",
         "title": "Instagram Users in Korea, April 2021",
-        "issued": {"year": 2021},
+        "issued": {
+            "year": 2021
+        },
         "publisher": "NapoleonCat",
         "URL": "https://napoleoncat.com/stats/instagram-users-in-republic_of_korea/2021/04"
     },
@@ -4547,7 +4606,9 @@
         "publisher-lang": "ja",
         "publisher-place": "Japan",
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/932534",
-        "issued": {"year": 1914}
+        "issued": {
+            "year": 1914
+        }
     },
     "JapaneseBusinessmen1916": {
         "id": "JapaneseBusinessmen1916",
@@ -4558,7 +4619,9 @@
         "publisher-lang": "ja",
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/969017",
         "publisher-place": "Japan",
-        "issued": {"year": 1916}
+        "issued": {
+            "year": 1916
+        }
     },
     "Trademarks1905": {
         "id": "Trademarks1905",
@@ -4568,7 +4631,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1905},
+        "issued": {
+            "year": 1905
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/845526"
     },
     "UniversalInfo": {
@@ -4581,7 +4646,9 @@
         "publisher": "百貨店新聞社",
         "publisher-place": "Japan",
         "publisher-lang": "ja",
-        "issued": { "year": 1935 },
+        "issued": {
+            "year": 1935
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/1031083/285",
         "page": "472"
     },
@@ -4593,7 +4660,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941553"
     },
     "Trademarks1924_8": {
@@ -4604,7 +4673,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941555"
     },
     "Trademarks1924_9": {
@@ -4615,7 +4686,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941557"
     },
     "Trademarks1924_11": {
@@ -4626,7 +4699,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941560"
     },
     "Trademarks1924_5": {
@@ -4637,7 +4712,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941550"
     },
     "Trademarks1924_14": {
@@ -4648,7 +4725,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941566"
     },
     "Trademarks1924_15": {
@@ -4659,7 +4738,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941568"
     },
     "Trademarks1924_17": {
@@ -4670,7 +4751,9 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941572"
     },
     "Trademarks1924_18": {
@@ -4681,7 +4764,92 @@
         "publisher": "東京書院",
         "publisher-lang": "ja",
         "publisher-place": "Japan",
-        "issued": {"year": 1924},
+        "issued": {
+            "year": 1924
+        },
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941574"
+    },
+    "LoanWordsIndonesian": {
+        "id": "LoanWordsIndonesian",
+        "type": "book",
+        "title": "Loan-words in Indonesian and Malay",
+        "editor": [
+            {
+                "given": "Russell",
+                "family": "Jones"
+            }
+        ],
+        "publisher": "KITLV Press",
+        "publisher-place": "Leiden, Netherlands",
+        "issued": {
+            "year": 2008
+        },
+        "ISBN": "9789067183048"
+    },
+    "GatewayToOldSchoolGames": {
+        "id": "GatewayToOldSchoolGames",
+        "type": "book",
+        "title": "Gateway to Old School Games",
+        "publisher": "Asiapac Books",
+        "publisher-place": "Singapore",
+        "issued": {
+            "year": 2012
+        },
+        "ISBN": "978-981-229-949-9"
+    },
+    "GamblingGamesOfMalaya": {
+        "id": "GamblingGamesOfMalaya",
+        "type": "book",
+        "title": "Gambling Games of Malaya",
+        "author": [
+            {"family": "Dobree", "given": "C. T." }
+        ],
+        "publisher": "The Caxton Press",
+        "publisher-place": "Kuala Lumpur, Malaysia",
+        "issued": {
+            "year": 1955
+        }
+    },
+    "NyonyaMosaic": {
+        "id": "NyonyaMosaic",
+        "type": "book",
+        "title": "A Nyonya Mosaic: Memoirs of a Paranakan Childhood",
+        "author": [
+            { "family": "Gwee", "given": "William" }
+        ],
+        "issued": {
+            "year": 2013
+        },
+        "publisher": "Marshall Cavendish",
+        "publisher-place": "Singapore",
+        "ISBN": "9789814435529"
+    },
+    "BabaMalayDictionary": {
+        "id": "BabaMalayDictionary",
+        "type": "book",
+        "title": "A Baba Malay Dictionary",
+        "author": [
+            {"family": "Gwee", "given":"William"}
+        ],
+        "issued": {"year": 2006},
+        "ISBN": "978-1-4629-1300-8",
+        "publisher": "Tuttle Publishing",
+        "publisher-place": "Singapore",
+        "URL": "https://www.google.co.nz/books/edition/Baba_Malay_Dictionary/XrxGCgAAQBAJ"
+    },
+    "ChikiCards": {
+        "id": "ChikiCards",
+        "type": "article-journal",
+        "title": "Chiki Cards and Three Chiki Games",
+        "author": [
+            {"family": "Pwee", "given": "Keng Ho"}
+        ],
+        "issued": {
+            "year": 2003
+        },
+        "volume": 32,
+        "issue": 3,
+        "container-title": "Journal of the International Playing-Card Society",
+        "page": "119–128"
     }
 }

@@ -25,10 +25,24 @@ const articles: List = {
     ['cards', {
       title: "Playing Cards",
       articles: new Map([
+        ['ceki', {
+          title: 'Ceki cards',
+          draft: true,
+          import: React.lazy(() => import(/* webpackChunkName: 'ceki' */ './cards/ceki/Ceki')),
+        }],
+        ['china', {
+          title: "Chinese Cards",
+          article: {
+            title: "Overview of Chinese Cards",
+            draft: true,
+            import: React.lazy(() => import(/* webpackChunkName: 'chinese-cards' */ './cards/china/introduction')),
+          },
+          articles: new Map(),
+        }],
         ['japan', {
           title: "Japanese Cards",
           article: {
-            title: 'Japanese Cards',
+            title: 'Overview of Japanese Cards',
             draft: true,
             import: React.lazy(() => import(/* webpackChunkName: 'japanese-cards' */ './cards/japan/introduction'))
           },

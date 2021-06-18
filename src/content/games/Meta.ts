@@ -7,6 +7,20 @@ export type GameMeta = Readonly<{
 } & ArticleContent>
 
 const games = {
+  'balek-satu': {
+    title: "Balek Satu",
+    titleLang: "ms",
+    players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    import: React.lazy(() => import('./BalekSatu/BalekSatu')),
+    draft: true,
+  },
+  'cholek-tiga': {
+    title: "Cholek Tiga",
+    titleLang: "ms",
+    players: [2, 3],
+    import: React.lazy(() => import(/* webpackChunkName: 'cholek-tiga' */ './CholekTiga/CholekTiga')),
+    draft: true,
+  },
   'gunjin-shoji': {
     title: "Gunjin Shogi",
     titleLang: "ja-Latn",
@@ -72,6 +86,12 @@ const games = {
     draft: true,
     players: [2],
     import: React.lazy(() => import(/* webpackChunkName: 'tic-tac-toe' */ './TicTacToe'))
+  },
+  'xianqi': {
+    title: "Xiangqi",
+    titleLang: "zh-Latn",
+    players: [2],
+    import: React.lazy(() => import(/* webpackChunkName: 'xiangqi' */ './Xiangqi/Xiangqi'))
   }
 };
 

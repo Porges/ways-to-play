@@ -107,6 +107,7 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
 const imageObject = "http://schema.org/ImageObject";
 
 const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: string, alt: string, sizes: string, noborder?: boolean) => {
+  const maxImage = typeof src == 'string' ? undefined : src.images[src.images.length-1];
   const bigImage = typeof src == 'string' ? src : src.images[src.images.length-1].path;
   const id = slug(bigImage);
   const className = noborder ? "border-0" : undefined;
@@ -119,7 +120,7 @@ const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: strin
       <a href={'#'+id}>
         {typeof src === 'string'
           ? <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src} />
-          : <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} />}
+          : <Figure.Image className={className} itemProp="contentUrl url" alt={alt} src={src.src} srcSet={src.srcSet} sizes={sizes} width={maxImage?.width} height={maxImage?.height} />}
       </a>
     </div>
   );
