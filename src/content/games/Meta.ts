@@ -7,11 +7,11 @@ export type GameMeta = Readonly<{
 } & ArticleContent>
 
 const games = {
-  'balek-satu': {
-    title: "Balek Satu",
+  'balik-satu': {
+    title: "Balik Satu",
     titleLang: "ms",
     players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
-    import: React.lazy(() => import('./BalekSatu/BalekSatu')),
+    import: React.lazy(() => import('./BalikSatu/BalikSatu')),
     draft: true,
   },
   'cholek-tiga': {

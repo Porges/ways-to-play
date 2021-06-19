@@ -36,6 +36,7 @@ type ResponsiveImageSrc = ResponsiveImageOutput | string
 
 type Props = {
   noborder?: boolean
+  cram?: boolean
   mainImage?: boolean
   source?: SourceInfo
 } & (
@@ -81,7 +82,8 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
     </Helmet>
     );
 
-  const className = noborder ? "border-0" : undefined;
+  const className = `${noborder ? "border-0" : ""}`;
+
   if (typeof src === 'string') {
     const id = slug(src);
     // eslint-disable-next-line
@@ -110,7 +112,7 @@ const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: strin
   const maxImage = typeof src == 'string' ? undefined : src.images[src.images.length-1];
   const bigImage = typeof src == 'string' ? src : src.images[src.images.length-1].path;
   const id = slug(bigImage);
-  const className = noborder ? "border-0" : undefined;
+  const className = `${noborder ? "border-0" : ""}`;
   return (
     <div itemScope itemType={imageObject} itemProp="image" key={ix} itemRef={sourceId}>
       {/* eslint-disable-next-line */}
@@ -144,7 +146,7 @@ const renderImages = (src: [ResponsiveImageSrc, string][], perRow: number | unde
 }
 
 export const ArticleImage: React.FC<Props> = props => {
-  const className = `${props.position || ''} ${props.size || ''}`;
+  const className = `${props.position || ''} ${props.size || ''} ${props.cram ? "cram" : ""}`;
 
   // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
   const sizes =

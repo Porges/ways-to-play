@@ -4802,7 +4802,10 @@
         "type": "book",
         "title": "Gambling Games of Malaya",
         "author": [
-            {"family": "Dobree", "given": "C. T." }
+            {
+                "family": "Dobree",
+                "given": "C. T."
+            }
         ],
         "publisher": "The Caxton Press",
         "publisher-place": "Kuala Lumpur, Malaysia",
@@ -4815,7 +4818,10 @@
         "type": "book",
         "title": "A Nyonya Mosaic: Memoirs of a Paranakan Childhood",
         "author": [
-            { "family": "Gwee", "given": "William" }
+            {
+                "family": "Gwee",
+                "given": "William"
+            }
         ],
         "issued": {
             "year": 2013
@@ -4829,9 +4835,14 @@
         "type": "book",
         "title": "A Baba Malay Dictionary",
         "author": [
-            {"family": "Gwee", "given":"William"}
+            {
+                "family": "Gwee",
+                "given": "William"
+            }
         ],
-        "issued": {"year": 2006},
+        "issued": {
+            "year": 2006
+        },
         "ISBN": "978-1-4629-1300-8",
         "publisher": "Tuttle Publishing",
         "publisher-place": "Singapore",
@@ -4842,7 +4853,10 @@
         "type": "article-journal",
         "title": "Chiki Cards and Three Chiki Games",
         "author": [
-            {"family": "Pwee", "given": "Keng Ho"}
+            {
+                "family": "Pwee",
+                "given": "Keng Ho"
+            }
         ],
         "issued": {
             "year": 2003
@@ -4851,5 +4865,100 @@
         "issue": 3,
         "container-title": "Journal of the International Playing-Card Society",
         "page": "119–128"
+    },
+    "BalineseChineseCommunity": {
+        "id": "BalineseChineseCommunity",
+        "type": "article-journal",
+        "title": "Reterritorializdtion of a Balinese Chinese Community in Quanzhou, Fujian",
+        "author": [
+            {
+                "given": "Chee-Beng",
+                "family": "Tan"
+            }
+        ],
+        "issued": {
+            "year": 2010
+        },
+        "container-title": "Modern Asian Studies",
+        "page": "547–566",
+        "volume": 44,
+        "issue": 3,
+        "URL": "https://www.jstor.org/stable/40664924"
+    },
+    "ChiChiPai": {
+        "id": "ChiChiPai",
+        "title": "Chi Chi Pai",
+        "type": "webpage",
+        "author": [
+            {
+                "given": "Simon",
+                "family": "Wintle"
+            }
+        ],
+        "issued": {
+            "year": 2015
+        },
+        "container-title": "World of Playing Cards",
+        "URL": "https://www.wopc.co.uk/belgium/mesmaeker/chi-chi-pai"
+    },
+    "ChineseOfTheStraitsSettlements": {
+        "id": "ChineseOfTheStraitsSettlements",
+        "type": "book",
+        "title": "The manners and customs of the Chinese of the straits settlements",
+        "author": [
+            {
+                "family": "Vaughan",
+                "given": "Jonas Daniel"
+            }
+        ],
+        "issued": {
+            "year": 1879
+        },
+        "publisher": "Mission Press",
+        "publisher-place": "Singapore",
+        "URL": "https://archive.org/details/dli.ministry.04146"
+    },
+    "TheBabas": {
+        "id": "TheBabas",
+        "type": "book",
+        "title": "The Babas",
+        "author": [
+            {"family": "Chia", "given": "Felix"}
+        ],
+        "publisher": "Times Books International",
+        "publisher-place": "Singapore",
+        "issued": {
+            "year": 1980
+        },
+        "ISBN": "9971-65-058-4",
+        "URL": "https://archive.org/details/babas0000chia"
+    },
+    "TraditionCardGameCeki": {
+        "id": "TraditionCardGameCeki",
+        "type": "article-journal",
+        "title": "Tradition Card Game <span lang='ms'>Ceki</span>: Community Identity Chinese Melay Meday, Minang, and Bali",
+        "author": [
+            {"family": "Alkatiry", "given": "Zeffry"},
+            {"family": "Aviandy", "given": "Mochammad"}
+        ],
+        "container-title": "International Review of Humanities Studies",
+        "page": "274–286",
+        "volume": 3,
+        "issue": 2,
+        "issued":{"year": 2018},
+        "URL": "https://scholar.ui.ac.id/en/publications/tradition-card-game-ceki-community-identity-chinese-malay-medan-m"
+    }, 
+    "MemoryOfTheWorldRegister": {
+        "id":"MemoryOfTheWorldRegister",
+        "type": "article-journal",
+        "title": "The Memory of the World Register: The Sultan Abdul Hamid Correspondence and Kedah history",
+        "author": [
+            {"family": "Musa", "given": "Mahani"}
+        ],
+        "issued": {"year": 2015},
+        "container-title": "Kajian Malaysia",
+        "volume": 33,
+        "issue": "Supp. 2",
+        "page": "53–74"
     }
 }

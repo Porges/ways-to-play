@@ -523,8 +523,9 @@ div.multi {
     justify-content: space-around;
 }
 
-// margings for children
+// margins for children
 div.multi > * { margin: 5px 10px; }
+figure.cram div.multi > * { margin: 2px; }
 div.multi :last-child { margin-right: 0; }
 div.multi :first-child { margin-left: 0; }
 
