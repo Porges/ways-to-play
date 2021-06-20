@@ -40,7 +40,7 @@ const Content: React.FC = () => <>
   <p><Noun lang="ms">Balik Satu</Noun> (‘turn one’) is a Peranakan game played with <Link to="/articles/cards/ceki/">Ceki cards</Link>.<Cite r={ChikiCards} page={122} /> The game play is similar to Mahjong, with the goal being to form five sets of three cards.</p>
   <p>Most of the description below is drawn from <Cite r={ChikiCards} inline />, with additions from <Cite r={TheBabas} page={155} inline />.</p>
   <Section title="Equipment">
-    <p>It can be played by almost any number of people as long as you have enough cards (recall that a Ceki deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type). Two different sources give two different amounts. (I am inclined to prefer the rightmost column as it starts with simple math of two decks for two people, even though it suggests that up to 20 people can play with a total of 1&#x202f;200 cards!)</p>
+    <p><Noun lang="ms">Balik Satu</Noun> can be played by almost any number of people as long as you have enough cards. My two sources give differing amounts of cards per player. (I am inclined to prefer the rightmost column as it starts with the simple example of two decks for two people, even though the book suggests that up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a Ceki deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type.</p>
     <Table className="numeric" variant="sm">
       <thead>
         <th>Players</th>
@@ -67,7 +67,7 @@ const Content: React.FC = () => <>
   <Section title="Play">
     <p>Deal 7 cards to each player, an additional card to the first player, and then a second round of 7 cards to each player. Set the remainder of the cards in the middle of the table face-down, to form the stock. <strong>Alternately</strong>, with a large number of people it is faster to wash-shuffle the cards in the centre of the table and then for each person to draw 14 cards (15 for the starting player).</p>
     <p>The first player starts the game by discarding one card face-up to the middle. Play in an anti-clockwise direction; the next player is the person to their right.</p>
-    <p>On a player’s turn they can either take the last discard or the next face-down card, and must discard a card to complete their turn. The goal is to form your hand into five sets of three: a set can be three of the same rank (i.e. with the same indices) or three of the exact same card, which is called a <span lang="ms">mata</span> (‘eye’). A player <strong>must</strong> have at least one <span lang="ms">mata</span> to win, and the winning card that completes the hand (making 15 cards) must be drawn from the stock, not from a discard.</p>
+    <p>On a player’s turn they can either take the last discard or the next face-down card, and must discard a card to complete their turn. The goal is to form your hand into five sets of three: a set can be three of the same rank (i.e. with the same indices) or three of the exact same card, which is called a <span lang="ms">mata</span> (‘eye’), or a ‘passport’ in Melaka. A player <strong>must</strong> have at least one <span lang="ms">mata</span> to win, and the winning card that completes the hand (making 15 cards) must be drawn from the stock, not from a discard.</p>
     <p><strong>Calling</strong>: once a player has formed four sets in their hand and only needs one card to win, they can “call” on their next discard. To do this, they discard and then flick their discarded card with their finger. If they have formed at least one <span lang="ms">mata</span> already, they call ‘<span lang="ms">tan</span>’,<Footnote>This comes from Hokkien <span lang="nan">等</span> <span lang="nan-Latn">tán</span> ‘wait’.</Footnote> or else (if they are trying to form a <span lang="ms">mata</span> for their last set) they call ‘<span lang="ms">ceki</span>’.</p>
     <ArticleImage
       cram
@@ -125,18 +125,16 @@ const Content: React.FC = () => <>
     </div>
     <p>A common rule is that if the drawn card is a rank-1 <span lang="ms">yeo</span> card, then the winning player does not score and the round is played again.</p>
     <p>To the value of the drawn card, the winner adds one point for each unmarked <span lang="ms">mata</span>, and two points for each <span lang="ms">mata</span> of red-stamped cards.</p>
-    <p>Finally:</p>
+    <p>Finally, if the player won by completing a <span lang="ms">mata</span> (i.e. they called ‘<span lang="ms">ceki</span>’),<Footnote>If the winner initially called ‘<span lang="ms">ceki</span>’ and later changed their call to ‘<span lang="ms">tan</span>’, it does not count as calling <span lang="ms">ceki</span>. The rules given in <Cite r={ChikiCards} inline/> also award 1 point for winning after calling <span lang="ms">tan</span>, but this seems superfluous as the winner will always win at least 1 point for their <span lang="ms">mata</span>.</Footnote> then:</p>
     <ul>
-      <li>If they called ‘<span lang="ms">tan</span>’, then they earn an additional one point.</li>
-      <li>If they called ‘<span lang="ms">ceki</span>’ and someone else drew the winning card from the stock (called <span lang="ms">ayam</span>, ‘chicken’), they earn an additional 1,<Cite r={GatewayToOldSchoolGames} page={71} /> 5,<Cite r={TheBabas} page={162} /> or 10<Cite r={ChikiCards}/> points.</li>
-      <li>If they called ‘<span lang="ms">ceki</span>’ and self-drew the winning card (called <span lang="ms">kandang</span> ‘cage’), they earn an additional 2,<Cite r={GatewayToOldSchoolGames} page={71} /> 10,<Cite r={TheBabas} page={162} /> or 20<Cite r={ChikiCards}/> points.</li>
+      <li>if someone else drew the winning card from the stock (called <span lang="ms">ayam</span>, ‘chicken’), they earn an additional 1,<Cite r={GatewayToOldSchoolGames} page={71} /> 5,<Cite r={TheBabas} page={162} /> or 10<Cite r={ChikiCards}/> points, or</li>
+      <li>if they self-drew the winning card (called <span lang="ms">kandang</span> ‘cage’), they earn an additional 2,<Cite r={GatewayToOldSchoolGames} page={71} /> 10,<Cite r={TheBabas} page={162} /> or 20<Cite r={ChikiCards}/> points.</li>
     </ul>
-    <p>If the winner initially called ‘<span lang="ms">ceki</span>’ and later changed their call to ‘<span lang="ms">tan</span>’, they only receive the <span lang="ms">tan</span> bonus.</p>
     <p>The player is then paid their total score by <em>each</em> player. In Singapore<Cite r={ChikiCards} /> this is done by paying 10¢ per point.<Footnote>This was 5¢ a point in the 1970s<Cite r={TheBabas} page={162} />.</Footnote></p>
     <p>In the case that a player is initially dealt a winning hand (<span lang="ms">kandang tangan</span> ‘cage in hand’), they win instantly and double the normal scoring (no calling bonuses will apply).</p>
   </Section>
   <Section title="Variations">
-    <p><Noun lang="ms">Balik Lima Belas</Noun> (‘draw fifteen’) is a version of <Noun lang="ms">Balik Satu</Noun> where the winner draws draws fifteen cards from the stock instead of one. They must use these cards to try to improve their sets into <span lang="ms">mata</span> by swapping cards of equivalent rank. Scoring is calculated as one point for winning plus one point for each <span lang="ms">mata</span> (so, always at least two points). In this form the red-stamped cards do not score extra, but the calling bonuses for <span lang="ms">ayam</span> and <span lang="ms">kandang</span> still apply.</p>
+    <p><Noun lang="ms">Balik Lima Belas</Noun> (‘draw fifteen’) is a version of <Noun lang="ms">Balik Satu</Noun> where the winner draws fifteen cards from the stock instead of one. They must use these cards to try to improve their sets into <span lang="ms">mata</span> by swapping cards of equivalent rank. Scoring is calculated as one point for winning plus one point for each <span lang="ms">mata</span> (so, always at least two points). In this form the red-stamped cards do not score extra, but the calling bonuses for <span lang="ms">ayam</span> and <span lang="ms">kandang</span> still apply.</p>
   </Section>
 </>;
 

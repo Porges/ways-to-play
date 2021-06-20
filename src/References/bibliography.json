@@ -4960,5 +4960,32 @@
         "volume": 33,
         "issue": "Supp. 2",
         "page": "53–74"
+    },
+    "RancangBangun": {
+        "id": "RancangBangun",
+        "type": "thesis",
+        "title": "Rancang Bangun Permainan Ceki <em>Online</em>",
+        "title-lang": "ban",
+        "publisher": "Universitas Udayana",
+        "publisher-place": "Denpasar, Bali, Indonesia",
+        "issued": {
+            "year": 2012
+        },
+        "author": [
+            {"given": "I Putu Arya Kusuma Wijaya",
+                 "family": "Wijaya"}
+        ],
+        "URL": "https://ee.unud.ac.id/index.php?p=divisi&act=TampilkanAbstrak&idd=6&idtah=22"
+    },
+    "LombokCeki": {
+        "id": "LombokCeki",
+        "type": "webpage",
+        "title": "Anonymous comment on “Nama-nama Kartu KOA”",
+        "author": [{"given":"Unknown"}],
+        "issued": {
+            "year": 2016
+        },
+        "container-title": "Lai tau mah,..!!!",
+        "URL": "http://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html?showComment=1461669020922#c1535841351149970488"
     }
 }

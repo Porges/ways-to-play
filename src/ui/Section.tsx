@@ -1,3 +1,4 @@
+import { notDeepStrictEqual } from 'assert';
 import * as React from 'react';
 
 import * as Server from 'react-dom/server';
@@ -25,7 +26,10 @@ const renderHeader = (nesting: number, node: React.ReactNode, slug: string)  => 
 
 export const Section: React.FC<OwnProps> = ({title, nesting, children}) => {
 
-    const ctx = React.useContext(SectionContext);
+    let ctx = React.useContext(SectionContext);
+    if (nesting !== undefined) {
+      ctx = nesting;
+    }
 
     const id = slug(Server.renderToStaticMarkup(<>{title}</>).normalize("NFKD").replace(/<(.*?)>/g, ''));
     
