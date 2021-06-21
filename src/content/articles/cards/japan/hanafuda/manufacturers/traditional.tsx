@@ -128,6 +128,7 @@ import imgAngelTaihei from './Angel_Taihei.jpg';
 import imgAngelDaitenryu from './Angel_Daitenryu.jpg';
 import imgOishiTengudoHandprint from './OishiTengudo_handprint.jpg';
 import imgOishiTengudoCat from './OishiTengudo_Cat.jpg';
+import imgTGFukusuke from './TG_fukusuke.jpg';
 
 import imgGyokusuidoTrademark from './Gyokusuido_trademark.png';
 import imgOishiTrademark from './Oishi_trademark.png';
@@ -927,6 +928,7 @@ const Manufacturers: React.FC = () => {
         <ul>
           <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>, a <a href="https://en.wikipedia.org/wiki/Fukusuke">large-headed good luck doll</a>)</li>
           <li><span lang="ja">銀末廣</span>/<span lang="ja">銀末広</span> (<span lang="ja-Latn">ginsuehiro</span> ‘silver fan’)</li>
+          <li><span lang="ja">末廣</span> (<span lang="ja-Latn">suehiro</span> ‘fan’)</li>
           <li><span lang="ja">大帝王</span> (<span lang="ja-Latn">daiteiō</span> ‘great emperor’)</li>
           <li><span lang="ja">春</span> (<span lang="ja-Latn">haru</span>, ‘spring’)</li>
           <li><span lang="ja">横綱</span> (<span lang="ja-Latn">yokozuna</span>, the highest rank in <span lang="ja-Latn">sumo</span>)</li>
@@ -935,7 +937,17 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">花扇</span> (<span lang="ja-Latn">hanaōgi</span>, ‘flower fan’)</li>
           <li><span lang="ja">金剛</span> (<span lang="ja-Latn">kongō</span>, a mythical indestructible substance)</li>
           <li><span lang="ja">よろしい</span> (<span lang="ja-Latn">yoroshii</span>, ‘all right’), trademarked in 1947</li>
+          <li><span lang="ja">達磨</span> (<span lang="ja-Latn">daruma</span>, Daruma)</li>
+          <li><span lang="ja">黄</span> (<span lang="ja-Latn">ki</span>, ‘yellow’)</li>
+          <li><span lang="ja">白</span> (<span lang="ja-Latn">shiro</span>, ‘white’)</li>
+          <li><span lang="ja">小判</span> (<span lang="ja-Latn">koban</span>, a large coin)</li>
         </ul>
+        <ArticleImage
+          alt=""
+          src={imgTGFukusuke}
+          source={{ license: "cc0" }}>
+          <Noun lang="ja-Latn">Tanaka Gyokusuidō</Noun>’s <span lang="ja-Latn">fukusuke</span> brand.
+        </ArticleImage>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Iwata Honten</Noun> (<span lang="ja">岩田本店</span>)</>}>
         <ArticleImage

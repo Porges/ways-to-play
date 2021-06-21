@@ -4987,5 +4987,19 @@
         },
         "container-title": "Lai tau mah,..!!!",
         "URL": "http://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html?showComment=1461669020922#c1535841351149970488"
+    },
+    "JavanischeKartenspiele": {
+        "id": "JavanischeKartenspiele",
+        "type": "article-journal",
+        "title": "Javanische Kartenspiele",
+        "title-lang": "de",
+        "author":[{"given": "O. D.", "family": "Tauern"}],
+        "container-title": "Zeitschrift für Ethnologie",
+        "container-title-lang": "de",
+        "URL": "https://www.jstor.org/stable/23031254",
+        "volume": 46,
+        "issue": 1,
+        "issued": {"year": 1914},
+        "page": "45–48"
     }
 }

@@ -3,7 +3,7 @@ import * as React from 'react';
 import { Cards, Cite, Footnote, ArticleImage, Section, Noun, Article } from 'ui';
 import { Link } from 'react-router-dom';
 import { GameRef } from 'content/games/Game';
-import { LoanWordsIndonesian, GatewayToOldSchoolGames, GamblingGamesOfMalaya, NyonyaMosaic, BabaMalayDictionary, ChikiCards, BalineseChineseCommunity, ChiChiPai, ChineseOfTheStraitsSettlements, TheBabas, TraditionCardGameCeki, MemoryOfTheWorldRegister, RancangBangun, LombokCeki } from 'References/bibliography.json';
+import { LoanWordsIndonesian, GatewayToOldSchoolGames, GamblingGamesOfMalaya, NyonyaMosaic, BabaMalayDictionary, ChikiCards, BalineseChineseCommunity, ChiChiPai, ChineseOfTheStraitsSettlements, TheBabas, TraditionCardGameCeki, MemoryOfTheWorldRegister, RancangBangun, LombokCeki, JavanischeKartenspiele } from 'References/bibliography.json';
 import { Table } from 'react-bootstrap';
 
 import imgCOT from './COT.jpg';
@@ -123,7 +123,8 @@ const Content: React.FC = () =>
       <p>Each card in the deck has its own nickname, based on its appearance.</p>
       <p>In the table, Malaysian or Singaporean names are presented in the first row. They are a combination of the rank (derived from Hokkien number names) and either the suit name or some nickname based on the middle portion of the card,<Cite r={ChikiCards} page={121} /> which is slightly bigger there than in the Indonesian version.</p>
       <p>The second row of names records the names used by Minangkabau people in Indonesia. Instead of numeric ranks, they are based on the appearance of the indices in the corners of the cards.</p>
-      <p>The third row of names records names reportedly used in Bali<Cite r={RancangBangun} page={[[45, 47]]} /> or Lombok,<Cite r={LombokCeki} /> where almost every card has a specific name. This section of the table is much more imprecise than the previous lines.</p>
+      <p>The third row of names are those used in Java, as recorded in the early 20th century,<Cite r={JavanischeKartenspiele} /> and as such might be very outdated.</p>
+      <p>The fourth row of names records names reportedly used in Bali<Cite r={RancangBangun} page={[[45, 47]]} /> or Lombok,<Cite r={LombokCeki} /> where almost every card has a specific name. This section of the table is much more imprecise than the previous lines.</p>
       <Table className="text-center" variant="sm">
         <thead>
           <th></th>
@@ -158,7 +159,13 @@ const Content: React.FC = () =>
             <td><span lang="min">hiu/iyu</span><br />‘shark’</td>
             <td><span lang="min">hiu babak</span><br />chapter shark</td>
             <td><span lang="min">hiu kuciang</span><br />cat shark</td>
-            <td><span lang="min">hiu merah</span> or <span lang="min">pinci</span><br />red or [unknown] shark</td>
+            <td><span lang="min">hiu merah</span> or <span lang="min">pinci</span><br />red shark or <a href="https://en.wikipedia.org/wiki/Songkok">a hat</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span lang="jv-Latn">besar</span><br />large</td>
+            <td><span lang="jv-Latn">kucing</span><br />cat</td>
+            <td><span lang="jv-Latn">cinci</span><br />[unknown]</td>
           </tr>
           <tr>
             <td></td>
@@ -186,6 +193,12 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
+            <td><span lang="jv-Latn">kesut</span><br />[var: kasut?]</td>
+            <td><span lang="jv-Latn">sotur</span><br />[unknown]</td>
+            <td><span lang="jv-Latn">p’té</span><br />[unknown]</td>
+          </tr>
+          <tr>
+            <td></td>
             <td><span lang="ban">likas</span><br />reel</td>
             <td><span lang="ban">lojor</span> or <span lang="ban">selodor</span><br />a long Balinese drum or [unknown]</td>
             <td><span lang="ban">cina</span><br />China</td>
@@ -207,6 +220,12 @@ const Content: React.FC = () =>
             <td><span lang="min">bengkok (h)itam</span><br />black crooked</td>
             <td><span lang="min">bengkok gadang</span><br />big crooked</td>
             <td><span lang="min">bengkok aluih</span> or <span lang="min">halus</span><br />genteel or fine crooked</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span lang="jv-Latn">dimpil tolu</span><br />larger than normal or fused digit, [fifth week?]</td>
+            <td><span lang="jv-Latn">cekok</span><br />neck-hollow</td>
+            <td><span lang="jv-Latn">dimpil wong</span><br />larger than normal or fused digit, person</td>
           </tr>
           <tr>
             <td></td>
@@ -234,6 +253,12 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
+            <td><span lang="jv-Latn">cerud jarum</span><br />[unknown] needle</td>
+            <td><span lang="jv-Latn">gunung</span><br />mountain</td>
+            <td><span lang="jv-Latn">jarum wong</span><br />needle person</td>
+          </tr>
+          <tr>
+            <td></td>
             <td><span lang="ban">(je)bug telu</span><br />three betel nuts</td>
             <td><span lang="ban">gunung</span><br />mountain</td>
             <td><span lang="ban">caling</span> or <span lang="ban">jarum</span><br />canine or needle</td>
@@ -258,7 +283,13 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
-            <td><span lang="ban">bela</span> or <span lang="ban">besar</span><br />[unknown]</td>
+            <td><span lang="jv-Latn">gobok</span><br />coin</td>
+            <td><span lang="jv-Latn">cawang</span><br />[unknown]</td>
+            <td><span lang="jv-Latn">sundul</span><br />[unknown]</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span lang="ban">bela</span> or <span lang="ban">besar</span><br />[unknown] or large</td>
             <td><span lang="ban">sangkap</span> or <span lang="ban">cawang</span><br />[unknown]</td>
             <td><span lang="ban">mendut</span> or <span lang="ban">celek</span><br />steamed rice flour balls or [unknown]</td>
           </tr>
@@ -279,6 +310,12 @@ const Content: React.FC = () =>
             <td><span lang="min">babi pusek</span><br />navel pig</td>
             <td><span lang="min">babi gadang</span><br />big pig</td>
             <td><span lang="min">babi aluih</span> or <span lang="id">halus</span><br />genteel or fine pig</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span lang="jv-Latn">cupa</span><br />[unknown]</td>
+            <td><span lang="jv-Latn">babi lintrik</span><br />pig [unknown]</td>
+            <td><span lang="jv-Latn">babi wong</span><br />pig person</td>
           </tr>
           <tr>
             <td></td>
@@ -306,6 +343,12 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
+            <td><span lang="jv-Latn">mendung</span><br />[unknown]</td>
+            <td><span lang="jv-Latn">condro</span><br />[unknown]</td>
+            <td><span lang="jv-Latn">gabit</span><br />[unknown]</td>
+          </tr>
+          <tr>
+            <td></td>
             <td><span lang="ban">nyem</span> or <span lang="ban">pis nem</span><br />[unknown] or six coins</td>
             <td><span lang="ban">mer</span><br />[unknown]</td>
             <td><span lang="ban">klenteng</span> or <span lang="ban">megat</span><br />Chinese temple or [unknown]</td>
@@ -330,7 +373,13 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
-            <td><span lang="ban">paku</span> or <span lang="ban">bendera</span><br />[unknown] or flag</td>
+            <td><span lang="jv-Latn">lajar</span><br />plough</td>
+            <td><span lang="jv-Latn">reab lintrik</span><br />[unknown]</td>
+            <td><span lang="jv-Latn">reab wong</span><br />[unknown]</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span lang="ban">paku</span> or <span lang="ban">bendera</span><br />fern or flag</td>
             <td><span lang="ban">ringying</span> or <span lang="ban">curing</span><br />[unknown] or [a type of gamelan?]</td>
             <td><span lang="ban">ringgit</span><br />[unknown]</td>
           </tr>
@@ -354,7 +403,13 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
-            <td><span lang="ban">sekutus</span> or <span lang="ban">pis ulu</span><br />[unknown] or [eight?] coins</td>
+            <td><span lang="jv-Latn">lekok pecis</span><br />dented [<a href="https://en.wikipedia.org/wiki/Songkok">peci</a> or coin?]</td>
+            <td><span lang="jv-Latn">lekok lintrik</span><br />dented [unknown]</td>
+            <td><span lang="jv-Latn">lekok wong</span><br />dented person</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><span lang="ban">sekutus</span> or <span lang="ban">pis ulu</span><br />[adj:] eight or [eight?] coins</td>
             <td><span lang="ban">ulu</span> or <span lang="ban">manis</span><br />[eight?] or sweet</td>
             <td><span lang="ban">manak</span> or <span lang="ban">kelepok</span><br />[to be born?] or [unknown]</td>
           </tr>
@@ -378,8 +433,14 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
+            <td><span lang="jv-Latn">pecis</span><br />[<a href="https://en.wikipedia.org/wiki/Songkok">peci</a> or coin?]</td>
+            <td><span lang="jv-Latn">gang abang</span><br />red gap</td>
+            <td><span lang="jv-Latn">gang</span><br />gap</td>
+          </tr>
+          <tr>
+            <td></td>
             <td><span lang="ban">sanga</span> or <span lang="ban">gada</span><br />nine or <a href="https://en.wikipedia.org/wiki/Gada_(mace)">mace</a></td>
-            <td><span lang="ban">besar</span> or <span lang="ban">teja</span><br />big [or mulberry: red dye?] or shining</td>
+            <td><span lang="ban">besar</span> or <span lang="ban">teja</span><br />large or shining</td>
             <td><span lang="ban">kao</span> or <span lang="ban">jering</span><br />[unknown] or upright</td>
           </tr>
         </tbody>
