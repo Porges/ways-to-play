@@ -281,6 +281,24 @@ figure {
     }
 }
 
+/*** Jumbotron/hero ***/
+.jumbotron {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron.hero {
+    color: white;
+
+    h1 > a {
+        padding: 0 .5em;
+        border-radius: 5px;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
 /*** References ***/
 /* space them out */
 .reference-list > li {
@@ -570,7 +588,6 @@ ul.article-list li {
 }
 
 article a {
-  //border: $light 1px solid;
   padding: 1px;
 }
 

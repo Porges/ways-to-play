@@ -25,9 +25,9 @@ const App: React.FC = () => {
       </Navbar>
     </header>
 
-    <Container as="main">
+    <main>
       <Routes/>
-    </Container>
+    </main>
 
     <footer className="navbar navbar-expand navbar-dark bg-primary">
       <Navbar.Text className="ml-auto">

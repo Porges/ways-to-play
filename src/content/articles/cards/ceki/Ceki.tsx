@@ -127,10 +127,12 @@ const Content: React.FC = () =>
       <p>The fourth row of names records names reportedly used in Bali<Cite r={RancangBangun} page={[[45, 47]]} /> or Lombok,<Cite r={LombokCeki} /> where almost every card has a specific name. This section of the table is much more imprecise than the previous lines.</p>
       <Table className="text-center" variant="sm">
         <thead>
-          <th></th>
-          <th>Coins</th>
-          <th>Strings</th>
-          <th>Myriads</th>
+          <tr>
+            <th></th>
+            <th>Coins</th>
+            <th>Strings</th>
+            <th>Myriads</th>
+          </tr>
         </thead>
         <tbody>
           <tr>
@@ -229,7 +231,7 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
-            <td><span lang="ban">(je)bug dua</span><br />two betel nuts</td>
+            <td><span lang="ban">(je)bug dua</span><br />two dried betel nuts</td>
             <td><span lang="ban">dengkek</span><br />having a bent back</td>
             <td><span lang="ban">pelik</span> or <span lang="ban">kolo</span><br />[strange?]</td>
           </tr>
@@ -259,7 +261,7 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
-            <td><span lang="ban">(je)bug telu</span><br />three betel nuts</td>
+            <td><span lang="ban">(je)bug telu</span><br />three dried betel nuts</td>
             <td><span lang="ban">gunung</span><br />mountain</td>
             <td><span lang="ban">caling</span> or <span lang="ban">jarum</span><br />canine or needle</td>
           </tr>
@@ -284,8 +286,8 @@ const Content: React.FC = () =>
           <tr>
             <td></td>
             <td><span lang="jv-Latn">gobok</span><br />coin</td>
-            <td><span lang="jv-Latn">cawang</span><br />[unknown]</td>
-            <td><span lang="jv-Latn">sundul</span><br />[unknown]</td>
+            <td><span lang="jv-Latn">cawang</span><br />spool</td>
+            <td><span lang="jv-Latn">sundul</span><br />spool</td>
           </tr>
           <tr>
             <td></td>
@@ -381,7 +383,7 @@ const Content: React.FC = () =>
             <td></td>
             <td><span lang="ban">paku</span> or <span lang="ban">bendera</span><br />fern or flag</td>
             <td><span lang="ban">ringying</span> or <span lang="ban">curing</span><br />[unknown] or [a type of gamelan?]</td>
-            <td><span lang="ban">ringgit</span><br />[unknown]</td>
+            <td><span lang="ban">ringgit</span><br />jagged</td>
           </tr>
           <tr>
             <td>Rank 8</td>
@@ -409,8 +411,8 @@ const Content: React.FC = () =>
           </tr>
           <tr>
             <td></td>
-            <td><span lang="ban">sekutus</span> or <span lang="ban">pis ulu</span><br />[adj:] eight or [eight?] coins</td>
-            <td><span lang="ban">ulu</span> or <span lang="ban">manis</span><br />[eight?] or sweet</td>
+            <td><span lang="ban">sekutus</span> or <span lang="ban">pis ulu</span><br />[adj:] eight or eight coins</td>
+            <td><span lang="ban">ulu</span> or <span lang="ban">manis</span><br />eight or sweet</td>
             <td><span lang="ban">manak</span> or <span lang="ban">kelepok</span><br />[to be born?] or [unknown]</td>
           </tr>
           <tr>

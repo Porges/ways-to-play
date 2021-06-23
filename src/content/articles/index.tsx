@@ -2,9 +2,7 @@ import * as React from 'react';
 import { RouteComponentProps, Switch, Route } from 'react-router';
 import { Link } from 'react-router-dom';
 
-import Badge from 'react-bootstrap/Badge';
-import Col from 'react-bootstrap/Col';
-import Row from 'react-bootstrap/Row';
+import { Row, Col, Badge, Container } from 'react-bootstrap';
 
 import { Article, ArticleContent } from 'ui';
 
@@ -196,11 +194,11 @@ const Lookup: React.FC<RouteComponentProps<{ id?: string }>> = (props) => {
         {crumbs.map(({ title, link, titleLang }, ix) =>
           (ix === crumbs.length - 1)
             ? <li className="breadcrumb-item active" key={ix} aria-current="page" lang={titleLang} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <meta itemProp="position" content={`${ix+1}`} />
+              <meta itemProp="position" content={`${ix + 1}`} />
               <span itemProp="name">{title}</span>
             </li>
             : <li className="breadcrumb-item" key={ix} itemProp="itemListElement" itemScope itemType="https://schema.org/ListItem">
-              <meta itemProp="position" content={`${ix+1}`} />
+              <meta itemProp="position" content={`${ix + 1}`} />
               <Link to={link} lang={titleLang} itemProp="item" itemScope itemType="https://schema.org/WebPage" itemID={link}><span itemProp="name">{title}</span></Link>
             </li>)}
       </ol>
@@ -209,66 +207,74 @@ const Lookup: React.FC<RouteComponentProps<{ id?: string }>> = (props) => {
   const prevNext = (<>
     <Col xs={12} md={6}>
       {prevArticle &&
-      <>
-        <a href={prevArticle.link} className="nav-link" rel="prev">
-          <p className="text-left m-2">
-            <span className="prevNextArticle">← Previous Article</span><br/>
-            <span className="prevNextArticle invisible">← </span>
-            <span lang={prevArticle.titleLang}>{prevArticle.title}</span>
-          </p>
-        </a>
-      </> }
+        <>
+          <a href={prevArticle.link} className="nav-link" rel="prev">
+            <p className="text-left m-2">
+              <span className="prevNextArticle">← Previous Article</span><br />
+              <span className="prevNextArticle invisible">← </span>
+              <span lang={prevArticle.titleLang}>{prevArticle.title}</span>
+            </p>
+          </a>
+        </>}
     </Col>
     <Col xs={12} md={6}>
       {nextArticle &&
-      <>
-        <a href={nextArticle.link} className="nav-link" rel="next">
-          <p className="text-right m-2">
-            <span className="prevNextArticle">Next Article →</span><br/>
-            <span className="prevNextArticle invisible"> →</span>
-            <span lang={nextArticle.titleLang}>{nextArticle.title}</span>
-          </p>
-        </a>
-      </> }
+        <>
+          <a href={nextArticle.link} className="nav-link" rel="next">
+            <p className="text-right m-2">
+              <span className="prevNextArticle">Next Article →</span><br />
+              <span className="prevNextArticle invisible"> →</span>
+              <span lang={nextArticle.titleLang}>{nextArticle.title}</span>
+            </p>
+          </a>
+        </>}
     </Col>
   </>);
 
   if ('import' in found) {
     return (<>
-      <Nearby>
-        <Col>
-          <Row>{breadCrumbs}</Row>
-        </Col>
-      </Nearby>
+      <Container>
+        <Nearby>
+          <Col>
+            <Row>{breadCrumbs}</Row>
+          </Col>
+        </Nearby>
+      </Container>
       <Article key={match.url} url={match.url} content={found} />
-      <Nearby>
-        {(prevArticle || nextArticle) && prevNext}
-      </Nearby>
+      <Container>
+        <Nearby>
+          {(prevArticle || nextArticle) && prevNext}
+        </Nearby>
+      </Container>
     </>);
   }
   else {
     const listArticle = found.article;
     return (<>
-      <Nearby>
-        <Col>
-          <Row>{breadCrumbs}</Row>
-        </Col>
-      </Nearby>
+      <Container>
+        <Nearby>
+          <Col>
+            <Row>{breadCrumbs}</Row>
+          </Col>
+        </Nearby>
+      </Container>
       {listArticle && <Article key={match.url + "$"} url={match.url} content={listArticle} />}
+      <Container>
       <Row>
-        <Col lg={1}/>
+        <Col lg={1} />
         <Col lg={10}>
-          { listArticle && <hr/> }
+          {listArticle && <hr />}
           <p className="articlesInThisSection text-center">Articles in this Section</p>
           <p>
             <ArticleList key={match.url} route={props} list={found} />
           </p>
         </Col>
-        <Col lg={1}/>
+        <Col lg={1} />
       </Row>
-      <Nearby>
-        {(prevArticle || nextArticle) && prevNext}
-      </Nearby>
+        <Nearby>
+          {(prevArticle || nextArticle) && prevNext}
+        </Nearby>
+      </Container>
     </>);
   }
 }

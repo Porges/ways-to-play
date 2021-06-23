@@ -2,6 +2,8 @@ import * as React from 'react';
 
 import { ArticleContent } from '../../ui';
 
+import imgBalikSatu from './BalikSatu/shutterstock_1900515673.jpg';
+
 export type GameMeta = Readonly<{
     players: readonly number[],
 } & ArticleContent>
@@ -12,6 +14,7 @@ const games = {
     titleLang: "ms",
     players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
     import: React.lazy(() => import('./BalikSatu/BalikSatu')),
+    hero: imgBalikSatu,
     draft: true,
   },
   'cholek-tiga': {
@@ -19,6 +22,19 @@ const games = {
     titleLang: "ms",
     players: [2, 3],
     import: React.lazy(() => import(/* webpackChunkName: 'cholek-tiga' */ './CholekTiga/CholekTiga')),
+    draft: true,
+  },
+  'daldos': {
+    title: "Daldøs",
+    titleLang: "",
+    players: [2],
+    import: React.lazy(() => import('./Daldos/Daldos')),
+    draft: true,
+  },
+  'simple-stakes': {
+    title: "Simple staking games",
+    players: [],
+    import: React.lazy(() => import('./SimpleStakes/SimpleStakes')),
     draft: true,
   },
   'gunjin-shoji': {

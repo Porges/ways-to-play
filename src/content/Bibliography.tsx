@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet-async';
 import references from '../References/bibliography.json';
 import { renderReference, Reference } from '../References';
 
-import Row from 'react-bootstrap/Row';
+import { Container, Row } from 'react-bootstrap';
 
 const comparer = new Intl.Collator('en');
 
@@ -20,7 +20,7 @@ const Bibliography: React.FC = () => {
     <Helmet>
       <title>Bibliography</title>
     </Helmet>
-    <section>
+    <Container>
       <h1>Bibliography</h1>
       <Row>
         <ul className="reference-list list-unstyled col-8 offset-2">
@@ -30,7 +30,7 @@ const Bibliography: React.FC = () => {
             .map(([id, r]) => <li key={id}>{renderReference(r)}</li>)}
         </ul>
       </Row>
-    </section>
+    </Container>
   </>);
 }
 

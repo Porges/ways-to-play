@@ -7,7 +7,9 @@ import { PronunciationProvider, PronunciationContext, CitationContext, CitationP
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import Badge from 'react-bootstrap/Badge';
+
 
 import { SectionContext, Section } from './Section';
 
@@ -21,11 +23,12 @@ export type ArticleContent = Readonly<{
   title: string,
   titleLang?: string,
   draft?: boolean,
-  import: React.LazyExoticComponent<React.FC>
+  import: React.LazyExoticComponent<React.FC>,
+  hero?: ResponsiveImageOutput,
 }>
 
 const ReferenceSummary: React.FC = () => {
-  let {references} = React.useContext(CitationContext);
+  let { references } = React.useContext(CitationContext);
   if (references.length === 0) {
     return null;
   }
@@ -40,7 +43,7 @@ const ReferenceSummary: React.FC = () => {
 };
 
 const PronunciationSummary: React.FC = () => {
-  let {pronunciations} = React.useContext(PronunciationContext);
+  let { pronunciations } = React.useContext(PronunciationContext);
   if (pronunciations.length === 0) {
     return null;
   }
@@ -70,7 +73,7 @@ const PronunciationSummary: React.FC = () => {
           .sort((x, y) => y.words.length - x.words.length)
           .map(({ author, words }, i) =>
             <li key={i}>{words.map(([word, lang], i) =>
-               <React.Fragment key={i}>{i > 0 && ", "}<span lang={lang}>{word}</span></React.Fragment>)} © <a href={`https://forvo.com/user/${author}/`}>{author}</a>.</li>
+              <React.Fragment key={i}>{i > 0 && ", "}<span lang={lang}>{word}</span></React.Fragment>)} © <a href={`https://forvo.com/user/${author}/`}>{author}</a>.</li>
           )}
       </ul>
     </Section>
@@ -82,6 +85,18 @@ const PronunciationSummary: React.FC = () => {
 export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
 
   const Import = content.import;
+
+  const title = (
+    <h1 itemProp="headline" lang={content.titleLang}>
+      <Link itemProp="mainEntityOfPage" to={url}>{content.title}</Link> {content.draft && <Badge variant="warning">Draft</Badge>}
+    </h1>
+  );
+
+  const heroStyle: React.CSSProperties = 
+    {
+      backgroundImage: content.hero && `url('${content.hero.images[content.hero.images.length - 1].path}')`,
+    };
+
   return (<>
     <Helmet>
       <title lang={content.titleLang}>{content.title}</title>
@@ -94,15 +109,17 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
       <meta property="og:site_name" content="Ways to Play" />
     </Helmet>
     <article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author-outer">
-      <Row>
-        <Col lg="1" />
-        <Col lg="10">
-          <h1 itemProp="headline" lang={content.titleLang}>
-            <Link itemProp="mainEntityOfPage" to={url}>{content.title}</Link> {content.draft && <Badge variant="warning">Draft</Badge>}
-          </h1>
-        </Col>
-        <Col lg="1" style={{ zIndex: -1 }} />
-      </Row>
+      <div className={`jumbotron jumbotron-fluid ${content.hero && 'hero'}`} style={heroStyle}>
+        <Container>
+          <Row>
+            <Col lg="1" />
+            <Col lg="10">
+              { title }
+            </Col>
+            <Col lg="1" style={{ zIndex: -1 }} />
+          </Row>
+        </Container>
+      </div>
       { /*
             <Row>
                 <Col>
@@ -110,6 +127,7 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
                 </Col>
             </Row>
             */ }
+            <Container>
       <Row>
         <Col lg="1" />
         <Col lg="7">
@@ -129,6 +147,7 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
         </Col>
         <Col lg="1" style={{ zIndex: -1 }} />
       </Row>
+      </Container>
     </article>
   </>);
 }
