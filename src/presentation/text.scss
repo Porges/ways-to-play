@@ -69,8 +69,8 @@ span.proper-noun, span.game-title {
 
 /* We are going to be embedding Japanese and Chinese in Latin text,
   so make them proportional. This has better spacing for kana etc. */
-*[lang=ja], *[lang=zh] {
-  font-feature-settings: "pwid"
+body {
+  font-variant-east-asian: proportional-width;
 }
  
 /* Work titles in non-Latin languages: */
@@ -98,7 +98,7 @@ cite:lang(ja-Latn)::after { content: '' }
   font-family: "NKD04";
 
   /* this font looks disproportionate so scale it down */
-  font-size: 0.8em;
+  font-size: 0.79em;
   vertical-align: text-bottom;
 }
 

@@ -1,21 +1,30 @@
 import * as React from 'react';
 
-import { ArticleContent } from '../../ui';
+import { ArticleContent, SourceInfo } from '../../ui';
 
 import imgBalikSatu from './BalikSatu/shutterstock_1900515673.jpg';
 
 export type GameMeta = Readonly<{
-    players: readonly number[],
+  players: readonly number[],
 } & ArticleContent>
 
 const games = {
   'balik-satu': {
     title: "Balik Satu",
+    draft: true,
     titleLang: "ms",
     players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
     import: React.lazy(() => import('./BalikSatu/BalikSatu')),
-    hero: imgBalikSatu,
-    draft: true,
+    hero: {
+      img: imgBalikSatu,
+      source: {
+        license: "stock-image",
+        organization: { orgName: "Shutterstock.com" },
+        author: "khooiay",
+        identifier: "1900515673",
+        originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
+      } as SourceInfo,
+    },
   },
   'cholek-tiga': {
     title: "Cholek Tiga",
@@ -113,17 +122,17 @@ const games = {
 
 export type GameId = keyof typeof games
 type GamesType = {
-    [key in GameId]: GameMeta
+  [key in GameId]: GameMeta
 }
 export const Games: GamesType = games
 
-const hasKey = <T extends Object>(o : T, key: keyof any): key is keyof T => o.hasOwnProperty(key);
+const hasKey = <T extends Object>(o: T, key: keyof any): key is keyof T => o.hasOwnProperty(key);
 
-export const getGameMeta = (name: keyof any): GameMeta|undefined => {
-    
-    if (hasKey(games, name)) {
-        return games[name];
-    }
+export const getGameMeta = (name: keyof any): GameMeta | undefined => {
 
-    return undefined;
+  if (hasKey(games, name)) {
+    return games[name];
+  }
+
+  return undefined;
 }

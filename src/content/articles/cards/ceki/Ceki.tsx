@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Cards, Cite, Footnote, ArticleImage, Section, Noun, Article } from 'ui';
+import { Cards, Cite, Footnote, ArticleImage, Section, Noun } from 'ui';
 import { Link } from 'react-router-dom';
 import { GameRef } from 'content/games/Game';
 import { LoanWordsIndonesian, GatewayToOldSchoolGames, GamblingGamesOfMalaya, NyonyaMosaic, BabaMalayDictionary, ChikiCards, BalineseChineseCommunity, ChiChiPai, ChineseOfTheStraitsSettlements, TheBabas, TraditionCardGameCeki, MemoryOfTheWorldRegister, RancangBangun, LombokCeki, JavanischeKartenspiele } from 'References/bibliography.json';
@@ -71,7 +71,7 @@ import imgScattered from './3915400394_ce30e3617d_o.jpg';
 
 const Content: React.FC = () =>
   <section>
-    <p>Ceki/Cherki<Footnote>The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <Noun lang="id">Tjeki</Noun> in older Indonesian orthographies, or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>)<Cite r={LoanWordsIndonesian} page={48} />, “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. <Cite r={GamblingGamesOfMalaya} inline /> gives the name as <span lang="nan">織箕</span> (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation.</Footnote> or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They originally derive from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.</p>
+    <p>Ceki/Cherki<Footnote>The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <Noun lang="id">Tjeki</Noun> in older Indonesian orthographies, or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>)<Cite r={LoanWordsIndonesian} page={48} />,{/*TODO: or 7 cards? https://core.ac.uk/download/pdf/48633257.pdf */} “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. <Cite r={GamblingGamesOfMalaya} inline /> gives the name as <span lang="nan">織箕</span> (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation.</Footnote> or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They originally derive from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.</p>
     <ArticleImage
       src={imgScattered}
       alt=""

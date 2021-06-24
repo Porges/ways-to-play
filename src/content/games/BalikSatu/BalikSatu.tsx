@@ -43,9 +43,11 @@ const Content: React.FC = () => <>
     <p><Noun lang="ms">Balik Satu</Noun> can be played by almost any number of people as long as you have enough cards. My two sources give differing amounts of cards per player. (I am inclined to prefer the rightmost column as it starts with the simple example of two decks for two people, even though the book suggests that up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a Ceki deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type.</p>
     <Table className="numeric" variant="sm">
       <thead>
-        <th>Players</th>
-        <th>Decks<Cite r={ChikiCards} /><br />(Cards)</th>
-        <th>Decks<Cite r={TheBabas} page={154} /><br />(Cards)</th>
+        <tr>
+          <th>Players</th>
+          <th>Decks<Cite r={ChikiCards} /><br />(Cards)</th>
+          <th>Decks<Cite r={TheBabas} page={154} /><br />(Cards)</th>
+        </tr>
       </thead>
       <tbody>
         <tr><td>2</td><td>2½ (150)</td><td>2 (120)</td></tr>
@@ -102,21 +104,21 @@ const Content: React.FC = () => <>
     <p>The winner draws an additional card from the deck (hence the name of the game), and this determines the value of their hand. Unmarked cards are worth their rank value (1–9 points), and the red-stamped cards are worth more:</p>
     <div className="multi">
       <ArticleImage
-      size="small"
+        size="small"
         noborder
         alt=""
         src={imgCS9}>
         Red Nine scores 10 points.
       </ArticleImage>
       <ArticleImage
-      size="small"
+        size="small"
         noborder
         alt=""
         src={imgCRF}>
         Nyonya scores 11 points.
       </ArticleImage>
       <ArticleImage
-      size="small"
+        size="small"
         noborder
         alt=""
         src={imgCOT}>
@@ -125,10 +127,10 @@ const Content: React.FC = () => <>
     </div>
     <p>A common rule is that if the drawn card is a rank-1 <span lang="ms">yeo</span> card, then the winning player does not score and the round is played again.</p>
     <p>To the value of the drawn card, the winner adds one point for each unmarked <span lang="ms">mata</span>, and two points for each <span lang="ms">mata</span> of red-stamped cards.</p>
-    <p>Finally, if the player won by completing a <span lang="ms">mata</span> (i.e. they called ‘<span lang="ms">ceki</span>’),<Footnote>If the winner initially called ‘<span lang="ms">ceki</span>’ and later changed their call to ‘<span lang="ms">tan</span>’, it does not count as calling <span lang="ms">ceki</span>. The rules given in <Cite r={ChikiCards} inline/> also award 1 point for winning after calling <span lang="ms">tan</span>, but this seems superfluous as the winner will always win at least 1 point for their <span lang="ms">mata</span>.</Footnote> then:</p>
+    <p>Finally, if the player won by completing a <span lang="ms">mata</span> (i.e. they called ‘<span lang="ms">ceki</span>’),<Footnote>If the winner initially called ‘<span lang="ms">ceki</span>’ and later changed their call to ‘<span lang="ms">tan</span>’, it does not count as calling <span lang="ms">ceki</span>. The rules given in <Cite r={ChikiCards} inline /> also award 1 point for winning after calling <span lang="ms">tan</span>, but this seems superfluous as the winner will always win at least 1 point for their <span lang="ms">mata</span>.</Footnote> then:</p>
     <ul>
-      <li>if someone else drew the winning card from the stock (called <span lang="ms">ayam</span>, ‘chicken’), they earn an additional 1,<Cite r={GatewayToOldSchoolGames} page={71} /> 5,<Cite r={TheBabas} page={162} /> or 10<Cite r={ChikiCards}/> points, or</li>
-      <li>if they self-drew the winning card (called <span lang="ms">kandang</span> ‘cage’), they earn an additional 2,<Cite r={GatewayToOldSchoolGames} page={71} /> 10,<Cite r={TheBabas} page={162} /> or 20<Cite r={ChikiCards}/> points.</li>
+      <li>if someone else drew the winning card from the stock (called <span lang="ms">ayam</span>, ‘chicken’), they earn an additional 1,<Cite r={GatewayToOldSchoolGames} page={71} /> 5,<Cite r={TheBabas} page={162} /> or 10<Cite r={ChikiCards} /> points, or</li>
+      <li>if they self-drew the winning card (called <span lang="ms">kandang</span> ‘cage’), they earn an additional 2,<Cite r={GatewayToOldSchoolGames} page={71} /> 10,<Cite r={TheBabas} page={162} /> or 20<Cite r={ChikiCards} /> points.</li>
     </ul>
     <p>The player is then paid their total score by <em>each</em> player. In Singapore<Cite r={ChikiCards} /> this is done by paying 10¢ per point.<Footnote>This was 5¢ a point in the 1970s<Cite r={TheBabas} page={162} />.</Footnote></p>
     <p>In the case that a player is initially dealt a winning hand (<span lang="ms">kandang tangan</span> ‘cage in hand’), they win instantly and double the normal scoring (no calling bonuses will apply).</p>

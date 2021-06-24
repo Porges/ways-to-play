@@ -36,8 +36,10 @@ $font-weight-light: 200;
 $font-weight-normal: 300;
 
 $line-height-base: 1.4;
-article { letter-spacing: -0.011em; }
-.lead { letter-spacing: -0.017em; }
+
+// Using letter-spacing disables ligatures :/
+//article p { letter-spacing: -0.011em; }
+//.lead { letter-spacing: -0.017em; }
 
 /*
 From: https://rsms.me/inter/dynmetrics/
@@ -70,6 +72,10 @@ $figure-caption-font-size: 1.2 * .625rem;
 
 body {
     font-variant-numeric: oldstyle-nums;
+    // doesn't work in Chrome with letter-spacing!  https://twitter.com/rsms/status/1158133140222689280
+    //  font-variant-ligatures: common-ligatures contextual;
+    // must instead use:
+    //font-feature-settings: "liga", "calt"; /* this should be on by default but not in Chrome! */
 }
 
 i, cite, em {
@@ -175,7 +181,6 @@ h2 {
 main {
     flex: 1;
     overflow-wrap: break-word;
-    padding-bottom: 3em;
 }
 
 // Do full justification on small screens:
@@ -203,7 +208,7 @@ blockquote {
 
 figcaption {
     line-height: 17px;
-    letter-spacing: 0em;
+    //letter-spacing: unset;
     /* TODO: text-wrap: balance; */
 }
 
@@ -287,16 +292,39 @@ figure {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 0;
 }
 
 .jumbotron.hero {
-    color: white;
+    @extend .text-light;
+    position: relative;
+
+    &[style] {
+        padding: 4rem 2rem;
+        @include media-breakpoint-up(sm) {
+            padding: 8rem 4rem;
+        }
+    }
 
     h1 > a {
         padding: 0 .5em;
+        padding-top: .1em;
         border-radius: 5px;
         background-color: rgba(0, 0, 0, 0.8);
     }
+}
+
+.heroSource {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    font-size: .8em;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0 .5em;
+    border-top-left-radius: 5px;
+
+    a { color: $light }
 }
 
 /*** References ***/
@@ -412,7 +440,7 @@ ul {
 /*** Footnotes ***/
 .footnote {
   font-size: 13px;
-  letter-spacing: -0.003em;
+  //letter-spacing: -0.003em;
   line-height: 18px;
 
   padding: .5em 1em;
@@ -461,13 +489,13 @@ aside.footnote::before {
 .footnote-indicator::before {
     counter-increment: footnote;
     content: counter(footnote);
-    font-feature-settings: "sups";
+    font-variant-position: super;
     margin-left: 1px;
 }
 
 span.footnote::before {
     content: counter(footnote) " ";
-    font-feature-settings: "sups";
+    font-variant-position: super;
 }
 
 .footnote-indicator:hover,

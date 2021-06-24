@@ -202,6 +202,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         source={{
           organization: { orgName: "Shutterstock.com" },
           author: "Delpixel",
+          identifier: "235028281",
           originalUrl: "https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281",
           license: "stock-image"
         }}>

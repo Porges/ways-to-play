@@ -12,9 +12,11 @@ import Badge from 'react-bootstrap/Badge';
 
 
 import { SectionContext, Section } from './Section';
+import { SourceInfo, renderSource, imageObject } from './ArticleImage';
 
 type Props = {
   content: ArticleContent,
+  subHeading?: React.ReactNode,
   infoBox?: React.ReactNode,
   url: string,
 }
@@ -24,7 +26,10 @@ export type ArticleContent = Readonly<{
   titleLang?: string,
   draft?: boolean,
   import: React.LazyExoticComponent<React.FC>,
-  hero?: ResponsiveImageOutput,
+  hero?: {
+    img: ResponsiveImageOutput,
+    source: SourceInfo,
+  }
 }>
 
 const ReferenceSummary: React.FC = () => {
@@ -82,20 +87,20 @@ const PronunciationSummary: React.FC = () => {
 
 
 
-export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
+export const Article: React.FC<Props> = ({ url, content, infoBox, subHeading }) => {
 
   const Import = content.import;
 
   const title = (
     <h1 itemProp="headline" lang={content.titleLang}>
-      <Link itemProp="mainEntityOfPage" to={url}>{content.title}</Link> {content.draft && <Badge variant="warning">Draft</Badge>}
+      <Link itemProp="mainEntityOfPage" to={url}>{content.title}</Link>
+      {content.draft && <> <Badge variant="warning">Draft</Badge></>}
     </h1>
   );
 
-  const heroStyle: React.CSSProperties = 
-    {
-      backgroundImage: content.hero && `url('${content.hero.images[content.hero.images.length - 1].path}')`,
-    };
+  const heroImg = !content.hero ? undefined : content.hero.img.images[content.hero.img.images.length - 1].path;
+
+  const heroStyle: React.CSSProperties = { backgroundImage: content.hero && `url('${heroImg}')` };
 
   return (<>
     <Helmet>
@@ -114,12 +119,19 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
           <Row>
             <Col lg="1" />
             <Col lg="10">
-              { title }
+              {title}
             </Col>
             <Col lg="1" style={{ zIndex: -1 }} />
           </Row>
         </Container>
+        {content.hero &&
+          <span className="text-right heroSource" itemProp="image" itemType={imageObject} itemScope>
+            <meta itemProp="url contentUrl" content={heroImg} />
+            {renderSource(content.hero.source, true)}
+          </span>
+        }
       </div>
+      {subHeading}
       { /*
             <Row>
                 <Col>
@@ -127,26 +139,26 @@ export const Article: React.FC<Props> = ({ url, content, infoBox }) => {
                 </Col>
             </Row>
             */ }
-            <Container>
-      <Row>
-        <Col lg="1" />
-        <Col lg="7">
-          <PronunciationProvider>
-            <CitationProvider>
-              <SectionContext.Provider value={2}>
-                <section itemProp="articleBody">
-                  <React.Suspense fallback={<p>Loading content...</p>}>
-                    <Import />
-                  </React.Suspense>
-                </section>
-                <ReferenceSummary />
-                <PronunciationSummary />
-              </SectionContext.Provider>
-            </CitationProvider>
-          </PronunciationProvider>
-        </Col>
-        <Col lg="1" style={{ zIndex: -1 }} />
-      </Row>
+      <Container>
+        <Row>
+          <Col lg="1" />
+          <Col lg="7">
+            <PronunciationProvider>
+              <CitationProvider>
+                <SectionContext.Provider value={2}>
+                  <section itemProp="articleBody">
+                    <React.Suspense fallback={<p>Loading content...</p>}>
+                      <Import />
+                    </React.Suspense>
+                  </section>
+                  <ReferenceSummary />
+                  <PronunciationSummary />
+                </SectionContext.Provider>
+              </CitationProvider>
+            </PronunciationProvider>
+          </Col>
+          <Col lg="1" style={{ zIndex: -1 }} />
+        </Row>
       </Container>
     </article>
   </>);

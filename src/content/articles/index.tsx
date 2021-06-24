@@ -18,7 +18,16 @@ const articles: List = {
   articles: new Map([
     ['mill-games', {
       title: "Mill Games",
-      import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games'))
+      import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games')),
+      hero: {
+        img: require('content/games/NineMensMorris/shutterstock_235028281.jpg'),
+        source: {
+          organization: { orgName: "Shutterstock.com" },
+          author: "Delpixel",
+          originalUrl: "https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281",
+          license: "stock-image"
+        }
+      },
     }],
     ['cards', {
       title: "Playing Cards",
@@ -231,56 +240,58 @@ const Lookup: React.FC<RouteComponentProps<{ id?: string }>> = (props) => {
     </Col>
   </>);
 
+  const subHeading =
+    <Container fluid className="mb-5">
+      <Nearby>
+        <Col>
+          <Container>
+            {breadCrumbs}
+          </Container>
+        </Col>
+      </Nearby>
+    </Container>;
+
+  const preFooter =
+    <Container fluid className="mt-5">
+      <Nearby>
+        <Col>
+          <Container>
+            <Row>
+              {(prevArticle || nextArticle) && prevNext}
+            </Row>
+          </Container>
+        </Col>
+      </Nearby>
+    </Container>;
+
   if ('import' in found) {
     return (<>
-      <Container>
-        <Nearby>
-          <Col>
-            <Row>{breadCrumbs}</Row>
-          </Col>
-        </Nearby>
-      </Container>
-      <Article key={match.url} url={match.url} content={found} />
-      <Container>
-        <Nearby>
-          {(prevArticle || nextArticle) && prevNext}
-        </Nearby>
-      </Container>
+      <Article key={match.url} url={match.url} content={found} subHeading={subHeading} />
+      {preFooter}
     </>);
   }
   else {
     const listArticle = found.article;
     return (<>
+      {listArticle ? <Article key={match.url + "$"} url={match.url} content={listArticle} subHeading={subHeading} /> : subHeading}
       <Container>
-        <Nearby>
-          <Col>
-            <Row>{breadCrumbs}</Row>
-          </Col>
-        </Nearby>
-      </Container>
-      {listArticle && <Article key={match.url + "$"} url={match.url} content={listArticle} />}
-      <Container>
-      <Row>
-        <Col lg={1} />
-        <Col lg={10}>
-          {listArticle && <hr />}
-          <p className="articlesInThisSection text-center">Articles in this Section</p>
-          <p>
+        <Row>
+          <Col lg={1} />
+          <Col lg={10}>
+            {listArticle && <hr />}
+            <p className="articlesInThisSection text-center">Articles in this Section</p>
             <ArticleList key={match.url} route={props} list={found} />
-          </p>
-        </Col>
-        <Col lg={1} />
-      </Row>
-        <Nearby>
-          {(prevArticle || nextArticle) && prevNext}
-        </Nearby>
+          </Col>
+          <Col lg={1} />
+        </Row>
       </Container>
+      {preFooter}
     </>);
   }
 }
 
 const Nearby: React.FC = ({ children }) => (
-  <Row className="border-bottom border-top border-light m-4" as="nav" aria-label="Nearby Articles">
+  <Row className="border-bottom border-top border-light" as="nav" aria-label="Nearby Articles">
     {children}
   </Row>
 );

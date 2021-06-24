@@ -46,9 +46,9 @@ type Props = {
 
 type SizePosition = { size: "wide", position?: "aside" } | { size?: "small", position?: "left" | "right" | "aside" } | {size: "extra-wide", position?: "aside"}
 
-const renderSource = (source: SourceInfo) => {
+export const renderSource = (source: SourceInfo, short = false) => {
 
-  let copyrightHolder: JSX.Element | null = null
+  let copyrightHolder: JSX.Element | null = null;
 
   if (source.organization) {
     if (source.author) {
@@ -62,12 +62,12 @@ const renderSource = (source: SourceInfo) => {
     copyrightHolder = <Person itemProp="copyrightHolder" name={source.author} />;
   }
 
-  return <>({source.license === 'cc0' ? '' : '© '}{source.copyrightYear && <><span itemProp="copyrightYear">{source.copyrightYear}</span> </>}
+  return <>{source.license === 'cc0' ? '' : '© '}{source.copyrightYear && <><span itemProp="copyrightYear">{source.copyrightYear}</span> </>}
     {copyrightHolder && (
       (source.originalUrl && <a href={source.originalUrl} itemProp="sameAs">{copyrightHolder}</a>)
       || copyrightHolder)}
     {source.license !== 'stock-image' && <L.License leading={!!copyrightHolder} license={source.license} version={source.licenseVersion} />}
-    {source.identifier && <>: {source.identifier}</>})</>;
+    {!short && source.identifier && <>: {source.identifier}</>}</>;
 }
 
 const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, noborder?: boolean, mainImage?: boolean) => {
@@ -106,7 +106,7 @@ const renderImage = (src: ResponsiveImageSrc, alt: string, sizes: string, nobord
       </a></>);
 }
 
-const imageObject = "http://schema.org/ImageObject";
+export const imageObject = "http://schema.org/ImageObject";
 
 const renderSourcedImage = (src: ResponsiveImageSrc, ix: number, sourceId: string, alt: string, sizes: string, noborder?: boolean) => {
   const maxImage = typeof src == 'string' ? undefined : src.images[src.images.length-1];
@@ -159,7 +159,7 @@ export const ArticleImage: React.FC<Props> = props => {
   // if no source was provided, source is me
   const sourceInfo =
     props.source
-      ? renderSource(props.source)
+      ? <>({renderSource(props.source)})</>
       : <>
         <meta itemProp="copyrightHolder" itemScope itemType="http://schema.org/Person" itemRef="author" />
         <meta itemProp="license" content="https://creativecommons.org/licenses/by-nc-sa/4.0/" />
