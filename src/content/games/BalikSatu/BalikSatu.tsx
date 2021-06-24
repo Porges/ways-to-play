@@ -37,8 +37,8 @@ import imgCM8 from 'content/articles/cards/ceki/CM8.jpg';
 import imgCM9 from 'content/articles/cards/ceki/CM9.jpg';
 
 const Content: React.FC = () => <>
-  <p><Noun lang="ms">Balik Satu</Noun> (‘turn one’) is a Peranakan game played with <Link to="/articles/cards/ceki/">Ceki cards</Link>.<Cite r={ChikiCards} page={122} /> The game play is similar to Mahjong, with the goal being to form five sets of three cards.</p>
-  <p>Most of the description below is drawn from <Cite r={ChikiCards} inline />, with additions from <Cite r={TheBabas} page={155} inline />.</p>
+  <Description><Noun lang="ms">Balik Satu</Noun> (‘turn one’) is a Peranakan game played with <a href="/articles/cards/ceki/">Ceki cards</a>. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</Description>
+  <p>Most of the description below is drawn from <Cite r={ChikiCards} inline page={122} />, with additions from <Cite r={TheBabas} page={155} inline />.</p>
   <Section title="Equipment">
     <p><Noun lang="ms">Balik Satu</Noun> can be played by almost any number of people as long as you have enough cards. My two sources give differing amounts of cards per player. (I am inclined to prefer the rightmost column as it starts with the simple example of two decks for two people, even though the book suggests that up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a Ceki deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type.</p>
     <Table className="numeric" variant="sm">

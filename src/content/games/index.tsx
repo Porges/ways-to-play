@@ -66,7 +66,7 @@ const GameArticle: React.FC<RouteComponentProps<{ id: string }>> = ({ match, his
     return null;
   }
 
-  return <Article url={match.url} content={game} infoBox={renderInfoBox(game)} />;
+  return <Article url={match.url} content={game} infoBox={renderInfoBox(game)} subHeading={<div className="mb-5"/>} />;
 }
 
 const renderInfoBox = (game: Meta.GameMeta) => {

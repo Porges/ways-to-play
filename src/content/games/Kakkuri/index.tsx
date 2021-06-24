@@ -17,7 +17,7 @@ import imgWilds from './wilds.jpg';
 
 const Kakkuri: React.FC = () => {
     return (<>
-  <p><Pronounce pronouncer="strawberrybrown" word= "Kakkuri" lang= "ja-Latn" file={pronKakkuri} /> (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.<Cite r={KakkuriYomi} /> It is still played in the town of <Noun lang="ja-Latn">Yafune</Noun> (<span lang="ja">矢船町</span>), in the city of <Noun lang="ja-Latn">Echizen</Noun> (<span lang="ja">越前市</span>) in <Noun lang="ja-Latn">Fukui</Noun> prefecture (<span lang="ja">福井県</span>).</p>
+  <p><Pronounce pronouncer="strawberrybrown" word= "Kakkuri" lang= "ja-Latn" file={pronKakkuri} /> (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.<Cite r={KakkuriYomi} /> It is still played in the town of <Noun lang="ja-Latn">Yafune</Noun>, part of the city of <Noun lang="ja-Latn">Echizen</Noun>, <Noun lang="ja-Latn">Fukui</Noun> prefecture (<span lang="ja">福井県越前市矢船町</span>).</p>
   <Section title="Equipment">
     <p><Noun lang="ja-Latn">Kakkuri</Noun> is played with <Pronounce lang="ja-Latn" word="komatsufuda" file={pronKomatsufuda} pronouncer="poyotan" /> (<span lang="ja">小松札</span>), a deck of 48 cards which run from 1–12 in four suits. Alternatively, it can be played with <Noun lang="ja-Latn">Hanafuda</Noun> cards if you are very familiar with the deck ordering, or you can play with a standard deck of cards by removing all <Cards>10</Cards>s.</p>
     <ArticleImage

@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async';
 export const Description: React.FC = ({ children }) => {
   const desc = Server.renderToStaticMarkup(<>{children}</>)
     .replaceAll(tagStripper, "")
+    .replaceAll(bracketStripper, "")
     .replaceAll(parenStripper, "");
 
   return (
@@ -18,4 +19,5 @@ export const Description: React.FC = ({ children }) => {
 }
 
 const parenStripper = / \([^)]*?\)/g;
+const bracketStripper = /\[[^\]]*?\]/g;
 const tagStripper = /<[^>]*?>/g;
