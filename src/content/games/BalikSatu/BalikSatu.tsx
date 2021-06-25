@@ -35,12 +35,13 @@ import imgCM6 from 'content/articles/cards/ceki/CM6.jpg';
 import imgCM7 from 'content/articles/cards/ceki/CM7.jpg';
 import imgCM8 from 'content/articles/cards/ceki/CM8.jpg';
 import imgCM9 from 'content/articles/cards/ceki/CM9.jpg';
+import { GameRef } from '../Game';
 
 const Content: React.FC = () => <>
-  <Description><Noun lang="ms">Balik Satu</Noun> (‘turn one’) is a Peranakan game played with <a href="/articles/cards/ceki/">Ceki cards</a>. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</Description>
+  <Description><Noun lang="ms">Balik Satu</Noun> (‘turn one’) is a Peranakan game played with <a href="/articles/cards/ceki/">Cherki cards</a>. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</Description>
   <p>Most of the description below is drawn from <Cite r={ChikiCards} inline page={122} />, with additions from <Cite r={TheBabas} page={155} inline />.</p>
   <Section title="Equipment">
-    <p><Noun lang="ms">Balik Satu</Noun> can be played by almost any number of people as long as you have enough cards. My two sources give differing amounts of cards per player. (I am inclined to prefer the rightmost column as it starts with the simple example of two decks for two people, even though the book suggests that up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a Ceki deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type.</p>
+    <p><Noun lang="ms">Balik Satu</Noun> can be played by almost any number of people as long as you have enough cards. My two sources give differing amounts of cards per player. (I am inclined to prefer the rightmost column as it starts with the simple example of two decks for two people, even though the book suggests that up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a <Noun lang="ms">Cherki</Noun> deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type.</p>
     <Table className="numeric" variant="sm">
       <thead>
         <tr>
@@ -137,6 +138,9 @@ const Content: React.FC = () => <>
   </Section>
   <Section title="Variations">
     <p><Noun lang="ms">Balik Lima Belas</Noun> (‘draw fifteen’) is a version of <Noun lang="ms">Balik Satu</Noun> where the winner draws fifteen cards from the stock instead of one. They must use these cards to try to improve their sets into <span lang="ms">mata</span> by swapping cards of equivalent rank. Scoring is calculated as one point for winning plus one point for each <span lang="ms">mata</span> (so, always at least two points). In this form the red-stamped cards do not score extra, but the calling bonuses for <span lang="ms">ayam</span> and <span lang="ms">kandang</span> still apply.</p>
+  </Section>
+  <Section title="See Also">
+    <p><GameRef id='cholek-tiga' /> is another <Noun lang="ms">Cherki</Noun> game.</p>
   </Section>
 </>;
 

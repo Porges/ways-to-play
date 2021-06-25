@@ -11,7 +11,6 @@ export type GameMeta = Readonly<{
 const games = {
   'balik-satu': {
     title: "Balik Satu",
-    draft: true,
     titleLang: "ms",
     players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
     import: React.lazy(() => import('./BalikSatu/BalikSatu')),
@@ -31,7 +30,16 @@ const games = {
     titleLang: "ms",
     players: [2, 3],
     import: React.lazy(() => import(/* webpackChunkName: 'cholek-tiga' */ './CholekTiga/CholekTiga')),
-    draft: true,
+    hero: {
+      img: imgBalikSatu,
+      source: {
+        license: "stock-image",
+        organization: { orgName: "Shutterstock.com" },
+        author: "khooiay",
+        identifier: "1900515673",
+        originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
+      } as SourceInfo,
+    },
   },
   'daldos': {
     title: "Daldøs",
@@ -115,6 +123,7 @@ const games = {
   'xianqi': {
     title: "Xiangqi",
     titleLang: "zh-Latn",
+    draft: true,
     players: [2],
     import: React.lazy(() => import(/* webpackChunkName: 'xiangqi' */ './Xiangqi/Xiangqi'))
   }

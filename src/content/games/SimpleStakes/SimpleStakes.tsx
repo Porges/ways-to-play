@@ -12,6 +12,7 @@ const Content: React.FC = () => <>
   <p>In this page I collect all simple staking games. These are games entirely of luck where players place bets (stakes) on a random outcome such as a dice roll.</p>
   <Section title="Crown & Anchor">
     <p>Crown & Anchor games involve simple bets on the outcome of rolling three six-sided dice, which usually have a collection of symbols on them instead of pips. Players place their stakes on a layout containing six symbols, and win if any of the dice show their chosen symbol, paying out 1× for each die that shows the symbol.</p>
+    <p>Crown & Anchor itself seems to date from the late 19th or early 20th century. It was especially popular amongst British soldiers during World War I.</p>
     <p>In Chinese communities the game is called <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>,<Cite r={GamblingGamesOfMalaya} page={109} /> usually romanized as “Hoo Hey How”. In India it is Jhandi Munda (झंडी मुंडा) or Khora Khore (खोर खोरे), while in Nepal it is <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>). Lago Lago in Bhutan?</p>
     <p>Symbols used are:</p>
     <dl>
