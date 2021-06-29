@@ -2,7 +2,6 @@ import * as React from 'react';
 
 import { GameRef } from 'content/games/Game';
 import { ArticleImage, Cite, Section, Noun, Footnote } from 'ui';
-import { TheRuleOfTheTemplars, LaRegleDuTemple, MundartLexikon, UltraStrongMorris, MerylsBoardEnigma, GamesGreekAndRoman, TheVikingShipFromGokstad, RamatHanadiv, RomanGameBoards, AncientEgyptiansAtPlay, AncientCeylon, Murray, MetropoliticalVisitation, KlassischeSpiele, OxfordBG, AlfonsoGames, SolvingLaskerMorris, Hyde, GommeI, NotesAndQueriesS8V12, Figmill, PubGamesOfEngland, MacedonianFolklore, GuptaD, Zaslavsky, SportsAndGamesOfSinghalese, Murray2 } from 'References/bibliography.json';
 
 import imgWall from './P1130411a.jpg';
 import imgLargeMerels from 'content/articles/mill-games/large_merels.svg';
@@ -28,7 +27,7 @@ import imgTemplarRule from "./templar-rule.jpg";
 
 const TakeItAway: React.FC = () => <>
   <p><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Roman times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</p>
-  <p>In addition to being a game, the board was used as some kind of talisman or symbol; <Cite r={MerylsBoardEnigma} inline page={330} /> collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.</p>
+  <p>In addition to being a game, the board was used as some kind of talisman or symbol; <Cite r="MerylsBoardEnigma" inline page={330} /> collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.</p>
   {/*
 Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @Bell, p. 93; @Murray2,
 §3.5.4, p. 43; @Goddard1901; @NotesAndQueriesS8V12, pp. 28, 89–90, 173, 333;
@@ -53,8 +52,8 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       src={imgAgora}>
       A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
     </ArticleImage>
-    <p>The game dates from at least the late Roman Empire or Byzantine period, and at the moment we do not have evidence for an earlier date.<Cite r={GamesGreekAndRoman} page={3} /><Footnote><Cite r={RamatHanadiv} page={227} inline /> describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 400–600&nbsp;CE, while a cache of gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun> that was abandoned in the late 4th century contained no mills boards.<Cite r={RomanGameBoards} /></Footnote> Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum<Cite r={AncientEgyptiansAtPlay} page={144} /> and the Mortuary Temple of Seti I at Qurna,<Cite r={AncientCeylon} page={644} /> but these are not able to be dated definitively—the monument only provides an <em>earliest possible</em> date.</p>
-    <p>The game spread throughout Europe quickly: a double-sided game board with a Nine Men’s Morris layout on one side was found as part of the 9th-century <a href="https://en.wikipedia.org/wiki/Gokstad_ship">Gokstad Viking ship burial</a> discovered in Norway.<Cite r={TheVikingShipFromGokstad} page={[44, 99]} /></p>
+    <p>The game dates from at least the late Roman Empire or Byzantine period, and at the moment we do not have evidence for an earlier date.<Cite r="GamesGreekAndRoman" page={3} /><Footnote><Cite r="RamatHanadiv" page={227} inline /> describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 400–600&nbsp;CE, while a cache of gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun> that was abandoned in the late 4th century contained no mills boards.<Cite r="RomanGameBoards" /></Footnote> Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum<Cite r="AncientEgyptiansAtPlay" page={144} /> and the Mortuary Temple of Seti I at Qurna,<Cite r="AncientCeylon" page={644} /> but these are not able to be dated definitively—the monument only provides an <em>earliest possible</em> date.</p>
+    <p>The game spread throughout Europe quickly: a double-sided game board with a Nine Men’s Morris layout on one side was found as part of the 9th-century <a href="https://en.wikipedia.org/wiki/Gokstad_ship">Gokstad Viking ship burial</a> discovered in Norway.<Cite r="TheVikingShipFromGokstad" page={[44, 99]} /></p>
     <ArticleImage
       position="aside"
       alt="A section of a manuscript written in calligraphy"
@@ -66,10 +65,10 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}>
       Text of the French Templar rule from an early 14th-century manuscript (with quoted passage highlighted).
     </ArticleImage>
-    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order (probably written between 1139 and 1147&nbsp;CE<Cite r={TheRuleOfTheTemplars} page={12}/>), as the only board game allowed to be played by Templar brothers:</p>
+    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order (probably written between 1139 and 1147&nbsp;CE<Cite r="TheRuleOfTheTemplars" page={12}/>), as the only board game allowed to be played by Templar brothers:</p>
     <div className="multi">
-      <p lang="fr">Et sachies que a nul autre jeu frere dou Temple ne doit joer, fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as eschaçons.<Cite r={LaRegleDuTemple} page={185} /></p>
-      <p>And let it be known that a brother of the Temple should play no other game except <span lang="fr">marelles</span>, which each may play if he wishes, for pleasure without placing wagers. No brother should play chess, backgammon, or <span lang="fr">eschaçons</span> [an unknown game].<Cite r={TheRuleOfTheTemplars} page={90} /></p>
+      <p lang="fr">Et sachies que a nul autre jeu frere dou Temple ne doit joer, fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as eschaçons.<Cite r="LaRegleDuTemple" page={185} /></p>
+      <p>And let it be known that a brother of the Temple should play no other game except <span lang="fr">marelles</span>, which each may play if he wishes, for pleasure without placing wagers. No brother should play chess, backgammon, or <span lang="fr">eschaçons</span> [an unknown game].<Cite r="TheRuleOfTheTemplars" page={90} /></p>
     </div>
     <p>It is unclear <em>why</em> mill games were permitted by the Templars<Footnote>TODO: it has been suggested (?) that the tripartite board was taken as supportive of the trinity, or remniscent of the First Temple of Jerusalem.</Footnote>, but, reading the rest of the passage (not quoted above), the intent of the Rule seems to be to prevent playing games for money — bets were allowed to be placed on games, but only with worthless items such as wooden tent pegs. Viewed in this light, perhaps mill games were considered less susceptible to gambling, and therefore permissible.</p>
     <ArticleImage
@@ -86,7 +85,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}>
       The first problem in one of the <cite>Bonus Socius</cite> manuscripts written in Picardy (MS Latin 10286).
     </ArticleImage>
-    <p>In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite> (<cite>Book of Games</cite>). In the same century the <cite lang="la">Bonus Socius</cite> series of manuscripts contained problems for the game, alongside other problems for chess and various table games.<Cite r={Murray} page={619} /></p>
+    <p>In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite> (<cite>Book of Games</cite>). In the same century the <cite lang="la">Bonus Socius</cite> series of manuscripts contained problems for the game, alongside other problems for chess and various table games.<Cite r="Murray" page={619} /></p>
     <ArticleImage
       src={imgCerne}
       alt="Page from a manuscript with a Nine Men’s Morris board on it."
@@ -98,7 +97,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     >
       A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board.
     </ArticleImage>
-    <p>In England the game has always had an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from Bitteswell in 1634 records that a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r={MetropoliticalVisitation} page={497} /></p>
+    <p>In England the game has always had an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from Bitteswell in 1634 records that a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r="MetropoliticalVisitation" page={497} /></p>
     <ArticleImage
       src={imgPeasant}
       alt="A peasant boy holding a Nine Men’s Morris board."
@@ -121,35 +120,35 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     <p>Other English names for the game include:</p>
     <ul className="columnar">
       <li>Morris</li>
-      <li>Bushels<Cite r={Hyde} page={204} /></li>
-      <li>Marlin<Cite r={Hyde} page={204} /></li>
-      <li>Nine Mens Morals<Cite r={Hyde} page={204} /></li>
-      <li>Nine Pin/Penny Miracle<Cite r={Hyde} page={204} /></li>
-      <li>Nine Pin/Penny Moris<Cite r={Hyde} page={204} /></li>
-      <li>Nine Pin Merells<Cite r={Hyde} page={204} /></li>
-      <li>Merrils<Cite r={GommeI} page={414} /> or Merrills<Cite r={NotesAndQueriesS8V12} page={173} /></li>
-      <li>Merelles<Cite r={GommeI} page={415} /><Cite r={NotesAndQueriesS8V12} page={90} /> or Merell(s)<Cite r={GommeI} page={416} /></li>
-      <li>(Nine) Peg Morris (by John Clare, a rustic English poet)<Cite r={GommeI} page={416} /></li>
-      <li>Marrel(’s)<Cite r={GommeI} page={416} /> or Marrells<Cite r={NotesAndQueriesS8V12} page={173} /></li>
-      <li>Ninepenny Morris (in Gloucestershire – but played with 12 men)<Cite r={GommeI} page={416} /></li>
-      <li>Merrilpeg<Cite r={GommeI} page={416} /></li>
-      <li>Nine Men’s Morrice (in Hampshire or Holderness)<Cite r={GommeI} page={419} /></li>
-      <li>Merls (in Cleveland, England)<Cite r={GommeI} page={419} /></li>
-      <li>Marnull<Cite r={NotesAndQueriesS8V12} page={28} /></li>
-      <li>Nine Men o’ Morris<Cite r={NotesAndQueriesS8V12} page={89} /></li>
-      <li>Nine Stone Morris<Cite r={NotesAndQueriesS8V12} page={89} /></li>
-      <li>Madell or Medal<Cite r={NotesAndQueriesS8V12} page={333} /></li>
-      <li>Puzzle-Pound<Cite r={NotesAndQueriesS8V12} page={333} /></li>
-      <li>Figmill (in Clarence, New York, USA)<Cite r={Figmill} /> (This name derives from an American manufacturer of equipment, but originally might derive from <a href="/articles/mill-games#terminology">the Swiss term <span lang="gsw">«Figgi und Müli»</span></a>.)</li>
-      <li>Nine Men’s Welcome<Cite r={PubGamesOfEngland} page={103} /></li>
+      <li>Bushels<Cite r="Hyde" page={204} /></li>
+      <li>Marlin<Cite r="Hyde" page={204} /></li>
+      <li>Nine Mens Morals<Cite r="Hyde" page={204} /></li>
+      <li>Nine Pin/Penny Miracle<Cite r="Hyde" page={204} /></li>
+      <li>Nine Pin/Penny Moris<Cite r="Hyde" page={204} /></li>
+      <li>Nine Pin Merells<Cite r="Hyde" page={204} /></li>
+      <li>Merrils<Cite r="GommeI" page={414} /> or Merrills<Cite r="NotesAndQueriesS8V12" page={173} /></li>
+      <li>Merelles<Cite r="GommeI" page={415} /><Cite r="NotesAndQueriesS8V12" page={90} /> or Merell(s)<Cite r="GommeI" page={416} /></li>
+      <li>(Nine) Peg Morris (by John Clare, a rustic English poet)<Cite r="GommeI" page={416} /></li>
+      <li>Marrel(’s)<Cite r="GommeI" page={416} /> or Marrells<Cite r="NotesAndQueriesS8V12" page={173} /></li>
+      <li>Ninepenny Morris (in Gloucestershire – but played with 12 men)<Cite r="GommeI" page={416} /></li>
+      <li>Merrilpeg<Cite r="GommeI" page={416} /></li>
+      <li>Nine Men’s Morrice (in Hampshire or Holderness)<Cite r="GommeI" page={419} /></li>
+      <li>Merls (in Cleveland, England)<Cite r="GommeI" page={419} /></li>
+      <li>Marnull<Cite r="NotesAndQueriesS8V12" page={28} /></li>
+      <li>Nine Men o’ Morris<Cite r="NotesAndQueriesS8V12" page={89} /></li>
+      <li>Nine Stone Morris<Cite r="NotesAndQueriesS8V12" page={89} /></li>
+      <li>Madell or Medal<Cite r="NotesAndQueriesS8V12" page={333} /></li>
+      <li>Puzzle-Pound<Cite r="NotesAndQueriesS8V12" page={333} /></li>
+      <li>Figmill (in Clarence, New York, USA)<Cite r="Figmill" /> (This name derives from an American manufacturer of equipment, but originally might derive from <a href="/articles/mill-games#terminology">the Swiss term <span lang="gsw">«Figgi und Müli»</span></a>.)</li>
+      <li>Nine Men’s Welcome<Cite r="PubGamesOfEngland" page={103} /></li>
     </ul>
     <p>In other languages it is called:</p>
     <ul>
-      <li>Bengali: <span lang="bn">নয় গুটি</span> (<span lang="bn-Latn">naẏa guṭi</span>) ‘nine pieces’<Cite r={GuptaD} page={145} /></li>
+      <li>Bengali: <span lang="bn">নয় গুটি</span> (<span lang="bn-Latn">naẏa guṭi</span>) ‘nine pieces’<Cite r="GuptaD" page={145} /></li>
       <li>French: <span lang="fr">le jeu du moulin</span> ‘the mill game’</li>
-      <li>Greek: <span lang="grc">τὸ τριόδι</span> ‘trio’<Cite r={MacedonianFolklore} page={295} />, or <span lang="grc">τριώδιον</span> ‘triodium’.<Cite r={Hyde} page={205} /></li>
+      <li>Greek: <span lang="grc">τὸ τριόδι</span> ‘trio’<Cite r="MacedonianFolklore" page={295} />, or <span lang="grc">τριώδιον</span> ‘triodium’.<Cite r="Hyde" page={205} /></li>
       <li>German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. Germany runs a ‘world’ league, the “<Noun lang="de"><a href="http://www.muehlespiel.eu/">Weltmühlespiel Dachverband</a></Noun>”.</li>
-      <li>Swiss: <span lang="gsw">Nüünischtei</span>.<Cite r={MundartLexikon} /></li>
+      <li>Swiss: <span lang="gsw">Nüünischtei</span>.<Cite r="MundartLexikon" /></li>
     </ul>
     <ArticleImage
       alt="A Morris board in a brick wall, made out of black and red bricks"
@@ -161,11 +160,11 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         license: "with-permission",
         originalUrl: "https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html"
       }}>
-      A <span lang="fr">jeu du moulin</span> in the south-west wall of the <Noun lang="fr">Château du Moulin</Noun> (<Noun lang="fr">Loir-et-Cher</Noun>, France). Built between 1480–1501, this is a punny reference to the name of the original owner, <Noun lang="fr">Philippe du Moulin</Noun>. There is another Three Men’s Morris board on the eastern wall, and the nearby <Noun lang="fr">Château de Gien</Noun> has a similar motif.<Cite r={MerylsBoardEnigma} page={103} />
+      A <span lang="fr">jeu du moulin</span> in the south-west wall of the <Noun lang="fr">Château du Moulin</Noun> (<Noun lang="fr">Loir-et-Cher</Noun>, France). Built between 1480–1501, this is a punny reference to the name of the original owner, <Noun lang="fr">Philippe du Moulin</Noun>. There is another Three Men’s Morris board on the eastern wall, and the nearby <Noun lang="fr">Château de Gien</Noun> has a similar motif.<Cite r="MerylsBoardEnigma" page={103} />
     </ArticleImage>
   </Section>
   <Section title="Theory">
-    <p>With perfect play, the game is a draw.<Cite r={UltraStrongMorris} /></p>
+    <p>With perfect play, the game is a draw.<Cite r="UltraStrongMorris" /></p>
   </Section>
   <Section title="Variants">
     <Section title="Alternate boards">
@@ -176,14 +175,14 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
           [imgPentagon1, "A board constructed from three nested pentagons with corners and side-middles connected."],
           [imgPentagon2, "A board constructed from five nested pentagons in alternating orientations."],
         ]}>
-        Alternate boards of German origin:<Cite r={KlassischeSpiele} page={58} /> a ‘sun-mill’ (played with 12 pieces each), and two boards constructed from nested pentagons. The first pentagonal board is played with 11 pieces each, the second is designed to be played by two or more players: for two players use 12 pieces; for three, 8; for four, 6; and for five, 5.
+        Alternate boards of German origin:<Cite r="KlassischeSpiele" page={58} /> a ‘sun-mill’ (played with 12 pieces each), and two boards constructed from nested pentagons. The first pentagonal board is played with 11 pieces each, the second is designed to be played by two or more players: for two players use 12 pieces; for three, 8; for four, 6; and for five, 5.
     </ArticleImage>
       <ArticleImage
         src={[
           [imgCube2, ""],
           [imgCube1, ""],
         ]}>
-        Two variations of a ‘cube’ board by David Parlett.<Cite r={OxfordBG} page={122} /> On the coloured board, a mill may not cross between differently-coloured regions, and the middle point may only be taken to complete a mill or prevent completion of a mill on the next turn.
+        Two variations of a ‘cube’ board by David Parlett.<Cite r="OxfordBG" page={122} /> On the coloured board, a mill may not cross between differently-coloured regions, and the middle point may only be taken to complete a mill or prevent completion of a mill on the next turn.
     </ArticleImage>
       <ArticleImage
         src={[
@@ -195,7 +194,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     </ArticleImage>
     </Section>
     <Section title="Twelve Men’s Morris">
-      <p>This is played with twelve pieces per player, on a board that has diagonals.<Cite r={Zaslavsky} page={7}/><Cite r={Murray2} page={48}/></p>
+      <p>This is played with twelve pieces per player, on a board that has diagonals.<Cite r="Zaslavsky" page={7}/><Cite r="Murray2" page={48}/></p>
       <ArticleImage
         alt="An old man’s hand reaches towards a worn morris board to move a piece."
         src={imgTwelveMensMorris}
@@ -211,8 +210,8 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       <Section title="Nomenclature">
         <p>In other countries or languages it is known as:</p>
         <ul>
-          <li>Bengali: <span lang="bn">বারো গুটি পাইত পাইত</span> (<span lang="bn-Latn">bārō-guṭi pāit pāit</span>)<Cite r={GuptaD} page={145}/></li>
-          <li>Sri Lanka (Sinhala): <span lang="si">නෙරෙංචි</span> (<span lang="si-Latn">Nereṁci</span><Footnote>Also transcribed as <span lang="si-Latn">Nerenchi</span> or <span lang="si-Latn">Niranchy</span>.</Footnote>), seemingly named after a plant that has very thorny seeds<Cite r={Zaslavsky} page={16}/><Cite r={SportsAndGamesOfSinghalese} page={34}/><Cite r={AncientCeylon} page={577}/></li>
+          <li>Bengali: <span lang="bn">বারো গুটি পাইত পাইত</span> (<span lang="bn-Latn">bārō-guṭi pāit pāit</span>)<Cite r="GuptaD" page={145}/></li>
+          <li>Sri Lanka (Sinhala): <span lang="si">නෙරෙංචි</span> (<span lang="si-Latn">Nereṁci</span><Footnote>Also transcribed as <span lang="si-Latn">Nerenchi</span> or <span lang="si-Latn">Niranchy</span>.</Footnote>), seemingly named after a plant that has very thorny seeds<Cite r="Zaslavsky" page={16}/><Cite r="SportsAndGamesOfSinghalese" page={34}/><Cite r="AncientCeylon" page={577}/></li>
         </ul>
       </Section>
     </Section>
@@ -222,13 +221,13 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         src={imgWithDice}>
         A game being played with dice, from Alfonso X’s <cite>Book of Games</cite>.
       </ArticleImage>
-      <p>Alfonso X’s book of games describes a variant played with dice.<Cite r={AlfonsoGames} /> While it is unclear from the manuscript what the exact rules are, there are two suggested versions:</p>
+      <p>Alfonso X’s book of games describes a variant played with dice.<Cite r="AlfonsoGames" /> While it is unclear from the manuscript what the exact rules are, there are two suggested versions:</p>
       <p>TODO</p>
     </Section>
     <Section title="Lasker Morris">
       <p>This variant was developed by <Noun lang="de">Emanuel Lasker</Noun>, who was World Chess Champion from 1894 to 1921. It unifies the two phases of the game into one.</p>
       <p>Play is as in the standard game, except that each player has 10 pieces instead of 9, and on a player’s turn they may <em>either</em> place a new piece or move a piece that is already on the board.</p>
-      <p>With perfect play the game is a draw.<Cite r={SolvingLaskerMorris} /><Cite r={UltraStrongMorris} /></p>
+      <p>With perfect play the game is a draw.<Cite r="SolvingLaskerMorris" /><Cite r="UltraStrongMorris" /></p>
     </Section>
   </Section>
   <Section title="Commercial Variants">

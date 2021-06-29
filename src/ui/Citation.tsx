@@ -1,6 +1,10 @@
 import * as React from 'react';
 import { Reference } from 'References';
 
+import Refs from 'References/bibliography.json';
+
+export type CiteKey = keyof typeof Refs;
+
 export const CitationContext = React.createContext<{ references: Reference[], addReference: (ref: Reference) => number}>({ references: [], addReference: () => 0});
 export const CitationProvider: React.FC = ({children}) => {
 
@@ -14,7 +18,7 @@ export const CitationProvider: React.FC = ({children}) => {
       setReferences(s => {
         // need to re-check so it doesn't get added twice - 
         // this can be called "in parallel"
-        if (s.find(x => x === ref)) return s;
+        if (s.find(x => x.id === ref.id)) return s;
         return [ ...s,  ref];
       });
     }
@@ -30,7 +34,7 @@ export const CitationProvider: React.FC = ({children}) => {
 }
 
 type CiteProps = {
-  r: Reference,
+  r: CiteKey,
   page?: number | (number | [number, number])[],
   pageType?: string,
   inline?: boolean,
@@ -80,7 +84,9 @@ export const Cite: React.FC<CiteProps> = ({pageType, page, inline, r}) => {
 
   const [index, setIndex] = React.useState(-1);
 
-  React.useEffect(() => setIndex(addReference(r)), [r, addReference]);
+  const reference: Reference = React.useMemo(() => ({ ...Refs[r], id: r }), [r]);
+
+  React.useEffect(() => setIndex(addReference(reference)), [reference, addReference]);
 
   const suffix =
     page === undefined
@@ -93,15 +99,15 @@ export const Cite: React.FC<CiteProps> = ({pageType, page, inline, r}) => {
 
   const pageTypeS = pageType ? pageType + ' ' : '';
   if (inline) {
-    switch (r.type) {
+    switch (reference.type) {
       case 'book':
-        return <><a href={`#ref-${r.id}`}><cite lang={r["title-lang"]} dangerouslySetInnerHTML={{__html:r.title}} /></a>{suffix && <> ({pageTypeS}{suffix})</>}</>;
+        return <><a href={`#ref-${reference.id}`}><cite lang={reference["title-lang"]} dangerouslySetInnerHTML={{__html:reference.title}} /></a>{suffix && <> ({pageTypeS}{suffix})</>}</>;
       case 'article-journal':
-        return <><a href={`#ref-${r.id}`}>{r.author && r.author[0].family}</a> ({r.issued && r.issued.year}{suffix && <>, {pageTypeS}{suffix}</>})</>;
+        return <><a href={`#ref-${reference.id}`}>{reference.author && reference.author[0].family}</a> ({reference.issued && reference.issued.year}{suffix && <>, {pageTypeS}{suffix}</>})</>;
       default:
-        return <span className="citation">[<a href={`#ref-${r.id}`}>{indicator}</a>]{suffix && <> ({pageTypeS}{suffix})</>}</span>
+        return <span className="citation">[<a href={`#ref-${reference.id}`}>{indicator}</a>]{suffix && <> ({pageTypeS}{suffix})</>}</span>
     }
   } else {
-    return <sup className="citation"><a href={`#ref-${r.id}`}>{indicator}</a>{suffix && <>[{pageTypeS}{suffix}]</>}</sup>;
+    return <sup className="citation"><a href={`#ref-${reference.id}`}>{indicator}</a>{suffix && <>[{pageTypeS}{suffix}]</>}</sup>;
   }
 };

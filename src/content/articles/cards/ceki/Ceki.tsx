@@ -3,7 +3,6 @@ import * as React from 'react';
 import { Cards, Cite, Footnote, ArticleImage, Section, Noun } from 'ui';
 import { Link } from 'react-router-dom';
 import { GameRef } from 'content/games/Game';
-import { LoanWordsIndonesian, GatewayToOldSchoolGames, GamblingGamesOfMalaya, NyonyaMosaic, BabaMalayDictionary, ChikiCards, BalineseChineseCommunity, ChiChiPai, ChineseOfTheStraitsSettlements, TheBabas, TraditionCardGameCeki, MemoryOfTheWorldRegister, RancangBangun, LombokCeki, JavanischeKartenspiele } from 'References/bibliography.json';
 import { Table } from 'react-bootstrap';
 
 import imgCOT from './COT.jpg';
@@ -71,7 +70,7 @@ import imgScattered from './3915400394_ce30e3617d_o.jpg';
 
 const Content: React.FC = () =>
   <section>
-    <p>Ceki/Cherki<Footnote>The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <Noun lang="id">Tjeki</Noun> in older Indonesian orthographies, or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>)<Cite r={LoanWordsIndonesian} page={48} />,{/*TODO: or 7 cards? https://core.ac.uk/download/pdf/48633257.pdf */} “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. <Cite r={GamblingGamesOfMalaya} inline /> gives the name as <span lang="nan">織箕</span> (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation.</Footnote> or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They originally derive from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.</p>
+    <p>Ceki/Cherki<Footnote>The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <Noun lang="id">Tjeki</Noun> in older Indonesian orthographies, or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>)<Cite r="LoanWordsIndonesian" page={48} />,{/*TODO: or 7 cards? https://core.ac.uk/download/pdf/48633257.pdf */} “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. <Cite r="GamblingGamesOfMalaya" inline /> gives the name as <span lang="nan">織箕</span> (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation.</Footnote> or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They originally derive from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.</p>
     <ArticleImage
       src={imgScattered}
       alt=""
@@ -84,7 +83,7 @@ const Content: React.FC = () =>
       }}>
       Scattered Cherki cards (of Malaysian variety).
     </ArticleImage>
-    <p>Ceki games are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.<Cite r={BalineseChineseCommunity} page={555} /></p>
+    <p>Ceki games are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.<Cite r="BalineseChineseCommunity" page={555} /></p>
     <Section title="Malaysia & Singapore">
       <p>The use of Cherki cards in Malaysia & Singapore was introduced by <a href="https://en.wikipedia.org/wiki/Peranakans">Peranakan</a> (Baba–Nyonya) communities. Much of the terminology and card naming derives from Hokkien, and the cards used are closer to their ancestral forms than those used in Indonesia (<a href="#the-cards">see below</a>).</p>
       <ArticleImage
@@ -99,8 +98,8 @@ const Content: React.FC = () =>
         }}>
         An exhibition game using Cherki cards being played in Penang, Malaysia.
       </ArticleImage>
-      <p>In Malaysia & Singapore the game was almost exclusively played by women, and has now nearly died out. <Cite inline r={TheBabas} /> reported that by the 1980s it was only possible to get cards in Melaka.</p>
-      {/*<p>Records of palace expenditure of the Sultan Abdul Hamid Halim of Kedah (1864–1943) from 1896–99 indicate that he enjoyed gambling with Ceki.<Cite r={MemoryOfTheWorldRegister} page={58} /></p>*/}
+      <p>In Malaysia & Singapore the game was almost exclusively played by women, and has now nearly died out. <Cite inline r="TheBabas" /> reported that by the 1980s it was only possible to get cards in Melaka.</p>
+      {/*<p>Records of palace expenditure of the Sultan Abdul Hamid Halim of Kedah (1864–1943) from 1896–99 indicate that he enjoyed gambling with Ceki.<Cite r="MemoryOfTheWorldRegister" page={58} /></p>*/}
     </Section>
     <Section title="Indonesia">
       <p>During the colonial era, cards were manufactured in Europe by Dutch companies and exported to Indonesia.</p>
@@ -110,7 +109,7 @@ const Content: React.FC = () =>
     </Section>
     <Section title="The Cards">
       <p>The cards run <Cards>1–9</Cards> in three suits, and there are three ‘honour cards’, giving 30 different cards. Each deck, or <span lang="ms">kepala</span> (literally ‘head’), contains two copies of each card, giving 60 total. However, most Ceki games require multiple <span lang="ms">kepala</span> to play, often two sets (120 cards).</p>
-      <p>The three suits are called:<Cite r={ChikiCards} page={119} /></p>
+      <p>The three suits are called:<Cite r="ChikiCards" page={119} /></p>
       <dl>
         <dt>Myriads (Numbers)</dt>
         <dd><span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’)</dd>
@@ -119,12 +118,12 @@ const Content: React.FC = () =>
         <dt>Coins</dt>
         <dd><span lang="ms">hitam</span> (‘black’), <span lang="ms">batik</span>, <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’)</dd>
       </dl>
-      <p>For each card in the table below I show first (i.e. at left) a card from a 19th-century deck collected in <Cite inline r={ChineseOfTheStraitsSettlements} />, and then a modern card from a deck purchased in Bali  in 2019. The Malaysian & Singaporean decks are closer in style to the older deck.</p>
+      <p>For each card in the table below I show first (i.e. at left) a card from a 19th-century deck collected in <Cite inline r="ChineseOfTheStraitsSettlements" />, and then a modern card from a deck purchased in Bali  in 2019. The Malaysian & Singaporean decks are closer in style to the older deck.</p>
       <p>Each card in the deck has its own nickname, based on its appearance.</p>
-      <p>In the table, Malaysian or Singaporean names are presented in the first row. They are a combination of the rank (derived from Hokkien number names) and either the suit name or some nickname based on the middle portion of the card,<Cite r={ChikiCards} page={121} /> which is slightly bigger there than in the Indonesian version.</p>
+      <p>In the table, Malaysian or Singaporean names are presented in the first row. They are a combination of the rank (derived from Hokkien number names) and either the suit name or some nickname based on the middle portion of the card,<Cite r="ChikiCards" page={121} /> which is slightly bigger there than in the Indonesian version.</p>
       <p>The second row of names records the names used by Minangkabau people in Indonesia. Instead of numeric ranks, they are based on the appearance of the indices in the corners of the cards.</p>
-      <p>The third row of names are those used in Java, as recorded in the early 20th century,<Cite r={JavanischeKartenspiele} /> and as such might be very outdated.</p>
-      <p>The fourth row of names records names reportedly used in Bali<Cite r={RancangBangun} page={[[45, 47]]} /> or Lombok,<Cite r={LombokCeki} /> where almost every card has a specific name. This section of the table is much more imprecise than the previous lines.</p>
+      <p>The third row of names are those used in Java, as recorded in the early 20th century,<Cite r="JavanischeKartenspiele" /> and as such might be very outdated.</p>
+      <p>The fourth row of names records names reportedly used in Bali<Cite r="RancangBangun" page={[[45, 47]]} /> or Lombok,<Cite r="LombokCeki" /> where almost every card has a specific name. This section of the table is much more imprecise than the previous lines.</p>
       <Table className="text-center" variant="sm">
         <thead>
           <tr>
@@ -449,25 +448,25 @@ const Content: React.FC = () =>
       </Table>
     </Section>
     <Footnote standalone>
-      The book <Cite r={GatewayToOldSchoolGames} inline /> uses the spellings: burung = burong, batik = bateh, yu = yeo, hue sio = huay sio, putih = puteh, ji = jee, sa = sarh, si = see, go = gor, lak = lark.
+      The book <Cite r="GatewayToOldSchoolGames" inline /> uses the spellings: burung = burong, batik = bateh, yu = yeo, hue sio = huay sio, putih = puteh, ji = jee, sa = sarh, si = see, go = gor, lak = lark.
     </Footnote>
     <Section title="Games">
-      <p>There are several games played with Ceki cards. For most of them, I do not know of any rules recorded online:<Cite r={NyonyaMosaic} page={124} /></p>
+      <p>There are several games played with Ceki cards. For most of them, I do not know of any rules recorded online:<Cite r="NyonyaMosaic" page={124} /></p>
       <ul>
-        <li><GameRef id="cholek-tiga" /> (‘draw three’), a game for two or three players<Cite r={BabaMalayDictionary} page={214} /><Cite r={ChikiCards} page={125} /></li>
-        <li>Pak Tui, a solitaire game<Cite r={BabaMalayDictionary} page={215} /></li>
-        <li><GameRef id="balik-satu" /> (‘turn one’), a game with no fixed number of players<Cite r={BabaMalayDictionary} page={214} /><Cite r={ChikiCards} page={122} /></li>
-        <li><Link to="/games/balik-satu/#variations">Balik Lima Belas</Link><Cite r={ChikiCards} page={127} />/Balek Lima Belair<Cite r={BabaMalayDictionary} page={124} />/Bukak Lima Blas Leh<Cite r={TheBabas} page={167} /> (‘turn fifteen’), an alternate method of scoring Balik Satu</li>
-        <li>Choke/Chote (Ramay), a game for more than for players<Cite r={BabaMalayDictionary} /></li>
-        <li>Choke/Chote Kiong, a four-player game<Cite r={BabaMalayDictionary} page={214} /></li>
+        <li><GameRef id="cholek-tiga" /> (‘draw three’), a game for two or three players<Cite r="BabaMalayDictionary" page={214} /><Cite r="ChikiCards" page={125} /></li>
+        <li>Pak Tui, a solitaire game<Cite r="BabaMalayDictionary" page={215} /></li>
+        <li><GameRef id="balik-satu" /> (‘turn one’), a game with no fixed number of players<Cite r="BabaMalayDictionary" page={214} /><Cite r="ChikiCards" page={122} /></li>
+        <li><Link to="/games/balik-satu/#variations">Balik Lima Belas</Link><Cite r="ChikiCards" page={127} />/Balek Lima Belair<Cite r="BabaMalayDictionary" page={124} />/Bukak Lima Blas Leh<Cite r="TheBabas" page={167} /> (‘turn fifteen’), an alternate method of scoring Balik Satu</li>
+        <li>Choke/Chote (Ramay), a game for more than for players<Cite r="BabaMalayDictionary" /></li>
+        <li>Choke/Chote Kiong, a four-player game<Cite r="BabaMalayDictionary" page={214} /></li>
       </ul>
     </Section>
     <Section title="Manufacturers & Brands">
       <p>(Extinct) European manufacturers include:</p>
       <ul>
         <li><Noun lang="fr">Camoin</Noun>, a French company that was based in Marseille</li>
-        <li><Noun lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</Noun>, a Dutch company<Cite r={TraditionCardGameCeki} /></li>
-        <li><a href="https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack"><Noun lang="fr">Mesmaekers Frères</Noun></a>, a Belgian company based in Turnhour whose cards were imported to Java by Brandon Mesritz & Co.<Cite r={ChiChiPai} /></li>
+        <li><Noun lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</Noun>, a Dutch company<Cite r="TraditionCardGameCeki" /></li>
+        <li><a href="https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack"><Noun lang="fr">Mesmaekers Frères</Noun></a>, a Belgian company based in Turnhour whose cards were imported to Java by Brandon Mesritz & Co.<Cite r="ChiChiPai" /></li>
       </ul>
       {/*<p>榮興記</p>*/}
       <p>Indonesian brands include:</p>

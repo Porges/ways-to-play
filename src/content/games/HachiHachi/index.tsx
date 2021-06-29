@@ -2,8 +2,6 @@ import * as React from 'react';
 
 import { Noun, Footnote } from 'ui';
 
-import { } from 'References/bibliography.json';
-
 const HachiHachi: React.FC = () => {
     return (<>
     <p><Noun lang="ja-Latn">Hachi-Hachi</Noun> (<span lang="ja">八八</span>, ‘88’) is the preëminent <a href="/articles/cards/japan/hanafuda/"><Noun lang="ja-Latn">Hanafuda</Noun></a> gambling game. In many old English sources it is considered synonymous with ‘<Noun lang="ja-Latn">hanafuda</Noun>’ or ‘<Noun lang="ja-Latn">hana-awase</Noun>’ and isn’t given a more specific name.</p>

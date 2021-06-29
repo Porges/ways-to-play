@@ -3,7 +3,6 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 
 import { Cite, Noun, Cards, Footnote, ArticleImage, Section, Description } from 'ui';
-import { ChikiCards } from 'References/bibliography.json';
 import { GameRef } from '../Game';
 
 import imgCS9 from 'content/articles/cards/ceki/CS9.jpg';
@@ -12,7 +11,7 @@ import imgCOT from 'content/articles/cards/ceki/COT.jpg';
 
 const Content: React.FC = () => <>
   <Description><Noun lang="ms">Cholek Tiga</Noun> (‘draw three’) is a Peranakan fishing game for two or three players, played with <a href="/articles/cards/ceki/">Cherki cards</a>.</Description>
-  <p>The description below is based on <Cite r={ChikiCards} inline page={[[125, 127]]} /></p>
+  <p>The description below is based on <Cite r="ChikiCards" inline page={[[125, 127]]} /></p>
   <Section title="Equipment">
     <p><Noun lang="ms">Cholek Tiga</Noun> is played with two decks of <Noun lang="ms">Cherki</Noun> cards (120 cards total). There will be four copies of each card in the game.</p>
   </Section>

@@ -26,6 +26,7 @@ const Bibliography: React.FC = () => {
         <ul className="reference-list list-unstyled col-8 offset-2">
           {Object.entries(references)
             .concat()
+            .map(([id, r]) => [id, {...r, id}] as const)
             .sort(([_1, r1], [_2, r2]) => comparer.compare(sortKey(r1), sortKey(r2)))
             .map(([id, r]) => <li key={id}>{renderReference(r)}</li>)}
         </ul>

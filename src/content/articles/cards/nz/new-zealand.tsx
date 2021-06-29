@@ -1,7 +1,5 @@
 import * as React from 'react';
 
-import { CroxleyHistory, AstuteBusinessman, CroxleyClosing, DRGCompany, TaxStampNZ } from 'References/bibliography.json';
-
 import { ArticleImage, Cards, Cite, Description, Footnote, Noun, Section } from 'ui';
 
 import imgCroxleyA1 from './Croxley-A-1.jpg';
@@ -91,7 +89,7 @@ const NZ: React.FC = () =>
       An advertisement for A. D. Willis’s playing cards.
     </ArticleImage>
     <Section title="Tax Stamps">
-      <p>Playing cards imported into New Zealand were taxed from 1860, and stamped from 1880 until the tax ended in 1930.<Cite r={TaxStampNZ} /> All examples I have seen have been stamped on the <Cards>2d</Cards>.</p>
+      <p>Playing cards imported into New Zealand were taxed from 1860, and stamped from 1880 until the tax ended in 1930.<Cite r="TaxStampNZ" /> All examples I have seen have been stamped on the <Cards>2d</Cards>.</p>
       <div className="multi">
         <ArticleImage
           src={imgTax1}
@@ -112,12 +110,12 @@ const NZ: React.FC = () =>
     <Section title="Manufacturers">
       <Section title="John Dickinson/Croxley">
         <Footnote standalone>The original John Dickinson/Croxley factory (known as “Croxley house”) still stands in Wellington and was turned into <a href="https://custance.co.nz/project/croxley-mills-apartments">an apartment building</a> in the early 2000s.</Footnote>
-        <p>John Dickinson was a stationery company based in the United Kingdom that opened a New Zealand branch (“John Dickinson & Co.”) in 1920.<Cite r={CroxleyHistory} />  “Croxley” was their public brand of stationery products in New Zealand (the UK company originated in <a href="https://en.wikipedia.org/wiki/Croxley_Green">Croxley Green</a>), under which they also published playing cards. As far as I know, the UK company never manufactured cards.</p>
+        <p>John Dickinson was a stationery company based in the United Kingdom that opened a New Zealand branch (“John Dickinson & Co.”) in 1920.<Cite r="CroxleyHistory" />  “Croxley” was their public brand of stationery products in New Zealand (the UK company originated in <a href="https://en.wikipedia.org/wiki/Croxley_Green">Croxley Green</a>), under which they also published playing cards. As far as I know, the UK company never manufactured cards.</p>
         <ArticleImage noborder alt="" src={imgCroxleyJoker} position="left">
           The Joker card (with the non-pictorial decks) remains unchanged throughout the years, aside from reproduction infelicities.
       </ArticleImage>
-        <p>In 1966 the UK company merged with E. S. & A. Robinson to form “Dickinson–Robinson Group”; the New Zealand firm was renamed to “The Dickinson Robinson Group” for a few months from 19 Dec 1968 – 26 Mar 1969, and then “DRG (New Zealand) Limited” until they were liquidated in 1994.<Cite r={DRGCompany} /></p>
-        <p>Croxley remained around as its own company, but closed its last manufacturing plant in 2005.<Cite r={CroxleyClosing} /> The brand itself still exists, being owned by OfficeMax. However, it may soon disappear forever as OfficeMax closed all of its New Zealand stores in late 2020,<Footnote>A victim of Covid-19.</Footnote> and is now online-only. Current Croxley cards appear to be made in China and only retain the Ace as a nod to the Dickinson line.</p>
+        <p>In 1966 the UK company merged with E. S. & A. Robinson to form “Dickinson–Robinson Group”; the New Zealand firm was renamed to “The Dickinson Robinson Group” for a few months from 19 Dec 1968 – 26 Mar 1969, and then “DRG (New Zealand) Limited” until they were liquidated in 1994.<Cite r="DRGCompany" /></p>
+        <p>Croxley remained around as its own company, but closed its last manufacturing plant in 2005.<Cite r="CroxleyClosing" /> The brand itself still exists, being owned by OfficeMax. However, it may soon disappear forever as OfficeMax closed all of its New Zealand stores in late 2020,<Footnote>A victim of Covid-19.</Footnote> and is now online-only. Current Croxley cards appear to be made in China and only retain the Ace as a nod to the Dickinson line.</p>
         <p>The aces have changed over the years to match the name of the company; the later aces are often poor copies of the earlier ones, where detail has been lost.</p>
         <div className="multi wide">
           <ArticleImage noborder alt="" src={imgCroxleyA1}>
@@ -221,7 +219,7 @@ const NZ: React.FC = () =>
           }}>
           Archibald Dudingston Willis, circa 1902.
       </ArticleImage>
-        <p>Archibald Dudingston Willis was a very early manufacturer of playing cards in New Zealand, who operated in Wanganui from the 1880s. In 1951 the company was sold to Weeks Ltd, which kept A. D. Willis as a subsidiary, and the business was sold in turn to United Empire Box (UEB) around 1964.<Cite r={AstuteBusinessman} /> In the late 1980s the design was taken over by Kiwi Packaging (part of Amcor). This line of designs now appears to be out-of-print, as Amcor no longer manufacture playing cards.</p>
+        <p>Archibald Dudingston Willis was a very early manufacturer of playing cards in New Zealand, who operated in Wanganui from the 1880s. In 1951 the company was sold to Weeks Ltd, which kept A. D. Willis as a subsidiary, and the business was sold in turn to United Empire Box (UEB) around 1964.<Cite r="AstuteBusinessman" /> In the late 1980s the design was taken over by Kiwi Packaging (part of Amcor). This line of designs now appears to be out-of-print, as Amcor no longer manufacture playing cards.</p>
         <ArticleImage
           src={[
             [imgWillisAce, ""],

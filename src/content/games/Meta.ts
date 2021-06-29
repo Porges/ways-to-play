@@ -48,8 +48,8 @@ const games = {
     import: React.lazy(() => import('./Daldos/Daldos')),
     draft: true,
   },
-  'simple-stakes': {
-    title: "Simple staking games",
+  'dice-staking': {
+    title: "Dice staking games",
     players: [],
     import: React.lazy(() => import('./SimpleStakes/SimpleStakes')),
     draft: true,

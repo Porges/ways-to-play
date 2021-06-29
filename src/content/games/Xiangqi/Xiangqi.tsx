@@ -2,7 +2,6 @@ import * as React from 'react';
 import { GameRef } from '../Game';
 
 import { ArticleImage, Cite, Description, Noun, Section } from 'ui';
-import { Gamut } from 'References/bibliography.json';
 
 const Content: React.FC = () => <>
   <Description>

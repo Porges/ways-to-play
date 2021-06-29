@@ -15,8 +15,7 @@
             "day": 3
         },
         "publisher": "Oxford University Press",
-        "publisher-place": "Oxford, England, UK",
-        "id": "OxfordBG"
+        "publisher-place": "Oxford, England, UK"
     },
     "Gamut": {
         "type": "book",
@@ -38,8 +37,7 @@
         "original-publisher": "Castle Books",
         "original-date": {
             "year": 1969
-        },
-        "id": "Gamut"
+        }
     },
     "NewRules": {
         "type": "book",
@@ -55,8 +53,7 @@
         },
         "ISBN": "978-0471-53621-0",
         "publisher": "John Wiley & Sons",
-        "publisher-place": "USA",
-        "id": "NewRules"
+        "publisher-place": "USA"
     },
     "Falkener": {
         "type": "book",
@@ -75,8 +72,7 @@
         "original-publisher": "Longmans, Green and Company",
         "original-date": {
             "year": 1892
-        },
-        "id": "Falkener"
+        }
     },
     "Sloper": {
         "type": "book",
@@ -92,8 +88,7 @@
         },
         "ISBN": "978-0-06-123394-4",
         "publisher": "HarperCollins Publishers",
-        "publisher-place": "New York, NY, USA",
-        "id": "Sloper"
+        "publisher-place": "New York, NY, USA"
     },
     "Pritchard": {
         "type": "book",
@@ -111,8 +106,7 @@
         "publisher": "John Beasley",
         "publisher-place": "Harpenden, Hertfordshire, England, UK",
         "edition": 2,
-        "original-title": "The Encyclopedia of Chess Variants",
-        "id": "Pritchard"
+        "original-title": "The Encyclopedia of Chess Variants"
     },
     "Shogi": {
         "type": "book",
@@ -127,8 +121,7 @@
             "year": 1979
         },
         "publisher": "The Shogi Association",
-        "publisher-place": "Bromley, Kent, England, UK",
-        "id": "Shogi"
+        "publisher-place": "Bromley, Kent, England, UK"
     },
     "MiddleShogi": {
         "type": "book",
@@ -143,8 +136,7 @@
             "year": 1975
         },
         "publisher": "The Shogi Association",
-        "publisher-place": "Bromley, Kent, England, UK",
-        "id": "MiddleShogi"
+        "publisher-place": "Bromley, Kent, England, UK"
     },
     "GreatShogi": {
         "type": "book",
@@ -159,8 +151,7 @@
             "year": 1978
         },
         "publisher": "The Shogi Association",
-        "publisher-place": "Bromley, Kent, England, UK",
-        "id": "GreatShogi"
+        "publisher-place": "Bromley, Kent, England, UK"
     },
     "Hanafuda": {
         "type": "book",
@@ -175,8 +166,7 @@
         "original-date": {
             "year": 1970,
             "month": 4
-        },
-        "id": "Hanafuda"
+        }
     },
     "OnSiameseLiterature": {
         "type": "article-journal",
@@ -192,8 +182,7 @@
         },
         "container-title": "Asiatic Researches",
         "volume": 20,
-        "page": "374–392",
-        "id": "OnSiameseLiterature"
+        "page": "374–392"
     },
     "NineMensDice": {
         "type": "article-journal",
@@ -210,8 +199,7 @@
         "container-title": "Board Games Studies",
         "volume": 3,
         "page": "112-116",
-        "URL": "http://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf",
-        "id": "NineMensDice"
+        "URL": "http://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf"
     },
     "FalkenerReview": {
         "type": "article-journal",
@@ -228,8 +216,7 @@
         "container-title": "The Classical Review",
         "volume": 6,
         "issue": 10,
-        "page": "458-460",
-        "id": "FalkenerReview"
+        "page": "458-460"
     },
     "Ascher87": {
         "type": "article-journal",
@@ -248,8 +235,7 @@
         "volume": 60,
         "issue": 2,
         "page": "90-100",
-        "URL": "http://www.jstor.org/stable/2690304",
-        "id": "Ascher87"
+        "URL": "http://www.jstor.org/stable/2690304"
     },
     "Best17": {
         "type": "article-journal",
@@ -267,8 +253,7 @@
         "container-title": "Man",
         "volume": 17,
         "page": "14-15",
-        "URL": "http://www.jstor.org/stable/2788164",
-        "id": "Best17"
+        "URL": "http://www.jstor.org/stable/2788164"
     },
     "Straffin95": {
         "type": "article-journal",
@@ -288,8 +273,7 @@
         "volume": 68,
         "issue": 5,
         "page": "382-386",
-        "URL": "http://www.jstor.org/stable/2690929",
-        "id": "Straffin95"
+        "URL": "http://www.jstor.org/stable/2690929"
     },
     "Straffin95-2": {
         "type": "article-journal",
@@ -309,8 +293,7 @@
         "volume": 69,
         "issue": 1,
         "page": 65,
-        "URL": "http://www.jstor.org/stable/2691405",
-        "id": "Straffin95-2"
+        "URL": "http://www.jstor.org/stable/2691405"
     },
     "Ernst95": {
         "type": "article-journal",
@@ -328,8 +311,7 @@
         "volume": 16,
         "issue": 2,
         "page": "95-121",
-        "URL": "https://homes.cs.washington.edu/~mernst/pubs/konane-tr9524-abstract.html",
-        "id": "Ernst95"
+        "URL": "https://homes.cs.washington.edu/~mernst/pubs/konane-tr9524-abstract.html"
     },
     "Newell59": {
         "type": "article-journal",
@@ -347,8 +329,7 @@
         "container-title": "Man",
         "volume": 59,
         "page": "29-30",
-        "URL": "http://www.jstor.org/stable/2796540",
-        "id": "Newell59"
+        "URL": "http://www.jstor.org/stable/2796540"
     },
     "Zaslavsky": {
         "type": "book",
@@ -364,8 +345,7 @@
         },
         "ISBN": "1-55652-287-8",
         "publisher": "Chicago Review Press",
-        "publisher-place": "Chicago, IL, USA",
-        "id": "Zaslavsky"
+        "publisher-place": "Chicago, IL, USA"
     },
     "VoyageToPacific": {
         "type": "book",
@@ -382,8 +362,7 @@
         },
         "publisher": "W. and A. Strahan",
         "publisher-place": "London, England, UK",
-        "URL": "https://archive.org/details/voyagetopacifico03cook",
-        "id": "VoyageToPacific"
+        "URL": "https://archive.org/details/voyagetopacifico03cook"
     },
     "Hackler86": {
         "type": "article-journal",
@@ -404,8 +383,7 @@
         "issued": {
             "year": 1986
         },
-        "URL": "http://hdl.handle.net/10524/548",
-        "id": "Hackler86"
+        "URL": "http://hdl.handle.net/10524/548"
     },
     "Jackson92": {
         "type": "article-journal",
@@ -422,8 +400,7 @@
         "issued": {
             "year": 1992
         },
-        "URL": "http://hdl.handle.net/10524/200",
-        "id": "Jackson92"
+        "URL": "http://hdl.handle.net/10524/200"
     },
     "AVoyageRoundTheWorld": {
         "type": "book",
@@ -439,8 +416,7 @@
         },
         "publisher": "Van Winkle, Wiley & Co.",
         "publisher-place": "New York, NY, USA",
-        "URL": "https://archive.org/details/avoyageroundwor00campgoog",
-        "id": "AVoyageRoundTheWorld"
+        "URL": "https://archive.org/details/avoyageroundwor00campgoog"
     },
     "Emory24": {
         "type": "book",
@@ -459,8 +435,7 @@
         },
         "publisher": "Bernice P. Bishop Museum",
         "publisher-place": "Honolulu, Hawaiʻi",
-        "URL": "https://hdl.handle.net/2027/miun.arf6076.0001.001",
-        "id": "Emory24"
+        "URL": "https://hdl.handle.net/2027/miun.arf6076.0001.001"
     },
     "Brigham08": {
         "type": "book",
@@ -479,8 +454,7 @@
         },
         "publisher": "Bishop Museum Press",
         "publisher-place": "Honolulu, Hawaiʻi",
-        "URL": "https://archive.org/details/ancienthawaiian01briggoog",
-        "id": "Brigham08"
+        "URL": "https://archive.org/details/ancienthawaiian01briggoog"
     },
     "Ellis17": {
         "type": "book",
@@ -499,8 +473,7 @@
         },
         "publisher": "Hawaiian Gazette Company",
         "publisher-place": "Honolulu, Hawaiʻi",
-        "URL": "https://archive.org/details/journalofwilliam000434mbp",
-        "id": "Ellis17"
+        "URL": "https://archive.org/details/journalofwilliam000434mbp"
     },
     "Adler57": {
         "type": "book",
@@ -514,8 +487,7 @@
         "issued": {
             "year": 1957
         },
-        "publisher": "New American Library",
-        "id": "Adler57"
+        "publisher": "New American Library"
     },
     "Bell": {
         "type": "book",
@@ -534,8 +506,7 @@
         "original-date": {
             "year": 1960
         },
-        "ISBN": "978-0-486-23855-5",
-        "id": "Bell"
+        "ISBN": "978-0-486-23855-5"
     },
     "Murray": {
         "type": "book",
@@ -554,8 +525,7 @@
         },
         "publisher": "Skyhorse Publishing",
         "publisher-place": "New York, NY, USA",
-        "ISBN": "978-1-62087-062-4",
-        "id": "Murray"
+        "ISBN": "978-1-62087-062-4"
     },
     "Murray2": {
         "type": "book",
@@ -571,8 +541,7 @@
         },
         "publisher": "Oxford University Press",
         "publisher-place": "Oxford, England, UK",
-        "ISBN": "0-19-827401-7",
-        "id": "Murray2"
+        "ISBN": "0-19-827401-7"
     },
     "SomaliGames": {
         "type": "article-journal",
@@ -589,8 +558,7 @@
         "container-title": "The Journal of the Royal Anthropological Institute of Great Britain and Ireland",
         "volume": 61,
         "page": "499-511",
-        "URL": "http://www.jstor.org/stable/2843934",
-        "id": "SomaliGames"
+        "URL": "http://www.jstor.org/stable/2843934"
     },
     "KniziaDice": {
         "type": "book",
@@ -605,8 +573,7 @@
         "publisher": "Blue Terrier Press",
         "issued": {
             "year": 2010
-        },
-        "id": "KniziaDice"
+        }
     },
     "BritishSomaliland": {
         "type": "book",
@@ -622,8 +589,7 @@
         "issued": {
             "year": 1912
         },
-        "URL": "https://archive.org/details/in.ernet.dli.2015.81470",
-        "id": "BritishSomaliland"
+        "URL": "https://archive.org/details/in.ernet.dli.2015.81470"
     },
     "IntroductionToShax": {
         "type": "article",
@@ -637,8 +603,7 @@
         "issued": {
             "year": 1988
         },
-        "URL": "https://mogadishuimages.files.wordpress.com/2016/05/an-introduction-to-shax-a-somali-game2.pdf",
-        "id": "IntroductionToShax"
+        "URL": "https://mogadishuimages.files.wordpress.com/2016/05/an-introduction-to-shax-a-somali-game2.pdf"
     },
     "KoreanGames": {
         "type": "book",
@@ -654,8 +619,7 @@
         },
         "publisher": "University of Pennsylvania",
         "publisher-place": "Philadelphia, PA, USA",
-        "URL": "https://archive.org/details/koreangameswith01culigoog",
-        "id": "KoreanGames"
+        "URL": "https://archive.org/details/koreangameswith01culigoog"
     },
     "CulinHawaiian": {
         "type": "article-journal",
@@ -674,8 +638,7 @@
             "year": 1899,
             "month": 4
         },
-        "URL": "http://www.jstor.org/stable/658394",
-        "id": "CulinHawaiian"
+        "URL": "http://www.jstor.org/stable/658394"
     },
     "CulinPhilippine": {
         "type": "article-journal",
@@ -694,8 +657,7 @@
             "year": 1900,
             "month": 10
         },
-        "URL": "http://www.jstor.org/stable/659313",
-        "id": "CulinPhilippine"
+        "URL": "http://www.jstor.org/stable/659313"
     },
     "TsuniGoam": {
         "type": "book",
@@ -711,8 +673,7 @@
         },
         "publisher": "Trübner & Co",
         "publisher-place": "Ludgate Hill, London, England, UK",
-        "URL": "https://archive.org/details/tsunillgoamsupre00hahnuoft",
-        "id": "TsuniGoam"
+        "URL": "https://archive.org/details/tsunillgoamsupre00hahnuoft"
     },
     "GuptaCalcutta": {
         "type": "article-journal",
@@ -729,8 +690,7 @@
         "URL": "https://archive.org/stream/in.ernet.dli.2015.94751/2015.94751.The-Calcutta-Review--Vol-6january-march1923#page/n531/mode/2up",
         "issued": {
             "year": 1923
-        },
-        "id": "GuptaCalcutta"
+        }
     },
     "GuptaB": {
         "type": "article-journal",
@@ -747,8 +707,7 @@
         "issued": {
             "year": 1923
         },
-        "URL": "https://archive.org/stream/mobot31753002183942#page/n215/mode/2up",
-        "id": "GuptaB"
+        "URL": "https://archive.org/stream/mobot31753002183942#page/n215/mode/2up"
     },
     "GuptaC": {
         "type": "article-journal",
@@ -768,8 +727,7 @@
         "issued": {
             "year": 1924
         },
-        "URL": "https://archive.org/stream/in.ernet.dli.2015.281621/2015.281621.Journal-Of#page/n385/mode/2up",
-        "id": "GuptaC"
+        "URL": "https://archive.org/stream/in.ernet.dli.2015.281621/2015.281621.Journal-Of#page/n385/mode/2up"
     },
     "GuptaD": {
         "type": "article-journal",
@@ -789,8 +747,7 @@
         "issued": {
             "year": 1926
         },
-        "URL": "https://archive.org/stream/in.ernet.dli.2015.7749/2015.7749.Journal-Of-The-Asiatic-Society-Of-Bengal-Vol-xxii-1926#page/n161/mode/2up",
-        "id": "GuptaD"
+        "URL": "https://archive.org/stream/in.ernet.dli.2015.7749/2015.7749.Journal-Of-The-Asiatic-Society-Of-Bengal-Vol-xxii-1926#page/n161/mode/2up"
     },
     "Datta": {
         "type": "article-journal",
@@ -807,8 +764,7 @@
         "issued": {
             "year": 1933
         },
-        "URL": "https://archive.org/stream/in.ernet.dli.2015.55416/2015.55416.Journal-Of-The-Asiatic-Society-Of-Bengalnew-Seriesvol29-1933#page/n203/mode/2up",
-        "id": "Datta"
+        "URL": "https://archive.org/stream/in.ernet.dli.2015.55416/2015.55416.Journal-Of-The-Asiatic-Society-Of-Bengalnew-Seriesvol29-1933#page/n203/mode/2up"
     },
     "Humphries": {
         "type": "article-journal",
@@ -825,8 +781,7 @@
         "issued": {
             "year": 1906
         },
-        "URL": "https://archive.org/stream/mobot31753003193114#page/116/mode/2up",
-        "id": "Humphries"
+        "URL": "https://archive.org/stream/mobot31753003193114#page/116/mode/2up"
     },
     "Goddard1901": {
         "type": "article-journal",
@@ -846,8 +801,7 @@
         "issued": {
             "year": 1901
         },
-        "URL": "http://www.vsnrweb-publications.org.uk/Saga-Book%201-22%20searchable/Saga-Book%20II.pdf",
-        "id": "Goddard1901"
+        "URL": "http://www.vsnrweb-publications.org.uk/Saga-Book%201-22%20searchable/Saga-Book%20II.pdf"
     },
     "EssaysOnChess": {
         "type": "book",
@@ -861,8 +815,7 @@
         "issued": {
             "year": 1814
         },
-        "publisher-place": "Bombay (Mumbai), India",
-        "id": "EssaysOnChess"
+        "publisher-place": "Bombay (Mumbai), India"
     },
     "CardGamesAroundTheWorld": {
         "type": "book",
@@ -881,8 +834,7 @@
         },
         "publisher-place": "Englewood Cliffs, NJ, USA",
         "publisher": "Dover Publications",
-        "ISBN": "0-486-28100-0",
-        "id": "CardGamesAroundTheWorld"
+        "ISBN": "0-486-28100-0"
     },
     "SeriousReflections": {
         "type": "book",
@@ -896,8 +848,7 @@
                 "family": "Smith",
                 "given": "Gyles"
             }
-        ],
-        "id": "SeriousReflections"
+        ]
     },
     "GameOfOmbre": {
         "type": "book",
@@ -913,8 +864,7 @@
             }
         ],
         "publisher": "Chiswick Press",
-        "publisher-place": "Tooks Court, Chancery Lane, London, England, UK",
-        "id": "GameOfOmbre"
+        "publisher-place": "Tooks Court, Chancery Lane, London, England, UK"
     },
     "LawAndPractice": {
         "type": "book",
@@ -929,8 +879,7 @@
                 "family": "Charles Henry Wharton",
                 "given": "Meehan"
             }
-        ],
-        "id": "LawAndPractice"
+        ]
     },
     "EvolutionOfWhist": {
         "type": "book",
@@ -945,8 +894,7 @@
             "year": 1895
         },
         "publisher": "Longmans, Green, and Co.",
-        "publisher-place": "New York, NY, USA",
-        "id": "EvolutionOfWhist"
+        "publisher-place": "New York, NY, USA"
     },
     "BishopsWhist": {
         "type": "book",
@@ -960,8 +908,7 @@
         "publisher-place": "Northfield, Vermont, USA",
         "issued": {
             "year": 1899
-        },
-        "id": "BishopsWhist"
+        }
     },
     "LawsAndPrinciplesOfWhist": {
         "type": "book",
@@ -978,8 +925,7 @@
             }
         ],
         "edition": 12,
-        "URL": "https://archive.org/details/lawsprinciplesof00cave_0",
-        "id": "LawsAndPrinciplesOfWhist"
+        "URL": "https://archive.org/details/lawsprinciplesof00cave_0"
     },
     "CardEssays": {
         "type": "book",
@@ -994,8 +940,7 @@
                 "given": "Henry “Cavendish”",
                 "family": "Jones"
             }
-        ],
-        "id": "CardEssays"
+        ]
     },
     "WhistSketches": {
         "type": "book",
@@ -1010,8 +955,7 @@
             }
         ],
         "publisher": "The Free Press Publishing House",
-        "publisher-place": "Easton, PA, USA",
-        "id": "WhistSketches"
+        "publisher-place": "Easton, PA, USA"
     },
     "StandardWhist": {
         "type": "book",
@@ -1026,8 +970,7 @@
             }
         ],
         "publisher": "Herbert S. Stone & Company",
-        "publisher-place": "Chicago & New York, USA",
-        "id": "StandardWhist"
+        "publisher-place": "Chicago & New York, USA"
     },
     "WhistPlayersHandBook": {
         "type": "book",
@@ -1036,8 +979,7 @@
             "year": 1844
         },
         "publisher": "Isaac M. Moss",
-        "publisher-place": "12 South Fourth Street, Philadelphia, PA, USA",
-        "id": "WhistPlayersHandBook"
+        "publisher-place": "12 South Fourth Street, Philadelphia, PA, USA"
     },
     "TreatiseOnTheGameOfWhist": {
         "type": "book",
@@ -1052,8 +994,7 @@
             "year": 1742
         },
         "publisher": "W. Webb",
-        "publisher-place": "St Paul’s, London, England, UK",
-        "id": "TreatiseOnTheGameOfWhist"
+        "publisher-place": "St Paul’s, London, England, UK"
     },
     "WhistInDiagrams": {
         "type": "book",
@@ -1068,8 +1009,7 @@
             }
         ],
         "publisher": "Houghton, Mifflin, & Co.",
-        "publisher-place": "Boston & New York, USA",
-        "id": "WhistInDiagrams"
+        "publisher-place": "Boston & New York, USA"
     },
     "AmericanWhistIllustrated": {
         "type": "book",
@@ -1086,8 +1026,7 @@
         ],
         "publisher": "Houghton, Mifflin, & Co.",
         "publisher-place": "Boston & New York, USA",
-        "URL": "https://archive.org/details/americanwhistil00pettgoog",
-        "id": "AmericanWhistIllustrated"
+        "URL": "https://archive.org/details/americanwhistil00pettgoog"
     },
     "WhistUniversal": {
         "type": "book",
@@ -1102,8 +1041,7 @@
             }
         ],
         "publisher": "Ticknor and Company",
-        "publisher-place": "211 Tremont Street, Boston, NY, USA",
-        "id": "WhistUniversal"
+        "publisher-place": "211 Tremont Street, Boston, NY, USA"
     },
     "AmericanCardPlayer": {
         "type": "book",
@@ -1119,8 +1057,7 @@
         },
         "publisher": "Dick & Fitzgerald",
         "publisher-place": "NY, USA",
-        "URL": "https://archive.org/details/americancardplay00dick",
-        "id": "AmericanCardPlayer"
+        "URL": "https://archive.org/details/americancardplay00dick"
     },
     "SpaldingsBezique": {
         "type": "article-journal",
@@ -1141,8 +1078,7 @@
         "page": "1–30",
         "publisher": "The American Sports Publishing Company",
         "publisher-place": "241 Broadway, New York, NY, USA",
-        "URL": "https://archive.org/details/beziquetreatiseo00adya",
-        "id": "SpaldingsBezique"
+        "URL": "https://archive.org/details/beziquetreatiseo00adya"
     },
     "PopesGameOfOmbre": {
         "type": "article-journal",
@@ -1157,8 +1093,7 @@
         "page": "262–269",
         "publisher": "Macmillan and Co",
         "publisher-place": "29 & 30, Bedford Street, Convent Garden, London, England, UK",
-        "URL": "https://archive.org/details/macmillansmagaz12unkngoog",
-        "id": "PopesGameOfOmbre"
+        "URL": "https://archive.org/details/macmillansmagaz12unkngoog"
     },
     "BohnsNewHandbook": {
         "type": "book",
@@ -1177,8 +1112,7 @@
         },
         "publisher": "Henry F. Anners",
         "publisher-place": "Philadelphia, PA, USA",
-        "URL": "https://archive.org/details/bohnsnewhandboo00hoylgoog",
-        "id": "BohnsNewHandbook"
+        "URL": "https://archive.org/details/bohnsnewhandboo00hoylgoog"
     },
     "CavendishOnPiquet": {
         "type": "book",
@@ -1195,8 +1129,7 @@
         "edition": 9,
         "publisher": "De La Rue",
         "publisher-place": "London, England, UK",
-        "URL": "https://archive.org/details/lawsofpiquetadop00cave",
-        "id": "CavendishOnPiquet"
+        "URL": "https://archive.org/details/lawsofpiquetadop00cave"
     },
     "PhilosophyOfWhist": {
         "type": "book",
@@ -1213,8 +1146,7 @@
         "edition": 5,
         "publisher": "De La Rue",
         "publisher-place": "London, England, UK",
-        "URL": "https://archive.org/details/philosophyofwhis00poleuoft",
-        "id": "PhilosophyOfWhist"
+        "URL": "https://archive.org/details/philosophyofwhis00poleuoft"
     },
     "LawsOfEcarte": {
         "type": "book",
@@ -1231,8 +1163,7 @@
         "edition": 3,
         "publisher": "De La Rue",
         "publisher-place": "London, England, UK",
-        "URL": "https://archive.org/details/lawsofcartad00caveuoft",
-        "id": "LawsOfEcarte"
+        "URL": "https://archive.org/details/lawsofcartad00caveuoft"
     },
     "AccurateGamester": {
         "type": "book",
@@ -1248,8 +1179,7 @@
             }
         ],
         "publisher": "W. Reeve",
-        "publisher-place": "London, England, UK",
-        "id": "AccurateGamester"
+        "publisher-place": "London, England, UK"
     },
     "AmericanLeadsHistory": {
         "type": "book",
@@ -1265,8 +1195,7 @@
         },
         "publisher": "Harper & Borthers",
         "publisher-place": "London, England, UK",
-        "URL": "https://archive.org/details/whistamericanlea00tris",
-        "id": "AmericanLeadsHistory"
+        "URL": "https://archive.org/details/whistamericanlea00tris"
     },
     "CourtGamester": {
         "type": "book",
@@ -1281,8 +1210,7 @@
             "year": 1722
         },
         "publisher-place": "London, England, UK",
-        "URL": "https://archive.org/details/courtgamesterorf00seym",
-        "id": "CourtGamester"
+        "URL": "https://archive.org/details/courtgamesterorf00seym"
     },
     "TricTracNew": {
         "type": "book",
@@ -1297,8 +1225,7 @@
         },
         "publisher": "De La Rue",
         "publisher-place": "Paris, France",
-        "URL": "https://archive.org/details/traitedujeudetri00rich",
-        "id": "TricTracNew"
+        "URL": "https://archive.org/details/traitedujeudetri00rich"
     },
     "TricTrac": {
         "type": "book",
@@ -1315,8 +1242,7 @@
         },
         "publisher": "Barrois l’Ainé",
         "publisher-place": "Paris, France",
-        "URL": "https://archive.org/details/traitcompletdu00pari",
-        "id": "TricTrac"
+        "URL": "https://archive.org/details/traitcompletdu00pari"
     },
     "DragonsOfPortugal": {
         "type": "book",
@@ -1335,8 +1261,7 @@
             "year": 1973
         },
         "publisher": "Sandford",
-        "publisher-place": "Surrey, England, UK",
-        "id": "DragonsOfPortugal"
+        "publisher-place": "Surrey, England, UK"
     },
     "RiichiBook1": {
         "type": "book",
@@ -1350,8 +1275,7 @@
         "issued": {
             "year": 2016
         },
-        "URL": "http://riichi.dynaman.net/",
-        "id": "RiichiBook1"
+        "URL": "http://riichi.dynaman.net/"
     },
     "HanamiHanafuda": {
         "type": "book",
@@ -1371,8 +1295,7 @@
         },
         "ISBN": "978-0-9992802-0-1",
         "publisher": "IndianWolf Studios",
-        "publisher-place": "Pittsburgh, PA, USA",
-        "id": "HanamiHanafuda"
+        "publisher-place": "Pittsburgh, PA, USA"
     },
     "AfricaCounts": {
         "type": "book",
@@ -1389,8 +1312,7 @@
         "edition": 3,
         "ISBN": "978-1-55652-350-2",
         "publisher": "Lawrence Hill Books",
-        "publisher-place": "Chicago, IL, USA",
-        "id": "AfricaCounts"
+        "publisher-place": "Chicago, IL, USA"
     },
     "TicTacToe": {
         "type": "book",
@@ -1406,23 +1328,20 @@
         },
         "ISBN": "0-690-04317-1",
         "publisher": "Thomas Y. Crowell",
-        "publisher-place": "New York, NY, USA",
-        "id": "TicTacToe"
+        "publisher-place": "New York, NY, USA"
     },
     "Rothwell1674": {
         "type": "manuscript",
         "URL": "http://www.mannincloud.info/wills/169/1695_092.html",
         "title": "Archdeacon Will 1695A #55",
-        "collection-title": "Isle of Man Archdeacon Wills 1695–1699. [LDS microfilm 0106207]",
-        "id": "Rothwell1674"
+        "collection-title": "Isle of Man Archdeacon Wills 1695–1699. [LDS microfilm 0106207]"
     },
     "LezayrePresentments": {
         "type": "manuscript",
         "URL": "http://www.isle-of-man.com/manxnotebook/jmmuseum/d191.htm",
         "title": "Lezayre Presentments, 1699",
         "page": "Unpublished Document No. 191",
-        "collection-title": "Journal of the Manx Museum",
-        "id": "LezayrePresentments"
+        "collection-title": "Journal of the Manx Museum"
     },
     "MacedonianFolklore": {
         "type": "book",
@@ -1438,8 +1357,7 @@
         "issued": {
             "year": 1903
         },
-        "URL": "https://archive.org/details/macedonianfolklo00abborich",
-        "id": "MacedonianFolklore"
+        "URL": "https://archive.org/details/macedonianfolklo00abborich"
     },
     "Hyde": {
         "type": "book",
@@ -1455,8 +1373,7 @@
         },
         "publisher": "Oxford University Press",
         "publisher-place": "Oxford, UK",
-        "URL": "https://books.google.com.au/books?id=FIFcAAAAcAAJ",
-        "id": "Hyde"
+        "URL": "https://books.google.com.au/books?id=FIFcAAAAcAAJ"
     },
     "Fiske": {
         "type": "book",
@@ -1472,8 +1389,7 @@
         },
         "publisher": "The Florentine Typographical Society",
         "publisher-place": "Florence",
-        "URL": "https://archive.org/details/chessinicelandin00fiskuoft",
-        "id": "Fiske"
+        "URL": "https://archive.org/details/chessinicelandin00fiskuoft"
     },
     "ThinkingThroughDiagrams": {
         "type": "paper-conference",
@@ -1491,8 +1407,7 @@
         "publisher-place": "Berlin, Heidelberg",
         "page": "259–282",
         "URL": "https://doi.org/10.1007/11397977_16",
-        "container-title": "Spatial Cognition IV",
-        "id": "ThinkingThroughDiagrams"
+        "container-title": "Spatial Cognition IV"
     },
     "Wordsworth": {
         "type": "book",
@@ -1508,8 +1423,7 @@
         ],
         "publisher": "Edward Moxon",
         "publisher-place": "London, UK",
-        "URL": "https://archive.org/details/prelude00unkngoog",
-        "id": "Wordsworth"
+        "URL": "https://archive.org/details/prelude00unkngoog"
     },
     "GamesBookForBoysAndGirls": {
         "type": "book",
@@ -1519,8 +1433,7 @@
         },
         "publisher": "Ernest Nister",
         "publisher-place": "London, UK",
-        "URL": "https://archive.org/details/gamesbookforboys00nist",
-        "id": "GamesBookForBoysAndGirls"
+        "URL": "https://archive.org/details/gamesbookforboys00nist"
     },
     "SuffolkWords": {
         "type": "book",
@@ -1536,8 +1449,7 @@
         },
         "URL": "https://archive.org/details/suffolkwordsand00moorgoog",
         "publisher": "J. Loder",
-        "publisher-place": "London, UK",
-        "id": "SuffolkWords"
+        "publisher-place": "London, UK"
     },
     "SourcesInRecreationalMathematics": {
         "type": "webpage",
@@ -1554,8 +1466,7 @@
                 "family": "Singmaster"
             }
         ],
-        "URL": "https://www.puzzlemuseum.com/singma/singma6/SOURCES/singma-sources-edn8-2004-03-19.htm",
-        "id": "SourcesInRecreationalMathematics"
+        "URL": "https://www.puzzlemuseum.com/singma/singma6/SOURCES/singma-sources-edn8-2004-03-19.htm"
     },
     "NotesOnTheAbbey": {
         "type": "article-journal",
@@ -1572,8 +1483,7 @@
         "container-title": "The Archaeological Journal",
         "volume": 33,
         "page": "15–48",
-        "URL": "https://archive.org/details/archaeologicalj01unkngoog/page/n46",
-        "id": "NotesOnTheAbbey"
+        "URL": "https://archive.org/details/archaeologicalj01unkngoog/page/n46"
     },
     "OnTheIndoorGamesOfSchoolBoys": {
         "type": "article-journal",
@@ -1590,8 +1500,7 @@
         "container-title": "The Archaeological Journal",
         "volume": 49,
         "page": "319–328",
-        "URL": "https://archive.org/details/archaeologicaljo49brit/page/318",
-        "id": "OnTheIndoorGamesOfSchoolBoys"
+        "URL": "https://archive.org/details/archaeologicaljo49brit/page/318"
     },
     "MagazineOfArt": {
         "type": "article-journal",
@@ -1610,8 +1519,7 @@
         "page": "133–137",
         "publisher": "Cassel and Company",
         "publisher-place": "London, Paris, and New York",
-        "URL": "https://archive.org/details/magazineofart07unse",
-        "id": "MagazineOfArt"
+        "URL": "https://archive.org/details/magazineofart07unse"
     },
     "NurseryWitch": {
         "type": "article-journal",
@@ -1630,8 +1538,7 @@
         "container-title": "Our Monthly",
         "publisher": "The Presbytarian Magazine Company",
         "publisher-place": "Cincinnati",
-        "URL": "https://archive.org/details/ourmonthly00unkngoog",
-        "id": "NurseryWitch"
+        "URL": "https://archive.org/details/ourmonthly00unkngoog"
     },
     "GommeI": {
         "type": "book",
@@ -1648,8 +1555,7 @@
         ],
         "publisher": "David Nutt",
         "publisher-place": "London, UK",
-        "URL": "https://archive.org/details/traditionalgames01gommuoft",
-        "id": "GommeI"
+        "URL": "https://archive.org/details/traditionalgames01gommuoft"
     },
     "GommeII": {
         "type": "book",
@@ -1666,8 +1572,7 @@
         ],
         "publisher": "David Nutt",
         "publisher-place": "London, UK",
-        "URL": "https://archive.org/details/traditionalgames02gommuoft",
-        "id": "GommeII"
+        "URL": "https://archive.org/details/traditionalgames02gommuoft"
     },
     "MerylsBoardEnigma": {
         "type": "book",
@@ -1683,8 +1588,7 @@
         ],
         "publisher": "Marisa Uberti",
         "ISBN": 9788867554133,
-        "URL": "http://stores.streetlib.com/en/marisa-uberti/the-merels-board-enigma-with-the-worldwide-census/",
-        "id": "MerylsBoardEnigma"
+        "URL": "http://stores.streetlib.com/en/marisa-uberti/the-merels-board-enigma-with-the-worldwide-census/"
     },
     "MathematicalRecreationsMaurice": {
         "type": "book",
@@ -1701,8 +1605,7 @@
         },
         "publisher": "Dover Publications",
         "publisher-place": "New York",
-        "URL": "https://catalog.hathitrust.org/Record/005830903",
-        "id": "MathematicalRecreationsMaurice"
+        "URL": "https://catalog.hathitrust.org/Record/005830903"
     },
     "Gardner1": {
         "type": "book",
@@ -1720,8 +1623,7 @@
             "year": 1959
         },
         "publisher": "The University of Chicago Press",
-        "publisher-place": "Chicago, USA",
-        "id": "Gardner1"
+        "publisher-place": "Chicago, USA"
     },
     "KamehamehaAndHisWarrior": {
         "type": "book",
@@ -1737,8 +1639,7 @@
         },
         "publisher": "Kamehameha Schools Press",
         "publisher-place": "Honolulu, Hawaiʻi",
-        "URL": "http://ulukau.org/cgi-bin/library?c=elibrary&l=en",
-        "id": "KamehamehaAndHisWarrior"
+        "URL": "http://ulukau.org/cgi-bin/library?c=elibrary&l=en"
     },
     "ClarkBeaches": {
         "type": "book",
@@ -1754,8 +1655,7 @@
         },
         "publisher": "University of Hawaii Press",
         "ISBN": "978-0824809768",
-        "URL": "https://books.google.com.au/books?id=ligZzOytgK4C",
-        "id": "ClarkBeaches"
+        "URL": "https://books.google.com.au/books?id=ligZzOytgK4C"
     },
     "MajesticKau": {
         "type": "book",
@@ -1771,8 +1671,7 @@
         },
         "publisher": "Bernice P. Bishop Museum",
         "publisher-place": "Honolulu, Hawaiʻi",
-        "URL": "http://data.bishopmuseum.org/archaeology/docs/DRS_80_2MajesticKau.pdf",
-        "id": "MajesticKau"
+        "URL": "http://data.bishopmuseum.org/archaeology/docs/DRS_80_2MajesticKau.pdf"
     },
     "NotesAndQueriesS8V12": {
         "type": "book",
@@ -1785,8 +1684,7 @@
         "volume": "12 (Series 8)",
         "publisher": "John C. Francis",
         "publisher-place": "London, England, UK",
-        "URL": "https://archive.org/details/s8notesqueries12londuoft",
-        "id": "NotesAndQueriesS8V12"
+        "URL": "https://archive.org/details/s8notesqueries12londuoft"
     },
     "PeterBuck": {
         "type": "book",
@@ -1803,8 +1701,7 @@
         "publisher": "Bishop Museum Press",
         "publisher-place": "Honolulu, Hawaiʻi",
         "ISBN": "1-58178-027-3",
-        "URL": "https://www.bishopmuseum.org/artsandcraftsofhawaii/",
-        "id": "PeterBuck"
+        "URL": "https://www.bishopmuseum.org/artsandcraftsofhawaii/"
     },
     "LegendsOfHonolulu": {
         "type": "book",
@@ -1820,8 +1717,7 @@
         },
         "publisher": "Press of Geo. H. Ellis",
         "publisher-place": "Boston, MA, USA",
-        "URL": "https://archive.org/details/legendsofoldhono01west",
-        "id": "LegendsOfHonolulu"
+        "URL": "https://archive.org/details/legendsofoldhono01west"
     },
     "MolokaiDispatch": {
         "type": "article-newspaper",
@@ -1838,8 +1734,7 @@
             "day": 14
         },
         "container-title": "The Molokai Dispatch",
-        "URL": "https://themolokaidispatch.com/konane/",
-        "id": "MolokaiDispatch"
+        "URL": "https://themolokaidispatch.com/konane/"
     },
     "FourSeasons": {
         "type": "book",
@@ -1855,8 +1750,7 @@
         },
         "publisher": "Columbia University Press",
         "publisher-place": "New York, NY, USA",
-        "ISBN": "978-0-231-52652-4",
-        "id": "FourSeasons"
+        "ISBN": "978-0-231-52652-4"
     },
     "TalesOfIse": {
         "type": "book",
@@ -1872,8 +1766,7 @@
         },
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA",
-        "ISBN": "0804706537",
-        "id": "TalesOfIse"
+        "ISBN": "0804706537"
     },
     "KokinWakashu": {
         "type": "book",
@@ -1889,8 +1782,7 @@
         },
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA",
-        "ISBN": "0804712581",
-        "id": "KokinWakashu"
+        "ISBN": "0804712581"
     },
     "NoteOnAMissingLink": {
         "type": "article-journal",
@@ -1909,8 +1801,7 @@
         },
         "issue": 2,
         "ISSN": "0305-2133",
-        "page": "54–56",
-        "id": "NoteOnAMissingLink"
+        "page": "54–56"
     },
     "CardGamesAmongAborigines": {
         "type": "article-journal",
@@ -1933,8 +1824,7 @@
         "volume": 17,
         "issue": 3,
         "page": "248–269",
-        "URL": "https://www.jstor.org/stable/40328119",
-        "id": "CardGamesAmongAborigines"
+        "URL": "https://www.jstor.org/stable/40328119"
     },
     "PlayingCardsOfTheApaches": {
         "type": "book",
@@ -1960,8 +1850,7 @@
             "day": 1
         },
         "publisher": "Screenfold Press",
-        "publisher-place": "Tucson, AZ, USA",
-        "id": "PlayingCardsOfTheApaches"
+        "publisher-place": "Tucson, AZ, USA"
     },
     "PoemsOfTheEchigobana": {
         "type": "article-journal",
@@ -1980,8 +1869,7 @@
         "issued": {
             "year": 1986,
             "month": 5
-        },
-        "id": "PoemsOfTheEchigobana"
+        }
     },
     "ModernKoreanCards": {
         "type": "article-journal",
@@ -2000,8 +1888,7 @@
         "issued": {
             "year": 1991,
             "month": 8
-        },
-        "id": "ModernKoreanCards"
+        }
     },
     "ModernJapaneseWrappers": {
         "type": "article-journal",
@@ -2020,8 +1907,7 @@
         "issued": {
             "year": 1981,
             "month": 11
-        },
-        "id": "ModernJapaneseWrappers"
+        }
     },
     "Stokes": {
         "type": "article-journal",
@@ -2039,8 +1925,7 @@
         "page": "2791–2803",
         "issued": {
             "year": 1933
-        },
-        "id": "Stokes"
+        }
     },
     "SalterJapanese": {
         "type": "article-journal",
@@ -2057,8 +1942,7 @@
             "year": 2008,
             "month": 3
         },
-        "page": "39–46",
-        "id": "SalterJapanese"
+        "page": "39–46"
     },
     "Teesdale": {
         "type": "book",
@@ -2074,8 +1958,7 @@
         },
         "publisher": "J. R. Smith",
         "publisher-place": "London, England, UK",
-        "URL": "https://archive.org/details/glossaryofprovin00dinsuoft",
-        "id": "Teesdale"
+        "URL": "https://archive.org/details/glossaryofprovin00dinsuoft"
     },
     "KKS135": {
         "type": "webpage",
@@ -2092,8 +1975,7 @@
             "day": 31
         },
         "container-title": "Waka Poetry",
-        "URL": "http://www.wakapoetry.net/kks-iii-135/",
-        "id": "KKS135"
+        "URL": "http://www.wakapoetry.net/kks-iii-135/"
     },
     "SKKS442": {
         "type": "webpage",
@@ -2110,8 +1992,7 @@
             "day": 16
         },
         "container-title": "Waka Poetry",
-        "URL": "https://www.wakapoetry.net/skks-iv-422/",
-        "id": "SKKS442"
+        "URL": "https://www.wakapoetry.net/skks-iv-422/"
     },
     "GreveSake": {
         "type": "webpage",
@@ -2126,8 +2007,7 @@
             "year": 2006
         },
         "container-title": "World Kigo Database",
-        "URL": "https://worldkigo2005.blogspot.com/2006/06/ricewine-sake-05.html",
-        "id": "GreveSake"
+        "URL": "https://worldkigo2005.blogspot.com/2006/06/ricewine-sake-05.html"
     },
     "ChigoJapanese": {
         "type": "article-journal",
@@ -2145,8 +2025,7 @@
         "page": "947–970",
         "volume": 67,
         "issue": 3,
-        "URL": "https://www.jstor.org/stable/20203430",
-        "id": "ChigoJapanese"
+        "URL": "https://www.jstor.org/stable/20203430"
     },
     "MakingShinkokinshu": {
         "type": "book",
@@ -2162,8 +2041,7 @@
         },
         "publisher": "Harvard University Press",
         "publisher-place": "Cambridge, MA, USA",
-        "ISBN": 9780674008533,
-        "id": "MakingShinkokinshu"
+        "ISBN": 9780674008533
     },
     "ICommencedAnExamination": {
         "type": "article-journal",
@@ -2181,8 +2059,7 @@
         "container-title": "Proceedings of the 2013 DiGRA international conference: DeFragging Game Studies",
         "volume": 7,
         "ISSN": "2342-9666",
-        "URL": "http://www.digra.org/wp-content/uploads/digital-library/paper_436.pdf",
-        "id": "ICommencedAnExamination"
+        "URL": "http://www.digra.org/wp-content/uploads/digital-library/paper_436.pdf"
     },
     "MathematicalWorkOfBabbage": {
         "type": "book",
@@ -2198,8 +2075,7 @@
                 "given": "John"
             }
         ],
-        "URL": "https://doi.org/10.1017/CBO9780511622397",
-        "id": "MathematicalWorkOfBabbage"
+        "URL": "https://doi.org/10.1017/CBO9780511622397"
     },
     "HAKMEM": {
         "type": "book",
@@ -2222,8 +2098,7 @@
                 "family": "Schroeppel",
                 "given": "Richard"
             }
-        ],
-        "id": "HAKMEM"
+        ]
     },
     "SteeleTeeko": {
         "type": "webpage",
@@ -2239,8 +2114,7 @@
             "month": 11,
             "day": 23
         },
-        "URL": "https://boardgamegeek.com/thread/816476/steele-guy-november-23-1998-re-teeko-hakmem",
-        "id": "SteeleTeeko"
+        "URL": "https://boardgamegeek.com/thread/816476/steele-guy-november-23-1998-re-teeko-hakmem"
     },
     "TheGameOfJAM": {
         "type": "article-journal",
@@ -2261,8 +2135,7 @@
         "publisher": "University of Illinois Press",
         "publisher-place": "IL, USA",
         "container-title": "The American Journal of Psychology",
-        "URL": "https://www.jstor.org/stable/1420555",
-        "id": "TheGameOfJAM"
+        "URL": "https://www.jstor.org/stable/1420555"
     },
     "Figmill": {
         "type": "article-journal",
@@ -2281,8 +2154,7 @@
         },
         "page": "303–306",
         "publisher": "American Folklore Society",
-        "URL": "http://www.jstor.org/stable/536157",
-        "id": "Figmill"
+        "URL": "http://www.jstor.org/stable/536157"
     },
     "Cats325": {
         "type": "webpage",
@@ -2291,8 +2163,7 @@
         "issued": {
             "year": 2016
         },
-        "URL": "http://www.catsatcards.com/Games/ThreeTwoFive.html",
-        "id": "Cats325"
+        "URL": "http://www.catsatcards.com/Games/ThreeTwoFive.html"
     },
     "Yahoo325": {
         "type": "webpage",
@@ -2301,8 +2172,7 @@
         "issued": {
             "year": 2008
         },
-        "URL": "https://in.answers.yahoo.com/question/index?qid=20090217063034AA1SO5Y",
-        "id": "Yahoo325"
+        "URL": "https://in.answers.yahoo.com/question/index?qid=20090217063034AA1SO5Y"
     },
     "IndiaMike325": {
         "type": "webpage",
@@ -2311,8 +2181,7 @@
         "issued": {
             "year": 2008
         },
-        "URL": "https://www.indiamike.com/india/sports-in-india-f111/game-teen-do-panch-3-2-5-a-t51329/",
-        "id": "IndiaMike325"
+        "URL": "https://www.indiamike.com/india/sports-in-india-f111/game-teen-do-panch-3-2-5-a-t51329/"
     },
     "iJini": {
         "type": "webpage",
@@ -2327,8 +2196,7 @@
         "issued": {
             "year": 2010
         },
-        "URL": "https://ijini.blogspot.com/2010/04/most-popular-indain-card-games.html",
-        "id": "iJini"
+        "URL": "https://ijini.blogspot.com/2010/04/most-popular-indain-card-games.html"
     },
     "Gamesnomy325": {
         "type": "webpage",
@@ -2343,8 +2211,7 @@
                 "given": "Sujay"
             }
         ],
-        "URL": "https://gamesnomy.blogspot.com/2011/02/teen-do-paanch-card-game.html",
-        "id": "Gamesnomy325"
+        "URL": "https://gamesnomy.blogspot.com/2011/02/teen-do-paanch-card-game.html"
     },
     "HeikeMonogatari": {
         "type": "book",
@@ -2361,8 +2228,7 @@
         "URL": "https://books.google.co.nz/books?id=D5Oqj3TsMlUC",
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA",
-        "ISBN": 9780804718035,
-        "id": "HeikeMonogatari"
+        "ISBN": 9780804718035
     },
     "NaresGlossary": {
         "type": "book",
@@ -2378,8 +2244,7 @@
         },
         "publisher": "Rivington & Co.",
         "publisher-place": "London, UK",
-        "URL": "https://archive.org/details/bub_gb_OjITAAAAQAAJ",
-        "id": "NaresGlossary"
+        "URL": "https://archive.org/details/bub_gb_OjITAAAAQAAJ"
     },
     "WCF": {
         "type": "webpage",
@@ -2393,8 +2258,7 @@
         "issued": {
             "year": 2012
         },
-        "URL": "http://www.worldcamelotfederation.com/",
-        "id": "WCF"
+        "URL": "http://www.worldcamelotfederation.com/"
     },
     "BradleysGames": {
         "type": "book",
@@ -2404,8 +2268,7 @@
         },
         "URL": "https://archive.org/details/catalogueofgames00milt/",
         "publisher": "Milton Bradley Co.",
-        "publisher-place": "Springfield, MA, USA",
-        "id": "BradleysGames"
+        "publisher-place": "Springfield, MA, USA"
     },
     "HalmaHistory": {
         "type": "paper-conference",
@@ -2423,8 +2286,7 @@
         "publisher-place": "Fribourg, Switzerland",
         "page": "37–47",
         "publisher": "University Press, Fribourg University",
-        "URL": "http://thebiggamehunter.com/games-one-by-one/halma/",
-        "id": "HalmaHistory"
+        "URL": "http://thebiggamehunter.com/games-one-by-one/halma/"
     },
     "PegShowAndTelka": {
         "type": "webpage",
@@ -2439,8 +2301,7 @@
         "issued": {
             "year": 2013
         },
-        "URL": "https://sagme.blogspot.com/2013/06/peg-show-telka.html",
-        "id": "PegShowAndTelka"
+        "URL": "https://sagme.blogspot.com/2013/06/peg-show-telka.html"
     },
     "SportsAndGamesOfSinghalese": {
         "type": "article-journal",
@@ -2460,8 +2321,7 @@
         "page": "17–41",
         "volume": 5,
         "issue": 18,
-        "URL": "http://hdl.handle.net/2027/mdp.39015020463454&view=1up&seq=41",
-        "id": "SportsAndGamesOfSinghalese"
+        "URL": "http://hdl.handle.net/2027/mdp.39015020463454&view=1up&seq=41"
     },
     "AncientCeylon": {
         "type": "book",
@@ -2477,8 +2337,7 @@
         },
         "publisher": "Luzac & Co.",
         "publisher-place": "London, UK",
-        "URL": "https://archive.org/details/ancientceylonacc00park",
-        "id": "AncientCeylon"
+        "URL": "https://archive.org/details/ancientceylonacc00park"
     },
     "SolvingLaskerMorris": {
         "type": "article",
@@ -2492,8 +2351,7 @@
         "issued": {
             "year": 2003
         },
-        "URL": "https://althofer.de/stahlhacke-lasker-morris-2003.pdf",
-        "id": "SolvingLaskerMorris"
+        "URL": "https://althofer.de/stahlhacke-lasker-morris-2003.pdf"
     },
     "UseOfMorabara": {
         "type": "article-journal",
@@ -3359,8 +3217,7 @@
         "container-title": "eHumanista",
         "issue": 31,
         "page": "489–523",
-        "URL": "https://dialnet.unirioja.es/descarga/articulo/5457094.pdf",
-        "id": "TheKingIsDead"
+        "URL": "https://dialnet.unirioja.es/descarga/articulo/5457094.pdf"
     },
     "KlassischeSpiele": {
         "type": "book",
@@ -3380,11 +3237,9 @@
         },
         "ISBN": "9783499189012",
         "publisher": "Rowohlt Taschenbuch Verlag",
-        "publisher-place": "Germany",
-        "id": "KlassischeSpiele"
+        "publisher-place": "Germany"
     },
     "HanaAwase": {
-        "id": "HanaAwase",
         "type": "article-journal",
         "title": "Hana-Awase",
         "author": [
@@ -3404,7 +3259,6 @@
         "URL": "https://archive.org/details/transactionsasi07japagoog/page/n680"
     },
     "ANewCantingDictionary": {
-        "id": "ANewCantingDictionary",
         "type": "book",
         "title": "A New Canting Dictionary",
         "issued": {
@@ -3419,7 +3273,6 @@
         "URL": "https://books.google.co.nz/books?id=A6NWAAAAcAAJ"
     },
     "BerkshirePhrases": {
-        "id": "BerkshirePhrases",
         "type": "book",
         "title": "A Glossary of Berkshire Words and Phrases",
         "author": [
@@ -3436,7 +3289,6 @@
         "URL": "https://archive.org/details/aglossaryberksh00lowsgoog"
     },
     "SkeatTitTatTo": {
-        "id": "SkeatTitTatTo",
         "type": "article-journal",
         "title": "“Tit-Tat-To”",
         "author": [
@@ -3457,7 +3309,6 @@
         "URL": "https://archive.org/details/s9notesqueries02londuoft/page/26"
     },
     "Koolman": {
-        "id": "Koolman",
         "type": "book",
         "title": "Wörterbuch der Ostfriesischen Sprache (Dritter Band, Q–Z)",
         "author": [
@@ -3474,7 +3325,6 @@
         "URL": "https://archive.org/details/wrterbuchderos03dooruoft"
     },
     "LancasterianSystem": {
-        "id": "LancasterianSystem",
         "type": "article-journal",
         "title": "The New School; or Lancasterian System",
         "author": [
@@ -3496,7 +3346,6 @@
         "URL": "https://babel.hathitrust.org/cgi/pt?id=hvd.hnl9na&view=1up&seq=113"
     },
     "AnIntroductionToJapaneseTeaRitual": {
-        "id": "AnIntroductionToJapaneseTeaRitual",
         "type": "book",
         "title": "An Introduction to Japanese Tea Ritual",
         "author": [
@@ -3513,7 +3362,6 @@
         "publisher-place": "Albany, NY, USA"
     },
     "EbashiSadakuro": {
-        "id": "EbashiSadakuro",
         "type": "webpage",
         "title": "<span lang='ja'>後世の花札図柄との異同</span>",
         "author": [
@@ -3530,7 +3378,6 @@
         "publisher": "Japan Playing Card Museum"
     },
     "OishiSadakuro": {
-        "id": "OishiSadakuro",
         "type": "webpage",
         "title": "<span lang='ja'>花札の謎シリーズ！１１月札『柳に小野道風（おののとうふう）』</span>",
         "issued": {
@@ -3542,7 +3389,6 @@
         "URL": "https://www.tengudo.jp/blog/karuta-news/392.html"
     },
     "IwanoMatsui": {
-        "id": "IwanoMatsui",
         "type": "webpage",
         "title": "<span lang='ja'>松井天狗堂の買取致します</span>",
         "issued": {
@@ -3552,7 +3398,6 @@
         "URL": "https://web.archive.org/web/20180715011619/https://iwano.biz/news/20170512matui.html"
     },
     "Yamaguchi": {
-        "id": "Yamaguchi",
         "type": "book",
         "title": "最後の読みカルタ",
         "title-lang": "ja",
@@ -3570,7 +3415,6 @@
         "publisher-lang": "ja"
     },
     "KakkuriYomi": {
-        "id": "KakkuriYomi",
         "type": "article-journal",
         "title": "<span lang='ja-Latn'>Kakkuri</span>: The Last <span lang='ja-Latn'>Yomi</span> Game of Japan",
         "author": [
@@ -3587,7 +3431,6 @@
         "issue": 4
     },
     "OstasiatischeSpielkarten": {
-        "id": "OstasiatischeSpielkarten",
         "type": "book",
         "title": "Ostasiatische Spielkarten",
         "title-lang": "de",
@@ -3604,7 +3447,6 @@
         "publisher-place": "Germany"
     },
     "Hargrave": {
-        "id": "Hargrave",
         "type": "book",
         "title": "A History of Playing Cards",
         "author": [
@@ -3624,7 +3466,6 @@
         "ISBN": "978-0-486-41236-8"
     },
     "TewazaNoKioku": {
-        "id": "TewazaNoKioku",
         "type": "book",
         "title": "手わざの記憶",
         "title-lang": "ja",
@@ -3643,7 +3484,6 @@
         "publisher-place": "Tōkyō, Japan"
     },
     "OishiTengudoHistory4": {
-        "id": "OishiTengudoHistory4",
         "type": "webpage",
         "title": "大石天狗堂口伝　第四章",
         "title-lang": "ja",
@@ -3655,7 +3495,6 @@
         "URL": "https://www.tengudo.jp/blog/karuta-news/692.html"
     },
     "EbashiHanafuda": {
-        "id": "EbashiHanafuda",
         "type": "book",
         "title": "花札",
         "title-lang": "ja",
@@ -3674,7 +3513,6 @@
         "publisher-place": "Tōkyō, Japan"
     },
     "UmebayashiIsao": {
-        "id": "UmebayashiIsao",
         "type": "article-journal",
         "title": "地方の花札屋さん",
         "title-lang": "ja",
@@ -3695,7 +3533,6 @@
         "URL": "http://www.jirg.org/wp-content/themes/jirg/newsletter/download/newsletter_008.php"
     },
     "Sumiyoshikai": {
-        "id": "Sumiyoshikai",
         "type": "article-magazine",
         "title": "Capital punishment: Japan’s yakuza vie for control of Tokyo",
         "author": [
@@ -3713,7 +3550,6 @@
         "URL": "http://www.kosuke.net/japanyakuza.pdf"
     },
     "PopularJapanesePrints": {
-        "id": "PopularJapanesePrints",
         "type": "book",
         "title": "Popular Japanese Prints",
         "issued": {
@@ -3730,7 +3566,6 @@
         "ISBN": "978-0-8248-3083-0"
     },
     "CartaTaxLawContents": {
-        "id": "CartaTaxLawContents",
         "title": "骨牌税法の内容",
         "title-lang": "ja",
         "author": [
@@ -3748,7 +3583,6 @@
         "URL": "https://japanplayingcardmuseum.com/2-0-cartatax-law-contents/"
     },
     "SchreiberCollection": {
-        "id": "SchreiberCollection",
         "title": "Catalogue of the collection of playing cards bequeathed to the Trustees of the British museum by the late Lady Charlotte Schreiber",
         "author": [
             {
@@ -3765,7 +3599,6 @@
         "URL": "https://archive.org/details/catalogueofcoll00brit"
     },
     "HironoriGunjin": {
-        "id": "HironoriGunjin",
         "title": "日本と世界の行軍将棋",
         "title-lang": "ja",
         "author": [
@@ -3788,7 +3621,6 @@
         }
     },
     "MuraiSun": {
-        "id": "MuraiSun",
         "author": [
             {
                 "family": "村井",
@@ -3808,7 +3640,6 @@
         "container-title": "別冊太陽"
     },
     "DevilsPictureBooks": {
-        "id": "DevilsPictureBooks",
         "type": "book",
         "title": "The Devil’s Picture-Books",
         "author": [
@@ -3825,7 +3656,6 @@
         "publisher-place": "New York, USA"
     },
     "KaiOi": {
-        "id": "KaiOi",
         "type": "webpage",
         "URL": "http://www.asahi-net.or.jp/~rp9h-tkhs/dg_kaioi.htm",
         "title": "貝覆い",
@@ -3843,7 +3673,6 @@
         }
     },
     "WorldOfTheShiningPrince": {
-        "id": "WorldOfTheShiningPrince",
         "type": "book",
         "URL": "https://archive.org/stream/worldofshiningpr00morr",
         "title": "The World of the Shining Prince",
@@ -3864,7 +3693,6 @@
         "ISBN": "0-14-00-5479-0"
     },
     "FolkloreAndSymbolismOfFlowersPlantsAndTrees": {
-        "id": "FolkloreAndSymbolismOfFlowersPlantsAndTrees",
         "title": "Folklore and Symbolism of Flowers, Plants, and Trees",
         "type": "book",
         "URL": "https://archive.org/details/isbn_9780814803202",
@@ -3886,7 +3714,6 @@
         "ISBN": "9780814803202"
     },
     "WanderingWords": {
-        "id": "WanderingWords",
         "title": "Wandering Words",
         "type": "book",
         "URL": "https://archive.org/details/dli.granth.36761",
@@ -3903,7 +3730,6 @@
         ]
     },
     "TheManyoshu": {
-        "id": "TheManyoshu",
         "title": "The Manyōshū",
         "type": "book",
         "URL": "https://archive.org/details/in.ernet.dli.2015.182951",
@@ -3920,7 +3746,6 @@
         "ISBN": "0-231-02818-0"
     },
     "TheClassicTraditionOfHaiku": {
-        "id": "TheClassicTraditionOfHaiku",
         "title": "The Classic Tradition of Haiku",
         "type": "book",
         "URL": "https://archive.org/details/classictradition00bowe",
@@ -3938,7 +3763,6 @@
         "ISBN": "0-486-29274-6"
     },
     "NarrowRoad": {
-        "id": "NarrowRoad",
         "title": "The Narrow Road to the Deep North",
         "type": "book",
         "URL": "https://archive.org/details/narrowroadtodeep008800",
@@ -3956,7 +3780,6 @@
         "ISBN": "0-14-044185-9"
     },
     "ElementsOfJapaneseDesign": {
-        "id": "ElementsOfJapaneseDesign",
         "title": "The Elements of Japanese Design",
         "type": "book",
         "ISBN": "978-0-8348-0229-5",
@@ -3973,7 +3796,6 @@
         }
     },
     "NintendoHistory": {
-        "id": "NintendoHistory",
         "title": "在卖游戏之前，任天堂还上演过一出豪门宫斗",
         "title-lang": "zh",
         "type": "webpage",
@@ -3990,7 +3812,6 @@
         }
     },
     "EbashiCigaretteCards": {
-        "id": "EbashiCigaretteCards",
         "title": "花札図柄の「煙草カード」",
         "title-lang": "ja",
         "URL": "https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/",
@@ -4008,7 +3829,6 @@
         "publisher": "Japan Playing Card Museum"
     },
     "HandbookForJapan": {
-        "id": "HandbookForJapan",
         "title": "A Handbook for Travellers in Central & Northern Japan",
         "URL": "https://archive.org/details/ahandbookfortra00hawegoog",
         "author": [
@@ -4029,7 +3849,6 @@
         "type": "book"
     },
     "JapaneseGamesOfMemory": {
-        "id": "JapaneseGamesOfMemory",
         "type": "chapter",
         "title": "Japanese Games of Memory, Matching, and Identification",
         "container-title": "Asian Games: The Art of Contest",
@@ -4047,7 +3866,6 @@
         "publisher": "Asia Society"
     },
     "EssaysInIdleness": {
-        "id": "EssaysInIdleness",
         "type": "book",
         "title": "Essays in Idleness and Hōjōki",
         "author": [
@@ -4064,7 +3882,6 @@
         "ISBN": "978-0-141-95787-6"
     },
     "CabinetOfficeEntertainment": {
-        "id": "CabinetOfficeEntertainment",
         "type": "webpage",
         "issued": {
             "year": 1956
@@ -4083,7 +3900,6 @@
         "URL": "https://survey.gov-online.go.jp/s31/S31-07-31-07.html"
     },
     "NihonGoraku": {
-        "id": "NihonGoraku",
         "type": "webpage",
         "issued": {
             "year": 2018
@@ -4095,7 +3911,6 @@
         "URL": "http://nihongoraku.co.jp/company/"
     },
     "TheEastandtheIdeaofEurope": {
-        "id": "TheEastandtheIdeaofEurope",
         "type": "chapter",
         "issued": {
             "year": 2010
@@ -4125,7 +3940,6 @@
         "URL": "https://www.oulu.fi/Harukaze/Takeuchi_2010.html"
     },
     "FantasyOfFarJapan": {
-        "id": "FantasyOfFarJapan",
         "title": "A Fantasy of Far Japan: Or, Summer Dream Dialogues",
         "type": "book",
         "author": [
@@ -4142,7 +3956,6 @@
         "URL": "https://archive.org/details/afantasyfarjapa01suemgoog"
     },
     "JapanInTheTaishoEra": {
-        "id": "JapanInTheTaishoEra",
         "type": "book",
         "title": "Japan in the Taisho Era",
         "issued": {
@@ -4157,7 +3970,6 @@
         "URL": "https://archive.org/details/japanintaishoera00nishrich"
     },
     "TarHeel": {
-        "id": "TarHeel",
         "type": "article-journal",
         "title": "Tar Heel Tobacconist in Tokyo, 1899–1904",
         "author": [
@@ -4180,7 +3992,6 @@
         "page": "347–363"
     },
     "MundartLexikon": {
-        "id": "MundartLexikon",
         "type": "webpage",
         "title": "Mundart-Lexikon",
         "title-lang": "gsw",
@@ -4192,7 +4003,6 @@
         "URL": "https://web.archive.org/web/20141118232655/http://www.srf.ch/sendungen/schnabelweid/mundart-lexikon"
     },
     "BasothoOralPoetry": {
-        "id": "BasothoOralPoetry",
         "type": "thesis",
         "title": "Basotho oral poetry at the beginning of the 21st century",
         "author": [
@@ -4209,7 +4019,6 @@
         "URL": "http://uir.unisa.ac.za/handle/10500/1362"
     },
     "UltraStrongMorris": {
-        "id": "UltraStrongMorris",
         "type": "article-journal",
         "title": "Calculating Ultrastrong and Extended Solutions for Nine Men’s Morris, Morabaraba, and Lasker Morris",
         "author": [
@@ -4232,7 +4041,6 @@
         "URL": "https://ieeexplore.ieee.org/document/7080922/"
     },
     "MasculinityAccordion": {
-        "id": "MasculinityAccordion",
         "title": "Masculinity as a popular theme in the development of Basotho accordion music",
         "type": "thesis",
         "author": [
@@ -4249,7 +4057,6 @@
         "URL": "https://core.ac.uk/download/pdf/160476343.pdf"
     },
     "TransmitterOfAccolades": {
-        "id": "TransmitterOfAccolades",
         "type": "article-newspaper",
         "title": "Transmitter of accolades to the deserving",
         "author": [
@@ -4267,7 +4074,6 @@
         "URL": "https://www.iol.co.za/business-report/opinion/transmitter-of-accolades-to-the-deserving-18185114"
     },
     "SesothoFarming": {
-        "id": "SesothoFarming",
         "type": "thesis",
         "title": "Sesotho farming: the condition and prospects of agriculture in the lowlands and foothills of Lesotho",
         "author": [
@@ -4283,7 +4089,6 @@
         "URL": "https://eprints.soas.ac.uk/29099/1/10731194.pdf"
     },
     "SaudahBhaimia": {
-        "id": "SaudahBhaimia",
         "type": "webpage",
         "issued": {
             "year": 2021
@@ -4294,7 +4099,6 @@
         "URL": "https://esportscommentator.blogspot.com/2021/02/saudah-bhaimia-curro-klerksdorp-leads.html"
     },
     "TimeOfCannibals": {
-        "id": "TimeOfCannibals",
         "type": "book",
         "title": "In the time of cannibals: the word music of South Africa’s Basotho migrants",
         "issued": {
@@ -4312,7 +4116,6 @@
         "ISBN": "0-266-11573-9"
     },
     "LaRegleDuTemple": {
-        "id": "LaRegleDuTemple",
         "type": "book",
         "title": "La Règle Du Temple",
         "title-lang": "fr",
@@ -4332,7 +4135,6 @@
         "URL": "https://archive.org/details/DeCurzonHenriLaRegleDuTemple"
     },
     "TheRuleOfTheTemplars": {
-        "id": "TheRuleOfTheTemplars",
         "type": "book",
         "title": "The Rule of the Templars",
         "author": [
@@ -4349,14 +4151,12 @@
         "ISBN": "0-85115-315-1"
     },
     "CroxleyHistory": {
-        "id": "CroxleyHistory",
         "type": "book",
         "title": "Croxley Stationery",
         "publisher": "Croxley Stationery",
         "URL": "https://www.yumpu.com/en/document/read/8966910/croxley-stationery"
     },
     "CroxleyClosing": {
-        "id": "CroxleyClosing",
         "type": "article-newspaper",
         "title": "Croxley confirms factory closure, 100 job losses",
         "publisher": "1 NEWS",
@@ -4369,7 +4169,6 @@
         }
     },
     "DRGCompany": {
-        "id": "DRGCompany",
         "type": "webpage",
         "title": "Companies Register: DRNZ Limited",
         "URL": "https://app.companiesoffice.govt.nz/companies/app/ui/pages/companies/87664",
@@ -4379,7 +4178,6 @@
         }
     },
     "EmperorOfJapan": {
-        "id": "EmperorOfJapan",
         "type": "book",
         "URL": "https://archive.org/details/emperorofjapanme00keen",
         "title": "Emperor of Japan: Meiji and His world, 1852–1912",
@@ -4397,7 +4195,6 @@
         "ISBN": "0-231-12340-X"
     },
     "GrantsToKugeNobles": {
-        "id": "GrantsToKugeNobles",
         "title": "Grants to the <span lang='ja-Latn'>Kuge</span> Nobles",
         "type": "article-newspaper",
         "container-title": "The Japan Weekly Mail",
@@ -4414,7 +4211,6 @@
         "URL": "https://archive.org/details/japandailymail2118unse/page/354/mode/2up"
     },
     "UtaawaseJudgments": {
-        "id": "UtaawaseJudgments",
         "title": "<span lang='ja-Latn'>Uta&shy;awase</span> Judgments as Poetry Criticism",
         "author": [
             {
@@ -4433,7 +4229,6 @@
         "URL": "https://www.jstor.org/stable/2052411"
     },
     "JapaneseAristocraticLife": {
-        "id": "JapaneseArtistocraticLife",
         "type": "book",
         "title": "A Tale of Flowering Fortunes: Annals of Japanese Aristocratic Life in the Heian Period",
         "URL": "https://archive.org/details/taleoffloweringf0000unse",
@@ -4454,7 +4249,6 @@
         "publisher-place": "Stanford, CA, USA"
     },
     "MuseInCompetition": {
-        "id": "MuseInCompetition",
         "title": "The Muse in Competition: Uta-awase Through The Ages",
         "type": "article-journal",
         "container-title": "Monumenta Nipponica",
@@ -4475,7 +4269,6 @@
         "URL": "https://www.jstor.org/stable/2384242"
     },
     "BrocadeByNight": {
-        "id": "BrocadeByNight",
         "title": "Brocade by Night: “Kokin Wakashu” and the court style in Japanese classic poetry",
         "type": "book",
         "author": [
@@ -4493,7 +4286,6 @@
         "URL": "https://archive.org/details/brocadebynightko00mccu"
     },
     "JapaneseFloralCalendar": {
-        "id": "JapaneseFloralCalendar",
         "type": "book",
         "title": "The Japanese Floral Calendar",
         "issued": {
@@ -4510,7 +4302,6 @@
         "URL": "https://archive.org/details/japanesefloralca00clemrich"
     },
     "OpeningKamigataya": {
-        "id": "OpeningKamigataya",
         "type": "webpage",
         "URL": "https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/",
         "title": "<span lang='ja'>花札の公然の販売‥‥「上方屋」の挑戦</span>",
@@ -4527,7 +4318,6 @@
         }
     },
     "AstuteBusinessman": {
-        "id": "AstuteBusinessman",
         "URL": "https://www.nzherald.co.nz/whanganui-chronicle/news/museum-notebook-whanganui-philanthropist-also-an-astute-businessman/KGR57UHEBIWHL2RKIYZGBVP26U/",
         "title": "Museum Notebook: Whanganui philanthropist also an astute businessman",
         "type": "article-newspaper",
@@ -4545,7 +4335,6 @@
         ]
     },
     "TaxStampNZ": {
-        "id": "TaxStampNZ",
         "type": "webpage",
         "title": "Playing-Card Tax Stamps from New Zealand",
         "author": [
@@ -4561,7 +4350,6 @@
         "URL": "http://www.endebrock.de/stamps/st-nz.html"
     },
     "FlowersAndGardensOfJapan": {
-        "id": "FlowersAndGardensOfJapan",
         "type": "book",
         "title": "The Flowers And Gardens Of Japan",
         "author": [
@@ -4578,7 +4366,6 @@
         "URL": "https://archive.org/details/in.ernet.dli.2015.222896"
     },
     "JapaneseInstagramUsers": {
-        "id": "JapaneseInstagramUsers",
         "type": "webpage",
         "title": "Instagram Users in Japan, April 2021",
         "issued": {
@@ -4588,7 +4375,6 @@
         "URL": "https://napoleoncat.com/stats/instagram-users-in-japan/2021/04"
     },
     "KoreanInstagramUsers": {
-        "id": "KoreanInstagramUsers",
         "type": "webpage",
         "title": "Instagram Users in Korea, April 2021",
         "issued": {
@@ -4598,7 +4384,6 @@
         "URL": "https://napoleoncat.com/stats/instagram-users-in-republic_of_korea/2021/04"
     },
     "JapaneseBusinessmen1914": {
-        "id": "JapaneseBusinessmen1914",
         "type": "book",
         "title": "日本全国商工人名録",
         "title-lang": "ja",
@@ -4611,7 +4396,6 @@
         }
     },
     "JapaneseBusinessmen1916": {
-        "id": "JapaneseBusinessmen1916",
         "type": "book",
         "title": "日本全国商工人名録",
         "title-lang": "ja",
@@ -4624,7 +4408,6 @@
         }
     },
     "Trademarks1905": {
-        "id": "Trademarks1905",
         "type": "book",
         "title": "日本登録商標大全. 第六編",
         "title-lang": "ja",
@@ -4637,7 +4420,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/845526"
     },
     "UniversalInfo": {
-        "id": "UniversalInfo",
         "type": "chapter",
         "title": "ウニバーセルトランプ",
         "title-lang": "ja",
@@ -4653,7 +4435,6 @@
         "page": "472"
     },
     "Trademarks1924_7": {
-        "id": "Trademarks1924_7",
         "type": "book",
         "title": "日本登録商標大全. 　第７輯　下",
         "title-lang": "ja",
@@ -4666,7 +4447,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941553"
     },
     "Trademarks1924_8": {
-        "id": "Trademarks1924_8",
         "type": "book",
         "title": "日本登録商標大全. 　第８輯　下",
         "title-lang": "ja",
@@ -4679,7 +4459,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941555"
     },
     "Trademarks1924_9": {
-        "id": "Trademarks1924_9",
         "type": "book",
         "title": "日本登録商標大全. 　第９輯　下",
         "title-lang": "ja",
@@ -4692,7 +4471,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941557"
     },
     "Trademarks1924_11": {
-        "id": "Trademarks1924_11",
         "type": "book",
         "title": "日本登録商標大全. 　第１１輯　下",
         "title-lang": "ja",
@@ -4705,7 +4483,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941560"
     },
     "Trademarks1924_5": {
-        "id": "Trademarks1924_5",
         "type": "book",
         "title": "日本登録商標大全. 　第５輯　下",
         "title-lang": "ja",
@@ -4718,7 +4495,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941550"
     },
     "Trademarks1924_14": {
-        "id": "Trademarks1924_14",
         "type": "book",
         "title": "日本登録商標大全. 　第１４輯　下",
         "title-lang": "ja",
@@ -4731,7 +4507,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941566"
     },
     "Trademarks1924_15": {
-        "id": "Trademarks1924_15",
         "type": "book",
         "title": "日本登録商標大全. 　第１５輯　下",
         "title-lang": "ja",
@@ -4744,7 +4519,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941568"
     },
     "Trademarks1924_17": {
-        "id": "Trademarks1924_17",
         "type": "book",
         "title": "日本登録商標大全. 　第１７輯　下",
         "title-lang": "ja",
@@ -4757,7 +4531,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941572"
     },
     "Trademarks1924_18": {
-        "id": "Trademarks1924_18",
         "type": "book",
         "title": "日本登録商標大全. 　第１８輯　下",
         "title-lang": "ja",
@@ -4770,7 +4543,6 @@
         "URL": "https://dl.ndl.go.jp/info:ndljp/pid/941574"
     },
     "LoanWordsIndonesian": {
-        "id": "LoanWordsIndonesian",
         "type": "book",
         "title": "Loan-words in Indonesian and Malay",
         "editor": [
@@ -4787,7 +4559,6 @@
         "ISBN": "9789067183048"
     },
     "GatewayToOldSchoolGames": {
-        "id": "GatewayToOldSchoolGames",
         "type": "book",
         "title": "Gateway to Old School Games",
         "publisher": "Asiapac Books",
@@ -4798,7 +4569,6 @@
         "ISBN": "978-981-229-949-9"
     },
     "GamblingGamesOfMalaya": {
-        "id": "GamblingGamesOfMalaya",
         "type": "book",
         "title": "Gambling Games of Malaya",
         "author": [
@@ -4814,7 +4584,6 @@
         }
     },
     "NyonyaMosaic": {
-        "id": "NyonyaMosaic",
         "type": "book",
         "title": "A Nyonya Mosaic: Memoirs of a Paranakan Childhood",
         "author": [
@@ -4831,7 +4600,6 @@
         "ISBN": "9789814435529"
     },
     "BabaMalayDictionary": {
-        "id": "BabaMalayDictionary",
         "type": "book",
         "title": "A Baba Malay Dictionary",
         "author": [
@@ -4849,7 +4617,6 @@
         "URL": "https://www.google.co.nz/books/edition/Baba_Malay_Dictionary/XrxGCgAAQBAJ"
     },
     "ChikiCards": {
-        "id": "ChikiCards",
         "type": "article-journal",
         "title": "Chiki Cards and Three Chiki Games",
         "author": [
@@ -4867,7 +4634,6 @@
         "page": "119–128"
     },
     "BalineseChineseCommunity": {
-        "id": "BalineseChineseCommunity",
         "type": "article-journal",
         "title": "Reterritorializdtion of a Balinese Chinese Community in Quanzhou, Fujian",
         "author": [
@@ -4886,7 +4652,6 @@
         "URL": "https://www.jstor.org/stable/40664924"
     },
     "ChiChiPai": {
-        "id": "ChiChiPai",
         "title": "Chi Chi Pai",
         "type": "webpage",
         "author": [
@@ -4902,7 +4667,6 @@
         "URL": "https://www.wopc.co.uk/belgium/mesmaeker/chi-chi-pai"
     },
     "ChineseOfTheStraitsSettlements": {
-        "id": "ChineseOfTheStraitsSettlements",
         "type": "book",
         "title": "The manners and customs of the Chinese of the straits settlements",
         "author": [
@@ -4919,11 +4683,13 @@
         "URL": "https://archive.org/details/dli.ministry.04146"
     },
     "TheBabas": {
-        "id": "TheBabas",
         "type": "book",
         "title": "The Babas",
         "author": [
-            {"family": "Chia", "given": "Felix"}
+            {
+                "family": "Chia",
+                "given": "Felix"
+            }
         ],
         "publisher": "Times Books International",
         "publisher-place": "Singapore",
@@ -4934,35 +4700,45 @@
         "URL": "https://archive.org/details/babas0000chia"
     },
     "TraditionCardGameCeki": {
-        "id": "TraditionCardGameCeki",
         "type": "article-journal",
         "title": "Tradition Card Game <span lang='ms'>Ceki</span>: Community Identity Chinese Melay Meday, Minang, and Bali",
         "author": [
-            {"family": "Alkatiry", "given": "Zeffry"},
-            {"family": "Aviandy", "given": "Mochammad"}
+            {
+                "family": "Alkatiry",
+                "given": "Zeffry"
+            },
+            {
+                "family": "Aviandy",
+                "given": "Mochammad"
+            }
         ],
         "container-title": "International Review of Humanities Studies",
         "page": "274–286",
         "volume": 3,
         "issue": 2,
-        "issued":{"year": 2018},
+        "issued": {
+            "year": 2018
+        },
         "URL": "https://scholar.ui.ac.id/en/publications/tradition-card-game-ceki-community-identity-chinese-malay-medan-m"
-    }, 
+    },
     "MemoryOfTheWorldRegister": {
-        "id":"MemoryOfTheWorldRegister",
         "type": "article-journal",
         "title": "The Memory of the World Register: The Sultan Abdul Hamid Correspondence and Kedah history",
         "author": [
-            {"family": "Musa", "given": "Mahani"}
+            {
+                "family": "Musa",
+                "given": "Mahani"
+            }
         ],
-        "issued": {"year": 2015},
+        "issued": {
+            "year": 2015
+        },
         "container-title": "Kajian Malaysia",
         "volume": 33,
         "issue": "Supp. 2",
         "page": "53–74"
     },
     "RancangBangun": {
-        "id": "RancangBangun",
         "type": "thesis",
         "title": "Rancang Bangun Permainan Ceki <em>Online</em>",
         "title-lang": "ban",
@@ -4972,16 +4748,21 @@
             "year": 2012
         },
         "author": [
-            {"given": "I Putu Arya Kusuma Wijaya",
-                 "family": "Wijaya"}
+            {
+                "given": "I Putu Arya Kusuma Wijaya",
+                "family": "Wijaya"
+            }
         ],
         "URL": "https://ee.unud.ac.id/index.php?p=divisi&act=TampilkanAbstrak&idd=6&idtah=22"
     },
     "LombokCeki": {
-        "id": "LombokCeki",
         "type": "webpage",
         "title": "Anonymous comment on “Nama-nama Kartu KOA”",
-        "author": [{"given":"Unknown"}],
+        "author": [
+            {
+                "given": "Unknown"
+            }
+        ],
         "issued": {
             "year": 2016
         },
@@ -4989,17 +4770,236 @@
         "URL": "http://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html?showComment=1461669020922#c1535841351149970488"
     },
     "JavanischeKartenspiele": {
-        "id": "JavanischeKartenspiele",
         "type": "article-journal",
         "title": "Javanische Kartenspiele",
         "title-lang": "de",
-        "author":[{"given": "O. D.", "family": "Tauern"}],
+        "author": [
+            {
+                "given": "O. D.",
+                "family": "Tauern"
+            }
+        ],
         "container-title": "Zeitschrift für Ethnologie",
         "container-title-lang": "de",
         "URL": "https://www.jstor.org/stable/23031254",
         "volume": 46,
         "issue": 1,
-        "issued": {"year": 1914},
+        "issued": {
+            "year": 1914
+        },
         "page": "45–48"
+    },
+    "TheChiefOfHisTribe": {
+        "type": "article-magazine",
+        "title": "The Chief of His Tribe: The Life and Times of John Thomas Tumbler, Jr.",
+        "page": "252–258",
+        "container-title": "The Knickerbocker",
+        "author": [
+            {
+                "given": "Anonymous"
+            }
+        ],
+        "issued": {
+            "year": 1837,
+            "month": 9
+        },
+        "URL": "https://archive.org/details/sim_foederal-american-monthly_1837-09_10_3/page/252"
+    },
+    "GamesOfChanceAsAmusement": {
+        "type": "article-magazine",
+        "title": "Games of Chance as an Amusement",
+        "page": "252–258",
+        "container-title": "The Ladies’ Repository",
+        "author": [
+            {
+                "given": "B. H.",
+                "family": "Nadal"
+            }
+        ],
+        "issued": {
+            "year": 1864,
+            "month": 3
+        },
+        "URL": "https://archive.org/details/ladiesrepositor02confgoog/page/n168"
+    },
+    "TheCamdenRaceCourse": {
+        "type": "article-magazine",
+        "title": "The Camden Race Course",
+        "container-title": "The Friend",
+        "author": [
+            {
+                "given": "“M”"
+            }
+        ],
+        "issued": {
+            "year": 1845,
+            "month": 6,
+            "day": 21
+        },
+        "volume": 18,
+        "issue": 39,
+        "publisher-place": "Philadelphia, PA, USA",
+        "publisher": "Joseph Kite & Co.",
+        "URL": "https://archive.org/details/friendreligiousl184445smit/page/304"
+    },
+    "IndictmentsAndPleas": {
+        "type": "book",
+        "title": "Precedents of indictments and pleas, adapted to the use both of the courts of the United States and those of all the several states: together with notes on criminal pleading and practice, embracing the English and American authorities generally",
+        "author": [
+            {
+                "given": "Francis",
+                "family": "Wharton"
+            }
+        ],
+        "issued": {
+            "year": 1849
+        },
+        "publisher": "James Kay, Jr. & Brother",
+        "publisher-place": "Philadelphia, PA, USA",
+        "URL": "https://archive.org/details/precedentsofindi00whar"
+    },
+    "SiKlegg": {
+        "type": "book",
+        "title": "Corporal Si Klegg and his “Pard.”",
+        "author": [
+            {
+                "given": "Wilbur F.",
+                "family": "Hinman"
+            }
+        ],
+        "issued": {
+            "year": 1887
+        },
+        "publisher": "The Williams Publishing Company",
+        "publisher-place": "Cleveland, Ohio, USA"
+    },
+    "WanderingsofaVagabond": {
+        "type": "book",
+        "title": "Wanderings of a Vagabond",
+        "author": [
+            {
+                "given": "John",
+                "family": "O’Connor"
+            }
+        ],
+        "publisher": "John O’Connor",
+        "publisher-place": "New York",
+        "issued": {
+            "year": 1873
+        },
+        "URL": "https://archive.org/details/wanderingsofvaga00oconiala"
+    },
+    "FoolsOfFortuneOrGamblingAndGamblers": {
+        "type": "book",
+        "title": "Fools of Fortune, or, Gambling and Gamblers",
+        "author": [
+            {
+                "given": "John Philip",
+                "family": "Quinn"
+            }
+        ],
+        "issued": {
+            "year": 1890
+        },
+        "publisher": "G. L. Howe & Co.",
+        "publisher-place": "Chicago, IL, USA",
+        "URL": "https://archive.org/details/FoolsOfFortuneOrGamblingAndGamblers"
+    },
+    "TheAmericanHoyle": {
+        "type": "book",
+        "title": "The American Hoyle",
+        "issued": {
+            "year": 1864
+        },
+        "author": [
+            {
+                "given": "William Brisbane",
+                "family": "Dick"
+            }
+        ],
+        "edition": 4,
+        "publisher": "Dick & Fitzgerald",
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://archive.org/details/americanhoyleorg00dick"
+    },
+    "GamblingAndGamblingDevices": {
+        "type": "book",
+        "title": "Gambling and Gambling Devices",
+        "author": [
+            {
+                "given": "John Philip",
+                "family": "Quinn"
+            }
+        ],
+        "issued": {
+            "year": 1912
+        },
+        "publisher": "J. P. Quinn Co.",
+        "publisher-place": "Canton, OH, USA",
+        "URL": "https://archive.org/details/gamblinggambling01quin"
+    },
+    "ATourOfStLouis": {
+        "type": "book",
+        "title": "A Tour of St. Louis",
+        "author": [
+            {
+                "family": "Dacus",
+                "given": "Joseph A."
+            },
+            {
+                "family": "Buel",
+                "given": "James W."
+            }
+        ],
+        "publisher": "Western Publishing Company",
+        "publisher-place": "St. Louis, MO, USA",
+        "issued": {
+            "year": 1878
+        },
+        "URL": "https://archive.org/details/tourofstlouisori01dacu"
+    },
+    "ADictionaryOfTheSlangAndCantLanguages": {
+        "type": "book",
+        "title": "A Dictionary of the Slang and Cant Languages: Ancient and Modern",
+        "author": [
+            {
+                "given": "George",
+                "family": "Andrewes"
+            }
+        ],
+        "issued": {
+            "year": 1809
+        },
+        "publisher": "George Smeeton",
+        "publisher-place": "Covent Garden",
+        "URL": "https://www.google.co.nz/books/edition/A_Dictionary_of_the_Slang_and_Cant_Langu/BKNWAAAAcAAJ"
+    },
+    "Vocabulum": {
+        "type": "book",
+        "title": "Vocabulum; or, the Rogue’s Lexicon",
+        "author": [
+            {
+                "given": "George W.",
+                "family": "Matsell"
+            }
+        ],
+        "publisher": "George W. Matsell & Co.",
+        "publisher-place": "New York, NY, USA",
+        "issued": {
+            "year": 1859
+        },
+        "URL": "https://archive.org/details/cu31924073798740"
+    },
+    "MarylandGazetteFeb141810": {
+        "type": "article-newspaper",
+        "title": "American Intelligence",
+        "URL": "https://archive.org/details/mg02071810/page/n3/mode/2up",
+        "author": [{"given":"Anonymous"}],
+        "issued": {
+            "year": 1810,
+            "month": 2,
+            "day": 14
+        },
+        "container-title": "Maryland Gazette"
     }
 }

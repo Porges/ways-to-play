@@ -84,8 +84,6 @@ import imgFlowerJokers from '../Flower_jokers.jpg';
 import imgRainbowJokers from '../Rainbow_jokers.jpg';
 import imgKoiKoiSetup from './Hanafuda_Koi-Koi_Setup.jpg';
 
-import { ModernKoreanCards } from 'References/bibliography.json';
-
 const louieSource: SourceInfo = {
   author: {
     family: "Mantia",
@@ -151,7 +149,7 @@ const Basics: React.FC = () => {
             ]}
             source={louieSource}
             perRow={5}>The bright cards.</ArticleImage>
-          <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<Footnote><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has claimed that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r={ModernKoreanCards} /></Footnote></p>
+          <p>In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.<Footnote><Noun lang="ja-Latn">Maeda Masafumi</Noun> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has claimed that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.<Cite r="ModernKoreanCards" /></Footnote></p>
           <ArticleImage size="small" src={img5Brights} alt="TODO">The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.</ArticleImage>
           <ArticleImage size="small" src={img5BrightsKr} alt="TODO">The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.</ArticleImage>
         </Section>

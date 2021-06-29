@@ -3,8 +3,6 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 
 import { Cite, Noun, Cards, Footnote, ArticleImage, Section, Description } from 'ui';
-import { ChikiCards, TheBabas, GatewayToOldSchoolGames, GamblingGamesOfMalaya } from "References/bibliography.json";
-import { Table } from 'react-bootstrap';
 
 import imgMaryRose from './maryrose_daldos.jpg';
 

@@ -1,7 +1,6 @@
 import * as React from 'react';
 
 import { ArticleImage, Cite, Section, Footnote } from 'ui';
-import { WCF } from 'References/bibliography.json';
 
 import imgCamelotBox from './camelot.jpg';
 import imgCamelotBoard from './camelot_board.jpg';
@@ -48,7 +47,7 @@ const Camelot: React.FC = () => (
       <p>In 1930 he simplified the game of Chivalry to produce Camelot, and received a patent <a href="https://patents.google.com/patent/US1780038">US1780038</a> for the game. Camelot remained popular until the 1960s, but was eventually discontinued in 1968. In 1985 the game was re-introduced as <span className="game-title">“Inside Moves”</span> but production stopped a year later.</p>
       <p>Parker called Chivalry “the best game in 2000 years”, and he was clearly enamoured with it. After his death in 1952, his wife commissioned stained-glass windows for the First Church in Salem in his memory,<Footnote>Images of the windows can be seen <a href="http://www.worldcamelotfederation.com/Art.htm">on the WCF website</a>.</Footnote> and they include the knight featured on the Camelot box front (also included is another game called <a
         href="https://boardgamegeek.com/boardgame/186268/knights-journey">The Knight’s Journey</a>{/* https://mysteriouswritings.com/my-1928-knights-in-shining-armor/*/}).</p>
-      <p>In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to popularize the game on the internet.<Cite r={WCF} /> The rules descriptions below are based on his website (they differ slightly from the original rules supplied by Parker Brothers).</p>
+      <p>In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to popularize the game on the internet.<Cite r="WCF" /> The rules descriptions below are based on his website (they differ slightly from the original rules supplied by Parker Brothers).</p>
     </Section>
     <Section title="Basic Rules">
       <p>Across all the variations of Camelot, there are only two different pieces—the foot-soldier and the knight—and these pieces have the same powers of movement and capture in each game.</p>
