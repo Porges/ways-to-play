@@ -7,8 +7,11 @@ import { Col, Row, Badge, Container } from 'react-bootstrap';
 import * as Meta from './Meta';
 import { Article } from '../../ui';
 
+
+
 type GamesListProps = RouteComponentProps<
-  {} | { players: string } | { playersMin: string, playersMax: string }>
+  { equipment?: string } &
+  ({} | { players: string } | { playersMin: string, playersMax: string })>
 
 const GamesList: React.FC<GamesListProps> = ({ location, match }) => {
 
@@ -24,7 +27,15 @@ const GamesList: React.FC<GamesListProps> = ({ location, match }) => {
     const max = parseInt(match.params.playersMax);
 
     title += `, ${min}–${max} players`;
-    allGames = allGames.filter(([path, g]) => g.players.some(p => p >= min && p <= max));
+    allGames = allGames.filter(([_, g]) => g.players.some(p => p >= min && p <= max));
+  }
+
+  { // equipment parameter
+    const e = match.params.equipment;
+    if (e !== '' && e !== undefined && e in Meta.Equipment) {
+      title += `, played with ${Meta.Equipment[e as keyof typeof Meta.Equipment]}`;
+      allGames = allGames.filter(([_, g]) => g.equipment === e);
+    }
   }
 
   return (<>
@@ -39,6 +50,11 @@ const GamesList: React.FC<GamesListProps> = ({ location, match }) => {
           </ul>
         </Col>
         <Col>
+          <h3>By equipment</h3>
+          <ul>
+            { Object.entries(Meta.Equipment).map(([key, name]) => 
+              <li key={key}><Link to={`/games/equipment=${key}`}>{name}</Link></li>)}
+          </ul>
           {/*
             <h3>By country</h3>
             <ul>
@@ -115,6 +131,7 @@ export const Games: React.FC<RouteComponentProps> = ({ match }) => {
   return (
     <Switch>
       <Route path={match.path} exact component={GamesList} />
+      <Route path={`${match.path}/equipment=:equipment`} component={GamesList} />
       <Route path={`${match.path}/players=:players(\\d+)`} component={GamesList} />
       <Route path={`${match.path}/players=:playersMin(\\d+)-:playersMax(\\d+)`} component={GamesList} />
       <Route path={`${match.path}/:id`} component={GameArticle} />

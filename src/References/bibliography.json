@@ -4994,12 +4994,93 @@
         "type": "article-newspaper",
         "title": "American Intelligence",
         "URL": "https://archive.org/details/mg02071810/page/n3/mode/2up",
-        "author": [{"given":"Anonymous"}],
+        "author": [
+            {
+                "given": "Anonymous"
+            }
+        ],
         "issued": {
             "year": 1810,
             "month": 2,
             "day": 14
         },
         "container-title": "Maryland Gazette"
+    },
+    "ScarneGambling": {
+        "type": "book",
+        "title": "Scarne’s New Complete Guide to Gambling",
+        "author": [
+            {
+                "family": "Scarne",
+                "given": "John"
+            }
+        ],
+        "issued": {
+            "year": 1986
+        },
+        "publisher": "Fireside Books"
+    },
+    "KernanCatalogue": {
+        "type": "book",
+        "title": "Catalogue of Supplies for Saloon, Billiard Hall and Club Room Use",
+        "publisher": "Kernan Manufacturing Co.",
+        "issued": {
+            "year": 1901
+        },
+        "publisher-place": "Chicago, IL, USA"
+    },
+    "CubicMutualPool": {
+        "type": "article-newspaper",
+        "title": "Armourdale",
+        "issued": {
+            "year": 1888,
+            "month": 1,
+            "day": 20
+        },
+        "page": 8,
+        "container-title": "The Weekly Gazette",
+        "publisher-place": "Kansas City, Kansas, USA",
+        "author": [
+            {
+                "given": "Anonymous"
+            }
+        ],
+        "URL": "https://www.newspapers.com/clip/80585149/chuck-luck-and-cubic-mutual-pool/"
+    },
+    "RobbingTommyAtkins": {
+        "type": "article-newspaper",
+        "title": "Robbing Tommy Atkins",
+        "issued": {
+            "year": 1902,
+            "month": 9,
+            "day": 24
+        },
+        "page": 5,
+        "author": [
+            {
+                "given": "Anonymous"
+            }
+        ],
+        "container-title": "The Ottawa Citizen",
+        "publisher-place": "Ottawa, Ontario, Canada",
+        "URL": "https://www.newspapers.com/clip/80586303/earliest-mention-of-crown-anchor-game/"
+    },
+    "FromTombsBaker": {
+        "type": "article-newspaper",
+        "title": "From Tombs Baker warns boys against bad company",
+        "issued": {
+            "year": 1908,
+            "month": 4,
+            "day": 17
+        },
+        "page": 29,
+        "author": [
+            {
+                "given": "Anonymous"
+            }
+        ],
+        "container-title": "The Pittsburgh Press",
+        "publisher-place": "Pittsburgh, PA, USA",
+        "URL": "https://www.newspapers.com/clip/80586437/the-pittsburgh-press/"
     }
 }

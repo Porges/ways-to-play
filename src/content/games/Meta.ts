@@ -1,11 +1,17 @@
 import * as React from 'react';
 
-import { ArticleContent, SourceInfo } from '../../ui';
+import { ArticleContent } from '../../ui';
 
 import imgBalikSatu from './BalikSatu/shutterstock_1900515673.jpg';
 
+export const Equipment = {
+  "ceki": "Ceki cards",
+  "dice": "Dice",
+} as const;
+
 export type GameMeta = Readonly<{
   players: readonly number[],
+  equipment?: keyof typeof Equipment,
 } & ArticleContent>
 
 const games = {
@@ -13,6 +19,7 @@ const games = {
     title: "Balik Satu",
     titleLang: "ms",
     players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    equipment: "ceki" as const,
     import: React.lazy(() => import('./BalikSatu/BalikSatu')),
     hero: {
       img: imgBalikSatu,
@@ -22,13 +29,14 @@ const games = {
         author: "khooiay",
         identifier: "1900515673",
         originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
-      } as SourceInfo,
+      } as const,
     },
   },
   'cholek-tiga': {
     title: "Cholek Tiga",
     titleLang: "ms",
     players: [2, 3],
+    equipment: "ceki" as const,
     import: React.lazy(() => import(/* webpackChunkName: 'cholek-tiga' */ './CholekTiga/CholekTiga')),
     hero: {
       img: imgBalikSatu,
@@ -38,7 +46,7 @@ const games = {
         author: "khooiay",
         identifier: "1900515673",
         originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
-      } as SourceInfo,
+      } as const,
     },
   },
   'daldos': {
@@ -48,10 +56,17 @@ const games = {
     import: React.lazy(() => import('./Daldos/Daldos')),
     draft: true,
   },
-  'dice-staking': {
-    title: "Dice staking games",
+  'chuck-a-luck': {
+    title: "Chuck-A-Luck",
+    equipment: "dice" as const,
     players: [],
-    import: React.lazy(() => import('./SimpleStakes/SimpleStakes')),
+    import: React.lazy(() => import('./ChuckALuck/ChuckALuck')),
+  },
+  'crown-and-anchor': {
+    title: "Crown & Anchor",
+    equipment: "dice" as const,
+    players: [],
+    import: React.lazy(() => import('./CrownAndAnchor/CrownAndAnchor')),
     draft: true,
   },
   'gunjin-shoji': {

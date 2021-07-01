@@ -537,6 +537,8 @@ span.footnote::before {
     }
 }
 
+/*
+TODO
 @media print {
     section[itemprop="articleBody"] {
         margin-right: 35%;
@@ -561,12 +563,14 @@ span.footnote::before {
       margin-right: -60%;
     }
 }
+*/
 
 /*** Multiple items in a row: ***/
 div.multi {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    margin-bottom: 1rem;
 }
 
 // margins for children
