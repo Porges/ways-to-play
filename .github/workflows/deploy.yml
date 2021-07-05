@@ -10,12 +10,19 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - name: Cache image files
+    - name: Cache compressed image files
       uses: actions/cache@v2
       with:
         path: cache
-        key: ${{ runner.os }}-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.bmp') }}
-        restore-keys: ${{ runner.os }}-images
+        key: ${{ runner.os }}-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.svg') }}
+        restore-keys: ${{ runner.os }}-images-
+
+    - name: Cache responsive image files
+      uses: actions/cache@v2
+      with:
+        path: cache-responsive
+        key: ${{ runner.os }}-resized-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.bmp') }}
+        restore-keys: ${{ runner.os }}-resized-images-
 
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path

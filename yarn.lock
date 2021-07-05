@@ -4201,7 +4201,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap@npm:^4.4.1":
+"bootstrap@npm:4.6":
   version: 4.6.0
   resolution: "bootstrap@npm:4.6.0"
   peerDependencies:
@@ -5029,7 +5029,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color@npm:^3.0.0, color@npm:^3.1.2":
+"color@npm:^3.0.0, color@npm:^3.1.3":
   version: 3.1.3
   resolution: "color@npm:3.1.3"
   dependencies:
@@ -5925,15 +5925,6 @@ __metadata:
   dependencies:
     mimic-response: ^2.0.0
   checksum: d854171a100833d66171ffba0990fc581133cfb62befc18edd2365edc40e8a48f9f96b6156465f1a74802112b9c241c792d865f5ee27e285c2e4417a17ac6c66
-  languageName: node
-  linkType: hard
-
-"decompress-response@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "decompress-response@npm:6.0.0"
-  dependencies:
-    mimic-response: ^3.1.0
-  checksum: bb8b8c42be7767994764d27f91a3949e3dc9008da82f1aaeab1de40f1ebb50d7abf17b31b2e4000f8d267a1e75f76052efd58d4419124c04bf430e184c164fad
   languageName: node
   linkType: hard
 
@@ -11447,13 +11438,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"mimic-response@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "mimic-response@npm:3.1.0"
-  checksum: cfbf19f66de6ad46df7481d9e8c1a7f30b6fa77dd771ad4a72a0443265041a39768182bde6d1de39001c2774168635bc74f42902e401c8ba33db55d69b773004
-  languageName: node
-  linkType: hard
-
 "mini-create-react-context@npm:^0.4.0":
   version: 0.4.1
   resolution: "mini-create-react-context@npm:0.4.1"
@@ -11838,7 +11822,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-abi@npm:^2.7.0":
+"node-abi@npm:^2.21.0":
   version: 2.30.0
   resolution: "node-abi@npm:2.30.0"
   dependencies:
@@ -11847,7 +11831,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"node-addon-api@npm:^3.0.0":
+"node-addon-api@npm:^3.2.0":
   version: 3.2.1
   resolution: "node-addon-api@npm:3.2.1"
   dependencies:
@@ -11956,13 +11940,6 @@ fsevents@^1.2.7:
   version: 1.1.73
   resolution: "node-releases@npm:1.1.73"
   checksum: 8dbc7dd438c4e0a01e546cf73b8d3cc766f1ba3c40848d5cc8c6027eb8d87d54c4617eae036bed3c02e16f25e241ee2a4bd48fa528ebf6fe97d2c86c71ddfedc
-  languageName: node
-  linkType: hard
-
-"noop-logger@npm:^0.1.1":
-  version: 0.1.1
-  resolution: "noop-logger@npm:0.1.1"
-  checksum: 353d31cd08698c797af21069df593772a081b694d0edbb3f1d9aca526ddc414bb0992e3deb9aaf69ad197ddee3a5e3be6dd09043023d3abe385d2872a863829c
   languageName: node
   linkType: hard
 
@@ -13784,9 +13761,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"prebuild-install@npm:^5.3.4":
-  version: 5.3.6
-  resolution: "prebuild-install@npm:5.3.6"
+"prebuild-install@npm:^6.1.2":
+  version: 6.1.3
+  resolution: "prebuild-install@npm:6.1.3"
   dependencies:
     detect-libc: ^1.0.3
     expand-template: ^2.0.3
@@ -13794,18 +13771,16 @@ fsevents@^1.2.7:
     minimist: ^1.2.3
     mkdirp-classic: ^0.5.3
     napi-build-utils: ^1.0.1
-    node-abi: ^2.7.0
-    noop-logger: ^0.1.1
+    node-abi: ^2.21.0
     npmlog: ^4.0.1
     pump: ^3.0.0
     rc: ^1.2.7
     simple-get: ^3.0.3
     tar-fs: ^2.0.0
     tunnel-agent: ^0.6.0
-    which-pm-runs: ^1.0.0
   bin:
     prebuild-install: bin.js
-  checksum: 81ff157668dc26349e1f8076fce0ba990f45481e39a64645efad60c9ae2d61e73e3c420d56f5f38fbe6dc3275e8e27067d2613d941c778f41658a6110e544130
+  checksum: 4b9a6f4b9000648a3e38b96938b22bfa1fa4ced1f14fb290891d5ad182c621ccbfb14eb7e7d588448536c02a08c4727a19e42197d56308c3ff2ed1f18b4f1605
   languageName: node
   linkType: hard
 
@@ -14247,7 +14222,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-bootstrap@npm:^1.3.0":
+"react-bootstrap@npm:^1.6.1":
   version: 1.6.1
   resolution: "react-bootstrap@npm:1.6.1"
   dependencies:
@@ -15017,12 +14992,21 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"responsive-loader@npm:1.2.0":
-  version: 1.2.0
-  resolution: "responsive-loader@npm:1.2.0"
+"responsive-loader@npm:next":
+  version: 3.0.0-2
+  resolution: "responsive-loader@npm:3.0.0-2"
   dependencies:
-    loader-utils: ^1.1.0
-  checksum: 9bdd4197f6f64ab8592bf4a8fa07930e617e2f40ad37d895edcdf4363dc8259dbd5a026fa6ee1156f4f6cfc03bab2894ce3a19b01f88c48e6e84872d65cee8c4
+    find-cache-dir: ^3.3.1
+    loader-utils: ^2.0.0
+    schema-utils: ^3.0.0
+  peerDependencies:
+    webpack: ^4.0.0 || ^5.0.0
+  peerDependenciesMeta:
+    jimp:
+      optional: true
+    sharp:
+      optional: true
+  checksum: fae1efbf318560a9443b14624a996698bacdd954d12b61656482f1777dbd6cedafb1bd9bd739008c10ad9b75996e3d44a866fdc77d217ac909c12763b69137f0
   languageName: node
   linkType: hard
 
@@ -15596,21 +15580,20 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"sharp@npm:^0.25.3":
-  version: 0.25.4
-  resolution: "sharp@npm:0.25.4"
+"sharp@npm:^0.28.3":
+  version: 0.28.3
+  resolution: "sharp@npm:0.28.3"
   dependencies:
-    color: ^3.1.2
+    color: ^3.1.3
     detect-libc: ^1.0.3
-    node-addon-api: ^3.0.0
+    node-addon-api: ^3.2.0
     node-gyp: latest
-    npmlog: ^4.1.2
-    prebuild-install: ^5.3.4
-    semver: ^7.3.2
-    simple-get: ^4.0.0
-    tar: ^6.0.2
+    prebuild-install: ^6.1.2
+    semver: ^7.3.5
+    simple-get: ^3.1.0
+    tar-fs: ^2.1.1
     tunnel-agent: ^0.6.0
-  checksum: 1ae163a0e6095808b80f05e679c96be46552ee83b4105399c72d80c3ddb9e117946c5b3aebfd59372e346d0a509b49fa3a875691c654841f2f1e0e5a04266cde
+  checksum: 7490ab4afbb7a1987c011a5eb40be15873841d5dd92a66d47ec424f618daed616ed597533bb985dfabc2e186b5d8476a06003c84a618b749ae6f3de413cad736
   languageName: node
   linkType: hard
 
@@ -15685,7 +15668,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"simple-get@npm:^3.0.3":
+"simple-get@npm:^3.0.3, simple-get@npm:^3.1.0":
   version: 3.1.0
   resolution: "simple-get@npm:3.1.0"
   dependencies:
@@ -15693,17 +15676,6 @@ resolve@^2.0.0-next.3:
     once: ^1.3.1
     simple-concat: ^1.0.0
   checksum: f56f08765eafde034b379d38d3dd1eb9b9ffb41d090d8216e71dce6ea3936499ee34b20942773a2605b08e8abce940691bd06e110ac12d08f83917493078831e
-  languageName: node
-  linkType: hard
-
-"simple-get@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "simple-get@npm:4.0.0"
-  dependencies:
-    decompress-response: ^6.0.0
-    once: ^1.3.1
-    simple-concat: ^1.0.0
-  checksum: 91c007260dd92480b8dcd78b4310561967532e1ef9b4ec332a1aac6990c9a71d7477a8d05c84bb0165e4eb0e205fa620e37f42652dceea46c713084ae935e873
   languageName: node
   linkType: hard
 
@@ -16553,7 +16525,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tar-fs@npm:^2.0.0":
+"tar-fs@npm:^2.0.0, tar-fs@npm:^2.1.1":
   version: 2.1.1
   resolution: "tar-fs@npm:2.1.1"
   dependencies:
@@ -17599,20 +17571,20 @@ typescript@^4.1.5:
     "@types/react-router-dom": ^5.1.3
     "@types/slug": ^0.9.1
     "@types/uuid": ^8.0.0
-    bootstrap: ^4.4.1
+    bootstrap: 4.6
     gh-pages: ^3.1.0
     imagemin-webpack-plugin: ^2.4.2
     react: 17
-    react-bootstrap: ^1.3.0
+    react-bootstrap: ^1.6.1
     react-dom: 17
     react-helmet-async: ^1.0.2
     react-router: ^5.2.0
     react-router-dom: ^5.0.1
     react-scripts: 4.0
     react-snap: ^1.23.0
-    responsive-loader: 1.2.0
+    responsive-loader: next
     sass: ^1.35.1
-    sharp: ^0.25.3
+    sharp: ^0.28.3
     slug: ^3.3.0
     source-map-explorer: ^2.0.1
     tslib: ^2.0.0
@@ -17857,13 +17829,6 @@ typescript@^4.1.5:
   version: 2.0.0
   resolution: "which-module@npm:2.0.0"
   checksum: 3d2107ab18c3c2a0ffa4f1a2a0a8862d0bb3fd5c72b10df9cbd75a15b496533bf4c4dc6fa65cefba6fdb8af7935ffb939ef4c8f2eb7835b03d1b93680e9101e9
-  languageName: node
-  linkType: hard
-
-"which-pm-runs@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "which-pm-runs@npm:1.0.0"
-  checksum: 0bb79a782e98955afec8f35a3ae95c4711fdd3d0743772ee98211da67c2421fdd4c92c95c93532cc0b4dcc085d8e27f3ad2f8a9173cb632692379bd3d2818821
   languageName: node
   linkType: hard
 

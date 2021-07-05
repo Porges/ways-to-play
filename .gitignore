@@ -15,6 +15,7 @@ node_modules/
 
 # build cache
 /cache
+/cache-responsive
 
 # production
 /build
