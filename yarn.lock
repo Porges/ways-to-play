@@ -3654,7 +3654,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:^2.6.1, async@npm:^2.6.2":
+"async@npm:^2.6.2":
   version: 2.6.3
   resolution: "async@npm:2.6.3"
   dependencies:
@@ -5062,7 +5062,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^2.18.0, commander@npm:^2.20.0, commander@npm:^2.8.1":
+"commander@npm:^2.20.0, commander@npm:^2.8.1":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
   checksum: b73428e97de7624323f81ba13f8ed9271de487017432d18b4da3f07cfc528ad754bbd199004bd5d14e0ccd67d1fdfe0ec8dbbd4c438b401df3c4cc387bfd1daa
@@ -6531,13 +6531,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"email-addresses@npm:^3.0.1":
-  version: 3.1.0
-  resolution: "email-addresses@npm:3.1.0"
-  checksum: 657c0cd22f37c459769cca3ea76f4e8048b1d2af774d7ebdcb7039f88b407a22f8db23293a56144239a2fb1fd97ee2b22ef3191afce8b9ce8ae76e23121f4be7
-  languageName: node
-  linkType: hard
-
 "emittery@npm:^0.7.1":
   version: 0.7.2
   resolution: "emittery@npm:0.7.2"
@@ -7717,17 +7710,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filenamify@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "filenamify@npm:4.3.0"
-  dependencies:
-    filename-reserved-regex: ^2.0.0
-    strip-outer: ^1.0.1
-    trim-repeated: ^1.0.0
-  checksum: 6c7f151fdda7d484b78e1d6f5ebd69712e5c665cd2eec45e8c21db23a315f81601016ec30ca6bf4e8dd47790b04f5e260e2640ffc6d45fe40ba6ffeed5d85c02
-  languageName: node
-  linkType: hard
-
 "filesize@npm:6.1.0":
   version: 6.1.0
   resolution: "filesize@npm:6.1.0"
@@ -8212,24 +8194,6 @@ fsevents@^1.2.7:
   version: 2.0.6
   resolution: "get-value@npm:2.0.6"
   checksum: f08da3262718e0f2617703cc99ecd0ddb4cca1541b0022118f898824c99157778e044c802160688dc184b17e5a894d11c5771aaadc376c68cdf66bdbc25ff865
-  languageName: node
-  linkType: hard
-
-"gh-pages@npm:^3.1.0":
-  version: 3.2.3
-  resolution: "gh-pages@npm:3.2.3"
-  dependencies:
-    async: ^2.6.1
-    commander: ^2.18.0
-    email-addresses: ^3.0.1
-    filenamify: ^4.3.0
-    find-cache-dir: ^3.3.1
-    fs-extra: ^8.1.0
-    globby: ^6.1.0
-  bin:
-    gh-pages: bin/gh-pages.js
-    gh-pages-clean: bin/gh-pages-clean.js
-  checksum: d269bf829d600df3e5fe6cd76bea590a19c788b8135c1e8a653776ca6bf193a132116763bb7de6963e3ec090e1515018f7b774ea16726f1fc45eaed284c39a02
   languageName: node
   linkType: hard
 
@@ -16391,7 +16355,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"strip-outer@npm:^1.0.0, strip-outer@npm:^1.0.1":
+"strip-outer@npm:^1.0.0":
   version: 1.0.1
   resolution: "strip-outer@npm:1.0.1"
   dependencies:
@@ -17572,7 +17536,6 @@ typescript@^4.1.5:
     "@types/slug": ^0.9.1
     "@types/uuid": ^8.0.0
     bootstrap: 4.6
-    gh-pages: ^3.1.0
     imagemin-webpack-plugin: ^2.4.2
     react: 17
     react-bootstrap: ^1.6.1
