@@ -1,8 +1,7 @@
 
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 
-import { Cite, Noun, Cards, Footnote, ArticleImage, Section, Description } from 'ui';
+import { ArticleImage } from 'ui';
 
 import imgMaryRose from './maryrose_daldos.jpg';
 

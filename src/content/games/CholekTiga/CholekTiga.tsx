@@ -1,8 +1,7 @@
 
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 
-import { Cite, Noun, Cards, Footnote, ArticleImage, Section, Description } from 'ui';
+import { Cite, Noun, Footnote, ArticleImage, Section, Description } from 'ui';
 import { GameRef } from '../Game';
 
 import imgCS9 from 'content/articles/cards/ceki/CS9.jpg';

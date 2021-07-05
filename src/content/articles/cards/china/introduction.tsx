@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-import { Noun, Section } from 'ui';
 import { Link } from 'react-router-dom';
 import { GameRef } from 'content/games/Game';
 

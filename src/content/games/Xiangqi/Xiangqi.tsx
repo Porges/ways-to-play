@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { GameRef } from '../Game';
 
-import { ArticleImage, Cite, Description, Noun, Section } from 'ui';
+import { Description, Noun, Section } from 'ui';
 
 const Content: React.FC = () => <>
   <Description>

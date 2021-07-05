@@ -1,40 +1,23 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom';
 
 import { Cite, Noun, Cards, Footnote, ArticleImage, Section, Description } from 'ui';
+import { GameRef } from '../Game';
 import { Table } from 'react-bootstrap';
 
 import imgCOT from 'content/articles/cards/ceki/COT.jpg';
-import imgCWF from 'content/articles/cards/ceki/CWF.jpg';
 import imgCRF from 'content/articles/cards/ceki/CRF.jpg';
-import imgCC1 from 'content/articles/cards/ceki/CC1.jpg';
-import imgCC2 from 'content/articles/cards/ceki/CC2.jpg';
 import imgCC3 from 'content/articles/cards/ceki/CC3.jpg';
-import imgCC4 from 'content/articles/cards/ceki/CC4.jpg';
-import imgCC5 from 'content/articles/cards/ceki/CC5.jpg';
 import imgCC6 from 'content/articles/cards/ceki/CC6.jpg';
-import imgCC7 from 'content/articles/cards/ceki/CC7.jpg';
-import imgCC8 from 'content/articles/cards/ceki/CC8.jpg';
-import imgCC9 from 'content/articles/cards/ceki/CC9.jpg';
-import imgCS1 from 'content/articles/cards/ceki/CS1.jpg';
 import imgCS2 from 'content/articles/cards/ceki/CS2.jpg';
 import imgCS3 from 'content/articles/cards/ceki/CS3.jpg';
-import imgCS4 from 'content/articles/cards/ceki/CS4.jpg';
-import imgCS5 from 'content/articles/cards/ceki/CS5.jpg';
 import imgCS6 from 'content/articles/cards/ceki/CS6.jpg';
 import imgCS7 from 'content/articles/cards/ceki/CS7.jpg';
-import imgCS8 from 'content/articles/cards/ceki/CS8.jpg';
 import imgCS9 from 'content/articles/cards/ceki/CS9.jpg';
-import imgCM1 from 'content/articles/cards/ceki/CM1.jpg';
 import imgCM2 from 'content/articles/cards/ceki/CM2.jpg';
 import imgCM3 from 'content/articles/cards/ceki/CM3.jpg';
-import imgCM4 from 'content/articles/cards/ceki/CM4.jpg';
-import imgCM5 from 'content/articles/cards/ceki/CM5.jpg';
 import imgCM6 from 'content/articles/cards/ceki/CM6.jpg';
 import imgCM7 from 'content/articles/cards/ceki/CM7.jpg';
 import imgCM8 from 'content/articles/cards/ceki/CM8.jpg';
-import imgCM9 from 'content/articles/cards/ceki/CM9.jpg';
-import { GameRef } from '../Game';
 
 const Content: React.FC = () => <>
   <Description><Noun lang="ms">Balik Satu</Noun> (‘turn one’) is a Peranakan game played with <a href="/articles/cards/ceki/">Cherki cards</a>. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</Description>
