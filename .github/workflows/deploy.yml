@@ -14,7 +14,8 @@ jobs:
       uses: actions/cache@v2
       with:
         path: cache
-        key: ${{ runner.os }}-images
+        key: ${{ runner.os }}-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.bmp') }}
+        restore-keys: ${{ runner.os }}-images
 
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
