@@ -37,6 +37,7 @@ module.exports = {
                           , options:
                             { adapter: require('responsive-loader/sharp')
                             , sizes: [ 300, 600, 800, 1200, 1600 ]
+                            , cacheDirectory: resolve('./cache-responsive')
                             }
                           }
                         , name: 'static/media/[name]-[width].[hash:8].[ext]'
