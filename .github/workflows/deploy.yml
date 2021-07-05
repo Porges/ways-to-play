@@ -14,14 +14,14 @@ jobs:
       uses: actions/cache@v2
       with:
         path: cache
-        key: ${{ runner.os }}-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.bmp') }}
+        key: ${{ runner.os }}-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.svg') }}
         restore-keys: ${{ runner.os }}-images-
 
     - name: Cache resized image files
       uses: actions/cache@v2
       with:
         path: cache-responsive
-        key: ${{ runner.os }}-resized-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.svg') }}
+        key: ${{ runner.os }}-resized-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.bmp') }}
         restore-keys: ${{ runner.os }}-resized-images-
 
     - name: Get yarn cache directory path
