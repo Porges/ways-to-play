@@ -10,6 +10,12 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+    - name: Cache image files
+      uses: actions/cache@v2
+      with:
+        path: cache
+        key: ${{ runner.os }}-images
+
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
       run: echo "::set-output name=dir::$(yarn cache dir)"

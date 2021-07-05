@@ -18,9 +18,11 @@ const app =
         </HelmetProvider>
     </React.StrictMode>;
 
-const hydrate = root.hasChildNodes();
-const reactRoot = (ReactDOM as any).unstable_createRoot(root, { hydrate });
-reactRoot.render(app);
+if (root.hasChildNodes()) {
+    ReactDOM.hydrate(app, root);
+} else {
+    ReactDOM.render(app, root);
+}
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
