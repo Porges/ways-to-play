@@ -3264,11 +3264,6 @@
         "issued": {
             "year": 1725
         },
-        "author": [
-            {
-                "given": "Anonymous"
-            }
-        ],
         "publisher-place": "London, UK",
         "URL": "https://books.google.co.nz/books?id=A6NWAAAAcAAJ"
     },
@@ -4758,11 +4753,6 @@
     "LombokCeki": {
         "type": "webpage",
         "title": "Anonymous comment on “Nama-nama Kartu KOA”",
-        "author": [
-            {
-                "given": "Unknown"
-            }
-        ],
         "issued": {
             "year": 2016
         },
@@ -4794,11 +4784,6 @@
         "title": "The Chief of His Tribe: The Life and Times of John Thomas Tumbler, Jr.",
         "page": "252–258",
         "container-title": "The Knickerbocker",
-        "author": [
-            {
-                "given": "Anonymous"
-            }
-        ],
         "issued": {
             "year": 1837,
             "month": 9
@@ -4994,11 +4979,6 @@
         "type": "article-newspaper",
         "title": "American Intelligence",
         "URL": "https://archive.org/details/mg02071810/page/n3/mode/2up",
-        "author": [
-            {
-                "given": "Anonymous"
-            }
-        ],
         "issued": {
             "year": 1810,
             "month": 2,
@@ -5040,11 +5020,6 @@
         "page": 8,
         "container-title": "The Weekly Gazette",
         "publisher-place": "Kansas City, Kansas, USA",
-        "author": [
-            {
-                "given": "Anonymous"
-            }
-        ],
         "URL": "https://www.newspapers.com/clip/80585149/chuck-luck-and-cubic-mutual-pool/"
     },
     "RobbingTommyAtkins": {
@@ -5056,11 +5031,6 @@
             "day": 24
         },
         "page": 5,
-        "author": [
-            {
-                "given": "Anonymous"
-            }
-        ],
         "container-title": "The Ottawa Citizen",
         "publisher-place": "Ottawa, Ontario, Canada",
         "URL": "https://www.newspapers.com/clip/80586303/earliest-mention-of-crown-anchor-game/"
@@ -5074,13 +5044,245 @@
             "day": 17
         },
         "page": 29,
-        "author": [
-            {
-                "given": "Anonymous"
-            }
-        ],
         "container-title": "The Pittsburgh Press",
         "publisher-place": "Pittsburgh, PA, USA",
         "URL": "https://www.newspapers.com/clip/80586437/the-pittsburgh-press/"
+    },
+    "Aldenardiana": {
+        "type": "book",
+        "title": "Aldenardiana: Novellen Uit het Zuiden van Oost-Vlaanderen",
+        "title-lang": "nl",
+        "author": [
+            {
+                "given": "Isidoor",
+                "family": "Teirlinck"
+            },
+            {
+                "given": "Reimond",
+                "family": "Stijns"
+            }
+        ],
+        "issued": {
+            "year": 1880
+        },
+        "publisher": "Xavier Havermans",
+        "publisher-place": "Brussels",
+        "URL": "https://books.google.co.nz/books?id=xixEAAAAcAAJ"
+    },
+    "CrownAndAnchorAustralia": {
+        "type": "article-newspaper",
+        "title": "Public Business",
+        "issued": {
+            "year": 1882,
+            "month": 11,
+            "day": 1
+        },
+        "page": 2,
+        "container-title": "The Herald",
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/241191917"
+    },
+    "AGlimpseAtWaterval": {
+        "type": "article-newspaper",
+        "title": "A Glimpse at Waterval Prison",
+        "issued": {
+            "year": 1900,
+            "month": 8,
+            "day": 17
+        },
+        "page": 5,
+        "container-title": "The Scone Advocate",
+        "publisher-place": "NSW, Australia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/156263798"
+    },
+    "TrooperMilverton": {
+        "type": "article-newspaper",
+        "title": "Trooper Milverton Ford’s Escape",
+        "issued": {
+            "year": 1900,
+            "month": 6,
+            "day": 26
+        },
+        "page": 3,
+        "container-title": "The Sydney Morning Herald",
+        "publisher-place": "NSW, Australia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/14320143"
+    },
+    "DraytonGrange": {
+        "type": "article-newspaper",
+        "title": "The Drayton Grange",
+        "issued": {
+            "year": 1902,
+            "month": 8,
+            "day": 19
+        },
+        "page": "7–8",
+        "container-title": "The Sydney Morning Herald",
+        "publisher-place": "NSW, Australia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/14512227/1337763"
+    },
+    "GamblingInTheArmy": {
+        "type": "article-newspaper",
+        "title": "Gambling In The Army",
+        "issued": {
+            "year": 1914,
+            "month": 9,
+            "day": 3
+        },
+        "page": 3,
+        "container-title": "Cobram Courier",
+        "publisher-place": "Victoria, Australia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/129536874"
+    },
+    "NobodyOfAnyImportance": {
+        "type": "book",
+        "title": "Nobody Of Any Importance",
+        "author": [
+            {
+                "given": "Sam",
+                "family": "Sutcliffe"
+            }
+        ],
+        "issued": {
+            "year": 2014
+        },
+        "publisher": "Sutcliffe & Son",
+        "ISBN": "978-0992956721",
+        "URL": "http://www.footsoldiersam.co.uk/"
+    },
+    "AnInterestingNarrative": {
+        "type": "article-newspaper",
+        "title": "An Interesting Narrative",
+        "issued": {
+            "year": 1916,
+            "month": 8,
+            "day": 17
+        },
+        "page": 2,
+        "container-title": "The Sun",
+        "publisher-place": "Christchurch, New Zealand",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/SUNCH19160817.2.5"
+    },
+    "AtAnEnglishNCOSchool": {
+        "type": "article-newspaper",
+        "title": "At an English N.C.O. school",
+        "author": [
+            {
+                "given": "S.",
+                "family": "Edwards"
+            }
+        ],
+        "issued": {
+            "year": 1917,
+            "month": 12,
+            "day": 22
+        },
+        "container-title": "Gisborne Times",
+        "page": 3,
+        "publisher-place": "Gisborne, New Zealand",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/GIST19171222.2.62.12"
+    },
+    "GB189504141A": {
+        "type": "webpage",
+        "title": "GB189504141A: An Improved Game, and Means for Playing the same",
+        "author": [
+            {
+                "family": "Young",
+                "given": "David"
+            }
+        ],
+        "issued": {
+            "year": 1895
+        },
+        "URL": "https://worldwide.espacenet.com/patent/search/family/032127496/publication/GB189504141A?q=pn%3DGB189504141A"
+    },
+    "LifeOnTransportSardinia": {
+        "type": "article-newspaper",
+        "title":"Life on Transport Sardinia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/242667247",
+        "issued": {
+            "year": 1919,
+            "month": 1,
+            "day": 10
+        },
+        "page": 6,
+        "container-title": "The Herald",
+        "publisher-place": "Melbourne, Victoria, Australia"
+    },
+    "ANewGameFromSouthAfrica": {
+        "type": "article-newspaper",
+        "title": "A new game from South Africa",
+        "issued": {
+            "year": 1902,
+            "month": 2,
+            "day": 1
+        },
+        "page": 2,
+        "container-title": "Uxbridge & West Drayton Gazette",
+        "publisher-place": "Hillingdon, London, UK",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0002285/19020201/024/0002"
+    },
+    "DissolutionOfCoronationFair": {
+        "type": "article-newspaper",
+        "title": "Dissolution of Coronation Fair in Hyde Park",
+        "issued": {
+            "year": 1821,
+            "month": 7,
+            "day": 27
+        },
+        "container-title": "The Statesman",
+        "publisher-place": "London, UK",
+        "page": 2,
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0002647/18210727/008/0002"
+    },
+    "EasterMondayInTheForest": {
+        "type": "article-newspaper",
+        "title": "Easter Monday in the Forest",
+        "issued": {
+            "year": 1875,
+            "month": 4,
+            "day": 3
+        },
+        "container-title": "East London Observer",
+        "publisher-place": "London, UK",
+        "page": 2,
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000442/18750403/001/0002"
+    },
+    "TheMysteriesOfEdinburgh": {
+        "type": "article-newspaper",
+        "title": "The Mysteries of Edinburgh: Part I—Deacon Brodie, Chapter II",
+        "issued": {
+            "year": 1864,
+            "month": 7,
+            "day": 20
+        },
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0002745/18640720/044/0004",
+        "container-title": "North Briton",
+        "page": 4
+    },
+    "GamblingAtFairs": {
+        "type": "article-newspaper",
+        "title": "Gambling at Fairs",
+        "issued": {
+            "year": 1859,
+            "month": 6,
+            "day": 13
+        },
+        "container-title": "London Evening Standard",
+        "publisher-place": "London, UK",
+        "page": 7,
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000183/18590613/043/0007"
+    },
+    "GamblingAtTheRaces": {
+        "type": "article-newspaper",
+        "title": "Gambling at the Races",
+        "issued": {
+            "year": 1860,
+            "month": 8,
+            "day": 29
+        },
+        "container-title": "Walsall Free Press and General Advertiser",
+        "page": 4,
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0001366/18600929/027/0004"
     }
 }

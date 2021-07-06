@@ -38,14 +38,14 @@ const itemTypes: { [key: string]: string } = {
 
 const renderAuthors = (reference: Reference) => {
   if (reference.author) {
-    return <>{renderPeople(reference.author, true, true, 'author')} </>;
+    return <>{renderPeople(reference.author, true, false, 'author')} </>;
   } else if ('publisher' in reference) {
     return (<><span itemScope itemType="http://schema.org/Organization" itemProp="author">
-      <span itemProp="name" lang={reference['publisher-lang']}>{reference.publisher}</span></span>. </>);
+      <span itemProp="name" lang={reference['publisher-lang']}>{reference.publisher}</span></span> </>);
   } else if ('editor' in reference && reference.editor) {
-    return <>{renderPeople(reference.editor, true, true, 'editor')}, (<abbr title="editor">ed.</abbr>) </>;
+    return <>{renderPeople(reference.editor, true, false, 'editor')}, (<abbr title="editor">ed.</abbr>) </>;
   } else {
-    return "Unknown, ";
+    return <><i>Anonymous</i> </>;
   }
 }
 
@@ -69,7 +69,7 @@ const renderDate = (reference: Reference) => {
   if (reference.issued) {
     const original =
       reference['original-date']
-        ? <>({reference['original-date'].year}) </>
+        ? <>, originally published {reference['original-date'].year}</>
         : null;
 
     const { issued } = reference;
@@ -81,14 +81,14 @@ const renderDate = (reference: Reference) => {
           ? `-${issued.month}`
           : '';
 
-    return <>{original}<time itemProp="datePublished" dateTime={`${issued.year}${monthDay}`}>{issued.year}</time>. </>;
+    return <>(<time itemProp="datePublished" dateTime={`${issued.year}${monthDay}`}>{issued.year}</time>{original}). </>;
   }
 
   return 'n.d. ';
 }
 
 const renderPublisher = (reference: Reference) => (<>
-  {reference['publisher-place'] && (reference['publisher-place'] + ': ')}
+  {reference['publisher-place'] && (reference['publisher-place'] + (reference.publisher ? ': ' : '. '))}
   {reference.publisher && <><span lang={reference['publisher-lang']}>{reference.publisher}</span>{reference.publisher.endsWith('.') ? ' ' : '. '}</>}
 </>);
 
@@ -148,8 +148,8 @@ const renderContainer = (reference: Reference) => {
   const { id } = reference;
 
   const pageSuffix =
-    'page' in reference
-      ? `: ${reference.page}. `.replace('-', '–') // promote hyphen to en-dash
+    reference.page !== undefined
+      ? `: ${isNaN(+reference.page) ? "pages" : "page"} ${reference.page}. `.replace('-', '–') // promote hyphen to en-dash
       : '. ';
 
   switch (reference.type) {
@@ -181,11 +181,13 @@ const renderContainer = (reference: Reference) => {
       // TODO: metadata
       if ('month' in issued) {
         return (<>
-            <cite itemProp="name">{containerTitle}</cite>{volume}{issue}, {months[issued.month - 1]}{'day' in issued && <> {issued.day}</>}, {issued.year}.{' '}
+            <cite itemProp="name">{containerTitle}</cite>{volume}{issue}, {months[issued.month - 1]}{'day' in issued && <> {issued.day}</>}, {issued.year}
+            {pageSuffix}
           </>);
       } else {
         return (<>
-              <cite itemProp="name">{containerTitle}</cite>{volume}{issue}, {issued.season}, {issued.year}.{' '} 
+              <cite itemProp="name">{containerTitle}</cite>{volume}{issue}, {issued.season}, {issued.year} 
+              {pageSuffix}
           </>);
       }
 
