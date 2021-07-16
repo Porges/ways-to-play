@@ -1,0 +1,2 @@
+(this["webpackJsonpways-to-play"]=this["webpackJsonpways-to-play"]||[]).push([[0],{610:function(a,t,e){"use strict";e.r(t);e(1);var s=e(0);t.default=function(){return Object(s.jsx)("p",{children:"Below are all the articles available to read:"})}}}]);
+//# sourceMappingURL=articles-intro.f85e01c7.chunk.js.map

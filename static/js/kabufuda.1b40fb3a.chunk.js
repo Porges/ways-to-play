@@ -1,0 +1,2 @@
+(this["webpackJsonpways-to-play"]=this["webpackJsonpways-to-play"]||[]).push([[13],{614:function(t,e,s){"use strict";s.r(e);s(1);var a=s(36),c=s(0);e.default=function(){return Object(c.jsx)(a.a,{title:"",children:Object(c.jsx)("p",{children:"Hello!"})})}}}]);
+//# sourceMappingURL=kabufuda.1b40fb3a.chunk.js.map

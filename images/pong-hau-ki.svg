@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" viewBox="0 0 300 300" width="300" height="300" style="stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-width:1;stroke-dasharray:none;fill:#000000;fill-opacity:1;fill-rule:evenodd" font-family="Arial" font-size="15" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <line x1="50" y1="250" x2="250" y2="250" style="stroke:#000000;stroke-width:2;" />
+  <line x1="50" y1="250" x2="250" y2="50" style="stroke:#000000;stroke-width:2;" />
+  <line x1="50" y1="50" x2="50" y2="250" style="stroke:#000000;stroke-width:2;" />
+  <path d="M20,250C20,233.5425 33.5425,220 50,220C66.4575,220 80,233.5425 80,250C80,266.4575 66.4575,280 50,280C33.5425,280 20,266.4575 20,250z" style="stroke:#000000;stroke-width:2;fill:#FFFFFF;" />
+  <line x1="250" y1="50" x2="250" y2="250" style="stroke:#000000;stroke-width:2;" />
+  <line x1="250" y1="250" x2="50" y2="50" style="stroke:#000000;stroke-width:2;" />
+  <path d="M120,150C120,133.5425 133.5425,120 150,120C166.4575,120 180,133.5425 180,150C180,166.4575 166.4575,180 150,180C133.5425,180 120,166.4575 120,150z" style="stroke:#000000;stroke-width:2;fill:#FFFFFF;" />
+  <path d="M220,250C220,233.5425 233.5425,220 250,220C266.4575,220 280,233.5425 280,250C280,266.4575 266.4575,280 250,280C233.5425,280 220,266.4575 220,250z" style="stroke:#000000;stroke-width:2;fill:#FFFFFF;" />
+  <path d="M20,50C20,33.5425 33.5425,20 50,20C66.4575,20 80,33.5425 80,50C80,66.4575 66.4575,80 50,80C33.5425,80 20,66.4575 20,50z" style="stroke:#000000;stroke-width:2;fill:#FFFFFF;" />
+  <path d="M220,50C220,33.5425 233.5425,20 250,20C266.4575,20 280,33.5425 280,50C280,66.4575 266.4575,80 250,80C233.5425,80 220,66.4575 220,50z" style="stroke:#000000;stroke-width:2;fill:#FFFFFF;" />
+  <path d="M230,250C230,239.0283 239.0283,230 250,230C260.9717,230 270,239.0283 270,250C270,260.9717 260.9717,270 250,270C239.0283,270 230,260.9717 230,250z" style="stroke:#000000;stroke-width:4;fill:#FFFFFF;" />
+  <path d="M30,250C30,239.0283 39.0283,230 50,230C60.9717,230 70,239.0283 70,250C70,260.9717 60.9717,270 50,270C39.0283,270 30,260.9717 30,250z" style="stroke:#000000;stroke-width:4;fill:#FFFFFF;" />
+  <path d="M230,50C230,39.0283 239.0283,30 250,30C260.9717,30 270,39.0283 270,50C270,60.9717 260.9717,70 250,70C239.0283,70 230,60.9717 230,50z" style="stroke:#000000;stroke-width:4;" />
+  <path d="M30,50C30,39.0283 39.0283,30 50,30C60.9717,30 70,39.0283 70,50C70,60.9717 60.9717,70 50,70C39.0283,70 30,60.9717 30,50z" style="stroke:#000000;stroke-width:4;" />
+</svg>
