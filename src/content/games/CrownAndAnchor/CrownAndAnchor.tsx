@@ -27,8 +27,8 @@ const Content: React.FC = () => <>
       A Crown & Anchor mat purchased in Colombo in 1915 and used by Australian troops while in transport.
     </ArticleImage>
     <p>Many gaming histories cite a 17th or 18th century origin for the game, but based on textual evidence it seems to date from the late 19th century, probably derived from pictorial versions of Chuck-A-Luck such as “Mustang”.</p>
-    <p>In England there are certainly many references to “dice boards” or “gaming tables”, but they are not described in detail very often. I have found one very early reference to a similar game played with anchors, stars, clubs, spades, hearts, and diamonds in Hyde Park in 1821.<Cite r="DissolutionOfCoronationFair"/> In 1859 a game involving “anchor, heart, etc” is described at a fair,<Cite r="GamblingAtFairs" /> and in 1860 “clubs, spades, &c.” at a game at the races.<Cite r="GamblingAtTheRaces" /> An 1864 article claims that <a href="https://en.wikipedia.org/wiki/William_Brodie">Deacon Brodie</a> played a game of “anchor, club, star, feather, heart, [and] spade” in his youth, but this may be anachronistic—in any case, it is an early reference.<Cite r="TheMysteriesOfEdinburgh"/> In 1875 there is reference to a game of “feather, star, and anchor” in Epping Forest.<Cite r="EasterMondayInTheForest" /> </p>
-    <p>Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,<Cite r="Aldenardiana" /> and as “the crown and anchor game” in Australia in 1882.<Cite r="CrownAndAnchorAustralia" /></p>
+    <p>In England there are certainly many references to “dice boards” or “gaming tables”, but they are not described in detail very often. I have found one very early reference to a similar game played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George IV in Hyde Park in 1821.<Cite r="DissolutionOfCoronationFair"/> In 1859 a game involving “anchor, heart, etc” is described at a fair,<Cite r="GamblingAtFairs" /> and in 1860 “clubs, spades, &c.” at a game at the races.<Cite r="GamblingAtTheRaces" /> An 1864 article claims that <a href="https://en.wikipedia.org/wiki/William_Brodie">Deacon Brodie</a> played a game of “anchor, club, star, feather, heart, [and] spade” in his youth, but this may be anachronistic—in any case, it is an early reference.<Cite r="TheMysteriesOfEdinburgh"/> In 1875 there is reference to a game of “feather, star, and anchor” in Epping Forest.<Cite r="EasterMondayInTheForest" /> </p>
+    <p>Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,<Cite r="Aldenardiana" /> and as “the crown and anchor game” in Australia in 1882.<Cite r="CrownAndAnchorAustralia" /> An equivalent game is recorded as being played in British-controlled Hong Kong in 1884.<Cite r="HongKongCrownAnchor" /></p>
     <ArticleImage
       position="aside"
       size="wide"
@@ -49,12 +49,6 @@ const Content: React.FC = () => <>
     </ArticleImage>
     <p>At the beginning of WWI the game was, at least at first, still unfamiliar to many British soldiers, and seems to have been most strongly associated with Australian troops. Sam Sutcliffe described a camp scene at <a href="https://en.wikipedia.org/wiki/Abbassia">Abbassia</a> in 1915:<Cite r="NobodyOfAnyImportance" page={191} /></p>
     <blockquote>
-      {/*
-      <p>On arriving at Abbasieh, we had worked so hard to set up our camp I had not noticed another, very large camp quite nearby — many tents and marquees, bigger than ours and of different shapes, but they lacked the matting huts where we rested and ate.</p>
-      <p>
-        We were not allowed to go into their tent lines and they never came into ours, but I learned they were a contingent of the Australian Army, the first to come over to help with the war; fine physical types most of them, equal to the best we had, superior to the majority of our chaps in physique, and with an in&shy;de&shy;pen&shy;dence of spirit which made our strict military discipline look suspiciously like oppression. An officer gave orders, but in a manner which permitted a strong, healthy man to retain what he regarded as his self-respect. Yet what had to be done was done, as far as I could judge.
-      </p>
-      */}
       <p>
         Gambling was forbidden to us and, officially, it may have been to them, but a mighty sight worth seeing was the Australian Crown And Anchor school. Soon after dusk, quite some distance from their camp, a line of little lights would commence to twinkle. Curiosity lured me over there, spiced by the knowledge that, if our Military Police caught me near those wicked Aussies, I’d be in real trouble.<Footnote>English troops were not permitted to mingle with the Australians.</Footnote> I believe I planned to vanish into the dark desert if trouble threatened, and make my merry way back to our camp later.
       </p>
@@ -64,11 +58,6 @@ const Content: React.FC = () => <>
       <p>
         Some operators always had a group of punters around them, others did less business. Why should some be more successful than others, even there at the edge of the desert? All had the same set-up, although they did vary the odds. The lowest offer made was to double your money if the symbol you’d backed turned up when the dice was thrown. Perhaps the variations which could be introduced by ingenious operators attracted men who applied careful thought to their gambling. Watching from my respectful distance, I was very impressed, at times amazed, at the quantity of money which changed hands.
       </p>
-      {/*
-      <p>
-        Looking along the line against the blackness of the desert night, down-turned faces of operators and punters registered complete concentration on the business of money-making, oblivious to any possible interference — or police raid. I did hear that, several times, groups of disgruntled losers had assembled way out of sight, then charged, grabbing such cash as they could, knocking desks over, dousing lights and vanishing, hopefully unrecognised.
-      </p>
-      */}
     </blockquote>
     <ArticleImage
       size="wide"

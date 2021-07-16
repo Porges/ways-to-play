@@ -127,6 +127,8 @@ import imgAngelDaitenryu from './Angel_Daitenryu.jpg';
 import imgOishiTengudoHandprint from './OishiTengudo_handprint.jpg';
 import imgOishiTengudoCat from './OishiTengudo_Cat.jpg';
 import imgTGFukusuke from './TG_fukusuke.jpg';
+import imgMatsui13Months from './Matsui_13months.jpg';
+import imgMatsui13thMonth from './Matsui_13thmonth.jpg';
 
 import imgGyokusuidoTrademark from './Gyokusuido_trademark.png';
 import imgOishiTrademark from './Oishi_trademark.png';
@@ -471,7 +473,7 @@ const Manufacturers: React.FC = () => {
           alt="A wooden storefront with wrought-iron railings and a bicycle parked outside."
           source={{ license: "cc0" }}>
           The <Noun lang="ja-Latn">Nintendō</Noun> storefront in <Noun lang="ja-Latn">Kyōto</Noun> (original source dates this as 1889, but it seems more likely to be after 1900).
-          </ArticleImage>
+        </ArticleImage>
         <ArticleImage
           noborder
           position="aside"
@@ -524,19 +526,19 @@ const Manufacturers: React.FC = () => {
           src={imgHanaTrump5Brights}
           alt="The 5 bright cards from a Hana-Trump deck, which are hanafuda cards printed on the center of the standard international playing card deck.">
           The 5 Brights of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck.
-          </ArticleImage>
+        </ArticleImage>
         <p>Because there are four more cards in the standard deck compared to the <Noun lang="ja-Latn">Hanafuda</Noun> one, <Noun lang="ja-Latn">Nintendō</Noun> added an additional four cards (and two jokers) to the set. These extra cards are counterparts for specialized pieces of equipment present in boxed <GameRef id="hachi-hachi" /> (<span lang="ja">八八</span>) sets.</p>
         <ArticleImage
           src={imgHanaTrumpExtra}
           alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
           The extra cards of <Noun lang="ja-Latn">Nintendō</Noun>’s “Hana-Trump” deck. From left-to-right, after the joker, these are: a blindfolded samurai, with text reading <span lang="ja"><q>不見出</q></span> (88 sets have a piece labelled <span lang="ja"><q>不見転</q></span>, ‘loose morals’); a <span lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s fan which is nowadays used by sumo referees, which is inscribed <span lang="ja"><q>跡絶之章</q></span> (88 sets have a piece labelled <span lang="ja"><q>両桐絶体之章</q></span>); a rice winnowing basket (<span lang="ja">箕</span> <span lang="ja-Latn">mi</span>) inscribed <span lang="ja"><q>手役之章</q></span> (hand-<span lang="ja-Latn">yaku</span> prize); and an award medal reading <span lang="ja"><q>吟見勲賞</q></span> (<span lang="ja-Latn">Ginmi Kunshō</span>, ‘<span lang="ja-Latn">Ginmi</span> Medal’), which is a prize for the ‘top player’ (<span lang="ja-Latn">Ginmi</span>, usually spelt <span lang="ja">吟味</span>, 88 sets have a piece labelled <span lang="ja">銀見勲章</span>).
-          </ArticleImage>
+        </ArticleImage>
         <p>Currently <Noun lang="ja-Latn">Nintendō</Noun> also produce many novelty decks themed with their videogame characters, such as Mario (pictured below), Pokémon, Mario Pikachu (limited edition, 2016), Kirby (2020), among others.</p>
         <ArticleImage
           src={imgMarioBrights}
           alt="TODO">
           <Noun lang="ja-Latn">Nintendō</Noun>’s Mario deck, featuring recurring characters from the Mario series.
-          </ArticleImage>
+        </ArticleImage>
         <p><Noun lang="ja-Latn">Nintendō</Noun> have also on occasion produced decks for other companies, such as the <Noun lang="ja-Latn">Shikishima Hanafuda</Noun> (<span lang="ja">敷島花札</span>) produced for <Noun lang="ja-Latn">Okuno Karuta</Noun> (<span lang="ja">奥野かるた店</span>), a games shop in <Noun lang="ja-Latn">Tōkyō</Noun>.</p>
         <ArticleImage
           src={imgShikishima}
@@ -613,7 +615,7 @@ const Manufacturers: React.FC = () => {
             src={imgOTnarikin}
             alt="A Hanafuda box front featuring a large Koban coin with ‘Narikin’ (newly rich) written on it.">
             <Noun lang="ja-Latn">Ōishi Tengudō</Noun>’s <span lang="ja-Latn">narikin</span> wrapper.
-            </ArticleImage>
+          </ArticleImage>
         </div>
         <div className="multi wide">
           <ArticleImage src={imgOTtakarabune} alt="A hanafuda wrapper with a boat carrying seven people.">
@@ -648,8 +650,8 @@ const Manufacturers: React.FC = () => {
           src={imgKyoHana}
           alt="Five hanafuda cards with depictions of landmarks and various aspects of Kyōto life.">
           The <Noun lang="ja-Latn">Kyōto Hanafuda</Noun>’s 5 Brights, showing icons and landmarks of <Noun lang="ja-Latn">Kyōto</Noun>.
-            From left to right they represent: a fox with a jewel in its mouth, from the gate of the <a href="https://en.wikipedia.org/wiki/Fushimi_Inari-taisha"><Noun lang="ja-Latn">Fushimi Inari</Noun> shrine</a> (<span lang="ja">伏見稲荷大社</span>); <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"><Noun lang="ja-Latn">Toyotomi Hideyoshi</Noun></a> (<span lang="ja">豊臣秀吉</span>), <a href="https://en.wikipedia.org/wiki/K%C5%8Ddai-in"><Noun lang="ja-Latn">Kita no Mandokoro</Noun></a> (<span lang="ja">北政所</span>), and <a href="https://en.wikipedia.org/wiki/Yodo-dono"><Noun lang="ja-Latn">Yodogimi</Noun></a> (<span lang="ja">淀君</span>) at <a href="https://en.wikipedia.org/wiki/Fushimi_Castle">Fushimi Castle</a> (<span lang="ja">伏見城</span>); the character <span lang="ja">大</span> (<span lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <Noun lang="ja-Latn">Daimonji</Noun> (<span lang="ja">大文字山</span>) during the festival of <a href="https://en.wikipedia.org/wiki/Gozan_no_Okuribi"><Noun lang="ja-Latn">Gozan no Okuribi</Noun></a> (<span lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk <a href="https://en.wikipedia.org/wiki/Benkei"><Noun lang="ja-Latn">Benkei</Noun></a> (<span lang="ja">弁慶</span>) meeting <a href="https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune"><Noun lang="ja-Latn">Minamoto no Yoshitsune</Noun></a> (<span lang="ja">源義経</span>), who is playing the flute, at <Noun lang="ja-Latn">Gojō</Noun> bridge (<span lang="ja">五条橋</span>); and the <a href="https://en.wikipedia.org/wiki/Kyoto_Sanga_FC"><Noun lang="ja-Latn">Kyōto Sanga</Noun></a> (<span lang="ja">京都サンガ</span>) football club, whose logo contains the Chinese/Japanese phoenix that is normally featured on the Paulownia bright card.
-          </ArticleImage>
+          From left to right they represent: a fox with a jewel in its mouth, from the gate of the <a href="https://en.wikipedia.org/wiki/Fushimi_Inari-taisha"><Noun lang="ja-Latn">Fushimi Inari</Noun> shrine</a> (<span lang="ja">伏見稲荷大社</span>); <a href="https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi"><Noun lang="ja-Latn">Toyotomi Hideyoshi</Noun></a> (<span lang="ja">豊臣秀吉</span>), <a href="https://en.wikipedia.org/wiki/K%C5%8Ddai-in"><Noun lang="ja-Latn">Kita no Mandokoro</Noun></a> (<span lang="ja">北政所</span>), and <a href="https://en.wikipedia.org/wiki/Yodo-dono"><Noun lang="ja-Latn">Yodogimi</Noun></a> (<span lang="ja">淀君</span>) at <a href="https://en.wikipedia.org/wiki/Fushimi_Castle">Fushimi Castle</a> (<span lang="ja">伏見城</span>); the character <span lang="ja">大</span> (<span lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <Noun lang="ja-Latn">Daimonji</Noun> (<span lang="ja">大文字山</span>) during the festival of <a href="https://en.wikipedia.org/wiki/Gozan_no_Okuribi"><Noun lang="ja-Latn">Gozan no Okuribi</Noun></a> (<span lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk <a href="https://en.wikipedia.org/wiki/Benkei"><Noun lang="ja-Latn">Benkei</Noun></a> (<span lang="ja">弁慶</span>) meeting <a href="https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune"><Noun lang="ja-Latn">Minamoto no Yoshitsune</Noun></a> (<span lang="ja">源義経</span>), who is playing the flute, at <Noun lang="ja-Latn">Gojō</Noun> bridge (<span lang="ja">五条橋</span>); and the <a href="https://en.wikipedia.org/wiki/Kyoto_Sanga_FC"><Noun lang="ja-Latn">Kyōto Sanga</Noun></a> (<span lang="ja">京都サンガ</span>) football club, whose logo contains the Chinese/Japanese phoenix that is normally featured on the Paulownia bright card.
+        </ArticleImage>
         <p>In conjunction with <Noun lang="ja-Latn">Ganzo&shy;futo&shy;neko&shy;dō</Noun> (<span lang="ja">元祖ふとねこ堂</span>), they produced <strong><Noun lang="ja-Latn">Hana&shy;neko&shy;fuda</Noun></strong> (<span lang="ja">花猫札</span>), featuring Japanese cats:</p>
         <ArticleImage
           src={imgOishiTengudoCat}
@@ -662,17 +664,17 @@ const Manufacturers: React.FC = () => {
             src={imgGenroku}
             alt="The front of a Hanafuda wrapper reading ‘genroku’ in Japanese characters and with cherry blossoms.">
             Angel’s <span lang="ja-Latn">Genroku</span> packaging (1970s, the current packaging is different).
-        </ArticleImage>
+          </ArticleImage>
           <ArticleImage
             src={imgAngelTaihei}
             alt="A Hanafuda wrapper with an image of an actor in Kabuki makeup and holding a sword.">
             The <span lang="ja-Latn">Taihei</span> packaging.
-        </ArticleImage>
+          </ArticleImage>
           <ArticleImage
             src={imgAngelDaitenryu}
             alt="A hanafuda wrapper with an image of a dragon.">
             The <span lang="ja-Latn">Daitenryū</span> packaging.
-        </ArticleImage>
+          </ArticleImage>
         </div>
         <p>Angel was originally named <Noun lang="ja-Latn">Okina Karuta Honpo</Noun> (<span lang="ja">翁かるた本舗</span>), and was first based in the city of <a href="https://en.wikipedia.org/wiki/Y%C5%8Dkaichi,_Shiga"><Noun lang="ja-Latn">Yōkaichi</Noun></a> (now <Noun lang="ja-Latn">Higashiōmi</Noun>), <Noun lang="ja-Latn">Shiga</Noun> prefecture (<span lang="ja">滋賀県八日市市</span>). It is now based in <Noun lang="ja-Latn">Kyōto</Noun>. They still use the character <span lang="ja">翁</span> (<span lang="ja-Latn">okina</span>) as their maker’s mark, or otherwise the name Angel is written <span lang="ja">エンゼル</span>. On some cards this is spelled <span lang="ja">縁是留</span>.</p>
         <p>Angel currently produces <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> in two brands:</p>
@@ -695,12 +697,12 @@ const Manufacturers: React.FC = () => {
           src={imgAngelJokers}
           alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card.">
           The extra cards of Angel’s “Hana-Trump” deck.
-          </ArticleImage>
+        </ArticleImage>
       </Section>
       <Section title={<><img src={imgYaguruma} alt="" className="inline-img" /> <a href="http://www.shogundo.co.jp/" className="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)</>}>
         <p>A small manufacturer, founded in 1921. Unlike other manufacturers, their mark is not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">矢車</span>, ‘arrow wheel’).<Footnote>
           The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th <a href="https://en.wikipedia.org/wiki/Tango_no_sekku"><Noun lang="ja-Latn">Tango no Sekku</Noun></a> festival, where they are placed on top of tall poles from which <a href="https://en.wikipedia.org/wiki/Koinobori"><span lang="ja-Latn">koi</span> streamers</a> are flown.
-            <img className="d-block mx-auto w-75" src={imgYaguruma} alt="An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards." />
+          <img className="d-block mx-auto w-75" src={imgYaguruma} alt="An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards." />
         </Footnote> They have also published <Noun lang="ja-Latn">Harifuda</Noun> and <Noun lang="ja-Latn">Shirofuda</Noun> (blank cards) under the mark <span lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce <Noun lang="ja-Latn">Hyakunin Isshu</Noun>, <Noun lang="ja-Latn">Manyo Karuta</Noun>, and <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
         <p>Most of <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s cards are produced with hand-wrapped backing paper; they have <a href="http://www5f.biglobe.ne.jp/~karutaya/brand.html">another web page that details their manufacturing process</a>.</p>
         <p><Noun lang="ja-Latn">Tamura</Noun> manufactures two types of <Noun lang="ja-Latn">Hanafuda</Noun> cards; firstly the standard pattern, with brands (these have been maintained since the 1970s):<Cite r="ModernJapaneseWrappers" page={39} /></p>
@@ -755,7 +757,7 @@ const Manufacturers: React.FC = () => {
           alt="A hanafuda wrapper with a depiction of an apprentice geisha under blossoms and autumn leaves."
           src={imgShogundo}>
           <Noun lang="ja-Latn">Tamura Shōgundō</Noun>’s <span lang="ja-Latn">Kyō maiko</span> brand.
-          </ArticleImage>
+        </ArticleImage>
         <p>They also print a revised pattern, <Noun lang="ja-Latn">Nishiki</Noun> (<span lang="ja">錦</span>), which is larger and has a squarer format than standard cards, and is printed with more, bolder colours. This is sold under brands:</p>
         <ul>
           <li><span lang="ja">京舞妓</span> <span lang="ja-Latn">Kyō maiko</span>, ‘<Noun lang="ja-Latn">Kyōto maiko</Noun>’ (an apprentice <span lang="ja-Latn">geisha</span>)</li>
@@ -766,7 +768,7 @@ const Manufacturers: React.FC = () => {
           src={imgNishikiBrights}
           alt="Five hanafuda cards with very bold colours, unlike normal hanafuda cards.">
           The 5 Brights of the <span lang="ja-Latn">Nishiki</span> pattern.
-          </ArticleImage>
+        </ArticleImage>
       </Section>
     </Section>
     <Section title="Extinct Manufacturers">
@@ -792,7 +794,7 @@ const Manufacturers: React.FC = () => {
           src={imgMatsuiBrights}
           alt="TODO">
           The 5 Bright cards from a deck produced by <Noun lang="ja-Latn">Matsui Shigeo</Noun> to demonstrate his printing technique (1978).
-          </ArticleImage>
+        </ArticleImage>
         <p><Noun lang="ja-Latn">Matsui</Noun>’s mark was <span lang="ja">松</span> in a square, and brands included:</p>
         <ul>
           <li><span lang="ja">鳳凰</span> (<span lang="ja-Latn">hōō</span>, the Japanese phoenix)</li>
@@ -821,6 +823,34 @@ const Manufacturers: React.FC = () => {
             The <span lang="ja-Latn">kuppin</span> wrapper.
           </ArticleImage>
         </div>
+        <p><Noun lang="ja-Latn">Matsui</Noun> also produced custom extended <Noun lang="ja-Latn">Hanafuda</Noun> decks with 13 and 14 months, which can be used to play games with more people. The 13-month deck features bamboo as the additional suit, while the 14-month deck has both bamboo and lotus.</p>
+        <ArticleImage
+          size="wide"
+          src={imgMatsui13Months}
+          alt="TODO"
+          source={{
+            author: {
+              family: "Mantia",
+              given: "Louie",
+            },
+            copyrightYear: 2021,
+            license: "with-permission",
+          }}>
+          All the cards from <Noun lang="ja-Latn">Matsui Tengudō</Noun>’s 13-month deck.
+        </ArticleImage>
+        <ArticleImage
+          src={imgMatsui13thMonth}
+          alt="TODO"
+          source={{
+            author: {
+              family: "Mantia",
+              given: "Louie",
+            },
+            copyrightYear: 2021,
+            license: "with-permission",
+          }}>
+          The bamboo cards from the 13-month deck. From left-to-right they are: a sixth Bright card featuring the <span lang="ja-Latn">kanji</span> for “tiger” (<span lang="ja">寅</span>), a <span lang="ja-Latn">tane</span> card with a sparrow, a <span lang="ja-Latn">tanzaku</span> card, and a <span lang="ja-Latn">kasu</span> card.
+        </ArticleImage>
       </Section>
       <Section title={<>Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>)</>}>
         <p>Ace was a manufacturer based in <Noun lang="ja-Latn">Kyōto</Noun>. Their brands included:<Cite r="ModernJapaneseWrappers" page={44} /></p>
@@ -898,7 +928,7 @@ const Manufacturers: React.FC = () => {
           src={imgMarueGoldLionBox}
           alt="A Hanafuda box with a lion and roses or peonies.">
           Box for the <Noun lang="ja-Latn">Kinjishi</Noun> brand.
-          </ArticleImage>
+        </ArticleImage>
         <p>Brands produced by <Noun lang="ja-Latn">Maruē</Noun> included:<Cite r="ModernJapaneseWrappers" page={52} /></p>
         <ul>
           <li><span lang="ja">東洋一</span> (<span lang="ja-Latn">tōyōichi</span>, ‘best in the East’), also used for <Noun lang="ja-Latn">Kabufuda</Noun></li>
@@ -1088,7 +1118,7 @@ const Manufacturers: React.FC = () => {
           alt="Five Hanafuda cards, which have thin blue lines showing detail in the black areas, unlike standard Hanafuda cards."
           src={imgNihonKaruta四光}>
           The bright cards of <Noun lang="ja-Latn">Nihon Karuta</Noun>’s special pattern.
-          </ArticleImage>
+        </ArticleImage>
         <p>Under the brand name of “Wind Mill”, <Noun lang="ja-Latn">Nihon Karuta</Noun> have also produced Western-style playing cards, including their own Hana-Trump deck:</p>
         <ArticleImage
           alt="Five playing cards with the Hanafuda design in center and a corresponding Western card depicted in the corners that are not occupied by the card indices."
@@ -1390,7 +1420,7 @@ const Manufacturers: React.FC = () => {
           ]}
           source={{ license: "cc0", originalUrl: "http://www.tga-j.org/documents/i/627/detail.html", organization: { orgName: "日本粧業会 資料館" } }}>
           Two <Noun lang="ja-Latn">Nishimura</Noun> advertisements, from the December 1907 issue of the “Tokyo Toilet Trade Journal”. The advert on the right shows that they also sold <Noun lang="ja-Latn">Ōishi Tengudō</Noun> products.
-          </ArticleImage>
+        </ArticleImage>
       </Section>
       <Section title={<><img src={imgMarukyou} alt="" className="inline-img" /> <Noun lang="ja-Latn">Kyōto Karuta</Noun> (<span lang="ja">京都かるた</span>)</>}>
         <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer, founded by an ex-employee of <Noun lang="ja-Latn">Nihon Karuta</Noun>. They were active in the 1960s & ’70s, but closed in the 1990s.<Cite r="UmebayashiIsao" /> Their brands included:<Cite r="ModernJapaneseWrappers" page={49} /></p>
@@ -1529,8 +1559,8 @@ const Manufacturers: React.FC = () => {
             }}
           >
             An additional manufacturer’s card included with an <Noun lang="ja-Latn">Akata Shōjōya</Noun> deck, produced after 1902.
-              BnF Gallica has <a href="https://gallica.bnf.fr/ark:/12148/btv1b105093472">high-quality scans</a> of this deck, and Yale University also <a href="https://search.library.yale.edu/catalog/13318512">owns a copy</a>.
-              </ArticleImage>
+            BnF Gallica has <a href="https://gallica.bnf.fr/ark:/12148/btv1b105093472">high-quality scans</a> of this deck, and Yale University also <a href="https://search.library.yale.edu/catalog/13318512">owns a copy</a>.
+          </ArticleImage>
           <ArticleImage
             alt="A newspaper ad in Japanese with pictures of Hanafuda and Western playing cards."
             src={imgAkataNewspaper}
@@ -1541,7 +1571,7 @@ const Manufacturers: React.FC = () => {
             }}
           >
             An advertisement for <Noun lang="ja-Latn">Akata Shōjōya</Noun> cards in the <a href="https://en.wikipedia.org/wiki/Nichi_Bei_Times">Nichi Bei Times</a>, September 1921. This indicates the cards were being imported into San Francisco in the 1920s.
-            </ArticleImage>
+          </ArticleImage>
         </div>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Suisando</Noun> (<span lang="ja">翠山堂</span>)</>}>

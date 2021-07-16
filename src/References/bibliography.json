@@ -5284,5 +5284,19 @@
         "container-title": "Walsall Free Press and General Advertiser",
         "page": 4,
         "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0001366/18600929/027/0004"
+    },
+    "HongKongCrownAnchor": {
+        "type": "article-newspaper",
+        "title": "Hong Kong",
+        "page": 2,
+        "issued": {
+            "year": 1884,
+            "month": 4,
+            "day": 1
+        },
+        "volume": 40,
+        "issue": 817,
+        "container-title": "Overland China Mail",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/BL/0003343/18840401/017/0002"
     }
 }
