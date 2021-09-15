@@ -10,19 +10,19 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+    - name: Cache compressed image files
+      uses: actions/cache@v2
+      with:
+        path: cache
+        key: ${{ runner.os }}-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.svg') }}
+        restore-keys: ${{ runner.os }}-images-
+
     - uses: actions/setup-node@v2
       with:
         node-version: '14'
         cache: 'npm'
 
-    - name: Install
-      uses: ianwalter/puppeteer@3.0.0
-      with:
-        args: npm install
-
-    - name: Build
-      uses: ianwalter/puppeteer@3.0.0
-      with:
-        args: npm run-script build
+    - run: npm install 
+    - run: npm run-script build
       env:
         CI: true
