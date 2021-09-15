@@ -70,12 +70,11 @@ const Content: React.FC = () => <>
     <blockquote>
       I am satisifed there is as much chance of stopping colonials gambling as old Canute had of stopping the tide rising. I have see them playing “crown and anchor,” a great game with them (don’t know if you ever saw it) in all sorts of unlikely places, even on the fire step in first line trenches. It was funny on the Ionian, going back to Egypt, when there was a church parade. The padre paused in the sermon, and in the middle of the silence came a yell from behind the deck-house, “Who’s going to put a bob on the lucky old mud hook?” whilst straight on the bridge, and absolutely the nearest to the parson, was a ring of men gambling all the time, and too straight under the parson for him to see them. It did look comical…
     </blockquote>
-    <p>Another mention of it being associated with “colonials”:<Cite r="AtAnEnglishNCOSchool" /></p>
+    <p>A further 1917 mention of it being associated with “colonials”:<Cite r="AtAnEnglishNCOSchool" /></p>
     <blockquote>
       Colonial slang appears strange to the “Tommy,” […] an invitation to a game of “pounds, coins, or browns” lets one know that the popoular gambling game of “crown and anchor,” for anything from a £1 note to a penny, is in progress.
     </blockquote>
-    <p>It was reported to be played on the Australian transport Sardinia.<Cite r="LifeOnTransportSardinia"/></p>
-    <p>It was especially popular amongst British soldiers during World War I, but there are many equivalent versions from around the world.</p>
+    <p>It was reported to be played on the ill-fated Australian transport Sardinia.<Cite r="LifeOnTransportSardinia"/></p>
   </Section>
   <Section title="Other Versions">
     <p>In Chinese communities the game is called <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>,<Cite r="GamblingGamesOfMalaya" page={109} /> usually romanized as “Hoo Hey How”. In India it is Jhandi Munda (झंडी मुंडा) or Khora Khore (खोर खोरे), while in Nepal it is <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>). Lago Lago in Bhutan?</p>

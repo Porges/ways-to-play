@@ -78,7 +78,7 @@ body {
   
   We cannot use :lang(ja) here as that also affects (ja-Latn)… */
 
-span[lang=ja], cite[lang=ja] {
+span[lang=ja], cite[lang=ja], table[lang=ja] {
   font-family: 
     "Yu Gothic", /* Japanese: Windows font, prefer this to Meiryo which is default otherwise */
     sans-serif,

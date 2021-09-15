@@ -9,20 +9,14 @@ import imgKabufuda2 from 'content/articles/cards/japan/kabu-karuta/Kabufuda_2.jp
 const OichoKabu: React.FC = () => {
   return (<>
     <p><Noun lang="ja-Latn">Oicho-Kabu</Noun> (<span lang="ja">おいちょかぶ</span>, ‘eight-nine’) is a Japanese gambling game in the style of Baccarat.</p>
-    <Footnote>
-      There are also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of the standard deck.
-  </Footnote>
-    <p>It is played with special cards called <span lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span lang="ja-Latn">kabu</span> cards’). It can also be played with <span lang="ja-Latn">hanafuda</span> cards (by dropping two months), or with the <Cards>A–9</Cards> from a standard deck of playing cards.</p>
+    <p>It is played with special cards called <span lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span lang="ja-Latn">kabu</span> cards’). It can also be played with <span lang="ja-Latn">hanafuda</span> cards (by dropping two months),    <Footnote>There are also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of the standard deck.</Footnote> or with the <Cards>A–9</Cards> from a standard deck of playing cards.</p>
     <ArticleImage src={imgKabufuda2} alt="TODO">
       Cards from a <Noun lang="ja-Latn">Nintendō</Noun> <span lang="ja-Latn">kabufuda</span> deck. This ‘suit’ is replicated 3 times giving 30 cards.
     </ArticleImage>
     <ArticleImage src={imgKabufuda1} alt="TODO">
       Cards from a <Noun lang="ja-Latn">Nintendō</Noun> <span lang="ja-Latn">kabufuda</span> deck. This ‘suit’ has the <Cards>1</Cards> and <Cards>4</Cards> distinguished. The <Cards>4</Cards> is overlaid with a depiction of a ‘<a href="https://en.wikipedia.org/wiki/Cintamani">wish-fulfilling jewel</a>’ (<span lang="ja">宝珠</span> <span lang="ja-Latn">hōju</span>).
     </ArticleImage>
-    <Footnote>
-      A <Noun lang="ja-Latn">Nintendō</Noun> advertising poster from the early 20th century also indicates that their cards were being exported to Australia.
-  </Footnote>
-    <p>The game originated in Japan, but has surprisingly also been spotted in the northern parts of Australia amongst Aboriginal communities; apparently having been transferred there by Japanese sailors working in the pearl industry.<Cite r="NoteOnAMissingLink"  /><Cite r="CardGamesAmongAborigines"  /></p>
+    <p>The game originated in Japan, but has surprisingly also been spotted amongst Aboriginal communities in the northern parts of Australia, apparently having been transferred there by Japanese sailors working in the pearl industry.<Cite r="NoteOnAMissingLink"  /><Cite r="CardGamesAmongAborigines"  /> A <Noun lang="ja-Latn">Nintendō</Noun> advertising poster from the early 20th century also indicates that their cards were being exported to Australia.</p>
     <Section title="Play">
       <p>Up to ten people can play the game (aside from the dealer).</p>
     </Section>

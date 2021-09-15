@@ -16,7 +16,7 @@ const Content: React.FC = () => <>
       </ArticleImage>
       <p>The play of the game is simple: there is a staking-board with six cells containing the numbers 1 through 6. Each player places their bet(s) on numbers of their choosing. The dealer or house rolls three dice and players whose numbers show up on the dice win. Bets on numbers that do not match any of the dice are won by the dealer.</p>
       <p>Winning bets are paid at 1× the stake for each die that matches the number (so, a maximum of 3× if all three dice match).</p>
-      <p>These usual payouts to a relatively high house edge of 7.87%, and thus Chuck-A-Luck has an earned reputation of being a “suckers” game. In more modern casino variants the payout for all three dice matching is usually increased to make the game more attractive: a 5× payout still leads to a house edge of 6.94%, and even a 12× payout<Footnote>As used in the New Zealand variant of Sic Bo.</Footnote> retains a house edge of 3.7%, higher than that of roulette.</p>
+      <p>These usual payouts lead to a relatively high house edge of 7.87%, and thus Chuck-A-Luck has an earned reputation of being a “suckers” game. In more modern casino variants the payout for all three dice matching is usually increased to make the game more attractive: a 5× payout still leads to a house edge of 6.94%, and even a 12× payout<Footnote>As used in the New Zealand variant of Sic Bo.</Footnote> retains a house edge of 3.7%, higher than that of roulette.</p>
     </Section>
     <Section title="History">
       <ArticleImage
