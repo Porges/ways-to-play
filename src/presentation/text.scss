@@ -78,7 +78,7 @@ body {
   
   We cannot use :lang(ja) here as that also affects (ja-Latn)… */
 
-span[lang=ja] {
+span[lang=ja], cite[lang=ja] {
   font-family: 
     "Yu Gothic", /* Japanese: Windows font, prefer this to Meiryo which is default otherwise */
     sans-serif,
@@ -98,11 +98,11 @@ span[lang=ja] {
  
 /* Work titles in non-Latin languages: */
 cite:lang(zh) { font-style: inherit }
-cite:lang(zh)::before { content: '《'; font-feature-settings: "palt" }
-cite:lang(zh)::after { content: '》'; font-feature-settings: "palt" }
+cite:lang(zh)::before { content: '《'; font-feature-settings: "palt"; user-select: text; }
+cite:lang(zh)::after { content: '》'; font-feature-settings: "palt"; user-select: text; }
 cite:lang(ja) { font-style: inherit } 
-cite:lang(ja)::before { content: '『'; font-feature-settings: "palt" }
-cite:lang(ja)::after { content: '』'; font-feature-settings: "palt" }
+cite:lang(ja)::before { content: '『'; font-feature-settings: "palt"; user-select: text; }
+cite:lang(ja)::after { content: '』'; font-feature-settings: "palt"; user-select: text; }
 
 cite:lang(zh-Latn) { font-style: italic }
 cite:lang(zh-Latn)::before { content: '' }

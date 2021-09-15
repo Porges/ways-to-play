@@ -12,6 +12,7 @@ export type Reference = Readonly<{
   URL?: string,
   ISBN?: string | number,
   ['container-title']?: string,
+  ['container-title-lang']?: string,
   volume?: string | number,
   issue?: string | number,
   ['original-date']?: { year: number },
@@ -157,15 +158,15 @@ const renderContainer = (reference: Reference) => {
       return (<>
         {' '}
         <span itemScope itemType="http://schema.org/WebSite" itemProp="isPartOf">
-          <i><span itemProp="name">{containerTitle}</span></i>.
-                </span>
+          <i><span itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</span></i>.
+        </span>
       </>);
 
     case 'chapter':
     case 'paper-conference':
       return (<>
         {' '}
-                In <i>{containerTitle}</i>
+        In <cite lang={reference['container-title-lang']}>{containerTitle}</cite> 
         {reference.editor && <>, edited by {renderPeople(reference.editor, false, false, 'editor')}</>}
         {pageSuffix}
       </>);
@@ -181,12 +182,12 @@ const renderContainer = (reference: Reference) => {
       // TODO: metadata
       if ('month' in issued) {
         return (<>
-            <cite itemProp="name">{containerTitle}</cite>{volume}{issue}, {months[issued.month - 1]}{'day' in issued && <> {issued.day}</>}, {issued.year}
+            <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>{volume}{issue}, {months[issued.month - 1]}{'day' in issued && <> {issued.day}</>}, {issued.year}
             {pageSuffix}
           </>);
       } else {
         return (<>
-              <cite itemProp="name">{containerTitle}</cite>{volume}{issue}, {issued.season}, {issued.year} 
+              <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>{volume}{issue}, {issued.season}, {issued.year} 
               {pageSuffix}
           </>);
       }
