@@ -10,6 +10,11 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+        cache: 'npm'
+
     - name: Cache compressed image files
       uses: actions/cache@v2
       with:
@@ -17,31 +22,15 @@ jobs:
         key: ${{ runner.os }}-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.svg') }}
         restore-keys: ${{ runner.os }}-images-
 
-    - name: Get yarn cache directory path
-      id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-
-    - name: Cache yarn files 
-      uses: actions/cache@v2
-      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-      with:
-        path: |
-          ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          node_modules
-        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        restore-keys: |
-          ${{ runner.os }}-yarn-
-
-    - name: Yarn Install
-      uses: ianwalter/puppeteer@3.0.0
-      if: steps.yarn-cache.outputs.cache-hit != 'true'
-      with:
-        args: yarn install --immutable
-
-    - name: Yarn Build
+    - name: Install
       uses: ianwalter/puppeteer@3.0.0
       with:
-        args: yarn build
+        args: npm install 
+
+    - name: Build
+      uses: ianwalter/puppeteer@3.0.0
+      with:
+        args: npm build
       env:
         CI: true
 
