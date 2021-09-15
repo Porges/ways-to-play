@@ -40,7 +40,6 @@ span[lang|=zu] /* isiZulu */
   @include italic-font;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
   span[lang] {
     /* undo effects of italic-font, except font-style */
@@ -72,6 +71,30 @@ span.proper-noun, span.game-title {
 body {
   font-variant-east-asian: proportional-width;
 }
+
+/* Override fonts for specific languages.
+  We cannot simply list these in the font-family list as
+  that will forcibly choose the first one that matches.
+  
+  We cannot use :lang(ja) here as that also affects (ja-Latn)… */
+
+span[lang=ja] {
+  font-family: 
+    "Yu Gothic", /* Japanese: Windows font, prefer this to Meiryo which is default otherwise */
+    sans-serif,
+    "UniHentaiKana"; /* fallback for Hentaigana chars */
+}
+
+/* For Chinese, the Windows defaults are ok:
+
+  zh: YaHei
+  zh-Hans: YaHei
+
+  zh-Hant: JhengHei
+  nan: JhengHei
+  yue: JhengHei
+*/
+
  
 /* Work titles in non-Latin languages: */
 cite:lang(zh) { font-style: inherit }

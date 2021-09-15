@@ -22,9 +22,8 @@
 
 $font-family-sans-serif:
     "Inter",
-    serif, /* i prefer how the serif CJK fonts look… */
-    "UniHentaiKana", /* fallback for Hentaigana chars */
-    "cc-icons"; /* Creative Commons Unicode characters */
+    sans-serif, 
+    "cc-icons"; /* fallback for Creative Commons Unicode characters */
 
 @mixin italic-font {
     font-family: "Fira Sans", sans-serif;
