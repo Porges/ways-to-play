@@ -531,7 +531,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">四光印</span> (<span lang="ja-Latn">shikōjirushi</span>, ‘four brights brand’), trademarked in 1916<Cite r="Trademarks1924_9" page={286} /></li>
           <li><span lang="ja">御所櫻</span> (<span lang="ja-Latn">gosho&shy;zakura</span>, ‘imperial palace cherry blossoms’)</li>
           <li><span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)</li>
-          <li><span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a reference to <a href="/articles/cards/japan/hanafuda/art/#1">the <span lang="ja">waka</span> that appears on the pine cards in some decks</a>)</li>
+          <li><span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a reference to <a href="/articles/cards/japan/hanafuda/art/#1">the <span lang="ja-Latn">waka</span> that appears on the pine cards in some decks</a>)</li>
         </ul>
         <ArticleImage
           src={[
