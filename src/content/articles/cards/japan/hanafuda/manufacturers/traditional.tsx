@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from 'react-router-dom';
 import Table from 'react-bootstrap/Table';
 
-import { Cite, ArticleImage, Noun, Footnote, Section } from 'ui';
+import { Cite, ArticleImage, Noun, Footnote, Section, SourceInfo } from 'ui';
 import { GameRef } from 'content/games/Game';
 
 import imgMarks from '../manufacturer-marks.jpg';
@@ -185,6 +185,15 @@ import img3gourds from './3gourds.svg';
 import imgHeibon from './heibon.svg';
 import imgKanewe from './kanewe.svg';
 import imgMarukei from './marukei.svg';
+
+const beforeMario: SourceInfo = {
+  organization: {
+    orgName: "beforemario.com",
+    orgURL: "https://beforemario.com",
+  },
+  copyrightYear: 2021,
+  license: "with-permission"
+};
 
 const Manufacturers: React.FC = () => {
   return (<>
@@ -487,6 +496,7 @@ const Manufacturers: React.FC = () => {
           source={{ license: "cc0" }}>
           Some early <Noun lang="ja-Latn">Nintendō</Noun> trademarks, registered in 1900 by <Noun lang="ja-Latn">Yamauchi Fusajirō</Noun>.<Cite r="Trademarks1905" page={67} /> Note that at this time <Noun lang="ja-Latn">Nintendō</Noun> had not yet started using the stylized form of the <span lang="ja-Latn">marufuku</span> symbol.
         </ArticleImage>
+        <p>In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mekuri</Noun> cards, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span>; and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
         <div className="multi">
           <ArticleImage
             src={imgNintendo}
@@ -504,15 +514,14 @@ const Manufacturers: React.FC = () => {
             <Noun lang="ja-Latn">Nintendō</Noun>’s <span lang="ja-Latn">Miyako no Hana</span> packaging.
           </ArticleImage>
         </div>
-        <p>In the past <Noun lang="ja-Latn">Nintendō</Noun> produced many varieties of local cards or <Noun lang="ja-Latn">Mekuri</Noun> cards, but today they only produce <Noun lang="ja-Latn">Hanafuda</Noun> and <Noun lang="ja-Latn">Kabufuda</Noun> cards. Their current brands are: <span lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> (featuring a picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span lang="ja">丸福天狗</span>; and <span lang="ja-Latn">Miyako no Hana</span> <span lang="ja">都の花</span> ‘flowers of the city’.</p>
-        <p><Noun lang="ja-Latn">Nintendō</Noun> <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:<Cite r="ModernJapaneseWrappers" page={54} /></p>
+        <p>Other <Noun lang="ja-Latn">Nintendō</Noun> <Noun lang="ja-Latn">Hanafuda</Noun> brands have included:<Cite r="ModernJapaneseWrappers" page={54} /></p>
         <ul>
           <li><span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804), trademarked in 1901<Cite r="Trademarks1905" page={67} /></li>
           <li><span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>, ‘moon-faced woman’), trademarked in 1900<Cite r="Trademarks1905" page={67} /> <ArticleImage position="aside" alt="An actor wearing a mask of a white-faced woman with large cheeks, raised eyebrows, and a smile on her lips." src={imgOtafuku} source={{ originalUrl: "https://www.flickr.com/photos/kryptos5/2953289035", author: { given: "See Tatt", family: "Yeo" }, license: "cc-by-nc-nd", licenseVersion: "2.0" }}><Noun lang="ja-Latn">Otafuku</Noun> (also known as <Noun lang="ja-Latn">Okame</Noun>) is a traditional character associated with good luck, and often appears in <span lang="ja-Latn">kagura</span> performances alongside <a href="https://en.wikipedia.org/wiki/Hyottoko"><Noun lang="ja-Latn">Hyottoko</Noun></a>.</ArticleImage></li>
           <li><span lang="ja">正宗</span> (<span lang="ja-Latn">masamune</span>, <a href="https://en.wikipedia.org/wiki/Masamune">a famous swordsmith</a>), trademarked in 1900<Cite r="Trademarks1905" page={67} /></li>
           <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<Noun lang="ja-Latn">Tengu</Noun>’), trademarked in 1912<Cite r="Trademarks1924_5" page={276} /></li>
           <li><span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’), trademarked in 1900<Cite r="Trademarks1905" page={67} /></li>
-          <li><span lang="ja">白梅</span> (<span lang="ja-Latn">shira ume</span>, ‘white plum’), not in use as of 1980</li>
+          <li><span lang="ja">白梅</span> (<span lang="ja-Latn">hakubai</span>, ‘white plum’), not in use as of 1980</li>
           <li><span lang="ja">櫻乃山</span> (<span lang="ja-Latn">sakura no yama</span>, ‘mountain cherry blossoms’), not in use as of 1980</li>
           <li><span lang="ja">朝日桜</span> (<span lang="ja-Latn">asahi sakura</span>, ‘sunrise cherry blossoms’)</li>
           <li><span lang="ja">三羽鶴</span> (<span lang="ja-Latn">sanbazuru</span>, ‘three cranes’), not in use as of 1980</li>
@@ -520,7 +529,36 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">千代桜</span> (<span lang="ja-Latn">chiyo zakura</span>, ‘thousand-year cherry blossoms’)</li>
           <li><span lang="ja">春遊</span> (<span lang="ja-Latn">shun’yu</span>, ‘spring outing’, especially of the Emperor)</li>
           <li><span lang="ja">四光印</span> (<span lang="ja-Latn">shikōjirushi</span>, ‘four brights brand’), trademarked in 1916<Cite r="Trademarks1924_9" page={286} /></li>
+          <li><span lang="ja">御所櫻</span> (<span lang="ja-Latn">gosho&shy;zakura</span>, ‘imperial palace cherry blossoms’)</li>
+          <li><span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)</li>
+          <li><span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a reference to <a href="/articles/cards/japan/hanafuda/art/#1">the <span lang="ja">waka</span> that appears on the pine cards in some decks</a>)</li>
         </ul>
+        <ArticleImage
+          src={[
+            [require('./Nintendo_tokiwa_box.jpg'), ""],
+            [require('./Nintendo_tokiwa.jpg'), "Some green pine trees in a misty landscape."],
+          ]}
+          source={beforeMario}>
+          The <span lang="ja-Latn">tokiwa</span> external box and wrapper.
+        </ArticleImage>
+        <div className="multi">
+          <ArticleImage
+            src={require('./Nintendo_goshozakura.jpg')}
+            alt="" source={beforeMario}>
+            The <span lang="ja-Latn">gosho&shy;zakura</span> wrapper.
+          </ArticleImage>
+          <ArticleImage
+            src={require('./Nintendo_hinode.jpg')}
+            alt="" source={beforeMario}>
+            The <span lang="ja-Latn">hinode</span> wrapper.
+          </ArticleImage>
+          <ArticleImage
+            src={require('./Nintendo_hakubai.jpg')}
+            alt="An abstract image of a white plum flower on a red background."
+            source={beforeMario}>
+            The <span lang="ja-Latn">hakubai</span> wrapper.
+          </ArticleImage>
+        </div>
         <p>One interesting deck they used to produce was <b>Hana-Trump</b>, which combined <Noun lang="ja-Latn">Hanafuda</Noun> cards with the cards of the international standard playing card deck. Each rank of the standard pack corresponds to a month of the <Noun lang="ja-Latn">Hanafuda</Noun> deck:</p>
         <ArticleImage
           src={imgHanaTrump5Brights}
@@ -866,7 +904,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">日本光</span> (<span lang="ja-Latn">nihon hikari</span>, ‘light (of) Japan’, i.e. <Noun lang="ja-Latn">Fuji</Noun>)</li>
           <li><span lang="ja">祇園桜</span> (<span lang="ja-Latn">gionzakura</span>, ‘<Noun lang="ja-Latn">Gion</Noun> cherries’)</li>
           <li><span lang="ja">聖徳太子</span> (<span lang="ja-Latn">Shōtoku Taishi</span>, ‘<a href="https://en.wikipedia.org/wiki/Prince_Sh%C5%8Dtoku">Prince <Noun lang="ja-Latn">Shōtoku</Noun></a>’)</li>
-          <li><span lang="ja">白梅</span> (<span lang="ja-Latn">shira ume</span>, ‘white plum’)</li>
+          <li><span lang="ja">白梅</span> (<span lang="ja-Latn">hakubai</span>, ‘white plum’)</li>
         </ul>
         <p>They also made two all-plastic <Noun lang="ja-Latn">Hanafuda</Noun> decks: <span lang="ja">金花</span> (<span lang="ja-Latn">kin-hana</span> ‘gold flowers’) and <span lang="ja">銀花</span> (<span lang="ja-Latn">gin-hana</span> ‘silver flowers’).</p>
         <div className="multi">
@@ -1547,7 +1585,7 @@ const Manufacturers: React.FC = () => {
           source={{ license: "cc0" }}>
           <Noun lang="ja-Latn">Aakata Shōjōya</Noun>’s trademark, registered on the 24th of April 1900 by <Noun lang="ja-Latn">Akada Hanjirō</Noun> (<span lang="ja">赤田半次郎</span>).<Cite r="Trademarks1905" page={67} />
         </ArticleImage>
-        <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer whose mark was <span lang="ja">松</span> in a circle.</p>
+        <p>A <Noun lang="ja-Latn">Kyōto</Noun> manufacturer whose mark was <span lang="ja">松</span> in a circle. Their mascot was a <span lang="ja-Latn"><a href="https://en.wikipedia.org/wiki/Sh%C5%8Dj%C5%8D">shōjō</a></span>, a Japanese sea spirit who is depicted as carrying a long-handled <span lang="ja-Latn">sake</span> ladle.</p>
         <div className="multi">
           <ArticleImage
             alt="A card with an image of a woman carrying a fan with the manufacturer’s name written upon it, surrounded by leaves of the various plants of the Hanafuda deck"
@@ -1611,7 +1649,7 @@ const Manufacturers: React.FC = () => {
         <ul>
           <li><span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)</li>
         </ul>
-        <ArticleImage size="small" src={imgNSotanoshimi} alt="A hanafuda wrapper showing images of hanafuda cards.">
+        <ArticleImage src={imgNSotanoshimi} alt="A hanafuda wrapper showing images of hanafuda cards.">
           The <span lang="ja-Latn">otanoshimi</span> wrapper.
         </ArticleImage>
       </Section>
@@ -1636,10 +1674,10 @@ const Manufacturers: React.FC = () => {
         <p>Their brands included:</p>
         <ul>
           <li><span lang="ja">白菊</span> (<span lang="ja-Latn">shirokiku</span>, ‘white chrysanthemum’)</li>
-          <li><span lang="ja">倭錦</span> (<span lang="ja-Latn">yamatonishiki</span>, ‘ancient Japanese brocade’)</li>
-          <li><span lang="ja">都錦</span> (<span lang="ja-Latn">miyakonishiki</span>, ‘capital brocade’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
-          <li><span lang="ja">𣲅戸錦</span> (<span lang="ja-Latn">edonishiki</span>, ‘<Noun lang="ja-Latn">Edo</Noun> brocade’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
-          <li><span lang="ja">八重錦</span> (<span lang="ja-Latn">yaenishiki</span>, ‘multilayered brocade’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
+          <li><span lang="ja">倭錦</span> (<span lang="ja-Latn">yamato&shy;nishiki</span>, ‘ancient Japanese brocade’)</li>
+          <li><span lang="ja">都錦</span> (<span lang="ja-Latn">miyako&shy;nishiki</span>, ‘capital brocade’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
+          <li><span lang="ja">𣲅戸錦</span> (<span lang="ja-Latn">edo&shy;nishiki</span>, ‘<Noun lang="ja-Latn">Edo</Noun> brocade’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
+          <li><span lang="ja">八重錦</span> (<span lang="ja-Latn">yae&shy;nishiki</span>, ‘multilayered brocade’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
           <li><span lang="ja">御殿櫻</span> (<span lang="ja-Latn">goten&shy;zakura</span>, ‘palace cherry blossoms’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
           <li><span lang="ja">大正櫻</span> (<span lang="ja-Latn">taishō&shy;zakura</span>, ‘<Noun lang="ja-Latn">Taishō</Noun> cherry blossoms’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
           <li><span lang="ja">大正花</span> (<span lang="ja-Latn">taishō&shy;hana</span>, ‘<Noun lang="ja-Latn">Taishō</Noun> flowers’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
@@ -1647,6 +1685,9 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">𠮷野櫻</span> (<span lang="ja-Latn">yoshino&shy;zakura</span>, ‘<Noun lang="ja-Latn">Yoshino</Noun> cherry blossoms’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
           <li><span lang="ja">百萬圓</span> (<span lang="ja-Latn">hyakumanen</span>, ‘a million yen’), trademarked in 1921<Cite r="Trademarks1924_18" page={333} /></li>
         </ul>
+        <ArticleImage src={require("./Kamigataya_miyakonishiki.jpg")} alt="" source={beforeMario}>
+          The <span lang="ja-Latn">miyako nishiki</span> wrapper, manufactured by <Noun lang="ja-Latn">Nintendō</Noun> (credited as “<Noun lang="ja-Latn">F. Yamauchi</Noun>”).
+        </ArticleImage>
       </Section>
       <Section title={<><img src={imgMarukin} alt="" className="inline-img" /> <Noun lang="ja-Latn">Marukin</Noun></>}>
         <p><Noun lang="ja-Latn">Marukin</Noun> was a company based in the city of <Noun lang="ja-Latn">Sakata</Noun>, <Noun lang="ja-Latn">Yamagata</Noun> prefecture (<span lang="ja">山形県酒田市</span>). Their mark was a circled <span lang="ja" className="circled">金</span>. Brands included:</p>
