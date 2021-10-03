@@ -5199,7 +5199,7 @@
     },
     "LifeOnTransportSardinia": {
         "type": "article-newspaper",
-        "title":"Life on Transport Sardinia",
+        "title": "Life on Transport Sardinia",
         "URL": "https://trove.nla.gov.au/newspaper/article/242667247",
         "issued": {
             "year": 1919,
@@ -5298,6 +5298,85 @@
         "volume": 40,
         "issue": 817,
         "container-title": "Overland China Mail",
-        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/BL/0003343/18840401/017/0002"
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/BL/0003343/18840401/017/0002",
+        "warnings": "Contains racism."
+    },
+    "AIFSlaters": {
+        "type": "article-newspaper",
+        "title": "A New Game",
+        "page": 12,
+        "volume": 63,
+        "issue": 16,
+        "issued": {
+            "year": 1940,
+            "month": 4,
+            "day": 19
+        },
+        "container-title": "Illawarra Mercury",
+        "publisher-place": "Wollongong, New South Wales, Australia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/133007704"
+    },
+    "BubbleBuck1911": {
+        "type": "article-newspaper",
+        "title": "“Crown and Anchor” Explained By A Policeman",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0002113/19110420/135/0006",
+        "page": 6,
+        "issued": {
+            "year": 1911,
+            "month": 4,
+            "day": 20
+        },
+        "container-title": "Melton Mowbray Mercury and Oakham and Uppingham News",
+        "publisher-place": "Leicestershire, England",
+        "volume": 29,
+        "issue": 1157
+    },
+    "ToodlumBucks": {
+        "type": "article-newspaper",
+        "title": "Whitcombes Sale (advertisement)",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/CHP19410711.2.6.1",
+        "container-title": "The Press",
+        "publisher-place": "Christchurch, New Zealand",
+        "issued": {
+            "year": 1941,
+            "month": 7,
+            "day": 11
+        },
+        "volume": 77,
+        "issue": 23378
+    },
+    "JerryWinsABet": {
+        "type": "chapter",
+        "title": "Jerry Wins a Bet",
+        "author": [
+            {
+                "family": "Raby",
+                "given": "G. S."
+            }
+        ],
+        "container-title": "500 of the Best Cockney War Stories",
+        "issued": {
+            "year": 1920
+        },
+        "publisher": "Associated Newspapers",
+        "publisher-place": "London, England",
+        "page": "119",
+        "URL": "https://archive.org/details/500ofbestcockney00lond/page/118/mode/2up"
+    },
+    "APrivateInTheGuards": {
+        "type": "book",
+        "title": "A Private in the Guards",
+        "author": [
+            {
+                "given": "Stephen",
+                "family": "Graham"
+            }
+        ],
+        "publisher": "Macmillan and Co",
+        "publisher-place": "London, England, UK",
+        "issued": {
+            "year": 1919
+        },
+        "URL": "https://archive.org/details/privateinguards00grahrich"
     }
 }

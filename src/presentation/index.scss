@@ -357,6 +357,11 @@ abbr[title] {
     text-decoration: none;
 }
 
+.reference-warning {
+    font-size: smaller;
+    abbr { color: $accent; }
+}
+
 /*** Citations ***/
 .citation { color: $secondary }
 .citation a { color: $accent }

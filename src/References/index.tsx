@@ -21,6 +21,7 @@ export type Reference = Readonly<{
   publisher?: string,
   ['publisher-lang']?: string,
   page?: string | number,
+  warnings?: string,
 }>
 
 const itemTypes: { [key: string]: string } = {
@@ -50,7 +51,7 @@ const renderAuthors = (reference: Reference) => {
   }
 }
 
-const renderTitle = (reference: Reference) => {
+function renderTitle(reference: Reference): JSX.Element {
   const html = { __html: reference.title };
 
   const lang = reference["title-lang"];
@@ -101,12 +102,12 @@ const renderISBN = (reference: Reference) => (
 const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: boolean, itemProp: string) => {
   const renderFamily = (a: Author, ix: number) => a.family && <><span itemProp="familyName">{a.family}</span>{period && ix > 0 && ix === (as.length - 1) && (a.family.endsWith('.') || '.')}</>;
   const renderGiven = (a: Author, ix: number) =>
-    (typeof a.given === 'string'
-      ? <><span itemProp="givenName">{a.given}</span>{period && reverseFirst && ix === 0 && ix === (as.length - 1) && (a.given.endsWith('.') || '.')}</>
-      : <><span itemProp="givenName">{a.given[0]}</span>
-        {(a.given.length > 1) && <> <span itemProp="additionalName">{a.given.slice(1).join(' ')}</span></>}
-        {period && reverseFirst && ix === 0 && ix === (as.length - 1) && (a.given[a.given.length - 1].endsWith('.') || '.')}
-      </>);
+  (typeof a.given === 'string'
+    ? <><span itemProp="givenName">{a.given}</span>{period && reverseFirst && ix === 0 && ix === (as.length - 1) && (a.given.endsWith('.') || '.')}</>
+    : <><span itemProp="givenName">{a.given[0]}</span>
+      {(a.given.length > 1) && <> <span itemProp="additionalName">{a.given.slice(1).join(' ')}</span></>}
+      {period && reverseFirst && ix === 0 && ix === (as.length - 1) && (a.given[a.given.length - 1].endsWith('.') || '.')}
+    </>);
 
   const reverseName = (a: Author) => a.lang === undefined ? false : (a.lang.startsWith('zh') || a.lang.startsWith('ja'));
 
@@ -166,7 +167,7 @@ const renderContainer = (reference: Reference) => {
     case 'paper-conference':
       return (<>
         {' '}
-        In <cite lang={reference['container-title-lang']}>{containerTitle}</cite> 
+        In <cite lang={reference['container-title-lang']}>{containerTitle}</cite>
         {reference.editor && <>, edited by {renderPeople(reference.editor, false, false, 'editor')}</>}
         {pageSuffix}
       </>);
@@ -177,19 +178,19 @@ const renderContainer = (reference: Reference) => {
       if (!issued || !('month' in issued || 'season' in issued)) throw new Error('Magazine/newspaper citations must have issued date (including month or season)');
 
       const issue = 'issue' in reference ? <> ({reference.issue})</> : null;
-      const volume = 'volume' in reference ? <> {reference.volume}</> : null;
+      const volume = 'volume' in reference ? <> <abbr title="volume">vol.</abbr>&nbsp;{reference.volume}</> : null;
 
       // TODO: metadata
       if ('month' in issued) {
         return (<>
-            <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>{volume}{issue}, {months[issued.month - 1]}{'day' in issued && <> {issued.day}</>}, {issued.year}
-            {pageSuffix}
-          </>);
+          <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>{volume}{issue}, {months[issued.month - 1]}{'day' in issued && <> {issued.day}</>}, {issued.year}
+          {pageSuffix}
+        </>);
       } else {
         return (<>
-              <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>{volume}{issue}, {issued.season}, {issued.year} 
-              {pageSuffix}
-          </>);
+          <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>{volume}{issue}, {issued.season}, {issued.year}
+          {pageSuffix}
+        </>);
       }
 
     case 'article-journal':
@@ -202,13 +203,14 @@ const renderContainer = (reference: Reference) => {
           {' '}
           <span itemScope itemType="http://schema.org/PublicationVolume" itemID={`#${id}-volume`}>
             <link itemProp="isPartOf" href={`#${id}-periodical`} />
+            <abbr title="volume">vol.</abbr>&nbsp;
             <span itemProp="volumeNumber">{volume}</span>
           </span>
           {' '}
           <span itemProp="isPartOf" itemScope itemType="http://schema.org/PublicationIssue">
             <link itemProp="isPartOf" href={`#${id}-volume`} />
-                        (<span itemProp="issueNumber">{issue}</span>)
-                    </span>
+            (<span itemProp="issueNumber">{issue}</span>)
+          </span>
           {pageSuffix}
         </>);
       }
@@ -222,8 +224,8 @@ const renderContainer = (reference: Reference) => {
           {' '}
           <span itemProp="isPartOf" itemScope itemType="http://schema.org/PublicationIssue">
             <link itemProp="isPartOf" href={`#${id}-periodical`} />
-                        (<span itemProp="issueNumber">{issue}</span>)
-                    </span>
+            (<span itemProp="issueNumber">{issue}</span>)
+          </span>
           {pageSuffix}
         </>);
       }
@@ -237,6 +239,7 @@ const renderContainer = (reference: Reference) => {
           {' '}
           <span itemProp="isPartOf" itemScope itemType="http://schema.org/PublicationVolume">
             <link itemProp="isPartOf" href={`#${id}-periodical`} />
+            <abbr title="volume">vol.</abbr>&nbsp;
             <span itemProp="volumeNumber">{volume}</span>
           </span>
           {pageSuffix}
@@ -245,6 +248,12 @@ const renderContainer = (reference: Reference) => {
 
   }
 }
+
+function renderWarnings(reference: Reference): JSX.Element | null {
+  if (!reference.warnings) return null;
+
+  return <span className="reference-warning"><abbr title="warning">⚠</abbr>&nbsp;{reference.warnings}</span>
+};
 
 export const renderReference = (reference: Reference) => {
   const { id, type } = reference;
@@ -257,6 +266,7 @@ export const renderReference = (reference: Reference) => {
       {renderContainer(reference)}
       {renderPublisher(reference)}
       {renderISBN(reference)}
+      {renderWarnings(reference)}
     </p>
   );
 }

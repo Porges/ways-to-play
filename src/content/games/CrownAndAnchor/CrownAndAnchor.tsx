@@ -8,7 +8,7 @@ import imgHHH2 from './shutterstock_1350321164.jpg';
 import imgBaliDice from './shutterstock_1398460952.jpg';
 
 const Content: React.FC = () => <>
-  <Description>Crown & Anchor is a dice game that was popular with English servicemen in the early 20th century. The game play is equivalent to that of <GameRef id="chuck-a-luck" />, but the pips on the dice and the numbers on the staking-table are replaced by pictures: 👑&#xfe0e; crown, ⚓&#xfe0e; anchor, <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, <Cards>h</Cards> heart.</Description>
+  <Description>Crown & Anchor is a dice game that is probably most famous as being popular with English and “Colonial” servicemen in the early 20th century. The game play is equivalent to that of <GameRef id="chuck-a-luck" />, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.</Description>
   <Section title="History">
     <ArticleImage
       size="wide"
@@ -24,11 +24,10 @@ const Content: React.FC = () => <>
         },
         organization: { "orgName": "Museums Victoria" }
       }}>
-      A Crown & Anchor mat purchased in Colombo in 1915 and used by Australian troops while in transport.
+      A Crown & Anchor mat purchased in Colombo (Sri Lanka) in 1915 and used by Australian troops while in transport.
     </ArticleImage>
-    <p>Many gaming histories cite a 17th or 18th century origin for the game, but based on textual evidence it seems to date from the late 19th century, probably derived from pictorial versions of Chuck-A-Luck such as “Mustang”.</p>
-    <p>In England there are certainly many references to “dice boards” or “gaming tables”, but they are not described in detail very often. I have found one very early reference to a similar game played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George IV in Hyde Park in 1821.<Cite r="DissolutionOfCoronationFair"/> In 1859 a game involving “anchor, heart, etc” is described at a fair,<Cite r="GamblingAtFairs" /> and in 1860 “clubs, spades, &c.” at a game at the races.<Cite r="GamblingAtTheRaces" /> An 1864 article claims that <a href="https://en.wikipedia.org/wiki/William_Brodie">Deacon Brodie</a> played a game of “anchor, club, star, feather, heart, [and] spade” in his youth, but this may be anachronistic—in any case, it is an early reference.<Cite r="TheMysteriesOfEdinburgh"/> In 1875 there is reference to a game of “feather, star, and anchor” in Epping Forest.<Cite r="EasterMondayInTheForest" /> </p>
-    <p>Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,<Cite r="Aldenardiana" /> and as “the crown and anchor game” in Australia in 1882.<Cite r="CrownAndAnchorAustralia" /> An equivalent game is recorded as being played in British-controlled Hong Kong in 1884.<Cite r="HongKongCrownAnchor" /></p>
+    <p>Many gaming histories cite a 17th or 18th century origin for the game, but based on textual evidence it seems to date from the late 19th century, possibly derived from pictorial versions of Chuck-A-Luck such as “Mustang”.</p>
+    <p>In England there are certainly many old references to “dice boards” or “gaming tables”, but they are not described in detail very often. I have found one very early reference to a similar game played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George IV in Hyde Park in 1821.<Footnote>This is clearly the same game as six outcomes are listed and the proprietor announces “three to win, three to lose” — a classically misleading claim!</Footnote><Cite r="DissolutionOfCoronationFair" /> In 1859 a game involving “anchor, heart, etc” is described at a fair,<Cite r="GamblingAtFairs" /> and in 1860 “clubs, spades, &c.” at a game at the races.<Cite r="GamblingAtTheRaces" /> An 1864 newspaper article claims that <a href="https://en.wikipedia.org/wiki/William_Brodie">Deacon Brodie</a> played a game of “anchor, club, star, feather, heart, [and] spade” in his youth, but this may be anachronistic—in any case, it is still an early reference.<Cite r="TheMysteriesOfEdinburgh" /> In 1875 there is reference to a game of “feather, star, and anchor” being played in Epping Forest.<Cite r="EasterMondayInTheForest" /> </p>
     <ArticleImage
       position="aside"
       size="wide"
@@ -38,92 +37,117 @@ const Content: React.FC = () => <>
       source={{ license: "cc0" }}>
       An image from the patent for the game “Stars and Stripes”.
     </ArticleImage>
+    <p>Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,<Cite r="Aldenardiana" /> and as “the crown and anchor game” in Australia in 1882.<Cite r="CrownAndAnchorAustralia" /> An equivalent game is recorded as being played in British-controlled Hong Kong in 1884.<Cite r="HongKongCrownAnchor" /></p>
     <p>An interesting patent lodged in England in 1895 (see image) indicates that the game must have been known there in some way, but I have yet to find any other references to it this early on, and the patent does not mention Crown & Anchor by name.<Cite r="GB189504141A" /></p>
-    <p>The game seems to have first became popular with British soldiers during the <a href="https://en.wikipedia.org/wiki/Second_Boer_War">Second Boer War</a> (1899–1902),<Footnote>A syndicated article from 1914 also discusses the game as having been played in the army “since the first South African campaign”.<Cite r="GamblingInTheArmy" /></Footnote> when British and Australian troops fought alongside American volunteers. In 1900, the game is recorded as having been played by English <abbr className="initialism" title="prisoners of war">POW</abbr>s at the Waterval prison camp, under both the names of “chuck-a-luck”<Cite r="AGlimpseAtWaterval" /> and “crown and anchor”.<Cite r="TrooperMilverton" /> In 1902, the game was described in London as “a new game from South Africa”.<Cite r="ANewGameFromSouthAfrica"/></p>
-    <p>Other references from the Boer war period refer to returning British soldiers being swindled at the game,<Cite r="RobbingTommyAtkins" /> returning Australian troops playing it aboard transport ships (including the Drayton Grange<Cite r="DraytonGrange" />), and a report by an American who played the game with English troops.<Cite r="FromTombsBaker" /></p>
-    <ArticleImage
-      src={require('./6089711.jpg')}
-      alt=""
-      source={{ license: "cc0", originalUrl: "https://www.awm.gov.au/collection/E04801", "organization": { "orgName": "Australian War Memorial" } }}>
-      British gun crews with two 9″ guns, May 1918; the counterweight “dirt box” in front is painted with Crown & Anchor iconography.
-    </ArticleImage>
-    <p>At the beginning of WWI the game was, at least at first, still unfamiliar to many British soldiers, and seems to have been most strongly associated with Australian troops. Sam Sutcliffe described a camp scene at <a href="https://en.wikipedia.org/wiki/Abbassia">Abbassia</a> in 1915:<Cite r="NobodyOfAnyImportance" page={191} /></p>
-    <blockquote>
-      <p>
-        Gambling was forbidden to us and, officially, it may have been to them, but a mighty sight worth seeing was the Australian Crown And Anchor school. Soon after dusk, quite some distance from their camp, a line of little lights would commence to twinkle. Curiosity lured me over there, spiced by the knowledge that, if our Military Police caught me near those wicked Aussies, I’d be in real trouble.<Footnote>English troops were not permitted to mingle with the Australians.</Footnote> I believe I planned to vanish into the dark desert if trouble threatened, and make my merry way back to our camp later.
-      </p>
-      <p>
-        I found a long line of improvised desks, a space of several yards between each of them. A couple of candles on each desk illuminated the Crown And Anchor board — actually a leatherette sheet, easily folded up and pocketed in an emergency, with the six symbols of the game printed on it. The operator sat on a box and called out his line of persuasion or temptation, such as “Come on, me lucky lads! The more you put down the more you pick up. Who’ll have a bet on the old mudhook?”<Footnote>i.e. anchor</Footnote>
-      </p>
-      <p>
-        Some operators always had a group of punters around them, others did less business. Why should some be more successful than others, even there at the edge of the desert? All had the same set-up, although they did vary the odds. The lowest offer made was to double your money if the symbol you’d backed turned up when the dice was thrown. Perhaps the variations which could be introduced by ingenious operators attracted men who applied careful thought to their gambling. Watching from my respectful distance, I was very impressed, at times amazed, at the quantity of money which changed hands.
-      </p>
-    </blockquote>
-    <ArticleImage
-      size="wide"
-      src={require('./4169475.jpg')}
-      alt=""
-      source={{ license: "cc0", originalUrl: "https://www.awm.gov.au/collection/C607?image=1", "organization": { "orgName": "Australian War Memorial" } }}>
-      Australians playing Crown & Anchor aboard HMAT Medic, <abbr title="circa">c.</abbr> 1919.
-    </ArticleImage>
-    <p>Another report from Gallipoli in 1916 indicated that it was associated with “colonials” (Australians and New Zealanders):<Cite r='AnInterestingNarrative' /></p>
-    <blockquote>
-      I am satisifed there is as much chance of stopping colonials gambling as old Canute had of stopping the tide rising. I have see them playing “crown and anchor,” a great game with them (don’t know if you ever saw it) in all sorts of unlikely places, even on the fire step in first line trenches. It was funny on the Ionian, going back to Egypt, when there was a church parade. The padre paused in the sermon, and in the middle of the silence came a yell from behind the deck-house, “Who’s going to put a bob on the lucky old mud hook?” whilst straight on the bridge, and absolutely the nearest to the parson, was a ring of men gambling all the time, and too straight under the parson for him to see them. It did look comical…
-    </blockquote>
-    <p>A further 1917 mention of it being associated with “colonials”:<Cite r="AtAnEnglishNCOSchool" /></p>
-    <blockquote>
-      Colonial slang appears strange to the “Tommy,” […] an invitation to a game of “pounds, coins, or browns” lets one know that the popoular gambling game of “crown and anchor,” for anything from a £1 note to a penny, is in progress.
-    </blockquote>
-    <p>It was reported to be played on the ill-fated Australian transport Sardinia.<Cite r="LifeOnTransportSardinia"/></p>
+    <p>The game has also at some times been called “bubble and buck”,<Cite r="BubbleBuck1911"/> “bumble and buck”,<Cite r="APrivateInTheGuards" page={189}/>  or “toodlum buck(s)”.<Footnote>This name was also used in Australia to refer to a children’s game played with a teetotum.</Footnote><Cite r="ToodlumBucks"/></p>
+    <Section title="Boer War">
+      <p>The game seems to have first became popular with British soldiers during the <a href="https://en.wikipedia.org/wiki/Second_Boer_War">Second Boer War</a> (1899–1902), when British and Australian troops fought alongside American volunteers. It was possibly transmitted from American troops at this time. In 1900, the game is recorded as having been played by English <abbr className="initialism" title="prisoners of war">POW</abbr>s at the Waterval prison camp, under both the names of “chuck-a-luck”<Cite r="AGlimpseAtWaterval" /> and “crown and anchor”.<Cite r="TrooperMilverton" /> In 1902, the game was described in London as “a new game from South Africa”,<Cite r="ANewGameFromSouthAfrica" /> and a syndicated article from 1914 also discusses the game as having been played in the army “since the first South African campaign”.<Cite r="GamblingInTheArmy" /></p>
+      <p>Other references from the Boer war period refer to returning British soldiers being swindled at the game,<Cite r="RobbingTommyAtkins" /> returning Australian troops playing it aboard transport ships (including the last troopship the <cite>Drayton Grange</cite>,<Cite r="DraytonGrange" /> which returned over-crowded and disease-ridden), and a report by an American who played the game with English troops.<Cite r="FromTombsBaker" /></p>
+    </Section>
+    <Section title="World War I">
+      <ArticleImage
+        src={require('./6089711.jpg')}
+        alt=""
+        source={{ license: "cc0", originalUrl: "https://www.awm.gov.au/collection/E04801", "organization": { "orgName": "Australian War Memorial" } }}>
+        British gun crews with two 9″ guns, May 1918; the counterweight “dirt box” in front is painted with Crown & Anchor iconography.
+      </ArticleImage>
+      <p>At the beginning of WWI the game was, at least at first, still unfamiliar to many British soldiers, and seems to have been most strongly associated with Australian troops. Sam Sutcliffe described a camp scene at <a href="https://en.wikipedia.org/wiki/Abbassia">Abbassia</a> in 1915:<Cite r="NobodyOfAnyImportance" page={191} /></p>
+      <blockquote>
+        <p>
+          Gambling was forbidden to us and, officially, it may have been to them, but a mighty sight worth seeing was the Australian Crown And Anchor school. Soon after dusk, quite some distance from their camp, a line of little lights would commence to twinkle. Curiosity lured me over there, spiced by the knowledge that, if our Military Police caught me near those wicked Aussies, I’d be in real trouble.<Footnote>English troops were not permitted to mingle with the Australians.</Footnote> I believe I planned to vanish into the dark desert if trouble threatened, and make my merry way back to our camp later.
+        </p>
+        <p>
+          I found a long line of improvised desks, a space of several yards between each of them. A couple of candles on each desk illuminated the Crown And Anchor board — actually a leatherette sheet, easily folded up and pocketed in an emergency, with the six symbols of the game printed on it. The operator sat on a box and called out his line of persuasion or temptation, such as “Come on, me lucky lads! The more you put down the more you pick up. Who’ll have a bet on the old mudhook?”<Footnote>i.e. anchor, see below.</Footnote>
+        </p>
+        <p>
+          Some operators always had a group of punters around them, others did less business. Why should some be more successful than others, even there at the edge of the desert? All had the same set-up, although they did vary the odds. The lowest offer made was to double your money if the symbol you’d backed turned up when the dice was thrown. Perhaps the variations which could be introduced by ingenious operators attracted men who applied careful thought to their gambling. Watching from my respectful distance, I was very impressed, at times amazed, at the quantity of money which changed hands.
+        </p>
+      </blockquote>
+      <ArticleImage
+        size="wide"
+        src={require('./4169475.jpg')}
+        alt=""
+        source={{ license: "cc0", originalUrl: "https://www.awm.gov.au/collection/C607?image=1", "organization": { "orgName": "Australian War Memorial" } }}>
+        Australians playing Crown & Anchor aboard HMAT Medic, <abbr title="circa">c.</abbr> 1919.
+      </ArticleImage>
+      <p>As seen in the last quote, each symbol had its own nickname. The crown could also be termed the “sergeant-major”, the spade the “shovel” or “pioneer’s tool”, the diamond the “curse” or “<a href="https://en.wikipedia.org/wiki/Kimberley,_Northern_Cape">Kimberley</a>”, the club the “shamrock”, and the anchor the “mud-hook”, “mud-rake”, or “meat-hook”.<Cite r="APrivateInTheGuards" page={[[187, 188]]} /></p>
+      <p>According to several observers, the game was even played on the frontlines, in trenches. An anecdote from the <a href="https://en.wikipedia.org/wiki/Ypres_Salient">Ypres Salient</a>, 1916, from a soldier of the <a href="https://en.wikipedia.org/wiki/King%27s_Royal_Rifle_Corps">King’s Royal Rifle Corps</a>:<Cite r="JerryWinsABet" /></p>
+      <blockquote>
+        <p>Alf, who owned a Crown and Anchor board of great antiquity, had it spread out on two petrol cans at the bottom of a shell-hole.</p>
+        <p>Around it four of us squatted and began to deposit thereon our dirty half- and one-franc notes, with occasional coins of lesser value. The constant whistle of passing fragments was punctuated by the voice of Alf calling upon the company to “’ave a bit on the ’eart” or alternately to “’ave a dig in the grave”, when a spent bullet crashed on his tin hat and fell with a thud into the crown square.</p>
+        <p>“’struth,” gasped Alf, “old squarehead wants to back the sergeant-major.” He gave a final shake to the cup and exposed the dice — one heart and two crowns. “Blimey,” exclaimed Alf, “would yer blinkin’ well believe it? Jerry’s backed a winner. ’Arf a mo,” and picking up the spent bullet, he threw it with all his might towards the German lines, exclaiming, “’Ere’s yer blinking bet back, Jerry, and ’ere’s yer winnings.” He cautiously fired two rounds.</p>
+      </blockquote>
+      <p>Another report from Gallipoli in 1916 also mentions it being played in trenches, and indicates that it was associated with “colonials” (Australians and New Zealanders):<Cite r='AnInterestingNarrative' /></p>
+      <blockquote>
+        I am satisifed there is as much chance of stopping colonials gambling as old Canute had of stopping the tide rising. I have see them playing “crown and anchor,” a great game with them (don’t know if you ever saw it) in all sorts of unlikely places, even on the fire step in first line trenches. It was funny on the Ionian, going back to Egypt, when there was a church parade. The padre paused in the sermon, and in the middle of the silence came a yell from behind the deck-house, “Who’s going to put a bob on the lucky old mud hook?” whilst straight on the bridge, and absolutely the nearest to the parson, was a ring of men gambling all the time, and too straight under the parson for him to see them. It did look comical…
+      </blockquote>
+      <p>In 1917 it was described as being played by “colonial” New Zealanders at an English <abbr title="non-commissioned officer">NCO</abbr> school:<Cite r="AtAnEnglishNCOSchool" /></p>
+      <blockquote>
+        Colonial slang appears strange to the “Tommy,” […] an invitation to a game of “pounds, coins, or browns” lets one know that the popoular gambling game of “crown and anchor,” for anything from a £1 note to a penny, is in progress.
+      </blockquote>
+      <p>In 1919, it was reported to be played on the ill-fated Australian transport Sardinia.<Cite r="LifeOnTransportSardinia" /></p>
+    </Section>
+    <Section title="World War II">
+      <p>In 1940, it was reported that <a href="https://en.wikipedia.org/wiki/Second_Australian_Imperial_Force">Australian Imperial Force</a> troops stationed in Mandatory Palestine had figured out how to play the game without dice: several <a href="https://en.wikipedia.org/wiki/Woodlouse">slaters</a> were placed under an upturned ashtray which had indentations for resting cigarettes; the holes from which the slaters emerged determined the winning numbers.<Cite r="AIFSlaters" /></p>
+    </Section>
   </Section>
-  <Section title="Other Versions">
-    <p>In Chinese communities the game is called <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>,<Cite r="GamblingGamesOfMalaya" page={109} /> usually romanized as “Hoo Hey How”. In India it is Jhandi Munda (झंडी मुंडा) or Khora Khore (खोर खोरे), while in Nepal it is <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>). Lago Lago in Bhutan?</p>
-    <p>Symbols used are:</p>
-    <dl>
-      <dt>Crown & Anchor</dt>
-      <dt>Langur Burja (??) or Jhandi Munda (Munda flag?)</dt>
-      <dd>Jhandi झंडी (flag), munda or burja or mukut मुकुट (crown), surath सुरथ (spade), chid चीड (‘pine’ = club), itta इँट (‘brick’ = diamond), pana पान (‘betel leaf’ = heart)</dd>
-      <dt>Balinese</dt>
-      <dd>Basir, Robin, Rare (baby), Ikan Barong (fish Barong), Kepiting (crab), Ayam (chicken)<br />or:
-        Basir, Bayi Ajaib (magic baby), [???], [a duck], Macan (Tiger), Elang (Javan hawk-eagle)<br />or:
-        (??) Tua (old man), Elang, Cewek (girl), Singa (lion), Ikan (fish), Kodok (frog)</dd>
-    </dl>
-    <div className="multi extra-wide">
-      <ArticleImage src={imgHHH1} alt="" source={{
+  <Section title="Varieties of the game">
+    <Section title="China and Peranakans">
+      <p>In English the Chinese name is usually given as “Hoo Hey How”; this appears to derive from the Hokkien <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>.<Cite r="GamblingGamesOfMalaya" page={109} /> The modern Chinese name is <span lang="zh-Hant">魚蝦蟹</span>/<span lang="zh-Hans">鱼虾鲎</span> ‘fish prawn crab’.</p>
+      <p>An equivalent (perhaps older) game can be played with three standard six-sided dice. It does not need to be played with a layout board but it can be. In this form it can be called <span lang="nan">么二三</span> <span lang="nan-Latn">io jī sam</span> (‘ace, two, three’, romanized “Yew Yee Sam” in older texts).<Cite r="GamblingGamesOfMalaya" page={95} /></p>
+    </Section>
+    <Section title="India">
+      <p>In India it is Jhandi Munda (झंडी मुंडा, Munda flag?) or Khora Khore (खोर खोरे).</p>
+      <p>The playing card suits are (in Hindi) <span lang="hi">चिड़ी</span> <span lang="hi-Latn">ciṛī</span> (club), <span lang="hi">ईंट</span> <span lang="hi-Latn">ī̃ṭ</span> (‘brick’ = diamond), <span lang="hi">पान</span>  <span lang="hi-Latn">pān</span> (‘betel leaf’ = heart), <span lang="hi">हुकुम</span> <span lang="hi-Latn">hukum</span> (spade).</p>
+    </Section>
+    <Section title="Nepal">
+      <p>In Nepal it is <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>).<Footnote><span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.</Footnote></p>
+      <p>The symbols on the dice are: Jhandi झंडी (flag), munda or burja or mukut मुकुट (crown), <span lang="ne">सुरथ</span> <span lang="ne-Latn">surath</span> (spade), <span lang="ne">चीड</span> <span lang="ne-Latn">chid</span> (‘pine’ = club), <span lang="ne">इँट</span> <span lang="ne-Latn">itta</span> (‘brick’ = diamond), <span lang="ne">पान</span> <span lang="ne-Latn">pana</span> (‘betel leaf’ = heart).</p>
+    </Section>
+    <Section title="Bali">
+      <p>In Bali the game is played in many forms, although I don’t know what the local name is. Bali is (based on appearances on the internet) possibly the part of the world where the game is currently the most popular; this despite all gambling being illegal in the country.</p>
+      <p>In the Balinese game, bets can be placed spanning two symbols.</p>
+      <p>Some of the sets of symbols used are:</p>
+      <ul>
+        <li><span lang="ban">basir</span>, robin, <span lang="ban">rare</span> (baby), <span lang="ban">ikan barong</span> (fish <a href="https://en.wikipedia.org/wiki/Barong_(mythology)">Barong</a>), <span lang="ban">kepiting</span> (crab), <span lang="ban">ayam</span> (chicken); see images below</li>
+        <li><span lang="ban">basir</span>, <span lang="ban">bayi ajaib</span> (magic baby), [???], [a duck], <span lang="ban">macan</span> (tiger), <span lang="ban">elang</span> (<a href="https://en.wikipedia.org/wiki/Javan_hawk-eagle">Javan hawk-eagle</a>)<Footnote>Seen <a href="https://www.alamy.com/stock-photo-bali-indonesia-gambling-with-dice-dlod-blungbang-village-71850399.html">here</a>.</Footnote></li>
+        <li><span lang="ban">kak tua</span> (grandfather), <span lang="ban">elang</span>, <span lang="ban">cewek</span> (girl), <span lang="ban">singa</span> (lion), <span lang="ban">ikan</span> (fish), <span lang="ban">kodok</span> (frog)<Footnote>Seen <a href="https://www.alamy.com/balinese-traditional-street-gambling-the-game-called-kocok-or-mong-mongan-with-fields-saying-eagle-old-man-girl-fish-frog-and-lion-in-indonesian-image261042011.html">here</a>.</Footnote></li>
+      </ul>
+      <div className="multi extra-wide">
+        <ArticleImage src={imgHHH1} alt="" source={{
+          license: "stock-image",
+          organization: { orgName: "Shutterstock.com" },
+          author: "Novie Charleen Magne",
+          identifier: "1350321158",
+          copyrightYear: 2013,
+          originalUrl: "https://www.shutterstock.com/image-photo/karangasem-bali-indonesia-26-july-2013-1350321158"
+        }}>
+          A game being played in Bali: bets are placed…
+        </ArticleImage>
+        <ArticleImage src={imgHHH2} alt="" source={{
+          license: "stock-image",
+          organization: { orgName: "Shutterstock.com" },
+          author: "Novie Charleen Magne",
+          identifier: "1350321164",
+          copyrightYear: 2013,
+          originalUrl: "https://www.shutterstock.com/image-photo/karangasem-bali-indonesia-26-july-2013-1350321164"
+        }}>
+          …and the dice are revealed.
+        </ArticleImage>
+      </div>
+      <p>There is another Balinese dice game played with normally-numbered dice instead of symbols. Aside from this, the play of the game is identical. TODO: need to identify this</p>
+      <ArticleImage src={imgBaliDice} alt="" source={{
         license: "stock-image",
         organization: { orgName: "Shutterstock.com" },
-        author: "Novie Charleen Magne",
-        identifier: "1350321158",
-        copyrightYear: 2013,
-        originalUrl: "https://www.shutterstock.com/image-photo/karangasem-bali-indonesia-26-july-2013-1350321158"
+        author: "Nomad1988",
+        identifier: "1398460952",
+        copyrightYear: 2017,
+        originalUrl: "https://www.shutterstock.com/image-photo/baliindonesia2009-on-weekeds-bali-1398460952"
       }}>
-        A game being played in Bali: bets are placed…
+        A Balinese game of <span lang="id">koprok</span> or <span lang="id">kolok</span> or <span lang="id">kopyok</span>.
       </ArticleImage>
-      <ArticleImage src={imgHHH2} alt="" source={{
-        license: "stock-image",
-        organization: { orgName: "Shutterstock.com" },
-        author: "Novie Charleen Magne",
-        identifier: "1350321164",
-        copyrightYear: 2013,
-        originalUrl: "https://www.shutterstock.com/image-photo/karangasem-bali-indonesia-26-july-2013-1350321164"
-      }}>
-        …and the dice are revealed.
-      </ArticleImage>
-    </div>
-    <p>An equivalent (perhaps older) game can be played with three standard six-sided dice. It does not need to be played with a layout board but it can be. In this form it can be known as <span lang="nan-Latn">io jī sam</span> <span lang="nan">么二三</span>  (‘ace, two, three’, often romanized “Yew Yee Sam”).<Cite r="GamblingGamesOfMalaya" page={95} /></p>
-  </Section>
-  <Section title="Balinese dice game">
-    <p>TODO: need to identify this</p>
-    <ArticleImage src={imgBaliDice} alt="" source={{
-      license: "stock-image",
-      organization: { orgName: "Shutterstock.com" },
-      author: "Nomad1988",
-      identifier: "1398460952",
-      copyrightYear: 2017,
-      originalUrl: "https://www.shutterstock.com/image-photo/baliindonesia2009-on-weekeds-bali-1398460952"
-    }}>
-      A Balinese game of <span lang="id">koprok</span> or <span lang="id">kolok</span> or <span lang="id">kopyok</span>.
-    </ArticleImage>
+    </Section>
+    {/* TODO: Lago Lago in Bhutan? */}
   </Section>
 </>;
 
