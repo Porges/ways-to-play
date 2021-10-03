@@ -198,7 +198,7 @@ const renderContainer = (reference: Reference) => {
         const { issue, volume } = reference;
         return (<>
           <span itemScope itemType="http://schema.org/Periodical" itemID={`#${id}-periodical`}>
-            <cite itemProp="name">{containerTitle}</cite>
+            <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>
           </span>
           {' '}
           <span itemScope itemType="http://schema.org/PublicationVolume" itemID={`#${id}-volume`}>
@@ -219,7 +219,7 @@ const renderContainer = (reference: Reference) => {
         const { issue } = reference;
         return (<>
           <span itemScope itemType="http://schema.org/Periodical" itemID={`#${id}-periodical`}>
-            <cite itemProp="name">{containerTitle}</cite>
+            <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>
           </span>
           {' '}
           <span itemProp="isPartOf" itemScope itemType="http://schema.org/PublicationIssue">
@@ -234,7 +234,7 @@ const renderContainer = (reference: Reference) => {
         const { volume } = reference;
         return (<>
           <span itemScope itemType="http://schema.org/Periodical" itemID={`#${id}-periodical`}>
-            <cite itemProp="name">{containerTitle}</cite>
+            <cite itemProp="name" lang={reference['container-title-lang']}>{containerTitle}</cite>
           </span>
           {' '}
           <span itemProp="isPartOf" itemScope itemType="http://schema.org/PublicationVolume">

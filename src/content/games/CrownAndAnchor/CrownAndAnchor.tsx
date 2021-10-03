@@ -1,11 +1,12 @@
 import * as React from 'react';
 
-import { Cite, Cards, ArticleImage, Description, Section, Footnote } from 'ui';
+import { Cite, Cards, ArticleImage, Description, Section, Footnote, Noun } from 'ui';
 import { GameRef } from '../Game';
 
 import imgHHH1 from './shutterstock_1350321158.jpg';
 import imgHHH2 from './shutterstock_1350321164.jpg';
 import imgBaliDice from './shutterstock_1398460952.jpg';
+import imgJMlayout from './shutterstock_1958829937.svg';
 
 const Content: React.FC = () => <>
   <Description>Crown & Anchor is a dice game that is probably most famous as being popular with English and “Colonial” servicemen in the early 20th century. The game play is equivalent to that of <GameRef id="chuck-a-luck" />, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.</Description>
@@ -39,7 +40,7 @@ const Content: React.FC = () => <>
     </ArticleImage>
     <p>Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,<Cite r="Aldenardiana" /> and as “the crown and anchor game” in Australia in 1882.<Cite r="CrownAndAnchorAustralia" /> An equivalent game is recorded as being played in British-controlled Hong Kong in 1884.<Cite r="HongKongCrownAnchor" /></p>
     <p>An interesting patent lodged in England in 1895 (see image) indicates that the game must have been known there in some way, but I have yet to find any other references to it this early on, and the patent does not mention Crown & Anchor by name.<Cite r="GB189504141A" /></p>
-    <p>The game has also at some times been called “bubble and buck”,<Cite r="BubbleBuck1911"/> “bumble and buck”,<Cite r="APrivateInTheGuards" page={189}/>  or “toodlum buck(s)”.<Footnote>This name was also used in Australia to refer to a children’s game played with a teetotum.</Footnote><Cite r="ToodlumBucks"/></p>
+    <p>The game has also at some times been called “bubble and buck”,<Cite r="BubbleBuck1911" /> “bumble and buck”,<Cite r="APrivateInTheGuards" page={189} />  or “toodlum buck(s)”.<Footnote>This name was also used in Australia to refer to a children’s game played with a teetotum.</Footnote><Cite r="ToodlumBucks" /></p>
     <Section title="Boer War">
       <p>The game seems to have first became popular with British soldiers during the <a href="https://en.wikipedia.org/wiki/Second_Boer_War">Second Boer War</a> (1899–1902), when British and Australian troops fought alongside American volunteers. It was possibly transmitted from American troops at this time. In 1900, the game is recorded as having been played by English <abbr className="initialism" title="prisoners of war">POW</abbr>s at the Waterval prison camp, under both the names of “chuck-a-luck”<Cite r="AGlimpseAtWaterval" /> and “crown and anchor”.<Cite r="TrooperMilverton" /> In 1902, the game was described in London as “a new game from South Africa”,<Cite r="ANewGameFromSouthAfrica" /> and a syndicated article from 1914 also discusses the game as having been played in the army “since the first South African campaign”.<Cite r="GamblingInTheArmy" /></p>
       <p>Other references from the Boer war period refer to returning British soldiers being swindled at the game,<Cite r="RobbingTommyAtkins" /> returning Australian troops playing it aboard transport ships (including the last troopship the <cite>Drayton Grange</cite>,<Cite r="DraytonGrange" /> which returned over-crowded and disease-ridden), and a report by an American who played the game with English troops.<Cite r="FromTombsBaker" /></p>
@@ -71,7 +72,7 @@ const Content: React.FC = () => <>
         Australians playing Crown & Anchor aboard HMAT Medic, <abbr title="circa">c.</abbr> 1919.
       </ArticleImage>
       <p>As seen in the last quote, each symbol had its own nickname. The crown could also be termed the “sergeant-major”, the spade the “shovel” or “pioneer’s tool”, the diamond the “curse” or “<a href="https://en.wikipedia.org/wiki/Kimberley,_Northern_Cape">Kimberley</a>”, the club the “shamrock”, and the anchor the “mud-hook”, “mud-rake”, or “meat-hook”.<Cite r="APrivateInTheGuards" page={[[187, 188]]} /></p>
-      <p>According to several observers, the game was even played on the frontlines, in trenches. An anecdote from the <a href="https://en.wikipedia.org/wiki/Ypres_Salient">Ypres Salient</a>, 1916, from a soldier of the <a href="https://en.wikipedia.org/wiki/King%27s_Royal_Rifle_Corps">King’s Royal Rifle Corps</a>:<Cite r="JerryWinsABet" /></p>
+      <p>According to several observers, the game was even played on the frontlines, in trenches. An anecdote from the <a href="https://en.wikipedia.org/wiki/Ypres_Salient">Ypres Salient</a> in 1916, by a soldier of the <a href="https://en.wikipedia.org/wiki/King%27s_Royal_Rifle_Corps">King’s Royal Rifle Corps</a>:<Cite r="JerryWinsABet" /></p>
       <blockquote>
         <p>Alf, who owned a Crown and Anchor board of great antiquity, had it spread out on two petrol cans at the bottom of a shell-hole.</p>
         <p>Around it four of us squatted and began to deposit thereon our dirty half- and one-franc notes, with occasional coins of lesser value. The constant whistle of passing fragments was punctuated by the voice of Alf calling upon the company to “’ave a bit on the ’eart” or alternately to “’ave a dig in the grave”, when a spent bullet crashed on his tin hat and fell with a thud into the crown square.</p>
@@ -96,13 +97,46 @@ const Content: React.FC = () => <>
       <p>In English the Chinese name is usually given as “Hoo Hey How”; this appears to derive from the Hokkien <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>.<Cite r="GamblingGamesOfMalaya" page={109} /> The modern Chinese name is <span lang="zh-Hant">魚蝦蟹</span>/<span lang="zh-Hans">鱼虾鲎</span> ‘fish prawn crab’.</p>
       <p>An equivalent (perhaps older) game can be played with three standard six-sided dice. It does not need to be played with a layout board but it can be. In this form it can be called <span lang="nan">么二三</span> <span lang="nan-Latn">io jī sam</span> (‘ace, two, three’, romanized “Yew Yee Sam” in older texts).<Cite r="GamblingGamesOfMalaya" page={95} /></p>
     </Section>
-    <Section title="India">
-      <p>In India it is Jhandi Munda (झंडी मुंडा, Munda flag?) or Khora Khore (खोर खोरे).</p>
-      <p>The playing card suits are (in Hindi) <span lang="hi">चिड़ी</span> <span lang="hi-Latn">ciṛī</span> (club), <span lang="hi">ईंट</span> <span lang="hi-Latn">ī̃ṭ</span> (‘brick’ = diamond), <span lang="hi">पान</span>  <span lang="hi-Latn">pān</span> (‘betel leaf’ = heart), <span lang="hi">हुकुम</span> <span lang="hi-Latn">hukum</span> (spade).</p>
-    </Section>
-    <Section title="Nepal">
-      <p>In Nepal it is <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>).<Footnote><span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.</Footnote></p>
-      <p>The symbols on the dice are: Jhandi झंडी (flag), munda or burja or mukut मुकुट (crown), <span lang="ne">सुरथ</span> <span lang="ne-Latn">surath</span> (spade), <span lang="ne">चीड</span> <span lang="ne-Latn">chid</span> (‘pine’ = club), <span lang="ne">इँट</span> <span lang="ne-Latn">itta</span> (‘brick’ = diamond), <span lang="ne">पान</span> <span lang="ne-Latn">pana</span> (‘betel leaf’ = heart).</p>
+    <Section title="India & Nepal">
+      <p>In India the game originates in the north-east of the country, bordering Nepal. The game was possibly introduced during the British occupation of India. It is called <span lang="hi">झंडी मुंडा</span> <span lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi">खोर खोरे</span> <span lang="hi-Latn">Khora Khore</span>.</p>
+      <ArticleImage src={imgJMlayout} alt="" source={{
+        license: "stock-image",
+        organization: { orgName: "Shutterstock.com" },
+        author: "rajanpy",
+        identifier: "1958829937",
+        originalUrl: "https://www.shutterstock.com/image-vector/langur-burja-jhandi-munda-dice-local-1958829937"
+      }}>
+        An example of a staking layout for <Noun lang="hi-Latn">Jhaṇḍī Muṇḍā</Noun>. Note that the heart is presented with the same orientation as the spade; this appears to be a typical feature (see more examples: <a href="https://www.alamy.com/stock-photo-traditional-gambling-in-indian-village-on-a-festival-132646298.html">1</a>, <a href="https://www.alamy.com/stock-photo-children-playing-gambling-game-bahundanda-village-lamjung-district-27979377.html">2</a>).
+      </ArticleImage>
+      <p>The names of the symbols are (in Hindi):</p>
+      <ul>
+        <li>flag: <span lang="hi">झंडी</span> <span lang="hi-Latn">jhaṇḍī</span> (flag, specifically a triangular flag associated with Hinduism)</li>
+        <li>crown: <span lang="hi">मुंडा</span> <span lang="hi-Latn">muṇḍā</span> (“shaven”?)/<span lang="hi">बुर्जा</span> <span lang="hi-Latn">burjā</span> (tower?)/<span lang="hi">मुकुट</span> mukuṭ (crown)</li>
+        <li>spade: <span lang="hi">हुकुम</span> <span lang="hi-Latn">hukum</span></li>
+        <li>club: <span lang="hi">चिड़ी</span> <span lang="hi-Latn">ciṛī</span></li>
+        <li>diamond: <span lang="hi">ईंट</span> <span lang="hi-Latn">ī̃ṭ</span> (literally ‘brick’)</li>
+        <li>heart: <span lang="hi">पान</span>  <span lang="hi-Latn">pān</span> (‘betel leaf’)</li>
+      </ul>
+      <ArticleImage
+        size="wide"
+        src={require('./shutterstock_1035142783.jpg')} alt=""
+        source={{
+          license: "stock-image",
+          organization: { orgName: "Shutterstock.com" },
+          author: "Kondoruk",
+          identifier: "1035142783",
+          copyrightYear: 2017,
+          originalUrl: "https://www.shutterstock.com/image-photo/pokhara-nepal-sept-24-2017-unidentified-1035142783"
+        }}>
+        The game being played with 6 dice in <a href="https://en.wikipedia.org/wiki/Pokhara">Pokhara</a>, Nepal.
+      </ArticleImage>
+      <p>In Nepal the game is called <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>).<Footnote><span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.</Footnote> The Nepali names for the playing-card symbols are:</p>
+      <ul>
+        <li>spade: <span lang="ne">सुरथ</span> <span lang="ne-Latn">surath</span></li>
+        <li>club: <span lang="ne">चीड</span> <span lang="ne-Latn">chid</span> (‘pine’)</li>
+        <li>diamond <span lang="ne">इँट</span> <span lang="ne-Latn">itta</span> (‘brick’)</li>
+        <li>heart: <span lang="ne">पान</span> <span lang="ne-Latn">pana</span> (‘betel leaf’)</li>
+      </ul>
     </Section>
     <Section title="Bali">
       <p>In Bali the game is played in many forms, although I don’t know what the local name is. Bali is (based on appearances on the internet) possibly the part of the world where the game is currently the most popular; this despite all gambling being illegal in the country.</p>
@@ -148,6 +182,9 @@ const Content: React.FC = () => <>
       </ArticleImage>
     </Section>
     {/* TODO: Lago Lago in Bhutan? */}
+  </Section>
+  <Section title="See also">
+    <p>The French game of <GameRef id="tribord-et-babord"/> appears to be similar to Crown & Anchor, but the rules are very different.</p>
   </Section>
 </>;
 

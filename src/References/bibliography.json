@@ -5378,5 +5378,44 @@
             "year": 1919
         },
         "URL": "https://archive.org/details/privateinguards00grahrich"
+    },
+    "TableauxEtCartons" : {
+        "type": "article-journal",
+        "title": "Tableaux et Cartons Illustrés Nécessaires à Certains Jeux de Dés",
+        "title-lang": "fr",
+        "author": [
+            {
+                "given": "François",
+                "family": "Richard",
+                "lang": "fr"
+            }
+        ],
+        "container-title": "Le Vieux Papier",
+        "container-title-lang": "fr",
+        "issue": 429,
+        "issued": {
+            "year": 2019
+        },
+        "page": "515–525",
+        "URL": "https://www.levieuxpapier-asso.org/wp-content/uploads/2019/08/LVP-n%C2%B0-429-JUILLET-2018-TABLEAUX-ET-CARTONS-ILLUSTRE%C2%B4S.pdf"
+    },
+    "BibliographieDeLaFrance69":{
+        "$comment": "this is really a periodical…",
+        "type": "article-newspaper",
+        "title": "Gravures, Lithographies, Photographies: Genre",
+        "title-lang": "fr",
+        "container-title": "Bibliographie de la France",
+        "container-title-lang": "fr",
+        "volume": "69 (2nd series)",
+        "issue": 17,
+        "issued": {
+            "year": 1880,
+            "month": 4,
+            "day": 24
+        },
+        "publisher": "Ministère de l’Intérieur",
+        "publisher-lang": "fr",
+        "publisher-place": "Paris, France" ,
+        "URL": "https://books.google.co.nz/books?id=e4M7AQAAMAAJ"
     }
 }
