@@ -10,6 +10,7 @@ const Content: React.FC = () => <>
   <Section title="Equipment">
     <p>The game is played using a board and a single die, and six tokens to mark the spaces on the board. The board contains six symbols, which are also printed on the die. These are similar to those used in the game of <GameRef id="crown-and-anchor"/>.</p>
     <ArticleImage
+      mainImage
       src={require('./TribordBoard.png')}
       alt="A board with three symbols on each side: on the top, labelled “port” in French, a club, an anchor, and a spade; on the bottom, labelled “starboard” in French, a diamond, a sun, and a heart."
       source={{license: "cc0"}}
