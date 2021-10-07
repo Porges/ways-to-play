@@ -136,7 +136,7 @@ const games = {
     import: React.lazy(() => import(/* webpackChunkName: 'tic-tac-toe' */ './TicTacToe'))
   },
   'xianqi': {
-    title: "Xiangqi",
+    title: "Xiàngqí",
     titleLang: "zh-Latn",
     draft: true,
     players: [2],

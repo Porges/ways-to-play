@@ -9,7 +9,7 @@ import imgBaliDice from './shutterstock_1398460952.jpg';
 import imgJMlayout from './shutterstock_1958829937.svg';
 
 const Content: React.FC = () => <>
-  <Description>Crown & Anchor is a dice game that is probably most famous as being popular with English and “Colonial” servicemen in the early 20th century. The game play is equivalent to that of <GameRef id="chuck-a-luck" />, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.</Description>
+  <Description>Crown & Anchor is a dice game that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world. The game play is equivalent to that of <GameRef id="chuck-a-luck" />, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.</Description>
   <Section title="History">
     <ArticleImage
       size="wide"
@@ -27,23 +27,25 @@ const Content: React.FC = () => <>
       }}>
       A Crown & Anchor mat purchased in Colombo (Sri Lanka) in 1915 and used by Australian troops while in transport.
     </ArticleImage>
-    <p>Many gaming histories cite a 17th or 18th century origin for the game, but based on textual evidence it seems to date from the late 19th century, possibly derived from pictorial versions of Chuck-A-Luck such as “Mustang”.</p>
-    <p>In England there are certainly many old references to “dice boards” or “gaming tables”, but they are not described in detail very often. I have found one very early reference to a similar game played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George IV in Hyde Park in 1821.<Footnote>This is clearly the same game as six outcomes are listed and the proprietor announces “three to win, three to lose” — a classically misleading claim!</Footnote><Cite r="DissolutionOfCoronationFair" /> In 1859 a game involving “anchor, heart, etc” is described at a fair,<Cite r="GamblingAtFairs" /> and in 1860 “clubs, spades, &c.” at a game at the races.<Cite r="GamblingAtTheRaces" /> An 1864 newspaper article claims that <a href="https://en.wikipedia.org/wiki/William_Brodie">Deacon Brodie</a> played a game of “anchor, club, star, feather, heart, [and] spade” in his youth, but this may be anachronistic—in any case, it is still an early reference.<Cite r="TheMysteriesOfEdinburgh" /> In 1875 there is reference to a game of “feather, star, and anchor” being played in Epping Forest.<Cite r="EasterMondayInTheForest" /> </p>
+    <p>Many gaming histories cite a 17th or 18th century origin for the game, but based on textual evidence it seems to date from the late 19th century, possibly derived from pictorial versions of Chuck-A-Luck such as “Mustang”. In England there are certainly many old references to “dice boards” or “gaming tables”, but they are not described in detail very often.</p>
+    <p>At first, the game was played with symbols other than the crown and anchor. The earliest reference I have found is to a version played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George IV in Hyde Park in 1821.<Footnote>This is clearly the same game as six outcomes are listed and the operator announces “three to win, three to lose” — a classically misleading claim!</Footnote><Cite r="DissolutionOfCoronationFair" /></p>
+    <p>Other variants were developed through the 19th century: In 1842, the <cite>Punch</cite> character Mr. Muff “mistrust[s] the chances of the ‘Dimunt, Star, Hanker, Crown, Club, and Feather’” being played at the “Clodpole races”.<Cite r="CuriositiesOfMedicalExperience" /> In 1859 a game involving “anchor, heart, etc” is described at a fair,<Cite r="GamblingAtFairs" /> and in 1860 “clubs, spades, &c.” at a game at the races.<Cite r="GamblingAtTheRaces" /> An 1864 newspaper article claims that <a href="https://en.wikipedia.org/wiki/William_Brodie">Deacon Brodie</a> played a game of “anchor, club, star, feather, heart, [and] spade” in his youth, but this may be anachronistic—in any case, it is still an early reference.<Cite r="TheMysteriesOfEdinburgh" /> In 1875 there is reference to a game of “feather, star, and anchor” being played in Epping Forest.<Cite r="EasterMondayInTheForest" /> In 1889, chuck-a-luck (as the “three dice game”) is reported in <a href="https://en.wikipedia.org/wiki/Middlesbrough">Middlesbrough</a>.<Cite r="GamblingInMiddlesbrough" /></p>
+    <p>Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,<Cite r="Aldenardiana" /> and finally as “the crown and anchor game” in Melbourne, Australia in 1882.<Cite r="CrownAndAnchorAustralia" /><Footnote>The game under the name of <GameRef id="chuck-a-luck" /> or “old sweat” is known in Melbourne from at least 1866.<Cite r="LayOfAMelbourneVagrant" /></Footnote> An equivalent game is recorded as being played in British-controlled Hong Kong in 1884.<Cite r="HongKongCrownAnchor" /></p>
+    <p>Information from the people who actually ran the games is hard to find. One notable exception is that of Arthur Harding, whose memoir details his life growing up in <a href="https://en.wikipedia.org/wiki/Boundary_Estate">The Nichol</a>,<Footnote>The Nichol was a slum in East London, also called the “Jago”, which was torn down in the 1890s.</Footnote> in the late 19th and early 20th centuries.<Cite r="EastEndUnderworld" /> Harding states that “some of the first pennies [he] earned was holding up the boards for ‘Crown and Anchor’”, and describes how the board would be held by a person at each end, with a cloth on which the staking layout was painted placed on top. The entire setup was designed to make it as easy as possible to disappear when the police arrived, although in many cases the games were tolerated by police as the income the games provided prevented the operators from resorting to harder crimes.<Footnote>Such as “snide-pitching” (passing false money), and “shoot-flying” (stealing pocket watches by grabbing their chains)!</Footnote><Cite r="EastEndUnderworld" page={[[175, 178]]} /></p>
+    <Footnote standalone>Another curious patent for a game using Crown & Anchor dice was filed in 1891<Cite r="PatentLudoCrownAnchor" /> and eventually granted in modified form in 1905;<Cite r="PatentLudoCrownAnchor2" /> this one combined the dice with the game of Ludo, but is mechanically unrelated.</Footnote>
+    <p>An interesting patent lodged in England in 1895 (see image) indicates that the crown-and-anchor version of the game must have been known at that time, but I have yet to find any other references to it this early on, and the patent does not mention Crown & Anchor by name.<Cite r="GB189504141A" /></p>
     <ArticleImage
-      position="aside"
-      size="wide"
       noborder
       src={require('./StarsAndStripes.png')}
       alt=""
       source={{ license: "cc0" }}>
       An image from the patent for the game “Stars and Stripes”.
     </ArticleImage>
-    <p>Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,<Cite r="Aldenardiana" /> and as “the crown and anchor game” in Australia in 1882.<Cite r="CrownAndAnchorAustralia" /> An equivalent game is recorded as being played in British-controlled Hong Kong in 1884.<Cite r="HongKongCrownAnchor" /></p>
-    <p>An interesting patent lodged in England in 1895 (see image) indicates that the game must have been known there in some way, but I have yet to find any other references to it this early on, and the patent does not mention Crown & Anchor by name.<Cite r="GB189504141A" /></p>
-    <p>The game has also at some times been called “bubble and buck”,<Cite r="BubbleBuck1911" /> “bumble and buck”,<Cite r="APrivateInTheGuards" page={189} />  or “toodlum buck(s)”.<Footnote>This name was also used in Australia to refer to a children’s game played with a teetotum.</Footnote><Cite r="ToodlumBucks" /></p>
+    <p>The game has also at times been called “bubble and buck”,<Cite r="BubbleBuck1911" /> “bumble and buck”,<Cite r="APrivateInTheGuards" page={189} /> “diddlum buck”<Cite r="SmallerSlangDictionary" page={44} />  or “toodlum buck(s)”.<Footnote>This name was also used in Australia to refer to a children’s game played with a teetotum; perhaps the version on sale here is Crown & Anchor played with a teetotum.</Footnote><Cite r="ToodlumBucks" /></p>
     <Section title="Boer War">
-      <p>The game seems to have first became popular with British soldiers during the <a href="https://en.wikipedia.org/wiki/Second_Boer_War">Second Boer War</a> (1899–1902), when British and Australian troops fought alongside American volunteers. It was possibly transmitted from American troops at this time. In 1900, the game is recorded as having been played by English <abbr className="initialism" title="prisoners of war">POW</abbr>s at the Waterval prison camp, under both the names of “chuck-a-luck”<Cite r="AGlimpseAtWaterval" /> and “crown and anchor”.<Cite r="TrooperMilverton" /> In 1902, the game was described in London as “a new game from South Africa”,<Cite r="ANewGameFromSouthAfrica" /> and a syndicated article from 1914 also discusses the game as having been played in the army “since the first South African campaign”.<Cite r="GamblingInTheArmy" /></p>
-      <p>Other references from the Boer war period refer to returning British soldiers being swindled at the game,<Cite r="RobbingTommyAtkins" /> returning Australian troops playing it aboard transport ships (including the last troopship the <cite>Drayton Grange</cite>,<Cite r="DraytonGrange" /> which returned over-crowded and disease-ridden), and a report by an American who played the game with English troops.<Cite r="FromTombsBaker" /></p>
+      <p>The game seems to have first became popular with British soldiers during the <a href="https://en.wikipedia.org/wiki/Second_Boer_War">Second Boer War</a> (1899–1902), when British and Australian troops fought alongside American volunteers. It was possibly transmitted from American troops at this time. In 1900, the game is recorded as having been played by English <abbr className="initialism" title="prisoners of war">POW</abbr>s at the Waterval prison camp, under both the names of “chuck-a-luck”<Cite r="AGlimpseAtWaterval" /> and “crown and anchor”.<Cite r="TrooperMilverton" /> British soldiers’ diaries also record the game being played in military camps at <a href="https://en.wikipedia.org/wiki/De_Aar">De Aar</a><Cite r="AutobiographyOfAMilitaryGreatCoat" page={391} /> and on transport ships.<Cite r="DukeOfLancastersOwn" page={157} /></p>
+      <p>In 1902, the game was described in London as “a new game from South Africa”,<Cite r="ANewGameFromSouthAfrica" /> and a syndicated article from 1914 also discusses the game as having been played in the army “since the first South African campaign”.<Cite r="GamblingInTheArmy" /></p>
+      <p>References from the end of the Boer War period refer to returning British soldiers being swindled at the game,<Cite r="RobbingTommyAtkins" /> returning Australian troops playing it aboard transport ships (including the last troopship the <cite>Drayton Grange</cite>,<Cite r="DraytonGrange" /> which returned over-crowded and disease-ridden), and a report by an American who played the game with English troops.<Cite r="FromTombsBaker" /></p>
     </Section>
     <Section title="World War I">
       <ArticleImage
@@ -71,7 +73,7 @@ const Content: React.FC = () => <>
         source={{ license: "cc0", originalUrl: "https://www.awm.gov.au/collection/C607?image=1", "organization": { "orgName": "Australian War Memorial" } }}>
         Australians playing Crown & Anchor aboard HMAT Medic, <abbr title="circa">c.</abbr> 1919.
       </ArticleImage>
-      <p>As seen in the last quote, each symbol had its own nickname. The crown could also be termed the “sergeant-major”, the spade the “shovel” or “pioneer’s tool”, the diamond the “curse” or “<a href="https://en.wikipedia.org/wiki/Kimberley,_Northern_Cape">Kimberley</a>”, the club the “shamrock”, and the anchor the “mud-hook”, “mud-rake”, or “meat-hook”.<Cite r="APrivateInTheGuards" page={[[187, 188]]} /></p>
+      <p>As seen in the last quote, each symbol had its own nickname. The crown could also be termed the “sergeant-major” or “<a href="https://en.wikipedia.org/wiki/Edward_VII">Teddy’s</a> hat”, the spade the “shovel” or “pioneer’s tool”, the diamond the “curse” or “<a href="https://en.wikipedia.org/wiki/Kimberley,_Northern_Cape">Kimberley</a>”, the heart the “jam tart”, the club the “shamrock”, and the anchor the “mud-hook”, “mud-rake”, or “meat-hook”.<Cite r="APrivateInTheGuards" page={[[187, 188]]} /><Cite r="TheLongTrail"/></p>
       <p>According to several observers, the game was even played on the frontlines, in trenches. An anecdote from the <a href="https://en.wikipedia.org/wiki/Ypres_Salient">Ypres Salient</a> in 1916, by a soldier of the <a href="https://en.wikipedia.org/wiki/King%27s_Royal_Rifle_Corps">King’s Royal Rifle Corps</a>:<Cite r="JerryWinsABet" /></p>
       <blockquote>
         <p>Alf, who owned a Crown and Anchor board of great antiquity, had it spread out on two petrol cans at the bottom of a shell-hole.</p>
@@ -91,14 +93,19 @@ const Content: React.FC = () => <>
     <Section title="World War II">
       <p>In 1940, it was reported that <a href="https://en.wikipedia.org/wiki/Second_Australian_Imperial_Force">Australian Imperial Force</a> troops stationed in Mandatory Palestine had figured out how to play the game without dice: several <a href="https://en.wikipedia.org/wiki/Woodlouse">slaters</a> were placed under an upturned ashtray which had indentations for resting cigarettes; the holes from which the slaters emerged determined the winning numbers.<Cite r="AIFSlaters" /></p>
     </Section>
+    <Section title="Post-War">
+      <p>After the first and second World Wars, mentions of the game become much more common.</p>
+      <p>A version of the game played by workers constructing Scotland’s hydro-electric dams in the middle of the 20th century was played with six dice, but two matches were required to win anything.<Cite r="TheDamBuilders" page={[[162, 163]]} /> This version of the game has a much higher house edge of 13.865%.</p>
+    </Section>
   </Section>
-  <Section title="Varieties of the game">
+  <Section title="Around the World">
     <Section title="China and Peranakans">
       <p>In English the Chinese name is usually given as “Hoo Hey How”; this appears to derive from the Hokkien <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>.<Cite r="GamblingGamesOfMalaya" page={109} /> The modern Chinese name is <span lang="zh-Hant">魚蝦蟹</span>/<span lang="zh-Hans">鱼虾鲎</span> ‘fish prawn crab’.</p>
       <p>An equivalent (perhaps older) game can be played with three standard six-sided dice. It does not need to be played with a layout board but it can be. In this form it can be called <span lang="nan">么二三</span> <span lang="nan-Latn">io jī sam</span> (‘ace, two, three’, romanized “Yew Yee Sam” in older texts).<Cite r="GamblingGamesOfMalaya" page={95} /></p>
     </Section>
     <Section title="India & Nepal">
-      <p>In India the game originates in the north-east of the country, bordering Nepal. The game was possibly introduced during the British occupation of India. It is called <span lang="hi">झंडी मुंडा</span> <span lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi">खोर खोरे</span> <span lang="hi-Latn">Khora Khore</span>.</p>
+      <p>The game was known in Mumbai and Pune<Footnote>Then called Bombay and Poona.</Footnote> as early as 1905, as indicated by court cases from the time,<Cite r="ABookmakerAndThePolice" /><Cite r="HeartAnchorAndCrown" /> but it may have been in India for a long time prior to that.</p>
+      <p>In current times, the game is called <span lang="hi">झंडी मुंडा</span> <span lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi">खोर खोरे</span> <span lang="hi-Latn">Khora Khore</span>.</p>
       <ArticleImage src={imgJMlayout} alt="" source={{
         license: "stock-image",
         organization: { orgName: "Shutterstock.com" },
@@ -181,10 +188,26 @@ const Content: React.FC = () => <>
         A Balinese game of <span lang="id">koprok</span> or <span lang="id">kolok</span> or <span lang="id">kopyok</span>.
       </ArticleImage>
     </Section>
+    <Section title="West Indies">
+      <p>The game was probably played throughout the British West Indies; there are records of it from Trinidad,<Cite r="SportsAndPastimesInTheWestIndies" page={692} />, Antigua, Jamaica, and Bermuda.<Cite r="CelebratingCricket" page={[[622,623]]}/></p>
+      <ArticleImage
+        alt="A Crown & Anchor table scattered with money and weights and surrounded by a large crowd."
+        src={require('./207971457_ed644c66ab_o.jpg')}
+        source={{
+          originalUrl: "https://www.flickr.com/photos/ekkaia/207971457",
+          license: 'cc-by-nd',
+          licenseVersion: '2.0',
+          author: "Lisa",
+          copyrightYear: 2006,
+        }}>
+        A busy game being played during the Cup Match in Bermuda.
+      </ArticleImage>
+      <p>The game is still played today in Jamaica. In Bermuda, the game is legal during the weekend of the Cup Match (a cricket tournament), and played in large tents known as the “stock market”.<Cite r="CupMatchAndCarnival" page={267} /> The game is also called Hook and Hat.<Cite r="AScapeToBermuda" page={123} /></p>
+    </Section>
     {/* TODO: Lago Lago in Bhutan? */}
   </Section>
   <Section title="See also">
-    <p>The French game of <GameRef id="tribord-et-babord"/> appears to be similar to Crown & Anchor, but the rules are very different.</p>
+    <p>The French game of <GameRef id="tribord-et-babord" /> appears to be similar to Crown & Anchor, but the rules are very different.</p>
   </Section>
 </>;
 

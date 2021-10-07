@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Introduction: React.FC = () => 
 <section>
-    <p>Japan developed many different kinds of cards, in isolation from most of the rest of the world. They fall under two main categories:</p>
+    <p>Japan developed many different kinds of cards, in isolation from most of the rest of the world. There are two main families of cards, and a third probably derived from both of these:</p>
     <ul>
         <li>
             Cards derived from Portuguese patterns, with suits and ranks. In order of appearance these are:

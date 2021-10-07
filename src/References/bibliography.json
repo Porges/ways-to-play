@@ -5184,18 +5184,26 @@
         "URL": "https://paperspast.natlib.govt.nz/newspapers/GIST19171222.2.62.12"
     },
     "GB189504141A": {
-        "type": "webpage",
-        "title": "GB189504141A: An Improved Game, and Means for Playing the same",
+        "type": "patent",
+        "title": "An Improved Game, and Means for Playing the same",
         "author": [
             {
                 "family": "Young",
                 "given": "David"
             }
         ],
-        "issued": {
-            "year": 1895
+        "filed": {
+            "year": 1895,
+            "month": 2,
+            "day": 26
         },
-        "URL": "https://worldwide.espacenet.com/patent/search/family/032127496/publication/GB189504141A?q=pn%3DGB189504141A"
+        "issued": {
+            "year": 1895,
+            "month": 11,
+            "day": 16
+        },
+        "patentNumber": "GB189504141A",
+        "URL": "https://worldwide.espacenet.com/patent/search/family/032127496/publication/GB189504141A"
     },
     "LifeOnTransportSardinia": {
         "type": "article-newspaper",
@@ -5379,7 +5387,7 @@
         },
         "URL": "https://archive.org/details/privateinguards00grahrich"
     },
-    "TableauxEtCartons" : {
+    "TableauxEtCartons": {
         "type": "article-journal",
         "title": "Tableaux et Cartons Illustrés Nécessaires à Certains Jeux de Dés",
         "title-lang": "fr",
@@ -5399,7 +5407,7 @@
         "page": "515–525",
         "URL": "https://www.levieuxpapier-asso.org/wp-content/uploads/2019/08/LVP-n%C2%B0-429-JUILLET-2018-TABLEAUX-ET-CARTONS-ILLUSTRE%C2%B4S.pdf"
     },
-    "BibliographieDeLaFrance69":{
+    "BibliographieDeLaFrance69": {
         "$comment": "this is really a periodical…",
         "type": "article-newspaper",
         "title": "Gravures, Lithographies, Photographies: Genre",
@@ -5415,7 +5423,287 @@
         },
         "publisher": "Ministère de l’Intérieur",
         "publisher-lang": "fr",
-        "publisher-place": "Paris, France" ,
+        "publisher-place": "Paris, France",
         "URL": "https://books.google.co.nz/books?id=e4M7AQAAMAAJ"
+    },
+    "LayOfAMelbourneVagrant": {
+        "type": "article-newspaper",
+        "title": "Lay of a Melbourne Vagrant",
+        "issued": {
+            "day": 25,
+            "month": 10,
+            "year": 1866
+        },
+        "page": 6,
+        "container-title": "Melbourne Punch",
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/176537252"
+    },
+    "SportsAndPastimesInTheWestIndies": {
+        "type": "article-journal",
+        "title": "Sports and Pastimes in the West Indies",
+        "author": [
+            {
+                "family": "Low",
+                "given": "Alfred M."
+            }
+        ],
+        "volume": 16,
+        "issued": {
+            "year": 1902
+        },
+        "page": "689–695",
+        "container-title": "The Windsor Magazine",
+        "URL": "https://books.google.co.nz/books?id=lW86AQAAMAAJ",
+        "warnings": "Contains racism."
+    },
+    "AutobiographyOfAMilitaryGreatCoat": {
+        "type": "book",
+        "author": [
+            {
+                "family": "Josling",
+                "given": "Harold"
+            }
+        ],
+        "issued": {
+            "year": 1907
+        },
+        "URL": "https://books.google.co.nz/books?id=CsMNAAAAYAAJ",
+        "title": "The Autobiography of a Military Great Coat: Being a Story of the 1st Norfolk Volunteer Active Service Company",
+        "publisher": "Jarrold & Sons",
+        "publisher-place": "London, England",
+        "warnings": "Contains very racist language."
+    },
+    "DukeOfLancastersOwn": {
+        "type": "book",
+        "title": "The Duke of Lancaster’s Own Yeomanry Cavalry, 23rd Co., I. Y.",
+        "issued": {
+            "year": 1902
+        },
+        "author": [
+            {
+                "family": "Johnson",
+                "given": "L. H."
+            }
+        ],
+        "warnings": "Contains very racist language.",
+        "URL": "https://books.google.co.nz/books?id=IHY28GRaMugC"
+    },
+    "GamblingInMiddlesbrough": {
+        "type": "article-newspaper",
+        "title": "Gambling in Middlesbrough: A Visit “Down the Bank”",
+        "issued": {
+            "year": 1889,
+            "month": 6,
+            "day": 15
+        },
+        "page": 5,
+        "container-title": "The North-Eastern Weekly Gazette",
+        "publisher-place": "Middlesbrough, Yorkshire, England",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0003074/18890615/060/0005"
+    },
+    "CuriositiesOfMedicalExperience": {
+        "type": "article-magazine",
+        "title": "Curiosities of Medical Experience No. VIII",
+        "container-title": "Punch, or The London Charivari",
+        "publisher-place": "London, England",
+        "volume": 2,
+        "page": 227,
+        "issued": {
+            "year": 1842
+        },
+        "URL": "https://books.google.co.nz/books?id=cpNEAAAAcAAJ&pg=PA227"
+    },
+    "PatentLudoCrownAnchor": {
+        "type": "patent",
+        "author": [
+            {
+                "family": "Collier",
+                "given": "Alfred"
+            }
+        ],
+        "filed": {
+            "year": 1891,
+            "month": 8,
+            "day": 29
+        },
+        "applicationNumber": 14636,
+        "title": "Games played with boards and dice",
+        "URL": "https://books.google.co.nz/books?id=HM86AQAAMAAJ&pg=PA168"
+    },
+    "PatentLudoCrownAnchor2": {
+        "type": "patent",
+        "author": [
+            {
+                "family": "Collier",
+                "given": "Alfred"
+            }
+        ],
+        "filed": {
+            "year": 1905,
+            "month": 3,
+            "day": 28
+        },
+        "issued": {
+            "year": 1905,
+            "month": 9,
+            "day": 28
+        },
+        "patentNumber": "GB190506544A",
+        "title": "Means for Playing a New Game",
+        "URL": "https://worldwide.espacenet.com/patent/search/family/032194799/publication/GB190506544A"
+    },
+    "CelebratingCricket": {
+        "type": "article-journal",
+        "title": "Celebrating Cricket: The Symbolic Construction of Caribbean Politics",
+        "author": [
+            {
+                "given": "Frank E.",
+                "family": "Manning"
+            }
+        ],
+        "container-title": "American Ethnologist",
+        "volume": 8,
+        "issue": 3,
+        "issued": {
+            "year": 1981,
+            "month": 8
+        },
+        "page": "616–632",
+        "URL": "http://www.jstor.org/stable/644305"
+    },
+    "CupMatchAndCarnival": {
+        "type": "paper-conference",
+        "title": "Cup Match and Carnival: Secular Rites of Revitalization in Decolonizing, Tourist-Oriented Societies",
+        "author": [
+            {
+                "given": "Frank E.",
+                "family": "Manning"
+            }
+        ],
+        "issued": {
+            "year": 1977
+        },
+        "publisher": "Van Gorcum",
+        "publisher-place": "Amsterdam, The Netherlands",
+        "container-title": "Secular Ritual",
+        "page": "265–281",
+        "ISBN": "90-232-1457-9"
+    },
+    "EastEndUnderworld": {
+        "type": "book",
+        "URL": "https://archive.org/details/eastendunderworl0000hard",
+        "title": "East End Underworld: Chapters in the Life of Arthur Harding",
+        "issued": {
+            "year": 1981
+        },
+        "author": [
+            {
+                "given": "Arthur",
+                "family": "Harding"
+            },
+            {
+                "given": "Raphael",
+                "family": "Samuel"
+            }
+        ],
+        "publisher": "Routledge & Kegan Paul",
+        "publisher-place": "London, England, UK",
+        "ISBN": "0-7100-0725-6"
+    },
+    "TheDamBuilders": {
+        "type": "book",
+        "title": "The Dam Builders: Power from the Glens",
+        "URL": "https://archive.org/details/dambuilderspower0000mill",
+        "issued": {
+            "year": 2002
+        },
+        "author": [
+            {
+                "family": "Miller",
+                "given": "James"
+            }
+        ],
+        "publisher": "Birlinn",
+        "publisher-place": "Edinburgh, Scotland",
+        "ISBN": "1-84158-225-5"
+    },
+    "TheLongTrail": {
+        "type": "book",
+        "title": "The Long Trail: What the British soldier sang and said in the Great War of 1914–18",
+        "issued": {
+            "year": 1965
+        },
+        "URL": "https://archive.org/details/longtrailwhatbri0000brop",
+        "author": [
+            {
+                "given": "John",
+                "family": "Brophy"
+            },
+            {
+                "given": "Eric",
+                "family": "Partridge"
+            }
+        ],
+        "publisher": "Andre Deutsch",
+        "publisher-place": "London, England"
+    },
+    "SmallerSlangDictionary": {
+        "type": "book",
+        "title": "Smaller Slang Dictionary",
+        "issued": {
+            "year": 1976
+        },
+        "URL": "https://archive.org/details/smallerslangdict0000part",
+        "author": [
+            {
+                "given": "Eric",
+                "family": "Partridge"
+            }
+        ],
+        "edition": 2,
+        "publisher": "Routledge & Kegan Paul",
+        "publisher-place": "London, England",
+        "ISBN": "0-7100-1938-6"
+    },
+    "ABookmakerAndThePolice": {
+        "type": "article-newspaper",
+        "title": "A Sensation at the Poona Races",
+        "container-title": "Madras Weekly Mail",
+        "issued": {
+            "year": 1905,
+            "month": 10,
+            "day": 12
+        },
+        "page": 16,
+        "volume": 61,
+        "issue": 15,
+        "publisher-place": "Chennai, Tamil Nadu, India",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0003345/19051012/198/0016"
+    },
+    "HeartAnchorAndCrown": {
+        "type": "article-journal",
+        "title": "Emperor v. Hussein Noor Mahomed and Others",
+        "page": "348–358",
+        "container-title": "The Indian Law Reports, Bombay Series",
+        "volume": 30,
+        "issued": {
+            "year": 1906
+        },
+        "URL": "https://archive.org/details/in.ernet.dli.2015.274162/page/n365"
+    },
+    "AScapeToBermuda": {
+        "type": "book",
+        "URL": "https://archive.org/details/scapetobermuda0000macd",
+        "author": [
+            {
+                "given": "Ian",
+                "family": "Macdonald–Smith"
+            }
+        ],
+        "title": "A Scape To Bermuda",
+        "issued": {
+            "year": 1991
+        }
     }
 }

@@ -16,6 +16,8 @@ const Bibliography: React.FC = () => {
         ${r.issued ? r.issued.year : ''}
         ${r.title}`;
 
+  const typedReferences: Record<string, Omit<Reference, 'id'>> = references;
+
   return (<>
     <Helmet>
       <title>Bibliography</title>
@@ -24,9 +26,9 @@ const Bibliography: React.FC = () => {
       <h1>Bibliography</h1>
       <Row>
         <ul className="reference-list list-unstyled col-8 offset-2">
-          {Object.entries(references)
+          {Object.entries(typedReferences)
             .concat()
-            .map(([id, r]) => [id, {...r, id}] as const)
+            .map(([id, r]): [string, Reference] => [id, {...r, id}])
             .sort(([_1, r1], [_2, r2]) => comparer.compare(sortKey(r1), sortKey(r2)))
             .map(([id, r]) => <li key={id}>{renderReference(r)}</li>)}
         </ul>
