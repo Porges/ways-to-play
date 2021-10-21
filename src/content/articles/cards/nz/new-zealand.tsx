@@ -64,8 +64,6 @@ import imgWeeksCanasta from './Weeks-Canasta.jpg';
 import imgGoodallEgmont from './Goodall-Egmont.jpg';
 import imgGoodallMatheson from './Goodall-Matheson.jpg';
 
-import imgTax1 from './tax1.jpg';
-import imgTax2 from './tax2.jpg';
 
 const NZ: React.FC = () =>
   <>
@@ -92,14 +90,19 @@ const NZ: React.FC = () =>
       <p>Playing cards imported into New Zealand were taxed from 1860, and stamped from 1880 until the tax ended in 1930.<Cite r="TaxStampNZ" /> All examples I have seen have been stamped on the <Cards>2d</Cards>.</p>
       <div className="multi">
         <ArticleImage
-          src={imgTax1}
+          src={require('./tax1.jpg')}
           alt="">
           Tax stamp dated 14<sup>th</sup> March, 1913, on imported “1001 Aladdin” cards made by the National Card Co. of Indianapolis & New York.
         </ArticleImage>
         <ArticleImage
-          src={imgTax2}
+          src={require('./tax2.jpg')}
           alt="">
           Tax stamp dated 21<sup>st</sup> June, 1929, on imported “Congress” brand cards made by the United States Playing Card Co. in Windsor, Ontario, Canada.
+        </ArticleImage>
+        <ArticleImage
+          src={require('./tax3.jpg')}
+          alt="">
+          Undated tax stamp from A. D. Willis cards.
         </ArticleImage>
       </div>
     </Section>
