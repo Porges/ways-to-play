@@ -105,7 +105,8 @@ const Content: React.FC = () => <>
     </Section>
     <Section title="India & Nepal">
       <p>The game was known in Mumbai and Pune<Footnote>Then called Bombay and Poona.</Footnote> as early as 1905, as indicated by court cases from the time,<Cite r="ABookmakerAndThePolice" /><Cite r="HeartAnchorAndCrown" /> but it may have been in India for a long time prior to that.</p>
-      <p>In current times, the game is called <span lang="hi">झंडी मुंडा</span> <span lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi">खोर खोरे</span> <span lang="hi-Latn">Khora Khore</span>.</p>
+      <p>In current times, the game is called <span lang="hi">झंडी मुंडा</span> <Noun lang="hi-Latn">Jhaṇḍī Muṇḍā</Noun> (“flag crown”?), or <span lang="hi">खोर खोरे</span> <Noun lang="hi-Latn">Khor Khore</Noun>.</p>
+      <p>Gambling remains illegal in most of India but the game is commonly played during <a href="https://en.wikipedia.org/wiki/Diwali"><Noun lang="hi-Latn">Diwali</Noun></a> (<span lang="hi">दीपावली</span>).</p>
       <ArticleImage src={imgJMlayout} alt="" source={{
         license: "stock-image",
         organization: { orgName: "Shutterstock.com" },
@@ -137,7 +138,8 @@ const Content: React.FC = () => <>
         }}>
         The game being played with 6 dice in <a href="https://en.wikipedia.org/wiki/Pokhara">Pokhara</a>, Nepal.
       </ArticleImage>
-      <p>In Nepal the game is called <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>).<Footnote><span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.</Footnote> The Nepali names for the playing-card symbols are:</p>
+      <p>In Nepal the game is called <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>).<Footnote><span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.</Footnote> It is commonly played during the festivals of <a href="https://en.wikipedia.org/wiki/Dashain"><Noun lang="ne-Latn">Dashain</Noun></a> (<span lang="ne">दशैं</span>) and <a href="https://en.wikipedia.org/wiki/Tihar_(festival)"><Noun lang="ne-Latn">Tihar</Noun></a> (<span lang="ne">तिहार</span>), and it is usually played with six dice (requiring a minimum of two matches to pay out).</p>
+      <p>The Nepali names for the playing-card symbols are:</p>
       <ul>
         <li>spade: <span lang="ne">सुरथ</span> <span lang="ne-Latn">surath</span></li>
         <li>club: <span lang="ne">चीड</span> <span lang="ne-Latn">chid</span> (‘pine’)</li>

@@ -293,6 +293,14 @@ const NZ: React.FC = () =>
       <Section title="Strong & Ready/Tanner Couch">
         <p>Strong & Ready Ltd. was registered from 1948–1974.</p>
         <ArticleImage noborder size="wide" src={[
+          [require('./Elfin-1.jpg'), ""],
+          [require('./Elfin-2.jpg'), ""],
+          [require('./Elfin-3.jpg'), ""],
+          [require('./Elfin-4.jpg'), ""],
+        ]}>
+          Strong & Ready “Elfin” patience-sized playing cards.
+        </ArticleImage>
+        <ArticleImage noborder size="wide" src={[
           [imgStrongReady1953Joker, ""],
           [imgStrongReady1953Ace, ""],
           [imgStrongReady1953Ad1, ""],
