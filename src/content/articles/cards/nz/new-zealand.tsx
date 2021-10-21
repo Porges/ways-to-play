@@ -225,12 +225,22 @@ const NZ: React.FC = () =>
         <ArticleImage
           noborder
           src={[
+            [require('./AD_Old-1.jpg'), ""],
+            [require('./AD_Old-2.jpg'), ""],
+            [require('./AD_Old-3.jpg'), ""],
+            [require('./AD_Old-4.jpg'), ""],
+          ]}>
+          Cards in the original A. D. Willis style, <abbr title="circa">c.</abbr> 1910.
+        </ArticleImage>
+        <ArticleImage
+          noborder
+          src={[
             [imgWillisAce, ""],
             [imgWillisQueen, ""],
             [imgWillisJoker, ""],
             [imgWillisBox500, ""],
           ]}>
-          Cards in the Willis style, this deck possibly produced by A. D. Willis. The deck is a 500 deck and includes <Cards>&#x246A;</Cards>s, <Cards>&#x246B;</Cards>s, and <Cards>&#x246C;</Cards>s. An unusual detail is that the tail of the <Cards>Q</Cards> index is truncated on the red cards.
+          Cards in the later Willis style, this deck possibly produced by A. D. Willis. The deck is a 500 deck and includes <Cards>&#x246A;</Cards>s, <Cards>&#x246B;</Cards>s, and <Cards>&#x246C;</Cards>s. An unusual detail is that the tail of the <Cards>Q</Cards> index is truncated on the red cards.
       </ArticleImage>
         <ArticleImage
           noborder
