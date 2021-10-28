@@ -532,6 +532,7 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">御所櫻</span> (<span lang="ja-Latn">gosho&shy;zakura</span>, ‘imperial palace cherry blossoms’)</li>
           <li><span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)</li>
           <li><span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a reference to <a href="/articles/cards/japan/hanafuda/art/#1">the <span lang="ja-Latn">waka</span> that appears on the pine cards in some decks</a>)</li>
+          <li><span lang="ja">丹頂</span> (<span lang="ja-Latn">tanchō</span>, ‘red-crested crane’, that appears on the pine bright)</li>
         </ul>
         <ArticleImage
           src={[
