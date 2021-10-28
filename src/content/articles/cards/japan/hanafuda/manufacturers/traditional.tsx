@@ -1268,9 +1268,26 @@ const Manufacturers: React.FC = () => {
           }}>
           Wrapper, maker’s mark (on Wisteria), and advertising card from a <span lang="ja-Latn">dai&shy;tengu</span> deck.
         </ArticleImage>
-        <p>The only brand I know of is:</p>
+        <p>In the 1930s their brands included (in descending price order):</p>
         <ul>
-          <li><span lang="ja">大天狗</span> (<span lang="ja-Latn">dai&shy;tengu</span>, ‘great <span lang="ja-Latn">tengu</span>’)</li>
+          <li><span lang="ja">花の譽</span> (<span lang="ja-Latn">hana no homare</span>, ‘flower’s honour’)</li>
+          <li><span lang="ja">福天狗</span> (<span lang="ja-Latn">fuku&shy;tengu</span>, ‘lucky <span lang="ja-Latn">tengu</span>’), also used for <span lang="ja-Latn">mushi-</span>, <span lang="ja-Latn">kabu-</span>, <span lang="ja-Latn">mekuri-</span>, and <span lang="ja-Latn">mamefuda</span></li>
+          <li><span lang="ja">金天狗</span> (<span lang="ja-Latn">kin&shy;tengu</span>, ‘golden <span lang="ja-Latn">tengu</span>’), also used for <span lang="ja-Latn">mushi-</span>, <span lang="ja-Latn">kabu-</span>, <span lang="ja-Latn">mekuri-</span>, and <span lang="ja-Latn">mamefuda</span></li>
+          <li><span lang="ja">銀天狗</span> (<span lang="ja-Latn">gin&shy;tengu</span>, ‘silver <span lang="ja-Latn">tengu</span>’)</li>
+          <li><span lang="ja">大天狗</span> (<span lang="ja-Latn">dai&shy;tengu</span>, ‘great <span lang="ja-Latn">tengu</span>’), also used for <span lang="ja-Latn">mushi-</span>, <span lang="ja-Latn">kabu-</span>, <span lang="ja-Latn">mekuri-</span>, and <span lang="ja-Latn">mamefuda</span></li>
+          <li><span lang="ja">美人天狗</span> (<span lang="ja-Latn">bijin&shy;tengu</span>, ‘beauty <span lang="ja-Latn">tengu</span>’)</li>
+          <li><span lang="ja">中天狗</span> (<span lang="ja-Latn">naka&shy;tengu</span>, ‘middle <span lang="ja-Latn">tengu</span>’)</li>
+          <li><span lang="ja">花天狗</span> (<span lang="ja-Latn">hana&shy;tengu</span>, ‘flower <span lang="ja-Latn">tengu</span>’), only used for <span lang="ja-Latn">mushifuda</span></li>
+          <li><span lang="ja">三天狗</span> (<span lang="ja-Latn">san&shy;tengu</span>, ‘three <span lang="ja-Latn">tengu</span>’)</li>
+          <li><span lang="ja">國の花</span> (<span lang="ja-Latn">kuni no hana</span>, ‘nation’s flower’)</li>
+          <li><span lang="ja">八重櫻</span> (<span lang="ja-Latn">yaezakura</span>, ‘eight-fold cherry blossom’, a double-flowered cherry blossom), also used for <span lang="ja-Latn">mushifuda</span></li>
+          <li><span lang="ja">福助</span> (<span lang="ja-Latn">fukusuke</span>), only used for <span lang="ja-Latn">kabu-</span>, <span lang="ja-Latn">mekuri-</span>, and <span lang="ja-Latn">mamefuda</span></li>
+          <li><span lang="ja">紅梅</span> (<span lang="ja-Latn">kōbai</span>, ‘red plum’)</li>
+          <li><span lang="ja">張貫</span> (<span lang="ja-Latn">harinuki</span>, a manufacturing technique), only used for <span lang="ja-Latn">kabu-</span>, <span lang="ja-Latn">mekuri-</span>, and <span lang="ja-Latn">mamefuda</span></li>
+          <li><span lang="ja">一楽</span> (<span lang="ja-Latn">ichiraku</span>, ‘one of one’s hobbies’), only used for <span lang="ja-Latn">kabu-</span>, <span lang="ja-Latn">mekuri-</span>, and <span lang="ja-Latn">mamefuda</span></li>
+          <li><span lang="ja">五光</span> (<span lang="ja-Latn">gokō</span>, ‘five brights’)</li>
+          <li><span lang="ja">青天狗</span> (<span lang="ja-Latn">ao&shy;tengu</span>, ‘blue <span lang="ja-Latn">tengu</span>’), only used for <span lang="ja-Latn">kabu-</span>, <span lang="ja-Latn">mekuri-</span>, and <span lang="ja-Latn">mamefuda</span></li>
+          <li><span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<span lang="ja-Latn">tengu</span>’), only used for <span lang="ja-Latn">mamefuda</span></li>
         </ul>
         <ArticleImage
           src={imgTsuchidaWrapper}
