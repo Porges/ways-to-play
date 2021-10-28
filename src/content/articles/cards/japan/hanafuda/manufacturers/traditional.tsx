@@ -1142,6 +1142,10 @@ const Manufacturers: React.FC = () => {
           <ArticleImage src={imgNKhigashinishiki1} alt="A hanafuda wrapper featuring a fan.">
             The inner <span lang="ja-Latn">higashinishiki</span> wrapper, for a single deck.
           </ArticleImage>
+          <ArticleImage src={require('./NK_fuji.jpg')} alt="A hanafuda wrapper with an image of Mount Fuji"
+            source={{ author: { family: "琴比", given: "良哲", familyFirst: true, lang: "ja" }, license: "with-permission", copyrightYear: 2021 }}>
+            The <span lang="ja-Latn">fuji</span> wrapper.
+          </ArticleImage>
           <ArticleImage src={imgNKkinfuji} alt="A hanafuda wrapper with an image of Mount Fuji.">
             The <span lang="ja-Latn">kinfuji</span> wrapper.
           </ArticleImage>
