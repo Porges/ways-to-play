@@ -1382,7 +1382,7 @@ const Manufacturers: React.FC = () => {
               given: "Ryan"
             }
           }}>
-          <Noun lang="ja-Latn">Heibon</Noun>’s <span lang="ja-Latn">sakurahangan</span> wrapper. (Low-resolution image from the side of a <span lang="ja">botanjishi</span> wrapper.)
+          <Noun lang="ja-Latn">Heibon</Noun>’s <span lang="ja-Latn">sakurahangan</span> wrapper.
         </ArticleImage>
         <ArticleImage
           src={require('./Heibon_asahifuji.jpg')}
