@@ -1357,6 +1357,47 @@ const Manufacturers: React.FC = () => {
           <li><span lang="ja">旭富士</span> (<span lang="ja-Latn">asahifuji</span> ‘<Noun lang="ja-Latn">Fuji</Noun> sunrise’)</li>
           <li><span lang="ja">桜判官</span> (<span lang="ja-Latn">sakurahangan</span> ‘cherry blossom judge’, a reference to <a href="https://en.wikipedia.org/wiki/T%C5%8Dyama_Kagemoto"><Noun lang="ja-Latn">Tōyama Kagemoto</Noun></a>)</li>
         </ul>
+        <div className="multi">
+        <ArticleImage
+          src={require('./Heibon_botanjishi.jpg')}
+          alt="A hanafuda deck with an image of a stylized lion and peony flower."
+          source={{
+            license: "with-permission",
+            copyrightYear: 2021,
+            author: {
+              family: "Sartor",
+              given: "Ryan"
+            }
+          }}>
+          <Noun lang="ja-Latn">Heibon</Noun>’s <span lang="ja-Latn">botanjishi</span> wrapper. Note the sticker indicating that the box contains <Noun lang="ja-Latn">Kabufuda</Noun> cards.
+        </ArticleImage>
+        <ArticleImage
+          src={require('./Heibon_sakurahangan.jpg')}
+          alt="A hanafuda wrapper with an image of a Japanese judge’s haircut and cherry blossoms."
+          source={{
+            license: "with-permission",
+            copyrightYear: 2021,
+            author: {
+              family: "Sartor",
+              given: "Ryan"
+            }
+          }}>
+          <Noun lang="ja-Latn">Heibon</Noun>’s <span lang="ja-Latn">sakurahangan</span> wrapper. (Low-resolution image from the side of a <span lang="ja">botanjishi</span> wrapper.)
+        </ArticleImage>
+        <ArticleImage
+          src={require('./Heibon_asahifuji.jpg')}
+          alt="A hanafuda wrapper with an image of the sun rising over Mount Fuji."
+          source={{
+            license: "with-permission",
+            copyrightYear: 2021,
+            author: {
+              family: "Sartor",
+              given: "Ryan"
+            }
+          }}>
+          <Noun lang="ja-Latn">Heibon</Noun>’s <span lang="ja">asahifuji</span> wrapper. (Low-resolution image from the side of a <span lang="ja-Latn">botanjishi</span> wrapper.)
+        </ArticleImage>
+        </div>
       </Section>
       <Section title={<><Noun lang="ja-Latn">Kawakita</Noun> (<span lang="ja">川北</span>)</>}>
         <p><Noun lang="ja-Latn">Kawakita</Noun> had its own brands but cards were made by <Noun lang="ja-Latn">Yamashiro Shōten</Noun>. It closed after 1962.<Cite r="ModernJapaneseWrappers" page={[[48, 49]]} /> Brands included:</p>
