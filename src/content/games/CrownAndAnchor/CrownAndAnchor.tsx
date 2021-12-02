@@ -7,6 +7,7 @@ import imgHHH1 from './shutterstock_1350321158.jpg';
 import imgHHH2 from './shutterstock_1350321164.jpg';
 import imgBaliDice from './shutterstock_1398460952.jpg';
 import imgJMlayout from './shutterstock_1958829937.svg';
+import imgChineseBoard from './chinese_board.svg';
 
 const Content: React.FC = () => <>
   <Description>Crown & Anchor is a dice game that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world. The game play is equivalent to that of <GameRef id="chuck-a-luck" />, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.</Description>
@@ -99,8 +100,12 @@ const Content: React.FC = () => <>
     </Section>
   </Section>
   <Section title="Around the World">
+    <p>The game is played in many locations around the world; note that American-style games including casino versions are discussed in the <GameRef id='chuck-a-luck'/> article.</p>
     <Section title="China and Peranakans">
-      <p>In English the Chinese name is usually given as “Hoo Hey How”; this appears to derive from the Hokkien <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>.<Cite r="GamblingGamesOfMalaya" page={109} /> The modern Chinese name is <span lang="zh-Hant">魚蝦蟹</span>/<span lang="zh-Hans">鱼虾鲎</span> ‘fish prawn crab’.</p>
+      <p>In English the Chinese name is usually given as “Hoo Hey How”; this appears to derive from the Hokkien <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>.<Cite r="GamblingGamesOfMalaya" page={109} /> The modern Chinese name is <span lang="zh-Hant">魚蝦蟹</span>/<span lang="zh-Hans">鱼虾鲎</span> ‘fish prawn crab’; these are several of the symbols that commonly appear on the staking layout.</p>
+      <ArticleImage src={imgChineseBoard} alt="">
+        Example of a Chinese-style staking layout.
+      </ArticleImage>
       <p>An equivalent (perhaps older) game can be played with three standard six-sided dice. It does not need to be played with a layout board but it can be. In this form it can be called <span lang="nan">么二三</span> <span lang="nan-Latn">io jī sam</span> (‘ace, two, three’, romanized “Yew Yee Sam” in older texts).<Cite r="GamblingGamesOfMalaya" page={95} /></p>
     </Section>
     <Section title="India & Nepal">

@@ -264,7 +264,7 @@ const Hanafuda: React.FC = () => {
         <p>Unlike <span lang="ja-Latn">kai-awase</span>, the new game was exclusively played with clam (<span lang="ja">蛤</span>) shells, and it offered definitive terms for deciding the winner. In one method of play, the left-hand sides of the shells — also termed the “male” or ‘ground’ (<span lang="ja">地</span>) shells — were arranged face-down on the ground. The right-hand sides — the “female” or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell bucket’) one-by-one and the players would attempt to match them with those on the floor. Whoever was the first to point out a (successful) match would capture both halves of the shell, and the winner was the player who collected the most shells.</p>
         <p>Early instructional books for women from the <Noun lang="ja-Latn">Muromachi</Noun> period (1392–1573) include rules that state that the game is played with twelve shells,<Footnote>A video showing how this game would have been played can be seen <a href="https://www.youtube.com/watch?v=fe4_bz-okxM">here</a>.</Footnote> which should be arranged in a circle on the ground, and that the drawn shell should be placed in the centre, with the pointed end (“head”) directed towards the highest-ranking person in the room.<Cite r="JapaneseGamesOfMemory" page={270} /> Evidently the game could get physical, as those same books warn that “to quarrel and remove shells by force is something that only men and courtesans do.”</p>
         <p>The monk <a href="https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D" lang="ja-Latn" className="proper-noun">Kenkō</a> (<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in Idleness</cite>, published around 1330:<Cite r="EssaysInIdleness" page={130} />
-        <Footnote><Noun lang="ja-Latn">Kenkō</Noun> goes on to apply this strategic advice as part of an extended metaphor for good governance and living well: “In all things, do not seek for distant advantage. Simply maintain correctly what is close to hand. In the words of the Chinese sage <a href="https://en.wikipedia.org/wiki/Zhao_Pu">Duke Xiao of Qing</a>, ‘Do what is good, and ask no questions of the future.’ Surely a ruler should also govern in this way.”</Footnote></p>
+          <Footnote><Noun lang="ja-Latn">Kenkō</Noun> goes on to apply this strategic advice as part of an extended metaphor for good governance and living well: “In all things, do not seek for distant advantage. Simply maintain correctly what is close to hand. In the words of the Chinese sage <a href="https://en.wikipedia.org/wiki/Zhao_Pu">Duke Xiao of Qing</a>, ‘Do what is good, and ask no questions of the future.’ Surely a ruler should also govern in this way.”</Footnote></p>
         <blockquote>If someone engaged in a game of shell matching neglects the shells in front of him while he looks around to check what others might be hiding in their sleeves or by their knees, his own shells will be snatched from in front of him. Those who are good at the game seem not to go to the length of taking shells from distant players but limit themselves to those close at hand, yet they manage to acquire a large number.</blockquote>
         <p>While later depictions (such as the images above) usually represent the game as only played by women, diary entries and paintings from the time show that the game was originally played by everyone, often in mixed teams. Losing teams would also request re-matches to try to beat the victorious team.<Cite r="JapaneseGamesOfMemory" page={257} /></p>
         <p>Records of the imperial household indicate that the shell-matching game was played formally nearly five hundred times over the period 1481–1589, sometimes as many as nine times a month.<Cite r="JapaneseGamesOfMemory" page={257} /></p>
@@ -288,7 +288,7 @@ const Hanafuda: React.FC = () => {
             ]}
           source={{ license: 'cc0', organization: { orgName: "Portland Art Museum" }, originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101' }}>
           An 18th-century <span lang="ja-Latn">kai-ōi</span> set. The paired boxes are the <span lang="ja-Latn">kai-oke</span>, and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
-      </ArticleImage>
+        </ArticleImage>
         <p>A personal <span lang="ja-Latn">kai-ōi</span> set became a standard  part of a noble bride’s wedding gifts, as the joining of the matching shells was symbolic of the join&shy;ing of husband and wife in marriage. However, the elaborate sets with their hand-painted and gilded interiors must have been ex&shy;pen&shy;sive to create and only owned by the richest of families. Indeed, at times restrictions were put in place so that <em>only</em> noble families of the upper ranks were permitted to include the game in their bridal trousseaux.<Cite r="JapaneseGamesOfMemory" page={265} /> When time came to hand over the wedding gifts, it was customary for the <span lang="ja-Latn">kai-oke</span> to be the first item presented.<Cite r="JapaneseGamesOfMemory" page={265} /></p>
         <p> In this role, miniature <span lang="ja-Latn">kai-oke</span> can be found in <a href="https://en.wikipedia.org/wiki/Hinamatsuri"><span lang="ja-Latn">hina-matsuri</span></a> col&shy;lections, and these are still produced for this purpose today.</p>
         <ArticleImage
@@ -297,13 +297,13 @@ const Hanafuda: React.FC = () => {
           src={imgHinaMatsuriDetail}
           alt="">
           Detail of the miniature <span lang="ja-Latn">kai-oke</span> in the print.
-      </ArticleImage>
+        </ArticleImage>
         <ArticleImage
           src={imgHinaMatsuri}
           alt=""
           source={{ license: "cc0" }}>
           A miniature <span lang="ja-Latn">kai-oke</span> can be seen in this depiction of a <span lang="ja-Latn">hina-matsuri</span> set.<br />By <a href="https://en.wikipedia.org/wiki/Okumura_Masanobu"><Noun lang="ja-Latn">Okumura Masanobu</Noun></a> (<span lang="ja">奥村政信</span>, 1686–1764).
-      </ArticleImage>
+        </ArticleImage>
       </Section>
       <Section title={<span lang="ja-Latn">Hana-awase</span>}>
         <p><Noun lang="ja-Latn">Hanafuda</Noun> seem to originate in a combination of the themes of <span lang="ja-Latn">kai-awase</span> — matching sets, poetry, conventionalized art — with the ideas introduced by the Portuguese playing cards — a regular structure of <i>suits</i> divided into different <i>ranks</i>.</p>
@@ -329,8 +329,8 @@ const Hanafuda: React.FC = () => {
       </Section>
       <Section title="Banning &amp; Legalization">
         <p>Some time after its introduction, <Noun lang="ja-Latn">Hanafuda</Noun> games were restricted as part of a total ban on gambling introduced during the <Noun lang="ja-Latn">Kansei</Noun> Reforms<Footnote>During the <Noun lang="ja-Latn">Kansei</Noun> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.<Cite r="SatireWithinKibyōshi" page={44} /></Footnote> (1787–1793). This ban was to remain in place for nearly 200 years until, in 1886, a bookstore owner in <Noun lang="ja-Latn">Ōsaka</Noun> named <Noun lang="ja-Latn">Maeda Kihei</Noun> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling  <Noun lang="ja-Latn">Hanafuda</Noun>.</p>
-        <p>Things had already begun to change in 1885, after a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.<Cite r="EbashiHanafuda" page={[[189, 192]]} /> <Noun lang="ja-Latn">Maeda Kihei</Noun><Footnote><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</Footnote> became convinced through his reading of legal texts that the selling of <Noun lang="ja-Latn">Hanafuda</Noun> was not actually prohibited, and he moved to <Noun lang="ja-Latn">Tōkyō</Noun> in December 1885 with a plan to open a <Noun lang="ja-Latn">Hana&shy;fuda</Noun> shop. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince news&shy;papers to print his advertisements. In order to prove himself correct, he came up with a cunning plan: he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun>. His petition was declined, the police stating that the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Yagenbori</Noun> neighbourhood of <a href="https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo">Chūō</a> district in <Noun lang="ja-Latn">Tōkyō</Noun> (<span lang="ja">中央区薬研堀町</span>, now part of <Noun lang="ja-Latn">Higashi–Nihonbashi</Noun>).  The shop was named “<Pronounce lang="ja-Latn" word="Kamigataya" noun pronouncer="poyotan" file={pronKamigataya} />” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r="EbashiHanafuda" page={[[189, 192]]} /><Cite r="OpeningKamigataya"/></p>
-        <ArticleImage 
+        <p>Things had already begun to change in 1885, after a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.<Cite r="EbashiHanafuda" page={[[189, 192]]} /> <Noun lang="ja-Latn">Maeda Kihei</Noun><Footnote><Noun lang="ja-Latn">Kihei</Noun> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.</Footnote> became convinced through his reading of legal texts that the selling of <Noun lang="ja-Latn">Hanafuda</Noun> was not actually prohibited, and he moved to <Noun lang="ja-Latn">Tōkyō</Noun> in December 1885 with a plan to open a <Noun lang="ja-Latn">Hana&shy;fuda</Noun> shop. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince news&shy;papers to print his advertisements. In order to prove himself correct, he came up with a cunning plan: he officially petitioned the <Noun lang="ja-Latn">Tōkyō</Noun> police to ban the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun>. His petition was declined, the police stating that the sale of <Noun lang="ja-Latn">Hana&shy;fuda</Noun> was legal, and later that month he opened his first shop in the <Noun lang="ja-Latn">Yagenbori</Noun> neighbourhood of <a href="https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo">Chūō</a> district in <Noun lang="ja-Latn">Tōkyō</Noun> (<span lang="ja">中央区薬研堀町</span>, now part of <Noun lang="ja-Latn">Higashi–Nihonbashi</Noun>).  The shop was named “<Pronounce lang="ja-Latn" word="Kamigataya" noun pronouncer="poyotan" file={pronKamigataya} />” (<span lang="ja">上方屋</span>, ‘<Noun lang="ja-Latn">Kyōto</Noun> region store’).<Cite r="EbashiHanafuda" page={[[189, 192]]} /><Cite r="OpeningKamigataya" /></p>
+        <ArticleImage
           src={imgKamigatayaSugoroku}
           alt="A Japanese sugoroku board game with images spiraling in counter-clockwise from the outside to the center, showing scenes of Maeda applying to the police to open his store, along with products such as cards and dice."
           size="extra-wide"
@@ -346,19 +346,20 @@ const Hanafuda: React.FC = () => {
         </ArticleImage>
         <p><Noun lang="ja-Latn">Kamigataya</Noun> was thus the first store to openly sell <Noun lang="ja-Latn">Hanafuda</Noun>. A month later, <Noun lang="ja-Latn">Maeda</Noun> opened a second branch of <Noun lang="ja-Latn">Kamigataya</Noun> in <Noun lang="ja-Latn">Muromachi</Noun> district (<span lang="ja">室町</span>), and this was quickly followed by a third store in <Noun lang="ja-Latn">Ginza</Noun> (<span lang="ja">銀座</span>) in March. To promote the opening of the <Noun lang="ja-Latn">Ginza</Noun> store, <Noun lang="ja-Latn">Maeda</Noun> also staged a <Noun lang="ja-Latn">Hanafuda</Noun>-themed play in March 1886, which was held at the <Noun lang="ja-Latn">Chitose</Noun> theatre (now called the <a href="https://en.wikipedia.org/wiki/Meiji-za"><Noun lang="ja-Latn">Meiji-za</Noun></a>).</p>
         <ArticleImage
+          cram
           src={[
-            [imgPlayLeft,""],
-            [imgPlayRight,""]
+            [imgPlayLeft, ""],
+            [imgPlayRight, ""]
           ]}
           source={{
-            organization: {orgName: "Art Research Center, Ritsumeikan University"},
+            organization: { orgName: "Art Research Center, Ritsumeikan University" },
             originalUrl: "https://jpsearch.go.jp/item/arc_nishikie-M648_011aNr010a",
             license: "cc-by-nc-sa",
             licenseVersion: "4.0"
           }}>
           Advertisement for <Noun lang="ja-Latn">Maeda</Noun>’s play entitled <cite lang="ja">花合四季盃</cite> (“Flower-matching four seasons sake cup”). The background shows an early form of <Noun lang="ja-Latn">Hanafuda</Noun> deck. On left is <a href="https://en.wikipedia.org/wiki/Onoe_Kikugor%C5%8D_V">Onoe Kikugorō V</a> (<span lang="ja">五代目尾上菊五郎</span>), on right <a href="https://ja.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%9C%98%E8%94%B5_(7%E4%BB%A3%E7%9B%AE)"><Noun lang="ja-Latn">Ichikawa Kuzō III</Noun></a> (<span lang="ja">三代目市川九蔵</span>) as <Noun lang="ja-Latn">Ono no Michikaze</Noun>.
         </ArticleImage>
-        <p>In addition to the retail stores, a specialized wholesale store was opened in the <Pronounce lang="ja-Latn" noun word="Ningyōchō" pronouncer="keto2204" file={pron人形町通り} /> street in the <Noun lang="ja-Latn">Sumi&shy;yoshi</Noun> neigh&shy;bour&shy;hood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <a href="https://en.wikipedia.org/wiki/Sumiyoshi-kai"><Noun lang="ja-Latn">Sumiyoshi-kai</Noun></a> <span lang="ja-Latn">yakuza</span> organization.<Cite r="Sumiyoshikai" /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋住吉町人形町通り</span>). <Noun lang="ja-Latn">Maeda</Noun> later also started other stores with names that punned on the original store, such as <Noun lang="ja-Latn">Nakagataya</Noun> (<span lang="ja">中方屋</span>) and <Noun lang="ja-Latn">Shimogataya</Noun> (<span lang="ja">下方屋</span>).<Cite r="OpeningKamigataya"/></p>
+        <p>In addition to the retail stores, a specialized wholesale store was opened in the <Pronounce lang="ja-Latn" noun word="Ningyōchō" pronouncer="keto2204" file={pron人形町通り} /> street in the <Noun lang="ja-Latn">Sumi&shy;yoshi</Noun> neigh&shy;bour&shy;hood,<Footnote><Noun lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun lang="ja-Latn">Edo</Noun>-period red light district and the birthplace of the <a href="https://en.wikipedia.org/wiki/Sumiyoshi-kai"><Noun lang="ja-Latn">Sumiyoshi-kai</Noun></a> <span lang="ja-Latn">yakuza</span> organization.<Cite r="Sumiyoshikai" /> The area was destroyed along with most of the rest of <Noun lang="ja-Latn">Nihonbashi</Noun> in the Great <Noun lang="ja-Latn">Kantō</Noun> Earthquake of 1923; the location where <Noun lang="ja-Latn">Sumiyoshi-chō</Noun> existed is now part of <Noun lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</Noun> (<span lang="ja">人形町二丁目</span>).</Footnote> in <Noun lang="ja-Latn">Tōkyō</Noun>’s <Noun lang="ja-Latn">Nihonbashi</Noun> district (<span lang="ja">日本橋住吉町人形町通り</span>). <Noun lang="ja-Latn">Maeda</Noun> later also started other stores with names that punned on the original store, such as <Noun lang="ja-Latn">Nakagataya</Noun> (<span lang="ja">中方屋</span>) and <Noun lang="ja-Latn">Shimogataya</Noun> (<span lang="ja">下方屋</span>).<Cite r="OpeningKamigataya" /></p>
         <ArticleImage
           src={imgKamigatayaMotomachi}
           position="aside"
@@ -377,7 +378,7 @@ const Hanafuda: React.FC = () => {
           <ArticleImage
             src={imgNakagataya}
             alt="A Japanese storefront, open to the street, with a large die shop marker."
-            source={{license: "cc0"}}>
+            source={{ license: "cc0" }}>
             The storefront of <Noun lang="ja-Latn">Nakagataya</Noun>, as shown on a <Noun lang="ja-Latn">Hyakunin Isshu</Noun> box.
           </ArticleImage>
         </div>
@@ -392,6 +393,48 @@ const Hanafuda: React.FC = () => {
         <p>The author and politician <a href="https://en.wikipedia.org/wiki/Suematsu_Kench%C5%8D"><Noun lang="ja-Latn">Suematsu Kenchō</Noun></a> (<span lang="ja">末松 謙澄</span>) described the attitude at the time in his 1905 English-language book <Cite r="FantasyOfFarJapan" page={176} inline />:</p>
         <blockquote>In times gone by no game of cards having any resemblance to gambling was played among the gentry; moral discipline forbade such. Since the introduction of European ideas, the rigidity of discipline has somewhat slackened and cards are now played to some extent. Nevertheless, people do not consider card-playing good taste. If they play they do so with some diffidence, somewhat in a similar way as smoking is done by ladies in European society nowadays.</blockquote>
         <p>However, despite his protestation in the book that “I do not care for playing at cards, but I know the methods”, he goes on to give a detailed account of the gameplay — far more than a casual observer would know!</p>
+        <div className="multi">
+          <ArticleImage
+            src={require('./Maeda_game.png')}
+            alt=""
+            noborder
+            source={{
+              license: 'cc0'
+            }}>
+            A Westernized gentleman playing cards with <span lang="ja-Latn">geisha</span>, all of them wearing playing-card themed clothing. Note cigarette and ashtray.<Cite r="MaedaBook" page={25} />
+          </ArticleImage>
+          <ArticleImage
+            src={require('./Maeda_family.png')}
+            alt=""
+            noborder
+            source={{
+              license: 'cc0'
+            }}>
+            Apparently a family playing with <Noun lang="ja-Latn">Hanafuda</Noun> cards.<Cite r="MaedaBook" page={13} />
+          </ArticleImage>
+        </div>
+        <Footnote standalone><Noun lang="ja-Latn">Murai</Noun>’s main competitor was <Noun lang="ja-Latn">Iwaya</Noun> (<span lang="ja-Latn">岩谷商会</span>), run by <Noun lang="ja-Latn">Iwaya Matsuhei</Noun> (<span lang="ja">岩谷松平</span>), who had a more nationalistic outlook. Interestingly, the iconography of their cigarette brands overlaps significantly with that of later <Noun lang="ja-Latn">Hanafuda</Noun> brands — some examples include <span lang="ja-Latn">dai&shy;tengu</span> (<span lang="ja">大天狗</span> “large tengu”), <Noun lang="ja-Latn">Fuji</Noun> (<span lang="ja">冨士</span>), and <span lang="ja-Latn">hinode</span> (<span lang="ja">日乃出</span> “sunrise”) — and their chief logo was that of a red <Noun lang="ja-Latn">Tengu</Noun>, which is also strongly associated with <Noun lang="ja-Latn">Hanafuda</Noun>. It is unclear to me whether there is any real link here or if the coincidence simply reflects the conventionality of traditional Japanese art.</Footnote>
+        <p>Another popularizing force during this period was that of cigarette manufacturers who began to include <Noun lang="ja-Latn">Hanafuda</Noun>-patterned cards in cigarette packages as collectible items. The manufacturer <Noun lang="ja-Latn">Murai</Noun> Brothers (<span lang="ja">村井兄弟商會</span>, founded by the “tobacco king” <Noun lang="ja-Latn">Murai Kichibei</Noun> (<span lang="ja">村井吉兵衛</span>) in <Noun lang="ja-Latn">Kyōto</Noun> in 1892) included tobacco cards which combined <Noun lang="ja-Latn">Hanafuda</Noun> with Western playing cards. <Noun lang="ja-Latn">Murai</Noun> was a progressive company that enthusiastically embraced Westernization across the whole of their business. They operated in conjunction with Western tobacco companies such as the British-American Tobacco Company, and many of their cigarette brands bore English titles. Where his competitor <Noun lang="ja-Latn">Iwaya</Noun> would name a brand <span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span> “sunrise”), <Noun lang="ja-Latn">Murai</Noun> used the English name “Sunshine”.</p>
+        <p>In 1899, <Noun lang="ja-Latn">Murai</Noun> formed the subsidiary “Tōyō Printing”<Footnote>In some sources this is given in its translated form as the “Oriental Printing Company”.</Footnote> (<span lang="ja">東洋印刷</span>), and acquired printing equipment and training from the United States. With this equipment they were able to produce high-quality packaging, and there is some suggestion that they worked with <Noun lang="ja-Latn">Nintendō</Noun> to produce the first Western-style playing cards produced in Japan (1902).<Cite r="EbashiCigaretteCards" /> Certainly <Noun lang="ja-Latn">Nintendō</Noun>’s early cards are often imitations of those produced by such US companies as the National Card Company which had been merged with the United States Playing-card Company in 1894.<Cite r="WOPCNCC" /></p>
+        <p>In 1904, the Japanese government nationalized<Footnote><Noun lang="ja-Latn">Kichibei</Noun> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.<Cite r="JapanInTheTaishoEra" page={632} /></Footnote> the manufacture of all tobacco products, and the <Noun lang="ja-Latn">Tōyō</Noun> Printing subsidiary was taken over by British-American Tobacco.<Cite r="TarHeel" page={362} /></p>
+        <ArticleImage
+          noborder
+          size="wide"
+          perRow={5}
+          src={[
+            [require('./Murai1.jpg'), 'A tobacco card with a maple and tanzaku pattern, along with the 10 of diamonds.'],
+            [require('./Murai2.jpg'), 'A tobacco card with the moon bright and the 8 of hearts.'],
+            [require('./Murai3.jpg'), 'A tobacco card with the wisteria tanzaku and the 4 of hearts.'],
+            [require('./Murai4.jpg'), 'A tobacco card with maple leaves drifting on water and the 10 of spades.'],
+            [require('./Murai5.jpg'), 'A tobacco card with the November swallow and the King of hearts.'],
+            [require('./MuraiBack1.jpg'), ''],
+            [require('./MuraiBack2.jpg'), ''],
+            [require('./MuraiBack3.jpg'), ''],
+            [require('./MuraiBack4.jpg'), ''],
+            [require('./MuraiBack5.jpg'), ''],
+          ]}>
+          Fronts and backs of combination tobacco cards produced by <Noun lang="ja-Latn">Murai</Noun> Brothers, prior to 1904. The hand-written markings on the backs possibly indicate that they were adapted to be used as <Noun lang="ja-Latn">Iroha</Noun> cards.
+        </ArticleImage>
       </Section>
       {/* TODO
       <Section title="Traditional Methods of Manufacture">
@@ -404,7 +447,7 @@ const Hanafuda: React.FC = () => {
         <p>By the mid to late 20th century, interest in the game was waning. A poll by Japan’s Cabinet Office in 1956 indicated that only 9% of people played <Noun lang="ja-Latn">Hanafuda</Noun>, compared with 28% who played with Western playing cards.<Cite r="CabinetOfficeEntertainment" /></p>
         <p>Starting in the late 20th century, <Noun lang="ja-Latn">Hanafuda</Noun> seems to have had something of a revival. “Character” decks featuring popular <span lang="ja-Latn">anime</span> and <span lang="ja-Latn">manga</span> characters began to be produced, and the popularity of <Noun lang="ja-Latn">Hanafuda</Noun> has also been boosted by films featuring the cards, such as <a href="https://en.wikipedia.org/wiki/Summer_Wars"><cite>Summer Wars</cite></a> (2009).</p>
         <p>While Japan produces many new types of <Noun lang="ja-Latn">Hanafuda</Noun> <em>cards</em>, in Korea <Noun lang="ko-Latn">Hwatu</Noun> <em>games</em> appear to be much more popular than their Japanese counterparts, and several films about gambling with <Noun lang="ko-Latn">Hwatu</Noun> — most prominently the <a href="https://en.wikipedia.org/wiki/Tazza:_The_High_Rollers"><cite lang="ko-Latn">Tazza</cite></a> series (2006, 2014, 2019) — have been box-office successes.</p>
-        <p>Image search results on Instagram (as of writing in 2021) for the hashtags <a href="https://www.instagram.com/explore/tags/%E8%8A%B1%E6%9C%AD/"><code>#花札</code></a> and <a href="https://www.instagram.com/explore/tags/%ED%99%94%ED%88%AC/"><code>#화투</code></a> show about twice as many Korean-tagged images, despite Korea having only a third of the number of Instagram users that Japan has.<Cite r="JapaneseInstagramUsers"/><Cite r="KoreanInstagramUsers" /> The content of the images also gives many clues to the game’s popularity: Korean images often show games in progress, and many times being played for money, whereas Japanese images are often just of the cards themselves, focusing on their æsthetic value.</p>
+        <p>Image search results on Instagram (as of writing in 2021) for the hashtags <a href="https://www.instagram.com/explore/tags/%E8%8A%B1%E6%9C%AD/"><code>#花札</code></a> and <a href="https://www.instagram.com/explore/tags/%ED%99%94%ED%88%AC/"><code>#화투</code></a> show about twice as many Korean-tagged images, despite Korea having only a third of the number of Instagram users that Japan has.<Cite r="JapaneseInstagramUsers" /><Cite r="KoreanInstagramUsers" /> The content of the images also gives many clues to the game’s popularity: Korean images often show games in progress, and many times being played for money, whereas Japanese images are often just of the cards themselves, focusing on their æsthetic value.</p>
       </Section>
     </Section>
     <Section title="The Art of the Cards">
@@ -445,20 +488,20 @@ const Hanafuda: React.FC = () => {
             src={imgKoreanTanzaku}
             alt="Six Hwatu cards showing ribbons with Korean text written on them.">
             Korean <Noun lang="ko-Latn">Hwatu</Noun> cards with ribbons.
-            </ArticleImage>
+          </ArticleImage>
           <p>There are also differences in the ‘rain man’ (see below), and depending on the deck, other aspects of the cards can also be translated into Korean cultural terms. For example, the lesser cuckoo of the Japanese cards is in some decks the Oriental magpie, which is the national bird of Korea.</p>
           <div className="multi">
             <ArticleImage size="small"
               src={imgKoreanMagpie}
               alt="Two hwatu-format cards: the left shows cherry blossoms with a Korean magpie that has a blue chest with black and yellow wings, while the right shows cherry blossoms with a lesser cuckoo that has a yellow body and green wings.">
               The <span lang="ko">무지개</span> (<Pronounce word="mujigae" lang="ko-Latn" file={pronMujigae} pronouncer="fairybel" />, ‘rainbow’) brand <Noun lang="ko-Latn">Hwatu</Noun> deck (on left) features a Korean magpie (<span lang="ko">까치</span> <Pronounce file={pronKkachi} word="kkachi" lang="ko-Latn" pronouncer="goeun" />), instead of the usual lesser cuckoo as shown on the Daiso <Noun lang="ko-Latn">Hwatu</Noun>-format deck.
-                </ArticleImage>
+            </ArticleImage>
             <ArticleImage
               size="small"
               src={imgJapanvsKorea}
               alt="Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean.">
               The ‘rain man’ wears traditional clothing in both Japanese and Korean decks. The Japanese man (left) wears a <Noun lang="ja-Latn">Heian</Noun> period courtier’s daily outfit (<span lang="ja">狩衣</span> <Pronounce pronouncer="skent" lang="ja-Latn" word="kariginu" file={pronKariginu} />), with tall <span lang="ja-Latn">tate-eboshi</span> (<span lang="ja">楯烏帽子</span>) hat, and very tall rain-clogs (<span lang="ja">足駄</span> <Pronounce lang="ja-Latn" word="ashida" pronouncer="skent" file={pronAshida} />) on his feet. The Korean man is wearing a noble’s <Pronounce pronouncer="glamstar77" lang="ko-Latn" word="gat" file={pronGat} /> (<span lang="ko">갓</span>) hat, and an outer coat with very large sleeves.
-                </ArticleImage>
+            </ArticleImage>
           </div>
         </Section>
       </Section>
@@ -587,7 +630,7 @@ const Hanafuda: React.FC = () => {
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             ときはなる<br />松のみどりも<br />春くれば<br />今ひとしほの<br />色まさりけり
-        </p>
+          </p>
           <p>Even the verdure<br />of foliage on the pine tree,<br />“ever unchanging”,<br />deepens into new richness<br />now that springtime has arrived.<Cite r="KokinWakashu" page={18} /></p>
         </div>
         <p>The <span lang="ja-Latn">Awa-bana kasu</span> carries a shortened reference to this poem, announcing that spring is here:</p>
@@ -657,7 +700,7 @@ const Hanafuda: React.FC = () => {
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             鴬の<br />鳴音はしるき<br />梅の花<br />色まがえとや<br />雪の降るらん
-        </p>
+          </p>
           <p>
             The nightingale’s<br />Song is clear<br />And the white plum blossom<br />Becomes lost<br />In the falling snow.<Cite r="PoemsOfTheEchigobana" page={99} />
           </p>
@@ -702,7 +745,7 @@ const Hanafuda: React.FC = () => {
         <p>The third month is represented by cherry trees in bloom (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file={pronSakura} />). Blossom-viewing (<span lang="ja">花見</span> <Pronounce pronouncer="samchie" word="hanami" lang="ja-Latn" file={pronHanami} />), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period. The curtains (<span lang="ja">幕</span> <Pronounce pronouncer="skent" word="maku" lang="ja-Latn" file={pronMaku} />) that are shown on the bright card are there provide privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the left. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.</p>
         <p>The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">mi&shy;yoshino</span> <span lang="ja">みよしの</span> ‘beautiful <Noun lang="ja-Latn">Yoshino</Noun>’,<Footnote>
           Some older cards spell this phrase differently, some examples are: <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>.
-            Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
+          Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja">す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the <a href="/games/hachi-hachi"><Noun lang="ja-Latn">Hachi-Hachi</Noun></a> <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
         </Footnote> which is a sobriquet for the mountainous area of <Noun lang="ja-Latn">Yoshino</Noun> (<span lang="ja">吉野</span>) in <Noun lang="ja-Latn">Nara</Noun> prefecture, famous for its cherry blossoms. The term <span lang="ja-Latn">miyoshino</span> is <a href="http://www.wakapoetry.net/?s=miyosino">often used to refer to this location</a> in the imperial poetry collections.</p>
         <p>In 1688, <a href="https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D"><Noun lang="ja-Latn">Matsuo Bashō</Noun></a> (<span lang="ja">松尾芭蕉</span>), Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, visited <Noun lang="ja-Latn">Yoshino</Noun> during his travels but found himself unable to compose a single poem, overwhelmed by the pressure of trying to live up to his predecessors.<Cite r="NarrowRoad" page={84} /> One of them, <Noun lang="ja-Latn">Yasuhara Teishitsu</Noun> (<span lang="ja">安原貞室</span>), had composed what <Noun lang="ja-Latn">Bashō</Noun> considered to be the “finest <span lang="ja-Latn">hokku</span> ever written”:<Cite r="TheClassicTraditionOfHaiku" page={8} /></p>
         <blockquote>
@@ -1092,6 +1135,14 @@ const Hanafuda: React.FC = () => {
           }}>
           The poet <Noun lang="ja-Latn">Narihira</Noun> gazes at leaves floating on the <Noun lang="ja-Latn">Tatsuta</Noun> river. The print features one of his poems about the river from the <a href="https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu"><cite lang="ja-Latn">Hyakunin Isshu</cite></a>.
         </ArticleImage>
+        <ArticleImage
+          noborder
+          position="aside"
+          size="small"
+          alt="A combination Hanafuda-Western playing cards tobacco card with maple leaves floating on water, and the 10 of spades."
+          src={require('./Murai4.jpg')}>
+          This <Noun lang="ja-Latn">Murai</Noun> Brothers tobacco card shows maple leaves floating on water.
+        </ArticleImage>
         <p>While the leaves on the <span lang="ja-Latn">tane</span> card are attached to a tree, the leaves on the other cards appear to be floating on water. This could be a reference to the <Noun lang="ja-Latn">Tatsuta</Noun> river (<span lang="ja">竜田川</span>), which was as famous for autumn foliage as <Noun lang="ja-Latn">Yoshino</Noun> was for cherry blossoms in the spring.<Cite r="FourSeasons" page={1756} pageType="l." /> A anonymous poem from the <cite>Kokinshū</cite> (V: 283) celebrates the leaves floating on its surface:</p>
         <div className="multi">
           <p lang="ja">
@@ -1118,10 +1169,10 @@ const Hanafuda: React.FC = () => {
         <div className="multi">
           <p lang="ja" className="vertical-rl">
             したもみぢ<br />かつちる山の<br />ゆふしぐれ<br />ぬれてやひとり<br />鹿のなくらん
-            </p>
+          </p>
           <p>
             From the lower branches<br />Maple leaves scatter<br />In Autumn showers on the mountain.<br />Is it because he is wet<br />That the lonely stag is belling?
-            </p>
+          </p>
         </div>
       </Section>
       <Section title={<span lang="ja">11月</span>}>

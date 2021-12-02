@@ -5705,5 +5705,39 @@
         "issued": {
             "year": 1991
         }
+    },
+    "WOPCNCC": {
+        "type": "webpage",
+        "URL": "https://www.wopc.co.uk/usa/national/index",
+        "author": [
+            {
+                "given": "Simon",
+                "family": "Wintle"
+            }
+        ],
+        "title": "National Card Co.",
+        "container-title": "The World of Playing Cards",
+        "issued": {
+            "year": 2010
+        }
+    },
+    "MaedaBook": {
+        "type": "book",
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/861407",
+        "title": "骨牌勝利法 : 文明遊具 一名・まける事しらず",
+        "title-lang": "ja",
+        "author": [
+            {
+                "family": "前田",
+                "given": "喜兵衛",
+                "lang": "ja"
+            }
+        ],
+        "publisher": "上方かるた商店",
+        "publisher-lang": "ja",
+        "publisher-place": "Tokyo, Japan",
+        "issued": {
+            "year": 1888
+        }
     }
 }
