@@ -70,7 +70,7 @@ import { Section, Footnote, Cite, Noun, ArticleImage, Description } from 'ui'; i
                 </tbody>
             </Table>
             <p>The staking board is drawn on a piece of paper or cloth, and has eight cells, one for each result, along with several circles and quarter-circles:</p>
-            <ArticleImage src={imgBoard} alt="">
+            <ArticleImage src={imgBoard} mainImage alt="">
                 The staking layout, after <Cite r="GamblingGamesOfMalaya" page={124} inline />.
             </ArticleImage>
         </Section>
