@@ -12,6 +12,7 @@ import imgChineseBoard from './chinese_board.svg';
 const Content: React.FC = () => <>
   <Description>Crown & Anchor is a dice game that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world. The game play is equivalent to that of <GameRef id="chuck-a-luck" />, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.</Description>
   <Section title="History">
+    <p>Please note that the following is (necessarily, for me) biased toward English-language sources. It is entirely possible the game has a longer history elsewhere; for the moment, at least, I cannot say.</p>
     <ArticleImage
       size="wide"
       src={require('./game-crown-anchor-game-mat-world-war-i-1915-791762-large.jpg')}
@@ -28,9 +29,9 @@ const Content: React.FC = () => <>
       }}>
       A Crown & Anchor mat purchased in Colombo (Sri Lanka) in 1915 and used by Australian troops while in transport.
     </ArticleImage>
-    <p>Many gaming histories cite a 17th or 18th century origin for the game, but based on textual evidence it seems to date from the late 19th century, possibly derived from pictorial versions of Chuck-A-Luck such as “Mustang”. In England there are certainly many old references to “dice boards” or “gaming tables”, but they are not described in detail very often.</p>
+    <p>Many gaming histories cite a 17th or 18th century origin for the game, but based on textual evidence it seems to date from the late 19th century (at least in the version played with the Crown and Anchor symbols), possibly derived from pictorial versions of Chuck-A-Luck such as “Mustang”. In England there are certainly many old references to “dice boards” or “gaming tables”, but they are not described in detail very often.</p>
     <p>At first, the game was played with symbols other than the crown and anchor. The earliest reference I have found is to a version played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George IV in Hyde Park in 1821.<Footnote>This is clearly the same game as six outcomes are listed and the operator announces “three to win, three to lose” — a classically misleading claim!</Footnote><Cite r="DissolutionOfCoronationFair" /></p>
-    <p>Other variants were developed through the 19th century: In 1842, the <cite>Punch</cite> character Mr. Muff “mistrust[s] the chances of the ‘Dimunt, Star, Hanker, Crown, Club, and Feather’” being played at the “Clodpole races”.<Cite r="CuriositiesOfMedicalExperience" /> In 1859 a game involving “anchor, heart, etc” is described at a fair,<Cite r="GamblingAtFairs" /> and in 1860 “clubs, spades, &c.” at a game at the races.<Cite r="GamblingAtTheRaces" /> An 1864 newspaper article claims that <a href="https://en.wikipedia.org/wiki/William_Brodie">Deacon Brodie</a> played a game of “anchor, club, star, feather, heart, [and] spade” in his youth, but this may be anachronistic—in any case, it is still an early reference.<Cite r="TheMysteriesOfEdinburgh" /> In 1875 there is reference to a game of “feather, star, and anchor” being played in Epping Forest.<Cite r="EasterMondayInTheForest" /> In 1889, chuck-a-luck (as the “three dice game”) is reported in <a href="https://en.wikipedia.org/wiki/Middlesbrough">Middlesbrough</a>.<Cite r="GamblingInMiddlesbrough" /></p>
+    <p>Other variants were developed through the 19th century: In 1842, the <cite>Punch</cite> character Mr. Muff “mistrust[s] the chances of the ‘Dimunt, Star, Hanker, Crown, Club, and Feather’” being played at the (fictional) “Clodpole races”.<Cite r="CuriositiesOfMedicalExperience" /> In 1859 a game involving “anchor, heart, etc” is described at a fair,<Cite r="GamblingAtFairs" /> and in 1860 “clubs, spades, &c.” at a game at the races.<Cite r="GamblingAtTheRaces" /> An 1864 newspaper article claims that <a href="https://en.wikipedia.org/wiki/William_Brodie">Deacon Brodie</a> played a game of “anchor, club, star, feather, heart, [and] spade” in his youth, but this may be anachronistic — in any case, it is still an early reference.<Cite r="TheMysteriesOfEdinburgh" /> In 1875 there is reference to a game of “feather, star, and anchor” being played in Epping Forest.<Cite r="EasterMondayInTheForest" /> In 1889, chuck-a-luck (as the “three dice game”) is reported in <a href="https://en.wikipedia.org/wiki/Middlesbrough">Middlesbrough</a>.<Cite r="GamblingInMiddlesbrough" /></p>
     <p>Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,<Cite r="Aldenardiana" /> and finally as “the crown and anchor game” in Melbourne, Australia in 1882.<Cite r="CrownAndAnchorAustralia" /><Footnote>The game under the name of <GameRef id="chuck-a-luck" /> or “old sweat” is known in Melbourne from at least 1866.<Cite r="LayOfAMelbourneVagrant" /></Footnote> An equivalent game is recorded as being played in British-controlled Hong Kong in 1884.<Cite r="HongKongCrownAnchor" /></p>
     <p>Information from the people who actually ran the games is hard to find. One notable exception is that of Arthur Harding, whose memoir details his life growing up in <a href="https://en.wikipedia.org/wiki/Boundary_Estate">The Nichol</a>,<Footnote>The Nichol was a slum in East London, also called the “Jago”, which was torn down in the 1890s.</Footnote> in the late 19th and early 20th centuries.<Cite r="EastEndUnderworld" /> Harding states that “some of the first pennies [he] earned was holding up the boards for ‘Crown and Anchor’”, and describes how the board would be held by a person at each end, with a cloth on which the staking layout was painted placed on top. The entire setup was designed to make it as easy as possible to disappear when the police arrived, although in many cases the games were tolerated by police as the income the games provided prevented the operators from resorting to harder crimes.<Footnote>Such as “snide-pitching” (passing false money), and “shoot-flying” (stealing pocket watches by grabbing their chains)!</Footnote><Cite r="EastEndUnderworld" page={[[175, 178]]} /></p>
     <Footnote standalone>Another curious patent for a game using Crown & Anchor dice was filed in 1891<Cite r="PatentLudoCrownAnchor" /> and eventually granted in modified form in 1905;<Cite r="PatentLudoCrownAnchor2" /> this one combined the dice with the game of Ludo, but is mechanically unrelated.</Footnote>
@@ -74,7 +75,7 @@ const Content: React.FC = () => <>
         source={{ license: "cc0", originalUrl: "https://www.awm.gov.au/collection/C607?image=1", "organization": { "orgName": "Australian War Memorial" } }}>
         Australians playing Crown & Anchor aboard HMAT Medic, <abbr title="circa">c.</abbr> 1919.
       </ArticleImage>
-      <p>As seen in the last quote, each symbol had its own nickname. The crown could also be termed the “sergeant-major” or “<a href="https://en.wikipedia.org/wiki/Edward_VII">Teddy’s</a> hat”, the spade the “shovel” or “pioneer’s tool”, the diamond the “curse” or “<a href="https://en.wikipedia.org/wiki/Kimberley,_Northern_Cape">Kimberley</a>”, the heart the “jam tart”, the club the “shamrock”, and the anchor the “mud-hook”, “mud-rake”, or “meat-hook”.<Cite r="APrivateInTheGuards" page={[[187, 188]]} /><Cite r="TheLongTrail"/></p>
+      <p>As seen in the last quote, each symbol had its own nickname. The crown could also be termed the “sergeant-major” or “<a href="https://en.wikipedia.org/wiki/Edward_VII">Teddy’s</a> hat”, the spade the “shovel” or “pioneer’s tool”, the diamond the “curse” or “<a href="https://en.wikipedia.org/wiki/Kimberley,_Northern_Cape">Kimberley</a>”, the heart the “jam tart”, the club the “shamrock”, and the anchor the “mud-hook”, “mud-rake”, or “meat-hook”.<Cite r="APrivateInTheGuards" page={[[187, 188]]} /><Cite r="TheLongTrail" /></p>
       <p>According to several observers, the game was even played on the frontlines, in trenches. An anecdote from the <a href="https://en.wikipedia.org/wiki/Ypres_Salient">Ypres Salient</a> in 1916, by a soldier of the <a href="https://en.wikipedia.org/wiki/King%27s_Royal_Rifle_Corps">King’s Royal Rifle Corps</a>:<Cite r="JerryWinsABet" /></p>
       <blockquote>
         <p>Alf, who owned a Crown and Anchor board of great antiquity, had it spread out on two petrol cans at the bottom of a shell-hole.</p>
@@ -93,20 +94,95 @@ const Content: React.FC = () => <>
     </Section>
     <Section title="World War II">
       <p>In 1940, it was reported that <a href="https://en.wikipedia.org/wiki/Second_Australian_Imperial_Force">Australian Imperial Force</a> troops stationed in Mandatory Palestine had figured out how to play the game without dice: several <a href="https://en.wikipedia.org/wiki/Woodlouse">slaters</a> were placed under an upturned ashtray which had indentations for resting cigarettes; the holes from which the slaters emerged determined the winning numbers.<Cite r="AIFSlaters" /></p>
+      <ArticleImage
+        size="wide"
+        src={require('./CA_StGeorge.jpg')}
+        alt="A creased cloth Crown & Anchor board">
+        A “St. George Series” Crown & Anchor board.
+      </ArticleImage>
     </Section>
     <Section title="Post-War">
-      <p>After the first and second World Wars, mentions of the game become much more common.</p>
+      <p>After the first and second World Wars, mentions of the game become much more common, as the game diffused from returning soldiery back into the wider population.</p>
       <p>A version of the game played by workers constructing Scotland’s hydro-electric dams in the middle of the 20th century was played with six dice, but two matches were required to win anything.<Cite r="TheDamBuilders" page={[[162, 163]]} /> This version of the game has a much higher house edge of 13.865%.</p>
     </Section>
   </Section>
   <Section title="Around the World">
-    <p>The game is played in many locations around the world; note that American-style games including casino versions are discussed in the <GameRef id='chuck-a-luck'/> article.</p>
-    <Section title="China and Peranakans">
+    <p>The game is played in many locations around the world, some of which are described below. Note that American-style games including casino versions are discussed in the <GameRef id='chuck-a-luck' /> article.</p>
+    <Section title="China and amongst Peranakans">
       <p>In English the Chinese name is usually given as “Hoo Hey How”; this appears to derive from the Hokkien <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">魚蝦鱟</span>.<Cite r="GamblingGamesOfMalaya" page={109} /> The modern Chinese name is <span lang="zh-Hant">魚蝦蟹</span>/<span lang="zh-Hans">鱼虾鲎</span> ‘fish prawn crab’; these are several of the symbols that commonly appear on the staking layout.</p>
       <ArticleImage src={imgChineseBoard} alt="">
-        Example of a Chinese-style staking layout.
+        Example of a Chinese-style staking layout. At the top is the manufacturer’s name <span lang="zh">高慶坊</span> <Noun lang="zh-Latn">Gāo Qìng Fāng</Noun>, followed by <span lang="zh">翹骰不算</span> “cocked dice don’t count”.
       </ArticleImage>
       <p>An equivalent (perhaps older) game can be played with three standard six-sided dice. It does not need to be played with a layout board but it can be. In this form it can be called <span lang="nan">么二三</span> <span lang="nan-Latn">io jī sam</span> (‘ace, two, three’, romanized “Yew Yee Sam” in older texts).<Cite r="GamblingGamesOfMalaya" page={95} /></p>
+    </Section>
+    <Section title="Indochina">
+      <p>The game is widely played across the countries of the Indochinese peninsula, despite gambling being illegal in most of them. The presentation of the game is very similar in all regions.</p>
+      <Section title="Vietnam">
+        <p>The Vietnamese game has a similar æsthetic to the Chinese version, including the name: <span lang="vi">bầu cua tôm cá</span> (‘gourd crab prawn fish’).</p>
+        <div className="multi">
+          <ArticleImage
+            alt="Three dice, showing a deer, crab, and gourd."
+            src={require('./shutterstock_541065082.jpg')}
+            source={{
+              author: { family: "Shark", given: "Marie" },
+              license: 'stock-image',
+              organization: { orgName: "Shutterstock.com" },
+              originalUrl: 'https://www.shutterstock.com/image-photo/traditional-vietnamese-game-bau-cua-tom-541065277',
+              identifier: '541065082'
+            }}>
+            Three dice as used in the Vietnamese game.
+          </ArticleImage>
+        </div>
+      </Section>
+      <Section title="Thailand">
+        <p>I have little information about the game in Thailand other than that the paraphernalia for playing exists; gambling is illegal in Thailand.</p>
+        <p>From what little I have seen, the game is called <span lang="th">(น้ำ)เต้า ปู ปลา</span> (<span lang="th-Latn">(nam)tao pu pla</span>, ‘(water)gourd crab fish’). Some of the images game is played with are: <span lang="th">ปลาทอง</span> (<span lang="th-Latn">pla-thong</span>, ‘goldfish’), <span lang="th">ไก่</span> (<span lang="th-Latn">kai</span>, ‘chicken’), <span lang="th">ปู</span> (<span lang="th-Latn">pu</span>, ‘crab’), <span lang="th">เต้า</span> (<span lang="th-Latn">tao</span>, ‘gourd’), <span lang="th">เสือ</span> (<span lang="th-Latn">suea</span>, ‘tiger’), and <span lang="th">กุ้ง</span> (<span lang="th-Latn">kung</span>, ‘shrimp’).</p>
+        <ArticleImage
+          alt="Two dice with images of goldfish, crab, and chicken."
+          src={require('./shutterstock_319181276.jpg')}
+          source={{
+            license: 'stock-image',
+            organization: { orgName: "Shutterstock.com" },
+            author: "jointstar",
+            identifier: "319181276",
+            originalUrl: "https://www.shutterstock.com/image-photo/animal-picture-on-dice-319181276"
+          }}>
+          Dice with Thai names.
+        </ArticleImage>
+      </Section>
+      <Section title="Laos">
+        <div className="multi wide">
+          <ArticleImage
+            alt="Children crowded around a table, staking money on the spaces."
+            src={require('./8373019722_76fabf1dfc_o.jpg')}
+            source={{
+              license: "cc-by",
+              licenseVersion: "2.0",
+              copyrightYear: 2013,
+              author: "PhotAsia",
+              originalUrl: "https://www.flickr.com/photos/photasia/8373019722/"
+            }}>
+            Children playing with a Thai-produced board in Laos.
+          </ArticleImage>
+          <ArticleImage
+            alt="A man places a large die into a dice tower above a staking table."
+            src={require('./14740162634_e123789f25_o.jpg')}
+            source={{
+              license: "cc-by-nc",
+              licenseVersion: "2.0",
+              author: {
+                given: "Jodie",
+                family: "Gallagher",
+              },
+              originalUrl: "https://www.flickr.com/photos/126412580@N04/14740162634/"
+            }}>
+            Playing with a dice tower in Laos; the board has names in Thai.
+          </ArticleImage>
+        </div>
+      </Section>
+      <Section title="Myanmar">
+
+      </Section>
     </Section>
     <Section title="India & Nepal">
       <p>The game was known in Mumbai and Pune<Footnote>Then called Bombay and Poona.</Footnote> as early as 1905, as indicated by court cases from the time,<Cite r="ABookmakerAndThePolice" /><Cite r="HeartAnchorAndCrown" /> but it may have been in India for a long time prior to that.</p>
@@ -152,8 +228,24 @@ const Content: React.FC = () => <>
         <li>heart: <span lang="ne">पान</span> <span lang="ne-Latn">pana</span> (‘betel leaf’)</li>
       </ul>
     </Section>
+    <Section title="Malaysia and Brunei">
+      <p>In Malaysia the game can be known as <span lang="ms">ikan, udang, dan ketam</span> (‘fish, shrimp, and crab’), <span lang="ms">ketam-ketam</span> (‘crabs’), or <span lang="ms">yu ha hai</span> (derived from a non-Mandarin pronunciation of the Chinese name). Chinese-style staking layouts are often used.</p>
+      <p>The game is very popular amongst the <a href="https://en.wikipedia.org/wiki/Kadazan-Dusun">Kadazan–Dusun</a> people of Sabah (Northern Borneo), where it is known as <span lang="dtp">katam-katam</span> (‘crabs’). It is played during the festive season and also at funerals.</p>
+      <p>In Brunei the game is also known as <span lang="kxd">katam-katam</span>.<Cite r="HuaHuiBrunei" /></p>
+    </Section>
     <Section title="Bali">
-      <p>In Bali the game is played in many forms, although I don’t know what the local name is. Bali is (based on appearances on the internet) possibly the part of the world where the game is currently the most popular; this despite all gambling being illegal in the country.</p>
+      <p>In Bali the game is played in many forms and known under many names: <span lang="id">mong-mongan</span> (the name of a set of three small gongs used in Sumatra), or one of a variety of similar names such as <span lang="id">kocok(an)</span> (‘shake’/‘shaking’, as of the dice), <span lang="id">koprok</span>, <span lang="id">kolok</span>, or <span lang="id">kopyok(an)</span> (also ‘shake’/‘shaker’; used also for lotteries).<Cite r="SEAlangBalinese"/></p>
+      <p>Bali is (based on appearances on the internet) possibly the part of the world where the game is currently the most popular; this despite all gambling being illegal in the country.</p>
+      <p>As in many cultures, gambling is often associated with religious festivals. While other Balinese gambling activities such as the <a href="https://en.wikipedia.org/wiki/Cockfight#Indonesia">cock-fight</a> are restricted to men, the game can be played by anyone, including young children.</p>
+      <ArticleImage src={require('./15100534169_2721b8ae84_o.jpg')} alt="" source={{
+        license: "cc-by-nc-nd",
+        licenseVersion: "2.0",
+        author: "Walther Tjon Pian Gi",
+        copyrightYear: 2011,
+        originalUrl: "https://www.flickr.com/photos/wtpg/15100534169/"
+      }}>
+        A game being played with 6 dice and 12 squares (including one featuring the <a href="https://en.wikipedia.org/wiki/Teletubbies">Teletubbies</a>!) at <Noun lang="id">Pura Samuan Tiga</Noun> temple; note the men wearing traditional Balinese dress including <a href="https://en.wikipedia.org/wiki/National_costume_of_Indonesia#:~:text=Malay%20men%27s%20headgear-,Udeng,-%2C%20Balinese%20men%27s%20headgear"><span lang="ban">udeng</span></a>.
+      </ArticleImage>
       <p>In the Balinese game, bets can be placed spanning two symbols.</p>
       <p>Some of the sets of symbols used are:</p>
       <ul>
@@ -183,7 +275,7 @@ const Content: React.FC = () => <>
           …and the dice are revealed.
         </ArticleImage>
       </div>
-      <p>There is another Balinese dice game played with normally-numbered dice instead of symbols. Aside from this, the play of the game is identical. TODO: need to identify this</p>
+      <p>The game can also be played without symbols, but the dice used are still very highly stylized.</p>
       <ArticleImage src={imgBaliDice} alt="" source={{
         license: "stock-image",
         organization: { orgName: "Shutterstock.com" },
@@ -192,11 +284,11 @@ const Content: React.FC = () => <>
         copyrightYear: 2017,
         originalUrl: "https://www.shutterstock.com/image-photo/baliindonesia2009-on-weekeds-bali-1398460952"
       }}>
-        A Balinese game of <span lang="id">koprok</span> or <span lang="id">kolok</span> or <span lang="id">kopyok</span>.
+        A Balinese game played without imagery.
       </ArticleImage>
     </Section>
     <Section title="West Indies">
-      <p>The game was probably played throughout the British West Indies; there are records of it from Trinidad,<Cite r="SportsAndPastimesInTheWestIndies" page={692} />, Antigua, Jamaica, and Bermuda.<Cite r="CelebratingCricket" page={[[622,623]]}/></p>
+      <p>The game was probably played throughout the British West Indies; there are records of it from Trinidad,<Cite r="SportsAndPastimesInTheWestIndies" page={692} />, Antigua, Jamaica, and Bermuda.<Cite r="CelebratingCricket" page={[[622, 623]]} /></p>
       <ArticleImage
         alt="A Crown & Anchor table scattered with money and weights and surrounded by a large crowd."
         src={require('./207971457_ed644c66ab_o.jpg')}
@@ -212,6 +304,21 @@ const Content: React.FC = () => <>
       <p>The game is still played today in Jamaica. In Bermuda, the game is legal during the weekend of the Cup Match (a cricket tournament), and played in large tents known as the “stock market”.<Cite r="CupMatchAndCarnival" page={267} /> The game is also called Hook and Hat.<Cite r="AScapeToBermuda" page={123} /></p>
     </Section>
     {/* TODO: Lago Lago in Bhutan? */}
+  </Section>
+  <Section title="Fairground variants">
+    <p>As with <GameRef id="chuck-a-luck" />, the game has been adapted for mass play at fairgrounds and carnivals. As noted on that article, the modified games usually have worse odds for the players.</p>
+    <ArticleImage
+      size="wide"
+      alt="A Crown-and-Anchor wheel and staking board with proprieters."
+      src={require('./3891195907_1d9ce6774a_o.jpg')}
+      source={{
+        originalUrl: "https://www.flickr.com/photos/tsarkasim/3891195907/",
+        author: "Damien D.",
+        licenseVersion: "2.0",
+        license: "cc-by-sa",
+      }}>
+      A Crown & Anchor wheel in Toronto.
+    </ArticleImage>
   </Section>
   <Section title="See also">
     <p>The French game of <GameRef id="tribord-et-babord" /> appears to be similar to Crown & Anchor, but the rules are very different.</p>

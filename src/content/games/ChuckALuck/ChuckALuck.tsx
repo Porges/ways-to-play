@@ -41,6 +41,21 @@ const Content: React.FC = () => <>
         What is a race-course but a convention of gambling hells out of doors, where, in a wider net, more of the weak and the vain are caught at the faro-bank or sweat-cloth, or induced in the excitement to bet on the horses?<Cite r="GamesOfChanceAsAmusement" />
       </blockquote>
       <p>By 1830, the game began to be called Chuck-A-Luck (or simply Chuck-Luck), and this is the name that stuck. It was commonly played by soldiers and by the late 19th century was known as the “old soldier’s game”.<Footnote>This term is also used for Housie or Bingo.</Footnote></p>
+      <ArticleImage
+        src={require('./84220038_a0ceecebc6_o.jpg')}
+        alt="A man standing behind a Chuck-a-Luck board attempts to entice passers by."
+        source={{
+          copyrightYear: 2005,
+          author: {
+            given: "Avi",
+            family: "Drissman"
+          },
+          license: "cc-by-nc-sa",
+          licenseVersion: '2.0',
+          originalUrl: 'https://www.flickr.com/photos/28864802@N00/84220038/'
+        }}>
+        A modern Chuck-a-Luck game on Coney Island.
+      </ArticleImage>
     </Section>
     <Section title="Pictorial dice">
       <ArticleImage

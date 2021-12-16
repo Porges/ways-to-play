@@ -5,6 +5,17 @@
 /// <reference types="react" />
 /// <reference types="react-dom" />
 
+declare module 'isbn3' {
+    type ParseResult = {
+        validIsbn: boolean,
+    };
+
+    export default {} as {
+        audit: (isbn: string) => ParseResult,
+        hyphenate: (isbn: string) => string,
+    };
+}
+
 declare namespace NodeJS {
     interface ProcessEnv {
         readonly NODE_ENV: 'development' | 'production' | 'test';

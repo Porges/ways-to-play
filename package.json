@@ -60,6 +60,7 @@
   },
   "devDependencies": {
     "imagemin-webpack-plugin": "^2.4.2",
+    "isbn3": "^1.1.17",
     "react-snap": "^1.23.0",
     "sharp": "^0.28.3",
     "source-map-explorer": "^2.0.1"

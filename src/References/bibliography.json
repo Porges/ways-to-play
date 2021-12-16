@@ -51,7 +51,7 @@
         "issued": {
             "year": 1992
         },
-        "ISBN": "978-0471-53621-0",
+        "ISBN": "0471-53621-0",
         "publisher": "John Wiley & Sons",
         "publisher-place": "USA"
     },
@@ -1766,7 +1766,7 @@
         },
         "publisher": "Stanford University Press",
         "publisher-place": "Stanford, CA, USA",
-        "ISBN": "0804706537"
+        "ISBN": "0804706530"
     },
     "KokinWakashu": {
         "type": "book",
@@ -1843,7 +1843,7 @@
                 "family": "Ferg"
             }
         ],
-        "ISBN": 2095492,
+        "ISBN": 9780978774608,
         "issued": {
             "year": 2006,
             "month": 12,
@@ -2714,7 +2714,7 @@
         "issued": {
             "year": 2003
         },
-        "ISBN": 1567711438,
+        "ISBN": 9781568811437,
         "id": "WinningWaysV3"
     },
     "AnimalInFarEasternArt": {
@@ -3778,7 +3778,7 @@
     "ElementsOfJapaneseDesign": {
         "title": "The Elements of Japanese Design",
         "type": "book",
-        "ISBN": "978-0-8348-0229-5",
+        "ISBN": "978-0-8348-0229-2",
         "author": [
             {
                 "given": "John",
@@ -4109,7 +4109,7 @@
         "publisher": "The University Of Chicago Press",
         "publisher-place": "Chicago",
         "URL": "https://archive.org/details/intimeofcannibal0000copl",
-        "ISBN": "0-266-11573-9"
+        "#bad ISBN": "0-266-11573-9"
     },
     "LaRegleDuTemple": {
         "type": "book",
@@ -4857,7 +4857,8 @@
             "year": 1887
         },
         "publisher": "The Williams Publishing Company",
-        "publisher-place": "Cleveland, Ohio, USA"
+        "publisher-place": "Cleveland, Ohio, USA",
+        "URL": "https://archive.org/details/corporalsikleggh000hinm"
     },
     "WanderingsofaVagabond": {
         "type": "book",
@@ -5738,6 +5739,80 @@
         "publisher-place": "Tokyo, Japan",
         "issued": {
             "year": 1888
+        }
+    },
+    "HuaHuiBrunei": {
+        "type": "webpage",
+        "URL": "http://bruneiresources.blogspot.com/2008/07/hua-hui-and-gambling-games-in-brunei.html",
+        "title": "Hua Hui and Gambling Games in Brunei",
+        "author": [
+            {
+                "family": "Yunos",
+                "given": "Rozan"
+            }
+        ],
+        "issued": {
+            "year": 2008,
+            "month": 7,
+            "day": 9
+        },
+        "container-title": "The Daily Brunei Resources"
+    },
+    "SEAlangBalinese": {
+        "type": "webpage",
+        "title": "SEAlang library Balinese dictionary",
+        "URL": "http://sealang.net/bali/dictionary.htm",
+        "publisher": "SEAlang",
+        "issued": {
+            "year": 2011
+        }
+    },
+    "郑超麟回忆录": {
+        "type": "book",
+        "title": "郑超麟回忆录",
+        "title-lang": "zh",
+        "author": [
+            {
+                "family": "郑",
+                "given": "超麟",
+                "lang": "zh"
+            }
+        ],
+        "volume": "1 (1900–1919)",
+        "publisher": "现代史料编刊社",
+        "publisher-lang": "zh",
+        "issued": {
+            "year": 1986
+        },
+        "URL": "https://www.marxists.org/chinese/zhengchaolin/1900-1931/1-08.htm"
+    },
+    "LawsOfBrunei": {
+        "type": "chapter",
+        "title": "Chapter 28: Common Gaming Houses",
+        "container-title": "Laws of Brunei: Revised Edition 2019",
+        "issued": {
+            "year": 2019
+        },
+        "URL": "https://www.agc.gov.bn/AGC%20Images/LAWS/ACT_PDF/CAP%2028.pdf"
+    },
+    "SingaporeGamesOfChanceAndSkill": {
+        "type": "webpage",
+        "title": "Games of Chance and Skill",
+        "container-title": "Singapore Statutes Online",
+        "issued": {
+            "year": 1997,
+            "day": 15,
+            "month": 6
+        },
+        "URL": "https://sso.agc.gov.sg/SL/CGHA1961-N2?ProvIds=Sc-#Sc-"
+    },
+    "MalaysiaCommonGamingHousesAct": {
+        "type": "webpage",
+        "title": "Common Gaming Houses Act 1953 (Revised 1983)",
+        "URL": "http://www.commonlii.org/my/legis/consol_act/cgha19531983289/",
+        "container-title": "Commonwealth Legal Information Institute",
+        "issued": {
+            "year": 1983
         }
     }
 }

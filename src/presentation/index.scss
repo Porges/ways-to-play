@@ -574,6 +574,10 @@ div.multi {
     display: flex;
     width: 100%;
     justify-content: space-around;
+
+    &.wide, &.extra-wide {
+        margin-bottom: 1rem;
+    }
 }
 
 // margins for children

@@ -21,13 +21,13 @@ const GamesList: React.FC<GamesListProps> = ({ location, match }) => {
   if ('players' in match.params) {
     const players = parseInt(match.params.players);
     title += `, ${players} player${players > 1 ? 's' : ''}`;
-    allGames = allGames.filter(([path, g]) => g.players.includes(players));
+    allGames = allGames.filter(([path, g]) => g.players === 'any' || g.players.includes(players));
   } else if ('playersMin' in match.params) {
     const min = parseInt(match.params.playersMin);
     const max = parseInt(match.params.playersMax);
 
     title += `, ${min}–${max} players`;
-    allGames = allGames.filter(([_, g]) => g.players.some(p => p >= min && p <= max));
+    allGames = allGames.filter(([_, g]) => g.players === 'any' || g.players.some(p => p >= min && p <= max));
   }
 
   { // equipment parameter
@@ -52,7 +52,7 @@ const GamesList: React.FC<GamesListProps> = ({ location, match }) => {
         <Col>
           <h3>By equipment</h3>
           <ul>
-            { Object.entries(Meta.Equipment).map(([key, name]) => 
+            {Object.entries(Meta.Equipment).map(([key, name]) =>
               <li key={key}><Link to={`/games/equipment=${key}`}>{name}</Link></li>)}
           </ul>
           {/*
@@ -82,19 +82,22 @@ const GameArticle: React.FC<RouteComponentProps<{ id: string }>> = ({ match, his
     return null;
   }
 
-  return <Article url={match.url} content={game} infoBox={renderInfoBox(game)} subHeading={<div className="mb-5"/>} />;
+  return <Article url={match.url} content={game} infoBox={renderInfoBox(game)} subHeading={<div className="mb-5" />} />;
 }
 
 const renderInfoBox = (game: Meta.GameMeta) => {
 
-  const players = [...game.players].sort();
-  const consecutive = players.every((p, i, ps) => i + 1 === ps.length || p + 1 === ps[i + 1]);
-  const renderedPlayers =
-    players.length === 1
-      ? <Link to={`/games/players=${players[0]}`}><span itemProp="value">{players[0]}</span></Link>
-      : consecutive
-        ? <Link to={`/games/players=${players[0]}-${players[players.length - 1]}`}><span itemProp="minValue">{players[0]}</span>–<span itemProp="maxValue">{players[players.length - 1]}</span></Link>
-        : players.map((p, i) => <React.Fragment key={i}>{i > 0 && '/'}<span itemProp="value">{p}</span></React.Fragment>);
+  let renderedPlayers : JSX.Element | JSX.Element[] = <></>;
+  if (game.players !== 'any') {
+    const players = [...game.players].sort();
+    const consecutive = players.every((p, i, ps) => i + 1 === ps.length || p + 1 === ps[i + 1]);
+    renderedPlayers =
+      players.length === 1
+        ? <Link to={`/games/players=${players[0]}`}><span itemProp="value">{players[0]}</span></Link>
+        : consecutive
+          ? <Link to={`/games/players=${players[0]}-${players[players.length - 1]}`}><span itemProp="minValue">{players[0]}</span>–<span itemProp="maxValue">{players[players.length - 1]}</span></Link>
+          : players.map((p, i) => <React.Fragment key={i}>{i > 0 && '/'}<span itemProp="value">{p}</span></React.Fragment>);
+  }
 
   return (
     <section className="infobox">

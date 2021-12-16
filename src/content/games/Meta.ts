@@ -10,7 +10,7 @@ export const Equipment = {
 } as const;
 
 export type GameMeta = Readonly<{
-  players: readonly number[],
+  players: readonly number[] | 'any',
   equipment?: keyof typeof Equipment,
 } & ArticleContent>
 
@@ -117,6 +117,11 @@ const games = {
     players: [2],
     draft: true,
     import: React.lazy(() => import(/* webpackChunkName: 'nine-mens-morris' */ './NineMensMorris/NineMensMorris'))
+  },
+  'eight-faces': {
+    title: "Eight Faces",
+    players: 'any' as const,
+    import: React.lazy(() => import('./PekBin/PekBin')),
   },
   'take-it-away': {
     title: "Take It Away",

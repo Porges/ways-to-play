@@ -1,7 +1,9 @@
 /*** Italicize non-English (but Latin) languages: ***/
 span[lang|=ban], /* Balinese */
 span[lang|=bn-Latn], /* Bangla */
+span[lang|=cmn-Latn], /* Mandarin */
 span[lang|=de], /* German */
+span[lang|=dtp], /* Dusun(ic) */
 span[lang|=ee], /* Ewe */
 span[lang|=es], /* Spanish */
 span[lang|=fr], /* French */
@@ -17,6 +19,7 @@ span[lang|=ja-Latn], /* Japanese */
 span[lang|=jv-Latn], /* Javanese */
 span[lang|=km-Latn], /* Khmer */
 span[lang|=ko-Latn], /* Korean */
+span[lang|=kxd], /* Brunei Malay */
 span[lang|=mi], /* Māori */
 span[lang|=min], /* Minangkabau */
 span[lang|=ms], /* Malay (meta-language) */
@@ -34,6 +37,7 @@ span[lang|=sv], /* Swedish */
 span[lang|=th-Latn], /* Thai */
 span[lang|=tn], /* Tswana */
 span[lang|=ve], /* Venda */
+span[lang|=vi], /* Vietnamese */
 span[lang|=yue-Latn], /* Cantonese */
 span[lang|=zh-Latn], /* (Standard) Chinese */
 span[lang|=zu] /* isiZulu */
@@ -130,6 +134,10 @@ figcaption .playing-cards {
   vertical-align: text-top;
 }
 
-.playing-cards .red {
+.red {
   color: #CC0000;
+}
+
+.blue {
+  color: #0000CC;
 }

@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import ISBN from 'isbn3';
+
 type Author = { readonly family?: string, readonly given: (readonly string[] | string), readonly lang?: string }
 
 export type Reference = Readonly<{
@@ -122,10 +124,21 @@ const renderPublisher = (reference: Reference) => (<>
   {reference.publisher && <><span lang={reference['publisher-lang']}>{reference.publisher}</span>{reference.publisher.endsWith('.') ? ' ' : '. '}</>}
 </>);
 
-const renderISBN = (reference: Reference) => (
-  reference.ISBN &&
-  <><abbr className="initialism">ISBN</abbr>: <a itemProp="isbn" href={`https://www.worldcat.org/isbn/${reference.ISBN}`}>{reference.ISBN}</a>. </>
-);
+const renderISBN = (reference: Reference) => {
+  if (!reference.ISBN) {
+    return false;
+  }
+
+  const parsed = ISBN.audit(reference.ISBN.toString());
+  if (!parsed.validIsbn) {
+    console.error(parsed);
+    throw new Error("Invalid ISBN: " + reference.ISBN);
+  }
+
+  const formattedISBN = ISBN.hyphenate(reference.ISBN.toString());
+
+  return <><abbr className="initialism">ISBN</abbr>: <a itemProp="isbn" href={`https://www.worldcat.org/isbn/${formattedISBN}`}>{formattedISBN}</a>. </>;
+};
 
 const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: boolean, itemProp: string) => {
   const renderFamily = (a: Author, ix: number) => a.family && <><span itemProp="familyName">{a.family}</span>{period && ix > 0 && ix === (as.length - 1) && (a.family.endsWith('.') || '.')}</>;
