@@ -142,7 +142,6 @@ const games = {
   },
   'tic-tac-toe': {
     title: "Tic-Tac-Toe",
-    draft: true,
     players: [2],
     import: React.lazy(() => import(/* webpackChunkName: 'tic-tac-toe' */ './TicTacToe'))
   },

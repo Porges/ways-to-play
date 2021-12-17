@@ -5830,5 +5830,38 @@
             "year": 1856
         },
         "URL": "https://books.google.co.nz/books?id=5POdm7UKXP4C"
+    },
+    "DevilsPulpit": {
+        "type": "book",
+        "title": "The Devil’s Pulpit: or Astro-Theological Sermons",
+        "author": [
+            {
+                "family": "Taylor",
+                "given": "Robert"
+            }
+        ],
+        "issued": {
+            "year": 1857
+        },
+        "publisher": "Calvin Blanchard",
+        "publisher-place": "New York",
+        "URL": "https://archive.org/details/devilspulpit00tayl"
+    },
+    "ComicNurseryTales": {
+        "type": "book",
+        "title": "Comic Nursery Tales",
+        "URL": "https://digitalarchive.tpl.ca/objects/361549/comic-nursery-tales",
+        "issued": {
+            "year": 1844
+        },
+        "author": [
+            {
+                "given": "F. W. N.",
+                "family": "Bayley"
+            }
+        ],
+        "edition": 3,
+        "publisher": "WM. S. Orr & Co.",
+        "publisher-place": "London"
     }
 }

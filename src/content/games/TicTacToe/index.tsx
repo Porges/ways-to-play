@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { ArticleImage, Cite, Footnote, Pronounce, Section } from 'ui';
+import { ArticleImage, Cite, Description, Footnote, Pronounce, Section } from 'ui';
 
 import img7429 from './7429845046_ddc7a1464a_o.jpg';
 import imageBab1 from './large_BAB_S20_0002.jpg';
@@ -15,9 +15,9 @@ import pronTrippTrapp from './pronunciation_sv_tripp,_trapp,_trull.mp3';
 const TicTacToe: React.FC = () => <>
   {/*<p>(Some general references for the game are @OxfordBG [112–113], @Bell [p. 91], and
       @Murray2 [§3.2.1, p. 40].)</p>*/}
-  <p>Tic-Tac-Toe is a simple game for two players that is well-known as being a draw if played ‘rationally’.
+  <Description>Tic-Tac-Toe is a simple game for two players that is well-known to result in a draw if played ‘rationally’.
   Unlike most board games, pieces cannot be moved or removed once placed, making it an ideal game to play with
-      pen & paper.</p>
+      pen & paper.</Description>
   <ArticleImage
     src={img7429}
     alt="Several games of tic-tac-toe scrawled on a concrete wall."
@@ -31,17 +31,17 @@ const TicTacToe: React.FC = () => <>
     Some tic-tac-toe games
       </ArticleImage>
   <Section title="History">
-    <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems like a more recent invention—a degenerate version of [Three Men’s Morris]. Mentions of it only appear in the 19th century, and the game is very well suited to being played with chalk on slates—such as were used by children in schools during this period. Indeed, <Cite r="BerkshirePhrases" page={164} inline  /> describes the game as “the first game taught to children when they can use a slate pencil”.</p>
+    <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems like a more recent invention—a degenerate version of Three Men’s Morris. Mentions of it only appear in the 19th century, and the game is very well suited to being played with chalk on slates—such as were used by children in schools during this period. Indeed, <Cite r="BerkshirePhrases" page={164} inline  /> describes the game as “the first game taught to children when they can use a slate pencil”.</p>
     <p>Some of the earliest known written references to the game occur in Charles Babbage’s unpublished manuscript ‘Essays
     on the Philosophy of Analysis’ (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the
       game is never mentioned by name.<Cite r="SourcesInRecreationalMathematics"/> In 1842, ‘tit-tat-to’ again occurs in
       his notebooks, when he conceptualizes an automaton that would play the game against a
       human.<Cite r="SourcesInRecreationalMathematics"/><Cite r="ICommencedAnExamination"/></p>
-    <p>It also appears in 1818 in an article on the <a href="https://en.wikipedia.org/wiki/Monitorial_System">Lancasterian system</a>:<Cite r="LancasterianSystem"  /></p>
+    <p>It also appears in 1818 in an article on the <a href="https://en.wikipedia.org/wiki/Monitorial_System">Lancasterian system</a>, discussing children’s games:<Cite r="LancasterianSystem"  /></p>
     <blockquote>
       One boy who is acquainted with the popular game of <i>checkers</i>, <i>fox and geese</i>, <i>tit-tat-to</i>, <i>hop skip and jump</i>, and a thousand other childish amusements,  will communicate all he knows to his school companions with surprising facility.
       </blockquote>
-    <p>In 1830, Robert Taylor (an anti-clerical Radical, nicknamed “the Devil’s chaplain”) used tic-tac-toe as an example of a children’s game in his sermon “The Star of Bethlehem”:</p>
+    <p>In 1830, <a href="https://en.wikipedia.org/wiki/Robert_Taylor_(Radical)">Robert Taylor</a> (an anti-clerical Radical, nicknamed “the Devil’s chaplain”) used tic-tac-toe as an example of a children’s game in his sermon “The Star of Bethlehem”:<Cite r="DevilsPulpit" page={7} /></p>
     <blockquote>
       Just as a fool, who has but seen the diagrams and delineations in the elements of Euclid, will make himself dead sure that all the mathematics in the world could have consisted in nothing more than in making hobscotches [hop-scotch], and catgallowses [a high-jump], and scratchcradles [cat’s cradle], to play at tit-tat-toe with.
       </blockquote>
@@ -67,7 +67,7 @@ const TicTacToe: React.FC = () => <>
       ‘tic(k)-tac(k)-to(e)’, ‘(n)oughts &amp; crosses’, ‘crisscross’, ‘tip-tap-toe’,<Cite r="Teesdale" page={136} /><Cite r="NotesAndQueriesS8V12"
       page={333} /> ‘Exeter’s Nose’ (a pun on ‘<i>X</i>s and <i>O</i>s’),<Cite r="SourcesInRecreationalMathematics"/> or
       ‘kit-cat-cannio’.<Cite r="SuffolkWords" page={200} /></p>
-    <p>These names mostly derive from several old counting-out rhymes — think ‘eeny meeny miny mo’ — that begin with ‘tit, tat, toe’. These rhymes date from at least the early 18th century: in 1725, <Cite r="ANewCantingDictionary" inline /> described ‘Tit-Tat’ as “the aiming of Children to go at first”.</p>
+    <p>Several of these names derive from old counting-out rhymes — think ‘eeny meeny miny mo’ — that begin with ‘tit, tat, toe’. These rhymes date from at least the early 18th century: in 1725, <Cite r="ANewCantingDictionary" inline /> described ‘Tit-Tat’ as “the aiming of Children to go at first”.</p>
     <p>The fullest expression of this rhyme is along the lines of:</p>
     <blockquote>
       Tit, tat, toe,<br />
@@ -78,11 +78,36 @@ const TicTacToe: React.FC = () => <>
       Stick one down,<br />
       Stick one in the old man’s crown!<Footnote>Some sources (e.g. <Cite r="NurseryWitch" page={374} inline/>) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.</Footnote>
       </blockquote>
+      {/*
     <p>In the later 19th century, this children’s rhyme became the basis of songs in several musicals:</p>
     <blockquote>
       Insert one here!
       </blockquote>
-    <p>Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to any set of lined-up objects. (Examples: Bluebeard’s wives, the windows on a building.) This usage is still current with the Swedish equivalent of <Pronounce file={pronTrippTrapp} lang="sv" pronouncer="tigris" word="tripp, trapp, trull" /> (see below).</p>
+      */}
+    <p>Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to any set of three lined-up objects — in <a href="https://en.wikipedia.org/wiki/F._W._N._Bayley">F. W. N. Bayley</a>’s 1842 adaptation of the gruesome <a href="https://en.wikipedia.org/wiki/Bluebeard">Bluebeard</a> fairy-tale, Mrs. Bluebeard discovers that her husband has murdered his six previous wives, and:<Cite r="ComicNurseryTales" page={19} /></p>
+    <blockquote>
+      […] —ah! no more!<br/>
+      She bumps her body down on the floor;<br/>
+      Down on the floor—and, Oh, my eye!<br/>
+      She looks as if she were ready to die!<br/>
+      It isn’t a case of “tit-tat-toe,”<br/>
+      And “three jolly butchers all of a row,”<br/>
+      But Oh . . . Oh . . . Oh . . ! ! !<br/>
+      It’s a double case of tit-tat-toe,<br/>
+      <span className="smallcaps">And Six Dead Women all of a Row.</span><Footnote>Supposedly this is a children’s book.</Footnote>
+    </blockquote>
+    <p>This usage of referring to neatly-aligned triplets is still current with the Swedish equivalent of <Pronounce file={pronTrippTrapp} lang="sv" pronouncer="tigris" word="tripp, trapp, trull" /> (see more below). The three houses in <a href="https://en.wikipedia.org/wiki/Kalmar">Kalmar</a> in the following image are nicknamed the “<span lang="sv">tripp trapp trull</span> houses”:</p>
+    <ArticleImage
+      src={require('./Tripp_trapp_trull_kalmar.jpg')}
+      alt="Three houses, from left to right a small olive coloured house, a larger off-white house, and then the tallest, a red house."
+      source={{
+        originalUrl: 'https://commons.wikimedia.org/wiki/File:Tripp_trapp_trull_kalmar.jpg',
+        author: 'Nordelch',
+        license: 'cc-by-sa',
+        licenseVersion: '2.5',
+        copyrightYear: 2006
+      }}>
+    </ArticleImage>
     <ArticleImage
       position="right"
       src={imgTickTack}
@@ -252,7 +277,7 @@ const TicTacToe: React.FC = () => <>
         strategy and with a chance of making a mistake</li>
     </ul>
     <p>Chickens have also been trained to ‘play’ the
-      game.<Cite r="CrossOutALandmark"  /><Cite r="TheChickenVanishes"  /><Cite r="ChinatownFairIsBack"  /> The first of these games, “Bird Brain”, was developed in the late 1970s by Animal Behavior Enterprises, a company founded by Marian &amp; Keller Breland, who were students of B. F. Skinner, the behavioural psychologist.<Cite r="TheMouseWhoReinforced" page={73} /> In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.<Cite r="BirdBrainManual"  /></p>
+      game.<Cite r="CrossOutALandmark"  /><Cite r="TheChickenVanishes"  /><Cite r="ChinatownFairIsBack"  /> The first of these games, “Bird Brain”, was developed in the late 1970s by Animal Behavior Enterprises, a company founded by Marian &amp; Keller Breland, who were students of <a href="https://en.wikipedia.org/wiki/B._F._Skinner">B. F. Skinner</a>, the behavioural psychologist.<Cite r="TheMouseWhoReinforced" page={73} /> In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.<Cite r="BirdBrainManual"  /></p>
     <ArticleImage src={imgBirdBrain}
       alt=""
       source={{

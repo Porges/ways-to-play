@@ -14,7 +14,7 @@ export type LicenseName
     | "with-permission"
     | "us-fair-use"
 
-export type Version = "2.0" | "3.0" | "4.0"
+export type Version = "2.0" | "2.5" | "3.0" | "4.0"
 
 type Props = {
     license: LicenseName
