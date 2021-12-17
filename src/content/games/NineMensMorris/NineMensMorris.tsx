@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { GameRef } from 'content/games/Game';
-import { ArticleImage, Cite, Section, Noun, Footnote } from 'ui';
+import { ArticleImage, Cite, Section, Noun, Footnote, Description } from 'ui';
 
 import imgWall from './P1130411a.jpg';
 import imgLargeMerels from 'content/articles/mill-games/large_merels.svg';
@@ -26,7 +26,7 @@ import imgWithDice from "./Nine_Mens_Morris_with_dice_in_Libro_de_los_juegos.jpg
 import imgTemplarRule from "./templar-rule.jpg";
 
 const TakeItAway: React.FC = () => <>
-  <p><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Roman times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</p>
+  <Description><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Roman times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</Description>
   <p>In addition to being a game, the board was used as some kind of talisman or symbol; <Cite r="MerylsBoardEnigma" inline page={330} /> collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.</p>
   {/*
 Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @Bell, p. 93; @Murray2,
@@ -39,7 +39,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       alt="TODO"
       src={imgLargeMerels}>
       Nine Men’s Morris is played on the large mill board.
-      </ArticleImage>
+    </ArticleImage>
     <p>The game (as most mill games) is split into two phases. During the first (placement) phase, the players take turns placing a single piece at a time onto one of the vacant points on the board. Once all the pieces have been placed, the movement phase begins. In this part of the game, players take turns moving a single piece along a line to another vacant point. Once a player is reduced to three pieces, their pieces can ‘fly’ and move to any empty point on the board. </p>
     <p>Throughout the game, each time a player forms a mill they remove any piece of their opponent’s that is not part of a mill. If all their opponent’s pieces are in mills, no piece may be removed.</p>
     <p>During the movement phase, it is possible to form two mills simultaneously. In this case the player may remove two of the opponent’s pieces from the board.</p>
@@ -65,7 +65,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}>
       Text of the French Templar rule from an early 14th-century manuscript (with quoted passage highlighted).
     </ArticleImage>
-    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order (probably written between 1139 and 1147&nbsp;CE<Cite r="TheRuleOfTheTemplars" page={12}/>), as the only board game allowed to be played by Templar brothers:</p>
+    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order (probably written between 1139 and 1147&nbsp;CE<Cite r="TheRuleOfTheTemplars" page={12} />), as the only board game allowed to be played by Templar brothers:</p>
     <div className="multi">
       <p lang="fr">Et sachies que a nul autre jeu frere dou Temple ne doit joer, fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as eschaçons.<Cite r="LaRegleDuTemple" page={185} /></p>
       <p>And let it be known that a brother of the Temple should play no other game except <span lang="fr">marelles</span>, which each may play if he wishes, for pleasure without placing wagers. No brother should play chess, backgammon, or <span lang="fr">eschaçons</span> [an unknown game].<Cite r="TheRuleOfTheTemplars" page={90} /></p>
@@ -95,9 +95,9 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         originalUrl: "http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=668"
       }}
     >
-      A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board.
+      A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board (possibly <GameRef id="daldos"/>).
     </ArticleImage>
-    <p>In England the game has always had an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from Bitteswell in 1634 records that a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r="MetropoliticalVisitation" page={497} /></p>
+    <p>In England the game has always had an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from the parish of Bitteswell records that in 1634 a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r="MetropoliticalVisitation" page={497} /></p>
     <ArticleImage
       src={imgPeasant}
       alt="A peasant boy holding a Nine Men’s Morris board."
@@ -144,11 +144,15 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     </ul>
     <p>In other languages it is called:</p>
     <ul>
-      <li>Bengali: <span lang="bn">নয় গুটি</span> (<span lang="bn-Latn">naẏa guṭi</span>) ‘nine pieces’<Cite r="GuptaD" page={145} /></li>
+      <li>Bengali: <span lang="bn">ন গুটি</span> (<span lang="bn-Latn">nô guṭi</span>) ‘nine beads’</li>
       <li>French: <span lang="fr">le jeu du moulin</span> ‘the mill game’</li>
       <li>Greek: <span lang="grc">τὸ τριόδι</span> ‘trio’<Cite r="MacedonianFolklore" page={295} />, or <span lang="grc">τριώδιον</span> ‘triodium’.<Cite r="Hyde" page={205} /></li>
       <li>German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. Germany runs a ‘world’ league, the “<Noun lang="de"><a href="http://www.muehlespiel.eu/">Weltmühlespiel Dachverband</a></Noun>”.</li>
+      {/* Persian: دوز نه تایی
+dvz noh tʾyi
+flat 9 triads */}
       <li>Swiss: <span lang="gsw">Nüünischtei</span>.<Cite r="MundartLexikon" /></li>
+      <li>Urdu: <span lang="ur">نو گوٹی</span> (<span lang="ur-Latn">nau guṭī</span>) ‘nine pieces’<Cite r="GuptaD" page={145} /></li>
     </ul>
     <ArticleImage
       alt="A Morris board in a brick wall, made out of black and red bricks"
@@ -163,7 +167,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       A <span lang="fr">jeu du moulin</span> in the south-west wall of the <Noun lang="fr">Château du Moulin</Noun> (<Noun lang="fr">Loir-et-Cher</Noun>, France). Built between 1480–1501, this is a punny reference to the name of the original owner, <Noun lang="fr">Philippe du Moulin</Noun>. There is another Three Men’s Morris board on the eastern wall, and the nearby <Noun lang="fr">Château de Gien</Noun> has a similar motif.<Cite r="MerylsBoardEnigma" page={103} />
     </ArticleImage>
   </Section>
-  <Section title="Theory">
+  <Section title="Analysis">
     <p>With perfect play, the game is a draw.<Cite r="UltraStrongMorris" /></p>
   </Section>
   <Section title="Variants">
@@ -176,14 +180,14 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
           [imgPentagon2, "A board constructed from five nested pentagons in alternating orientations."],
         ]}>
         Alternate boards of German origin:<Cite r="KlassischeSpiele" page={58} /> a ‘sun-mill’ (played with 12 pieces each), and two boards constructed from nested pentagons. The first pentagonal board is played with 11 pieces each, the second is designed to be played by two or more players: for two players use 12 pieces; for three, 8; for four, 6; and for five, 5.
-    </ArticleImage>
+      </ArticleImage>
       <ArticleImage
         src={[
           [imgCube2, ""],
           [imgCube1, ""],
         ]}>
         Two variations of a ‘cube’ board by David Parlett.<Cite r="OxfordBG" page={122} /> On the coloured board, a mill may not cross between differently-coloured regions, and the middle point may only be taken to complete a mill or prevent completion of a mill on the next turn.
-    </ArticleImage>
+      </ArticleImage>
       <ArticleImage
         src={[
           [imgMobius, ""],
@@ -191,10 +195,10 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
           [imgHexagon, ""],
         ]}>
         The Möbius board (invented by <Noun lang="de">Ingo Althöfer</Noun>), another pentagonal board (without joined corners), and a hexagonal board.
-    </ArticleImage>
+      </ArticleImage>
     </Section>
     <Section title="Twelve Men’s Morris">
-      <p>This is played with twelve pieces per player, on a board that has diagonals.<Cite r="Zaslavsky" page={7}/><Cite r="Murray2" page={48}/></p>
+      <p>This is played with twelve pieces per player, on a board that has diagonals.<Cite r="Zaslavsky" page={7} /><Cite r="Murray2" page={48} /> In all other respects, the game is the same.</p>
       <ArticleImage
         alt="An old man’s hand reaches towards a worn morris board to move a piece."
         src={imgTwelveMensMorris}
@@ -210,8 +214,9 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       <Section title="Nomenclature">
         <p>In other countries or languages it is known as:</p>
         <ul>
-          <li>Bengali: <span lang="bn">বারো গুটি পাইত পাইত</span> (<span lang="bn-Latn">bārō-guṭi pāit pāit</span>)<Cite r="GuptaD" page={145}/></li>
-          <li>Sri Lanka (Sinhala): <span lang="si">නෙරෙංචි</span> (<span lang="si-Latn">Nereṁci</span><Footnote>Also transcribed as <span lang="si-Latn">Nerenchi</span> or <span lang="si-Latn">Niranchy</span>.</Footnote>), seemingly named after a plant that has very thorny seeds<Cite r="Zaslavsky" page={16}/><Cite r="SportsAndGamesOfSinghalese" page={34}/><Cite r="AncientCeylon" page={577}/></li>
+          <li>Bengali: <span lang="bn">বারো গুটি (পাইত পাইত)</span> (<span lang="bn-Latn">bārō-guṭi (pāit-pāit)</span>) ‘twelve bead (unsure)’<Cite r="GuptaD" page={145} /></li>
+          <li>Sri Lanka (Sinhala): <span lang="si">නෙරෙංචි</span> or <span lang="si">නෙරිංචි</span> (<span lang="si-Latn">nereṁci</span><Footnote>Also transcribed as <span lang="si-Latn">Nerenchi</span> or <span lang="si-Latn">Niranchy</span>.</Footnote> or <span lang="si-Latn">neriṁci</span>), possibly named after a plant that has very thorny seeds<Cite r="Zaslavsky" page={16} /><Cite r="SportsAndGamesOfSinghalese" page={34} /><Cite r="AncientCeylon" page={577} /></li>
+          <li>Urdu: <span lang="ur">بارہ گوٹی</span> (<span lang="ur-Latn">bārā guṭī</span>) ‘twelve pieces’</li>
         </ul>
       </Section>
     </Section>
@@ -234,12 +239,12 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     <Section title="Mozog">
       <Footnote standalone>
         <p>The game was originally patented (US
-<a href="https://patents.google.com/patent/US4579347A">4,579,347</a>) in a slightly different form, with a more complex board. In this version each player had 14 pieces.</p>
+          <a href="https://patents.google.com/patent/US4579347A">4,579,347</a>) in a slightly different form, with a more complex board. In this version each player had 14 pieces.</p>
         <ArticleImage
           alt=""
           src={imgMozog}>
           The board from the patent was of a more complex construction, but with fewer squares.
-      </ArticleImage>
+        </ArticleImage>
       </Footnote>
       <ArticleImage
         alt=""
@@ -255,7 +260,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         position="aside"
         src={imgTrencho}>
         Trencho is played on a modified large mill board. The game was published with (at least) two different configurations.
-        </ArticleImage>
+      </ArticleImage>
       <p>Trencho is played on a modified mill board where only two shortened diagonals are present. Mills are called “trenches”.</p>
       <p>The game is played as usual except:</p>
       <ul>

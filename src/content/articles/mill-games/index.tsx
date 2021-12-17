@@ -47,7 +47,7 @@ const MillGames: React.FC = () => {
           <li><GameRef id='nine-mens-morris'/> is the most well-known, and can be viewed as the stereotypical mill game. Many variants are described on this page.</li>
           <li><GameRef id='nine-mens-morris' fragment="#twelve-mens-morris">Twelve Men’s Morris</GameRef> is the most common form in the United States. Eleven Men’s Morris is a variant with one fewer piece per player.</li>
           <li><GameRef id="morabaraba" /> is a mill game played competitively in South Africa. It differs slightly from Twelve Men’s Morris.</li>
-          <li>[Shax] is a mill game played in Somalia. It is distinguished by not permitting capturing during the placement phase.</li>
+          <li><GameRef id="shax" /> is a mill game from Somalia. It is distinguished by not permitting capturing during the placement phase.</li>
         </ul>
       </Section>
       <Section title="Medium mill board">

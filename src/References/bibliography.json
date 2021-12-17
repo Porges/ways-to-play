@@ -5814,5 +5814,21 @@
         "issued": {
             "year": 1983
         }
+    },
+    "FirstFootsteps": {
+        "type": "book",
+        "title": "First Footsteps in East Africa",
+        "author": [
+            {
+                "given": "Richard F.",
+                "family": "Burton"
+            }
+        ],
+        "publisher": "Longman, Brown, Green, and Longmans",
+        "publisher-place": "London",
+        "issued": {
+            "year": 1856
+        },
+        "URL": "https://books.google.co.nz/books?id=5POdm7UKXP4C"
     }
 }
