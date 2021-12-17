@@ -1,7 +1,7 @@
 import * as React from 'react';
 
-import { GameRef } from 'content/games/Game';
-import { ArticleImage, Cite, Section, Noun, Footnote, Description, Pronounce } from 'ui';
+// import { GameRef } from 'content/games/Game';
+import { ArticleImage, Cite, Section, Noun, Description, Pronounce } from 'ui';
 
 import pronShax from './pronunciation_so_shax.mp3';
 import imgBoard from '../../articles/mill-games/large_merels.svg';
