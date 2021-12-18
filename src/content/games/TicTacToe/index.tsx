@@ -9,6 +9,7 @@ import imgTickTack from './tick-tack-toe.png'
 import img5072 from './5072574617_9afa5ee9ae_o.jpg';
 import img8576 from './8576897675_c7c5785b4a_o.jpg'
 import imgBirdBrain from './bird_brain.jpg';
+import imgJam from './jam.svg';
 
 import pronTrippTrapp from './pronunciation_sv_tripp,_trapp,_trull.mp3';
 
@@ -193,8 +194,15 @@ const TicTacToe: React.FC = () => <>
     </Section>
     <Section title="JAM">
       <p>
-        This is another isomorphic variant invented by John Michon.<Cite r="TheGameOfJAM" /> It is the <a href="https://en.wikipedia.org/wiki/Dual_graph">graph theory dual</a> of the standard game, where each cell is replaced by a line and each winning line by a cell, in such a way that each cell-line intersects the appropriate winning-line cells.
+        This is another isomorphic variant invented by John Michon.<Cite r="TheGameOfJAM" /> It is the <a href="https://en.wikipedia.org/wiki/Duality_(projective_geometry)">projective geometry dual</a> of the standard game, where each cell is replaced by a line and each winning line by a point, in such a way that each cell-line intersects the appropriate winning-line points.
       </p>
+      <p>If this is confusing, muse upon the diagram: the red solid vertical line represents the middle cell of the Tic-Tac-Toe board; it crosses four points (winning lines). The four blue dashed lines are the corner cells, which cross three points (winning lines) each, and the four green dotted lines are the side-centre cells, which cross two points (winning lines) each.</p>
+      <ArticleImage
+        src={imgJam}
+        alt="">
+        The JAM board.
+      </ArticleImage>
+      <p>To play, players take turns claiming an entire line, which crosses several points. Once a player has claimed a line it may not be claimed by the other player. The first player that claims all three lines that pass through any single point wins the game.</p>
     </Section>
     <Section title="Spit">
       <p>

@@ -21,7 +21,10 @@ const Shax: React.FC = () => {
         <Description>
             <Pronounce word="Shax" file={pronShax} lang="so" noun pronouncer="ahmed_aw_abdi" /> is a <a href="/articles/mill-games">mill game</a> from Somalia. In central and southern regions of Somalia it is called <span lang="so">jare</span> (‘cut’).<Cite r="IntroductionToShax" page={1} /> Unlike most mill games, captures cannot be made during the placement phase.
         </Description>
-        <blockquote>Sometimes [the Bedouin] play at Shahh, Shantarah, and other games, of which they are passionately fond: with a board formed of lines traced in the sand, and bits of dry wood or camel’s earth acting pieces, they spend hour after hour, every looker-on vociferating his opinion, and catching at the men, till apparently the two players are those least interested in the game.<Cite r="FirstFootsteps" page={[[179, 180]]} /></blockquote>
+        <Section title="History">
+            <blockquote>Sometimes [the Bedouin] play at Shahh, Shantarah, and other games, of which they are passionately fond: with a board formed of lines traced in the sand, and bits of dry wood or camel’s earth acting pieces, they spend hour after hour, every looker-on vociferating his opinion, and catching at the men, till apparently the two players are those least interested in the game.<Cite r="FirstFootsteps" page={[[179, 180]]} /></blockquote>
+            <p>The game is mentioned in many stories of Somali poets and leaders (and poet-leaders), such as <Noun lang="so">Garaad Xirsi Garaad Faarax</Noun> (commonly known as “<Noun lang="so">Wiil Waal</Noun>”, ‘crazy boy’), the early 19th century ruler of <a href="https://en.wikipedia.org/wiki/Jijiga"><Noun lang="so">Jigjiga</Noun></a> (now part of Ethiopia); <a href="https://en.wikipedia.org/wiki/Yusuf_Ali_Kenadid"><Noun lang="so">Yuusuf Cali Keenadiid</Noun></a> (1837–1911), <a href="https://en.wikipedia.org/wiki/Sultanate_of_Hobyo">Sultan of Hobyo</a>; and <a href="https://en.wikipedia.org/wiki/Mohammed_Abdullah_Hassan"><Noun lang="so">Sayid Maxamed Cabdulle Xasan</Noun></a> (1856–1920), leader of the <a href="https://en.wikipedia.org/wiki/Dervish_movement_(Somali)">Dervish movement</a>.<Cite r="IntroductionToShax" page={2} /></p>
+        </Section>
         <Section title="Play">
             <Section title="Placement phase">
                 <ArticleImage
