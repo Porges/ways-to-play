@@ -5,6 +5,8 @@ import { ArticleImage, Footnote, Noun, Section, Cite, Pronounce } from 'ui';
 
 import imgKliptown from "./8237668945_878d81116c_o.jpg";
 import imgSothoBoard from "./large_merels_with_diagonals_and_centre.svg";
+import imgSothoBoardExamples from "./large_merels_with_diagonals_and_centre_mill_examples.svg";
+import imgSothoBoardBad from "./large_merels_with_diagonals_and_centre_bad_move.svg";
 import imgLargeMerelsWithDiagonals from "content/articles/mill-games/large_merels_with_diagonals.svg";
 import imgLargeMerelsWithFullDiagonals from "./large_merels_with_full_diagonals.svg";
 import imgInPlay from "./shutterstock_1431198950.jpg";
@@ -115,8 +117,20 @@ const Morabaraba: React.FC = () => (
           The Sotho version of the game is played on a board with a central cross.
         </ArticleImage>
         <p>The Sotho version of the game is played on a special board or flat stone (<span lang="st">letlapa</span>)<Cite r="BasothoChildren" page={35} /> where the centre square is also crossed, and the inner diagonals are missing, giving 25 points that can be played on.‌<Cite r="IndigenousGamesRuleBook" /><Cite r="MkeleMorabaraba" page={133} /> This means that there is no possibility of a deadlock after the placement phase.</p>
-        <p>Some rulesets<Cite r="BlacUmlabalaba" /> state that a piece on the central point can only be the middle piece of a mill. Other lines of three formed with the central point do not count as mills.</p>
+        <p>Most rulesets state that a piece on the central point can only be the middle piece of a mill. Other lines of three formed with the central point do not count as mills.<Cite r="BlacUmlabalaba" /><Cite r="TicTacToe" page={[[67,70]]}/></p>
         <p>Note that it is not possible to form a diagonal mill on this board.</p>
+        <div className="multi">
+          <ArticleImage
+            src={imgSothoBoardExamples}
+            alt="">
+            Some examples of valid mills on the Sotho board.
+          </ArticleImage>
+          <ArticleImage
+            src={imgSothoBoardBad}
+            alt="">
+            Not a mill; any mill using the centre point must have its middle piece on the centre point.
+          </ArticleImage>
+        </div>
         <ArticleImage
           src={imgKliptown}
           alt="A well-used morabaraba board with two different types of bottle caps for pieces."

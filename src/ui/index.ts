@@ -9,3 +9,4 @@ export * from "./Noun";
 export * from "./Person";
 export * from "./Pronunciation";
 export * from "./Section";
+export * from "./Isolate";

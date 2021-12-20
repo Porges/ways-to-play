@@ -151,6 +151,7 @@ const Content: React.FC = () => <>
         </ArticleImage>
       </Section>
       <Section title="Laos">
+        <p>Some images of the game being played in Laos. Interestingly, both photos show a board with Thai names.</p>
         <div className="multi wide">
           <ArticleImage
             alt="Children crowded around a table, staking money on the spaces."
@@ -180,9 +181,11 @@ const Content: React.FC = () => <>
           </ArticleImage>
         </div>
       </Section>
+      {/*
       <Section title="Myanmar">
 
       </Section>
+      */}
     </Section>
     <Section title="India & Nepal">
       <p>The game was known in Mumbai and Pune<Footnote>Then called Bombay and Poona.</Footnote> as early as 1905, as indicated by court cases from the time,<Cite r="ABookmakerAndThePolice" /><Cite r="HeartAnchorAndCrown" /> but it may have been in India for a long time prior to that.</p>
@@ -314,6 +317,7 @@ const Content: React.FC = () => <>
       source={{
         originalUrl: "https://www.flickr.com/photos/tsarkasim/3891195907/",
         author: "Damien D.",
+        copyrightYear: 2009,
         licenseVersion: "2.0",
         license: "cc-by-sa",
       }}>

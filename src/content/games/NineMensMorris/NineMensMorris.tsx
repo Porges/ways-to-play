@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { GameRef } from 'content/games/Game';
-import { ArticleImage, Cite, Section, Noun, Footnote, Description } from 'ui';
+import { ArticleImage, Cite, Section, Noun, Footnote, Description, Isolate } from 'ui';
 
 import imgWall from './P1130411a.jpg';
 import imgLargeMerels from 'content/articles/mill-games/large_merels.svg';
@@ -63,14 +63,17 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         license: "cc0",
         organization: { orgName: 'Bibliothèque nationale de France', orgLang: "fr", orgAbbr: 'BnF' }
       }}>
-      Text of the French Templar rule from an early 14th-century manuscript (with quoted passage highlighted).
+      Text of the French Templar rule from an early 14th-century manuscript edition (with quoted passage highlighted).
     </ArticleImage>
+    <p>One of the earliest written references to the game is in the 10th century <a href="https://en.wikipedia.org/wiki/Kitab_al-Aghani"><cite lang="ar-Latn">Kitāb al-Aghānī</cite></a> (<cite lang="ar"><Isolate>كتاب الأغاني</Isolate></cite>, ‘book of songs’), a large collection of poems and stories assembled by <a href="https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani"><Noun lang="ar-Latn">ʾAbū l-Faraj al-Iṣfahānī</Noun></a> (<Isolate><span lang="ar">أبو الفرج الأصفهاني</span></Isolate>, 897–967). In one story a club from the time of the poet <Noun lang="ar-Latn">al-Aḥwaṣ</Noun> (<Isolate><span lang="ar">الأحوص</span></Isolate>, 660–724) is described, along with the board games it held for the use of its members. According to the book, they could play <span lang="ar-Latn">shiṭranj</span> (<Isolate><span lang="ar">شطرنج</span></Isolate>, chess), <span lang="ar-Latn">nard</span> (<span lang="ar">نرد</span>), or — most importantly here — <span lang="ar-Latn">qirq</span> (<Isolate><span lang="ar">قرق</span></Isolate>, morris).<Cite r="GamblingInIslam" page={481} /> The derivation of the name <span lang="ar-Latn">qirq</span> is uncertain, but it is apparently not originally an Arabic word.</p>
+    <p>From the Arabic world it entered</p>
     <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order (probably written between 1139 and 1147&nbsp;CE<Cite r="TheRuleOfTheTemplars" page={12} />), as the only board game allowed to be played by Templar brothers:</p>
     <div className="multi">
       <p lang="fr">Et sachies que a nul autre jeu frere dou Temple ne doit joer, fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as eschaçons.<Cite r="LaRegleDuTemple" page={185} /></p>
       <p>And let it be known that a brother of the Temple should play no other game except <span lang="fr">marelles</span>, which each may play if he wishes, for pleasure without placing wagers. No brother should play chess, backgammon, or <span lang="fr">eschaçons</span> [an unknown game].<Cite r="TheRuleOfTheTemplars" page={90} /></p>
     </div>
     <p>It is unclear <em>why</em> mill games were permitted by the Templars<Footnote>TODO: it has been suggested (?) that the tripartite board was taken as supportive of the trinity, or remniscent of the First Temple of Jerusalem.</Footnote>, but, reading the rest of the passage (not quoted above), the intent of the Rule seems to be to prevent playing games for money — bets were allowed to be placed on games, but only with worthless items such as wooden tent pegs. Viewed in this light, perhaps mill games were considered less susceptible to gambling, and therefore permissible.</p>
+    <p>The Imam <Noun lang="ar-Latn">ʾAbū al-Qāsim al-Rāfiʿī al-Qazwīnī</Noun> (<Isolate><span lang="ar">أبو القاسم الرافعي القزويني</span></Isolate>, 1160–1226) described <span lang="ar-Latn">qirq</span> as the “chess of the <a href="https://en.wikipedia.org/wiki/Maghrebis">Maghrebis</a>”.<Cite r="GamblingInIslam" page={381} /><Footnote>Similarly, <GameRef id="shax"/> is sometimes referred to as “Somali chess”.</Footnote></p>
     <ArticleImage
       src={imgBonus}
       position="aside"
@@ -97,7 +100,33 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     >
       A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board (possibly <GameRef id="daldos"/>).
     </ArticleImage>
+    {/*
+    <ArticleImage position="aside" src={imgLargeMerelsWithDiagonals} alt="">
+    </ArticleImage>
+    */}
+    <p>The board with diagonals seems to appear first in Arabic sources;<Cite r="Murray2" page={43} /> it is shown — as the only drawing — in the famous <Noun lang="ar-Latn">al-Qamūs al-Muḥīṭ</Noun> dictionary (<span lang="ar">القاموس المحيط</span>, ‘the surrounding ocean’) of <a href="https://en.wikipedia.org/wiki/Fairuzabadi"><Noun lang="fa-Latn">Fairūzābādī</Noun></a> (<span lang="fa">فیروزآبادی</span>), published at the start of the 15th century.<Cite r="alQamus" /></p>
+    <ArticleImage
+      src={require('./Fairuzabadi.jpg')}
+      size="wide"
+      alt="A page from an illuminated Arabic dictionary with a digram of a Nine Men's Morris board with diagonals."
+      source={{
+        license: "cc-by",
+        licenseVersion: "4.0",
+        organization: {
+          orgName: "University of Pennsylvania, Kislak Center for Special Collections"
+        },
+        originalUrl: "https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r"
+      }}>
+      The entry for “<span lang="ar">القَرْقُ</span>” in the <Noun lang="ar-Latn">Qamūs</Noun>.
+    </ArticleImage>
     <p>In England the game has always had an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from the parish of Bitteswell records that in 1634 a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r="MetropoliticalVisitation" page={497} /></p>
+    <div className="multi">
+      <ArticleImage
+       src={require('../Daldos/maryrose_daldos.jpg')}
+       alt=""
+       source={{license: "with-permission", organization: {orgName: "The Mary Rose Museum"}}}>
+      A Nine Men’s Morris board alongside what seems to be a <GameRef id="daldos" /> board, on a barrel-end from the wreck of the Mary Rose (1545).
+    </ArticleImage>
     <ArticleImage
       src={imgPeasant}
       alt="A peasant boy holding a Nine Men’s Morris board."
@@ -115,6 +144,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}>
       Detail from the 16th-century tapestry <cite lang="fr">Suite des Nobles Pastorales</cite>.
     </ArticleImage>
+    </div>
   </Section>
   <Section title="Nomenclature">
     <p>Other English names for the game include:</p>

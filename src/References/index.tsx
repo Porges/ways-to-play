@@ -2,6 +2,8 @@ import * as React from 'react';
 
 import ISBN from 'isbn3';
 
+import { Isolate } from '../ui/Isolate';
+
 type Author = { readonly family?: string, readonly given: (readonly string[] | string), readonly lang?: string }
 
 export type Reference = Readonly<{
@@ -26,8 +28,8 @@ export type Reference = Readonly<{
   warnings?: string,
 
   filed?: { year: number, month: number, day: number }, // for patents
-  applicationNumber?: string|number,
-  patentNumber?: string|number,
+  applicationNumber?: string | number,
+  patentNumber?: string | number,
 }>
 
 const itemTypes: Record<string, string> = {
@@ -46,7 +48,7 @@ const itemTypes: Record<string, string> = {
 };
 
 const numberFormatter = new Intl.NumberFormat('en');
-function formatNumberString(it : string|number): string {
+function formatNumberString(it: string | number): string {
   if (typeof it === 'number') {
     return numberFormatter.format(it);
   }
@@ -78,8 +80,8 @@ function renderTitle(reference: Reference): JSX.Element {
       : <span dangerouslySetInnerHTML={html} />;
 
   return reference.type === 'book'
-    ? <><cite itemProp="name" lang={lang}>{linked}</cite>{reference.volume && <> (volume {formatNumberString(reference.volume)})</>}. </>
-    : <>‘<span itemProp="name headline" lang={lang}>{linked}</span>’. </>;
+    ? <><cite itemProp="name" lang={lang}><Isolate>{linked}</Isolate></cite>{reference.volume && <> (volume {formatNumberString(reference.volume)})</>}. </>
+    : <>‘<><span itemProp="name headline" lang={lang}><Isolate>{linked}</Isolate></span></>’. </>;
 }
 
 const renderDate = (reference: Reference) => {
@@ -141,7 +143,9 @@ const renderISBN = (reference: Reference) => {
 };
 
 const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: boolean, itemProp: string) => {
-  const renderFamily = (a: Author, ix: number) => a.family && <><span itemProp="familyName">{a.family}</span>{period && ix > 0 && ix === (as.length - 1) && (a.family.endsWith('.') || '.')}</>;
+  const renderFamily = (a: Author, ix: number) => a.family &&
+    <><span itemProp="familyName">{a.family}</span>{period && ix > 0 && ix === (as.length - 1) && (a.family.endsWith('.') || '.')}</>;
+
   const renderGiven = (a: Author, ix: number) =>
   (typeof a.given === 'string'
     ? <><span itemProp="givenName">{a.given}</span>{period && reverseFirst && ix === 0 && ix === (as.length - 1) && (a.given.endsWith('.') || '.')}</>
@@ -151,7 +155,6 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
     </>);
 
   const reverseName = (a: Author) => a.lang === undefined ? false : (a.lang.startsWith('zh') || a.lang.startsWith('ja'));
-
   const hiddenName = (a: Author) => <meta itemProp="name" content={reverseName(a) ? `${a.family}${a.given}` : `${a.given} ${a.family}`} />
 
   return as.map((a, ix) => (
@@ -160,8 +163,8 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
       <span itemScope itemType="http://schema.org/Person" itemProp={itemProp} lang={a.lang} className="proper-noun">
         {hiddenName(a)}
         {reverseFirst && ix === 0
-          ? <>{a.family && <>{renderFamily(a, ix)}, </>}{renderGiven(a, ix)}</>
-          : <>{renderGiven(a, ix)}{a.family && <> {renderFamily(a, ix)}</>}</>}
+          ? <>{a.family && <><Isolate>{renderFamily(a, ix)}</Isolate>, </>}<Isolate>{renderGiven(a, ix)}</Isolate></>
+          : <Isolate>{renderGiven(a, ix)}{a.family && <> {renderFamily(a, ix)}</>}</Isolate>}
       </span>
     </React.Fragment>))
 };
@@ -313,9 +316,9 @@ function renderPatentBits(reference: Reference): JSX.Element | null {
   const issued = reference.issued ? renderExplicitDate(reference.issued, false) : null;
 
   return (<>
-    {reference.patentNumber 
+    {reference.patentNumber
       ? <>Patent {formatNumberString(reference.patentNumber)}{reference.applicationNumber && <> (application {formatNumberString(reference.applicationNumber)})</>}.</>
-      : reference.applicationNumber && <>Application {formatNumberString(reference.applicationNumber)}.</> }
+      : reference.applicationNumber && <>Application {formatNumberString(reference.applicationNumber)}.</>}
     {filed && <> Filed {filed}.</>}
     {issued && <> Issued {issued}.</>}
   </>);

@@ -49,7 +49,7 @@ const Kakkuri: React.FC = () => {
         </thead>
         <tbody className="text-center">
           <tr>
-            <td className="text-right">元帥</td>
+            <th scope="row" className="text-right">元帥</th>
             <td>△</td>
             <td>○</td>
             <td>○</td>
@@ -66,7 +66,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>×</td>
           </tr><tr>
-            <td className="text-right">大将</td>
+            <th scope="row" className="text-right">大将</th>
             <td>×</td>
             <td>△</td>
             <td>○</td>
@@ -83,7 +83,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">中将</td>
+            <th scope="row" className="text-right">中将</th>
             <td>×</td>
             <td>×</td>
             <td>△</td>
@@ -100,7 +100,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">少将</td>
+            <th scope="row" className="text-right">少将</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -117,7 +117,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">代将</td>
+            <th scope="row" className="text-right">代将</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -134,7 +134,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">大佐</td>
+            <th scope="row" className="text-right">大佐</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -151,7 +151,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">中佐</td>
+            <th scope="row" className="text-right">中佐</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -168,7 +168,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">少佐</td>
+            <th scope="row" className="text-right">少佐</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -185,7 +185,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">大尉</td>
+            <th scope="row" className="text-right">大尉</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -202,7 +202,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">中尉</td>
+            <th scope="row" className="text-right">中尉</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -219,7 +219,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">少尉</td>
+            <th scope="row" className="text-right">少尉</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -236,7 +236,7 @@ const Kakkuri: React.FC = () => {
             <td>×</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">ＭＰ</td>
+            <th scope="row" className="text-right">ＭＰ</th>
             <td>×</td>
             <td>×</td>
             <td>×</td>
@@ -253,7 +253,7 @@ const Kakkuri: React.FC = () => {
             <td>○</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">ヒコーキ</td>
+            <th scope="row" className="text-right">ヒコーキ</th>
             <td>○</td>
             <td>○</td>
             <td>○</td>
@@ -270,7 +270,7 @@ const Kakkuri: React.FC = () => {
             <td>○</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">原子爆弾</td>
+            <th scope="row" className="text-right">原子爆弾</th>
             <td>○</td>
             <td>○</td>
             <td>○</td>
@@ -287,7 +287,7 @@ const Kakkuri: React.FC = () => {
             <td>△</td>
             <td>○</td>
           </tr><tr>
-            <td className="text-right">スパイ</td>
+            <th scope="row" className="text-right">スパイ</th>
             <td>○</td>
             <td>×</td>
             <td>×</td>

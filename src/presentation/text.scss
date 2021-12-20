@@ -1,4 +1,5 @@
 /*** Italicize non-English (but Latin) languages: ***/
+span[lang|=ar-Latn], /* Arabic */
 span[lang|=ban], /* Balinese */
 span[lang|=bn-Latn], /* Bangla */
 span[lang|=cmn-Latn], /* Mandarin */
@@ -6,6 +7,7 @@ span[lang|=de], /* German */
 span[lang|=dtp], /* Dusun(ic) */
 span[lang|=ee], /* Ewe */
 span[lang|=es], /* Spanish */
+span[lang|=fa-Latn], /* Farsi */
 span[lang|=fr], /* French */
 span[lang|=ga], /* Gaelic */
 span[lang|=grc-Latn], /* Ancient Greek */
@@ -109,8 +111,14 @@ cite:lang(ja) {
   &::after { content: '』' }
 }
 
+cite:lang(ar), cite:lang(fa) {
+  font-style: inherit;
+  &::before { content: '“' }
+  &::after { content: '”' }
+}
+
 /* Undo effects of previous for -Latn */
-cite:lang(zh-Latn), cite:lang(ja-Latn) { 
+cite:lang(zh-Latn), cite:lang(ja-Latn), cite:lang(ar-Latn), cite:lang(fa-Latn) { 
   @include italic-font;
   &::before, &::after { content: '' }
 }

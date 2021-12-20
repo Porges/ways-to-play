@@ -10,6 +10,7 @@ import img5072 from './5072574617_9afa5ee9ae_o.jpg';
 import img8576 from './8576897675_c7c5785b4a_o.jpg'
 import imgBirdBrain from './bird_brain.jpg';
 import imgJam from './jam.svg';
+import imgSmallMerels from 'content/articles/mill-games/small_merels_with_diagonals.svg';
 
 import pronTrippTrapp from './pronunciation_sv_tripp,_trapp,_trull.mp3';
 
@@ -33,7 +34,20 @@ const TicTacToe: React.FC = () => <>
   </ArticleImage>
   <Section title="History">
     <p>The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but to me it seems like a more recent invention—a degenerate version of Three Men’s Morris. Mentions of it only appear in the 19th century, and the game is very well suited to being played with chalk on slates—such as were used by children in schools during this period. Indeed, <Cite r="BerkshirePhrases" page={164} inline /> describes the game as “the first game taught to children when they can use a slate pencil”.</p>
-    <p>Some of the earliest known written references to the game occur in Charles Babbage’s unpublished manuscript ‘Essays
+    <ArticleImage 
+      position="aside"
+      src={imgSmallMerels}
+      alt="">
+      The small merels board with diagonals.
+    </ArticleImage>
+    <p>However, there is an early antecedent of a game which is equivalent in play, if not in presentation. <a href="https://en.wikipedia.org/wiki/Alfonso_X_of_Castile">Alfonso X of Castile’s</a> <cite>Book of Games</cite><Cite r="AlfonsoGames" />, published in 1283, includes the game <span lang="es">alquerque de tres</span> which is played on a small merels board with diagonals. Each player has three pawns which they place on the board one at a time, taking turns. If a player can form three in a line then they win; otherwise it is a tie. Later historians (even including H. J. R. Murray<Cite r="Murray2" />) have muddied the waters by describing this game as a three-men’s-morris game where the pieces can be moved after being placed, but this is not supported by the original manuscript.<Cite r="BookOfGames" page={609} /></p>
+    <ArticleImage
+      src={require('./Alfonso_AdT.jpg')}
+      alt=""
+      source={{license: "cc0"}}>
+      This image from Alfonso X’s <cite>Book of Games</cite> shows that <span lang="es">alquerque de tres</span> was considered a children’s game.
+    </ArticleImage>
+    <p>Some of the earliest known written references to Tic-Tac-Toe in English occur in Charles Babbage’s unpublished manuscript ‘Essays
       on the Philosophy of Analysis’ (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the
       game is never mentioned by name.<Cite r="SourcesInRecreationalMathematics" /> In 1842, ‘tit-tat-to’ again occurs in
       his notebooks, when he conceptualizes an automaton that would play the game against a

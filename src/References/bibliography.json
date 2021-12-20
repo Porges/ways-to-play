@@ -1361,7 +1361,7 @@
     },
     "Hyde": {
         "type": "book",
-        "title": "Historia Nerdiludii",
+        "title": "De Ludis Orientalibus Libri Duo",
         "author": [
             {
                 "family": "Hyde",
@@ -1371,6 +1371,7 @@
         "issued": {
             "year": 1694
         },
+        "volume": 1,
         "publisher": "Oxford University Press",
         "publisher-place": "Oxford, UK",
         "URL": "https://books.google.com.au/books?id=FIFcAAAAcAAJ"
@@ -5863,5 +5864,49 @@
         "edition": 3,
         "publisher": "WM. S. Orr & Co.",
         "publisher-place": "London"
+    },
+    "alQamus": {
+        "type": "book",
+        "title": "القاموس المحيط",
+        "title-lang": "ar",
+        "author": [
+            {
+                "family": "فيروزآبادى",
+                "given": "محمد بن يعقوب",
+                "lang": "ar"
+            }
+        ],
+        "issued": {
+            "year": 1414
+        },
+        "warnings": "Published 1350–1450?",
+        "URL": "https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r"
+    },
+    "GamblingInIslam": {
+        "type": "chapter",
+        "title": "Gambling in Islam",
+        "author": [
+            {
+                "given": "Franz",
+                "family": "Rosenthal"
+            }
+        ],
+        "editor": [
+            {
+                "given": "Dimitri",
+                "family": "Gutas"
+            }
+        ],
+        "container-title": "Man versus Society in Medieval Islam",
+        "ISBN": "978-90-04-27089-3",
+        "issued": {
+            "year": 2015
+        },
+        "original-date": {
+            "year": 1975
+        },
+        "publisher": "Brill",
+        "publisher-place": "Leiden, The Netherlands",
+        "page": "338–516"
     }
 }
