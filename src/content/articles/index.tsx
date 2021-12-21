@@ -16,6 +16,15 @@ const articles: List = {
     import: React.lazy(() => import(/* webpackChunkName: 'articles-intro' */ './articles-intro')),
   },
   articles: new Map([
+    ['people', {
+      title: "Games Historians",
+      articles: new Map([
+        ['hjr-murray', {
+          title: "H. J. R. Murray",
+          import: React.lazy(() => import(/* webpackChunkName: 'hjr-murray' */ './people/HJR-Murray')),
+        }]
+      ])
+    }],
     ['mill-games', {
       title: "Mill Games",
       import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games')),
@@ -89,7 +98,7 @@ const articles: List = {
           import: React.lazy(() => import(/* webpackChunkName: 'playing-cards-nz' */ './cards/nz/new-zealand'))
         }]
       ])
-    }]
+    }],
   ])
 };
 

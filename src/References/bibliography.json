@@ -783,7 +783,7 @@
         },
         "URL": "https://archive.org/stream/mobot31753003193114#page/116/mode/2up"
     },
-    "Goddard1901": {
+    "Goddard1900": {
         "type": "article-journal",
         "title": "Nine Men’s Morris: An Old Viking Game",
         "author": [
@@ -799,9 +799,47 @@
         "volume": "2",
         "page": "377–385",
         "issued": {
-            "year": 1901
+            "year": 1900
         },
         "URL": "http://www.vsnrweb-publications.org.uk/Saga-Book%201-22%20searchable/Saga-Book%20II.pdf"
+    },
+    "Goddard1901": {
+        "type": "article-journal",
+        "title": "Find of another Nine Men’s Morris Stone: Comments of Mr. Goddard",
+        "author": [
+            {
+                "family": "Goddard",
+                "given": [
+                    "A.",
+                    "R."
+                ]
+            }
+        ],
+        "container-title": "Saga-Book of the Viking Club",
+        "volume": 3,
+        "URL": "http://www.vsnrweb-publications.org.uk/Saga-Book%201-22%20searchable/Saga-Book%20III.pdf",
+        "page": "20-21",
+        "issued": {
+            "year": 1901
+        }
+    },
+    "PegMeryll": {
+        "type": "article-journal",
+        "title": "Peg Meryll",
+        "author": [
+            {
+                "given": "R. S.",
+                "family": "Baker"
+            }
+        ],
+        "issued": {
+            "year": 1871
+        },
+        "page": "127-134",
+        "container-title": "Associated Architectural Societies’ Reports & Papers",
+        "volume": 11,
+        "issue": 1,
+        "URL": "https://babel.hathitrust.org/cgi/pt?id=uc1.b3018386&view=1up&seq=235"
     },
     "EssaysOnChess": {
         "type": "book",
@@ -5908,5 +5946,38 @@
         "publisher": "Brill",
         "publisher-place": "Leiden, The Netherlands",
         "page": "338–516"
+    },
+    "VictorianTTT": {
+        "type": "webpage",
+        "title": "The Mystery of the Victorian Tic-Tac-Toe Computer",
+        "URL": "https://widespacer.blogspot.com/2015/05/the-mystery-of-victorian-tic-tac-toe.html",
+        "issued": {
+            "year": 2015
+        },
+        "container-title": "Sentence Spacing",
+        "author": [
+            {
+                "given": "Thomas A.",
+                "family": "Fine"
+            }
+        ]
+    },
+    "AutomaticTTT": {
+        "type": "article-journal",
+        "title": "An Automatic Tit-Tat-To Machine",
+        "author": [
+            {
+                "given": "Frank T.",
+                "family": "Freeland"
+            }
+        ],
+        "container-title": "Journal of the Franklin Institute of the State of Pennsylvania",
+        "issued": {
+            "year": 1879
+        },
+        "volume": 102,
+        "issue": 1,
+        "page": "1–9",
+        "URL": "https://archive.org/details/journalfranklini107fran/page/n17"
     }
 }

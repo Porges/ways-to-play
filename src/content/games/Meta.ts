@@ -15,6 +15,12 @@ export type GameMeta = Readonly<{
 } & ArticleContent>
 
 const games = {
+  'assault': {
+    title: "Assault",
+    players: [2],
+    draft: true,
+    import: React.lazy(() => import('./Assault/Assault')),
+  },
   'balik-satu': {
     title: "Balik Satu",
     titleLang: "ms",
@@ -65,9 +71,15 @@ const games = {
   'crown-and-anchor': {
     title: "Crown & Anchor",
     equipment: "dice" as const,
-    players: [],
+    players: 'any' as const,
     import: React.lazy(() => import('./CrownAndAnchor/CrownAndAnchor')),
     draft: true,
+  },
+  'fox-and-geese': {
+    title: "Fox and Geese",
+    players: [2],
+    draft: true,
+    import: React.lazy(() => import('./FoxAndGeese/FoxAndGeese')),
   },
   'gunjin-shoji': {
     title: "Gunjin Shogi",

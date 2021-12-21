@@ -40,7 +40,7 @@ const TicTacToe: React.FC = () => <>
       alt="">
       The small merels board with diagonals.
     </ArticleImage>
-    <p>However, there is an early antecedent of a game which is equivalent in play, if not in presentation. <a href="https://en.wikipedia.org/wiki/Alfonso_X_of_Castile">Alfonso X of Castile’s</a> <cite>Book of Games</cite><Cite r="AlfonsoGames" />, published in 1283, includes the game <span lang="es">alquerque de tres</span> which is played on a small merels board with diagonals. Each player has three pawns which they place on the board one at a time, taking turns. If a player can form three in a line then they win; otherwise it is a tie. Later historians (even including H. J. R. Murray<Cite r="Murray2" />) have muddied the waters by describing this game as a three-men’s-morris game where the pieces can be moved after being placed, but this is not supported by the original manuscript.<Cite r="BookOfGames" page={609} /></p>
+    <p>However, there is an early antecedent of a game which is equivalent in play, if not in presentation. <a href="https://en.wikipedia.org/wiki/Alfonso_X_of_Castile">Alfonso X of Castile’s</a> <cite>Book of Games</cite><Cite r="AlfonsoGames" />, published in 1283, includes the game <span lang="es">alquerque de tres</span> which is played on a small merels board with diagonals. Each player has three pawns which they place on the board one at a time, taking turns. If a player can form three in a line then they win; otherwise it is a tie. Later historians (even including <a href="/articles/people/hjr-murray">H. J. R. Murray</a><Cite r="Murray2" />) have muddied the waters by describing this game as a three-men’s-morris game where the pieces can be moved after being placed, but this is not supported by the original manuscript.<Cite r="DimensionsOfBookOfGames" page={609} /></p>
     <ArticleImage
       src={require('./Alfonso_AdT.jpg')}
       alt=""
@@ -285,9 +285,18 @@ const TicTacToe: React.FC = () => <>
       Tic-tac-toe games on a wall in the Medina of Fez (<span lang="ar">فاس البالي</span>), Morocco.
     </ArticleImage>
   </Section>
-  <Section title="Computer Implementations">
-    <p>Being a simple game, Tic-Tac-Toe is easily implemented on a computer, and so was one of the first
-      computerized games. Some early versions include:</p>
+  <Section title="Automatic Players">
+    <p>Being a simple game, Tic-Tac-Toe is easily programmed, and so was one of the first automated games. As noted above, Charles Babbage studied the problem but never built an actual machine.</p>
+    <p>The earliest fully automated player was constructed by a Frank T. Freeland of Philadelphia, who described its implementation in an 1879 journal article.<Cite r="AutomaticTTT"/> According to the article, the machine was built and exhibited in 1878 before being moved to the University of Pennsylvania. Its whereabouts (if it still exists) are currently unknown.<Footnote>For more about Freeland, see <Cite r="VictorianTTT" inline/>.</Footnote> This machine predates any other implementations by some 70 years!</p>
+    <ArticleImage
+      noborder
+      src={[
+        [require('./Freeland_Input.jpg'), ''],
+        [require('./Freeland_Cylinder.jpg'),'']]}
+        source={{license: "cc0"}}>
+      Freeland’s input device and cylinder layout (for selecting an appropriate response).
+    </ArticleImage>
+    <p>Later (but still early, in the computing world) implementations of the game include:</p>
     <ul>
       <li><a href="https://en.wikipedia.org/wiki/Bertie_the_Brain"><cite>Bertie the Brain</cite></a> (analog, 1950)</li>
       <li><a href="https://en.wikipedia.org/wiki/OXO"><cite>OXO</cite></a> (for the EDSAC, 1952)</li>

@@ -1,48 +1,34 @@
+/*** Italicize all *-Latn langauges: ***/
+span[lang$="-Latn"],
 /*** Italicize non-English (but Latin) languages: ***/
-span[lang|=ar-Latn], /* Arabic */
 span[lang|=ban], /* Balinese */
-span[lang|=bn-Latn], /* Bangla */
-span[lang|=cmn-Latn], /* Mandarin */
+span[lang|=da], /* Danish */
 span[lang|=de], /* German */
 span[lang|=dtp], /* Dusun(ic) */
 span[lang|=ee], /* Ewe */
 span[lang|=es], /* Spanish */
-span[lang|=fa-Latn], /* Farsi */
 span[lang|=fr], /* French */
 span[lang|=ga], /* Gaelic */
-span[lang|=grc-Latn], /* Ancient Greek */
 span[lang|=gsw], /* Swiss German */
 span[lang|=haw], /* Hawaiian */
-span[lang|=hi-Latn], /* Hindi */
+span[lang|=hu], /* Hungarian */
 span[lang|=id], /* Indonesian */
 span[lang|=is], /* Icelandic */
 span[lang|=it], /* Italian */ 
-span[lang|=ja-Latn], /* Japanese */
-span[lang|=jv-Latn], /* Javanese */
-span[lang|=km-Latn], /* Khmer */
-span[lang|=ko-Latn], /* Korean */
 span[lang|=kxd], /* Brunei Malay */
 span[lang|=mi], /* Māori */
 span[lang|=min], /* Minangkabau */
 span[lang|=ms], /* Malay (meta-language) */
-span[lang|=my-Latn], /* Burmese */
-span[lang|=nan-Latn], /* Min Nan Chinese (including Taiwanese, Hokkien, Amoy, …) */
-span[lang|=ne-Latn], /* Nepali */
 span[lang|=nl], /* Dutch */
 span[lang|=pt], /* Portuguese */
 span[lang|=rng], /* Ronga */
-span[lang|=si-Latn], /* Sinhalese */
 span[lang|=sn], /* Shona */
 span[lang|=so], /* Somali */
 span[lang|=st], /* seSotho */
 span[lang|=sv], /* Swedish */
-span[lang|=th-Latn], /* Thai */
 span[lang|=tn], /* Tswana */
-span[lang|=ur-Latn], /* Urdu */
 span[lang|=ve], /* Venda */
 span[lang|=vi], /* Vietnamese */
-span[lang|=yue-Latn], /* Cantonese */
-span[lang|=zh-Latn], /* (Standard) Chinese */
 span[lang|=zu] /* isiZulu */
 { 
   @include italic-font;

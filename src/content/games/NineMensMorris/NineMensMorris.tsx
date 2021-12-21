@@ -65,15 +65,22 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}>
       Text of the French Templar rule from an early 14th-century manuscript edition (with quoted passage highlighted).
     </ArticleImage>
-    <p>One of the earliest written references to the game is in the 10th century <a href="https://en.wikipedia.org/wiki/Kitab_al-Aghani"><cite lang="ar-Latn">Kitāb al-Aghānī</cite></a> (<cite lang="ar"><Isolate>كتاب الأغاني</Isolate></cite>, ‘book of songs’), a large collection of poems and stories assembled by <a href="https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani"><Noun lang="ar-Latn">ʾAbū l-Faraj al-Iṣfahānī</Noun></a> (<Isolate><span lang="ar">أبو الفرج الأصفهاني</span></Isolate>, 897–967). In one story a club from the time of the poet <Noun lang="ar-Latn">al-Aḥwaṣ</Noun> (<Isolate><span lang="ar">الأحوص</span></Isolate>, 660–724) is described, along with the board games it held for the use of its members. According to the book, they could play <span lang="ar-Latn">shiṭranj</span> (<Isolate><span lang="ar">شطرنج</span></Isolate>, chess), <span lang="ar-Latn">nard</span> (<span lang="ar">نرد</span>), or — most importantly here — <span lang="ar-Latn">qirq</span> (<Isolate><span lang="ar">قرق</span></Isolate>, morris).<Cite r="GamblingInIslam" page={481} /> The derivation of the name <span lang="ar-Latn">qirq</span> is uncertain, but it is apparently not originally an Arabic word.</p>
-    <p>From the Arabic world it entered</p>
-    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order (probably written between 1139 and 1147&nbsp;CE<Cite r="TheRuleOfTheTemplars" page={12} />), as the only board game allowed to be played by Templar brothers:</p>
+    <p>One of the earliest written references to the game is in the 10th century <a href="https://en.wikipedia.org/wiki/Kitab_al-Aghani"><cite lang="ar-Latn">Kitāb al-Aghānī</cite></a> (<cite lang="ar"><Isolate>كتاب الأغاني</Isolate></cite>, ‘book of songs’), a large collection of poems and stories assembled by <a href="https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani"><Noun lang="ar-Latn">ʾAbū l-Faraj al-Iṣfahānī</Noun></a> (<Isolate><span lang="ar">أبو الفرج الأصفهاني</span></Isolate>, 897–967). In one story a club from the time of the poet <Noun lang="ar-Latn">al-Aḥwaṣ</Noun> (<Isolate><span lang="ar">الأحوص</span></Isolate>, 660–724) is described, along with the board games it held for the use of its members. According to the book, they could play <span lang="ar-Latn">shiṭranj</span> (<Isolate><span lang="ar">شطرنج</span></Isolate>, chess), <span lang="ar-Latn">nard</span> (<span lang="ar">نرد</span>), or — most importantly here — <span lang="ar-Latn">qirq</span> (<Isolate><span lang="ar">قرق</span></Isolate>, morris).<Cite r="GamblingInIslam" page={481} /> The derivation of the name <span lang="ar-Latn">qirq</span> is uncertain, but it is apparently not originally an Arabic word.<Cite r="Murray2" page={37} /></p>
+    <p>The Imam <Noun lang="ar-Latn">ʾAbū al-Qāsim al-Rāfiʿī al-Qazwīnī</Noun> (<Isolate><span lang="ar">أبو القاسم الرافعي القزويني</span></Isolate>, 1160–1226) would later describe <span lang="ar-Latn">qirq</span> as the “chess of the <a href="https://en.wikipedia.org/wiki/Maghrebis">Maghrebis</a>”.<Cite r="GamblingInIslam" page={381} /><Footnote>Similarly, <GameRef id="shax"/> is sometimes referred to as “Somali chess”.</Footnote></p>
+    <p>From the Arabic-speaking world it entered Spain, where <span lang="ar-Latn">al-qirq</span> became <span lang="es">alquerque</span>, which has remained the Spanish name for this family of games until the present day.</p>
+    <p>In the early 12th century, the game was mentioned in the French Rule of the Templar order (probably written between 1139 and 1147&nbsp;CE<Cite r="TheRuleOfTheTemplars" page={12} />), as the only board game allowed to be played by Templar brothers. It is possible that the order picked up the game through their contact with the Arabic-speaking world:</p>
     <div className="multi">
       <p lang="fr">Et sachies que a nul autre jeu frere dou Temple ne doit joer, fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as eschaçons.<Cite r="LaRegleDuTemple" page={185} /></p>
       <p>And let it be known that a brother of the Temple should play no other game except <span lang="fr">marelles</span>, which each may play if he wishes, for pleasure without placing wagers. No brother should play chess, backgammon, or <span lang="fr">eschaçons</span> [an unknown game].<Cite r="TheRuleOfTheTemplars" page={90} /></p>
     </div>
     <p>It is unclear <em>why</em> mill games were permitted by the Templars<Footnote>TODO: it has been suggested (?) that the tripartite board was taken as supportive of the trinity, or remniscent of the First Temple of Jerusalem.</Footnote>, but, reading the rest of the passage (not quoted above), the intent of the Rule seems to be to prevent playing games for money — bets were allowed to be placed on games, but only with worthless items such as wooden tent pegs. Viewed in this light, perhaps mill games were considered less susceptible to gambling, and therefore permissible.</p>
-    <p>The Imam <Noun lang="ar-Latn">ʾAbū al-Qāsim al-Rāfiʿī al-Qazwīnī</Noun> (<Isolate><span lang="ar">أبو القاسم الرافعي القزويني</span></Isolate>, 1160–1226) described <span lang="ar-Latn">qirq</span> as the “chess of the <a href="https://en.wikipedia.org/wiki/Maghrebis">Maghrebis</a>”.<Cite r="GamblingInIslam" page={381} /><Footnote>Similarly, <GameRef id="shax"/> is sometimes referred to as “Somali chess”.</Footnote></p>
+    <ArticleImage 
+      position="aside"
+      src={require('./Alfonso_NMM.jpg')}
+      source={{license: 'cc0'}}>
+      From Alfonso’s <cite>Book of Games</cite>.
+    </ArticleImage>
+    <p>In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite> (<cite>Book of Games</cite>), where in addition to the standard game, rules for playing with dice are given (<a href="#with-dice">see below</a>).</p>
     <ArticleImage
       src={imgBonus}
       position="aside"
@@ -86,9 +93,9 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         originalUrl: "https://gallica.bnf.fr/ark:/12148/btv1b6000238t/f359.item",
         license: "cc0"
       }}>
-      The first problem in one of the <cite>Bonus Socius</cite> manuscripts written in Picardy (MS Latin 10286).
+      The first problem in one of the <cite>Bonus Socius</cite> manuscripts written in Picardy (MS Latin 10286). The different shapes of the pieces in the diagram are used to identify particular pieces in the accompanying text.
     </ArticleImage>
-    <p>In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite> (<cite>Book of Games</cite>). In the same century the <cite lang="la">Bonus Socius</cite> series of manuscripts contained problems for the game, alongside other problems for chess and various table games.<Cite r="Murray" page={619} /></p>
+    <p>In the same century the <cite lang="la">Bonus Socius</cite> series of manuscripts contained problems for the game, alongside other problems for chess and various table games.<Cite r="Murray" page={619} /></p>
     <ArticleImage
       src={imgCerne}
       alt="Page from a manuscript with a Nine Men’s Morris board on it."
@@ -99,6 +106,20 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}
     >
       A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board (possibly <GameRef id="daldos"/>).
+    </ArticleImage>
+    <ArticleImage
+      size="wide"
+      src={require('./Alexander_Morris.jpg')}
+      alt="A man and woman sitting either side of a morris board."
+      source={{
+        organization: {orgName: "Bodleian Libraries, University of Oxford"},
+        license: "cc-by-nc",
+        licenseVersion: '4.0',
+        copyrightYear: 2015,
+        identifier: "SC: 2464",
+        originalUrl: "https://digital.bodleian.ox.ac.uk/objects/60834383-7146-41ab-bfe1-48ee97bc04be/surfaces/8975ddf1-8759-443e-94e8-0b1b0a9712a5/"
+      }}>
+      A woman and a man playing Nine Men’s Morris together, miniature from a copy of the <cite>Romance of Alexander</cite> (produced 1338–44).
     </ArticleImage>
     {/*
     <ArticleImage position="aside" src={imgLargeMerelsWithDiagonals} alt="">
@@ -119,7 +140,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}>
       The entry for “<span lang="ar">القَرْقُ</span>” in the <Noun lang="ar-Latn">Qamūs</Noun>.
     </ArticleImage>
-    <p>In England the game has always had an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from the parish of Bitteswell records that in 1634 a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r="MetropoliticalVisitation" page={497} /></p>
+    <p>In later English history the game developed an association with rusticity, often mentioned as a game played by shepherds. It can be traced in English history through <a href="https://en.wikipedia.org/wiki/Canonical_visitation">visitation</a> records; one instance from the parish of Bitteswell records that in 1634 a certain Robert Lord the Younger was “admonished and dismissed” for “playing at nine men’s morris in the churchyard on Sunday”.<Cite r="MetropoliticalVisitation" page={497} /></p>
     <div className="multi">
       <ArticleImage
        src={require('../Daldos/maryrose_daldos.jpg')}
@@ -147,30 +168,41 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     </div>
   </Section>
   <Section title="Nomenclature">
-    <p>Other English names for the game include:</p>
+    <p>Other English names for the game have included:</p>
     <ul className="columnar">
-      <li>Morris</li>
+      <li>Blind Men’s Morris (Leicestershire<Cite r="PegMeryll" page={130}/>)</li>
       <li>Bushels<Cite r="Hyde" page={204} /></li>
+      <li>Figmill (in Clarence, New York, USA)<Cite r="Figmill" /> (This name derives from an American manufacturer of equipment, but originally might derive from <a href="/articles/mill-games#terminology">the Swiss term <span lang="gsw">«Figgi und Müli»</span></a>.)</li>
+      <li>Morris (Cornwall<Cite r="PegMeryll" page={130}/>)</li>
+      <li>Madell or Medal<Cite r="NotesAndQueriesS8V12" page={333} /></li>
+      <li>Marl (Wiltshire<Cite r="PegMeryll" page={130}/>)</li>
       <li>Marlin<Cite r="Hyde" page={204} /></li>
+      <li>Marrel(’s)<Cite r="GommeI" page={416} /> or Marrells<Cite r="NotesAndQueriesS8V12" page={173} /></li>
+      <li>Marnull<Cite r="NotesAndQueriesS8V12" page={28} /></li>
+      <li>Maurice or Morrice (Norfolk<Cite r="PegMeryll" page={130}/>)</li>
+      <li>Mill (Devon<Cite r="PegMeryll" page={130}/>)</li>
+      <li>Meg Merry-legs (Lincolnshire<Cite r="PegMeryll" page={130}/>)</li>
+      <li>Merils (Essex <Cite r="PegMeryll" page={130}/>), Merrils<Cite r="GommeI" page={414} />, or Merrills<Cite r="NotesAndQueriesS8V12" page={173} /></li>
+      <li>Merelles<Cite r="GommeI" page={415} /><Cite r="NotesAndQueriesS8V12" page={90} /><Cite r="PegMeryll" page={130} /> or Merell(s)<Cite r="GommeI" page={416} /></li>
+      <li>Merls (in Cleveland, England)<Cite r="GommeI" page={419} /></li>
+      <li>Merry Hole (Northamptonshire<Cite r="PegMeryll" page={130}/>)</li>
+      <li>Merry Peg (Oxfordshire<Cite r="PegMeryll" page={130}/>)</li>
+      <li>Morels<Cite r="PegMeryll" page={130}/></li>
+      <li>Murrells (Cambridgeshire<Cite r="PegMeryll" page={130}/>)</li>
+      <li>Ninepenny<Cite r="PegMeryll" page={130}/> or Ninepenny Morris (in Gloucestershire – but played with 12 men)<Cite r="GommeI" page={416} /></li>
+      <li>Nine Holes (North of England<Cite r="PegMeryll" page={130}/>)</li>
       <li>Nine Mens Morals<Cite r="Hyde" page={204} /></li>
-      <li>Nine Pin/Penny Miracle<Cite r="Hyde" page={204} /></li>
+      <li>Nine Men’s Morrice (in Hampshire or Holderness<Cite r="GommeI" page={419} />)</li>
+      <li>Nine Men o’ Morris<Cite r="NotesAndQueriesS8V12" page={89} /></li>
+      <li>Nine Men’s Welcome<Cite r="PubGamesOfEngland" page={103} /></li>
+      <li>Nine Peg O Merryal (North Lincolnshire<Cite r="PegMeryll" page={130}/>)</li>
+      <li>Nine Pin/Penny Miracle<Cite r="Hyde" page={204} /><Cite r="PegMeryll" page={130}/></li>
       <li>Nine Pin/Penny Moris<Cite r="Hyde" page={204} /></li>
       <li>Nine Pin Merells<Cite r="Hyde" page={204} /></li>
-      <li>Merrils<Cite r="GommeI" page={414} /> or Merrills<Cite r="NotesAndQueriesS8V12" page={173} /></li>
-      <li>Merelles<Cite r="GommeI" page={415} /><Cite r="NotesAndQueriesS8V12" page={90} /> or Merell(s)<Cite r="GommeI" page={416} /></li>
       <li>(Nine) Peg Morris (by John Clare, a rustic English poet)<Cite r="GommeI" page={416} /></li>
-      <li>Marrel(’s)<Cite r="GommeI" page={416} /> or Marrells<Cite r="NotesAndQueriesS8V12" page={173} /></li>
-      <li>Ninepenny Morris (in Gloucestershire – but played with 12 men)<Cite r="GommeI" page={416} /></li>
-      <li>Merrilpeg<Cite r="GommeI" page={416} /></li>
-      <li>Nine Men’s Morrice (in Hampshire or Holderness)<Cite r="GommeI" page={419} /></li>
-      <li>Merls (in Cleveland, England)<Cite r="GommeI" page={419} /></li>
-      <li>Marnull<Cite r="NotesAndQueriesS8V12" page={28} /></li>
-      <li>Nine Men o’ Morris<Cite r="NotesAndQueriesS8V12" page={89} /></li>
       <li>Nine Stone Morris<Cite r="NotesAndQueriesS8V12" page={89} /></li>
-      <li>Madell or Medal<Cite r="NotesAndQueriesS8V12" page={333} /></li>
+      <li>Peg Meryll (played in Hargrave with 11 men, and ‘flying’ at 5 men<Cite r="PegMeryll" page={133} />) or Merrilpeg<Cite r="GommeI" page={416} /></li>
       <li>Puzzle-Pound<Cite r="NotesAndQueriesS8V12" page={333} /></li>
-      <li>Figmill (in Clarence, New York, USA)<Cite r="Figmill" /> (This name derives from an American manufacturer of equipment, but originally might derive from <a href="/articles/mill-games#terminology">the Swiss term <span lang="gsw">«Figgi und Müli»</span></a>.)</li>
-      <li>Nine Men’s Welcome<Cite r="PubGamesOfEngland" page={103} /></li>
     </ul>
     <p>In other languages it is called:</p>
     <ul>
@@ -253,7 +285,8 @@ flat 9 triads */}
     <Section title="With Dice">
       <ArticleImage
         alt="A manuscript drawing of two men sitting beside a morris board with pieces and dice on it, while their attendants hold their spears."
-        src={imgWithDice}>
+        src={imgWithDice}
+        source={{license: 'cc0'}}>
         A game being played with dice, from Alfonso X’s <cite>Book of Games</cite>.
       </ArticleImage>
       <p>Alfonso X’s book of games describes a variant played with dice.<Cite r="AlfonsoGames" /> While it is unclear from the manuscript what the exact rules are, there are two suggested versions:</p>

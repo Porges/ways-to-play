@@ -24,11 +24,11 @@ const MillGames: React.FC = () => {
     <ArticleImage src={imgGameInProgress} alt="A Nine Men’s Morris game, just after all pieces have been placed"
       size="wide"
       source={{
-          organization: {orgName: "Shutterstock.com"},
-          author: "FooTToo",
-          license: "stock-image",
-          originalUrl: "https://www.shutterstock.com/image-photo/old-nine-mens-morris-board-on-120413827"
-        }}>
+        organization: { orgName: "Shutterstock.com" },
+        author: "FooTToo",
+        license: "stock-image",
+        originalUrl: "https://www.shutterstock.com/image-photo/old-nine-mens-morris-board-on-120413827"
+      }}>
       A game in progress, just after the <i>placement</i> phase has been finished, and all 18 pieces are on the board.
     </ArticleImage>
     <Section title="Games">
@@ -42,9 +42,9 @@ const MillGames: React.FC = () => {
               , [large_merels_with_diagonals, "The large mill board of three nested squares, with diagonal lines."]
             ]}>
           Two different large mill boards, one without diagonals, and one with diagonals.
-      </ArticleImage>
+        </ArticleImage>
         <ul>
-          <li><GameRef id='nine-mens-morris'/> is the most well-known, and can be viewed as the stereotypical mill game. Many variants are described on this page.</li>
+          <li><GameRef id='nine-mens-morris' /> is the most well-known, and can be viewed as the stereotypical mill game. Many variants are described on this page.</li>
           <li><GameRef id='nine-mens-morris' fragment="#twelve-mens-morris">Twelve Men’s Morris</GameRef> is the most common form in the United States. Eleven Men’s Morris is a variant with one fewer piece per player.</li>
           <li><GameRef id="morabaraba" /> is a mill game played competitively in South Africa. It differs slightly from Twelve Men’s Morris.</li>
           <li><GameRef id="shax" /> is a mill game from Somalia. It is distinguished by not permitting capturing during the placement phase.</li>
@@ -56,7 +56,7 @@ const MillGames: React.FC = () => {
       <Section title="Small mill board ">
         <ArticleImage size="small" src={small_merels} alt="The small mill board of a single square.">
           The small mill board.
-      </ArticleImage>
+        </ArticleImage>
         <ul>
           <li>[Three Men’s Morris] is a simple mill game that is known around the world.</li>
           <li><GameRef id="tic-tac-toe" /> can be viewed as a degenerate mill game (and could derive from Three Men’s Morris?)</li>
@@ -64,6 +64,15 @@ const MillGames: React.FC = () => {
       </Section>
     </Section>
     <Section title="Terminology">
+      <p>The general name for the game family:</p>
+      <ul>
+        <li>Danish <span lang="da">mölle</span>, ‘mill’.<Cite r="Fiske" page={134} /></li>
+        <li>Dutch <span lang="nl">molenspel</span>, ‘mill game’.<Cite r="Fiske" page={133} /></li>
+        <li>French <span lang="fr">mérelles</span>, ‘merels’.<Cite r="Fiske" page={133} /></li>
+        <li>Hungarian <span lang="hu">malomjáték</span>, ‘mill game’, or <span lang="hu">malmosdi</span>.<Cite r="Fiske" page={133} /></li>
+        <li>Russian <span lang="ru">мельница</span> (<span lang="ru-Latn">melniza</span>), ‘mill’.<Cite r="Fiske" page={133} /></li>
+        <li>Swedish <span lang="sv">qvarnspel</span>, ‘mill game’.<Cite r="Fiske" page={135} /></li>.
+      </ul>
       <p><b>Pieces</b>: names for the pieces.</p>
       <ul>
         <li>Galloway, Scotland: “flitchers”. <Cite r="Gallovidian" page={142} /></li>
@@ -83,7 +92,13 @@ const MillGames: React.FC = () => {
       </ul>
       <p><b>Running mill</b>: a position where a mill can be formed on every move.</p>
       <ul>
-        <li>In Yorkshire: “running Jenny”.<Cite r="Murray2" /*['section', 3.5],*/ page={45} /></li>
+        <li>Danish <span lang="da">rendemölle</span>, ‘running mill’.<Cite r="Fiske" page={134} /></li>
+        <li>English:
+          <ul>
+            <li>In Hargrave: “see-saw mill”.<Cite r="PegMeryll" page={133} /></li>
+            <li>In Yorkshire: “running Jenny”.<Cite r="Murray2" /*['section', 3.5],*/ page={45} /></li>
+          </ul>
+        </li>
         <li>German <Pronounce file={pronZwickmühle} lang="de" word="Zwickmühle" pronouncer='Thonatas' /> ‘double mill’.</li>
         <li>Greek <Pronounce lang="el" file={pronDiporto} word="δίπορτο" pronouncer='jpapa' /> ‘double door’.<Cite r="MacedonianFolklore" page={295} /></li>
         <li>Icelandic <span lang="is">svikamylna</span> ‘mill of treachery’.<Cite r="Fiske" page={139} /></li>
