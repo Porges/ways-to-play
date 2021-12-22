@@ -5985,7 +5985,10 @@
         "title": "Arabic–English Lexicon by Edward William Lane (d. 1876): <span lang='ar'>طبن</span>",
         "container-title": "The Arabic Lexicon",
         "author": [
-            { "given": "Ikram", "family": "Hawramani"}
+            {
+                "given": "Ikram",
+                "family": "Hawramani"
+            }
         ],
         "issued": {
             "year": 2021
@@ -6009,5 +6012,22 @@
         "container-title": "Man",
         "volume": 29,
         "page": "122-127"
+    },
+    "AtlitCastle": {
+        "type": "article-journal",
+        "title": "Excavations at Pilgrims’ Castle, ʿAtlit (1932–3); Stables at the South-West of the Suburb",
+        "author": [
+            {
+                "given": "C. N.",
+                "family": "Johns"
+            }
+        ],
+        "container-title": "The Quarterly of the Department of Antiquities in Palestine",
+        "volume": 5,
+        "page": "31–61",
+        "issued": {
+            "year": 1936
+        },
+        "URL": "https://books.google.co.nz/books?id=uFTVAAAAMAAJ&pg=PA42-IA1"
     }
 }
