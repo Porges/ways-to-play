@@ -15,6 +15,12 @@ export type GameMeta = Readonly<{
 } & ArticleContent>
 
 const games = {
+  'achi': {
+    title: "Achi",
+    titleLang: "ee",
+    players: [2],
+    import: React.lazy(() => import('./Achi/Achi')),
+  },
   'assault': {
     title: "Assault",
     players: [2],
@@ -164,12 +170,18 @@ const games = {
     players: [2],
     import: React.lazy(() => import(/* webpackChunkName: 'xiangqi' */ './Xiangqi/Xiangqi'))
   },
+  'three-mens-morris': {
+    title: "Three Men’s Morris",
+    draft: true,
+    players: [2],
+    import: React.lazy(() => import('./ThreeMensMorris/ThreeMensMorris')),
+  },
   'tribord-et-babord': {
     title: "Tribord et Bâbord",
     titleLang: "fr",
     players: [2],
     import: React.lazy(() => import('./TribordEtBabord/TribordEtBabord'))
-  }
+  },
 };
 
 export type GameId = keyof typeof games

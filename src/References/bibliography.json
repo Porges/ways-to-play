@@ -5979,5 +5979,35 @@
         "issue": 1,
         "page": "1–9",
         "URL": "https://archive.org/details/journalfranklini107fran/page/n17"
+    },
+    "LaneTab": {
+        "type": "webpage",
+        "title": "Arabic–English Lexicon by Edward William Lane (d. 1876): <span lang='ar'>طبن</span>",
+        "container-title": "The Arabic Lexicon",
+        "author": [
+            { "given": "Ikram", "family": "Hawramani"}
+        ],
+        "issued": {
+            "year": 2021
+        },
+        "URL": "http://arabiclexicon.hawramani.com/?p=1107&book=50#fba865"
+    },
+    "AdjiBoto": {
+        "type": "article-journal",
+        "title": "Adjiboto, an African Game of the Bush-Negroes of Dutch Guiana",
+        "URL": "http://www.jstor.org/stable/2789486",
+        "author": [
+            {
+                "given": "Melville J.",
+                "family": "Herskovits"
+            }
+        ],
+        "issued": {
+            "month": 7,
+            "year": 1929
+        },
+        "container-title": "Man",
+        "volume": 29,
+        "page": "122-127"
     }
 }

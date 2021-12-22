@@ -44,21 +44,24 @@ const MillGames: React.FC = () => {
           Two different large mill boards, one without diagonals, and one with diagonals.
         </ArticleImage>
         <ul>
+          <li><GameRef id="morabaraba" /> is a mill game played competitively in South Africa. It differs slightly from Twelve Men’s Morris.</li>
           <li><GameRef id='nine-mens-morris' /> is the most well-known, and can be viewed as the stereotypical mill game. Many variants are described on this page.</li>
           <li><GameRef id='nine-mens-morris' fragment="#twelve-mens-morris">Twelve Men’s Morris</GameRef> is the most common form in the United States. Eleven Men’s Morris is a variant with one fewer piece per player.</li>
-          <li><GameRef id="morabaraba" /> is a mill game played competitively in South Africa. It differs slightly from Twelve Men’s Morris.</li>
           <li><GameRef id="shax" /> is a mill game from Somalia. It is distinguished by not permitting capturing during the placement phase.</li>
         </ul>
       </Section>
       <Section title="Medium mill board">
-        <ul><li>[Five Men’s Morris] or [Six Men’s Morris] is a mid-sized version that is less common than the bigger or smaller games.</li></ul>
+        <ul>
+          <li><GameRef id="achi" /> is a game from West Africa that features an additional way to form a mill.</li>
+          <li>[Five Men’s Morris] or [Six Men’s Morris] is a mid-sized version that is less common than the bigger or smaller games.</li>
+        </ul>
       </Section>
       <Section title="Small mill board ">
         <ArticleImage size="small" src={small_merels} alt="The small mill board of a single square.">
           The small mill board.
         </ArticleImage>
         <ul>
-          <li>[Three Men’s Morris] is a simple mill game that is known around the world.</li>
+          <li><GameRef id="three-mens-morris" /> is a simple mill game that is known around the world.</li>
           <li><GameRef id="tic-tac-toe" /> can be viewed as a degenerate mill game (and could derive from Three Men’s Morris?)</li>
         </ul>
       </Section>
