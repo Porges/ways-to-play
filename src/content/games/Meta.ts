@@ -182,6 +182,11 @@ const games = {
     players: [2],
     import: React.lazy(() => import('./TribordEtBabord/TribordEtBabord'))
   },
+  'tri-hex': {
+    title: "Tri-Hex",
+    players: [2],
+    import: React.lazy(() => import('./TriHex/TriHex'))
+  },
 };
 
 export type GameId = keyof typeof games

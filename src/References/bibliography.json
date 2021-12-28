@@ -6029,5 +6029,24 @@
             "year": 1936
         },
         "URL": "https://books.google.co.nz/books?id=uFTVAAAAMAAJ&pg=PA42-IA1"
+    },
+    "TriHex": {
+        "type": "article-magazine",
+        "title": "Puzzles and paradoxes 54: New boards for old games",
+        "URL": "https://books.google.co.nz/books?id=t67vgnmxjPoC&pg=PA98",
+        "container-title": "New Scientist",
+        "issued": {
+            "year": 1962,
+            "month": 1,
+            "day": 11
+        },
+        "author": [
+            {
+                "family": "O’Beirne",
+                "given": "T. H."
+            }
+        ],
+        "issue": 269,
+        "page": "98–99"
     }
 }

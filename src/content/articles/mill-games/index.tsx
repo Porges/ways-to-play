@@ -65,6 +65,11 @@ const MillGames: React.FC = () => {
           <li><GameRef id="tic-tac-toe" /> can be viewed as a degenerate mill game (and could derive from Three Men’s Morris?)</li>
         </ul>
       </Section>
+      <Section title="Other mill boards">
+        <ul>
+          <li><GameRef id="tri-hex" /> uses a non-standard board derived from that of tic-tac-toe.</li>
+        </ul>
+      </Section>
     </Section>
     <Section title="Terminology">
       <p>The general name for the game family:</p>
