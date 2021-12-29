@@ -37,6 +37,7 @@ export const About: React.FC = () => (
           <p><a href="https://wakufactory.jp/densho/font/hentai/">UniHentaiKana</a> is used as a fallback font for <span lang="ja-Latn">hentaigana</span> characters. It is licensed under the <a href="https://opensource.org/licenses/IPA">IPA Font License</a>.</p>
           <p>A modified version of the <a href="https://cc-icons.github.io/">Creative Commons Web Font</a> (1.2.0) by Ricardo Barros is used to indicate licensing information. Both the font and my modifications are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">CC 4.0 BY</a> license.</p>
           <p>The playing-card font is <a href="https://umihotaru.work/">NKD04 by Umihotaru</a>. It has a <a href="https://umihotaru.work/faq.txt">nonstandard but liberal license</a>.</p>
+          <p>The font used for ISBN numbers is <a href="https://tsukurimashou.osdn.jp/ocr.php.en">OCR-B produced by Matthew Skala</a>, and released under GPL version 3 (with an exception for using the font in documents).</p>
           <h2 id="colophon">Colophon</h2>
           <p>The site is generated with React, using react-snap to output HTML pages.</p>
           <p>The fonts are <a href="https://rsms.me/inter/">Inter by Rasmus Andersson</a> (body text), <a href="https://github.com/bBoxType/FiraSans">Fira Sans</a> (body italics), &amp; <a href="http://vollkorn-typeface.com/">Vollkorn by Friedrich Althausen</a> (headings).</p>
