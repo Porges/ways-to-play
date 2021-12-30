@@ -6048,5 +6048,22 @@
         ],
         "issue": 269,
         "page": "98–99"
+    },
+    "AWorldOfGames": {
+        "type": "article-newspaper",
+        "container-title": "The Washington Post",
+        "title": "A World of Games",
+        "issued": {
+            "year": 2001,
+            "month": 7,
+            "day": 15
+        },
+        "author": [
+            {
+                "family": "Eskin",
+                "given": "Blake"
+            }
+        ],
+        "URL": "https://www.washingtonpost.com/archive/lifestyle/magazine/2001/07/15/a-world-of-games/2c7b88ce-2f2c-4253-b347-4154d274bb03/"
     }
 }

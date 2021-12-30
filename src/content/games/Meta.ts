@@ -170,6 +170,11 @@ const games = {
     players: [2],
     import: React.lazy(() => import(/* webpackChunkName: 'xiangqi' */ './Xiangqi/Xiangqi'))
   },
+  'teeko': {
+    title: "Teeko",
+    players: [2],
+    import: React.lazy(() => import('./Teeko/Teeko')),
+  },
   'three-mens-morris': {
     title: "Three Men’s Morris",
     draft: true,
