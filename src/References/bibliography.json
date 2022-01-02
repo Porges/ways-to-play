@@ -6065,5 +6065,21 @@
             }
         ],
         "URL": "https://www.washingtonpost.com/archive/lifestyle/magazine/2001/07/15/a-world-of-games/2c7b88ce-2f2c-4253-b347-4154d274bb03/"
+    },
+    "Trostspiegel": {
+        "type": "book",
+        "title": "Trostspiegel in Glück und Unglück",
+        "title-lang": "de",
+        "author": [
+            {
+                "family": "Petrarca",
+                "given": "Francesco"
+            }
+        ],
+        "publisher-place": "Frankfurt",
+        "URL": "https://www.digitale-sammlungen.de/en/view/bsb10149651",
+        "issued": {
+            "year": 1572
+        }
     }
 }

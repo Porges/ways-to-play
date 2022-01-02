@@ -96,7 +96,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
       }}>
       The first problem in one of the <cite>Bonus Socius</cite> manuscripts written in Picardy (MS Latin 10286). The different shapes of the pieces in the diagram are used to identify particular pieces in the accompanying text.
     </ArticleImage>
-    <p>In the same century the <cite lang="la">Bonus Socius</cite> series of manuscripts contained problems for the game, alongside other problems for chess and various table games.<Cite r="Murray" page={619} /></p>
+    <p>In the same century the <cite lang="la">Bonus Socius</cite> series of manuscripts contained problems for the game, alongside other problems for chess and various table games.<Cite r="Murray" page={619} /> Murray describes the problems as being of very high quality, and that in fact “they leave a more favourable impression of the ingenuity of the mediaeval composer than is the case with the problems of chess or tables.”<Cite r="Murray" page={703} /></p>
     <ArticleImage
       src={imgCerne}
       alt="Page from a manuscript with a Nine Men’s Morris board on it."
@@ -108,6 +108,7 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
     >
       A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board (possibly <GameRef id="daldos"/>).
     </ArticleImage>
+    <p>By examining depictions of the game in artwork, we can understand the attitudes toward the game at the time. In the image below, nobles of opposite sex play together:</p>
     <ArticleImage
       size="wide"
       src={require('./Alexander_Morris.jpg')}
@@ -121,6 +122,22 @@ Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @
         originalUrl: "https://digital.bodleian.ox.ac.uk/objects/60834383-7146-41ab-bfe1-48ee97bc04be/surfaces/8975ddf1-8759-443e-94e8-0b1b0a9712a5/"
       }}>
       A woman and a man playing Nine Men’s Morris together, miniature from a copy of the <cite>Romance of Alexander</cite> (produced 1338–44).
+    </ArticleImage>
+    <p>However, in this woodcut by Hans Weiditz from <Cite r="Trostspiegel" page={24} inline/>, a German version of Petrarch’s <cite>De remediis utriusque fortunae</cite> published in 1572, we can see that Chess is being played by nobles, Backgammon by men, and Nine Men’s Morris by monkeys:</p>
+    <ArticleImage
+      noborder
+      size="wide"
+      src={require('./PetrarchMonkey.jpg')}
+      alt=""
+      source={{
+        license: "cc0",
+        copyrightYear: 2012,
+        organization: {
+          orgName: "Münchener DigitalisierungsZentrum Digitale Bibliothek",
+          orgLang: "de"
+        },
+        originalUrl: "https://www.digitale-sammlungen.de/en/view/bsb10149651?page=48"
+      }}>
     </ArticleImage>
     {/*
     <ArticleImage position="aside" src={imgLargeMerelsWithDiagonals} alt="">
