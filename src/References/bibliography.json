@@ -6081,5 +6081,123 @@
         "issued": {
             "year": 1572
         }
+    },
+    "KaisersGuest": {
+        "type": "book",
+        "title": "The Kaiser’s Guest",
+        "author": [
+            {
+                "given": "Frank Cecil",
+                "family": "MacDonald"
+            }
+        ],
+        "issued": {
+            "year": 1918
+        },
+        "publisher": "Country Life Press",
+        "URL": "https://archive.org/details/kaisersguest00macd"
+    },
+    "HistoryOfThe107th": {
+        "type": "book",
+        "title": "History of the 107th Infantry, U.S.A.",
+        "author": [
+            {
+                "given": "Gerald F.",
+                "family": "Jacobson"
+            }
+        ],
+        "URL": "https://hdl.handle.net/2027/mdp.39015027341364",
+        "publisher": "Seventh Regiment Armory",
+        "publisher-place": "New York",
+        "issued": {
+            "year": 1920
+        }
+    },
+    "307AtHomeAndInFrance": {
+        "type": "book",
+        "title": "307 At Home and In France",
+        "author": [
+            {
+                "given": "Harold",
+                "family": "Breul"
+            }
+        ],
+        "publisher": "Country Life Press",
+        "issued": {
+            "year": 1919
+        },
+        "URL": "https://hdl.handle.net/2027/wu.89066035734"
+    },
+    "YearOfChivalry": {
+        "type": "book",
+        "title": "The Year of Chivalry",
+        "author": [
+            {
+                "given": "Edmund",
+                "family": "Candler"
+            }
+        ],
+        "issued": {
+            "year": 1916
+        },
+        "publisher": "Simpkin, Marshall, Hamilton, Kent & Co.",
+        "publisher-place": "London",
+        "URL": "https://hdl.handle.net/2027/uc2.ark:/13960/t25b02s9t"
+    },
+    "HullDown": {
+        "type": "book",
+        "title": "Hull Down: Reminiscences of Wind-jammers, Troops and Travellers",
+        "author": [
+            {
+                "given": "Bertram",
+                "family": "Hayes"
+            }
+        ],
+        "publisher": "The Macmillan Company",
+        "publisher-place": "New York",
+        "issued": {
+            "year": 1925
+        },
+        "URL": "https://hdl.handle.net/2027/uc1.$b556318"
+    },
+    "WithTheAmmunitionTrain": {
+        "type": "chapter",
+        "title": "With The Ammunition Train",
+        "author": [
+            {
+                "given": "Frederick Gerald",
+                "family": "McAvity"
+            }
+        ],
+        "page": "91–95",
+        "container-title": "What the “Boys”  did Overthere, by “Themselves”",
+        "editor": [
+            {
+                "given": "Henry L.",
+                "family": "Fox"
+            }
+        ],
+        "publisher": "The Allied Overseas Veterans Stories Co.",
+        "publisher-place": "New York",
+        "URL": "https://hdl.handle.net/2027/loc.ark:/13960/t2z32nv4t",
+        "issued": {
+            "year": 1918
+        }
+    },
+    "MapleLeavesInFlandersFields": {
+        "type": "book",
+        "title": "Maple Leaves in Flanders Fields",
+        "author": [
+            {
+                "given": "Herbert",
+                "family": "Rae"
+            }
+        ],
+        "publisher": "E. P. Dutton and Company",
+        "publisher-place": "New York",
+        "issued": {
+            "year": 1916
+        },
+        "URL": "https://hdl.handle.net/2027/uc2.ark:/13960/t9k35xv39"
     }
 }

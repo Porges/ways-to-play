@@ -45,7 +45,7 @@ const Content: React.FC = () => <>
     </ArticleImage>
     <p>The game has also at times been called “bubble and buck”,<Cite r="BubbleBuck1911" /> “bumble and buck”,<Cite r="APrivateInTheGuards" page={189} /> “diddlum buck”<Cite r="SmallerSlangDictionary" page={44} />  or “toodlum buck(s)”.<Footnote>This name was also used in Australia to refer to a children’s game played with a teetotum; perhaps the version on sale here is Crown & Anchor played with a teetotum.</Footnote><Cite r="ToodlumBucks" /></p>
     <Section title="Boer War">
-      <p>The game seems to have first became popular with British soldiers during the <a href="https://en.wikipedia.org/wiki/Second_Boer_War">Second Boer War</a> (1899–1902), when British and Australian troops fought alongside American volunteers. It was possibly transmitted from American troops at this time. In 1900, the game is recorded as having been played by English <abbr className="initialism" title="prisoners of war">POW</abbr>s at the Waterval prison camp, under both the names of “chuck-a-luck”<Cite r="AGlimpseAtWaterval" /> and “crown and anchor”.<Cite r="TrooperMilverton" /> British soldiers’ diaries also record the game being played in military camps at <a href="https://en.wikipedia.org/wiki/De_Aar">De Aar</a><Cite r="AutobiographyOfAMilitaryGreatCoat" page={391} /> and on transport ships.<Cite r="DukeOfLancastersOwn" page={157} /></p>
+      <p>The game seems to have first became popular with British soldiers during the <a href="https://en.wikipedia.org/wiki/Second_Boer_War">Second Boer War</a> (1899–1902), when British and Australian troops fought alongside American volunteers. It was possibly transmitted from American troops at this time. <a href="https://en.wikipedia.org/wiki/Bertram_Fox_Hayes">Sir Bertram Fox Hayes</a> describes the game being played aboard his ship,<Footnote>The SS <a href="https://en.wikipedia.org/wiki/SS_Britannic_(1874)"><cite>Britannic</cite></a>.</Footnote> while transporting troops to South Africa.<Cite r="HullDown" page={103} />  In 1900, the game is recorded as having been played by English <abbr className="initialism" title="prisoners of war">POW</abbr>s at the <a href="https://en.wikipedia.org/wiki/Waterval">Waterval</a> prison camp, under both the names of “chuck-a-luck”<Cite r="AGlimpseAtWaterval" /> and “crown and anchor”.<Cite r="TrooperMilverton" /> British soldiers’ diaries also record the game being played in military camps at <a href="https://en.wikipedia.org/wiki/De_Aar">De Aar</a><Cite r="AutobiographyOfAMilitaryGreatCoat" page={391} /> and on transport ships.<Cite r="DukeOfLancastersOwn" page={157} /></p>
       <p>In 1902, the game was described in London as “a new game from South Africa”,<Cite r="ANewGameFromSouthAfrica" /> and a syndicated article from 1914 also discusses the game as having been played in the army “since the first South African campaign”.<Cite r="GamblingInTheArmy" /></p>
       <p>References from the end of the Boer War period refer to returning British soldiers being swindled at the game,<Cite r="RobbingTommyAtkins" /> returning Australian troops playing it aboard transport ships (including the last troopship the <cite>Drayton Grange</cite>,<Cite r="DraytonGrange" /> which returned over-crowded and disease-ridden), and a report by an American who played the game with English troops.<Cite r="FromTombsBaker" /></p>
     </Section>
@@ -82,6 +82,10 @@ const Content: React.FC = () => <>
         <p>Around it four of us squatted and began to deposit thereon our dirty half- and one-franc notes, with occasional coins of lesser value. The constant whistle of passing fragments was punctuated by the voice of Alf calling upon the company to “’ave a bit on the ’eart” or alternately to “’ave a dig in the grave”, when a spent bullet crashed on his tin hat and fell with a thud into the crown square.</p>
         <p>“’struth,” gasped Alf, “old squarehead wants to back the sergeant-major.” He gave a final shake to the cup and exposed the dice — one heart and two crowns. “Blimey,” exclaimed Alf, “would yer blinkin’ well believe it? Jerry’s backed a winner. ’Arf a mo,” and picking up the spent bullet, he threw it with all his might towards the German lines, exclaiming, “’Ere’s yer blinking bet back, Jerry, and ’ere’s yer winnings.” He cautiously fired two rounds.</p>
       </blockquote>
+      <p>Similar samples of the proprietors’ patter resound from many memoirs of the war:<Cite r="APrivateInTheGuards" page={178} /></p>
+      <blockquote>
+        Where you lay we pay. Come and put your money with the lucky old man. I touch the money, but I never touch the dice. Any more for the lucky old heart? Make it even on the lucky old heart. Are you all done, gentlemen? … <em>Are you all done?</em> … The diamond, meat-hook, and lucky old sergeant-major. (He shakes the dice again.) Now, then, will any one down on his luck put a little bit of snow (some silver) on the curse? Does any one say a bit of snow on the old hook? Are you all done, gentlemen? <em>Are you all done?</em> … Cocked dice are no man’s dice. Change your bets or double them! Now, then, <em>up she comes again.</em> The mud-rake, the shamrock, and the lucky old heart. Copper to copper, silver to silver, and <em>gold to gold</em> We shall have to drag the old anchor a bit. (Rattles the dice.) Now who tries his luck on the name of the game?
+      </blockquote>
       <p>Another report from Gallipoli in 1916 also mentions it being played in trenches, and indicates that it was associated with “colonials” (Australians and New Zealanders):<Cite r='AnInterestingNarrative' /></p>
       <blockquote>
         I am satisifed there is as much chance of stopping colonials gambling as old Canute had of stopping the tide rising. I have see them playing “crown and anchor,” a great game with them (don’t know if you ever saw it) in all sorts of unlikely places, even on the fire step in first line trenches. It was funny on the Ionian, going back to Egypt, when there was a church parade. The padre paused in the sermon, and in the middle of the silence came a yell from behind the deck-house, “Who’s going to put a bob on the lucky old mud hook?” whilst straight on the bridge, and absolutely the nearest to the parson, was a ring of men gambling all the time, and too straight under the parson for him to see them. It did look comical…
@@ -90,7 +94,11 @@ const Content: React.FC = () => <>
       <blockquote>
         Colonial slang appears strange to the “Tommy,” […] an invitation to a game of “pounds, coins, or browns” lets one know that the popoular gambling game of “crown and anchor,” for anything from a £1 note to a penny, is in progress.
       </blockquote>
-      <p>In 1919, it was reported to be played on the ill-fated Australian transport Sardinia.<Cite r="LifeOnTransportSardinia" /></p>
+      <p>In 1916, one author reported that a local toy store in Boulogne was selling game sets to English troops.<Cite r="YearOfChivalry" page={66} /></p>
+      <p>Despite all the previous quotations, some American troops believed it to be a British game.<Cite r="HistoryOfThe107th" page={369} /><Cite r="307AtHomeAndInFrance" page={66} /></p>
+      <p>Canadian troops also report playing the game during the war.<Cite r="WithTheAmmunitionTrain" page={94} /><Cite r="MapleLeavesInFlandersFields" page={[21, 140]} /></p>
+      <p>In 1919, it was reported to be played on the ill-fated returning Australian transport Sardinia.<Cite r="LifeOnTransportSardinia" /></p>
+      <p>Post-war memoirs indicate that the game was commonly played in <abbr className="initialism" title="prisoners of war">POW</abbr> camps as in the Boer War, including the German camp <Noun lang="de">Münster</Noun> II (<abbr className="initialism" title="also known as">AKA</abbr> K47, <span lang="de">Rennbahn</span>), although gambling games were not permitted to be played.<Cite r="KaisersGuest" page={[[204, 206]]} /></p>
     </Section>
     <Section title="World War II">
       <p>In 1940, it was reported that <a href="https://en.wikipedia.org/wiki/Second_Australian_Imperial_Force">Australian Imperial Force</a> troops stationed in Mandatory Palestine had figured out how to play the game without dice: several <a href="https://en.wikipedia.org/wiki/Woodlouse">slaters</a> were placed under an upturned ashtray which had indentations for resting cigarettes; the holes from which the slaters emerged determined the winning numbers.<Cite r="AIFSlaters" /></p>
@@ -98,8 +106,9 @@ const Content: React.FC = () => <>
         size="wide"
         src={require('./CA_StGeorge.jpg')}
         alt="A creased cloth Crown & Anchor board">
-        A “St. George Series” Crown & Anchor board.
+        A “St. George Series” Crown & Anchor board, <abbr title="circa">c.</abbr> 1930s?
       </ArticleImage>
+      { /* TODO <p>As in the Boer and First World Wars, the game was played by prisoners in  and concentration camps.</p>*/}
     </Section>
     <Section title="Post-War">
       <p>After the first and second World Wars, mentions of the game become much more common, as the game diffused from returning soldiery back into the wider population.</p>
@@ -187,10 +196,10 @@ const Content: React.FC = () => <>
       </Section>
       */}
     </Section>
-    <Section title="India & Nepal">
+    <Section title="India and Nepal">
       <p>The game was known in Mumbai and Pune<Footnote>Then called Bombay and Poona.</Footnote> as early as 1905, as indicated by court cases from the time,<Cite r="ABookmakerAndThePolice" /><Cite r="HeartAnchorAndCrown" /> but it may have been in India for a long time prior to that.</p>
       <p>In current times, the game is called <span lang="hi">झंडी मुंडा</span> <Noun lang="hi-Latn">Jhaṇḍī Muṇḍā</Noun> (“flag crown”?), or <span lang="hi">खोर खोरे</span> <Noun lang="hi-Latn">Khor Khore</Noun>.</p>
-      <p>Gambling remains illegal in most of India but the game is commonly played during <a href="https://en.wikipedia.org/wiki/Diwali"><Noun lang="hi-Latn">Diwali</Noun></a> (<span lang="hi">दीपावली</span>).</p>
+      <p>Gambling remains illegal in most of India but the game is commonly played during <a href="https://en.wikipedia.org/wiki/Diwali"><Noun lang="hi-Latn">Diwali</Noun></a>.</p>
       <ArticleImage src={imgJMlayout} alt="" source={{
         license: "stock-image",
         organization: { orgName: "Shutterstock.com" },
@@ -222,8 +231,9 @@ const Content: React.FC = () => <>
         }}>
         The game being played with 6 dice in <a href="https://en.wikipedia.org/wiki/Pokhara">Pokhara</a>, Nepal.
       </ArticleImage>
+      <Footnote standalone>Images of <span lang="ne-Latn">langur burja</span> dice can be seen on <a href="http://averweij.web.cern.ch/averweij/nepal.htm">this page</a>.</Footnote>
       <p>In Nepal the game is called <span lang="ne-Latn">langur burja</span> (<span lang="ne">लंगूर or लङ्गुर बुर्जा</span>).<Footnote><span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.</Footnote> It is commonly played during the festivals of <a href="https://en.wikipedia.org/wiki/Dashain"><Noun lang="ne-Latn">Dashain</Noun></a> (<span lang="ne">दशैं</span>) and <a href="https://en.wikipedia.org/wiki/Tihar_(festival)"><Noun lang="ne-Latn">Tihar</Noun></a> (<span lang="ne">तिहार</span>), and it is usually played with six dice (requiring a minimum of two matches to pay out).</p>
-      <p>The Nepali names for the playing-card symbols are:</p>
+      <p>Some Nepali names for the playing-card symbols are:</p>
       <ul>
         <li>spade: <span lang="ne">सुरथ</span> <span lang="ne-Latn">surath</span></li>
         <li>club: <span lang="ne">चीड</span> <span lang="ne-Latn">chid</span> (‘pine’)</li>
@@ -236,8 +246,8 @@ const Content: React.FC = () => <>
       <p>The game is very popular amongst the <a href="https://en.wikipedia.org/wiki/Kadazan-Dusun">Kadazan–Dusun</a> people of Sabah (Northern Borneo), where it is known as <span lang="dtp">katam-katam</span> (‘crabs’). It is played during the festive season and also at funerals.</p>
       <p>In Brunei the game is also known as <span lang="kxd">katam-katam</span>.<Cite r="HuaHuiBrunei" /></p>
     </Section>
-    <Section title="Bali">
-      <p>In Bali the game is played in many forms and known under many names: <span lang="id">mong-mongan</span> (the name of a set of three small gongs used in Sumatra), or one of a variety of similar names such as <span lang="id">kocok(an)</span> (‘shake’/‘shaking’, as of the dice), <span lang="id">koprok</span>, <span lang="id">kolok</span>, or <span lang="id">kopyok(an)</span> (also ‘shake’/‘shaker’; used also for lotteries).<Cite r="SEAlangBalinese"/></p>
+    <Section title="Bali and Indonesia">
+      <p>In Bali the game is played in many forms and known under many names: <span lang="id">mong-mongan</span> (the name of a set of three small gongs used in Sumatra), or one of a variety of similar names such as <span lang="id">kocok(an)</span> (‘shake’/‘shaking’, as of the dice), <span lang="id">koprok</span>, <span lang="id">kolok</span>, or <span lang="id">kopyok(an)</span> (also ‘shake’/‘shaker’; used also for lotteries).<Cite r="SEAlangBalinese" /></p>
       <p>Bali is (based on appearances on the internet) possibly the part of the world where the game is currently the most popular; this despite all gambling being illegal in the country.</p>
       <p>As in many cultures, gambling is often associated with religious festivals. While other Balinese gambling activities such as the <a href="https://en.wikipedia.org/wiki/Cockfight#Indonesia">cock-fight</a> are restricted to men, the game can be played by anyone, including young children.</p>
       <ArticleImage src={require('./15100534169_2721b8ae84_o.jpg')} alt="" source={{
@@ -312,7 +322,7 @@ const Content: React.FC = () => <>
     <p>As with <GameRef id="chuck-a-luck" />, the game has been adapted for mass play at fairgrounds and carnivals. As noted on that article, the modified games usually have worse odds for the players.</p>
     <ArticleImage
       size="wide"
-      alt="A Crown-and-Anchor wheel and staking board with proprieters."
+      alt="A Crown-and-Anchor wheel and staking board with proprietors."
       src={require('./3891195907_1d9ce6774a_o.jpg')}
       source={{
         originalUrl: "https://www.flickr.com/photos/tsarkasim/3891195907/",
