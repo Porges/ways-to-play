@@ -2885,7 +2885,7 @@
         },
         "volume": 29,
         "page": "477–534",
-        "id": "MetropoliticalVisitation"
+        "URL": "https://hdl.handle.net/2027/coo.31924016534699?urlappend=%3Bseq=695%3Bownerid=13510798903034340-701"
     },
     "AncientEgyptiansAtPlay": {
         "type": "book",
@@ -6199,5 +6199,23 @@
             "year": 1916
         },
         "URL": "https://hdl.handle.net/2027/uc2.ark:/13960/t9k35xv39"
+    },
+    "BoardGamesInBoatBurials": {
+        "type": "article-journal",
+        "title": "Board Games in Boat Burials: Play in the Performance of Migration and Viking Age Mortuary Practice",
+        "author": [
+            {
+                "given": "Mark A.",
+                "family": "Hall"
+            }
+        ],
+        "issued": {
+            "year": 2016
+        },
+        "container-title": "European Journal of Archaeology",
+        "volume": 19,
+        "issue": 3,
+        "page": "439–455",
+        "URL": "https://doi.org/10.1080/14619571.2016.1175774"
     }
 }
