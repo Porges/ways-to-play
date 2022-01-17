@@ -12,6 +12,9 @@ import imgChineseBoard from './chinese_board.svg';
 const Content: React.FC = () => <>
   <Description>Crown & Anchor is a dice game that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world. The game play is equivalent to that of <GameRef id="chuck-a-luck" />, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.</Description>
   <Section title="History">
+    <blockquote className="blockquote epigraph">
+      ‘It’s a fair game,’ he was saying; ‘it’s a fair game. The wee boy has the same chance as the old man, and the old man as the wee boy.’<Cite r="ItsAFineWorld" page={210} />
+    </blockquote>
     <p>Please note that the following is (necessarily, for me) biased toward English-language sources. It is entirely possible the game has a longer history elsewhere; for the moment, at least, I cannot say.</p>
     <ArticleImage
       size="wide"

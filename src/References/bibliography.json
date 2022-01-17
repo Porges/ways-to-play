@@ -6217,5 +6217,21 @@
         "issue": 3,
         "page": "439–455",
         "URL": "https://doi.org/10.1080/14619571.2016.1175774"
+    },
+    "ItsAFineWorld": {
+        "type": "book",
+        "title": "It’s a Fine World",
+        "author": [
+            {
+                "given": "Robert",
+                "family": "Lynd"
+            }
+        ],
+        "publisher-place": "London",
+        "publisher": "Methuen & Co.",
+        "issued": {
+            "year": 1930
+        },
+        "URL": "https://hdl.handle.net/2027/mdp.39015048888211"
     }
 }

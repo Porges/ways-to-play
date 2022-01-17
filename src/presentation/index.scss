@@ -210,6 +210,17 @@ blockquote {
   margin-left: 2em;
 }
 
+/* big quote before epigraph quotes */
+.epigraph::before {
+    content: '❝';
+    display: inline-block;
+    margin-left: -.7em;
+    width: .7em;
+    line-height: 0;
+    vertical-align: text-bottom;
+    font-size: 3em;
+}
+
 /*** Figures ***/
 .figure {
     display: block;
