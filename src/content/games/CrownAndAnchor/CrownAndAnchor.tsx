@@ -106,6 +106,7 @@ const Content: React.FC = () => <>
     <Section title="World War II">
       <p>In 1940, it was reported that <a href="https://en.wikipedia.org/wiki/Second_Australian_Imperial_Force">Australian Imperial Force</a> troops stationed in Mandatory Palestine had figured out how to play the game without dice: several <a href="https://en.wikipedia.org/wiki/Woodlouse">slaters</a> were placed under an upturned ashtray which had indentations for resting cigarettes; the holes from which the slaters emerged determined the winning numbers.<Cite r="AIFSlaters" /></p>
       <ArticleImage
+        mainImage
         size="wide"
         src={require('./CA_StGeorge.jpg')}
         alt="A creased cloth Crown & Anchor board">
@@ -305,6 +306,7 @@ const Content: React.FC = () => <>
     </Section>
     <Section title="West Indies">
       <p>The game was probably played throughout the British West Indies; there are records of it from Trinidad,<Cite r="SportsAndPastimesInTheWestIndies" page={692} />, Antigua, Jamaica, and Bermuda.<Cite r="CelebratingCricket" page={[[622, 623]]} /></p>
+      <p>The game is still played today in Jamaica.</p>
       <ArticleImage
         alt="A Crown & Anchor table scattered with money and weights and surrounded by a large crowd."
         src={require('./207971457_ed644c66ab_o.jpg')}
@@ -317,7 +319,7 @@ const Content: React.FC = () => <>
         }}>
         A busy game being played during the Cup Match in Bermuda.
       </ArticleImage>
-      <p>The game is still played today in Jamaica. In Bermuda, the game is legal during the weekend of the Cup Match (a cricket tournament), and played in large tents known as the “stock market”.<Cite r="CupMatchAndCarnival" page={267} /> The game is also called Hook and Hat.<Cite r="AScapeToBermuda" page={123} /></p>
+      <p>In Bermuda, the game is legal during the weekend of the Cup Match (a cricket tournament), and played in large tents known as the “stock market”.<Cite r="CupMatchAndCarnival" page={267} /> It is also known as Hook and Hat.<Cite r="AScapeToBermuda" page={123} /></p>
     </Section>
     {/* TODO: Lago Lago in Bhutan? */}
   </Section>

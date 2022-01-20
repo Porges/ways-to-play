@@ -79,7 +79,6 @@ const games = {
     equipment: "dice" as const,
     players: 'any' as const,
     import: React.lazy(() => import('./CrownAndAnchor/CrownAndAnchor')),
-    draft: true,
   },
   'fox-and-geese': {
     title: "Fox and Geese",
