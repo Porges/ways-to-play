@@ -868,6 +868,11 @@ const Manufacturers: React.FC = () => {
             The <span lang="ja-Latn">kuppin</span> wrapper.
           </ArticleImage>
         </div>
+        <ArticleImage
+          src={require('./MT_FujiZakura.jpg')}
+          alt="A wrapper with an image of Mount Fuji and stylized cherry blossoms.">
+          The <span lang="ja-Latn">fujizakura</span> wrapper.
+        </ArticleImage>
         <p><Noun lang="ja-Latn">Matsui</Noun> also produced custom extended <Noun lang="ja-Latn">Hanafuda</Noun> decks with 13 and 14 months, which can be used to play games with more people. The 13-month deck features bamboo as the additional suit, while the 14-month deck has both bamboo and lotus.</p>
         <ArticleImage
           size="wide"
