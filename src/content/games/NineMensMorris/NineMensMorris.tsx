@@ -26,8 +26,8 @@ import imgWithDice from "./Nine_Mens_Morris_with_dice_in_Libro_de_los_juegos.jpg
 import imgTemplarRule from "./templar-rule.jpg";
 
 const TakeItAway: React.FC = () => <>
-  <Description><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Roman times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as Shax or <GameRef id="morabaraba" /> — are also played in several African countries.</Description>
-  <p>In addition to being a game, the board was used as some kind of talisman or symbol; <Cite r="MerylsBoardEnigma" inline page={330} /> collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.</p>
+  <Description><span id="index-nine-mens-morris" className="game-title">Nine Men’s Morris</span> is an ancient <a href="/articles/mill-games">mill game</a>, dating at least from Roman times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as <GameRef id="shax"/> or <GameRef id="morabaraba" /> — are also played in several African countries.</Description>
+  <p>In addition to being a game, the board itself was used as some kind of talisman or symbol; <Cite r="MerylsBoardEnigma" inline page={330} /> collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.</p>
   {/*
 Other general references include [@OxfordBG; @NineMensDice; @Zaslavsky, p. 12; @Bell, p. 93; @Murray2,
 §3.5.4, p. 43; @Goddard1901; @NotesAndQueriesS8V12, pp. 28, 89–90, 173, 333;
