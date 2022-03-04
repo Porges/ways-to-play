@@ -31,7 +31,6 @@ type StockInfo = {
 
 export type SourceInfo = CommonInfo | StockInfo
 
-
 type ResponsiveImageSrc = ResponsiveImageOutput | string
 
 type Props = {
@@ -47,7 +46,6 @@ type Props = {
 type SizePosition = { size: "wide", position?: "aside" } | { size?: "small", position?: "left" | "right" | "aside" } | {size: "extra-wide", position?: "aside"}
 
 export const renderSource = (source: SourceInfo, short = false) => {
-
   let copyrightHolder: JSX.Element | null = null;
 
   if (source.organization) {
