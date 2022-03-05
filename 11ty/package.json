@@ -22,12 +22,14 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^1.1.0",
-    "@benrbray/remark-cite": "^1.1.0",
     "@fec/eleventy-plugin-remark": "^3.0.0",
     "@fortawesome/fontawesome-free": "^6.0.0",
     "bootstrap": "4.6",
+    "isbn3": "^1.1.20",
     "liquid-args": "^1.0.0",
+    "prettier": "^2.5.1",
     "prop-types": "^15.8.1",
+    "rehype-format": "^4.0.1",
     "rehype-raw": "^6.1.1",
     "remark-sectionize": "^1.1.1"
   }

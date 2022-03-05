@@ -4,8 +4,12 @@ const PropTypes = require('prop-types');
 const argParse = require('liquid-args');
 const path = require('path');
 
-const { citePlugin } = require('@benrbray/remark-cite');
+const { asAttr, ifSet } = require('./helpers');
+const references = require('./references');
+const prettier = require('prettier');
 
+const fs = require('node:fs/promises');
+const { env } = require('process');
 
 PropTypes.resetWarningCache();
 
@@ -24,12 +28,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyRemark, {
     enableRehype: false,
     plugins: [
-      citePlugin,
       require('remark-sectionize'),
       {
         plugin: 'remark-rehype',
         options: { allowDangerousHtml: true }
       },
+      citationPlugin,
       'rehype-raw',
       'rehype-stringify',
     ],
@@ -44,6 +48,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("organization", organization);
   eleventyConfig.addShortcode("license", license);
   eleventyConfig.addShortcode("asAttr", asAttr);
+
+  eleventyConfig.addPairedShortcode("footnote", function(content, standalone) {
+    if (standalone === 'standalone') {
+      return `<aside role="note" class="footnote">${content}</aside>`;
+    }
+
+    return `<span class="footnote-indicator"></span><span role="note" class="footnote">${content}</span>`;
+  });
 
   eleventyConfig.addLiquidTag("image", function (liquidEngine) {
     return {
@@ -67,6 +79,20 @@ module.exports = function (eleventyConfig) {
     }
   });
 
+  eleventyConfig.addTransform("prettier", function (content, outputPath) {
+    // from: https://github.com/11ty/eleventy/issues/1314#issuecomment-657999759
+    const extname = path.extname(outputPath);
+    switch (extname) {
+      case ".html":
+      case ".json":
+        // Strip leading period from extension and use as the Prettier parser.
+        const parser = extname.replace(/^./, "");
+        return prettier.format(content, { parser });
+
+      default:
+        return content;
+    }
+  });
 
   return {
     dir: {
@@ -75,28 +101,6 @@ module.exports = function (eleventyConfig) {
     },
   };
 };
-
-/**
- * @param {string=} x 
- * @param {string | () => string} y 
- * @returns {string}
- */
-function ifSet(x, y) {
-  if (typeof y === "function") {
-    return x ? y() : '';
-  }
-
-  return x ? y : '';
-}
-
-/**
- * @param {string} name 
- * @param {string=} value 
- * @returns {string}
- */
-function asAttr(name, value) {
-  return ifSet(value, ` ${name}="${value}"`);
-}
 
 // shortcode definitions:
 
@@ -313,21 +317,24 @@ async function articleImage(caption, props) {
   const sizes =
     size === 'extra-wide'
       ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, (max-width: 1199.98px) 800px, 1000px"
-      : size === 'wide' 
+      : size === 'wide'
         ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px"
         : "(max-width: 575.98px) 300px, 600px";
 
-  console.log(metadata);
+  // console.log(metadata);
   let original = metadata.jpeg[metadata.jpeg.length - 1];
   return `<figure class="figure" itemProp="image" itemScope itemType="${imageObject}">
-    <img src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}">
-    <figcaption class="text-center">
-      ${caption ? `<span itemProp="caption">${caption}</span><br/>` : ''}
-    </figcaption>
-  </figure>`;
+<img src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}">
+<figcaption class="text-center">
+${caption ? `<span itemProp="caption">
+${caption /* NB: must appear on its own line to get Markdown formatting… */}
+</span>
+<br/>` : ''}
+</figcaption>
+</figure>`;
 }
 
-const imageObject = "http://schema.org/ImageObject"; 
+const imageObject = "http://schema.org/ImageObject";
 
 const articleImagePropTypes = {
   alt: PropTypes.string.isRequired,
@@ -336,3 +343,134 @@ const articleImagePropTypes = {
   mainImage: PropTypes.bool,
   cram: PropTypes.bool,
 };
+
+const citationPlugin = () => {
+
+  let biblio = undefined;
+  let unist = undefined;
+
+  const indexToString = (/** @type {number} */ index) => {
+    let result = "";
+
+    while (index > 0) {
+      const num = (index - 1) % 26;
+      result = String.fromCodePoint('a'.charCodeAt(0) + num) + result
+      index = Math.floor((index - num) / 26);
+    }
+
+    return result;
+  };
+
+  const formatCitation = (
+    /** @type {string} */ id,
+    /** @type {number} */ index,
+    /** @type {boolean} */ inline,
+    /** @type {string} */ suffix) => {
+
+    const indicator = indexToString(index);
+    if (inline) {
+      const reference = biblio[id];
+      if (!reference) {
+        return `[UNKNOWN CITE: ${id}]`;
+      }
+
+      switch (reference.type) {
+        case 'book':
+          return `<a href="${`#ref-${id}`}">`
+            + `<cite${asAttr('lang', reference["title-lang"])}>${reference.title}</cite>`
+            + `</a>`
+            + ifSet(suffix, ` (${suffix})`);
+        case 'article-journal':
+          return `<a href="${`#ref-${id}`}">${reference.author[0].family}</a>`
+            + ` (${ifSet(reference.issued, reference.issued.year)}${ifSet(suffix, `, ${suffix}`)})`;
+        default:
+          return `<span className="citation">[<a href="${`#ref-${id}`}">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
+      }
+    } else {
+      return `<sup className="citation"><a href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</sup>`;
+    }
+  };
+
+  const citeExtrator = /((?<!\w)@(?<id1>\w+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>\w+)(\s+(?<what2>[^\]]+))?\])/;
+
+  return async (tree, _file) => {
+    //console.log(tree);
+
+    if (!unist) {
+      unist = await import('unist-util-visit');
+    }
+
+    if (!biblio) {
+      biblio = JSON.parse(await fs.readFile(path.join(__dirname, 'bibliography.json'), 'utf8'));
+      Object.entries(biblio).forEach(([key, value]) => { value.id = key });
+    }
+
+    // collect all cites
+    const cited = [];
+    unist.visit(tree, 'text', (node, ix, parent) => {
+      const text = node.value;
+      const match = text.match(citeExtrator);
+      if (!match) {
+        return;
+      }
+
+      const inline = !!match.groups.id1;
+      const id = match.groups.id1 || match.groups.id2;
+      const what = match.groups.what1 || match.groups.what2;
+
+      console.log({id, what, inline});
+
+      if (!cited.includes(id)) {
+        cited.push(id);
+      }
+
+      const startIx = match.index;
+      const endIx = match.index + match[0].length;
+
+      const children = [
+        { type: 'text', value: text.slice(0, startIx) },
+        { type: 'raw', value: formatCitation(id, cited.length, inline, what) },
+        { type: 'text', value: text.slice(endIx) },
+      ];
+
+      parent.children = [
+        ...parent.children.slice(0, ix),
+        ...children,
+        ...parent.children.slice(ix + 1),
+      ];
+    });
+
+    // print the references
+    tree.children.push({
+      type: 'element',
+      tagName: 'section',
+      children: [
+        { type: 'element', tagName: 'h2', children: [{ type: 'text', value: 'References' }] },
+        {
+          type: 'element',
+          tagName: 'ol',
+          children: cited.map(id => {
+            if (!(id in biblio)) {
+              if (env === "production") {
+                throw new Error("unknown reference id: " + id);
+              } else {
+                console.error("unknown reference id: ", id);
+                return {
+                  type: 'element',
+                  tagName: 'li',
+                  children: [{ type: 'text', value: `UNKNOWN REFERENCE '${id}'` }],
+                };
+              }
+            }
+
+            return {
+              type: 'element',
+              tagName: 'li',
+              children: [{ type: 'raw', value: references.renderReference(biblio[id]) }],
+            };
+          }),
+        },
+      ],
+    })
+  };
+}

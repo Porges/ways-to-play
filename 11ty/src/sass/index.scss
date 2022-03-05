@@ -514,13 +514,15 @@ aside.footnote::before {
 .footnote-indicator::before {
     counter-increment: footnote;
     content: counter(footnote);
-    font-variant-position: super;
+    // font-variant-position: super; - not yet supported
+    font-feature-settings: "sups";
     margin-left: 1px;
 }
 
 span.footnote::before {
     content: counter(footnote) " ";
-    font-variant-position: super;
+    // font-variant-position: super; - not yet supported
+    font-feature-settings: "sups";
 }
 
 .footnote-indicator:hover,

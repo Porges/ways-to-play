@@ -3,7 +3,7 @@ exports.data = {
 };
 
 exports.render = function(data) {
-    console.log(data);
+    // console.log(data);
     return `<article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author-outer">
     <div class="jumbotron jumbotron-fluid ${data.hero ? 'hero' : ''}" style="${data.hero ? `background-image: url('${data.hero}')` : ''}">
         <div class="container">
