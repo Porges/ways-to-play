@@ -29,8 +29,10 @@
     "liquid-args": "^1.0.0",
     "prettier": "^2.5.1",
     "prop-types": "^15.8.1",
+    "rehype-autolink-headings": "^6.1.1",
     "rehype-format": "^4.0.1",
     "rehype-raw": "^6.1.1",
+    "rehype-slug": "^5.0.1",
     "remark-sectionize": "^1.1.1"
   }
 }

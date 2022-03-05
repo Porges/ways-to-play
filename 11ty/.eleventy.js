@@ -34,6 +34,19 @@ module.exports = function (eleventyConfig) {
         options: { allowDangerousHtml: true }
       },
       citationPlugin,
+      'rehype-slug',
+      {
+        plugin: 'rehype-autolink-headings',
+        options: {
+          content: { type: 'text', value: '#' },
+          properties: {
+            ariaHidden: true,
+            tabIndex: -1,
+            class: 'permalink',
+            title: 'link to section'
+          }
+        },
+      },
       'rehype-raw',
       'rehype-stringify',
     ],
@@ -49,7 +62,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("license", license);
   eleventyConfig.addShortcode("asAttr", asAttr);
 
-  eleventyConfig.addPairedShortcode("footnote", function(content, standalone) {
+  eleventyConfig.addPairedShortcode("footnote", function (content, standalone) {
     if (standalone === 'standalone') {
       return `<aside role="note" class="footnote">${content}</aside>`;
     }
@@ -418,7 +431,7 @@ const citationPlugin = () => {
       const id = match.groups.id1 || match.groups.id2;
       const what = match.groups.what1 || match.groups.what2;
 
-      console.log({id, what, inline});
+      console.log({ id, what, inline });
 
       if (!cited.includes(id)) {
         cited.push(id);
@@ -445,10 +458,21 @@ const citationPlugin = () => {
       type: 'element',
       tagName: 'section',
       children: [
-        { type: 'element', tagName: 'h2', children: [{ type: 'text', value: 'References' }] },
+        {
+          type: 'element',
+          tagName: 'h2',
+          properties: {
+            id: 'references',
+          },
+          children: [{ type: 'text', value: 'References' }]
+        },
         {
           type: 'element',
           tagName: 'ol',
+          properties: {
+            class: "reference-list",
+            type: "a",
+          },
           children: cited.map(id => {
             if (!(id in biblio)) {
               if (env === "production") {
