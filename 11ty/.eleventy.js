@@ -62,11 +62,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("license", license);
   eleventyConfig.addShortcode("asAttr", asAttr);
 
-  eleventyConfig.addPairedShortcode("footnote", function (content, standalone) {
-    if (standalone === 'standalone') {
-      return `<aside role="note" class="footnote">${content}</aside>`;
-    }
+  eleventyConfig.addPairedShortcode("aside", function (content) {
+    return `<aside role="note" class="footnote">${content}</aside>`;
+  });
 
+  eleventyConfig.addPairedShortcode("fn", function (content) {
     return `<span class="footnote-indicator"></span><span role="note" class="footnote">${content}</span>`;
   });
 
@@ -122,13 +122,14 @@ module.exports = function (eleventyConfig) {
 /** @typedef { import('./types').LicenseName } LicenseName */
 /** @typedef { import('./types').LicenseVersion } LicenseVersion */
 /** @typedef { import('./types').SizePosition } SizePosition */
+/** @typedef { import('./types').SourceInfo } SourceInfo */
 
 const organizationPropTypes = {
   orgName: PropTypes.string.isRequired,
   orgAbbr: PropTypes.string,
   orgLang: PropTypes.string,
   orgUrl: PropTypes.string,
-  itemProp: PropTypes.string,
+  itemprop: PropTypes.string,
 };
 
 /**
@@ -141,10 +142,10 @@ const organizationPropTypes = {
  */
 function organization(props) {
   PropTypes.checkPropTypes(organizationPropTypes, props, 'props', 'organization');
-  let { orgName, orgAbbr, orgLang, orgURL, itemProp } = props;
+  let { orgName, orgAbbr, orgLang, orgURL, itemprop } = props;
   let content = orgAbbr
-    ? `<meta itemProp="name" content="${orgName}" /><abbr title="${orgName}">${orgAbbr}</abbr>`
-    : `<span itemProp="name">${orgName}</span>`;
+    ? `<meta itemprop="name" content="${orgName}" /><abbr title="${orgName}">${orgAbbr}</abbr>`
+    : `<span itemprop="name">${orgName}</span>`;
 
 
   if (orgURL) {
@@ -152,7 +153,7 @@ function organization(props) {
   }
 
   return (
-    `<span itemScope itemType="http://schema.org/Organization"${ifSet(orgLang, ` lang="${orgLang}"`)}${ifSet(itemProp, ` itemProp="${itemProp}"`)}>
+    `<span itemscope itemtype="http://schema.org/Organization"${ifSet(orgLang, ` lang="${orgLang}"`)}${ifSet(itemprop, ` itemprop="${itemprop}"`)}>
       ${content}
     </span>`
   );
@@ -177,7 +178,7 @@ const personPropTypes = {
   innerId: PropTypes.string,
   id: PropTypes.string,
   url: PropTypes.string,
-  itemProp: PropTypes.string,
+  itemprop: PropTypes.string,
   sameAs: PropTypes.string,
   worksFor: PropTypes.exact(organizationPropTypes),
 };
@@ -188,35 +189,33 @@ const personPropTypes = {
  * @param {string=} props.innerId
  * @param {string=} props.id
  * @param {string=} props.url
- * @param {string=} props.itemProp
+ * @param {string=} props.itemprop
  * @param {string=} props.sameAs
  * @param {Organization=} props.worksFor
  * @returns {string}
  */
 function person(props) {
   PropTypes.checkPropTypes(personPropTypes, props, 'props', 'person');
-  const { id, itemProp, innerId, url, sameAs, worksFor } = props;
+  const { id, itemprop, innerId, url, sameAs, worksFor } = props;
   let name = typeof props.name === 'string'
     ? { name: props.name }
     : props.name;
-  return `
-    <span itemScope itemType="http://schema.org/Person"${asAttr("id", id)}${asAttr("itemProp", itemProp)}>
-      <span${asAttr("id", innerId)}>
-        ${ifSet(url, `<link href="${url}" itemProp="url" />`)}
-        ${ifSet(sameAs, `<link href="${sameAs}" itemProp="sameAs" />`)}
-        ${ifSet(worksFor, () => organization({ ...worksFor, itemProp: "worksFor" }))}
-        <span itemProp="name"${ifSet(name.lang, ` lang=="${name.lang}"`)}>
-          ${'name' in name
+  return `<span itemscope itemtype="http://schema.org/Person"${asAttr("id", id)}${asAttr("itemprop", itemprop)}>`
+    + `<span${asAttr("id", innerId)}>`
+    + ifSet(url, `<link href="${url}" itemprop="url" />`)
+    + ifSet(sameAs, `<link href="${sameAs}" itemprop="sameAs" />`)
+    + ifSet(worksFor, () => organization({ ...worksFor, itemprop: "worksFor" }))
+    + `<span itemprop="name"${asAttr('lang', name.lang)}>`
+    + ('name' in name
       ? name.name
       : name.familyFirst // note: also no space for family-first names, at the moment
-        ? `<span itemProp="familyName">${name.family}</span><span itemProp="givenName">${name.given}</span>`
-        : `<span itemProp="givenName">${name.given}</span> <span itemProp="familyName">${name.family}</span>`
-    }
-        </span>
-      </span>
-    </span>`;
+        ? `<span itemprop="familyName">${name.family}</span><span itemprop="givenName">${name.given}</span>`
+        : `<span itemprop="givenName">${name.given}</span> <span itemprop="familyName">${name.family}</span>`
+    )
+    + `</span>`
+    + `</span>`
+    + `</span>`;
 }
-
 
 /**
  * 
@@ -254,12 +253,14 @@ function license(props) {
       ? "Public Domain"
       : `Licensed under the ${parts.map(altTextForLicense).join(' ')} license, ${version}`
 
-  return (`${ifSet(leading, ' ')}<a itemProp="license" href="${href}" title="${title}"${asAttr("rel", rel)}>
-      ${license === 'gpl'
-      ? `<img src="/images/gpl.svg" alt=${`GPLv${version}`} width={14} height={14} />`
+  return (
+    ifSet(leading, ' ')
+    + `<a itemprop="license" href="${href}" title="${title}"${asAttr("rel", rel)}>`
+    + (license === 'gpl'
+      ? `<img src="/images/gpl.svg" alt=${`GPLv${version}`} width="14" height="14" />`
       : parts.map(charForLicense).join('\u{200a}')
-    }
-    </a>`);
+    )
+    + `</a>`);
 }
 
 const licensePropTypes = {
@@ -312,18 +313,30 @@ function charForLicense(input) {
  * @param {SourceInfo} props.source
  */
 async function articleImage(caption, props) {
+  console.log(props);
+
+  if (props.license) {
+    props.source = {
+      identifier: props.identifier,
+      originalUrl: props.originalUrl,
+      copyrightYear: props.copyrightYear,
+      author: props.author,
+      licenseVersion: props.licenseVersion,
+      license: props.license,
+    };
+  }
+
+  if (props.orgName) {
+    props.source.organization = {
+      orgName: props.orgName,
+      orgAbbr: props.orgAbbr,
+      orgLang: props.orgLang,
+      orgURL: props.orgURL,
+    };
+  }
+
   PropTypes.checkPropTypes(articleImagePropTypes, props, 'props', 'articleImage');
-
   const { alt, src, noborder, mainImage, cram, source, position, size } = props;
-
-  const basedSrc = path.join(path.dirname(this.page.inputPath), src);
-
-  const metadata = await Image(basedSrc, {
-    widths: [300, 600, 800, 1200, 1600, null],
-    formats: [null],
-    outputDir: "public/img",
-  });
-
 
   const className = `${position || ''} ${size || ''} ${cram ? 'cram' : ''}`;
   // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
@@ -334,17 +347,86 @@ async function articleImage(caption, props) {
         ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px"
         : "(max-width: 575.98px) 300px, 600px";
 
-  // console.log(metadata);
-  let original = metadata.jpeg[metadata.jpeg.length - 1];
-  return `<figure class="figure" itemProp="image" itemScope itemType="${imageObject}">
-<img src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}">
-<figcaption class="text-center">
-${caption ? `<span itemProp="caption">
-${caption /* NB: must appear on its own line to get Markdown formatting… */}
-</span>
-<br/>` : ''}
-</figcaption>
-</figure>`;
+  // if no source was provided, source is me
+  const sourceInfo =
+    source
+      ? renderSource(props.source)
+      : ('<meta itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person" itemRef="author" />'
+        + '<meta itemprop="license" content="https://creativecommons.org/licenses/by-nc-sa/4.0/" />');
+
+  // if we are only showing the (🅮) public domain symbol don't bother putting it on its own line
+  const captionLineBreak = (props.source?.license === 'cc0' && !props.source?.author && !props.source?.organization) ? ' ' : '<br/>';
+
+  const l = `<figure class="figure" itemprop="image" itemscope itemtype="${imageObject}">`
+    + await renderImage(this, src, alt, sizes, noborder, mainImage)
+    + `<figcaption class="text-center figure-caption">`
+    + ifSet(caption,
+      `\n\n<span itemprop="caption">`
+      + caption.trim() /* NB: must appear on its own line to get Markdown formatting… */
+      + `</span>\n\n`)
+    + sourceInfo
+    + `</figcaption>`
+    + `</figure>`;
+  console.log(l);
+  return l;
+}
+
+
+/**
+ * @param {SourceInfo} source 
+ * @param {boolean=} short 
+ * @returns {string}
+ */
+function renderSource(source, short = false) {
+  let copyrightHolder = '';
+
+  if (source.organization) {
+    if (source.author) {
+      // person works for organization
+      copyrightHolder = person({ itemProp: "copyrightHolder", name: source.author, worksFor: source.organization });
+    } else {
+      // organization is author
+      copyrightHolder = organization({ org: source.organization, itemProp: 'copyrightHolder' });
+    }
+  } else if (source.author) {
+    copyrightHolder = person({ itemProp: "copyrightHolder", name: source.author });
+  }
+
+  return (source.license === 'cc0' ? '' : '© ')
+    + ifSet(source.copyrightYear, `<span itemprop="copyrightYear">${source.copyrightYear}</span> `)
+    + ((copyrightHolder && source.originalUrl) ? `<a href="${source.originalUrl}" itemprop="sameAs">${copyrightHolder}</a>` : copyrightHolder)
+    + ifSet(source.license !== 'stock-image', () => license({ leading: !!copyrightHolder, license: source.license, version: source.licenseVersion }))
+    + ifSet(!short && source.identifier, `: ${source.identifier}`);
+}
+
+/**
+ * @param {string} src
+ * @param {string} alt
+ * @param {string} sizes
+ * @param {boolean=} noborder
+ * @param {boolean=} mainImage
+ */
+async function renderImage(me, src, alt, sizes, noborder, mainImage) {
+  const basedSrc = path.join(path.dirname(me.page.inputPath), src);
+  const metadata = await Image(basedSrc, {
+    widths: [300, 600, 800, 1200, 1600, null],
+    formats: [null],
+    outputDir: "public/img",
+  });
+
+  const [format] = Object.keys(metadata);
+
+  const srcset = metadata[format].map(x => x.srcset).join(', ');
+  const original = metadata[format][metadata[format].length - 1];
+
+  const id = path.basename(original.filename);
+
+  return `<a href="#!" hidden class="lightbox" id="${id}">`
+    + `<span style="background-image: url('${original.url}')"></span>`
+    + `</a>`
+    + `<a href="#${id}">`
+    + `<img class="figure-img" src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
+    + `</a>`;
 }
 
 const imageObject = "http://schema.org/ImageObject";
@@ -397,18 +479,16 @@ const citationPlugin = () => {
           return `<a href="${`#ref-${id}`}">${reference.author[0].family}</a>`
             + ` (${ifSet(reference.issued, reference.issued.year)}${ifSet(suffix, `, ${suffix}`)})`;
         default:
-          return `<span className="citation">[<a href="${`#ref-${id}`}">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
+          return `<span class="citation">[<a href="${`#ref-${id}`}">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
       }
     } else {
-      return `<sup className="citation"><a href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</sup>`;
+      return `<sup class="citation"><a href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</sup>`;
     }
   };
 
   const citeExtrator = /((?<!\w)@(?<id1>\w+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>\w+)(\s+(?<what2>[^\]]+))?\])/;
 
   return async (tree, _file) => {
-    //console.log(tree);
-
     if (!unist) {
       unist = await import('unist-util-visit');
     }
@@ -430,8 +510,6 @@ const citationPlugin = () => {
       const inline = !!match.groups.id1;
       const id = match.groups.id1 || match.groups.id2;
       const what = match.groups.what1 || match.groups.what2;
-
-      console.log({ id, what, inline });
 
       if (!cited.includes(id)) {
         cited.push(id);

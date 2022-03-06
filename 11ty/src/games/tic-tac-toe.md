@@ -9,12 +9,15 @@ removed once placed, making it an ideal game to play with pen & paper.
 <!-- excerpt -->
 
 {% image 
-    alt="",
-    caption="Some tic-tac-toe games.",
-    src="tic-tac-toe/7429845046_ddc7a1464a_o.jpg" %} 
-How *about* this!
+    alt="Several games of tic-tac-toe scrawled on a concrete wall.",
+    src="tic-tac-toe/7429845046_ddc7a1464a_o.jpg",
+    author="gerogeri",
+    copyrightYear=2012,
+    originalUrl="https://www.flickr.com/photos/65029995@N05/7429845046",
+    license="cc-by-nc-nd",
+    licenseVersion="2.0" %} 
+Some tic-tac-toe **games**.
 {% imageEnd %}
-
 
 ## History
 
@@ -26,12 +29,12 @@ by children in schools during this period. Indeed, @BerkshirePhrases [p. 164]
 describes the game as “the first game taught to children when they can use a
 slate pencil”.
 
-    <ArticleImage 
-      position="aside"
-      src={imgSmallMerels}
-      alt="">
-      The small merels board with diagonals.
-    </ArticleImage>
+{% image
+  alt="",
+  src="mill-games/small_merels_with_diagonals.svg",
+  position="aside" %}
+The small merels board with diagonals.
+{% imageEnd %}
 
 However, there is an early antecedent of a game which is equivalent in play, if
 not in presentation. [Alfonso X of
@@ -95,7 +98,7 @@ The fullest expression of this rhyme is along the lines of:
 > All in a row;<br />
 > Stick one up,<br />
 > Stick one down,<br />
-> Stick one in the old man’s crown!{%footnote%}Some sources (e.g. @NurseryWitch [p. 374]) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.{%endfootnote%}
+> Stick one in the old man’s crown!{%fn%}Some sources (e.g. @NurseryWitch [p. 374]) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.{%endfn%}
 
 Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to
 any set of three lined-up objects — in [F. W. N. Bayley](https://en.wikipedia.org/wiki/F._W._N._Bayley)’s 1842
@@ -111,4 +114,4 @@ and:[@ComicNurseryTales p. 19]
 > And “three jolly butchers all of a row,”<br />
 > But Oh . . . Oh . . . Oh . . ! ! !<br />
 > It’s a double case of tit-tat-toe,<br />
-> <span className="smallcaps">And Six Dead Women all of a Row.</span>{%footnote%}Supposedly this is a children’s book.{%endfootnote%}
+> <span className="smallcaps">And Six Dead Women all of a Row.</span>{%fn%}Supposedly this is a children’s book.{%endfn%}

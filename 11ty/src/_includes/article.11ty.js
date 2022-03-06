@@ -4,13 +4,13 @@ exports.data = {
 
 exports.render = function(data) {
     // console.log(data);
-    return `<article itemScope itemType="http://schema.org/Article" itemProp="mainEntity" itemRef="author-outer">
+    return `<article itemscope itemtype="http://schema.org/Article" itemprop="mainEntity" itemref="author-outer">
     <div class="jumbotron jumbotron-fluid ${data.hero ? 'hero' : ''}" style="${data.hero ? `background-image: url('${data.hero}')` : ''}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-1"></div>
                 <div class="col-lg-10">
-                    <h1 itemProp="headline"${this.asAttr('lang', data.titleLang)}>
+                    <h1 itemprop="headline"${this.asAttr('lang', data.titleLang)}>
                         <a href="${data.page.url}" itemprop="mainEntityOfPage">${data.title}</a>
                         ${ data.draft ? ' DRAFT' : '' }
                     </h1>
