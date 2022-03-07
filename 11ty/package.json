@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "sass --no-source-map --watch src/sass/index.scss:public/css/index.css",
-    "watch:eleventy": "eleventy --serve",
+    "watch:eleventy": "eleventy --incremental --serve",
     "build:sass": "sass --no-source-map src/sass/index.scss:public/css/index.css",
     "build:eleventy": "eleventy",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -22,9 +22,11 @@
   },
   "dependencies": {
     "@11ty/eleventy-img": "^1.1.0",
+    "@11ty/eleventy-navigation": "^0.3.2",
     "@fec/eleventy-plugin-remark": "^3.0.0",
     "@fortawesome/fontawesome-free": "^6.0.0",
     "bootstrap": "4.6",
+    "github-slugger": "^1.4.0",
     "isbn3": "^1.1.20",
     "liquid-args": "^1.0.0",
     "prettier": "^2.5.1",

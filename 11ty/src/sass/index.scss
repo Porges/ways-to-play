@@ -312,6 +312,8 @@ figure {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    // background-attachment: fixed;
+    // todo: investigate why this doesn't work
     margin-bottom: 0;
 }
 
@@ -479,9 +481,11 @@ figure.footnote {
   border: none;
 }
 
+/*
 .footnote p {
     text-align: left;
 }
+*/
 
 // remove bottom margin from last <p>
 .footnote p:last-child {
@@ -775,4 +779,9 @@ a .figure-img {
 *[itemprop="isbn"] {
     font-family: 'ocrb';
     font-size: 0.9em;
+}
+
+/* Game list stuff */
+.game-variant {
+    font-style: italic;
 }

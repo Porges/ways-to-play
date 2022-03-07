@@ -1,4 +1,4 @@
-module.exports = { ifSet, asAttr, formatNumberString, renderExplicitDate, isolate }
+module.exports = { ifSet, asAttr, formatNumberString, renderExplicitDate, isolate, purify, slug, renderArticleList };
 
 /**
  * @param {string=} x 
@@ -76,5 +76,41 @@ function renderExplicitDate(date, omitIfJustYear) {
  * @returns {string}
  */
 function isolate(value) {
-    return `&#x2068;${value}&#x2069`;
+  return `&#x2068;${value}&#x2069`;
+}
+
+function purify(str) {
+  return str.replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('\'', '&#039;')
+    .replaceAll('"', '&quot;');
+}
+
+const Slugger = require('github-slugger/regex');
+
+function slug(str) {
+  return str.toLowerCase().replaceAll(Slugger, '').replaceAll(' ', '-');
+}
+
+function renderArticle(article) {
+  return `<li><a href="${article.url}"${asAttr("lang", article.titleLang)}>${article.title}</a>`
+    + (article.children ? renderArticleList(article.children) : '')
+    + `</li>`;
+}
+
+function renderArticleList(articles) {
+  if (articles.length === 0) {
+    return '';
+  }
+
+  articles.sort((x, y) => x.title.localeCompare(y.title, 'en'));
+
+  let result = '<ul class="article-list">';
+  for (const article of articles) {
+    result += renderArticle(article);
+  }
+
+  result += "</ul>";
+  return result;
 }

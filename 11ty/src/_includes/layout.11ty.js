@@ -1,26 +1,46 @@
+const { ifSet, asAttr, purify } = require('../../helpers');
+const path = require('path');
+const Image = require('@11ty/eleventy-img');
+
 exports.data = {
-    title: "Ways to Play"
+  title: "Ways to Play"
 };
 
 const tagStripper = /<[^>]*?>/g;
 const bracketStripper = /\[[^\]]*?\]/g;
 const parenStripper = / \([^)]*?\)/g;
+const newlineStripper = /\r\n|\n/g
 
 function striptags(excerpt) {
-  return excerpt
+  return purify(excerpt
     .replaceAll(tagStripper, "")
     .replaceAll(bracketStripper, "")
     .replaceAll(parenStripper, "")
-    .trim();
+    .replaceAll(newlineStripper, " ")
+    .trim());
 }
 
-exports.render = function (data) {
+exports.render = async function (data) {
   let excerpt = "";
   if (data.page.excerpt) {
     excerpt = striptags(data.page.excerpt);
   }
 
-    return `<!doctype html>
+  const title = purify(data.title);
+
+  let ogImage = '';
+  if (data.mainImage) {
+    const basedSrc = path.join(path.dirname(data.page.inputPath), data.mainImage);
+    const metadata = await Image(basedSrc, {
+      widths: [null],
+      formats: [null],
+      outputDir: "public/img",
+    });
+
+    ogImage = metadata[Object.keys(metadata)[0]][0].url;
+  }
+
+  return `<!doctype html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
@@ -30,10 +50,15 @@ exports.render = function (data) {
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,500&family=Vollkorn:wght@500&display=swap" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000" />
-    <title>${data.title} · Ways To Play</title>
-    ${ excerpt ? `<meta name="description" content="${excerpt}" />` : '' }
+    <title>${title} · Ways To Play</title>
+    <meta property="og:site_name" content="Ways To Play" />
+    <meta property="og:title" content="${title}"${asAttr('lang', data.titleLang)} />
+    <meta property="og:url" content="${data.page.url}" />
+    ${ifSet(data.ogType, `<meta property="og:type" content="${data.ogType}" />`)}
+    ${ifSet(ogImage, `<meta property="og:image" content="${ogImage}" />`)}
+    ${ifSet(excerpt, `<meta property="og:description" content="${excerpt}" />`)}
   </head>
-  <body>
+  <body itemscope itemtype="http://schema.org/WebPage">
     <header>
       <nav class="navbar navbar-expand navbar-dark bg-primary">
         <div class="container">
@@ -52,18 +77,19 @@ exports.render = function (data) {
       <span class="ml-auto navbar-text">
       ©
       ${this.person({
-        name: {given: "George", family: "Pollard"},
-        url:"https://porg.es",
-        sameAs:"https://twitter.com/porges",
-        itemProp:"copyrightHolder author publisher",
-        id:"author-outer",
-        innerId:"author"
-      })}
+    name: { given: "George", family: "Pollard" },
+    url: "https://porg.es",
+    sameAs: "https://twitter.com/porges",
+    itemprop: "copyrightHolder author publisher",
+    id: "author-outer",
+    innerId: "author"
+  })}
       ${this.license({
-        leading: true,
-        rel: "license",
-        license: "cc-by-nc-sa",
-        version: "4.0" })}
+    leading: true,
+    rel: "license",
+    license: "cc-by-nc-sa",
+    version: "4.0"
+  })}
       · Feedback? Let <a href="https://twitter.com/porges">@porges</a> know or <a href="https://github.com/Porges/ways-to-play/issues/new">open an issue</a>.
       </span>
     </footer>
