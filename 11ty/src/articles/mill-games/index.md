@@ -4,9 +4,9 @@ mainImage: 'shutterstock_120413827.jpg'
 hero:
     image: 'shutterstock_235028281.jpg'
     organization:
-        orgName: "Shutterstock.com" 
-    author: "Delpixel"
+      orgName: "Shutterstock.com" 
     originalUrl: "https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281"
+    author: "Delpixel"
     license: "stock-image"
 ---
 

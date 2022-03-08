@@ -1,4 +1,7 @@
-module.exports = { ifSet, asAttr, formatNumberString, renderExplicitDate, isolate, purify, slug, renderArticleList };
+const { env } = require('process');
+const IS_PRODUCTION = env.NODE_ENV === 'production';
+
+module.exports = { ifSet, asAttr, formatNumberString, renderExplicitDate, isolate, purify, slug, renderArticleList, IS_PRODUCTION };
 
 /**
  * @param {string=} x 
@@ -76,7 +79,7 @@ function renderExplicitDate(date, omitIfJustYear) {
  * @returns {string}
  */
 function isolate(value) {
-  return `&#x2068;${value}&#x2069`;
+  return `&#x2068;${value}&#x2069;`;
 }
 
 function purify(str) {

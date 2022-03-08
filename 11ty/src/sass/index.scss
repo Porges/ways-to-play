@@ -46,6 +46,9 @@ $font-weight-normal: 300;
 
 $line-height-base: 1.4;
 
+// override font path for 11ty
+$fa-font-path: "/fonts/";
+
 // Using letter-spacing disables ligatures :/
 //article p { letter-spacing: -0.011em; }
 //.lead { letter-spacing: -0.017em; }
@@ -213,12 +216,11 @@ blockquote {
 /* big quote before epigraph quotes */
 .epigraph::before {
     content: '❝';
-    display: inline-block;
+    display: block;
     margin-left: -.7em;
-    width: .7em;
-    line-height: 0;
-    vertical-align: text-bottom;
     font-size: 3em;
+    position: absolute;
+    margin-top: -.3em;
 }
 
 /*** Figures ***/
@@ -248,6 +250,7 @@ img {
 }
 
 /* don't border diagrams by default */
+/*! purgecss ignore */
 .figure-img[src$=".svg"] {
     border: none;
 }
@@ -669,17 +672,20 @@ article a {
 
 /** Branding **/
 
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
-@import '../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
-
+/*! purgecss ignore */
 a[href*="wikipedia.org" i] {
     &:after {
-        @extend %fa-icon;
-        @extend .fab;
-        content: fa-content($fa-var-wikipedia-w);
-        vertical-align: super;
-        font-size: .5em;
-        line-height: 0; // don't let sub/superscript affect line-height
+        content: ' ';
+        background-image: url(/fonts/wikipedia-w.svg);
+        width: 9px;
+        height: 1em;
+        display: inline-block;
+        background-repeat: no-repeat;
+        margin-right: -3px;
+
+        // vertical-align: super;
+        // font-size: .5em;
+        // line-height: 0; // don't let sub/superscript affect line-height
     }
 
     &:hover:after {

@@ -7,7 +7,7 @@ const prettier = require('prettier');
 const fs = require('node:fs/promises');
 const { env } = require('process');
 
-const { asAttr, ifSet, slug } = require('./helpers');
+const { asAttr, ifSet, slug, IS_PRODUCTION } = require('./helpers');
 const references = require('./references');
 const { articleImage, person, license, organization } = require('./images');
 
@@ -65,6 +65,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("license", license);
   eleventyConfig.addShortcode("asAttr", asAttr);
 
+  eleventyConfig.addShortcode("cards", cards);
   eleventyConfig.addLiquidTag("gameref", gameRef);
 
   eleventyConfig.addPairedShortcode("aside", function (content) {
@@ -77,7 +78,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLiquidTag("pronounce", function (liquidEngine) {
     return {
-      parse: function (tagToken, remainTokens) {
+      parse: function (tagToken) {
         this.args = tagToken.args;
       },
       render: function* (scope) {
@@ -125,8 +126,8 @@ module.exports = function (eleventyConfig) {
   });
 
   // customize sort of articles
-  eleventyConfig.addCollection("article", function(collectionApi){
-    return collectionApi.getFilteredByTag("article").sort(function(x, y) {
+  eleventyConfig.addCollection("article", function (collectionApi) {
+    return collectionApi.getFilteredByTag("article").sort(function (x, y) {
       return x.inputPath.localeCompare(y.inputPath, 'en');
     });
   });
@@ -146,16 +147,42 @@ function pronunciation(props) {
   return `<audio preload="none" src="${mp3File}"></audio><span class="pronunciation${ifSet(noun, ' proper-noun')}" lang="${lang}" title="Pronunciation © ‘${pronouncer}’ CC-BY-NC-SA 3.0, courtesy of Forvo.com." onclick="this.previousSibling.play()">${word}</span>`;
 }
 
+const cardsRegex = /(?<=[\dAJQK]+)|(?=[\dAJQK]+)/;
+/**
+ * @param {string|number} content 
+ */
+function cards(content) {
+  if (typeof content === 'number') {
+    return `<span class="playing-cards">${content}</span>`;
+  }
+
+  return '<span class="playing-cards">'
+    + content.split(cardsRegex).map(p => {
+      switch (p) {
+        case 's': return '♠';
+        case 'c': return '♣';
+        case 'h': return '<span class="red">♥</span>';
+        case 'd': return '<span class="red">♦</span>';
+      }
+    }).join('')
+    + '</span>';
+}
+
 //figured out via ttps://github.com/11ty/eleventy/issues/813#issuecomment-1037834776
-function gameRef(_liquidEngine) {
+function gameRef() {
   return {
-    parse: function (tagToken, _remainingTokens) {
+    parse: function (tagToken) {
       this.ref = tagToken.args;
     },
     render: async function (context) {
       const games = context.environments.collections.game;
       const gameArticle = games.find(g => g.fileSlug === this.ref);
       if (gameArticle) {
+        if (IS_PRODUCTION && gameArticle.draft) {
+          // don't link drafts in production
+          return `<span${asAttr('lang', gameArticle.data.titleLang)}>${gameArticle.data.title}</span>`;
+        }
+
         return `<a href="${gameArticle.url}"${asAttr('lang', gameArticle.data.titleLang)}>${gameArticle.data.title}</a>`;
       }
 
@@ -165,13 +192,23 @@ function gameRef(_liquidEngine) {
           for (sg of g.data.subgames) {
             const s = sg.slug || slug(sg.title);
             if (s === this.ref) {
+              if (IS_PRODUCTION && g.draft) {
+                // don't link drafts in production
+                return `<span${asAttr('lang', sg.titleLang)}>${sg.title}</span>`;
+              }
+
               return `<a href="${g.url}#${s}"${asAttr('lang', sg.titleLang)}>${sg.title}</a>`;
             }
           }
         }
       }
 
-      throw new Error(`unknown game reference: ${this.ref}`);
+      if (IS_PRODUCTION) {
+        throw new Error(`unknown game reference: ${this.ref}`);
+      } else {
+        console.log("Uknown game ref: ", this.ref);
+        return `UNKNOWN GAME REF: ${this.ref}`;
+      }
     }
   }
 }
@@ -222,7 +259,7 @@ const citationPlugin = () => {
     }
   };
 
-  const citeExtrator = /((?<!\w)@(?<id1>\w+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>\w+)(\s+(?<what2>[^\]]+))?\])/;
+  const citeExtrator = /((?<!\w)@(?<id1>[\wāēīōū]+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>[\wāēīōū]+)(\s+(?<what2>[^\]]+))?\])/;
 
   return async (tree, _file) => {
     if (!unist) {
@@ -292,7 +329,7 @@ const citationPlugin = () => {
             },
             children: cited.map(id => {
               if (!(id in biblio)) {
-                if (env === "production") {
+                if (IS_PRODUCTION) {
                   throw new Error("unknown reference id: " + id);
                 } else {
                   console.error("unknown reference id: ", id);

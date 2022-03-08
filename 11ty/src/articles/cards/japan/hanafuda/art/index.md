@@ -1,15 +1,21 @@
 ---
-title: The History & Art of Hanafuda
+title: 'The History & Art of Hanafuda'
 mainImage: DP135571.jpg
+hero:
+    image: 'DP135571.jpg'
+    license: 'cc0'
+    originalUrl: 'https://www.metmuseum.org/art/collection/search/37303'
+    organization: 
+        orgName: "Metropolitan Museum of Art"
 ---
 
 <p class="lead"><Noun lang="ja-Latn">Hanafuda</Noun> cards first appeared in Japan in the middle
-of the {% pronounce lang="ja-Latn" word="Edo" noun pronouncer="Nipponese"
+of the {% pronounce lang="ja-Latn" word="Edo" noun=true pronouncer="Nipponese"
 file="pronunciation_ja_江戸.mp3" %} period (<span lang="ja">江戸</span>, 1603–1868), but the
 distant origins of <Noun lang="ja-Latn">Hanafuda</Noun> cards lie in much older
 “object-comparing games” (<span lang="ja">物合わせ</span> {% pronounce 
 lang="ja-Latn" word="mono-awase" file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan" %})
-that had been played since the {% pronounce lang="ja-Latn" word="Heian" noun
+that had been played since the {% pronounce lang="ja-Latn" word="Heian" noun=true
 pronouncer="skent" file="pronunciation_ja_平安.mp3" %} period (<span lang="ja">平安</span>,
 794–1185).</p>
 
@@ -21,7 +27,7 @@ In their original form, <span lang="ja-Latn">mono-awase</span> were courtly
 competitions in which various objects were compared as to their qualities or
 unique attributes:{%fn%}Although the same terminology of <span
 lang="ja-Latn">awase</span> was also used for sports such as
-cock-fighting.[@WorldOfTheShiningPrince" p. 165]{%endfn%} objects that were
+cock-fighting.[@WorldOfTheShiningPrince p. 165]{%endfn%} objects that were
 judged in these competitions included artifacts such as fans or
 paintings;[@BrocadeByNight p. 242] flowers and plants (chrysanthemums, iris
 roots,[@WorldOfTheShiningPrince p. 163] wild pinks); animals (insects,
@@ -30,12 +36,12 @@ tea[@AnIntroductionToJapaneseTeaRitual p. 26]; or — what we are most inter
 in here — shells.
 
 The competitions were generally organized between two teams, named Left (who
-began the game, and usually had higher-ranking members)<Footnote>In Japan, the
+began the game, and usually had higher-ranking members){%fn%}In Japan, the
 left-hand side was traditionally considered the dominant or “masculine” side
 (see the [naming of shells below](#kai-awase-to-kai-oi)), the
 opposite of European tradition. In the <Noun lang="ja-Latn">Heian</Noun> period,
 the Minister of the Left (<span lang="ja">左大臣</span>) outranked the Minister
-of the Right (<span lang="ja">右大臣</span>).</Footnote> and Right, and
+of the Right (<span lang="ja">右大臣</span>).{%endfn%} and Right, and
 consisted of a series of rounds in which each team would present one item at a
 time, often with accompanying poem. Another format involved the presentation of
 a selection of objects on a miniature artificial garden or island called a <span
@@ -48,7 +54,7 @@ expensive wood or precious metals.
     alt=";"
     size="wide"
     license="cc0",
-    orgName="Waseda University" },
+    orgName="Waseda University", 
     originalUrl="https://www.wul.waseda.ac.jp/kotenseki/html/ri05/ri05_06661/index.html" %}
 A depiction of the full-moon competition including two <span lang="ja-Latn">suhama</span>, from an edition of unknown date.
 {% imageEnd %}
@@ -111,7 +117,7 @@ Right placed tiny replicas of musical instruments in a silver box inlaid with
 crystal.”[@BrocadeByNight p. 243]{%fn%}Elaborate scoring tracks were [also used
 for incense competitions](https://images.dnpartcom.jp/ia/workDetail?id=TAM000634).{%endfn%}
 
-### An aside about span lang="ja-Latn">Uta-awase</span>
+### An aside about <span lang="ja-Latn">Uta-awase</span>
 
 Out of all the types of competition, the most esteemed was to eventually be the
 poetry match (<span lang="ja">歌合わせ</span> <span
@@ -289,8 +295,8 @@ was at first decorated with matching fabrics, and then elaborately painted or
 even gilded. After the <Noun lang="ja-Latn">Kamakura</Noun> period (1333), it
 became common to illustrate the shells with matching scenes from the [Tale of
 Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) (<span lang="ja">源氏物
-語</span> {% pronounce word="Genji Monogatari" file="pronunciation_ja_源氏物語
-.mp3" pronouncer="straycat88" lang="ja-Latn" %}) — the game is also played in
+語</span> {% pronounce word="Genji Monogatari" file="pronunciation_ja_源氏物語.mp3"
+ pronouncer="straycat88" lang="ja-Latn" %}) — the game is also played in
 Chapter 45 of the novel itself. Other designs included shells with half of a
 poem in each, so that the matching pair could be read as a complete poem; these
 types of the game would eventually evolve into the <span
@@ -377,7 +383,7 @@ lang="ja-Latn">hanafuda</span> deck was already present.
 
 At the moment it is unclear exactly how the <Noun lang="ja-Latn">Hanafuda</Noun>
 deck was developed from the <span lang="ja-Latn">hana-awase</span>
-cards.<Footnote>I hope to expand on this in future!</Footnote> It seems that at
+cards.{%fn%}I hope to expand on this in future!{%endfn%} It seems that at
 some point an enterprising manufacturer began to produce a stripped-down version
 that Japanese <Noun lang="ja-Latn">Hanafuda</Noun> scholar <Noun
 lang="ja-Latn">Ebashi Takashi</Noun> (<span lang="ja">江橋崇</span>) calls the
@@ -453,7 +459,7 @@ lang="ja-Latn">Meiji-za</Noun>](https://en.wikipedia.org/wiki/Meiji-za)).
 {% image cram=true src='Play-Left.jpg;Play-Right.jpg' alt=";" 
     orgName="Art Research Center, Ritsumeikan University"
     originalUrl="https://jpsearch.go.jp/item/arc_nishikie-M648_011aNr010a",
-    license="cc-by-nc-sa", licenseVersion: "4.0" %} 
+    license="cc-by-nc-sa", licenseVersion="4.0" %} 
 Advertisement for <Noun lang="ja-Latn">Maeda</Noun>’s play entitled <cite
 lang="ja">花合四季盃</cite> (“Flower-matching four seasons sake cup”). The
 background shows an early form of <Noun lang="ja-Latn">Hanafuda</Noun> deck. On
@@ -466,7 +472,7 @@ Michikaze</Noun>.
 {% imageEnd %}
 
 In addition to the retail stores, a specialized wholesale store was opened in
-the {% pronounce lang="ja-Latn" noun word="Ningyōchō" pronouncer="keto2204"
+the {% pronounce lang="ja-Latn" noun=true word="Ningyōchō" pronouncer="keto2204"
 file="pronunciation_ja_人形町通り.mp3" %} street in the <Noun
 lang="ja-Latn">Sumi&shy;yoshi</Noun> neigh&shy;bour&shy;hood,{%fn%}<Noun
 lang="ja-Latn">Sumiyoshi-chō</Noun> was an <Noun
@@ -540,11 +546,11 @@ position.[@EmperorOfJapan p. 813]
 
 Despite this “image problem”, playing <Noun lang="ja-Latn">Hanafuda</Noun>
 became part of what it meant to be a <span lang="ja-Latn">shinshi</span> (<span
-lang="ja">紳士</span>) — that is, a modern, wordly gentleman.<Footnote>The
+lang="ja">紳士</span>) — that is, a modern, wordly gentleman.{%fn%}The
 Japanese word <span lang="ja-Latn">shinshi</span> had originally been coined in
 order to translate the English “gentleman”,[@TheEastandtheIdeaofEurope p. [[32,
 38]]] and was particularly associated with those who enthusiastically embraced
-Westernization during the <Noun lang="ja-Latn">Meiji</Noun> period.</Footnote>
+Westernization during the <Noun lang="ja-Latn">Meiji</Noun> period.{%endfn%}
 The author <Noun lang="ja-Latn">Uchida Roan</Noun> (1868–1929) is said to have
 joked:
 
@@ -637,10 +643,10 @@ early cards are often imitations of those produced by such US companies as the
 National Card Company which had been merged with the United States Playing-card
 Company in 1894.[@WOPCNCC]
 
-In 1904, the Japanese government nationalized<Footnote><Noun
+In 1904, the Japanese government nationalized{%fn%}<Noun
 lang="ja-Latn">Kichibei</Noun> was compensated massively for being pushed out of
 the industry and later founded a bank, among many other
-enterprises.[@JapanInTheTaishoEra p. 632]</Footnote> the manufacture of all
+enterprises.[@JapanInTheTaishoEra p. 632]{%endfn%} the manufacture of all
 tobacco products, and the <Noun lang="ja-Latn">Tōyō</Noun> Printing subsidiary
 was taken over by British-American Tobacco.[@TarHeel p. 362]
 
@@ -649,7 +655,7 @@ was taken over by British-American Tobacco.[@TarHeel p. 362]
     size="wide"
     perRow=5
     src="Murai1.jpg;Murai2.jpg;Murai3.jpg;Murai4.jpg;Murai5.jpg;MuraiBack1.jpg;MuraiBack2.jpg;MuraiBack3.jpg;MuraiBack4.jpg;MuraiBack5.jpg"
-    alt='A tobacco card with a maple and tanzaku pattern, along with the 10 of diamonds.;A tobacco card with the moon bright and the 8 of hearts.;A tobacco card with the wisteria tanzaku and the 4 of hearts.A tobacco card with maple leaves drifting on water and the 10 of spades.A tobacco card with the November swallow and the King of hearts.;;;;;' 
+    alt='A tobacco card with a maple and tanzaku pattern, along with the 10 of diamonds.;A tobacco card with the moon bright and the 8 of hearts.;A tobacco card with the wisteria tanzaku and the 4 of hearts.A tobacco card with maple leaves drifting on water and the 10 of spades.A tobacco card with the November swallow and the King of hearts.;;;;;;;' 
     %}
 Fronts and backs of combination tobacco cards produced by <Noun
 lang="ja-Latn">Murai</Noun> Brothers, prior to 1904. The hand-written markings
@@ -746,13 +752,12 @@ some cards of the <span lang="ja-Latn">Echigo-bana</span> pattern.
     noborder=true
     perRow=4
     license='cc0',
-    orgName='Boston Museum of Fine Arts' },
-    originalUrl="https://www.mfa.org/collections/object/title-page-from-the-series-forty-eight-hawks-drawn-from-life-ikiutsushi-shij%C3%BBhachi-taka-209778",
-    %}
+    orgName='Boston Museum of Fine Arts',
+    originalUrl="https://www.mfa.org/collections/object/title-page-from-the-series-forty-eight-hawks-drawn-from-life-ikiutsushi-shij%C3%BBhachi-taka-209778" %}
 Art in the <span lang="ja-Latn">kachō-ga</span> style: a selection of prints
 from the series <cite>Forty-Eight Hawks Drawn From Life</cite><br /> <cite
 lang="ja">生うつし四十八鷹</cite> (1859), by <Noun lang="ja-Latn">Nakayama
-Sūgakudō</Noun>
+Sūgakudō</Noun>.
 {% imageEnd %}
 
 ## Hanafuda Patterns
@@ -778,7 +783,7 @@ month below.
 
 {% image
     size="small"
-    src='../5_brights.jpg'
+    src='../intro/5_brights.jpg'
     alt="Five Hanafuda cards: the crane, cherry curtain, moon, rain-man, and phoenix." %}
 The 5 Bright cards of the <span lang="ja-Latn">hachihachi-bana</span> pattern,
 from a <Noun lang="ja-Latn">Nintendo</Noun> deck.
@@ -820,7 +825,7 @@ cuckoo as shown on the Daiso <Noun lang="ko-Latn">Hwatu</Noun>-format deck.
 {% image
     size="small"
     src="Japan_vs_Korean_man.jpg"
-    alt="Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean."%}
+    alt="Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean." %}
 The ‘rain man’ wears traditional clothing in both Japanese and Korean decks. The
 Japanese man (left) wears a <Noun lang="ja-Latn">Heian</Noun> period courtier’s
 daily outfit (<span lang="ja">狩衣</span> {% pronounce pronouncer="skent"
@@ -870,16 +875,16 @@ lang="ja-Latn">Ōishi Tengudō</Noun>.
 {% imageEnd %}
 
 Some of the <span lang="ja-Latn">kasu</span> cards also carry short poems (<span
-lang="ja">短歌</span> {%pronounce pronouncer="akitomo" word="tanka"
-lang="ja-Latn" file="pronunciation_ja_短歌.mp3" %}). Poetry is a common sight on traditional
+lang="ja">短歌</span> {%pronounce pronouncer="akitomo" word="tanka" lang="ja-Latn"
+ file="pronunciation_ja_短歌.mp3" %}). Poetry is a common sight on traditional
 Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints
 above — and often provides more context to the images. The poems of the <Noun
 lang="ja-Latn">Echigo-bana</Noun> will be examined in more detail below.
 
 ### <Noun lang="ja-Latn">Echigo-kobana</Noun>
 
-The {% pronounce lang="ja-Latn" word="Echigo-kobana" file="pronunciation_ja_越後
-小花.mp3" pronouncer="poyotan" %} (<span lang="ja">越後小花</span> ‘Echigo small
+The {% pronounce lang="ja-Latn" word="Echigo-kobana" file="pronunciation_ja_越後小花.mp3"
+ pronouncer="poyotan" %} (<span lang="ja">越後小花</span> ‘Echigo small
 flowers’) pattern is similar to the <Noun lang="ja-Latn">Echigo-bana</Noun>, but
 with very small cards measuring approximately 3&nbsp;cm × 4.5&nbsp;cm (1⅛″ ×
 1¾″).
@@ -957,7 +962,7 @@ very closely.
 
 {% image
     src="dairenbana.jpg"
-    alt="Three hanafuda cards: the first, with a red ribbon with writing on it, has a background consisting of a wave pattern; the second, with a red ribbon without writing, has a diagonal-striped background; and the third, with a blue ribbon, has a hatched background." %}
+    alt="Three hanafuda cards: the first, with a red ribbon with writing on it, has a background consisting of a wave pattern, the second, with a red ribbon without writing, has a diagonal-striped background, and the third, with a blue ribbon, has a hatched background." %}
 Three cards showing the different backgrounds for each type of <span lang="ja-Latn">tanzaku</span> card.
 {% imageEnd %}
 
@@ -975,9 +980,9 @@ Firstly, a short note about the ordering of the deck: while nominally the cards
 start in ‘January’, at the time the deck was created Japan’s calendar was based
 upon the lunisolar Chinese calendar, which started in what is now February. This
 explains why ‘March’ is the month of the cherry blossom when — according to the
-current calendar — it should be April,<Footnote>In Kyoto from the 11th to 13th
+current calendar — it should be April,{%fn%}In Kyoto from the 11th to 13th
 centuries, the average peak of the cherry blossom season was April
-17th.[@FourSeasons p. 484} pageType="l." /></Footnote> and why ‘August’ shows
+17th.[@FourSeasons loc. 484]{%endfn%} and why ‘August’ shows
 the full moon when the full moon festival (<span lang="ja">月見</span> {%
 pronounce pronouncer="skent" word="tsukimi" lang="ja-Latn"
 file="pronunciation_ja_月見.mp3" %} actually falls in September–October.
@@ -989,8 +994,8 @@ willows, and a frog, all of which are associated with summer.
 In Korea, an altered ordering is used where the ‘November’ and ‘December’ months
 are switched. There is also another ordering used in Japan which might be called
 the “<Noun lang="ja-Latn">Nagoya</Noun> ordering”, as it is used in several
-games from that region.<Footnote>This order will be explained when I get around
-to writing the games articles!</Footnote>
+games from that region.{%fn%}This order will be explained when I get around
+to writing the games articles!{%endfn%}
 
 ### <span lang="ja">1月</span>
 
@@ -1013,15 +1018,15 @@ lang="ja-Latn">kasu</span> cards.
     src="HoraiKimono.jpg"
     originalUrl="https://collections.mfa.org/objects/30805/kimono-uchikake",
     orgAbbr="MFA", orgName="Museum of Fine Arts Boston"
-    license: 'cc0' %}
+    license='cc0' %}
 An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <Noun
 lang="ja-Latn">Hōrai</Noun> pattern: plum and pine trees with cranes, atop a
 large turtle.
 {% imageEnd %}
 
 The first month is represented by pine trees (<span lang="ja">松</span> {%
-pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file="pronunciation_ja_
-松.mp3" %}). The bright card shows a crane and pine trees, with the sun rising
+pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file="pronunciation_ja_松.mp3"
+ %}). The bright card shows a crane and pine trees, with the sun rising
 in the background. Both the crane and the pine are symbols of longevity, so they
 are a common combination in Japanese art; the mythical [Mount <Noun
 lang="ja-Latn">Hōrai</Noun>](https://en.wikipedia.org/wiki/Mount_Penglai),
@@ -1104,11 +1109,14 @@ Nintendo and <Noun lang="ja-Latn">Ōishi Tengudō</Noun>, the card is missing th
 {%endaside%}
 
 <div class="multi">
-    <p lang="ja" class="vertical-rl">
-    ときはなる<br />松のみどりも<br />春くれば<br />今ひとしほの<br />色まさりけり
-    </p>
-    <p>Even the verdure<br />of foliage on the pine tree,<br />“ever unchanging”,<br />
-    deepens into new richness<br />now that springtime has arrived.[@KokinWakashu p. 18]</p>
+<p lang="ja" class="vertical-rl">
+ときはなる<br />松のみどりも<br />春くれば<br />今ひとしほの<br />色まさりけり
+</p>
+
+Even the verdure<br />of foliage on the pine tree,<br />“ever unchanging”,<br />
+deepens into new richness<br />now that springtime has arrived.[@KokinWakashu p.
+18]
+
 </div>
 
 The <span lang="ja-Latn">Awa-bana kasu</span> carries a shortened reference to
@@ -1229,7 +1237,7 @@ more popular later on:
 <div class="multi">
 <p lang="ja" class="vertical-rl">鴬の<br />鳴音はしるき<br />梅の花<br />色まがえとや<br />雪の降るらん</p>
 
-The nightingale’s<br />Song is clear<br />And the white plum blossom<br />Becomes lost<br />In the falling snow.[@PoemsOfTheEchigobana p. 99]<
+The nightingale’s<br />Song is clear<br />And the white plum blossom<br />Becomes lost<br />In the falling snow.[@PoemsOfTheEchigobana p. 99]
 
 </div>
 
@@ -1265,9 +1273,9 @@ lang="ja">北尾 重政</span>, 1739–1820).
     position="aside"
     size="wide"
     alt="A mountain covered in cherry blossom trees showing light pink blooms, amongst other dark green trees."
-    license= 'cc-by-nc-nd',
+    license='cc-by-nc-nd',
     licenseVersion='4.0',
-    originalUrl= 'http://photozou.jp/photo/show/314766/35962820',
+    originalUrl='http://photozou.jp/photo/show/314766/35962820',
     copyrightYear=2010,
     authorName='ゆぼ', authorLang="ja" %}
 The <Noun lang="ja-Latn">Yoshino</Noun> mountainside with cherry trees in bloom.
@@ -1389,15 +1397,15 @@ card, and two <span lang="ja-Latn">kasu</span> cards.
     Wisteria in bloom.
 {% imageEnd %}
 
-The fourth month is represented by wisteria (<span lang="ja">藤</span> {%
-pronounce pronouncer="kaoring" word="fuji" lang="ja-Latn"
-file='pronunciation_ja_藤.mp3' %}). These cards are also nicknamed ‘black bean’
-(<span lang="ja">黒豆</span> {%pronounce pronouncer="usako_usagiclub"
+The fourth month is represented by wisteria (<span lang="ja">藤</span> {% pronounce 
+pronouncer="kaoring" word="fuji" lang="ja-Latn" file='pronunciation_ja_藤.mp3' %}).
+These cards are also nicknamed ‘black bean’
+(<span lang="ja">黒豆</span> {% pronounce pronouncer="usako_usagiclub"
 word="kuromame" lang="ja-Latn" file="pronunciation_ja_黒豆.mp3" %}), due to
 their appearance. This month shows the tran&shy;sition from spring to summer;
 the lesser cuckoo (<span lang="ja">ホトトギス</span> {% pronounce
-pronouncer="forsmith" word="hototogisu" lang="ja-Latn" file="pronunciation_ja_ホ
-トトギス.mp3" %}) is a bird of summer,[@FourSeasons loc. 1065] while wisteria is
+pronouncer="forsmith" word="hototogisu" lang="ja-Latn" file="pronunciation_ja_ホトトギス.mp3" %}) 
+is a bird of summer,[@FourSeasons loc. 1065] while wisteria is
 associated with the passage of spring into summer;[@FourSeasons loc. 1021] it is
 also known as the ‘two-season plant’ (<span lang="ja">二季草</span> <span
 lang="ja-Latn">niki&shy;sou</span>). Like the bush warbler and spring, the first
@@ -1434,7 +1442,7 @@ wisteria) to summer (represented by the arrival of the cuckoo):
 <div class="multi">
 <p lang="ja" class="vertical-rl">わがやどの<br />池の藤波<br />さきにけり<br />山郭公<br />いつかきなかむ</p>
 
-At my home<br />On the pond wisteria waves<br />Are breaking:<br />Mountain cuckoo,<br />When might you come and sing?<br />[@KKS135]>
+At my home<br />On the pond wisteria waves<br />Are breaking:<br />Mountain cuckoo,<br />When might you come and sing?<br />[@KKS135]
 
 Cascades of flowers<br />bloom on the wisteria<br />by my garden lake.<br />When might the mountain cuckoo<br />come with his melodious song?<br />[@KokinWakashu p. 40]
 
@@ -1512,6 +1520,7 @@ this scene, the iris and the planked bridge have a long association in Japan.
 {% image
     size="extra-wide"
     src="Irises_at_Yatsuhashi_(left).jpg;Irises_at_Yatsuhashi_(right).jpg"
+    alt=";"
     perRow=2
     license='cc0' %}
 <cite>Irises at <Noun lang="ja-Latn">Yatsuhashi</Noun></cite><br /><cite
@@ -1548,7 +1557,7 @@ which do exist usually mention its striking colour, size, or Chinese origins.
 
 {% image
     position="aside"
-    src="imgHagiBoar"
+    src="SC138896.jpg"
     orgName="Boston Museum of Fine Arts",
     orgAbbr="MFA"
     originalUrl="https://collections.mfa.org/objects/234703",
@@ -1677,7 +1686,7 @@ card, and two <span lang="ja-Latn">kasu</span> cards.
     author="mana_wu",
     copyrightYear=2009,
     license="cc-by-nc-nd",
-    licenseVersion="2.0", %}
+    licenseVersion="2.0" %}
 Miscanthus plumes.
 {% imageEnd %}
 
@@ -2004,12 +2013,12 @@ being able to match any other card.
 {%aside%}
 It has been suggested (e.g. by author <Noun lang="ja-Latn">Murai Shōzō</Noun>
 <span lang="ja">村井省三</span> and by <Noun lang="ja-Latn">Ōishi
-Tengudō</Noun><Cite r="OishiSadakuro" />) that the running “Umbrella Man” has
+Tengudō</Noun>[@OishiSadakuro]) that the running “Umbrella Man” has
 its origins in the character of <Noun lang="ja-Latn">Sadakurō</Noun> from the
 <span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal
 Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite
 lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <Noun
-lang="ja-Latn">Ebashi</Noun> points out,<Cite r="EbashiSadakuro" /> the <span
+lang="ja-Latn">Ebashi</Noun> points out,[@EbashiSadakuro] the <span
 lang="ja-Latn">hana-awase</span> deck pictured at the top of this article
 contains an “Umbrella Man”. This precludes the <Noun
 lang="ja-Latn">Sadakurō</Noun> origin story, as the play was written some 40
@@ -2045,7 +2054,7 @@ preserved in the <Noun lang="ja-Latn">Echigo-bana</Noun> pattern.
     size="small"
     position="left"
     src="ekb_rainman.jpg"
-    alt="A card with a picture of a figure carrying an umbrella and walking away from the viewer; the figure has a fluffy orange tail." %}
+    alt="A card with a picture of a figure carrying an umbrella and walking away from the viewer. The figure has a fluffy orange tail." %}
 The <Noun lang="ja-Latn">Echigo-kobana</Noun> “rain man” appears to be some kind of animal.
 {% imageEnd %}
 

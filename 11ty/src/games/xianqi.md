@@ -1,6 +1,6 @@
 ---
 title: "Xiàngqí"
-titleLang: "zh-Latn"
+titleLang: zh-Latn
 draft: true
 players: 2
 ---

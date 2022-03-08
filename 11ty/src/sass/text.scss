@@ -1,3 +1,5 @@
+/*! purgecss start ignore */
+
 /*** Italicize all *-Latn langauges: ***/
 span[lang$="-Latn"],
 /*** Italicize non-English (but Latin) languages: ***/
@@ -62,7 +64,7 @@ body {
 /* Override fonts for specific languages.
   We cannot simply list these in the font-family list as
   that will forcibly choose the first one that matches. */
-  
+
 :lang(ja) {
   font-family:
     "Yu Gothic", /* Japanese: Windows font, prefer this to Meiryo which is default otherwise */
@@ -136,3 +138,5 @@ figcaption .playing-cards {
 .blue {
   color: #0000CC;
 }
+
+/*! purgecss end ignore */

@@ -16,45 +16,9 @@ const articles: List = {
     import: React.lazy(() => import(/* webpackChunkName: 'articles-intro' */ './articles-intro')),
   },
   articles: new Map([
-    ['people', {
-      title: "Games Historians",
-      articles: new Map([
-        ['hjr-murray', {
-          title: "H. J. R. Murray",
-          import: React.lazy(() => import(/* webpackChunkName: 'hjr-murray' */ './people/HJR-Murray')),
-        }]
-      ])
-    }],
-    ['mill-games', {
-      title: "Mill Games",
-      import: React.lazy(() => import(/* webpackChunkName: 'mill-games' */ './mill-games')),
-      hero: {
-        img: require('content/games/NineMensMorris/shutterstock_235028281.jpg'),
-        source: {
-          organization: { orgName: "Shutterstock.com" },
-          author: "Delpixel",
-          originalUrl: "https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281",
-          license: "stock-image"
-        }
-      },
-    }],
     ['cards', {
       title: "Playing Cards",
       articles: new Map([
-        ['ceki', {
-          title: 'Ceki cards',
-          draft: true,
-          import: React.lazy(() => import(/* webpackChunkName: 'ceki' */ './cards/ceki/Ceki')),
-        }],
-        ['china', {
-          title: "Chinese Cards",
-          article: {
-            title: "Overview of Chinese Cards",
-            draft: true,
-            import: React.lazy(() => import(/* webpackChunkName: 'chinese-cards' */ './cards/china/introduction')),
-          },
-          articles: new Map(),
-        }],
         ['japan', {
           title: "Japanese Cards",
           article: {
@@ -77,10 +41,6 @@ const articles: List = {
                 import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-intro' */ './cards/japan/hanafuda/basics'))
               },
               articles: new Map([
-                ['art', {
-                  title: "The History & Art of Hanafuda",
-                  import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-art' */ './cards/japan/hanafuda/art'))
-                }],
                 ['traditional-manufacturers', {
                   title: "Traditional Hanafuda Brands",
                   import: React.lazy(() => import(/* webpackChunkName: 'hanafuda-traditional-brands' */ './cards/japan/hanafuda/manufacturers/traditional'))
@@ -93,10 +53,6 @@ const articles: List = {
             }],
           ])
         }],
-        ['new-zealand', {
-          title: "Playing Cards in New Zealand",
-          import: React.lazy(() => import(/* webpackChunkName: 'playing-cards-nz' */ './cards/nz/new-zealand'))
-        }]
       ])
     }],
   ])

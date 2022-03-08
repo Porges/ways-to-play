@@ -1,4 +1,5 @@
 const { slug } = require('../helpers');
+const { env } = require('process');
 
 exports.data = {
     title: "Games",
@@ -6,9 +7,7 @@ exports.data = {
 };
 
 exports.render = function (data) {
-    const games = [...data.collections.game];
-
-    const expandedGames = games.flatMap(g =>
+    const expandedGames = data.collections.game.flatMap(g =>
         [
             { title: g.data.title, titleLang: g.data.titleLang, url: g.url },
             ...(g.data.subgames || []).map(sg => ({

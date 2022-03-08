@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { ArticleContent } from '../../ui';
 
-import imgBalikSatu from './BalikSatu/shutterstock_1900515673.jpg';
+import imgBalikSatu from './BalikSatu/';
 
 export const Equipment = {
   "ceki": "Ceki cards",
@@ -15,52 +15,6 @@ export type GameMeta = Readonly<{
 } & ArticleContent>
 
 const games = {
-  'achi': {
-    title: "Achi",
-    titleLang: "ee",
-    players: [2],
-    import: React.lazy(() => import('./Achi/Achi')),
-  },
-  'assault': {
-    title: "Assault",
-    players: [2],
-    draft: true,
-    import: React.lazy(() => import('./Assault/Assault')),
-  },
-  'balik-satu': {
-    title: "Balik Satu",
-    titleLang: "ms",
-    players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
-    equipment: "ceki" as const,
-    import: React.lazy(() => import('./BalikSatu/BalikSatu')),
-    hero: {
-      img: imgBalikSatu,
-      source: {
-        license: "stock-image",
-        organization: { orgName: "Shutterstock.com" },
-        author: "khooiay",
-        identifier: "1900515673",
-        originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
-      } as const,
-    },
-  },
-  'cholek-tiga': {
-    title: "Cholek Tiga",
-    titleLang: "ms",
-    players: [2, 3],
-    equipment: "ceki" as const,
-    import: React.lazy(() => import(/* webpackChunkName: 'cholek-tiga' */ './CholekTiga/CholekTiga')),
-    hero: {
-      img: imgBalikSatu,
-      source: {
-        license: "stock-image",
-        organization: { orgName: "Shutterstock.com" },
-        author: "khooiay",
-        identifier: "1900515673",
-        originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
-      } as const,
-    },
-  },
   'daldos': {
     title: "Daldøs",
     titleLang: "",
@@ -79,12 +33,6 @@ const games = {
     equipment: "dice" as const,
     players: 'any' as const,
     import: React.lazy(() => import('./CrownAndAnchor/CrownAndAnchor')),
-  },
-  'fox-and-geese': {
-    title: "Fox and Geese",
-    players: [2],
-    draft: true,
-    import: React.lazy(() => import('./FoxAndGeese/FoxAndGeese')),
   },
   'gunjin-shoji': {
     title: "Gunjin Shogi",
@@ -151,23 +99,10 @@ const games = {
     players: [2],
     import: React.lazy(() => import(/* webpackChunkName: 'konane' */ './Konane'))
   },
-  'shax': {
-    title: "Shax",
-    titleLang: "so",
-    players: [2],
-    import: React.lazy(() => import(/* webpackChunkName: 'shax' */ './Shax/Shax'))
-  },
   'tic-tac-toe': {
     title: "Tic-Tac-Toe",
     players: [2],
     import: React.lazy(() => import(/* webpackChunkName: 'tic-tac-toe' */ './TicTacToe'))
-  },
-  'xianqi': {
-    title: "Xiàngqí",
-    titleLang: "zh-Latn",
-    draft: true,
-    players: [2],
-    import: React.lazy(() => import(/* webpackChunkName: 'xiangqi' */ './Xiangqi/Xiangqi'))
   },
   'teeko': {
     title: "Teeko",
@@ -180,32 +115,4 @@ const games = {
     players: [2],
     import: React.lazy(() => import('./ThreeMensMorris/ThreeMensMorris')),
   },
-  'tribord-et-babord': {
-    title: "Tribord et Bâbord",
-    titleLang: "fr",
-    players: [2],
-    import: React.lazy(() => import('./TribordEtBabord/TribordEtBabord'))
-  },
-  'tri-hex': {
-    title: "Tri-Hex",
-    players: [2],
-    import: React.lazy(() => import('./TriHex/TriHex'))
-  },
 };
-
-export type GameId = keyof typeof games
-type GamesType = {
-  [key in GameId]: GameMeta
-}
-export const Games: GamesType = games
-
-const hasKey = <T extends Object>(o: T, key: keyof any): key is keyof T => o.hasOwnProperty(key);
-
-export const getGameMeta = (name: keyof any): GameMeta | undefined => {
-
-  if (hasKey(games, name)) {
-    return games[name];
-  }
-
-  return undefined;
-}

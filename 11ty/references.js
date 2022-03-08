@@ -231,7 +231,7 @@ const renderContainer = (reference) => {
         case 'chapter':
         case 'paper-conference':
             return ` In <cite${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                + `${ifSet(reference.editor, `, edited by ${renderPeople(reference.editor, false, false, 'editor')}`)}`
+                + `${ifSet(reference.editor, () => `, edited by ${renderPeople(reference.editor, false, false, 'editor')}`)}`
                 + pageSuffix;
 
         case 'article-magazine':

@@ -21,11 +21,14 @@ exports.render = async function (data) {
         });
 
         heroImage = metadata[Object.keys(metadata)[0]][0].url;
-        heroSource =
-            '<span class="text-right heroSource" itemprop="image" itemtype="http://schema.org/ImageObject" itemscope>'
-            + `<meta itemprop="url contentUrl" content="${heroImage}" />`
-            + renderSource(data.hero, true)
-            + '</span>';
+        if (data.hero.license) {
+            heroSource =
+                '<span class="text-right heroSource" itemprop="image" itemtype="http://schema.org/ImageObject" itemscope>'
+                + `<meta itemprop="url contentUrl" content="${heroImage}" />`
+                + 'Image '
+                + renderSource(data.hero, true)
+                + '</span>';
+        }
     }
 
     let breadCrumbs = '';

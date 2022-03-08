@@ -2,7 +2,7 @@ const Image = require("@11ty/eleventy-img");
 const PropTypes = require('prop-types');
 const path = require('path');
 
-const { ifSet, asAttr } = require('./helpers');
+const { ifSet, asAttr, IS_PRODUCTION } = require('./helpers');
 
 module.exports = { renderSource, articleImage, person, license, organization }
 
@@ -13,7 +13,6 @@ module.exports = { renderSource, articleImage, person, license, organization }
  * @param {Name} props.author
  * @param {number=} props.perRow
  * @param {boolean=} props.noborder
- * @param {boolean=} props.mainImage
  * @param {boolean=} props.cram
  * @param {string=} props.size
  * @param {string=} props.position
@@ -55,7 +54,7 @@ async function articleImage(caption, props) {
     }
 
     PropTypes.checkPropTypes(articleImagePropTypes, props, 'props', 'articleImage');
-    const { alt, src, noborder, mainImage, cram, source, position, size, perRow } = props;
+    const { alt, src, noborder, cram, source, position, size, perRow } = props;
 
     const className = `${position || ''} ${size || ''} ${cram ? 'cram' : ''}`;
     // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
@@ -92,16 +91,12 @@ async function articleImage(caption, props) {
 
     if (srcs.length === 1) {
         return `<figure class="figure ${className}" itemprop="image" itemscope itemtype="${imageObject}">`
-            + await renderImage(this, src, alt, sizes, noborder, mainImage)
+            + await renderImage(this, src, alt, sizes, noborder)
             + `<figcaption class="text-center figure-caption">`
             + captionAndSource
             + `</figcaption>`
             + `</figure>`;
     } else {
-        if (mainImage) {
-            throw new Error("multi-images may not be marked as mainImage");
-        }
-
         const sourceId = "src_" + "TODOSRC";
         return `<figure class="figure ${className}">`
             + await renderImages(this, srcs, alts, perRow, sourceId, sizes, noborder)
@@ -147,15 +142,9 @@ function renderSource(source, short = false) {
  * @param {string} alt
  * @param {string} sizes
  * @param {boolean=} noborder
- * @param {boolean=} mainImage
  */
-async function renderImage(me, src, alt, sizes, noborder, mainImage) {
-    const basedSrc = path.join(path.dirname(me.page.inputPath), src);
-    const metadata = await Image(basedSrc, {
-        widths: [300, 600, 800, 1200, 1600, null],
-        formats: [null],
-        outputDir: "public/img",
-    });
+async function renderImage(me, src, alt, sizes, noborder) {
+    const metadata = await loadSizedImage(me, src);
 
     const [format] = Object.keys(metadata);
 
@@ -164,11 +153,13 @@ async function renderImage(me, src, alt, sizes, noborder, mainImage) {
 
     const id = path.basename(original.filename, path.extname(original.filename));
 
+    const classlist = noborder ? " border-0" : '';
+
     return `<a href="#!" hidden class="lightbox" id="${id}">`
         + `<span style="background-image: url('${original.url}')"></span>`
         + `</a>`
         + `<a href="#${id}">`
-        + `<img class="figure-img" itemprop="contentUrl url" src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
+        + `<img class="figure-img${classlist}" itemprop="contentUrl url" src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
         + `</a>`;
 }
 
@@ -194,6 +185,16 @@ async function renderImages(me, srcs, alts, perRow = 1000, sourceId, sizes, nobo
     return result;
 }
 
+async function loadSizedImage(me, src) {
+    const basedSrc = path.join(path.dirname(me.page.inputPath), src);
+    // don't resize locally, for speed
+    return await Image(basedSrc, {
+        widths: IS_PRODUCTION ? [300, 600, 800, 1200, 1600, null] : [null],
+        formats: [null],
+        outputDir: "public/img",
+    });
+}
+
 /**
  * @param {*} me 
  * @param {string} src 
@@ -204,13 +205,7 @@ async function renderImages(me, srcs, alts, perRow = 1000, sourceId, sizes, nobo
  * @returns 
  */
 async function renderSourcedImage(me, src, alt, sourceId, sizes, noborder) {
-    const basedSrc = path.join(path.dirname(me.page.inputPath), src);
-    const metadata = await Image(basedSrc, {
-        widths: [300, 600, 800, 1200, 1600, null],
-        formats: [null],
-        outputDir: "public/img",
-    });
-
+    const metadata = await loadSizedImage(me, src);
     const [format] = Object.keys(metadata);
 
     const srcset = metadata[format].map(x => x.srcset).join(', ');
@@ -236,7 +231,6 @@ const articleImagePropTypes = {
     alt: PropTypes.string.isRequired,
     src: PropTypes.string.isRequired,
     noborder: PropTypes.bool,
-    mainImage: PropTypes.bool,
     cram: PropTypes.bool,
 };
 
