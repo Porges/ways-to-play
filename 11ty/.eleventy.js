@@ -163,7 +163,7 @@ function gameRef() {
       const games = context.environments.collections.game;
       const gameArticle = games.find(g => g.fileSlug === this.ref);
       if (gameArticle) {
-        if (IS_PRODUCTION && gameArticle.draft) {
+        if (IS_PRODUCTION && gameArticle.data.draft) {
           // don't link drafts in production
           return `<span${asAttr('lang', gameArticle.data.titleLang)}>${gameArticle.data.title}</span>`;
         }
@@ -177,7 +177,7 @@ function gameRef() {
           for (sg of g.data.subgames) {
             const s = sg.slug || slug(sg.title);
             if (s === this.ref) {
-              if (IS_PRODUCTION && g.draft) {
+              if (IS_PRODUCTION && g.data.draft) {
                 // don't link drafts in production
                 return `<span${asAttr('lang', sg.titleLang)}>${sg.title}</span>`;
               }
