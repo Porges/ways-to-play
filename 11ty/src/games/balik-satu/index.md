@@ -36,8 +36,8 @@ deck has 30 cards, one of each type.
   <thead>
     <tr>
       <th>Players</th>
-      <th>Decks[@ChikiCards]<br />(Cards)</th>
-      <th>Decks[@TheBabas p. 154]<br />(Cards)</th>
+      <th>Decks (Cards)<br />from Pwee</th>
+      <th>Decks (Cards)<br/>from <cite>The Babas</cite></th>
     </tr>
   </thead>
   <tbody>

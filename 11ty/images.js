@@ -189,10 +189,22 @@ async function loadSizedImage(me, src) {
     const basedSrc = path.join(path.dirname(me.page.inputPath), src);
     // don't resize locally, for speed
     return await Image(basedSrc, {
-        widths: IS_PRODUCTION ? [300, 600, 800, 1200, 1600, null] : [null],
+        widths: IS_PRODUCTION ? [300, 600, 800, 1200, 1600, 4000] : [null],
         formats: [null],
         outputDir: "public/img",
     });
+
+    /* even faster but needs to be able to serve local files
+    return {
+        [path.extname(basedSrc).slice(1)]: [{
+            filename: basedSrc,
+            url: "file://" + basedSrc,
+            width: '',
+            height: '',
+            srcSet: '',
+        }]
+    };
+    */
 }
 
 /**

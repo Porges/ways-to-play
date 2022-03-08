@@ -3,7 +3,6 @@ const eleventyNavigation = require('@11ty/eleventy-navigation');
 const PropTypes = require('prop-types');
 const argParse = require('liquid-args');
 const path = require('path');
-const prettier = require('prettier');
 const fs = require('node:fs/promises');
 const { env } = require('process');
 
@@ -25,6 +24,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/sass");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("audio");
+  eleventyConfig.addPassthroughCopy({ "site_root": "/" });
 
   eleventyConfig.addPlugin(eleventyRemark, {
     enableRehype: false,
@@ -107,21 +107,6 @@ module.exports = function (eleventyConfig) {
         const content = yield this.liquid.renderer.renderTemplates(this.templates, scope);
         return articleImage.call(_normalizeShortcodeScope(scope), content, args.find(a => a.__keywords));
       }
-    }
-  });
-
-  eleventyConfig.addTransform("prettier", function (content, outputPath) {
-    // from: https://github.com/11ty/eleventy/issues/1314#issuecomment-657999759
-    const extname = path.extname(outputPath);
-    switch (extname) {
-      case ".html":
-      case ".json":
-        // Strip leading period from extension and use as the Prettier parser.
-        const parser = extname.replace(/^./, "");
-        return prettier.format(content, { parser });
-
-      default:
-        return content;
     }
   });
 
