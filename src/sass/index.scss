@@ -267,11 +267,11 @@ figure {
     @extend .text-center;
 
     &.right {
-        @extend .float-lg-right, .ml-lg-3, .my-lg-1;
+        @extend .float-lg-end, .ms-lg-3, .my-lg-1;
     }
 
     &.left {
-        @extend .float-lg-left, .mr-lg-3, .my-lg-1;
+        @extend .float-lg-start, .me-lg-3, .my-lg-1;
     }
 
     &.left, &.right {
@@ -552,24 +552,12 @@ span.footnote::before {
       border: none;
     }
 
-    span.footnote::before{
-        // outdent footnote 
-        position:absolute;
-        right: -.7em;
-    }
-
-
     .footnote.wide {
       width: 60%;
       margin-right: -65%;
     }
 }
 
-@include media-breakpoint-up(xl) {
-    span.footnote::before {
-      right: -1em;
-    }
-}
 
 /*
 TODO

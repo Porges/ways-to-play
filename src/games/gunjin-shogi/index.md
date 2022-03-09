@@ -69,7 +69,7 @@ The board for the 14-piece version, printed on thin paper.
 </thead>
 <tbody class="text-center">
   <tr>
-    <th scope="row" class="text-right">元帥</th>
+    <th scope="row" class="text-end">元帥</th>
     <td>△</td>
     <td>○</td>
     <td>○</td>
@@ -86,7 +86,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>×</td>
   </tr><tr>
-    <th scope="row" class="text-right">大将</th>
+    <th scope="row" class="text-end">大将</th>
     <td>×</td>
     <td>△</td>
     <td>○</td>
@@ -103,7 +103,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">中将</th>
+    <th scope="row" class="text-end">中将</th>
     <td>×</td>
     <td>×</td>
     <td>△</td>
@@ -120,7 +120,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">少将</th>
+    <th scope="row" class="text-end">少将</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -137,7 +137,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">代将</th>
+    <th scope="row" class="text-end">代将</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -154,7 +154,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">大佐</th>
+    <th scope="row" class="text-end">大佐</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -171,7 +171,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">中佐</th>
+    <th scope="row" class="text-end">中佐</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -188,7 +188,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">少佐</th>
+    <th scope="row" class="text-end">少佐</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -205,7 +205,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">大尉</th>
+    <th scope="row" class="text-end">大尉</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -222,7 +222,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">中尉</th>
+    <th scope="row" class="text-end">中尉</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -239,7 +239,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">少尉</th>
+    <th scope="row" class="text-end">少尉</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -256,7 +256,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>×</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">ＭＰ</th>
+    <th scope="row" class="text-end">ＭＰ</th>
     <td>×</td>
     <td>×</td>
     <td>×</td>
@@ -273,7 +273,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>○</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">ヒコーキ</th>
+    <th scope="row" class="text-end">ヒコーキ</th>
     <td>○</td>
     <td>○</td>
     <td>○</td>
@@ -290,7 +290,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>○</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">原子爆弾</th>
+    <th scope="row" class="text-end">原子爆弾</th>
     <td>○</td>
     <td>○</td>
     <td>○</td>
@@ -307,7 +307,7 @@ The board for the 14-piece version, printed on thin paper.
     <td>△</td>
     <td>○</td>
   </tr><tr>
-    <th scope="row" class="text-right">スパイ</th>
+    <th scope="row" class="text-end">スパイ</th>
     <td>○</td>
     <td>×</td>
     <td>×</td>

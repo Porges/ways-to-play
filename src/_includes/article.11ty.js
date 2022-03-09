@@ -23,7 +23,7 @@ exports.render = async function (data) {
         heroImage = metadata[Object.keys(metadata)[0]][0].url;
         if (data.hero.license) {
             heroSource =
-                '<span class="text-right heroSource" itemprop="image" itemtype="http://schema.org/ImageObject" itemscope>'
+                '<span class="text-end heroSource" itemprop="image" itemtype="http://schema.org/ImageObject" itemscope>'
                 + `<meta itemprop="url contentUrl" content="${heroImage}" />`
                 + 'Image '
                 + renderSource(data.hero, true)
@@ -48,7 +48,7 @@ exports.render = async function (data) {
                 '<div class="col-xs-12 col-md-6">'
                 + ifSet(prevArticle, () =>
                     `<a href="${prevArticle.url}" class="nav-link" rel="prev">`
-                    + '<p class="text-left m-2">'
+                    + '<p class="text-start m-2">'
                     + '<span class="prevNextArticle">← Previous Article</span><br />'
                     + '<span class="prevNextArticle invisible">← </span>'
                     + `<span${asAttr('lang', prevArticle.titleLang)}>${prevArticle.title}</span>`
@@ -58,10 +58,10 @@ exports.render = async function (data) {
                 + '<div class="col-xs-12 col-md-6">'
                 + ifSet(nextArticle, () =>
                     `<a href="${nextArticle.url}" class="nav-link" rel="next">`
-                    + '<p class="text-right m-2">'
+                    + '<p class="text-end m-2">'
                     + '<span class="prevNextArticle">Next Article →</span><br />'
-                    + '<span class="prevNextArticle invisible"> →</span>'
                     + `<span${asAttr('lang', nextArticle.titleLang)}>${nextArticle.title}</span>`
+                    + '<span class="prevNextArticle invisible"> →</span>'
                     + '</p>'
                     + '</a>')
                 + '</div>';
@@ -92,7 +92,7 @@ exports.render = async function (data) {
                 <div class="col-lg-10">
                     <h1 itemprop="headline"${this.asAttr('lang', data.titleLang)}>
                         <a href="${data.page.url}" itemprop="mainEntityOfPage">${data.title}</a>
-                        ${data.draft ? '<br/><span class="badge badge-warning">Draft</span>' : ''}
+                        ${data.draft ? '<br/><span class="badge bg-warning text-dark">Draft</span>' : ''}
                     </h1>
                 </div>
                 <div class="col-lg-1" style="z-index: -1"></div>
