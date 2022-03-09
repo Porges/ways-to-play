@@ -367,7 +367,7 @@ figure {
 }
 
 /*** Highlight target of link ***/
-*:target {
+:not(.lightbox):target {
     padding: 5px;
     margin-right: -5px;
     margin-left: -5px;
