@@ -286,7 +286,7 @@ nine men’s morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation 
 
 <div class="multi">
 {% image 
-  src='../Daldos/maryrose_daldos.jpg'
+  src='../daldos/maryrose_daldos.jpg'
   alt=""
   license="with-permission", orgName="The Mary Rose Museum" %}
 A Nine Men’s Morris board alongside what seems to be a {% gameref daldos %}
