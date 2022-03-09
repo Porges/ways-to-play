@@ -173,7 +173,7 @@ Croxley/John Dickinson & Co. card back showing a <a href="https://en.wikipedia.o
 </div>
 
 <div className="multi wide">
-{% image noborder=true alt="" src="Croxley-chch.jpg" %}
+{% image noborder=true alt="" src="Croxley-Chch.jpg" %}
 Croxley/John Dickinson card back showing the <a href="http://ketechristchurch.peoplesnetworknz.info/places_and_streets/topics/show/415-ferrier-fountain-christchurch-town-hall">Ferrier fountain</a>.
 {% imageEnd %}
 {% image noborder=true alt="" src="Croxley-Queenstown.jpg" %}
