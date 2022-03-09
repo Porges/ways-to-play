@@ -11,9 +11,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development npm-run-all build:sass --parallel watch:*",
     "build": "cross-env NODE_ENV=production npm-run-all build:sass build:eleventy",
-    "postbuild:purgecss": "purgecss --css public/css/index.css --content public/**/*.html --output public/css/",
     "postbuild:postcss": "postcss public/css/*.css --use cssnano -r --no-map",
-    "postbuild": "npm-run-all postbuild:purgecss postbuild:postcss",
+    "postbuild": "npm-run-all postbuild:postcss",
     "serve-built": "serve public"
   },
   "keywords": [],
