@@ -1,5 +1,3 @@
-/*! purgecss start ignore */
-
 /*** Italicize all *-Latn langauges: ***/
 span[lang$="-Latn"],
 /*** Italicize non-English (but Latin) languages: ***/
@@ -122,8 +120,8 @@ cite:lang(zh-Latn), cite:lang(ja-Latn), cite:lang(ar-Latn), cite:lang(fa-Latn) {
   font-family: "NKD04";
 
   /* this font looks disproportionate so scale it down */
-  font-size: 0.79em;
-  vertical-align: text-bottom;
+  font-size: 0.8em;
+  vertical-align: middle;
 }
 
 figcaption .playing-cards {
@@ -138,5 +136,3 @@ figcaption .playing-cards {
 .blue {
   color: #0000CC;
 }
-
-/*! purgecss end ignore */
