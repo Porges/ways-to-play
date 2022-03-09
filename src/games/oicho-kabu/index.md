@@ -133,51 +133,51 @@ these — like the playing cards themselves — are derived from Portugu
 This is a simplified variant by Sid Sackson, for 2–6 players, described in
 @CardGamesAroundTheWorld [p. 12].
 
-Play with the {% cards 'A–10' %} from a standard deck of cards. You will also
+Play with the {% cards 'A–⑩' %} from a standard deck of cards. You will also
 need some chips to keep track of score. Sids’ suggested chip distribution for
 each player is:
 
-<table class="table">
+<table class="table numeric">
     <thead>
     <tr>
         <th>Players</th>
         <th>1 pt<br />(White)</th>
         <th>5 pt<br />(Red)</th>
         <th>10 pt<br />(Blue)</th>
-        <th>Total</th>
+        <th>Total Points</th>
     </tr>
     </thead>
     <tbody>
     <tr>
-        <td>2</td>
+        <th scope="row" class="text-center">2</td>
         <td>10</td>
         <td>2</td>
         <td>2</td>
         <td>40</td>
     </tr>
     <tr>
-        <td>3</td>
+        <th scope="row" class="text-center">3</th>
         <td>10</td>
         <td>3</td>
         <td>3</td>
         <td>55</td>
     </tr>
     <tr>
-        <td>4</td>
+        <th scope="row" class="text-center">4</th>
         <td>10</td>
         <td>4</td>
         <td>4</td>
         <td>70</td>
     </tr>
     <tr>
-        <td>5</td>
+        <th scope="row" class="text-center">5</th>
         <td>10</td>
         <td>5</td>
         <td>5</td>
         <td>85</td>
     </tr>
     <tr>
-        <td>6</td>
+        <th scope="row" class="text-center">6</th>
         <td>10</td>
         <td>6</td>
         <td>6</td>
@@ -190,7 +190,7 @@ Shuffle and deal two cards face-down to each player. Each player looks at their
 cards and may then request a third, and subsequently a fourth card.
 
 The goal, as in standard <Noun lang="ja-Latn">Oicho-Kabu</Noun>, is to get a
-total as close to 9 as possible, discarding 10s.
+total as close to {% cards '9' %} as possible, discarding {% cards '⑩' %}s.
 
 After all players have finished requesting new cards, the hands are revealed.
 Each player collects the difference from their hand to players with a lower
