@@ -5,8 +5,10 @@
     "en"
   ],
   "spellright.documentTypes": [
-    "markdown",
     "latex",
     "plaintext"
-  ]
+  ],
+  "files.exclude": {
+    "**/node_modules/": true
+  }
 }

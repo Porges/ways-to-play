@@ -10,16 +10,16 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
-    - name: Cache compressed image files
+    - name: Cache image files
       uses: actions/cache@v2
       with:
-        path: cache
-        key: ${{ runner.os }}-images-${{ hashFiles('**/*.png', '**/*.jpe?g', '**/*.gif', '**/*.svg') }}
+        path: public/img
+        key: ${{ runner.os }}-images-${{ hashFiles('src/**/*.png', 'src/**/*.jpe?g', 'src/**/*.gif', 'src/**/*.svg') }}
         restore-keys: ${{ runner.os }}-images-
 
     - uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
         cache: 'npm'
 
     - run: npm install 
