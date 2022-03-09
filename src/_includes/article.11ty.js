@@ -111,11 +111,9 @@ exports.render = async function (data) {
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-7">
+            <div class="col-lg-7 offset-lg-1">
                 ${data.content}
             </div>
-            <div class="col-lg-1" style="z-index: -1"></div>
         </div>
     </div>
 </article>`
