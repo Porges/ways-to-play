@@ -6249,5 +6249,23 @@
         "issued": {
             "year": 1941
         }
+    },
+    "JavaanseKaartspelenReview": {
+        "type": "article-journal",
+        "title": "Tjan Tjoe Siem: Javaansche Kaartspelen: bidrage tot de beschrijving van land en volk",
+        "title-lang": "nl",
+        "author": [
+            {
+                "given": "E. M.",
+                "family": "Uhlenbeck"
+            }
+        ],
+        "volume": 139,
+        "container-title": "Bijdragen tot de Taal-, Land- en Volkenkunde",
+        "issued": {
+            "year": 1983
+        },
+        "page": "348-356",
+        "URL": "https://www.jstor.org/stable/27863508"
     }
 }

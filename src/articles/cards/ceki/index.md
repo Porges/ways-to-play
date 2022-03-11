@@ -81,7 +81,7 @@ in the city of Padang. The company also had offices in Java & Sulawesi
 
 In Minang they are called Koa (or Kowah).
 
-## The Cards
+## The Deck
 
 The cards run {% cards '1–9' %} in three suits, and there are three ‘honour
 cards’, giving 30 different cards. Each deck, or <span lang="ms">kepala</span>
@@ -95,13 +95,17 @@ The three suits are called:[@ChikiCards p. 119]
 <dt>Myriads (Numbers)</dt>
 <dd>
 
-<span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’)<br/>in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span>) ‘people’[@JavanischeKartenspiele]
+<span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’) <br/>in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span>) ‘people’[@JavanischeKartenspiele]
 
 </dd>
 <dt>Strings</dt>
-<dd><span lang="ms">manek</span> (‘bead’) or <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’)</dd>
+<dd><span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’)</dd>
 <dt>Coins</dt>
-<dd><span lang="ms">hitam</span> (‘black’), <span lang="ms">batik</span>, <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’)</dd>
+<dd>
+
+<span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’)
+
+</dd>
 </dl>
 
 <div class="table-responsive">
@@ -462,47 +466,54 @@ The book @GatewayToOldSchoolGames uses the spellings: burung = burong, batik = b
 
 ## Games
 
-There are several games played with Ceki cards. For most of them, I do not know
-of any other sets of rules recorded online.
+There are many games played with Ceki cards.[@NyonyaMosaic p. 124] For most of
+them, I do not know of any other sets of rules recorded online.
 
-Games from Malaysia/Singapore include:[@NyonyaMosaic p. 124]
+**Fishing** games (where players capture cards from a central pool):
 
-* {% gameref cholek-tiga %} (‘draw three’), a game for two or three
+* {% gameref cholek-tiga %} (‘draw three’), a Malaysian game for two or three
   players[@BabaMalayDictionary p. 214][@ChikiCards p. 125]
-* Pak Tui, a solitaire game[@BabaMalayDictionary p. 215]
-* {% gameref balik-satu %} (‘turn one’), a game with no fixed number of
-  players[@BabaMalayDictionary p. 214][@ChikiCards p. 122]
+
+**Trick-taking** games:
+
+* {% gameref kertu-lima %} is a Javan game with unusual card rankings
+
+**Draw & discard** games (like Mahjong):
+
+* {% gameref balik-satu %} (‘turn one’), a Malaysian game with no fixed number
+  of players[@BabaMalayDictionary p. 214][@ChikiCards p. 122]
 * {% gameref balik-lima-belas %} [@ChikiCards p. 127]/Balek Lima
   Belair[@BabaMalayDictionary p. 124]/Bukak Lima Blas Leh[@TheBabas p. 167]
   (‘turn fifteen’), an alternate method of scoring Balik Satu
-* Choke/Chote (Ramay), a game for more than for players[@BabaMalayDictionary]
+* {% gameref gonggong %}, a Javan game for four or six
+  players[@JavaanseKaartspelen p. 94–7]
+* {% gameref tantanan %}, a fast-playing Javan game for four
+  players[@JavaanseKaartspelen p. 98]
+
+Other games from Malaysia/Singapore, for which I have no rules, are:
+
+* Pak Tui, a solitaire game[@BabaMalayDictionary p. 215]
+* Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary]
 * Choke/Chote Kiong, a four-player game[@BabaMalayDictionary p. 214]
-
-Games from Indonesia include:
-
-* {% gameref gonggong %}, a game for four or six players similar to {% gameref
-  balik-satu %}[@JavaanseKaartspelen p. 94–7]
-* {% gameref tantanan %}, a fast game for four players, again similar to {%
-  gameref balik-satu %}[@JavaanseKaartspelen p. 98]
 
 ## Manufacturers & Brands
 
-(Extinct) European manufacturers include:
+(Extinct) European manufacturers included:
 
 * <Noun lang="fr">Camoin</Noun>, a French company that was based in Marseille
 * <Noun lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</Noun>, a
   Dutch company[@TraditionCardGameCeki]
 * [<Noun lang="fr">Mesmaekers
   Frères</Noun>](https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack), a
-  Belgian company based in Turnhour whose cards were imported to Java by Brandon
+  Belgian company based in Turnhout whose cards were imported to Java by Brandon
   Mesritz & Co.[@ChiChiPai]
 
 <!-- {/*<p>榮興記</p>*/}-->
 
-Indonesian brands include:
+Modern Indonesian brands include:
 
 * <Noun lang="ms">Ceki Hiu</Noun> (Old Thousand has a colour image of a shark)
-* <Noun lang="ms">Ceki Kalong Mas</Noun> (Old Thousand inscribed <span lang="zh">𫑟林</span>?)
+* <Noun lang="ms">Ceki Kalong Mas</Noun> (bat symbol, Old Thousand inscribed <span lang="zh">𫑟林</span>?)
 * <Noun lang="ms">Ceki Leak</Noun>, a [mythological creature](https://en.wikipedia.org/wiki/Leyak)
 * <Noun lang="ms">Gunting Baja</Noun>, Bali
 * <Noun lang="ms">Gunting Rumput</Noun>
@@ -510,3 +521,13 @@ Indonesian brands include:
 * <Noun lang="ms">Kabuki</Noun>
 * <Noun lang="ms">Kapal Ferry</Noun> (Old Thousand has a colour image of a ship)
 * <Noun lang="ms">Pura Dewa</Noun>, Bali
+
+Old Indonesian brands included:[@JavaanseKaartspelen p. 12]
+
+* <Noun lang="ms">Cap Bajing</Noun> (‘squirrel’)
+* <Noun lang="ms">Pajung</Noun>
+* <Noun lang="ms">999</Noun>
+* <Noun lang="ms">Cap Leo</Noun> (‘lion’)
+* <Noun lang="ms">Cap Warak</Noun> (‘rhino’)
+* <Noun lang="ms">Cap Kodok</Noun> (‘frog’)
+* <Noun lang="ms">Cap Kunci</Noun> (‘lock/key’)
