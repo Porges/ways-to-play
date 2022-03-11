@@ -291,7 +291,7 @@ figure {
         clear: both;
     }
 
-    div.multi.extra-wide,
+    div.extra-wide,
     figure.extra-wide {
         width: 155%;
         margin-left: -10%;
@@ -593,10 +593,10 @@ div.multi {
     display: flex;
     width: 100%;
     justify-content: space-around;
+}
 
-    &.wide, &.extra-wide {
-        margin-bottom: 1rem;
-    }
+div.wide, div.extra-wide {
+    margin-bottom: 1rem;
 }
 
 // margins for children
@@ -610,6 +610,10 @@ div.multi > p {
     margin-bottom: 1em;
 }
 
+.scroll-horizontally {
+    overflow-x: scroll;
+}
+
 @include media-breakpoint-down(sm) {
     div.multi.only-large {
         display: block;
@@ -619,6 +623,13 @@ div.multi > p {
 /*** For Japanese/Chinese, where needed ***/
 .vertical-rl {
     writing-mode: vertical-rl;
+}
+
+.sideways {
+    writing-mode: tb;
+    text-align: center;
+    vertical-align: middle;
+    transform: rotate(180deg);
 }
 
 /*** Inline images (e.g. GPL icon) ***/

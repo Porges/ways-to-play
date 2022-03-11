@@ -6233,5 +6233,21 @@
             "year": 1930
         },
         "URL": "https://hdl.handle.net/2027/mdp.39015048888211"
+    },
+    "JavaanseKaartspelen": {
+        "type": "book",
+        "title": "Javaanse Kaartspelen: bidrage tot de beschrijving van land en volk",
+        "title-lang": "nl",
+        "author": [
+            {
+                "given": "Tjan Tjoe",
+                "family": "Siem"
+            }
+        ],
+        "publisher-place": "Bandung, West Java, Indonesia",
+        "publisher": "A. C. Nix & Co.",
+        "issued": {
+            "year": 1941
+        }
     }
 }

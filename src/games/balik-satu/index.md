@@ -5,6 +5,10 @@ players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 subgames:
 - title: Balik Lima Belas
   titleLang: ms
+- title: Gonggong
+  titleLang: jav-Latn
+- title: Tantanan
+  titleLang: jav-Latn
 hero:
     image: '../balik-satu/shutterstock_1900515673.jpg'
     license: "stock-image"
@@ -86,7 +90,8 @@ one <span lang="ms">mata</span> already, they call ‘<span
 lang="ms">tan</span>’,{%fn%}This comes from Hokkien <span lang="nan">等</span>
 <span lang="nan-Latn">tán</span> ‘wait’.{%endfn%} or else (if they are trying to
 form a <span lang="ms">mata</span> for their last set) they call ‘<span
-lang="ms">ceki</span>’.
+lang="ms">ceki</span>’.{%fn%}From Hokkien <span lang="nan">一枝</span> ‘one
+card’.{%endfn%}
 
 {% image 
   cram=true
@@ -171,7 +176,7 @@ In the case that a player is initially dealt a winning hand (<span
 lang="ms">kandang tangan</span> ‘cage in hand’), they win instantly and double
 the normal scoring (no calling bonuses will apply).
 
-## Balik Lima Belas
+### Balik Lima Belas
 
 <Noun lang="ms">Balik Lima Belas</Noun> (‘draw fifteen’) is a version of <Noun
 lang="ms">Balik Satu</Noun> where the winner draws fifteen cards from the stock
@@ -182,6 +187,96 @@ lang="ms">mata</span> (so, always at least two points). In this form the
 red-stamped cards do not score extra, but the calling bonuses for <span
 lang="ms">ayam</span> and <span lang="ms">kandang</span> still apply.
 
-## See Also
+## Similar games
 
-{% gameref cholek-tiga %} is another <Noun lang="ms">Cherki</Noun> game.
+### <Noun lang="jav-Latn">Gonggong</Noun>
+
+A very similar game is recorded as being played in Java in the 1940s, under the
+name of <Noun lang="jav-Latn">Gonggong</Noun>, and is described as being played
+mostly by women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta
+was described as follows:
+
+It is played with six sets of cards (180 cards) for four players, or eight sets
+(240 cards) for six players. Deal 14 cards each and play as with <Noun
+lang="ms">Balik Satu</Noun>. In order to win, again at least one triplet (called
+a <span lang="jav-Latn">bak</span>) must be completed.
+
+Waiting for a specific card to win (to complete a <span
+lang="jav-Latn">bak</span>) is called <span lang="jav-Latn">ceki nocog</span>,
+and is announced by placing one coin on the table. Waiting for any card of a
+particular rank is called <span lang="jav-Latn">ceki kowah</span> and is
+announced by placing two coins on top of each other.
+
+A self-drawn win is called <span lang="jav-Latn">rabas</span> ‘clear’. A win by
+the opponents’ card is called <span lang="jav-Latn">metu</span> (formal <span
+lang="jav-Latn">medal</span>) ‘came out’.
+
+**Scoring** is a little different to <Noun lang="ms">Balik Satu</Noun>, and is done by one of several methods:
+
+<dl>
+<dt><span lang="jav-Latn">unduh-unduhan</span> (probably ‘piled’)</dt>
+<dd>At the beginning of the game a pot is formed with a stake from each player. If a player wins with
+<span lang="jav-Latn">metu</span>, they win one stake from it. If a player wins
+with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
+<dt><span lang="jav-Latn">toh bajaran</span> (betting on <span lang="jav-Latn">bak</span>s?)</dt>
+<dd>This method is very similar to <Noun lang="ms">Balik Satu</Noun>. The winner scores according to the following scheme:
+<ol>
+<li>1 for <span lang="jav-Latn">metu</span>; 2 for <span lang="jav-Latn">metu</span> with a red card, or <span lang="jav-Latn">rabas</span>; or 3 for <span lang="jav-Latn">rabas</span> with a red card,</li>
+<li>an additional 1 for each <span lang="jav-Latn">bak</span> or 2 for each red <span lang="jav-Latn">bak</span> in their hand,</li>
+<li>and then turn over the top card and add its points. Nyonya/Lau Chian/1 Myriads score 10 points, everything else according to rank (White Flower scores 1).</li>
+{% image 
+    size="small"
+    noborder=true
+    alt=";;"
+    src="../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CM1.jpg" %}
+    These cards are worth 10 points each.
+{% imageEnd %}
+</div>
+</ol>
+</dd>
+<dt>alternative <span lang="jav-Latn">toh bajaran</span>, drawing 14 cards</st>
+<dd>This method is very similar to <Noun lang="ms">Balik Lima Belas</Noun>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jav-Latn">toh bajaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jav-Latn">bak</span> from these cards. For each <span lang="jav-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jav-Latn">bak</span>.</dd>
+</dl>
+
+In the 1940s the <span lang="jav-Latn">toh bajaran</span> methods were paid out at 2¢{%fn%}These were cents of the [Netherlands Indies gulden](https://en.wikipedia.org/wiki/Netherlands_Indies_gulden).{%endfn%} per point from each other player.
+
+In Yogyakarta the following bets were used:
+
+<dl>
+<dt><span lang="jav-Latn">bak-bakan</span></dt>
+<dd>This is payment according to the number of <span lang="jav-Latn">bak</span>, i.e. the same as <span lang="jav-Latn">toh bajaran</span>.</dd>
+<dt><span lang="jav-Latn">umbuk</span> (‘piled’)</dt>
+<dd>A pot is formed with a stake from each player. If a player wins with <span lang="jav-Latn">metu</span>, they win half the pot. If a player wins with <span lang="jav-Latn">rabas</span>, they win the entire pot.</dd>
+<dt><span lang="jav-Latn">ceken</span></dt>
+<dd>Ad-hoc bets are made between the players, whoever wins receives the staked amount from the others.</dd>
+</dl>
+
+### <Noun lang="jav-Latn">Tantanan</Noun>
+
+This is another game described as being played in Surakarta in
+Java.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <Noun
+lang="ms">Balik Satu</Noun> and is thus a faster game.
+
+The game is played by four people with one full set of 60 cards. Each player
+is dealt five cards. 
+
+In this reduced game, a player must form three pairs to win, and one pair must
+be identical (a <span lang="jav-Latn">bak</span>). All honour cards are considered to
+be rank 1, so can be paired with other rank-1 cards.
+
+Waiting for a one card to win is called <span lang="jav-Latn">tan</span>, as in
+<Noun lang="ms">Balik Satu</Noun>. Waiting for a identical card is called <span
+lang="jav-Latn">tan nokang</span>, waiting for any card of the same rank is
+called <span lang="jav-Latn">tan kowah</span>.
+
+Scoring is performed the same as the <span lang="jav-Latn">toh bajaran</span>
+method of <Noun lang="jav-Latn">Gonggong</Noun>, above.
+
+In Yogyakarta this game was played with three people and known as <Noun
+lang="jav-Latn">Ceken</Noun> or <Noun
+lang="jav-Latn">Sampen</Noun>.[@JavaanseKaartspelen p. 98]{%fn%}Note that there
+is also another game called Sampen.{%endfn%}
+
+## See also
+
+{% gameref cholek-tiga %} is another Peranakan <Noun lang="ms">Cherki</Noun> game.
