@@ -69,6 +69,10 @@ and exported to Indonesia.
 In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and
 Bali, all of which have historically had large Chinese influence.
 
+{% image src="Kaartspelers.jpg" alt="" license="cc0" size="wide" %}
+Javanese card players, by Jean Demmeni (1866–1939).
+{% imageEnd %}
+
 In Indonesia the cards are particularly popular amongst the Minangkabau people
 of West Sumatra, as the Dutch card-making company <Noun
 lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</Noun> had a
@@ -128,7 +132,7 @@ The three suits are called:[@ChikiCards p. 119]
 </thead>
 <tbody>
 <tr>
-<th scope="row" class="sideways">Coins</th>
+<th scope="row" class="sideways centered">Coins</th>
 <td>{% image noborder=true cram=true src="COT.jpg" alt="" %}{% imageEnd %}</td>
 <td>{% image noborder=true cram=true src="CC1.jpg" alt="" %}{% imageEnd %}</td>
 <td>{% image noborder=true cram=true src="CC2.jpg" alt="" %}{% imageEnd %}</td>
@@ -141,7 +145,7 @@ The three suits are called:[@ChikiCards p. 119]
 <td>{% image noborder=true cram=true src="CC9.jpg" alt="" %}{% imageEnd %}</td>
 </tr>
 <tr>
-<th scope="row" class="sideways">Strings</th>
+<th scope="row" class="sideways centered">Strings</th>
 <td>{% image noborder=true cram=true src="CWF.jpg" alt="" %}{% imageEnd %}</td>
 <td>{% image noborder=true cram=true src="CS1.jpg" alt="" %}{% imageEnd %}</td>
 <td>{% image noborder=true cram=true src="CS2.jpg" alt="" %}{% imageEnd %}</td>
@@ -154,7 +158,7 @@ The three suits are called:[@ChikiCards p. 119]
 <td>{% image noborder=true cram=true src="CS9.jpg" alt="" %}{% imageEnd %}</td>
 </tr>
 <tr>
-<th scope="row" class="sideways">Myriads</th>
+<th scope="row" class="sideways centered">Myriads</th>
 <td>{% image noborder=true cram=true src="CRF.jpg" alt="" %}{% imageEnd %}</td>
 <td>{% image noborder=true cram=true src="CM1.jpg" alt="" %}{% imageEnd %}</td>
 <td>{% image noborder=true cram=true src="CM2.jpg" alt="" %}{% imageEnd %}</td>
@@ -605,12 +609,24 @@ Modern Indonesian brands include:
 * <Noun lang="ms">Kapal Ferry</Noun> (Old Thousand has a colour image of a ship)
 * <Noun lang="ms">Pura Dewa</Noun>, Bali
 
-Old Indonesian brands included:[@JavaanseKaartspelen p. 12]
+{% image src="Sin_Po_1922_03_20_001.png"  noborder=true 
+  alt="A black and white advertisement with an image of two tigers fighting."
+  originalUrl="https://opac.perpusnas.go.id/uploaded_files/dokumen_isi3/Terbitan%20Berkala/Sin_Po_1922_03_20_001.pdf"
+  license="cc0" %}
+Newspaper advertisement in [<Noun lang="id">Sin
+Po</Noun>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922,
+for <Noun lang="id">Dua Macan</Noun> (‘two tigers’) brand ceki cards (<span
+lang="id">kartoe tjeki</span>), being sold by Handel Mij. (also publishers of
+the newspaper).
+{% imageEnd %}
 
-* <Noun lang="ms">Cap Bajing</Noun> (‘squirrel’)
-* <Noun lang="ms">Pajung</Noun>
-* <Noun lang="ms">999</Noun>
-* <Noun lang="ms">Cap Leo</Noun> (‘lion’)
-* <Noun lang="ms">Cap Warak</Noun> (‘rhino’)
-* <Noun lang="ms">Cap Kodok</Noun> (‘frog’)
-* <Noun lang="ms">Cap Kunci</Noun> (‘lock/key’)
+Old Indonesian brands included:
+
+* <Noun lang="id">Bajing</Noun> (‘squirrel’)[@JavaanseKaartspelen p. 12]
+* <Noun lang="id">Pajung</Noun>[@JavaanseKaartspelen p. 12]
+* <Noun lang="id">999</Noun>[@JavaanseKaartspelen p. 12]
+* <Noun lang="id">Leo</Noun> (‘lion’)[@JavaanseKaartspelen p. 12]
+* <Noun lang="id">Warak</Noun> (‘rhino’)[@JavaanseKaartspelen p. 12]
+* <Noun lang="id">Kodok</Noun> (‘frog’)[@JavaanseKaartspelen p. 12]
+* <Noun lang="id">Kunci</Noun> (‘lock/key’)[@JavaanseKaartspelen p. 12]
+* <Noun lang="id">Dua Macan</Noun> (‘two tigers’)

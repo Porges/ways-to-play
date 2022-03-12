@@ -626,10 +626,13 @@ div.multi > p {
 }
 
 .sideways {
-    writing-mode: tb;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+}
+
+.centered {
     text-align: center;
     vertical-align: middle;
-    transform: rotate(180deg);
 }
 
 /*** Inline images (e.g. GPL icon) ***/
