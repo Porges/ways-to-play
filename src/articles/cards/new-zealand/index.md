@@ -7,6 +7,17 @@ mainImage: 22738050.jpg
 <p class="lead">Manufacturing of playing cards in New Zealand started in the 1880s. Despite this
 early start, there have not been many manufacturers of playing-cards.</p>
 
+{% image src="wt_display.jpg"
+    size="wide"
+    alt=""
+    originalUrl="https://natlib.govt.nz/records/23236778"
+    orgName="Alexander Turnbull Library"
+    identifier="1/1-003979-G"
+    license="with-permission" %}
+Window display at Whitcombe & Tombs (now Whitcoulls), Christchurch (1912).
+Mostly showing foreign-made cards: Goodall & Congress.
+{% imageEnd %}
+
 <!-- excerpt -->
 
 The main “lines” of manufacturers are (or were):
@@ -14,16 +25,6 @@ The main “lines” of manufacturers are (or were):
 * [John Dickinson/Croxley](#john-dickinsoncroxley)
 * [A. D. Willis/Weeks Ltd./United Empire Box/Amcor](#a-d-willisweeks-ltdunited-empire-boxamcor)
 * [Strong & Ready/Tanner Couch](#strong-andamp-readytanner-couch)
-
-{% image 
-  size="wide"
-  src="22738050.jpg"
-  alt=""
-    originalUrl="https://natlib.govt.nz/records/22738050",
-    license="cc0",
-    orgName="Alexander Turnbull Library" %}
-An advertisement for A. D. Willis’s playing cards.
-{% imageEnd %}
 
 ## Tax Stamps
 
@@ -280,6 +281,16 @@ UEB also produced pictorial souvenir decks, such as the one below.
     src="UEB2-Back.jpg;UEB2-Queen.jpg;UEB2-Joker.jpg"
     alt=";;" %}
 Back and cards from a UEB tourist deck.
+{% imageEnd %}
+
+{% image 
+  size="wide"
+  src="22738050.jpg"
+  alt=""
+    originalUrl="https://natlib.govt.nz/records/22738050",
+    license="cc0",
+    orgName="Alexander Turnbull Library" %}
+An advertisement for A. D. Willis’s playing cards.
 {% imageEnd %}
 
 ### Strong & Ready/Tanner Couch

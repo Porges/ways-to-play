@@ -242,7 +242,7 @@ section of the table is much more imprecise than the previous lines.
 <tr>
 <th scope="row">{% image noborder=true cram=true size="small" src="DOT.jpg;COT.jpg" alt=";" %}Old Thousand{% imageEnd %}</th>
 <td><span lang="ms">yu lau chian</span>, from Hokkien <span lang="nan">老千</span> ‘old thousand’<br/>or <span lang="ms">yu pinding</span></td>
-<td><span lang="min">hiu babak</span><br />chapter shark</td>
+<td><span lang="min">hiu babak</span><br />[chapter?] shark</td>
 <td><span lang="jv-Latn">besar</span><br />large</td>
 <td><span lang="ban">raja</span> or <span lang="ban">kobar</span><br />king or burning</td>
 </tr>
