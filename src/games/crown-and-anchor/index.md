@@ -319,6 +319,11 @@ were required to win anything.[@TheDamBuilders pp. 162–163] This version of th
 game has a much higher house edge of 13.865%.
 
 ## Around the World
+
+{% image src="../../maps/CrownAndAnchor.svg" alt="" size="wide" %}
+Countries known to play Crown & Anchor.
+{% imageEnd %}
+
 The game is played in many locations around the world, some of which are
 described below. Note that American-style games including casino versions are
 discussed in the {% gameref chuck-a-luck %} article.

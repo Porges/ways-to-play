@@ -23,6 +23,7 @@ function _normalizeShortcodeScope(ctx) {
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/sass");
+  eleventyConfig.addWatchTarget("src/maps");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("audio");
   eleventyConfig.addPassthroughCopy("small-images");

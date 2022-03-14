@@ -6267,5 +6267,83 @@
         },
         "page": "348-356",
         "URL": "https://www.jstor.org/stable/27863508"
+    },
+    "ChineseInAmerica": {
+        "type": "book",
+        "title": "The Gambling Games of the Chinese in America",
+        "author": [
+            {
+                "given": "Stewart",
+                "family": "Culin"
+            }
+        ],
+        "issued": {
+            "year": 1891
+        },
+        "publisher": "University of Pennsylvania",
+        "publisher-place": "Philadelphia, PA, USA",
+        "URL": "https://books.google.co.nz/books?id=6BYLAAAAIAAJ"
+    },
+    "SparrowAndPigeon": {
+        "type": "article-journal",
+        "title": "“麻雀牌”與“白鴿票”之原詞形音義探討",
+        "title-lang": "zh-Hant",
+        "author": [
+            {
+                "family": "譚",
+                "given": "世寶",
+                "lang": "zh-Hant"
+            }
+        ],
+        "issued": {
+            "year": 2014
+        },
+        "volume": 93,
+        "page": "26–37",
+        "container-title": "Revista de Cultura",
+        "container-title-lang": "pt",
+        "URL": "http://www.icm.gov.mo/rc/viewer/10093/2508"
+    },
+    "GamesOfChanceInMacau2": {
+        "type": "article-journal",
+        "title": "A History of Games of Chance in Macau: Part 2 — The Foundation of the Macau Gaming Industry",
+        "author": [
+            {
+                "given": "Jorge",
+                "family": "Godinho"
+            }
+        ],
+        "container-title": "Gaming Law Review and Economics",
+        "volume": 17,
+        "issue": 2,
+        "issued": {
+            "year": 2013
+        },
+        "page": "107–117",
+        "URL": "https://dx.doi.org/10.2139/ssrn.2263191"
+    },
+    "GuinnessMusicFacts": {
+        "type": "book",
+        "title": "The Guinness Book of Music Facts and Feats",
+        "author": [
+            {
+                "given": "Robert",
+                "family": "Dearling"
+            },
+            {
+                "given": "Celia",
+                "family": "Dearling"
+            },
+            {
+                "given": "Brian",
+                "family": "Rust"
+            }
+        ],
+        "issued": {
+            "year": 1976
+        },
+        "publisher": "Guinness Superlatives",
+        "publisher-place": "Middlesex, England, UK",
+        "URL": "https://archive.org/details/guinnessbookofmu00dearl"
     }
 }

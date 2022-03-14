@@ -10,6 +10,10 @@ hero:
     originalUrl: "https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624"
 ---
 
+{% image src="../../maps/Morabaraba.svg" alt="A map showing Botswana, Lesotho, Mozambique, and South Africa." position="right" %}
+<Noun lang="st">Morabaraba</Noun> is played across south-eastern Africa.
+{% imageEnd %}
+
 <Noun lang="st">Morabaraba</Noun> is a [mill game](/articles/mill-games/) from
 south-eastern Africa. The gameplay of the standardized version is very similar
 to {% gameref twelve-mens-morris %}  (with a few minor differences), but the
