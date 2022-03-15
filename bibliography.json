@@ -6345,5 +6345,23 @@
         "publisher": "Guinness Superlatives",
         "publisher-place": "Middlesex, England, UK",
         "URL": "https://archive.org/details/guinnessbookofmu00dearl"
+    },
+    "QinYingChapter": {
+        "type": "chapter",
+        "URL": "https://ctext.org/wiki.pl?if=en&chapter=161645",
+        "title": "列傳一百四十一",
+        "title-lang": "zh",
+        "container-title": "清史稿",
+        "container-title-lang": "zh",
+        "author": [
+            {
+                "family": "趙",
+                "given":"爾巽",
+                "lang": "zh"
+            }
+        ],
+        "issued": {
+            "year": 1928
+        }
     }
 }

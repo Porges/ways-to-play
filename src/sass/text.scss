@@ -85,9 +85,15 @@ body {
 /* Work titles in non-Latin languages should be upright, not italic: */
 cite:lang(zh) {
   font-style: inherit;
-  font-feature-settings: "palt"; 
-  &::before { content: '《' }
-  &::after { content: '》' }
+  &::before { 
+    content: '《';
+    font-feature-settings: "palt", "pwid";
+  }
+
+  &::after {
+    content: '》' ;
+    font-feature-settings: "palt", "pwid";
+  }
 }
 
 cite:lang(ja) {
