@@ -185,11 +185,13 @@ For each card in the table below I show in order (left-to-right)
 3. a 1940s deck collected in @JavaanseKaartspelen,
 4. and then a modern card from a deck purchased in Bali in 2019.
 
-Modern Malaysian & Singaporean decks are closer in style to the first deck.
+Note that the modern Balinese deck is closer in design to #2 than to #3.  Modern
+Malaysian & Singaporean decks (of which I have no samples) are closer in style
+to the #1 deck.
 
 Each card in the deck has its own nickname, based on its appearance.
 
-Note that the table is very wide and scrolls horizontally.
+Please note that the table is very wide and scrolls horizontally:
 
 <!--
 The columns in
