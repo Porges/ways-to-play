@@ -4790,6 +4790,21 @@
         ],
         "URL": "https://ee.unud.ac.id/index.php?p=divisi&act=TampilkanAbstrak&idd=6&idtah=22"
     },
+    "MinangCeki": {
+        "type": "webpage",
+        "title": "Nama-nama Kartu KOA",
+        "container-title": "Lai tau mah,..!!!",
+        "URL": "http://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html",
+        "issued": {
+            "year": 2013
+        },
+        "author": [
+            {
+                "given": "Rizkhan D.",
+                "family": "Utama"
+            }
+        ]
+    },
     "LombokCeki": {
         "type": "webpage",
         "title": "Anonymous comment on “Nama-nama Kartu KOA”",
@@ -6356,12 +6371,65 @@
         "author": [
             {
                 "family": "趙",
-                "given":"爾巽",
+                "given": "爾巽",
                 "lang": "zh"
             }
         ],
         "issued": {
             "year": 1928
         }
+    },
+    "PermainanKoaPart1": {
+        "type": "webpage",
+        "title": "Permainan KOA (bagian 1)",
+        "title-lang": "id",
+        "URL": "http://auacorner.blogspot.com/2013/08/permainan-koa-bagian-1.html",
+        "container-title": "Cindua Dingin",
+        "author": [
+            {
+                "given": "AKZs2r"
+            }
+        ],
+        "issued": {
+            "year": 2013,
+            "month": 8
+        }
+    },
+    "HetMaleischderMolukken": {
+        "type": "book",
+        "title": "Het Maleisch der Molukken",
+        "title-lang": "nl",
+        "author": [
+            {
+                "given": "Frederik Sigismund Alexander",
+                "family": "de Clercq",
+                "lang": "nl"
+            }
+        ],
+        "issued": {
+            "year": 1876
+        },
+        "publisher-place": "Batavia",
+        "publisher": "W. Bruining",
+        "URL": "https://hdl.handle.net/2027/coo.31924062591262"
+    },
+    "YoungCeki": {
+        "type": "article-journal",
+        "title": "Bijdrage tot de kennis der Chinesche hazard- en kaartspelen",
+        "title-lang": "nl",
+        "author": [
+            {
+                "given": "J. W.",
+                "family": "Young"
+            }
+        ],
+        "container-title": "Tijdschrift voor Indische Taal, Land- en Volkenkunde",
+        "container-title-lang": "nl",
+        "volume": 31,
+        "page": "269–302",
+        "issued": {
+            "year": 1886
+        },
+        "URL": "https://books.google.co.nz/books?id=BSUDAAAAYAAJ&pg=PA269"
     }
 }

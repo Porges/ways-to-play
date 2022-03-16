@@ -22,7 +22,7 @@ exports.render = async function (data) {
     return '<div class="container">'
         +`<h1>${data.title}</h1>`
         +'<div class="row">'
-        +`<ul class="reference-list list-unstyled offset-2 col-8">\n${biblio.map(b => `<li>${renderReference(b)}</li>`).join("\n")}\n</ul>`
+        +`<ul class="reference-list list-unstyled offset-lg-2 col-lg-8">\n${biblio.map(b => `<li>${renderReference(b)}</li>`).join("\n")}\n</ul>`
         +'</div>'
         +'</div>';
 }

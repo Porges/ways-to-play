@@ -57,11 +57,11 @@ pigeon races and betting being performed in this manner.[@SparrowAndPigeon]
 ## Known history
 
 According to the [<cite>Draft History of <Noun
-lang="zh-Latn">Qing</Noun></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing)[@QinYingChapter]
+lang="zh-Latn">Qing</Noun></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
 the official <Noun lang="zh-Latn">Qin Ying</Noun> (<span lang="zh">秦瀛</span>,
 1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<Noun
 lang="zh-Latn">Jiaqing</Noun>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
-(1804/05), so the game must have existed at this point.[@SparrowAndPigeon]
+(1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
 
 <!--
 GT translation:
@@ -90,23 +90,32 @@ Amaral</Noun>](https://en.wikipedia.org/wiki/Jo%C3%A3o_Maria_Ferreira_do_Amaral)
 Chinese businessmen.[@GamesOfChanceInMacau2 p. 110] Macau had been declared a
 free port in 1845, hoping to increase trade and business under competition from
 the recently-established British colony at Hong Kong (1842). Despite this, Macau
-was still in decline and Amaral was under pressure to raise revenue. New taxes
-introduced by Amaral were unpopular and had even led to [an armed
+was still in decline and Amaral was under pressure to raise revenue. Attempts by
+Amaral to introduce new taxes were unpopular and had even led to [an armed
 revolt](https://en.wikipedia.org/wiki/Revolt_of_the_Faiti%C3%B5es) in October
 1846. Thus, a system was devised whereby monopoly rights for important goods
 (including pork and beef, fish, salt, oysters and opium) were sold or auctioned
 off.  Gambling monopolies were a logical extension of this idea. 
 
+{% image src="156734440_fc41d2c401_o.jpg" alt="A neon “Pacapio” sign." position="aside"
+    license="cc-by"
+    authorGiven="Brian"
+    authorFamily="Chow"
+    copyrightYear="2005"
+    originalUrl="https://www.flickr.com/photos/free-stuff/156734440" %}
+A “Pacapio” sign in Macau.
+{% imageEnd %}
+
 The Macau Senate were unhappy with a number of the decisions made by the
 governor, and complained directly to Lisbon that, among other things, 
 
 > … the Chinese were given license to operate lotteries inside the city, a thing
-> that the same Goverment which allowed it had just two months before forbidden
+> that the same Government which allowed it had just two months before forbidden
 > as immoral and harmful to peacefulness and public tranquility.
 
 Nevertheless, the game was permitted to continue and licenses to run <span
 lang="pt">pacapio</span> began to be issued on an annual basis from April 5,
-1848.
+1848. The game is still played today in Macau.
 
 <!--
  was invented
@@ -115,14 +124,6 @@ intended to obscure the real operation. He suggests that it was derived from a
 name like <span lang="zh">博合</span> (bok3 hap6); <span lang="zh">白</span> and
 <span lang="zh">博</span> can have coincident pronunciations in Mandarin, and the .
 -->
-
-{% image src="pakapoo_ticket.jpg" alt=""
-    orgName="Alexander Turnbull Library"
-    identifier="Eph-A-LOTTERY-1920s-01"
-    license="with-permission"
-    originalUrl="https://natlib.govt.nz/records/22741041" %}
-A used “pakapoo” ticket from New Zealand.
-{% imageEnd %}
 
 ## Spread to other countries
 
@@ -134,5 +135,13 @@ Canada, Victoria in Australia, and New Zealand.
 ### Australia
 
 ### New Zealand
+
+{% image src="pakapoo_ticket.jpg" alt=""
+    orgName="Alexander Turnbull Library"
+    identifier="Eph-A-LOTTERY-1920s-01"
+    license="with-permission"
+    originalUrl="https://natlib.govt.nz/records/22741041" %}
+A used “pakapoo” ticket from New Zealand.
+{% imageEnd %}
 
 ## Globalization

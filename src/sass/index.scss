@@ -432,6 +432,22 @@ td {
     padding: 0.8rem;
 }
 
+th > p:last-child, td > p:last-child, th > figure, td > figure {
+    margin-bottom: 0;
+}
+
+.sticky-left {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
 table caption {
     line-height: 1.1em;
     text-align: center;
@@ -743,7 +759,7 @@ a[href*="wikipedia.org" i] {
 
   /* Overlay entire screen */
   position: fixed;
-  z-index: 999;
+  z-index: 900;
   top: 0;
   left: 0;
   right: 0;
@@ -794,4 +810,15 @@ a .figure-img {
 /* Game list stuff */
 .game-variant {
     font-style: italic;
+}
+
+
+/* a bit hacky */
+.at-least-150-px {
+    min-width: 150px;
+}
+@include media-breakpoint-up(lg) {
+    .at-least-150-px {
+        min-width: 300px;
+    }
 }
