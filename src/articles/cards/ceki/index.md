@@ -191,7 +191,7 @@ to the #1 deck.
 
 Each card in the deck has its own nickname, based on its appearance.
 
-Translations are mostly from the [SEAlang](https://sealang.net) dictionaries;
+Translations are mostly from the [SEAlang](http://sealang.net) dictionaries;
 any mistakes are my own. Please note that the table is very wide and scrolls
 horizontally:
 
