@@ -191,7 +191,9 @@ to the #1 deck.
 
 Each card in the deck has its own nickname, based on its appearance.
 
-Please note that the table is very wide and scrolls horizontally:
+Translations are mostly from the [SEAlang](https://sealang.net) dictionaries;
+any mistakes are my own. Please note that the table is very wide and scrolls
+horizontally:
 
 <!--
 The columns in
@@ -239,7 +241,7 @@ section of the table is much more imprecise than the previous lines.
     <th class="text-center sticky-left border-end bg-white at-least-150-px"></th>
     <th>Malaysia/Singapore</th>
     <th>Sumatra</th>
-    <th colspan="6">Java</th>
+    <th colspan="7">Java</th>
     <th colspan="7">Bali</th>
     <th colspan="2">Lombok</th>
     <th>Borneo</th>
@@ -256,6 +258,11 @@ Padang<br/>(2013)[@MinangCeki]
 
 </th>
 <!-- Java -->
+<th>
+
+[unstated]<br/>(1876)[@deClercqPehiSpel]
+
+</th>
 <th>
 
 Pekalongan<br/>(1941)[@JavaanseKaartspelen]
@@ -367,6 +374,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 <!-- Bali -->
 <td></td>
 <td></td>
@@ -393,23 +401,24 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu lau chian</span>, from Hokkien <span lang="nan">老千</span> ‘old thousand’<br/>or <span lang="ms">yu pinding</span></td>
 <td><span lang="min">danau rezeki, hiu/babak</span><br />[chapter?] shark</td>
 <!-- Java -->
-<td><span lang="jv-Latn">iyo ratu</span></td>
-<td><span lang="jv-Latn">iyo ratu</span></td>
-<td><span lang="jv-Latn">iyo ratu</span></td>
-<td><span lang="jv-Latn">iyo ratu</span></td>
-<td><span lang="jv-Latn">besar</span><br />large</td>
-<td><span lang="jv-Latn">besar</span></td>
+<td><span lang="jv">ꦫꦗ</span><br/><span lang="jv-Latn">raja</span><br/>king</td>
+<td><span lang="jv-Latn">iyo ratu</span><br/>king ace</td>
+<td><span lang="jv-Latn">iyo ratu</span><br/>king ace</td>
+<td><span lang="jv-Latn">iyo ratu</span><br/>king ace</td>
+<td><span lang="jv-Latn">iyo ratu</span><br/>king ace</td>
+<td><span lang="jv-Latn">besar</span><br/>large</td>
+<td><span lang="jv-Latn">besar</span><br/>large</td>
 <!-- Bali -->
 <td><span lang="ban">raja</span><br/>king</td>
-<td><span lang="ban">raja</span></td>
+<td><span lang="ban">raja</span><br/>king</td>
 <td><span lang="ban">(oong) raja</span></td>
 <td><span lang="ban">(oong) raja</span></td>
-<td><span lang="ban">kobar</span></td>
+<td><span lang="ban">kobar</span><br/>burning</td>
 <td><span lang="ban">kobar (oong besar KBW)</span></td>
-<td><span lang="ban">kobar</span></td>
+<td><span lang="ban">kobar</span><br/>burning</td>
 <!-- Lombok -->
 <td><span lang="ban">kobar</span><br/>burning</td>
-<td><span lang="ban">kobar</span></td>
+<td><span lang="ban">kobar</span><br/>burning</td>
 <!-- Borneo -->
 <td><span lang="bjn">abang/raja basar</span></td>
 <!-- Sulawesi -->
@@ -425,20 +434,21 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu kuching</span><br />cat ace</td>
 <td><span lang="min">hiu kuciang</span><br />cat shark</td>
 <!-- Java -->
-<td><span lang="jv-Latn">kucing</span></td>
-<td><span lang="jv-Latn">kucing</span></td>
-<td><span lang="jv-Latn">kucing</span></td>
-<td><span lang="jv-Latn">(iyo) kucing, curut</span></td>
-<td><span lang="jv-Latn">kucing</span><br />cat</td>
-<td><span lang="jv-Latn">kucing</span></td>
+<td><span lang="jv">ꦏꦸꦕꦶꦁ</span><br/><span lang="jv-Latn">kucing</span><br/>cat</td>
+<td><span lang="jv-Latn">kucing</span><br/>cat</td>
+<td><span lang="jv-Latn">kucing</span><br/>cat</td>
+<td><span lang="jv-Latn">kucing</span><br/>cat</td>
+<td><span lang="jv-Latn">(iyo) kucing</span><br/>cat ace<br/><br/><span lang="jv-Latn">curut</span><br/>rat</td>
+<td><span lang="jv-Latn">kucing</span><br/>cat</td>
+<td><span lang="jv-Latn">kucing</span><br/>cat</td>
 <!-- Bali -->
 <td><span lang="ban">cakra</span><br />chakra</td>
-<td><span lang="ban">cakra</span></td>
-<td><span lang="ban">cakra</span></td>
-<td><span lang="ban">cakra</span></td>
+<td><span lang="ban">cakra</span><br />chakra</td>
+<td><span lang="ban">cakra</span><br />chakra</td>
+<td><span lang="ban">cakra</span><br />chakra</td>
 <td><span lang="ban">cepe</span></td>
-<td><span lang="ban">cakra</span></td>
-<td><span lang="ban">cakra</span></td>
+<td><span lang="ban">cakra</span><br />chakra</td>
+<td><span lang="ban">cakra</span><br />chakra</td>
 <!-- Lombok -->
 <td><span lang="ban">cpé</span><br/>?</td>
 <td><span lang="ban">rerepé</span></td>
@@ -447,7 +457,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Sulawesi -->
 <td><span lang="id">kukis</span></td>
 <!-- Maluku -->
-<td><span lang="id">parampuwan</span></td>
+<td><span lang="id">parampuwan</span><br/>woman</td>
 <!-- Timor -->
 <td><span lang="id">kucing</span></td>
 </tr>
@@ -457,6 +467,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu nyonya</span><br />(娘仔?) ace</td>
 <td><span lang="min">hiu merah</span><br/>red shark<br/><br/>or <span lang="min">penci</span><br/>[<a href="https://en.wikipedia.org/wiki/Songkok">a hat</a>?]</td>
 <!-- Java -->
+<td><span lang="jv">ꦏꦼꦚ꧀ꦕꦶ</span><br/><span lang="jv-Latn">keñci</span><br/></td>
 <td><span lang="jv-Latn">kenci</span></td>
 <td><span lang="jv-Latn">kenci</span></td>
 <td><span lang="jv-Latn">kenci</span></td>
@@ -489,6 +500,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu kasut</span><br />slipper ace (looks like a Nyonya slipper)</td>
 <td><span lang="min">hiu kasuik</span><br />[unknown] shark</td>
 <!-- Java -->
+<td><span lang="jv">ꦏꦱꦸꦠ꧀</span><br/><span lang="jv-Latn">kasut</span><br/>slipper</td>
 <td><span lang="jv-Latn">kasut</span><br/>slipper</td>
 <td><span lang="jv-Latn">kasut</span><br/>slipper</td>
 <td><span lang="jv-Latn">kasut</span><br/>slipper</td>
@@ -497,23 +509,23 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jv-Latn">kisut</span><br/>wrinkled</td>
 <!-- Bali -->
 <td><span lang="ban">likas</span><br />reel</td>
-<td><span lang="ban">likas</span></td>
-<td><span lang="ban">likas</span></td>
-<td><span lang="ban">likas</span></td>
-<td><span lang="ban">likas</span></td>
-<td><span lang="ban">likas</span></td>
-<td><span lang="ban">likas</span></td>
+<td><span lang="ban">likas</span><br />reel</td>
+<td><span lang="ban">likas</span><br />reel</td>
+<td><span lang="ban">likas</span><br />reel</td>
+<td><span lang="ban">likas</span><br />reel</td>
+<td><span lang="ban">likas</span><br />reel</td>
+<td><span lang="ban">likas</span><br />reel</td>
 <!-- Lombok -->
-<td><span lang="ban">likas</span></td>
-<td><span lang="ban">likas</span></td>
+<td><span lang="ban">likas</span><br />reel</td>
+<td><span lang="ban">likas</span><br />reel</td>
 <!-- Borneo -->
 <td><span lang="bjn">kasut/butuh [women]; bedor [men]</span></td>
 <!-- Sulawesi -->
-<td><span lang="id">tikar</span></td>
+<td><span lang="id">tikar</span><br/>plaited mat</td>
 <!-- Maluku -->
-<td><span lang="id">tikar</span></td>
+<td><span lang="id">tikar</span><br/>plaited mat</td>
 <!-- Timor -->
-<td><span lang="id">kaso</span></td>
+<td><span lang="id">kaso</span><br/>[<cite>Saccharum spontaneum</cite>? <a href="https://www.britishmuseum.org/collection/object/A_As1960-10-79">mats are woven from this</a>]</td>
 </tr>
 
 <tr>
@@ -521,31 +533,32 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span><br />long or bird ace</td>
 <td><span lang="min">hiu panjang</span><br />long shark</td>
 <!-- Java -->
+<td><span lang="jv">ꦧꦼꦢꦺꦴꦂ</span><br/><span lang="jv-Latn">bedor</span><br/></td>
 <td><span lang="jv-Latn">(iyo) bedor</span></td>
 <td><span lang="jv-Latn">(iyo) bedor</span></td>
 <td><span lang="jv-Latn">(iyo) bedor</span></td>
 <td><span lang="jv-Latn">(iyo) bedor</span></td>
-<td><span lang="jv-Latn">sotur</span><br />[unknown]</td>
-<td><span lang="jv-Latn">bedhul</span><br/>pulled out, uprooted<br/><br/><span lang="jv-Latn">sodor</span><br/>lance</td>
+<td><span lang="jv-Latn">sotur</span><br />[probably round-tipped lance]</td>
+<td><span lang="jv-Latn">bedhul</span><br/>pulled out, uprooted<br/><br/><span lang="jv-Latn">sodor</span><br/>round-tipped lance</td>
 <!-- Bali -->
-<td><span lang="ban">lojor</span><br/>a long Balinese drum</td>
-<td><span lang="ban">lojor</span></td>
-<td><span lang="ban">lojor</span></td>
-<td><span lang="ban">lojor</span></td>
-<td><span lang="ban">lojor</span></td>
-<td><span lang="ban">slodor</span></td>
-<td><span lang="ban">selodor</span></td>
+<td><span lang="ban">lojor</span><br/>long</td>
+<td><span lang="ban">lojor</span><br/>long</td>
+<td><span lang="ban">lojor</span><br/>long</td>
+<td><span lang="ban">lojor</span><br/>long</td>
+<td><span lang="ban">lojor</span><br/>long</td>
+<td><span lang="ban">slodor</span><br/>[probably round-tipped lance]</td>
+<td><span lang="ban">selodor</span><br/>[probably round-tipped lance]</td>
 <!-- Lombok -->
-<td><span lang="ban">selodor</span></td>
+<td><span lang="ban">selodor</span><br/>[probably round-tipped lance]</td>
 <td><span lang="ban">(lojor?)</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">panjang</span></td>
+<td><span lang="bjn">panjang</span><br/>long</td>
 <!-- Sulawesi -->
-<td><span lang="id">panjang</span></td>
+<td><span lang="id">panjang</span><br/>long</td>
 <!-- Maluku -->
-<td><span lang="id">panjang</span></td>
+<td><span lang="id">panjang</span><br/>long</td>
 <!-- Timor -->
-<td><span lang="id">panjang</span></td>
+<td><span lang="id">panjang</span><br/>long</td>
 </tr>
 
 <tr>
@@ -553,6 +566,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu hue sio</span><br />from Hokkien ‘monk’ <span lang="nan">和尚</span></td>
 <td><span lang="min">hiu bungo</span><br />flower shark</td>
 <!-- Java -->
+<td><span lang="jv">ꦥꦼꦠꦶꦏ꧀</sin><br/><span lang="jv-Latn">petik</span><br/></td>
 <td><span lang="jv-Latn">beset</span><br/>peeled [bald?]</td>
 <td><span lang="jv-Latn">gundhul</span><br/>bald<br/><br/><span lang="jv-Latn">pletik</span><br/>spark</td>
 <td><span lang="jv-Latn">(iyo) gundhul</span><br/>bald<br/><br/><span lang="jv-Latn">petik</span><br/>[spark?]</td>
@@ -591,6 +605,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 <!-- Bali -->
 <td></td>
 <td></td>
@@ -617,18 +632,19 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">ji hitam</span> or <span lang="ms">ji bulat</span><br />black or round two</td>
 <td><span lang="min">bengkok itam/wajik</span><br />black/diamond crooked</td>
 <!-- Java -->
-<td><span lang="jv-Latn">pelong</span></td>
-<td><span lang="jv-Latn">plompong</span></td>
-<td><span lang="jv-Latn">loro plompong, plontho</span></td>
-<td><span lang="jv-Latn">loro plompong, plontho</span></td>
-<td><span lang="jv-Latn">dimpil tolu</span><br />larger than normal or fused digit, [fifth week?]</td>
-<td><span lang="jv-Latn">komplong</span></td>
+<td><span lang="jv">ꦥ꧀ꦭꦺꦴꦩ꧀ꦥꦺꦴꦁ</span><br/><span lang="jv-Latn">plompong</span><br/>gaping mouth</td>
+<td><span lang="jv-Latn">pelong</span><br/>wide open</td>
+<td><span lang="jv-Latn">plompong</span><br/>gaping mouth</td>
+<td><span lang="jv-Latn">loro plompong</span><br/>gaping two<br/><br/><span lang="jv-Latn">plontho</span><br/>prostitute</td>
+<td><span lang="jv-Latn">loro plompong</span><br/>gaping two<br/><br/><span lang="jv-Latn">plontho</span><br/>prostitute</td>
+<td><span lang="jv-Latn">dhimpil tolu</span><br />chipped [fifth week of Javanese calendar?]</td>
+<td><span lang="jv-Latn">komplong</span><br/>to gape</td>
 <!-- Bali -->
 <td><span lang="ban">bug dua</span><br />[two dried betel nuts?]</td>
 <td><span lang="ban">jebug dua</span></td>
-<td><span lang="ban">jebug dua</span><br/><br/><span lang="ban">ponggang</span></td>
+<td><span lang="ban">jebug dua</span><br/><br/><span lang="ban">ponggang</span><br/>hole</td>
 <td><span lang="ban">jabog dua</span></td>
-<td><span lang="ban">ponggang</span></td>
+<td><span lang="ban">ponggang</span><br/>hole</td>
 <td><span lang="ban">gobog dua (omplong KBW)</span></td>
 <td><span lang="ban">gobog dua</span></td>
 <!-- Lombok -->
@@ -649,6 +665,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">ji burung</span><br />bird two</td>
 <td><span lang="min">bengkok gadang</span><br />big crooked</td>
 <!-- Java -->
+<td><span lang="jv">ꦢꦺꦁꦏꦺꦏ꧀</span><br/><span lang="jv-Latn">déngkék</span><br/></td>
 <td><span lang="jv-Latn">dengkek</span></td>
 <td><span lang="jv-Latn">dengkek</span></td>
 <td><span lang="jv-Latn">(loro) dengkek</span></td>
@@ -681,11 +698,12 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">ji ban</span><br /></td>
 <td><span lang="min">bengkok aluih</span><br />genteel crooked</td>
 <!-- Java -->
+<td><span lang="jv">ꦝꦶꦩ꧀ꦥꦶꦭ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">dhimpil cina</span><br/>chipped Chinese</td>
 <td><span lang="jv-Latn">munthil</span><br/>small tight knot, Javanese hairstyle</td>
 <td><span lang="jv-Latn">dhimpil</span><br/>chipped</td>
 <td><span lang="jv-Latn">loro cina</span><br/>China two<br/><br/><span lang="jv-Latn">loro dhimpil</span><br/>chipped two</td>
 <td><span lang="jv-Latn">loro cina</span><br/>China two<br/><br/><span lang="jv-Latn">loro dhimpil</span><br/>chipped two</td>
-<td><span lang="jv-Latn">dimpil wong</span><br />larger than normal or fused digit, person</td>
+<td><span lang="jv-Latn">dhimpil wong</span><br />chipped person</td>
 <td><span lang="jv-Latn">wong bendhol</span><br/>person with a bump</td>
 <!-- Bali -->
 <td><span lang="ban">pelik</span><br />[?]</td>
@@ -699,13 +717,13 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ban">kolo</span></td>
 <td><span lang="ban">kolo</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">miring</span></td>
+<td><span lang="bjn">miring</span><br/>angled</td>
 <!-- Sulawesi -->
-<td><span lang="id">miring</span></td>
+<td><span lang="id">miring</span><br/>angled</td>
 <!-- Maluku -->
-<td><span lang="id">miring</span></td>
+<td><span lang="id">miring</span><br/>angled</td>
 <!-- Timor -->
-<td><span lang="id">miring</span></td>
+<td><span lang="id">miring</span><br/>angled</td>
 </tr>
 
 <tr class="table-secondary">
@@ -713,6 +731,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">sa</span> (Hokkien saⁿ)</td>
 <td><span lang="min">jarum</span> ‘needle’</td>
 <!-- Java -->
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -745,11 +764,12 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">sa batik</span><br />batik three</td>
 <td><span lang="min">jarum wajik/itam</span><br />diamond/black needle</td>
 <!-- Java -->
-<td><span lang="jv-Latn">wajik</span></td>
-<td><span lang="jv-Latn">plenthi, pithi</span></td>
-<td><span lang="jv-Latn">(telu) plenthi, tambur cilik, telu pithi</span></td>
-<td><span lang="jv-Latn">(telu) plenthi, tambur cilik, telu pithi</span></td>
-<td><span lang="jv-Latn">cerud jarum</span><br />[unknown] needle</td>
+<td><span lang="jv">ꦮꦗꦶꦏ꧀</span><br/><span lang="jv-Latn">wajik</span><br/>diamond</td>
+<td><span lang="jv-Latn">wajik</span><br/>diamond</td>
+<td><span lang="jv-Latn">plenthi</span><br/><br/><span lang="jv-Latn">pithi</span></td>
+<td><span lang="jv-Latn">(telu) plenthi</span><br/><br/><span lang="jv-Latn">tambur cilik</span><br/>small drum<br/><br/><span lang="jv-Latn">telu pithi</span></td>
+<td><span lang="jv-Latn">(telu) plenthi</span><br/><br/><span lang="jv-Latn">tambur cilik</span><br/>small drum<br/><br/><span lang="jv-Latn">telu pithi</span></td>
+<td><span lang="jv-Latn">cerut</span><br/>[constricted?]<br/><br/><span lang="jv-Latn">jarum</span><br />needle</td>
 <td><span lang="jv-Latn">gebles/gobog cilik/curut</span></td>
 <!-- Bali -->
 <td><span lang="ban">bug telu</span><br />[three dried betel nuts?]</td>
@@ -777,31 +797,32 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">sa udang</span><br />shrimp three</td>
 <td><span lang="min">jarum gadang</span><br />big needle</td>
 <!-- Java -->
-<td>gunung</td>
-<td>gunung</td>
-<td><span lang="jv-Latn">(telu) gunung</span></td>
-<td><span lang="jv-Latn">(telu) gunung</span></td>
+<td><span lang="jv">ꦒꦹꦤꦸꦁ</span><br/><span lang="jv-Latn">gunung</span><br/>mountain</td>
 <td><span lang="jv-Latn">gunung</span><br />mountain</td>
-<td>gunung</td>
+<td><span lang="jv-Latn">gunung</span><br />mountain</td>
+<td><span lang="jv-Latn">(telu) gunung</span><br/>mountain (three)</td>
+<td><span lang="jv-Latn">(telu) gunung</span><br/>mountain (three)</td>
+<td><span lang="jv-Latn">gunung</span><br />mountain</td>
+<td><span lang="jv-Latn">gunung</span><br />mountain</td>
 <!-- Bali -->
 <td><span lang="ban">gunung</span><br />mountain</td>
-<td><span lang="ban">gunung</span></td>
-<td><span lang="ban">gunung</span></td>
-<td><span lang="ban">gunung</span></td>
-<td><span lang="ban">gunung</span></td>
-<td><span lang="ban">gunung</span></td>
-<td><span lang="ban">gunung</span></td>
+<td><span lang="ban">gunung</span><br />mountain</td>
+<td><span lang="ban">gunung</span><br />mountain</td>
+<td><span lang="ban">gunung</span><br />mountain</td>
+<td><span lang="ban">gunung</span><br />mountain</td>
+<td><span lang="ban">gunung</span><br />mountain</td>
+<td><span lang="ban">gunung</span><br />mountain</td>
 <!-- Lombok -->
-<td><span lang="ban">gunung</span></td>
-<td><span lang="ban">gunung</span></td>
+<td><span lang="ban">gunung</span><br />mountain</td>
+<td><span lang="ban">gunung</span><br />mountain</td>
 <!-- Borneo -->
-<td><span lang="bjn">(jarum) gunung</span></td>
+<td><span lang="bjn">(jarum) gunung</span><br/>(needle) mountain</td>
 <!-- Sulawesi -->
-<td><span lang="id">udang</span></td>
+<td><span lang="id">udang</span><br/>shrimp</td>
 <!-- Maluku -->
-<td><span lang="id">udang</span></td>
+<td><span lang="id">udang</span><br/>shrimp</td>
 <!-- Timor -->
-<td><span lang="id">udang</span></td>
+<td><span lang="id">udang</span><br/>shrimp</td>
 </tr>
 
 <tr>
@@ -809,6 +830,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">sa ban</span></td>
 <td><span lang="min">jarum aluih</span><br />genteel needle</td>
 <!-- Java -->
+<td><span lang="jv">ꦗꦫꦸꦩ꧀</span><br/><span lang="jv-Latn">jarum</span><br/>needle</td>
 <td><span lang="jv-Latn">telu cina, cingik</span></td>
 <td><span lang="jv-Latn">telu cina, jarum</span></td>
 <td><span lang="jv-Latn">singit, jarum</span></td>
@@ -847,6 +869,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 <!-- Bali -->
 <td></td>
 <td></td>
@@ -873,12 +896,13 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">si hitam</span><br />black four</td>
 <td><span lang="min">suduang itam/wajik</span><br />black/diamond spoon</td>
 <!-- Java -->
-<td><span lang="jv-Latn">tambur</span></td>
-<td><span lang="jv-Latn">tambur</span></td>
-<td><span lang="jv-Latn">tambur gedhe</span></td>
-<td><span lang="jv-Latn">papat tambur, tambut gedhe</span></td>
+<td><span lang="jv">ꦠꦩ꧀ꦧꦸꦂ</span><br/><span lang="jv-Latn">tambur</span><br/>drum</td>
+<td><span lang="jv-Latn">tambur</span><br/>drum</td>
+<td><span lang="jv-Latn">tambur</span><br/>drum</td>
+<td><span lang="jv-Latn">tambur gedhé</span><br/>big drum</td>
+<td><span lang="jv-Latn">papat tambur</span><br/>four drum<br/><br/><span lang="jv-Latn">tambur gedhé</span><br/>big drum</td>
 <td><span lang="jv-Latn">gobok</span><br />coin</td>
-<td><span lang="jv-Latn">gebles/gobod gedhe</span></td>
+<td><span lang="jv-Latn">gebles/gobod gedhé</span></td>
 <!-- Bali -->
 <td><span lang="ban">belah</span></td>
 <td><span lang="ban">bug gede</span></td>
@@ -905,12 +929,13 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">si putih</span><br />white four</td>
 <td><span lang="min">pinggang</span><br />waist</td>
 <!-- Java -->
+<td><span lang="jv">ꦕꦮꦁ</span><br/><span lang="jv-Latn">cawang</span><br/>forked</td>
 <td><span lang="jv-Latn">gapet</span></td>
-<td><span lang="jv-Latn">cawang, pat pedhot</span></td>
-<td><span lang="jv-Latn">(pat) cawang</span></td>
-<td><span lang="jv-Latn">(pat) cawang</span></td>
-<td><span lang="jv-Latn">cawang</span><br />spool</td>
-<td><span lang="jv-Latn">cawang</span></td>
+<td><span lang="jv-Latn">cawang</span><br/>forked<br/><br/><span lang="jv-Latn">pat pedhot</span><br/>interrupted four</td>
+<td><span lang="jv-Latn">(pat) cawang</span><br/>forked (four)</td>
+<td><span lang="jv-Latn">(pat) cawang</span><br/>forked (four)</td>
+<td><span lang="jv-Latn">cawang</span><br/>forked</td>
+<td><span lang="jv-Latn">cawang</span><br/>forked</td>
 <!-- Bali -->
 <td><span lang="ban">sangkap</span><br />[unknown]</td>
 <td><span lang="ban">sangkap</span></td>
@@ -937,12 +962,13 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">si ban</span></td>
 <td><span lang="min">suduang putiah</span><br />white spoon</td>
 <!-- Java -->
-<td><span lang="jv-Latn">bodong</span></td>
-<td><span lang="jv-Latn">pat cina</span></td>
-<td><span lang="jv-Latn">bodong</span></td>
-<td><span lang="jv-Latn">papat cina, kondhe, nyonyah</span></td>
-<td><span lang="jv-Latn">sundul</span><br />spool</td>
-<td><span lang="jv-Latn">wong sundhul</span></td>
+<td><span lang="jv">ꦕꦶꦤ</span><br/><span lang="jv-Latn">cina</span><br/>China/Chinese</td>
+<td><span lang="jv-Latn">bodong</span><br/>protruding (navel)</td>
+<td><span lang="jv-Latn">pat cina</span><br/>Chinese four</td>
+<td><span lang="jv-Latn">bodong</span><br/>protruding (navel)</td>
+<td><span lang="jv-Latn">papat cina</span><br/>Chinese four<br/><br/><span lang="jv-Latn">kondhé, nyonyah</span></td>
+<td><span lang="jv-Latn">sundhul</span><br />to reach or touch up high</td>
+<td><span lang="jv-Latn">wong sundhul</span><br/>person reach or touch up high</td>
 <!-- Bali -->
 <td><span lang="ban">mendut</span><br />steamed rice flour balls</td>
 <td><span lang="ban">gendot</span></td>
@@ -975,6 +1001,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 <!-- Bali -->
 <td></td>
 <td></td>
@@ -1001,12 +1028,13 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">go pending</span><br />pending five</td>
 <td><span lang="min">babi pusek</span><br />navel pig</td>
 <!-- Java -->
-<td><span lang="jv-Latn">kanthong</span></td>
-<td><span lang="jv-Latn">kanthong</span></td>
-<td><span lang="jv-Latn">(lima) kanthong, lumpang</span></td>
-<td><span lang="jv-Latn">(lima) kanthong, lumpang</span></td>
+<td><span lang="jv">ꦧꦧꦶꦏꦟ꧀ꦛꦺꦴꦁ</span><br/><span lang="jv-Latn">babi kaṇthong</span><br/>bag</td>
+<td><span lang="jv-Latn">kanthong</span><br/>bag</td>
+<td><span lang="jv-Latn">kanthong</span><br/>bag</td>
+<td><span lang="jv-Latn">(lima) kanthong</span><br/>bag (five)<br/><br/><span lang="jv-Latn">lumpang</span><br/>mortar</td>
+<td><span lang="jv-Latn">(lima) kanthong</span><br/>bag (five)<br/><br/><span lang="jv-Latn">lumpang</span><br/>mortar</td>
 <td><span lang="jv-Latn">cupa</span><br />[unknown]</td>
-<td><span lang="jv-Latn">pau, wudel, bodong</span></td>
+<td><span lang="jv-Latn">pau</span><br/><br/><br/><span lang="jv-Latn">wudel</span><br/>navel<br/><br/><span lang="jv-Latn">bodong</span><br/>protruding (navel)</td>
 <!-- Bali -->
 <td><span lang="ban">prau</span><br />boat</td>
 <td><span lang="ban">pau</span></td>
@@ -1023,9 +1051,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Sulawesi -->
 <td><span lang="id">prahu</span></td>
 <!-- Maluku -->
-<td><span lang="id">pusat</span></td>
+<td><span lang="id">pusat</span><br/>navel</td>
 <!-- Timor -->
-<td><span lang="id">pusat</span></td>
+<td><span lang="id">pusat</span><br/>navel</td>
 </tr>
 
 <tr>
@@ -1033,6 +1061,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">go burung</span><br />bird five</td>
 <td><span lang="min">babi gadang</span><br />big pig</td>
 <!-- Java -->
+<td><span lang="jv">ꦧꦧꦶꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">babi lintrik</span><br/></td>
 <td><span lang="jv-Latn">lima kleja</span></td>
 <td><span lang="jv-Latn">lima lintrik, kecuk</span></td>
 <td><span lang="jv-Latn">tholo</span></td>
@@ -1065,6 +1094,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">go ban</span></td>
 <td><span lang="min">babi aluih</span> <br />genteel pig</td>
 <!-- Java -->
+<td><span lang="jv">ꦧꦧꦶꦕꦶꦤ</span><br/><span lang="jv-Latn">babi cina</span><br/></td>
 <td><span lang="jv-Latn">gombal</span></td>
 <td><span lang="jv-Latn">lima cina</span></td>
 <td><span lang="jv-Latn">babi</span></td>
@@ -1103,6 +1133,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 <!-- Bali -->
 <td></td>
 <td></td>
@@ -1129,12 +1160,13 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">lak hitam</span><br />black six</td>
 <td><span lang="min">kapik anam</span><br />grilled six</td>
 <!-- Java -->
-<td><span lang="jv-Latn">kerok</span></td>
-<td><span lang="jv-Latn">kerok</span></td>
+<td><span lang="jv">ꦏꦼꦫꦺꦴꦏ꧀ꦒ꦳ꦥꦶꦠ꧀</span><br/><span lang="jv-Latn">kerok ghapit</span><br/>curry-comb tongs</td>
+<td><span lang="jv-Latn">kerok</span><br/>curry-comb</td>
+<td><span lang="jv-Latn">kerok</span><br/>curry-comb</td>
 <td><span lang="jv-Latn">(nem) kerok</span></td>
 <td><span lang="jv-Latn">(nem) kerok</span></td>
-<td><span lang="jv-Latn">mendung</span><br />[unknown]</td>
-<td><span lang="jv-Latn">kerok</span></td>
+<td><span lang="jv-Latn">mendhung</span><br />dark rain cloud</td>
+<td><span lang="jv-Latn">kerok</span><br/>curry-comb</td>
 <!-- Bali -->
 <td><span lang="ban">nyem</span><br />[unknown]</td>
 <td><span lang="ban">pis nem</span></td>
@@ -1161,16 +1193,17 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">lak putih</span><br />white six</td>
 <td><span lang="min">kapik manih</span><br />grilled sweet</td>
 <!-- Java -->
-<td><span lang="jv-Latn">kledja</span></td>
-<td><span lang="jv-Latn">kledja</span></td>
-<td><span lang="jv-Latn">(nem) kleja, bagus</span></td>
-<td><span lang="jv-Latn">(nem) kleja, bagus</span></td>
-<td><span lang="jv-Latn">condro</span><br />[unknown]</td>
-<td><span lang="jv-Latn">tanem</span></td>
+<td><span lang="jv">ꦏ꧀ꦭꦺꦗꦒ꦳ꦥꦶꦠ꧀</span><br/><span lang="jv-Latn">kléja ghapit</span><br/></td>
+<td><span lang="jv-Latn">kléja</span></td>
+<td><span lang="jv-Latn">kléja</span></td>
+<td><span lang="jv-Latn">(nem) kléja, bagus</span></td>
+<td><span lang="jv-Latn">(nem) kléja, bagus</span></td>
+<td><span lang="jv-Latn">candra</span><br />[moon/month?]</td>
+<td><span lang="jv-Latn">tanem</span><br/>[high register: to plant?]</td>
 <!-- Bali -->
 <td><span lang="ban">mer</span><br />[unknown]</td>
 <td><span lang="ban">mer</span></td>
-<td><span lang="ban">klenteng</span></td>
+<td><span lang="ban">klenténg</span><br/>Chinese temple</td>
 <td><span lang="ban">pengka</span></td>
 <td><span lang="ban">mer</span></td>
 <td><span lang="ban">mer</span></td>
@@ -1179,13 +1212,13 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ban">mer</span></td>
 <td><span lang="ban">mer</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">bambu</span></td>
+<td><span lang="bjn">bambu</span><br/>bamboo</td>
 <!-- Sulawesi -->
-<td><span lang="id">bêlah buluh (tarabei)</span></td>
+<td><span lang="id">bêlah buluh</span><br/>wide stripes<br/><br/><span lang="id">tarabei</span></td>
 <!-- Maluku -->
-<td><span lang="id">bambu</span></td>
+<td><span lang="id">bambu</span><br/>bamboo</td>
 <!-- Timor -->
-<td><span lang="id">bambu</span></td>
+<td><span lang="id">bambu</span><br/>bamboo</td>
 </tr>
 
 <tr>
@@ -1193,14 +1226,15 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">lak ban</span></td>
 <td><span lang="min">kapik aluih</span><br />grilled genteel</td>
 <!-- Java -->
+<td><span lang="jv">ꦕꦶꦤꦒ꦳ꦥꦶꦠ꧀</span><br/><span lang="jv-Latn">cina ghapit</span><br/>Chinese tongs</td>
 <td><span lang="jv-Latn">nem cina</span></td>
 <td><span lang="jv-Latn">nem cina</span></td>
 <td><span lang="jv-Latn">siyong bombyok</span></td>
 <td><span lang="jv-Latn">nem cina</span></td>
-<td><span lang="jv-Latn">gabit</span><br />[unknown]</td>
-<td><span lang="jv-Latn">wong gapit</span></td>
+<td><span lang="jv-Latn">gabit</span><br />[probably tongs]</td>
+<td><span lang="jv-Latn">wong gapit</span><br/>tongs person</td>
 <!-- Bali -->
-<td><span lang="ban">klenteng</span><br />Chinese temple</td>
+<td><span lang="ban">klenténg</span><br />Chinese temple</td>
 <td><span lang="ban">leteng</span></td>
 <td><span lang="ban">burat</span></td>
 <td><span lang="ban">burat</span></td>
@@ -1211,7 +1245,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ban">megat</span></td>
 <td><span lang="ban">megat</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">rumah</span></td>
+<td><span lang="bjn">rumah</span><br/>building [temple?]</td>
 <!-- Sulawesi -->
 <td><span lang="id">lakban</span></td>
 <!-- Maluku -->
@@ -1225,6 +1259,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">jit</span> (Hokkien chhit)</td>
 <td><span lang="min">sisiak</span> ‘scales’</td>
 <!-- Java -->
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1257,29 +1292,30 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">jit hitam</span> or <span lang="ms">jit daun</span><br />black or leaf seven</td>
 <td><span lang="min">sisiak bendera</span><br />flag scales</td>
 <!-- Java -->
+<td><span lang="jv">ꦫꦺꦪꦧ꧀ꦭꦪꦂ</span><br/><span lang="jv-Latn">réyab layar</span><br/>sweep hair, sail</td>
 <td><span lang="jv-Latn">geper</span></td>
 <td><span lang="jv-Latn">sember, pitu kera</span></td>
 <td><span lang="jv-Latn">sember</span></td>
 <td><span lang="jv-Latn">(pitu) kera, keder</span></td>
-<td><span lang="jv-Latn">lajar</span><br />plough</td>
-<td><span lang="jv-Latn">lajar</span></td>
+<td><span lang="jv-Latn">layar</span><br/>sail</td>
+<td><span lang="jv-Latn">layar</span><br/>sail</td>
 <!-- Bali -->
 <td><span lang="ban">paku</span><br/>[fern?]</td>
 <td><span lang="ban">pis tu</span></td>
 <td><span lang="ban">pis tu</span></td>
 <td><span lang="ban">pipis pitu</span></td>
 <td><span lang="ban">bendera</span></td>
-<td><span lang="ban">bendera (bendera lajar)</span></td>
-<td><span lang="ban">bendera (bendera lajar)</span></td>
+<td><span lang="ban">bendera (layar)</span></td>
+<td><span lang="ban">bendera (layar)</span></td>
 <!-- Lombok -->
 <td><span lang="ban">bendera</span><br/>[flag?]</td>
-<td><span lang="ban">bendéra (bendéra lajar)</span></td>
+<td><span lang="ban">bendéra (bendéra layar)</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">lajar</span></td>
+<td><span lang="bjn">layar</span></td>
 <!-- Sulawesi -->
 <td><span lang="id">bandéra</span></td>
 <!-- Maluku -->
-<td><span lang="id">bulu ajam</span></td>
+<td><span lang="id">bulu ayam</span></td>
 <!-- Timor -->
 <td><span lang="id">bandéra</span></td>
 </tr>
@@ -1289,23 +1325,24 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">jit burung</span><br />bird seven</td>
 <td><span lang="min">sisiak gadang</span><br />big scales</td>
 <!-- Java -->
+<td><span lang="jv">ꦫꦺꦪꦧ꧀ꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">réyab lintrik</span><br/></td>
 <td><span lang="jv-Latn">lintrik</span></td>
 <td><span lang="jv-Latn">pitu kecuk</span></td>
 <td><span lang="jv-Latn">pitu lintrik, pecuk pitu</span></td>
 <td><span lang="jv-Latn">pitu lintrik, pecuk pitu</span></td>
-<td><span lang="jv-Latn">reab lintrik</span><br />[unknown]</td>
+<td><span lang="jv-Latn">réyab lintrik</span><br />[unknown]</td>
 <td><span lang="jv-Latn">cucuk kereg</span></td>
 <!-- Bali -->
 <td><span lang="ban">ringying</span><br />[unknown]</td>
-<td><span lang="ban">merenjing</span></td>
-<td><span lang="ban">rinjing</span></td>
-<td><span lang="ban">rinjing</span></td>
-<td><span lang="ban">curing</span></td>
-<td><span lang="ban">curing</span></td>
-<td><span lang="ban">curing</span></td>
+<td><span lang="ban">merenying</span></td>
+<td><span lang="ban">rinying</span></td>
+<td><span lang="ban">rinying</span></td>
+<td><span lang="ban">curing</span><br/>an instrument or bird-like decoration</td>
+<td><span lang="ban">curing</span><br/>an instrument or bird-like decoration</td>
+<td><span lang="ban">curing</span><br/>an instrument or bird-like decoration</td>
 <!-- Lombok -->
-<td><span lang="ban">curing</span><br/>[a type of gamelan?]</td>
-<td><span lang="ban">curing</span></td>
+<td><span lang="ban">curing</span><br/>an instrument or bird-like decoration</td>
+<td><span lang="ban">curing</span><br/>an instrument or bird-like decoration</td>
 <!-- Borneo -->
 <td><span lang="bjn">bulu</span></td>
 <!-- Sulawesi -->
@@ -1321,6 +1358,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">jit ban</span></td>
 <td><span lang="min">sisiak aluih</span><br />genteel scales</td>
 <!-- Java -->
+<td><span lang="jv">ꦫꦺꦪꦧ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">réyab cina</span><br/></td>
 <td><span lang="jv-Latn">pitu cina</span></td>
 <td><span lang="jv-Latn">pitu cina</span></td>
 <td><span lang="jv-Latn">pitu cina</span></td>
@@ -1328,24 +1366,24 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jv-Latn">reab wong</span><br />[unknown]</td>
 <td><span lang="jv-Latn">wong kereg</span></td>
 <!-- Bali -->
-<td><span lang="ban">ringgit</span><br />jagged</td>
-<td><span lang="ban">ringgit</span></td>
-<td><span lang="ban">ringgit</span></td>
-<td><span lang="ban">ringgit</span></td>
-<td><span lang="ban">ringgit</span></td>
-<td><span lang="ban">ringgit (ringgit bagus)</span></td>
-<td><span lang="ban">ringgit</span></td>
+<td><span lang="ban">ringgit</span><br />serrated</td>
+<td><span lang="ban">ringgit</span><br />serrated</td>
+<td><span lang="ban">ringgit</span><br />serrated</td>
+<td><span lang="ban">ringgit</span><br />serrated</td>
+<td><span lang="ban">ringgit</span><br />serrated</td>
+<td><span lang="ban">ringgit (bagus)</span><br/>(fine) serrated</td>
+<td><span lang="ban">ringgit</span><br />serrated</td>
 <!-- Lombok -->
 <td><span lang="ban">ringgit</span></td>
 <td><span lang="ban">ringgit</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">sisir</span></td>
+<td><span lang="bjn">sisir</span><br/>comb</td>
 <!-- Sulawesi -->
 <td><span lang="id">ringgit</span></td>
 <!-- Maluku -->
-<td><span lang="id">sisir</span></td>
+<td><span lang="id">sisir</span><br/>comb</td>
 <!-- Timor -->
-<td><span lang="id">sisir</span></td>
+<td><span lang="id">sisir</span><br/>comb</td>
 </tr>
 
 <tr class="table-secondary">
@@ -1353,6 +1391,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">puek</span> (Hokkien poeh)</td>
 <td><span lang="min">pacah</span> ‘broken’</td>
 <!-- Java -->
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -1385,6 +1424,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">puek kerang</span><br />cockle eight</td>
 <td><span lang="min">pacah lapan</span><br />broken eight</td>
 <!-- Java -->
+<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦥꦶꦕꦶꦱ꧀</span><br/><span lang="jv-Latn">lekok picis</span><br/></td>
 <td><span lang="jv-Latn">wolu kerok</span></td>
 <td><span lang="jv-Latn">picis, wolu kerok</span></td>
 <td><span lang="jv-Latn">(wolu) picis, (wolu) wang</span></td>
@@ -1417,6 +1457,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">puek menak</span><br />noble<!--{%fn%}Menak is a title for an aristocrat.{%endfn%}--> eight</td>
 <td><span lang="min">pacah manih</span><br />broken sweet</td>
 <!-- Java -->
+<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">lekok lintrik</span><br/></td>
 <td><span lang="jv-Latn">wolu manis</span></td>
 <td><span lang="jv-Latn">wolu lintrik, manis</span></td>
 <td><span lang="jv-Latn">manis</span></td>
@@ -1449,9 +1490,10 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">puek ban</span></td>
 <td><span lang="min">pacah aluih</span><br />broken genteel</td>
 <!-- Java -->
-<td><span lang="jv-Latn">budheg</span></td>
+<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">lekok cina</span><br/></td>
+<td><span lang="jv-Latn">budheg</span><br/>[deaf/stupid?]</td>
 <td><span lang="jv-Latn">wolu cina</span></td>
-<td><span lang="jv-Latn">budheg</span></td>
+<td><span lang="jv-Latn">budheg</span><br/>[deaf/stupid?]</td>
 <td><span lang="jv-Latn">wolu cina</span></td>
 <td><span lang="jv-Latn">lekok wong</span><br />dented person</td>
 <td><span lang="jv-Latn">wong buthak</span></td>
@@ -1487,6 +1529,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 <!-- Bali -->
 <td></td>
 <td></td>
@@ -1513,25 +1556,26 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">kau hitam</span><br />black nine</td>
 <td><span lang="min">tali bulek</span><br />round rope</td>
 <!-- Java -->
-<td><span lang="jv-Latn">glindhing</span></td>
-<td><span lang="jv-Latn">glindhing</span></td>
-<td><span lang="jv-Latn">(sanga) glindhing, plolo, picis gedhe</span></td>
-<td><span lang="jv-Latn">(sanga) glindhing, plolo, picis gedhe</span></td>
+<td><span lang="jv">ꦒꦁꦥꦶꦕꦶꦱ꧀</span><br/><span lang="jv-Latn">gang picis</span><br/>gap money</td>
+<td><span lang="jv-Latn">glindhing</span><br/>wheels</td>
+<td><span lang="jv-Latn">glindhing</span><br/>wheels</td>
+<td><span lang="jv-Latn">(sanga) glindhing, plolo</span><br/><br/><span lang="jv-Latn">picis gedhé</span><br/>large coins</td>
+<td><span lang="jv-Latn">(sanga) glindhing, plolo</span><br/><br/><span lang="jv-Latn">picis gedhé</span><br/>large coins</td>
 <td><span lang="jv-Latn">pecis</span><br />[<a href="https://en.wikipedia.org/wiki/Songkok">peci</a> or coin?]</td>
-<td><span lang="jv-Latn">picis, glindhing</span></td>
+<td><span lang="jv-Latn">picis</span><br/>money<br/><br/><span lang="jv-Latn">glindhing</span><br/>wheels</td>
 <!-- Bali -->
 <td><span lang="ban">sanga</span><br />nine</td>
-<td><span lang="ban">sanga</span></td>
-<td><span lang="ban">sanga</span></td>
-<td><span lang="ban">pis sanga</span></td>
-<td><span lang="ban">sanga</span></td>
-<td><span lang="ban">trompong</span></td>
-<td><span lang="ban">terompong</span></td>
+<td><span lang="ban">sanga</span><br />nine</td>
+<td><span lang="ban">sanga</span><br />nine</td>
+<td><span lang="ban">pis sanga</span><br/>money nine</td>
+<td><span lang="ban">sanga</span><br />nine</td>
+<td><span lang="ban">trompong</span><br/>Balinese gamelan</td>
+<td><span lang="ban">terompong</span><br/>[probably Balinese gamelan]</td>
 <!-- Lombok -->
 <td><span lang="ban">gada</span><br/>a <a href="https://en.wikipedia.org/wiki/Gada_(mace)">mace</a></td>
 <td><span lang="ban">gada</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">gulat, galéndéng</span></td>
+<td><span lang="bjn">bulat</span><br/><br/><br/><span lang="bjn">galéndéng</span></td>
 <!-- Sulawesi -->
 <td><span lang="id">roda</span></td>
 <!-- Maluku -->
@@ -1545,6 +1589,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">kau merah</span><br />red nine</td>
 <td><span lang="min">tali merah</span><br />red rope</td>
 <!-- Java -->
+<td><span lang="jv">ꦒꦁꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">gang lintrik</span><br/></td>
 <td><span lang="jv-Latn">sanga bang</span></td>
 <td><span lang="jv-Latn">sanga bang</span></td>
 <td><span lang="jv-Latn">obor</span></td>
@@ -1556,16 +1601,16 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ban">gesar</span></td>
 <td><span lang="ban">besar</span></td>
 <td><span lang="ban">lintrik besar</span></td>
-<td><span lang="ban">teja</span><br/>shining</td>
-<td><span lang="ban">teja</span></td>
-<td><span lang="ban">teja</span></td>
+<td><span lang="ban">téja</span><br/>shining/red</td>
+<td><span lang="ban">téja</span><br/>shining/red</td>
+<td><span lang="ban">téja</span><br/>shining/red</td>
 <!-- Lombok -->
-<td><span lang="ban">teja</span></td>
-<td><span lang="ban">téja</span></td>
+<td><span lang="ban">téja</span><br/>shining/red</td>
+<td><span lang="ban">téja</span><br/>shining/red</td>
 <!-- Borneo -->
 <td><span lang="bjn">léntri, lantri</span></td>
 <!-- Sulawesi -->
-<td><span lang="id">kacang</span></td>
+<td><span lang="id">kacang</span><br/>[bean/clitoris?]</td>
 <!-- Maluku -->
 <td><span lang="id">meirah kacang</span></td>
 <!-- Timor -->
@@ -1577,10 +1622,11 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">kau ban</span></td>
 <td><span lang="min">tali aluih</span><br />genteel rope</td>
 <!-- Java -->
-<td><span lang="jv-Latn">kejang</span></td>
-<td><span lang="jv-Latn">kejang</span></td>
-<td><span lang="jv-Latn">kejang</span></td>
-<td><span lang="jv-Latn">sanga cina, kajan, kejang</span></td>
+<td><span lang="jv">ꦒꦁꦕꦶꦤ</span><br/><span lang="jv-Latn">gang cina</span><br/></td>
+<td><span lang="jv-Latn">keyang</span></td>
+<td><span lang="jv-Latn">keyang</span></td>
+<td><span lang="jv-Latn">keyang</span></td>
+<td><span lang="jv-Latn">sanga cina, kayang, kéyang</span></td>
 <td><span lang="jv-Latn">gang</span><br />gap</td>
 <td><span lang="jv-Latn">wong cucuk</span></td>
 <!-- Bali -->

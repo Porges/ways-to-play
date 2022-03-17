@@ -6423,7 +6423,7 @@
                 "family": "Young"
             }
         ],
-        "container-title": "Tijdschrift voor Indische Taal, Land- en Volkenkunde",
+        "container-title": "Tijdschrift voor Indische Taal-, Land- en Volkenkunde",
         "container-title-lang": "nl",
         "volume": 31,
         "page": "269–302",
@@ -6431,5 +6431,25 @@
             "year": 1886
         },
         "URL": "https://books.google.co.nz/books?id=BSUDAAAAYAAJ&pg=PA269"
+    },
+    "deClercqPehiSpel": {
+        "type": "article-journal",
+        "title": "Verklaring van het Péhi-spel",
+        "title-lang": "nl",
+        "URL": "https://munas.kemdikbud.go.id/ebook/file/tijd/TBG1876_23.pdf",
+        "author": [
+            {
+                "given": "Frederik Sigismund Alexander",
+                "family": "de Clercq",
+                "lang": "nl"
+            }
+        ],
+        "container-title": "Tijdschrift voor Indische Taal-, Land- en Volkenkunde",
+        "container-title-lang": "nl",
+        "volume": 23,
+        "issued": {
+            "year": 1876
+        },
+        "page": "512–516"
     }
 }
