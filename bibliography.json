@@ -6514,5 +6514,14 @@
         },
         "page": "5–257",
         "ISBN": "0292724055"
+    },
+    "PangHauKiImage": {
+        "type": "webpage",
+        "title": "Game Diagram: Pang Hau Ki",
+        "container-title": "Penn Museum",
+        "issued": {
+            "year": 2020
+        },
+        "URL": "https://www.penn.museum/collections/object/333423"
     }
 }
