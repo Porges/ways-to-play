@@ -65,7 +65,8 @@ boards.[@RomanGameBoards]{%endfn%} Earlier dates have often been proposed based
 upon the existence of boards carved on ancient monuments such as the
 Ramesseum[@AncientEgyptiansAtPlay p. 144] and the Mortuary Temple of Seti I at
 Qurna,[@AncientCeylon p. 644] but these are not able to be dated
-definitively—the monument only provides an <em>earliest possible</em> date.
+definitively—the monument only provides an <em>earliest possible</em>
+date.{%fn%}This is also discussed at length in @SchadlerMisconceptions.{%endfn%}
 
 The game became popular throughout Europe: a double-sided game board with a Nine
 Men’s Morris layout on one side was found as part of the  [Gokstad Viking ship
@@ -74,6 +75,17 @@ title="circa">c.</abbr> 900) which was discovered in
 Norway.[@TheVikingShipFromGokstad pp. 44, 99] Another boat burial (the “<Noun
 lang="sv">Årby</Noun> boat”) from around the same time also included a Morris
 game.[@BoardGamesInBoatBurials p. 441]
+
+{% image src="ship_board.jpg;6065924.jpg" alt=";" size="extra-wide" perRow=1
+  license="cc-by-sa" licenseVersion="4.0"
+  authorGiven="Eirik Irgens"
+  authorFamily="Johnsen"
+  originalUrl="https://www.unimus.no/portal/#/things/7d99fcd2-59b3-45f3-aaa0-27d857633fc9"
+  orgName="Kulturhistorisk Museum"
+  orgAbbr="KHM"
+%}
+Sketch and photograph of the board from the Gokstad ship.
+{% imageEnd %}
 
 One of the earliest written references to the game is in the 10th century [<cite
 lang="ar-Latn">Kitāb
@@ -126,6 +138,11 @@ From the Arabic-speaking world the game entered Spain, where <span
 lang="ar-Latn">al-qirq</span> became <span lang="es">alquerque</span>, which has
 remained the Spanish name for this family of games until the present day.
 
+In France the game was in the past called <span lang="fr">marelles</span> (from
+which we get the English ‘merels’), probably deriving from a word meaning “small
+stone” or “token”.{%fn%}The <span lang="fr">marelles</span> name currently
+refers to hopscotch, due to the stones tossed upon the diagram.{%endfn%} 
+
 {% image 
     position="aside"
     alt="A section of a manuscript written in a calligraphic hand"
@@ -136,12 +153,12 @@ remained the Spanish name for this family of games until the present day.
 Text of the French Templar rule from an early 14th-century manuscript edition (with quoted passage highlighted).
 {% imageEnd %}
 
-In the early 12th century, the game was mentioned in the French Rule of the
-Templar order (probably written between 1139 and
-1147&nbsp;CE[@TheRuleOfTheTemplars p. 12]), as the only board game allowed to be
-played by Templar brothers. It is possible that the order picked up the game
-through their contact with the Arabic-speaking world:{%fn%}Indeed, a board has
-been found inscribed upon a stone in [<Noun lang="fr">Château
+In the early 12th century, the game was
+mentioned in the French Rule of the Templar order (probably written between 1139
+and 1147&nbsp;CE[@TheRuleOfTheTemplars p. 12]), as the only board game allowed
+to be played by Templar brothers. It is possible that the order picked up the
+game through their contact with the Arabic-speaking world:{%fn%}Indeed, a board
+has been found inscribed upon a stone in [<Noun lang="fr">Château
 Pèrelin</Noun>](https://en.wikipedia.org/wiki/Ch%C3%A2teau_P%C3%A8lerin), a
 fortress constructed by the Templars in what is now Israel — although it could
 have been placed there any time since the fortress was built.[@AtlitCastle p.
@@ -161,26 +178,27 @@ pleasure without placing wagers. No brother should play chess, backgammon, or
 
 </div>
 
-It is unclear <em>why</em> mill games were permitted by the Templars{%fn%}TODO:
-it has been suggested (?) that the tripartite board was taken as supportive of
-the trinity, or remniscent of the First Temple of Jerusalem.{%endfn%}, but,
-reading the rest of the passage (not quoted above), the intent of the Rule seems
-to be to prevent playing games for money — bets were allowed to be placed on
-games, but only with worthless items such as wooden tent pegs. Viewed in this
-light, perhaps mill games were considered less susceptible to gambling, and
-therefore permissible.
+It is unclear <em>why</em> mill games were permitted by the
+Templars<!--{%fn%}TODO: it has been suggested (?) that the tripartite board was
+taken as supportive of the trinity, or remniscent of the First Temple of
+Jerusalem.{%endfn%}-->, but, reading the rest of the passage (not quoted above),
+the intent of the Rule seems to be to prevent playing games for money — bets
+were allowed to be placed on games, but only with worthless items such as wooden
+tent pegs. Viewed in this light, perhaps mill games were considered less
+susceptible to gambling, and therefore permissible.
+
+In 1283 it appeared in the Castilian king [Alfonso
+X](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile)’s <cite lang="es">Libro
+de los Juegos</cite> (<cite>Book of Games</cite>), where in addition to the
+standard game, rules for playing with dice are given ([see below](#with-dice)).
 
 {% image 
-    position="aside"
+  size="small"
     src='Alfonso_NMM.jpg'
     alt=""
     license="cc0" %}
 From Alfonso’s <cite>Book of Games</cite>.
 {% imageEnd %}
-
-In 1283 it appeared in Alfonso X’s <cite lang="es">Libro de los Juegos</cite>
-(<cite>Book of Games</cite>), where in addition to the standard game, rules for
-playing with dice are given ([see below](#with-dice)).
 
 {% image 
     src="Nicolas_de_btv1b6000238t_361.jpg"
@@ -197,10 +215,10 @@ used to identify particular pieces in the accompanying text.
 
 In the same century the <cite lang="la">Bonus Socius</cite> series of
 manuscripts contained problems for the game, alongside other problems for chess
-and various table games.[@Murray p. 619] Murray describes the problems as being
-of very high quality, and that in fact “they leave a more favourable impression
-of the ingenuity of the mediaeval composer than is the case with the problems of
-chess or tables.”[@Murray p. 703]
+and various table games.[@Murray p. 619] Chess historian H. J. R. Murray
+describes the problems as being of very high quality, and that in fact “they
+leave a more favourable impression of the ingenuity of the mediaeval composer
+than is the case with the problems of chess or tables.”[@Murray p. 703]
 
 {% image 
     src='O.2.45_010_O.2.45_p002-p003.jpg'
@@ -220,7 +238,6 @@ other across a game board. Evidently the game was considered worthy of being
 played by the nobility, and suitable for men and women to play together:
 
 {% image 
-    size="wide"
     src='Alexander_Morris.jpg'
     alt="A man and woman sitting either side of a morris board."
     orgName="Bodleian Libraries, University of Oxford",
@@ -233,10 +250,11 @@ A woman and a man playing Nine Men’s Morris together, miniature from a copy of
 the <cite>Romance of Alexander</cite> (produced 1338–44).
 {% imageEnd %}
 
-However, in this woodcut by Hans Weiditz from @Trostspiegel [p. 24] — a German
+However, in this German woodcut by Hans Weiditz from @Trostspiegel [p. 24] — a
 version of Petrarch’s <cite>De remediis utriusque fortunae</cite> published some
 200 years later in 1572 — we can see Chess being played by nobles and Backgammon
-by ordinary men, but Nine Men’s Morris is being played by monkeys:
+by ordinary men, but Nine Men’s Morris is evidently only suitable to be played
+by monkeys:
 
 {% image 
     noborder=true
@@ -272,17 +290,33 @@ lang="fa-Latn">Fairūzābādī</Noun>](https://en.wikipedia.org/wiki/Fairuzabadi
     orgName="University of Pennsylvania, Kislak Center for Special Collections"
     originalUrl="https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r" %}
 The entry for “<span lang="ar">القَرْقُ</span>” in the <Noun
-lang="ar-Latn">Qamūs</Noun>. In here, the game is identified with <span
+lang="ar-Latn">Qamūs</Noun>. The game is here identified with <span
 lang="ar-Latn">suddar</span>.
 {% imageEnd %}
 
 In later English history the game developed an association with rusticity, often
-mentioned as a game played by shepherds. It can be traced in English history
-through [visitation](https://en.wikipedia.org/wiki/Canonical_visitation)
-records; one instance from the parish of Bitteswell records that in 1634 a
-certain Robert Lord the Younger was “admonished and dismissed” for “plaieing at
-nine men’s morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation p.
-497]
+mentioned as a game played by shepherds. In such guise it famously
+appears — albeit relocated in time and place to a fictional ancient Athens — in
+Shakespeare’s [<cite>A Midsummer Night’s
+Dream</cite>](https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream) (<abbr
+title="circa">c.</abbr> 1595), where, thanks to a feud between Titania and
+Oberon (queen and king of the fairies), the natural state of the countryside is
+upended, and:
+
+> The ox hath therefore stretch’d his yoke in vain,<br/>
+> The ploughman lost his sweat, and the green corn<br/>
+> Hath rotted ere his youth attain’d a beard.<br/>
+> The fold stands empty in the drowned field,<br/>
+> And crows are fatted with the murrion flock;<br/>
+> **The nine men’s morris is filled up with mud,**<br/>
+> And the quaint mazes in the wanton green<br/>
+> For lack of tread are undistinguishable.
+
+The game can be seen in English history through its appearance in
+[visitation](https://en.wikipedia.org/wiki/Canonical_visitation) records; one
+instance from the parish of Bitteswell records that in 1634 a certain Robert
+Lord the Younger was “admonished and dismissed” for “plaieing at nine men’s
+morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation p. 497]
 
 <div class="multi">
 {% image 
@@ -290,7 +324,7 @@ nine men’s morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation 
   alt=""
   license="with-permission", orgName="The Mary Rose Museum" %}
 A Nine Men’s Morris board alongside what seems to be a {% gameref daldos %}
-board, on a barrel-end from the wreck of the Mary Rose (1545).
+board, on a barrel-end from the wreck of the English warship ‘[Mary Rose](https://en.wikipedia.org/wiki/Mary_Rose)’ (1545).
 {% imageEnd %}
 {% image 
     src='82-001079.jpg'
@@ -306,6 +340,13 @@ Pastorales</cite>.
 {% imageEnd %}
 </div>
 
+In colonial America, the game began to be played with twelve pieces (exclusively
+on the board with diagonals) and thus became the standard American form, known
+as Twelve Men’s Morris.{%fn%}Rules for a game called <span lang="es">alquerque
+de doze</span>, sometimes translated as Twelve Men’s Morris, are given in
+Alfonso X’s <cite>Book of Games</cite>, but it describes a game of a different
+form.{%endfn%}
+
 ### Nomenclature 
 
 Other English names for the game have included:
@@ -313,6 +354,7 @@ Other English names for the game have included:
 <div class="columnar">
 
 * Blind Men’s Morris (Leicestershire[@PegMeryll p. 130])
+* Buttons (played on a slate with buttons in 1890s New Zealand[@GamesOfNewZealandChildren p. 151])
 * Bushels[@Hyde p. 204]
 * Figmill (in Clarence, New York, USA)[@Figmill] (This name derives from an American manufacturer of equipment, but originally might derive from [the Swiss term <span lang="gsw">«Figgi und Müli»</span>](/articles/mill-games/#terminology).)
 * Morris (Cornwall[@PegMeryll p. 130])
@@ -348,12 +390,12 @@ Other English names for the game have included:
 
 </div>
 
-In other languages it is called:
+In other languages it has been called:
 
 * Bengali: <span lang="bn">ন গুটি</span> (<span lang="bn-Latn">nô guṭi</span>) ‘nine beads’
 * French: <span lang="fr">le jeu du moulin</span> ‘the mill game’
 * Greek: <span lang="grc">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="grc">τριώδιον</span> ‘triodium’.[@Hyde p. 205]
-* German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. Germany runs a ‘world’ league, the “<Noun lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</Noun>”.
+* German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league, the “<Noun lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</Noun>”. -->
 * Ottoman Turkish: <span lang="ota">طقوز طاش</span> (<span lang="ota-Latn">dokuz taş</span>) ‘nine stone’[@Hyde p. 206]
 * Swiss: <span lang="gsw">Nüünischtei</span>.[@MundartLexikon]
 * Urdu: <span lang="ur">نو گوٹی</span> (<span lang="ur-Latn">nau guṭī</span>) ‘nine pieces’[@GuptaD p. 145]
@@ -416,7 +458,7 @@ The Möbius board (invented by <Noun lang="de">Ingo Althöfer</Noun>), another
 pentagonal board (without joined corners), and a hexagonal board.
 {% imageEnd %}
 
-### Twelve Men’s Morris"
+### Twelve Men’s Morris
 
 This is played with twelve pieces per player, on a board that has
 diagonals.[@Zaslavsky p. 7][@Murray2 p. 48] In all other respects, the game is
@@ -433,9 +475,9 @@ the same.
 A Twelve Men’s Morris game being played.
 {% imageEnd %}
 
-#### Nomenclatur../../articles/mill-games/e
+#### Nomenclature
 
-In other countries or languages Twelve Men’s Morris is known as:
+In other countries or languages Twelve Men’s Morris has been known as:
 
 * Bengali: <span lang="bn">বারো গুটি (পাইত পাইত)</span> (<span lang="bn-Latn">bārō-guṭi (pāit-pāit)</span>) ‘twelve bead (unsure)’[@GuptaD p. 145]
 * Sri Lanka (Sinhala): <span lang="si">නෙරෙංචි</span> or <span lang="si">නෙරිංචි</span> (<span lang="si-Latn">nereṁci</span>{%fn%}Also transcribed as <span lang="si-Latn">Nerenchi</span> or <span lang="si-Latn">Niranchy</span>.{%endfn%} or <span lang="si-Latn">neriṁci</span>), possibly named after a plant that has very thorny seeds[@Zaslavsky p. 16][@SportsAndGamesOfSinghalese p. 34][@AncientCeylon p. 577]
@@ -523,7 +565,6 @@ The game is played as usual except:
 
 {% image 
   alt=""
-  size="wide"
   src="nma_149016_ma45226671_trencho_board_game.jpg"
     orgName="National Museum of Australia",
     license="cc-by-sa",

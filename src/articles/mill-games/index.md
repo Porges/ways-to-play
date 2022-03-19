@@ -123,6 +123,7 @@ pieces in a cross shape (with one empty square between):
 * English:
     * In Hargrave: “see-saw mill”.[@PegMeryll p. 133]
     * In Yorkshire: “running Jenny”.[@Murray2 §3.5, p. 45]
+    * Francis Willughby (1635–1672) named it a “Running Rotchet” (i.e. ratchet)[@FrancisWillughby p. 216]
 * German {%pronounce lang="de" word="Zwickmühle" pronouncer='Thonatas' %}
   ‘double mill’.
 * Greek {%pronounce lang="el" word="δίπορτο" pronouncer='jpapa' %} ‘double

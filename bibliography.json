@@ -6451,5 +6451,68 @@
             "year": 1876
         },
         "page": "512–516"
+    },
+    "SchadlerMisconceptions": {
+        "type": "article-journal",
+        "title": "Some misconceptions about Ancient Roman Games",
+        "author": [
+            {
+                "given": "Ulrich",
+                "family": "Schädler"
+            }
+        ],
+        "container-title": "Board Game Studies Journal",
+        "volume": 15,
+        "issue": 1,
+        "page": "79–97",
+        "issued": {
+            "year": 2021
+        },
+        "URL": "https://doi.org/10.2478/bgs-2021-0004"
+    },
+    "FrancisWillughby": {
+        "type": "book",
+        "title": "Francis Willughby’s Book of Games: a seventeenth-century treatise on sports, games and pastimes",
+        "author": [
+            {
+                "given": "David",
+                "family": "Cram"
+            },
+            {
+                "given": "Jeffrey L.",
+                "family": "Forgeng"
+            },
+            {
+                "given": "Dorothy",
+                "family": "Johnston"
+            }
+        ],
+        "publisher": "Routledge",
+        "publisher-place": "London & New York",
+        "issued": {
+            "year": 2016
+        },
+        "original-publisher": "Ashgate Publishing",
+        "original-date": {
+            "year": 2003
+        },
+        "ISBN": "9781859284605"
+    },
+    "GamesOfNewZealandChildren": {
+        "type": "chapter",
+        "title": "The Games of New Zealand Children",
+        "container-title": "The Folk-Games of Children",
+        "author": [
+            {
+                "given": "Brian",
+                "family": "Sutton–Smith"
+            }
+        ],
+        "publisher": "The American Folklore Society",
+        "issued": {
+            "year": 1972
+        },
+        "page": "5–257",
+        "ISBN": "0292724055"
     }
 }
