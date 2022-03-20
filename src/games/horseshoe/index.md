@@ -23,14 +23,22 @@ lang="ko-Latn">umulgonu</span> ‘well game’ or <span lang="ko">강고누</spa
 Punjabi it is called <span lang="pa-Latn">dō-guṭi</span> (TODO: possibly
 <span lang="pa">ਦੋਗੁਟਿ</span>?).[@GuptaD p. 143]
 
+In Thailand it is called “sua tok tong” (<span lang="th">เสือ…</span> <span lang="th-Latn">suea…</span> ‘tiger…’?).
+
 {% image src="pong-hau-ki-boards.svg" alt="" %}
-A few different boards.
+A few different boards. Pieces are to be played on the intersections of the lines.
 {% imageEnd %}
 
 Refs: [@OxfordBG; @Zaslavsky, p. 32]
 
+## Play
+
+{% image src="pong-hau-ki.svg" alt="" size="small" %}
+The initial placement of the pieces.
+{% imageEnd %}
+
 ## Analysis
 
-See: @Straffin95; @Straffin95-2; @ThinkingThroughDiagrams.
+See: @Straffin95; @Straffin95_2; @ThinkingThroughDiagrams.
 
 ## References

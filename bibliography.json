@@ -275,7 +275,7 @@
         "page": "382-386",
         "URL": "http://www.jstor.org/stable/2690929"
     },
-    "Straffin95-2": {
+    "Straffin95_2": {
         "type": "article-journal",
         "title": "Corrected Figure for Position Graphs for Pong Hau K’i and Mu Torere",
         "author": [
@@ -6523,5 +6523,17 @@
             "year": 2020
         },
         "URL": "https://www.penn.museum/collections/object/333423"
+    },
+    "Butito": {
+        "type": "article-journal",
+        "title": "Butito",
+        "container-title": "The Australian Children’s Folklore Newsletter",
+        "issued": {
+            "year": 1986,
+            "month": 8
+        },
+        "issue": 11,
+        "URL": "https://museumsvictoria.com.au/media/3792/australian-childrens-folklore-issue11-oct1986.pdf",
+        "page": "12–13"
     }
 }

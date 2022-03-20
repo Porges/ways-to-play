@@ -230,6 +230,14 @@ a child:[@Wordsworth ll. 538–544]
 A tic-tac-toe game on a wall in Marseille, France.
 {% imageEnd %}
 
+### Other languages
+
+In Greek it is called <span lang="el">τρίλιζα</span> (<span
+lang="el-Latn">triliza</span>), or <span lang="el">πατητό</span> (<span
+lang="el-Latn">patito</span>) in Thessaloniki.{%fn%}This is given in @Butito as
+“butito”, played in Larnaca on Cyprus. <span lang="el-Latn">Patito</span>
+(‘stepping’) is also used for hopscotch.{%endfn%}
+
 ## Play
 
 You know this, right?

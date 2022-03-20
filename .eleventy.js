@@ -253,11 +253,13 @@ const citationPlugin = () => {
             + `</a>`
             + ifSet(suffix, ` (${suffix})`);
         case 'article-journal':
-          return `<a href="${`#ref-${id}`}">${reference.author[0].family}</a>`
-            + ` (${ifSet(reference.issued, reference.issued.year)}${ifSet(suffix, `, ${suffix}`)})`;
-        default:
-          return `<span class="citation">[<a href="${`#ref-${id}`}">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
+          if (reference.author) {
+            return `<a href="${`#ref-${id}`}">${reference.author[0].family}</a>`
+              + ` (${ifSet(reference.issued, reference.issued.year)}${ifSet(suffix, `, ${suffix}`)})`;
+          }
       }
+
+      return `<span class="citation">[<a href="${`#ref-${id}`}">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
     } else {
       return `<sup class="citation"><a href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</sup>`;
     }
