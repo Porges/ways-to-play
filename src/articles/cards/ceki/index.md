@@ -186,15 +186,23 @@ For each card in the table below I show in order (left-to-right)
 4. a 1940s deck collected in @JavaanseKaartspelen,
 5. and then a modern card from a deck purchased in Bali in 2019 (clearly derived from #3).
 
-Note that the modern Balinese deck is closer in design to #2 than to #3.  Modern
-Malaysian & Singaporean decks (of which I have no samples) are closer in style
-to the #1 deck.
+Modern Malaysian & Singaporean decks (of which I have no samples) are closer in
+style to the #1 deck.
 
-Each card in the deck has its own nickname, based on its appearance.
+Each card in the deck has its own name as listed in the table below. In
+Malaysia/Singapore these are based on the Hokkien names of the cards — a
+combination of suit and rank — but as we move South and East along the Malay
+Archipelago (the table below is listed roughly in this order), the names diverge
+further and further from this original source, and most cards have nicknames
+that are based upon their appearance rather than their numeric value.
 
-Translations are mostly from the [SEAlang](http://sealang.net) dictionaries;
-any mistakes are my own. Please note that the table is very wide and scrolls
-horizontally:
+The translations in the table are mostly from the [SEAlang](http://sealang.net)
+dictionaries; any mistakes are my own. **Note** that the word “<span
+lang="jav-Latn">cina</span>” referring to a Chinese person is now considered a
+potentially derogatory term.{%fn%}For example, the Indonesian government no
+longer uses it in official communications.{%endfn%}
+
+⚠️ The table is *very wide* and scrolls horizontally.
 
 <!--
 The columns in
