@@ -111,7 +111,7 @@ governor, and complained directly to Lisbon that, among other things,
 
 > … the Chinese were given license to operate lotteries inside the city, a thing
 > that the same Government which allowed it had just two months before forbidden
-> as immoral and harmful to peacefulness and public tranquility.
+> as immoral and harmful to peacefulness and public tranquility.[@GamesOfChanceInMacau2 p. 110]
 
 Nevertheless, the game was permitted to continue and licenses to run <span
 lang="pt">pacapio</span> began to be issued on an annual basis from April 5,
@@ -125,6 +125,21 @@ name like <span lang="zh">博合</span> (bok3 hap6); <span lang="zh">白</span> 
 <span lang="zh">博</span> can have coincident pronunciations in Mandarin, and the .
 -->
 
+## The Game
+
+<blockquote lang="zh" class="vertical-rl mx-auto blockquote">
+天地玄黃&#x3000;宇宙洪荒<br/>
+囸月盈昃&#x3000;辰宿列張<br/>
+寒來暑往&#x3000;秋收冬藏<br/>
+閏餘成歲&#x3000;律吕調陽<br/>
+雲騰致雨&#x3000;露結為霜<br/>
+金生麗水&#x3000;玉出崑岡<br/>
+劍號巨闕&#x3000;珠稱夜光<br/>
+果珍李柰&#x3000;菜重芥薑<br/>
+海鹹河淡&#x3000;鱗潛羽翔<br/>
+龍師伙帝&#x3000;鳥官人皇
+</blockquote>
+
 ## Spread to other countries
 
 The game travelled everywhere that Chinese people migrated to. In particular it
@@ -132,16 +147,115 @@ seems to have been popular in places with gold-fields where Chinese men came to
 work in the late 19th century: San Francisco in the USA, British Columbia in
 Canada, Victoria in Australia, and New Zealand.
 
-### Australia
+### In the United States
 
-### New Zealand
+### In Australia
+
+### In New Zealand
 
 {% image src="pakapoo_ticket.jpg" alt=""
     orgName="Alexander Turnbull Library"
     identifier="Eph-A-LOTTERY-1920s-01"
     license="with-permission"
     originalUrl="https://natlib.govt.nz/records/22741041" %}
-A used “pakapoo” ticket from New Zealand.
+A used “pakapoo” ticket from New Zealand. This ticket records four simultaneous
+bets on sets of five numbers; the drawn lines divide the ticket into four separate
+zones.
 {% imageEnd %}
 
-## Globalization
+As in Australia, racist depictions of Chinese gambling were common. And yet,
+while newspaper reporters decried {TODO}, others came to the defence of the game.
+
+In 1902, the <cite>Evening Post</cite> opined:
+
+> … it seems the essence of petty spite to start a crusade against the
+> cottager’s Christmas goose or the Chinaman’s pakapoo.[@ThePolicemanAndTheGeese]
+
+During 1902 and 1903 there was some legal tussle over the status of the game,
+due to confused definitions in the [Gaming and Lotteries Act of
+1881](http://nzlii.org/nz/legis/hist_act/gala188145v1881n10273/).
+
+{%aside%}Upon reading the case summary, I get the impression that the Chief
+Justice ([Robert Stout](https://en.wikipedia.org/wiki/Robert_Stout)) must have
+been somewhat on the side of the Chinese, or disliked the law in some way. It is
+perhaps worth noting his support of liberal causes including women’s suffrage.
+Some flavour of the ruling is given in these quotes:<blockquote>The Magistrate,
+in his statement of the case, had stated that when the police had gone into the
+house, the game of pak-a-pu was being played, whereas the only piece of evidence
+they had, that of Detective Cox, showed that when the police entered the house
+the men were running away. This was not playing
+pak-a-pu.</blockquote>{%endaside%}
+
+Firstly, a case in 1902 concerning one “Joe Quick” (who had been fined several
+times for the game previously) reached the Supreme Court, and had its conviction
+quashed upon insufficient
+evidence.[@WhenDoesAManPlayPakAPu][@ImportantJudgement]
+
+The decision of this case, wherein the Chief Justice mentioned — [<span
+lang="la">obiter
+dictum</span>](https://en.wikipedia.org/wiki/Obiter_dictum) — that pakapoo was
+defined by the Act as a “game of chance” and not a lottery,[@JoeQuickVCox] was
+to have an effect on other cases. In 1903 a case in the Magistrate’s Court was
+dismissed on the basis that pakapoo was a game of chance, and not a
+lottery.[@PakAPooNotALottery] Taken at face value, the Act stated that games of
+chance were only illegal if played in public places.
+
+With the game seeming to be on the verge of becoming legal, in 1904, the “Gaming
+and Lotteries Act Amendment Bill” was introduced to parliament by [James
+McGowan](https://en.wikipedia.org/wiki/James_McGowan_(politician)). The bill
+sought — among other things — to declare pakapoo a lottery, and thus ban it
+outright. By the reception of this bill in the newspapers, it is clear that this
+was felt to be inconsistent with laws governing games played by Europeans:
+
+> For a country which not only countenances the
+> [totalisator](https://en.wikipedia.org/wiki/Parimutuel_betting), but also
+> derives revenue from it, it is the height of inconsistency to discriminate
+> between different forms of gambling. Why should fan-tan be more wicked than
+> bridge, or pakapoo than poker, and why should not both be legalised if it is
+> legal to gamble by means of the totalisator?[@InconsistentLegislation]
+
+During parliamentary debate on the proposed bill,
+
+> Mr Hone Heke{%fn%}i.e. [<Noun lang="mi">Hōne Heke
+Ngāpua</Noun>,](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke_Ng%C4%81pua)
+great-nephew of the more famous [<Noun lang="mi">Hōne Heke
+Pōkai</Noun>.](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke){%endfn%} wanted to
+know why the Chinese were to be limited in their games and recreations, when
+lotteries at church bazaars were allowed to proceed without interference.
+> 
+> Mr [W.
+> Fraser](https://en.wikipedia.org/wiki/William_Fraser_(New_Zealand_politician,_born_1840))
+> thought it was right to punish Europeans found in a Chinese gambling house,
+> but seeing that Europeans were allowed to participate in various games of
+> chance, he objected to punishing Chinese for doing the same
+> thing.[@HoneHekePakAPoo]
+
+The bill was subsequently withdrawn and a full ban was never passed.
+
+{%image
+    noborder=true
+    size="wide"
+    src="NZFL19040827.1.5-c256.png"
+    alt="A policeman threatens a Chinese man running a fan-tan/pak-a-poo shop, whilst behind him European men attend the totalisator without penalty."
+    orgName="Papers Past"
+    originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1904/08/27/5"
+    license="cc0" %}
+This 1904 cartoon from <cite>The Free Lance</cite> protests against the inconsistant
+application of gambling laws, whilst still portraying a Chinese man in a racist manner.
+{%imageEnd%}
+
+However, in 1905, the Supreme Court again heard a case regarding Pak-A-Poo
+(<cite>Lee Sun v. Daniel Conolly</cite>),[@LeeSunVDanielConolly] and this time
+[Justice Williams](https://en.wikipedia.org/wiki/Joshua_Williams) determined
+that not only was Pak-A-Poo a game of chance, but it was *also* a lottery, and
+therefore illegal.{%fn%}Apparently Williams and
+Stout were professional rivals — Williams had been passed over when Stout was
+selected as Chief Justice — and I am tempted to wonder if this had some part to
+play in the overruling of the earlier <span lang="la">obiter
+dictum</span>.{%endfn%}
+
+Finally, in 1907, the Gaming and Lotteries Act Amendment Act was passed, which
+declared *all* games of chance to be explicitly unlawful. The game was to remain
+illegal until the passage of a new Gaming and Lotteries Act in 1977.
+
+## Globalization (or Kenoization)

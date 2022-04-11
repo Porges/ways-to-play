@@ -6535,5 +6535,121 @@
         "issue": 11,
         "URL": "https://museumsvictoria.com.au/media/3792/australian-childrens-folklore-issue11-oct1986.pdf",
         "page": "12–13"
+    },
+    "HoneHekePakAPoo": {
+        "type": "article-newspaper",
+        "title": "Parliamentary: House of Representatives",
+        "container-title": "Oamaru Mail",
+        "volume": "29",
+        "issue": 8568,
+        "page": 4,
+        "issued": {
+            "year": 1904,
+            "month": 8,
+            "day": 24
+        },
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/OAM19040824.2.26"
+    },
+    "ThePolicemanAndTheGeese": {
+        "type": "article-newspaper",
+        "title": "The Policeman and the Geese",
+        "container-title": "Evening Post",
+        "volume": 63,
+        "issue": 11,
+        "issued": {
+            "year": 1902,
+            "month": 1,
+            "day": 14
+        },
+        "page": 4,
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/EP19020114.2.23"
+    },
+    "InconsistentLegislation": {
+        "type": "article-newspaper",
+        "title": "Daily Notes: Inconsistent Legislation",
+        "container-title": "Star",
+        "issue": 8072,
+        "issued": {
+            "year": 1904,
+            "month": 7,
+            "day": 26
+        },
+        "page": 2,
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/TS19040726.2.10"
+    },
+    "WhenDoesAManPlayPakAPu": {
+        "type": "article-newspaper",
+        "title": "Chinese Gaming Cases: Appeal to the Supreme Court — When Does A Man Play Pak-A-Pu?",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/NZTIM19020410.2.38",
+        "container-title": "New Zealand Times",
+        "volume": 72,
+        "issue": 4632,
+        "issued": {
+            "year": 1902,
+            "month": 4,
+            "day": 10
+        },
+        "page": 7
+    },
+    "ImportantJudgement": {
+        "type": "article-newspaper",
+        "title": "Supreme Court: Sitting in Banco — Important Judgement",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/NZTIM19020412.2.4",
+        "container-title": "New Zealand Times",
+        "volume": 72,
+        "issue": 4634,
+        "issued": {
+            "year": 1902,
+            "month": 4,
+            "day": 12
+        },
+        "page": 2
+    },
+    "LeeSunVDanielConolly": {
+        "type": "article-journal",
+        "title": "Lee Sun v. Daniel Conolly",
+        "URL": "http://www.nzlii.org/nz/cases/NZGazLawRp/1905/29.html",
+        "container-title": "New Zealand Gazette Law Reports",
+        "volume": 7,
+        "issued": {
+            "year": 1905
+        },
+        "author": [
+            {
+                "family": "Williams",
+                "given": "J."
+            }
+        ],
+        "page": "494–497"
+    },
+    "JoeQuickVCox": {
+        "type": "article-journal",
+        "title": "Joe Quick (and others) v. Cox",
+        "URL": "http://www.nzlii.org/nz/cases/NZGazLawRp/1905/28.html",
+        "container-title": "New Zealand Gazette Law Reports",
+        "volume": 7,
+        "issued": {
+            "year": 1905
+        },
+        "author": [
+            {
+                "family": "Stout",
+                "given": "C. J."
+            }
+        ],
+        "page": "492–494"
+    },
+    "PakAPooNotALottery": {
+        "type": "article-newspaper",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/ESD19030723.2.28",
+        "title": "Pak-A-Poo Is Not A Lottery: The Chief Justice’s Recent Dictum — Followed By The Magistrate",
+        "container-title": "Evening Star",
+        "issue": 11946,
+        "issued": {
+            "year": 1903,
+            "month": 7,
+            "day": 23
+        },
+        "page": 4
     }
 }
