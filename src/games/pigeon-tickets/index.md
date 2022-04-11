@@ -254,6 +254,16 @@ selected as Chief Justice — and I am tempted to wonder if this had some pa
 play in the overruling of the earlier <span lang="la">obiter
 dictum</span>.{%endfn%}
 
+{%image
+    noborder=true
+    src="NZFL19061103.1.5-c256.png"
+    alt=""
+    orgName="Papers Past"
+    originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1906/11/03/5"
+    license="cc0" %}
+By 1906 the public’s appetite had increased for regulation of all forms of gambling.
+{%imageEnd%}
+
 Finally, in 1907, the Gaming and Lotteries Act Amendment Act was passed, which
 declared *all* games of chance to be explicitly unlawful. The game was to remain
 illegal until the passage of a new Gaming and Lotteries Act in 1977.
