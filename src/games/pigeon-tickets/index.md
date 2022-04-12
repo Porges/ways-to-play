@@ -295,3 +295,11 @@ declared *all* games of chance to be explicitly unlawful. The game was to remain
 illegal until the passage of a new Gaming and Lotteries Act in 1977.
 
 ## Globalization (or Kenoization)
+
+{% image src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
+    alt=";"
+    originalUrl="https://www.newspapers.com/clip/99585617/race-horse-keno/"
+    license="cc0"
+    orgName="newspapers.com" %}
+Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
+{% imageEnd %}
