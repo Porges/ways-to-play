@@ -140,6 +140,14 @@ name like <span lang="zh">博合</span> (bok3 hap6); <span lang="zh">白</span> 
 龍師伙帝&#x3000;鳥官人皇
 </blockquote>
 
+{% image src="MingLeeDuw.jpg" alt="" noborder=true %}
+A Ming Lee Duw Co. ticket from California (reading <span lang="zh">名利就廠</span>
+right-to-left). The center reads <span lang="zh">生財有道</span>, a [four-character idiom](https://en.wikipedia.org/wiki/Chengyu)
+meaning “an expert in making money”, a reference to an extract from the
+Confucian [<cite>Book of
+Rites</cite>.](https://en.wikipedia.org/wiki/Book_of_Rites)
+{%imageEnd%}
+
 ## Spread to other countries
 
 The game travelled everywhere that Chinese people migrated to. In particular it
@@ -148,6 +156,22 @@ work in the late 19th century: San Francisco in the USA, British Columbia in
 Canada, Victoria in Australia, and New Zealand.
 
 ### In the United States
+
+{% image src="ark__13030_hb0q2nb02d_cropped.jpg" alt="" 
+    license="cc-by"
+    orgName="University of California, Los Angeles"
+    orgAbbr="UCLA"
+    size="wide"
+    originalUrl="https://digital.library.ucla.edu/catalog/ark:/13030/hb0q2nb02d"
+    %}
+Interior of a Chinese lottery & casino in California, 1938. Ink and brushes are provided to mark the chosen numbers, and on the floor lie discarded losing tickets.
+{%imageEnd%}
+
+According to @EncyclopediaOfKeno, the game was introduced to the Western United
+States in the mid-19th century, and reached the Eastern cities by 1870.
+
+Mentions of “Chinese lotteries” begin to appear in Californian newspapers from
+the 1860s.
 
 ### In Australia
 
@@ -165,6 +189,8 @@ zones.
 
 As in Australia, racist depictions of Chinese gambling were common. And yet,
 while newspaper reporters decried {TODO}, others came to the defence of the game.
+
+#### Legality
 
 In 1902, the <cite>Evening Post</cite> opined:
 
@@ -230,7 +256,7 @@ lotteries at church bazaars were allowed to proceed without interference.
 > chance, he objected to punishing Chinese for doing the same
 > thing.[@HoneHekePakAPoo]
 
-The bill was subsequently withdrawn and a full ban was never passed.
+The bill was subsequently withdrawn and this version of the amendment was never passed.
 
 {%image
     noborder=true

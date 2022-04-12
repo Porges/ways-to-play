@@ -6651,5 +6651,21 @@
             "day": 23
         },
         "page": 4
+    },
+    "EncyclopediaOfKeno": {
+        "type": "book",
+        "URL": "https://archive.org/details/encyclopediaofke00mech",
+        "title": "Encyclopedia of Keno",
+        "author": [
+            {
+                "given": "John",
+                "family": "Mechigian"
+            }
+        ],
+        "publisher": "Funtime Enterprises",
+        "publisher-place": "Fresno, California",
+        "issued": {
+            "year": 1972
+        }
     }
 }
