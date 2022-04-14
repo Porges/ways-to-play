@@ -6667,5 +6667,18 @@
         "issued": {
             "year": 1972
         }
+    },
+    "FanTanGamesToReopen": {
+        "type": "article-newspaper",
+        "title": "Fan-Tan Games to Reopen",
+        "container-title": "The New York Times",
+        "issued": {
+            "year": 1892,
+            "month": 2,
+            "day": 24
+        },
+        "page": 9,
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://www.proquest.com/hnpnewyorktimes/docview/95029656/7114149A6A064F15PQ/3"
     }
 }

@@ -15,8 +15,11 @@ Cantonese origin of the game (see e.g. @SparrowAndPigeon, although I find some
 of his other (original) conclusions to be dubious).{%endfn%}) is a gambling game
 which originated in <Noun lang="zh-Latn">Guangdong</Noun> during the late Qing
 dynasty, and which in the 19th and 20th centuries was spread throughout
-Oceania-bordering countries by Chinese emigrants. The game eventually turned
-into the modern game of Keno, now played in casinos around the world.
+Oceania-bordering countries by Chinese emigrants. 
+
+In European sources it is often referred to as simply the “Chinese lottery”; the
+game was eventually modified by Americans and turned into the modern game of
+Keno, now played in casinos around the world.
 
 <!-- excerpt -->
 
@@ -164,11 +167,14 @@ Canada, Victoria in Australia, and New Zealand.
     size="wide"
     originalUrl="https://digital.library.ucla.edu/catalog/ark:/13030/hb0q2nb02d"
     %}
-Interior of a Chinese lottery & casino in California, 1938. Ink and brushes are provided to mark the chosen numbers, and on the floor lie discarded losing tickets.
+Interior of a Chinese lottery & casino in California, 1938. Ink and brushes are
+provided to mark the chosen numbers, and on the floor lie discarded losing
+tickets.
 {%imageEnd%}
 
 According to @EncyclopediaOfKeno, the game was introduced to the Western United
-States in the mid-19th century, and reached the Eastern cities by 1870.
+States in the mid-19th century, and reached the Eastern cities by 1870. By 1892
+there were ten Chinese lottery banks operating in New York.[@FanTanGamesToReopen]
 
 Mentions of “Chinese lotteries” begin to appear in Californian newspapers from
 the 1860s.
