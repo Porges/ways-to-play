@@ -24,6 +24,7 @@ function _normalizeShortcodeScope(ctx) {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/sass");
   eleventyConfig.addWatchTarget("src/maps");
+  eleventyConfig.addWatchTarget("bibliography.json");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("audio");
   eleventyConfig.addPassthroughCopy("small-images");
@@ -219,6 +220,7 @@ const addSlugs = () => {
 
 const citationPlugin = () => {
   let biblio = undefined;
+  let biblioLastModified = undefined;
   let unist = undefined;
 
   const indexToString = (/** @type {number} */ index) => {
@@ -272,8 +274,11 @@ const citationPlugin = () => {
       unist = await import('unist-util-visit');
     }
 
-    if (!biblio) {
-      biblio = JSON.parse(await fs.readFile(path.join(__dirname, 'bibliography.json'), 'utf8'));
+    const biblioPath = path.join(__dirname, 'bibliography.json');
+    let stat = await fs.stat(biblioPath);
+    if (!biblio || stat.mtime > biblioLastModified) {
+      biblio = JSON.parse(await fs.readFile(biblioPath, 'utf8'));
+      biblioLastModified = stat.mtime;
       Object.entries(biblio).forEach(([key, value]) => { value.id = key });
     }
 

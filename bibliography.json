@@ -6680,5 +6680,24 @@
         "page": 9,
         "publisher-place": "New York, NY, USA",
         "URL": "https://www.proquest.com/hnpnewyorktimes/docview/95029656/7114149A6A064F15PQ/3"
+    },
+    "FinalMahjong": {
+        "type": "book",
+        "title": "アカギ 36―闇に降り立った天才 (掉尾の闘牌)",
+        "title-lang": "ja",
+        "ISBN": "978-4801963085",
+        "author": [
+            {
+                "family":"福本",
+                "given":"伸行",
+                "lang": "ja"
+            }
+        ],
+        "issued": {
+            "year": 2018
+        },
+        "publisher": "竹書房",
+        "publisher-lang": "ja",
+        "publisher-place": "Tokyo, Japan"
     }
 }
