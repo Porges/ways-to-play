@@ -143,14 +143,14 @@ called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
         <td>?</td>
         <td><a href="#kawakita"><Noun lang="ja-Latn">Kawakita</Noun></a></td>
         </tr>
-    </tbody>
-    </table>
-    <table class="table table-sm">
-    <tbody>
         <tr>
         <td><img src='/small-images/marusa.svg' class="inline-img big" alt="The Marusa symbol" /></td>
         <td><a href="#kohara-honten"><Noun lang="ja-Latn">Kohara Honten</Noun></a></td>
         </tr>
+    </tbody>
+    </table>
+    <table class="table table-sm">
+    <tbody>
         <tr>
         <td><img src='/small-images/marui.svg' class="inline-img big" alt="The Marui symbol" /></td>
         <td><a href="#nishimura"><Noun lang="ja-Latn">Nishimura</Noun></a></td>
@@ -222,6 +222,10 @@ called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
         <tr>
         <td>?</td>
         <td><a href="#sanjoya"><Noun lang="ja-Latn">Sanjōya</Noun></a></td>
+        </tr>
+        <tr>
+        <td><img src='/small-images/maruyoshi.svg' class="inline-img big" alt="The Maruyoshi symbol" /></td>
+        <td><a href="#maruyoshi"><Noun lang="ja-Latn">Maruyoshi</Noun></a></td>
         </tr>
     </tbody>
     </table>
@@ -2263,6 +2267,11 @@ trademark for <Noun lang="ja-Latn">Hanafuda</Noun> after [<Noun
 lang="ja-Latn">Kamigataya</Noun>](#kamigataya). Their mark was <span lang="ja">
 上</span> in a square. Another mark they used (for the store itself) was <span
 lang="ja">又</span> under a mountain.
+
+### <img src='/small-images/maruyoshi.svg' alt="" class="inline-img" /> <Noun lang="ja-Latn">Maruyoshi</Noun> (<span lang="ja">マル芳</span>)
+
+Based in <Noun lang="ja-Latn">Ōsaka</Noun>, their mark was <span class="circled"
+lang="ja">芳</span> in a circle. I know of nothing else about this manufacturer.
 
 ## Unknown
 
