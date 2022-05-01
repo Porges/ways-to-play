@@ -29,6 +29,6 @@ jobs:
 
     - name: GH Pages publish
       uses: peaceiris/actions-gh-pages@v3
-      env:
+      with:
         publish_dir: 'public/'
         github_token: ${{ secrets.GITHUB_TOKEN }}
