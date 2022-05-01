@@ -28,7 +28,7 @@ jobs:
         CI: true
 
     - name: GH Pages publish
-      uses: maxheld83/ghpages@v0.2.1
+      uses: peaceiris/actions-gh-pages@v3
       env:
-        BUILD_DIR: 'public/'
-        GH_PAT: ${{ secrets.GH_PAT }}
+        publish_dir: 'public/'
+        github_token: ${{ secrets.GITHUB_TOKEN }}
