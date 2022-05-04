@@ -6699,5 +6699,93 @@
         "publisher": "竹書房",
         "publisher-lang": "ja",
         "publisher-place": "Tokyo, Japan"
+    },
+    "SharpersAtAltcar": {
+        "type": "article-newspaper",
+        "title": "Sharpers At Altcar",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000872/18700219/151/0006",
+        "container-title": "Liverpool Courier and Commercial Advertiser",
+        "issued": {
+            "year": 1870,
+            "month": 2,
+            "day": 19
+        },
+        "page": 6
+    },
+    "MorningChronicleOldBailey": {
+        "type" :"article-newspaper",
+        "title": "Old Bailey",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000082/18160415/008/0003#",
+        "container-title": "Morning Chronicle",
+        "issued": {
+            "year": 1816,
+            "month": 4,
+            "day": 15
+        },
+        "page": 3,
+        "publisher-place": "London"
+    },
+    "EastbourneHunt": {
+        "type": "article-newspaper",
+        "title": "Eastbourne Hunt Races",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0001928/18640420/038/0004",
+        "container-title": "Eastbourne Gazette",
+        "issued": {
+            "year": 1864,
+            "month": 4,
+            "day": 20
+        },
+        "page": 4
+    },
+    "CamberwellFair": {
+        "type": "article-newspaper",
+        "title": "Camberwell Fair",
+        "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0002646/18140819/020/0004",
+        "container-title": "Star",
+        "issued": {
+            "year": 1814,
+            "month": 8,
+            "day": 19
+        },
+        "page": 4,
+        "publisher-location": "London"
+    },
+    "Tiverton": {
+        "type": "article-newspaper",
+        "title": "Tiverton",
+        "URl": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000265/18381006/015/0003",
+        "container-title": "Western Times",
+        "issued": {
+            "year": 1838,
+            "month": 10,
+            "day": 6
+        },
+        "page": 3
+    },
+    "PoliticalSatiricalHistory": {
+        "type" :"book",
+        "title": "A Political and Satirical History of the Years 1756 and 1757",
+        "issued": {
+            "year": 1758
+        },
+        "publisher": "E. Morris",
+        "publisher-place": "London",
+        "URL": "https://archive.org/details/politicalsatiric00darl"
+    },
+    "CatalogueOfPrintsAndDrawingsI": {
+        "type": "book",
+        "URL": "https://archive.org/details/catalogueofprint03brituoft",
+        "title": "Catalogue of Prints and Drawings in the British Museum: Division I. Political and Personal Satires",
+        "author": [
+            {
+                "family": "Stephens",
+                "given": "Frederic"
+            }
+        ],
+        "volume": 3,
+        "issue": "2 — 1751 to circa 1760",
+        "issued":{
+            "year": 1877
+        }
     }
 }
