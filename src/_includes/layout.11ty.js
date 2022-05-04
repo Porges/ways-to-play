@@ -47,7 +47,9 @@ exports.render = async function (data) {
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     <link rel="stylesheet" href="/css/index.css" type="text/css" />
     <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,500&family=Vollkorn:wght@500&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300;1,500&family=Vollkorn:wght@500&family=Noto+Emoji&display=swap" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000" />
     <title>${title} · Ways To Play</title>

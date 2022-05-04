@@ -66,28 +66,35 @@ The favicon is by [Freepik](https://www.freepik.com/) from
 [www.flaticon.com](https://www.flaticon.com/), and is licensed under [CC 3.0
 BY](http://creativecommons.org/licenses/by/3.0/).
 
-[UniHentaiKana](https://wakufactory.jp/densho/font/hentai/) is used as a
-fallback font for <span lang="ja-Latn">hentaigana</span> characters. It is
-licensed under the [IPA Font License](https://opensource.org/licenses/IPA).
-
-A modified version of the [Creative Commons Web
-Font](https://cc-icons.github.io/) (1.2.0) by Ricardo Barros is used to indicate
-licensing information. Both the font and my modifications are licensed under the
-[CC 4.0 BY](https://creativecommons.org/licenses/by/4.0/) license.
-
-The playing-card font is [NKD04 by Umihotaru](https://umihotaru.work/). It has a
-[nonstandard but liberal license](https://umihotaru.work/faq.txt).
-
-The font used for ISBN numbers is [OCR-B produced by Matthew
-Skala](https://tsukurimashou.osdn.jp/ocr.php.en), and released under GPL version
-3 (with an exception for using the font in documents).
-
 ## Colophon
 
 The site is generated with [Eleventy](https://www.11ty.dev/), with a bunch of custom code!
 
-The fonts are [Inter by Rasmus Andersson](https://rsms.me/inter/) (body text),
-[Fira Sans](https://github.com/bBoxType/FiraSans) (body italics), &amp;
+The main fonts are [Inter by Rasmus Andersson](https://rsms.me/inter/) (body text),
+[Fira Sans](https://github.com/bBoxType/FiraSans) (body italics), and
 [Vollkorn by Friedrich Althausen](http://vollkorn-typeface.com/) (headings).
+
+[UniHentaiKana](https://wakufactory.jp/densho/font/hentai/) is used as a
+fallback font for <span lang="ja-Latn">hentaigana</span> characters. It is
+licensed under the [IPA Font License](https://opensource.org/licenses/IPA).
+
+[BabelStone Commons](https://www.babelstone.co.uk/Fonts/) by Andrew West is used
+to indicate licensing information. It is licensed under the [SIL Open Font
+License 1.1](https://scripts.sil.org/OFL).
+
+The playing-card font is [NKD04 by Umihotaru](https://umihotaru.work/). It has a
+[nonstandard but liberal license](https://umihotaru.work/faq.txt).
+
+The chess-piece font is [NKS30 by Umihotaru](https://booth.pm/ja/items/1949217).
+It is a commercial font.
+
+The font used for other emoji not covered by fonts mentioned above is [Noto
+Emoji](https://fonts.google.com/noto/specimen/Noto+Emoji/about), licensed under
+the [SIL Open Font
+License 1.1](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
+
+The font used for ISBN numbers is [OCR-B produced by Matthew
+Skala](https://tsukurimashou.osdn.jp/ocr.php.en), and released under GPL version
+3 (with an exception for using the font in documents).
 
 </article>

@@ -418,11 +418,11 @@ function altTextForLicense(input) {
 
 function charForLicense(input) {
     switch (input) {
-        case 'cc0': return '\u{1f16e}';
         case 'cc': return '\u{1f16d}';
+        case 'cc0': return '\u{1f16e}';
         case 'by': return '\u{1f16f}';
-        case 'nc': return '\u{1f10f}';
         case 'sa': return '\u{1f10e}';
+        case 'nc': return '\u{1f10f}';
         case 'nd': return '⊜';
         default: return null;
     }
