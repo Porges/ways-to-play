@@ -267,6 +267,7 @@ const citationPlugin = () => {
     }
   };
 
+  // matches that in bibliography.11ty.js - TODO extract
   const citeExtrator = /((?<!\w)@(?<id1>(_|[^\s\p{P}])+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>(_|[^\s\p{P}])+)(\s+(?<what2>[^\]]+))?\])/u;
 
   return async (tree, _file) => {

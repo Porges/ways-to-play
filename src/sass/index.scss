@@ -372,12 +372,26 @@ figure {
 .reference-list > li {
     margin-top: 1em;
     text-align: left;
+
+    p {
+        margin-bottom: 0;
+    }
 }
 
 /* hanging indent */
 .reference-list.list-unstyled > li {
     margin-left: 3em;
     text-indent: -3em;
+}
+
+/* nested backreference lists need indentation undone */
+.backreferences > li {
+    text-indent: 0;
+}
+
+.backreferences {
+    margin-top: .1em;
+    list-style-type: '→ ';
 }
 
 /*** Highlight target of link ***/
