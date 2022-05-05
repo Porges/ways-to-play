@@ -101,19 +101,6 @@ tr. Screech
 </tr>
 
 <tr>
-<td><span lang="fr">au cet</span></td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>discard</td>
-<td></td>
-</tr>
-
-<tr>
 <td><span lang="fr">a la pꝛime</span></td>
 <td><span lang="fr">a la prime</span></td>
 <td><span lang="fr">a la prime</span></td>
@@ -179,7 +166,7 @@ tr. Screech
 </tr>
 
 <tr>
-<td>—</td>
+<td><span lang="fr">au cēt</span></td>
 <td><span lang="fr">au cent</span></td>
 <td><span lang="fr">au cent</span></td>
 <td>at the hundred</td>
@@ -187,9 +174,8 @@ tr. Screech
 <td>hundred-up</td>
 <td>one hundred</td>
 <td>one hundred</td>
-<td>—?</td>
+<td>discard</td>
 <td></td>
-</tr>
 
 <tr>
 <td><span lang="fr">a leſpinay</span></td>
