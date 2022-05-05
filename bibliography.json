@@ -6688,8 +6688,8 @@
         "ISBN": "978-4801963085",
         "author": [
             {
-                "family":"福本",
-                "given":"伸行",
+                "family": "福本",
+                "given": "伸行",
                 "lang": "ja"
             }
         ],
@@ -6713,7 +6713,7 @@
         "page": 6
     },
     "MorningChronicleOldBailey": {
-        "type" :"article-newspaper",
+        "type": "article-newspaper",
         "title": "Old Bailey",
         "URL": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000082/18160415/008/0003#",
         "container-title": "Morning Chronicle",
@@ -6763,7 +6763,7 @@
         "page": 3
     },
     "PoliticalSatiricalHistory": {
-        "type" :"book",
+        "type": "book",
         "title": "A Political and Satirical History of the Years 1756 and 1757",
         "issued": {
             "year": 1758
@@ -6784,8 +6784,177 @@
         ],
         "volume": 3,
         "issue": "2 — 1751 to circa 1760",
-        "issued":{
+        "issued": {
             "year": 1877
         }
+    },
+    "LouisMoland": {
+        "type": "book",
+        "URL": "https://gallica.bnf.fr/ark:/12148/bpt6k205144z/f89.item",
+        "title": "François Rabelais: tout ce qui existe de ses œuvres",
+        "title-lang": "fr",
+        "author": [
+            {
+                "given": "François",
+                "family": "Rabelais",
+                "lang": "fr"
+            }
+        ],
+        "editor": {
+            "family": "Moland",
+            "given": "Louis",
+            "lang": "fr"
+        },
+        "issued": {
+            "year": 1884
+        },
+        "publisher-place": "Paris"
+    },
+    "EtienneDolet": {
+        "type": "book",
+        "URL": "https://gallica.bnf.fr/ark:/12148/bpt6k79281z",
+        "title": "La Plaiſante, & Ioyeuse hiſtoyre du grand Geant Gargantua",
+        "title-lang": "fr",
+        "author": [
+            {
+                "given": "François",
+                "family": "Rabelais",
+                "lang": "fr"
+            }
+        ],
+        "publisher": "Eſtienne Dolet",
+        "publisher-lang": "fr",
+        "publisher-place": "Lyon, France",
+        "issued": {
+            "year": 1542
+        }
+    },
+    "Urquhart": {
+        "type": "book",
+        "URL": "https://archive.org/details/livesheroicdeeds00rabeuoft",
+        "title": "The lives, heroic deeds & sayings of Gargantua & his son Pantagruel",
+        "issued": {
+            "year": 1921
+        },
+        "original-date": {
+            "year": 1653
+        },
+        "author": [
+            {
+                "given": "Thomas",
+                "family": "Urquhart"
+            },
+            {
+                "given": "Peter",
+                "family": "Le Motteux"
+            }
+        ],
+        "publisher": "Chatto & Windus",
+        "publisher-place": "London"
+    },
+    "Smith1": {
+        "type": "book",
+        "title": "Rabelais: The Five Books and Minor Writings",
+        "author": [
+            {
+                "given": "W. F.",
+                "family": "Smith"
+            }
+        ],
+        "issued": {
+            "year": 1893
+        },
+        "volume": 1,
+        "publisher": "Alexander P. Watt",
+        "publisher-place": "London",
+        "URL": "https://archive.org/details/rabelaisfiveboo00smitgoog/"
+    },
+    "Screech": {
+        "type": "book",
+        "title": "Gargantua and Pantagruel",
+        "author": [
+            {
+                "given": "François",
+                "family": "Rabelais",
+                "lang": "fr"
+            },
+            {
+                "given": "M. A.",
+                "family": "Screech"
+            }
+        ],
+        "issued": {
+            "year": 2006
+        },
+        "ISBN": "978-0-14-193578-2",
+        "publisher": "Penguin",
+        "publisher-place": "London, England",
+        "URL": "https://archive.org/details/gargantuapantagr00rabe_0"
+    },
+    "Juste1534": {
+        "type": "book",
+        "title": "Gargantua",
+        "title-lang": "fr",
+        "URL": "https://gallica.bnf.fr/ark:/12148/btv1b8609586k",
+        "author": [
+            {
+                "given": "François",
+                "family": "Rabelais",
+                "lang": "fr"
+            }
+        ],
+        "publisher": "François Juste",
+        "publisher-lang": "fr",
+        "publisher-place": "Lyon, France",
+        "issued": {
+            "year": 1534
+        }
+    },
+    "BrownGargantua": {
+        "type": "book",
+        "title": "Gargantua: the most horrific life of the great Gargantua, father of Pantagruel",
+        "URL": "https://archive.org/details/gargantuamosthor0000rabe",
+        "author": [
+            {
+                "given": "François",
+                "family": "Rabelais",
+                "lang": "fr"
+            },
+            {
+                "given": "Andrew",
+                "family": "Brown"
+            }
+        ],
+        "publisher": "Hersperus Press",
+        "publisher-place": "London, England",
+        "issued": {
+            "year": 2003
+        },
+        "ISBN": "1-84391-057-8"
+    },
+    "CohenRabelais": {
+        "type": "book",
+        "URL": "https://archive.org/details/historiesofgarga00fran",
+        "title": "The Histories of Gargantua and Pantagruel",
+        "issued": {
+            "year": 1975
+        },
+        "publisher": "Penguin",
+        "ISBN": "014044047X"
+    },
+    "FrameRabelais": {
+        "type": "book",
+        "title": "The Complete Works of François Rabelais",
+        "publisher": "University of California Press",
+        "publisher-place": "Berkeley",
+        "issued": {
+            "year": 1991
+        },
+        "author": [
+            {
+                "family": "Frame",
+                "given": "Donald"
+            }
+        ]
     }
 }
