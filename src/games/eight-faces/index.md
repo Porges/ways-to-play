@@ -10,7 +10,7 @@ such as @GamblingGamesOfMalaya [p. 125], and in legislation based upon that work
 (see below).{%endfn%} is (or was) a simple staking game played with a special
 eight-sided teetotum (<span lang="zh">陀螺</span>, Mandarin <span
 lang="cmn-Latn">tuóluó</span>, Hokkien <span lang="nan-Latn">tolo</span>). It is
-also called <span lang="zh">小花会</span> (‘small <Noun
+also called <span lang="zh">小花会</span> (‘small <span class="noun"
 lang="cmn-Latn">Huāhuì</span>’), as it uses a subset of characters from the
 <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery
 game.[@郑超麟回忆录]
@@ -20,7 +20,7 @@ game.[@郑超麟回忆录]
 The description below is mostly based upon @GamblingGamesOfMalaya, which
 describes it as popular in Malaysia with “Chinese ladies”. 
 
-The game is also described in the memoirs of Chinese revolutionary <Noun
+The game is also described in the memoirs of Chinese revolutionary <span class="noun"
 lang="zh-Latn">Zheng Chaolin</span> (<span lang="zh">郑超麟</span>, 1901–1998),
 who says that it was played at roadside gambling stalls during the five days
 after the Chinese New Year (and in practice until the Lantern Festival on the

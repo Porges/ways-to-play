@@ -5,9 +5,9 @@ draft: true
 ---
 
 <span class="noun" lang="ja-Latn">Hachi-Hachi</span> (<span lang="ja">八八</span>, ‘88’) is
-the preëminent [<Noun
+the preëminent [<span class="noun"
 lang="ja-Latn">Hanafuda</span>](/articles/cards/japan/hanafuda/) gambling game.
-In many old English sources it is considered synonymous with ‘<Noun
+In many old English sources it is considered synonymous with ‘<span class="noun"
 lang="ja-Latn">hanafuda</span>’ or ‘<span class="noun" lang="ja-Latn">hana-awase</span>’ and
 isn’t given a more specific name.
 
@@ -16,7 +16,7 @@ game is for three active players, and there are 264 total card points available,
 so the goal for each player is to obtain at least their share, i.e. 264 ÷ 3 =
 **88** points.
 
-Despite being — historically, at least —  the most important <Noun
+Despite being — historically, at least —  the most important <span class="noun"
 lang="ja-Latn">Hanafuda</span> game, it is also one of the most difficult. The
 play of the cards is the same as in other <span class="noun" lang="ja-Latn">Hanafuda</span>
 games, but the procedures of betting and payment combine to increase the
@@ -114,20 +114,20 @@ but I have no evidence to support this.
     perRow=3
     src="KashiOld_25_1.jpg;KashiOld_25_2.jpg;KashiOld_50_1.jpg;KashiOld_50_2.jpg;KashiOld_reverse.jpg"
     alt=";;;;" %}
-Old-style <span class="noun" lang="ja-Latn">Kashifuda</span> (c. 1920?), published by [<Noun
+Old-style <span class="noun" lang="ja-Latn">Kashifuda</span> (c. 1920?), published by [<span class="noun"
 lang="ja-Latn">Tsuchida
 Tenguya</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tsuchida-tenguya).
 At top left, two 25-<span lang="ja-Latn">kan</span> notes, the left one reading
 <span lang="ja">小鯛雀𛁋し</span> (‘<span class="noun" lang="ja-Latn">Kodai Suzume</span>
 sushi’), a sushi restaurant [that opened in <span class="noun" lang="ja-Latn">Ōsaka</span> in
-1781, and apparently a favourite of Emperor <Noun
+1781, and apparently a favourite of Emperor <span class="noun"
 lang="ja-Latn">Meiji</span>](http://www.sushiman.co.jp/company/); the other
 reads <span lang="ja">上等蒸菓子</span> (‘fine steamed confectionary’). The two
 50-<span lang="ja-Latn">kan</span> cards (top right, bottom left) are for <span
 lang="ja">洋食</span> (‘Western meal’) and <span lang="ja">上等葡萄酒</span>
-(‘fine wine’). The reverse of the cards is designed to look like a <Noun
+(‘fine wine’). The reverse of the cards is designed to look like a <span class="noun"
 lang="ja-Latn">Meiji</span>-era 1-yen banknote that bore a portrait of the
-[Empress <Noun
+[Empress <span class="noun"
 lang="ja-Latn">Jingū</span>](https://en.wikipedia.org/wiki/Empress_Jing%C5%AB),
 and which was used from 1881 until 1899. The set also contained (not pictured
 here) another 50-<span lang="ja-Latn">kan</span> card and a 100-<span
@@ -142,10 +142,10 @@ lang="ja-Latn">kan</span> card.
     perRow=5
     src="KashiKKK_1.jpg;KashiKKK_10.jpg;KashiKKK_50.jpg;KashiKKK_100.jpg;KashiKKK_25_1.jpg;KashiKKKBack_1.jpg;KashiKKKBack_10.jpg;KashiKKKBack_50.jpg;KashiKKKBack_100.jpg;KashiKKK_25_2.jpg"
     alt=";;;;;;;;;" %}
-<span class="noun" lang="ja-Latn">Kashifuda</span> as published by [<Noun
+<span class="noun" lang="ja-Latn">Kashifuda</span> as published by [<span class="noun"
 lang="ja-Latn">Kamigataya</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#kamigataya)
 in denominations of 1, 10, 50, 100, and two different 25 cards (the only two in
-the set). The reverse bears the name “K.K.K.” which stands for <Noun
+the set). The reverse bears the name “K.K.K.” which stands for <span class="noun"
 lang="ja-Latn">Kamigataya [Kabushiki
 Kaisha](https://en.wikipedia.org/wiki/Kabushiki_gaisha)</span>.
 {% imageEnd %}
@@ -181,11 +181,11 @@ Yet later (slightly redrawn) Nintendo-style <span class="noun" lang="ja-Latn">Ka
     size="extra-wide"
     src="KashiNNN_1.jpg;KashiNNN_10.jpg;KashiNNN_50.jpg;KashiNNN_100.jpg;KashiNNN_reverse.jpg"
     alt=";;;;" %}
-<span class="noun" lang="ja-Latn">Kashifuda</span> cards produced by [<Noun
+<span class="noun" lang="ja-Latn">Kashifuda</span> cards produced by [<span class="noun"
 lang="ja-Latn">Nakao
 Seikadō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#nakao-seikado),
 in denominations of 1, 10, 50, and 100, and the reverse of the 10. It is unclear
-what “NNN” means, but it may be in imitation of the “KKK” used by <Noun
+what “NNN” means, but it may be in imitation of the “KKK” used by <span class="noun"
 lang="ja-Latn">Kamigataya</span>.
 {% imageEnd %}
 

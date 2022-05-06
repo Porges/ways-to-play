@@ -49,7 +49,7 @@ is worth a mere 5 points with the Hawaiian rules):
 Hanafuda Hawai‘i Style November cards.
 {% imageEnd %}
 
-**Hanafuda Nā Pua Hawai‘i** is probably my favourite of all the modern <Noun
+**Hanafuda Nā Pua Hawai‘i** is probably my favourite of all the modern <span class="noun"
 lang="ja-Latn">Hanafuda</span> decks. It recontextualizes the game with the
 flora and fauna native to Hawai‘i, matching visual puns to the bold art of the
 Hawai‘i Style deck: in the month of March, for example, the cherry blossoms
@@ -140,9 +140,9 @@ are larger and longer than normal playing cards.
 ## [<span class="noun" lang="ja-Latn">NISHIKI</span> <span lang="ja">錦</span>](https://www.etsy.com/shop/nishikie)
 
 This redesign by <span class="noun" lang="ja-Latn">Hanako</span> of [estudio
-artes](http://www.estudio-artes.com/) produced the only 3-way standard/<Noun
+artes](http://www.estudio-artes.com/) produced the only 3-way standard/<span class="noun"
 lang="ja-Latn">Hanafuda</span>/<span class="noun" lang="ja-Latn">Kabufuda</span> deck that I
-know of, which is printed on poker-sized cards. There is also a <Noun
+know of, which is printed on poker-sized cards. There is also a <span class="noun"
 lang="ja-Latn">Hanafuda</span>-only deck, in a traditional format.
 
 <!-- {/*<p>by Hanako: https://profile.ameba.jp/ameba/estudio-artes</p>*/} -->
@@ -151,7 +151,7 @@ lang="ja-Latn">Hanafuda</span>-only deck, in a traditional format.
   src='NishikiFuda.jpg'
   alt="" %}
 The 5 Bright cards of the combination <span class="noun" lang="ja-Latn">Nishiki Fuda</span>
-deck. The cards from A–10 have Japanese numerals for use as  <Noun
+deck. The cards from A–10 have Japanese numerals for use as  <span class="noun"
 lang="ja-Latn">Kabufuda</span> cards.
 {% imageEnd %}
 
@@ -241,15 +241,15 @@ The five Brights of the Pixel <span class="noun" lang="ja-Latn">Hanafuda</span> 
 {% image 
   src='pixel_hanafuda_swapped.jpg'
   alt="" %}
-Some of the palette-swapped cards from the Pixel <Noun
+Some of the palette-swapped cards from the Pixel <span class="noun"
 lang="ja-Latn">Hanafuda</span> deck.
 {% imageEnd %}
 
 ## <span class="noun" lang="ja-Latn">Tetsufuda</span>
 
-<strong>[<Noun
+<strong>[<span class="noun"
 lang="ja-Latn">Tetsufuda</span>](https://www.kotsu.co.jp/en/tetsufuda/)</strong>
-(<span lang="ja">鉄札</span>, 2020) is a train-themed deck created by <Noun
+(<span lang="ja">鉄札</span>, 2020) is a train-themed deck created by <span class="noun"
 lang="ja-Latn">Kotsu Shimbunsha</span>, the publishing arm of the Japan Railways
 group (JR).
 
@@ -267,7 +267,7 @@ The five Brights of the <span class="noun" lang="ja-Latn">Tetsufuda</span> deck.
   src='JR_tetraptych.jpg'
   alt="" %}
 The maple cards feature the [<span class="noun" lang="ja-Latn">Nozomi
-Shinkansen</span>](https://en.wikipedia.org/wiki/Nozomi_(train)) of the [<Noun
+Shinkansen</span>](https://en.wikipedia.org/wiki/Nozomi_(train)) of the [<span class="noun"
 lang="ja-Latn">Tōkaidō</span>
 line](https://en.wikipedia.org/wiki/Tokaido_Shinkansen).
 {% imageEnd %}

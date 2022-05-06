@@ -54,10 +54,10 @@ Manufacturer’s marks from <span class="noun" lang="ja-Latn">Nintendō</span>, 
 
 Often the mark is a simplified version of the name,{%fn%}Also be aware that
 Japanese can be written in either direction; @OstasiatischeSpielkarten [p. 136]
-describes a deck made by a mysterious manufacturer named ‘<Noun
+describes a deck made by a mysterious manufacturer named ‘<span class="noun"
 lang="ja-Latn">Dōtennin</span>’.{%endfn%} or a different <span
 lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When
-pronouncing the mark the shape is usually also ‘read’, so that <Noun
+pronouncing the mark the shape is usually also ‘read’, so that <span class="noun"
 lang="ja-Latn">Nintendō</span>’s mark—a stylized <span lang="ja">福</span>
 (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span
 lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “[Circle
@@ -321,10 +321,10 @@ Western style (“trump”) decks.
 
 ## Current Manufacturers
 
-All current Japanese manufacturers that I know of are based in <Noun
+All current Japanese manufacturers that I know of are based in <span class="noun"
 lang="ja-Latn">Kyōto</span> prefecture. The <span class="noun" lang="ja-Latn">Kansai</span>
-region (which contains both <span class="noun" lang="ja-Latn">Kyōto</span> and <Noun
-lang="ja-Latn">Ōsaka</span>) is the original source of <Noun
+region (which contains both <span class="noun" lang="ja-Latn">Kyōto</span> and <span class="noun"
+lang="ja-Latn">Ōsaka</span>) is the original source of <span class="noun"
 lang="ja-Latn">Hanafuda</span> cards.
 
 ### <img src='/small-images/marufuku.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nintendō</span> (<span lang="ja">任天堂</span>)
@@ -343,8 +343,8 @@ mark, registered in 1900 by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō
 <span class="noun" lang="ja-Latn">Nintendō</span> is the most prominent company that produces
 <span class="noun" lang="jp-Latn">Hanafuda</span> cards today. The company was founded in
 <span class="noun" lang="jp-Latn">Kyōto</span> in 1889 by <span class="noun" lang="ja-Latn">Yamauchi
-Fusajirō</span> (<span lang="ja">山内房治郎</span>), and it was run by the <Noun
-lang="ja-Latn">Yamauchi</span> family for three generations until <Noun
+Fusajirō</span> (<span lang="ja">山内房治郎</span>), and it was run by the <span class="noun"
+lang="ja-Latn">Yamauchi</span> family for three generations until <span class="noun"
 lang="ja-Latn">Yamauchi Hiroshi</span> (<span lang="ja">山内溥</span>) stepped
 down in 2002.
 
@@ -364,7 +364,7 @@ down in 2002.
   <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <span class="noun" lang="ja-Latn">Hanafuda</span> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <span class="noun" lang="ja-Latn">Hanafuda</span> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,{%fn%}<span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]{%endfn%} and <span class="noun" lang="ja-Latn">Tōyō</span> Printing was sold along with the rest of the company.[@TarHeel p. 362]</p>
   } -->
 
-A too-brief summary of their later success: after WWII, <Noun
+A too-brief summary of their later success: after WWII, <span class="noun"
 lang="jp-Latn">Nintendō</span> managed to survive a period of crushing taxation
 on playing-card products, which wiped out many of the smaller manufacturers. In
 the second half of the 20th century they (famously!) diversified into children’s
@@ -381,7 +381,7 @@ the <span class="noun" lang="ja-Latn">Yamauchi</span> family.
     src="nintendo-shop.jpg"
     alt="A wooden storefront with wrought-iron railings and a bicycle parked outside."
     license="cc0" %}
-The <span class="noun" lang="ja-Latn">Nintendō</span> storefront in <Noun
+The <span class="noun" lang="ja-Latn">Nintendō</span> storefront in <span class="noun"
 lang="ja-Latn">Kyōto</span> (original source dates this as 1889, but it seems
 more likely to be after 1900).
 {% imageEnd %}
@@ -401,7 +401,7 @@ the stylized form of the <span lang="ja-Latn">marufuku</span> symbol.
 
 In the past <span class="noun" lang="ja-Latn">Nintendō</span> produced many varieties of
 local cards or <span class="noun" lang="ja-Latn">Mekuri</span> cards, but today they only
-produce <span class="noun" lang="ja-Latn">Hanafuda</span> and <Noun
+produce <span class="noun" lang="ja-Latn">Hanafuda</span> and <span class="noun"
 lang="ja-Latn">Kabufuda</span> cards. Their current brands are: <span
 lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> (featuring a
 picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span
@@ -440,7 +440,7 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 <span class="noun" lang="ja-Latn">Otafuku</span> (also known as
 <span class="noun" lang="ja-Latn">Okame</span>) is a traditional character associated with
 good luck, and often appears in <span lang="ja-Latn">kagura</span>
-performances alongside [<Noun
+performances alongside [<span class="noun"
 lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
 {% imageEnd %}
 
@@ -452,7 +452,7 @@ lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
 * <span lang="ja">正宗</span> (<span lang="ja-Latn">masamune</span>, [a famous
   swordsmith](https://en.wikipedia.org/wiki/Masamune)), trademarked in
   1900[@Trademarks1905 p. 67]
-* <span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<Noun
+* <span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<span class="noun"
   lang="ja-Latn">Tengu</span>’), trademarked in 1912[@Trademarks1924_5 p. 276]
 * <span lang="ja">大天狗</span> (<span lang="ja-Latn">daitengu</span>, the most
   powerful type of <span class="noun" lang="ja-Latn">Tengu</span>)
@@ -534,7 +534,7 @@ month of the <span class="noun" lang="ja-Latn">Hanafuda</span> deck:
 The 5 Brights of <span class="noun" lang="ja-Latn">Nintendō</span>’s “Hana-Trump” deck.
 {% imageEnd %}
 
-Because there are four more cards in the standard deck compared to the <Noun
+Because there are four more cards in the standard deck compared to the <span class="noun"
 lang="ja-Latn">Hanafuda</span> one, <span class="noun" lang="ja-Latn">Nintendō</span> added
 an additional four cards (and two jokers) to the set. These extra cards are
 counterparts for specialized pieces of equipment present in boxed {% gameref
@@ -574,7 +574,7 @@ characters from the Mario series.
 <span class="noun" lang="ja-Latn">Nintendō</span> have also on occasion produced decks for
 other companies, such as the <span class="noun" lang="ja-Latn">Shikishima Hanafuda</span>
 (<span lang="ja">敷島花札</span>) produced for <span class="noun" lang="ja-Latn">Okuno
-Karuta</span> (<span lang="ja">奥野かるた店</span>), a games shop in <Noun
+Karuta</span> (<span lang="ja">奥野かるた店</span>), a games shop in <span class="noun"
 lang="ja-Latn">Tōkyō</span>.
 
 {% image 
@@ -591,7 +591,7 @@ flat cardboard, not wrapped with backing paper.
 
 Also based in <span class="noun" lang="ja-Latn">Kyōto</span>, <span class="noun" lang="ja-Latn">Ōishi
 Tengudō</span> produces a wide variety of traditional Japanese card games. As
-far as I know, they are the only major manufacturer still producing <Noun
+far as I know, they are the only major manufacturer still producing <span class="noun"
 lang="ja-Latn">Mefuda</span> cards. They also produce reproductions of even
 older cards, such as the <span class="noun" lang="ja-Latn">Unsun</span> deck.
 
@@ -627,7 +627,7 @@ based on that of [<span class="noun" lang="ja-Latn">Sanjōya</span>](#sanjoya).
 Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top,
 but on some decks (e.g. <span class="noun" lang="ja-Latn">Echigo-kobana</span>), they have
 used <span lang="ja">大</span> in a square. In the past they have also used
-circled <span class="circled" lang="ja">高</span>. Brands produced by <Noun
+circled <span class="circled" lang="ja">高</span>. Brands produced by <span class="noun"
 lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 57–8]
 
@@ -711,7 +711,7 @@ The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikip
 {% imageEnd %}
 </div>
 
-In addition to the many standard & local patterns of <Noun
+In addition to the many standard & local patterns of <span class="noun"
 lang="ja-Latn">Hanafuda</span> they produce, they also publish some novelty
 decks, such as the <strong><span class="noun" lang="ja-Latn">Kyōto Hanafuda</span></strong>:
 
@@ -727,20 +727,20 @@ shrine](https://en.wikipedia.org/wiki/Fushimi_Inari-taisha) (<span lang="ja">伏
 Hideyoshi</span>](https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi) (<span
 lang="ja">豊臣秀吉</span>), [<span class="noun" lang="ja-Latn">Kita no
 Mandokoro</span>](https://en.wikipedia.org/wiki/K%C5%8Ddai-in) (<span lang="ja">
-北政所</span>), and [<Noun
+北政所</span>), and [<span class="noun"
 lang="ja-Latn">Yodogimi</span>](https://en.wikipedia.org/wiki/Yodo-dono) (<span
 lang="ja">淀君</span>) at [Fushimi
 Castle](https://en.wikipedia.org/wiki/Fushimi_Castle) (<span lang="ja">伏見城
 </span>); the character <span lang="ja">大</span> (<span
-lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <Noun
+lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <span class="noun"
 lang="ja-Latn">Daimonji</span> (<span lang="ja">大文字山</span>) during the
 festival of [<span class="noun" lang="ja-Latn">Gozan no
 Okuribi</span>](https://en.wikipedia.org/wiki/Gozan_no_Okuribi) (<span
-lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk [<Noun
+lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk [<span class="noun"
 lang="ja-Latn">Benkei</span>](https://en.wikipedia.org/wiki/Benkei) (<span
 lang="ja">弁慶</span>) meeting [<span class="noun" lang="ja-Latn">Minamoto no
 Yoshitsune</span>](https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune) (<span
-lang="ja">源義経</span>), who is playing the flute, at <Noun
+lang="ja">源義経</span>), who is playing the flute, at <span class="noun"
 lang="ja-Latn">Gojō</span> bridge (<span lang="ja">五条橋</span>); and the
 [<span class="noun" lang="ja-Latn">Kyōto
 Sanga</span>](https://en.wikipedia.org/wiki/Kyoto_Sanga_FC) (<span lang="ja">京
@@ -749,7 +749,7 @@ that is normally featured on the Paulownia bright card.
 {% imageEnd %}
 
 In conjunction with <span class="noun" lang="ja-Latn">Ganzo&shy;futo&shy;neko&shy;dō</span>
-(<span lang="ja">元祖ふとねこ堂</span>), they produced <strong><Noun
+(<span lang="ja">元祖ふとねこ堂</span>), they produced <strong><span class="noun"
 lang="ja-Latn">Hana&shy;neko&shy;fuda</span></strong> (<span lang="ja">花猫札
 </span>), featuring Japanese cats:
 
@@ -779,16 +779,16 @@ The <span lang="ja-Latn">Daitenryū</span> packaging.
 </div>
 
 Angel was originally named <span class="noun" lang="ja-Latn">Okina Karuta Honpo</span> (<span
-lang="ja">翁かるた本舗</span>), and was first based in the city of [<Noun
+lang="ja">翁かるた本舗</span>), and was first based in the city of [<span class="noun"
 lang="ja-Latn">Yōkaichi</span>](https://en.wikipedia.org/wiki/Y%C5%8Dkaichi,_Shiga)
 (now <span class="noun" lang="ja-Latn">Higashiōmi</span>), <span class="noun" lang="ja-Latn">Shiga</span>
-prefecture (<span lang="ja">滋賀県八日市市</span>). It is now based in <Noun
+prefecture (<span lang="ja">滋賀県八日市市</span>). It is now based in <span class="noun"
 lang="ja-Latn">Kyōto</span>. They still use the character <span lang="ja">翁
 </span> (<span lang="ja-Latn">okina</span>) as their maker’s mark, or otherwise
 the name Angel is written <span lang="ja">エンゼル</span>. On some cards this is
 spelled <span lang="ja">縁是留</span>.
 
-Angel currently produces <span class="noun" lang="ja-Latn">Hanafuda</span> and <Noun
+Angel currently produces <span class="noun" lang="ja-Latn">Hanafuda</span> and <span class="noun"
 lang="ja-Latn">Kabufuda</span> in two brands:
 
 * <span lang="ja">千鳥</span> (<span lang="ja-Latn">chidori</span> ‘numerous birds’)
@@ -823,14 +823,14 @@ not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead
 a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">
 矢車</span>, ‘arrow wheel’).{%fn%}The <span lang="ja-Latn">yaguruma</span> is a
 windmill-like device of arrows arranged in a wheel and allowed to rotate in the
-wind. They are associated with festivals, particularly the May 5th [<Noun
+wind. They are associated with festivals, particularly the May 5th [<span class="noun"
 lang="ja-Latn">Tango no
 Sekku</span>](https://en.wikipedia.org/wiki/Tango_no_sekku) festival, where they
 are placed on top of tall poles from which [<span lang="ja-Latn">koi</span>
 streamers](https://en.wikipedia.org/wiki/Koinobori) are flown. <img
 class="d-block mx-auto w-75" src="/small-images/yaguruma.svg" alt="An example yaguruma symbol
 of seven arrows in a wheel, with the flights facing outwards." />{%endfn%} They
-have also published <span class="noun" lang="ja-Latn">Harifuda</span> and <Noun
+have also published <span class="noun" lang="ja-Latn">Harifuda</span> and <span class="noun"
 lang="ja-Latn">Shirofuda</span> (blank cards) under the mark <span
 lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce
 <span class="noun" lang="ja-Latn">Hyakunin Isshu</span>, <span class="noun" lang="ja-Latn">Manyo
@@ -840,7 +840,7 @@ Most of <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s cards are
 hand-wrapped backing paper; they have [another web page that details their
 manufacturing process](http://www5f.biglobe.ne.jp/~karutaya/brand.html).
 
-<span class="noun" lang="ja-Latn">Tamura</span> manufactures two types of <Noun
+<span class="noun" lang="ja-Latn">Tamura</span> manufactures two types of <span class="noun"
 lang="ja-Latn">Hanafuda</span> cards; firstly the standard pattern, with brands
 (these have been maintained since the 1970s):[@ModernJapaneseWrappers p. 39]
 
@@ -931,15 +931,15 @@ These are producers that do not exist any more.
 The <span class="noun" lang="ja-Latn">Matsui Tengudō</span> store as it appeared in 2017, 7 years after shutting down.
 {% imageEnd %}
 
-<span class="noun" lang="ja-Latn">Matsui Tengudō</span> was founded in <Noun
-lang="ja-Latn">Kyōto</span>{%fn%}There was also an <Noun
+<span class="noun" lang="ja-Latn">Matsui Tengudō</span> was founded in <span class="noun"
+lang="ja-Latn">Kyōto</span>{%fn%}There was also an <span class="noun"
 lang="ja-Latn">Ōsaka</span>-based <span class="noun" lang="ja-Latn">Matsui Tengudō</span>,
 started by the younger brother of <span class="noun" lang="ja-Latn">Matsui Shigejiro</span>,
 which had actually opened before the <span class="noun" lang="ja-Latn">Kyōto</span> branch.
 It used the same manufacturer’s mark and existed in
 1914[@JapaneseBusinessmen1914 p. 219] but closed after the second
 generation.{%endfn%} in 1897 by <span class="noun" lang="ja-Latn">Matsui Shigejiro</span>
-(<span lang="ja">松井重次郎</span>), and was run by the <Noun
+(<span lang="ja">松井重次郎</span>), and was run by the <span class="noun"
 lang="ja-Latn">Matsui</span> family for three generations until it closed in
 2010 after <span class="noun" lang="ja-Latn">Matsui Shigeo</span> (<span lang="ja">松井重夫
 </span>, 1931–2016) retired.[@IwanoMatsui]
@@ -995,7 +995,7 @@ The <span lang="ja-Latn">kuppin</span> wrapper.
 The <span lang="ja-Latn">fujizakura</span> wrapper.
 {% imageEnd %}
 
-<span class="noun" lang="ja-Latn">Matsui</span> also produced custom extended <Noun
+<span class="noun" lang="ja-Latn">Matsui</span> also produced custom extended <span class="noun"
 lang="ja-Latn">Hanafuda</span> decks with 13 and 14 months, which can be used to
 play games with more people. The 13-month deck features bamboo as the additional
 suit, while the 14-month deck has both bamboo and lotus.
@@ -1068,8 +1068,8 @@ Packaging of Ace’s <span class="noun" lang="ja-Latn">Dai Saigō</span> brand.
 
 ### <img src='/small-images/marue.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Maruē</span> (<span lang="ja">マルエー</span>)
 
-<span class="noun" lang="ja-Latn">Maruē</span> was from the city of [<Noun
-lang="ja-Latn">Mino</span>](https://en.wikipedia.org/wiki/Mino,_Gifu), in <Noun
+<span class="noun" lang="ja-Latn">Maruē</span> was from the city of [<span class="noun"
+lang="ja-Latn">Mino</span>](https://en.wikipedia.org/wiki/Mino,_Gifu), in <span class="noun"
 lang="ja-Latn">Gifu</span> prefecture (<span lang="ja">岐阜県美濃市</span>).
 Their manufacturer’s mark was a circled <span lang="ja">英</span> (<span
 lang="ja-Latn">ē</span>), i.e. <span lang="ja-Latn">maru-ē</span>. However,
@@ -1150,7 +1150,7 @@ existed in <span class="noun" lang="ja-Latn">Kyōto</span> through 1914 (when it
 <span class="noun" lang="ja-Latn">Tanaka Haru</span> <span lang="ja">田中ハル
 </span>),[@JapaneseBusinessmen1914 p. 151] and 1948,[@Yamaguchi p. 102] but had
 stopped producing in the early 1960s.[@ModernJapaneseWrappers p. 33] Their
-brands (including <span class="noun" lang="ja-Latn">Fukusuke</span> and <Noun
+brands (including <span class="noun" lang="ja-Latn">Fukusuke</span> and <span class="noun"
 lang="ja-Latn">Ginsuehiro</span>) and manufacturer’s mark were taken over by
 <span class="noun" lang="ja-Latn">Iwata Honten</span>.[@ModernJapaneseWrappers pp. 48–59]
 
@@ -1209,7 +1209,7 @@ February 1918 by <span class="noun" lang="ja-Latn">Iwata Yoshinosuke</span> (<sp
 {% imageEnd %}
 
 <span class="noun" lang="ja-Latn">Iwata</span> was founded around 1918. They did not make
-their own cards but had them made by other manufacturers, including <Noun
+their own cards but had them made by other manufacturers, including <span class="noun"
 lang="ja-Latn">Tamura Shōgundō</span>, <span class="noun" lang="ja-Latn">Nintendō</span>, and
 <span class="noun" lang="ja-Latn">Nihon Karuta</span>. Their mark was <span lang="ja">や
 </span> in a fan shape.
@@ -1420,7 +1420,7 @@ lang="ja">十</span>). Brands included:
 
 * <span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold
   baldy’, ‘baldy’ being a nickname for a priest)
-* <span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, [<Noun
+* <span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, [<span class="noun"
   lang="zh-Latn">Guan Yu</span>](https://en.wikipedia.org/wiki/Guan_Yu)),
   trademarked in 1901[@Trademarks1905 p. 67]
 * <span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>,
@@ -1446,9 +1446,9 @@ photo above.
     size="wide"
     src="yamashiro_exterior.jpg"
     license="cc0" %}
-A box wrapper from around 1900 featuring an imaginary depiction of the <Noun
+A box wrapper from around 1900 featuring an imaginary depiction of the <span class="noun"
 lang="ja-Latn">Yamashiro</span> store exterior; in reality it was nowhere near
-as large as this. The advertising boards at the left depict <Noun
+as large as this. The advertising boards at the left depict <span class="noun"
 lang="zh-Latn">Guan Yu</span> and <span class="noun" lang="zh-Latn">Shi Jin</span>, who
 represent two of the company’s brands (see trademark images at right).
 {% imageEnd %}
@@ -1615,7 +1615,7 @@ brands included:
     authorFamily="Sartor",
     authorGiven="Ryan" %}
 <span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">botanjishi</span>
-wrapper. Note the sticker indicating that the box contains <Noun
+wrapper. Note the sticker indicating that the box contains <span class="noun"
 lang="ja-Latn">Kabufuda</span> cards.
 {% imageEnd %}
 {% image 
@@ -1655,7 +1655,7 @@ wrapper.)
 
 ### <img src='/small-images/marusa.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kohara Honten</span> (<span lang="ja">小原本店</span>)
 
-<span class="noun" lang="ja-Latn">Kohara</span> was a manufacturer based in <Noun
+<span class="noun" lang="ja-Latn">Kohara</span> was a manufacturer based in <span class="noun"
 lang="ja-Latn">Ōsaka</span> until 1980.[@ModernJapaneseWrappers p. 48] Their
 manufacturer’s mark was a circled <span lang="ja" class="circled">さ</span>, and
 brands included:
@@ -1748,9 +1748,9 @@ The <span lang="ja-Latn">umegae</span> wrapper.
     copyrightYear=2020,
     license="with-permission" %}
 An extra ‘advertising’ card featuring the <span lang="ja-Latn">kabuki</span>
-character [<Noun
+character [<span class="noun"
 lang="ja-Latn">Sukeroku</span>](https://en.wikipedia.org/wiki/Sukeroku), who
-appeared often in <span class="noun" lang="ja-Latn">Nishimura</span>’s branding. <Noun
+appeared often in <span class="noun" lang="ja-Latn">Nishimura</span>’s branding. <span class="noun"
 lang="ja-Latn">Sukeroku</span> popularized the style of umbrella called a
 ‘snake-eye umbrella’ (<span lang="ja">蛇の目傘</span>) due to its pattern, so
 this type of umbrella is also referred to as a <span
@@ -1826,9 +1826,9 @@ included:[@ModernJapaneseWrappers p. 49]
 
 ### <img src='/small-images/3gourds.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Dai Nippon</span> (<span lang="ja">大日本</span>)
 
-A manufacturer from the city of [<Noun
+A manufacturer from the city of [<span class="noun"
 lang="ja-Latn">Yōkaichi</span>](https://en.wikipedia.org/wiki/Y%C5%8Dkaichi,_Shiga)
-(now part of <span class="noun" lang="ja-Latn">Higashiōmi</span>), <Noun
+(now part of <span class="noun" lang="ja-Latn">Higashiōmi</span>), <span class="noun"
 lang="ja-Latn">Shiga</span> prefecture (<span lang="ja">滋賀県八日市市</span>).
 Their logo is a group of three gourds, which is considered to be a lucky symbol.
 
@@ -1865,9 +1865,9 @@ The <span lang="ja-Latn">ginhyō</span> wrapper.
 <span class="noun" lang="ja-Latn">Nippon Yūgi</span>’s <span lang="ja-Latn">kintengu</span> brand.
 {% imageEnd %}
 
-<span class="noun" lang="ja-Latn">Nippon Yūgi</span> (also known as <Noun
+<span class="noun" lang="ja-Latn">Nippon Yūgi</span> (also known as <span class="noun"
 lang="ja-Latn">Nichiyū</span>) was founded in <span class="noun" lang="ja-Latn">Tōkyō</span>
-in 1946. They still exist but no longer appear to produce <Noun
+in 1946. They still exist but no longer appear to produce <span class="noun"
 lang="ja-Latn">Hanafuda</span> cards, instead specializing in tarot. Their
 previous brands included:[@ModernJapaneseWrappers p. 54]
 
@@ -1910,8 +1910,8 @@ Universal also published standard Western decks; this Ace from a “No.
 &amp; C intertwined.
 {% imageEnd %}
 
-The Universal Playing Card Company was founded in 1914, and based in <Noun
-lang="ja-Latn">Ōsaka</span>.[@UniversalInfo] Their maker’s mark on <Noun
+The Universal Playing Card Company was founded in 1914, and based in <span class="noun"
+lang="ja-Latn">Ōsaka</span>.[@UniversalInfo] Their maker’s mark on <span class="noun"
 lang="ja-Latn">Hanafuda</span> decks was a drawstring purse (<span lang="ja">巾
 着</span> <span lang="ja-Latn">kinchaku</span>); elsewhere they used a
 six-pointed star containing “<small>UNIVERSAL</small>” or an interlocked U &amp;
@@ -1924,10 +1924,10 @@ In addition to <span class="noun" lang="ja-Latn">Hanafuda</span>, they produced 
 and Ceki cards for export. In 1935 they exported a total of 10 million
 decks.[@UniversalInfo]
 
-Like other manufacturers, they produced combination <Noun
+Like other manufacturers, they produced combination <span class="noun"
 lang="ja-Latn">Trump-Hana</span> (<span lang="ja">トランプ花</span>) decks, and
 in multiple sizes: the smallest size deck (numbered “<strong>350</strong>”) has
-cards that are much closer in size to that of <Noun
+cards that are much closer in size to that of <span class="noun"
 lang="ja-Latn">Hanafuda</span> than other brands’ combination cards are. A very
 similar deck was published under the brand “Star Playing Cards” (numbered
 “<strong>807</strong>”, with a five-pointed star).
@@ -1942,7 +1942,7 @@ This particular deck is listed as number “350” on the packaging.
 {% image 
     src='Universal_TrumpHana_Extras.jpg'
     alt="" %}
-The extra {% gameref hachi-hachi %}-related cards of Universal’s <Noun
+The extra {% gameref hachi-hachi %}-related cards of Universal’s <span class="noun"
 lang="ja-Latn">Trump-Hana</span> deck. I’m not sure of the significance of the
 “vase” Joker, since usually the Joker has the manufacturer’s name. It could be
 intended as a multilingual pun on “Universal” (<span lang="ja">ユニバーセル
@@ -1981,7 +1981,7 @@ featuring Princess <span class="noun" lang="ja-Latn">Yaegaki</span> (<span lang=
 (and later <span lang="ja-Latn">kabuki</span>) play <cite>24 Paragons of Filial
 Piety</cite> (<span lang="ja">本朝廿四孝</span>, <span lang="ja-Latn">Honchō
 Nijūshikō</span>), who is taking a magical helmet to her lover across frozen
-[Lake <Noun
+[Lake <span class="noun"
 lang="ja-Latn">Suwa</span>](https://en.wikipedia.org/wiki/Lake_Suwa); the <span
 lang="ja-Latn">tanzaku</span> card, which is inscribed <span lang="ja">さゝ𛂜ゆ
 き</span> (<span lang="ja-Latn">sasa no yuki</span>, ‘snow on bamboo’); the
@@ -2066,13 +2066,13 @@ A manufacturer that has a very finely-detailed deck of cards reproduced in
 <span class="noun" lang="ja-Latn">Nihon Goraku</span>’s <span lang="ja-Latn">takejirushi</span> wrapper.
 {% imageEnd %}
 
-<span class="noun" lang="ja-Latn">Nihon Goraku</span> was founded in 1945 as <Noun
+<span class="noun" lang="ja-Latn">Nihon Goraku</span> was founded in 1945 as <span class="noun"
 lang="ja-Latn">Takahashi Shōten</span> (<span lang="ja">高橋商店</span>), was
 renamed <span class="noun" lang="ja-Latn">Nishinihon Koppai</span> (<span lang="ja">西日本骨
 牌</span>) in 1966, and became <span class="noun" lang="ja-Latn">Nihon Goraku</span> in
 1968.[@NihonGoraku] They were based in <span class="noun" lang="ja-Latn">Shinhama</span>,
 [<span class="noun" lang="ja-Latn">Onomichi</span>
-city](https://en.wikipedia.org/wiki/Onomichi,_Hiroshima), <Noun
+city](https://en.wikipedia.org/wiki/Onomichi,_Hiroshima), <span class="noun"
 lang="ja-Latn">Hiroshima</span> (<span lang="ja">広島県尾道市新浜</span>), and
 originally had their cards manufactured by <span class="noun" lang="">Kyōto Karuta</span>.
 Nowadays the company imports musical instruments.
@@ -2099,9 +2099,9 @@ October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<spa
 {% imageEnd %}
 
 <span class="noun" lang="ja-Latn">Nishi&shy;gushi</span> also manufactured board games (such
-as {% gameref gunjin-shogi %}) Some of their decks were manufactured by <Noun
+as {% gameref gunjin-shogi %}) Some of their decks were manufactured by <span class="noun"
 lang="ja-Latn">Nihon Karuta</span>. Their mark was a circled <span
-class="circled" lang="ja">榮</span>, the same as <Noun
+class="circled" lang="ja">榮</span>, the same as <span class="noun"
 lang="ja-Latn">Kyōwadō</span>. Brands included:
 
 * <span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)
@@ -2114,7 +2114,7 @@ The <span lang="ja-Latn">otanoshimi</span> wrapper.
 
 A company about which I know very little. Presumably from the name they were
 based in <span class="noun" lang="ja-Latn">Kyōto</span>. Their mark was a circled <span
-class="circled" lang="ja">榮</span>, the same as <Noun
+class="circled" lang="ja">榮</span>, the same as <span class="noun"
 lang="ja-Latn">Nishi&shy;guchi Shōten</span>. Their brands included:
 
 * <span lang="ja">京寶船</span> (<span lang="ja-Latn">kyō&shy;takarabune</span>, ‘<span class="noun" lang="ja-Latn">Kyōto</span> treasure ship’)
@@ -2134,15 +2134,15 @@ lang="ja-Latn">Nishi&shy;guchi Shōten</span>. Their brands included:
 {% imageEnd %}
 
 For more about <span class="noun" lang="ja-Latn">Kamigataya</span>, see the [history
-article](/articles/cards/japan/hanafuda/art/). Early on, <Noun
-lang="ja-Latn">Kamigataya</span> had decks made (by <Noun
+article](/articles/cards/japan/hanafuda/art/). Early on, <span class="noun"
+lang="ja-Latn">Kamigataya</span> had decks made (by <span class="noun"
 lang="ja-Latn">Nintendō</span>) with their own brand, but they would later sell
 <span class="noun" lang="ja-Latn">Nintendō</span>-branded cards directly. Their maker’s mark
 was <span lang="ja">片&#xe0103;</span> with angle.
 
 In 1914, the company was run by one <span class="noun" lang="ja-Latn">Kataoka Ei</span>
-(<span lang="ja">片岡エイ</span>). (Probably the logo dates from after <Noun
-lang="ja-Latn">Kamigataya</span> was taken over by the <Noun
+(<span lang="ja">片岡エイ</span>). (Probably the logo dates from after <span class="noun"
+lang="ja-Latn">Kamigataya</span> was taken over by the <span class="noun"
 lang="ja-Latn">Kataoka</span> family.)
 
 Their brands included:
@@ -2164,14 +2164,14 @@ Their brands included:
     orgURL="https://beforemario.com",
     copyrightYear=2021,
     license="with-permission" %}
-The <span lang="ja-Latn">miyako nishiki</span> wrapper, manufactured by <Noun
+The <span lang="ja-Latn">miyako nishiki</span> wrapper, manufactured by <span class="noun"
 lang="ja-Latn">Nintendō</span> (credited as “<span class="noun" lang="ja-Latn">F.
 Yamauchi</span>”).
 {% imageEnd %}
 
 ### <img src='/small-images/marukin.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Marukin</span>
 
-<span class="noun" lang="ja-Latn">Marukin</span> was a company based in the city of <Noun
+<span class="noun" lang="ja-Latn">Marukin</span> was a company based in the city of <span class="noun"
 lang="ja-Latn">Sakata</span>, <span class="noun" lang="ja-Latn">Yamagata</span> prefecture
 (<span lang="ja">山形県酒田市</span>). Their mark was a circled <span lang="ja"
 class="circled">金</span>. Brands included:
@@ -2183,7 +2183,7 @@ class="circled">金</span>. Brands included:
 <span class="noun" lang="ja-Latn">Ōtani Shōten</span> was a company based in the town of
 <span class="noun" lang="ja-Latn">Sakurai</span>, in <span class="noun" lang="ja-Latn">Shiki</span>
 district, <span class="noun" lang="ja-Latn">Nara</span> prefecture (<span lang="ja">奈良県磯
-城郡桜井町</span>, now part of [<Noun
+城郡桜井町</span>, now part of [<span class="noun"
 lang="ja-Latn">Sakurai</span>](https://en.wikipedia.org/wiki/Sakurai,_Nara)).
 Their mark was a circled <span lang="ja" class="circled">大</span>. Brands
 included:
@@ -2195,11 +2195,11 @@ included:
 ### <img src='/small-images/marutoku.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Tōhoku Karuta</span> (<span lang="ja">東北骨牌</span>)
 
 <span class="noun" lang="ja-Latn">Tōhoku</span> was a manufacturer based in the city of
-[<Noun
+[<span class="noun"
 lang="ja-Latn">Tendō</span>](https://en.wikipedia.org/wiki/Tend%C5%8D,_Yamagata),
 <span class="noun" lang="ja-Latn">Yamagata</span> prefecture (<span lang="ja">山形県天童市
 </span>). They originally appear to have been a manufacturer (including for
-<span class="noun" lang="ja-Latn">Seieidō</span>), but later outsourced production to <Noun
+<span class="noun" lang="ja-Latn">Seieidō</span>), but later outsourced production to <span class="noun"
 lang="ja-Latn">Tamura Shōgundō</span>. The company seems to still exist in some
 form as [<span class="noun" lang="ja-Latn">Tendon Shogi</span>](http://www.syougi.co.jp/).
 Their manufacturer’s mark was a circled <span class="circled" lang="ja">特
@@ -2216,7 +2216,7 @@ appear to have had a manufacturer’s mark, instead writing their full name on t
 Paulownia card. Their brands included:
 
 * <span lang="ja">戎印</span> (<span lang="ja-Latn">ebisu&shy;jirushi</span>,
-  ‘[<Noun
+  ‘[<span class="noun"
   lang="ja-Latn">Ebisu</span>](https://en.wikipedia.org/wiki/Ebisu_(mythology))
   brand’)
 
@@ -2263,7 +2263,7 @@ lang="ja">川崎又吉</span>).[@Trademarks1905 p. 65]
 {% imageEnd %}
 
 <span class="noun" lang="ja-Latn">Sanjōya</span> was the second company to apply for a
-trademark for <span class="noun" lang="ja-Latn">Hanafuda</span> after [<Noun
+trademark for <span class="noun" lang="ja-Latn">Hanafuda</span> after [<span class="noun"
 lang="ja-Latn">Kamigataya</span>](#kamigataya). Their mark was <span lang="ja">
 上</span> in a square. Another mark they used (for the store itself) was <span
 lang="ja">又</span> under a mountain.

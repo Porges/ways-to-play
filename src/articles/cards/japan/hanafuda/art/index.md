@@ -88,7 +88,7 @@ palace:[@MuseInCompetition pp. 214–217]
 
 > […] Special care was taken on this occasion as many eminent people of refined
 > taste would be attending the event, and so new plants and flowers were
-> carefully chosen and added to the garden. The Chamberlain Minor Captain <Noun
+> carefully chosen and added to the garden. The Chamberlain Minor Captain <span class="noun"
 > lang="ja-Latn">Sukenobu</span> was in charge of the garden, and he had oak
 > logs arranged like a fence and entwined with ivy so that it looked like a
 > cedar forest. He also placed stepping stones here and there so that one could
@@ -134,7 +134,7 @@ higher rank were more likely to win. In some cases, the winner of a round was
 decided by convention, and furthermore, some poems could not lose. The first
 poem presented by the Left team, a poem complimenting the host, or a poem by the
 Emperor himself would <em>at worst</em> result in a draw.[@UtaawaseJudgments p.
-102] At one competition [Emperor <Noun
+102] At one competition [Emperor <span class="noun"
 lang="ja-Latn">Uda</span>](https://en.wikipedia.org/wiki/Emperor_Uda) (<span
 lang="ja">宇多天皇</span>) awarded his own poem a draw, stating “how can an
 imperial poem lose?”[@BrocadeByNight p. 244]
@@ -183,7 +183,7 @@ comparing-competition form into a completely different style of game called
 covering’) that was based upon collecting matching pairs of shells. <span
 lang="ja-Latn">Kai-awase</span> itself died out and there is no record of any
 competitions taking place after the <span class="noun" lang="ja-Latn">Heian</span>
-period.[@JapaneseGamesOfMemory p. 270] However, by the <Noun
+period.[@JapaneseGamesOfMemory p. 270] However, by the <span class="noun"
 lang="ja-Latn">Edo</span> period, the two terms would be conflated, with <span
 lang="ja-Latn">kai-awase</span> being used for the matching game as
 well,[@KaiOi][@JapaneseGamesOfMemory p. 270] and today <span
@@ -231,7 +231,7 @@ those on the floor. Whoever was the first to point out a (successful) match
 would capture both halves of the shell, and the winner was the player who
 collected the most shells.
 
-Early instructional books for women from the <Noun
+Early instructional books for women from the <span class="noun"
 lang="ja-Latn">Muromachi</span> period (1392–1573) include rules that state that
 the game is played with twelve shells,{%fn%}A video showing how this game would
 have been played can be seen
@@ -246,7 +246,7 @@ The monk <span lang="ja-Latn"
 class="proper-noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</a>
 (<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr
 title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in
-Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130] {%fn%}<Noun
+Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130] {%fn%}<span class="noun"
 lang="ja-Latn">Kenkō</span> goes on to apply this strategic advice as part of an
 extended metaphor for good governance and living well: “In all things, do not
 seek for distant advantage. Simply maintain correctly what is close to hand. In
@@ -341,7 +341,7 @@ Detail of the miniature <span lang="ja-Latn">kai-oke</span> in the print.
     alt=""
     license="cc0" %}
 A miniature <span lang="ja-Latn">kai-oke</span> can be seen in this depiction of
-a <span lang="ja-Latn">hina-matsuri</span> set.<br />By [<Noun
+a <span lang="ja-Latn">hina-matsuri</span> set.<br />By [<span class="noun"
 lang="ja-Latn">Okumura
 Masanobu</span>](https://en.wikipedia.org/wiki/Okumura_Masanobu) (<span
 lang="ja">奥村政信</span>, 1686–1764).
@@ -386,20 +386,20 @@ At the moment it is unclear exactly how the <span class="noun" lang="ja-Latn">Ha
 deck was developed from the <span lang="ja-Latn">hana-awase</span>
 cards.{%fn%}I hope to expand on this in future!{%endfn%} It seems that at
 some point an enterprising manufacturer began to produce a stripped-down version
-that Japanese <span class="noun" lang="ja-Latn">Hanafuda</span> scholar <Noun
+that Japanese <span class="noun" lang="ja-Latn">Hanafuda</span> scholar <span class="noun"
 lang="ja-Latn">Ebashi Takashi</span> (<span lang="ja">江橋崇</span>) calls the
 <span class="noun" lang="ja-Latn">Musashino</span> (<span lang="ja">武蔵野</span>) deck.
 
 ### Banning & Legalization
 
 Some time after its introduction, <span class="noun" lang="ja-Latn">Hanafuda</span> games
-were restricted as part of a total ban on gambling introduced during the <Noun
-lang="ja-Latn">Kansei</span> Reforms{%fn%}During the <Noun
+were restricted as part of a total ban on gambling introduced during the <span class="noun"
+lang="ja-Latn">Kansei</span> Reforms{%fn%}During the <span class="noun"
 lang="ja-Latn">Kansei</span> Reforms, gambling was prohibited by the <span
 lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira
 Sadanobu on the 12th of January, 1788.[@SatireWithinKibyōshi p. 44]{%endfn%}
 (1787–1793). This ban was to remain in place for nearly 200 years until, in
-1886, a bookstore owner in <span class="noun" lang="ja-Latn">Ōsaka</span> named <Noun
+1886, a bookstore owner in <span class="noun" lang="ja-Latn">Ōsaka</span> named <span class="noun"
 lang="ja-Latn">Maeda Kihei</span> (<span lang="ja">前田喜兵衛</span>) decided to
 open a store selling  <span class="noun" lang="ja-Latn">Hanafuda</span>.
 
@@ -418,14 +418,14 @@ illegal, and he was unable to convince news&shy;papers to print his
 advertisements. In order to prove himself correct, he came up with a cunning
 plan: he officially petitioned the <span class="noun" lang="ja-Latn">Tōkyō</span> police to
 ban the sale of <span class="noun" lang="ja-Latn">Hana&shy;fuda</span>. His petition was
-declined, the police stating that the sale of <Noun
+declined, the police stating that the sale of <span class="noun"
 lang="ja-Latn">Hana&shy;fuda</span> was legal, and later that month he opened
 his first shop in the <span class="noun" lang="ja-Latn">Yagenbori</span> neighbourhood of
-[Chūō](https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo) district in <Noun
+[Chūō](https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo) district in <span class="noun"
 lang="ja-Latn">Tōkyō</span> (<span lang="ja">中央区薬研堀町</span>, now part of
 <span class="noun" lang="ja-Latn">Higashi–Nihonbashi</span>).  The shop was named “{%
 pronounce lang="ja-Latn" word="Kamigataya" noun=true pronouncer="poyotan"
-file="pronunciation_ja_上方屋.mp3" %}” (<span lang="ja">上方屋</span>, ‘<Noun
+file="pronunciation_ja_上方屋.mp3" %}” (<span lang="ja">上方屋</span>, ‘<span class="noun"
 lang="ja-Latn">Kyōto</span> region store’).[@EbashiHanafuda pp.
 189–192][@OpeningKamigataya]
 
@@ -446,15 +446,15 @@ dice celebrating together.
 {% imageEnd %}
 
 <span class="noun" lang="ja-Latn">Kamigataya</span> was thus the first store to openly sell
-<span class="noun" lang="ja-Latn">Hanafuda</span>. A month later, <Noun
-lang="ja-Latn">Maeda</span> opened a second branch of <Noun
+<span class="noun" lang="ja-Latn">Hanafuda</span>. A month later, <span class="noun"
+lang="ja-Latn">Maeda</span> opened a second branch of <span class="noun"
 lang="ja-Latn">Kamigataya</span> in <span class="noun" lang="ja-Latn">Muromachi</span>
 district (<span lang="ja">室町</span>), and this was quickly followed by a third
 store in <span class="noun" lang="ja-Latn">Ginza</span> (<span lang="ja">銀座</span>) in
 March. To promote the opening of the <span class="noun" lang="ja-Latn">Ginza</span> store,
-<span class="noun" lang="ja-Latn">Maeda</span> also staged a <Noun
+<span class="noun" lang="ja-Latn">Maeda</span> also staged a <span class="noun"
 lang="ja-Latn">Hanafuda</span>-themed play in March 1886, which was held at the
-<span class="noun" lang="ja-Latn">Chitose</span> theatre (now called the [<Noun
+<span class="noun" lang="ja-Latn">Chitose</span> theatre (now called the [<span class="noun"
 lang="ja-Latn">Meiji-za</span>](https://en.wikipedia.org/wiki/Meiji-za)).
 
 {% image cram=true src='Play-Left.jpg;Play-Right.jpg' alt=";" 
@@ -465,7 +465,7 @@ Advertisement for <span class="noun" lang="ja-Latn">Maeda</span>’s play entitl
 lang="ja">花合四季盃</cite> (“Flower-matching four seasons sake cup”). The
 background shows an early form of <span class="noun" lang="ja-Latn">Hanafuda</span> deck. On
 left is [Onoe Kikugorō V](https://en.wikipedia.org/wiki/Onoe_Kikugor%C5%8D_V)
-(<span lang="ja">五代目尾上菊五郎</span>), on right [<Noun
+(<span lang="ja">五代目尾上菊五郎</span>), on right [<span class="noun"
 lang="ja-Latn">Ichikawa Kuzō
 III</span>](https://ja.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%9C%98%E8%94%B5_(7%E4%BB%A3%E7%9B%AE))
 (<span lang="ja">三代目市川九蔵</span>) as <span class="noun" lang="ja-Latn">Ono no
@@ -474,22 +474,22 @@ Michikaze</span>.
 
 In addition to the retail stores, a specialized wholesale store was opened in
 the {% pronounce lang="ja-Latn" noun=true word="Ningyōchō" pronouncer="keto2204"
-file="pronunciation_ja_人形町通り.mp3" %} street in the <Noun
-lang="ja-Latn">Sumi&shy;yoshi</span> neigh&shy;bour&shy;hood,{%fn%}<Noun
-lang="ja-Latn">Sumiyoshi-chō</span> was an <Noun
+file="pronunciation_ja_人形町通り.mp3" %} street in the <span class="noun"
+lang="ja-Latn">Sumi&shy;yoshi</span> neigh&shy;bour&shy;hood,{%fn%}<span class="noun"
+lang="ja-Latn">Sumiyoshi-chō</span> was an <span class="noun"
 lang="ja-Latn">Edo</span>-period red light district and the birthplace of the
-[<Noun
+[<span class="noun"
 lang="ja-Latn">Sumiyoshi-kai</span>](https://en.wikipedia.org/wiki/Sumiyoshi-kai)
 <span lang="ja-Latn">yakuza</span> organization.[@Sumiyoshikai] The area was
 destroyed along with most of the rest of <span class="noun" lang="ja-Latn">Nihonbashi</span>
 in the Great <span class="noun" lang="ja-Latn">Kantō</span> Earthquake of 1923; the location
-where <span class="noun" lang="ja-Latn">Sumiyoshi-chō</span> existed is now part of <Noun
+where <span class="noun" lang="ja-Latn">Sumiyoshi-chō</span> existed is now part of <span class="noun"
 lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</span> (<span lang="ja">人形町二丁
-目</span>).{%endfn%} in <span class="noun" lang="ja-Latn">Tōkyō</span>’s <Noun
+目</span>).{%endfn%} in <span class="noun" lang="ja-Latn">Tōkyō</span>’s <span class="noun"
 lang="ja-Latn">Nihonbashi</span> district (<span lang="ja">日本橋住吉町人形町通
 り</span>). <span class="noun" lang="ja-Latn">Maeda</span> later also started other stores
-with names that punned on the original store, such as <Noun
-lang="ja-Latn">Nakagataya</span> (<span lang="ja">中方屋</span>) and <Noun
+with names that punned on the original store, such as <span class="noun"
+lang="ja-Latn">Nakagataya</span> (<span lang="ja">中方屋</span>) and <span class="noun"
 lang="ja-Latn">Shimogataya</span> (<span lang="ja">下方屋
 </span>).[@OpeningKamigataya]
 
@@ -499,9 +499,9 @@ lang="ja-Latn">Shimogataya</span> (<span lang="ja">下方屋
     size="wide"
     alt="An image of a Japanese street with lots of signs and flags for stores"
     license="cc0" %}
-In this early 20th century postcard, another branch of <Noun
+In this early 20th century postcard, another branch of <span class="noun"
 lang="ja-Latn">Kamigataya</span> can be seen on the left, identified by the
-large die; this one is in <span class="noun" lang="ja-Latn">Motomachi</span> in <Noun
+large die; this one is in <span class="noun" lang="ja-Latn">Motomachi</span> in <span class="noun"
 lang="ja-Latn">Yokohama</span>.
 {% imageEnd %}
 
@@ -510,7 +510,7 @@ lang="ja-Latn">Yokohama</span>.
     src='Kamigataya-Ginza.jpg'
     alt="A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda."
     license="cc0" %}
-A newspaper advertisement depicting the outside of the <Noun
+A newspaper advertisement depicting the outside of the <span class="noun"
 lang="ja-Latn">Ginza</span> <span class="noun" lang="ja-Latn">Kamigataya</span> store, 1889.
 The large die was added to the store in December 1886.
 {% imageEnd %}
@@ -518,15 +518,15 @@ The large die was added to the store in December 1886.
     src='Nakagataya.jpg'
     alt="A Japanese storefront, open to the street, with a large die shop marker."
     license="cc0" %}
-The storefront of <span class="noun" lang="ja-Latn">Nakagataya</span>, as shown on a <Noun
+The storefront of <span class="noun" lang="ja-Latn">Nakagataya</span>, as shown on a <span class="noun"
 lang="ja-Latn">Hyakunin Isshu</span> box.
 {% imageEnd %}
 </div>
 
 Once the viability of <span class="noun" lang="ja-Latn">Hanafuda</span> had been pro&shy;ven,
 other manufacturers appeared quickly: the com&shy;pany that was later to become
-<span class="noun" lang="ja-Latn">Nin&shy;tendo</span> began producing <Noun
-lang="ja-Latn">Hanafuda</span> cards in 1889. Other companies such as <Noun
+<span class="noun" lang="ja-Latn">Nin&shy;tendo</span> began producing <span class="noun"
+lang="ja-Latn">Hanafuda</span> cards in 1889. Other companies such as <span class="noun"
 lang="ja-Latn">Ōishi Tengudō</span> claim to have been operating discreetly
 during the pro&shy;hi&shy;bition period; in their case behind the doors of a
 rice merchant named <span class="noun" lang="ja-Latn">Minatoya</span> (<span lang="ja">湊屋
@@ -535,7 +535,7 @@ rice merchant named <span class="noun" lang="ja-Latn">Minatoya</span> (<span lan
 ### Changing Attitudes
 
 Even after prohibition had ended, <span class="noun" lang="ja-Latn">Hanafuda</span> retained
-a poor reputation, and gambling with the cards remained illegal. In 1892, <Noun
+a poor reputation, and gambling with the cards remained illegal. In 1892, <span class="noun"
 lang="ja-Latn">Korekata Kojima</span> (<span lang="ja">児島惟謙</span>,
 1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院
 </span> <span lang="ja-Latn">daishinin</span>), was accused along with five
@@ -601,35 +601,35 @@ Apparently a family playing with <span class="noun" lang="ja-Latn">Hanafuda</spa
 {% imageEnd %}
 </div>
 
-{%aside%}<span class="noun" lang="ja-Latn">Murai</span>’s main competitor was <Noun
-lang="ja-Latn">Iwaya</span> (<span lang="ja-Latn">岩谷商会</span>), run by <Noun
+{%aside%}<span class="noun" lang="ja-Latn">Murai</span>’s main competitor was <span class="noun"
+lang="ja-Latn">Iwaya</span> (<span lang="ja-Latn">岩谷商会</span>), run by <span class="noun"
 lang="ja-Latn">Iwaya Matsuhei</span> (<span lang="ja">岩谷松平</span>), who had
 a more nationalistic outlook. Interestingly, the iconography of their cigarette
-brands overlaps significantly with that of later <Noun
+brands overlaps significantly with that of later <span class="noun"
 lang="ja-Latn">Hanafuda</span> brands — some examples include <span
 lang="ja-Latn">dai&shy;tengu</span> (<span lang="ja">大天狗</span> “large
 tengu”), <span class="noun" lang="ja-Latn">Fuji</span> (<span lang="ja">冨士</span>), and
 <span lang="ja-Latn">hinode</span> (<span lang="ja">日乃出</span>
-“sunrise”) — and their chief logo was that of a red <Noun
-lang="ja-Latn">Tengu</span>, which is also strongly associated with <Noun
+“sunrise”) — and their chief logo was that of a red <span class="noun"
+lang="ja-Latn">Tengu</span>, which is also strongly associated with <span class="noun"
 lang="ja-Latn">Hanafuda</span>. It is unclear to me whether there is any real
 link here or if the coincidence simply reflects the conventionality of
 traditional Japanese art.{%endaside%}
 
 Another popularizing force during this period was that of cigarette
-manufacturers who began to include <Noun
+manufacturers who began to include <span class="noun"
 lang="ja-Latn">Hanafuda</span>-patterned cards in cigarette packages as
 collectible items. The manufacturer <span class="noun" lang="ja-Latn">Murai</span> Brothers
-(<span lang="ja">村井兄弟商會</span>, founded by the “tobacco king” <Noun
+(<span lang="ja">村井兄弟商會</span>, founded by the “tobacco king” <span class="noun"
 lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) in
 <span class="noun" lang="ja-Latn">Kyōto</span> in 1892) included tobacco cards which combined
-<span class="noun" lang="ja-Latn">Hanafuda</span> with Western playing cards. <Noun
+<span class="noun" lang="ja-Latn">Hanafuda</span> with Western playing cards. <span class="noun"
 lang="ja-Latn">Murai</span> was a progressive company that enthusiastically
 embraced Westernization across the whole of their business. They operated in
 conjunction with Western tobacco companies such as the British-American Tobacco
 Company, and many of their cigarette brands bore English titles. Where his
 competitor <span class="noun" lang="ja-Latn">Iwaya</span> would name a brand <span lang="ja">
-日乃出</span> (<span lang="ja-Latn">hinode</span> “sunrise”), <Noun
+日乃出</span> (<span lang="ja-Latn">hinode</span> “sunrise”), <span class="noun"
 lang="ja-Latn">Murai</span> used the English name “Sunshine”.
 
 In 1899, <span class="noun" lang="ja-Latn">Murai</span> formed the subsidiary “Tōyō
@@ -644,7 +644,7 @@ early cards are often imitations of those produced by such US companies as the
 National Card Company which had been merged with the United States Playing-card
 Company in 1894.[@WOPCNCC]
 
-In 1904, the Japanese government nationalized{%fn%}<Noun
+In 1904, the Japanese government nationalized{%fn%}<span class="noun"
 lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of
 the industry and later founded a bank, among many other
 enterprises.[@JapanInTheTaishoEra p. 632]{%endfn%} the manufacture of all
@@ -658,9 +658,9 @@ was taken over by British-American Tobacco.[@TarHeel p. 362]
     src="Murai1.jpg;Murai2.jpg;Murai3.jpg;Murai4.jpg;Murai5.jpg;MuraiBack1.jpg;MuraiBack2.jpg;MuraiBack3.jpg;MuraiBack4.jpg;MuraiBack5.jpg"
     alt='A tobacco card with a maple and tanzaku pattern, along with the 10 of diamonds.;A tobacco card with the moon bright and the 8 of hearts.;A tobacco card with the wisteria tanzaku and the 4 of hearts.A tobacco card with maple leaves drifting on water and the 10 of spades.A tobacco card with the November swallow and the King of hearts.;;;;;;;' 
     %}
-Fronts and backs of combination tobacco cards produced by <Noun
+Fronts and backs of combination tobacco cards produced by <span class="noun"
 lang="ja-Latn">Murai</span> Brothers, prior to 1904. The hand-written markings
-on the backs possibly indicate that they were adapted to be used as <Noun
+on the backs possibly indicate that they were adapted to be used as <span class="noun"
 lang="ja-Latn">Iroha</span> cards.
 {% imageEnd %}
 
@@ -681,7 +681,7 @@ lang="ja-Latn">sen</span> (<span lang="ja">銭</span>) was a unit of currency
 representing 1⁄100 of a <span lang="ja-Latn">yen</span>.{%endfn%} in a time
 when cheap <span class="noun" lang="ja-Latn">Hanafuda</span> decks could be had for as little
 as 2–3 <span lang="ja-Latn">sen</span>. The effect on card manufacturers was
-“dire”, as Rebecca Salter puts it.[@PopularJapanesePrints p. 186] <Noun
+“dire”, as Rebecca Salter puts it.[@PopularJapanesePrints p. 186] <span class="noun"
 lang="ja-Latn">Ebashi</span> states that the law led to the closure of many
 small producers, and made it much harder for new manufacturers to enter the
 industry; both due to the tax itself as well as onerous record-keeping and
@@ -693,7 +693,7 @@ lang="ja">地方札</span> <span lang="ja-Latn">chihōfuda</span>), whose origin
 small-time, manufacturers had failed due to the new taxation law.[@NintendoHistory]
 
 By the mid to late 20th century, interest in the game was waning. A poll by
-Japan’s Cabinet Office in 1956 indicated that only 9% of people played <Noun
+Japan’s Cabinet Office in 1956 indicated that only 9% of people played <span class="noun"
 lang="ja-Latn">Hanafuda</span>, compared with 28% who played with Western
 playing cards.[@CabinetOfficeEntertainment]
 
@@ -725,16 +725,16 @@ often just of the cards themselves, focusing on their æsthetic value.
 
 ## The Art of the Cards
 
-The culture of the <span class="noun" lang="ja-Latn">Edo</span> period in which <Noun
+The culture of the <span class="noun" lang="ja-Latn">Edo</span> period in which <span class="noun"
 lang="ja-Latn">Hanafuda</span> cards first appeared was heavily
-in&shy;flu&shy;enced by the aristocratic culture of the earlier <Noun
+in&shy;flu&shy;enced by the aristocratic culture of the earlier <span class="noun"
 lang="ja-Latn">Heian</span> period. As such, the artwork on the cards abounds
 with references to <span class="noun" lang="ja-Latn">Heian</span> period literature,
 festivals, and artistic tropes:
 
 <blockquote class="blockquote">
 
-With the exception of the peony, which entered the poetic canon in the <Noun
+With the exception of the peony, which entered the poetic canon in the <span class="noun"
 lang="ja-Latn">Edo</span> period, all the images are from classical poetry of
 the <span class="noun" lang="ja-Latn">Heian</span> period and reflect urban commoners’
 knowledge of the poetic and cultural associations of the months.[@FourSeasons
@@ -846,7 +846,7 @@ The <span class="noun" lang="ja-Latn">Mushi-bana</span> (<span lang="ja">虫花<
 flowers’) deck is a variant that contains only ten months, as it lacks the sixth
 (peony) and seventh (bush clover). It is especially used for playing the game of
 the same name, <span class="noun" lang="ja-Latn">Mushi</span> (‘insects’). It is sometimes
-described as a shortened version of a standard <Noun
+described as a shortened version of a standard <span class="noun"
 lang="ja-Latn">Hachihachi</span> deck, but in reality it originated as its own
 regional pattern.
 
@@ -871,7 +871,7 @@ silver in various patterns.
 {% image
     src='EchigoBana.jpg'
     alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details." %}
-The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern, by <Noun
+The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern, by <span class="noun"
 lang="ja-Latn">Ōishi Tengudō</span>.
 {% imageEnd %}
 
@@ -879,7 +879,7 @@ Some of the <span lang="ja-Latn">kasu</span> cards also carry short poems (<span
 lang="ja">短歌</span> {%pronounce pronouncer="akitomo" word="tanka" lang="ja-Latn"
  file="pronunciation_ja_短歌.mp3" %}). Poetry is a common sight on traditional
 Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints
-above — and often provides more context to the images. The poems of the <Noun
+above — and often provides more context to the images. The poems of the <span class="noun"
 lang="ja-Latn">Echigo-bana</span> will be examined in more detail below.
 
 ### <span class="noun" lang="ja-Latn">Echigo-kobana</span>
@@ -926,16 +926,16 @@ This is another regional pattern called {% pronounce lang="ja-Latn"
 word="Awa­-bana" pronouncer="poyotan" file="pronunciation_ja_阿波花.mp3" %}
 (<span lang="ja">阿波花</span>) or {% pronounce lang="ja-Latn"
 word="Kintoki­-bana" pronouncer="poyotan" file='pronunciation_ja_金時花.mp3' %}
-(<span lang="ja">金時花</span>). It originated in <Noun
-lang="ja-Latn">Awa</span> province, in what is now <Noun
+(<span lang="ja">金時花</span>). It originated in <span class="noun"
+lang="ja-Latn">Awa</span> province, in what is now <span class="noun"
 lang="ja-Latn">Tokushima</span> prefecture.
 
-Like the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern, some of the <Noun
+Like the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern, some of the <span class="noun"
 lang="ja-Latn">Awa-­bana</span> carry poems (in fact, they carry the same
 poems). The deck also contains an extra card which features the titular {%
 pronounce noun=true lang="ja-Latn" pronouncer="renad"
 file='pronunciation_ja_kintoki.mp3' word="Kintoki" %} (<span lang="ja">金時
-</span>), [a legendary strong-boy also known as <Noun
+</span>), [a legendary strong-boy also known as <span class="noun"
 lang="ja-Latn">Kintarō</span>](https://en.wikipedia.org/wiki/Kintar%C5%8D).
 
 {% image 
@@ -947,7 +947,7 @@ The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <span clas
 ### <span class="noun" lang="ja-Latn">Dairen-bana</span>
 
 <span class="noun" lang="ja-Latn">Dairen-bana</span> (<span lang="ja-Latn">大連花</span>) is
-an extinct regional pattern from city of [<Noun
+an extinct regional pattern from city of [<span class="noun"
 lang="zh-Latn">Dalian</span>](https://en.wikipedia.org/wiki/Dalian) (<span
 lang="zh">大连市</span>) in China. It dates from the era of the [Kwangtung
 Leased Territory](https://en.wikipedia.org/wiki/Kwantung_Leased_Territory), when
@@ -971,7 +971,7 @@ Three cards showing the different backgrounds for each type of <span lang="ja-La
 
 In addition to the above, there are also many modern revisions or novelty decks
 that do not conform to any one of the traditional patterns. More information and
-examples of these can be found in the [article about new <Noun
+examples of these can be found in the [article about new <span class="noun"
 lang="ja-Latn">Hanafuda</span>
 manufacturers](/articles/cards/japan/hanafuda/new-manufacturers/).
 
@@ -1020,7 +1020,7 @@ lang="ja-Latn">kasu</span> cards.
     originalUrl="https://collections.mfa.org/objects/30805/kimono-uchikake",
     orgAbbr="MFA", orgName="Museum of Fine Arts Boston"
     license='cc0' %}
-An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <Noun
+An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <span class="noun"
 lang="ja-Latn">Hōrai</span> pattern: plum and pine trees with cranes, atop a
 large turtle.
 {% imageEnd %}
@@ -1029,7 +1029,7 @@ The first month is represented by pine trees (<span lang="ja">松</span> {%
 pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file="pronunciation_ja_松.mp3"
  %}). The bright card shows a crane and pine trees, with the sun rising
 in the background. Both the crane and the pine are symbols of longevity, so they
-are a common combination in Japanese art; the mythical [Mount <Noun
+are a common combination in Japanese art; the mythical [Mount <span class="noun"
 lang="ja-Latn">Hōrai</span>](https://en.wikipedia.org/wiki/Mount_Penglai),
 dwelling-place of immortals, is depicted as wooded with pine trees and populated
 by cranes.
@@ -1093,11 +1093,11 @@ lang="ja-Latn">urasu</span>, or sometimes simply <span lang="ja">正月/初月
 In the <span lang="ja-Latn">Echigo-bana</span> pattern, the <span
 lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span>
 composed by <span class="noun" lang="ja-Latn">[Mina­moto no
-Mune­yuki](https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki)</span>{%fn%}<Noun
+Mune­yuki](https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki)</span>{%fn%}<span class="noun"
 lang="ja-Latn">Mina­moto no Mune­yuki</span> (<abbr title="died">d.</abbr> 983)
 was a poet of the Heian period, and named one of the ‘Thirty-Six Immortals of
 Poetry’.{%endfn%} (<span lang="ja">源宗于</span>) at a poetry competition
-organized by the Empress during the reign of Emperor <Noun
+organized by the Empress during the reign of Emperor <span class="noun"
 lang="ja-Latn">Uda</span> . It is featured as Poem 24 in the ‘Spring’ section of
 the {% pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn"
 file='pronunciation_ja_古今和歌集.mp3' noun=true %} (<cite lang="ja">古今和歌集
@@ -1190,7 +1190,7 @@ after 759).[@FourSeasons loc. 978]
 
 Despite being a tree introduced from China, the plum blossom was the favoured
 flower in poetry and art during the <span class="noun" lang="ja-Latn">Nara</span> period; the
-native cherry blossom would only become more popular during the <Noun
+native cherry blossom would only become more popular during the <span class="noun"
 lang="ja-Latn">Heian</span> period:[@FourSeasons loc. 997] after a famous plum
 tree planted by Emperor <span class="noun" lang="ja-Latn">Kanmu</span> at the imperial palace
 had died, Emperor <span class="noun" lang="ja-Latn">Ninmyō</span> replaced it with a cherry
@@ -1206,10 +1206,10 @@ Sutra](https://en.wikipedia.org/wiki/Lotus_Sutra) (<span lang="ja">法華経</sp
 considered to announce the beginning of spring:
 
 {%aside%}
-This is Poem 14 from the ‘Spring 1’ section of the <Noun
+This is Poem 14 from the ‘Spring 1’ section of the <span class="noun"
 lang="ja-Latn">Kokinshū</span>. It was composed by [<span class="noun" lang="ja-Latn">Ōe no
 Chisato</span>](https://en.wikipedia.org/wiki/%C5%8Ce_no_Chisato) (<span
-lang="ja">大江千里</span>) during a competition in the <Noun
+lang="ja">大江千里</span>) during a competition in the <span class="noun"
 lang="ja-Latn">Kanpyō</span> era (889–898).
 {%endaside%}
 
@@ -1306,8 +1306,8 @@ lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span
 lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are
 references to the {% gameref hachi-hachi %} <span lang="ja-Latn">yaku</span>
 ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
-{%endfn%} which is a sobriquet for the mountainous area of <Noun
-lang="ja-Latn">Yoshino</span> (<span lang="ja">吉野</span>) in <Noun
+{%endfn%} which is a sobriquet for the mountainous area of <span class="noun"
+lang="ja-Latn">Yoshino</span> (<span lang="ja">吉野</span>) in <span class="noun"
 lang="ja-Latn">Nara</span> prefecture, famous for its cherry blossoms. The term
 <span lang="ja-Latn">miyoshino</span> is [often used to refer to this
 location](http://www.wakapoetry.net/?s=miyosino) in the imperial poetry
@@ -1412,13 +1412,13 @@ also known as the ‘two-season plant’ (<span lang="ja">二季草</span> <span
 lang="ja-Latn">niki&shy;sou</span>). Like the bush warbler and spring, the first
 cry of the cuckoo was considered to announce the beginning of summer. By the
 time of the <span class="noun" lang="ja-Latn">Edo</span> period this was perhaps more of a
-poetic dream than reality; the poet [<Noun
+poetic dream than reality; the poet [<span class="noun"
 lang="ja-Latn">Buson</span>](https://en.wikipedia.org/wiki/Yosa_Buson) remarked
 that he had only heard the bird twice, despite living in Kyoto for 20
 years.[@TheClassicTraditionOfHaiku p. 56]
 
 The cuckoo swooping in front of the moon is a common motif in Japanese art. It
-is tempting to claim that this may be a reference to the tale of <Noun
+is tempting to claim that this may be a reference to the tale of <span class="noun"
 lang="ja-Latn">Yorimasa</span> from the <span class="noun" lang="ja-Latn">Heike
 Monogatari</span>,[@HeikeMonogatari pp. 161–3] but the oldest decks do not have
 a moon on this card.
@@ -1431,7 +1431,7 @@ a moon on this card.
 {% imageEnd %}
 
 The <span lang="ja-Latn">tanka</span> on the <span lang="ja-Latn">kasu</span>
-cards is similar to Poem 135 from the Summer section of the <Noun
+cards is similar to Poem 135 from the Summer section of the <span class="noun"
 lang="ja-Latn">Kokinshū</span>,{%fn%}The poem on the card differs slightly in
 that the last line starts with <span lang="ja-Latn">ima ya</span> <span
 lang="ja">今や</span> instead of <span lang="ja-Latn">itu ka</span> <span
@@ -1485,7 +1485,7 @@ pronouncer="poyotan" word="yatsu&shy;hashi" lang="ja-Latn"
 file="pronunciation_ja_八橋.mp3" %}) featured in an episode of the [<cite>Tales
 of Ise</cite>](https://en.wikipedia.org/wiki/The_Tales_of_Ise) (<cite lang="ja">
 伊勢物語</cite> <span lang="ja-Latn">Ise Monogatari</span>), in which the
-unnamed protagonist{%fn%}Traditionally this is presumed to be the poet [<Noun
+unnamed protagonist{%fn%}Traditionally this is presumed to be the poet [<span class="noun"
 lang="ja-Latn">Ariwara no
 Narihira</span>](https://en.wikipedia.org/wiki/Ariwara_no_Narihira) (<span
 lang="ja">在原 業平</span>).{%endfn%} of the story comes across a braided river
@@ -1525,7 +1525,7 @@ this scene, the iris and the planked bridge have a long association in Japan.
     perRow=2
     license='cc0' %}
 <cite>Irises at <span class="noun" lang="ja-Latn">Yatsuhashi</span></cite><br /><cite
-lang="ja">八橋図屏風</cite><br />A pair of screens by the artist <Noun
+lang="ja">八橋図屏風</cite><br />A pair of screens by the artist <span class="noun"
 lang="ja-Latn">Ogata Kōrin</span> (<span lang="ja">尾形光琳</span>, 1658–1716)
 {% imageEnd %}
 
@@ -1618,7 +1618,7 @@ lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.
     src="hagi_temple.jpg"
     license="cc0"
     alt="Under a full moon, figures walk amongst flowerbeds in a temple courtyard." %}
-People viewing <span lang="ja-Latn">hagi</span> flowers at [<Noun
+People viewing <span lang="ja-Latn">hagi</span> flowers at [<span class="noun"
 lang="ja-Latn">Taiyū</span> temple](https://en.wikipedia.org/wiki/Taiy%C5%AB-ji)
 (<span lang="ja">太融寺</span>), by <span class="noun" lang="ja-Latn">Hasegawa
 Sadanobu</span>  (<span lang="ja">長谷川貞信</span>).
@@ -1811,7 +1811,7 @@ festival:[@ChigoJapanese pp. 958–9] King <span class="noun" lang="zh-Latn">Mu<
 mountain. Following the king’s advice, he recites passages of the Buddhist Lotus
 Sūtra, and writes them upon on chrysanthemum flowers. Dew collecting on the
 flowers drips into the river from which he drinks. Eight hundred years later he
-has not aged a day, and he returns to court as the legendary <Noun
+has not aged a day, and he returns to court as the legendary <span class="noun"
 lang="zh-Latn">Peng Zu</span> (<span lang="zh">彭祖</span>) during the reign of
 King <span class="noun" lang="zh-Latn">Wen</span> (<span lang="zh">周文王</span>, <abbr
 title="reigned">r.</abbr> 1112–1050 <abbr class="initialism">BCE</abbr>), who
@@ -1837,9 +1837,9 @@ file="pronunciation_ja_寿.mp3" %}), meaning ‘long life’, written on it in a
 cursive script.
 
 A poem by <span class="noun" lang="ja-Latn">Bashō</span> commemorates the evening of the 9th
-day of the 9th month, in 1691. He was staying at the temple <Noun
+day of the 9th month, in 1691. He was staying at the temple <span class="noun"
 lang="ja-Latn">Gichu-ji</span> (<span lang="ja">義仲寺</span>) in a hermitage
-known as ‘name&shy;less hut’ (<span lang="ja">無名庵</span> <Noun
+known as ‘name&shy;less hut’ (<span lang="ja">無名庵</span> <span class="noun"
 lang="ja-Latn">Mumyō-an</span>), when his disciple <span class="noun" lang="ja-Latn">Kawai
 Otokuni</span> (<span lang="ja">河合乙州</span>) came to visit him with a gift:
 
@@ -1867,7 +1867,7 @@ Chrysanthemums were also prized for their secular beauty, and collectors
 competed to breed particularly beautiful varieties.
 
 The chrysanthemum is also used as a symbol by the Emperor of Japan. It was first
-adopted by [Emperor <Noun
+adopted by [Emperor <span class="noun"
 lang="ja-Latn">Go-Toba</span>](https://en.wikipedia.org/wiki/Emperor_Go-Toba)
 (<abbr title="reigned">r.</abbr> 1183–1198), but was not restricted to this
 purpose until the <span class="noun" lang="ja-Latn">Meiji</span> period. In modern times a
@@ -1939,7 +1939,7 @@ This <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco card shows 
 While the leaves on the <span lang="ja-Latn">tane</span> card are attached to a
 tree, the leaves on the other cards appear to be floating on water. This could
 be a reference to the <span class="noun" lang="ja-Latn">Tatsuta</span> river (<span
-lang="ja">竜田川</span>), which was as famous for autumn foliage as <Noun
+lang="ja">竜田川</span>), which was as famous for autumn foliage as <span class="noun"
 lang="ja-Latn">Yoshino</span> was for cherry blossoms in the
 spring.[@FourSeasons loc. 1756] A anonymous poem from the <cite>Kokinshū</cite>
 (V: 283) celebrates the leaves floating on its surface:
@@ -1967,7 +1967,7 @@ with <span lang="ja-Latn">tanka</span>.
 
 The poem on the <span lang="ja-Latn">Echigo-bana</span> <span
 lang="ja-Latn">kasu</span> cards is Poem 437 from the ‘Autumn 2’ section of the
-<span class="noun" lang="ja-Latn">Shin Kokinshū</span>. It was composed by <Noun
+<span class="noun" lang="ja-Latn">Shin Kokinshū</span>. It was composed by <span class="noun"
 lang="ja-Latn">Fujiwara no Ietaka</span> (<span lang="ja">藤原家隆</span>,
 1158–1237), upon the finalization of the poetry collection:[@MakingShinkokinshu
 p. 318]
@@ -2018,10 +2018,10 @@ Tengudō</span>[@OishiSadakuro]) that the running “Umbrella Man” has
 its origins in the character of <span class="noun" lang="ja-Latn">Sadakurō</span> from the
 <span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal
 Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite
-lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <Noun
+lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <span class="noun"
 lang="ja-Latn">Ebashi</span> points out,[@EbashiSadakuro] the <span
 lang="ja-Latn">hana-awase</span> deck pictured at the top of this article
-contains an “Umbrella Man”. This precludes the <Noun
+contains an “Umbrella Man”. This precludes the <span class="noun"
 lang="ja-Latn">Sadakurō</span> origin story, as the play was written some 40
 years after that deck was produced.
 
@@ -2081,7 +2081,7 @@ In this <span class="noun" lang="ja-Latn">Ōtsu-e</span>, <span class="noun" lan
 attempts to recover his drum.
 {% imageEnd %}
 
-In some older decks, the lightning card depicts a scene derived from [<Noun
+In some older decks, the lightning card depicts a scene derived from [<span class="noun"
 lang="ja-Latn">Ōtsu-e</span> prints](https://en.wikipedia.org/wiki/Otsu-e)
 (<span lang="ja">大津絵</span>), where <span class="noun" lang="ja-Latn">Raijin</span> is
 attempting to ‘fish’ back a drum that he has dropped. Remnants of this design
@@ -2160,13 +2160,13 @@ This is a tree that flowers in spring, and has large heart-shaped leaves.
 
 The paulownia as a symbol was originally used by the imperial family and ranked
 second only to the chrysanthemum. Use of the paulownia was granted by [Emperor
-<Noun
+<span class="noun"
 lang="ja-Latn">Go-Daigo</span>](https://en.wikipedia.org/wiki/Emperor_Go-Daigo)
 to [<span class="noun" lang="ja-Latn">Ashikaga
 Takauji</span>](https://en.wikipedia.org/wiki/Ashikaga_Takauji), whose
 descendants used it until the end of the [<span class="noun" lang="ja-Latn">Ashikaga</span>
 shogunate](https://en.wikipedia.org/wiki/Ashikaga_shogunate) in 1573. After
-this, [Emperor <Noun
+this, [Emperor <span class="noun"
 lang="ja-Latn">Go-Yōzei</span>](https://en.wikipedia.org/wiki/Emperor_Go-Y%C5%8Dzei)
 granted use of the crest to [<span class="noun" lang="ja-Latn">Toyotomi
 Hideyoshi</span>](https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi) (1537–1598),
@@ -2184,7 +2184,7 @@ of higher standing and is the one used by the government.
 The wood of the paulownia is light and strong and often used for boxes; it is
 very fast-growing and also somewhat fire-proof, so was useful as a storage
 material. Older high-quality <span class="noun" lang="ja-Latn">Hanafuda</span> decks came
-encased in an outer box of paulownia wood. The manufacturer <Noun
+encased in an outer box of paulownia wood. The manufacturer <span class="noun"
 lang="ja-Latn">Ōishi Tengudo</span> still boxes many of their decks in this way.
 
 {% image 
@@ -2222,7 +2222,7 @@ One of the Paulownia cards of the <span class="noun" lang="ja-Latn">Echigo-koban
     size="small"
     src="awa_junk_12.jpg"
     alt="A Hanafuda card depicting Paulownia with a red cloud at the top of it." %}
-The yellow-coloured <span lang="ja-Latn">kasu</span> of the <Noun
+The yellow-coloured <span lang="ja-Latn">kasu</span> of the <span class="noun"
 lang="ja-Latn">Awa-bana</span> pattern is marked with the red clouds that
 usually indicate a <span lang="ja-Latn">tane</span> card.
 {% imageEnd %}

@@ -39,7 +39,7 @@ jewel](https://en.wikipedia.org/wiki/Cintamani)’ (<span lang="ja">宝珠</span
 The game originated in Japan, but has surprisingly also been spotted amongst
 Aboriginal communities in the northern parts of Australia, apparently having
 been transferred there by Japanese sailors working in the pearl
-industry.[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <Noun
+industry.[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <span class="noun"
 lang="ja-Latn">Nintendō</span> advertising poster from the early 20th century
 also indicates that their cards were being exported to Australia. In Australia
 the game is played with standard “international” playing cards.

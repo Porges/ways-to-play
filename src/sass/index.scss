@@ -108,6 +108,11 @@ i, cite, em {
     @include italic-font;
 }
 
+// override Bootstrap bold
+b, strong {
+    font-weight: 500;
+}
+
 body {
     display: flex; 
     flex-direction: column;

@@ -442,7 +442,7 @@ Poona.{%endfn%} as early as 1905, as indicated by court cases from the
 time,[@ABookmakerAndThePolice][@HeartAnchorAndCrown] but it may have been in
 India for a long time prior to that.
 
-In current times, the game is called <span lang="hi">झंडी मुंडा</span> <Noun
+In current times, the game is called <span lang="hi">झंडी मुंडा</span> <span class="noun"
 lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi">खोर
 खोरे</span> <span class="noun" lang="hi-Latn">Khor Khore</span>.
 
@@ -494,9 +494,9 @@ lang="ne">लंगूर or लङ्गुर बुर्जा</span>).{%fn%
 lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span
 lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the
 association has been lost in Nepal as the anchor symbol was replaced by a
-flag.{%endfn%} It is commonly played during the festivals of [<Noun
+flag.{%endfn%} It is commonly played during the festivals of [<span class="noun"
 lang="ne-Latn">Dashain</span>](https://en.wikipedia.org/wiki/Dashain) (<span
-lang="ne">दशैं</span>) and [<Noun
+lang="ne">दशैं</span>) and [<span class="noun"
 lang="ne-Latn">Tihar</span>](https://en.wikipedia.org/wiki/Tihar_(festival))
 (<span lang="ne">तिहार</span>), and it is usually played with six dice
 (requiring a minimum of two matches to pay out).
@@ -551,7 +551,7 @@ to men, the game can be played by anyone, including young children.
     originalUrl="https://www.flickr.com/photos/wtpg/15100534169/"
     %}
 A game being played with 6 dice and 12 squares (including one featuring the
-[Teletubbies](https://en.wikipedia.org/wiki/Teletubbies)!) at <Noun
+[Teletubbies](https://en.wikipedia.org/wiki/Teletubbies)!) at <span class="noun"
 lang="id">Pura Samuan Tiga</span> temple; note the men wearing traditional
 Balinese dress including [<span
 lang="ban">udeng</span>](https://en.wikipedia.org/wiki/National_costume_of_Indonesia#:~:text=Malay%20men%27s%20headgear-,Udeng,-%2C%20Balinese%20men%27s%20headgear).

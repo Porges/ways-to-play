@@ -178,7 +178,7 @@ the normal scoring (no calling bonuses will apply).
 
 ### Balik Lima Belas
 
-<span class="noun" lang="ms">Balik Lima Belas</span> (‘draw fifteen’) is a version of <Noun
+<span class="noun" lang="ms">Balik Lima Belas</span> (‘draw fifteen’) is a version of <span class="noun"
 lang="ms">Balik Satu</span> where the winner draws fifteen cards from the stock
 instead of one. They must use these cards to try to improve their sets into
 <span lang="ms">mata</span> by swapping cards of equivalent rank. Scoring is
@@ -197,7 +197,7 @@ mostly by women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakart
 was described as follows:
 
 It is played with six sets of cards (180 cards) for four players, or eight sets
-(240 cards) for six players. Deal 14 cards each and play as with <Noun
+(240 cards) for six players. Deal 14 cards each and play as with <span class="noun"
 lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called
 a <span lang="jav-Latn">bak</span>) must be completed.
 
@@ -254,7 +254,7 @@ In Yogyakarta the following bets were used:
 ### <span class="noun" lang="jav-Latn">Tantanan</span>
 
 This is another game described as being played in Surakarta in
-Java.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <Noun
+Java.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <span class="noun"
 lang="ms">Balik Satu</span> and is thus a faster game.
 
 The game is played by four people with one full set of 60 cards. Each player
@@ -272,8 +272,8 @@ called <span lang="jav-Latn">tan kowah</span>.
 Scoring is performed the same as the <span lang="jav-Latn">toh bajaran</span>
 method of <span class="noun" lang="jav-Latn">Gonggong</span>, above.
 
-In Yogyakarta this game was played with three people and known as <Noun
-lang="jav-Latn">Ceken</span> or <Noun
+In Yogyakarta this game was played with three people and known as <span class="noun"
+lang="jav-Latn">Ceken</span> or <span class="noun"
 lang="jav-Latn">Sampen</span>.[@JavaanseKaartspelen p. 98]{%fn%}Note that there
 is also another game called Sampen.{%endfn%}
 

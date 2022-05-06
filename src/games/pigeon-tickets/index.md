@@ -61,10 +61,10 @@ pigeon races and betting being performed in this manner.[@SparrowAndPigeon]
 
 ## Known history
 
-According to the [<cite>Draft History of <Noun
+According to the [<cite>Draft History of <span class="noun"
 lang="zh-Latn">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
 the official <span class="noun" lang="zh-Latn">Qin Ying</span> (<span lang="zh">秦瀛</span>,
-1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<Noun
+1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<span class="noun"
 lang="zh-Latn">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
 (1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
 
@@ -88,7 +88,7 @@ DeepL translation of article:
     In fact, according to Zhao Lifeng's testimony that "Qin Ying banned white pigeon tickets in Guangdong in the ninth year of Jiaqing", it can be assumed that white pigeon tickets existed in Guangdong in the ninth year of Jiaqing (February 11, 1804-January 30, 1805) and were transmitted from Macao. This is because, in fact, during the Qian-Jia period, Chinese officials at various levels of government in Guangdong Province, Guangzhou Prefecture, and Xiangshan County repeatedly ordered the Portuguese chiefs of Macau, the "yi mu", to prohibit "gambling events" among the Chinese and foreign residents of Macau. (42) Although the information does not explicitly mention the name of the "gambling events", the author, after a comprehensive study, believes that these "gambling events" were caused by the introduction of the Western lottery from Portugal and the Chinese lottery, or pigeon tickets, which were inspired by the Chinese. For example, on the seventh day of the third month of the tenth year of Jiaqing (April 6, 1805), Peng Zhaolin, the governor of Xiangshan, investigated "the incident of the gambling of the foreign merchants by opening bids," issuing a circular saying: "If the people are confused to buy the bids by opening bids, they are forbidden to do so. [If you do not comply with the law, or if you still have a case of crowded bidding, the county will visit the case and report it to the Grand Constabulary for investigation and serious punishment." (43) From the text of this prohibition, it can be inferred that "the incident of the lottery of a foreign merchant" had already occurred and was prohibited by order of the county magistrate who was far away from Xiangshan County. Since the lottery was first issued in 1810, it is clear that this was not a lottery for Ren Ci Tang. The "bid" mentioned in the article for "opening" and "buying" is an abbreviation of "white pigeon bid (ticket)". The name of the "Pigeon Ticket" in the Macao Government Gazette of May 22, 1872 is "Lotaria de China", which means "Chinese Lottery". (44) It can be seen that the "Lotaria de China" is a Chinese lottery. (44) It can be seen that the "white pigeon (ticket)" is a product of the Portuguese lottery principle and then modified in the Chinese way, so it is called "Chinese lottery" or "Chinese lottery". Moreover, pigeons are mostly gray, with brown and white being the minority. The common name for pigeons as "white pigeons" is unique to Cantonese, and is the result of a phonetic change from the ancient name for pigeons, "卧式鴿". (45) The pronunciation or writing of "ticket" as "biao" is also a phenomenon still retained in the Cantonese dialect. For example, in Hong Kong, the Cantonese language still refers to "horse tickets" as "馬標 (ticket)" and "winning horse tickets" as "中馬標 (ticket)". This proves that the "Chinese lottery" or "Chinese lottery", which originated from the Portuguese lottery and was created in Macau, Guangdong, was created and officially named by the Cantonese.
 -->
 
-What we _do_ know for sure is that it was first legalized in Macau by [<Noun
+What we _do_ know for sure is that it was first legalized in Macau by [<span class="noun"
 lang="pt">João Maria Ferreira do
 Amaral</span>](https://en.wikipedia.org/wiki/Jo%C3%A3o_Maria_Ferreira_do_Amaral)
 (1803–1849), who authorized the game in January 1847 upon the request of local

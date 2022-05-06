@@ -74,7 +74,7 @@ Javanese card players, by Jean Demmeni (1866–1939).
 {% imageEnd %}
 
 In Indonesia the cards are particularly popular amongst the Minangkabau people
-of West Sumatra, as the Dutch card-making company <Noun
+of West Sumatra, as the Dutch card-making company <span class="noun"
 lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</span> had a
 factory{%fn%}This building was later to become the [Hotel
 Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in

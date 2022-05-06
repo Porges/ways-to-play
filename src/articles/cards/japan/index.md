@@ -17,7 +17,7 @@ derived from both of these:
     * <span class="noun" lang="ja-Latn">Sunkun Karuta</span> (<span lang="ja">すんくんかるた
       </span>, ‘<span class="noun" lang="ja-Latn">Sun-Kun</span> cards’)
     * <span class="noun" lang="ja-Latn">Mekuri Karuta</span> (<span lang="ja">捲りかるた
-      </span>, ‘turning cards’) were an alteration of the <Noun
+      </span>, ‘turning cards’) were an alteration of the <span class="noun"
       lang="ja-Latn">Tenshō</span> pattern cards, probably to evade bans on
       those cards. The structure of the deck remains the same, but there are
       many different regional artwork patterns.

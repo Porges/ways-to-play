@@ -52,7 +52,7 @@ lang="fr">Les Bassoutos: Vingt-Trois Années de Séjour et D’Observations au S
 de L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The
 Basutos: or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)),
 but the book contains no mention of any board games. There is now [a
-roundabout](https://goo.gl/maps/jymZMMft3fB2) in his home town, <Noun
+roundabout](https://goo.gl/maps/jymZMMft3fB2) in his home town, <span class="noun"
 lang="fr">Orthez</span>, [named after
 him](http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php).{%endfn%}
 The introduction of the game had unintended consequences for the mission: young
@@ -93,9 +93,9 @@ atop a sandstone plateau.
 The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and
 is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small
 circles’,[@SeSothoDictionary p. 304] so could refer to the action of a mill.‌ In
-Nguni languages (isiZulu, isiXhosa), it is known as <Noun
+Nguni languages (isiZulu, isiXhosa), it is known as <span class="noun"
 lang="zu">(Um)labalaba</span>, with similar meaning,‌[@GamesBasotho pp. 247–50]
-and in Ronga, spoken in Mozambique, it is called <Noun
+and in Ronga, spoken in Mozambique, it is called <span class="noun"
 lang="rng">Muravarava</span>.
 
 {%aside%}
@@ -123,7 +123,7 @@ lang="st">mmila</span>/<span lang="st">’mila</span>,
 ‘road’.‌[@UsingGamesToPromote p. 283] In Botswana, the game is called <span
 lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌[@OldTswana p. 350]), and
 the name <span lang="tn">morabaraba</span> refers solely to a mancala
-game.{%fn%}Because of the large overlap of names, in written descriptions <Noun
+game.{%fn%}Because of the large overlap of names, in written descriptions <span class="noun"
 lang="st">Morabaraba</span> is often confused with or included in lists of other
 mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span
 lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example,

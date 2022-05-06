@@ -20,7 +20,7 @@ The description below is based on @ChikiCards [p. 125–7]:
 
 ## Equipment
 
-<span class="noun" lang="ms">Cholek Tiga</span> is played with two decks of <Noun
+<span class="noun" lang="ms">Cholek Tiga</span> is played with two decks of <span class="noun"
 lang="ms">Cherki</span> cards (120 cards total). There will be four copies of
 each card in the game.
 

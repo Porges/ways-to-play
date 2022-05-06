@@ -4,14 +4,14 @@ draft: true
 order: 5
 ---
 
-This article lists games that are variations on standard <Noun
+This article lists games that are variations on standard <span class="noun"
 lang="ja-Latn">Hanafuda</span>. Full rules for these games are not given here
 but on the game articles (if they exist).
 
 ## <span class="noun" lang="ja-Latn">Hanafuda</span> tiles
 
 <span class="noun" lang="ja-Latn">Hanafuda</span> has been produced in a tile format (like
-Mahjong) by various companies in Japan. These <Noun
+Mahjong) by various companies in Japan. These <span class="noun"
 lang="ja-Latn">Hanafuda</span> tiles (<span lang="ja">花札牌</span> <span
 lang="ja-Latn">hanafuda pai</span>) are designed to be used to play standard
 games.
@@ -29,7 +29,7 @@ literally ‘flower pawn’).
 ## <span class="noun" lang="ja-Latn">IROTORI</span>
 
 <span class="noun" lang="ja-Latn">IROTORI</span> is a game produced by
-[YACO](https://yacoyon.com/) that uses a variation on the <Noun
+[YACO](https://yacoyon.com/) that uses a variation on the <span class="noun"
 lang="ja-Latn">Hanafuda</span> deck. The altered deck consists of a reduced set
 of 32 cards, having 4 cards in each of 8 “suits”.
 
@@ -43,7 +43,7 @@ of 32 cards, having 4 cards in each of 8 “suits”.
 ## Formosa Flowers
 
 Formosa Flowers is a board game published by [Soso
-Studio](https://www.sosostudio.com/) that adapts the <Noun
+Studio](https://www.sosostudio.com/) that adapts the <span class="noun"
 lang="ja-Latn">Hanafuda</span> deck to Taiwanese flowers and customs, and comes
 with a fresh ruleset developed for the cards.
 

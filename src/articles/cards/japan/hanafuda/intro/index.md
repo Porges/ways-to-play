@@ -27,7 +27,7 @@ Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintend
 
 ## Composition of the deck
 
-Unlike Western playing cards which have 4 suits of 13 cards each, <Noun
+Unlike Western playing cards which have 4 suits of 13 cards each, <span class="noun"
 lang="ja-Latn">Hanafuda</span> decks comprise 12 ‘suits’ of 4 cards each, giving
 48 cards total. Each suit corresponds to a month, and is represented on the
 cards by a plant related to that month.

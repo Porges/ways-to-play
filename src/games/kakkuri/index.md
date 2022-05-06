@@ -7,7 +7,7 @@ titleLang: ja-Latn
 file='pronunciation_ja_がっくり.mp3' %} (<span lang="ja">カックリ</span>) is the
 last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>,
 ‘reading’) card game in Japan.[@KakkuriYomi] It is still played in the
-town of <span class="noun" lang="ja-Latn">Yafune</span>, part of the city of <Noun
+town of <span class="noun" lang="ja-Latn">Yafune</span>, part of the city of <span class="noun"
 lang="ja-Latn">Echizen</span>, <span class="noun" lang="ja-Latn">Fukui</span> prefecture
 (<span lang="ja">福井県越前市矢船町</span>).
 

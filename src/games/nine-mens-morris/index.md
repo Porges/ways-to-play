@@ -1,8 +1,8 @@
 ---
 title: Nine Men’s Morris
 subgames:
+- title: Lasker Morris
 - title: Twelve Men’s Morris
-draft: true
 ---
 
 Nine Men’s Morris is an ancient [mill game](/articles/mill-games/),
@@ -20,6 +20,20 @@ positions on walls where they could not possibly have been used for games, and
 their purpose is at the moment not well understood.
 
 ## Play
+
+{% image
+  size="wide"
+  src="9245498309_0bbb716a9e_o.jpg"
+  alt="People playing a large nine men’s morris game outdoors on a very large cloth with the board painted on it. They are playing on the grass surrounded by pavilions and onlookers." 
+  originalUrl="https://www.flickr.com/photos/neonzu1/9245498309"
+  copyrightYear=2013
+  license="cc-by-nc-nd"
+  licenseVersion="2.0"
+  authorGiven="Ken"
+  authorFamily="Owen"
+  %}
+A large-format Nine Men’s Morris game being played at a festival in Hungary.
+{%imageEnd%}
 
 {% image 
     position="right"
@@ -45,6 +59,8 @@ this case the player may remove two of the opponent’s pieces from the board.
 A player loses the game when they are reduced to fewer than three pieces, or if
 they are unable to make a valid move on their turn.
 
+When played on a board with diagonals, mills are not usually permitted to be made on the diagonal lines. However, this varies according to location and time.
+
 ## History
 
 {% image 
@@ -57,7 +73,7 @@ A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
 The game dates from at least the late Roman Empire or Byzantine period, and at
 the moment we do not have solid evidence for an earlier
 date.[@GamesGreekAndRoman p. 3]{%fn%}@RamatHanadiv [p. 227] describes a board
-found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun
+found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<span class="noun"
 lang="he-Latn">Ḥorvat ʿAqav</span>), dated 400–600&nbsp;CE, while a cache of
 gaming boards found in a Roman fort at <span class="noun" lang="ar-Latn">Abu Sha’ar</span>
 that was abandoned in the late 4th century contained no mills
@@ -72,7 +88,7 @@ The game became popular throughout Europe: a double-sided game board with a Nine
 Men’s Morris layout on one side was found as part of the  [Gokstad Viking ship
 burial](https://en.wikipedia.org/wiki/Gokstad_ship) (<abbr
 title="circa">c.</abbr> 900) which was discovered in
-Norway.[@TheVikingShipFromGokstad pp. 44, 99] Another boat burial (the “<Noun
+Norway.[@TheVikingShipFromGokstad pp. 44, 99] Another boat burial (the “<span class="noun"
 lang="sv">Årby</span> boat”) from around the same time also included a Morris
 game.[@BoardGamesInBoatBurials p. 441]
 
@@ -250,11 +266,11 @@ A woman and a man playing Nine Men’s Morris together, miniature from a copy of
 the <cite>Romance of Alexander</cite> (produced 1338–44).
 {% imageEnd %}
 
-However, in this German woodcut by Hans Weiditz from @Trostspiegel [p. 24] — a
-version of Petrarch’s <cite>De remediis utriusque fortunae</cite> published some
-200 years later in 1572 — we can see Chess being played by nobles and Backgammon
-by ordinary men, but Nine Men’s Morris is evidently only suitable to be played
-by monkeys:
+The previous scene is in stark contrast to this German woodcut by Hans Weiditz
+from @Trostspiegel [p. 24] — a version of Petrarch’s <cite>De remediis utriusque
+fortunae</cite> published some 200 years later in 1572. In this image we can see
+Chess being played by nobles and Backgammon by ordinary men, but Nine Men’s
+Morris is evidently only suitable to be played by monkeys:
 
 {% image 
     noborder=true
@@ -274,9 +290,9 @@ by monkeys:
 */} -->
 
 The board with diagonals seems to appear first in Arabic sources;[@Murray2 p.
-43] it is shown — as the only drawing — in the famous <Noun
-lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<span lang="ar">القاموس
-المحيط</span>, ‘the surrounding ocean’) of [<Noun
+43] it is shown — as the only drawing — in the famous <span class="noun"
+lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<cite lang="ar">القاموس
+المحيط</cite>, ‘The Surrounding Ocean’) of [<span class="noun"
 lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi)
 (<span lang="fa">{% isolate 'فیروزآبادی' %}</span>, 1329–1414), published at the start of the
 15th century.[@alQamus]
@@ -289,7 +305,7 @@ lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi
     licenseVersion="4.0",
     orgName="University of Pennsylvania, Kislak Center for Special Collections"
     originalUrl="https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r" %}
-The entry for “<span lang="ar">القَرْقُ</span>” in the <Noun
+The entry for “<span lang="ar">القَرْقُ</span>” in the <span class="noun"
 lang="ar-Latn">Qamūs</span>. The game is here identified with <span
 lang="ar-Latn">suddar</span>.
 {% imageEnd %}
@@ -342,10 +358,10 @@ Pastorales</cite>.
 
 In colonial America, the game began to be played with twelve pieces (exclusively
 on the board with diagonals) and thus became the standard American form, known
-as Twelve Men’s Morris.{%fn%}Rules for a game called <span lang="es">alquerque
-de doze</span>, sometimes translated as Twelve Men’s Morris, are given in
-Alfonso X’s <cite>Book of Games</cite>, but it describes a game of a different
-form.{%endfn%}
+as [Twelve Men’s Morris](#twelve-mens-morris).{%fn%}Rules for a game called
+<span lang="es">alquerque de doze</span>, sometimes translated as Twelve Men’s
+Morris, are given in Alfonso X’s <cite>Book of Games</cite>, but it describes a
+game of a different form.{%endfn%}
 
 ### Nomenclature 
 
@@ -354,8 +370,8 @@ Other English names for the game have included:
 <div class="columnar">
 
 * Blind Men’s Morris (Leicestershire[@PegMeryll p. 130])
-* Buttons (played on a slate with buttons in 1890s New Zealand[@GamesOfNewZealandChildren p. 151])
 * Bushels[@Hyde p. 204]
+* Buttons (played on a slate with buttons in 1890s New Zealand[@GamesOfNewZealandChildren p. 151])
 * Figmill (in Clarence, New York, USA)[@Figmill] (This name derives from an American manufacturer of equipment, but originally might derive from [the Swiss term <span lang="gsw">«Figgi und Müli»</span>](/articles/mill-games/#terminology).)
 * Morris (Cornwall[@PegMeryll p. 130])
 * Madell or Medal[@NotesAndQueriesS8V12 p. 333]
@@ -412,11 +428,11 @@ flat 9 triads */}-->
     copyrightYear=2016,
     license="with-permission",
     originalUrl="https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html" %}
-A <span lang="fr">jeu du moulin</span> in the south-west wall of the <Noun
+A <span lang="fr">jeu du moulin</span> in the south-west wall of the <span class="noun"
 lang="fr">Château du Moulin</span> (<span class="noun" lang="fr">Loir-et-Cher</span>,
 France). Built between 1480–1501, this is a punny reference to the name of the
 original owner, <span class="noun" lang="fr">Philippe du Moulin</span>. There is another
-Three Men’s Morris board on the eastern wall, and the nearby <Noun
+Three Men’s Morris board on the eastern wall, and the nearby <span class="noun"
 lang="fr">Château de Gien</span> has a similar motif.[@MerylsBoardEnigma p. 103]
 {% imageEnd %}
 
@@ -479,9 +495,9 @@ A Twelve Men’s Morris game being played.
 
 In other countries or languages Twelve Men’s Morris has been known as:
 
-* Bengali: <span lang="bn">বারো গুটি (পাইত পাইত)</span> (<span lang="bn-Latn">bārō-guṭi (pāit-pāit)</span>) ‘twelve bead (unsure)’[@GuptaD p. 145]
-* Sri Lanka (Sinhala): <span lang="si">නෙරෙංචි</span> or <span lang="si">නෙරිංචි</span> (<span lang="si-Latn">nereṁci</span>{%fn%}Also transcribed as <span lang="si-Latn">Nerenchi</span> or <span lang="si-Latn">Niranchy</span>.{%endfn%} or <span lang="si-Latn">neriṁci</span>), possibly named after a plant that has very thorny seeds[@Zaslavsky p. 16][@SportsAndGamesOfSinghalese p. 34][@AncientCeylon p. 577]
-* Urdu: <span lang="ur">بارہ گوٹی</span> (<span lang="ur-Latn">bārā guṭī</span>) ‘twelve pieces’
+* Bengali: <span lang="bn">বারো গুটি (পাইত পাইত)</span> (<span lang="bn-Latn">bārō-guṭi (pāit-pāit)</span>) ‘twelve bead [unsure]’.[@GuptaD p. 145]
+* Sri Lanka (Sinhala): <span lang="si">නෙරෙංචි</span> or <span lang="si">නෙරිංචි</span> (<span lang="si-Latn">nereṁci</span>{%fn%}Also transcribed as <span lang="si-Latn">Nerenchi</span> or <span lang="si-Latn">Niranchy</span>.{%endfn%} or <span lang="si-Latn">neriṁci</span>), possibly named after a plant that has very thorny seeds.[@Zaslavsky p. 16][@SportsAndGamesOfSinghalese p. 34][@AncientCeylon p. 577]
+* Urdu: <span lang="ur">بارہ گوٹی</span> (<span lang="ur-Latn">bārā guṭī</span>) ‘twelve pieces’.
 
 ### With Dice
 
@@ -493,10 +509,17 @@ A game being played with dice, from Alfonso X’s <cite>Book of Games</cite>.
 {% imageEnd %}
 
 Alfonso X’s book of games describes a variant played with dice.[@AlfonsoGames]
-While it is unclear from the manuscript what the exact rules are, there are two
-suggested versions:
+While it is unclear from the manuscript what the exact rules are, Ulrich
+Schädler offers the following interpretation:[@NineMensDice]{%fn%}This
+interpretation disagrees with previous interpretations given in @Murray2 and
+@Bell; see the article for full details.{%endfn%}
 
-TODO! TODO!
+1. During the placement phase, no mills may be made.
+2. During the movement phase, each player rolls three dice before moving a
+   piece. If they roll any of the special rolls 6–5–4, 6–3–3, 5–2–2, or 4–1–1,
+   they may ‘fly’ a piece from anywhere on the board to complete a mill (or two
+   mills). For any other result, the player moves as normal. 
+
 
 ### Lasker Morris
 
@@ -509,6 +532,8 @@ of 9, and on a player’s turn they may <em>either</em> place a new piece or mov
 a piece that is already on the board.
 
 With perfect play the game is a draw.[@SolvingLaskerMorris][@UltraStrongMorris]
+
+<!--
 
 ## Commerical Variants
 
@@ -573,8 +598,10 @@ Trencho board and pieces. A board with a different configuration can be seen
 [here](https://www.flickr.com/photos/communityhistorysa/15513283420/in/photolist-sZrx-4ymJZ6-nHnS3U-qtBtX5-bWfoc7-dMYNfX-pCRCFN-JQvGw-f5ZAxg-83Djx-Je3MXg/).
 {% imageEnd %}
 
+-->
+
 ## See also
 
-Other general references include @OxfordBG, @NineMensDice, @Zaslavsky [p. 12],
+Other general references include @OxfordBG, @Zaslavsky [p. 12],
 @Bell [p. 93], @Murray2 [§3.5.4, p. 43], @Goddard1901, @NotesAndQueriesS8V12
 [pp. 28, 89–90, 173, 333], and @PlayedAtThePub [p. 150].

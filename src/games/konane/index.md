@@ -52,7 +52,7 @@ least the pieces, to plan battles:
 > movements on the battlefield.[@KamehamehaAndHisWarrior p. 123]
 
 The gods were also rumoured to enjoy <span lang="haw">kōnane</span>: the volcano
-goddess <span class="noun" lang="haw">Pele</span> was said to play it at her home in <Noun
+goddess <span class="noun" lang="haw">Pele</span> was said to play it at her home in <span class="noun"
 lang="haw">Hale-maʻumaʻu</span> crater.[@Ellis17 p. 183]
 
 The earliest written record we have of the game is from James King,{%fn%}At the
@@ -68,7 +68,7 @@ Pacific.  In an entry dated March 1779, he wrote:
 > there are fourteen in a row, and they make uſe of black and white pebbles,
 > which they move from ſquare to ſquare.[@VoyageToPacific p. 144]</p>
 
-Another early witness was Archibald Campbell,{%fn%}Campbell arrived in <Noun
+Another early witness was Archibald Campbell,{%fn%}Campbell arrived in <span class="noun"
 lang="haw">Hawaiʻi</span> aboard the <em>Neva</em>, the first Russian ship to
 circumnavigate the world, on the 29th of January 1809, and left aboard the
 <em>Duke of Portland</em>, a whaler, on the 4th of March 1810. The <em>Duke of
@@ -111,13 +111,13 @@ A reconstruction of Honolulu as it was in 1810. Kamehameha lived in the large
 compound on the point at the bottom centre. Kou is the area around there,
 bordered by the yam field at the top. Archibald Campbell stayed for some time
 with Isaac Davis, who lived in the rightmost of the three houses on the left.
-(Map from the [University of <Noun
+(Map from the [University of <span class="noun"
 lang="haw">Hawaiʻi</span>](https://digicoll.manoa.hawaii.edu/savedmaps/Pages/viewtext.php?s=browse&amp;tid=61&amp;route=browseby.php&amp;by=newest).)
 {% imageEnd %}
 
 The game continued to be popular throughout the 19th century; William Brigham
-(first director of Hawaii’s state museum) reported that King <Noun
-lang="haw">Kalākaua</span> (1836–1891) and his wife Queen <Noun
+(first director of Hawaii’s state museum) reported that King <span class="noun"
+lang="haw">Kalākaua</span> (1836–1891) and his wife Queen <span class="noun"
 lang="haw">Kapiʻolani</span> (1834–1899) were “experts at konane”.[@Brigham08 p.
 378]
 

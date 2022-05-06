@@ -36,11 +36,11 @@ two players are those least interested in the game.[@FirstFootsteps pp. 179–80
 The game is mentioned in many stories of Somali poets and leaders (and
 poet-leaders), such as <span class="noun" lang="so">Garaad Xirsi Garaad Faarax</span>
 (commonly known as “<span class="noun" lang="so">Wiil Waal</span>”, ‘crazy boy’), the early
-19th century ruler of [<Noun
+19th century ruler of [<span class="noun"
 lang="so">Jigjiga</span>](https://en.wikipedia.org/wiki/Jijiga) (now part of
 Ethiopia); [<span class="noun" lang="so">Yuusuf Cali
 Keenadiid</span>](https://en.wikipedia.org/wiki/Yusuf_Ali_Kenadid) (1837–1911),
-[Sultan of Hobyo](https://en.wikipedia.org/wiki/Sultanate_of_Hobyo); and [<Noun
+[Sultan of Hobyo](https://en.wikipedia.org/wiki/Sultanate_of_Hobyo); and [<span class="noun"
 lang="so">Sayid Maxamed Cabdulle
 Xasan</span>](https://en.wikipedia.org/wiki/Mohammed_Abdullah_Hassan)
 (1856–1920), leader of the [Dervish
