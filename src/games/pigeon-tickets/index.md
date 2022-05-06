@@ -13,7 +13,7 @@ lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from
 Mandarin, it is the standard Cantonese name for pigeon, and further proves the
 Cantonese origin of the game (see e.g. @SparrowAndPigeon, although I find some
 of his other (original) conclusions to be dubious).{%endfn%}) is a gambling game
-which originated in <Noun lang="zh-Latn">Guangdong</Noun> during the late Qing
+which originated in <span class="noun" lang="zh-Latn">Guangdong</span> during the late Qing
 dynasty, and which in the 19th and 20th centuries was spread throughout
 Oceania-bordering countries by Chinese emigrants. 
 
@@ -35,13 +35,15 @@ Note that it can best be described as “musical Chinoiserie”, and the lyrics 
 In English reports the name of the game is usually given as
 “pakapoo”/“pak-a-poo” or “pakapu”/“pak-a(h)-pu”. Other variants are “pak-a-peu”,
 “puck-a-pu”, or “pac-a-poo”. In Macau it is given with the Portugeuse
-romanization of “pacapio”, which remains standard in current usage.
+romanization of “pacapio”, which remains standard in current usage. In Hawaii it
+was referred to as “pakapio”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
-one or more tickets upon which they select a number of characters out of 80
-different characters. The seller then randomly selects a number of characters at
-random, and players win money according to the number of matching characters
-marked on their ticket.
+one or more tickets upon which they mark some set of characters out of 80 that
+are printed on the ticket. The seller then randomly selects a given number of
+characters, and players win money according to the number of matching characters
+marked on their ticket. The specific numbers of characters chosen and the
+permissible bets vary by time and location.
 
 ## False origins
 
@@ -50,9 +52,9 @@ originally white pigeons were used to choose winning tickets, but that is not
 possible given the way the game is played; it is not a lottery where one or more
 tickets are selected to be the winner(s).
 
-According to current Chinese dictionaries, the game was a derivative of
-pigeon-racing bets. The story runs that the characters were used to label
-pigeons and players would select which pigeons to bet upon based on the
+According to some Chinese dictionaries, the game was a derivative of
+pigeon-racing bets. The story goes that the characters were originally used to
+label pigeons, and players would select which pigeons to bet upon based on the
 characters assigned to those pigeons. Eventually the pigeons were dropped
 entirely and the characters were drawn at random. However, there is no record of
 pigeon races and betting being performed in this manner.[@SparrowAndPigeon]
@@ -60,10 +62,10 @@ pigeon races and betting being performed in this manner.[@SparrowAndPigeon]
 ## Known history
 
 According to the [<cite>Draft History of <Noun
-lang="zh-Latn">Qing</Noun></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
-the official <Noun lang="zh-Latn">Qin Ying</Noun> (<span lang="zh">秦瀛</span>,
+lang="zh-Latn">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
+the official <span class="noun" lang="zh-Latn">Qin Ying</span> (<span lang="zh">秦瀛</span>,
 1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<Noun
-lang="zh-Latn">Jiaqing</Noun>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
+lang="zh-Latn">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
 (1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
 
 <!--
@@ -88,8 +90,8 @@ DeepL translation of article:
 
 What we _do_ know for sure is that it was first legalized in Macau by [<Noun
 lang="pt">João Maria Ferreira do
-Amaral</Noun>](https://en.wikipedia.org/wiki/Jo%C3%A3o_Maria_Ferreira_do_Amaral)
-(1803–1849), who authorized the game in January 1847, upon the request of local
+Amaral</span>](https://en.wikipedia.org/wiki/Jo%C3%A3o_Maria_Ferreira_do_Amaral)
+(1803–1849), who authorized the game in January 1847 upon the request of local
 Chinese businessmen.[@GamesOfChanceInMacau2 p. 110] Macau had been declared a
 free port in 1845, hoping to increase trade and business under competition from
 the recently-established British colony at Hong Kong (1842). Despite this, Macau
@@ -130,6 +132,13 @@ name like <span lang="zh">博合</span> (bok3 hap6); <span lang="zh">白</span> 
 
 ## The Game
 
+The primary artifact of the game is the *ticket*, a slip of paper upon which is
+printed the name of the bank (see below) and 80 unique Chinese characters. These
+characters are the first 80 taken from the [<cite>Thousand Character
+Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span
+lang="zh">千字文</span>), and are always printed in a top-down, right-to-left
+order, broken into four-character blocks:
+
 <blockquote lang="zh" class="vertical-rl mx-auto blockquote">
 天地玄黃&#x3000;宇宙洪荒<br/>
 囸月盈昃&#x3000;辰宿列張<br/>
@@ -143,6 +152,27 @@ name like <span lang="zh">博合</span> (bok3 hap6); <span lang="zh">白</span> 
 龍師伙帝&#x3000;鳥官人皇
 </blockquote>
 
+A striking thing about this layout is just how consistent it was across all
+countries where the game was played. A ticket used in Nevada is almost identical
+to one used in Victoria (Australia) or Otago (New Zealand). I believe that the
+tickets were printed in China and shipped to other countries,{%fn%}See also
+[this
+ticket](https://open.library.ubc.ca/collections/chinesecanadianstories/gri/items/1.0367497)
+which is explicitly printed “Made in China”. [Other
+tickets](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?docId=hb3j49n63p&order=7&brand=oac4&layout=printable-details)
+show evidence that the bank name was stamped onto the ticket at some stage later
+than the character grid was printed.{%endfn%} as it must have been hard to
+obtain a printing press or other equipment to produce the tickets in the
+countries where the game was being played. Tickets often bore the phrase <span
+lang="zh">照來原底給</span> “printed according to the original”, so fidelity to
+the ideal form of the ticket was apparently sought-after.
+
+<!--
+Guidebooks such as <cite lang="zh">票圖撮要</cite> (<cite>Essentials of the
+Lottery</cite>, 1894) were also published, with instructions on how to calculate
+payouts for various forms of tickets.
+-->
+
 {% image src="MingLeeDuw.jpg" alt="" noborder=true %}
 A Ming Lee Duw Co. ticket from California (reading <span lang="zh">名利就廠</span>
 right-to-left). The center reads <span lang="zh">生財有道</span>, a [four-character idiom](https://en.wikipedia.org/wiki/Chengyu)
@@ -151,7 +181,18 @@ Confucian [<cite>Book of
 Rites</cite>.](https://en.wikipedia.org/wiki/Book_of_Rites)
 {%imageEnd%}
 
+The place that distributed the winnings and collected the profits was invariably
+referred to as the “bank”, and each bank would have its own name. In places such
+as California, where [<span
+lang="zh-Latn">tongs</span>](https://en.wikipedia.org/wiki/Tong_(organization))
+(<span lang="zh">堂</span>) were established, the banks would often be tied to a
+particular <span lang="zh-Latn">tong</span>.[@EncyclopediaOfKeno p. 8]
+
 ## Spread to other countries
+
+{% image src="../../maps/PigeonTickets.svg" alt="" size="wide" %}
+Countries where the game was played in the past (before becoming Keno); locations with particular reports highlighted.
+{% imageEnd %}
 
 The game travelled everywhere that Chinese people migrated to. In particular it
 seems to have been popular in places with gold-fields where Chinese men came to
@@ -159,6 +200,13 @@ work in the late 19th century: San Francisco in the USA, British Columbia in
 Canada, Victoria in Australia, and New Zealand.
 
 ### In the United States
+
+According to @EncyclopediaOfKeno, the game was introduced to the Western United
+States in the mid-19th century, and reached the Eastern cities by 1870. By 1892
+there were ten Chinese lottery banks operating in New York.[@FanTanGamesToReopen]
+
+Mentions of “Chinese lotteries” begin to appear in Californian newspapers from
+the 1860s.
 
 {% image src="ark__13030_hb0q2nb02d_cropped.jpg" alt="" 
     license="cc-by"
@@ -171,13 +219,6 @@ Interior of a Chinese lottery & casino in California, 1938. Ink and brushes are
 provided to mark the chosen numbers, and on the floor lie discarded losing
 tickets.
 {%imageEnd%}
-
-According to @EncyclopediaOfKeno, the game was introduced to the Western United
-States in the mid-19th century, and reached the Eastern cities by 1870. By 1892
-there were ten Chinese lottery banks operating in New York.[@FanTanGamesToReopen]
-
-Mentions of “Chinese lotteries” begin to appear in Californian newspapers from
-the 1860s.
 
 ### In Australia
 
@@ -248,10 +289,10 @@ was felt to be inconsistent with laws governing games played by Europeans:
 
 During parliamentary debate on the proposed bill,
 
-> Mr Hone Heke{%fn%}i.e. [<Noun lang="mi">Hōne Heke
-Ngāpua</Noun>,](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke_Ng%C4%81pua)
-great-nephew of the more famous [<Noun lang="mi">Hōne Heke
-Pōkai</Noun>.](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke){%endfn%} wanted to
+> Mr Hone Heke{%fn%}i.e. [<span class="noun" lang="mi">Hōne Heke
+Ngāpua</span>,](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke_Ng%C4%81pua)
+great-nephew of the more famous [<span class="noun" lang="mi">Hōne Heke
+Pōkai</span>.](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke){%endfn%} wanted to
 know why the Chinese were to be limited in their games and recreations, when
 lotteries at church bazaars were allowed to proceed without interference.
 > 
@@ -300,7 +341,7 @@ Finally, in 1907, the Gaming and Lotteries Act Amendment Act was passed, which
 declared *all* games of chance to be explicitly unlawful. The game was to remain
 illegal until the passage of a new Gaming and Lotteries Act in 1977.
 
-## Globalization (or Kenoization)
+## Globalization, or Kenoization
 
 {% image src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
     alt=";"
@@ -309,3 +350,9 @@ illegal until the passage of a new Gaming and Lotteries Act in 1977.
     orgName="newspapers.com" %}
 Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
 {% imageEnd %}
+
+{%aside%}
+Note that there was a prior Bingo-like game also called Keno (or Quino), which
+used pre-printed sheets and randomly-drawn numbers. This game is not related to
+the modern game of Keno.
+{%endaside%}

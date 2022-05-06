@@ -4,7 +4,7 @@ titleLang: ja-Latn
 draft: true
 ---
 
-<Noun lang="ja-Latn">Gunjin Shogi</Noun> (<span lang="ja">軍人将棋</span>
+<span class="noun" lang="ja-Latn">Gunjin Shogi</span> (<span lang="ja">軍人将棋</span>
 ‘soldier chess’) is a Japanese game of hidden ranked combat, like the game
 Stratego. However, unlike Stratego, the game is usually played with a third
 person acting as referee, so that the identity of pieces does not need to be
@@ -12,7 +12,7 @@ revealed at any stage.
 
 ## Pieces and Powers
 
-There exist many different versions of <Noun lang="ja-Latn">Gunjin Shogi</Noun>,
+There exist many different versions of <span class="noun" lang="ja-Latn">Gunjin Shogi</span>,
 with between 15 and 35 pieces, and with different ranks or powers given to the
 pieces. I present two versions that I have access to here.
 

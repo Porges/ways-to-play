@@ -4,7 +4,7 @@ titleLang: jav-Latn
 draft: true
 ---
 
-<Noun lang="jav-Latn">Kertu Lima</Noun> (‘five cards’) is an unusual
+<span class="noun" lang="jav-Latn">Kertu Lima</span> (‘five cards’) is an unusual
 trick-taking game from Java, played with [Ceki
 cards](/articles/cards/ceki/).[@JavaanseKaartspelen p. 46–57]
 
@@ -12,7 +12,7 @@ cards](/articles/cards/ceki/).[@JavaanseKaartspelen p. 46–57]
 
 ## Setup
 
-<Noun lang="jav-Latn">Kertu Lima</Noun> is played by at least five and up to
+<span class="noun" lang="jav-Latn">Kertu Lima</span> is played by at least five and up to
 nine players. A single deck of 60 ceki cards is used.
 
 To determine where players sit, pairs of cards can be used, dealing one half to

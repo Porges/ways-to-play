@@ -6956,5 +6956,37 @@
                 "given": "Donald"
             }
         ]
+    },
+    "Pakapio": {
+        "type": "article-newspaper",
+        "URL": "https://www.newspapers.com/clip/101135182/pakapio/",
+        "title": "Police Court",
+        "issued": {
+            "year": 1886,
+            "month": 12,
+            "day": 2
+        },
+        "page": 2,
+        "container-title": "The Honoulu Advertiser",
+        "publisher-place": "Honolulu, Hawaiʻi"
+    },
+    "JeuxDeGargantua": {
+        "type": "article-journal",
+        "URL": "https://archive.org/details/revuedestudesra02rabegoog/page/n23/mode/2up",
+        "title": "Les Jeux de Gargantua",
+        "title-lang": "fr",
+        "author": [
+            {
+                "family": "Psichari",
+                "given": "Michel"
+            }
+        ],
+        "issued": {
+            "year": 1908
+        },
+        "page": "1–37, 124–81, 317–61",
+        "volume": 6,
+        "container-title": "Revue des Études rabelaisiennes",
+        "container-title-lang": "fr"
     }
 }

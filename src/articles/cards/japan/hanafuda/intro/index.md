@@ -28,7 +28,7 @@ Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintend
 ## Composition of the deck
 
 Unlike Western playing cards which have 4 suits of 13 cards each, <Noun
-lang="ja-Latn">Hanafuda</Noun> decks comprise 12 ‘suits’ of 4 cards each, giving
+lang="ja-Latn">Hanafuda</span> decks comprise 12 ‘suits’ of 4 cards each, giving
 48 cards total. Each suit corresponds to a month, and is represented on the
 cards by a plant related to that month.
 
@@ -82,15 +82,15 @@ The bright cards.
 {% imageEnd %}
 
 In some decks, especially Korean ones, these are marked with the 光 character
-for ease of identification.{%fn%}<Noun lang="ja-Latn">Maeda Masafumi</Noun>
+for ease of identification.{%fn%}<span class="noun" lang="ja-Latn">Maeda Masafumi</span>
 (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the
-manufacturer <Noun lang="ja-Latn">Ōishi Tengudō</Noun> has claimed that these
+manufacturer <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> has claimed that these
 markings were actually a trademark-like feature that they used, which was picked
 up by the Korean manufacturers as a standardized
 marking.[@ModernKoreanCards]{%endfn%}
 
 {% image size="small", src='5_brights.jpg', alt="TODO" %}
-The five bright cards, from a standard <Noun lang="ja-Latn">Nintendo</Noun> deck.
+The five bright cards, from a standard <span class="noun" lang="ja-Latn">Nintendo</span> deck.
 {% imageEnd %}
 
 {% image size="small", src='5_brights_kr.jpg', alt="TODO" %}
@@ -147,7 +147,7 @@ The 10 <span lang="ja-Latn">tanzaku</span> cards.
     license='cc0',
     orgName='The Art Institute of Chicago' %}
 <cite>Maple with Poem Slips</cite> (c. 1675)<br /><cite lang="ja">櫻楓短冊圖</cite><br />
-A six-panel screen (one of a pair) by <Noun lang="ja-Latn">Tosa Mitsuoki</Noun> (<span lang="ja">土佐 光起</span>, 1617–1691).
+A six-panel screen (one of a pair) by <span class="noun" lang="ja-Latn">Tosa Mitsuoki</span> (<span lang="ja">土佐 光起</span>, 1617–1691).
 {% imageEnd %}
 
 #### <span lang="ja-Latn">Kasu</span> cards
@@ -208,7 +208,7 @@ Two joker cards from the Yongjaeng Hwatoo ‘Style’ deck.
 
 ## Basic matching rules
 
-Many <Noun lang="ja-Latn">Hanafuda</Noun> games are of the ‘fishing’ variety,
+Many <span class="noun" lang="ja-Latn">Hanafuda</span> games are of the ‘fishing’ variety,
 where each player tries to capture cards from a shared pool of cards in the
 centre of the table. The goal is to capture high-value cards or to form specific
 scoring patterns called <span lang="ja-Latn">yaku</span> (<span lang="ja">役
@@ -223,10 +223,10 @@ scoring patterns called <span lang="ja-Latn">yaku</span> (<span lang="ja">役
     originalUrl='http://www.marcusrichert.com/images/koikoi1/',
     license='cc-by',
     licenseVersion='2.0' %}
-A sample setup for the game of <Noun lang="ja-Latn">Koi-Koi</Noun>, with a pool of eight cards.
+A sample setup for the game of <span class="noun" lang="ja-Latn">Koi-Koi</span>, with a pool of eight cards.
 {% imageEnd %}
 
-In most <Noun lang="ja-Latn">Hanafuda</Noun> fishing games a turn proceeds as
+In most <span class="noun" lang="ja-Latn">Hanafuda</span> fishing games a turn proceeds as
 follows:
 
 First, the player chooses a card from their hand. If it matches (is of the same

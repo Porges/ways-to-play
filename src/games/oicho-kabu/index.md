@@ -7,7 +7,7 @@ subgames:
   titleLang: en
 ---
 
-<p class="lead"><Noun lang="ja-Latn">Oicho-Kabu</Noun> (<span lang="ja">おいちょかぶ</span>,
+<p class="lead"><span class="noun" lang="ja-Latn">Oicho-Kabu</span> (<span lang="ja">おいちょかぶ</span>,
 ‘eight-nine’) is a Japanese gambling game in the style of Baccarat.</p>
 
 <!-- excerpt -->
@@ -22,13 +22,13 @@ the standard deck.{%endfn%} or with the {% cards 'A–9' %} from a standard deck
 of playing cards.
 
 {% image src="../../articles/cards/japan/kabu-karuta/Kabufuda_2.jpg" alt="" %}
-Cards from a <Noun lang="ja-Latn">Nintendō</Noun> <span
+Cards from a <span class="noun" lang="ja-Latn">Nintendō</span> <span
 lang="ja-Latn">kabufuda</span> deck. This ‘suit’ is replicated 3 times giving 30
 cards.
 {% imageEnd %}
 
 {% image src="../../articles/cards/japan/kabu-karuta/Kabufuda_1.jpg" alt="" %}
-Cards from a <Noun lang="ja-Latn">Nintendō</Noun> <span
+Cards from a <span class="noun" lang="ja-Latn">Nintendō</span> <span
 lang="ja-Latn">kabufuda</span> deck. This ‘suit’ has the <Cards>1</Cards> and
 <Cards>4</Cards> distinguished. The <Cards>4</Cards> is overlaid with a
 depiction of a ‘[wish-fulfilling
@@ -40,7 +40,7 @@ The game originated in Japan, but has surprisingly also been spotted amongst
 Aboriginal communities in the northern parts of Australia, apparently having
 been transferred there by Japanese sailors working in the pearl
 industry.[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <Noun
-lang="ja-Latn">Nintendō</Noun> advertising poster from the early 20th century
+lang="ja-Latn">Nintendō</span> advertising poster from the early 20th century
 also indicates that their cards were being exported to Australia. In Australia
 the game is played with standard “international” playing cards.
 
@@ -189,7 +189,7 @@ each player is:
 Shuffle and deal two cards face-down to each player. Each player looks at their
 cards and may then request a third, and subsequently a fourth card.
 
-The goal, as in standard <Noun lang="ja-Latn">Oicho-Kabu</Noun>, is to get a
+The goal, as in standard <span class="noun" lang="ja-Latn">Oicho-Kabu</span>, is to get a
 total as close to {% cards '9' %} as possible, discarding {% cards '⑩' %}s.
 
 After all players have finished requesting new cards, the hands are revealed.

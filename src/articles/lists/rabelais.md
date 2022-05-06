@@ -3,8 +3,8 @@ title: The Games of Gargantua
 draft: true
 ---
 
-One of the most famous lists of games is that in [<Noun lang="fr">François
-Rabelais</Noun>](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais)’ [<cite
+One of the most famous lists of games is that in [<span class="noun" lang="fr">François
+Rabelais</span>](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais)’ [<cite
 lang="fr">La vie de Gargantua et de
 Pantagruel</cite>](https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel)
 (<cite>The Life of Gargantua and of Pantagruel</cite>, published <abbr
@@ -12,6 +12,9 @@ title="circa">c.</abbr> 1532–64). In the original French the list contains 216
 games, but in each translation the games that are named were changed and often
 expanded upon. Many of the games are either invented by Rabelais, or are games
 for which we no longer know the rules.
+
+An in-depth examination of the games in the list lies [below the
+table](#the-list-in-depth).
 
 <!-- Putnam doesn’t attempt translation -->
 
@@ -2918,3 +2921,49 @@ tr. Screech
 </tbody>
 </table>
 </div>
+
+## The list in depth
+
+### Card games
+
+The first set of entries in the list are either card games or terms used in card
+games — sometimes both.
+
+<dl>
+<dt><span lang="fr">flux</span> “flush”</dt>
+<dd>
+
+This has its well-known meaning as it remains today, a set of cards of the same
+suit. However, it is also the name of a game.[@JeuxDeGargantua p. 16–21]
+
+</dd>
+<dt><span lang="fr">prime</span> “prime”</dt>
+<dd>
+
+A *prime* in card terms was the opposite of a flush: it was to have one card of
+each suit. It will be seen that it is common for Rabelais to place similar or
+opposite terms near to each other in lists.
+
+It is also the name of a game usually called Primero in English, or referred to
+by its Italian (<span class="noun" lang="it">Primiera</span>) or Spanish (<span
+class="noun" lang="es">Primera</span>) names.
+
+It is also worth noting that ‘flux’ is a hand that scores in Primero.
+
+</dd>
+<dt><span lang="fr">vole</span> (<abbr title="literally">lit.</abbr>) “robbery”</dt>
+<dd>
+
+This is a game term meaning the same as the current term “grand slam”, that is,
+to win all the tricks played in a hand. The term was used in the games of <span
+lang="fr">l’hombre</span>, <span lang="fr">la bête</span>, <span lang="fr">la
+triomphe</span>, and <span lang="fr">l’écarté</span>.[@JeuxDeGargantua p. 26]
+
+Urquhart gives “the beast” for this term, which was actually the name of a
+gambling game (called in French <span lang="fr">la bête</span>) in which the
+term was used. Perhaps he was aware of this. 
+
+</dd>
+</dl>
+
+## Fischart’s list

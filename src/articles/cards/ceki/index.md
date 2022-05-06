@@ -5,7 +5,7 @@ draft: true
 ---
 
 Ceki or Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia
-and Singapore. It can also be written <Noun lang="id">Tjeki</Noun> in older
+and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older
 Indonesian orthographies, or <span lang="ms-Arab">چکي</span> in Jawi script. The
 word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít
 ki</span> (<span lang="nan">一枝</span>)[@LoanWordsIndonesian p.
@@ -75,7 +75,7 @@ Javanese card players, by Jean Demmeni (1866–1939).
 
 In Indonesia the cards are particularly popular amongst the Minangkabau people
 of West Sumatra, as the Dutch card-making company <Noun
-lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</Noun> had a
+lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</span> had a
 factory{%fn%}This building was later to become the [Hotel
 Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in
 the [2009 Sumatran
@@ -1703,11 +1703,11 @@ Other games from Malaysia/Singapore, for which I have no rules, are:
 
 (Extinct) European manufacturers included:
 
-* <Noun lang="fr">Camoin</Noun>, a French company that was based in Marseille
-* <Noun lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</Noun>, a
+* <span class="noun" lang="fr">Camoin</span>, a French company that was based in Marseille
+* <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</span>, a
   Dutch company that had offices in Java, Sumatra, and Celebes (Sulawesi)[@TraditionCardGameCeki]
-* [<Noun lang="fr">Mesmaekers
-  Frères</Noun>](https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack), a
+* [<span class="noun" lang="fr">Mesmaekers
+  Frères</span>](https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack), a
   Belgian company based in Turnhout whose cards were imported to Java by Brandon
   Mesritz & Co.[@ChiChiPai]
 
@@ -1715,34 +1715,34 @@ Other games from Malaysia/Singapore, for which I have no rules, are:
 
 Modern Indonesian brands include:
 
-* <Noun lang="ms">Ceki Hiu</Noun> (Old Thousand has a colour image of a shark)
-* <Noun lang="ms">Ceki Kalong Mas</Noun> (bat symbol, Old Thousand inscribed <span lang="zh">𫑟林</span>?)
-* <Noun lang="ms">Ceki Leak</Noun>, a [mythological creature](https://en.wikipedia.org/wiki/Leyak)
-* <Noun lang="ms">Gunting Baja</Noun>, Bali
-* <Noun lang="ms">Gunting Rumput</Noun>
-* <Noun lang="ms">Gar’da Kencana</Noun>
-* <Noun lang="ms">Kabuki</Noun>
-* <Noun lang="ms">Kapal Ferry</Noun> (Old Thousand has a colour image of a ship)
-* <Noun lang="ms">Pura Dewa</Noun>, Bali
+* <span class="noun" lang="ms">Ceki Hiu</span> (Old Thousand has a colour image of a shark)
+* <span class="noun" lang="ms">Ceki Kalong Mas</span> (bat symbol, Old Thousand inscribed <span lang="zh">𫑟林</span>?)
+* <span class="noun" lang="ms">Ceki Leak</span>, a [mythological creature](https://en.wikipedia.org/wiki/Leyak)
+* <span class="noun" lang="ms">Gunting Baja</span>, Bali
+* <span class="noun" lang="ms">Gunting Rumput</span>
+* <span class="noun" lang="ms">Gar’da Kencana</span>
+* <span class="noun" lang="ms">Kabuki</span>
+* <span class="noun" lang="ms">Kapal Ferry</span> (Old Thousand has a colour image of a ship)
+* <span class="noun" lang="ms">Pura Dewa</span>, Bali
 
 {% image src="Sin_Po_1922_03_20_001.png"  noborder=true 
   alt="A black and white advertisement with an image of two tigers fighting."
   originalUrl="https://opac.perpusnas.go.id/uploaded_files/dokumen_isi3/Terbitan%20Berkala/Sin_Po_1922_03_20_001.pdf"
   license="cc0" %}
-Newspaper advertisement in [<Noun lang="id">Sin
-Po</Noun>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922,
-for <Noun lang="id">Dua Macan</Noun> (‘two tigers’) brand ceki cards (<span
+Newspaper advertisement in [<span class="noun" lang="id">Sin
+Po</span>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922,
+for <span class="noun" lang="id">Dua Macan</span> (‘two tigers’) brand ceki cards (<span
 lang="id">kartoe tjeki</span>), being sold by Handel Mij. (also publishers of
 the newspaper).
 {% imageEnd %}
 
 Old Indonesian brands included:
 
-* <Noun lang="id">Bajing</Noun> (‘squirrel’)[@JavaanseKaartspelen p. 12]
-* <Noun lang="id">Pajung</Noun>[@JavaanseKaartspelen p. 12]
-* <Noun lang="id">999</Noun>[@JavaanseKaartspelen p. 12]
-* <Noun lang="id">Leo</Noun> (‘lion’)[@JavaanseKaartspelen p. 12]
-* <Noun lang="id">Warak</Noun> (‘rhino’)[@JavaanseKaartspelen p. 12]
-* <Noun lang="id">Kodok</Noun> (‘frog’)[@JavaanseKaartspelen p. 12]
-* <Noun lang="id">Kunci</Noun> (‘lock/key’)[@JavaanseKaartspelen p. 12]
-* <Noun lang="id">Dua Macan</Noun> (‘two tigers’)
+* <span class="noun" lang="id">Bajing</span> (‘squirrel’)[@JavaanseKaartspelen p. 12]
+* <span class="noun" lang="id">Pajung</span>[@JavaanseKaartspelen p. 12]
+* <span class="noun" lang="id">999</span>[@JavaanseKaartspelen p. 12]
+* <span class="noun" lang="id">Leo</span> (‘lion’)[@JavaanseKaartspelen p. 12]
+* <span class="noun" lang="id">Warak</span> (‘rhino’)[@JavaanseKaartspelen p. 12]
+* <span class="noun" lang="id">Kodok</span> (‘frog’)[@JavaanseKaartspelen p. 12]
+* <span class="noun" lang="id">Kunci</span> (‘lock/key’)[@JavaanseKaartspelen p. 12]
+* <span class="noun" lang="id">Dua Macan</span> (‘two tigers’)

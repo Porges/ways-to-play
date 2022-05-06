@@ -12,7 +12,7 @@ hero:
     originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
 ---
 
-<p class="lead"><Noun lang="ms">Cholek Tiga</Noun> (‘draw three’) is a Peranakan fishing game for two or three players, played with <a href="/articles/cards/ceki/">Cherki cards</a>.</p>
+<p class="lead"><span class="noun" lang="ms">Cholek Tiga</span> (‘draw three’) is a Peranakan fishing game for two or three players, played with <a href="/articles/cards/ceki/">Cherki cards</a>.</p>
 
 <!-- excerpt -->
 
@@ -20,8 +20,8 @@ The description below is based on @ChikiCards [p. 125–7]:
 
 ## Equipment
 
-<Noun lang="ms">Cholek Tiga</Noun> is played with two decks of <Noun
-lang="ms">Cherki</Noun> cards (120 cards total). There will be four copies of
+<span class="noun" lang="ms">Cholek Tiga</span> is played with two decks of <Noun
+lang="ms">Cherki</span> cards (120 cards total). There will be four copies of
 each card in the game.
 
 ## Play
@@ -90,4 +90,4 @@ a bonus from **each** other player, which is paid instantly:
 
 ## See also
 
-{% gameref balik-satu %} is another <Noun lang="ms-Latn">Cherki</Noun> game.
+{% gameref balik-satu %} is another <span class="noun" lang="ms-Latn">Cherki</span> game.

@@ -283,7 +283,7 @@ transport Sardinia.[@LifeOnTransportSardinia]
 
 Post-war memoirs indicate that the game was commonly played in <abbr
 class="initialism" title="prisoners of war">POW</abbr> camps as in the Boer
-War, including the German camp <Noun lang="de">Münster</Noun> II (<abbr
+War, including the German camp <span class="noun" lang="de">Münster</span> II (<abbr
 class="initialism" title="also known as">AKA</abbr> K47, <span
 lang="de">Rennbahn</span>), although gambling games were not permitted to be
 played.[@KaisersGuest pp. 204–6]
@@ -339,7 +339,7 @@ layout.
 
 {% image src="chinese_board.svg" alt="" %}
 Example of a Chinese-style staking layout. At the top is the manufacturer’s name
-<span lang="zh">高慶坊</span> <Noun lang="zh-Latn">Gāo Qìng Fāng</Noun>,
+<span lang="zh">高慶坊</span> <span class="noun" lang="zh-Latn">Gāo Qìng Fāng</span>,
 followed by <span lang="zh">翹骰不算</span> “cocked dice don’t count”.
 {% imageEnd %}
 
@@ -443,11 +443,11 @@ time,[@ABookmakerAndThePolice][@HeartAnchorAndCrown] but it may have been in
 India for a long time prior to that.
 
 In current times, the game is called <span lang="hi">झंडी मुंडा</span> <Noun
-lang="hi-Latn">Jhaṇḍī Muṇḍā</Noun> (“flag crown”?), or <span lang="hi">खोर
-खोरे</span> <Noun lang="hi-Latn">Khor Khore</Noun>.
+lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi">खोर
+खोरे</span> <span class="noun" lang="hi-Latn">Khor Khore</span>.
 
 Gambling remains illegal in most of India but the game is commonly played during
-[<Noun lang="hi-Latn">Diwali</Noun>](https://en.wikipedia.org/wiki/Diwali).
+[<span class="noun" lang="hi-Latn">Diwali</span>](https://en.wikipedia.org/wiki/Diwali).
 
 {% image src="shutterstock_1958829937.svg" alt=""
     license="stock-image",
@@ -455,7 +455,7 @@ Gambling remains illegal in most of India but the game is commonly played during
     author="rajanpy",
     identifier="1958829937",
     originalUrl="https://www.shutterstock.com/image-vector/langur-burja-jhandi-munda-dice-local-1958829937" %}
-An example of a staking layout for <Noun lang="hi-Latn">Jhaṇḍī Muṇḍā</Noun>.
+An example of a staking layout for <span class="noun" lang="hi-Latn">Jhaṇḍī Muṇḍā</span>.
 Note that the heart is presented with the same orientation as the spade; this
 appears to be a typical feature (see more examples:
 [1](https://www.alamy.com/stock-photo-traditional-gambling-in-indian-village-on-a-festival-132646298.html),
@@ -495,9 +495,9 @@ lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span
 lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the
 association has been lost in Nepal as the anchor symbol was replaced by a
 flag.{%endfn%} It is commonly played during the festivals of [<Noun
-lang="ne-Latn">Dashain</Noun>](https://en.wikipedia.org/wiki/Dashain) (<span
+lang="ne-Latn">Dashain</span>](https://en.wikipedia.org/wiki/Dashain) (<span
 lang="ne">दशैं</span>) and [<Noun
-lang="ne-Latn">Tihar</Noun>](https://en.wikipedia.org/wiki/Tihar_(festival))
+lang="ne-Latn">Tihar</span>](https://en.wikipedia.org/wiki/Tihar_(festival))
 (<span lang="ne">तिहार</span>), and it is usually played with six dice
 (requiring a minimum of two matches to pay out).
 
@@ -552,7 +552,7 @@ to men, the game can be played by anyone, including young children.
     %}
 A game being played with 6 dice and 12 squares (including one featuring the
 [Teletubbies](https://en.wikipedia.org/wiki/Teletubbies)!) at <Noun
-lang="id">Pura Samuan Tiga</Noun> temple; note the men wearing traditional
+lang="id">Pura Samuan Tiga</span> temple; note the men wearing traditional
 Balinese dress including [<span
 lang="ban">udeng</span>](https://en.wikipedia.org/wiki/National_costume_of_Indonesia#:~:text=Malay%20men%27s%20headgear-,Udeng,-%2C%20Balinese%20men%27s%20headgear).
 {% imageEnd %}

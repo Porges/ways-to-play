@@ -11,17 +11,17 @@ hero:
 ---
 
 {% image src="../../maps/Morabaraba.svg" alt="A map showing Botswana, Lesotho, Mozambique, and South Africa." position="right" %}
-<Noun lang="st">Morabaraba</Noun> is played across south-eastern Africa.
+<span class="noun" lang="st">Morabaraba</span> is played across south-eastern Africa.
 {% imageEnd %}
 
-<Noun lang="st">Morabaraba</Noun> is a [mill game](/articles/mill-games/) from
+<span class="noun" lang="st">Morabaraba</span> is a [mill game](/articles/mill-games/) from
 south-eastern Africa. The gameplay of the standardized version is very similar
 to {% gameref twelve-mens-morris %}  (with a few minor differences), but the
 version played in Lesotho has a unique board.
 
 <!-- excerpt -->
 
-<Noun lang="st">Morabaraba</Noun> is played as a competitive sport in South
+<span class="noun" lang="st">Morabaraba</span> is played as a competitive sport in South
 Africa, administered by [Mind Sports South Africa](http://mindsportsa.co.za/).
 It is widely played throughout the country; a poll conducted by <cite>The
 Sowetan</cite> in 1996 indicated that 40% of South Africans played the
@@ -35,7 +35,7 @@ game.[@MorabarabaGetOnBoard]
   author="ivanfolio",
   originalUrl="https://www.shutterstock.com/image-photo/traditonal-african-strategy-board-game-know-1431198950",
   license="stock-image" %}
-A game of <Noun lang="st">Morabaraba</Noun> being played.
+A game of <span class="noun" lang="st">Morabaraba</span> being played.
 {% imageEnd %}
 
 ## History
@@ -53,7 +53,7 @@ de L’Afrique</cite> (Paris, 1859) (later published in English as <cite>The
 Basutos: or Twenty-Three Years in South Africa</cite> (London: Nisbet, 1861)),
 but the book contains no mention of any board games. There is now [a
 roundabout](https://goo.gl/maps/jymZMMft3fB2) in his home town, <Noun
-lang="fr">Orthez</Noun>, [named after
+lang="fr">Orthez</span>, [named after
 him](http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php).{%endfn%}
 The introduction of the game had unintended consequences for the mission: young
 men preferred to play the game rather than attend
@@ -64,7 +64,7 @@ herd-boys’:‌[@BasothoChildren p. 41] “for when you play it, old or young, 
 forget your herds, and they wander into the corn…”‌[@TheWorldAndCattle p. 56]
 
 The game was also popular amongst Basotho men who travelled to South Africa to
-work in its mines. References to <Noun lang="st">Morabaraba</Noun> can be found
+work in its mines. References to <span class="noun" lang="st">Morabaraba</span> can be found
 in <span lang="st">difela</span>/<span lang="st">lifela</span> (singular <span
 lang="st">sefela</span>), song–poems that were sung by these migrant
 workers.[@BasothoOralPoetry pp. 17, 175, 229][@TimeOfCannibals pp. 98–101]
@@ -94,9 +94,9 @@ The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and
 is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small
 circles’,[@SeSothoDictionary p. 304] so could refer to the action of a mill.‌ In
 Nguni languages (isiZulu, isiXhosa), it is known as <Noun
-lang="zu">(Um)labalaba</Noun>, with similar meaning,‌[@GamesBasotho pp. 247–50]
+lang="zu">(Um)labalaba</span>, with similar meaning,‌[@GamesBasotho pp. 247–50]
 and in Ronga, spoken in Mozambique, it is called <Noun
-lang="rng">Muravarava</Noun>.
+lang="rng">Muravarava</span>.
 
 {%aside%}
 There are two different [Sesotho
@@ -124,7 +124,7 @@ lang="st">mmila</span>/<span lang="st">’mila</span>,
 lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌[@OldTswana p. 350]), and
 the name <span lang="tn">morabaraba</span> refers solely to a mancala
 game.{%fn%}Because of the large overlap of names, in written descriptions <Noun
-lang="st">Morabaraba</Noun> is often confused with or included in lists of other
+lang="st">Morabaraba</span> is often confused with or included in lists of other
 mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span
 lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example,
 @MorabarabaGetOnBoard).{%endfn%}
@@ -155,7 +155,7 @@ skeuomorphic feature.{%endfn%} are used in two contrasting colours.
   position="right"
   src="../../articles/mill-games/large_merels_with_diagonals.svg"
   alt="" %}
-Standard <Noun lang="st">Morabaraba</Noun> is played on the large mill board with diagonals.
+Standard <span class="noun" lang="st">Morabaraba</span> is played on the large mill board with diagonals.
 {% imageEnd %}
 
 During the placement phase, players must place a single piece on any vacant
@@ -167,7 +167,7 @@ opponent’s pieces. The removed piece may not be from a mill unless there are n
 other pieces that can be removed.
 
 During the placement phase it is possible to form two mills at once. In
-<Noun lang="st">Morabaraba</Noun> this only allows a player to remove one piece.
+<span class="noun" lang="st">Morabaraba</span> this only allows a player to remove one piece.
 
 When a player is reduced to three pieces, their pieces can ‘fly’ and move to any
 vacant point on the board, ignoring the lines.
@@ -183,7 +183,7 @@ they are unable to make a valid move on their turn.
     author="ivanfolio",
     originalUrl="https://www.shutterstock.com/image-photo/manica-mozambique-december-19-2018-young-1268455078",
     license="stock-image" %}
-A game of <Noun lang="rng">Muravarava</Noun> being played in Mozambique, at Chinhamapere Secondary School.
+A game of <span class="noun" lang="rng">Muravarava</span> being played in Mozambique, at Chinhamapere Secondary School.
 {% imageEnd %}
 
 In tournament play, Mind Sports adopted an additional rule: During the movement
@@ -264,10 +264,10 @@ href="https://www.instagram.com/p/yPNmJpPNzW/">4</a>).
     size="small"
     src="large_merels_with_full_diagonals.svg"
     alt="" %}
-An alternate <Noun lang="st">Morabaraba</Noun> board.
+An alternate <span class="noun" lang="st">Morabaraba</span> board.
 {% imageEnd %}
 
-Another board pattern is also used to play <Noun lang="st">Morabaraba</Noun>,
+Another board pattern is also used to play <span class="noun" lang="st">Morabaraba</span>,
 with a diagonally crossed central square. I do not know if the rules vary in any
 way.
 
@@ -278,7 +278,7 @@ way.
       author="mk11photography",
       license="with-permission",
       originalUrl="https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624" %}
-Men playing on a different <Noun lang="st">Morabaraba</Noun> board. More
+Men playing on a different <span class="noun" lang="st">Morabaraba</span> board. More
 examples of this board can be found on Instagram: <a
 href="https://www.instagram.com/p/-lij8bskZZ/">1</a>, <a
 href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>. </ArticleImage>

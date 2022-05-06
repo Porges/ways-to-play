@@ -40,7 +40,7 @@ A game in progress, just after the <i>placement</i> phase has been finished, and
 Many of the games overlap so much that they could be considered to be the same
 game. For example, {% gameref morabaraba %} as standardized by Mind Sports
 South Africa has only two small differences from {% gameref twelve-mens-morris
-%} as standardized by the <Noun lang="de">Weltmühlespiel Dachverband</Noun>.
+%} as standardized by the <span class="noun" lang="de">Weltmühlespiel Dachverband</span>.
 However, I have chosen to describe it separately due to the interesting history
 and cultural context around the game.
 

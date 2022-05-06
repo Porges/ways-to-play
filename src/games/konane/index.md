@@ -4,7 +4,7 @@ titleLang: haw
 players: 2
 ---
 
-<p class="lead"><Noun lang="haw">Kōnane</Noun> (sometimes also called <span
+<p class="lead"><span class="noun" lang="haw">Kōnane</span> (sometimes also called <span
 lang="haw">mū</span>, which is also used to refer to draughts) is a traditional
 Hawaiian abstract game for two players. While it looks similar to checkers at
 first glance, the object of the game is different, and the strategy is very
@@ -25,10 +25,10 @@ A game of <span lang="haw">kōnane</span> in action.
 
 ## History
 
-<Noun lang="haw">Kōnane</Noun> stands alone as a purely-abstract game in
+<span class="noun" lang="haw">Kōnane</span> stands alone as a purely-abstract game in
 Hawaiian culture.{%fn%}John F. G. Stokes (1875–1960, an Australian archæologist
-on <Noun lang="haw">Hawaiʻi</Noun>) suggested at one point—with only a sliver of
-linguistic evidence—that <Noun lang="haw">Kōnane</Noun> could be a distant
+on <span class="noun" lang="haw">Hawaiʻi</span>) suggested at one point—with only a sliver of
+linguistic evidence—that <span class="noun" lang="haw">Kōnane</span> could be a distant
 descendant of Go, which had been transmitted by the survivors of Japanese
 shipwrecks.[@Stokes]{%endfn%}  However, it definitely existed before European
 contact, as it was described by Captain Cook’s voyage, which was the first of
@@ -52,8 +52,8 @@ least the pieces, to plan battles:
 > movements on the battlefield.[@KamehamehaAndHisWarrior p. 123]
 
 The gods were also rumoured to enjoy <span lang="haw">kōnane</span>: the volcano
-goddess <Noun lang="haw">Pele</Noun> was said to play it at her home in <Noun
-lang="haw">Hale-maʻumaʻu</Noun> crater.[@Ellis17 p. 183]
+goddess <span class="noun" lang="haw">Pele</span> was said to play it at her home in <Noun
+lang="haw">Hale-maʻumaʻu</span> crater.[@Ellis17 p. 183]
 
 The earliest written record we have of the game is from James King,{%fn%}At the
 time of the entry quoted, Captain Cook himself had been killed. James King
@@ -69,7 +69,7 @@ Pacific.  In an entry dated March 1779, he wrote:
 > which they move from ſquare to ſquare.[@VoyageToPacific p. 144]</p>
 
 Another early witness was Archibald Campbell,{%fn%}Campbell arrived in <Noun
-lang="haw">Hawaiʻi</Noun> aboard the <em>Neva</em>, the first Russian ship to
+lang="haw">Hawaiʻi</span> aboard the <em>Neva</em>, the first Russian ship to
 circumnavigate the world, on the 29th of January 1809, and left aboard the
 <em>Duke of Portland</em>, a whaler, on the 4th of March 1810. The <em>Duke of
 Portland</em> also carried a letter from King Kamehameha to King George III, see
@@ -97,7 +97,7 @@ location for playing <span lang="haw">kōnane</span>.[@LegendsOfHonolulu p. 8] A
 large stone <span lang="haw">kōnane</span> board{%fn%}@LegendsOfHonolulu
 indicates that the site of the large stone board was the “Spreckels Building”,
 which was on Fort Street between Merchant St and Queen St, and that the smaller
-boards mentioned were near <Noun lang="haw">Kekūanāoʻa</Noun>’s house, which was
+boards mentioned were near <span class="noun" lang="haw">Kekūanāoʻa</span>’s house, which was
 on the corner of King and Richards Streets.{%endfn%} was reported to be opposite
 the temple (marked “Hale o Lono” in the map below), in the current location of
 the Hawaii Community Foundation. Smaller boards were near what is now Iolani
@@ -112,16 +112,16 @@ compound on the point at the bottom centre. Kou is the area around there,
 bordered by the yam field at the top. Archibald Campbell stayed for some time
 with Isaac Davis, who lived in the rightmost of the three houses on the left.
 (Map from the [University of <Noun
-lang="haw">Hawaiʻi</Noun>](https://digicoll.manoa.hawaii.edu/savedmaps/Pages/viewtext.php?s=browse&amp;tid=61&amp;route=browseby.php&amp;by=newest).)
+lang="haw">Hawaiʻi</span>](https://digicoll.manoa.hawaii.edu/savedmaps/Pages/viewtext.php?s=browse&amp;tid=61&amp;route=browseby.php&amp;by=newest).)
 {% imageEnd %}
 
 The game continued to be popular throughout the 19th century; William Brigham
 (first director of Hawaii’s state museum) reported that King <Noun
-lang="haw">Kalākaua</Noun> (1836–1891) and his wife Queen <Noun
-lang="haw">Kapiʻolani</Noun> (1834–1899) were “experts at konane”.[@Brigham08 p.
+lang="haw">Kalākaua</span> (1836–1891) and his wife Queen <Noun
+lang="haw">Kapiʻolani</span> (1834–1899) were “experts at konane”.[@Brigham08 p.
 378]
 
-In current times, it is a popular game during the <Noun lang="haw">Makahiki</Noun> (new year)
+In current times, it is a popular game during the <span class="noun" lang="haw">Makahiki</span> (new year)
 festival.[@MolokaiDispatch]
 
 ## Equipment
@@ -185,7 +185,7 @@ lang="haw">ʻiliʻili</span>); often the black pieces (<span lang="haw">ʻiliʻi
 ʻeloʻelo</span>) were basalt and the white pieces (<span lang="haw">ʻiliʻili
 keʻokeʻo</span> or <span lang="haw">kea</span>) made of branch coral.[@Ellis17
 p. 159] One <span lang="haw">wahi pana</span> (celebrated location) for stones
-was Kōloa,{%fn%}<Noun lang="haw">Kōloa</Noun> was also famous for its
+was Kōloa,{%fn%}<span class="noun" lang="haw">Kōloa</span> was also famous for its
 reproducing stones (<span lang="haw">ʻiliʻili hānau</span>). For more about
 these, see @ClarkBeaches or @MajesticKau.{%endfn%} a beach situated between
 Nīnole and Punaluʻu in Kaʻū on Hawaiʻi.[@Ellis17 p. 258] Unfortunately most of

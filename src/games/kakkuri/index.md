@@ -7,16 +7,16 @@ titleLang: ja-Latn
 file='pronunciation_ja_がっくり.mp3' %} (<span lang="ja">カックリ</span>) is the
 last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>,
 ‘reading’) card game in Japan.[@KakkuriYomi] It is still played in the
-town of <Noun lang="ja-Latn">Yafune</Noun>, part of the city of <Noun
-lang="ja-Latn">Echizen</Noun>, <Noun lang="ja-Latn">Fukui</Noun> prefecture
+town of <span class="noun" lang="ja-Latn">Yafune</span>, part of the city of <Noun
+lang="ja-Latn">Echizen</span>, <span class="noun" lang="ja-Latn">Fukui</span> prefecture
 (<span lang="ja">福井県越前市矢船町</span>).
 
 ## Equipment
 
-<Noun lang="ja-Latn">Kakkuri</Noun> is played with {% pronounce lang="ja-Latn"
+<span class="noun" lang="ja-Latn">Kakkuri</span> is played with {% pronounce lang="ja-Latn"
 word="komatsufuda" file='pronunciation_ja_小松札.mp3' pronouncer="poyotan" %}
 (<span lang="ja">小松札</span>), a deck of 48 cards which run from 1–12 in four
-suits. Alternatively, it can be played with <Noun lang="ja-Latn">Hanafuda</Noun>
+suits. Alternatively, it can be played with <span class="noun" lang="ja-Latn">Hanafuda</span>
 cards if you are very familiar with the deck ordering, or you can play with a
 standard deck of cards by removing all {% cards '⑩' %}s.
 

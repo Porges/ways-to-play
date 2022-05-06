@@ -4,7 +4,7 @@ titleLang: fr
 mainImage: 'TribordBoard.png'
 ---
 
-<p class="lead">The French game of <Noun lang="fr">Tribord et Bâbord</Noun> (‘Starboard and
+<p class="lead">The French game of <span class="noun" lang="fr">Tribord et Bâbord</span> (‘Starboard and
 Port’) is a 19th-century dice gambling game for two players.</p>
 
 <!-- excerpt -->
@@ -20,12 +20,12 @@ crown-and-anchor %}.
     src='./TribordBoard.png'
     alt="A board with three symbols on each side. On the left side, labelled “port” in French, it has images of a club, an anchor, and a spade. On the right, labelled “starboard” in French, a diamond, a sun, and a heart."
     license="cc0" %}
-The board for  <Noun lang="fr">Tribord et Bâbord</Noun>
+The board for  <span class="noun" lang="fr">Tribord et Bâbord</span>
 {% imageEnd %}
 
-The game was published by the <Noun lang="fr">L. Saussine</Noun> company of
-Paris in 1880 (printed by <Noun lang="fr">Roche</Noun> and illustrated by a
-<Noun lang="fr">B. Coudert</Noun>).[@BibliographieDeLaFrance69 p. 227]
+The game was published by the <span class="noun" lang="fr">L. Saussine</span> company of
+Paris in 1880 (printed by <span class="noun" lang="fr">Roche</span> and illustrated by a
+<span class="noun" lang="fr">B. Coudert</span>).[@BibliographieDeLaFrance69 p. 227]
 
 ## Play
 

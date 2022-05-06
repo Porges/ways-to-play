@@ -58,8 +58,8 @@ The game dates from at least the late Roman Empire or Byzantine period, and at
 the moment we do not have solid evidence for an earlier
 date.[@GamesGreekAndRoman p. 3]{%fn%}@RamatHanadiv [p. 227] describes a board
 found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<Noun
-lang="he-Latn">Ḥorvat ʿAqav</Noun>), dated 400–600&nbsp;CE, while a cache of
-gaming boards found in a Roman fort at <Noun lang="ar-Latn">Abu Sha’ar</Noun>
+lang="he-Latn">Ḥorvat ʿAqav</span>), dated 400–600&nbsp;CE, while a cache of
+gaming boards found in a Roman fort at <span class="noun" lang="ar-Latn">Abu Sha’ar</span>
 that was abandoned in the late 4th century contained no mills
 boards.[@RomanGameBoards]{%endfn%} Earlier dates have often been proposed based
 upon the existence of boards carved on ancient monuments such as the
@@ -73,7 +73,7 @@ Men’s Morris layout on one side was found as part of the  [Gokstad Viking ship
 burial](https://en.wikipedia.org/wiki/Gokstad_ship) (<abbr
 title="circa">c.</abbr> 900) which was discovered in
 Norway.[@TheVikingShipFromGokstad pp. 44, 99] Another boat burial (the “<Noun
-lang="sv">Årby</Noun> boat”) from around the same time also included a Morris
+lang="sv">Årby</span> boat”) from around the same time also included a Morris
 game.[@BoardGamesInBoatBurials p. 441]
 
 {% image src="ship_board.jpg;6065924.jpg" alt=";" size="extra-wide" perRow=1
@@ -91,10 +91,10 @@ One of the earliest written references to the game is in the 10th century [<cite
 lang="ar-Latn">Kitāb
 al-Aghānī</cite>](https://en.wikipedia.org/wiki/Kitab_al-Aghani) (<cite
 lang="ar">{% isolate "كتاب الأغاني" %}</cite>, ‘book of songs’), a large
-collection of poems and stories assembled by [<Noun lang="ar-Latn">ʾAbū l-Faraj
-al-Iṣfahānī</Noun>](https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani)
+collection of poems and stories assembled by [<span class="noun" lang="ar-Latn">ʾAbū l-Faraj
+al-Iṣfahānī</span>](https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani)
 (<span lang="ar">{% isolate "أبو الفرج الأصفهاني" %}</span>, 897–967). One story
-describes a club from the time of the poet <Noun lang="ar-Latn">al-Aḥwaṣ</Noun>
+describes a club from the time of the poet <span class="noun" lang="ar-Latn">al-Aḥwaṣ</span>
 (<span lang="ar">{% isolate "الأحوص" %}</span>, 660–724), along with the board
 games it held for the use of its members. According to the book, they could play
 <span lang="ar-Latn">shiṭranj</span> (<span lang="ar">{% isolate "شطرنج"
@@ -103,14 +103,14 @@ lang="ar">نرد</span>), or — most importantly here — <span
 lang="ar-Latn">qirq</span> (<span lang="ar">{% isolate 'قرق' %}</span>,
 morris).[@GamblingInIslam p. 481] The derivation of the name <span
 lang="ar-Latn">qirq</span> is uncertain, but it is apparently not originally an
-Arabic word.[@Murray2 p. 37] {%fn%}The Imam <Noun lang="ar-Latn">ʾAbū al-Qāsim
-al-Rāfiʿī al-Qazwīnī</Noun> (<span lang="ar">{% isolate "أبو القاسم الرافعي القزويني" %}</span>, 1160–1226) would later describe <span
+Arabic word.[@Murray2 p. 37] {%fn%}The Imam <span class="noun" lang="ar-Latn">ʾAbū al-Qāsim
+al-Rāfiʿī al-Qazwīnī</span> (<span lang="ar">{% isolate "أبو القاسم الرافعي القزويني" %}</span>, 1160–1226) would later describe <span
 lang="ar-Latn">qirq</span> as the “chess of the
 [Maghrebis](https://en.wikipedia.org/wiki/Maghrebis)”.[@GamblingInIslam p. 381]
 Similarly, {% gameref shax %} is sometimes referred to as “Somali
 chess”.{%endfn%}
 
-Later, <Noun lang="fa-Latn">Faīrūzābādī</Noun> (of whom, more below) would
+Later, <span class="noun" lang="fa-Latn">Faīrūzābādī</span> (of whom, more below) would
 identify <span lang="ar-Latn">qirq</span> with <span
 lang="ar-Latn">suddar</span> (<span lang="ar">سُدَّر</span>), apparently derived
 from the Persian <span lang="fa-Latn">se darre</span> (<span lang="fa">سِهْ
@@ -158,8 +158,8 @@ mentioned in the French Rule of the Templar order (probably written between 1139
 and 1147&nbsp;CE[@TheRuleOfTheTemplars p. 12]), as the only board game allowed
 to be played by Templar brothers. It is possible that the order picked up the
 game through their contact with the Arabic-speaking world:{%fn%}Indeed, a board
-has been found inscribed upon a stone in [<Noun lang="fr">Château
-Pèrelin</Noun>](https://en.wikipedia.org/wiki/Ch%C3%A2teau_P%C3%A8lerin), a
+has been found inscribed upon a stone in [<span class="noun" lang="fr">Château
+Pèrelin</span>](https://en.wikipedia.org/wiki/Ch%C3%A2teau_P%C3%A8lerin), a
 fortress constructed by the Templars in what is now Israel — although it could
 have been placed there any time since the fortress was built.[@AtlitCastle p.
 60]{%endfn%}
@@ -275,9 +275,9 @@ by monkeys:
 
 The board with diagonals seems to appear first in Arabic sources;[@Murray2 p.
 43] it is shown — as the only drawing — in the famous <Noun
-lang="ar-Latn">al-Qamūs al-Muḥīṭ</Noun> dictionary (<span lang="ar">القاموس
+lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<span lang="ar">القاموس
 المحيط</span>, ‘the surrounding ocean’) of [<Noun
-lang="fa-Latn">Fairūzābādī</Noun>](https://en.wikipedia.org/wiki/Fairuzabadi)
+lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi)
 (<span lang="fa">{% isolate 'فیروزآبادی' %}</span>, 1329–1414), published at the start of the
 15th century.[@alQamus]
 
@@ -290,7 +290,7 @@ lang="fa-Latn">Fairūzābādī</Noun>](https://en.wikipedia.org/wiki/Fairuzabadi
     orgName="University of Pennsylvania, Kislak Center for Special Collections"
     originalUrl="https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r" %}
 The entry for “<span lang="ar">القَرْقُ</span>” in the <Noun
-lang="ar-Latn">Qamūs</Noun>. The game is here identified with <span
+lang="ar-Latn">Qamūs</span>. The game is here identified with <span
 lang="ar-Latn">suddar</span>.
 {% imageEnd %}
 
@@ -395,7 +395,7 @@ In other languages it has been called:
 * Bengali: <span lang="bn">ন গুটি</span> (<span lang="bn-Latn">nô guṭi</span>) ‘nine beads’
 * French: <span lang="fr">le jeu du moulin</span> ‘the mill game’
 * Greek: <span lang="grc">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="grc">τριώδιον</span> ‘triodium’.[@Hyde p. 205]
-* German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league, the “<Noun lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</Noun>”. -->
+* German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. --> In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de">Fickmül</span>.{%fn%}See [the Gargantua article](/articles/lists/rabelais) for more about Fischart’s list.{%endfn%}
 * Ottoman Turkish: <span lang="ota">طقوز طاش</span> (<span lang="ota-Latn">dokuz taş</span>) ‘nine stone’[@Hyde p. 206]
 * Swiss: <span lang="gsw">Nüünischtei</span>.[@MundartLexikon]
 * Urdu: <span lang="ur">نو گوٹی</span> (<span lang="ur-Latn">nau guṭī</span>) ‘nine pieces’[@GuptaD p. 145]
@@ -413,11 +413,11 @@ flat 9 triads */}-->
     license="with-permission",
     originalUrl="https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html" %}
 A <span lang="fr">jeu du moulin</span> in the south-west wall of the <Noun
-lang="fr">Château du Moulin</Noun> (<Noun lang="fr">Loir-et-Cher</Noun>,
+lang="fr">Château du Moulin</span> (<span class="noun" lang="fr">Loir-et-Cher</span>,
 France). Built between 1480–1501, this is a punny reference to the name of the
-original owner, <Noun lang="fr">Philippe du Moulin</Noun>. There is another
+original owner, <span class="noun" lang="fr">Philippe du Moulin</span>. There is another
 Three Men’s Morris board on the eastern wall, and the nearby <Noun
-lang="fr">Château de Gien</Noun> has a similar motif.[@MerylsBoardEnigma p. 103]
+lang="fr">Château de Gien</span> has a similar motif.[@MerylsBoardEnigma p. 103]
 {% imageEnd %}
 
 ## Analysis
@@ -454,7 +454,7 @@ mill on the next turn.
 {% image 
   src="merel-mobius.svg;merel-pentagon3.svg;merel-hexagon.svg"
   alt=";;" %}
-The Möbius board (invented by <Noun lang="de">Ingo Althöfer</Noun>), another
+The Möbius board (invented by <span class="noun" lang="de">Ingo Althöfer</span>), another
 pentagonal board (without joined corners), and a hexagonal board.
 {% imageEnd %}
 
@@ -500,7 +500,7 @@ TODO! TODO!
 
 ### Lasker Morris
 
-This variant was developed by <Noun lang="de">Emanuel Lasker</Noun>, who was
+This variant was developed by <span class="noun" lang="de">Emanuel Lasker</span>, who was
 World Chess Champion from 1894 to 1921. It unifies the two phases of the game
 into one.
 

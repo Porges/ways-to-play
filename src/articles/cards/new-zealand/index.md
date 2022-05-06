@@ -181,7 +181,7 @@ Croxley/John Dickinson card back showing the <a href="http://ketechristchurch.pe
 John Dickinson card back showing the Queenstown gondola (the first in the southern hemisphere).
 {% imageEnd %}
 {% image noborder=true alt="" src="Croxley-Cook.jpg" %}
-Croxley/DRG card back showing <a href="https://en.wikipedia.org/wiki/Aoraki_/_Mount_Cook"><Noun lang="mi">Aoraki</Noun> / Mount Cook</a>.
+Croxley/DRG card back showing <a href="https://en.wikipedia.org/wiki/Aoraki_/_Mount_Cook"><span class="noun" lang="mi">Aoraki</span> / Mount Cook</a>.
 {% imageEnd %}
 </div>
 

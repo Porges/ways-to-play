@@ -9,6 +9,6 @@ titleLang: ja-Latn
     size="wide"
     src='Shogundo_cards.jpg'
     alt="" %}
-<Noun lang="ja-Latn">Kabu</Noun> cards produced by [<Noun lang="ja-Latn">Tamura
-Shōgundō</Noun>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
+<span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura
+Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
 {% imageEnd %}

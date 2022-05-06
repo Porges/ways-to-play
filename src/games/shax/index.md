@@ -34,15 +34,15 @@ two players are those least interested in the game.[@FirstFootsteps pp. 179–80
 </blockquote>
 
 The game is mentioned in many stories of Somali poets and leaders (and
-poet-leaders), such as <Noun lang="so">Garaad Xirsi Garaad Faarax</Noun>
-(commonly known as “<Noun lang="so">Wiil Waal</Noun>”, ‘crazy boy’), the early
+poet-leaders), such as <span class="noun" lang="so">Garaad Xirsi Garaad Faarax</span>
+(commonly known as “<span class="noun" lang="so">Wiil Waal</span>”, ‘crazy boy’), the early
 19th century ruler of [<Noun
-lang="so">Jigjiga</Noun>](https://en.wikipedia.org/wiki/Jijiga) (now part of
-Ethiopia); [<Noun lang="so">Yuusuf Cali
-Keenadiid</Noun>](https://en.wikipedia.org/wiki/Yusuf_Ali_Kenadid) (1837–1911),
+lang="so">Jigjiga</span>](https://en.wikipedia.org/wiki/Jijiga) (now part of
+Ethiopia); [<span class="noun" lang="so">Yuusuf Cali
+Keenadiid</span>](https://en.wikipedia.org/wiki/Yusuf_Ali_Kenadid) (1837–1911),
 [Sultan of Hobyo](https://en.wikipedia.org/wiki/Sultanate_of_Hobyo); and [<Noun
 lang="so">Sayid Maxamed Cabdulle
-Xasan</Noun>](https://en.wikipedia.org/wiki/Mohammed_Abdullah_Hassan)
+Xasan</span>](https://en.wikipedia.org/wiki/Mohammed_Abdullah_Hassan)
 (1856–1920), leader of the [Dervish
 movement](https://en.wikipedia.org/wiki/Dervish_movement_(Somali)).[@IntroductionToShax
 p. 2]
@@ -55,7 +55,7 @@ p. 2]
     position="right"
     src='../../articles/mill-games/large_merels.svg'
     alt="" %}
-    <Noun lang="so">Shax</Noun> is played on the large mill board, without diagonals.
+    <span class="noun" lang="so">Shax</span> is played on the large mill board, without diagonals.
 {% imageEnd %}
 
 Players take turns playing one of their pieces on a vacant point of the board.

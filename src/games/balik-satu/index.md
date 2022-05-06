@@ -19,7 +19,7 @@ hero:
     originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
 ---
 
-<p class="lead"><Noun lang="ms">Balik Satu</Noun> (‘turn one’) is a Peranakan game played with <a href="/articles/cards/ceki/">Cherki cards</a>. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</p>
+<p class="lead"><span class="noun" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with <a href="/articles/cards/ceki/">Cherki cards</a>. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</p>
 
 <!-- excerpt -->
 
@@ -28,12 +28,12 @@ from @TheBabas [p. 155].
 
 ## Equipment
 
-<Noun lang="ms">Balik Satu</Noun> can be played by almost any number of people
+<span class="noun" lang="ms">Balik Satu</span> can be played by almost any number of people
 as long as you have enough cards. My two sources give differing amounts of cards
 per player. (I am inclined to prefer the rightmost column as it starts with the
 simple example of two decks for two people, even though the book suggests that
 up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a
-<Noun lang="ms">Cherki</Noun> deck contains 60 cards, two of each type, so a ½
+<span class="noun" lang="ms">Cherki</span> deck contains 60 cards, two of each type, so a ½
 deck has 30 cards, one of each type.
 
 <table class="numeric table table-sm">
@@ -178,8 +178,8 @@ the normal scoring (no calling bonuses will apply).
 
 ### Balik Lima Belas
 
-<Noun lang="ms">Balik Lima Belas</Noun> (‘draw fifteen’) is a version of <Noun
-lang="ms">Balik Satu</Noun> where the winner draws fifteen cards from the stock
+<span class="noun" lang="ms">Balik Lima Belas</span> (‘draw fifteen’) is a version of <Noun
+lang="ms">Balik Satu</span> where the winner draws fifteen cards from the stock
 instead of one. They must use these cards to try to improve their sets into
 <span lang="ms">mata</span> by swapping cards of equivalent rank. Scoring is
 calculated as one point for winning plus one point for each <span
@@ -189,16 +189,16 @@ lang="ms">ayam</span> and <span lang="ms">kandang</span> still apply.
 
 ## Similar games
 
-### <Noun lang="jav-Latn">Gonggong</Noun>
+### <span class="noun" lang="jav-Latn">Gonggong</span>
 
 A very similar game is recorded as being played in Java in the 1940s, under the
-name of <Noun lang="jav-Latn">Gonggong</Noun>, and is described as being played
+name of <span class="noun" lang="jav-Latn">Gonggong</span>, and is described as being played
 mostly by women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta
 was described as follows:
 
 It is played with six sets of cards (180 cards) for four players, or eight sets
 (240 cards) for six players. Deal 14 cards each and play as with <Noun
-lang="ms">Balik Satu</Noun>. In order to win, again at least one triplet (called
+lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called
 a <span lang="jav-Latn">bak</span>) must be completed.
 
 Waiting for a specific card to win (to complete a <span
@@ -211,7 +211,7 @@ A self-drawn win is called <span lang="jav-Latn">rabas</span> ‘clear’. A win
 the opponents’ card is called <span lang="jav-Latn">metu</span> (formal <span
 lang="jav-Latn">medal</span>) ‘came out’.
 
-**Scoring** is a little different to <Noun lang="ms">Balik Satu</Noun>, and is done by one of several methods:
+**Scoring** is a little different to <span class="noun" lang="ms">Balik Satu</span>, and is done by one of several methods:
 
 <dl>
 <dt><span lang="jav-Latn">unduh-unduhan</span> (probably ‘piled’)</dt>
@@ -219,7 +219,7 @@ lang="jav-Latn">medal</span>) ‘came out’.
 <span lang="jav-Latn">metu</span>, they win one stake from it. If a player wins
 with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
 <dt><span lang="jav-Latn">toh bajaran</span> (betting on <span lang="jav-Latn">bak</span>s?)</dt>
-<dd>This method is very similar to <Noun lang="ms">Balik Satu</Noun>. The winner scores according to the following scheme:
+<dd>This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. The winner scores according to the following scheme:
 <ol>
 <li>1 for <span lang="jav-Latn">metu</span>; 2 for <span lang="jav-Latn">metu</span> with a red card, or <span lang="jav-Latn">rabas</span>; or 3 for <span lang="jav-Latn">rabas</span> with a red card,</li>
 <li>an additional 1 for each <span lang="jav-Latn">bak</span> or 2 for each red <span lang="jav-Latn">bak</span> in their hand,</li>
@@ -235,7 +235,7 @@ with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
 </ol>
 </dd>
 <dt>alternative <span lang="jav-Latn">toh bajaran</span>, drawing 14 cards</st>
-<dd>This method is very similar to <Noun lang="ms">Balik Lima Belas</Noun>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jav-Latn">toh bajaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jav-Latn">bak</span> from these cards. For each <span lang="jav-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jav-Latn">bak</span>.</dd>
+<dd>This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jav-Latn">toh bajaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jav-Latn">bak</span> from these cards. For each <span lang="jav-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jav-Latn">bak</span>.</dd>
 </dl>
 
 In the 1940s the <span lang="jav-Latn">toh bajaran</span> methods were paid out at 2¢{%fn%}These were cents of the [Netherlands Indies gulden](https://en.wikipedia.org/wiki/Netherlands_Indies_gulden).{%endfn%} per point from each other player.
@@ -251,11 +251,11 @@ In Yogyakarta the following bets were used:
 <dd>Ad-hoc bets are made between the players, whoever wins receives the staked amount from the others.</dd>
 </dl>
 
-### <Noun lang="jav-Latn">Tantanan</Noun>
+### <span class="noun" lang="jav-Latn">Tantanan</span>
 
 This is another game described as being played in Surakarta in
 Java.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <Noun
-lang="ms">Balik Satu</Noun> and is thus a faster game.
+lang="ms">Balik Satu</span> and is thus a faster game.
 
 The game is played by four people with one full set of 60 cards. Each player
 is dealt five cards. 
@@ -265,18 +265,18 @@ be identical (a <span lang="jav-Latn">bak</span>). All honour cards are consider
 be rank 1, so can be paired with other rank-1 cards.
 
 Waiting for a one card to win is called <span lang="jav-Latn">tan</span>, as in
-<Noun lang="ms">Balik Satu</Noun>. Waiting for a identical card is called <span
+<span class="noun" lang="ms">Balik Satu</span>. Waiting for a identical card is called <span
 lang="jav-Latn">tan nokang</span>, waiting for any card of the same rank is
 called <span lang="jav-Latn">tan kowah</span>.
 
 Scoring is performed the same as the <span lang="jav-Latn">toh bajaran</span>
-method of <Noun lang="jav-Latn">Gonggong</Noun>, above.
+method of <span class="noun" lang="jav-Latn">Gonggong</span>, above.
 
 In Yogyakarta this game was played with three people and known as <Noun
-lang="jav-Latn">Ceken</Noun> or <Noun
-lang="jav-Latn">Sampen</Noun>.[@JavaanseKaartspelen p. 98]{%fn%}Note that there
+lang="jav-Latn">Ceken</span> or <Noun
+lang="jav-Latn">Sampen</span>.[@JavaanseKaartspelen p. 98]{%fn%}Note that there
 is also another game called Sampen.{%endfn%}
 
 ## See also
 
-{% gameref cholek-tiga %} is another Peranakan <Noun lang="ms">Cherki</Noun> game.
+{% gameref cholek-tiga %} is another Peranakan <span class="noun" lang="ms">Cherki</span> game.
