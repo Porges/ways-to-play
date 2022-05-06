@@ -1,5 +1,6 @@
 ---
 title: Nine Men’s Morris
+mainImage: DSCF0525.jpg
 subgames:
 - title: Lasker Morris
 - title: Twelve Men’s Morris
