@@ -1,4 +1,5 @@
 const eleventyRemark = require('@fec/eleventy-plugin-remark');
+const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const eleventyNavigation = require('@11ty/eleventy-navigation');
 const PropTypes = require('prop-types');
 const argParse = require('liquid-args');
@@ -114,6 +115,8 @@ module.exports = function (eleventyConfig) {
       }
     }
   });
+
+  eleventyConfig.addPlugin(EleventyRenderPlugin);
 
   return {
     dir: {

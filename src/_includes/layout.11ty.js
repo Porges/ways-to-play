@@ -9,7 +9,7 @@ exports.data = {
 const tagStripper = /<[^>]*?>/g;
 const bracketStripper = /\[[^\]]*?\]/g;
 const parenStripper = / \([^)]*?\)/g;
-const newlineStripper = /\r\n|\n/g
+const newlineStripper = /\r\n|\n/g;
 
 function striptags(excerpt) {
   return purify(excerpt
@@ -23,7 +23,7 @@ function striptags(excerpt) {
 exports.render = async function (data) {
   let excerpt = "";
   if (data.page.excerpt) {
-    excerpt = striptags(data.page.excerpt);
+    excerpt = striptags(await this.renderTemplate(data.page.excerpt, "md"));
   }
 
   const title = purify(data.title);
@@ -37,7 +37,8 @@ exports.render = async function (data) {
       outputDir: "public/img",
     });
 
-    ogImage = metadata[Object.keys(metadata)[0]][0].url;
+    // TODO: this should come from a variable
+    ogImage = "https://games.porg.es" + metadata[Object.keys(metadata)[0]][0].url;
   }
 
   return `<!doctype html>
