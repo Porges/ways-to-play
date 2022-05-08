@@ -110,6 +110,7 @@ exports.render = async function (data) {
         </nav>
     </div>
     <div class="container">
+        <p class="text-secondary small col-lg-7 offset-lg-1 border-bottom border-light">◦ last updated: <time itemprop="dateModified">${new Date(Date.parse(data.page.date)).toISOString().split('T')[0]}</time></p>
         <div class="row">
             <div class="col-lg-7 offset-lg-1">
                 ${data.content}
