@@ -17,7 +17,8 @@ published in 938, so it was played in Japan since at least the <span
 lang="ja-Latn" class="noun">Heian</span> period. The name of the game also
 appears in the [<cite>Mahāparinirvāṇa
 sūtra</cite>](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra),
-where it is described as a game to avoid.[@Lusthaus p. 205]
+where it is described as a game to avoid,[@Lusthaus p. 205] but this may not
+refer to the same game.
 
 ## Play
 
