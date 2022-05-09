@@ -7009,5 +7009,40 @@
         },
         "publisher": "Max Niemeyer",
         "publisher-place": "Halle, Germany"
+    },
+    "Yasukaki": {
+        "type": "webpage",
+        "URL": "https://www.asahi-net.or.jp/~rp9h-tkhs/dg_yasukari.htm",
+        "title": "八道行成",
+        "title-lang": "ja",
+        "publisher": "Boardwalk Community",
+        "author": [
+            {
+                "given": "浩徳",
+                "family": "高橋",
+                "lang": "ja"
+            }
+        ],
+        "issued": {
+            "year": 1999
+        }
+    },
+    "Lusthaus": {
+        "type": "paper-conference",
+        "title": "What is ‘New’ in Xuanzang’s New Translation Style?",
+        "URL": "https://www.academia.edu/44495082/What_is_New_in_Xuanzang_s_New_Translation_Style",
+        "author": [
+            {
+                "given": "Dan",
+                "family": "Lusthaus"
+            }
+        ],
+        "container-title": "From Chang’an to Nālandā: The Life and Legacy of the Chinese Buddhist Monk Xuanzang (602?–664)",
+        "publisher": "World Scholastic",
+        "ISBN": "978-981-14-6185-9",
+        "issued": {
+            "year": 2020
+        },
+        "page": "159–219"
     }
 }
