@@ -1,6 +1,7 @@
 ---
 title: Yasasukari
 titleLang: ja-Latn
+mainImage: Yasasukari.jpg
 ---
 
 <span lang="ja-Latn" class="noun">Yasakukari</span> (<span lang="ja">八道行成
