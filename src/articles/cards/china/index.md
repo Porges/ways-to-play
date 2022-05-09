@@ -23,7 +23,7 @@ term has been adopted to into the local language:
 The many types of Chinese and Chinese-derived cards can be broken down into
 several broad categories:
 
-* those derived from {% gameref xianqi %} (“Chinese chess”):
+* those derived from {% gameref xiangqi %} (“Chinese chess”):
   * Four-Colour Cards
   * Two-Suited chess cards, including:
     * Chrysanthemum cards (Vietnam)

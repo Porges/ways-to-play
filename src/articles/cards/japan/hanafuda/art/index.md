@@ -243,7 +243,7 @@ physical, as those same books warn that “to quarrel and remove shells by force
 is something that only men and courtesans do.”
 
 The monk <span lang="ja-Latn"
-class="proper-noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</a>
+class="noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</a>
 (<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr
 title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in
 Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130] {%fn%}<span class="noun"

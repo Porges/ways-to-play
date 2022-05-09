@@ -1,12 +1,13 @@
 ---
 title: H. J. R. Murray
+order: 100
 ---
 
 [H. J. R.  Murray](https://en.wikipedia.org/wiki/H._J._R._Murray){%fn%}Son of
 [James Murray](https://en.wikipedia.org/wiki/James_Murray_(lexicographer)), the
 first editor of the Oxford English Dictionary.{%endfn%} (1868–1955) is a very
-important figure in games history. He published two key works: @Murray in 1913
- and @Murray2 in 1951.
+important figure in the history of board games studies. He published two key
+ works: @Murray in 1913 and @Murray2 in 1951.
 
 <cite>A History of Chess</cite> took 13 years to complete, and Murray taught
 himself German and Arabic in order to finish the book! <cite>A History of
@@ -29,7 +30,7 @@ listed as equivalent to three-men’s-morris; it is actually equivalent to nough
 & crosses (§3.2).
 
 <strong>§3.3.11</strong> (p. 41): <strong>Tin-guti pait pait</strong> is not in
-the reference cited,[@Humphries] but it is in @Datta.
+the reference cited (@Humphries), but it is in @Datta.
 
 <strong>§3.3.13</strong> (p. 42): Hyde[@Hyde p. 211] writes <ins>Che-lo</ins>,
 not <del>lo che</del>.

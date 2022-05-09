@@ -130,7 +130,7 @@ these — like the playing cards themselves — are derived from Portugu
 
 ### Kabu
 
-This is a simplified variant by Sid Sackson, for 2–6 players, described in
+This is a simplified variant by [Sid Sackson](/articles/people/sid-sackson/), for 2–6 players, described in
 @CardGamesAroundTheWorld [p. 12].
 
 Play with the {% cards 'A–⑩' %} from a standard deck of cards. You will also
@@ -200,6 +200,6 @@ The game ends when a player is unable to pay their debts as they have run out of
 chips. They do not pay any of their remaining chips. Whoever has the most points
 is the winner.
 
-**Variant**: in addition to dealing to the players, deal 6 cards
+**Variant:** in addition to dealing to the players, deal 6 cards
 face-up to the table. These cards are out of play but give the players more
 information about the cards remaining in the deck.

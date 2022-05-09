@@ -6988,5 +6988,26 @@
         "volume": 6,
         "container-title": "Revue des Études rabelaisiennes",
         "container-title-lang": "fr"
+    },
+    "Fischarts": {
+        "type": "book",
+        "title": "Geschichtklitterung",
+        "title-lang": "de",
+        "URL": "https://archive.org/details/johannfischarts00fiscgoog/page/258",
+        "author": [
+            {
+                "given": "Johann",
+                "family": "Fischarts",
+                "lang": "de"
+            }
+        ],
+        "issued": {
+            "year": 1891
+        },
+        "original-date": {
+            "year": 1590
+        },
+        "publisher": "Max Niemeyer",
+        "publisher-place": "Halle, Germany"
     }
 }

@@ -587,7 +587,7 @@ than normal <span class="noun" lang="ja-Latn">Hanafuda</span> and the cards are 
 flat cardboard, not wrapped with backing paper.
 {% imageEnd %}
 
-### <img src='/small-images/yamami.svg' alt="" class="inline-img" /> <a href="https://www.tengudo.jp/" class="proper-noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)
+### <img src='/small-images/yamami.svg' alt="" class="inline-img" /> <a href="https://www.tengudo.jp/" class="noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)
 
 Also based in <span class="noun" lang="ja-Latn">Kyōto</span>, <span class="noun" lang="ja-Latn">Ōishi
 Tengudō</span> produces a wide variety of traditional Japanese card games. As
@@ -816,7 +816,7 @@ of <span class="noun" lang="ja-Latn">Nintendō</span>’s (above).
 The extra cards of Angel’s “Hana-Trump” deck.
 {% imageEnd %}
 
-### <img src='/small-images/yaguruma.svg' alt="" class="inline-img" /> <a href="http://www.shogundo.co.jp/" class="proper-noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)
+### <img src='/small-images/yaguruma.svg' alt="" class="inline-img" /> <a href="http://www.shogundo.co.jp/" class="noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)
 
 A small manufacturer, founded in 1921. Unlike other manufacturers, their mark is
 not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead
@@ -1856,7 +1856,7 @@ The <span lang="ja-Latn">ginhyō</span> wrapper.
 {% imageEnd %}
 </div>
 
-### <a href="http://www.nichiyu.net/en" class="proper-noun" lang="ja-Latn">Nippon Yūgi Gangu/Nichiyū</a> (<span lang="ja">日本遊戯玩具</span>/<span lang="ja">ニチユー</span>)
+### <a href="http://www.nichiyu.net/en" class="noun" lang="ja-Latn">Nippon Yūgi Gangu/Nichiyū</a> (<span lang="ja">日本遊戯玩具</span>/<span lang="ja">ニチユー</span>)
 
 {% image 
     position="right"

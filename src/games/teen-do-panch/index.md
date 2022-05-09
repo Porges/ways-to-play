@@ -42,6 +42,6 @@ make their required tricks, in exchange for a card from their own hand.
 
 The pulling player may not return the card that was taken.
 
-## See also
+## Sources
 
 General references used were: @Cats325, @Yahoo325, @IndiaMike325, @iJini, and @Gamesnomy325.

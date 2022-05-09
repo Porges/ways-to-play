@@ -1,4 +1,4 @@
 ---
-title: Games Historians
-order: 100
+title: People
+order: 220
 ---

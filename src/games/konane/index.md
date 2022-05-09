@@ -139,7 +139,7 @@ Stone boards{%fn%}Peter Faris’ ‘Rock Art Blog’ has [pictures of several st
 boards](https://rockartblog.blogspot.com/2013/01/hawaiian-rock-art-konane-game-boards.html).{%endfn%}
 can be found all over the islands of Hawaii, whereas traditional wooden boards
 are now hard to find, and are mostly restricted to museums.{%fn%}An image of a
-traditional carved board from <span class="proper-noun" lang="haw">Iolani</span>
+traditional carved board from <span class="noun" lang="haw">Iolani</span>
 Palace can be seen in [this Hawaiʻi Magazine
 article](https://www.hawaiimagazine.com/content/see-iolani-palaces-hidden-relics-once-belonged-hawaiian-royalty).
 In November 2017, an antique wooden board with shell inlay [sold at

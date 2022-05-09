@@ -1,6 +1,7 @@
 ---
 title: Kabu Karuta
 titleLang: ja-Latn
+order: 2
 ---
 
 ## The Cards

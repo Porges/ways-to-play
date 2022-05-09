@@ -129,7 +129,7 @@ const renderPeople = (as, reverseFirst, period, itemprop) => {
 
     return as.map((a, ix) => (
         ifSet(ix > 0, (ix === as.length - 1) ? `${ifSet(as.length > 2, ',')} and ` : ", ")
-        + `<span itemscope itemtype="http://schema.org/Person"${asAttr('itemprop', itemprop)}${asAttr('lang', a.lang)} class="proper-noun">`
+        + `<span itemscope itemtype="http://schema.org/Person"${asAttr('itemprop', itemprop)}${asAttr('lang', a.lang)} class="noun">`
         + hiddenName(a)
         + ((reverseFirst && ix === 0)
             ? `${ifSet(a.family, `${isolate(renderFamily(a, ix))}, ${isolate(renderGiven(a, ix))}`)}`

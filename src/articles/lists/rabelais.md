@@ -2930,14 +2930,14 @@ The first set of entries in the list are either card games or terms used in card
 games — sometimes both.
 
 <dl>
-<dt><span lang="fr">flux</span> “flush”</dt>
+<dt lang="de"><span lang="fr">flux</span> “flush”</dt>
 <dd>
 
 This has its well-known meaning as it remains today, a set of cards of the same
 suit. However, it is also the name of a game.[@JeuxDeGargantua p. 16–21]
 
 </dd>
-<dt><span lang="fr">prime</span> “prime”</dt>
+<dt lang="de"><span lang="fr">prime</span> “prime”</dt>
 <dd>
 
 A *prime* in card terms was the opposite of a flush: it was to have one card of
@@ -2951,7 +2951,7 @@ class="noun" lang="es">Primera</span>) names.
 It is also worth noting that ‘flux’ is a hand that scores in Primero.
 
 </dd>
-<dt><span lang="fr">vole</span> (<abbr title="literally">lit.</abbr>) “robbery”</dt>
+<dt lang="de"><span lang="fr">vole</span> (<abbr title="literally">lit.</abbr>) “robbery”</dt>
 <dd>
 
 This is a game term meaning the same as the current term “grand slam”, that is,
@@ -2966,4 +2966,1187 @@ term was used. Perhaps he was aware of this.
 </dd>
 </dl>
 
-## Fischart’s list
+## Johann Fischarts’ list
+
+As found in @Fischarts [p. 259].{%fn%}Transcription from [this
+site](http://www.zeno.org/Literatur/M/Fischart,+Johann/Roman/Geschichtklitterung/Das+25.+Capitel).{%endfn%}
+These are given separately to the table above, given the extensive expansion
+that Fischarts made to the list.
+
+Many items are duplicated or reduplicated, and Fischarts also added many games
+of his own invention, paralleling Rabelais’ original.
+
+<dl>
+<dt lang="de">Der Flüssen</dt>
+<dd>i.e. <span lang="fr">flux</span> “flush”, from Rabelais’ list</dd>
+<dt lang="de">Des Premiere</dt>
+<dd>i.e. <span lang="fr">prime</span>, from Rabelais’ list</dd>
+<dt lang="de">Den Picarder</dt>
+<dd>i.e. <span lang="fr">la pircardie</span>, from Rabelais’ list</dd>
+<dt lang="de">Ticke tack</dt>
+<dd>i.e. <span lang="fr">tric-trac</span>, from Rabelais’ list</dd>
+<dt lang="de">Schachmatt</dt>
+<dd>“checkmate”, i.e. chess, from Rabelais’ list</dd>
+<dt lang="de">Lurtsch</dt>
+<dd>i.e. <span lang="fr">lourche</span>, from Rabelais’ list</dd>
+<dt lang="de">Des Schultheissen</dt>
+<dd></dd>
+<dt lang="de">Des Reißers</dt>
+<dd>“rippers”</dd>
+<dt lang="de">Des Legens</dt>
+<dd></dd>
+<dt lang="de">Der 31</dt>
+<dd>i.e. <span lang="fr">trente et un</span>, from Rabelais’ list</dd>
+<dt lang="de">Marsch</dt>
+<dd>“march”</dd>
+<dt lang="de">Rümpffen</dt>
+<dd>a card game</dd>
+<dt lang="de">Trumpffen</dt>
+<dd>i.e. <span lang="fr">triomphe</span>, from Rabelais’ list</dd>
+<dt lang="de">Rum und stich</dt>
+<dd>
+
+[a card game](https://en.wikipedia.org/wiki/Romestecq)
+
+</dd>
+<dt lang="de">Auß und ein machen die Meydlin gern.</dt>
+<dd></dd>
+<dt lang="de">Fickmül</dt>
+<dd>“rub-mill”, probably {% gameref nine-mens-morris %}</dd>
+<dt lang="de">Hupff auff, dupff auff,</dt>
+<dd></dd>
+<dt lang="de">Wintertrost</dt>
+<dd>“winter comfort”</dd>
+<dt lang="de">Dummel dich gut Birche,</dt>
+<dd></dd>
+<dt lang="de">Plinden mäuß.</dt>
+<dd></dd>
+<dt lang="de">Eselin beschlagen</dt>
+<dd></dd>
+<dt lang="de">Hundert eins</dt>
+<dd>“hundred one”</dd>
+<dt lang="de">Gänßlin beropffen:</dt>
+<dd></dd>
+<dt lang="de">Welch Kart wilt verstecken, die kan ich entdecken.</dt>
+<dd></dd>
+<dt lang="de">Du der Haß, Ich der Wind</dt>
+<dd></dd>
+<dt lang="de">Ich hang, ich haffte:</dt>
+<dd></dd>
+<dt lang="de">In Himmel, in dHöll</dt>
+<dd>“in heaven, in hell”</dd>
+<dt lang="de">Der Wolff hat mir ein Schäflein gestolen, weil ich Käß und Brot will holn</dt>
+<dd></dd>
+<dt lang="de">Trickretrac</dt>
+<dd>(again) <span lang="fr">tric-trac</span>, from Rabelais’ list</dd>
+<dt lang="de">Vier Wachtel im Sack</dt>
+<dd>“four quails in a sack”</dd>
+<dt lang="de">Dorn außzihes.</dt>
+<dd></dd>
+<dt lang="de">Der Unfur.</dt>
+<dd></dd>
+<dt lang="de">Der Schantz.</dt>
+<dd></dd>
+<dt lang="de">Neun und hundert</dt>
+<dd>“nine and hundred”</dd>
+<dt lang="de">Der Palirmül</dt>
+<dd></dd>
+<dt lang="de">Ein und dreissig</dt>
+<dd>(again) <span lang="fr">trente et un</span>, from Rabelais’ list</dd>
+<dt lang="de">Krumme neun</dt>
+<dd></dd>
+<dt lang="de">Rausch</dt>
+<dd>“drunkenness”</dd>
+<dt lang="de">Umbschlagen</dt>
+<dd></dd>
+<dt lang="de">Par mit dem Dantz:</dt>
+<dd></dd>
+<dt lang="de">Trei Hundert:</dt>
+<dd></dd>
+<dt lang="de">Der Condemnade</dt>
+<dd>i.e. <span lang="fr">la condemnade</span>, from Rabelais’ list</dd>
+<dt lang="de">Non verende</dt>
+<dd></dd>
+<dt lang="de">Ich vernüg mich</dt>
+<dd></dd>
+<dt lang="de">Malcontant</dt>
+<dd>i.e. <span lang="fr">malcontent</span>, from Rabelais’ list</dd>
+<dt lang="de">Königs lösen</dt>
+<dd></dd>
+<dt lang="de">Des Gauchs</dt>
+<dd></dd>
+<dt lang="de">Der Rusig Schultheiß auß Morenland:</dt>
+<dd></dd>
+<dt lang="de">Wer hat dich geschlagen, ist mir leid für den schaden, ich reche mein unschuld,</dt>
+<dd></dd>
+<dt lang="de">Burckhart mit der Nasen, komm helff mir grasen.</dt>
+<dd></dd>
+<dt lang="de">Wolauff das walts Gott nider</dt>
+<dd></dd>
+<dt lang="de">In die Brenten:</dt>
+<dd></dd>
+<dt lang="de">Mit wem hat man gekallt.</dt>
+<dd></dd>
+<dt lang="de">Wir geben und nemmen einander.</dt>
+<dd></dd>
+<dt lang="de">Nach dem won:</dt>
+<dd></dd>
+<dt lang="de">Wer eins thut, thu auch das ander</dt>
+<dd></dd>
+<dt lang="de">Sequentz:</dt>
+<dd></dd>
+<dt lang="de">Jeder hab des Mauls acht:</dt>
+<dd></dd>
+<dt lang="de">Der Bonen</dt>
+<dd></dd>
+<dt lang="de">Des Borers:</dt>
+<dd></dd>
+<dt lang="de">Kochimbert, wer gewint verlört.</dt>
+<dd></dd>
+<dt lang="de">Das widerle, wederle.</dt>
+<dd></dd>
+<dt lang="de">Torment</dt>
+<dd>i.e. <span lang="fr">torment</span>, from Rabelais’ list</dd>
+<dt lang="de">Den Schnarcher:</dt>
+<dd></dd>
+<dt lang="de">Contemonte</dt>
+<dd></dd>
+<dt lang="de">Des glucks:</dt>
+<dd></dd>
+<dt lang="de">Wer find, der gewinnt.</dt>
+<dd></dd>
+<dt lang="de">Der Muter:</dt>
+<dd></dd>
+<dt lang="de">Nun fah den Ball, eh er fall</dt>
+<dd></dd>
+<dt lang="de">Der beschorenen Hund,</dt>
+<dd></dd>
+<dt lang="de">Des Plättlins.</dt>
+<dd></dd>
+<dt lang="de">Über eck ins bein,</dt>
+<dd></dd>
+<dt lang="de">Der hupfelrei:</dt>
+<dd></dd>
+<dt lang="de">Ballenripotei:</dt>
+<dd></dd>
+<dt lang="de">Tochter laß die Rosen ligen.</dt>
+<dd></dd>
+<dt lang="de">Schwartzer Dorn ist worden weiß:</dt>
+<dd></dd>
+<dt lang="de">Das Pickelspil:</dt>
+<dd></dd>
+<dt lang="de">Zipffelzehezupffen</dt>
+<dd></dd>
+<dt lang="de">Die hüpsch als ich,</dt>
+<dd></dd>
+<dt lang="de">Tölpeltrei:</dt>
+<dd></dd>
+<dt lang="de">Mit Wasser grüsen:</dt>
+<dd></dd>
+<dt lang="de">Jeder seh seiner Nächstin die hand.</dt>
+<dd></dd>
+<dt lang="de">Der Girlande:</dt>
+<dd></dd>
+<dt lang="de">Der Fastenbrüder:</dt>
+<dd></dd>
+<dt lang="de">Wirt geb uns f. und p.</dt>
+<dd></dd>
+<dt lang="de">Des Andres:</dt>
+<dd></dd>
+<dt lang="de">Des Kolbens.</dt>
+<dd></dd>
+<dt lang="de">Der Liebhell:</dt>
+<dd></dd>
+<dt lang="de">Was wundert euch?</dt>
+<dd></dd>
+<dt lang="de">Wa geht der Dantz hin Eselmut:</dt>
+<dd></dd>
+<dt lang="de">Wem krähet der Han:</dt>
+<dd></dd>
+<dt lang="de">Nadel on fadem in Hoff tragen:</dt>
+<dd></dd>
+<dt lang="de">Pferdlin woll bereit.</dt>
+<dd></dd>
+<dt lang="de">Cock, Code ey wil.</dt>
+<dd></dd>
+<dt lang="de">Lausen oder Noppen.</dt>
+<dd></dd>
+<dt lang="de">Fingerschnellen</dt>
+<dd>probably <span lang="fr">morra</span>, from Rabelais’ list</dd>
+<dt lang="de">Den verkaufften gabelochssen mit Wasser zahln:</dt>
+<dd></dd>
+<dt lang="de">Wer kan siben Lügen</dt>
+<dd></dd>
+<dt lang="de">Wer kan siben Lügen verschweigen:</dt>
+<dd></dd>
+<dt lang="de">Greiff jeder seiner Nachbarin den Puls.</dt>
+<dd></dd>
+<dt lang="de">Was wer dein gröst begern.</dt>
+<dd></dd>
+<dt lang="de">Meiner Muter Magd macht mir mein Muß, mit meiner Muter Mäl:</dt>
+<dd></dd>
+<dt lang="de">Warzu sind lang Nasen gut?</dt>
+<dd></dd>
+<dt lang="de">Welches Bubenstucks rümst dich am meisten.</dt>
+<dd></dd>
+<dt lang="de">Des Friden machens.</dt>
+<dd></dd>
+<dt lang="de">Secht Muter der Dütten.</dt>
+<dd></dd>
+<dt lang="de">Des Untreuen baurens.</dt>
+<dd></dd>
+<dt lang="de">Der Alten Lüller.</dt>
+<dd></dd>
+<dt lang="de">Was sagt man Neues im Bad?</dt>
+<dd></dd>
+<dt lang="de">Gevattern betten</dt>
+<dd></dd>
+<dt lang="de">Das Alefrentzlin greiff ans schwentzlin.</dt>
+<dd></dd>
+<dt lang="de">Das zünglinspitzlin, fritzenschmitzlin:</dt>
+<dd></dd>
+<dt lang="de">Das Zeißlin, Mäußlin,</dt>
+<dd></dd>
+<dt lang="de">Kläußlin, kom inns häußlin, würff ein däußlin:</dt>
+<dd></dd>
+<dt lang="de">Trotzenträtzlin, wie ein Lätzlin:</dt>
+<dd></dd>
+<dt lang="de">Susa seußlin, flusa fleußlin.</dt>
+<dd></dd>
+<dt lang="de">Zuck nit mein lib, ist ein billich sach:</dt>
+<dd></dd>
+<dt lang="de">Matz werffs der Metzen zu</dt>
+<dd></dd>
+<dt lang="de">Des Fuchsses:</dt>
+<dd></dd>
+<dt lang="de">Des küschwantzes:</dt>
+<dd></dd>
+<dt lang="de">Der Planchen:</dt>
+<dd></dd>
+<dt lang="de">Der drey würffel:</dt>
+<dd></dd>
+<dt lang="de">Der nickenocke:</dt>
+<dd></dd>
+<dt lang="de">Des Zäumlins:</dt>
+<dd></dd>
+<dt lang="de">Wisch auff:</dt>
+<dd></dd>
+<dt lang="de">Wann ich mein Hörnlin plas:</dt>
+<dd></dd>
+<dt lang="de">Loch zu Loch:</dt>
+<dd></dd>
+<dt lang="de">Es miet mich</dt>
+<dd></dd>
+<dt lang="de">Inn die Würst faren:</dt>
+<dd></dd>
+<dt lang="de">Auff allen Tischen:</dt>
+<dd></dd>
+<dt lang="de">Der geschrenckten Schenckel.</dt>
+<dd></dd>
+<dt lang="de">Womit chenstu deim bulen?</dt>
+<dd></dd>
+<dt lang="de">Was für Blumen gebt ihr mir zum krantz?</dt>
+<dd></dd>
+<dt lang="de">Des grösten betrugs:</dt>
+<dd></dd>
+<dt lang="de">Des Liebrhatens:</dt>
+<dd></dd>
+<dt lang="de">Des Spitals der Narrn:</dt>
+<dd></dd>
+<dt lang="de">O mein hertz verschwind</dt>
+<dd></dd>
+<dt lang="de">Den Pronnen schöpfen.</dt>
+<dd></dd>
+<dt lang="de">Auff den Berg faren:</dt>
+<dd></dd>
+<dt lang="de">Eyn rusigen dib fahen:</dt>
+<dd></dd>
+<dt lang="de">Der untreu under dem Mäntlin spilen:</dt>
+<dd></dd>
+<dt lang="de">Was ist diß, fornen wie ein gabel, in der mitten wie ein Faß, das hinderst wie ein besem? Ku.</dt>
+<dd></dd>
+<dt lang="de">Was geht auff dem kopff in bach?</dt>
+<dd></dd>
+<dt lang="de">Aller heyligen Faß:</dt>
+<dd></dd>
+<dt lang="de">Gott verläugnen:</dt>
+<dd></dd>
+<dt lang="de">Frauenspil:</dt>
+<dd></dd>
+<dt lang="de">Röpflins:</dt>
+<dd></dd>
+<dt lang="de">Der Baboben,</dt>
+<dd></dd>
+<dt lang="de">Primus secundus:</dt>
+<dd></dd>
+<dt lang="de">Zu underst des messers:</dt>
+<dd></dd>
+<dt lang="de">Des Schlüssels:</dt>
+<dd></dd>
+<dt lang="de">Des freien Karrens:</dt>
+<dd></dd>
+<dt lang="de">Grad oder ungrad:</dt>
+<dd></dd>
+<dt lang="de">Kreutz oder plättlin:</dt>
+<dd></dd>
+<dt lang="de">Faul faudel:</dt>
+<dd></dd>
+<dt lang="de">Laußknickel:</dt>
+<dd></dd>
+<dt lang="de">Härlin zupffen:</dt>
+<dd></dd>
+<dt lang="de">Ich fisch in meins Herren täuch:</dt>
+<dd></dd>
+<dt lang="de">Des schülins:</dt>
+<dd></dd>
+<dt lang="de">Heimlich seitenspil ungelacht:</dt>
+<dd></dd>
+<dt lang="de">Umb den Gänstreck füren:</dt>
+<dd></dd>
+<dt lang="de">Grüß dich bruder Eberhart:</dt>
+<dd></dd>
+<dt lang="de">Ist Weichsel reiff.</dt>
+<dd></dd>
+<dt lang="de">Steyn außgeben:</dt>
+<dd></dd>
+<dt lang="de">Gickel hie, warauff gickelst.</dt>
+<dd></dd>
+<dt lang="de">Martres</dt>
+<dd>i.e. <span lang="fr">martres</span>, from Rabelais’ list</dd>
+<dt lang="de">Pingres</dt>
+<dd>i.e. <span lang="fr">pingres</span>, from Rabelais’ list</dd>
+<dt lang="de">Eß setzt ein steyn, nimbt ein.</dt>
+<dd></dd>
+<dt lang="de">Haspeln</dt>
+<dd>“wind up”</dd>
+<dt lang="de">Geb Arß, Nemm Arß.</dt>
+<dd></dd>
+<dt lang="de">Ich bin König, du bist Knecht</dt>
+<dd>“I am the king, you are the servant”</dd>
+<dt lang="de">Des deitens on Reden.</dt>
+<dd></dd>
+<dt lang="de">Wo schlafft des Wirts Töchterlein:</dt>
+<dd></dd>
+<dt lang="de">Memminger Vokatzer beckenprot.</dt>
+<dd></dd>
+<dt lang="de">Meidlein thu den Laden zu, laß den Ladennagel hangen.</dt>
+<dd></dd>
+<dt lang="de">Die Floh laufft im hemd</dt>
+<dd></dd>
+<dt lang="de">Schlägels:</dt>
+<dd></dd>
+<dt lang="de">Des Wirts.</dt>
+<dd></dd>
+<dt lang="de">Billard</dt>
+<dd>i.e. <span lang="fr">bille</span>, from Rabelais’ list</dd>
+<dt lang="de">Hellenpart schmiden:</dt>
+<dd></dd>
+<dt lang="de">Des Schupletzers</dt>
+<dd></dd>
+<dt lang="de">Hibu.</dt>
+<dd></dd>
+<dt lang="de">Dorelot häßlin.</dt>
+<dd></dd>
+<dt lang="de">Tirelitantine</dt>
+<dd>i.e. <span lang="fr">tirelitantaine</span>, from Rabelais’ list</dd>
+<dt lang="de">Färcklin gang du vor.</dt>
+<dd></dd>
+<dt lang="de">Des hörnlins:</dt>
+<dd></dd>
+<dt lang="de">Des weitlochs:</dt>
+<dd></dd>
+<dt lang="de">Des Habern verkauffens.</dt>
+<dd></dd>
+<dt lang="de">Der blinden Ku.</dt>
+<dd></dd>
+<dt lang="de">Rhat der finger.</dt>
+<dd></dd>
+<dt lang="de">Pick Olyet offte graef.</dt>
+<dd></dd>
+<dt lang="de">Nacht oder tag.</dt>
+<dd></dd>
+<dt lang="de">Vergebens machen.</dt>
+<dd></dd>
+<dt lang="de">Gäulchen laß dich beschlagen</dt>
+<dd></dd>
+<dt lang="de">Das eisen auß der Eß zihen.</dt>
+<dd></dd>
+<dt lang="de">Den falschen bauren:</dt>
+<dd></dd>
+<dt lang="de">Der heilig ist gefunden:</dt>
+<dd></dd>
+<dt lang="de">Reiben, stosen, stechen, boren.</dt>
+<dd></dd>
+<dt lang="de">Von Wollen auf die wellen.</dt>
+<dd></dd>
+<dt lang="de">Burri burrisu</dt>
+<dd></dd>
+<dt lang="de">Ich setz mich:</dt>
+<dd></dd>
+<dt lang="de">Disen angel mein Frau.</dt>
+<dd></dd>
+<dt lang="de">Wendeln im bret,</dt>
+<dd></dd>
+<dt lang="de">Meister hemmerleins nachfahr.</dt>
+<dd></dd>
+<dt lang="de">Wechsseldantz.</dt>
+<dd></dd>
+<dt lang="de">Allemant damour.</dt>
+<dd></dd>
+<dt lang="de">Löß mir ein frag, die ich dir sag etc.</dt>
+<dd></dd>
+<dt lang="de">Der Contrafeitischen geberden.</dt>
+<dd></dd>
+<dt lang="de">Das bottensäcklin, schlotterpäcklin.</dt>
+<dd></dd>
+<dt lang="de">Mal das Mörlin:</dt>
+<dd></dd>
+<dt lang="de">Der Sau:</dt>
+<dd></dd>
+<dt lang="de">Bauch wider bauch</dt>
+<dd></dd>
+<dt lang="de">Des stichgrübels:</dt>
+<dd></dd>
+<dt lang="de">Huhu Eulen:</dt>
+<dd></dd>
+<dt lang="de">Der Himmel hat sich umbgelegt.</dt>
+<dd></dd>
+<dt lang="de">Nun geht davon</dt>
+<dd></dd>
+<dt lang="de">Es laufft ein weise mauß die maur auff:</dt>
+<dd></dd>
+<dt lang="de">Die Gans gaht auff den Predigstul.</dt>
+<dd></dd>
+<dt lang="de">Handwercksman was gibst du darzu?</dt>
+<dd></dd>
+<dt lang="de">Ochs inn den Veiolen.</dt>
+<dd></dd>
+<dt lang="de">Duck dich Hänßlin duck dich.</dt>
+<dd></dd>
+<dt lang="de">Alstreiffen</dt>
+<dd></dd>
+<dt lang="de">Eisen abwerffen.</dt>
+<dd></dd>
+<dt lang="de">Des barbedoribus.</dt>
+<dd></dd>
+<dt lang="de">Bratspißwenden.</dt>
+<dd></dd>
+<dt lang="de">Gevatter leihet mir euer sack.</dt>
+<dd></dd>
+<dt lang="de">Esel zemmen,</dt>
+<dd></dd>
+<dt lang="de">Der Widershoden.</dt>
+<dd></dd>
+<dt lang="de">Der Feigen von Marsilien.</dt>
+<dd></dd>
+<dt lang="de">Des Fuchsstreiffens.</dt>
+<dd></dd>
+<dt lang="de">Kohlen auffblasen.</dt>
+<dd></dd>
+<dt lang="de">Ein Ey, zwei halb, unnd ein halb Ey, wie viel seinds?</dt>
+<dd></dd>
+<dt lang="de">Was stilstu? Thaler, Taler.</dt>
+<dd></dd>
+<dt lang="de">Was seind wir? Stockfisch.</dt>
+<dd></dd>
+<dt lang="de">Der krippel und Lamen,</dt>
+<dd></dd>
+<dt lang="de">Das A b c. reimen.</dt>
+<dd></dd>
+<dt lang="de">Zum lebendigen und toden Richter.</dt>
+<dd></dd>
+<dt lang="de">Des Hogerigen Hofmans.</dt>
+<dd></dd>
+<dt lang="de">Des pimpompens</dt>
+<dd></dd>
+<dt lang="de">Des körblin machens.</dt>
+<dd></dd>
+<dt lang="de">Meidlin sind dir die Schuch recht.</dt>
+<dd></dd>
+<dt lang="de">Kram außlegen.</dt>
+<dd></dd>
+<dt lang="de">Der Abereh.</dt>
+<dd></dd>
+<dt lang="de">Triori.</dt>
+<dd></dd>
+<dt lang="de">Des Zirckels.</dt>
+<dd></dd>
+<dt lang="de">Kocherspergerdantz.</dt>
+<dd></dd>
+<dt lang="de">Der Spindel.</dt>
+<dd></dd>
+<dt lang="de">Wickerlin weckerlin, wilt mit mir essen, bring ein Messer.</dt>
+<dd></dd>
+<dt lang="de">Ungelacht pfetz ich dich.</dt>
+<dd></dd>
+<dt lang="de">Der Pickarome.</dt>
+<dd></dd>
+<dt lang="de">Des Roten Rauhen Trecks.</dt>
+<dd></dd>
+<dt lang="de">Des Engelarts.</dt>
+<dd></dd>
+<dt lang="de">Des Rekockillechen.</dt>
+<dd></dd>
+<dt lang="de">Brich den Hafen,</dt>
+<dd></dd>
+<dt lang="de">Montalant.</dt>
+<dd></dd>
+<dt lang="de">Das Wasserbettlen,</dt>
+<dd></dd>
+<dt lang="de">Steur den hauffen,</dt>
+<dd></dd>
+<dt lang="de">Des Bräutgams.</dt>
+<dd></dd>
+<dt lang="de">Des kurtzen steckens.</dt>
+<dd></dd>
+<dt lang="de">Pire vollet.</dt>
+<dd></dd>
+<dt lang="de">Kline musettecken,</dt>
+<dd></dd>
+<dt lang="de">Des grübleins.</dt>
+<dd></dd>
+<dt lang="de">Deß schnauffers.</dt>
+<dd></dd>
+<dt lang="de">Deß ernsten Schulmeisters.</dt>
+<dd></dd>
+<dt lang="de">Der Hofämpter.</dt>
+<dd></dd>
+<dt lang="de">Was schrieben ihr uns umbs bett?</dt>
+<dd></dd>
+<dt lang="de">Welches Narrheit wer dir lieber?</dt>
+<dd></dd>
+<dt lang="de">Deß Artzets.</dt>
+<dd></dd>
+<dt lang="de">Was gibt ein groß Maul guts?</dt>
+<dd></dd>
+<dt lang="de">Zur Trompe.</dt>
+<dd></dd>
+<dt lang="de">Der Haber im Sack.</dt>
+<dd></dd>
+<dt lang="de">Deß Mönchs.</dt>
+<dd></dd>
+<dt lang="de">Tenebei.</dt>
+<dd></dd>
+<dt lang="de">Das wunder,</dt>
+<dd></dd>
+<dt lang="de">Naschettechen Navettechen,</dt>
+<dd></dd>
+<dt lang="de">Fessart, Kerbart</dt>
+<dd>i.e. <span lang="fr">fessart</span>, from Rabelais’ list</dd>
+<dt lang="de">Sanct Kosman ich rüff dich an.</dt>
+<dd></dd>
+<dt lang="de">Der Braunen schröter</dt>
+<dd></dd>
+<dt lang="de">Ich fang euch on ein Meyen.</dt>
+<dd></dd>
+<dt lang="de">Ich fang euch, wa ich euch find:</dt>
+<dd></dd>
+<dt lang="de">Wol und voll vergeht die Fasten.</dt>
+<dd></dd>
+<dt lang="de">Der gabeligen eychen.</dt>
+<dd></dd>
+<dt lang="de">Deß gegossenen Gauls.</dt>
+<dd></dd>
+<dt lang="de">Deß Wolffschwantzes,</dt>
+<dd></dd>
+<dt lang="de">Deß furtz inn halß.</dt>
+<dd></dd>
+<dt lang="de">Willhelm lang mir den spiß.</dt>
+<dd></dd>
+<dt lang="de">Der Brandelle.</dt>
+<dd></dd>
+<dt lang="de">Deß Muckenwadels</dt>
+<dd></dd>
+<dt lang="de">Mein Oechßlin, mein Oechßlin,</dt>
+<dd></dd>
+<dt lang="de">A propoß.</dt>
+<dd></dd>
+<dt lang="de">Der neun Hend,</dt>
+<dd></dd>
+<dt lang="de">Chapifon Narrene kopff,</dt>
+<dd></dd>
+<dt lang="de">Der zerfallenen Brucken,</dt>
+<dd></dd>
+<dt lang="de">Deß gezäumten schmid Tolins,</dt>
+<dd></dd>
+<dt lang="de">Der Polderigen tobenden Cantzel,</dt>
+<dd></dd>
+<dt lang="de">Das Handwerck außschreien.</dt>
+<dd></dd>
+<dt lang="de">Deß Teuffels Music,</dt>
+<dd></dd>
+<dt lang="de">Wie vil deß krauts umb ein Heller?</dt>
+<dd></dd>
+<dt lang="de">Deß Vogelküssens.</dt>
+<dd></dd>
+<dt lang="de">Deß Bilgramsteurens,</dt>
+<dd></dd>
+<dt lang="de">Deß Grolle Gollhammers,</dt>
+<dd></dd>
+<dt lang="de">Seit ihr die braut von Schmollen, so lacht mir eins,</dt>
+<dd></dd>
+<dt lang="de">Deß Kockantins,</dt>
+<dd></dd>
+<dt lang="de">Deß Mirelimuffle,</dt>
+<dd></dd>
+<dt lang="de">Mouschart,</dt>
+<dd></dd>
+<dt lang="de">Der Krotten,</dt>
+<dd></dd>
+<dt lang="de">Deß Bischofsstabs,</dt>
+<dd></dd>
+<dt lang="de">Hämmerlin himmerlin,</dt>
+<dd></dd>
+<dt lang="de">Bille bocket,</dt>
+<dd></dd>
+<dt lang="de">Der Königin,</dt>
+<dd></dd>
+<dt lang="de">Kopf zu kopf an rechen,</dt>
+<dd></dd>
+<dt lang="de">Deß Todendantzes,</dt>
+<dd></dd>
+<dt lang="de">Malle mort,</dt>
+<dd></dd>
+<dt lang="de">Krockmolle,</dt>
+<dd></dd>
+<dt lang="de">Frau wöllen wir die Kuff wäschen,</dt>
+<dd></dd>
+<dt lang="de">Belusteol</dt>
+<dd></dd>
+<dt lang="de">Den Habern seyen,</dt>
+<dd></dd>
+<dt lang="de">Deß Deffendo,</dt>
+<dd></dd>
+<dt lang="de">Deß Frases,</dt>
+<dd></dd>
+<dt lang="de">Virevoste,</dt>
+<dd></dd>
+<dt lang="de">Deß Bacule,</dt>
+<dd></dd>
+<dt lang="de">Deß Bauren,</dt>
+<dd></dd>
+<dt lang="de">Die unsinnige esconblette,</dt>
+<dd></dd>
+<dt lang="de">Das tod Thier,</dt>
+<dd></dd>
+<dt lang="de">Steig, steig auffs leiterlin</dt>
+<dd></dd>
+<dt lang="de">Der Toden Sau,</dt>
+<dd></dd>
+<dt lang="de">Deß gesaltzenen arß,</dt>
+<dd></dd>
+<dt lang="de">Des Täublins,</dt>
+<dd></dd>
+<dt lang="de">Jeder trott unnd tritt,</dt>
+<dd></dd>
+<dt lang="de">Gott grüß euch schöne</dt>
+<dd></dd>
+<dt lang="de">Deß Mörselstein tragens,</dt>
+<dd></dd>
+<dt lang="de">Deß Venus Tempels,</dt>
+<dd></dd>
+<dt lang="de">Was wünsch dir von deim bulen,</dt>
+<dd></dd>
+<dt lang="de">Für den Richter,</dt>
+<dd></dd>
+<dt lang="de">Deß bösen das es gut werd,</dt>
+<dd></dd>
+<dt lang="de">Deß Besems,</dt>
+<dd></dd>
+<dt lang="de">Spring auß dem busch.</dt>
+<dd></dd>
+<dt lang="de">Der verborgen Kutten</dt>
+<dd></dd>
+<dt lang="de">Bulgen und Seckel im Arß.</dt>
+<dd></dd>
+<dt lang="de">O bohe daß Habichnest.</dt>
+<dd></dd>
+<dt lang="de">Passavant, Passefort</dt>
+<dd></dd>
+<dt lang="de">Der Petarrade.</dt>
+<dd></dd>
+<dt lang="de">Raht wer hat dich geschlagen?</dt>
+<dd></dd>
+<dt lang="de">Der Senffstempffel.</dt>
+<dd></dd>
+<dt lang="de">Cambos.</dt>
+<dd></dd>
+<dt lang="de">Fürsich, hindersich,</dt>
+<dd></dd>
+<dt lang="de">Raht was ist das?</dt>
+<dd></dd>
+<dt lang="de">Picandeau</dt>
+<dd></dd>
+<dt lang="de">Krocketeste, Hackenkopf,</dt>
+<dd></dd>
+<dt lang="de">Deß Kranchs.</dt>
+<dd></dd>
+<dt lang="de">Taillecop.</dt>
+<dd></dd>
+<dt lang="de">Nasenkönig Nasart.</dt>
+<dd></dd>
+<dt lang="de">Der Lerchen:</dt>
+<dd></dd>
+<dt lang="de">Der Stirnschnallen.</dt>
+<dd></dd>
+<dt lang="de">Der blinden würffel.</dt>
+<dd></dd>
+<dt lang="de">Deß Sacks im Wasserzuber.</dt>
+<dd></dd>
+<dt lang="de">Es brent, ich lesch.</dt>
+<dd></dd>
+<dt lang="de">Jungfrau küssen,</dt>
+<dd></dd>
+<dt lang="de">Im sack verbergen,</dt>
+<dd></dd>
+<dt lang="de">Der schönsten den stein,</dt>
+<dd></dd>
+<dt lang="de">Die finger krachen, die Männer wachen.</dt>
+<dd></dd>
+<dt lang="de">Mein Tochter ist heurahts zeit.</dt>
+<dd></dd>
+<dt lang="de">Es kombt ein Fisch, es komt ein Vöglin.</dt>
+<dd></dd>
+<dt lang="de">Waich oder trockens.</dt>
+<dd></dd>
+<dt lang="de">Rumpele stilt oder der Poppart.</dt>
+<dd></dd>
+<dt lang="de">Den Kessel auff dem Leilach rucken,</dt>
+<dd></dd>
+<dt lang="de">O sie ist hüpsch.</dt>
+<dd></dd>
+<dt lang="de">Rahtet ihr, was stund im brieff?</dt>
+<dd></dd>
+<dt lang="de">Umbschantz.</dt>
+<dd></dd>
+<dt lang="de">Winckelrut,</dt>
+<dd></dd>
+<dt lang="de">Ich rür, ich rür,</dt>
+<dd></dd>
+<dt lang="de">Ich raht,</dt>
+<dd></dd>
+<dt lang="de">Ribon Ribaine,</dt>
+<dd></dd>
+<dt lang="de">Har auff har, katzenhar,</dt>
+<dd></dd>
+<dt lang="de">Wer das nicht kan, kan nicht vil.</dt>
+<dd></dd>
+<dt lang="de">Teller im Kübel abschlagen.</dt>
+<dd></dd>
+<dt lang="de">Deß Sack zuckens.</dt>
+<dd></dd>
+<dt lang="de">Knecht vernims.</dt>
+<dd></dd>
+<dt lang="de">Fudum, die Mor ist im Kessel.</dt>
+<dd></dd>
+<dt lang="de">Meidlin laß dirs wol thun,</dt>
+<dd></dd>
+<dt lang="de">Loch schlagen, suppen zuhaben.</dt>
+<dd></dd>
+<dt lang="de">Der Geyß hüten,</dt>
+<dd></dd>
+<dt lang="de">Rucken oder schneid.</dt>
+<dd></dd>
+<dt lang="de">Sie thaten all also.</dt>
+<dd></dd>
+<dt lang="de">Inn Bernhards namen,</dt>
+<dd></dd>
+<dt lang="de">Ich hafft ich hang.</dt>
+<dd></dd>
+<dt lang="de">Rindenpfeiflin, Weidenböglin,</dt>
+<dd></dd>
+<dt lang="de">Vögel außnemmen</dt>
+<dd></dd>
+<dt lang="de">Im Sack ein Repphun das übrig soll mein knecht Heintz thun.</dt>
+<dd></dd>
+<dt lang="de">Jeder Vogel inn sein Nest.</dt>
+<dd></dd>
+<dt lang="de">Der Verzäuberin,</dt>
+<dd></dd>
+<dt lang="de">Der Muttwilligen Wittfrauen.</dt>
+<dd></dd>
+<dt lang="de">Hupff inn Klee.</dt>
+<dd></dd>
+<dt lang="de">Meydlin was hat dir die Kunckel gethan?</dt>
+<dd></dd>
+<dt lang="de">Teller von der stangen schlagen.</dt>
+<dd></dd>
+<dt lang="de">Auff dem Gsäß mit gebunden Händen und füssen thurnieren, das recht ohr inn die lincke Hand, und den arm dardurch geschleifft.</dt>
+<dd></dd>
+<dt lang="de">Unser Han der König, der streit ist gewonnen</dt>
+<dd></dd>
+<dt lang="de">Der Hoffarben des scheidens.</dt>
+<dd></dd>
+<dt lang="de">Es giengen drey Jungfrauwen</dt>
+<dd></dd>
+<dt lang="de">Der Baur schickt sein Jockel auß.</dt>
+<dd></dd>
+<dt lang="de">Frosch fangen,</dt>
+<dd></dd>
+<dt lang="de">Deß Apts unnd seiner Brüder?</dt>
+<dd></dd>
+<dt lang="de">Kluckern, schnellkugeln</dt>
+<dd></dd>
+<dt lang="de">Knopff oder spitz</dt>
+<dd></dd>
+<dt lang="de">Inn kauten, kautenfaul.</dt>
+<dd></dd>
+<dt lang="de">Die Imen stechen.</dt>
+<dd></dd>
+<dt lang="de">Auff der brucken suppere inn glorie.</dt>
+<dd></dd>
+<dt lang="de">Auff tellern mit händen gähn,</dt>
+<dd></dd>
+<dt lang="de">Mein Man ist ein Gauch, mein Gauch ein Man.</dt>
+<dd></dd>
+<dt lang="de">Über daß kreißle</dt>
+<dd></dd>
+<dt lang="de">Der Leibpredig.</dt>
+<dd></dd>
+<dt lang="de">Gesellens.</dt>
+<dd></dd>
+<dt lang="de">Murr murr nur nicht.</dt>
+<dd></dd>
+<dt lang="de">Ritter durchs gitter,</dt>
+<dd></dd>
+<dt lang="de">Das spill ich auch, ich auch, die Sau aß ein treck, ich auch.</dt>
+<dd></dd>
+<dt lang="de">Poselleich</dt>
+<dd></dd>
+<dt lang="de">Der mehesten augen,</dt>
+<dd></dd>
+<dt lang="de">Der besten gerad.</dt>
+<dd></dd>
+<dt lang="de">Pumpimperlein pump.</dt>
+<dd></dd>
+<dt lang="de">Der unverständtlichen sprachen.</dt>
+<dd></dd>
+<dt lang="de">Wer poppenschießt</dt>
+<dd></dd>
+<dt lang="de">Die grösten Weidsprüch?</dt>
+<dd></dd>
+<dt lang="de">Was für zeitung auff der Post?</dt>
+<dd></dd>
+<dt lang="de">Was setzt ihr den Gästen auff?</dt>
+<dd></dd>
+<dt lang="de">Deß Alters.</dt>
+<dd></dd>
+<dt lang="de">Matz stampff hinein.</dt>
+<dd></dd>
+<dt lang="de">Seit ihr die Meyd von Rosenthal</dt>
+<dd></dd>
+<dt lang="de">Die faulen Mägd.</dt>
+<dd></dd>
+<dt lang="de">Desperat</dt>
+<dd></dd>
+<dt lang="de">Auff den Reutterschlag.</dt>
+<dd></dd>
+<dt lang="de">Deß unverbottene kusses.</dt>
+<dd></dd>
+<dt lang="de">Klopff wer da wöll.</dt>
+<dd></dd>
+<dt lang="de">Hanß hau dich nicht.</dt>
+<dd></dd>
+<dt lang="de">Liendel laß dir die Juppen blacken.</dt>
+<dd></dd>
+<dt lang="de">Moriscendantz</dt>
+<dd></dd>
+<dt lang="de">Durch den Sträl schalmeien</dt>
+<dd></dd>
+<dt lang="de">Den Schuch außtretten.</dt>
+<dd></dd>
+<dt lang="de">Propter S. Franciscum.</dt>
+<dd></dd>
+<dt lang="de">Fünfften stein,</dt>
+<dd></dd>
+<dt lang="de">Wa zu ist stro gut?</dt>
+<dd></dd>
+<dt lang="de">Adam hett siben Sön.</dt>
+<dd></dd>
+<dt lang="de">Widerfüren,</dt>
+<dd></dd>
+<dt lang="de">Der letzt der ists.</dt>
+<dd></dd>
+<dt lang="de">Jungfrauenspiel.</dt>
+<dd></dd>
+<dt lang="de">Räters.</dt>
+<dd></dd>
+<dt lang="de">Neunten stein,</dt>
+<dd></dd>
+<dt lang="de">Des Verdiensts des Liebkrantzes.</dt>
+<dd></dd>
+<dt lang="de">Stein verbergen.</dt>
+<dd></dd>
+<dt lang="de">Schüchle bergen.</dt>
+<dd></dd>
+<dt lang="de">Plöchlin machen</dt>
+<dd></dd>
+<dt lang="de">Zum zwire zum zware, der Vogel ist gefangen.</dt>
+<dd></dd>
+<dt lang="de">Welchs sind der Buler gröste thorheiten?</dt>
+<dd></dd>
+<dt lang="de">Wie heissen des Wirts kammern?</dt>
+<dd></dd>
+<dt lang="de">Was schenckst mir inn das hauß?</dt>
+<dd></dd>
+<dt lang="de">Womit verdieneten ihr den krantz?</dt>
+<dd></dd>
+<dt lang="de">Schachzabel. Wolffs zagel.</dt>
+<dd></dd>
+<dt lang="de">Höltzin gelächter.</dt>
+<dd></dd>
+<dt lang="de">Warumb hast dein liebchen lieb?</dt>
+<dd></dd>
+<dt lang="de">Faul eisen</dt>
+<dd></dd>
+<dt lang="de">Verbotten mein.</dt>
+<dd></dd>
+<dt lang="de">Der letzt ein Schelm.</dt>
+<dd></dd>
+<dt lang="de">Wie reuten die Mönch.</dt>
+<dd></dd>
+<dt lang="de">Häubeln.</dt>
+<dd></dd>
+<dt lang="de">Der Braut.</dt>
+<dd></dd>
+<dt lang="de">Schuch pletzen.</dt>
+<dd></dd>
+<dt lang="de">Schelmentrager.</dt>
+<dd></dd>
+<dt lang="de">Der minsten augen.</dt>
+<dd></dd>
+<dt lang="de">Zwei gleich gewints.</dt>
+<dd></dd>
+<dt lang="de">Stecken stöcken,</dt>
+<dd></dd>
+<dt lang="de">Nestel vom Messer blasen.</dt>
+<dd></dd>
+<dt lang="de">Nussenspicken,</dt>
+<dd></dd>
+<dt lang="de">Wie vil schiesest mir auff ein Nestel,</dt>
+<dd></dd>
+<dt lang="de">Plöchlin stellen fällen,</dt>
+<dd></dd>
+<dt lang="de">Zeichen oder unzeichen.</dt>
+<dd></dd>
+<dt lang="de">Pfenning im Buch pletern,</dt>
+<dd></dd>
+<dt lang="de">Tafel schiessen,</dt>
+<dd></dd>
+<dt lang="de">Helmlin zihen,</dt>
+<dd></dd>
+<dt lang="de">Verbergens.</dt>
+<dd></dd>
+<dt lang="de">Kinder außtheilen,</dt>
+<dd></dd>
+<dt lang="de">Käß trucken,</dt>
+<dd></dd>
+<dt lang="de">Da sitz ich fein, da ward ich dein,</dt>
+<dd></dd>
+<dt lang="de">Ich gang, ich komm, ich komm, ich gang,</dt>
+<dd></dd>
+<dt lang="de">Der Träum.</dt>
+<dd></dd>
+<dt lang="de">Deß beichtens,</dt>
+<dd></dd>
+<dt lang="de">Deß Schulmeisters mit der langen Nasen.</dt>
+<dd></dd>
+<dt lang="de">Alle bösen</dt>
+<dd></dd>
+<dt lang="de">Der Sünden büß.</dt>
+<dd></dd>
+<dt lang="de">Ich erinner euch,</dt>
+<dd></dd>
+<dt lang="de">Ich gieng durch ein enges Gäßlin, begegnet mir ein schwartz Pfäflin, etc.</dt>
+<dd></dd>
+<dt lang="de">Es wolt ein Jungfrau züchtig sein, nam ihn inn die hand und wiß ihn drein, etc.</dt>
+<dd></dd>
+<dt lang="de">Ich legt mein Bauch auf sein Bauch, etc.</dt>
+<dd></dd>
+<dt lang="de">Wann ich dirs nenn, und du so grosser Narr bist, und nicht weist was das ist.</dt>
+<dd></dd>
+<dt lang="de">Wickerlin, weckerlein laufft übers Aeckerlein, hat mehr bein, dann meiner Hund kein.</dt>
+<dd></dd>
+<dt lang="de">All zinck.</dt>
+<dd></dd>
+<dt lang="de">Seß eß,</dt>
+<dd></dd>
+<dt lang="de">Kuntz hinder dem Ofen.</dt>
+<dd></dd>
+<dt lang="de">Zu den Hunden.</dt>
+<dd></dd>
+<dt lang="de">Wer ja und Nein sagt.</dt>
+<dd></dd>
+<dt lang="de">Keller und Koch, bloß ins loch.</dt>
+<dd></dd>
+<dt lang="de">Haden umb die händ in vil gestalt winden.</dt>
+<dd></dd>
+<dt lang="de">Grandmercy,</dt>
+<dd></dd>
+<dt lang="de">Ich bleib. Ich tausch.</dt>
+<dd></dd>
+<dt lang="de">Mönchsgebett,</dt>
+<dd></dd>
+<dt lang="de">Wers hat der red,</dt>
+<dd></dd>
+<dt lang="de">Schimmel laß dich wischen,</dt>
+<dd></dd>
+<dt lang="de">Wessen ist die hand, der finger?</dt>
+<dd></dd>
+<dt lang="de">Der erst herauß, der letzt drinnen,</dt>
+<dd></dd>
+<dt lang="de">Das Bocken,</dt>
+<dd></dd>
+<dt lang="de">Harnisch fegen.</dt>
+<dd></dd>
+<dt lang="de">Fasten auff der Karten.</dt>
+<dd></dd>
+<dt lang="de">Titerint tractro, stampf ins Stro.</dt>
+<dd></dd>
+<dt lang="de">Wie gibst den Fincken</dt>
+<dd></dd>
+<dt lang="de">Wer was weiß der sags,</dt>
+<dd></dd>
+<dt lang="de">Weiß oder schwartz?</dt>
+<dd></dd>
+<dt lang="de">Deß Igelstechens,</dt>
+<dd></dd>
+<dt lang="de">Spitz das mündlin,</dt>
+<dd></dd>
+<dt lang="de">Wer kans wissen, wie vil die Magd hat, etc.</dt>
+<dd></dd>
+<dt lang="de">Den Katzenstrigel.</dt>
+<dd></dd>
+<dt lang="de">Oel außschlagen,</dt>
+<dd></dd>
+<dt lang="de">Pfeifft oder ich such euch nicht.</dt>
+<dd></dd>
+<dt lang="de">Kapp komm auß dem Häußcken.</dt>
+<dd></dd>
+<dt lang="de">Des Warnens,</dt>
+<dd></dd>
+<dt lang="de">Wie erschien dir vornächten dein Bule?</dt>
+<dd></dd>
+<dt lang="de">Bierenbaum schütteln.</dt>
+<dd></dd>
+<dt lang="de">Küle, kühele gump nit.</dt>
+<dd></dd>
+<dt lang="de">Schabab</dt>
+<dd></dd>
+<dt lang="de">Trag den Knaben.</dt>
+<dd></dd>
+<dt lang="de">Deß Judas.</dt>
+<dd></dd>
+<dt lang="de">Da zünd er ihr den Rocken an,</dt>
+<dd></dd>
+<dt lang="de">Des Weberspils.</dt>
+<dd></dd>
+<dt lang="de">Hütlin, hütlin durch die bein.</dt>
+<dd></dd>
+<dt lang="de">Rebecca ruck den stul.</dt>
+<dd></dd>
+<dt lang="de">Leuß oder Niß,</dt>
+<dd></dd>
+<dt lang="de">Wie reutst die Sau, daß sie nicht hau.</dt>
+<dd></dd>
+<dt lang="de">Im Winter auß, im Sommer an,</dt>
+<dd></dd>
+<dt lang="de">Den Hund heben.</dt>
+<dd></dd>
+<dt lang="de">Der schleckhafften Katzen,</dt>
+<dd></dd>
+<dt lang="de">Vier bein zwey bein,</dt>
+<dd></dd>
+<dt lang="de">Wa lauffen die Seck selbs herauß?</dt>
+<dd></dd>
+<dt lang="de">Hinden rauch, fornen kal,</dt>
+<dd></dd>
+<dt lang="de">Wa thun all hüpsch Frauen hin?</dt>
+<dd></dd>
+<dt lang="de">Wünsch das beiden nutzt,</dt>
+<dd></dd>
+<dt lang="de">Trey wünsch auff eim stiel,</dt>
+<dd></dd>
+<dt lang="de">Mein Vatter fieng ein Fisch, wie lang?</dt>
+<dd></dd>
+<dt lang="de">Deß Welschen giffts.</dt>
+<dd></dd>
+<dt lang="de">Warumb seufftzt ihr Nachbar?</dt>
+<dd></dd>
+<dt lang="de">Was reuet dich?</dt>
+<dd></dd>
+<dt lang="de">Ists Esel oder Edel?</dt>
+<dd></dd>
+<dt lang="de">Inn was gestalt dir die Wandlung gefallt.</dt>
+<dd></dd>
+<dt lang="de">Herbei, es ist opfferens zeit.</dt>
+<dd></dd>
+<dt lang="de">Ich und mein Knecht tragen ein Harnisch feyl.</dt>
+<dd></dd>
+<dt lang="de">Wirten,</dt>
+<dd></dd>
+<dt lang="de">Hilteckens.</dt>
+<dd></dd>
+<dt lang="de">Treimal sechs,</dt>
+<dd></dd>
+<dt lang="de">Den überwurff,</dt>
+<dd></dd>
+<dt lang="de">Den zwölfften stein,</dt>
+<dd></dd>
+<dt lang="de">Pferdlin wol bereit.</dt>
+<dd></dd>
+<dt lang="de">Ritschen.</dt>
+<dd></dd>
+<dt lang="de">Pfeifft oder ich such euch nicht,</dt>
+<dd></dd>
+<dt lang="de">Schulwinckel,</dt>
+<dd></dd>
+<dt lang="de">Hol oder voll</dt>
+<dd></dd>
+<dt lang="de">Hänlin komm auß dem winckelein.</dt>
+<dd></dd>
+<dt lang="de">Das Hänlin, hänlin hat gelegt.</dt>
+<dd></dd>
+<dt lang="de">Furtz im Bad, oben auß, nirgend an</dt>
+<dd></dd>
+<dt lang="de">Es beißt baß,</dt>
+<dd></dd>
+<dt lang="de">Der kleiner ziehet den grossen,</dt>
+<dd></dd>
+<dt lang="de">Tantz oder pfeiff,</dt>
+<dd></dd>
+<dt lang="de">Wa klebt der Senff.</dt>
+<dd></dd>
+<dt lang="de">Iß Heues vil, so iß des meher,</dt>
+<dd></dd>
+<dt lang="de">Den grindigen Gauch beropffen,</dt>
+<dd></dd>
+<dt lang="de">Kätzlin mach ein hasentäplin,</dt>
+<dd></dd>
+<dt lang="de">Wolff beiß mich nicht.</dt>
+<dd></dd>
+<dt lang="de">Der schmach und raach,</dt>
+<dd></dd>
+<dt lang="de">Der Neue Zeitung beim Bronnen.</dt>
+<dd></dd>
+<dt lang="de">Des Promovirens inn der Lehr der Lieb.</dt>
+<dd></dd>
+<dt lang="de">Der Heimlichkeit.</dt>
+<dd></dd>
+<dt lang="de">Was krüselt sich, was mauset sich?</dt>
+<dd></dd>
+<dt lang="de">Ist nahe darbei, baß auff den Esel.</dt>
+<dd></dd>
+<dt lang="de">Soll ich, bin ich,</dt>
+<dd></dd>
+<dt lang="de">Dem Blinden opfferen.</dt>
+<dd></dd>
+<dt lang="de">Was ich wünsch, sey dein halb,</dt>
+<dd></dd>
+<dt lang="de">Immen wigen.</dt>
+<dd></dd>
+<dt lang="de">Ich bring dir ein Vögelin,</dt>
+<dd></dd>
+<dt lang="de">Was für Blumen zieren sie wol?</dt>
+<dd></dd>
+</dl>

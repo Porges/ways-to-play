@@ -8,26 +8,6 @@ Ref: [@OxfordBG; @Bell, p. 98; @KoreanGames, p. 102]
 
 Ref: [@OxfordBG]
 
-### Halma
-
-Ref: [@OxfordBG; @Bell, p. 98; @NewRules, p. 87]
-
-Variants:
-
-Mini-Halma: [@NewRules, p. 89]
-
-### Chinese checkers (Sternhalma)
-
-Ref: [@OxfordBG; @NewRules, p. 8]
-
-### Rakado
-
-Ref: [@OxfordBG]
-
-### Salta
-
-Ref: [@OxfordBG; @NewRules, p. 89]
-
 ### [Epaminondas]{lang="el-Latn"}
 
 Ref: [@Gamut, p. 46; @NewRules, p. 91; @OxfordBG]

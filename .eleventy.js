@@ -130,7 +130,7 @@ module.exports = function (eleventyConfig) {
 function pronunciation(props) {
   const { file, lang, word, pronouncer, noun } = props;
   const mp3File = file ? ('/audio/' + file) : `/audio/pronunciation_${lang}_${word}.mp3`;
-  return `<audio preload="none" src="${mp3File}"></audio><span class="pronunciation${ifSet(noun, ' proper-noun')}" lang="${lang}" title="Pronunciation © ‘${pronouncer}’ CC-BY-NC-SA 3.0, courtesy of Forvo.com." onclick="this.previousSibling.play()">${word}</span>`;
+  return `<audio preload="none" src="${mp3File}"></audio><span class="pronunciation${ifSet(noun, ' noun')}" lang="${lang}" title="Pronunciation © ‘${pronouncer}’ CC-BY-NC-SA 3.0, courtesy of Forvo.com." onclick="this.previousSibling.play()">${word}</span>`;
 }
 
 const cardsRegex = /(?<=[\dAJQK]+)|(?=[\dAJQK]+)/;
@@ -193,7 +193,7 @@ function gameRef() {
       if (IS_PRODUCTION) {
         throw new Error(`unknown game reference: ${this.ref}`);
       } else {
-        console.log("Uknown game ref: ", this.ref);
+        console.log('Unknown game ref: ', this.ref);
         return `UNKNOWN GAME REF: ${this.ref}`;
       }
     }
@@ -257,6 +257,7 @@ const citationPlugin = () => {
             + `<cite${asAttr('lang', reference["title-lang"])}>${reference.title}</cite>`
             + `</a>`
             + ifSet(suffix, ` (${suffix})`);
+        case 'paper-conference':
         case 'article-journal':
           if (reference.author) {
             return `<a href="${`#ref-${id}`}">${reference.author[0].family}</a>`
