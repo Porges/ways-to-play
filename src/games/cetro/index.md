@@ -1,6 +1,5 @@
 ---
 title: Cetro
-draft: true
 players: 2
 ---
 
