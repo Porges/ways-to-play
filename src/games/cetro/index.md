@@ -28,7 +28,7 @@ The Cetro board.
 {% imageEnd%}
 
 Each player has 14 pieces in the three colors: 5 each of blue and red, and 4
-green. One player’s pieces are marked as kings (&#x2654;) and the other as
+green. One player’s pieces are marked as kings (&#x2654;) and the other’s as
 bishops (&#x265D;).
 
 {% image src="cetro_pieces.svg" alt="" %}
