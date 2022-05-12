@@ -1,6 +1,7 @@
 ---
 title: Gunjin Shogi
 titleLang: ja-Latn
+originalTitle: <span lang="ja">軍人将棋</span>
 draft: true
 ---
 

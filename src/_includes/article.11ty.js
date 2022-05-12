@@ -92,6 +92,7 @@ exports.render = async function (data) {
                 <div class="col-lg-10">
                     <h1 itemprop="headline"${this.asAttr('lang', data.titleLang)}>
                         <a href="${data.page.url}" itemprop="mainEntityOfPage">${data.title}</a>
+                        ${ifSet(data.originalTitle, () => `<br>` + data.originalTitle)}
                         ${data.draft ? '<br/><span class="badge bg-warning text-dark">Draft</span>' : ''}
                     </h1>
                 </div>

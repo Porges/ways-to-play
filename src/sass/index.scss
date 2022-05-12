@@ -33,15 +33,6 @@
 }
 
 @font-face {
-    font-family: "NKS30-only";
-    src: 
-        url('/fonts/nks30_chess_pieces.woff2') format('woff2'),
-        url('/fonts/nks30_chess_pieces.woff') format('woff'),
-        url('/fonts/nks30_chess_pieces.ttf') format('truetype');
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'ocrb';
     src: url('/fonts/ocrb.woff2') format('woff2'),
          url('/fonts/ocrb.woff') format('woff'),
@@ -57,19 +48,6 @@ $font-family-sans-serif:
     "Noto Emoji",
     sans-serif, 
     "cc-icons"; /* fallback for Creative Commons Unicode characters */
-
-.chessboard {
-    text-align: center;
-    font-size: 3em;
-    font-family: "NKS30-only";
-    line-height: 1em;
-    white-space: pre;
-
-    &.trim {
-        margin-top: -.9em;
-        margin-bottom: -.5em;
-    }
-}
 
 @mixin italic-font {
     font-family: "Fira Sans", sans-serif;

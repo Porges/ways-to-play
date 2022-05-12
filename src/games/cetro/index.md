@@ -3,12 +3,6 @@ title: Cetro
 players: 2
 ---
 
-<style>
-.blue { color: #5DACAB; }
-.green { color: #76994C; }
-.red { color: #C13E34; }
-</style>
-
 {% image 
     position="aside"
     src="J.W.Spear.jpg"
@@ -29,41 +23,25 @@ Cetro is played on a 9×9 grid, with some rows marked out with different colours
 The top- and bottom-most rows (those nearest the two players) are coloured blue,
 the second-most green, the third-most red, and the inner three rows are black:
 
-<p class="chessboard trim" role="img">
-<span class="blue">?????</span>
-<span class="green">????</span>
-<span class="red">?????</span>
-
-
-
-<span class="red">?????</span>
-<span class="green">????</span>
-<span class="blue">?????</span>
-</p>
+{% image src="cetro_board.svg" alt="" %}
+The Cetro board.
+{% imageEnd%}
 
 Each player has 14 pieces in the three colors: 5 each of blue and red, and 4
-green. (In the published game, one player’s pieces are marked with &#x2654; and
-the other with &#x265D;, but here I am using &#x2654; for both, due to font
-constraints.)
+green. One player’s pieces are marked as kings (&#x2654;) and the other as
+bishops (&#x265D;).
 
-<p class="chessboard" role="img"><span class="blue">9</span><span class="green">9</span><span class="red">9</span>
-<span class="blue">)</span><span class="green">)</span><span class="red">)</span></p>
+{% image src="cetro_pieces.svg" alt="" %}
+The players’ pieces.
+{% imageEnd%}
 
 ### Play
 
 The initial setup of the board places the pieces on squares of matching colour:
 
-<p class="chessboard trim" role="img">
-<span class="blue">9@9@9@9@9@</span>
-<span class="green">9@9@9@9@</span>
-<span class="red">9@9@9@9@9@</span>
-
-
-
-<span class="red">)@)@)@)@)@</span>
-<span class="green">)@)@)@)@</span>
-<span class="blue">)@)@)@)@)@</span>
-</p>
+{% image src="cetro_setup.svg" alt="" position="wide" %}
+Initial setup of the Cetro board.
+{% imageEnd%}
 
 The goal of the game is for a player to move their pieces across the board and
 have them end up in the matching-coloured spaces on their opponent’s side of the

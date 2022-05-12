@@ -1,6 +1,7 @@
 ---
 title: "Xiàngqí"
 titleLang: zh-Latn
+originalTitle: <span lang="zh">象棋</span>
 draft: true
 players: 2
 ---

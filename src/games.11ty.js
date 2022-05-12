@@ -10,7 +10,7 @@ exports.data = {
 exports.render = function (data) {
     const expandedGames = data.collections.game.filter(g => !IS_PRODUCTION || !g.data.draft).flatMap(g =>
         [
-            { title: g.data.title, titleLang: g.data.titleLang, url: g.url, draft: g.data.draft },
+            { title: g.data.title, titleLang: g.data.titleLang, url: g.url, draft: g.data.draft, originalTitle: g.data.originalTitle },
             ...(g.data.subgames || []).map(sg => ({
                 title: sg.title,
                 draft: g.data.draft,
@@ -26,7 +26,7 @@ exports.render = function (data) {
         + expandedGames.map(post => {
             // console.log(post);
             return `<li${(post.variant ? ' class="game-variant"' : '')}>`
-            +`<a href="${post.url}"${this.asAttr("lang", post.titleLang)}>${post.title}</a>`
+            +`<a href="${post.url}"${this.asAttr("lang", post.titleLang)}>${post.title}${ifSet(post.originalTitle, ` (${post.originalTitle})`)}</a>`
             +ifSet(post.draft, ' <span class="badge bg-warning text-dark">Draft</span>')
             +'</li>';
         }).join("\n")
