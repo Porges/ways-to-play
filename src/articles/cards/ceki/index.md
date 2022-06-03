@@ -1701,6 +1701,10 @@ Other games from Malaysia/Singapore, for which I have no rules, are:
 
 ## Manufacturers & Brands
 
+{% image position="aside" alt="A bird perched on a branch." src="Handelsvereeniging_logo.jpg" %}
+The logo for <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</span>.
+{% imageEnd %}
+
 (Extinct) European manufacturers included:
 
 * <span class="noun" lang="fr">Camoin</span>, a French company that was based in Marseille
