@@ -1259,6 +1259,14 @@ the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in
 {% imageEnd %}
 
 {% image 
+    position="aside"
+    src="W0316_box.jpg"
+    alt="A box front depicting the storefront of a Japanese karuta manufacturer."
+    license="cc0" %}
+Another version of the storefront box, from the <abbr title="Worshipful Company of Playing Card Makers">WCPCM</abbr> collection.
+{% imageEnd %}
+
+{% image 
     noborder=true
     position="aside"
     src="Tamada_trademark1.png;Tamada_trademark2.png"
