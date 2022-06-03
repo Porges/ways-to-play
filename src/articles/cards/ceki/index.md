@@ -1,47 +1,46 @@
 ---
 title: Ceki cards
 order: 50
-draft: true
+hero:
+    image: 3915400394_ce30e3617d_o.jpg
+    author: ecv5
+    copyrightYear: 2008
+    license: "cc-by-nc-nd"
+    licenseVersion: "2.0"
+    originalUrl: "https://www.flickr.com/photos/habsburg/3915400394" 
 ---
 
-Ceki or Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia
-and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older
-Indonesian orthographies, or <span lang="ms-Arab">چکي</span> in Jawi script. The
-word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít
-ki</span> (<span lang="nan">一枝</span>)[@LoanWordsIndonesian p.
-48],<!--{/*TODO: or 7 cards? https://core.ac.uk/download/pdf/48633257.pdf */}-->
-“one card”, perhaps referring to the pick-one/play-one nature of the most common
-Ceki games. @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕
-</span> (<span lang="nan-Latn">chitki</span>) but I have not found this
-elsewhere; perhaps it is a phonetic back-formation.{%endfn%} or Koa cards are
-widely used in Indonesia and parts of Malaysia and Singapore. They originally
-derive from Chinese 3-suited money cards (particularly the “Water Margin” type),
-and over time the imagery on the cards developed into smaller, simpler, and more
+Ceki or Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia and
+Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in
+older Indonesian orthographies, or <span lang="ms-Arab">چکي</span> in Jawi
+script. The word apparently comes from Amoy (Hokkien) Chinese <span
+lang="nan-Latn">chít ki</span> (<span lang="nan">一枝
+</span>)[@LoanWordsIndonesian p. 48],<!--{/*TODO: or 7 cards?
+https://core.ac.uk/download/pdf/48633257.pdf */}--> “one card”, perhaps
+referring to the pick-one/play-one nature of the most common Ceki games.
+@GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> (<span
+lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it
+is a phonetic back-formation.{%endfn%} or Koa cards are widely used in Indonesia
+and parts of Malaysia and Singapore. They originally derive from Chinese
+3-suited money cards (particularly the “Water Margin” type), and over time and
+distance the imagery on the cards developed into smaller, simpler, and more
 abstract forms, while retaining the original deck structure.
 
 <!-- excerpt -->
 
-{% image 
-    src='3915400394_ce30e3617d_o.jpg'
-    alt=""
-    author="ecv5",
-    copyrightYear=2008,
-    license="cc-by-nc-nd",
-    licenseVersion="2.0",
-    originalUrl="https://www.flickr.com/photos/habsburg/3915400394" %}
-Scattered Cherki cards (of Malaysian variety).
-{% imageEnd %}
-
 Ceki games are also played amongst members of “reterritorialized” Indonesian
 Chinese communities within mainland China.[@BalineseChineseCommunity p. 555]
+
+{% image src="../../../maps/Ceki.svg" alt="" %}
+Countries where Ceki cards are used.
+{% imageEnd %}
 
 ## Malaysia & Singapore
 
 The use of Cherki cards in Malaysia & Singapore was introduced by
 [Peranakan](https://en.wikipedia.org/wiki/Peranakans) (Baba–Nyonya) communities.
 Much of the terminology and card naming derives from Hokkien, and the cards used
-are closer to their ancestral forms than those used in Indonesia ([see
-below](#the-cards)).
+are closer to their ancestral forms than those used in Indonesia.
 
 {% image 
     src="shutterstock_1293448237.jpg"
@@ -54,38 +53,71 @@ below](#the-cards)).
 An exhibition game using Cherki cards being played in Penang, Malaysia.
 {% imageEnd %}
 
-In Malaysia & Singapore the game was almost exclusively played by women, and has
-now nearly died out. @TheBabas reported that by the 1980s it
-was only possible to get cards in Melaka.
+In the past the game was played by all levels of society; records of the palace
+expenditure of the [Sultan Abdul Hamid Halim of
+Kedah](https://en.wikipedia.org/wiki/Abdul_Hamid_Halim_of_Kedah) (1864–1943)
+from 1896–99 indicate that he enjoyed gambling with
+Ceki.[@MemoryOfTheWorldRegister p. 58]
 
-<!--
-  {/*<p>Records of palace expenditure of the Sultan Abdul Hamid Halim of Kedah (1864–1943) from 1896–99 indicate that he enjoyed gambling with Ceki.[@ r="MemoryOfTheWorldRegister" page={58} /></p>*/} -->
+More recent accounts from Malaysia & Singapore indicate that the game was almost
+exclusively played by women, and in modern times it has nearly died out.
+@TheBabas reported that by the 1980s it was only possible to get cards in
+Melaka. However, there are ongoing efforts to preserve and repopularize the
+game.
 
 ## Indonesia
 
-During the colonial era, cards were manufactured in Europe by Dutch companies
-and exported to Indonesia.
-
 In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and
 Bali, all of which have historically had large Chinese influence.
+
+During the colonial era, cards were manufactured in Europe by Dutch companies
+and exported to Indonesia. (See the [manufacturers](#manufacturers-brands)
+section below.)
 
 {% image src="Kaartspelers.jpg" alt="" license="cc0" size="wide" %}
 Javanese card players, by Jean Demmeni (1866–1939).
 {% imageEnd %}
 
-In Indonesia the cards are particularly popular amongst the Minangkabau people
-of West Sumatra, as the Dutch card-making company <span class="noun"
+In Bali the game is widely played, and has “a large if not fanatical
+following”,[@TransitionalDemocracy p. 170] despite gambling being illegal. Cards
+are readily available at many convenience stores.
+
+{% image size="wide" src="30414256602_246d032faa_o.jpg" license="cc-by-nc-nd" licenseVersion="2.0" 
+  originalUrl="https://www.flickr.com/photos/adamcohn/30414256602/" authorGiven="Adam" authorFamily="Cohn"
+  copyrightYear=2016
+  alt="Men in traditional dress seated around a cloth mat upon which are placed ceki cards and bundles of money."
+  %}
+Balinese men playing a gambling game.
+{% imageEnd %}
+
+The game is particularly popular amongst the Minangkabau people of West
+Sumatra, as the Dutch card-making company <span class="noun"
 lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</span> had a
 factory{%fn%}This building was later to become the [Hotel
 Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in
 the [2009 Sumatran
-earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes).{%endfn%}
-in the city of Padang. The company also had offices in Java & Sulawesi
-(previously known as Celebes).
+ earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes). The
+company also had offices in Java & Sulawesi (previously known as
+Celebes).{%endfn%} in the city of Padang.  In the Minang language they are
+called Koa (or Kowah). The Minangkabau go so far as to say “<span
+lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you
+can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1]
 
-In Minang they are called Koa (or Kowah). The Minangkabau go so far as to say
-“<span lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if
-you can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1]
+{% image src="Kaartspel_op_een_Javaans_feest_in_Paramaribo,_Bestanddeelnr_252-2592.jpg" alt=""
+  license="cc0"
+  originalUrl="http://proxy.handle.net/10648/aead8142-d0b4-102d-bcf8-003048976d84"
+  orgName="Nationaal Archief"
+  copyrightYear=1955
+  %}
+
+The game has also been carried to Suriname by [Javanese
+emigrants.](https://en.wikipedia.org/wiki/Javanese_Surinamese) This image shows
+it being played at the time of the visit of [Queen
+Juliana](https://en.wikipedia.org/wiki/Juliana_of_the_Netherlands) and [Prince
+Bernhard](https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld) in
+1955.
+
+{% imageEnd %}
 
 ## The Deck
 
@@ -120,7 +152,7 @@ The three suits are called:[@ChikiCards p. 119]
 <thead>
 <tr class="text-center">
 <th></th>
-<th>Honour</th>
+<th></th>
 <th>1</th>
 <th>2</th>
 <th>3</th>
@@ -186,21 +218,22 @@ For each card in the table below I show in order (left-to-right)
 4. a 1940s deck collected in @JavaanseKaartspelen,
 5. and then a modern card from a deck purchased in Bali in 2019 (clearly derived from #3).
 
-Modern Malaysian & Singaporean decks (of which I have no samples) are closer in
-style to the #1 deck.
+Modern Malaysian & Singaporean decks (of which I have no samples{%fn%}Yet! Can
+you help with this? Contact me!{%endfn%}) are closer in style to the #1 deck.
 
 Each card in the deck has its own name as listed in the table below. In
 Malaysia/Singapore these are based on the Hokkien names of the cards — a
-combination of suit and rank — but as we move South and East along the Malay
-Archipelago (the table below is listed roughly in this order), the names diverge
-further and further from this original source, and most cards have nicknames
-that are based upon their appearance rather than their numeric value.
+combination of suit and rank — but as we move in a south-easterly direction
+along the Malay Archipelago (the table below is listed roughly in this order),
+the names diverge further and further from this original source, and most cards
+have nicknames that are based upon their appearance rather than their numeric
+value.
 
 The translations in the table are mostly from the [SEAlang](http://sealang.net)
-dictionaries; any mistakes are my own. **Note** that the word “<span
-lang="jav-Latn">cina</span>” referring to a Chinese person is now considered a
-potentially derogatory term.{%fn%}For example, the Indonesian government no
-longer uses it in official communications.{%endfn%}
+dictionaries; any mistakes are my own.{%fn%}According to some sources, the word
+“<span lang="jav-Latn">cina</span>” referring to a Chinese person is now
+considered a potentially derogatory term. For example, the Indonesian government
+no longer uses it in official communications.{%endfn%}
 
 ⚠️ The table is *very wide* and scrolls horizontally.
 
@@ -476,7 +509,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu nyonya</span><br />(娘仔?) ace</td>
 <td><span lang="min">hiu merah</span><br/>red shark<br/><br/>or <span lang="min">penci</span><br/>[<a href="https://en.wikipedia.org/wiki/Songkok">a hat</a>?]</td>
 <!-- Java -->
-<td><span lang="jv">ꦏꦼꦚ꧀ꦕꦶ</span><br/><span lang="jv-Latn">keñci</span><br/></td>
+<td><span lang="jv">ꦏꦼꦚ꧀ꦕꦶ</span><br/><span lang="jv-Latn">kêñci</span><br/></td>
 <td><span lang="jv-Latn">kenci</span></td>
 <td><span lang="jv-Latn">kenci</span></td>
 <td><span lang="jv-Latn">kenci</span></td>
@@ -542,7 +575,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span><br />long or bird ace</td>
 <td><span lang="min">hiu panjang</span><br />long shark</td>
 <!-- Java -->
-<td><span lang="jv">ꦧꦼꦢꦺꦴꦂ</span><br/><span lang="jv-Latn">bedor</span><br/></td>
+<td><span lang="jv">ꦧꦼꦢꦺꦴꦂ</span><br/><span lang="jv-Latn">bêdor</span><br/></td>
 <td><span lang="jv-Latn">(iyo) bedor</span></td>
 <td><span lang="jv-Latn">(iyo) bedor</span></td>
 <td><span lang="jv-Latn">(iyo) bedor</span></td>
@@ -575,7 +608,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">yu hue sio</span><br />from Hokkien ‘monk’ <span lang="nan">和尚</span></td>
 <td><span lang="min">hiu bungo</span><br />flower shark</td>
 <!-- Java -->
-<td><span lang="jv">ꦥꦼꦠꦶꦏ꧀</sin><br/><span lang="jv-Latn">petik</span><br/></td>
+<td><span lang="jv">ꦥꦼꦠꦶꦏ꧀</sin><br/><span lang="jv-Latn">pêtik</span><br/></td>
 <td><span lang="jv-Latn">beset</span><br/>peeled [bald?]</td>
 <td><span lang="jv-Latn">gundhul</span><br/>bald<br/><br/><span lang="jv-Latn">pletik</span><br/>spark</td>
 <td><span lang="jv-Latn">(iyo) gundhul</span><br/>bald<br/><br/><span lang="jv-Latn">petik</span><br/>[spark?]</td>
@@ -1037,8 +1070,8 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">go pending</span><br />pending five</td>
 <td><span lang="min">babi pusek</span><br />navel pig</td>
 <!-- Java -->
-<td><span lang="jv">ꦧꦧꦶꦏꦟ꧀ꦛꦺꦴꦁ</span><br/><span lang="jv-Latn">babi kaṇthong</span><br/>bag</td>
-<td><span lang="jv-Latn">kanthong</span><br/>bag</td>
+<td><span lang="jv">ꦧꦧꦶꦏꦟ꧀ꦛꦺꦴꦁ</span> (modern <span lang="jv">ꦏꦤ꧀ꦛꦺꦴꦁ</span>)<br/><span lang="jv-Latn">babi kaṇthong (kanthong)</span><br/>pig bag</td>
+<td><span lang="jv-Latn">kanthong</span><br/>bag</td (kanthong)>
 <td><span lang="jv-Latn">kanthong</span><br/>bag</td>
 <td><span lang="jv-Latn">(lima) kanthong</span><br/>bag (five)<br/><br/><span lang="jv-Latn">lumpang</span><br/>mortar</td>
 <td><span lang="jv-Latn">(lima) kanthong</span><br/>bag (five)<br/><br/><span lang="jv-Latn">lumpang</span><br/>mortar</td>
@@ -1169,7 +1202,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">lak hitam</span><br />black six</td>
 <td><span lang="min">kapik anam</span><br />grilled six</td>
 <!-- Java -->
-<td><span lang="jv">ꦏꦼꦫꦺꦴꦏ꧀ꦒ꦳ꦥꦶꦠ꧀</span><br/><span lang="jv-Latn">kerok ghapit</span><br/>curry-comb tongs</td>
+<td><span lang="jv">ꦏꦼꦫꦺꦴꦏ꧀ꦒ꦳ꦥꦶꦠ꧀</span><br/><span lang="jv-Latn">kêrok ghapit</span><br/>curry-comb tongs</td>
 <td><span lang="jv-Latn">kerok</span><br/>curry-comb</td>
 <td><span lang="jv-Latn">kerok</span><br/>curry-comb</td>
 <td><span lang="jv-Latn">(nem) kerok</span></td>
@@ -1433,7 +1466,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">puek kerang</span><br />cockle eight</td>
 <td><span lang="min">pacah lapan</span><br />broken eight</td>
 <!-- Java -->
-<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦥꦶꦕꦶꦱ꧀</span><br/><span lang="jv-Latn">lekok picis</span><br/></td>
+<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦥꦶꦕꦶꦱ꧀</span><br/><span lang="jv-Latn">lêkok picis</span><br/></td>
 <td><span lang="jv-Latn">wolu kerok</span></td>
 <td><span lang="jv-Latn">picis, wolu kerok</span></td>
 <td><span lang="jv-Latn">(wolu) picis, (wolu) wang</span></td>
@@ -1466,7 +1499,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">puek menak</span><br />noble<!--{%fn%}Menak is a title for an aristocrat.{%endfn%}--> eight</td>
 <td><span lang="min">pacah manih</span><br />broken sweet</td>
 <!-- Java -->
-<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">lekok lintrik</span><br/></td>
+<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">lêkok lintrik</span><br/></td>
 <td><span lang="jv-Latn">wolu manis</span></td>
 <td><span lang="jv-Latn">wolu lintrik, manis</span></td>
 <td><span lang="jv-Latn">manis</span></td>
@@ -1499,7 +1532,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">puek ban</span></td>
 <td><span lang="min">pacah aluih</span><br />broken genteel</td>
 <!-- Java -->
-<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">lekok cina</span><br/></td>
+<td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">lêkok cina</span><br/></td>
 <td><span lang="jv-Latn">budheg</span><br/>[deaf/stupid?]</td>
 <td><span lang="jv-Latn">wolu cina</span></td>
 <td><span lang="jv-Latn">budheg</span><br/>[deaf/stupid?]</td>
@@ -1750,3 +1783,7 @@ Old Indonesian brands included:
 * <span class="noun" lang="id">Kodok</span> (‘frog’)[@JavaanseKaartspelen p. 12]
 * <span class="noun" lang="id">Kunci</span> (‘lock/key’)[@JavaanseKaartspelen p. 12]
 * <span class="noun" lang="id">Dua Macan</span> (‘two tigers’)
+
+## Credits
+
+Special thanks to [Aditya](https://twitter.com/NNBJawaofficial) for double-checking my Javanese transcriptions.

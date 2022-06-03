@@ -111,7 +111,7 @@ const renderAuthors = (reference) => {
  * @returns {string}
  */
 const renderPeople = (as, reverseFirst, period, itemprop) => {
-    const renderFamily = (/** @type {Author} */ a, /** @type {number} */ ix) => a.family &&
+    const renderFamily = (/** @type {Author} */ a, /** @type {number} */ ix) => 
         `<span itemprop="familyName">${a.family}</span>${ifSet(period && ix > 0 && ix === (as.length - 1) && !a.family.endsWith('.'), '.')}`;
 
     const renderGiven = (/** @type {Author} */ a, /** @type {number} */ ix) => {
@@ -132,8 +132,8 @@ const renderPeople = (as, reverseFirst, period, itemprop) => {
         + `<span itemscope itemtype="http://schema.org/Person"${asAttr('itemprop', itemprop)}${asAttr('lang', a.lang)} class="noun">`
         + hiddenName(a)
         + ((reverseFirst && ix === 0)
-            ? `${ifSet(a.family, `${isolate(renderFamily(a, ix))}, ${isolate(renderGiven(a, ix))}`)}`
-            : isolate(`${renderGiven(a, ix)}${ifSet(a.family, ` ${renderFamily(a, ix)}`)}`))
+            ? ifSet(a.family, () => `${isolate(renderFamily(a, ix))}, `) + isolate(renderGiven(a, ix))
+            : isolate(`${renderGiven(a, ix)}${ifSet(a.family, () => ` ${renderFamily(a, ix)}`)}`))
         + `</span>`)).join('');
 };
 

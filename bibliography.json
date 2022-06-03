@@ -4771,7 +4771,8 @@
         "container-title": "Kajian Malaysia",
         "volume": 33,
         "issue": "Supp. 2",
-        "page": "53–74"
+        "page": "53–74",
+        "URL": "http://web.usm.my/km/33(Supp.2)2015/km33s22015_04.pdf"
     },
     "RancangBangun": {
         "type": "thesis",
@@ -6387,7 +6388,7 @@
         "container-title": "Cindua Dingin",
         "author": [
             {
-                "given": "AKZs2r"
+                "given": "“AKZs2r”"
             }
         ],
         "issued": {
@@ -7044,5 +7045,34 @@
             "year": 2020
         },
         "page": "159–219"
+    },
+    "TransitionalDemocracy": {
+        "type": "chapter",
+        "title": "The Transitional Democracy Trap: Democracy, Complexity, and Local Oligarchy in Bali",
+        "author": [
+            {
+                "given": "Ali Azhar",
+                "family": "Muhammad"
+            }
+        ],
+        "page": "155–176",
+        "container-title": "Security, Democracy, and Society in Bali",
+        "issued": {
+            "year": 2021
+        },
+        "editor": [
+            {
+                "given": "Andrew",
+                "family": "Vandenberg"
+            },
+            {
+                "given": "Nazrina",
+                "family": "Zuryani"
+            }
+        ],
+        "publisher": "Palgrave Macmillan",
+        "publisher-place": "Singapore",
+        "ISBN": "978-981-15-5848-1",
+        "URL": "https://doi.org/10.1007/978-981-15-5848-1_7"
     }
 }
