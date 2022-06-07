@@ -47,7 +47,7 @@ export type SizePosition
   | { size?: "small", position?: "left" | "right" | "aside" }
   | { size: "extra-wide", position?: "aside" };
 
-  export type Reference = Readonly<{
+export type Reference = Readonly<{
   type: string,
   id: string,
   title: string,
@@ -73,11 +73,16 @@ export type SizePosition
   patentNumber?: string | number,
 }>
 
-type Author = { readonly family?: string, readonly given: (readonly string[] | string), readonly lang?: string }
+type Author = {
+  readonly family?: string,
+  readonly given: (readonly string[] | string),
+  readonly lang?: string,
+  readonly alt?: string,
+  readonly ["alt-lang"]?: string
+}
 
 type Date
   = { year: number, month: number, day: number }
   | { year: number, month: number }
   | { year: number, season: string }
   | { year: number };
- 

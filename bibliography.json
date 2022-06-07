@@ -7084,5 +7084,70 @@
         "issued": {
             "year": 1927
         }
+    },
+    "LuRong": {
+        "type": "book",
+        "title": "菽园杂记",
+        "title-lang": "zh",
+        "volume": 3,
+        "URL": "https://ctext.org/library.pl?if=en&file=89214&page=90&remap=gb",
+        "author": [
+            {
+                "family": "陆",
+                "given": "容",
+                "lang": "zh",
+                "alt": "Lù Róng",
+                "alt-lang": "zh-Latn"
+            }
+        ],
+        "issued": {
+            "year": 1475
+        }
+    },
+    "GameOfLeaves": {
+        "type": "article-journal",
+        "title": "The Game of Leaves: An Inquiry into the Origin of Chinese Playing Cards",
+        "author": [
+            {
+                "given": "Andrew",
+                "family": "Lo"
+            }
+        ],
+        "container-title": "Bulletin of the School of Oriental and African Studies, University of London",
+        "volume": 63,
+        "issue": 3,
+        "issued": {
+            "year": 2000
+        },
+        "page": "389–406",
+        "URL": "http://www.jstor.org/stable/1559494"
+    },
+    "WaterMarginDate": {
+        "type": "article-journal",
+        "title": "从《菽园杂记》、《叶子谱》所记“叶子戏”看《水浒传》成书时间",
+        "title-lang": "zh",
+        "author": [ 
+            {
+                "family": "王",
+                "given": "齐洲",
+                "lang": "zh",
+                "alt": "Wang Qizhou",
+                "alt-lang": "zh-Latn"
+            },
+            {
+                "family": "王",
+                "given": "丽娟",
+                "lang": "zh",
+                "alt": "Wang Lijuan",
+                "alt-lang": "zh-Latn"
+            }
+        ],
+        "issued": {
+            "year": 2011
+        },
+        "issue": 3,
+        "container-title": "南开学报：哲学社会科学版",
+        "container-title-lang": "zh",
+        "URL": "http://rdbk1.ynlib.cn:6251/Qk/Paper/453522"
     }
 }

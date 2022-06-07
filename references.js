@@ -111,7 +111,7 @@ const renderAuthors = (reference) => {
  * @returns {string}
  */
 const renderPeople = (as, reverseFirst, period, itemprop) => {
-    const renderFamily = (/** @type {Author} */ a, /** @type {number} */ ix) => 
+    const renderFamily = (/** @type {Author} */ a, /** @type {number} */ ix) =>
         `<span itemprop="familyName">${a.family}</span>${ifSet(period && ix > 0 && ix === (as.length - 1) && !a.family.endsWith('.'), '.')}`;
 
     const renderGiven = (/** @type {Author} */ a, /** @type {number} */ ix) => {
@@ -127,14 +127,26 @@ const renderPeople = (as, reverseFirst, period, itemprop) => {
     const reverseName = (/** @type {Author} */ a) => a.lang === undefined ? false : (a.lang.startsWith('zh') || a.lang.startsWith('ja'));
     const hiddenName = (/** @type {Author} */ a) => `<meta itemprop="name" content="${reverseName(a) ? `${a.family}${a.given}` : `${a.given} ${a.family}`}" />`;
 
+    const altName = (/** @type {Author} */ a) => {
+        if (!a.alt) {
+            return "";
+        }
+
+        return ` [<span class="noun"${ifSet(a['alt-lang'], ` lang='${a['alt-lang']}'`)}>${a.alt}</span>]`;
+    }
+
     return as.map((a, ix) => (
         ifSet(ix > 0, (ix === as.length - 1) ? `${ifSet(as.length > 2, ',')} and ` : ", ")
         + `<span itemscope itemtype="http://schema.org/Person"${asAttr('itemprop', itemprop)}${asAttr('lang', a.lang)} class="noun">`
         + hiddenName(a)
         + ((reverseFirst && ix === 0)
             ? ifSet(a.family, () => `${isolate(renderFamily(a, ix))}, `) + isolate(renderGiven(a, ix))
-            : isolate(`${renderGiven(a, ix)}${ifSet(a.family, () => ` ${renderFamily(a, ix)}`)}`))
-        + `</span>`)).join('');
+            : isolate(
+                reverseName(a) 
+                ? `${ifSet(a.family, () => `${renderFamily(a, ix)}`)}${renderGiven(a, ix)}`
+                : `${renderGiven(a, ix)}${ifSet(a.family, () => ` ${renderFamily(a, ix)}`)}`))
+        + `</span>`
+        + altName(a))).join('');
 };
 
 /**
