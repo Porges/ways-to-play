@@ -7074,5 +7074,15 @@
         "publisher-place": "Singapore",
         "ISBN": "978-981-15-5848-1",
         "URL": "https://doi.org/10.1007/978-981-15-5848-1_7"
+    },
+    "NagoyaReport": {
+        "URL": "https://dl.ndl.go.jp/info:ndljp/pid/1269696",
+        "title": "司法資料. 第121号",
+        "title-lang": "ja",
+        "publisher": "司法省調査課",
+        "publisher-lang": "ja",
+        "issued": {
+            "year": 1927
+        }
     }
 }

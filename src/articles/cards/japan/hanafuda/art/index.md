@@ -994,9 +994,24 @@ willows, and a frog, all of which are associated with summer.
 
 In Korea, an altered ordering is used where the ‘November’ and ‘December’ months
 are switched. There is also another ordering used in Japan which might be called
-the “<span class="noun" lang="ja-Latn">Nagoya</span> ordering”, as it is used in several
-games from that region.{%fn%}This order will be explained when I get around
-to writing the games articles!{%endfn%}
+the “<span class="noun" lang="ja-Latn">Nagoya</span> ordering”, as it is used in
+several games from that region.{%fn%}Such as {%gameref tensho%}.{%endfn%} This
+ordering (with differences in **bold**) is:
+
+<ol class="columnar">
+<li>Pine</li>
+<li><strong>Willow</strong></li>
+<li>Cherry</li>
+<li>Wisteria</li>
+<li>Iris</li>
+<li><strong>Paulownia</strong></li>
+<li>Bush Clover</li>
+<li>Miscanthus</li>
+<li>Chrysanthemum</li>
+<li>Maple</li>
+<li><strong>Peony</strong></li>
+<li><strong>Plum</strong></li>
+</ol>
 
 ### <span lang="ja">1月</span>
 

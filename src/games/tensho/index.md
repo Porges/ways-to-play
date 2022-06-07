@@ -1,0 +1,81 @@
+---
+title: Tensho
+titleLang: ja-Latn
+originalTitle: <span lang="ja">テンショ</span>
+draft: true
+---
+
+<span lang="ja-Latn" class="noun">Tensho</span> (<span lang="ja">テンショ</span>, ‘tense’) 
+is a <span lang="ja-Latn" class="noun">Hanafuda</span> game from <span
+lang="ja-Latn" class="noun">Nagoya</span> in Japan. It is played with an unusual
+deck ordering and <span lang="ja-Latn">yaku</span> that are not found in other
+<span lang="ja-Latn" class="noun">Hanafuda</span> games.
+
+<!-- excerpt -->
+
+## History
+
+{%aside%}
+Special thanks must be given to Ryan Sartor and ‘Lilith’ from the Hanafuda
+discord server who helped to figure this out!
+{%endaside%}
+
+An interesting thing about <span lang="ja-Latn" class="noun">Tenshō</span> is
+that it appears to have originally been a game played with a <span
+lang="ja-Latn" >mekuri</span> deck that was later transferred to the <span
+lang="ja-Latn" class="noun">Hanafuda</span> deck.
+
+A Japanese Department of Justice report from 1927[@NagoyaReport f. 13–15, 52–56]
+describes the game being played with <span lang="ja-Latn">mekuri</span>
+cards,{%fn%}I have not yet identified the precise style of deck used.{%endfn%}
+with the following mapping between <span lang="ja-Latn">mekuri</span> and <span
+lang="ja-Latn" class="noun">Hanafuda</span> decks:
+
+<table>
+<thead>
+<tr>
+<th>Month</th>
+<th>Hikari</th>
+<th>Tane</th>
+<th>Tanzaku</th>
+<th>Kasu</th>
+</tr>
+</thead>
+<tbody>
+
+<!--
+アカ
+ドロ
+-->
+
+<tr lang="ja">
+<td>1</td>
+<td>アザビン又はカボチヤビン、ツルビン</td>
+<td></td>
+<td>ゴセンシン又は赤ビン</td>
+<td>ガスビン</td>
+</tr>
+
+</tbody>
+</table>
+
+## Play
+
+Firstly, <span lang="ja-Latn" class="noun">Tenshō</span> uses what might be
+called the “<span lang="ja-Latn" class="noun">Nagoya</span> ordering” of the
+months. This differs from the standard ordering in the following way:
+
+<ol class="columnar">
+<li>Pine</li>
+<li><strong>Willow</strong></li>
+<li>Cherry</li>
+<li>Wisteria</li>
+<li>Iris</li>
+<li><strong>Paulownia</strong></li>
+<li>Bush Clover</li>
+<li>Miscanthus</li>
+<li>Chrysanthemum</li>
+<li>Maple</li>
+<li><strong>Peony</strong></li>
+<li><strong>Plum</strong></li>
+</ol>
