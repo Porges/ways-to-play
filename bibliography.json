@@ -3639,7 +3639,9 @@
             {
                 "given": "浩徳",
                 "family": "高橋",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Takahashi Hironori",
+                "alt-lang": "ja-Latn"
             }
         ],
         "URL": "http://id.nii.ac.jp/1297/00000560",
@@ -3700,7 +3702,9 @@
             {
                 "given": "浩徳",
                 "family": "高橋",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Takahashi Hironori",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {
@@ -6308,7 +6312,9 @@
             {
                 "family": "譚",
                 "given": "世寶",
-                "lang": "zh-Hant"
+                "lang": "zh-Hant",
+                "alt": "Tán Shìbǎo",
+                "alt-lang": "zh-Latn"
             }
         ],
         "issued": {
@@ -6373,7 +6379,9 @@
             {
                 "family": "趙",
                 "given": "爾巽",
-                "lang": "zh"
+                "lang": "zh",
+                "alt": "Zhào Ěrxùn",
+                "alt-lang": "zh-Latn"
             }
         ],
         "issued": {
@@ -7021,7 +7029,9 @@
             {
                 "given": "浩徳",
                 "family": "高橋",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Takahashi Hironori",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {

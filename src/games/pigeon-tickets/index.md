@@ -1,6 +1,7 @@
 ---
 title: Pigeon Tickets
 draft: true
+originalTitle: <span lang="zh-Hant">白鴿票</span>
 ---
 
 Pigeon Tickets (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
@@ -10,7 +11,7 @@ piew</span>[@GamblingGamesOfMalaya p. 48], <span lang="yue-Latn">pák kòp
 piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn">baahk gáap
 piu</span>, or <span lang="yue-Latn">paâk káap p'iu</span>. While <span
 lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from
-Mandarin, it is the standard Cantonese name for pigeon, and further proves the
+Mandarin, it is the standard Cantonese name for pigeon, and this further proves the
 Cantonese origin of the game (see e.g. @SparrowAndPigeon, although I find some
 of his other (original) conclusions to be dubious).{%endfn%}) is a gambling game
 which originated in <span class="noun" lang="zh-Latn">Guangdong</span> during the late Qing
@@ -212,6 +213,7 @@ the 1860s.
     license="cc-by"
     orgName="University of California, Los Angeles"
     orgAbbr="UCLA"
+    identifier="uclamss_1387_b12_18958-2"
     size="wide"
     originalUrl="https://digital.library.ucla.edu/catalog/ark:/13030/hb0q2nb02d"
     %}
@@ -331,6 +333,7 @@ dictum</span>.{%endfn%}
     noborder=true
     src="NZFL19061103.1.5-c256.png"
     alt=""
+    position="left"
     orgName="Papers Past"
     originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1906/11/03/5"
     license="cc0" %}

@@ -93,6 +93,7 @@ function purify(str) {
 function renderArticle(article) {
   if (!IS_PRODUCTION || !article.draft) {
     return `<li><a href="${article.url}"${asAttr("lang", article.titleLang)}>${article.title}</a>`
+      +ifSet(article.draft, ' <span class="badge bg-warning text-dark">Draft</span>')
       + (article.children ? renderArticleList(article.children) : '')
       + `</li>`;
   } 

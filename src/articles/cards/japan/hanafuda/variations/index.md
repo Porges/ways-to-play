@@ -1,6 +1,5 @@
 ---
 title: Hanafuda variations
-draft: true
 order: 5
 ---
 

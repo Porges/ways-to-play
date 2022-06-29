@@ -1,6 +1,7 @@
 ---
 title: Hachi-Hachi
 titleLang: ja-Latn
+originalTitle: <span lang="ja">八八</span>
 draft: true
 ---
 

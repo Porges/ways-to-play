@@ -427,7 +427,7 @@ Then there is something of a dance amongst three cards:
 
 From <span lang="zh-Latn" class="noun">Pān Zhīhéng</span> onwards the set of
 characters seems to be remarkably stable. In most of the decks derived from
-Chinese money-suited cards, the tens of myriads suit has been dropped, but the
+Chinese money-suited cards, the tens of myriads suit has been removed, but the
 myriads suit remains in the same order. It is often very hard to determine which
 cards are which as the names have mostly been dropped, but it is possible to
 identify characters by their customary attributes:

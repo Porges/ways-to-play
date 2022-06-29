@@ -104,7 +104,7 @@ body {
     //font-feature-settings: "liga", "calt"; /* this should be on by default but not in Chrome! */
 }
 
-i, cite, em {
+i, em {
     @include italic-font;
 }
 

@@ -1,6 +1,7 @@
 ---
 title: Eight Faces
 mainImage: pek-bin.svg
+originalTitle: <span lang="zh">八面</span>
 ---
 
 Eight Faces  (<span lang="zh">八面</span>, Mandarin <span

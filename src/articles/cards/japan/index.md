@@ -9,6 +9,7 @@ is the general name for Japanese playing cards, derived from the Portuguese word
 for playing cards, <span lang="pt">carta</span>.
 
 {% image src="sc67123.jpg" alt="A pile of Japanese wooden sandles in the entrance way to a house." license="cc0"
+noborder=true
 orgName="Museum of Fine Arts Boston" position="aside"
 identifier="2002.2083"
 orgAbbr="MFA"
@@ -46,7 +47,7 @@ these:
         </span>, ‘<span class="noun" lang="ja-Latn">Sun-Kun</span> cards’)
     * <span class="noun" lang="ja-Latn">Mekuri Karuta</span> (<span lang="ja">捲りかるた
       </span>, ‘turning cards’) were an alteration of the <span class="noun"
-      lang="ja-Latn">Tenshō</span> pattern cards, probably to evade bans on
+      lang="ja-Latn">Tenshō</span> pattern cards, possibly created to evade bans on
       those cards. The structure of the deck remains the same, but there are
       many different regional artwork patterns.
     * [<span class="noun" lang="ja-Latn">Kabu

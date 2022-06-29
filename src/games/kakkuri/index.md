@@ -1,6 +1,7 @@
 ---
 title: Kakkuri
 titleLang: ja-Latn
+originalTitle: <span lang="ja">カックリ</span>
 ---
 
 {%pronounce pronouncer="strawberrybrown" word="Kakkuri" lang="ja-Latn"
