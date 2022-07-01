@@ -1,78 +1,73 @@
-// Italicize all *-Latn languages:
-span[lang$="-Latn"],
-// Italicize non-English (but Latin) languages:
-span[lang|=ban],
-// Balinese 
-span[lang|=bjn],
-/* Banjarese */
-span[lang|=da],
-/* Danish */
-span[lang|=de],
-/* German */
-span[lang|=dtp],
-/* Dusun(ic) */
-span[lang|=ee],
-/* Ewe */
-span[lang|=es],
-/* Spanish */
-span[lang|=fr],
-/* French */
-span[lang|=ga],
-/* Gaelic */
-span[lang|=gsw],
-/* Swiss German */
-span[lang|=haw],
-/* Hawaiian */
-span[lang|=hu],
-/* Hungarian */
-span[lang|=id],
-/* Indonesian */
-span[lang|=is],
-/* Icelandic */
-span[lang|=it],
-/* Italian */
-span[lang|=kxd],
-/* Brunei Malay */
-span[lang|=la],
-/* Latin */
-span[lang|=mi],
-/* Māori */
-span[lang|=min],
-/* Minangkabau */
-span[lang|=ms],
-/* Malay (meta-language) */
-span[lang|=nl],
-/* Dutch */
-span[lang|=pt],
-/* Portuguese */
-span[lang|=rng],
-/* Ronga */
-span[lang|=sn],
-/* Shona */
-span[lang|=so],
-/* Somali */
-span[lang|=st],
-/* seSotho */
-span[lang|=sv],
-/* Swedish */
-span[lang|=tn],
-/* Tswana */
-span[lang|=ve],
-/* Venda */
-span[lang|=vi],
-/* Vietnamese */
-span[lang|=zu] // isiZulu
-
-  {
-
-  // except in headings
-  &:not(h1 span, h2 span, h3 span, h4 span, h5 span, h6 span) {
-
-    // present proper nouns upright as there is no need to distinguish from surrounding text
-    &:not(.noun) {
-      @include italic-font;
-    }
-  }
+span:is( // Italicize all *-Latn languages:
+  [lang$="-Latn"],
+  // Italicize non-English (but Latin) languages:
+  [lang|=ban],
+  // Balinese 
+  [lang|=bjn],
+  /* Banjarese */
+  [lang|=da],
+  /* Danish */
+  [lang|=de],
+  /* German */
+  [lang|=dtp],
+  /* Dusun(ic) */
+  [lang|=ee],
+  /* Ewe */
+  [lang|=es],
+  /* Spanish */
+  [lang|=fr],
+  /* French */
+  [lang|=ga],
+  /* Gaelic */
+  [lang|=gsw],
+  /* Swiss German */
+  [lang|=haw],
+  /* Hawaiian */
+  [lang|=hu],
+  /* Hungarian */
+  [lang|=id],
+  /* Indonesian */
+  [lang|=is],
+  /* Icelandic */
+  [lang|=it],
+  /* Italian */
+  [lang|=kxd],
+  /* Brunei Malay */
+  [lang|=la],
+  /* Latin */
+  [lang|=mi],
+  /* Māori */
+  [lang|=min],
+  /* Minangkabau */
+  [lang|=ms],
+  /* Malay (meta-language) */
+  [lang|=nl],
+  /* Dutch */
+  [lang|=pt],
+  /* Portuguese */
+  [lang|=rng],
+  /* Ronga */
+  [lang|=sn],
+  /* Shona */
+  [lang|=so],
+  /* Somali */
+  [lang|=st],
+  /* seSotho */
+  [lang|=sv],
+  /* Swedish */
+  [lang|=tn],
+  /* Tswana */
+  [lang|=ve],
+  /* Venda */
+  [lang|=vi],
+  /* Vietnamese */
+  [lang|=zu] // isiZulu
+):not(h1 span, h2 span, h3 span, h4 span, h5 span, h6 span
+  /* except in headings */
+):not(.noun
+  /* present proper nouns upright as there is no need to distinguish from surrounding text */
+) {
+  @include italic-font;
 }
 
 /* We are going to be embedding Japanese and Chinese in Latin text,
