@@ -1,8 +1,22 @@
+#!/bin/env pwsh
+
+Set-StrictMode -Version 3.0
+$ErrorActionPreference = "Stop"
+
 $selectedStyle = "fill=#084594 stroke=#9ecae1 stroke-width=0.6" -split ' '
 $secondaryStyle = "fill=#c6dbef stroke=white stroke-width=0.5" -split ' '
 $unselectedStyle = "fill=lightgrey stroke=white stroke-width=0.5" -split ' '
 
 $outFolder = "src/maps/"
+
+$mapData = 'ne_10m_admin_1_states_provinces_lakes'
+if (-not (Test-Path $mapData)) {
+    New-Item $mapData -ItemType Directory
+    $uri = 'https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces_lakes.zip'
+    Invoke-WebRequest $uri -OutFile "mapData.zip"
+    Expand-Archive "mapData.zip" -DestinationPath $mapData
+    Remove-Item "mapData.zip"
+}
 
 function GenerateProvinceMap {
     [CmdletBinding()]
@@ -25,7 +39,7 @@ function GenerateProvinceMap {
     $name = "$($outFolder)$($name).svg"
     $secondaryFilter = ($provinces | % { echo "iso_a2 == '$(($_ -split '-')[0])'" }) -join ' || '
 
-    & mapshaper "..\Downloads\ne_10m_admin_1_states_provinces_lakes\ne_10m_admin_1_states_provinces_lakes.shp" `
+    & mapshaper "$mapData/$mapData.shp" `
         -rotate $rotate `
         -proj robin `
         -filter $secondaryFilter + name=secondary `
@@ -61,7 +75,7 @@ function GenerateCountryMap {
     $filter = ($countries | % { echo "iso_a2 == '$_'" })  -join ' || '
     $name = "$($outFolder)$($name).svg"
 
-    & mapshaper "..\Downloads\ne_10m_admin_1_states_provinces_lakes\ne_10m_admin_1_states_provinces_lakes.shp" `
+    & mapshaper "$mapData/$mapData.shp" `
         -rotate $rotate `
         -proj robin `
         -filter $filter + name=selected `
