@@ -18,8 +18,7 @@ which originated in <span class="noun" lang="zh-Latn">Guangdong</span> during th
 dynasty, and which in the 19th and 20th centuries was spread throughout
 Oceania-bordering countries by Chinese emigrants. 
 
-In European sources it is often referred to as simply the “Chinese lottery”; the
-game was eventually modified by Americans and turned into the modern game of
+The game was eventually modified by Americans and turned into the modern game of
 Keno, now played in casinos around the world.
 
 <!-- excerpt -->
@@ -33,18 +32,19 @@ heard
 Note that it can best be described as “musical Chinoiserie”, and the lyrics are fairly racist.
 {%endaside%}
 
-In English reports the name of the game is usually given as
-“pakapoo”/“pak-a-poo” or “pakapu”/“pak-a(h)-pu”. Other variants are “pak-a-peu”,
-“puck-a-pu”, or “pac-a-poo”. In Macau it is given with the Portugeuse
-romanization of “pacapio”, which remains standard in current usage. In Hawaii it
-was referred to as “pakapio”.[@Pakapio]
+In European sources it is often referred to as simply “the Chinese lottery”. The
+transliteration of the game is usually given as “pakapoo”/“pak-a-poo” or
+“pakapu”/“pak-a(h)-pu”. Other variants are “pak-a-peu”, “puck-a-pu”, or
+“pac-a-poo”. In Macau it is given with the Portugeuse romanization of “pacapio”,
+which remains standard in current usage. In Hawaii it was referred to as
+“pakapio”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
-one or more tickets upon which they mark some set of characters out of 80 that
-are printed on the ticket. The seller then randomly selects a given number of
-characters, and players win money according to the number of matching characters
-marked on their ticket. The specific numbers of characters chosen and the
-permissible bets vary by time and location.
+one or more tickets upon which they mark some set of characters out of the
+eighty that are printed on the ticket. The seller or “bank” then randomly
+selects a given number of characters, and players win money according to the
+number of matching characters marked on their ticket. The specific numbers of
+characters chosen and the permissible bets vary by both time and location.
 
 ## False origins
 
@@ -241,14 +241,11 @@ while newspaper reporters decried {TODO}, others came to the defence of the game
 
 #### Legality
 
-In 1902, the <cite>Evening Post</cite> opined:
-
-> … it seems the essence of petty spite to start a crusade against the
-> cottager’s Christmas goose or the Chinaman’s pakapoo.[@ThePolicemanAndTheGeese]
-
-During 1902 and 1903 there was some legal tussle over the status of the game,
-due to confused definitions in the [Gaming and Lotteries Act of
-1881](http://nzlii.org/nz/legis/hist_act/gala188145v1881n10273/).
+The game was first made illegal in New Zealand with the passage of the [Gaming
+and Lotteries Act of
+1881](http://nzlii.org/nz/legis/hist_act/gala188145v1881n10273/), where it is
+listed alongside Fan-Tan. However, during 1902 and 1903 there was some
+legal tussle over the status of the game due to unclear definitions in the Act.
 
 {%aside%}Upon reading the case summary, I get the impression that the Chief
 Justice ([Robert Stout](https://en.wikipedia.org/wiki/Robert_Stout)) must have
@@ -274,6 +271,11 @@ to have an effect on other cases. In 1903 a case in the Magistrate’s Court was
 dismissed on the basis that pakapoo was a game of chance, and not a
 lottery.[@PakAPooNotALottery] Taken at face value, the Act stated that games of
 chance were only illegal if played in public places.
+
+Wellington’s <cite>Evening Post</cite> opined:
+
+> … it seems the essence of petty spite to start a crusade against the
+> cottager’s Christmas goose or the Chinaman’s pakapoo.[@ThePolicemanAndTheGeese]
 
 With the game seeming to be on the verge of becoming legal, in 1904, the “Gaming
 and Lotteries Act Amendment Bill” was introduced to parliament by [James
