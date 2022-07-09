@@ -55,7 +55,7 @@ If a player only requires one card to win, they may take the winning card from
 *any* player’s discard to complete their hand. If multiple players try to claim
 the same card to win, the next one in seating order takes it. To complete the
 hand and go out is called <span lang="th-Latn">kin</span> (<span
-lang="th">กิน</span>, ‘eating’).
+lang="th">กิน</span>, meaning ‘to eat’).
 
 ### Scoring
 
