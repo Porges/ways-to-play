@@ -1725,6 +1725,7 @@ them, I do not know of any other sets of rules recorded online.
   players[@JavaanseKaartspelen p. 94–7]
 * {% gameref tantanan %}, a fast-playing Javan game for four
   players[@JavaanseKaartspelen p. 98]
+* {% gameref pong %} a simple Malay game for four, also played with Mahjong tiles
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
