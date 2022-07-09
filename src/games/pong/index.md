@@ -12,8 +12,10 @@ Mahjong tiles, but I think it was probably originally played with
 [Ceki](/articles/cards/ceki/) cards. According to the book, it was played in the
 state of [Kelantan](https://en.wikipedia.org/wiki/Kelantan).
 
-The game also seems to have been played in Thailand under the name <span class="noun"
-lang="th-Latn">Tong</span> (<span lang="th">ตอง</span>), using Thai-style money cards.
+The game is also played in Thailand under the name <span class="noun"
+lang="th-Latn">Tong</span> (<span lang="th">ตอง</span>), using Thai-style money
+cards.[@ThaiGambling p. 71–6] It is possible that the Thai game is the original,
+and the version played in Malaysia is derived from that.
 
 {% image src="../../maps/Pong.svg" alt="" %}
 Thailand and Malaysia, with Kelantan’s location highlighted.

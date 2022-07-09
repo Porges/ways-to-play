@@ -7136,7 +7136,7 @@
         "type": "article-journal",
         "title": "从《菽园杂记》、《叶子谱》所记“叶子戏”看《水浒传》成书时间",
         "title-lang": "zh",
-        "author": [ 
+        "author": [
             {
                 "family": "王",
                 "given": "齐洲",
@@ -7159,5 +7159,32 @@
         "container-title": "南开学报：哲学社会科学版",
         "container-title-lang": "zh",
         "URL": "http://rdbk1.ynlib.cn:6251/Qk/Paper/453522"
+    },
+    "ThaiGambling": {
+        "type": "book",
+        "title": "พนันกับการบูรณาการหลักธรรมเพื่อแก้ปัญหาจากการพนันของชุมชน",
+        "title-lang": "th",
+        "URL": "http://gamblingstudy-th.org/imgadmins/research_file/ebook-60-13-Phannapong.pdf",
+        "author": [
+            {
+                "family": "วงศ์ณาศรี",
+                "given": "ปัณณพงศ์",
+                "lang": "th",
+                "alt": "Pannapong Wongnasri",
+                "alt-lang": "th-Latn"
+            },
+            {
+                "family": "จันทร์ศิริ",
+                "given": "นันธิดา",
+                "lang": "th",
+                "alt": "Nanthida Chansiri",
+                "alt-lang": "th-Latn"
+            }
+        ],
+        "issued": {
+            "year": 2017
+        },
+        "publisher": "ศูนย์ศึกษาปัญหาการพนัน คณะเศรษฐศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย",
+        "publisher-place": "Thailand"
     }
 }
