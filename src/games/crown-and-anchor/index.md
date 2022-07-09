@@ -377,13 +377,18 @@ paraphernalia for playing exists; gambling is illegal in Thailand.
 
 From what little I have seen, the game is called <span lang="th">(น้ำ)เต้า ปู
 ปลา</span> (<span lang="th-Latn">(nam)tao pu pla</span>, ‘(water)gourd crab
-fish’). Some of the images game is played with are: <span
-lang="th">ปลาทอง</span> (<span lang="th-Latn">pla-thong</span>, ‘goldfish’),
-<span lang="th">ไก่</span> (<span lang="th-Latn">kai</span>, ‘chicken’), <span
-lang="th">ปู</span> (<span lang="th-Latn">pu</span>, ‘crab’), <span
-lang="th">เต้า</span> (<span lang="th-Latn">tao</span>, ‘gourd’), <span
-lang="th">เสือ</span> (<span lang="th-Latn">suea</span>, ‘tiger’), and <span
-lang="th">กุ้ง</span> (<span lang="th-Latn">kung</span>, ‘shrimp’).
+fish’).[@ThaiGambling p. 85] The images that the game is played with
+are: goldfish (<span lang="th">ปลาทอง</span> <span
+lang="th-Latn">pla-thong</span>), chicken (<span lang="th">ไก่</span> <span
+lang="th-Latn">kai</span>), crab (<span lang="th">ปู</span> <span
+lang="th-Latn">pu</span>), gourd (<span lang="th">เต้า</span> <span
+lang="th-Latn">tao</span>), tiger (<span lang="th">เสือ</span> <span
+lang="th-Latn">suea</span>), and shrimp (<span lang="th">กุ้ง</span> <span
+lang="th-Latn">kung</span>). Sometimes a frog (<span lang="th">กบ</span> <span
+lang="th-Latn">kop</span>) appears instead of a tiger.[@ThaiGambling p. 85]
+
+It is possible, although difficult, to obtain official permission to play the
+game at funerals.[@ThaiGambling p. 86]
 
 {% image 
     alt="Two dice with images of goldfish, crab, and chicken."
