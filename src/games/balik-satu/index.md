@@ -7,6 +7,7 @@ subgames:
   titleLang: ms
 - title: Gonggong
   titleLang: jav-Latn
+  originalTitle: <span lang="mak">ᨁᨚᨁᨚ</span>
 - title: Tantanan
   titleLang: jav-Latn
 hero:
@@ -191,10 +192,12 @@ lang="ms">ayam</span> and <span lang="ms">kandang</span> still apply.
 
 ### <span class="noun" lang="jav-Latn">Gonggong</span>
 
-A very similar game is recorded as being played in Java in the 1940s, under the
-name of <span class="noun" lang="jav-Latn">Gonggong</span>, and is described as being played
-mostly by women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta
-was described as follows:
+<span class="noun" lang="jav-Latn">Gonggong</span> (<span
+ lang="mak">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South
+Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is
+recorded in Java, where it is described as being played mostly by
+women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta was
+described as follows:
 
 It is played with six sets of cards (180 cards) for four players, or eight sets
 (240 cards) for six players. Deal 14 cards each and play as with <span class="noun"
@@ -253,9 +256,9 @@ In Yogyakarta the following bets were used:
 
 ### <span class="noun" lang="jav-Latn">Tantanan</span>
 
-This is another game described as being played in Surakarta in
-Java.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <span class="noun"
-lang="ms">Balik Satu</span> and is thus a faster game.
+This is another game described as being played in Surakarta in Java during the
+1940s.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <span
+class="noun" lang="ms">Balik Satu</span> and is thus a faster game.
 
 The game is played by four people with one full set of 60 cards. Each player
 is dealt five cards. 

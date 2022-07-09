@@ -7186,5 +7186,41 @@
         },
         "publisher": "ศูนย์ศึกษาปัญหาการพนัน คณะเศรษฐศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย",
         "publisher-place": "Thailand"
+    },
+    "BoegineeschWoordenboek": {
+        "type": "book",
+        "URL": "https://nla.gov.au/nla.obj-49107637/view",
+        "title": "Boegineesch–Hollandsch woordenboek",
+        "title-lang": "nl",
+        "author": [
+            {
+                "family": "Matthes",
+                "given": "Benjamin Frederik",
+                "lang": "nl"
+            }
+        ],
+        "issued": {
+            "year": 1874
+        },
+        "publisher": "C. A. Spin & Zoon",
+        "publisher-place": "Amsterdam, The Netherlands"
+    },
+    "MakassaarschWoordenboek": {
+        "type": "book",
+        "URL": "https://books.google.co.nz/books?id=0qQDAAAAMAAJ",
+        "title": "Makassaarsch–Hollandsch woordenboek",
+        "title-lang": "nl",
+        "author": [
+            {
+                "family": "Matthes",
+                "given": "Benjamin Frederik",
+                "lang": "nl"
+            }
+        ],
+        "issued": {
+            "year": 1859
+        },
+        "publisher": "Frederik Muller",
+        "publisher-place": "Amsterdam, The Netherlands"
     }
 }

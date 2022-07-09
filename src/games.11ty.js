@@ -15,6 +15,7 @@ exports.render = function (data) {
                 title: sg.title,
                 draft: g.data.draft,
                 titleLang: sg.titleLang,
+                originalTitle: sg.originalTitle,
                 url: g.url + "#" + (sg.slug || slug(sg.title)),
                 variant: true,
             }))

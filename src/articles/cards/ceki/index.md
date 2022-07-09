@@ -103,6 +103,10 @@ called Koa (or Kowah). The Minangkabau go so far as to say “<span
 lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you
 can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1]
 
+In Buginese and Makassarese, both spoken in South Sulawesi, the game is also
+called <span lang="bug-Latn">kowa</span> (<span lang="bug">ᨀᨚᨓ</span> in Lontara
+script).[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46]
+
 {% image src="Kaartspel_op_een_Javaans_feest_in_Paramaribo,_Bestanddeelnr_252-2592.jpg" alt=""
   license="cc0"
   originalUrl="http://proxy.handle.net/10648/aead8142-d0b4-102d-bcf8-003048976d84"
