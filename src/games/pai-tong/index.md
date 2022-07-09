@@ -46,7 +46,7 @@ term is also used in other card games to describe a triplet.{%endfn%} For the
 purposes of forming sets, all the honour cards are considered to be of the same
 rank, so a set can be made of three different honour cards.
 
-Instead of taking from the draw pile, a player can also take the previous
+Instead of taking from the draw pile, a player may also take the previous
 player’s discard, if they can form a <span lang="th-Latn">tong</span> using it.
 The cards forming the <span lang="th-Latn">tong</span> must be placed face-up on
 the table, and then the player makes a discard as usual.
