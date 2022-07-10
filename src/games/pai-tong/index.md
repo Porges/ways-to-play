@@ -27,6 +27,13 @@ The game is played with six or seven people and uses two full decks of
 money-suited cards (120 cards total, four copies of each card). Any style of
 card will work.
 
+In Thailand playing cards are produced by government monopoly, so all decks are
+the same.
+
+{% image src="thai_money_cards.jpg" alt="" noborder=true %}
+Thai-style government-printed money cards.
+{%imageEnd%}
+
 ### Setup & Play
 
 Shuffle the cards, and deal six cards to all players, then a second round of six

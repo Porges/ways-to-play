@@ -33,6 +33,7 @@ lang="ja-Latn">Hanafuda</span> deck. The altered deck consists of a reduced set
 of 32 cards, having 4 cards in each of 8 “suits”.
 
 {% image
+    noborder=true
     size="wide"
     src="Irotori.jpg"
     alt="" %}

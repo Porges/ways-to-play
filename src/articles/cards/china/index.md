@@ -19,6 +19,7 @@ term has been adopted to into the local language:
   file="pronunciation_km_បៀ.mp3" pronouncer="chetanachey" %})
 * Thai: <span lang="th">ไพ่</span> ({% pronounce lang="th-Latn" word="pâi"
   file="pronunciation_th_ไพ.mp3" pronouncer="Ghee" %})
+* Vietnamese: <span lang="vi">bài</span>
 
 The many types of Chinese and Chinese-derived cards can be broken down into
 several broad categories:
@@ -26,14 +27,15 @@ several broad categories:
 * those derived from {% gameref xiangqi %} (“Chinese chess”):
   * Four-Colour Cards
   * Two-Suited chess cards, including:
-    * Chrysanthemum cards (Vietnam)
+    * Gold Cards
+    * Chrysanthemum cards (used in Vietnam)
 * those derived from dice (dominoes):
   * 15 Point Cards
-  * those derived from paper money:
-    * Four-Suited money cards
-    * Three-Suited money cards, also including:
-      * [Ceki cards](/articles/cards/ceki/) (Indonesia & Malaysia)
-      * Mahjong
+* those derived from paper money:
+  * Four-Suited money cards
+  * Three-Suited money cards, also used in Thailand. Derived cards include:
+    * [Ceki cards](/articles/cards/ceki/) (Indonesia & Malaysia)
+    * Mahjong
 * those that are numbered:
   * 3–5–7 cards
   * Big Two cards
