@@ -1,5 +1,6 @@
 ---
 title: Teen Do Pānch
+originalTitle: <span lang="hi">तीन दो पाँच</span>
 players: 3
 ---
 
