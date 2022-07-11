@@ -7222,5 +7222,21 @@
         },
         "publisher": "Frederik Muller",
         "publisher-place": "Amsterdam, The Netherlands"
+    },
+    "Strutt": {
+        "type": "book",
+        "URL": "https://archive.org/details/gri_33125012252157",
+        "title": "Glig-Gamena Angel-Deod, or the Sports and Pastimes of the People of England",
+        "author": [
+            {
+                "family": "Strutt",
+                "given": "Joseph"
+            }
+        ],
+        "issued": {
+            "year": 1810
+        },
+        "publisher": "T. Bensley",
+        "publisher-place": "London"
     }
 }

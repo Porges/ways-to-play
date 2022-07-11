@@ -203,11 +203,19 @@ Canada, Victoria in Australia, and New Zealand.
 ### In the United States
 
 According to @EncyclopediaOfKeno, the game was introduced to the Western United
-States in the mid-19th century, and reached the Eastern cities by 1870. By 1892
-there were ten Chinese lottery banks operating in New York.[@FanTanGamesToReopen]
+States in the mid-19th century, and reached the Eastern cities by 1870. 
 
 Mentions of “Chinese lotteries” begin to appear in Californian newspapers from
 the 1860s.
+
+According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 there were four
+banks operating in Philadelphia{%fn%}These banks had the names
+“Extensive Increase” (<span lang="zh">[?]大</span> <span lang="zh-Latn">? daai6</span>), 
+“Heavenly Harmony” (<span lang="zh">天和</span> <span lang="zh-Latn">tin1 wo4</span>), 
+“Forunate Increase” (<span lang="zh">福大</span> <span lang="zh-Latn">fuk1 daai6</span>), and
+“Encouraging Fountain” (<span lang="zh">[?]泉</span> <span lang="zh-Latn">? cyun4</span>).{%endfn%} and five in New York,
+along with others in Boston and Chicago. By 1892 there were ten Chinese lottery
+banks operating in New York.[@FanTanGamesToReopen]
 
 {% image src="ark__13030_hb0q2nb02d_cropped.jpg" alt="" 
     license="cc-by"

@@ -9,7 +9,7 @@ bodyType: http://schema.org/AboutPage
 <p className="lead text-center">This is a site about games<br />and how to play them.</p>
 
 ## Why?
-As Alan Ferg says in <cite>Playing Cards of the Apaches</cite> (p. 35):
+As Alan Ferg says in @PlayingCardsOfTheApaches [p. 35]:
 
 > In the introductory remarks to her encyclopedic <em>All Cards on the
 > Table</em>, renowned card historian Sylvia Mann talked about researching
@@ -33,6 +33,10 @@ As Alan Ferg says in <cite>Playing Cards of the Apaches</cite> (p. 35):
 I was somewhat inspired by (but make no claim to approaching) W. G. Sebald’s
 <cite>Rings of Saturn</cite>; games are a foothold for climbing inside other
 cultures and other times.
+
+> In order to form a just estimation of the character of any particular people,
+> it is absolutely necessary to investigate the sports and pastimes most
+> generally prevalent among them. — @Strutt
 
 ## A note on languages…
 

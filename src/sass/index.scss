@@ -445,7 +445,7 @@ sup.citation {
 }
 
 /*** Tables ***/
-td.numeric, th.numeric, table.numeric tbody td {
+td.numeric, th.numeric, table.numeric>tbody>td, tbody.numeric>td {
     // TODO: font doesn't support it 
     font-variant-numeric: tabular-nums;
     text-align: right;

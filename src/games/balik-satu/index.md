@@ -217,7 +217,7 @@ lang="jav-Latn">medal</span>) ‘came out’.
 **Scoring** is a little different to <span class="noun" lang="ms">Balik Satu</span>, and is done by one of several methods:
 
 <dl>
-<dt><span lang="jav-Latn">unduh-unduhan</span> (probably ‘piled’)</dt>
+<dt><span lang="jav-Latn">undhuh-undhuhan</span> (‘pickings’)</dt>
 <dd>At the beginning of the game a pot is formed with a stake from each player. If a player wins with
 <span lang="jav-Latn">metu</span>, they win one stake from it. If a player wins
 with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
@@ -276,9 +276,9 @@ Scoring is performed the same as the <span lang="jav-Latn">toh bajaran</span>
 method of <span class="noun" lang="jav-Latn">Gonggong</span>, above.
 
 In Yogyakarta this game was played with three people and known as <span class="noun"
-lang="jav-Latn">Ceken</span> or <span class="noun"
-lang="jav-Latn">Sampen</span>.[@JavaanseKaartspelen p. 98]{%fn%}Note that there
-is also another game called Sampen.{%endfn%}
+lang="jav-Latn">Cekèn</span> or <span class="noun"
+lang="jav-Latn">Sampèn</span>.[@JavaanseKaartspelen p. 98]{%fn%}Note that there
+is also another game called {%gameref sampen%}.{%endfn%}
 
 ## See also
 

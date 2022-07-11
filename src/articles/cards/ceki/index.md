@@ -121,6 +121,9 @@ Juliana](https://en.wikipedia.org/wiki/Juliana_of_the_Netherlands) and [Prince
 Bernhard](https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld) in
 1955.
 
+The game being played here seems to be one that has “rooster” (<span
+lang="jav-Latn">jago</span>) bets.
+
 {% imageEnd %}
 
 ## The Deck
@@ -1636,10 +1639,10 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="min">tali merah</span><br />red rope</td>
 <!-- Java -->
 <td><span lang="jv">ꦒꦁꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">gang lintrik</span><br/></td>
-<td><span lang="jv-Latn">sanga bang</span></td>
-<td><span lang="jv-Latn">sanga bang</span></td>
-<td><span lang="jv-Latn">obor</span></td>
-<td><span lang="jv-Latn">sanga ban/lintrik, obor</span></td>
+<td><span lang="jv-Latn">sanga bang</span><br/>red nine</td>
+<td><span lang="jv-Latn">sanga bang</span><br/>red nine</td>
+<td><span lang="jv-Latn">obor</span><br/>torch</td>
+<td><span lang="jv-Latn">sanga ban/lintrik</span><br/>rows or red nine<br/><br/><span lang="jav-Latn">obor</span><br/>torch</td>
 <td><span lang="jv-Latn">gang abang</span><br />red gap</td>
 <td><span lang="jv-Latn">cucuk abang/besar</span></td>
 <!-- Bali -->
@@ -1714,9 +1717,13 @@ them, I do not know of any other sets of rules recorded online.
 * {% gameref cholek-tiga %} (‘draw three’), a Malaysian game for two or three
   players[@BabaMalayDictionary p. 214][@ChikiCards p. 125]
 
+**Simple** gambling games:
+
+* {% gameref sampen %} is a gambling game from Java that requires no skill
+
 **Trick-taking** games:
 
-* {% gameref kertu-lima %} is a Javan game with unusual card rankings
+* {% gameref kartu-lima %} is a Javan game with unusual card rankings
 
 **Draw & discard** games (like Mahjong):
 

@@ -133,7 +133,7 @@ function pronunciation(props) {
   return `<audio preload="none" src="${mp3File}"></audio><span class="pronunciation${ifSet(noun, ' noun')}" lang="${lang}" title="Pronunciation © ‘${pronouncer}’ CC-BY-NC-SA 3.0, courtesy of Forvo.com." onclick="this.previousSibling.play()">${word}</span>`;
 }
 
-const cardsRegex = /(?<=[\dAJQK]+)|(?=[\dAJQK]+)/;
+const cardsRegex = /(1\d|.)/g;
 /**
  * @param {string|number} content 
  */
@@ -143,15 +143,19 @@ function cards(content) {
   }
 
   return '<span class="playing-cards">'
-    + content.split(cardsRegex).map(p => {
+    + content.replace(cardsRegex, p => {
       switch (p) {
+        case '10': return '⑩';
+        case '11': return '⑪';
+        case '12': return '⑫';
+        case '13': return '⑬';
         case 's': return '♠';
         case 'c': return '♣';
         case 'h': return '<span class="red">♥</span>';
         case 'd': return '<span class="red">♦</span>';
         default: return p;
       }
-    }).join('')
+    })
     + '</span>';
 }
 

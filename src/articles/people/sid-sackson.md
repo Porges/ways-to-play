@@ -46,7 +46,9 @@ Games that are in **bold** below are those of his own invention.
 ### From @CardGamesAroundTheWorld
 
 <ul class="columnar">
-<li>Sampen</li>
+<li>
+{% gameref sampen %}
+</li>
 <li>Cha Kau Tsz’</li>
 <li>Khanhoo</li>
 <li>Kowah</li>
