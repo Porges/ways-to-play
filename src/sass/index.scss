@@ -50,7 +50,8 @@ $font-family-sans-serif:
     "cc-icons"; /* fallback for Creative Commons Unicode characters */
 
 @mixin italic-font {
-    font-family: "Fira Sans", sans-serif;
+    // a few characters are missing from Fira (a̍ for example), so use Inter as fallback
+    font-family: "Fira Sans", "Inter", sans-serif;
     font-style: italic;
     font-size: 1.03em;
 }
@@ -445,7 +446,7 @@ sup.citation {
 }
 
 /*** Tables ***/
-td.numeric, th.numeric, table.numeric>tbody>td, tbody.numeric>td {
+td.numeric, th.numeric, table.numeric>tbody>tr>td, tbody.numeric>tr>td {
     // TODO: font doesn't support it 
     font-variant-numeric: tabular-nums;
     text-align: right;
@@ -774,12 +775,16 @@ a[href*="wikipedia.org" i] {
 */
 
 .inline-img {
-    height: 1em;
+    height: 22px; // just under the line-height which is 22.4px
     vertical-align: sub;
 
     &.big {
         height: 2em;
     }
+}
+
+a[itemprop=license] {
+    font-size: 1.3em; // this font is a little small
 }
 
 /** Lightbox **/
@@ -845,6 +850,19 @@ a .figure-img {
     font-style: italic;
 }
 
+/* Spotify embeds */
+iframe.spotify {
+    border-radius: 12px;
+    margin: 1em auto 1em auto;
+    display: block;
+    width: 80%;
+    height: 80px;
+    border: none;
+
+    &.playlist {
+        height: 380px;
+    }
+}
 
 /* a bit hacky */
 .at-least-150-px {

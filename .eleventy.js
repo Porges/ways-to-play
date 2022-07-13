@@ -11,6 +11,7 @@ const slug = require('slug');
 const { asAttr, ifSet, IS_PRODUCTION, isolate } = require('./helpers');
 const references = require('./references');
 const { articleImage, person, license, organization } = require('./images');
+const { connect } = require('http2');
 
 PropTypes.resetWarningCache();
 
@@ -71,6 +72,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("asAttr", asAttr);
   eleventyConfig.addShortcode("isolate", isolate);
 
+  eleventyConfig.addShortcode("cdice", chinese_dice);
+  eleventyConfig.addShortcode("jdice", japanese_dice);
   eleventyConfig.addShortcode("cards", cards);
   eleventyConfig.addLiquidTag("gameref", gameRef);
 
@@ -133,7 +136,6 @@ function pronunciation(props) {
   return `<audio preload="none" src="${mp3File}"></audio><span class="pronunciation${ifSet(noun, ' noun')}" lang="${lang}" title="Pronunciation © ‘${pronouncer}’ CC-BY-NC-SA 3.0, courtesy of Forvo.com." onclick="this.previousSibling.play()">${word}</span>`;
 }
 
-const cardsRegex = /(1\d|.)/g;
 /**
  * @param {string|number} content 
  */
@@ -143,7 +145,7 @@ function cards(content) {
   }
 
   return '<span class="playing-cards">'
-    + content.replace(cardsRegex, p => {
+    + content.replace(/(1\d|.)/g, p => {
       switch (p) {
         case '10': return '⑩';
         case '11': return '⑪';
@@ -157,6 +159,28 @@ function cards(content) {
       }
     })
     + '</span>';
+}
+
+/**
+ * @param {string|number} content
+ */
+function chinese_dice(content) {
+  if (typeof content == 'number') {
+    content = content.toString(10)
+  }
+
+  return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6_chinese/d6_${c}.svg" />`);
+}
+
+/**
+ * @param {string|number} content
+ */
+function japanese_dice(content) {
+  if (typeof content == 'number') {
+    content = content.toString(10)
+  }
+
+  return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6_japanese/d6_${c}.svg" />`);
 }
 
 //figured out via ttps://github.com/11ty/eleventy/issues/813#issuecomment-1037834776

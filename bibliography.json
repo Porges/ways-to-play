@@ -5834,7 +5834,9 @@
             {
                 "family": "郑",
                 "given": "超麟",
-                "lang": "zh"
+                "lang": "zh",
+                "alt": "Zhèng Chāo-Lín",
+                "alt-lang": "zh-Latn"
             }
         ],
         "volume": "1 (1900–1919)",
@@ -6303,6 +6305,22 @@
         "publisher": "University of Pennsylvania",
         "publisher-place": "Philadelphia, PA, USA",
         "URL": "https://books.google.co.nz/books?id=6BYLAAAAIAAJ"
+    },
+    "ChineseGames": {
+        "type": "book",
+        "title": "Chinese Games with Dice and Dominoes",
+        "author": [
+            {
+                "given": "Stewart",
+                "family": "Culin"
+            }
+        ],
+        "issued": {
+            "year": "1895"
+        },
+        "publisher": "Government Printing Office",
+        "publisher-place": "Washington",
+        "URL": "https://archive.org/details/chinesegameswith01culi"
     },
     "SparrowAndPigeon": {
         "type": "article-journal",
