@@ -8,9 +8,11 @@ subgames:
 ---
 
 Cee-Lo is a gambling game played with three dice. The English name is apparently
-derived from the Chinese phrase <span lang="zh">四五六</span> (Mandarin: <span
-lang="zh-Latn">sì wǔ liù</span>, Cantonese: <span lang="yue-Latn">si3 ng5
-luk6</span>, ‘four five six’), which is the highest roll in the game.
+derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’;
+Mandarin: {%pronounce lang="zh-Latn" word="sì wǔ liù" pronouncer="MarvinMeow"
+file="pronunciation_zh_四五六.mp3" %}, Cantonese: <span lang="yue-Latn">si3 ng5
+luk6</span>, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the
+highest roll in the game.
 
 In @GamblingGamesOfMalaya [p. 96] the name is given as <span lang="zh">六骰
  </span> (literally ‘six dice’), but with the odd pronunciation “Luk Kow” (the
@@ -22,16 +24,17 @@ under the name “Luk Kow 69” in Brunei gambling law.[@LawsOfBrunei p. 21] I d
 know to what part of the game “69” could refer, but one idea could be the roll
 {% cdice 6 %}–{% cdice 54 %} read as six–nine.
 
-In Japan the game is called <span lang="ja">チンチロ(リン)</span> <span
-lang="ja-Latn">chinchiro(rin)</span>, an onomatopœia based on the noise of dice
-being dropped into a bowl.{%fn%}It is also the noise made by the pine cricket
-(<span lang="ja">松虫</span> <span
+In Japan the game is called <span lang="ja">チンチロ(リン)</span> {%pronounce
+lang="ja-Latn" word="chin&shy;chi&shy;ro&shy;(rin)" pronouncer="skent"
+file="pronunciation_ja_チンチロリン.mp3" %}, an onomatopœia based on the noise
+of dice being dropped into a bowl.{%fn%}It is also the noise made by the pine
+cricket (<span lang="ja">松虫</span> <span
 lang="ja-Latn">matsu&shy;mushi</span>).{%endfn%} It is also played with
 differing payoffs for each dice outcome (see {%gameref chinchirorin %} below).
 
-As of 2022, the game remains explicitly illegal (under the name “Luk Kow”) in
-Malaysia,[@MalaysiaCommonGamingHousesAct p. 29] and Brunei,[@LawsOfBrunei p. 21]
-but not in Singapore.[@SingaporeGamesOfChanceAndSkill] 
+As of 2022, the game remains explicitly illegal — under the name “Luk Kow” — in
+Malaysia[@MalaysiaCommonGamingHousesAct p. 29] and Brunei,[@LawsOfBrunei p. 21]
+and as “See Goh Lak” in Singapore.[@SingaporeGamesOfChanceAndSkill] 
 
 ## Play
 
@@ -40,7 +43,7 @@ rolled. In Chinese and Japanese play, it is usual for the dice to be tossed into
 a bowl. In the USA they are normally cast against a wall or other vertical
 surface.
 
-A **point** is a result of a pair along with any othern non-matching number, the
+A **point** is a result of a pair along with any other non-matching number, the
 non-pair number being the value of the point. For example, the roll {%cdice
 225%} would establish a point of {%cdice 5%}.
 

@@ -1,12 +1,6 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
-  "spellright.language": [
-    "en"
-  ],
-  "spellright.documentTypes": [
-    "latex"
-  ],
   "files.exclude": {
     "**/node_modules/": true
   }

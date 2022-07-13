@@ -5,21 +5,22 @@ originalTitle: <span lang="zh-Hant">白鴿票</span>
 ---
 
 Pigeon Tickets (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
-</span> Cantonese: <span lang="yue-Latn">baak6 gaap3 piu3</span>{%fn%}Older
+</span> Cantonese: {%pronounce lang="yue-Latn" word="baak6 gaap3 piu3"
+pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" %}{%fn%}Older
 romanizations include <span lang="yue-Latn">pak kap
 piew</span>[@GamblingGamesOfMalaya p. 48], <span lang="yue-Latn">pák kòp
-piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn">baahk gáap
-piu</span>, or <span lang="yue-Latn">paâk káap p'iu</span>. While <span
-lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from
-Mandarin, it is the standard Cantonese name for pigeon, and this further proves the
-Cantonese origin of the game (see e.g. @SparrowAndPigeon, although I find some
-of his other (original) conclusions to be dubious).{%endfn%}) is a gambling game
-which originated in <span class="noun" lang="zh-Latn">Guangdong</span> during the late Qing
-dynasty, and which in the 19th and 20th centuries was spread throughout
+piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn">baahk gáap piu</span>,
+or <span lang="yue-Latn">paâk káap p'iu</span>. While <span lang="zh-Hant">白鴿
+</span> is sometimes translated as “white pigeon” from Mandarin, it is the
+standard Cantonese name for pigeon, and this further proves the Cantonese origin
+of the game (see e.g. @SparrowAndPigeon, although I find some of his other
+(original) conclusions to be dubious).{%endfn%}) is a gambling game which
+originated in <span class="noun" lang="zh-Latn">Guangdong</span> during the late
+Qing dynasty, and which in the 19th and 20th centuries was spread throughout
 Oceania-bordering countries by Chinese emigrants. 
 
 The game was eventually modified by Americans and turned into the modern game of
-Keno, now played in casinos around the world.
+Keno, which is now played in casinos around the world.
 
 <!-- excerpt -->
 
@@ -43,8 +44,9 @@ While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the
 eighty that are printed on the ticket. The seller or “bank” then randomly
 selects a given number of characters, and players win money according to the
-number of matching characters marked on their ticket. The specific numbers of
-characters chosen and the permissible bets vary by both time and location.
+number of matching characters they have marked on their ticket. The specific
+numbers of characters chosen and the permissible bets vary by both time and
+location.
 
 ## False origins
 
