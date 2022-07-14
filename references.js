@@ -81,7 +81,7 @@ function renderTitle(reference) {
             ? `<a itemprop="url" href="${reference.URL}">${reference.title}</a>`
             : `<span>${reference.title}</span>`;
 
-    return reference.type === 'book'
+    return (reference.type === 'book' || reference.type === 'thesis')
         ? `<cite itemprop="name"${asAttr('lang', lang)}>${isolate(linked)}</cite>${ifSet(reference.volume, ` (volume ${formatNumberString(reference.volume)})`)}. `
         : `‘<span itemprop="name headline"${asAttr('lang', lang)}>${isolate(linked)}</span>’. `;
 }
@@ -93,11 +93,12 @@ function renderTitle(reference) {
 const renderAuthors = (reference) => {
     if (reference.author) {
         return `${renderPeople(reference.author, true, false, 'author')} `;
+    } else if ('editor' in reference && reference.editor) {
+        const plural = reference.editor.length > 1 ? 's' : '';
+        return `${renderPeople(reference.editor, true, false, 'editor')} (editor${plural}) `;
     } else if ('publisher' in reference) {
         return (`<span itemscope itemtype="http://schema.org/Organization" itemprop="author">`
             + `<span itemprop="name"${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span></span> `);
-    } else if ('editor' in reference && reference.editor) {
-        return `${renderPeople(reference.editor, true, false, 'editor')}, (<abbr title="editor">ed.</abbr>) `;
     } else {
         return `<i>Anonymous</i> `;
     }
@@ -212,10 +213,19 @@ function toIsoDate(ymd) {
  * @param {Reference} reference
  * @returns {string}
  */
-const renderPublisher = (reference) => (
-    ifSet(reference['publisher-place'], reference['publisher-place'] + (reference.publisher ? ': ' : '. '))
-    + ifSet(reference.publisher, () => `<span${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span>${reference.publisher.endsWith('.') ? ' ' : '. '}`)
-);
+const renderPublisher = (reference) => {
+    const publisher = 
+        ifSet(reference.publisher,
+            () => `<span${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span>${reference['publisher-place'] ? ': ' : (reference.publisher.endsWith('.')?' ':'. ')}`)
+        + ifSet(reference['publisher-place'],
+            () => `${reference['publisher-place']}. `);
+
+    if (reference.type === 'thesis') {
+        return ifSet(reference['genre'], ` ${reference['genre']}, `) + publisher;
+    }
+
+    return publisher;
+};
 
 /**
  * @param {Reference} reference

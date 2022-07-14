@@ -2408,8 +2408,7 @@
         "volume": 5,
         "issue": 27,
         "page": "585–591",
-        "URL": "https://dx.doi.org/10.5901/mjss.2014.v5n27p585",
-        "id": "UseOfMorabara"
+        "URL": "https://dx.doi.org/10.5901/mjss.2014.v5n27p585"
     },
     "GamesBasotho": {
         "type": "thesis",
@@ -2426,8 +2425,7 @@
         "publisher": "University of South Africa",
         "publisher-place": "Pretoria, South Africa",
         "genre": "PhD thesis",
-        "URL": "https://core.ac.uk/download/pdf/43165237.pdf",
-        "id": "GamesBasotho"
+        "URL": "https://core.ac.uk/download/pdf/43165237.pdf"
     },
     "UsingGamesToPromote": {
         "type": "paper-conference",
@@ -4044,12 +4042,14 @@
     "BasothoOralPoetry": {
         "type": "thesis",
         "title": "Basotho oral poetry at the beginning of the 21st century",
+        "genre": "PhD thesis",
         "author": [
             {
                 "family": "Tšiu",
                 "given": "William Moruti"
             }
         ],
+        "volume": 1,
         "issued": {
             "year": 2008
         },
@@ -7256,5 +7256,241 @@
         },
         "publisher": "T. Bensley",
         "publisher-place": "London"
+    },
+    "DisputedGround": {
+        "type": "book",
+        "title": "Disputed Ground: Robin Hyde, Journalist",
+        "editor": [
+            {
+                "family": "Boddy",
+                "given": "Gillian"
+            },
+            {
+                "given": "Jacqueline",
+                "family": "Matthews"
+            }
+        ],
+        "issued": {
+            "year": 1991
+        },
+        "ISBN": "086473204X",
+        "publisher": "Victoria University Press",
+        "publisher-place": "Wellington, New Zealand"
+    },
+    "RememberingChinatown": {
+        "type": "chapter",
+        "container-title": "Unfolding History, Evolving Identity: The Chinese in New Zealand",
+        "editor": [
+            {
+                "given": "Manying",
+                "family": "Ip"
+            }
+        ],
+        "author": [
+            {
+                "given": "Lynette",
+                "family": "Shum"
+            }
+        ],
+        "title": "Remembering Chinatown: Haining Street of Wellington",
+        "page": "73–93",
+        "ISBN": "1869402898",
+        "publisher": "Auckland University Press",
+        "publisher-place": "Auckland, New Zealand",
+        "issued": {
+            "year": 2003
+        }
+    },
+    "RepresentingHainingStreet1": {
+        "type": "thesis",
+        "title": "Representing Haining Street: Wellington’s Chinatown 1920–1960",
+        "author": [
+            {
+                "given": "Lynette",
+                "family": "Shum"
+            }
+        ],
+        "volume": 1,
+        "issued": {
+            "year": 2007
+        },
+        "genre": "Master’s thesis",
+        "publisher": "Victoria University of Wellington",
+        "publisher-place": "Wellington, New Zealand"
+    },
+    "RepresentingHainingStreet2": {
+        "type": "thesis",
+        "title": "Representing Haining Street: Wellington’s Chinatown 1920–1960",
+        "author": [
+            {
+                "given": "Lynette",
+                "family": "Shum"
+            }
+        ],
+        "volume": 2,
+        "issued": {
+            "year": 2007
+        },
+        "genre": "Master’s thesis",
+        "publisher": "Victoria University of Wellington",
+        "publisher-place": "Wellington, New Zealand"
+    },
+    "SegmentingChineseGamblers": {
+        "type": "article-journal",
+        "URL": "https://doi.org/10.1007/s10899-019-09877-6",
+        "title": "Segmenting Chinese Gamblers Based on Gambling Forms: A Latent Class Analysis",
+        "container-title": "Journal of Gambling Studies",
+        "volume": 36,
+        "page": "141–159",
+        "author": [
+            {
+                "family": "Nong",
+                "given": "Sunny Zhenzhen"
+            },
+            {
+                "family": "Fong",
+                "given": "Lawrence Hoc Nang"
+            },
+            {
+                "family": "Fong",
+                "given": "Davis Ka Chio"
+            },
+            {
+                "family": "Lam",
+                "given": "Desmond"
+            }
+        ],
+        "issued": {
+            "year": 2020
+        }
+    },
+    "HarryingOfChinese": {
+        "type": "article-newspaper",
+        "title": "Harrying of Chinese",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/EP19330908.2.100",
+        "container-title": "Evening Post",
+        "volume": 116,
+        "issue": 60,
+        "page": 9,
+        "issued": {
+            "year": 1933,
+            "month": 9,
+            "day": 8
+        }
+    },
+    "TheChineseGamblingHouses": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/198574479",
+        "title": "The Chinese Gambling Houses",
+        "container-title": "The Age",
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "issued": {
+            "day": 23,
+            "month": 1,
+            "year": 1873
+        },
+        "page": 3,
+        "issue": 5665
+    },
+    "PakCupPewHospital": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/147367994",
+        "title": "Melbourne",
+        "container-title": "Geelong Advertiser",
+        "publisher-place": "Geelong, Victoria, Australia",
+        "issued": {
+            "year": 1874,
+            "month": 4,
+            "day": 27
+        },
+        "page": 3,
+        "issue": 8398
+    },
+    "TheChineseLotteryCases": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/201532665",
+        "title": "The Chinese Lottery Cases",
+        "container-title": "The Age",
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "issued": {
+            "year": 1874,
+            "month": 8,
+            "day": 14
+        },
+        "page": 4,
+        "issue": 6092
+    },
+    "HumiliatingAnomalies": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/61830563",
+        "title": "Editorial",
+        "container-title": "The Gippsland Times",
+        "publisher-place": "Gippsland, Victoria, Australia",
+        "page": 2,
+        "issue": 1976,
+        "issued": {
+            "year": 1877,
+            "month": 11,
+            "day": 19
+        }
+    },
+    "CluthaPolitical": {
+        "type": "article-newspaper",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/CL18810805.2.8",
+        "title": "Political",
+        "container-title": "Clutha Leader",
+        "publisher-place": "Balcutha, Otago, New Zealand",
+        "volume": 8,
+        "issue": 408,
+        "issued": {
+            "year": 1881,
+            "month": 8,
+            "day": 5
+        },
+        "page": "3"
+    },
+    "ChineseGamblingInSydney": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/18884504",
+        "title": "Chinese Gambling in Sydney",
+        "container-title": "The Maitland Mercury and Hunter River General Advertiser",
+        "publisher-place": "New South Wales, Australia",
+        "page": 7,
+        "volume": 43,
+        "issue": 5913,
+        "issued": {
+            "year": 1886,
+            "month": 3,
+            "day": 23
+        }
+    },
+    "InAChineseLotteryShop": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/244716027/26855120",
+        "title": "In A Chinese Lottery Shop",
+        "container-title": "Australasian Sketcher",
+        "publisher-place": "Adelaide, South Australia, Australia",
+        "page": 6,
+        "volume": 4,
+        "issue": 40,
+        "issued": {
+            "year": 1876,
+            "month": 4,
+            "day": 15
+        }
+    },
+    "TheChineseLottery1863": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/200382277",
+        "title": "The Chinese Lottery",
+        "container-title": "Mount Alexander Mail",
+        "publisher-place": "Castlemaine, Victoria, Australia",
+        "page": 3,
+        "issue": 1390,
+        "issued": {
+            "year": 1863,
+            "month": 8,
+            "day": 26
+        }
     }
 }

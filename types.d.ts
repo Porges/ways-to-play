@@ -68,6 +68,8 @@ export type Reference = Readonly<{
   page?: string | number,
   warnings?: string,
 
+  genre?: string, // for theses
+
   filed?: { year: number, month: number, day: number }, // for patents
   applicationNumber?: string | number,
   patentNumber?: string | number,
