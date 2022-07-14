@@ -259,10 +259,15 @@ tickets.
 
 Chinese lotteries are first discussed in Australian newspapers in the 1860s;
 pak-a-pu is clearly described in one article of 1863.[@TheChineseLottery1863]
-The game appears to have first appeared in the [goldfields of
+The game seems to have first appeared in the [goldfields of
 Victoria](https://en.wikipedia.org/wiki/Goldfields_region_of_Victoria), and the
 aforementioned article describes 3 or 4 banks operating in
 [Castlemaine](https://en.wikipedia.org/wiki/Castlemaine,_Victoria).
+
+Despite one newspaper’s recommendation to “take a ticket, see the drawing, and
+so spend a very entertaining half-hour in a Chinese
+lottery-office,”[@SpendAHalfHour] by 1864 lotteries were being raided by police
+and the proprietors charged.[@PoliceCourtsAChineseLottery]
 
 <!--
 
@@ -345,7 +350,7 @@ Haining Street, May 1960.
 
 {%imageEnd%}
 
-#### Legality
+#### Legality and Hypocrisy
 
 Pakapoo was illegal from 1862 in Otago,[@RememberingChinatown p. 93] and would
  be made illegal nationwide with the passage of the [Gaming and Lotteries Act of
@@ -491,9 +496,10 @@ Finally, in 1907, the Gaming and Lotteries Act Amendment Act was passed, which
 declared *all* games of chance to be explicitly unlawful. The game was to remain
 illegal until the passage of a new Gaming and Lotteries Act in 1977.
 
-Protests against the hypocrisy of the laws would continue throughout the
-twentish century; in 1933, one businessman complained due to the effect the ban
-could have upon trade with China:
+Even after all gambling was made illegal, protests were made about the inequal
+application of the law, and these would continue throughout the twentieth
+century; in 1933, one businessman complained about the effect the ban could have
+upon trade with China:
 
 > “It is well known,” [Mr. John MacGibbon] said, “that in most homes in New
 > Zealand the gambling laws are broken with impunity. This harrying of Chinese

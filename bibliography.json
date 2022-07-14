@@ -7492,5 +7492,34 @@
             "month": 8,
             "day": 26
         }
+    },
+    "SpendAHalfHour": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/5749196/212600",
+        "title": "Saturday, May 28, 1864",
+        "container-title": "The Argus",
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "issue": 5608,
+        "page": 5,
+        "issued": {
+            "year": 1864,
+            "month": 5,
+            "day": 28
+        }
+    },
+    "PoliceCourtsAChineseLottery": {
+        "type": "article-newspaper",
+        "URL": "https://trove.nla.gov.au/newspaper/article/245504464",
+        "title": "Police Courts: City Court: A Chinese Lottery",
+        "page": 3,
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "container-title": "The Herald",
+        "volume": 75,
+        "issue": 5841,
+        "issued": {
+            "year": 1864,
+            "month": 9,
+            "day": 8
+        }
     }
 }
