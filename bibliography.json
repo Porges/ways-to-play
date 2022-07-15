@@ -7521,5 +7521,44 @@
             "month": 9,
             "day": 8
         }
+    },
+    "TheCompleteBookOfGames": {
+        "type": "book",
+        "URL": "https://archive.org/details/completebookofga0000unse_z7c5",
+        "issued": {
+            "year": 1940
+        },
+        "original-date": {
+            "year": 1938
+        },
+        "title": "The Complete Book of Games",
+        "author": [
+            {
+                "given": "Clement",
+                "family": "Wood"
+            },
+            {
+                "given": "Gloria",
+                "family": "Goddard"
+            }
+        ],
+        "publisher": "Halcyon House",
+        "publisher-place": "Garden City, NY, USA"
+    },
+    "CompleteBookOfGamesAndStunts": {
+        "type": "book",
+        "title": "Complete Book of Games and Stunts",
+        "URL": "https://archive.org/details/completebookofga00hind",
+        "issued": {
+            "year": 1956
+        },
+        "publisher": "Prentice-Hall",
+        "publisher-place": "Englewood Cliffs, NJ, USA",
+        "author": [
+            {
+                "family": "Hindman",
+                "given": "Darwin A."
+            }
+        ]
     }
 }

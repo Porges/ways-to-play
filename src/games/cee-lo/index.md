@@ -12,7 +12,8 @@ derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five s
 Mandarin: {%pronounce lang="zh-Latn" word="sì wǔ liù" pronouncer="MarvinMeow"
 file="pronunciation_zh_四五六.mp3" %}, Cantonese: <span lang="yue-Latn">si3 ng5
 luk6</span>, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the
-highest roll in the game.
+highest roll in the game. Some books refer to it as “Strung Flowers”, another
+Chinese name for the highest roll.[@Bell p. 145]
 
 In @GamblingGamesOfMalaya [p. 96] the name is given as <span lang="zh">六骰
  </span> (literally ‘six dice’), but with the odd pronunciation “Luk Kow” (the

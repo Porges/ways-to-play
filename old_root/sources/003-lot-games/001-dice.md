@@ -56,9 +56,6 @@ Ref: [@Bell, p. 129]
 
 Ref: [@Bell, p. 130]
 
-### Aces in the Pot
-
-Ref: [@Bell, p. 130]
 
 ### Barbudi
 
@@ -114,12 +111,7 @@ Ref: [@Bell, p. 142]
 
 Ref: [@Bell, p. 143]
 
-
 ## Chinese
-
-### Strung Flowers
-
-Ref: [@Bell, p. 145]
 
 ### Throwing Heaven and Nine
 

@@ -72,6 +72,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("asAttr", asAttr);
   eleventyConfig.addShortcode("isolate", isolate);
 
+  eleventyConfig.addShortcode("dice", dice);
   eleventyConfig.addShortcode("cdice", chinese_dice);
   eleventyConfig.addShortcode("jdice", japanese_dice);
   eleventyConfig.addShortcode("cards", cards);
@@ -181,6 +182,17 @@ function japanese_dice(content) {
   }
 
   return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6_japanese/d6_${c}.svg" />`);
+}
+
+/**
+ * @param {string|number} content
+ */
+function dice(content) {
+  if (typeof content == 'number') {
+    content = content.toString(10)
+  }
+
+  return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6/d6_${c}.svg" />`);
 }
 
 //figured out via ttps://github.com/11ty/eleventy/issues/813#issuecomment-1037834776
