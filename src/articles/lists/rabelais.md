@@ -1,6 +1,5 @@
 ---
 title: The Games of Gargantua
-draft: true
 ---
 
 One of the most famous lists of games is that in [<span class="noun" lang="fr">François
@@ -14,7 +13,14 @@ expanded upon. Many of the games are either invented by Rabelais, or are games
 for which we no longer know the rules.
 
 An in-depth examination of the games in the list lies [below the
-table](#the-list-in-depth).
+table](#the-list-in-depth). ⚠️ This article, more than most, is a
+work-in-progress.
+
+The first three columns give the lists from three different French editions; the
+remaining columns are from translations into English.
+
+⚠️ Note that the entries in the Screech column are out of sync with the others
+and I haven’t had time to match them up yet.
 
 <!-- Putnam doesn’t attempt translation -->
 
@@ -85,7 +91,7 @@ tr. Screech
 
 </th>
 
-<th>my preference</th>
+<th>my notes</th>
 
 </tr>
 <thead>
