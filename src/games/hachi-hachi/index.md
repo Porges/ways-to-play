@@ -7,10 +7,12 @@ draft: true
 
 <span class="noun" lang="ja-Latn">Hachi-Hachi</span> (<span lang="ja">八八</span>, ‘88’) is
 the preëminent [<span class="noun"
-lang="ja-Latn">Hanafuda</span>](/articles/cards/japan/hanafuda/) gambling game.
+lang="ja-Latn">Hanafuda</span>](/articles/cards/japan/hanafuda/) gambling game for 3–7 players.
 In many old English sources it is considered synonymous with ‘<span class="noun"
 lang="ja-Latn">hanafuda</span>’ or ‘<span class="noun" lang="ja-Latn">hana-awase</span>’ and
 isn’t given a more specific name.
+
+Ref: [@Hanafuda, p. 39]
 
 The name derives from the objective of the game; the standard version of the
 game is for three active players, and there are 264 total card points available,
