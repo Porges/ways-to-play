@@ -12,31 +12,7 @@ subgames:
 
 <!-- excerpt -->
 
-The game is played with special cards called <span
-lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span
-lang="ja-Latn">kabu</span> cards’). It can also be played with <span
-lang="ja-Latn">hanafuda</span> cards (by dropping two months),{%fn%}There are
-also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called
-<span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of
-the standard deck.{%endfn%} or with the {% cards 'A–9' %} from a standard deck
-of playing cards.
-
-{% image src="../../articles/cards/japan/kabu-karuta/Kabufuda_2.jpg" alt="" %}
-Cards from a <span class="noun" lang="ja-Latn">Nintendō</span> <span
-lang="ja-Latn">kabufuda</span> deck. This ‘suit’ is replicated 3 times giving 30
-cards.
-{% imageEnd %}
-
-{% image src="../../articles/cards/japan/kabu-karuta/Kabufuda_1.jpg" alt="" %}
-Cards from a <span class="noun" lang="ja-Latn">Nintendō</span> <span
-lang="ja-Latn">kabufuda</span> deck. This ‘suit’ has the <Cards>1</Cards> and
-<Cards>4</Cards> distinguished. The <Cards>4</Cards> is overlaid with a
-depiction of a ‘[wish-fulfilling
-jewel](https://en.wikipedia.org/wiki/Cintamani)’ (<span lang="ja">宝珠</span>
-<span lang="ja-Latn">hōju</span>).
-{% imageEnd %}
-
-The game originated in Japan, but has surprisingly also been spotted amongst
+The game originated in Japan, but has surprisingly also been seen played amongst
 Aboriginal communities in the northern parts of Australia, apparently having
 been transferred there by Japanese sailors working in the pearl
 industry.[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <span class="noun"
@@ -44,9 +20,39 @@ lang="ja-Latn">Nintendō</span> advertising poster from the early 20th century
 also indicates that their cards were being exported to Australia. In Australia
 the game is played with standard “international” playing cards.
 
+## Equipment
+
+The game in Japan is played with special cards called <span
+lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span
+lang="ja-Latn">kabu</span> cards’), which are numbered from 1–10. A full deck is
+40 cards, and has four copies of each card. It can also be played with <span
+lang="ja-Latn">hanafuda</span> cards (by dropping two months),{%fn%}There are
+also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called
+<span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of
+the standard deck.{%endfn%} or with the {% cards 'A–10' %} from a standard deck
+of playing cards.
+
+{% image 
+    src='../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg'
+    alt="" %}
+A full deck of <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura
+Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
+{% imageEnd %}
+
 ## Play
 
 Up to ten people can play the game (aside from the dealer).
+
+The dealer shuffles the cards and deals two cards face-down to each player. Each
+player looks at their cards and may then request a third, and subsequently a
+fourth card.
+
+The goal of the game is to get a card total as close to 9 as possible. The total
+is calculated by summing the values of the cards in a player’s hand. Card totals
+equal to or over ten have their first digit discarded (i.e. the sum is calculated
+modulo ten), so that a total of 10 is equivalent to zero, and a total of 12
+equivalent to two.
+
 
 ## Terminology
 
@@ -190,7 +196,7 @@ Shuffle and deal two cards face-down to each player. Each player looks at their
 cards and may then request a third, and subsequently a fourth card.
 
 The goal, as in standard <span class="noun" lang="ja-Latn">Oicho-Kabu</span>, is to get a
-total as close to {% cards '9' %} as possible, discarding {% cards '⑩' %}s.
+total as close to 9 as possible, discarding 10s.
 
 After all players have finished requesting new cards, the hands are revealed.
 Each player collects the difference from their hand to players with a lower
