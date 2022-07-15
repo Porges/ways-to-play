@@ -134,21 +134,27 @@ cards’, giving 30 different cards. Each deck, or <span lang="ms">kepala</span>
 most Ceki games require multiple <span lang="ms">kepala</span> to play, often
 two sets (120 cards).
 
-The three suits are called:[@ChikiCards p. 119]
+The three suits have various names.[@ChikiCards p. 119] ‘Coins’, ‘strings’, and
+‘myriads’ are the terms I use for consistency across different types of
+money-suited cards.
 
 <dl>
-<dt>Myriads (Numbers)</dt>
-<dd>
-
-<span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’) <br/>in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span>) ‘people’[@JavanischeKartenspiele]
-
-</dd>
-<dt>Strings</dt>
-<dd><span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’)</dd>
 <dt>Coins</dt>
 <dd>
 
 <span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’)
+
+</dd>
+<dt>Strings</dt>
+<dd>
+
+<span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’)<br/>in Java, <span lang="jav-Latn">lintrik</span> (<span lang="jav">ꦭꦶꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?)[@JavanischeKartenspiele]
+
+</dd>
+<dt>Myriads (Numbers)</dt>
+<dd>
+
+<span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’) <br/>in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span> ‘people’)[@JavanischeKartenspiele]
 
 </dd>
 </dl>
@@ -1729,20 +1735,23 @@ them, I do not know of any other sets of rules recorded online.
 
 * {% gameref balik-satu %} (‘turn one’), a Malaysian game with no fixed number
   of players[@BabaMalayDictionary p. 214][@ChikiCards p. 122]
-* {% gameref balik-lima-belas %} [@ChikiCards p. 127]/Balek Lima
+* {% gameref balik-lima-belas %}[@ChikiCards p. 127]/Balek Lima
   Belair[@BabaMalayDictionary p. 124]/Bukak Lima Blas Leh[@TheBabas p. 167]
   (‘turn fifteen’), an alternate method of scoring Balik Satu
+* {% gameref chot %}/Chote/Choke/Kiong, a four-player game[@BabaMalayDictionary
+  p. 214][@ChikiCards p. 127][@TheBabas p. 167]
 * {% gameref gonggong %}, a Javan game for four or six
   players[@JavaanseKaartspelen p. 94–7]
 * {% gameref tantanan %}, a fast-playing Javan game for four
   players[@JavaanseKaartspelen p. 98]
-* {% gameref pong %} a simple Malay game for four, also played with Mahjong tiles
+* {% gameref pong %} a Malaysian version of a Thai game, played by four people,
+  also played with Mahjong tiles
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
 * Pak Tui, a solitaire game[@BabaMalayDictionary p. 215]
-* Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary]
-* Choke/Chote Kiong, a four-player game[@BabaMalayDictionary p. 214]
+* Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary p. 214]
+* Tongkeng, a game for two people[@BabaMalayDictionary p. 215]
 
 ## Manufacturers & Brands
 

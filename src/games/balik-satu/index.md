@@ -5,6 +5,8 @@ players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 subgames:
 - title: Balik Lima Belas
   titleLang: ms
+- title: Chot
+  titleLang: ms
 - title: Gonggong
   titleLang: jav-Latn
   originalTitle: <span lang="mak">ᨁᨚᨁᨚ</span>
@@ -149,7 +151,11 @@ Lau Chian scores 12 points.
 A common rule is that if the drawn card is a rank-1 <span lang="ms">yeo</span>
 card, then the winning player does not score and the round is played again.
 
-To the value of the drawn card, the winner adds one point for each unmarked
+The drawn card may be used to improve a set in the hand into a <span
+lang="ms">mata</span>, if possible, by replacing a card of the same
+rank. This is called <span lang="ms">kena</span> (‘contact’).[@TheBabas p. 162]
+
+To the point value of the drawn card, the winner adds one point for each unmarked
 <span lang="ms">mata</span>, and two points for each <span lang="ms">mata</span>
 of red-stamped cards.
 
@@ -177,16 +183,70 @@ In the case that a player is initially dealt a winning hand (<span
 lang="ms">kandang tangan</span> ‘cage in hand’), they win instantly and double
 the normal scoring (no calling bonuses will apply).
 
-### Balik Lima Belas
+### <span class="noun" lang="ms">Balik Lima Belas</span>
 
-<span class="noun" lang="ms">Balik Lima Belas</span> (‘draw fifteen’) is a version of <span class="noun"
-lang="ms">Balik Satu</span> where the winner draws fifteen cards from the stock
-instead of one. They must use these cards to try to improve their sets into
-<span lang="ms">mata</span> by swapping cards of equivalent rank. Scoring is
-calculated as one point for winning plus one point for each <span
-lang="ms">mata</span> (so, always at least two points). In this form the
-red-stamped cards do not score extra, but the calling bonuses for <span
-lang="ms">ayam</span> and <span lang="ms">kandang</span> still apply.
+{%aside%}
+Note that in @ChikiCards [p. 127], <span class="noun" lang="ms">Balik Lima
+Belas</span> and <span class="noun" lang="ms">Chot</span> are described as the
+same game. Here I separate them as in @TheBabas [p. 167]: <span class="noun"
+lang="ms">Balik Lima Belas</span> is a specific scoring method, and <span
+class="noun" lang="ms">Chot</span> is the four-player partnership version of the
+game.
+{%endaside%}
+
+<span class="noun" lang="ms">Balik Lima Belas</span> (‘draw fifteen’) is an
+alternate scoring mechanism for <span class="noun" lang="ms">Balik Satu</span>.
+
+At the end of each round, instead of drawing one card as in <span class="noun"
+lang="ms">Balik Satu</span>, the winner draws fifteen cards from the stock. They
+must use these cards to try to improve their sets into <span
+lang="ms">mata</span> by swapping cards of equivalent rank, as in the <span
+lang="ms">kena</span> rule of <span class="noun" lang="ms">Balik Satu</span>.
+Scoring is calculated as one point for winning plus one for each <span
+lang="ms">mata</span> (so, always at least two points). 
+
+In this form of the game the red-stamped cards do not score extra, but bonuses
+for winning by completing a <span lang="ms">mata</span> (<span
+lang="ms">ayam</span> or <span lang="ms">kandang</span>) still apply.
+
+### <span class="noun" lang="ms">Chot</span>
+
+{%aside%}
+Note that the sources are a little unclear and contradictory, so I have
+attempted to harmonize this description.
+{%endaside%}
+
+<span class="noun" lang="ms">Chot</span> or <span class="noun">Kiong</span> is a
+ version played with four players in partnerships, with partners sitting
+opposite each other. Three decks of cards are used (180 cards). 
+
+The game is scored using two different tokens. Traditionally two sizes of seed
+such as those of the <span lang="ms">assam</span> (tamarind) and <span
+lang="ms">saga</span> ([<cite>Adenanthera
+pavonina</cite>](https://en.wikipedia.org/wiki/Adenanthera_pavonina))
+trees,[@ChikiCards p. 127] or black and white marbles (<span
+lang="ms">pichi</span>)[@TheBabas p. 167] are used. The smaller (or white)
+tokens count as one point and the larger (or black) as ten points.
+
+The game is played and scored as in <span class="noun" lang="ms">Balik Lima
+Belas</span>. Players take one token for each point scored, and if a player wins
+by completing a <span lang="ms">mata</span> (<span lang="ms">ayam</span> or
+ <span lang="ms">kandang</span>) then they take 10-point tokens instead of
+single-point tokens. Players keep their seeds separate until one <span
+lang="ms">bangkong</span> is completed.
+
+Once any player has obtained twenty points (called a <span
+lang="ms">bangkong</span>, ‘large frog’?), the partnerships pool their tokens.
+The side with the larger number of points wins the <span
+lang="ms">bangkong</span> and records this number. The number of excess points
+above the other team they have is also recorded. All tokens are then returned to
+the pool.
+
+Once a fixed number of <span lang="ms">bangkong</span> have been completed, the
+overall scores are tallied. The partnership with fewer <span
+lang="ms">bangkong</span> pays the team with more for the difference between
+their totals (e.g. $20 per <span lang="ms">bangkong</span>). The partnership
+with fewer ‘excess points’ also pays for the difference (e.g. 10¢ per point).
 
 ## Similar games
 

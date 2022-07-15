@@ -4,9 +4,11 @@ titleLang: jav-Latn
 draft: true
 ---
 
-<span class="noun" lang="jav-Latn">Kartu Lima</span> (‘five cards’) is an unusual
-trick-taking game from Java, which was played with [Ceki
-cards](/articles/cards/ceki/).[@JavaanseKaartspelen p. 46–57]
+<span class="noun" lang="jav-Latn">Kartu Lima</span> (‘five cards’) is an
+unusual trick-taking game from Java, which was played with [Ceki
+cards](/articles/cards/ceki/).[@JavaanseKaartspelen p. 46–57] The same game has
+also been described under the name <span class="noun"
+lang="jav-Latn">Tepu</span>.[@JavanischeKartenspiele p. 47]
 
 <!-- excerpt -->
 
