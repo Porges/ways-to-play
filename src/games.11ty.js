@@ -112,9 +112,12 @@ exports.render = function (data) {
         </script>`;
 
     return '<h2>Filters</h2>'
-        + '<ul id="filters">'
-        + '<li id="player-filter">Players: <select id="player-select">'
-        + '<option>any</option>'
+        + '<form>'
+        + '<div class="form-group row">'
+        + '<label for="player-select" class="col-sm-2 col-form-label">Players:</label>'
+        + '<div class="col-sm-10">'
+        + '<select id="player-select" class="form-control">'
+        + '<option selected>any</option>'
         + '<option>1</option>'
         + '<option>2</option>'
         + '<option>3</option>'
@@ -125,8 +128,10 @@ exports.render = function (data) {
         + '<option>8</option>'
         + '<option>9</option>'
         + '<option>10</option>'
-        + '</select></li>'
-        + '</ul>'
+        + '</select>'
+        + '</div>'
+        + '</div>'
+        + '</form>'
         + '<h2>List</h2>'
         + '<ul id="games-list" class="columnarr wide">'
         + expandedGames.map(g => {
