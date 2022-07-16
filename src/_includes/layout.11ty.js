@@ -32,7 +32,7 @@ exports.render = async function (data) {
   if (data.mainImage) {
     const basedSrc = path.join(path.dirname(data.page.inputPath), data.mainImage);
     const metadata = await Image(basedSrc, {
-      widths: [null],
+      widths: [1600],
       formats: [null],
       outputDir: "public/img",
     });
