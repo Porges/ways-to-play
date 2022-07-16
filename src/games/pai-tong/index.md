@@ -2,8 +2,12 @@
 title: Pai Tong
 titleLang: th-Latn
 originalTitle: <span lang="th">ไพ่ตอง</span>
+players: 
+    min: 2
+    max: 7
 subgames:
 - title: Pong
+  players: 4
 ---
 
 <span class="noun" lang="th-Latn">Pai Tong</span> (<span

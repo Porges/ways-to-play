@@ -3,6 +3,7 @@ title: Gunjin Shogi
 titleLang: ja-Latn
 originalTitle: <span lang="ja">軍人将棋</span>
 draft: true
+players: 2
 ---
 
 <span class="noun" lang="ja-Latn">Gunjin Shogi</span> (<span lang="ja">軍人将棋</span>

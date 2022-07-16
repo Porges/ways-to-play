@@ -1,6 +1,7 @@
 ---
 title: Achi
 titleLang: ee
+players: 2
 ---
 
 <span class="noun" lang="ee">Achi</span> is a <a href="/articles/mill-games/">mill game</a>

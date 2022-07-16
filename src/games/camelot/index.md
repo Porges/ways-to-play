@@ -1,13 +1,17 @@
 ---
 title: The Camelot Family
+players: 2
 subgames:
     - title: Chivalry
     - title: Camelot
     - title: Cam
     - title: Camette
     - title: Grand Cam
+      players: 4
     - title: Grand Camelot
+      players: 4 
     - title: Four-Handed Chivalry
+      players: 4
 ---
 
 

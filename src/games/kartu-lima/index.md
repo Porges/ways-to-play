@@ -2,6 +2,9 @@
 title: Kartu Lima
 titleLang: jav-Latn
 draft: true
+players:
+    min: 5
+    max: 9
 ---
 
 <span class="noun" lang="jav-Latn">Kartu Lima</span> (‘five cards’) is an

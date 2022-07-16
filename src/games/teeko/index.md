@@ -1,5 +1,6 @@
 ---
 title: Teeko
+players: 2
 ---
 
 <p class="lead">Teeko is a game for two players by John Scarne.</p>

@@ -1,5 +1,8 @@
 ---
 title: Cee-Lo
+players:
+  min: 2
+  max: 100
 subgames:
 - title: Chinchirorin
   titleLang: ja-Latn

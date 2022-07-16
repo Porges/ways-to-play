@@ -1,5 +1,5 @@
 ---
-name: Keno (Bingo)
+title: Keno (Bingo)
 draft: true
 ---
 

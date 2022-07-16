@@ -1,6 +1,7 @@
 ---
 title: Five Field Gonu
 draft: true
+players: 2
 originalTitle: <span lang="ko">오밧고누</span>
 ---
 

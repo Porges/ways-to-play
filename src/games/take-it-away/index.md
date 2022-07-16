@@ -1,5 +1,8 @@
 ---
 title: Take It Away
+players:
+    min: 2
+    max: 4
 ---
 
 Take It Away is a game for 2–4 players invented by Sid Sackson,[@Gamut pp.

@@ -1,5 +1,6 @@
 ---
 title: Tri-Hex
+players: 2
 ---
 
 Tri-Hex is a [mill game](/articles/mill-games/) that was invented by T. H.

@@ -1,6 +1,7 @@
 ---
 title: Morabaraba
 titleLang: st
+players: 2
 mainImage: '16908233_1262123897217460_4095342219718819840_n.jpg'
 hero:
     image: '16908233_1262123897217460_4095342219718819840_n.jpg'

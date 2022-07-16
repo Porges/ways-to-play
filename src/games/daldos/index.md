@@ -1,6 +1,7 @@
 ---
 title: Daldøs 
 draft: true
+players: 2
 ---
 
 {% image src="maryrose_daldos.jpg"  alt="" 

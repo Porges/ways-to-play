@@ -1,6 +1,9 @@
 ---
 title: Sampen
 titleLang: jav-Latn
+players:
+    min: 2
+    max: 8
 ---
 
 <span lang="jav-Latn" class="noun">Sampèn</span> is a simple skill-free gambling

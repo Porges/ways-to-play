@@ -1,6 +1,7 @@
 ---
 title: Tic-Tac-Toe
 mainImage: '5072574617_9afa5ee9ae_o.jpg'
+players: 2
 ---
 
 <p class="lead">Tic-Tac-Toe is a simple game for two players that is

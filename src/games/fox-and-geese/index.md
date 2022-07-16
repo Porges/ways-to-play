@@ -1,6 +1,7 @@
 ---
 title: Fox & Geese
 draft: true
+players: 2
 ---
 
 ## Terminology

@@ -1,6 +1,7 @@
 ---
 title: Assault
 draft: true
+players: 2
 ---
 
 ## Terminology

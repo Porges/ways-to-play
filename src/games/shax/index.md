@@ -1,5 +1,6 @@
 ---
 title: Shax
+players: 2
 ---
 
 {% pronounce word="Shax" file="pronunciation_so_shax.mp3" lang="so" noun=true

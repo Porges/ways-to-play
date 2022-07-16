@@ -1,6 +1,9 @@
 ---
 title: Crown & Anchor
 mainImage: 'CA_StGeorge.jpg'
+players:
+    min: 2
+    max: 100
 hero:
     image: 'CA_StGeorge.jpg'
 ---

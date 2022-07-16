@@ -1,5 +1,8 @@
 ---
 title: Leap-Frog
+players:
+  min: 2
+  max: 5
 ---
 
 <p class="lead">Leap-Frog is a game for two or more players in which the object is to capture

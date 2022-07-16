@@ -2,6 +2,7 @@
 title: Epaminondas
 titleLang: el-Latn
 draft: true
+players: 2
 ---
 
 <span lang="el-Latn" class="noun">Epaminondas</span> 

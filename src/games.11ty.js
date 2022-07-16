@@ -36,7 +36,7 @@ function renderGames() {
             link.setAttribute('lang', g.titleLang);
         }
 
-        link.innerHTML = `${g.title}${g.originalTitle?` (${g.originalTitle})`:''}${g.draft?' <span class="badge bg-warning text-dark">Draft</span>':''}`;
+        link.innerHTML = `${g.title}${g.originalTitle ? ` (${g.originalTitle})` : ''}${g.draft ? ' <span class="badge bg-warning text-dark">Draft</span>' : ''}`;
 
         li.appendChild(link);
         return li;
@@ -44,8 +44,9 @@ function renderGames() {
 }
 
 exports.render = function (data) {
-    const expandPlayers = (players) => {
+    const expandPlayers = (title, players) => {
         if (players === undefined) {
+            console.warn('No players specified for ' + title);
             return [];
         }
 
@@ -71,13 +72,20 @@ exports.render = function (data) {
 
     const expandedGames = data.collections.game.filter(g => !IS_PRODUCTION || !g.data.draft).flatMap(g =>
         [
-            { title: g.data.title, titleLang: g.data.titleLang, url: g.url, draft: g.data.draft, originalTitle: g.data.originalTitle, players: expandPlayers(g.data.players) },
+            {
+                title: g.data.title,
+                titleLang: g.data.titleLang,
+                url: g.url,
+                draft: g.data.draft,
+                originalTitle: g.data.originalTitle,
+                players: expandPlayers(g.data.title, g.data.players)
+            },
             ...(g.data.subgames || []).map(sg => ({
                 title: sg.title,
                 draft: g.data.draft,
                 titleLang: sg.titleLang,
                 originalTitle: sg.originalTitle,
-                players: expandPlayers(sg.players || g.data.players),
+                players: expandPlayers(sg.title, sg.players || g.data.players),
                 url: g.url + "#" + (sg.slug || slug(sg.title)),
                 variant: true,
             }))
@@ -121,11 +129,10 @@ exports.render = function (data) {
         + '</ul>'
         + '<h2>List</h2>'
         + '<ul id="games-list" class="columnar">'
-        + expandedGames.map(post => {
-            //console.log(post);
-            return `<li${(post.variant ? ' class="game-variant"' : '')}>`
-            +`<a href="${post.url}"${this.asAttr("lang", post.titleLang)}>${post.title}${ifSet(post.originalTitle, ` (${post.originalTitle})`)}</a>`
-            +'</li>';
+        + expandedGames.map(g => {
+            return `<li${(g.variant ? ' class="game-variant"' : '')}>`
+                + `<a href="${g.url}"${this.asAttr("lang", g.titleLang)}>${g.title}${ifSet(g.originalTitle, ` (${g.originalTitle})`)}</a>`
+                + '</li>';
         }).join("\n")
         + '</ul>'
         + script;

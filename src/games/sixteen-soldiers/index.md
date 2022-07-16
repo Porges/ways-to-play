@@ -2,6 +2,7 @@
 title: Sixteen Soldiers
 originalTitle: <span lang="ja">十六武蔵</span>
 mainImage: SC86494.jpg
+players: 2
 ---
 
 Sixteen Soldiers (<span lang="ja">十六武蔵</span> <span lang="ja-Latn">jūroku

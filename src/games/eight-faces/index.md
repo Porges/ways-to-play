@@ -1,6 +1,9 @@
 ---
 title: Eight Faces
 mainImage: pek-bin.svg
+players:
+    min: 2
+    max: 100
 originalTitle: <span lang="zh">八面</span>
 ---
 

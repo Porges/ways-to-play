@@ -1,5 +1,8 @@
 ---
 title: Black and White Cocks
+players:
+    min: 2
+    max: 100
 ---
 
 Black and White Cocks{%fn%}an apparently un-Googleable name…{%endfn%} was a

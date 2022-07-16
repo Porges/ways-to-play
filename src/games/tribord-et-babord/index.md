@@ -2,6 +2,7 @@
 title: Tribord et Bâbord
 titleLang: fr
 mainImage: 'TribordBoard.png'
+players: 2
 ---
 
 <p class="lead">The French game of <span class="noun" lang="fr">Tribord et Bâbord</span> (‘Starboard and
