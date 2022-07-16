@@ -3,6 +3,7 @@ title: Yasasukari
 titleLang: ja-Latn
 mainImage: Yasasukari.jpg
 originalTitle: <span lang="ja">八道行成</span>
+players: 2
 ---
 
 <span lang="ja-Latn" class="noun">Yasakukari</span> (<span lang="ja">八道行成</span>,

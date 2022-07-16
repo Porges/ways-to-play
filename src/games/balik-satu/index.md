@@ -1,12 +1,15 @@
 ---
 title: Balik Satu
 titleLang: ms
-players: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+players:
+  min: 2
+  max: 14
 subgames:
 - title: Balik Lima Belas
   titleLang: ms
 - title: Chot
   titleLang: ms
+  players: 4
 - title: Gonggong
   titleLang: jav-Latn
   originalTitle: <span lang="mak">ᨁᨚᨁᨚ</span>
