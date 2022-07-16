@@ -209,7 +209,7 @@ this bowl were then read out.[@ChineseGamblingInSydney]
 {% image src="drawing_the_lottery.jpg" alt="" size="wide" noborder=true
     license="cc0" %}
 
-A depiction of the drawing of tickets, with an inset ticket
+A depiction of the drawing of tickets, with an rather mangled inset representation of a ticket
 (Australia, 1876).[@InAChineseLotteryShop]
 
 {% imageEnd %}
