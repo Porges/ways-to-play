@@ -7,39 +7,14 @@ exports.data = {
     layout: "columned"
 };
 
-function removeParam(param) {
-    const params = new URLSearchParams(window.location.search);
-    params.delete(param);
-    window.history.pushState(null, null, '?' + params.toString());
-}
-
-function genFilterRemover(name, param, existingNode) {
-    const result = document.createElement('li');
-    result.appendChild(document.createTextNode(name + ' '));
-
-    const button = document.createElement('button');
-    button.classList.add('btn', 'btn-outline-danger', 'btn-sm', 'text-danger');
-    button.appendChild(document.createTextNode('✖'))
-    button.onclick = () => {
-        removeParam(param);
-        result.replaceWith(existingNode);
-        renderGames();
-    };
-
-    result.appendChild(button);
-    return result;
-}
-
 function renderGames() {
     let allGames = GAMES;
     const dest = document.getElementById('games-list');
     const params = new URLSearchParams(window.location.search);
 
     const playersS = params.get('players');
-    if (playersS) {
+    if (playersS && playersS !== 'any') {
         const players = parseInt(playersS);
-        const playerFilter = document.getElementById("player-filter");
-        playerFilter.replaceWith(genFilterRemover(`Players: ${players}`, 'players', playerFilter));
         allGames = allGames.filter(g => {
             if (g.players) {
                 return g.players.includes(players);
@@ -112,18 +87,19 @@ exports.render = function (data) {
 
     const script = `<script>
         const GAMES=${JSON.stringify(expandedGames)};
-        ${removeParam}
-        ${genFilterRemover}
         ${renderGames}
         renderGames();
         const playerSelect = document.getElementById('player-select');
         playerSelect.onchange = () => {
-            if (playerSelect.value !== 'any') {
-                const params = new URLSearchParams(window.location.search);
+            const params = new URLSearchParams(window.location.search);
+            const value = playerSelect.value;
+            if (value === 'any') {
+                params.delete('players');
+            } else {
                 params.set('players', playerSelect.value);
-                window.history.pushState(null, null, '?' + params.toString());
-                renderGames();
             }
+            window.history.pushState(null, null, '?' + params.toString());
+            renderGames();
         }
         </script>`;
 
