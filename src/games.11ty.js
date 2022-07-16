@@ -128,7 +128,7 @@ exports.render = function (data) {
         + '</select></li>'
         + '</ul>'
         + '<h2>List</h2>'
-        + '<ul id="games-list" class="columnar">'
+        + '<ul id="games-list" class="columnarr wide">'
         + expandedGames.map(g => {
             return `<li${(g.variant ? ' class="game-variant"' : '')}>`
                 + `<a href="${g.url}"${this.asAttr("lang", g.titleLang)}>${g.title}${ifSet(g.originalTitle, ` (${g.originalTitle})`)}</a>`
