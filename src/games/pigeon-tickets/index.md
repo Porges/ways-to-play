@@ -145,13 +145,13 @@ lang="zh">千字文</span>), and are always printed in a top-down, right-to-left
 order, broken into four-character blocks:
 
 <blockquote lang="zh" class="vertical-rl mx-auto blockquote">
-天地玄黃&#x3000;宇宙洪荒<br/>
+天地玄黄&#x3000;宇宙洪荒<br/>
 囸月盈昃&#x3000;辰宿列張<br/>
-寒來暑往&#x3000;秋收冬藏<br/>
-閏餘成歲&#x3000;律吕調陽<br/>
-雲騰致雨&#x3000;露結為霜<br/>
+寒來暑徃&#x3000;秋收冬藏<br/>
+閠餘成嵗&#x3000;律呂調陽<br/>
+雲騰致雨&#x3000;露結爲霜<br/>
 金生麗水&#x3000;玉出崑岡<br/>
-劍號巨闕&#x3000;珠稱夜光<br/>
+剣號巨闕&#x3000;珠稱夜光<br/>
 果珍李柰&#x3000;菜重芥薑<br/>
 海鹹河淡&#x3000;鱗潛羽翔<br/>
 龍師伙帝&#x3000;鳥官人皇
