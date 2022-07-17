@@ -43,5 +43,8 @@
     "sass": "^1.49.9",
     "serve": "^13.0.2",
     "slug": "^5.3.0"
+  },
+  "dependencies": {
+    "ordinal": "^1.0.3"
   }
 }

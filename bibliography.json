@@ -1118,6 +1118,26 @@
         "publisher-place": "241 Broadway, New York, NY, USA",
         "URL": "https://archive.org/details/beziquetreatiseo00adya"
     },
+    "SpaldingsDominoesAndDice": {
+        "type": "article-journal",
+        "title": "Dominoes and Dice",
+        "author": [
+            {
+                "family": "Cady",
+                "given": "Alice Howard"
+            }
+        ],
+        "issued": {
+            "year": 1895,
+            "month": 10
+        },
+        "container-title": "Spalding’s Home Library",
+        "volume": 1,
+        "issue": 3,
+        "publisher": "The American Sports Publishing Company",
+        "publisher-place": "241 Broadway, New York, NY, USA",
+        "URL": "https://archive.org/details/dominoesdice00cady"
+    },
     "PopesGameOfOmbre": {
         "type": "article-journal",
         "title": "Pope’s Game of Ombre",
@@ -7624,5 +7644,72 @@
         "issued": {
             "year": 1974
         }
+    },
+    "MexicoAroundMe": {
+        "type": "book",
+        "title": "Mexico Around Me",
+        "author": [
+            {
+                "given": "Max",
+                "family": "Miller"
+            }
+        ],
+        "issued": {
+            "year": 1937
+        },
+        "publisher": "Reynald & Hitchcock",
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://books.google.co.nz/books?id=XlUzAQAAIAAJ"
+    },
+    "ScarneOnDice": {
+        "type": "book",
+        "title": "Scarne on Dice",
+        "edition": 8,
+        "author": [
+            {
+                "given": "John",
+                "family": "Scarne"
+            }
+        ],
+        "publisher": "Melvin Powers Wilshire Book Co.",
+        "publisher-place": "Hollywood, CA, USA",
+        "issued": {
+            "year": 1980
+        },
+        "ISBN": "0517541246"
+    },
+    "TheAmericanHoyle15": {
+        "type": "book",
+        "title": "The American Hoyle",
+        "edition": 15,
+        "publisher": "Dick & Fitzgerald",
+        "publisher-place": "New York, NY, USA",
+        "issued": {
+            "year": 1894
+        },
+        "author": [
+            {
+                "family": "Dick",
+                "given": "William Brisbane"
+            }
+        ],
+        "URL": "https://archive.org/details/americanhoyleor00dickgoog"
+    },
+    "TheAmericanHoyle13": {
+        "type": "book",
+        "title": "The American Hoyle",
+        "edition": 13,
+        "publisher": "Dick & Fitzgerald",
+        "publisher-place": "New York, NY, USA",
+        "issued": {
+            "year": 1885
+        },
+        "author": [
+            {
+                "family": "Dick",
+                "given": "William Brisbane"
+            }
+        ],
+        "URL": "https://books.google.co.nz/books?id=cwCDAAAAMAAJ"
     }
 }

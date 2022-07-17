@@ -5,13 +5,15 @@ players:
     max: 100
 ---
 
-<p class="lead">Aces in the Pot is a simple gambling game which requires no skill and two dice.</p>
+<p class="lead">Ace(s) in the Pot is a simple gambling game which requires no skill and two dice.</p>
 
 <!--excerpt-->
 
-The earliest mention I have found of this game is in the 1938 book
-@TheCompleteBookOfGames [p. 351]. Later descriptions of this game[@Bell p. 130]
-all seem to stem from this one source.
+The earliest mention I have found of this game is in the 1885 edition of
+@TheAmericanHoyle13 [p. 467].
+
+<!-- @TheCompleteBookOfGames [p. 351]. Later descriptions of this game[@Bell p. 130]
+all seem to stem from this one source.  -->
 
 ## Play
 

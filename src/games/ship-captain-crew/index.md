@@ -2,10 +2,12 @@
 title: Ship, Captain, and Crew
 subgames:
 - title: Ship, Captain
-draft: true
+players:
+    min: 2
+    max: 100
 ---
 
-<p class="lead">Ship, Captain, and Crew is a luck-based dice game for any number of people.</p>
+<p class="lead">Ship, Captain, and Crew is a simple dice game for any number of people.</p>
 
 <!-- excerpt -->
 
@@ -13,11 +15,16 @@ There are a few similar games that go under the same name, but the main goal is
 always to roll a Ship ({%dice 6%}), Captain ({%dice 5%}), and Crew ({%dice 4%}),
 in that order.
 
-The earliest I have found it reported is the early 1970s; however
-@GamesTheyPlayInSanFrancisco [p. 58] describes it as an “old favorite”. It seems
-to have originated on the West Coast of the USA.{%fn%}See previous book title,
-and @TheGreatGreen [p. 121] says it is a “dice game played in West Coast
-bars”.{%endfn%}
+Sometimes it is called Ship, Captain, Mate, and Crew — where the Mate is the
+{%dice 4%}, and the remaining two dice are the Crew. Other recorded names are
+Mariner, Battleship, or Destroyers.[@ScarneOnDice p. 364] All of these names,
+for whatever reason, are nautical!
+
+The oldest record I have found of the game is from 1937, where it is mentioned
+as being played in Mexico.[@MexicoAroundMe p. 25] It seems to have been popular
+on the West Coast of the USA in the 1970s.{%fn%}See @GamesTheyPlayInSanFrancisco
+[p. 58], and @TheGreatGreen [p. 121] says it is a “dice game played in West
+Coast bars”.{%endfn%}
 
 ## Play
 
@@ -44,9 +51,11 @@ a higher score; the new result of the dice must be kept.
 Once all players have had a turn, the player with the highest score is the
 winner.
 
-## Ship, Captain
+## Variations
 
-This version of the game is possibly older: a player only needs to roll their
+### Ship, Captain
+
+In this version of the game a player only needs to roll their
 Ship ({%dice 6%}) and Captain ({%dice 5%}); the remaining dice are all Crew, and
 the sum of their numbers is the player’s
 score.[@TenGamesForCruisingFamilies][@TheApresSkiBook p. 101–2]

@@ -1,5 +1,6 @@
 const { renderExplicitDate, formatNumberString, asAttr, isolate, ifSet } = require('./helpers');
 
+const ordinal = require('ordinal');
 const ISBN = require('isbn3');
 
 /**
@@ -81,9 +82,14 @@ function renderTitle(reference) {
             ? `<a itemprop="url" href="${reference.URL}">${reference.title}</a>`
             : `<span>${reference.title}</span>`;
 
-    return (reference.type === 'book' || reference.type === 'thesis')
-        ? `<cite itemprop="name"${asAttr('lang', lang)}>${isolate(linked)}</cite>${ifSet(reference.volume, ` (volume ${formatNumberString(reference.volume)})`)}. `
-        : `‘<span itemprop="name headline"${asAttr('lang', lang)}>${isolate(linked)}</span>’. `;
+    if (reference.type === 'book' || reference.type === 'thesis') {
+        return `<cite itemprop="name"${asAttr('lang', lang)}>${isolate(linked)}</cite>`
+            + ifSet(reference.edition, () => ` (${ordinal(reference.edition)} edition)`)
+            + ifSet(reference.volume, () => ` (volume ${formatNumberString(reference.volume)})`)
+            + `. `;
+    } else {
+        return `‘<span itemprop="name headline"${asAttr('lang', lang)}>${isolate(linked)}</span>’. `;
+    }
 }
 
 /**
@@ -143,9 +149,9 @@ const renderPeople = (as, reverseFirst, period, itemprop) => {
         + ((reverseFirst && ix === 0)
             ? ifSet(a.family, () => `${isolate(renderFamily(a, ix))}, `) + isolate(renderGiven(a, ix))
             : isolate(
-                reverseName(a) 
-                ? `${ifSet(a.family, () => `${renderFamily(a, ix)}`)}${renderGiven(a, ix)}`
-                : `${renderGiven(a, ix)}${ifSet(a.family, () => ` ${renderFamily(a, ix)}`)}`))
+                reverseName(a)
+                    ? `${ifSet(a.family, () => `${renderFamily(a, ix)}`)}${renderGiven(a, ix)}`
+                    : `${renderGiven(a, ix)}${ifSet(a.family, () => ` ${renderFamily(a, ix)}`)}`))
         + `</span>`
         + altName(a))).join('');
 };
@@ -214,9 +220,9 @@ function toIsoDate(ymd) {
  * @returns {string}
  */
 const renderPublisher = (reference) => {
-    const publisher = 
+    const publisher =
         ifSet(reference.publisher,
-            () => `<span${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span>${reference['publisher-place'] ? ': ' : (reference.publisher.endsWith('.')?' ':'. ')}`)
+            () => `<span${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span>${reference['publisher-place'] ? ': ' : (reference.publisher.endsWith('.') ? ' ' : '. ')}`)
         + ifSet(reference['publisher-place'],
             () => `${reference['publisher-place']}. `);
 
