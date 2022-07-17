@@ -6,6 +6,9 @@ players:
     max: 100
 hero:
     image: 'CA_StGeorge.jpg'
+subgames:
+- title: Grasping Eight
+  originalTitle: <span lang="yue">八㪥</span>
 ---
 
 Crown & Anchor is a dice game that is probably most famous as being popular with
@@ -350,6 +353,18 @@ An equivalent (perhaps older) game can be played with three standard six-sided
 dice. It does not need to be played with a layout board but it can be. In this
 form it can be called <span lang="nan">么二三</span> <span lang="nan-Latn">io jī
 sam</span> (‘ace, two, three’, romanized “Yew Yee Sam” in older texts).[@GamblingGamesOfMalaya p. 95]
+
+#### ‘Grasping Eight’
+
+Culin[@ChineseGames p. 495–6] describes a very similar game that he calls
+“Grasping Eight” (<span lang="yue">八㪥</span>, Cantonese: <span
+lang="yue-Latn">baat3 zaa1</span>),{%fn%}Culin transcribes this as <span
+lang="yue-Latn">pát chá</span>.{%endfn%} which uses eight dice.
+
+The staking board contains the six squares with the dice symbols {%cdice
+123456%}, and players place their stakes on the squares. The eight dice are
+rolled. If at least three match a number, the players who staked on that number
+win 8×; if at least six match, they win 16×. All other stakes are lost.
 
 ### Indochina
 
