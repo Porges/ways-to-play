@@ -7560,5 +7560,69 @@
                 "given": "Darwin A."
             }
         ]
+    },
+    "GamesTheyPlayInSanFrancisco": {
+        "type": "book",
+        "title": "Games They Play in San Francisco",
+        "URL": "https://archive.org/details/gamestheyplayins00jest",
+        "issued": {
+            "year": 1971
+        },
+        "author": [
+            {
+                "family": "Smith",
+                "given": "Jester"
+            }
+        ],
+        "publisher-place": "San Francisco, CA, USA"
+    },
+    "TenGamesForCruisingFamilies": {
+        "type": "article-magazine",
+        "title": "Ten Games for Cruising Families",
+        "URL": "https://archive.org/details/sim_motor-boating_1971-12_128_6/page/102",
+        "author": [
+            {
+                "given": "Eileen Holm",
+                "family": "Matthew"
+            }
+        ],
+        "issued": {
+            "month": 12,
+            "year": 1971
+        },
+        "container-title": "Motor Boating and Sailing",
+        "page": "102–4"
+    },
+    "TheApresSkiBook": {
+        "type": "book",
+        "title": "The Apres Ski Book",
+        "URL": "https://archive.org/details/apresskibookfung00matt",
+        "issued": {
+            "year": 1970
+        },
+        "author": [
+            {
+                "given": "Eileen Holm",
+                "family": "Matthew"
+            }
+        ],
+        "publisher": "A. S. Barnes and Co.",
+        "publisher-place": "Cranbury, NJ, USA"
+    },
+    "TheGreatGreen": {
+        "type": "book",
+        "URL": "https://archive.org/details/greatgreenloosem00kent",
+        "title": "The Great Green",
+        "author": [
+            {
+                "family": "Kentfield",
+                "given": "Calvin"
+            }
+        ],
+        "publisher": "The Dial Press",
+        "publisher-place": "New York, USA",
+        "issued": {
+            "year": 1974
+        }
     }
 }
