@@ -7711,5 +7711,39 @@
             }
         ],
         "URL": "https://books.google.co.nz/books?id=cwCDAAAAMAAJ"
+    },
+    "TheBelangkasGame": {
+        "type": "webpage",
+        "title": "The Belangkas Game",
+        "URL": "http://thyeoh07.blogspot.com/2009/02/belangkas-game.html",
+        "issued": {
+            "year": 2009,
+            "month": 2,
+            "day": 7
+        },
+        "author": [
+            {
+                "given": "TH",
+                "family": "Yeoh"
+            }
+        ],
+        "container-title": "What Goes Under the Sun"
+    },
+    "KingCrab": {
+        "type": "webpage",
+        "title": "King Crab",
+        "URL": "https://wizardofodds.com/games/king-crab/",
+        "container-title": "The Wizard of Odds",
+        "issued": {
+            "year": 2017,
+            "month": 3,
+            "day": 2
+        },
+        "author": [
+            {
+                "given": "Michael",
+                "family": "Shackleford"
+            }
+        ]
     }
 }
