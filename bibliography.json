@@ -7745,5 +7745,131 @@
                 "family": "Shackleford"
             }
         ]
+    },
+    "PakAPeuAtLawrence": {
+        "type": "article-newspaper",
+        "title": "“Pak-A-Peu” at Lawrence",
+        "container-title": "The Evening Star",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/ESD18860511.2.19",
+        "page": 3,
+        "issued": {
+            "year": 1886,
+            "month": 5,
+            "day": 11
+        },
+        "issue": 6899,
+        "publisher-place": "Dunedin, New Zealand"
+    },
+    "TheChineseInAustraliaBulletin": {
+        "type": "article-magazine",
+        "title": "The Chinese in Australia: Their Vices and Their Victims",
+        "URL": "http://nla.gov.au/nla.obj-733827687",
+        "container-title": "The Bulletin",
+        "issued": {
+            "year": 1886,
+            "month": 8,
+            "day": 21
+        },
+        "volume": 4,
+        "issue": 171,
+        "page": 11,
+        "warnings": "This is a very racist article accompanied by very racist images in a very racist magazine."
+    },
+    "RacismRife": {
+        "type": "article-newspaper",
+        "title": "Racism rife aboard the Shanghai Trader",
+        "issued": {
+            "year": 1986,
+            "month": 8,
+            "day": 27
+        },
+        "page": "17",
+        "container-title": "The Canberra Times",
+        "publisher-place": "Canberra, ACT, Australia",
+        "URL": "https://trove.nla.gov.au/newspaper/article/119471302",
+        "volume": 60,
+        "issue": 18592
+    },
+    "HeatherAndFern": {
+        "type": "book",
+        "title": "Heather and Fern: songs of Scotland and Maoriland",
+        "issued": {
+            "year": 1902
+        },
+        "author": [
+            {
+                "family": "Kelly",
+                "given": "John Liddell"
+            }
+        ],
+        "publisher": "New Zealand Times Company",
+        "publisher-place": "Wellington, New Zealand",
+        "URL": "https://archive.org/details/heatherfernsongs00kell"
+    },
+    "TheBantuInTheCity": {
+        "type": "book",
+        "title": "The Bantu In The City",
+        "author": [
+            {
+                "given": "Ray E.",
+                "family": "Phillips"
+            }
+        ],
+        "issued": {
+            "year": 1977
+        },
+        "original-date": {
+            "year": 1938
+        },
+        "publisher": "Lovedale Press",
+        "publisher-place": "Lovedale, South Africa",
+        "URL": "https://archive.org/details/bantuincitystudy0000phil"
+    },
+    "LimehouseNights": {
+        "type": "book",
+        "title": "Limehouse Nights",
+        "author": [
+            {
+                "family": "Burke",
+                "given": "Thomas"
+            }
+        ],
+        "issued": {
+            "year": 1917
+        },
+        "publisher": "Robert M. McBride & Company",
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://archive.org/details/limehousenights0000burk"
+    },
+    "NYTimes18870127": {
+        "type": "article-newspaper",
+        "container-title": "The New York Times",
+        "issued": {
+            "year": 1887,
+            "month": 1,
+            "day": 27
+        },
+        "URL": "https://archive.org/details/sim_new-york-times_1887-01-27_37_11360",
+        "page": 3,
+        "title": "Chinese Games of Chance",
+        "volume": "37",
+        "issue": 11360
+    },
+    "AustralianWords": {
+        "type": "book",
+        "title": "Australian Words and Their Origins",
+        "URL": "https://archive.org/details/australianwordst0000unse",
+        "editor": [
+            {
+                "given": "Joan",
+                "family": "Hughes"
+            }
+        ],
+        "publisher": "Oxford University Press",
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "issued": {
+            "year": 1989
+        },
+        "ISBN": "019553087X"
     }
 }

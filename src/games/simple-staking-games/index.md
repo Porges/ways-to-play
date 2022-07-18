@@ -64,9 +64,10 @@ shows win 4× their stake. All other stakes are lost.
 
 ## Belankai/Belanki/Belankas
 
-This is a game that is played in Malaysia.[@GamblingGamesOfMalaya p. 127] In
-@GamblingGamesOfMalaya [p. 127] the name <span lang="zh">勿人介</span> is also
-given, although without explanation.
+This is a game that is played in Malaysia,[@GamblingGamesOfMalaya p. 127] and
+the name means “king crab”. In @GamblingGamesOfMalaya [p. 127] the name <span
+lang="zh">勿人介</span> is also given, although without explanation. In Vietnam
+it is called <span lang="vi" class="noun">Cua Hoàng Đế</span> (‘emperor crab’).
 
 The game is still played currently, and has many online
 implementations.{%fn%}See also

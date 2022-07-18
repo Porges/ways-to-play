@@ -6,39 +6,35 @@ originalTitle: <span lang="zh-Hant">白鴿票</span>
 
 Pigeon Tickets (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
 </span> Cantonese: {%pronounce lang="yue-Latn" word="baak6 gaap3 piu3"
-pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" %}{%fn%}Older
+pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" %}{%fn%}Other
 romanizations include <span lang="yue-Latn">pak kap
 piew</span>[@GamblingGamesOfMalaya p. 48], <span lang="yue-Latn">pák kòp
 piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn">baahk gáap piu</span>,
-or <span lang="yue-Latn">paâk káap p'iu</span>. While <span lang="zh-Hant">白鴿
-</span> is sometimes translated as “white pigeon” from Mandarin, it is the
-standard Cantonese name for pigeon, and this further proves the Cantonese origin
-of the game (see e.g. @SparrowAndPigeon, although I find some of his other
-(original) conclusions to be dubious).{%endfn%}) is a gambling game which
-originated in <span class="noun" lang="zh-Latn">Guangdong</span> during the late
-Qing dynasty, and which in the 19th and 20th centuries was spread throughout
-Oceania-bordering countries by Chinese emigrants. 
+<span lang="yue-Latn">paâk káap p'iu</span>, or <span lang="yue-Latn">pai ko
+p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as
+“white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and
+this further proves the Cantonese origin of the game (see e.g.
+@SparrowAndPigeon, although I find some of his other (original) conclusions to
+be dubious).{%endfn%}) is a gambling game which originated in <span class="noun"
+lang="zh-Latn">Guangdong</span> during the late Qing dynasty, and which in the
+19th and 20th centuries was spread throughout Oceania-bordering countries by
+Chinese emigrants. 
 
 The game was eventually modified by Americans and turned into the modern game of
 Keno, which is now played in casinos around the world.
 
 <!-- excerpt -->
 
-{%aside%}
-The @GuinnessMusicFacts [p. 266] states that the “first English
-recording of a dance band with vocal refrain” was of a song entitled ‘Puck-a-Pu’, sung by
-Ernest Pike with the Mayfair Dance Orchestra, on the 9th of November 1920. The recording can be
-heard
-[here](http://www.mgthomas.co.uk/Soundfiles/Ragtime/Mayfair%20Dance%20Orch%20-%20Puck-A-Pu.mp3). 
-Note that it can best be described as “musical Chinoiserie”, and the lyrics are fairly racist.
-{%endaside%}
-
 In European sources it is often referred to as simply “the Chinese lottery”. The
-transliteration of the game is usually given as “pakapoo”/“pak-a-poo” or
-“pakapu”/“pak-a(h)-pu”. Other variants are “pak-a-peu”, “puck-a-pu”, or
-“pac-a-poo”. In Macau it is given with the Portugeuse romanization of “pacapio”,
-which remains standard in current usage. In Hawaii it was referred to as
-“pakapio”.[@Pakapio]
+transliteration of the game is usually given as “pak-a-poo” (most common in New
+Zealand) or “pak-a(h)-pu” (most common in Australia). In London (particularly
+centered around the Chinese community in Pennyfields, Poplar) it was referred to
+as “puk-a-pu” or “puk-a-poo”, and in South Africa “pa-ka-pu”.[@TheBantuInTheCity
+p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”,
+“pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portugeuse
+romanization of “pacapio”, which remains standard in current usage. In the USA
+it became at first “boc hop bu”[@NYTimes18870127] before picking up one of the
+previously-mentioned names, but in Hawaii it was referred to as “pakapio”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the
@@ -234,13 +230,29 @@ Mentions of “Chinese lotteries” begin to appear in Californian newspapers fr
 the 1860s.
 
 According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 there were four
-banks operating in Philadelphia{%fn%}These banks had the names
-“Extensive Increase” (<span lang="zh">[?]大</span> <span lang="zh-Latn">? daai6</span>), 
-“Heavenly Harmony” (<span lang="zh">天和</span> <span lang="zh-Latn">tin1 wo4</span>), 
-“Forunate Increase” (<span lang="zh">福大</span> <span lang="zh-Latn">fuk1 daai6</span>), and
-“Encouraging Fountain” (<span lang="zh">[?]泉</span> <span lang="zh-Latn">? cyun4</span>).{%endfn%} and five in New York,
-along with others in Boston and Chicago. By 1892 there were ten Chinese lottery
-banks operating in New York.[@FanTanGamesToReopen]
+banks operating in Philadelphia{%fn%}He provides the names “Extensive Increase”
+(<span lang="yue">廣大</span> <span lang="yue-Latn">gwong2 daai6</span>),
+“Heavenly Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn">tin1
+wo4</span>), “Fortunate Increase” (<span lang="yue">福大</span> <span
+lang="yue-Latn">fuk1 daai6</span>), and “Encouraging Fountain” (<span
+lang="yue">釗泉</span> <span lang="yue-Latn">ciu1 cyun4</span>).{%endfn%} and
+five in New York, along with others in Boston and Chicago. 
+
+
+[@FoolsOfFortuneOrGamblingAndGamblers p. 450] states that there were ten Chinese
+lottery banks operating in San Francisco in 1890, and by 1892 there were also
+ten operating in New York.[@FanTanGamesToReopen]
+
+<!--
+
+FoolsOfFortuneOrGamblingAndGamblers
+ticket = 10¢
+
+5 = 20¢
+6 = $3.25
+10 = $297
+
+-->
 
 {% image src="ark__13030_hb0q2nb02d_cropped.jpg" alt="" 
     license="cc-by"
@@ -305,6 +317,21 @@ discussed when a case was brought against the “No. 2” or “Shing Lee” lot
 
 -->
 
+<!--
+
+1885
+https://nla.gov.au/nla.obj-239801104/view?sectionId=nla.obj-250218546&searchTerm=chinese+lottery&partId=nla.obj-239819894#page/n21/mode/1up/search/chinese+lottery
+ticket = 6d
+
+5 = 1s 2d
+6 = 9s
+7 = £3 18s 6d
+8 = £20 15s.
+9 = £36
+10 = £70
+
+-->
+
 That same year, the “Chinese Pak-Cup-Pew Trading Company” made a donation of £100
 towards the hospital in Melbourne.[@PakCupPewHospital] 
 
@@ -323,6 +350,19 @@ noted in the papers:
 > and in the streets, betting goes on apace, and oftener than not the worldly
 > prosperity of a man’s family hangs upon the issue of a wager.[@HumiliatingAnomalies]
 
+However, not everyone agreed. <cite>The Bulletin</cite>{%fn%}<cite>The
+Bulletin</cite> was an astoundingly racist publication during this time period,
+whose motto would soon be “Australia for the White Man”.{%endfn%} claimed the
+opposite to be true:
+
+> If an Australian started a fan-tan hell, Darlinghurst{%fn%}i.e. [Darlinghurst
+> Goal](https://en.wikipedia.org/wiki/Darlinghurst_Gaol){%endfn%} would be his home, and
+> stone-breaking his employment, within a month; and indulgence in pak-ah-pu
+> lottery would similarly mean penal seclusion for a lengthy period. But no such
+> just retribution overtakes the Mongolian.[@TheChineseInAustraliaBulletin]
+
+This article was accompanied by what has been called the “most scandalous and
+racist cartoon ever to grace the Australian media”.[@RacismRife]
 
 
 ### In New Zealand
@@ -340,15 +380,6 @@ zones.
 As in Australia, racist depictions of Chinese gambling were common. And yet,
 while newspaper reporters decried {TODO}, others came to the defence of the game.
 
-{% image src="nlnzimage.jpg" alt="" identifier="PAColl-7796-35"
-    orgName="Alexander Turnbull Library"
-    license="with-permission"
-    originalUrl="https://natlib.govt.nz/records/22706477" %}
-
-Pakapoo tickets discovered during the demolition of a house on Wellington’s
-Haining Street, May 1960.
-
-{%imageEnd%}
 
 #### Legality and Hypocrisy
 
@@ -404,6 +435,19 @@ At the time, Wellington’s <cite>Evening Post</cite> opined that:
 > … it seems the essence of petty spite to start a crusade against the
 > cottager’s Christmas goose or the Chinaman’s pakapoo.[@ThePolicemanAndTheGeese]
 
+[John Liddell Kelly’s](https://en.wikipedia.org/wiki/John_Liddell_Kelly)
+bitingly sarcastic poem “In China” (1901) contains the following
+verse:[@HeatherAndFern p. 56]
+
+> The practice of gambling’s a terrible vice<br/>
+> &emsp;&emsp;’Mong the sin-sodden people of China!<br/>
+> Fan-tan, pak-a-pu, and a species of dice<br/>
+> &emsp;&emsp;Are all known to the gamblers of China.<br/>
+> True, we bet in our streets, and play cards in our pubs;<br/>
+> We have poker and nap in our big, toney clubs;<br/>
+> But we cannot attend to our own dirty dubs<br/>
+> &emsp;&emsp;While we’re preaching reform—out in China.
+
 The decision of this case, wherein the Chief Justice mentioned — [<span
 lang="la">obiter
 dictum</span>](https://en.wikipedia.org/wiki/Obiter_dictum) — that pakapoo was
@@ -412,6 +456,16 @@ to have an effect on other cases. In 1903 a case in the Magistrate’s Court was
 dismissed on the basis that pakapoo was a game of chance, and not a
 lottery;[@PakAPooNotALottery] taken at face value, the Act stated that games of
 chance were only illegal if played in public places.
+
+{% image src="southern_bank.jpg" alt="Two Chinese men sitting at a counter in fashionable European suits. The name ‘Southern Bank’ and a rough sketch of a British flag are painted on the door. There are pak-a-poo tickets on the counter."
+    orgName="Alexander Turnbull Library"
+    identifier="PUBL-0090-001"
+    license="with-permission"
+    originalUrl="https://natlib.govt.nz/records/23132885" %}
+
+Two men in the “Southern Bank” on Walker Street in Dunedin, 1904.
+
+{% imageEnd %}
 
 With the game seeming to be on the verge of becoming legal, in 1904, the “Gaming
 and Lotteries Act Amendment Bill” was introduced to parliament by [James
@@ -507,6 +561,49 @@ upon trade with China:
 > our products. It is well known that the Chinese are among the most law-abiding
 > people in the world, and it should be remembered that we forced opium on them
 > because of the profit in it. It is utter hypocrisy.” [@HarryingOfChinese]
+
+{% image src="nlnzimage.jpg" alt="" identifier="PAColl-7796-35"
+    orgName="Alexander Turnbull Library"
+    license="with-permission"
+    originalUrl="https://natlib.govt.nz/records/22706477" %}
+
+Pakapoo tickets discovered during the demolition of a house on Wellington’s
+Haining Street, May 1960.
+
+{%imageEnd%}
+
+### In the United Kingdom
+
+
+{%aside%}
+The @GuinnessMusicFacts [p. 266] states that the “first English
+recording of a dance band with vocal refrain” was of a song entitled ‘Puck-a-Pu’, sung by
+Ernest Pike with the Mayfair Dance Orchestra, on the 9th of November 1920. The recording can be
+heard
+[here](http://www.mgthomas.co.uk/Soundfiles/Ragtime/Mayfair%20Dance%20Orch%20-%20Puck-A-Pu.mp3). 
+Note that it can best be described as “musical Chinoiserie”, and the lyrics are fairly racist.
+{%endaside%}
+
+Pak-a-pu seems to have reached London later than the other locations discussed
+here; newspaper mentions of the game don’t begin to appear until the early
+1920s. Although Fan-Tan is in several stories in Thomas Burke’s 1917 collection
+@LimehouseNights — set in London’s main Chinese community — Pak-a-pu is not, but
+it does make an appearance in his 1938 short story “The Yellow Box”.
+
+### In South Africa
+
+According to @TheBantuInTheCity [p. 219], there were four syndicates operating
+throughout the Johannesburg area in 1935. 
+
+One 6d ticket would pay:
+
+* 5 numbers: 6d
+* 6 numbers: 18s 6d
+* 7 numbers: £3 15s
+* 8 numbers: £18 10s
+* 9 numbers: £36 
+* 10 numbers: £85 
+
 
 ## Globalization, or Kenoization
 
