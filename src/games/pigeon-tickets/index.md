@@ -25,7 +25,7 @@ Keno, which is now played in casinos around the world.
 
 <!-- excerpt -->
 
-In European sources it is often referred to as simply “the Chinese lottery”. The
+In European sources, it is often referred to as simply “the Chinese lottery”. The
 transliteration of the game is usually given as “pak-a-poo” (most common in New
 Zealand) or “pak-a(h)-pu” (most common in Australia). In London (particularly
 centered around the Chinese community in Pennyfields, Poplar) it was referred to
@@ -34,7 +34,7 @@ p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”,
 “pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portugeuse
 romanization of “pacapio”, which remains standard in current usage. In the USA
 it became at first “boc hop bu”[@NYTimes18870127] before picking up one of the
-previously-mentioned names, but in Hawaii it was referred to as “pakapio”.[@Pakapio]
+aforementioned names, but in Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the
@@ -54,9 +54,9 @@ tickets are selected to be the winner(s).
 According to some Chinese dictionaries, the game was a derivative of
 pigeon-racing bets. The story goes that the characters were originally used to
 label pigeons, and players would select which pigeons to bet upon based on the
-characters assigned to those pigeons. Eventually the pigeons were dropped
-entirely and the characters were drawn at random. However, there is no record of
-pigeon races and betting being performed in this manner.[@SparrowAndPigeon]
+characters assigned to those pigeons, and eventually, the pigeons were dropped
+entirely, with the characters being drawn at random. However, there is no record
+of pigeon races and betting being performed in this manner.[@SparrowAndPigeon]
 
 ## Known history
 
@@ -155,18 +155,23 @@ order, broken into four-character blocks:
 
 A striking thing about this layout is just how consistent it was across all
 countries where the game was played. A ticket used in Nevada is almost identical
-to one used in Victoria (Australia) or Otago (New Zealand). I believe that the
-tickets were printed in China and shipped to other countries,{%fn%}See also
-[this
+to one used in Victoria (Australia) or Otago (New Zealand). Tickets were printed
+locally,{%fn%}The National Library of New Zealand has [at least 10 pakapoo
+printing blocks](https://tiaki.natlib.govt.nz/#details=ecatalogue.470454), and
+another photo [documents the movement of a printing
+press](https://tiaki.natlib.govt.nz/#details=ecatalogue.949016) that was
+originally used by one Joe Quinn to print pakapoo tickets in
+Wellington.{%endfn%} as well as exported from China to other
+countries.{%fn%}See, for example, [this
 ticket](https://open.library.ubc.ca/collections/chinesecanadianstories/gri/items/1.0367497)
 which is explicitly printed “Made in China”. [Other
 tickets](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?docId=hb3j49n63p&order=7&brand=oac4&layout=printable-details)
 show evidence that the bank name was stamped onto the ticket at some stage later
-than the character grid was printed.{%endfn%} as it must have been hard to
-obtain a printing press or other equipment to produce the tickets in the
-countries where the game was being played. Tickets often bore the phrase <span
-lang="zh">照來原底給</span> “printed according to the original”, so fidelity to
-the ideal form of the ticket was apparently sought-after.
+than the character grid was printed. Stewart Culin also describes how tickets
+were shipped from China in “large quantities”.[@ChineseInAmerica p. 7]{%endfn%}
+Tickets often bore the phrase <span lang="zh">照來原底給</span> “printed
+according to the original”, so fidelity to the ideal form of the ticket was
+apparently sought-after.
 
 <!--
 Guidebooks such as <cite lang="zh">票圖撮要</cite> (<cite>Essentials of the
@@ -195,20 +200,33 @@ newspaper report of a court case from 1886 gives the following method:{%fn%}The
 same method is described in Melbourne in 1876.[@InAChineseLotteryShop p.
 7]{%endfn%} 80 pieces of paper with one character each were rolled up and then
 mixed in a jar. From this jar, the pieces of paper were divided into four bowls,
-20 tickets per bowl. Next, four pieces of wood engraved with a character each
+giving 20 tickets per bowl. Next, four pieces of wood engraved with a character each
 and then wrapped in paper (to hide the characters) were randomly placed, one in
 each bowl. Four pieces of paper with matching characters were rolled up and
 presented to an onlooker to select one, and the wooden pieces were unwrapped to
 reveal their characters and find the matching bowl. The 20 winning numbers from
 this bowl were then read out.[@ChineseGamblingInSydney]
 
-{% image src="drawing_the_lottery.jpg" alt="" size="wide" noborder=true
+The area where the tickets were to be drawn, and where the bank’s capital was
+kept, was usually separated from onlookers by wooden bars.
+
+<div class="multi extra-wide">
+
+{% image src="drawing_tickets.jpg" alt="" noborder=true license="cc0" %}
+
+Drawing of tickets (Australia, 1873).[@DrawingTheNumbersForTheBankTicket]
+
+{% imageEnd %}
+
+{% image src="drawing_the_lottery.jpg" alt="" noborder=true
     license="cc0" %}
 
-A depiction of the drawing of tickets, with an rather mangled inset representation of a ticket
+Drawing of tickets, with a rather mangled representation of a ticket
 (Australia, 1876).[@InAChineseLotteryShop]
 
 {% imageEnd %}
+
+</div>
 
 ## Spread to other countries
 
@@ -216,32 +234,31 @@ A depiction of the drawing of tickets, with an rather mangled inset representati
 Countries where the game was played in the past (before becoming Keno); locations with particular reports highlighted.
 {% imageEnd %}
 
-The game travelled everywhere that Chinese people migrated to. In particular it
-seems to have been popular in places with gold-fields where Chinese men came to
+The game traveled everywhere that Chinese people migrated to. In particular, it
+seems to have been popular in places with goldfields where Chinese men came to
 work in the late 19th century: San Francisco in the USA, British Columbia in
 Canada, Victoria in Australia, and New Zealand.
 
 ### In the United States
 
 According to @EncyclopediaOfKeno, the game was introduced to the Western United
-States in the mid-19th century, and reached the Eastern cities by 1870. 
+States in the mid-19th century, and had reached the Eastern cities by 1870. 
 
 Mentions of “Chinese lotteries” begin to appear in Californian newspapers from
 the 1860s.
 
-According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 there were four
-banks operating in Philadelphia{%fn%}He provides the names “Extensive Increase”
-(<span lang="yue">廣大</span> <span lang="yue-Latn">gwong2 daai6</span>),
-“Heavenly Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn">tin1
-wo4</span>), “Fortunate Increase” (<span lang="yue">福大</span> <span
-lang="yue-Latn">fuk1 daai6</span>), and “Encouraging Fountain” (<span
-lang="yue">釗泉</span> <span lang="yue-Latn">ciu1 cyun4</span>).{%endfn%} and
-five in New York, along with others in Boston and Chicago. 
+According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 four banks were
+operating in Philadelphia{%fn%}He provides the names “Extensive Increase” (<span
+lang="yue">廣大</span> <span lang="yue-Latn">gwong2 daai6</span>), “Heavenly
+Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn">tin1 wo4</span>),
+“Fortunate Increase” (<span lang="yue">福大</span> <span lang="yue-Latn">fuk1
+daai6</span>), and “Encouraging Fountain” (<span lang="yue">釗泉</span> <span
+lang="yue-Latn">ciu1 cyun4</span>).{%endfn%} and five in New York, along with
+others in Boston and Chicago. 
 
-
-[@FoolsOfFortuneOrGamblingAndGamblers p. 450] states that there were ten Chinese
-lottery banks operating in San Francisco in 1890, and by 1892 there were also
-ten operating in New York.[@FanTanGamesToReopen]
+There were ten Chinese lottery banks operating in San Francisco in
+1890,[@FoolsOfFortuneOrGamblingAndGamblers p. 450] and by 1892 the same number
+operating in New York.[@FanTanGamesToReopen]
 
 <!--
 
@@ -302,10 +319,22 @@ The first explicit mention of the game under the name “pak-a-pu” is in 1873,
 when a case was brought against the proprietors of the Heng Hi store on Little
 Bourke Street in Melbourne for running a pak-a-pu
 bank.[@TheChineseGamblingHouses] The bank was known as the “No. 6” or “You Lee”
-lottery. Picking all ten numbers on a sixpenny ticket would return £75. It seems
-that £300 was the standard capital for banks at this time, as the same number is
-discussed when a case was brought against the “No. 2” or “Shing Lee” lottery in
-1874.[@TheChineseLotteryCases]
+lottery. Picking all ten numbers on a sixpenny ticket would return £75. A
+similar case was brought against the “No. 2” or “Shing Lee” lottery in
+1874.[@TheChineseLotteryCases] Both banks were reported to carry a capital of
+£300, which is also reported elsewhere as the standard amount.
+
+<!-- 
+
+1873 https://trove.nla.gov.au/newspaper/article/60447577/5734094
+5 = 1s 2d
+6 = 9s
+7 = £3 15s
+8 = £21
+9 = £42
+10 = £71
+
+-->
 
 <!--
 1876
@@ -351,7 +380,7 @@ noted in the papers:
 > prosperity of a man’s family hangs upon the issue of a wager.[@HumiliatingAnomalies]
 
 However, not everyone agreed. <cite>The Bulletin</cite>{%fn%}<cite>The
-Bulletin</cite> was an astoundingly racist publication during this time period,
+Bulletin</cite> was an astoundingly racist publication during this period,
 whose motto would soon be “Australia for the White Man”.{%endfn%} claimed the
 opposite to be true:
 
@@ -452,8 +481,8 @@ The decision of this case, wherein the Chief Justice mentioned — [<span
 lang="la">obiter
 dictum</span>](https://en.wikipedia.org/wiki/Obiter_dictum) — that pakapoo was
 defined by the Act as a “game of chance” and not a lottery,[@JoeQuickVCox] was
-to have an effect on other cases. In 1903 a case in the Magistrate’s Court was
-dismissed on the basis that pakapoo was a game of chance, and not a
+to have a lasting effect on other cases. In 1903 a case in the Magistrate’s
+Court was dismissed on the basis that pakapoo was a game of chance, and not a
 lottery;[@PakAPooNotALottery] taken at face value, the Act stated that games of
 chance were only illegal if played in public places.
 
@@ -520,7 +549,7 @@ the amendment was never passed.
     orgName="Papers Past"
     originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1904/08/27/5"
     license="cc0" %}
-This 1904 cartoon from <cite>The Free Lance</cite> protests against the inconsistant
+This 1904 cartoon from <cite>The Free Lance</cite> protests against the inconsistent
 application of gambling laws, whilst still portraying a Chinese man in a racist manner.
 {%imageEnd%}
 
@@ -585,14 +614,17 @@ Note that it can best be described as “musical Chinoiserie”, and the lyrics 
 {%endaside%}
 
 Pak-a-pu seems to have reached London later than the other locations discussed
-here; newspaper mentions of the game don’t begin to appear until the early
-1920s. Although Fan-Tan is in several stories in Thomas Burke’s 1917 collection
-@LimehouseNights — set in London’s main Chinese community — Pak-a-pu is not, but
-it does make an appearance in his 1938 short story “The Yellow Box”.
+here; it doesn’t begin to appear in the newspaper until the early 1920s. Even as
+late as 1924 it is described as a “new gambling game”.[@NewGamblingGame1924]
+
+Another example: although Fan-Tan is in several stories in Thomas Burke’s 1917
+collection @LimehouseNights — set in Limehouse, London’s main Chinese
+community at the time — Pak-a-pu is not, but it does make an appearance in his
+1938 short story “The Yellow Box”.
 
 ### In South Africa
 
-According to @TheBantuInTheCity [p. 219], there were four syndicates operating
+According to @TheBantuInTheCity [p. 219], four syndicates were operating
 throughout the Johannesburg area in 1935. 
 
 One 6d ticket would pay:

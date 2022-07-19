@@ -29,7 +29,7 @@ competitions in which various objects were compared as to their qualities or
 unique attributes:{%fn%}Although the same terminology of <span
 lang="ja-Latn">awase</span> was also used for sports such as
 cock-fighting.[@WorldOfTheShiningPrince p. 165]{%endfn%} objects that were
-judged in these competitions included artifacts such as fans or
+judged in these competitions included artefacts such as fans or
 paintings;[@BrocadeByNight p. 242] flowers and plants (chrysanthemums, iris
 roots,[@WorldOfTheShiningPrince p. 163] wild pinks); animals (insects,
 song&shy;birds[@WorldOfTheShiningPrince p. 163]); incense;
@@ -37,7 +37,7 @@ tea[@AnIntroductionToJapaneseTeaRitual p. 26]; or — what we are most inter
 in here — shells.
 
 The competitions were generally organized between two teams, named Left (who
-began the game, and usually had higher-ranking members){%fn%}In Japan, the
+started the game, and usually had higher-ranking members){%fn%}In Japan, the
 left-hand side was traditionally considered the dominant or “masculine” side
 (see the [naming of shells below](#kai-awase-to-kai-oi)), the
 opposite of European tradition. In the <span class="noun" lang="ja-Latn">Heian</span> period,
@@ -47,7 +47,7 @@ consisted of a series of rounds in which each team would present one item at a
 time, often with accompanying poem. Another format involved the presentation of
 a selection of objects on a miniature artificial garden or island called a <span
 lang="ja-Latn">suhama</span> (<span lang="ja">洲浜</span>), which was
-constructured especially for the competition and which could be made out of
+constructed especially for the competition and which could be made out of
 expensive wood or precious metals.
 
 {% image
@@ -312,14 +312,14 @@ An 18th-century <span lang="ja-Latn">kai-ōi</span> set. The paired boxes are th
 each bucket. The shells are decorated with painted scenes.
 {% imageEnd %}
 
-A personal <span lang="ja-Latn">kai-ōi</span> set became a standard  part of a
+A personal <span lang="ja-Latn">kai-ōi</span> set became a standard component of a
 noble bride’s wedding gifts, as the joining of the matching shells was symbolic
 of the join&shy;ing of husband and wife in marriage. However, the elaborate sets
 with their hand-painted and gilded interiors must have been ex&shy;pen&shy;sive
 to create and only owned by the richest of families. Indeed, at times
 restrictions were put in place so that <em>only</em> noble families of the upper
 ranks were permitted to include the game in their bridal
-trousseaux.[@JapaneseGamesOfMemory p. 265] When time came to hand over the
+trousseaux.[@JapaneseGamesOfMemory p. 265] When the time came to hand over the
 wedding gifts, it was customary for the <span lang="ja-Latn">kai-oke</span> to
 be the first item presented.[@JapaneseGamesOfMemory p. 265]
 
@@ -392,7 +392,7 @@ lang="ja-Latn">Ebashi Takashi</span> (<span lang="ja">江橋崇</span>) calls th
 
 ### Banning & Legalization
 
-Some time after its introduction, <span class="noun" lang="ja-Latn">Hanafuda</span> games
+Sometime after their introduction, <span class="noun" lang="ja-Latn">Hanafuda</span> games
 were restricted as part of a total ban on gambling introduced during the <span class="noun"
 lang="ja-Latn">Kansei</span> Reforms{%fn%}During the <span class="noun"
 lang="ja-Latn">Kansei</span> Reforms, gambling was prohibited by the <span
@@ -431,7 +431,7 @@ lang="ja-Latn">Kyōto</span> region store’).[@EbashiHanafuda pp.
 
 {% image
     src="Kamigataya-Sugoroku.jpg"
-    alt="A Japanese sugoroku board game with images spiraling in counter-clockwise from the outside to the center, showing scenes of Maeda applying to the police to open his store, along with products such as cards and dice."
+    alt="A Japanese sugoroku board game with images spiralling in counter-clockwise from the outside to the centre, showing scenes of Maeda applying to the police to open his store, along with products such as cards and dice."
     size="extra-wide"
     orgName="Japan Playing Card Museum",
     orgAbbr="JPCM",
@@ -440,7 +440,7 @@ lang="ja-Latn">Kyōto</span> region store’).[@EbashiHanafuda pp.
 Ever the promotor, at the end of 1887, <span class="noun" lang="ja-Latn">Maeda</span>
 published this <span lang="ja-Latn">sugoroku</span> game based on the story of
 his struggle to open a store selling playing cards. The track spirals in a
-counter-clockwise direction to the the centre of the board, where the final
+counter-clockwise direction to the centre of the board, where the final
 square (marked <span lang="ja">上り</span>) shows Japanese and Western cards and
 dice celebrating together.
 {% imageEnd %}
@@ -499,7 +499,7 @@ lang="ja-Latn">Shimogataya</span> (<span lang="ja">下方屋
     size="wide"
     alt="An image of a Japanese street with lots of signs and flags for stores"
     license="cc0" %}
-In this early 20th century postcard, another branch of <span class="noun"
+In this early 20th-century postcard, another branch of <span class="noun"
 lang="ja-Latn">Kamigataya</span> can be seen on the left, identified by the
 large die; this one is in <span class="noun" lang="ja-Latn">Motomachi</span> in <span class="noun"
 lang="ja-Latn">Yokohama</span>.
@@ -545,14 +545,15 @@ of evidence, the case was dropped, but <span class="noun" lang="ja-Latn">Kojima<
 accepted ‘moral responsibility’ for the scandal and resigned his
 position.[@EmperorOfJapan p. 813]
 
-Despite this “image problem”, playing <span class="noun" lang="ja-Latn">Hanafuda</span>
-became part of what it meant to be a <span lang="ja-Latn">shinshi</span> (<span
-lang="ja">紳士</span>) — that is, a modern, wordly gentleman.{%fn%}The
-Japanese word <span lang="ja-Latn">shinshi</span> had originally been coined in
-order to translate the English “gentleman”,[@TheEastandtheIdeaofEurope p. [[32,
-38]]] and was particularly associated with those who enthusiastically embraced
-Westernization during the <span class="noun" lang="ja-Latn">Meiji</span> period.{%endfn%}
-The author <span class="noun" lang="ja-Latn">Uchida Roan</span> (1868–1929) is said to have
+Despite this “image problem”, playing <span class="noun"
+lang="ja-Latn">Hanafuda</span> became part of what it meant to be a <span
+lang="ja-Latn">shinshi</span> (<span lang="ja">紳士</span>) — that is, a modern,
+worldly gentleman.{%fn%}The Japanese word <span lang="ja-Latn">shinshi</span>
+had originally been coined to translate the English
+“gentleman”,[@TheEastandtheIdeaofEurope p. [[32, 38]]] and was particularly
+associated with those who enthusiastically embraced Westernization during the
+<span class="noun" lang="ja-Latn">Meiji</span> period.{%endfn%} The author <span
+class="noun" lang="ja-Latn">Uchida Roan</span> (1868–1929) is said to have
 joked:
 
 <blockquote lang="ja">紳士の資格は？　弄花と蓄妾と負債と奔走。</blockquote>
@@ -625,7 +626,7 @@ lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) in
 <span class="noun" lang="ja-Latn">Kyōto</span> in 1892) included tobacco cards which combined
 <span class="noun" lang="ja-Latn">Hanafuda</span> with Western playing cards. <span class="noun"
 lang="ja-Latn">Murai</span> was a progressive company that enthusiastically
-embraced Westernization across the whole of their business. They operated in
+embraced Westernization across the whole of its business. They operated in
 conjunction with Western tobacco companies such as the British-American Tobacco
 Company, and many of their cigarette brands bore English titles. Where his
 competitor <span class="noun" lang="ja-Latn">Iwaya</span> would name a brand <span lang="ja">
@@ -636,10 +637,10 @@ In 1899, <span class="noun" lang="ja-Latn">Murai</span> formed the subsidiary �
 Printing”{%fn%}In some sources this is given in its translated form as the
 “Oriental Printing Company”.{%endfn%} (<span lang="ja">東洋印刷</span>), and
 acquired printing equipment and training from the United States. With this
-equipment they were able to produce high-quality packaging, and there is some
+equipment, they were able to produce high-quality packaging, and there is some
 suggestion that they worked with <span class="noun" lang="ja-Latn">Nintendō</span> to produce
 the first Western-style playing cards produced in Japan
-(1902).[@EbashiCigaretteCards] Certainly <span class="noun" lang="ja-Latn">Nintendō</span>’s
+(1902).[@EbashiCigaretteCards] Certainly, <span class="noun" lang="ja-Latn">Nintendō</span>’s
 early cards are often imitations of those produced by such US companies as the
 National Card Company which had been merged with the United States Playing-card
 Company in 1894.[@WOPCNCC]
@@ -675,7 +676,7 @@ lang="ja-Latn">Iroha</span> cards.
 
 In 1902 a stamp duty was introduced that was inspired by similar taxes imposed
 in Western countries, the intent being to raise the cost of cards (and thereby
-dis&shy;cour&shy;age their use) but to also raise tax revenue. The tax imposed
+dis&shy;cour&shy;age their use) but also to increase tax revenue. The tax imposed
 was crushing: 20 <span lang="ja-Latn">sen</span> per set,{%fn%}The <span
 lang="ja-Latn">sen</span> (<span lang="ja">銭</span>) was a unit of currency
 representing 1⁄100 of a <span lang="ja-Latn">yen</span>.{%endfn%} in a time
@@ -767,7 +768,7 @@ A playing-card ‘pattern’ is a common set of designs that has been used by
 multiple different manufacturers over a period of time. With <span
 lang="ja-Latn">hanafuda</span> there is now one primary or “standard” pattern:
 all other patterns are referred to as ‘local cards’ (<span lang="ja">地方札
-</span> <span lang="ja-Latn">chihōfuda</span>), and considered to be specific to
+</span> <span lang="ja-Latn">chihōfuda</span>), and are considered to be specific to
 a particular region. Most of these are of historical interest only and are no
 longer manufactured, and there is little information about how gameplay differed
 in different regions.
@@ -847,7 +848,7 @@ flowers’) deck is a variant that contains only ten months, as it lacks the six
 (peony) and seventh (bush clover). It is especially used for playing the game of
 the same name, <span class="noun" lang="ja-Latn">Mushi</span> (‘insects’). It is sometimes
 described as a shortened version of a standard <span class="noun"
-lang="ja-Latn">Hachihachi</span> deck, but in reality it originated as its own
+lang="ja-Latn">Hachihachi</span> deck, but in reality, it originated as a distinct
 regional pattern.
 
 <span class="noun" lang="ja-Latn">Nintendō</span> produced this pattern until recently, but
@@ -905,7 +906,7 @@ contact them!
 {% image 
     size="small"
     src="Echigo_Kobana_Extras.jpg"
-    alt="Four hanafuda cards, one with a picture of a Tengu and manfacturer’s name, the rest with a stylized depection of a spearman." %}
+    alt="Four hanafuda cards, one with a picture of a Tengu and manfacturer’s name, the rest with a stylized depiction of a spearman." %}
 The four extra cards of an <span lang="ja-Latn">Echigo-kobana</span> deck by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
 {% imageEnd %}
 
@@ -947,7 +948,7 @@ The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <span clas
 ### <span class="noun" lang="ja-Latn">Dairen-bana</span>
 
 <span class="noun" lang="ja-Latn">Dairen-bana</span> (<span lang="ja-Latn">大連花</span>) is
-an extinct regional pattern from city of [<span class="noun"
+an extinct regional pattern from the city of [<span class="noun"
 lang="zh-Latn">Dalian</span>](https://en.wikipedia.org/wiki/Dalian) (<span
 lang="zh">大连市</span>) in China. It dates from the era of the [Kwangtung
 Leased Territory](https://en.wikipedia.org/wiki/Kwantung_Leased_Territory), when
@@ -957,7 +958,7 @@ occupied regions did not attract the same level of tax as those sold within
 Japan’s own islands.
 
 The main distinguishing feature of the pattern is that each type of <span
-lang="ja-Latn">tanzaku</span> card has its own background pattern (as opposed to
+lang="ja-Latn">tanzaku</span> card has a unique background pattern (as opposed to
 the usual ‘confetti’). The remainder of the cards follow the standard pattern
 very closely.
 
@@ -1046,7 +1047,7 @@ pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file="pronunciation_ja_�
 in the background. Both the crane and the pine are symbols of longevity, so they
 are a common combination in Japanese art; the mythical [Mount <span class="noun"
 lang="ja-Latn">Hōrai</span>](https://en.wikipedia.org/wiki/Mount_Penglai),
-dwelling-place of immortals, is depicted as wooded with pine trees and populated
+a dwelling-place of immortals, is depicted as wooded with pine trees and populated
 by cranes.
 
 {% image
@@ -1207,7 +1208,7 @@ Despite being a tree introduced from China, the plum blossom was the favoured
 flower in poetry and art during the <span class="noun" lang="ja-Latn">Nara</span> period; the
 native cherry blossom would only become more popular during the <span class="noun"
 lang="ja-Latn">Heian</span> period:[@FourSeasons loc. 997] after a famous plum
-tree planted by Emperor <span class="noun" lang="ja-Latn">Kanmu</span> at the imperial palace
+tree that was planted by Emperor <span class="noun" lang="ja-Latn">Kanmu</span> at the imperial palace
 had died, Emperor <span class="noun" lang="ja-Latn">Ninmyō</span> replaced it with a cherry
 tree{%fn%}This cherry tree has been replanted several times since then, and
 is called the <span lang="ja-Latn">sakon no sakura</span> (<span lang="ja">左近
@@ -1426,7 +1427,7 @@ associated with the passage of spring into summer;[@FourSeasons loc. 1021] it is
 also known as the ‘two-season plant’ (<span lang="ja">二季草</span> <span
 lang="ja-Latn">niki&shy;sou</span>). Like the bush warbler and spring, the first
 cry of the cuckoo was considered to announce the beginning of summer. By the
-time of the <span class="noun" lang="ja-Latn">Edo</span> period this was perhaps more of a
+time of the <span class="noun" lang="ja-Latn">Edo</span> period, this was perhaps more of a
 poetic dream than reality; the poet [<span class="noun"
 lang="ja-Latn">Buson</span>](https://en.wikipedia.org/wiki/Yosa_Buson) remarked
 that he had only heard the bird twice, despite living in Kyoto for 20
@@ -1466,7 +1467,7 @@ Cascades of flowers<br />bloom on the wisteria<br />by my garden lake.<br />When
 
 <!-- {/*TODO: an image showing upside-down wisteria*/} --> 
 
-In Korean contexts the non-<span lang="ja-Latn">tane</span> wisteria cards are
+In Korean contexts, the non-<span lang="ja-Latn">tane</span> wisteria cards are
 almost always shown upside-down, so that the plants are presented in the same
 manner as the bush clover in the seventh month. The cards are also referred to
 as <span lang="ko">흑싸리</span>, “black bush clover”, possibly because wisteria
@@ -1715,7 +1716,7 @@ p. 194] or <span lang="ja-Latn">oka</span> (<span lang="ja">丘</span>
 
 The bold moon card is possibly the most well-recognized of all <span
 lang="ja-Latn">hanafuda</span> cards. It is the standard card chosen as a
-representive emoji: 🎴 On printed cards, the fields of grass are often
+representative emoji: 🎴 On printed cards, the fields of grass are often
 simplified into solid black circles. Because of the resemblance of this to the
 head of a bald man, another nickname for this month is ‘baldy’ (<span lang="ja">
 坊主</span> {%pronounce pronouncer="skpronounce" word="bōzu" lang="ja-Latn"
@@ -1818,13 +1819,13 @@ cards.
 {% imageEnd %}
 
 {%aside%}
-A story invented by <span class="noun" lang="ja-Latn">Tendai</span> monks in the 14th century
+A story invented by <span class="noun" lang="ja-Latn">Tendai</span> monks in the 14th-century
 <span class="noun" lang="ja-Latn">Taiheiki</span> (<span lang="ja">太平記</span> ‘Chronicle
 of Great Peace’) provides retroactive justification for the
 festival:[@ChigoJapanese pp. 958–9] King <span class="noun" lang="zh-Latn">Mu</span>’s
 (<span lang="zh">周穆王</span>) favourite, a young boy, is banished to a remote
 mountain. Following the king’s advice, he recites passages of the Buddhist Lotus
-Sūtra, and writes them upon on chrysanthemum flowers. Dew collecting on the
+Sūtra and inscribes them upon chrysanthemum flowers. Dew collecting on the
 flowers drips into the river from which he drinks. Eight hundred years later he
 has not aged a day, and he returns to court as the legendary <span class="noun"
 lang="zh-Latn">Peng Zu</span> (<span lang="zh">彭祖</span>) during the reign of
@@ -1844,12 +1845,12 @@ long life in China, and the festival was introduced into Japan by the court of
 Emperor <span class="noun" lang="ja-Latn">Kanmu</span> (<span lang="ja">桓武天皇</span>,
 735–806).[@FourSeasons loc. 1214]
 
-During the festival, chrysanthemum petals are added to sake and consumed. The
-sake cup (<span lang="ja">杯</span> <span lang="ja-Latn">sakazuki</span>)
-pictured on the card has the character <span lang="ja">壽/寿</span> ({%pronounce
-pronouncer="strawberrybrown" word="kotobuki" lang="ja-Latn"
-file="pronunciation_ja_寿.mp3" %}), meaning ‘long life’, written on it in a
-cursive script.
+During the festival, chrysanthemum petals are added to <span
+lang="ja-Latn">sake</span> and consumed. The sake cup (<span lang="ja">杯</span>
+<span lang="ja-Latn">sakazuki</span>) pictured on the card has the character
+<span lang="ja">壽/寿</span> ({%pronounce pronouncer="strawberrybrown"
+word="kotobuki" lang="ja-Latn" file="pronunciation_ja_寿.mp3" %}), meaning ‘long
+life’, written on it in a cursive script.
 
 A poem by <span class="noun" lang="ja-Latn">Bashō</span> commemorates the evening of the 9th
 day of the 9th month, in 1691. He was staying at the temple <span class="noun"
@@ -1920,7 +1921,7 @@ cards.
 Maple trees along the banks of the <span class="noun" lang="ja-Latn">Tatsuta-gawa</span> in autumn.
 {% imageEnd %}
         
-The tenth month is represnted by autumn leaves/maple (<span lang="ja">紅葉
+The tenth month is represented by autumn leaves/maple (<span lang="ja">紅葉
 </span> <span lang="ja-Latn">momiji</span>/{% pronounce pronouncer="El55"
 word="kōyō" lang="ja-Latn" file='pronunciation_ja_紅葉.mp3' %}). The <span
 lang="ja-Latn">tane</span> card features a deer who is looking back over its
@@ -2020,7 +2021,7 @@ lang="ja-Latn" file="pronunciation_ja_雨.mp3" %}) or ‘drizzle’ (<span lang=
 時雨</span> {%pronounce pronouncer="akitomo" word="shigure" lang="ja-Latn"
 file="pronunciation_ja_時雨.mp3" %}).
 
-These cards have a strange relationship to the others — in many games they have
+These cards have a strange relationship with the other cards — in many games they have
 special powers, or they are valued lower than the cards of other months. For
 ex&shy;ample, the bright of November will often score less than the other four
 brights, and in some games the “lightning card” has special powers, such as
@@ -2055,14 +2056,14 @@ years after that deck was produced.
 The man pictured on the bright card is the poet <span class="noun" lang="ja-Latn">Ono no
 Michikaze</span> (<span lang="ja">小野道風</span>), who is considered to be one
 of the founders of Japanese calligraphy. The jumping frog re&shy;calls an
-episode in his life: he had failed seven times to achieve a promotion, and was
+episode in his life: he had failed seven times to achieve a promotion and was
 considering abandoning his attempts. One day, walking beside a stream, he saw a
 frog attempting to jump onto a willow branch. Seven times it jumped, and seven
 times it failed. On the eighth attempt, the frog reached the branch
 successfully. <span class="noun" lang="ja-Latn">Michikaze</span> was thus inspired to
 persevere with his attempts.[@AnimalInFarEasternArt pp. 86–7]
 
-On older decks a different “rain man” is pictured. On these cards the man is
+On older decks, a different “rain man” is pictured. On these cards, the man is
 running in the rain with the umbrella closed around his head. This feature is
 preserved in the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern.
     
@@ -2174,7 +2175,7 @@ The twelfth month is represented by paulownia (<span lang="ja">桐</span>
 This is a tree that flowers in spring, and has large heart-shaped leaves.
 
 The paulownia as a symbol was originally used by the imperial family and ranked
-second only to the chrysanthemum. Use of the paulownia was granted by [Emperor
+second only to the chrysanthemum. Permission to use the paulownia was granted by [Emperor
 <span class="noun"
 lang="ja-Latn">Go-Daigo</span>](https://en.wikipedia.org/wiki/Emperor_Go-Daigo)
 to [<span class="noun" lang="ja-Latn">Ashikaga
@@ -2193,7 +2194,7 @@ allies, it is also now the most common crest in Japan.
 In modern times, the paulownia symbol is also associated with the government.
 This use started after the <span class="noun" lang="ja-Latn">Meiji</span> restoration, and it
 appears on the seal of the prime minister’s office. There are many versions of
-the crest, with the 3–5–3 flower version being most common. The 5-7–5 version is
+the crest, with the 3–5–3 flower version being the most common. The 5-7–5 version is
 of higher standing and is the one used by the government.
 
 The wood of the paulownia is light and strong and often used for boxes; it is
@@ -2217,7 +2218,7 @@ The phoenix (<span lang="ja">鳳凰</span> {% pronounce pronouncer="akitomo"
 word="hōō" lang="ja-Latn" file="pronunciation_ja_鳳凰.mp3" %}, or <span
 lang="zh-Latn">fèng&shy;huáng</span> in Mandarin Chinese) featured on the bright
 card is from Japanese mythology, and was traditionally associated with the
-empress of Japan. According to legend the phoenix will only land on a paulownia
+empress of Japan. According to legend, the phoenix will only land on a paulownia
 tree. What appear to be ‘spikes’ on the card are really its long tail feathers.
 This card is sometimes casually referred to as the “rooster” card.
 
@@ -2245,5 +2246,5 @@ usually indicate a <span lang="ja-Latn">tane</span> card.
 
 Usually (in Japanese decks) the manufacturer’s mark is on the coloured <span
 lang="ja-Latn">kasu</span> card, much like the ace of spades is used in European
-decks. In Korean decks the mark can also be on the full moon card, or on the
+decks. In Korean decks, the mark can also be on the full moon card or the
 jokers.

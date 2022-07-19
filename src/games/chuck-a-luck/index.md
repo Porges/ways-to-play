@@ -62,7 +62,7 @@ Coffin](https://en.wikipedia.org/wiki/George_Yost_Coffin).<br />From @SiKlegg.
 A game known as Sweat-Cloth{%fn%}Probably in this context meaning a canvas
 saddle-cloth, upon which numbers were written to serve as a staking
 layout.{%endfn%} was played since at least the early 19th century. The name
-could also be shortened to simply “Sweat”.[@TheAmericanHoyle p. 480] Gambling
+could also be shortened to simply “Sweat”.[@TheAmericanHoyle4 p. 480] Gambling
 histories often cite an English origin, but I have yet to find any early mention
 of the game there.{%fn%}Although there are old English slang terms for gaming
 cloths, such as “tatty tog” from <i>tatt</i> dice and <i>tog</i>

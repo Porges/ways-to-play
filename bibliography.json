@@ -4971,7 +4971,7 @@
         "publisher-place": "Chicago, IL, USA",
         "URL": "https://archive.org/details/FoolsOfFortuneOrGamblingAndGamblers"
     },
-    "TheAmericanHoyle": {
+    "TheAmericanHoyle4": {
         "type": "book",
         "title": "The American Hoyle",
         "issued": {
@@ -4987,6 +4987,57 @@
         "publisher": "Dick & Fitzgerald",
         "publisher-place": "New York, NY, USA",
         "URL": "https://archive.org/details/americanhoyleorg00dick"
+    },
+    "TheModernPocketHoyle4": {
+        "type": "book",
+        "title": "The Modern Pocket Hoyle",
+        "issued": {
+            "year": 1868
+        },
+        "author": [
+            {
+                "given": "William Brisbane",
+                "family": "Dick"
+            }
+        ],
+        "edition": 4,
+        "publisher": "Dick & Fitzgerald",
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://archive.org/details/modernpockethoy00dickgoog"
+    },
+    "TheAmericanHoyle5": {
+        "type": "book",
+        "title": "The American Hoyle",
+        "issued": {
+            "year": 1868
+        },
+        "author": [
+            {
+                "given": "William Brisbane",
+                "family": "Dick"
+            }
+        ],
+        "edition": 5,
+        "publisher": "Dick & Fitzgerald",
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://archive.org/details/americanhoyleorg00dick"
+    },
+    "TheAmericanHoyle8": {
+        "type": "book",
+        "title": "The American Hoyle",
+        "issued": {
+            "year": 1874
+        },
+        "author": [
+            {
+                "given": "William Brisbane",
+                "family": "Dick"
+            }
+        ],
+        "edition": 8,
+        "publisher": "Dick & Fitzgerald",
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://archive.org/details/americanhoyleorg00dick_0"
     },
     "GamblingAndGamblingDevices": {
         "type": "book",
@@ -7871,5 +7922,50 @@
             "year": 1989
         },
         "ISBN": "019553087X"
+    },
+    "NewGamblingGame1924": {
+        "title": "New Gambling Game",
+        "type": "article-newspaper",
+        "container-title": "Derby Daily Telegraph",
+        "publisher-place": "Derby, England, UK",
+        "volume": 74,
+        "issue": 13756,
+        "page": 3,
+        "issued": {
+            "year": 1924,
+            "month": 1,
+            "day": 1
+        }
+    },
+    "SharpsAndFlats": {
+        "title": "Sharps and Flats: A Complete Revelation of The Secrets of Cheating at Games of Chance and Skill",
+        "type": "book",
+        "author": [
+            {
+                "given": "John Nevil",
+                "family": "Maskelyne"
+            }
+        ],
+        "URL": "https://archive.org/details/sharpsflatscompl00maskuoft",
+        "publisher": "Longmans, Green, and Co.",
+        "publisher-place": "London & New York",
+        "issued": {
+            "year": 1894
+        }
+    },
+    "DrawingTheNumbersForTheBankTicket": {
+        "type": "webpage",
+        "URL": "http://handle.slv.vic.gov.au/10381/240375",
+        "issued": {
+            "year": 1873
+        },
+        "author": [
+            {
+                "given": "Samuel",
+                "family": "Calvert"
+            }
+        ],
+        "title": "Chinese Lotteries—Drawing the Numbers for the Bank Ticket",
+        "container-title": "State Library Victoria"
     }
 }

@@ -12,7 +12,7 @@ hero:
 
 Ceki or Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia and
 Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in
-older Indonesian orthographies, or <span lang="ms-Arab">چکي</span> in Jawi
+older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi
 script. The word apparently comes from Amoy (Hokkien) Chinese <span
 lang="nan-Latn">chít ki</span> (<span lang="nan">一枝
 </span>)[@LoanWordsIndonesian p. 48],<!--{/*TODO: or 7 cards?
@@ -21,7 +21,7 @@ referring to the pick-one/play-one nature of the most common Ceki games.
 @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> (<span
 lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it
 is a phonetic back-formation.{%endfn%} or Koa cards are widely used in Indonesia
-and parts of Malaysia and Singapore. They originally derive from Chinese
+and parts of Malaysia and Singapore. They were originally derived from Chinese
 3-suited money cards (particularly the “Water Margin” type), and over time and
 distance the imagery on the cards developed into smaller, simpler, and more
 abstract forms, while retaining the original deck structure.
@@ -68,7 +68,7 @@ game.
 ## Indonesia
 
 In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and
-Bali, all of which have historically had large Chinese influence.
+Bali, all of which have historically had a large Chinese influence.
 
 During the colonial era, cards were manufactured in Europe by Dutch companies
 and exported to Indonesia. (See the [manufacturers](#manufacturers-brands)
@@ -78,7 +78,7 @@ section below.)
 Javanese card players, by Jean Demmeni (1866–1939).
 {% imageEnd %}
 
-In Bali the game is widely played, and has “a large if not fanatical
+In Bali, the game is widely played and has “a large if not fanatical
 following”,[@TransitionalDemocracy p. 170] despite gambling being illegal. Cards
 are readily available at many convenience stores.
 
@@ -98,7 +98,7 @@ Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in
 the [2009 Sumatran
  earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes). The
 company also had offices in Java & Sulawesi (previously known as
-Celebes).{%endfn%} in the city of Padang.  In the Minang language they are
+Celebes).{%endfn%} in the city of Padang.  In the Minang language, they are
 called Koa (or Kowah). The Minangkabau go so far as to say “<span
 lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you
 can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1]
@@ -223,7 +223,7 @@ money-suited cards.
 
 ## Card Names
 
-For each card in the table below I show in order (left-to-right)
+For each card in the table below I show (in left-to-right order):
 
 1. a card from a 19th-century deck collected in @ChineseOfTheStraitsSettlements,
 2. a card from a different 19th-century deck from @YoungCeki [p. 300] (as reproduced in @JavaanseKaartspelen),

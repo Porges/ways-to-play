@@ -45,7 +45,7 @@ After setting aside any dice, they then roll their second attempt with the
 remaining dice, and likewise for their third attempt. 
 
 If a player does not achieve their {%dice 654%} after three attempts, they score
-zero, otherwise they score the sum of the remaining two dice (the “cargo”). If
+zero, otherwise, they score the sum of the remaining two dice (the “cargo”). If
 they achieve their {%dice 654%} on the first or second attempt, they may reroll
 one or both of their cargo dice for their remaining attempt(s) to try to achieve
 a higher score; the new result of the dice must be kept.
@@ -70,8 +70,8 @@ Jones”[@KniziaDice p. 105] but a direct translation would be
 due to luck.
 
 On each player’s turn, they always make three rolls of three dice, then two
-dice, then one die. No dice are set aside. The player must roll a {%dice 1%}
-(Mr. Miller) and a {%dice 2%} (Mrs. Miller), and after they have done so the
-remaining dice are all totalled to count the number of “children”.
+dice, then one die. No dice are set aside. The player must roll a {%dice 1%} (Mr
+Miller) and a {%dice 2%} (Mrs Miller), and after they have done so the remaining
+dice are all totalled to count the number of “children”.
 
 The player who reaches the highest total wins.
