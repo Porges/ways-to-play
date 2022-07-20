@@ -27,7 +27,6 @@ exports.render = async function (data) {
   let excerpt = "";
   if (data.page.excerpt) {
     const stripped = data.page.excerpt.replaceAll(footnoteStripper, "").replaceAll(citeStripper, "");
-    console.log(stripped);
     excerpt = striptags(await this.renderTemplate(stripped, "md"));
   }
 

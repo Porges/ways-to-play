@@ -3,6 +3,8 @@ title: Pigeon Tickets
 draft: true
 originalTitle: <span lang="zh-Hant">白鴿票</span>
 mainImage: MingLeeDuw.jpg
+hero:
+    image: MingLeeDuw.jpg
 ---
 
 Pigeon Tickets (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
