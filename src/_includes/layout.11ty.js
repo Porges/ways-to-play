@@ -20,10 +20,15 @@ function striptags(excerpt) {
     .trim());
 }
 
+const footnoteStripper = /\{%fn%\}.*?\{%endfn%\}/gs;
+const citeStripper = /\[@.*?\]/gs;
+
 exports.render = async function (data) {
   let excerpt = "";
   if (data.page.excerpt) {
-    excerpt = striptags(await this.renderTemplate(data.page.excerpt, "md"));
+    const stripped = data.page.excerpt.replaceAll(footnoteStripper, "").replaceAll(citeStripper, "");
+    console.log(stripped);
+    excerpt = striptags(await this.renderTemplate(stripped, "md"));
   }
 
   const title = purify(data.title);
