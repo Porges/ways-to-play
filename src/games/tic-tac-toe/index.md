@@ -61,7 +61,7 @@ lang="es">alquerque de tres</span> was considered a children’s game.
 {% imageEnd %}
 
 Some of the earliest known written references to Tic-Tac-Toe in English occur in
-Charles Babbage’s unpublished manuscript ‘Essays on the Philosophy of Analysis’
+Charles Babbage’s unpublished manuscript <cite>Essays on the Philosophy of Analysis</cite>
 (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the
 game is never mentioned by name.[@SourcesInRecreationalMathematics] In 1842,
 ‘tit-tat-to’ again occurs in his notebooks, when he conceptualizes an automaton

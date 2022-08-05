@@ -1,5 +1,5 @@
 ---
-title: Pigeon Tickets
+title: The Pigeon Lottery
 draft: true
 originalTitle: <span lang="zh-Hant">白鴿票</span>
 mainImage: MingLeeDuw.jpg
@@ -7,7 +7,7 @@ hero:
     image: MingLeeDuw.jpg
 ---
 
-Pigeon Tickets (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
+The Pigeon Lottery (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
 </span> Cantonese: {%pronounce lang="yue-Latn" word="baak6 gaap3 piu3"
 pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" %}{%fn%}Other
 romanizations include <span lang="yue-Latn">pak kap
@@ -70,6 +70,15 @@ the official <span class="noun" lang="zh-Latn">Qin Ying</span> (<span lang="zh">
 lang="zh-Latn">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
 (1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
 
+In 1849, a traveller from Yunnan province visited Guangdong and reported that:
+
+> In the western part of the provincial capital Guangzhou, people in Henan area
+> developed cunning ways to operate the “white pigeon” lottery. Even women and
+> children were addicted to the game. The former governor of Guangdong
+> considered the “white pigeon” lottery to have been going out of control so he
+> prohibited it. When this governor got promoted and left, the trend of playing
+> the lottery came back.[@BettingOnEmpire p. 64]
+
 <!--
 GT translation:
 
@@ -125,6 +134,7 @@ had played the game in the last 12 months.[@SegmentingChineseGamblers]{%endfn%}
     originalUrl="https://www.flickr.com/photos/free-stuff/156734440" %}
 A “Pacapio” sign in Macau.
 {% imageEnd %}
+
 
 <!--
  was invented

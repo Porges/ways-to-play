@@ -7967,5 +7967,42 @@
         ],
         "title": "Chinese Lotteries—Drawing the Numbers for the Bank Ticket",
         "container-title": "State Library Victoria"
+    },
+    "BettingOnEmpire": {
+        "type": "thesis",
+        "URL": "https://web.archive.org/web/20160221195946id_/http://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=1662&context=art_sci_etds",
+        "title": "Betting on Empire: A Socio-Cultural History of Gambling in Late-Qing China",
+        "author": [
+            {
+                "given": "En",
+                "family": "Li"
+            }
+        ],
+        "issued": {
+            "year": 2015,
+            "month": 12,
+            "day": 15
+        },
+        "publisher": "Washington University",
+        "publisher-place": "St. Louis, MO, USA",
+        "genre": "PhD thesis"
+    },
+    "CulturalGamesBotswana": {
+        "type": "thesis",
+        "title": "Cultural games and mathematics teaching: a study of teachers in Botswana",
+        "author": [
+            {
+                "family": "Garegae-Garekwe",
+                "given": "Kgomotso Gertrude"
+            }
+        ],
+        "genre": "Master’s thesis",
+        "URL": "https://doi.org/10.7939/R3GQ6RB47",
+        "issued": {
+            "season": "Fall",
+            "year": 1994
+        },
+        "publisher": "University of Alberta",
+        "publisher-place": "Edmonton, Alberta, Canada"
     }
 }

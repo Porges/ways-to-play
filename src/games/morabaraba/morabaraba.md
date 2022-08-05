@@ -121,7 +121,7 @@ many neighbouring countries.
 There are other names which are probably derived from the European name of
 ‘mill’:‌[@MkeleMorabaraba p. 134] an alternate Sesotho name is <span
 lang="st">mmila</span>/<span lang="st">’mila</span>,
-‘road’.‌[@UsingGamesToPromote p. 283] In Botswana, the game is called <span
+‘road’.‌[@UsingGamesToPromote p. 283] In Botswana,[@CulturalGamesBotswana] the game is called <span
 lang="tn">mhele</span> (‘reedbuck’, a type of antelope‌[@OldTswana p. 350]), and
 the name <span lang="tn">morabaraba</span> refers solely to a mancala
 game.{%fn%}Because of the large overlap of names, in written descriptions <span class="noun"
