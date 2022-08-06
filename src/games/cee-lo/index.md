@@ -250,7 +250,7 @@ lang="ja-Latn">arashi</span>).{%fn%}Apparently this term comes from the game
 #### Underground <span lang="ja-Latn">Chinchirorin</span>
 
 This version of the game is played in [<cite>Kaiji: Against All
-Rules</cite>](https://en.wikipedia.org/wiki/Kaiji:_Ultimate_Survivor) (2011).
+Rules</cite>](https://en.wikipedia.org/wiki/Kaiji:_Against_All_Rules) (2011).
 The payoffs are again different, with {%jdice 111%} becoming the highest roll.
 
 There are also variations to the main rules:
