@@ -39,7 +39,7 @@ The initial placement of the pieces.
 
 ## Analysis
 
-See: @Straffin95 and @Straffin95_2, also @ThinkingThroughDiagrams.
+See: @Straffin95 and @ThinkingThroughDiagrams.
 
 ## See also
 

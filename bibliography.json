@@ -1462,11 +1462,33 @@
         "issued": {
             "year": 2005
         },
+        "editor": [
+            {
+                "family": "Freksa",
+                "given": "Christian"
+            },
+            {
+                "family": "Knauff",
+                "given": "Markus"
+            },
+            {
+                "family": "Krieg-Brückner",
+                "given": "Bernd"
+            },
+            {
+                "family": "Nebel",
+                "given": "Bernhard"
+            },
+            {
+                "family": "Barkowsky",
+                "given": "Thomas"
+            }
+        ],
         "publisher": "Springer Berlin Heidelberg",
         "publisher-place": "Berlin, Heidelberg",
         "page": "259–282",
         "URL": "https://doi.org/10.1007/11397977_16",
-        "container-title": "Spatial Cognition IV"
+        "container-title": "Spatial Cognition IV: Reasoning, Action, Interaction"
     },
     "Wordsworth": {
         "type": "book",

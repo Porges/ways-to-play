@@ -247,6 +247,9 @@ lang="ja-Latn">arashi</span>).{%fn%}Apparently this term comes from the game
 </tbody>
 </table>
 
+The game is featured in many titles of the
+[<cite>Suikoden</cite>](https://en.wikipedia.org/wiki/Suikoden) series.
+
 #### Underground <span lang="ja-Latn">Chinchirorin</span>
 
 This version of the game is played in [<cite>Kaiji: Against All
