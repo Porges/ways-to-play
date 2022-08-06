@@ -8004,5 +8004,22 @@
         },
         "publisher": "University of Alberta",
         "publisher-place": "Edmonton, Alberta, Canada"
+    },
+    "TaongaTukuIho": {
+        "type": "book",
+        "title": "Taonga Tuku Iho: An Encyclopedia of Māori Life",
+        "author": [
+            {
+                "family": "Reed",
+                "given": "A. W."
+            },
+            {
+                "family": "Mikaere",
+                "given":"Buddy"
+            }
+        ],
+        "issued": {
+            "year": 2002
+        }
     }
 }
