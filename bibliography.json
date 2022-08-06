@@ -8037,7 +8037,7 @@
             },
             {
                 "family": "Mikaere",
-                "given":"Buddy"
+                "given": "Buddy"
             }
         ],
         "issued": {
@@ -8061,5 +8061,41 @@
         "issue": 2,
         "page": "93–106",
         "URL": "https://www.jstor.org/stable/147299"
+    },
+    "Himly": {
+        "type": "article-journal",
+        "URL": "https://www.jstor.org/stable/43361884",
+        "title": "Anmerkungen in Beziehung auf das Schach- und andere Brettspiele",
+        "title-lang": "de",
+        "author": [
+            {
+                "family": "Himly",
+                "given": "K."
+            }
+        ],
+        "container-title": "Zeitschrift der Deutschen Morgenländischen Gesellschaft",
+        "container-title-lang": "de",
+        "issued": {
+            "year": 1887
+        },
+        "volume": 41,
+        "issue": 3,
+        "page": "461–484"
+    },
+    "CulinChess": {
+        "type": "book",
+        "URL": "https://archive.org/details/chessplayingcard00culi",
+        "title": "Chess and Playing Cards",
+        "author": [
+            {
+                "family": "Culin",
+                "given": "Stewart"
+            }
+        ],
+        "issued": {
+            "year": 1896
+        },
+        "publisher": "Government Printing Office",
+        "publisher-place": "Washington"
     }
 }

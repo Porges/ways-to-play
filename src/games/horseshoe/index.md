@@ -21,7 +21,7 @@ In Korea it is known as <span lang="ko">우물고누</span> <span
 lang="ko-Latn">umulgonu</span> ‘well game’ or <span lang="ko">강고누</span>
 <span lang="ko-Latn">ganggonu</span> ‘river game’.[@KoreanGames p. 100] In
 Punjabi it is called <span lang="pa-Latn">dō-guṭi</span> (TODO: possibly
-<span lang="pa">ਦੋਗੁਟਿ</span>?).[@GuptaD p. 143]
+<span lang="pa">ਦੋਗੁਟਿ</span>? Hindi <span language="hi">दो गुटी</span>?).[@GuptaD p. 143]
 
 In Thailand it is reportedly called “sua tok tong” (perhaps <span
 lang="th">เสือ…</span> <span lang="th-Latn">suea…</span> ‘tiger…’?).
