@@ -65,12 +65,32 @@ When played on a board with diagonals, mills are not usually permitted to be mad
 
 ## History
 
+<div class="multi extra-wide">
+
 {% image 
-    size="wide"
     alt="A weathered Nine Men’s Morris board scratched into a rock."
     src='DSCF0525.jpg' %}
 A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
+{% imageEnd %} 
+
+{% image
+  alt="" 
+  src="8238351242_37e76bbc44_o.jpg"
+  authorGiven="Dan"
+  authorFamily="Diffendale"
+  copyrightYear=2012
+  license="cc-by-nc-sa"
+  licenseVersion="2.0"
+  originalUrl="https://www.flickr.com/photos/dandiffendale/8238351242/" %}
+
+A board carved on the capital of the Athenian trophy (tropaion <span
+lang="grc">τρόπαιον</span>) from Marathon, constructed some time after 490 BCE
+but destroyed at a later date. An image of the board carved on the decapitated
+capital <span lang="la">in situ</span> can be see in @MarathonMonument [plate 32].
+
 {% imageEnd %}
+
+</div>
 
 The game dates from at least the late Roman Empire or Byzantine period, and at
 the moment we do not have solid evidence for an earlier

@@ -8043,5 +8043,23 @@
         "issued": {
             "year": 2002
         }
+    },
+    "MarathonMonument": {
+        "type": "article-journal",
+        "title": "A Monument to the Battle of Marathon",
+        "author": [
+            {
+                "family": "Vanderpool",
+                "given": "Eugene"
+            }
+        ],
+        "container-title": "Hesperia: The Journal of the American School of Classical Studies at Athens",
+        "issued": {
+            "year": 1966
+        },
+        "volume": 35,
+        "issue": 2,
+        "page": "93–106",
+        "URL": "https://www.jstor.org/stable/147299"
     }
 }
