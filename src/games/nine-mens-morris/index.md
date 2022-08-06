@@ -472,6 +472,10 @@ The standard rules can be adapted to play on many different boards. As in
 standard Nine Men’s Morris, mills must always be in a straight line and may not
 turn corners.
 
+Babbage also apparently experimented with differently-shaped boards, in both
+triangular and pentagonal shapes,[@SourcesInRecreationalMathematics] but I have
+not yet been able to see the manuscript in question.
+
 {% image 
     src="windmill.svg;merel-pentagon.svg;merel-pentagon2.svg"
     alt=";A board constructed from three nested pentagons with corners and side-middles connected.;A board constructed from five nested pentagons in alternating orientations." %}
