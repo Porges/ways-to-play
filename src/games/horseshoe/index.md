@@ -26,6 +26,8 @@ Punjabi it is called <span lang="pa-Latn">dō-guṭi</span> (TODO: possibly
 In Thailand it is reportedly called “sua tok tong” (perhaps <span
 lang="th">เสือ…</span> <span lang="th-Latn">suea…</span> ‘tiger…’?).
 
+It has also been called “bar”.[@MeditoBoxFront]
+
 {% image src="pong-hau-ki-boards.svg" alt="" %}
 A few different boards. Pieces are to be played on the intersections of the lines.
 {% imageEnd %}

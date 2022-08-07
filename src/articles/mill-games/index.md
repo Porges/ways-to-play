@@ -88,6 +88,7 @@ The general name for the game family:
 * Dutch <span lang="nl">molenspel</span>, ‘mill game’.[@Fiske p. 133]
 * French <span lang="fr">mérelles</span>, ‘merels’.[@Fiske p. 133]
 * Hungarian <span lang="hu">malomjáték</span>, ‘mill game’, or <span lang="hu">malmosdi</span>.[@Fiske p. 133]
+* Italian <span lang="it">mulino</span>, ‘mill’
 * Russian <span lang="ru">мельница</span> (<span lang="ru-Latn">melniza</span>), ‘mill’.[@Fiske p. 133]
 * Swedish <span lang="sv">qvarnspel</span>, ‘mill game’.[@Fiske p. 135].
 

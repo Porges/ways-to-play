@@ -8097,5 +8097,35 @@
         },
         "publisher": "Government Printing Office",
         "publisher-place": "Washington"
+    },
+    "DrawingRoomPlays": {
+        "URL": "https://play.google.com/books/reader?id=xqlbAAAAQAAJ",
+        "type": "book",
+        "title": "The Book of Drawing-Room Plays and Evening Amusements",
+        "author": [
+            {
+                "given": "Henry",
+                "family": "Dalton"
+            }
+        ],
+        "issued": {
+            "year": 1861
+        },
+        "publisher": "James Hogg & Sons",
+        "publisher-place": "London, England, UK"
+    },
+    "MeditoBoxFront": {
+        "type": "webpage",
+        "title": "Medito: Box Front",
+        "URL": "https://boardgamegeek.com/image/4604193/medito",
+        "container-title": "Board Game Geek",
+        "issued": {
+            "year": 2019
+        },
+        "author": [
+            {
+                "given": "Bayerisches Spiele-Archiv"
+            }
+        ]
     }
 }
