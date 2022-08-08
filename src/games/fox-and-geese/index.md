@@ -4,6 +4,8 @@ draft: true
 players: 2
 ---
 
+Fox and Geese games are discussed by Randle Holme in @AcademyOfArmory3 [p. 67–8].
+
 ## Terminology
 
 In other languages and countries it is known as:

@@ -8118,7 +8118,7 @@
         "type": "webpage",
         "title": "Medito: Box Front",
         "URL": "https://boardgamegeek.com/image/4604193/medito",
-        "container-title": "Board Game Geek",
+        "container-title": "BoardGameGeek",
         "issued": {
             "year": 2019
         },
@@ -8127,5 +8127,125 @@
                 "given": "Bayerisches Spiele-Archiv"
             }
         ]
+    },
+    "AcademyOfArmory3": {
+        "type": "book",
+        "title": "The Academy of Armory, or, a Storehouse of Armory and Blazon",
+        "volume": 3,
+        "author": [
+            {
+                "family": "Holme",
+                "given": "Randle"
+            }
+        ],
+        "issued": {
+            "year": 1688
+        },
+        "publisher-place": "Chester, Cheshire, England",
+        "warnings": "Reprinted by the Roxburghe Club, 1905."
+    },
+    "HelmuthDueberg": {
+        "type": "patent",
+        "URL": "https://patents.google.com/patent/US1131603A",
+        "title": "Amusement Device",
+        "filed": {
+            "year": 1914,
+            "month": 7,
+            "day": 6
+        },
+        "issued": {
+            "year": 1915,
+            "month": 3,
+            "day": 9
+        },
+        "patentNumber": "US1131603A",
+        "author": [
+            {
+                "given": "Helmuth F. C.",
+                "family": "Dueberg"
+            }
+        ]
+    },
+    "FreedomToPlay": {
+        "type": "book",
+        "title": "Freedom to Play: We Made Our Own Fun",
+        "editor": [
+            {
+                "given": "Norah Lillian",
+                "family": "Lewis"
+            }
+        ],
+        "ISBN": "0-88920-406-3",
+        "publisher": "Wilfrid Laurier University Press",
+        "publisher-place": "Waterloo, Ontario, Canada",
+        "issued": {
+            "year": 2002
+        }
+    },
+    "WarGamesHistory": {
+        "type": "book",
+        "title": "War Games And Their History",
+        "publisher": "Fonthill",
+        "publisher-place": "Stroud, England, United Kingdom",
+        "author": [
+            {
+                "given": "Christopher George",
+                "family": "Lewin"
+            }
+        ],
+        "issued": {
+            "year": 2012
+        },
+        "ISBN": "9781781551424"
+    },
+    "OldManawatu": {
+        "type": "book",
+        "title": "Old Manawatu: or, The Wild Days of the West",
+        "URL": "https://archive.org/details/oldmanawataorwi01buicgoog",
+        "author": [
+            {
+                "given": "Thomas Lindsay",
+                "family": "Buick"
+            }
+        ],
+        "publisher": "Buick & Young",
+        "publisher-place": "Palmerston North, New Zealand",
+        "issued": {
+            "year": 1903
+        }
+    },
+    "Tokomairiro": {
+        "type": "article-newspaper",
+        "title": "Tokomairiro",
+        "container-title": "Tuapeka Times",
+        "volume": 1,
+        "issue": 18,
+        "issued": {
+            "year": 1868,
+            "month": 6,
+            "day": 13
+        },
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/TT18680613.2.10",
+        "page": 3
+    },
+    "AGameOfEuchre": {
+        "type": "article-magazine",
+        "title": "A Game of Euchre",
+        "container-title": "The Bulletin",
+        "issued": {
+            "year": 1893,
+            "month": 1,
+            "day": 7
+        },
+        "volume": 12,
+        "issue": 673,
+        "page": 19,
+        "author": [
+            {
+                "given": "J. A.",
+                "family": "Philp"
+            }
+        ],
+        "URL": "http://nla.gov.au/nla.obj-517936767"
     }
 }

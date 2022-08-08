@@ -7,10 +7,13 @@ subgames:
 ---
 
 <p class="lead">Assault is a traditional board game for two players that used to be popular
-throughout Europe. In English it is commonly known by the Spanish name <span lang="es">Asalto</span>, but it originally comes from Germany.</p>
+throughout Europe. In English it is commonly known by the Spanish name <span lang="es">Asalto</span>.</p>
 
-It is played on the same kind of board as {% gameref fox-and-geese %} or {%
-gameref solitaire %}, but is usually marked to indicate the areas of the board.
+Assault was probably derived from the game of {% gameref fox-and-geese %}, with
+which it shares a board. The play of the game is similar, but the object in
+Assault is for one side to achieve a particular arrangement of their
+pieces — although it is still possible to win by “trapping” like in {% gameref
+fox-and-geese %}.
 
 {% image src="pic5996205.jpg" alt="" originalUrl="https://boardgamegeek.com/image/5996205/miscellaneous-game-compilation"
     authorGiven="Stephan"
@@ -23,17 +26,23 @@ Reprint of an old German Assault board. Black lines indicate paths that the Atta
 
 <!-- excerpt -->
 
-## Terminology
-
 In other languages and countries it is known as:
 
 * Danish: <span lang="da">belejringsspel</span> ‘siege game’.[@Fiske p. 147]
-* English: also known as “siege”, “citadel”,[@MeditoBoxFront] or “German tactics” 
+* English: also known as “siege”, “citadel”,[@MeditoBoxFront] or “(The New
+  Military Game of) German tactics” (published by John Jaques & Son)
 * Italian: <span lang="it">assalto</span> ‘assault’.[@Fiske p. 147]
 * French: <span lang="fr">assaut</span> ‘assault’.[@Fiske p. 147]
-* German: <span lang="de">das festungs-spiel</span> or <span lang="de">belagerungs-spiel</span> ‘fortress game’ or ‘siege game’.[@Fiske p. 152]
+* German: <span lang="de">das festungs-spiel</span> or <span
+  lang="de">belagerungs-spiel</span> ‘fortress game’ or ‘siege game’.[@Fiske p.
+  152]
+* Norwegian: <span lang="no">beleiringsspill</span> ‘siege game’
 * Spanish: <span lang="es">asalto</span> ‘assault’.[@Fiske p. 147]
-* Swedish: <span lang="sv">belägringsspel</span> ‘siege game’, or <span lang="sv">fästningsspel</span> ‘fortress game’.[@Fiske p. 147]
+* Swedish: <span lang="sv">belägringsspel</span> ‘siege game’, or <span
+  lang="sv">fästningsspel</span> ‘fortress game’.[@Fiske p. 147]
+
+The presentation of the game usually has a militaristic theme, often celebrating
+some recent engagement.
 
 ## Setup 
 
@@ -64,12 +73,12 @@ except at the very top of the two horizontal arms (these forbidden moves are the
 dashed lines in the diagram above; in printed sets the forbidden lines are often
 in a different colour).
 
-The defender’s pieces move in a similar way, but may also jump over an
-attacker’s piece in a straight line to a vacant point beyond it, as in checkers.
-This captures the jumped piece and removes it from the board. A defending piece
-may make mutiple jumps in a single turn, and may change direction after each
-jump. The defender must make a jump if it is possible, and cannot jump one of
-their own pieces.
+The defender’s pieces move in a similar way, but are not required to move in any
+particular direction. They may also **jump** over an attacker’s piece in a straight
+line to a vacant point beyond it, as in checkers. This captures the jumped piece
+and removes it from the board. A defending piece may make multiple jumps in a
+single turn, and may change direction after each jump. The defender *must* make
+a jump if it is possible, and cannot jump one of their own pieces.
 
 {% image src="defender_multiple_jumps.svg" alt="" %}
 A defending piece may make multiple consecutive jumps.
@@ -82,7 +91,7 @@ their goal.
 
 ## Variants
 
-### Alternate boards
+### Alternate Boards
 
 Many small variations of the board have been published. Some are displayed here.
 For these I do not have rules, so it is unclear if horizontal movements were
@@ -112,10 +121,22 @@ Eggenweiler), played with 20 attackers which are set up on all the lower points.
 
 </div>
 
-### Larger Board
+### Larger Version
 
-The game has also been played with a larger board. In Germany this variant was called
-called <span lang="de">Grosses Festungs-Spiel</span> (‘large fortress game’). 
+The game has also been played with a larger board. In Germany this variant was
+called <span lang="de">Grosses Festungs-Spiel</span> (‘large fortress game’). In
+the United States the game was patented in 1915 by one Helmuth
+Dueberg.[@HelmuthDueberg] Milton Bradley later published this game under the
+name “Three Guardsmen”, and later as “Bataan: The Battle of the Philippines”
+(1943) and “Three Musketeers” (1950). In Canada it was published as “Yellow
+Peril” by Somerville board games.[@FreedomToPlay p. 20] In England it was called
+“Royal Garrison” (published by John Jaques & Son),[@DrawingRoomPlays p. 274]
+“Siege” (J. W. Spear & Sons), or “Hungarian Tactics” (Ogilvy). It has also been
+published as “Fortification” and “Transvaal”.[@WarGamesHistory]
+
+The defender has three pieces which start on the middle and either end of the
+bottom row of the fortress. The attacker has fifty pieces which are placed on
+all points outside the fortress. Play is otherwise the same as Assault.
 
 {% image src="Grosse_Belagerungsspiel.svg" alt="" %}
 
@@ -125,17 +146,13 @@ called <span lang="de">Grosses Festungs-Spiel</span> (‘large fortress game’)
 
 {% imageEnd %}
 
-### Royal Garrison
-
-In England, an extended version of the game with three defending pieces and a larger board
-was known as Royal Garrison.[@DrawingRoomPlays p. 274] The attacker has fifty pieces.
+Another version of the “Royal Garrison” board connected all diagonals:
 
 {% image src="royal_garrison.svg" alt="" %}
 
-The Royal Garrison board.
+A different Royal Garrison board.
 
 {%imageEnd%}
-
 
 ## See also
 
