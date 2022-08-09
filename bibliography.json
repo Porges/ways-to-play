@@ -8029,11 +8029,11 @@
     },
     "TaongaTukuIho": {
         "type": "book",
-        "title": "Taonga Tuku Iho: An Encyclopedia of Māori Life",
+        "title": "Taonga Tuku Iho: Illustrated Encyclopedia of Traditional Māori Life",
         "author": [
             {
                 "family": "Reed",
-                "given": "A. W."
+                "given": "Alexander Wyclif"
             },
             {
                 "family": "Mikaere",
@@ -8042,7 +8042,10 @@
         ],
         "issued": {
             "year": 2002
-        }
+        },
+        "ISBN": 9781877246906,
+        "publisher": "New Holland",
+        "publisher-place": "London, England, UK"
     },
     "MarathonMonument": {
         "type": "article-journal",
@@ -8247,5 +8250,26 @@
             }
         ],
         "URL": "http://nla.gov.au/nla.obj-517936767"
+    },
+    "TigerTank": {
+        "type": "webpage",
+        "container-title": "Office of the Royal Society",
+        "title": "เสือตกถัง",
+        "title-lang": "th",
+        "URL": "http://legacy.orst.go.th/?knowledges=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-%E0%B9%91%E0%B9%90-%E0%B8%81%E0%B8%B8%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C",
+        "author": [
+            {
+                "given": "อิสริยา",
+                "family": "เลาหตีรานนท์",
+                "lang": "th",
+                "alt": "Isriya Laohatiranon",
+                "alt-lang": "th-Latn"
+            }
+        ],
+        "issued": {
+            "year": 2009,
+            "month": 2,
+            "day": 10
+        }
     }
 }

@@ -1,6 +1,5 @@
 ---
 title: Assault
-draft: true
 players: 2
 subgames:
 - title: Royal Garrison
@@ -30,7 +29,7 @@ In other languages and countries it is known as:
 
 * Danish: <span lang="da">belejringsspel</span> ‘siege game’.[@Fiske p. 147]
 * English: also known as “siege”, “citadel”,[@MeditoBoxFront] or “(The New
-  Military Game of) German tactics” (published by John Jaques & Son)
+  Military Game of) German Tactics” (published by John Jaques & Son)
 * Italian: <span lang="it">assalto</span> ‘assault’.[@Fiske p. 147]
 * French: <span lang="fr">assaut</span> ‘assault’.[@Fiske p. 147]
 * German: <span lang="de">das festungs-spiel</span> or <span
@@ -87,7 +86,7 @@ A defending piece may make multiple consecutive jumps.
 The goal of the attacker is to occupy every point of the fortress, or to
 surround their defender’s pieces so that they cannot move. The goal of the
 defender is to reduce the attacker to eight pieces so that they cannot achieve
-their goal.
+their goal. The first player to achieve their goal wins.
 
 ## Variants
 
@@ -121,7 +120,7 @@ Eggenweiler), played with 20 attackers which are set up on all the lower points.
 
 </div>
 
-### Larger Version
+### Royal Garrison
 
 The game has also been played with a larger board. In Germany this variant was
 called <span lang="de">Grosses Festungs-Spiel</span> (‘large fortress game’). In

@@ -276,6 +276,8 @@ leading player to announce which card is being played. For the <span
 lang="jav-Latn">dika</span> cards, if a player has the corresponding card that
 can kill the led one, they say <span lang="jav-Latn">ana kéné</span>: “I have it!”
 
+### <span lang="jav-Latn">Dika</span> cards
+
 The <span lang="jav-Latn">wangsalan</span> for the <span
 lang="jav-Latn">dika</span> cards are, in the order presented
 above:[@JavaanseKaartspelen p. 50]
@@ -371,6 +373,8 @@ above:[@JavaanseKaartspelen p. 50]
 </ul>
 </dd>
 </dl>
+
+### Other cards
 
 <span lang="jav-Latn">Wangsalan</span> for other cards are:
 
