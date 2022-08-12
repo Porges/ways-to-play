@@ -13,10 +13,10 @@ subgames:
 Cee-Lo is a gambling game played with three dice. The English name is apparently
 derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’;
 Mandarin: {%pronounce lang="zh-Latn" word="sì wǔ liù" pronouncer="MarvinMeow"
-file="pronunciation_zh_四五六.mp3" %}, Cantonese: <span lang="yue-Latn">si3 ng5
-luk6</span>, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the
-highest roll in the game. Some books refer to it as “Strung Flowers”, another
-Chinese name for the highest roll.[@Bell p. 145]
+file="pronunciation_zh_四五六.mp3" %}, Cantonese: {% pronounce lang="yue-Latn"
+word="si3 ng5 luk6" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3" %},
+Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the highest roll in the
+game. Some books refer to it as “Strung Flowers”, another Chinese name for the highest roll.[@Bell p. 145]
 
 In @GamblingGamesOfMalaya [p. 96] the name is given as <span lang="zh">六骰
  </span> (literally ‘six dice’), but with the odd pronunciation “Luk Kow” (the
@@ -56,8 +56,11 @@ non-pair number being the value of the point. For example, the roll {%cdice
 The traditional method of play is as follows.
 
 One player at a time acts as the banker (<span lang="zh">莊</span>, Cantonese:
-<span lang="yue-Latn">zong1</span>, Hokkien: <span lang="nan-Latn">chong</span>,
-Mandarin: <span lang="cmn-Latn">zhuāng</span>). 
+{% pronounce lang="yue-Latn" word="zong1" pronouncer="robertlam88"
+file="pronunciation_yue_莊.mp3" %}, Hokkien: {% pronounce lang="nan-Latn"
+word="chong" file="pronunciation_nan_莊.mp3" pronouncer="FlyingBlank" %},
+Mandarin: {% pronounce  lang="cmn-Latn" word="zhuāng" pronouncer="Eflong"
+file="pronunciation_zh_莊.mp3" %}). 
 
 The banker first puts up their stake. Each player in turn then has a chance to
 _cover_ or _fade_ the banker’s bet, by placing a stake equivalent to some
@@ -93,7 +96,7 @@ Chinese Name[@ChineseGames p. 493]
 </thead>
 <tbody>
 <tr><th scope="row">4–5–6</th><td><span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn">si3 ng5 luk6</span><br/><br/><span lang="zh">串花</span> ‘strung flowers’<br/>Cantonese: <span lang="yue-Latn">cyun3 faa1</span></td><td>Head Crack</td><td>{%cdice 456%}</td><td class="bg-success text-white">Win</td></tr>
-<tr><th scope="row">Triple</th><td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: <span lang="yue-Latn">wai4</span></td><td>Trips</td><td>{%cdice '==='%}</td><td class="bg-success text-white">Win</td></tr>
+<tr><th scope="row">Triple</th><td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: {% pronounce  lang="yue-Latn" word="wai4" pronouncer="cuichungman" file="pronunciation_yue_圍.mp3" %}</td><td>Trips</td><td>{%cdice '==='%}</td><td class="bg-success text-white">Win</td></tr>
 <tr><th scope="row">6 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==6'%}</td><td class="bg-success text-white">Win</td></tr>
 <tr><th scope="row">5 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==5'%}</td><td>Point of 5</td></tr>
 <tr><th scope="row">4 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==4'%}</td><td>Point of 4</td></tr>
@@ -221,13 +224,15 @@ on the roll; players can win or lose up to 3× the amount they staked. The
 ranking of some rolls also differs from Cee-Lo (e.g. {%jdice 111%} loses).
 
 Each player has three attempts to “make” their roll by achieving one of the
-specified outcomes. If they fail then they **bust** and lose their stake. A player
-also busts instantly if any of their dice escape the bowl — this is called
-‘pissing’ (<span lang="ja">小便</span> <span lang="ja-Latn">shōben</span>, also
-used to describe the breaking of a contract).
+specified outcomes. If they fail then they **bust** and lose their stake. A
+player also busts instantly if any of their dice escape the bowl — this is
+called ‘pissing’ (<span lang="ja">小便</span> {% pronounce lang="ja-Latn"
+word="shōben" pronouncer="smine" file="pronunciation_ja_小便.mp3" %}, also used
+to describe the breaking of a contract).
 
-An triplet is called a ‘storm’ (<span lang="ja">嵐</span> <span
-lang="ja-Latn">arashi</span>).{%fn%}Apparently this term comes from the game
+An triplet is called a ‘storm’ (<span lang="ja">嵐</span> {% pronounce
+lang="ja-Latn" word="arashi" file="pronunciation_ja_嵐.mp3"
+pronouncer="straycat88" %}).{%fn%}Apparently this term comes from the game
 {%gameref oicho-kabu%}.{%endfn%}
 
 <table class="table">

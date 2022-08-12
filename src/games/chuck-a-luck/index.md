@@ -291,25 +291,25 @@ usual, the extended staking layout contains boxes for the following bets:
         <tr>
             <td>9, 12</td>
             <td>5:1</td>
-            <td>≈8:1</td>
+            <td>7.64:1<br/>(191:25)</td>
             <td>30.56%</td>
         </tr>
         <tr>
             <td>8, 13</td>
             <td>7:1</td>
-            <td>≈9:1</td>
+            <td>≈9.3:1<br/>(65:7)</td>
             <td>22.22%</td>
         </tr>
         <tr>
             <td>7, 14</td>
             <td>11:1</td>
-            <td>≈13:1</td>
+            <td>13.4:1<br/>(67:5)</td>
             <td>16.67%</td>
         </tr>
         <tr>
             <td>6, 15</td>
             <td>17:1</td>
-            <td>≈21:1</td>
+            <td>20.6:1<br/>(103:5)</td>
             <td>16.67%</td>
         </tr>
         <tr>

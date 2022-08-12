@@ -25,14 +25,15 @@ A game of <span lang="haw">kōnane</span> in action.
 
 ## History
 
-<span class="noun" lang="haw">Kōnane</span> stands alone as a purely-abstract game in
+{% pronounce lang="haw" noun=true word="Kōnane" pronouncer="vawahine"
+file="pronunciation_haw_kōnane.mp3" %} stands alone as a purely-abstract game in
 Hawaiian culture.{%fn%}John F. G. Stokes (1875–1960, an Australian archæologist
-on <span class="noun" lang="haw">Hawaiʻi</span>) suggested at one point—with only a sliver of
-linguistic evidence—that <span class="noun" lang="haw">Kōnane</span> could be a distant
-descendant of Go, which had been transmitted by the survivors of Japanese
-shipwrecks.[@Stokes]{%endfn%}  However, it definitely existed before European
-contact, as it was described by Captain Cook’s voyage, which was the first of
-its kind to reach the islands (see below).
+on <span class="noun" lang="haw">Hawaiʻi</span>) suggested at one point—with
+only a sliver of linguistic evidence—that <span class="noun"
+lang="haw">Kōnane</span> could be a distant descendant of Go, which had been
+transmitted by the survivors of Japanese shipwrecks.[@Stokes]{%endfn%}  However,
+it definitely existed before European contact, as it was described by Captain
+Cook’s voyage, which was the first of its kind to reach the islands (see below).
 
 The game dates at least from the early 18th century, as it was played by
 Kahekili II (c. 1737–1794), who was high chief (<span lang="haw">aliʻi

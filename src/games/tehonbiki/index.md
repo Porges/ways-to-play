@@ -19,15 +19,17 @@ It is usually played with three special sets of cards:
   style all the numbers are black.
 * Cards for the dealer, again numbered 1–6, but in a different pattern. These
   are called <span lang="ja-Latn">kurifuda</span> (<span lang="ja">繰札</span>
-  ‘shuffling cards’), <span lang="ja-Latn">oyafuda</span> (<span lang="ja">親札
-  </span> ‘house cards’), <span lang="ja-Latn">hikifuda</span> (<span lang="ja">引札</span>
-   ‘drawing cards’), or <span lang="ja-Latn">mamefuda</span> (<span
-  lang="ja">豆札</span> ‘bean cards’). The card with the number 4 on it is
-  usually stamped with the manufacturer’s mark.
+  ‘shuffling cards’), {% pronounce lang="ja-Latn" word="oyafuda"
+  file="pronunciation_ja_親札.mp3" pronouncer="cochan0308" %} (<span lang="ja">
+   親札</span> ‘house cards’), <span lang="ja-Latn">hikifuda</span> (<span
+  lang="ja">引札</span> ‘drawing cards’), or <span
+  lang="ja-Latn">mamefuda</span> (<span lang="ja">豆札</span> ‘bean cards’). The
+  card with the number 4 on it is usually stamped with the manufacturer’s mark.
 * Wooden blocks numbered 1–6 for the dealer to show recently chosen numbers.
   These are called <span lang="ja-Latn">mefuda</span> (<span lang="ja">目札
-  </span> ‘seeing cards’), <span lang="ja-Latn">memoku</span> (<span lang="ja">目木</span>
-  ‘seeing woods’), or <span lang="ja-Latn">meyasufuda</span> (<span
+  </span> ‘seeing cards’), <span lang="ja-Latn">memoku</span> (<span lang="ja">
+  目木</span> ‘seeing woods’), or {% pronounce lang="ja-Latn" word="meyasufuda"
+  file="pronunciation_ja_目安札.mp3" pronouncer="cochan0308" %} (<span
   lang="ja">目安札</span> ‘easy-to-see cards’).
 
 The 1968 Japanese film <i>Red Peony Gambler</i> <ruby lang="ja">緋牡丹<rt

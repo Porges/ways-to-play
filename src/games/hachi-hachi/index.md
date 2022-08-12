@@ -57,20 +57,23 @@ lang="ja-Latn">sugawara</span>).
 {% imageEnd %}
 
 It was also formerly known as <span lang="ja-Latn">ura-sugawara</span> (<span
-lang="ja">裏菅原</span>, ‘behind/inside <span class="noun" lang="ja-Latn">Sugawara</span>’)
-or <span lang="ja-Latn">urasu</span> for short.<Footnote>Other spellings of
-<span lang="ja-Latn">urasu</span> (<span lang="ja">うらす</span>) include <span
-lang="ja">裏</span>, <span lang="ja">裏す</span>, <span lang="ja">宇良す</span>,
-or <span lang="ja">𛀋らす</span>.</Footnote> This name was a reference to the
-popular <span lang="ja-Latn">kabuki</span> play <cite lang="ja-Latn">Sugawara
-Denju Tenarai Kagami</cite> (<span lang="ja">菅原伝授手習鑑</span>,
+lang="ja">裏菅原</span>, ‘behind/inside <span class="noun"
+lang="ja-Latn">Sugawara</span>’) or <span lang="ja-Latn">urasu</span> for
+short.<Footnote>Other spellings of <span lang="ja-Latn">urasu</span> (<span
+lang="ja">うらす</span>) include <span lang="ja">裏</span>, <span lang="ja">裏す
+</span>, <span lang="ja">宇良す</span>, or <span lang="ja">𛀋らす
+</span>.</Footnote> This name was a reference to the popular <span
+lang="ja-Latn">kabuki</span> play <cite>{% pronounce lang="ja-Latn"
+word="Sugawara Denju Tenarai Kagami" file="pronunciation_ja_菅原伝授手習鑑.mp3"
+pronouncer="jinyamai" %}</cite> (<span lang="ja">菅原伝授手習鑑</span>,
 ‘<cite>Sugawara and the Secrets of Calligraphy</cite>’). In the play the three
 main characters are brothers who are named after the three plants featured on
-the cards: <span class="noun" lang="ja-Latn">Matsuōmaru</span> (<span lang="ja">松王丸
-</span>, pine), <span class="noun" lang="ja-Latn">Umeōmaru</span> (<span lang="ja">梅王丸
-</span>, plum), and <span class="noun" lang="ja-Latn">Sakuramaru</span> (<span lang="ja">桜丸
-</span>, cherry). In the play the brothers wear costumes which bear symbols of
-the plants related to their names.
+the cards: <span class="noun" lang="ja-Latn">Matsuōmaru</span> (<span lang="ja">
+松王丸</span>, pine), <span class="noun" lang="ja-Latn">Umeōmaru</span> (<span
+lang="ja">梅王丸</span>, plum), and <span class="noun"
+lang="ja-Latn">Sakuramaru</span> (<span lang="ja">桜丸</span>, cherry). In the
+play the brothers wear costumes which bear symbols of the plants related to
+their names.
 
 The <span lang="ja-Latn">yaku</span> can also be called <span
 lang="ja-Latn">yoroshī</span> (<span lang="ja">よろしい</span>, ‘good’) or <span
@@ -86,9 +89,9 @@ teyaku</span>.
     originalUrl='https://collections.mfa.org/objects/217240',
     orgName='Museum of Fine Arts Boston',
     license='cc0' %}
-The ‘<span class="noun" lang="ja-Latn">Kurumabiki</span>’ (<span lang="ja">車引き</span>,
-carriage-breaking) scene from <cite>Sugawara and the Secrets of
-Calligraphy</cite>. The three brothers can be seen at front wearing clothes
+The ‘<span class="noun" lang="ja-Latn">Kuruma&shy;hiki</span>’ (<span lang="ja">車引き</span>,
+carriage-pulling) scene from <cite>Sugawara and the Secrets of
+Calligraphy</cite>.<br/>The three brothers can be seen at front wearing clothes
 bearing the plants: cherry blossoms, plum blossoms, and pine trees.<br/>An 1841
 print by <span class="noun" lang="ja-Latn">[Utagawa
 Kunisada](https://en.wikipedia.org/wiki/Kunisada)</span> (<span lang="ja">歌川国

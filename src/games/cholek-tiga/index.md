@@ -83,10 +83,12 @@ The player who scored the least points goes first in the next game.
 If a player captures a set of three **identical** cards on their turn, they win
 a bonus from **each** other player, which is paid instantly:
 
-* If the capture was made with a card from their hand, it is called an <span
-  lang="ms">ayam</span> (‘chicken’), and wins 50¢.
-* If the capture was made with a card from the stock, it is called a <span
-  lang="ms">kandang</span> (‘cage’), and wins $1.
+* If the capture was made with a card from their hand, it is called an {%
+  pronounce file="pronunciation_ms_ayam.mp3" pronouncer="faezah" word="ayam"
+  lang="ms" %} (‘chicken’), and wins 50¢.
+* If the capture was made with a card from the stock, it is called a {%
+  pronounce file="pronunciation_ms_kandang.mp3" word="kandang" lang="ms"
+  pronouncer="eaileys" %}  (‘cage’), and wins $1.
 
 ## See also
 

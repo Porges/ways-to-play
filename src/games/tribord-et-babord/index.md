@@ -12,10 +12,11 @@ Port’) is a 19th-century dice gambling game for two players.</p>
 
 ## Equipment
 
-The game is played using a board and a single die, and six tokens to mark the
-spaces on the board. The board contains six symbols, which are also printed on
-the die. These are similar to those used in the game of {% gameref
-crown-and-anchor %}.
+{%pronounce noun=true lang="fr" word="Tribord et Bâbord"
+file="pronunciation_fr_tribord_et_bâbord.mp3" pronouncer="Pat91" %} is played
+using a board and a single die, and six tokens to mark the spaces on the board.
+The board contains six symbols, which are also printed on the die. These are
+similar to those used in the game of {% gameref crown-and-anchor %}.
 
 {% image 
     src='./TribordBoard.png'
@@ -43,14 +44,16 @@ Each time they roll one of their own symbols, they mark it with a token. A
 symbol can only be marked off once.
 
 The first time a player marks off one of their symbols, their opponent pays them
-1× the stake, the second time (called <span lang="fr">radoub</span>, ‘refitting’
-the ship), they are paid 2×, and the third time (called the <span
-lang="fr">prise</span>, ‘capture’), they win 4× the stake.
+1× the stake, the second time (called {%pronounce lang="fr" word="radoub"
+pronouncer="marois" %}, ‘refitting’ the ship), they are paid 2×, and the third
+time (called the {%pronounce lang="fr" word="prise" pronouncer="spl0uf" %},
+‘capture’), they win 4× the stake.
 
 If they roll a symbol that is already marked off, they are paid 1× the stake.
 
 Each time they roll one of their opponent’s symbols, they pay them 1× the stake
-(this is called the <span lang="fr">écueil</span>, ‘reef’).
+(this is called the {%pronounce lang="fr" word="écueil" pronouncer="spl0uf" %},
+‘reef’).
 
 If a player doesn’t manage to roll a single one of their own symbols in their
 three attempts, this is called <span lang="fr">naufrage</span> (‘shipwreck’),
