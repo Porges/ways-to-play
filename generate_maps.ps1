@@ -99,5 +99,5 @@ function GenerateCountryMap {
 GenerateProvinceMap "Pong" @("MY-03", "TH") -offset 1000
 GenerateCountryMap "Morabaraba" @("ZA", "LS", "BW", "MZ") -ratio 0.75 -offset 1500
 GenerateCountryMap "CrownAndAnchor" @("IN", "NP", "CN", "AU", "GB", "VN", "TH", "LA", "ID", "MM", "MY", "BN", "JM", "BM", "NZ", "CA", "KH", "MG", "BT", "BD") 
-GenerateProvinceMap "PigeonTickets" @("CN-GD", "NZ-WGN", "NZ-AUK", "NZ-OTA", "AU-VIC", "US-CA", "US-HI", "CA-BC", "US-NY", "US-WA", "US-OR", "US-NV", "CN-MO", "CN-HK", "MY-10") -rotate 180 -offset 1500
+GenerateProvinceMap "PigeonTickets" @("CN-GD", "NZ-WGN", "NZ-AUK", "NZ-OTA", "AU-VIC", "US-CA", "US-HI", "CA-BC", "US-NY", "US-WA", "US-OR", "US-NV", "CN-MO", "CN-HK", "MY-10", "ZA", "GB-LND") -rotate 180 -offset 1500
 GenerateCountryMap "Ceki" @("ID", "MY", "SG", "BN")

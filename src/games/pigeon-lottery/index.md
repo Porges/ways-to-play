@@ -28,16 +28,17 @@ Keno, which is now played in casinos around the world.
 
 <!-- excerpt -->
 
-In European sources, it is often referred to as simply “the Chinese lottery”. The
-transliteration of the game is usually given as “pak-a-poo” (most common in New
-Zealand) or “pak-a(h)-pu” (most common in Australia). In London (particularly
-centered around the Chinese community in Pennyfields, Poplar) it was referred to
-as “puk-a-pu” or “puk-a-poo”, and in South Africa “pa-ka-pu”.[@TheBantuInTheCity
-p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”,
-“pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portugeuse
-romanization of “pacapio”, which remains standard in current usage. In the USA
-it became at first “boc hop bu”[@NYTimes18870127] before picking up one of the
-aforementioned names, but in Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
+In European sources, it is often referred to as simply “the Chinese lottery”.
+The transliteration of the game is usually given as “pak-a-poo” (most common in
+New Zealand) or “pak-a(h)-pu” (most common in Australia). In London
+(particularly centered around the Chinese community in Pennyfields, Poplar) it
+was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa
+“pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are
+“pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In
+Macau it is given with the Portugeuse romanization of “pacapio”, which remains
+standard in current usage. In the USA it became at first “boc hop
+bu”[@NYTimes18870127] before picking up a variety of the other names, but in
+Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the
