@@ -8271,5 +8271,43 @@
             "month": 2,
             "day": 10
         }
+    },
+    "SilvioPetricciani": {
+        "title": "Silvio E. Petricciani: The Evolution of Gaming in Nevada: The Twenties to the Eighties",
+        "author": [
+            {
+                "given": "Kathryn M.",
+                "family": "Totton"
+            }
+        ],
+        "issued": {
+            "year": 1982
+        },
+        "publisher": "University of Nevada Oral History Program",
+        "publisher-place": "Reno, Nevada, USA",
+        "URL": "https://archive.org/details/PetriccianiSilvio"
+    },
+    "AlwaysBetOnTheButcher": {
+        "title": "Always Bet on the Butcher: Warren Nelson and Casino Gaming, 1930s–1980s",
+        "author": [
+            {
+                "given": "Ken",
+                "family": "Adams"
+            },
+            {
+                "given": "Robert Thomas",
+                "family": "King"
+            },
+            {
+                "given": "Gail K.",
+                "family": "Nelson"
+            }
+        ],
+        "issued": {
+            "year": 1994
+        },
+        "publisher": "University of Nevada Oral History Program",
+        "publisher-place": "Reno, Nevada, USA",
+        "URL": "https://archive.org/details/NelsonWarrenAlwaysBet"
     }
 }

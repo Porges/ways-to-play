@@ -23,14 +23,18 @@ lang="zh-Latn">Guangdong</span> during the late Qing dynasty, and which in the
 19th and 20th centuries was spread throughout Oceania-bordering countries by
 Chinese emigrants. 
 
-The game was eventually modified by Americans and turned into the modern game of
-Keno, which is now played in casinos around the world.
+The history of the game is sadly a well-trodden story of racism and hypocrisy:
+as a Chinese gambling game, Chinese migrants were punished while gambling games
+played by Europeans were permitted. Later the game was adapted by Americans who
+profited from a now-legal game even as the Chinese game was suppressed.
+Eventually, the game became known under the modern name of Keno, now played in
+casinos around the world.
 
 <!-- excerpt -->
 
-In European sources, it is often referred to as simply “the Chinese lottery”.
-The transliteration of the game is usually given as “pak-a-poo” (most common in
-New Zealand) or “pak-a(h)-pu” (most common in Australia). In London
+In European sources, the game is often referred to as simply “the Chinese
+lottery”. The transliteration of the game is usually given as “pak-a-poo” (most
+common in New Zealand) or “pak-a(h)-pu” (most common in Australia). In London
 (particularly centered around the Chinese community in Pennyfields, Poplar) it
 was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa
 “pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are
@@ -48,19 +52,35 @@ number of matching characters they have marked on their ticket. The specific
 numbers of characters chosen and the permissible bets vary by both time and
 location.
 
-## False origins
+## Early origins
 
 It is sometimes fancifully claimed that the name of the game was because
 originally white pigeons were used to choose winning tickets, but that is not
 possible given the way the game is played; it is not a lottery where one or more
 tickets are selected to be the winner(s).
 
+The game seems to have originated from gambling on the early-Qing “white pigeon
+festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span
+lang="yue-Latn">baak6 gap3 wui2</span>) which was held in Guangdong. Pigeons
+were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span
+lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span
+lang="zh">佛山</span>), and groups of pigeons were numbered using the opening
+characters from the [<cite>Thousand Character
+Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span
+lang="zh">千字文</span>).{%fn%}This system of enumeration has also been used to
+number volumes of books and other objects.{%endfn%} Bets were made on which
+group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the
+pigeons were dropped entirely and a game was developed based on characters begin
+drawn at random.
+
+<!--
 According to some Chinese dictionaries, the game was a derivative of
 pigeon-racing bets. The story goes that the characters were originally used to
 label pigeons, and players would select which pigeons to bet upon based on the
 characters assigned to those pigeons, and eventually, the pigeons were dropped
 entirely, with the characters being drawn at random. However, there is no record
 of pigeon races and betting being performed in this manner.[@SparrowAndPigeon]
+-->
 
 ## Known history
 
@@ -375,11 +395,13 @@ ticket = 6d
 
 -->
 
-That same year, the “Chinese Pak-Cup-Pew Trading Company” made a donation of £100
+There were perhaps attempts by the banks to make themselves publicly acceptable,
+as in 1874 the “Chinese Pak-Cup-Pew Trading Company” made a donation of £100
 towards the hospital in Melbourne.[@PakCupPewHospital] 
 
-In 1876 it was reported that there were 25 agents operating between Swanston and
-Russell streets.[@InAChineseLotteryShop p. 7]
+In any case, despite suppression, the game became very popular in Melbourne: in
+1876 it was reported that there were 25 agents operating in the area between
+Swanston and Russell streets.[@InAChineseLotteryShop p. 7]
 
 By 1877 the inequality between the prosecution of Chinese and European games was
 noted in the papers:
@@ -405,26 +427,30 @@ opposite to be true:
 > just retribution overtakes the Mongolian.[@TheChineseInAustraliaBulletin]
 
 This article was accompanied by what has been called the “most scandalous and
-racist cartoon ever to grace the Australian media”.[@RacismRife]
-
+racist cartoon ever to grace the Australian media”,[@RacismRife] depicting “pak
+ah pu” as one leg of the “Mongolian octopus”, alongside “immorality”,
+“small-pox” and “typhoid”, “opium”, “fan tan”, “bribery”, “cheap labour”, and
+“customs robbery”.{%fn%}This cartoon was drawn by [Phil
+May](https://en.wikipedia.org/wiki/Phil_May_(caricaturist)).{%endfn%}
 
 ### In New Zealand
 
-{% image src="pakapoo_ticket.jpg" alt=""
-    orgName="Alexander Turnbull Library"
-    identifier="Eph-A-LOTTERY-1920s-01"
-    license="with-permission"
-    originalUrl="https://natlib.govt.nz/records/22741041" %}
-A used “pakapoo” ticket from New Zealand. This ticket records four simultaneous
-bets on sets of five numbers; the drawn lines divide the ticket into four separate
-zones.
-{% imageEnd %}
-
 As in Australia, racist depictions of Chinese gambling were common. And yet,
-while newspaper reporters decried {TODO}, others came to the defence of the game.
-
+while newspaper reports often decried gambling and gamblers, others came to the
+defence of the game.
 
 #### Legality and Hypocrisy
+
+{% image src="pakapoo_ticket.jpg" alt="" position="aside"
+    orgName="Alexander Turnbull Library" identifier="Eph-A-LOTTERY-1920s-01"
+    license="with-permission"
+    originalUrl="https://natlib.govt.nz/records/22741041" %}
+    
+A used “pakapoo” ticket from New Zealand, probably from the 1920s. This ticket
+records four simultaneous bets on sets of five numbers; the drawn lines divide
+the ticket into four separate zones.
+
+{% imageEnd %}
 
 Pakapoo was illegal from 1862 in Otago,[@RememberingChinatown p. 93] and would
  be made illegal nationwide with the passage of the [Gaming and Lotteries Act of
@@ -661,8 +687,38 @@ One 6d ticket would pay:
 Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
 {% imageEnd %}
 
-{%aside%}
-Note that there was a prior Bingo-like game also called Keno (or Quino), which
-used pre-printed sheets and randomly-drawn numbers. This game is not related to
-the modern game of Keno.
-{%endaside%}
+{%aside%} It is important to note that there was an earlier Bingo-like game in
+the 19th century that was also called Keno (or Quino). This game used pre-printed
+sheets and randomly-drawn numbers, and is not related to the modern game
+of Keno. See the {%gameref keno-bingo %} article for more. {%endaside%}
+
+The “Chinese lottery” was to become Europeanized and acceptable through its
+adoption and development by American casino operators in the early 20th century.
+
+The first publicly played version of this game appears to have been “Race
+Horse Keno”, which was launched by the Palace Club in Reno in 1936. The game was
+given a horse-racing theme, and the Chinese characters were replaced by the
+numbers 1 to 80. Balls with these numbers could then be drawn to determine the
+“winning horses”. It is interesting to note that this inadvertently returned the
+game to its pigeon-racing roots.
+
+As a game of chance and not a lottery, the “new” game was legal under Nevada
+laws.[@SilvioPetricciani p. 26] According to several sources the game was
+introduced by Warren Nelson (1913–1994) who had learned it in Butte,
+Montana.[@SilvioPetricciani p. 26] Warren describes in his own words how the
+game was lifted from the Chinese:[@AlwaysBetOnTheButcher p. 30]
+
+> Keno, which was originally a Chinese game, was well known throughout the West.
+> Everywhere you’d go, Chinese could be found running illegal keno games. Some
+> of them had tried to start games in Butte, but their competition, white
+> professional gamblers, would get their games closed up. Then a fellow went in
+> partners with a Chinaman, and when he learned everything he could from him, he
+> kicked him out. The Chinese were looked down upon so much that you could do
+> anything to them and no one would say a word.
+
+Warren’s game was at first played in the backroom of the Mint Cigar store in
+Butte. Initially they used the same method of drawing the numbers as in the
+Chinese version of the game, but eventually moved to using balls rolled in a
+tumbler. The number of drawings was also increased from two per day to one every
+fifteen minutes. It was this version of the game that was taken to the Palace
+Club in Nevada.[@AlwaysBetOnTheButcher p. 34–5]
