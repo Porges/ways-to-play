@@ -8273,6 +8273,7 @@
         }
     },
     "SilvioPetricciani": {
+        "type": "book",
         "title": "Silvio E. Petricciani: The Evolution of Gaming in Nevada: The Twenties to the Eighties",
         "author": [
             {
@@ -8288,6 +8289,7 @@
         "URL": "https://archive.org/details/PetriccianiSilvio"
     },
     "AlwaysBetOnTheButcher": {
+        "type": "book",
         "title": "Always Bet on the Butcher: Warren Nelson and Casino Gaming, 1930s–1980s",
         "author": [
             {
@@ -8311,6 +8313,7 @@
         "URL": "https://archive.org/details/NelsonWarrenAlwaysBet"
     },
     "WarrenNelson": {
+        "type": "book",
         "title": "Warren Nelson: Gaming From the Old Days to Computers",
         "author": [
             {
@@ -8326,6 +8329,7 @@
         "URL": "https://archive.org/details/NelsonWarren"
     },
     "EveryLightWasOn": {
+        "type": "book",
         "title": "Every Light Was On: Bill Harrah and His Clubs Remembered",
         "author": [
             {
@@ -8345,5 +8349,93 @@
         "publisher": "University of Nevada Oral History Program",
         "publisher-place": "Reno, Nevada, USA",
         "URL": "https://archive.org/details/EveryLightWasOnHarrahs"
+    },
+    "StatevCrownCigarStore": {
+        "type": "webpage",
+        "URL": "https://casetext.com/case/state-v-crown-cigar-store",
+        "title": "State v. Crown Cigar Store",
+        "publisher": "Supreme Court of Montana",
+        "issued": {
+            "year": 1950,
+            "month": 8,
+            "day": 2
+        }
+    },
+    "LostButte": {
+        "type": "book",
+        "title": "Lost Butte, Montana",
+        "author": [
+            {
+                "given": "Richard I.",
+                "family": "Gibson"
+            }
+        ],
+        "issued": {
+            "year": 2012
+        },
+        "publisher": "The History Press",
+        "publisher-place": "Charleston, SC, USA",
+        "ISBN": "9781614238195"
+    },
+    "FrancisLydenButteBoy": {
+        "type": "article-newspaper",
+        "title": "Reno After Dark",
+        "container-title": "Nevada State Journal",
+        "publisher-place": "Reno, Nevada, USA",
+        "issued": {
+            "year": 1936,
+            "month": 5,
+            "day": 30
+        },
+        "page": 9,
+        "volume": 65,
+        "issue": 205
+    },
+    "Fussbudget": {
+        "type": "article-newspaper",
+        "title": "Center Street Gossip",
+        "author": [
+            {
+                "given": "Johnny",
+                "family": "Langford"
+            }
+        ],
+        "container-title": "Nevada State Journal",
+        "publisher-place": "Reno, Nevada, USA",
+        "issued": {
+            "year": 1938,
+            "month": 2,
+            "day": 19
+        },
+        "page": 5,
+        "volume": 67,
+        "issue": 102
+    },
+    "ChineseGamblersRaided": {
+        "title": "Chinese Gamblers Raided By Police",
+        "type": "article-newspaper",
+        "container-title": "The Times",
+        "publisher-place":"Washington",
+        "issued": {
+            "year": 1899,
+            "month": 6,
+            "day": 5
+        },
+        "page": 8,
+        "issue": 1871
+    },
+    "JBCrane": {
+        "title": "Mayor Decides Who’s Who",
+        "type": "article-newspaper",
+        "container-title": "Nevada State Journal",
+        "publisher-place": "Reno, Nevada, USA",
+        "issued": {
+            "year": 1933,
+            "month": 6,
+            "day": 16
+        },
+        "page": 1,
+        "volume": 62,
+        "issue": 322
     }
 }

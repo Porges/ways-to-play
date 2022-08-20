@@ -687,29 +687,85 @@ One 6d ticket would pay:
 Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
 {% imageEnd %}
 
-{%aside%} It is important to note that there was an earlier Bingo-like game in
-the 19th century that was also called Keno (or Quino). This game used pre-printed
-sheets and randomly-drawn numbers, and is not related to the modern game
-of Keno. See the {%gameref keno-bingo %} article for more. {%endaside%}
-
 The “Chinese lottery” was to become Europeanized and acceptable through its
 adoption and development by American casino operators in the early 20th century.
+It is probable that the game was adapted in several locations by Americans
+looking to popularize it, but what appears to be the main thread of
+popularization is recounted here.
+
+Versions of the “Chinese lottery” were played in Butte, Montana. Just like in
+the examples above, Butte was a mining town with a significant migrant Chinese
+population. The game was played illegally in the backrooms of “cigar stores”,
+which also operated as speakeasies. One in particular, the Crown Cigar Store,
+was operating the Chinese game in 1927.[@LostButte p. 50] {%fn%}A court case
+from 1948 shows that at the Crown the game was known as “the Crown Game” or the
+“Crown [punchboard](https://en.wikipedia.org/wiki/Punchboard)
+game”,[@StatevCrownCigarStore] but it was clearly derived from the “Chinese
+lottery”.{%endfn%} The gambling operation was managed by two brothers, Joe and
+ Francis{%fn%}Some sources give “Frances”.{%endfn%} Lyden.
+
+These Butte games were routinely shut down by the police, but in 1931 Nevada legalized
+gambling in [Assembly Bill No.
+98](https://www.leg.state.nv.us/Statutes/35th1931/Stats193102.html#Stats193102page165)
+(popularly known as the “Wide Open Gambling Bill”). The bill explicitly
+legalized “keno”, as long as the person running the game had procured a license
+to do so.{%fn%}It is worth noting, given the ongoing theme of anti-Chinese
+discrimination here, that licenses were only available to US citizens, and
+‘aliens’ were not allowed to even operate a licensed game. This seems
+particularly egregious given that the distinctly Chinese game of Fan-Tan was
+also legalized by the bill… but only for US citizens!{%endfn%}
+
+At this time, the name “keno” (or “quino”) referred to an Bingo-like game from
+the 19th century (see the {%gameref keno-bingo %} article for more). This game
+used pre-printed sheets and randomly-drawn numbers, and is not directly related
+to the modern game of Keno, where sheets are marked by the players.{%fn%}As
+early as 1899, the Chinese game had been referred to as “Chinese Keno” to
+distinguish it from the existing Keno game.[@ChineseGamblersRaided]{%endfn%}
+
+However, it seems that the Lyden brothers seized upon this opportunity to
+rebrand their game under the “keno” name. In 1935 Francis moved to Reno, where
+he began to work for John Petricciani, owner of the newly-opened Palace
+Club.[@FrancisLydenButteBoy] {%fn%}Joe Lyden would also later (after 1938?) move
+to Las Vegas and start the first Keno game there, at the Fremont.{%endfn%}
+
+Earlier attempts to run the Chinese lottery under the “keno” name had failed: in
+1932, one Woo Sing had purchased a Keno license under which to operate the
+“Chinese lottery” in the Henry Club, only to have the license revoked by the
+Reno city council. In 1933, all gambling licenses held by one J. B. Crane were
+revoked and his club was shut, after he was found to be running “Chinese Keno”
+under a Keno license.[@JBCrane]{%fn%}Crane had previously boasted that the
+council did not have the power to close his club, which must not have helped his
+cause. In an earlier {%endfn%}
+
+Despite these cases, Francis proposed running a “keno” game, and contacted
+Warren Nelson, who he knew from Butte, to run it at the Palace
+Club.[@SilvioPetricciani p. 26] At the time Warren was running games in Great
+Falls.{%fn%}Warren states his father and a man named Cal Lewis ran the game
+together in the Mint Cigar Store, but that he was taught the game by a younger
+man named Jimmy Shea after his father refused to teach
+him.[@AlwaysBetOnTheButcher p. 29]{%endfn%}
+
+Warren had at first run the game in the backroom of the Mint Cigar Store in
+Butte. Initially, they had used the same method of drawing the numbers as in the
+Chinese version of the game (paper strips rolled and placed in four containers),
+but eventually moved on to using balls which were jumbled in a tumbler. The number of
+drawings was also increased to a much faster pace of one every fifteen minutes. It
+was this version of the game that was taken to the Palace Club in
+Nevada.[@AlwaysBetOnTheButcher p. 34–5, 50–1]
+
+Thus, the first publicly played version of the Americanized game appears to have
+been “Race Horse Keno”, which was launched by the Palace Club in Reno in 1936.
+The game was given a horse-racing theme, and the Chinese characters were
+replaced by the numbers 1 to 80. Balls with these numbers could then be drawn to
+determine the “winning horses”. It is interesting to note that this
+inadvertently returned the game to its pigeon-racing roots.
+
 
 ### Racehorse Keno
 
-The first publicly played version of this game appears to have been “Race
-Horse Keno”, which was launched by the Palace Club in Reno in 1936. The game was
-given a horse-racing theme, and the Chinese characters were replaced by the
-numbers 1 to 80. Balls with these numbers could then be drawn to determine the
-“winning horses”. It is interesting to note that this inadvertently returned the
-game to its pigeon-racing roots.
-
 As a game of chance and not a lottery, the “new” game was legal under Nevada
-laws.[@SilvioPetricciani p. 26] According to several sources the game was
-introduced by Warren Nelson (1913–1994) who had learned it in Butte, Montana,
-upon the request of Francis Lyden.[@SilvioPetricciani p. 26] Warren describes in
-his own words how the game was lifted from the Chinese:[@AlwaysBetOnTheButcher
-p. 30]
+laws.[@SilvioPetricciani p. 26] Warren describes in his own words how the game
+was lifted from the Chinese:[@AlwaysBetOnTheButcher p. 30]
 
 > Keno, which was originally a Chinese game, was well known throughout the West.
 > Everywhere you’d go, Chinese could be found running illegal keno games. Some
@@ -724,12 +780,8 @@ marked the tickets still used hair brushes imported from China,[@EveryLightWasOn
 p. 129], and the ink was purchased from Chinese
 suppliers.[@AlwaysBetOnTheButcher p. 50]
 
-Warren’s game was at first played in the backroom of the Mint Cigar store in
-Butte. Initially they used the same method of drawing the numbers as in the
-Chinese version of the game, but eventually moved to using balls rolled in a
-tumbler. The number of drawings was also increased from two per day to one every
-fifteen minutes. It was this version of the game that was taken to the Palace
-Club in Nevada.[@AlwaysBetOnTheButcher p. 34–5, 50–1] The Bank Club (the
+
+ The Bank Club (the
 next-door rival of the Palace Club) and Harolds Club were soon to follow by
 installing Keno games of their own.[@AlwaysBetOnTheButcher p. 53] In 1938 Warren
 opened the game at the Nevada Club in Lake Tahoe.[@WarrenNelson p. 10]
@@ -747,6 +799,7 @@ In this “racehorse” version of the game, each number had a horse’s name as
 to it; other examples of names included:[@EveryLightWasOn p. 128]
 
 - 2: Sunk
+- 22: Fussbudget[@Fussbudget]
 - 51: Tut-Tut
 - 52: Casey
 - 54: Minty
