@@ -8309,5 +8309,41 @@
         "publisher": "University of Nevada Oral History Program",
         "publisher-place": "Reno, Nevada, USA",
         "URL": "https://archive.org/details/NelsonWarrenAlwaysBet"
+    },
+    "WarrenNelson": {
+        "title": "Warren Nelson: Gaming From the Old Days to Computers",
+        "author": [
+            {
+                "given": "Keith",
+                "family": "Becker"
+            }
+        ],
+        "issued": {
+            "year": 1978
+        },
+        "publisher": "University of Nevada Oral History Program",
+        "publisher-place": "Reno, Nevada, USA",
+        "URL": "https://archive.org/details/NelsonWarren"
+    },
+    "EveryLightWasOn": {
+        "title": "Every Light Was On: Bill Harrah and His Clubs Remembered",
+        "author": [
+            {
+                "given": "Dwayne",
+                "family": "Kling"
+            }
+        ],
+        "editor": [
+            {
+                "given": "Robert Thomas",
+                "family": "King"
+            }
+        ],
+        "issued": {
+            "year": 1999
+        },
+        "publisher": "University of Nevada Oral History Program",
+        "publisher-place": "Reno, Nevada, USA",
+        "URL": "https://archive.org/details/EveryLightWasOnHarrahs"
     }
 }

@@ -695,6 +695,8 @@ of Keno. See the {%gameref keno-bingo %} article for more. {%endaside%}
 The “Chinese lottery” was to become Europeanized and acceptable through its
 adoption and development by American casino operators in the early 20th century.
 
+### Racehorse Keno
+
 The first publicly played version of this game appears to have been “Race
 Horse Keno”, which was launched by the Palace Club in Reno in 1936. The game was
 given a horse-racing theme, and the Chinese characters were replaced by the
@@ -704,9 +706,10 @@ game to its pigeon-racing roots.
 
 As a game of chance and not a lottery, the “new” game was legal under Nevada
 laws.[@SilvioPetricciani p. 26] According to several sources the game was
-introduced by Warren Nelson (1913–1994) who had learned it in Butte,
-Montana.[@SilvioPetricciani p. 26] Warren describes in his own words how the
-game was lifted from the Chinese:[@AlwaysBetOnTheButcher p. 30]
+introduced by Warren Nelson (1913–1994) who had learned it in Butte, Montana,
+upon the request of Francis Lyden.[@SilvioPetricciani p. 26] Warren describes in
+his own words how the game was lifted from the Chinese:[@AlwaysBetOnTheButcher
+p. 30]
 
 > Keno, which was originally a Chinese game, was well known throughout the West.
 > Everywhere you’d go, Chinese could be found running illegal keno games. Some
@@ -716,9 +719,39 @@ game was lifted from the Chinese:[@AlwaysBetOnTheButcher p. 30]
 > kicked him out. The Chinese were looked down upon so much that you could do
 > anything to them and no one would say a word.
 
+Despite divorcing the game from its Chinese origins, the keno “writers” who
+marked the tickets still used hair brushes imported from China,[@EveryLightWasOn
+p. 129], and the ink was purchased from Chinese
+suppliers.[@AlwaysBetOnTheButcher p. 50]
+
 Warren’s game was at first played in the backroom of the Mint Cigar store in
 Butte. Initially they used the same method of drawing the numbers as in the
 Chinese version of the game, but eventually moved to using balls rolled in a
 tumbler. The number of drawings was also increased from two per day to one every
 fifteen minutes. It was this version of the game that was taken to the Palace
-Club in Nevada.[@AlwaysBetOnTheButcher p. 34–5]
+Club in Nevada.[@AlwaysBetOnTheButcher p. 34–5, 50–1] The Bank Club (the
+next-door rival of the Palace Club) and Harolds Club were soon to follow by
+installing Keno games of their own.[@AlwaysBetOnTheButcher p. 53] In 1938 Warren
+opened the game at the Nevada Club in Lake Tahoe.[@WarrenNelson p. 10]
+
+Warren also recorded some of the patter (or “ballyhoo”) that was used to
+announce the game, mimicking the style of a horse racing
+commentator:[@AlwaysBetOnTheButcher p. 158]
+
+> All right, they’re off and running!<br/>Jockey number 1 on Nanny
+> Dee.<br/>Jockey 16 on Mainstreet,<br/>Right down the main drag.<br/>You’ve got
+> a hell of a race,<br/>And a hell of a bunch of horses!<br/>Jockey number 69 on
+> Kay Dugan,<br/>That old Irish girl again.
+
+In this “racehorse” version of the game, each number had a horse’s name assigned
+to it; other examples of names included:[@EveryLightWasOn p. 128]
+
+- 2: Sunk
+- 51: Tut-Tut
+- 52: Casey
+- 54: Minty
+- 70: Black Tom
+- 80: Bright Lady
+
+The racehorse version of the game died out in the mid 1950s.[@EveryLightWasOn p.
+128]
