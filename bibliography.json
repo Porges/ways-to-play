@@ -8415,7 +8415,7 @@
         "title": "Chinese Gamblers Raided By Police",
         "type": "article-newspaper",
         "container-title": "The Times",
-        "publisher-place":"Washington",
+        "publisher-place": "Washington",
         "issued": {
             "year": 1899,
             "month": 6,
@@ -8438,5 +8438,38 @@
         "volume": 62,
         "issue": 322,
         "URL": "https://www.newspapers.com/newspage/75057815/"
+    },
+    "JosephMichaelLyden": {
+        "title": "Joseph Michael Lyden",
+        "type": "article-newspaper",
+        "page": "6 (Section B)",
+        "container-title": "The New York Times",
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://www.nytimes.com/1982/10/19/obituaries/joseph-michael-lyden.html",
+        "issued": {
+            "year": 1982,
+            "month": 10,
+            "day": 19
+        },
+        "author": [
+            {
+                "given": "Associated Press"
+            }
+        ]
+    },
+    "LydenBrothers": {
+        "title": "Peter Naughton Passes on Coast",
+        "type": "article-newspaper",
+        "page": 2,
+        "issued": {
+            "year": 1938,
+            "month": 4,
+            "day": 4
+        },
+        "container-title": "Montana Standard: Butte",
+        "publisher-place": "Butte, Montana, USA",
+        "URL": "https://newspaperarchive-com.wikipedialibrary.idm.oclc.org/us/montana/butte/butte-montana-standard/1938/04-04/page-2/",
+        "volume": 75,
+        "issue": 178
     }
 }

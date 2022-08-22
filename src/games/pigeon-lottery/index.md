@@ -318,6 +318,15 @@ provided to mark the chosen numbers, and on the floor lie discarded losing
 tickets.
 {%imageEnd%}
 
+In 1948, at one location,[@StatevCrownCigarStore] the payoffs for a 25¢ ticket were (TODO: make a table of payoffs instead):
+
+- 5: 50¢
+- 6: $4.5
+- 7: $45
+- 8: $225
+- 9: $450
+- 10: $900
+
 ### In Australia
 
 Chinese lotteries are first discussed in Australian newspapers in the 1860s;
@@ -690,19 +699,28 @@ Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)ope
 The “Chinese lottery” was to become Europeanized and acceptable through its
 adoption and development by American casino operators in the early 20th century.
 It is probable that the game was adapted in several locations by Americans
-looking to popularize it, but what appears to be the main thread of
-popularization is recounted here.
+looking to popularize it,{%fn%}For example, Eugene Diullo, Harrah’s first keno
+manager, learned the game growing up in
+[Ely,](https://en.wikipedia.org/wiki/Ely,_Nevada)[@EveryLightWasOn p. 125] but
+this was still at the time the Chinese game.{%endfn%} but what appears to be the
+main thread of popularization is recounted here.
 
 Versions of the “Chinese lottery” were played in Butte, Montana. Just like in
 the examples above, Butte was a mining town with a significant migrant Chinese
 population. The game was played illegally in the backrooms of “cigar stores”,
 which also operated as speakeasies. One in particular, the Crown Cigar Store,
 was operating the Chinese game in 1927.[@LostButte p. 50] {%fn%}A court case
-from 1948 shows that at the Crown the game was known as “the Crown Game” or the
-“Crown [punchboard](https://en.wikipedia.org/wiki/Punchboard)
+from 1948 shows that at the Crown the adapted game, using numbers, was at that
+time known as “the Crown Game” or the “Crown
+[punchboard](https://en.wikipedia.org/wiki/Punchboard)
 game”,[@StatevCrownCigarStore] but it was clearly derived from the “Chinese
-lottery”.{%endfn%} The gambling operation was managed by two brothers, Joe and
- Francis{%fn%}Some sources give “Frances”.{%endfn%} Lyden.
+ lottery”.{%endfn%} The gambling operation was managed by two brothers, Joe and
+ Francis Lyden.{%fn%}Some sources give the name as “Frances”. The Lyden
+ brothers — Joseph Michael (1899–1982)[@JosephMichaelLyden] and Francis — were
+ Irish immigrants who had inherited the store from their
+ step-father.[@LydenBrothers]{%endfn%}
+
+THIS IS ALL OUT OF ORDER AND NEEDS REËDITING
 
 These Butte games were routinely shut down by the police, but in 1931 Nevada legalized
 gambling in [Assembly Bill No.
@@ -777,7 +795,7 @@ was lifted from the Chinese:[@AlwaysBetOnTheButcher p. 30]
 
 Despite divorcing the game from its Chinese origins, the keno “writers” who
 marked the tickets still used hair brushes imported from China,[@EveryLightWasOn
-p. 129], and the ink was purchased from Chinese
+p. 129] and the ink was purchased from Chinese
 suppliers.[@AlwaysBetOnTheButcher p. 50]
 
 
