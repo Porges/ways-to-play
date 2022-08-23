@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
 
     - name: Cache image files
       uses: actions/cache@v2
@@ -26,6 +26,20 @@ jobs:
     - run: npm run-script build
       env:
         CI: true
+      
+    - uses: azure/login@v1
+      with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+    - name: Upload to blob storage
+      uses: azure/CLI@v1
+      with:
+        inlineScript: |
+            az storage blob upload-batch --account-name waystoplay --auth-mode key -d '$web' -s public
+
+    - name: logout
+      run: az logout
+      if: always()
 
     - name: GH Pages publish
       uses: peaceiris/actions-gh-pages@v3
