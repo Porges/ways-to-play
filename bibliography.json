@@ -8471,5 +8471,40 @@
         "URL": "https://newspaperarchive-com.wikipedialibrary.idm.oclc.org/us/montana/butte/butte-montana-standard/1938/04-04/page-2/",
         "volume": 75,
         "issue": 178
+    },
+    "AFamilyAffair": {
+        "type": "book",
+        "title": "A Family Affair: Harolds Club and the Smiths Remembered",
+        "URL": "https://archive.org/details/FamilyAffairHaroldsClub",
+        "publisher": "University of Nevada Oral History Program",
+        "publisher-place": "Reno, Nevada, USA",
+        "author": [
+            {
+                "given": "Dwayne",
+                "family": "Kling"
+            },
+            {
+                "family": "King",
+                "given": "Robert Thomas"
+            }
+        ],
+        "issued": {
+            "year": 2003
+        },
+        "ISBN": "1-56475388-3"
+    },
+    "SydneyFanTaneries": {
+        "title": "Sydney Fan-Taneries and Lottery Cribs",
+        "type": "article-newspaper",
+        "container-title": "The Bulletin",
+        "page": 22,
+        "issued": {
+            "year": 1885,
+            "month": 12,
+            "day": 5
+        },
+        "URL": "http://nla.gov.au/nla.obj-239819894",
+        "volume": 3,
+        "issue": 134
     }
 }

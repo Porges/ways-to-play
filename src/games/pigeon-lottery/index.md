@@ -262,11 +262,126 @@ Drawing of tickets, with a rather mangled representation of a ticket
 
 </div>
 
+### Example payoff schemes
+
+Below are a sampling of payoff schemes, to give a taste of the ratios used:
+
+<table class="table small">
+<thead>
+<tr>
+<th></th>
+<th>
+
+Australia<br/>
+(1885)[@SydneyFanTaneries]
+
+</th>
+<th>
+
+New Zealand<br/>
+(1905)[@RememberingChinatown p. 83]
+
+</th>
+<th>
+
+New Zealand<br/>
+(1934)[@DisputedGround p. 283]
+
+</th>
+<th>
+
+South Africa<br/>
+(1935)[@TheBantuInTheCity p. 423]
+
+</th>
+<th>
+
+Montana<br/>(1948)[@StatevCrownCigarStore]
+
+</th>
+</tr>
+</thead>
+<tbody class="numeric">
+<tr class="table-secondary">
+<th scope="row">cost</th>
+<td>6d</td>
+<td>6d</td>
+<td>6d</td>
+<td>6d</td>
+<td>25¢</td>
+</tr>
+<tr>
+<th scope="row">5</th>
+<td>1/2<br/>(2⅓×)</td>
+<td>1/–<br/>(2×)</td>
+<td>?</td>
+<td>6d<br/>(1×)</td>
+<td>50¢<br/>(2×)</td>
+</tr>
+<tr>
+<th scope="row">6</th>
+<td>9/–<br/>(18×)</td>
+<td>8/6<br/>(17×)</td>
+<td>?</td>
+<td>18/6<br/>(37×)</td>
+<td>$4.5<br/>(18×)</td>
+</tr>
+<tr>
+<th scope="row">7</th>
+<td>£3 18/6<br/>(157×)</td>
+<td>£3 10/–<br/>(140×)</td>
+<td>£4<br/>(160×)</td>
+<td>£3 15/–<br/>(150×)</td>
+<td>$45<br/>(180×)</td>
+</tr>
+<tr>
+<th scope="row">8</th>
+<td>£20 15/–<br/>(830×)</td>
+<td>£19 2/6<br/>(765×)</td>
+<td>£20<br/>(800×)</td>
+<td>£18 10/–<br/>(740×)</td>
+<td>$225<br/>(900×)</td>
+</tr>
+<tr>
+<th scope="row">9</th>
+<td>£36<br/>(1440×)</td>
+<td>£35<br/>(1400×)</td>
+<td>£40<br/>(1600×)</td>
+<td>£36<br/>(1440×)</td>
+<td>$450<br/>(1800×)</td>
+</tr>
+<tr>
+<th scope="row">10</th>
+<td>£70<br/>(2800×)</td>
+<td>£70<br/>(2800×)</td>
+<td>£80<br/>(3200×)</td>
+<td>£85<br/>(3400×)</td>
+<td>$900<br/>(3600×)</td>
+</tr>
+</tbody>
+</table>
+
+<!--
+One 6d ticket would pay:[@TheBantuInTheCity p. 219]
+
+* 5 numbers: 6d
+* 6 numbers: 18s 6d
+* 7 numbers: £3 15s
+* 8 numbers: £18 10s
+* 9 numbers: £36 
+* 10 numbers: £85 
+-->
+
+
 ## Spread to other countries
 
 {% image src="../../maps/PigeonTickets.svg" alt="" size="wide" %}
-Countries where the game was played in the past (before becoming Keno); locations with particular reports highlighted.
+
+Countries where the game was played in the past (before becoming Keno);
+locations with particular reports highlighted.
+
 {% imageEnd %}
+
 
 The game traveled everywhere that Chinese people migrated to. In particular, it
 seems to have been popular in places with goldfields where Chinese men came to
@@ -318,14 +433,6 @@ provided to mark the chosen numbers, and on the floor lie discarded losing
 tickets.
 {%imageEnd%}
 
-In 1948, at one location,[@StatevCrownCigarStore] the payoffs for a 25¢ ticket were (TODO: make a table of payoffs instead):
-
-- 5: 50¢
-- 6: $4.5
-- 7: $45
-- 8: $225
-- 9: $450
-- 10: $900
 
 ### In Australia
 
@@ -389,20 +496,6 @@ similar case was brought against the “No. 2” or “Shing Lee” lottery in
 
 -->
 
-<!--
-
-1885
-https://nla.gov.au/nla.obj-239801104/view?sectionId=nla.obj-250218546&searchTerm=chinese+lottery&partId=nla.obj-239819894#page/n21/mode/1up/search/chinese+lottery
-ticket = 6d
-
-5 = 1s 2d
-6 = 9s
-7 = £3 18s 6d
-8 = £20 15s.
-9 = £36
-10 = £70
-
--->
 
 There were perhaps attempts by the banks to make themselves publicly acceptable,
 as in 1874 the “Chinese Pak-Cup-Pew Trading Company” made a donation of £100
@@ -676,14 +769,6 @@ community at the time — Pak-a-pu is not, but it does make an appearance in
 According to @TheBantuInTheCity [p. 219], four syndicates were operating
 throughout the Johannesburg area in 1935. 
 
-One 6d ticket would pay:
-
-* 5 numbers: 6d
-* 6 numbers: 18s 6d
-* 7 numbers: £3 15s
-* 8 numbers: £18 10s
-* 9 numbers: £36 
-* 10 numbers: £85 
 
 
 ## Globalization, or Kenoization
@@ -722,6 +807,9 @@ game”,[@StatevCrownCigarStore] but it was clearly derived from the “Chinese
 
 THIS IS ALL OUT OF ORDER AND NEEDS REËDITING
 
+New para: despite Keno not being a lottery, even many keno writers believed it
+to be a lottery[@AFamilyAffair p. 179] (many other examples).
+
 These Butte games were routinely shut down by the police, but in 1931 Nevada legalized
 gambling in [Assembly Bill No.
 98](https://www.leg.state.nv.us/Statutes/35th1931/Stats193102.html#Stats193102page165)
@@ -733,7 +821,7 @@ discrimination here, that licenses were only available to US citizens, and
 particularly egregious given that the distinctly Chinese game of Fan-Tan was
 also legalized by the bill… but only for US citizens!{%endfn%}
 
-At this time, the name “keno” (or “quino”) referred to an Bingo-like game from
+At this time, the name “keno” (or “quino”) referred to a Bingo-like game from
 the 19th century (see the {%gameref keno-bingo %} article for more). This game
 used pre-printed sheets and randomly-drawn numbers, and is not directly related
 to the modern game of Keno, where sheets are marked by the players.{%fn%}As
@@ -798,6 +886,17 @@ marked the tickets still used hair brushes imported from China,[@EveryLightWasOn
 p. 129] and the ink was purchased from Chinese
 suppliers.[@AlwaysBetOnTheButcher p. 50]
 
+{% image 
+alt="TODO"
+src="harolds_keno.jpg"
+license="cc-by-nc-nd"
+licenseVersion="4.0"
+originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n201"
+orgName="University of Nevada Oral History Program"
+%}
+A keno writer using a horsehair brush to mark tickets in Harolds Club, Nevada.
+{%imageEnd%}
+
 
  The Bank Club (the
 next-door rival of the Palace Club) and Harolds Club were soon to follow by
@@ -814,9 +913,13 @@ commentator:[@AlwaysBetOnTheButcher p. 158]
 > Kay Dugan,<br/>That old Irish girl again.
 
 In this “racehorse” version of the game, each number had a horse’s name assigned
-to it; other examples of names included:[@EveryLightWasOn p. 128]
+to it, and the names were announced in a similar way to the way that “[bingo
+calls](https://en.wikipedia.org/wiki/List_of_British_bingo_nicknames)” are now
+performed. Other examples of names included:[@EveryLightWasOn p. 128]
 
 - 2: Sunk
+- 3: Amos[@AFamilyAffair p. 179]
+- 10: Malachai[@AFamilyAffair p. 179]
 - 22: Fussbudget[@Fussbudget]
 - 51: Tut-Tut
 - 52: Casey
@@ -824,5 +927,23 @@ to it; other examples of names included:[@EveryLightWasOn p. 128]
 - 70: Black Tom
 - 80: Bright Lady
 
+{% image
+alt="TODO"
+src="harolds_race_horse_keno.jpg"
+license="cc-by-nc-nd"
+licenseVersion="4.0"
+originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n209"
+orgName="University of Nevada Oral History Program"
+%}
+
+The race-horse keno counter at Harolds Club in the 1940s. Note the “squirrel
+cage” containing the balls.
+
+{% imageEnd %}
+
 The racehorse version of the game died out in the mid 1950s.[@EveryLightWasOn p.
 128]
+
+### Ways
+
+<!-- See: https://archive.org/details/completeguidetow0000cowl for many -->
