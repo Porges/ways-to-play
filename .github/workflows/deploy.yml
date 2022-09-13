@@ -35,7 +35,7 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name waystoplay --auth-mode key -d '$web' -s public
+            az storage blob upload-batch --account-name waystoplay --auth-mode key -d '$web' -s public --overwrite
 
     - name: logout
       run: az logout
