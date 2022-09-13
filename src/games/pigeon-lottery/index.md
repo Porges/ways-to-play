@@ -40,7 +40,8 @@ was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa
 “pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are
 “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In
 Macau it is given with the Portugeuse romanization of “pacapio”, which remains
-standard in current usage. In the USA it became at first “boc hop
+standard in current usage (previous terms include <span
+lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it became at first “boc hop
 bu”[@NYTimes18870127] before picking up a variety of the other names, but in
 Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
 
@@ -358,6 +359,14 @@ Montana<br/>(1948)[@StatevCrownCigarStore]
 <td>£85<br/>(3400×)</td>
 <td>$900<br/>(3600×)</td>
 </tr>
+<tr class="table-secondary">
+<th scope="row"><abbr title="house advantage">HA</abbr</th>
+<td>29.89%</td>
+<td>36.40%</td>
+<td>—</td>
+<td>17.46%</td>
+<td>26.72%</td>
+</tr>
 </tbody>
 </table>
 
@@ -390,11 +399,27 @@ Canada, Victoria in Australia, and New Zealand.
 
 ### In the United States
 
+{% image
+noborder=true
+position="aside"
+src="twain_lottery.png"
+alt=""
+license="cc0"
+ %}
+
+Mark Twain visits a Chinese lottery. Note brush in the right hand.[@RoughingIt p. 396]
+
+{%imageEnd%}
+
 According to @EncyclopediaOfKeno, the game was introduced to the Western United
 States in the mid-19th century, and had reached the Eastern cities by 1870. 
 
 Mentions of “Chinese lotteries” begin to appear in Californian newspapers from
-the 1860s.
+the 1860s, and sometime around 1863 Mark Twain mentioned the game in a report
+for Nevada’s <cite>Territorial Enterprise</cite>, noting its popularity in that
+“about every third Chinaman runs a lottery”, and that “we could not see that
+these lotteries differed in any respect from our own… the manner of drawing is
+similar to ours”.[@RoughingIt p. 396]
 
 According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 four banks were
 operating in Philadelphia{%fn%}He provides the names “Extensive Increase” (<span
@@ -533,7 +558,8 @@ racist cartoon ever to grace the Australian media”,[@RacismRife] depicting “
 ah pu” as one leg of the “Mongolian octopus”, alongside “immorality”,
 “small-pox” and “typhoid”, “opium”, “fan tan”, “bribery”, “cheap labour”, and
 “customs robbery”.{%fn%}This cartoon was drawn by [Phil
-May](https://en.wikipedia.org/wiki/Phil_May_(caricaturist)).{%endfn%}
+May](https://en.wikipedia.org/wiki/Phil_May_(caricaturist)) and is easy enough
+to find online.{%endfn%}
 
 ### In New Zealand
 
@@ -712,7 +738,7 @@ Pak-A-Poo (<cite>Lee Sun v. Daniel Conolly</cite>),[@LeeSunVDanielConolly] and
 this time [Justice Williams](https://en.wikipedia.org/wiki/Joshua_Williams)
 determined that not only was Pak-A-Poo a game of chance, but it was *also* a
 lottery, and therefore illegal.{%fn%}Apparently Williams and Stout were
-professional rivals — Williams had been passed over when Stout was selected as
+pro&shy;fes&shy;sion&shy;al rivals — Williams had been passed over when Stout was selected as
 Chief Justice — and I am tempted to wonder if this had some part to play in the
 overruling of the earlier <span lang="la">obiter dictum</span>.{%endfn%}
 
@@ -773,19 +799,11 @@ throughout the Johannesburg area in 1935.
 
 ## Globalization, or Kenoization
 
-{% image src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
-    alt=";"
-    originalUrl="https://www.newspapers.com/clip/99585617/race-horse-keno/"
-    license="cc0"
-    orgName="newspapers.com" %}
-Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
-{% imageEnd %}
-
-The “Chinese lottery” was to become Europeanized and acceptable through its
-adoption and development by American casino operators in the early 20th century.
-It is probable that the game was adapted in several locations by Americans
-looking to popularize it,{%fn%}For example, Eugene Diullo, Harrah’s first keno
-manager, learned the game growing up in
+The “Chinese lottery” was to become Europeanized — and therefore, acceptable —
+through its adoption and development by American casino operators in the early
+20th century. It is probable that the game was adapted in several locations by
+Americans looking to popularize it,{%fn%}For example, Eugene Diullo, Harrah’s
+first keno manager, learned the game growing up in
 [Ely,](https://en.wikipedia.org/wiki/Ely,_Nevada)[@EveryLightWasOn p. 125] but
 this was still at the time the Chinese game.{%endfn%} but what appears to be the
 main thread of popularization is recounted here.
@@ -810,8 +828,8 @@ THIS IS ALL OUT OF ORDER AND NEEDS REËDITING
 New para: despite Keno not being a lottery, even many keno writers believed it
 to be a lottery[@AFamilyAffair p. 179] (many other examples).
 
-These Butte games were routinely shut down by the police, but in 1931 Nevada legalized
-gambling in [Assembly Bill No.
+These Butte games were routinely shut down by the police, but in 1931 Nevada
+legalized gambling in [Assembly Bill No.
 98](https://www.leg.state.nv.us/Statutes/35th1931/Stats193102.html#Stats193102page165)
 (popularly known as the “Wide Open Gambling Bill”). The bill explicitly
 legalized “keno”, as long as the person running the game had procured a license
@@ -819,7 +837,7 @@ to do so.{%fn%}It is worth noting, given the ongoing theme of anti-Chinese
 discrimination here, that licenses were only available to US citizens, and
 ‘aliens’ were not allowed to even operate a licensed game. This seems
 particularly egregious given that the distinctly Chinese game of Fan-Tan was
-also legalized by the bill… but only for US citizens!{%endfn%}
+also explicitly legalized by the bill… but only for US citizens!{%endfn%}
 
 At this time, the name “keno” (or “quino”) referred to a Bingo-like game from
 the 19th century (see the {%gameref keno-bingo %} article for more). This game
@@ -834,16 +852,70 @@ he began to work for John Petricciani, owner of the newly-opened Palace
 Club.[@FrancisLydenButteBoy] {%fn%}Joe Lyden would also later (after 1938?) move
 to Las Vegas and start the first Keno game there, at the Fremont.{%endfn%}
 
-Earlier attempts to run the Chinese lottery under the “keno” name had failed: in
-1932, one Woo Sing had purchased a Keno license under which to operate the
-“Chinese lottery” in the Henry Club, only to have the license revoked by the
-Reno city council. In 1933, all gambling licenses held by one J. B. Crane were
-revoked and his club was shut, after he was found to be running “Chinese Keno”
-under a Keno license.[@JBCrane]{%fn%}Crane had previously boasted that the
-council did not have the power to close his club, which must not have helped his
-cause. In an earlier {%endfn%}
+### “Chinese Keno”
 
-Despite these cases, Francis proposed running a “keno” game, and contacted
+Earlier attempts to run the Chinese lottery under the “keno” name had failed: in
+1932, one Woo Sing, had purchased a Keno license under which to operate the
+“Chinese lottery” in the Henry Club, only to have the license revoked by the
+Reno city council and his staff arrested.[@LotteryAndKenoContrasted] While the
+case against the staff was eventually dropped, Woo Sing was unable to recover
+his $300 license fee. In May 1933, one J. B. Crane, an associate of Woo Sing’s,
+attempted to procure a license to run the game as “keno”.{%fn%}At the Lucky
+Club, 233 Lake Street.{%endfn%} Crane stated (correctly) that the game was not
+actually a lottery and hence not illegal, and that his game would use numbers in
+place of Chinese characters, and the license was granted.[@CraneIssuedKeno] By
+the middle of June the club had been ordered to stop the
+game,[@ChineseLotteryOrderedClosed] then permitted to reopen
+it,[@ChineseKenoGamesToOperate] until finally Crane’s licenses were revoked and
+his club was ordered shut.[@JBCrane]{%fn%}Crane had previously boasted that the
+council did not have the power to refuse a license, which must not have helped
+his cause.{%endfn%} Another operator named Walter Tun, who had watched the
+proceedings closely, also chose to close his “lottery”
+operation.[@CouncilRevokesCrane] While all this was going on there seems to have
+been something of a turf war between Tun and Sing,[@ChineseDisputeSettlement]
+and in July, Woo Sing was shot by an unknown assailant.{%fn%}The case was never
+solved, despite a $500 ($11,400 in
+2002) reward being offered for information by the Yick Keong Benevolent
+Association.{%endfn%} Crane again sought licenses in
+July,[@ChineseGamblerIsWounded] and August,[@CouncilAdjournsAndCraneFails] at
+which point the petition was referred to a grand jury in
+September,[@WashoeCoGrandJury] but I cannot find any further trace of
+it.{%fn%}Perhaps the death of Crane’s wife’s father in September brought an end
+to his pursuit of the matter.{%endfn%}
+
+A newspaper report of the time shows the confused reaction to Crane’s August
+application, as Crane’s lawyer James T. Boyd debated the meaning of “keno” with
+City Attorney Pike:[@WeAreRecessed]
+
+> Pike—“Does the license ask for keno? Do they intend to play keno or Chinese
+> keno?”
+> 
+> Boyd—“Try and find a definition for keno?”
+> 
+> Pike—“I can show you one in Corpus Juris and it does not include the Chinese
+> game.”
+> 
+> Boyd—“Does it include the games played in places on Virginia street. Any time
+> you take numbered balls out of—”
+>
+> Pike—“They call the games on Virginia street tango—I don’t think they’re legal
+> either.”{%fn%}Tango (from Spanish <span lang="es">tengo</span>, “I have it”)
+> at this time also referred to a version of the Bingo-style Keno
+> game.[@YouCantMiss] It had been played since 1931 at the Reno Club on Virginia
+> Street,[@OpenTodayRenoClub] and the name was probably influenced by the tango
+> (dance) which was popular at the time.{%endfn%}
+
+By July 1934, things seem to have calmed down somewhat, as both Walter Tun and
+Woo Sing were simultaneously granted keno licenses, to operate at the Star Club
+and Public Club, respectively.[@ChineseGrantedKenoLicenses] Despite one
+councillor immediately attempting to revoke these licenses, and the debate
+reopening upon “Chinese keno”,[@KenoDiscussionAgainHeard] they were apparently
+able to operate unmolested until May 1935, at which point the District Attorney
+stepped in and ordered them to shut
+down.[@ChineseLotteriesOrderedClosed]{%fn%}Woo Sing would eventually be arrested
+on narcotics charges in 1937 and the Public Club closed down.{%endfn%}
+
+Despite these cases, Francis Lyden proposed running a “keno” game, and contacted
 Warren Nelson, who he knew from Butte, to run it at the Palace
 Club.[@SilvioPetricciani p. 26] At the time Warren was running games in Great
 Falls.{%fn%}Warren states his father and a man named Cal Lewis ran the game
@@ -866,8 +938,15 @@ replaced by the numbers 1 to 80. Balls with these numbers could then be drawn to
 determine the “winning horses”. It is interesting to note that this
 inadvertently returned the game to its pigeon-racing roots.
 
-
 ### Racehorse Keno
+
+{% image src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
+    alt=";"
+    originalUrl="https://www.newspapers.com/clip/99585617/race-horse-keno/"
+    license="cc0"
+    orgName="newspapers.com" %}
+Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
+{% imageEnd %}
 
 As a game of chance and not a lottery, the “new” game was legal under Nevada
 laws.[@SilvioPetricciani p. 26] Warren describes in his own words how the game
@@ -912,10 +991,27 @@ commentator:[@AlwaysBetOnTheButcher p. 158]
 > a hell of a race,<br/>And a hell of a bunch of horses!<br/>Jockey number 69 on
 > Kay Dugan,<br/>That old Irish girl again.
 
+{% image
+alt="TODO"
+src="harolds_race_horse_keno.jpg"
+license="cc-by-nc-nd"
+licenseVersion="4.0"
+originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n209"
+orgName="University of Nevada Oral History Program"
+%}
+
+The race-horse keno counter at Harolds Club in the 1940s. Note the “squirrel
+cage” containing the balls. The payoffs listed are identical to those reported
+at the Crown Cigar Store in Montana, 1948.[@StatevCrownCigarStore]
+
+{% imageEnd %}
+
 In this “racehorse” version of the game, each number had a horse’s name assigned
 to it, and the names were announced in a similar way to the way that “[bingo
 calls](https://en.wikipedia.org/wiki/List_of_British_bingo_nicknames)” are now
 performed. Other examples of names included:[@EveryLightWasOn p. 128]
+
+<div class="columnar">
 
 - 2: Sunk
 - 3: Amos[@AFamilyAffair p. 179]
@@ -927,22 +1023,10 @@ performed. Other examples of names included:[@EveryLightWasOn p. 128]
 - 70: Black Tom
 - 80: Bright Lady
 
-{% image
-alt="TODO"
-src="harolds_race_horse_keno.jpg"
-license="cc-by-nc-nd"
-licenseVersion="4.0"
-originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n209"
-orgName="University of Nevada Oral History Program"
-%}
+</div>
 
-The race-horse keno counter at Harolds Club in the 1940s. Note the “squirrel
-cage” containing the balls.
-
-{% imageEnd %}
-
-The racehorse version of the game died out in the mid 1950s.[@EveryLightWasOn p.
-128]
+The racehorse version of the game died out some time in the mid
+1950s.[@EveryLightWasOn p. 128]
 
 ### Ways
 

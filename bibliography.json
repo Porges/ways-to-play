@@ -8394,6 +8394,7 @@
     "Fussbudget": {
         "type": "article-newspaper",
         "title": "Center Street Gossip",
+        "URL": "https://www.newspapers.com/clip/109466227/",
         "author": [
             {
                 "given": "Johnny",
@@ -8414,15 +8415,16 @@
     "ChineseGamblersRaided": {
         "title": "Chinese Gamblers Raided By Police",
         "type": "article-newspaper",
-        "container-title": "The Times",
-        "publisher-place": "Washington",
+        "container-title": "Washington Times",
+        "publisher-place": "Washington, District of Columbia, USA",
         "issued": {
             "year": 1899,
             "month": 6,
             "day": 5
         },
         "page": 8,
-        "issue": 1871
+        "issue": 1871,
+        "URL": "https://www.newspapers.com/clip/109467303/"
     },
     "JBCrane": {
         "title": "Mayor Decides Who’s Who",
@@ -8506,5 +8508,256 @@
         "URL": "http://nla.gov.au/nla.obj-239819894",
         "volume": 3,
         "issue": 134
+    },
+    "ACidadeMaisPitoresca": {
+        "type": "article-magazine",
+        "title": "Macau: A Cidade Mais Pitoresca Do Nosso Dominio Ultramarino",
+        "title-lang": "pt",
+        "container-title": "Ilustração Portuguesa",
+        "container-title-lang": "pt",
+        "issued": {
+            "year": 1923,
+            "month": 4,
+            "day": 21
+        },
+        "issue": "896, 2nd series",
+        "author": [
+            {
+                "given": "M. Antunes",
+                "family": "Amor"
+            }
+        ],
+        "page": "495–497",
+        "URL": "https://web.archive.org/web/20220707214710/http://hemerotecadigital.cm-lisboa.pt/OBRAS/IlustracaoPort/1923/N896/N896_master/N896.pdf"
+    },
+    "RoughingIt": {
+        "type": "book",
+        "title": "Roughing It",
+        "author": [
+            {
+                "given": "Mark",
+                "family": "Twain"
+            }
+        ],
+        "issued": {
+            "year": 1872
+        },
+        "URL": "https://archive.org/details/cu31924022606465",
+        "publisher": "American Publishing Company",
+        "publisher-place": "Hartford, Connecticut"
+    },
+    "CraneIssuedKeno": {
+        "type": "article-newspaper",
+        "title": "Crane Is Issued Keno License By Council",
+        "container-title": "Reno Evening Gazette",
+        "URL": "https://www.newspapers.com/clip/109466052/",
+        "issued": {
+            "year": 1933,
+            "month": 5,
+            "day": 24
+        },
+        "page": 16,
+        "issue": 123,
+        "publisher-place": "Reno, Nevada, USA"
+    },
+    "ChineseLotteryOrderedClosed": {
+        "type": "article-newspaper",
+        "title": "Chinese Lottery Ordered Closed By Official Of City",
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "page": 12,
+        "issued": {
+            "year": 1933,
+            "month": 6,
+            "day": 8
+        },
+        "issue": 136,
+        "URL": "https://www.newspapers.com/clip/109466126/"
+    },
+    "ChineseKenoGamesToOperate": {
+        "type": "article-newspaper",
+        "title": "Chinese “Keno” Games To Operate",
+        "URL": "https://www.newspapers.com/clip/109466131/",
+        "page": 2,
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "issued": {
+            "year": 1933,
+            "month": 6,
+            "day": 13
+        },
+        "issue": 140
+    },
+    "CouncilRevokesCrane": {
+        "type": "article-newspaper",
+        "title": "Council Revokes Crane’s Game Permits",
+        "URL": "https://www.newspapers.com/clip/109466190/",
+        "page": 2,
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "issued": {
+            "year": 1933,
+            "month": 6,
+            "day": 16
+        },
+        "issue": 143
+    },
+    "ChineseGamblerIsWounded": {
+        "type": "article-newspaper",
+        "title": "Chinese Gambler Is Wounded By Gunman At His Home",
+        "URL": "https://www.newspapers.com/clip/109466274/",
+        "page": 12,
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "issued": {
+            "year": 1933,
+            "month": 7,
+            "day": 20
+        },
+        "issue": 172
+    },
+    "CouncilAdjournsAndCraneFails": {
+        "type": "article-newspaper",
+        "title": "Council Adjourns And Crane Fails In License Plea",
+        "URL": "https://www.newspapers.com/clip/109466287/",
+        "page": 2,
+        "container-title": "Nevada State Journal",
+        "issued": {
+            "year": 1933,
+            "month": 8,
+            "day": 15
+        },
+        "publisher-place": "Reno, Nevada, USA",
+        "volume": 62,
+        "issue": 282
+    },
+    "WashoeCoGrandJury": {
+        "type": "article-newspaper",
+        "title": "Washoe Co. Grand Jury Will Make Its Report Today",
+        "URL": "https://www.newspapers.com/clip/109466375/",
+        "page": 2,
+        "container-title": "Nevada State Journal",
+        "publisher-place": "Reno, Nevada, USA",
+        "issued": {
+            "year": 1933,
+            "month": 9,
+            "day": 14
+        },
+        "volume": 62,
+        "issue": 312
+    },
+    "LotteryAndKenoContrasted": {
+        "type": "article-newspaper",
+        "title": "Lottery And Keno Contrasted At Trial Of Chinese",
+        "URL": "https://www.newspapers.com/clip/109466434/",
+        "page": 10,
+        "container-title": "Reno Evening Gazette",
+        "issued": {
+            "year": 1932,
+            "month": 9,
+            "day": 29
+        },
+        "publisher-place": "Reno, Nevada, USA",
+        "issue": 234
+    },
+    "WeAreRecessed": {
+        "type": "article-newspaper",
+        "title": "‘We Are Recessed,’ Says Mayor: And Recess Was Taken as His Honor Marched Out — Council Holds Hectic Session",
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "page": 12,
+        "issued": {
+            "year": 1933,
+            "month": 10,
+            "day": 15
+        },
+        "issue": "194",
+        "URL": "https://www.newspapers.com/clip/109466735/"
+    },
+    "ChineseDisputeSettlement": {
+        "type": "article-newspaper",
+        "URL": "https://www.newspapers.com/clip/109466747/",
+        "title": "Chinese Dispute Settlement Is Tried But Fails",
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "page": 12,
+        "issued": {
+            "year": 1933,
+            "month": 8,
+            "day": 29
+        },
+        "issue": 206
+    },
+    "ChineseLotteriesOrderedClosed": {
+        "type": "article-newspaper",
+        "URL": "https://www.newspapers.com/clip/109466826/",
+        "title": "Chinese Lotteries Ordered Closed by District Attorney",
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "page": 14,
+        "issued": {
+            "year": 1935,
+            "month": 5,
+            "day": 16
+        },
+        "issue": 117
+    },
+    "ChineseGrantedKenoLicenses": {
+        "type": "article-newspaper",
+        "URL": "https://www.newspapers.com/clip/109466875/",
+        "title": "Chinese Granted Keno Licenses By Council",
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "page": 2,
+        "issued": {
+            "year": 1934,
+            "month": 7,
+            "day": 10
+        },
+        "issue": 164
+    },
+    "KenoDiscussionAgainHeard": {
+        "type": "article-newspaper",
+        "URL": "https://www.newspapers.com/clip/109466905/",
+        "title": "Keno Discussion Again Heard By Council",
+        "container-title": "Reno Evening Gazette",
+        "publisher-place": "Reno, Nevada, USA",
+        "page": 2,
+        "issued": {
+            "year": 1934,
+            "month": 7,
+            "day": 24
+        },
+        "issue": 176
+    },
+    "YouCantMiss": {
+        "type": "article-newspaper",
+        "title": "You Can’t Miss",
+        "URL": "https://www.newspapers.com/clip/109466967/",
+        "container-title": "Nevada State Journal",
+        "publisher-place": "Reno, Nevada, USA",
+        "page": 8,
+        "issued": {
+            "year": 1932,
+            "month": 1,
+            "day": 17
+        },
+        "volume": 57,
+        "issue": 257
+    },
+    "OpenTodayRenoClub": {
+        "type": "article-newspaper",
+        "title": "Open Today: The Reno Club (Advertisement)",
+        "issued": {
+            "year": 1931,
+            "month": 7,
+            "day": 4
+        },
+        "URL": "https://www.newspapers.com/clip/109466995/",
+        "container-title": "Nevada State Journal",
+        "publisher-place": "Reno, Nevada, USA",
+        "page": 8,
+        "volume": 57,
+        "issue": 60
     }
 }
