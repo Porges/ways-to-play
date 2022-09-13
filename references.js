@@ -63,8 +63,8 @@ function renderPatentBits(reference) {
 
     return (
         (reference.patentNumber
-            ? `Patent ${formatNumberString(reference.patentNumber)}${ifSet(reference.applicationNumber, ` (application ${formatNumberString(reference.applicationNumber)}`)}`
-            : ifSet(reference.applicationNumber, `Application ${formatNumberString(reference.applicationNumber)}.`))
+            ? `Patent ${formatNumberString(reference.patentNumber)}${ifSet(reference.applicationNumber, ` (application ${formatNumberString(reference.applicationNumber)}`)}.`
+            : ifSet(reference.applicationNumber, `Patent application ${formatNumberString(reference.applicationNumber)}.`))
         + ifSet(filed, ` Filed ${filed}.`)
         + ifSet(issued, ` Issued ${issued}.`)
     );
@@ -253,8 +253,8 @@ const renderContainer = (reference) => {
     switch (reference.type) {
         case 'webpage':
             return ` <span itemscope itemtype="http://schema.org/WebSite" itemprop="isPartOf">`
-                + `<i><span itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</span></i>.`
-                + `</span>`;
+                + `<i><span itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</span></i>`
+                + `</span>. `;
 
         case 'chapter':
         case 'paper-conference':
