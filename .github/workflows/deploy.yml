@@ -31,11 +31,17 @@ jobs:
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+    - uses: kheiakiyama/install-azcopy-action@962a2f9712c4653d6ac4610eee5378fdf98e002c # latest
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
     - name: Upload to blob storage
+      run: azcopy sync public 'https://waystoplay.blob.core.windows.net/$web' --delete-destination=true
+
+    - name: Purge CDN
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name waystoplay --auth-mode key -d '$web' -s public --overwrite
             az cdn endpoint purge -g ways-to-play --profile-name ways-to-play-cdn -n waystoplay --content-paths '/*' --no-wait
 
     - name: logout
