@@ -61,7 +61,7 @@ cards depending on the number of players:
 <th>Cards</th>
 </tr>
 </thead>
-<tbody class="numeric">
+<tbody class="numeric table-group-divider">
 <tr><td>2–3</td><td>15</td></tr>
 <tr><td>4</td><td>13</td></tr>
 <tr><td>5</td><td>11</td></tr>

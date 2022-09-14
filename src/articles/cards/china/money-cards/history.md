@@ -43,7 +43,7 @@ row.[@LuRong p. 90–91]
 <th>Name</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 
 <tr>
 <td><span lang="zh">萬萬貫</span><br/>MMC</td>
@@ -261,7 +261,7 @@ text. Unfortunately, no rules are recorded for this game.
 <th>Card</th><th>Star Name</th><th>Epithet</th><th>Name</th><th>Notes</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 <tr>
 <td><span lang="zh">萬萬貫</span><br/>MMC</td>
 <td><span lang="zh">天魁星</span><br/>Leader Star</td>

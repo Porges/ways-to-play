@@ -68,7 +68,7 @@ these — like the playing cards themselves — are derived from Portugu
     <th>Meaning</th>
     </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
     <tr>
     <td>0 <span lang="ja">〇</span></td>
     <td><span lang="ja-Latn">rei</span></td>
@@ -153,7 +153,7 @@ each player is:
         <th>Total Points</th>
     </tr>
     </thead>
-    <tbody>
+    <tbody class="table-group-divider">
     <tr>
         <th scope="row" class="text-center">2</td>
         <td>10</td>

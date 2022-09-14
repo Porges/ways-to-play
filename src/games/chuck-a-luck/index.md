@@ -281,7 +281,7 @@ usual, the extended staking layout contains boxes for the following bets:
             <th>Edge</th>
         </tr>
         </thead>
-        <tbody>
+        <tbody class="table-group-divider">
         <tr>
             <td>10, 11</td>
             <td>5:1</td>

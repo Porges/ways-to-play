@@ -70,7 +70,7 @@ called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
 ### Index of Marks
 <div class="multi only-large">
     <table class="table table-sm">
-    <tbody>
+    <tbody class="table-group-divider">
         <tr>
         <td><img src='/small-images/marufuku.svg' class="inline-img big" alt="The Marufuku symbol" /></td>
         <td><a href="#nintendo"><span class="noun" lang="ja-Latn">Nintendō</span></a></td>
@@ -150,7 +150,7 @@ called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
     </tbody>
     </table>
     <table class="table table-sm">
-    <tbody>
+    <tbody class="table-group-divider">
         <tr>
         <td><img src='/small-images/marui.svg' class="inline-img big" alt="The Marui symbol" /></td>
         <td><a href="#nishimura"><span class="noun" lang="ja-Latn">Nishimura</span></a></td>
@@ -281,7 +281,7 @@ provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
     <th class="text-center">Tax Amount</th>
     </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
     <tr><td>July 1, 1902</td><td>20 <span lang="ja-Latn">sen</span></td></tr>
     <tr><td>April 1, 1926</td><td>50 <span lang="ja-Latn">sen</span></td></tr>
     <tr><td>April 1, 1940</td><td>70 <span lang="ja-Latn">sen</span></td></tr>

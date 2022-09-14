@@ -302,7 +302,7 @@ Montana<br/>(1948)[@StatevCrownCigarStore]
 </th>
 </tr>
 </thead>
-<tbody class="numeric">
+<tbody class="numeric table-group-divider">
 <tr class="table-secondary">
 <th scope="row">cost</th>
 <td>6d</td>

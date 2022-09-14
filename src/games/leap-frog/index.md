@@ -61,7 +61,7 @@ end wins.
       <th class="numeric">Points</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="table-group-divider">
     <tr>
       <td>8×8 (64)</td>
       <td class="numeric">6</td>

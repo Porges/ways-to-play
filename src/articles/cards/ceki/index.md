@@ -177,7 +177,7 @@ money-suited cards.
 <th>9</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 <tr>
 <th scope="row" class="sideways centered">Coins</th>
 <td>{% image noborder=true cram=true src="COT.jpg" alt="" %}{% imageEnd %}</td>
@@ -416,7 +416,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </th>
   </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Honour & Rank 1</th>

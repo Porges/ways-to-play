@@ -69,7 +69,7 @@ The board for the 14-piece version, printed on thin paper.
     <th><span class="vertical-rl">スパイ</span></th>
   </tr>
 </thead>
-<tbody class="text-center">
+<tbody class="text-center table-group-divider">
   <tr>
     <th scope="row" class="text-end">元帥</th>
     <td>△</td>

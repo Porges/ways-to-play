@@ -94,7 +94,7 @@ Chinese Name[@ChineseGames p. 493]
 
 </th><th>Name in New York</th><th>Roll</th><th>Outcome</th></tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 <tr><th scope="row">4–5–6</th><td><span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn">si3 ng5 luk6</span><br/><br/><span lang="zh">串花</span> ‘strung flowers’<br/>Cantonese: <span lang="yue-Latn">cyun3 faa1</span></td><td>Head Crack</td><td>{%cdice 456%}</td><td class="bg-success text-white">Win</td></tr>
 <tr><th scope="row">Triple</th><td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: {% pronounce  lang="yue-Latn" word="wai4" pronouncer="cuichungman" file="pronunciation_yue_圍.mp3" %}</td><td>Trips</td><td>{%cdice '==='%}</td><td class="bg-success text-white">Win</td></tr>
 <tr><th scope="row">6 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==6'%}</td><td class="bg-success text-white">Win</td></tr>
@@ -240,7 +240,7 @@ pronouncer="straycat88" %}).{%fn%}Apparently this term comes from the game
 <thead>
 <tr><th>Roll</th><th>Name</th><th>Outcome</th></tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 <tr><th scope="row">Triple 2–6 {%jdice '==='%}</th><td><span lang="ja">アラシ</span> <span lang="ja-Latn">arashi</span> ‘storm’</td><td class="bg-success text-white">win 3×</td></tr>
 <tr><th scope="row">4–5–6 {%jdice 456%}</th><td><span lang="ja">シゴロ</span> <span lang="ja-Latn">shigoro</span> ‘four five six’</td><td class="bg-success text-white">win 2×</td></tr>
 <tr><th scope="row">Point 6 {%jdice '==6'%}</th><td><span lang="ja">六の目</span> <span lang="ja-Latn">roppou no me</span> ‘eye of 6’</td><td class="bg-success text-white">win 1×</td></tr>
@@ -276,7 +276,7 @@ There are also variations to the main rules:
 <thead>
 <tr><th>Roll</th><th>Outcome</th></tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 <tr><th scope="row">Triple 1 {%jdice 111%}</th><td class="bg-success text-white">win 5×</td></tr>
 <tr><th scope="row">Triple 2–6 {%jdice '==='%}</th><td class="bg-success text-white">win 3×</td></tr>
 <tr><th scope="row">4–5–6 {%jdice 456%}</th><td class="bg-success text-white">win 2×</td></tr>

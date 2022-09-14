@@ -53,7 +53,7 @@ game but make it easier to match the result.
             <th>Older Romanization</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody class="table-group-divider">
         <tr class="red">
             <td><span lang="zh">太平</span></td>
             <td><span class="noun" lang="cmn-Latn">Tài Píng</span></td>

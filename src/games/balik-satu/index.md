@@ -50,7 +50,7 @@ deck has 30 cards, one of each type.
       <th>Decks (Cards)<br/>from <cite>The Babas</cite></th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="table-group-divider">
     <tr><td>2</td><td>2½ (150)</td><td>2 (120)</td></tr>
     <tr><td>3</td><td rowSpan=2>3 (180)</td><td>2½ (150)</td></tr>
     <tr><td>4</td><td>3 (180)</td></tr>

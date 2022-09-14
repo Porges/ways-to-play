@@ -41,7 +41,7 @@ lang="ja-Latn" class="noun">Hanafuda</span> decks:
 <th>Kasu</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 
 <!--
 アカ

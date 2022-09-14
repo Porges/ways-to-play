@@ -94,8 +94,8 @@ tr. Screech
 <th>my notes</th>
 
 </tr>
-<thead>
-<tbody>
+</thead>
+<tbody class="table-group-divider">
 <tr>
 <td><span lang="fr">au fleux</span></td>
 <td><span lang="fr">au flux</span></td>
