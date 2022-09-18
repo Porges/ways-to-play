@@ -265,7 +265,7 @@ invented by Babbage in his initial analysis of the game.[@MathematicalWorkOfBabb
 To show the equivalence, write down the numbers in the form of the (unique) 3&times;3 magic square:
 
 <table class="numeric rule-between-cells">
-  <tbody class="table-group-divider">
+  <tbody>
     <tr><td>4</td><td>9</td><td>2</td></tr>
     <tr><td>3</td><td>5</td><td>7</td></tr>
     <tr><td>8</td><td>1</td><td>6</td></tr>
@@ -314,7 +314,7 @@ of letters in each word is the same as the number of lines that can be formed
 through that square):
 
 <table class="text-center rule-first-row rule-first-col rule-last-col rule-last-row">
-  <tbody class="table-group-divider">
+  <tbody>
     <tr>
       <td><strong >P</strong></td>
       <td><strong >N</strong></td>
