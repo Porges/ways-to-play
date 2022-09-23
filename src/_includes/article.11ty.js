@@ -69,7 +69,7 @@ exports.render = async function (data) {
 
         const children = this.eleventyNavigation(data.collections.all, data.eleventyNavigation.key);
         if (children && children.length > 0) {
-            childArticles = '<div class="container">'
+            childArticles = '<div class="container other-articles-container">'
                 + '<div class="row">'
                 + '<div class="col-lg-1"></div>'
                 + '<div class="col-lg-10">'

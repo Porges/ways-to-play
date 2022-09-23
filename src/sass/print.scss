@@ -7,6 +7,10 @@ body, .figure-caption {
     color: black;
 }
 
+body {
+    min-height: auto;
+}
+
 html {
     font-size: 9pt;
 }
@@ -16,17 +20,22 @@ a {
     color: inherit;
 
     &:after {
-        content: none;
-        width: 0;
-        margin-right: 0;
+        // remove Wikipedia stuff
+        content: none !important;
+        width: 0 !important;
+        margin-right: 0 !important;
     }
+}
+
+.pronunciation {
+    text-decoration: inherit;
 }
 
 span.footnote {
     float: bottom;
 }
 
-header, .heroSource, .breadcrumb-container, .prev-next-container, .navbar {
+header, .heroSource, .breadcrumb-container, .prev-next-container, .navbar, .other-articles-container {
     display: none;
 }
 
@@ -38,4 +47,14 @@ header, .heroSource, .breadcrumb-container, .prev-next-container, .navbar {
         background: none;
         color: black;
     }
+}
+
+/* Break control */
+
+figure, div.multi {
+    break-inside: avoid;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    break-after: avoid;
 }
