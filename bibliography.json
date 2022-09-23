@@ -8760,5 +8760,24 @@
         "page": 8,
         "volume": 57,
         "issue": 60
+    },
+    "CinaOrTionghua": {
+        "type": "article-newspaper",
+        "title": "<span lang='id'>Cina</span> or <span lang='id'>Tionghua</span>? The politics behind Indonesia’s word choice",
+        "URL": "https://eresources.nlb.gov.sg/newspapers/Digitised/Issue/straitstimes20140326-1#",
+        "issued": {
+            "year": 2014,
+            "month": 3,
+            "day": 26
+        },
+        "author": [
+            {
+                "given": "Leo",
+                "family": "Suryadinata"
+            }
+        ],
+        "container-title": "The Straits Times",
+        "publisher-place": "Singapore",
+        "page": 25
     }
 }

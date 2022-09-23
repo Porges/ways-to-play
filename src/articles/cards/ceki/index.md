@@ -246,7 +246,8 @@ The translations in the table are mostly from the [SEAlang](http://sealang.net)
 dictionaries; any mistakes are my own.{%fn%}According to some sources, the word
 “<span lang="jav-Latn">cina</span>” referring to a Chinese person is now
 considered a potentially derogatory term. For example, the Indonesian government
-no longer uses it in official communications.{%endfn%}
+no longer uses it in official communications, since the term was dropped from
+official usage by presidential decree in 2014.[@CinaOrTionghua]{%endfn%}
 
 ⚠️ The table is *very wide* and scrolls horizontally.
 
