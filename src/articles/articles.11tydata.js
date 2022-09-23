@@ -1,7 +1,7 @@
-const { IS_PRODUCTION } = require("../../helpers");
+const { IS_PRODUCTION, IS_PRINT } = require("../../helpers");
 
 let data = {
-    "layout": "article",
+    "layout": IS_PRINT ? "article-print" : "article",
     "tags": "article",
     eleventyComputed: {
         // idea from: https://github.com/adamduncan/eleventy-auto-navigation/blob/main/src/_data/eleventyComputed.js

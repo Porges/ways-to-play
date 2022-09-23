@@ -352,7 +352,7 @@ lang="ja">奥村政信</span>, 1686–1764).
 <span class="noun" lang="ja-Latn">Hanafuda</span> seem to originate in a combination of the
 themes of <span lang="ja-Latn">kai-awase</span> — matching sets, poetry,
 conventionalized art — with the ideas introduced by the Portuguese playing
-cards — a regular structure of <i>suits</i> divided into different <i>ranks</i>.
+cards — a regular structure of *suits* divided into different *ranks*.
 
 The two distinct schools of playing-card games first combined in the form of
 <span lang="ja-Latn">hana-awase</span> (<span lang="ja">花合せ</span>) decks.

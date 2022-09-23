@@ -5,10 +5,11 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "watch:sass": "sass --no-source-map --watch src/sass/index.scss:public/css/index.css",
+    "watch:sass": "sass --no-source-map --watch src/sass/index.scss:public/css/index.css src/sass/print.scss:public/css/print.css",
     "watch:eleventy": "eleventy --incremental --serve",
-    "build:sass": "sass --no-source-map src/sass/index.scss:public/css/index.css",
+    "build:sass": "sass --no-source-map src/sass/index.scss:public/css/index.css src/sass/print.scss:public/css/print.css",
     "build:eleventy": "eleventy",
+    "build:eleventy-print": "cross-env IS_PRINT=print eleventy --output=print",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development npm-run-all build:sass --parallel watch:*",
     "build": "cross-env NODE_ENV=production npm-run-all build:sass build:eleventy",

@@ -102,7 +102,7 @@ exports.render = async function (data) {
         </div>
         ${heroSource}
     </div>
-    <div class="container-fluid mb-5">
+    <div class="container-fluid mb-5 breadcrumb-container">
        <nav class="border-bottom border-top border-light row" aria-label="Breadcrumbs">
         <div class="col">
           <div class="container">
@@ -121,7 +121,7 @@ exports.render = async function (data) {
     </div>
 </article>`
         + ifSet(childArticles, childArticles)
-        + '<div class="container-fluid mt-5">'
+        + '<div class="container-fluid mt-5 prev-next-container">'
         + '<nav aria-label="Nearby Articles" class="border-bottom border-top border-light row">'
         + '<div class="col">'
         + '<div class="container">'

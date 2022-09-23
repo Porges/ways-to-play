@@ -1,7 +1,9 @@
 const { env } = require('process');
 const IS_PRODUCTION = env.NODE_ENV === 'production';
 
-module.exports = { ifSet, asAttr, formatNumberString, renderExplicitDate, isolate, purify, renderArticleList, IS_PRODUCTION };
+const IS_PRINT = env.IS_PRINT === 'print';
+
+module.exports = { ifSet, asAttr, formatNumberString, renderExplicitDate, isolate, purify, renderArticleList, IS_PRODUCTION, IS_PRINT };
 
 /**
  * @param {string=} x 

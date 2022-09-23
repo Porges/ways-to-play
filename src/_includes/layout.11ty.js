@@ -51,6 +51,7 @@ exports.render = async function (data) {
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     <link rel="stylesheet" href="/css/index.css" type="text/css" />
+    <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
     <link href="https://rsms.me/inter/inter.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

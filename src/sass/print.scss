@@ -1,0 +1,41 @@
+@page {
+    size: A5;
+}
+
+body, .figure-caption {
+    /* full-contrast */
+    color: black;
+}
+
+html {
+    font-size: 9pt;
+}
+
+a {
+    text-decoration: inherit;
+    color: inherit;
+
+    &:after {
+        content: none;
+        width: 0;
+        margin-right: 0;
+    }
+}
+
+span.footnote {
+    float: bottom;
+}
+
+header, .heroSource, .breadcrumb-container, .prev-next-container, .navbar {
+    display: none;
+}
+
+.jumbotron.hero {
+    padding: 0 !important;
+    background-image: none !important;
+
+    h1 > a {
+        background: none;
+        color: black;
+    }
+}

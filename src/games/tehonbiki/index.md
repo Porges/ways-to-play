@@ -32,7 +32,7 @@ It is usually played with three special sets of cards:
   file="pronunciation_ja_目安札.mp3" pronouncer="cochan0308" %} (<span
   lang="ja">目安札</span> ‘easy-to-see cards’).
 
-The 1968 Japanese film <i>Red Peony Gambler</i> <ruby lang="ja">緋牡丹<rt
+The 1968 Japanese film <cite>Red Peony Gambler</cite> <ruby lang="ja">緋牡丹<rt
 lang="ja-Latn">hibotan</rt>博徒<rt lang="ja-Latn">bakuto</rt></ruby> (also
 titled in English ‘Lady Yakuza: The Red Peony Gambler’) opens with a scene in
 which the game is played. (The film can be viewed [on The Internet

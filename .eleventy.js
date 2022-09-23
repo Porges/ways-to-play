@@ -11,7 +11,6 @@ const slug = require('slug');
 const { asAttr, ifSet, IS_PRODUCTION, isolate } = require('./helpers');
 const references = require('./references');
 const { articleImage, person, license, organization } = require('./images');
-const { connect } = require('http2');
 
 PropTypes.resetWarningCache();
 

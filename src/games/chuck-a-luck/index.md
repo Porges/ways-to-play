@@ -65,8 +65,8 @@ layout.{%endfn%} was played since at least the early 19th century. The name
 could also be shortened to simply “Sweat”.[@TheAmericanHoyle4 p. 480] Gambling
 histories often cite an English origin, but I have yet to find any early mention
 of the game there.{%fn%}Although there are old English slang terms for gaming
-cloths, such as “tatty tog” from <i>tatt</i> dice and <i>tog</i>
-clothes[@ADictionaryOfTheSlangAndCantLanguages] (American derivatives of these
+cloths, such as “tatty tog” from *tatt* ‘dice’ and *tog*
+‘clothes’[@ADictionaryOfTheSlangAndCantLanguages] (American derivatives of these
 sources note that this is equivalent to “sweat-cloth”[@Vocabulum p. 89]), I have
 yet to find reference to an actual game that is played with these
 cloths.{%endfn%} The earliest reference I have found so far dates from 1808,
