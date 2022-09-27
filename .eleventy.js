@@ -7,7 +7,6 @@ const path = require('path');
 const fs = require('node:fs/promises');
 const slug = require('slug');
 
-
 const { asAttr, ifSet, IS_PRODUCTION, isolate } = require('./helpers');
 const references = require('./references');
 const { articleImage, person, license, organization } = require('./images');
@@ -194,7 +193,7 @@ function dice(content) {
   return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6/d6_${c}.svg" />`);
 }
 
-//figured out via ttps://github.com/11ty/eleventy/issues/813#issuecomment-1037834776
+//figured out via https://github.com/11ty/eleventy/issues/813#issuecomment-1037834776
 function gameRef() {
   return {
     parse: function (tagToken) {
