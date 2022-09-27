@@ -8,7 +8,7 @@ hero:
 ---
 
 The Pigeon Lottery (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
-</span> Cantonese: {%pronounce lang="yue-Latn" word="baak6 gaap3 piu3"
+</span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak6 gaap3 piu3"
 pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" %}{%fn%}Other
 romanizations include <span lang="yue-Latn">pak kap
 piew</span>[@GamblingGamesOfMalaya p. 48], <span lang="yue-Latn">pák kòp
@@ -19,7 +19,7 @@ p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span
 this further proves the Cantonese origin of the game (see e.g.
 @SparrowAndPigeon, although I find some of his other (original) conclusions to
 be dubious).{%endfn%}) is a gambling game which originated in <span class="noun"
-lang="zh-Latn">Guangdong</span> during the late Qing dynasty, and which in the
+lang="zh-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the
 19th and 20th centuries was spread throughout Oceania-bordering countries by
 Chinese emigrants. 
 
@@ -62,7 +62,7 @@ tickets are selected to be the winner(s).
 
 The game seems to have originated from gambling on the early-Qing “white pigeon
 festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span
-lang="yue-Latn">baak6 gap3 wui2</span>) which was held in Guangdong. Pigeons
+lang="yue-Latn-jyutping">baak6 gap3 wui2</span>) which was held in Guangdong. Pigeons
 were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span
 lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span
 lang="zh">佛山</span>), and groups of pigeons were numbered using the opening
@@ -86,10 +86,10 @@ of pigeon races and betting being performed in this manner.[@SparrowAndPigeon]
 ## Known history
 
 According to the [<cite>Draft History of <span class="noun"
-lang="zh-Latn">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
-the official <span class="noun" lang="zh-Latn">Qin Ying</span> (<span lang="zh">秦瀛</span>,
+lang="zh-Latn-pinyin">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
+the official <span class="noun" lang="zh-Latn-pinyin">Qin Ying</span> (<span lang="zh">秦瀛</span>,
 1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<span class="noun"
-lang="zh-Latn">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
+lang="zh-Latn-pinyin">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
 (1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
 
 In 1849, a traveller from Yunnan province visited Guangdong and reported that:
@@ -225,9 +225,9 @@ Rites</cite>.](https://en.wikipedia.org/wiki/Book_of_Rites)
 The place that distributed the winnings and collected the profits was invariably
 referred to as the “bank”, and each bank would have its own name. In places such
 as California, where [<span
-lang="zh-Latn">tongs</span>](https://en.wikipedia.org/wiki/Tong_(organization))
+lang="zh-Latn-pinyin">tongs</span>](https://en.wikipedia.org/wiki/Tong_(organization))
 (<span lang="zh">堂</span>) were established, the banks would often be tied to a
-particular <span lang="zh-Latn">tong</span>.[@EncyclopediaOfKeno p. 8]
+particular <span lang="zh-Latn-pinyin">tong</span>.[@EncyclopediaOfKeno p. 8]
 
 There were different ways to select the winning numbers. The drawing of numbers
 was performed publicly to assure bettors that the game was fair. A Sydney
@@ -423,11 +423,11 @@ similar to ours”.[@RoughingIt p. 396]
 
 According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 four banks were
 operating in Philadelphia{%fn%}He provides the names “Extensive Increase” (<span
-lang="yue">廣大</span> <span lang="yue-Latn">gwong2 daai6</span>), “Heavenly
-Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn">tin1 wo4</span>),
-“Fortunate Increase” (<span lang="yue">福大</span> <span lang="yue-Latn">fuk1
+lang="yue">廣大</span> <span lang="yue-Latn-jyutping">gwong2 daai6</span>), “Heavenly
+Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn-jyutping">tin1 wo4</span>),
+“Fortunate Increase” (<span lang="yue">福大</span> <span lang="yue-Latn-jyutping">fuk1
 daai6</span>), and “Encouraging Fountain” (<span lang="yue">釗泉</span> <span
-lang="yue-Latn">ciu1 cyun4</span>).{%endfn%} and five in New York, along with
+lang="yue-Latn-jyutping">ciu1 cyun4</span>).{%endfn%} and five in New York, along with
 others in Boston and Chicago. 
 
 There were ten Chinese lottery banks operating in San Francisco in

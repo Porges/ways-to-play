@@ -16,7 +16,7 @@ Pachisi has many Westernized versions.
 
 ##### Headache
 
-##### Aeroplane Chess <ruby lang="zh">飞行棋<rt lang="zh-Latn">Fēixíng qí</rt></ruby>
+##### Aeroplane Chess <ruby lang="zh">飞行棋<rt lang="zh-Latn-pinyin">Fēixíng qí</rt></ruby>
 
 ##### Coppit
 

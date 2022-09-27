@@ -431,7 +431,7 @@ Other English names for the game have included:
 In other languages it has been called:
 
 * Bengali: <span lang="bn">ন গুটি</span> (<span lang="bn-Latn">nô guṭi</span>) ‘nine beads’
-* Chinese: <span lang="zh">三棋</span> (Mandarin: <span lang="zh-Latn">sān qí</span>) ‘three game’[@KoreanGames p. 102]
+* Chinese: <span lang="zh">三棋</span> (Mandarin: <span lang="zh-Latn-pinyin">sān qí</span>) ‘three game’[@KoreanGames p. 102]
 * French: <span lang="fr">le jeu du moulin</span> ‘the mill game’
 * Greek: <span lang="grc">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="grc">τριώδιον</span> ‘triodium’.[@Hyde p. 205]
 * German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. --> In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de">Fickmül</span>.{%fn%}See [the Gargantua article](/articles/lists/rabelais) for more about Fischart’s list.{%endfn%}

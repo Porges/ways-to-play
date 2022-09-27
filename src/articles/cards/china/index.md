@@ -8,7 +8,7 @@ As the probable country of origin of playing cards, China has a long history of
 card-playing and many different varieties.
 
 The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard
-Chinese: {%pronounce lang="zh-Latn" word="pái" pronouncer="LofZRules"
+Chinese: {%pronounce lang="zh-Latn-pinyin" word="pái" pronouncer="LofZRules"
 file="pronunciation_zh_牌.mp3" %}), does not distinguish between different forms
 of card-like games and equally applies to paper or cardboard cards, bamboo
 sticks, or bone, ivory, or plastic Mahjong tiles. In many adjacent countries the

@@ -1,5 +1,5 @@
 span:is( // Italicize all *-Latn languages:
-  [lang$="-Latn"],
+  [lang*="-Latn"],
   // Italicize non-English (but Latin) languages:
   [lang|=ban],
   // Balinese 

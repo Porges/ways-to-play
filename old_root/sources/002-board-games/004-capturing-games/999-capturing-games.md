@@ -57,27 +57,27 @@ Ref: [@OxfordBG, p. 332]
 
 Ref: [@OxfordBG; @Bell, p. 68]
 
-Chinese: [Dòushòuqí]{lang="zh-Latn"} [鬥獸棋]{lang="zh"} (‘fighting animal
+Chinese: [Dòushòuqí]{lang="zh-Latn-pinyin"} [鬥獸棋]{lang="zh"} (‘fighting animal
 game’).
 
 #### Pieces
 
 | Rank |  Name     | Chinese |
 |------|-----------|-----------|
-|  8   | 🐘 Elephant | [xiàng]{lang="zh-Latn"} [象]{lang="zh"} |
-|  7   | 🦁 Lion     | [shī]{lang="zh-Latn"} [獅]{lang="zh"} |
-|  6   | 🐯 Tiger    | [hǔ]{lang="zh-Latn"} [虎]{lang="zh"} |
-|  5   | 🐆 Leopard  | [bào]{lang="zh-Latn"} [豹]{lang="zh"} |
-|  4   | 🐺 Wolf     | [láng]{lang="zh-Latn"} [狼]{lang="zh"} |
-|  3   | 🐶 Dog      | [gǒu]{lang="zh-Latn"} [狗]{lang="zh"} |
-|  2   | 🐱 Cat      | [māo]{lang="zh-Latn"} [貓]{lang="zh"} |
-|  1   | 🐀 Rat      | [shǔ]{lang="zh-Latn"} [鼠]{lang="zh"} |
+|  8   | 🐘 Elephant | [xiàng]{lang="zh-Latn-pinyin"} [象]{lang="zh"} |
+|  7   | 🦁 Lion     | [shī]{lang="zh-Latn-pinyin"} [獅]{lang="zh"} |
+|  6   | 🐯 Tiger    | [hǔ]{lang="zh-Latn-pinyin"} [虎]{lang="zh"} |
+|  5   | 🐆 Leopard  | [bào]{lang="zh-Latn-pinyin"} [豹]{lang="zh"} |
+|  4   | 🐺 Wolf     | [láng]{lang="zh-Latn-pinyin"} [狼]{lang="zh"} |
+|  3   | 🐶 Dog      | [gǒu]{lang="zh-Latn-pinyin"} [狗]{lang="zh"} |
+|  2   | 🐱 Cat      | [māo]{lang="zh-Latn-pinyin"} [貓]{lang="zh"} |
+|  1   | 🐀 Rat      | [shǔ]{lang="zh-Latn-pinyin"} [鼠]{lang="zh"} |
 
 ### Stratego
 
 Commercial: Game of the Generals (Filipino).
 
-### [Lùzhànqí]{lang="zh-Latn"} [陸軍棋]{lang="zh"} (Army Chess)
+### [Lùzhànqí]{lang="zh-Latn-pinyin"} [陸軍棋]{lang="zh"} (Army Chess)
 
 ### Boolik/Puluc
 

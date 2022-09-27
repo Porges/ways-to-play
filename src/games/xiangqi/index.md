@@ -6,7 +6,7 @@ draft: true
 players: 2
 ---
 
-<p class="lead"><span lang="zh-Latn" class="noun">Xiàngqí</span> (<span lang="zh">象棋</span>) is a chess game originating from China.</p>
+<p class="lead"><span lang="zh-Latn-pinyin" class="noun">Xiàngqí</span> (<span lang="zh">象棋</span>) is a chess game originating from China.</p>
 
 <!-- excerpt -->
 

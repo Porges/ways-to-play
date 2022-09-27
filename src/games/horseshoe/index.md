@@ -6,10 +6,10 @@ players: 2
 This is a simple blocking game for children that seems to originate from China, where it is
 known by many names. Because the board is shaped like the Chinese character
 ‘<span lang="zh">区</span>’ (‘area’), it is known as ‘<code>区</code> character
-game’ (<span lang="zh">区字棋</span>, Mandarin: <span lang="zh-Latn">qū zì
+game’ (<span lang="zh">区字棋</span>, Mandarin: <span lang="zh-Latn-pinyin">qū zì
 qí</span>). Other names include ‘crotch game’ (<span lang="zh-Hant">褲襠棋</span>/<span lang="zh-Hans">裤裆棋</span>,
-Mandarin: <span lang="zh-Latn">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh">剪刀棋</span>,
-Mandarin: <span lang="zh-Latn">jiǎndāo qí</span>). 
+Mandarin: <span lang="zh-Latn-pinyin">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh">剪刀棋</span>,
+Mandarin: <span lang="zh-Latn-pinyin">jiǎndāo qí</span>). 
 
 The board is simple enough to be drawn with a finger into dirt or sand, and can
 be played with any two sets of two distinctive pieces: rocks, shell, bottlecaps,
@@ -24,9 +24,9 @@ In English the game has no standard name, not being widespread, but it has been 
 “horseshoe”, or also “bar”.[@MeditoBoxFront]
 
 In Cantonese it is called ‘cleft lip game’ (<span lang="yue">崩口棋</span> <span
-lang="yue-Latn">bong1 hau2 kei4</span>),[@KoreanGames p.
+lang="yue-Latn-jyutping">bong1 hau2 kei4</span>),[@KoreanGames p.
 100][@PangHauKiImage]{%fn%}In older books (such as Culin’s) this is
-transliterated as “pong hau k’i”.{%endfn%} because of the shape of the board. In
+transliterated as <span lang="yue-Latn">pong hau k’i</span>.{%endfn%} because of the shape of the board. In
 Hindi it is called <span lang="hi-Latn">do-guṭī</span> (<span language="hi">दो
 गुटी</span> ‘two pieces’, perhaps Urdu <span lang="ur">دو گتھی</span>).[@GuptaD
 p. 143]

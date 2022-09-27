@@ -25,7 +25,7 @@ The description below is mostly based upon @GamblingGamesOfMalaya, which
 describes it as popular in Malaysia with “Chinese ladies”. 
 
 The game is also described in the memoirs of Chinese revolutionary <span class="noun"
-lang="zh-Latn">Zheng Chaolin</span> (<span lang="zh">郑超麟</span>, 1901–1998),
+lang="zh-Latn-pinyin">Zheng Chaolin</span> (<span lang="zh">郑超麟</span>, 1901–1998),
 who says that it was played at roadside gambling stalls during the five days
 after the Chinese New Year (and in practice until the Lantern Festival on the
 fifteenth day), when gambling was not prohibited.[@郑超麟回忆录]
@@ -131,7 +131,7 @@ There are four kinds of bets that can be placed:
 <dt>A bet on one result</dt>
 <dd>These bets are placed inside one of the eight cells; if the chosen character comes up then the bet pays out 6:1. If any other result comes up the bet is lost.</dd>
 <dt>A bet on two results</dt>
-<dd>These bets are placed on the lines dividing the cells; if either of the adjacent characters comes up then the bet pays out 2.8:1. If any other result comes up the bet is lost. In <span class="noun" lang="zh-Latn">Zheng Chaolin</span>’s version, this bet pays 3:1.</dd>
+<dd>These bets are placed on the lines dividing the cells; if either of the adjacent characters comes up then the bet pays out 2.8:1. If any other result comes up the bet is lost. In <span class="noun" lang="zh-Latn-pinyin">Zheng Chaolin</span>’s version, this bet pays 3:1.</dd>
 <dt>A bet on four results</dt>
 <dd>These bets are placed on the circles between four cells; if any of the four characters comes up then the bet pays out 1:1. If any other result comes up the bet is lost.</dd>
 <dt>A corner bet</dt>
@@ -146,7 +146,7 @@ The house edges on the bets are as follows:
 <dt>A bet on one result</dt>
 <dd>Pays 6:1, real odds 7:1. House edge is 12.5%.</dd>
 <dt>A bet on two results</dt>
-<dd>Pays 2.8:1, real odds 3:1. House edge is 5%. If it pays 3:1 as in <span class="noun" lang="zh-Latn">Zheng Chaolin</span>’s version, then the bet is fair, which is probably why it was changed!</dd>
+<dd>Pays 2.8:1, real odds 3:1. House edge is 5%. If it pays 3:1 as in <span class="noun" lang="zh-Latn-pinyin">Zheng Chaolin</span>’s version, then the bet is fair, which is probably why it was changed!</dd>
 <dt>A bet on four results</dt>
 <dd>Pays 1:1, which are the fair odds, unusual for a gambling game.</dd>
 <dt>A corner bet</dt>

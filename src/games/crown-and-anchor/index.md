@@ -345,7 +345,7 @@ layout.
 
 {% image src="chinese_board.svg" alt="" %}
 Example of a Chinese-style staking layout. At the top is the manufacturer’s name
-<span lang="zh">高慶坊</span> <span class="noun" lang="zh-Latn">Gāo Qìng Fāng</span>,
+<span lang="zh">高慶坊</span> <span class="noun" lang="zh-Latn-pinyin">Gāo Qìng Fāng</span>,
 followed by <span lang="zh">翹骰不算</span> “cocked dice don’t count”.
 {% imageEnd %}
 
@@ -358,7 +358,7 @@ sam</span> (‘ace, two, three’, romanized “Yew Yee Sam” in older texts).[
 
 Culin[@ChineseGames p. 495–6] describes a very similar game that he calls
 “Grasping Eight” (<span lang="yue">八㪥</span>, Cantonese: <span
-lang="yue-Latn">baat3 zaa1</span>),{%fn%}Culin transcribes this as <span
+lang="yue-Latn-jyutping">baat3 zaa1</span>),{%fn%}Culin transcribes this as <span
 lang="yue-Latn">pát chá</span>.{%endfn%} which uses eight dice.
 
 The staking board contains the six squares with the dice symbols {%cdice

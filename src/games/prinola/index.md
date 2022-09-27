@@ -12,7 +12,7 @@ lang="es">pirinola</span>, a spinning-top or teetotum.</p>
 
 The only source I have found for the game is that of Stewart Culin. He also says
 the same game is played in China under the name <span lang="yue">車咩</span>
-(‘teetotum’, Cantonese: <span lang="yue-Latn">ce1 me1</span>).[@ChineseGames p.
+(‘teetotum’, Cantonese: <span lang="yue-Latn-jyutping">ce1 me1</span>).[@ChineseGames p.
 496]{%fn%}Culin transliterates this as <span lang="yue-Latn">ch’é
 mé</span>.{%endfn%}
 

@@ -59,7 +59,7 @@ lang="zh-Hant">直六</span> <span lang="cmn-Latn">zhí liù</span> ‘straight 
 but he also said that each player has 6 pieces).
 
 In other parts of the world, it is known as Tapatan in the Philippines, or <span
-lang="yue-Hans-HK">六卒棋</span> (<span lang="yue-Latn">luk<sup>6</sup>
+lang="yue-Hans-HK">六卒棋</span> (<span lang="yue-Latn-jyutping">luk<sup>6</sup>
 zeot<sup>1</sup> kei<sup>4</sup></span> ‘six man game’) in southern
 China.[@CulinPhilippine p. 648]{%fn%}Note that @Bell confuses its sources here
 and claims that Hyde states that “Luk Tsut K’i” was played in the time of

@@ -70,7 +70,7 @@ Initial setup of the Chinese board.
 {% imageEnd %}
 
 In China the game is called “Sixteen pursue the general” (<span lang="zh">十六趕將軍</span>, Mandarin: <span lang="zh_-Latn">Shí liù gǎn jiāng jūn</span>,
-Cantonese: <span lang="yue-Latn">sap6 luk6 gon2 zoeng1 gwan1</span>).[@Himly p.
+Cantonese: <span lang="yue-Latn-jyutping">sap6 luk6 gon2 zoeng1 gwan1</span>).[@Himly p.
 469][@CulinChess p. 874]{%fn%}In older works this is transliterated <span
 lang="yue-Latn">Shap luk kong tséung kwan</span> or <span lang="yue-Latn">Šĭ liu
 kan tsiang kün</span>.{%endfn%}
