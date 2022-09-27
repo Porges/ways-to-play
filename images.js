@@ -86,7 +86,7 @@ async function articleImage(caption, props) {
         ifSet(caption.trim(),
             `\n\n<span itemprop="caption">`
             + caption.trim() /* NB: must appear on its own line to get Markdown formatting… */
-            + `</span>` + captionLineBreak)
+            + `</span>` + (source ? captionLineBreak : ''))
         + sourceInfo;
 
     if (srcs.length === 1) {

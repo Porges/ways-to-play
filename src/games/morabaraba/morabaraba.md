@@ -282,5 +282,5 @@ way.
 Men playing on a different <span class="noun" lang="st">Morabaraba</span> board. More
 examples of this board can be found on Instagram: <a
 href="https://www.instagram.com/p/-lij8bskZZ/">1</a>, <a
-href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>. </ArticleImage>
+href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>.
 {% imageEnd %}
