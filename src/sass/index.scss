@@ -309,6 +309,10 @@ div.multi {
     display: flex;
     width: 100%;
     justify-content: space-around;
+
+    &.centered{
+        justify-content: center;
+    }
 }
 
 div.wide, div.extra-wide {
@@ -316,7 +320,7 @@ div.wide, div.extra-wide {
 }
 
 // margins for children
-div.multi > * { margin: 5px 10px; }
+div.multi > * { margin: 10px 5px; }
 figure.cram div.multi > * { margin: 2px; }
 div.multi :last-child { margin-right: 0; }
 div.multi :first-child { margin-left: 0; }
@@ -480,7 +484,7 @@ sup.citation {
 }
 
 /*** Tables ***/
-td.numeric, th.numeric, table.numeric>tbody>tr>td, tbody.numeric>tr>td {
+td.numeric, th.numeric, table.numeric>tbody>tr>td, table.numeric>tbody>tr>th, tbody.numeric>tr>td, tbody.numeric>tr>th {
     // TODO: font doesn't support it 
     font-variant-numeric: tabular-nums;
     text-align: right;

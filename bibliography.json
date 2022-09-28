@@ -8779,5 +8779,46 @@
         "container-title": "The Straits Times",
         "publisher-place": "Singapore",
         "page": 25
+    },
+    "EbashiKabuCarta": {
+        "type": "webpage",
+        "title": "「かぶカルタ」遊技の流行",
+        "title-lang": "ja",
+        "URL": "https://japanplayingcardmuseum.com/2-3-3-2-kabucarta-game-spread/",
+        "container-title": "Japan Playing Card Museum",
+        "issued": {
+            "year": 2020
+        },
+        "author": [
+            {
+                "given": "崇",
+                "family": "江橋",
+                "lang": "ja",
+                "alt": "Ebashi Takashi",
+                "alt-lang": "ja-Latn"
+            }
+        ]
+    },
+    "EdoKaruta7": {
+        "type": "webpage",
+        "title": "「やくざ（八九三）」の語源考",
+        "title-lang": "ja",
+        "URL": "https://sudare10.gokenin.com/room/mein/mein-07.html",
+        "container-title": "江戸カルタメイン研究室",
+        "container-title-lang": "ja",
+        "issued": {
+            "year": 2009,
+            "month": 1,
+            "day": 17
+        },
+        "author": [
+            {
+                "family": "三好",
+                "given": "裕治",
+                "lang": "ja",
+                "alt": "Miyoshi Yūji",
+                "alt-lang": "ja-Latn"
+            }
+        ]
     }
 }

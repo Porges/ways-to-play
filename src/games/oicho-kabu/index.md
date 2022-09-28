@@ -1,6 +1,7 @@
 ---
 title: Oicho-Kabu
 titleLang: ja-Latn
+originalTitle: <span lang="ja">おいちょかぶ</span>
 draft: true
 subgames:
 - title: Kabu
@@ -34,8 +35,9 @@ of playing cards.
 
 {% image 
     src='../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg'
+    size="wide"
     alt="" %}
-A full deck of <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura
+A full deck of forty <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura
 Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
 {% imageEnd %}
 
@@ -43,15 +45,45 @@ Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tam
 
 Up to ten people can play the game (aside from the dealer).
 
-The dealer shuffles the cards and deals two cards face-down to each player. Each
-player looks at their cards and may then request a third, and subsequently a
-fourth card.
-
 The goal of the game is to get a card total as close to 9 as possible. The total
 is calculated by summing the values of the cards in a player’s hand. Card totals
-equal to or over ten have their first digit discarded (i.e. the sum is calculated
+equal to or over 10 have their first digit discarded (i.e. the sum is calculated
 modulo ten), so that a total of 10 is equivalent to zero, and a total of 12
 equivalent to two.
+
+In addition, a hand of three cards of the same rank is an automatic win. This
+hand is called  {% pronounce lang="ja-Latn" word="arashi"
+file="pronunciation_ja_嵐.mp3" pronouncer="straycat88" %} (<span lang="ja">嵐
+</span> ‘storm’) or <span lang="ja-Latn">zoro</span> (<span lang="ja">揃</span>
+‘set’).
+
+The dealer shuffles the cards and deals two cards to each player including
+themselves, the first face-up, the second face-down. Each player looks at their
+cards and may then request a third if they wish. A common rule is that a player
+*must* ask for another card if their total is 3 or less, and *may not* ask for
+another card if their total is 7 or more.
+
+Once all players have decided whether or not to receive a third card, all cards
+are revealed. Players who have beaten the dealer’s total win, and the others
+lose.
+
+The dealer also wins if their first card was a {%cards 4%} or {%cards 9%} and
+their second card was a {%cards 1%}. This beats any hand including a triple. The
+combination {%cards 41%} is called <span lang="ja-Latn">shippin</span> (<span
+lang="ja">シッピン</span>) and {%cards 91%} is called <span
+lang="ja-Latn">kuppin</span> (<span lang="ja">クッピン</span>).
+
+If both dealer and player have a triple, the higher triple wins.
+
+### Other Combinations
+
+As with all living card games, there are many local variations.
+
+In the <cite>Yakuza</cite> video game series, there are two special hands:
+
+* A hand with {%cards '10 10 1'%}, in any order, wins 20× the stake.
+* A player who is dealt the two cards {%cards '4 6'%}, in any order, may choose
+  to turn in their cards and keep their stake, instead of playing out the round.
 
 
 ## Terminology
@@ -59,7 +91,7 @@ equivalent to two.
 The hand totals are counted with special gambling-specific numbers. Some of
 these — like the playing cards themselves — are derived from Portuguese:
 
-<table class="table">
+<table class="table table-sm">
 <thead>
     <tr>
     <th>Total</th>
@@ -127,10 +159,91 @@ these — like the playing cards themselves — are derived from Portugu
     <td>9 <span lang="ja">九</span></td>
     <td><span lang="ja-Latn">kyū</span></td>
     <td><span lang="ja-Latn">kabu</span></td>
-    <td>Possibly from an Edo-period word for nine, <span lang="ja-Latn">kau</span></td>
+    <td>From Portuguese <span lang="pt">cabo</span>, ‘end’. In some very old documents <span lang="ja-Latn">kabu</span> is written <span lang="ja">九寸</span>.</td>
     </tr>
 </tbody>
 </table>
+
+### Named hands
+
+Some combinations of hands totalling 9 (<span lang="ja-Latn">kabu</span>) were
+named. In the erotic book <cite>Lustful Plum Blossom Fence</cite> (<cite
+lang="ja">好色梅花垣</cite>, date?), the following names were given. The meaning
+of the names is obscure to me.[@EbashiKabuCarta]
+
+* {%cards '153'%} ‘oh (great) nine’ (<span lang="ja">御かぶ</span>)
+* {%cards '234'%} ‘[<span
+  lang="ja-Latn">nobori</span>](https://en.wikipedia.org/wiki/Nobori) nine’
+  (<span lang="ja">のぼりがぶ</span>)
+* {%cards '333'%} ‘newly-born imperial prince nine’ (<span lang="ja">今みやがぶ</span>)
+* {%cards '559'%} ??? (<span lang="ja">でつくがぶ</span>)
+* {%cards '757'%} ‘two card imperial archivist protection nine’ (<span lang="ja">二条蔵人あいごがぶ</span>)
+* {%cards '883'%} ‘thunder nine’ (<span lang="ja">雷公がぶ</span>)
+
+Similarly, in the <span lang="ja-Latn">bunraku/kabuki</span> play
+<cite>Ōtō-no-Miya and the Armor of the Rising Sun</cite> (<cite lang="ja">大塔宮
+曦鎧</cite>), staged for the first time in 1723, other names are given for the zero-scoring hands:[@EdoKaruta7]
+
+* {%cards '668'%} ‘<span lang="ja-Latn">hitsuhari</span> pig’ (<span lang="ja">ひつはりぶた</span>)
+* {%cards '893'%} ‘<span lang="ja-Latn" class="noun">Kamakura</span> pig’ (<span lang="ja">鎌倉ぶた</span>)
+
+
+### “<span lang="ja-Latn">Yakuza</span>”
+
+A hand that sums to zero is the worst possible hand. The name of one of these
+hands — that comprising the 8, 9, and 3 cards — will be familiar to many
+English-speakers today as the word used for Japanese gangsters, <span
+lang="ja-Latn">yakuza</span>. The name is a straightforward reading (one of
+several possible) of the numbers <span lang="ja">八九三</span> (893), and,
+before being applied to gangsters, was a term derived from the <span
+lang="ja-Latn" class="noun">Oicho-Kabu</span> hand which also meant “useless” or
+“good-for-nothing”. 
+
+The term has been used in this way for a long time; it appears in the <span
+lang="ja-Latn">bunraku</span> (and later <span lang="ja-Latn">kabuki</span>)
+play <span lang="ja-Latn">Wada Gassen Onna Maizuru</span> (<cite lang="ja">和田
+合戦女舞鶴</cite> ‘Wada Battle Female Dancing Crane’),{%fn%}The dancing crane
+(<span lang="ja-Latn">maizuru</span>) was the <span lang="ja-Latn">mon</span> of
+a standard <span lang="ja-Latn">kabuki</span> character based upon [<span
+lang="ja-Latn">Asahina
+Yoshihide</span>](https://en.wikipedia.org/wiki/Asahina_Yoshihide); thus, the
+title promised a female version of this character.{%endfn%} first performed in
+1736:
+
+<blockquote lang="ja" class="blockquote">
+エエ埒もない<ruby>八九三<rp>(</rp><rt>ヤクザ</rt><rp>)</rp></ruby>の<ruby>眶
+<rp>(</rp><rt>まぶた</rt><rp>)</rp></ruby>に出合うて
+</blockquote>
+
+This term was adopted by gamblers as a nickname and
+eventually became the standard term for a Japanese gangster.
+
+As to _why_ this particular hand was chosen, there are several options. Note
+that it is not the only hand that sums to zero; there are 22 such hands.
+However, it is the only hand containing an {%cards 8%} and a {%cards 9%} that
+results in a zero score; thus if the name of the game is “8, 9…” it is naturally
+followed by “3”.
+
+Another intriguing possibility{%fn%}Suggested by Ryan Sartor.{%endfn%} is
+that when translated to the <span lang="ja-Latn" class="noun">Hanafuda</span>
+deck (with which the game could also be played), the card values {%cards 893 %} correspond
+to the following card combination (<span lang="ja">役</span> <span lang="ja-Latn">yaku</span>):
+
+{%image src="../../articles/cards/japan/hanafuda/Hanafuda_8-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_9-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_3-1.svg" alt="a card showing the full moon;a card showing a sake cup;a card showing cherry blossoms" size="small" justify="centered" %}
+{%imageEnd%}
+
+This <span lang="ja-Latn">yaku</span> is called <span lang="ja-Latn">nomi</span>
+(<span lang="ja">飲み</span> ‘drinking’) and is present in several other <span
+lang="ja-Latn" class="noun">Hanafuda</span> games. The fact that this
+combination of cards results in a zero score whilst referring to a dissolute
+lifestyle could have also had an influence upon the development of the term.
+
+
+## History
+
+Possibly the game was originally called the ‘three card’ (<span lang="ja">三枚</span>) game.
+
+
 
 ## Variants
 
@@ -143,7 +256,7 @@ Play with the {% cards 'A–⑩' %} from a standard deck of cards. You will also
 need some chips to keep track of score. Sids’ suggested chip distribution for
 each player is:
 
-<table class="table numeric">
+<table class="table numeric table-sm">
     <thead>
     <tr>
         <th>Players</th>

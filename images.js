@@ -17,6 +17,7 @@ module.exports = { renderSource, articleImage, person, license, organization }
  * @param {string=} props.size
  * @param {string=} props.position
  * @param {SourceInfo} props.source
+ * @param {string=} props.justify
  */
 async function articleImage(caption, props) {
     if (props.authorFamily || props.authorGiven) {
@@ -54,7 +55,7 @@ async function articleImage(caption, props) {
     }
 
     PropTypes.checkPropTypes(articleImagePropTypes, props, 'props', 'articleImage');
-    const { alt, src, noborder, cram, source, position, size, perRow } = props;
+    const { alt, src, noborder, cram, source, position, size, perRow, justify } = props;
 
     const className = `${position || ''} ${size || ''} ${cram ? 'cram' : ''}`;
     // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
@@ -99,7 +100,7 @@ async function articleImage(caption, props) {
     } else {
         const sourceId = "src_" + "TODOSRC";
         return `<figure class="figure ${className}">`
-            + await renderImages(this, srcs, alts, perRow, sourceId, sizes, noborder)
+            + await renderImages(this, srcs, alts, perRow, sourceId, sizes, noborder, justify)
             + `<figcaption class="text-center figure-caption" itemscope>`
             + `<div id="${sourceId}">`
             + captionAndSource
@@ -172,10 +173,20 @@ async function renderImage(me, src, alt, sizes, noborder) {
  * @param {boolean=} noborder 
  * @returns {Promise<string>}
  */
-async function renderImages(me, srcs, alts, perRow = 1000, sourceId, sizes, noborder) {
+async function renderImages(me, srcs, alts, perRow = 1000, sourceId, sizes, noborder, justify) {
+    let classes = "multi";
+    if (justify) {
+        switch (justify) {
+            case 'centered': 
+                classes += ' centered';
+                break;
+            default:
+                throw new Error(`Invalid 'justify' value: ${justify}`)
+        }
+    }
     let result = '';
     for (let at = 0; at < srcs.length; at += perRow) {
-        result += '<div class="multi">';
+        result += `<div class="${classes}">`;
         for (let ix = at; ix < Math.min(at + perRow, srcs.length); ++ix) {
             result += await renderSourcedImage(me, srcs[ix], alts[ix], sourceId, sizes, noborder);
         }
@@ -244,6 +255,7 @@ const articleImagePropTypes = {
     src: PropTypes.string.isRequired,
     noborder: PropTypes.bool,
     cram: PropTypes.bool,
+    justify: PropTypes.oneOf(['centered']),
 };
 
 /** @typedef { import('./types').Name } Name */

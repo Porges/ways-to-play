@@ -92,6 +92,9 @@ The playing-card font is [NKD04 by Umihotaru](https://umihotaru.work/). It has a
 The chess-piece font is [NKS30 by Umihotaru](https://booth.pm/ja/items/1949217).
 It is a commercial font.
 
+The inline SVG dice images were made by me using [NKS02 by
+Umihotaru](https://umihotaru.booth.pm/items/1949118).
+
 The font used for other emoji not covered by fonts mentioned above is [Noto
 Emoji](https://fonts.google.com/noto/specimen/Noto+Emoji/about), licensed under
 the [SIL Open Font
