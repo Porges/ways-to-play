@@ -135,7 +135,7 @@ function renderSource(source, short = false) {
         + ifSet(source.copyrightYear, `<span itemprop="copyrightYear">${source.copyrightYear}</span> `)
         + ((copyrightHolder && source.originalUrl) ? `<a href="${source.originalUrl}" itemprop="sameAs">${copyrightHolder}</a>` : copyrightHolder)
         + ifSet(source.license !== 'stock-image', () => license({ leading: !!copyrightHolder, license: source.license, version: source.licenseVersion }))
-        + ifSet(!short && source.identifier, `: ${source.identifier}`);
+        + ifSet(!short && source.identifier, `: <span class="image-identifier">${source.identifier}</span>`);
 }
 
 /**

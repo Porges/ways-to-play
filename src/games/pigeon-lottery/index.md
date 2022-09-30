@@ -708,7 +708,7 @@ Hyde](https://en.wikipedia.org/wiki/Robin_Hyde), writing later in 1934, noted:
 In any case, the proposed bill was subsequently withdrawn and this version of
 the amendment was never passed.
 
-<div class="multi extra-wide">
+<div class="multi wide centered">
 
 {%image
     noborder=true
@@ -941,6 +941,7 @@ inadvertently returned the game to its pigeon-racing roots.
 ### Racehorse Keno
 
 {% image src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
+    justify="centered"
     alt=";"
     originalUrl="https://www.newspapers.com/clip/99585617/race-horse-keno/"
     license="cc0"

@@ -765,34 +765,6 @@ a[href*="wikipedia.org" i] {
     }
 }
 
-/* TO FINISH LATER
-@media print {
-    a {
-        text-decoration: none !important;
-    }
-
-    a:not([href^="#"]){
-        &:before {
-            content: "† " attr(href);
-            font-family: monospace;
-            float: right;
-            clear: right;
-
-            width: 55%;
-            margin-right: -60%;
-
-            font-size: inherit;
-        }
-
-        &:after {
-            content: "†";
-            font-size: inherit;
-            vertical-align: inherit;
-        }
-    }
-}
-*/
-
 .inline-img {
     height: 22px; // just under the line-height which is 22.4px
     vertical-align: sub;
@@ -800,6 +772,11 @@ a[href*="wikipedia.org" i] {
     &.big {
         height: 2em;
     }
+}
+
+.image-identifier {
+    // don't wrap identifiers
+    white-space: nowrap;
 }
 
 a[itemprop=license] {

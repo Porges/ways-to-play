@@ -956,7 +956,10 @@ prices on Yahoo! Auctions, often selling for several hundred US dollars.
 {% image 
     src='Matsui_Brights.jpg'
     alt="" %}
-The 5 Bright cards from a deck produced by <span class="noun" lang="ja-Latn">Matsui Shigeo</span> to demonstrate his printing technique (1978).{%fn%}This deck was produced as part of a demonstration for members of the International Playing Card Society.{%endfn%}
+The 5 Bright cards from a deck produced by <span class="noun"
+lang="ja-Latn">Matsui Shigeo</span> to demonstrate his printing technique
+(1978). This deck was produced as part of a demonstration for members of the
+International Playing Card Society.
 {% imageEnd %}
 
 <span class="noun" lang="ja-Latn">Matsui</span>’s mark was <span lang="ja">松</span> in a
@@ -1640,7 +1643,7 @@ lang="ja-Latn">Kabufuda</span> cards.
     copyrightYear=2021,
     authorFamily="Sartor",
     authorGiven="Ryan" %}
-<span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja">asahifuji</span> wrapper.
+<span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">asahifuji</span> wrapper.
 (Low-resolution image from the side of a <span lang="ja-Latn">botanjishi</span>
 wrapper.)
 {% imageEnd %}
