@@ -99,10 +99,7 @@ $figure-caption-font-size: 1.2 * .625rem;
 
 body {
     font-variant-numeric: oldstyle-nums;
-    // doesn't work in Chrome with letter-spacing!  https://twitter.com/rsms/status/1158133140222689280
-    //  font-variant-ligatures: common-ligatures contextual;
-    // must instead use:
-    //font-feature-settings: "liga", "calt"; /* this should be on by default but not in Chrome! */
+    font-variant-ligatures: common-ligatures contextual;
 }
 
 i, em {
@@ -246,12 +243,16 @@ blockquote {
 
 /*** Figures ***/
 .figure {
-    display: block;
+    display: table;
 }
 
 figcaption {
     line-height: 17px;
-    //letter-spacing: unset;
+    width: 100%;
+
+    display: table-caption;
+    caption-side: bottom;
+
     /* TODO: text-wrap: balance; */
 }
 
@@ -304,14 +305,25 @@ figure {
     }
 }
 
+
 /*** Multiple items in a row: ***/
 div.multi {
     display: flex;
     width: 100%;
     justify-content: space-around;
+    align-items: flex-start;
 
     &.centered{
         justify-content: center;
+    }
+
+    figure {
+        // unset width: 100% for figures
+        width: unset;
+
+        img {
+            width: 100%;
+        }
     }
 }
 
@@ -465,11 +477,11 @@ abbr[title] {
 .citation { color: $secondary }
 .citation a { color: $accent }
 sup.citation a::before {
-  content: '•';
+    content: '•';
 }
 
 sup.citation {
-  line-height: 0; // don't let superscript affect calculated lineheight 
+    line-height: 0; // don't let superscript affect calculated lineheight 
 }
 
 /*** Pronunciation ***/
@@ -675,9 +687,11 @@ TODO
     }
 }
 */
+
 /*** For Japanese/Chinese, where needed ***/
 .vertical-rl {
     writing-mode: vertical-rl;
+    font-feature-settings: "vkrn", "vpal", "vkna";
 }
 
 .sideways {

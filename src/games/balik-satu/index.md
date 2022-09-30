@@ -127,7 +127,7 @@ The winner draws an additional card from the deck (hence the name of the game),
 and this determines the value of their hand. Unmarked cards are worth their rank
 value (1–9 points), and the red-stamped cards are worth more:
 
-<div class="multi">
+<div class="multi centered">
 {% image 
     size="small"
     noborder=true
@@ -293,6 +293,7 @@ with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
 {% image 
     size="small"
     noborder=true
+    justify="centered"
     alt=";;"
     src="../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CM1.jpg" %}
     These cards are worth 10 points each.

@@ -459,6 +459,7 @@ lang="ja-Latn">Meiji-za</span>](https://en.wikipedia.org/wiki/Meiji-za)).
 
 {% image cram=true src='Play-Left.jpg;Play-Right.jpg' alt=";" 
     orgName="Art Research Center, Ritsumeikan University"
+    justify="centered"
     originalUrl="https://jpsearch.go.jp/item/arc_nishikie-M648_011aNr010a",
     license="cc-by-nc-sa", licenseVersion="4.0" %} 
 Advertisement for <span class="noun" lang="ja-Latn">Maeda</span>’s play entitled <cite
@@ -1330,9 +1331,8 @@ location](http://www.wakapoetry.net/?s=miyosino) in the imperial poetry
 collections.
 
 In 1688, [<span class="noun" lang="ja-Latn">Matsuo
-Bashō</span>](https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D) (<span lang="ja">
-松尾芭蕉</span>), Japan’s most famed composer of <span
-lang="ja-Latn">hokku</span>, visited <span class="noun" lang="ja-Latn">Yoshino</span> during
+Bashō</span>](https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D) (<span lang="ja">松尾芭蕉</span>),
+Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, visited <span class="noun" lang="ja-Latn">Yoshino</span> during
 his travels but found himself unable to compose a single poem, overwhelmed by
 the pressure of trying to live up to his predecessors.[@NarrowRoad p. 84] One of
 them, <span class="noun" lang="ja-Latn">Yasuhara Teishitsu</span> (<span lang="ja">安原貞室

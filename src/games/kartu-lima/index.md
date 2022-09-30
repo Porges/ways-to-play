@@ -56,7 +56,7 @@ a third and fourth, <span lang="jav-Latn">ladoe</span> (‘eruption’?).
 
 A pair of top-ranking cards in one hand, i.e. a pair of any <span
 lang="jav-Latn">dika</span>, or the 9 of Strings or Coins, the 4 of Coins, or
-the old Thousand, is unbeatable if led, and is called a <span
+the Old Thousand, is unbeatable if led, and is called a <span
 lang="jav-Latn">mraji</span>.
 
 If the starting player has a hand with two pairs of <span
@@ -134,7 +134,7 @@ There are ten cards in this group: the Myriad cards from {% cards '2–9' %} are
 all of equal rank. In the same group, but ranked higher, are Red Flower, and
 then Old Thousand is the highest.
 
-<div class="multi">
+<div class="multi centered">
 {% image
     noborder=true
     size="small"
@@ -162,7 +162,7 @@ Then the rest of the Myriads cards (aside from {% cards '1' %}) are ranked equal
 
 There are only two cards in this group; the 4 of Coins outranks the 3 of Coins.
 
-<div class="multi">
+<div class="multi centered">
 {% image
     noborder=true
     size="small"
@@ -182,7 +182,7 @@ There are only two cards in this group; the 4 of Coins outranks the 3 of Coins.
 
 There are only two cards in this group; the 9 of Coins outranks the 8 of Coins.
 
-<div class="multi">
+<div class="multi centered">
 {% image
     noborder=true
     size="small"
@@ -204,7 +204,7 @@ There are only two cards in this group; the 9 of Coins outranks the 8 of Coins.
 There are four cards in this group; the 9 of Strings outranks the 8 of Strings,
 and the 5 & 7 of Strings are of equal rank.
 
-<div class="multi">
+<div class="multi centered">
 {% image
     noborder=true
     size="small"
@@ -222,6 +222,7 @@ and the 5 & 7 of Strings are of equal rank.
 {% image
     noborder=true
     size="small"
+    justify="centered"
     alt=";"
     src="../../articles/cards/ceki/CS7.jpg;../../articles/cards/ceki/CS5.jpg" %}
 5 & 7 Strings are ranked equally.
@@ -247,6 +248,7 @@ The cards are:
 {% image
     noborder=true
     size="small"
+    justify="centered"
     src="../../articles/cards/ceki/CWF.jpg;../../articles/cards/ceki/CM1.jpg;../../articles/cards/ceki/CS1.jpg;../../articles/cards/ceki/CC1.jpg"
     alt=";;;" %}
 All non-red rank-1 cards.
@@ -255,6 +257,7 @@ All non-red rank-1 cards.
 {% image
     noborder=true
     size="small"
+    justify="centered"
     src="../../articles/cards/ceki/CS2.jpg;../../articles/cards/ceki/CS3.jpg;../../articles/cards/ceki/CS4.jpg;../../articles/cards/ceki/CS6.jpg"
     alt=";;;" %}
 The 2, 3, 4, and 6 of Strings.
@@ -263,6 +266,7 @@ The 2, 3, 4, and 6 of Strings.
 {% image
     noborder=true
     size="small"
+    justify="centered"
     alt=";;;"
     src="../../articles/cards/ceki/CC2.jpg;../../articles/cards/ceki/CC5.jpg;../../articles/cards/ceki/CC6.jpg;../../articles/cards/ceki/CC7.jpg" %}
 The 2, 5, 6, and 7 of Coins.

@@ -1344,11 +1344,9 @@ Brands of both companies have included:[@ModernJapaneseWrappers pp. 54–5]
 {% imageEnd %}
 </div>
 
-<div class="multi wide">
 {% image src='NK_kane_no_naka.jpg' alt="A hanafuda wrapper featuring three people sitting on the floor playing a hanafuda game." %}
 The <span lang="ja-Latn">kane no naka</span> box.
 {% imageEnd %}
-</div>
 
 <div class="multi">
 {% image src='NK_umejirushi.jpg' alt="A hanafuda wrapper with plum blossoms" %}
@@ -2290,10 +2288,8 @@ would be greatly appreciated!
 * <span lang="ja">勝力士</span> (<span lang="ja-Latn">katsu rikishi</span>, ‘winning sumo wrestler’)
 * <span lang="ja">優良太平楽</span> (<span lang="ja-Latn">yūryō taiheiraku</span> ‘excellent happy-go-lucky’, which is the name of a <span lang="ja-Latn">gagaku</span> piece)
 
-<div class="multi wide">
 {% image 
     src="taiheiraku.jpg"
     alt="A hanafuda wrapper with a costumed dancer and drum." %}
 The <span lang="ja-Latn">taiheiraku</span> wrapper.
 {% imageEnd %}
-</div>

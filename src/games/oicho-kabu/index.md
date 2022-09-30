@@ -26,12 +26,13 @@ the game is played with standard “international” playing cards.
 The game in Japan is played with special cards called <span
 lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span
 lang="ja-Latn">kabu</span> cards’), which are numbered from 1–10. A full deck is
-40 cards, and has four copies of each card. It can also be played with <span
-lang="ja-Latn">hanafuda</span> cards (by dropping two months),{%fn%}There are
-also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called
-<span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of
-the standard deck.{%endfn%} or with the {% cards 'A–10' %} from a standard deck
-of playing cards.
+40 cards, and has four copies of each card.
+
+It can also be played with <span lang="ja-Latn">hanafuda</span> cards (by
+dropping two months),{%fn%}There are also <span lang="ja-Latn">hanafuda</span>
+decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These
+lack the 6th &amp; 7th months of the standard deck.{%endfn%} or with the {%
+cards 'A–10' %} from a standard deck of playing cards.
 
 {% image 
     src='../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg'
@@ -169,26 +170,37 @@ these — like the playing cards themselves — are derived from Portugu
 Some combinations of hands totalling 9 (<span lang="ja-Latn">kabu</span>) were
 named. In the erotic book <cite>Lustful Plum Blossom Fence</cite> (<cite
 lang="ja">好色梅花垣</cite>, date?), the following names were given. The meaning
-of the names is obscure to me.[@EbashiKabuCarta]
+of most of the names is obscure to me.[@EbashiKabuCarta]
 
-* {%cards '153'%} ‘oh (great) nine’ (<span lang="ja">御かぶ</span>)
-* {%cards '234'%} ‘[<span
-  lang="ja-Latn">nobori</span>](https://en.wikipedia.org/wiki/Nobori) nine’
-  (<span lang="ja">のぼりがぶ</span>)
+* {%cards '153'%} ‘oh (great) nine’ (<span lang="ja">御かぶ</span> <span
+  lang="ja-Latn">ō&shy;kabu</span>)
+* {%cards '234'%} ‘ascending nine’ (<span lang="ja">のぼりがぶ</span> <span
+  lang="ja-Latn">nobori&shy;kabu</span>){%fn%}i.e. <span lang="ja">上り</span> — not, as Japanese Wikipedia has, [<span lang="ja">幟</span>](https://en.wikipedia.org/wiki/Nobori).{%endfn%}
 * {%cards '333'%} ‘newly-born imperial prince nine’ (<span lang="ja">今みやがぶ</span>)
 * {%cards '559'%} ??? (<span lang="ja">でつくがぶ</span>)
-* {%cards '757'%} ‘two card imperial archivist protection nine’ (<span lang="ja">二条蔵人あいごがぶ</span>)
+* {%cards '757'%} ‘two card imperial archivist protection nine’ (<span lang="ja">二条蔵人あいごがぶ</span>) — the position of the head of the “imperial archivists” (<span lang="ja">蔵人頭</span> <span lang="ja-Latn">kurōdo</span> or <span lang="ja-Latn">kurando no tō</span>, usually translated ‘head chamberlain’) was held by two people, who were personally selected by the Emperor’s personal
 * {%cards '883'%} ‘thunder nine’ (<span lang="ja">雷公がぶ</span>)
 
 Similarly, in the <span lang="ja-Latn">bunraku/kabuki</span> play
-<cite>Ōtō-no-Miya and the Armor of the Rising Sun</cite> (<cite lang="ja">大塔宮
-曦鎧</cite>), staged for the first time in 1723, other names are given for the zero-scoring hands:[@EdoKaruta7]
+<cite>Ōtō-no-Miya and the Armor of the Rising Sun</cite> (<cite lang="ja">大塔宮曦鎧</cite>), staged for the first time in 1723, other names are given for the
+zero-scoring hands:[@EdoKaruta7]
 
 * {%cards '668'%} ‘<span lang="ja-Latn">hitsuhari</span> pig’ (<span lang="ja">ひつはりぶた</span>)
 * {%cards '893'%} ‘<span lang="ja-Latn" class="noun">Kamakura</span> pig’ (<span lang="ja">鎌倉ぶた</span>)
 
-
 ### “<span lang="ja-Latn">Yakuza</span>”
+
+{%aside%}
+An interesting coincidence pointed out by Ryan Sartor is that when
+translated to the <span lang="ja-Latn" class="noun">Hanafuda</span> deck (with
+which the game could also be played), the card values {%cards 893 %} correspond
+to the following card combination (<span lang="ja">役</span> <span
+lang="ja-Latn">yaku</span>), which is named <span lang="ja-Latn">nomi</span>
+(<span lang="ja">飲み</span> ‘drinking’), and is used in several
+<span lang="ja-Latn" class="noun">Hanafuda</span> games:
+{%image src="../../articles/cards/japan/hanafuda/Hanafuda_8-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_9-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_3-1.svg" alt="a card showing the full moon;a card showing a sake cup;a card showing cherry blossoms" size="small" justify="centered" %}
+{%imageEnd%}
+{%endaside%}
 
 A hand that sums to zero is the worst possible hand. The name of one of these
 hands — that comprising the 8, 9, and 3 cards — will be familiar to many
@@ -223,21 +235,6 @@ that it is not the only hand that sums to zero; there are 22 such hands.
 However, it is the only hand containing an {%cards 8%} and a {%cards 9%} that
 results in a zero score; thus if the name of the game is “8, 9…” it is naturally
 followed by “3”.
-
-Another intriguing possibility{%fn%}Suggested by Ryan Sartor.{%endfn%} is
-that when translated to the <span lang="ja-Latn" class="noun">Hanafuda</span>
-deck (with which the game could also be played), the card values {%cards 893 %} correspond
-to the following card combination (<span lang="ja">役</span> <span lang="ja-Latn">yaku</span>):
-
-{%image src="../../articles/cards/japan/hanafuda/Hanafuda_8-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_9-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_3-1.svg" alt="a card showing the full moon;a card showing a sake cup;a card showing cherry blossoms" size="small" justify="centered" %}
-{%imageEnd%}
-
-This <span lang="ja-Latn">yaku</span> is called <span lang="ja-Latn">nomi</span>
-(<span lang="ja">飲み</span> ‘drinking’) and is present in several other <span
-lang="ja-Latn" class="noun">Hanafuda</span> games. The fact that this
-combination of cards results in a zero score whilst referring to a dissolute
-lifestyle could have also had an influence upon the development of the term.
-
 
 ## History
 

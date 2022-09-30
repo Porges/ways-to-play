@@ -72,10 +72,19 @@ span:is( // Italicize all *-Latn languages:
   @include italic-font;
 }
 
-/* We are going to be embedding Japanese and Chinese in Latin text,
-  so make them proportional. This has better spacing for kana etc. */
 body {
-  font-variant-east-asian: proportional-width;
+  // palt: We are going to be embedding Japanese and Chinese in Latin text,
+  //       so make them proportional. This has better spacing for kana etc.
+  // hkna: Always writing horizontally here, so prefer horizontally-optimized
+  //       forms.
+  font-feature-settings: "palt", "hkna";
+  // required by 'palt' but enable it this way as well
+  font-kerning: normal;
+}
+
+rt {
+  // why is this not on by default!
+  font-variant-east-asian: ruby;
 }
 
 /* Override fonts for specific languages.
@@ -84,11 +93,9 @@ body {
 
 :lang(ja):not(:lang(ja-Latn)):not(h1 *, h2 *, h3 *, h4 *, h5 *, h6 *) {
   font-family:
-    "Yu Gothic",
-    /* Japanese: Windows font, prefer this to Meiryo which is default otherwise */
+    "Yu Gothic", // Japanese: Windows font, prefer this to Meiryo which is default otherwise
     sans-serif,
-    "UniHentaiKana";
-  /* fallback for Hentaigana chars */
+    "UniHentaiKana"; // fallback for Hentaigana chars
 }
 
 /* Default Thai font on Windows is a bit heavy */
@@ -97,7 +104,6 @@ body {
 }
 
 /* For Chinese, the Windows defaults are ok:
-
   zh: YaHei
   zh-Hans: YaHei
   zh-Hant: JhengHei
@@ -115,18 +121,15 @@ cite:lang(zh):not(:lang(zh-Latn)) {
 
   &::before {
     content: '《';
-    font-feature-settings: "palt", "pwid";
   }
 
   &::after {
     content: '》';
-    font-feature-settings: "palt", "pwid";
   }
 }
 
 cite:lang(ja):not(:lang(ja-Latn)) {
   font-style: inherit;
-  font-feature-settings: "palt";
 
   &::before {
     content: '『'
