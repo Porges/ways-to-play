@@ -496,7 +496,13 @@ sup.citation {
 }
 
 /*** Tables ***/
-td.numeric, th.numeric, table.numeric>tbody>tr>td, table.numeric>tbody>tr>th, tbody.numeric>tr>td, tbody.numeric>tr>th {
+td.numeric, th.numeric,
+table.numeric>tbody>tr>td,
+table.numeric>tbody>tr>th,
+table.numeric>tfoot>tr>td,
+table.numeric>tfoot>tr>th,
+tbody.numeric>tr>td,
+tbody.numeric>tr>th {
     // TODO: font doesn't support it 
     font-variant-numeric: tabular-nums;
     text-align: right;
@@ -716,6 +722,16 @@ abbr.initialism {
 
 .smallcaps {
     font-variant: small-caps;
+}
+
+/* Lists */
+
+dd {
+    margin-left: 1em;
+}
+
+dl {
+    margin-bottom: 2em;
 }
 
 ul.article-list {

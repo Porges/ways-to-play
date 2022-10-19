@@ -42,11 +42,11 @@ See @FinalMahjong for examples of the use of <span lang="ja">通り</span>.
 
 ## Equipment variations
 
-When played with [Mah Jong](/equipment/mah-jong.html) tiles, it is called <span
+When played with [Mah Jong](/equipment/mah-jong.html) tiles, it can be called <span
 lang="ja-Latn">haihonbiki</span> (<span lang="ja">牌本引</span>).
 
 Tehonbiki can also be played with [Hanafuda](/equipment/hanafuda.html) cards. In
-this case it is called <span lang="ja-Latn">ehonbiki</span> (<span lang="ja">絵本引</span>).
+this case it can be called <span lang="ja-Latn">ehonbiki</span> (<span lang="ja">絵本引</span>).
 When used in this manner, the values of the cards are ignored and
 only the months are considered; the mapping of months to numbers is:
 
