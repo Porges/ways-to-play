@@ -91,9 +91,11 @@ exports.render = async function (data) {
         for (const lb of document.getElementsByClassName('lightbox')) {
           lb.firstChild.addEventListener('click', () => lb.close('clicked'));
           lb.addEventListener('close', () => {
-            if (lb.returnValue === 'clicked') {
-              history.pushState("", document.title, window.location.pathname + window.location.search);
+            if (lb.returnValue !== 'navigated') {
+              history.replaceState("", document.title, window.location.pathname + window.location.search);
             }
+
+            lb.returnValue = '';
           });
         }
 
