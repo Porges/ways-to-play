@@ -69,7 +69,7 @@ Gahō</span> in 1909.
 Initial setup of the Chinese board.
 {% imageEnd %}
 
-In China the game is called “Sixteen pursue the general” (<span lang="zh">十六趕將軍</span>, Mandarin: <span lang="zh_-Latn">Shí liù gǎn jiāng jūn</span>,
+In China the game is called “Sixteen pursue the general” (<span lang="zh">十六趕將軍</span>, Mandarin: {%pronounce lang="zh_-Latn" word="Shí liù gǎn jiāng jūn" file="pronunciation_zh_十六趕將軍.mp3" pronouncer="j10oyc24e" %},
 Cantonese: <span lang="yue-Latn-jyutping">sap6 luk6 gon2 zoeng1 gwan1</span>).[@Himly p.
 469][@CulinChess p. 874]{%fn%}In older works this is transliterated <span
 lang="yue-Latn">Shap luk kong tséung kwan</span> or <span lang="yue-Latn">Šĭ liu

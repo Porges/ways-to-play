@@ -131,7 +131,7 @@ module.exports = function (eleventyConfig) {
 // shortcode definitions:
 function pronunciation(props) {
   const { file, lang, word, pronouncer, noun } = props;
-  const mp3File = file ? ('/audio/' + file) : `/audio/pronunciation_${lang}_${word}.mp3`;
+  const mp3File = file ? ('/audio/' + file) : `/audio/pronunciation_${lang}_${word.replace(/\s+/g, '_')}.mp3`;
   return `<audio preload="none" src="${mp3File}"></audio><span class="pronunciation${ifSet(noun, ' noun')}" lang="${lang}" title="Pronunciation © ‘${pronouncer}’ CC-BY-NC-SA 3.0, courtesy of Forvo.com." onclick="this.previousSibling.play()">${word}</span>`;
 }
 

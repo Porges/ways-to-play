@@ -103,7 +103,7 @@ Chinese Name[@ChineseGames p. 493]
 <tr><th scope="row">3 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==3'%}</td><td>Point of 3</td></tr>
 <tr><th scope="row">2 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==2'%}</td><td>Point of 2</td></tr>
 <tr><th scope="row">1 Point</th><td><span lang="zh">一弗</span> ‘bad one’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat1 fat1</span></td><td>Ace Out</td><td>{%cdice '==1'%}</td><td class="bg-danger text-white">Loss</td></tr>
-<tr><th scope="row">1–2–3</th><td><span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: <span lang="yue-Latn-jyutping">mou5 lung4</span><br/><br/><span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: <span lang="yue-Latn-jyutping">se4 zai2</span></td><td></td><td>{%cdice 123%}</td><td class="bg-danger text-white">Loss</td></tr>
+<tr><th scope="row">1–2–3</th><td><span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: {% pronounce lang="yue-Latn-jyutping" word="mou5 lung4" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3" %}<br/><br/><span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: {%pronounce lang="yue-Latn-jyutping" word="se4 zai2" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3" %}</td><td></td><td>{%cdice 123%}</td><td class="bg-danger text-white">Loss</td></tr>
 <tr><th scope="row">Nothing</th><td></td><td></td><td></td><td>Re-roll</td></tr>
 </tbody>
 </table>
