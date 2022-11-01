@@ -334,8 +334,8 @@ div.wide, div.extra-wide {
 // margins for children
 div.multi > * { margin: 10px 5px; }
 figure.cram div.multi > * { margin: 2px; }
-div.multi :last-child { margin-right: 0; }
-div.multi :first-child { margin-left: 0; }
+div.multi > :last-child { margin-right: 0; }
+div.multi > :first-child { margin-left: 0; }
 
 // space out after poetry etc
 div.multi > p {
@@ -591,12 +591,6 @@ figure.footnote {
   border: none;
 }
 
-/*
-.footnote p {
-    text-align: left;
-}
-*/
-
 // remove bottom margin from last <p>
 .footnote p:last-child {
   margin-bottom: 0;
@@ -800,49 +794,38 @@ a[itemprop=license] {
 }
 
 /** Lightbox **/
-
-// ideas from: https://codepen.io/gschier/pen/HCoqh
-
 .lightbox {
-  /* Default to hidden */
-  display: none;
+    border-radius: 10px;
+}
 
-  /* Overlay entire screen */
-  position: fixed;
-  z-index: 900;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  
-  /* A bit of padding around image */
-  padding: 1em;
+.lightbox::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
 
-  /* Translucent background */
-  background: rgba(0, 0, 0, 0.8);
-
+.lightbox img {
   cursor: zoom-out;
+  max-width: 100%;
+  max-height: calc(100vh - 8rem);
 }
 
 a .figure-img {
-    cursor: zoom-in;
+  cursor: zoom-in;
 }
 
-/* Unhide the lightbox when it's the target */
-.lightbox:target {
-  display: block !important;
+.lightbox-close, .lightbox-original {
+    @extend .btn, .btn-outline-primary, .mt-2, .ms-2;
 }
 
-.lightbox span {
-  /* Full width and height */
-  display: block;
-  width: 100%;
-  height: 100%;
+.lightbox-close::before {
+    content: "✖ "
+}
 
-  /* Size and position background image */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+.lightbox-original::before {
+    content: "⬇ "
+}
+
+form:has(.lightbox-close) {
+    @extend .text-end;
 }
 
 /* Columns */

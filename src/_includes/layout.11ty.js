@@ -66,6 +66,41 @@ exports.render = async function (data) {
     ${ifSet(data.ogType, `<meta property="og:type" content="${data.ogType}" />`)}
     ${ifSet(ogImage, `<meta property="og:image" content="${ogImage}" />`)}
     ${ifSet(excerpt, `<meta property="og:description" content="${excerpt}" />`)}
+    <script type="module">
+      function doHashPopup({newURL, oldURL}) {
+        if (oldURL) {
+          const oldHash = new URL(oldURL).hash;
+          if (oldHash) {
+            const old = document.getElementById(oldHash.substring(1));
+            if (old.close) {
+              old.close('navigated');
+            }
+          }
+        }
+
+        const newHash = new URL(newURL).hash;
+        if (newHash) {
+          const target = document.getElementById(newHash.substring(1));
+          if (target.showModal) {
+            target.showModal();
+          }
+        }
+      }
+
+      addEventListener('DOMContentLoaded', () => {
+        for (const lb of document.getElementsByClassName('lightbox')) {
+          lb.firstChild.addEventListener('click', () => lb.close('clicked'));
+          lb.addEventListener('close', () => {
+            if (lb.returnValue === 'clicked') {
+              history.pushState("", document.title, window.location.pathname + window.location.search);
+            }
+          });
+        }
+
+        window.addEventListener('hashchange', doHashPopup);
+        doHashPopup({newURL: window.location.href});
+      });
+    </script>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
     <header>

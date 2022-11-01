@@ -156,9 +156,9 @@ async function renderImage(me, src, alt, sizes, noborder) {
 
     const classlist = noborder ? " border-0" : '';
 
-    return `<a href="#!" hidden class="lightbox" id="${id}">`
-        + `<span style="background-image: url('${original.url}')"></span>`
-        + `</a>`
+    return `<dialog class="lightbox" id="${id}">`
+        + `<img src="${original.url}" srcset="${srcset}" />`
+        + `<form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close" value="clicked">Close</button></form></dialog>`
         + `<a href="#${id}">`
         + `<img class="figure-img${classlist}" itemprop="contentUrl url" src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
         + `</a>`;
@@ -238,9 +238,9 @@ async function renderSourcedImage(me, src, alt, sourceId, sizes, noborder) {
     const id = path.basename(original.filename, path.extname(original.filename));
 
     return `<div itemscope itemtype="${imageObject}" itemprop="image" itemRef="${sourceId}">`
-        + `<a href="#!" hidden class="lightbox" id="${id}">`
-        + `<span style="background-image: url('${original.url}')"></span>`
-        + '</a>'
+        + `<dialog class="lightbox" id="${id}">`
+        + `<img src="${original.url}" srcset="${srcset}" />`
+        + `<form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close" value="clicked">Close</button></form></dialog>`
         + `<a href="${'#' + id}">`
         + `<img class="figure-img ${className}" itemprop="contentUrl url" alt="${alt}" src="${original.url}"`
         + ` srcset="${srcset}" sizes="${sizes}" width="${original.width}" height="${original.height}" />`
