@@ -3,6 +3,7 @@ const PropTypes = require('prop-types');
 const path = require('path');
 
 const { ifSet, asAttr, IS_PRODUCTION } = require('./helpers');
+const { randomUUID } = require("crypto");
 
 module.exports = { renderSource, articleImage, person, license, organization }
 
@@ -88,19 +89,19 @@ async function articleImage(caption, props) {
             `\n\n<span itemprop="caption">`
             + caption.trim() /* NB: must appear on its own line to get Markdown formatting… */
             + `</span>` + (source ? captionLineBreak : ''))
-        + sourceInfo;
+        + `<span itemprop="copyrightNotice">${sourceInfo}</span>`;
 
     if (srcs.length === 1) {
         return `<figure class="figure ${className}" itemprop="image" itemscope itemtype="${imageObject}">`
-            + await renderImage(this, src, alt, sizes, noborder)
+            + await renderImage(this, src, alt, sourceInfo, sizes, noborder)
             + `<figcaption class="text-center figure-caption">`
             + captionAndSource
             + `</figcaption>`
             + `</figure>`;
     } else {
-        const sourceId = "src_" + "TODOSRC";
+        const sourceId = "src_" + randomUUID();
         return `<figure class="figure ${className}">`
-            + await renderImages(this, srcs, alts, perRow, sourceId, sizes, noborder, justify)
+            + await renderImages(this, srcs, alts, sourceInfo, perRow, sourceId, sizes, noborder, justify)
             + `<figcaption class="text-center figure-caption" itemscope>`
             + `<div id="${sourceId}">`
             + captionAndSource
@@ -122,18 +123,19 @@ function renderSource(source, short = false) {
     if (source.organization) {
         if (source.author) {
             // person works for organization
-            copyrightHolder = person({ itemprop: "copyrightHolder", name: source.author, worksFor: source.organization });
+            // TODO: here organization should also be marked copyrightHolder?
+            copyrightHolder = person({ itemprop: "creator", name: source.author, worksFor: source.organization });
         } else {
             // organization is author
             copyrightHolder = organization({ ...source.organization, itemprop: 'copyrightHolder' });
         }
     } else if (source.author) {
-        copyrightHolder = person({ itemprop: "copyrightHolder", name: source.author });
+        copyrightHolder = person({ itemprop: "copyrightHolder creator", name: source.author });
     }
 
     return (source.license === 'cc0' ? '' : '© ')
         + ifSet(source.copyrightYear, `<span itemprop="copyrightYear">${source.copyrightYear}</span> `)
-        + ((copyrightHolder && source.originalUrl) ? `<a href="${source.originalUrl}" itemprop="sameAs">${copyrightHolder}</a>` : copyrightHolder)
+        + ((copyrightHolder && source.originalUrl) ? `<a href="${source.originalUrl}" itemprop="url">${copyrightHolder}</a>` : copyrightHolder)
         + ifSet(source.license !== 'stock-image', () => license({ leading: !!copyrightHolder, license: source.license, version: source.licenseVersion }))
         + ifSet(!short && source.identifier, `: <span class="image-identifier">${source.identifier}</span>`);
 }
@@ -141,10 +143,11 @@ function renderSource(source, short = false) {
 /**
  * @param {string} src
  * @param {string} alt
+ * @param {string} sourceInfo
  * @param {string} sizes
  * @param {boolean=} noborder
  */
-async function renderImage(me, src, alt, sizes, noborder) {
+async function renderImage(me, src, alt, sourceInfo, sizes, noborder) {
     const metadata = await loadSizedImage(me, src);
 
     const [format] = Object.keys(metadata);
@@ -157,10 +160,10 @@ async function renderImage(me, src, alt, sizes, noborder) {
     const classlist = noborder ? " border-0" : '';
 
     return `<dialog class="lightbox" id="${id}">`
-        + `<img src="${original.url}" srcset="${srcset}" />`
-        + `<form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close" value="clicked">Close</button></form></dialog>`
+        + `<img src="${original.url}" srcset="${srcset}" alt="${alt}" />`
+        + `<div class="lightbox-under"><span itemscope>${sourceInfo}</span><form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close" value="clicked">Close</button></form></div></dialog>`
         + `<a href="#${id}">`
-        + `<img class="figure-img${classlist}" itemprop="contentUrl url" src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
+        + `<img class="figure-img${classlist}" itemprop="contentUrl" src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
         + `</a>`;
 }
 
@@ -173,7 +176,7 @@ async function renderImage(me, src, alt, sizes, noborder) {
  * @param {boolean=} noborder 
  * @returns {Promise<string>}
  */
-async function renderImages(me, srcs, alts, perRow = 1000, sourceId, sizes, noborder, justify) {
+async function renderImages(me, srcs, alts, sourceInfo, perRow = 1000, sourceId, sizes, noborder, justify) {
     let classes = "multi";
     if (justify) {
         switch (justify) {
@@ -188,7 +191,7 @@ async function renderImages(me, srcs, alts, perRow = 1000, sourceId, sizes, nobo
     for (let at = 0; at < srcs.length; at += perRow) {
         result += `<div class="${classes}">`;
         for (let ix = at; ix < Math.min(at + perRow, srcs.length); ++ix) {
-            result += await renderSourcedImage(me, srcs[ix], alts[ix], sourceId, sizes, noborder);
+            result += await renderSourcedImage(me, srcs[ix], alts[ix], sourceInfo, sourceId, sizes, noborder);
         }
         result += '</div>';
     }
@@ -222,12 +225,13 @@ async function loadSizedImage(me, src) {
  * @param {*} me 
  * @param {string} src 
  * @param {string} alt 
+ * @param {string} sourceInfo 
  * @param {string} sourceId 
  * @param {string} sizes 
  * @param {boolean=} noborder 
  * @returns 
  */
-async function renderSourcedImage(me, src, alt, sourceId, sizes, noborder) {
+async function renderSourcedImage(me, src, alt, sourceInfo, sourceId, sizes, noborder) {
     const metadata = await loadSizedImage(me, src);
     const [format] = Object.keys(metadata);
 
@@ -239,8 +243,8 @@ async function renderSourcedImage(me, src, alt, sourceId, sizes, noborder) {
 
     return `<div itemscope itemtype="${imageObject}" itemprop="image" itemRef="${sourceId}">`
         + `<dialog class="lightbox" id="${id}">`
-        + `<img src="${original.url}" srcset="${srcset}" />`
-        + `<form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close" value="clicked">Close</button></form></dialog>`
+        + `<img src="${original.url}" srcset="${srcset}" alt="${alt}" />`
+        + `<div class="lightbox-under"><span itemscope>${sourceInfo}</span><form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close" value="clicked">Close</button></form></div></dialog>`
         + `<a href="${'#' + id}">`
         + `<img class="figure-img ${className}" itemprop="contentUrl url" alt="${alt}" src="${original.url}"`
         + ` srcset="${srcset}" sizes="${sizes}" width="${original.width}" height="${original.height}" />`
@@ -369,7 +373,7 @@ function license(props) {
     const { license, leading, version, rel } = props;
 
     if (license === 'with-permission') {
-        return `<span>${ifSet(leading, ', ')}with permission</span>`;
+        return `<span>${ifSet(leading, ', ')}used with permission</span>`;
     }
 
     if (license === 'us-fair-use') {

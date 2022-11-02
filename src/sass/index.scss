@@ -796,6 +796,7 @@ a[itemprop=license] {
 /** Lightbox **/
 .lightbox {
     border-radius: 10px;
+    font-size: 1rem;
 }
 
 .lightbox::backdrop {
@@ -813,7 +814,7 @@ a .figure-img {
 }
 
 .lightbox-close, .lightbox-original {
-    @extend .btn, .btn-outline-primary, .mt-2, .ms-2;
+    @extend .btn, .btn-outline-primary, .ms-2;
 }
 
 .lightbox-close::before {
@@ -824,8 +825,11 @@ a .figure-img {
     content: "⬇ "
 }
 
-form:has(.lightbox-close) {
-    @extend .text-end;
+.lightbox-under {
+    @extend .mt-2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* Columns */
