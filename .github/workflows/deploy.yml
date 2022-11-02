@@ -8,16 +8,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
 
     - name: Cache image files
-      uses: actions/cache@v2
+      uses: actions/cache@v3
       with:
         path: public/img
         key: ${{ runner.os }}-images-${{ hashFiles('src/**/*.png', 'src/**/*.jpe?g', 'src/**/*.gif', 'src/**/*.svg') }}
         restore-keys: ${{ runner.os }}-images-
 
-    - uses: actions/setup-node@v2
+    - uses: actions/setup-node@v3
       with:
         node-version: '16'
         cache: 'npm'
