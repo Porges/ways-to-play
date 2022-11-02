@@ -327,7 +327,7 @@ const citationPlugin = () => {
 
     // collect all cites
     const cited = [];
-    unist.visit(tree, 'text', (node, ix, parent) => {
+    function handleNode(node, ix, parent) {
       const text = node.value;
       const match = text.match(citeExtrator);
       if (!match) {
@@ -347,18 +347,25 @@ const citationPlugin = () => {
       const startIx = match.index;
       const endIx = match.index + match[0].length;
 
-      const children = [
-        { type: 'text', value: text.slice(0, startIx) },
-        { type: 'raw', value: formatCitation(id, index + 1, inline, what) },
-        { type: 'text', value: text.slice(endIx) },
-      ];
+      if (node.type === 'raw') {
+        node.value = text.slice(0, startIx) + formatCitation(id, index + 1, inline, what) + text.slice(endIx);
+        return handleNode(node, ix, parent);
+      } else {
+        const children = [
+          { type: 'text', value: text.slice(0, startIx) },
+          { type: 'raw', value: formatCitation(id, index + 1, inline, what) },
+          { type: 'text', value: text.slice(endIx) },
+        ];
 
-      parent.children = [
-        ...parent.children.slice(0, ix),
-        ...children,
-        ...parent.children.slice(ix + 1),
-      ];
-    });
+        parent.children = [
+          ...parent.children.slice(0, ix),
+          ...children,
+          ...parent.children.slice(ix + 1),
+        ];
+      }
+    }
+
+    unist.visit(tree, ['text', 'raw'], handleNode);
 
     if (cited.length > 0) {
       // print the references

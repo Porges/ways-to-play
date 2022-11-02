@@ -17,7 +17,7 @@ href="https://twitter.com/hashtag/Shax?src=hash&amp;ref_src=twsrc%5Etfw">#Shax</
 Somali traditional Board game on <a
 href="https://twitter.com/hashtag/HIBF2017?src=hash&amp;ref_src=twsrc%5Etfw">#HIBF2017</a>
 <a href="https://t.co/Zcf3S04xY2">pic.twitter.com/Zcf3S04xY2</a></p>&mdash;
-🐪Tirsit Yetbarek (\@tirsity) <a
+🐪Tirsit Yetbarek (@ tirsity) <a
 href="https://twitter.com/tirsity/status/890503033280507904?ref_src=twsrc%5Etfw">July
 27, 2017</a></blockquote>
 -->

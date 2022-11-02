@@ -7,6 +7,7 @@ hero:
     image: MingLeeDuw.jpg
 ---
 
+<p class="lead">
 The Pigeon Lottery (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
 </span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak6 gaap3 piu3"
 pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" %}{%fn%}Other
@@ -18,10 +19,11 @@ p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span
 “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and
 this further proves the Cantonese origin of the game (see e.g.
 @SparrowAndPigeon, although I find some of his other (original) conclusions to
-be dubious).{%endfn%}) is a gambling game which originated in <span class="noun"
+be dubious).{%endfn%}) is a gambling game that originated in <span class="noun"
 lang="zh-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the
 19th and 20th centuries was spread throughout Oceania-bordering countries by
-Chinese emigrants. 
+Chinese emigrants.
+</p>
 
 The history of the game is sadly a well-trodden story of racism and hypocrisy:
 as a Chinese gambling game, Chinese migrants were punished while gambling games
@@ -145,7 +147,7 @@ governor, and complained directly to Lisbon that, among other things,
 Nevertheless, the game was permitted to continue and licenses to run <span
 lang="pt">pacapio</span> began to be issued on an annual basis from April 5,
 1848. The game is still played today in Macau, but it is not very
-popular.{%fn%}A study in 2019 found that only 4 out of 855 (0.5%) of gamblers
+popular.{%fn%}A study in 2019 found that only 4 out of 855 (0.5%) gamblers
 had played the game in the last 12 months.[@SegmentingChineseGamblers]{%endfn%}
 
 {% image src="156734440_fc41d2c401_o.jpg" alt="A neon “Pacapio” sign."
