@@ -136,8 +136,8 @@ exports.render = async function (data) {
 
 function makeBreadCrumbs(me, data) {
     const crumbs = me.eleventyNavigationBreadcrumb(data.collections.all, data.eleventyNavigation.key);
-    return '<nav aria-label="breadcrumb">'
-        + '<ol class="breadcrumb m-1 p-1" itemprop="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">'
+    return '<nav aria-label="breadcrumb" itemscope>'
+        + '<ol class="breadcrumb m-1 p-1" itemscope itemtype="https://schema.org/BreadcrumbList" itemprop="breadcrumb" id="breadcrumbs">'
         + crumbs.map((page, ix) => {
             return (`<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">`
                 + `<meta itemProp="position" content="${ix + 1}" />`

@@ -104,7 +104,7 @@ exports.render = async function (data) {
       });
     </script>
   </head>
-  <body itemscope itemtype="http://schema.org/WebPage">
+  <body itemscope itemtype="http://schema.org/WebPage"${data.tags.includes('article')? ' itemref="breadcrumbs"' : ''}>
     <header>
       <nav class="navbar navbar-expand navbar-dark bg-primary">
         <div class="container">
