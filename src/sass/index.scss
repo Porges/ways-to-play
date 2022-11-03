@@ -796,7 +796,7 @@ a[itemprop=license] {
 /** Lightbox **/
 .lightbox {
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: $figure-caption-font-size;
 }
 
 .lightbox::backdrop {
@@ -814,15 +814,15 @@ a .figure-img {
 }
 
 .lightbox-close, .lightbox-original {
-    @extend .btn, .btn-outline-primary, .ms-2;
+    @extend .btn, .btn-sm, .btn-outline-primary, .ms-2;
 }
 
 .lightbox-close::before {
-    content: "✖ "
+    content: "✖\00A0"
 }
 
 .lightbox-original::before {
-    content: "⬇ "
+    content: "⬇\00A0"
 }
 
 .lightbox-under {

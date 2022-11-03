@@ -55,6 +55,15 @@ async function articleImage(caption, props) {
         };
     }
 
+    /*
+    if (!props.source) {
+        props.source = {
+            copyrightYear: props.copyrightYear,
+            ...meSource,
+        };
+    }
+    */
+
     PropTypes.checkPropTypes(articleImagePropTypes, props, 'props', 'articleImage');
     const { alt, src, noborder, cram, source, position, size, perRow, justify } = props;
 
@@ -161,7 +170,7 @@ async function renderImage(me, src, alt, sourceInfo, sizes, noborder) {
 
     return `<dialog class="lightbox" id="${id}">`
         + `<img src="${original.url}" srcset="${srcset}" alt="${alt}" />`
-        + `<div class="lightbox-under"><span itemscope>${sourceInfo}</span><form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close" value="clicked">Close</button></form></div></dialog>`
+        + `<div class="lightbox-under"><span itemscope>${sourceInfo}</span><form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close">Close</button></form></div></dialog>`
         + `<a href="#${id}">`
         + `<img class="figure-img${classlist}" itemprop="contentUrl" src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
         + `</a>`;
@@ -244,7 +253,7 @@ async function renderSourcedImage(me, src, alt, sourceInfo, sourceId, sizes, nob
     return `<div itemscope itemtype="${imageObject}" itemprop="image" itemRef="${sourceId}">`
         + `<dialog class="lightbox" id="${id}">`
         + `<img src="${original.url}" srcset="${srcset}" alt="${alt}" />`
-        + `<div class="lightbox-under"><span itemscope>${sourceInfo}</span><form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close" value="clicked">Close</button></form></div></dialog>`
+        + `<div class="lightbox-under"><span itemscope>${sourceInfo}</span><form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close">Close</button></form></div></dialog>`
         + `<a href="${'#' + id}">`
         + `<img class="figure-img ${className}" itemprop="contentUrl url" alt="${alt}" src="${original.url}"`
         + ` srcset="${srcset}" sizes="${sizes}" width="${original.width}" height="${original.height}" />`
