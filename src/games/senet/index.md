@@ -5,7 +5,7 @@ draft: true
 ---
 
 {% image src="bh15.jpg" alt="" license="cc0" size="wide" %}
-Images from the tomb of Beqet (<span lang="egy">𓅡𓏏𓐰𓈎𓆭</span>) III at Beni Hasan (BH15).[@BeniHasan pl. VII]{%fn%}Georges Ifrah suggests that the leftmost figures are playing {% gameref finger-flashing %}.{%endfn%} The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
+Images from the tomb of Beqet (<span lang="egy">𓅡𓏏𓐰𓈎𓆭</span>) III at Beni Hasan (BH15).[@BeniHasan pl. VII]{%fn%}Georges Ifrah suggests that the leftmost figures are playing {% gameref morra %}.{%endfn%} The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
 {%imageEnd%}
 
 {% image src="bh17.jpg" alt="" license="cc0" size="wide" %}

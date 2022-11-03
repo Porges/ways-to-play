@@ -1,5 +1,6 @@
 ---
-title: Finger Flashing
+title: Morra
+titleLang: it
 players: 2
 draft: true
 hero:
@@ -8,9 +9,9 @@ hero:
     author: Bartolomeo Pinelli
 ---
 
-Often known by its Italian name of “morra”.[@MacedonianFolklore p. 297] In Latin
-it was known as <span lang="la">micatio</span>[@StudyOfGames p. 65] or <span
-lang="la">micare digitis</span>.[@IlGiuocoDellaMorra]
+This game is usually known by its Italian name of “morra”.[@MacedonianFolklore
+p. 297] In Latin it was known as <span lang="la">micatio</span>[@StudyOfGames p.
+65] or <span lang="la">micare digitis</span>.[@IlGiuocoDellaMorra]
 
 See also: @PrimitiveCulture [p. 74]
 
