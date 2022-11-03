@@ -1,14 +1,17 @@
 ---
-title: Japanese Cards
+title: Japanese Cards (<span lang="ja-Latn">Karuta</span>)
 order: 200
-draft: true
 ---
 
+<p class="lead">
 <span lang="ja-Latn" class="noun">Karuta</span> (<span lang="ja">かるた</span>)
 is the general name for Japanese playing cards, derived from the Portuguese word
 for playing cards, <span lang="pt">carta</span>.
+</p>
 
-{% image src="sc67123.jpg" alt="A pile of Japanese wooden sandles in the entrance way to a house." license="cc0"
+<!-- excerpt -->
+
+{% image src="sc67123.jpg" alt="A pile of Japanese wooden sandles in the entrance-way to a house." license="cc0"
 noborder=true
 orgName="Museum of Fine Arts Boston" position="aside"
 identifier="2002.2083"
@@ -50,18 +53,21 @@ these:
       lang="ja-Latn">Tenshō</span> pattern cards, possibly created to evade bans on
       those cards. The structure of the deck remains the same, but there are
       many different regional artwork patterns.
+      - <span class="noun" lang="ja-Latn">Shimafuda</span> (<span lang="ja">島札</span>) are a still-surviving
+        descendent of <span lang="ja-Latn">mekuri</span> cards, originating from <span lang="ja-Latn" class="noun">Okinawa</span>.
     * [<span class="noun" lang="ja-Latn">Kabu
       Karuta</span>](/articles/cards/japan/kabu-karuta/) (<span lang="ja">株かる
       た</span>) were a further simplification of <span
       lang="ja-Latn">mekuri</span> cards, eliminating all suits except for one,
       which is replicated four times. Like <span lang="ja-Latn">mekuri</span>
-      cards, there are many regional varieties, but <span
-      lang="ja-Latn">kabufuda</span> is the only one still in mass production.
+      cards, there are many regional varieties. 
+      - <span lang="ja-Latn" class="noun">Kabufuda</span> (<span lang="ja">株札</span>) is the only type still in mass production.
 2. Cards used for simpler matching games, not organized into suits or ranks:
     * <span class="noun" lang="ja-Latn">Uta-garuta</span> (<span lang="ja">歌かるた</span>,
-      ‘poetry cards’)
-    * <span class="noun" lang="ja-Latn">Iroha-garuta</span> (<span lang="ja">いろはかるた
-      </span>, ‘alphabet cards’)
+      ‘poetry cards’), of which there are many sub-types, including:
+      - <span class="noun" lang="ja-Latn">Hyakunin Isshu</span> (<span lang="ja">百人一首</span>)
+      - <span class="noun" lang="ja-Latn">Genji Karuta</span> (<span lang="ja">源氏かるた</span>)
+    * <span class="noun" lang="ja-Latn">Iroha-garuta</span> (<span lang="ja">いろはかるた</span>, ‘alphabet cards’)
 3. [<span class="noun" lang="ja-Latn">Hanafuda</span>](/articles/cards/japan/hanafuda/) (<span
   lang="ja">花札</span>, ‘flower cards’) are derived from a combination of both
   the Portuguese and the matching-type cards.

@@ -8820,5 +8820,126 @@
                 "alt-lang": "ja-Latn"
             }
         ]
+    },
+    "StudyOfGames": {
+        "type": "book",
+        "title": "The Study of Games",
+        "author": [
+            {
+                "given": "Elliott M.",
+                "family": "Avedon"
+            },
+            {
+                "given": "Brian",
+                "family": "Sutton–Smith"
+            }
+        ],
+        "issued": 1971,
+        "ISBN": "0471038393",
+        "publisher": "John Wiley & Sons",
+        "publisher-place": "New York",
+        "URL": "https://archive.org/details/studyofgames0000aved"
+    },
+    "PrimitiveCulture": {
+        "type": "book",
+        "URL": "https://archive.org/details/primitiveculture01tylouoft",
+        "title": "Primitive Culture",
+        "issued": 1920,
+        "edition": 6,
+        "volume": 1,
+        "publisher-place": "London",
+        "publisher": "John Murray",
+        "author": [
+            {
+                "given": "Edward B.",
+                "family": "Tylor"
+            }
+        ]
+    },
+    "IlGiuocoDellaMorra": {
+        "type": "article-magazine",
+        "title": "Il Giuoco Della Morra",
+        "title-lang": "it",
+        "container-title": "The Penny Magazine",
+        "volume": 14,
+        "issue": 843,
+        "issued": {
+            "year": 1845,
+            "month": 5,
+            "day": 24
+        },
+        "publisher-place": "London",
+        "URL": "https://archive.org/details/ThePennyMagazineOfTheSocietyForTheDiffusionOfUsefulKnowledge/ThePennyMagazineOfTheSocietyForTheDiffusionOfUsefulKnowledge1845/page/193/mode/2up"
+    },
+    "OnGameLearningTheory": {
+        "type": "book",
+        "author": [
+            {
+                "given": "Merrill M.",
+                "family": "Flood"
+            }
+        ],
+        "title": "On Game-Learning Theory and Some Decision-Making Experiments",
+        "URL": "https://archive.org/details/DTIC_AD0604157",
+        "issued": {
+            "year": 1952,
+            "month": 11,
+            "day": 17
+        },
+        "publisher": "The RAND Corporation",
+        "publisher-place": "Santa Monica, California"
+    },
+    "FriendshipAndGamesItalian": {
+        "type": "article-journal",
+        "title": "Friendship and Games in Italian-American Life",
+        "author": [
+            {
+                "given": "Clement L.",
+                "family": "Valetta"
+            }
+        ],
+        "URL": "https://archive.org/details/sim_keystone-folklore_winter-1970_15_4/page/174",
+        "container-title": "Keystone Folklore Quarterly",
+        "issued": {
+            "season": "Winter",
+            "year": 1970
+        },
+        "page": "175–187",
+        "publisher": "Pennsylvania Folklore Society",
+        "volume": 15,
+        "issue": 4
+    },
+    "OneToZero": {
+        "type": "book",
+        "title": "From One to Zero: A Universal History of Numbers",
+        "author": [
+            {
+                "given": "Georges",
+                "family": "Ifrah"
+            }
+        ],
+        "URL": "https://archive.org/details/fromonetozerouni0000ifra",
+        "publisher": "Viking Penguin",
+        "issued": 1985,
+        "publisher-place": "New York",
+        "translator": {
+            "given": "Lowell",
+            "family": "Blair"
+        },
+        "ISBN": "0670373958"
+    },
+    "BeniHasan": {
+        "type": "book",
+        "title": "Beni Hasan: Part II",
+        "author": [
+            {
+                "given": "Percy E.",
+                "family": "Newberry"
+            }
+        ],
+        "publisher-place": "London",
+        "publisher": "Kegan Paul, Trench, Trübner & Co.",
+        "issued": 1893,
+        "URL": "http://digi.ub.uni-heidelberg.de/diglit/newberry1893bd2/0007"
     }
 }

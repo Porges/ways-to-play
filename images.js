@@ -389,14 +389,12 @@ function license(props) {
         return `<span>${ifSet(leading, ', ')}under US fair use</span>`;
     }
 
-    // license == gpl | creative-common
+    // license is creative-commons
 
     const href =
-        license === 'gpl'
-            ? "https://www.gnu.org/licenses/gpl.html"
-            : license === "cc0"
-                ? "https://creativecommons.org/publicdomain/mark/1.0/"
-                : `https://creativecommons.org/licenses/${license.substr(3)}/${version}`;
+        license === "cc0"
+        ? "https://creativecommons.org/publicdomain/mark/1.0/"
+        : `https://creativecommons.org/licenses/${license.substr(3)}/${version}`;
 
     const parts = license.split('-');
 
@@ -408,15 +406,12 @@ function license(props) {
     return (
         ifSet(leading, ' ')
         + `<a itemprop="license" href="${href}" title="${title}"${asAttr("rel", rel)}>`
-        + (license === 'gpl'
-            ? `<img src="/images/gpl.svg" alt=${`GPLv${version}`} width="14" height="14" />`
-            : parts.map(charForLicense).join('\u{200a}')
-        )
+        + parts.map(charForLicense).join('\u{200a}')
         + `</a>`);
 }
 
 const licensePropTypes = {
-    license: PropTypes.oneOf(["cc0", "cc-by", "cc-by-sa", "cc-by-nd", "cc-by-nc", "cc-by-nc-sa", "cc-by-nc-nd", "gpl", "with-permission", "us-fair-use"]).isRequired,
+    license: PropTypes.oneOf(["cc0", "cc-by", "cc-by-sa", "cc-by-nd", "cc-by-nc", "cc-by-nc-sa", "cc-by-nc-nd", "with-permission", "us-fair-use"]).isRequired,
     version: PropTypes.oneOf(["2.0", "2.5", "3.0", "3.5", "4.0"]),
     rel: PropTypes.string,
     leading: PropTypes.bool,
@@ -436,8 +431,6 @@ function altTextForLicense(input) {
             return "No Derivatives";
         case "sa":
             return "Share-Alike";
-        case "gpl":
-            return "GPL";
     }
 }
 

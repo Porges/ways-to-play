@@ -4,8 +4,12 @@ draft: true
 order: 100
 ---
 
+<p class="lead">
 As the probable country of origin of playing cards, China has a long history of
 card-playing and many different varieties.
+</p>
+
+<!--excerpt-->
 
 The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard
 Chinese: {%pronounce lang="zh-Latn-pinyin" word="pái" pronouncer="LofZRules"

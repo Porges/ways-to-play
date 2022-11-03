@@ -9,12 +9,6 @@ Ref: [@OxfordBG, p. 63; @Bell, p. 23; @Murray2, §2.1.6, §2.1.8, p. 16–17, §
 
 Ref: [@OxfordBG]
 
-### Senet
-
-Ref: [@OxfordBG, p. 66; @Falkener, p. 71; @Bell, p. 26; @Murray2, §2.1.1, p. 13, §2.1.7, p. 17]
-
-[sn’t]{lang="egy-Latn"} [𓊃𓈖𓏏]{lang="egy"}
-
 ### [Grammai]{lang="el-Latn"} [Γραμμαί]{lang="el"}
 
 Ref: [@OxfordBG, p. 70; @Murray2, §2.7.2]

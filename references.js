@@ -16,6 +16,11 @@ module.exports = {
     renderReference: function (ref) {
         const { id, type } = ref;
 
+        // fixup
+        if (typeof ref.issued === 'number') {
+            ref.issued = { year: ref.issued };
+        }
+
         return `<p itemscope itemtype="${itemtypes[type]}" id="ref-${id}" itemprop="citation">`
             + renderAuthors(ref)
             + renderDate(ref)

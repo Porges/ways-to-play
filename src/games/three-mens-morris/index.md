@@ -66,7 +66,7 @@ and claims that Hyde states that “Luk Tsut K’i” was played in the time of
 Confucius.{%endfn%}
 
 In Bengal the game has been called <span lang="bn">তাঁত ফাঁত</span> <span
-lang="bn-Latn">Tant Fant</span> (possibly meaning something like
+lang="bn-Latn">Tant Fant</span>[@Datta, p. 167] (possibly meaning something like
 ‘[Loom-Schmoom](https://en.wikipedia.org/wiki/Shm-reduplication)’) or <span
 lang="bn">তিন গুটি পাইত পাইত</span> (<span lang="bn-Latn">tin-guṭi pait
 pait</span>, ‘getting(?) three pieces’). It is played with diagonals and

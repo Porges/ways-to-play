@@ -13,7 +13,6 @@ export type LicenseName
   | "cc-by-nc"
   | "cc-by-nc-sa"
   | "cc-by-nc-nd"
-  | "gpl"
   | "with-permission"
   | "us-fair-use"
 

@@ -560,7 +560,7 @@ tr. Screech
 <td>morra</td>
 <td>morra</td>
 <td>the <span lang="it">morra</span></td>
-<td></td>
+<td>(see {% gameref finger-flashing %})</td>
 </tr>
 
 <tr>
