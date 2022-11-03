@@ -32,3 +32,5 @@ See: @FriendshipAndGamesItalian, @OneToZero [p. 67–70].
 Optimal strategy was calculated by [Merill M.
 Flood](https://en.wikipedia.org/wiki/Merrill_M._Flood) and reported in
 @OnGameLearningTheory [p. 35–7].
+
+WRONG: it was reported here first: https://www.jstor.org/stable/3029660
