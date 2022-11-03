@@ -4,6 +4,7 @@ titleLang: ms
 players:
   min: 2
   max: 14
+equipment: Playing cards (Ceki)
 subgames:
 - title: Balik Lima Belas
   titleLang: ms

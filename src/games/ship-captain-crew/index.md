@@ -7,6 +7,7 @@ subgames:
 players:
     min: 2
     max: 100
+equipment: Dice
 ---
 
 <p class="lead">Ship, Captain, and Crew is a simple dice game for any number of people.</p>

@@ -24,6 +24,11 @@ function renderGames() {
         });
     }
 
+    const equipmentS = params.get('equipment');
+    if (equipmentS && equipmentS !== 'any') {
+        allGames = allGames.filter(g => g.equipment === equipmentS);
+    }
+
     dest.replaceChildren(...allGames.map(g => {
         const li = document.createElement("li")
         if (g.variant) {
@@ -78,7 +83,8 @@ exports.render = function (data) {
                 url: g.url,
                 draft: g.data.draft,
                 originalTitle: g.data.originalTitle,
-                players: expandPlayers(g.data.title, g.data.players)
+                players: expandPlayers(g.data.title, g.data.players),
+                equipment: g.data.equipment,
             },
             ...(g.data.subgames || []).map(sg => ({
                 title: sg.title,
@@ -86,29 +92,56 @@ exports.render = function (data) {
                 titleLang: sg.titleLang,
                 originalTitle: sg.originalTitle,
                 players: expandPlayers(sg.title, sg.players || g.data.players),
+                equipment: sg.equipment || g.data.equipment,
                 url: g.url + "#" + (sg.slug || slug(sg.title)),
                 variant: true,
             }))
         ]);
 
+    const equipment = new Set();
+    for (const g of expandedGames) {
+        if (g.equipment) {
+            equipment.add(g.equipment);
+        } else {
+            console.warn(`no equipment for ${g.title}`);
+        }
+    }
+
+    const collator = new Intl.Collator('en', { sensitivity: 'base', numeric: true });
+
+    const sortedEquipment = [...equipment.values()].sort(collator.compare);
+
     expandedGames.sort((x, y) => x.title.localeCompare(y.title, 'en'));
 
-    const script = `<script>
+    const script = `<script type="module">
         const GAMES=${JSON.stringify(expandedGames)};
         ${renderGames}
-        renderGames();
-        const playerSelect = document.getElementById('player-select');
-        playerSelect.onchange = () => {
-            const params = new URLSearchParams(window.location.search);
-            const value = playerSelect.value;
-            if (value === 'any') {
-                params.delete('players');
-            } else {
-                params.set('players', playerSelect.value);
+
+        function handleSelect(el, name) {
+            el.onchange = () => {
+                const params = new URLSearchParams(window.location.search);
+                const v = el.value;
+                if (v === 'any') {
+                    params.delete(name);
+                } else {
+                    params.set(name, v);
+                }
+
+                const queryString = params.toString();
+                if (queryString) {
+                    window.history.pushState(null, null, '?' + queryString);
+                } else {
+                    window.history.pushState(null, null, window.location.pathname);
+                }
+                renderGames();
             }
-            window.history.pushState(null, null, '?' + params.toString());
-            renderGames();
         }
+
+        window.addEventListener('DOMContentLoaded', () => {
+            handleSelect(document.getElementById('player-select'), 'players');
+            handleSelect(document.getElementById('equipment-select'), 'equipment');
+            renderGames();
+        });
         </script>`;
 
     return '<h2>Filters</h2>'
@@ -128,6 +161,15 @@ exports.render = function (data) {
         + '<option>8</option>'
         + '<option>9</option>'
         + '<option>10</option>'
+        + '</select>'
+        + '</div>'
+        + '</div>'
+        + '<div class="form-group row mt-2">'
+        + '<label for="equipment-select" class="col-sm-2 col-form-label">Equipment:</label>'
+        + '<div class="col-sm-10">'
+        + '<select id="equipment-select" class="form-control">'
+        + '<option selected>any</option>'
+        + sortedEquipment.map(e => `<option>${e}</option>`).join('')
         + '</select>'
         + '</div>'
         + '</div>'

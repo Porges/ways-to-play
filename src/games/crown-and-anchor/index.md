@@ -9,6 +9,8 @@ hero:
 subgames:
 - title: Grasping Eight
   originalTitle: <span lang="yue">八㪥</span>
+  equipment: Dice
+equipment: Dice (non-standard)
 ---
 
 Crown & Anchor is a dice game that is probably most famous as being popular with

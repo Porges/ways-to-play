@@ -3,6 +3,7 @@ title: Aces in the Pot
 players:
     min: 3
     max: 100
+equipment: Dice
 ---
 
 <p class="lead">Ace(s) in the Pot is a simple gambling game which requires no skill and two dice.</p>
