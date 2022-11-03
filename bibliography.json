@@ -8941,5 +8941,73 @@
         "publisher": "Kegan Paul, Trench, Trübner & Co.",
         "issued": 1893,
         "URL": "http://digi.ub.uni-heidelberg.de/diglit/newberry1893bd2/0007"
+    },
+    "AtlasClassicalAntiquities": {
+        "title": "Atlas of Classical Antiquities",
+        "type": "book",
+        "URL": "https://digi.ub.uni-heidelberg.de/diglit/schreiber1895/",
+        "author": [
+            {
+                "given": "Theodor",
+                "family": "Schreiber"
+            },
+            {
+                "given": "W. C. F.",
+                "family": "Anderson"
+            }
+        ],
+        "issued": 1895,
+        "publisher": "Macmillan and Co.",
+        "publisher-place": "London & New York"
+    },
+    "LondonStreetGames": {
+        "type": "book",
+        "title":"London Street Games",
+        "URL": "https://archive.org/details/londonstreetgame00doug",
+        "author": [
+            {
+                "given": "Douglas",
+                "family": "Norman"
+            }
+        ],
+        "issued": 1916,
+        "publisher": "The St. Catherine Press",
+        "publisher-place": "London"
+    },
+    "Petroniana1960": {
+        "type": "article-journal",
+        "title": "Petroniana",
+        "author": [
+            {
+                "given": "W. H.",
+                "family": "Hewitt"
+            }
+        ],
+        "issued": {
+            "month": 1,
+            "year": 1960
+        },
+        "container-title": "Acta Classica: Proceedings of the Classical Association of South Africa",
+        "volume": 3,
+        "issue": 1,
+        "URL": "https://doi.org/10.10520/AJA00651141_52"
+    },
+    "Petroniana1959": {
+        "type": "article-journal",
+        "title": "Petroniana",
+        "author": [
+            {
+                "given": "Lydia",
+                "family": "Baumbach"
+            }
+        ],
+        "issued": {
+            "month": 1,
+            "year": 1959
+        },
+        "container-title": "Acta Classica: Proceedings of the Classical Association of South Africa",
+        "volume": 2,
+        "issue": 1,
+        "URL": "https://doi.org/10.10520/AJA00651141_4"
     }
 }
