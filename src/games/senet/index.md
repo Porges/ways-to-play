@@ -13,7 +13,7 @@ Inscription from the tomb of Rahotep, who lived during the 4th Dynasty (c. 261
 {%imageEnd%}
 
 {% image src="02030610.jpg" alt="" originalUrl="http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html"
- license="cc0" size="extra-wide" noborder=true %}
+ license="cc0" size="extra-wide" %}
 Senet (at bottom next to depiction of Mehen); Fifth Dynasty tomb of Rashepses at Saqqara.
 L.D. IV, 61 a.
 {%imageEnd%}
