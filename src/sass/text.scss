@@ -103,6 +103,10 @@ rt {
   font-family: "Leelawadee UI", sans-serif;
 }
 
+:lang(yue-Latn) {
+  font-feature-settings: "sups";
+}
+
 /* For Chinese, the Windows defaults are ok:
   zh: YaHei
   zh-Hans: YaHei

@@ -8962,7 +8962,7 @@
     },
     "LondonStreetGames": {
         "type": "book",
-        "title":"London Street Games",
+        "title": "London Street Games",
         "URL": "https://archive.org/details/londonstreetgame00doug",
         "author": [
             {
@@ -9009,5 +9009,49 @@
         "volume": 2,
         "issue": 1,
         "URL": "https://doi.org/10.10520/AJA00651141_4"
+    },
+    "LoreAndLanguage": {
+        "type": "book",
+        "title": "The Lore and Language of Schoolchildren",
+        "URL": "https://archive.org/details/lorelanguageofsc0000iona",
+        "author": [
+            {
+                "given": "Iona",
+                "family": "Opie"
+            },
+            {
+                "given": "Peter",
+                "family": "Opie"
+            }
+        ],
+        "publisher": "Oxford University Press",
+        "publisher-place": "United Kingdom",
+        "issued": 1959
+    },
+    "SomeRareScenes": {
+        "type": "chapter",
+        "title": "Some Rare Scenes in the Tomb of Rashepses at Saqqara",
+        "author": [
+            {
+                "given": "Hany",
+                "family": "El-Tayeb"
+            }
+        ],
+        "page": "289–307",
+        "URL": "https://www.academia.edu/37698410/Some_Rare_Scenes_in_the_tomb_of_Rashepses_at_Saqqara",
+        "container-title": "The Art of Describing: The World of Tomb Decoration as Visual Culture of the Old Kingdom: Studies in Honour of Yvonne Harpur",
+        "editor": [
+            {
+                "given": "Peter",
+                "family": "Jánosi"
+            },
+            {
+                "given": "Hana",
+                "family": "Vymazalová"
+            } 
+        ],
+        "issued": 2018,
+        "publisher": "Czech Institute of Egyptology",
+        "ISBN": "9788073087708"
     }
 }

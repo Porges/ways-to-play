@@ -4,14 +4,40 @@ originalTitle: <span lang="egy">𓊃𓈖𓏏</span>
 draft: true
 ---
 
+## History
+
+### Old Kingdom (2686–2181 <abbr class="initialism">BCE</abbr>)
+
+{% image src="1514257001.jpg" alt="" license="cc-by-nc-sa" licenseVersion="4.0" originalUrl="https://www.britishmuseum.org/collection/image/1514257001" orgName="British Museum" %}
+Inscription from the tomb of Rahotep, who lived during the 4th Dynasty (c. 2613–2494 BCE), showing Senet listed alongside Mehen and Men.
+{%imageEnd%}
+
+{% image src="02030610.jpg" alt="" originalUrl="http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html"
+ license="cc0" size="extra-wide" noborder=true %}
+Senet (at bottom next to depiction of Mehen); Fifth Dynasty tomb of Rashepses at Saqqara.
+L.D. IV, 61 a.
+{%imageEnd%}
+
+### First Intermediate Period (2181–2055 <abbr class="initialism">BCE</abbr>)
+
 {% image src="bh15.jpg" alt="" license="cc0" size="wide" %}
-Images from the tomb of Beqet (<span lang="egy">𓅡𓏏𓐰𓈎𓆭</span>) III at Beni Hasan (BH15).[@BeniHasan pl. VII]{%fn%}Georges Ifrah suggests that the leftmost figures are playing {% gameref morra %}.{%endfn%} The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
+Images from the tomb of Baqet (<span lang="egy">𓅡𓏏𓐰𓈎𓆭</span>) III at Beni Hasan (BH15).[@BeniHasan pl. VII]{%fn%}Georges Ifrah suggests that the leftmost figures are playing {% gameref morra %}.{%endfn%} The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
 {%imageEnd%}
 
 {% image src="bh17.jpg" alt="" license="cc0" size="wide" %}
 Images from the tomb of Khety (<span lang="egy">𓄡𓐰𓏏𓇌</span>) at Beni Hasan (BH17).[@BeniHasan pl. XIII] The same games are depicted in reverse order.[@AncientEgyptiansAtPlay]
 {%imageEnd%}
 
-Khety was Beqet III’s son.
+Khety was Baqet III’s son.
+
+### New Kingdom (1550–1069 <abbr class="initialism">BCE</abbr>)
+
+{% image size="extra-wide" src="33887936151_36d11aca22_o.jpg" alt="" license="cc-by-nc-nd" licenseVersion="2.0" copyrightYear=2017 author="kairoinfo4u" originalUrl="https://www.flickr.com/photos/manna4u/33887936151" %}
+A painting from Queen Nefertari’s tomb, depicting her playing Senet, <abbr title="circa">ca.</abbr> 1279–1213 BCE. Tomb 66 in the Valley of the Queens (QV66).
+{%imageEnd%}
+
+# General References
 
 Ref: [@OxfordBG p. 66] [@Falkener p. 71] [@Bell p. 26] [@Murray2 §2.1.1, p. 13, §2.1.7, p. 17]
+
+Font test: <span lang="egy-Latn">ꞽsb</span> or <span lang="egy-Latn">ꞽꜣsb</span>.

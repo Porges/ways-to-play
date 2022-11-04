@@ -104,13 +104,17 @@ Some of Babbage’s notes on “Tit-Tat-To”, dated 15th–16th September 1860.
 In English, tic-tac-toe has gone by many names. It has been variously called
 ‘tit-tat-to(e)’, ‘tic(k)-tac(k)-to(e)’, ‘(n)oughts &amp; crosses’, ‘crisscross’,
 ‘tip-tap-toe’,[@Teesdale p. 136][@NotesAndQueriesS8V12 p. 333] ‘Exeter’s Nose’
-(a pun on ‘<i>X</i>s and <i>O</i>s’),[@SourcesInRecreationalMathematics] or
-‘kit-cat-cannio’.[@SuffolkWords p. 200]
+(a pun on ‘<i>X</i>s and <i>O</i>s’),[@SourcesInRecreationalMathematics]
+‘oxen-crosses’[@LondonStreetGames p. 134], or ‘kit-cat-cannio’.[@SuffolkWords p.
+200]
 
 Several of these names derive from old counting-out rhymes — think ‘eeny meeny
 miny mo’ — that begin with ‘tit, tat, toe’. These rhymes date from at least the
 early 18th century: in 1725, @ANewCantingDictionary described ‘Tit-Tat’ as “the
 aiming of Children to go at first”.
+
+The rhyme seems to have fallen out of use before the 20th century; it is not
+recorded in books such as @LondonStreetGames (1916) nor @LoreAndLanguage (1959).
 
 The fullest expression of this rhyme is along the lines of:
 
@@ -121,6 +125,7 @@ The fullest expression of this rhyme is along the lines of:
 > Stick one up,<br />
 > Stick one down,<br />
 > Stick one in the old man’s crown!{%fn%}Some sources (e.g. @NurseryWitch [p. 374]) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.{%endfn%}
+
 
 Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to
 any set of three lined-up objects — in [F. W. N. Bayley](https://en.wikipedia.org/wiki/F._W._N._Bayley)’s 1842

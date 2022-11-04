@@ -42,6 +42,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'FiraGO';
+    font-weight: 300;
+    src: url('/fonts/FiraGO-LightItalic.woff2') format('woff2'),
+         url('/fonts/FiraGO-LightItalic.woff') format('woff');
+    font-style: italic;
+    size-adjust: 104%;
+}
+
 $font-family-sans-serif:
     "Inter",
     "NKS30",
@@ -50,10 +59,8 @@ $font-family-sans-serif:
     "cc-icons"; /* fallback for Creative Commons Unicode characters */
 
 @mixin italic-font {
-    // a few characters are missing from Fira (a̍ for example), so use Inter as fallback
-    font-family: "Fira Sans", "Inter", sans-serif;
+    font-family: "FiraGO", "Inter", sans-serif;
     font-style: italic;
-    font-size: 1.03em;
 }
 
 $font-weight-light: 200;
