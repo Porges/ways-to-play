@@ -1,8 +1,17 @@
 ---
 title: Senet
-originalTitle: <span lang="egy">𓊃𓈖𓏏</span>
+originalTitle: <img src="/small-images/senet.svg" alt="𓊃𓈖𓏏" class="inline-img" />
 draft: true
+hero:
+    image: D6n3F4iWwAIgNpL.jpg
+    license: with-permission
+    author:
+        given: Walter
+        family: Crist
+    originalUrl: https://twitter.com/CuseKicks/status/1128706691825045510/photo/1
 ---
+
+In terms of longevity, Senet is possibly the most popular game of all time.
 
 ## History
 

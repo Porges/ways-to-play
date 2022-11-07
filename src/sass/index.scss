@@ -415,6 +415,10 @@ div.multi > p {
         border-radius: 5px;
         background-color: rgba(0, 0, 0, 0.8);
     }
+
+    h1 .inline-img[src$=".svg"] {
+        filter: invert(1)
+    }
 }
 
 .heroSource {
@@ -774,8 +778,8 @@ a[href*="wikipedia.org" i] {
 }
 
 .inline-img {
-    height: 22px; // just under the line-height which is 22.4px
-    vertical-align: sub;
+    height: 1.05em;
+    vertical-align: text-top;
 
     &.big {
         height: 2em;
