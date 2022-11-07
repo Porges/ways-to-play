@@ -76,6 +76,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("cards", cards);
   eleventyConfig.addLiquidTag("gameref", gameRef);
 
+  eleventyConfig.addShortcode("ce", () => `<abbr class="initialism">CE</abbr>`);
+  eleventyConfig.addShortcode("bce", () => `<abbr class="initialism">BCE</abbr>`);
+  eleventyConfig.addShortcode("c", () => `<abbr title="circa">c.</abbr>`);
+
   eleventyConfig.addPairedShortcode("aside", function (content) {
     return `<aside role="note" class="footnote">\n\n${content.trim()}\n\n</aside>`;
   });

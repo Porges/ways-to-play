@@ -1,5 +1,6 @@
 ---
-title: The Games of Gargantua
+title: The Games of Gargantua (1534—)
+order: 1534
 ---
 
 One of the most famous lists of games is that in [<span class="noun" lang="fr">François

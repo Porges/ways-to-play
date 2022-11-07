@@ -8,6 +8,7 @@ subgames:
   titleLang: ja-Latn
   originalTitle: <span lang="ja">チンチロリン</span>
 - title: Underground Chinchirorin
+equipment: Dice
 ---
 
 Cee-Lo is a gambling game played with three dice. The English name is apparently

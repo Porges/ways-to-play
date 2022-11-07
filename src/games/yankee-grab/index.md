@@ -5,6 +5,7 @@ players:
     max: 100
 subgames:
 - title: Multiplication
+equipment: Dice
 ---
 
 <p class="lead">Yankee Grab was a dice game that became popular in New Zealand and Australia

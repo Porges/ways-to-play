@@ -5,6 +5,7 @@ draft: true
 players:
     min: 5
     max: 9
+equipment: Playing cards (Ceki)
 ---
 
 <span class="noun" lang="jav-Latn">Kartu Lima</span> (‘five cards’) is an

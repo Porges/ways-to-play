@@ -1252,7 +1252,7 @@
         "issued": {
             "year": 1900
         },
-        "publisher": "Harper & Borthers",
+        "publisher": "Harper & Brothers",
         "publisher-place": "London, England, UK",
         "URL": "https://archive.org/details/whistamericanlea00tris"
     },
@@ -4993,6 +4993,23 @@
         "publisher": "G. L. Howe & Co.",
         "publisher-place": "Chicago, IL, USA",
         "URL": "https://archive.org/details/FoolsOfFortuneOrGamblingAndGamblers"
+    },
+    "TheAmericanHoyle3": {
+        "type": "book",
+        "title": "The American Hoyle",
+        "issued": {
+            "year": 1864
+        },
+        "author": [
+            {
+                "given": "William Brisbane",
+                "family": "Dick"
+            }
+        ],
+        "edition": 3,
+        "publisher": "Dick & Fitzgerald",
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://hdl.handle.net/2027/umn.31951p00687527m"
     },
     "TheAmericanHoyle4": {
         "type": "book",
@@ -9028,6 +9045,24 @@
         "publisher-place": "United Kingdom",
         "issued": 1959
     },
+    "ChildrensGamesInStreet": {
+        "type": "book",
+        "title": "Children’s Games in Street and Playground",
+        "author": [
+            {
+                "given": "Iona",
+                "family": "Opie"
+            },
+            {
+                "given": "Peter",
+                "family": "Opie"
+            }
+        ],
+        "issued": 1969,
+        "publisher": "Oxford University Press",
+        "publisher-place": "London",
+        "URL": "https://archive.org/details/childrensgamesin0000opie"
+    },
     "SomeRareScenes": {
         "type": "chapter",
         "title": "Some Rare Scenes in the Tomb of Rashepses at Saqqara",
@@ -9048,10 +9083,385 @@
             {
                 "given": "Hana",
                 "family": "Vymazalová"
-            } 
+            }
         ],
         "issued": 2018,
         "publisher": "Czech Institute of Egyptology",
         "ISBN": "9788073087708"
+    },
+    "TaylorsMotto": {
+        "title": "Taylor’s motto: Et habeo, et careo, et curo",
+        "URL": "https://quod.lib.umich.edu/e/eebo/A13505.0001.001",
+        "publisher": "Edward Allde",
+        "publisher-place": "London",
+        "issued": 1621,
+        "type": "book",
+        "author": [
+            {
+                "given": "John",
+                "family": "Taylor"
+            }
+        ]
+    },
+    "PopularRhymes": {
+        "title": "Popular Rhymes and Nursery Tales: A sequel to the Nursery Rhymes of England",
+        "author": [
+            {
+                "given": "James Orchard",
+                "family": "Halliwell-Phillipps"
+            }
+        ],
+        "type": "book",
+        "publisher": "John Russell Smith",
+        "publisher-place": "London",
+        "issued": 1849,
+        "URL": "https://archive.org/details/popularrhymesnur00hallrich"
+    },
+    "ShropshireFolklore1": {
+        "title": "Shropshire Folk-lore: A Sheaf of Gleanings",
+        "type": "book",
+        "author": [
+            {
+                "given": "Georgina Frederica",
+                "family": "Jackson"
+            },
+            {
+                "given": "Charlotte Sophia",
+                "family": "Burne"
+            }
+        ],
+        "issued": 1883,
+        "publisher": "Trübner & Co",
+        "publisher-place": "London",
+        "volume": 1,
+        "URL": "https://archive.org/details/shropshirefolkl00burngoog"
+    },
+    "ShropshireFolklore2": {
+        "title": "Shropshire Folk-lore: A Sheaf of Gleanings",
+        "type": "book",
+        "author": [
+            {
+                "given": "Georgina Frederica",
+                "family": "Jackson"
+            },
+            {
+                "given": "Charlotte Sophia",
+                "family": "Burne"
+            }
+        ],
+        "issued": 1885,
+        "publisher": "Trübner & Co",
+        "publisher-place": "London",
+        "volume": 2,
+        "URL": "https://archive.org/details/shropshirefolkl00jackgoog"
+    },
+    "ShropshireFolklore3": {
+        "title": "Shropshire Folk-lore: A Sheaf of Gleanings",
+        "type": "book",
+        "author": [
+            {
+                "given": "Georgina Frederica",
+                "family": "Jackson"
+            },
+            {
+                "given": "Charlotte Sophia",
+                "family": "Burne"
+            }
+        ],
+        "issued": 1886,
+        "publisher": "Trübner & Co",
+        "publisher-place": "London",
+        "volume": 3,
+        "URL": "https://archive.org/details/shropshirefolkl01jackgoog"
+    },
+    "FannyBurney": {
+        "title": "The Early Journals and Letters of Fanny Burney",
+        "volume": "1 (1768–1773)",
+        "type": "book",
+        "issued": 1988,
+        "editor": [
+            {
+                "given": "Lars E.",
+                "family": "Troide"
+            }
+        ],
+        "publisher": "McGill-Queen’s University Press",
+        "ISBN": "0773505385",
+        "publisher-place": "Kingston & Montreal",
+        "URL": "https://archive.org/details/earlyjournalslet0000burn_w1r8"
+    },
+    "TaylorHistory": {
+        "title": "The History of Playing Cards, with Anecdotes of their use in Conjuring, Fortune-Telling, and Card-Sharping",
+        "type": "book",
+        "editor": [
+            {
+                "given": "Edward S.",
+                "family": "Taylor"
+            }
+        ],
+        "issued": 1865,
+        "publisher": "John Camden Hotten",
+        "publisher-place": "London",
+        "URL": "https://archive.org/details/EdwardS.TaylorTheHistoryOfPlayingCardsInConjuringFortuneTellingCardSharping1865"
+    },
+    "PopishImpostures": {
+        "title": "A declaration of egregious popish impostures to with-draw the harts of her Maiesties subiects from their allegeance, and from the truth of Christian religion professed in England, vnder the pretence of casting out deuils. Practised by Edmunds, alias Weston a Iesuit, and diuers Romish priestes his wicked associates. Where-vnto are annexed the copies of the confessions, and examinations of the parties themselues, which were pretended to be possessed, and dispossessed, taken vpon oath before her Maiesties commissioners, for causes ecclesiasticall",
+        "type": "book",
+        "author": [
+            {
+                "given": "Samuel",
+                "family": "Harsnett"
+            }
+        ],
+        "publisher": "Iames Roberts",
+        "publisher-place": "London",
+        "issued": 1603,
+        "URL": "https://quod.lib.umich.edu/e/eebo/A02750.0001.001"
+    },
+    "InnerTempleMasque": {
+        "type": "book",
+        "title": "The Inner-Temple Masque, or Masque of Heroes",
+        "author": [
+            {
+                "given": "Thomas",
+                "family": "Middleton"
+            }
+        ],
+        "issued": 1619,
+        "URL": "http://name.umdl.umich.edu/A07503.0001.001",
+        "publisher": "Iohn Brovvne",
+        "publisher-place": "London"
+    },
+    "GreekEnglishLexicon": {
+        "type": "book",
+        "URL": "https://archive.org/details/greekenglishlexi01lidd",
+        "title": "A Greek-English Lexicon, based on the German work of Francis Passow",
+        "author": [
+            {
+                "given": "Henry George",
+                "family": "Liddell"
+            },
+            {
+                "given": "Robert",
+                "family": "Scott"
+            },
+            {
+                "given": "Henry",
+                "family": "Drisler"
+            }
+        ],
+        "publisher": "Harper & Brothers",
+        "publisher-place": "New York",
+        "issued": 1867
+    },
+    "Nomenclator1585": {
+        "URL": "https://books.google.co.nz/books?id=fVvIQ5LO7hoC",
+        "title": "The Nomenclator, or Remembrancer of Adrianus Iunius Phyſician",
+        "author": [
+            {
+                "given": "Hadrianus",
+                "family": "Junius"
+            },
+            {
+                "given": "Abraham",
+                "family": "Fleming"
+            }
+        ],
+        "issued": 1585,
+        "type": "book",
+        "publisher-place": "London"
+    },
+    "ThomasThomas1592": {
+        "title": "Thomae Thomasii Dictionarium Tertio Iam Summa Fide Ac diligentia accuratißime emendatum",
+        "type": "book",
+        "issued": 1592,
+        "URL": "https://books.google.co.nz/books?id=4XdmAAAAcAAJ",
+        "author": [
+            {
+                "given": "Thomas",
+                "family": "Thomas"
+            }
+        ],
+        "edition": 3,
+        "publisher": "Johannis Legate",
+        "publisher-place": "Cambridge"
+    },
+    "Rider1640": {
+        "title": "Riders Dictionarie Corrected and Augmented with the addition of many hundred Words both out of the Law, and out of the Latine, French, and other Languages, ſuch as were and are with us in common uſe, but never pritned till now, to the perfecting of the worke",
+        "URL": "https://books.google.co.nz/books?id=lkJJAAAAcAAJ",
+        "author": [
+            {
+                "given": "John",
+                "family": "Rider"
+            },
+            {
+                "given": "Francis",
+                "family": "Holy-Oke"
+            }
+        ],
+        "issued": 1640,
+        "original-date": {
+            "year": 1617
+        },
+        "publisher-place": "London",
+        "publisher": "Felix Kingston"
+    },
+    "Rider1589": {
+        "title": "Bibliotheca Scholastica",
+        "type": "book",
+        "author": [
+            {
+                "given": "John",
+                "family": "Rider"
+            }
+        ],
+        "issued": 1589,
+        "publisher-place": "Oxford",
+        "publisher": "Joseph Barnes",
+        "URL": "https://archive.org/details/bibliothecaschol00ride"
+    },
+    "AthleticsOfGreeks1": {
+        "title": "Athletics and Games of the Ancient Greeks",
+        "type": "book",
+        "URL": "https://archive.org/details/athleticsgamesof01plum",
+        "author": [
+            {
+                "given": "Edward Marwick",
+                "family": "Plummer"
+            }
+        ],
+        "issued": 1898,
+        "publisher": "Lombard & Caustic",
+        "publisher-place": "Cambridge, MA, USA"
+    },
+    "GamesAndSongsAmericanChildren": {
+        "type": "book",
+        "title": "Games and Songs of American Children",
+        "author": [
+            {
+                "given": "William Wells",
+                "family": "Newell"
+            }
+        ],
+        "issued": 1884,
+        "publisher": "Harper & Brothers",
+        "publisher-place": "New York",
+        "URL": "https://archive.org/details/gamessongsofamer01newe"
+    },
+    "LittlePrettyPocket": {
+        "type": "book",
+        "title": "A Little Pretty Pocket-Book",
+        "author": [
+            {
+                "given": "John",
+                "family": "Newbery"
+            }
+        ],
+        "issued": 1787,
+        "publisher": "Isaiah Thomas",
+        "publisher-place": "Worcester, Massachusetts",
+        "URL": "https://www.loc.gov/resource/rbc0001.2003juv05880",
+        "original-date": {
+            "year": "1744"
+        },
+        "original-publisher": "John Newbery"
+    },
+    "LouisvilleSummerPlaygrounds": {
+        "type": "article-journal",
+        "title": "The Louisville Summer Playgrounds",
+        "author": [
+            {
+                "given": "M. Eleanor",
+                "family": "Tarrant"
+            }
+        ],
+        "issued": {
+            "year": 1903,
+            "month": 8
+        },
+        "page": "473–476",
+        "container-title": "The Chautauquan",
+        "volume": 37,
+        "issue": 5,
+        "URL": "https://archive.org/details/chautauquanorga25circgoog/page/472"
+    },
+    "UndersAndOvers": {
+        "type": "article",
+        "title": "Rules for Playing Unders and Overs",
+        "publisher": "Department of Racing, Gaming & Liquor: Goverment of Western Australia",
+        "URL": "https://www.dlgsc.wa.gov.au/docs/default-source/racing-gaming-and-liquor/gaming/rules-of-the-game/unders-and-overs-rules.pdf",
+        "issued": 2022
+    },
+    "USOS": {
+        "type": "article-newspaper",
+        "title": "Marlborough",
+        "container-title": "The Press",
+        "volume": 6,
+        "issue": 632,
+        "issued": {
+            "year": 1864,
+            "month": 11,
+            "day": 8
+        },
+        "page": 2,
+        "publisher-place": "Christchurch, New Zealand",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/CHP18641108.2.12"
+    },
+    "usos1803": {
+        "type": "article-newspaper",
+        "title": "Sussex Assizes, March 30: The King v. Darly",
+        "container-title": "The Morning Post",
+        "page": 3,
+        "issued": {
+            "year": 1803,
+            "month": 4,
+            "day": 1
+        },
+        "URL": "https://www.newspapers.com/clip/112669636/under-seven-over-seven/",
+        "publisher-place": "London",
+        "issue": 10762
+    },
+    "ChelseaBuns": {
+        "type": "article-newspaper",
+        "title": "Old Bailey: Public Office, Bow-Street",
+        "container-title": "The Morning Chronicle",
+        "page": "3",
+        "issued": {
+            "year": 1816,
+            "month": 5,
+            "day": 15
+        },
+        "publisher-place": "London",
+        "URL": "https://www.newspapers.com/clip/112669827/chelsea-buns/",
+        "issue": 14649
+    },
+    "CompleteHoyle97": {
+        "type": "book",
+        "title": "Foster’s Complete Hoyle",
+        "author": [
+            {
+                "given": "Robert Frederick",
+                "family": "Foster"
+            }
+        ],
+        "edition": 3,
+        "issued": 1897,
+        "publisher": "Frederick A. Stokes Company",
+        "publisher-place": "New York",
+        "URL": "https://archive.org/details/fosterscomplete00fostgoog"
+    },
+    "CompleteHoyle09": {
+        "type": "book",
+        "title": "Foster’s Complete Hoyle",
+        "author": [
+            {
+                "given": "Robert Frederick",
+                "family": "Foster"
+            }
+        ],
+        "issued": 1909,
+        "publisher": "Frederick A. Stokes Company",
+        "publisher-place": "New York",
+        "URL": "https://archive.org/details/fosterscomplete02fostgoog"
     }
 }

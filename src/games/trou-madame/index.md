@@ -19,3 +19,6 @@ https://georgianera.wordpress.com/2018/06/28/skittles-and-nine-holes-or-bumble-p
 https://shakespeareillustration.org/2016/07/01/trol-my-dames-costume-temp-eliz-from-specimen/
 https://www.istockphoto.com/vector/nine-holes-gm175396716-20296398
 -->
+
+
+Nine Holes [@Strutt p. 340].

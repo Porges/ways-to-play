@@ -8,6 +8,7 @@ players:
 subgames:
 - title: Pong
   players: 4
+equipment: Playing cards (Ceki)
 ---
 
 <span class="noun" lang="th-Latn">Pai Tong</span> (<span

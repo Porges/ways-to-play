@@ -14,7 +14,7 @@ was awarded US patent [383,653](https://patents.google.com/patent/US383653A) for
 the game.
 
 The game was named Halma by Thomas Hill (Robert Monks’ father-in-law) from the
-Ancient Greek <span lang="grc">ἅλμα</span> (<span lang="grc-Latn">hálma</span>),
+Ancient Greek <span lang="el-polyton">ἅλμα</span> (<span lang="el-polyton-Latn">hálma</span>),
 ‘jump’.
 
 The game was first published by E.I. Horsman in the USA. Milton Bradley also

@@ -84,7 +84,7 @@ A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
   originalUrl="https://www.flickr.com/photos/dandiffendale/8238351242/" %}
 
 A board carved on the capital of the Athenian trophy (or tropaion, <span
-lang="grc">τρόπαιον</span>) from Marathon, which was constructed some time after 490 BCE
+lang="el">τρόπαιον</span>) from Marathon, which was constructed some time after 490 {%bce%}
 but destroyed at a later date. An image of the board carved on the decapitated
 capital <span lang="la">in situ</span> can be seen in @MarathonMonument [plate 32].
 
@@ -96,7 +96,7 @@ The game dates from at least the late Roman Empire or Byzantine period, and at
 the moment we do not have solid evidence for an earlier
 date.[@GamesGreekAndRoman p. 3]{%fn%}@RamatHanadiv [p. 227] describes a board
 found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<span class="noun"
-lang="he-Latn">Ḥorvat ʿAqav</span>), dated 400–600&nbsp;CE, while a cache of
+lang="he-Latn">Ḥorvat ʿAqav</span>), dated 400–600&nbsp;{%ce%}, while a cache of
 gaming boards found in a Roman fort at <span class="noun" lang="ar-Latn">Abu Sha’ar</span>
 that was abandoned in the late 4th century contained no mills
 boards.[@RomanGameBoards]{%endfn%} Earlier dates have often been proposed based
@@ -193,7 +193,7 @@ Text of the French Templar rule from an early 14th-century manuscript edition (w
 
 In the early 12th century, the game was
 mentioned in the French Rule of the Templar order (probably written between 1139
-and 1147&nbsp;CE[@TheRuleOfTheTemplars p. 12]), as the only board game allowed
+and 1147 {%ce%}[@TheRuleOfTheTemplars p. 12]), as the only board game allowed
 to be played by Templar brothers. It is possible that the order picked up the
 game through their contact with the Arabic-speaking world:{%fn%}Indeed, a board
 has been found inscribed upon a stone in [<span class="noun" lang="fr">Château
@@ -433,7 +433,7 @@ In other languages it has been called:
 * Bengali: <span lang="bn">ন গুটি</span> (<span lang="bn-Latn">nô guṭi</span>) ‘nine beads’
 * Chinese: <span lang="zh">三棋</span> (Mandarin: <span lang="zh-Latn-pinyin">sān qí</span>) ‘three game’[@KoreanGames p. 102]
 * French: <span lang="fr">le jeu du moulin</span> ‘the mill game’
-* Greek: <span lang="grc">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="grc">τριώδιον</span> ‘triodium’.[@Hyde p. 205]
+* Greek: <span lang="el">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="el">τριώδιον</span> ‘triodium’.[@Hyde p. 205]
 * German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. --> In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de">Fickmül</span>.{%fn%}See [the Gargantua article](/articles/lists/rabelais) for more about Fischart’s list.{%endfn%}
 * Korean: <span lang="ko">곤질(고누)</span> (<span lang="ko-Latn">gonjil-gonu</span>){%fn%}Given as <span lang="ko-Latn">kon-tjil</span> in older books.[@KoreanGames p. 102]{%endfn%}
 * Ottoman Turkish: <span lang="ota">طقوز طاش</span> (<span lang="ota-Latn">dokuz taş</span>) ‘nine stone’[@Hyde p. 206]

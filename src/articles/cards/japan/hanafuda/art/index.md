@@ -1830,7 +1830,7 @@ flowers drips into the river from which he drinks. Eight hundred years later he
 has not aged a day, and he returns to court as the legendary <span class="noun"
 lang="zh-Latn-pinyin">Peng Zu</span> (<span lang="zh">彭祖</span>) during the reign of
 King <span class="noun" lang="zh-Latn-pinyin">Wen</span> (<span lang="zh">周文王</span>, <abbr
-title="reigned">r.</abbr> 1112–1050 <abbr class="initialism">BCE</abbr>), who
+title="reigned">r.</abbr> 1112–1050 {%bce%}), who
 subsequently institutes the festival.
 {%endaside%}
     

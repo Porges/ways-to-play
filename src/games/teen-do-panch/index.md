@@ -2,6 +2,7 @@
 title: Teen Do Pānch
 originalTitle: <span lang="hi">तीन दो पाँच</span>
 players: 3
+equipment: Playing cards (Standard)
 ---
 
 <span lang="hi-Latn" class="noun">Teen Do Pānch</span> (<span lang="hi">तीन दो

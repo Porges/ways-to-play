@@ -146,6 +146,7 @@ exports.render = function (data) {
 
     return '<h2>Filters</h2>'
         + '<form>'
+
         + '<div class="form-group row">'
         + '<label for="player-select" class="col-sm-2 col-form-label">Players:</label>'
         + '<div class="col-sm-10">'
@@ -164,6 +165,7 @@ exports.render = function (data) {
         + '</select>'
         + '</div>'
         + '</div>'
+
         + '<div class="form-group row mt-2">'
         + '<label for="equipment-select" class="col-sm-2 col-form-label">Equipment:</label>'
         + '<div class="col-sm-10">'
@@ -174,6 +176,7 @@ exports.render = function (data) {
         + '</div>'
         + '</div>'
         + '</form>'
+
         + '<h2>List</h2>'
         + '<ul id="games-list" class="columnarr wide">'
         + expandedGames.map(g => {
