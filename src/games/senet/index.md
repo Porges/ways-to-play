@@ -1,6 +1,6 @@
 ---
 title: Senet
-originalTitle: <img src="/small-images/senet.svg" alt="𓊃𓈖𓏏" class="inline-img" />
+originalTitle: <img src="/small-images/senet.svg" alt="𓊃𓈖𓏏𓏠" class="inline-img" />
 draft: true
 hero:
     image: D6n3F4iWwAIgNpL.jpg
