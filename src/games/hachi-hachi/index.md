@@ -74,7 +74,7 @@ Combinations based upon sets:
 <dt><span lang="ja-Latn">sanbon</span> &bull; <span lang="ja">三本 (さんぼん)</span> &bull; three-of-a-kind/3</dt>
 <dd>Three cards of the same month.</dd>
 
-<dt><span lang="ja-Latn">tate&shy;sanbon</span> &bull; <span lang="ja">立三本 (たてさんぼん)</span> &bull; special three-of-a-kind</dt>
+<dt><span lang="ja-Latn">tate&shy;sanbon</span> &bull; <span lang="ja">立三本 (たてさんぼん)</span> &bull; special three-of-a-kind/3*</dt>
 <dd>
 Three cards of the months of Wisteria, Iris, Bush Clover, or the three <span lang="ja-Latn">kasu</span> of Paulownia.
 This is worth more because these months cannot contribute towards the <span lang="ja-Latn">aka-tan</span> or <span lang="ja-Latn">ao-tan</span> <span lang="ja-Latn">dekiyaku</span>, so this form has a higher compensation.{%fn%}Also written as <span lang="ja">竪三本</span> or <span lang="ja">たて三本</span>.{%endfn%}

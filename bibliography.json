@@ -1390,17 +1390,30 @@
         "publisher-place": "New York, NY, USA"
     },
     "Rothwell1674": {
-        "type": "manuscript",
+        "type": "webpage",
         "URL": "http://www.mannincloud.info/wills/169/1695_092.html",
-        "title": "Archdeacon Will 1695A #55",
-        "collection-title": "Isle of Man Archdeacon Wills 1695–1699. [LDS microfilm 0106207]"
+        "archive-URL": "https://web.archive.org/web/20221108001255/https://www.mannincloud.info/wills/169/1695_092.html",
+        "issued": {
+            "year": 2017,
+            "month": 6,
+            "day": 16
+        },
+        "title": "Charles Rothwell/Rothmell 1695",
+        "container-title": "Manx Family History Documents"
     },
     "LezayrePresentments": {
-        "type": "manuscript",
+        "type": "webpage",
         "URL": "http://www.isle-of-man.com/manxnotebook/jmmuseum/d191.htm",
-        "title": "Lezayre Presentments, 1699",
-        "page": "Unpublished Document No. 191",
-        "collection-title": "Journal of the Manx Museum"
+        "archive-URL": "https://web.archive.org/web/20010711230654/http://www.isle-of-man.com/manxnotebook/jmmuseum/d191.htm",
+        "title": "Lezayre Presentments, 1699: Document No. 191",
+        "issued": 2000,
+        "container-title": "Journal of Manx Museum: Unpublished Documents",
+        "author": [
+            {
+                "given": "F.",
+                "family": "Coakley"
+            }
+        ]
     },
     "MacedonianFolklore": {
         "type": "book",
@@ -4236,6 +4249,11 @@
         "type": "book",
         "title": "Croxley Stationery",
         "publisher": "Croxley Stationery",
+        "issued": {
+            "year": 2013,
+            "month": 1,
+            "day": 30
+        },
         "URL": "https://www.yumpu.com/en/document/read/8966910/croxley-stationery"
     },
     "CroxleyClosing": {
@@ -6522,6 +6540,7 @@
         "title": "Permainan KOA (bagian 1)",
         "title-lang": "id",
         "URL": "http://auacorner.blogspot.com/2013/08/permainan-koa-bagian-1.html",
+        "archive-URL": "https://web.archive.org/web/20200222140448/http://auacorner.blogspot.com/2013/08/permainan-koa-bagian-1.html",
         "container-title": "Cindua Dingin",
         "author": [
             {

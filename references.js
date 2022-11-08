@@ -87,13 +87,19 @@ function renderTitle(reference) {
             ? `<a itemprop="url" href="${reference.URL}">${reference.title}</a>`
             : `<span>${reference.title}</span>`;
 
+    const archiveURL = 
+        reference['archive-URL']
+        ? ` [<a href="${reference['archive-URL']}">archived</a>]`
+        : '';
+
     if (reference.type === 'book' || reference.type === 'thesis') {
         return `<cite itemprop="name"${asAttr('lang', lang)}>${isolate(linked)}</cite>`
             + ifSet(reference.edition, () => ` (${ordinal(reference.edition)} edition)`)
             + ifSet(reference.volume, () => ` (volume ${formatNumberString(reference.volume)})`)
+            + archiveURL
             + `. `;
     } else {
-        return `‘<span itemprop="name headline"${asAttr('lang', lang)}>${isolate(linked)}</span>’. `;
+        return `‘<span itemprop="name headline"${asAttr('lang', lang)}>${isolate(linked)}</span>’${archiveURL}. `;
     }
 }
 

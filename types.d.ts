@@ -54,6 +54,7 @@ export type Reference = Readonly<{
   author?: readonly Author[],
   editor?: readonly Author[],
   URL?: string,
+  ArchiveURL?: string,
   ISBN?: string | number,
   ['container-title']?: string,
   ['container-title-lang']?: string,
