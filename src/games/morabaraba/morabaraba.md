@@ -154,7 +154,7 @@ skeuomorphic feature.{%endfn%} are used in two contrasting colours.
 
 {% image 
   position="right"
-  src="../../articles/mill-games/large_merels_with_diagonals.svg"
+  src="../../articles/families/mill-games/large_merels_with_diagonals.svg"
   alt="" %}
 Standard <span class="noun" lang="st">Morabaraba</span> is played on the large mill board with diagonals.
 {% imageEnd %}

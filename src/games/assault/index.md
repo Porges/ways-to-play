@@ -14,14 +14,20 @@ Assault is for one side to achieve a particular arrangement of their
 pieces — although it is still possible to win by “trapping” like in {% gameref
 fox-and-geese %}.
 
+<div class="multi">
 {% image src="pic5996205.jpg" alt="" originalUrl="https://boardgamegeek.com/image/5996205/miscellaneous-game-compilation"
     authorGiven="Stephan"
     authorFamily="Krug"
     license="cc0"
-    noborder=true
     copyrightYear=2021 %}
 Reprint of an old German Assault board. Black lines indicate paths that the Attacker may not use.
 {%imageEnd%}
+
+{% image src="1324594001.jpg" alt="" originalUrl="https://www.britishmuseum.org/collection/image/1324594001" 
+  license="cc-by-nc-sa" licenseVersion="4.0" orgName="Trustees of the British Museum" %}
+A 19th century print; bold lines indicate paths the Attacker may not use. 
+{%imageEnd%}
+</div>
 
 <!-- excerpt -->
 

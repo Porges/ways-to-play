@@ -54,7 +54,7 @@ p. 2]
 
 {% image 
     position="right"
-    src='../../articles/mill-games/large_merels.svg'
+    src='../../articles/families/mill-games/large_merels.svg'
     alt="" %}
     <span class="noun" lang="so">Shax</span> is played on the large mill board, without diagonals.
 {% imageEnd %}

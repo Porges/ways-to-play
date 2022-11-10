@@ -13,6 +13,8 @@ hero:
 
 In terms of longevity, Senet is possibly the most popular game of all time.
 
+https://www.britishmuseum.org/collection/object/Y_EA20935
+
 ## History
 
 ### Old Kingdom (2686–2181 {%bce%})

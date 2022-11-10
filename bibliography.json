@@ -9482,5 +9482,15 @@
         "publisher": "Frederick A. Stokes Company",
         "publisher-place": "New York",
         "URL": "https://archive.org/details/fosterscomplete02fostgoog"
+    },
+    "EnigmeJoyeuse": {
+        "type": "book",
+        "title": "Enigme joyeuse pour les bon esprits",
+        "title-lang": "fr",
+        "publisher": "Jean Le Clerc",
+        "publisher-lang": "fr",
+        "publisher-place": "Paris",
+        "issued": 1615,
+        "URL": "https://gallica.bnf.fr/ark:/12148/btv1b8606960s"
     }
 }

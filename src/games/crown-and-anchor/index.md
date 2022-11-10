@@ -586,6 +586,8 @@ In the Balinese game, bets can be placed spanning two symbols.
 
 <!-- TODO: what is the bet return here? -->
 
+<!-- TODO: Javanese game: https://www.britishmuseum.org/collection/object/A_As-5302 -->
+
 Some of the sets of symbols used are:
 
 * <span lang="ban">basir</span>, robin, <span lang="ban">rare</span> (baby),

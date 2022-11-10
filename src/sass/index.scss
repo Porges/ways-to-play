@@ -349,6 +349,15 @@ div.multi > p {
     margin-bottom: 1em;
 }
 
+.parallel {
+    display: flex;
+    width: 100%;
+
+    & > * {
+        flex: 1 1 0;
+    }
+}
+
 .scroll-horizontally {
     overflow-x: scroll;
 }

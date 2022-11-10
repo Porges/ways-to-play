@@ -40,7 +40,7 @@ A large-format Nine Men’s Morris game being played at a festival in Hungary.
 {% image 
     position="right"
     alt=""
-    src="../../articles/mill-games/large_merels.svg" %}
+    src="../../articles/families/mill-games/large_merels.svg" %}
 Nine Men’s Morris is played on the large mill board.
 {% imageEnd %}
 
@@ -510,7 +510,7 @@ the same.
 
 {% image 
     alt="An old man’s hand reaches towards a worn morris board to move a piece."
-    src='../../articles/mill-games/shutterstock_235028281.jpg'
+    src='../../articles/families/mill-games/shutterstock_235028281.jpg'
     orgName="Shutterstock.com",
     author="Delpixel",
     identifier="235028281",

@@ -27,7 +27,7 @@ games played with these seeds.{%fn%}See also @AdjiBoto.{%endfn%}
 ## Play
 {% image
     size="small"
-    src="../../articles/mill-games/medium_merels.svg"
+    src="../../articles/families/mill-games/medium_merels.svg"
     alt="" %}
 <span class="noun" lang="ee">Achi</span> is played on the medium-sized mill board.
 {% imageEnd %}
