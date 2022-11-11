@@ -52,6 +52,12 @@ Another reason is that romanization schemes change over time, so as time passes
 it is increasingly hard to recover the original form. Using the original terms
 where possible helps with this problem.
 
+## Special thanks
+
+… is due to:
+
+- Marcus Richert, without whom most of the information about Japanese cards would not exist
+
 ## Copyright
 
 Unless otherwise noted, all content on this site, including all images, is under
