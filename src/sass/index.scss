@@ -51,6 +51,15 @@
     size-adjust: 104%;
 }
 
+@font-face {
+    font-family: 'FiraGO';
+    font-weight: 500;
+    src: url('/fonts/FiraGO-BoldItalic.woff2') format('woff2'),
+         url('/fonts/FiraGO-BoldItalic.woff') format('woff');
+    font-style: italic;
+    size-adjust: 104%;
+}
+
 $font-family-sans-serif:
     "Inter",
     "NKS30",
