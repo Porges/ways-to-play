@@ -19,9 +19,16 @@ https://www.britishmuseum.org/collection/object/Y_EA20935
 
 ### Old Kingdom (2686–2181 {%bce%})
 
+<div class="multi">
 {% image src="1514257001.jpg" alt="" license="cc-by-nc-sa" licenseVersion="4.0" originalUrl="https://www.britishmuseum.org/collection/image/1514257001" orgName="British Museum" %}
 Inscription from the tomb of Rahotep, who lived during the 4th Dynasty ({%c%} 2613–2494 {%bce%}), showing Senet listed alongside Mehen and Men.
 {%imageEnd%}
+
+{% image src="cu31924028670465_0088.jpg" alt="" license="cc0" %}
+In original colour, from @Medum [pl. XIII].
+{%imageEnd%}
+
+</div>
 
 {% image src="D6n3F4iWwAIgNpL.jpg" size="wide" alt="" license="with-permission" authorGiven="Walter" authorFamily="Crist" originalUrl="https://twitter.com/CuseKicks/status/1128706691825045510/photo/1" %}
 Image from the tomb of Nikauhor in Saqqara (QS 915, {%c%} 2465–2389 {%bce%}). The tomb is now located in The Met museum.

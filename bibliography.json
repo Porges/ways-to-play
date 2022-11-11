@@ -9492,5 +9492,19 @@
         "publisher-place": "Paris",
         "issued": 1615,
         "URL": "https://gallica.bnf.fr/ark:/12148/btv1b8606960s"
+    },
+    "Medum": {
+        "type": "book",
+        "title": "Medum",
+        "author": [
+            {
+                "given": "William Matthew Flinders",
+                "family": "Petrie"
+            }
+        ],
+        "URL": "https://archive.org/details/cu31924028670465",
+        "publisher": "David Nutt",
+        "publisher-place": "London",
+        "issued": 1892
     }
 }
