@@ -163,16 +163,17 @@ async function renderImage(me, src, alt, sourceInfo, sizes, noborder) {
 
     const srcset = metadata[format].map(x => x.srcset).join(', ');
     const original = metadata[format].slice(-1)[0];
+    const smallest = metadata[format][0];
 
     const id = path.basename(original.filename, path.extname(original.filename));
 
     const classlist = noborder ? " border-0" : '';
 
     return `<dialog class="lightbox" id="${id}">`
-        + `<img src="${original.url}" srcset="${srcset}" alt="${alt}" />`
+        + `<img src="${original.url}" srcset="${srcset}" alt="${alt}" loading="lazy" />`
         + `<div class="lightbox-under"><span itemscope>${sourceInfo}</span><form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close">Close</button></form></div></dialog>`
         + `<a href="#${id}">`
-        + `<img class="figure-img${classlist}" itemprop="contentUrl" src="${original.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
+        + `<img class="figure-img${classlist}" itemprop="contentUrl" src="${smallest.url}" width="${original.width}" height="${original.height}" alt="${alt}" srcset="${srcset}" sizes="${sizes}">`
         + `</a>`;
 }
 
@@ -246,16 +247,17 @@ async function renderSourcedImage(me, src, alt, sourceInfo, sourceId, sizes, nob
 
     const srcset = metadata[format].map(x => x.srcset).join(', ');
     const original = metadata[format][metadata[format].length - 1];
+    const smallest = metadata[format][0];
 
     const className = noborder ? "border-0" : '';
     const id = path.basename(original.filename, path.extname(original.filename));
 
     return `<div itemscope itemtype="${imageObject}" itemprop="image" itemRef="${sourceId}">`
         + `<dialog class="lightbox" id="${id}">`
-        + `<img src="${original.url}" srcset="${srcset}" alt="${alt}" />`
+        + `<img src="${original.url}" srcset="${srcset}" alt="${alt}" loading="lazy" />`
         + `<div class="lightbox-under"><span itemscope>${sourceInfo}</span><form method="dialog"><a href="${original.url}" class="lightbox-original" role="button" target="_blank">Original</a><button class="lightbox-close">Close</button></form></div></dialog>`
         + `<a href="${'#' + id}">`
-        + `<img class="figure-img ${className}" itemprop="contentUrl url" alt="${alt}" src="${original.url}"`
+        + `<img class="figure-img ${className}" itemprop="contentUrl url" alt="${alt}" src="${smallest.url}"`
         + ` srcset="${srcset}" sizes="${sizes}" width="${original.width}" height="${original.height}" />`
         + '</a>'
         + '</div>';
