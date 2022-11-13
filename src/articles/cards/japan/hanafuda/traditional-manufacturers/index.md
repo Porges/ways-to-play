@@ -286,7 +286,7 @@ provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
     <tr><td>April 1, 1926</td><td>50 <span lang="ja-Latn">sen</span></td></tr>
     <tr><td>April 1, 1940</td><td>70 <span lang="ja-Latn">sen</span></td></tr>
     <tr><td>November 22, 1941</td><td>1½ <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>February 44, 1944</td><td>3 <span lang="ja-Latn">yen</span></td></tr>
+    <tr><td>February 15, 1944</td><td>3 <span lang="ja-Latn">yen</span></td></tr>
     <tr><td>August 30, 1946</td><td>10 <span lang="ja-Latn">yen</span></td></tr>
     <tr><td>March 31, 1947</td><td>30 <span lang="ja-Latn">yen</span></td></tr>
     <tr><td>November 30, 1947</td><td>100 <span lang="ja-Latn">yen</span></td></tr>
@@ -300,16 +300,40 @@ provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
 </tbody>
 </table>
 
+{% image src="50sen_nintendo_cancellation.jpg"
+    alt="A square blue tax stamp reading ‘50 sen’ in Japanese with a stylized chrysanthemum flower. The stamp is overprinted with black ink reading ‘Nintendo’ in Japanese." 
+    position="aside"
+    copyrightYear=2023 
+    authorGiven="Fabrice", authorFamily="Heilig",
+    license='with-permission' %}
+This 50 <span lang="ja-Latn">sen</span> stamp has a clear <span lang="ja-Latn" class="noun">Nintendō</span> cancellation mark.
+{%imageEnd%}
+
 {% image 
     src="20190921_timbre1.jpg;20190921_timbre.jpg"
     alt="A square blue stamp reading ‘50 sen’ in Japanese with a stylized chrysanthemum flower.;A square red stamp reading ‘1 yen’ in Japanese with a stylized chrysanthemum flower and elaborate border."
     copyrightYear=2019,
     authorGiven="Fabrice", authorFamily="Heilig",
     license='with-permission' %}
-Late <span class="noun" lang="ja-Latn">Taishō</span>‐era tax stamps: blue 50 <span
-lang="ja-Latn">sen</span> on left, red 1 <span lang="ja-Latn">yen</span> on
+Late <span class="noun" lang="ja-Latn">Taishō</span>‐era tax stamps: blue 50 <span lang="ja-Latn">sen</span> on left, red 1 <span lang="ja-Latn">yen</span> on
 right.
 {% imageEnd %}
+
+<div class="multi">
+{% image src="30yen.jpg" alt="Two dark blue square stamps reading ‘ten yen’ in Japanese, with elaborate borders and stylized chrysanthemum flowers. Both stamps are overprinted by a single black ink stamp reading ‘Nintendo’ in Japanese." 
+    copyrightYear=2023 
+    authorGiven="Fabrice", authorFamily="Heilig",
+    license='with-permission' %}
+Two 10 <span lang="ja-Latn">yen</span> (<span lang="ja">拾圓</span>) stamps; the deck had 30 <span lang="ja-Latn">yen</span> total, indicating that the deck was sold in 1947. The cancellation mark is <span lang="ja-Latn" class="noun">Nintendō</span>’s.
+{%imageEnd%}
+{% image src="100yen.jpg"
+    alt="Two very dark blue square stamps reading ‘fifty yen’ in Japanese, and with a depiction of a Japanese emperor in the centre." 
+    copyrightYear=2023 
+    authorGiven="Fabrice", authorFamily="Heilig",
+    license='with-permission' %}
+Two 50 <span lang="ja-Latn">yen</span> (<span lang="ja">𠄡拾円</span>) stamps, indicating the deck was sold between 1947–48.
+{%imageEnd%}
+</div>
 
 {% image 
     src="tax_stamp_pink.jpg;tax_stamp_purple.jpg"

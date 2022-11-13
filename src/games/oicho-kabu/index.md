@@ -8,18 +8,21 @@ subgames:
   titleLang: en
 ---
 
-<p class="lead"><span class="noun" lang="ja-Latn">Oicho-Kabu</span> (<span lang="ja">おいちょかぶ</span>,
-‘eight-nine’) is a Japanese gambling game in the style of Baccarat.</p>
+<p class="lead">
+<span class="noun" lang="ja-Latn">Oicho-Kabu</span> (<span lang="ja">おいちょかぶ</span>,
+‘eight-nine’) is a Japanese gambling game in the style of Baccarat.
+</p>
 
 <!-- excerpt -->
 
 The game originated in Japan, but has surprisingly also been seen played amongst
-Aboriginal communities in the northern parts of Australia, apparently having
-been transferred there by Japanese sailors working in the pearl
-industry.[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <span class="noun"
-lang="ja-Latn">Nintendō</span> advertising poster from the early 20th century
-also indicates that their cards were being exported to Australia. In Australia
-the game is played with standard “international” playing cards.
+Aboriginal communities in the northern parts of Australia — particularly by
+[Larrakia](https://en.wikipedia.org/wiki/Larrakia_people) people around
+Darwin — , apparently having been transferred there by Japanese sailors working
+in the pearl industry.[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <span
+class="noun" lang="ja-Latn">Nintendō</span> advertising poster from the early
+20th century also indicates that their cards were being exported to Australia.
+In Australia the game was played with standard “international” playing cards.
 
 ## Equipment
 
@@ -31,8 +34,8 @@ lang="ja-Latn">kabu</span> cards’), which are numbered from 1–10. A full dec
 It can also be played with <span lang="ja-Latn">hanafuda</span> cards (by
 dropping two months),{%fn%}There are also <span lang="ja-Latn">hanafuda</span>
 decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These
-lack the 6th &amp; 7th months of the standard deck.{%endfn%} or with the {%
-cards 'A–10' %} from a standard deck of playing cards.
+lack the 6th &amp; 7th months of the standard deck.{%endfn%} or with all of the
+{% cards 'A–10' %} from a standard deck of playing cards.
 
 {% image 
     src='../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg'
@@ -80,7 +83,8 @@ If both dealer and player have a triple, the higher triple wins.
 
 As with all living card games, there are many local variations.
 
-In the <cite>Yakuza</cite> video game series, there are two special hands:
+In the [<cite>Yakuza</cite>](https://en.wikipedia.org/wiki/Yakuza_(franchise))
+video game series, there are two special hands:
 
 * A hand with {%cards '10 10 1'%}, in any order, wins 20× the stake.
 * A player who is dealt the two cards {%cards '4 6'%}, in any order, may choose
@@ -117,7 +121,7 @@ these — like the playing cards themselves — are derived from Portugu
     <tr>
     <td>2 <span lang="ja">二</span></td>
     <td><span lang="ja-Latn">ni</span></td>
-    <td><span lang="ja-Latn">nizou</span></td>
+    <td><span lang="ja-Latn">nizō</span></td>
     <td />
     </tr>
     <tr>
@@ -141,7 +145,7 @@ these — like the playing cards themselves — are derived from Portugu
     <tr>
     <td>6 <span lang="ja">六</span></td>
     <td><span lang="ja-Latn">roku</span></td>
-    <td><span lang="ja-Latn">roppou</span></td>
+    <td><span lang="ja-Latn">roppō</span></td>
     <td />
     </tr>
     <tr>
@@ -178,8 +182,10 @@ of most of the names is obscure to me.[@EbashiKabuCarta]
   lang="ja-Latn">nobori&shy;kabu</span>){%fn%}i.e. <span lang="ja">上り</span> — not, as Japanese Wikipedia has, [<span lang="ja">幟</span>](https://en.wikipedia.org/wiki/Nobori).{%endfn%}
 * {%cards '333'%} ‘newly-born imperial prince nine’ (<span lang="ja">今みやがぶ</span>)
 * {%cards '559'%} ??? (<span lang="ja">でつくがぶ</span>)
-* {%cards '757'%} ‘two card imperial archivist protection nine’ (<span lang="ja">二条蔵人あいごがぶ</span>) — the position of the head of the “imperial archivists” (<span lang="ja">蔵人頭</span> <span lang="ja-Latn">kurōdo</span> or <span lang="ja-Latn">kurando no tō</span>, usually translated ‘head chamberlain’) was held by two people, who were personally selected by the Emperor’s personal
-* {%cards '883'%} ‘thunder nine’ (<span lang="ja">雷公がぶ</span>)
+* {%cards '757'%} ‘two card imperial archivist protection nine’ (<span lang="ja">二条蔵人あいごがぶ</span>) — the position of the head of the “imperial archivists” (<span lang="ja">蔵人頭</span> <span lang="ja-Latn">kurōdo</span> or <span lang="ja-Latn">kurando no tō</span>, usually translated ‘head chamberlain’) was held by two people, who were personally selected by the Emperor
+* {%cards '883'%} ‘thunder nine’ (<span lang="ja">雷公がぶ</span> <span
+  lang="ja-Latn">raikō gabu</span>) — named after a [Chinese god of
+  thunder](https://en.wikipedia.org/wiki/Leigong)
 
 Similarly, in the <span lang="ja-Latn">bunraku/kabuki</span> play
 <cite>Ōtō-no-Miya and the Armor of the Rising Sun</cite> (<cite lang="ja">大塔宮曦鎧</cite>), staged for the first time in 1723, other names are given for the

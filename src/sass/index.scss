@@ -77,20 +77,6 @@ $font-weight-normal: 300;
 
 $line-height-base: 1.4;
 
-// override font path for 11ty
-$fa-font-path: "/fonts/";
-
-// Using letter-spacing disables ligatures :/
-//article p { letter-spacing: -0.011em; }
-//.lead { letter-spacing: -0.017em; }
-
-/*
-From: https://rsms.me/inter/dynmetrics/
-font-size: 16px;
-letter-spacing: -0.011em;
-line-height: 22px; // I loosened this a little from 1.375 to 1.4
-*/
-
 $primary: #6b5293;
 $secondary: #7c85a3;
 $light: #f4f7f5;
