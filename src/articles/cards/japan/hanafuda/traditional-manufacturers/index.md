@@ -306,7 +306,7 @@ provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
     copyrightYear=2023 
     authorGiven="Fabrice", authorFamily="Heilig",
     license='with-permission' %}
-This 50 <span lang="ja-Latn">sen</span> stamp has a clear <span lang="ja-Latn" class="noun">Nintendō</span> cancellation mark.
+This 50 <span lang="ja-Latn">sen</span> stamp has a clear <span lang="ja-Latn" class="noun">Nintendō</span> (<span lang="ja">任天堂</span>) cancellation mark.
 {%imageEnd%}
 
 {% image 
