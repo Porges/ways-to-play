@@ -69,7 +69,7 @@ Are acts to make you despised forever.</p>
 Ioüant, garde toy bien vn trou pour l’autre prendre,<br/>
 Quoy que proches ils ſoient : ce ſeroit te meſprendre,<br/>
 Pour emporter le prix, faut droictement viſer.</blockquote>
-<p>Playing, keep well a hole for the other to take,<br/>
+<p>Playing, keep well a hole for another to take,<br/>
 However near they are: that would be to mistake you,<br/>
 To win the prize, you must aim rightly.</p>
 </div>
