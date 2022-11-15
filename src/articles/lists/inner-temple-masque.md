@@ -66,7 +66,7 @@ and they are described in the margin:[@InnerTempleMasque]
 > Plum.
 > I ha' seene him **shooe the *Mare*** fortie times ouer.
 >
-> Also, I bequeath to my Coozen-Germane ***Wassel-Bowle***,
+> Also, I bequeath to my Coozen-Germane *Wassel-Bowle*,
 > borne of Dutch Parents, the Priuiledge of a
 > free *Denizen*, that is, to be drunke with *Scotch-Ale*, or
 > *English-Beere*: and lastly, I haue giuen by word of
