@@ -33,7 +33,7 @@ jobs:
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - uses: kheiakiyama/install-azcopy-action@962a2f9712c4653d6ac4610eee5378fdf98e002c # latest
+    - uses: Porges/install-azcopy-action@524c100fac85179212cddba839fcd8d3228d686f # node16
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
