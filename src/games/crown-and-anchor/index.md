@@ -339,7 +339,8 @@ discussed in the {% gameref chuck-a-luck %} article.
 ### China and amongst Peranakans
 
 In English the Chinese name is usually given as “Hoo Hey How”; this appears to
-derive from the Hokkien <span lang="nan-Latn">hû hê hāu</span> <span lang="nan">
+derive from the Hokkien {%pronounce lang="nan-Latn" word="hû hê hāu"
+file="pronunciation_nan_魚蝦鱟.mp3" pronouncer="2867290031" %} <span lang="nan">
 魚蝦鱟</span>.[@GamblingGamesOfMalaya p. 109] The modern Chinese name is <span
 lang="zh-Hant">魚蝦蟹</span>/<span lang="zh-Hans">鱼虾鲎</span> ‘fish prawn
 crab’; these are several of the symbols that commonly appear on the staking
