@@ -9506,5 +9506,19 @@
         "publisher": "David Nutt",
         "publisher-place": "London",
         "issued": 1892
+    },
+    "Hoyle1857": {
+        "type": "book",
+        "URL": "https://hdl.handle.net/2027/njp.32101075978674",
+        "title": "Hoyle’s games: Illustrated edition",
+        "author": [
+            {
+                "given": "Thomas",
+                "family": "Frère"
+            }
+        ],
+        "issued": 1857,
+        "publisher": "T. W. Strong",
+        "publisher-place": "New York"
     }
 }
