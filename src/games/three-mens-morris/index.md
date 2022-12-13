@@ -4,7 +4,7 @@ draft: true
 players: 2
 ---
 
-Three Men’s Morris is an ancient [mill game](/articles/mill-games/) game for two
+Three Men’s Morris is an ancient {%a mill-games,mill game%} game for two
 players.
 
 <!-- excerpt -->

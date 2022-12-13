@@ -76,6 +76,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("cards", cards);
   eleventyConfig.addLiquidTag("gameref", gameRef);
 
+  eleventyConfig.addLiquidTag("a", linkToArticle);
+
   eleventyConfig.addShortcode("ce", () => `<abbr class="initialism">CE</abbr>`);
   eleventyConfig.addShortcode("bce", () => `<abbr class="initialism">BCE</abbr>`);
   eleventyConfig.addShortcode("c", () => `<abbr title="circa">c.</abbr>`);
@@ -195,6 +197,30 @@ function dice(content) {
   }
 
   return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6/d6_${c}.svg" />`);
+}
+
+function linkToArticle() {
+  return {
+    parse: function (tagToken) {
+      this.args = tagToken.args.split(',');
+    },
+    render: async function(context) {
+      const articles = context.environments.collections.article;
+      const slug = this.args[0];
+      const article = articles.find(a => a.fileSlug === slug);
+      if (!article) {
+        throw new Error(`no such article found: ${slug}`);
+      }
+
+      const linkText = this.args.length > 1 ? this.args.slice(1).join(",") : article.data.title;
+      if (IS_PRODUCTION && article.data.draft) {
+        // don't link drafts in production
+        return linkText;
+      }
+
+      return `<a href="${article.url}">${linkText}</a>`;
+    }
+  }
 }
 
 //figured out via https://github.com/11ty/eleventy/issues/813#issuecomment-1037834776

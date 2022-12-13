@@ -78,10 +78,10 @@ able to find or get a good translation for them.
 
 The game is also played in Malaysia under the name <span class="noun"
 lang="ms">Pong</span>. In @GamblingGamesOfMalaya [p. 137–8] it is described as
-being played with Mahjong tiles, but I think it is probably also played with
-[Ceki](/articles/cards/ceki/) cards. According to the book, it is played in the
-state of [Kelantan](https://en.wikipedia.org/wiki/Kelantan), which is adjacent
-to Thailand.
+being played with Mahjong tiles, but I think it is probably also played with {%a
+ceki%}. According to the book, it is played in the state of
+[Kelantan](https://en.wikipedia.org/wiki/Kelantan), which is adjacent to
+Thailand.
 
 In Malaysia it is only played with four players.
 

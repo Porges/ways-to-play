@@ -13,7 +13,7 @@ A man and woman playing Cetro on the cover of J. W. Spear & Söhne’s catalogue
 {% imageEnd %}
 
 <p class="lead">
-Cetro is a <a href="/articles/traversal-games/">traversal game</a> for two players that was 
+Cetro is a {%a traversal-games,traversal game%} for two players that was 
 published at the start of the 20th century in Germany by J. W. Spear & Son.
 </p>
 

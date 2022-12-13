@@ -41,9 +41,8 @@ these:
 
 1. Cards derived from Portuguese patterns, with suits and ranks. In order of
   appearance these are:
-    * [<span class="noun" lang="ja-Latn">Tenshō Karuta</span> (<span lang="ja">
-      天正カルタ</span>, ‘<span class="noun" lang="ja-Latn">Tenshō</span>
-      cards’)](/articles/cards/japan/tensho-karuta/), closely followed by:
+    * {%a tensho-karuta,<span class="noun" lang="ja-Latn">Tenshō Karuta</span> (<span lang="ja">
+      天正カルタ</span>, ‘<span class="noun" lang="ja-Latn">Tenshō</span> cards’) %}, closely followed by:
       * <span class="noun" lang="ja-Latn">Unsun Karuta</span> (<span lang="ja">うんすんかるた
         </span>, ‘<span class="noun" lang="ja-Latn">Un-Sun</span> cards’)
       * <span class="noun" lang="ja-Latn">Sunkun Karuta</span> (<span lang="ja">すんくんかるた
@@ -55,8 +54,8 @@ these:
       many different regional artwork patterns.
       - <span class="noun" lang="ja-Latn">Shimafuda</span> (<span lang="ja">島札</span>) are a still-surviving
         descendent of <span lang="ja-Latn">mekuri</span> cards, originating from <span lang="ja-Latn" class="noun">Okinawa</span>.
-    * [<span class="noun" lang="ja-Latn">Kabu
-      Karuta</span>](/articles/cards/japan/kabu-karuta/) (<span lang="ja">株かる
+    * {%a kabu-karuta,<span class="noun" lang="ja-Latn">Kabu
+      Karuta</span>%} (<span lang="ja">株かる
       た</span>) were a further simplification of <span
       lang="ja-Latn">mekuri</span> cards, eliminating all suits except for one,
       which is replicated four times. Like <span lang="ja-Latn">mekuri</span>
@@ -68,6 +67,6 @@ these:
       - <span class="noun" lang="ja-Latn">Hyakunin Isshu</span> (<span lang="ja">百人一首</span>)
       - <span class="noun" lang="ja-Latn">Genji Karuta</span> (<span lang="ja">源氏かるた</span>)
     * <span class="noun" lang="ja-Latn">Iroha-garuta</span> (<span lang="ja">いろはかるた</span>, ‘alphabet cards’)
-3. [<span class="noun" lang="ja-Latn">Hanafuda</span>](/articles/cards/japan/hanafuda/) (<span
+3. {%a hanafuda,<span class="noun" lang="ja-Latn">Hanafuda</span>%} (<span
   lang="ja">花札</span>, ‘flower cards’) are derived from a combination of both
   the Portuguese and the matching-type cards.

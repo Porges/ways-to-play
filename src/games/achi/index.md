@@ -4,7 +4,7 @@ titleLang: ee
 players: 2
 ---
 
-<span class="noun" lang="ee">Achi</span> is a <a href="/articles/mill-games/">mill game</a>
+<span class="noun" lang="ee">Achi</span> is a {%a mill-games,mill game%}
 from West Africa, reportedly (in the 1920s) played in Ghana and by Yoruba people
 in Nigeria, where it is known as <span class="noun" lang="yo">Akidada</span>.[@Murray2 p. 43]
 
@@ -14,8 +14,7 @@ The game is very similar to Five Men’s Morris, but an additional form of mill 
 permitted, compared to the standard game. The game as reported below was
 recorded by [Kenneth
 Murray](https://en.wikipedia.org/wiki/Kenneth_Murray_(archaeologist)), son of
-[H. J. R. Murray](/articles/people/hjr-murray/) and Nigeria’s first surveyor of
-antiquities.
+{%a hjr-murray%} and Nigeria’s first surveyor of antiquities.
 
 It is possible that the name should really be transcribed <span
 lang="ee">adji</span>, the name of a plant ([<cite>Caesalpinia

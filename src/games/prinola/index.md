@@ -6,7 +6,7 @@ players:
     max: 100
 ---
 
-<p class="lead"><span lang="fil" class="noun">Prinola</span> is a <a href="/articles/staking-games/">simple staking game</a> that
+<p class="lead"><span lang="fil" class="noun">Prinola</span> is a {%a staking-games,simple staking game%} that
 used to be played in the Philippines. The name is derived from the Spanish <span
 lang="es">pirinola</span>, a spinning-top or teetotum.</p>
 

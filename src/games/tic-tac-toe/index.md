@@ -46,11 +46,11 @@ Games</cite>[@AlfonsoGames], published in 1283, includes the game <span
 lang="es">alquerque de tres</span> which is played on a small merels board with
 diagonals. Each player has three pawns which they place on the board one at a
 time, taking turns. If a player can form three in a line then they win;
-otherwise it is a tie. Later historians (even including [H. J. R.
-Murray](/articles/people/hjr-murray/)[@Murray2]) have muddied the waters by
-describing this game as a three-men’s-morris game where the pieces can be moved
-after being placed, but this is not supported by the original
-manuscript.[@DimensionsOfBookOfGames p. 609]
+otherwise it is a tie. Later historians (even including {%a
+hjr-murray%}[@Murray2]) have muddied the waters by describing this game as a
+three-men’s-morris game where the pieces can be moved after being placed, but
+this is not supported by the original manuscript.[@DimensionsOfBookOfGames p.
+609]
 
 {% image
   src="Alfonso_AdT.jpg",

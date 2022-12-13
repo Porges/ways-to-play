@@ -10,7 +10,7 @@ Money cards.
 Money cards are probably the oldest types of cards in the world, and from them
 are derived many other types of cards, probably including “standard” playing
 cards, as well as games like mahjong, along with more obvious descendants like
-[ceki cards](/articles/cards/ceki).
+{%a ceki%}.
 
 ### <span lang="zh-Latn-pinyin" class="noun">Lù Róng</span>’s “Water Margin” deck
 

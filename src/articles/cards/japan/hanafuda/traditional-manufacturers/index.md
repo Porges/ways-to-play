@@ -502,7 +502,7 @@ lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
   ‘imperial palace cherry blossoms’)
 * <span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)
 * <span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a
-  reference to [the <span lang="ja-Latn">waka</span> that appears on the pine
+  reference to the <span lang="ja-Latn">waka</span> that appears on the pine
   cards in some decks](/articles/cards/japan/hanafuda/art/#1))
 * <span lang="ja">丹頂</span> (<span lang="ja-Latn">tanchō</span>, ‘red-crested
   crane’, that appears on the pine bright)

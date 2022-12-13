@@ -3,10 +3,10 @@ title: Tri-Hex
 players: 2
 ---
 
-Tri-Hex is a [mill game](/articles/mill-games/) that was invented by T. H.
-O’Beirne in 1962. It was first described in an article in <cite>New
-Scientist</cite> magazine, and was derived by exploring alternate board
-configurations for {% gameref tic-tac-toe %}.[@TriHex]
+Tri-Hex is a {%a mill-games,mill game%} that was invented by T. H. O’Beirne in
+1962. It was first described in an article in <cite>New Scientist</cite>
+magazine, and was derived by exploring alternate board configurations for {%
+gameref tic-tac-toe %}.[@TriHex]
 
 <!-- excerpt -->
 

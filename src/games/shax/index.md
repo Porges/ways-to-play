@@ -4,10 +4,10 @@ players: 2
 ---
 
 {% pronounce word="Shax" file="pronunciation_so_shax.mp3" lang="so" noun=true
-pronouncer="ahmed_aw_abdi" %} is a [mill game](/articles/mill-games/)
-from Somalia. In central and southern regions of Somalia it is called <span
-lang="so">jare</span> (‘cut’).[@IntroductionToShax p. 1] Unlike most mill games,
-captures cannot be made during the placement phase.
+pronouncer="ahmed_aw_abdi" %} is a {%a mill-games,mill game%} from Somalia. In
+central and southern regions of Somalia it is called <span lang="so">jare</span>
+(‘cut’).[@IntroductionToShax p. 1] Unlike most mill games, captures cannot be
+made during the placement phase.
 
 <!-- excerpt -->
 

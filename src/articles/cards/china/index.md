@@ -38,7 +38,7 @@ several broad categories:
 * those derived from paper money:
   * Four-Suited money cards
   * Three-Suited money cards, also used in Thailand. Derived cards include:
-    * [Ceki cards](/articles/cards/ceki/) (Indonesia & Malaysia)
+    * {%a ceki,Ceki cards%} (Indonesia & Malaysia)
     * Mahjong
 * those that are numbered:
   * 3–5–7 cards

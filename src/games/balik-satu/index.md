@@ -26,7 +26,7 @@ hero:
     originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
 ---
 
-<p class="lead"><span class="noun" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with <a href="/articles/cards/ceki/">Cherki cards</a>. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</p>
+<p class="lead"><span class="noun" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with {%a ceki,Cherki cards%}. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</p>
 
 <!-- excerpt -->
 

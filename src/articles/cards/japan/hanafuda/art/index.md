@@ -973,9 +973,8 @@ Three cards showing the different backgrounds for each type of <span lang="ja-La
 
 In addition to the above, there are also many modern revisions or novelty decks
 that do not conform to any one of the traditional patterns. More information and
-examples of these can be found in the [article about new <span class="noun"
-lang="ja-Latn">Hanafuda</span>
-manufacturers](/articles/cards/japan/hanafuda/new-manufacturers/).
+examples of these can be found in the {%a new-manufacturers,article about new
+<span class="noun" lang="ja-Latn">Hanafuda</span> manufacturers%}.
 
 ## The Cards in Depth
 

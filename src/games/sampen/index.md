@@ -8,9 +8,8 @@ equipment: Playing cards (Ceki)
 ---
 
 <span lang="jav-Latn" class="noun">Sampèn</span> is a simple skill-free gambling
-game played in Java using [Ceki](/articles/cards/ceki/)
-cards.[@JavaanseKaartspelen p. 56–7] It is also described as being played in
-China.[@CardGamesAroundTheWorld p. 5]
+game played in Java using {%a ceki%}.[@JavaanseKaartspelen p. 56–7] It is also
+described as being played in China.[@CardGamesAroundTheWorld p. 5]
 
 <!-- excerpt -->
 

@@ -9,4 +9,4 @@ order: 100
 ## Examples
 
 - {% gameref fox-and-geese %} is the most typical version of this game.
-- {% gameref assault %} is a combination of a hunt game and an [attainment game](/articles/attainment-games).
+- {% gameref assault %} is a combination of a hunt game and an {%a attainment-games,attainment game%}.
