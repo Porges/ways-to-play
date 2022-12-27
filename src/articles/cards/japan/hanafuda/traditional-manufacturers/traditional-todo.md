@@ -11,7 +11,7 @@ draft: true
 - [ ] Kyoto Karuta (Kyoto)
 - [x] Tamura Shogundo (Kyoto)
 - [x] Kawakita (Kyoto)
-- [ ] 伊藤幸治商店 Ito Koji Shoten (Kyoto)
+- [x] 伊藤幸治商店 Ito Koji Shoten (Kyoto)
 - [x] 清英堂 Seieido (Kyoto)
 - [ ] 玉井大黒堂 Tamai Daikokudo (Osaka)
 - [x] マル芳 Maruho? (Osaka)

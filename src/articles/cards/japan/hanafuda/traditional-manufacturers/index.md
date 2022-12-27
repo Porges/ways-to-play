@@ -227,6 +227,10 @@ called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
         <td><img src='/small-images/maruyoshi.svg' class="inline-img big" alt="The Maruyoshi symbol" /></td>
         <td><a href="#maruyoshi"><span class="noun" lang="ja-Latn">Maruyoshi</span></a></td>
         </tr>
+        <tr>
+        <td>?</td>
+        <td><a href="#ito-koji-shoten"><span class="noun" lang="ja-Latn">Itō Kōji Shōten</span></a></td>
+        </tr>
     </tbody>
     </table>
 </div>
@@ -2305,6 +2309,12 @@ lang="ja">又</span> under a mountain.
 
 Based in <span class="noun" lang="ja-Latn">Ōsaka</span>, their mark was <span class="circled"
 lang="ja">芳</span> in a circle. I know of nothing else about this manufacturer.
+
+### <span class="noun" lang="ja-Latn">Itō Kōji Shōten</span> (<span lang="ja">伊藤幸治商店</span>)
+
+A <span class="noun" lang="ja-Latn">Kyōto</span> manufacturer, only has one deck that I know of:
+
+* <span lang="ja">近代花</span> (<span lang="ja-Latn">kindaibana</span>, ‘modern flowers’)
 
 ## Unknown
 
