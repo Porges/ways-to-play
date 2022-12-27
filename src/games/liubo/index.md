@@ -1,5 +1,6 @@
 ---
 title: Liubo
+originalTitle: <span lang="zh">六博</span>
 draft: true
 players: 2
 ---

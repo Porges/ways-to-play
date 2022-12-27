@@ -1,5 +1,6 @@
 ---
 title: Dots and Boxes
+originalTitle: <span lang="fr">La Pipopipette</span>
 players: 2
 draft: true
 equipment: Pencil and paper
