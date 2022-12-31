@@ -9520,5 +9520,25 @@
         "issued": 1857,
         "publisher": "T. W. Strong",
         "publisher-place": "New York"
+    },
+    "SocialHeat": {
+        "type": "article-journal",
+        "title": "The Moving Boundaries of Social Heat: Gambling in Rural China",
+        "container-title": "The Journal of the Royal Anthropological Institute",
+        "author": [
+            {
+                "given": "Hans",
+                "family": "Steinmüller",
+                "lang": "de"
+            }
+        ],
+        "issued": {
+            "year": 2011,
+            "month": 6
+        },
+        "volume": 17,
+        "issue": 2,
+        "URL": "http://www.jstor.org/stable/23011371",
+        "page": "263–280"
     }
 }
