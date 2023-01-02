@@ -16,7 +16,7 @@ function sortKey(r) {
 }
 
 // matches that in .eleventy.js - TODO extract
-const citeExtrator = /((?<!\w)@(?<id1>(_|[^\s\p{P}])+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>(_|[^\s\p{P}])+)(\s+(?<what2>[^\]]+))?\])/ug;
+const citeExtrator = /((?<!\w)@(?<id1>(_|[^\s\p{P}])+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>(_|[^\s\p{P}])+)(,?\s+(?<what2>[^\]]+))?\])/ug;
 
 function buildLookup(coll, refs) {
     for (const c of coll) {

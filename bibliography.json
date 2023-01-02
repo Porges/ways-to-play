@@ -1433,7 +1433,7 @@
     },
     "Hyde": {
         "type": "book",
-        "title": "De Ludis Orientalibus Libri Duo",
+        "title": "Historia Nerdiludii",
         "author": [
             {
                 "family": "Hyde",
@@ -1443,7 +1443,7 @@
         "issued": {
             "year": 1694
         },
-        "volume": 1,
+        "volume": "II of De Ludis Orientalibus",
         "publisher": "Oxford University Press",
         "publisher-place": "Oxford, UK",
         "URL": "https://books.google.com.au/books?id=FIFcAAAAcAAJ"
@@ -3180,6 +3180,7 @@
     "OnTheRulesForTheRoyalGameOfUr": {
         "type": "paper-conference",
         "title": "On the Rules for the Royal Game of Ur",
+        "URL": "https://archive.org/details/ancientboardgame0000unse/page/16",
         "author": [
             {
                 "given": "Irving L.",
@@ -3192,12 +3193,12 @@
         },
         "publisher-place": "London, UK",
         "page": "16–32",
-        "publisher": "British Museum Press",
-        "id": "OnTheRulesForTheRoyalGameOfUr"
+        "publisher": "British Museum Press"
     },
     "TheEgyptianGameOfTwentySquares": {
         "type": "paper-conference",
         "title": "The Egyptian ‘Game of Twenty Squares’",
+        "URL": "https://archive.org/details/ancientboardgame0000unse/page/69",
         "author": [
             {
                 "given": "Edgar B.",
@@ -3210,8 +3211,7 @@
         },
         "publisher-place": "London, UK",
         "page": "69–86",
-        "publisher": "British Museum Press",
-        "id": "TheEgyptianGameOfTwentySquares"
+        "publisher": "British Museum Press"
     },
     "DimensionsOfBookOfGames": {
         "type": "thesis",
@@ -3228,8 +3228,7 @@
         "publisher": "University of Arizona",
         "publisher-place": "Arizona, USA",
         "genre": "PhD thesis",
-        "URL": "https://www.ancientgames.org/wp-content/uploads/Los-libros-de-acedrex-dados-e-tablas-Historical-Artistic-and-Metaphysical-Dimensions-of-Alfonso-Xs-Book-of-Games-Sonja-Musser-Golladay-2007.pdf",
-        "id": "DimensionsOfBookOfGames"
+        "URL": "https://www.ancientgames.org/wp-content/uploads/Los-libros-de-acedrex-dados-e-tablas-Historical-Artistic-and-Metaphysical-Dimensions-of-Alfonso-Xs-Book-of-Games-Sonja-Musser-Golladay-2007.pdf"
     },
     "BookOfGames": {
         "type": "book",
@@ -3243,8 +3242,7 @@
         "issued": {
             "year": 2003
         },
-        "URL": "https://www.ancientgames.org/wp-content/uploads/Alfonso-Xs-Book-of-Games-Translated-by-Sonja-Musser-Golladay-2003.pdf",
-        "id": "BookOfGames"
+        "URL": "https://www.ancientgames.org/wp-content/uploads/Alfonso-Xs-Book-of-Games-Translated-by-Sonja-Musser-Golladay-2003.pdf"
     },
     "InfluenceAndPower": {
         "type": "chapter",
@@ -9540,5 +9538,23 @@
         "issue": 2,
         "URL": "http://www.jstor.org/stable/23011371",
         "page": "263–280"
+    },
+    "BriefHistoryOfBackgammon": {
+        "type": "paper-conference",
+        "title": "A Brief History of Backgammon and the Design of the Board",
+        "author": [
+            {
+                "given": "Malcolm J.",
+                "family": "Watkins"
+            }
+        ],
+        "page": "238–241",
+        "URL": "https://archive.org/details/ancientboardgame0000unse/page/238",
+        "container-title": "Ancient Board Games in Perspective",
+        "issued": {
+            "year": 2007
+        },
+        "publisher-place": "London, UK",
+        "publisher": "British Museum Press"
     }
 }

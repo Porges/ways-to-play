@@ -34,13 +34,6 @@ Ref: [@OxfordBG]
 
 Ref: [@OxfordBG, p. 74]
 
-### Eureika
-
-Ref: [@OxfordBG]
-
-### Doublets
-
-Ref: [@OxfordBG]
 
 ### [Los Doze Canes/Hermanos]{lang="es"}
 
@@ -165,17 +158,6 @@ Ref: [@OxfordBG; @NewRules, p. 165]
 #### Gioul (TODO: Turkish?)
 
 Ref: [@OxfordBG; @NewRules, p. 166]
-
-### Backgammon
-
-Ref: [@OxfordBG; @Falkener, p. 254; @Bell, p. 42]
-
-Variants:
-
-Duplicate Backgammon [@NewRules, p. 32]
-Chouettes [@NewRules, p. 162]
-Dutch Backgammon [@NewRules, p. 167]
-1000-point Backgammon [@NewRules, p. 167]
 
 #### [Quinze Tablas]{lang="es"}
 

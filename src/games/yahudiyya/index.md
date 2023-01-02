@@ -5,8 +5,9 @@ originalTitle: <span lang="ar">يهودية</span>
 draft: true
 ---
 
-Also transcribed <span lang="ar-Latn">Yahoudieh</span>, meaning “the Jewish woman”.
-
+<span lang="ar-Latn" class="noun">Yahūdiyya</span> (also transcribed <span
+lang="ar-Latn">Yahoudieh</span>, meaning “Jewish woman”), is a simple {%a
+table-games,table game %} for two players.
 
 See: @DimensionsOfBookOfGames.
 

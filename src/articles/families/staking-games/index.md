@@ -10,6 +10,7 @@ random method — dice, wheel, teetotum, card —  by the dealer or hous
 ## Games
 
 <ul class="columnar">
+<li>{% gameref belangkai %}</li>
 <li>{% gameref chuck-a-luck %}</li>
 <li>{% gameref crown-and-anchor %}</li>
 <li>{% gameref prinola %}</li>
