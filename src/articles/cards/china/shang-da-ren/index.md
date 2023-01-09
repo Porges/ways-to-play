@@ -4,13 +4,13 @@ titleLang: zh-Latn-pinyin
 originalTitle: <span lang="zh">上大人牌</span>
 ---
 
-<span lang="zh-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards (<span lang="zh">上
-大人牌</span>) are a type of {%a china, Chinese playing card %}. The deck is
+<span lang="zh-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards (<span lang="zh">上大人牌</span>)
+are a type of {%a china, Chinese playing card %}. The deck is
 constructed from a set of 24 cards, each one bearing a character from a
 traditional Chinese text that was used to practice calligraphy. A full deck
 contains multiple copies of each card; usually four, giving 96 cards total.
 
-The standard version of the text reads:[@SocialHeat p. 272]
+The standard version of the text can be interpreted loosely as:[@SocialHeat p. 272]
 
 <div class="multi">
 <p lang="zh">

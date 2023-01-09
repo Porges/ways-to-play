@@ -7,11 +7,13 @@ subgames:
 - title: Twelve Men’s Morris
 ---
 
+<p class="lead">
 Nine Men’s Morris is an ancient {%a mill-games,mill game %}
 dating at least from Roman times. It is the most prominent of all the mill
 games, played all around the world, but particularly in central European
 countries. Other variations of the game — such as {% gameref shax %} or {%
 gameref morabaraba %} — are also played in several African countries.
+</p>
 
 <!-- excerpt -->
 
@@ -129,22 +131,28 @@ One of the earliest written references to the game is in the 10th century [<cite
 lang="ar-Latn">Kitāb
 al-Aghānī</cite>](https://en.wikipedia.org/wiki/Kitab_al-Aghani) (<cite
 lang="ar">{% isolate "كتاب الأغاني" %}</cite>, ‘book of songs’), a large
-collection of poems and stories assembled by [<span class="noun" lang="ar-Latn">ʾAbū l-Faraj
+collection of poems and stories assembled by [<span class="noun"
+lang="ar-Latn">ʾAbū l-Faraj
 al-Iṣfahānī</span>](https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani)
 (<span lang="ar">{% isolate "أبو الفرج الأصفهاني" %}</span>, 897–967). One story
-describes a club from the time of the poet <span class="noun" lang="ar-Latn">al-Aḥwaṣ</span>
-(<span lang="ar">{% isolate "الأحوص" %}</span>, 660–724), along with the board
-games it held for the use of its members. According to the book, they could play
-<span lang="ar-Latn">shiṭranj</span> (<span lang="ar">{% isolate "شطرنج"
-%}</span>, chess), <span lang="ar-Latn">nard</span> (<span
-lang="ar">نرد</span>), or — most importantly here — <span
-lang="ar-Latn">qirq</span> (<span lang="ar">{% isolate 'قرق' %}</span>,
-morris).[@GamblingInIslam p. 481] The derivation of the name <span
-lang="ar-Latn">qirq</span> is uncertain, but it is apparently not originally an
-Arabic word.[@Murray2 p. 37] {%fn%}The Imam <span class="noun" lang="ar-Latn">ʾAbū al-Qāsim
-al-Rāfiʿī al-Qazwīnī</span> (<span lang="ar">{% isolate "أبو القاسم الرافعي القزويني" %}</span>, 1160–1226) would later describe <span
-lang="ar-Latn">qirq</span> as the “chess of the
-[Maghrebis](https://en.wikipedia.org/wiki/Maghrebis)”.[@GamblingInIslam p. 381]
+describes a club from the time of the poet <span class="noun"
+lang="ar-Latn">al-Aḥwaṣ</span> (<span lang="ar">{% isolate "الأحوص" %}</span>,
+660–724), along with the board games it held for the use of its members.
+According to the book, they could play <span lang="ar-Latn">shiṭranj</span>
+(<span lang="ar">{% isolate "شطرنج" %}</span>, chess), <span
+lang="ar-Latn">nard</span> (<span lang="ar">نرد</span>), or — most importantly
+here — <span lang="ar-Latn">qirq</span> (<span lang="ar">{% isolate 'قرق'
+%}</span>, morris).[@GamblingInIslam p. 481] The derivation of the name <span
+lang="ar-Latn">qirq</span> (<span lang="ar">قِرْقٌ</span>) is uncertain,{%fn%}It may also be related to the
+Geʽez word <span lang="gez">ቀርቂስ</span>[@LexiconLinguaeAethiopicae pp. 424–5]
+(<span lang="gez-Latn">qarqis</span>), referring to various games,[@ComparativeGeez p. 443] or the
+(Ottoman) Turkish <span lang="ota">قرق</span>/<span lang="tr">kırk</span> ‘forty
+(=many)’.[@DictionnaireTurcFrançais2 p. 989]{%endfn%} but it is apparently not
+originally an Arabic word.[@Murray2 p. 37]{%fn%}The Imam <span class="noun"
+lang="ar-Latn">ʾAbū al-Qāsim al-Rāfiʿī al-Qazwīnī</span> (<span lang="ar">{%
+isolate "أبو القاسم الرافعي القزويني" %}</span>, 1160–1226) would later describe
+<span lang="ar-Latn">qirq</span> as the “chess of the
+[Maghrebis”.](https://en.wikipedia.org/wiki/Maghrebis)[@GamblingInIslam p. 381]
 Similarly, {% gameref shax %} is sometimes referred to as “Somali
 chess”.{%endfn%}
 
@@ -152,7 +160,7 @@ Later, <span class="noun" lang="fa-Latn">Faīrūzābādī</span> (of whom, more 
 identify <span lang="ar-Latn">qirq</span> with <span
 lang="ar-Latn">suddar</span> (<span lang="ar">سُدَّر</span>), apparently derived
 from the Persian <span lang="fa-Latn">se darre</span> (<span lang="fa">سِهْ
-دَرَهْ</span>), meaning ‘three valleys’.[@Hyde pp. 207–9] However, in other
+دَرَهْ</span>), meaning ‘three valleys’.[@Hyde2 pp. 207–9] However, in other
 dictionaries <span lang="ar-Latn">suddar</span> is identified with other games
 such as <span lang="ar-Latn">aṭ-ṭabanu</span> (<span
 lang="ar">الطَّبَنُ</span>), which is known as a different game today (modern
@@ -392,13 +400,13 @@ Other English names for the game have included:
 <div class="columnar">
 
 * Blind Men’s Morris (Leicestershire[@PegMeryll p. 130])
-* Bushels[@Hyde p. 204]
+* Bushels[@Hyde2 p. 204]
 * Buttons (played on a slate with buttons in 1890s New Zealand[@GamesOfNewZealandChildren p. 151])
 * Figmill (in Clarence, New York, USA)[@Figmill] (This name derives from an American manufacturer of equipment, but originally might derive from [the Swiss term <span lang="gsw">«Figgi und Müli»</span>](/articles/mill-games/#terminology).)
 * Morris (Cornwall[@PegMeryll p. 130])
 * Madell or Medal[@NotesAndQueriesS8V12 p. 333]
 * Marl (Wiltshire[@PegMeryll p. 130])
-* Marlin[@Hyde p. 204]
+* Marlin[@Hyde2 p. 204]
 * Marrel(’s)[@GommeI p. 416] or Marrells[@NotesAndQueriesS8V12 p. 173]
 * Marnull[@NotesAndQueriesS8V12 p. 28]
 * Maurice or Morrice (Norfolk[@PegMeryll p. 130])
@@ -413,30 +421,50 @@ Other English names for the game have included:
 * Murrells (Cambridgeshire[@PegMeryll p. 130])
 * Ninepenny[@PegMeryll p. 130] or Ninepenny Morris (in Gloucestershire – but played with 12 men)[@GommeI p. 416]
 * Nine Holes (North of England[@PegMeryll p. 130])
-* Nine Mens Morals[@Hyde p. 204]
+* Nine Mens Morals[@Hyde2 p. 204]
 * Nine Men’s Morrice (in Hampshire or Holderness[@GommeI p. 419])
 * Nine Men o’ Morris[@NotesAndQueriesS8V12 p. 89]
 * Nine Men’s Welcome[@PubGamesOfEngland p. 103]
 * Nine Peg O Merryal (North Lincolnshire[@PegMeryll p. 130])
-* Nine Pin/Penny Miracle[@Hyde p. 204][@PegMeryll p. 130]
-* Nine Pin/Penny Moris[@Hyde p. 204]
-* Nine Pin Merells[@Hyde p. 204]
+* Nine Pin/Penny Miracle[@Hyde2 p. 204][@PegMeryll p. 130]
+* Nine Pin/Penny Moris[@Hyde2 p. 204]
+* Nine Pin Merells[@Hyde2 p. 204]
 * (Nine) Peg Morris (by John Clare, a rustic English poet)[@GommeI p. 416]
 * Nine Stone Morris[@NotesAndQueriesS8V12 p. 89]
 * Peg Meryll (played in Hargrave with 11 men, and ‘flying’ at 5 men[@PegMeryll p. 133]) or Merrilpeg[@GommeI p. 416]
 * Puzzle-Pound[@NotesAndQueriesS8V12 p. 333]
+* Study, in the north of England[@TipcatAndOtherChineseGames]
 
 </div>
 
 In other languages it has been called:
 
-* Bengali: <span lang="bn">ন গুটি</span> (<span lang="bn-Latn">nô guṭi</span>) ‘nine beads’
-* Chinese: <span lang="zh">三棋</span> (Mandarin: <span lang="zh-Latn-pinyin">sān qí</span>) ‘three game’[@KoreanGames p. 102]
+* Bengali: <span lang="bn">ন গুটি</span> (<span lang="bn-Latn">nô guṭi</span>)
+  ‘nine beads’, or <span lang="bn">পাইত(-পাইত)</span> (<span
+  lang="bn-Latn">paite(-paite)</span>) ‘get(-ting)’[@FolkGamePait]
+* Chinese: <span lang="zh">三棋</span> (Mandarin: <span
+  lang="zh-Latn-pinyin">sān qí</span>) ‘three game’[@KoreanGames p. 102], <span
+  lang="zh">捉三</span> (Cantonese: <span lang="yue-Latn-jyutping">zuk1
+  saam1</span>; Mandarin: <span lang="zh-Latn-pinyin">zhuō sān</span>) ‘catching
+  three’[@TipcatAndOtherChineseGames]
 * French: <span lang="fr">le jeu du moulin</span> ‘the mill game’
-* Greek: <span lang="el">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="el">τριώδιον</span> ‘triodium’.[@Hyde p. 205]
-* German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span lang="de">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. --> In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de">Fickmül</span>.{%fn%}See {%a rabelais,the Gargantua article%} for more about Fischart’s list.{%endfn%}
-* Korean: <span lang="ko">곤질(고누)</span> (<span lang="ko-Latn">gonjil-gonu</span>){%fn%}Given as <span lang="ko-Latn">kon-tjil</span> in older books.[@KoreanGames p. 102]{%endfn%}
-* Ottoman Turkish: <span lang="ota">طقوز طاش</span> (<span lang="ota-Latn">dokuz taş</span>) ‘nine stone’[@Hyde p. 206]
+* Greek: <span lang="el">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or
+  <span lang="el">τριώδιον</span> ‘triodium’.[@Hyde2 p. 205]
+* German: <span lang="de">Neunstein</span> ‘nine stone’ or simply <span
+  lang="de">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league,
+  the “<span class="noun" lang="de">[Weltmühlespiel
+  Dachverband](http://www.muehlespiel.eu/)</span>”. --> In 1575 [Johann
+  Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his
+  version of <cite>Gargantua</cite> as <span lang="de">Fickmül</span>.{%fn%}See
+  {%a rabelais,the Gargantua article%} for more about Fischart’s list.{%endfn%}
+* Korean: <span lang="ko">곤질(고누)</span> (<span
+  lang="ko-Latn">gonjil-gonu</span>){%fn%}Given as <span
+  lang="ko-Latn">kon-tjil</span> in older books.[@KoreanGames p. 102]{%endfn%}
+* [Mono](https://en.wikipedia.org/wiki/Mono_language_(California)): <span
+  lang="mnr">yakamaido</span> ‘square game’[@CulinNorthAmericanIndians p. 796]
+* Ottoman Turkish: <span lang="ota">طقوز طاش</span> (<span lang="ota-Latn">dokuz
+  taş</span>) ‘nine stone’, or <span lang="ota">دقورجین</span> (<span
+  lang="ota-Latn">dokurġin</span>) [something to do with nine?][@Hyde2 p. 206]
 * Swiss: <span lang="gsw">Nüünischtei</span>.[@MundartLexikon]
 * Urdu: <span lang="ur">نو گوٹی</span> (<span lang="ur-Latn">nau guṭī</span>) ‘nine pieces’[@GuptaD p. 145]
 

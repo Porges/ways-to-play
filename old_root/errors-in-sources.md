@@ -2,7 +2,7 @@
 
 ### [@Bell]
 
-* Page 92: Claims that @Hyde states that “Luk tsut K’i” was played in the time
+* Page 92: Claims that @Hyde2 states that “Luk tsut K’i” was played in the time
   of Confucius. However, Hyde does not mention this game—he discusses “Che Lo”.
 
 

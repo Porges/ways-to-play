@@ -2,6 +2,10 @@
 title: Three Men’s Morris
 draft: true
 players: 2
+subgames:
+- title: Circular Three Men’s Morris
+- title: X-ceter-O
+- title: Chung Toi
 ---
 
 <p class="lead">
@@ -17,20 +21,54 @@ players.
 The game is played on the small mill board with diagonals.
 {%imageEnd%}
 
-Each player has three pieces, in contrasting colours.
+Each player has three pieces, in contrasting colours. The aim of the game is to
+arrange all of one’s pieces in a line, either horizontally, vertically or
+diagonally. The first player to do this wins.
 
 There are two ways to begin the game: either players take turns placing a piece
 on one of the empty points, or the pieces are lined up on two opposite sides of
-the board.
+the board. If played with the pieces on the board at the start, then a player
+cannot win by lining their pieces up in their original position.
 
 Starting the game by playing to the centre of the board is a forced win for the
 first player, so usually this move is banned.[@WinningWaysV3 p. 737]
 
-After placing all their pieces, the players then take turns moving a piece from
-one point to another. The first player to get three pieces in a line (aside from
-on their starting locations, if using the pre-placed opening) wins.
+After placing all their pieces, if no one has already won the game, the players
+then take turns moving a piece from one point to another.
 
-## History and Nomenclature
+## History & Nomenclature
+
+Three Men’s Morris has also been called “Ovid’s Game”, based on its similarity
+to a game that is alluded to in Ovid’s [<cite lang="la">Ars
+Amatoria</cite>](https://en.wikipedia.org/wiki/Ars_Amatoria).[@WinningWaysV3 p.
+736]
+
+A game that appears to be Three Men’s Morris appears in {%a alfonso-x, Alfonso
+X’s <cite>Book of Games</cite>%} under the name <span lang="es">Alquerque de
+Tres</span>; however, this is in fact equivalent to {%gameref tic-tac-toe%},
+since the game described there does not permit movement after the pieces have
+been placed.[@DimensionsOfBookOfGames p. 600]  In modern Spanish the game is
+called <span lang="es">tres en raya</span> ‘three in a line’, <span
+lang="es">castro</span> ‘fort’, or <span lang="es">pedrería</span> ‘little
+stones’.[@Murray2 p. 41] In Catalan it is apparently called <span
+lang="ca">marro</span> [@ElAjedrez p. 204].
+
+Writing in 1694,[@Hyde2 p. 211] Thomas Hyde said that it was called “Che-Lo” in
+Chinese (i.e. <span lang="zh-Hant">直六</span> Mandarin: <span
+lang="zh-Latn-pinyin">zhí liù</span> ‘straight six’), and “Hugjurè” in Persian
+(<span lang="fa">هجوره</span>, probably not a native Persian word?), but he also
+stated that each player has 6 pieces.
+
+In Italy it has been called <span lang="it">riga de tre</span> ‘line of
+three’,[@IlGiocoDeGliScacchi p. 35] <span lang="it">smerelli</span>, <span
+lang="it">mulino</span>, <span lang="it">semplice mulinello</span>, <span
+lang="it">filo</span>, <span lang="it">filetto</span>, or <span
+lang="it">tavoletta</span>.[@Murray2 p. 41]
+
+The name Three Men’s Morris seems to be a modern invention, based on the name {%
+gameref nine-mens-morris %}. In the past it was known by other names in England,
+such as “Knockings In and Out”.[@NotesOnTheAbbey p.
+20][@OnTheIndoorGamesOfSchoolBoys p. 321] 
 
 As evidenced by the many boards carved into stone walls and seats in cathedrals
 and monasteries, the game was played in England over a long period — {%a
@@ -41,63 +79,57 @@ in England; English visitors to Ireland during this period describe it as an
 Irish game.
 
 In 19th century Ireland, it was described as ‘universally’ played by the
-peasantry and named <span lang="ga">caisleáin gearr</span>{%fn%}Hyde[@Hyde p.
+peasantry and named <span lang="ga">caisleáin gearr</span>{%fn%}Hyde[@Hyde2 p.
 211] wrote this as “cashlan gherra”.{%endfn%} ‘short castle’,[@CrokerCrofton p.
 171] or ‘top castle’.[@GentlemansMagazineLibrary p. 257] Other old names in the
 United Kingdom come from areas such as Galloway (‘corsi-crown’)[@Gallovidian p.
-142] and Cumberland (‘copped-crown’).[@Hyde p. 211]
+142] and Cumberland (‘copped-crown’).[@Hyde2 p. 211]
 
-The name Three Men’s Morris seems to be a modern invention, based on the name {%
-gameref nine-mens-morris %}. In the past it was known by other names in England,
-such as “Knockings In and Out”.[@NotesOnTheAbbey p.
-20][@OnTheIndoorGamesOfSchoolBoys p. 321] It has also been called “Ovid’s Game”,
-based on its similarity to a game that is vaguely described in Ovid’s [<cite
-lang="la">Ars
-Amatoria</cite>](https://en.wikipedia.org/wiki/Ars_Amatoria).[@WinningWaysV3 p.
-736]
+Murray also claims that a distinct game called ‘Nine Holes’ existed,[@Murray2]
+but I don’t believe that it was a separate game to Three Men’s Morris, as all
+the references seem to track back to a single entry in Robert Nares’
+<cite>Glossary</cite>.[@NaresGlossary p. 345] To me, it is the same game only
+played on a board that doesn’t show any lines.
 
-Murray[@Murray2] claims that a distinct game called ‘Nine Holes’
-existed, but I don’t believe that it was a separate game to Three Men’s Morris,
-as all the references seem to track back to a single entry in Robert Nares’
-<cite>Glossary</cite>.[@NaresGlossary p. 345]
+In Arabic it has been called <span lang="ar">دريس اثلاثة</span> (<span
+lang="ar-Latn">drīs ath-thalātha</span>).[@ReizeNaarArabie p. 166][@Murray2 p. 41]
 
-Writing in 1694,[@Hyde p. 211] Hyde said it (or the variant where 3 pieces line
-up on each side to begin with) was called “Che-Lo” in Chinese (i.e.  <span
-lang="zh-Hant">直六</span> <span lang="cmn-Latn">zhí liù</span> ‘straight six’),
-“Hugjurè” in Persian (probably <span lang="fa">هجوره</span> (“his majesty”?),
-but he also said that each player has 6 pieces).
-
-In other parts of the world, it is known as Tapatan in the Philippines, or <span
-lang="yue-Hans-HK">六卒棋</span> (<span lang="yue-Latn-jyutping">luk6
-zeot1 kei4</span> ‘six man game’) in southern
+The game is known as <span lang="fil" class="noun">Tapatan</span> in the
+Philippines,[@Zaslavsky p. 6] or <span lang="yue-Hans-HK">六卒棋</span> (<span
+lang="yue-Latn-jyutping">luk6 zeot1 kei4</span> ‘six man game’) in southern
 China.[@CulinPhilippine p. 648]{%fn%}Note that @Bell confuses its sources here
 and claims that Hyde states that “Luk Tsut K’i” was played in the time of
-Confucius.{%endfn%}
+Confucius.{%endfn%} In Bengal, it has been called <span lang="bn">তাঁত
+ফাঁত</span> <span lang="bn-Latn">tant-fant</span>[@Datta, p. 167]
+(‘loom-[foom]’, possibly meaning something like weaving?) or <span lang="bn">তিন
+গুটি পাইত পাইত</span> (<span lang="bn-Latn">tin-guṭi paite-paite</span>,
+‘getting three pieces’), and is played with the pieces starting on the board.
 
-In Bengal the game has been called <span lang="bn">তাঁত ফাঁত</span> <span
-lang="bn-Latn">Tant Fant</span>[@Datta, p. 167] (possibly meaning something like
-‘[Loom-Schmoom](https://en.wikipedia.org/wiki/Shm-reduplication)’) or <span
-lang="bn">তিন গুটি পাইত পাইত</span> (<span lang="bn-Latn">tin-guṭi pait
-pait</span>, ‘getting(?) three pieces’). It is played with diagonals and
-lined-up setup.
+It is also played across Africa: in Madagascar it is called <span
+lang="mg">fanorona telo</span> ‘three-{%gameref fanorona%}’;[@Murray2 p. 42] in
+Nigeria ([Urhobo](https://en.wikipedia.org/wiki/Urhobo_language)) <span
+lang="urh">epelle</span>;[@Murray2 p. 42] and in Somaliland <span
+lang="so">carabawg</span>.[@Murray2 p. 42]{%fn%}Is this name possibly the same
+as <span lang="so">kubbad</span>[@SomaliEnglishThesaurus p. 99]/<span
+lang="so">kurobodo</span>[@SomaliEnglishDictionary p. 87]/<span
+lang="so">koruböddo</span>/<span lang="so">korkaböd</span>[@SomaliGames p.
+506]?{%endfn%}
 
-To write up: Tapatan, Picaria.
+The game is also sometimes called Hopscotch, in @MathematicalRecreationsMaurice
+[p. 290], but I think that name is better reserved for {%gameref picaria%}.{%fn%}As in
+@WinningWaysV3 [p. 737].{%endfn%}
 
-See also: Picaria in @Zaslavsky, @TicTacToe.
-
-Also called (with diagonals) Hopscotch, in @MathematicalRecreationsMaurice [p.
-290], but I think that name is better reserved for Picaria.
-
-## To Check
+<!-- To Check
 * Terni Lapilli
 * Three Men’s Marriage
+-->
 
 ## Variants
 
 ### Circular Three Men’s Morris
 
 In this version the game is played on a circular board with ‘spokes’, meaning
-that mills can only be made across the center point. @Zaslavsky [p. 4–5] calls
+that mills can only be made across the center point. Zaslavsky [@Zaslavsky p. 4–5] calls
 it Shisima, and says it is played in Kenya.{%fn%}The original reference for this
 seems to be <cite>African Games of Strategy: A teaching manual</cite> by Louise
 Crane, but I haven’t been able to view this work.{%endfn%} It has also been
@@ -137,3 +169,6 @@ General references are: @OxfordBG [p. 116], @Bell [p. 91], and @Murray2 [p. 41].
 
 {% gameref achi %} is often mis-described as a three-men’s-morris game (e.g. in
 @TicTacToe), based on a misreading of the description in @Murray2.
+
+{% gameref picaria %} is the same game played with additional diagonals on the
+board.

@@ -31,6 +31,8 @@ See: @FriendshipAndGamesItalian, @OneToZero [p. 67–70].
 https://www.britishmuseum.org/collection/object/P_1949-0203-263
 https://www.britishmuseum.org/collection/object/P_1865-0610-1320
 
+Called "Chai-mui" in China[@TipcatAndOtherChineseGames]
+
 ## Strategy
 
 Optimal strategy was calculated by [Merill M.

@@ -98,3 +98,7 @@ https://archive.org/details/b29326072_0001/page/347/mode/2up
 https://archive.org/details/b29326072_0002/page/333/mode/2up?q=handkerchief
 
 Also [@ShropshireFolklore3 p. 512]
+
+---
+
+Called Kebeto in Ethiopia https://allaboutethio.com/10-best-ethiopian-traditional-sports-games.html

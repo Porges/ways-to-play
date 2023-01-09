@@ -36,7 +36,11 @@ cultures and other times.
 
 > In order to form a just estimation of the character of any particular people,
 > it is absolutely necessary to investigate the sports and pastimes most
-> generally prevalent among them. — @Strutt
+> generally prevalent among them. — Joseph Strutt[@Strutt]
+
+> A revolution can destroy cathedrals, but I cannot see how it will deter
+> children from playing with marbles. — Marcel Griaule (as translated in
+> @EldersCathedrals [p. 191])
 
 ## A note on languages…
 

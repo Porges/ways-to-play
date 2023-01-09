@@ -3,11 +3,15 @@ title: Shax
 players: 2
 ---
 
+<p class="lead">
 {% pronounce word="Shax" file="pronunciation_so_shax.mp3" lang="so" noun=true
-pronouncer="ahmed_aw_abdi" %} is a {%a mill-games,mill game%} from Somalia. In
-central and southern regions of Somalia it is called <span lang="so">jare</span>
-(‘cut’).[@IntroductionToShax p. 1] Unlike most mill games, captures cannot be
-made during the placement phase.
+pronouncer="ahmed_aw_abdi" %}{%fn%}The name is also transcribed with different
+letters for the sound /ħ/, such as <span lang="so">shah</span>, <span
+lang="so">shahh</span>, or <span lang="so">shaḥ</span>.{%endfn%} is a {%a
+mill-games,mill game%} from Somalia. In central and southern regions of Somalia
+it is called <span lang="so">jare</span> (‘cut’).[@IntroductionToShax p. 1]
+Unlike most mill games, captures cannot be made during the placement phase.
+</p>
 
 <!-- excerpt -->
 

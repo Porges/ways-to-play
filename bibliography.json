@@ -1431,9 +1431,11 @@
         },
         "URL": "https://archive.org/details/macedonianfolklo00abborich"
     },
-    "Hyde": {
+    "Hyde1": {
         "type": "book",
-        "title": "Historia Nerdiludii",
+        "title": "De Ludis Orientalibus Libri Duo",
+        "title-lang": "la",
+        "volume": "1: Mandragorias, Seu Historia Shahiludii",
         "author": [
             {
                 "family": "Hyde",
@@ -1443,10 +1445,29 @@
         "issued": {
             "year": 1694
         },
-        "volume": "II of De Ludis Orientalibus",
-        "publisher": "Oxford University Press",
+        "publisher": "E Theatro Sheldoniano",
+        "publisher-lang": "la",
         "publisher-place": "Oxford, UK",
-        "URL": "https://books.google.com.au/books?id=FIFcAAAAcAAJ"
+        "URL": "https://books.google.co.nz/books?id=3LBAAAAAcAAJ"
+    },
+    "Hyde2": {
+        "type": "book",
+        "title": "De Ludis Orientalibus Libri Duo",
+        "title-lang": "la",
+        "volume": "2: Historia Nerdiludii",
+        "author": [
+            {
+                "family": "Hyde",
+                "given": "Thomas"
+            }
+        ],
+        "issued": {
+            "year": 1694
+        },
+        "publisher": "E Theatro Sheldoniano",
+        "publisher-lang": "la",
+        "publisher-place": "Oxford, UK",
+        "URL": "https://books.google.co.nz/books?id=8rBAAAAAcAAJ"
     },
     "Fiske": {
         "type": "book",
@@ -9556,5 +9577,223 @@
         },
         "publisher-place": "London, UK",
         "publisher": "British Museum Press"
+    },
+    "CulinNorthAmericanIndians": {
+        "type": "book",
+        "title": "Games of the North American Indians",
+        "author": [
+            {
+                "given": "Stewart",
+                "family": "Culin"
+            }
+        ],
+        "URL": "https://archive.org/details/gamesofnorthamer00culirich",
+        "issued": 1907
+    },
+    "ElAjedrez": {
+        "type": "book",
+        "title": "El Ajedrez: Investigaciones sobre su origen",
+        "title-lang": "es",
+        "author": [
+            {
+                "family": "Brunet y Bellet",
+                "given": "D. José",
+                "lang": "es"
+            }
+        ],
+        "publisher": "L’Avens",
+        "publisher-place": "Barcelona",
+        "issued": 1890,
+        "URL": "https://archive.org/details/elajedrezinvest00bellgoog"
+    },
+    "IlGiocoDeGliScacchi": {
+        "type": "book",
+        "URL": "https://archive.org/details/bub_gb_-fRYAAAAYAAJ",
+        "title": "Il Gioco De Gli Scacchi",
+        "title-lang": "it",
+        "author": [
+            {
+                "given": "Pietro",
+                "family": "Carrera",
+                "lang": "it"
+            }
+        ],
+        "issued": 1617,
+        "publisher-place": "Militello",
+        "publisher": "Giovanni Rosso"
+    },
+    "ReizeNaarArabie": {
+        "type": "book",
+        "URL": "https://archive.org/details/reizenaararabie1nieb",
+        "title": "Reize naar Arabië: en andere omliggende landen",
+        "title-lang": "nl",
+        "author": [
+            {
+                "given": "Carsten",
+                "family": "Niebuhr",
+                "lang": "nl"
+            }
+        ],
+        "issued": 1776,
+        "publisher-place": "Amsterdam & Utrecht"
+    },
+    "TipcatAndOtherChineseGames": {
+        "type": "article-journal",
+        "title": "Tipcat, and Other Chinese Games",
+        "URL": "https://books.google.co.nz/books?id=VXtFAQAAMAAJ&pg=PA125",
+        "page": "125–128",
+        "container-title": "Notes and Queries on China and Japan",
+        "volume": 4,
+        "issued": 1870,
+        "author": [
+            {
+                "given": "Alfred",
+                "family": "Lister"
+            }
+        ]
+    },
+    "FolkGamePait": {
+        "type": "webpage",
+        "title": "লৌকিক খেলা - পাইত | Folk game - pait",
+        "container-title": "YouTube",
+        "URL": "https://www.youtube.com/watch?v=vF1EONRU18w",
+        "issued": {
+            "year": 2018,
+            "month": 10,
+            "day": 14
+        },
+        "author": [
+            {
+                "given": "Shabbir Ahmmed",
+                "family": "Tarafder"
+            }
+        ]
+    },
+    "EldersCathedrals": {
+        "type": "chapter",
+        "title": "Elders’ Cathedrals and Children’s Marbles: Dynamics of Religious Transmission among the Baga of Guinea",
+        "author": [
+            {
+                "given": "Ramon",
+                "family": "Sarró"
+            }
+        ],
+        "container-title": "On the Margins of Religion",
+        "pages": "187–204",
+        "ISBN": "9781845454098",
+        "issued": 2008,
+        "publisher": "Berghahn Books",
+        "publisher-place": "New York",
+        "editor": [
+            {
+                "family": "Pine",
+                "given": "Frances"
+            },
+            {
+                "family": "de Pina-Cabral",
+                "given": "João"
+            }
+        ]
+    },
+    "SomaliEnglishDictionary": {
+        "type": "book",
+        "title": "Somali-English and English-Somali dictionary",
+        "issued": 1897,
+        "publisher": "Kegan Paul, Trench, Trübner & Co.",
+        "publisher-place": "London",
+        "URL": "https://archive.org/details/cu31924026888820",
+        "author": [
+            {
+                "given": "Évangéliste",
+                "family": "de Larajasse"
+            }
+        ]
+    },
+    "SomaliEnglishThesaurus": {
+        "type": "book",
+        "title": "English – Somali Dictionary & Thesaurus / Qaamuus iyo ‘Tesooras’ Ingiriisi – Soomaali",
+        "issued": 1997,
+        "publisher-place": "London",
+        "publisher": "HAAN Associates",
+        "ISBN": "1874209022",
+        "URL": "https://archive.org/details/englishsomalidic00haan"
+    },
+    "DictionnaireTurcFrançais2": {
+        "type": "book",
+        "title": "Dictionnaire Turc-Français",
+        "title-lang": "fr",
+        "volume": 2,
+        "issued": 1867,
+        "URL": "https://archive.org/details/mallouf-dictionnaire-turc-francais-1863-67-volume-1-2",
+        "author": [
+            {
+                "given": "Nassif",
+                "family": "Mallouf"
+            }
+        ],
+        "publisher": "Maisonneuve et Cie",
+        "publisher-place": "Paris"
+    },
+    "LexiconLinguaeAethiopicae": {
+        "type": "book",
+        "title": "Lexicon Linguae Aethiopicae",
+        "title-lang": "la",
+        "volume": 1,
+        "issued": 1862,
+        "author": [
+            {
+                "given": "Augusto",
+                "family": "Dillmann",
+                "lang": "de"
+            }
+        ],
+        "publisher": "T. O. Weigel",
+        "publisher-place": "Leipzig, Germany",
+        "URL": "https://books.google.co.nz/books?id=aitRAAAAcAAJ"
+    },
+    "ComparativeGeez": {
+        "type": "book",
+        "URL": "https://archive.org/details/leslau-comparative-dictionary-of-geez-1987",
+        "title": "Comparative Dictionary of Geʽez",
+        "author": [
+            {
+                "given": "Wolf",
+                "family": "Leslau"
+            }
+        ],
+        "issued": 1987,
+        "publisher": "Otto Harrassowitz",
+        "publisher-place": "Wiesbaden",
+        "ISBN": "3447025921"
+    },
+    "AmharicEnglish2": {
+        "type": "book",
+        "title": "Amharic-English Dictionary",
+        "author": [
+            {
+                "given": "Thomas Leiper",
+                "family": "Kane"
+            }
+        ],
+        "issued": 1990,
+        "volume": 2,
+        "publisher": "Otto Harrassowitz",
+        "publisher-place": "Wiesbaden",
+        "ISBN": "3447028718"
+    },
+    "AmharicEnglish1": {
+        "type": "book",
+        "title": "Amharic-English Dictionary",
+        "author": [
+            {
+                "given": "Thomas Leiper",
+                "family": "Kane"
+            }
+        ],
+        "issued": 1990,
+        "volume": 1,
+        "publisher": "Otto Harrassowitz",
+        "publisher-place": "Wiesbaden",
+        "ISBN": "3447028718"
     }
 }

@@ -32,7 +32,7 @@ listed as equivalent to three-men’s-morris; it is actually equivalent to nough
 <strong>§3.3.11</strong> (p. 41): <strong>Tin-guti pait pait</strong> is not in
 the reference cited (@Humphries), but it is in @Datta.
 
-<strong>§3.3.13</strong> (p. 42): Hyde[@Hyde p. 211] writes <ins>Che-lo</ins>,
+<strong>§3.3.13</strong> (p. 42): Hyde[@Hyde2 p. 211] writes <ins>Che-lo</ins>,
 not <del>lo che</del>.
 
 <strong>§3.5</strong> (p. 45): <del>a3, b1, c3, and b3, b6 being empty</del>
