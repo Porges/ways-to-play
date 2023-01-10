@@ -1,6 +1,5 @@
 ---
 title: Three Men’s Morris
-draft: true
 players: 2
 subgames:
 - title: Circular Three Men’s Morris
@@ -40,30 +39,8 @@ then take turns moving a piece from one point to another.
 
 Three Men’s Morris has also been called “Ovid’s Game”, based on its similarity
 to a game that is alluded to in Ovid’s [<cite lang="la">Ars
-Amatoria</cite>](https://en.wikipedia.org/wiki/Ars_Amatoria).[@WinningWaysV3 p.
+Amatoria</cite>.](https://en.wikipedia.org/wiki/Ars_Amatoria)[@WinningWaysV3 p.
 736]
-
-A game that appears to be Three Men’s Morris appears in {%a alfonso-x, Alfonso
-X’s <cite>Book of Games</cite>%} under the name <span lang="es">Alquerque de
-Tres</span>; however, this is in fact equivalent to {%gameref tic-tac-toe%},
-since the game described there does not permit movement after the pieces have
-been placed.[@DimensionsOfBookOfGames p. 600]  In modern Spanish the game is
-called <span lang="es">tres en raya</span> ‘three in a line’, <span
-lang="es">castro</span> ‘fort’, or <span lang="es">pedrería</span> ‘little
-stones’.[@Murray2 p. 41] In Catalan it is apparently called <span
-lang="ca">marro</span> [@ElAjedrez p. 204].
-
-Writing in 1694,[@Hyde2 p. 211] Thomas Hyde said that it was called “Che-Lo” in
-Chinese (i.e. <span lang="zh-Hant">直六</span> Mandarin: <span
-lang="zh-Latn-pinyin">zhí liù</span> ‘straight six’), and “Hugjurè” in Persian
-(<span lang="fa">هجوره</span>, probably not a native Persian word?), but he also
-stated that each player has 6 pieces.
-
-In Italy it has been called <span lang="it">riga de tre</span> ‘line of
-three’,[@IlGiocoDeGliScacchi p. 35] <span lang="it">smerelli</span>, <span
-lang="it">mulino</span>, <span lang="it">semplice mulinello</span>, <span
-lang="it">filo</span>, <span lang="it">filetto</span>, or <span
-lang="it">tavoletta</span>.[@Murray2 p. 41]
 
 The name Three Men’s Morris seems to be a modern invention, based on the name {%
 gameref nine-mens-morris %}. In the past it was known by other names in England,
@@ -89,10 +66,34 @@ Murray also claims that a distinct game called ‘Nine Holes’ existed,[@Murray
 but I don’t believe that it was a separate game to Three Men’s Morris, as all
 the references seem to track back to a single entry in Robert Nares’
 <cite>Glossary</cite>.[@NaresGlossary p. 345] To me, it is the same game only
-played on a board that doesn’t show any lines.
+played on a board that doesn’t show any lines. In any case, it is recorded as
+being played on the Isle of Man in 1674, when a man was
+ [presented](https://en.wikipedia.org/wiki/Presentment) in
+[Malew](https://en.wikipedia.org/wiki/Malew) for “playing nine holes on Easter
+day before evening prayers”,[@Rothwell1674] and again in 1699 when two men were
+presented in [Lezayre](https://en.wikipedia.org/wiki/Lezayre) for “Makeing Nine
+holes with their knives upon Sunday after evening
+Prayer”.[@LezayrePresentments]{%fn%}Their punishment being “to acknowledge their
+fault, and promise Reformation.”{%endfn%}
 
-In Arabic it has been called <span lang="ar">دريس اثلاثة</span> (<span
-lang="ar-Latn">drīs ath-thalātha</span>).[@ReizeNaarArabie p. 166][@Murray2 p. 41]
+A game that appears to be Three Men’s Morris appears in {%a alfonso-x, Alfonso
+X’s <cite>Book of Games</cite>%} under the name <span lang="es">Alquerque de
+Tres</span>; however, this is in fact equivalent to {%gameref tic-tac-toe%},
+since the game described there does not permit movement after the pieces have
+been placed.[@DimensionsOfBookOfGames p. 600]  In modern Spanish the game is
+called <span lang="es">tres en raya</span> ‘three in a line’, <span
+lang="es">castro</span> ‘fort’, or <span lang="es">pedrería</span> ‘little
+stones’.[@Murray2 p. 41] In Catalan it is apparently called <span
+lang="ca">marro</span>.[@ElAjedrez p. 204]
+
+In Italy it has been called <span lang="it">riga de tre</span> ‘line of
+three’,[@IlGiocoDeGliScacchi p. 35] <span lang="it">smerelli</span>, <span
+lang="it">mulino</span>, <span lang="it">semplice mulinello</span>, <span
+lang="it">filo</span>, <span lang="it">filetto</span>, or <span
+lang="it">tavoletta</span>.[@Murray2 p. 41] In France, it has been called <span
+lang="fr">mérelles</span>, <span lang="fr">marelles</span>,[@NoticeDesÉmaux p.
+381] or <span lang="fr">carré chinois</span> ‘Chinese
+square’.[@DictionnaireHistorique p. 279]
 
 The game is known as <span lang="fil" class="noun">Tapatan</span> in the
 Philippines,[@Zaslavsky p. 6] or <span lang="yue-Hans-HK">六卒棋</span> (<span
@@ -105,6 +106,12 @@ Confucius.{%endfn%} In Bengal, it has been called <span lang="bn">তাঁত
 গুটি পাইত পাইত</span> (<span lang="bn-Latn">tin-guṭi paite-paite</span>,
 ‘getting three pieces’), and is played with the pieces starting on the board.
 
+Writing in 1694,[@Hyde2 p. 211] Thomas Hyde said that it was called “Che-Lo” in
+Chinese (i.e. <span lang="zh-Hant">直六</span> Mandarin: <span
+lang="zh-Latn-pinyin">zhí liù</span> ‘straight six’), and “Hugjurè” in Persian
+(<span lang="fa">هجوره</span>, probably not a native Persian word?), but he also
+stated that each player has 6 pieces.
+
 It is also played across Africa: in Madagascar it is called <span
 lang="mg">fanorona telo</span> ‘three-{%gameref fanorona%}’;[@Murray2 p. 42] in
 Nigeria ([Urhobo](https://en.wikipedia.org/wiki/Urhobo_language)) <span
@@ -114,6 +121,9 @@ as <span lang="so">kubbad</span>[@SomaliEnglishThesaurus p. 99]/<span
 lang="so">kurobodo</span>[@SomaliEnglishDictionary p. 87]/<span
 lang="so">koruböddo</span>/<span lang="so">korkaböd</span>[@SomaliGames p.
 506]?{%endfn%}
+
+In Arabic it has been called <span lang="ar">دريس اثلاثة</span> (<span
+lang="ar-Latn">drīs ath-thalātha</span>).[@ReizeNaarArabie p. 166][@Murray2 p. 41]
 
 The game is also sometimes called Hopscotch, in @MathematicalRecreationsMaurice
 [p. 290], but I think that name is better reserved for {%gameref picaria%}.{%fn%}As in
@@ -135,7 +145,7 @@ seems to be <cite>African Games of Strategy: A teaching manual</cite> by Louise
 Crane, but I haven’t been able to view this work.{%endfn%} It has also been
 published as ‘[Tri-Pin](https://boardgamegeek.com/boardgame/111169/tri-pin)’ (Louis Marx & Co.).
 
-See @HeimannLoop for analysis of the game.
+See @HeimannLoop for an analysis of the game.
 
 ### X-ceter-O
 

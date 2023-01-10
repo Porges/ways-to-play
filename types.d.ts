@@ -67,6 +67,7 @@ export type Reference = Readonly<{
   ['publisher-lang']?: string,
   page?: string | number,
   warnings?: string,
+  notes?: string,
 
   genre?: string, // for theses
 

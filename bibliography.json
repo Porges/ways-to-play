@@ -183,7 +183,8 @@
         },
         "container-title": "Asiatic Researches",
         "volume": 20,
-        "page": "374–392"
+        "page": "374–392",
+        "URL": "https://archive.org/details/in.ernet.dli.2015.530375/page/n375"
     },
     "NineMensDice": {
         "type": "article-journal",
@@ -542,7 +543,8 @@
         },
         "publisher": "Oxford University Press",
         "publisher-place": "Oxford, England, UK",
-        "ISBN": "0-19-827401-7"
+        "ISBN": "0-19-827401-7",
+        "notes": "<a href=\"https://archive.org/details/historyofboardga0000murr_p4b9\">1978 reprint available here</a>"
     },
     "SomaliGames": {
         "type": "article-journal",
@@ -877,7 +879,7 @@
     },
     "SeriousReflections": {
         "type": "book",
-        "title": "Serious reflections on the dangerous tendency of the common practice of card-playing",
+        "title": "Serious reflections on the dangerous tendency of the common practice of card-playing; especially of the Game of All-Fours, as it hath been publickly play’d at Oxford",
         "issued": {
             "year": 1754
         },
@@ -887,7 +889,8 @@
                 "family": "Smith",
                 "given": "Gyles"
             }
-        ]
+        ],
+        "URL": "https://books.google.co.nz/books?id=IYJbAAAAQAAJ"
     },
     "GameOfOmbre": {
         "type": "book",
@@ -905,20 +908,21 @@
         "publisher": "Chiswick Press",
         "publisher-place": "Tooks Court, Chancery Lane, London, England, UK"
     },
-    "LawAndPractice": {
+    "LawsAndPractice": {
         "type": "book",
-        "title": "The Law and Practice of the Game of Euchre",
+        "title": "The Laws and Practice of the Game of Euchre",
         "publisher": "T. B. Peterson & Brothers",
-        "publisher-place": "306 Chestnut Street, Philadelphia, PA, USA",
+        "publisher-place": "Philadelphia, PA, USA",
         "issued": {
-            "year": 1862
+            "year": 1877
         },
         "author": [
             {
                 "family": "Charles Henry Wharton",
                 "given": "Meehan"
             }
-        ]
+        ],
+        "URL": "https://archive.org/details/lawspracticeofga00meeh"
     },
     "EvolutionOfWhist": {
         "type": "book",
@@ -979,11 +983,12 @@
                 "given": "Henry “Cavendish”",
                 "family": "Jones"
             }
-        ]
+        ],
+        "URL": "https://hdl.handle.net/2027/hvd.hn37ch"
     },
     "WhistSketches": {
         "type": "book",
-        "title": "Whist Sketches",
+        "title": "Whist Sketches: Review and Sketches of the First American Whist Congress",
         "issued": {
             "year": 1892
         },
@@ -994,7 +999,22 @@
             }
         ],
         "publisher": "The Free Press Publishing House",
-        "publisher-place": "Easton, PA, USA"
+        "publisher-place": "Easton, PA, USA",
+        "URL": "https://archive.org/details/whistsketchesrev00bout"
+    },
+    "WhistReferenceBook": {
+        "type": "book",
+        "title": "The Whist Reference Book",
+        "author": [
+            {
+                "given": "William Mill",
+                "family": "Butler"
+            }
+        ],
+        "issued": 1899,
+        "publisher-place": "Philadelphia",
+        "publisher": "John C. Yorston",
+        "URL": "https://archive.org/details/whistreferencebo00butl"
     },
     "StandardWhist": {
         "type": "book",
@@ -1009,7 +1029,8 @@
             }
         ],
         "publisher": "Herbert S. Stone & Company",
-        "publisher-place": "Chicago & New York, USA"
+        "publisher-place": "Chicago & New York, USA",
+        "URL": "https://books.google.co.nz/books?id=TqAuAQAAIAAJ"
     },
     "WhistPlayersHandBook": {
         "type": "book",
@@ -1399,7 +1420,13 @@
             "day": 16
         },
         "title": "Charles Rothwell/Rothmell 1695",
-        "container-title": "Manx Family History Documents"
+        "container-title": "Manx Family History Documents",
+        "author": [
+            {
+                "given": "Joyce M.",
+                "family": "Oates"
+            }
+        ]
     },
     "LezayrePresentments": {
         "type": "webpage",
@@ -6087,7 +6114,7 @@
         "issued": {
             "year": 1414
         },
-        "warnings": "Published 1350–1450?",
+        "notes": "Published 1350–1450?",
         "URL": "https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r"
     },
     "GamblingInIslam": {
@@ -8201,7 +8228,7 @@
             "year": 1688
         },
         "publisher-place": "Chester, Cheshire, England",
-        "warnings": "Reprinted by the Roxburghe Club, 1905."
+        "notes": "Reprinted by the Roxburghe Club, 1905."
     },
     "HelmuthDueberg": {
         "type": "patent",
@@ -9795,5 +9822,110 @@
         "publisher": "Otto Harrassowitz",
         "publisher-place": "Wiesbaden",
         "ISBN": "3447028718"
+    },
+    "SilteAmharicDictionary": {
+        "type": "book",
+        "title": "Siltʼe–Amharic/Amharic–Siltʼe Dictionary",
+        "author": [
+            {
+                "given": "ሁሴን መ.",
+                "family": "ሙሳ",
+                "lang": "am",
+                "alt": "Hussein M. Musa"
+            }
+        ],
+        "issued": 2014,
+        "publisher": "SIL Ethiopia",
+        "publisher-place": "Addis Ababa, Ethiopia",
+        "URL": "https://www.sil.org/resources/archives/64276"
+    },
+    "WhatHappensAfterTheWedding": {
+        "type": "webpage",
+        "URL": "https://shabait.com/2016/11/11/what-happens-after-the-wedding/",
+        "archive-URL": "https://web.archive.org/web/20200928114622/https://shabait.com/2016/11/11/what-happens-after-the-wedding/",
+        "title": "What Happens After the Wedding?",
+        "container-title": "Eritrea Ministry of Information",
+        "issued": {
+            "day": 11,
+            "month": 11,
+            "year": 2016
+        }
+    },
+    "UsefulTreesAndShrubsInEritrea": {
+        "type": "book",
+        "URL": "http://apps.worldagroforestry.org/downloads/Publications/PDFS/B10462.pdf",
+        "title":"Useful Trees and Shrubs in Eritrea",
+        "author": [
+            {
+                "given": "E.",
+                "family": "Bein"
+            },
+            {
+                "given": "B.",
+                "family": "Habte"
+            },
+            {
+                "given": "A.",
+                "family": "Jaber"
+            },
+            {
+                "given": "Ann",
+                "family": "Birnie"
+            },
+            {
+                "given": "Bo",
+                "family": "Tengnas"
+            }
+        ],
+        "publisher": "Regional Soil Conservation Unit",
+        "issued": 1996,
+        "publisher-place": "Nairobi, Kenya",
+        "ISBN": "9966896244"
+    },
+    "NoticeDesÉmaux": {
+        "type": "book",
+        "title": "Notice des émaux, bijoux et objets divers, exposés dans les galeries du Musée du Louvre",
+        "title-lang": "fr",
+        "volume": 2,
+        "URL": "https://archive.org/details/bnf-bpt6k6464476k",
+        "publisher-place": "Paris",
+        "author": [
+            {
+                "given": "Léon",
+                "family": "de la Borde"
+            }
+        ],
+        "issued": 1853,
+        "publisher": "Vinchon"
+    },
+    "DictionnaireHistorique": {
+        "type": "book",
+        "URL": "https://archive.org/details/dictionnairehis04conggoog",
+        "title": "Dictionnaire Historique de L’Ancien Langage François",
+        "title-lang": "fr",
+        "author":  [
+            {
+                "given": "Jean-Baptiste",
+                "family": "de La Curne de Sainte-Palaye"
+            }
+        ],
+        "volume": 7,
+        "issued": 1880,
+        "publisher-place": "Paris"
+    },
+    "CompleteGuideWinningKeno": {
+        "type": "book",
+        "URL": "https://archive.org/details/completeguidetow0000cowl",
+        "title": "Complete Guide to Winning Keno",
+        "author": [
+            {
+                "given": "David W.",
+                "family": "Cowles"
+            }
+        ],
+        "issued": 1996,
+        "publisher": "Cardoza Publishing",
+        "publisher-place": "New York",
+        "ISBN": "0940685620"
     }
 }

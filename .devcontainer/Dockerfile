@@ -9,3 +9,9 @@ RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
     nodejs
+
+RUN wget https://github.com/PowerShell/PowerShell/releases/download/v7.3.0/powershell_7.3.0-1.deb_amd64.deb \
+    && dpkg -i powershell_7.3.0-1.deb_amd64.deb \
+    && rm powershell_7.3.0-1.deb_amd64.deb 
+
+RUN npm install -g mapshaper

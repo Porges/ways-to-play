@@ -29,6 +29,10 @@ in the Punjab</ins>.
 listed as equivalent to three-men’s-morris; it is actually equivalent to noughts
 & crosses (§3.2).
 
+<strong>§3.3.5</strong> (p. 41): the citation of @NoticeDesÉmaux [p. 381] for
+<strong lang="fr">carré chinois</strong> is incorrect (but he is following
+@Fiske [p. 114]).
+
 <strong>§3.3.11</strong> (p. 41): <strong>Tin-guti pait pait</strong> is not in
 the reference cited (@Humphries), but it is in @Datta.
 

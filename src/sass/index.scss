@@ -483,7 +483,7 @@ abbr[title] {
     text-decoration: none;
 }
 
-.reference-warning {
+.reference-warning, .reference-note {
     font-size: smaller;
     abbr { color: $accent; }
 }

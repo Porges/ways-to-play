@@ -29,7 +29,7 @@ module.exports = {
             + renderContainer(ref)
             + renderPublisher(ref)
             + renderISBN(ref)
-            + renderWarnings(ref)
+            + renderWarningsAndNotes(ref)
             + '</p>';
     }
 }
@@ -52,9 +52,18 @@ const itemtypes = {
 /** 
  * @param {Reference} ref
  */
-function renderWarnings(reference) {
-    if (!reference.warnings) return '';
-    return `<span class="reference-warning"><abbr title="warning">⚠</abbr>&nbsp;${reference.warnings}</span>`;
+function renderWarningsAndNotes(reference) {
+    let result = '';
+
+    if (reference.warnings) {
+        result += `<span class="reference-warning"><abbr title="warning">⚠</abbr>&nbsp;${reference.warnings}</span>`;
+    }
+
+    if (reference.notes) {
+        result += `<span class="reference-note"><abbr title="note">&#x2139;</abbr>&nbsp;${reference.notes}</span>`;
+    }
+
+    return result;
 };
 
 /**
