@@ -9927,5 +9927,53 @@
         "publisher": "Cardoza Publishing",
         "publisher-place": "New York",
         "ISBN": "0940685620"
+    },
+    "ThingsChinese": {
+        "type": "book",
+        "URL": "https://archive.org/details/thingschineseorn00balliala",
+        "title": "Things Chinese; or, Notes Connected with China",
+        "author": [
+            {
+                "given": "James Dyer",
+                "family": "Ball"
+            }
+        ],
+        "edition": 4,
+        "issued": 1903,
+        "publisher": "Kelly & Walsh",
+        "publisher-place": "Hongkong, Shanghai, Yokohama, and Sinapore"
+    },
+    "PlayboysIllustratedTreasury": {
+        "type": "book",
+        "title":"Playboy’s Illustrated Treasury of Gambling",
+        "URL": "https://archive.org/details/isbn_9788517589584",
+        "author": [
+            {
+                "given": "David",
+                "family": "Carroll"
+            }
+        ],
+        "publisher": "Crown Publishers",
+        "publisher-place": "New York",
+        "issued": 1977,
+        "ISBN": "0517530503"
+    },
+    "SFMunicipal1893": {
+        "type": "book",
+        "title": "San Francisco Municipal Reports for the Fiscal Year 1892–93, Ending June 30, 1893",
+        "volume": 1,
+        "URL": "https://archive.org/details/sanfranciscomuni43sanfrich",
+        "publisher": "San Francisco Board of Supervisors",
+        "publisher-place": "San Francisco",
+        "issued": 1893
+    },
+    "SFMunicipal1898": {
+        "type": "book",
+        "title": "San Francisco Municipal Reports for the Fiscal Year 1897–98, Ending June 30, 1898",
+        "volume": 1,
+        "URL": "https://archive.org/details/sanfranciscomuni48sanfrich",
+        "publisher": "San Francisco Board of Supervisors",
+        "publisher-place": "San Francisco",
+        "issued": 1898
     }
 }

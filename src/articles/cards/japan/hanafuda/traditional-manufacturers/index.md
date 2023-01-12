@@ -1822,7 +1822,7 @@ brands included:[@ModernJapaneseWrappers pp. 54–8]
 * <span lang="ja">小天狗</span> (<span lang="ja-Latn">kotengu</span>, ‘little <span class="noun" lang="ja-Latn">Tengu</span>’)
 * <span lang="ja">花の花</span> (<span lang="ja-Latn">hana no hana</span>, ‘flower of flowers’)
 * <span lang="ja">白雪</span> (<span lang="ja-Latn">shirayuki</span>, ‘white snow’)
-* <span lang="ja">百万石</span> (<span lang="ja-Latn">hyakumangoku</span>, ‘one million [<span lang="ja-Latn">koku</span lang="ja-Latn">](https://en.wikipedia.org/wiki/Koku)’, a nickname for the rich [<span class="noun" lang="ja-Latn">Kaga</span> domain](https://en.wikipedia.org/wiki/Kaga_Domain), or its lord, in the <span class="noun" lang="ja-Latn">Edo</span> period), no longer produced as of 1980
+* <span lang="ja">百万石</span> (<span lang="ja-Latn">hyakumangoku</span>, ‘one million [<span lang="ja-Latn">koku</span>](https://en.wikipedia.org/wiki/Koku)’, a nickname for the rich [<span class="noun" lang="ja-Latn">Kaga</span> domain](https://en.wikipedia.org/wiki/Kaga_Domain), or its lord, in the <span class="noun" lang="ja-Latn">Edo</span> period), no longer produced as of 1980
 * <span lang="ja">奴さん</span> (<span lang="ja-Latn">yakkosan</span>, ‘guy’, a samurai manservant, also a traditional origami shape imitating a man), no longer produced as of 1980
 * <span lang="ja">奴印</span> (<span lang="ja-Latn">yakko&shy;jirushi</span>, ‘guy brand’), trademarked in 1921[@Trademarks1924_18 p. 331]
 * <span lang="ja">竹印</span> (<span lang="ja-Latn">takejirushi</span>, ‘bamboo brand’), trademarked in 1915[@Trademarks1924_8 p. 296]

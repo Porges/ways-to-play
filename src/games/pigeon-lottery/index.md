@@ -27,7 +27,7 @@ lang="zh-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which i
 Chinese emigrants.
 </p>
 
-The history of the game is sadly a well-trodden story of racism and hypocrisy:
+The history of the game is sadly often a story of racism and hypocrisy:
 as a Chinese gambling game, Chinese migrants were punished while gambling games
 played by Europeans were permitted. Later the game was adapted by Americans who
 profited from a now-legal game even as the Chinese game was suppressed.
@@ -45,9 +45,9 @@ was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa
 “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In
 Macau it is given with the Portugeuse romanization of “pacapio”, which remains
 standard in current usage (previous terms include <span
-lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it became at first “boc hop
-bu”[@NYTimes18870127] before picking up a variety of the other names, but in
-Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
+lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it became at first
+“boc hop bu”[@NYTimes18870127] before picking up a variety of the other names,
+but in Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the
@@ -56,6 +56,13 @@ selects a given number of characters, and players win money according to the
 number of matching characters they have marked on their ticket. The specific
 numbers of characters chosen and the permissible bets vary by both time and
 location.
+
+In many locations the game was treated as illegal, running afoul of anti-lottery
+laws; this despite it not being a lottery. Even when it started to become
+popular in American casinos, many Keno writers (ticket markers) believed it to
+be a lottery, and that it had only become quasi-legal through subterfuge (for
+example, see @AFamilyAffair [p. 179], and many other examples stating it to be a
+lottery).
 
 ## Early origins
 
@@ -96,6 +103,14 @@ In 1849, a traveller from Yunnan province visited Guangdong and reported that:
 > considered the “white pigeon” lottery to have been going out of control so he
 > prohibited it. When this governor got promoted and left, the trend of playing
 > the lottery came back.[@BettingOnEmpire p. 64]
+
+In the late 19th century, the game was also known as <span
+lang="zh-Latn-pinyin">Xiǎowéixìng</span> <span lang="zh">小闈姓</span> ‘small
+surname guessing lottery’,[@BettingOnEmpire p. 85] after the main <span
+lang="zh-Latn-pinyin">Wéixìng</span> <span lang="zh">闈姓</span> ‘surname
+guessing lottery’, which was based upon guessing the surnames of people who
+passed the [imperial service
+examinations.](https://en.wikipedia.org/wiki/Imperial_examination)
 
 <!--
 Li Hongzhang (<span lang="zh">李鴻章</span>), governor-general of Guangdong, and
@@ -160,6 +175,10 @@ had played the game in the last 12 months.[@SegmentingChineseGamblers]{%endfn%}
     originalUrl="https://www.flickr.com/photos/free-stuff/156734440" %}
 A “Pacapio” sign in Macau.
 {% imageEnd %}
+
+<!--
+Back in Guangdong, merchants petitioned for the game to be made legal…[@BettingOnEmpire p. 161]
+-->
 
 ## The Game
 
@@ -257,12 +276,20 @@ Drawing of tickets, with a rather mangled representation of a ticket
 
 </div>
 
+In some Chinese versions of the game, there were restrictions imposed upon which
+characters could be drawn: ten had to be chosen from each of the upper and lower
+halves of the tickets, the whole four characters in a particular line, or four
+in a block or diagonal could not be selected at once (it is not stated how these
+restrictions were enforced).[@BettingOnEmpire p. 104] These rules would allow
+the players to feel like they were able to have more control by making informed
+selections of characters.
+
 ### Example payoff schemes
 
 Below are a sampling of payoff schemes, to give a taste of the ratios used. The
 payouts vary based upon the number of correctly-chosen characters:
 
-<table class="table small">
+<table class="table table-sm small">
 <thead>
 <tr>
 <th></th>
@@ -379,6 +406,13 @@ Las Vegas<br/>
 </tbody>
 </table>
 
+The trend over time has been to increase the payouts on the higher end, which
+makes the game more attractive to players while not unduly affecting the house
+margin — as long as the house has sufficient capital to avoid going bankrupt
+when a player hits a big win. Aggregate payout limits are also used to prevent
+such an occurrence; for example, a casino might advertise a $50,000 limit, which
+is the maximum combined winnings that players can win on any single game (bigger
+winners being paid out first).
 
 ## Spread to other countries
 
@@ -389,11 +423,16 @@ locations with particular reports highlighted.
 
 {% imageEnd %}
 
-
 The game traveled everywhere that Chinese people migrated to. In particular, it
 seems to have been popular in places with goldfields where Chinese men came to
 work in the late 19th century: San Francisco in the USA, British Columbia in
 Canada, Victoria in Australia, and New Zealand.
+
+Despite the existence of other very similar games in China, such as the ‘mountain
+lottery’ (<span lang="zh">山票</span> Mandarin: <span lang="zh-Latn-pinyin">shān
+piào</span>, Cantonese: <span lang="yue-Latn-jyutping">saan1 piu3</span>), the
+pigeon lottery was the only one that was successfully popularized amongst
+Europeans.[@BettingOnEmpire p. 193]
 
 ### In the United States
 
@@ -419,18 +458,34 @@ for Nevada’s <cite>Territorial Enterprise</cite>, noting its popularity in tha
 these lotteries differed in any respect from our own… the manner of drawing is
 similar to ours”.[@RoughingIt p. 396]
 
+The view that many Chinese immigrants were involved in lotteries was not only
+one coloured by European eyes; [<span lang="zh-Latn-pinyin" class="noun">Liang
+Qichao</span>](https://en.wikipedia.org/wiki/Liang_Qichao) (<span lang="zh">梁啟
+超</span>, 1873–1929), who visited Canada and the United States between 1899 and
+1903, claimed that almost every Chinese family was involved with gambling in
+some way.[@BettingOnEmpire p. 191]
+
 According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 four banks were
 operating in Philadelphia{%fn%}He provides the names “Extensive Increase” (<span
-lang="yue">廣大</span> <span lang="yue-Latn-jyutping">gwong2 daai6</span>), “Heavenly
+lang="yue">廣泰</span> <span lang="yue-Latn-jyutping">gwong2 taai3</span>), “Heavenly
 Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn-jyutping">tin1 wo4</span>),
-“Fortunate Increase” (<span lang="yue">福大</span> <span lang="yue-Latn-jyutping">fuk1
-daai6</span>), and “Encouraging Fountain” (<span lang="yue">釗泉</span> <span
+“Fortunate Increase” (<span lang="yue">福泰</span> <span lang="yue-Latn-jyutping">fuk1
+taai3</span>), and “Encouraging Fountain” (<span lang="yue">釗泉</span> <span
 lang="yue-Latn-jyutping">ciu1 cyun4</span>).{%endfn%} and five in New York, along with
-others in Boston and Chicago. 
+others in Boston and Chicago.
 
 There were ten Chinese lottery banks operating in San Francisco in
 1890,[@FoolsOfFortuneOrGamblingAndGamblers p. 450] and by 1892 the same number
-operating in New York.[@FanTanGamesToReopen]
+operating in New York.[@FanTanGamesToReopen] In 1893 a report from the San
+Francisco Chief of Police stated that the police had in their possession 22 tons
+of blank lottery tickets which had been confiscated during the previous 13
+years;[@SFMunicipal1898 p. 150] by 1898 this had risen to 26
+tons.[@SFMunicipal1898 p. 173]{%fn%}The police were occasionally (and
+unsuccessfully) sued for the repossession of these tickets.{%endfn%}
+
+By the time <span lang="zh-Latn-pinyin" class="noun">Liang Qichao</span> visited the United
+States in 1903, he estimated that one in ten of the Chinese immigrants in the
+large cities worked in gambling houses.[@BettingOnEmpire p. 191]
 
 <!--
 FoolsOfFortuneOrGamblingAndGamblers
@@ -783,6 +838,10 @@ appearance in his short story “The Yellow Box” which was first published in 
 According to @TheBantuInTheCity [p. 219], four syndicates were operating
 throughout the Johannesburg area in 1935. 
 
+### In Canada
+
+Visiting in 1899, <span lang="zh-Latn-pinyin" class="noun">Liang Qichao</span> stated that
+there were more than 15 pigeon lotteries operating in Vancouver.[@BettingOnEmpire p. 191]
 
 ## Globalization, or Kenoization
 
@@ -809,58 +868,60 @@ with numerals written in place of Chinese characters.
 {%imageEnd%}
 
 Versions of the “Chinese lottery” were played in Butte, Montana. Just like in
-the examples above, Butte was a mining town with a significant migrant Chinese
-population. The game was played illegally in the backrooms of “cigar stores”,
-which also operated as speakeasies. One in particular, the Crown Cigar Store,
-was operating the Chinese game in 1927.[@LostButte p. 50] {%fn%}A court case
-from 1948 shows that at the Crown the adapted game, using numbers, was at that
-time known as “the Crown Game” or the “Crown
-[punchboard](https://en.wikipedia.org/wiki/Punchboard)
+the examples discussed above of other locations the game had spread to, Butte
+was a mining town with a significant migrant Chinese population. The game was
+played illegally in the backrooms of “cigar stores”, which also operated as
+speakeasies. One in particular, the Crown Cigar Store, was operating the Chinese
+game in 1927.[@LostButte p. 50] {%fn%}A court case from 1948 shows that at the
+Crown the adapted game, using numbers, was at that time known as “the Crown
+Game” or the “Crown [punchboard](https://en.wikipedia.org/wiki/Punchboard)
 game”,[@StatevCrownCigarStore] but it was clearly derived from the “Chinese
- lottery”.{%endfn%} The gambling operation was managed by two brothers, Joe and
- Francis Lyden.{%fn%}Some sources give the name as “Frances”. The Lyden
- brothers — Joseph Michael (1899–1982)[@JosephMichaelLyden] and Francis — were
- Irish immigrants who had inherited the store from their
- step-father.[@LydenBrothers]{%endfn%}
-
-THIS IS ALL OUT OF ORDER AND NEEDS REËDITING
-
-New para: despite Keno not being a lottery, even many keno writers believed it
-to be a lottery[@AFamilyAffair p. 179] (many other examples).
+lottery”.{%endfn%} The gambling operation was managed by two brothers, Joe and
+Francis Lyden.{%fn%}Some sources give the name as “Frances”. The Lyden
+brothers — Joseph Michael (1899–1982)[@JosephMichaelLyden] and Francis — were
+Irish immigrants who had inherited the store from their
+step-father.[@LydenBrothers]{%endfn%}
 
 These Butte games were routinely shut down by the police, but in 1931 Nevada
 legalized gambling in [Assembly Bill No.
 98](https://www.leg.state.nv.us/Statutes/35th1931/Stats193102.html#Stats193102page165)
 (popularly known as the “Wide Open Gambling Bill”). The bill explicitly
 legalized “keno”, as long as the person running the game had procured a license
-to do so.{%fn%}It is worth noting, given the ongoing theme of anti-Chinese
-discrimination here, that licenses were only available to US citizens, and
-‘aliens’ were not allowed to even operate a licensed game. This seems
-particularly egregious given that the distinctly Chinese game of Fan-Tan was
-also explicitly legalized by the bill… but only for US citizens!{%endfn%}
+to do so.
+
+It is worth noting, given the ongoing theme of anti-Chinese discrimination here,
+that licenses were only available to US citizens, and ‘aliens’ were not allowed
+to even operate a licensed game.{%fn%}This seems particularly egregious given that
+the distinctly Chinese game of Fan-Tan was also explicitly legalized by the
+bill… but only for US citizens!{%endfn%}
 
 At this time, the name “keno” (or “quino”) referred to a Bingo-like game from
-the 19th century (see the {%gameref keno-bingo %} article for more). This game
-used pre-printed sheets and randomly-drawn numbers, and is not directly related
-to the Chinese-derived modern game of Keno, where sheets are marked by the
-players.{%fn%}As early as 1899, the Chinese game had been referred to as
-“Chinese Keno” to distinguish it from the existing Keno
-game.[@ChineseGamblersRaided]{%endfn%}
+the 19th century (see the {%gameref keno-bingo %} article for
+more).{%fn%}Interestingly, one of the few books to get the distinction between
+‘old’ and ‘new’ Keno straight is @PlayboysIllustratedTreasury [p. 215].{%endfn%}
+This game used pre-printed sheets and randomly-drawn numbers, and is not
+directly related to the Chinese-derived modern game of Keno, where sheets are
+marked by the players.
 
 However, it seems that the Lyden brothers seized upon this opportunity to
 rebrand their game under the “keno” name. In 1935 Francis moved to Reno, where
 he began to work for John Petricciani, owner of the newly-opened Palace
-Club.[@FrancisLydenButteBoy] {%fn%}Joe Lyden would also later (after 1938?) move
-to Las Vegas and start the first Keno game there, at the Fremont.{%endfn%}
+Club.[@FrancisLydenButteBoy] {%fn%}Joe Lyden doesn’t feature any further in this
+story, but he would also later (after 1938?) move to Las Vegas and start the
+first Keno game there, at the Fremont.{%endfn%}
 
 ### “Chinese Keno”
 
-Earlier attempts to run the Chinese lottery under the “keno” name had failed: in
-1932, one Woo Sing had purchased a Keno license under which to operate the
-“Chinese lottery” in the Henry Club, only to have the license revoked by the
-Reno city council and his staff arrested.[@LotteryAndKenoContrasted] While the
-case against the staff was eventually dropped, Woo Sing was unable to recover
-his $300 ($6870 in 2022 dollars) license fee. In May 1933, a J. B. Crane, an
+As early as 1899, the Chinese game had been referred to as “Chinese Keno” to
+distinguish it from the existing Keno game.[@ChineseGamblersRaided] Despite
+this, earlier attempts to run the Chinese lottery under the “keno” name had
+failed: in 1932, one Woo Sing had purchased a Keno license under which to
+operate the “Chinese lottery” in the Henry Club{%fn%}One of the earliest
+licensed gambling establishments in Reno, located at 133 Lake Street.{%endfn%}
+(located in Reno, Nevada), only to have the license revoked by the Reno city
+council and his staff arrested.[@LotteryAndKenoContrasted] While the case
+against the staff was eventually dropped, Woo Sing was unable to recover his
+$300 ($6870 in 2022 dollars) license fee. In May 1933, a J. B. Crane, an
 associate of Woo Sing’s, attempted to procure a license to run the game as
 “keno”.{%fn%}At the Lucky Club, 233 Lake Street.{%endfn%} Crane stated
 (correctly) that the game was not actually a lottery and hence not illegal, and
@@ -870,12 +931,13 @@ been ordered to stop the game,[@ChineseLotteryOrderedClosed] then permitted to
 reopen it,[@ChineseKenoGamesToOperate] until finally Crane’s licenses were
 revoked and his club was ordered shut.[@JBCrane]{%fn%}Crane had previously
 boasted that the council did not have the power to refuse a license, which must
-not have helped his cause.{%endfn%} Another operator named Walter Tun, who had
-watched the proceedings closely, also chose to close his “lottery”
-operation.[@CouncilRevokesCrane] While all this was going on there seems to have
-been something of a turf war between Tun and Sing,[@ChineseDisputeSettlement]
-and in July, Woo Sing was shot by an unknown assailant.{%fn%}The case was never
-solved, despite a $500 ($11,400 in
+not have helped his cause.{%endfn%}
+
+Another operator named Walter Tun, who had watched the proceedings closely, also
+chose to close his “lottery” operation.[@CouncilRevokesCrane] While all this was
+going on there seems to have been something of a turf war between Tun and
+Sing,[@ChineseDisputeSettlement] and in July, Woo Sing was shot by an unknown
+assailant.{%fn%}The case was never solved, despite a $500 ($11,400 in
 2022) reward being offered for information by the Yick Keong Benevolent
 Association.{%endfn%} Crane again sought licenses in
 July,[@ChineseGamblerIsWounded] and August,[@CouncilAdjournsAndCraneFails] at
@@ -904,7 +966,7 @@ City Attorney Pike:[@WeAreRecessed]
 > either.”{%fn%}Tango (from Spanish <span lang="es">tengo</span>, “I have it”)
 > at this time also referred to a version of the Bingo-style Keno
 > game.[@YouCantMiss] It had been played since 1931 at the Reno Club on Virginia
-> Street,[@OpenTodayRenoClub] and the name was probably  by the tango
+> Street,[@OpenTodayRenoClub] and the name was probably influenced by the tango
 > (dance) which was popular at the time.{%endfn%}
 
 By July 1934, things seem to have calmed down somewhat, as both Walter Tun and
@@ -915,23 +977,24 @@ reopening upon “Chinese keno”,[@KenoDiscussionAgainHeard] they were apparent
 able to operate unmolested until May 1935, at which point the District Attorney
 stepped in and ordered them to shut
 down.[@ChineseLotteriesOrderedClosed]{%fn%}Woo Sing would eventually be arrested
-on narcotics charges in 1937 and the Public Club closed down.{%endfn%}
+on narcotics charges in 1937 and the Public Club closed down permanently.{%endfn%}
 
-Despite these cases, Francis Lyden proposed running a “keno” game, and contacted
-Warren Nelson, who he knew from Butte, to run it at the Palace
-Club.[@SilvioPetricciani p. 26] At the time Warren was running games in Great
-Falls.{%fn%}Warren states his father and a man named Cal Lewis ran the game
-together in the Mint Cigar Store, but that he was taught the game by a younger
-man named Jimmy Shea after his father refused to teach
-him.[@AlwaysBetOnTheButcher p. 29]{%endfn%}
+Despite the existence of these previous cases, Francis Lyden proposed running a
+“keno” game in Reno based upon the Chinese lottery, and contacted Warren Nelson,
+whom he knew from Butte, to run it at the Palace Club.[@SilvioPetricciani p. 26]
+At the time Warren was running games in Great Falls.
 
 Warren had at first run the game in the backroom of the Mint Cigar Store in
-Butte. Initially, they had used the same method of drawing the numbers as in the
-Chinese version of the game (paper strips rolled and placed in four containers),
-but eventually moved on to using balls which were jumbled in a tumbler. The number of
-drawings was also increased to a much faster pace of one every fifteen minutes. It
-was this version of the game that was taken to the Palace Club in
-Nevada.[@AlwaysBetOnTheButcher p. 34–5, 50–1]
+Butte.{%fn%}Warren states his father and a man named Cal Lewis ran the game
+together in the Mint Cigar Store, but that he was taught the game by a younger
+man named Jimmy Shea after his father refused to teach
+him.[@AlwaysBetOnTheButcher p. 29]{%endfn%} Initially, they had used the same
+method of drawing the numbers as in the Chinese version of the game (paper
+strips rolled and placed in four containers), but eventually moved on to using
+balls which were jumbled in a tumbler. The number of drawings was also increased
+to a much faster pace of one every fifteen minutes. It was this version of the
+game that was taken to the Palace Club in Nevada.[@AlwaysBetOnTheButcher p.
+34–5, 50–1]
 
 Thus, the first publicly played version of the Americanized game appears to have
 been “Race Horse Keno”, which was launched by the Palace Club in Reno in 1936.
@@ -1070,8 +1133,11 @@ player wanted. On a way ticket an individual circled number is called a
 **king**.
 
 Casinos provide ‘keno books’ which indicate various ways to mark way tickets and
-the corresponding payoffs depending on what catches are made. In some cases
-certain payoffs are “enhanced” and pay more than they would on a straight
+the corresponding payoffs depending on what catches are made.{%fn%}Examples can
+be found here for [Bally’s Las
+Vegas](https://archive.org/details/50000kenoballyslv87) or the [Sahara Las
+Vegas](https://archive.org/details/kenopayguide).{%endfn%} In some cases certain
+payoffs are “enhanced” and pay more than they would on a straight
 ticket.[@CompleteGuideWinningKeno p. 128]
 
 ### Alternative bets
