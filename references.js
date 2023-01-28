@@ -124,7 +124,7 @@ const renderAuthors = (reference) => {
         return `${renderPeople(reference.editor, true, false, 'editor')} (editor${plural}) `;
     } else if ('publisher' in reference) {
         return (`<span itemscope itemtype="http://schema.org/Organization" itemprop="author">`
-            + `<span itemprop="name"${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span></span> `);
+            + `<span class="noun" itemprop="name"${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span></span> `);
     } else {
         return `<i>Anonymous</i> `;
     }
@@ -242,7 +242,7 @@ function toIsoDate(ymd) {
 const renderPublisher = (reference) => {
     const publisher =
         ifSet(reference.publisher,
-            () => `<span${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span>${reference['publisher-place'] ? ': ' : (reference.publisher.endsWith('.') ? ' ' : '. ')}`)
+            () => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span>${reference['publisher-place'] ? ': ' : (reference.publisher.endsWith('.') ? ' ' : '. ')}`)
         + ifSet(reference['publisher-place'],
             () => `${reference['publisher-place']}. `);
 

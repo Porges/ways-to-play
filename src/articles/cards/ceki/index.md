@@ -1766,34 +1766,22 @@ The logo for <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & D
 * <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</span>, a
   Dutch company that had offices in Java, Sumatra, and Celebes (Sulawesi)[@TraditionCardGameCeki]
 * [<span class="noun" lang="fr">Mesmaekers
-  Frères</span>](https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack), a
-  Belgian company based in Turnhout whose cards were imported to Java by Brandon
-  Mesritz & Co.[@ChiChiPai]
-
-<!-- {/*<p>榮興記</p>*/}-->
-
-Modern Indonesian brands include:
-
-* <span class="noun" lang="ms">Ceki Hiu</span> (Old Thousand has a colour image of a shark)
-* <span class="noun" lang="ms">Ceki Kalong Mas</span> (bat symbol, Old Thousand inscribed <span lang="zh">𫑟林</span>?)
-* <span class="noun" lang="ms">Ceki Leak</span>, a [mythological creature](https://en.wikipedia.org/wiki/Leyak)
-* <span class="noun" lang="ms">Gunting Baja</span>, Bali
-* <span class="noun" lang="ms">Gunting Rumput</span>
-* <span class="noun" lang="ms">Gar’da Kencana</span>
-* <span class="noun" lang="ms">Kabuki</span>
-* <span class="noun" lang="ms">Kapal Ferry</span> (Old Thousand has a colour image of a ship)
-* <span class="noun" lang="ms">Pura Dewa</span>, Bali
-
-{% image src="Sin_Po_1922_03_20_001.png"  noborder=true 
+  Frères</span>](https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack), a Belgian company based in Turnhout whose cards were imported to Java by Brandon Mesritz & Co.[@ChiChiPai] Their brands included:
+  * <span class="noun" lang="id">Dua Macan</span> (‘two tigers’), trademark registered 15th October 1887.[@Turnhout p. 32] This brand was also used for other types of cards, like domino cards.<!-- stefan_lauwers_domino_cards.jpg -->
+{% image src="Sin_Po_1922_03_20_001.png" position="aside" noborder=true 
   alt="A black and white advertisement with an image of two tigers fighting."
   originalUrl="https://opac.perpusnas.go.id/uploaded_files/dokumen_isi3/Terbitan%20Berkala/Sin_Po_1922_03_20_001.pdf"
   license="cc0" %}
 Newspaper advertisement in [<span class="noun" lang="id">Sin
 Po</span>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922,
-for <span class="noun" lang="id">Dua Macan</span> (‘two tigers’) brand ceki cards (<span
+for <span lang="fr" class="noun">Mesmaekers Frères</span>’ <span class="noun" lang="id">Dua Macan</span> (‘two tigers’) brand ceki cards (<span
 lang="id">kartoe tjeki</span>), being sold by Handel Mij. (also publishers of
 the newspaper).
 {% imageEnd %}
+* Cartamundi, a Belgian company based in Turnhout, and now the largest manufacturer of playing cards in the world. Their brands included:
+  * Three Goats Brand (also labelled <span lang="zh">行通南</span>?),<!-- jef_smets_cartamundi_three_goats.jpg --> trademark registered 26 July 1972.[@Turnhout p. 47] Decks containing Ceki cards seem to have been in a red packet and labelled ‘A’; green and ‘B’ were four-colour cards.
+
+<!-- {/*<p>榮興記</p>*/}-->
 
 Old Indonesian brands included:
 
@@ -1804,7 +1792,31 @@ Old Indonesian brands included:
 * <span class="noun" lang="id">Warak</span> (‘rhino’)[@JavaanseKaartspelen p. 12]
 * <span class="noun" lang="id">Kodok</span> (‘frog’)[@JavaanseKaartspelen p. 12]
 * <span class="noun" lang="id">Kunci</span> (‘lock/key’)[@JavaanseKaartspelen p. 12]
-* <span class="noun" lang="id">Dua Macan</span> (‘two tigers’)
+
+Modern Indonesian brands include:
+
+* $ Dollar
+* <span class="noun" lang="ms">Ceki Jitu/Cap Udang</span>, ‘shrimp brand’; trademark [registered](https://pdki-indonesia.dgip.go.id/detail/D002009029908?type=trademark&keyword=ceki) 8th September, 2009
+* <span class="noun" lang="ms">Ceki Hiu</span>, ‘shark ceki’ (Old Thousand has a colour image of a shark)
+* <span class="noun" lang="ms">Ceki Kalong Mas</span> (bat symbol, Old Thousand inscribed <span lang="zh">𫑟林</span>?)
+* <span class="noun" lang="ms">Ceki Leak</span>, a [mythological creature](https://en.wikipedia.org/wiki/Leyak); trademark [registered](https://pdki-indonesia.dgip.go.id/detail/D002013040002?type=trademark&keyword=ceki) 27th August, 2013
+* <span class="noun" lang="ms">Ceki Sinar Rejeki</span>, ‘lucky ray’?
+* Flipper Brand
+* Gold Fish
+* <span class="noun" lang="ms">Gunting Baja</span>, from Bali
+* <span class="noun" lang="ms">Gunting Rumput</span>
+* <span class="noun" lang="ms">Gar’da Kencana</span>
+* <span class="noun" lang="ms">Jangkar Kapal</span>, ‘ship anchor’
+* <span class="noun" lang="ms">Kabuki</span>
+* <span class="noun" lang="ms">Kalajengking</span>, ‘scorpion’
+* <span class="noun" lang="ms">Kapal Ferry</span> (Old Thousand has a colour image of a ship)
+* Liberty/777 (with an image of the Statue of Liberty)
+* <span class="noun" lang="ms">Lintrik Cap Semar</span>
+* <span class="noun" lang="ms">Pura Dewa</span>, from Bali
+* <span class="noun" lang="jv-Latn">Tjap Klabang</span> (<span lang="jv-Latn">cap klabang</span>), ‘centipede brand’; trademark [registered](https://pdki-indonesia.dgip.go.id/detail/D002015047782?type=trademark&keyword=ceki) 28th October, 2015
+
+The only current Malaysian manufacturer I know of is Yong Guan Heng & Co., who
+sell Cherki cards under the Single Lion brand (<span lang="zh">單獅嘜</span>).
 
 ## Credits
 

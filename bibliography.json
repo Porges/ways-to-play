@@ -9975,5 +9975,23 @@
         "publisher": "San Francisco Board of Supervisors",
         "publisher-place": "San Francisco",
         "issued": 1898
+    },
+    "Turnhout": {
+        "type": "book",
+        "title": "Turnhout?",
+        "author": [
+            {
+                "family": "Tilman",
+                "given": "E."
+            },
+            {
+                "family": "van Autenboer",
+                "given": "E."
+            }
+        ],
+        "publisher": "Nationaal Museum van de Speelkaart",
+        "publisher-lang": "nl",
+        "publisher-place": "Turnhout",
+        "issued": 1983
     }
 }
