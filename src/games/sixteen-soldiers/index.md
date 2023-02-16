@@ -6,6 +6,8 @@ players: 2
 subgames:
 - title: Sixteen Pursue the General
   originalTitle: <span lang="zh">十六趕將軍</span>
+- title: Water Drowns the Monk
+  originalTitle: <span lang="zh">水淹和尚</span>
 ---
 
 Sixteen Soldiers (<span lang="ja">十六武蔵</span> <span lang="ja-Latn">jūroku
@@ -69,7 +71,7 @@ Gahō</span> in 1909.
 Initial setup of the Chinese board.
 {% imageEnd %}
 
-In China the game is called “Sixteen pursue the general” (<span lang="zh">十六趕將軍</span>, Mandarin: {%pronounce lang="zh_-Latn" word="Shí liù gǎn jiāng jūn" file="pronunciation_zh_十六趕將軍.mp3" pronouncer="j10oyc24e" %},
+In China the game is called “Sixteen pursue the general” (<span lang="zh">十六趕將軍</span>, Mandarin: {%pronounce lang="zh-Latn-pinyin" word="Shí liù gǎn jiāng jūn" file="pronunciation_zh_十六趕將軍.mp3" pronouncer="j10oyc24e" %},
 Cantonese: <span lang="yue-Latn-jyutping">sap6 luk6 gon2 zoeng1 gwan1</span>).[@Himly p.
 469][@CulinChess p. 874]{%fn%}In older works this is transliterated <span
 lang="yue-Latn">Shap luk kong tséung kwan</span> or <span lang="yue-Latn">Šĭ liu
@@ -77,6 +79,19 @@ kan tsiang kün</span>.{%endfn%}
 
 The rules of the game are the same as the Japanese version, but it is played on
 a slightly different board, with a different extension and 29 points.
+
+## Water Drowns the Monk
+
+{% image src="water_drowns_monk.svg" alt="" %}
+Initial setup of the Sichuan/Tibetan board.
+{% imageEnd %}
+
+This version, called “Water Drowns the Monk” (<span lang="zh">水淹和尚</span>,
+Mandarin: <span lang="zh-Latn-pinyin">Shuǐ yān héshàng</span>) was reported to
+be played by shepherds in Sichuan and Tibet (which share a border). The “water” player has 15 pieces
+and the “monk” player has one. Entering the monk between two water pieces to
+remove them was termed “carrying water”. The goal of the water player was to
+drive the monk into the “monastery” extension and pin them there.[@DieFandse p. 168]
 
 ## See also
 

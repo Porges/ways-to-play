@@ -758,7 +758,7 @@
         "author": [
             {
                 "family": "Datta",
-                "given": "Jahinda Mohan"
+                "given": "Jatindra Mohan"
             }
         ],
         "container-title": "Journal of the Asiatic Society of Bengal",
@@ -768,6 +768,23 @@
             "year": 1933
         },
         "URL": "https://archive.org/stream/in.ernet.dli.2015.55416/2015.55416.Journal-Of-The-Asiatic-Society-Of-Bengalnew-Seriesvol29-1933#page/n203/mode/2up"
+    },
+    "LalHora": {
+        "type": "article-journal",
+        "title": "Sedentary Games of India",
+        "author": [
+            {
+                "family": "Hora",
+                "given": "Sunder Lal"
+            }
+        ],
+        "container-title": "Journal of the Asiatic Society of Bengal",
+        "volume": "29 (New Series)",
+        "page": "5-11",
+        "issued": {
+            "year": 1933
+        },
+        "URL": "https://archive.org/stream/in.ernet.dli.2015.55416/2015.55416.Journal-Of-The-Asiatic-Society-Of-Bengalnew-Seriesvol29-1933#page/n17/mode/2up"
     },
     "Humphries": {
         "type": "article-journal",
@@ -9854,7 +9871,7 @@
     "UsefulTreesAndShrubsInEritrea": {
         "type": "book",
         "URL": "http://apps.worldagroforestry.org/downloads/Publications/PDFS/B10462.pdf",
-        "title":"Useful Trees and Shrubs in Eritrea",
+        "title": "Useful Trees and Shrubs in Eritrea",
         "author": [
             {
                 "given": "E.",
@@ -9903,7 +9920,7 @@
         "URL": "https://archive.org/details/dictionnairehis04conggoog",
         "title": "Dictionnaire Historique de L’Ancien Langage François",
         "title-lang": "fr",
-        "author":  [
+        "author": [
             {
                 "given": "Jean-Baptiste",
                 "family": "de La Curne de Sainte-Palaye"
@@ -9945,7 +9962,7 @@
     },
     "PlayboysIllustratedTreasury": {
         "type": "book",
-        "title":"Playboy’s Illustrated Treasury of Gambling",
+        "title": "Playboy’s Illustrated Treasury of Gambling",
         "URL": "https://archive.org/details/isbn_9788517589584",
         "author": [
             {
@@ -9993,5 +10010,29 @@
         "publisher-lang": "nl",
         "publisher-place": "Turnhout",
         "issued": 1983
+    },
+    "DieFandse": {
+        "type": "article-journal",
+        "title": "Die Fandse: Ein Beitrag Zur Volkskunde Von Kham",
+        "title-lang": "de",
+        "author": [
+            {
+                "family": "任",
+                "given": "乃强",
+                "lang": "zh",
+                "alt": "Jen Nai-ch’aing",
+                "alt-lang": "zh-Latn"
+            },
+            {
+                "family": "Schröder",
+                "given": "Dominikus",
+                "lang": "de"
+            }
+        ],
+        "container-title": "Folklore Studies",
+        "issued": 1946,
+        "URL": "https://www.jstor.org/stable/3182935",
+        "volume": 5,
+        "page": "I–IV & 1–190"
     }
 }

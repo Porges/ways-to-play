@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 700 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <path d="M60,50L60,450L460,450L460,250L560,350L560,150L460,250L460,50L60,50Z" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M60,150L460,150" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M60,250L660,250" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M60,350L460,350" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M360,50L360,450" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M260,50L260,450" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M160,50L160,450" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M560,150L660,250L560,350" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M60,250L260,50L460,250L260,450L60,250Z" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M60,50L460,450" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <path d="M460,50L60,450" style="fill:none;stroke:black;stroke-width:1px;"/>
+    <g>
+        <circle cx="60" cy="50" r="5"/>
+        <circle cx="160" cy="50" r="5"/>
+        <circle cx="260" cy="50" r="5"/>
+        <circle cx="360" cy="50" r="5"/>
+        <circle cx="460" cy="50" r="5"/>
+    </g>
+    <g>
+        <circle cx="60" cy="150" r="5"/>
+        <circle cx="160" cy="150" r="5"/>
+        <circle cx="260" cy="150" r="5"/>
+        <circle cx="360" cy="150" r="5"/>
+        <circle cx="460" cy="150" r="5"/>
+        <circle cx="560" cy="150" r="5"/>
+        <circle cx="660" cy="250" r="5"/>
+        <circle cx="560" cy="350" r="5"/>
+        <circle cx="560" cy="250" r="5"/>
+    </g>
+    <g>
+        <circle cx="60" cy="250" r="5"/>
+        <circle cx="160" cy="250" r="5"/>
+        <circle cx="260" cy="250" r="5"/>
+        <circle cx="360" cy="250" r="5"/>
+        <circle cx="460" cy="250" r="5"/>
+    </g>
+    <g>
+        <circle cx="60" cy="350" r="5"/>
+        <circle cx="160" cy="350" r="5"/>
+        <circle cx="260" cy="350" r="5"/>
+        <circle cx="360" cy="350" r="5"/>
+        <circle cx="460" cy="350" r="5"/>
+    </g>
+    <g>
+        <circle cx="60" cy="450" r="5"/>
+        <circle cx="160" cy="450" r="5"/>
+        <circle cx="260" cy="450" r="5"/>
+        <circle cx="360" cy="450" r="5"/>
+        <circle cx="460" cy="450" r="5"/>
+    </g>
+    <g id="Layer1">
+        <circle cx="60" cy="50" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="60" cy="150" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="60" cy="250" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="60" cy="350" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="60" cy="450" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="160" cy="450" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="260" cy="450" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="360" cy="450" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="460" cy="450" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="460" cy="350" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="460" cy="150" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="460" cy="50" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="360" cy="50" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="260" cy="50" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <circle cx="160" cy="50" r="20" style="fill:rgb(0,163,224);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        <g transform="matrix(1,0,0,1,200,0)">
+            <circle cx="260" cy="250" r="40" style="fill:rgb(217,2,125);stroke:rgb(48,46,44);stroke-width:1px;"/>
+        </g>
+    </g>
+</svg>
