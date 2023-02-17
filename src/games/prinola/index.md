@@ -4,6 +4,9 @@ titleLang: fil
 players:
     min: 2
     max: 100
+subgames:
+- title: Dadu Putar
+  titleLang: id
 ---
 
 <p class="lead"><span lang="fil" class="noun">Prinola</span> is a {%a staking-games,simple staking game%} that
@@ -42,3 +45,11 @@ A photograph of implements for Prinola, from @ChineseGames [pl. 2].
 Players place their stakes on any of the partitions on the layout. The banker
 then spins the teetotum. Any players who selected the square that the teetotum
 shows win 4× their stake. All other stakes are lost.
+
+## Dadu Putar
+
+In Indonesia the game has been called <span lang="id">Dadu Putar</span>
+(‘spinning die’), and was popular amongst Javanese labourers and
+miners.[@GamesAndDances p. 330] The top would be covered with a coconut shell or
+specially-made wooden cover whilst it was spinning. Evidence found online shows
+that the game is still played in this manner today.

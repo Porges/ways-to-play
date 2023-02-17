@@ -10034,5 +10034,77 @@
         "URL": "https://www.jstor.org/stable/3182935",
         "volume": 5,
         "page": "I–IV & 1–190"
+    },
+    "MalayIndoor": {
+        "type": "article-journal",
+        "title": "Notes on Malay Indoor Games",
+        "URL": "https://archive.org/details/biostor-241894",
+        "container-title": "Journal of the Straits Branch of the Royal Asiatic Society",
+        "volume": 80,
+        "issued": 1919,
+        "page": "68-71",
+        "author": [
+            {
+                "family": "Dussek",
+                "given": "O. T."
+            }
+        ]
+    },
+    "HosOfKolhan": {
+        "type": "article-journal",
+        "title": "Some Outdoor and Sedentary Games of the Hos of Kolhan",
+        "author": [
+            {
+                "family": "Majumdar",
+                "given": "D. N."
+            }
+        ],
+        "container-title": "Man in India",
+        "volume": 5,
+        "issued": 1925,
+        "page": "193–202",
+        "URL": "https://archive.org/details/in.ernet.dli.2015.56127/page/n199/mode/2up"
+    },
+    "GamesAndDances": {
+        "type": "book",
+        "title": "Games and Dances in Celebes",
+        "author": [
+            {
+                "given": "Walter",
+                "family": "Kaudern"
+            }
+        ],
+        "URL": "https://archive.org/details/dli.ernet.501360",
+        "issued": 1925
+    },
+    "GamesOfTheTibetans": {
+        "type": "book",
+        "title": "Games of the Tibetans",
+        "publisher": "Suomalainen Tiedeakatemia/Academia Scientiarum Fennica",
+        "publisher-place": "Helsinki",
+        "issued": 1963,
+        "author": [
+            {
+                "given": "Siegbert",
+                "family": "Hummel"
+            },
+            {
+                "given": "Paul G.",
+                "family": "Brewster"
+            }
+        ]
+    },
+    "Tawula": {
+        "type": "book",
+        "title": "<span lang='ar-Latn'>Tāwula</span>: A Study in Arabic Folklore",
+        "publisher": "Suomalainen Tiedeakatemia/Academia Scientiarum Fennica",
+        "publisher-place": "Helsinki",
+        "issued": 1974,
+        "author": [
+            {
+                "given": "Robert A.",
+                "family": "Barakat"
+            }
+        ]
     }
 }

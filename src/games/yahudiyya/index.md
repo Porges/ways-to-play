@@ -11,4 +11,4 @@ table-games,table game %} for two players.
 
 See: @DimensionsOfBookOfGames.
 
-Original source: Tāwula: A Study in Arabic Folklore.
+Original source: [@Tawula]

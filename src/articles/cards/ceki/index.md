@@ -1049,7 +1049,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 5</th>
 <td><span lang="ms">go</span> (Hokkien gō͘)</td>
-<td><span lang="min">babi</span> ‘pig’ (nostrils?)</td>
+<td><span lang="min">babi</span> ‘pig’ (looks like nostrils)</td>
 <!-- Java -->
 <td></td>
 <td></td>
@@ -1150,13 +1150,13 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ms">go ban</span></td>
 <td><span lang="min">babi aluih</span> <br />genteel pig</td>
 <!-- Java -->
-<td><span lang="jv">ꦧꦧꦶꦕꦶꦤ</span><br/><span lang="jv-Latn">babi cina</span><br/></td>
-<td><span lang="jv-Latn">gombal</span></td>
-<td><span lang="jv-Latn">lima cina</span></td>
-<td><span lang="jv-Latn">babi</span></td>
-<td><span lang="jv-Latn">lima cina, babi</span></td>
+<td><span lang="jv">ꦧꦧꦶꦕꦶꦤ</span><br/><span lang="jv-Latn">babi cina</span><br/>pig China</td>
+<td><span lang="jv-Latn">gombal</span><br/>rag</td>
+<td><span lang="jv-Latn">lima cina</span><br/>China five</td>
+<td><span lang="jv-Latn">babi</span><br/>pig</td>
+<td><span lang="jv-Latn">lima cina, babi</span><br/>China five, pig</td>
 <td><span lang="jv-Latn">babi wong</span><br />pig person</td>
-<td><span lang="jv-Latn">wong babi</span></td>
+<td><span lang="jv-Latn">wong babi</span><br/>person pig</td>
 <!-- Bali -->
 <td><span lang="ban">bongkar</span><br />[unload: forklift?]</td>
 <td><span lang="ban">bongkar</span></td>
@@ -1224,16 +1224,16 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jv-Latn">mendhung</span><br />dark rain cloud</td>
 <td><span lang="jv-Latn">kerok</span><br/>curry-comb</td>
 <!-- Bali -->
-<td><span lang="ban">nyem</span><br />[unknown]</td>
-<td><span lang="ban">pis nem</span></td>
-<td><span lang="ban">pis nem</span></td>
-<td><span lang="ban">pis nem</span></td>
-<td><span lang="ban">pis nem</span></td>
-<td><span lang="ban">tima nem (pipis nem)</span></td>
-<td><span lang="ban">tima nem (pipis nem)</span></td>
+<td><span lang="ban">nyem</span><br />[pun on six?]</td>
+<td><span lang="ban">pis nem</span><br/>six coins</td>
+<td><span lang="ban">pis nem</span><br/>six coins</td>
+<td><span lang="ban">pis nem</span><br/>six coins</td>
+<td><span lang="ban">pis nem</span><br/>six coins</td>
+<td><span lang="ban">tima nem (pipis nem)</span><br/>six coins</td>
+<td><span lang="ban">tima nem (pipis nem)</span><br/>six coins</td>
 <!-- Lombok -->
 <td><span lang="ban">pis nem</span><br/>six coins</td>
-<td><span lang="ban">tima nem (pipis nem)</span></td>
+<td><span lang="ban">tima nem (pipis nem)</span><br/>six coins</td>
 <!-- Borneo -->
 <td><span lang="bjn">kerok</span></td>
 <!-- Sulawesi -->
@@ -1283,18 +1283,18 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="min">kapik aluih</span><br />grilled genteel</td>
 <!-- Java -->
 <td><span lang="jv">ꦕꦶꦤꦒ꦳ꦥꦶꦠ꧀</span><br/><span lang="jv-Latn">cina ghapit</span><br/>Chinese tongs</td>
-<td><span lang="jv-Latn">nem cina</span></td>
-<td><span lang="jv-Latn">nem cina</span></td>
+<td><span lang="jv-Latn">nem cina</span><br/>China six</td>
+<td><span lang="jv-Latn">nem cina</span><br/>China six</td>
 <td><span lang="jv-Latn">siyong bombyok</span></td>
-<td><span lang="jv-Latn">nem cina</span></td>
+<td><span lang="jv-Latn">nem cina</span><br/>China six</td>
 <td><span lang="jv-Latn">gabit</span><br />[probably tongs]</td>
 <td><span lang="jv-Latn">wong gapit</span><br/>tongs person</td>
 <!-- Bali -->
 <td><span lang="ban">klenténg</span><br />Chinese temple</td>
 <td><span lang="ban">leteng</span></td>
-<td><span lang="ban">burat</span></td>
-<td><span lang="ban">burat</span></td>
-<td><span lang="ban">buat</span></td>
+<td><span lang="ban">burat</span><br/>makeup</td>
+<td><span lang="ban">burat</span><br/>makeup</td>
+<td><span lang="ban">buat</span><br/>[makeup?]</td>
 <td><span lang="ban">megat (gapit)</span></td>
 <td><span lang="ban">megat</span></td>
 <!-- Lombok -->
@@ -1357,9 +1357,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jv-Latn">layar</span><br/>sail</td>
 <!-- Bali -->
 <td><span lang="ban">paku</span><br/>[fern?]</td>
-<td><span lang="ban">pis tu</span></td>
-<td><span lang="ban">pis tu</span></td>
-<td><span lang="ban">pipis pitu</span></td>
+<td><span lang="ban">pis tu</span><br/></td>
+<td><span lang="ban">pis tu</span><br/></td>
+<td><span lang="ban">pipis pitu</span><br/>seven coins</td>
 <td><span lang="ban">bendera</span></td>
 <td><span lang="ban">bendera (layar)</span></td>
 <td><span lang="ban">bendera (layar)</span></td>
@@ -1415,10 +1415,10 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="min">sisiak aluih</span><br />genteel scales</td>
 <!-- Java -->
 <td><span lang="jv">ꦫꦺꦪꦧ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">réyab cina</span><br/></td>
-<td><span lang="jv-Latn">pitu cina</span></td>
-<td><span lang="jv-Latn">pitu cina</span></td>
-<td><span lang="jv-Latn">pitu cina</span></td>
-<td><span lang="jv-Latn">pitu cina</span></td>
+<td><span lang="jv-Latn">pitu cina</span><br/>China seven</td>
+<td><span lang="jv-Latn">pitu cina</span><br/>China seven</td>
+<td><span lang="jv-Latn">pitu cina</span><br/>China seven</td>
+<td><span lang="jv-Latn">pitu cina</span><br/>China seven</td>
 <td><span lang="jv-Latn">reab wong</span><br />[unknown]</td>
 <td><span lang="jv-Latn">wong kereg</span></td>
 <!-- Bali -->
@@ -1489,10 +1489,10 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jv-Latn">picis, buthak, buthak tai</span></td>
 <!-- Bali -->
 <td><span lang="ban">sekutus</span><br />[adj:eight?]</td>
-<td><span lang="ban">pis tus</span></td>
-<td><span lang="ban">pis tus</span></td>
-<td><span lang="ban">pipis kutus</span></td>
-<td><span lang="ban">pis tus</span></td>
+<td><span lang="ban">pis tus</span><br/>eight coins</td>
+<td><span lang="ban">pis tus</span><br/>eight coins</td>
+<td><span lang="ban">pipis kutus</span><br/>eight coins</td>
+<td><span lang="ban">pis tus</span><br/>eight coins</td>
 <td><span lang="ban">tima kutus</span></td>
 <td><span lang="ban">tima kutus</span></td>
 <!-- Lombok -->
@@ -1548,9 +1548,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Java -->
 <td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">lêkok cina</span><br/></td>
 <td><span lang="jv-Latn">budheg</span><br/>[deaf/stupid?]</td>
-<td><span lang="jv-Latn">wolu cina</span></td>
+<td><span lang="jv-Latn">wolu cina</span><br/>China eight</td>
 <td><span lang="jv-Latn">budheg</span><br/>[deaf/stupid?]</td>
-<td><span lang="jv-Latn">wolu cina</span></td>
+<td><span lang="jv-Latn">wolu cina</span><br/>China eight</td>
 <td><span lang="jv-Latn">lekok wong</span><br />dented person</td>
 <td><span lang="jv-Latn">wong buthak</span></td>
 <!-- Bali -->
@@ -1623,7 +1623,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ban">sanga</span><br />nine</td>
 <td><span lang="ban">sanga</span><br />nine</td>
 <td><span lang="ban">sanga</span><br />nine</td>
-<td><span lang="ban">pis sanga</span><br/>money nine</td>
+<td><span lang="ban">pis sanga</span><br/>nine coins</td>
 <td><span lang="ban">sanga</span><br />nine</td>
 <td><span lang="ban">trompong</span><br/>Balinese gamelan</td>
 <td><span lang="ban">terompong</span><br/>[probably Balinese gamelan]</td>

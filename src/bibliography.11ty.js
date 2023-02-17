@@ -18,9 +18,9 @@ function sortKey(r) {
 // matches that in .eleventy.js - TODO extract
 const citeExtrator = /((?<!\w)@(?<id1>(_|[^\s\p{P}])+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>(_|[^\s\p{P}])+)(,?\s+(?<what2>[^\]]+))?\])/ug;
 
-function buildLookup(coll, refs) {
+async function buildLookup(coll, refs) {
     for (const c of coll) {
-        const content = c.template.inputContent;
+        const content = await c.template.inputContent;
         const cites = content.matchAll(citeExtrator);
         const processed = new Map();
         for (const cite of cites) {
@@ -50,8 +50,8 @@ function renderBackreferences(ref, refs) {
 
 exports.render = async function (data) {
     const refs = new Map();
-    buildLookup(data.collections.article, refs);
-    buildLookup(data.collections.game, refs);
+    await buildLookup(data.collections.article, refs);
+    await buildLookup(data.collections.game, refs);
     const locale = new Intl.Collator('en');
     const file = await fs.readFile(path.join(__dirname, "../bibliography.json"), 'utf8');
     const biblio = Object.entries(JSON.parse(file)).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));
