@@ -1,9 +1,8 @@
 import { renderExplicitDate, formatNumberString, asAttr, isolate, ifSet } from './helpers';
 import { Author, Date } from './types';
 
-
 import ordinal from 'ordinal';
-const ISBN = require('isbn3');
+import ISBN from 'isbn3';
 
 export function renderReference(ref: Reference): string {
     const { id, type } = ref;
@@ -141,7 +140,7 @@ const renderAuthors = (reference: Reference) => {
 
 const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: boolean, itemprop: string) => {
     const renderFamily = (a: Author, ix: number) =>
-        `<span itemprop="familyName">${a.family}</span>${ifSet(period && ix > 0 && ix === (as.length - 1) && !a.family.endsWith('.'), '.')}`;
+        `<span itemprop="familyName">${a.family}</span>${ifSet(period && ix > 0 && ix === (as.length - 1) && !a.family?.endsWith('.'), '.')}`;
 
     const renderGiven = (a: Author, ix: number) => {
         if (typeof a.given === 'string') {

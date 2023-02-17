@@ -73,6 +73,7 @@ export type Article<D=Data> = {
 
 export type Context = {
   eleventyNavigation(this: Context, collection: any): Article[];
+  asAttr(name: string, value: string | undefined): string;
 };
 
 export type Players = 
@@ -83,6 +84,7 @@ export type Players =
 export type GameData = Data & {
   players: Players|undefined,
   equipment: string|undefined,
+  variant?: boolean;
   subgames: {
     title: string,
     titleLang?: string

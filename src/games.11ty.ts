@@ -1,15 +1,25 @@
 import { IS_PRODUCTION, ifSet } from '../helpers';
 
 import slug from 'slug';
-import { Context, Data, Players } from '../types';
+import { Article, Context, Data, GameData, Players } from '../types';
 
 export const data = {
     title: "Games",
     layout: "columned"
 };
 
-function renderGames() {
-    let allGames = GAMES;
+type RenderableGame = {
+    players: number[],
+    equipment?: string,
+    variant?: boolean,
+    url: string,
+    title: string,
+    titleLang?: string,
+    originalTitle?: string,
+    draft?: boolean,
+};
+
+function renderGames(allGames: RenderableGame[]) {
     const dest = document.getElementById('games-list')!;
     const params = new URLSearchParams(window.location.search);
 
@@ -50,7 +60,7 @@ function renderGames() {
 }
 
 export function render(this: Context, data: Data) {
-    const expandPlayers = (title: string, players: Players|undefined) => {
+    const expandPlayers = (title: string, players: Players | undefined) => {
         if (players === undefined) {
             console.warn('No players specified for ' + title);
             return [];
@@ -76,7 +86,7 @@ export function render(this: Context, data: Data) {
         throw new Error("cannot handle players: " + players);
     }
 
-    const expandedGames = data.collections.game.filter(g => !IS_PRODUCTION || !g.data.draft).flatMap(g =>
+    const expandedGames: RenderableGame[] = data.collections.game.filter(g => !IS_PRODUCTION || !g.data.draft).flatMap(g =>
         [
             {
                 title: g.data.title,
@@ -134,14 +144,14 @@ export function render(this: Context, data: Data) {
                 } else {
                     window.history.pushState(null, null, window.location.pathname);
                 }
-                renderGames();
+                renderGames(GAMES);
             }
         }
 
         window.addEventListener('DOMContentLoaded', () => {
             handleSelect(document.getElementById('player-select'), 'players');
             handleSelect(document.getElementById('equipment-select'), 'equipment');
-            renderGames();
+            renderGames(GAMES);
         });
         </script>`;
 
