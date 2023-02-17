@@ -1,37 +1,28 @@
-const { renderExplicitDate, formatNumberString, asAttr, isolate, ifSet } = require('./helpers');
+import { renderExplicitDate, formatNumberString, asAttr, isolate, ifSet } from './helpers';
+import { Author, Date } from './types';
 
-const ordinal = require('ordinal');
+
+import ordinal from 'ordinal';
 const ISBN = require('isbn3');
 
-/**
- * @typedef {import('./types').Reference} Reference
- * @typedef {import('./types').Author} Author
- */
+export function renderReference(ref: Reference): string {
+    const { id, type } = ref;
 
-module.exports = {
-
-    /**
-     * @param {Reference} ref
-     */
-    renderReference: function (ref) {
-        const { id, type } = ref;
-
-        // fixup
-        if (typeof ref.issued === 'number') {
-            ref.issued = { year: ref.issued };
-        }
-
-        return `<p itemscope itemtype="${itemtypes[type]}" id="ref-${id}" itemprop="citation">`
-            + renderAuthors(ref)
-            + renderDate(ref)
-            + renderTitle(ref)
-            + renderPatentBits(ref)
-            + renderContainer(ref)
-            + renderPublisher(ref)
-            + renderISBN(ref)
-            + renderWarningsAndNotes(ref)
-            + '</p>';
+    // fixup
+    if (typeof ref.issued === 'number') {
+        ref.issued = { year: ref.issued };
     }
+
+    return `<p itemscope itemtype="${itemtypes[type]}" id="ref-${id}" itemprop="citation">`
+        + renderAuthors(ref)
+        + renderDate(ref)
+        + renderTitle(ref)
+        + renderPatentBits(ref)
+        + renderContainer(ref)
+        + renderPublisher(ref)
+        + renderISBN(ref)
+        + renderWarningsAndNotes(ref)
+        + '</p>';
 }
 
 const itemtypes = {
@@ -49,10 +40,39 @@ const itemtypes = {
     'patent': 'http://schema.org/CreativeWork',
 };
 
-/** 
- * @param {Reference} ref
- */
-function renderWarningsAndNotes(reference) {
+export type Reference = {
+  type: keyof typeof itemtypes,
+  id: string,
+  title: string,
+  ['title-lang']?: string,
+  author?: readonly Author[],
+  editor?: readonly Author[],
+  URL?: string,
+  ['archive-URL']?: string,
+  ISBN?: string | number,
+  ['container-title']?: string,
+  ['container-title-lang']?: string,
+  edition?: number,
+  volume?: string | number,
+  issue?: string | number,
+  ['original-date']?: { year: number },
+  issued?: { year: number } | { year: number, month: number } | { year: number, month: number, day: number } | { year: number, season: string },
+  ['publisher-place']?: string,
+  publisher?: string,
+  ['publisher-lang']?: string,
+  page?: string | number,
+  warnings?: string,
+  notes?: string,
+
+  genre?: string, // for theses
+
+  filed?: { year: number, month: number, day: number }, // for patents
+  applicationNumber?: string | number,
+  patentNumber?: string | number,
+};
+
+
+function renderWarningsAndNotes(reference: Reference) {
     let result = '';
 
     if (reference.warnings) {
@@ -66,10 +86,7 @@ function renderWarningsAndNotes(reference) {
     return result;
 };
 
-/**
- * @param {Reference} ref
- */
-function renderPatentBits(reference) {
+function renderPatentBits(reference: Reference) {
     if (reference.type !== 'patent') return '';
 
     const filed = reference.filed ? renderExplicitDate(reference.filed, false) : '';
@@ -77,18 +94,14 @@ function renderPatentBits(reference) {
 
     return (
         (reference.patentNumber
-            ? `Patent ${formatNumberString(reference.patentNumber)}${ifSet(reference.applicationNumber, ` (application ${formatNumberString(reference.applicationNumber)}`)}.`
-            : ifSet(reference.applicationNumber, `Patent application ${formatNumberString(reference.applicationNumber)}.`))
+            ? `Patent ${formatNumberString(reference.patentNumber)}${ifSet(reference.applicationNumber, ` (application ${formatNumberString(reference.applicationNumber || "")}`)}.`
+            : ifSet(reference.applicationNumber, `Patent application ${formatNumberString(reference.applicationNumber || "")}.`))
         + ifSet(filed, ` Filed ${filed}.`)
         + ifSet(issued, ` Issued ${issued}.`)
     );
 }
 
-/**
- * @param {Reference} reference
- * @returns {string}
- */
-function renderTitle(reference) {
+function renderTitle(reference: Reference) {
     const lang = reference["title-lang"];
 
     const linked =
@@ -103,8 +116,8 @@ function renderTitle(reference) {
 
     if (reference.type === 'book' || reference.type === 'thesis') {
         return `<cite itemprop="name"${asAttr('lang', lang)}>${isolate(linked)}</cite>`
-            + ifSet(reference.edition, () => ` (${ordinal(reference.edition)} edition)`)
-            + ifSet(reference.volume, () => ` (volume ${formatNumberString(reference.volume)})`)
+            + ifSet(reference.edition, e => ` (${ordinal(e)} edition)`)
+            + ifSet(reference.volume, v => ` (volume ${formatNumberString(v)})`)
             + archiveURL
             + `. `;
     } else {
@@ -112,11 +125,7 @@ function renderTitle(reference) {
     }
 }
 
-/**
- * @param {Reference} reference 
- * @returns {string}
- */
-const renderAuthors = (reference) => {
+const renderAuthors = (reference: Reference) => {
     if (reference.author) {
         return `${renderPeople(reference.author, true, false, 'author')} `;
     } else if ('editor' in reference && reference.editor) {
@@ -130,18 +139,11 @@ const renderAuthors = (reference) => {
     }
 }
 
-/**
- * @param {readonly Author[]} as
- * @param {boolean} reverseFirst
- * @param {boolean} period
- * @param {string} itemprop
- * @returns {string}
- */
-const renderPeople = (as, reverseFirst, period, itemprop) => {
-    const renderFamily = (/** @type {Author} */ a, /** @type {number} */ ix) =>
+const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: boolean, itemprop: string) => {
+    const renderFamily = (a: Author, ix: number) =>
         `<span itemprop="familyName">${a.family}</span>${ifSet(period && ix > 0 && ix === (as.length - 1) && !a.family.endsWith('.'), '.')}`;
 
-    const renderGiven = (/** @type {Author} */ a, /** @type {number} */ ix) => {
+    const renderGiven = (a: Author, ix: number) => {
         if (typeof a.given === 'string') {
             return `<span itemprop="givenName">${a.given}</span>${ifSet(period && reverseFirst && ix === 0 && ix === (as.length - 1) && !a.given.endsWith('.'), '.')}`;
         } else {
@@ -151,10 +153,10 @@ const renderPeople = (as, reverseFirst, period, itemprop) => {
         }
     };
 
-    const reverseName = (/** @type {Author} */ a) => a.lang === undefined ? false : (a.lang.startsWith('zh') || a.lang.startsWith('ja'));
-    const hiddenName = (/** @type {Author} */ a) => `<meta itemprop="name" content="${reverseName(a) ? `${a.family}${a.given}` : `${a.given} ${a.family}`}" />`;
+    const reverseName = (a: Author) => a.lang === undefined ? false : (a.lang.startsWith('zh') || a.lang.startsWith('ja'));
+    const hiddenName = (a: Author) => `<meta itemprop="name" content="${reverseName(a) ? `${a.family}${a.given}` : `${a.given} ${a.family}`}" />`;
 
-    const altName = (/** @type {Author} */ a) => {
+    const altName = (a: Author) => {
         if (!a.alt) {
             return "";
         }
@@ -176,11 +178,7 @@ const renderPeople = (as, reverseFirst, period, itemprop) => {
         + altName(a))).join('');
 };
 
-/**
- * @param {Reference} reference
- * @returns {string}
- */
-const renderISBN = (reference) => {
+const renderISBN = (reference: Reference) => {
     if (!reference.ISBN) {
         return '';
     }
@@ -196,11 +194,7 @@ const renderISBN = (reference) => {
     return `<abbr class="initialism">ISBN</abbr>: <a itemprop="isbn" href="https://www.worldcat.org/isbn/${formattedISBN}">${formattedISBN}</a>. `;
 };
 
-/**
- * @param {Reference} reference
- * @returns {string}
- */
-const renderDate = (reference) => {
+const renderDate = (reference: Reference) => {
     if (reference.issued) {
         const original =
             reference['original-date']
@@ -222,9 +216,9 @@ const renderDate = (reference) => {
     return 'n.d. ';
 }
 
-function toIsoDate(ymd) {
+function toIsoDate(ymd: Date) {
     let result = `${ymd.year}`;
-    if (ymd.month) {
+    if ('month' in ymd) {
         result += `-${ymd.month.toString().padStart(2, '0')}`;
 
         if (ymd.day) {
@@ -235,29 +229,20 @@ function toIsoDate(ymd) {
     return result;
 }
 
-/**
- * @param {Reference} reference
- * @returns {string}
- */
-const renderPublisher = (reference) => {
+const renderPublisher = (reference: Reference) => {
     const publisher =
         ifSet(reference.publisher,
-            () => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span>${reference['publisher-place'] ? ': ' : (reference.publisher.endsWith('.') ? ' ' : '. ')}`)
-        + ifSet(reference['publisher-place'],
-            () => `${reference['publisher-place']}. `);
+            (p) => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${p}</span>${reference['publisher-place'] ? ': ' : (p)}`)
+        + ifSet(reference['publisher-place'], pp => `${pp}. `);
 
     if (reference.type === 'thesis') {
-        return ifSet(reference['genre'], ` ${reference['genre']}, `) + publisher;
+        return ifSet(reference['genre'], g => ` ${g}, `) + publisher;
     }
 
     return publisher;
 };
 
-/**
- * @param {Reference} reference
- * @returns {string}
- */
-const renderContainer = (reference) => {
+const renderContainer = (reference: Reference) => {
     if (!('container-title' in reference)) {
         return '';
     }
@@ -279,7 +264,7 @@ const renderContainer = (reference) => {
         case 'chapter':
         case 'paper-conference':
             return ` In <cite${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                + `${ifSet(reference.editor, () => `, edited by ${renderPeople(reference.editor, false, false, 'editor')}`)}`
+                + `${ifSet(reference.editor, e => `, edited by ${renderPeople(e, false, false, 'editor')}`)}`
                 + pageSuffix;
 
         case 'article-magazine':

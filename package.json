@@ -6,9 +6,9 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "sass --no-source-map --watch src/sass/index.scss:public/css/index.css src/sass/print.scss:public/css/print.css",
-    "watch:eleventy": "eleventy --serve",
+    "watch:eleventy": "node --require esbuild-register node_modules/.bin/eleventy --serve",
     "build:sass": "sass --no-source-map src/sass/index.scss:public/css/index.css src/sass/print.scss:public/css/print.css",
-    "build:eleventy": "eleventy",
+    "build:eleventy": "node --require esbuild-register node_modules/.bin/eleventy",
     "build:eleventy-print": "cross-env IS_PRINT=print eleventy --output=print",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development npm-run-all build:sass --parallel watch:*",
@@ -22,11 +22,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@fec/eleventy-plugin-remark": "^3.0.0",
     "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@types/node": "^18.13.0",
+    "@types/slug": "^5.0.3",
     "bootstrap": "^5.1.3",
     "cross-env": "^7.0.3",
     "cssnano": "^5.1.0",
@@ -47,5 +49,8 @@
     "sass": "^1.49.9",
     "serve": "^14.0.1",
     "slug": "^8.0.0"
+  },
+  "dependencies": {
+    "esbuild-register": "^3.4.2"
   }
 }

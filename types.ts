@@ -46,37 +46,8 @@ export type SizePosition
   | { size?: "small", position?: "left" | "right" | "aside" }
   | { size: "extra-wide", position?: "aside" };
 
-export type Reference = Readonly<{
-  type: string,
-  id: string,
-  title: string,
-  ['title-lang']?: string,
-  author?: readonly Author[],
-  editor?: readonly Author[],
-  URL?: string,
-  ArchiveURL?: string,
-  ISBN?: string | number,
-  ['container-title']?: string,
-  ['container-title-lang']?: string,
-  volume?: string | number,
-  issue?: string | number,
-  ['original-date']?: { year: number },
-  issued?: { year: number } | { year: number, month: number } | { year: number, month: number, day: number } | { year: number, season: string },
-  ['publisher-place']?: string,
-  publisher?: string,
-  ['publisher-lang']?: string,
-  page?: string | number,
-  warnings?: string,
-  notes?: string,
 
-  genre?: string, // for theses
-
-  filed?: { year: number, month: number, day: number }, // for patents
-  applicationNumber?: string | number,
-  patentNumber?: string | number,
-}>
-
-type Author = {
+export type Author = {
   readonly family?: string,
   readonly given: (readonly string[] | string),
   readonly lang?: string,
@@ -84,8 +55,52 @@ type Author = {
   readonly ["alt-lang"]?: string
 }
 
-type Date
-  = { year: number, month: number, day: number }
-  | { year: number, month: number }
+export type Date
+  = { year: number, month: number, day?: number }
   | { year: number, season: string }
   | { year: number };
+
+//11ty types
+
+export type Article<D=Data> = {
+  draft?: boolean,
+  title: string,
+  titleLang?: string,
+  url: string,
+  children: readonly Article[],
+  data: D,
+};
+
+export type Context = {
+  eleventyNavigation(this: Context, collection: any): Article[];
+};
+
+export type Players = 
+  | number
+  | number[]
+  | { min: number, max: number };
+
+export type GameData = Data & {
+  players: Players|undefined,
+  equipment: string|undefined,
+  subgames: {
+    title: string,
+    titleLang?: string
+    originalTitle?: string,
+    players: Players|undefined,
+    equipment: string|undefined,
+    slug?: string,
+  }[]
+};
+
+export type Data = {
+  title: string,
+  titleLang?: string,
+  originalTitle?: string,
+  draft?: boolean,
+  collections: {
+    all: any;
+    article: Article[],
+    game: Article<GameData>[],
+  }
+};

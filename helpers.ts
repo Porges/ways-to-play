@@ -1,38 +1,24 @@
-const { env } = require('process');
-const IS_PRODUCTION = env.NODE_ENV === 'production';
+import { env } from 'process';
+import { Date, Article } from './types';
 
-const IS_PRINT = env.IS_PRINT === 'print';
+export const IS_PRODUCTION = env.NODE_ENV === 'production';
+export const IS_PRINT = env.IS_PRINT === 'print';
 
-module.exports = { ifSet, asAttr, formatNumberString, renderExplicitDate, isolate, purify, renderArticleList, IS_PRODUCTION, IS_PRINT };
-
-/**
- * @param {string=} x 
- * @param {string | () => string} y 
- * @returns {string}
- */
-function ifSet(x, y) {
+export function ifSet<T>(x: T, y: string | ((value: NonNullable<T>) => string)): string {
   if (typeof y === "function") {
-    return x ? y() : '';
+    return x ? y(x) : '';
   }
 
   return x ? y : '';
 }
 
-/**
- * @param {string} name 
- * @param {string=} value 
- * @returns {string}
- */
-function asAttr(name, value) {
+export function asAttr(name: string, value: string | undefined): string {
   return ifSet(value, ` ${name}="${value}"`);
 }
 
 const numberFormatter = new Intl.NumberFormat('en');
-/**
- * @param {string|nubmer} it
- * @returns {string}
- */
-function formatNumberString(it) {
+
+export function formatNumberString(it: string | number): string {
   if (typeof it === 'number') {
     return numberFormatter.format(it);
   }
@@ -55,12 +41,7 @@ const months =
     , "December"
   ];
 
-/**
- * @param {import('./types').Date} date 
- * @param {boolean} omitIfJustYear 
- * @returns {string}
- */
-function renderExplicitDate(date, omitIfJustYear) {
+export function renderExplicitDate(date: Date, omitIfJustYear: boolean): string | null {
   if ('month' in date) {
     return `${months[date.month - 1]}${ifSet(date.day, ` ${date.day}`)}, ${date.year}`;
   }
@@ -76,15 +57,11 @@ function renderExplicitDate(date, omitIfJustYear) {
   return null;
 }
 
-/**
- * @param {string} value
- * @returns {string}
- */
-function isolate(value) {
+export function isolate(value: string): string {
   return `&#x2068;${value}&#x2069;`;
 }
 
-function purify(str) {
+export function purify(str: string): string {
   return str.replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
     .replaceAll('>', '&gt;')
@@ -92,14 +69,14 @@ function purify(str) {
     .replaceAll('"', '&quot;');
 }
 
-function renderArticle(article) {
+export function renderArticle(article: Article) {
   if (!IS_PRODUCTION || !article.draft) {
     return `<li><a href="${article.url}"${asAttr("lang", article.titleLang)}>${article.title}</a>`
-      +ifSet(article.draft, ' <span class="badge bg-warning text-dark">Draft</span>')
+      + ifSet(article.draft, ' <span class="badge bg-warning text-dark">Draft</span>')
       + (article.children ? renderArticleList(article.children) : '')
       + `</li>`;
-  } 
-  
+  }
+
   // render draft article names if they have children
   if (article.children?.length) {
     return `<li><span${asAttr("lang", article.titleLang)}>${article.title}</span>`
@@ -110,7 +87,7 @@ function renderArticle(article) {
   return '';
 }
 
-function renderArticleList(articles) {
+export function renderArticleList(articles: readonly Article[]) {
   if (articles.length === 0) {
     return '';
   }

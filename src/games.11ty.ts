@@ -1,15 +1,16 @@
-const { IS_PRODUCTION, ifSet } = require('../helpers');
+import { IS_PRODUCTION, ifSet } from '../helpers';
 
-const slug = require('slug');
+import * as slug from 'slug';
+import { Context, Data, Players } from '../types';
 
-exports.data = {
+export const data = {
     title: "Games",
     layout: "columned"
 };
 
 function renderGames() {
     let allGames = GAMES;
-    const dest = document.getElementById('games-list');
+    const dest = document.getElementById('games-list')!;
     const params = new URLSearchParams(window.location.search);
 
     const playersS = params.get('players');
@@ -48,8 +49,8 @@ function renderGames() {
     }));
 }
 
-exports.render = function (data) {
-    const expandPlayers = (title, players) => {
+export function render(this: Context, data: Data) {
+    const expandPlayers = (title: string, players: Players|undefined) => {
         if (players === undefined) {
             console.warn('No players specified for ' + title);
             return [];
@@ -98,7 +99,7 @@ exports.render = function (data) {
             }))
         ]);
 
-    const equipment = new Set();
+    const equipment = new Set<string>();
     for (const g of expandedGames) {
         if (g.equipment) {
             equipment.add(g.equipment);

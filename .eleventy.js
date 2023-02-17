@@ -59,6 +59,10 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(eleventyNavigation);
 
+  eleventyConfig.addExtension(["11ty.jsx", "11ty.ts", "11ty.tsx"], {
+    key: "11ty.js"
+  });
+
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
     excerpt_separator: '<!-- excerpt -->',

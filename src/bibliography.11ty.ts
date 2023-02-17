@@ -1,14 +1,17 @@
-const { renderReference } = require('../references');
-const fs = require('node:fs/promises');
-const path = require('path');
-const { IS_PRODUCTION } = require('../helpers');
+import * as fs from 'node:fs/promises';
+import * as path from 'path';
 
-exports.data = {
+import { IS_PRODUCTION } from '../helpers';
+
+import { Reference, renderReference } from '../references';
+import { Data } from '../types';
+
+export const data = {
     title: "Bibliography",
     layout: "layout"
 };
 
-function sortKey(r) {
+function sortKey(r: Reference) {
     return `${r.author ? (r.author[0].family || '') : (r.publisher || '')}
         ${r.author ? (r.author[0].given === 'string' ? r.author[0].given : r.author[0].given[0]) : ''}
         ${r.issued ? r.issued.year : ''}
@@ -18,7 +21,7 @@ function sortKey(r) {
 // matches that in .eleventy.js - TODO extract
 const citeExtrator = /((?<!\w)@(?<id1>(_|[^\s\p{P}])+)(\s+\[(?<what1>[^\]]+)\])?)|(\[@(?<id2>(_|[^\s\p{P}])+)(,?\s+(?<what2>[^\]]+))?\])/ug;
 
-async function buildLookup(coll, refs) {
+async function buildLookup(coll: any[], refs: Map<string, any[]>) {
     for (const c of coll) {
         const content = await c.template.inputContent;
         const cites = content.matchAll(citeExtrator);
@@ -33,7 +36,7 @@ async function buildLookup(coll, refs) {
     }
 }
 
-function renderBackreferences(ref, refs) {
+function renderBackreferences(ref: Reference, refs: Map<string, any[]>) {
     let backrefs = refs.get(ref.id);
     if (backrefs === undefined) {
         return "";
@@ -48,13 +51,13 @@ function renderBackreferences(ref, refs) {
     return '<ul class="backreferences">' + backrefs.map(b => `<li><a href="${b.url}">${b.data.title}</a></li>`).join("") + '</ul>';
 }
 
-exports.render = async function (data) {
+export async function render(data: Data) {
     const refs = new Map();
     await buildLookup(data.collections.article, refs);
     await buildLookup(data.collections.game, refs);
     const locale = new Intl.Collator('en');
     const file = await fs.readFile(path.join(__dirname, "../bibliography.json"), 'utf8');
-    const biblio = Object.entries(JSON.parse(file)).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));
+    const biblio = Object.entries<Reference>(JSON.parse(file)).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));
     biblio.sort((x, y) => locale.compare(x.sortKey, y.sortKey));
     return '<div class="container">'
         + `<h1>${data.title}</h1>`
@@ -99,15 +102,12 @@ exports.render = async function (data) {
         </script>`;
 }
 
-/**
- * @param {string} on 
- */
-function runSort(on) {
+function runSort(on: string) {
     const parts = on.split(' ');
     const key = `data-${parts[0]}`;
-    const multiplier = parts[1] === 'desc' ? -1 : 1;
-    const el = document.getElementById('ref-list');
     const comparer = new Intl.Collator('en', { numeric: true });
-    const children = [...el.children].sort((x, y) => multiplier * comparer.compare(x.getAttribute(key), y.getAttribute(key)));
+    const multiplier = parts[1] === 'desc' ? -1 : 1;
+    const el = document.getElementById('ref-list')!;
+    const children = Array.prototype.slice.call(el.children).sort((x, y) => multiplier * comparer.compare(x.getAttribute(key), y.getAttribute(key)));
     el.replaceChildren(...children);
 }
