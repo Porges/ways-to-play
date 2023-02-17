@@ -23,7 +23,7 @@ https://www.istockphoto.com/vector/nine-holes-gm175396716-20296398
 
 Nine Holes [@Strutt p. 340].
 
-{% image src="DP862848.jpg" alt="" originalUrl="https://www.metmuseum.org/art/collection/search/744905" license="cc0" orgName="The Met museum" identifier="2016.360.6" noborder=true %}
+{% image src="DP862848.jpg" size="wide" alt="" originalUrl="https://www.metmuseum.org/art/collection/search/744905" license="cc0" orgName="The Met museum" identifier="2016.360.6" noborder=true %}
 A table-top game of Trou Madame, from @EnigmeJoyeuse [f. 8r].
 {% imageEnd %}
 

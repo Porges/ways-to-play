@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "watch:sass": "sass --no-source-map --watch src/sass/index.scss:public/css/index.css src/sass/print.scss:public/css/print.css",
-    "watch:eleventy": "node --require esbuild-register node_modules/.bin/eleventy --serve",
+    "watch:eleventy": "node --require esbuild-register node_modules/.bin/eleventy --serve --incremental",
     "build:sass": "sass --no-source-map src/sass/index.scss:public/css/index.css src/sass/print.scss:public/css/print.css",
     "build:eleventy": "node --require esbuild-register node_modules/.bin/eleventy",
     "build:eleventy-print": "cross-env IS_PRINT=print eleventy --output=print",

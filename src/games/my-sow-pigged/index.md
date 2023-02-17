@@ -4,7 +4,7 @@ equipment: Playing cards (Standard)
 ---
 
 <p class="lead">
-My Sow Has Pigged is a game that was already described as ‘obsolete’ in the 19th
+My Sow Has Pigged is an English game that was already described as ‘obsolete’ in the 19th
 century.[@TheAmericanHoyle3 p. 484] It seems to have been popular from the 17th to 18th centuries.
 It was at first a gambling game, and then a children’s game, and was played with a standard 52-card deck.
 </p>
