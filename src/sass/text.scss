@@ -115,7 +115,8 @@ rt {
   font-family: "Leelawadee UI", sans-serif;
 }
 
-:lang(yue-Latn) {
+// Raise numbers in Cantonese and Teochew pronunciation guides
+:lang(yue-Latn), :lang(tws-Latn) {
   font-feature-settings: "sups";
 }
 
