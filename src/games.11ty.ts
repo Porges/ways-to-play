@@ -1,6 +1,6 @@
 import { IS_PRODUCTION, ifSet } from '../helpers';
 
-import * as slug from 'slug';
+import slug from 'slug';
 import { Context, Data, Players } from '../types';
 
 export const data = {

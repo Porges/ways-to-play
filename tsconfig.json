@@ -1,12 +1,13 @@
 {
     "compilerOptions": {
         "target": "es2022",
-        "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "skipLibCheck": true,
         "lib": [
             "es2022",
             "dom"
         ],
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "strict": true,
     }
 }
