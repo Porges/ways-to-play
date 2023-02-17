@@ -8,7 +8,10 @@ import { Data } from '../types';
 
 export const data = {
     title: "Bibliography",
-    layout: "layout"
+    layout: "layout",
+    eleventyImport: {
+        collections: ["article", "game"]
+    }
 };
 
 function sortKey(r: Reference) {

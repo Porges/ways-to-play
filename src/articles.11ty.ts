@@ -7,6 +7,9 @@ export const data = {
     eleventyNavigation: {
         title: "Articles",
         key: 'articles'
+    },
+    eleventyImport: {
+        collections: ['article']
     }
 };
 

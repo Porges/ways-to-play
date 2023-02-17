@@ -5,7 +5,10 @@ import { Article, Context, Data, GameData, Players } from '../types';
 
 export const data = {
     title: "Games",
-    layout: "columned"
+    layout: "columned",
+    eleventyImport: {
+        collections: ["game"]
+    }
 };
 
 type RenderableGame = {
