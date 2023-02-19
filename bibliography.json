@@ -10107,5 +10107,40 @@
             }
         ],
         "ISBN": "9789514101793"
+    },
+    "AncientIndianBoardGames": {
+        "type": "book",
+        "title": "Ancient Indian Board Games",
+        "author": [
+            {
+                "given": "Raamesh Gowri",
+                "family": "Raghavan"
+            }
+        ],
+        "publisher": "Centre for Extra-Mural Studies, INSTUCEN Trust",
+        "publisher-place": "Mumbai",
+        "issued": {
+            "year": 2020,
+            "month": 2,
+            "day": 9
+        }
+    },
+    "TamilCountryGames": {
+        "type": "book",
+        "title": "தமிழர் நாட்டு விளையாட்டுகள்",
+        "title-lang": "ta",
+        "author": [
+            {
+                "family": "பாலசுப்பிரமணியம்",
+                "given": "இரா.",
+                "lang": "ta",
+                "alt": "R. Balasubramaniyam"
+            }
+        ],
+        "issued": 2003,
+        "edition": 2,
+        "publisher": "International Institute of Tamil Studies",
+        "publisher-place": "Chennai",
+        "URL": "https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZM8luQy.TVA_BOK_0005875"
     }
 }

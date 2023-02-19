@@ -102,9 +102,16 @@ China.[@CulinPhilippine p. 648]{%fn%}Note that @Bell confuses its sources here
 and claims that Hyde states that “Luk Tsut K’i” was played in the time of
 Confucius.{%endfn%} In Bengal, it has been called <span lang="bn">তাঁত
 ফাঁত</span> <span lang="bn-Latn">tant-fant</span>[@Datta, p. 167]
-(‘loom-[foom]’, possibly meaning something like weaving?) or <span lang="bn">তিন
+(‘loom-[foom]’, possibly meaning something like weaving?), <span lang="bn">তিন
 গুটি পাইত পাইত</span> (<span lang="bn-Latn">tin-guṭi paite-paite</span>,
-‘getting three pieces’), and is played with the pieces starting on the board.
+‘getting three pieces’), or simply <span lang="bn">তিন গুটি</span> (<span
+lang="bn-Latn">tina guṭi</span>) ‘three pieces’, and is played with the pieces
+starting on the board.
+
+In Hindi it is called <span lang="hi">तीन गोटी</span> (<span lang="hi-Latn">teen
+goti</span>) ‘three pieces’; in Tamil <span lang="ta">கட்ட விளையாட்டு</span>
+(<span lang="ta-Latn">kaṭṭa viḷaiyāṭṭu</span>) ‘square game’ (although this is
+also used for other games).[@TamilCountryGames p. 59]
 
 Writing in 1694,[@Hyde2 p. 211] Thomas Hyde said that it was called “Che-Lo” in
 Chinese (i.e. <span lang="zh-Hant">直六</span> Mandarin: <span

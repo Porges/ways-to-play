@@ -457,6 +457,17 @@ In other languages it has been called:
   Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his
   version of <cite>Gargantua</cite> as <span lang="de">Fickmül</span>.{%fn%}See
   {%a rabelais,the Gargantua article%} for more about Fischart’s list.{%endfn%}
+* Gujarati: <span lang="gu">નવ કાકરી</span> (<span lang="gu-Latn">nav kakri</span>) ‘nine pieces’
+* Hindi: <span lang="hi">नवकंकरी</span> (<span
+  lang="hi-Latn">navakankari</span>),[@AncientIndianBoardGames] or <span
+  lang="hi">नव गोटी</span> (<span lang="hi-Latn">nav goti</span>), both meaning
+  ‘nine pieces’
+* Kannada: <span lang="kn">ನವಕಂಕರಿ</span> (<span
+  lang="kn-Latn">navakaṅkari</span>) ‘nine pieces’, <span lang="kn"> ಒಂಬತ್ತು
+  ಕಾಯಿಯ ಆಟ</span> (<span lang="kn-Latn">ombattu kāyiya āṭa</span>) ‘game of nine nuts (=pieces)’,<!--
+  https://www.youtube.com/watch?v=Cj_199Dl57c --> or generically <span
+  lang="kn">ಸಾಲು (ಮಣೆ) ಆಟ</span> (<span lang="kn-Latn">sālu (maṇe) āṭa</span>)
+  ‘row (board) game’
 * Korean: <span lang="ko">곤질(고누)</span> (<span
   lang="ko-Latn">gonjil-gonu</span>){%fn%}Given as <span
   lang="ko-Latn">kon-tjil</span> in older books.[@KoreanGames p. 102]{%endfn%}
@@ -466,6 +477,7 @@ In other languages it has been called:
   taş</span>) ‘nine stone’, or <span lang="ota">دقورجین</span> (<span
   lang="ota-Latn">dokurġin</span>) [something to do with nine?][@Hyde2 p. 206]
 * Swiss: <span lang="gsw">Nüünischtei</span>.[@MundartLexikon]
+* Telugu: <span lang="te">దాడి</span> (<span lang="te-Latn">dāḍi</span>) ‘attack’
 * Urdu: <span lang="ur">نو گوٹی</span> (<span lang="ur-Latn">nau guṭī</span>) ‘nine pieces’[@GuptaD p. 145]
 
 <!--{/* Persian: دوز نه تایی
