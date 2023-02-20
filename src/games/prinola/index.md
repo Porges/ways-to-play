@@ -46,7 +46,12 @@ Players place their stakes on any of the partitions on the layout. The banker
 then spins the teetotum. Any players who selected the square that the teetotum
 shows win 4× their stake. All other stakes are lost.
 
-## Dadu Putar
+## <span lang="id">Dadu Putar</span>
+
+{% image src="D0141nd.jpg" alt="A wooden dice cover and six-sided teetotum." 
+  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" originalUrl="https://averweij.web.cern.ch/indonesia.htm" %}
+Equipment for <span lang="id">Dadu Putar</span>.
+{% imageEnd %}
 
 In Indonesia the game has been called <span lang="id">Dadu Putar</span>
 (‘spinning die’), and was popular amongst Javanese labourers and
