@@ -23,6 +23,12 @@ the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and
 
 <!-- excerpt -->
 
+{% image src="D0578.jpg" originalUrl="https://averweij.web.cern.ch/crownanchor.htm" 
+  alt="Three dice bearing the symbols of a crown, anchor, and playing card symbols."
+  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" %}
+Crown & Anchor dice from the early 20th century.
+{% imageEnd %}
+
 ## History
 
 <blockquote class="blockquote epigraph">
@@ -78,6 +84,12 @@ reference.[@TheMysteriesOfEdinburgh] In 1875 there is reference to a game of
 Forest.[@EasterMondayInTheForest] In 1889, chuck-a-luck (as the “three dice
 game”) is reported in
 [Middlesbrough](https://en.wikipedia.org/wiki/Middlesbrough).[@GamblingInMiddlesbrough]
+
+{% image position="aside" src="D0626nd.jpg" originalUrl="https://averweij.web.cern.ch/sunanchor.htm" 
+  alt="Three dice bearing the symbols of the sun, anchor, and playing card symbols."
+  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" %}
+Modern versions of “anchor & sun” dice.
+{% imageEnd %}
 
 Early references to the game under the name <span lang="nl">anker en zon</span>
 (“anchor and sun”) appear in Flanders in 1880,[@Aldenardiana] and finally as
@@ -338,6 +350,12 @@ discussed in the {% gameref chuck-a-luck %} article.
 
 ### China and amongst Peranakans
 
+{% image position="aside" src="D0288.jpg" originalUrl="https://averweij.web.cern.ch/hoo-hey-how.htm" 
+  alt="Three dice bearing the Chinese symbols: fish, prawn, crab, gourd, coin, and rooster."
+  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" %}
+Modern Chinese dice.
+{% imageEnd %}
+
 In English the Chinese name is usually given as “Hoo Hey How”; this appears to
 derive from the Hokkien {%pronounce lang="nan-Latn" word="hû hê hāu"
 file="pronunciation_nan_魚蝦鱟.mp3" pronouncer="2867290031" %} <span lang="nan">
@@ -380,6 +398,13 @@ very similar in all regions.
 The Vietnamese game has a similar æsthetic to the Chinese version, including the
 name: <span lang="vi">bầu cua tôm cá</span> (‘gourd crab prawn fish’).
 
+
+{% image position="aside" src="D0344nd_a.jpg" originalUrl="https://averweij.web.cern.ch/sunanchor.htm" 
+  alt="Three dice made out of paper boxes with the images of the Vietnamese version of the game on them."
+  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" %}
+Modern Vietnamese dice, made out of paper.
+{% imageEnd %}
+
 {% image 
     alt="Three dice, showing a deer, crab, and gourd."
     src='shutterstock_541065082.jpg'
@@ -395,6 +420,12 @@ Three dice as used in the Vietnamese game.
 
 I have little information about the game in Thailand other than that the
 paraphernalia for playing exists; gambling is illegal in Thailand.
+
+{% image position="aside" src="D0751nd.jpg" originalUrl="https://averweij.web.cern.ch/hoo-hey-how.htm" 
+  alt="Three dice bearing the symbols of the Thai version of the game."
+  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" %}
+Modern Thai dice.
+{% imageEnd %}
 
 From what little I have seen, the game is called <span lang="th">(น้ำ)เต้า ปู
 ปลา</span> (<span lang="th-Latn">(nam)tao pu pla</span>, ‘(water)gourd crab
@@ -510,10 +541,11 @@ The names of the symbols are (in Hindi):
 The game being played with 6 dice in [Pokhara](https://en.wikipedia.org/wiki/Pokhara), Nepal.
 {% imageEnd %}
 
-{%aside%}
-Images of <span lang="ne-Latn">langur burja</span> dice can
-be seen on [this page](http://averweij.web.cern.ch/averweij/nepal.htm).
-{%endaside%}
+{% image position="aside" src="D1315.jpg" originalUrl="https://averweij.web.cern.ch/nepal.htm" 
+  alt="Three dice bearing the symbols of the flag, crown, and playing card symbols, in elaborate carvings."
+  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" %}
+Modern dice for the Nepalese game.
+{% imageEnd %}
 
 In Nepal the game is called <span lang="ne-Latn">langur burja</span> (<span
 lang="ne">लंगूर or लङ्गुर बुर्जा</span>).{%fn%}<span
@@ -535,6 +567,12 @@ Some Nepali names for the playing-card symbols are:
 * heart: <span lang="ne">पान</span> <span lang="ne-Latn">pana</span> (‘betel leaf’)
 
 ### Malaysia and Brunei
+
+{% image position="aside" src="D0752nd.jpg" originalUrl="https://averweij.web.cern.ch/hoo-hey-how.htm" 
+  alt="Three plastic dice with images of: tiger, gourd, prawn, rooster, crab, fish."
+  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" %}
+Modern Malaysian dice.
+{% imageEnd %}
 
 In Malaysia the game can be known as <span lang="ms">ikan, udang, dan
 ketam</span> (‘fish, shrimp, and crab’), <span lang="ms">ketam-ketam</span>
