@@ -3519,7 +3519,9 @@
             {
                 "given": "崇",
                 "family": "江橋",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Ebashi Takashi",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {
@@ -3556,7 +3558,9 @@
             {
                 "family": "山口",
                 "given": "泰彦",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Yamaguchi Yasuhiko",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {
@@ -3624,7 +3628,9 @@
             {
                 "given": "健司",
                 "family": "村上",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Murakami Kenji",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {
@@ -3653,7 +3659,9 @@
             {
                 "given": "崇",
                 "family": "江橋",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Ebashi Takashi",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {
@@ -3671,7 +3679,9 @@
             {
                 "family": "梅林",
                 "given": "勲",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Umebayashi Isao",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {
@@ -3723,7 +3733,9 @@
             {
                 "given": "崇",
                 "family": "江橋",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Ebashi Takashi",
+                "alt-lang": "ja-Latn"
             }
         ],
         "type": "webpage",
@@ -3778,7 +3790,9 @@
             {
                 "family": "村井",
                 "given": "省三",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Murai Shōzō",
+                "alt-lang": "ja-Latn"
             }
         ],
         "title": "明治の花札",
@@ -3960,7 +3974,9 @@
             {
                 "given": "鲤衣荷",
                 "family": "夏",
-                "lang": "zh"
+                "lang": "zh",
+                "alt": "Xià Lǐyīhé",
+                "alt-lang": "zh-Latn"
             }
         ],
         "issued": {
@@ -3975,7 +3991,9 @@
             {
                 "given": "崇",
                 "family": "江橋",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Ebashi Takashi",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {
@@ -4472,7 +4490,9 @@
             {
                 "given": "崇",
                 "family": "江橋",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Ebashi Takashi",
+                "alt-lang": "ja-Latn"
             }
         ],
         "publisher": "Japan Playing Card Museum",
@@ -6910,7 +6930,9 @@
             {
                 "family": "福本",
                 "given": "伸行",
-                "lang": "ja"
+                "lang": "ja",
+                "alt": "Fukumoto Nobuyuki",
+                "alt-lang": "ja-Latn"
             }
         ],
         "issued": {
