@@ -1,6 +1,5 @@
 ---
 title: The Pigeon Lottery
-draft: true
 originalTitle: <span lang="zh-Hant">白鴿票</span>
 mainImage: MingLeeDuw.jpg
 hero:
@@ -14,7 +13,7 @@ The Pigeon Lottery (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">�
 </span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak6 gaap3 piu3"
 pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" %}){%fn%}Other
 romanizations include <span lang="yue-Latn">pak kap
-piew</span>[@GamblingGamesOfMalaya p. 48], <span lang="yue-Latn">pák kòp
+piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn">pák kòp
 piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn">baahk gáap piu</span>,
 <span lang="yue-Latn">paâk káap p'iu</span>, or <span lang="yue-Latn">pai ko
 p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as
@@ -27,12 +26,12 @@ lang="zh-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which i
 Chinese emigrants.
 </p>
 
-The history of the game is sadly often a story of racism and hypocrisy:
-as a Chinese gambling game, Chinese migrants were punished while gambling games
-played by Europeans were permitted. Later the game was adapted by Americans who
-profited from a now-legal game even as the Chinese game was suppressed.
-Eventually, the game became known under the modern name of Keno, now played in
-casinos around the world.
+The recent history of the game is often a story of racism and hypocrisy: as a
+Chinese gambling game, Chinese migrants were punished for running the game while
+at the same time gambling games favoured by Europeans were permitted. In the 20th
+century the game was adapted by Americans who profited from a now-legal game
+even as the Chinese game was suppressed. Eventually the game became known under
+the modern name of Keno, which is now played in casinos around the world.
 
 <!-- excerpt -->
 
@@ -45,9 +44,9 @@ was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa
 “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In
 Macau it is given with the Portugeuse romanization of “pacapio”, which remains
 standard in current usage (previous terms include <span
-lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it became at first
-“boc hop bu”[@NYTimes18870127] before picking up a variety of the other names,
-but in Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
+lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first
+referred to as “boc hop bu”[@NYTimes18870127] before picking up a variety of the
+other names mentioned above, but in Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the
@@ -66,24 +65,32 @@ lottery).
 
 ## Early origins
 
-It is sometimes fancifully claimed that the name of the game was because
-originally white pigeons were used to choose winning tickets, but that is not
-possible given the way the game is played; it is not a lottery where one or more
-tickets are selected to be the winner(s).
+It is sometimes fancifully claimed that the name of the game is due the the
+method of ticket selection, in that supposedly originally white pigeons were
+used to choose winning tickets, but that is not possible given the way the game
+is played; it is *not* a lottery where one or more tickets are selected to be
+winners.
 
-The game seems to have originated from gambling on the early-Qing “white pigeon
-festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span
-lang="yue-Latn-jyutping">baak6 gap3 wui2</span>) which was held in Guangdong. Pigeons
-were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span
-lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span
-lang="zh">佛山</span>), and groups of pigeons were numbered using the opening
-characters from the [<cite>Thousand Character
+One Chinese origin story says that the name is because white pigeons were used
+to transmit the results from gambling houses to the
+bettors.[@GrammarOfTheChineseLanguage2 p. 157] Another dates the game to the Han
+dynasty, saying that it was invented to raise money for the support of the army
+when a city was beseiged.[@GrammarOfTheChineseLanguage2 p. 156]
+
+The true origin of the game apparently lies in gambling that was carried out as part of 
+the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span
+lang="yue-Latn-jyutping">baak6 gap3 wui2</span>) which was held in Guangdong.
+Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan)
+(<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan)
+(<span lang="zh">佛山</span>), and groups of pigeons were numbered using the
+opening characters from the [<cite>Thousand Character
 Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span
 lang="zh">千字文</span>).{%fn%}This system of enumeration has also been used to
-number volumes of books and other objects.{%endfn%} Bets were made on which
-group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the
-pigeons were dropped entirely and a game was developed based on characters begin
-drawn at random.
+number volumes of books and other objects, including in the instructions for
+assembly kit-set furniture.[@RepresentingHainingStreet1 p. 53]{%endfn%} Bets
+were made on which group of pigeons would return intact.[@BettingOnEmpire p. 84]
+Eventually the pigeons were dropped entirely and a game was developed based on
+characters begin drawn at random.
 
 
 ## Known history
@@ -140,7 +147,7 @@ DeepL translation of article:
     In fact, according to Zhao Lifeng's testimony that "Qin Ying banned white pigeon tickets in Guangdong in the ninth year of Jiaqing", it can be assumed that white pigeon tickets existed in Guangdong in the ninth year of Jiaqing (February 11, 1804-January 30, 1805) and were transmitted from Macao. This is because, in fact, during the Qian-Jia period, Chinese officials at various levels of government in Guangdong Province, Guangzhou Prefecture, and Xiangshan County repeatedly ordered the Portuguese chiefs of Macau, the "yi mu", to prohibit "gambling events" among the Chinese and foreign residents of Macau. (42) Although the information does not explicitly mention the name of the "gambling events", the author, after a comprehensive study, believes that these "gambling events" were caused by the introduction of the Western lottery from Portugal and the Chinese lottery, or pigeon tickets, which were inspired by the Chinese. For example, on the seventh day of the third month of the tenth year of Jiaqing (April 6, 1805), Peng Zhaolin, the governor of Xiangshan, investigated "the incident of the gambling of the foreign merchants by opening bids," issuing a circular saying: "If the people are confused to buy the bids by opening bids, they are forbidden to do so. [If you do not comply with the law, or if you still have a case of crowded bidding, the county will visit the case and report it to the Grand Constabulary for investigation and serious punishment." (43) From the text of this prohibition, it can be inferred that "the incident of the lottery of a foreign merchant" had already occurred and was prohibited by order of the county magistrate who was far away from Xiangshan County. Since the lottery was first issued in 1810, it is clear that this was not a lottery for Ren Ci Tang. The "bid" mentioned in the article for "opening" and "buying" is an abbreviation of "white pigeon bid (ticket)". The name of the "Pigeon Ticket" in the Macao Government Gazette of May 22, 1872 is "Lotaria de China", which means "Chinese Lottery". (44) It can be seen that the "Lotaria de China" is a Chinese lottery. (44) It can be seen that the "white pigeon (ticket)" is a product of the Portuguese lottery principle and then modified in the Chinese way, so it is called "Chinese lottery" or "Chinese lottery". Moreover, pigeons are mostly gray, with brown and white being the minority. The common name for pigeons as "white pigeons" is unique to Cantonese, and is the result of a phonetic change from the ancient name for pigeons, "卧式鴿". (45) The pronunciation or writing of "ticket" as "biao" is also a phenomenon still retained in the Cantonese dialect. For example, in Hong Kong, the Cantonese language still refers to "horse tickets" as "馬標 (ticket)" and "winning horse tickets" as "中馬標 (ticket)". This proves that the "Chinese lottery" or "Chinese lottery", which originated from the Portuguese lottery and was created in Macau, Guangdong, was created and officially named by the Cantonese.
 -->
 
-What we _do_ know for sure is that it was first legalized in Macau by [<span class="noun"
+What is known for certain is that it was first legalized in Macau by [<span class="noun"
 lang="pt">João Maria Ferreira do
 Amaral</span>](https://en.wikipedia.org/wiki/Jo%C3%A3o_Maria_Ferreira_do_Amaral)
 (1803–1849), who authorized the game in January 1847 upon the request of local
@@ -203,7 +210,7 @@ order, broken into four-character blocks:
 </blockquote>
 
 A striking thing about this layout is just how consistent it was across all
-countries where the game was played. A ticket used in Nevada is almost identical
+countries where the game was played. A ticket as used in Nevada was almost identical
 to one used in Victoria (Australia) or Otago (New Zealand). Tickets were printed
 locally,{%fn%}The National Library of New Zealand has [at least 10 pakapoo
 printing blocks](https://tiaki.natlib.govt.nz/#details=ecatalogue.470454), and
@@ -236,38 +243,49 @@ as California, where [<span
 lang="zh-Latn-pinyin">tongs</span>](https://en.wikipedia.org/wiki/Tong_(organization))
 (<span lang="zh">堂</span>) were established, the banks would often be tied to a
 particular <span lang="zh-Latn-pinyin">tong</span>.[@EncyclopediaOfKeno p. 8]
+Guidebooks such as [<cite>Essentials of the
+Lottery</cite>](http://oac-upstream.cdlib.org/ark:/13030/hb5x0nb117/?order=3&brand=oac4)
+(<cite lang="zh">票圖撮要</cite>, 1894) were also published, which instructed
+prospective bank owners how to calculate payouts for various forms of tickets.
 
-Guidebooks such as <cite lang="zh">票圖撮要</cite> ([<cite>Essentials of the
-Lottery</cite>](http://oac-upstream.cdlib.org/ark:/13030/hb5x0nb117/?order=3&brand=oac4),
-1894) were also published, which instructed prospective bank owners how to
-calculate payouts for various forms of tickets.
+To play the game, a player would take a blank ticket, mark ten characters of
+their choosing, and then register their ticket with the bank. The bank would
+make a copy of the player’s ticket to ensure the security of the draw. Later, at
+a specified time, twenty numbers would be drawn, and any registered tickets with
+at least five matching characters be paid out at their specified rates (for
+which, see below).
 
-There were different ways to select the winning numbers. The drawing of numbers
-was performed publicly to assure bettors that the game was fair. A Sydney
-newspaper report of a court case from 1886 gives the following method:{%fn%}The
-same method is described in Melbourne in 1876.[@InAChineseLotteryShop p.
-7]{%endfn%} 80 pieces of paper with one character each were rolled up and then
-mixed in a jar. From this jar, the pieces of paper were divided into four bowls,
-giving 20 tickets per bowl. Next, four pieces of wood engraved with a character each
-and then wrapped in paper (to hide the characters) were randomly placed, one in
-each bowl. Four pieces of paper with matching characters were rolled up and
-presented to an onlooker to select one, and the wooden pieces were unwrapped to
-reveal their characters and find the matching bowl. The 20 winning numbers from
-this bowl were then read out.[@ChineseGamblingInSydney]
+There were different methods for selecting the winning numbers. The drawing of
+numbers was performed publicly to assure bettors that the game was fair. A
+Sydney newspaper report of a court case from 1886 gives the following
+method:{%fn%}The same method is described in Melbourne in
+1876.[@InAChineseLotteryShop p. 7]{%endfn%} 80 pieces of paper with one
+character each were rolled up and then mixed in a jar. From this jar, the pieces
+of paper were divided into four bowls, giving 20 tickets per bowl. Next, four
+pieces of wood engraved with a character each and then wrapped in paper (to hide
+the characters) were randomly placed, one in each bowl. Four pieces of paper
+with matching characters were rolled up and presented to an onlooker, who
+selected one, and then the wooden pieces were unwrapped to reveal their
+characters and find the matching bowl. The 20 winning numbers from this bowl
+were then read out.[@ChineseGamblingInSydney]
 
 The area where the tickets were to be drawn, and where the bank’s capital was
-kept, was usually separated from onlookers by wooden bars.
+kept, was usually separated from onlookers by wooden bars. European descriptions
+and depictions often mention or show long knives that were kept behind the bars
+to defend against any attempts upon the bank’s chest (see, e.g. the image on the
+right below).
 
 <div class="multi extra-wide">
 
-{% image src="drawing_tickets.jpg" alt="" noborder=true license="cc0" %}
+{% image src="drawing_tickets.jpg" alt="A line drawing of a crowd of people, mostly in European dress, gathered outside the bars of a bank. Inside the bank one Chinese man is writing down characters as they are read out. The Chinese characters are depicted very poorly."
+    noborder=true license="cc0" %}
 
 Drawing of tickets (Australia, 1873).[@DrawingTheNumbersForTheBankTicket]
 
 {% imageEnd %}
 
-{% image src="drawing_the_lottery.jpg" alt="" noborder=true
-    license="cc0" %}
+{% image src="drawing_the_lottery.jpg" alt="A closer-in drawing than the previous one: a small crowd of people gathered outside the bars of a bank. Inside a Chinese man is pinning up characters onto a board. In the crowd a man and a small girl are both holding tickets. On a table inside the bank is a chest with four bowls around it and long knives standing endwise on the table. A depiction of a ticket is inset."
+    noborder=true license="cc0" %}
 
 Drawing of tickets, with a rather mangled representation of a ticket
 (Australia, 1876).[@InAChineseLotteryShop]
@@ -284,15 +302,28 @@ restrictions were enforced).[@BettingOnEmpire p. 104] These rules would allow
 the players to feel like they were able to have more control by making informed
 selections of characters.
 
+Another feature that was sometimes used that allowed players to feel like they
+had some control over the game was the book called the “character container” (<span lang="zh">字容</span>),
+which recorded the number of times each character had been drawn in the recent past.[@BettingOnEmpire p. 102]
+In reality, this would function similarly to a {% gameref roulette %} tote board which
+displays the most recent results, and thus play up the effect of the gambler’s fallacy on the players.
+
 ### Example payoff schemes
 
 Below are a sampling of payoff schemes, to give a taste of the ratios used. The
-payouts vary based upon the number of correctly-chosen characters:
+payouts vary based upon the number of correctly-chosen characters, in the left column:
 
+<div class="extra-wide table-responsive">
 <table class="table table-sm small">
 <thead>
 <tr>
 <th></th>
+<th>
+
+China<br/>
+(&lt;1864)[@GrammarOfTheChineseLanguage2 p. 157]
+
+</th>
 <th>
 
 Australia<br/>
@@ -333,6 +364,7 @@ Las Vegas<br/>
 <tbody class="numeric table-group-divider">
 <tr class="table-secondary">
 <th scope="row">cost</th>
+<td>3<span lang="zh">厘</span> (cash)</td>
 <td>6d</td>
 <td>6d</td>
 <td>6d</td>
@@ -342,6 +374,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">5</th>
+<td>5<span lang="zh">厘</span> (cash)<br/>(1⅔×)</td>
 <td>1/2<br/>(2⅓×)</td>
 <td>1/–<br/>(2×)</td>
 <td>?</td>
@@ -351,6 +384,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">6</th>
+<td>5<span lang="zh">分</span> (candareen)<br/>= 50 cash (16⅔×)</td>
 <td>9/–<br/>(18×)</td>
 <td>8/6<br/>(17×)</td>
 <td>?</td>
@@ -360,6 +394,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">7</th>
+<td>5<span lang="zh">錢</span> (mace)<br/>= 500 cash (166⅔×)</td>
 <td>£3 18/6<br/>(157×)</td>
 <td>£3 10/–<br/>(140×)</td>
 <td>£4<br/>(160×)</td>
@@ -369,6 +404,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">8</th>
+<td>2<span lang="zh">兩</span> (tael) 5<span lang="zh">錢</span> (mace)<br/>= 2500 cash (833⅓×)</td>
 <td>£20 15/–<br/>(830×)</td>
 <td>£19 2/6<br/>(765×)</td>
 <td>£20<br/>(800×)</td>
@@ -378,6 +414,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">9</th>
+<td>5<span lang="zh">兩</span> (tael)<br/>= 5000 cash (1666⅔×)</td>
 <td>£36<br/>(1440×)</td>
 <td>£35<br/>(1400×)</td>
 <td>£40<br/>(1600×)</td>
@@ -387,6 +424,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">10</th>
+<td>10<span lang="zh">兩</span> (tael)<br/>= 10000 cash (3333⅓×)</td>
 <td>£70<br/>(2800×)</td>
 <td>£70<br/>(2800×)</td>
 <td>£80<br/>(3200×)</td>
@@ -396,6 +434,7 @@ Las Vegas<br/>
 </tr>
 <tr class="table-secondary">
 <th scope="row"><abbr title="house advantage">H.A.</abbr</th>
+<td>33.10%</td>
 <td>29.89%</td>
 <td>36.40%</td>
 <td>—</td>
@@ -405,6 +444,7 @@ Las Vegas<br/>
 </tr>
 </tbody>
 </table>
+</div>
 
 The trend over time has been to increase the payouts on the higher end, which
 makes the game more attractive to players while not unduly affecting the house
@@ -426,7 +466,7 @@ locations with particular reports highlighted.
 The game traveled everywhere that Chinese people migrated to. In particular, it
 seems to have been popular in places with goldfields where Chinese men came to
 work in the late 19th century: San Francisco in the USA, British Columbia in
-Canada, Victoria in Australia, and New Zealand.
+Canada, Victoria in Australia, and Otago in New Zealand.
 
 Despite the existence of other very similar games in China, such as the ‘mountain
 lottery’ (<span lang="zh">山票</span> Mandarin: <span lang="zh-Latn-pinyin">shān
@@ -440,7 +480,7 @@ Europeans.[@BettingOnEmpire p. 193]
 noborder=true
 position="aside"
 src="twain_lottery.png"
-alt=""
+alt="A drawing of Mark Twain leaning on the counter of a Chinese lottery ticket seller. The Chinese man has long pointed fingernails. Twain holds a brush in his right hand."
 license="cc0"
  %}
 
@@ -496,14 +536,14 @@ ticket = 10¢
 10 = $297
 -->
 
-{% image src="ark__13030_hb0q2nb02d_cropped.jpg" alt="" 
+{% image src="ark__13030_hb0q2nb02d_cropped.jpg" alt="A flash-lit black-and-white photograph of a room. In the centre of the room is a man wearing a suit who is looking at a row of tickets pinned above a table. On the table top are brushes and ink: the table has a heavy plastic tablecloth to protect against ink spillages. On the floor lie many discarded tickets. At the back of the room are a row of teller locations, with low lamps, and protected by chicken-wire mesh." 
     license="cc-by"
     orgName="University of California, Los Angeles"
     orgAbbr="UCLA"
     identifier="uclamss_1387_b12_18958-2"
     originalUrl="https://digital.library.ucla.edu/catalog/ark:/13030/hb0q2nb02d"
     %}
-Interior of a Chinese lottery & casino in California, 1938. Ink and brushes are
+Interior of a Chinese lottery & casino in California, 1938, during a police raid. Ink and brushes are
 provided to mark the chosen numbers, and on the floor lie discarded losing
 tickets.
 {%imageEnd%}
@@ -608,11 +648,13 @@ to find online.{%endfn%}
 
 As in Australia, racist depictions of Chinese gambling were common. And yet,
 while newspaper reports often decried gambling and gamblers, others came to the
-defence of the game.
+defence of the game. Here I focus more heavily on the counter-current, as it is
+all too easy to find examples of the former.
 
 #### Legality and Hypocrisy
 
-{% image src="pakapoo_ticket.jpg" alt="" position="aside"
+{% image src="pakapoo_ticket.jpg" alt="A ticket with crosses marking chosen characters. There are three lines dividing the ticket into four sections."
+    position="aside"
     orgName="Alexander Turnbull Library" identifier="Eph-A-LOTTERY-1920s-01"
     license="with-permission"
     originalUrl="https://natlib.govt.nz/records/22741041" %}
@@ -677,7 +719,7 @@ At the time, Wellington’s <cite>Evening Post</cite> opined that:
 
 [John Liddell Kelly’s](https://en.wikipedia.org/wiki/John_Liddell_Kelly)
 bitingly sarcastic poem “In China” (1901) contains the following
-verse:[@HeatherAndFern p. 56]
+verse upon the topic:[@HeatherAndFern p. 56]
 
 > The practice of gambling’s a terrible vice<br/>
 > &emsp;&emsp;’Mong the sin-sodden people of China!<br/>
@@ -697,7 +739,7 @@ Court was dismissed on the basis that pakapoo was a game of chance, and not a
 lottery;[@PakAPooNotALottery] taken at face value, the Act stated that games of
 chance were only illegal if played in public places.
 
-{% image src="southern_bank.jpg" alt="Two Chinese men sitting at a counter in fashionable European suits. The name ‘Southern Bank’ and a rough sketch of a British flag are painted on the door. There are pak-a-poo tickets on the counter."
+{% image src="southern_bank.jpg" alt="Two Chinese men sitting at a counter in fashionable European suits. The name ‘Southern Bank’ and a rough sketch of a British flag are painted on the door. There are pak-a-poo tickets on the counter. The door reads 'Southern Bank'."
     orgName="Alexander Turnbull Library"
     identifier="PUBL-0090-001"
     license="with-permission"
@@ -709,7 +751,7 @@ Two men in the “Southern Bank” on Walker Street in Dunedin, 1904.
 
 With the game seeming to be on the verge of becoming legal, in 1904, the “Gaming
 and Lotteries Act Amendment Bill” was introduced to parliament by [James
-McGowan](https://en.wikipedia.org/wiki/James_McGowan_(politician)). The bill
+McGowan.](https://en.wikipedia.org/wiki/James_McGowan_(politician)) The bill
 sought — among other things — to declare pakapoo a lottery, and thus ban it
 outright. By the reception of this bill in the newspapers, it is clear that this
 was felt to be inconsistent with laws governing games played by Europeans:
@@ -748,7 +790,12 @@ Hyde](https://en.wikipedia.org/wiki/Robin_Hyde), writing later in 1934, noted:
 > tickets induces whites of the very worst class to make the site thereof their
 > little home away from home.[@DisputedGround p. 235]
 
-In any case, the proposed bill was subsequently withdrawn and this version of
+At one point it was even suggested by a police inspector that only Europeans
+should be fined for playing pakapoo, and that “it would be as hard to stop such
+recreation amongst the Chinese as to stop whist and other games amongst
+Europeans.”[@GamblingAmongChinese]
+
+In any case, McGowan’s 1904 bill was subsequently withdrawn and this version of
 the amendment was never passed.
 
 <div class="multi wide centered">
@@ -756,7 +803,7 @@ the amendment was never passed.
 {%image
     noborder=true
     src="NZFL19040827.1.5-c256.png"
-    alt="A policeman threatens a Chinese man running a fan-tan/pak-a-poo shop, whilst behind him European men attend the totalisator without penalty."
+    alt="A cartoon: a policeman threatens a Chinese man running a fan-tan/pak-a-poo shop, whilst behind him European men attend the totalisator without penalty. The caption reads 'it might be desirable to do away with Chinese gambling dens, but this Bill would give the police a power which no other police possess. The more they tried by tinpt and tyrannous legislation to suppress gambling the more gambling would increase.—Mr. Lawry', then 'Fish of One, Fowl of the Other', then 'John Chinaman: wha' foh?'"
     orgName="Papers Past"
     originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1904/08/27/5"
     license="cc0" %}
@@ -767,7 +814,7 @@ application of gambling laws, whilst still portraying a Chinese man in a racist 
 {%image
     noborder=true
     src="NZFL19061103.1.5-c256.png"
-    alt=""
+    alt="A cartoon: a man wielding a spade reading 'gaming & betting bill' is using it to dig out 'weeds' from 'New Zealand's garden of Youth'. A European-looking weed is labelled 'bookmaker', and Chinese-faced ones are labelled 'gaming house keeper', 'pak-a-poo', 'fan-tan'. There are mushrooms labelled 'lottery'. The caption reads 'A Sharp Spade', then 'Sir Joe: it's up to me to do a bit of weeding'."
     orgName="Papers Past"
     originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1906/11/03/5"
     license="cc0" %}
@@ -802,7 +849,8 @@ upon trade with China:
 > people in the world, and it should be remembered that we forced opium on them
 > because of the profit in it. It is utter hypocrisy.” [@HarryingOfChinese]
 
-{% image src="nlnzimage.jpg" alt="" identifier="PAColl-7796-35"
+{% image src="nlnzimage.jpg" alt="A photograph of a dirty floor with a missing floorboard. Around the hole lie used tickets."
+    identifier="PAColl-7796-35"
     orgName="Alexander Turnbull Library"
     license="with-permission"
     originalUrl="https://natlib.govt.nz/records/22706477" %}
@@ -810,7 +858,24 @@ upon trade with China:
 Pakapoo tickets discovered during the demolition of a house on Wellington’s
 Haining Street, May 1960.
 
+Haining Street was the centre of Wellington’s Chinese community and had also
+been the centre of pakapoo activity: of the 53 buildings that existed on the street, 20 of
+them were used for pakapoo at some stage or another.[@RepresentingHainingStreet2 pp. 94–135]
+
 {%imageEnd%}
+
+<!--
+In any case, despite lurid newspaper and magazine reports of pakapoo dens and
+the supposed conditions thereof, 
+-->
+
+During the remainder of the 20th century, pakapoo slowly dropped out of the public
+eye. I am not aware of any current use of the game — although it is now legal.
+Despite this disappearance, it was to have ongoing influence upon New Zealand:
+[Allan Highet,](https://en.wikipedia.org/wiki/Allan_Highet) who was responsible
+for early attempts to introduce Lotto as a government minister, had gained his
+appetite for gambling by purchasing pakapoo tickets in Haining Street during the
+1930s.[@OnARoll p. 247]
 
 ### In the United Kingdom
 
@@ -847,9 +912,9 @@ there were more than 15 pigeon lotteries operating in Vancouver.[@BettingOnEmpir
 
 The “Chinese lottery” was to become Europeanized — and therefore, acceptable —
 through its adoption and development by American casino operators in the early
-20th century. It is probable that there were many attempts to adapt the game by
+20th century. It is probable that there were many such attempts to adapt the game by
 both Chinese and Americans looking to popularize it,{%fn%}For example, Eugene
-Diullo, Harrah’s first keno manager, learned the game growing up in
+Diullo, Harrah’s first keno manager, learned the game growing up in the mining town of
 [Ely,](https://en.wikipedia.org/wiki/Ely,_Nevada)[@EveryLightWasOn p. 125] but
 this was still at the time the Chinese game.{%endfn%} but here I recount what
 appears to be the main thread of popularization which led to widespread
@@ -867,31 +932,30 @@ with numerals written in place of Chinese characters.
 
 {%imageEnd%}
 
-Versions of the “Chinese lottery” were played in Butte, Montana. Just like in
-the examples discussed above of other locations the game had spread to, Butte
-was a mining town with a significant migrant Chinese population. The game was
-played illegally in the backrooms of “cigar stores”, which also operated as
-speakeasies. One in particular, the Crown Cigar Store, was operating the Chinese
-game in 1927.[@LostButte p. 50] {%fn%}A court case from 1948 shows that at the
-Crown the adapted game, using numbers, was at that time known as “the Crown
-Game” or the “Crown [punchboard](https://en.wikipedia.org/wiki/Punchboard)
+In the early 20th century, versions of the “Chinese lottery” were being played
+in Butte, Montana. Just like the examples above of other locations the game had
+spread to, Butte was a mining town with a significant migrant Chinese
+population. The game was played illegally in the backrooms of “cigar stores”,
+which also operated as speakeasies. One in particular, the Crown Cigar Store,
+was operating the Chinese game in 1927.[@LostButte p. 50] {%fn%}A court case
+from 1948 shows that at the Crown the adapted game, using numbers, was at that
+time known as “the Crown Game” or the “Crown
+[punchboard](https://en.wikipedia.org/wiki/Punchboard)
 game”,[@StatevCrownCigarStore] but it was clearly derived from the “Chinese
-lottery”.{%endfn%} The gambling operation was managed by two brothers, Joe and
+lottery”.{%endfn%} The gambling operation was managed by two brothers named Joe and
 Francis Lyden.{%fn%}Some sources give the name as “Frances”. The Lyden
 brothers — Joseph Michael (1899–1982)[@JosephMichaelLyden] and Francis — were
 Irish immigrants who had inherited the store from their
 step-father.[@LydenBrothers]{%endfn%}
 
 These Butte games were routinely shut down by the police, but in 1931 Nevada
-legalized gambling in [Assembly Bill No.
+legalized gambling by passing [Assembly Bill No.
 98](https://www.leg.state.nv.us/Statutes/35th1931/Stats193102.html#Stats193102page165)
 (popularly known as the “Wide Open Gambling Bill”). The bill explicitly
 legalized “keno”, as long as the person running the game had procured a license
-to do so.
-
-It is worth noting, given the ongoing theme of anti-Chinese discrimination here,
-that licenses were only available to US citizens, and ‘aliens’ were not allowed
-to even operate a licensed game.{%fn%}This seems particularly egregious given that
+to do so. It is worth noting, given the ongoing theme of anti-Chinese discrimination here,
+that these licenses were only available to US citizens, and ‘aliens’ were not allowed
+to even _operate_ a licensed game.{%fn%}This seems particularly egregious given that
 the distinctly Chinese game of Fan-Tan was also explicitly legalized by the
 bill… but only for US citizens!{%endfn%}
 
@@ -979,7 +1043,7 @@ stepped in and ordered them to shut
 down.[@ChineseLotteriesOrderedClosed]{%fn%}Woo Sing would eventually be arrested
 on narcotics charges in 1937 and the Public Club closed down permanently.{%endfn%}
 
-Despite the existence of these previous cases, Francis Lyden proposed running a
+Despite the repeated failure of these previous cases, Francis Lyden proposed running a
 “keno” game in Reno based upon the Chinese lottery, and contacted Warren Nelson,
 whom he knew from Butte, to run it at the Palace Club.[@SilvioPetricciani p. 26]
 At the time Warren was running games in Great Falls.
@@ -1007,7 +1071,7 @@ inadvertently returned the game to its pigeon-racing roots.
 
 {% image src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
     justify="centered"
-    alt=";"
+    alt="A newspaper advertisement: 'The Palace Club presents Reno's newest sensation: race horse keno. $2000 limit, it's new, it's different, don't miss the grand opening. Post time 12:00 noon.';A newspaper advertisement: 'They're off! at The Palace Club on their second sensational week: race horse keno, the game that has taken Reno by storm. First post 10 A.M., races every twenty minutes until 2:00 A.M., Saturdays until 4:00 A. M.'"
     originalUrl="https://www.newspapers.com/clip/99585617/race-horse-keno/"
     license="cc0"
     orgName="newspapers.com" %}
@@ -1032,7 +1096,7 @@ p. 129] and the ink was purchased from Chinese
 suppliers.[@AlwaysBetOnTheButcher p. 50]
 
 {% image 
-alt="TODO"
+alt="A black-and-white photo of two tickets on a stone counter. Two hands belonging to a man are in the shot: the left is holding the ticket, the right is holding a brush with ink on it."
 src="harolds_keno.jpg"
 license="cc-by-nc-nd"
 licenseVersion="4.0"
@@ -1041,27 +1105,6 @@ orgName="University of Nevada Oral History Program"
 %}
 A keno writer using a horsehair brush to mark tickets in Harolds Club, Nevada.
 {%imageEnd%}
-
-
-The Bank Club (the next-door rival of the Palace Club) and Harolds Club were
-soon to follow by installing Keno games of their own.[@AlwaysBetOnTheButcher p.
-53] In 1938 Warren opened the game at the Nevada Club in Lake
-Tahoe.[@WarrenNelson p. 10]
-
-{% image
-alt="TODO"
-src="harolds_race_horse_keno.jpg"
-license="cc-by-nc-nd"
-licenseVersion="4.0"
-originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n209"
-orgName="University of Nevada Oral History Program"
-%}
-
-The race-horse keno counter at Harolds Club in the 1940s. Note the “squirrel
-cage” containing the balls. The payoffs listed are identical to those reported
-at the Crown Cigar Store in Montana, 1948.[@StatevCrownCigarStore]
-
-{% imageEnd %}
 
 In this “racehorse” version of the game, each number had a horse’s name assigned
 to it, and the names were announced in a similar way to the way that “[bingo
@@ -1091,6 +1134,26 @@ commentator:[@AlwaysBetOnTheButcher p. 158]
 > a hell of a race,<br/>And a hell of a bunch of horses!<br/>Jockey number 69 on
 > Kay Dugan,<br/>That old Irish girl again.
 
+{% image
+alt="A black-and-white photo of a counter in front of which stand a richly-dressed man and woman. Behind the counter are two staff. On the counter is a 'squirrel cage' containing balls. On the wall behind the counter are the rules, a clock, and a board which lights up numbers when they are called."
+src="harolds_race_horse_keno.jpg"
+license="cc-by-nc-nd"
+licenseVersion="4.0"
+originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n209"
+orgName="University of Nevada Oral History Program"
+%}
+
+The race-horse keno counter at Harolds Club in the 1940s. Note the “squirrel
+cage” containing the balls. The payoffs listed are identical to those reported
+at the Crown Cigar Store in Montana, 1948.[@StatevCrownCigarStore]
+
+{% imageEnd %}
+
+The Bank Club (the next-door rival of the Palace Club) and Harolds Club were
+soon to follow by installing Keno games of their own.[@AlwaysBetOnTheButcher p.
+53] In 1938 Warren opened the game at the Nevada Club in Lake
+Tahoe.[@WarrenNelson p. 10]
+
 The racehorse version of the game died out some time in the mid
 1950s.[@EveryLightWasOn p. 128] However, keno games are still referred to as
 **races**.[@CompleteGuideWinningKeno p. 23]
@@ -1108,13 +1171,13 @@ as ten numbers were chosen. Many casinos or other operators allow players to
 choose 1-spot to 10- or 15-spot tickets, or even higher — some offer 20-spot tickets.
 
 The payoff tables vary depending on the number of spots chosen and are usually
-arranged by the number of **catches**: that is, chosen spots that match the
+arranged by the number of **catches**: that is, numbers chosen that match the
 drawn numbers.
 
 The basic ticket with a certain number of spots chosen is now called a
 **straight ticket**. Other ways of marking tickets indicate multiple
-simultaneous bets being placed. These bets could be placed as different tickets,
-but it is more convenient to mark them on one.
+simultaneous bets being placed. These bets could be placed as separate bets,
+but it is more convenient to mark them on one ticket.
 
 The simplest form of this is a **split ticket**, which has a line (or multiple
 lines) drawn across it to separate two or more distinct bets on one ticket.
@@ -1128,17 +1191,24 @@ circled groups of four, this can be used as a 3-way 8-spot ticket (there are
 three ways of forming eight spots by combining the groups) by writing “3/8” and
 the amonut bet on each way on the ticket. The total cost of the ticket is the
 amount bet per way multiplied by the number of ways. The same could also be used
-as a 3-way 4-spot ticket (3/4), or a one-way 12-spot ticket (1/12), if the
-player wanted. On a way ticket an individual circled number is called a
-**king**.
+as a 3-way 4-spot ticket (by writing 3/4), and/or also a one-way 12-spot ticket
+(1/12), if the player wanted. On a way ticket an individual circled number is
+called a **king**, as it greatly increases the number of possible bets.
+
+Extreme versions of the way-ticket include the 190-way 8-spot ticket, where all
+80 numbers on the ticket are marked by dividing them into twenty
+groups.[@CompleteGuideWinningKeno p. 119] At a rate of 10¢/way, this costs $19
+per race!
 
 Casinos provide ‘keno books’ which indicate various ways to mark way tickets and
 the corresponding payoffs depending on what catches are made.{%fn%}Examples can
 be found here for [Bally’s Las
 Vegas](https://archive.org/details/50000kenoballyslv87) or the [Sahara Las
-Vegas](https://archive.org/details/kenopayguide).{%endfn%} In some cases certain
-payoffs are “enhanced” and pay more than they would on a straight
-ticket.[@CompleteGuideWinningKeno p. 128]
+Vegas](https://archive.org/details/kenopayguide). See @CompleteGuideWinningKeno
+for more examples.{%endfn%} In some cases certain payoffs are “enhanced” and pay
+more than they would on a straight ticket.[@CompleteGuideWinningKeno p. 128] It
+has also happened that paybooks have contained mistakes, which has allowed players to
+capitalize on better odds for themselves.[@CompleteGuideWinningKeno p. 189]
 
 ### Alternative bets
 
@@ -1165,3 +1235,14 @@ pay out).[@CompleteGuideWinningKeno p. 91]
 There are many other Keno variants which are invented on a month-by-month basis
 by casinos. [Wizard of Odds](https://wizardofodds.com/games/keno/) has an
 extensive list on their Keno page.
+
+### Outside the casino: “Lottery” Keno
+
+{% image src="keno_ticket.jpg" alt="" %}
+A modern non-casino Keno ticket, as used in New Zealand.
+{% imageEnd %}
+
+Keno is also run as a large-scale operation by lotteries operators. In this form
+of the game, only ‘straight’ tickets may be played — due to the number of
+different ways a ticket may be marked, the job of the ticket writers is highly
+skilled and not easily constrained to a computerizable form.

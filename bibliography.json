@@ -10280,5 +10280,46 @@
         "URL": "https://www.webonary.org/bualkhawchin",
         "publisher": "SIL International",
         "issued": 2019
+    },
+    "OnARoll": {
+        "type": "book",
+        "title": "On A Roll: A History of Gambling & Lotteries in New Zealand",
+        "ISBN": "086473266X",
+        "publisher": "Victoria University Press",
+        "publisher-place": "Wellington, New Zealand",
+        "author": [
+            {
+                "given": "David",
+                "family": "Grant"
+            }
+        ],
+        "issued": 1994
+    },
+    "GamblingAmongChinese": {
+        "type": "article-newspaper",
+        "URL": "https://paperspast.natlib.govt.nz/newspapers/ESD19040820.2.62",
+        "title": "Political Gossip: Gambling Among Chinese",
+        "container-title": "The Evening Star",
+        "issue": 12279,
+        "issued": {
+            "day": 20,
+            "month": 8,
+            "year": 1904
+        },
+        "page": 7
+    },
+    "GrammarOfTheChineseLanguage2": {
+        "type": "book",
+        "title": "Grammar of the Chinese Language",
+        "URL": "https://books.google.co.nz/books?id=KW0wAQAAMAAJ",
+        "author": [
+            {
+                "given": "William",
+                "family": "Lobscheid"
+            }
+        ],
+        "issued": 1864,
+        "volume": 2,
+        "publisher-place": "Hong Kong"
     }
 }
