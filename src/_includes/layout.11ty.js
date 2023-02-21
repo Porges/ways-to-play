@@ -41,8 +41,7 @@ exports.render = async function (data) {
       outputDir: "public/img",
     });
 
-    // TODO: this should come from a variable
-    ogImage = "https://games.porg.es" + metadata[Object.keys(metadata)[0]][0].url;
+    ogImage = data.site.url + metadata[Object.keys(metadata)[0]][0].url;
   }
 
   return `<!doctype html>

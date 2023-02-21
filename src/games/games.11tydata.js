@@ -1,9 +1,11 @@
+const { IS_PRODUCTION } = require("../../helpers");
+
 let data = {
     "layout": "article",
     "tags": "game"
 };
 
-if (process.env.NODE_ENV === 'production') {
+if (IS_PRODUCTION) {
     data.date = "git Last Modified";
 }
 

@@ -40,7 +40,7 @@ transliterate this as <span lang="th-Latn">sua tok tong</span>.{%endfn%} or
 <span lang="th-Latn">saeng tawan</span> (<span lang="th">แสงตะวัน</span> ‘sun
 rays’).[@TigerTank]{%fn%}Another name given is <span lang="th">จะบูมูลู</span>
 but I haven’t been able to translate it.{%endfn%} In Malaysia it is known as
-<span lang="ms">telaga buruk</span> (‘bad well’).[@TigerTank]
+{% pronounce lang="ms" word="telaga buruk" pronouncer="Alvin00" %} (‘bad well’).[@TigerTank]
 
 <div class="multi">
 

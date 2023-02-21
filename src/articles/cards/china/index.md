@@ -15,15 +15,25 @@ The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard
 Chinese: {%pronounce lang="zh-Latn-pinyin" word="pái" pronouncer="LofZRules"
 file="pronunciation_zh_牌.mp3" %}), does not distinguish between different forms
 of card-like games and equally applies to paper or cardboard cards, bamboo
-sticks, or bone, ivory, or plastic Mahjong tiles. In many adjacent countries a
-derived term is used in the local language:
+sticks, or bone, ivory, or plastic Mahjong tiles. In many adjacent countries and
+languages adjacent to China, a derived term is used in the local language:
 
+* Bouyei: <span lang="pcc">pai<sup>2</sup></span> (TODO: tone?)
+* Bru: <span lang="bru">ບາຍ</span> (<span lang="bru-Latn">bai</span>)[@BruDictionary]
 * Burmese: <span lang="my">ဖဲ</span> (<span lang="my-Latn">hpai</span>)
+* Dungan: <span lang="dng">пэ</span> (<span lang="dng-Latn">pe</span>)
+* Chin: <span lang="cfm">phe<sub>2</sub></span> (Falam)[@ChinFalamDictionary]; <span lang="cbl">phe<sub>1</sub></span> or <span lang="cbl">phe<sub>3</sub></span> (Bualkhaw)[@ChinBualkhawDictionary]
+* Kayan: <span lang="pdu-Latn">phaǐ<sub>1</sub></span>[@KayanDictionary]
+* Kayaw: <span lang="kvl-Latn">be<sub>1</sub></span>[@KayawDictionary]
 * Khmer: <span lang="km">បៀ</span> ({% pronounce lang="km-Latn" word="bie"
   file="pronunciation_km_បៀ.mp3" pronouncer="chetanachey" %})
+* Lao: <span lang="lo">ໄພ້</span> (<span lang="lo-Latn">pʰâi</span>)
+* Rawang: <spang lang="raw">pày</span>[@RawangDictionary]
+* Tai Lue: <span lang="khb">ᦘᦻᧉ</span> (<span lang="khb-Latn">pʰaaj⁶</span>)[@DaiLueDictionary]
 * Thai: <span lang="th">ไพ่</span> ({% pronounce lang="th-Latn" word="pâi"
   file="pronunciation_th_ไพ.mp3" pronouncer="Ghee" %})
 * Vietnamese: <span lang="vi">bài</span>
+* Zhuang: <span lang="za-Latn">bej</span> or <span lang="zhn-Latn">paih</span>/<span lang="zhn-Latn">paij<sub>2</sub></span> (Nong Zhuang)[@ZCELexicon]
 
 Unusually, Japan does not use cards derived from Chinese examples, but instead
 from European (specifically Portuguese) cards (see {%a japan, the page about

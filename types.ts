@@ -104,5 +104,9 @@ export type Data = {
     all: any;
     article: Article[],
     game: Article<GameData>[],
+  },
+  // from _data/site.json
+  site: {
+    url: string,
   }
 };

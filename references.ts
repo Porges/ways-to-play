@@ -231,7 +231,7 @@ function toIsoDate(ymd: Date) {
 const renderPublisher = (reference: Reference) => {
     const publisher =
         ifSet(reference.publisher,
-            (p) => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${p}</span>${reference['publisher-place'] ? ': ' : (p)}`)
+            (p) => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${p}</span>${reference['publisher-place'] ? ': ' : (p.endsWith('.') ? ' ' : '. ')}`)
         + ifSet(reference['publisher-place'], pp => `${pp}. `);
 
     if (reference.type === 'thesis') {

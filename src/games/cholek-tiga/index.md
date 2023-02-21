@@ -71,11 +71,12 @@ The player with the most points wins the difference in points between their
 score and the other players’ scores. This is settled between the players at a
 rate of 10¢ per point.
 
-For each identical red-stamped triplet (called an <span lang="ms">ang
-pow</span>{%fn%}This comes from Hokkien <span lang="nan">紅包</span> <span
-lang="nan-Latn">âng pau</span>.{%endfn%} ‘red packet’) or quadruplet (called an
-<span lang="ms">ang pow besar</span> ‘big red packet’), the player wins a bonus
-of $1, or $2, respectively, from **each** other player.
+For each identical red-stamped triplet (called an {%pronounce lang="ms"
+word="ang pow" pronouncer="Alvin00" %}{%fn%}This comes from Hokkien <span
+lang="nan">紅包</span> <span lang="nan-Latn">âng pau</span>.{%endfn%} ‘red
+packet’) or quadruplet (called an {% pronounce lang="ms" word="ang pow besar"
+pronouncer="wild_pointer" %} ‘big red packet’), the player wins a bonus of $1,
+or $2, respectively, from **each** other player.
 
 The player who scored the least points goes first in the next game.
 

@@ -10142,5 +10142,121 @@
         "publisher": "International Institute of Tamil Studies",
         "publisher-place": "Chennai",
         "URL": "https://archive.org/details/dli.jZY9lup2kZl6TuXGlZQdjZM8luQy.TVA_BOK_0005875"
+    },
+    "ZCELexicon": {
+        "type": "webpage",
+        "title": "壮-汉-英词汇 Zhuang-Chinese-English Lexicon",
+        "author": [
+            {
+                "given": "Eric C.",
+                "family": "Johnson"
+            }
+        ],
+        "issued": 2018,
+        "URL": "https://www.webonary.org/zhuangwen/overview/?lang=en",
+        "container-title": "Webonary.org",
+        "publisher": "SIL International"
+    },
+    "BruDictionary": {
+        "type": "webpage",
+        "title": "Bru Dictionary",
+        "publisher": "SIL International",
+        "container-title": "Webonary.org",
+        "URL": "https://www.webonary.org/bru",
+        "issued": 2017
+    },
+    "KayanDictionary": {
+        "type": "webpage",
+        "title": "Kayan Dictionary",
+        "author": [
+            {
+                "given": "Kayan Literacy and Culture Committee"
+            }
+        ],
+        "container-title": "Webonary.org",
+        "URL": "https://www.webonary.org/kayan",
+        "publisher": "SIL International",
+        "issued": 2017
+    },
+    "RawangDictionary": {
+        "type": "webpage",
+        "title": "Rawang-English-Burmese Dictionary",
+        "editor": [
+            {
+                "given": "Randy J.",
+                "family": "LaPolla"
+            },
+            {
+                "given": "David",
+                "family": "Sangdong"
+            }
+        ],
+        "container-title": "Webonary.org",
+        "URL": "https://www.webonary.org/rawang",
+        "publisher": "Nanyang Technological University",
+        "issued": 2016
+    },
+    "DaiLueDictionary": {
+        "type": "webpage",
+        "title": "Dai Lue – English Dictionary",
+        "author": [
+            {
+                "given": "William J.",
+                "family": "Hanna"
+            }
+        ],
+        "container-title": "Webonary.org",
+        "URL": "https://www.webonary.org/dailu",
+        "publisher": "SIL International",
+        "issued": 2019
+    },
+    "KayawDictionary": {
+        "type": "webpage",
+        "title": "Kayaw - English Dictionary",
+        "author": [
+            {
+                "given": "Kayaw Ethnic Literature and Cultural Central Committee"
+            }
+        ],
+        "container-title": "Webonary.org",
+        "URL": "https://www.webonary.org/kayaw",
+        "publisher": "SIL International",
+        "issued": 2017
+    },
+    "ChinFalamDictionary": {
+        "type": "webpage",
+        "title": "Falam Chin – English Dictionary",
+        "editor": [
+            {
+                "given": "Than Bil",
+                "family": "Luai"
+            },
+            {
+                "given": "Timothy",
+                "family": "Mang"
+            }
+        ],
+        "container-title": "Webonary.org",
+        "URL": "https://www.webonary.org/chinfalam",
+        "publisher": "SIL International",
+        "issued": 2018
+    },
+    "ChinBualkhawDictionary": {
+        "type": "webpage",
+        "title": "Bualkhaw Chin Dictionary",
+        "editor": [
+            {
+                "given": "Peter",
+                "family": "Thangpi"
+            },
+            {
+                "given": "Bawiuk",
+                "family": "Thang"
+            }
+        ],
+        "container-title": "Webonary.org",
+        "URL": "https://www.webonary.org/bualkhawchin",
+        "publisher": "SIL International",
+        "issued": 2019
     }
 }
