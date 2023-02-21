@@ -58,3 +58,15 @@ In Indonesia the game has been called <span lang="id">Dadu Putar</span>
 miners.[@GamesAndDances p. 330] The top would be covered with a coconut shell or
 specially-made wooden cover whilst it was spinning. Evidence found online shows
 that the game is still played in this manner today.
+
+{% image src="20.500.11840_1366529.jpg"
+  alt="A black-and-white photo of a group of people, mostly men, standing and seated around a mat on the ground. One man is spining a teetotum in a dish, other players are placing coins on the mat inside squares marked with dice symbols."
+  identifier="TM-10018006_REPRO"
+  license="cc0"
+  size="wide"
+  orgName="Nationaal Museum van Wereldculturen"
+  orgLang="nl"
+  orgAbbr="NMVW"
+  originalUrl="https://hdl.handle.net/20.500.11840/1366529" %}
+A group of people playing <span lang="id">Dadu Putar</span> (or a game very similar to it) in [Bengkulu,](https://en.wikipedia.org/wiki/Bengkulu) Sumatra (1910–1930).
+{% imageEnd %}
