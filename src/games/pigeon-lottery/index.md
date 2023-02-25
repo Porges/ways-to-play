@@ -864,10 +864,15 @@ them were used for pakapoo at some stage or another.[@RepresentingHainingStreet2
 
 {%imageEnd%}
 
-<!--
-In any case, despite lurid newspaper and magazine reports of pakapoo dens and
-the supposed conditions thereof, 
--->
+Now that we are able to look back with the benefit of time and more sources, it
+is clear that, despite lurid newspaper and magazine reports of pakapoo dens and
+the supposed conditions thereof, the pakapoo shops functioned not only as a
+gambling house but as a meeting-place with a convivial atmosphere, providing a
+safe ‘third place’ for Chinese (men, at least) to gather, catch up on news from
+home, drink tea, and eat.[@RepresentingHainingStreet1 p. 52, 62] Interviews with
+ex-police officers indicate that they thought it a “clean and well-run game”,
+and only raided the game when specific complaints had been
+made.[@RepresentingHainingStreet1 p. 59]
 
 During the remainder of the 20th century, pakapoo slowly dropped out of the public
 eye. I am not aware of any current use of the game — although it is now legal.
