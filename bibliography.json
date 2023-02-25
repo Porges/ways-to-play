@@ -10321,5 +10321,49 @@
         "issued": 1864,
         "volume": 2,
         "publisher-place": "Hong Kong"
+    },
+    "GoldenShells": {
+        "type": "chapter",
+        "title": "<span lang='ja-Latn'>Kai-awase</span>: the shell-matching game",
+        "ISBN": "9781925432770",
+        "issued": 2021,
+        "publisher":"National Gallery of Victoria",
+        "publisher-place": "Melbourne",
+        "container-title": "Golden Shells and Elegant Games of Japan",
+        "author": [
+            {
+                "given": "Liza",
+                "family": "Dalby"
+            }
+        ],
+        "editor": [
+            {
+                "given": "Wayne",
+                "family": "Crothers"
+            }
+        ],
+        "page": "86–100"
+    },
+    "GoldenOpportunity": {
+        "type": "chapter",
+        "title": "A golden opportunity: reviving the lost art of <span lang='ja-Latn'>kai-awase</span> and <span lang='ja-Latn'>kai-oke</span> production",
+        "ISBN": "9781925432770",
+        "issued": 2021,
+        "publisher":"National Gallery of Victoria",
+        "publisher-place": "Melbourne",
+        "container-title": "Golden Shells and Elegant Games of Japan",
+        "author": [
+            {
+                "given": "Tatsufumi",
+                "family": "Yamazaki"
+            }
+        ],
+        "editor": [
+            {
+                "given": "Wayne",
+                "family": "Crothers"
+            }
+        ],
+        "page": "2–22"
     }
 }

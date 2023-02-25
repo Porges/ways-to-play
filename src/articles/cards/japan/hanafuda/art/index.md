@@ -39,16 +39,19 @@ in here — shells.
 The competitions were generally organized between two teams, named Left (who
 started the game, and usually had higher-ranking members){%fn%}In Japan, the
 left-hand side was traditionally considered the dominant or “masculine” side
-(see the [naming of shells below](#kai-awase-to-kai-oi)), the
-opposite of European tradition. In the <span class="noun" lang="ja-Latn">Heian</span> period,
-the Minister of the Left (<span lang="ja">左大臣</span>) outranked the Minister
-of the Right (<span lang="ja">右大臣</span>).{%endfn%} and Right, and
+(see the [naming of shells below](#kai-awase-to-kai-oi)), the opposite of
+European tradition. In the <span class="noun" lang="ja-Latn">Heian</span>
+period, the Minister of the Left (<span lang="ja">左大臣</span>) outranked the
+Minister of the Right (<span lang="ja">右大臣</span>).{%endfn%} and Right, and
 consisted of a series of rounds in which each team would present one item at a
 time, often with accompanying poem. Another format involved the presentation of
 a selection of objects on a miniature artificial garden or island called a <span
 lang="ja-Latn">suhama</span> (<span lang="ja">洲浜</span>), which was
 constructed especially for the competition and which could be made out of
-expensive wood or precious metals.
+expensive wood or precious metals. The teams were outfitted in different
+colours — the Left in warm colours, orange or purple, the Right in cool,
+yellow or blue — and their accompaniments could also be chosen to match the
+team colours.[@GoldenShells p. 90]
 
 {% image
     src="suhama-left.jpg;suhama.jpg"
@@ -198,8 +201,9 @@ sets.
     license="cc0",
     orgName="Waseda University",
     originalUrl="https://www.wul.waseda.ac.jp/kotenseki/html/ni15/ni15_00715/index.html" %}
-These diagrams indicate knots that could be tied on <span
-lang="ja-Latn">kai-oke</span> to distinguish the “ground” shells (left) from the
+These diagrams indicate knots that could be tied on the decorative cord 
+(<span lang="ja">組紐</span> <span lang="ja-Latn">kumihimo</span>) which is used to secure the <span
+lang="ja-Latn">kai-oke</span>. Two different knots are used to distinguish the “ground” shells (left) from the
 “coming out” shells (right). From <cite>Brocade of Shellfish</cite> <cite
 lang="ja">貝尽浦の錦</cite> (1751) by <span class="noun" lang="ja-Latn">Ōeda Ryūhō</span>
 (<span lang="ja">大枝流芳</span>).
@@ -222,14 +226,16 @@ Tamayama</span> (<span lang="ja">岡田玉山</span>).
 Unlike <span lang="ja-Latn">kai-awase</span>, the new game was exclusively
 played with clam (<span lang="ja">蛤</span>) shells, and it offered definitive
 terms for deciding the winner. In one method of play, the left-hand sides of the
-shells — also termed the “male” or ‘ground’ (<span lang="ja">地</span>)
+shells — also termed the “male” (<span lang="ja">陽</span> <span
+lang="ja-Latn">yō</span> = yang) or ‘ground’ (<span lang="ja">地</span>)
 shells — were arranged face-down on the ground. The right-hand sides — the
-“female” or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn
-from their <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>,
-‘shell bucket’) one-by-one and the players would attempt to match them with
-those on the floor. Whoever was the first to point out a (successful) match
-would capture both halves of the shell, and the winner was the player who
-collected the most shells.
+“female” (<span lang="ja">陰</span> <span lang="ja-Latn">in</span> = yin) or
+‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their
+<span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell
+bucket’) one-by-one and the players would attempt to match them with those on
+the floor.[@GoldenShells p. 92] Whoever was the first to point out a
+(successful) match would capture both halves of the shell, and the winner was
+the player who collected the most shells.
 
 Early instructional books for women from the <span class="noun"
 lang="ja-Latn">Muromachi</span> period (1392–1573) include rules that state that
@@ -287,17 +293,25 @@ Slumbers</cite> <cite lang="ja">うたたね草紙</cite> shows a mixed group pl
 When played with many shells, the game must have been difficult, since the clues
 that point to a match are solely the subtle shades and contours of the shell,
 and the only way to test if shells truly match is to pick them up and attempt to
-join them together. Considering that traditional sets could contain up to 360
-shells,{%fn%}Modern replicas usually only have around 54.{%endfn%} this
-was a game for a class of person who had a lot of leisure time on their hands.
+join them together. In fact, white shells with few markings were specifically
+selected to make the game as difficult as possible.[@GoldenOpportunity p. 11]
+Considering that traditional sets could contain up to 360 shells,{%fn%}Modern
+replicas usually only have around 54, but an elaborate set produced between
+2013–2015 by forty-six artisans in [<span lang="ja-Latn"
+class="noun">Wajima</span>](https://en.wikipedia.org/wiki/Wajima,_Ishikawa)
+contains 720 shells featuring Australian wild flowers.[@GoldenOpportunity p.
+4]{%endfn%} this was a game for a class of person who had a lot of leisure time
+on their hands.
 
 Later the game set itself turned into a luxury item: the interior of the shells
 was at first decorated with matching fabrics, and then elaborately painted or
-even gilded. After the <span class="noun" lang="ja-Latn">Kamakura</span> period (1333), it
-became common to illustrate the shells with matching scenes from the [Tale of
-Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) (<span lang="ja">源氏物
+even gilded. These matching images were used to confirm a correct match after
+both shells were selected. After the <span class="noun"
+lang="ja-Latn">Kamakura</span> period (1333), it became common to illustrate the
+shells with matching scenes from the [Tale of
+ Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) (<span lang="ja">源氏物
 語</span> {% pronounce word="Genji Monogatari" file="pronunciation_ja_源氏物語.mp3"
- pronouncer="straycat88" lang="ja-Latn" %}) — the game is also played in
+pronouncer="straycat88" lang="ja-Latn" %}) — the game is also played in
 Chapter 45 of the novel itself. Other designs included shells with half of a
 poem in each, so that the matching pair could be read as a complete poem; these
 types of the game would eventually evolve into the <span
@@ -312,16 +326,20 @@ An 18th-century <span lang="ja-Latn">kai-ōi</span> set. The paired boxes are th
 each bucket. The shells are decorated with painted scenes.
 {% imageEnd %}
 
-A personal <span lang="ja-Latn">kai-ōi</span> set became a standard component of a
-noble bride’s wedding gifts, as the joining of the matching shells was symbolic
-of the join&shy;ing of husband and wife in marriage. However, the elaborate sets
-with their hand-painted and gilded interiors must have been ex&shy;pen&shy;sive
-to create and only owned by the richest of families. Indeed, at times
-restrictions were put in place so that <em>only</em> noble families of the upper
-ranks were permitted to include the game in their bridal
-trousseaux.[@JapaneseGamesOfMemory p. 265] When the time came to hand over the
-wedding gifts, it was customary for the <span lang="ja-Latn">kai-oke</span> to
-be the first item presented.[@JapaneseGamesOfMemory p. 265]
+During the 17th century, a personal <span lang="ja-Latn">kai-ōi</span> set
+became a standard component of a noble bride’s wedding gifts, as the joining of
+the matching shells was symbolic of the join&shy;ing of husband and wife in
+marriage. However, the elaborate sets with their hand-painted and gilded
+interiors must have been ex&shy;pen&shy;sive to create and only owned by the
+richest of families. Indeed, at times restrictions were put in place so that
+<em>only</em> noble families of the upper ranks were permitted to include the
+game in their bridal trousseaux.[@JapaneseGamesOfMemory p. 265] When the time
+came to hand over the wedding gifts, it was customary for the <span
+lang="ja-Latn">kai-oke</span> to be the first item
+presented,[@JapaneseGamesOfMemory p. 265] and they were eventually to become the
+most important of all the gifts given to the bride.[@GoldenOpportunity p. 11]
+This custom eventually died out as samurai culture was ended during the late 19th
+century.[@GoldenOpportunity p. 11]
 
 In this role, miniature <span lang="ja-Latn">kai-oke</span> can be found in
 [<span
