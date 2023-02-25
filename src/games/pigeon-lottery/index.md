@@ -73,9 +73,19 @@ winners.
 
 One Chinese origin story says that the name is because white pigeons were used
 to transmit the results from gambling houses to the
-bettors.[@GrammarOfTheChineseLanguage2 p. 157] Another dates the game to the Han
-dynasty, saying that it was invented to raise money for the support of the army
-when a city was beseiged.[@GrammarOfTheChineseLanguage2 p. 156]
+bettors.[@GrammarOfTheChineseLanguage2 p. 157] Another dates the game to the
+foundation of the Han dynasty, saying that it was invented by [<span
+lang="zh-Latn-pinyin" class="noun">Zhāng
+Liáng</span>](https://en.wikipedia.org/wiki/Zhang_Liang_(Western_Han)) (<span
+lang="zh">張良</span>, <abbr title="circa">c.</abbr>&nbsp;251–189
+{%bce%}),{%fn%}Older sources transliterate his name as Cheung Leung.{%endfn%}
+advisor to [Emperor <span class="noun"
+lang="zh-Latn-pinyin">Gāozǔ</span>,](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han)
+in order to raise money for the support of the army when a city was
+beseiged.[@GrammarOfTheChineseLanguage2 p. 156] While <span
+lang="zh-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a
+lottery to raise funds, it seems to be unlikely to be identical to the modern
+game.
 
 The true origin of the game apparently lies in gambling that was carried out as part of 
 the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span
