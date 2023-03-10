@@ -53,7 +53,7 @@ shows win 4× their stake. All other stakes are lost.
 Equipment for <span lang="id">Dadu Putar</span>.
 {% imageEnd %}
 
-In Indonesia the game has been called <span lang="id">Dadu Putar</span>
+In Indonesia the game has been called {%pronounce lang="id" word="Dadu Putar" class="noun" pronouncer="ronaldhoesni" file="pronunciation_ind_dadu_putar.mp3" %}
 (‘spinning die’), and was popular amongst Javanese labourers and
 miners.[@GamesAndDances p. 330] The top would be covered with a coconut shell or
 specially-made wooden cover whilst it was spinning. Evidence found online shows

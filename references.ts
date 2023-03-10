@@ -44,6 +44,7 @@ export type Reference = {
   id: string,
   title: string,
   ['title-lang']?: string,
+  'title-alt'?: string,
   author?: readonly Author[],
   editor?: readonly Author[],
   URL?: string,
@@ -115,6 +116,7 @@ function renderTitle(reference: Reference) {
 
     if (reference.type === 'book' || reference.type === 'thesis') {
         return `<cite itemprop="name"${asAttr('lang', lang)}>${isolate(linked)}</cite>`
+            + ifSet(reference['title-alt'], t => ` [${t}]`)
             + ifSet(reference.edition, e => ` (${ordinal(e)} edition)`)
             + ifSet(reference.volume, v => ` (volume ${formatNumberString(v)})`)
             + archiveURL

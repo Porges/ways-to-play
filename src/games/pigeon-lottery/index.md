@@ -85,7 +85,9 @@ in order to raise money for the support of the army when a city was
 beseiged.[@GrammarOfTheChineseLanguage2 p. 156] While <span
 lang="zh-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a
 lottery to raise funds, it seems to be unlikely to be identical to the modern
-game.
+game. For one thing, the <cite>Thousand Character Classic</cite> upon which the
+game is based is traditionally dated to the [Liang
+dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 {%ce%}).
 
 The true origin of the game apparently lies in gambling that was carried out as part of 
 the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span
@@ -317,6 +319,28 @@ had some control over the game was the book called the “character container”
 which recorded the number of times each character had been drawn in the recent past.[@BettingOnEmpire p. 102]
 In reality, this would function similarly to a {% gameref roulette %} tote board which
 displays the most recent results, and thus play up the effect of the gambler’s fallacy on the players.
+
+<!--
+
+OverseasChineseNZ [p. 30] gives various bet type:
+
+Straight Column: Ji Zhu
+Lai Biao: merging into round numbers
+Pan Hou: start of a set
+Zhuang: guessing
+
+a formation on 13 characters: foot of a ghost
+14: belly of a ghost (circle of characters)
+14?: picture of a hundred children
+
+abacus: two parallel rows
+brocade: concentric rows
+rotten firewood case: rugged rows
+wheel pattern, etc
+
+Chi zu: straight column?
+
+-->
 
 ### Example payoff schemes
 

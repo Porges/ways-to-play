@@ -10327,7 +10327,7 @@
         "title": "<span lang='ja-Latn'>Kai-awase</span>: the shell-matching game",
         "ISBN": "9781925432770",
         "issued": 2021,
-        "publisher":"National Gallery of Victoria",
+        "publisher": "National Gallery of Victoria",
         "publisher-place": "Melbourne",
         "container-title": "Golden Shells and Elegant Games of Japan",
         "author": [
@@ -10349,7 +10349,7 @@
         "title": "A golden opportunity: reviving the lost art of <span lang='ja-Latn'>kai-awase</span> and <span lang='ja-Latn'>kai-oke</span> production",
         "ISBN": "9781925432770",
         "issued": 2021,
-        "publisher":"National Gallery of Victoria",
+        "publisher": "National Gallery of Victoria",
         "publisher-place": "Melbourne",
         "container-title": "Golden Shells and Elegant Games of Japan",
         "author": [
@@ -10365,5 +10365,23 @@
             }
         ],
         "page": "2–22"
+    },
+    "OverseasChineseNZ": {
+        "type": "book",
+        "title": "紐西蘭華僑史略",
+        "title-lang": "zh",
+        "title-alt": "A Brief History of the Overseas Chinese in New Zealand",
+        "author": [
+            {
+                "given": "耀星",
+                "family": "周",
+                "lang": "zh",
+                "alt": "Joe Y. Sing"
+            }
+        ],
+        "issued": 1996,
+        "publisher": "紐西蘭雙星出版社",
+        "publisher-lang": "zh",
+        "publisher-place": "New Zealand"
     }
 }
