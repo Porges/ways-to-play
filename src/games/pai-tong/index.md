@@ -54,9 +54,13 @@ game by completing their hand — they discard one.
 The goal of the game is to form a complete hand of 12 tiles, comprising four
 sets of three. A set is called a **<span lang="th-Latn">tong</span>** (<span
 lang="th">ตอง</span>), and comprises three cards of the same rank.{%fn%}This
-term is also used in other card games to describe a triplet.{%endfn%} For the
-purposes of forming sets, all the honour cards are considered to be of the same
-rank, so a set can be made of three different honour cards.
+term — possibly derived from the Chinese <span lang="zh">同</span> (Mandarin:
+<span lang="zh-Latn-pinyin">tóng</span>, Cantonese: <span
+lang="yue-Latn-jyutping">tung4</span>) ‘same; identical’ — is also used in other
+card games to describe a triplet, or a number with three identical
+digits.{%endfn%} For the purposes of forming sets, all the honour cards are
+considered to be of the same rank, so a set can be made of three different
+honour cards.
 
 Instead of taking from the draw pile, a player may also take the previous
 player’s discard, if they can form a <span lang="th-Latn">tong</span> using it.
@@ -94,7 +98,7 @@ the tiles one at a time from the wall in a clockwise direction, as in Mahjong.
 
 Play and win as in the Thai game.
 
-A set of three identical cards or tiles is called a <span lang="ms">tong</span>,
+A set of three identical cards or tiles is again called a <span lang="ms">tong</span>,
 a set of three mixed tiles is called a <span lang="ms">tong serong</span>
 (“crooked <span lang="ms">tong</span>”).
 

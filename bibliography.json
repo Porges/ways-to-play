@@ -37,7 +37,8 @@
         "original-publisher": "Castle Books",
         "original-date": {
             "year": 1969
-        }
+        },
+        "notes": "the 1969 edition can be found <a href='https://archive.org/details/gamutofgames0000sids'>here</a>"
     },
     "NewRules": {
         "type": "book",
@@ -6145,11 +6146,13 @@
         "type": "book",
         "title": "القاموس المحيط",
         "title-lang": "ar",
+        "title-alt": "The Surrounding Ocean",
         "author": [
             {
                 "family": "فيروزآبادى",
                 "given": "محمد بن يعقوب",
-                "lang": "ar"
+                "lang": "ar",
+                "alt": "Muḥammad ibn Yaʿqūb al-Fīrūzābādī"
             }
         ],
         "issued": {

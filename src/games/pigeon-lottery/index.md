@@ -57,11 +57,17 @@ numbers of characters chosen and the permissible bets vary by both time and
 location.
 
 In many locations the game was treated as illegal, running afoul of anti-lottery
-laws; this despite it not being a lottery. Even when it started to become
-popular in American casinos, many Keno writers (ticket markers) believed it to
-be a lottery, and that it had only become quasi-legal through subterfuge (for
-example, see @AFamilyAffair [p. 179], and many other examples stating it to be a
-lottery).
+laws; this despite it not being a lottery.{%fn%}See, for example,
+@GamblingGamesOfMalaya [p. 48]: “although this form of gambling is named in the
+Chinese as ‘Lottery’, there is doubt that it is in fact a ‘lottery’. In a
+lottery there is a distribution of prices (usually money) by chance or lot. But
+in this form of gambling there are no prizes in the accepted sense, and although
+money paid out by a promoter to lucky punters is dependant on numbers drawn by
+chance, that money is not a distribution of prize money, but is in fulfulment of
+betting contracts.”{%endfn%} Even when it started to become popular in American
+casinos, many Keno writers (ticket markers) believed it to be a lottery, and
+that it had only become quasi-legal through subterfuge (for example, see
+@AFamilyAffair [p. 179], and many other examples stating it to be a lottery).
 
 ## Early origins
 
@@ -389,6 +395,11 @@ Montana<br/>(1948)[@StatevCrownCigarStore]
 </th>
 <th>
 
+Malaya<br/>(<1955)[@GamblingGamesOfMalaya p. 49]
+
+</th>
+<th>
+
 Las Vegas<br/>
 (1972)[@EncyclopediaOfKeno p. 19]
 
@@ -404,6 +415,7 @@ Las Vegas<br/>
 <td>6d</td>
 <td>6d</td>
 <td>25¢</td>
+<td>$1</td>
 <td>60¢</td>
 </tr>
 <tr>
@@ -414,6 +426,7 @@ Las Vegas<br/>
 <td>?</td>
 <td>6d<br/>(1×)</td>
 <td>50¢<br/>(2×)</td>
+<td>$1<br/>(1×)</td>
 <td>$1.20<br/>(2×)</td>
 </tr>
 <tr>
@@ -424,6 +437,7 @@ Las Vegas<br/>
 <td>?</td>
 <td>18/6<br/>(37×)</td>
 <td>$4.5<br/>(18×)</td>
+<td>$10<br/>(10×)</td>
 <td>$12<br/>(20×)</td>
 </tr>
 <tr>
@@ -434,6 +448,7 @@ Las Vegas<br/>
 <td>£4<br/>(160×)</td>
 <td>£3 15/–<br/>(150×)</td>
 <td>$45<br/>(180×)</td>
+<td>$100<br/>(100×)</td>
 <td>$90<br/>(150×)</td>
 </tr>
 <tr>
@@ -444,6 +459,7 @@ Las Vegas<br/>
 <td>£20<br/>(800×)</td>
 <td>£18 10/–<br/>(740×)</td>
 <td>$225<br/>(900×)</td>
+<td>$625<br/>(625×)</td>
 <td>$660<br/>(1100×)</td>
 </tr>
 <tr>
@@ -454,6 +470,7 @@ Las Vegas<br/>
 <td>£40<br/>(1600×)</td>
 <td>£36<br/>(1440×)</td>
 <td>$450<br/>(1800×)</td>
+<td>$1250<br/>(1250×)</td>
 <td>$2400<br/>(4000×)</td>
 </tr>
 <tr>
@@ -464,6 +481,7 @@ Las Vegas<br/>
 <td>£80<br/>(3200×)</td>
 <td>£85<br/>(3400×)</td>
 <td>$900<br/>(3600×)</td>
+<td>$2500<br/>(2500×)</td>
 <td>$12,500<br/>(20833⅓×)</td>
 </tr>
 <tr class="table-secondary">
@@ -474,6 +492,7 @@ Las Vegas<br/>
 <td>—</td>
 <td>17.46%</td>
 <td>26.72%</td>
+<td>58.01%</td>
 <td>25.01%</td>
 </tr>
 </tbody>
@@ -502,11 +521,17 @@ seems to have been popular in places with goldfields where Chinese men came to
 work in the late 19th century: San Francisco in the USA, British Columbia in
 Canada, Victoria in Australia, and Otago in New Zealand.
 
-Despite the existence of other very similar games in China, such as the ‘mountain
-lottery’ (<span lang="zh">山票</span> Mandarin: <span lang="zh-Latn-pinyin">shān
-piào</span>, Cantonese: <span lang="yue-Latn-jyutping">saan1 piu3</span>), the
-pigeon lottery was the only one that was successfully popularized amongst
-Europeans.[@BettingOnEmpire p. 193]
+Despite the existence of other very similar games in China, such as the
+‘mountain lottery’ (<span lang="zh">山票</span> Mandarin: <span
+lang="zh-Latn-pinyin">shān piào</span>, Cantonese: <span
+lang="yue-Latn-jyutping">saan1 piu3</span>), the pigeon lottery was the only one
+that was successfully popularized amongst Europeans.[@BettingOnEmpire p. 193]
+Conversely, in countries such as Malaya, where the game was legal during the
+[Japanese
+occupation](https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya)
+(1941–42), the pigeon lottery was apparently never as popular as Chee Fah or
+Chee Tam (games based upon selecting one out of 36 or 80 characters,
+respectively).[@GamblingGamesOfMalaya p. 48]
 
 ### In the United States
 
