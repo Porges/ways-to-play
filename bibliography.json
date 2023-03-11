@@ -1409,7 +1409,8 @@
         "edition": 3,
         "ISBN": "978-1-55652-350-2",
         "publisher": "Lawrence Hill Books",
-        "publisher-place": "Chicago, IL, USA"
+        "publisher-place": "Chicago, IL, USA",
+        "notes": "second edition available online <a href='https://archive.org/details/africacountsnumb00zasl'>here</a>"
     },
     "TicTacToe": {
         "type": "book",
@@ -1425,7 +1426,8 @@
         },
         "ISBN": "0-690-04317-1",
         "publisher": "Thomas Y. Crowell",
-        "publisher-place": "New York, NY, USA"
+        "publisher-place": "New York, NY, USA",
+        "URL": "https://archive.org/details/tictactoeothert00zasl"
     },
     "Rothwell1674": {
         "type": "webpage",
@@ -2241,6 +2243,8 @@
         "type": "book",
         "title": "HAKMEM",
         "URL": "https://w3.pppl.gov/~hammett/work/2009/AIM-239-ocr.pdf",
+        "publisher": "Artificial Intelligence Laboratory of the Massachusetts Institute of Technology",
+        "publisher-place": "Cambridge, Massachusetts, USA",
         "issued": {
             "year": 1972,
             "month": 2
@@ -6995,7 +6999,7 @@
     "Tiverton": {
         "type": "article-newspaper",
         "title": "Tiverton",
-        "URl": "https://www.britishnewspaperarchive.co.uk/viewer/bl/0000265/18381006/015/0003",
+        "URL": "https://www.newspapers.com/clip/120656150/obituary-for-g-s-gervis/",
         "container-title": "Western Times",
         "issued": {
             "year": 1838,
@@ -8079,7 +8083,8 @@
             "year": 1924,
             "month": 1,
             "day": 1
-        }
+        },
+        "URL": "https://www.newspapers.com/clip/120656371/new-gambling-game/"
     },
     "SharpsAndFlats": {
         "title": "Sharps and Flats: A Complete Revelation of The Secrets of Cheating at Games of Chance and Skill",
