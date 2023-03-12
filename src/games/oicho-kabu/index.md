@@ -171,16 +171,16 @@ these — like the playing cards themselves — are derived from Portugu
 
 ### Named hands
 
-Some combinations of hands totalling 9 (<span lang="ja-Latn">kabu</span>) were
+In the past, some combinations of hands totalling 9 (<span lang="ja-Latn">kabu</span>) were
 named. In the erotic book <cite>Lustful Plum Blossom Fence</cite> (<cite
-lang="ja">好色梅花垣</cite>, date?), the following names were given. The meaning
-of most of the names is obscure to me.[@EbashiKabuCarta]
+lang="ja">好色梅花垣</cite>, date unknown to me), the following names were given. The meaning
+of most of the names is obscure.[@EbashiKabuCarta]
 
-* {%cards '153'%} ‘oh (great) nine’ (<span lang="ja">御かぶ</span> <span
-  lang="ja-Latn">ō&shy;kabu</span>)
+* {%cards '153'%} ‘royal nine’ (<span lang="ja">御かぶ</span> <span
+  lang="ja-Latn">o&shy;kabu</span>)
 * {%cards '234'%} ‘ascending nine’ (<span lang="ja">のぼりがぶ</span> <span
-  lang="ja-Latn">nobori&shy;kabu</span>){%fn%}i.e. <span lang="ja">上り</span> — not, as Japanese Wikipedia has, [<span lang="ja">幟</span>](https://en.wikipedia.org/wiki/Nobori).{%endfn%}
-* {%cards '333'%} ‘newly-born imperial prince nine’ (<span lang="ja">今みやがぶ</span>)
+  lang="ja-Latn">nobori&shy;kabu</span>){%fn%}i.e. <span lang="ja">上り</span> — not, as Japanese Wikipedia has, [<span lang="ja">幟</span>](https://en.wikipedia.org/wiki/Nobori).{%endfn%} — this is the only obvious name
+* {%cards '333'%} ‘newly-born imperial prince/new shrine nine’ (<span lang="ja">今みやがぶ</span>)
 * {%cards '559'%} ??? (<span lang="ja">でつくがぶ</span>)
 * {%cards '757'%} ‘two card imperial archivist protection nine’ (<span lang="ja">二条蔵人あいごがぶ</span>) — the position of the head of the “imperial archivists” (<span lang="ja">蔵人頭</span> <span lang="ja-Latn">kurōdo</span> or <span lang="ja-Latn">kurando no tō</span>, usually translated ‘head chamberlain’) was held by two people, who were personally selected by the Emperor
 * {%cards '883'%} ‘thunder nine’ (<span lang="ja">雷公がぶ</span> <span
@@ -246,6 +246,11 @@ followed by “3”.
 
 Possibly the game was originally called the ‘three card’ (<span lang="ja">三枚</span>) game.
 
+{%image src="3card.png" alt="" noborder=true position="aside"
+  license="cc0" originalUrl="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/cb3e601f-5df0-4433-bbae-723e214ef33c"
+  orgName="General Library in the University of Tokyo" %}
+A three-card game being played in a picture that accompanies the story “A Man Coming to [Ponto”](https://en.wikipedia.org/wiki/Ponto-ch%C5%8D) <span lang="ja">「<ruby>先斗<rp>（</rp><rt>ぼんと</rt><rp>）</rp></ruby>に<ruby>置<rp>（</rp><rt>をい</rt><rp>）</rp></ruby>て<ruby>来多<rp>（</rp><rt>きた</rt><rp>）</rp></ruby>男」</span> in the book <cite>Twenty Cases of Unfilial Children</cite> <cite lang="ja">本朝二十不孝</cite> (1686) by [<span lang="ja-Latn" class="noun">Ihara Saikaku</span>](https://en.wikipedia.org/wiki/Ihara_Saikaku) (<span lang="ja">井原西鶴</span>, 1642—1693); the book is a parody of the Chinese classic [<cite>Twenty-Four Paragons of Filial Piety</cite>.](https://en.wikipedia.org/wiki/The_Twenty-four_Filial_Exemplars)
+{%imageEnd%}
 
 
 ## Variants

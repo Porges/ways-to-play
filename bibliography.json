@@ -10391,5 +10391,26 @@
         "publisher": "紐西蘭雙星出版社",
         "publisher-lang": "zh",
         "publisher-place": "New Zealand"
+    },
+    "WhenChinatownHadItsOwnLotteries": {
+        "title": "When Chinatown had its own lotteries",
+        "type": "article-newspaper",
+        "container-title": "International Examiner",
+        "volume": 10,
+        "issue": 1,
+        "issued": {
+            "year": 1983,
+            "month": 1,
+            "day": 5
+        },
+        "publisher-place": "Seattle, WA, USA",
+        "page": 5,
+        "author": [
+            {
+                "family": "Chin",
+                "given": "Donnie"
+            }
+        ],
+        "URL": "https://drive.google.com/file/d/0BwOOea3vcRIBZUVjRlFVX1QxVHM/view?usp=sharing&resourcekey=0-kaBW5kzVTH7oPCWCqJAYbQ"
     }
 }

@@ -578,7 +578,7 @@ There were ten Chinese lottery banks operating in San Francisco in
 operating in New York.[@FanTanGamesToReopen] In 1893 a report from the San
 Francisco Chief of Police stated that the police had in their possession 22 tons
 of blank lottery tickets which had been confiscated during the previous 13
-years;[@SFMunicipal1898 p. 150] by 1898 this had risen to 26
+years;[@SFMunicipal1893 p. 150] by 1898 this had risen to 26
 tons.[@SFMunicipal1898 p. 173]{%fn%}The police were occasionally (and
 unsuccessfully) sued for the repossession of these tickets.{%endfn%}
 
@@ -607,6 +607,21 @@ provided to mark the chosen numbers, and on the floor lie discarded losing
 tickets.
 {%imageEnd%}
 
+In Seattle, some known banks known in the 20th century were named: Union, N.P.,
+Shanghai, New American, and Wing Tien.[@WhenChinatownHadItsOwnLotteries] During
+World War II, the army forced the closure of many lotteries to stop servicemen
+stationed on the West Coast from spending their money on gambling; most did not
+re-open after the war.[@WhenChinatownHadItsOwnLotteries]
+
+Other banks (often termed “companies” on 20th-century tickets) I have [seen](https://web.archive.org/web/20071006145040/http://www.chinesecol.com/treasure5.html)
+include:{%fn%}The suffix of the ticket title in Chinese here indicates whether the ticket was for a day (<span lang="zh">日</span>) or night (<span lang="zh">夜</span>) draw.{%endfn%}
+American Co. (Chinese title <span lang="zh">花旗夜廠</span>),
+Liberty Co. (<span lang="zh">自由日廠</span>),
+Sun Set Co. (<span lang="zh">順式日廠</span>),
+Cleveland Co. (<span lang="zh">企李倫夜廠</span>),
+New World Co. (<span lang="zh">新世界夜廠</span>),
+and Oregon Co. (<span lang="zh">柯利近日廠</span>).
+In the Penn Museum are bundles of 19th-century tickets from [Lee Kee Co.](https://www.penn.museum/collections/object/100724) (<span lang="zh">利記廠</span>) and [Tai Kee Co.](https://www.penn.museum/collections/object/265515) (<span lang="zh">泰記厰</span>).  Californian companies included [Fook Tai](https://calisphere.org/item/ark:/13030/hb1t1n982s/) (<span lang="zh">泰福夜厰</span>), [The Sun](https://www.abebooks.co.uk/Vintage-Chinese-lottery-tickets-Fook-Tai/10106995025/bd) (?), [Lee Tai](https://calisphere.org/item/ark:/13030/hb3j49n63p/) (<span lang="zh">利泰日厰</span>), [Boston](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?order=2&brand=oac4) (<span lang="zh">保市頓</span>), and [American Co.](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?order=4&brand=oac4) (<span lang="zh">花旗</span>). 
 
 ### In Australia
 

@@ -19,7 +19,7 @@ The game was first described in print by @Best17.
     license="with-permission"
     identifier="PAColl-5671-07"
     originalUrl="https://natlib.govt.nz/records/23218316" %}
-A married couple (Te Rangiua and Te Urikore) playing Mū Tōrere, <abbr title="circa">c.</abbr> 1910.
+A married couple (Te Urikore at left and Te Rangiua at right) playing Mū Tōrere, <abbr title="circa">c.</abbr> 1910.
 {%imageEnd%}
 
 It is said that the [Ngāti
