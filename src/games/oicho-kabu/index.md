@@ -24,6 +24,21 @@ class="noun" lang="ja-Latn">Nintendō</span> advertising poster from the early
 20th century also indicates that their cards were being exported to Australia.
 In Australia the game was played with standard “international” playing cards.
 
+The same game was reported under the name <span lang="pis">kura</span> in the
+Solomon Islands in the 1970s,[@EthnographicPsychology p. 271]{%fn%}The word also
+seems to apply to gambling in general.{%endfn%} and it is still played there to
+this day.[@IllegalCardGamesToBeBanned]
+
+In Papua New Guinea it is known as <span
+lang="tpi">kawu</span> — clearly derived from the Japanese name.[@ThreeMoreNewGuineanCardGames p. 54]{%fn%}It is worth
+noting that in the article @ThreeMoreNewGuineanCardGames the author’s informant
+definitely knows more about the history of the game; it is not “almost certainly
+European in origin”!{%endfn%} Further versions of this game are called <span
+lang="tpi">laki</span> (‘lucky’),[@ThreeNativeCardGames p. 50] and a variant is
+described below.
+
+<!-- derived from a Chinese game called luk luk faat? 祿祿發 -->
+
 ## Equipment
 
 The game in Japan is played with special cards called <span

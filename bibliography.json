@@ -10412,5 +10412,71 @@
             }
         ],
         "URL": "https://drive.google.com/file/d/0BwOOea3vcRIBZUVjRlFVX1QxVHM/view?usp=sharing&resourcekey=0-kaBW5kzVTH7oPCWCqJAYbQ"
+    },
+    "EthnographicPsychology": {
+        "title": "An Ethnographic Psychology of Aboriginal Cognitive Ability",
+        "type": "article-journal",
+        "author": [
+            {
+                "given": "Graham R.",
+                "family": "Davidson"
+            }
+        ],
+        "issued": 1979,
+        "page": "270–294",
+        "container-title": "Oceania",
+        "volume": 49,
+        "issue": 4,
+        "URL": "http://www.jstor.org/stable/40332212"
+    },
+    "IllegalCardGamesToBeBanned": {
+        "title": "Illegal card games to be banned in West",
+        "type": "article-newspaper",
+        "author": [
+            {
+                "given": "Alfred",
+                "family": "Pagepitu"
+            }
+        ],
+        "URL": "https://theislandsun.com.sb/illegal-card-games-to-be-banned-in-west/",
+        "issued": {
+            "year": 2018,
+            "month": 7,
+            "day": 31
+        },
+        "container-title": "The Island Sun",
+        "publisher-place": "Honiara, Solomon Islands"
+    },
+    "ThreeMoreNewGuineanCardGames": {
+        "type": "article-journal",
+        "title": "Three More New Guinean Card Games, and a Note on “Lucky”",
+        "author": [
+            {
+                "given": "D. C.",
+                "family": "Laycock"
+            }
+        ],
+        "issued": 1967,
+        "URL": "https://www.jstor.org/stable/40329644",
+        "container-title": "Oceania",
+        "volume": 38,
+        "issue": 1,
+        "page": "51–55"
+    },
+    "ThreeNativeCardGames": {
+        "type": "article-journal",
+        "title": "Three Native Card Games of New Guinea and Their European Ancestors",
+        "author": [
+            {
+                "given": "D. C.",
+                "family": "Laycock"
+            }
+        ],
+        "issued": 1967,
+        "container-title": "Oceania",
+        "volume": 37,
+        "issue": 1,
+        "page": "49–53",
+        "URL": "https://www.jstor.org/stable/40329558"
     }
 }
