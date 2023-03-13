@@ -101,4 +101,7 @@ function GenerateCountryMap {
 # GenerateCountryMap "CrownAndAnchor" @("IN", "NP", "CN", "AU", "GB", "VN", "TH", "LA", "ID", "MM", "MY", "BN", "JM", "BM", "NZ", "CA", "KH", "MG", "BT", "BD") 
 # GenerateProvinceMap "PigeonTickets" @("CN-GD", "NZ-WGN", "NZ-AUK", "NZ-OTA", "AU-VIC", "US-CA", "US-HI", "CA-BC", "US-NY", "US-WA", "US-OR", "US-NV", "CN-MO", "CN-HK", "MY-10", "ZA", "GB-LND") -rotate 180 -offset 1500
 # GenerateCountryMap "Ceki" @("ID", "MY", "SG", "BN")
-GenerateCountryMap "Sheded" @("ET", "ER")
+# GenerateCountryMap "Sheded" @("ET", "ER")
+
+# GenerateCountryMap "OichoKabu" @("JP", "AU", "PG", "SB")
+GenerateCountryMap "Fantan" @("CN", "US", "NZ", "AU", "GB", "ZA", "CU", "PE", "TH", "CA", "PH", "MY", "VN", "MO", "KH") -rotate 210 -offset 1500

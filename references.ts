@@ -356,7 +356,14 @@ const renderContainer = (reference: Reference) => {
                 );
             }
 
-            return '';
+            // neither volume nor issue
+            return (
+                `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/Periodical">`
+                + `<cite itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
+                + `</span>`
+                + pageSuffix
+            );
+
         default:
             return '';
     }

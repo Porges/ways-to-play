@@ -46,7 +46,8 @@ Macau it is given with the Portugeuse romanization of “pacapio”, which remai
 standard in current usage (previous terms include <span
 lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first
 referred to as “boc hop bu”[@NYTimes18870127] before picking up a variety of the
-other names mentioned above, but in Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
+other names mentioned above, as well as “Bock Ka Pian”,[@WhatTheHeathenPlays]
+but in Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the

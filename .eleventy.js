@@ -323,6 +323,11 @@ const citationPlugin = () => {
         return `[UNKNOWN CITE: ${id}]`;
       }
 
+      // fixup
+      if (typeof reference.issued === 'number') {
+        reference.issued = { year: reference.issued };
+      }
+
       switch (reference.type) {
         case 'book':
           return `<a href="${`#ref-${id}`}">`

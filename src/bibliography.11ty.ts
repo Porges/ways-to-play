@@ -17,7 +17,11 @@ export const data = {
 function sortKey(r: Reference) {
     return `${r.author ? (r.author[0].family || '') : (r.publisher || '')}
         ${r.author ? (r.author[0].given === 'string' ? r.author[0].given : r.author[0].given[0]) : ''}
-        ${r.issued ? r.issued.year : ''}
+        ${r.issued 
+            ? typeof r.issued !== 'object'
+                ? r.issued
+                : r.issued.year
+            : ''}
         ${r.title}`;
 }
 

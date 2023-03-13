@@ -12,6 +12,7 @@ Payment made to the owner of a gambling establishment, as a fixed fee per game o
 
 - From the Chinese: ?
 - Thai: <span lang="th">ต๋ง</span> (<span lang="th-Latn">tong</span>)
+- Also used in Australia amongst Aboriginal groups who play {% gameref kuns %}.[@ANoteOnKuns p. 42]
 </dd>
 
 </dl>

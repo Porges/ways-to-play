@@ -855,6 +855,11 @@ a .figure-img {
     }
 }
 
+:is(.columnar, .columnarr) li {
+    // try to avoid splitting items across columns
+    break-inside: avoid;
+}
+
 /* Barcodes */
 *[itemprop="isbn"] {
     font-family: 'ocrb';

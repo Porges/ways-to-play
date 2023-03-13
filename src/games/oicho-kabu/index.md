@@ -15,6 +15,10 @@ subgames:
 
 <!-- excerpt -->
 
+{% image position="left" src="../../maps/OichoKabu.svg" alt="" %}
+Countries where the game has been played.
+{% imageEnd %}
+
 The game originated in Japan, but has surprisingly also been seen played amongst
 Aboriginal communities in the northern parts of Australia — particularly by
 [Larrakia](https://en.wikipedia.org/wiki/Larrakia_people) people around
@@ -29,13 +33,14 @@ Solomon Islands in the 1970s,[@EthnographicPsychology p. 271]{%fn%}The word also
 seems to apply to gambling in general.{%endfn%} and it is still played there to
 this day.[@IllegalCardGamesToBeBanned]
 
-In Papua New Guinea it is known as <span
-lang="tpi">kawu</span> — clearly derived from the Japanese name.[@ThreeMoreNewGuineanCardGames p. 54]{%fn%}It is worth
-noting that in the article @ThreeMoreNewGuineanCardGames the author’s informant
-definitely knows more about the history of the game; it is not “almost certainly
-European in origin”!{%endfn%} Further versions of this game are called <span
-lang="tpi">laki</span> (‘lucky’),[@ThreeNativeCardGames p. 50] and a variant is
-described below.
+In Papua New Guinea it is known as <span lang="tpi">kawu</span> — clearly
+derived from the Japanese name.[@ThreeMoreNewGuineanCardGames p. 54]{%fn%}It is
+worth noting that in the article @ThreeMoreNewGuineanCardGames the author’s
+informant definitely knows more about the history of the game; it is not “almost
+certainly European in origin”!{%endfn%} Further versions of this game — of which
+there are many — are called <span lang="tpi">laki</span>
+(‘lucky’),[@ThreeNativeCardGames p. 50] and some variants are described below.
+More extreme variations are described in their own article.
 
 <!-- derived from a Chinese game called luk luk faat? 祿祿發 -->
 

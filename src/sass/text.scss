@@ -83,8 +83,8 @@ span:is( // Italicize all *-Latn languages:
   // Urhobo
   [lang|=ve],
   /* Venda */
-  [lang|=vi],
-  /* Vietnamese */
+  [lang=vi],
+  /* Vietnamese (but not vi-Hani) */
   [lang|=zu] // isiZulu
 ):not(h1 span, h2 span, h3 span, h4 span, h5 span, h6 span
   /* except in headings */

@@ -10472,11 +10472,177 @@
                 "family": "Laycock"
             }
         ],
-        "issued": 1967,
+        "issued": 1966,
         "container-title": "Oceania",
         "volume": 37,
         "issue": 1,
         "page": "49–53",
         "URL": "https://www.jstor.org/stable/40329558"
+    },
+    "ANoteOnKuns": {
+        "type": "article-journal",
+        "title": "A Note on Kuns: An Aboriginal Card Game from the North-West of Western Australia",
+        "author": [
+            {
+                "family": "Robinson",
+                "given": "Michael W."
+            },
+            {
+                "family": "Yu",
+                "given": "Peter"
+            }
+        ],
+        "volume": 11,
+        "container-title": "Department of Aboriginal Affairs’ Newsletter",
+        "page": "41–49",
+        "issued": 1975
+    },
+    "ParadoxicalSoftPower": {
+        "title": "An Illustration of China’s “Paradoxical Soft Power”: The Dissemination of the Gambling Game Fantan (<span lang='zh'>番攤</span>) by the Cantonese Diaspora, 1850–1950",
+        "type": "article-journal",
+        "author": [
+            {
+                "family": "Xavier",
+                "given": "Paulès",
+                "lang": "fr",
+                "alt": "<span lang='zh'>包利威</span>"
+            }
+        ],
+        "URL": "https://doi.org/10.1163/24522015-01102002",
+        "container-title": "Translocal Chinese: East Asian Perspectives",
+        "volume": 11,
+        "issued": 2017,
+        "page": "187–207"
+    },
+    "GamblingInChinaReconsidered": {
+        "type": "article-journal",
+        "title": "Gambling in China Reconsidered: <span lang='zh-Latn'>Fantan</span> in South China During the Early Twentieth Century",
+        "author": [
+            {
+                "family": "Xavier",
+                "given": "Paulès",
+                "lang": "fr"
+            }
+        ],
+        "URL": "https://doi.org/10.1017/S1479591410000069",
+        "container-title": "International Journal of Asian Studies",
+        "volume": 7,
+        "issue": 2,
+        "issued": {
+            "month": 7,
+            "year": 2010
+        },
+        "page": "179–200"
+    },
+    "LiveDealerFanTan": {
+        "type": "webpage",
+        "title": "Live Dealer Fan Tan",
+        "URL": "https://wizardofodds.com/online-casinos/live-dealer/fan-tan/",
+        "container-title": "The Wizard of Odds",
+        "issued": {
+            "year": 2019,
+            "month": 10,
+            "day": 5
+        },
+        "author": [
+            {
+                "given": "Michael",
+                "family": "Shackleford"
+            }
+        ]
+    },
+    "SketchesInOurChineseQuarter": {
+        "type": "article-newspaper",
+        "container-title": "Australasian Sketcher",
+        "publisher-place": "Adelaide, South Australia, Australia",
+        "title": "Sketches in Our Chinese Quarter: Fan Tan Playing, and a Chinese Restaurant [Image]",
+        "page": 104,
+        "issued": {
+            "day": 29,
+            "month": 5,
+            "year": 1880
+        },
+        "volume": 8,
+        "issue": 98,
+        "URL": "https://trove.nla.gov.au/newspaper/article/244700809"
+    },
+    "AGameOfFanTan": {
+        "type": "article-newspaper",
+        "container-title": "Illustrated Australian News",
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "title": "The Chinese in Victoria—A Game of Fan Tan [Image]",
+        "page": 85,
+        "issued": {
+            "day": 5,
+            "month": 6,
+            "year": 1880
+        },
+        "issue": 290,
+        "URL": "https://trove.nla.gov.au/newspaper/page/5730959"
+    },
+    "AGameOfFanTanArticle": {
+        "type": "article-newspaper",
+        "container-title": "Illustrated Australian News",
+        "publisher-place": "Melbourne, Victoria, Australia",
+        "title": "The Chinese in Victoria—A Game of Fan Tan",
+        "page": 90,
+        "issued": {
+            "day": 5,
+            "month": 6,
+            "year": 1880
+        },
+        "issue": 290,
+        "URL": "https://trove.nla.gov.au/newspaper/article/60093958/5730964"
+    },
+    "GamblingDynamism": {
+        "type": "book",
+        "title": "Gambling Dynamism: The Macao Miracle",
+        "author": [
+            {
+                "family": "Zheng",
+                "given": "Victor"
+            },
+            {
+                "family": "Wan",
+                "given": "Po-san"
+            }
+        ],
+        "publisher": "Springer-Verlag",
+        "issued": 2014,
+        "ISBN": "978-3-642-40749-9"
+    },
+    "WhatTheHeathenPlays": {
+        "type": "article-newspaper",
+        "title": "What the Heathen Plays: The Inner-Life of a Chinese Gambling Den",
+        "author": [
+            {
+                "given": "Wong Chin",
+                "family": "Foo"
+            }
+        ],
+        "container-title": "Lowell Daily Courier",
+        "publisher-place": "Lowell, Mass., USA",
+        "issued": {
+            "day": 8,
+            "month": 11,
+            "year": 1883
+        },
+        "URL": "https://archive.org/details/lowellcourier_sept1883_01_reel009/page/n237/mode/2up",
+        "page": 2
+    },
+    "AmusementsInChina": {
+        "type": "article-journal",
+        "title": "Amusements In China",
+        "author": [
+            {
+                "given": "L."
+            }
+        ],
+        "issued": 1843,
+        "container-title": "The Visitor, or Monthly Instructor",
+        "publisher-place": "London",
+        "page": "12–14",
+        "publisher": "The Religious Tract Society",
+        "URL": "https://archive.org/details/visitorormonthly1843unse/page/12"
     }
 }
