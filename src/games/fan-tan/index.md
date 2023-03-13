@@ -12,6 +12,8 @@ in Hokkien it is simply <span lang="">攤</span>
 In Thai it has been called <span lang="th">เล่นถั่ว</span> <span lang="th-Latn">len thua</span> ‘beans game’,{%fn%}Given as Len Thoa in older works.[@OnSiameseLiterature p. 383]{%endfn%} <span lang="th">กำถั่ว</span>  <span lang="th-Latn">kam thua</span> ‘beans handful’,
 <span lang="th">โปกำ</span> <span lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span lang="th">ถั่ว</span> {%pronounce lang="th-Latn" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’; a variant played with only odd/even outcomes is called Thamtat (?).[@OnSiameseLiterature p. 384]
 
+In the Philippines, it has been known as <span lang="fil">capona</span>.[@CulinPhilippine p. 650]
+
 {% image src="../../maps/Fantan.svg" alt="" %}
 Countries where Fan-Tan has been played, after @ParadoxicalSoftPower [p. 195].
 {%imageEnd%}
@@ -135,3 +137,15 @@ In modern versions there are many more bets available:
 - https://sekaiyugi.com/old/games/fantan-1.html
 - http://www.tailoi.com/page02-6.htm
 - https://www.carousell.com.hk/p/%E4%B8%AD%E5%9C%8B%E6%9C%83%E7%B4%99%E7%9B%92-%E9%80%A3%E5%85%A8%E6%96%B0%E7%95%AA%E6%94%A4%E9%81%93%E5%85%B7-1150949174/
+
+---
+
+## Variants
+
+#### Four Numbers (<span lang="zh">肆字</span>)
+
+This is a faster version of the game which uses a teetotum instead of counting
+out the remainder.[@GamblingGamesOfMalaya p. 120]
+
+The game might be run by a dedicated banker (), or have the banker rotate
+amongst players for a fixed period of time.
