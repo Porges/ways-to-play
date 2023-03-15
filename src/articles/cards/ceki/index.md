@@ -75,7 +75,7 @@ and exported to Indonesia. (See the [manufacturers](#manufacturers-brands)
 section below.)
 
 {% image src="Kaartspelers.jpg" alt="" license="cc0" size="wide" %}
-Javanese card players, by Jean Demmeni (1866–1939).
+Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps {% gameref thothit %} or similar.
 {% imageEnd %}
 
 In Bali, the game is widely played and has “a large if not fanatical
@@ -130,9 +130,12 @@ lang="jav-Latn">jago</span>) bets.
 
 The cards run {% cards '1–9' %} in three suits, and there are three ‘honour
 cards’, giving 30 different cards. Each deck, or <span lang="ms">kepala</span>
-(literally ‘head’), contains two copies of each card, giving 60 total. However,
-most Ceki games require multiple <span lang="ms">kepala</span> to play, often
-two sets (120 cards).
+(literally ‘head’, Javanese <span lang="jav">ꦏꦥꦭ</span> <span
+lang="jav-Latn">kapala</span>), contains two copies of each card, giving 60
+total. In Banyuwangi it is called a <span lang="jav">ꦫꦚ꧀ꦕꦏ꧀</span> <span
+lang="jav-Latn">rancak</span> ‘piece of wood’ or ‘set of
+instruments’.[@JavaanseKaartspelen p. 74] Many Ceki games require multiple <span
+lang="ms">kepala</span> to play, often two sets (giving 120 cards).
 
 The three suits have various names.[@ChikiCards p. 119] ‘Coins’, ‘strings’, and
 ‘myriads’ are the terms I use for consistency across different types of
@@ -1723,10 +1726,17 @@ them, I do not know of any other sets of rules recorded online.
 
 * {% gameref cholek-tiga %} (‘draw three’), a Malaysian game for two or three
   players[@BabaMalayDictionary p. 214][@ChikiCards p. 125]
+* {% gameref thothit %}, a Javanese game for three players where the goal is to capture identical pairs[@JavaanseKaartspelen p. 71–2]
+* {% gameref enthit %}, a similar Javanese game for three players where the goal is to capture identical quadruplets[@JavaanseKaartspelen p. 74]
+* {% gameref thothit-kuna %}, an older and slower version of the game[@JavaanseKaartspelen p. 74]
+* {% gameref thothit-yogyakarta %}, a luck-based Javanese game for three players[@JavaanseKaartspelen p. 73]
+* {% gameref thit-thit-dulit %}, a luck-based Javanese game for two players[@JavaanseKaartspelen p. 73]
 
 **Simple** gambling games:
 
 * {% gameref sampen %} is a gambling game from Java that requires no skill
+* {% gameref thothit-banyuwangi %} is a similar game
+* {% gameref sembreh %} is nearly identical to the previous[@JavaanseKaartspelen p. 76]
 
 **Trick-taking** games:
 

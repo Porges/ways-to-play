@@ -178,6 +178,7 @@ There are only two cards in this group; the 4 of Coins outranks the 3 of Coins.
     alt="" %}
 3 Coins is the lower-ranking.
 {%imageEnd%}
+</div>
 
 ### 8 & 9 Coins
 
@@ -198,6 +199,7 @@ There are only two cards in this group; the 9 of Coins outranks the 8 of Coins.
     alt="" %}
 8 Coins is the lower-ranking.
 {%imageEnd%}
+</div>
 
 
 ### <span lang="jav-Latn">Lintrik cilik</span> (‘little rows’)

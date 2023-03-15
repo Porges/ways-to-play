@@ -38,24 +38,18 @@ Games that are in **bold** below are those of his own invention.
 <li>Slam</li>
 <li>Solitaire Dice</li>
 <li>Suit Yourself</li>
-<li>
-<strong>{% gameref take-it-away %}</strong>
-</li>
+<li><strong>{% gameref take-it-away %}</strong></li>
 </ul>
 
 ### From @CardGamesAroundTheWorld
 
 <ul class="columnar">
-<li>
-{% gameref sampen %}
-</li>
+<li>{% gameref sampen %}</li>
 <li>Cha Kau Tsz’</li>
 <li>Khanhoo</li>
 <li>Kowah</li>
-<li>Totit</li>
-<li>
-{% gameref kabu %}
-</li>
+<li>{% gameref thothit %}</li>
+<li>{% gameref kabu %}</li>
 <li>As Nas</li>
 <li>La Malilla</li>
 <li>La Mosca</li>
