@@ -23,6 +23,10 @@ proprietor then rolls the two dice. The winning bet is paid out at 1:1. If the
 proprietor rolls 7, then both bets lose. If paid out at 1:1 then both bets are
 equivalent and have a high house edge of 16.67%.
 
+{% image src="under_over_seven.png" alt="" noborder=true %}
+An under/over seven staking layout, from @KernanCatalogue [p. 19].
+{% imageEnd %}
+
 In some versions of the game, there is also a bet labelled ‘7’, which wins and
 pays out 3:1 or 4:1 if the proprietor rolls 7. The house edge on this bet at a
 4:1[@UndersAndOvers] payout is the same as the other bets; at
