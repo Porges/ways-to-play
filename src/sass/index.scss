@@ -109,8 +109,12 @@ i, em {
 }
 
 // override Bootstrap bold
-b, strong {
+strong {
     font-weight: 500;
+}
+
+b {
+    font-weight: bold;
 }
 
 body {

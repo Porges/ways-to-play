@@ -2,6 +2,8 @@
 title: Pei
 titleLang: ms
 draft: true
+players: 3
+equipment: Playing cards (Ceki)
 ---
 
 <p class="lead">
@@ -130,11 +132,10 @@ The combinations used are identical and score the same, but there are no bonuses
 for obtaining extra cards above the ones included in the combination. Any extra
 cards score their face value.
 
-## Derivation of the combinations
+## Derivation of the Combinations
 
 In @JavaanseKaartspelen [p. 58] it is suggested that the name of the game comes
-from the Chinese game <span lang="zh-Hant">釣白魚</span> (Hokkien: <span
-lang="nan-Latn">tiò pe̍h hî</span>), but that is played with (two-colour) chess
+from the Chinese game {% gameref fishing-for-white-fish %}, but that is played with (two-colour) chess
 playing cards, and doesn’t have any sequence collection.
 
 In fact, the game is closely related to the Chinese game of {% gameref kanhu %}, and so I
@@ -230,12 +231,3 @@ in this way, with their matching {% gameref kanhu %} combinations (I do not have
 It is also possible that <span lang="jav-Latn">pang</span> ‘branch’ is a
 derivation of the Chinese <span lang="zh">碰</span> (Hokkien: <span
 lang="nan-Latn">pōng</span>), which describes a set of three tiles in Mahjong.
-
-<!--
-The name of the game is apparently from the Chinese  ‘fishing for white fish’ ,[@JavaanseKaartspelen
-p. 58]
-i.e. [<cite>Trichiurus
-lepturus</cite>,](https://en.wikipedia.org/wiki/Largehead_hairtail) called the <span lang="ms">layur</span> throughout the Malay Archipelago.
-Legend has it that when one of these fish is caught, another one catches its tail, and so on, until the whole shoal is pulled up out of the water.
-This is compared to the way that series are formed in the card game.
--->

@@ -10680,5 +10680,24 @@
         "issued": 1890,
         "publisher": "Trischler and Company",
         "publisher-place": "London"
+    },
+    "タチウオの共食い": {
+        "type": "webpage",
+        "title": "タチウオの共食い",
+        "title-lang": "ja",
+        "author": [
+            {
+                "given": "うなっくす",
+                "lang": "ja"
+            }
+        ],
+        "URL": "http://blog.livedoor.jp/boso_fishing/archives/1045980935.html",
+        "container-title": "房総フィッシング",
+        "container-title-lang": "ja",
+        "issued": {
+            "year": 2015,
+            "month": 11,
+            "day": 27
+        }
     }
 }
