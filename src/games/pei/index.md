@@ -4,12 +4,16 @@ titleLang: ms
 draft: true
 ---
 
+<p class="lead">
 Pei is a fishing game for three players from Java, which uses {% a ceki %}. The
-goal of the game is to form sequences of cards by rank. 
+goal of the game is to capture specific scoring combinations.
+</p>
 
 ## Play
 
-### Combinations
+
+
+### Scoring Combinations
 
 There are five possible scoring combinations.
 
@@ -94,7 +98,39 @@ This combination is formed from one of each of the 1 of coins, 9 of strings, and
 1 of myriads. It scores 10 points per card (30 points), and 10 for each
 additional card.
 
-## History
+### Scoring
+
+Each player scores the combinations they have achieved. Any cards not part of a
+combination score their face value (rank).
+
+## The Chinese game
+
+The Chinese version of this game is described under the (French) name of <span
+lang="fr">la pêche</span> (‘fishing’) by [Tcheng
+Ki-tong.](https://en.wikipedia.org/wiki/Chen_Jitong)[@PlaisirsEnChine p.
+270]{%fn%}See also the English translation of this work, @BitsOfChina [p.
+205].{%endfn%} Presumably the Chinese name is <span lang="zh-Hant">釣魚</span>
+(Hokkien: <span lang="nan-Latn">tiò-hû</span>), which is also shared by a domino
+game which uses the fishing mechanic.[@ChineseGames p. 511]
+
+The game is for three players, and uses two decks (120 cards). To deal, the deck
+is divided into 8 packs of 14 cards, with 8 cards left over. Dice are used to
+select three packs which will be used as a stock (of 42 cards). Another two
+packs are selected and combined with the 8 extra cards — these cards will form
+the central pool of 36 cards. Lastly the three remaining packs are allocated to
+the players. The last player spreads the pool cards out face up, and also is
+allowed to look at the last card in the stock to compensate for playing last.
+Since they are the last player they will receive this card at the very end of
+the round, so they can know what to expect.
+
+Each player then takes turns as usual, playing a card from the hand and one from
+the (bottom of) the stock. Captures are made by matching rank only.
+
+The combinations used are identical and score the same, but there are no bonuses
+for obtaining extra cards above the ones included in the combination. Any extra
+cards score their face value.
+
+## Derivation of the combinations
 
 In @JavaanseKaartspelen [p. 58] it is suggested that the name of the game comes
 from the Chinese game <span lang="zh-Hant">釣白魚</span> (Hokkien: <span
@@ -110,8 +146,8 @@ The combinations in particular are copied directly from the {% gameref kanhu %}
 scoring combinations called ‘eyes’ (<span lang="zh">眼</span>). The odd
 combinations of cards are explained by the historical ordering of the deck (see
 its article for more on this), in short, the suit of coins used to rank in
-reverse. White Flower derives from the ½ coin card and Red Flower from the 0
-coins card, so they rank above all other coins.
+reverse. White Flower derives from the half-coin card and Red Flower from the
+zero-coin card, so they rank above all other coins.
 
 Given this information, we can arrange the deck as follows, and we can easily
 see how the combinations were arrived at:
@@ -183,7 +219,7 @@ see how the combinations were arrived at:
 </div>
 
 The scoring combinations of <span lang="jav-Latn">Pei</span> are then explained
-in this way, with their matching {% gameref kanhu %} combinations:
+in this way, with their matching {% gameref kanhu %} combinations (I do not have names for all of them):
 
 * <span lang="zh">駕</span> ‘carriage’: <span lang="jav-Latn">bunci abang</span>, the highest (red-stamped) cards in each suit
 * <span lang="jav-Latn">pang kéyang</span> is made up of the second highest cards in each suit

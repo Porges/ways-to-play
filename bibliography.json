@@ -10644,5 +10644,41 @@
         "page": "12–14",
         "publisher": "The Religious Tract Society",
         "URL": "https://archive.org/details/visitorormonthly1843unse/page/12"
+    },
+    "PlaisirsEnChine": {
+        "type": "book",
+        "URL": "https://books.google.com/books?id=m39NAAAAYAAJ",
+        "title": "Les Plaisirs en Chine",
+        "title-lang": "fr",
+        "author": [
+            {
+                "given": "Ki-tong",
+                "family": "Tcheng",
+                "alt": "<span lang='zh-Hant'>陳季同</span>"
+            }
+        ],
+        "issued": 1890,
+        "publisher": "G. Charpentier et Cie.",
+        "publisher-lang": "fr",
+        "publisher-place": "Paris"
+    },
+    "BitsOfChina": {
+        "type": "book",
+        "URL": "https://archive.org/details/cu31924023241031",
+        "title": "Bits of China",
+        "author": [
+            {
+                "given": "Ki-tong",
+                "family": "Tcheng",
+                "alt": "<span lang='zh-Hant'>陳季同</span>"
+            },
+            {
+                "given": "R. H.",
+                "family": "Sherard"
+            }
+        ],
+        "issued": 1890,
+        "publisher": "Trischler and Company",
+        "publisher-place": "London"
     }
 }
