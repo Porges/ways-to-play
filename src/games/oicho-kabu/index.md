@@ -42,7 +42,10 @@ there are many — are called <span lang="tpi">laki</span>
 (‘lucky’),[@ThreeNativeCardGames p. 50] and some variants are described below.
 More extreme variations are described in their own article.
 
-<!-- derived from a Chinese game called luk luk faat? 祿祿發 -->
+<!-- derived from a Chinese game called luk luk faat? 祿祿發 luk6 luk6 baat3
+or maybe this is 668?
+luk6 luk6 faat3
+ -->
 
 ## Equipment
 

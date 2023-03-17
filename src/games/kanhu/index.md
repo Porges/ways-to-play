@@ -7,4 +7,4 @@ draft: true
 
 
 See:
-@PlaisirsEnChine, @BitsOfChina
+@PlaisirsEnChine, @BitsOfChina, @CulinMahjong [p. 156]

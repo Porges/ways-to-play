@@ -135,7 +135,7 @@ cards score their face value.
 ## Derivation of the Combinations
 
 In @JavaanseKaartspelen [p. 58] it is suggested that the name of the game comes
-from the Chinese game {% gameref fishing-for-white-fish %}, but that is played with (two-colour) chess
+from the Chinese game {% gameref fishing-for-hairtails %}, but that is played with (two-colour) chess
 playing cards, and doesn’t have any sequence collection.
 
 In fact, the game is closely related to the Chinese game of {% gameref kanhu %}, and so I

@@ -210,7 +210,7 @@ function linkToArticle() {
     },
     render: async function(context) {
       const articles = context.environments.collections.article;
-      const slug = this.args[0];
+      const [slug, fragment] = this.args[0].split('#');
       const article = articles.find(a => a.fileSlug === slug);
       if (!article) {
         throw new Error(`no such article found: ${slug}`);
@@ -222,7 +222,7 @@ function linkToArticle() {
         return linkText;
       }
 
-      return `<a href="${article.url}">${linkText}</a>`;
+      return `<a href="${article.url}${fragment ? ('#' + fragment) : ''}">${linkText}</a>`;
     }
   }
 }

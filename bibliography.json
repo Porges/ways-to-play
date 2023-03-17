@@ -10699,5 +10699,51 @@
             "month": 11,
             "day": 27
         }
+    },
+    "TonicDictionary": {
+        "type": "book",
+        "title": "Tonic Dictionary of the Chinese Language in the Canton Dialect",
+        "title-alt": "<span lang='yue'>英華分韻撮要</span>",
+        "author": [
+            {
+                "given": "Samuel Wells",
+                "family": "Williams"
+            }
+        ],
+        "publisher-place": "Canton",
+        "issued": 1856,
+        "URL": "https://archive.org/details/cyingcwcfanwan00williala"
+    },
+    "CulinMahjong": {
+        "type": "article-journal",
+        "title": "The Game of Ma-Jong: Its Origin and Significance",
+        "author": [
+            {
+                "family": "Culin",
+                "given": "Stewart"
+            }
+        ],
+        "issued": {
+            "year": 1924,
+            "month": 10
+        },
+        "container-title": "The Brooklyn Museum Quarterly",
+        "volume": 11,
+        "issue": 4,
+        "page": "153–168",
+        "URL": "http://www.jstor.com/stable/26460002"
+    },
+    "GamesOfTheOrient": {
+        "type": "book",
+        "title": "Games of the Orient",
+        "author": [
+            {
+                "family": "Culin",
+                "given": "Stewart"
+            }
+        ],
+        "issued": 1958,
+        "publisher": "Tuttle",
+        "publisher-place": "Rutland, Vermont & Tokyo, Japan"
     }
 }

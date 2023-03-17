@@ -1735,8 +1735,7 @@ them, I do not know of any other sets of rules recorded online.
 **Simple** gambling games:
 
 * {% gameref sampen %} is a gambling game from Java that requires no skill
-* {% gameref thothit-banyuwangi %} is a similar game
-* {% gameref sembreh %} is nearly identical to the previous[@JavaanseKaartspelen p. 76]
+* {% gameref thothit-banyuwangi %} is a similar game[@JavaanseKaartspelen p. 76]
 
 **Trick-taking** games:
 
