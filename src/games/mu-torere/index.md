@@ -22,12 +22,7 @@ The game was first described in print by @Best17.
 A married couple (Te Urikore at left and Te Rangiua at right) playing Mū Tōrere, <abbr title="circa">c.</abbr> 1910.
 {%imageEnd%}
 
-It is said that the [Ngāti
-Haua](https://en.wikipedia.org/wiki/Ng%C4%81ti_Hau%C4%81) chief [Wiremu Tamihana
-Te Waharoa](https://en.wikipedia.org/wiki/Wiremu_Tamihana) once offered to play
-<span lang="mi" class="noun">Mū Tōrere</span> with [Governor
-Grey](https://en.wikipedia.org/wiki/George_Grey), with the whole country as a
-stake — Grey apparently declined.[@TaongaTukuIho p. 54]
+It is said that the [Ngāti Haua](https://en.wikipedia.org/wiki/Ng%C4%81ti_Hau%C4%81) chief [Wiremu Tamihana Te Waharoa](https://en.wikipedia.org/wiki/Wiremu_Tamihana) once offered to play <span lang="mi" class="noun">Mū Tōrere</span> with [Governor Grey](https://en.wikipedia.org/wiki/George_Grey), with the whole country as a stake — Grey apparently declined.[@TaongaTukuIho p. 54]
 
 ## Game
 

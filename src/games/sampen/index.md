@@ -16,54 +16,41 @@ subgames:
   players: 5
 ---
 
-<span lang="jav-Latn" class="noun">Sampèn</span> is a simple skill-free gambling
-game played in Java using {%a ceki%}.[@JavaanseKaartspelen p. 56–7] It is also
-described as being played in China.[@CardGamesAroundTheWorld p. 5]
+<p class="lead">
+<span lang="jav-Latn" class="noun">Sampèn</span> is a simple luck-based gambling game played in Java using {%a ceki%}.[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
+</p>
 
 <!-- excerpt -->
 
 ## The Game
 
-The game is played by at least five players with a single Ceki deck of 60 cards,
-containing two copies of each card.
+The game is played by at least five players with a single Ceki deck of 60 cards, containing two copies of each card.
 
-It can also be played by combining two decks of standard playing cards: from
-each deck, take the {%cards 'A–10' %} in {%cards 'shd' %} as well as the {%cards 'JQKc' %}, giving two
-copies of each card, and 60 cards total.[@CardGamesAroundTheWorld p. 4–5]
+It can also be played by combining two decks of standard playing cards: from each deck, take the {%cards 'A–10' %} in {%cards 'shd' %} as well as the {%cards 'JQKc' %}, giving two copies of each card, and 60 cards total.[@CardGamesAroundTheWorld p. 4–5]
 
 ### Play
 
-Deal five cards to each player, then the dealer places the remainder of the deck
-face-down in the middle as stock.
+Deal five cards to each player, then the dealer places the remainder of the deck face-down in the middle as stock.
 
 Players first discard any identical pairs they have from their hands.
 
-To begin the game, dealer turns up the top card of the stock. Any player
-with an identical matching card may play it to the middle, and then throw out
-any other card from their hand. Any player who has the matching card for this
-discard may then take a turn similarly.
+To begin the game, dealer turns up the top card of the stock. Any player with an identical matching card may play it to the middle, and then throw out any other card from their hand. Any player who has the matching card for this discard may then take a turn similarly.
 
-Once a card is turned up or thrown out that no player can match, the dealer
-turns up the next card from the stock.
+Once a card is turned up or thrown out that no player can match, the dealer turns up the next card from the stock.
 
-The first player to run out of cards (which will be by matching their last card,
-without throwing another out) wins the round.
+The first player to run out of cards (which will be by matching their last card, without throwing another out) wins the round.
 
 ### Payments
 
-The game is played for money in the <span lang="jav-Latn">wudhon tengah</span>
-(‘middle bet’) fashion: at the start of each round, every player places the same
-stake in a central pot, and whoever wins the round takes the whole thing.
+The game is played for money in the <span lang="jav-Latn">wudhon tengah</span> (‘middle bet’) fashion: at the start of each round, every player places the same stake in a central pot, and whoever wins the round takes the whole thing.
 
-However, the winner must shuffle the cards and deal the cards for next time
-(including turning up cards from the stock).
+However, the winner must shuffle the cards and deal the cards for next time (including turning up cards from the stock).
 
 ## Variants
 
 ### Sid Sackson
 
-In @CardGamesAroundTheWorld, Sid Sackson suggests dealing a varying number of
-cards depending on the number of players:
+In @CardGamesAroundTheWorld, Sid Sackson suggests dealing a varying number of cards depending on the number of players:
 
 <table class="table small">
 <thead>
@@ -83,31 +70,17 @@ cards depending on the number of players:
 
 ### <span lang="jav-Latn">Thothit Banyuwangi</span>
 
-This similar game is played in Banyuwangi, East Java. It is different from other
-games called {% gameref thothit %}.[@JavaanseKaartspelen p. 74]
+This similar game is played in Banyuwangi, East Java. It is different from other games called {% gameref thothit %}.[@JavaanseKaartspelen p. 74]
 
 A single deck of 60 cards is used, and it is played by up to seven players.
 
-The cards are wash-shuffled, then the person to the right of the shuffler deals
-six cards to each person. The remainder of the cards are turned down to form the
-stock, then one card is turned up to begin the game.
+The cards are wash-shuffled, then the person to the right of the shuffler deals six cards to each person. The remainder of the cards are turned down to form the stock, then one card is turned up to begin the game.
 
-Anyone who has an identical card to the turned up one calls <span
-lang="jav-Latn">kene!</span> (‘here!’) and plays their matching card, then
-discards (<span lang="jav-Latn">matèni</span> ‘kills’) one of their cards to
-continue the game. If no one can match the top card, then a new card is turned
-from the stock.
+Anyone who has an identical card to the turned up one calls <span lang="jav-Latn">kene!</span> (‘here!’) and plays their matching card, then discards (<span lang="jav-Latn">matèni</span> ‘kills’) one of their cards to continue the game. If no one can match the top card, then a new card is turned from the stock.
 
-When a player discards down to their last card they call <span
-lang="ms">satu!</span> (‘one!’). When this happens, all other players discard
-down to a single card, then a fresh card is turned up from the stock. If anyone
-can match this card, then they win; if no one can, then the player who called
-<span lang="ms">satu</span> is the winner.
+When a player discards down to their last card they call <span lang="ms">satu!</span> (‘one!’). When this happens, all other players discard down to a single card, then a fresh card is turned up from the stock. If anyone can match this card, then they win; if no one can, then the player who called <span lang="ms">satu</span> is the winner.
 
-This game is also called <span lang="jav-Latn">Sèmbrèh</span> in East and Central
-Java;[@JavaanseKaartspelen p. 76] it is usually played by five people, and the
-call for being down to one card is <span lang="jav-Latn">niji</span>. In all
-other respects it is identical.
+This game is also called <span lang="jav-Latn">Sèmbrèh</span> in East and Central Java;[@JavaanseKaartspelen p. 76] it is usually played by five people, and the call for being down to one card is <span lang="jav-Latn">niji</span>. In all other respects it is identical.
 
 ## See Also
 

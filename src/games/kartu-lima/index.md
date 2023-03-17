@@ -8,84 +8,43 @@ players:
 equipment: Playing cards (Ceki)
 ---
 
-<span class="noun" lang="jav-Latn">Kartu Lima</span> (‘five cards’) is an
-unusual trick-taking game from Java, which was played with [Ceki
-cards](/articles/cards/ceki/).[@JavaanseKaartspelen p. 46–57] The same game has
-also been described under the name <span class="noun"
-lang="jav-Latn">Tepu</span>.[@JavanischeKartenspiele p. 47]
+<p class="lead">
+<span class="noun" lang="jav-Latn">Kartu Lima</span> (‘five cards’) is an unusual trick-taking game from Java, which was played with {% a ceki %}.[@JavaanseKaartspelen p. 46–57] The same game has also been described under the name <span class="noun" lang="jav-Latn">Tepu</span>.[@JavanischeKartenspiele p. 47]
+</p>
 
 <!-- excerpt -->
 
-The game below was described as being played in Surakarta. The version played in
-Yogyakarta was slightly different and is described afterwards.
+The game below was described as being played in Surakarta. The version played in Yogyakarta was slightly different and is described afterwards.
 
 ## Setup
 
-<span class="noun" lang="jav-Latn">Kartu Lima</span> is played by at least five and up to
-nine players. A single deck of 60 ceki cards is used.
+<span class="noun" lang="jav-Latn">Kartu Lima</span> is played by at least five and up to nine players. A single deck of 60 ceki cards is used.
 
-To determine where players sit, pairs of cards can be used, dealing one half to
-the table and the other half of each pair to a player. The players sit where the
-corresponding cards are on the table.
+To determine where players sit, pairs of cards can be used, dealing one half to the table and the other half of each pair to a player. The players sit where the corresponding cards are on the table.
 
-Cut for the highest card (Red Flower, Old Thousand, or 1 Myriads counting 10 and
-others their rank) to determine who is the dealer. The dealer shuffles and the
-player to their left cuts the deck. The dealer deals each player five cards, and
-then the player to their right begins the game. Play is in anti-clockwise order
-as in other south-east Asian games.
+Cut for the highest card (Red Flower, Old Thousand, or 1 Myriads counting 10 and others their rank) to determine who is the dealer. The dealer shuffles and the player to their left cuts the deck. The dealer deals each player five cards, and then the player to their right begins the game. Play is in anti-clockwise order as in other south-east Asian games.
 
 ## Play
 
-The starting player can lead any card to a trick. The subsequent players try to
-‘kill’ (<span lang="jav">ꦩꦠꦼꦤꦶ</span> <span lang="jav-Latn">mateni</span>
-or formal <span lang="jav-Latn">mejahi</span>) the led card by playing one of
-_equal or higher_ rank, within the same group (see below).
+The starting player can lead any card to a trick. The subsequent players try to ‘kill’ (<span lang="jav">ꦩꦠꦼꦤꦶ</span> <span lang="jav-Latn">mateni</span> or formal <span lang="jav-Latn">mejahi</span>) the led card by playing one of _equal or higher_ rank, within the same group (see below).
 
-A player does not have to beat the card led but _must_ play one of the same
-group if possible. If they have no cards in the same group they toss in any card
-face-down (<span lang="jav-Latn">mberi</span>).
+A player does not have to beat the card led but _must_ play one of the same group if possible. If they have no cards in the same group they toss in any card face-down (<span lang="jav-Latn">mberi</span>).
 
-The highest card (or last card of equal value) played to the trick wins it, and
-the player who played it leads to the next trick. The aim of the game is to be
-the winner of the _last_ (fifth) trick played. The outcomes of the previous
-tricks do not count towards winning at all.
+The highest card (or last card of equal value) played to the trick wins it, and the player who played it leads to the next trick. The aim of the game is to be the winner of the _last_ (fifth) trick played. The outcomes of the previous tricks do not count towards winning at all.
 
-The winner of the round is called the <span lang="jav-Latn">banjiran</span>
-(‘flooded’), and shuffles and deals for the next round. If they win a second
-game they are called <span lang="jav-Latn">mbanjir</span> (‘abundance’?), and if
-a third and fourth, <span lang="jav-Latn">ladoe</span> (‘eruption’?).
+The winner of the round is called the <span lang="jav-Latn">banjiran</span> (‘flooded’), and shuffles and deals for the next round. If they win a second game they are called <span lang="jav-Latn">mbanjir</span> (‘abundance’?), and if a third and fourth, <span lang="jav-Latn">ladoe</span> (‘eruption’?).
 
-A pair of top-ranking cards in one hand, i.e. a pair of any <span
-lang="jav-Latn">dika</span>, or the 9 of Strings or Coins, the 4 of Coins, or
-the Old Thousand, is unbeatable if led, and is called a <span
-lang="jav-Latn">mraji</span>.
+A pair of top-ranking cards in one hand, i.e. a pair of any <span lang="jav-Latn">dika</span>, or the 9 of Strings or Coins, the 4 of Coins, or the Old Thousand, is unbeatable if led, and is called a <span lang="jav-Latn">mraji</span>.
 
-If the starting player has a hand with two pairs of <span
-lang="jav-Latn">mraji</span>, they can reveal all four cards (<span
-lang="jav-Latn">mraji papat</span> ‘four <span lang="jav-Latn">mraji</span>’);
-these four cards would be unbeatable. The other players then discard down to one
-card and the final trick is played out.
+If the starting player has a hand with two pairs of <span lang="jav-Latn">mraji</span>, they can reveal all four cards (<span lang="jav-Latn">mraji papat</span> ‘four <span lang="jav-Latn">mraji</span>’); these four cards would be unbeatable. The other players then discard down to one card and the final trick is played out.
 
-Another variation is that any player who is dealt five Myriads cards can reveal
-them before the first trick to win instantly.
+Another variation is that any player who is dealt five Myriads cards can reveal them before the first trick to win instantly.
 
 ## Scoring & Payment
 
-There are various ways to make bets on the game. The first type is <span
-lang="jav-Latn">wudhon tengah</span> (‘middle bet’); before each round, every
-player places the same stake (e.g. 5 or 10 cents) as a pot in the middle of the
-table. The winner of the round takes the whole pot. A new pot is made for each
-round.
+There are various ways to make bets on the game. The first type is <span lang="jav-Latn">wudhon tengah</span> (‘middle bet’); before each round, every player places the same stake (e.g. 5 or 10 cents) as a pot in the middle of the table. The winner of the round takes the whole pot. A new pot is made for each round.
 
-Instead of winning the whole pot, a method called <span
-lang="jav-Latn">undhuh-undhuh</span> (‘pickings’) may be followed. In this case
-the winner only wins back the amount that each player staked (e.g. if everyone
-staked 5¢, then the winner takes 5¢ from the pot). One pot is built and will
-last for a number of rounds equal to the number of players. It can also be
-agreed than anyone who wins a second round in a row instantly takes the
-remainder of the pot, and a new one is created. If they win a third or
-subsequent consecutive round, they continue to win whole pots until their
-winning streak is ended.
+Instead of winning the whole pot, a method called <span lang="jav-Latn">undhuh-undhuh</span> (‘pickings’) may be followed. In this case the winner only wins back the amount that each player staked (e.g. if everyone staked 5¢, then the winner takes 5¢ from the pot). One pot is built and will last for a number of rounds equal to the number of players. It can also be agreed than anyone who wins a second round in a row instantly takes the remainder of the pot, and a new one is created. If they win a third or subsequent consecutive round, they continue to win whole pots until their winning streak is ended.
 
 <!--  this section is very unclear in the book…
 Usually the pot method is only followed for the first game (which I understand
@@ -95,45 +54,26 @@ places any bet amount they want in front of themselves, but it must be at least
 the stake amount using during <span lang="jav-Latn">wudhon tengah</span>.
 -->
 
-Another possible bet is <span lang="jav-Latn">pethitan</span> (“tapering
-points”?): if a player leads a <span lang="jav-Latn">dika</span> to the last
-round and it is not beaten, they win the bet; if it is killed, the killer takes
-the bet.
+Another possible bet is <span lang="jav-Latn">pethitan</span> (“tapering points”?): if a player leads a <span lang="jav-Latn">dika</span> to the last round and it is not beaten, they win the bet; if it is killed, the killer takes the bet.
 
 ### Roosters
 
-Players may also make bets on specific cards, called “roosters” (<span
-lang="jav-Latn">jagoan</span>, formal <span lang="jav-Latn">sawungan</span>).
+Players may also make bets on specific cards, called “roosters” (<span lang="jav-Latn">jagoan</span>, formal <span lang="jav-Latn">sawungan</span>).
 
-The first method is called “challenge of roosters” (<span lang="jav-Latn">jagoan
-tantangan</span>): if a player has a <span lang="jav-Latn">dika</span> card
-amongst the five cards in their hand, they may place it face-down on the table.
-This becomes their rooster (<span lang="jav-Latn">jago</span>), and they place a
-bet on top of the card. Other players may also (but don’t have to) place rooster
-bets, with the same amount on their cards. Any player that can “kill” a card
-with their rooster wins their bet amount from the other players who placed bets.
+The first method is called “challenge of roosters” (<span lang="jav-Latn">jagoan tantangan</span>): if a player has a <span lang="jav-Latn">dika</span> card amongst the five cards in their hand, they may place it face-down on the table.  This becomes their rooster (<span lang="jav-Latn">jago</span>), and they place a bet on top of the card. Other players may also (but don’t have to) place rooster bets, with the same amount on their cards. Any player that can “kill” a card with their rooster wins their bet amount from the other players who placed bets.
 
-The second method is called “steady roosters” (<span lang="jav-Latn">jagoan
-tetep</span>); under this version, all players must place a rooster bet whether
-or not they have a <span lang="jav-Latn">dika</span> card or not, but those
-without cannot win anything. Players without <span lang="jav-Latn">dika</span>
-cards choose an arbitrary card to place face-down, so that it is not known who
-has roosters or not.
+The second method is called “steady roosters” (<span lang="jav-Latn">jagoan tetep</span>); under this version, all players must place a rooster bet whether or not they have a <span lang="jav-Latn">dika</span> card or not, but those without cannot win anything. Players without <span lang="jav-Latn">dika</span> cards choose an arbitrary card to place face-down, so that it is not known who has roosters or not.
 
 ### Side Bets
 
 
-
 ## Card groups
 
-The card groupings are unusual and I have not yet figured out an explanation for
-how they are constructed.
+The card groupings are unusual and I have not yet figured out an explanation for how they are constructed.
 
 ### <span lang="jav-Latn">Cina cilik</span> (‘little Chinese’)
 
-There are ten cards in this group: the Myriad cards from {% cards '2–9' %} are
-all of equal rank. In the same group, but ranked higher, are Red Flower, and
-then Old Thousand is the highest.
+There are ten cards in this group: the Myriad cards from {% cards '2–9' %} are all of equal rank. In the same group, but ranked higher, are Red Flower, and then Old Thousand is the highest.
 
 <div class="multi centered">
 {% image
@@ -151,6 +91,7 @@ Old Thousand is the highest-ranking card in this group.
 Red Flower is the second-highest.
 {%imageEnd%}
 </div>
+
 {% image
     noborder=true
     size="small"
@@ -204,8 +145,7 @@ There are only two cards in this group; the 9 of Coins outranks the 8 of Coins.
 
 ### <span lang="jav-Latn">Lintrik cilik</span> (‘little rows’)
 
-There are four cards in this group; the 9 of Strings outranks the 8 of Strings,
-and the 5 & 7 of Strings are of equal rank.
+There are four cards in this group; the 9 of Strings outranks the 8 of Strings, and the 5 & 7 of Strings are of equal rank.
 
 <div class="multi centered">
 {% image
@@ -234,17 +174,9 @@ and the 5 & 7 of Strings are of equal rank.
 
 ### <span lang="jav-Latn">Dika</span>
 
-The remaining 12 cards are in this group.  The name of this group comes from the
-work <span lang="jav-Latn">mardika</span> meaning ‘free, independent, not in
-service to someone else’. This group should really be thought of as 12 different
-groups,{%fn%}As pointed out in @JavaanseKaartspelenReview [p. 350].{%endfn%} one
-for each card, as the cards in this group can only be beaten by their identical
-copy (there are two copies of each card).
+The remaining 12 cards are in this group.  The name of this group comes from the work <span lang="jav-Latn">mardika</span> meaning ‘free, independent, not in service to someone else’. This group should really be thought of as 12 different groups,{%fn%}As pointed out in @JavaanseKaartspelenReview [p. 350].{%endfn%} one for each card, as the cards in this group can only be beaten by their identical copy (there are two copies of each card).
 
-Note that because these are really 12 separate groups, if one of the <span
-lang="jav-Latn">dika</span> is led, the only card that is forced to be played is
-its matching partner (which, if played, must win the trick). You do not have to
-throw away another <span lang="jav-Latn">dika</span> as a discard.
+Note that because these are really 12 separate groups, if one of the <span lang="jav-Latn">dika</span> is led, the only card that is forced to be played is its matching partner (which, if played, must win the trick). You do not have to throw away another <span lang="jav-Latn">dika</span> as a discard.
 
 The cards are:
 
@@ -277,17 +209,11 @@ The 2, 5, 6, and 7 of Coins.
 
 ## <span lang="jav-Latn">Wangsalan</span>
 
-For many of the cards there exist <span lang="jav-Latn">wangsalan</span>, that
-is, riddling sentences that allude to the card’s name. These are used by the
-leading player to announce which card is being played. For the <span
-lang="jav-Latn">dika</span> cards, if a player has the corresponding card that
-can kill the led one, they say <span lang="jav-Latn">ana kéné</span>: “I have it!”
+For many of the cards there exist <span lang="jav-Latn">wangsalan</span>, that is, riddling sentences that allude to the card’s name. These are used by the leading player to announce which card is being played. For the <span lang="jav-Latn">dika</span> cards, if a player has the corresponding card that can kill the led one, they say <span lang="jav-Latn">ana kéné</span>: “I have it!”
 
 ### <span lang="jav-Latn">Dika</span> cards
 
-The <span lang="jav-Latn">wangsalan</span> for the <span
-lang="jav-Latn">dika</span> cards are, in the order presented
-above:[@JavaanseKaartspelen p. 50]
+The <span lang="jav-Latn">wangsalan</span> for the <span lang="jav-Latn">dika</span> cards are, in the order presented above:[@JavaanseKaartspelen p. 50]
 
 <dl>
 <dt><span lang="jav-Latn">Kucing</span> (White Flower)</dt>
@@ -387,11 +313,7 @@ above:[@JavaanseKaartspelen p. 50]
 
 <dl>
 <dt>Myriad cards other than the 1 Myriads</dt>
-<dd>In Yogyarkarta these were referred to
-as “Secadiningrat”, after <a
-href="https://id.wikipedia.org/wiki/Tan_Jin_Sing">Tan Jin Sing</a> (c.
-1760–1831), an official of Chinese descent who held the title Radèn Tumenggung
-Secadiningrat from 1813.</dd>
+<dd>In Yogyarkarta these were referred to as “Secadiningrat”, after <a href="https://id.wikipedia.org/wiki/Tan_Jin_Sing">Tan Jin Sing</a> (c.  1760–1831), an official of Chinese descent who held the title Radèn Tumenggung Secadiningrat from 1813.</dd>
 <dt><span lang="jav-Latn">Tambur</span> (4 Coins)</dt>
 <dd>
 <ul>

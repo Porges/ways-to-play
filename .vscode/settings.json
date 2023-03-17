@@ -4,11 +4,10 @@
   "files.exclude": {
     "**/node_modules/": true
   },
-  "grammarly.selectors": [
-    {
-      "language": "markdown",
-      "scheme": "file"
-    }
-  ],
-  "sarif-viewer.connectToGithubCodeScanning": "off"
+  "[markdown]": {
+    "editor.wordWrapColumn": 80,
+    "editor.wordWrap": "bounded",
+    "editor.wrappingStrategy": "advanced",
+    "editor.wrappingIndent": "same"
+  },
 }

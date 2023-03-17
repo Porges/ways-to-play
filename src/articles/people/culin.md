@@ -5,18 +5,14 @@ draft: true
 ---
 
 <p class="lead">
-<a href="https://en.wikipedia.org/wiki/Stewart_Culin">Stewart Culin</a> (1858–1959) was a prominent games historian, especially of East
-and South-East Asian and Native American games.
+<a href="https://en.wikipedia.org/wiki/Stewart_Culin">Stewart Culin</a> (1858–1959) was a prominent games historian, especially of East and South-East Asian and Native American games.
 </p>
 
 <!-- excerpt -->
 
 ## Works
 
-Culin usually only presents names and terms in their transliterated form. For
-Chinese, it seems that the most common dictionary he used was the
-@TonicDictionary, so they are almost always presented in Cantonese
-pronunciation.
+Culin usually only presents names and terms in their transliterated form. For Chinese, it seems that the most common dictionary he used was the @TonicDictionary, so they are almost always presented in Cantonese pronunciation.
 
 - 1891: @ChineseInAmerica
 - 1895: @KoreanGames
