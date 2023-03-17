@@ -163,16 +163,14 @@ type involved nine poets competing over 1500 rounds.
     originalUrl='https://www.metmuseum.org/art/collection/search/37303' %}
 Ladies playing a game of <span lang="ja-Latn">kai-ōi</span>.<br />From
 <cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790),
-by <span class="noun" lang="ja-Latn">Kitagawa Utamaro</span> (<span lang="ja">喜多川歌麿
-</span>).
+by <span class="noun" lang="ja-Latn">Kitagawa Utamaro</span> (<span lang="ja">喜多川歌麿</span>).
 {% imageEnd %}
 
 
 ### <span lang="ja-Latn">Kai-awase</span> to <span lang="ja-Latn">Kai-ōi</span>
 
 The earliest recorded {% pronounce lang="ja-Latn" word="kai-awase"
-pronouncer="skent" file="pronunciation_ja_貝合わせ.mp3" %} (<span lang="ja">貝合
-せ</span>, ‘shell competition’) contest dates from 1040, and was held at [the
+pronouncer="skent" file="pronunciation_ja_貝合わせ.mp3" %} (<span lang="ja">貝合せ</span>, ‘shell competition’) contest dates from 1040, and was held at [the
 Ise shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) by [Emperor
 Go-Suzaku](https://en.wikipedia.org/wiki/Emperor_Go-Suzaku)’s first daughter,
 Princess <span class="noun" lang="ja-Latn">Nagako</span>. This was a competition very much in
@@ -309,8 +307,8 @@ even gilded. These matching images were used to confirm a correct match after
 both shells were selected. After the <span class="noun"
 lang="ja-Latn">Kamakura</span> period (1333), it became common to illustrate the
 shells with matching scenes from the [Tale of
- Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) (<span lang="ja">源氏物
-語</span> {% pronounce word="Genji Monogatari" file="pronunciation_ja_源氏物語.mp3"
+ Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) (<span lang="ja">源氏物語</span>
+ {% pronounce word="Genji Monogatari" file="pronunciation_ja_源氏物語.mp3"
 pronouncer="straycat88" lang="ja-Latn" %}) — the game is also played in
 Chapter 45 of the novel itself. Other designs included shells with half of a
 poem in each, so that the matching pair could be read as a complete poem; these
@@ -503,14 +501,11 @@ lang="ja-Latn">Sumiyoshi-kai</span>](https://en.wikipedia.org/wiki/Sumiyoshi-kai
 destroyed along with most of the rest of <span class="noun" lang="ja-Latn">Nihonbashi</span>
 in the Great <span class="noun" lang="ja-Latn">Kantō</span> Earthquake of 1923; the location
 where <span class="noun" lang="ja-Latn">Sumiyoshi-chō</span> existed is now part of <span class="noun"
-lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</span> (<span lang="ja">人形町二丁
-目</span>).{%endfn%} in <span class="noun" lang="ja-Latn">Tōkyō</span>’s <span class="noun"
-lang="ja-Latn">Nihonbashi</span> district (<span lang="ja">日本橋住吉町人形町通
-り</span>). <span class="noun" lang="ja-Latn">Maeda</span> later also started other stores
+lang="ja-Latn">Nihon-bashi Ningyō-chō 2–chōme</span> (<span lang="ja">人形町二丁目</span>).{%endfn%} in <span class="noun" lang="ja-Latn">Tōkyō</span>’s <span class="noun"
+lang="ja-Latn">Nihonbashi</span> district (<span lang="ja">日本橋住吉町人形町通り</span>). <span class="noun" lang="ja-Latn">Maeda</span> later also started other stores
 with names that punned on the original store, such as <span class="noun"
 lang="ja-Latn">Nakagataya</span> (<span lang="ja">中方屋</span>) and <span class="noun"
-lang="ja-Latn">Shimogataya</span> (<span lang="ja">下方屋
-</span>).[@OpeningKamigataya]
+lang="ja-Latn">Shimogataya</span> (<span lang="ja">下方屋</span>).[@OpeningKamigataya]
 
 {%image
     src="Kamigataya-Motomachi.jpg"
@@ -548,16 +543,14 @@ other manufacturers appeared quickly: the com&shy;pany that was later to become
 lang="ja-Latn">Hanafuda</span> cards in 1889. Other companies such as <span class="noun"
 lang="ja-Latn">Ōishi Tengudō</span> claim to have been operating discreetly
 during the pro&shy;hi&shy;bition period; in their case behind the doors of a
-rice merchant named <span class="noun" lang="ja-Latn">Minatoya</span> (<span lang="ja">湊屋
-</span>).[@OishiTengudoHistory4]
+rice merchant named <span class="noun" lang="ja-Latn">Minatoya</span> (<span lang="ja">湊屋</span>).[@OishiTengudoHistory4]
 
 ### Changing Attitudes
 
 Even after prohibition had ended, <span class="noun" lang="ja-Latn">Hanafuda</span> retained
 a poor reputation, and gambling with the cards remained illegal. In 1892, <span class="noun"
 lang="ja-Latn">Korekata Kojima</span> (<span lang="ja">児島惟謙</span>,
-1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院
-</span> <span lang="ja-Latn">daishinin</span>), was accused along with five
+1837–1908), who was the head of Japan’s supreme court (<span lang="ja">大審院</span> <span lang="ja-Latn">daishinin</span>), was accused along with five
 other supreme court judges of gambling with <span class="noun" lang="ja-Latn">Hanafuda</span>
 (<span lang="ja">弄花</span>, <span lang="ja-Latn">rōka</span>). Due to a lack
 of evidence, the case was dropped, but <span class="noun" lang="ja-Latn">Kojima</span>
@@ -786,8 +779,8 @@ Sūgakudō</span>.
 A playing-card ‘pattern’ is a common set of designs that has been used by
 multiple different manufacturers over a period of time. With <span
 lang="ja-Latn">hanafuda</span> there is now one primary or “standard” pattern:
-all other patterns are referred to as ‘local cards’ (<span lang="ja">地方札
-</span> <span lang="ja-Latn">chihōfuda</span>), and are considered to be specific to
+all other patterns are referred to as ‘local cards’ (<span lang="ja">地方札</span>
+<span lang="ja-Latn">chihōfuda</span>), and are considered to be specific to
 a particular region. Most of these are of historical interest only and are no
 longer manufactured, and there is little information about how gameplay differed
 in different regions.
@@ -1118,11 +1111,9 @@ lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka
 ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span>
 show <span lang="ja-Latn">akayoroshi</span> alongside <span
 lang="ja-Latn">aoyoroshi</span> (‘blue is good’) indicating that <span
-lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤
-</span> (‘red’).{%endfn%} Cards from vintage decks can carry older names for
+lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).{%endfn%} Cards from vintage decks can carry older names for
 this <span lang="ja-Latn">yaku</span>, such as <span
-lang="ja-Latn">urasu</span>, or sometimes simply <span lang="ja">正月/初月
-</span>, indicating the first lunar month.
+lang="ja-Latn">urasu</span>, or sometimes simply <span lang="ja">正月/初月</span>, indicating the first lunar month.
 
 In the <span lang="ja-Latn">Echigo-bana</span> pattern, the <span
 lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span>
@@ -1134,8 +1125,7 @@ Poetry’.{%endfn%} (<span lang="ja">源宗于</span>) at a poetry competition
 organized by the Empress during the reign of Emperor <span class="noun"
 lang="ja-Latn">Uda</span> . It is featured as Poem 24 in the ‘Spring’ section of
 the {% pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn"
-file='pronunciation_ja_古今和歌集.mp3' noun=true %} (<cite lang="ja">古今和歌集
-</cite> “Collection of Old and New Poems”):
+file='pronunciation_ja_古今和歌集.mp3' noun=true %} (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):
 
 {%aside%}
 @PoemsOfTheEchigobana [p. 4] notes that in the standard design printed by
@@ -1212,8 +1202,7 @@ lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card
 <span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
 {% imageEnd %}
 
-The second month is represented by plum trees in blossom (<span lang="ja">梅
-</span> {% pronounce pronouncer="akitomo" word="ume" lang="ja-Latn"
+The second month is represented by plum trees in blossom (<span lang="ja">梅</span> {% pronounce pronouncer="akitomo" word="ume" lang="ja-Latn"
 file="pronunciation_ja_梅.mp3" %}). The <span lang="ja-Latn">tane</span> has a
 bush warbler–plum blossom combination that has been associated with spring since
 very early times, dating at least from the {% pronounce pronouncer="monekuson"
@@ -1229,8 +1218,7 @@ lang="ja-Latn">Heian</span> period:[@FourSeasons loc. 997] after a famous plum
 tree that was planted by Emperor <span class="noun" lang="ja-Latn">Kanmu</span> at the imperial palace
 had died, Emperor <span class="noun" lang="ja-Latn">Ninmyō</span> replaced it with a cherry
 tree{%fn%}This cherry tree has been replanted several times since then, and
-is called the <span lang="ja-Latn">sakon no sakura</span> (<span lang="ja">左近
-桜</span> ‘left-side cherry’).{%endfn%} in 834.[@HandbookForJapan p. 301]
+is called the <span lang="ja-Latn">sakon no sakura</span> (<span lang="ja">左近桜</span> ‘left-side cherry’).{%endfn%} in 834.[@HandbookForJapan p. 301]
 
 The bush warbler (<span lang="ja">鶯</span> <span lang="ja-Latn">uguisu</span>)
 was praised for its song, and one of its cries is said to repeat the phrase
@@ -1298,9 +1286,7 @@ bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two
     license='cc0',
     originalUrl="https://www.flickr.com/photos/library_of_congress/16944707362",
     orgName="Library of Congress" %}
-<cite>Third Month: Blossom-Viewing in Askukayama</cite><br /><cite lang="ja">三
-月　飛鳥山花見</cite><br />by <span class="noun" lang="ja-Latn">Kitao Shigemasa</span> (<span
-lang="ja">北尾 重政</span>, 1739–1820).
+<cite>Third Month: Blossom-Viewing in Askukayama</cite><br /><cite lang="ja">三月　飛鳥山花見</cite><br />by <span class="noun" lang="ja-Latn">Kitao Shigemasa</span> (<span lang="ja">北尾 重政</span>, 1739–1820).
 {% imageEnd %}
 
 {% image
@@ -1316,13 +1302,11 @@ lang="ja">北尾 重政</span>, 1739–1820).
 The <span class="noun" lang="ja-Latn">Yoshino</span> mountainside with cherry trees in bloom.
 {% imageEnd %}
 
-The third month is represented by cherry trees in bloom (<span lang="ja">桜
-</span> {%pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn"
+The third month is represented by cherry trees in bloom (<span lang="ja">桜</span> {%pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn"
 file='pronunciation_ja_桜.mp3' %}). Blossom-viewing (<span lang="ja">花見</span>
 {%pronounce pronouncer="samchie" word="hanami" lang="ja-Latn"
 file="pronunciation_ja_花見.mp3" %}), parti­cularly of cherry blossoms, is a
-custom that dates back to the Heian period. The curtains (<span lang="ja">幕
-</span> {%pronounce pronouncer="skent" word="maku" lang="ja-Latn"
+custom that dates back to the Heian period. The curtains (<span lang="ja">幕</span> {%pronounce pronouncer="skent" word="maku" lang="ja-Latn"
 file='pronunciation_ja_幕.mp3' %}) that are shown on the bright card are there
 provide privacy whilst viewing cherry blossoms. An example of their use can be
 seen in the image on the left. It was common to use striped fabric, particularly
@@ -1352,8 +1336,7 @@ Bashō</span>](https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D) (<span lang="ja"
 Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, visited <span class="noun" lang="ja-Latn">Yoshino</span> during
 his travels but found himself unable to compose a single poem, overwhelmed by
 the pressure of trying to live up to his predecessors.[@NarrowRoad p. 84] One of
-them, <span class="noun" lang="ja-Latn">Yasuhara Teishitsu</span> (<span lang="ja">安原貞室
-</span>), had composed what <span class="noun" lang="ja-Latn">Bashō</span> considered to be
+them, <span class="noun" lang="ja-Latn">Yasuhara Teishitsu</span> (<span lang="ja">安原貞室</span>), had composed what <span class="noun" lang="ja-Latn">Bashō</span> considered to be
 the “finest <span lang="ja-Latn">hokku</span> ever
 written”:[@TheClassicTraditionOfHaiku p. 8]
 
@@ -1469,8 +1452,7 @@ lang="ja-Latn">Kokinshū</span>,{%fn%}The poem on the card differs slightly in
 that the last line starts with <span lang="ja-Latn">ima ya</span> <span
 lang="ja">今や</span> instead of <span lang="ja-Latn">itu ka</span> <span
 lang="ja">いつか</span>.[@PoemsOfTheEchigobana p. 100]{%endfn%} perhaps written
-by <span class="noun" lang="ja-Latn">Kakinomoto no Hitomaro</span> <span lang="ja">柿本 人麻
-呂</span>. The poem again focuses on the transition from spring (represented by
+by <span class="noun" lang="ja-Latn">Kakinomoto no Hitomaro</span> <span lang="ja">柿本 人麻呂</span>. The poem again focuses on the transition from spring (represented by
 wisteria) to summer (represented by the arrival of the cuckoo):
 
 <div class="multi">
@@ -1643,8 +1625,7 @@ file="pronunciation_ja_萩.mp3" %}). These cards are also nicknamed ‘red bean�
 (<span lang="ja">赤豆</span> <span lang="ja-Latn">akamame</span>/<span
 lang="ja">小豆</span> {% pronounce pronouncer="poyotan" word="azuki"
 lang="ja-Latn" file="pronunciation_ja_赤豆.mp3" %}). Bush clover is very
-strongly associated with autumn — the Japanese character <span lang="ja">萩
-</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span
+strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span
 lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.
 
 {% image
@@ -1724,8 +1705,7 @@ card, and two <span lang="ja-Latn">kasu</span> cards.
 Miscanthus plumes.
 {% imageEnd %}
 
-The eighth month is represented by miscanthus or silvergrass (<span lang="ja">芒
-/薄</span> {% pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn"
+The eighth month is represented by miscanthus or silvergrass (<span lang="ja">芒/薄</span> {% pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn"
 file="pronunciation_ja_スズキ.mp3" %}). It can also be called <span
 lang="ja-Latn">tsuki</span> (<span lang="ja">月</span>, ‘moon’),[@WanderingWords
 p. 194] or <span lang="ja-Latn">oka</span> (<span lang="ja">丘</span>
@@ -1938,14 +1918,12 @@ cards.
 Maple trees along the banks of the <span class="noun" lang="ja-Latn">Tatsuta-gawa</span> in autumn.
 {% imageEnd %}
         
-The tenth month is represented by autumn leaves/maple (<span lang="ja">紅葉
-</span> <span lang="ja-Latn">momiji</span>/{% pronounce pronouncer="El55"
+The tenth month is represented by autumn leaves/maple (<span lang="ja">紅葉</span> <span lang="ja-Latn">momiji</span>/{% pronounce pronouncer="El55"
 word="kōyō" lang="ja-Latn" file='pronunciation_ja_紅葉.mp3' %}). The <span
 lang="ja-Latn">tane</span> card features a deer who is looking back over its
 shoulder, sometimes inspecting a twig. A reference to this card, the ‘10-point
 deer’ (<span lang="ja">鹿十</span> <span lang="ja-Latn">shikato</span>) has thus
-become a slang term <span lang="ja-Latn">shikato</span> (<span lang="ja">しかと
-</span>) meaning to ignore or neglect.
+become a slang term <span lang="ja-Latn">shikato</span> (<span lang="ja">しかと</span>) meaning to ignore or neglect.
 
 {% image 
     alt=""
@@ -2227,8 +2205,7 @@ lang="ja-Latn">Ōishi Tengudo</span> still boxes many of their decks in this way
     license='cc0',
     orgName="Boston Museum of Fine Arts" %}
 <cite>Phoenix and Paulownia Tree</cite><br /><cite lang="ja">桐に鳳凰</cite><br
-/>by <span class="noun" lang="ja-Latn">Isoda Koryūsai</span> (<span lang="ja">礒田 湖龍斎
-</span>, 1735–1790)
+/>by <span class="noun" lang="ja-Latn">Isoda Koryūsai</span> (<span lang="ja">礒田 湖龍斎</span>, 1735–1790)
 {% imageEnd %}
 
 The phoenix (<span lang="ja">鳳凰</span> {% pronounce pronouncer="akitomo"
