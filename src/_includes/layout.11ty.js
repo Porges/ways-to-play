@@ -55,6 +55,7 @@ exports.render = async function (data) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&family=Noto+Emoji&family=Nabla&display=swap" rel="stylesheet" />
+    <link rel="canonical" href="${data.site.url}${data.page.url}" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="generator" content="Eleventy" />
     <meta name="theme-color" content="#000000" />
