@@ -1743,6 +1743,7 @@ them, I do not know of any other sets of rules recorded online.
 
 * {% gameref cholek-tiga %} (‘draw three’), a Malaysian game for two or three
   players[@BabaMalayDictionary p. 214][@ChikiCards p. 125]
+* {% gameref pei %}, a Javanese game for three players where the goal is to collect specific scoring combinations[@JavaanseKaartspelen p. 58–70]
 * {% gameref thothit %}, a Javanese game for three players where the goal is to capture identical pairs[@JavaanseKaartspelen p. 71–2]
 * {% gameref enthit %}, a similar Javanese game for three players where the goal is to capture identical quadruplets[@JavaanseKaartspelen p. 74]
 * {% gameref thothit-kuna %}, an older and slower version of the game[@JavaanseKaartspelen p. 74]

@@ -309,7 +309,7 @@ lang="jav-Latn">medal</span>) ‘came out’.
 <dd>At the beginning of the game a pot is formed with a stake from each player. If a player wins with
 <span lang="jav-Latn">metu</span>, they win one stake from it. If a player wins
 with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
-<dt><span lang="jav-Latn">toh bajaran</span> (betting on <span lang="jav-Latn">bak</span>s?)</dt>
+<dt><span lang="jav-Latn">toh bayaran</span> (‘stake payments’)</dt>
 <dd>This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. The winner scores according to the following scheme:
 <ol>
 <li>1 for <span lang="jav-Latn">metu</span>; 2 for <span lang="jav-Latn">metu</span> with a red card, or <span lang="jav-Latn">rabas</span>; or 3 for <span lang="jav-Latn">rabas</span> with a red card,</li>
@@ -326,17 +326,17 @@ with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
 </div>
 </ol>
 </dd>
-<dt>alternative <span lang="jav-Latn">toh bajaran</span>, drawing 14 cards</st>
-<dd>This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jav-Latn">toh bajaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jav-Latn">bak</span> from these cards. For each <span lang="jav-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jav-Latn">bak</span>.</dd>
+<dt>alternative <span lang="jav-Latn">toh bayaran</span>, drawing 14 cards</st>
+<dd>This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jav-Latn">toh bayaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jav-Latn">bak</span> from these cards. For each <span lang="jav-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jav-Latn">bak</span>.</dd>
 </dl>
 
-In the 1940s the <span lang="jav-Latn">toh bajaran</span> methods were paid out at 2¢{%fn%}These were cents of the [Netherlands Indies gulden](https://en.wikipedia.org/wiki/Netherlands_Indies_gulden).{%endfn%} per point from each other player.
+In the 1940s the <span lang="jav-Latn">toh bayaran</span> methods were paid out at 2¢{%fn%}These were cents of the [Netherlands Indies gulden](https://en.wikipedia.org/wiki/Netherlands_Indies_gulden).{%endfn%} per point from each other player.
 
 In Yogyakarta the following bets were used:
 
 <dl>
 <dt><span lang="jav-Latn">bak-bakan</span></dt>
-<dd>This is payment according to the number of <span lang="jav-Latn">bak</span>, i.e. the same as <span lang="jav-Latn">toh bajaran</span>.</dd>
+<dd>This is payment according to the number of <span lang="jav-Latn">bak</span>, i.e. the same as <span lang="jav-Latn">toh bayaran</span>.</dd>
 <dt><span lang="jav-Latn">umbuk</span> (‘piled’)</dt>
 <dd>A pot is formed with a stake from each player. If a player wins with <span lang="jav-Latn">metu</span>, they win half the pot. If a player wins with <span lang="jav-Latn">rabas</span>, they win the entire pot.</dd>
 <dt><span lang="jav-Latn">ceken</span></dt>
@@ -361,7 +361,7 @@ Waiting for a one card to win is called <span lang="jav-Latn">tan</span>, as in
 lang="jav-Latn">tan nokang</span>, waiting for any card of the same rank is
 called <span lang="jav-Latn">tan kowah</span>.
 
-Scoring is performed the same as the <span lang="jav-Latn">toh bajaran</span>
+Scoring is performed the same as the <span lang="jav-Latn">toh bayaran</span>
 method of <span class="noun" lang="jav-Latn">Gonggong</span>, above.
 
 In Yogyakarta this game was played with three people and known as <span class="noun"
