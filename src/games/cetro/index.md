@@ -39,7 +39,7 @@ The players’ pieces.
 
 The initial setup of the board places the pieces on squares of matching colour:
 
-{% image src="cetro_setup.svg" alt="" position="wide" %}
+{% image src="cetro_setup.svg" alt="" %}
 Initial setup of the Cetro board.
 {% imageEnd%}
 

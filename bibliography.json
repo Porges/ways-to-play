@@ -10745,5 +10745,34 @@
         "issued": 1958,
         "publisher": "Tuttle",
         "publisher-place": "Rutland, Vermont & Tokyo, Japan"
+    },
+    "UnderstandingCanton": {
+        "type": "book",
+        "title": "Understanding Canton: Rethinking Popular Culture in the Republican Period",
+        "author": [
+            {
+                "given": "Virgil K. Y.",
+                "family": "Ho"
+            }
+        ],
+        "publisher": "Oxford University Press",
+        "publisher-place": "Oxford, UK",
+        "ISBN": "9780199282715",
+        "issued": 2005
+    },
+    "ChinaAHistoryOfTheLaws": {
+        "type": "book",
+        "title": "China: A History of the Laws, Manners, and Customs of the People",
+        "URL": "https://archive.org/details/chinahistoryofla01grayuoft",
+        "author": [
+            {
+                "given": "John Henry",
+                "family": "Gray"
+            }
+        ],
+        "volume": 1,
+        "issued": 1878,
+        "publisher": "Macmillan and Co.",
+        "publisher-place": "London"
     }
 }

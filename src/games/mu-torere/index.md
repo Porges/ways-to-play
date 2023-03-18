@@ -1,8 +1,8 @@
 ---
 title: Mū Tōrere
 titleLang: mi
-draft: true
 players: 2
+equipment: Stones
 ---
 
 <p class="lead">
@@ -11,7 +11,11 @@ players: 2
 
 <!-- excerpt -->
 
-The game was first described in print by @Best17.
+The game was first described in print by @Best17, and this description is based upon his.
+
+It is said that the [Ngāti Haua](https://en.wikipedia.org/wiki/Ng%C4%81ti_Hau%C4%81) chief [Wiremu Tamihana Te Waharoa](https://en.wikipedia.org/wiki/Wiremu_Tamihana) once offered to play <span lang="mi" class="noun">Mū Tōrere</span> with [Governor Grey,](https://en.wikipedia.org/wiki/George_Grey) with the whole country as a stake — Grey apparently declined.[@TaongaTukuIho p. 54]
+
+## Game
 
 {% image src="mu_torere.jpg" alt="TODO"
     size="wide"
@@ -22,13 +26,17 @@ The game was first described in print by @Best17.
 A married couple (Te Urikore at left and Te Rangiua at right) playing Mū Tōrere, <abbr title="circa">c.</abbr> 1910.
 {%imageEnd%}
 
-It is said that the [Ngāti Haua](https://en.wikipedia.org/wiki/Ng%C4%81ti_Hau%C4%81) chief [Wiremu Tamihana Te Waharoa](https://en.wikipedia.org/wiki/Wiremu_Tamihana) once offered to play <span lang="mi" class="noun">Mū Tōrere</span> with [Governor Grey](https://en.wikipedia.org/wiki/George_Grey), with the whole country as a stake — Grey apparently declined.[@TaongaTukuIho p. 54]
+The board used in the game has a central spot (<span lang="mi">putahi</span> ‘centre’) as well as eight arms or ‘tentacles’ (<span lang="mi">kāwai</span>) arranged around the central spot. In this way, the board resembles an octopus, and modern commercial versions of the game are often octopus-themed.
 
-## Game
+Each player has four pieces in a different colour from their opponent, which begin the game placed in a single cluster at the end of four of the eight arms.
+
+On each player’s turn they must move one piece either from one arm to an adjacent arm which does not have a piece on it, from an arm to the central spot if it is empty, or from the central spot to any empty arm. The goal is to block the other player so that they are unable to move; if this is done, the blocking player wins.
+
+To start the game, the first player must move one of the two pieces at the end of their cluster, as moving one of the central two pieces would result in an instant victory.
 
 ## Analysis
 
-See: @Ascher87; @Straffin95; @Straffin95_2.
+For analysis, see @Ascher87; @Straffin95; @Straffin95_2. With perfect play, the game is a draw.
 
 ## See also
 

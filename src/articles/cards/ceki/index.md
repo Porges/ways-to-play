@@ -75,7 +75,7 @@ and exported to Indonesia. (See the [manufacturers](#manufacturers-brands)
 section below.)
 
 {% image src="Kaartspelers.jpg" alt="" license="cc0" size="wide" %}
-Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps {% gameref thothit %} or similar.
+Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps {% gameref pei %} (there are probably too many cards in the centre for it to be {% gameref thothit %}).
 {% imageEnd %}
 
 In Bali, the game is widely played and has “a large if not fanatical

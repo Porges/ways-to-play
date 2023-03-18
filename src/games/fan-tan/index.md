@@ -4,13 +4,9 @@ originalTitle: <span lang="yue">番攤</span>
 draft: true
 ---
 
-The English name for this game is derived from the Cantonese <span lang="yue">番攤</span>
-{%pronounce lang="yue-Latn" word="faan1 taan1" pronouncer="potatokash" file="pronunciation_yue_番攤.mp3" %};
-in Hokkien it is simply <span lang="">攤</span>
-{%pronounce lang="nan-Latn" word="thoaⁿ" file="pronunciation_nan_攤.mp3" pronouncer="690518207" %}.[@GamblingGamesOfMalaya p. 118]
+The English name for this game is derived from the Cantonese <span lang="yue">番攤</span> {%pronounce lang="yue-Latn" word="faan1 taan1" pronouncer="potatokash" file="pronunciation_yue_番攤.mp3" %}; in Hokkien it is simply <span lang="">攤</span> {%pronounce lang="nan-Latn" word="thoaⁿ" file="pronunciation_nan_攤.mp3" pronouncer="690518207" %}.[@GamblingGamesOfMalaya p. 118]
 
-In Thai it has been called <span lang="th">เล่นถั่ว</span> <span lang="th-Latn">len thua</span> ‘beans game’,{%fn%}Given as Len Thoa in older works.[@OnSiameseLiterature p. 383]{%endfn%} <span lang="th">กำถั่ว</span>  <span lang="th-Latn">kam thua</span> ‘beans handful’,
-<span lang="th">โปกำ</span> <span lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span lang="th">ถั่ว</span> {%pronounce lang="th-Latn" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’; a variant played with only odd/even outcomes is called Thamtat (?).[@OnSiameseLiterature p. 384]
+In Thai it has been called <span lang="th">เล่นถั่ว</span> <span lang="th-Latn">len thua</span> ‘beans game’,{%fn%}Given as Len Thoa in older works.[@OnSiameseLiterature p. 383]{%endfn%} <span lang="th">กำถั่ว</span>  <span lang="th-Latn">kam thua</span> ‘beans handful’, <span lang="th">โปกำ</span> <span lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span lang="th">ถั่ว</span> {%pronounce lang="th-Latn" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’; a variant played with only odd/even outcomes is called Thamtat (?).[@OnSiameseLiterature p. 384]
 
 In the Philippines, it has been known as <span lang="fil">capona</span>.[@CulinPhilippine p. 650]
 
@@ -26,10 +22,7 @@ Countries where Fan-Tan has been played, after @ParadoxicalSoftPower [p. 195].
 “Sketches in Our Chinese Quarter: Fan Tan Playing, and A Chinese Restaurant”, as depicted in the <cite>Australasian Sketcher</cite>.[@SketchesInOurChineseQuarter]
 {% imageEnd %}
 
-The play of the game is straightforward. The game master —  called <span lang="zh-Hant">揸攤人</span>/<span
-lang="zh-Hans">揸摊人</span> (Mandarin: <span lang="zh-Latn-pinyin">zhā tān rén</span>) or <span lang="zh-Hant">攤官</span>/<span
-lang="zh-Hans">摊官</span> (Mandarin: <span lang="zh-Latn-pinyin">tān guān</span>) — stands beside the table.
-They have a large pile of small identical objects; traditionally Chinese cash coins (<span lang="zh">釐</span>) were used, but more recently white buttons or white stones similar to go stones have been used. The game master has a cup called the ‘spreading cup’ <span lang="zh-Hant">攤盅</span>/<span lang="zh-Hans">摊盅</span> which is used to take a random number of items from the large pile and cover them while bets are placed.
+The play of the game is straightforward. The game master or croupier —  called <span lang="zh-Hant">揸攤人</span>/<span lang="zh-Hans">揸摊人</span> (Mandarin: <span lang="zh-Latn-pinyin">zhā tān rén</span>) or <span lang="zh-Hant">攤官</span>/<span lang="zh-Hans">摊官</span> (Mandarin: <span lang="zh-Latn-pinyin">tān guān</span>, Cantonese: <span lang="yue-Latn-jyutping">taan1 gun1</span>) — sits or stands at one end of the table.  Before them, they have a large pile of small identical objects; traditionally Chinese cash coins (<span lang="zh">釐</span>) were used, but more recently white buttons or white stones similar to go stones have been used. The game master has a cup called the ‘spreading cup’ <span lang="zh-Hant">攤盅</span>/<span lang="zh-Hans">摊盅</span> which is used to take a random number of items from the large pile and cover them while bets are placed.
 
 Spreading cup used to spread out coins:  (http://www.ims.sdu.edu.cn/__local/F/F1/39/92CAD2D39E53B9090BDDAC265CC_F0836209_6D7B5.pdf)
 
@@ -41,10 +34,7 @@ Stakes: Tan Pi (<span lang="zh-Hant">攤皮</span>/<span lang="zh-Hans">摊皮</
 
 Each portion of four is called Pi (<span lang="zh">皮</span> Mandarin: <span lang="zh-Latn-pinyin">pí</span>).[@OverseasChineseNZ p. 29]
 
-There are several different kinds of bets that can be made. I present the
-somehat-internationalized “casino name” first, and then other names. While
-Vietnamese is now written using the Latin alphabet, staking boards often use
-[<span class="noun" lang="vi">Chữ Nôm</span>](https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m) characters.[@LiveDealerFanTan]
+There are several different kinds of bets that can be made. I present the somehat-internationalized “casino name” first, and then other names. While Vietnamese is now written using the Latin alphabet, staking boards often use [<span class="noun" lang="vi">Chữ Nôm</span>](https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m) characters.[@LiveDealerFanTan]
 
 * **Fan**, a bet on a single outcome, paying 3:1
   * <span lang="zh">番</span>, Cantonese <span lang="yue-Latn-jyutping">faan1</span>, or <span lang="zh">孤(番)</span> <span lang="yue-Latn-jyutping">gu1 (faan1)</span> ‘grasping (at turns)’[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
@@ -60,9 +50,9 @@ Vietnamese is now written using the Latin alphabet, staking boards often use
   * in older sources this bet on two opposite numbers is called <span lang="zh">同</span>, Cantonese <span lang="yue-Latn-jyutping">tung4</span>;[@GamblingGamesOfMalaya p. 123] nowadays this is treated uniformly
   * Vietnamese: <span lang="vi-Hani">念</span> <span lang="vi">niệm</span> 
 * **Hong**, a bet on a single outcome and two others to push, called:
-    * <span lang="zh">正(頭)</span> ‘straight (side)’,[@GamblingGamesOfMalaya p. 119] refers to the working face of a coal mine?
-    * <span lang="zh">大眼</span> (although GGoM has 眠) ‘big eyes’[@GamblingGamesOfMalaya p. 119]
-    * <span lang="zh">紅</span> ‘row’[@ChineseInAmerica p. 3]
+  * <span lang="yue">正(頭)</span>, Cantonese <span lang="yue-Latn-jyutping">zing3 tau4</span> ‘straight (side)’,[@GamblingGamesOfMalaya p. 119][@ChinaAHistoryOfTheLaws p. 386] [refers to the working face of a coal mine?]
+  * <span lang="zh">大眼</span> (although GGoM has 眠) ‘big eyes’[@GamblingGamesOfMalaya p. 119]
+  * <span lang="zh">紅</span> ‘row’[@ChineseInAmerica p. 3]
 
 In modern games the Hong bet is usually removed, and two additional bets are available:
 
@@ -92,23 +82,7 @@ Legalized in Macau on the 16th of February, 1846.[@GamblingDynamism p. 195]
 
 An early description in English, from 1843:[@AmusementsInChina]
 
-> Of still more frequent appearance is the man who seats himself upon a stool,
-> inverts the lid of the basket which holds his vendibles, and, treating it as a
-> table, displays thereon a heap of earthenware dice, and a square, parted into
-> four quarters, and marked with the numbers 1, 2, 3, 4. After the player has
-> placed his money upon one of the divisions, the owner of the table separates a
-> quantity of dice from the heap, at random, and then, by means of a curved
-> stick, counts this quantity out into fours; if the remainder corresponds to
-> the number on which the stake is laid, the player has it doubled; if not, it
-> is lost. The probability of being the ultimate gainer on the side of the
-> table-holder, is […] in this, which is called <span lang="zh-Latn">mae fan
-> tan</span> [<span lang="zh-Hant">買番攤</span>], as three to two. The money
-> won is usually expended for rice balls, filled with meat and vegetables, for
-> slices of pork, etc., which are stored up in the cell beneath the table, or
-> displayed in some convenient vessel hard by, to attract the venturous hopes of
-> the hungry. The sounds of glee and merriment are often heard here, but it is a
-> rare thing to see any one of the players lose their temper. They rejoice aloud
-> when they win, and bear their losses with the best graces of silence.
+> Of still more frequent appearance is the man who seats himself upon a stool, inverts the lid of the basket which holds his vendibles, and, treating it as a table, displays thereon a heap of earthenware dice, and a square, parted into four quarters, and marked with the numbers 1, 2, 3, 4. After the player has placed his money upon one of the divisions, the owner of the table separates a quantity of dice from the heap, at random, and then, by means of a curved stick, counts this quantity out into fours; if the remainder corresponds to the number on which the stake is laid, the player has it doubled; if not, it is lost. The probability of being the ultimate gainer on the side of the table-holder, is […] in this, which is called <span lang="zh-Latn">mae fan tan</span> [<span lang="zh-Hant">買番攤</span>], as three to two. The money won is usually expended for rice balls, filled with meat and vegetables, for slices of pork, etc., which are stored up in the cell beneath the table, or displayed in some convenient vessel hard by, to attract the venturous hopes of the hungry. The sounds of glee and merriment are often heard here, but it is a rare thing to see any one of the players lose their temper. They rejoice aloud when they win, and bear their losses with the best graces of silence.
 
 ---
 
@@ -119,9 +93,7 @@ An early description in English, from 1843:[@AmusementsInChina]
 “The Chinese in Victoria—A Game of Fan Tan”, as depicted in the <cite>Illustrated Australian News</cite>.[@AGameOfFanTan]
 {% imageEnd %}
 
-> The British law is somewhat severe on the heathen in the matter of games of
-> chance. There are hundreds of ways by which Europeans evade the act, but the
-> Chinese are made to pay dearly for any attempt of that nature.[@AGameOfFanTanArticle]
+> The British law is somewhat severe on the heathen in the matter of games of chance. There are hundreds of ways by which Europeans evade the act, but the Chinese are made to pay dearly for any attempt of that nature.[@AGameOfFanTanArticle]
 
 ---
 
@@ -144,8 +116,29 @@ In modern versions there are many more bets available:
 
 #### Four Numbers (<span lang="zh">肆字</span>)
 
-This is a faster version of the game which uses a teetotum instead of counting
-out the remainder.[@GamblingGamesOfMalaya p. 120]
+This is a faster version of the game which uses a teetotum instead of counting out the remainder.[@GamblingGamesOfMalaya p. 120]
 
-The game might be run by a dedicated banker (), or have the banker rotate
-amongst players for a fixed period of time.
+The game might be run by a dedicated banker (chong), or have the banker rotate amongst players for a fixed period of time.
+
+
+---
+
+Fan-tan was viewed as a fairer and safer game than mahjong or {% gameref pigeon-lottery %} and {% gameref huahui %}. A 1910 dragon-boat folk song gives the advice (as quoted in[@UnderstandingCanton p. 216]):
+
+> Only fan tan is played with great fairness. You can bet on the odds [of one to four] as you wish. If you lose, it is entirely up to you to decide if you would like to continue to stake. With only ten per cent of a stake taken away [by the bookmaker] as the charge, a winning bet is paid 90 percent of the total stake money [placed on winning number]. ‘Shop lottery’ and ‘mountain lottery’ [are also fairly played] as there are two hundred characters from which a better can choose at his will, without being misled or cheated. The drawing of the odds is conducted in the open [to ensure no room for swindling]. A lottery winner is by no means unfairly treated for receiving as prize money 80 per cent of the total money staked in a draw. The national treasure, as a result, has become heavily dependent on this source of revenue. The government, in consequence, is doing whatever it can to perpetuate the existence [of these forms of gambling].
+
+---
+
+{%image src="fantan.png" alt="" license="cc0" size="wide" noborder=true %}
+A game of fan-tan as played in Guangzhou, from @ChinaAHistoryOfTheLaws [p. 386].
+{%imageEnd%}
+
+> In the inner apartment of these establishments the stakes are all in silver coin, whereas in the ante-chamber cash only — from fifty up to several hundreds — are played for. Three partners are also required to conduct the games in the inner room. As the stakes are very heavy, they are not placed on the table, lest the vagabonds who are in the habit of resorting to the first apartment in large numbers should rush in and sweep them away. It is customary, therefore, to use Chinese playing cards to distinguish the gamblers; also, corresponding cards from another pack to represent their stakes. The stakes are carefully noted down by the Ho-Koon, to avoid disputes. In spite of this, disputes are not uncommon, and I may add that the only stand-up fight which I ever witnessed during my long residence in China, occurred at the door of a gaming-house at Pit-kong, between the keeper of it and a disappointed speculator.
+
+Also notes 7% fee.
+
+---
+
+Good quote here, notes the use of the basket: https://archive.org/details/revuedesdeuxmon44chaugoog/page/410/mode/2up?q=fantan
+
+But rather lurid!
