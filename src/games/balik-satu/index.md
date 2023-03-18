@@ -16,6 +16,8 @@ subgames:
   originalTitle: <span lang="mak">ᨁᨚᨁᨚ</span>
 - title: Tantanan
   titleLang: jav-Latn
+- title: Chaqui
+  titleLang: mcm
 hero:
     image: '../balik-satu/shutterstock_1900515673.jpg'
     license: "stock-image"
@@ -35,13 +37,7 @@ from @TheBabas [p. 155].
 
 ## Equipment
 
-<span class="noun" lang="ms">Balik Satu</span> can be played by almost any number of people
-as long as you have enough cards. My two sources give differing amounts of cards
-per player. (I am inclined to prefer the rightmost column as it starts with the
-simple example of two decks for two people, even though the book suggests that
-up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a
-<span class="noun" lang="ms">Cherki</span> deck contains 60 cards, two of each type, so a ½
-deck has 30 cards, one of each type.
+<span class="noun" lang="ms">Balik Satu</span> can be played by almost any number of people as long as you have enough cards. My two sources give differing amounts of cards per player. (I am inclined to prefer the middle column as it starts with the simple example of two decks for two people, even though the book suggests that up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a <span class="noun" lang="ms">Cherki</span> deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type.
 
 <table class="numeric table table-sm">
   <thead>
@@ -49,22 +45,23 @@ deck has 30 cards, one of each type.
       <th>Players</th>
       <th>Decks (Cards)<br />from Pwee</th>
       <th>Decks (Cards)<br/>from <cite>The Babas</cite></th>
+      <th>Decks (Cards)<br/>from @ChaquiAndPartui
     </tr>
   </thead>
   <tbody class="table-group-divider">
-    <tr><td>2</td><td>2½ (150)</td><td>2 (120)</td></tr>
-    <tr><td>3</td><td rowSpan=2>3 (180)</td><td>2½ (150)</td></tr>
-    <tr><td>4</td><td>3 (180)</td></tr>
-    <tr><td>5</td><td rowSpan=2>3½ (210)</td><td>3½ (210)</td></tr>
-    <tr><td>6</td><td>4 (240)</td></tr>
-    <tr><td>7</td><td rowSpan=2>4 (240)</td><td>4½ (270)</td></tr>
-    <tr><td>8</td><td>5 (300)</td></tr>
-    <tr><td>9</td><td rowSpan=2>4½ (270)</td><td>5½ (330)</td></tr>
-    <tr><td>10</td><td>6 (360)</td></tr>
-    <tr><td>11</td><td rowSpan=2>5 (300)</td><td>6½ (390)</td></tr>
-    <tr><td>12</td><td>7 (420)</td></tr>
-    <tr><td>13</td><td rowSpan=2>5½ (330)</td><td>7½ (450)</td></tr>
-    <tr><td>14</td><td>8 (480)</td></tr>
+    <tr><th scope="row">2</th><td>2½ (150)</td><td>2 (120)</td><td>—</td></tr>
+    <tr><th scope="row">3</th><td rowspan="2">3 (180)</td><td>2½ (150)</td><td rowspan="2">2</td></tr>
+    <tr><th scope="row">4</th><td>3 (180)</td></tr>
+    <tr><th scope="row">5</th><td rowspan="2">3½ (210)</td><td>3½ (210)</td><td rowspan="2">3</td></tr>
+    <tr><th scope="row">6</th><td>4 (240)</td></tr>
+    <tr><th scope="row">7</th><td rowspan="2">4 (240)</td><td>4½ (270)</td><td rowspan="2">4</td></tr>
+    <tr><th scope="row">8</th><td>5 (300)</td></tr>
+    <tr><th scope="row">9</th><td rowspan="2">4½ (270)</td><td>5½ (330)</td><td rowspan="2">5</td></tr>
+    <tr><th scope="row">10</th><td>6 (360)</td></tr>
+    <tr><th scope="row">11</th><td rowspan="2">5 (300)</td><td>6½ (390)</td><td rowspan="2">6</td></tr>
+    <tr><th scope="row">12</th><td>7 (420)</td></tr>
+    <tr><th scope="row">13</th><td rowspan="2">5½ (330)</td><td>7½ (450)</td><td rowspan="2">7</td></tr>
+    <tr><th scope="row">14</th><td>8 (480)</td></tr>
   </tbody>
 </table>
 
@@ -186,6 +183,33 @@ point in the 1970s[@TheBabas p. 162].{%endfn%}
 In the case that a player is initially dealt a winning hand (<span
 lang="ms">kandang tangan</span> ‘cage in hand’), they win instantly and double
 the normal scoring (no calling bonuses will apply).
+
+### <span lang="mcm" class="noun">Chaqui</span>
+
+Amongst the [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (<span lang="mcm">Christão</span>), the game was known as <span lang="mcm" class="noun">Chaqui</span>, <span lang="mcm" class="noun">Chiqui</span>, or <span lang="mcm" class="noun">Chekki</span>.[@ChaquiAndPartui p. 34]
+
+A set of three identical cards is called a <span lang="mcm">olo</span> (‘eye’). If an <span lang="mcm">olo</span> is completed by drawing another player’s discard, then it must be exposed.
+
+The game is played as above, except that scoring is a fixed amount per <span lang="mcm">olo</span>, for example five points.
+
+If a player completes their hand via <span lang="mcm">chiqui</span>, an identical pair, they may turn over the next 15 cards of the stock to try to turn the <span lang="mcm">chiqui</span> into an <span lang="mcm">olo</span>.
+
+A song about the game runs:
+
+<div class="multi">
+<p lang="mcm">
+Bom bom filo<br/>
+Nao bai djoga chiqui<br/>
+Com grande de bergonha<br/>
+Cum grandi pedrē sangui.
+</p>
+<p>
+My good good son<br/>
+Don’t go and play <span lang="mcm">chiqui</span><br/>
+With great dishonour<br/>
+With great loss of blood.
+</p>
+</div>
 
 ### <span class="noun" lang="ms">Balik Lima Belas</span>
 

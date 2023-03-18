@@ -10774,5 +10774,38 @@
         "issued": 1878,
         "publisher": "Macmillan and Co.",
         "publisher-place": "London"
+    },
+    "ChaquiAndPartui": {
+        "type": "article-journal",
+        "container-title": "Journal of the International Playing-Card Society",
+        "title": "Chaqui and Partui: Two Popular Card Games of the ‘Christãos’ of Malacca",
+        "author": [
+            {
+                "given": "Ana Maria",
+                "family": "Amaro"
+            }
+        ],
+        "volume": 22,
+        "issue": 2,
+        "issued": {
+            "year": 1993,
+            "month": 11
+        },
+        "page": "34–40"
+    },
+    "MalayEnglishWilkinson": {
+        "type": "book",
+        "title": "A Malay–English Dictionary",
+        "author": [
+            {
+                "given": "Richard James",
+                "family": "Wilkinson"
+            }
+        ],
+        "volume": "I",
+        "URL": "https://archive.org/details/aeg2034.0001.001.umich.edu",
+        "publisher": "Kelly & Walsh",
+        "publisher-place": "Singapore",
+        "issued": 1901
     }
 }
