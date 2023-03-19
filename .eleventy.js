@@ -294,11 +294,10 @@ const addSlugs = () => {
   }
 }
 
+let biblio = undefined;
+let biblioLastModified = undefined;
+let unist = undefined;
 const citationPlugin = () => {
-  let biblio = undefined;
-  let biblioLastModified = undefined;
-  let unist = undefined;
-
   const indexToString = (/** @type {number} */ index) => {
     let result = "";
 
