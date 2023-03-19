@@ -10914,5 +10914,72 @@
         "publisher-place": "New York & Oxford",
         "ISBN": "9781782383512",
         "issued": 2014
+    },
+    "BomBombed": {
+        "type": "article-journal",
+        "title": "‘<span lang='tpi'>Bom</span> Bombed <span lang='tpi'>Kwin</span>’: How Two Card Games Model <span lang='tpi'>Kula</span>, <span lang='tpi'>Moka</span>, and Goroka",
+        "author": [
+            {
+                "given": "Anthony J.",
+                "family": "Pickles"
+            }
+        ],
+        "container-title": "Oceania",
+        "volume": 84,
+        "issue": 3,
+        "issued": 2014,
+        "page": "272–288",
+        "URL": "https://doi.org/10.1002/ocea.5061"
+    },
+    "PatternChangesChanges": {
+        "type": "thesis",
+        "genre": "PhD thesis",
+        "title": "The Pattern Changes Changes: Gambling Value in Highland Papua New Guinea",
+        "author": [
+            {
+                "given": "Anthony J.",
+                "family": "Pickles"
+            }
+        ],
+        "issued": 2013,
+        "URL": "http://hdl.handle.net/10023/3389",
+        "publisher": "University of St Andrews",
+        "publisher-place": "St Andrews, Fife, Scotland"
+    },
+    "WaitingForCompany": {
+        "type": "thesis",
+        "title": "Waiting for “Company”: Development on the Periphery of the Periphery in the Southern Highlands Province, Papua New Guinea",
+        "genre": "PhD thesis",
+        "author": [
+            {
+                "given": "Donald E.",
+                "family": "Burkins"
+            }
+        ],
+        "publisher": "Temple University",
+        "publisher-place": "Philadelphia, PA, USA",
+        "issued": {
+            "month": 5,
+            "year": 1984
+        },
+        "URL": "https://library.ucsd.edu/dc/object/bb27998892"
+    },
+    "IsGamblingBisnis": {
+        "type": "article-journal",
+        "title": "Is Gambling “Bisnis”?: The Economic and Political Functions of Gambling in the Jimi Valley",
+        "author": [
+            {
+                "given":"Neil",
+                "family":"Maclean"
+            }
+        ],
+        "container-title": "Social Analysis: The International Journal of Anthropology",
+        "issue": 16,
+        "issued": {
+            "month": 12,
+            "year": 1984
+        },
+        "page": "44–59",
+        "URL": "https://www.jstor.org/stable/23169312"
     }
 }
