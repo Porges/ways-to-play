@@ -438,7 +438,9 @@
         },
         "publisher": "Bernice P. Bishop Museum",
         "publisher-place": "Honolulu, Hawaiʻi",
-        "URL": "https://hdl.handle.net/2027/miun.arf6076.0001.001"
+        "URL": "https://hdl.handle.net/2027/miun.arf6076.0001.001",
+        "series-title": "Bernice P. Bishop Museum Bulletins",
+        "series-number": 12
     },
     "Brigham08": {
         "type": "book",
@@ -457,7 +459,10 @@
         },
         "publisher": "Bishop Museum Press",
         "publisher-place": "Honolulu, Hawaiʻi",
-        "URL": "https://archive.org/details/ancienthawaiian01briggoog"
+        "URL": "https://archive.org/details/ancienthawaiian01briggoog",
+        "series-title": "Memoirs of the Bernice Pauahi Bishop Museum of Polynesian Ethnology and Natural History",
+        "series-volume": 2,
+        "series-number": 3
     },
     "Ellis17": {
         "type": "book",
@@ -10122,7 +10127,10 @@
                 "given": "Paul G.",
                 "family": "Brewster"
             }
-        ]
+        ],
+        "series-title": "FF Communications",
+        "series-volume": 77,
+        "series-number": 187
     },
     "Tawula": {
         "type": "book",
@@ -10136,7 +10144,10 @@
                 "family": "Barakat"
             }
         ],
-        "ISBN": "9789514101793"
+        "ISBN": "9789514101793",
+        "series-title": "FF Communications",
+        "series-volume": 90,
+        "series-number": 214
     },
     "AncientIndianBoardGames": {
         "type": "book",
@@ -10807,5 +10818,101 @@
         "publisher": "Kelly & Walsh",
         "publisher-place": "Singapore",
         "issued": 1901
+    },
+    "CountyFolklore6": {
+        "type": "book",
+        "title": "County Folk-Lore",
+        "volume": 6,
+        "volume-title": "Examples of Printed Folk-Lore Concerning the East Riding of Yorkshire",
+        "editor": [
+            {
+                "given": "Eliza",
+                "family": "Gutch"
+            }
+        ],
+        "issued": 1912,
+        "URL": "https://archive.org/details/countyfolklore06folkuoft",
+        "publisher": "David Nutt",
+        "publisher-place": "London"
+    },
+    "LuckyAdditional": {
+        "type": "article-journal",
+        "title": "Lucky: Additional Reflections on a Native Card Game in New Guinea",
+        "author": [
+            {
+                "given": "Ernest",
+                "family": "Brandewie"
+            }
+        ],
+        "URL": "https://www.jstor.org/stable/40329643",
+        "container-title": "Oceania",
+        "volume": 38,
+        "issue": 1,
+        "issued": {
+            "month": 9,
+            "year": 1967
+        },
+        "page": "44–50"
+    },
+    "CardPlayingGende": {
+        "type": "article-journal",
+        "title": "Card Playing among the Gende: A System for Keeping Money and Social Relationships",
+        "author": [
+            {
+                "given": "Laura",
+                "family": "Zimmer"
+            }
+        ],
+        "container-title": "Oceania",
+        "issued": {
+            "month": 6,
+            "year": 1986
+        },
+        "volume": 56,
+        "issue": 4,
+        "page": "245–263",
+        "URL": "https://www.jstor.org/stable/40330875"
+    },
+    "LakiCharms": {
+        "type": "article-journal",
+        "title": "Laki Charms: ‘Luck’ and Personal Agency in North Mekeo Social Change",
+        "author": [
+            {
+                "family": " Mosko",
+                "given": "Mark S."
+            }
+        ],
+        "issued": {
+            "year": 2012,
+            "season": "Summer"
+        },
+        "container-title": "Social Analysis",
+        "volume": 56,
+        "issue": 2,
+        "page": "19–38",
+        "URL": "https://doi.org/10.3167/sa.2012.560203"
+    },
+    "GamblingFutures": {
+        "type": "chapter",
+        "title": "Gambling Futures: Playing the Imminent in Highland Papua New Guinea",
+        "author": [
+            {
+                "family": "Pickles",
+                "given": "Anthony"
+            }
+        ],
+        "container-title": "Pacific Futures: Projects, Politics and Interests",
+        "series-title": "Pacific Perspectives",
+        "series-volume": 2,
+        "editor": [
+            {
+                "given": "Will",
+                "family": "Rollason"
+            }
+        ],
+        "publisher": "Berghahn Books",
+        "publisher-place": "New York & Oxford",
+        "ISBN": "9781782383512",
+        "issued": 2014
     }
 }

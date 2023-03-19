@@ -12,7 +12,12 @@ export function renderReference(ref: Reference): string {
         ref.issued = { year: ref.issued };
     }
 
-    return `<p itemscope itemtype="${itemtypes[type]}" id="ref-${id}" itemprop="citation">`
+    let extraItemTypes = "";
+    if ('volume' in ref) {
+        extraItemTypes += ' https://schema.org/PublicationVolume';
+    }
+
+    return `<p itemscope itemtype="${itemtypes[type]}${extraItemTypes}" id="ref-${id}" itemprop="citation">`
         + renderAuthors(ref)
         + renderDate(ref)
         + renderTitle(ref)
@@ -54,6 +59,7 @@ export type Reference = {
   ['container-title-lang']?: string,
   edition?: number,
   volume?: string | number,
+  ['volume-title']?: string,
   issue?: string | number,
   ['original-date']?: { year: number },
   issued?: { year: number } | { year: number, month: number } | { year: number, month: number, day: number } | { year: number, season: string },
@@ -63,6 +69,10 @@ export type Reference = {
   page?: string | number,
   warnings?: string,
   notes?: string,
+
+  ['series-title']?: string,
+  ['series-volume']?: number,
+  ['series-number']?: number,
 
   genre?: string, // for theses
 
@@ -118,7 +128,10 @@ function renderTitle(reference: Reference) {
         return `<cite itemprop="name"${asAttr('lang', lang)}>${isolate(linked)}</cite>`
             + ifSet(reference['title-alt'], t => ` [${t}]`)
             + ifSet(reference.edition, e => ` (${ordinal(e)} edition)`)
-            + ifSet(reference.volume, v => ` (volume ${formatNumberString(v)})`)
+            + ifSet(reference.volume, v => ` (volume <span itemprop="volumeNumber">${formatNumberString(v)}</span>${ifSet(reference['volume-title'], vt => `: ${vt}`)})`)
+            + ifSet(reference['series-title'], st => {
+                return `; ${st}${ifSet(reference['series-volume'], v => `: volume ${v}`)}${ifSet(reference['series-number'], n => `, number ${n}`)}` 
+            })
             + archiveURL
             + `. `;
     } else {
@@ -243,7 +256,7 @@ const renderPublisher = (reference: Reference) => {
     return publisher;
 };
 
-const renderContainer = (reference: Reference) => {
+function renderContainer(reference: Reference) {
     if (!('container-title' in reference)) {
         return '';
     }
@@ -265,7 +278,8 @@ const renderContainer = (reference: Reference) => {
         case 'chapter':
         case 'paper-conference':
             return ` In <cite${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                + `${ifSet(reference.editor, e => `, edited by ${renderPeople(e, false, false, 'editor')}`)}`
+                + ifSet(reference['series-title'], st => ` (${st}${ifSet(reference['series-volume'], v => `: volume ${v}`)}${ifSet(reference['series-number'], n => `, number ${n}`)})`)
+                + ifSet(reference.editor, e => `, edited by ${renderPeople(e, false, false, 'editor')}`)
                 + pageSuffix;
 
         case 'article-magazine':
