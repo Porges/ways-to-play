@@ -6,6 +6,7 @@ const argParse = require('liquid-args');
 const path = require('path');
 const fs = require('node:fs/promises');
 const slug = require('slug');
+const YAML = require('yaml');
 
 const { asAttr, ifSet, IS_PRODUCTION, isolate } = require('./helpers');
 const references = require('./references');
@@ -356,10 +357,10 @@ const citationPlugin = () => {
       unist = await import('unist-util-visit');
     }
 
-    const biblioPath = path.join(__dirname, 'bibliography.json');
+    const biblioPath = path.join(__dirname, 'bibliography.yaml');
     let stat = await fs.stat(biblioPath);
     if (!biblio || stat.mtime > biblioLastModified) {
-      biblio = JSON.parse(await fs.readFile(biblioPath, 'utf8'));
+      biblio = YAML.parse(await fs.readFile(biblioPath, 'utf8'));
       biblioLastModified = stat.mtime;
       Object.entries(biblio).forEach(([key, value]) => { value.id = key });
     }

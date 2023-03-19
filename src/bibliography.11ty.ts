@@ -1,5 +1,6 @@
 import * as fs from 'node:fs/promises';
 import * as path from 'path';
+import { parse } from 'yaml';
 
 import { IS_PRODUCTION } from '../helpers';
 
@@ -63,8 +64,8 @@ export async function render(data: Data) {
     await buildLookup(data.collections.article, refs);
     await buildLookup(data.collections.game, refs);
     const locale = new Intl.Collator('en');
-    const file = await fs.readFile(path.join(__dirname, "../bibliography.json"), 'utf8');
-    const biblio = Object.entries<Reference>(JSON.parse(file)).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));
+    const file = await fs.readFile(path.join(__dirname, "../bibliography.yaml"), 'utf8');
+    const biblio = Object.entries<Reference>(parse(file)).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));
     biblio.sort((x, y) => locale.compare(x.sortKey, y.sortKey));
     return '<div class="container">'
         + `<h1>${data.title}</h1>`

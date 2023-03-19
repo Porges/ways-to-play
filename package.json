@@ -48,7 +48,8 @@
     "remark-sectionize": "^1.1.1",
     "sass": "^1.49.9",
     "serve": "^14.0.1",
-    "slug": "^8.0.0"
+    "slug": "^8.0.0",
+    "yaml": "^2.2.1"
   },
   "dependencies": {
     "esbuild-register": "^3.4.2"
