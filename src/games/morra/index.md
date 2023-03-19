@@ -31,7 +31,15 @@ See: @FriendshipAndGamesItalian, @OneToZero [p. 67–70].
 https://www.britishmuseum.org/collection/object/P_1949-0203-263
 https://www.britishmuseum.org/collection/object/P_1865-0610-1320
 
-Called "Chai-mui" in China[@TipcatAndOtherChineseGames]
+Called <span lang="zh">猜枚</span> <span lang="yue-Latn-jyutping">caai1 mui4-2</span>[@TipcatAndOtherChineseGames] or <span lang="zh">猜碼</span> <span lang="yue-Latn-jyutping">caai1 maa5</span> {https://studycli.org/chinese-culture/a-fun-chinese-game/} in Cantonese. A variant using two hands where a hand can only be open or shut is also called “15,20”, or “15,15,…” <span lang="zh">十五二十</span>, and the player must guess correctly twice.{https://studycli.org/learn-chinese/chinese-games-shiwu-shiwu/}
+
+In 1900 the game was semi-banned:
+
+> "[n]o person shall utter any shouts or cries or make other noises while playing the game known as Chai Mui." REGULAIONS OF HONG KONG 1844-1914, Summary Offenses § 12 (Sept. 22, 1900).[@LawAndRacism p. 248]
+
+See [@PersistenceAndChange p. 196–7]
+
+
 
 ## Strategy
 

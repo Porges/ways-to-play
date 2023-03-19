@@ -10969,8 +10969,8 @@
         "title": "Is Gambling “Bisnis”?: The Economic and Political Functions of Gambling in the Jimi Valley",
         "author": [
             {
-                "given":"Neil",
-                "family":"Maclean"
+                "given": "Neil",
+                "family": "Maclean"
             }
         ],
         "container-title": "Social Analysis: The International Journal of Anthropology",
@@ -10981,5 +10981,69 @@
         },
         "page": "44–59",
         "URL": "https://www.jstor.org/stable/23169312"
+    },
+    "TombOfHesy": {
+        "type": "book",
+        "title": "Excavations at Saqqara (1911–12): The Tomb of Hesy",
+        "author": [
+            {
+                "family": "Quibell",
+                "given": "James Edward"
+            }
+        ],
+        "publisher": "Imprimerie de L’Institute Français D’Archéologie Orientale",
+        "publisher-lang": "fr",
+        "publisher-place": "Cairo, Egypt",
+        "issued": 1913,
+        "URL": "https://archive.org/details/cu31924028671299"
+    },
+    "MehenMemory": {
+        "type": "thesis",
+        "title": "Mehen and the Cultural Memory: Incorporating, Maintaining and Obliviating a Board Game Practice in Ancient Egypt",
+        "genre": "BA thesis",
+        "publisher": "University of Warsaw",
+        "publisher-place": "Warsaw, Poland",
+        "issued": 2020,
+        "author": [
+            {
+                "given": "Benjamin",
+                "family": "Hanussek"
+            }
+        ],
+        "URL": "https://www.academia.edu/43745367/Mehen_and_the_Cultural_Memory_Incorporating_Maintaining_and_Obliviating_a_Board_Game_Practice_in_Ancient_Egypt"
+    },
+    "LawAndRacism": {
+        "type": "article-journal",
+        "title": "Law and Racism in an Asian Setting: An Analysis of the British Rule of Hong Kong",
+        "issued": {
+            "season": "Winter",
+            "year": 1995
+        },
+        "volume": "18",
+        "container-title": "Hastings International and Comparative Law Review",
+        "page": "223–276",
+        "author": [
+            {
+                "given": "Richard",
+                "family": "Klein"
+            }
+        ],
+        "URL": "https://repository.uchastings.edu/hastings_international_comparative_law_review/vol18/iss2/1"
+    },
+    "PersistenceAndChange": {
+        "type": "article-journal",
+        "title": "Persistance and Change in Cantonese-American Gambling",
+        "author": [
+            {
+                "given": "Milton L.",
+                "family": "Barnett"
+            }
+        ],
+        "container-title": "Philippine Sociological Review",
+        "issued": 1962,
+        "volume": 10,
+        "issue": "3/4",
+        "URL": "https://www.jstor.org/stable/41853441",
+        "page": "186–203"
     }
 }
