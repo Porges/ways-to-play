@@ -11,6 +11,7 @@ const YAML = require('yaml');
 const { asAttr, ifSet, IS_PRODUCTION, isolate } = require('./helpers');
 const references = require('./references');
 const { articleImage, person, license, organization } = require('./images');
+const referenceSchema = require('./references-schema');
 
 PropTypes.resetWarningCache();
 
@@ -25,7 +26,7 @@ function _normalizeShortcodeScope(ctx) {
 module.exports = function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/sass");
   eleventyConfig.addWatchTarget("src/maps");
-  eleventyConfig.addWatchTarget("bibliography.json");
+  eleventyConfig.addWatchTarget("bibliography.yaml");
   eleventyConfig.addPassthroughCopy("fonts");
   eleventyConfig.addPassthroughCopy("audio");
   eleventyConfig.addPassthroughCopy("small-images");
@@ -323,11 +324,6 @@ const citationPlugin = () => {
         return `[UNKNOWN CITE: ${id}]`;
       }
 
-      // fixup
-      if (typeof reference.issued === 'number') {
-        reference.issued = { year: reference.issued };
-      }
-
       switch (reference.type) {
         case 'book':
           return `<a href="${`#ref-${id}`}">`
@@ -338,7 +334,7 @@ const citationPlugin = () => {
         case 'article-journal':
           if (reference.author) {
             return `<a href="${`#ref-${id}`}">${reference.author[0].family}</a>`
-              + ` (${ifSet(reference.issued, reference.issued.year)}${ifSet(suffix, `, ${suffix}`)})`;
+              + ` (${referenceSchema.publicationYear(reference)}${ifSet(suffix, `, ${suffix}`)})`;
           }
       }
 
@@ -360,8 +356,13 @@ const citationPlugin = () => {
     let stat = await fs.stat(biblioPath);
     if (!biblio || stat.mtime > biblioLastModified) {
       biblio = YAML.parse(await fs.readFile(biblioPath, 'utf8'));
+      if (!referenceSchema.referenceValidator(biblio)) {
+        throw new Error(JSON.stringify(referenceSchema.referenceValidator.errors));
+      }
       biblioLastModified = stat.mtime;
-      Object.entries(biblio).forEach(([key, value]) => { value.id = key });
+      Object.entries(biblio).forEach(([key, value]) => {
+        value.id = key;
+      });
     }
 
     // collect all cites

@@ -1,16 +1,12 @@
 import { renderExplicitDate, formatNumberString, asAttr, isolate, ifSet } from './helpers';
-import { Author, Date } from './types';
+import { BiblioRef, Reference, Date, Author, LStr, Periodical, referenceValidator, Book } from './references-schema';
 
 import ordinal from 'ordinal';
 import ISBN from 'isbn3';
+import { isReadonlyKeywordOrPlusOrMinusToken } from 'typescript';
 
-export function renderReference(ref: Reference): string {
+export function renderReference(ref: BiblioRef): string {
     const { id, type } = ref;
-
-    // fixup
-    if (typeof ref.issued === 'number') {
-        ref.issued = { year: ref.issued };
-    }
 
     let extraItemTypes = "";
     if ('volume' in ref) {
@@ -21,65 +17,31 @@ export function renderReference(ref: Reference): string {
         + renderAuthors(ref)
         + renderDate(ref)
         + renderTitle(ref)
+        + '. '
         + renderPatentBits(ref)
         + renderContainer(ref)
-        + renderPublisher(ref)
+        + (ref.type === 'thesis' ? ` ${ref.genre}, ` : '')
+        + (('publisher' in ref || 'publisher-place' in ref)
+            ? `<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">${renderPublisher(ref)}</span>`
+            : '')
         + renderISBN(ref)
         + renderWarningsAndNotes(ref)
         + '</p>';
 }
 
 const itemtypes = {
-    'article-journal': 'http://schema.org/ScholarlyArticle',
-    'book': 'http://schema.org/Book',
-    'thesis': 'http://schema.org/Thesis',
-    'webpage': 'http://schema.org/WebPage',
-    'paper-conference': 'http://schema.org/ScholarlyArticle',
-    'article': 'http://schema.org/Article',
-    'manuscript': 'http://schema.org/Manuscript',
-    'pamphlet': 'http://schema.org/Article', //TODO
-    'article-newspaper': 'http://schema.org/Article', //TODO
-    'article-magazine': 'http://schema.org/Article', //TODO
-    'chapter': 'http://schema.org/Article', //TODO
-    'patent': 'http://schema.org/CreativeWork',
-};
-
-export type Reference = {
-  type: keyof typeof itemtypes,
-  id: string,
-  title: string,
-  ['title-lang']?: string,
-  'title-alt'?: string,
-  author?: readonly Author[],
-  editor?: readonly Author[],
-  URL?: string,
-  ['archive-URL']?: string,
-  ISBN?: string | number,
-  ['container-title']?: string,
-  ['container-title-lang']?: string,
-  edition?: number,
-  volume?: string | number,
-  ['volume-title']?: string,
-  issue?: string | number,
-  ['original-date']?: { year: number },
-  issued?: { year: number } | { year: number, month: number } | { year: number, month: number, day: number } | { year: number, season: string },
-  ['publisher-place']?: string,
-  publisher?: string,
-  ['publisher-lang']?: string,
-  page?: string | number,
-  warnings?: string,
-  notes?: string,
-
-  ['series-title']?: string,
-  ['series-volume']?: number,
-  ['series-number']?: number,
-
-  genre?: string, // for theses
-
-  filed?: { year: number, month: number, day: number }, // for patents
-  applicationNumber?: string | number,
-  patentNumber?: string | number,
-};
+    'article-journal': 'https://schema.org/ScholarlyArticle',
+    'paper-conference': 'https://schema.org/ScholarlyArticle',
+    'book': 'https://schema.org/Book',
+    'thesis': 'https://schema.org/Thesis',
+    'webpage': 'https://schema.org/WebPage',
+    'manuscript': 'https://schema.org/Manuscript',
+    'document': 'https://schema.org/CreativeWork',
+    'article-newspaper': 'https://schema.org/Article',
+    'article-magazine': 'https://schema.org/Article',
+    'chapter': 'https://schema.org/Chapter',
+    'patent': 'https://schema.org/CreativeWork',
+} as const;
 
 
 function renderWarningsAndNotes(reference: Reference) {
@@ -111,32 +73,87 @@ function renderPatentBits(reference: Reference) {
     );
 }
 
+function renderSeries(ref: Reference, lead: string, trail: string) {
+    if (!('series' in ref) || !ref.series) {
+        return '';
+    }
+
+    const s = ref.series;
+    return lead
+        + s.title
+        + ifSet(s.volume, v => `: volume ${v}`)
+        + ifSet(s.number, n => `, number ${n}`)
+        + trail;
+}
+
 function renderTitle(reference: Reference) {
-    const lang = reference["title-lang"];
+    const archiveURL =
+        'archive-URL' in reference
+            ? ` [<a href="${reference['archive-URL']}">archived</a>]`
+            : '';
 
-    const linked =
-        reference.URL
-            ? `<a itemprop="url" href="${reference.URL}">${reference.title}</a>`
-            : `<span>${reference.title}</span>`;
-
-    const archiveURL = 
-        reference['archive-URL']
-        ? ` [<a href="${reference['archive-URL']}">archived</a>]`
-        : '';
+    let linkedTitle: LStr = '';
+    if (reference.URL) {
+        if (typeof reference.title === 'string') {
+            linkedTitle = `<a itemprop="url" href="${reference.URL}">${reference.title}</a>`;
+        } else {
+            linkedTitle = {
+                value: `<a itemprop="url" href="${reference.URL}">${reference.title.value}</a>`,
+                lang: reference.title.lang,
+                alt: reference.title.alt,
+            };
+        }
+    } else {
+        linkedTitle = reference.title;
+    }
 
     if (reference.type === 'book' || reference.type === 'thesis') {
-        return `<cite itemprop="name"${asAttr('lang', lang)}>${isolate(linked)}</cite>`
-            + ifSet(reference['title-alt'], t => ` [${t}]`)
-            + ifSet(reference.edition, e => ` (${ordinal(e)} edition)`)
-            + ifSet(reference.volume, v => ` (volume <span itemprop="volumeNumber">${formatNumberString(v)}</span>${ifSet(reference['volume-title'], vt => `: ${vt}`)})`)
-            + ifSet(reference['series-title'], st => {
-                return `; ${st}${ifSet(reference['series-volume'], v => `: volume ${v}`)}${ifSet(reference['series-number'], n => `, number ${n}`)}` 
-            })
-            + archiveURL
-            + `. `;
+        return renderLStr(linkedTitle, 'cite', {itemprop: 'name'})
+            + ('edition' in reference && reference['edition'] ? ` (<span itemprop="bookEdition">${ordinal(reference['edition'])} edition</span>)` : '')
+            + ifSet(reference.volume, v =>
+                ` (volume <span itemprop="volumeNumber">${formatNumberString(v)}</span>`
+                + (('volume-title' in reference && reference['volume-title']) ? `: ${renderLStr(reference['volume-title'], 'span', {})}` : '')
+                + ')')
+            + renderSeries(reference, '; ', '')
+            + archiveURL;
     } else {
-        return `‘<span itemprop="name headline"${asAttr('lang', lang)}>${isolate(linked)}</span>’${archiveURL}. `;
+        return '‘'
+            + renderLStr(linkedTitle, 'span', { itemprop: 'name headline' })
+            + '’'
+            + archiveURL;
     }
+}
+
+function renderTopLevelBook(book: Book) {
+
+}
+
+function renderBook(book: Book, itemprop: string) {
+    const extraItemTypes = 'volume' in book ? ' https://schema.org/PublicationVolume' : ''
+    const hasEditors = 'editor' in book && book.editor;
+    const hasAuthors = 'author' in book && book.author;
+    return `<span itemscope itemtype="${itemtypes.book}${extraItemTypes}" itemprop="${itemprop}">`
+        + renderTitle(book)
+        + ('author' in book && book.author ? ', ' + renderPeople(book.author, false, !hasEditors, 'author') : '')
+        + ('editor' in book && book.editor ? ', edited by ' + renderPeople(book.editor, false, true, 'editor') : '')
+        + (hasEditors || hasAuthors ? ' ' : '. ')
+        + `<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">${renderPublisher(book)}</span>`
+        + renderISBN(book)
+        + '</span>';
+}
+
+function renderLStr(lStr: LStr, tag: string, attributes: Record<string, string|undefined>) {
+    const value = typeof lStr == 'string' ? lStr : lStr.value;
+    const lang = typeof lStr == 'string' ? undefined : lStr.lang;
+
+    const atts = Object.entries(attributes).map(([k, v]) => asAttr(k, v)).join('');
+
+    const result = isolate(`<${tag}${atts}${asAttr('lang', lang)}>${value}</${tag}>`);
+    if (typeof lStr == 'object' && lStr.alt) {
+        return result + ` [${lStr.alt}]`;
+    }
+
+    return result;
 }
 
 const renderAuthors = (reference: Reference) => {
@@ -145,9 +162,14 @@ const renderAuthors = (reference: Reference) => {
     } else if ('editor' in reference && reference.editor) {
         const plural = reference.editor.length > 1 ? 's' : '';
         return `${renderPeople(reference.editor, true, false, 'editor')} (editor${plural}) `;
-    } else if ('publisher' in reference) {
-        return (`<span itemscope itemtype="http://schema.org/Organization" itemprop="author">`
-            + `<span class="noun" itemprop="name"${asAttr('lang', reference['publisher-lang'])}>${reference.publisher}</span></span> `);
+    } else if ('publisher' in reference && reference.publisher) {
+        return `<span itemscope itemtype="https://schema.org/Organization" itemprop="author">`
+            + renderLStr(reference.publisher, 'span', {itemprop: 'name', class: 'noun'})
+            + '</span> ';
+    } else if ('in' in reference && 'publisher' in reference.in && reference.in.publisher) {
+        return `<span itemscope itemtype="https://schema.org/Organization" itemprop="author">`
+            + renderLStr(reference.in.publisher, 'span', {itemprop: 'name', class: 'noun'})
+            + '</span> ';
     } else {
         return `<i>Anonymous</i> `;
     }
@@ -155,7 +177,7 @@ const renderAuthors = (reference: Reference) => {
 
 const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: boolean, itemprop: string) => {
     const renderFamily = (a: Author, ix: number) =>
-        `<span itemprop="familyName">${a.family}</span>${ifSet(period && ix > 0 && ix === (as.length - 1) && !a.family?.endsWith('.'), '.')}`;
+        `<span itemprop="familyName">${a.family}</span>${ifSet(period && ix === (as.length - 1) && !a.family?.endsWith('.'), '.')}`;
 
     const renderGiven = (a: Author, ix: number) => {
         if (typeof a.given === 'string') {
@@ -172,10 +194,10 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
 
     const altName = (a: Author) => {
         if (!a.alt) {
-            return "";
+            return '';
         }
 
-        return ` [<span class="noun"${ifSet(a['alt-lang'], ` lang='${a['alt-lang']}'`)}>${a.alt}</span>]`;
+        return ' [' + renderLStr(a.alt, 'span', {class: 'noun'}) + ']';
     }
 
     return as.map((a, ix) => (
@@ -193,49 +215,68 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
 };
 
 const renderISBN = (reference: Reference) => {
-    if (!reference.ISBN) {
+    const isbn = 'ISBN' in reference ? reference.ISBN : undefined;
+    if (!isbn) {
         return '';
     }
 
-    const parsed = ISBN.audit(reference.ISBN.toString());
+    const parsed = ISBN.audit(isbn);
     if (!parsed.validIsbn) {
         console.error(parsed);
-        throw new Error("Invalid ISBN: " + reference.ISBN);
+        throw new Error("Invalid ISBN: " + isbn);
     }
 
-    const formattedISBN = ISBN.hyphenate(reference.ISBN.toString());
+    const formattedISBN = ISBN.hyphenate(isbn.toString());
 
-    return `<abbr class="initialism">ISBN</abbr>: <a itemprop="isbn" href="https://www.worldcat.org/isbn/${formattedISBN}">${formattedISBN}</a>. `;
+    return `<abbr class="initialism">ISBN</abbr>: <a href="https://www.worldcat.org/isbn/${formattedISBN}"><span itemprop="isbn">${formattedISBN}</span></a>. `;
 };
 
 const renderDate = (reference: Reference) => {
-    if (reference.issued) {
+    const issued =
+        'issued' in reference
+            ? reference.issued
+            : 'in' in reference
+                ? reference.in.issued
+                : undefined;
+
+    if (issued) {
+        const originalDate =
+            'original-date' in reference && reference['original-date']
+            ? reference['original-date']
+            : 'in' in reference && 'original-date' in reference.in && reference.in['original-date']
+                ? reference.in['original-date']
+                : undefined;
+
         const original =
-            reference['original-date']
-                ? `, originally published ${reference['original-date'].year}`
-                : '';
+            originalDate
+            ? `, originally published ${typeof originalDate === 'number' ? originalDate : originalDate.year}`
+            : '';
 
-        const { issued } = reference;
+        const year = typeof issued === 'number' ? issued : issued.year;
 
-        return `(<time itemprop="datePublished" dateTime="${toIsoDate(issued)}">${issued.year}</time>${original}). `;
+        return `(<time itemprop="datePublished" dateTime="${toIsoDate(issued)}">${year}</time>${original}). `;
     }
 
     // patents might only have been filed
-    if (reference.filed) {
+    if ('filed' in reference) {
         const { filed } = reference;
-
-        return `(<time itemprop="datePublished" dateTime="${toIsoDate(filed)}">${filed.year}</time>). `;
+        const year = typeof filed === 'number' ? filed : filed.year;
+        return `(<time itemprop="datePublished" dateTime="${toIsoDate(filed)}">${year}</time>). `;
     }
 
     return 'n.d. ';
 }
 
 function toIsoDate(ymd: Date) {
+    if (typeof ymd == "number") {
+        return ymd;
+    }
+
     let result = `${ymd.year}`;
     if ('month' in ymd) {
         result += `-${ymd.month.toString().padStart(2, '0')}`;
 
-        if (ymd.day) {
+        if ('day' in ymd) {
             result += `-${ymd.day.toString().padStart(2, '0')}`;
         }
     }
@@ -243,140 +284,144 @@ function toIsoDate(ymd: Date) {
     return result;
 }
 
-const renderPublisher = (reference: Reference) => {
-    const publisher =
-        ifSet(reference.publisher,
-            (p) => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${p}</span>${reference['publisher-place'] ? ': ' : (p.endsWith('.') ? ' ' : '. ')}`)
-        + ifSet(reference['publisher-place'], pp => `${pp}. `);
-
-    if (reference.type === 'thesis') {
-        return ifSet(reference['genre'], g => ` ${g}, `) + publisher;
+function lstrValue(l: LStr) {
+    if (typeof l === 'string') {
+        return l;
     }
 
-    return publisher;
+    return l.value;
+}
+
+const renderPublisher = (reference: { publisher?: LStr, ['publisher-place']?: string}) => {
+    let result = '';
+
+    const publisher = 'publisher' in reference ? reference.publisher : undefined;
+    if (publisher) {
+        result = renderLStr(publisher, 'span', {itemprop: 'name'});
+    }
+
+    // (p) => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${p}</span>${reference['publisher-place'] ? ': ' : (p.endsWith('.') ? ' ' : '. ')}`)
+
+    const publisherPlace = 'publisher-place' in reference ? reference['publisher-place'] : undefined;
+    if (publisherPlace) {
+        const prefix = result != '' ? ': ' : '';
+        result += `${prefix}<span itemprop="location">${publisherPlace}</span>. `;
+    } else {
+        if (publisher && !lstrValue(publisher).endsWith('.')) {
+            result += '. ';
+        }
+    }
+
+    return result;
 };
 
-function renderContainer(reference: Reference) {
-    if (!('container-title' in reference)) {
-        return '';
+function renderPeriodical(id: string, p: Periodical): string {
+    // if date is more specific than a year, show it
+    let datePart = '';
+    if (typeof p.issued === 'object' && 'month' in p.issued) {
+        const dateString = renderExplicitDate(p.issued, true);
+        datePart = ifSet(dateString, `; <time itemprop="datePublished" dateTime="${toIsoDate(p.issued)}">${dateString}</time>`);
     }
 
-    const containerTitle = reference['container-title'];
-    const { id } = reference;
+    if (p.issue && p.volume) {
+        const { issue, volume } = p;
+        return (
+            `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
+            + `<link itemprop="publisher" href="${`#${id}-publisher`}" />`
+            + renderLStr(p.title, 'cite', {itemprop: 'name'})
+            + `</span>`
+            + ' '
+            + `<span itemscope itemtype="http://schema.org/PublicationVolume" itemid="${`#${id}-volume`}">`
+            + `<link itemprop="isPartOf" href="${`#${id}-periodical`}" />`
+            + `<abbr title="volume">vol.</abbr>&nbsp;`
+            + `<span itemprop="volumeNumber">${formatNumberString(volume)}</span>`
+            + `</span>`
+            + ' '
+            + `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationIssue">`
+            + `<link itemprop="isPartOf" href="${`#${id}-volume`}" />`
+            + `(<span itemprop="issueNumber">${formatNumberString(issue)}</span>)`
+            + datePart
+            + `</span>`
+        );
+    }
 
-    const pageSuffix =
-        reference.page !== undefined
-            ? `: ${isNaN(+reference.page) ? "pages" : "page"} <span itemprop="pagination">${reference.page}</span>. `.replace('-', '–') // promote hyphen to en-dash
-            : '. ';
+    if (p.issue) {
+        const { issue } = p;
+        return (
+            `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
+            + `<link itemprop="publisher" href="${`#${id}-publisher`}" />`
+            + renderLStr(p.title, 'cite', {itemprop: 'name'})
+            + `</span>`
+            + ' '
+            + `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationIssue">`
+            + `<link itemprop="isPartOf" href="${`#${id}-periodical`}" />`
+            + `(<span itemprop="issueNumber">${formatNumberString(issue)}</span>)`
+            + datePart
+            + `</span>`
+        );
+    }
+
+    if (p.volume) {
+        const { volume } = p;
+        return (
+            `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
+            + `<link itemprop="publisher" href="${`#${id}-publisher`}" />`
+            + renderLStr(p.title, 'cite', {itemprop: 'name'})
+            + `</span>`
+            + ' '
+            + `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationVolume">`
+            + `<link itemprop="isPartOf" href="${`#${id}-periodical`}" />`
+            + `<abbr title="volume">vol.</abbr>&nbsp;`
+            + `<span itemprop="volumeNumber">${formatNumberString(volume)}</span>`
+            + datePart
+            + `</span>`
+        );
+    }
+
+    // neither volume nor issue
+    return (
+        `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/Periodical">`
+        + `<link itemprop="publisher" href="${`#${id}-publisher`}" />`
+        + renderLStr(p.title, 'cite', {itemprop: 'name'})
+        + datePart
+        + `</span>`
+    );
+}
+
+function renderContainer(reference: BiblioRef) {
+    const { id } = reference;
 
     switch (reference.type) {
         case 'webpage':
-            return ` <span itemscope itemtype="http://schema.org/WebSite" itemprop="isPartOf">`
-                + `<i><span itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</span></i>`
-                + `</span>. `;
+            if ('container-title' in reference && reference['container-title']) {
+                return ` <span itemscope itemtype="http://schema.org/WebSite" itemprop="isPartOf">`
+                    + '<i>'
+                    + renderLStr(reference['container-title'], 'span', {itemprop: 'name'})
+                    + '</i>'
+                    + `</span>. `;
+            }
+
+            return '';
 
         case 'chapter':
         case 'paper-conference':
-            return ` In <cite${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                + ifSet(reference['series-title'], st => ` (${st}${ifSet(reference['series-volume'], v => `: volume ${v}`)}${ifSet(reference['series-number'], n => `, number ${n}`)})`)
-                + ifSet(reference.editor, e => `, edited by ${renderPeople(e, false, false, 'editor')}`)
-                + pageSuffix;
+            const prefix = 'page' in reference && reference.page
+                ? `${isNaN(+reference.page) ? "Pages" : "Page"}  <span itemprop="pagination">${reference.page}</span> in `.replace('-', '–')
+                : " In ";
+
+            return prefix + renderBook(reference.in, 'isPartOf');
 
         case 'article-magazine':
         case 'article-newspaper':
-            const { issued } = reference;
-            if (!issued) throw new Error('Magazine/newspaper citations must have issued date');
-
-            const title = '<span itemprop="isPartOf" itemscope itemtype="https://schema.org/Periodical">'
-                + `<cite itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                + '</span>';
-
-            let result = title;
-            if (reference.volume) {
-                result += ' <span itemprop="isPartOf" itemscope itemtype="https://schema.org/PublicationVolume">'
-                    + `<abbr title="volume">vol.</abbr>&nbsp;<span itemprop="volumeNumber">${formatNumberString(reference.volume)}</span>`
-                    + '</span>';
-            }
-
-            const dateString = renderExplicitDate(issued, true);
-            const date = ifSet(dateString, `, ${dateString}`);
-
-            if (reference.issue) {
-                // note that datePublished is already on the top-level item. we
-                // will add to the issue as well.
-                const dataDate = `<time itemprop="datePublished" dateTime="${toIsoDate(issued)}">`
-                    + date
-                    + '</time>';
-                result += ' <span itemprop="isPartOf" itemscope itemtype="https://schema.org/PublicationIssue">'
-                    + `(<span itemprop="issueNumber">${formatNumberString(reference.issue)}</span>)`
-                    + dataDate
-                    + '</span>';
-            } else {
-                result += date;
-            }
-
-            return result + pageSuffix;
-
         case 'article-journal':
-            if (reference.issue && reference.volume) {
-                const { issue, volume } = reference;
-                return (
-                    `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
-                    + `<cite itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                    + `</span>`
-                    + ' '
-                    + `<span itemscope itemtype="http://schema.org/PublicationVolume" itemid="${`#${id}-volume`}">`
-                    + `<link itemprop="isPartOf" href="${`#${id}-periodical`}" />`
-                    + `<abbr title="volume">vol.</abbr>&nbsp;`
-                    + `<span itemprop="volumeNumber">${formatNumberString(volume)}</span>`
-                    + `</span>`
-                    + ' '
-                    + `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationIssue">`
-                    + `<link itemprop="isPartOf" href="${`#${id}-volume`}" />`
-                    + `(<span itemprop="issueNumber">${formatNumberString(issue)}</span>)`
-                    + `</span>`
-                    + pageSuffix
-                );
-            }
+            const pageSuffix =
+                ('page' in reference && reference.page)
+                    ? `: ${isNaN(+reference.page) ? "pages" : "page"} <span itemprop="pagination">${reference.page}</span>. `.replace('-', '–') // promote hyphen to en-dash
+                    : '. ';
 
-            if (reference.issue) {
-                const { issue } = reference;
-                return (
-                    `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
-                    + `<cite itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                    + `</span>`
-                    + ' '
-                    + `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationIssue">`
-                    + `<link itemprop="isPartOf" href="${`#${id}-periodical`}" />`
-                    + `(<span itemprop="issueNumber">${formatNumberString(issue)}</span>)`
-                    + `</span>`
-                    + pageSuffix
-                );
-            }
+            const publisher = renderPublisher(reference.in);
 
-            if (reference.volume) {
-                const { volume } = reference;
-                return (
-                    `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
-                    + `<cite itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                    + `</span>`
-                    + ' '
-                    + `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationVolume">`
-                    + `<link itemprop="isPartOf" href="${`#${id}-periodical`}" />`
-                    + `<abbr title="volume">vol.</abbr>&nbsp;`
-                    + `<span itemprop="volumeNumber">${formatNumberString(volume)}</span>`
-                    + `</span>`
-                    + pageSuffix
-                );
-            }
-
-            // neither volume nor issue
-            return (
-                `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/Periodical">`
-                + `<cite itemprop="name"${asAttr('lang', reference['container-title-lang'])}>${containerTitle}</cite>`
-                + `</span>`
-                + pageSuffix
-            );
+            return renderPeriodical(id, reference.in) + pageSuffix + `<span itemscope itemtype="https://schema.org/Organization" itemid="#${id}-publisher">${publisher}</span>`;
 
         default:
             return '';

@@ -27,8 +27,7 @@ Gamut:
   original-publisher: Castle Books
   original-date:
     year: 1969
-  notes: the 1969 edition can be found <a
-    href='https://archive.org/details/gamutofgames0000sids'>here</a>
+  notes: the 1969 edition can be found <a href='https://archive.org/details/gamutofgames0000sids'>here</a>
 NewRules:
   type: book
   title: New Rules for Classic Games
@@ -126,50 +125,54 @@ OnSiameseLiterature:
   author:
     - family: Low
       given: James
-  issued:
-    year: 1836
-  container-title: Asiatic Researches
-  volume: 20
   page: 374–392
   URL: https://archive.org/details/in.ernet.dli.2015.530375/page/n375
+  in:
+    title: Asiatic Researches
+    volume: 20
+    issued:
+      year: 1836
 NineMensDice:
   type: article-journal
   title: Medieval Nine-Men’s Morris with Dice
   author:
     - family: Schädler
       given: Ulrich
-  issued:
-    year: 2000
-  container-title: Board Games Studies
-  volume: 3
   page: 112-116
   URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf
+  in:
+    title: Board Games Studies
+    volume: 3
+    issued:
+      year: 2000
 FalkenerReview:
   type: article-journal
   title: Falkener’s <cite>Ancient Games</cite>
   author:
     - family: Wayte
       given: W.
-  issued:
-    year: 1892
-  container-title: The Classical Review
-  volume: 6
-  issue: 10
   page: 458-460
+  in:
+    title: The Classical Review
+    volume: 6
+    issue: 10
+    issued:
+      year: 1892
 Ascher87:
   type: article-journal
   title: "Mu Torere: An Analysis of a Maori Game"
   author:
     - family: Ascher
       given: Marcia
-  issued:
-    year: 1987
-    month: 4
-  container-title: Mathematics Magazine
-  volume: 60
-  issue: 2
   page: 90-100
   URL: http://www.jstor.org/stable/2690304
+  in:
+    title: Mathematics Magazine
+    volume: 60
+    issue: 2
+    issued:
+      year: 1987
+      month: 4
 Best17:
   type: article-journal
   title: Notes on a Peculiar Game Resembling Draughts Played by the Maori Folk of
@@ -177,13 +180,14 @@ Best17:
   author:
     - family: Best
       given: Elsdon
-  issued:
-    year: 1917
-    month: 1
-  container-title: Man
-  volume: 17
   page: 14-15
   URL: http://www.jstor.org/stable/2788164
+  in:
+    title: Man
+    volume: 17
+    issued:
+      year: 1917
+      month: 1
 Straffin95:
   type: article-journal
   title: Position Graphs for Pong Hau K’i and Mu Torere
@@ -191,14 +195,15 @@ Straffin95:
     - given: Philip D.
       family: Straffin
       suffix: Jr.
-  issued:
-    year: 1995
-    month: 12
-  container-title: Mathematics Magazine
-  volume: 68
-  issue: 5
   page: 382-386
   URL: http://www.jstor.org/stable/2690929
+  in:
+    title: Mathematics Magazine
+    volume: 68
+    issue: 5
+    issued:
+      year: 1995
+      month: 12
 Straffin95_2:
   type: article-journal
   title: Corrected Figure for Position Graphs for Pong Hau K’i and Mu Torere
@@ -206,40 +211,43 @@ Straffin95_2:
     - given: Philip D.
       family: Straffin
       suffix: Jr.
-  issued:
-    year: 1996
-    month: 2
-  container-title: Mathematics Magazine
-  volume: 69
-  issue: 1
   page: 65
   URL: http://www.jstor.org/stable/2691405
+  in:
+    title: Mathematics Magazine
+    volume: 69
+    issue: 1
+    issued:
+      year: 1996
+      month: 2
 Ernst95:
   type: article-journal
   title: "Playing Konane mathematically: A combinatorial game-theoretic analysis"
   author:
     - given: Michael D.
       family: Ernst
-  issued:
-    year: 1995
-  container-title: UMAP Journal
-  volume: 16
-  issue: 2
   page: 95-121
   URL: https://homes.cs.washington.edu/~mernst/pubs/konane-tr9524-abstract.html
+  in:
+    title: UMAP Journal
+    volume: 16
+    issue: 2
+    issued:
+      year: 1995
 Newell59:
   type: article-journal
   title: A Few Asiatic Board Games Other than Chess
   author:
     - given: Newell
       family: W. H.
-  issued:
-    year: 1959
-    month: 2
-  container-title: Man
-  volume: 59
   page: 29-30
   URL: http://www.jstor.org/stable/2796540
+  in:
+    title: Man
+    volume: 59
+    issued:
+      year: 1959
+      month: 2
 Zaslavsky:
   type: book
   title: Math Games & Activities from Around the World
@@ -269,16 +277,14 @@ Hackler86:
     Casts Light on 1794 Agreement
   author:
     - family: Hackler
-      given:
-        - Rhoda
-        - E.
-        - A.
-  container-title: The Hawaiian Journal of History
-  volume: "20"
+      given: Rhoda E. A.
   page: 1–12
-  issued:
-    year: 1986
   URL: http://hdl.handle.net/10524/548
+  in:
+    title: The Hawaiian Journal of History
+    volume: 20
+    issued:
+      year: 1986
 Jackson92:
   type: article-journal
   title: "The <i>Duke of Portland</i>, the <i>Traveller</i>, and the <i>Prince
@@ -286,12 +292,13 @@ Jackson92:
   author:
     - family: Jackson
       given: Frances
-  container-title: The Hawaiian Journal of History
-  volume: "26"
   page: 45–54
-  issued:
-    year: 1992
   URL: http://hdl.handle.net/10524/200
+  in:
+    title: The Hawaiian Journal of History
+    volume: 26
+    issued:
+      year: 1992
 AVoyageRoundTheWorld:
   type: book
   title: A Voyage Round the World
@@ -307,34 +314,32 @@ Emory24:
   type: book
   title: "The island of Lanai: A survey of native culture"
   author:
-    - given:
-        - Kenneth
-        - Pike
+    - given: Kenneth Pike
       family: Emory
   issued:
     year: 1924
   publisher: Bernice P. Bishop Museum
   publisher-place: Honolulu, Hawaiʻi
   URL: https://hdl.handle.net/2027/miun.arf6076.0001.001
-  series-title: Bernice P. Bishop Museum Bulletins
-  series-number: 12
+  series:
+    title: Bernice P. Bishop Museum Bulletins
+    number: 12
 Brigham08:
   type: book
   title: The Ancient Hawaiian house
   author:
-    - given:
-        - William
-        - Tufts
+    - given: William Tufts
       family: Brigham
   issued:
     year: 1908
   publisher: Bishop Museum Press
   publisher-place: Honolulu, Hawaiʻi
   URL: https://archive.org/details/ancienthawaiian01briggoog
-  series-title: Memoirs of the Bernice Pauahi Bishop Museum of Polynesian
-    Ethnology and Natural History
-  series-volume: 2
-  series-number: 3
+  series:
+    title: Memoirs of the Bernice Pauahi Bishop Museum of Polynesian
+      Ethnology and Natural History
+    volume: 2
+    number: 3
 Ellis17:
   type: book
   title: A Narrative of a Tour through Hawaii, or Owhyhee; with remarks on the
@@ -404,13 +409,14 @@ SomaliGames:
   author:
     - family: Marin
       given: G.
-  issued:
-    year: 1931
-  container-title: The Journal of the Royal Anthropological Institute of Great
-    Britain and Ireland
-  volume: 61
   page: 499-511
   URL: http://www.jstor.org/stable/2843934
+  in:
+    title: The Journal of the Royal Anthropological Institute of Great Britain and
+      Ireland
+    volume: 61
+    issued:
+      year: 1931
 KniziaDice:
   type: book
   title: Dice Games Properly Explained
@@ -433,7 +439,7 @@ BritishSomaliland:
     year: 1912
   URL: https://archive.org/details/in.ernet.dli.2015.81470
 IntroductionToShax:
-  type: article
+  type: document
   title: An Introduction to Shax
   author:
     - family: Davies
@@ -458,28 +464,30 @@ CulinHawaiian:
   author:
     - family: Culin
       given: Stewart
-  container-title: American Anthropologist
-  volume: 1 (New Series)
-  issue: 2
   page: 201-247
-  issued:
-    year: 1899
-    month: 4
   URL: http://www.jstor.org/stable/658394
+  in:
+    title: American Anthropologist
+    volume: 1 # TODO (New Series)
+    issue: 2
+    issued:
+      year: 1899
+      month: 4
 CulinPhilippine:
   type: article-journal
   title: Philippine Games
   author:
     - family: Culin
       given: Stewart
-  container-title: American Anthropologist
-  volume: 2 (New Series)
-  issue: 4
   page: 643–656
-  issued:
-    year: 1900
-    month: 10
   URL: http://www.jstor.org/stable/659313
+  in:
+    title: American Anthropologist
+    volume: 2 # TODO (New Series)
+    issue: 4
+    issued:
+      year: 1900
+      month: 10
 TsuniGoam:
   type: book
   title: "Tsuni-ǁGoam: The Supreme Being of the Khoi-Khoi"
@@ -497,76 +505,78 @@ GuptaCalcutta:
   author:
     - family: Das-Gupta
       given: Hem Chandra
-  container-title: The Calcutta Review
-  volume: 6
   page: 510–513
   URL: https://archive.org/stream/in.ernet.dli.2015.94751/2015.94751.The-Calcutta-Review--Vol-6january-march1923#page/n531/mode/2up
-  issued:
-    year: 1923
+  in:
+    title: The Calcutta Review
+    volume: 6
+    issued:
+      year: 1923
 GuptaB:
   type: article-journal
   title: Notes on a Type of Sedentary Game prevalent in many parts of India
   author:
     - family: Das-Gupta
       given: Hem Chandra
-  container-title: Journal of the Asiatic Society of Bengal
-  volume: XIX (New Series)
   page: 71–74
-  issued:
-    year: 1923
   URL: https://archive.org/stream/mobot31753002183942#page/n215/mode/2up
+  in:
+    title: Journal of the Asiatic Society of Bengal
+    volume: 19 # TODO (New Series)
+    issued:
+      year: 1923
 GuptaC:
   type: article-journal
   title: A few types of Sedentary Games prevalent in the Central Provinces
   author:
     - family: Das-Gupta
-      given:
-        - Hem
-        - Chandra
-  container-title: Journal of the Asiatic Society of Bengal
-  volume: XX (New Series)
+      given: Hem Chandra
   page: 165–169
-  issued:
-    year: 1924
   URL: https://archive.org/stream/in.ernet.dli.2015.281621/2015.281621.Journal-Of#page/n385/mode/2up
+  in:
+    title: Journal of the Asiatic Society of Bengal
+    volume: 20 # TODO (New Series)
+    issued:
+      year: 1924
 GuptaD:
   type: article-journal
   title: A Few Types of Sedentary Games prevalent in the Punjab
   author:
     - family: Das-Gupta
-      given:
-        - Hem
-        - Chandra
-  container-title: Journal of the Asiatic Society of Bengal
-  volume: XXII (New Series)
+      given: Hem Chandra
   page: 143–148
-  issued:
-    year: 1926
   URL: https://archive.org/stream/in.ernet.dli.2015.7749/2015.7749.Journal-Of-The-Asiatic-Society-Of-Bengal-Vol-xxii-1926#page/n161/mode/2up
+  in:
+    title: Journal of the Asiatic Society of Bengal
+    volume: 22 # TODO (New Series)
+    issued:
+      year: 1926
 Datta:
   type: article-journal
   title: A few types of Sedentary Games of Lower Bengal
   author:
     - family: Datta
       given: Jatindra Mohan
-  container-title: Journal of the Asiatic Society of Bengal
-  volume: 29 (New Series)
   page: 167–170
-  issued:
-    year: 1933
   URL: https://archive.org/stream/in.ernet.dli.2015.55416/2015.55416.Journal-Of-The-Asiatic-Society-Of-Bengalnew-Seriesvol29-1933#page/n203/mode/2up
+  in:
+    title: Journal of the Asiatic Society of Bengal
+    volume: 29 # TODO (New Series)
+    issued:
+      year: 1933
 LalHora:
   type: article-journal
   title: Sedentary Games of India
   author:
     - family: Hora
       given: Sunder Lal
-  container-title: Journal of the Asiatic Society of Bengal
-  volume: 29 (New Series)
   page: 5-11
-  issued:
-    year: 1933
   URL: https://archive.org/stream/in.ernet.dli.2015.55416/2015.55416.Journal-Of-The-Asiatic-Society-Of-Bengalnew-Seriesvol29-1933#page/n17/mode/2up
+  in:
+    title: Journal of the Asiatic Society of Bengal
+    volume: 29 # TODO (New Series)
+    issued:
+      year: 1933
 Humphries:
   type: article-journal
   title: Notes on “Pachesi” and similar games, as played in the Karwi Subdivision,
@@ -574,53 +584,53 @@ Humphries:
   author:
     - family: Humphries
       given: E. de M.
-  container-title: Journal of the Asiatic Society of Bengal
   page: 117–127
-  volume: 2 (New Series)
-  issued:
-    year: 1906
   URL: https://archive.org/stream/mobot31753003193114#page/116/mode/2up
+  in:
+    title: Journal of the Asiatic Society of Bengal
+    volume: 2  # TODO (New Series)
+    issued:
+      year: 1906
 Goddard1900:
   type: article-journal
   title: "Nine Men’s Morris: An Old Viking Game"
   author:
     - family: Goddard
-      given:
-        - A.
-        - R.
-  container-title: Saga-Book of the Viking Club
-  volume: "2"
+      given: A. R.
   page: 377–385
-  issued:
-    year: 1900
   URL: http://www.vsnrweb-publications.org.uk/Saga-Book%201-22%20searchable/Saga-Book%20II.pdf
+  in:
+    title: Saga-Book of the Viking Club
+    volume: 2
+    issued:
+      year: 1900
 Goddard1901:
   type: article-journal
   title: "Find of another Nine Men’s Morris Stone: Comments of Mr. Goddard"
   author:
     - family: Goddard
-      given:
-        - A.
-        - R.
-  container-title: Saga-Book of the Viking Club
-  volume: 3
+      given: A. R.
   URL: http://www.vsnrweb-publications.org.uk/Saga-Book%201-22%20searchable/Saga-Book%20III.pdf
   page: 20-21
-  issued:
-    year: 1901
+  in:
+    title: Saga-Book of the Viking Club
+    volume: 3
+    issued:
+      year: 1901
 PegMeryll:
   type: article-journal
   title: Peg Meryll
   author:
     - given: R. S.
       family: Baker
-  issued:
-    year: 1871
   page: 127-134
-  container-title: Associated Architectural Societies’ Reports & Papers
-  volume: 11
-  issue: 1
   URL: https://babel.hathitrust.org/cgi/pt?id=uc1.b3018386&view=1up&seq=235
+  in:
+    title: Associated Architectural Societies’ Reports & Papers
+    volume: 11
+    issue: 1
+    issued:
+      year: 1871
 EssaysOnChess:
   type: book
   title: Essays On Chess (Vilásamaṇi maṇjarī)
@@ -817,44 +827,47 @@ SpaldingsBezique:
   author:
     - family: Cady
       given: Alice Howard
-  issued:
-    year: 1896
-    month: 4
-  container-title: Spalding’s Home Library
-  volume: 1
-  issue: 10
   page: 1–30
-  publisher: The American Sports Publishing Company
-  publisher-place: 241 Broadway, New York, NY, USA
   URL: https://archive.org/details/beziquetreatiseo00adya
+  in:
+    publisher: The American Sports Publishing Company
+    publisher-place: 241 Broadway, New York, NY, USA
+    title: Spalding’s Home Library
+    volume: 1
+    issue: 10
+    issued:
+      year: 1896
+      month: 4
 SpaldingsDominoesAndDice:
   type: article-journal
   title: Dominoes and Dice
   author:
     - family: Cady
       given: Alice Howard
-  issued:
-    year: 1895
-    month: 10
-  container-title: Spalding’s Home Library
-  volume: 1
-  issue: 3
-  publisher: The American Sports Publishing Company
-  publisher-place: 241 Broadway, New York, NY, USA
   URL: https://archive.org/details/dominoesdice00cady
+  in:
+    publisher: The American Sports Publishing Company
+    publisher-place: 241 Broadway, New York, NY, USA
+    title: Spalding’s Home Library
+    volume: 1
+    issue: 3
+    issued:
+      year: 1895
+      month: 10
 PopesGameOfOmbre:
   type: article-journal
   title: Pope’s Game of Ombre
-  issued:
-    year: 1874
-    month: 1
-  container-title: Macmillan’s Magazine
-  volume: 29
-  issue: 171
   page: 262–269
-  publisher: Macmillan and Co
-  publisher-place: 29 & 30, Bedford Street, Convent Garden, London, England, UK
   URL: https://archive.org/details/macmillansmagaz12unkngoog
+  in:
+    publisher: Macmillan and Co
+    publisher-place: 29 & 30, Bedford Street, Convent Garden, London, England, UK
+    title: Macmillan’s Magazine
+    volume: 29
+    issue: 171
+    issued:
+      year: 1874
+      month: 1
 BohnsNewHandbook:
   type: book
   title: Bohn’s New Hand-Book of Games
@@ -1055,30 +1068,40 @@ MacedonianFolklore:
   URL: https://archive.org/details/macedonianfolklo00abborich
 Hyde1:
   type: book
-  title: De Ludis Orientalibus Libri Duo
-  title-lang: la
-  volume: "1: Mandragorias, Seu Historia Shahiludii"
+  title: 
+    value: De Ludis Orientalibus Libri Duo
+    lang: la
+  volume: 1
+  volume-title:
+    value: Mandragorias, Seu Historia Shahiludii
+    lang: la
   author:
     - family: Hyde
       given: Thomas
   issued:
     year: 1694
-  publisher: E Theatro Sheldoniano
-  publisher-lang: la
+  publisher:
+    value: E Theatro Sheldoniano
+    lang: la
   publisher-place: Oxford, UK
   URL: https://books.google.co.nz/books?id=3LBAAAAAcAAJ
 Hyde2:
   type: book
-  title: De Ludis Orientalibus Libri Duo
-  title-lang: la
-  volume: "2: Historia Nerdiludii"
+  title:
+    value: De Ludis Orientalibus Libri Duo
+    lang: la
+  volume: 2
+  volume-title:
+    value: Historia Nerdiludii
+    lang: la
   author:
     - family: Hyde
       given: Thomas
   issued:
     year: 1694
-  publisher: E Theatro Sheldoniano
-  publisher-lang: la
+  publisher:
+    value: E Theatro Sheldoniano
+    lang: la
   publisher-place: Oxford, UK
   URL: https://books.google.co.nz/books?id=8rBAAAAAcAAJ
 Fiske:
@@ -1099,24 +1122,26 @@ ThinkingThroughDiagrams:
   author:
     - given: Susan L.
       family: Epstein
-  issued:
-    year: 2005
-  editor:
-    - family: Freksa
-      given: Christian
-    - family: Knauff
-      given: Markus
-    - family: Krieg-Brückner
-      given: Bernd
-    - family: Nebel
-      given: Bernhard
-    - family: Barkowsky
-      given: Thomas
-  publisher: Springer Berlin Heidelberg
-  publisher-place: Berlin, Heidelberg
   page: 259–282
   URL: https://doi.org/10.1007/11397977_16
-  container-title: "Spatial Cognition IV: Reasoning, Action, Interaction"
+  in:
+    title: "Spatial Cognition IV: Reasoning, Action, Interaction"
+    publisher: Springer Berlin Heidelberg
+    publisher-place: Berlin, Heidelberg
+    ISBN: 978-3-540-32255-9
+    issued:
+      year: 2005
+    editor:
+      - family: Freksa
+        given: Christian
+      - family: Knauff
+        given: Markus
+      - family: Krieg-Brückner
+        given: Bernd
+      - family: Nebel
+        given: Bernhard
+      - family: Barkowsky
+        given: Thomas
 Wordsworth:
   type: book
   issued:
@@ -1165,52 +1190,56 @@ NotesOnTheAbbey:
   author:
     - family: Micklethwaite
       given: J. T.
-  issued:
-    year: 1876
-  container-title: The Archaeological Journal
-  volume: 33
   page: 15–48
   URL: https://archive.org/details/archaeologicalj01unkngoog/page/n46
+  in:
+    title: The Archaeological Journal
+    volume: 33
+    issued:
+      year: 1876
 OnTheIndoorGamesOfSchoolBoys:
   type: article-journal
   title: On the indoor games of school boys in the middle ages
   author:
     - family: Micklethwaite
       given: J. T.
-  issued:
-    year: 1892
-  container-title: The Archaeological Journal
-  volume: 49
   page: 319–328
   URL: https://archive.org/details/archaeologicaljo49brit/page/318
+  in:
+    title: The Archaeological Journal
+    volume: 49
+    issued:
+      year: 1892
 MagazineOfArt:
   type: article-journal
   title: Some pictures of Children
   author:
     - family: Monkhouse
       given: Cosmo
-  container-title: The Magazine of Art
-  issued:
-    year: 1884
-  volume: 7
   page: 133–137
-  publisher: Cassel and Company
-  publisher-place: London, Paris, and New York
   URL: https://archive.org/details/magazineofart07unse
+  in:
+    publisher: Cassel and Company
+    publisher-place: London, Paris, and New York
+    title: The Magazine of Art
+    volume: 7
+    issued:
+      year: 1884
 NurseryWitch:
   type: article-journal
   title: The Nursery Witch
   author:
     - family: Woodson
       given: W. W.
-  issued:
-    year: 1871
-  volume: 3
   page: 371–375
-  container-title: Our Monthly
-  publisher: The Presbytarian Magazine Company
-  publisher-place: Cincinnati
   URL: https://archive.org/details/ourmonthly00unkngoog
+  in:
+    publisher: The Presbytarian Magazine Company
+    publisher-place: Cincinnati
+    title: Our Monthly
+    volume: 3
+    issued:
+      year: 1871
 GommeI:
   type: book
   title: The Traditional Games of England, Scotland, and Ireland
@@ -1343,11 +1372,12 @@ MolokaiDispatch:
   author:
     - given: Jessica
       family: Ahles
-  issued:
-    year: 2014
-    month: 3
-    day: 14
-  container-title: The Molokai Dispatch
+  in:
+    issued:
+      year: 2014
+      month: 3
+      day: 14
+    title: The Molokai Dispatch
   URL: https://themolokaidispatch.com/konane/
 FourSeasons:
   type: book
@@ -1388,14 +1418,15 @@ NoteOnAMissingLink:
   author:
     - given: John
       family: Fairbairn
-  volume: 16
-  container-title: Journal of the International Playing-Card Society
-  issued:
-    year: 1987
-    month: 11
-  issue: 2
-  ISSN: 0305-2133
   page: 54–56
+  in:
+    ISSN: 0305-2133
+    title: Journal of the International Playing-Card Society
+    volume: 16
+    issue: 2
+    issued:
+      year: 1987
+      month: 11
 CardGamesAmongAborigines:
   type: article-journal
   title: Card Games among Aborigines of the Northern Territory
@@ -1404,14 +1435,15 @@ CardGamesAmongAborigines:
       family: Berndt
     - given: Catherine H.
       family: Berndt
-  container-title: Oceania
-  issued:
-    year: 1947
-    month: 3
-  volume: 17
-  issue: 3
   page: 248–269
   URL: https://www.jstor.org/stable/40328119
+  in:
+    title: Oceania
+    volume: 17
+    issue: 3
+    issued:
+      year: 1947
+      month: 3
 PlayingCardsOfTheApaches:
   type: book
   title: Playing Cards of the Apaches
@@ -1436,13 +1468,14 @@ PoemsOfTheEchigobana:
     - family: Fairbairn
       given: John
   page: 97–102
-  volume: 14
-  issue: 4
-  container-title: Journal of the International Playing-Card Society
-  ISSN: 0305-2133
-  issued:
-    year: 1986
-    month: 5
+  in:
+    ISSN: 0305-2133
+    title: Journal of the International Playing-Card Society
+    volume: 14
+    issue: 4
+    issued:
+      year: 1986
+      month: 5
 ModernKoreanCards:
   type: article-journal
   title: Modern Korean Cards – A Japanese Perspective
@@ -1450,13 +1483,14 @@ ModernKoreanCards:
     - family: Fairbairn
       given: John
   page: 68–72
-  volume: 20
-  issue: 1
-  container-title: Journal of the International Playing-Card Society
-  ISSN: 0305-2133
-  issued:
-    year: 1991
-    month: 8
+  in:
+    ISSN: 0305-2133
+    title: Journal of the International Playing-Card Society
+    volume: 20
+    issue: 1
+    issued:
+      year: 1991
+      month: 8
 ModernJapaneseWrappers:
   type: article-journal
   title: Modern Japanese Wrappers
@@ -1464,38 +1498,41 @@ ModernJapaneseWrappers:
     - family: Hatton
       given: George
   page: 33–63
-  volume: 10
-  issue: 2
-  container-title: Journal of the International Playing-Card Society
-  ISSN: 0305-2133
-  issued:
-    year: 1981
-    month: 11
+  in:
+    ISSN: 0305-2133
+    title: Journal of the International Playing-Card Society
+    volume: 10
+    issue: 2
+    issued:
+      year: 1981
+      month: 11
 Stokes:
-  type: article-journal
+  type: paper-conference
   author:
     - family: Stokes
       given: John F. G.
   title: Japanese cultural influences in Hawaii
-  container-title: Proceedings of the fifth Pacific Science Congress
-  publisher: Pacific Science Congress
-  publisher-place: Vancouver, BC, Canada
-  volume: 4
   page: 2791–2803
-  issued:
-    year: 1933
+  in:
+    publisher: Pacific Science Congress
+    publisher-place: Vancouver, BC, Canada
+    title: Proceedings of the fifth Pacific Science Congress
+    volume: 4
+    issued:
+      year: 1933
 SalterJapanese:
   type: article-journal
   title: "Game over: the last days of hand-made Japanese playing cards"
   author:
     - family: Salter
       given: Rebecca
-  container-title: Andon
-  volume: 83
-  issued:
-    year: 2008
-    month: 3
   page: 39–46
+  in:
+    title: Andon
+    volume: 83
+    issued:
+      year: 2008
+      month: 3
 Teesdale:
   type: book
   title: A glossary of provincial words used in Teesdale, in the county of Durham
@@ -1547,13 +1584,14 @@ ChigoJapanese:
   author:
     - given: Paul
       family: Atkins
-  issued:
-    year: 2008
-  container-title: The Journal of Asian Studies
   page: 947–970
-  volume: 67
-  issue: 3
   URL: https://www.jstor.org/stable/20203430
+  in:
+    title: The Journal of Asian Studies
+    volume: 67
+    issue: 3
+    issued:
+      year: 2008
 MakingShinkokinshu:
   type: book
   title: The Making of Shinkokinshū
@@ -1566,20 +1604,20 @@ MakingShinkokinshu:
   publisher-place: Cambridge, MA, USA
   ISBN: 9780674008533
 ICommencedAnExamination:
-  type: article-journal
-  title: "“I commenced an examination of a game called ‘Tit-Tat-To’”: Charles
-    Babbage and the “First” Computer Game"
+  type: paper-conference
+  title: "“I commenced an examination of a game called ‘Tit-Tat-To’”: Charles Babbage and the “First” Computer Game"
   author:
     - given: Devin
       family: Monnens
-  issued:
-    year: 2014
-    month: 8
-  container-title: "Proceedings of the 2013 DiGRA international conference:
-    DeFragging Game Studies"
-  volume: 7
-  ISSN: 2342-9666
   URL: http://www.digra.org/wp-content/uploads/digital-library/paper_436.pdf
+  in:
+    #TODO
+    #ISSN: 2342-9666
+    title: "Proceedings of the 2013 DiGRA international conference: DeFragging Game Studies"
+    volume: 7
+    issued:
+      year: 2014
+      month: 8
 MathematicalWorkOfBabbage:
   type: book
   title: The Mathematical Work of Charles Babbage
@@ -1625,30 +1663,32 @@ TheGameOfJAM:
   author:
     - family: Michon
       given: John
-  issued:
-    year: 1967
-    month: 3
   page: 137–140
-  volume: 80
-  issue: 1
-  publisher: University of Illinois Press
-  publisher-place: IL, USA
-  container-title: The American Journal of Psychology
   URL: https://www.jstor.org/stable/1420555
+  in:
+    publisher: University of Illinois Press
+    publisher-place: IL, USA
+    title: The American Journal of Psychology
+    volume: 80
+    issue: 1
+    issued:
+      year: 1967
+      month: 3
 Figmill:
   type: article-journal
   title: Figmill
   author:
     - family: Heist
       given: William W.
-  container-title: The Journal of American Folklore
-  volume: 64
-  issue: 253
-  issued:
-    year: 1951
   page: 303–306
-  publisher: American Folklore Society
   URL: http://www.jstor.org/stable/536157
+  in:
+    publisher: American Folklore Society
+    title: The Journal of American Folklore
+    volume: 64
+    issue: 253
+    issued:
+      year: 1951
 Cats325:
   type: webpage
   title: How to Play 3–2–5
@@ -1736,12 +1776,13 @@ HalmaHistory:
   author:
     - given: Bruce
       family: Whitehill
-  container-title: "Step by Step: Proceedings of the Colloquium, Board Games in Academia IV"
-  issued:
-    year: 2002
-  publisher-place: Fribourg, Switzerland
+  in:
+    title: "Step by Step: Proceedings of the Colloquium, Board Games in Academia IV"
+    issued:
+      year: 2002
+    publisher-place: Fribourg, Switzerland
+    publisher: University Press, Fribourg University
   page: 37–47
-  publisher: University Press, Fribourg University
   URL: http://thebiggamehunter.com/games-one-by-one/halma/
 PegShowAndTelka:
   type: webpage
@@ -1759,16 +1800,17 @@ SportsAndGamesOfSinghalese:
   author:
     - family: Ludovici
       given: Leopold
-  container-title: The Journal of the Ceylon Branch of the Royal Asiatic Society
-    of Great Britain & Ireland
-  issued:
-    year: 1873
-  publisher: Ceylon Times Press
-  publisher-place: Colombo, Sri Lanka
   page: 17–41
-  volume: 5
-  issue: 18
   URL: http://hdl.handle.net/2027/mdp.39015020463454&view=1up&seq=41
+  in:
+    publisher: Ceylon Times Press
+    publisher-place: Colombo, Sri Lanka
+    title: The Journal of the Ceylon Branch of the Royal Asiatic Society of Great
+      Britain & Ireland
+    volume: 5
+    issue: 18
+    issued:
+      year: 1873
 AncientCeylon:
   type: book
   title: Ancient Ceylon
@@ -1781,7 +1823,7 @@ AncientCeylon:
   publisher-place: London, UK
   URL: https://archive.org/details/ancientceylonacc00park
 SolvingLaskerMorris:
-  type: article
+  type: document
   title: The Game of Lasker Morris
   author:
     - family: Stahlhacke
@@ -1796,13 +1838,14 @@ UseOfMorabara:
   author:
     - family: Moloi
       given: Tshele J
-  issued:
-    year: 2014
-  container-title: Mediterranean Journal of Social Sciences
-  volume: 5
-  issue: 27
   page: 585–591
   URL: https://dx.doi.org/10.5901/mjss.2014.v5n27p585
+  in:
+    title: Mediterranean Journal of Social Sciences
+    volume: 5
+    issue: 27
+    issued:
+      year: 2014
 GamesBasotho:
   type: thesis
   title: Games, Gestures and Learning in Basotho Children’s Play Songs
@@ -1821,18 +1864,17 @@ UsingGamesToPromote:
   author:
     - given: Nkopodi
       family: Nkopodi
-  issued:
-    year: 2001
-  container-title: Proceedings of the International Conference on New Ideas in
-    Mathematics Education
   page: 283–287
-  editor:
-    - family: Rogerson
-      given: Alan
-  publisher-place: Palm Cove, Cairns, Australia
-  publisher: Mathematics Education into the 21st Century Project
+  in:
+    issued:
+      year: 2001
+    title: Proceedings of the International Conference on New Ideas in Mathematics Education
+    editor:
+      - family: Rogerson
+        given: Alan
+    publisher-place: Palm Cove, Cairns, Australia
+    publisher: Mathematics Education into the 21st Century Project
   URL: http://math.unipa.it/~grim/ANkopodi.PDF
-  id: UsingGamesToPromote
 SatireWithinKibyōshi:
   type: thesis
   genre: Master’s dissertation
@@ -1846,7 +1888,6 @@ SatireWithinKibyōshi:
   publisher: University of Ghent
   publisher-place: Ghent, Belgium
   URL: https://lib.ugent.be/fulltxt/RUG01/002/478/969/RUG01-002478969_2018_0001_AC.pdf
-  id: SatireWithinKibyōshi
 MorabarabaGetOnBoard:
   type: webpage
   title: Getting morabaraba back on board
@@ -1859,7 +1900,6 @@ MorabarabaGetOnBoard:
     day: 20
   container-title: City of Johannesburg
   URL: https://web.archive.org/web/20031025224828/http://www.joburg.org.za/sep_2002/game.stm
-  id: MorabarabaGetOnBoard
 IndigenousGamesRuleBook:
   type: book
   title: Indigenous Games Rule Book
@@ -1868,7 +1908,6 @@ IndigenousGamesRuleBook:
   publisher: Sport and Recreation South Africa
   publisher-place: Pretoria, South Africa
   URL: http://www.kzndsr.gov.za/LinkClick.aspx?link=GIS%2FIndigenous+Games+Rule+Book.pdf&tabid
-  id: IndigenousGamesRuleBook
 BlacUmlabalaba:
   type: webpage
   title: What is Umlablaba?
@@ -1879,7 +1918,6 @@ BlacUmlabalaba:
     year: 2015
   container-title: BLAC Foundation
   URL: http://blacfoundation.org/umlabalaba-article/
-  id: BlacUmlabalaba
 GamesOfTheGods:
   type: book
   title: "Games of the Gods: The origin of board games in magic and divination"
@@ -1891,55 +1929,52 @@ GamesOfTheGods:
   issued:
     year: 1989
   ISBN: "0877286965"
-  id: GamesOfTheGods
 RamatHanadiv:
   type: chapter
   title: Two Game Boards
-  container-title: Ramat Hanadiv Excavations
   author:
     - given: Michael
       family: Sebbane
-  issued:
-    year: 2000
+  in:
+    title: Ramat Hanadiv Excavations
+    issued:
+      year: 2000
+    publisher: The Israel Exploration Society
+    publisher-place: Jerusalem, Israel
   page: 226–231
-  publisher: The Israel Exploration Society
-  publisher-place: Jerusalem, Israel
   URL: https://www.academia.edu/30854592/Sebbane_M._2000._Two_Game_Boards._In_Y._Hirschfeld._Ramat_Hanadiv_Excavations.pdf
-  id: RamatHanadiv
 GamesGreekAndRoman:
   type: chapter
   title: Games, Greek and Roman
   author:
     - given: Ulrich
       family: Schädler
-  issued:
-    year: 2013
-  publisher: Wiley Blackwell
   URL: https://www.academia.edu/2135663/Games_Greek_and_Roman
-  container-title: Encyclopedia of Ancient History
-  publisher-place: Hoboken, NJ, USA
-  id: GamesGreekAndRoman
+  in:
+    title: Encyclopedia of Ancient History
+    issued: 2013
+    publisher: Wiley Blackwell
+    publisher-place: Hoboken, NJ, USA
 AlfonsoGames:
-  type: manuscript
+  type: book
   title: Libro de açedrex, dados e tablas
   issued:
     year: 1283
   publisher: Alfonso X
   publisher-place: Toledo, Spain
-  id: AlfonsoGames
 PerkisSuperHalma:
   type: article-journal
   title: "Super Halma: The Quest for the Best Two-Handed Version"
   author:
     - given: Andrew B.
       family: Perkis
-  container-title: Abstract Games
-  issue: 15
-  issued:
-    season: Autumn
-    year: 2003
   URL: https://web.archive.org/web/20081120123100/http://www.abstractgamesmagazine.com/super_halma.html
-  id: PerkisSuperHalma
+  in:
+    title: Abstract Games
+    issue: 15
+    issued:
+      season: Autumn
+      year: 2003
 SeSothoDictionary:
   type: book
   title: Se-Suto–English and English–Se-Suto Vocabulary
@@ -1953,7 +1988,6 @@ SeSothoDictionary:
   publisher: Khatiso
   publisher-place: Moria, Limpopo, South Africa
   URL: https://books.google.co.nz/books?id=3CkUAAAAYAAJ
-  id: SeSothoDictionary
 OldTswana:
   type: article-journal
   title: Old Tswana and new Latin
@@ -1961,26 +1995,26 @@ OldTswana:
     - family: Cole
       given: Desmond T.
   URL: http://dx.doi.org/10.1080/02572117.1990.10586868
-  container-title: South African Journal of African Languages
-  volume: 10
-  issue: 4
   page: 345–353
-  issued:
-    year: 1990
-  id: OldTswana
+  in:
+    title: South African Journal of African Languages
+    volume: 10
+    issue: 4
+    issued:
+      year: 1990
 MkeleMorabaraba:
   type: article-journal
   title: A Note on “Bantu Games”
   author:
     - given: N.
       family: Mkele
-  container-title: Journal of the National Institute for Personnel Research
-  issued:
-    year: 1956
-  volume: 6
-  issue: 3
   page: 132–134
-  id: MkeleMorabaraba
+  in:
+    title: Journal of the National Institute for Personnel Research
+    volume: 6
+    issue: 3
+    issued:
+      year: 1956
 FromBearnToSouthernAfrica:
   type: book
   title: From Béarn to Southern Africa, or the Amazing Destiny of Eugène Casalis
@@ -1992,7 +2026,6 @@ FromBearnToSouthernAfrica:
     year: 2014
   publisher: Cambridge Scholars Publishing
   publisher-place: Newcastle upon Tyne, England, UK
-  id: FromBearnToSouthernAfrica
 TheWorldAndCattle:
   type: book
   title: The World and the Cattle
@@ -2004,7 +2037,6 @@ TheWorldAndCattle:
   publisher: Penguin
   publisher-place: South Africa
   ISBN: 9780143185574
-  id: TheWorldAndCattle
 Gallovidian:
   type: book
   title: The Scottish Gallovidian Encyclopedia
@@ -2017,22 +2049,23 @@ Gallovidian:
   edition: 2
   publisher: Hamilton, Adams and Co.
   publisher-place: London, UK
-  id: Gallovidian
 HeimannLoop:
   type: article-journal
   title: The loop within circular Three Men’s Morris
   author:
     - given: Florian
       family: Heimann
-  container-title: Board Game Studies Journal
-  issued:
-    year: 2014
-  volume: 8
-  publisher: Associação Ludus
-  publisher-place: Lisboa, Portugal
   page: 51–61
   URL: http://bgsj.ludus-opuscula.org/Home/ArticleDetails/99
-  id: HeimannLoop
+  in:
+    publisher:
+      value: Associação Ludus
+      lang: pt
+    publisher-place: Lisboa, Portugal
+    title: Board Game Studies Journal
+    volume: 8
+    issued:
+      year: 2014
 WinningWaysV3:
   type: book
   title: Winning Ways
@@ -2050,7 +2083,6 @@ WinningWaysV3:
   issued:
     year: 2003
   ISBN: 9781568811437
-  id: WinningWaysV3
 AnimalInFarEasternArt:
   type: book
   title: The Animal in Far Eastern Art
@@ -2062,7 +2094,6 @@ AnimalInFarEasternArt:
   issued:
     year: 1975
   ISBN: 9004042954
-  id: AnimalInFarEasternArt
 FiggiUndMuliHaa:
   type: webpage
   title: "Schweizerisches Idiotikon: Figgi und Müli haa"
@@ -2073,7 +2104,6 @@ FiggiUndMuliHaa:
     year: 2018
     month: 3
     day: 21
-  id: FiggiUndMuliHaa
 CrokerCrofton:
   type: book
   title: Researches in the south of Ireland
@@ -2085,36 +2115,29 @@ CrokerCrofton:
   issued:
     year: 1824
   URL: https://archive.org/details/researchesinsout00crokuoft
-  id: CrokerCrofton
 GentlemansMagazineLibrary:
   type: article-journal
   title: Top-Castle
-  container-title: The Gentleman’s magazine library
-  editor:
-    - family: Gomme
-      given: George Laurence
-  original-date:
-    year: 1818
-  issued:
-    year: 1883
-  publisher: Elliot Stock
-  publisher-place: Paternoster Row, London, UK
+  # TODO
+  #original-date: 1818
   URL: https://archive.org/details/gentlemansmagazi01gommuoft/
   author:
     - family: Carey
       given: John
   page: 256–258
-  id: GentlemansMagazineLibrary
+  in:
+    publisher: Elliot Stock
+    publisher-place: Paternoster Row, London, UK
+    editor:
+      - family: Gomme
+        given: George Laurence
+    title: The Gentleman’s magazine library
+    issued:
+      year: 1883
 LocalPlantNames:
   type: article-journal
   title: Local plant names reveal that enslaved Africans recognized substantial
     parts of the New World flora
-  container-title: Proceedings of the National Academy of Sciences
-  issued:
-    year: 2014
-    month: 12
-  volume: 111
-  issue: 50
   author:
     - family: van Andel
       given: Tinde R.
@@ -2129,19 +2152,26 @@ LocalPlantNames:
     - family: van den Berg
       given: Margot
   URL: https://doi.org/10.1073/pnas.1418836111
-  id: LocalPlantNames
+  in:
+    title: Proceedings of the National Academy of Sciences
+    volume: 111
+    issue: 50
+    issued:
+      year: 2014
+      month: 12
 MetropoliticalVisitation:
   type: article-journal
   title: The Metropolitical Visitation of Archdeacon Laud
-  editor:
-    - given: A. Percival
-      family: Moore
-  container-title: Associated Architectural Societies Reports and Papers
-  issued:
-    year: 1907
-  volume: 29
   page: 477–534
   URL: https://hdl.handle.net/2027/coo.31924016534699?urlappend=%3Bseq=695%3Bownerid=13510798903034340-701
+  in:
+    editor:
+      - given: A. Percival
+        family: Moore
+    title: Associated Architectural Societies Reports and Papers
+    volume: 29
+    issued:
+      year: 1907
 AncientEgyptiansAtPlay:
   type: book
   title: Ancient Egyptians at Play
@@ -2157,7 +2187,6 @@ AncientEgyptiansAtPlay:
   issued:
     year: 2016
   ISBN: 978-1-47422-119-1
-  id: AncientEgyptiansAtPlay
 TheVikingShipFromGokstad:
   type: book
   title: The Viking-Ship from Gokstad
@@ -2169,68 +2198,66 @@ TheVikingShipFromGokstad:
   publisher: Alb. Cammermeyer
   publisher-place: Oslo, Norway
   URL: http://dbooks.bodleian.ox.ac.uk/books/PDFs/401201988.pdf
-  id: TheVikingShipFromGokstad
 CrossOutALandmark:
   type: article-newspaper
   title: Cross Out a Landmark On the Chinatown Tour
   author:
     - family: Kaufman
       given: Michael
-  issued:
-    year: 1993
-    month: 8
-    day: 14
-  container-title: The New York Times
+  in:
+    issued:
+      year: 1993
+      month: 8
+      day: 14
+    title: The New York Times
   URL: https://www.nytimes.com/1993/08/14/nyregion/about-new-york-cross-out-a-landmark-on-the-chinatown-tour.html
-  id: CrossOutALandmark
 ChinatownFairIsBack:
   type: article-newspaper
   title: Chinatown Fair Is Back, Without Chickens Playing Tick-Tack-Toe
   author:
     - family: Gregory
       given: Kia
-  issued:
-    year: 2012
-    month: 6
-    day: 10
-  container-title: The New York Times
+  in:
+    issued:
+      year: 2012
+      month: 6
+      day: 10
+    title: The New York Times
   URL: https://www.nytimes.com/2012/06/11/nyregion/chinatown-fair-returns-but-without-chicken-playing-tick-tack-toe.html
-  id: ChinatownFairIsBack
 TheChickenVanishes:
   type: article-magazine
   title: The Chicken Vanishes
   author:
     - family: Trillin
       given: Calvin
-  issued:
-    year: 1999
-    month: 2
-    day: 8
-  container-title: The New Yorker
+  in:
+    issued:
+      year: 1999
+      month: 2
+      day: 8
+    title: The New Yorker
   page: 38–41
   URL: http://archives.newyorker.com/?i=1999-02-08#folio=038
-  id: TheChickenVanishes
 BirdBrainManual:
-  type: pamphlet
+  type: document
   title: Bird Brain Manual
   publisher: Animal Behavior Enterprises
   URL: https://www3.uca.edu/iqzoo/Media/PDF/Manual/manual5.pdf
-  id: BirdBrainManual
 TheMouseWhoReinforced:
   type: article-journal
   title: "Marian Breland Bailey: The Mouse Who Reinforced"
   author:
     - family: Marr
       given: John N.
-  container-title: The Arkansas Historical Quarterly
-  volume: 61
-  issue: 1
-  issued:
-    season: Spring
-    year: 2002
   page: 59–79
   URL: https://www.jstor.org/stable/40031038
-  id: TheMouseWhoReinforced
+  in:
+    title: The Arkansas Historical Quarterly
+    volume: 61
+    issue: 1
+    issued:
+      season: Spring
+      year: 2002
 BasothoChildren:
   type: thesis
   title: The Traditional Games of Basotho Children
@@ -2243,7 +2270,6 @@ BasothoChildren:
   publisher-place: Cape Town, South Africa
   genre: Master’s thesis
   URL: https://open.uct.ac.za/handle/11427/23281?show=full
-  id: BasothoChildren
 PubGamesOfEngland:
   type: book
   title: Pub Games of England
@@ -2256,7 +2282,6 @@ PubGamesOfEngland:
   edition: 2
   publisher-place: Cambridge, England, UK
   ISBN: 0-900891-66-1
-  id: PubGamesOfEngland
 PlayedAtThePub:
   type: book
   title: Played at the Pub
@@ -2274,13 +2299,13 @@ RelayMoe:
   author:
     - family: Berkeley
       given: Edmund C.
-  issued:
-    year: 1956
-    month: 12
-  container-title: Radio-Electronics
+  in:
+    issued:
+      year: 1956
+      month: 12
+    title: Radio-Electronics
   page: 50–52
   URL: https://www.vintagecomputer.net/cisc367/Radio%20Electronics%20Dec%201956%20Relay%20Moe%20Plays%20Tic-tac-toe.pdf
-  id: RelayMoe
 Teeko:
   type: book
   title: Scarne on Teeko
@@ -2293,7 +2318,6 @@ Teeko:
   issued:
     year: 2007
   publisher: Lybrary.com
-  id: Teeko
 RomanGameBoards:
   type: article-journal
   title: Roman Game Boards from Abu Sha’ar (Red Sea Coast, Egypt)
@@ -2302,14 +2326,14 @@ RomanGameBoards:
       given: Lynda
     - family: Sidebotham
       given: Steven E.
-  issued:
-    year: 2004
-    month: 9
-  volume: 78
-  issue: 301
-  container-title: Antiquity
   URL: https://doi.org/10.1017/S0003598X00113250
-  id: RomanGameBoards
+  in:
+    title: Antiquity
+    volume: 78
+    issue: 301
+    issued:
+      year: 2004
+      month: 9
 OnTheRulesForTheRoyalGameOfUr:
   type: paper-conference
   title: On the Rules for the Royal Game of Ur
@@ -2317,12 +2341,17 @@ OnTheRulesForTheRoyalGameOfUr:
   author:
     - given: Irving L.
       family: Finkel
-  container-title: Ancient Board Games in Perspective
-  issued:
-    year: 2007
-  publisher-place: London, UK
   page: 16–32
-  publisher: British Museum Press
+  in: &ancientBoardGamesInPerspective
+    title: Ancient Board Games in Perspective
+    issued:
+      year: 2007
+    publisher-place: London, UK
+    publisher: British Museum Press
+    editor:
+    - given: Irving L.
+      family: Finkel
+    ISBN: 9780714111537
 TheEgyptianGameOfTwentySquares:
   type: paper-conference
   title: The Egyptian ‘Game of Twenty Squares’
@@ -2330,12 +2359,8 @@ TheEgyptianGameOfTwentySquares:
   author:
     - given: Edgar B.
       family: Pusch
-  container-title: Ancient Board Games in Perspective
-  issued:
-    year: 2007
-  publisher-place: London, UK
   page: 69–86
-  publisher: British Museum Press
+  in: *ancientBoardGamesInPerspective
 DimensionsOfBookOfGames:
   type: thesis
   title: "<cite lang='es'>Los Libros de Acedrex Dados e Tablas</cite>: Historical,
@@ -2361,25 +2386,23 @@ BookOfGames:
   URL: https://www.ancientgames.org/wp-content/uploads/Alfonso-Xs-Book-of-Games-Translated-by-Sonja-Musser-Golladay-2003.pdf
 InfluenceAndPower:
   type: chapter
-  title: "Influence and Power: Arabic Iconography in Alfonso X’s <cite>Book of
-    Chess</cite>"
+  title: "Influence and Power: Arabic Iconography in Alfonso X’s <cite>Book of Chess</cite>"
   author:
     - family: Kennedy
       given: Kirstin
-  editor:
-    - family: Lowden
-      given: John
-    - family: Bovey
-      given: Alixe
-  issued:
-    year: 2007
-  container-title: "Under the Influence: The Concept of Influence and the Study of
-    Illuminated Manuscripts"
+  in:
+    editor:
+      - family: Lowden
+        given: John
+      - family: Bovey
+        given: Alixe
+    issued:
+      year: 2007
+    title: "Under the Influence: The Concept of Influence and the Study of Illuminated Manuscripts"
+    publisher: Brepols
+    publisher-place: Belgium
   page: 89–96
-  publisher: Brepols
-  publisher-location: Belgium
   URL: https://www.academia.edu/15688480/Influence_and_Power_Arabic_Iconography_in_Alfonso_Xs_Book_of_Chess
-  id: InfluenceAndPower
 ChessAndCourtlyCulture:
   type: article-journal
   title: "Chess and Courtly Culture in Medieval Castile: The “Libro de ajedrez” of
@@ -2387,31 +2410,33 @@ ChessAndCourtlyCulture:
   author:
     - family: Constable
       given: Olivia Remie
-  container-title: Speculum
-  volume: 82
-  issue: 2
-  issued:
-    year: 2007
-    month: 4
   page: 301–347
   URL: https://www.jstor.org/stable/20464089
-  id: ChessAndCourtlyCulture
+  in:
+    title: Speculum
+    volume: 82
+    issue: 2
+    issued:
+      year: 2007
+      month: 4
 TheKingIsDead:
   type: article-journal
-  title: "The King is Dead, Long Live the Game: Alfonso X, el Sabio, and the <cite
-    lang='es'>Libro de açedrex, dados e tablas</cite>"
+  title: "The King is Dead, Long Live the Game: Alfonso X, el Sabio, and the <cite lang='es'>Libro de açedrex, dados e tablas</cite>"
   author:
     - family: Fajardo-Acosta
       given: Fidel
-  issued:
-    year: 2015
-  container-title: eHumanista
-  issue: 31
   page: 489–523
   URL: https://dialnet.unirioja.es/descarga/articulo/5457094.pdf
+  in:
+    title: eHumanista
+    issue: 31
+    issued:
+      year: 2015
 KlassischeSpiele:
   type: book
-  title: Klassische Spiele ganz neu
+  title:
+    value: Klassische Spiele ganz neu
+    lang: de
   author:
     - family: Bücken
       given: Hajo
@@ -2420,7 +2445,9 @@ KlassischeSpiele:
   issued:
     year: 1990
   ISBN: "9783499189012"
-  publisher: Rowohlt Taschenbuch Verlag
+  publisher:
+    value: Rowohlt Taschenbuch Verlag
+    lang: de
   publisher-place: Germany
 HanaAwase:
   type: article-journal
@@ -2428,14 +2455,15 @@ HanaAwase:
   author:
     - given: H. Spencer
       family: Palmer
-  issued:
-    year: 1891
-    month: 5
-    day: 13
-  container-title: Transactions of the Asiatic Society of Japan
-  volume: 19
   page: 545–564
   URL: https://archive.org/details/transactionsasi07japagoog/page/n680
+  in:
+    title: Transactions of the Asiatic Society of Japan
+    volume: 19
+    issued:
+      year: 1891
+      month: 5
+      day: 13
 ANewCantingDictionary:
   type: book
   title: A New Canting Dictionary
@@ -2460,15 +2488,16 @@ SkeatTitTatTo:
   author:
     - given: Walter W.
       family: Skeat
-  container-title: Notes and Queries
-  issued:
-    year: 1898
-    month: 7
-    day: 9
-  volume: 9 (Series II)
-  issue: 28
   page: 26
   URL: https://archive.org/details/s9notesqueries02londuoft/page/26
+  in:
+    title: Notes and Queries
+    volume: 9 # TODO (Series II)
+    issue: 28
+    issued:
+      year: 1898
+      month: 7
+      day: 9
 Koolman:
   type: book
   title: Wörterbuch der Ostfriesischen Sprache (Dritter Band, Q–Z)
@@ -2486,16 +2515,17 @@ LancasterianSystem:
   author:
     - given: John
       family: Pickett
-  container-title: The Academician
-  issue: 1
-  issued:
-    year: 1818
-    month: 5
-    day: 19
   page: 91
-  publisher: John C. Francis
-  publisher-place: London, England, UK
   URL: https://babel.hathitrust.org/cgi/pt?id=hvd.hnl9na&view=1up&seq=113
+  in:
+    publisher: John C. Francis
+    publisher-place: London, England, UK
+    title: The Academician
+    issue: 1
+    issued:
+      year: 1818
+      month: 5
+      day: 19
 AnIntroductionToJapaneseTeaRitual:
   type: book
   title: An Introduction to Japanese Tea Ritual
@@ -2509,25 +2539,32 @@ AnIntroductionToJapaneseTeaRitual:
   publisher-place: Albany, NY, USA
 EbashiSadakuro:
   type: webpage
-  title: <span lang='ja'>後世の花札図柄との異同</span>
-  author:
+  title: 
+    value: 後世の花札図柄との異同
+    lang: ja
+  author: &ebashi
     - given: 崇
       family: 江橋
       lang: ja
-      alt: Ebashi Takashi
-      alt-lang: ja-Latn
+      alt:
+        value: Ebashi Takashi
+        lang: ja-Latn
   issued:
     year: 2019
   URL: https://japanplayingcardmuseum.com/3-3-2-3-flowercarta-difference-laterflowercarta/
   publisher: Japan Playing Card Museum
 OishiSadakuro:
   type: webpage
-  title: <span lang='ja'>花札の謎シリーズ！１１月札『柳に小野道風（おののとうふう）』</span>
+  title:
+    value: 花札の謎シリーズ！１１月札『柳に小野道風（おののとうふう）』
+    lang: ja
   issued:
     year: 2013
     month: 10
     day: 26
-  publisher: Ōishi Tengudō
+  publisher:
+    value: Ōishi Tengudō
+    lang: ja-Latn
   URL: https://www.tengudo.jp/blog/karuta-news/392.html
 IwanoMatsui:
   type: webpage
@@ -2538,18 +2575,21 @@ IwanoMatsui:
   URL: https://web.archive.org/web/20180715011619/https://iwano.biz/news/20170512matui.html
 Yamaguchi:
   type: book
-  title: 最後の読みカルタ
-  title-lang: ja
+  title:
+    value: 最後の読みカルタ
+    lang: ja
   author:
     - family: 山口
       given: 泰彦
       lang: ja
-      alt: Yamaguchi Yasuhiko
-      alt-lang: ja-Latn
+      alt:
+        value: Yamaguchi Yasuhiko
+        lang: ja-Latn
   issued:
     year: 1998
-  publisher: 帝国コンサルタント社友会科学文化部出版局
-  publisher-lang: ja
+  publisher:
+    value: 帝国コンサルタント社友会科学文化部出版局
+    lang: ja
 KakkuriYomi:
   type: article-journal
   title: "<span lang='ja-Latn'>Kakkuri</span>: The Last <span
@@ -2557,15 +2597,17 @@ KakkuriYomi:
   author:
     - given: Kimihiko
       family: Kuromiya
-  issued:
-    year: 2005
-  container-title: Journal of the International Playing-Card Society
-  volume: 33
-  issue: 4
+  in:
+    title: Journal of the International Playing-Card Society
+    volume: 33
+    issue: 4
+    issued:
+      year: 2005
 OstasiatischeSpielkarten:
   type: book
-  title: Ostasiatische Spielkarten
-  title-lang: de
+  title:
+    value: Ostasiatische Spielkarten
+    lang: de
   author:
     - given: Gernot
       family: Prunner
@@ -2588,60 +2630,65 @@ Hargrave:
   ISBN: 978-0-486-41236-8
 TewazaNoKioku:
   type: book
-  title: 手わざの記憶
-  title-lang: ja
+  title: 
+    value: 手わざの記憶
+    lang: ja
   author:
     - given: 健司
       family: 村上
       lang: ja
-      alt: Murakami Kenji
-      alt-lang: ja-Latn
+      alt: 
+        value: Murakami Kenji
+        lang: ja-Latn
   issued:
     year: 2009
-  publisher: 中央公論新社
-  publisher-lang: ja
+  publisher:
+    value: 中央公論新社
+    lang: ja
   publisher-place: Tōkyō, Japan
 OishiTengudoHistory4:
   type: webpage
-  title: 大石天狗堂口伝　第四章
-  title-lang: ja
-  publisher: 大石天狗堂
-  publisher-lang: ja
+  title: 
+    value: 大石天狗堂口伝　第四章
+    lang: ja
+  publisher:
+    value: 大石天狗堂
+    lang: ja
   issued:
     year: 2014
   URL: https://www.tengudo.jp/blog/karuta-news/692.html
 EbashiHanafuda:
   type: book
-  title: 花札
-  title-lang: ja
-  author:
-    - given: 崇
-      family: 江橋
-      lang: ja
-      alt: Ebashi Takashi
-      alt-lang: ja-Latn
+  title:
+    value: 花札
+    lang: ja
+  author: *ebashi
   issued:
     year: 2014
-  publisher: 法政大学出版局
-  publisher-lang: ja
+  publisher:
+    value: 法政大学出版局
+    lang: ja
   publisher-place: Tōkyō, Japan
 UmebayashiIsao:
   type: article-journal
-  title: 地方の花札屋さん
-  title-lang: ja
+  title:
+    value: 地方の花札屋さん
+    lang: ja
   author:
     - family: 梅林
       given: 勲
       lang: ja
-      alt: Umebayashi Isao
-      alt-lang: ja-Latn
-  issued:
-    year: 2006
-    month: 6
-    day: 31
-  container-title: Japan Academy of Gambling & Gaming Studies Newsletter
-  issue: 9
+      alt: 
+        value: Umebayashi Isao
+        lang: ja-Latn
   URL: http://www.jirg.org/wp-content/themes/jirg/newsletter/download/newsletter_008.php
+  in:
+    title: Japan Academy of Gambling & Gaming Studies Newsletter
+    issue: 9
+    issued:
+      year: 2006
+      month: 6
+      day: 31
 Sumiyoshikai:
   type: article-magazine
   title: "Capital punishment: Japan’s yakuza vie for control of Tokyo"
@@ -2649,10 +2696,11 @@ Sumiyoshikai:
     - family: Takahashi
       given: Kōsuke
       lang: ja-Latn
-  container-title: Jane’s Intelligence Review
-  issued:
-    year: 2009
-    month: 12
+  in:
+    title: Jane’s Intelligence Review
+    issued:
+      year: 2009
+      month: 12
   URL: http://www.kosuke.net/japanyakuza.pdf
 PopularJapanesePrints:
   type: book
@@ -2666,14 +2714,10 @@ PopularJapanesePrints:
   publisher-place: Honolulu, Hawaiʻi
   ISBN: 978-0-8248-3083-0
 CartaTaxLawContents:
-  title: 骨牌税法の内容
-  title-lang: ja
-  author:
-    - given: 崇
-      family: 江橋
-      lang: ja
-      alt: Ebashi Takashi
-      alt-lang: ja-Latn
+  title:
+    value: 骨牌税法の内容
+    lang: ja
+  author: *ebashi
   type: webpage
   issued:
     year: 2020
@@ -2692,41 +2736,48 @@ SchreiberCollection:
   publisher-place: London, UK
   URL: https://archive.org/details/catalogueofcoll00brit
 HironoriGunjin:
-  title: 日本と世界の行軍将棋
-  title-lang: ja
+  type: article-journal
+  title: 
+    value: 日本と世界の行軍将棋
+    lang: ja
   author:
     - given: 浩徳
       family: 高橋
       lang: ja
-      alt: Takahashi Hironori
-      alt-lang: ja-Latn
+      alt: 
+        value: Takahashi Hironori
+        lang: ja-Latn
   URL: http://id.nii.ac.jp/1297/00000560
-  type: article-journal
-  container-title: Bulletin of the Amusement Industry Research Institute
-  publisher: Osaka University of Commerce
-  issue: 18
   page: 101–76
-  issued:
-    year: 2016
-    month: 6
-    day: 30
+  in:
+    publisher: Osaka University of Commerce
+    title: Bulletin of the Amusement Industry Research Institute
+    issue: 18
+    issued:
+      year: 2016
+      month: 6
+      day: 30
 MuraiSun:
+  type: article-magazine
   author:
     - family: 村井
       given: 省三
       lang: ja
-      alt: Murai Shōzō
-      alt-lang: ja-Latn
-  title: 明治の花札
-  title-lang: ja
-  type: article-magazine
-  issue: 9
-  issued:
-    year: 1974
-    season: Winter
+      alt: 
+        value: Murai Shōzō
+        lang: ja-Latn
+  title: 
+    value: 明治の花札
+    lang: ja
   page: 160–4
-  container-title: 別冊太陽
-  container-title-lang: ja
+  in: 
+    issue: 9
+    issued:
+      year: 1974
+      season: Winter
+    title: 
+      value: 別冊太陽
+      lang: ja
 DevilsPictureBooks:
   type: book
   title: The Devil’s Picture-Books
@@ -2741,15 +2792,17 @@ DevilsPictureBooks:
 KaiOi:
   type: webpage
   URL: http://www.asahi-net.or.jp/~rp9h-tkhs/dg_kaioi.htm
-  title: 貝覆い
-  title-lang: ja
+  title:
+    value: 貝覆い
+    lang: ja
   publisher: Boardwalk Community
   author:
     - given: 浩徳
       family: 高橋
       lang: ja
-      alt: Takahashi Hironori
-      alt-lang: ja-Latn
+      alt: 
+        value: Takahashi Hironori
+        lang: ja-Latn
   issued:
     year: 2016
 WorldOfTheShiningPrince:
@@ -2838,28 +2891,26 @@ ElementsOfJapaneseDesign:
   issued:
     year: 2005
 NintendoHistory:
-  title: 在卖游戏之前，任天堂还上演过一出豪门宫斗
-  title-lang: zh
+  title:
+    value: 在卖游戏之前，任天堂还上演过一出豪门宫斗
+    lang: zh
   type: webpage
   URL: https://zhuanlan.zhihu.com/p/31321595
   author:
     - given: 鲤衣荷
       family: 夏
       lang: zh
-      alt: Xià Lǐyīhé
-      alt-lang: zh-Latn
+      alt:
+        value: Xià Lǐyīhé
+        lang: zh-Latn-pinyin
   issued:
     year: 2017
 EbashiCigaretteCards:
-  title: 花札図柄の「煙草カード」
-  title-lang: ja
+  title:
+    value: 花札図柄の「煙草カード」
+    lang: ja
   URL: https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/
-  author:
-    - given: 崇
-      family: 江橋
-      lang: ja
-      alt: Ebashi Takashi
-      alt-lang: ja-Latn
+  author: *ebashi
   issued:
     year: 2020
   type: webpage
@@ -2880,15 +2931,17 @@ HandbookForJapan:
 JapaneseGamesOfMemory:
   type: chapter
   title: Japanese Games of Memory, Matching, and Identification
-  container-title: "Asian Games: The Art of Contest"
-  ISBN: 0-87848-099-4
-  issued:
-    year: 2004
   author:
     - given: Tomoko
       family: Sakomura
+      lang: ja-Latn
+  in: &asianGames
+    title: "Asian Games: The Art of Contest"
+    ISBN: 0-87848-099-4
+    issued:
+      year: 2004
+    publisher: Asia Society
   page: 252–271
-  publisher: Asia Society
 EssaysInIdleness:
   type: book
   title: Essays in Idleness and Hōjōki
@@ -2904,43 +2957,48 @@ CabinetOfficeEntertainment:
   type: webpage
   issued:
     year: 1956
-  title: 娯楽に関する世論調査
-  title-lang: ja
+  title:
+    value: 娯楽に関する世論調査
+    lang: ja
   author:
     - given: 内閣府
       lang: ja
-  publisher: 内閣府大臣官房政府広報室
+  publisher:
+    value: 内閣府大臣官房政府広報室
+    lang: ja
   publisher-place: Tokyo, Japan
-  publisher-lang: ja
   URL: https://survey.gov-online.go.jp/s31/S31-07-31-07.html
 NihonGoraku:
   type: webpage
   issued:
     year: 2018
-  title: 会社案内｜日本娯楽
-  title-lang: ja
-  publisher: 日本娯楽
-  publisher-lang: ja
+  title:
+    value: 会社案内｜日本娯楽
+    lang: ja
+  publisher:
+    value: 日本娯楽
+    lang: ja
   URL: http://nihongoraku.co.jp/company/
 TheEastandtheIdeaofEurope:
   type: chapter
-  issued:
-    year: 2010
   title: Invention of the West in Japan
-  container-title: The East and the Idea of Europe
-  ISBN: "9781443825313"
   author:
     - given: Rio
       family: Takeuchi
-  editor:
-    - given: Katalin
-      family: Miklóssy
-    - given: Pekka
-      family: Korhonen
   page: 23–42
-  publisher-place: Newcastle upon Tyne, UK
-  publisher: Cambridge Scholars Publishing
   URL: https://www.oulu.fi/Harukaze/Takeuchi_2010.html
+  in:
+    title: The East and the Idea of Europe
+    issued:
+      year: 2010
+    ISBN: "9781443825313"
+    editor:
+      - given: Katalin
+        family: Miklóssy
+      - given: Pekka
+        family: Korhonen
+    publisher-place: Newcastle upon Tyne, UK
+    publisher: Cambridge Scholars Publishing
 FantasyOfFarJapan:
   title: "A Fantasy of Far Japan: Or, Summer Dream Dialogues"
   type: book
@@ -2966,25 +3024,25 @@ TarHeel:
   title: Tar Heel Tobacconist in Tokyo, 1899–1904
   author:
     - family: Durdern
-      given:
-        - Robert
-        - F.
-  publisher: North Carolina Office of Archives and History
-  volume: "50"
-  issue: "4"
-  issued:
-    year: 1976
-  container-title: The North Carolina Historical Review
+      given: Robert F.
   URL: https://www.jstor.org/stable/23529457
   page: 347–363
+  in:
+    title: The North Carolina Historical Review
+    publisher: North Carolina Office of Archives and History
+    volume: 50
+    issue: 4
+    issued: 1976
 MundartLexikon:
   type: webpage
-  title: Mundart-Lexikon
-  title-lang: gsw
+  title:
+    value: Mundart-Lexikon
+    lang: gsw
   issued:
     year: 2014
-  publisher: SRF Schweizer Radio und Fernsehen
-  publisher-lang: gsw
+  publisher:
+    value: SRF Schweizer Radio und Fernsehen
+    lang: gsw
   URL: https://web.archive.org/web/20141118232655/http://www.srf.ch/sendungen/schnabelweid/mundart-lexikon
 BasothoOralPoetry:
   type: thesis
@@ -3008,13 +3066,14 @@ UltraStrongMorris:
       family: Gévay
     - given: Gábor
       family: Danner
-  issued:
-    year: 2016
-  volume: 8
-  issue: 3
-  pages: 256–267
-  container-title: IEEE Transactions on Computational Intelligence and AI in Games
+  page: 256–267
   URL: https://ieeexplore.ieee.org/document/7080922/
+  in:
+    title: IEEE Transactions on Computational Intelligence and AI in Games
+    volume: 8
+    issue: 3
+    issued:
+      year: 2016
 MasculinityAccordion:
   title: Masculinity as a popular theme in the development of Basotho accordion music
   type: thesis
@@ -3032,11 +3091,12 @@ TransmitterOfAccolades:
   author:
     - given: Pali
       family: Lehohla
-  issued:
-    year: 2018
-    month: 11
-    day: 20
-  container-title: Independent Online
+  in:
+    issued:
+      year: 2018
+      month: 11
+      day: 20
+    title: Independent Online
   URL: https://www.iol.co.za/business-report/opinion/transmitter-of-accolades-to-the-deserving-18185114
 SesothoFarming:
   type: thesis
@@ -3068,19 +3128,21 @@ TimeOfCannibals:
   publisher: The University Of Chicago Press
   publisher-place: Chicago
   URL: https://archive.org/details/intimeofcannibal0000copl
-  "#bad ISBN": 0-266-11573-9
+  #TODO: bad ISBN: 0-266-11573-9
 LaRegleDuTemple:
   type: book
-  title: La Règle Du Temple
-  title-lang: fr
+  title:
+    value: La Règle Du Temple
+    lang: fr
   issued:
     year: 1886
   author:
     - given: Henri
       family: De Curzon
       lang: fr
-  publisher: Librairie Renouard
-  publisher-lang: fr
+  publisher:
+    value: Librairie Renouard
+    lang: fr
   publisher-place: Paris, France
   URL: https://archive.org/details/DeCurzonHenriLaRegleDuTemple
 TheRuleOfTheTemplars:
@@ -3104,7 +3166,7 @@ CroxleyHistory:
     day: 30
   URL: https://www.yumpu.com/en/document/read/8966910/croxley-stationery
 CroxleyClosing:
-  type: article-newspaper
+  type: webpage
   title: Croxley confirms factory closure, 100 job losses
   publisher: 1 NEWS
   publisher-place: New Zealand
@@ -3135,16 +3197,18 @@ EmperorOfJapan:
 GrantsToKugeNobles:
   title: Grants to the <span lang='ja-Latn'>Kuge</span> Nobles
   type: article-newspaper
-  container-title: The Japan Weekly Mail
-  issued:
-    year: 1894
-    month: 3
-    day: 24
-  publisher: Jappan Mēru Shinbunsha
-  publisher-lang: ja-Latn
-  publisher-place: Yokohama, Japan
-  volume: XXI
-  issue: 12
+  in:
+    title: The Japan Weekly Mail
+    issued:
+      year: 1894
+      month: 3
+      day: 24
+    publisher:
+      value: Jappan Mēru Shinbunsha
+      lang: ja-Latn
+    publisher-place: Yokohama, Japan
+    volume: 21
+    issue: 12
   URL: https://archive.org/details/japandailymail2118unse/page/354/mode/2up
 UtaawaseJudgments:
   title: <span lang='ja-Latn'>Uta&shy;awase</span> Judgments as Poetry Criticism
@@ -3152,13 +3216,14 @@ UtaawaseJudgments:
     - given: Clifton W.
       family: Royston
   type: article-journal
-  container-title: The Journal of Asian Studies
-  volume: XXXIV
-  issue: 1
-  issued:
-    year: 1974
   page: 99–108
   URL: https://www.jstor.org/stable/2052411
+  in:
+    title: The Journal of Asian Studies
+    volume: 34
+    issue: 1
+    issued:
+      year: 1974
 JapaneseAristocraticLife:
   type: book
   title: "A Tale of Flowering Fortunes: Annals of Japanese Aristocratic Life in
@@ -3176,18 +3241,20 @@ JapaneseAristocraticLife:
 MuseInCompetition:
   title: "The Muse in Competition: Uta-awase Through The Ages"
   type: article-journal
-  container-title: Monumenta Nipponica
-  issued:
-    year: 1982
-    season: Summer
-  volume: 37
-  issue: 2
   page: 201–222
   author:
     - family: Ito
       given: Setsuko
-  publisher: Sophia University
+      lang: ja-Latn
   URL: https://www.jstor.org/stable/2384242
+  in:
+    publisher: Sophia University
+    title: Monumenta Nipponica
+    volume: 37
+    issue: 2
+    issued:
+      year: 1982
+      season: Summer
 BrocadeByNight:
   title: "Brocade by Night: “Kokin Wakashu” and the court style in Japanese
     classic poetry"
@@ -3215,13 +3282,10 @@ JapaneseFloralCalendar:
 OpeningKamigataya:
   type: webpage
   URL: https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/
-  title: <span lang='ja'>花札の公然の販売‥‥「上方屋」の挑戦</span>
-  author:
-    - given: 崇
-      family: 江橋
-      lang: ja
-      alt: Ebashi Takashi
-      alt-lang: ja-Latn
+  title:
+    value: 花札の公然の販売‥‥「上方屋」の挑戦
+    lang: ja
+  author: *ebashi
   publisher: Japan Playing Card Museum
   issued:
     year: 2020
@@ -3229,11 +3293,12 @@ AstuteBusinessman:
   URL: https://www.nzherald.co.nz/whanganui-chronicle/news/museum-notebook-whanganui-philanthropist-also-an-astute-businessman/KGR57UHEBIWHL2RKIYZGBVP26U/
   title: "Museum Notebook: Whanganui philanthropist also an astute businessman"
   type: article-newspaper
-  container-title: Whanganui Chronicle
-  issued:
-    year: 2021
-    month: 2
-    day: 15
+  in:
+    title: Whanganui Chronicle
+    issued:
+      year: 2021
+      month: 2
+      day: 15
   author:
     - given: Sandi
       family: Black
@@ -3274,133 +3339,161 @@ KoreanInstagramUsers:
   URL: https://napoleoncat.com/stats/instagram-users-in-republic_of_korea/2021/04
 JapaneseBusinessmen1914:
   type: book
-  title: 日本全国商工人名録
-  title-lang: ja
-  publisher: 商工社
-  publisher-lang: ja
+  title:
+    value: 日本全国商工人名録
+    lang: ja
+  publisher:
+    value: 商工社
+    lang: ja
   publisher-place: Japan
   URL: https://dl.ndl.go.jp/info:ndljp/pid/932534
   issued:
     year: 1914
 JapaneseBusinessmen1916:
   type: book
-  title: 日本全国商工人名録
-  title-lang: ja
-  publisher: 商工社
-  publisher-lang: ja
+  title:
+    value: 日本全国商工人名録
+    lang: ja
+  publisher:
+    value: 商工社
+    lang: ja
   URL: https://dl.ndl.go.jp/info:ndljp/pid/969017
   publisher-place: Japan
   issued:
     year: 1916
 Trademarks1905:
   type: book
-  title: 日本登録商標大全. 第六編
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 第六編
+    lang: ja
+  publisher:
+    value:  東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1905
   URL: https://dl.ndl.go.jp/info:ndljp/pid/845526
 UniversalInfo:
   type: chapter
-  title: ウニバーセルトランプ
-  title-lang: ja
-  container-title: 全国百貨店有名取引業者総覧
-  container-title-lang: ja
-  publisher: 百貨店新聞社
-  publisher-place: Japan
-  publisher-lang: ja
-  issued:
-    year: 1935
+  title:
+    value: ウニバーセルトランプ
+    lang: ja
+  in:
+    title: 
+      value: 全国百貨店有名取引業者総覧
+      lang: ja
+    publisher: 
+      value: 百貨店新聞社
+      lang: ja
+    issued:
+      year: 1935
+    publisher-place: Japan
   URL: https://dl.ndl.go.jp/info:ndljp/pid/1031083/285
   page: "472"
 Trademarks1924_7:
   type: book
-  title: 日本登録商標大全. 　第７輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第７輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941553
 Trademarks1924_8:
   type: book
-  title: 日本登録商標大全. 　第８輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第８輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941555
 Trademarks1924_9:
   type: book
-  title: 日本登録商標大全. 　第９輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第９輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941557
 Trademarks1924_11:
   type: book
-  title: 日本登録商標大全. 　第１１輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第１１輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941560
 Trademarks1924_5:
   type: book
-  title: 日本登録商標大全. 　第５輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第５輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941550
 Trademarks1924_14:
   type: book
-  title: 日本登録商標大全. 　第１４輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第１４輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941566
 Trademarks1924_15:
   type: book
-  title: 日本登録商標大全. 　第１５輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第１５輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941568
 Trademarks1924_17:
   type: book
-  title: 日本登録商標大全. 　第１７輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第１７輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941572
 Trademarks1924_18:
   type: book
-  title: 日本登録商標大全. 　第１８輯　下
-  title-lang: ja
-  publisher: 東京書院
-  publisher-lang: ja
+  title:
+    value: 日本登録商標大全. 　第１８輯　下
+    lang: ja
+  publisher:
+    value: 東京書院
+    lang: ja
   publisher-place: Japan
   issued:
     year: 1924
@@ -3463,25 +3556,27 @@ ChikiCards:
   author:
     - family: Pwee
       given: Keng Ho
-  issued:
-    year: 2003
-  volume: 32
-  issue: 3
-  container-title: Journal of the International Playing-Card Society
   page: 119–128
+  in:
+    title: Journal of the International Playing-Card Society
+    volume: 32
+    issue: 3
+    issued:
+      year: 2003
 BalineseChineseCommunity:
   type: article-journal
   title: Reterritorializdtion of a Balinese Chinese Community in Quanzhou, Fujian
   author:
     - given: Chee-Beng
       family: Tan
-  issued:
-    year: 2010
-  container-title: Modern Asian Studies
   page: 547–566
-  volume: 44
-  issue: 3
   URL: https://www.jstor.org/stable/40664924
+  in:
+    title: Modern Asian Studies
+    volume: 44
+    issue: 3
+    issued:
+      year: 2010
 ChiChiPai:
   title: Chi Chi Pai
   type: webpage
@@ -3524,13 +3619,14 @@ TraditionCardGameCeki:
       given: Zeffry
     - family: Aviandy
       given: Mochammad
-  container-title: International Review of Humanities Studies
   page: 274–286
-  volume: 3
-  issue: 2
-  issued:
-    year: 2018
   URL: https://scholar.ui.ac.id/en/publications/tradition-card-game-ceki-community-identity-chinese-malay-medan-m
+  in:
+    title: International Review of Humanities Studies
+    volume: 3
+    issue: 2
+    issued:
+      year: 2018
 MemoryOfTheWorldRegister:
   type: article-journal
   title: "The Memory of the World Register: The Sultan Abdul Hamid Correspondence
@@ -3538,17 +3634,19 @@ MemoryOfTheWorldRegister:
   author:
     - family: Musa
       given: Mahani
-  issued:
-    year: 2015
-  container-title: Kajian Malaysia
-  volume: 33
-  issue: Supp. 2
   page: 53–74
   URL: http://web.usm.my/km/33(Supp.2)2015/km33s22015_04.pdf
+  in:
+    title: Kajian Malaysia
+    volume: 33
+    # TODO issue: Supp. 2
+    issued:
+      year: 2015
 RancangBangun:
   type: thesis
-  title: Rancang Bangun Permainan Ceki <em>Online</em>
-  title-lang: ban
+  title:
+    value: Rancang Bangun Permainan Ceki <em>Online</em>
+    lang: ban
   publisher: Universitas Udayana
   publisher-place: Denpasar, Bali, Indonesia
   issued:
@@ -3576,54 +3674,61 @@ LombokCeki:
   URL: http://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html?showComment=1461669020922#c1535841351149970488
 JavanischeKartenspiele:
   type: article-journal
-  title: Javanische Kartenspiele
-  title-lang: de
+  title:
+    value: Javanische Kartenspiele
+    lang: de
   author:
     - given: O. D.
       family: Tauern
-  container-title: Zeitschrift für Ethnologie
-  container-title-lang: de
+      lang: de
   URL: https://www.jstor.org/stable/23031254
-  volume: 46
-  issue: 1
-  issued:
-    year: 1914
   page: 45–48
+  in:
+    title: 
+      value: Zeitschrift für Ethnologie
+      lang: de
+    volume: 46
+    issue: 1
+    issued:
+      year: 1914
 TheChiefOfHisTribe:
   type: article-magazine
   title: "The Chief of His Tribe: The Life and Times of John Thomas Tumbler, Jr."
   page: 252–258
-  container-title: The Knickerbocker
-  issued:
-    year: 1837
-    month: 9
+  in:
+    title: The Knickerbocker
+    issued:
+      year: 1837
+      month: 9
   URL: https://archive.org/details/sim_foederal-american-monthly_1837-09_10_3/page/252
 GamesOfChanceAsAmusement:
   type: article-magazine
   title: Games of Chance as an Amusement
   page: 252–258
-  container-title: The Ladies’ Repository
+  in:
+    title: The Ladies’ Repository
+    issued:
+      year: 1864
+      month: 3
   author:
     - given: B. H.
       family: Nadal
-  issued:
-    year: 1864
-    month: 3
   URL: https://archive.org/details/ladiesrepositor02confgoog/page/n168
 TheCamdenRaceCourse:
   type: article-magazine
   title: The Camden Race Course
-  container-title: The Friend
   author:
     - given: “M”
-  issued:
-    year: 1845
-    month: 6
-    day: 21
-  volume: 18
-  issue: 39
-  publisher-place: Philadelphia, PA, USA
-  publisher: Joseph Kite & Co.
+  in:
+    title: The Friend
+    issued:
+      year: 1845
+      month: 6
+      day: 21
+    volume: 18
+    issue: 39
+    publisher-place: Philadelphia, PA, USA
+    publisher: Joseph Kite & Co.
   URL: https://archive.org/details/friendreligiousl184445smit/page/304
 IndictmentsAndPleas:
   type: book
@@ -3782,11 +3887,12 @@ MarylandGazetteFeb141810:
   type: article-newspaper
   title: American Intelligence
   URL: https://archive.org/details/mg02071810/page/n3/mode/2up
-  issued:
-    year: 1810
-    month: 2
-    day: 14
-  container-title: Maryland Gazette
+  in:
+    issued:
+      year: 1810
+      month: 2
+      day: 14
+    title: Maryland Gazette
 ScarneGambling:
   type: book
   title: Scarne’s New Complete Guide to Gambling
@@ -3806,40 +3912,44 @@ KernanCatalogue:
 CubicMutualPool:
   type: article-newspaper
   title: Armourdale
-  issued:
-    year: 1888
-    month: 1
-    day: 20
   page: 8
-  container-title: The Weekly Gazette
-  publisher-place: Kansas City, Kansas, USA
+  in:
+    issued:
+      year: 1888
+      month: 1
+      day: 20
+    title: The Weekly Gazette
+    publisher-place: Kansas City, Kansas, USA
   URL: https://www.newspapers.com/clip/80585149/chuck-luck-and-cubic-mutual-pool/
 RobbingTommyAtkins:
   type: article-newspaper
   title: Robbing Tommy Atkins
-  issued:
-    year: 1902
-    month: 9
-    day: 24
+  in:
+    title: The Ottawa Citizen
+    issued:
+      year: 1902
+      month: 9
+      day: 24
+    publisher-place: Ottawa, Ontario, Canada
   page: 5
-  container-title: The Ottawa Citizen
-  publisher-place: Ottawa, Ontario, Canada
   URL: https://www.newspapers.com/clip/80586303/earliest-mention-of-crown-anchor-game/
 FromTombsBaker:
   type: article-newspaper
   title: From Tombs Baker warns boys against bad company
-  issued:
-    year: 1908
-    month: 4
-    day: 17
   page: 29
-  container-title: The Pittsburgh Press
-  publisher-place: Pittsburgh, PA, USA
+  in:
+    issued:
+      year: 1908
+      month: 4
+      day: 17
+    title: The Pittsburgh Press
+    publisher-place: Pittsburgh, PA, USA
   URL: https://www.newspapers.com/clip/80586437/the-pittsburgh-press/
 Aldenardiana:
   type: book
-  title: "Aldenardiana: Novellen Uit het Zuiden van Oost-Vlaanderen"
-  title-lang: nl
+  title:
+    value: "Aldenardiana: Novellen Uit het Zuiden van Oost-Vlaanderen"
+    lang: nl
   author:
     - given: Isidoor
       family: Teirlinck
@@ -3853,57 +3963,62 @@ Aldenardiana:
 CrownAndAnchorAustralia:
   type: article-newspaper
   title: Public Business
-  issued:
-    year: 1882
-    month: 11
-    day: 1
   page: 2
-  container-title: The Herald
-  publisher-place: Melbourne, Victoria, Australia
+  in:
+    issued:
+      year: 1882
+      month: 11
+      day: 1
+    title: The Herald
+    publisher-place: Melbourne, Victoria, Australia
   URL: https://trove.nla.gov.au/newspaper/article/241191917
 AGlimpseAtWaterval:
   type: article-newspaper
   title: A Glimpse at Waterval Prison
-  issued:
-    year: 1900
-    month: 8
-    day: 17
   page: 5
-  container-title: The Scone Advocate
-  publisher-place: NSW, Australia
+  in:
+    issued:
+      year: 1900
+      month: 8
+      day: 17
+    title: The Scone Advocate
+    publisher-place: NSW, Australia
   URL: https://trove.nla.gov.au/newspaper/article/156263798
 TrooperMilverton:
   type: article-newspaper
   title: Trooper Milverton Ford’s Escape
-  issued:
-    year: 1900
-    month: 6
-    day: 26
   page: 3
-  container-title: The Sydney Morning Herald
-  publisher-place: NSW, Australia
+  in:
+    issued:
+      year: 1900
+      month: 6
+      day: 26
+    title: The Sydney Morning Herald
+    publisher-place: NSW, Australia
   URL: https://trove.nla.gov.au/newspaper/article/14320143
 DraytonGrange:
   type: article-newspaper
   title: The Drayton Grange
-  issued:
-    year: 1902
-    month: 8
-    day: 19
-  page: 7–8
-  container-title: The Sydney Morning Herald
-  publisher-place: NSW, Australia
+  page: 7–8 
+  in:
+    issued:
+      year: 1902
+      month: 8
+      day: 19
+    title: The Sydney Morning Herald
+    publisher-place: NSW, Australia
   URL: https://trove.nla.gov.au/newspaper/article/14512227/1337763
 GamblingInTheArmy:
   type: article-newspaper
   title: Gambling In The Army
-  issued:
-    year: 1914
-    month: 9
-    day: 3
   page: 3
-  container-title: Cobram Courier
-  publisher-place: Victoria, Australia
+  in:
+    issued:
+      year: 1914
+      month: 9
+      day: 3
+    title: Cobram Courier
+    publisher-place: Victoria, Australia
   URL: https://trove.nla.gov.au/newspaper/article/129536874
 NobodyOfAnyImportance:
   type: book
@@ -3919,13 +4034,14 @@ NobodyOfAnyImportance:
 AnInterestingNarrative:
   type: article-newspaper
   title: An Interesting Narrative
-  issued:
-    year: 1916
-    month: 8
-    day: 17
   page: 2
-  container-title: The Sun
-  publisher-place: Christchurch, New Zealand
+  in:
+    issued:
+      year: 1916
+      month: 8
+      day: 17
+    title: The Sun
+    publisher-place: Christchurch, New Zealand
   URL: https://paperspast.natlib.govt.nz/newspapers/SUNCH19160817.2.5
 AtAnEnglishNCOSchool:
   type: article-newspaper
@@ -3933,13 +4049,14 @@ AtAnEnglishNCOSchool:
   author:
     - given: S.
       family: Edwards
-  issued:
-    year: 1917
-    month: 12
-    day: 22
-  container-title: Gisborne Times
   page: 3
-  publisher-place: Gisborne, New Zealand
+  in:
+    issued:
+      year: 1917
+      month: 12
+      day: 22
+    title: Gisborne Times
+    publisher-place: Gisborne, New Zealand
   URL: https://paperspast.natlib.govt.nz/newspapers/GIST19171222.2.62.12
 GB189504141A:
   type: patent
@@ -3961,140 +4078,151 @@ LifeOnTransportSardinia:
   type: article-newspaper
   title: Life on Transport Sardinia
   URL: https://trove.nla.gov.au/newspaper/article/242667247
-  issued:
-    year: 1919
-    month: 1
-    day: 10
   page: 6
-  container-title: The Herald
-  publisher-place: Melbourne, Victoria, Australia
+  in:
+    issued:
+      year: 1919
+      month: 1
+      day: 10
+    title: The Herald
+    publisher-place: Melbourne, Victoria, Australia
 ANewGameFromSouthAfrica:
   type: article-newspaper
   title: A new game from South Africa
-  issued:
-    year: 1902
-    month: 2
-    day: 1
   page: 2
-  container-title: Uxbridge & West Drayton Gazette
-  publisher-place: Hillingdon, London, UK
+  in:
+    issued:
+      year: 1902
+      month: 2
+      day: 1
+    title: Uxbridge & West Drayton Gazette
+    publisher-place: Hillingdon, London, UK
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0002285/19020201/024/0002
 DissolutionOfCoronationFair:
   type: article-newspaper
   title: Dissolution of Coronation Fair in Hyde Park
-  issued:
-    year: 1821
-    month: 7
-    day: 27
-  container-title: The Statesman
-  publisher-place: London, UK
+  in:
+    issued:
+      year: 1821
+      month: 7
+      day: 27
+    title: The Statesman
+    publisher-place: London, UK
   page: 2
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0002647/18210727/008/0002
 EasterMondayInTheForest:
   type: article-newspaper
   title: Easter Monday in the Forest
-  issued:
-    year: 1875
-    month: 4
-    day: 3
-  container-title: East London Observer
-  publisher-place: London, UK
+  in:
+    issued:
+      year: 1875
+      month: 4
+      day: 3
+    title: East London Observer
+    publisher-place: London, UK
   page: 2
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0000442/18750403/001/0002
 TheMysteriesOfEdinburgh:
   type: article-newspaper
   title: "The Mysteries of Edinburgh: Part I—Deacon Brodie, Chapter II"
-  issued:
-    year: 1864
-    month: 7
-    day: 20
+  in:
+    issued:
+      year: 1864
+      month: 7
+      day: 20
+    title: North Briton
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0002745/18640720/044/0004
-  container-title: North Briton
   page: 4
 GamblingAtFairs:
   type: article-newspaper
   title: Gambling at Fairs
-  issued:
-    year: 1859
-    month: 6
-    day: 13
-  container-title: London Evening Standard
-  publisher-place: London, UK
+  in:
+    issued:
+      year: 1859
+      month: 6
+      day: 13
+    title: London Evening Standard
+    publisher-place: London, UK
   page: 7
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0000183/18590613/043/0007
 GamblingAtTheRaces:
   type: article-newspaper
   title: Gambling at the Races
-  issued:
-    year: 1860
-    month: 8
-    day: 29
-  container-title: Walsall Free Press and General Advertiser
+  in:
+    issued:
+      year: 1860
+      month: 8
+      day: 29
+    title: Walsall Free Press and General Advertiser
   page: 4
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0001366/18600929/027/0004
 HongKongCrownAnchor:
   type: article-newspaper
   title: Hong Kong
   page: 2
-  issued:
-    year: 1884
-    month: 4
-    day: 1
-  volume: 40
-  issue: 817
-  container-title: Overland China Mail
+  in:
+    issued:
+      year: 1884
+      month: 4
+      day: 1
+    volume: 40
+    issue: 817
+    title: Overland China Mail
   URL: https://www.britishnewspaperarchive.co.uk/viewer/BL/0003343/18840401/017/0002
   warnings: Contains racism.
 AIFSlaters:
   type: article-newspaper
   title: A New Game
   page: 12
-  volume: 63
-  issue: 16
-  issued:
-    year: 1940
-    month: 4
-    day: 19
-  container-title: Illawarra Mercury
-  publisher-place: Wollongong, New South Wales, Australia
+  in:
+    volume: 63
+    issue: 16
+    issued:
+      year: 1940
+      month: 4
+      day: 19
+    title: Illawarra Mercury
+    publisher-place: Wollongong, New South Wales, Australia
   URL: https://trove.nla.gov.au/newspaper/article/133007704
 BubbleBuck1911:
   type: article-newspaper
   title: “Crown and Anchor” Explained By A Policeman
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0002113/19110420/135/0006
   page: 6
-  issued:
-    year: 1911
-    month: 4
-    day: 20
-  container-title: Melton Mowbray Mercury and Oakham and Uppingham News
-  publisher-place: Leicestershire, England
-  volume: 29
-  issue: 1157
+  in:
+    issued:
+      year: 1911
+      month: 4
+      day: 20
+    title: Melton Mowbray Mercury and Oakham and Uppingham News
+    publisher-place: Leicestershire, England
+    volume: 29
+    issue: 1157
 ToodlumBucks:
   type: article-newspaper
   title: Whitcombes Sale (advertisement)
   URL: https://paperspast.natlib.govt.nz/newspapers/CHP19410711.2.6.1
-  container-title: The Press
-  publisher-place: Christchurch, New Zealand
-  issued:
-    year: 1941
-    month: 7
-    day: 11
-  volume: 77
-  issue: 23378
+  in:
+    title: The Press
+    publisher-place: Christchurch, New Zealand
+    issued:
+      year: 1941
+      month: 7
+      day: 11
+    volume: 77
+    issue: 23378
 JerryWinsABet:
   type: chapter
   title: Jerry Wins a Bet
   author:
     - family: Raby
       given: G. S.
-  container-title: 500 of the Best Cockney War Stories
-  issued:
-    year: 1920
-  publisher: Associated Newspapers
-  publisher-place: London, England
-  page: "119"
+  in:
+    title: 500 of the Best Cockney War Stories
+    issued: 1920
+    publisher: Associated Newspapers
+    publisher-place: London, England
+  page: 119
   URL: https://archive.org/details/500ofbestcockney00lond/page/118/mode/2up
 APrivateInTheGuards:
   type: book
@@ -4109,46 +4237,54 @@ APrivateInTheGuards:
   URL: https://archive.org/details/privateinguards00grahrich
 TableauxEtCartons:
   type: article-journal
-  title: Tableaux et Cartons Illustrés Nécessaires à Certains Jeux de Dés
-  title-lang: fr
+  title:
+    value: Tableaux et Cartons Illustrés Nécessaires à Certains Jeux de Dés
+    lang: fr
   author:
     - given: François
       family: Richard
       lang: fr
-  container-title: Le Vieux Papier
-  container-title-lang: fr
-  issue: 429
-  issued:
-    year: 2019
   page: 515–525
   URL: https://www.levieuxpapier-asso.org/wp-content/uploads/2019/08/LVP-n%C2%B0-429-JUILLET-2018-TABLEAUX-ET-CARTONS-ILLUSTRE%C2%B4S.pdf
+  in:
+    title: 
+      value: Le Vieux Papier
+      lang: fr
+    issue: 429
+    issued:
+      year: 2019
 BibliographieDeLaFrance69:
-  $comment: this is really a periodical…
+  #comment: this is really a periodical…
   type: article-newspaper
-  title: "Gravures, Lithographies, Photographies: Genre"
-  title-lang: fr
-  container-title: Bibliographie de la France
-  container-title-lang: fr
-  volume: 69 (2nd series)
-  issue: 17
-  issued:
-    year: 1880
-    month: 4
-    day: 24
-  publisher: Ministère de l’Intérieur
-  publisher-lang: fr
-  publisher-place: Paris, France
+  title:
+    value: "Gravures, Lithographies, Photographies: Genre"
+    lang: fr
   URL: https://books.google.co.nz/books?id=e4M7AQAAMAAJ
+  in:
+    title:
+      value: Bibliographie de la France
+      lang: fr
+    volume: 69 # TODO (2nd series)
+    issue: 17
+    issued:
+      year: 1880
+      month: 4
+      day: 24
+    publisher:
+      value: Ministère de l’Intérieur
+      lang: fr
+    publisher-place: Paris, France
 LayOfAMelbourneVagrant:
   type: article-newspaper
   title: Lay of a Melbourne Vagrant
-  issued:
-    day: 25
-    month: 10
-    year: 1866
   page: 6
-  container-title: Melbourne Punch
-  publisher-place: Melbourne, Victoria, Australia
+  in:
+    issued:
+      day: 25
+      month: 10
+      year: 1866
+    title: Melbourne Punch
+    publisher-place: Melbourne, Victoria, Australia
   URL: https://trove.nla.gov.au/newspaper/article/176537252
 SportsAndPastimesInTheWestIndies:
   type: article-journal
@@ -4156,13 +4292,14 @@ SportsAndPastimesInTheWestIndies:
   author:
     - family: Low
       given: Alfred M.
-  volume: 16
-  issued:
-    year: 1902
   page: 689–695
-  container-title: The Windsor Magazine
   URL: https://books.google.co.nz/books?id=lW86AQAAMAAJ
   warnings: Contains racism.
+  in:
+    title: The Windsor Magazine
+    volume: 16
+    issued:
+      year: 1902
 AutobiographyOfAMilitaryGreatCoat:
   type: book
   author:
@@ -4189,23 +4326,25 @@ DukeOfLancastersOwn:
 GamblingInMiddlesbrough:
   type: article-newspaper
   title: "Gambling in Middlesbrough: A Visit “Down the Bank”"
-  issued:
-    year: 1889
-    month: 6
-    day: 15
   page: 5
-  container-title: The North-Eastern Weekly Gazette
-  publisher-place: Middlesbrough, Yorkshire, England
+  in:
+    issued:
+      year: 1889
+      month: 6
+      day: 15
+    title: The North-Eastern Weekly Gazette
+    publisher-place: Middlesbrough, Yorkshire, England
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0003074/18890615/060/0005
 CuriositiesOfMedicalExperience:
   type: article-magazine
   title: Curiosities of Medical Experience No. VIII
-  container-title: Punch, or The London Charivari
-  publisher-place: London, England
-  volume: 2
+  in:
+    title: Punch, or The London Charivari
+    publisher-place: London, England
+    volume: 2
+    issued:
+      year: 1842
   page: 227
-  issued:
-    year: 1842
   URL: https://books.google.co.nz/books?id=cpNEAAAAcAAJ&pg=PA227
 PatentLudoCrownAnchor:
   type: patent
@@ -4241,28 +4380,29 @@ CelebratingCricket:
   author:
     - given: Frank E.
       family: Manning
-  container-title: American Ethnologist
-  volume: 8
-  issue: 3
-  issued:
-    year: 1981
-    month: 8
   page: 616–632
   URL: http://www.jstor.org/stable/644305
+  in:
+    title: American Ethnologist
+    volume: 8
+    issue: 3
+    issued:
+      year: 1981
+      month: 8
 CupMatchAndCarnival:
   type: paper-conference
-  title: "Cup Match and Carnival: Secular Rites of Revitalization in Decolonizing,
-    Tourist-Oriented Societies"
+  title: "Cup Match and Carnival: Secular Rites of Revitalization in Decolonizing, Tourist-Oriented Societies"
   author:
     - given: Frank E.
       family: Manning
-  issued:
-    year: 1977
-  publisher: Van Gorcum
-  publisher-place: Amsterdam, The Netherlands
-  container-title: Secular Ritual
+  in:
+    issued:
+      year: 1977
+    publisher: Van Gorcum
+    publisher-place: Amsterdam, The Netherlands
+    title: Secular Ritual
+    ISBN: 90-232-1457-9
   page: 265–281
-  ISBN: 90-232-1457-9
 EastEndUnderworld:
   type: book
   URL: https://archive.org/details/eastendunderworl0000hard
@@ -4319,25 +4459,27 @@ SmallerSlangDictionary:
 ABookmakerAndThePolice:
   type: article-newspaper
   title: A Sensation at the Poona Races
-  container-title: Madras Weekly Mail
-  issued:
-    year: 1905
-    month: 10
-    day: 12
+  in:
+    title: Madras Weekly Mail
+    issued:
+      year: 1905
+      month: 10
+      day: 12
+    volume: 61
+    issue: 15
+    publisher-place: Chennai, Tamil Nadu, India
   page: 16
-  volume: 61
-  issue: 15
-  publisher-place: Chennai, Tamil Nadu, India
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0003345/19051012/198/0016
 HeartAnchorAndCrown:
   type: article-journal
   title: Emperor v. Hussein Noor Mahomed and Others
   page: 348–358
-  container-title: The Indian Law Reports, Bombay Series
-  volume: 30
-  issued:
-    year: 1906
   URL: https://archive.org/details/in.ernet.dli.2015.274162/page/n365
+  in:
+    title: The Indian Law Reports, Bombay Series
+    volume: 30
+    issued:
+      year: 1906
 AScapeToBermuda:
   type: book
   URL: https://archive.org/details/scapetobermuda0000macd
@@ -4360,14 +4502,16 @@ WOPCNCC:
 MaedaBook:
   type: book
   URL: https://dl.ndl.go.jp/info:ndljp/pid/861407
-  title: "骨牌勝利法 : 文明遊具 一名・まける事しらず"
-  title-lang: ja
+  title:
+    value: "骨牌勝利法 : 文明遊具 一名・まける事しらず"
+    lang: ja
   author:
     - family: 前田
       given: 喜兵衛
       lang: ja
-  publisher: 上方かるた商店
-  publisher-lang: ja
+  publisher:
+    value: 上方かるた商店
+    lang: ja
   publisher-place: Tokyo, Japan
   issued:
     year: 1888
@@ -4392,26 +4536,30 @@ SEAlangBalinese:
     year: 2011
 郑超麟回忆录:
   type: book
-  title: 郑超麟回忆录
-  title-lang: zh
+  title:
+    value: 郑超麟回忆录
+    lang: zh
   author:
     - family: 郑
       given: 超麟
       lang: zh
-      alt: Zhèng Chāo-Lín
-      alt-lang: zh-Latn
+      alt:
+        value: Zhèng Chāo-Lín
+        lang: zh-Latn
   volume: 1 (1900–1919)
-  publisher: 现代史料编刊社
-  publisher-lang: zh
+  publisher:
+    value: 现代史料编刊社
+    lang: zh
   issued:
     year: 1986
   URL: https://www.marxists.org/chinese/zhengchaolin/1900-1931/1-08.htm
 LawsOfBrunei:
   type: chapter
   title: "Chapter 28: Common Gaming Houses"
-  container-title: "Laws of Brunei: Revised Edition 2019"
-  issued:
-    year: 2019
+  in:
+    title: "Laws of Brunei: Revised Edition 2019"
+    issued:
+      year: 2019
   URL: https://www.agc.gov.bn/AGC%20Images/LAWS/ACT_PDF/CAP%2028.pdf
 SingaporeGamesOfChanceAndSkill:
   type: webpage
@@ -4465,14 +4613,17 @@ ComicNurseryTales:
   publisher-place: London
 alQamus:
   type: book
-  title: القاموس المحيط
-  title-lang: ar
-  title-alt: The Surrounding Ocean
+  title:
+    value: القاموس المحيط
+    lang: ar
+    alt: The Surrounding Ocean
   author:
     - family: فيروزآبادى
       given: محمد بن يعقوب
       lang: ar
-      alt: Muḥammad ibn Yaʿqūb al-Fīrūzābādī
+      alt:
+        value: Muḥammad ibn Yaʿqūb al-Fīrūzābādī
+        lang: ar-Latn
   issued:
     year: 1414
   notes: Published 1350–1450?
@@ -4483,17 +4634,18 @@ GamblingInIslam:
   author:
     - given: Franz
       family: Rosenthal
-  editor:
-    - given: Dimitri
-      family: Gutas
-  container-title: Man versus Society in Medieval Islam
-  ISBN: 978-90-04-27089-3
-  issued:
-    year: 2015
-  original-date:
-    year: 1975
-  publisher: Brill
-  publisher-place: Leiden, The Netherlands
+  in:
+    editor:
+      - given: Dimitri
+        family: Gutas
+    title: Man versus Society in Medieval Islam
+    ISBN: 978-90-04-27089-3
+    issued:
+      year: 2015
+    original-date:
+      year: 1975
+    publisher: Brill
+    publisher-place: Leiden, The Netherlands
   page: 338–516
 VictorianTTT:
   type: webpage
@@ -4511,13 +4663,14 @@ AutomaticTTT:
   author:
     - given: Frank T.
       family: Freeland
-  container-title: Journal of the Franklin Institute of the State of Pennsylvania
-  issued:
-    year: 1879
-  volume: 102
-  issue: 1
   page: 1–9
   URL: https://archive.org/details/journalfranklini107fran/page/n17
+  in:
+    title: Journal of the Franklin Institute of the State of Pennsylvania
+    volume: 102
+    issue: 1
+    issued:
+      year: 1879
 LaneTab:
   type: webpage
   title: "Arabic–English Lexicon by Edward William Lane (d. 1876): <span
@@ -4536,12 +4689,13 @@ AdjiBoto:
   author:
     - given: Melville J.
       family: Herskovits
-  issued:
-    month: 7
-    year: 1929
-  container-title: Man
-  volume: 29
   page: 122-127
+  in:
+    title: Man
+    volume: 29
+    issued:
+      month: 7
+      year: 1929
 AtlitCastle:
   type: article-journal
   title: Excavations at Pilgrims’ Castle, ʿAtlit (1932–3); Stables at the
@@ -4549,42 +4703,46 @@ AtlitCastle:
   author:
     - given: C. N.
       family: Johns
-  container-title: The Quarterly of the Department of Antiquities in Palestine
-  volume: 5
   page: 31–61
-  issued:
-    year: 1936
   URL: https://books.google.co.nz/books?id=uFTVAAAAMAAJ&pg=PA42-IA1
+  in:
+    title: The Quarterly of the Department of Antiquities in Palestine
+    volume: 5
+    issued:
+      year: 1936
 TriHex:
   type: article-magazine
   title: "Puzzles and paradoxes 54: New boards for old games"
   URL: https://books.google.co.nz/books?id=t67vgnmxjPoC&pg=PA98
-  container-title: New Scientist
-  issued:
-    year: 1962
-    month: 1
-    day: 11
+  in:
+    title: New Scientist
+    issued:
+      year: 1962
+      month: 1
+      day: 11
+    issue: 269
   author:
     - family: O’Beirne
       given: T. H.
-  issue: 269
   page: 98–99
 AWorldOfGames:
   type: article-newspaper
-  container-title: The Washington Post
   title: A World of Games
-  issued:
-    year: 2001
-    month: 7
-    day: 15
+  in:
+    title: The Washington Post
+    issued:
+      year: 2001
+      month: 7
+      day: 15
   author:
     - family: Eskin
       given: Blake
   URL: https://www.washingtonpost.com/archive/lifestyle/magazine/2001/07/15/a-world-of-games/2c7b88ce-2f2c-4253-b347-4154d274bb03/
 Trostspiegel:
   type: book
-  title: Trostspiegel in Glück und Unglück
-  title-lang: de
+  title:
+    value: Trostspiegel in Glück und Unglück
+    lang: de
   author:
     - family: Petrarca
       given: Francesco
@@ -4652,15 +4810,16 @@ WithTheAmmunitionTrain:
     - given: Frederick Gerald
       family: McAvity
   page: 91–95
-  container-title: What the “Boys”  did Overthere, by “Themselves”
-  editor:
-    - given: Henry L.
-      family: Fox
-  publisher: The Allied Overseas Veterans Stories Co.
-  publisher-place: New York
+  in:
+    title: What the “Boys”  did Overthere, by “Themselves”
+    editor:
+      - given: Henry L.
+        family: Fox
+    publisher: The Allied Overseas Veterans Stories Co.
+    publisher-place: New York
+    issued:
+      year: 1918
   URL: https://hdl.handle.net/2027/loc.ark:/13960/t2z32nv4t
-  issued:
-    year: 1918
 MapleLeavesInFlandersFields:
   type: book
   title: Maple Leaves in Flanders Fields
@@ -4679,13 +4838,14 @@ BoardGamesInBoatBurials:
   author:
     - given: Mark A.
       family: Hall
-  issued:
-    year: 2016
-  container-title: European Journal of Archaeology
-  volume: 19
-  issue: 3
   page: 439–455
   URL: https://doi.org/10.1080/14619571.2016.1175774
+  in:
+    title: European Journal of Archaeology
+    volume: 19
+    issue: 3
+    issued:
+      year: 2016
 ItsAFineWorld:
   type: book
   title: It’s a Fine World
@@ -4699,8 +4859,9 @@ ItsAFineWorld:
   URL: https://hdl.handle.net/2027/mdp.39015048888211
 JavaanseKaartspelen:
   type: book
-  title: "Javaanse Kaartspelen: bijdrage tot de beschrijving van land en volk"
-  title-lang: nl
+  title:
+    value: "Javaanse Kaartspelen: bijdrage tot de beschrijving van land en volk"
+    lang: nl
   author:
     - given: Tjan Tjoe
       family: Siem
@@ -4710,18 +4871,19 @@ JavaanseKaartspelen:
     year: 1941
 JavaanseKaartspelenReview:
   type: article-journal
-  title: "Tjan Tjoe Siem: Javaansche Kaartspelen: bidrage tot de beschrijving van
-    land en volk"
-  title-lang: nl
+  title:
+    value: "Tjan Tjoe Siem: Javaansche Kaartspelen: bidrage tot de beschrijving van land en volk"
+    lang: nl
   author:
     - given: E. M.
       family: Uhlenbeck
-  volume: 139
-  container-title: Bijdragen tot de Taal-, Land- en Volkenkunde
-  issued:
-    year: 1983
   page: 348-356
   URL: https://www.jstor.org/stable/27863508
+  in:
+    title: Bijdragen tot de Taal-, Land- en Volkenkunde
+    volume: 139
+    issued:
+      year: 1983
 ChineseInAmerica:
   type: book
   title: The Gambling Games of the Chinese in America
@@ -4746,21 +4908,25 @@ ChineseGames:
   URL: https://archive.org/details/chinesegameswith01culi
 SparrowAndPigeon:
   type: article-journal
-  title: “麻雀牌”與“白鴿票”之原詞形音義探討
-  title-lang: zh-Hant
+  title:
+    value: “麻雀牌”與“白鴿票”之原詞形音義探討
+    lang: zh-Hant
   author:
     - family: 譚
       given: 世寶
       lang: zh-Hant
-      alt: Tán Shìbǎo
-      alt-lang: zh-Latn
-  issued:
-    year: 2014
-  volume: 93
+      alt:
+        value: Tán Shìbǎo
+        lang: zh-Latn-pinyin
   page: 26–37
-  container-title: Revista de Cultura
-  container-title-lang: pt
   URL: http://www.icm.gov.mo/rc/viewer/10093/2508
+  in:
+    title: 
+      value: Revista de Cultura
+      lang: pt
+    volume: 93
+    issued:
+      year: 2014
 GamesOfChanceInMacau2:
   type: article-journal
   title: "A History of Games of Chance in Macau: Part 2 — The Foundation of the
@@ -4768,13 +4934,14 @@ GamesOfChanceInMacau2:
   author:
     - given: Jorge
       family: Godinho
-  container-title: Gaming Law Review and Economics
-  volume: 17
-  issue: 2
-  issued:
-    year: 2013
   page: 107–117
   URL: https://dx.doi.org/10.2139/ssrn.2263191
+  in:
+    title: Gaming Law Review and Economics
+    volume: 17
+    issue: 2
+    issued:
+      year: 2013
 GuinnessMusicFacts:
   type: book
   title: The Guinness Book of Music Facts and Feats
@@ -4793,22 +4960,27 @@ GuinnessMusicFacts:
 QinYingChapter:
   type: chapter
   URL: https://ctext.org/wiki.pl?if=en&chapter=161645
-  title: 列傳一百四十一
-  title-lang: zh
-  container-title: 清史稿
-  container-title-lang: zh
+  title:
+    value: 列傳一百四十一
+    lang: zh
+  in:
+    title:
+      value: 清史稿
+      lang: zh
+    issued:
+      year: 1928
   author:
     - family: 趙
       given: 爾巽
       lang: zh
-      alt: Zhào Ěrxùn
-      alt-lang: zh-Latn
-  issued:
-    year: 1928
+      alt: 
+        value: Zhào Ěrxùn
+        lang: zh-Latn-pinyin
 PermainanKoaPart1:
   type: webpage
-  title: Permainan KOA (bagian 1)
-  title-lang: id
+  title:
+    value: Permainan KOA (bagian 1)
+    lang: id
   URL: http://auacorner.blogspot.com/2013/08/permainan-koa-bagian-1.html
   archive-URL: https://web.archive.org/web/20200222140448/http://auacorner.blogspot.com/2013/08/permainan-koa-bagian-1.html
   container-title: Cindua Dingin
@@ -4819,8 +4991,9 @@ PermainanKoaPart1:
     month: 8
 HetMaleischderMolukken:
   type: book
-  title: Het Maleisch der Molukken
-  title-lang: nl
+  title:
+    value: Het Maleisch der Molukken
+    lang: nl
   author:
     - given: Frederik Sigismund Alexander
       family: de Clercq
@@ -4832,46 +5005,53 @@ HetMaleischderMolukken:
   URL: https://hdl.handle.net/2027/coo.31924062591262
 YoungCeki:
   type: article-journal
-  title: Bijdrage tot de kennis der Chinesche hazard- en kaartspelen
-  title-lang: nl
+  title:
+    value: Bijdrage tot de kennis der Chinesche hazard- en kaartspelen
+    lang: nl
   author:
     - given: J. W.
       family: Young
-  container-title: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
-  container-title-lang: nl
-  volume: 31
   page: 269–302
-  issued:
-    year: 1886
   URL: https://books.google.co.nz/books?id=BSUDAAAAYAAJ&pg=PA269
+  in:
+    title:
+      value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
+      lang: nl
+    volume: 31
+    issued:
+      year: 1886
 deClercqPehiSpel:
   type: article-journal
-  title: Verklaring van het Péhi-spel
-  title-lang: nl
+  title:
+    value: Verklaring van het Péhi-spel
+    lang: nl
   URL: https://munas.kemdikbud.go.id/ebook/file/tijd/TBG1876_23.pdf
   author:
     - given: Frederik Sigismund Alexander
       family: de Clercq
       lang: nl
-  container-title: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
-  container-title-lang: nl
-  volume: 23
-  issued:
-    year: 1876
   page: 512–516
+  in:
+    title: 
+      value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
+      lang: nl
+    volume: 23
+    issued:
+      year: 1876
 SchadlerMisconceptions:
   type: article-journal
   title: Some misconceptions about Ancient Roman Games
   author:
     - given: Ulrich
       family: Schädler
-  container-title: Board Game Studies Journal
-  volume: 15
-  issue: 1
   page: 79–97
-  issued:
-    year: 2021
   URL: https://doi.org/10.2478/bgs-2021-0004
+  in:
+    title: Board Game Studies Journal
+    volume: 15
+    issue: 1
+    issued:
+      year: 2021
 FrancisWillughby:
   type: book
   title: "Francis Willughby’s Book of Games: a seventeenth-century treatise on
@@ -4894,15 +5074,16 @@ FrancisWillughby:
 GamesOfNewZealandChildren:
   type: chapter
   title: The Games of New Zealand Children
-  container-title: The Folk-Games of Children
   author:
     - given: Brian
       family: Sutton–Smith
-  publisher: The American Folklore Society
-  issued:
-    year: 1972
   page: 5–257
-  ISBN: "0292724055"
+  in:
+    title: The Folk-Games of Children
+    publisher: The American Folklore Society
+    issued:
+      year: 1972
+    ISBN: "0292724055"
 PangHauKiImage:
   type: webpage
   title: "Game Diagram: Pang Hau Ki"
@@ -4913,108 +5094,117 @@ PangHauKiImage:
 Butito:
   type: article-journal
   title: Butito
-  container-title: The Australian Children’s Folklore Newsletter
-  issued:
-    year: 1986
-    month: 8
-  issue: 11
   URL: https://museumsvictoria.com.au/media/3792/australian-childrens-folklore-issue11-oct1986.pdf
   page: 12–13
+  in:
+    title: The Australian Children’s Folklore Newsletter
+    issue: 11
+    issued:
+      year: 1986
+      month: 8
 HoneHekePakAPoo:
   type: article-newspaper
   title: "Parliamentary: House of Representatives"
-  container-title: Oamaru Mail
-  volume: "29"
-  issue: 8568
   page: 4
-  issued:
-    year: 1904
-    month: 8
-    day: 24
+  in:
+    title: Oamaru Mail
+    volume: 29
+    issue: 8568
+    issued:
+      year: 1904
+      month: 8
+      day: 24
   URL: https://paperspast.natlib.govt.nz/newspapers/OAM19040824.2.26
 ThePolicemanAndTheGeese:
   type: article-newspaper
   title: The Policeman and the Geese
-  container-title: Evening Post
-  volume: 63
-  issue: 11
-  issued:
-    year: 1902
-    month: 1
-    day: 14
   page: 4
+  in:
+    title: Evening Post
+    volume: 63
+    issue: 11
+    issued:
+      year: 1902
+      month: 1
+      day: 14
   URL: https://paperspast.natlib.govt.nz/newspapers/EP19020114.2.23
 InconsistentLegislation:
   type: article-newspaper
   title: "Daily Notes: Inconsistent Legislation"
-  container-title: Star
-  issue: 8072
-  issued:
-    year: 1904
-    month: 7
-    day: 26
   page: 2
+  in:
+    title: Star
+    issue: 8072
+    issued:
+      year: 1904
+      month: 7
+      day: 26
   URL: https://paperspast.natlib.govt.nz/newspapers/TS19040726.2.10
 WhenDoesAManPlayPakAPu:
   type: article-newspaper
   title: "Chinese Gaming Cases: Appeal to the Supreme Court — When Does A Man Play
     Pak-A-Pu?"
   URL: https://paperspast.natlib.govt.nz/newspapers/NZTIM19020410.2.38
-  container-title: New Zealand Times
-  volume: 72
-  issue: 4632
-  issued:
-    year: 1902
-    month: 4
-    day: 10
+  in:
+    title: New Zealand Times
+    volume: 72
+    issue: 4632
+    issued:
+      year: 1902
+      month: 4
+      day: 10
   page: 7
 ImportantJudgement:
   type: article-newspaper
   title: "Supreme Court: Sitting in Banco — Important Judgement"
   URL: https://paperspast.natlib.govt.nz/newspapers/NZTIM19020412.2.4
-  container-title: New Zealand Times
-  volume: 72
-  issue: 4634
-  issued:
-    year: 1902
-    month: 4
-    day: 12
+  in:
+    title: New Zealand Times
+    volume: 72
+    issue: 4634
+    issued:
+      year: 1902
+      month: 4
+      day: 12
   page: 2
 LeeSunVDanielConolly:
   type: article-journal
   title: Lee Sun v. Daniel Conolly
   URL: http://www.nzlii.org/nz/cases/NZGazLawRp/1905/29.html
-  container-title: New Zealand Gazette Law Reports
-  volume: 7
-  issued:
-    year: 1905
   author:
     - family: Williams
       given: J.
   page: 494–497
+  in:
+    title: New Zealand Gazette Law Reports
+    volume: 7
+    issued:
+      year: 1905
 JoeQuickVCox:
   type: article-journal
   title: Joe Quick (and others) v. Cox
   URL: http://www.nzlii.org/nz/cases/NZGazLawRp/1905/28.html
-  container-title: New Zealand Gazette Law Reports
-  volume: 7
-  issued:
-    year: 1905
   author:
     - family: Stout
       given: C. J.
   page: 492–494
+  in:
+    title: New Zealand Gazette Law Reports
+    volume: 7
+    issued:
+      year: 1905
 PakAPooNotALottery:
   type: article-newspaper
   URL: https://paperspast.natlib.govt.nz/newspapers/ESD19030723.2.28
   title: "Pak-A-Poo Is Not A Lottery: The Chief Justice’s Recent Dictum — Followed
     By The Magistrate"
-  container-title: Evening Star
-  issue: 11946
-  issued:
-    year: 1903
-    month: 7
-    day: 23
+  in:
+    title: Evening Star
+    issue: 11946
+    issued:
+      year: 1903
+      month: 7
+      day: 23
   page: 4
 EncyclopediaOfKeno:
   type: book
@@ -5030,81 +5220,90 @@ EncyclopediaOfKeno:
 FanTanGamesToReopen:
   type: article-newspaper
   title: Fan-Tan Games to Reopen
-  container-title: The New York Times
-  issued:
-    year: 1892
-    month: 2
-    day: 24
+  in:
+    title: The New York Times
+    issued:
+      year: 1892
+      month: 2
+      day: 24
+    publisher-place: New York, NY, USA
   page: 9
-  publisher-place: New York, NY, USA
   URL: https://www.proquest.com/hnpnewyorktimes/docview/95029656/7114149A6A064F15PQ/3
 FinalMahjong:
   type: book
-  title: アカギ 36―闇に降り立った天才 (掉尾の闘牌)
-  title-lang: ja
+  title:
+    value: アカギ 36―闇に降り立った天才 (掉尾の闘牌)
+    lang: ja
   ISBN: 978-4801963085
   author:
     - family: 福本
       given: 伸行
       lang: ja
-      alt: Fukumoto Nobuyuki
-      alt-lang: ja-Latn
+      alt:
+        value: Fukumoto Nobuyuki
+        lang: ja-Latn
   issued:
     year: 2018
-  publisher: 竹書房
-  publisher-lang: ja
+  publisher:
+    value: 竹書房
+    lang: ja
   publisher-place: Tokyo, Japan
 SharpersAtAltcar:
   type: article-newspaper
   title: Sharpers At Altcar
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0000872/18700219/151/0006
-  container-title: Liverpool Courier and Commercial Advertiser
-  issued:
-    year: 1870
-    month: 2
-    day: 19
+  in:
+    title: Liverpool Courier and Commercial Advertiser
+    issued:
+      year: 1870
+      month: 2
+      day: 19
   page: 6
 MorningChronicleOldBailey:
   type: article-newspaper
   title: Old Bailey
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0000082/18160415/008/0003#
-  container-title: Morning Chronicle
-  issued:
-    year: 1816
-    month: 4
-    day: 15
+  in:
+    title: Morning Chronicle
+    issued:
+      year: 1816
+      month: 4
+      day: 15
+    publisher-place: London
   page: 3
-  publisher-place: London
 EastbourneHunt:
   type: article-newspaper
   title: Eastbourne Hunt Races
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0001928/18640420/038/0004
-  container-title: Eastbourne Gazette
-  issued:
-    year: 1864
-    month: 4
-    day: 20
+  in:
+    title: Eastbourne Gazette
+    issued:
+      year: 1864
+      month: 4
+      day: 20
   page: 4
 CamberwellFair:
   type: article-newspaper
   title: Camberwell Fair
   URL: https://www.britishnewspaperarchive.co.uk/viewer/bl/0002646/18140819/020/0004
-  container-title: Star
-  issued:
-    year: 1814
-    month: 8
-    day: 19
+  in:
+    title: Star
+    issued:
+      year: 1814
+      month: 8
+      day: 19
+    publisher-place: London
   page: 4
-  publisher-location: London
 Tiverton:
   type: article-newspaper
   title: Tiverton
   URL: https://www.newspapers.com/clip/120656150/obituary-for-g-s-gervis/
-  container-title: Western Times
-  issued:
-    year: 1838
-    month: 10
-    day: 6
+  in:
+    title: Western Times
+    issued:
+      year: 1838
+      month: 10
+      day: 6
   page: 3
 PoliticalSatiricalHistory:
   type: book
@@ -5122,37 +5321,40 @@ CatalogueOfPrintsAndDrawingsI:
   author:
     - family: Stephens
       given: Frederic
-  volume: 3
-  issue: 2 — 1751 to circa 1760
+  volume: "3 (part 2)"
+  volume-title: 1751 to circa 1760
   issued:
     year: 1877
 LouisMoland:
   type: book
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k205144z/f89.item
-  title: "François Rabelais: tout ce qui existe de ses œuvres"
-  title-lang: fr
+  title:
+    value: "François Rabelais: tout ce qui existe de ses œuvres"
+    lang: fr
   author:
     - given: François
       family: Rabelais
       lang: fr
   editor:
-    family: Moland
-    given: Louis
-    lang: fr
+    - family: Moland
+      given: Louis
+      lang: fr
   issued:
     year: 1884
   publisher-place: Paris
 EtienneDolet:
   type: book
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k79281z/f98.item
-  title: La Plaiſante, & Ioyeuse hiſtoyre du grand Geant Gargantua
-  title-lang: fr
+  title: 
+    value: La Plaiſante, & Ioyeuse hiſtoyre du grand Geant Gargantua
+    lang: fr
   author:
     - given: François
       family: Rabelais
       lang: fr
-  publisher: Eſtienne Dolet
-  publisher-lang: fr
+  publisher:
+    value: Eſtienne Dolet
+    lang: fr
   publisher-place: Lyon, France
   issued:
     year: 1542
@@ -5200,15 +5402,17 @@ Screech:
   URL: https://archive.org/details/gargantuapantagr00rabe_0
 Juste1534:
   type: book
-  title: Gargantua
-  title-lang: fr
+  title:
+    value: Gargantua
+    lang: fr
   URL: https://gallica.bnf.fr/ark:/12148/btv1b8609586k/f76.item
   author:
     - given: François
       family: Rabelais
       lang: fr
-  publisher: François Juste
-  publisher-lang: fr
+  publisher:
+    value: François Juste
+    lang: fr
   publisher-place: Lyon, France
   issued:
     year: 1534
@@ -5250,31 +5454,36 @@ Pakapio:
   type: article-newspaper
   URL: https://www.newspapers.com/clip/101135182/pakapio/
   title: Police Court
-  issued:
-    year: 1886
-    month: 12
-    day: 2
   page: 2
-  container-title: The Honoulu Advertiser
-  publisher-place: Honolulu, Hawaiʻi
+  in:
+    issued:
+      year: 1886
+      month: 12
+      day: 2
+    title: The Honoulu Advertiser
+    publisher-place: Honolulu, Hawaiʻi
 JeuxDeGargantua:
   type: article-journal
   URL: https://archive.org/details/revuedestudesra02rabegoog/page/n23/mode/2up
-  title: Les Jeux de Gargantua
-  title-lang: fr
+  title:
+    value: Les Jeux de Gargantua
+    lang: fr
   author:
     - family: Psichari
       given: Michel
-  issued:
-    year: 1908
   page: 1–37, 124–81, 317–61
-  volume: 6
-  container-title: Revue des Études rabelaisiennes
-  container-title-lang: fr
+  in:
+    title:
+      value: Revue des Études rabelaisiennes
+      lang: fr
+    volume: 6
+    issued:
+      year: 1908
 Fischarts:
   type: book
-  title: Geschichtklitterung
-  title-lang: de
+  title:
+    value: Geschichtklitterung
+    lang: de
   URL: https://archive.org/details/johannfischarts00fiscgoog/page/258
   author:
     - given: Johann
@@ -5289,15 +5498,17 @@ Fischarts:
 Yasukaki:
   type: webpage
   URL: https://www.asahi-net.or.jp/~rp9h-tkhs/dg_yasukari.htm
-  title: 八道行成
-  title-lang: ja
+  title:
+    value: 八道行成
+    lang: ja
   publisher: Boardwalk Community
   author:
     - given: 浩徳
       family: 高橋
       lang: ja
-      alt: Takahashi Hironori
-      alt-lang: ja-Latn
+      alt:
+        value: Takahashi Hironori
+        lang: ja-Latn
   issued:
     year: 1999
 Lusthaus:
@@ -5307,12 +5518,12 @@ Lusthaus:
   author:
     - given: Dan
       family: Lusthaus
-  container-title: "From Chang’an to Nālandā: The Life and Legacy of the Chinese
-    Buddhist Monk Xuanzang (602?–664)"
-  publisher: World Scholastic
-  ISBN: 978-981-14-6185-9
-  issued:
-    year: 2020
+  in:
+    title: "From Chang’an to Nālandā: The Life and Legacy of the Chinese Buddhist Monk Xuanzang (602?–664)"
+    publisher: World Scholastic
+    ISBN: 978-981-14-6185-9
+    issued:
+      year: 2020
   page: 159–219
 TransitionalDemocracy:
   type: chapter
@@ -5322,38 +5533,44 @@ TransitionalDemocracy:
     - given: Ali Azhar
       family: Muhammad
   page: 155–176
-  container-title: Security, Democracy, and Society in Bali
-  issued:
-    year: 2021
-  editor:
-    - given: Andrew
-      family: Vandenberg
-    - given: Nazrina
-      family: Zuryani
-  publisher: Palgrave Macmillan
-  publisher-place: Singapore
-  ISBN: 978-981-15-5848-1
+  in:
+    title: Security, Democracy, and Society in Bali
+    issued:
+      year: 2021
+    editor:
+      - given: Andrew
+        family: Vandenberg
+      - given: Nazrina
+        family: Zuryani
+    publisher: Palgrave Macmillan
+    publisher-place: Singapore
+    ISBN: 978-981-15-5848-1
   URL: https://doi.org/10.1007/978-981-15-5848-1_7
 NagoyaReport:
+  type: book
   URL: https://dl.ndl.go.jp/info:ndljp/pid/1269696
-  title: 司法資料. 第121号
-  title-lang: ja
-  publisher: 司法省調査課
-  publisher-lang: ja
+  title:
+    value: 司法資料. 第121号
+    lang: ja
+  publisher:
+    value: 司法省調査課
+    lang: ja
   issued:
     year: 1927
 LuRong:
   type: book
-  title: 菽园杂记
-  title-lang: zh
+  title:
+    value: 菽园杂记
+    lang: zh
   volume: 3
   URL: https://ctext.org/library.pl?if=en&file=89214&page=90&remap=gb
   author:
     - family: 陆
       given: 容
       lang: zh
-      alt: Lù Róng
-      alt-lang: zh-Latn
+      alt:
+        value: Lù Róng
+        lang: zh-Latn-pinyin
   issued:
     year: 1475
 GameOfLeaves:
@@ -5362,50 +5579,60 @@ GameOfLeaves:
   author:
     - given: Andrew
       family: Lo
-  container-title: Bulletin of the School of Oriental and African Studies, University of London
-  volume: 63
-  issue: 3
-  issued:
-    year: 2000
   page: 389–406
   URL: http://www.jstor.org/stable/1559494
+  in:
+    title: Bulletin of the School of Oriental and African Studies, University of
+      London
+    volume: 63
+    issue: 3
+    issued:
+      year: 2000
 WaterMarginDate:
   type: article-journal
-  title: 从《菽园杂记》、《叶子谱》所记“叶子戏”看《水浒传》成书时间
-  title-lang: zh
+  title:
+    value: 从《菽园杂记》、《叶子谱》所记“叶子戏”看《水浒传》成书时间
+    lang: zh
   author:
     - family: 王
       given: 齐洲
       lang: zh
-      alt: Wang Qizhou
-      alt-lang: zh-Latn
+      alt:
+        value: Wang Qizhou
+        lang: zh-Latn
     - family: 王
       given: 丽娟
       lang: zh
-      alt: Wang Lijuan
-      alt-lang: zh-Latn
-  issued:
-    year: 2011
-  issue: 3
-  container-title: 南开学报：哲学社会科学版
-  container-title-lang: zh
+      alt:
+        value: Wang Lijuan
+        lang: zh-Latn
   URL: http://rdbk1.ynlib.cn:6251/Qk/Paper/453522
+  in:
+    title:
+      value: 南开学报：哲学社会科学版
+      lang: zh
+    issue: 3
+    issued:
+      year: 2011
 ThaiGambling:
   type: book
-  title: พนันกับการบูรณาการหลักธรรมเพื่อแก้ปัญหาจากการพนันของชุมชน
-  title-lang: th
+  title:
+    value: พนันกับการบูรณาการหลักธรรมเพื่อแก้ปัญหาจากการพนันของชุมชน
+    lang: th
   URL: http://gamblingstudy-th.org/imgadmins/research_file/ebook-60-13-Phannapong.pdf
   author:
     - family: วงศ์ณาศรี
       given: ปัณณพงศ์
       lang: th
-      alt: Pannapong Wongnasri
-      alt-lang: th-Latn
+      alt:
+        value: Pannapong Wongnasri
+        lang: th-Latn
     - family: จันทร์ศิริ
       given: นันธิดา
       lang: th
-      alt: Nanthida Chansiri
-      alt-lang: th-Latn
+      alt:
+        value: Nanthida Chansiri
+        lang: th-Latn
   issued:
     year: 2017
   publisher: ศูนย์ศึกษาปัญหาการพนัน คณะเศรษฐศาสตร์ จุฬาลงกรณ์มหาวิทยาลัย
@@ -5413,8 +5640,9 @@ ThaiGambling:
 BoegineeschWoordenboek:
   type: book
   URL: https://nla.gov.au/nla.obj-49107637/view
-  title: Boegineesch–Hollandsch woordenboek
-  title-lang: nl
+  title:
+    value: Boegineesch–Hollandsch woordenboek
+    lang: nl
   author:
     - family: Matthes
       given: Benjamin Frederik
@@ -5426,8 +5654,9 @@ BoegineeschWoordenboek:
 MakassaarschWoordenboek:
   type: book
   URL: https://books.google.co.nz/books?id=0qQDAAAAMAAJ
-  title: Makassaarsch–Hollandsch woordenboek
-  title-lang: nl
+  title:
+    value: Makassaarsch–Hollandsch woordenboek
+    lang: nl
   author:
     - family: Matthes
       given: Benjamin Frederik
@@ -5462,20 +5691,21 @@ DisputedGround:
   publisher-place: Wellington, New Zealand
 RememberingChinatown:
   type: chapter
-  container-title: "Unfolding History, Evolving Identity: The Chinese in New Zealand"
-  editor:
-    - given: Manying
-      family: Ip
   author:
     - given: Lynette
       family: Shum
-  title: "Remembering Chinatown: Haining Street of Wellington"
   page: 73–93
-  ISBN: "1869402898"
-  publisher: Auckland University Press
-  publisher-place: Auckland, New Zealand
-  issued:
-    year: 2003
+  title: "Remembering Chinatown: Haining Street of Wellington"
+  in:
+    title: "Unfolding History, Evolving Identity: The Chinese in New Zealand"
+    editor:
+      - given: Manying
+        family: Ip
+    ISBN: "1869402898"
+    publisher: Auckland University Press
+    publisher-place: Auckland, New Zealand
+    issued:
+      year: 2003
 RepresentingHainingStreet1:
   type: thesis
   title: "Representing Haining Street: Wellington’s Chinatown 1920–1960"
@@ -5505,8 +5735,6 @@ SegmentingChineseGamblers:
   URL: https://doi.org/10.1007/s10899-019-09877-6
   title: "Segmenting Chinese Gamblers Based on Gambling Forms: A Latent Class
     Analysis"
-  container-title: Journal of Gambling Studies
-  volume: 36
   page: 141–159
   author:
     - family: Nong
@@ -5517,144 +5745,158 @@ SegmentingChineseGamblers:
       given: Davis Ka Chio
     - family: Lam
       given: Desmond
-  issued:
-    year: 2020
+  in:
+    title: Journal of Gambling Studies
+    volume: 36
+    issued:
+      year: 2020
 HarryingOfChinese:
   type: article-newspaper
   title: Harrying of Chinese
   URL: https://paperspast.natlib.govt.nz/newspapers/EP19330908.2.100
-  container-title: Evening Post
-  volume: 116
-  issue: 60
   page: 9
-  issued:
-    year: 1933
-    month: 9
-    day: 8
+  in:
+    title: Evening Post
+    volume: 116
+    issue: 60
+    issued:
+      year: 1933
+      month: 9
+      day: 8
 TheChineseGamblingHouses:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/198574479
   title: The Chinese Gambling Houses
-  container-title: The Age
-  publisher-place: Melbourne, Victoria, Australia
-  issued:
-    day: 23
-    month: 1
-    year: 1873
+  in:
+    title: The Age
+    publisher-place: Melbourne, Victoria, Australia
+    issued:
+      day: 23
+      month: 1
+      year: 1873
+    issue: 5665
   page: 3
-  issue: 5665
 PakCupPewHospital:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/147367994
   title: Melbourne
-  container-title: Geelong Advertiser
-  publisher-place: Geelong, Victoria, Australia
-  issued:
-    year: 1874
-    month: 4
-    day: 27
+  in:
+    title: Geelong Advertiser
+    publisher-place: Geelong, Victoria, Australia
+    issued:
+      year: 1874
+      month: 4
+      day: 27
+    issue: 8398
   page: 3
-  issue: 8398
 TheChineseLotteryCases:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/201532665
   title: The Chinese Lottery Cases
-  container-title: The Age
-  publisher-place: Melbourne, Victoria, Australia
-  issued:
-    year: 1874
-    month: 8
-    day: 14
+  in:
+    title: The Age
+    publisher-place: Melbourne, Victoria, Australia
+    issued:
+      year: 1874
+      month: 8
+      day: 14
+    issue: 6092
   page: 4
-  issue: 6092
 HumiliatingAnomalies:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/61830563
   title: Editorial
-  container-title: The Gippsland Times
-  publisher-place: Gippsland, Victoria, Australia
   page: 2
-  issue: 1976
-  issued:
-    year: 1877
-    month: 11
-    day: 19
+  in:
+    title: The Gippsland Times
+    publisher-place: Gippsland, Victoria, Australia
+    issue: 1976
+    issued:
+      year: 1877
+      month: 11
+      day: 19
 CluthaPolitical:
   type: article-newspaper
   URL: https://paperspast.natlib.govt.nz/newspapers/CL18810805.2.8
   title: Political
-  container-title: Clutha Leader
-  publisher-place: Balcutha, Otago, New Zealand
-  volume: 8
-  issue: 408
-  issued:
-    year: 1881
-    month: 8
-    day: 5
-  page: "3"
+  page: 3
+  in:
+    title: Clutha Leader
+    publisher-place: Balcutha, Otago, New Zealand
+    volume: 8
+    issue: 408
+    issued:
+      year: 1881
+      month: 8
+      day: 5
 ChineseGamblingInSydney:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/18884504
   title: Chinese Gambling in Sydney
-  container-title: The Maitland Mercury and Hunter River General Advertiser
-  publisher-place: New South Wales, Australia
   page: 7
-  volume: 43
-  issue: 5913
-  issued:
-    year: 1886
-    month: 3
-    day: 23
+  in:
+    title: The Maitland Mercury and Hunter River General Advertiser
+    publisher-place: New South Wales, Australia
+    volume: 43
+    issue: 5913
+    issued:
+      year: 1886
+      month: 3
+      day: 23
 InAChineseLotteryShop:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/244716027/26855120
   title: In A Chinese Lottery Shop
-  container-title: Australasian Sketcher
-  publisher-place: Adelaide, South Australia, Australia
   page: 6
-  volume: 4
-  issue: 40
-  issued:
-    year: 1876
-    month: 4
-    day: 15
+  in:
+    title: Australasian Sketcher
+    publisher-place: Adelaide, South Australia, Australia
+    volume: 4
+    issue: 40
+    issued:
+      year: 1876
+      month: 4
+      day: 15
 TheChineseLottery1863:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/200382277
   title: The Chinese Lottery
-  container-title: Mount Alexander Mail
-  publisher-place: Castlemaine, Victoria, Australia
   page: 3
-  issue: 1390
-  issued:
-    year: 1863
-    month: 8
-    day: 26
+  in:
+    title: Mount Alexander Mail
+    publisher-place: Castlemaine, Victoria, Australia
+    issue: 1390
+    issued:
+      year: 1863
+      month: 8
+      day: 26
 SpendAHalfHour:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/5749196/212600
   title: Saturday, May 28, 1864
-  container-title: The Argus
-  publisher-place: Melbourne, Victoria, Australia
-  issue: 5608
   page: 5
-  issued:
-    year: 1864
-    month: 5
-    day: 28
+  in:
+    title: The Argus
+    publisher-place: Melbourne, Victoria, Australia
+    issue: 5608
+    issued:
+      year: 1864
+      month: 5
+      day: 28
 PoliceCourtsAChineseLottery:
   type: article-newspaper
   URL: https://trove.nla.gov.au/newspaper/article/245504464
   title: "Police Courts: City Court: A Chinese Lottery"
   page: 3
-  publisher-place: Melbourne, Victoria, Australia
-  container-title: The Herald
-  volume: 75
-  issue: 5841
-  issued:
-    year: 1864
-    month: 9
-    day: 8
+  in:
+    publisher-place: Melbourne, Victoria, Australia
+    title: The Herald
+    volume: 75
+    issue: 5841
+    issued:
+      year: 1864
+      month: 9
+      day: 8
 TheCompleteBookOfGames:
   type: book
   URL: https://archive.org/details/completebookofga0000unse_z7c5
@@ -5698,11 +5940,12 @@ TenGamesForCruisingFamilies:
   author:
     - given: Eileen Holm
       family: Matthew
-  issued:
-    month: 12
-    year: 1971
-  container-title: Motor Boating and Sailing
   page: 102–4
+  in:
+    issued:
+      month: 12
+      year: 1971
+    title: Motor Boating and Sailing
 TheApresSkiBook:
   type: book
   title: The Apres Ski Book
@@ -5799,42 +6042,45 @@ KingCrab:
 PakAPeuAtLawrence:
   type: article-newspaper
   title: “Pak-A-Peu” at Lawrence
-  container-title: The Evening Star
   URL: https://paperspast.natlib.govt.nz/newspapers/ESD18860511.2.19
   page: 3
-  issued:
-    year: 1886
-    month: 5
-    day: 11
-  issue: 6899
-  publisher-place: Dunedin, New Zealand
+  in:
+    title: The Evening Star
+    issued:
+      year: 1886
+      month: 5
+      day: 11
+    issue: 6899
+    publisher-place: Dunedin, New Zealand
 TheChineseInAustraliaBulletin:
   type: article-magazine
   title: "The Chinese in Australia: Their Vices and Their Victims"
   URL: http://nla.gov.au/nla.obj-733827687
-  container-title: The Bulletin
-  issued:
-    year: 1886
-    month: 8
-    day: 21
-  volume: 4
-  issue: 171
   page: 11
+  in:
+    title: The Bulletin
+    issued:
+      year: 1886
+      month: 8
+      day: 21
+    volume: 4
+    issue: 171
   warnings: This is a very racist article accompanied by very racist images in a
     very racist magazine.
 RacismRife:
   type: article-newspaper
   title: Racism rife aboard the Shanghai Trader
-  issued:
-    year: 1986
-    month: 8
-    day: 27
-  page: "17"
-  container-title: The Canberra Times
-  publisher-place: Canberra, ACT, Australia
+  page: 17
+  in:
+    issued:
+      year: 1986
+      month: 8
+      day: 27
+    title: The Canberra Times
+    publisher-place: Canberra, ACT, Australia
+    volume: 60
+    issue: 18592
   URL: https://trove.nla.gov.au/newspaper/article/119471302
-  volume: 60
-  issue: 18592
 HeatherAndFern:
   type: book
   title: "Heather and Fern: songs of Scotland and Maoriland"
@@ -5872,16 +6118,17 @@ LimehouseNights:
   URL: https://archive.org/details/limehousenights0000burk
 NYTimes18870127:
   type: article-newspaper
-  container-title: The New York Times
-  issued:
-    year: 1887
-    month: 1
-    day: 27
+  in:
+    title: The New York Times
+    issued:
+      year: 1887
+      month: 1
+      day: 27
+    volume: 37
+    issue: 11360
   URL: https://archive.org/details/sim_new-york-times_1887-01-27_37_11360
   page: 3
   title: Chinese Games of Chance
-  volume: "37"
-  issue: 11360
 AustralianWords:
   type: book
   title: Australian Words and Their Origins
@@ -5897,15 +6144,16 @@ AustralianWords:
 NewGamblingGame1924:
   title: New Gambling Game
   type: article-newspaper
-  container-title: Derby Daily Telegraph
-  publisher-place: Derby, England, UK
-  volume: 74
-  issue: 13756
   page: 3
-  issued:
-    year: 1924
-    month: 1
-    day: 1
+  in:
+    title: Derby Daily Telegraph
+    publisher-place: Derby, England, UK
+    volume: 74
+    issue: 13756
+    issued:
+      year: 1924
+      month: 1
+      day: 1
   URL: https://www.newspapers.com/clip/120656371/new-gambling-game/
 SharpsAndFlats:
   title: "Sharps and Flats: A Complete Revelation of The Secrets of Cheating at
@@ -5975,28 +6223,33 @@ MarathonMonument:
   author:
     - family: Vanderpool
       given: Eugene
-  container-title: "Hesperia: The Journal of the American School of Classical Studies at Athens"
-  issued:
-    year: 1966
-  volume: 35
-  issue: 2
   page: 93–106
   URL: https://www.jstor.org/stable/147299
+  in:
+    title: "Hesperia: The Journal of the American School of Classical Studies at
+      Athens"
+    volume: 35
+    issue: 2
+    issued:
+      year: 1966
 Himly:
   type: article-journal
   URL: https://www.jstor.org/stable/43361884
-  title: Anmerkungen in Beziehung auf das Schach- und andere Brettspiele
-  title-lang: de
+  title:
+    value: Anmerkungen in Beziehung auf das Schach- und andere Brettspiele
+    lang: de
   author:
     - family: Himly
       given: K.
-  container-title: Zeitschrift der Deutschen Morgenländischen Gesellschaft
-  container-title-lang: de
-  issued:
-    year: 1887
-  volume: 41
-  issue: 3
   page: 461–484
+  in:
+    title: 
+      value: Zeitschrift der Deutschen Morgenländischen Gesellschaft
+      lang: de
+    volume: 41
+    issue: 3
+    issued:
+      year: 1887
 CulinChess:
   type: book
   URL: https://archive.org/details/chessplayingcard00culi
@@ -6091,25 +6344,27 @@ OldManawatu:
 Tokomairiro:
   type: article-newspaper
   title: Tokomairiro
-  container-title: Tuapeka Times
-  volume: 1
-  issue: 18
-  issued:
-    year: 1868
-    month: 6
-    day: 13
+  in:
+    title: Tuapeka Times
+    volume: 1
+    issue: 18
+    issued:
+      year: 1868
+      month: 6
+      day: 13
   URL: https://paperspast.natlib.govt.nz/newspapers/TT18680613.2.10
   page: 3
 AGameOfEuchre:
   type: article-magazine
   title: A Game of Euchre
-  container-title: The Bulletin
-  issued:
-    year: 1893
-    month: 1
-    day: 7
-  volume: 12
-  issue: 673
+  in:
+    title: The Bulletin
+    issued:
+      year: 1893
+      month: 1
+      day: 7
+    volume: 12
+    issue: 673
   page: 19
   author:
     - given: J. A.
@@ -6118,15 +6373,17 @@ AGameOfEuchre:
 TigerTank:
   type: webpage
   container-title: Office of the Royal Society
-  title: เสือตกถัง
-  title-lang: th
+  title:
+    value: เสือตกถัง
+    lang: th
   URL: http://legacy.orst.go.th/?knowledges=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-%E0%B9%91%E0%B9%90-%E0%B8%81%E0%B8%B8%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C
   author:
     - given: อิสริยา
       family: เลาหตีรานนท์
       lang: th
-      alt: Isriya Laohatiranon
-      alt-lang: th-Latn
+      alt:
+        value: Isriya Laohatiranon
+        lang: th-Latn
   issued:
     year: 2009
     month: 2
@@ -6206,15 +6463,16 @@ LostButte:
 FrancisLydenButteBoy:
   type: article-newspaper
   title: Reno After Dark
-  container-title: Nevada State Journal
-  publisher-place: Reno, Nevada, USA
-  issued:
-    year: 1936
-    month: 5
-    day: 30
   page: 9
-  volume: 65
-  issue: 205
+  in:
+    title: Nevada State Journal
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1936
+      month: 5
+      day: 30
+    volume: 65
+    issue: 205
 Fussbudget:
   type: article-newspaper
   title: Center Street Gossip
@@ -6222,66 +6480,71 @@ Fussbudget:
   author:
     - given: Johnny
       family: Langford
-  container-title: Nevada State Journal
-  publisher-place: Reno, Nevada, USA
-  issued:
-    year: 1938
-    month: 2
-    day: 19
   page: 5
-  volume: 67
-  issue: 102
+  in:
+    title: Nevada State Journal
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1938
+      month: 2
+      day: 19
+    volume: 67
+    issue: 102
 ChineseGamblersRaided:
   title: Chinese Gamblers Raided By Police
   type: article-newspaper
-  container-title: Washington Times
-  publisher-place: Washington, District of Columbia, USA
-  issued:
-    year: 1899
-    month: 6
-    day: 5
   page: 8
-  issue: 1871
+  in:
+    publisher-place: Washington, District of Columbia, USA
+    title: Washington Times
+    issued:
+      year: 1899
+      month: 6
+      day: 5
+    issue: 1871
   URL: https://www.newspapers.com/clip/109467303/
 JBCrane:
   title: Mayor Decides Who’s Who
   type: article-newspaper
-  container-title: Nevada State Journal
-  publisher-place: Reno, Nevada, USA
-  issued:
-    year: 1933
-    month: 6
-    day: 16
   page: 1
-  volume: 62
-  issue: 322
+  in:
+    title: Nevada State Journal
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1933
+      month: 6
+      day: 16
+    volume: 62
+    issue: 322
   URL: https://www.newspapers.com/newspage/75057815/
 JosephMichaelLyden:
   title: Joseph Michael Lyden
   type: article-newspaper
   page: 6 (Section B)
-  container-title: The New York Times
-  publisher-place: New York, NY, USA
   URL: https://www.nytimes.com/1982/10/19/obituaries/joseph-michael-lyden.html
-  issued:
-    year: 1982
-    month: 10
-    day: 19
+  in:
+    title: The New York Times
+    publisher-place: New York, NY, USA
+    issued:
+      year: 1982
+      month: 10
+      day: 19
   author:
     - given: Associated Press
 LydenBrothers:
   title: Peter Naughton Passes on Coast
   type: article-newspaper
   page: 2
-  issued:
-    year: 1938
-    month: 4
-    day: 4
-  container-title: "Montana Standard: Butte"
-  publisher-place: Butte, Montana, USA
+  in:
+    issued:
+      year: 1938
+      month: 4
+      day: 4
+    title: "Montana Standard: Butte"
+    publisher-place: Butte, Montana, USA
+    volume: 75
+    issue: 178
   URL: https://newspaperarchive-com.wikipedialibrary.idm.oclc.org/us/montana/butte/butte-montana-standard/1938/04-04/page-2/
-  volume: 75
-  issue: 178
 AFamilyAffair:
   type: book
   title: "A Family Affair: Harolds Club and the Smiths Remembered"
@@ -6299,26 +6562,30 @@ AFamilyAffair:
 SydneyFanTaneries:
   title: Sydney Fan-Taneries and Lottery Cribs
   type: article-newspaper
-  container-title: The Bulletin
   page: 22
-  issued:
-    year: 1885
-    month: 12
-    day: 5
+  in:
+    title: The Bulletin
+    issued:
+      year: 1885
+      month: 12
+      day: 5
+    volume: 3
+    issue: 134
   URL: http://nla.gov.au/nla.obj-239819894
-  volume: 3
-  issue: 134
 ACidadeMaisPitoresca:
   type: article-magazine
-  title: "Macau: A Cidade Mais Pitoresca Do Nosso Dominio Ultramarino"
-  title-lang: pt
-  container-title: Ilustração Portuguesa
-  container-title-lang: pt
-  issued:
-    year: 1923
-    month: 4
-    day: 21
-  issue: 896, 2nd series
+  title:
+    value: "Macau: A Cidade Mais Pitoresca Do Nosso Dominio Ultramarino"
+    lang: pt
+  in:
+    title:
+      value: Ilustração Portuguesa
+      lang: pt
+    issued:
+      year: 1923
+      month: 4
+      day: 21
+    issue: 896 # TODO 2nd series
   author:
     - given: M. Antunes
       family: Amor
@@ -6338,224 +6605,237 @@ RoughingIt:
 CraneIssuedKeno:
   type: article-newspaper
   title: Crane Is Issued Keno License By Council
-  container-title: Reno Evening Gazette
   URL: https://www.newspapers.com/clip/109466052/
-  issued:
-    year: 1933
-    month: 5
-    day: 24
   page: 16
-  issue: 123
-  publisher-place: Reno, Nevada, USA
+  in:
+    title: Reno Evening Gazette
+    issued:
+      year: 1933
+      month: 5
+      day: 24
+    issue: 123
+    publisher-place: Reno, Nevada, USA
 ChineseLotteryOrderedClosed:
   type: article-newspaper
   title: Chinese Lottery Ordered Closed By Official Of City
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
   page: 12
-  issued:
-    year: 1933
-    month: 6
-    day: 8
-  issue: 136
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1933
+      month: 6
+      day: 8
+    issue: 136
   URL: https://www.newspapers.com/clip/109466126/
 ChineseKenoGamesToOperate:
   type: article-newspaper
   title: Chinese “Keno” Games To Operate
   URL: https://www.newspapers.com/clip/109466131/
   page: 2
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
-  issued:
-    year: 1933
-    month: 6
-    day: 13
-  issue: 140
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1933
+      month: 6
+      day: 13
+    issue: 140
 CouncilRevokesCrane:
   type: article-newspaper
   title: Council Revokes Crane’s Game Permits
   URL: https://www.newspapers.com/clip/109466190/
   page: 2
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
-  issued:
-    year: 1933
-    month: 6
-    day: 16
-  issue: 143
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1933
+      month: 6
+      day: 16
+    issue: 143
 ChineseGamblerIsWounded:
   type: article-newspaper
   title: Chinese Gambler Is Wounded By Gunman At His Home
   URL: https://www.newspapers.com/clip/109466274/
   page: 12
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
-  issued:
-    year: 1933
-    month: 7
-    day: 20
-  issue: 172
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1933
+      month: 7
+      day: 20
+    issue: 172
 CouncilAdjournsAndCraneFails:
   type: article-newspaper
   title: Council Adjourns And Crane Fails In License Plea
   URL: https://www.newspapers.com/clip/109466287/
   page: 2
-  container-title: Nevada State Journal
-  issued:
-    year: 1933
-    month: 8
-    day: 15
-  publisher-place: Reno, Nevada, USA
-  volume: 62
-  issue: 282
+  in:
+    title: Nevada State Journal
+    issued:
+      year: 1933
+      month: 8
+      day: 15
+    publisher-place: Reno, Nevada, USA
+    volume: 62
+    issue: 282
 WashoeCoGrandJury:
   type: article-newspaper
   title: Washoe Co. Grand Jury Will Make Its Report Today
   URL: https://www.newspapers.com/clip/109466375/
   page: 2
-  container-title: Nevada State Journal
-  publisher-place: Reno, Nevada, USA
-  issued:
-    year: 1933
-    month: 9
-    day: 14
-  volume: 62
-  issue: 312
+  in:
+    title: Nevada State Journal
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1933
+      month: 9
+      day: 14
+    volume: 62
+    issue: 312
 LotteryAndKenoContrasted:
   type: article-newspaper
   title: Lottery And Keno Contrasted At Trial Of Chinese
   URL: https://www.newspapers.com/clip/109466434/
   page: 10
-  container-title: Reno Evening Gazette
-  issued:
-    year: 1932
-    month: 9
-    day: 29
-  publisher-place: Reno, Nevada, USA
-  issue: 234
+  in:
+    title: Reno Evening Gazette
+    issued:
+      year: 1932
+      month: 9
+      day: 29
+    publisher-place: Reno, Nevada, USA
+    issue: 234
 WeAreRecessed:
   type: article-newspaper
-  title: "‘We Are Recessed,’ Says Mayor: And Recess Was Taken as His Honor Marched
-    Out — Council Holds Hectic Session"
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
+  title: "‘We Are Recessed,’ Says Mayor: And Recess Was Taken as His Honor Marched Out — Council Holds Hectic Session"
   page: 12
-  issued:
-    year: 1933
-    month: 10
-    day: 15
-  issue: "194"
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1933
+      month: 10
+      day: 15
+    issue: 194
   URL: https://www.newspapers.com/clip/109466735/
 ChineseDisputeSettlement:
   type: article-newspaper
   URL: https://www.newspapers.com/clip/109466747/
   title: Chinese Dispute Settlement Is Tried But Fails
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
   page: 12
-  issued:
-    year: 1933
-    month: 8
-    day: 29
-  issue: 206
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1933
+      month: 8
+      day: 29
+    issue: 206
 ChineseLotteriesOrderedClosed:
   type: article-newspaper
   URL: https://www.newspapers.com/clip/109466826/
   title: Chinese Lotteries Ordered Closed by District Attorney
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
   page: 14
-  issued:
-    year: 1935
-    month: 5
-    day: 16
-  issue: 117
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1935
+      month: 5
+      day: 16
+    issue: 117
 ChineseGrantedKenoLicenses:
   type: article-newspaper
   URL: https://www.newspapers.com/clip/109466875/
   title: Chinese Granted Keno Licenses By Council
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
   page: 2
-  issued:
-    year: 1934
-    month: 7
-    day: 10
-  issue: 164
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1934
+      month: 7
+      day: 10
+    issue: 164
 KenoDiscussionAgainHeard:
   type: article-newspaper
   URL: https://www.newspapers.com/clip/109466905/
   title: Keno Discussion Again Heard By Council
-  container-title: Reno Evening Gazette
-  publisher-place: Reno, Nevada, USA
   page: 2
-  issued:
-    year: 1934
-    month: 7
-    day: 24
-  issue: 176
+  in:
+    title: Reno Evening Gazette
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1934
+      month: 7
+      day: 24
+    issue: 176
 YouCantMiss:
   type: article-newspaper
   title: You Can’t Miss
   URL: https://www.newspapers.com/clip/109466967/
-  container-title: Nevada State Journal
-  publisher-place: Reno, Nevada, USA
   page: 8
-  issued:
-    year: 1932
-    month: 1
-    day: 17
-  volume: 57
-  issue: 257
+  in:
+    title: Nevada State Journal
+    publisher-place: Reno, Nevada, USA
+    issued:
+      year: 1932
+      month: 1
+      day: 17
+    volume: 57
+    issue: 257
 OpenTodayRenoClub:
   type: article-newspaper
   title: "Open Today: The Reno Club (Advertisement)"
-  issued:
-    year: 1931
-    month: 7
-    day: 4
   URL: https://www.newspapers.com/clip/109466995/
-  container-title: Nevada State Journal
-  publisher-place: Reno, Nevada, USA
   page: 8
-  volume: 57
-  issue: 60
+  in:
+    issued:
+      year: 1931
+      month: 7
+      day: 4
+    title: Nevada State Journal
+    publisher-place: Reno, Nevada, USA
+    volume: 57
+    issue: 60
 CinaOrTionghua:
   type: article-newspaper
   title: <span lang='id'>Cina</span> or <span lang='id'>Tionghua</span>? The
     politics behind Indonesia’s word choice
   URL: https://eresources.nlb.gov.sg/newspapers/Digitised/Issue/straitstimes20140326-1#
-  issued:
-    year: 2014
-    month: 3
-    day: 26
+  in:
+    issued:
+      year: 2014
+      month: 3
+      day: 26
+    title: The Straits Times
+    publisher-place: Singapore
   author:
     - given: Leo
       family: Suryadinata
-  container-title: The Straits Times
-  publisher-place: Singapore
   page: 25
 EbashiKabuCarta:
   type: webpage
-  title: 「かぶカルタ」遊技の流行
-  title-lang: ja
+  title:
+    value: 「かぶカルタ」遊技の流行
+    lang: ja
   URL: https://japanplayingcardmuseum.com/2-3-3-2-kabucarta-game-spread/
   container-title: Japan Playing Card Museum
   issued:
     year: 2020
-  author:
-    - given: 崇
-      family: 江橋
-      lang: ja
-      alt: Ebashi Takashi
-      alt-lang: ja-Latn
+  author: *ebashi
 EdoKaruta7:
   type: webpage
-  title: 「やくざ（八九三）」の語源考
-  title-lang: ja
+  title:
+    value: 「やくざ（八九三）」の語源考
+    lang: ja
   URL: https://sudare10.gokenin.com/room/mein/mein-07.html
-  container-title: 江戸カルタメイン研究室
-  container-title-lang: ja
+  container-title:
+    value:  江戸カルタメイン研究室
+    lang: ja
   issued:
     year: 2009
     month: 1
@@ -6564,8 +6844,9 @@ EdoKaruta7:
     - family: 三好
       given: 裕治
       lang: ja
-      alt: Miyoshi Yūji
-      alt-lang: ja-Latn
+      alt: 
+        value: Miyoshi Yūji
+        lang: ja-Latn
 StudyOfGames:
   type: book
   title: The Study of Games
@@ -6593,16 +6874,18 @@ PrimitiveCulture:
       family: Tylor
 IlGiuocoDellaMorra:
   type: article-magazine
-  title: Il Giuoco Della Morra
-  title-lang: it
-  container-title: The Penny Magazine
-  volume: 14
-  issue: 843
-  issued:
-    year: 1845
-    month: 5
-    day: 24
-  publisher-place: London
+  title:
+    value: Il Giuoco Della Morra
+    lang: it
+  in:
+    title: The Penny Magazine
+    volume: 14
+    issue: 843
+    issued:
+      year: 1845
+      month: 5
+      day: 24
+    publisher-place: London
   URL: https://archive.org/details/ThePennyMagazineOfTheSocietyForTheDiffusionOfUsefulKnowledge/ThePennyMagazineOfTheSocietyForTheDiffusionOfUsefulKnowledge1845/page/193/mode/2up
 OnGameLearningTheory:
   type: book
@@ -6624,14 +6907,15 @@ FriendshipAndGamesItalian:
     - given: Clement L.
       family: Valetta
   URL: https://archive.org/details/sim_keystone-folklore_winter-1970_15_4/page/174
-  container-title: Keystone Folklore Quarterly
-  issued:
-    season: Winter
-    year: 1970
   page: 175–187
-  publisher: Pennsylvania Folklore Society
-  volume: 15
-  issue: 4
+  in:
+    publisher: Pennsylvania Folklore Society
+    title: Keystone Folklore Quarterly
+    volume: 15
+    issue: 4
+    issued:
+      season: Winter
+      year: 1970
 OneToZero:
   type: book
   title: "From One to Zero: A Universal History of Numbers"
@@ -6643,8 +6927,8 @@ OneToZero:
   issued: 1985
   publisher-place: New York
   translator:
-    given: Lowell
-    family: Blair
+    - given: Lowell
+      family: Blair
   ISBN: "0670373958"
 BeniHasan:
   type: book
@@ -6684,26 +6968,28 @@ Petroniana1960:
   author:
     - given: W. H.
       family: Hewitt
-  issued:
-    month: 1
-    year: 1960
-  container-title: "Acta Classica: Proceedings of the Classical Association of South Africa"
-  volume: 3
-  issue: 1
   URL: https://doi.org/10.10520/AJA00651141_52
+  in:
+    title: "Acta Classica: Proceedings of the Classical Association of South Africa"
+    volume: 3
+    issue: 1
+    issued:
+      month: 1
+      year: 1960
 Petroniana1959:
   type: article-journal
   title: Petroniana
   author:
     - given: Lydia
       family: Baumbach
-  issued:
-    month: 1
-    year: 1959
-  container-title: "Acta Classica: Proceedings of the Classical Association of South Africa"
-  volume: 2
-  issue: 1
   URL: https://doi.org/10.10520/AJA00651141_4
+  in:
+    title: "Acta Classica: Proceedings of the Classical Association of South Africa"
+    volume: 2
+    issue: 1
+    issued:
+      month: 1
+      year: 1959
 LoreAndLanguage:
   type: book
   title: The Lore and Language of Schoolchildren
@@ -6736,16 +7022,16 @@ SomeRareScenes:
       family: El-Tayeb
   page: 289–307
   URL: https://www.academia.edu/37698410/Some_Rare_Scenes_in_the_tomb_of_Rashepses_at_Saqqara
-  container-title: "The Art of Describing: The World of Tomb Decoration as Visual
-    Culture of the Old Kingdom: Studies in Honour of Yvonne Harpur"
-  editor:
-    - given: Peter
-      family: Jánosi
-    - given: Hana
-      family: Vymazalová
-  issued: 2018
-  publisher: Czech Institute of Egyptology
-  ISBN: "9788073087708"
+  in:
+    title: "The Art of Describing: The World of Tomb Decoration as Visual Culture of the Old Kingdom: Studies in Honour of Yvonne Harpur"
+    editor:
+      - given: Peter
+        family: Jánosi
+      - given: Hana
+        family: Vymazalová
+    issued: 2018
+    publisher: Czech Institute of Egyptology
+    ISBN: "9788073087708"
 TaylorsMotto:
   title: "Taylor’s motto: Et habeo, et careo, et curo"
   URL: https://quod.lib.umich.edu/e/eebo/A13505.0001.001
@@ -6893,6 +7179,7 @@ ThomasThomas1592:
   publisher: Johannis Legate
   publisher-place: Cambridge
 Rider1640:
+  type: book
   title: Riders Dictionarie Corrected and Augmented with the addition of many
     hundred Words both out of the Law, and out of the Latine, French, and other
     Languages, ſuch as were and are with us in common uſe, but never pritned
@@ -6957,16 +7244,17 @@ LouisvilleSummerPlaygrounds:
   author:
     - given: M. Eleanor
       family: Tarrant
-  issued:
-    year: 1903
-    month: 8
   page: 473–476
-  container-title: The Chautauquan
-  volume: 37
-  issue: 5
   URL: https://archive.org/details/chautauquanorga25circgoog/page/472
+  in:
+    title: The Chautauquan
+    volume: 37
+    issue: 5
+    issued:
+      year: 1903
+      month: 8
 UndersAndOvers:
-  type: article
+  type: document
   title: Rules for Playing Unders and Overs
   publisher: "Department of Racing, Gaming & Liquor: Goverment of Western Australia"
   URL: https://www.dlgsc.wa.gov.au/docs/default-source/racing-gaming-and-liquor/gaming/rules-of-the-game/unders-and-overs-rules.pdf
@@ -6974,40 +7262,43 @@ UndersAndOvers:
 USOS:
   type: article-newspaper
   title: Marlborough
-  container-title: The Press
-  volume: 6
-  issue: 632
-  issued:
-    year: 1864
-    month: 11
-    day: 8
+  in:
+    title: The Press
+    volume: 6
+    issue: 632
+    issued:
+      year: 1864
+      month: 11
+      day: 8
+    publisher-place: Christchurch, New Zealand
   page: 2
-  publisher-place: Christchurch, New Zealand
   URL: https://paperspast.natlib.govt.nz/newspapers/CHP18641108.2.12
 usos1803:
   type: article-newspaper
   title: "Sussex Assizes, March 30: The King v. Darly"
-  container-title: The Morning Post
   page: 3
-  issued:
-    year: 1803
-    month: 4
-    day: 1
+  in:
+    title: The Morning Post
+    issued:
+      year: 1803
+      month: 4
+      day: 1
+    publisher-place: London
+    issue: 10762
   URL: https://www.newspapers.com/clip/112669636/under-seven-over-seven/
-  publisher-place: London
-  issue: 10762
 ChelseaBuns:
   type: article-newspaper
   title: "Old Bailey: Public Office, Bow-Street"
-  container-title: The Morning Chronicle
   page: "3"
-  issued:
-    year: 1816
-    month: 5
-    day: 15
-  publisher-place: London
+  in:
+    title: The Morning Chronicle
+    issued:
+      year: 1816
+      month: 5
+      day: 15
+    publisher-place: London
+    issue: 14649
   URL: https://www.newspapers.com/clip/112669827/chelsea-buns/
-  issue: 14649
 CompleteHoyle97:
   type: book
   title: Foster’s Complete Hoyle
@@ -7031,10 +7322,12 @@ CompleteHoyle09:
   URL: https://archive.org/details/fosterscomplete02fostgoog
 EnigmeJoyeuse:
   type: book
-  title: Enigme joyeuse pour les bon esprits
-  title-lang: fr
-  publisher: Jean Le Clerc
-  publisher-lang: fr
+  title:
+    value: Enigme joyeuse pour les bon esprits
+    lang: fr
+  publisher:
+    value: Jean Le Clerc
+    lang: fr
   publisher-place: Paris
   issued: 1615
   URL: https://gallica.bnf.fr/ark:/12148/btv1b8606960s
@@ -7061,18 +7354,19 @@ Hoyle1857:
 SocialHeat:
   type: article-journal
   title: "The Moving Boundaries of Social Heat: Gambling in Rural China"
-  container-title: The Journal of the Royal Anthropological Institute
   author:
     - given: Hans
       family: Steinmüller
       lang: de
-  issued:
-    year: 2011
-    month: 6
-  volume: 17
-  issue: 2
   URL: http://www.jstor.org/stable/23011371
   page: 263–280
+  in:
+    title: The Journal of the Royal Anthropological Institute
+    volume: 17
+    issue: 2
+    issued:
+      year: 2011
+      month: 6
 BriefHistoryOfBackgammon:
   type: paper-conference
   title: A Brief History of Backgammon and the Design of the Board
@@ -7081,11 +7375,7 @@ BriefHistoryOfBackgammon:
       family: Watkins
   page: 238–241
   URL: https://archive.org/details/ancientboardgame0000unse/page/238
-  container-title: Ancient Board Games in Perspective
-  issued:
-    year: 2007
-  publisher-place: London, UK
-  publisher: British Museum Press
+  in: *ancientBoardGamesInPerspective
 CulinNorthAmericanIndians:
   type: book
   title: Games of the North American Indians
@@ -7096,8 +7386,9 @@ CulinNorthAmericanIndians:
   issued: 1907
 ElAjedrez:
   type: book
-  title: "El Ajedrez: Investigaciones sobre su origen"
-  title-lang: es
+  title:
+    value: "El Ajedrez: Investigaciones sobre su origen"
+    lang: es
   author:
     - family: Brunet y Bellet
       given: D. José
@@ -7109,8 +7400,9 @@ ElAjedrez:
 IlGiocoDeGliScacchi:
   type: book
   URL: https://archive.org/details/bub_gb_-fRYAAAAYAAJ
-  title: Il Gioco De Gli Scacchi
-  title-lang: it
+  title:
+    value: Il Gioco De Gli Scacchi
+    lang: it
   author:
     - given: Pietro
       family: Carrera
@@ -7121,8 +7413,9 @@ IlGiocoDeGliScacchi:
 ReizeNaarArabie:
   type: book
   URL: https://archive.org/details/reizenaararabie1nieb
-  title: "Reize naar Arabië: en andere omliggende landen"
-  title-lang: nl
+  title:
+    value: "Reize naar Arabië: en andere omliggende landen"
+    lang: nl
   author:
     - given: Carsten
       family: Niebuhr
@@ -7134,12 +7427,13 @@ TipcatAndOtherChineseGames:
   title: Tipcat, and Other Chinese Games
   URL: https://books.google.co.nz/books?id=VXtFAQAAMAAJ&pg=PA125
   page: 125–128
-  container-title: Notes and Queries on China and Japan
-  volume: 4
-  issued: 1870
   author:
     - given: Alfred
       family: Lister
+  in:
+    title: Notes and Queries on China and Japan
+    volume: 4
+    issued: 1870
 FolkGamePait:
   type: webpage
   title: লৌকিক খেলা - পাইত | Folk game - pait
@@ -7154,22 +7448,22 @@ FolkGamePait:
       family: Tarafder
 EldersCathedrals:
   type: chapter
-  title: "Elders’ Cathedrals and Children’s Marbles: Dynamics of Religious
-    Transmission among the Baga of Guinea"
+  title: "Elders’ Cathedrals and Children’s Marbles: Dynamics of Religious Transmission among the Baga of Guinea"
   author:
     - given: Ramon
       family: Sarró
-  container-title: On the Margins of Religion
-  pages: 187–204
-  ISBN: "9781845454098"
-  issued: 2008
-  publisher: Berghahn Books
-  publisher-place: New York
-  editor:
-    - family: Pine
-      given: Frances
-    - family: de Pina-Cabral
-      given: João
+  page: 187–204
+  in:
+    title: On the Margins of Religion
+    ISBN: "9781845454098"
+    issued: 2008
+    publisher: Berghahn Books
+    publisher-place: New York
+    editor:
+      - family: Pine
+        given: Frances
+      - family: de Pina-Cabral
+        given: João
 SomaliEnglishDictionary:
   type: book
   title: Somali-English and English-Somali dictionary
@@ -7191,20 +7485,24 @@ SomaliEnglishThesaurus:
   URL: https://archive.org/details/englishsomalidic00haan
 DictionnaireTurcFrançais2:
   type: book
-  title: Dictionnaire Turc-Français
-  title-lang: fr
+  title:
+    value: Dictionnaire Turc-Français
+    lang: fr
   volume: 2
   issued: 1867
   URL: https://archive.org/details/mallouf-dictionnaire-turc-francais-1863-67-volume-1-2
   author:
     - given: Nassif
       family: Mallouf
-  publisher: Maisonneuve et Cie
+  publisher: 
+    value: Maisonneuve et Cie
+    lang: fr
   publisher-place: Paris
 LexiconLinguaeAethiopicae:
   type: book
-  title: Lexicon Linguae Aethiopicae
-  title-lang: la
+  title:
+    value: Lexicon Linguae Aethiopicae
+    lang: la
   volume: 1
   issued: 1862
   author:
@@ -7290,9 +7588,9 @@ UsefulTreesAndShrubsInEritrea:
   ISBN: "9966896244"
 NoticeDesÉmaux:
   type: book
-  title: Notice des émaux, bijoux et objets divers, exposés dans les galeries du
-    Musée du Louvre
-  title-lang: fr
+  title:
+    value: Notice des émaux, bijoux et objets divers, exposés dans les galeries du Musée du Louvre
+    lang: fr
   volume: 2
   URL: https://archive.org/details/bnf-bpt6k6464476k
   publisher-place: Paris
@@ -7304,8 +7602,9 @@ NoticeDesÉmaux:
 DictionnaireHistorique:
   type: book
   URL: https://archive.org/details/dictionnairehis04conggoog
-  title: Dictionnaire Historique de L’Ancien Langage François
-  title-lang: fr
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
   author:
     - given: Jean-Baptiste
       family: de La Curne de Sainte-Palaye
@@ -7371,50 +7670,56 @@ Turnhout:
       given: E.
     - family: van Autenboer
       given: E.
-  publisher: Nationaal Museum van de Speelkaart
-  publisher-lang: nl
+  publisher:
+    value: Nationaal Museum van de Speelkaart
+    lang: nl
   publisher-place: Turnhout
   issued: 1983
 DieFandse:
   type: article-journal
-  title: "Die Fandse: Ein Beitrag Zur Volkskunde Von Kham"
-  title-lang: de
+  title:
+    value: "Die Fandse: Ein Beitrag Zur Volkskunde Von Kham"
+    lang: de
   author:
     - family: 任
       given: 乃强
       lang: zh
-      alt: Jen Nai-ch’aing
-      alt-lang: zh-Latn
+      alt:
+        value: Jen Nai-ch’aing
+        lang: zh-Latn
     - family: Schröder
       given: Dominikus
       lang: de
-  container-title: Folklore Studies
-  issued: 1946
   URL: https://www.jstor.org/stable/3182935
-  volume: 5
   page: I–IV & 1–190
+  in:
+    title: Folklore Studies
+    volume: 5
+    issued: 1946
 MalayIndoor:
   type: article-journal
   title: Notes on Malay Indoor Games
   URL: https://archive.org/details/biostor-241894
-  container-title: Journal of the Straits Branch of the Royal Asiatic Society
-  volume: 80
-  issued: 1919
   page: 68-71
   author:
     - family: Dussek
       given: O. T.
+  in:
+    title: Journal of the Straits Branch of the Royal Asiatic Society
+    volume: 80
+    issued: 1919
 HosOfKolhan:
   type: article-journal
   title: Some Outdoor and Sedentary Games of the Hos of Kolhan
   author:
     - family: Majumdar
       given: D. N.
-  container-title: Man in India
-  volume: 5
-  issued: 1925
   page: 193–202
   URL: https://archive.org/details/in.ernet.dli.2015.56127/page/n199/mode/2up
+  in:
+    title: Man in India
+    volume: 5
+    issued: 1925
 GamesAndDances:
   type: book
   title: Games and Dances in Celebes
@@ -7434,9 +7739,10 @@ GamesOfTheTibetans:
       family: Hummel
     - given: Paul G.
       family: Brewster
-  series-title: FF Communications
-  series-volume: 77
-  series-number: 187
+  series:
+    title: FF Communications
+    volume: 77
+    number: 187
 Tawula:
   type: book
   title: "<span lang='ar-Latn'>Tāwula</span>: A Study in Arabic Folklore"
@@ -7447,9 +7753,10 @@ Tawula:
     - given: Robert A.
       family: Barakat
   ISBN: "9789514101793"
-  series-title: FF Communications
-  series-volume: 90
-  series-number: 214
+  series:
+    title: FF Communications
+    volume: 90
+    number: 214
 AncientIndianBoardGames:
   type: book
   title: Ancient Indian Board Games
@@ -7464,8 +7771,9 @@ AncientIndianBoardGames:
     day: 9
 TamilCountryGames:
   type: book
-  title: தமிழர் நாட்டு விளையாட்டுகள்
-  title-lang: ta
+  title:
+    value: தமிழர் நாட்டு விளையாட்டுகள்
+    lang: ta
   author:
     - family: பாலசுப்பிரமணியம்
       given: இரா.
@@ -7571,12 +7879,13 @@ GamblingAmongChinese:
   type: article-newspaper
   URL: https://paperspast.natlib.govt.nz/newspapers/ESD19040820.2.62
   title: "Political Gossip: Gambling Among Chinese"
-  container-title: The Evening Star
-  issue: 12279
-  issued:
-    day: 20
-    month: 8
-    year: 1904
+  in:
+    title: The Evening Star
+    issue: 12279
+    issued:
+      day: 20
+      month: 8
+      year: 1904
   page: 7
 GrammarOfTheChineseLanguage2:
   type: book
@@ -7591,60 +7900,57 @@ GrammarOfTheChineseLanguage2:
 GoldenShells:
   type: chapter
   title: "<span lang='ja-Latn'>Kai-awase</span>: the shell-matching game"
-  ISBN: "9781925432770"
-  issued: 2021
-  publisher: National Gallery of Victoria
-  publisher-place: Melbourne
-  container-title: Golden Shells and Elegant Games of Japan
+  in: &goldenShells
+    issued: 2021
+    publisher: National Gallery of Victoria
+    publisher-place: Melbourne
+    ISBN: "9781925432770"
+    title: Golden Shells and Elegant Games of Japan
+    editor:
+      - given: Wayne
+        family: Crothers
   author:
     - given: Liza
       family: Dalby
-  editor:
-    - given: Wayne
-      family: Crothers
   page: 86–100
 GoldenOpportunity:
   type: chapter
   title: "A golden opportunity: reviving the lost art of <span
     lang='ja-Latn'>kai-awase</span> and <span lang='ja-Latn'>kai-oke</span>
     production"
-  ISBN: "9781925432770"
-  issued: 2021
-  publisher: National Gallery of Victoria
-  publisher-place: Melbourne
-  container-title: Golden Shells and Elegant Games of Japan
+  in: *goldenShells
   author:
     - given: Tatsufumi
       family: Yamazaki
-  editor:
-    - given: Wayne
-      family: Crothers
   page: 2–22
 OverseasChineseNZ:
   type: book
-  title: 紐西蘭華僑史略
-  title-lang: zh
-  title-alt: A Brief History of the Overseas Chinese in New Zealand
+  title:
+    value: 紐西蘭華僑史略
+    lang: zh
+    alt: A Brief History of the Overseas Chinese in New Zealand
   author:
     - given: 耀星
       family: 周
       lang: zh
       alt: Joe Y. Sing
   issued: 1996
-  publisher: 紐西蘭雙星出版社
-  publisher-lang: zh
+  publisher:
+    value: 紐西蘭雙星出版社
+    lang: zh
   publisher-place: New Zealand
 WhenChinatownHadItsOwnLotteries:
   title: When Chinatown had its own lotteries
   type: article-newspaper
-  container-title: International Examiner
-  volume: 10
-  issue: 1
-  issued:
-    year: 1983
-    month: 1
-    day: 5
-  publisher-place: Seattle, WA, USA
+  in:
+    title: International Examiner
+    volume: 10
+    issue: 1
+    issued:
+      year: 1983
+      month: 1
+      day: 5
+    publisher-place: Seattle, WA, USA
   page: 5
   author:
     - family: Chin
@@ -7656,12 +7962,13 @@ EthnographicPsychology:
   author:
     - given: Graham R.
       family: Davidson
-  issued: 1979
   page: 270–294
-  container-title: Oceania
-  volume: 49
-  issue: 4
   URL: http://www.jstor.org/stable/40332212
+  in:
+    title: Oceania
+    volume: 49
+    issue: 4
+    issued: 1979
 IllegalCardGamesToBeBanned:
   title: Illegal card games to be banned in West
   type: article-newspaper
@@ -7669,36 +7976,39 @@ IllegalCardGamesToBeBanned:
     - given: Alfred
       family: Pagepitu
   URL: https://theislandsun.com.sb/illegal-card-games-to-be-banned-in-west/
-  issued:
-    year: 2018
-    month: 7
-    day: 31
-  container-title: The Island Sun
-  publisher-place: Honiara, Solomon Islands
+  in:
+    issued:
+      year: 2018
+      month: 7
+      day: 31
+    title: The Island Sun
+    publisher-place: Honiara, Solomon Islands
 ThreeMoreNewGuineanCardGames:
   type: article-journal
   title: Three More New Guinean Card Games, and a Note on “Lucky”
   author:
     - given: D. C.
       family: Laycock
-  issued: 1967
   URL: https://www.jstor.org/stable/40329644
-  container-title: Oceania
-  volume: 38
-  issue: 1
   page: 51–55
+  in:
+    title: Oceania
+    volume: 38
+    issue: 1
+    issued: 1967
 ThreeNativeCardGames:
   type: article-journal
   title: Three Native Card Games of New Guinea and Their European Ancestors
   author:
     - given: D. C.
       family: Laycock
-  issued: 1966
-  container-title: Oceania
-  volume: 37
-  issue: 1
   page: 49–53
   URL: https://www.jstor.org/stable/40329558
+  in:
+    title: Oceania
+    volume: 37
+    issue: 1
+    issued: 1966
 ANoteOnKuns:
   type: article-journal
   title: "A Note on Kuns: An Aboriginal Card Game from the North-West of Western
@@ -7708,10 +8018,11 @@ ANoteOnKuns:
       given: Michael W.
     - family: Yu
       given: Peter
-  volume: 11
-  container-title: Department of Aboriginal Affairs’ Newsletter
   page: 41–49
-  issued: 1975
+  in:
+    title: Department of Aboriginal Affairs’ Newsletter
+    volume: 11
+    issued: 1975
 ParadoxicalSoftPower:
   title: "An Illustration of China’s “Paradoxical Soft Power”: The Dissemination
     of the Gambling Game Fantan (<span lang='zh'>番攤</span>) by the Cantonese
@@ -7723,10 +8034,11 @@ ParadoxicalSoftPower:
       lang: fr
       alt: <span lang='zh'>包利威</span>
   URL: https://doi.org/10.1163/24522015-01102002
-  container-title: "Translocal Chinese: East Asian Perspectives"
-  volume: 11
-  issued: 2017
   page: 187–207
+  in:
+    title: "Translocal Chinese: East Asian Perspectives"
+    volume: 11
+    issued: 2017
 GamblingInChinaReconsidered:
   type: article-journal
   title: "Gambling in China Reconsidered: <span lang='zh-Latn'>Fantan</span> in
@@ -7736,13 +8048,14 @@ GamblingInChinaReconsidered:
       given: Paulès
       lang: fr
   URL: https://doi.org/10.1017/S1479591410000069
-  container-title: International Journal of Asian Studies
-  volume: 7
-  issue: 2
-  issued:
-    month: 7
-    year: 2010
   page: 179–200
+  in:
+    title: International Journal of Asian Studies
+    volume: 7
+    issue: 2
+    issued:
+      month: 7
+      year: 2010
 LiveDealerFanTan:
   type: webpage
   title: Live Dealer Fan Tan
@@ -7757,41 +8070,43 @@ LiveDealerFanTan:
       family: Shackleford
 SketchesInOurChineseQuarter:
   type: article-newspaper
-  container-title: Australasian Sketcher
-  publisher-place: Adelaide, South Australia, Australia
-  title: "Sketches in Our Chinese Quarter: Fan Tan Playing, and a Chinese
-    Restaurant [Image]"
+  title: "Sketches in Our Chinese Quarter: Fan Tan Playing, and a Chinese Restaurant [Image]"
   page: 104
-  issued:
-    day: 29
-    month: 5
-    year: 1880
-  volume: 8
-  issue: 98
+  in:
+    title: Australasian Sketcher
+    publisher-place: Adelaide, South Australia, Australia
+    issued:
+      day: 29
+      month: 5
+      year: 1880
+    volume: 8
+    issue: 98
   URL: https://trove.nla.gov.au/newspaper/article/244700809
 AGameOfFanTan:
   type: article-newspaper
-  container-title: Illustrated Australian News
-  publisher-place: Melbourne, Victoria, Australia
   title: The Chinese in Victoria—A Game of Fan Tan [Image]
   page: 85
-  issued:
-    day: 5
-    month: 6
-    year: 1880
-  issue: 290
+  in:
+    title: Illustrated Australian News
+    publisher-place: Melbourne, Victoria, Australia
+    issued:
+      day: 5
+      month: 6
+      year: 1880
+    issue: 290
   URL: https://trove.nla.gov.au/newspaper/page/5730959
 AGameOfFanTanArticle:
   type: article-newspaper
-  container-title: Illustrated Australian News
-  publisher-place: Melbourne, Victoria, Australia
   title: The Chinese in Victoria—A Game of Fan Tan
   page: 90
-  issued:
-    day: 5
-    month: 6
-    year: 1880
-  issue: 290
+  in:
+    title: Illustrated Australian News
+    publisher-place: Melbourne, Victoria, Australia
+    issued:
+      day: 5
+      month: 6
+      year: 1880
+    issue: 290
   URL: https://trove.nla.gov.au/newspaper/article/60093958/5730964
 GamblingDynamism:
   type: book
@@ -7810,12 +8125,13 @@ WhatTheHeathenPlays:
   author:
     - given: Wong Chin
       family: Foo
-  container-title: Lowell Daily Courier
-  publisher-place: Lowell, Mass., USA
-  issued:
-    day: 8
-    month: 11
-    year: 1883
+  in:
+    title: Lowell Daily Courier
+    publisher-place: Lowell, Mass., USA
+    issued:
+      day: 8
+      month: 11
+      year: 1883
   URL: https://archive.org/details/lowellcourier_sept1883_01_reel009/page/n237/mode/2up
   page: 2
 AmusementsInChina:
@@ -7823,24 +8139,29 @@ AmusementsInChina:
   title: Amusements In China
   author:
     - given: L.
-  issued: 1843
-  container-title: The Visitor, or Monthly Instructor
-  publisher-place: London
   page: 12–14
-  publisher: The Religious Tract Society
   URL: https://archive.org/details/visitorormonthly1843unse/page/12
+  in:
+    publisher-place: London
+    publisher: The Religious Tract Society
+    title: The Visitor, or Monthly Instructor
+    issued: 1843
 PlaisirsEnChine:
   type: book
   URL: https://books.google.com/books?id=m39NAAAAYAAJ
-  title: Les Plaisirs en Chine
-  title-lang: fr
+  title:
+    value: Les Plaisirs en Chine
+    lang: fr
   author:
     - given: Ki-tong
       family: Tcheng
-      alt: <span lang='zh-Hant'>陳季同</span>
+      alt: 
+        value: 陳季同
+        lang: zh-Hant
   issued: 1890
-  publisher: G. Charpentier et Cie.
-  publisher-lang: fr
+  publisher:
+    value: G. Charpentier et Cie.
+    lang: fr
   publisher-place: Paris
 BitsOfChina:
   type: book
@@ -7857,22 +8178,25 @@ BitsOfChina:
   publisher-place: London
 タチウオの共食い:
   type: webpage
-  title: タチウオの共食い
-  title-lang: ja
+  title:
+    value: タチウオの共食い
+    lang: ja
   author:
     - given: うなっくす
       lang: ja
   URL: http://blog.livedoor.jp/boso_fishing/archives/1045980935.html
-  container-title: 房総フィッシング
-  container-title-lang: ja
+  container-title:
+    value: 房総フィッシング
+    lang: ja
   issued:
     year: 2015
     month: 11
     day: 27
 TonicDictionary:
   type: book
-  title: Tonic Dictionary of the Chinese Language in the Canton Dialect
-  title-alt: <span lang='yue'>英華分韻撮要</span>
+  title:
+    value: Tonic Dictionary of the Chinese Language in the Canton Dialect
+    alt: <span lang='yue'>英華分韻撮要</span>
   author:
     - given: Samuel Wells
       family: Williams
@@ -7885,14 +8209,15 @@ CulinMahjong:
   author:
     - family: Culin
       given: Stewart
-  issued:
-    year: 1924
-    month: 10
-  container-title: The Brooklyn Museum Quarterly
-  volume: 11
-  issue: 4
   page: 153–168
   URL: http://www.jstor.com/stable/26460002
+  in:
+    title: The Brooklyn Museum Quarterly
+    volume: 11
+    issue: 4
+    issued:
+      year: 1924
+      month: 10
 GamesOfTheOrient:
   type: book
   title: Games of the Orient
@@ -7925,17 +8250,18 @@ ChinaAHistoryOfTheLaws:
   publisher-place: London
 ChaquiAndPartui:
   type: article-journal
-  container-title: Journal of the International Playing-Card Society
   title: "Chaqui and Partui: Two Popular Card Games of the ‘Christãos’ of Malacca"
   author:
     - given: Ana Maria
       family: Amaro
-  volume: 22
-  issue: 2
-  issued:
-    year: 1993
-    month: 11
   page: 34–40
+  in:
+    title: Journal of the International Playing-Card Society
+    volume: 22
+    issue: 2
+    issued:
+      year: 1993
+      month: 11
 MalayEnglishWilkinson:
   type: book
   title: A Malay–English Dictionary
@@ -7966,13 +8292,14 @@ LuckyAdditional:
     - given: Ernest
       family: Brandewie
   URL: https://www.jstor.org/stable/40329643
-  container-title: Oceania
-  volume: 38
-  issue: 1
-  issued:
-    month: 9
-    year: 1967
   page: 44–50
+  in:
+    title: Oceania
+    volume: 38
+    issue: 1
+    issued:
+      month: 9
+      year: 1967
 CardPlayingGende:
   type: article-journal
   title: "Card Playing among the Gende: A System for Keeping Money and Social
@@ -7980,44 +8307,48 @@ CardPlayingGende:
   author:
     - given: Laura
       family: Zimmer
-  container-title: Oceania
-  issued:
-    month: 6
-    year: 1986
-  volume: 56
-  issue: 4
   page: 245–263
   URL: https://www.jstor.org/stable/40330875
+  in:
+    title: Oceania
+    volume: 56
+    issue: 4
+    issued:
+      month: 6
+      year: 1986
 LakiCharms:
   type: article-journal
   title: "Laki Charms: ‘Luck’ and Personal Agency in North Mekeo Social Change"
   author:
     - family: " Mosko"
       given: Mark S.
-  issued:
-    year: 2012
-    season: Summer
-  container-title: Social Analysis
-  volume: 56
-  issue: 2
   page: 19–38
   URL: https://doi.org/10.3167/sa.2012.560203
+  in:
+    title: Social Analysis
+    volume: 56
+    issue: 2
+    issued:
+      year: 2012
+      season: Summer
 GamblingFutures:
   type: chapter
   title: "Gambling Futures: Playing the Imminent in Highland Papua New Guinea"
   author:
     - family: Pickles
       given: Anthony
-  container-title: "Pacific Futures: Projects, Politics and Interests"
-  series-title: Pacific Perspectives
-  series-volume: 2
-  editor:
-    - given: Will
-      family: Rollason
-  publisher: Berghahn Books
-  publisher-place: New York & Oxford
-  ISBN: "9781782383512"
-  issued: 2014
+  in:
+    title: "Pacific Futures: Projects, Politics and Interests"
+    publisher: Berghahn Books
+    publisher-place: New York & Oxford
+    ISBN: "9781782383512"
+    issued: 2014
+    editor:
+      - given: Will
+        family: Rollason
+    series:
+      title: Pacific Perspectives
+      volume: 2
 BomBombed:
   type: article-journal
   title: "‘<span lang='tpi'>Bom</span> Bombed <span lang='tpi'>Kwin</span>’: How
@@ -8026,12 +8357,13 @@ BomBombed:
   author:
     - given: Anthony J.
       family: Pickles
-  container-title: Oceania
-  volume: 84
-  issue: 3
-  issued: 2014
   page: 272–288
   URL: https://doi.org/10.1002/ocea.5061
+  in:
+    title: Oceania
+    volume: 84
+    issue: 3
+    issued: 2014
 PatternChangesChanges:
   type: thesis
   genre: PhD thesis
@@ -8064,21 +8396,23 @@ IsGamblingBisnis:
   author:
     - given: Neil
       family: Maclean
-  container-title: "Social Analysis: The International Journal of Anthropology"
-  issue: 16
-  issued:
-    month: 12
-    year: 1984
   page: 44–59
   URL: https://www.jstor.org/stable/23169312
+  in:
+    title: "Social Analysis: The International Journal of Anthropology"
+    issue: 16
+    issued:
+      month: 12
+      year: 1984
 TombOfHesy:
   type: book
   title: "Excavations at Saqqara (1911–12): The Tomb of Hesy"
   author:
     - family: Quibell
       given: James Edward
-  publisher: Imprimerie de L’Institute Français D’Archéologie Orientale
-  publisher-lang: fr
+  publisher:
+    value: Imprimerie de L’Institute Français D’Archéologie Orientale
+    lang: fr
   publisher-place: Cairo, Egypt
   issued: 1913
   URL: https://archive.org/details/cu31924028671299
@@ -8098,25 +8432,27 @@ LawAndRacism:
   type: article-journal
   title: "Law and Racism in an Asian Setting: An Analysis of the British Rule of
     Hong Kong"
-  issued:
-    season: Winter
-    year: 1995
-  volume: "18"
-  container-title: Hastings International and Comparative Law Review
   page: 223–276
   author:
     - given: Richard
       family: Klein
   URL: https://repository.uchastings.edu/hastings_international_comparative_law_review/vol18/iss2/1
+  in:
+    title: Hastings International and Comparative Law Review
+    volume: 18
+    issued:
+      season: Winter
+      year: 1995
 PersistenceAndChange:
   type: article-journal
   title: Persistance and Change in Cantonese-American Gambling
   author:
     - given: Milton L.
       family: Barnett
-  container-title: Philippine Sociological Review
-  issued: 1962
-  volume: 10
-  issue: 3/4
   URL: https://www.jstor.org/stable/41853441
   page: 186–203
+  in:
+    title: Philippine Sociological Review
+    volume: 10
+    issue: 3 # TODO or 4?
+    issued: 1962

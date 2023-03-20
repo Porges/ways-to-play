@@ -4,7 +4,8 @@ import { parse } from 'yaml';
 
 import { IS_PRODUCTION } from '../helpers';
 
-import { Reference, renderReference } from '../references';
+import { Reference, Bibliography, LStr, referenceValidator, BiblioRef, publicationYear } from '../references-schema';
+import { renderReference } from '../references';
 import { Data } from '../types';
 
 export const data = {
@@ -15,15 +16,28 @@ export const data = {
     }
 };
 
+function lStrValue(l: LStr) {
+    if (typeof l === 'string') {
+        return l;
+    }
+
+    return l.value;
+}
+
 function sortKey(r: Reference) {
-    return `${r.author ? (r.author[0].family || '') : (r.publisher || '')}
+    const publisherS =
+        'publisher' in r
+        ? r.publisher
+        : 'in' in r 
+            ? r.in.publisher
+            : undefined;
+
+    const publisher = publisherS ? lStrValue(publisherS) : '';
+
+    return `${r.author ? (r.author[0].family || '') : publisher}
         ${r.author ? (r.author[0].given === 'string' ? r.author[0].given : r.author[0].given[0]) : ''}
-        ${r.issued 
-            ? typeof r.issued !== 'object'
-                ? r.issued
-                : r.issued.year
-            : ''}
-        ${r.title}`;
+        ${publicationYear(r)}
+        ${lStrValue(r.title)}`;
 }
 
 // matches that in .eleventy.js - TODO extract
@@ -44,7 +58,7 @@ async function buildLookup(coll: any[], refs: Map<string, any[]>) {
     }
 }
 
-function renderBackreferences(ref: Reference, refs: Map<string, any[]>) {
+function renderBackreferences(ref: BiblioRef, refs: Map<string, any[]>) {
     let backrefs = refs.get(ref.id);
     if (backrefs === undefined) {
         return "";
@@ -65,7 +79,12 @@ export async function render(data: Data) {
     await buildLookup(data.collections.game, refs);
     const locale = new Intl.Collator('en');
     const file = await fs.readFile(path.join(__dirname, "../bibliography.yaml"), 'utf8');
-    const biblio = Object.entries<Reference>(parse(file)).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));
+    const parsedFile = parse(file);
+    if (!referenceValidator(parsedFile)) {
+        throw new Error("Invalid bibliography");
+    }
+
+    const biblio = Object.entries(parsedFile as Bibliography).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));
     biblio.sort((x, y) => locale.compare(x.sortKey, y.sortKey));
     return '<div class="container">'
         + `<h1>${data.title}</h1>`
@@ -86,14 +105,7 @@ export async function render(data: Data) {
         + '<p class="text-center">❦</p>'
         + '<div class="row">'
         + `<ul id="ref-list" class="reference-list list-unstyled offset-lg-2 col-lg-8">\n${biblio.map(b => {
-            const year =
-                typeof b.issued === 'number'
-                ? b.issued
-                : typeof b.issued === 'object'
-                    ? b.issued.year
-                    : typeof b.filed === 'object'
-                        ? b.filed.year
-                        : 0;
+            const year = publicationYear(b);
             return `<li data-refs="${refs.get(b.id)?.length ?? 0}" data-key="${b.sortKey.replaceAll('"', '&quot;')}" data-year="${year}">`
                 + renderReference(b)
                 + renderBackreferences(b, refs)

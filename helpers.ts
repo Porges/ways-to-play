@@ -1,15 +1,21 @@
 import { env } from 'process';
 import { Date, Article } from './types';
 
+import ordinal from 'ordinal';
+
 export const IS_PRODUCTION = env.NODE_ENV === 'production';
 export const IS_PRINT = env.IS_PRINT === 'print';
 
 export function ifSet<T>(x: T, y: string | ((value: NonNullable<T>) => string)): string {
-  if (typeof y === "function") {
-    return x ? y(x) : '';
+  if (x) {
+    if (typeof y === 'function') {
+      return y(x);
+    }
+
+    return y;
   }
 
-  return x ? y : '';
+  return '';
 }
 
 export function asAttr(name: string, value: string | undefined): string {
@@ -42,8 +48,17 @@ const months =
   ];
 
 export function renderExplicitDate(date: Date, omitIfJustYear: boolean): string | null {
+  if (typeof date === 'number') {
+    date = { year: date };
+  }
+
   if ('month' in date) {
-    return `${months[date.month - 1]}${ifSet(date.day, ` ${date.day}`)}, ${date.year}`;
+    const month = months[date.month - 1];
+    if ('day' in date) {
+      return `${ordinal(date.day)} ${month} ${date.year}`;
+    }
+
+    return `${month} ${date.year}`;
   }
 
   if ('season' in date) {
