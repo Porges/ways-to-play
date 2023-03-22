@@ -327,7 +327,7 @@ const citationPlugin = () => {
       switch (reference.type) {
         case 'book':
           return `<a href="${`#ref-${id}`}">`
-            + `<cite${asAttr('lang', reference["title-lang"])}>${reference.title}</cite>`
+            + references.renderLStr(reference.title, 'cite', {})
             + `</a>`
             + ifSet(suffix, ` (${suffix})`);
         case 'paper-conference':

@@ -142,7 +142,7 @@ function renderBook(book: Book, itemprop: string) {
         + '</span>';
 }
 
-function renderLStr(lStr: LStr, tag: string, attributes: Record<string, string|undefined>) {
+export function renderLStr(lStr: LStr, tag: string, attributes: Record<string, string|undefined>) {
     const value = typeof lStr == 'string' ? lStr : lStr.value;
     const lang = typeof lStr == 'string' ? undefined : lStr.lang;
 
