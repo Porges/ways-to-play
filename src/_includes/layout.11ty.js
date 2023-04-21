@@ -120,7 +120,7 @@ exports.render = async function (data) {
       ${data.content}
     </main>
     <footer class="navbar navbar-expand navbar-dark bg-primary">
-      <span class="ms-auto navbar-text me-2">
+      <span class="ms-lg-auto ms-2 navbar-text me-2">
       ©
       ${this.person({
     name: { given: "George", family: "Pollard" },
