@@ -98,7 +98,7 @@ async function articleImage(caption, props) {
             `\n\n<span itemprop="caption">`
             + caption.trim() /* NB: must appear on its own line to get Markdown formatting… */
             + `</span>` + (source ? captionLineBreak : ''))
-        + `<span itemprop="copyrightNotice">${sourceInfo}</span>`;
+        + sourceInfo;
 
     if (srcs.length === 1) {
         return `<figure class="figure ${className}" itemprop="image" itemscope itemtype="${imageObject}">`
