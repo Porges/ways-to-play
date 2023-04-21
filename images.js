@@ -142,11 +142,13 @@ function renderSource(source, short = false) {
         copyrightHolder = person({ itemprop: "copyrightHolder creator", name: source.author });
     }
 
-    return (source.license === 'cc0' ? '' : '© ')
+    return '<span itemprop="copyrightNotice">'
+        + (source.license === 'cc0' ? '' : '© ')
         + ifSet(source.copyrightYear, `<span itemprop="copyrightYear">${source.copyrightYear}</span> `)
         + ((copyrightHolder && source.originalUrl) ? `<a href="${source.originalUrl}" itemprop="url">${copyrightHolder}</a>` : copyrightHolder)
         + ifSet(source.license !== 'stock-image', () => license({ leading: !!copyrightHolder, license: source.license, version: source.licenseVersion }))
-        + ifSet(!short && source.identifier, `: <span class="image-identifier">${source.identifier}</span>`);
+        + ifSet(!short && source.identifier, `: <span class="image-identifier">${source.identifier}</span>`)
+        + '</span>';
 }
 
 /**
