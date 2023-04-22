@@ -47,7 +47,7 @@
     "rehype-autolink-headings": "^6.1.1",
     "rehype-format": "^4.0.1",
     "rehype-raw": "^6.1.1",
-    "remark-sectionize": "^1.1.1",
+    "remark-sectionize": "^2.0.0",
     "sass": "^1.49.9",
     "serve": "^14.0.1",
     "slug": "^8.0.0",

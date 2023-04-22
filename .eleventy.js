@@ -35,7 +35,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyRemark, {
     enableRehype: false,
     plugins: [
-      require('remark-sectionize'),
+      'remark-sectionize',
       {
         plugin: 'remark-rehype',
         options: { allowDangerousHtml: true }
