@@ -130,12 +130,7 @@ exports.render = async function (data) {
     id: "author-outer",
     innerId: "author"
   })}
-      ${this.license({
-    leading: true,
-    rel: "license",
-    license: "cc-by-nc-sa",
-    version: "4.0"
-  })}
+      ${this.license("cc-by-nc-sa", "4.0", "license", true)}
       · Feedback? Contact me on Mastodon <a href="https://toot.cafe/@porges" rel="me">@porges</a>,
       <a href="mailto:porges@porg.es?subject=Ways%20To%20Play" target="_blank" rel="me">email me</a>,
       or <a href="https://github.com/Porges/ways-to-play/discussions/new">leave a note on GitHub</a>.

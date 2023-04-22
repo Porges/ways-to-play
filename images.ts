@@ -1,53 +1,86 @@
-const Image = require("@11ty/eleventy-img");
+import { LicenseName, LicenseVersion, Name, Organization, SourceInfo } from "./types";
+
+import Image from '@11ty/eleventy-img';
 const PropTypes = require('prop-types');
 const path = require('path');
 
-const { ifSet, asAttr, IS_PRODUCTION } = require('./helpers');
-const { randomUUID } = require("crypto");
+import { ifSet, asAttr, IS_PRODUCTION } from './helpers';
+import { randomUUID } from "crypto";
 
-module.exports = { renderSource, articleImage, person, license, organization }
+// from 11ty
+type ExpectedThis = {
+    page: {
+        inputPath: string
+    }
+};
 
-/**
- * @param {Object} props
- * @param {string} props.alt
- * @param {string} props.src
- * @param {Name} props.author
- * @param {number=} props.perRow
- * @param {boolean=} props.noborder
- * @param {boolean=} props.cram
- * @param {string=} props.size
- * @param {string=} props.position
- * @param {SourceInfo} props.source
- * @param {string=} props.justify
- */
-async function articleImage(caption, props) {
+type CommonArticleImageProps = {
+    alt: string,
+    src: string,
+    perRow?: number,
+    noborder?: boolean,
+    cram?: boolean,
+    size?: string,
+    position?: string,
+    justify?: string,
+};
+
+type ArticleImageProps = CommonArticleImageProps & {
+    source?: SourceInfo,
+};
+
+type RawArticleImageProps = CommonArticleImageProps & {
+    license?: LicenseName,
+    licenseVersion?: LicenseVersion,
+    copyrightYear?: number,
+    identifier?: string,
+    originalUrl?: string,
+    authorFamily?: string,
+    authorGiven?: string,
+    authorLang?: string,
+    authorFamilyFirst?: boolean,
+    authorName?: string,
+    orgName?: string,
+    orgAbbr?: string,
+    orgLang?: string,
+    orgUrl?: string,
+};
+
+// convert from markdown-level representation to a structured one
+function fromRaw(props: RawArticleImageProps): ArticleImageProps {
+    let author: Name | undefined = undefined;
     if (props.authorFamily || props.authorGiven) {
-        props.author = {
-            family: props.authorFamily,
-            given: props.authorGiven,
+        author = {
+            family: props.authorFamily ?? "",
+            given: props.authorGiven ?? "",
             lang: props.authorLang,
             familyFirst: props.authorFamilyFirst,
         };
     } else if (props.authorName) {
-        props.author = {
+        author = {
             name: props.authorName,
             lang: props.authorLang,
         };
     }
 
-    if (props.license) {
-        props.source = {
-            identifier: props.identifier,
-            originalUrl: props.originalUrl,
-            copyrightYear: props.copyrightYear,
-            author: props.author,
-            licenseVersion: props.licenseVersion,
-            license: props.license,
-        };
+    let source: SourceInfo | undefined =
+        props.license
+            ? {
+                author: author,
+                license: props.license,
+                licenseVersion: props.licenseVersion,
+                identifier: props.identifier,
+                originalUrl: props.originalUrl,
+                copyrightYear: props.copyrightYear,
+            }
+            : undefined;
+
+    if (author && !source) {
+        throw new Error("author supplied but no source");
     }
 
     if (props.orgName) {
-        props.source.organization = {
+        source!.organization = {
             orgName: props.orgName,
             orgAbbr: props.orgAbbr,
             orgLang: props.orgLang,
@@ -64,6 +97,23 @@ async function articleImage(caption, props) {
     }
     */
 
+    let result: ArticleImageProps = {
+        alt: props.alt,
+        src: props.src,
+        source: source,
+        cram: props.cram,
+        justify: props.justify,
+        noborder: props.noborder,
+        perRow: props.perRow,
+        position: props.position,
+        size: props.size,
+    };
+
+    return result;
+}
+
+export async function articleImage(this: ExpectedThis, caption: string, rawprops: RawArticleImageProps) {
+    const props = fromRaw(rawprops);
     PropTypes.checkPropTypes(articleImagePropTypes, props, 'props', 'articleImage');
     const { alt, src, noborder, cram, source, position, size, perRow, justify } = props;
 
@@ -78,8 +128,8 @@ async function articleImage(caption, props) {
 
     // if no source was provided, source is me
     const sourceInfo =
-        source
-            ? renderSource(props.source)
+        source !== undefined
+            ? renderSource(source)
             : ('<meta itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person" itemRef="author" />'
                 + '<meta itemprop="license" content="https://creativecommons.org/licenses/by-nc-sa/4.0/" />');
 
@@ -110,7 +160,7 @@ async function articleImage(caption, props) {
     } else {
         const sourceId = "src_" + randomUUID();
         return `<figure class="figure ${className}">`
-            + await renderImages(this, srcs, alts, sourceInfo, perRow, sourceId, sizes, noborder, justify)
+            + await renderImages(this, srcs, alts, sourceInfo, perRow, sourceId, sizes, noborder, justify as 'centered'|undefined)
             + `<figcaption class="text-center figure-caption" itemscope>`
             + `<div id="${sourceId}">`
             + captionAndSource
@@ -121,12 +171,7 @@ async function articleImage(caption, props) {
 }
 
 
-/**
- * @param {SourceInfo} source 
- * @param {boolean=} short 
- * @returns {string}
- */
-function renderSource(source, short = false) {
+export function renderSource(source: SourceInfo, short = false) {
     let copyrightHolder = '';
 
     if (source.organization) {
@@ -146,26 +191,20 @@ function renderSource(source, short = false) {
         + (source.license === 'cc0' ? '' : '© ')
         + ifSet(source.copyrightYear, `<span itemprop="copyrightYear">${source.copyrightYear}</span> `)
         + ((copyrightHolder && source.originalUrl) ? `<a href="${source.originalUrl}" itemprop="url">${copyrightHolder}</a>` : copyrightHolder)
-        + ifSet(source.license !== 'stock-image', () => license({ leading: !!copyrightHolder, license: source.license, version: source.licenseVersion }))
+        + ifSet(source.license !== 'stock-image', () => license(source.license as any, source.licenseVersion, undefined, !!copyrightHolder))
         + ifSet(!short && source.identifier, `: <span class="image-identifier">${source.identifier}</span>`)
         + '</span>';
 }
 
-/**
- * @param {string} src
- * @param {string} alt
- * @param {string} sourceInfo
- * @param {string} sizes
- * @param {boolean=} noborder
- */
-async function renderImage(me, src, alt, sourceInfo, sizes, noborder) {
+async function renderImage(me: ExpectedThis, src: string, alt: string, sourceInfo: string, sizes: string, noborder?: boolean) {
     const metadata = await loadSizedImage(me, src);
 
-    const [format] = Object.keys(metadata);
+    const [format] = Object.keys(metadata) as (keyof typeof metadata)[];
+    const m = metadata[format]!;
 
-    const srcset = metadata[format].map(x => x.srcset).join(', ');
-    const original = metadata[format].slice(-1)[0];
-    const smallest = metadata[format][0];
+    const srcset = m.map(x => x.srcset).join(', ');
+    const original = m.slice(-1)[0];
+    const smallest = m[0];
 
     const id = path.basename(original.filename, path.extname(original.filename));
 
@@ -179,20 +218,11 @@ async function renderImage(me, src, alt, sourceInfo, sizes, noborder) {
         + `</a>`;
 }
 
-/**
- * @param {string[]} srcs 
- * @param {string[]} alts 
- * @param {number=} perRow 
- * @param {string} sourceId 
- * @param {string} sizes 
- * @param {boolean=} noborder 
- * @returns {Promise<string>}
- */
-async function renderImages(me, srcs, alts, sourceInfo, perRow = 1000, sourceId, sizes, noborder, justify) {
+async function renderImages(me: ExpectedThis, srcs: string[], alts: string[], sourceInfo: string, perRow = 1000, sourceId: string, sizes: string, noborder: boolean|undefined, justify: 'centered'|undefined) {
     let classes = "multi";
     if (justify) {
         switch (justify) {
-            case 'centered': 
+            case 'centered':
                 classes += ' centered';
                 break;
             default:
@@ -211,7 +241,7 @@ async function renderImages(me, srcs, alts, sourceInfo, perRow = 1000, sourceId,
     return result;
 }
 
-async function loadSizedImage(me, src) {
+async function loadSizedImage(me: ExpectedThis, src: string): Promise<Image.Metadata> {
     const basedSrc = path.join(path.dirname(me.page.inputPath), src);
     // don't resize locally, for speed
     return await Image(basedSrc, {
@@ -233,23 +263,14 @@ async function loadSizedImage(me, src) {
     */
 }
 
-/**
- * @param {*} me 
- * @param {string} src 
- * @param {string} alt 
- * @param {string} sourceInfo 
- * @param {string} sourceId 
- * @param {string} sizes 
- * @param {boolean=} noborder 
- * @returns 
- */
-async function renderSourcedImage(me, src, alt, sourceInfo, sourceId, sizes, noborder) {
+async function renderSourcedImage(me: ExpectedThis, src: string, alt: string, sourceInfo: string, sourceId: string, sizes: string, noborder: boolean|undefined) {
     const metadata = await loadSizedImage(me, src);
-    const [format] = Object.keys(metadata);
+    const [format] = Object.keys(metadata) as (keyof typeof metadata)[];
+    const m = metadata[format]!;
 
-    const srcset = metadata[format].map(x => x.srcset).join(', ');
-    const original = metadata[format][metadata[format].length - 1];
-    const smallest = metadata[format][0];
+    const srcset = m.map(x => x.srcset).join(', ');
+    const original = m.slice(-1)[0];
+    const smallest = m[0];
 
     const className = noborder ? "border-0" : '';
     const id = path.basename(original.filename, path.extname(original.filename));
@@ -290,15 +311,15 @@ const organizationPropTypes = {
     itemprop: PropTypes.string,
 };
 
-/**
- * @param {Object} props 
- * @param {string} props.orgName 
- * @param {string=} props.orgAbbr
- * @param {string=} props.orgLang
- * @param {string=} props.orgUrl
- * @returns {string}
- */
-function organization(props) {
+type OrganizationProps = {
+    orgName: string,
+    orgAbbr?: string,
+    orgLang?: string,
+    orgUrl?: string,
+    itemprop?: string,
+};
+
+export function organization(props: OrganizationProps) {
     PropTypes.checkPropTypes(organizationPropTypes, props, 'props', 'organization');
     let { orgName, orgAbbr, orgLang, orgUrl, itemprop } = props;
     let content = orgAbbr
@@ -339,18 +360,17 @@ const personPropTypes = {
     worksFor: PropTypes.exact(organizationPropTypes),
 };
 
-/**
- * @param {Object} props
- * @param {Name} props.name
- * @param {string=} props.innerId
- * @param {string=} props.id
- * @param {string=} props.url
- * @param {string=} props.itemprop
- * @param {string=} props.sameAs
- * @param {Organization=} props.worksFor
- * @returns {string}
- */
-function person(props) {
+type PersonProps = {
+    name: Name,
+    innerId?: string,
+    id?: string,
+    url?: string,
+    itemprop?: string,
+    sameAs?: string,
+    worksFor?: Organization,
+};
+
+export function person(props: PersonProps) {
     PropTypes.checkPropTypes(personPropTypes, props, 'props', 'person');
     const { id, itemprop, innerId, url, sameAs, worksFor } = props;
     let name = typeof props.name === 'string'
@@ -360,7 +380,7 @@ function person(props) {
         + `<span${asAttr("id", innerId)}>`
         + ifSet(url, `<link href="${url}" itemprop="url" />`)
         + ifSet(sameAs, `<link href="${sameAs}" itemprop="sameAs" />`)
-        + ifSet(worksFor, () => organization({ ...worksFor, itemprop: "worksFor" }) + '/')
+        + ifSet(worksFor, o => organization({ ...o, itemprop: "worksFor" }) + '/')
         + `<span itemprop="name"${asAttr('lang', name.lang)}>`
         + ('name' in name
             ? name.name
@@ -373,37 +393,31 @@ function person(props) {
         + `</span>`;
 }
 
-/**
- * 
- * @param {Object} props 
- * @param {LicenseName} props.license 
- * @param {LicenseVersion=} props.version 
- * @param {string=} props.rel
- * @param {boolean=} props.leading 
- */
-function license(props) {
-    PropTypes.checkPropTypes(licensePropTypes, props, "props", "license");
-    const { license, leading, version, rel } = props;
+export function license(name: LicenseName, version: LicenseVersion | undefined, rel: string | undefined, leading: boolean | undefined) {
+    PropTypes.checkPropTypes(licensePropTypes, { license: name, version, rel, leading }, "props", "license");
 
-    if (license === 'with-permission') {
+    if (name === 'with-permission') {
         return `<span>${ifSet(leading, ', ')}used with permission</span>`;
     }
 
-    if (license === 'us-fair-use') {
+    if (name === 'us-fair-use') {
         return `<span>${ifSet(leading, ', ')}under US fair use</span>`;
     }
 
     // license is creative-commons
+    if (version === undefined) {
+        version = "4.0";
+    }
 
     const href =
-        license === "cc0"
-        ? "https://creativecommons.org/publicdomain/mark/1.0/"
-        : `https://creativecommons.org/licenses/${license.substr(3)}/${version}`;
+        name === "cc0"
+            ? "https://creativecommons.org/publicdomain/mark/1.0/"
+            : `https://creativecommons.org/licenses/${name.slice(3)}/${version}`;
 
-    const parts = license.split('-');
+    const parts = name.split('-');
 
     const title =
-        license === 'cc0'
+        name === 'cc0'
             ? "Public Domain"
             : `Licensed under the ${parts.map(altTextForLicense).join(' ')} license, ${version}`
 
@@ -421,7 +435,7 @@ const licensePropTypes = {
     leading: PropTypes.bool,
 };
 
-function altTextForLicense(input) {
+function altTextForLicense(input: string) {
     switch (input) {
         case "cc0":
             return "Public Domain";
@@ -435,10 +449,12 @@ function altTextForLicense(input) {
             return "No Derivatives";
         case "sa":
             return "Share-Alike";
+        default:
+            throw new Error(`no such license part: ${input}`)
     }
 }
 
-function charForLicense(input) {
+function charForLicense(input: string) {
     switch (input) {
         case 'cc': return '\u{1f16d}';
         case 'cc0': return '\u{1f16e}';

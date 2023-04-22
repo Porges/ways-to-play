@@ -3,7 +3,7 @@ export type Name =
   { name: string, lang?: string } |
   { given: string, family: string, familyFirst?: boolean, lang?: string }
 
-export type Organization = { orgName: string, orgAbbr?: string, orgLang?: string, orgURL?: string }
+export type Organization = { orgName: string, orgAbbr?: string, orgLang?: string, orgUrl?: string }
 
 export type LicenseName
   = "cc0"

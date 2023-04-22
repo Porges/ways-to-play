@@ -513,7 +513,7 @@ lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
 
 {% image
     orgName="beforemario.com",
-    orgURL="https://beforemario.com",
+    orgUrl="https://beforemario.com",
     copyrightYear=2021,
     license="with-permission"
     src="./Nintendo_tokiwa_box.jpg;./Nintendo_tokiwa.jpg"
@@ -526,7 +526,7 @@ The <span lang="ja-Latn">tokiwa</span> external box and wrapper.
     src='Nintendo_goshozakura.jpg'
     alt="" 
     orgName="beforemario.com",
-    orgURL="https://beforemario.com",
+    orgUrl="https://beforemario.com",
     copyrightYear=2021,
     license="with-permission" %}
 The <span lang="ja-Latn">gosho&shy;zakura</span> wrapper.
@@ -535,7 +535,7 @@ The <span lang="ja-Latn">gosho&shy;zakura</span> wrapper.
     src='Nintendo_hinode.jpg'
     alt="" 
     orgName="beforemario.com",
-    orgURL="https://beforemario.com",
+    orgUrl="https://beforemario.com",
     copyrightYear=2021,
     license="with-permission" %}
 The <span lang="ja-Latn">hinode</span> wrapper.
@@ -544,7 +544,7 @@ The <span lang="ja-Latn">hinode</span> wrapper.
     src='Nintendo_hakubai.jpg'
     alt="An abstract image of a white plum flower on a red background."
     orgName="beforemario.com",
-    orgURL="https://beforemario.com",
+    orgUrl="https://beforemario.com",
     copyrightYear=2021,
     license="with-permission" %}
     The <span lang="ja-Latn">hakubai</span> wrapper.
@@ -2198,7 +2198,7 @@ Their brands included:
 
 {% image src='Kamigataya_miyakonishiki.jpg' alt="" 
     orgName="beforemario.com",
-    orgURL="https://beforemario.com",
+    orgUrl="https://beforemario.com",
     copyrightYear=2021,
     license="with-permission" %}
 The <span lang="ja-Latn">miyako nishiki</span> wrapper, manufactured by <span class="noun"
