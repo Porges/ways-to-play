@@ -195,6 +195,7 @@ had played the game in the last 12 months.[@SegmentingChineseGamblers]{%endfn%}
 
 {% image src="156734440_fc41d2c401_o.jpg" alt="A neon “Pacapio” sign."
     license="cc-by"
+    licenseVersion="2.0"
     authorGiven="Brian"
     authorFamily="Chow"
     copyrightYear="2005"
