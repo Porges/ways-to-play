@@ -1,8 +1,8 @@
 import { LicenseName, LicenseVersion, Name, Organization, SourceInfo } from "./types";
 
 import Image from '@11ty/eleventy-img';
-const PropTypes = require('prop-types');
-const path = require('path');
+import PropTypes from 'prop-types';
+import path from 'path';
 
 import { ifSet, asAttr, IS_PRODUCTION } from './helpers';
 import { randomUUID } from "crypto";

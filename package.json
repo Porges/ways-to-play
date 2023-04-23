@@ -29,6 +29,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@types/11ty__eleventy-img": "^2.0.1",
     "@types/node": "^18.13.0",
+    "@types/prop-types": "^15.7.5",
     "@types/slug": "^5.0.3",
     "ajv": "^8.12.0",
     "bootstrap": "^5.1.3",
