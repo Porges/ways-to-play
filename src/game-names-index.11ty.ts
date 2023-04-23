@@ -64,6 +64,7 @@ export async function render(data: Data) {
             case "mcm": return "Malaccan Creole Portuguese";
             case "mnr": return "Mono";
             case "rng": return "Rongo";
+            case "urh": return "Urhobo";
             default: return displayer.of(code);
         }
     };

@@ -39,65 +39,21 @@ In 19th century Ireland, it was described as ‘universally’ played by the pea
 
 {% a hjr-murray %} also claims that a distinct game called ‘<span class="aka">Nine Holes</span>’ existed,[@Murray2] but I don’t believe that it was a separate game to Three Men’s Morris, as all the references seem to track back to a single entry in Robert Nares’ <cite>Glossary</cite>.[@NaresGlossary p. 345] To me, it is the same game only played on a board that doesn’t show any lines. In any case, it is recorded as being played on the Isle of Man in 1674, when a man was [presented](https://en.wikipedia.org/wiki/Presentment) in [Malew](https://en.wikipedia.org/wiki/Malew) for “playing nine holes on Easter day before evening prayers”,[@Rothwell1674] and again in 1699 when two men were presented in [Lezayre](https://en.wikipedia.org/wiki/Lezayre) for “Makeing Nine holes with their knives upon Sunday after evening Prayer”.[@LezayrePresentments]{%fn%}Their punishment being “to acknowledge their fault, and promise Reformation.”{%endfn%}
 
-A game that appears to be Three Men’s Morris appears in {%a alfonso-x, Alfonso
-X’s <cite>Book of Games</cite>%} under the name <span lang="es">Alquerque de
-Tres</span>; however, this is in fact equivalent to {%gameref tic-tac-toe%},
-since the game described there does not permit movement after the pieces have
-been placed.[@DimensionsOfBookOfGames p. 600]  In modern Spanish the game is
-called <span lang="es">tres en raya</span> ‘three in a line’, <span
-lang="es">castro</span> ‘fort’, or <span lang="es">pedrería</span> ‘little
-stones’.[@Murray2 p. 41] In Catalan it is apparently called <span
-lang="ca">marro</span>.[@ElAjedrez p. 204]
+A game that appears to be Three Men’s Morris appears in {%a alfonso-x, Alfonso X’s <cite>Book of Games</cite>%} under the name <span lang="es">Alquerque de Tres</span>; however, this is in fact equivalent to {%gameref tic-tac-toe%}, since the game described there does not permit movement after the pieces have been placed.[@DimensionsOfBookOfGames p. 600]  In modern Spanish the game is called <span lang="es" class="aka">tres en raya</span> ‘three in a line’, <span lang="es" class="aka">castro</span> ‘fort’, or <span lang="es" class="aka">pedrería</span> ‘little stones’.[@Murray2 p. 41] In Catalan it is apparently called <span lang="ca" class="aka">marro</span>.[@ElAjedrez p. 204]
 
-In Italy it has been called <span lang="it">riga de tre</span> ‘line of
-three’,[@IlGiocoDeGliScacchi p. 35] <span lang="it">smerelli</span>, <span
-lang="it">mulino</span>, <span lang="it">semplice mulinello</span>, <span
-lang="it">filo</span>, <span lang="it">filetto</span>, or <span
-lang="it">tavoletta</span>.[@Murray2 p. 41] In France, it has been called <span
-lang="fr">mérelles</span>, <span lang="fr">marelles</span>,[@NoticeDesÉmaux p.
-381] or <span lang="fr">carré chinois</span> ‘Chinese
-square’.[@DictionnaireHistorique p. 279]
+In Italy it has been called <span lang="it" class="aka">riga de tre</span> ‘line of three’,[@IlGiocoDeGliScacchi p. 35] <span lang="it" class="aka">smerelli</span>, <span lang="it" class="aka">mulino</span>, <span lang="it" class="aka">semplice mulinello</span>, <span lang="it" class="aka">filo</span>, <span lang="it" class="aka">filetto</span>, or <span lang="it" class="aka">tavoletta</span>.[@Murray2 p. 41] In France, it has been called <span lang="fr" class="aka">mérelles</span>, <span lang="fr" class="aka">marelles</span>,[@NoticeDesÉmaux p.  381] or <span lang="fr" class="aka">carré chinois</span> ‘Chinese square’.[@DictionnaireHistorique p. 279]
 
-The game is known as <span lang="fil" class="noun">Tapatan</span> in the
-Philippines,[@Zaslavsky p. 6] or <span lang="yue-Hans-HK">六卒棋</span> (<span
-lang="yue-Latn-jyutping">luk6 zeot1 kei4</span> ‘six man game’) in southern
-China.[@CulinPhilippine p. 648]{%fn%}Note that @Bell confuses its sources here
-and claims that Hyde states that “Luk Tsut K’i” was played in the time of
-Confucius.{%endfn%} In Bengal, it has been called <span lang="bn">তাঁত
-ফাঁত</span> <span lang="bn-Latn">tant-fant</span>[@Datta, p. 167]
-(‘loom-[foom]’, possibly meaning something like weaving?), <span lang="bn">তিন
-গুটি পাইত পাইত</span> (<span lang="bn-Latn">tin-guṭi paite-paite</span>,
-‘getting three pieces’), or simply <span lang="bn">তিন গুটি</span> (<span
-lang="bn-Latn">tina guṭi</span>) ‘three pieces’, and is played with the pieces
-starting on the board.
+The game is known as <span lang="fil" class="noun aka">Tapatan</span> in the Philippines,[@Zaslavsky p. 6] or <span lang="yue-Hans-HK" class="aka">六卒棋</span> (<span lang="yue-Latn-jyutping" class="aka">luk6 zeot1 kei4</span> ‘six man game’) in southern China.[@CulinPhilippine p. 648]{%fn%}Note that @Bell confuses its sources here and claims that Hyde states that “<span class="aka noun">Luk Tsut K’i</span>” was played in the time of Confucius.{%endfn%} In Bengal, it has been called <span lang="bn" class="aka">তাঁত ফাঁত</span> <span lang="bn-Latn" class="aka">tant-fant</span>[@Datta, p. 167] (‘loom-[foom]’, possibly meaning something like weaving?), <span lang="bn" class="aka">তিন গুটি পাইত পাইত</span> (<span lang="bn-Latn" class="aka">tin-guṭi paite-paite</span>, ‘getting three pieces’), or simply <span lang="bn" class="aka">তিন গুটি</span> (<span lang="bn-Latn" class="aka">tina guṭi</span>) ‘three pieces’, and is played with the pieces starting on the board.
 
-In Hindi it is called <span lang="hi">तीन गोटी</span> (<span lang="hi-Latn">teen
-goti</span>) ‘three pieces’; in Tamil <span lang="ta">கட்ட விளையாட்டு</span>
-(<span lang="ta-Latn">kaṭṭa viḷaiyāṭṭu</span>) ‘square game’ (although this is
-also used for other games).[@TamilCountryGames p. 59]
+In Hindi it is called <span lang="hi" class="aka">तीन गोटी</span> (<span lang="hi-Latn" class="aka">teen goti</span>) ‘three pieces’; in Tamil <span lang="ta" class="aka">கட்ட விளையாட்டு</span> (<span lang="ta-Latn" class="aka">kaṭṭa viḷaiyāṭṭu</span>) ‘square game’ (although this is also used for other games).[@TamilCountryGames p. 59]
 
-Writing in 1694,[@Hyde2 p. 211] Thomas Hyde said that it was called “Che-Lo” in
-Chinese (i.e. <span lang="zh-Hant">直六</span> Mandarin: <span
-lang="cmn-Latn-pinyin">zhí liù</span> ‘straight six’), and “Hugjurè” in Persian
-(<span lang="fa">هجوره</span>, probably not a native Persian word?), but he also
-stated that each player has 6 pieces.
+Writing in 1694,[@Hyde2 p. 211] Thomas Hyde said that it was called “<span lang="zh-Latn" class="aka noun">Che-Lo</span>” in Chinese (i.e. <span lang="zh-Hant" class="aka">直六</span> Mandarin: <span lang="cmn-Latn-pinyin" class="aka">zhí liù</span> ‘straight six’), and “<span lang="fa-Latn" class="aka noun">Hugjurè</span>” in Persian (<span lang="fa" class="aka">هجوره</span>, probably not a native Persian word?), but he also stated that each player has 6 pieces.
 
-It is also played across Africa: in Madagascar it is called <span
-lang="mg">fanorona telo</span> ‘three-{%gameref fanorona%}’;[@Murray2 p. 42] in
-Nigeria ([Urhobo](https://en.wikipedia.org/wiki/Urhobo_language)) <span
-lang="urh">epelle</span>;[@Murray2 p. 42] and in Somaliland <span
-lang="so">carabawg</span>.[@Murray2 p. 42]{%fn%}Is this name possibly the same
-as <span lang="so">kubbad</span>[@SomaliEnglishThesaurus p. 99]/<span
-lang="so">kurobodo</span>[@SomaliEnglishDictionary p. 87]/<span
-lang="so">koruböddo</span>/<span lang="so">korkaböd</span>[@SomaliGames p.
-506]?{%endfn%}
+It is also played across Africa: in Madagascar it is called <span lang="mg" class="aka">fanorona telo</span> ‘three-{%gameref fanorona%}’;[@Murray2 p. 42] in Nigeria ([Urhobo](https://en.wikipedia.org/wiki/Urhobo_language)) <span lang="urh" class="aka">epelle</span>;[@Murray2 p. 42] and in Somaliland <span lang="so" class="aka">carabawg</span>.[@Murray2 p. 42]{%fn%}Is this name possibly the same as <span lang="so">kubbad</span>[@SomaliEnglishThesaurus p. 99]/<span lang="so">kurobodo</span>[@SomaliEnglishDictionary p. 87]/<span lang="so">koruböddo</span>/<span lang="so">korkaböd</span>[@SomaliGames p.  506]?{%endfn%}
 
-In Arabic it has been called <span lang="ar">دريس اثلاثة</span> (<span
-lang="ar-Latn">drīs ath-thalātha</span>).[@ReizeNaarArabie p. 166][@Murray2 p. 41]
+In Arabic it has been called <span lang="ar" class="aka">دريس اثلاثة</span> (<span lang="ar-Latn" class="aka">drīs ath-thalātha</span>).[@ReizeNaarArabie p. 166][@Murray2 p. 41]
 
-The game is also sometimes called Hopscotch, in @MathematicalRecreationsMaurice
-[p. 290], but I think that name is better reserved for {%gameref picaria%}.{%fn%}As in
-@WinningWaysV3 [p. 737].{%endfn%}
+The game is also sometimes called <span class="aka">Hopscotch</span>, in @MathematicalRecreationsMaurice [p. 290], but I think that name is better reserved for {%gameref picaria%}.{%fn%}As in @WinningWaysV3 [p. 737].{%endfn%}
 
 <!-- To Check
 * Terni Lapilli
@@ -108,22 +64,13 @@ The game is also sometimes called Hopscotch, in @MathematicalRecreationsMaurice
 
 ### Circular Three Men’s Morris
 
-In this version the game is played on a circular board with ‘spokes’, meaning
-that mills can only be made across the center point. Zaslavsky [@Zaslavsky p. 4–5] calls
-it Shisima, and says it is played in Kenya.{%fn%}The original reference for this
-seems to be <cite>African Games of Strategy: A teaching manual</cite> by Louise
-Crane, but I haven’t been able to view this work.{%endfn%} It has also been
-published as ‘[Tri-Pin](https://boardgamegeek.com/boardgame/111169/tri-pin)’ (Louis Marx & Co.).
+In this version the game is played on a circular board with ‘spokes’, meaning that mills can only be made across the center point. Zaslavsky [@Zaslavsky p. 4–5] calls it <span class="aka">Shisima</span>, and says it is played in Kenya.{%fn%}The original reference for this seems to be <cite>African Games of Strategy: A teaching manual</cite> by Louise Crane, but I haven’t been able to view this work.{%endfn%} It has also been published as ‘[<span class="aka">Tri-Pin</span>](https://boardgamegeek.com/boardgame/111169/tri-pin)’ (Louis Marx & Co.).
 
 See @HeimannLoop for an analysis of the game.
 
 ### X-ceter-O
 
-[X-ceter-O](https://boardgamegeek.com/boardgame/21951/x-ceter-o) (Endless Games,
-2009) — originally in German <span lang="de">X-für-O</span> (Milton Bradley,
-1985) — has 6 pieces numbered #1–#6, alternating between sides. The pieces must be
-placed or moved in order (and can leap to any unoccupied square), looping back
-to #1 after #6 has been moved.
+[X-ceter-O](https://boardgamegeek.com/boardgame/21951/x-ceter-o) (Endless Games, 2009) — originally in German <span lang="de">X-für-O</span> (Milton Bradley, 1985) — has 6 pieces numbered #1–#6, alternating between sides. The pieces must be placed or moved in order (and can leap to any unoccupied square), looping back to #1 after #6 has been moved.
 
 ### King
 
@@ -133,22 +80,14 @@ first play to centre, and pieces may move on the long diagonals.
 
 ### Chung Toi
 
-In [Chung Toi](https://boardgamegeek.com/boardgame/11557/chung-toi) (Reginald
-Chung, 1994, multiple publishers), each player’s pieces are octagonal, and have
-a cross incised upon the top. After the placement phase, a piece can move one or
-two squares (jumping is allowed) in any of the four directions that the cross is
-pointing, and may also then rotate so that its cross is facing a different set
-of squares.
+In [Chung Toi](https://boardgamegeek.com/boardgame/11557/chung-toi) (Reginald Chung, 1994, multiple publishers), each player’s pieces are octagonal, and have a cross incised upon the top. After the placement phase, a piece can move one or two squares (jumping is allowed) in any of the four directions that the cross is pointing, and may also then rotate so that its cross is facing a different set of squares.
 
-A piece may also rotate without moving instead, as long as it changes
-orientation (i.e. passing without changing the board is not permitted).
+A piece may also rotate without moving instead, as long as it changes orientation (i.e. passing without changing the board is not permitted).
 
 ## See also
 
 General references are: @OxfordBG [p. 116], @Bell [p. 91], and @Murray2 [p. 41].
 
-{% gameref achi %} is often mis-described as a three-men’s-morris game (e.g. in
-@TicTacToe), based on a misreading of the description in @Murray2.
+{% gameref achi %} is often mis-described as a three-men’s-morris game (e.g. in @TicTacToe), based on a misreading of the description in @Murray2.
 
-{% gameref picaria %} is the same game played with additional diagonals on the
-board.
+{% gameref picaria %} is the same game played with additional diagonals on the board.
