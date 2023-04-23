@@ -17,7 +17,7 @@ subgames:
 ---
 
 <p class="lead">
-<span lang="jav-Latn" class="noun">Sampèn</span> is a simple luck-based gambling game played in Java using {%a ceki%}.[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
+<span lang="jav-Latn" class="noun aka">Sampèn</span> is a simple luck-based gambling game played in Java using {%a ceki%}.[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
 </p>
 
 <!-- excerpt -->
@@ -70,7 +70,7 @@ In @CardGamesAroundTheWorld, Sid Sackson suggests dealing a varying number of ca
 
 ### <span lang="jav-Latn">Thothit Banyuwangi</span>
 
-This similar game is played in Banyuwangi, East Java. It is different from other games called {% gameref thothit %}.[@JavaanseKaartspelen p. 74]
+This similar game named <span lang="jav-Latn" class="noun aka">Thothit</span> is played in Banyuwangi, East Java. It is different from other games called {% gameref thothit %}.[@JavaanseKaartspelen p. 74]
 
 A single deck of 60 cards is used, and it is played by up to seven players.
 

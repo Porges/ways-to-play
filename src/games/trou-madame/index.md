@@ -4,7 +4,7 @@ titleLang: fr
 draft: true
 ---
 
-Also called “Nine Holes” in English.
+Also called “<span class="aka">Nine Holes</span>” in English.
 
 <!--
 

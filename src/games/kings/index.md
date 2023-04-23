@@ -13,8 +13,7 @@ subgames:
 ---
 
 <p class="lead">
-Kings is a luck-based card game from New Guinea. It plays similarly to a fishing
-game, only there are no decisions to be made.
+<span class="aka">Kings</span> is a luck-based card game from New Guinea. It plays similarly to a fishing game, only there are no decisions to be made.
 </p>
 
 <!-- excerpt -->
@@ -62,43 +61,22 @@ them from a central pool.
 
 ## <span lang="jav-Latn">Thothit Yogyakarta</span>
 
-A very similar game but played with {% a ceki %} is known in
-[Yogyakarta](https://en.wikipedia.org/wiki/Yogyakarta) as <span lang="jav-Latn"
-class="noun">Thothit</span>{%fn%}Older Romanizations spell this <span
-lang="jav-Latn" class="noun">Ṭoṭit</span>.{%endfn%} (there is also a different
-game which was called {% gameref thothit %} in Surakarta; see that article for
-details).
+A very similar game but played with {% a ceki %} is known in [Yogyakarta](https://en.wikipedia.org/wiki/Yogyakarta) as <span lang="jav-Latn" class="noun aka">Thothit</span>{%fn%}Older Romanizations spell this <span lang="jav-Latn" class="noun aka">Ṭoṭit</span>.{%endfn%} (there is also a different game which was called {% gameref thothit %} in Surakarta; see that article for details).
 
 According to @JavaanseKaartspelen [p. 75], the game is usually played by women.
 
-Three players play with a <span lang="jav-Latn">kepala</span> of 60 <span
-lang="jav-Latn">ceki</span> cards, so that there are two identical copies of
-each card.
+Three players play with a <span lang="jav-Latn">kepala</span> of 60 <span lang="jav-Latn">ceki</span> cards, so that there are two identical copies of each card.
 
-To decide the starting player, one player draws a card at random, then counts
-around the circle anti-clockwise starting from themselves (so that a {% cards '1' %},
-{% cards '4' %}, or {% cards '7' %} indicates that they are the starting player).
+To decide the starting player, one player draws a card at random, then counts around the circle anti-clockwise starting from themselves (so that a {% cards '1' %}, {% cards '4' %}, or {% cards '7' %} indicates that they are the starting player).
 
 The cards are shuffled and placed face-down in a pile to form the stock.
 
-Beginning with the starting player, each player draws a card from the stock and
-tries to match any other cards in the pool by rank. All {% cards '1' %} and
-honour cards are considered to be of the same rank. If there is a matching card
-then they player captures both cards and places them in front of themselves. If
-there is no matching card then the player places the drawn card face-up as part
-of the pool.
+Beginning with the starting player, each player draws a card from the stock and tries to match any other cards in the pool by rank. All {% cards '1' %} and honour cards are considered to be of the same rank. If there is a matching card then they player captures both cards and places them in front of themselves. If there is no matching card then the player places the drawn card face-up as part of the pool.
 
-Once all the cards have been played (and thus all cards captured), the players
-total up their points. Two _identical_ matching cards are worth 10 points, and
-each red-stamped card is also worth an additional 10 points. The player with the
-highest score wins, takes any payment from the others, and then becomes the
-starting player for the next round.
+Once all the cards have been played (and thus all cards captured), the players total up their points. Two _identical_ matching cards are worth 10 points, and each red-stamped card is also worth an additional 10 points. The player with the highest score wins, takes any payment from the others, and then becomes the starting player for the next round.
 
 ## <span lang="jav-Latn">Thit-Thit-Dulit</span>
 
-<span lang="jav-Latn" class="noun">Thit-Thit-Dulit</span> is an even simpler
-version of the game for two players, again played in Yogyakarta with a deck of
-60 <span lang="jav-Latn">ceki</span> cards.
+<span lang="jav-Latn" class="noun aka">Thit-Thit-Dulit</span> is an even simpler version of the game for two players, again played in Yogyakarta with a deck of 60 <span lang="jav-Latn">ceki</span> cards.
 
-In this version of the game, a card can only capture if it matches by both suit
-and rank; it must match its identical partner.
+In this version of the game, a card can only capture if it matches by both suit and rank; it must match its identical partner.

@@ -3,13 +3,7 @@ title: Horseshoe
 players: 2
 ---
 
-This is a simple blocking game for children that seems to originate from China, where it is
-known by many names. Because the board is shaped like the Chinese character
-‘<span lang="zh">区</span>’ (‘area’), it is known as ‘<code>区</code> character
-game’ (<span lang="zh">区字棋</span>, Mandarin: <span lang="cmn-Latn-pinyin">qū zì
-qí</span>). Other names include ‘crotch game’ (<span lang="zh-Hant">褲襠棋</span>/<span lang="zh-Hans">裤裆棋</span>,
-Mandarin: <span lang="cmn-Latn-pinyin">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh">剪刀棋</span>,
-Mandarin: <span lang="cmn-Latn-pinyin">jiǎndāo qí</span>). 
+This is a simple blocking game for children that seems to originate from China, where it is known by many names. Because the board is shaped like the Chinese character ‘<span lang="zh">区</span>’ (‘area’), it is known as ‘<code>区</code> character game’ (<span lang="zh" class="aka">区字棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">qū zì qí</span>). Other names include ‘crotch game’ (<span lang="zh-Hant" class="aka">褲襠棋</span>/<span lang="zh-Hans" class="aka">裤裆棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh" class="aka">剪刀棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">jiǎndāo qí</span>). 
 
 The board is simple enough to be drawn with a finger into dirt or sand, and can
 be played with any two sets of two distinctive pieces: rocks, shell, bottlecaps,
@@ -20,27 +14,11 @@ A “standardized” board with places for the pieces to go.<br/>The normal Chin
 board is the same as this, only drawn without circles.
 {% imageEnd %}
 
-In English the game has no standard name, not being widespread, but it has been called
-“horseshoe”, or also “bar”.[@MeditoBoxFront]
+In English the game has no standard name, not being widespread, but it has been called “<span class="aka">horseshoe</span>”, or also “<span class="aka">bar</span>”.[@MeditoBoxFront]
 
-In Cantonese it is called ‘cleft lip game’ (<span lang="yue">崩口棋</span> <span
-lang="yue-Latn-jyutping">bong1 hau2 kei4</span>),[@KoreanGames p.
-100][@PangHauKiImage]{%fn%}In older books (such as Culin’s) this is
-transliterated as <span lang="yue-Latn">pong hau k’i</span>.{%endfn%} because of the shape of the board. In
-Hindi it is called <span lang="hi-Latn">do-guṭī</span> (<span language="hi">दो
-गुटी</span> ‘two pieces’, perhaps Urdu <span lang="ur">دو گتھی</span>).[@GuptaD
-p. 143]
+In Cantonese it is called ‘cleft lip game’ (<span lang="yue" class="aka">崩口棋</span> <span lang="yue-Latn-jyutping" class="aka">bong1 hau2 kei4</span>),[@KoreanGames p.  100][@PangHauKiImage]{%fn%}In older books (such as Culin’s) this is transliterated as <span lang="yue-Latn" class="aka">pong hau k’i</span>.{%endfn%} because of the shape of the board. In Hindi it is called <span lang="hi-Latn" class="aka">do-guṭī</span> (<span lang="hi" class="aka">दो गुटी</span> ‘two pieces’, perhaps Urdu <span lang="ur" class="aka">دو گتھی</span>).[@GuptaD p. 143]
 
-In Korea it is known as <span lang="ko-Latn">umulgonu</span> (<span
-lang="ko">우물고누</span> ‘well game’) or <span lang="ko-Latn">ganggonu</span>
-(<span lang="ko">강고누</span> ‘river game’).[@KoreanGames p. 100] In Thailand
-it is called <span lang="th-Latn">suea tok thang</span> (<span
-lang="th">เสือตกถัง</span> ‘tiger falls into the bucket’),{%fn%}Older books
-transliterate this as <span lang="th-Latn">sua tok tong</span>.{%endfn%} or
-<span lang="th-Latn">saeng tawan</span> (<span lang="th">แสงตะวัน</span> ‘sun
-rays’).[@TigerTank]{%fn%}Another name given is <span lang="th">จะบูมูลู</span>
-but I haven’t been able to translate it.{%endfn%} In Malaysia it is known as
-{% pronounce lang="ms" word="telaga buruk" pronouncer="Alvin00" %} (‘bad well’).[@TigerTank]
+In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span lang="ko" class="aka">우물고누</span> ‘well game’) or <span lang="ko-Latn" class="aka">ganggonu</span> (<span lang="ko" class="aka">강고누</span> ‘river game’).[@KoreanGames p. 100] In Thailand it is called <span lang="th-Latn" class="aka">suea tok thang</span> (<span lang="th" class="aka">เสือตกถัง</span> ‘tiger falls into the bucket’),{%fn%}Older books transliterate this as <span lang="th-Latn" class="aka">sua tok tong</span>.{%endfn%} or <span lang="th-Latn" class="aka">saeng tawan</span> (<span lang="th" class="aka">แสงตะวัน</span> ‘sun rays’).[@TigerTank]{%fn%}Another name given is <span lang="th" class="aka">จะบูมูลู</span> but I haven’t been able to translate it.{%endfn%} In Malaysia it is known as {% pronounce lang="ms" class="aka" word="telaga buruk" pronouncer="Alvin00" %} (‘bad well’).[@TigerTank]
 
 <div class="multi">
 
@@ -65,9 +43,7 @@ have a circle over the ‘forbidden’ section of the board, representing the
 obstacle that a piece could fall into.
 
 
-
 <!--<span lang="pa">ਦੋਗੁਟਿ</span> Punjabi?--> 
-
 
 
 ## Play

@@ -1,3 +1,4 @@
+import { IS_PRODUCTION } from "../helpers";
 import { Context, Data } from "../types";
 
 export const data = {
@@ -26,7 +27,7 @@ async function findNames(coll: any[], refs: Map<Name, any>) {
 }
 
 export async function render(data: Data) {
-    const refs = new Map();
+    const refs = new Map<Name, any>();
     await findNames(data.collections.game, refs);
     
     const byLang = new Map<string, Map<{lang: string, name: string}, any>>();
@@ -59,8 +60,10 @@ export async function render(data: Data) {
             // not all languages supported by Intl.DisplayNames
             // in particular, 3-letter codes are under-supported
             case "cmn": return "Mandarin Chinese";
-            case "mnr": return "Mono";
+            case "kxd": return "Kedayan";
             case "mcm": return "Malaccan Creole Portuguese";
+            case "mnr": return "Mono";
+            case "rng": return "Rongo";
             default: return displayer.of(code);
         }
     };
@@ -72,17 +75,21 @@ export async function render(data: Data) {
 
     result += '<h2>Languages</h2><ul class="columnar">';
     for (const {code, title} of langs) {
-        result += '<li><a href="#' + code + '">' + title + '</a></li>';
+        result += `<li><a href="#${code}">${title}</a></li>`;
     }
     result += '</ul>'
         + '<h2>List</h2>';
 
     for (const {code, title, values} of langs) {
-        result += `<h3 id="${code}">${title}</h3>`;
+        result += `<h3 id="${code}"><a href="https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(' ', '_'))}_language">${title}</a></h3>`;
         result += '<ul class="columnarr">';
         const names = [...values.entries()].sort((a, b) => sorter.compare(a[0].name, b[0].name));
         for (const [{lang, name}, page] of names) {
-            result += `<li><a href="${page.url}#:~:text=${encodeURIComponent(name).replaceAll('-', '%2D')}"><span lang="${lang}">${name}</span></a></li>`;
+            if (IS_PRODUCTION && page.data.draft) {
+                continue;
+            }
+
+            result += `<li><a href="${page.url}#:~:text=${encodeURIComponent(name).replaceAll('-', '%2D')}"><span lang="${lang}">${titlize(name)}</span></a></li>`;
         }
         result += '</ul>';
     }
@@ -92,4 +99,9 @@ export async function render(data: Data) {
         + '</div>';
 
     return result;
+}
+
+const titlizer = /(?<![\(\)’']\p{Letter}*)\p{Letter}+/ug;
+function titlize(name: string) {
+    return name.replaceAll(titlizer, x => x[0].toUpperCase() + x.slice(1));
 }

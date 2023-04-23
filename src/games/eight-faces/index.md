@@ -7,42 +7,19 @@ players:
 originalTitle: <span lang="zh">八面</span>
 ---
 
-Eight Faces  (<span lang="zh">八面</span>, Mandarin <span
-lang="cmn-Latn">bāmiàn</span>, Hokkien <span
-lang="nan-Latn">pehbīn</span>){%fn%}Given as “Pek Bin” in older English sources,
-such as @GamblingGamesOfMalaya [p. 125], and in legislation based upon that work
-(see below).{%endfn%} is (or was) a simple staking game played with a special
-eight-sided teetotum (<span lang="zh">陀螺</span>, Mandarin <span
-lang="cmn-Latn">tuóluó</span>, Hokkien <span lang="nan-Latn">tolo</span>). It is
-also called <span lang="zh">小花会</span> (‘small <span class="noun"
-lang="cmn-Latn">Huāhuì</span>’), as it uses a subset of characters from the
-<span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery
-game.[@郑超麟回忆录]
+Eight Faces (<span lang="zh" class="aka">八面</span>, Mandarin <span lang="cmn-Latn-pinyin" class="aka">bāmiàn</span>, Hokkien <span lang="nan-Latn" class="aka">pehbīn</span>){%fn%}Given as “<span class="aka">Pek Bin</span>” in older English sources, such as @GamblingGamesOfMalaya [p. 125], and in legislation based upon that work (see below).{%endfn%} is (or was) a simple staking game played with a special eight-sided teetotum (<span lang="zh">陀螺</span>, Mandarin <span lang="cmn-Latn">tuóluó</span>, Hokkien <span lang="nan-Latn">tolo</span>). It is also called <span lang="zh" class="aka">小花会</span> (Mandarin <span lang="cmn-Latn-pinyin" class="aka">xiǎohuāhuì</span>, ‘small <span class="noun" lang="cmn-Latn">Huāhuì</span>’), as it uses a subset of characters from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game.[@郑超麟回忆录]
 
 <!-- excerpt -->
 
-The description below is mostly based upon @GamblingGamesOfMalaya, which
-describes it as popular in Malaysia with “Chinese ladies”. 
+The description below is mostly based upon @GamblingGamesOfMalaya, which describes it as popular in Malaysia with “Chinese ladies”. 
 
-The game is also described in the memoirs of Chinese revolutionary <span class="noun"
-lang="cmn-Latn-pinyin">Zheng Chaolin</span> (<span lang="zh">郑超麟</span>, 1901–1998),
-who says that it was played at roadside gambling stalls during the five days
-after the Chinese New Year (and in practice until the Lantern Festival on the
-fifteenth day), when gambling was not prohibited.[@郑超麟回忆录]
+The game is also described in the memoirs of Chinese revolutionary <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span> (<span lang="zh">郑超麟</span>, 1901–1998), who says that it was played at roadside gambling stalls during the five days after the Chinese New Year (and in practice until the Lantern Festival on the fifteenth day), when gambling was not prohibited.[@郑超麟回忆录]
 
-As of 2021, the game remains explicitly illegal in
-Malaysia,[@MalaysiaCommonGamingHousesAct]
-Singapore,[@SingaporeGamesOfChanceAndSkill] and Brunei.[@LawsOfBrunei p. 21]
+As of 2021, the game remains explicitly illegal in Malaysia,[@MalaysiaCommonGamingHousesAct] Singapore,[@SingaporeGamesOfChanceAndSkill] and Brunei.[@LawsOfBrunei p. 21]
 
 ## Equipment
 
-The special die has eight sides, each marked with the name of a character from
-the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery
-game, and they are divided alternately into two different colours. If the
-teetotum is made out of a dark material (such as buffalo horn), the characters
-are inlaid with red and white; if a light material (ivory, bone) is used then
-they are red and blue/black. These colours are not necessary for the play of the
-game but make it easier to match the result.
+The special die has eight sides, each marked with the name of a character from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game, and they are divided alternately into two different colours. If the teetotum is made out of a dark material (such as buffalo horn), the characters are inlaid with red and white; if a light material (ivory, bone) is used then they are red and blue/black. These colours are not necessary for the play of the game but make it easier to match the result.
 
 <table class="table">
     <thead>
@@ -114,16 +91,9 @@ The staking layout, after @GamblingGamesOfMalaya [p. 124].
 
 ## Rules
 
-The game is a gambling game played with one player at a time acting as the
-banker (莊, Hokkien <span lang="nan-Latn">chong</span>, Mandarin <span
-lang="cmn-Latn">zhuāng</span>). The game can be run by a syndicate with a fixed
-banker, or in a friendly game the banker can rotate on a time interval (e.g.
-every 15 or 30 minutes).
+The game is a gambling game played with one player at a time acting as the banker (莊, Hokkien <span lang="nan-Latn">chong</span>, Mandarin <span lang="cmn-Latn">zhuāng</span>). The game can be run by a syndicate with a fixed banker, or in a friendly game the banker can rotate on a time interval (e.g.  every 15 or 30 minutes).
 
-Each round, the top is spun on a plate{%fn%}This plate was often placed on a bed
-of rice inside a larger bowl, to deaden the noise.{%endfn%} and covered with a
-bowl. While the top remains covered, players place their bets on the staking
-board, then the banker reveals the top and the bets are collected.
+Each round, the top is spun on a plate{%fn%}This plate was often placed on a bed of rice inside a larger bowl, to deaden the noise.{%endfn%} and covered with a bowl. While the top remains covered, players place their bets on the staking board, then the banker reveals the top and the bets are collected.
 
 There are four kinds of bets that can be placed:
 

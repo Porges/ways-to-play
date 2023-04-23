@@ -11,12 +11,7 @@ subgames:
 equipment: Playing cards (Ceki)
 ---
 
-<span class="noun" lang="th-Latn">Pai Tong</span> (<span
-lang="th">ไพ่ตอง</span>, ‘<span lang="th-Latn">tong</span> cards’) is a
-draw-and-discard card game from Thailand, played with Thai money cards. It is
-also known as <span class="noun" lang="th-Latn">Pai Phong Thai</span> (<span
-lang="th">ไพ่ผ่องไทย</span>) or <span class="noun" lang="th-Latn">Pai
-Chot</span> (<span lang="th">ไพ่จอด</span>).[@ThaiGambling p. 71–6]
+<span class="noun aka" lang="th-Latn">Pai Tong</span> (<span lang="th" class="aka">ไพ่ตอง</span>, ‘<span lang="th-Latn">tong</span> cards’) is a draw-and-discard card game from Thailand, played with Thai money cards. It is also known as <span class="noun" lang="th-Latn" class="aka">Pai Phong Thai</span> (<span lang="th" class="aka">ไพ่ผ่องไทย</span>) or <span class="noun" lang="th-Latn" class="aka">Pai Chot</span> (<span lang="th" class="aka">ไพ่จอด</span>).[@ThaiGambling p. 71–6]
 
 Very similar games are also played in Kelantan in Malaysia.
 
@@ -80,12 +75,7 @@ able to find or get a good translation for them.
 
 ## Pong
 
-The game is also played in Malaysia under the name <span class="noun"
-lang="ms">Pong</span>. In @GamblingGamesOfMalaya [p. 137–8] it is described as
-being played with Mahjong tiles, but I think it is probably also played with {%a
-ceki%}. According to the book, it is played in the state of
-[Kelantan](https://en.wikipedia.org/wiki/Kelantan), which is adjacent to
-Thailand.
+The game is also played in Malaysia under the name <span class="noun aka" lang="ms">Pong</span>. In @GamblingGamesOfMalaya [p. 137–8] it is described as being played with Mahjong tiles, but I think it is probably also played with {%a ceki%}. According to the book, it is played in the state of [Kelantan](https://en.wikipedia.org/wiki/Kelantan), which is adjacent to Thailand.
 
 In Malaysia it is only played with four players.
 

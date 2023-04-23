@@ -9,45 +9,14 @@ subgames:
 ---
 
 <p class="lead">
-The Pigeon Lottery (<span lang="zh-Hant">白鴿票</span>/<span lang="zh-Hans">白鸽票
-</span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak6 gaap3 piu3"
-pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" %}){%fn%}Other
-romanizations include <span lang="yue-Latn">pak kap
-piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn">pák kòp
-piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn">baahk gáap piu</span>,
-<span lang="yue-Latn">paâk káap p'iu</span>, or <span lang="yue-Latn">pai ko
-p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as
-“white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and
-this further proves the Cantonese origin of the game (see e.g.
-@SparrowAndPigeon, although I find some of his other (original) conclusions to
-be dubious).{%endfn%} is a gambling game that originated in <span class="noun"
-lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the
-19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by
-Chinese emigrants.
+The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak6 gaap3 piu3" pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" class="aka" %}){%fn%}Other romanizations include <span lang="yue-Latn" class="aka">pak kap piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn" class="aka">pák kòp piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn" class="aka">baahk gáap piu</span>, <span lang="yue-Latn" class="aka">paâk káap p'iu</span>, or <span lang="yue-Latn" class="aka">pai ko p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and this further proves the Cantonese origin of the game (see e.g.  @SparrowAndPigeon, although I find some of his other (original) conclusions to be dubious).{%endfn%} is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
 </p>
 
-The recent history of the game is often a story of racism and hypocrisy: as a
-Chinese gambling game, Chinese migrants were punished for running the game while
-at the same time gambling games favoured by Europeans were permitted. In the 20th
-century the game was adapted by Americans who profited from a now-legal game
-even as the Chinese game was suppressed. Eventually the game became known under
-the modern name of Keno, which is now played in casinos around the world.
+The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Eventually the game became known under the modern name of Keno, which is now played in casinos around the world.
 
 <!-- excerpt -->
 
-In European sources, the game is often referred to as simply “the Chinese
-lottery”. The transliteration of the game is usually given as “pak-a-poo” (most
-common in New Zealand) or “pak-a(h)-pu” (most common in Australia). In London
-(particularly centered around the Chinese community in Pennyfields, Poplar) it
-was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa
-“pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are
-“pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In
-Macau it is given with the Portugeuse romanization of “pacapio”, which remains
-standard in current usage (previous terms include <span
-lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first
-referred to as “boc hop bu”[@NYTimes18870127] before picking up a variety of the
-other names mentioned above, as well as “Bock Ka Pian”,[@WhatTheHeathenPlays]
-but in Hawaiʻi it was referred to as “pakapio”.[@Pakapio]
+In European sources, the game is often referred to as simply “the Chinese lottery”. The transliteration of the game is usually given as “<span class="aka">pak-a-poo</span>” (most common in New Zealand) or “<span class="aka">pak-a(h)-pu</span>” (most common in Australia). In London (particularly centered around the Chinese community in Pennyfields, Poplar) it was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa “pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portugeuse romanization of “<span lang="pt" class="aka">pacapio</span>”, which remains standard in current usage (previous terms include <span lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first referred to as “<span class="aka">boc hop bu</span>”[@NYTimes18870127] before picking up a variety of the other names mentioned above, as well as “Bock Ka Pian”,[@WhatTheHeathenPlays] but in Hawaiʻi it was referred to as “<span class="aka">pakapio</span>”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the
@@ -96,30 +65,12 @@ game. For one thing, the <cite>Thousand Character Classic</cite> upon which the
 game is based is traditionally dated to the [Liang
 dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 {%ce%}).
 
-The true origin of the game apparently lies in gambling that was carried out as part of 
-the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span
-lang="yue-Latn-jyutping">baak6 gap3 wui2</span>) which was held in Guangdong.
-Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan)
-(<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan)
-(<span lang="zh">佛山</span>), and groups of pigeons were numbered using the
-opening characters from the [<cite>Thousand Character
-Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span
-lang="zh">千字文</span>).{%fn%}This system of enumeration has also been used to
-number volumes of books and other objects, including in the instructions for
-assembly kit-set furniture.[@RepresentingHainingStreet1 p. 53]{%endfn%} Bets
-were made on which group of pigeons would return intact.[@BettingOnEmpire p. 84]
-Eventually the pigeons were dropped entirely and a game was developed based on
-characters begin drawn at random.
+The true origin of the game apparently lies in gambling that was carried out as part of the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span lang="yue-Latn-jyutping">baak6 gap3 wui2</span>) which was held in Guangdong.  Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span lang="zh">佛山</span>), and groups of pigeons were numbered using the opening characters from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>).{%fn%}This system of enumeration has also been used to number volumes of books and other objects, including in the instructions for assembly kit-set furniture.[@RepresentingHainingStreet1 p. 53]{%endfn%} Bets were made on which group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the pigeons were dropped entirely and a game was developed based on characters begin drawn at random.
 
 
 ## Known history
 
-According to the [<cite>Draft History of <span class="noun"
-lang="cmn-Latn-pinyin">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
-the official <span class="noun" lang="cmn-Latn-pinyin">Qin Ying</span> (<span lang="zh">秦瀛</span>,
-1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<span class="noun"
-lang="cmn-Latn-pinyin">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
-(1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
+According to the [<cite>Draft History of <span class="noun" lang="cmn-Latn-pinyin">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter] the official <span class="noun" lang="cmn-Latn-pinyin">Qin Ying</span> (<span lang="zh">秦瀛</span>, 1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<span class="noun" lang="cmn-Latn-pinyin">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)” (1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
 
 In 1849, a traveller from Yunnan province visited Guangdong and reported that:
 
@@ -130,13 +81,7 @@ In 1849, a traveller from Yunnan province visited Guangdong and reported that:
 > prohibited it. When this governor got promoted and left, the trend of playing
 > the lottery came back.[@BettingOnEmpire p. 64]
 
-In the late 19th century, the game was also known as <span
-lang="cmn-Latn-pinyin">Xiǎowéixìng</span> <span lang="zh">小闈姓</span> ‘small
-surname guessing lottery’,[@BettingOnEmpire p. 85] after the main <span
-lang="cmn-Latn-pinyin">Wéixìng</span> <span lang="zh">闈姓</span> ‘surname
-guessing lottery’, which was based upon guessing the surnames of people who
-passed the [imperial service
-examinations.](https://en.wikipedia.org/wiki/Imperial_examination)
+In the late 19th century, the game was also known as <span lang="cmn-Latn-pinyin" class="aka">xiǎowéixìng</span> <span lang="zh" class="aka">小闈姓</span> ‘small surname guessing lottery’,[@BettingOnEmpire p. 85] after the main <span lang="cmn-Latn-pinyin">wéixìng</span> <span lang="zh">闈姓</span> ‘surname guessing lottery’, which was based upon guessing the surnames of people who passed the [imperial service examinations.](https://en.wikipedia.org/wiki/Imperial_examination)
 
 <!--
 Li Hongzhang (<span lang="zh">李鴻章</span>), governor-general of Guangdong, and
@@ -187,11 +132,7 @@ governor, and complained directly to Lisbon that, among other things,
 > that the same Government which allowed it had just two months before forbidden
 > as immoral and harmful to peacefulness and public tranquility.[@GamesOfChanceInMacau2 p. 110]
 
-Nevertheless, the game was permitted to continue and licenses to run <span
-lang="pt">pacapio</span> began to be issued on an annual basis from April 5,
-1848. The game is still played today in Macau, but it is not very
-popular.{%fn%}A study in 2019 found that only 4 out of 855 gamblers (0.5%)
-had played the game in the last 12 months.[@SegmentingChineseGamblers]{%endfn%}
+Nevertheless, the game was permitted to continue and licenses to run <span lang="pt">pacapio</span> began to be issued on an annual basis from April 5, 1848. The game is still played today in Macau, but it is not very popular.{%fn%}A study in 2019 found that only 4 out of 855 gamblers (0.5%) had played the game in the last 12 months.[@SegmentingChineseGamblers]{%endfn%}
 
 {% image src="156734440_fc41d2c401_o.jpg" alt="A neon “Pacapio” sign."
     license="cc-by"
@@ -209,12 +150,7 @@ Back in Guangdong, merchants petitioned for the game to be made legal…[@Bettin
 
 ## The Game
 
-The primary artifact of the game is the *ticket*, a slip of paper upon which is
-printed the name of the bank (see below) and 80 unique Chinese characters. These
-characters are the first 80 taken from the [<cite>Thousand Character
-Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span
-lang="zh">千字文</span>), and are always printed in a top-down, right-to-left
-order, broken into four-character blocks:
+The primary artifact of the game is the *ticket*, a slip of paper upon which is printed the name of the bank (see below) and 80 unique Chinese characters. These characters are the first 80 taken from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>), and are always printed in a top-down, right-to-left order, broken into four-character blocks:
 
 <blockquote lang="zh" class="vertical-rl mx-auto blockquote">
 天地玄黄&#x3000;宇宙洪荒<br/>

@@ -6,7 +6,7 @@ equipment: Stones
 ---
 
 <p class="lead">
-<span lang="mi" class="noun">Mū Tōrere</span> is a traditional Maōri blocking game from New Zealand.
+<span lang="mi" class="noun aka">Mū Tōrere</span> is a traditional Maōri blocking game from New Zealand.
 </p>
 
 <!-- excerpt -->

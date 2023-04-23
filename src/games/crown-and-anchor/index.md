@@ -13,13 +13,9 @@ subgames:
 equipment: Dice (non-standard)
 ---
 
-Crown & Anchor is a dice game that is probably most famous as being popular with
-British and “Colonial” servicemen in the early 20th century, but today it is
-played in many locations around the world. The game play is equivalent to that
-of {% gameref chuck-a-luck %}, but the pips on the dice and the numbers on
-the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and
-⚓&#xfe0e; anchor, and the playing-card suits: {% cards 's' %} spade,
-{% cards 'c' %} club, {% cards 'd' %} diamond, and {% cards 'h' %} heart.
+<p class="lead">
+<span class="aka">Crown & Anchor</span> is a dice game that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world. The game play is equivalent to that of {% gameref chuck-a-luck %}, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: {% cards 's' %} spade, {% cards 'c' %} club, {% cards 'd' %} diamond, and {% cards 'h' %} heart.
+</p>
 
 <!-- excerpt -->
 
@@ -356,36 +352,19 @@ discussed in the {% gameref chuck-a-luck %} article.
 Modern Chinese dice.
 {% imageEnd %}
 
-In English the Chinese name is usually given as “Hoo Hey How”; this appears to
-derive from the Hokkien {%pronounce lang="nan-Latn" word="hû hê hāu"
-file="pronunciation_nan_魚蝦鱟.mp3" pronouncer="2867290031" %} <span lang="nan">
-魚蝦鱟</span>.[@GamblingGamesOfMalaya p. 109] The modern Chinese name is <span
-lang="zh-Hant">魚蝦蟹</span>/<span lang="zh-Hans">鱼虾鲎</span> ‘fish prawn
-crab’; these are several of the symbols that commonly appear on the staking
-layout.
+In English the Chinese name is usually given as “<span class="aka">Hoo Hey How</span>”; this appears to derive from the Hokkien {%pronounce lang="nan-Latn" word="hû hê hāu" file="pronunciation_nan_魚蝦鱟.mp3" class="aka" pronouncer="2867290031" %} <span lang="nan" class="aka">魚蝦鱟</span>.[@GamblingGamesOfMalaya p. 109] The modern Chinese name is <span lang="zh-Hant" class="aka">魚蝦蟹</span>/<span lang="zh-Hans" class="aka">鱼虾鲎</span> ‘fish prawn crab’; these are several of the symbols that commonly appear on the staking layout.
 
 {% image src="chinese_board.svg" alt="" %}
-Example of a Chinese-style staking layout. At the top is the manufacturer’s name
-<span lang="zh">高慶坊</span> <span class="noun" lang="cmn-Latn-pinyin">Gāo Qìng Fāng</span>,
-followed by <span lang="zh">翹骰不算</span> “cocked dice don’t count”.
+Example of a Chinese-style staking layout. At the top is the manufacturer’s name <span lang="zh">高慶坊</span> <span class="noun" lang="cmn-Latn-pinyin">Gāo Qìng Fāng</span>, followed by <span lang="zh">翹骰不算</span> “cocked dice don’t count”.
 {% imageEnd %}
 
-An equivalent (perhaps older) game can be played with three standard six-sided
-dice. It does not need to be played with a layout board but it can be. In this
-form it can be called <span lang="nan">么二三</span> <span lang="nan-Latn">io jī
-sam</span> (‘ace, two, three’, romanized “Yew Yee Sam” in older texts).[@GamblingGamesOfMalaya p. 95]
+An equivalent (perhaps older) game can be played with three standard six-sided dice. It does not need to be played with a layout board but it can be. In this form it can be called <span lang="nan" class="aka">么二三</span> <span lang="nan-Latn" class="aka">io jī sam</span> (‘ace, two, three’, romanized “<span class="aka noun" lang="nan-Latn">Yew Yee Sam</span>” in older texts).[@GamblingGamesOfMalaya p. 95]
 
 #### ‘Grasping Eight’
 
-Culin[@ChineseGames p. 495–6] describes a very similar game that he calls
-“Grasping Eight” (<span lang="yue">八㪥</span>, Cantonese: <span
-lang="yue-Latn-jyutping">baat3 zaa1</span>),{%fn%}Culin transcribes this as <span
-lang="yue-Latn">pát chá</span>.{%endfn%} which uses eight dice.
+Culin[@ChineseGames p. 495–6] describes a very similar game that he calls “<span class="aka">Grasping Eight</span>” (<span lang="yue" class="aka">八㪥</span>, Cantonese: <span lang="yue-Latn-jyutping" class="aka">baat3 zaa1</span>),{%fn%}Culin transcribes this as <span lang="yue-Latn" class="aka">pát chá</span>.{%endfn%} which uses eight dice.
 
-The staking board contains the six squares with the dice symbols {%cdice
-123456%}, and players place their stakes on the squares. The eight dice are
-rolled. If at least three match a number, the players who staked on that number
-win 8×; if at least six match, they win 16×. All other stakes are lost.
+The staking board contains the six squares with the dice symbols {%cdice 123456%}, and players place their stakes on the squares. The eight dice are rolled. If at least three match a number, the players who staked on that number win 8×; if at least six match, they win 16×. All other stakes are lost.
 
 ### Indochina
 
@@ -395,9 +374,7 @@ very similar in all regions.
 
 #### Vietnam
 
-The Vietnamese game has a similar æsthetic to the Chinese version, including the
-name: <span lang="vi">bầu cua tôm cá</span> (‘gourd crab prawn fish’).
-
+The Vietnamese game has a similar æsthetic to the Chinese version, including the name: <span lang="vi" class="aka">bầu cua tôm cá</span> (‘gourd crab prawn fish’).
 
 {% image position="aside" src="D0344nd_a.jpg" originalUrl="https://averweij.web.cern.ch/sunanchor.htm" 
   alt="Three dice made out of paper boxes with the images of the Vietnamese version of the game on them."
@@ -418,8 +395,7 @@ Three dice as used in the Vietnamese game.
 
 #### Thailand
 
-I have little information about the game in Thailand other than that the
-paraphernalia for playing exists; gambling is illegal in Thailand.
+I have little information about the game in Thailand other than that the paraphernalia for playing exists; gambling is illegal in Thailand.
 
 {% image position="aside" src="D0751nd.jpg" originalUrl="https://averweij.web.cern.ch/hoo-hey-how.htm" 
   alt="Three dice bearing the symbols of the Thai version of the game."
@@ -427,17 +403,7 @@ paraphernalia for playing exists; gambling is illegal in Thailand.
 Modern Thai dice.
 {% imageEnd %}
 
-From what little I have seen, the game is called <span lang="th">(น้ำ)เต้า ปู
-ปลา</span> (<span lang="th-Latn">(nam)tao pu pla</span>, ‘(water)gourd crab
-fish’).[@ThaiGambling p. 85] The images that the game is played with
-are: goldfish (<span lang="th">ปลาทอง</span> <span
-lang="th-Latn">pla-thong</span>), chicken (<span lang="th">ไก่</span> <span
-lang="th-Latn">kai</span>), crab (<span lang="th">ปู</span> <span
-lang="th-Latn">pu</span>), gourd (<span lang="th">เต้า</span> <span
-lang="th-Latn">tao</span>), tiger (<span lang="th">เสือ</span> <span
-lang="th-Latn">suea</span>), and shrimp (<span lang="th">กุ้ง</span> <span
-lang="th-Latn">kung</span>). Sometimes a frog (<span lang="th">กบ</span> <span
-lang="th-Latn">kop</span>) appears instead of a tiger.[@ThaiGambling p. 85]
+From what little I have seen, the game is called <span lang="th" class="aka">(น้ำ)เต้า ปู ปลา</span> (<span lang="th-Latn" class="aka">(nam)tao pu pla</span>, ‘(water)gourd crab fish’).[@ThaiGambling p. 85] The images that the game is played with are: goldfish (<span lang="th">ปลาทอง</span> <span lang="th-Latn">pla-thong</span>), chicken (<span lang="th">ไก่</span> <span lang="th-Latn">kai</span>), crab (<span lang="th">ปู</span> <span lang="th-Latn">pu</span>), gourd (<span lang="th">เต้า</span> <span lang="th-Latn">tao</span>), tiger (<span lang="th">เสือ</span> <span lang="th-Latn">suea</span>), and shrimp (<span lang="th">กุ้ง</span> <span lang="th-Latn">kung</span>). Sometimes a frog (<span lang="th">กบ</span> <span lang="th-Latn">kop</span>) appears instead of a tiger.[@ThaiGambling p. 85]
 
 It is possible, although difficult, to obtain official permission to play the
 game at funerals.[@ThaiGambling p. 86]
@@ -456,9 +422,7 @@ game at funerals.[@ThaiGambling p. 86]
 
 #### Laos
 
-Again I have little information about the game here. Some images of the game
-being played in Laos follow. Interestingly, both photos show a board with Thai
-names.
+Again I have little information about the game here. Some images of the game being played in Laos follow. Interestingly, both photos show a board with Thai names.
 
 <div class="multi wide">
 {% image 
@@ -494,17 +458,11 @@ Playing with a dice tower in Laos; the board has names in Thai.
 
 ### India and Nepal
 
-The game was known in Mumbai and Pune{%fn%}Then called Bombay and
-Poona.{%endfn%} as early as 1905, as indicated by court cases from the
-time,[@ABookmakerAndThePolice][@HeartAnchorAndCrown] but it may have been in
-India for a long time prior to that.
+The game was known in Mumbai and Pune{%fn%}Then called Bombay and Poona.{%endfn%} as early as 1905, as indicated by court cases from the time,[@ABookmakerAndThePolice][@HeartAnchorAndCrown] but it may have been in India for a long time prior to that.
 
-In current times, the game is called <span lang="hi">झंडी मुंडा</span> <span class="noun"
-lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi">खोर
-खोरे</span> <span class="noun" lang="hi-Latn">Khor Khore</span>.
+In current times, the game is called <span lang="hi" class="aka">झंडी मुंडा</span> <span class="noun aka" lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi" class="aka">खोर खोरे</span> <span class="noun aka" lang="hi-Latn">Khor Khore</span>.
 
-Gambling remains illegal in most of India but the game is commonly played during
-[<span class="noun" lang="hi-Latn">Diwali</span>](https://en.wikipedia.org/wiki/Diwali).
+Gambling remains illegal in most of India but the game is commonly played during [<span class="noun" lang="hi-Latn">Diwali</span>](https://en.wikipedia.org/wiki/Diwali).
 
 {% image src="shutterstock_1958829937.svg" alt=""
     license="stock-image",
@@ -513,10 +471,8 @@ Gambling remains illegal in most of India but the game is commonly played during
     identifier="1958829937",
     originalUrl="https://www.shutterstock.com/image-vector/langur-burja-jhandi-munda-dice-local-1958829937" %}
 An example of a staking layout for <span class="noun" lang="hi-Latn">Jhaṇḍī Muṇḍā</span>.
-Note that the heart is presented with the same orientation as the spade; this
-appears to be a typical feature (see more examples:
-[1](https://www.alamy.com/stock-photo-traditional-gambling-in-indian-village-on-a-festival-132646298.html),
-[2](https://www.alamy.com/stock-photo-children-playing-gambling-game-bahundanda-village-lamjung-district-27979377.html)).
+
+Note that the heart is presented with the same orientation as the spade; this appears to be a typical feature (see more examples: [1](https://www.alamy.com/stock-photo-traditional-gambling-in-indian-village-on-a-festival-132646298.html), [2](https://www.alamy.com/stock-photo-children-playing-gambling-game-bahundanda-village-lamjung-district-27979377.html)).
 {% imageEnd %}
 
 The names of the symbols are (in Hindi):
@@ -547,17 +503,7 @@ The game being played with 6 dice in [Pokhara](https://en.wikipedia.org/wiki/Pok
 Modern dice for the Nepalese game.
 {% imageEnd %}
 
-In Nepal the game is called <span lang="ne-Latn">langur burja</span> (<span
-lang="ne">लंगूर or लङ्गुर बुर्जा</span>).{%fn%}<span
-lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span
-lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the
-association has been lost in Nepal as the anchor symbol was replaced by a
-flag.{%endfn%} It is commonly played during the festivals of [<span class="noun"
-lang="ne-Latn">Dashain</span>](https://en.wikipedia.org/wiki/Dashain) (<span
-lang="ne">दशैं</span>) and [<span class="noun"
-lang="ne-Latn">Tihar</span>](https://en.wikipedia.org/wiki/Tihar_(festival))
-(<span lang="ne">तिहार</span>), and it is usually played with six dice
-(requiring a minimum of two matches to pay out).
+In Nepal the game is called <span lang="ne-Latn" class="aka">langur burja</span> (<span lang="ne" class="aka">लंगूर</span> or <span lang="ne" class="aka">लङ्गुर बुर्जा</span>).{%fn%}<span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.{%endfn%} It is commonly played during the festivals of [<span class="noun" lang="ne-Latn">Dashain</span>](https://en.wikipedia.org/wiki/Dashain) (<span lang="ne">दशैं</span>) and [<span class="noun" lang="ne-Latn">Tihar</span>](https://en.wikipedia.org/wiki/Tihar_(festival)) (<span lang="ne">तिहार</span>), and it is usually played with six dice (requiring a minimum of two matches to pay out).
 
 Some Nepali names for the playing-card symbols are:
 
@@ -574,38 +520,19 @@ Some Nepali names for the playing-card symbols are:
 Modern Malaysian dice.
 {% imageEnd %}
 
-In Malaysia the game can be known as <span lang="ms">ikan, udang, dan
-ketam</span> (‘fish, shrimp, and crab’), <span lang="ms">ketam-ketam</span>
-(‘crabs’), or <span lang="ms">yu ha hai</span> (derived from a non-Mandarin
-pronunciation of the Chinese name). Chinese-style staking layouts are often
-used.
+In Malaysia the game can be known as <span lang="ms" class="aka">ikan, udang, dan ketam</span> (‘fish, shrimp, and crab’), <span lang="ms" class="aka">ketam-ketam</span> (‘crabs’), or <span lang="ms" class="aka">yu ha hai</span> (derived from a non-Mandarin pronunciation of the Chinese name). Chinese-style staking layouts are often used.
 
-The game is very popular amongst the
-[Kadazan–Dusun](https://en.wikipedia.org/wiki/Kadazan-Dusun) people of Sabah
-(Northern Borneo), where it is known as <span lang="dtp">katam-katam</span>
-(‘crabs’). It is played during the festive season and also at funerals.
+The game is very popular amongst the [Kadazan–Dusun](https://en.wikipedia.org/wiki/Kadazan-Dusun) people of Sabah (Northern Borneo), where it is known as <span lang="dtp" class="aka">katam-katam</span> (‘crabs’). It is played during the festive season and also at funerals.
 
-In Brunei the game is also known as <span
-lang="kxd">katam-katam</span>.[@HuaHuiBrunei]
+In Brunei the game is also known as <span lang="kxd" class="aka">katam-katam</span>.[@HuaHuiBrunei]
 
 ### Bali and Indonesia
 
-In Bali the game is played in many forms and known under many names: <span
-lang="id">mong-mongan</span> (the name of a set of three small gongs used in
-Sumatra), or one of a variety of similar names such as <span
-lang="id">kocok(an)</span> (‘shake’/‘shaking’, as of the dice), <span
-lang="id">koprok</span>, <span lang="id">kolok</span>, or <span
-lang="id">kopyok(an)</span> (also ‘shake’/‘shaker’; used also for
-lotteries).[@SEAlangBalinese]
+In Bali the game is played in many forms and known under many names: <span lang="id" class="aka">mong-mongan</span> (the name of a set of three small gongs used in Sumatra), or one of a variety of similar names such as <span lang="id" class="aka">kocok(an)</span> (‘shake’/‘shaking’, as of the dice), <span lang="id" class="aka">koprok</span>, <span lang="id" class="aka">kolok</span>, or <span lang="id" class="aka">kopyok(an)</span> (also ‘shake’/‘shaker’; used also for lotteries).[@SEAlangBalinese]
 
-Bali is (based on appearances on the internet) possibly the part of the world
-where the game is currently the most popular; this despite all gambling being
-illegal in the country.
+Bali is (based on appearances on the internet) possibly the part of the world where the game is currently the most popular; this despite all gambling being illegal in the country.
 
-As in many cultures, gambling is often associated with religious festivals.
-While other Balinese gambling activities such as the
-[cock-fight](https://en.wikipedia.org/wiki/Cockfight#Indonesia) are restricted
-to men, the game can be played by anyone, including young children.
+As in many cultures, gambling is often associated with religious festivals.  While other Balinese gambling activities such as the [cock-fight](https://en.wikipedia.org/wiki/Cockfight#Indonesia) are restricted to men, the game can be played by anyone, including young children.
 
 {% image src='15100534169_2721b8ae84_o.jpg' alt="" 
     license="cc-by-nc-nd",
@@ -683,9 +610,7 @@ A Balinese game played without imagery.
 
 ### West Indies
 
-The game was probably played throughout the British West Indies; there are
-records of it from Trinidad,[@SportsAndPastimesInTheWestIndies p. 692], Antigua,
-Jamaica, and Bermuda.[@CelebratingCricket pp. 622–3]
+The game was probably played throughout the British West Indies; there are records of it from Trinidad,[@SportsAndPastimesInTheWestIndies p. 692], Antigua, Jamaica, and Bermuda.[@CelebratingCricket pp. 622–3]
 
 The game is still played today in Jamaica.
 
@@ -700,10 +625,7 @@ The game is still played today in Jamaica.
 A busy game being played during the Cup Match in Bermuda.
 {% imageEnd %}
 
-In Bermuda, the game is legal during the weekend of the Cup Match (a cricket
-tournament), and played in large tents known as the “stock
-market”.[@CupMatchAndCarnival p. 267] It is also known as Hook and
-Hat.[@AScapeToBermuda p. 123]
+In Bermuda, the game is legal during the weekend of the Cup Match (a cricket tournament), and played in large tents known as the “stock market”.[@CupMatchAndCarnival p. 267] It is also known as <span class="aka">Hook and Hat</span>.[@AScapeToBermuda p. 123]
 
 <!--{/* TODO: Lago Lago in Bhutan? */}-->
 
