@@ -91,6 +91,8 @@ span:is( // Italicize all *-Latn languages:
   /* Venda */
   [lang=vi],
   /* Vietnamese (but not vi-Hani) */
+  [lang|=yo],
+  /* Yoruba */
   [lang|=zu] // isiZulu
 ):not(h1 span, h2 span, h3 span, h4 span, h5 span, h6 span
   /* except in headings */

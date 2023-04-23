@@ -1458,10 +1458,10 @@ lang="ja">十</span>). Brands included:
 * <span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold
   baldy’, ‘baldy’ being a nickname for a priest)
 * <span lang="ja">関羽</span> (<span lang="ja-Latn">kan’u</span>, [<span class="noun"
-  lang="zh-Latn-pinyin">Guan Yu</span>](https://en.wikipedia.org/wiki/Guan_Yu)),
+  lang="cmn-Latn-pinyin">Guan Yu</span>](https://en.wikipedia.org/wiki/Guan_Yu)),
   trademarked in 1901[@Trademarks1905 p. 67]
 * <span lang="ja">九紋竜</span> (<span lang="ja-Latn">kumonryū</span>,
-  ‘nine-tattoo dragon’, a nickname for [<span class="noun" lang="zh-Latn-pinyin">Shi
+  ‘nine-tattoo dragon’, a nickname for [<span class="noun" lang="cmn-Latn-pinyin">Shi
   Jin</span>](https://en.wikipedia.org/wiki/Shi_Jin)), trademarked in
   1902[@Trademarks1905 p. 67]
 * <span lang="ja">大黒</span> (<span lang="ja-Latn">daikoku</span>,
@@ -1486,7 +1486,7 @@ photo above.
 A box wrapper from around 1900 featuring an imaginary depiction of the <span class="noun"
 lang="ja-Latn">Yamashiro</span> store exterior; in reality it was nowhere near
 as large as this. The advertising boards at the left depict <span class="noun"
-lang="zh-Latn-pinyin">Guan Yu</span> and <span class="noun" lang="zh-Latn-pinyin">Shi Jin</span>, who
+lang="cmn-Latn-pinyin">Guan Yu</span> and <span class="noun" lang="cmn-Latn-pinyin">Shi Jin</span>, who
 represent two of the company’s brands (see trademark images at right).
 {% imageEnd %}
 

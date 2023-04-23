@@ -63,7 +63,7 @@ function fromRaw(props: RawArticleImageProps): ArticleImageProps {
         };
     }
 
-    let source: SourceInfo | undefined =
+    const source: SourceInfo | undefined =
         props.license
             ? {
                 author: author,
@@ -206,7 +206,7 @@ async function renderImage(me: ExpectedThis, src: string, alt: string, sourceInf
     const original = m.slice(-1)[0];
     const smallest = m[0];
 
-    const id = path.basename(original.filename, path.extname(original.filename));
+    const id = path.basename(original.filename!, path.extname(original.filename!));
 
     const classlist = noborder ? " border-0" : '';
 
@@ -273,7 +273,7 @@ async function renderSourcedImage(me: ExpectedThis, src: string, alt: string, so
     const smallest = m[0];
 
     const className = noborder ? "border-0" : '';
-    const id = path.basename(original.filename, path.extname(original.filename));
+    const id = path.basename(original.filename!, path.extname(original.filename!));
 
     return `<div itemscope itemtype="${imageObject}" itemprop="image" itemRef="${sourceId}">`
         + `<dialog class="lightbox" id="${id}">`

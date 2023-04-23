@@ -1,10 +1,10 @@
 ---
 title: Shàng Dà Rén Pái
-titleLang: zh-Latn-pinyin
+titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">上大人牌</span>
 ---
 
-<span lang="zh-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards (<span lang="zh">上大人牌</span>)
+<span lang="cmn-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards (<span lang="zh">上大人牌</span>)
 are a type of {%a china, Chinese playing card %}. The deck is
 constructed from a set of 24 cards, each one bearing a character from a
 traditional Chinese text that was used to practice calligraphy. A full deck
@@ -53,9 +53,9 @@ a 144-card deck.)
 
 {%imageEnd%}
 
-## <span lang="zh-Latn-pinyin" class="noun">Fú Lù Shòu Pái</span> <span lang="zh">福祿壽牌</span> 
+## <span lang="cmn-Latn-pinyin" class="noun">Fú Lù Shòu Pái</span> <span lang="zh">福祿壽牌</span> 
 
-This is a variant of the <span lang="zh-Latn-pinyin" class="noun">Shàng Dà
+This is a variant of the <span lang="cmn-Latn-pinyin" class="noun">Shàng Dà
 Rén</span> cards where the final three characters are replaced by the characters
 <span lang="zh">福祿壽</span> (‘fortune, prosperity, longevity’).
 
@@ -64,7 +64,7 @@ Rén</span> cards where the final three characters are replaced by the character
 size="wide"
 alt="" %}
 
-A 96-card <span lang="zh-Latn-pinyin" class="noun">Fú Lù Shòu</span> deck published
+A 96-card <span lang="cmn-Latn-pinyin" class="noun">Fú Lù Shòu</span> deck published
 under the brand name “Shashi” <span lang="zh">沙石</span>. These cards have
 indices so the values can be read while fanned.
 

@@ -21,7 +21,7 @@ p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span
 this further proves the Cantonese origin of the game (see e.g.
 @SparrowAndPigeon, although I find some of his other (original) conclusions to
 be dubious).{%endfn%} is a gambling game that originated in <span class="noun"
-lang="zh-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the
+lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the
 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by
 Chinese emigrants.
 </p>
@@ -82,15 +82,15 @@ One Chinese origin story says that the name is because white pigeons were used
 to transmit the results from gambling houses to the
 bettors.[@GrammarOfTheChineseLanguage2 p. 157] Another dates the game to the
 foundation of the Han dynasty, saying that it was invented by [<span
-lang="zh-Latn-pinyin" class="noun">Zhāng
+lang="cmn-Latn-pinyin" class="noun">Zhāng
 Liáng</span>](https://en.wikipedia.org/wiki/Zhang_Liang_(Western_Han)) (<span
 lang="zh">張良</span>, <abbr title="circa">c.</abbr>&nbsp;251–189
 {%bce%}),{%fn%}Older sources transliterate his name as Cheung Leung.{%endfn%}
 advisor to [Emperor <span class="noun"
-lang="zh-Latn-pinyin">Gāozǔ</span>,](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han)
+lang="cmn-Latn-pinyin">Gāozǔ</span>,](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han)
 in order to raise money for the support of the army when a city was
 beseiged.[@GrammarOfTheChineseLanguage2 p. 156] While <span
-lang="zh-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a
+lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a
 lottery to raise funds, it seems to be unlikely to be identical to the modern
 game. For one thing, the <cite>Thousand Character Classic</cite> upon which the
 game is based is traditionally dated to the [Liang
@@ -115,10 +115,10 @@ characters begin drawn at random.
 ## Known history
 
 According to the [<cite>Draft History of <span class="noun"
-lang="zh-Latn-pinyin">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
-the official <span class="noun" lang="zh-Latn-pinyin">Qin Ying</span> (<span lang="zh">秦瀛</span>,
+lang="cmn-Latn-pinyin">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter]
+the official <span class="noun" lang="cmn-Latn-pinyin">Qin Ying</span> (<span lang="zh">秦瀛</span>,
 1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<span class="noun"
-lang="zh-Latn-pinyin">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
+lang="cmn-Latn-pinyin">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)”
 (1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
 
 In 1849, a traveller from Yunnan province visited Guangdong and reported that:
@@ -131,9 +131,9 @@ In 1849, a traveller from Yunnan province visited Guangdong and reported that:
 > the lottery came back.[@BettingOnEmpire p. 64]
 
 In the late 19th century, the game was also known as <span
-lang="zh-Latn-pinyin">Xiǎowéixìng</span> <span lang="zh">小闈姓</span> ‘small
+lang="cmn-Latn-pinyin">Xiǎowéixìng</span> <span lang="zh">小闈姓</span> ‘small
 surname guessing lottery’,[@BettingOnEmpire p. 85] after the main <span
-lang="zh-Latn-pinyin">Wéixìng</span> <span lang="zh">闈姓</span> ‘surname
+lang="cmn-Latn-pinyin">Wéixìng</span> <span lang="zh">闈姓</span> ‘surname
 guessing lottery’, which was based upon guessing the surnames of people who
 passed the [imperial service
 examinations.](https://en.wikipedia.org/wiki/Imperial_examination)
@@ -260,9 +260,9 @@ Rites</cite>.](https://en.wikipedia.org/wiki/Book_of_Rites)
 The place that distributed the winnings and collected the profits was invariably
 referred to as the “bank”, and each bank would have its own name. In places such
 as California, where [<span
-lang="zh-Latn-pinyin">tongs</span>](https://en.wikipedia.org/wiki/Tong_(organization))
+lang="cmn-Latn-pinyin">tongs</span>](https://en.wikipedia.org/wiki/Tong_(organization))
 (<span lang="zh">堂</span>) were established, the banks would often be tied to a
-particular <span lang="zh-Latn-pinyin">tong</span>.[@EncyclopediaOfKeno p. 8]
+particular <span lang="cmn-Latn-pinyin">tong</span>.[@EncyclopediaOfKeno p. 8]
 Guidebooks such as [<cite>Essentials of the
 Lottery</cite>](http://oac-upstream.cdlib.org/ark:/13030/hb5x0nb117/?order=3&brand=oac4)
 (<cite lang="zh">票圖撮要</cite>, 1894) were also published, which instructed
@@ -525,7 +525,7 @@ Canada, Victoria in Australia, and Otago in New Zealand.
 
 Despite the existence of other very similar games in China, such as the
 ‘mountain lottery’ (<span lang="zh">山票</span> Mandarin: <span
-lang="zh-Latn-pinyin">shān piào</span>, Cantonese: <span
+lang="cmn-Latn-pinyin">shān piào</span>, Cantonese: <span
 lang="yue-Latn-jyutping">saan1 piu3</span>), the pigeon lottery was the only one
 that was successfully popularized amongst Europeans.[@BettingOnEmpire p. 193]
 Conversely, in countries such as Malaya, where the game was legal during the
@@ -560,7 +560,7 @@ these lotteries differed in any respect from our own… the manner of drawing is
 similar to ours”.[@RoughingIt p. 396]
 
 The view that many Chinese immigrants were involved in lotteries was not only
-one coloured by European eyes; [<span lang="zh-Latn-pinyin" class="noun">Liang
+one coloured by European eyes; [<span lang="cmn-Latn-pinyin" class="noun">Liang
 Qichao</span>](https://en.wikipedia.org/wiki/Liang_Qichao) (<span lang="zh">梁啟
 超</span>, 1873–1929), who visited Canada and the United States between 1899 and
 1903, claimed that almost every Chinese family was involved with gambling in
@@ -584,7 +584,7 @@ years;[@SFMunicipal1893 p. 150] by 1898 this had risen to 26
 tons.[@SFMunicipal1898 p. 173]{%fn%}The police were occasionally (and
 unsuccessfully) sued for the repossession of these tickets.{%endfn%}
 
-By the time <span lang="zh-Latn-pinyin" class="noun">Liang Qichao</span> visited the United
+By the time <span lang="cmn-Latn-pinyin" class="noun">Liang Qichao</span> visited the United
 States in 1903, he estimated that one in ten of the Chinese immigrants in the
 large cities worked in gambling houses.[@BettingOnEmpire p. 191]
 
@@ -986,7 +986,7 @@ throughout the Johannesburg area in 1935.
 
 ### In Canada
 
-Visiting in 1899, <span lang="zh-Latn-pinyin" class="noun">Liang Qichao</span> stated that
+Visiting in 1899, <span lang="cmn-Latn-pinyin" class="noun">Liang Qichao</span> stated that
 there were more than 15 pigeon lotteries operating in Vancouver.[@BettingOnEmpire p. 191]
 
 ## Globalization, or Kenoization

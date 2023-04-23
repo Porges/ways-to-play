@@ -6,7 +6,7 @@ players:
 equipment: Dice
 ---
 
-<p class="lead">Ace(s) in the Pot is a simple gambling game which requires no skill and two dice.</p>
+<p class="lead"><span class="aka">Ace(s) in the Pot</span> is a simple gambling game which requires no skill and two dice.</p>
 
 <!--excerpt-->
 

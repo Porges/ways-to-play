@@ -6,7 +6,7 @@ draft: true
 
 The English name for this game is derived from the Cantonese <span lang="yue">番攤</span> {%pronounce lang="yue-Latn" word="faan1 taan1" pronouncer="potatokash" file="pronunciation_yue_番攤.mp3" %}; in Hokkien it is simply <span lang="">攤</span> {%pronounce lang="nan-Latn" word="thoaⁿ" file="pronunciation_nan_攤.mp3" pronouncer="690518207" %}.[@GamblingGamesOfMalaya p. 118]
 
-In Thai it has been called <span lang="th">เล่นถั่ว</span> <span lang="th-Latn">len thua</span> ‘beans game’,{%fn%}Given as Len Thoa in older works.[@OnSiameseLiterature p. 383]{%endfn%} <span lang="th">กำถั่ว</span>  <span lang="th-Latn">kam thua</span> ‘beans handful’, <span lang="th">โปกำ</span> <span lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span lang="th">ถั่ว</span> {%pronounce lang="th-Latn" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’; a variant played with only odd/even outcomes is called Thamtat (?).[@OnSiameseLiterature p. 384]
+In Thai it has been called <span lang="th" class="aka">เล่นถั่ว</span> <span lang="th-Latn" class="aka">len thua</span> ‘beans game’,{%fn%}Given as Len Thoa in older works.[@OnSiameseLiterature p. 383]{%endfn%} <span lang="th">กำถั่ว</span>  <span lang="th-Latn">kam thua</span> ‘beans handful’, <span lang="th">โปกำ</span> <span lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span lang="th">ถั่ว</span> {%pronounce lang="th-Latn" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’; a variant played with only odd/even outcomes is called Thamtat (?).[@OnSiameseLiterature p. 384]
 
 In the Philippines, it has been known as <span lang="fil">capona</span>.[@CulinPhilippine p. 650]
 
@@ -22,17 +22,17 @@ Countries where Fan-Tan has been played, after @ParadoxicalSoftPower [p. 195].
 “Sketches in Our Chinese Quarter: Fan Tan Playing, and A Chinese Restaurant”, as depicted in the <cite>Australasian Sketcher</cite>.[@SketchesInOurChineseQuarter]
 {% imageEnd %}
 
-The play of the game is straightforward. The game master or croupier —  called <span lang="zh-Hant">揸攤人</span>/<span lang="zh-Hans">揸摊人</span> (Mandarin: <span lang="zh-Latn-pinyin">zhā tān rén</span>) or <span lang="zh-Hant">攤官</span>/<span lang="zh-Hans">摊官</span> (Mandarin: <span lang="zh-Latn-pinyin">tān guān</span>, Cantonese: <span lang="yue-Latn-jyutping">taan1 gun1</span>) — sits or stands at one end of the table.  Before them, they have a large pile of small identical objects; traditionally Chinese cash coins (<span lang="zh">釐</span>) were used, but more recently white buttons or white stones similar to go stones have been used. The game master has a cup called the ‘spreading cup’ <span lang="zh-Hant">攤盅</span>/<span lang="zh-Hans">摊盅</span> which is used to take a random number of items from the large pile and cover them while bets are placed.
+The play of the game is straightforward. The game master or croupier —  called <span lang="zh-Hant">揸攤人</span>/<span lang="zh-Hans">揸摊人</span> (Mandarin: <span lang="cmn-Latn-pinyin">zhā tān rén</span>) or <span lang="zh-Hant">攤官</span>/<span lang="zh-Hans">摊官</span> (Mandarin: <span lang="cmn-Latn-pinyin">tān guān</span>, Cantonese: <span lang="yue-Latn-jyutping">taan1 gun1</span>) — sits or stands at one end of the table.  Before them, they have a large pile of small identical objects; traditionally Chinese cash coins (<span lang="zh">釐</span>) were used, but more recently white buttons or white stones similar to go stones have been used. The game master has a cup called the ‘spreading cup’ <span lang="zh-Hant">攤盅</span>/<span lang="zh-Hans">摊盅</span> which is used to take a random number of items from the large pile and cover them while bets are placed.
 
 Spreading cup used to spread out coins:  (http://www.ims.sdu.edu.cn/__local/F/F1/39/92CAD2D39E53B9090BDDAC265CC_F0836209_6D7B5.pdf)
 
-The game master might have an assistant called <span lang="zh">荷官</span> (Mandarin <span lang="zh-Latn-pinyin">hé guān</span>, Cantonese <span lang="yue-Latn-jyutping">ho4 gun1</span>),[@OverseasChineseNZ p. 29] who is in charge of collecting any lost bets and paying out won bets. In larger games there might be two assistants called <span lang="yue">打荷</span> (Cantonese <span lang="yue-Latn-jyutping">daa2 ho4</span>) and <span lang="yue">二荷</span> (Cantonese <span lang="yue-Latn-jyutping">ji6 ho4</span>).[@GamblingGamesOfMalaya p. 118]
+The game master might have an assistant called <span lang="zh">荷官</span> (Mandarin <span lang="cmn-Latn-pinyin">hé guān</span>, Cantonese <span lang="yue-Latn-jyutping">ho4 gun1</span>),[@OverseasChineseNZ p. 29] who is in charge of collecting any lost bets and paying out won bets. In larger games there might be two assistants called <span lang="yue">打荷</span> (Cantonese <span lang="yue-Latn-jyutping">daa2 ho4</span>) and <span lang="yue">二荷</span> (Cantonese <span lang="yue-Latn-jyutping">ji6 ho4</span>).[@GamblingGamesOfMalaya p. 118]
 
-In the center of the table is a four-sided object called the ‘table middle’ (<span lang="zh-Hant">攤正</span>/<span lang="zh-Hans">摊正</span> Mandarin: <span lang="zh-Latn-pinyin">tān zhèng</span>) which divides the area into four sections. In modern games the table might merely be marked into sections, using a staking layout.
+In the center of the table is a four-sided object called the ‘table middle’ (<span lang="zh-Hant">攤正</span>/<span lang="zh-Hans">摊正</span> Mandarin: <span lang="cmn-Latn-pinyin">tān zhèng</span>) which divides the area into four sections. In modern games the table might merely be marked into sections, using a staking layout.
 
 Stakes: Tan Pi (<span lang="zh-Hant">攤皮</span>/<span lang="zh-Hans">摊皮</span>),
 
-Each portion of four is called Pi (<span lang="zh">皮</span> Mandarin: <span lang="zh-Latn-pinyin">pí</span>).[@OverseasChineseNZ p. 29]
+Each portion of four is called Pi (<span lang="zh">皮</span> Mandarin: <span lang="cmn-Latn-pinyin">pí</span>).[@OverseasChineseNZ p. 29]
 
 There are several different kinds of bets that can be made. I present the somehat-internationalized “casino name” first, and then other names. While Vietnamese is now written using the Latin alphabet, staking boards often use [<span class="noun" lang="vi">Chữ Nôm</span>](https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m) characters.[@LiveDealerFanTan]
 
@@ -40,11 +40,11 @@ There are several different kinds of bets that can be made. I present the someha
   * <span lang="zh">番</span>, Cantonese <span lang="yue-Latn-jyutping">faan1</span>, or <span lang="zh">孤(番)</span> <span lang="yue-Latn-jyutping">gu1 (faan1)</span> ‘grasping (at turns)’[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
   * Vietnamese: <span lang="vi-Hani">番</span> <span lang="vi">fan</span> 
 * **Kwok**, a bet on two outcomes, paying 1:1
-  * <span lang="zh">角</span> ‘corner’, Cantonese <span lang="yue-Latn-jyutping">gok3</span>, Mandarin <span lang="zh-Latn-pinyin">jiǎo</span>[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
+  * <span lang="zh">角</span> ‘corner’, Cantonese <span lang="yue-Latn-jyutping">gok3</span>, Mandarin <span lang="cmn-Latn-pinyin">jiǎo</span>[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
   * in older sources a bet on two numbers on opposite sides of the board is called <span lang="zh">川</span>, Cantonese <span lang="yue-Latn-jyutping">cyun1</span>,[@GamblingGamesOfMalaya p. 123] nowadays this is treated uniformly
   * Vietnamese: <span lang="vi-Hani">角</span> <span lang="vi">góc</span> ‘corner’
 * **Nim**, a bet on a single outcome, paying 2:1, and one other to push (i.e. return the bet)
-  * <span lang="zh">捻</span> ‘twist’, Cantonese <span lang="yue-Latn">nim2</span>, Mandarin <span lang="zh-Latn-pinyin">niǎn</span>[@GamblingInChinaReconsidered p. 183]
+  * <span lang="zh">捻</span> ‘twist’, Cantonese <span lang="yue-Latn">nim2</span>, Mandarin <span lang="cmn-Latn-pinyin">niǎn</span>[@GamblingInChinaReconsidered p. 183]
   * <span lang="zh">念</span> ‘worry’, Cantonese <span lang="yue-Latn-jyutping">nim6</span>
   * <span lang="zh">黏</span> ‘stick (to the side of)’ Cantonese <span lang="yue-Latn-jyutping">nim4/nim1</span>, Hokkien: <span lang="nan-Latn">liâm</span>[@GamblingGamesOfMalaya p. 123]
   * in older sources this bet on two opposite numbers is called <span lang="zh">同</span>, Cantonese <span lang="yue-Latn-jyutping">tung4</span>;[@GamblingGamesOfMalaya p. 123] nowadays this is treated uniformly
@@ -60,7 +60,7 @@ In modern games the Hong bet is usually removed, and two additional bets are ava
   * <span lang="zh">丫攤</span> ‘booth’
   * Vietnamese: <span lang="vi-Hani">通</span> <span lang="vi">thông</span> ‘across’ or <span lang="vi-Hani">丫</span> <span lang="vi">nha</span> 
 * **SSH** or **Sheh-Sam-Hong**, a bet on three outcomes, paying 1:3
-  * <span lang="zh">射三紅</span> ‘shooting three rows’, Cantonese <span lang="yue-Latn-jyutping">se6 saam1 hung4</span>, Mandarin <span lang="zh-Latn-pinyin">shèsānhóng</span>[@GamblingInChinaReconsidered p. 184] 
+  * <span lang="zh">射三紅</span> ‘shooting three rows’, Cantonese <span lang="yue-Latn-jyutping">se6 saam1 hung4</span>, Mandarin <span lang="cmn-Latn-pinyin">shèsānhóng</span>[@GamblingInChinaReconsidered p. 184] 
   * Vietnamese: <span lang="vi-Hani">三门</span> <span lang="vi">ba cửa</span> ‘three doors’
 
 Other non-traditional bets permitted in online games include:

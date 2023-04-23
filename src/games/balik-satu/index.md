@@ -28,7 +28,7 @@ hero:
     originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
 ---
 
-<p class="lead"><span class="noun" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with {%a ceki,Cherki cards%}. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</p>
+<p class="lead"><span class="noun aka" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with {%a ceki,Cherki cards%}. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</p>
 
 <!-- excerpt -->
 
@@ -184,9 +184,9 @@ In the case that a player is initially dealt a winning hand (<span
 lang="ms">kandang tangan</span> ‘cage in hand’), they win instantly and double
 the normal scoring (no calling bonuses will apply).
 
-### <span lang="mcm" class="noun">Chaqui</span>
+### <span lang="mcm" class="noun aka">Chaqui</span>
 
-Amongst the [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (<span lang="mcm">Christão</span>), the game was known as <span lang="mcm" class="noun">Chaqui</span>, <span lang="mcm" class="noun">Chiqui</span>, or <span lang="mcm" class="noun">Chekki</span>.[@ChaquiAndPartui p. 34]
+Amongst the [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (<span lang="mcm">Christão</span>), the game was known as <span lang="mcm" class="noun">Chaqui</span>, <span lang="mcm" class="noun aka">Chiqui</span>, or <span lang="mcm" class="noun aka">Chekki</span>.[@ChaquiAndPartui p. 34]
 
 A set of three identical cards is called a <span lang="mcm">olo</span> (‘eye’). If an <span lang="mcm">olo</span> is completed by drawing another player’s discard, then it must be exposed.
 
@@ -211,7 +211,7 @@ With great loss of blood.
 </p>
 </div>
 
-### <span class="noun" lang="ms">Balik Lima Belas</span>
+### <span class="noun aka" lang="ms">Balik Lima Belas</span>
 
 {%aside%}
 Note that in @ChikiCards [p. 127], <span class="noun" lang="ms">Balik Lima
@@ -237,70 +237,34 @@ In this form of the game the red-stamped cards do not score extra, but bonuses
 for winning by completing a <span lang="ms">mata</span> (<span
 lang="ms">ayam</span> or <span lang="ms">kandang</span>) still apply.
 
-### <span class="noun" lang="ms">Chot</span>
+### <span class="noun aka" lang="ms">Chot</span>
 
 {%aside%}
 Note that the sources are a little unclear and contradictory, so I have
 attempted to harmonize this description.
 {%endaside%}
 
-<span class="noun" lang="ms">Chot</span> or <span class="noun">Kiong</span> is a
- version played with four players in partnerships, with partners sitting
-opposite each other. Three decks of cards are used (180 cards). 
+<span class="noun" lang="ms">Chot</span> or <span class="noun aka" lang="ms">Kiong</span> is a version played with four players in partnerships, with partners sitting opposite each other. Three decks of cards are used (180 cards). 
 
-The game is scored using two different tokens. Traditionally two sizes of seed
-such as those of the <span lang="ms">assam</span> (tamarind) and <span
-lang="ms">saga</span> ([<cite>Adenanthera
-pavonina</cite>](https://en.wikipedia.org/wiki/Adenanthera_pavonina))
-trees,[@ChikiCards p. 127] or black and white marbles (<span
-lang="ms">pichi</span>)[@TheBabas p. 167] are used. The smaller (or white)
-tokens count as one point and the larger (or black) as ten points.
+The game is scored using two different tokens. Traditionally two sizes of seed such as those of the <span lang="ms">assam</span> (tamarind) and <span lang="ms">saga</span> ([<cite>Adenanthera pavonina</cite>](https://en.wikipedia.org/wiki/Adenanthera_pavonina)) trees,[@ChikiCards p. 127] or black and white marbles (<span lang="ms">pichi</span>)[@TheBabas p. 167] are used. The smaller (or white) tokens count as one point and the larger (or black) as ten points.
 
-The game is played and scored as in <span class="noun" lang="ms">Balik Lima
-Belas</span>. Players take one token for each point scored, and if a player wins
-by completing a <span lang="ms">mata</span> (<span lang="ms">ayam</span> or
- <span lang="ms">kandang</span>) then they take 10-point tokens instead of
-single-point tokens. Players keep their seeds separate until one <span
-lang="ms">bangkong</span> is completed.
+The game is played and scored as in <span class="noun" lang="ms">Balik Lima Belas</span>. Players take one token for each point scored, and if a player wins by completing a <span lang="ms">mata</span> (<span lang="ms">ayam</span> or <span lang="ms">kandang</span>) then they take 10-point tokens instead of single-point tokens. Players keep their seeds separate until one <span lang="ms">bangkong</span> is completed.
 
-Once any player has obtained twenty points (called a <span
-lang="ms">bangkong</span>, ‘large frog’?), the partnerships pool their tokens.
-The side with the larger number of points wins the <span
-lang="ms">bangkong</span> and records this number. The number of excess points
-above the other team they have is also recorded. All tokens are then returned to
-the pool.
+Once any player has obtained twenty points (called a <span lang="ms">bangkong</span>, ‘large frog’?), the partnerships pool their tokens.  The side with the larger number of points wins the <span lang="ms">bangkong</span> and records this number. The number of excess points above the other team they have is also recorded. All tokens are then returned to the pool.
 
-Once a fixed number of <span lang="ms">bangkong</span> have been completed, the
-overall scores are tallied. The partnership with fewer <span
-lang="ms">bangkong</span> pays the team with more for the difference between
-their totals (e.g. $20 per <span lang="ms">bangkong</span>). The partnership
-with fewer ‘excess points’ also pays for the difference (e.g. 10¢ per point).
+Once a fixed number of <span lang="ms">bangkong</span> have been completed, the overall scores are tallied. The partnership with fewer <span lang="ms">bangkong</span> pays the team with more for the difference between their totals (e.g. $20 per <span lang="ms">bangkong</span>). The partnership with fewer ‘excess points’ also pays for the difference (e.g. 10¢ per point).
 
 ## Similar games
 
-### <span class="noun" lang="jav-Latn">Gonggong</span>
+### <span class="noun aka" lang="jav-Latn">Gonggong</span>
 
-<span class="noun" lang="jav-Latn">Gonggong</span> (<span
- lang="mak">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South
-Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is
-recorded in Java, where it is described as being played mostly by
-women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta was
-described as follows:
+<span class="noun" lang="jav-Latn">Gonggong</span> (<span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta was described as follows:
 
-It is played with six sets of cards (180 cards) for four players, or eight sets
-(240 cards) for six players. Deal 14 cards each and play as with <span class="noun"
-lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called
-a <span lang="jav-Latn">bak</span>) must be completed.
+It is played with six sets of cards (180 cards) for four players, or eight sets (240 cards) for six players. Deal 14 cards each and play as with <span class="noun" lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called a <span lang="jav-Latn">bak</span>) must be completed.
 
-Waiting for a specific card to win (to complete a <span
-lang="jav-Latn">bak</span>) is called <span lang="jav-Latn">ceki nocog</span>,
-and is announced by placing one coin on the table. Waiting for any card of a
-particular rank is called <span lang="jav-Latn">ceki kowah</span> and is
-announced by placing two coins on top of each other.
+Waiting for a specific card to win (to complete a <span lang="jav-Latn">bak</span>) is called <span lang="jav-Latn">ceki nocog</span>, and is announced by placing one coin on the table. Waiting for any card of a particular rank is called <span lang="jav-Latn">ceki kowah</span> and is announced by placing two coins on top of each other.
 
-A self-drawn win is called <span lang="jav-Latn">rabas</span> ‘clear’. A win by
-the opponents’ card is called <span lang="jav-Latn">metu</span> (formal <span
-lang="jav-Latn">medal</span>) ‘came out’.
+A self-drawn win is called <span lang="jav-Latn">rabas</span> ‘clear’. A win by the opponents’ card is called <span lang="jav-Latn">metu</span> (formal <span lang="jav-Latn">medal</span>) ‘came out’.
 
 **Scoring** is a little different to <span class="noun" lang="ms">Balik Satu</span>, and is done by one of several methods:
 
@@ -343,31 +307,19 @@ In Yogyakarta the following bets were used:
 <dd>Ad-hoc bets are made between the players, whoever wins receives the staked amount from the others.</dd>
 </dl>
 
-### <span class="noun" lang="jav-Latn">Tantanan</span>
+### <span class="noun aka" lang="jav-Latn">Tantanan</span>
 
-This is another game described as being played in Surakarta in Java during the
-1940s.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <span
-class="noun" lang="ms">Balik Satu</span> and is thus a faster game.
+This is another game described as being played in Surakarta in Java during the 1940s.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <span class="noun" lang="ms">Balik Satu</span> and is thus a faster game.
 
-The game is played by four people with one full set of 60 cards. Each player
-is dealt five cards. 
+The game is played by four people with one full set of 60 cards. Each player is dealt five cards. 
 
-In this reduced game, a player must form three pairs to win, and one pair must
-be identical (a <span lang="jav-Latn">bak</span>). All honour cards are considered to
-be rank 1, so can be paired with other rank-1 cards.
+In this reduced game, a player must form three pairs to win, and one pair must be identical (a <span lang="jav-Latn">bak</span>). All honour cards are considered to be rank 1, so can be paired with other rank-1 cards.
 
-Waiting for a one card to win is called <span lang="jav-Latn">tan</span>, as in
-<span class="noun" lang="ms">Balik Satu</span>. Waiting for a identical card is called <span
-lang="jav-Latn">tan nokang</span>, waiting for any card of the same rank is
-called <span lang="jav-Latn">tan kowah</span>.
+Waiting for a one card to win is called <span lang="jav-Latn">tan</span>, as in <span class="noun" lang="ms">Balik Satu</span>. Waiting for a identical card is called <span lang="jav-Latn">tan nokang</span>, waiting for any card of the same rank is called <span lang="jav-Latn">tan kowah</span>.
 
-Scoring is performed the same as the <span lang="jav-Latn">toh bayaran</span>
-method of <span class="noun" lang="jav-Latn">Gonggong</span>, above.
+Scoring is performed the same as the <span lang="jav-Latn">toh bayaran</span> method of <span class="noun" lang="jav-Latn">Gonggong</span>, above.
 
-In Yogyakarta this game was played with three people and known as <span class="noun"
-lang="jav-Latn">Cekèn</span> or <span class="noun"
-lang="jav-Latn">Sampèn</span>.[@JavaanseKaartspelen p. 98]{%fn%}Note that there
-is also another game called {%gameref sampen%}.{%endfn%}
+In Yogyakarta this game was played with three people and known as <span class="noun aka" lang="jav-Latn">Cekèn</span> or <span class="noun aka" lang="jav-Latn">Sampèn</span>.[@JavaanseKaartspelen p. 98]{%fn%}Note that there is also another game called {%gameref sampen%}.{%endfn%}
 
 ## See also
 

@@ -45,11 +45,11 @@ const citeExtrator = /((?<!\w)@(?<id1>(_|[^\s\p{P}])+)(\s+\[(?<what1>[^\]]+)\])?
 
 async function buildLookup(coll: any[], refs: Map<string, any[]>) {
     for (const c of coll) {
-        const content = await c.template.inputContent;
+        const content = await c.template.inputContent as string;
         const cites = content.matchAll(citeExtrator);
         const processed = new Map();
         for (const cite of cites) {
-            const id = cite.groups.id1 || cite.groups.id2;
+            const id = cite.groups!.id1 || cite.groups!.id2;
             if (!processed.has(id)) {
                 refs.set(id, [...(refs.get(id) || []), c]);
                 processed.set(id, true);

@@ -6,8 +6,8 @@ lang="ko">네밧고노<rt lang="ko-Latn">nebasgono</rt></ruby>, which doesn’t 
 the ‘nei-pat-ko-no’ transliteration in the text. The corrected version doesn’t
 appear to be a true Korean game, so the origin of this is a mystery.]
 
-In China it is called <ruby lang="zh">炮<rt lang="zh-Latn-pinyin">pào</rt>棋<rt
-lang="zh-Latn-pinyin">qí</rt></ruby> ‘cannon chess’, as the pieces capture in the same
+In China it is called <ruby lang="zh">炮<rt lang="cmn-Latn-pinyin">pào</rt>棋<rt
+lang="cmn-Latn-pinyin">qí</rt></ruby> ‘cannon chess’, as the pieces capture in the same
 manner as the cannon piece in [Chinese chess][].
 
 #### References

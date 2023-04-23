@@ -55,7 +55,7 @@ The goal of the game is to form a complete hand of 12 tiles, comprising four
 sets of three. A set is called a **<span lang="th-Latn">tong</span>** (<span
 lang="th">ตอง</span>), and comprises three cards of the same rank.{%fn%}This
 term — possibly derived from the Chinese <span lang="zh">同</span> (Mandarin:
-<span lang="zh-Latn-pinyin">tóng</span>, Cantonese: <span
+<span lang="cmn-Latn-pinyin">tóng</span>, Cantonese: <span
 lang="yue-Latn-jyutping">tung4</span>) ‘same; identical’ — is also used in other
 card games to describe a triplet, or a number with three identical
 digits.{%endfn%} For the purposes of forming sets, all the honour cards are

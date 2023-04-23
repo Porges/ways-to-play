@@ -961,7 +961,7 @@ The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <span clas
 
 <span class="noun" lang="ja-Latn">Dairen-bana</span> (<span lang="ja-Latn">大連花</span>) is
 an extinct regional pattern from the city of [<span class="noun"
-lang="zh-Latn-pinyin">Dalian</span>](https://en.wikipedia.org/wiki/Dalian) (<span
+lang="cmn-Latn-pinyin">Dalian</span>](https://en.wikipedia.org/wiki/Dalian) (<span
 lang="zh">大连市</span>) in China. It dates from the era of the [Kwangtung
 Leased Territory](https://en.wikipedia.org/wiki/Kwantung_Leased_Territory), when
 Japan occupied the region from 1905 until the end of WWII. The pattern possibly
@@ -1819,14 +1819,14 @@ cards.
 A story invented by <span class="noun" lang="ja-Latn">Tendai</span> monks in the 14th-century
 <span class="noun" lang="ja-Latn">Taiheiki</span> (<span lang="ja">太平記</span> ‘Chronicle
 of Great Peace’) provides retroactive justification for the
-festival:[@ChigoJapanese pp. 958–9] King <span class="noun" lang="zh-Latn-pinyin">Mu</span>’s
+festival:[@ChigoJapanese pp. 958–9] King <span class="noun" lang="cmn-Latn-pinyin">Mu</span>’s
 (<span lang="zh">周穆王</span>) favourite, a young boy, is banished to a remote
 mountain. Following the king’s advice, he recites passages of the Buddhist Lotus
 Sūtra and inscribes them upon chrysanthemum flowers. Dew collecting on the
 flowers drips into the river from which he drinks. Eight hundred years later he
 has not aged a day, and he returns to court as the legendary <span class="noun"
-lang="zh-Latn-pinyin">Peng Zu</span> (<span lang="zh">彭祖</span>) during the reign of
-King <span class="noun" lang="zh-Latn-pinyin">Wen</span> (<span lang="zh">周文王</span>, <abbr
+lang="cmn-Latn-pinyin">Peng Zu</span> (<span lang="zh">彭祖</span>) during the reign of
+King <span class="noun" lang="cmn-Latn-pinyin">Wen</span> (<span lang="zh">周文王</span>, <abbr
 title="reigned">r.</abbr> 1112–1050 {%bce%}), who
 subsequently institutes the festival.
 {%endaside%}
@@ -2210,7 +2210,7 @@ lang="ja-Latn">Ōishi Tengudo</span> still boxes many of their decks in this way
 
 The phoenix (<span lang="ja">鳳凰</span> {% pronounce pronouncer="akitomo"
 word="hōō" lang="ja-Latn" file="pronunciation_ja_鳳凰.mp3" %}, or <span
-lang="zh-Latn-pinyin">fèng&shy;huáng</span> in Mandarin Chinese) featured on the bright
+lang="cmn-Latn-pinyin">fèng&shy;huáng</span> in Mandarin Chinese) featured on the bright
 card is from Japanese mythology, and was traditionally associated with the
 empress of Japan. According to legend, the phoenix will only land on a paulownia
 tree. What appear to be ‘spikes’ on the card are really its long tail feathers.

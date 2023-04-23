@@ -2902,7 +2902,7 @@ NintendoHistory:
       lang: zh
       alt:
         value: Xià Lǐyīhé
-        lang: zh-Latn-pinyin
+        lang: cmn-Latn-pinyin
   issued:
     year: 2017
 EbashiCigaretteCards:
@@ -4917,7 +4917,7 @@ SparrowAndPigeon:
       lang: zh-Hant
       alt:
         value: Tán Shìbǎo
-        lang: zh-Latn-pinyin
+        lang: cmn-Latn-pinyin
   page: 26–37
   URL: http://www.icm.gov.mo/rc/viewer/10093/2508
   in:
@@ -4975,7 +4975,7 @@ QinYingChapter:
       lang: zh
       alt: 
         value: Zhào Ěrxùn
-        lang: zh-Latn-pinyin
+        lang: cmn-Latn-pinyin
 PermainanKoaPart1:
   type: webpage
   title:
@@ -5570,7 +5570,7 @@ LuRong:
       lang: zh
       alt:
         value: Lù Róng
-        lang: zh-Latn-pinyin
+        lang: cmn-Latn-pinyin
   issued:
     year: 1475
 GameOfLeaves:

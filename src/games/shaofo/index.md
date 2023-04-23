@@ -1,6 +1,6 @@
 ---
 title: Shaofo
-titleLang: zh-Latn-pinyin
+titleLang: cmn-Latn-pinyin
 draft: true
 ---
 

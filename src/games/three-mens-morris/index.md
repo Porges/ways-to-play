@@ -8,8 +8,7 @@ subgames:
 ---
 
 <p class="lead">
-Three Men’s Morris is an ancient {%a mill-games,mill game%} game for two
-players.
+<span class="aka">Three Men’s Morris</span> is an ancient {%a mill-games,mill game%} game for two players.
 </p>
 
 <!-- excerpt -->
@@ -20,61 +19,25 @@ players.
 The game is played on the small mill board with diagonals.
 {%imageEnd%}
 
-Each player has three pieces, in contrasting colours. The aim of the game is to
-arrange all of one’s pieces in a line, either horizontally, vertically or
-diagonally. The first player to do this wins.
+Each player has three pieces, in contrasting colours. The aim of the game is to arrange all of one’s pieces in a line, either horizontally, vertically or diagonally. The first player to do this wins.
 
-There are two ways to begin the game: either players take turns placing a piece
-on one of the empty points, or the pieces are lined up on two opposite sides of
-the board. If played with the pieces on the board at the start, then a player
-cannot win by lining their pieces up in their original position.
+There are two ways to begin the game: either players take turns placing a piece on one of the empty points, or the pieces are lined up on two opposite sides of the board. If played with the pieces on the board at the start, then a player cannot win by lining their pieces up in their original position.
 
-Starting the game by playing to the centre of the board is a forced win for the
-first player, so usually this move is banned.[@WinningWaysV3 p. 737]
+Starting the game by playing to the centre of the board is a forced win for the first player, so usually this move is banned.[@WinningWaysV3 p. 737]
 
-After placing all their pieces, if no one has already won the game, the players
-then take turns moving a piece from one point to another.
+After placing all their pieces, if no one has already won the game, the players then take turns moving a piece from one point to another.
 
 ## History & Nomenclature
 
-Three Men’s Morris has also been called “Ovid’s Game”, based on its similarity
-to a game that is alluded to in Ovid’s [<cite lang="la">Ars
-Amatoria</cite>.](https://en.wikipedia.org/wiki/Ars_Amatoria)[@WinningWaysV3 p.
-736]
+Three Men’s Morris has also been called “<span class="aka">Ovid’s Game</span>”, based on its similarity to a game that is alluded to in Ovid’s [<cite lang="la">Ars Amatoria</cite>.](https://en.wikipedia.org/wiki/Ars_Amatoria)[@WinningWaysV3 p.  736]
 
-The name Three Men’s Morris seems to be a modern invention, based on the name {%
-gameref nine-mens-morris %}. In the past it was known by other names in England,
-such as “Knockings In and Out”.[@NotesOnTheAbbey p.
-20][@OnTheIndoorGamesOfSchoolBoys p. 321] 
+The name Three Men’s Morris seems to be a modern invention, based on the name {% gameref nine-mens-morris %}. In the past it was known by other names in England, such as “<span class="aka">Knockings In and Out</span>”.[@NotesOnTheAbbey p.  20][@OnTheIndoorGamesOfSchoolBoys p. 321] 
 
-As evidenced by the many boards carved into stone walls and seats in cathedrals
-and monasteries, the game was played in England over a long period — {%a
-hjr-murray,Murray%}[@Murray2 p. 41] dates it from after the Norman conquest in
-the 11th century, and states that it was “well established by 1300.” However,
-the game seems to have declined until in the 19th century it was not well known
-in England; English visitors to Ireland during this period describe it as an
-Irish game.
+As evidenced by the many boards carved into stone walls and seats in cathedrals and monasteries, the game was played in England over a long period — {%a hjr-murray,Murray%}[@Murray2 p. 41] dates it from after the Norman conquest in the 11th century, and states that it was “well established by 1300.” However, the game seems to have declined until in the 19th century it was not well known in England; English visitors to Ireland during this period describe it as an Irish game.
 
-In 19th century Ireland, it was described as ‘universally’ played by the
-peasantry and named <span lang="ga">caisleáin gearr</span>{%fn%}Hyde[@Hyde2 p.
-211] wrote this as “cashlan gherra”.{%endfn%} ‘short castle’,[@CrokerCrofton p.
-171] or ‘top castle’.[@GentlemansMagazineLibrary p. 257] Other old names in the
-United Kingdom come from areas such as Galloway (‘corsi-crown’)[@Gallovidian p.
-142] and Cumberland (‘copped-crown’).[@Hyde2 p. 211]
+In 19th century Ireland, it was described as ‘universally’ played by the peasantry and named <span lang="ga" class="aka">caisleáin gearr</span>{%fn%}Hyde[@Hyde2 p.  211] wrote this as “<span lang="ga" class="aka">cashlan gherra</span>”.{%endfn%} ‘<span class="aka">short castle</span>’,[@CrokerCrofton p.  171] or ‘<span class="aka">top castle</span>’.[@GentlemansMagazineLibrary p. 257] Other old names in the United Kingdom come from areas such as Galloway (‘<span class="aka">corsi-crown</span>’)[@Gallovidian p.  142] and Cumberland (‘<span class="aka">copped-crown</span>’).[@Hyde2 p. 211]
 
-Murray also claims that a distinct game called ‘Nine Holes’ existed,[@Murray2]
-but I don’t believe that it was a separate game to Three Men’s Morris, as all
-the references seem to track back to a single entry in Robert Nares’
-<cite>Glossary</cite>.[@NaresGlossary p. 345] To me, it is the same game only
-played on a board that doesn’t show any lines. In any case, it is recorded as
-being played on the Isle of Man in 1674, when a man was
- [presented](https://en.wikipedia.org/wiki/Presentment) in
-[Malew](https://en.wikipedia.org/wiki/Malew) for “playing nine holes on Easter
-day before evening prayers”,[@Rothwell1674] and again in 1699 when two men were
-presented in [Lezayre](https://en.wikipedia.org/wiki/Lezayre) for “Makeing Nine
-holes with their knives upon Sunday after evening
-Prayer”.[@LezayrePresentments]{%fn%}Their punishment being “to acknowledge their
-fault, and promise Reformation.”{%endfn%}
+{% a hjr-murray %} also claims that a distinct game called ‘<span class="aka">Nine Holes</span>’ existed,[@Murray2] but I don’t believe that it was a separate game to Three Men’s Morris, as all the references seem to track back to a single entry in Robert Nares’ <cite>Glossary</cite>.[@NaresGlossary p. 345] To me, it is the same game only played on a board that doesn’t show any lines. In any case, it is recorded as being played on the Isle of Man in 1674, when a man was [presented](https://en.wikipedia.org/wiki/Presentment) in [Malew](https://en.wikipedia.org/wiki/Malew) for “playing nine holes on Easter day before evening prayers”,[@Rothwell1674] and again in 1699 when two men were presented in [Lezayre](https://en.wikipedia.org/wiki/Lezayre) for “Makeing Nine holes with their knives upon Sunday after evening Prayer”.[@LezayrePresentments]{%fn%}Their punishment being “to acknowledge their fault, and promise Reformation.”{%endfn%}
 
 A game that appears to be Three Men’s Morris appears in {%a alfonso-x, Alfonso
 X’s <cite>Book of Games</cite>%} under the name <span lang="es">Alquerque de
@@ -115,7 +78,7 @@ also used for other games).[@TamilCountryGames p. 59]
 
 Writing in 1694,[@Hyde2 p. 211] Thomas Hyde said that it was called “Che-Lo” in
 Chinese (i.e. <span lang="zh-Hant">直六</span> Mandarin: <span
-lang="zh-Latn-pinyin">zhí liù</span> ‘straight six’), and “Hugjurè” in Persian
+lang="cmn-Latn-pinyin">zhí liù</span> ‘straight six’), and “Hugjurè” in Persian
 (<span lang="fa">هجوره</span>, probably not a native Persian word?), but he also
 stated that each player has 6 pieces.
 

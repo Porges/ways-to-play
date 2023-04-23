@@ -1,6 +1,6 @@
 ---
 title: Huahui
-titleLang: zh-Latn-pinyin
+titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">花會</span>
 ---
 

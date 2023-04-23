@@ -366,7 +366,7 @@ layout.
 
 {% image src="chinese_board.svg" alt="" %}
 Example of a Chinese-style staking layout. At the top is the manufacturer’s name
-<span lang="zh">高慶坊</span> <span class="noun" lang="zh-Latn-pinyin">Gāo Qìng Fāng</span>,
+<span lang="zh">高慶坊</span> <span class="noun" lang="cmn-Latn-pinyin">Gāo Qìng Fāng</span>,
 followed by <span lang="zh">翹骰不算</span> “cocked dice don’t count”.
 {% imageEnd %}
 

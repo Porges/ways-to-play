@@ -11,79 +11,35 @@ subgames:
 equipment: Dice
 ---
 
-Cee-Lo is a gambling game played with three dice. The English name is apparently
-derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’;
-Mandarin: {%pronounce lang="zh-Latn-pinyin" word="sì wǔ liù" pronouncer="MarvinMeow"
-file="pronunciation_zh_四五六.mp3" %}, Cantonese: {% pronounce lang="yue-Latn-jyutping"
-word="si3 ng5 luk6" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3" %},
-Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the highest roll in the
-game. Some books refer to it as “Strung Flowers”, another Chinese name for the highest roll.[@Bell p. 145]
+<span class="aka">Cee-Lo</span> is a gambling game played with three dice. The English name is apparently derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’; Mandarin: {%pronounce lang="cmn-Latn-pinyin" word="sì wǔ liù" pronouncer="MarvinMeow" file="pronunciation_zh_四五六.mp3" %}, Cantonese: {% pronounce lang="yue-Latn-jyutping" word="si3 ng5 luk6" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3" %}, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the highest roll in the game. Some books refer to it as “<span class="aka">Strung Flowers</span>”, another Chinese name for the highest roll.[@Bell p. 145]
 
-In @GamblingGamesOfMalaya [p. 96] the name is given as <span lang="zh">六骰
- </span> (literally ‘six dice’), but with the odd pronunciation “Luk Kow” (the
- correct Hokkien pronunciation is <span lang="nan-Latn">la̍k tâu</span>). It is
-possible that the name should be <span lang="zh">六九</span> (Hokkien:
-{%pronounce lang="nan-Latn" word="la̍k káu" pronouncer="690518207"
-file="pronunciation_nan_69.mp3" %}, ‘six nine’); indeed, the game is referred to
-under the name “Luk Kow 69” in Brunei gambling law.[@LawsOfBrunei p. 21] I don’t
-know to what part of the game “69” could refer, but one idea could be the roll
-{% cdice 6 %}–{% cdice 54 %} read as six–nine.
+In @GamblingGamesOfMalaya [p. 96] the name is given as <span lang="zh" class="aka">六骰</span> (literally ‘six dice’), but with the odd pronunciation “Luk Kow” (the correct Hokkien pronunciation is <span lang="nan-Latn">la̍k tâu</span>). It is possible that the name should be <span lang="zh" class="aka">六九</span> (Hokkien: {%pronounce lang="nan-Latn" word="la̍k káu" pronouncer="690518207" class="aka" file="pronunciation_nan_69.mp3" %}, ‘six nine’); indeed, the game is referred to under the name “<span class="aka">Luk Kow 69</span>” in Brunei gambling law.[@LawsOfBrunei p. 21] I don’t know to what part of the game “69” could refer, but one idea could be the roll {% cdice 6 %}–{% cdice 54 %} read as six–nine.
 
-In Japan the game is called <span lang="ja">チンチロ(リン)</span> {%pronounce
-lang="ja-Latn" word="chin&shy;chi&shy;ro&shy;(rin)" pronouncer="skent"
-file="pronunciation_ja_チンチロリン.mp3" %}, an onomatopœia based on the noise
-of dice being dropped into a bowl.{%fn%}It is also the noise made by the pine
-cricket (<span lang="ja">松虫</span> <span
-lang="ja-Latn">matsu&shy;mushi</span>).{%endfn%} It is also played with
-differing payoffs for each dice outcome (see {%gameref chinchirorin %} below).
+In Japan the game is called <span lang="ja" class="aka">チンチロ(リン)</span> {%pronounce lang="ja-Latn" word="chin&shy;chi&shy;ro&shy;(rin)" pronouncer="skent" class="aka" file="pronunciation_ja_チンチロリン.mp3" %}, an onomatopœia based on the noise of dice being dropped into a bowl.{%fn%}It is also the noise made by the pine cricket (<span lang="ja">松虫</span> <span lang="ja-Latn">matsu&shy;mushi</span>).{%endfn%} It is also played with differing payoffs for each dice outcome (see {%gameref chinchirorin %} below).
 
-As of 2022, the game remains explicitly illegal — under the name “Luk Kow” — in
-Malaysia[@MalaysiaCommonGamingHousesAct p. 29] and Brunei,[@LawsOfBrunei p. 21]
-and as “See Goh Lak” in Singapore.[@SingaporeGamesOfChanceAndSkill] 
+As of 2022, the game remains explicitly illegal — under the name “<span class="aka">Luk Kow</span>” — in Malaysia[@MalaysiaCommonGamingHousesAct p. 29] and Brunei,[@LawsOfBrunei p. 21] and as “<span class="aka">See Goh Lak</span>” in Singapore.[@SingaporeGamesOfChanceAndSkill] 
 
 ## Play
 
-Three dice are required to play. Each time a roll is made, all three dice are
-rolled. In Chinese and Japanese play, it is usual for the dice to be tossed into
-a bowl. In the USA they are normally cast against a wall or other vertical
-surface.
+Three dice are required to play. Each time a roll is made, all three dice are rolled. In Chinese and Japanese play, it is usual for the dice to be tossed into a bowl. In the USA they are normally cast against a wall or other vertical surface.
 
-A **point** is a result of a pair along with any other non-matching number, the
-non-pair number being the value of the point. For example, the roll {%cdice
-225%} would establish a point of {%cdice 5%}.
+A **point** is a result of a pair along with any other non-matching number, the non-pair number being the value of the point. For example, the roll {%cdice 225%} would establish a point of {%cdice 5%}.
 
 ### The Banking Game
 
 The traditional method of play is as follows.
 
-One player at a time acts as the banker (<span lang="zh">莊</span>, Cantonese:
-{% pronounce lang="yue-Latn-jyutping" word="zong1" pronouncer="robertlam88"
-file="pronunciation_yue_莊.mp3" %}, Hokkien: {% pronounce lang="nan-Latn"
-word="chong" file="pronunciation_nan_莊.mp3" pronouncer="FlyingBlank" %},
-Mandarin: {% pronounce  lang="cmn-Latn" word="zhuāng" pronouncer="Eflong"
-file="pronunciation_zh_莊.mp3" %}). 
+One player at a time acts as the banker (<span lang="zh">莊</span>, Cantonese: {% pronounce lang="yue-Latn-jyutping" word="zong1" pronouncer="robertlam88" file="pronunciation_yue_莊.mp3" %}, Hokkien: {% pronounce lang="nan-Latn" word="chong" file="pronunciation_nan_莊.mp3" pronouncer="FlyingBlank" %}, Mandarin: {% pronounce  lang="cmn-Latn" word="zhuāng" pronouncer="Eflong" file="pronunciation_zh_莊.mp3" %}). 
 
-The banker first puts up their stake. Each player in turn then has a chance to
-_cover_ or _fade_ the banker’s bet, by placing a stake equivalent to some
-portion of the banker’s bet. The stake that each player places is how much they
-stand to win or lose on this round. Once the banker’s bet is matched, or each
-player has had a turn to place a stake, the banker takes back any remaining
-uncovered bet, and begins the round. Players who did not place any stake will
-not play in this round.
+The banker first puts up their stake. Each player in turn then has a chance to _cover_ or _fade_ the banker’s bet, by placing a stake equivalent to some portion of the banker’s bet. The stake that each player places is how much they stand to win or lose on this round. Once the banker’s bet is matched, or each player has had a turn to place a stake, the banker takes back any remaining uncovered bet, and begins the round. Players who did not place any stake will not play in this round.
 
-The banker starts the round by rolling the dice: if they roll the special
-combination {%cdice 456%}, any triple, or a point of {%cdice 6%}, they win
-the round instantly, and collect their bet and all other player’s stakes.
+The banker starts the round by rolling the dice: if they roll the special combination {%cdice 456%}, any triple, or a point of {%cdice 6%}, they win the round instantly, and collect their bet and all other player’s stakes.
 
-If the banker rolls the special combination {%cdice 123%} or a point of {%cdice
-1%}, they lose instantly, and each other player collects their stake and the
-equivalent amount from the banker’s bet.
+If the banker rolls the special combination {%cdice 123%} or a point of {%cdice 1%}, they lose instantly, and each other player collects their stake and the equivalent amount from the banker’s bet.
 
-If they roll any point other than {%cdice 1%} or {%cdice 6%}, that establishes
-the point value for the round that the other players must roll to beat.
+If they roll any point other than {%cdice 1%} or {%cdice 6%}, that establishes the point value for the round that the other players must roll to beat.
 
-Any other roll that is not one of the rolls mentioned above does not count and
-must be rerolled until one of the given rolls is made.
+Any other roll that is not one of the rolls mentioned above does not count and must be rerolled until one of the given rolls is made.
 
 The following table summarizes the results for the banker:
 
@@ -256,21 +212,14 @@ pronouncer="straycat88" %}).{%fn%}Apparently this term comes from the game
 The game is featured in many titles of the
 [<cite>Suikoden</cite>](https://en.wikipedia.org/wiki/Suikoden) series.
 
-#### Underground <span lang="ja-Latn">Chinchirorin</span>
+#### <span class="aka">Underground <span lang="ja-Latn">Chinchirorin</span></span>
 
-This version of the game is played in [<cite>Kaiji: Against All
-Rules</cite>](https://en.wikipedia.org/wiki/Kaiji:_Against_All_Rules) (2011).
-The payoffs are again different, with {%jdice 111%} becoming the highest roll.
+This version of the game is played in [<cite>Kaiji: Against All Rules</cite>](https://en.wikipedia.org/wiki/Kaiji:_Against_All_Rules) (2011).  The payoffs are again different, with {%jdice 111%} becoming the highest roll.
 
 There are also variations to the main rules:
 
-- The banker has no automatic wins; the players always have a chance to equal or
-  beat their roll. Whoever has the higher roll wins the amount according to
-  their ‘outcome’ in the table below.
-- Each player is banker for two rounds. If on their first round the banker rolls
-  a {%jdice 111%}, busts, or rolls a {%jdice 123%} then they pass on the
-  bankership after the first round. A player can also pass on the bankership
-  instead of taking it.
+- The banker has no automatic wins; the players always have a chance to equal or beat their roll. Whoever has the higher roll wins the amount according to their ‘outcome’ in the table below.
+- Each player is banker for two rounds. If on their first round the banker rolls a {%jdice 111%}, busts, or rolls a {%jdice 123%} then they pass on the bankership after the first round. A player can also pass on the bankership instead of taking it.
 
 <table class="table">
 <caption>Table of roll payoffs for Underground <span lang="ja-Latn">Chinchirorin</span>.</caption>

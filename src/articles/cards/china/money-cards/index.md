@@ -25,7 +25,7 @@ lang="zh-Hant">宿州</span>).
 {% image src="hehua_cards.jpg" alt="" 
     noborder=true size="wide" %}
 
-<span lang="zh-Latn-pinyin" class="noun">Héhuā</span> (<span lang="zh">荷花</span>)
+<span lang="cmn-Latn-pinyin" class="noun">Héhuā</span> (<span lang="zh">荷花</span>)
 brand cards. This deck only has one type of honour card.
 
 {%imageEnd%}
