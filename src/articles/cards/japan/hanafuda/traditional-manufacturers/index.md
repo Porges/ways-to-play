@@ -1192,6 +1192,14 @@ lang="ja-Latn">Ginsuehiro</span>) and manufacturer’s mark were taken over by
 Five Brights from a <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span> deck.
 {% imageEnd %}
 
+{% image 
+    position="aside"
+    size="small"
+    src='Gyokusuido_brand.jpg'
+    alt="" %}
+    <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s maker’s mark.
+{% imageEnd %}
+
 Their maker’s mark was <span lang="ja">田</span> with corner on top, and brands
 included:
 
@@ -1213,15 +1221,22 @@ included:
 
 <div class="multi">
 {% image 
-    src='Gyokusuido_brand.jpg'
-    alt="" %}
-    <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s maker’s mark.
-{% imageEnd %}
-{% image 
     alt=""
     src='TG_fukusuke.jpg'
     license="cc0" %}
 <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s <span lang="ja-Latn">fukusuke</span> brand.
+{% imageEnd %}
+{% image 
+    alt=""
+    src='TG_ouzeki.jpg'
+    license="cc0" %}
+<span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s <span lang="ja-Latn">ōzeki</span> brand.
+{% imageEnd %}
+{% image 
+    alt=""
+    src='TG_suehiro.jpg'
+    license="cc0" %}
+<span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s <span lang="ja-Latn">suehiro</span> brand.
 {% imageEnd %}
 </div>
 
