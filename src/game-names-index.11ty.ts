@@ -103,7 +103,7 @@ export async function render(data: Data) {
     return result;
 }
 
-const titlizer = /(?<![\(\)’']\p{Letter}*)\p{Letter}+/ug;
+const titlizer = /(?<![\(\)’'\u00ad]\p{Letter}*)(\p{Letter}|\p{Mark})+/ug;
 function titlize(name: string) {
     return name.replaceAll(titlizer, x => x[0].toUpperCase() + x.slice(1));
 }
