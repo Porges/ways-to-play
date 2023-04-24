@@ -401,8 +401,7 @@ Murray2:
   publisher: Oxford University Press
   publisher-place: Oxford, England, UK
   ISBN: 0-19-827401-7
-  notes: <a href="https://archive.org/details/historyofboardga0000murr_p4b9">1978
-    reprint available here</a>
+  notes: <a href="https://archive.org/details/historyofboardga0000murr_p4b9">1978 reprint available here</a>
 SomaliGames:
   type: article-journal
   title: Somali Games
@@ -1245,7 +1244,8 @@ GommeI:
   title: The Traditional Games of England, Scotland, and Ireland
   issued:
     year: 1894
-  volume: I
+  volume: 1
+  volume-title: Traditional Games
   author:
     - family: Gomme
       given: Alice Bertha
@@ -1257,7 +1257,8 @@ GommeII:
   title: The Traditional Games of England, Scotland, and Ireland
   issued:
     year: 1898
-  volume: II
+  volume: 2
+  volume-title: Oats and Beans — Would You Know
   author:
     - family: Gomme
       given: Alice Bertha
@@ -4546,7 +4547,8 @@ SEAlangBalinese:
       alt:
         value: Zhèng Chāo-Lín
         lang: zh-Latn
-  volume: 1 (1900–1919)
+  volume: 1
+  volume-title: 1900–1919
   publisher:
     value: 现代史料编刊社
     lang: zh
@@ -7093,7 +7095,8 @@ ShropshireFolklore3:
   URL: https://archive.org/details/shropshirefolkl01jackgoog
 FannyBurney:
   title: The Early Journals and Letters of Fanny Burney
-  volume: 1 (1768–1773)
+  volume: 1
+  volume-title: 1768–1773
   type: book
   issued: 1988
   editor:
@@ -7722,7 +7725,11 @@ HosOfKolhan:
     issued: 1925
 GamesAndDances:
   type: book
-  title: Games and Dances in Celebes
+  title: Results of the Author’s Expedition to Celebes 1917–20
+  volume: 4
+  volume-title: Games and Dances in Celebes
+  series:
+    title: Ethnographical Studies in Celebes
   author:
     - given: Walter
       family: Kaudern
@@ -8268,7 +8275,8 @@ MalayEnglishWilkinson:
   author:
     - given: Richard James
       family: Wilkinson
-  volume: I
+  volume: 1
+  volume-title: Alif to Za
   URL: https://archive.org/details/aeg2034.0001.001.umich.edu
   publisher: Kelly & Walsh
   publisher-place: Singapore
@@ -8456,3 +8464,17 @@ PersistenceAndChange:
     volume: 10
     issue: 3 # TODO or 4?
     issued: 1962
+ADiceyHistory:
+  type: article-newspaper
+  title: A dicey history
+  author:
+  - given: Mark
+    family: Schreiber
+  URL: https://www.japantimes.co.jp/community/2002/04/07/general/a-dicey-history/
+  archive-URL: https://web.archive.org/web/20220119204809/https://www.japantimes.co.jp/community/2002/04/07/general/a-dicey-history/
+  in:
+    title: The Japan Times
+    issued:
+      year: 2002
+      month: 4
+      day: 7

@@ -39,7 +39,7 @@ type RawArticleImageProps = CommonArticleImageProps & {
     authorGiven?: string,
     authorLang?: string,
     authorFamilyFirst?: boolean,
-    authorName?: string,
+    author?: string,
     orgName?: string,
     orgAbbr?: string,
     orgLang?: string,
@@ -56,9 +56,9 @@ function fromRaw(props: RawArticleImageProps): ArticleImageProps {
             lang: props.authorLang,
             familyFirst: props.authorFamilyFirst,
         };
-    } else if (props.authorName) {
+    } else if (props.author) {
         author = {
-            name: props.authorName,
+            name: props.author,
             lang: props.authorLang,
         };
     }

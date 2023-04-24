@@ -1,8 +1,6 @@
 ---
 title: Cee-Lo
-players:
-  min: 2
-  max: 100
+players: banking
 subgames:
 - title: Chinchirorin
   titleLang: ja-Latn

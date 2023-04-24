@@ -6,9 +6,7 @@ subgames:
 - title: Dadu Belankas Mata
   titleLang: ms
 draft: true
-players:
-    min: 2
-    max: 100
+players: banking
 ---
 
 TODO: split this article

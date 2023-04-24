@@ -79,6 +79,7 @@ export type Context = {
 };
 
 export type Players = 
+  | 'banking'
   | number
   | number[]
   | { min: number, max: number };

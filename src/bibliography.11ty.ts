@@ -81,7 +81,7 @@ export async function render(data: Data) {
     const file = await fs.readFile(path.join(__dirname, "../bibliography.yaml"), 'utf8');
     const parsedFile = parse(file);
     if (!referenceValidator(parsedFile)) {
-        throw new Error("Invalid bibliography");
+        throw new Error(`Invalid bibliography: ${referenceValidator.errors}`);
     }
 
     const biblio = Object.entries(parsedFile as Bibliography).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));

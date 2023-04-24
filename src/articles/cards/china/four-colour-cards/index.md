@@ -84,7 +84,7 @@ below; for most I do not have rules.[@GamblingGamesOfMalaya p. 62]
 <tr>
 <td><span lang="zh">十二支</span></td>
 <td>Hokkien: <span lang="nan-Latn">cha̍p jī ki</span></td>
-<td>12 cards</td>
+<td>12 cards; see {% gameref chap-ji-ki-panjang %}</td>
 </tr>
 
 <tr>

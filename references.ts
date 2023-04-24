@@ -3,7 +3,6 @@ import { BiblioRef, Reference, Date, Author, LStr, Periodical, referenceValidato
 
 import ordinal from 'ordinal';
 import ISBN from 'isbn3';
-import { isReadonlyKeywordOrPlusOrMinusToken } from 'typescript';
 
 export function renderReference(ref: BiblioRef): string {
     const { id, type } = ref;

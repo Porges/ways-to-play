@@ -100,6 +100,7 @@ type CommonProps = {
     translator?: Author[]
     title: LStr,
     URL?: string,
+    ['archive-URL']: string,
 
     notes?: string,
     warnings?: string,
@@ -110,6 +111,7 @@ const commonProps = {
     author: { type: "array", nullable: true, items: authorSchema },
     translator: { type: "array", nullable: true, items: authorSchema },
     URL: { type: "string", nullable: true },
+    "archive-URL": { type: "string", nullable: true },
     notes: { type: "string", nullable: true },
     warnings: { type: "string", nullable: true },
 } as const;
@@ -275,7 +277,6 @@ const patentSchema: JSONSchemaType<Patent> = {
 type WebPage = CommonProps & {
     type: "webpage",
     editor?: Author[],
-    ["archive-URL"]?: string,
     ["container-title"]?: LStr,
     edition?: number,
     issued: Date,
@@ -291,7 +292,6 @@ const webpageSchema: JSONSchemaType<WebPage> = {
         editor: { type: "array", items: authorSchema, nullable: true },
         issued: dateSchema,
         edition: { type: "integer", nullable: true },
-        "archive-URL": { type: "string", nullable: true },
         "container-title": { ...lstrSchema, nullable: true },
         "publisher-place": { type: "string", nullable: true },
         publisher: { ...lstrSchema, nullable: true },

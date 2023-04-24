@@ -1,18 +1,23 @@
 ---
 title: Introduction to Hanafuda
 order: 1
+hero:
+    image: 16201732242_8d1d3ed19d_o.jpg
+    alt: A pile of hanafuda cards.
+    author: Japanexpertna.se
+    copyrightYear: 2015
+    license: cc-by-sa
+    licenseVersion: '2.0'
+    originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 ---
 
-{%pronounce pronouncer="biscuit" word="Hanafuda" lang="ja-Latn"
-file="pronunciation_ja_花札.mp3" noun=true %} (<span lang="ja">花札</span>,
-‘flower cards’) are a type of playing card originating in Japan. They are also
-used in Korea, where they are known as {% pronounce pronouncer="ssoonkimi"
-word="hwatu" lang="ko-Latn" file="pronunciation_ko_화투.mp3" %} (<span
-lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪
-</span>), and in Hawaiʻi, where there is a large Japanese population. They are
-mostly used to play matching or set-collecting games, but they can also be used
-for complex gambling games.
+<p class="lead">
+{%pronounce pronouncer="biscuit" word="Hanafuda" lang="ja-Latn" file="pronunciation_ja_花札.mp3" noun=true %} (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as {% pronounce pronouncer="ssoonkimi" word="hwatu" lang="ko-Latn" file="pronunciation_ko_화투.mp3" %} (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.
+</p>
 
+<!-- excerpt -->
+
+<!--
 {% image
     size="wide"
     src="16201732242_8d1d3ed19d_o.jpg"
@@ -24,6 +29,7 @@ for complex gambling games.
     originalUrl="https://www.flickr.com/photos/68532869@N08/16201732242" %}
 Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintendo
 {% imageEnd %}
+-->
 
 ## Composition of the deck
 
@@ -34,34 +40,30 @@ cards by a plant related to that month.
 
 The months and their associated plants are:
 
-1. January: pine (<span lang="ja">松</span> {% pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file="pronunciation_ja_松.mp3" %})
-1. February: plum (<span lang="ja">梅</span> {% pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file="pronunciation_ja_梅.mp3" %})
-1. March: cherry (<span lang="ja">桜</span> {% pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file="pronunciation_ja_桜.mp3" %})
-1. April: wisteria (<span lang="ja">藤</span> {% pronounce pronouncer="kaoring" word="fuji" lang="ja-Latn" file="pronunciation_ja_藤.mp3" %})
-1. May: iris (<span lang="ja">菖蒲</span> {% pronounce pronouncer="akitomo" word="ayame" lang="ja-Latn" file="pronunciation_ja_菖蒲.mp3" %})
-1. June: peony (<span lang="ja">牡丹</span> {% pronounce pronouncer="ryomasakamoto" word="botan" lang="ja-Latn" file="pronunciation_ja_牡丹.mp3" %})
-1. July: bush clover (<span lang="ja">萩</span> {% pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file="pronunciation_ja_萩.mp3" %})
-1. August: silvergrass (<span lang="ja">芒/薄</span> {% pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn" file="pronunciation_ja_スズキ.mp3" %})
-1. September: chrysanthemum (<span lang="ja">菊</span> {% pronounce pronouncer="akitomo" word="kiku" lang="ja-Latn" file="pronunciation_ja_菊.mp3" %})
-1. October: maple (<span lang="ja">紅葉</span> {% pronounce pronouncer="El55" word="kōyō" lang="ja-Latn" file="pronunciation_ja_紅葉.mp3" %})
-1. November: willow (<span lang="ja">柳</span> {% pronounce pronouncer="akitomo" word="yanagi" lang="ja-Latn" file="pronunciation_ja_柳.mp3" %})
-1. December: paulownia (<span lang="ja">桐</span> {% pronounce pronouncer="kaoring" word="kiri" lang="ja-Latn" file="pronunciation_ja_桐.mp3" %})
+<ol class="columnar">
+<li>January: pine (<span lang="ja">松</span> {% pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file="pronunciation_ja_松.mp3" %})</li>
+<li>February: plum (<span lang="ja">梅</span> {% pronounce pronouncer="akitomo" word="ume" lang="ja-Latn" file="pronunciation_ja_梅.mp3" %})</li>
+<li>March: cherry (<span lang="ja">桜</span> {% pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn" file="pronunciation_ja_桜.mp3" %})</li>
+<li>April: wisteria (<span lang="ja">藤</span> {% pronounce pronouncer="kaoring" word="fuji" lang="ja-Latn" file="pronunciation_ja_藤.mp3" %})</li>
+<li>May: iris (<span lang="ja">菖蒲</span> {% pronounce pronouncer="akitomo" word="ayame" lang="ja-Latn" file="pronunciation_ja_菖蒲.mp3" %})</li>
+<li>June: peony (<span lang="ja">牡丹</span> {% pronounce pronouncer="ryomasakamoto" word="botan" lang="ja-Latn" file="pronunciation_ja_牡丹.mp3" %})</li>
+<li>July: bush clover (<span lang="ja">萩</span> {% pronounce pronouncer="strawberrybrown" word="hagi" lang="ja-Latn" file="pronunciation_ja_萩.mp3" %})</li>
+<li>August: silvergrass (<span lang="ja">芒/薄</span> {% pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn" file="pronunciation_ja_スズキ.mp3" %})</li>
+<li>September: chrysanthemum (<span lang="ja">菊</span> {% pronounce pronouncer="akitomo" word="kiku" lang="ja-Latn" file="pronunciation_ja_菊.mp3" %})</li>
+<li>October: maple (<span lang="ja">紅葉</span> {% pronounce pronouncer="El55" word="kōyō" lang="ja-Latn" file="pronunciation_ja_紅葉.mp3" %})</li>
+<li>November: willow (<span lang="ja">柳</span> {% pronounce pronouncer="akitomo" word="yanagi" lang="ja-Latn" file="pronunciation_ja_柳.mp3" %})</li>
+<li>December: paulownia (<span lang="ja">桐</span> {% pronounce pronouncer="kaoring" word="kiri" lang="ja-Latn" file="pronunciation_ja_桐.mp3" %})</li>
+</ol>
 
-In Korean and some Hawaiian decks, the months of November &amp; December are
-switched. This rarely makes a difference except when the cards are being used as
-stand-ins for numeric cards (in gambling games).
+In Korean and some Hawaiian decks, the months of November &amp; December are switched. This rarely makes a difference except in some gambling games when the numeric order of the cards is used.
 
 ### Types of card
 
-The deck is divided into four categories of card. In descending order of value,
-these are:
+The deck is divided into four categories of card. In descending order of value, these are:
 
 #### Bright cards
 
-There are 5 ‘bright’ (<span lang="ja">光</span> {% pronounce
-pronouncer="strawberrybrown" word="hikari" lang="ja-Latn"
-file="pronunciation_ja_光.mp3" %}) cards. In most games, these are worth 20
-points. The five bright cards are:
+There are 5 ‘bright’ (<span lang="ja">光</span> {% pronounce pronouncer="strawberrybrown" word="hikari" lang="ja-Latn" file="pronunciation_ja_光.mp3" %}) cards. In most games, these are worth 20 points. The five bright cards are:
 
 * the crane with pine (January), <span lang="ja">松に鶴</span> <span lang="ja-Latn">matsu ni tsuru</span>
 * the cherry blossom curtain (March), <span lang="ja">桜に幕</span> <span lang="ja-Latn">sakura ni maku</span>
@@ -69,7 +71,13 @@ points. The five bright cards are:
 * the rain man (November), <span lang="ja">柳に小野道風</span> <span lang="ja-Latn">yanagi ni Ono no Tōfū</span>
 * the phoenix (December), <span lang="ja">桐に鳳凰</span> <span lang="ja-Latn">kiri ni hōō</span>
 
+{% image size="small", src='5_brights.jpg', alt="TODO" position="aside" %}
+The five bright cards, from a standard <span class="noun" lang="ja-Latn">Nintendo</span> deck.
+{% imageEnd %}
+
 {% image 
+    size="small"
+    justify="centered"
     src="../Hanafuda_1-1.svg;../Hanafuda_3-1.svg;../Hanafuda_8-1.svg;../Hanafuda_11-1.svg;../Hanafuda_12-1.svg"
     alt="The crane and pine.;The cherry blossom curtain.;The full moon.;The rain man.;The phoenix." 
     authorFamily="Mantia",
@@ -78,33 +86,39 @@ points. The five bright cards are:
     license="cc-by-sa",
     licenseVersion="4.0",
     perRow=5 %}
-The bright cards.
+The bright cards of a Japanese deck.
 {% imageEnd %}
 
-In some decks, especially Korean ones, these are marked with the 光 character
-for ease of identification.{%fn%}<span class="noun" lang="ja-Latn">Maeda Masafumi</span>
-(<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the
-manufacturer <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> has claimed that these
-markings were actually a trademark-like feature that they used, which was picked
-up by the Korean manufacturers as a standardized
-marking.[@ModernKoreanCards]{%endfn%}
+In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.{%fn%}<span class="noun" lang="ja-Latn">Maeda Masafumi</span> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> has claimed that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.[@ModernKoreanCards]{%endfn%}
 
-{% image size="small", src='5_brights.jpg', alt="TODO" %}
-The five bright cards, from a standard <span class="noun" lang="ja-Latn">Nintendo</span> deck.
-{% imageEnd %}
-
-{% image size="small", src='5_brights_kr.jpg', alt="TODO" %}
+{% image size="small", src='5_brights_kr.jpg', alt="TODO" position="aside" %}
 The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.
 {% imageEnd %}
 
+{% image 
+    noborder=true
+    size="small"
+    justify="centered"
+    src="../Hwatu_January_Hikari.png;../Hwatu_March_Hikari.png;../Hwatu_August_Hikari.png;../Hwatu_November_Hikari.png;../Hwatu_December_Hikari.png"
+    alt="The crane and pine.;The cherry blossom curtain.;The full moon.;The rain man.;The phoenix." 
+    authorFamily="Richert",
+    authorGiven="Marcus",
+    copyrightYear=2021,
+    license="cc-by-sa",
+    licenseVersion="4.0",
+    originalUrl="http://www.marcusrichert.com/images/hwatu/",
+    perRow=5 %}
+The bright cards of a Korean deck.
+{% imageEnd %}
+
+
 #### <span lang="ja-Latn">Tane</span> cards
 
-There are 9 {% pronounce pronouncer="yasuo" word="tane" lang="ja-Latn"
-file="pronunciation_ja_種.mp3" %} (<span lang="ja">種</span>) cards, which are
-usually worth 10 points each. These cards mostly feature animals, but also a
-sake cup, and the ‘eight-planked bridge’.
+There are 9 {% pronounce pronouncer="yasuo" word="tane" lang="ja-Latn" file="pronunciation_ja_種.mp3" %} (<span lang="ja">種</span>) cards, which are usually worth 10 points each. These cards mostly feature animals, but also a sake cup, and the ‘eight-planked bridge’.
 
 {% image
+    size="small"
+    justify="centered"
     src="../Hanafuda_2-1.svg;../Hanafuda_4-1.svg;../Hanafuda_5-1.svg;../Hanafuda_6-1.svg;../Hanafuda_7-1.svg;../Hanafuda_8-2.svg;../Hanafuda_9-1.svg;../Hanafuda_10-1.svg;../Hanafuda_11-2.svg"
     alt="The tane card for February, a bush warbler.;The tane card for April, a lesser cuckoo.;The tane card for May, a bridge.;The tane card for June, butterflies.;The tane card for July, a boar.;The tane card for August, geese.;The tane card for September, a sake cup.;The tane card for October, a deer.;The tane card for November, a swallow."
     authorFamily="Mantia",
@@ -128,6 +142,8 @@ lang="ja-Latn">tanzaku</span>, and plain blue/purple <span
 lang="ja-Latn">tanzaku</span>.
 
 {% image
+    size="small"
+    justify="centered"
     src="../Hanafuda_1-2.svg;../Hanafuda_2-2.svg;../Hanafuda_3-2.svg;../Hanafuda_4-2.svg;../Hanafuda_5-2.svg;../Hanafuda_6-2.svg;../Hanafuda_7-2.svg;../Hanafuda_9-2.svg;../Hanafuda_10-2.svg;../Hanafuda_11-3.svg"
     alt="The tanzaku card for January.;The tanzaku card for February.;The tanzaku card for March.;The tanzaku card for April.;The tanzaku card for May.;The tanzaku card for June.;The tanzaku card for July.;The tanzaku card for September.;The tanzaku card for October.;The tanzaku card for November."
     authorFamily="Mantia",
@@ -166,6 +182,8 @@ lang="ja-Latn">kasu</span> cards also has a yellow background and this card is
 treated specially in some games.
 
 {% image
+    size="small"
+    justify="centered"
     src="../Hanafuda_1-3.svg;../Hanafuda_1-4.svg;../Hanafuda_2-3.svg;../Hanafuda_2-4.svg;../Hanafuda_3-3.svg;../Hanafuda_3-4.svg;../Hanafuda_4-3.svg;../Hanafuda_4-4.svg;../Hanafuda_5-3.svg;../Hanafuda_5-4.svg;../Hanafuda_6-3.svg;../Hanafuda_6-4.svg;../Hanafuda_7-3.svg;../Hanafuda_7-4.svg;../Hanafuda_8-3.svg;../Hanafuda_8-4.svg;../Hanafuda_9-3.svg;../Hanafuda_9-4.svg;../Hanafuda_10-3.svg;../Hanafuda_10-4.svg;../Hanafuda_11-4.svg;../Hanafuda_12-2.svg;../Hanafuda_12-3.svg;../Hanafuda_12-4.svg"
     alt="A kasu card for January.;A kasu card for January.;A kasu card for February.;A kasu card for February.;A kasu card for March.;A kasu card for March.;A kasu card for April.;A kasu card for April.;A kasu card for May.;A kasu card for May.;A kasu card for June.;A kasu card for June.;A kasu card for July.;A kasu card for July.;A kasu card for August.;A kasu card for August.;A kasu card for September.;A kasu card for September.;A kasu card for October.;A kasu card for October.;The kasu card for November.;A kasu card for December, with yellow background.;A kasu card for December.;A kasu card for December."
     perRow=8,

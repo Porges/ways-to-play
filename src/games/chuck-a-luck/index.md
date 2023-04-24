@@ -1,9 +1,7 @@
 ---
 title: Chuck-a-Luck
 mainImage: chuk-a-luck_bank_club_reno_nevada.jpg
-players:
-    min: 2
-    max: 100
+players: banking
 hero:
     image: 'Potter_GrandHazard.jpeg'
     copyrightYear: 2018

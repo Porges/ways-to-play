@@ -1,12 +1,13 @@
 ---
 title: Prinola
 titleLang: fil
-players:
-    min: 2
-    max: 100
+players: banking
 subgames:
 - title: Dadu Putar
   titleLang: id
+- title: Chobo-Ichi
+  titleLang: ja-Latn
+  originalTitle: <span lang="ja" class="aka">樗蒲一</span>
 ---
 
 <p class="lead"><span lang="fil" class="noun aka">Prinola</span> is a {%a staking-games,simple staking game%} that used to be played in the Philippines. The name is derived from the Spanish <span lang="es">pirinola</span>, a spinning-top or teetotum.</p>
@@ -55,3 +56,11 @@ In Indonesia the game has been called {%pronounce lang="id" word="Dadu Putar" cl
   originalUrl="https://hdl.handle.net/20.500.11840/1366529" %}
 A group of people playing <span lang="id">Dadu Putar</span> (or a game very similar to it) in [Bengkulu,](https://en.wikipedia.org/wiki/Bengkulu) Sumatra (1910–1930).
 {% imageEnd %}
+
+## <span lang="ja-Latn" class="noun">Chobo-Ichi</span>
+
+The Japanese game of <span lang="ja-Latn" class="aka noun">Chobo-Ichi</span> (<span lang="ja" class="aka">樗蒲一</span>) is the same but played with a single die instead of a teetotum. The name means something like “gamble on one outcome”.
+
+In 1784 this game had become so popular that gambling sheds running the game lined the street for a whole [<span lang="ja-Latn">ri</span> (<span lang="ja">里</span>)](https://en.wiktionary.org/wiki/%E9%87%8C#Etymology_2_2) from Asakusa to Senju in Tokyo.[@ADiceyHistory]
+
+The players place their bets upon the staking layout, then the banker rolls the die. Any players who bet upon the side that comes up win, and are paid 4× their stake. All other players lose their bets.

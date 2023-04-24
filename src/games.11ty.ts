@@ -12,7 +12,7 @@ export const data = {
 };
 
 type RenderableGame = {
-    players: number[],
+    players: 'banking' | number[],
     equipment?: string,
     variant?: boolean,
     url: string,
@@ -28,14 +28,18 @@ function renderGames(allGames: RenderableGame[]) {
 
     const playersS = params.get('players');
     if (playersS && playersS !== 'any') {
-        const players = parseInt(playersS);
-        allGames = allGames.filter(g => {
-            if (g.players) {
-                return g.players.includes(players);
-            }
+        if (playersS === 'banking') {
+            allGames = allGames.filter(g => g.players === 'banking');
+        } else {
+            const players = parseInt(playersS);
+            allGames = allGames.filter(g => {
+                if (g.players) {
+                    return Array.isArray(g.players) && g.players.includes(players);
+                }
 
-            return false;
-        });
+                return false;
+            });
+        }
     }
 
     const equipmentS = params.get('equipment');
@@ -63,10 +67,14 @@ function renderGames(allGames: RenderableGame[]) {
 }
 
 export function render(this: Context, data: Data) {
-    const expandPlayers = (title: string, players: Players | undefined) => {
+    const expandPlayers = (title: string, players: Players | undefined): 'banking'|number[] => {
         if (players === undefined) {
             console.warn('No players specified for ' + title);
             return [];
+        }
+
+        if (players === 'banking') {
+            return 'banking';
         }
 
         if (typeof players === 'number') {
@@ -166,6 +174,7 @@ export function render(this: Context, data: Data) {
         + '<div class="col-sm-10">'
         + '<select id="player-select" class="form-control">'
         + '<option selected>any</option>'
+        + '<option value="banking">banking games (1+any)</option>'
         + '<option>1</option>'
         + '<option>2</option>'
         + '<option>3</option>'

@@ -258,7 +258,7 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 ### <span class="noun aka" lang="jav-Latn">Gonggong</span>
 
-<span class="noun" lang="jav-Latn">Gonggong</span> (<span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta was described as follows:
+<span class="noun" lang="jav-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta was described as follows:
 
 It is played with six sets of cards (180 cards) for four players, or eight sets (240 cards) for six players. Deal 14 cards each and play as with <span class="noun" lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called a <span lang="jav-Latn">bak</span>) must be completed.
 

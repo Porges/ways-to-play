@@ -1,8 +1,6 @@
 ---
 title: Black and White Cocks
-players:
-    min: 2
-    max: 100
+players: banking
 ---
 
 <span class="aka">Black and White Cocks</span>{%fn%}an apparently un-Googleable name…{%endfn%} was a gambling game played in England in the 19th century. In 1838 it was described as a “well-known game of chance”,[@Tiverton] but it seems to have died out before the 20th century.

@@ -1298,7 +1298,7 @@ bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two
     licenseVersion='4.0',
     originalUrl='http://photozou.jp/photo/show/314766/35962820',
     copyrightYear=2010,
-    authorName='ゆぼ', authorLang="ja" %}
+    author='ゆぼ', authorLang="ja" %}
 The <span class="noun" lang="ja-Latn">Yoshino</span> mountainside with cherry trees in bloom.
 {% imageEnd %}
 

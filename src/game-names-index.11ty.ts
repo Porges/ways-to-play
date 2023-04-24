@@ -62,6 +62,7 @@ export async function render(data: Data) {
             case "cmn": return "Mandarin Chinese";
             case "kxd": return "Kedayan";
             case "mcm": return "Malaccan Creole Portuguese";
+            case "mfa": return "Pattani Malay";
             case "mnr": return "Mono";
             case "rng": return "Rongo";
             case "urh": return "Urhobo";
