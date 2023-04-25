@@ -20,7 +20,7 @@ type CommonArticleImageProps = {
     perRow?: number,
     noborder?: boolean,
     cram?: boolean,
-    size?: string,
+    size?: 'small' | 'extra-small' | 'wide' | 'extra-wide',
     position?: string,
     justify?: string,
 };
@@ -142,7 +142,7 @@ export async function articleImage(this: ExpectedThis, caption: string, rawprops
     if (srcs.length !== alts.length) {
         throw new Error("number of srcs must match number of alts");
     }
-
+    
     const captionAndSource =
         ifSet(caption.trim(),
             `\n\n<span itemprop="caption">`

@@ -288,6 +288,10 @@ figure.small .figure-img {
     max-height: 200px;
 }
 
+figure.extra-small .figure-img {
+    max-height: 100px;
+}
+
 /* Figure placements */
 figure {
     break-inside: avoid;

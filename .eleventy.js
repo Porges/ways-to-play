@@ -47,7 +47,7 @@ module.exports = function (eleventyConfig) {
         options: {
           content: { type: 'text', value: '#' },
           properties: {
-            ariaHidden: true,
+            ariaHidden: 'true',
             tabIndex: -1,
             class: 'permalink',
             title: 'link to section'
