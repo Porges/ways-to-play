@@ -1577,8 +1577,11 @@ GreveSake:
       family: Greve
   issued:
     year: 2006
+    month: 10
+    day: 6
   container-title: World Kigo Database
   URL: https://worldkigo2005.blogspot.com/2006/06/ricewine-sake-05.html
+  archive-URL: https://web.archive.org/web/20230429221140/https://worldkigo2005.blogspot.com/2006/06/ricewine-sake-05.html
 ChigoJapanese:
   type: article-journal
   title: <span lang="ja-Latn">Chigo</span> in the Medieval Japanese Imagination
@@ -4402,6 +4405,11 @@ CupMatchAndCarnival:
     publisher: Van Gorcum
     publisher-place: Amsterdam, The Netherlands
     title: Secular Ritual
+    editor:
+    - given: Sally F.
+      family: Moore
+    - given: Barbara G.
+      family: Myerhoff
     ISBN: 90-232-1457-9
   page: 265–281
 EastEndUnderworld:
