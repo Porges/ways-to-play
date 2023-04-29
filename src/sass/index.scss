@@ -595,6 +595,17 @@ table.rule-last-row tr:last-child {
 ul {
     // reduce indentation
     padding-left: 1.5em;
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+/*** TOC ***/
+
+section:has(> h2[id='table-of-contents']) {
+    //position: sticky;
+    //left: 0;
 }
   
 /*** Footnotes ***/
