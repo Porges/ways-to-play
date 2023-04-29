@@ -1,5 +1,5 @@
 ---
-title: Four Colour Cards
+title: Four-Colour cards
 draft: true
 ---
 
