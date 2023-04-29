@@ -8486,3 +8486,15 @@ ADiceyHistory:
       year: 2002
       month: 4
       day: 7
+MUMagazine:
+  type: chapter
+  title: 'No. XIV: Beggar My Neighbour'
+  URL: 'https://books.google.co.nz/books?id=SOENAAAAQAAJ&pg=PA153'
+  page: 149–153
+  author:
+  - given: L. L.
+  in:
+    title: "Meerut Universal Magazine: Loose Lectures"
+    issued: 1835
+    publisher: “Mofussitite” Press
+    publisher-place: Agra?, India
