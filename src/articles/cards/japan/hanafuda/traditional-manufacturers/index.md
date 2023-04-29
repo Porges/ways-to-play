@@ -668,7 +668,7 @@ lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 57–8]
 
 {% image position="aside" size="wide" src="Takarabune_by_Hiroshige.jpg" alt="" originalUrl="https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license="cc0", author="MichaelMaggs" %}
-The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikipedia.org/wiki/Takarabune) that carries the [seven lucky gods](https://en.wikipedia.org/wiki/Seven_Lucky_Gods), as shown in this print by [Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) (<abbr title="circa">c.</abbr> 1840). 
+The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikipedia.org/wiki/Takarabune) that carries the [seven lucky gods](https://en.wikipedia.org/wiki/Seven_Lucky_Gods), as shown in this print by [Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) ({%c%} 1840). 
 {% imageEnd %}
 
 * <span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <span class="noun" lang="ja-Latn">Tengu</span>’), also used for <span class="noun" lang="ja-Latn">Kabu</span> and <span class="noun" lang="ja-Latn">Tehonbiki</span> cards, trademarked in 1921[@Trademarks1924_18 p. 330]

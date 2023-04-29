@@ -194,7 +194,7 @@ than is usually given. See, for example, @WaterMarginDate.{%endfn%}
 
 Indeed, the characters listed on the ‘myriads’ cards are all taken from the book <cite
 lang="zh">宣和遺事</cite> <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span>
-(“Neglected Events of the Xuanhe Reign”), a story published <abbr title="circa">c.</abbr> 1300 that would
+(“Neglected Events of the Xuanhe Reign”), a story published {%c%} 1300 that would
 be one of the main sources of the later, more famous, book <cite lang="zh">水滸傳</cite>
 <span lang="cmn-Latn-pinyin" class="noun">Shuǐhǔzhuàn</span>, commonly known in English as
 <cite>Water Margin</cite>.
