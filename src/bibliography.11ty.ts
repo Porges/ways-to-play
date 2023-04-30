@@ -27,10 +27,10 @@ function lStrValue(l: LStr) {
 function sortKey(r: Reference) {
     const publisherS =
         'publisher' in r
-        ? r.publisher
-        : 'in' in r 
-            ? r.in.publisher
-            : undefined;
+            ? r.publisher
+            : 'in' in r
+                ? r.in.publisher
+                : undefined;
 
     const publisher = publisherS ? lStrValue(publisherS) : '';
 
@@ -102,7 +102,7 @@ export async function render(data: Data) {
         + '</div>'
         + '</div>'
         + '</form>'
-        + '<p class="text-center">❦</p>'
+        + `<p class="text-center">🙚 ${biblio.length} works 🙘</p>`
         + '<div class="row">'
         + `<ul id="ref-list" class="reference-list list-unstyled offset-lg-2 col-lg-8">\n${biblio.map(b => {
             const year = publicationYear(b);
@@ -128,6 +128,10 @@ function runSort(on: string) {
     const comparer = new Intl.Collator('en', { numeric: true });
     const multiplier = parts[1] === 'desc' ? -1 : 1;
     const el = document.getElementById('ref-list')!;
-    const children = Array.prototype.slice.call(el.children).sort((x, y) => multiplier * comparer.compare(x.getAttribute(key), y.getAttribute(key)));
+    const children =
+        Array.prototype.slice.call(el.children)
+            .map(el => ({ el, key: el.getAttribute(key) }))
+            .sort((x, y) => multiplier * comparer.compare(x.key, y.key))
+            .map(({el}) => el);
     el.replaceChildren(...children);
 }
