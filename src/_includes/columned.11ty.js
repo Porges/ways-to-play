@@ -7,7 +7,7 @@ exports.render = function (data) {
   <h1>${data.title}</h1>
   <div class="row">
     <div class="col"></div>
-    <div class="col-10 col-lg-6">
+    <div class="col-10 col-lg-8">
       ${data.content}
     </div>
     <div class="col"></div>
