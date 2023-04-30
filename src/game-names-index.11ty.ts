@@ -3,7 +3,7 @@ import { Context, Data } from "../types";
 
 export const data = {
     title: "Game Names Index",
-    layout: "layout",
+    layout: "columned",
     eleventyImport: {
         collections: ["game"]
     }
@@ -47,11 +47,7 @@ export async function render(data: Data) {
         it.set(k, v);
     }
     
-    let result = '<div class="container">' 
-        + '<h1>Game Names Index</h1>'
-        + '<div class="row">'
-        + '<div class="col-lg-6 offset-lg-3">'
-        + '<p>This page lists all game names by language, for ease of reference.</p>'
+    let result = '<p>This page lists all game names by language, for ease of reference.</p>'
         + '<hr/>';
 
     const displayer = new Intl.DisplayNames(["en"], {type: "language"});
@@ -95,10 +91,6 @@ export async function render(data: Data) {
         }
         result += '</ul>';
     }
-
-    result += 
-        '</div>'
-        + '</div>';
 
     return result;
 }
