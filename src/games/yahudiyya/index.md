@@ -10,3 +10,11 @@ draft: true
 See: @DimensionsOfBookOfGames.
 
 Original source: [@Tawula]
+
+## Play
+
+The game is played using only the inner table of the board. In each player’s outer three points they stack two pieces, and on each of their inner three points they stack three pieces.
+
+{% image src="yahudiya_setup.svg" alt="" %}
+The initial board setup.
+{% imageEnd %}
