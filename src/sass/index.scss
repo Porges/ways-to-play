@@ -451,16 +451,12 @@ div.multi > p {
 .reference-list > li {
     margin-top: 1em;
     text-align: left;
-
-    p {
-        margin-bottom: 0;
-    }
 }
 
 /* hanging indent */
 .reference-list.list-unstyled > li {
-    margin-left: 3em;
-    text-indent: -3em;
+    margin-left: 2em;
+    text-indent: -2em;
 }
 
 /* nested backreference lists need indentation undone */
