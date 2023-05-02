@@ -579,21 +579,7 @@ hachi-hachi %} (<span lang="ja">八八</span>) sets.
 {% image 
     src='HanaTrump_Extra.jpg'
     alt="Four additional cards corresponding to the Kings of the standard deck, and one joker card." %}
-The extra cards of <span class="noun" lang="ja-Latn">Nintendō</span>’s “Hana-Trump” deck.
-From left-to-right, after the joker, these are: a blindfolded samurai, with text
-reading <span lang="ja"><q>不見出</q></span> (88 sets have a piece labelled
-<span lang="ja"><q>不見転</q></span>, ‘loose morals’); a <span
-lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s
-fan which is nowadays used by sumo referees, which is inscribed <span
-lang="ja"><q>跡絶之章</q></span> (88 sets have a piece labelled <span
-lang="ja"><q>両桐絶体之章</q></span>); a rice winnowing basket (<span lang="ja">
-箕</span> <span lang="ja-Latn">mi</span>) inscribed <span lang="ja"><q>手役之章
-</q></span> (hand-<span lang="ja-Latn">yaku</span> prize); and an award medal
-reading <span lang="ja"><q>吟見勲賞</q></span> (<span lang="ja-Latn">Ginmi
-Kunshō</span>, ‘<span lang="ja-Latn">Ginmi</span> Medal’), which is a prize for
-the ‘top player’ (<span lang="ja-Latn">Ginmi</span>, usually spelt <span
-lang="ja">吟味</span>, 88 sets have a piece labelled <span lang="ja">銀見勲章
-</span>).
+The extra cards of <span class="noun" lang="ja-Latn">Nintendō</span>’s “Hana-Trump” deck.  From left-to-right, after the joker, these are: a blindfolded samurai, with text reading <span lang="ja"><q>不見出</q></span> (88 sets have a piece labelled <span lang="ja"><q>不見転</q></span>, ‘loose morals’); a <span lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s fan which is nowadays used by sumo referees, which is inscribed <span lang="ja"><q>跡絶之章</q></span> (88 sets have a piece labelled <span lang="ja"><q>両桐絶体之章</q></span>); a rice winnowing basket (<span lang="ja">箕</span> <span lang="ja-Latn">mi</span>) inscribed <span lang="ja"><q>手役之章</q></span> (hand-<span lang="ja-Latn">yaku</span> prize); and an award medal reading <span lang="ja"><q>吟見勲賞</q></span> (<span lang="ja-Latn">Ginmi Kunshō</span>, ‘<span lang="ja-Latn">Ginmi</span> Medal’), which is a prize for the ‘top player’ (<span lang="ja-Latn">Ginmi</span>, usually spelt <span lang="ja">吟味</span>, 88 sets have a piece labelled <span lang="ja">銀見勲章</span>).
 {% imageEnd %}
 
 Currently <span class="noun" lang="ja-Latn">Nintendō</span> also produce many novelty decks

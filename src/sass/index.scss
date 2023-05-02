@@ -483,11 +483,17 @@ abbr[title] {
 
 /*** Citations ***/
 .citation {
-    margin-left: 1px;
-    font-feature-settings: "sups";
     color: $secondary;
+
+    &:not(.inline) {
+        margin-left: 1px;
+        font-feature-settings: "sups";
+    }
+
+    &>.index {
+        color: $accent;
+    }
 }
-.citation>.index { color: $accent }
 
 /*** Pronunciation ***/
 .pronunciation {
