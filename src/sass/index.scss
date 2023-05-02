@@ -11,7 +11,6 @@
         url('/fonts/BabelStoneCommons.ttf') format('truetype');
     unicode-range: U+1f16d-1f16f, U+1f10d-1f10f, U+229c;
     font-display: swap;
-    size-adjust: 80%;
 }
 
 @font-face {
@@ -190,10 +189,6 @@ h2 {
     }
 }
 
-.navbar {
-    font-family: $font-family-sans-serif, "cc-icons", /* Creative Commons Unicode characters */ sans-serif;
-}
-
 .navbar a:not(:hover) {
     text-decoration: none;
 }
@@ -212,12 +207,10 @@ main {
     overflow-wrap: break-word;
 }
 
-// Do full justification on small screens:
-@include media-breakpoint-down(sm) {
-    section > p {
-        hyphens: auto;
-        text-align: justify;
-    }
+// do full justification on main-text paragraphs
+section > p, div.content > p {
+    hyphens: auto;
+    text-align: justify;
 }
 
 section {
@@ -246,13 +239,16 @@ blockquote {
 }
 
 figcaption {
-    line-height: 17px;
     width: 100%;
 
     display: table-caption;
     caption-side: bottom;
 
     text-wrap: balance;
+
+    & p:last-of-type {
+        margin-bottom: 0;
+    }
 }
 
 /* fix image orientation */
@@ -292,11 +288,11 @@ figure {
     @extend .text-center;
 
     &.right {
-        @extend .float-lg-end, .ms-lg-3, .my-lg-1;
+        @extend .float-lg-end, .ms-lg-3, .my-lg-0;
     }
 
     &.left {
-        @extend .float-lg-start, .me-lg-3, .my-lg-1;
+        @extend .float-lg-start, .me-lg-3, .my-lg-0;
     }
 
     &.left, &.right {
@@ -487,14 +483,11 @@ abbr[title] {
 
 /*** Citations ***/
 .citation {
+    margin-left: 1px;
+    font-feature-settings: "sups";
     color: $secondary;
-    line-height: 0; // don't let superscript affect calculated lineheight 
-
-    &>.index {
-        font-variant: small-caps;
-    }
 }
-.citation a { color: $accent }
+.citation>.index { color: $accent }
 
 /*** Pronunciation ***/
 .pronunciation {
@@ -515,7 +508,6 @@ table.numeric>tfoot>tr>td,
 table.numeric>tfoot>tr>th,
 tbody.numeric>tr>td,
 tbody.numeric>tr>th {
-    // TODO: font doesn't support it 
     font-variant-numeric: tabular-nums;
     text-align: right;
 }
@@ -601,13 +593,12 @@ section:has(> h2[id='table-of-contents']) {
 .footnote {
   font-size: $font-size-sm;
 
-  //letter-spacing: -0.003em;
-  //line-height: 18px;
-
   padding: .5em 1em;
   border: 1px lightgray dotted;
   margin-top: 1rem;
   margin-bottom: 1rem;
+
+  text-align: left;
 }
 
 figure.footnote {
@@ -633,11 +624,10 @@ span.footnote {
 }
 
 aside.footnote::before {
-  content: "☞ ";
-  font-size: 1.5em;
-  line-height: 1rem;
+  content: "☞\202F"; // narrow no-break space
+  font-size: 1.6rem;
+  line-height: 1.1rem;
   float: left;
-  padding-top: 1px;
   color: $accent;
 }
 
@@ -800,10 +790,6 @@ a[href*="wikipedia.org" i] {
 .image-identifier {
     // don't wrap identifiers
     white-space: nowrap;
-}
-
-a[itemprop=license] {
-    font-size: 1.3em; // this font is a little small
 }
 
 /** Lightbox **/

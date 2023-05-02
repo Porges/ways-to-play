@@ -305,7 +305,7 @@ const citationPlugin = () => {
 
     while (index > 0) {
       const num = (index - 1) % 26;
-      result = String.fromCodePoint('a'.charCodeAt(0) + num) + result
+      result = String.fromCodePoint('A'.charCodeAt(0) + num) + result
       index = Math.floor((index - num) / 26);
     }
 
@@ -341,7 +341,7 @@ const citationPlugin = () => {
 
       return `<span class="citation">[<a href="${`#ref-${id}`}" class="index">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
     } else {
-      return `<sup class="citation"><a class="index" href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</sup>`;
+      return `<span class="citation"><a class="index" href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</span>`;
     }
   };
 

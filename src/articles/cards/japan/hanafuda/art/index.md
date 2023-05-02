@@ -550,16 +550,7 @@ of evidence, the case was dropped, but <span class="noun" lang="ja-Latn">Kojima<
 accepted ‘moral responsibility’ for the scandal and resigned his
 position.[@EmperorOfJapan p. 813]
 
-Despite this “image problem”, playing <span class="noun"
-lang="ja-Latn">Hanafuda</span> became part of what it meant to be a <span
-lang="ja-Latn">shinshi</span> (<span lang="ja">紳士</span>) — that is, a modern,
-worldly gentleman.{%fn%}The Japanese word <span lang="ja-Latn">shinshi</span>
-had originally been coined to translate the English
-“gentleman”,[@TheEastandtheIdeaofEurope p. [[32, 38]]] and was particularly
-associated with those who enthusiastically embraced Westernization during the
-<span class="noun" lang="ja-Latn">Meiji</span> period.{%endfn%} The author <span
-class="noun" lang="ja-Latn">Uchida Roan</span> (1868–1929) is said to have
-joked:
+Despite this “image problem”, playing <span class="noun" lang="ja-Latn">Hanafuda</span> became part of what it meant to be a <span lang="ja-Latn">shinshi</span> (<span lang="ja">紳士</span>) — that is, a modern, worldly gentleman.{%fn%}The Japanese word <span lang="ja-Latn">shinshi</span> had originally been coined to translate the English “gentleman”,[@TheEastandtheIdeaofEurope p. 32–8] and was particularly associated with those who enthusiastically embraced Westernization during the <span class="noun" lang="ja-Latn">Meiji</span> period.{%endfn%} The author <span class="noun" lang="ja-Latn">Uchida Roan</span> (1868–1929) is said to have joked:
 
 <blockquote lang="ja">紳士の資格は？　弄花と蓄妾と負債と奔走。</blockquote>
 
