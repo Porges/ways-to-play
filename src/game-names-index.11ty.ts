@@ -21,23 +21,36 @@ async function findNames(coll: any[], refs: Map<Name, any>) {
         const content = c.content as string;
         const matches = content.matchAll(nameMatcher);
         for (const match of matches) {
-            refs.set({lang: match.groups!.lang ?? 'en', name: match.groups!.name}, c);
+            refs.set({ lang: match.groups!.lang ?? 'en', name: match.groups!.name }, c);
         }
     }
 }
 
+// not all languages supported by Intl.DisplayNames
+// in particular, 3-letter codes are under-supported
+const nameOverrides = new Map<string, string>([
+    ["cmn", "Mandarin Chinese"],
+    ["kxd", "Kedayan"],
+    ["mcm", "Malaccan Creole Portuguese"],
+    ["mfa", "Pattani Malay"],
+    ["mnr", "Mono"],
+    ["rng", "Rongo"],
+    ["urh", "Urhobo"],
+    ["wni", "Comorian (Ndzwani)"],
+]);
+
 export async function render(data: Data) {
     const refs = new Map<Name, any>();
     await findNames(data.collections.game, refs);
-    
-    const byLang = new Map<string, Map<{lang: string, name: string}, any>>();
+
+    const byLang = new Map<string, Map<{ lang: string, name: string }, any>>();
     for (const [k, v] of refs) {
         const langNoScript =
             // for some reason 'cmn' gets normalized to 'zh'
             // despite being its own entry in the language subtag registry
-            k.lang === 'cmn-Latn-pinyin' 
-            ? 'cmn'
-            : new Intl.Locale(k.lang).language;
+            k.lang === 'cmn-Latn-pinyin'
+                ? 'cmn'
+                : new Intl.Locale(k.lang).language;
         let it = byLang.get(langNoScript);
         if (!it) {
             it = new Map();
@@ -46,43 +59,33 @@ export async function render(data: Data) {
 
         it.set(k, v);
     }
-    
+
     let result = '<p>This page lists all game names by language, for ease of reference.</p>'
         + '<hr/>';
 
-    const displayer = new Intl.DisplayNames(["en"], {type: "language"});
+    const displayer = new Intl.DisplayNames(["en"], { type: "language" });
     const display = (code: string) => {
-        switch (code) {
-            // not all languages supported by Intl.DisplayNames
-            // in particular, 3-letter codes are under-supported
-            case "cmn": return "Mandarin Chinese";
-            case "kxd": return "Kedayan";
-            case "mcm": return "Malaccan Creole Portuguese";
-            case "mfa": return "Pattani Malay";
-            case "mnr": return "Mono";
-            case "rng": return "Rongo";
-            case "urh": return "Urhobo";
-            default: return displayer.of(code);
-        }
+        const override = nameOverrides.get(code);
+        return override || displayer.of(code);
     };
 
     const sorter = new Intl.Collator();
     const langs = [...byLang.entries()]
         .map(([code, values]) => ({ code, title: display(code) || code, values }))
-        .sort((a,b) => sorter.compare(a.title, b.title));
+        .sort((a, b) => sorter.compare(a.title, b.title));
 
     result += '<h2>Languages</h2><ul class="columnar">';
-    for (const {code, title} of langs) {
+    for (const { code, title } of langs) {
         result += `<li><a href="#${code}">${title}</a></li>`;
     }
     result += '</ul>'
         + '<h2>List</h2>';
 
-    for (const {code, title, values} of langs) {
+    for (const { code, title, values } of langs) {
         result += `<h3 id="${code}"><a href="https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(' ', '_'))}_language">${title}</a></h3>`;
         result += '<ul class="columnarr">';
         const names = [...values.entries()].sort((a, b) => sorter.compare(a[0].name, b[0].name));
-        for (const [{lang, name}, page] of names) {
+        for (const [{ lang, name }, page] of names) {
             if (IS_PRODUCTION && page.data.draft) {
                 continue;
             }

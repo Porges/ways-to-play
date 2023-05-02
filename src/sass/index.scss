@@ -11,6 +11,7 @@
         url('/fonts/BabelStoneCommons.ttf') format('truetype');
     unicode-range: U+1f16d-1f16f, U+1f10d-1f10f, U+229c;
     font-display: swap;
+    size-adjust: 80%;
 }
 
 @font-face {
@@ -19,6 +20,7 @@
         url('/fonts/NKD04_Playing_Cards_Index.woff2') format('woff2'),
         url('/fonts/NKD04_Playing_Cards_Index.woff') format('woff'),
         url('/fonts/nkd04_playing_cards_index.ttf') format('truetype');
+    size-adjust: 80%;
     font-display: swap;
 }
 
@@ -37,45 +39,51 @@
     src: url('/fonts/ocrb.woff2') format('woff2'),
          url('/fonts/ocrb.woff') format('woff'),
          url('/fonts/ocrb.ttf') format('truetype');
+    size-adjust: 80%;
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'FiraGO';
-    font-weight: 300;
-    src: url('/fonts/FiraGO-LightItalic.woff2') format('woff2'),
-         url('/fonts/FiraGO-LightItalic.woff') format('woff');
-    font-style: italic;
-    size-adjust: 104%;
+    font-family: 'Brill';
+    size-adjust: 120%;
+    src: url('/fonts/Brill-Roman.woff2') format('woff2'),
+        url('/fonts/Brill-Roman.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'FiraGO';
-    font-weight: 500;
-    src: url('/fonts/FiraGO-MediumItalic.woff2') format('woff2'),
-         url('/fonts/FiraGO-MediumItalic.woff') format('woff');
+    font-family: 'Brill';
+    size-adjust: 120%;
+    src: url('/fonts/Brill-Italic.woff2') format('woff2'),
+        url('/fonts/Brill-Italic.woff') format('woff');
     font-style: italic;
-    size-adjust: 104%;
+}
+
+@font-face {
+    font-family: 'Brill';
+    size-adjust: 120%;
+    src: url('/fonts/Brill-Bold.woff2') format('woff2'),
+        url('/fonts/Brill-Bold.woff') format('woff');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Brill';
+    size-adjust: 120%;
+    src: url('/fonts/Brill-BoldItalic.woff2') format('woff2'),
+        url('/fonts/Brill-BoldItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
 }
 
 $font-family-sans-serif:
-    "Inter",
+    "Brill",
     "NKS30",
     "Noto Emoji",
-    sans-serif, 
-    "cc-icons"; /* fallback for Creative Commons Unicode characters */
-
-@mixin italic-font {
-    font-family: "FiraGO", "Inter", sans-serif;
-    font-style: italic;
-}
-
-$font-weight-light: 200;
-$font-weight-normal: 300;
-
-$line-height-base: 1.4;
+    serif, 
+    "cc-icons", // fallback for Creative Commons Unicode characters
+    "UniHentaiKana"; // fallback for Hentaigana chars
 
 $primary: #6b5293;
 $secondary: #7c85a3;
@@ -90,31 +98,14 @@ $link-decoration: underline $light;
 $breadcrumb-bg: none;
 $breadcrumb-divider: quote('›');
 
-$headings-font-family: "Vollkorn", serif;
-$headings-font-weight: 500;
-$h1-font-size: 3rem;
-
-$figure-caption-font-size: 1.2 * .625rem;
-
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import './text.scss';
+
+$figure-caption-font-size: $font-size-sm;
 
 body {
     font-variant-numeric: oldstyle-nums;
     font-variant-ligatures: common-ligatures contextual;
-}
-
-i, em {
-    @include italic-font;
-}
-
-// override Bootstrap bold
-strong {
-    font-weight: 500;
-}
-
-b {
-    font-weight: bold;
 }
 
 body {
@@ -164,26 +155,28 @@ h2 {
     h2::before { 
         font-family: serif;
         font-weight: 100;
-        content: "― " 
+        content: "― " ;
+        color: lightgray;
     }
 
     h2::after {
         font-family: serif;
         font-weight: 100;
         content: " ―";
+        color: lightgray;
     }
 }
 
 .articlesInThisSection {
     color: $secondary;
     font-size: .95em;
-    text-transform: uppercase;
+    font-variant: small-caps;
 }
 
 .prevNextArticle {
     color: $secondary;
     font-size: .8em;
-    text-transform: uppercase;
+    font-variant: small-caps;
 }
 
 // collapse breadcrumbs when small
@@ -211,7 +204,7 @@ h2 {
 }
 
 .navbar-nav {
-    text-transform: uppercase;
+    font-variant: small-caps;
 }
 
 main {
@@ -242,7 +235,7 @@ blockquote {
     content: '❝';
     display: block;
     margin-left: -.7em;
-    font-size: 3em;
+    font-size: 2em;
     position: absolute;
     margin-top: -.3em;
 }
@@ -493,15 +486,15 @@ abbr[title] {
 }
 
 /*** Citations ***/
-.citation { color: $secondary }
-.citation a { color: $accent }
-sup.citation a::before {
-    content: '•';
-}
-
-sup.citation {
+.citation {
+    color: $secondary;
     line-height: 0; // don't let superscript affect calculated lineheight 
+
+    &>.index {
+        font-variant: small-caps;
+    }
 }
+.citation a { color: $accent }
 
 /*** Pronunciation ***/
 .pronunciation {
@@ -606,9 +599,10 @@ section:has(> h2[id='table-of-contents']) {
   
 /*** Footnotes ***/
 .footnote {
-  font-size: .8125rem;
+  font-size: $font-size-sm;
+
   //letter-spacing: -0.003em;
-  line-height: 18px;
+  //line-height: 18px;
 
   padding: .5em 1em;
   border: 1px lightgray dotted;
@@ -777,23 +771,21 @@ ul.article-list li {
 
 /*! purgecss ignore */
 a[href*="wikipedia.org" i] {
-    &:after {
+    text-decoration-style: dashed;
+    color: $secondary;
+
+    /*
+    &:hover:after {
         content: ' ';
         background-image: url(/fonts/wikipedia-w.svg);
+        color: $accent;
         width: 9px;
         height: 1em;
         display: inline-block;
         background-repeat: no-repeat;
         margin-right: -3px;
-
-        // vertical-align: super;
-        // font-size: .5em;
-        // line-height: 0; // don't let sub/superscript affect line-height
     }
-
-    &:hover:after {
-        color: $accent;
-    }
+    */
 }
 
 .inline-img {
@@ -878,15 +870,7 @@ a .figure-img {
 /* Barcodes */
 *[itemprop="isbn"] {
     font-family: 'ocrb';
-    font-size: 0.9em;
 }
-
-/* Game list stuff */
-/*
-.game-variant {
-     font-style: italic;
-}
-*/
 
 /* Spotify embeds */
 iframe.spotify {

@@ -9,7 +9,7 @@ subgames:
 equipment: Dice
 ---
 
-<span class="aka">Cee-Lo</span> is a gambling game played with three dice. The English name is apparently derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’; Mandarin: {%pronounce lang="cmn-Latn-pinyin" word="sì wǔ liù" pronouncer="MarvinMeow" file="pronunciation_zh_四五六.mp3" %}, Cantonese: {% pronounce lang="yue-Latn-jyutping" word="si3 ng5 luk6" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3" %}, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the highest roll in the game. Some books refer to it as “<span class="aka">Strung Flowers</span>”, another Chinese name for the highest roll.[@Bell p. 145]
+<span class="aka">Cee-Lo</span> is a gambling game played with three dice. The English name is apparently derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’; Mandarin: {%pronounce lang="cmn-Latn-pinyin" word="sì wǔ liù" pronouncer="MarvinMeow" file="pronunciation_zh_四五六.mp3" %}, Cantonese: {% pronounce lang="yue-Latn-jyutping" word="si³ ng⁵ luk⁶" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3" %}, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the highest roll in the game. Some books refer to it as “<span class="aka">Strung Flowers</span>”, another Chinese name for the highest roll.[@Bell p. 145]
 
 In @GamblingGamesOfMalaya [p. 96] the name is given as <span lang="zh" class="aka">六骰</span> (literally ‘six dice’), but with the odd pronunciation “Luk Kow” (the correct Hokkien pronunciation is <span lang="nan-Latn">la̍k tâu</span>). It is possible that the name should be <span lang="zh" class="aka">六九</span> (Hokkien: {%pronounce lang="nan-Latn" word="la̍k káu" pronouncer="690518207" class="aka" file="pronunciation_nan_69.mp3" %}, ‘six nine’); indeed, the game is referred to under the name “<span class="aka">Luk Kow 69</span>” in Brunei gambling law.[@LawsOfBrunei p. 21] I don’t know to what part of the game “69” could refer, but one idea could be the roll {% cdice 6 %}–{% cdice 54 %} read as six–nine.
 
@@ -27,7 +27,7 @@ A **point** is a result of a pair along with any other non-matching number, the 
 
 The traditional method of play is as follows.
 
-One player at a time acts as the banker (<span lang="zh">莊</span>, Cantonese: {% pronounce lang="yue-Latn-jyutping" word="zong1" pronouncer="robertlam88" file="pronunciation_yue_莊.mp3" %}, Hokkien: {% pronounce lang="nan-Latn" word="chong" file="pronunciation_nan_莊.mp3" pronouncer="FlyingBlank" %}, Mandarin: {% pronounce  lang="cmn-Latn" word="zhuāng" pronouncer="Eflong" file="pronunciation_zh_莊.mp3" %}). 
+One player at a time acts as the banker (<span lang="zh">莊</span>, Cantonese: {% pronounce lang="yue-Latn-jyutping" word="zong¹" pronouncer="robertlam88" file="pronunciation_yue_莊.mp3" %}, Hokkien: {% pronounce lang="nan-Latn" word="chong" file="pronunciation_nan_莊.mp3" pronouncer="FlyingBlank" %}, Mandarin: {% pronounce  lang="cmn-Latn" word="zhuāng" pronouncer="Eflong" file="pronunciation_zh_莊.mp3" %}). 
 
 The banker first puts up their stake. Each player in turn then has a chance to _cover_ or _fade_ the banker’s bet, by placing a stake equivalent to some portion of the banker’s bet. The stake that each player places is how much they stand to win or lose on this round. Once the banker’s bet is matched, or each player has had a turn to place a stake, the banker takes back any remaining uncovered bet, and begins the round. Players who did not place any stake will not play in this round.
 
@@ -50,15 +50,15 @@ Chinese Name[@ChineseGames p. 493]
 </th><th>Name in New York</th><th>Roll</th><th>Outcome</th></tr>
 </thead>
 <tbody class="table-group-divider">
-<tr><th scope="row">4–5–6</th><td><span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn-jyutping">si3 ng5 luk6</span><br/><br/><span lang="zh">串花</span> ‘strung flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">cyun3 faa1</span></td><td>Head Crack</td><td>{%cdice 456%}</td><td class="bg-success text-white">Win</td></tr>
-<tr><th scope="row">Triple</th><td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: {% pronounce  lang="yue-Latn-jyutping" word="wai4" pronouncer="cuichungman" file="pronunciation_yue_圍.mp3" %}</td><td>Trips</td><td>{%cdice '==='%}</td><td class="bg-success text-white">Win</td></tr>
+<tr><th scope="row">4–5–6</th><td><span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn-jyutping">si³ ng⁵ luk⁶</span><br/><br/><span lang="zh">串花</span> ‘strung flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">cyun³ faa¹</span></td><td>Head Crack</td><td>{%cdice 456%}</td><td class="bg-success text-white">Win</td></tr>
+<tr><th scope="row">Triple</th><td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: {% pronounce  lang="yue-Latn-jyutping" word="wai⁴" pronouncer="cuichungman" file="pronunciation_yue_圍.mp3" %}</td><td>Trips</td><td>{%cdice '==='%}</td><td class="bg-success text-white">Win</td></tr>
 <tr><th scope="row">6 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==6'%}</td><td class="bg-success text-white">Win</td></tr>
 <tr><th scope="row">5 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==5'%}</td><td>Point of 5</td></tr>
 <tr><th scope="row">4 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==4'%}</td><td>Point of 4</td></tr>
 <tr><th scope="row">3 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==3'%}</td><td>Point of 3</td></tr>
 <tr><th scope="row">2 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==2'%}</td><td>Point of 2</td></tr>
-<tr><th scope="row">1 Point</th><td><span lang="zh">一弗</span> ‘bad one’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat1 fat1</span></td><td>Ace Out</td><td>{%cdice '==1'%}</td><td class="bg-danger text-white">Loss</td></tr>
-<tr><th scope="row">1–2–3</th><td><span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: {% pronounce lang="yue-Latn-jyutping" word="mou5 lung4" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3" %}<br/><br/><span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: {%pronounce lang="yue-Latn-jyutping" word="se4 zai2" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3" %}</td><td></td><td>{%cdice 123%}</td><td class="bg-danger text-white">Loss</td></tr>
+<tr><th scope="row">1 Point</th><td><span lang="zh">一弗</span> ‘bad one’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ fat¹</span></td><td>Ace Out</td><td>{%cdice '==1'%}</td><td class="bg-danger text-white">Loss</td></tr>
+<tr><th scope="row">1–2–3</th><td><span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: {% pronounce lang="yue-Latn-jyutping" word="mou⁵ lung⁴" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3" %}<br/><br/><span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: {%pronounce lang="yue-Latn-jyutping" word="se⁴ zai²" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3" %}</td><td></td><td>{%cdice 123%}</td><td class="bg-danger text-white">Loss</td></tr>
 <tr><th scope="row">Nothing</th><td></td><td></td><td></td><td>Re-roll</td></tr>
 </tbody>
 </table>

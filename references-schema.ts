@@ -15,10 +15,12 @@ type Pagination = string
 
 export type Date
     = number
-    | { year: number }
-    | { year: number, month: number }
-    | { year: number, month: number, day: number }
-    | { year: number, season: string };
+    | (({ year: number }
+        | { year: number, month: number }
+        | { year: number, month: number, day: number }
+        | { year: number, season: string })
+        & { circa?: boolean });
+
 
 const dateSchema: JSONSchemaType<Date> = {
     type: ['integer', 'object'],
@@ -28,7 +30,8 @@ const dateSchema: JSONSchemaType<Date> = {
             type: 'object', properties: {
                 year: { type: 'integer' },
                 month: { type: 'integer' },
-                day: { type: 'integer' }
+                day: { type: 'integer' },
+                circa: { type: 'boolean', nullable: true },
             },
             required: ['year', 'month', 'day'],
             additionalProperties: false
@@ -36,7 +39,8 @@ const dateSchema: JSONSchemaType<Date> = {
         {
             type: 'object', properties: {
                 year: { type: 'integer' },
-                month: { type: 'integer' }
+                month: { type: 'integer' },
+                circa: { type: 'boolean', nullable: true },
             },
             required: ['year', 'month'],
             additionalProperties: false
@@ -44,7 +48,8 @@ const dateSchema: JSONSchemaType<Date> = {
         {
             type: 'object', properties: {
                 year: { type: 'integer' },
-                season: { type: 'string' }
+                season: { type: 'string' },
+                circa: { type: 'boolean', nullable: true },
             },
             required: ['year', 'season'],
             additionalProperties: false
@@ -52,6 +57,7 @@ const dateSchema: JSONSchemaType<Date> = {
         {
             type: 'object', properties: {
                 year: { type: 'integer' },
+                circa: { type: 'boolean', nullable: true },
             },
             required: ['year'],
             additionalProperties: false
@@ -100,7 +106,7 @@ type CommonProps = {
     translator?: Author[]
     title: LStr,
     URL?: string,
-    ['archive-URL']: string,
+    ['archive-URL']?: string,
 
     notes?: string,
     warnings?: string,
@@ -427,14 +433,14 @@ const ajv = new Ajv({ discriminator: true, allowUnionTypes: true, coerceTypes: "
 export const referenceValidator = ajv.compile(bibliographySchema);
 
 export function publicationYear(r: Reference) {
-    const issued = 
+    const issued =
         'issued' in r && r.issued
-        ? r.issued
-        : 'in' in r && r.in.issued
-            ? r.in.issued
-            : 'filed' in r && r.filed
-                ? r.filed
-                : undefined;
+            ? r.issued
+            : 'in' in r && r.in.issued
+                ? r.in.issued
+                : 'filed' in r && r.filed
+                    ? r.filed
+                    : undefined;
 
     if (!issued) {
         return 'n.d.';

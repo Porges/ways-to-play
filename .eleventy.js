@@ -339,9 +339,9 @@ const citationPlugin = () => {
           }
       }
 
-      return `<span class="citation">[<a href="${`#ref-${id}`}">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
+      return `<span class="citation">[<a href="${`#ref-${id}`}" class="index">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
     } else {
-      return `<sup class="citation"><a href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</sup>`;
+      return `<sup class="citation"><a class="index" href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</sup>`;
     }
   };
 
@@ -427,7 +427,7 @@ const citationPlugin = () => {
             tagName: 'ol',
             properties: {
               class: "reference-list",
-              type: "a",
+              type: "A",
             },
             children: cited.map(id => {
               if (!(id in biblio)) {

@@ -1,6 +1,6 @@
 ---
 layout: columned
-title: Welcome
+title: Ways to Play
 ---
 
 Welcome to <cite>Ways to Play</cite>.

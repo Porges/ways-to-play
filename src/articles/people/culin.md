@@ -28,12 +28,12 @@ Culin usually only presents names and terms in their transliterated form. For Ch
 
 In @KoreanGames:
 
-Domino (<span lang="yue">骨牌</span> <span lang="yue-Latn-jyutping">gwat1 paai4</span>) games: 
+Domino (<span lang="yue">骨牌</span> <span lang="yue-Latn-jyutping">gwat¹ paai⁴</span>) games: 
 
-- Tsung shap (dispute for tens): <span lang="yue">訟十</span> <span lang="yue-Latn-jyutping">zung6 sap6</span>
-- K’ím t’ái shap (grasp many tens): <span lang="yue">拑太十</span> <span lang="yue-Latn-jyutping">kim4 taai3 sap6</span>
-    - Ch’í t’ái shap (grasp many tens): <span lang="yue">摯太十</span> <span lang="yue-Latn-jyutping">zi3 taai3 sap6</span>
-    - K’ap t’ái shap (complete many tens) <span lang="yue">及太十</span> <span lang="yue-Latn-jyutping">kap6 taai3 sap6</span>
-- K’ap shap (completing tens) <span lang="yue">及十</span> <span lang="yue-Latn-jyutping">kap6 sap6</span>
-    - K’ím shap (grasping tens): <span lang="yue">拑十</span> <span lang="yue-Latn-jyutping">kim4 sap6</span>
-    - Shap tsai (little tens) <span lang="yue">十仔</span> <span lang="yue-Latn-jyutping">sap6 zai2</span>
+- Tsung shap (dispute for tens): <span lang="yue">訟十</span> <span lang="yue-Latn-jyutping">zung⁶ sap⁶</span>
+- K’ím t’ái shap (grasp many tens): <span lang="yue">拑太十</span> <span lang="yue-Latn-jyutping">kim⁴ taai³ sap⁶</span>
+    - Ch’í t’ái shap (grasp many tens): <span lang="yue">摯太十</span> <span lang="yue-Latn-jyutping">zi³ taai³ sap⁶</span>
+    - K’ap t’ái shap (complete many tens) <span lang="yue">及太十</span> <span lang="yue-Latn-jyutping">kap⁶ taai³ sap⁶</span>
+- K’ap shap (completing tens) <span lang="yue">及十</span> <span lang="yue-Latn-jyutping">kap⁶ sap⁶</span>
+    - K’ím shap (grasping tens): <span lang="yue">拑十</span> <span lang="yue-Latn-jyutping">kim⁴ sap⁶</span>
+    - Shap tsai (little tens) <span lang="yue">十仔</span> <span lang="yue-Latn-jyutping">sap⁶ zai²</span>

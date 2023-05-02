@@ -9,7 +9,7 @@ subgames:
 ---
 
 <p class="lead">
-The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak6 gaap3 piu3" pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" class="aka" %}){%fn%}Other romanizations include <span lang="yue-Latn" class="aka">pak kap piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn" class="aka">pák kòp piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn" class="aka">baahk gáap piu</span>, <span lang="yue-Latn" class="aka">paâk káap p'iu</span>, or <span lang="yue-Latn" class="aka">pai ko p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and this further proves the Cantonese origin of the game (see e.g.  @SparrowAndPigeon, although I find some of his other (original) conclusions to be dubious).{%endfn%} is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
+The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak⁶ gaap³ piu³" pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" class="aka" %}){%fn%}Other romanizations include <span lang="yue-Latn" class="aka">pak kap piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn" class="aka">pák kòp piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn" class="aka">baahk gáap piu</span>, <span lang="yue-Latn" class="aka">paâk káap p'iu</span>, or <span lang="yue-Latn" class="aka">pai ko p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and this further proves the Cantonese origin of the game (see e.g.  @SparrowAndPigeon, although I find some of his other (original) conclusions to be dubious).{%endfn%} is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
 </p>
 
 The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Eventually the game became known under the modern name of Keno, which is now played in casinos around the world.
@@ -65,7 +65,7 @@ game. For one thing, the <cite>Thousand Character Classic</cite> upon which the
 game is based is traditionally dated to the [Liang
 dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 {%ce%}).
 
-The true origin of the game apparently lies in gambling that was carried out as part of the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span lang="yue-Latn-jyutping">baak6 gap3 wui2</span>) which was held in Guangdong.  Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span lang="zh">佛山</span>), and groups of pigeons were numbered using the opening characters from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>).{%fn%}This system of enumeration has also been used to number volumes of books and other objects, including in the instructions for assembly kit-set furniture.[@RepresentingHainingStreet1 p. 53]{%endfn%} Bets were made on which group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the pigeons were dropped entirely and a game was developed based on characters begin drawn at random.
+The true origin of the game apparently lies in gambling that was carried out as part of the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span lang="yue-Latn-jyutping">baak⁶ gap³ wui²</span>) which was held in Guangdong.  Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span lang="zh">佛山</span>), and groups of pigeons were numbered using the opening characters from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>).{%fn%}This system of enumeration has also been used to number volumes of books and other objects, including in the instructions for assembly kit-set furniture.[@RepresentingHainingStreet1 p. 53]{%endfn%} Bets were made on which group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the pigeons were dropped entirely and a game was developed based on characters begin drawn at random.
 
 
 ## Known history
@@ -459,17 +459,7 @@ seems to have been popular in places with goldfields where Chinese men came to
 work in the late 19th century: San Francisco in the USA, British Columbia in
 Canada, Victoria in Australia, and Otago in New Zealand.
 
-Despite the existence of other very similar games in China, such as the
-‘mountain lottery’ (<span lang="zh">山票</span> Mandarin: <span
-lang="cmn-Latn-pinyin">shān piào</span>, Cantonese: <span
-lang="yue-Latn-jyutping">saan1 piu3</span>), the pigeon lottery was the only one
-that was successfully popularized amongst Europeans.[@BettingOnEmpire p. 193]
-Conversely, in countries such as Malaya, where the game was legal during the
-[Japanese
-occupation](https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya)
-(1941–42), the pigeon lottery was apparently never as popular as Chee Fah or
-Chee Tam (games based upon selecting one out of 36 or 80 characters,
-respectively).[@GamblingGamesOfMalaya p. 48]
+Despite the existence of other very similar games in China, such as the ‘mountain lottery’ (<span lang="zh">山票</span> Mandarin: <span lang="cmn-Latn-pinyin">shān piào</span>, Cantonese: <span lang="yue-Latn-jyutping">saan¹ piu³</span>), the pigeon lottery was the only one that was successfully popularized amongst Europeans.[@BettingOnEmpire p. 193] Conversely, in countries such as Malaya, where the game was legal during the [Japanese occupation](https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya) (1941–42), the pigeon lottery was apparently never as popular as Chee Fah or Chee Tam (games based upon selecting one out of 36 or 80 characters, respectively).[@GamblingGamesOfMalaya p. 48]
 
 ### In the United States
 
@@ -502,14 +492,7 @@ Qichao</span>](https://en.wikipedia.org/wiki/Liang_Qichao) (<span lang="zh">梁�
 1903, claimed that almost every Chinese family was involved with gambling in
 some way.[@BettingOnEmpire p. 191]
 
-According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 four banks were
-operating in Philadelphia{%fn%}He provides the names “Extensive Increase” (<span
-lang="yue">廣泰</span> <span lang="yue-Latn-jyutping">gwong2 taai3</span>), “Heavenly
-Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn-jyutping">tin1 wo4</span>),
-“Fortunate Increase” (<span lang="yue">福泰</span> <span lang="yue-Latn-jyutping">fuk1
-taai3</span>), and “Encouraging Fountain” (<span lang="yue">釗泉</span> <span
-lang="yue-Latn-jyutping">ciu1 cyun4</span>).{%endfn%} and five in New York, along with
-others in Boston and Chicago.
+According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 four banks were operating in Philadelphia{%fn%}He provides the names “Extensive Increase” (<span lang="yue">廣泰</span> <span lang="yue-Latn-jyutping">gwong² taai³</span>), “Heavenly Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn-jyutping">tin¹ wo⁴</span>), “Fortunate Increase” (<span lang="yue">福泰</span> <span lang="yue-Latn-jyutping">fuk¹ taai³</span>), and “Encouraging Fountain” (<span lang="yue">釗泉</span> <span lang="yue-Latn-jyutping">ciu¹ cyun⁴</span>).{%endfn%} and five in New York, along with others in Boston and Chicago.
 
 There were ten Chinese lottery banks operating in San Francisco in
 1890,[@FoolsOfFortuneOrGamblingAndGamblers p. 450] and by 1892 the same number

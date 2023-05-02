@@ -6,6 +6,10 @@ equipment: Table
 ---
 
 
+{% image src="backgammon.svg" alt="" %}
+The initial board setup.
+{% imageEnd %}
+
 Ref:
 - @OxfordBG
 - @Falkener [p. 254]

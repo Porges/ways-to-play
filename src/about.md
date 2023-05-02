@@ -84,9 +84,13 @@ BY](http://creativecommons.org/licenses/by/3.0/).
 
 The site is generated with [Eleventy](https://www.11ty.dev/), with a bunch of custom code!
 
+The main font used is the [Brill typeface v4.0](https://brill.com/page/BrillFont/brill-typeface), which is free for non-commercial use.
+
+<!--
 The main fonts are [Inter by Rasmus Andersson](https://rsms.me/inter/) (body text),
 [Fira GO](https://bboxtype.com/typefaces/FiraGO) (body italics), and
 [Vollkorn by Friedrich Althausen](http://vollkorn-typeface.com/) (headings).
+-->
 
 [UniHentaiKana](https://wakufactory.jp/densho/font/hentai/) is used as a
 fallback font for <span lang="ja-Latn">hentaigana</span> characters. It is

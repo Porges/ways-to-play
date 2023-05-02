@@ -46,16 +46,7 @@ next player in an anti-clockwise direction.
 On a player’s turn they draw one card, and then — unless they have won the
 game by completing their hand — they discard one. 
 
-The goal of the game is to form a complete hand of 12 tiles, comprising four
-sets of three. A set is called a **<span lang="th-Latn">tong</span>** (<span
-lang="th">ตอง</span>), and comprises three cards of the same rank.{%fn%}This
-term — possibly derived from the Chinese <span lang="zh">同</span> (Mandarin:
-<span lang="cmn-Latn-pinyin">tóng</span>, Cantonese: <span
-lang="yue-Latn-jyutping">tung4</span>) ‘same; identical’ — is also used in other
-card games to describe a triplet, or a number with three identical
-digits.{%endfn%} For the purposes of forming sets, all the honour cards are
-considered to be of the same rank, so a set can be made of three different
-honour cards.
+The goal of the game is to form a complete hand of 12 tiles, comprising four sets of three. A set is called a **<span lang="th-Latn">tong</span>** (<span lang="th">ตอง</span>), and comprises three cards of the same rank.{%fn%}This term — possibly derived from the Chinese <span lang="zh">同</span> (Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>, Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.{%endfn%} For the purposes of forming sets, all the honour cards are considered to be of the same rank, so a set can be made of three different honour cards.
 
 Instead of taking from the draw pile, a player may also take the previous
 player’s discard, if they can form a <span lang="th-Latn">tong</span> using it.

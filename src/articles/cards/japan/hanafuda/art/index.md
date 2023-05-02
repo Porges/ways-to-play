@@ -952,20 +952,9 @@ The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <span clas
 
 ### <span class="noun" lang="ja-Latn">Dairen-bana</span>
 
-<span class="noun" lang="ja-Latn">Dairen-bana</span> (<span lang="ja-Latn">大連花</span>) is
-an extinct regional pattern from the city of [<span class="noun"
-lang="cmn-Latn-pinyin">Dalian</span>](https://en.wikipedia.org/wiki/Dalian) (<span
-lang="zh">大连市</span>) in China. It dates from the era of the [Kwangtung
-Leased Territory](https://en.wikipedia.org/wiki/Kwantung_Leased_Territory), when
-Japan occupied the region from 1905 until the end of WWII. The pattern possibly
-existed as a way to reduce government taxation on cards, as cards sold in
-occupied regions did not attract the same level of tax as those sold within
-Japan’s own islands.
+<span class="noun" lang="ja-Latn">Dairen-bana</span> (<span lang="ja">大連花</span>) is an extinct regional pattern from the city of [<span class="noun" lang="cmn-Latn-pinyin">Dalian</span>](https://en.wikipedia.org/wiki/Dalian) (<span lang="zh">大连市</span>) in China. It dates from the era of the [Kwangtung Leased Territory](https://en.wikipedia.org/wiki/Kwantung_Leased_Territory), when Japan occupied the region from 1905 until the end of WWII. The pattern possibly existed as a way to reduce government taxation on cards, as cards sold in occupied regions did not attract the same level of tax as those sold within Japan’s own islands.
 
-The main distinguishing feature of the pattern is that each type of <span
-lang="ja-Latn">tanzaku</span> card has a unique background pattern (as opposed to
-the usual ‘confetti’). The remainder of the cards follow the standard pattern
-very closely.
+The main distinguishing feature of the pattern is that each type of <span lang="ja-Latn">tanzaku</span> card has a unique background pattern (as opposed to the usual ‘confetti’). The remainder of the cards follow the standard pattern very closely.
 
 {% image
     src="dairenbana.jpg"

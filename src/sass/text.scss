@@ -96,12 +96,10 @@ span:is( // Italicize all *-Latn languages:
   [lang|=yo],
   /* Yoruba */
   [lang|=zu] // isiZulu
-):not(h1 span, h2 span, h3 span, h4 span, h5 span, h6 span
-  /* except in headings */
 ):not(.noun
   /* present proper nouns upright as there is no need to distinguish from surrounding text */
 ) {
-  @include italic-font;
+  font-style: italic;
 }
 
 body {
@@ -117,39 +115,6 @@ body {
 rt {
   // why is this not on by default!
   font-variant-east-asian: ruby;
-}
-
-/* Override fonts for specific languages.
-  We cannot simply list these in the font-family list as
-  that will forcibly choose the first one that matches. */
-
-:lang(ja):not(:lang(ja-Latn)):not(h1 *, h2 *, h3 *, h4 *, h5 *, h6 *) {
-  font-family:
-    "Yu Gothic", // Japanese: Windows font, prefer this to Meiryo which is default otherwise
-    sans-serif,
-    "UniHentaiKana"; // fallback for Hentaigana chars
-}
-
-/* Default Thai font on Windows is a bit heavy */
-:lang(th):not(:lang(th-Latn)):not(h1 *, h2 *, h3 *, h4 *, h5 *, h6 *) {
-  font-family: "Leelawadee UI", sans-serif;
-}
-
-// Raise numbers in Cantonese and Teochew pronunciation guides
-:lang(yue-Latn), :lang(tws-Latn) {
-  font-feature-settings: "sups";
-}
-
-/* For Chinese, the Windows defaults are ok:
-  zh: YaHei
-  zh-Hans: YaHei
-  zh-Hant: JhengHei
-  nan: JhengHei
-  yue: JhengHei
-*/
-
-cite {
-  @include italic-font;
 }
 
 /* Work titles in non-Latin languages should be upright, not italic: */
@@ -203,15 +168,6 @@ cite:lang(fa):not(:lang(fa-Latn)) {
 
 .playing-cards {
   font-family: "NKD04";
-
-  /* this font looks disproportionate so scale it down */
-  font-size: 0.8em;
-  vertical-align: middle;
-}
-
-figcaption .playing-cards {
-  /* fix alignment in captions… */
-  vertical-align: text-top;
 }
 
 .red {

@@ -140,11 +140,13 @@ NineMensDice:
       given: Ulrich
   page: 112-116
   URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf
-  in:
+  in: &bgs3
     title: Board Games Studies
     volume: 3
     issued:
       year: 2000
+    publisher: Research School CNWS
+    publisher-place: Leiden, Netherlands
 FalkenerReview:
   type: article-journal
   title: Falkener’s <cite>Ancient Games</cite>
@@ -4636,6 +4638,7 @@ alQamus:
         lang: ar-Latn
   issued:
     year: 1414
+    circa: true
   notes: Published 1350–1450?
   URL: https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r
 GamblingInIslam:
@@ -8499,3 +8502,70 @@ MUMagazine:
     issued: 1835
     publisher: “Mofussilite” Press
     publisher-place: Calcutta?, India
+TurkishEnglishLexicon:
+  type: book
+  title: A Turkish and English Lexicon
+  author:
+  - given: James W.
+    family: Redhouse
+  publisher-place: Constantinople, Turkey
+  publisher: A. H. Boyajian
+  issued: 1890
+  URL: https://archive.org/details/ATurkishAndEnglishLexicon
+JeuxDeParcours:
+  type: article-journal
+  title: 
+    value: Jeux de parcours du monde arabo-musulman (Afrique du Nord et Proche-Orient)
+    lang: fr
+  author:
+  - given: Thierry
+    family: Depaulis
+  URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf
+  page: 53–76
+  in: &bgs4
+    title: Board Games Studies
+    volume: 4
+    issued: 2001
+    publisher: Research School CNWS
+    publisher-place: Leiden, Netherlands
+DoubleSixes:
+  type: chapter
+  title: 'Double Sixes, Holding Spears, and the Long March: Games of the Backgammon Family in China'
+  author:
+  - given: Andrew
+    family: Lo
+  page: 97–103
+  in: *asianGames
+TangGuoshiBu:
+  type: book
+  title:
+    value: 唐國史補
+    lang: zh
+    alt: Supplement to the History of the Tang Dynasty
+  volume: 3
+  volume-title:
+    value: 卷下
+    lang: zh
+  author:
+  - given: 肇
+    family: 李
+    lang: zh
+    alt: <span lang="zh-Latn">Lǐ Zhào</span>
+  issued: 
+    year: 800
+    circa: true
+  URL: https://ctext.org/wiki.pl?if=en&res=311175
+GamesOfMongolianShepherds:
+  type: book
+  title: Games of Mongolian Shepherds
+  author:
+  - given: Iwona
+    family: Kabzińska-Stawarz
+    lang: pl
+  ISBN: 838546302X
+  publisher: Institute of the History of Material Culture, Polish Academy of Sciences
+  publisher-place: Warsaw, Poland
+  issued: 1991
+  series: 
+    title: The Library of Polish Ethnography
+    number: 45

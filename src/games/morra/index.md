@@ -29,7 +29,7 @@ See: @FriendshipAndGamesItalian, @OneToZero [p. 67–70].
 https://www.britishmuseum.org/collection/object/P_1949-0203-263
 https://www.britishmuseum.org/collection/object/P_1865-0610-1320
 
-Called <span lang="yue" class="aka">猜枚</span> <span lang="yue-Latn-jyutping" class="aka">caai1 mui4-2</span>[@TipcatAndOtherChineseGames] or <span lang="yue" class="aka">猜碼</span> <span class="aka" lang="yue-Latn-jyutping">caai1 maa5</span> {https://studycli.org/chinese-culture/a-fun-chinese-game/} in Cantonese. A variant using two hands where a hand can only be open or shut is also called “15,20”, or “15,15,…” <span lang="zh" class="aka">十五二十</span>, and the player must guess correctly twice.{https://studycli.org/learn-chinese/chinese-games-shiwu-shiwu/}
+Called <span lang="yue" class="aka">猜枚</span> <span lang="yue-Latn-jyutping" class="aka">caai¹ mu⁴⁻²</span>[@TipcatAndOtherChineseGames] or <span lang="yue" class="aka">猜碼</span> <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span> {https://studycli.org/chinese-culture/a-fun-chinese-game/} in Cantonese. A variant using two hands where a hand can only be open or shut is also called “15,20”, or “15,15,…” <span lang="zh" class="aka">十五二十</span>, and the player must guess correctly twice.{https://studycli.org/learn-chinese/chinese-games-shiwu-shiwu/}
 
 In 1900 the game was semi-banned:
 

@@ -12,7 +12,7 @@ subgames:
 
 <p class="lead"><span lang="fil" class="noun aka">Prinola</span> is a {%a staking-games,simple staking game%} that used to be played in the Philippines. The name is derived from the Spanish <span lang="es">pirinola</span>, a spinning-top or teetotum.</p>
 
-The only source I have found for the game is that of Stewart Culin. He also says the same game is played in China under the name <span lang="yue" class="aka">車咩</span> (‘teetotum’, Cantonese: <span lang="yue-Latn-jyutping" class="aka">ce1 me1</span>).[@ChineseGames p. 496]{%fn%}Culin transliterates this as <span lang="yue-Latn" class="aka">ch’é mé</span>.{%endfn%}
+The only source I have found for the game is that of Stewart Culin. He also says the same game is played in China under the name <span lang="yue" class="aka">車咩</span> (‘teetotum’, Cantonese: <span lang="yue-Latn-jyutping" class="aka">ce¹ me¹</span>).[@ChineseGames p. 496]{%fn%}Culin transliterates this as <span lang="yue-Latn" class="aka">ch’é mé</span>.{%endfn%}
 
 ### Equipment
 

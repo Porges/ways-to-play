@@ -253,7 +253,9 @@ const renderDate = (reference: Reference) => {
 
         const year = typeof issued === 'number' ? issued : issued.year;
 
-        return `(<time itemprop="datePublished" dateTime="${toIsoDate(issued)}">${year}</time>${original}). `;
+        const circa = typeof issued === 'number' ? '' : (issued.circa ? '<abbr title="circa">c.</abbr> ' : '');
+
+        return `(<time itemprop="datePublished" dateTime="${toIsoDate(issued)}">${circa}${year}</time>${original}). `;
     }
 
     // patents might only have been filed

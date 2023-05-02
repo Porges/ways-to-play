@@ -53,6 +53,8 @@ or <i>saddeh</i> refer to simple mills, not the ‘running mill’ formation.
 two articles by Goddard, <cite r="Goddard1901" inline /> has no reference to Trique.</p>
 -->
 
+<strong>§3.5.13</strong> (p. 94): Murray mistakenly suggests that <span lang="ms">tjeki</span> (i.e. {%a ceki%}) is the same as the game <span lang="ms">chuki</span>
+
 ### “Books and articles consulted”
 
-pg. 244: All of Hem Chandra Das-Gupta’s articles have incorrect titles.
+pg. 244: All of Hem Chandra Das-Gupta’s articles have incorrect titles. Possibly they were published under different names at some point?

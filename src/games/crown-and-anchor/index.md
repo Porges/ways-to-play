@@ -141,7 +141,7 @@ when British and Australian troops fought alongside American volunteers. It was
 possibly transmitted from American troops at this time. [Sir Bertram Fox
 Hayes](https://en.wikipedia.org/wiki/Bertram_Fox_Hayes) describes the game being
 played aboard his ship,{%fn%}The SS
-[<cite>Britannic</cite>](https://en.wikipedia.org/wiki/SS_Britannic_(1874)).{%endfn%}
+[<cite>Britannic</cite>.](https://en.wikipedia.org/wiki/SS_Britannic_(1874)){%endfn%}
 while transporting troops to South Africa.[@HullDown p. 103]  In 1900, the game
 is recorded as having been played by English <abbr class="initialism"
 title="prisoners of war">POW</abbr>s at the
@@ -360,7 +360,7 @@ An equivalent (perhaps older) game can be played with three standard six-sided d
 
 #### ‘Grasping Eight’
 
-Culin[@ChineseGames p. 495–6] describes a very similar game that he calls “<span class="aka">Grasping Eight</span>” (<span lang="yue" class="aka">八㪥</span>, Cantonese: <span lang="yue-Latn-jyutping" class="aka">baat3 zaa1</span>),{%fn%}Culin transcribes this as <span lang="yue-Latn" class="aka">pát chá</span>.{%endfn%} which uses eight dice.
+Culin[@ChineseGames p. 495–6] describes a very similar game that he calls “<span class="aka">Grasping Eight</span>” (<span lang="yue" class="aka">八㪥</span>, Cantonese: <span lang="yue-Latn-jyutping" class="aka">baat³ zaa¹</span>),{%fn%}Culin transcribes this as <span lang="yue-Latn" class="aka">pát chá</span>.{%endfn%} which uses eight dice.
 
 The staking board contains the six squares with the dice symbols {%cdice 123456%}, and players place their stakes on the squares. The eight dice are rolled. If at least three match a number, the players who staked on that number win 8×; if at least six match, they win 16×. All other stakes are lost.
 
@@ -608,7 +608,7 @@ A Balinese game played without imagery.
 
 ### West Indies
 
-The game was probably played throughout the British West Indies; there are records of it from Trinidad,[@SportsAndPastimesInTheWestIndies p. 692], Antigua, Jamaica, and Bermuda.[@CelebratingCricket pp. 622–3]
+The game was probably played throughout the British West Indies; there are records of it from Trinidad,[@SportsAndPastimesInTheWestIndies p. 692] Antigua, Jamaica, and Bermuda.[@CelebratingCricket pp. 622–3]
 
 The game is still played today in Jamaica.
 
