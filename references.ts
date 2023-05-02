@@ -265,7 +265,7 @@ const renderDate = (reference: Reference) => {
         return `(<time itemprop="datePublished" dateTime="${toIsoDate(filed)}">${year}</time>). `;
     }
 
-    return 'n.d. ';
+    return '(n.d.). ';
 }
 
 function toIsoDate(ymd: Date) {
@@ -321,7 +321,7 @@ function renderPeriodical(id: string, p: Periodical): string {
     let datePart = '';
     if (typeof p.issued === 'object' && 'month' in p.issued) {
         const dateString = renderExplicitDate(p.issued, true);
-        datePart = ifSet(dateString, `; <time itemprop="datePublished" dateTime="${toIsoDate(p.issued)}">${dateString}</time>`);
+        datePart = ifSet(dateString, `, <time itemprop="datePublished" dateTime="${toIsoDate(p.issued)}">${dateString}</time>`);
     }
 
     if (p.issue && p.volume) {

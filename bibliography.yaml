@@ -2506,14 +2506,18 @@ SkeatTitTatTo:
       day: 9
 Koolman:
   type: book
-  title: Wörterbuch der Ostfriesischen Sprache (Dritter Band, Q–Z)
+  title:
+    value: Wörterbuch der Ostfriesischen Sprache
+    lang: de
+  volume: 3
+  volume-title: Q–Z
   author:
     - given: Jan ten
       family: Doornkaat Koolman
   issued:
     year: 1889
-  publisher: Norden
-  publisher-place: Herm. Braams
+  publisher-place: Norden, Germany
+  publisher: Herm. Braams
   URL: https://archive.org/details/wrterbuchderos03dooruoft
 LancasterianSystem:
   type: article-journal
@@ -7197,7 +7201,7 @@ Rider1640:
   type: book
   title: Riders Dictionarie Corrected and Augmented with the addition of many
     hundred Words both out of the Law, and out of the Latine, French, and other
-    Languages, ſuch as were and are with us in common uſe, but never pritned
+    Languages, ſuch as were and are with us in common uſe, but never printed
     till now, to the perfecting of the worke
   URL: https://books.google.co.nz/books?id=lkJJAAAAcAAJ
   author:
@@ -7941,6 +7945,8 @@ GoldenOpportunity:
   author:
     - given: Tatsufumi
       family: Yamazaki
+      lang: ja-Latn
+      alt: <span lang="ja">山崎 達文</span>
   page: 2–22
 OverseasChineseNZ:
   type: book
