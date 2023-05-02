@@ -10,8 +10,10 @@ subgames:
   originalTitle: <span lang="zh">水淹和尚</span>
 ---
 
+<p class="lead">
 Sixteen Soldiers (<span lang="ja">十六武蔵</span> <span lang="ja-Latn">jūroku
 musashi</span>) is an asymmetric capturing game from Japan.
+</p>
 
 {% image 
     size="wide"
@@ -71,7 +73,7 @@ Gahō</span> in 1909.
 Initial setup of the Chinese board.
 {% imageEnd %}
 
-In China the game is called “Sixteen pursue the general” (<span lang="zh">十六趕將軍</span>, Mandarin: {%pronounce lang="cmn-Latn-pinyin" word="Shí liù gǎn jiāng jūn" file="pronunciation_zh_十六趕將軍.mp3" pronouncer="j10oyc24e" %}, Cantonese: <span lang="yue-Latn-jyutping">sap⁶ luk⁶ gon² zoeng¹ gwan¹</span>).[@Himly p.  469][@CulinChess p. 874]{%fn%}In older works this is transliterated <span lang="yue-Latn">Shap luk kong tséung kwan</span> or <span lang="yue-Latn">Šĭ liu kan tsiang kün</span>.{%endfn%}
+In China the game is called “Sixteen pursue the general” (<span lang="zh" class="aka">十六趕將軍</span>, Mandarin: {%pronounce lang="cmn-Latn-pinyin" word="Shí liù gǎn jiāng jūn" class="aka" file="pronunciation_zh_十六趕將軍.mp3" pronouncer="j10oyc24e" %}, Cantonese: <span lang="yue-Latn-jyutping" class="aka">sap⁶ luk⁶ gon² zoeng¹ gwan¹</span>).[@Himly p.  469][@CulinChess p. 874]{%fn%}In older works this is transliterated <span lang="yue-Latn" class="aka">Shap luk kong tséung kwan</span> or <span lang="cmn-Latn" class="aka">Šĭ liu kan tsiang kün</span>.{%endfn%}
 
 The rules of the game are the same as the Japanese version, but it is played on
 a slightly different board, with a different extension and 29 points.
@@ -82,12 +84,7 @@ a slightly different board, with a different extension and 29 points.
 Initial setup of the Sichuan/Tibetan board.
 {% imageEnd %}
 
-This version, called “Water Drowns the Monk” (<span lang="zh">水淹和尚</span>,
-Mandarin: <span lang="cmn-Latn-pinyin">Shuǐ yān héshàng</span>) was reported to
-be played by shepherds in Sichuan and Tibet (which share a border). The “water” player has 15 pieces
-and the “monk” player has one. Entering the monk between two water pieces to
-remove them was termed “carrying water”. The goal of the water player was to
-drive the monk into the “monastery” extension and pin them there.[@DieFandse p. 168]
+This version, called “Water Drowns the Monk” (<span lang="zh" class="aka">水淹和尚</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">Shuǐ yān héshàng</span>) was reported to be played by shepherds in Sichuan and Tibet (which share a border). The “water” player has 15 pieces and the “monk” player has one. Entering the monk between two water pieces to remove them was termed “carrying water”. The goal of the water player was to drive the monk into the “monastery” extension and pin them there.[@DieFandse p. 168]
 
 ## See also
 
