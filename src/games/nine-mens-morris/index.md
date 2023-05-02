@@ -85,10 +85,7 @@ A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
   licenseVersion="2.0"
   originalUrl="https://www.flickr.com/photos/dandiffendale/8238351242/" %}
 
-A board carved on the capital of the Athenian trophy (or tropaion, <span
-lang="el">τρόπαιον</span>) from Marathon, which was constructed some time after 490 {%bce%}
-but destroyed at a later date. An image of the board carved on the decapitated
-capital <span lang="la">in situ</span> can be seen in @MarathonMonument [plate 32].
+A board carved on the capital of the Athenian trophy (or tropaion, <span lang="el">τρόπαιον</span>) from Marathon, which was constructed some time after 490 {%bce%} but destroyed at a later date. An image of the board carved on the decapitated capital <span lang="la">in situ</span> can be seen in @MarathonMonument [plate 32].
 
 {% imageEnd %}
 
@@ -526,9 +523,7 @@ interpretation disagrees with previous interpretations given in @Murray2 and
 
 1. During the placement phase, no mills may be made.
 2. During the movement phase, each player rolls three dice before moving a
-   piece. If they roll any of the special rolls 6–5–4, 6–3–3, 5–2–2, or 4–1–1,
-   they may ‘fly’ a piece from anywhere on the board to complete a mill (or two
-   mills). For any other result, the player moves as normal. 
+   piece. If they roll any of the special rolls {% dice 654 %}, {% dice 633 %}, {%dice 522 %}, or {% dice 411 %}, they may ‘fly’ a piece from anywhere on the board to complete a mill (or two mills). For any other result, the player moves as normal. 
 
 
 ### Lasker Morris

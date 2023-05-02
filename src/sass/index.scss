@@ -726,7 +726,8 @@ TODO
 
 /*** Abbreviations ***/
 abbr.initialism {
-    font-variant: small-caps;
+    font-variant: all-small-caps;
+    font-size: inherit; // override Bootstrap
 }
 
 .smallcaps {
