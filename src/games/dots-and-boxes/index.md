@@ -6,12 +6,11 @@ draft: true
 equipment: Pencil and paper
 ---
 
-Also called simply “Boxes” or “Dot-Boxes”[@LondonStreetGames p. 134] or
-“Dots”[@LondonStreetGames p. 134].
+<span class="aka">Dots and Boxes</span> is also referred to as simply “<span class="aka">Dots</span>”, “<span class="aka">Boxes</span>”, or “<span class="aka">Dot-Boxes</span>”.[@LondonStreetGames p. 134]
+
+This well-known game was invented in 1889 by the French mathematician <a lang="fr" class="noun" href="https://en.wikipedia.org/wiki/%C3%89douard_Lucas">Édouard Lucas</a>, and was at first named <span lang="fr" class="aka">La Pipopipette</span>.
 
 Ref: [@OxfordBG p. 182] [@NewRules p. 134], *L’arithmétique amusante*.
 
-Invented in 1889 by French mathematician François Édouard Anatole Lucas, and
-first named <span lang="fr">La Pipopipette</span>.
 
 Mentioned as being played with chalk by @LondonStreetGames [p. 134].

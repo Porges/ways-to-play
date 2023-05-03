@@ -81,9 +81,6 @@ Ref: [@Bell, p. 137]
 
 Ref: [@Bell, p. 137]
 
-### Ship, Captain, Mate, and Crew
-
-Ref: [@Bell, p. 138]
 
 ### Sequences
 

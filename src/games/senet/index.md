@@ -58,7 +58,7 @@ Khety was Baqet III’s son.
 A painting from Queen Nefertari’s tomb, depicting her playing Senet, <abbr title="circa">ca.</abbr> 1279–1213 {%bce%}. Tomb 66 in the Valley of the Queens (QV66).
 {%imageEnd%}
 
-# General References
+## General References
 
 Ref: [@OxfordBG p. 66] [@Falkener p. 71] [@Bell p. 26] [@Murray2 §2.1.1, p. 13, §2.1.7, p. 17]
 

@@ -126,6 +126,8 @@ type Series = {
     title: LStr,
     volume?: number,
     number?: number,
+    URL?: string,
+    ISSN?: string,
 }
 
 const seriesSchema: JSONSchemaType<Series> = {
@@ -134,6 +136,8 @@ const seriesSchema: JSONSchemaType<Series> = {
         title: lstrSchema,
         volume: { type: "integer", nullable: true },
         number: { type: "integer", nullable: true },
+        URL: { type: "string", nullable: true },
+        ISSN: { type: "string", nullable: true },
     },
     required: ['title'],
     additionalProperties: false

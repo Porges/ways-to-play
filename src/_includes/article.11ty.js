@@ -120,6 +120,7 @@ exports.render = async function (data) {
         </div>
     </div>
 </article>`
+        + giscusCode
         + ifSet(childArticles, childArticles)
         + '<div class="container-fluid mt-5 prev-next-container">'
         + '<nav aria-label="Nearby Articles" class="border-bottom border-top border-light row">'
@@ -133,6 +134,32 @@ exports.render = async function (data) {
         + '</nav>'
         + '</div>';
 }
+
+const giscusCode = `<div class="container">
+<div class="col">
+<div class="row">
+<div class="col-lg-7 offset-lg-1">
+<h2>Comments</h2>
+<script src="https://giscus.app/client.js"
+    data-repo="Porges/ways-to-play"
+    data-repo-id="MDEwOlJlcG9zaXRvcnk3NjgyOTIyMQ=="
+    data-category="General"
+    data-category-id="DIC_kwDOBJRSJc4B_EcS"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="0"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+</script>
+</div>
+</div>
+</div>
+</div>`;
 
 function makeBreadCrumbs(me, data) {
     const crumbs = me.eleventyNavigationBreadcrumb(data.collections.all, data.eleventyNavigation.key);

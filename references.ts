@@ -78,10 +78,22 @@ function renderSeries(ref: Reference, lead: string, trail: string) {
     }
 
     const s = ref.series;
+
+    let title = renderLStr(s.title, 'span', {itemprop: 'name'});
+    
+    if (s.URL) {
+        title = `<a href="${s.URL}" itemprop="url">${title}</a>`;
+    }
+
     return lead
-        + s.title
-        + ifSet(s.volume, v => `: volume ${v}`)
-        + ifSet(s.number, n => `, number ${n}`)
+        + `<span itemscope itemtype="https://schema.org/BookSeries" itemprop="isPartOf">`
+        + title
+        + ifSet(s.ISSN, i => ` (<abbr class="initialism">ISSN</abbr> <span itemprop="issn">${i}</span>)`)
+        + [
+         ifSet(s.volume, v => ` volume ${v}`),
+         ifSet(s.number, n => ` number ${n}`)
+        ].filter(x => x).join(', ') 
+        + '</span>'
         + trail;
 }
 

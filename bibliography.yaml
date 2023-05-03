@@ -8299,11 +8299,28 @@ MalayEnglishWilkinson:
   publisher: Kelly & Walsh
   publisher-place: Singapore
   issued: 1901
+CountyFolklore5:
+  type: book
+  title: County Folk-Lore
+  volume: 5
+  volume-title: "Printed Extracts No. VII: Examples of Printed Folk-Lore Concerning Lincolnshire"
+  editor:
+  - given: Eliza
+    family: Gutch
+  - given: Mabel
+    family: Peacock
+  issued: 1908
+  URL: https://archive.org/details/dli.granth.88094
+  publisher: David Nutt
+  publisher-place: London
+  series:
+    title: Publications of the Folk-Lore Society
+    volume: 62
 CountyFolklore6:
   type: book
   title: County Folk-Lore
   volume: 6
-  volume-title: Examples of Printed Folk-Lore Concerning the East Riding of Yorkshire
+  volume-title: "Printed Extracts No. VIII: Examples of Printed Folk-Lore Concerning the East Riding of Yorkshire"
   editor:
     - given: Eliza
       family: Gutch
@@ -8311,6 +8328,9 @@ CountyFolklore6:
   URL: https://archive.org/details/countyfolklore06folkuoft
   publisher: David Nutt
   publisher-place: London
+  series:
+    title: Publications of the Folk-Lore Society
+    volume: 69
 LuckyAdditional:
   type: article-journal
   title: "Lucky: Additional Reflections on a Native Card Game in New Guinea"
@@ -8576,3 +8596,240 @@ GamesOfMongolianShepherds:
   series: 
     title: The Library of Polish Ethnography
     number: 45
+HistoryOfTab:
+  type: article-journal
+  URL: https://doi.org/10.1086/690502
+  title: "The History and Distribution of <span lang='ar-Latn'>ṭāb</span>: A Survey of Petra’s Gaming Boards"
+  author:
+  - given: Alex
+    family: de Voogt
+  - given: Ahmad B. A.
+    family: Hassanat
+  - given: Mahmoud B.
+    family: Alhasanat
+  page: 93-101
+  in:
+    title: Journal of Near Eastern Studies
+    volume: 76
+    issue: 1
+    issued:
+      month: 4
+      year: 2017
+ComputerizingTab:
+  type: article-journal
+  URL: http://doi.org/10.4018/IJGCMS.2018070102
+  title: On Computerizing the Ancient Game of Ṭāb
+  page: 20-40
+  author:
+  - given: Ahmad B.
+    family: Hassanat
+  - given: Ghada
+    family: Altarawneh
+  - given: Ahmad S.
+    family: Tarawneh
+  - given: Hossam
+    family: Faris
+  - given: Mahmoud B.
+    family: Alhasanat
+  - given: Alex
+    family: de Voogt
+  - given: Baker
+    family: Al-Rawashdeh
+  - given: Mohammed
+    family: Alshamaileh
+  - given: Surya V. B.
+    family: Prasath
+  in: 
+    title: International Journal of Gaming and Computer-Mediated Simulations
+    volume: 10
+    issue: 3
+    issued: 2008
+ShiwuShiwu:
+  type: webpage
+  title: "Chinese Games: 十五十五二十！ a.k.a. 15-15-20!"
+  container-title: Study CLI
+  author:
+  - given: The CLI Team
+  issued:
+    year: 2021
+    month: 7
+    day: 1
+  URL: https://studycli.org/learn-chinese/chinese-games-shiwu-shiwu/
+  archive-URL: https://web.archive.org/web/20230502223525/https://studycli.org/learn-chinese/chinese-games-shiwu-shiwu/
+AFunSouthernChineseGame:
+  type: webpage
+  title: "A Fun Southern Chinese Game: 猜码 Cāimǎ"
+  container-title: Study CLI
+  author:
+  - given: The CLI Team
+  issued:
+    year: 2021
+    month: 7
+    day: 1
+  URL: https://studycli.org/chinese-culture/a-fun-chinese-game/
+  archive-URL: https://web.archive.org/web/20230502223604/https://studycli.org/chinese-culture/a-fun-chinese-game/
+PersonalLuck:
+  type: chapter
+  title: "Personal Luck: Why Premodern China—Probably— Did Not Develop Probalistic Thinking"
+  author:
+  - given: Mark
+    family: Elvin
+  page: 400-468
+  URL: https://doi.org/10.1163/ej.9789004185265.i-566.112
+  in:
+    title: "Concepts of Nature: A Chinese-European Cross-Cultural Perspective"
+    ISBN: 9789004187511
+    publisher: Brill
+    URL: https://doi.org/10.1163/ej.9789004185265.i-566
+    editor:
+    - family: Vogel
+      given: Hans Ulrich
+    - family: Dux
+      given: Günter
+    issued:
+      year: 2010
+      month: 8
+      day: 13
+    series:
+      title: Conceptual History and Chinese Linguistics
+      volume: 1
+      URL: https://brill.com/view/serial/CHCL
+HowToQuantify:
+  type: chapter
+  title: How to Quantify the Value of Domino Combinations? Divination and Shifting Rationalities in Late Imperial China
+  author:
+  - given: Andrea
+    family: Bréard
+  page: 499-529
+  URL: https://doi.org/10.1163/9789004356788_020
+  in:
+    title: "Coping with the Future: Theories and Practices of Divination in East Asia"
+    ISBN: 9789004356788
+    URL: https://doi.org/10.1163/9789004356788
+    publisher: Brill
+    editor:
+    - given: Michael
+      family: Lackner
+    issued:
+      year: 2018
+      month: 6
+      day: 12
+    series:
+      title: Sinica Leidensia
+      volume: 138
+      URL: https://brill.com/display/serial/SINL
+      ISSN: 0169-9563
+EnglishTashlhitDictionary:
+  type: book
+  title: English-Amazight (Tashlhit)
+  author:
+  - given: Lahsen
+    family: Oulhadj
+  URL: https://www.academia.edu/12579763/ENGLISH_AMAZIGH_TASHLHIT_
+  issued: 2014
+FolkLoreOfEastYorkshire:
+  type: book
+  title: Folk Lore of East Yorkshire
+  author:
+  - given: John
+    family: Nicholson
+  issued: 1890
+  URL: https://archive.org/details/folkloreofeastyo00nich
+  publisher: Simpkin, Marshall, Hamilton, Kent, & Co.
+  publisher-place: London
+OnTheGrammars:
+  type: article-magazine
+  title: On the Grammars, &c. used in Public Schools
+  author:
+  - given: Simplicitatis
+    family: Amans
+  page: 303–305
+  URL: https://archive.org/details/gentlemansmagaz332unkngoog/page/n336
+  in:
+    title: The Gentleman’s Magazine
+    issued:
+      year: 1819
+      month: 4
+    volume: 89
+    editor:
+    - given: Sylvanus
+      family: Urban
+    publisher: John Nichols and Son
+    publisher-place: London
+MicatioDigitorumDescribed:
+  type: article-magazine
+  title: “Micatio Digitorum” described by Petronius
+  author:
+  - given: Bucca
+  page: 123–124
+  URL: https://archive.org/details/gentlemansmagaz305unkngoog/page/122
+  in:
+    title: The Gentleman’s Magazine
+    issued:
+      month: 2
+      year: 1831
+    editor:
+    - given: Sylvanus
+      family: Urban
+    volume: 101
+    publisher: J. B. Nichols and Son
+    publisher-place: London
+MicatioDigitorumLetter:
+  type: article-magazine
+  title: Letter on “Micatio Digitorum”
+  author:
+  - given: T.
+    family: Grimes
+  page: 33
+  URL: https://archive.org/details/gentlemansmagaz305unkngoog/page/32
+  in:
+    title: The Gentleman’s Magazine
+    issued:
+      month: 1
+      year: 1831
+    editor:
+    - given: Sylvanus
+      family: Urban
+    volume: 101
+    publisher: J. B. Nichols and Son
+    publisher-place: London
+GameOfMicatioDigitorum:
+  type: article-magazine
+  title: Micatio Digitorum, Ἐπάλλαξις Δακτύλων, Tsoey-Moey
+  author:
+  - given: E. H.
+    family: Barker
+  page: 508-510
+  URL: https://books.google.co.nz/books?id=_UEdXMCpZ6wC&pg=PA508
+  in:
+    title: The Gentleman’s Magazine
+    issued:
+      month: 12
+      year: 1830
+    editor:
+    - given: Sylvanus
+      family: Urban
+    volume: 100
+    publisher: J. B. Nichols and Son
+    publisher-place: London
+IuKiaoLi:
+  type: book
+  title: 'Iu-Kiao-Li: or, the Two Fair Cousins'
+  volume: 2
+  author:
+  - given: M.
+    family: Abel-Remusat
+  publisher: Hunt and Clarke
+  publisher-place: London
+  issued: 1827
+  URL: https://books.google.co.nz/books?id=cscpAAAAYAAJ
+DiversChoiceRemarks:
+  type: book
+  title: An Account of Divers Choice Remarks, as well Geographical, as Historical, Political, Mathematical, Phyſical, and Moral; Taken in a Journey through the Low-Countries, France, Italy, and Part of Spain; with the Isles of Sicily and Malta
+  author:
+  - given: Ellis
+    family: Veryard
+  publisher: S. Smith and B. Walford
+  publisher-place: London
+  issued: 1701
+  URL: https://books.google.co.nz/books?id=kZ1fAAAAcAAJ

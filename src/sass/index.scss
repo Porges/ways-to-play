@@ -436,13 +436,18 @@ div.multi > p {
 }
 
 /*** References ***/
-/* space them out */
 .reference-list > li {
+    /* space them out */
     margin-top: 1em;
     text-align: left;
+
+    &::marker {
+        color: $accent;
+    }
 }
 
-/* hanging indent */
+
+/* hanging indent for Bibliography */
 .reference-list.list-unstyled > li {
     margin-left: 2em;
     text-indent: -2em;
@@ -508,12 +513,8 @@ abbr[title] {
 
 /*** Tables ***/
 td.numeric, th.numeric,
-table.numeric>tbody>tr>td,
-table.numeric>tbody>tr>th,
-table.numeric>tfoot>tr>td,
-table.numeric>tfoot>tr>th,
-tbody.numeric>tr>td,
-tbody.numeric>tr>th {
+table.numeric>:is(tbody,tfoot)>tr>:is(th,td),
+tbody.numeric>tr>:is(th,td) {
     font-variant-numeric: tabular-nums;
     text-align: right;
 }

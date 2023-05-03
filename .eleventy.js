@@ -331,8 +331,10 @@ const citationPlugin = () => {
             + references.renderLStr(reference.title, 'cite', {})
             + `</a>`
             + ifSet(suffix, ` (${suffix})`);
+        case 'chapter':
         case 'paper-conference':
         case 'article-journal':
+        case 'thesis':
           if (reference.author) {
             return `<a href="${`#ref-${id}`}">${reference.author[0].family}</a>`
               + ` (${referenceSchema.publicationYear(reference)}${ifSet(suffix, `, ${suffix}`)})`;

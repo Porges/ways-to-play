@@ -60,3 +60,7 @@ This simple version is from Germany. Reiner Knizia gives the name as “<span cl
 On each player’s turn, they always make three rolls of three dice, then two dice, then one die. No dice are set aside. The player must roll a {%dice 1%} (Mr Miller) and a {%dice 2%} (Mrs Miller), and after they have done so the remaining dice are all totalled to count the number of “children”.
 
 The player who reaches the highest total wins.
+
+## General References
+
+See: @Bell [p. 138].
