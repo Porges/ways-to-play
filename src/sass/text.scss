@@ -103,11 +103,12 @@ span:is( // Italicize all *-Latn languages:
 }
 
 body {
-  // palt: We are going to be embedding Japanese and Chinese in Latin text,
+  // pwid: We are going to be embedding Japanese and Chinese in Latin text,
   //       so make them proportional. This has better spacing for kana etc.
+  font-variant-east-asian: proportional-width;
   // hkna: Always writing horizontally here, so prefer horizontally-optimized
   //       forms.
-  font-feature-settings: "palt", "hkna";
+  font-feature-settings: "hkna";
   // required by 'palt' but enable it this way as well
   font-kerning: normal;
 }
@@ -121,24 +122,24 @@ rt {
 cite:lang(zh):not(:lang(zh-Latn)) {
   font-style: inherit;
 
-  &::before {
-    content: '《';
-  }
+  &::before { content: '《'; }
+  &::after { content: '》'; }
 
-  &::after {
-    content: '》';
+  cite {
+    &::before { content: '〈 '; }
+    &::after { content: '〉'; }
   }
 }
 
 cite:lang(ja):not(:lang(ja-Latn)) {
   font-style: inherit;
 
-  &::before {
-    content: '『'
-  }
+  &::before { content: '『' }
+  &::after { content: '』' }
 
-  &::after {
-    content: '』'
+  cite {
+    &::before { content: '「' };
+    &::after { content: '」'};
   }
 }
 

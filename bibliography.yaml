@@ -2367,6 +2367,14 @@ TheEgyptianGameOfTwentySquares:
       family: Pusch
   page: 69–86
   in: *ancientBoardGamesInPerspective
+BoardGamesInLateImperialChina:
+  type: paper-conference
+  title: An Introduction to Board Games in Late Imperial China
+  page: 125–132
+  author:
+  - given: Andrew
+    family: Lo
+  in: *ancientBoardGamesInPerspective
 DimensionsOfBookOfGames:
   type: thesis
   title: "<cite lang='es'>Los Libros de Acedrex Dados e Tablas</cite>: Historical,
@@ -8833,3 +8841,79 @@ DiversChoiceRemarks:
   publisher-place: London
   issued: 1701
   URL: https://books.google.co.nz/books?id=kZ1fAAAAcAAJ
+ThomasCrosfield:
+  type: book
+  title: Queen’s College MS 390
+  author:
+  - given: Thomas
+    family: Crosfield
+  issued: 1674
+  URL: https://digital.bodleian.ox.ac.uk/objects/fe116079-c422-402f-8dca-3efce5f73ff9/surfaces/ed1b83c1-1c2d-48ad-b1be-df7662d730f2/
+  publisher: The Queen’s College, University of Oxford
+PsychologyChineseGambling:
+  type: book
+  title: "The Psychology of Chinese Gambling: A Cultural and Historical Perspective"
+  author:
+  - given: Chi Chuen
+    family: Chan
+  - given: William Wai Lim
+    family: Li
+  - given: Amy Sau Lam
+    family: Chiu
+  publisher: Springer
+  publisher-place: Singapore
+  ISBN: 978-981-13-3486-3
+  URL: https://doi.org/10.1007/978-981-13-3486-3
+  issued: 2019
+CompleteCollectionOfBooksContinued102:
+  type: book
+  title:
+    value: 叢書集成續編
+    lang: zh-Hant
+    alt: Complete Collection of Books, Continued
+  volume: 102
+  URL: https://commons.wikimedia.org/wiki/File:%E5%8F%A2%E6%9B%B8%E9%9B%86%E6%88%90%E7%BA%8C%E7%B7%A8%EF%BC%88%E5%8F%B0%EF%BC%89102.pdf
+  issued: 1989
+  publisher:
+    value: 新文豐出版
+    lang: zh-Hant
+  publisher-place: Taiwan
+KKChuhong:
+  type: webpage
+  URL: https://kknews.cc/history/9pxl4gq.html
+  title:
+    value: 喝酒時想玩簡單的酒令？試試這一種宋代遊戲
+    lang: zh
+  container-title:
+    value: 每日頭條
+    lang: zh
+  author:
+  - given: 左 
+    family: 於
+    lang: zh
+    alt: Yú Zuǒ 
+  issued:
+    year: 2019
+    month: 1
+    day: 17
+HorseCoins:
+  type: chapter
+  title: "Horse Coins: Pieces for <span lang='cmn-Latn-pinyin'>Da ma</span>, the Chinese Board Game ‘Driving the Horses ’"
+  author:
+  - given: Joe
+    family: Cribb
+  page: 105-124
+  URL: https://doi.org/10.1007/978-981-10-1793-3_6
+  in:
+    title: 'The Language and Iconography of Chinese Charms: Deciphering a Past Belief System'
+    URL: https://doi.org/10.1007/978-981-10-1793-3
+    editor:
+    - given: Alex Chengyu
+      family: Fang
+    - given: François
+      family: Thierry
+      lang: fr
+    ISBN: 978-981-10-1793-3
+    publisher: Springer
+    publisher-place: Singapore
+    issued: 2016

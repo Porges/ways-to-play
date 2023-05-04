@@ -140,6 +140,8 @@ const giscusCode = `<div class="container">
 <div class="row">
 <div class="col-lg-7 offset-lg-1">
 <h2>Comments</h2>
+<details>
+<summary>Expand to show comments</summary>
 <script src="https://giscus.app/client.js"
     data-repo="Porges/ways-to-play"
     data-repo-id="MDEwOlJlcG9zaXRvcnk3NjgyOTIyMQ=="
@@ -156,6 +158,7 @@ const giscusCode = `<div class="container">
     crossorigin="anonymous"
     async>
 </script>
+</details>
 </div>
 </div>
 </div>
