@@ -208,10 +208,14 @@ main {
 }
 
 // do full justification on main-text paragraphs
-section > p, div.content > p {
+:is(section, div.content) > p {
     hyphens: auto;
-    text-align: justify;
+
+    &:not(.lead) {
+        text-align: justify;
+    }
 }
+
 
 section {
   // trap floats inside:
@@ -491,7 +495,7 @@ abbr[title] {
     color: $secondary;
 
     &:not(.inline) {
-        margin-left: 1px;
+        margin-left: 2px;
         font-feature-settings: "sups";
     }
 

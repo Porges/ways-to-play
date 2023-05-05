@@ -120,12 +120,12 @@ function renderTitle(reference: Reference) {
 
     if (reference.type === 'book' || reference.type === 'thesis') {
         return renderLStr(linkedTitle, 'cite', {itemprop: 'name'})
-            + ('edition' in reference && reference['edition'] ? ` (<span itemprop="bookEdition">${ordinal(reference['edition'])} edition</span>)` : '')
             + ifSet(reference.volume, v =>
-                ` (volume <span itemprop="volumeNumber">${formatNumberString(v)}</span>`
-                + (('volume-title' in reference && reference['volume-title']) ? `: ${renderLStr(reference['volume-title'], 'span', {})}` : '')
-                + ')')
+                ` volume <span itemprop="volumeNumber">${formatNumberString(v)}</span>`
+                + (('volume-title' in reference && reference['volume-title']) ? `: ‘${renderLStr(reference['volume-title'], 'span', {})}’` : '')
+                )
             + renderSeries(reference, '; ', '')
+            + ('edition' in reference && reference['edition'] ? ` (<span itemprop="bookEdition">${ordinal(reference['edition'])} edition</span>)` : '')
             + archiveURL;
     } else {
         return '‘'

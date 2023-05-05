@@ -15,13 +15,13 @@ The standard version of the text can be interpreted loosely as:[@SocialHeat p. 2
 <div class="multi">
 <p lang="zh">
 <strong><span class="red">上</span></strong>大人<br/>
-<strong><span class="red">[邱/孔]</span></strong>乙己<br/>
+<strong><span class="red">孔</span></strong>乙己<br/>
 <strong><span class="red">化</span></strong>三千<br/>
 <strong><span class="red">七</span></strong>十[士/贤]<br/>
-<strong><span class="red">[尔/爾]</span></strong>小生<br/>
+<strong><span class="red">尔</span></strong>小生<br/>
 <strong><span class="red">八</span></strong>九子<br/>
 <strong><span class="red">佳</span></strong>作仁<br/>
-<strong><span class="red">可</span></strong>知[礼/禮]
+<strong><span class="red">可</span></strong>知禮
 </p>
 <p>His Greatness<br/>
 Confucius<br/>

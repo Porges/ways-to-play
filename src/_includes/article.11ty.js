@@ -152,7 +152,7 @@ const giscusCode = `<div class="container">
     data-reactions-enabled="0"
     data-emit-metadata="0"
     data-input-position="top"
-    data-theme="preferred_color_scheme"
+    data-theme="light"
     data-lang="en"
     data-loading="lazy"
     crossorigin="anonymous"

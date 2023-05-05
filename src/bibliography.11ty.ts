@@ -102,7 +102,7 @@ export async function render(data: Data) {
         + '</div>'
         + '</div>'
         + '</form>'
-        + `<p class="text-center">🙚 ${biblio.length} works 🙘</p>`
+        + `<p class="text-center"><i>${biblio.length} works</i></p>`
         + '<div class="row">'
         + `<ul id="ref-list" class="reference-list list-unstyled offset-lg-2 col-lg-8">\n${biblio.map(b => {
             const year = publicationYear(b);

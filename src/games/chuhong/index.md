@@ -2,23 +2,34 @@
 title: Chú Hóng
 titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">除紅</span>
-draft: true
 equipment: Dice
+players: any
 ---
 
-<p class="lead"
-<span lang="cmn-Latn-pinyin" class="aka noun">Chú Hóng</span> (<span lang="zh" class="aka">除紅</span>) ‘exclude reds’ was a dice game played over 600 years ago in China. It apparently originated during the <a href="https://en.wikipedia.org/wiki/Liao_dynasty">Liao dynasty</a> (916-1125) of northern China and was popular during the <a href="https://en.wikipedia.org/wiki/Song_dynasty">Song</a> (960–1279); @PersonalLuck describes it as “perfected in Yuan times” (1279–1368).[@PsychologyChineseGambling p. 21] It has also been called <span lang="zh" class="aka">豬窩</span> ‘pigsty’ (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">zhū wō</span>),[@PsychologyChineseGambling p. 23] <span lang="zh" class="aka">朱窩</span> ‘vermillion nest’ (same pronunciation; ‘vermillion’ and ‘pig’ are homophones), or <span lang="zh" class="aka">豬婆龍</span> ‘dragon sow’, a name of the <a href="https://en.wikipedia.org/wiki/Chinese_alligator">Chinese alligator</a>.[@KKChuhong]
+<p class="lead">
+<span lang="cmn-Latn-pinyin" class="aka noun">Chú Hóng</span> (<span lang="zh" class="aka">除紅</span>, ‘exclude reds’) was a dice game played over 600 years ago in China. It apparently originated during the <a href="https://en.wikipedia.org/wiki/Liao_dynasty">Liao dynasty</a> (916-1125) of northern China and was popular during the <a href="https://en.wikipedia.org/wiki/Song_dynasty">Song</a> (960–1279); @PersonalLuck describes it as “perfected in Yuan times” (1279–1368).[@PsychologyChineseGambling p. 21] It has also been called <span lang="zh" class="aka">豬窩</span> ‘pigsty’ (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">zhū wō</span>),[@PsychologyChineseGambling p. 23] <span lang="zh" class="aka">朱窩</span> ‘vermillion nest’ (same pronunciation; ‘vermillion’ and ‘pig’ are homophones), or <span lang="zh" class="aka">豬婆龍</span> ‘dragon sow’, a name of the <a href="https://en.wikipedia.org/wiki/Chinese_alligator">Chinese alligator</a>.[@KKChuhong]
 </p>
 
-See @GameOfLeaves, @BettingOnEmpire.
 
 ## History
 
 A Song-era book entitled <cite lang="zh">除紅譜</cite> <cite>Manual for Excluding Reds</cite> which is attributed to one <span class="noun" lang="cmn-Latn-pinyin">Zhū Hé</span> (<span lang="zh">朱河</span>){%fn%}According to the <cite>Preface</cite>, a descendent of <span lang="cmn-Latn-pinyin" class="noun">Zhū Guāngtíng</span>, a famous politician of the Song dynasty.{%endfn%} contains the standard rules for the game. There was a later minor expansion to this text called the <cite lang="zh">除紅譜序</cite> <cite>Preface to the Manual for Excluding Reds</cite> which was authored in 1368 by <span lang="zh">杨维桢</span> <span lang="cmn-Latn-pinyin" class="noun">Yáng Wéizhēn</span> (1296–1370).
 
-The instructional text forms part of the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html) and can subsequently be found included as part of it in the Qing-era <span lang="zh">四庫全書</span> [<span lang="cmn-Latn-pinyin" class="noun">Sìkù Quánshū</span>](http://www.chinaknowledge.de/Literature/Science/sikuquanshu.html) imperial book collection. It also appears in <span lang="zh">茅一相</span> <span lang="cmn-Latn-pinyin" class="noun">Máo Yīxiāng</span>’s Ming-era continuation of the <span lang="zh-Hant">欣賞編</span>/<span lang="zh-Hans">欣赏续</span> [<cite>Compilation of Enjoyable Texts</cite>](http://www.chinaknowledge.de/Literature/Poetry/xinshangbian.html), in some editions with <span lang="cmn-Latn-pinyin" class="noun">Yáng</span>’s preface and in others without.
+{% image src="instructions.png" alt="" noborder=true position="aside" license="cc0" %}
+Pictorial instructions from the text.
+{%imageEnd%}
 
-A reproduction of this book can be found in @CompleteCollectionOfBooksContinued102 [p. 609–20] and the transcribed text of the <span lang="cmn-Latn-pinyin" class="noun">Sìkù Quánshū</span> version can be seen on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102).
+The instructional text forms part of the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html){%fn%}See [here](https://iiif.lib.harvard.edu/manifests/view/drs:428497146$5i) for a 1646 edition.{%endfn%} and can subsequently be found included as part of it in the Qing-era <span lang="zh">四庫全書</span> [<span lang="cmn-Latn-pinyin" class="noun">Sìkù Quánshū</span>](http://www.chinaknowledge.de/Literature/Science/sikuquanshu.html) imperial book collection. It also appears in <span lang="zh">茅一相</span> <span lang="cmn-Latn-pinyin" class="noun">Máo Yīxiāng</span>’s Ming-era continuation of the <span lang="zh-Hant">欣賞編</span>/<span lang="zh-Hans">欣赏续</span> [<cite>Compilation of Enjoyable Texts</cite>](http://www.chinaknowledge.de/Literature/Poetry/xinshangbian.html), in some editions with <span lang="cmn-Latn-pinyin" class="noun">Yáng</span>’s preface and in others without.
+
+<!--
+See:
+- https://www.digital.archives.go.jp/img/3743276, No. 4, pg. 53
+- https://www.digital.archives.go.jp/img/629453, No. 11, pg. 2
+- https://www.digital.archives.go.jp/img/4426763, No. 10, pg. 10 (note that previous game is Liubo!)
+
+-->
+
+For reference purposes, an example reproduction of this book can be found in @CompleteCollectionOfBooksContinued102 [p. 609–20] and the transcribed text of the <span lang="cmn-Latn-pinyin" class="noun">Sìkù Quánshū</span> version can be seen on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102).
 
 The game is related to another Chinese dice game about horse racing called {% gameref dama %}; many of the dice rolls have the same names. The difference is that <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng</span> is played only for money or points, not to move a piece around the board.
 
@@ -29,9 +40,11 @@ Any number can play this game, which requires four normal dice. Each player in t
 
 The rewards are given in terms of <span lang="zh">帖</span> <span lang="cmn-Latn-pinyin">tiē</span> which here has a meaning of a stake (determined before playing the game) which is won or lost to a central pot. Alcoholic drinks or sexual favours could also be used as stakes, and this is mentioned in the original instructions.
 
-My version of the rules is as follows: on a player’s turn they roll all four dice, and repeat this until they roll at least one {%cdice 4%} or another of the special scoring combinations. If it is an instant win or loss they take or pay that many stakes to the central pool. If the result is a ‘dice competition’ then they compare the number (sum of the three other dice) to the previous ‘dice competition’ result. If their roll is higher they win 2 stakes, if equal then they win 1 stake, and if lesser, they pay 1 stake.{%fn%}My only source for the method of play is @KKChuhong, so this description might be somewhat inaccurate. I know for certain that the introductory section of the book is not properly included here.{%endfn%}
+My version of the rules is as follows:{%fn%}My only source for the method of play is @KKChuhong, so this description might be somewhat inaccurate; I read neither modern nor middle Chinese! I know for certain that the introductory section of the book is not properly included here.{%endfn%} on a player’s turn they roll all four dice, and repeat this until they roll at least one {%cdice 4%} or another of the special scoring combinations. If it is an instant win or loss they take or pay that many stakes to the central pool. If the result is a ‘dice competition’ then they compare the number (sum of the three other dice) to the previous ‘dice competition’ result. If their roll is higher they win 2 stakes, if equal then they win 1 stake, and if lesser, they pay 1 stake.
 
-There are special outcomes for rolling quadruples, ‘red’ triples, or two pairs:
+{%aside%}Some translations below are from @BettingOnEmpire [p. 42] or @GameOfLeaves [p. 402].{%endaside%}
+
+Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, or two pairs:
 
 <table class="table table-sm">
 <thead>

@@ -1,7 +1,6 @@
 ---
 title: Stewart Culin
 order: 50
-draft: true
 ---
 
 <p class="lead">
@@ -10,9 +9,7 @@ draft: true
 
 <!-- excerpt -->
 
-## Works
-
-Culin usually only presents names and terms in their transliterated form. For Chinese, it seems that the most common dictionary he used was the @TonicDictionary, so they are almost always presented in Cantonese pronunciation.
+## Games-related works
 
 - 1891: @ChineseInAmerica
 - 1895: @KoreanGames
@@ -24,7 +21,11 @@ Culin usually only presents names and terms in their transliterated form. For Ch
 - 1907: @CulinNorthAmericanIndians
 - 1924: Mah-Jong[@CulinMahjong]
 
-## TODO: Deciphered Games
+## ‘Deciphered’ Games
+
+Culin usually only presents names and terms in their transliterated form. For Chinese, it seems that the most common dictionary he used was the @TonicDictionary, so they are almost always presented in Cantonese pronunciation.
+
+⚠️ This section is currently incomplete.
 
 In @KoreanGames:
 

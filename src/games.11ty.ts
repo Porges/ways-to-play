@@ -12,7 +12,7 @@ export const data = {
 };
 
 type RenderableGame = {
-    players: 'banking' | number[],
+    players: 'banking' | 'any' | number[],
     equipment?: string,
     variant?: boolean,
     url: string,
@@ -33,6 +33,10 @@ function renderGames(allGames: RenderableGame[]) {
         } else {
             const players = parseInt(playersS);
             allGames = allGames.filter(g => {
+                if (g.players === 'any') {
+                    return true;
+                }
+
                 if (g.players) {
                     return Array.isArray(g.players) && g.players.includes(players);
                 }
@@ -67,10 +71,14 @@ function renderGames(allGames: RenderableGame[]) {
 }
 
 export function render(this: Context, data: Data) {
-    const expandPlayers = (title: string, players: Players | undefined): 'banking'|number[] => {
+    const expandPlayers = (title: string, players: Players | undefined): 'banking'|'any'|number[] => {
         if (players === undefined) {
             console.warn('No players specified for ' + title);
             return [];
+        }
+
+        if (players === 'any') {
+            return 'any';
         }
 
         if (players === 'banking') {

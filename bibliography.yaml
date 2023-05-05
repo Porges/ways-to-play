@@ -3583,7 +3583,7 @@ ChikiCards:
       year: 2003
 BalineseChineseCommunity:
   type: article-journal
-  title: Reterritorializdtion of a Balinese Chinese Community in Quanzhou, Fujian
+  title: Reterritorialization of a Balinese Chinese Community in Quanzhou, Fujian
   author:
     - given: Chee-Beng
       family: Tan
@@ -7516,6 +7516,7 @@ DictionnaireTurcFrançais2:
     value: Dictionnaire Turc-Français
     lang: fr
   volume: 2
+  volume-title: "\u2068ع\u2069–\u2068ى\u2069" # treated as individuals, not a phrase
   issued: 1867
   URL: https://archive.org/details/mallouf-dictionnaire-turc-francais-1863-67-volume-1-2
   author:
@@ -7531,6 +7532,7 @@ LexiconLinguaeAethiopicae:
     value: Lexicon Linguae Aethiopicae
     lang: la
   volume: 1
+  volume-title: ሀ፡ — ነኀረ፡
   issued: 1862
   author:
     - given: Augusto
@@ -7550,17 +7552,6 @@ ComparativeGeez:
   publisher: Otto Harrassowitz
   publisher-place: Wiesbaden
   ISBN: "3447025921"
-AmharicEnglish2:
-  type: book
-  title: Amharic-English Dictionary
-  author:
-    - given: Thomas Leiper
-      family: Kane
-  issued: 1990
-  volume: 2
-  publisher: Otto Harrassowitz
-  publisher-place: Wiesbaden
-  ISBN: "3447028718"
 AmharicEnglish1:
   type: book
   title: Amharic-English Dictionary
@@ -7569,6 +7560,19 @@ AmharicEnglish1:
       family: Kane
   issued: 1990
   volume: 1
+  volume-title: ሀ–ነ
+  publisher: Otto Harrassowitz
+  publisher-place: Wiesbaden
+  ISBN: "3447028718"
+AmharicEnglish2:
+  type: book
+  title: Amharic-English Dictionary
+  author:
+    - given: Thomas Leiper
+      family: Kane
+  issued: 1990
+  volume: 2
+  volume-title: ኘ–ፐ
   publisher: Otto Harrassowitz
   publisher-place: Wiesbaden
   ISBN: "3447028718"
@@ -8678,7 +8682,7 @@ AFunSouthernChineseGame:
   archive-URL: https://web.archive.org/web/20230502223604/https://studycli.org/chinese-culture/a-fun-chinese-game/
 PersonalLuck:
   type: chapter
-  title: "Personal Luck: Why Premodern China—Probably— Did Not Develop Probalistic Thinking"
+  title: "Personal Luck: Why Premodern China—Probably—Did Not Develop Probabilistic Thinking"
   author:
   - given: Mark
     family: Elvin
@@ -8917,3 +8921,53 @@ HorseCoins:
     publisher: Springer
     publisher-place: Singapore
     issued: 2016
+DictionnaireDioiFrancais:
+  type: book
+  title:
+    value: Essai de Dictionnaire Dioi₃–Français
+    lang: fr
+  author:
+  - given: Joseph
+    family: Esquirol
+    lang: fr
+  - given: Gustave
+    family: Williatte
+    lang: fr
+  issued: 1908
+  publisher:
+    value: La Société des Missions-Étrangères
+    lang: fr
+  publisher-place: Hong Kong
+  URL: https://archive.org/details/essaidedictionn00willgoog
+RotumanDictionary:
+  type: book
+  title: "A New Rotuman Dictionary: An English-Rotuman Wordlist"
+  author:
+  - given: Elizabeth Kafonika Makarita
+    family: Inia
+  issued: 1998
+  publisher: Institute of Pacific Studies, University of the South Pacific
+  publisher-place: Suva, Fiji
+  ISBN: 9789820201286
+RotumanMaxwell:
+  type: book
+  URL: https://archive.org/details/rotumangrammardi0000chur
+  title: Rotuman Grammar and Dictionary
+  publisher: AMS Press
+  publisher-place: New York
+  author:
+  - given: C. Maxwell
+    family: Churchward
+  issued: 1978
+  original-date:
+    year: 1940
+TonganMaxwell:
+  type: book
+  title: Tongan Dictionary
+  URL: https://archive.org/details/tongandictionary0000chur
+  author:
+  - given: C. Maxwell
+    family: Churchward
+  publisher: Oxford University Press
+  publisher-place: London
+  issued: 1959
