@@ -5587,11 +5587,11 @@ LuRong:
   type: book
   title:
     value: 菽园杂记
-    lang: zh
+    lang: zh-Hans
   volume: 3
   URL: https://ctext.org/library.pl?if=en&file=89214&page=90&remap=gb
   author:
-    - family: 陆
+    - family: 陸
       given: 容
       lang: zh
       alt:
@@ -8971,3 +8971,15 @@ TonganMaxwell:
   publisher: Oxford University Press
   publisher-place: London
   issued: 1959
+ChenHongshou:
+  type: book
+  title: "The Figurative Works of Chen Hongshou (1599–1652): Authentic Voices/Expanding Markets"
+  URL: https://archive.org/details/figurativeworkso0000bent
+  author:
+  - given: Tamara Heimarck
+    family: Bentley
+  ISBN: 9780754666721
+  issued: 2012
+  publisher: Ashgate
+  series:
+    title: Visual Culture in Early Modernity

@@ -4,12 +4,14 @@ titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">除紅</span>
 equipment: Dice
 players: any
+mainImage: instructions.png
 ---
 
 <p class="lead">
 <span lang="cmn-Latn-pinyin" class="aka noun">Chú Hóng</span> (<span lang="zh" class="aka">除紅</span>, ‘exclude reds’) was a dice game played over 600 years ago in China. It apparently originated during the <a href="https://en.wikipedia.org/wiki/Liao_dynasty">Liao dynasty</a> (916-1125) of northern China and was popular during the <a href="https://en.wikipedia.org/wiki/Song_dynasty">Song</a> (960–1279); @PersonalLuck describes it as “perfected in Yuan times” (1279–1368).[@PsychologyChineseGambling p. 21] It has also been called <span lang="zh" class="aka">豬窩</span> ‘pigsty’ (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">zhū wō</span>),[@PsychologyChineseGambling p. 23] <span lang="zh" class="aka">朱窩</span> ‘vermillion nest’ (same pronunciation; ‘vermillion’ and ‘pig’ are homophones), or <span lang="zh" class="aka">豬婆龍</span> ‘dragon sow’, a name of the <a href="https://en.wikipedia.org/wiki/Chinese_alligator">Chinese alligator</a>.[@KKChuhong]
 </p>
 
+<!-- excerpt -->
 
 ## History
 

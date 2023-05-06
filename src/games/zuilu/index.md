@@ -4,13 +4,25 @@ titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">醉綠</span>
 equipment: Dice
 players: any
+mainImage: 52423713.jpg
 ---
 
 <p class="lead">
-<span lang="cmn-Latn-pinyin" class="noun aka">Zuì Lǜ</span> (<span lang="zh" class="aka">醉綠</span>, ‘drunken green’) was an ancient Chinese drinking game played with five dice. At a later stage it was known as <span lang="zh" class="aka">合歡</span> <span lang="cmn-Latn-pinyin" class="noun aka">Héhuān</span> ‘happy union’.[@BettingOnEmpire p. 42]
+<span lang="cmn-Latn-pinyin" class="noun aka">Zuì Lǜ</span> (<span lang="zh" class="aka">醉綠</span>, ‘drunken green’) was a very old Chinese drinking game from the late Ming period that is played with five dice. At a later stage it was known as <span lang="zh" class="aka">合歡</span> <span lang="cmn-Latn-pinyin" class="noun aka">Héhuān</span> ‘happy union’.[@BettingOnEmpire p. 42]
 </p>
 
-Rules for the game appear in the book <cite lang="zh">醉綠圖</cite> <cite>Drunken Green Diagrams</cite> by a <span lang="zh">張光</span> <span lang="cmn-Latn-pinyin" class="noun">Zhāng Guāng</span>, and this work is included in the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html) collection, compiled during the Ming period (1368–1644). This (very short) instructional text is available transcribed on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102#%E9%86%89%E7%B7%91%E5%9C%96):
+<!-- excerpt -->
+
+{% image src="52423713.jpg" alt="Pages from a book with four diagrams of dice rolls in pictorial form and Chinese writing around each diagram indicating the name and outcome of the roll."
+    size="wide"
+    license="cc0"
+    orgName="Harvard University"
+    originalUrl="https://nrs.lib.harvard.edu/urn-3:fhcl:23410787?n=27"
+    %}
+Diagrams from the instruction manual.
+{% imageEnd %}
+
+Rules for the game appear in the book <cite lang="zh">醉緑圖</cite> <cite>Drunken Green Diagrams</cite> by a <span lang="zh">張光</span> <span lang="cmn-Latn-pinyin" class="noun">Zhāng Guāng</span>, and this work is included in [the 1646 edition](https://curiosity.lib.harvard.edu/chinese-rare-books/catalog/49-990067678380203941) of the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html) collection, first compiled during the Ming period (1368–1644). This (very short) instructional text is available transcribed on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102#%E9%86%89%E7%B7%91%E5%9C%96):
 
 <blockquote lang="zh">
 <ul>
@@ -22,11 +34,14 @@ Rules for the game appear in the book <cite lang="zh">醉綠圖</cite> <cite>Dru
 </ul>
 </blockquote>
 
-I am unable to translate the rules, but the scoring combinations are listed below.
+
+I am unable to translate the rules,{%fn%}Yet! Any assistance would be appreciated.{%endfn%} but the scoring combinations are listed below.
 
 The general scheme is that rolling 5-of-a-kind gives out 5 drinks, 4-of-a-kind 3 drinks, rolling a 6 means you are penalized 1 drink. However each of these outcomes has its own name, so they fill up the majority of the table. A summarized table follows the main one.
 
 Rolling the ‘competition’ outcome means that there is some comparison done involving the ‘point’ of the roll (the sum of the two dice that are not part of the triple). However, I am not sure at the moment how this works.
+
+{%aside%}Some translations below are from @PersonalLuck [p. 426].{%endaside%}
 
 <table class="table table-sm">
 <thead>
@@ -233,7 +248,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
 <tr>
 <td>{%cdice 66166%}</td>
 <td><span lang="zh">麗日中天</span></td>
-<td></td>
+<td>Fair Sun in the Midst of Heaven</td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
