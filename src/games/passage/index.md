@@ -10,6 +10,12 @@ players: 2
 
 The game is mentioned in chapter 32 of [<cite>The Three Musketeers</cite>](https://en.wikipedia.org/wiki/The_Three_Musketeers) (1844), where Porthos plays it with some clerks.  The game also appears in later editions of {% a rabelais,Rabelais’ <cite>Gargantua</cite> %}, at least from 1884.
 
+In England, the game was specifically outlawed by [the <cite>Gaming Act 1739</cite>](http://www.nzlii.org/nz/legis/imp_act_1881/ga173913gic19108/) (previously known as <cite>13 Geo. 2. c. 19</cite>), which was a new addition since the <cite>Gaming Act 1738</cite> (<cite>12 Geo. 2. c. 28</cite>) of the previous year:
+
+> And whereas a good and wholesome law was made in the  twelfth year of the reign of His present Majesty King George the Second, intituled “An Act for the more effectual Preventing of excessive and deceitful Gaming;” but, contrary to the true intent and meaning thereof, some fraudulent and deceitful games have been invented, and a certain game called “passage” is now daily practised and carried on, to the Ruin and impoverishment of many of His Majesty’s subjects : 
+>
+> The said game of passage, and all and every other game and games invented or to be invented with one or more die or dice, or with any other instrument, engine, or device in the nature of dice, having one or more figures or numbers thereon (back-gammon and the other games now played with the backgammon tables only excepted), are and shall be deemed to be games or lotteries by dice, within the intent and meaning of the said in part recited Act : […]
+
 ## Play
 
 {%aside%}Cotton’s description makes it sound like the calculated sum is only for the double, but the game does not function properly if played in that way; the chance of winning would only be ⅙. Comparison with descriptions in other languages makes the actual game clear.{%endaside%}
