@@ -518,7 +518,7 @@ abbr[title] {
 /*** Tables ***/
 td.numeric, th.numeric,
 table.numeric>:is(tbody,tfoot)>tr>:is(th,td),
-tbody.numeric>tr>:is(th,td) {
+:is(tbody,tfoot).numeric>tr>:is(th,td) {
     font-variant-numeric: tabular-nums;
     text-align: right;
 }

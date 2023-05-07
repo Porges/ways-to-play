@@ -9062,3 +9062,29 @@ AntiquariaatArineVanDerSteur44:
     value: Antiquariaat Arine van der Steur
     lang: nl
   URL: https://issuu.com/antiquariaatvandersteur/docs/catalogus_44_antiquegames
+TresMousquetaires:
+  type: book
+  title: 
+    value: Les Trois Mousquetaires
+    lang: fr
+  author:
+  - given: Alexandre
+    family: Dumas
+    lang: fr
+  volume: 3
+  issued: 1844
+  publisher:
+    value: Baudry
+    lang: fr
+  publisher-place: Paris
+  URL: https://archive.org/details/bnf-bpt6k10735245/page/132
+ClassicalDictionaryVulgar:
+  type: book
+  title: A Classical Dictionary of the Vulgar Tongue
+  author:
+  - given: Francis
+    family: Grose
+  issued: 1785
+  publisher: S. Hooper
+  publisher-place: London
+  URL: https://archive.org/details/grosevulgartongue
