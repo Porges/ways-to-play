@@ -9088,3 +9088,13 @@ ClassicalDictionaryVulgar:
   publisher: S. Hooper
   publisher-place: London
   URL: https://archive.org/details/grosevulgartongue
+TheorieDesJeuxDeHasard:
+  type: book
+  title: 
+    value: La Theorie des Jeux de Hasard
+    lang: fr
+  issued: 1788
+  author:
+  - given: P. N.
+    family: Huyn
+  URL: https://books.google.co.nz/books?id=2_9bAAAAQAAJ

@@ -2,7 +2,15 @@
 title: Passage
 equipment: Dice
 players: 2
+mainImage: 314D003a.jpg
 ---
+
+{% image position="aside" src="314D003a.jpg" alt="A drawing of a man bending over a table and rolling three dice by candlelight. He looks ecstatic." 
+    originalUrl="http://www.zeno.org/nid/20003938557" 
+    orgName="Zeno.org"
+    license="cc0" %}
+<span lang="fr">Le Passe Dix</span> ({%c%} 1797) by Daniel Nikolaus Chodowiecki (here signed ‘Huquier’, the publishing address is also false). The player is probably the button-maker Nicolas Fonvielle.[@AntiquariaatArineVanDerSteur44 p. 38]
+{%imageEnd%}
 
 <p class="lead">
 <span class="aka">Passage</a> is an old dice gambling game for two players.[@CompleatGamester p. 167] In French it was called <span lang="fr" class="aka">passe-dix</span> ‘pass-ten’, and in German <span lang="de" class="aka">Paschen</span>.
@@ -20,14 +28,7 @@ The game is mentioned in [<cite>The Three Musketeers</cite>](https://en.wikipedi
 
 ## Play
 
-{%aside%}Cotton’s description makes it sound like the calculated sum is only for the double, but the game does not function properly if played in that way; the chance of winning would only be ⅙. Comparison with descriptions in other languages makes the actual game clear.{%endaside%}
-
-{% image position="aside" src="314D003a.jpg" alt="A drawing of a man bending over a table and rolling three dice by candlelight. He looks ecstatic." 
-    originalUrl="http://www.zeno.org/nid/20003938557" 
-    orgName="Zeno.org"
-    license="cc0" %}
-<span lang="fr">Le Passe Dix</span> ({%c%} 1797) by Daniel Nikolaus Chodowiecki (here signed ‘Huquier’, the publishing address is also false). The player is probably the button-maker Nicolas Fonvielle.[@AntiquariaatArineVanDerSteur44 p. 38]
-{%imageEnd%}
+{%aside%}Cotton’s description makes it sound like the calculated sum is only for the double, but the game does not function properly if played in that way; the chance of winning would only be ⅙. Comparison with descriptions in other languages (e.g. @TheorieDesJeuxDeHasard) makes the actual game clear.{%endaside%}
 
 On a player’s turn they place a bet and roll three dice until they roll a double. If the sum of the dice is _above_ ten, then they **pass** and win, otherwise they are **out** and lose. 
 
@@ -37,7 +38,7 @@ The inclusion of the double requirement only serves to heighten the tension of t
 
 @GeneralizingGalileo gives a generalization of this game to any number of dice, by calculating the “pass points” for each number. Note that this calculation ignores the doubles-requirement, which may alter the game for numbers of dice other than three.
 
-<table class="table table-sm" style="clear:none">
+<table class="table table-sm">
 <thead>
 <tr>
 <th>Dice</th>
