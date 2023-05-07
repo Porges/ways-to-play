@@ -4,12 +4,16 @@ draft: true
 ---
 
 <p class="lead">
-<span class="aka">Hazard</span> is a very old dice game; in fact, it was the name of the game before the word “hazard” meant anything else in English. The modern meaning is derived from the <em>hazardous</em> nature of the game.
-The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Middle French <span lang="fr">hasard</span>. It has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard]
+<span class="aka">Hazard</span> is a very old dice game — in fact, it was the name of the game before the word “hazard” meant anything else in English, and the modern meaning of the word is derived from the <em>hazardous</em> nature of the game. It has also been spelled <span class="aka">Hasard</span>, <span class="aka">Hassard</span>, or <span class="aka">Hazzard</span>. The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Middle French <span lang="fr" class="aka">hasard</span>. It has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard]
 </p>
 
 <!-- excerpt -->
 
+Charles Cotton says that Hazard is the “moſt bewitching Game that is plaid on the dice; for when a man begins to play he knows not when to leave off”,[@CompleatGamester p. 172]{%fn%}This page misnumbered 127 instead of 172.{%endfn%} and that “Hazzard is a proper name for this game; for it ſpeedily makes a man or undoes him; in the twinkling of an eye either a Man or a Mouſe.”[@CompleatGamester p. 168]
+
+Rules for the game appear in {%a hoyle,Hoyle’s%} from the 1775 Charles Jones edition,{%fn%}The <abbr class="initialism">OED</abbr> cites the 1778 _Thomas_ Jones edition, but this is a later piracy of the Charles Jones version.{%endfn%} when Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
+
+The <abbr class="initialism">OED</abbr> has a somewhat amusing definition of the game:
 
 <blockquote class="epigraph">
 A gambling game with two dice in which the chances are complicated by a number of arbitrary rules.
@@ -26,6 +30,8 @@ The player first rolls the two dice repeatedly until they result in a sum from f
 - 9 is nicked by 9, outs on 2, 3, 11, or 12
 
 Any other result establishes the **chance**. The player then rolls the dice repeatedly until they either roll the chance again, in which case they win, or roll the main, when they lose.
+
+If a player wins they are paid their stake by those who bet against them; if they lose their stake is lost.
 
 ## Analysis
 
@@ -66,6 +72,12 @@ The odds of each outcome are as follows:
 Thus the overall chance of success for the shooter is 49.08%, and the disadvantage for the player is &minus;1.84%.
 
 In some versions of the game the player is allowed to select any valid main before rolling; in this case the best selection is 7.
+
+## The Banking Game
+
+When played against a bank, the game needed to be made unfair in some way so that the bank was guaranteed a profit. Sometimes the banking game was called <span class="aka">French Hazard</span> and the non-banking version <span class="aka">English Hazard</span> or <span class="aka">Chicken Hazard</span>.[@BarristersLife p. 43]
+
+@TheorieDesJeuxDeHasard suggests that some numbers were made into … TODO
 
 ## See also
 

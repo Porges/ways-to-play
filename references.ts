@@ -16,6 +16,7 @@ export function renderReference(ref: BiblioRef): string {
         + renderAuthors(ref)
         + renderDate(ref)
         + renderTitle(ref)
+        + ('series' in ref ? renderSeries(ref, '; ', '') : '')
         + '. '
         + renderPatentBits(ref)
         + renderContainer(ref)
@@ -121,13 +122,12 @@ function renderTitle(reference: Reference) {
 
     if (reference.type === 'book' || reference.type === 'thesis') {
         return renderLStr(linkedTitle, 'cite', {itemprop: 'name'})
+            + archiveURL
             + ifSet(reference.volume, v =>
                 ` volume <span itemprop="volumeNumber">${formatNumberString(v)}</span>`
                 + (('volume-title' in reference && reference['volume-title']) ? `: ‘${renderLStr(reference['volume-title'], 'span', {})}’` : '')
                 )
-            + renderSeries(reference, '; ', '')
-            + ('edition' in reference && reference['edition'] ? ` (<span itemprop="bookEdition">${ordinal(reference['edition'])} edition</span>)` : '')
-            + archiveURL;
+            + ('edition' in reference && reference['edition'] ? ` (<span itemprop="bookEdition">${ordinal(reference['edition'])} edition</span>)` : '');
     } else {
         return '‘'
             + renderLStr(linkedTitle, 'span', { itemprop: 'name headline' })
@@ -136,19 +136,14 @@ function renderTitle(reference: Reference) {
     }
 }
 
-function renderTopLevelBook(book: Book) {
-
-}
-
 function renderBook(book: Book, itemprop: string) {
     const extraItemTypes = 'volume' in book ? ' https://schema.org/PublicationVolume' : ''
-    const hasEditors = 'editor' in book && book.editor;
-    const hasAuthors = 'author' in book && book.author;
     return `<span itemscope itemtype="${itemtypes.book}${extraItemTypes}" itemprop="${itemprop}">`
         + renderTitle(book)
-        + ('author' in book && book.author ? ', ' + renderPeople(book.author, false, !hasEditors, 'author') : '')
-        + ('editor' in book && book.editor ? ', edited by ' + renderPeople(book.editor, false, true, 'editor') : '')
-        + (hasEditors || hasAuthors ? ' ' : '. ')
+        + ('author' in book && book.author ? ', ' + renderPeople(book.author, false, false, 'author') : '')
+        + ('editor' in book && book.editor ? ', edited by ' + renderPeople(book.editor, false, false, 'editor') : '')
+        + renderSeries(book, '; ', '')
+        + '. '
         + `<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">${renderPublisher(book)}</span>`
         + renderISBN(book)
         + '</span>';

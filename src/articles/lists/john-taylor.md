@@ -1,5 +1,5 @@
 ---
-title: Taylor’s Motto (1621)
+title: <cite>Taylor’s Motto</cite> (1621)
 order: 1621
 ---
 

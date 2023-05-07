@@ -772,13 +772,13 @@ WhistPlayersHandBook:
 TreatiseOnTheGameOfWhist:
   type: book
   title: A Short Treatise On the Game of Whist
+  URL: https://booksongaming.com/hoyle/bibliography/books/whist.1.1.xml
   author:
     - given: Edmond
       family: Hoyle
   issued:
     year: 1742
-  publisher: W. Webb
-  publisher-place: St Paul’s, London, England, UK
+  publisher-place: London
 WhistInDiagrams:
   type: book
   title: Whist In Diagrams
@@ -927,8 +927,9 @@ AccurateGamester:
   author:
     - given: Edmond
       family: Hoyle
-  publisher: W. Reeve
-  publisher-place: London, England, UK
+  publisher: Thomas Osborne
+  publisher-place: London
+  notes: Reissue of first 1748 edition.
 AmericanLeadsHistory:
   type: book
   title: "Whist: American Leads and their History"
@@ -7630,7 +7631,46 @@ NoticeDesÉmaux:
       family: de la Borde
   issued: 1853
   publisher: Vinchon
-DictionnaireHistorique:
+DictionnaireAncienne3:
+  type: book
+  URL: https://archive.org/details/dictionnairedela03godeuoft
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author:
+    - given: Fédéric
+      family: Godefroy
+  volume: 3
+  volume-title: É–FILDRON
+  issued: 1884
+  publisher-place: Paris
+DictionnaireAncienne4:
+  type: book
+  URL: https://archive.org/details/dictionnairedela04godeuoft
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author:
+    - given: Fédéric
+      family: Godefroy
+  volume: 4
+  volume-title: FILÉ–LISTAGE
+  issued: 1885
+  publisher-place: Paris
+DictionnaireHistorique6:
+  type: book
+  URL: https://archive.org/details/dictionnairehis08conggoog
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author:
+    - given: Jean-Baptiste
+      family: de La Curne de Sainte-Palaye
+  volume: 6
+  volume-title: ESCI–GUY
+  issued: 1879
+  publisher-place: Paris
+DictionnaireHistorique7:
   type: book
   URL: https://archive.org/details/dictionnairehis04conggoog
   title:
@@ -7640,6 +7680,7 @@ DictionnaireHistorique:
     - given: Jean-Baptiste
       family: de La Curne de Sainte-Palaye
   volume: 7
+  volume-title: H–MYT
   issued: 1880
   publisher-place: Paris
 CompleteGuideWinningKeno:
@@ -8407,6 +8448,11 @@ GamblingFutures:
     series:
       title: Pacific Perspectives
       volume: 2
+      editor:
+      - given: Christina
+        family: Toren
+      - given: Edvard
+        family: Hviding
 BomBombed:
   type: article-journal
   title: "‘<span lang='tpi'>Bom</span> Bombed <span lang='tpi'>Kwin</span>’: How
@@ -9098,3 +9144,51 @@ TheorieDesJeuxDeHasard:
   - given: P. N.
     family: Huyn
   URL: https://books.google.co.nz/books?id=2_9bAAAAQAAJ
+HoylesGamesImproved1775:
+  type: book
+  URL: https://books.google.co.nz/books?id=cRhdAAAAcAAJ
+  title: Hoyle’s Games Improved
+  editor:
+  - given: Charles
+    family: Jones
+  publisher-place: London
+  issued: 1775
+BarristersLife:
+  type: book
+  URL: https://archive.org/details/someexperiences03ballgoog
+  title: Some Experiences of a Barrister’s Life
+  author:
+  - given: Serjeant
+    family: Ballantine
+  publisher: Henry Holt and Company
+  publisher-place: New York
+  issued: 1882
+LesLettresDuSeigneurDeLannoy1856:
+  type: article-journal
+  title:
+    value: Les Lettres du Seigneur de Lannoy pour l’Éducation de son Fils
+    lang: fr
+  in:
+    title:
+      value: Le Cabinet Historique
+      lang: fr
+    volume: 2
+    issue: 4
+    issued: 1856
+  page: 81-85
+  URL: https://archive.org/details/lecabinethistor16parigoog/page/n92
+LesLettresDuSeigneurDeLannoy:
+  type: article-journal
+  title:
+    value: Les Lettres du Seigneur de Lannoy
+    lang: fr
+  in:
+    title:
+      value: Le Cabinet Historique
+      lang: fr
+    issued:
+      year: 1875
+      month: 12
+    volume: 21
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k6318678q/f231.item
+  page: 225-242

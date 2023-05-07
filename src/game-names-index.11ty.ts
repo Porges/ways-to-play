@@ -36,7 +36,7 @@ const nameOverrides = new Map<string, string>([
     ["mnr", "Mono"],
     ["rng", "Rongo"],
     ["urh", "Urhobo"],
-    ["wni", "Comorian (Ndzwani)"],
+    ["wni", "Comorian"], // Ndzwani
 ]);
 
 export async function render(data: Data) {

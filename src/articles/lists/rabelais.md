@@ -1,5 +1,5 @@
 ---
-title: The Games of Gargantua (1534—)
+title: The Games of <cite>Gargantua</cite> (1534—)
 order: 1534
 ---
 
