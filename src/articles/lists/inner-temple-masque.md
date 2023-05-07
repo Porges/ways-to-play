@@ -71,13 +71,15 @@ The will is read aloud while Plum interjects:
 
 The games listed are:
 
-- In, and In: a dice game?
-- Gleeke
-- Priministe
-- Noddie: a predecessor of cribbage
-- One and Thirtie
-- Tickle Mee Quickly: a card game
-- My Ladies Hole: a card game
-- My Sow Has Pigd: see {%gameref my-sow-pigged%}
-- Shooe the Mare
-- Blind Man Buffe
+<dl>
+<dt>In, and In</dt><dd>a dice game: {%gameref in-and-in %}</dd>
+<dt>Gleeke</dt><dd></dd>
+<dt>Priministe</dt><dd></dd>
+<dt>Noddie</dt><dd> a predecessor of cribbage</dd>
+<dt>One and Thirtie</dt><dd></dd>
+<dt>Tickle Mee Quickly</dt><dd> a card game</dd>
+<dt>My Ladies Hole</dt><dd> a card game</dd>
+<dt>My Sow Has Pigd</dt><dd> a card game: {%gameref my-sow-pigged%}</dd>
+<dt>Shooe the Mare</dt><dd></dd>
+<dt>Blind Man Buffe</dt><dd></dd>
+</dl>

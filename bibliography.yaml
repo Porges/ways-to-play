@@ -6994,7 +6994,7 @@ Petroniana1960:
   author:
     - given: W. H.
       family: Hewitt
-  URL: https://doi.org/10.10520/AJA00651141_52
+  URL: https://doi.org/10520/AJA00651141_52
   in:
     title: "Acta Classica: Proceedings of the Classical Association of South Africa"
     volume: 3
@@ -7008,7 +7008,7 @@ Petroniana1959:
   author:
     - given: Lydia
       family: Baumbach
-  URL: https://doi.org/10.10520/AJA00651141_4
+  URL: https://doi.org/10520/AJA00651141_4
   in:
     title: "Acta Classica: Proceedings of the Classical Association of South Africa"
     volume: 2
@@ -8983,3 +8983,82 @@ ChenHongshou:
   publisher: Ashgate
   series:
     title: Visual Culture in Early Modernity
+GamesAndGamingEMD:
+  type: book
+  title: "Games and Gaming in Early Modern Drama: Stakes and Hazards"
+  author:
+  - given: Caroline
+    family: Baird
+  URL: https://doi.org/10.1007/978-3-030-50857-9
+  ISBN: 978-3-030-50857-9
+  issued: 2020
+  publisher: Palgrave Macmillan
+  publisher-place: Cham, Switzerland
+  series:
+    title: Early Modern Literature in History
+    editor:
+    - given: Cedric C.
+      family: Brown
+    - given: Andrew
+      family: Hadfield
+    URL: https://link.springer.com/series/14199
+CompleatGamester:
+  type: book
+  title: The Compleat Gameſter
+  author:
+  - given: Charles
+    family: Cotton
+  issued: 1674
+  URL: https://books.google.com/books?id=FupmAAAAcAAJ
+  publisher-place: London
+  publisher: A. M.
+SexualShakespeare1: &sexualShakespeare
+  type: book
+  title: A Dictionary of Sexual Language and Imagery in Shakespearean and Stuart Literature
+  author:
+  - given: Gordon
+    family: Williams
+  volume: 1
+  volume-title: A–F
+  publisher: The Athlone Press
+  publisher-place: London and Atlantic Highlands, NJ
+  issued: 1994
+  ISBN: '0485113937'
+SexualShakespeare2:
+  <<: *sexualShakespeare
+  volume: 2
+  volume-title: G–P
+SexualShakespeare3:
+  <<: *sexualShakespeare
+  volume: 3
+  volume-title: Q–Z
+GeneralizingGalileo:
+  type: article-journal
+  title: Generalizing Galileo’s passé-dix game
+  author:
+  - given: Vassilios
+    family: Hombas
+  page: 643–702
+  URL: http://dx.doi.org/10.1080/0020739X.2011.618549
+  in:
+    title: International Journal of Mathematical Education in Science and Technology
+    volume: 43
+    issue: 5
+    issued:
+      year: 2012
+      month: 7
+      day: 15
+AntiquariaatArineVanDerSteur44:
+  type: book
+  title: "Catalogus 44: Antique Games"
+  author:
+  - given: Arine
+    family: van der Lely – van der Steur
+  - given: Anna
+    family: Bianco
+  issued: 2021
+  publisher-place: The Hague, The Netherlands
+  publisher:
+    value: Antiquariaat Arine van der Steur
+    lang: nl
+  URL: https://issuu.com/antiquariaatvandersteur/docs/catalogus_44_antiquegames

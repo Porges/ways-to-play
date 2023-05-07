@@ -358,7 +358,7 @@ const citationPlugin = () => {
     const biblioPath = path.join(__dirname, 'bibliography.yaml');
     let stat = await fs.stat(biblioPath);
     if (!biblio || stat.mtime > biblioLastModified) {
-      biblio = YAML.parse(await fs.readFile(biblioPath, 'utf8'));
+      biblio = YAML.parse(await fs.readFile(biblioPath, 'utf8'), { merge: true });
       if (!referenceSchema.referenceValidator(biblio)) {
         throw new Error(JSON.stringify(referenceSchema.referenceValidator.errors));
       }

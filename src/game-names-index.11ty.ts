@@ -12,7 +12,7 @@ export const data = {
 export const nameMatcher = /<span(?=[^>]+class="[^"]*?\baka\b)(?=(?:[^>]+lang="(?<lang>[^"]+)")?)[^>]*>(?<name>.*?)<\/span>/ugs;
 
 type Name = {
-    lang?: string,
+    lang: string,
     name: string,
 }
 
@@ -90,7 +90,7 @@ export async function render(data: Data) {
                 continue;
             }
 
-            result += `<li><a href="${page.url}#:~:text=${encodeURIComponent(name).replaceAll('-', '%2D')}"><span lang="${lang}">${titlize(name)}</span></a></li>`;
+            result += `<li><a href="${page.url}#:~:text=${encodeURIComponent(name).replaceAll('-', '%2D')}"><span class="noun" lang="${lang}">${titlize(name)}</span></a></li>`;
         }
         result += '</ul>';
     }

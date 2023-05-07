@@ -236,7 +236,7 @@ tr. Screech
 <td>pass ten</td>
 <td>ten-and-pass</td>
 <td>first-to-get-ten</td>
-<td></td>
+<td>see {% gameref passage %}</td>
 </tr>
 
 <tr>

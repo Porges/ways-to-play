@@ -79,7 +79,7 @@ export async function render(data: Data) {
     await buildLookup(data.collections.game, refs);
     const locale = new Intl.Collator('en');
     const file = await fs.readFile(path.join(__dirname, "../bibliography.yaml"), 'utf8');
-    const parsedFile = parse(file);
+    const parsedFile = parse(file, {merge: true});
     if (!referenceValidator(parsedFile)) {
         throw new Error(`Invalid bibliography: ${referenceValidator.errors}`);
     }

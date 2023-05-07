@@ -1,7 +1,4 @@
-import * as fs from 'node:fs';
-import * as path from 'path';
 import Ajv, { JSONSchemaType } from 'ajv';
-import { parse } from 'yaml';
 
 export type Author = {
     readonly family?: string,
@@ -128,6 +125,7 @@ type Series = {
     number?: number,
     URL?: string,
     ISSN?: string,
+    editor?: Author[],
 }
 
 const seriesSchema: JSONSchemaType<Series> = {
@@ -138,6 +136,7 @@ const seriesSchema: JSONSchemaType<Series> = {
         number: { type: "integer", nullable: true },
         URL: { type: "string", nullable: true },
         ISSN: { type: "string", nullable: true },
+        editor: { type: "array", items: authorSchema, nullable: true },
     },
     required: ['title'],
     additionalProperties: false

@@ -42,7 +42,7 @@ Giues suck to thousands, and himselfe sucks none.[@TaylorsMotto]
 The named games are:
 - Dice games:
     - Trey-Trip
-    - Passage
+    - Passage: see {%gameref passage %}
     - The Most at Thrice
 - Tables games:
     - Irish

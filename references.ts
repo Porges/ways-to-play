@@ -93,6 +93,7 @@ function renderSeries(ref: Reference, lead: string, trail: string) {
          ifSet(s.volume, v => ` volume ${v}`),
          ifSet(s.number, n => ` number ${n}`)
         ].filter(x => x).join(', ') 
+        + ifSet(s.editor, e => `, series editor${e.length > 1 ? 's' : ''} ${renderPeople(e, false, false, 'editor')}`)
         + '</span>'
         + trail;
 }
