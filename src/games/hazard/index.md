@@ -5,7 +5,7 @@ draft: true
 
 <p class="lead">
 <span class="aka">Hazard</span> is a very old dice game; in fact, it was the name of the game before the word “hazard” meant anything else in English. The modern meaning is derived from the <em>hazardous</em> nature of the game.
-The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Middle French <span lang="fr">hasard</span>.
+The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Middle French <span lang="fr">hasard</span>. It has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard]
 </p>
 
 <!-- excerpt -->
