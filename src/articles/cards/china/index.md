@@ -1,6 +1,5 @@
 ---
 title: Chinese Cards
-draft: true
 order: 100
 ---
 
@@ -43,34 +42,41 @@ Japanese cards %} for more).
 
 ## Types of cards
 
-The many types of Chinese and Chinese-derived cards can be broken down into
-several broad categories:
+The many types of Chinese and Chinese-derived cards can be broken down into several broad categories, as follows.
+
+⚠️ The categorization here is a work in progress and may change, especially the last section.
 
 Those derived from **{% gameref xiangqi %}** (“Chinese chess”):
-* {%a four-colour-cards %} (<span lang="zh">四色牌</span>)
+* {%a four-colour-cards %} (<span lang="zh">四色牌</span> <span lang="cmn-Latn-pinyin">sì sè pái</span>)
 * Two-Coloured chess cards, including:
-  * Double Gold Cards (<span lang="zh">雙金牌</span>)
+  * Double Gold cards (<span lang="zh">雙金牌</span> <span lang="cmn-Latn-pinyin">shuāng jīn pái</span>)
   * Malaysian <span lang="ms" class="noun">Chap Ji Kee</span>
-  * Vietnamese Chrysanthemum cards (<span lang="vt" class="noun">Bài Tam Cúc</span>)
+  * Vietnamese Chrysanthemum cards, <span lang="vi">bài tam cúc</span>
   
-Those derived from **dice** (dominoes):
-* Chinese dominoes (Tien Gow)
-* 15-Point Cards
+Those derived from **dice**:
+* Chinese dominoes (<span lang="zh">天九牌</span> <span lang="cmn-Latn-pinyin">tiān jiǔ pái</span>)
+* 15-Point Cards (<span lang="zh">十五湖</span> <span lang="cmn-Latn-pinyin">shíwǔ hú</span>)
+* Sichuan domino cards (<span lang="zh">川牌</span>)
 
 Those derived from paper **money**/banknotes:
 * Four-Suited money cards, of which most types are extinct:
-  * Ma Diao
-  * Hakka playing cards
-  * Vietnamese <span lang="vt" class="noun">Bài Bất</span>
-* Three-Suited money cards, also used in Thailand. Derived cards include:
-  * {%a ceki,Ceki cards%} (Malaysia, Singapore, Indonesia)
-  * Mahjong
-  * Vietnamese <span lang="vt" class="noun">Bài Tổ Tôm</span>
+  * Ma Diao (<span lang="zh">馬弔牌</span> <span lang="cmn-Latn-pinyin">mǎ diào pái</span>)
+  * Kitty cards (<span lang="zh">貓貓牌</span> <span lang="cmn-Latn-pinyin">māo māo pái</span>)
+  * Hakka playing cards (<span lang="zh">六虎牌</span> <span lang="cmn-Latn-pinyin">liù hǔ pái</span> ‘six tiger cards’)
+  * Six red cards (<span lang="zh">六紅牌</span> <span lang="cmn-Latn-pinyin">liù hóng pái</span>)
+  * Vietnamese <span lang="vi">bài bất</span>
+* Three-Suited money cards:
+  * The standard type (usually called <span lang="zh">東莞紙牌</span> <span lang="cmn-Latn-pinyin">dōngguǎn zhǐpái</span>); Thai money cards are essentially identical
+  * {%a ceki,Ceki cards%}, used in Malaysia, Singapore, Indonesia
+  * Mahjong tiles and cards
+  * Nantong long cards (<span lang="zh">南通长牌</span>)
+  * Vietnamese <span lang="vi">bài tổ tôm</span>
 
-Those that are numbered or use characters:
-* {%a shang-da-ren %} (<span lang="zh">上大人牌</span>)
-* 3–5–7 Cards (<span lang="zh">三五七牌</span>)
-* Big Two Cards (<span lang="zh">大贰牌</span>)
-* Zhi Pai
+Those that are numbered or use **characters** (<span lang="zh">字牌</span> <span lang="cmn-Latn-pinyin">zì pái</span>):
+* {%a shang-da-ren %} (<span lang="zh">上大人牌</span>), from Hubei province
+  * 3–5–7 cards (<span lang="zh">三五七</span>), from Hubei province
+* 2–7–10 (<span lang="zh">二七十</span>), from Hunan province?
+* Luzhou Big Two cards <span lang="zh">泸州大贰</span>, from Luzhou city, Sichuan province
+* Leshan round cards <span lang="zh">樂山圈牌</span>, from Leshan city, Sichuan province
 
 <!-- Those that resemble flies from a distance -->
