@@ -87,6 +87,16 @@ exports.render = async function (data) {
       }
 
       addEventListener('DOMContentLoaded', () => {
+        const now = new Date();
+        const relTimeFormatter = new Intl.RelativeTimeFormat('en');
+        for (const time of document.getElementsByClassName('relative')) {
+          const t = new Date(time.getAttribute("datetime"));
+          const diff = Math.trunc((t - now) / (24*60*60*1000));
+          time.replaceChildren(relTimeFormatter.format(diff, 'day'));
+        }
+      });
+
+      addEventListener('DOMContentLoaded', () => {
         for (const lb of document.getElementsByClassName('lightbox')) {
           lb.firstChild.addEventListener('click', () => lb.close('clicked'));
           lb.addEventListener('close', () => {

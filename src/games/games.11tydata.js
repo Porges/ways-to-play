@@ -5,8 +5,8 @@ let data = {
     "tags": "game"
 };
 
-if (IS_PRODUCTION) {
+//if (IS_PRODUCTION) {
     data.date = "git Last Modified";
-}
+//}
 
 module.exports = data;

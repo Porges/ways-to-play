@@ -25,8 +25,8 @@ let data = {
     }
 }
 
-if (IS_PRODUCTION) {
+//if (IS_PRODUCTION) {
     data.date = "git Last Modified";
-}
+//}
 
 module.exports = data;

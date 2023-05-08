@@ -561,7 +561,7 @@ tr. Screech
 <td>morra</td>
 <td>morra</td>
 <td>the <span lang="it">morra</span></td>
-<td>(see {% gameref morra %})</td>
+<td>see {% gameref morra %}</td>
 </tr>
 
 <tr>
@@ -3003,7 +3003,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Des Legens</dt>
 <dd></dd>
 <dt lang="de">Der 31</dt>
-<dd>i.e. <span lang="fr">trente et un</span>, from Rabelais’ list</dd>
+<dd>i.e. <span lang="fr">trente et un</span>, from Rabelais’ list; see {% gameref thirty-one %}</dd>
 <dt lang="de">Marsch</dt>
 <dd>“march”</dd>
 <dt lang="de">Rümpffen</dt>
@@ -3059,17 +3059,17 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Der Palirmül</dt>
 <dd></dd>
 <dt lang="de">Ein und dreissig</dt>
-<dd>(again) <span lang="fr">trente et un</span>, from Rabelais’ list</dd>
+<dd>(again) <span lang="fr">trente et un</span>, from Rabelais’ list; see {% gameref thirty-one %}</dd>
 <dt lang="de">Krumme neun</dt>
-<dd></dd>
+<dd>“crooked nine”</dd>
 <dt lang="de">Rausch</dt>
 <dd>“drunkenness”</dd>
 <dt lang="de">Umbschlagen</dt>
 <dd></dd>
 <dt lang="de">Par mit dem Dantz:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">pair et sequence</span>, from Rabelais’ list</dd>
 <dt lang="de">Trei Hundert:</dt>
-<dd></dd>
+<dd>“three hundred”, i.e. <span lang="fr">troys cents</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Condemnade</dt>
 <dd>i.e. <span lang="fr">la condemnade</span>, from Rabelais’ list</dd>
 <dt lang="de">Non verende</dt>
@@ -3099,9 +3099,10 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Nach dem won:</dt>
 <dd></dd>
 <dt lang="de">Wer eins thut, thu auch das ander</dt>
+<dd>“whoever does one, also does the other”, i.e. <span lang="fr">a qui faict l’un fact l’auitre</span>, from Rabelais’ list</dd>
 <dd></dd>
 <dt lang="de">Sequentz:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">sequence</span>, from Rabelais’ list</dd>
 <dt lang="de">Jeder hab des Mauls acht:</dt>
 <dd></dd>
 <dt lang="de">Der Bonen</dt>
@@ -3109,17 +3110,17 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Des Borers:</dt>
 <dd></dd>
 <dt lang="de">Kochimbert, wer gewint verlört.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">coquimbert, qui gaigne perd</span>, from Rabelais’ list</dd>
 <dt lang="de">Das widerle, wederle.</dt>
 <dd></dd>
 <dt lang="de">Torment</dt>
 <dd>i.e. <span lang="fr">torment</span>, from Rabelais’ list</dd>
 <dt lang="de">Den Schnarcher:</dt>
-<dd></dd>
+<dd>“the snorer”, i.e. <span lang="fr">la ronfle</span>, from Rabelais’ list</dd>
 <dt lang="de">Contemonte</dt>
 <dd></dd>
 <dt lang="de">Des glucks:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">glic</span>, from Rabelais’ list</dd>
 <dt lang="de">Wer find, der gewinnt.</dt>
 <dd></dd>
 <dt lang="de">Der Muter:</dt>
@@ -3129,7 +3130,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Der beschorenen Hund,</dt>
 <dd></dd>
 <dt lang="de">Des Plättlins.</dt>
-<dd></dd>
+<dd>perhaps <span lang="fr">la pille</span>, from Rabelais’ list</dd>
 <dt lang="de">Über eck ins bein,</dt>
 <dd></dd>
 <dt lang="de">Der hupfelrei:</dt>
@@ -3179,7 +3180,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Lausen oder Noppen.</dt>
 <dd></dd>
 <dt lang="de">Fingerschnellen</dt>
-<dd>probably <span lang="fr">morra</span>, from Rabelais’ list</dd>
+<dd>probably <span lang="fr">morra</span>, from Rabelais’ list; see {%gameref morra %}</dd>
 <dt lang="de">Den verkaufften gabelochssen mit Wasser zahln:</dt>
 <dd></dd>
 <dt lang="de">Wer kan siben Lügen</dt>
@@ -3277,25 +3278,25 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Aller heyligen Faß:</dt>
 <dd></dd>
 <dt lang="de">Gott verläugnen:</dt>
-<dd></dd>
+<dd>“renege God”, i.e. <span lang="fr">reniguebieu</span>, from Rabelais’ list</dd>
 <dt lang="de">Frauenspil:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">dames</span>, from Rabelais’ list</dd>
 <dt lang="de">Röpflins:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">au forcé</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Baboben,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">babou</span>, from Rabelais’ list</dd>
 <dt lang="de">Primus secundus:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">primus, secundus</span>, from Rabelais’ list</dd>
 <dt lang="de">Zu underst des messers:</dt>
-<dd></dd>
+<dd>“under the knife", i.e. <span lang="fr">pied du cousteau</span>, from Rabelais’ list</dd>
 <dt lang="de">Des Schlüssels:</dt>
-<dd></dd>
+<dd>“the keys”, i.e. <span lang="fr">clefs</span>, from Rabelais’ list</dd>
 <dt lang="de">Des freien Karrens:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">franc du carreau</span>, from Rabelais’ list</dd>
 <dt lang="de">Grad oder ungrad:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">pair ou non</span>, from Rabelais’ list</dd>
 <dt lang="de">Kreutz oder plättlin:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">croix ou pile</span>, from Rabelais’ list</dd>
 <dt lang="de">Faul faudel:</dt>
 <dd></dd>
 <dt lang="de">Laußknickel:</dt>
@@ -3351,15 +3352,15 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Des Schupletzers</dt>
 <dd></dd>
 <dt lang="de">Hibu.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">hybou</span>, from Rabelais’ list</dd>
 <dt lang="de">Dorelot häßlin.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">dorelot du lievre</span>, from Rabelais’ list</dd>
 <dt lang="de">Tirelitantine</dt>
 <dd>i.e. <span lang="fr">tirelitantaine</span>, from Rabelais’ list</dd>
 <dt lang="de">Färcklin gang du vor.</dt>
 <dd></dd>
 <dt lang="de">Des hörnlins:</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">la corne</span>, from Rabelais’ list</dd>
 <dt lang="de">Des weitlochs:</dt>
 <dd></dd>
 <dt lang="de">Des Habern verkauffens.</dt>
@@ -3387,9 +3388,9 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Von Wollen auf die wellen.</dt>
 <dd></dd>
 <dt lang="de">Burri burrisu</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">bourry bourry zou</span>, from Rabelais’ list</dd>
 <dt lang="de">Ich setz mich:</dt>
-<dd></dd>
+<dd>“I sit down”, i.e. <span lang="fr">a ie m’aſsis</span>, from Rabelais’ list</dd>
 <dt lang="de">Disen angel mein Frau.</dt>
 <dd></dd>
 <dt lang="de">Wendeln im bret,</dt>
@@ -3465,7 +3466,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Des Hogerigen Hofmans.</dt>
 <dd></dd>
 <dt lang="de">Des pimpompens</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">pimpompet</span>, from Rabelais’ list</dd>
 <dt lang="de">Des körblin machens.</dt>
 <dd></dd>
 <dt lang="de">Meidlin sind dir die Schuch recht.</dt>
@@ -3475,9 +3476,9 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Der Abereh.</dt>
 <dd></dd>
 <dt lang="de">Triori.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">au triori</span>, from Rabelais’ list</dd>
 <dt lang="de">Des Zirckels.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">au cercle</span>, from Rabelais’ list</dd>
 <dt lang="de">Kocherspergerdantz.</dt>
 <dd></dd>
 <dt lang="de">Der Spindel.</dt>
@@ -3537,11 +3538,11 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Das wunder,</dt>
 <dd></dd>
 <dt lang="de">Naschettechen Navettechen,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">navette</span>, from Rabelais’ list</dd>
 <dt lang="de">Fessart, Kerbart</dt>
 <dd>i.e. <span lang="fr">fessart</span>, from Rabelais’ list</dd>
 <dt lang="de">Sanct Kosman ich rüff dich an.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">a sainct Cosme, je te veins adorer</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Braunen schröter</dt>
 <dd></dd>
 <dt lang="de">Ich fang euch on ein Meyen.</dt>
@@ -3551,29 +3552,29 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Wol und voll vergeht die Fasten.</dt>
 <dd></dd>
 <dt lang="de">Der gabeligen eychen.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">chesne forchu</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß gegossenen Gauls.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">chevau fondu</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Wolffschwantzes,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">la queue du loup</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß furtz inn halß.</dt>
 <dd></dd>
 <dt lang="de">Willhelm lang mir den spiß.</dt>
-<dd></dd>
+<dd>“Willhelm lend me the spear”, i.e. <span lang="fr">Guillemin baille my ma lance</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Brandelle.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">brandelle</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Muckenwadels</dt>
 <dd></dd>
 <dt lang="de">Mein Oechßlin, mein Oechßlin,</dt>
 <dd></dd>
 <dt lang="de">A propoß.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">propous</span>, from Rabelais’ list</dd>
 <dt lang="de">Der neun Hend,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">neuf mains</span>, from Rabelais’ list</dd>
 <dt lang="de">Chapifon Narrene kopff,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">chapifou</span>, from Rabelais’ list</dd>
 <dt lang="de">Der zerfallenen Brucken,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">ponts cheuz</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß gezäumten schmid Tolins,</dt>
 <dd></dd>
 <dt lang="de">Der Polderigen tobenden Cantzel,</dt>
@@ -3589,59 +3590,59 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Deß Bilgramsteurens,</dt>
 <dd></dd>
 <dt lang="de">Deß Grolle Gollhammers,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">la grolle</span>, from Rabelais’ list</dd>
 <dt lang="de">Seit ihr die braut von Schmollen, so lacht mir eins,</dt>
 <dd></dd>
 <dt lang="de">Deß Kockantins,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">cocquantin</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Mirelimuffle,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">myrelimofle</span>, from Rabelais’ list</dd>
 <dt lang="de">Mouschart,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">mouschart</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Krotten,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">crapault</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Bischofsstabs,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">la crosse</span>, from Rabelais’ list</dd>
 <dt lang="de">Hämmerlin himmerlin,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">piston</span>, from Rabelais’ list</dd>
 <dt lang="de">Bille bocket,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">bille boucquet</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Königin,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">roynes</span>, from Rabelais’ list</dd>
 <dt lang="de">Kopf zu kopf an rechen,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">teste à teste becheval</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Todendantzes,</dt>
 <dd></dd>
 <dt lang="de">Malle mort,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">male mort</span>, from Rabelais’ list</dd>
 <dt lang="de">Krockmolle,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">croquinolles</span>, from Rabelais’ list</dd>
 <dt lang="de">Frau wöllen wir die Kuff wäschen,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">laver la coiffe ma dame</span>, from Rabelais’ list</dd>
 <dt lang="de">Belusteol</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">belusteau</span>, from Rabelais’ list</dd>
 <dt lang="de">Den Habern seyen,</dt>
 <dd></dd>
 <dt lang="de">Deß Deffendo,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">defendo</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Frases,</dt>
 <dd></dd>
 <dt lang="de">Virevoste,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">virevouste</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Bacule,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">la bacule</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Bauren,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">laboureur</span>, from Rabelais’ list</dd>
 <dt lang="de">Die unsinnige esconblette,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">escoublettes enragées</span>, from Rabelais’ list</dd>
 <dt lang="de">Das tod Thier,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">la beste morte</span>, from Rabelais’ list</dd>
 <dt lang="de">Steig, steig auffs leiterlin</dt>
-<dd></dd>
+<dd>“climb, climb the ladder”, i.e. <span lang="fr">monte monte l’eschelette</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Toden Sau,</dt>
-<dd></dd>
+<dd>“the dead sow”, i.e. <span lang="fr">pourceau mory</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß gesaltzenen arß,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">cul-sallé</span>, from Rabelais’ list</dd>
 <dt lang="de">Des Täublins,</dt>
 <dd></dd>
 <dt lang="de">Jeder trott unnd tritt,</dt>
@@ -3661,7 +3662,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Deß Besems,</dt>
 <dd></dd>
 <dt lang="de">Spring auß dem busch.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">sault du buisson</span>, from Rabelais’ list</dd>
 <dt lang="de">Der verborgen Kutten</dt>
 <dd></dd>
 <dt lang="de">Bulgen und Seckel im Arß.</dt>
@@ -3671,29 +3672,29 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Passavant, Passefort</dt>
 <dd></dd>
 <dt lang="de">Der Petarrade.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">petarrades</span>, from Rabelais’ list</dd>
 <dt lang="de">Raht wer hat dich geschlagen?</dt>
 <dd></dd>
 <dt lang="de">Der Senffstempffel.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">pille moustarde</span>, from Rabelais’ list</dd>
 <dt lang="de">Cambos.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">cambos</span>, from Rabelais’ list</dd>
 <dt lang="de">Fürsich, hindersich,</dt>
 <dd></dd>
 <dt lang="de">Raht was ist das?</dt>
 <dd></dd>
 <dt lang="de">Picandeau</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">picandeau</span>, from Rabelais’ list</dd>
 <dt lang="de">Krocketeste, Hackenkopf,</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">crocque teste</span>, from Rabelais’ list</dd>
 <dt lang="de">Deß Kranchs.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">grue</span>, from Rabelais’ list</dd>
 <dt lang="de">Taillecop.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">taillecoup</span>, from Rabelais’ list</dd>
 <dt lang="de">Nasenkönig Nasart.</dt>
-<dd></dd>
+<dd>i.e. <span lang="fr">nazardes</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Lerchen:</dt>
-<dd></dd>
+<dd>“the larks”, i.e. <span lang="fr">allouettes</span>, from Rabelais’ list</dd>
 <dt lang="de">Der Stirnschnallen.</dt>
 <dd></dd>
 <dt lang="de">Der blinden würffel.</dt>
