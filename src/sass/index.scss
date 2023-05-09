@@ -893,3 +893,50 @@ iframe.spotify {
         min-width: 320px;
     }
 }
+
+.full-width {
+    // subtract out scrollbar width
+    width: calc(100vw - 20px);
+    position: relative;
+    left: 0; // xs
+
+    @include media-breakpoint-up(sm) {
+        left: calc(
+            var(--bs-gutter-x) * -0.5
+            /* - 0.083333 * 540px */
+            - ((100vw - 20px) - 540px)/2
+        );
+    }
+
+    @include media-breakpoint-up(md) {
+        left: calc(
+            var(--bs-gutter-x) * -0.5
+            /* - 0.083333 * 720px */
+            - ((100vw - 20px) - 720px)/2
+        );
+    }
+
+    @include media-breakpoint-up(lg) {
+        left: calc(
+            var(--bs-gutter-x) * -0.5
+            - 0.083333 * 960px
+            - ((100vw - 20px) - 960px)/2
+        );
+    }
+
+    @include media-breakpoint-up(xl) {
+        left: calc(
+            var(--bs-gutter-x) * -0.5
+            - 0.083333 * 1140px
+            - ((100vw - 20px) - 1140px)/2
+        );
+    }
+
+    @include media-breakpoint-up(xxl) {
+        left: calc(
+            var(--bs-gutter-x) * -0.5
+            - 0.083333 * 1320px
+            - ((100vw - 20px) - 1320px)/2
+        );
+    }
+}

@@ -214,22 +214,9 @@ For each card in the table below I show (in left-to-right order):
 Modern Malaysian & Singaporean decks (of which I have no samples{%fn%}Yet! Can
 you help with this? Contact me!{%endfn%}) are closer in style to the #1 deck.
 
-Each card in the deck has its own name as listed in the table below. In
-Malaysia/Singapore these are based on the Hokkien names of the cards — a
-combination of suit and rank — but as we move in a south-easterly direction
-along the Malay Archipelago (the table below is listed roughly in this order),
-the names diverge further and further from this original source, and most cards
-have nicknames that are based upon their appearance rather than their numeric
-value.
+Each card in the deck has its own name as listed in the table below.  The translations in the table are mostly from the [SEAlang](http://sealang.net) dictionaries; any mistakes are my own.{%fn%}According to some sources, the word “<span lang="jav-Latn">cina</span>” referring to a Chinese person is now considered a potentially derogatory term. For example, the Indonesian government no longer uses it in official communications, since the term was dropped from official usage by presidential decree in 2014.[@CinaOrTionghua]{%endfn%} In Malaysia/Singapore the names are based on the Hokkien names of the cards — a combination of suit and rank — but as we move in a south-easterly direction along the Malay Archipelago (the table below is listed roughly in this order), the names diverge further and further from this original source, and most cards have nicknames that are based upon their appearance rather than their numeric value.
 
-The translations in the table are mostly from the [SEAlang](http://sealang.net)
-dictionaries; any mistakes are my own.{%fn%}According to some sources, the word
-“<span lang="jav-Latn">cina</span>” referring to a Chinese person is now
-considered a potentially derogatory term. For example, the Indonesian government
-no longer uses it in official communications, since the term was dropped from
-official usage by presidential decree in 2014.[@CinaOrTionghua]{%endfn%}
-
-⚠️ The table is *very wide* and scrolls horizontally.
+⚠️ The table is *very wide* and might scroll horizontally.
 
 <!--
 The columns in
@@ -270,7 +257,7 @@ section of the table is much more imprecise than the previous lines.
 </dl>
 -->
 
-<div class="extra-wide table-responsive">
+<div class="full-width table-responsive">
 <table class="table table-sm small" style="table-layout:fixed">
 <thead>
   <tr>

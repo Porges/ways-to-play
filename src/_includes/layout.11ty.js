@@ -30,7 +30,7 @@ exports.render = async function (data) {
     excerpt = striptags(await this.renderTemplate(stripped, "md"));
   }
 
-  const title = purify(data.title);
+  const title = purify(data.title.replaceAll(tagStripper, ""));
 
   let ogImage = '';
   if (data.mainImage) {

@@ -5366,6 +5366,9 @@ LouisMoland:
     - family: Moland
       given: Louis
       lang: fr
+  publisher:
+    value: Garnier Frères
+    lang: fr
   issued:
     year: 1884
   publisher-place: Paris
@@ -5385,6 +5388,36 @@ EtienneDolet:
   publisher-place: Lyon, France
   issued:
     year: 1542
+Juste1535:
+  type: book
+  URL: https://gallica.bnf.fr/ark:/12148/btv1b86000209/f78.item
+  title: 
+    value: La vie inestimable du grand Gargantua, pere de Pantagruel, iadis cōpoſee par L’abſtracteur de quite eſsēce
+    lang: fr
+  author:
+  - given: François
+    family: Rabelais
+    lang: fr
+  publisher-place: Lyon, France
+  publisher:
+    value: François Juste
+    lang: fr
+  issued: 1535
+Juste1542:
+  type: book
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k1040342n/f134.item
+  title: 
+    value: La vie treshorrificque du grand Gargantua, pere de Pantagruel, iadis cōpoſee par M. Alcofribas abſtracteur de quinte eſſence
+    lang: fr
+  author:
+  - given: François
+    family: Rabelais
+    lang: fr
+  publisher-place: Lyon, France
+  publisher:
+    value: François Juste
+    lang: fr
+  issued: 1542
 Urquhart:
   type: book
   URL: https://archive.org/details/livesheroicdeeds00rabeuoft
