@@ -2892,7 +2892,7 @@ remaining columns are from translations into English.
 </tr>
 
 <tr>
-<td><span lang="fr">au laboureᷣ</span></td>
+<td><span lang="fr">au laboure<sup>ꝛ</sup></span></td>
 <td><span lang="fr">au laboureur</span></td>
 <td><span lang="fr">au laboureur</span></td>
 <td><span lang="fr">au laboureur</span></td>
@@ -2967,7 +2967,7 @@ remaining columns are from translations into English.
 </tr>
 
 <tr>
-<td><span lang="fr">au poᷣceau mory</span></td>
+<td><span lang="fr">au po<sup>ꝛ</sup>ceau mory</span></td>
 <td><span lang="fr">au pourceau moꝛy</span></td>
 <td><span lang="fr">au pourceau mory</span></td>
 <td><span lang="fr">au pourceau moꝛy</span></td>
