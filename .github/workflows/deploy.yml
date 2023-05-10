@@ -38,7 +38,7 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
     - name: Upload to blob storage
-      run: azcopy sync public 'https://waystoplay.blob.core.windows.net/$web' --delete-destination=true
+      run: azcopy sync public 'https://waystoplay.blob.core.windows.net/$web' --delete-destination=true --compare-hash
 
     - name: Purge CDN
       uses: azure/CLI@v1
