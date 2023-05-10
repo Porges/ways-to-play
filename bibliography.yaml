@@ -9224,3 +9224,104 @@ LesLettresDuSeigneurDeLannoy:
     volume: 21
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k6318678q/f231.item
   page: 225-242
+LaLangueDeRabelais:
+  type: book
+  title:
+    value: La Lange de Rabelais
+    lang: fr
+  author:
+  - given: Lazare
+    family: Sainéan
+    lang: fr
+    alt: <span lang="ro" class="noun">Lazăr Șăineanu</span>
+  publisher:
+    value: E. de Boccard
+    lang: fr
+  publisher-place: Paris
+  volume: 1
+  volume-title:
+    value: Civilisation de la Renaissance
+    lang: fr
+  issued: 1922
+AllDeGeestigeWerken:
+  type: book
+  title:
+    value: Alle de Geestige Werken van Mr. Francois Rabelais
+    lang: nl
+  author:
+  - given: Claudio
+    family: Gallitalo
+    alt: Nicolaas Jarichides Wieringa
+  publisher:
+    value: Jan ten Hoorn
+    lang: nl
+  publisher-place: Amsterdaa
+  issued: 1682
+PhilipSkippon:
+  type: book
+  title: An Account of a Journey Made Thro’ Part of the Low-Countries, Germany, Italy, and France
+  author:
+  - given: Philip
+    family: Skippon
+  URL: https://archive.org/details/accountofjourney00skip
+  issued: 1732
+  volume: 6
+EncycloBasset:
+  type: webpage
+  URL: http://hdl.handle.net/2027/spo.did2222.0001.115
+  title: Basset
+  author:
+  - given: Jean le Rond
+    family: d’Alembert
+  translator:
+  - given: Richard J.
+    family: Pulskamp
+  container-title: The Encyclopedia of Diderot & d'Alembert Collaborative Translation Project
+  issued: 2009
+  publisher: Michigan Publishing, University of Michigan
+  publisher-place: Ann Arbor
+WorldeOfWordes:
+  type: book
+  title: A Worlde of Wordes, or Moſt copious and exact Dictionarie in Italian and English
+  author:
+  - given: John
+    family: Florio
+  publisher: Edward Blount
+  publisher-place: London
+  issued: 1598
+  URL: https://archive.org/details/dli.calcutta.09993
+LifeOfRichardNash:
+  type: book
+  title: The Life of Richard Nash, Eſq; Late Master of the Ceremonies at Bath
+  author:
+  - given: Oliver
+    family: Goldsmith
+  issued: 1762
+  publisher-place: London
+  edition: 2
+  URL: https://archive.org/details/liferichardnash00nashgoog
+VotariesI: &VotariesI
+  type: book
+  URL: https://archive.org/details/gamingtableitsvo01steiuoft
+  author:
+  - given: Andrew
+    family: Steinmetz
+  volume: 1
+  issued: 1870
+  title: "The Gaming Table: Its Votaries and Victims, in all Times and Countries, especially in England and in France"
+  publisher-place: London
+  publisher: Tinsley Brothers
+VotariesII:
+  <<: *VotariesI
+  URL: https://archive.org/details/gamingtableitsvo02steiuoft
+  volume: 2
+CostumeOfYorkshire:
+  type: book
+  title: The Costume of Yorkshire, illustrated by a series of forty engravings
+  author:
+  - given: George
+    family: Walker
+  issued: 1814
+  publisher: T. Bensley
+  publisher-place: London
+  URL: https://digitalcollections.nypl.org/collections/the-costume-of-yorkshire-illustrated-by-a-series-of-forty-engravings-being#/?tab=about

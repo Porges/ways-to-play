@@ -14,14 +14,13 @@ work-in-progress.
 The first five columns give the lists from five different French editions; the
 remaining columns are from translations into English.
 
+The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (German, 1590) are given beneath the table as they diverge significantly.
+
 ⚠️ Note that the entries in the Screech column are out of sync with the others and I haven’t had time to match them up yet.
 
 ⚠️ This table is very wide and might scroll horizontally. My notes are at the far right.
 
 <!-- Putnam doesn’t attempt translation -->
-
-<!-- source for games! https://archive.org/details/lalanguederabela01sain/page/286/mode/2up?q=jeux -->
-<!-- tables games: https://gallica.bnf.fr/ark:/12148/bpt6k98003639.texteImage -->
 
 <div class="full-width table-responsive">
 <table class="table table-sm small">
@@ -3336,6 +3335,16 @@ remaining columns are from translations into English.
 
 ## The list in depth
 
+<!-- tables games: https://gallica.bnf.fr/ark:/12148/bpt6k98003639.texteImage -->
+
+<!--
+
+images, including chapifou https://www.istockphoto.com/vector/rabelais-games-of-gargantua-jeu-du-chapifou-gm538491410-95775259
+
+-->
+
+For more on the games, see @LaLangueDeRabelais [p. 278–91].
+
 ### Card games
 
 The first set of entries in the list are either card games or terms used in card
@@ -3376,6 +3385,170 @@ gambling game (called in French <span lang="fr">la bête</span>) in which the
 term was used. Perhaps he was aware of this. 
 
 </dd>
+</dl>
+
+## Nicolaas Jarichides Wiringa’s list 
+
+As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](https://www.let.leidenuniv.nl/Dutch/Renaissance/Rabelais1682.html#121)).
+
+<dl>
+<dt lang="nl">Van den vloed</dt>
+<dd>“flood”, i.e. <span lang="fr">flux</span>, from Rabelais’ list</dd>
+<dt lang="nl">Van de voorsten, of derde zoeken</dt><dd></dd>
+<dt lang="nl">Van de vlugt, of sakjagen</dt><dd></dd>
+<dt lang="nl">Van ’t pand-rooven</dt><dd></dd>
+<dt lang="nl">Van ’t troeven</dt><dd></dd>
+<dt lang="nl">Van ’t piketten</dt><dd></dd>
+<dt lang="nl">Van ten honderden uit</dt><dd></dd>
+<dt lang="nl">Van der Haagen</dt><dd></dd>
+<dt lang="nl">Van ’t rampen</dt><dd></dd>
+<dt lang="nl">Van ’t schuiren</dt><dd></dd>
+<dt lang="nl">Van ’t pas-dijsen</dt>
+<dd>i.e. <span lang="fr">passe-dix</span>, from Rabelais’ list</dd>
+<dt lang="nl">Van ten een en dertigen uit</dt><dd></dd>
+<dt lang="nl">Van twee en twee</dt><dd></dd>
+<dt lang="nl">Van ten driehonderden uit</dt><dd></dd>
+<dt lang="nl">Van de verloorene</dt><dd></dd>
+<dt lang="nl">Van de verweesene</dt><dd></dd>
+<dt lang="nl">Van de vermorste kaart</dt><dd></dd>
+<dt lang="nl">Van d’ onvernoegde</dt><dd></dd>
+<dt lang="nl">Van ’t Landsknegten</dt><dd></dd>
+<dt lang="nl">Van de Koekoek</dt><dd></dd>
+<dt lang="nl">Van diese heeft, spreek</dt><dd></dd>
+<dt lang="nl">Van op en af</dt><dd></dd>
+<dt lang="nl">Van pijke, delje</dt><dd></dd>
+<dt lang="nl">Van schoon Bely</dt><dd></dd>
+<dt lang="nl">Van kikkermik</dt><dd></dd>
+<dt lang="nl">Van ik denk</dt><dd></dd>
+<dt lang="nl">Van doe dit, doe dat</dt><dd></dd>
+<dt lang="nl">Van ka, ka, volgme na</dt><dd></dd>
+<dt lang="nl">Van de dwerl loop of wild jagen
+<dt lang="nl">Van ’t Osje</dt>
+<dd>“owl” i.e. <span lang="fr">hybou</span>, from Rabelais’ list</dd>
+<dt lang="nl">Van die wint, verliest</dt><dd></dd>
+<dt lang="nl">Van wiege wage</dt><dd></dd>
+<dt lang="nl">Van draije wy</dt><dd></dd>
+<dt lang="nl">Van Amerol</dt><dd></dd>
+<dt lang="nl">Van hijp hap</dt><dd></dd>
+<dt lang="nl">Van wie vint, die wint</dt><dd></dd>
+<dt lang="nl">Van dammen</dt><dd></dd>
+<dt lang="nl">Van schaaken</dt><dd></dd>
+<dt lang="nl">Van Reintje de vos</dt><dd></dd>
+<dt lang="nl">Van moertje, moertje</dt><dd></dd>
+<dt lang="nl">Van ’t Koeytje</dt><dd></dd>
+<dt lang="nl">Van blanke bestemoer</dt><dd></dd>
+<dt lang="nl">Van Jan springt hoger als Trijn</dt><dd></dd>
+<dt lang="nl">Van drie Teerlingen</dt><dd></dd>
+<dt lang="nl">Van Tafeltje rond-om</dt><dd></dd>
+<dt lang="nl">Van knik, knak knelis</dt><dd></dd>
+<dt lang="nl">Van ’t bikkelen</dt><dd></dd>
+<dt lang="nl">Van houd op en houd an</dt><dd></dd>
+<dt lang="nl">Van Tik-takken</dt><dd></dd>
+<dt lang="nl">Van ’t Ganse berd</dt><dd></dd>
+<dt lang="nl">Van Uille berd</dt><dd></dd>
+<dt lang="nl">Van wie wil ’t robje vangen</dt><dd></dd>
+<dt lang="nl">Van ’t Vrouwtje</dt><dd></dd>
+<dt lang="nl">Van ’t spookertje</dt><dd></dd>
+<dt lang="nl">Van ik eerst, ik andert</dt><dd></dd>
+<dt lang="nl">Van met steekers te werpen</dt><dd></dd>
+<dt lang="nl">Van de sleuteltjes</dt><dd></dd>
+<dt lang="nl">Van goe-man</dt><dd></dd>
+<dt lang="nl">Van eeven of on-eeven</dt><dd></dd>
+<dt lang="nl">Van kruis of munt</dt><dd></dd>
+<dt lang="nl">Van ’t Martertje</dt><dd></dd>
+<dt lang="nl">Van vogeltje vet</dt><dd></dd>
+<dt lang="nl">Van kloot schieten</dt><dd></dd>
+<dt lang="nl">Van ’t Schoenlappertje</dt><dd></dd>
+<dt lang="nl">Van den Uyl</dt><dd></dd>
+<dt lang="nl">Van d’ hond na ’t haasje</dt><dd></dd>
+<dt lang="nl">Van Lanterluyen</dt><dd></dd>
+<dt lang="nl">Van Verkentje gaat voor</dt><dd></dd>
+<dt lang="nl">Van ’t Aaxtertje</dt><dd></dd>
+<dt lang="nl">Van den toet-hoorn</dt><dd></dd>
+<dt lang="nl">Van Adieu</dt><dd></dd>
+<dt lang="nl">Van de nieuwe Neepjes</dt><dd></dd>
+<dt lang="nl">Van Ulenspiegel in de byenkorf</dt><dd></dd>
+<dt lang="nl">Van ’t Paardje te beslaan</dt><dd></dd>
+<dt lang="nl">Van ’t schrobbelen</dt><dd></dd>
+<dt lang="nl">Van waar zal die man staan?
+<dt lang="nl">Van Hand-slag</dt><dd></dd>
+<dt lang="nl">Van stomme beevaard</dt><dd></dd>
+<dt lang="nl">Van in ’t touwtje te springen</dt><dd></dd>
+<dt lang="nl">Van ’t speetje te wenden</dt><dd></dd>
+<dt lang="nl">Van over de steen te trekken</dt><dd></dd>
+<dt lang="nl">Van den sak te dragen</dt><dd></dd>
+<dt lang="nl">Van ’t rammelaartje</dt><dd></dd>
+<dt lang="nl">Van eeven uit, even in</dt><dd></dd>
+<dt lang="nl">Van val, vijgje, val</dt><dd></dd>
+<dt lang="nl">Van Heerom danst in ’t hemd</dt><dd></dd>
+<dt lang="nl">Van, wie zal ik gooije?
+<dt lang="nl">Van ’t vosje villen</dt><dd></dd>
+<dt lang="nl">Van versche ton</dt><dd></dd>
+<dt lang="nl">Van haver verkopen</dt><dd></dd>
+<dt lang="nl">Van doove koolen op Blasen</dt><dd></dd>
+<dt lang="nl">Van vraag en antwoord</dt><dd></dd>
+<dt lang="nl">Van, leeft het manneken, of ist dood</dt><dd></dd>
+<dt lang="nl">Van d’ yzers uit den oven</dt><dd></dd>
+<dt lang="nl">Van den Boosen boerman</dt><dd></dd>
+<dt lang="nl">Van ’t afbossen</dt><dd></dd>
+<dt lang="nl">Van den gebulten hoveling</dt><dd></dd>
+<dt lang="nl">Van den gevonden heilig</dt><dd></dd>
+<dt lang="nl">Van de Mey te planten</dt><dd></dd>
+<dt lang="nl">Van pimpampet</dt><dd></dd>
+<dt lang="nl">Van t hoepelen</dt><dd></dd>
+<dt lang="nl">Van ’t pinken</dt><dd></dd>
+<dt lang="nl">Van de Quinkert</dt><dd></dd>
+<dt lang="nl">Van de rol</dt><dd></dd>
+<dt lang="nl">Van hol of bol</dt><dd></dd>
+<dt lang="nl">Van ’t Duinkerkertje</dt><dd></dd>
+<dt lang="nl">Van Spinloo</dt><dd></dd>
+<dt lang="nl">Van Balslaan</dt><dd></dd>
+<dt lang="nl">Van kaatsen</dt><dd></dd>
+<dt lang="nl">Van kolven</dt><dd></dd>
+<dt lang="nl">Van ’t kooten</dt><dd></dd>
+<dt lang="nl">Van knikkeren</dt><dd></dd>
+<dt lang="nl">Van ’t keegelen</dt><dd></dd>
+<dt lang="nl">Van ’t palet</dt><dd></dd>
+<dt lang="nl">Van ’t rinket</dt><dd></dd>
+<dt lang="nl">Van ’t schrik setten</dt><dd></dd>
+<dt lang="nl">Van ’t tol setten</dt><dd></dd>
+<dt lang="nl">Van den tol te slaan</dt><dd></dd>
+<dt lang="nl">Van schoppen</dt><dd></dd>
+<dt lang="nl">Van schijven</dt><dd></dd>
+<dt lang="nl">Van trokken</dt><dd></dd>
+<dt lang="nl">Van klossen</dt><dd></dd>
+<dt lang="nl">Van negen kuyl</dt><dd></dd>
+<dt lang="nl">Van kritsen</dt><dd></dd>
+<dt lang="nl">Van Heeven</dt><dd></dd>
+<dt lang="nl">Van ik zat en ik zat</dt><dd></dd>
+<dt lang="nl">Van straatjen over</dt><dd></dd>
+<dt lang="nl">Van de derden zoeken</dt><dd></dd>
+<dt lang="nl">Van ’t molenaartje</dt><dd></dd>
+<dt lang="nl">Van den windbol</dt><dd></dd>
+<dt lang="nl">Van blindpot</dt><dd></dd>
+<dt lang="nl">Van paardje sta vast</dt><dd></dd>
+<dt lang="nl">Van steentje veerder</dt><dd></dd>
+<dt lang="nl">Van neus in aars</dt><dd></dd>
+<dt lang="nl">Van Frankvoort een huysje bet voort</dt><dd></dd>
+<dt lang="nl">Van kap-monik</dt><dd></dd>
+<dt lang="nl">Van ik visch ik visch</dt><dd></dd>
+<dt lang="nl">Van Suiker-oompje</dt><dd></dd>
+<dt lang="nl">Van, moet ik inje landje treden?
+<dt lang="nl">Van ’t begraasen</dt><dd></dd>
+<dt lang="nl">Van beuijtelen</dt><dd></dd>
+<dt lang="nl">Van springen</dt><dd></dd>
+<dt lang="nl">Van rij-schenkelen
+<dt lang="nl">Van ’t hinkelen
+<dt lang="nl">Van man, man ik ben opje blokhuys</dt><dd></dd>
+<dt lang="nl">Van schuile-wink</dt><dd></dd>
+<dt lang="nl">Van molle molle mol</dt><dd></dd>
+<dt lang="nl">Van soute-moute</dt><dd></dd>
+<dt lang="nl">Van ’t zooltje</dt><dd></dd>
+<dt lang="nl">Van alle ambachten</dt><dd></dd>
+<dt lang="nl">Van toffeltje geit</dt><dd></dd>
+<dt lang="nl">Van strootje trekken</dt><dd></dd>
+<dt lang="nl">Van tuimel in de peeperzak</dt><dd></dd>
+<dt lang="nl">Van ’t knippen</dt><dd></dd>
 </dl>
 
 ## Johann Fischarts’ list

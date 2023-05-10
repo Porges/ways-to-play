@@ -18,6 +18,7 @@ export function renderReference(ref: BiblioRef): string {
         + renderTitle(ref)
         + ('series' in ref ? renderSeries(ref, '; ', '') : '')
         + '. '
+        + renderTranslator(ref)
         + renderPatentBits(ref)
         + renderContainer(ref)
         + (ref.type === 'thesis' ? ` ${ref.genre}, ` : '')
@@ -180,6 +181,14 @@ const renderAuthors = (reference: Reference) => {
     } else {
         return `<i>Anonymous</i> `;
     }
+}
+
+function renderTranslator(reference: Reference) {
+    if ('translator' in reference && reference.translator) {
+        return ` Translated by ${renderPeople(reference.translator, false, false, 'translator')}. `
+    }
+
+    return '';
 }
 
 const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: boolean, itemprop: string) => {
