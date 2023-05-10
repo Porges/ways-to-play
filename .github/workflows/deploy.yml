@@ -44,28 +44,31 @@ jobs:
       run: |
         noHeaderFilter='.[] | select(.properties.contentSettings.cacheControl == null) | .name'
 
+        export AZURE_STORAGE_AUTH_MODE=login
+        export AZURE_STORAGE_ACCOUNT=waystoplay
+
         # fonts - 6 months
-        blobs=$(az storage blob list --account-name waystoplay --container-name '$web' --prefix fonts/ | jq -r "$noHeaderFilter")
+        blobs=$(az storage blob list --container-name '$web' --prefix fonts/ | jq -r "$noHeaderFilter")
         for blob in $blobs; do
-          az storage blob update --account-name waystoplay --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
+          az storage blob update --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
         done
 
         # images - 6 months
-        blobs=$(az storage blob list --account-name waystoplay --container-name '$web' --prefix img/ | jq -r "$noHeaderFilter")
+        blobs=$(az storage blob list -container-name '$web' --prefix img/ | jq -r "$noHeaderFilter")
         for blob in $blobs; do
-          az storage blob update --account-name waystoplay --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
+          az storage blob update --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
         done
 
         # small-images - 6 months
-        blobs=$(az storage blob list --account-name waystoplay --container-name '$web' --prefix small-images/ | jq -r "$noHeaderFilter")
+        blobs=$(az storage blob list --container-name '$web' --prefix small-images/ | jq -r "$noHeaderFilter")
         for blob in $blobs; do
-          az storage blob update --account-name waystoplay --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
+          az storage blob update --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
         done
 
         # audio - 6 months
-        blobs=$(az storage blob list --account-name waystoplay --container-name '$web' --prefix audio/ | jq -r "$noHeaderFilter")
+        blobs=$(az storage blob list --container-name '$web' --prefix audio/ | jq -r "$noHeaderFilter")
         for blob in $blobs; do
-          az storage blob update --account-name waystoplay --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
+          az storage blob update --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
         done
 
     - name: Purge CDN
