@@ -1,40 +1,33 @@
 const { ifSet, asAttr, purify } = require('../../helpers');
 const path = require('path');
 const Image = require('@11ty/eleventy-img');
+const { JSDOM } = require('jsdom');
 
 exports.data = {
   title: "Ways to Play"
 };
 
-const tagStripper = /<[^>]*?>/g;
-const bracketStripper = /\[[^\]]*?\]/g;
-const parenStripper = / \([^)]*?\)/g;
-const newlineStripper = /\r\n|\n/g;
-
-function striptags(excerpt) {
-  return purify(excerpt
-    .replaceAll(tagStripper, "")
-    .replaceAll(bracketStripper, "")
-    .replaceAll(parenStripper, "")
-    .replaceAll(newlineStripper, " ")
-    .trim());
-}
-
-const footnoteStripper = /\{%fn%\}.*?\{%endfn%\}/gs;
-const citeStripper = /\[@.*?\]/gs;
+const leadMatcher = /<p class="lead">(.*?)<\/p>/s;
 
 exports.render = async function (data) {
-  let excerpt = "";
-  if (data.page.excerpt) {
-    const stripped = data.page.excerpt.replaceAll(footnoteStripper, "").replaceAll(citeStripper, "");
-    excerpt = striptags(await this.renderTemplate(stripped, "md"));
+
+  let excerpt = data.content.match(leadMatcher)?.[1];
+  if (excerpt) {
+    const frag = JSDOM.fragment(excerpt);
+    frag.childNodes.forEach(n => {
+      if (n.className === "citation" || n.className === "footnote") {
+        n.remove();
+      }
+    });
+
+    excerpt = frag.textContent.trim();
   }
 
-  const title = purify(data.title.replaceAll(tagStripper, ""));
+  const title = JSDOM.fragment(data.title).textContent.trim();
 
   let ogImage = '';
-  if (data.mainImage) {
-    const basedSrc = path.join(path.dirname(data.page.inputPath), data.mainImage);
+  if (data.mainImage || data.hero) {
+    const basedSrc = path.join(path.dirname(data.page.inputPath), data.mainImage || data.hero.image);
     const metadata = await Image(basedSrc, {
       widths: [1600],
       formats: [null],
@@ -42,7 +35,7 @@ exports.render = async function (data) {
     });
 
     ogImage = data.site.url + metadata[Object.keys(metadata)[0]][0].url;
-  }
+  } 
 
   return `<!doctype html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#">
@@ -62,9 +55,9 @@ exports.render = async function (data) {
     <meta property="og:site_name" content="Ways To Play" />
     <meta property="og:title" content="${title}"${asAttr('lang', data.titleLang)} />
     <meta property="og:url" content="${data.page.url}" />
-    ${ifSet(data.ogType, `<meta property="og:type" content="${data.ogType}" />`)}
-    ${ifSet(ogImage, `<meta property="og:image" content="${ogImage}" />`)}
-    ${ifSet(excerpt, `<meta property="og:description" content="${excerpt}" />`)}
+    ${ifSet(data.ogType, ogt => `<meta property="og:type" content="${ogt}" />`)}
+    ${ifSet(ogImage, i => `<meta property="og:image" content="${i}" />`)}
+    ${ifSet(excerpt, e => `<meta property="og:description" content="${e}" /><meta name="description" content="${e}" />`)}
     <script type="module">
       function doHashPopup({newURL, oldURL}) {
         if (oldURL) {

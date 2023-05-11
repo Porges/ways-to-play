@@ -65,11 +65,6 @@ module.exports = function (eleventyConfig) {
     key: "11ty.js"
   });
 
-  eleventyConfig.setFrontMatterParsingOptions({
-    excerpt: true,
-    excerpt_separator: '<!-- excerpt -->',
-  });
-
   eleventyConfig.addShortcode("person", person);
   eleventyConfig.addShortcode("organization", organization);
   eleventyConfig.addShortcode("license", license);
