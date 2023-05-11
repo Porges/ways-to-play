@@ -258,7 +258,19 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 ### <span class="noun aka" lang="jav-Latn">Gonggong</span>
 
-<span class="noun" lang="jav-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] The game as played in Surakarta was described as follows:
+<span class="noun" lang="jav-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.
+
+{%image src="74334415_1705918149541872_2426033331075284992_n.jpg"
+  alt="A black-and-white photograph of ten people sitting in a circle on a mat, mostly men, several are wearing pork-pie hats. They are holding cards, and in the centre of the mat is a plate holding ceki cards."
+  license="with-permission"
+  authorGiven="Hans"
+  authorFamily="van der Horst"
+  originalUrl="https://www.facebook.com/Nickerianen/posts/pfbid0onFnYziW2UL8evg91FSZswgUdrrSTAfbyKzh39SrSbh6wEuE6cnSHHjx8UC5fyByl" %}
+A group of people playing Gonggong in the 1970s in Nickerie, Suriname.
+{%imageEnd%}
+
+
+The game as played in Surakarta was described as follows:
 
 It is played with six sets of cards (180 cards) for four players, or eight sets (240 cards) for six players. Deal 14 cards each and play as with <span class="noun" lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called a <span lang="jav-Latn">bak</span>) must be completed.
 
