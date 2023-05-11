@@ -54,7 +54,7 @@ jobs:
         done
 
         echo images - 6 months
-        blobs=$(az storage blob list -container-name '$web' --prefix img/ | jq -r "$noHeaderFilter")
+        blobs=$(az storage blob list --container-name '$web' --prefix img/ | jq -r "$noHeaderFilter")
         for blob in $blobs; do
           az storage blob update --container-name '$web' --name "$blob" --content-cache 'max-age=15768000'
         done
