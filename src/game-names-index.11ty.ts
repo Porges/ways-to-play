@@ -1,5 +1,5 @@
 import { IS_PRODUCTION } from "../helpers";
-import { Context, Data } from "../types";
+import { Data } from "../types";
 
 export const data = {
     title: "Game Names Index",

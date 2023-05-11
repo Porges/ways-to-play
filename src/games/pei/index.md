@@ -53,6 +53,7 @@ There are five possible scoring combinations.
     size="small"
     position="right"
     justify="centered"
+    hidden=true
     src="../../articles/cards/ceki/CC1.jpg;../../articles/cards/ceki/CC2.jpg;../../articles/cards/ceki/CC3.jpg"
     alt=";;" %}
 The first three cards of the coin suit must be obtained in order to score <span lang="jav-Latn">bunci ireng</span>.  {%imageEnd%}
@@ -68,6 +69,7 @@ The maximum score possible would be all 9 cards for 113 points.
     justify="centered"
     position="right"
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/CS9.jpg"
     alt=";;" %}
 The red-stamped cards.
@@ -82,6 +84,7 @@ This combination is formed from one of each of the three red-stamped cards. It i
     justify="centered"
     position="right"
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CWF.jpg;../../articles/cards/ceki/CS8.jpg;../../articles/cards/ceki/CM9.jpg"
     alt=";;" %}
 The cards for <span lang="jav-Latn">Kéyang</span>.
@@ -96,6 +99,7 @@ This combination is formed from one of each of White Flower, 8 of strings, and 9
     justify="centered"
     position="right"
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CC8.jpg;../../articles/cards/ceki/CS2.jpg;../../articles/cards/ceki/CM2.jpg"
     alt=";;" %}
 The cards for <span lang="jav-Latn">Pang</span>.
@@ -110,6 +114,7 @@ This combination is formed from one of each of the 8 of coins, 2 of strings, and
     justify="centered"
     position="right"
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CC9.jpg;../../articles/cards/ceki/CS1.jpg;../../articles/cards/ceki/CM1.jpg"
     alt=";;" %}
 The cards for <span lang="jav-Latn">Macan</span>.

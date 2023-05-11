@@ -80,6 +80,7 @@ There are ten cards in this group: the Myriad cards from {% cards '2–9' %} are
     noborder=true
     size="small"
     src="../../articles/cards/ceki/COT.jpg"
+    hidden=true
     alt="" %}
 Old Thousand is the highest-ranking card in this group.
 {%imageEnd%}
@@ -87,6 +88,7 @@ Old Thousand is the highest-ranking card in this group.
     noborder=true
     size="small"
     src="../../articles/cards/ceki/CRF.jpg"
+    hidden=true
     alt="" %}
 Red Flower is the second-highest.
 {%imageEnd%}
@@ -95,6 +97,7 @@ Red Flower is the second-highest.
 {% image
     noborder=true
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CM2.jpg;../../articles/cards/ceki/CM3.jpg;../../articles/cards/ceki/CM4.jpg;../../articles/cards/ceki/CM5.jpg;../../articles/cards/ceki/CM6.jpg;../../articles/cards/ceki/CM7.jpg;../../articles/cards/ceki/CM8.jpg;../../articles/cards/ceki/CM9.jpg"
     alt=";;;;;;;" %}
 Then the rest of the Myriads cards (aside from {% cards '1' %}) are ranked equally.
@@ -108,6 +111,7 @@ There are only two cards in this group; the 4 of Coins outranks the 3 of Coins.
 {% image
     noborder=true
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CC4.jpg"
     alt="" %}
 4 Coins is the higher-ranking.
@@ -115,6 +119,7 @@ There are only two cards in this group; the 4 of Coins outranks the 3 of Coins.
 {% image
     noborder=true
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CC3.jpg"
     alt="" %}
 3 Coins is the lower-ranking.
@@ -129,6 +134,7 @@ There are only two cards in this group; the 9 of Coins outranks the 8 of Coins.
 {% image
     noborder=true
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CC9.jpg"
     alt="" %}
 9 Coins is the higher-ranking.
@@ -136,6 +142,7 @@ There are only two cards in this group; the 9 of Coins outranks the 8 of Coins.
 {% image
     noborder=true
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CC8.jpg"
     alt="" %}
 8 Coins is the lower-ranking.
@@ -151,6 +158,7 @@ There are four cards in this group; the 9 of Strings outranks the 8 of Strings, 
 {% image
     noborder=true
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CS9.jpg"
     alt="" %}
 9 Strings is the highest-ranking.
@@ -158,6 +166,7 @@ There are four cards in this group; the 9 of Strings outranks the 8 of Strings, 
 {% image
     noborder=true
     size="small"
+    hidden=true
     src="../../articles/cards/ceki/CS8.jpg"
     alt="" %}
 8 Strings is the second-highest.
@@ -167,6 +176,7 @@ There are four cards in this group; the 9 of Strings outranks the 8 of Strings, 
     size="small"
     justify="centered"
     alt=";"
+    hidden=true
     src="../../articles/cards/ceki/CS7.jpg;../../articles/cards/ceki/CS5.jpg" %}
 5 & 7 Strings are ranked equally.
 {%imageEnd%}
@@ -184,6 +194,7 @@ The cards are:
     noborder=true
     size="small"
     justify="centered"
+    hidden=true
     src="../../articles/cards/ceki/CWF.jpg;../../articles/cards/ceki/CM1.jpg;../../articles/cards/ceki/CS1.jpg;../../articles/cards/ceki/CC1.jpg"
     alt=";;;" %}
 All non-red rank-1 cards.
@@ -193,6 +204,7 @@ All non-red rank-1 cards.
     noborder=true
     size="small"
     justify="centered"
+    hidden=true
     src="../../articles/cards/ceki/CS2.jpg;../../articles/cards/ceki/CS3.jpg;../../articles/cards/ceki/CS4.jpg;../../articles/cards/ceki/CS6.jpg"
     alt=";;;" %}
 The 2, 3, 4, and 6 of Strings.
@@ -203,6 +215,7 @@ The 2, 3, 4, and 6 of Strings.
     size="small"
     justify="centered"
     alt=";;;"
+    hidden=true
     src="../../articles/cards/ceki/CC2.jpg;../../articles/cards/ceki/CC5.jpg;../../articles/cards/ceki/CC6.jpg;../../articles/cards/ceki/CC7.jpg" %}
 The 2, 5, 6, and 7 of Coins.
 {%imageEnd%}

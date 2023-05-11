@@ -53,6 +53,7 @@ captured cards.
     noborder=true
     justify="centered"
     alt=";;"
+    hidden=true
     src="../../articles/cards/ceki/CS9.jpg;../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/COT.jpg" %}
 There are three types of red-stamped cards in the deck (twelve cards total).
 {% imageEnd %}

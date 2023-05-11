@@ -71,7 +71,8 @@ When played on a board with diagonals, mills are not usually permitted to be mad
 
 {% image 
     alt="A weathered Nine Men’s Morris board scratched into a rock."
-    src='DSCF0525.jpg' %}
+    src='DSCF0525.jpg'
+    copyrightYear=2014 %}
 A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
 {% imageEnd %} 
 

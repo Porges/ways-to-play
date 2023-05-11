@@ -2099,29 +2099,21 @@ in the 1920s.
 ### <span class="noun" lang="ja-Latn">Suisando</span> (<span lang="ja">翠山堂</span>)
 
 A manufacturer that has a very finely-detailed deck of cards reproduced in
-@Hargrave [p. 13].
+@Hargrave [p. 13]. I know of no further information about them.
 
 ### <img src='/small-images/marutano.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nihon Goraku</span> (<span lang="ja">日本娯楽</span>)
 
 {% image 
     src='NG_bamboo.jpg'
     alt=""
+    size="small"
     position="right"
     license='with-permission',
     authorFamily="Richert", authorGiven="Marcus" %}
 <span class="noun" lang="ja-Latn">Nihon Goraku</span>’s <span lang="ja-Latn">takejirushi</span> wrapper.
 {% imageEnd %}
 
-<span class="noun" lang="ja-Latn">Nihon Goraku</span> was founded in 1945 as <span class="noun"
-lang="ja-Latn">Takahashi Shōten</span> (<span lang="ja">高橋商店</span>), was
-renamed <span class="noun" lang="ja-Latn">Nishinihon Koppai</span> (<span lang="ja">西日本骨
-牌</span>) in 1966, and became <span class="noun" lang="ja-Latn">Nihon Goraku</span> in
-1968.[@NihonGoraku] They were based in <span class="noun" lang="ja-Latn">Shinhama</span>,
-[<span class="noun" lang="ja-Latn">Onomichi</span>
-city](https://en.wikipedia.org/wiki/Onomichi,_Hiroshima), <span class="noun"
-lang="ja-Latn">Hiroshima</span> (<span lang="ja">広島県尾道市新浜</span>), and
-originally had their cards manufactured by <span class="noun" lang="">Kyōto Karuta</span>.
-Nowadays the company imports musical instruments.
+<span class="noun" lang="ja-Latn">Nihon Goraku</span> was founded in 1945 as <span class="noun" lang="ja-Latn">Takahashi Shōten</span> (<span lang="ja">高橋商店</span>), was renamed <span class="noun" lang="ja-Latn">Nishinihon Koppai</span> (<span lang="ja">西日本骨 牌</span>) in 1966, and became <span class="noun" lang="ja-Latn">Nihon Goraku</span> in 1968.[@NihonGoraku] They were based in <span class="noun" lang="ja-Latn">Shinhama</span>, [<span class="noun" lang="ja-Latn">Onomichi</span> city](https://en.wikipedia.org/wiki/Onomichi,_Hiroshima), <span class="noun" lang="ja-Latn">Hiroshima</span> (<span lang="ja">広島県尾道市新浜</span>), and originally had their cards manufactured by <span class="noun" lang="">Kyōto Karuta</span>. Nowadays the company imports musical instruments.
 
 Their mark was circled <span lang="ja">娯</span>, and brands included:
 
@@ -2144,17 +2136,14 @@ October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<spa
 西口榮助</span>).[@Trademarks1924_7 p. 226]
 {% imageEnd %}
 
-<span class="noun" lang="ja-Latn">Nishi&shy;gushi</span> also manufactured board games (such
-as {% gameref gunjin-shogi %}) Some of their decks were manufactured by <span class="noun"
-lang="ja-Latn">Nihon Karuta</span>. Their mark was a circled <span
-class="circled" lang="ja">榮</span>, the same as <span class="noun"
-lang="ja-Latn">Kyōwadō</span>. Brands included:
+{% image size="small" position="right" src='NS_otanoshimi.jpg' alt="A hanafuda wrapper showing images of hanafuda cards." %}
+The <span lang="ja-Latn">otanoshimi</span> wrapper.
+{% imageEnd %}
+
+<span class="noun" lang="ja-Latn">Nishi&shy;gushi</span> also manufactured board games (such as {% gameref gunjin-shogi %}) Some of their decks were manufactured by <span class="noun" lang="ja-Latn">Nihon Karuta</span>. Their mark was a circled <span class="circled" lang="ja">榮</span>, the same as <span class="noun" lang="ja-Latn">Kyōwadō</span>. Brands included:
 
 * <span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)
 
-{% image src='NS_otanoshimi.jpg' alt="A hanafuda wrapper showing images of hanafuda cards." %}
-The <span lang="ja-Latn">otanoshimi</span> wrapper.
-{% imageEnd %}
 
 ### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kyōwadō</span> (<span lang="ja">京和堂</span>)
 
@@ -2240,16 +2229,7 @@ included:
 
 ### <img src='/small-images/marutoku.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Tōhoku Karuta</span> (<span lang="ja">東北骨牌</span>)
 
-<span class="noun" lang="ja-Latn">Tōhoku</span> was a manufacturer based in the city of
-[<span class="noun"
-lang="ja-Latn">Tendō</span>](https://en.wikipedia.org/wiki/Tend%C5%8D,_Yamagata),
-<span class="noun" lang="ja-Latn">Yamagata</span> prefecture (<span lang="ja">山形県天童市
-</span>). They originally appear to have been a manufacturer (including for
-<span class="noun" lang="ja-Latn">Seieidō</span>), but later outsourced production to <span class="noun"
-lang="ja-Latn">Tamura Shōgundō</span>. The company seems to still exist in some
-form as [<span class="noun" lang="ja-Latn">Tendon Shogi</span>](http://www.syougi.co.jp/).
-Their manufacturer’s mark was a circled <span class="circled" lang="ja">特
-</span>, and their own brands included:
+<span class="noun" lang="ja-Latn">Tōhoku</span> was a manufacturer based in the city of [<span class="noun" lang="ja-Latn">Tendō</span>](https://en.wikipedia.org/wiki/Tend%C5%8D,_Yamagata), <span class="noun" lang="ja-Latn">Yamagata</span> prefecture (<span lang="ja">山形県天童市 </span>). They originally appear to have been a manufacturer (including for <span class="noun" lang="ja-Latn">Seieidō</span>), but later outsourced production to <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>. The company seems to still exist in some form as [<span class="noun" lang="ja-Latn">Tendon Shogi</span>](http://www.syougi.co.jp/).  Their manufacturer’s mark was a circled <span class="circled" lang="ja">特 </span>, and their own brands included:
 
 * <span lang="ja">初梅</span> (<span lang="ja-Latn">hatsu&shy;ume</span>, ‘new plum’)
 * <span lang="ja">出羽桜</span> (<span lang="ja-Latn">dewa&shy;zakura</span>, ‘[<span class="noun" lang="ja-Latn">Dewa</span>](https://en.wikipedia.org/wiki/Dewa_Province) cherry’)
@@ -2257,24 +2237,25 @@ Their manufacturer’s mark was a circled <span class="circled" lang="ja">特
 
 ### <span class="noun" lang="ja-Latn">Seieidō</span> (<span lang="ja">精英堂</span>)
 
-<span class="noun" lang="ja-Latn">Seieidō</span> was a post-war manufacturer. They do not
-appear to have had a manufacturer’s mark, instead writing their full name on the
-Paulownia card. Their brands included:
-
-* <span lang="ja">戎印</span> (<span lang="ja-Latn">ebisu&shy;jirushi</span>,
-  ‘[<span class="noun"
-  lang="ja-Latn">Ebisu</span>](https://en.wikipedia.org/wiki/Ebisu_(mythology))
-  brand’)
-
 {% image 
     src='Seedo_Ebisu.jpg'
     alt="A hanafuda deck wrapper with an image of a smiling man carrying a fishing pole and two fish."
+    size="small"
+    position="right"
     license="with-permission",
     copyrightYear=2020,
     authorFamily="Sartor",
     authorGiven="Ryan" %}
 <span class="noun" lang="ja-Latn">Seieidō</span>’s <span class="noun" lang="ja-Latn">Ebisu</span> brand.
 {% imageEnd %}
+
+<span class="noun" lang="ja-Latn">Seieidō</span> was a post-war manufacturer. They do not appear to have had a manufacturer’s mark, instead writing their full name on the Paulownia card. Their brands included:
+
+* <span lang="ja">戎印</span> (<span lang="ja-Latn">ebisu&shy;jirushi</span>,
+  ‘[<span class="noun"
+  lang="ja-Latn">Ebisu</span>](https://en.wikipedia.org/wiki/Ebisu_(mythology))
+  brand’)
+
 
 ### <span class="noun" lang="ja-Latn">Tamei Fukujudō</span> (<span lang="ja">為井福寿堂</span>)
 

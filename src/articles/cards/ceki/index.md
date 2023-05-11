@@ -160,42 +160,42 @@ money-suited cards.
 <tbody class="table-group-divider">
 <tr>
 <th scope="row" class="sideways centered">Coins</th>
-<td>{% image noborder=true cram=true src="COT.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC1.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC2.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC3.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC4.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC5.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC6.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC7.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC8.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC9.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="COT.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CC9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Strings</th>
-<td>{% image noborder=true cram=true src="CWF.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS1.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS2.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS3.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS4.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS5.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS6.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS7.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS8.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS9.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CWF.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CS9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Myriads</th>
-<td>{% image noborder=true cram=true src="CRF.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM1.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM2.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM3.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM4.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM5.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM6.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM7.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM8.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM9.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CRF.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true src="CM9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
 </tr>
 </tbody>
 </table>
@@ -422,7 +422,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DOT.jpg;KOT.jpg;OOT.jpg;NOT.jpg;COT.jpg" alt=";;;;" %}Old Thousand{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DOT.jpg;KOT.jpg;OOT.jpg;NOT.jpg;COT.jpg" alt=";;;;" %}Old Thousand{% imageEnd %}</th>
 <td><span lang="ms">yu lau chian</span>, from Hokkien <span lang="nan">老千</span> ‘old thousand’<br/>or <span lang="ms">yu pinding</span></td>
 <td><span lang="mcm">yo sekarat, yo mitadi</span><br/>one half</td>
 <td><span lang="min">danau rezeki, hiu/babak</span><br />[chapter?] shark</td>
@@ -456,7 +456,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DWF.jpg;KWF.jpg;OWF.jpg;NWF.jpg;CWF.jpg" alt=";;;;" %}White Flower{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DWF.jpg;KWF.jpg;OWF.jpg;NWF.jpg;CWF.jpg" alt=";;;;" %}White Flower{% imageEnd %}</th>
 <td><span lang="ms">yu kuching</span><br />cat ace</td>
 <td><span lang="mcm">yo feme</span><br/>one woman</td>
 <td><span lang="min">hiu kuciang</span><br />cat shark</td>
@@ -490,7 +490,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DRF.jpg;KRF.jpg;ORF.jpg;NRF.jpg;CRF.jpg" alt=";;;;" %}Red Flower{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DRF.jpg;KRF.jpg;ORF.jpg;NRF.jpg;CRF.jpg" alt=";;;;" %}Red Flower{% imageEnd %}</th>
 <td><span lang="ms">yu nyonya</span><br />(娘仔?) ace</td>
 <td><span lang="mcm">yo fogu</span><br/>one fire</td>
 <td><span lang="min">hiu merah</span><br/>red shark<br/><br/>or <span lang="min">penci</span><br/>[<a href="https://en.wikipedia.org/wiki/Songkok">a hat</a>?]</td>
@@ -524,7 +524,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC1.jpg;KC1.jpg;OC1.jpg;NC1.jpg;CC1.jpg" alt=";;;;" %}1 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC1.jpg;KC1.jpg;OC1.jpg;NC1.jpg;CC1.jpg" alt=";;;;" %}1 Coins{% imageEnd %}</th>
 <td><span lang="ms">yu kasut</span><br />slipper ace (looks like a Nyonya slipper)</td>
 <td><span lang="mcm">sapatu</span><br/>shoe</td>
 <td><span lang="min">hiu kasuik</span><br />[unknown] shark</td>
@@ -558,7 +558,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS1.jpg;KS1.jpg;OS1.jpg;NS1.jpg;CS1.jpg" alt=";;;;" %}1 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS1.jpg;KS1.jpg;OS1.jpg;NS1.jpg;CS1.jpg" alt=";;;;" %}1 Strings{% imageEnd %}</th>
 <td><span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span><br />long or bird ace</td>
 <td><span lang="mcm">pau</span><br/>club</td>
 <td><span lang="min">hiu panjang</span><br />long shark</td>
@@ -592,7 +592,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM1.jpg;KM1.jpg;OM1.jpg;NM1.jpg;CM1.jpg" alt=";;;;" %}1 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM1.jpg;KM1.jpg;OM1.jpg;NM1.jpg;CM1.jpg" alt=";;;;" %}1 Myriads{% imageEnd %}</th>
 <td><span lang="ms">yu hue sio</span><br />from Hokkien ‘monk’ <span lang="nan">和尚</span></td>
 <td><span lang="mcm">China/ladrán</span><br/>China/thief</td>
 <td><span lang="min">hiu bungo</span><br />flower shark</td>
@@ -660,7 +660,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC2.jpg;KC2.jpg;OC2.jpg;NC2.jpg;CC2.jpg" alt=";;;;" %}2 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC2.jpg;KC2.jpg;OC2.jpg;NC2.jpg;CC2.jpg" alt=";;;;" %}2 Coins{% imageEnd %}</th>
 <td><span lang="ms">ji hitam</span> or <span lang="ms">ji bulat</span><br />black or round two</td>
 <td><span lang="mcm">bola</span><br/>ball</td>
 <td><span lang="min">bengkok itam/wajik</span><br />black/diamond crooked</td>
@@ -694,7 +694,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS2.jpg;KS2.jpg;OS2.jpg;NS2.jpg;CS2.jpg" alt=";;;;" %}2 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS2.jpg;KS2.jpg;OS2.jpg;NS2.jpg;CS2.jpg" alt=";;;;" %}2 Strings{% imageEnd %}</th>
 <td><span lang="ms">ji burung</span><br />bird two</td>
 <td><span lang="mcm">beechu</span><br/>worm</td>
 <td><span lang="min">bengkok gadang</span><br />big crooked</td>
@@ -728,7 +728,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM2.jpg;KM2.jpg;OM2.jpg;NM2.jpg;CM2.jpg" alt=";;;;" %}2 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM2.jpg;KM2.jpg;OM2.jpg;NM2.jpg;CM2.jpg" alt=";;;;" %}2 Myriads{% imageEnd %}</th>
 <td><span lang="ms">ji ban</span><br /></td>
 <td><span lang="mcm">noiba</span><br/>bride</td>
 <td><span lang="min">bengkok aluih</span><br />genteel crooked</td>
@@ -796,7 +796,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC3.jpg;KC3.jpg;OC3.jpg;NC3.jpg;CC3.jpg" alt=";;;;" %}3 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC3.jpg;KC3.jpg;OC3.jpg;NC3.jpg;CC3.jpg" alt=";;;;" %}3 Coins{% imageEnd %}</th>
 <td><span lang="ms">sa batik</span><br />batik three</td>
 <td><span lang="mcm">crossan</span><br/>heart, or brooch of Cabaia-wood</td>
 <td><span lang="min">jarum wajik/itam</span><br />diamond/black needle</td>
@@ -830,7 +830,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS3.jpg;KS3.jpg;OS3.jpg;NS3.jpg;CS3.jpg" alt=";;;;" %}3 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS3.jpg;KS3.jpg;OS3.jpg;NS3.jpg;CS3.jpg" alt=";;;;" %}3 Strings{% imageEnd %}</th>
 <td><span lang="ms">sa udang</span><br />shrimp three</td>
 <td><span lang="mcm">kambrang</span><br/>shrimp</td>
 <td><span lang="min">jarum gadang</span><br />big needle</td>
@@ -864,7 +864,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM3.jpg;KM3.jpg;OM3.jpg;NM3.jpg;CM3.jpg" alt=";;;;" %}3 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM3.jpg;KM3.jpg;OM3.jpg;NM3.jpg;CM3.jpg" alt=";;;;" %}3 Myriads{% imageEnd %}</th>
 <td><span lang="ms">sa ban</span></td>
 <td><span lang="mcm">chuchō</span><br/>prick (Malay <span lang="ms">cucok</span>)<br/><br/><span lang="mcm">agula</span><br/>needle</td>
 <td><span lang="min">jarum aluih</span><br />genteel needle</td>
@@ -932,7 +932,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC4.jpg;KC4.jpg;OC4.jpg;NC4.jpg;CC4.jpg" alt=";;;;" %}4 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC4.jpg;KC4.jpg;OC4.jpg;NC4.jpg;CC4.jpg" alt=";;;;" %}4 Coins{% imageEnd %}</th>
 <td><span lang="ms">si hitam</span><br />black four</td>
 <td><span lang="mcm">manuco/rã</span><br/>frog</td>
 <td><span lang="min">suduang itam/wajik</span><br />black/diamond spoon</td>
@@ -966,7 +966,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS4.jpg;KS4.jpg;OS4.jpg;NS4.jpg;CS4.jpg" alt=";;;;" %}4 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS4.jpg;KS4.jpg;OS4.jpg;NS4.jpg;CS4.jpg" alt=";;;;" %}4 Strings{% imageEnd %}</th>
 <td><span lang="ms">si putih</span><br />white four</td>
 <td><span lang="mcm">basio</span><br/>plate</td>
 <td><span lang="min">pinggang</span><br />waist</td>
@@ -1000,7 +1000,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM4.jpg;KM4.jpg;OM4.jpg;NM4.jpg;CM4.jpg" alt=";;;;" %}4 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM4.jpg;KM4.jpg;OM4.jpg;NM4.jpg;CM4.jpg" alt=";;;;" %}4 Myriads{% imageEnd %}</th>
 <td><span lang="ms">si ban</span></td>
 <td><span lang="mcm">ryiami/curto</span><br/>short</td>
 <td><span lang="min">suduang putiah</span><br />white spoon</td>
@@ -1068,7 +1068,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC5.jpg;KC5.jpg;OC5.jpg;NC5.jpg;CC5.jpg" alt=";;;;" %}5 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC5.jpg;KC5.jpg;OC5.jpg;NC5.jpg;CC5.jpg" alt=";;;;" %}5 Coins{% imageEnd %}</th>
 <td><span lang="ms">go pending</span><br />pending five</td>
 <td><span lang="mcm">panding</span><br/>sarong-fastener</td>
 <td><span lang="min">babi pusek</span><br />navel pig</td>
@@ -1102,7 +1102,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS5.jpg;KS5.jpg;OS5.jpg;NS5.jpg;CS5.jpg" alt=";;;;" %}5 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS5.jpg;KS5.jpg;OS5.jpg;NS5.jpg;CS5.jpg" alt=";;;;" %}5 Strings{% imageEnd %}</th>
 <td><span lang="ms">go burung</span><br />bird five</td>
 <td><span lang="mcm">baker</span><br/>cow</td>
 <td><span lang="min">babi gadang</span><br />big pig</td>
@@ -1136,7 +1136,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM5.jpg;KM5.jpg;OM5.jpg;NM5.jpg;CM5.jpg" alt=";;;;" %}5 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM5.jpg;KM5.jpg;OM5.jpg;NM5.jpg;CM5.jpg" alt=";;;;" %}5 Myriads{% imageEnd %}</th>
 <td><span lang="ms">go ban</span></td>
 <td><span lang="mcm">governu/goberno</span><br/>governor<br/><br/><span lang="mcm">europeano</span><br/>european</td>
 <td><span lang="min">babi aluih</span> <br />genteel pig</td>
@@ -1204,7 +1204,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC6.jpg;KC6.jpg;OC6.jpg;NC6.jpg;CC6.jpg" alt=";;;;" %}6 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC6.jpg;KC6.jpg;OC6.jpg;NC6.jpg;CC6.jpg" alt=";;;;" %}6 Coins{% imageEnd %}</th>
 <td><span lang="ms">lak hitam</span><br />black six</td>
 <td><span lang="mcm">gordo</span><br/>fat</td>
 <td><span lang="min">kapik anam</span><br />grilled six</td>
@@ -1238,7 +1238,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS6.jpg;KS6.jpg;OS6.jpg;NS6.jpg;CS6.jpg" alt=";;;;" %}6 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS6.jpg;KS6.jpg;OS6.jpg;NS6.jpg;CS6.jpg" alt=";;;;" %}6 Strings{% imageEnd %}</th>
 <td><span lang="ms">lak putih</span><br />white six</td>
 <td><span lang="mcm">gala</span><br/>bamboo</td>
 <td><span lang="min">kapik manih</span><br />grilled sweet</td>
@@ -1272,7 +1272,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM6.jpg;KM6.jpg;OM6.jpg;NM6.jpg;CM6.jpg" alt=";;;;" %}6 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM6.jpg;KM6.jpg;OM6.jpg;NM6.jpg;CM6.jpg" alt=";;;;" %}6 Myriads{% imageEnd %}</th>
 <td><span lang="ms">lak ban</span></td>
 <td><span lang="mcm">osu</span><br/>bone</td>
 <td><span lang="min">kapik aluih</span><br />grilled genteel</td>
@@ -1340,7 +1340,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC7.jpg;KC7.jpg;OC7.jpg;NC7.jpg;CC7.jpg" alt=";;;;" %}7 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC7.jpg;KC7.jpg;OC7.jpg;NC7.jpg;CC7.jpg" alt=";;;;" %}7 Coins{% imageEnd %}</th>
 <td><span lang="ms">jit hitam</span> or <span lang="ms">jit daun</span><br />black or leaf seven</td>
 <td><span lang="mcm">lóia</span><br/>flag</td>
 <td><span lang="min">sisiak bendera</span><br />flag scales</td>
@@ -1374,7 +1374,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS7.jpg;KS7.jpg;OS7.jpg;NS7.jpg;CS7.jpg" alt=";;;;" %}7 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS7.jpg;KS7.jpg;OS7.jpg;NS7.jpg;CS7.jpg" alt=";;;;" %}7 Strings{% imageEnd %}</th>
 <td><span lang="ms">jit burung</span><br />bird seven</td>
 <td><span lang="mcm">galinha</span><br/>chicken</td>
 <td><span lang="min">sisiak gadang</span><br />big scales</td>
@@ -1408,7 +1408,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM7.jpg;KM7.jpg;OM7.jpg;NM7.jpg;CM7.jpg" alt=";;;;" %}7 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM7.jpg;KM7.jpg;OM7.jpg;NM7.jpg;CM7.jpg" alt=";;;;" %}7 Myriads{% imageEnd %}</th>
 <td><span lang="ms">jit ban</span></td>
 <td><span lang="mcm">malayu</span><br/>malay</td>
 <td><span lang="min">sisiak aluih</span><br />genteel scales</td>
@@ -1476,7 +1476,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC8.jpg;KC8.jpg;OC8.jpg;NC8.jpg;CC8.jpg" alt=";;;;" %}8 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC8.jpg;KC8.jpg;OC8.jpg;NC8.jpg;CC8.jpg" alt=";;;;" %}8 Coins{% imageEnd %}</th>
 <td><span lang="ms">puek kerang</span><br />cockle eight</td>
 <td><span lang="mcm">brau</span><br/>ship</td>
 <td><span lang="min">pacah lapan</span><br />broken eight</td>
@@ -1510,7 +1510,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS8.jpg;KS8.jpg;OS8.jpg;NS8.jpg;CS8.jpg" alt=";;;;" %}8 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS8.jpg;KS8.jpg;OS8.jpg;NS8.jpg;CS8.jpg" alt=";;;;" %}8 Strings{% imageEnd %}</th>
 <td><span lang="ms">puek menak</span><br />noble<!--{%fn%}Menak is a title for an aristocrat.{%endfn%}--> eight</td>
 <td><span lang="mcm">baji/dosi</span><br/>sweet</td>
 <td><span lang="min">pacah manih</span><br />broken sweet</td>
@@ -1544,7 +1544,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM8.jpg;KM8.jpg;OM8.jpg;NM8.jpg;CM8.jpg" alt=";;;;" %}8 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM8.jpg;KM8.jpg;OM8.jpg;NM8.jpg;CM8.jpg" alt=";;;;" %}8 Myriads{% imageEnd %}</th>
 <td><span lang="ms">puek ban</span></td>
 <td><span lang="mcm">belu</span><br/>old</td>
 <td><span lang="min">pacah aluih</span><br />broken genteel</td>
@@ -1612,7 +1612,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DC9.jpg;KC9.jpg;OC9.jpg;NC9.jpg;CC9.jpg" alt=";;;;" %}9 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC9.jpg;KC9.jpg;OC9.jpg;NC9.jpg;CC9.jpg" alt=";;;;" %}9 Coins{% imageEnd %}</th>
 <td><span lang="ms">kau hitam</span><br />black nine</td>
 <td><span lang="mcm">Mōru</span><br/>Moor/Indian</td>
 <td><span lang="min">tali bulek</span><br />round rope</td>
@@ -1646,7 +1646,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DS9.jpg;KS9.jpg;OS9.jpg;NS9.jpg;CS9.jpg" alt=";;;;" %}9 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS9.jpg;KS9.jpg;OS9.jpg;NS9.jpg;CS9.jpg" alt=";;;;" %}9 Strings{% imageEnd %}</th>
 <td><span lang="ms">kau merah</span><br />red nine</td>
 <td><span lang="mcm">botol/bottle/whisky</span><br/>bottle</td>
 <td><span lang="min">tali merah</span><br />red rope</td>
@@ -1680,7 +1680,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true cram=true size="small" src="DM9.jpg;KM9.jpg;OM9.jpg;NM9.jpg;CM9.jpg" alt=";;;;" %}9 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM9.jpg;KM9.jpg;OM9.jpg;NM9.jpg;CM9.jpg" alt=";;;;" %}9 Myriads{% imageEnd %}</th>
 <td><span lang="ms">kau ban</span></td>
 <td><span lang="mcm">Mary, Mérri, Maria, Kau Mary</span><br/>Mary</td>
 <td><span lang="min">tali aluih</span><br />genteel rope</td>

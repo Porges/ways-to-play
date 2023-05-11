@@ -109,6 +109,9 @@ $link-decoration: underline $light;
 $breadcrumb-bg: none;
 $breadcrumb-divider: quote('›');
 
+$navbar-dark-color: rgba(255, 255, 255, 0.8);
+$navbar-dark-hover-color: rgba(255, 255, 255, 0.9);
+
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 @import './text.scss';
 
@@ -950,4 +953,12 @@ iframe.spotify {
             - ((100vw - 20px) - 1320px)/2
         );
     }
+}
+
+a[itemprop="license"] {
+    white-space: nowrap;
+}
+
+.nav-link [role='img'] {
+    color: $warning;
 }

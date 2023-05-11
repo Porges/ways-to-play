@@ -3341,6 +3341,9 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 
 images, including chapifou https://www.istockphoto.com/vector/rabelais-games-of-gargantua-jeu-du-chapifou-gm538491410-95775259
 
+from:
+https://babel.hathitrust.org/cgi/pt?id=uc1.e0000012021&view=1up&seq=95
+
 -->
 
 For more on the games, see @LaLangueDeRabelais [p. 278–91].

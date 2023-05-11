@@ -27,6 +27,7 @@ type CommonInfo = {
   organization?: Organization,
   licenseVersion?: LicenseVersion,
   license: LicenseName,
+  hidden?: boolean, // don’t render this?
 }
 
 // this just requires Organization for stock-image license
@@ -38,6 +39,7 @@ type StockInfo = {
   organization: Organization,
   licenseVersion?: LicenseVersion,
   license: "stock-image",
+  hidden?: boolean,
 }
 
 export type SourceInfo = CommonInfo | StockInfo

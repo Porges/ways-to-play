@@ -26,10 +26,11 @@ type CommonArticleImageProps = {
 };
 
 type ArticleImageProps = CommonArticleImageProps & {
-    source?: SourceInfo,
+    source: SourceInfo,
 };
 
 type RawArticleImageProps = CommonArticleImageProps & {
+    hidden?: boolean,
     license?: LicenseName,
     licenseVersion?: LicenseVersion,
     copyrightYear?: number,
@@ -63,7 +64,7 @@ function fromRaw(props: RawArticleImageProps): ArticleImageProps {
         };
     }
 
-    const source: SourceInfo | undefined =
+    let source: SourceInfo | undefined =
         props.license
             ? {
                 author: author,
@@ -88,14 +89,18 @@ function fromRaw(props: RawArticleImageProps): ArticleImageProps {
         };
     }
 
-    /*
-    if (!props.source) {
-        props.source = {
-            copyrightYear: props.copyrightYear,
-            ...meSource,
-        };
+    if (!source) {
+        if (props.copyrightYear) {
+            source = {
+                copyrightYear: props.copyrightYear,
+                ...meSource,
+            };
+        } else {
+            source = meSource;
+        }
     }
-    */
+
+    source.hidden = props.hidden;
 
     let result: ArticleImageProps = {
         alt: props.alt,
@@ -112,6 +117,15 @@ function fromRaw(props: RawArticleImageProps): ArticleImageProps {
     return result;
 }
 
+const meSource: SourceInfo = {
+    author: {
+        given: "George",
+        family: "Pollard"
+    },
+    license: "cc-by-nc-sa",
+    licenseVersion: "4.0",
+};
+
 export async function articleImage(this: ExpectedThis, caption: string, rawprops: RawArticleImageProps) {
     const props = fromRaw(rawprops);
     PropTypes.checkPropTypes(articleImagePropTypes, props, 'props', 'articleImage');
@@ -126,15 +140,10 @@ export async function articleImage(this: ExpectedThis, caption: string, rawprops
                 ? "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px"
                 : "(max-width: 575.98px) 300px, 600px";
 
-    // if no source was provided, source is me
-    const sourceInfo =
-        source !== undefined
-            ? renderSource(source)
-            : ('<meta itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person" itemRef="author" />'
-                + '<meta itemprop="license" content="https://creativecommons.org/licenses/by-nc-sa/4.0/" />');
+    const sourceInfo = renderSource(source);
 
     // if we are only showing the (🅮) public domain symbol don't bother putting it on its own line
-    const captionLineBreak = (props.source?.license === 'cc0' && !props.source?.author && !props.source?.organization) ? ' ' : '\n\n';
+    const captionLineBreak = (props.source.license === 'cc0' && !props.source.author && !props.source.organization) ? ' ' : '\n\n';
 
     const srcs = src.split(';');
     const alts = alt.split(';');
@@ -142,12 +151,12 @@ export async function articleImage(this: ExpectedThis, caption: string, rawprops
     if (srcs.length !== alts.length) {
         throw new Error("number of srcs must match number of alts");
     }
-    
+
     const captionAndSource =
         ifSet(caption.trim(),
-            `\n\n<span itemprop="caption">`
-            + caption.trim() /* NB: must appear on its own line to get Markdown formatting… */
-            + `</span>` + (source ? captionLineBreak : ''))
+            c => `\n\n<span itemprop="caption">`
+            + c /* NB: must appear on its own line to get Markdown formatting… */
+            + `</span>` + captionLineBreak)
         + sourceInfo;
 
     if (srcs.length === 1) {
@@ -160,7 +169,7 @@ export async function articleImage(this: ExpectedThis, caption: string, rawprops
     } else {
         const sourceId = "src_" + randomUUID();
         return `<figure class="figure ${className}">`
-            + await renderImages(this, srcs, alts, sourceInfo, perRow, sourceId, sizes, noborder, justify as 'centered'|undefined)
+            + await renderImages(this, srcs, alts, sourceInfo, perRow, sourceId, sizes, noborder, justify as 'centered' | undefined)
             + `<figcaption class="text-center figure-caption" itemscope>`
             + `<div id="${sourceId}">`
             + captionAndSource
@@ -187,7 +196,7 @@ export function renderSource(source: SourceInfo, short = false) {
         copyrightHolder = person({ itemprop: "copyrightHolder creator", name: source.author });
     }
 
-    return '<span itemprop="copyrightNotice">'
+    return `<span itemprop="copyrightNotice"${ifSet(source.hidden, ' hidden')}>`
         + (source.license === 'cc0' ? '' : '© ')
         + ifSet(source.copyrightYear, `<span itemprop="copyrightYear">${source.copyrightYear}</span> `)
         + ((copyrightHolder && source.originalUrl) ? `<a href="${source.originalUrl}" itemprop="url">${copyrightHolder}</a>` : copyrightHolder)
@@ -218,7 +227,7 @@ async function renderImage(me: ExpectedThis, src: string, alt: string, sourceInf
         + `</a>`;
 }
 
-async function renderImages(me: ExpectedThis, srcs: string[], alts: string[], sourceInfo: string, perRow = 1000, sourceId: string, sizes: string, noborder: boolean|undefined, justify: 'centered'|undefined) {
+async function renderImages(me: ExpectedThis, srcs: string[], alts: string[], sourceInfo: string, perRow = 1000, sourceId: string, sizes: string, noborder: boolean | undefined, justify: 'centered' | undefined) {
     let classes = "multi";
     if (justify) {
         switch (justify) {
@@ -263,7 +272,7 @@ async function loadSizedImage(me: ExpectedThis, src: string): Promise<Image.Meta
     */
 }
 
-async function renderSourcedImage(me: ExpectedThis, src: string, alt: string, sourceInfo: string, sourceId: string, sizes: string, noborder: boolean|undefined) {
+async function renderSourcedImage(me: ExpectedThis, src: string, alt: string, sourceInfo: string, sourceId: string, sizes: string, noborder: boolean | undefined) {
     const metadata = await loadSizedImage(me, src);
     const [format] = Object.keys(metadata) as (keyof typeof metadata)[];
     const m = metadata[format]!;
@@ -424,7 +433,7 @@ export function license(name: LicenseName, version: LicenseVersion | undefined, 
     return (
         ifSet(leading, ' ')
         + `<a itemprop="license" href="${href}" title="${title}"${asAttr("rel", rel)}>`
-        + parts.map(charForLicense).join('\u{200a}')
+        + parts.map(charForLicense).join('')
         + `</a>`);
 }
 

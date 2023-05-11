@@ -101,6 +101,7 @@ card’.{%endfn%}
   cram=true
   noborder=true
   size="wide"
+  hidden=true
   src="../../articles/cards/ceki/CS2.jpg;../../articles/cards/ceki/CM2.jpg;../../articles/cards/ceki/CM2.jpg;../../articles/cards/ceki/CC3.jpg;../../articles/cards/ceki/CS3.jpg;../../articles/cards/ceki/CM3.jpg;../../articles/cards/ceki/CC6.jpg;../../articles/cards/ceki/CS6.jpg;../../articles/cards/ceki/CM6.jpg;../../articles/cards/ceki/CS7.jpg;../../articles/cards/ceki/CS7.jpg;../../articles/cards/ceki/CM7.jpg;../../articles/cards/ceki/CM8.jpg;../../articles/cards/ceki/CM8.jpg"
   alt=";;;;;;;;;;;;;" %}
 A hand with four complete sets that can be called as ‘<span
@@ -130,6 +131,7 @@ value (1–9 points), and the red-stamped cards are worth more:
     size="small"
     noborder=true
     alt=""
+    hidden=true
     src="../../articles/cards/ceki/CS9.jpg" %}
 Red Nine scores 10 points.
 {% imageEnd %}
@@ -137,6 +139,7 @@ Red Nine scores 10 points.
     size="small"
     noborder=true
     alt=""
+    hidden=true
     src="../../articles/cards/ceki/CRF.jpg" %}
 Nyonya scores 11 points.
 {% imageEnd %}
@@ -144,6 +147,7 @@ Nyonya scores 11 points.
     size="small"
     noborder=true
     alt=""
+    hidden=true
     src="../../articles/cards/ceki/COT.jpg" %}
 Lau Chian scores 12 points.
 {% imageEnd %}
@@ -296,6 +300,7 @@ with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
     noborder=true
     justify="centered"
     alt=";;"
+    hidden=true
     src="../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CM1.jpg" %}
     These cards are worth 10 points each.
 {% imageEnd %}

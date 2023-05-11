@@ -37,6 +37,8 @@ The game is mentioned in many stories of Somali poets and leaders (and poet-lead
 
 ## Play
 
+As in other {%a mill-games,mill games %}, the aim of the game is to form a **mill** (line of three pieces). Each time this is done, this enables the player to remove one of the opponent’s pieces from the board. When a player is reduced to fewer than three pieces, they lose the game.
+
 ### Placement phase
 
 {% image 
