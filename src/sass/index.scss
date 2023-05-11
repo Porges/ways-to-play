@@ -47,6 +47,7 @@
 @font-face {
     font-family: 'Brill';
     size-adjust: 120%;
+    font-display: swap;
     src: url('/fonts/Brill-Roman.woff2') format('woff2'),
         url('/fonts/Brill-Roman.woff') format('woff');
 }
@@ -54,6 +55,7 @@
 @font-face {
     font-family: 'Brill';
     size-adjust: 120%;
+    font-display: swap;
     src: url('/fonts/Brill-Italic.woff2') format('woff2'),
         url('/fonts/Brill-Italic.woff') format('woff');
     font-style: italic;
@@ -62,6 +64,7 @@
 @font-face {
     font-family: 'Brill';
     size-adjust: 120%;
+    font-display: swap;
     src: url('/fonts/Brill-Bold.woff2') format('woff2'),
         url('/fonts/Brill-Bold.woff') format('woff');
     font-weight: 500;
@@ -70,10 +73,19 @@
 @font-face {
     font-family: 'Brill';
     size-adjust: 120%;
+    font-display: swap;
     src: url('/fonts/Brill-BoldItalic.woff2') format('woff2'),
         url('/fonts/Brill-BoldItalic.woff') format('woff');
     font-weight: 500;
     font-style: italic;
+}
+
+@font-face {
+    font-family: "Noto Emoji";
+    font-display: swap;
+    src: url('/fonts/NotoEmoji-Medium-min.woff2') format('woff2'),
+         url('/fonts/NotoEmoji-Medium-min.woff') format('woff');
+    unicode-range: U+1f9fe, U+1f3b2, U+1f4e3, U+1f4da;
 }
 
 $font-family-sans-serif:
@@ -195,7 +207,6 @@ h2 {
 
 .navbar-brand {
     font-weight: bold;
-    font-family: "Nabla";
 }
 
 .navbar-nav {
