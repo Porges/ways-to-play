@@ -49,7 +49,7 @@ The many types of Chinese and Chinese-derived cards can be broken down into seve
 Those derived from **{% gameref xiangqi %}** (“Chinese chess”):
 * {%a four-colour-cards %} (<span lang="zh">四色牌</span> <span lang="cmn-Latn-pinyin">sì sè pái</span>)
 * Two-Coloured chess cards, including:
-  * Double Gold cards (<span lang="zh">雙金牌</span> <span lang="cmn-Latn-pinyin">shuāng jīn pái</span>)
+  * Red cards (<span lang="zh">紅牌</span>), also called Double Gold cards (<span lang="zh">雙金牌</span> <span lang="cmn-Latn-pinyin">shuāng jīn pái</span>)
   * Malaysian <span lang="ms" class="noun">Chap Ji Kee</span>
   * Vietnamese Chrysanthemum cards, <span lang="vi">bài tam cúc</span>
   

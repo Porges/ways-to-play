@@ -165,7 +165,13 @@ Similarly, in the <span lang="ja-Latn">bunraku/kabuki</span> play <cite>Ōtō-no
 
 {%aside%}
 An interesting coincidence pointed out by Ryan Sartor is that when translated to the <span lang="ja-Latn" class="noun">Hanafuda</span> deck (with which the game could also be played), the card values {%cards 893 %} correspond to the following card combination (<span lang="ja">役</span> <span lang="ja-Latn">yaku</span>), which is named <span lang="ja-Latn">nomi</span> (<span lang="ja">飲み</span> ‘drinking’), and is used in several <span lang="ja-Latn" class="noun">Hanafuda</span> games:
-{%image src="../../articles/cards/japan/hanafuda/Hanafuda_8-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_9-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_3-1.svg" alt="a card showing the full moon;a card showing a sake cup;a card showing cherry blossoms" size="small" justify="centered" %}
+{%image src="../../articles/cards/japan/hanafuda/Hanafuda_8-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_9-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_3-1.svg" alt="a card showing the full moon;a card showing a sake cup;a card showing cherry blossoms" size="small" justify="centered"
+    authorFamily="Mantia"
+    authorGiven="Louie"
+    copyrightYear=2021
+    license="cc-by-sa"
+    licenseVersion="4.0"
+ %}
 {%imageEnd%}
 {%endaside%}
 

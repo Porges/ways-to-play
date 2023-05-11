@@ -9325,3 +9325,47 @@ CostumeOfYorkshire:
   publisher: T. Bensley
   publisher-place: London
   URL: https://digitalcollections.nypl.org/collections/the-costume-of-yorkshire-illustrated-by-a-series-of-forty-engravings-being#/?tab=about
+NotesOnFishing:
+  type: article-journal
+  title: "Playing the Game: Notes on Fishing"
+  author:
+  - given: John
+    family: McLeod
+  page: 204-206
+  in:
+    title: Journal of the International Playing-Card Society
+    volume: 26
+    issue: 6
+    issued:
+      month: 5
+      year: 1998
+SwaziCasino:
+  type: article-journal
+  title: "Playing the Game: Swazi Casino"
+  author:
+  - given: John
+    family: McLeod
+  page: 258-261
+  in:
+    title: Journal of the International Playing-Card Society
+    volume: 28
+    issue: 5
+    issued:
+      month: 4
+      year: 2000
+DrieChineescheKaartspelen:
+  type: article-journal
+  author:
+  - given: M.
+    family: von Faber
+  title: 
+    value: Beschrijving van Drie Chineesche Kaartspelen
+    lang: nl
+  page: 414-422
+  in:
+    title: 
+      value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
+      lang: nl
+    volume: 26
+    issued:
+      year: 1881

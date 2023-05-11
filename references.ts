@@ -315,7 +315,7 @@ const renderPublisher = (reference: { publisher?: LStr, ['publisher-place']?: st
 
     const publisher = 'publisher' in reference ? reference.publisher : undefined;
     if (publisher) {
-        result = renderLStr(publisher, 'span', {itemprop: 'name'});
+        result = renderLStr(publisher, 'span', {itemprop: 'name', class: 'noun'});
     }
 
     // (p) => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${p}</span>${reference['publisher-place'] ? ': ' : (p.endsWith('.') ? ' ' : '. ')}`)

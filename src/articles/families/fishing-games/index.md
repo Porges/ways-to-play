@@ -36,3 +36,30 @@ The last type are luck-based games where all cards are turned from the stock.  T
 - played with {% a ceki %}:
     - {% gameref thothit-yogyakarta %}
     - {% gameref thit-thit-dulit %}
+
+<!--
+To be included:
+@NotesOnFishing:
+- Tenteret
+- Babochka
+- Konchinka
+- Zing
+- Scopa
+- Scopone
+- Cicera
+- Scarabocion
+- Cirulla
+- Pishti
+- Basra
+- Ashush
+- Kontsina/Pastra
+- Tablanette
+- Tablić
+- Pilei Swip/Sweep/Whip/Sip/Sweep
+- Zwicker
+- Casino
+- Cau Robat
+- Cuarenta
+@SwaziCasino
+- Karusell
+-->
