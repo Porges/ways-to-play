@@ -4,6 +4,12 @@ on:
     branches:
     - main
 
+# limit to one concurrent run per PR/branch,
+# and cancel any previous runs still going
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
