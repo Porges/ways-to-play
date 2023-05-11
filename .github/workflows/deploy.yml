@@ -53,6 +53,12 @@ jobs:
         export AZURE_STORAGE_AUTH_MODE=login
         export AZURE_STORAGE_ACCOUNT=waystoplay
 
+        echo CSS - 1 week
+        blobs=$(az storage blob list --container-name '$web' --prefix css/ | jq -r "$noHeaderFilter")
+        for blob in $blobs; do
+          az storage blob update --container-name '$web' --name "$blob" --content-cache 'max-age=604800'
+        done
+
         echo fonts - 6 months
         blobs=$(az storage blob list --container-name '$web' --prefix fonts/ | jq -r "$noHeaderFilter")
         for blob in $blobs; do
