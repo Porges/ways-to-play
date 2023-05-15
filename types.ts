@@ -74,6 +74,7 @@ export type Article<D=Data> = {
   children: readonly Article[],
   data: D,
   date: any,
+  content: string,
 };
 
 export type Context = {

@@ -863,6 +863,12 @@ a .figure-img {
     margin-bottom: 1em;
 }
 
+@include media-breakpoint-up(lg) {
+    .columnar-large {
+        columns: 2;
+    }
+}
+
 // 2 on smaller screens, 3 on bigger
 .columnarr {
     columns: 2;
@@ -874,7 +880,7 @@ a .figure-img {
     }
 }
 
-:is(.columnar, .columnarr) li {
+:is(.columnar, .columnarr, .columnar-large) li {
     // try to avoid splitting items across columns
     break-inside: avoid;
 }

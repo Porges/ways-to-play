@@ -22,6 +22,14 @@ export function render(this: Context, data: Data) {
             return `<li><a href="${p.url}">${p.data.title}</a> (<time datetime="${iso}" class="relative">${iso}</time>)</li>`;})
         .join("\n");
 
+    pages.sort((x, y) => y.content.length - x.content.length);
+
+    const longPages = pages
+        .slice(0, 20)
+        .map(p => {
+            return `<li><a href="${p.url}">${p.data.title}</a></li>`;})
+        .join("\n");
+
     return `
     <p class="lead">
     This is a site about games, traditional and modern, that are played around the world.
@@ -37,9 +45,13 @@ export function render(this: Context, data: Data) {
     </p>
 
     <h2>Recently updated pages</h2>
-
-    <ul class="columnar">
+    <ul class="columnar-large">
     ${recentPages}
+    </ul>
+
+    <h2>Longest pages</h2>
+    <ul class="columnar-large">
+    ${longPages}
     </ul>
     `;
 }
