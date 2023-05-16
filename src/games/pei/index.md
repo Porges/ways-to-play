@@ -197,45 +197,45 @@ Given this information, we can arrange the deck as follows, and we can easily se
 <tbody class="table-group-divider">
 <tr>
 <th scope="row" class="sideways centered">Myriads</th>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM1.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM2.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM3.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM4.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM5.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM6.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM7.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM8.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CM9.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/COT.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM1.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM2.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM3.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM4.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM5.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM6.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM7.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM8.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM9.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/COT.jpg" alt="" %}{% imageEnd %}</td>
 <td></td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Strings</th>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS1.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS2.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS3.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS4.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS5.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS6.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS7.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS8.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CS9.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS1.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS2.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS3.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS4.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS5.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS6.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS7.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS8.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS9.jpg" alt="" %}{% imageEnd %}</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Coins</th>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC9.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC8.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC7.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC6.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC5.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC4.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC3.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC2.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CC1.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CWF.jpg" alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="../../articles/cards/ceki/CRF.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC9.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC8.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC7.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC6.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC5.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC4.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC3.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC2.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC1.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CWF.jpg" alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CRF.jpg" alt="" %}{% imageEnd %}</td>
 </tr>
 </tbody>
 </table>
