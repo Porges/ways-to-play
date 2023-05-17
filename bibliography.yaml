@@ -3173,7 +3173,8 @@ TimeOfCannibals:
   publisher: The University Of Chicago Press
   publisher-place: Chicago
   URL: https://archive.org/details/intimeofcannibal0000copl
-  ISBN: '0-266-11573-9'
+  # TODO: this is invalid?
+  # ISBN: '0266115747'
 LaRegleDuTemple:
   type: book
   title:
