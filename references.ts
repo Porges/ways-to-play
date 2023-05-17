@@ -103,7 +103,7 @@ function renderSeries(ref: Reference, lead: string, trail: string) {
 function renderTitle(reference: Reference) {
     const archiveURL =
         'archive-URL' in reference
-            ? ` [<a href="${reference['archive-URL']}">archived</a>]`
+            ? ` [<a itemprop="archivedAt" href="${reference['archive-URL']}">archived</a>]`
             : '';
 
     let linkedTitle: LStr = '';
