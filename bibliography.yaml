@@ -9370,3 +9370,132 @@ DrieChineescheKaartspelen:
     volume: 26
     issued:
       year: 1881
+AnthologyChineseLiterature:
+  type: book
+  title: "An Anthology of Chinese Literature: Beginnings to 1911"
+  editor:
+  - given: Stephen
+    family: Owen
+  issued: 1996
+  publisher: W. W. Norton & Company
+  publisher-place: New York & London
+  ISBN: '0393038238'
+  URL: https://archive.org/details/anthologyofchine0000unse_x6c9
+SongsOfTheSouth:
+  type: book
+  title: "Ch‘u Tz‘ŭ: The Songs of the South: An Ancient Chinese Anthology"
+  author:
+  - given: David
+    family: Hawkes
+  publisher: Beacon Press
+  publisher-place: Boston
+  URL: https://archive.org/details/songsofsouth0000unse
+  issued: 1962
+  original-date:
+    year: 1959
+SummonsFragment:
+  type: webpage
+  title: Summons of the Soul (a fragment)
+  author:
+  - given: Alex
+    family: de Voogt
+  URL: https://exchanges.uiowa.edu/ancient/issues/diversions/liubo/
+  container-title: Ancient Exchanges
+  issued: 2021
+MythicChineseUnicorn:
+  type: book
+  author:
+  - given: Jeannie Thomas
+    family: Parker
+  title: The Mythic Chinese Unicorn
+  edition: 2
+  publisher: Friesen Press
+  issued: 2018
+LiuboFiveHundred:
+  type: chapter
+  title: "<span lang='zh-Latn'>Liubo</span>: The Five-Hundred-Year Craze"
+  author: 
+  - given: Colin
+    family: Mackenzie
+  in: *asianGames
+  page: 112-125
+SenetTarot:
+  type: book
+  title: "Senet Tarot of Ancient Egypt"
+  volume: 1
+  volume-title: "A History from pre-dynastic times to the Roman era"
+  author:
+  - given: Douglass A.
+    family: White
+  issued: 2011
+  publisher: Delta Point Educational Technologies
+  publisher-place: Fairfield, Iowa, USA
+  edition: 2
+  URL: http://bentylightgarden.com/Senet_Tarot_I_151016.pdf
+DisquisitionOnBoyi:
+  type: article-journal
+  title: We Yao’s Disquisition on <span lang="zh-Latn">boyi</span>
+  author:
+  - given: Y. Edmund
+    family: Lien
+  URL: https://www.jstor.org/stable/20064544
+  page: 567-578
+  in:
+    title: Journal of the American Oriental Society
+    volume: 126
+    issue: 4
+    issued: 2006
+SongsOfChu:
+  type: book
+  title: The Songs of Chu
+  author:
+  - given: Gopal
+    family: Sukhu
+  publisher: Columbia University Press
+  publisher-place: New York
+  issued: 2017
+  ISBN: 9780231544658
+  URL: https://archive.org/details/sukhu-2017-the-songs-of-chu
+19Ways:
+  type: book
+  title: Nineteen Ways of Looking at Wang Wei
+  author:
+  - given: Eliot
+    family: Weinberger
+  - given: Octavio
+    family: Paz
+  URL: https://archive.org/details/nineteenwaysoflo0000wein
+  issued: 1987
+  publisher: Moyer Bell
+  publisher-place: Mt. Kisco, New York
+  ISBN: '0918825148'
+ANoteOnTheTLV:
+  type: article-journal
+  title: A Note on the So-Called TLV Mirrors and the Game <span lang="zh-Latn">Liu-Po</span> <span lang="zh">六博</span>
+  author:
+  - given: Lien-sheng
+    family: Yang
+  page: 202-206
+  URL: https://www.jstor.org/stable/2717892
+  in:
+    title: Harvard Journal of Asiatic Studies
+    volume: 9
+    issue: 3
+    issued: 
+      year: 1947
+      month: 2
+AdditionalLiuPo:
+  type: article-journal
+  title: An Additional Note on the Ancient Game <span lang="zh-Latn">Liu-Po</span>
+  author:
+  - given: Lien-sheng
+    family: Yang
+  page: 124-139
+  URL: https://www.jstor.org/stable/2718275
+  in:
+    title: Harvard Journal of Asiatic Studies
+    volume: 15
+    issue: 1
+    issued: 
+      year: 1952
+      month: 6
