@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @font-face {
     font-family: "UniHentaiKana";
     src: url('/fonts/UniHentaiKana-Regular.woff') format('woff');
@@ -161,6 +163,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 h2 {
     margin-top: 2.5rem;
     margin-bottom: 1.5rem;
+}
+
+h3 { 
+    margin-top: 1.5rem;
 }
 
 @include media-breakpoint-up(sm) {
@@ -520,7 +526,7 @@ abbr[title] {
 
 /*** Pronunciation ***/
 .pronunciation {
-    text-decoration: lighten($secondary, 30%) underline wavy;
+    text-decoration: color.scale($secondary, $lightness: 30%) underline wavy;
     text-decoration-skip-ink: none;
     cursor: help;
 }
@@ -787,21 +793,17 @@ ul.article-list li {
 
 /*! purgecss ignore */
 a[href*="wikipedia.org" i] {
-    text-decoration-style: dashed;
-    color: $secondary;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+    text-decoration-color: color.scale($secondary, $lightness: 30%);
+    text-decoration-thickness: 1px;
+    color: inherit;
+    position: relative;
 
-    /*
-    &:hover:after {
-        content: ' ';
-        background-image: url(/fonts/wikipedia-w.svg);
-        color: $accent;
-        width: 9px;
-        height: 1em;
-        display: inline-block;
-        background-repeat: no-repeat;
-        margin-right: -3px;
+    &:hover {
+        text-decoration-color: $accent;
+        text-decoration-style: solid;
     }
-    */
 }
 
 .inline-img {
