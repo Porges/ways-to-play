@@ -1186,6 +1186,7 @@ SourcesInRecreationalMathematics:
     - given: David
       family: Singmaster
   URL: https://www.puzzlemuseum.com/singma/singma6/SOURCES/singma-sources-edn8-2004-03-19.htm
+  archive-URL: https://web.archive.org/web/20230426152910/https://www.puzzlemuseum.com/singma/singma6/SOURCES/singma-sources-edn8-2004-03-19.htm
 NotesOnTheAbbey:
   type: article-journal
   title: Notes on the abbey buildings of Westminster
@@ -1560,6 +1561,7 @@ KKS135:
     day: 31
   container-title: Waka Poetry
   URL: http://www.wakapoetry.net/kks-iii-135/
+  archive-URL: https://web.archive.org/web/20230514123135/http://www.wakapoetry.net/kks-iii-135/
 SKKS442:
   type: webpage
   title: "SKKS IV: 442"
@@ -1572,6 +1574,7 @@ SKKS442:
     day: 16
   container-title: Waka Poetry
   URL: https://www.wakapoetry.net/skks-iv-422/
+  archive-URL: https://web.archive.org/web/20220924183425/http://www.wakapoetry.net/skks-iv-422/
 GreveSake:
   type: webpage
   title: Ricewine (sake)
@@ -1663,7 +1666,9 @@ SteeleTeeko:
     year: 1998
     month: 11
     day: 23
+  container-title: Board Game Geek
   URL: https://boardgamegeek.com/thread/816476/steele-guy-november-23-1998-re-teeko-hakmem
+  archive-URL: https://web.archive.org/web/20200926095406/https://boardgamegeek.com/thread/816476/steele-guy-november-23-1998-re-teeko-hakmem
 TheGameOfJAM:
   type: article-journal
   title: "The Game of JAM: An Isomorph of Tic-Tac-Toe"
@@ -1703,6 +1708,7 @@ Cats325:
   issued:
     year: 2016
   URL: http://www.catsatcards.com/Games/ThreeTwoFive.html
+  archive-URL: https://web.archive.org/web/20230329114744/http://catsatcards.com/Games/ThreeTwoFive.html
 Yahoo325:
   type: webpage
   title: How to play paanch-teen-do.....?
@@ -1710,6 +1716,7 @@ Yahoo325:
   issued:
     year: 2008
   URL: https://in.answers.yahoo.com/question/index?qid=20090217063034AA1SO5Y
+  archive-URL: https://web.archive.org/web/20210413133113/https://in.answers.yahoo.com/question/index?qid=20090217063034AA1SO5Y
 IndiaMike325:
   type: webpage
   title: Game......teen-do-Panch (3-2-5)
@@ -1717,6 +1724,7 @@ IndiaMike325:
   issued:
     year: 2008
   URL: https://www.indiamike.com/india/sports-in-india-f111/game-teen-do-panch-3-2-5-a-t51329/
+  archive-URL: https://web.archive.org/web/20201025084812/https://www.indiamike.com/india/sports-in-india-f111/game-teen-do-panch-3-2-5-a-t51329/
 iJini:
   type: webpage
   title: Most Popular Indian Card Games
@@ -1727,6 +1735,7 @@ iJini:
   issued:
     year: 2010
   URL: https://ijini.blogspot.com/2010/04/most-popular-indain-card-games.html
+  archive-URL: https://web.archive.org/web/20221005064957/https://ijini.blogspot.com/2010/04/most-popular-indain-card-games.html
 Gamesnomy325:
   type: webpage
   title: Teen do Paanch Card Game
@@ -1737,6 +1746,7 @@ Gamesnomy325:
     - family: Chadha
       given: Sujay
   URL: https://gamesnomy.blogspot.com/2011/02/teen-do-paanch-card-game.html
+  archive-URL: https://web.archive.org/web/20220924230645/https://gamesnomy.blogspot.com/2011/02/teen-do-paanch-card-game.html
 HeikeMonogatari:
   type: book
   title: Heike Monogatari
@@ -1769,6 +1779,7 @@ WCF:
   issued:
     year: 2012
   URL: http://www.worldcamelotfederation.com/
+  archive-URL: https://web.archive.org/web/20230418022637/http://www.worldcamelotfederation.com/
 BradleysGames:
   type: book
   title: Bradley’s Game and Toy Catalogue
@@ -1801,6 +1812,7 @@ PegShowAndTelka:
   issued:
     year: 2013
   URL: https://sagme.blogspot.com/2013/06/peg-show-telka.html
+  archive-URL: https://web.archive.org/web/20220930063231/https://sagme.blogspot.com/2013/06/peg-show-telka.html
 SportsAndGamesOfSinghalese:
   type: article-journal
   title: The Sports and Games of the Singhalese
@@ -1925,6 +1937,7 @@ BlacUmlabalaba:
     year: 2015
   container-title: BLAC Foundation
   URL: http://blacfoundation.org/umlabalaba-article/
+  archive-URL: https://web.archive.org/web/20230127050905/https://blacfoundation.org/umlabalaba-article/
 GamesOfTheGods:
   type: book
   title: "Games of the Gods: The origin of board games in magic and divination"
@@ -2103,10 +2116,13 @@ AnimalInFarEasternArt:
   ISBN: 9004042954
 FiggiUndMuliHaa:
   type: webpage
-  title: "Schweizerisches Idiotikon: Figgi und Müli haa"
+  title: 
+    value: "Schweizerisches Idiotikon: Figgi und Müli haa"
+    lang: gsw
   publisher: Schweizerdeutsches Wörterbuch
   publisher-place: Zürich, Switzerland
   URL: https://www.idiotikon.ch/wortgeschichten1/368-figgi-und-mueli-haa
+  archive-URL: https://web.archive.org/web/20220926163002/https://idiotikon.ch/wortgeschichten/figgi-und-mueli-haa
   issued:
     year: 2018
     month: 3
@@ -2571,6 +2587,7 @@ EbashiSadakuro:
   issued:
     year: 2019
   URL: https://japanplayingcardmuseum.com/3-3-2-3-flowercarta-difference-laterflowercarta/
+  archive-URL: https://web.archive.org/web/20230328010935/https://japanplayingcardmuseum.com/3-3-2-3-flowercarta-difference-laterflowercarta/
   publisher: Japan Playing Card Museum
 OishiSadakuro:
   type: webpage
@@ -2585,6 +2602,7 @@ OishiSadakuro:
     value: Ōishi Tengudō
     lang: ja-Latn
   URL: https://www.tengudo.jp/blog/karuta-news/392.html
+  archive-URL: https://web.archive.org/web/20230205100416/https://www.tengudo.jp/blog/karuta-news/392.html
 IwanoMatsui:
   type: webpage
   title: <span lang='ja'>松井天狗堂の買取致します</span>
@@ -2676,6 +2694,7 @@ OishiTengudoHistory4:
   issued:
     year: 2014
   URL: https://www.tengudo.jp/blog/karuta-news/692.html
+  archive-URL: https://web.archive.org/web/20221231134504/https://www.tengudo.jp/blog/karuta-news/692.html
 EbashiHanafuda:
   type: book
   title:
@@ -2742,6 +2761,7 @@ CartaTaxLawContents:
     year: 2020
   publisher: Japan Playing Card Museum
   URL: https://japanplayingcardmuseum.com/2-0-cartatax-law-contents/
+  archive-URL: https://web.archive.org/web/20230328010939/https://japanplayingcardmuseum.com/2-0-cartatax-law-contents/
 SchreiberCollection:
   title: Catalogue of the collection of playing cards bequeathed to the Trustees
     of the British museum by the late Lady Charlotte Schreiber
@@ -2811,6 +2831,7 @@ DevilsPictureBooks:
 KaiOi:
   type: webpage
   URL: http://www.asahi-net.or.jp/~rp9h-tkhs/dg_kaioi.htm
+  archive-URL: https://web.archive.org/web/20230409193230/http://www.asahi-net.or.jp/~rp9h-tkhs/dg_kaioi.htm
   title:
     value: 貝覆い
     lang: ja
@@ -2915,6 +2936,7 @@ NintendoHistory:
     lang: zh
   type: webpage
   URL: https://zhuanlan.zhihu.com/p/31321595
+  archive-URL: https://web.archive.org/web/20210328095321/https://zhuanlan.zhihu.com/p/31321595
   author:
     - given: 鲤衣荷
       family: 夏
@@ -2929,6 +2951,7 @@ EbashiCigaretteCards:
     value: 花札図柄の「煙草カード」
     lang: ja
   URL: https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/
+  archive-URL: https://web.archive.org/web/20230328011006/https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/
   author: *ebashi
   issued:
     year: 2020
@@ -2987,6 +3010,7 @@ CabinetOfficeEntertainment:
     lang: ja
   publisher-place: Tokyo, Japan
   URL: https://survey.gov-online.go.jp/s31/S31-07-31-07.html
+  archive-URL: https://web.archive.org/web/20221208170749/https://survey.gov-online.go.jp/s31/S31-07-31-07.html
 NihonGoraku:
   type: webpage
   issued:
@@ -2998,6 +3022,7 @@ NihonGoraku:
     value: 日本娯楽
     lang: ja
   URL: http://nihongoraku.co.jp/company/
+  archive-URL: https://web.archive.org/web/20220307222145/http://nihongoraku.co.jp/company/
 TheEastandtheIdeaofEurope:
   type: chapter
   title: Invention of the West in Japan
@@ -3136,6 +3161,7 @@ SaudahBhaimia:
   container-title: Esports, and other games
   title: Saudah Bhaimia (Curro Klerksdorp) leads the pack
   URL: https://esportscommentator.blogspot.com/2021/02/saudah-bhaimia-curro-klerksdorp-leads.html
+  archive-URL: https://web.archive.org/web/20230127174753/https://esportscommentator.blogspot.com/2021/02/saudah-bhaimia-curro-klerksdorp-leads.html
 TimeOfCannibals:
   type: book
   title: "In the time of cannibals: the word music of South Africa’s Basotho migrants"
@@ -3147,7 +3173,7 @@ TimeOfCannibals:
   publisher: The University Of Chicago Press
   publisher-place: Chicago
   URL: https://archive.org/details/intimeofcannibal0000copl
-  #TODO: bad ISBN: 0-266-11573-9
+  ISBN: '0-266-11573-9'
 LaRegleDuTemple:
   type: book
   title:
@@ -3301,6 +3327,7 @@ JapaneseFloralCalendar:
 OpeningKamigataya:
   type: webpage
   URL: https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/
+  archive-URL: https://web.archive.org/web/20230207054415/https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/
   title:
     value: 花札の公然の販売‥‥「上方屋」の挑戦
     lang: ja
@@ -3310,6 +3337,7 @@ OpeningKamigataya:
     year: 2020
 AstuteBusinessman:
   URL: https://www.nzherald.co.nz/whanganui-chronicle/news/museum-notebook-whanganui-philanthropist-also-an-astute-businessman/KGR57UHEBIWHL2RKIYZGBVP26U/
+  archive-URL: https://web.archive.org/web/20220704052946/https://www.nzherald.co.nz/whanganui-chronicle/news/museum-notebook-whanganui-philanthropist-also-an-astute-businessman/KGR57UHEBIWHL2RKIYZGBVP26U/
   title: "Museum Notebook: Whanganui philanthropist also an astute businessman"
   type: article-newspaper
   in:
@@ -3331,6 +3359,7 @@ TaxStampNZ:
     year: 2017
   container-title: Peter Endebrock’s Playing-card Pages
   URL: http://www.endebrock.de/stamps/st-nz.html
+  archive-URL: https://web.archive.org/web/20211130085141/http://www.endebrock.de/stamps/st-nz.html
 FlowersAndGardensOfJapan:
   type: book
   title: The Flowers And Gardens Of Japan
@@ -3349,6 +3378,7 @@ JapaneseInstagramUsers:
     year: 2021
   publisher: NapoleonCat
   URL: https://napoleoncat.com/stats/instagram-users-in-japan/2021/04
+  archive-URL: https://web.archive.org/web/20220815183258/https://napoleoncat.com/stats/instagram-users-in-japan/2021/04/
 KoreanInstagramUsers:
   type: webpage
   title: Instagram Users in Korea, April 2021
@@ -3356,6 +3386,7 @@ KoreanInstagramUsers:
     year: 2021
   publisher: NapoleonCat
   URL: https://napoleoncat.com/stats/instagram-users-in-republic_of_korea/2021/04
+  archive-URL: https://web.archive.org/web/20211024061542/https://napoleoncat.com/stats/instagram-users-in-republic_of_korea/2021/04/
 JapaneseBusinessmen1914:
   type: book
   title:
@@ -3606,6 +3637,7 @@ ChiChiPai:
     year: 2015
   container-title: World of Playing Cards
   URL: https://www.wopc.co.uk/belgium/mesmaeker/chi-chi-pai
+  archive-URL: https://web.archive.org/web/20221210055422/https://www.wopc.co.uk/belgium/mesmaeker/chi-chi-pai
 ChineseOfTheStraitsSettlements:
   type: book
   title: The manners and customs of the Chinese of the straits settlements
@@ -3679,6 +3711,7 @@ MinangCeki:
   title: Nama-nama Kartu KOA
   container-title: Lai tau mah,..!!!
   URL: http://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html
+  archive-URL: https://web.archive.org/web/20220703124742/https://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html
   issued:
     year: 2013
   author:
@@ -3691,6 +3724,7 @@ LombokCeki:
     year: 2016
   container-title: Lai tau mah,..!!!
   URL: http://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html?showComment=1461669020922#c1535841351149970488
+  archive-URL: https://web.archive.org/web/20220703114532/https://laitaumah.blogspot.com/2013/03/nama-nama-kartu-koa.html?showComment=1461669020922#c1535841351149970488
 JavanischeKartenspiele:
   type: article-journal
   title:
@@ -4516,6 +4550,7 @@ AScapeToBermuda:
 WOPCNCC:
   type: webpage
   URL: https://www.wopc.co.uk/usa/national/index
+  archive-URL: https://web.archive.org/web/20230510095920/https://www.wopc.co.uk/usa/national/national-card-company
   author:
     - given: Simon
       family: Wintle
@@ -4542,6 +4577,7 @@ MaedaBook:
 HuaHuiBrunei:
   type: webpage
   URL: http://bruneiresources.blogspot.com/2008/07/hua-hui-and-gambling-games-in-brunei.html
+  archive-URL: https://web.archive.org/web/20230117141041/http://bruneiresources.blogspot.com/2008/07/hua-hui-and-gambling-games-in-brunei.html
   title: Hua Hui and Gambling Games in Brunei
   author:
     - family: Yunos
@@ -4595,10 +4631,12 @@ SingaporeGamesOfChanceAndSkill:
     day: 15
     month: 6
   URL: https://sso.agc.gov.sg/SL/CGHA1961-N2?ProvIds=Sc-#Sc-
+  archive-URL: https://web.archive.org/web/20220714015932/https://sso.agc.gov.sg/SL/CGHA1961-N2?ProvIds=Sc-#Sc-
 MalaysiaCommonGamingHousesAct:
   type: webpage
   title: Common Gaming Houses Act 1953 (Revised 1983)
   URL: http://www.commonlii.org/my/legis/consol_act/cgha19531983289/
+  archive-URL: https://web.archive.org/web/20221007153642/http://www.commonlii.org/my/legis/consol_act/cgha19531983289/
   container-title: Commonwealth Legal Information Institute
   issued:
     year: 1983
@@ -4709,6 +4747,7 @@ LaneTab:
   issued:
     year: 2021
   URL: http://arabiclexicon.hawramani.com/?p=1107&book=50#fba865
+  archive-URL: https://web.archive.org/web/20220118011931/http://arabiclexicon.hawramani.com/%d8%b7%d8%a8%d9%86/?book=50#fba865
 AdjiBoto:
   type: article-journal
   title: Adjiboto, an African Game of the Bush-Negroes of Dutch Guiana
@@ -5118,6 +5157,7 @@ PangHauKiImage:
   issued:
     year: 2020
   URL: https://www.penn.museum/collections/object/333423
+  archive-URL: https://web.archive.org/web/20220809095626/https://www.penn.museum/collections/object/333423
 Butito:
   type: article-journal
   title: Butito
@@ -5557,6 +5597,7 @@ Fischarts:
 Yasukaki:
   type: webpage
   URL: https://www.asahi-net.or.jp/~rp9h-tkhs/dg_yasukari.htm
+  archive-URL: https://web.archive.org/web/20220809095626/https://www.penn.museum/collections/object/333423
   title:
     value: 八道行成
     lang: ja
@@ -6078,6 +6119,7 @@ TheBelangkasGame:
   type: webpage
   title: The Belangkas Game
   URL: http://thyeoh07.blogspot.com/2009/02/belangkas-game.html
+  archive-URL: https://web.archive.org/web/20120327174251/http://thyeoh07.blogspot.com/2009/02/belangkas-game.html
   issued:
     year: 2009
     month: 2
@@ -6090,6 +6132,7 @@ KingCrab:
   type: webpage
   title: King Crab
   URL: https://wizardofodds.com/games/king-crab/
+  archive-URL: https://web.archive.org/web/20230202114109/https://wizardofodds.com/games/king-crab/
   container-title: The Wizard of Odds
   issued:
     year: 2017
@@ -6229,6 +6272,7 @@ SharpsAndFlats:
 DrawingTheNumbersForTheBankTicket:
   type: webpage
   URL: http://handle.slv.vic.gov.au/10381/240375
+  archive-URL: https://web.archive.org/web/20230517033331/https://viewer.slv.vic.gov.au/?entity=IE840841&mode=browse
   issued:
     year: 1873
   author:
@@ -6335,6 +6379,7 @@ MeditoBoxFront:
   type: webpage
   title: "Medito: Box Front"
   URL: https://boardgamegeek.com/image/4604193/medito
+  archive-URL: https://web.archive.org/web/20230517033429/https://boardgamegeek.com/image/4604193/medito
   container-title: BoardGameGeek
   issued:
     year: 2019
@@ -6436,6 +6481,7 @@ TigerTank:
     value: เสือตกถัง
     lang: th
   URL: http://legacy.orst.go.th/?knowledges=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-%E0%B9%91%E0%B9%90-%E0%B8%81%E0%B8%B8%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C
+  archive-URL: https://web.archive.org/web/20230517033504/http://legacy.orst.go.th/?knowledges=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-%E0%B9%91%E0%B9%90-%E0%B8%81%E0%B8%B8%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C
   author:
     - given: อิสริยา
       family: เลาหตีรานนท์
@@ -6502,6 +6548,7 @@ EveryLightWasOn:
 StatevCrownCigarStore:
   type: webpage
   URL: https://casetext.com/case/state-v-crown-cigar-store
+  archive-URL: https://web.archive.org/web/20230517033551/https://casetext.com/case/state-v-crown-cigar-store
   title: State v. Crown Cigar Store
   publisher: Supreme Court of Montana
   issued:
@@ -6882,6 +6929,7 @@ EbashiKabuCarta:
     value: 「かぶカルタ」遊技の流行
     lang: ja
   URL: https://japanplayingcardmuseum.com/2-3-3-2-kabucarta-game-spread/
+  archive-URL: https://web.archive.org/web/20230207044123/https://japanplayingcardmuseum.com/2-3-3-2-kabucarta-game-spread/
   container-title: Japan Playing Card Museum
   issued:
     year: 2020
@@ -6892,6 +6940,7 @@ EdoKaruta7:
     value: 「やくざ（八九三）」の語源考
     lang: ja
   URL: https://sudare10.gokenin.com/room/mein/mein-07.html
+  archive-URL: https://web.archive.org/web/20220803010639/https://sudare10.gokenin.com/room/mein/mein-07.html
   container-title:
     value:  江戸カルタメイン研究室
     lang: ja
@@ -8170,6 +8219,7 @@ LiveDealerFanTan:
   type: webpage
   title: Live Dealer Fan Tan
   URL: https://wizardofodds.com/online-casinos/live-dealer/fan-tan/
+  archive-URL: https://web.archive.org/web/20230203062711/https://wizardofodds.com/online-casinos/live-dealer/fan-tan/
   container-title: The Wizard of Odds
   issued:
     year: 2019
@@ -8295,6 +8345,7 @@ BitsOfChina:
     - given: うなっくす
       lang: ja
   URL: http://blog.livedoor.jp/boso_fishing/archives/1045980935.html
+  archive-URL: https://web.archive.org/web/20230517033751/http://blog.livedoor.jp/boso_fishing/archives/1045980935.html
   container-title:
     value: 房総フィッシング
     lang: ja
@@ -9269,6 +9320,7 @@ PhilipSkippon:
 EncycloBasset:
   type: webpage
   URL: http://hdl.handle.net/2027/spo.did2222.0001.115
+  archive-URL: https://web.archive.org/web/20230517033917/https://quod.lib.umich.edu/d/did/did2222.0001.115?view=text;rgn=main
   title: Basset
   author:
   - given: Jean le Rond
@@ -9400,6 +9452,7 @@ SummonsFragment:
   - given: Alex
     family: de Voogt
   URL: https://exchanges.uiowa.edu/ancient/issues/diversions/liubo/
+  archive-URL: https://web.archive.org/web/20230108014330/https://exchanges.uiowa.edu/ancient/issues/diversions/liubo/
   container-title: Ancient Exchanges
   issued: 2021
 MythicChineseUnicorn:
