@@ -2310,13 +2310,21 @@ PlayedAtThePub:
   type: book
   title: Played at the Pub
   author:
-    - family: Taylor
-      given: Arthur
-  issued:
-    year: 2009
+  - family: Taylor
+    given: Arthur
+  issued: 2009
   publisher: English Heritage
   publisher-place: Swindon, England, UK
   ISBN: "9781905624973"
+PubGames:
+  type: book
+  title: Pub Games
+  author:
+  - family: Taylor
+    given: Arthur
+  issued: 1976
+  publisher: Mayflower
+  # ISBN?: 583126502
 RelayMoe:
   type: article-magazine
   title: “Relay Moe” Plays Tick-Tack-Toe
@@ -2368,6 +2376,7 @@ OnTheRulesForTheRoyalGameOfUr:
   page: 16–32
   in: &ancientBoardGamesInPerspective
     title: Ancient Board Games in Perspective
+    URL: https://archive.org/details/ancientboardgame0000unse
     issued:
       year: 2007
     publisher-place: London, UK
@@ -7480,11 +7489,11 @@ SocialHeat:
       year: 2011
       month: 6
 BriefHistoryOfBackgammon:
-  type: paper-conference
+  type: chapter
   title: A Brief History of Backgammon and the Design of the Board
   author:
-    - given: Malcolm J.
-      family: Watkins
+  - given: Malcolm J.
+    family: Watkins
   page: 238–241
   URL: https://archive.org/details/ancientboardgame0000unse/page/238
   in: *ancientBoardGamesInPerspective
@@ -9555,3 +9564,19 @@ AdditionalLiuPo:
     issued: 
       year: 1952
       month: 6
+BackgammonAncientIndian:
+  type: chapter
+  title: Board Games and Backgammon in Ancient Indian Sculpture
+  author:
+  - given: Micaela
+    family: Soar
+  page: 177-231
+  in: *ancientBoardGamesInPerspective
+BackgammonLo:
+  type: chapter
+  title: Notes on the Early History of the Backgammon Family in China
+  page: 232-234
+  author:
+  - given: Andrew
+    family: Lo
+  in: *ancientBoardGamesInPerspective
