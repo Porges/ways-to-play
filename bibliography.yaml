@@ -9580,3 +9580,24 @@ BackgammonLo:
   - given: Andrew
     family: Lo
   in: *ancientBoardGamesInPerspective
+ChuTzuEarlyChinese:
+  type: chapter
+  title: Ch'u tz'u 楚辭
+  author:
+  - given: David
+    family: Hawkes
+  page: 48-55
+  URL: https://archive.org/details/earlychinesetext0000unse_r3v8/page/48
+  in:
+    title: "Early Chinese Texts: A Bibliographical Guide"
+    editor:
+    - given: Michael
+      family: Loewe
+    issued: 1993
+    ISBN: 1557290431
+    URL: https://archive.org/details/earlychinesetext0000unse_r3v8
+    publisher: Society for the Study of Early China and Institute of Asian Studies, University of California
+    publisher-place: Berkeley, California
+    series:
+      title: Early China Special Monograph Series
+      number: 2

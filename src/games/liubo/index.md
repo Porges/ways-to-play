@@ -21,17 +21,20 @@ See: @AdditionalLiuPo
 ---
 
 
-## Nine Ways of Looking at Zhao Hun
+## Nine Ways of Looking at <span lang="cmn-Latn-pinyin">Zhāo Hún</span>
 {%aside%}You should really read @19Ways, if you haven’t.{%endaside%}
 
-part of the poem “Zhao Hun” 招魂 from the Chu Ci 楚辭 attributed to Qu Yuan 屈原:
+The “shamanistic” poem <span lang="cmn-Latn-pinyin" class="noun">Zhāo Hún</span> <span lang="zh">招魂</span> (“Summons of the Soul”) — written perhaps around 270 {%bce%}, and part of the [<span lang="cmn-Latn-pinyin" class="noun">Chǔ Cí</span>](http://www.chinaknowledge.de/Literature/Poetry/chuci.html) <span lang="zh">楚辭</span> (“Songs of [Chu](https://en.wikipedia.org/wiki/Chu_(state))”) collection, traditionally attributed to either of [<span lang="cmn-Latn-pinyin" class="noun">Qū Yuán</span>](https://en.wikipedia.org/wiki/Qu_Yuan) (<span lang="zh">屈原</span>) or [<span lang="cmn-Latn-pinyin" class="noun">Sòng Yù</span>](https://en.wikipedia.org/wiki/Song_Yu) (<span lang="zh">宋玉</span>)[@ChuTzuEarlyChinese][@SongsOfTheSouth p. 219–23]  — contains a verse that refers to the game, attempting to entice the soul of a king back to the world of the living:
+
 <blockquote lang="zh" class="blockquote">
 菎蔽象棊，有六簙些。<br/>
 分曹並進，遒相迫些。<br/>
 成梟而牟，呼五白些。
 </blockquote>
 
-* FAKE “The chessboard is covered with six kinds of pieces. They are divided into two armies, which advance and press each other. When the pieces are arranged in the shape of a bird, the five white pieces are called out.” (Witter Bynner)
+<!--
+* FAKE (copilot) “The chessboard is covered with six kinds of pieces. They are divided into two armies, which advance and press each other. When the pieces are arranged in the shape of a bird, the five white pieces are called out.” (Witter Bynner)
+-->
 
 This is interpreted in several different ways by various translators:
 
@@ -49,15 +52,15 @@ This is interpreted in several different ways by various translators:
 > Smoky-jade markers and ivory pieces<br>
 > they play the game of Six Whites.<br>
 > Dividing in teams, they attack together,<br>
-> and press one anotehr hard.<br>
+> and press one another hard.<br>
 > The throw succeeds, the score is doubled,<br>
 > one shouts: “Five white!”[@AnthologyChineseLiterature p. 209–10]
 
 > With jade throwing rods and ivory pieces,<br>
-> The game of liubo commences.<br>
+> The game of <span lang="zh-Latn">liubo</span> commences.<br>
 > Sides are taken and the pieces advance,<br>
 > Threatening the opposing side.<br>
-> Whoever becomes a xiao wins double,<br>
+> Whoever becomes a <span lang="zh-Latn">xiao</span> wins double,<br>
 > And shouts out “five white!”[@LiuboFiveHundred p. 112]
 
 > Bamboo sticks and ivory draughtsmen, the game of liubo is set up.  [@DisquisitionOnBoyi p. 568]
