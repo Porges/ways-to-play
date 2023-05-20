@@ -239,6 +239,10 @@ called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
         <td>?</td>
         <td><a href="#ito-koji-shoten"><span class="noun" lang="ja-Latn">Itō Kōji Shōten</span></a></td>
         </tr>
+        <tr>
+        <td>—</td>
+        <td><a href="#alaska-playing-cards">Alaska playing cards</a></td>
+        </tr>
     </tbody>
     </table>
 </div>
@@ -2305,6 +2309,19 @@ lang="ja">芳</span> in a circle. I know of nothing else about this manufacturer
 A <span class="noun" lang="ja-Latn">Kyōto</span> manufacturer, only has one deck that I know of:
 
 * <span lang="ja">近代花</span> (<span lang="ja-Latn">kindaibana</span>, ‘modern flowers’)
+
+### Alaska playing cards
+
+Alaska was a playing-card company that also manufactured some hana-trump decks. I know of nothing else about them.
+
+{% image 
+    noborder=true
+    size="wide"
+    alt=""
+    src='alaska.jpg'
+    %}
+The five brights of Alaska’s hana-trump deck.
+{% imageEnd %}
 
 ## Unknown
 

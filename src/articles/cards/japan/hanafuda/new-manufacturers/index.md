@@ -199,15 +199,12 @@ The backgrounds are a metallic gold colour, which doesn’t show up well here.
 
 ## [Junior](https://www.junior.cards/)
 
-Junior have produced a ground-up redesign of Hanafuda into a poker format deck,
-printed by <abbr title="the United States Playing Card Company">USPCC</abbr>.
-The first edition is called the <strong>Phoenix</strong> deck (2019). Each
-different type of <span class="noun" lang="ja-Latn">Hanafuda</span> card has a different
-background, and all are identified by suit marker indices, which helps to
-clarify the cards for new players.
+Junior have produced a ground-up redesign of Hanafuda into a poker format deck, printed by <abbr title="the United States Playing Card Company">USPCC</abbr>.  The first edition is called the <strong>Phoenix</strong> deck (2019). Each different type of <span class="noun" lang="ja-Latn">Hanafuda</span> card has a different background, and all are identified by suit marker indices, which helps to clarify the cards for new players.
 
 {% image 
-  src='Junior_Brights.jpg'
+  src='louie_brights.jpg'
+  size="wide"
+  noborder=true
   alt="" %}
 The 5 Bright cards of the Junior Phoenix <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
 {% imageEnd %}
@@ -217,15 +214,14 @@ To fill out the full 54 cards of a standard poker deck, there are an additional
 and second Oni card:{%fn%}These were inspired by the extra cards of the Universal deck.{%endfn%}
 
 {% image 
-  src='Junior_Bamboo.jpg'
+  src='louie_bamboo.jpg'
+  size="wide"
+  noborder=true
   alt="" %}
-The additional ‘Bamboo’ suit of the Phoenix deck.
+The additional ‘Bamboo’ suit of the Phoenix deck, as well as the lightning card (featuring an <span lang="ja-Latn">oni</span>) and an advertisement card.
 {% imageEnd %}
 
-After the successful completion of [a Kickstarter
-campaign](https://www.kickstarter.com/projects/juniorcards/junior-hanafuda) in
-2020, two more Junior decks are being produced: <strong>Dragon</strong> and
-<strong>Tiger</strong>.
+After the successful completion of [the Kickstarter campaign](https://www.kickstarter.com/projects/juniorcards/junior-hanafuda) in 2020, two more Junior decks were produced: <strong>Dragon</strong> and <strong>Tiger</strong>.
 
 ## Pixel Hanafuda
 
@@ -308,4 +304,28 @@ Korean decks.
   size="wide"
   alt="" %}
   The 5 Brights of the Tuhwa (v2) deck.
+{% imageEnd %}
+
+## Hanafuda Koi-Koi: Deluxe Edition
+
+This deck was [Kickstarted in 2023](https://www.kickstarter.com/projects/ebaraf/hanafuda-and-the-one-hundred-torii-diverging-paths) by Pencil First Games. The art is by Vincent Dutrait.
+
+{% image 
+  src='hanafuda_koikoi.jpg'
+  noborder=true
+  size="wide"
+  alt="" %}
+The 5 Brights of the Hanafuda Koi-Koi (deluxe edition) deck.
+{% imageEnd %}
+
+## Brownies Carta de Flor
+
+In 2023, the video game company [Brownies](https://en.wikipedia.org/wiki/Brownies_(company)) (now part of Nintendo itself) produced a deck that was manufactured by Nintendo. The cards are in an art-nouveau style.
+
+{% image 
+  src='brownies.jpg'
+  noborder=true
+  size="wide"
+  alt="" %}
+The 5 Brights of the Brownies deck.
 {% imageEnd %}
