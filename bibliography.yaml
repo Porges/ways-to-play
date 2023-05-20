@@ -9601,3 +9601,38 @@ ChuTzuEarlyChinese:
     series:
       title: Early China Special Monograph Series
       number: 2
+HachiHachi:
+  type: book
+  title: "Hachi Hachi (Eighty-Eight): Japanese Card Game"
+  author:
+  - given: “Stray Sheep”
+    alt:
+      value: Tatsuo Suzuki
+      lang: ja-Latn
+  publisher: Kōtsu Nippon Sha
+  publisher-place: Nihombashi, Tokyo
+  issued: 1948
+Gimmi88:
+  type: book
+  title: "Gimmi 88: The Popular Japanese Card Game"
+  publisher: The Katagiri Brothers
+  author:
+  - given: N.
+    family: Yoshino
+    lang: ja-Latn
+  issued: 1929
+PlayingHanaKaruta:
+  type: book
+  issued: 1916
+  title:
+    value: 花かるたの遊び
+    lang: ja
+    alt: Playing Hana-Karuta
+  author:
+  - given: 百合雄
+    family: 片岡
+    lang: ja
+    alt:
+      value: Kataoka Yurio
+      lang: ja-Latn
+  publisher: Kamigataya K.K.

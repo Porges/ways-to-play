@@ -32,6 +32,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("small-images");
   eleventyConfig.addPassthroughCopy({ "site_root": "/" });
 
+  eleventyConfig.setServerPassthroughCopyBehavior("passthrough");
+
   eleventyConfig.addPlugin(eleventyRemark, {
     enableRehype: false,
     plugins: [
