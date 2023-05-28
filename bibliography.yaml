@@ -9403,6 +9403,23 @@ NotesOnFishing:
     issued:
       month: 5
       year: 1998
+FishingInYorkshire:
+  type: article-journal
+  title: "Playing the Game: Fishing in 18<sup>th</sup>-century Yorkshire"
+  author:
+  - given: John
+    family: McLeod
+  page: 183-185
+  in:
+    title: Journal of the International Playing-Card Society
+    issue: 3
+    volume: 45
+    issued:
+      month: 3
+      year: 2017
+    editor:
+    - given: Paul
+      family: Endebrock
 SwaziCasino:
   type: article-journal
   title: "Playing the Game: Swazi Casino"
@@ -9636,3 +9653,20 @@ PlayingHanaKaruta:
       value: Kataoka Yurio
       lang: ja-Latn
   publisher: Kamigataya K.K.
+CasinoFromNowhere:
+  type: article-journal
+  title: Casino From Nowhere, to Vaguely Everywhere
+  author: 
+  - given: Franco
+    family: Pratesi
+  page: 6-12
+  in:
+    title: Journal of the International Playing-Card Society
+    volume: 24
+    issue: 1
+    issued:
+      month: 8
+      year: 1995
+    editor:
+    - given: George
+      family: Beal

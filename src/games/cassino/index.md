@@ -16,7 +16,7 @@ The Tongan/Samoan version is played with 8 cards instead of 4.
 
 ---
 
-Refs: [@CardGamesAroundTheWorld, p. 85] [@AmericanCardPlayer, p. 128]
+Refs: [@CardGamesAroundTheWorld, p. 85] [@AmericanCardPlayer, p. 128] @CasinoFromNowhere
 
 Also called [@NotesOnFishing p. 205]: Pilei Swip or Sweep (New Guinea)
 
@@ -28,8 +28,27 @@ With slightly different rules: Whip (Belgium), Sip (Northern India), Sweep (Paki
 
 ### Royal Casino
 
-Refs: [@CardGamesAroundTheWorld, p. 88]
+Refs: [@CardGamesAroundTheWorld, p. 88] [@CasinoFromNowhere p. 8]
 
 ### Swazi Casino
 
 [@SwaziCasino]
+
+### Spade Casino
+
+[@CasinoFromNowhere p. 8]
+
+### Draw Casino 
+[@CasinoFromNowhere p. 8]
+
+### Give-away Casino 
+[@CasinoFromNowhere p. 8]
+
+### 21-Point Casino
+[@CasinoFromNowhere p. 10]
+
+### Spade Royal
+[@CasinoFromNowhere p. 10]
+
+### Diamond Casino
+[@CasinoFromNowhere p. 10]

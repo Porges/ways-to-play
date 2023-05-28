@@ -7,6 +7,8 @@ order: 50
 Fishing games are a family of card games where players play cards from their hand to attempt to capture cards that are face-up on the table, in a shared ‘pool’.
 </p>
 
+## Categorization
+
 I believe they can be divided into three broad groups, in increasing order of luck:
 
 1. games where cards are played only from the hand,
@@ -38,6 +40,12 @@ The last type are luck-based games where all cards are turned from the stock.  T
     - {% gameref thit-thit-dulit %}
 
 <!--
+### By matching type
+
+Another way to categorize the games is to group them by how cards are matched.
+-->
+
+<!--
 To be included:
 @NotesOnFishing:
 - Tenteret
@@ -62,4 +70,8 @@ To be included:
 - Cuarenta
 @SwaziCasino
 - Karusell
+@FishingInYorkshire
+- Snatchem/Snitch’ems
+- Escoba
+- Scopa de Quindici
 -->

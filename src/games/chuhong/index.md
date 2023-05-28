@@ -11,8 +11,6 @@ mainImage: instructions.png
 <span lang="cmn-Latn-pinyin" class="aka noun">Chú Hóng</span> (<span lang="zh" class="aka">除紅</span>, ‘exclude reds’) was a dice game played over 600 years ago in China. It apparently originated during the <a href="https://en.wikipedia.org/wiki/Liao_dynasty">Liao dynasty</a> (916-1125) of northern China and was popular during the <a href="https://en.wikipedia.org/wiki/Song_dynasty">Song</a> (960–1279); @PersonalLuck describes it as “perfected in Yuan times” (1279–1368).[@PsychologyChineseGambling p. 21] It has also been called <span lang="zh" class="aka">豬窩</span> ‘pigsty’ (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">zhū wō</span>),[@PsychologyChineseGambling p. 23] <span lang="zh" class="aka">朱窩</span> ‘vermillion nest’ (same pronunciation; ‘vermillion’ and ‘pig’ are homophones), or <span lang="zh" class="aka">豬婆龍</span> ‘dragon sow’, a name of the <a href="https://en.wikipedia.org/wiki/Chinese_alligator">Chinese alligator</a>.[@KKChuhong]
 </p>
 
-<!-- excerpt -->
-
 ## History
 
 A Song-era book entitled <cite lang="zh">除紅譜</cite> <cite>Manual for Excluding Reds</cite> which is attributed to one <span class="noun" lang="cmn-Latn-pinyin">Zhū Hé</span> (<span lang="zh">朱河</span>){%fn%}According to the <cite>Preface</cite>, a descendent of <span lang="cmn-Latn-pinyin" class="noun">Zhū Guāngtíng</span>, a famous politician of the Song dynasty.{%endfn%} contains the standard rules for the game. There was a later minor expansion to this text called the <cite lang="zh">除紅譜序</cite> <cite>Preface to the Manual for Excluding Reds</cite> which was authored in 1368 by <span lang="zh">杨维桢</span> <span lang="cmn-Latn-pinyin" class="noun">Yáng Wéizhēn</span> (1296–1370).

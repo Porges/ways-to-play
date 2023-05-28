@@ -582,6 +582,7 @@ table caption {
 table.rule-between-cells tr+tr {
     border-top: thin solid black;
 }
+
 table.rule-between-cells td+td {
     border-left: thin solid black;
 }
@@ -590,11 +591,11 @@ table.rule-first-row tr:first-child {
     border-bottom: thin solid black;
 }
 
-table.rule-first-col td:first-child {
+table.rule-first-col tr>:first-child {
     border-right: thin solid black;
 }
 
-table.rule-last-col td:last-child {
+table.rule-last-col tr>:last-child {
     border-left: thin solid black;
 }
 

@@ -166,7 +166,7 @@ yaku</span>, as well as the overall probability (many entries round to zero).
 By inverting the probability of the top-left entry, we can see that a <span
 lang="ja-Latn">te&shy;yaku</span> is expected in about 1-in-4 dealt hands.
 
-<table class="table numeric table-sm small">
+<table class="table numeric table-sm small rule-first-col rule-last-col">
 <caption>Counts and probabilities of possible <span lang="ja-Latn">te&shy;yaku</span> combinations.</caption>
 <thead class="table-light">
 <tr>
@@ -180,7 +180,7 @@ lang="ja-Latn">te&shy;yaku</span> is expected in about 1-in-4 dealt hands.
 <th>Total</th>
 </tr>
 </thead>
-<tbody>
+<tbody class="table-group-divider">
 <tr>
 <th scope="row" class="table-light">No set <span lang="ja-Latn">yaku</span></th>
 <td>54&#x202f;461&#x202f;388<br/>(73.97%)</td>
@@ -272,7 +272,7 @@ lang="ja-Latn">te&shy;yaku</span> is expected in about 1-in-4 dealt hands.
 <td class="table-light">528<br/>(0.00%)</td>
 </tr>
 </tbody>
-<tfoot class="table-light">
+<tfoot class="table-light table-group-divider">
 <tr>
 <th scope="row">Total</th>
 <td>61&#x202f;729&#x202f;272<br/>(83.84%)</td>
@@ -332,31 +332,9 @@ lang="ja-Latn">yoroshi</span>), and <span lang="ja">す𛀙𛂦ら</span> (<span
 lang="ja-Latn">sugawara</span>).
 {% imageEnd %}
 
-It was also formerly known as <span lang="ja-Latn">ura-sugawara</span> (<span
-lang="ja">裏菅原</span>, ‘behind/inside <span class="noun"
-lang="ja-Latn">Sugawara</span>’) or <span lang="ja-Latn">urasu</span> for
-short.{%fn%}Other spellings of <span lang="ja-Latn">urasu</span> (<span
-lang="ja">うらす</span>) include <span lang="ja">裏</span>, <span lang="ja">裏す</span>,
-<span lang="ja">宇良す</span>, or <span lang="ja">𛀋らす</span>.{%endfn%}
-This name was a reference to the popular <span
-lang="ja-Latn">kabuki</span> play <cite>{% pronounce lang="ja-Latn"
-word="Sugawara Denju Tenarai Kagami" file="pronunciation_ja_菅原伝授手習鑑.mp3"
-pronouncer="jinyamai" %}</cite> (<span lang="ja">菅原伝授手習鑑</span>,
-‘<cite>Sugawara and the Secrets of Calligraphy</cite>’). In the play the three
-main characters are brothers who are named after the three plants featured on
-the cards: <span class="noun" lang="ja-Latn">Matsuōmaru</span> (<span lang="ja">
-松王丸</span>, pine), <span class="noun" lang="ja-Latn">Umeōmaru</span> (<span
-lang="ja">梅王丸</span>, plum), and <span class="noun"
-lang="ja-Latn">Sakuramaru</span> (<span lang="ja">桜丸</span>, cherry). In the
-play the brothers wear costumes which bear symbols of the plants related to
-their names.
+It was also formerly known as <span lang="ja-Latn">ura-sugawara</span> (<span lang="ja">裏菅原</span>, ‘behind/inside <span class="noun" lang="ja-Latn">Sugawara</span>’) or <span lang="ja-Latn">urasu</span> for short.{%fn%}Other spellings of <span lang="ja-Latn">urasu</span> (<span lang="ja">うらす</span>) include <span lang="ja">裏</span>, <span lang="ja">裏す</span>, <span lang="ja">宇良す</span>, or <span lang="ja">𛀋らす</span>.{%endfn%} This name was a reference to the popular <span lang="ja-Latn">kabuki</span> play <cite>{% pronounce lang="ja-Latn" word="Sugawara Denju Tenarai Kagami" file="pronunciation_ja_菅原伝授手習鑑.mp3" pronouncer="jinyamai" %}</cite> (<span lang="ja">菅原伝授手習鑑</span>, ‘<cite>Sugawara and the Secrets of Calligraphy</cite>’). In the play the three main characters are brothers who are named after the three plants featured on the cards: <span class="noun" lang="ja-Latn">Matsuōmaru</span> (<span lang="ja">松王丸</span>, pine), <span class="noun" lang="ja-Latn">Umeōmaru</span> (<span lang="ja">梅王丸</span>, plum), and <span class="noun" lang="ja-Latn">Sakuramaru</span> (<span lang="ja">桜丸</span>, cherry). In the play the brothers wear costumes which bear symbols of the plants related to their names.
 
-The <span lang="ja-Latn">yaku</span> can also be called <span
-lang="ja-Latn">yoroshī</span> (<span lang="ja">よろしい</span>, ‘good’) or <span
-lang="ja-Latn">akayoro</span> (<span lang="ja">赤よろ</span>, ‘red good’), or
-even simply <span lang="ja-Latn">aka</span> (<span lang="ja">緋</span>,
-‘scarlet’), although this risks confusion with the <span lang="ja-Latn">aka
-teyaku</span>.
+The <span lang="ja-Latn">yaku</span> can also be called <span lang="ja-Latn">yoroshī</span> (<span lang="ja">よろしい</span>, ‘good’) or <span lang="ja-Latn">akayoro</span> (<span lang="ja">赤よろ</span>, ‘red good’), or even simply <span lang="ja-Latn">aka</span> (<span lang="ja">緋</span>, ‘scarlet’), although this risks confusion with the <span lang="ja-Latn">aka teyaku</span>.
 
 {% image 
     size="extra-wide"
@@ -365,13 +343,7 @@ teyaku</span>.
     originalUrl='https://collections.mfa.org/objects/217240',
     orgName='Museum of Fine Arts Boston',
     license='cc0' %}
-The ‘<span class="noun" lang="ja-Latn">Kuruma&shy;hiki</span>’ (<span lang="ja">車引き</span>,
-carriage-pulling) scene from <cite>Sugawara and the Secrets of
-Calligraphy</cite>.<br/>The three brothers can be seen at front wearing clothes
-bearing the plants: cherry blossoms, plum blossoms, and pine trees.<br/>An 1841
-print by <span class="noun" lang="ja-Latn">[Utagawa
-Kunisada](https://en.wikipedia.org/wiki/Kunisada)</span> (<span lang="ja">歌川国
-貞</span>).
+The ‘<span class="noun" lang="ja-Latn">Kuruma&shy;hiki</span>’ (<span lang="ja">車引き</span>, carriage-pulling) scene from <cite>Sugawara and the Secrets of Calligraphy</cite>.<br/>The three brothers can be seen at front wearing clothes bearing the plants: cherry blossoms, plum blossoms, and pine trees.<br/>An 1841 print by <span class="noun" lang="ja-Latn">[Utagawa Kunisada](https://en.wikipedia.org/wiki/Kunisada)</span> (<span lang="ja">歌川国貞</span>).
 {% imageEnd %}
 
 ## Equipment
