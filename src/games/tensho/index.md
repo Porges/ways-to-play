@@ -5,31 +5,22 @@ originalTitle: <span lang="ja">テンショ</span>
 draft: true
 ---
 
-<span lang="ja-Latn" class="noun">Tensho</span> (<span lang="ja">テンショ</span>, ‘tense’) 
-is a <span lang="ja-Latn" class="noun">Hanafuda</span> game from <span
+<p class="lead">
+<span lang="ja-Latn" class="noun">Tensho</span> (<span lang="ja">テンショ</span>) is a <span lang="ja-Latn" class="noun">Hanafuda</span> game from <span
 lang="ja-Latn" class="noun">Nagoya</span> in Japan. It is played with an unusual
 deck ordering and <span lang="ja-Latn">yaku</span> that are not found in other
 <span lang="ja-Latn" class="noun">Hanafuda</span> games.
-
-<!-- excerpt -->
+</p>
 
 ## History
 
 {%aside%}
-Special thanks must be given to Ryan Sartor and ‘Lilith’ from the Hanafuda
-discord server who helped to figure this out!
+Special thanks must be given to Ryan Sartor and ‘Lilith’ from the Hanafuda Discord server who helped to figure this out!
 {%endaside%}
 
-An interesting thing about <span lang="ja-Latn" class="noun">Tenshō</span> is
-that it appears to have originally been a game played with a <span
-lang="ja-Latn" >mekuri</span> deck that was later transferred to the <span
-lang="ja-Latn" class="noun">Hanafuda</span> deck.
+An interesting thing about <span lang="ja-Latn" class="noun">Tenshō</span> is that it appears to have originally been a game played with a <span lang="ja-Latn">mekuri</span> deck that was later transferred to the <span lang="ja-Latn" class="noun">Hanafuda</span> deck.
 
-A Japanese Department of Justice report from 1927[@NagoyaReport f. 13–15, 52–56]
-describes the game being played with <span lang="ja-Latn">mekuri</span>
-cards,{%fn%}I have not yet identified the precise style of deck used.{%endfn%}
-with the following mapping between <span lang="ja-Latn">mekuri</span> and <span
-lang="ja-Latn" class="noun">Hanafuda</span> decks:
+A Japanese Department of Justice report from 1927[@NagoyaReport f. 13–15, 52–56] describes the game being played with <span lang="ja-Latn">mekuri</span> cards,{%fn%}I have not yet identified the precise style of deck used.{%endfn%} with the following mapping between <span lang="ja-Latn">mekuri</span> and <span lang="ja-Latn" class="noun">Hanafuda</span> decks:
 
 <table>
 <thead>

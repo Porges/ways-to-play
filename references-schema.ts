@@ -6,6 +6,7 @@ export type Author = {
     readonly lang?: string,
     readonly alt?: LStr,
     readonly suffix?: string,
+    readonly url?: string,
 }
 
 type Pagination = string
@@ -93,6 +94,7 @@ const authorSchema: JSONSchemaType<Author> = {
         lang: { type: "string", nullable: true },
         alt: { ...lstrSchema, nullable: true },
         suffix: { type: "string", nullable: true },
+        url: { type: "string", nullable: true },
     },
     required: ["given"],
     additionalProperties: false,

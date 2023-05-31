@@ -182,6 +182,7 @@ Best17:
   author:
     - family: Best
       given: Elsdon
+      url: https://en.wikipedia.org/wiki/Elsdon_Best
   page: 14-15
   URL: http://www.jstor.org/stable/2788164
   in:
@@ -332,6 +333,7 @@ Brigham08:
   author:
     - given: William Tufts
       family: Brigham
+      url: https://en.wikipedia.org/wiki/William_Tufts_Brigham
   issued:
     year: 1908
   publisher: Bishop Museum Press
@@ -2615,7 +2617,9 @@ OishiSadakuro:
   archive-URL: https://web.archive.org/web/20230205100416/https://www.tengudo.jp/blog/karuta-news/392.html
 IwanoMatsui:
   type: webpage
-  title: <span lang='ja'>松井天狗堂の買取致します</span>
+  title:
+    value: 松井天狗堂の買取致します
+    lang: ja
   issued:
     year: 2017
   publisher: Iwano Art Co.
@@ -2639,8 +2643,7 @@ Yamaguchi:
     lang: ja
 KakkuriYomi:
   type: article-journal
-  title: "<span lang='ja-Latn'>Kakkuri</span>: The Last <span
-    lang='ja-Latn'>Yomi</span> Game of Japan"
+  title: "<span lang='ja-Latn'>Kakkuri</span>: The Last <span lang='ja-Latn'>Yomi</span> Game of Japan"
   author:
     - given: Kimihiko
       family: Kuromiya
@@ -4750,8 +4753,7 @@ AutomaticTTT:
       year: 1879
 LaneTab:
   type: webpage
-  title: "Arabic–English Lexicon by Edward William Lane (d. 1876): <span
-    lang='ar'>طبن</span>"
+  title: "Arabic–English Lexicon by Edward William Lane (d. 1876): <span lang='ar'>طبن</span>"
   container-title: The Arabic Lexicon
   author:
     - given: Ikram
@@ -5504,6 +5506,7 @@ Screech:
     - given: François
       family: Rabelais
       lang: fr
+  translator:
     - given: M. A.
       family: Screech
   issued:
@@ -5536,6 +5539,7 @@ BrownGargantua:
     - given: François
       family: Rabelais
       lang: fr
+  translator:
     - given: Andrew
       family: Brown
   publisher: Hersperus Press
@@ -5547,6 +5551,13 @@ CohenRabelais:
   type: book
   URL: https://archive.org/details/historiesofgarga00fran
   title: The Histories of Gargantua and Pantagruel
+  translator:
+  - given: J. M.
+    family: Cohen
+  author:
+  - given: François
+    family: Rabelais
+    lang: fr
   issued:
     year: 1975
   publisher: Penguin
@@ -6921,8 +6932,7 @@ OpenTodayRenoClub:
     issue: 60
 CinaOrTionghua:
   type: article-newspaper
-  title: <span lang='id'>Cina</span> or <span lang='id'>Tionghua</span>? The
-    politics behind Indonesia’s word choice
+  title: <span lang='id'>Cina</span> or <span lang='id'>Tionghua</span>? The politics behind Indonesia’s word choice
   URL: https://eresources.nlb.gov.sg/newspapers/Digitised/Issue/straitstimes20140326-1#
   in:
     issued:
@@ -8084,15 +8094,15 @@ GoldenShells:
   page: 86–100
 GoldenOpportunity:
   type: chapter
-  title: "A golden opportunity: reviving the lost art of <span
-    lang='ja-Latn'>kai-awase</span> and <span lang='ja-Latn'>kai-oke</span>
-    production"
+  title: "A golden opportunity: reviving the lost art of <span lang='ja-Latn'>kai-awase</span> and <span lang='ja-Latn'>kai-oke</span> production"
   in: *goldenShells
   author:
     - given: Tatsufumi
       family: Yamazaki
       lang: ja-Latn
-      alt: <span lang="ja">山崎 達文</span>
+      alt: 
+        value: 山崎 達文
+        lang: ja
   page: 2–22
 OverseasChineseNZ:
   type: book
@@ -8203,7 +8213,9 @@ ParadoxicalSoftPower:
     - family: Xavier
       given: Paulès
       lang: fr
-      alt: <span lang='zh'>包利威</span>
+      alt: 
+        value: 包利威
+        lang: zh
   URL: https://doi.org/10.1163/24522015-01102002
   page: 187–207
   in:
@@ -8325,8 +8337,10 @@ PlaisirsEnChine:
     value: Les Plaisirs en Chine
     lang: fr
   author:
-    - given: Ki-tong
+    - &kitong
+      given: Ki-tong
       family: Tcheng
+      url: https://en.wikipedia.org/wiki/Chen_Jitong
       alt: 
         value: 陳季同
         lang: zh-Hant
@@ -8340,9 +8354,7 @@ BitsOfChina:
   URL: https://archive.org/details/cu31924023241031
   title: Bits of China
   author:
-    - given: Ki-tong
-      family: Tcheng
-      alt: <span lang='zh-Hant'>陳季同</span>
+    - *kitong
     - given: R. H.
       family: Sherard
   issued: 1890
@@ -8369,7 +8381,8 @@ TonicDictionary:
   type: book
   title:
     value: Tonic Dictionary of the Chinese Language in the Canton Dialect
-    alt: <span lang='yue'>英華分韻撮要</span>
+    lang: en
+    alt: <span lang="yue">英華分韻撮要</span>
   author:
     - given: Samuel Wells
       family: Williams
@@ -8730,7 +8743,9 @@ TangGuoshiBu:
   - given: 肇
     family: 李
     lang: zh
-    alt: <span lang="zh-Latn">Lǐ Zhào</span>
+    alt:
+      value: Lǐ Zhào
+      lang: cmn-Latn-pinyin
   issued: 
     year: 800
     circa: true
@@ -9296,7 +9311,9 @@ LaLangueDeRabelais:
   - given: Lazare
     family: Sainéan
     lang: fr
-    alt: <span lang="ro" class="noun">Lazăr Șăineanu</span>
+    alt: 
+      value: Lazăr Șăineanu
+      lang: ro
   publisher:
     value: E. de Boccard
     lang: fr
@@ -9667,6 +9684,107 @@ CasinoFromNowhere:
     issued:
       month: 8
       year: 1995
+    editor:
+    - given: George
+      family: Beal
+PinkNinesAnyone:
+  type: article-journal
+  title: Pink Nines Anyone?
+  author:
+  - given: Arthur
+    family: Taylor
+  URL: https://archive.org/details/sim_games-and-puzzles_1974-10_29/page/20
+  page: 21-23
+  in: &gp_29
+    title: Games & Puzzles
+    issue: 29
+    issued:
+      month: 10
+      year: 1974
+    publisher: Edu-Games
+    publisher-place: London
+    editor:
+    - given: David
+      family: Pritchard
+Bluff:
+  type: article-journal
+  title: Bluff
+  author:
+  - given: Harry
+    family: Woollerton
+  URL: https://archive.org/details/sim_games-and-puzzles_1974-09_28/page/25
+  page: 25
+  in:
+    title: Games & Puzzles
+    issue: 28
+    issued:
+      month: 9
+      year: 1974
+    publisher: Edu-Games
+    publisher-place: London
+    editor:
+    - given: David
+      family: Pritchard
+OnTheCards30:
+  type: article-journal
+  title: On The Cards
+  author:
+  - given: David
+    family: Parlett
+  URL: https://archive.org/details/sim_games-and-puzzles_1974-11_30/page/44
+  page: 44-46
+  in:
+    title: Games & Puzzles
+    issue: 30
+    issued: 
+      month: 11
+      year: 1974
+    publisher: Edu-Games
+    publisher-place: London
+    editor:
+    - given: David
+      family: Pritchard
+OnTheCards34:
+  type: article-journal
+  title: On The Cards
+  author:
+  - given: David
+    family: Parlett
+  URL: https://archive.org/details/sim_games-and-puzzles_1975-03_34/page/44
+  page: 44-45
+  in:
+    title: Games & Puzzles
+    issue: 34
+    issued: 
+      month: 3
+      year: 1975
+    publisher: Edu-Games
+    publisher-place: London
+    editor:
+    - given: David
+      family: Pritchard
+TwoTenSeven:
+  type: article-journal
+  title: Two-Ten-Seven
+  author:
+  - given: Isao
+    family: Umebayashi
+    lang: ja-Latn
+    alt:
+      value: 梅林勲
+      lang: ja
+  translator:
+  - given: George
+    family: Hatton
+  page: 141-144
+  in:
+    title: Journal of the International Playing-Card Society
+    ISSN: 0305-2133
+    volume: 25
+    issue: 3
+    issued:
+      month: 2
+      year: 1997
     editor:
     - given: George
       family: Beal

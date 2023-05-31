@@ -220,6 +220,7 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
         ifSet(ix > 0, (ix === as.length - 1) ? `${ifSet(as.length > 2, ',')} and ` : ", ")
         + `<span itemscope itemtype="http://schema.org/Person"${asAttr('itemprop', itemprop)}${asAttr('lang', a.lang)} class="noun">`
         + hiddenName(a)
+        + ifSet(a.url, u => `<a href="${u}" itemprop="url">`)
         + ((reverseFirst && ix === 0)
             ? ifSet(a.family, () => `${isolate(renderFamily(a, ix))}, `) + isolate(renderGiven(a, ix))
             : isolate(
@@ -227,6 +228,7 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
                     ? `${ifSet(a.family, () => `${renderFamily(a, ix)}`)}${renderGiven(a, ix)}`
                     : `${renderGiven(a, ix)}${ifSet(a.family, () => ` ${renderFamily(a, ix)}`)}`))
         + `</span>`
+        + ifSet(a.url, '</a>')
         + altName(a))).join('');
 };
 
