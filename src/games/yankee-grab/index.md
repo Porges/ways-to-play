@@ -8,42 +8,29 @@ subgames:
 equipment: Dice
 ---
 
-<p class="lead">Yankee Grab was a dice game that became popular in New Zealand and Australia
-during the 19th-century goldrushes.</p>
+<p class="lead">
+Yankee Grab was a dice game that became popular in New Zealand and Australia during the 19th-century goldrushes.
+</p>
 
-It is documented in 1868 in @TheModernPocketHoyle4 [p. 311], under the name
-“Going to Boston”.{%fn%}These games wouldn’t appear in the non-“pocket” version
-of the American Hoyle until 1874.[@TheAmericanHoyle8 p. 479]{%endfn%} By 1894 it
-was also called “Newmarket”.[@SharpsAndFlats p. 250]
+It is documented in 1868 in @TheModernPocketHoyle4 [p. 311], under the name “<span class="aka">Going to Boston</span>”.{%fn%}These games wouldn’t appear in the non-“pocket” version of the American Hoyle until 1874.[@TheAmericanHoyle8 p. 479]{%endfn%} By 1894 it was also called “<span class="aka">Newmarket</span>”,[@SharpsAndFlats p. 250] and in the 1930s it was also called “<span class="aka">Rolling Down to Rio Rita</span>” in New York.[@WithSkullAndBones]
 
 ## Play
 
-The game is played with three dice. Each player has one turn which consists of
-three attempts at rolling the dice. After each roll, the player must set one die
-aside and continue rolling the remainder. The goal is to roll the highest total
-sum showing on the dice after all attempts have been completed. A player can
-stop early if they are satisfied with their score.
+The game is played with three dice. Each player has one turn which consists of three attempts at rolling the dice. After each roll, the player must set one die aside and continue rolling the remainder. The goal is to roll the highest total sum showing on the dice after all attempts have been completed. A player can stop early if they are satisfied with their score.
 
-A later development in the “colonies” was that {%dice 1%} showing on the die was
-counted as 7 points, so that the highest roll was {%dice 111 %} for 21
-points.[@SharpsAndFlats p. 250]
+A later development in the “colonies” was that {%dice 1%} showing on the die was counted as 7 points, so that the highest roll was {%dice 111 %} for 21 points.[@SharpsAndFlats p. 250]
 
 
 ## History
 
-The game was commonly used to decide the outcome of some question, such as who
-should pay for a round of beer, or who would get the better bed, much as
-rock-paper-scissors is used nowadays. One author describes how it was used in
-this way in [Foxton](https://en.wikipedia.org/wiki/Foxton,_New_Zealand) in the
-1870s:[@OldManawatu p. 300]
+The game was commonly used to decide the outcome of some question, such as who should pay for a round of beer, or who would get the better bed, much as rock-paper-scissors is used nowadays. One author describes how it was used in this way in [Foxton](https://en.wikipedia.org/wiki/Foxton,_New_Zealand) in the 1870s:[@OldManawatu p. 300]
 
 > At times when the coach was crowded the hotels would be so full that after
 > every bed, stretcher, and table was occupied by tired and weary travellers,
 > the landlord and waiter would sit down and play “Yankee grab” to decide who
 > was to have the privilege of sleeping on the hearth-rug.
 
-In Milton, 1868, one correspondent reported that the game could even be played
-with the landlord to avoid paying for drinks:[@Tokomairiro]
+In Milton, 1868, one correspondent reported that the game could even be played with the landlord to avoid paying for drinks:[@Tokomairiro]
 
 > It has lately been a habit in this neighborhood, instead of the old-fashioned
 > way of tossing for drinks, to play “Yankee Grab” for them. I for one see no
@@ -57,10 +44,7 @@ with the landlord to avoid paying for drinks:[@Tokomairiro]
 > should have a kindly feeling for the hotelkeepers, considering the many
 > annoyances they have to put up with.
 
-A contributor to <cite>The Bulletin</cite> describes playing the game with [Hōne
-Wētere](https://teara.govt.nz/en/biographies/2t29/te-rerenga-hone-wetere) (<abbr
-title="died">d.</abbr> 1889) during a stay in
-[Mōkau](https://en.wikipedia.org/wiki/Mokau):[@AGameOfEuchre] 
+A contributor to <cite>The Bulletin</cite> describes playing the game with [Hōne Wētere](https://teara.govt.nz/en/biographies/2t29/te-rerenga-hone-wetere) (<abbr title="died">d.</abbr> 1889) during a stay in [Mōkau](https://en.wikipedia.org/wiki/Mokau):[@AGameOfEuchre] 
 
 > I played [Euchre] fair and owed Wetere three sacks of potatoes and a pig.
 >
@@ -91,6 +75,4 @@ title="died">d.</abbr> 1889) during a stay in
 
 ## Multiplication
 
-A variation in scoring leads to the game called “Multiplication”: a player’s
-score is the sum of the first two dice set aside, multiplied by the value of the
-third.[@TheModernPocketHoyle4 p. 311]
+A variation in scoring leads to the game called “Multiplication”: a player’s score is the sum of the first two dice set aside, multiplied by the value of the third.[@TheModernPocketHoyle4 p. 311]

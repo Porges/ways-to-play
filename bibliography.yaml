@@ -9789,3 +9789,38 @@ TwoTenSeven:
     editor:
     - given: George
       family: Beal
+AmericanNonsingingGames:
+  type: book
+  title: American Nonsigning Games
+  author:
+  - given: Paul G.
+    family: Brewster
+  publisher: University of Oklahoma Press
+  publisher-place: Norman, Oklahoma, U.S.A.
+  issued: 1953
+  URL: https://archive.org/details/americannonsingi00brew
+ComeUp:
+  type: book
+  title: "Come Up: San Francisco Bar Dice Games"
+  author:
+  - given: Gil
+    family: Jacobs
+  URL: https://archive.org/details/comeup00jaco
+  issued: 1976
+  publisher: Dixon Press
+  publisher-place: Cupertino, California, U.S.A.
+WithSkullAndBones:
+  type: article-magazine
+  title: With skull and bones
+  author:
+  - given: Edward
+    family: Longstreth
+  URL: https://books.google.co.nz/books?id=poc7AQAAIAAJ&pg=RA11-PA78
+  page: 78
+  in:
+    title: Vanity Fair
+    issued:
+      month: 12
+      year: 1931
+    volume: 37
+    issue: 4
