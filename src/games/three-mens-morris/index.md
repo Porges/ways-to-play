@@ -1,6 +1,7 @@
 ---
 title: Three Men’s Morris
 players: 2
+equipment: Stones
 subgames:
 - title: Circular Three Men’s Morris
 - title: X-ceter-O

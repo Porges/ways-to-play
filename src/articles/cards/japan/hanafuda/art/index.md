@@ -1611,10 +1611,7 @@ lang="ja-Latn">Taiyū</span> temple](https://en.wikipedia.org/wiki/Taiy%C5%AB-ji
 Sadanobu</span>  (<span lang="ja">長谷川貞信</span>).
 {% imageEnd %}
 
-Bush clover is also (along with miscanthus, see the next month) considered one
-of the “seven flowers of autumn” (<span lang="ja">秋の七草</span>), a term which
-derives from a pair of poems in the <span class="noun" lang="ja-Latn">Man’yōshū</span> (book
-8:1537–8):[@TheManyoshu p. 212]
+Bush clover is also (along with miscanthus, see the next month) considered one of the “seven flowers of autumn” (<span lang="ja">秋の七草</span>), a term which derives from a pair of poems in the <span class="noun" lang="ja-Latn">Man’yōshū</span> (book 8:1537–8):[@TheManyoshu p. 212]
 
 <div class="multi">
     <p>

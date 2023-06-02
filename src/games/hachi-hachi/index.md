@@ -2,7 +2,11 @@
 title: Hachi-Hachi
 titleLang: ja-Latn
 originalTitle: <span lang="ja">八八</span>
+equipment: Playing cards (Hanafuda)
 draft: true
+players:
+    min: 3
+    max: 8
 ---
 
 <span class="noun" lang="ja-Latn">Hachi-Hachi</span> (<span lang="ja">八八</span>, ‘88’) is
@@ -36,11 +40,7 @@ and specialized equipment that was commonly used with the game.
 
 ### <span class="noun" lang="ja-Latn">Yaku</span> &bull; <span lang="ja">役</span>
 
-The <span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">yaku</span> 
-are divided into two categories: <span lang="ja-Latn">te&shy;yaku</span> (<span lang="ja">手役</span> ‘hand combinations’),
-which are combinations that are found in the dealt hands,
-and <span lang="ja-Latn">deki&shy;yaku</span> (<span lang="ja">出役</span> ‘coming-out combinations’),
-which are combinations that are captured during play.
+The <span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">yaku</span> are divided into two categories: <span lang="ja-Latn">te&shy;yaku</span> (<span lang="ja">手役</span> ‘hand combinations’), which are combinations that are found in the dealt hands, and <span lang="ja-Latn">deki&shy;yaku</span> (<span lang="ja">出役</span> ‘coming-out combinations’), which are combinations that are captured during play.
 
 #### <span lang="ja-Latn">Te&shy;yaku</span> &bull; <span lang="ja">手役</span> 
 

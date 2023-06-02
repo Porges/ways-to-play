@@ -33,7 +33,7 @@ The game is mentioned in [<cite>The Three Musketeers</cite>](https://en.wikipedi
 
 On a player’s turn they place a bet and roll three dice until they roll a double. If the sum of the dice is _above_ ten, then they **pass** and win, otherwise they are **out** and lose. 
 
-The odds of rolling a double on three dice are 96⁄216; of those 96 valid rolls, 48 total above ten, thus the game is fair (48⁄96 = 1⁄2). Winning stakes are paid out 1:1 and so the house has no advantage.
+The odds of rolling a double on three dice are 96⁄216; of those 96 valid rolls, 48 total above ten, thus the game is fair (48⁄96 = 1⁄2). Winning stakes are paid out 1&ratio;1 and so the house has no advantage.
 
 The inclusion of the double requirement only serves to heighten the tension of the game, as the results are the same without it (the odds of rolling above ten on three dice are 108⁄216 = 1⁄2).
 

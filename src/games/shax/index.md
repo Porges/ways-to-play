@@ -1,6 +1,7 @@
 ---
 title: Shax
 players: 2
+equipment: Stones
 ---
 
 <p class="lead">

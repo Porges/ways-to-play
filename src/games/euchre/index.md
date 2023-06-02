@@ -1,6 +1,8 @@
 ---
 title: Euchre
 draft: true
+equipment: Playing cards (Standard)
+players: 4
 ---
 
 It is popular throughout Polynesia:

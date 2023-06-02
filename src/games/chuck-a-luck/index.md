@@ -262,11 +262,11 @@ usual, the extended staking layout contains boxes for the following bets:
 <dl>
 <dt>Raffles</dt>
 <dd>
-<p>A “raffle” is a three-of-a-kind. There are two different raffles bets that can be made: either that any raffle will come up, which pays 29:1{%fn%}Note that the payments on the board in the image below are given as “30 <em>for</em> 1” and not “30 <em>to</em> 1”. This means that the stake counts as part of the winnings and thus increases the already-high house edge.{%endfn%} (fair odds 35:1), or else a bet can be placed on a specific raffle, which pays 179:1 (fair odds 216:1). Both bets have the same high house edge of 16.67% and so in the long-term are equivalent bets.</p>
-<p>More modern versions of the game might pay out 30:1 for any 3-of-a-kind, which has a slightly lower edge of 13.89%.</p>
+<p>A “raffle” is a three-of-a-kind. There are two different raffles bets that can be made: either that any raffle will come up, which pays 29&ratio;1{%fn%}Note that the payments on the board in the image below are given as “30 <em>for</em> 1” and not “30 <em>to</em> 1”. This means that the stake counts as part of the winnings and thus increases the already-high house edge.{%endfn%} (fair odds 35&ratio;1), or else a bet can be placed on a specific raffle, which pays 179&ratio;1 (fair odds 216&ratio;1). Both bets have the same high house edge of 16.67% and so in the long-term are equivalent bets.</p>
+<p>More modern versions of the game might pay out 30&ratio;1 for any 3-of-a-kind, which has a slightly lower edge of 13.89%.</p>
 </dd>
 <dt>Low (≤10) or High (≥11)</dt>
-<dd>These bets are on what the total number of pips showing on the dice will be. Both would be even bets except that they lose on a raffle. They have the same odds and pay 1:1 (fair 37:35); the house edge is the lowest on the board at 2.78%.</dd>
+<dd>These bets are on what the total number of pips showing on the dice will be. Both would be even bets except that they lose on a raffle. They have the same odds and pay 1&ratio;1 (fair 37&ratio;35); the house edge is the lowest on the board at 2.78%.</dd>
 <dt>Specific totals</dt>
 <dd>
     <p>Each total is paid out at a different rate. All have extremely high house edges:</p>
@@ -282,44 +282,44 @@ usual, the extended staking layout contains boxes for the following bets:
         <tbody class="table-group-divider">
         <tr>
             <td>10, 11</td>
-            <td>5:1</td>
-            <td>7:1</td>
+            <td>5&ratio;1</td>
+            <td>7&ratio;1</td>
             <td>25.00%</td>
         </tr>
         <tr>
             <td>9, 12</td>
-            <td>5:1</td>
-            <td>7.64:1<br/>(191:25)</td>
+            <td>5&ratio;1</td>
+            <td>7.64&ratio;1<br/>(191&ratio;25)</td>
             <td>30.56%</td>
         </tr>
         <tr>
             <td>8, 13</td>
-            <td>7:1</td>
-            <td>≈9.3:1<br/>(65:7)</td>
+            <td>7&ratio;1</td>
+            <td>≈9.3&ratio;1<br/>(65&ratio;7)</td>
             <td>22.22%</td>
         </tr>
         <tr>
             <td>7, 14</td>
-            <td>11:1</td>
-            <td>13.4:1<br/>(67:5)</td>
+            <td>11&ratio;1</td>
+            <td>13.4&ratio;1<br/>(67&ratio;5)</td>
             <td>16.67%</td>
         </tr>
         <tr>
             <td>6, 15</td>
-            <td>17:1</td>
-            <td>20.6:1<br/>(103:5)</td>
+            <td>17&ratio;1</td>
+            <td>20.6&ratio;1<br/>(103&ratio;5)</td>
             <td>16.67%</td>
         </tr>
         <tr>
             <td>5, 16</td>
-            <td>29:1</td>
-            <td>35:1</td>
+            <td>29&ratio;1</td>
+            <td>35&ratio;1</td>
             <td>16.67%</td>
         </tr>
         <tr>
             <td>4, 17</td>
-            <td>59:1</td>
-            <td>71:1</td>
+            <td>59&ratio;1</td>
+            <td>71&ratio;1</td>
             <td>16.67%</td>
         </tr>
         </tbody>
@@ -341,15 +341,14 @@ Some bets seen on Hyronemus layouts are based on the sum of the dice:
 
 <dl>
 <dt>Low (&lt;10) and High (&gt;11)</dt>
-<dd>Both of these are bad bets, paying 1:1 (fair odds 1⅔:1) for a house edge of 25%.</dd>
+<dd>Both of these are bad bets, paying 1&ratio;1 (fair odds 1⅔&ratio;1) for a house edge of 25%.</dd>
 <dt>10 &middot; 11</dt>
-<dd>Both of these are worse bets, paying 4:1 (fair odds 7:1) for a house edge of 37.5%!</dd>
+<dd>Both of these are worse bets, paying 4&ratio;1 (fair odds 7&ratio;1) for a house edge of 37.5%!</dd>
 </dl>
 
 ### Field Bets
 
-Other versions of the game include “field” bets, which are a bet that the dice
-pip total will be one of a range of numbers. These bets always pay 1:1.
+Other versions of the game include “field” bets, which are a bet that the dice pip total will be one of a range of numbers. These bets always pay 1&ratio;1.
 
 Examples include:
 

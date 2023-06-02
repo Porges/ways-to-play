@@ -2,6 +2,7 @@
 title: Morabaraba
 titleLang: st
 players: 2
+equipment: Stones
 mainImage: '16908233_1262123897217460_4095342219718819840_n.jpg'
 hero:
     image: '16908233_1262123897217460_4095342219718819840_n.jpg'
@@ -15,9 +16,9 @@ hero:
 <span class="noun" lang="st">Morabaraba</span> is played across south-eastern Africa.
 {% imageEnd %}
 
+<p class="lead">
 <span class="noun aka" lang="st">Morabaraba</span> is a {% a mill-games,mill game %} from south-eastern Africa. The gameplay of the standardized version is very similar to {% gameref twelve-mens-morris %}  (with a few minor differences), but the version played in Lesotho has a unique board.
-
-<!-- excerpt -->
+</p>
 
 <span class="noun" lang="st">Morabaraba</span> is played as a competitive sport in South Africa, administered by [Mind Sports South Africa](http://mindsportsa.co.za/).  It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.[@MorabarabaGetOnBoard]
 

@@ -2,6 +2,7 @@
 title: Senet
 originalTitle: <img src="/small-images/senet.svg" alt="𓊃𓈖𓏏𓏠" class="inline-img" />
 draft: true
+equipment: Board game
 hero:
     image: D6n3F4iWwAIgNpL.jpg
     license: with-permission

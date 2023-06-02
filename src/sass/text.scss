@@ -120,6 +120,10 @@ rt {
   font-variant-east-asian: ruby;
 }
 
+:lang(vi-Hani) {
+  font-family: "Nom Na Tong", serif;
+}
+
 /* Work titles in non-Latin languages should be upright, not italic: */
 cite:lang(zh):not(:lang(zh-Latn)) {
   font-style: inherit;

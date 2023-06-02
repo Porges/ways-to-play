@@ -1,6 +1,7 @@
 ---
 title: Assault
 players: 2
+equipment: Board game
 subgames:
 - title: Royal Garrison
 ---

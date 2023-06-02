@@ -1,6 +1,7 @@
 ---
 title: Horseshoe
 players: 2
+equipment: Stones
 ---
 
 <p class="lead">

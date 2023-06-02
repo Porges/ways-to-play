@@ -2,6 +2,7 @@
 title: Tic-Tac-Toe
 mainImage: '5072574617_9afa5ee9ae_o.jpg'
 players: 2
+equipment: Pen and paper
 ---
 
 <p class="lead"><span class="aka">Tic-Tac-Toe</span> is a simple game for two players that is well-known to result in a draw if played ‘rationally’. Unlike most board games, pieces cannot be moved or removed once placed, making it an ideal game to play with pen & paper.</p>

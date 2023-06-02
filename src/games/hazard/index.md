@@ -1,6 +1,7 @@
 ---
 title: Hazard
 draft: true
+equipment: Dice
 ---
 
 <p class="lead">

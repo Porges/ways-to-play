@@ -1,6 +1,7 @@
 ---
 title: Buck, Buck
 draft: true
+equipment: None
 ---
 
 <p class="lead">

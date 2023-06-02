@@ -3,6 +3,7 @@ title: Sixteen Soldiers
 originalTitle: <span lang="ja">十六武蔵</span>
 mainImage: SC86494.jpg
 players: 2
+equipment: Board game
 subgames:
 - title: Sixteen Pursue the General
   originalTitle: <span lang="zh">十六趕將軍</span>

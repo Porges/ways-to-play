@@ -3,7 +3,7 @@ title: Dots and Boxes
 originalTitle: <span lang="fr">La Pipopipette</span>
 players: 2
 draft: true
-equipment: Pencil and paper
+equipment: Pen and paper
 ---
 
 <span class="aka">Dots and Boxes</span> is also referred to as simply “<span class="aka">Dots</span>”, “<span class="aka">Boxes</span>”, or “<span class="aka">Dot-Boxes</span>”.[@LondonStreetGames p. 134]

@@ -1,6 +1,8 @@
 ---
 title: Whist
 draft: true
+equipment: Playing cards (Standard)
+players: 4
 ---
 
 Refs: @CardGamesAroundTheWorld [p. 79]; @EvolutionOfWhist; @CardEssays;

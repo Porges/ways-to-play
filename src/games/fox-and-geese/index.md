@@ -2,6 +2,7 @@
 title: Fox & Geese
 draft: true
 players: 2
+equipment: Board game
 ---
 
 Fox and Geese games are discussed by Randle Holme in @AcademyOfArmory3 [p. 67–8].

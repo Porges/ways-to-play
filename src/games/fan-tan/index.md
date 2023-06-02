@@ -36,14 +36,14 @@ Each portion of four is called Pi (<span lang="zh">皮</span> Mandarin: <span la
 
 There are several different kinds of bets that can be made. I present the somehat-internationalized “casino name” first, and then other names. While Vietnamese is now written using the Latin alphabet, staking boards often use [<span class="noun" lang="vi">Chữ Nôm</span>](https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m) characters.[@LiveDealerFanTan]
 
-* **Fan**, a bet on a single outcome, paying 3:1
+* **Fan**, a bet on a single outcome, paying 3&ratio;1
   * <span lang="zh">番</span>, Cantonese <span lang="yue-Latn-jyutping">faan¹</span>, or <span lang="zh">孤(番)</span> <span lang="yue-Latn-jyutping">gu¹ (faan¹)</span> ‘grasping (at turns)’[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
   * Vietnamese: <span lang="vi-Hani">番</span> <span lang="vi">fan</span> 
-* **Kwok**, a bet on two outcomes, paying 1:1
+* **Kwok**, a bet on two outcomes, paying 1&ratio;1
   * <span lang="zh">角</span> ‘corner’, Cantonese <span lang="yue-Latn-jyutping">gok³</span>, Mandarin <span lang="cmn-Latn-pinyin">jiǎo</span>[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
   * in older sources a bet on two numbers on opposite sides of the board is called <span lang="zh">川</span>, Cantonese <span lang="yue-Latn-jyutping">cyun¹</span>,[@GamblingGamesOfMalaya p. 123] nowadays this is treated uniformly
   * Vietnamese: <span lang="vi-Hani">角</span> <span lang="vi">góc</span> ‘corner’
-* **Nim**, a bet on a single outcome, paying 2:1, and one other to push (i.e. return the bet)
+* **Nim**, a bet on a single outcome, paying 2&ratio;1, and one other to push (i.e. return the bet)
   * <span lang="zh">捻</span> ‘twist’, Cantonese <span lang="yue-Latn">nim²</span>, Mandarin <span lang="cmn-Latn-pinyin">niǎn</span>[@GamblingInChinaReconsidered p. 183]
   * <span lang="zh">念</span> ‘worry’, Cantonese <span lang="yue-Latn-jyutping">nim⁶</span>
   * <span lang="zh">黏</span> ‘stick (to the side of)’ Cantonese <span lang="yue-Latn-jyutping">nim⁴/nim¹</span>, Hokkien: <span lang="nan-Latn">liâm</span>[@GamblingGamesOfMalaya p. 123]
@@ -56,23 +56,23 @@ There are several different kinds of bets that can be made. I present the someha
 
 In modern games the Hong bet is usually removed, and two additional bets are available:
 
-* **Nga Tan**, a bet on two outcomes, paying 1:2, and one other to push
+* **Nga Tan**, a bet on two outcomes, paying 1&ratio;2, and one other to push
   * <span lang="zh">丫攤</span> ‘booth’
   * Vietnamese: <span lang="vi-Hani">通</span> <span lang="vi">thông</span> ‘across’ or <span lang="vi-Hani">丫</span> <span lang="vi">nha</span> 
-* **SSH** or **Sheh-Sam-Hong**, a bet on three outcomes, paying 1:3
+* **SSH** or **Sheh-Sam-Hong**, a bet on three outcomes, paying 1&ratio;3
   * <span lang="zh">射三紅</span> ‘shooting three rows’, Cantonese <span lang="yue-Latn-jyutping">se⁶ saam¹ hung⁴</span>, Mandarin <span lang="cmn-Latn-pinyin">shèsānhóng</span>[@GamblingInChinaReconsidered p. 184] 
   * Vietnamese: <span lang="vi-Hani">三门</span> <span lang="vi">ba cửa</span> ‘three doors’
 
 Other non-traditional bets permitted in online games include:
-* **Odd**, a bet that the remainder will be odd (1 or 3), paying 1:1
+* **Odd**, a bet that the remainder will be odd (1 or 3), paying 1&ratio;1
   * <span lang="zh">单</span> ‘odd’
   * Vietnamese: <span lang="vi-Hani">单</span> <span lang="vi">lẻ</span> ‘odd’
-* **Even**, a bet that the remainder will be even (2 or 4), paying 1:1
+* **Even**, a bet that the remainder will be even (2 or 4), paying 1&ratio;1
   * <span lang="zh">双</span> ‘even’
   * Vietnamese: <span lang="vi-Hani">双</span> <span lang="vi">chẵn</span> ‘even’
-* **Small**, a bet that the remainder will be 1 or 2, paying 1:1
+* **Small**, a bet that the remainder will be 1 or 2, paying 1&ratio;1
   * Vietnamese: <span lang="vi">xỉu</span>
-* **Big**, a bet that the remainder will be 3 or 4, paying 1:1
+* **Big**, a bet that the remainder will be 3 or 4, paying 1&ratio;1
   * Vietnamese: <span lang="vi">tài</span>
 
 

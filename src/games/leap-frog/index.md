@@ -43,7 +43,7 @@ most pieces is the winner.
 
 Murray[@Murray2 pp. 93–4] invented a variant in 1898. The undifferentiated
 pieces are replaced by pieces coloured white, yellow, red, and green, in the
-ratios 4:3:2:1. The pieces now count points according to these ratios (i.e.
+ratios 4&ratio;3&ratio;2&ratio;1. The pieces now count points according to these ratios (i.e.
 green is worth 4 points while white is worth 1). To set up the board, the pieces
 are arranged randomly on the squares, and the first player must remove a white
 piece to begin. The player with the highest point value of pieces taken at the

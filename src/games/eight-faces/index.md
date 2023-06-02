@@ -99,13 +99,13 @@ There are four kinds of bets that can be placed:
 
 <dl>
 <dt>A bet on one result</dt>
-<dd>These bets are placed inside one of the eight cells; if the chosen character comes up then the bet pays out 6:1. If any other result comes up the bet is lost.</dd>
+<dd>These bets are placed inside one of the eight cells; if the chosen character comes up then the bet pays out 6&ratio;1. If any other result comes up the bet is lost.</dd>
 <dt>A bet on two results</dt>
-<dd>These bets are placed on the lines dividing the cells; if either of the adjacent characters comes up then the bet pays out 2.8:1. If any other result comes up the bet is lost. In <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span>’s version, this bet pays 3:1.</dd>
+<dd>These bets are placed on the lines dividing the cells; if either of the adjacent characters comes up then the bet pays out 2.8&ratio;1. If any other result comes up the bet is lost. In <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span>’s version, this bet pays 3&ratio;1.</dd>
 <dt>A bet on four results</dt>
-<dd>These bets are placed on the circles between four cells; if any of the four characters comes up then the bet pays out 1:1. If any other result comes up the bet is lost.</dd>
+<dd>These bets are placed on the circles between four cells; if any of the four characters comes up then the bet pays out 1&ratio;1. If any other result comes up the bet is lost.</dd>
 <dt>A corner bet</dt>
-<dd>These bets are placed in the quarter-circles in the corner of the board; if the adjacent character comes up then the bet pays out 1:1. However, the bet is only lost if either of the nearer two cells in the opposite colour comes up; in all other cases the bet remains, and may be taken back by the player. For example, if the player places their bet next to <span lang="zh" class="red">太平</span> at the top-left, it is only lost if <span lang="zh" class="blue">月宝</span> or <span lang="zh" class="blue">上招</span> come out.</dd>
+<dd>These bets are placed in the quarter-circles in the corner of the board; if the adjacent character comes up then the bet pays out 1&ratio;1. However, the bet is only lost if either of the nearer two cells in the opposite colour comes up; in all other cases the bet remains, and may be taken back by the player. For example, if the player places their bet next to <span lang="zh" class="red">太平</span> at the top-left, it is only lost if <span lang="zh" class="blue">月宝</span> or <span lang="zh" class="blue">上招</span> come out.</dd>
 </dl>
 
 ## Analysis
@@ -114,11 +114,11 @@ The house edges on the bets are as follows:
 
 <dl>
 <dt>A bet on one result</dt>
-<dd>Pays 6:1, real odds 7:1. House edge is 12.5%.</dd>
+<dd>Pays 6&ratio;1, real odds 7&ratio;1. House edge is 12.5%.</dd>
 <dt>A bet on two results</dt>
-<dd>Pays 2.8:1, real odds 3:1. House edge is 5%. If it pays 3:1 as in <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span>’s version, then the bet is fair, which is probably why it was changed!</dd>
+<dd>Pays 2.8&ratio;1, real odds 3&ratio;1. House edge is 5%. If it pays 3&ratio;1 as in <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span>’s version, then the bet is fair, which is probably why it was changed!</dd>
 <dt>A bet on four results</dt>
-<dd>Pays 1:1, which are the fair odds, unusual for a gambling game.</dd>
+<dd>Pays 1&ratio;1, which are the fair odds, unusual for a gambling game.</dd>
 <dt>A corner bet</dt>
-<dd>This wins on one option and loses on two, paying 1:1; the house edge is 12.5%.</dd>
+<dd>This wins on one option and loses on two, paying 1&ratio;1; the house edge is 12.5%.</dd>
 </dl>

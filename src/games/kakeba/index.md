@@ -1,6 +1,7 @@
 ---
 title: Kakeba
 draft: true
+equipment: Board game
 ---
 
 Milton-Bradley game, also called “Japanese Backgammon”, but has no meaning in Japanese.{%fn%}<span lang="ja">書けば</span> means ‘if one writes’.{%endfn%}
