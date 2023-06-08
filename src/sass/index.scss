@@ -54,7 +54,40 @@
     unicode-range: U+1f9fe, U+1f3b2, U+1f4e3, U+1f4da;
 }
 
+@font-face {
+    font-family: "Noto Naksh";
+    font-display: swap;
+    src: url('/fonts/NotoNaskhArabic-VariableFont_wght.woff2') format('woff2'),
+         url('/fonts/NotoNaskhArabic-VariableFont_wght.woff') format('woff');
+}
+
+@font-face {
+    font-family: CharisSILW;
+    src: url('/fonts/CharisSIL-Regular.woff2') format('woff2'),
+        url('/fonts/CharisSIL-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: CharisSILW;
+    font-style: italic;
+    src: url('/fonts/CharisSIL-Italic.woff2') format('woff2'),
+        url('/fonts/CharisSIL-Italic.woff') format('woff');
+}
+@font-face {
+	font-family: CharisSILW;
+	font-weight: bold;
+	src: url('/fonts/CharisSIL-Bold.woff2') format('woff2'),
+        url('/fonts/CharisSIL-Bold.woff') format('woff');
+}
+@font-face {
+	font-family: CharisSILW;
+	font-weight: bold;
+	font-style: italic;
+	src: url('/fonts/CharisSIL-BoldItalic.woff2') format('woff2'),
+        url('/fonts/CharisSIL-BoldItalic.woff') format('woff');
+}
+
 $font-family-sans-serif:
+    CharisSILW,
     "NKS30",
     "Noto Emoji",
     serif, 
@@ -479,7 +512,9 @@ abbr[title] {
 
     &:not(.inline) {
         margin-left: 2px;
-        font-feature-settings: "sups";
+
+        // TODO: restore if I ever get Brill fonts
+        // font-feature-settings: "sups";
     }
 
     &>.index {
@@ -772,7 +807,7 @@ a[href*="wikipedia.org" i] {
 
 .inline-img {
     height: 1.05em;
-    vertical-align: text-top;
+    //vertical-align: text-top;
 
     &.big {
         height: 2em;

@@ -108,10 +108,12 @@ body {
   // pwid: We are going to be embedding Japanese and Chinese in Latin text,
   //       so make them proportional. This has better spacing for kana etc.
   font-variant-east-asian: proportional-width;
+
   // hkna: Always writing horizontally here, so prefer horizontally-optimized
   //       forms.
-  font-feature-settings: "hkna";
-  // required by 'palt' but enable it this way as well
+  // disabled: this makes Yu Mincho at least fixed-width, counteracting the above proportional-width setting
+  // font-feature-settings: "hkna";
+
   font-kerning: normal;
 }
 
@@ -120,8 +122,24 @@ rt {
   font-variant-east-asian: ruby;
 }
 
+// Use a Vietnamese-specific font, if present:
 :lang(vi-Hani) {
   font-family: "Nom Na Tong", serif;
+}
+
+// Use a specific font for Arabic/Persian/etc, or else we get Times New Roman on Windows:
+:lang(fa):not(:lang(fa-Latn)),
+:lang(ar):not(:lang(ar-Latn)),
+:lang(ur):not(:lang(ur-Latn)),
+:lang(ota):not(:lang(ota-Latn)),
+// *-Arab is not yet supported
+:lang(ms-Arab), :lang(pa-Arab) {
+  font-family: "Noto Naksh", serif;
+}
+
+// With hope for the future:
+:lang("*-Arab") {
+  font-family: "Noto Naksh", serif;
 }
 
 /* Work titles in non-Latin languages should be upright, not italic: */

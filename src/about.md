@@ -84,7 +84,11 @@ BY](http://creativecommons.org/licenses/by/3.0/).
 
 The site is generated with [Eleventy](https://www.11ty.dev/), with a bunch of custom code!
 
+Thi main font used is [Charis SIL](https://software.sil.org/charis/), which is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
+
+<!--
 The main font used is the [Brill typeface v4.0](https://brill.com/page/BrillFont/brill-typeface), which is free for non-commercial use.
+-->
 
 <!--
 The main fonts are [Inter by Rasmus Andersson](https://rsms.me/inter/) (body text),
@@ -96,12 +100,12 @@ The main fonts are [Inter by Rasmus Andersson](https://rsms.me/inter/) (body tex
 fallback font for <span lang="ja-Latn">hentaigana</span> characters. It is
 licensed under the [IPA Font License](https://opensource.org/licenses/IPA).
 
-[BabelStone Commons](https://www.babelstone.co.uk/Fonts/) by Andrew West is used
-to indicate licensing information. It is licensed under the [SIL Open Font
-License 1.1](https://scripts.sil.org/OFL).
+[BabelStone Commons](https://www.babelstone.co.uk/Fonts/) by Andrew West is used to indicate licensing information. It is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
 
 The playing-card font is [NKD04 by Umihotaru](https://umihotaru.work/). It has a
 [nonstandard but liberal license](https://umihotaru.work/faq.txt).
+
+Noto Naksh is used for Arabic and Persian and other related scripts. It is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
 
 The chess-piece font is [NKS30 by Umihotaru](https://booth.pm/ja/items/1949217).
 It is a commercial font.

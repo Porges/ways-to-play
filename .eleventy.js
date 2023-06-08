@@ -340,7 +340,7 @@ const citationPlugin = () => {
 
       return `<span class="citation inline">[<a href="${`#ref-${id}`}" class="index">${indicator}</a>]${ifSet(suffix, ` (${suffix})`)}</span>`
     } else {
-      return `<span class="citation"><a class="index" href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</span>`;
+      return `<sup class="citation"><a class="index" href="${`#ref-${id}`}">${indicator}</a>${ifSet(suffix, `[${suffix}]`)}</sup>`;
     }
   };
 
