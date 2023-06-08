@@ -137,11 +137,6 @@ rt {
   font-family: "Noto Naksh", serif;
 }
 
-// With hope for the future:
-:lang("*-Arab") {
-  font-family: "Noto Naksh", serif;
-}
-
 /* Work titles in non-Latin languages should be upright, not italic: */
 cite:lang(zh):not(:lang(zh-Latn)) {
   font-style: inherit;
