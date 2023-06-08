@@ -1649,6 +1649,7 @@ HAKMEM:
   type: book
   title: HAKMEM
   URL: https://w3.pppl.gov/~hammett/work/2009/AIM-239-ocr.pdf
+  archive-URL: https://web.archive.org/web/20110609004307/http://w3.pppl.gov/~hammett/work/2009/AIM-239-ocr.pdf
   publisher: Artificial Intelligence Laboratory of the Massachusetts Institute of
     Technology
   publisher-place: Cambridge, Massachusetts, USA
@@ -4822,6 +4823,7 @@ AWorldOfGames:
     - family: Eskin
       given: Blake
   URL: https://www.washingtonpost.com/archive/lifestyle/magazine/2001/07/15/a-world-of-games/2c7b88ce-2f2c-4253-b347-4154d274bb03/
+  archive-URL: https://web.archive.org/web/20170827114221/https://www.washingtonpost.com/web/20170827114221/https://www.washingtonpost.com/archive/lifestyle/magazine/2001/07/15/a-world-of-games/2c7b88ce-2f2c-4253-b347-4154d274bb03/?utm_term=.9046d2bb2ccc
 Trostspiegel:
   type: book
   title:
@@ -9846,3 +9848,33 @@ AbbottsNewCardGames:
   publisher-place: London and Boston
   ISBN: '0720606179'
   issued: 1983
+TheBilliardStrokeAtCroquet:
+  type: article-journal
+  title: The Billiard Stroke at Croquet
+  URL: https://archive.org/details/westminsterpape03londgoog/page/n66/mode/2up
+  author:
+  - given: Latakia
+  in:
+    title: The Westminster Papers
+    volume: 4
+    issue: 
+    issued:
+      month: 7
+      day: 1
+      year: 1871
+SketchingsWestCampton:
+  type: article-journal
+  title: "Sketchings: West Campton, N. Y., 9th, September, 1856"
+  author: 
+  - given: “Poppy Oil”
+  URL: https://www.jstor.org/stable/25619616
+  page: 317–318
+  in:
+    title: The Crayon
+    volume: 3
+    issue: 10
+    issued:
+      month: 10
+      year: 1856
+
+    
