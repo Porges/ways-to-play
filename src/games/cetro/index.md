@@ -68,3 +68,5 @@ possible moves, whoever made the last move wins the game.
 ## See also
 
 {% gameref halma %} is a similar game.
+
+<!-- https://boardgamegeek.com/boardgame/237239/cetro -->

@@ -700,6 +700,8 @@ EvolutionOfWhist:
     year: 1895
   publisher: Longmans, Green, and Co.
   publisher-place: New York, NY, USA
+  URL: https://archive.org/details/cu31924031248556
+  # reviewed in: https://www.jstor.org/stable/27527861
 BishopsWhist:
   type: book
   title: Bishops Whist
@@ -772,6 +774,7 @@ WhistPlayersHandBook:
     year: 1844
   publisher: Isaac M. Moss
   publisher-place: 12 South Fourth Street, Philadelphia, PA, USA
+  URL: https://play.google.com/books/reader?id=JEsVAAAAYAAJ
 TreatiseOnTheGameOfWhist:
   type: book
   title: A Short Treatise On the Game of Whist
@@ -9824,3 +9827,22 @@ WithSkullAndBones:
       year: 1931
     volume: 37
     issue: 4
+AbbottsNewCardGames:
+  type: book
+  title: Abbott’s New Card Games
+  author:
+  - given: Robert
+    family: Abbott
+  publisher: Funk & Wagnalls
+  publisher-place: New York
+  issued: 1963
+100Other:
+  type: book
+  title: 100 Other Games to Play on a Chessboard
+  author:
+  - given: Stephen
+    family: Addison
+  publisher: Peter Owen
+  publisher-place: London and Boston
+  ISBN: '0720606179'
+  issued: 1983

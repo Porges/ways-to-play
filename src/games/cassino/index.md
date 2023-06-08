@@ -2,6 +2,8 @@
 title: Cassino
 equipment: Playing cards (Standard)
 draft: true
+subgames:
+- title: Royal Casino
 ---
 
 Called <span lang="sm">suipi</span> in Samoa,[cite?] and similarly <span lang="tpi">swip</span> in New Guinea.[@ThreeNativeCardGames p. 51]
