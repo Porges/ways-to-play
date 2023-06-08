@@ -50,16 +50,14 @@
     font-family: 'Brill';
     size-adjust: 120%;
     font-display: swap;
-    src: url('/fonts/Brill-Roman.woff2') format('woff2'),
-        url('/fonts/Brill-Roman.woff') format('woff');
+    src: url('/fonts/Brill-Roman.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Brill';
     size-adjust: 120%;
     font-display: swap;
-    src: url('/fonts/Brill-Italic.woff2') format('woff2'),
-        url('/fonts/Brill-Italic.woff') format('woff');
+    src: url('/fonts/Brill-Italic.ttf') format('truetype');
     font-style: italic;
 }
 
@@ -67,8 +65,7 @@
     font-family: 'Brill';
     size-adjust: 120%;
     font-display: swap;
-    src: url('/fonts/Brill-Bold.woff2') format('woff2'),
-        url('/fonts/Brill-Bold.woff') format('woff');
+    src: url('/fonts/Brill-Bold.ttf') format('truetype');
     font-weight: 500;
 }
 
@@ -76,8 +73,7 @@
     font-family: 'Brill';
     size-adjust: 120%;
     font-display: swap;
-    src: url('/fonts/Brill-BoldItalic.woff2') format('woff2'),
-        url('/fonts/Brill-BoldItalic.woff') format('woff');
+    src: url('/fonts/Brill-BoldItalic.ttf') format('truetype');
     font-weight: 500;
     font-style: italic;
 }
