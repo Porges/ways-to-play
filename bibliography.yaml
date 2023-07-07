@@ -9907,3 +9907,24 @@ KnaveOfHarts:
     URL: https://archive.org/details/completeworksofs02rowl
     publisher: Hunterian Club
     publisher-place: Glasgow
+ThatGameOfGuns:
+  type: chapter
+  title: That Game of Guns!
+  author:
+  - given: Tudor
+    family: Ejai
+  translator:
+  - given: C. D.
+    family: Metcalfe
+  page: 271-279
+  in:
+    title: 'This Is What Happened: Historical narratives by Aborigines'
+    editor:
+    - given: Luise
+      family: Hercus
+    - given: Peter
+      family: Sutton
+    publisher: Australian Institute of Aboriginal Studies
+    publisher-place: Canberra, ACT, Australia
+    ISBN: '0855751444'
+    issued: 1986
