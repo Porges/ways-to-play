@@ -333,7 +333,7 @@ const citationPlugin = () => {
         case 'article-journal':
         case 'thesis':
           if (reference.author) {
-            return `<a href="${`#ref-${id}`}">${reference.author[0].family}</a>`
+            return `<a href="${`#ref-${id}`}">${reference.author[0].family || reference.author[0].given}</a>`
               + ` (${referenceSchema.publicationYear(reference)}${ifSet(suffix, `, ${suffix}`)})`;
           }
       }

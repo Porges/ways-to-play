@@ -72,7 +72,7 @@ Drop-Handkerchief[@GommeI p. 110]
 
 Cat After Mouse or Threading The Needle[@GommeI p. 64][@Strutt p. 337]
 
-{% image src="lettertomylove.jpg" alt="" %}
+{% image src="lettertomylove.jpg" alt="" license="cc0" %}
 A depiction of “A Letter to My Love” from @LittlePrettyPocket [p. 38].
 {%imageEnd%}
 

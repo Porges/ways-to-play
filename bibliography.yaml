@@ -9876,5 +9876,34 @@ SketchingsWestCampton:
     issued:
       month: 10
       year: 1856
-
-    
+LossesAndAdjustments:
+  type: article-journal
+  title: Losses and Adjustments
+  author:
+  - given: Z. P.
+    family: Clark
+  page: 179-183
+  URL: https://archive.org/details/coastreview181883sanf/page/n127
+  warnings: Contains a racist mining claim name.
+  in:
+    title: Coast Review
+    volume: 18
+    issue: 3
+    issued:
+      month: 3
+      year: 1883
+KnaveOfHarts:
+  type: chapter
+  title: The Knave of Harts
+  URL: https://archive.org/details/completeworksofs02rowl/page/60
+  author:
+  - given: Samuel
+    family: Rowlands
+  in:
+    title: The Complete Works of Samuel Rowlands, 1598–1628, Now First Collected
+    volume: 2
+    issued: 1880
+    original-date: 1612
+    URL: https://archive.org/details/completeworksofs02rowl
+    publisher: Hunterian Club
+    publisher-place: Glasgow

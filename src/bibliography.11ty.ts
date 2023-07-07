@@ -4,7 +4,7 @@ import { parse } from 'yaml';
 
 import { IS_PRODUCTION } from '../helpers';
 
-import { Reference, Bibliography, LStr, referenceValidator, BiblioRef, publicationYear } from '../references-schema';
+import { Reference, Bibliography, LStr, referenceValidator, BiblioRef, sortableDate } from '../references-schema';
 import { renderReference } from '../references';
 import { Data } from '../types';
 
@@ -24,7 +24,16 @@ function lStrValue(l: LStr) {
     return l.value;
 }
 
-function sortKey(r: Reference) {
+function sortName(r: Reference) {
+    if (r.author) {
+        return `${r.author[0].family || ''} ${r.author[0].given}`;
+    }
+
+    const editor = 'editor' in r ? r.editor : null;
+    if (editor) {
+        return `${editor[0].family || ''} ${editor[0].given}`;
+    }
+
     const publisherS =
         'publisher' in r
             ? r.publisher
@@ -32,12 +41,7 @@ function sortKey(r: Reference) {
                 ? r.in.publisher
                 : undefined;
 
-    const publisher = publisherS ? lStrValue(publisherS) : '';
-
-    return `${r.author ? (r.author[0].family || '') : publisher}
-        ${r.author ? (r.author[0].given === 'string' ? r.author[0].given : r.author[0].given[0]) : ''}
-        ${publicationYear(r)}
-        ${lStrValue(r.title)}`;
+    return publisherS ? lStrValue(publisherS) : '';
 }
 
 // matches that in .eleventy.js - TODO extract
@@ -77,15 +81,15 @@ export async function render(data: Data) {
     const refs = new Map();
     await buildLookup(data.collections.article, refs);
     await buildLookup(data.collections.game, refs);
-    const locale = new Intl.Collator('en');
+    const locale = new Intl.Collator('en', { numeric: true, ignorePunctuation: true });
     const file = await fs.readFile(path.join(__dirname, "../bibliography.yaml"), 'utf8');
     const parsedFile = parse(file, {merge: true});
     if (!referenceValidator(parsedFile)) {
         throw new Error(`Invalid bibliography: ${referenceValidator.errors}`);
     }
 
-    const biblio = Object.entries(parsedFile as Bibliography).map(([k, v]) => ({ ...v, id: k, sortKey: sortKey(v) }));
-    biblio.sort((x, y) => locale.compare(x.sortKey, y.sortKey));
+    const biblio = Object.entries(parsedFile as Bibliography).map(([k, v]) => ({ ...v, id: k, sortName: sortName(v), sortDate: sortableDate(v) }));
+    biblio.sort((x, y) => locale.compare(x.sortName, y.sortName) || locale.compare(x.sortDate, y.sortDate) );
     return '<div class="container">'
         + `<h1>${data.title}</h1>`
         + '<form class="mb-4">'
@@ -93,7 +97,7 @@ export async function render(data: Data) {
         + '<label for="sort-selector" class="col-lg-1 offset-lg-4 col-form-label text-end">Sort by:</label>'
         + '<div class="col-lg-3">'
         + '<select id="sort-selector" class="form-control">'
-        + '<option selected value="key">default</option>'
+        + '<option selected value="name,year">default</option>'
         + '<option value="year asc">year (ascending)</option>'
         + '<option value="year desc">year (descending)</option>'
         + '<option value="refs desc">references (most)</option>'
@@ -105,8 +109,7 @@ export async function render(data: Data) {
         + `<p class="text-center"><i>${biblio.length} works</i></p>`
         + '<div class="row">'
         + `<ul id="ref-list" class="reference-list list-unstyled offset-lg-2 col-lg-8">\n${biblio.map(b => {
-            const year = publicationYear(b);
-            return `<li data-refs="${refs.get(b.id)?.length ?? 0}" data-key="${b.sortKey.replaceAll('"', '&quot;')}" data-year="${year}">`
+            return `<li data-refs="${refs.get(b.id)?.length ?? 0}" data-name="${b.sortName.replaceAll('"', '&quot;')}" data-year="${b.sortDate}">`
                 + renderReference(b)
                 + renderBackreferences(b, refs)
                 + `</li>`;
@@ -115,6 +118,7 @@ export async function render(data: Data) {
         + '</div>'
         + `<script type="module">
             ${runSort}
+            ${compareKeys}
             document.addEventListener("DOMContentLoaded", () => {
                 const selector = document.getElementById('sort-selector');
                 selector.addEventListener('change', () => runSort(selector.value));
@@ -124,14 +128,26 @@ export async function render(data: Data) {
 
 function runSort(on: string) {
     const parts = on.split(' ');
-    const key = `data-${parts[0]}`;
-    const comparer = new Intl.Collator('en', { numeric: true });
+    const keys = parts[0].split(',').map(attr => `data-${attr}`);
+    const comparer = new Intl.Collator('en', { numeric: true, ignorePunctuation: true });
     const multiplier = parts[1] === 'desc' ? -1 : 1;
     const el = document.getElementById('ref-list')!;
     const children =
         Array.prototype.slice.call(el.children)
-            .map(el => ({ el, key: el.getAttribute(key) }))
-            .sort((x, y) => multiplier * comparer.compare(x.key, y.key))
-            .map(({el}) => el);
-    el.replaceChildren(...children);
+            .map(el => ({ el, keys: keys.map(k => el.getAttribute(k)) }))
+            .sort((x, y) => multiplier * compareKeys(x.keys, y.keys, comparer));
+    const frag = document.createDocumentFragment();
+    children.forEach(({el}) => frag.appendChild(el));
+    el.appendChild(frag);
+}
+
+function compareKeys(xKeys: string[], yKeys: string[], comparer: Intl.Collator) {
+    for (let i = 0; i < xKeys.length; ++i) {
+        const result = comparer.compare(xKeys[i], yKeys[i]);
+        if (result !== 0) {
+            return result;
+        }
+    }
+
+    return 0;
 }

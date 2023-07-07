@@ -484,12 +484,14 @@ div.multi > p {
 }
 
 /*** Highlight target of link ***/
-:not(.lightbox):target {
-    padding: 5px;
-    margin-right: -5px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border: 1px dashed $accent;
+h2, h3, h4, h5, h6, p[id] {
+    &:target {
+        padding: 5px;
+        margin-right: -5px;
+        margin-left: -5px;
+        border-radius: 10px;
+        border: 1px dashed $accent;
+    }
 }
 
 p[itemprop="citation"]:target {
@@ -887,7 +889,7 @@ a .figure-img {
 }
 
 /* Barcodes */
-*[itemprop="isbn"] {
+span[itemprop="isbn"] {
     font-family: 'ocrb';
 }
 

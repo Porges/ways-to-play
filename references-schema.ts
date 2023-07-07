@@ -2,7 +2,7 @@ import Ajv, { JSONSchemaType } from 'ajv';
 
 export type Author = {
     readonly family?: string,
-    readonly given: (readonly string[] | string),
+    readonly given: string,
     readonly lang?: string,
     readonly alt?: LStr,
     readonly suffix?: string,
@@ -452,4 +452,31 @@ export function publicationYear(r: Reference) {
     }
 
     return typeof issued === 'number' ? issued : issued.year;
+}
+
+export function sortableDate(r: Reference) {
+    const issued: Date | undefined =
+        'issued' in r && r.issued
+            ? r.issued
+            : 'in' in r && r.in.issued
+                ? r.in.issued
+                : 'filed' in r && r.filed
+                    ? r.filed
+                    : undefined;
+
+    if (issued === undefined) {
+        return 'n.d.';
+    }
+
+    if (typeof issued === 'number') {
+        return issued.toString();
+    }
+
+    if ('season' in issued) {
+        return issued.year.toString();
+    }
+
+    return issued.year.toString()
+        + ('month' in issued ? ('-' + (issued.month as number).toString().padStart(2, '0')) : '')
+        + ('day' in issued ? ('-' + (issued.day as number).toString().padStart(2, '0')) : '');
 }
