@@ -1,6 +1,7 @@
 ---
 title: Satu
 titleLang: tpi
+equipment: Dice
 ---
 
 <p class="lead">
