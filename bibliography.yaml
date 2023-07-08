@@ -9224,6 +9224,7 @@ AntiquariaatArineVanDerSteur44:
     value: Antiquariaat Arine van der Steur
     lang: nl
   URL: https://issuu.com/antiquariaatvandersteur/docs/catalogus_44_antiquegames
+  archive-URL: https://web.archive.org/web/20230708023313/https://s3.amazonaws.com/document.issuu.com/211213205622-caec7c47f2df88ea8d3e73e9d8581d60/original.file?AWSAccessKeyId=ASIATDDRE5J73MMCBSKK&Signature=Nqo3VjyDpgWWI3CxwZQ10ynIlxs%3D&x-amz-security-token=FwoGZXIvYXdzEAMaDK7Tx6O8lmUceLGIOCLZAimZ2wwzXjw7xGqCUSQlVe4l242iEgbGoXjQQ71hawhsm5h6TFMBntc1JeRqCx7UvH0c5a9s62izqtXpKNFvVAeBMpUOO8WBTPchfKT%2B20VzXcpRX5nGmXYa8X4%2F4Nx0LvaaH%2F%2BWh1PyjuANPMmyiarfuSLqLhhl6K59cTBmItFyIkomU%2BzoHsr9LXx2kLPJN0JCCwDsTklOVw291c7WOd572H8%2Fc8WyE%2FzyldmxwvmM6tH4tP4ge%2FcHTO55QC12F5DMULfgfuyjYSFsme1hrPibHRkL4VXLBL6yTFgr6cEItxnLXn98IfYt4rvemCnF%2FVSmiN6uZKYuBwNpDSmvKKeuxXYaX90T2VSDund32yM8bRh62bRZF%2F7%2BILaAaqVB89YGWIXNlhYNjsjCLWQeaQlm6NI%2BZT7qt3PJ9lXiUBYocXpR3D99GQRoSOCXghyGyqckvd1Ex%2FymsSiXh6OlBjIp9%2B64KKfNSPaMV3HjyR%2B6qRYU8LBzxDSM7XcYgEO2Zp7uXTD%2BsnSMRNI%3D&Expires=1688787150
 TresMousquetaires:
   type: book
   title: 
@@ -9928,3 +9929,59 @@ ThatGameOfGuns:
     publisher-place: Canberra, ACT, Australia
     ISBN: '0855751444'
     issued: 1986
+KewaCounting:
+  type: article-journal
+  title: The Kewa Counting Systems
+  author:
+  - given: Karl
+    family: Franklin
+  - given: Joice
+    family: Franklin
+  page: 188-191
+  URL: https://www.jstor.org/stable/20703996
+  in:
+    title: The Journal of the Polynesian Society
+    volume: 71
+    issue: 2
+    issued:
+      month: 6
+      year: 1962
+BambooFire:
+  type: book
+  title: 'The Bamboo Fire: Field Work with the New Guinea Wape'
+  author:
+  - given: William E.
+    family: Mitchell
+  edition: 2
+  issued: 2017
+  publisher: Routledge
+  publisher-place: New York, NY, USA
+  ISBN: 9781412842556
+  original-date: 1987
+MoneyGames:
+  type: book
+  title: 'Money Games: Gambling in a Papua New Guinea Town'
+  author:
+  - given: Anthony J.
+    family: Pickles
+  issued: 2019
+  publisher: Berghahn Books
+  ISBN: 9781789202229
+  series:
+    title: ASAO Studies in Pacific Anthropology
+    volume: 10
+KeepingEqual:
+  type: article-journal
+  title: 'On Keeping Equal: Polity and Reciprocity among the New Guinea Wape'
+  URL: http://www.jstor.org/stable/3317120
+  page: 4-15
+  author: 
+  - given: William E.
+    family: Mitchell
+  in: 
+    title: Anthropological Quarterly
+    volume: 51
+    issue: 1
+    issued: 
+      month: 1
+      year: 1978
