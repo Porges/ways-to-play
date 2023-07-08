@@ -48,6 +48,7 @@ exports.render = async function (data) {
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="generator" content="Eleventy" />
     <meta name="theme-color" content="#000000" />
+    <meta name="robots" content="noai,noimageai" />
     <title>${title} · Ways To Play</title>
     <meta property="og:site_name" content="Ways To Play" />
     <meta property="og:title" content="${title}"${asAttr('lang', data.titleLang)} />
