@@ -30,7 +30,9 @@ async function findNames(coll: any[], refs: Map<Name, any>) {
 // in particular, 3-letter codes are under-supported
 const nameOverrides = new Map<string, string>([
     ["cmn", "Mandarin Chinese"],
+    ["kew", "Kewa (West)"],
     ["kxd", "Kedayan"],
+    ["mbw", "Maring"],
     ["mcm", "Malaccan Creole Portuguese"],
     ["mfa", "Pattani Malay"],
     ["mnr", "Mono"],
