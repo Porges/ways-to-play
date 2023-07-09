@@ -47,6 +47,17 @@ const months =
     , "December"
   ];
 
+const days = 
+  [
+   "Sunday",
+   "Monday",
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Friday",
+   "Saturday"
+  ];
+
 export function renderExplicitDate(date: Date, omitIfJustYear: boolean): string | null {
   if (typeof date === 'number') {
     date = { year: date };
@@ -55,7 +66,15 @@ export function renderExplicitDate(date: Date, omitIfJustYear: boolean): string 
   if ('month' in date) {
     const month = months[date.month - 1];
     if ('day' in date) {
-      return `${ordinal(date.day)} ${month} ${date.year}`;
+      const actualDate = new globalThis.Date(date.year, date.month - 1, date.day);
+
+      if (date.OS) {
+        const day = (((actualDate.getDay() - 10) % 7) + 7) % 7;
+        return `${days[day]}, ${ordinal(date.day)} ${month} ${date.year} [<abbr title="old-style">OS</abbr>]`;
+      }
+
+      const day = actualDate.getDay();
+      return `${days[day]}, ${ordinal(date.day)} ${month} ${date.year}`;
     }
 
     return `${month} ${date.year}`;

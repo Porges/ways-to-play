@@ -9985,3 +9985,35 @@ KeepingEqual:
     issued: 
       month: 1
       year: 1978
+EssayDAnalyse:
+  type: book
+  title: 
+    value: Essay d’Analyse sur les Jeux de Hazard
+    lang: fr
+  edition: 2
+  author:
+  - given: Pierre
+    family: Rémond de Montmort
+    lang: fr
+  issued: 1713
+  publisher:
+    value: Jacque Quillau
+    lang: fr
+  publisher-place: Paris
+  URL: https://books.google.co.nz/books?id=GCquK8FQCT8C
+SaturdaysPost1741:
+  type: article-newspaper
+  title: 'Saturday’s Post: From the <cite>St. James’s Evening-Post</cite>, April 30. Paris, April 15 O.S.'
+  page: 1
+  URL: https://www.newspapers.com/article/the-derby-mercury-gambling-games-banned/127893313/
+  in: 
+    title: The Derby Mercury
+    publisher-place: Derby, Derbyshire, England
+    volume: 10
+    issue: 8
+    issued:
+      OS: true
+      day: 7
+      month: 5
+      year: 1741
+  

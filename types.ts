@@ -59,10 +59,10 @@ export type Author = {
 
 export type Date
     = number
-    | { year: number }
+    | ({ year: number }
     | { year: number, month: number }
     | { year: number, month: number, day: number }
-    | { year: number, season: string };
+    | { year: number, season: string }) & { OS?: boolean }; // OS = old-style date
 
 //11ty types
 

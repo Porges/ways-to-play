@@ -70,7 +70,7 @@ The odds of each outcome are as follows:
 </tfoot>
 </table>
 
-Thus the overall chance of success for the shooter is 49.08%, and the disadvantage for the player is &minus;1.84%.
+Thus the overall chance of success for the shooter is 49.08%, and the disadvantage for the player &minus;1.84%.
 
 In some versions of the game the player is allowed to select any valid main before rolling;[@VotariesII p. 317] in this case the best selection is clearly 7, based upon the above table.
 

@@ -17,7 +17,7 @@ export type Date
         | { year: number, month: number }
         | { year: number, month: number, day: number }
         | { year: number, season: string })
-        & { circa?: boolean });
+        & { circa?: boolean, OS?: boolean });
 
 
 const dateSchema: JSONSchemaType<Date> = {
@@ -30,6 +30,7 @@ const dateSchema: JSONSchemaType<Date> = {
                 month: { type: 'integer' },
                 day: { type: 'integer' },
                 circa: { type: 'boolean', nullable: true },
+                OS: { type: 'boolean', nullable: true },
             },
             required: ['year', 'month', 'day'],
             additionalProperties: false
@@ -39,6 +40,7 @@ const dateSchema: JSONSchemaType<Date> = {
                 year: { type: 'integer' },
                 month: { type: 'integer' },
                 circa: { type: 'boolean', nullable: true },
+                OS: { type: 'boolean', nullable: true },
             },
             required: ['year', 'month'],
             additionalProperties: false
@@ -48,6 +50,7 @@ const dateSchema: JSONSchemaType<Date> = {
                 year: { type: 'integer' },
                 season: { type: 'string' },
                 circa: { type: 'boolean', nullable: true },
+                OS: { type: 'boolean', nullable: true },
             },
             required: ['year', 'season'],
             additionalProperties: false
@@ -56,6 +59,7 @@ const dateSchema: JSONSchemaType<Date> = {
             type: 'object', properties: {
                 year: { type: 'integer' },
                 circa: { type: 'boolean', nullable: true },
+                OS: { type: 'boolean', nullable: true },
             },
             required: ['year'],
             additionalProperties: false

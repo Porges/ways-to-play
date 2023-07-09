@@ -503,6 +503,10 @@ abbr[title] {
     text-decoration: none;
 }
 
+abbr[title="old-style"] {
+    font-variant: all-small-caps;
+}
+
 .reference-warning, .reference-note {
     font-size: smaller;
     abbr { color: $accent; }
