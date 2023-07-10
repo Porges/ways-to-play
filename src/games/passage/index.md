@@ -17,7 +17,7 @@ mainImage: 314D003a.jpg
 -->
 </p>
 
-In England, the game was specifically outlawed by [the <cite>Gaming Act 1739</cite>](http://www.nzlii.org/nz/legis/imp_act_1881/ga173913gic19108/) (previously known as <cite>13 Geo. 2. c. 19</cite>), which was a new addition since the <cite>Gaming Act 1738</cite> (<cite>12 Geo. 2. c. 28</cite>) of the previous year:
+In England, the game was specifically outlawed by [the <cite>Gaming Act 1739</cite>](http://www.nzlii.org/nz/legis/imp_act_1881/ga173913gic19108/) (previously known as <cite>13 Geo. II., c. 19</cite>), which was a new addition since the <cite>Gaming Act 1738</cite> (<cite>12 Geo. II., c. 28</cite>) of the previous year:
 
 > And whereas a good and wholesome law was made in the  twelfth year of the reign of His present Majesty King George the Second, intituled “An Act for the more effectual Preventing of excessive and deceitful Gaming;” but, contrary to the true intent and meaning thereof, some fraudulent and deceitful games have been invented, and a certain game called “passage” is now daily practised and carried on, to the Ruin and impoverishment of many of His Majesty’s subjects : 
 >
