@@ -1,5 +1,6 @@
 ---
 title: Historical Laws Banning Specific Games
+order: 105
 ---
 
 This page is very much a work in progress.

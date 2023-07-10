@@ -1,6 +1,6 @@
 ---
 title: Glossary of Games Terminology
-order: 105
+order: 104
 ---
 
 Here I collect some terms instead of reëxplaining them in many articles, as well as providing a place for discussion or expansion.
