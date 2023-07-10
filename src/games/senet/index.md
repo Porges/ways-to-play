@@ -37,21 +37,20 @@ Image from the tomb of Nikauhor in Saqqara (QS 915, {%c%} 2465–2389 {%bce%}). 
 
 {% image src="02030610.jpg" alt="" originalUrl="http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html"
  license="cc0" size="extra-wide" %}
-Senet (at bottom next to depiction of Mehen); Fifth Dynasty tomb of Rashepses at Saqqara.
-L.D. IV, 61 a.
+Senet (at bottom next to depiction of Mehen); Fifth Dynasty tomb of Rashepses at Saqqara.  L.D. IV, 61 a.
 {%imageEnd%}
 
 ### First Intermediate Period (2181–2055 {%bce%})
 
 {% image src="bh15.jpg" alt="" license="cc0" size="wide" %}
-Images from the tomb of Baqet (<span lang="egy">𓅡𓏏𓐰𓈎𓆭</span>) III at Beni Hasan (BH15).[@BeniHasan pl. VII]{%fn%}Georges Ifrah suggests that the leftmost figures are playing {% gameref morra %}.{%endfn%} The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
+Images from the tomb of Baqet (<span lang="egy">𓅡𓏏𓐰𓈎𓆭</span>) <span class="rnum">III</span> at Beni Hasan (BH15).[@BeniHasan pl. VII]{%fn%}Georges Ifrah suggests that the leftmost figures are playing {% gameref morra %}.{%endfn%} The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
 {%imageEnd%}
 
 {% image src="bh17.jpg" alt="" license="cc0" size="wide" %}
 Images from the tomb of Khety (<span lang="egy">𓄡𓐰𓏏𓇌</span>) at Beni Hasan (BH17).[@BeniHasan pl. XIII] The same games are depicted in reverse order.[@AncientEgyptiansAtPlay]
 {%imageEnd%}
 
-Khety was Baqet III’s son.
+Khety was Baqet <span class="rnum">III</span>’s son.
 
 ### New Kingdom (1550–1069 {%bce%})
 

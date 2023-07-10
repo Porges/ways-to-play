@@ -1724,7 +1724,7 @@ brands included:
 * <span lang="ja">八千代</span> (<span lang="ja-Latn">yachiyo</span>, ‘forever’, literally ‘eight thousand years’)
 * <span lang="ja">鳴戸</span> (<span lang="ja-Latn">naruto</span>, ‘whirlpool’)
 * <span lang="ja">船</span> (<span lang="ja-Latn">fune</span>, ‘ship’), used for <span class="noun" lang="ja-Latn">Kabufuda</span>
-* <span lang="ja">成駒家</span> (<span lang="ja-Latn">narikomaya</span>, a <span lang="ja-Latn">kabuki</span> actor’s [<span lang="ja-Latn">yagō</span>](https://en.wikipedia.org/wiki/Yag%C5%8D), probably here referring to [<span class="noun" lang="ja-Latn">Nakamura Ganjirō</span> II](https://en.wikipedia.org/wiki/Nakamura_Ganjir%C5%8D_II))
+* <span lang="ja">成駒家</span> (<span lang="ja-Latn">narikomaya</span>, a <span lang="ja-Latn">kabuki</span> actor’s [<span lang="ja-Latn">yagō</span>](https://en.wikipedia.org/wiki/Yag%C5%8D), probably here referring to [<span class="noun" lang="ja-Latn">Nakamura Ganjirō</span> <span class="rnum">II</span>](https://en.wikipedia.org/wiki/Nakamura_Ganjir%C5%8D_II))
 * <span lang="ja">三ッ葉葵</span> (<span lang="ja-Latn">mitsuba-aoi</span>, a <span lang="ja-Latn">mon</span> consisting of three birthwort leaves used by the [<span class="noun" lang="ja-Latn">Tokugawa</span>](https://en.wikipedia.org/wiki/Tokugawa_clan#Crest) clan)
 
 <div class="multi">

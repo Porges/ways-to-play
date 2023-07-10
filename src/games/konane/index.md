@@ -35,10 +35,7 @@ transmitted by the survivors of Japanese shipwrecks.[@Stokes]{%endfn%}  However,
 it definitely existed before European contact, as it was described by Captain
 Cook’s voyage, which was the first of its kind to reach the islands (see below).
 
-The game dates at least from the early 18th century, as it was played by
-Kahekili II (c. 1737–1794), who was high chief ({%pronounce lang="haw"
-word="aliʻi nui" pronouncer="lilibet" %}) of Maui. Kahekili and his advisers
-possibly used the board, or at least the pieces, to plan battles:
+The game dates at least from the early 18th century, as it was played by Kahekili <span class="rnum">II</span> (c. 1737–1794), who was high chief ({%pronounce lang="haw" word="aliʻi nui" pronouncer="lilibet" %}) of Maui. Kahekili and his advisers possibly used the board, or at least the pieces, to plan battles:
 
 > [T]here was no other king so genuinely accomplished in making war as King
 > Kahekili of Maui and the actions on the battlefield plainly showed his

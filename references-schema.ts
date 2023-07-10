@@ -247,7 +247,7 @@ const conferencePaperSchema: JSONSchemaType<ConferencePaper> = {
 type Thesis = CommonProps & {
     type: "thesis",
     genre: string,
-    publisher?: string,
+    publisher?: LStr,
     ["publisher-place"]?: string,
     issued: Date,
     volume?: number,
@@ -260,7 +260,7 @@ const thesisSchema: JSONSchemaType<Thesis> = {
         ...commonProps,
         issued: dateSchema,
         genre: { type: "string", default: "Thesis" },
-        publisher: { type: "string", nullable: true },
+        publisher: { ...lstrSchema, nullable: true },
         volume: { type: "integer", nullable: true },
         "publisher-place": { type: "string", nullable: true },
     },

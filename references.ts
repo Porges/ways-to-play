@@ -173,11 +173,13 @@ const renderAuthors = (reference: Reference) => {
     } else if ('publisher' in reference && reference.publisher) {
         return `<span itemscope itemtype="https://schema.org/Organization" itemprop="author">`
             + renderLStr(reference.publisher, 'span', {itemprop: 'name', class: 'noun'})
-            + '</span> ';
+            + '</span> (publisher) ';
+    /*
     } else if ('in' in reference && 'publisher' in reference.in && reference.in.publisher) {
         return `<span itemscope itemtype="https://schema.org/Organization" itemprop="author">`
             + renderLStr(reference.in.publisher, 'span', {itemprop: 'name', class: 'noun'})
             + '</span> ';
+    */
     } else {
         return `<i>Anonymous</i> `;
     }

@@ -10016,4 +10016,139 @@ SaturdaysPost1741:
       day: 7
       month: 5
       year: 1741
-  
+Jurisprudence5:
+  type: book
+  title: 
+    value: Jurisprudence
+    lang: fr
+  URL: https://archive.org/details/jurisprudence05unse 
+  volume: 5
+  publisher:
+    value: Panckoucke and Liége
+    lang: fr
+  publisher-place: Paris
+  issued: 1785
+  editor:
+    - given: M.
+      family: Lerasle
+      lang: fr
+
+  series:
+    title:
+      value: Encyclopédie Méthodique
+      lang: fr
+AManifestDetection:
+  type: book
+  title: 'A manifest detection of the moste vyle and detestable vse of Diceplay, and other practises lyke the same, a Myrrour very necessary for all yonge Gentilmen & others sodenly enabled by worldly abūdace, to loke in. Newly set forth for their behoufe.'
+  author:
+  - given: Gilbert
+    family: Walker
+  issued:
+    year: 1555
+    circa: true
+  publisher-place: London
+  URL: http://name.umdl.umich.edu/A14659.0001.001
+AcademiaDosJogos4:
+  type: book
+  title:
+    value: Academia dos Jogos
+    lang: pt
+  volume: 4
+  publisher-place: Lisboa, Portugal
+  issued: 1806
+  publisher:
+    value: Impressão Regia
+    lang: pt
+  URL: https://books.google.co.nz/books?id=A_ddAAAAcAAJ
+JeuPenseeLeibniz:
+  type: thesis
+  title:
+    value: Le jeu dans la pensée de Leibniz
+    lang: fr
+  URL: https://www.academia.edu/34942056/Le_jeu_dans_la_pens%C3%A9e_de_Leibniz
+  author:
+  - given: Vincent
+    family: Leroux
+    lang: fr
+  issued:
+    year: 2015
+    month: 6
+    day: 12
+  genre: Master’s thesis
+  publisher:
+    value: Université Paris-Diderot
+    lang: fr
+  publisher-place: Paris, France
+MemoiresSurLaCour3:
+  type: book
+  URL: https://archive.org/details/mmoiressurlacou07luyngoog
+  title:
+    value: Mémoires du Duc de Luynes sur la cour de Louis XV, 1735–1758
+    lang: fr
+  author:
+  - given: Charles Philippe
+    family: d’Albert de Luynes
+    lang: fr
+  volume-title: 1739–1741
+  volume: 3
+  publisher-place: Paris
+  publisher:
+    value: Firmin Didot Freres, Fils, et Cie
+    lang: fr
+  issued: 1860
+MarieFrançois:
+  type: webpage
+  URL: http://favoritesroyales.canalblog.com/archives/2011/11/12/22655522.html
+  archive-URL: https://web.archive.org/web/20230709232405/http://favoritesroyales.canalblog.com/archives/2011/11/12/22655522.html
+  title:
+    value: Marie-François Renée de Forcalquier, maitresse passagère du Bien-Aimé
+    lang: fr
+  author:
+  - given: Minega
+  issued:
+    year: 2011
+    month: 11
+    day: 12
+  container-title:
+    value: Les Favorites Royales
+    lang: fr
+LaMuseHistorique3:
+  type: book
+  title:
+    value: 'La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)'
+    lang: fr
+  author:
+    - given: Jean
+      family: Loret
+      lang: fr
+  publisher:
+    value: P. Daffis
+    lang: fr
+  publisher-place: Paris, France
+  issued: 1878
+  volume: 3
+  volume-title: 1659–1662
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k62128826/f235.item
+EnglishCourtier:
+  type: chapter
+  title: 'The English Courtier, and the Cūtrey-gentleman: A pleaſaunt and learned Diſputation, betweene them both: very profitable and neceſſarie to be read of all Nobilitie and Gentleman'
+  in:
+    title: Inedited Tracts
+    URL: https://archive.org/details/ineditedtractsil00hazluoft
+    issued: 1868
+    original-date: 1586
+    editor: 
+    - given: W. C.
+      family: Hazlitt
+    series:
+      title: Burt Franklin Research & Source Works Series
+      volume: 49
+    publisher: Burt Franklin
+    publisher-place: New York
+Cyuile:
+  type: book
+  title: 'Cyuile and vncyuile life a discourse very profitable, pleasant, and fit to bee read of all nobilitie and gentlemen : where, in forme of a Dialoge is disputed, what order of lyfe best beseemeth a gentleman in all ages and times …'
+  URL: http://name.umdl.umich.edu/A05456.0001.001
+  publisher: Richard Jones
+  publisher-place: London
+  issued: 1579

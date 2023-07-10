@@ -56,12 +56,7 @@ pictorial versions of Chuck-A-Luck such as “Mustang”. In England there are
 certainly many old references to “dice boards” or “gaming tables”, but they are
 not described in detail very often.
 
-At first, the game was played with symbols other than the crown and anchor. The
-earliest reference I have found is to a version played with “anchors, stars,
-clubs, spades, hearts, and diamonds” at the coronation fair of George IV in Hyde
-Park in 1821.{%fn%}This is clearly the same game as six outcomes are listed
-and the operator announces “three to win, three to lose” — a classically
-misleading claim!{%endfn%}[@DissolutionOfCoronationFair]
+At first, the game was played with symbols other than the crown and anchor. The earliest reference I have found is to a version played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George <span class="rnum">IV</span> in Hyde Park in 1821.{%fn%}This is clearly the same game as six outcomes are listed and the operator announces “three to win, three to lose” — a classically misleading claim!{%endfn%}[@DissolutionOfCoronationFair]
 
 Other variants were developed through the 19th century: In 1842, the
 <cite>Punch</cite> character Mr. Muff “mistrust[s] the chances of the ‘Dimunt,
@@ -295,12 +290,7 @@ war.[@WithTheAmmunitionTrain p. 94][@MapleLeavesInFlandersFields pp. 21, 140]
 In 1919, it was reported to be played on the ill-fated returning Australian
 transport Sardinia.[@LifeOnTransportSardinia]
 
-Post-war memoirs indicate that the game was commonly played in <abbr
-class="initialism" title="prisoners of war">POW</abbr> camps as in the Boer
-War, including the German camp <span class="noun" lang="de">Münster</span> II (<abbr
-class="initialism" title="also known as">AKA</abbr> K47, <span
-lang="de">Rennbahn</span>), although gambling games were not permitted to be
-played.[@KaisersGuest pp. 204–6]
+Post-war memoirs indicate that the game was commonly played in <abbr class="initialism" title="prisoners of war">POW</abbr> camps as in the Boer War, including the German camp <span class="noun" lang="de">Münster</span> <span class="rnum">II</span> (<abbr class="initialism" title="also known as">AKA</abbr> K47, <span lang="de">Rennbahn</span>), although gambling games were not permitted to be played.[@KaisersGuest pp. 204–6]
 
 ### World War II
 
