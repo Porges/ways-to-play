@@ -10152,3 +10152,14 @@ Cyuile:
   publisher: Richard Jones
   publisher-place: London
   issued: 1579
+OfTheLawsOfChance:
+  type: book
+  title: Of the Laws of Chance, or, a Method of Calculation of the Hazards of GAME, Plainly demonſtrated, And applied to GAMES at preſent moſt in Uſe; Which may be eaſily extended to the moſt intricate Caſes of CHANCE imaginable.
+  author:
+  - given: John
+    family: Ham
+  edition: 4
+  URL: https://archive.org/details/oflawsofchanceor00hamjiala
+  publisher-place: London
+  publisher: Printed for B. Motte and C. Bathurst
+  issued: 1738

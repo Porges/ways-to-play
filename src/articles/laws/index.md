@@ -26,7 +26,7 @@ France, April 21: Louis <span class="rnum">XIV</span> issues an ordinance bannin
 
 #### 1738
 
-England: The <cite>Gaming Act 1738</cite> (<cite>12 Geo. II., c. 28</cite>) bans all lotteries and games of chance, along with *ace of hearts*, *pharaoh*, *basset*, and {%gameref hazard%}.
+England: The <cite>Gaming Act 1738</cite> (<cite>12 Geo. II., c. 28</cite>) bans all lotteries and games of chance, along with {%gameref ace-of-hearts%}, *pharaoh*, *basset*, and {%gameref hazard%}.
 
 #### 1739
 

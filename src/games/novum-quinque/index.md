@@ -51,6 +51,8 @@ On any other result (non-doublet 4, 6, 7, 8, or 10), a target number or **chance
 
 The tricky part of the game is that, after the first roll, other players may propose additional bets (which the thrower may accept or refuse): in effect, the second roll forms the start of a new game, which is played simultaneously. Thus, if a player proposes a new bet on the second roll, this new bet is won by the thrower on a 3, 11, or doublet, but the original bet is not, since the chance has not been rolled. On the other hand, a 5 or 9 will always lose all outstanding bets. If the new bet is not won or lost on the next roll, then a second chance is established, and so on.
 
+> **Example**: The bettor places their initial bet, and the thrower rolls a 7 on their first roll, establishing their chance. The first bet will now be won by the thrower if they throw a 7 again, and lost if they throw 5 or 9. The bettor places a new bet on the next roll. The thrower comes up with a (non-doublet) 8, and the bettor places a third bet. On their third roll, the thrower rolls 11, which wins the third bet, but the bets on the chances of 7 and 8 still stand.
+
 The thrower has a slight advantage on the first roll, but their chances of winning continue to get worse the longer the game continues.
 
 Once a particular round is resolved, the dice pass to the next player anti-clockwise.
