@@ -1,14 +1,13 @@
 ---
 title: Hazard
-draft: true
 equipment: Dice
 ---
 
 <p class="lead">
-<span class="aka">Hazard</span> is a very old dice game — in fact, it was the name of the game before the word “hazard” meant anything else in English, and the modern meaning of the word is derived from the <em>hazardous</em> nature of the game. It has also been spelled <span class="aka">Hasard</span>, <span class="aka">Hassard</span>, or <span class="aka">Hazzard</span>. The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Middle French <span lang="fr" class="aka">hasard</span>. It has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard]
+<span class="aka">Hazard</span> is a very old dice game — in fact, it was the name of the game before the word “hazard” meant anything else in English, and the modern meaning of the word is derived from the <em>hazardous</em> nature of the game. It has also been spelled <span class="aka">Hasard</span>, <span class="aka">Hassard</span>, or <span class="aka">Hazzard</span>.
 </p>
 
-<!-- excerpt -->
+ The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Middle French <span lang="fr" class="aka">hasard</span>.{%fn%}Sometimes ‘hazard’ refers to the specific die roll of {%dice 44%}.{%endfn%} It has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard] French books seem to believe that the game was of English origin.[@TheorieDesJeuxDeHasard p. 8]
 
 Charles Cotton says that Hazard is the “moſt bewitching Game that is plaid on the dice; for when a man begins to play he knows not when to leave off”,[@CompleatGamester p. 172]{%fn%}This page misnumbered 127 instead of 172.{%endfn%} and that “Hazzard is a proper name for this game; for it ſpeedily makes a man or undoes him; in the twinkling of an eye either a Man or a Mouſe.”[@CompleatGamester p. 168]
 
@@ -72,13 +71,17 @@ The odds of each outcome are as follows:
 
 Thus the overall chance of success for the shooter is 49.08%, and the disadvantage for the player &minus;1.84%.
 
-In some versions of the game the player is allowed to select any valid main before rolling;[@VotariesII p. 317] in this case the best selection is clearly 7, based upon the above table.
+In some (later) versions of the game the player is allowed to select any valid main before rolling;[@VotariesII p. 317] in this case the best selection is clearly 7, based upon the above table.
 
 ## The Banking Game
 
-When played against a bank, the game needed to be made unfair in some way so that the bank was guaranteed a profit. Sometimes the banking game was called <span class="aka">French Hazard</span> and the non-banking version <span class="aka">English Hazard</span> or <span class="aka">Chicken Hazard</span>.[@BarristersLife p. 43]
+When played against a bank, the game needed to be made unfair in some way so that the bank was guaranteed a profit.{%fn%}I do not yet have details about how this change was made.{%endfn%} Sometimes the banking game was called <span class="aka">French Hazard</span> and the non-banking version <span class="aka">English Hazard</span> or <span class="aka">Chicken Hazard</span>.[@BarristersLife p. 43]
 
+<!--
 @TheorieDesJeuxDeHasard suggests that some numbers were made into … TODO
+
+I cannot find this supposed section now!
+-->
 
 ## See also
 
