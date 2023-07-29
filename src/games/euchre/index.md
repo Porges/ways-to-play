@@ -5,6 +5,10 @@ equipment: Playing cards (Standard)
 players: 4
 ---
 
+{% image src="../../maps/Euchre.svg" alt="A map showing Australia, New Zealand, the USA, Canada, the UK, the Cook Islands, Fiji, Tonga." %}
+Euchre is played in many countries around the world.
+{% imageEnd %}
+
 It is popular throughout Polynesia:
 
 - Cook Islands 

@@ -1,9 +1,5 @@
 ## Goose games
 
-### Mehen (TODO: Egyptian)
-
-Ref: [@OxfordBG]
-
 ### Hyena (TODO: Arabic)
 
 Ref: [@OxfordBG; @Bell, p. 12]

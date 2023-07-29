@@ -4,6 +4,8 @@ players:
     min: 3
     max: 100
 equipment: Dice
+subgames:
+- title: Fives to the Right
 ---
 
 <p class="lead">
@@ -27,3 +29,11 @@ On each player’s turn they make one roll of both dice. For each {%dice 1%} thr
 Play continues around the circle. Any players left without tokens drop out of the game and do not participate further, unless they receive a token from the player on their right.
 
 Once there is only one token that is not in the pot, its owner makes three rolls. If they make three rolls without rolling any {%dice 6%}, they win the game. Otherwise, they pass the dice and token to the next player, who proceeds with their attempt.
+
+## Fives to the Right
+
+This version of the game is called <span class="aka">Aces to the Center</span>, <span class="aka">Deuces to the Left</span>, <span class="aka">Fives to the Right</span>, or simply <span class="aka">Aces</span>.[@ScarneOnDice p. 360]
+
+Instead of playing with tokens, each player starts with five dice. On a player’s turn they roll all their dice. Any dice showing {%dice 1%} are placed in the centre; any showing {%dice 2%} are passed to the left, and any showing {%dice 5%} are passed to the right. The player continues to roll until no dice show {%dice 125%} or they run out of dice.
+
+Play continues until all but one die have been placed in the centre. The game continues with this single die until it shows a {%dice 1%} and would be placed in the centre; the player who rolled this value is either the loser, who must pay the bill, or the winner, who takes the pot.

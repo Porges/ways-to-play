@@ -14,3 +14,10 @@ Ref: [@OxfordBG p. 182] [@NewRules p. 134], *L’arithmétique amusante*.
 
 
 Mentioned as being played with chalk by @LondonStreetGames [p. 134].
+
+
+<!--
+https://www.flickr.com/photos/joshleejosh/8203546143/
+
+https://www.flickr.com/photos/ericahargreave/3717552926/
+-->
