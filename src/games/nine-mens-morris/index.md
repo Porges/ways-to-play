@@ -610,5 +610,5 @@ Trencho board and pieces. A board with a different configuration can be seen
 ## See also
 
 Other general references include @OxfordBG, @Zaslavsky [p. 12],
-@Bell [p. 93], @Murray2 [§3.5.4, p. 43], @Goddard1901, @NotesAndQueriesS8V12
+@Bell [vol. 1, p. 93], @Murray2 [§3.5.4, p. 43], @Goddard1901, @NotesAndQueriesS8V12
 [pp. 28, 89–90, 173, 333], and @PlayedAtThePub [p. 150].

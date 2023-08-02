@@ -38,10 +38,6 @@ Ref: [@Zaslavsky]
 
 ## Two-Sided Dice
 
-### Heads & Tails
-
-Ref: [@Bell, p. 127]
-
 ### The Bowl Game
 
 Ref: [@Bell, p. 127]
@@ -56,14 +52,9 @@ Ref: [@Bell, p. 129]
 
 Ref: [@Bell, p. 130]
 
-
 ### Barbudi
 
 Ref: [@Bell, p. 130]
-
-### Hazard
-
-Ref: [@Bell, p. 132]
 
 ### Buck Dice
 
@@ -80,7 +71,6 @@ Ref: [@Bell, p. 137]
 ### Indian Dice
 
 Ref: [@Bell, p. 137]
-
 
 ### Sequences
 

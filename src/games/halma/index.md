@@ -14,7 +14,7 @@ The game was named Halma by Thomas Hill (Robert Monks’ father-in-law) from the
 
 The game was first published by E.I. Horsman in the USA. Milton Bradley also published the game under the name ‘Halma’ for three years until they were forced to change their version to ‘Eckha’.[@BradleysGames p. 3]{%fn%}Note that the patent lists “Milton Brodley” as a signer. I don’t know if this is a mistake or something more.{%endfn%} Parker Brothers claims that George Monks later sold his patent to them.
 
-Sources: @OxfordBG, @Bell [p. 98], @NewRules [p. 87].
+Sources: @OxfordBG, @Bell [vol. 1, p. 98], @NewRules [p. 87].
 
 ## Variants
 

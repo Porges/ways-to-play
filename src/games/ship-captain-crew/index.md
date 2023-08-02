@@ -56,4 +56,4 @@ It also describes a version where players must aim for the _lowest_ rather than 
 
 ## General References
 
-See: @Bell [p. 138].
+See: @Bell [vol. 1, p. 138].

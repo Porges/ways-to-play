@@ -14,4 +14,4 @@ players: 2
 
 ## Sources
 
-Ref: @OxfordBG [p. 288]; @Falkener [p. 143]; and @Bell [p. 66].
+Ref: @OxfordBG [p. 288]; @Falkener [p. 143]; and @Bell [vol. 1, p. 66].

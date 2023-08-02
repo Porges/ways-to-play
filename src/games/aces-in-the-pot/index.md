@@ -15,8 +15,7 @@ subgames:
 The earliest mention I have found of this game is in the 1885 edition of
 @TheAmericanHoyle13 [p. 467].
 
-<!-- @TheCompleteBookOfGames [p. 351]. Later descriptions of this game[@Bell p. 130]
-all seem to stem from this one source.  -->
+<!-- @TheCompleteBookOfGames [p. 351]. Later descriptions of this game such as Bell's all seem to stem from this one source.  -->
 
 ## Play
 
@@ -37,3 +36,7 @@ This version of the game is called <span class="aka">Aces to the Center</span>, 
 Instead of playing with tokens, each player starts with five dice. On a player’s turn they roll all their dice. Any dice showing {%dice 1%} are placed in the centre; any showing {%dice 2%} are passed to the left, and any showing {%dice 5%} are passed to the right. The player continues to roll until no dice show {%dice 125%} or they run out of dice.
 
 Play continues until all but one die have been placed in the centre. The game continues with this single die until it shows a {%dice 1%} and would be placed in the centre; the player who rolled this value is either the loser, who must pay the bill, or the winner, who takes the pot.
+
+## General References
+
+See: @Bell [vol. 1, p. 130].

@@ -10163,3 +10163,30 @@ OfTheLawsOfChance:
   publisher-place: London
   publisher: Printed for B. Motte and C. Bathurst
   issued: 1738
+LettersToAGentlemanOfFortune:
+  type: book
+  title: Letters to a Gentleman of Fortune, relating to His Conduct in Life
+  author:
+  - given: Lyonell
+    family: Vane
+  URL: https://archive.org/details/bim_eighteenth-century_letters-to-a-gentleman-o_vane-lionel_1753
+  issued: 1753
+  publisher-place: London
+  publisher: W. Owen
+ACharacter:
+  type: article-magazine
+  title: A Character
+  page: 138
+  URL: https://archive.org/details/sim_gentlemans-magazine_1740-03_10_3/page/138
+  in: 
+    title: The Gentleman’s Magazine
+    editor:
+    - given: Sylvanus
+      family: Urban
+    publisher-place: London
+    publisher: E. Cave
+    volume: 10
+    issue: 3
+    issued:
+      year: 1740
+      month: 3

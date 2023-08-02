@@ -348,5 +348,5 @@ A surviving copy of Animal Behaviour Enterprises’ Bird Brain game.
 
 ## See also
 
-Some general references for the game are @OxfordBG [112–3], @Bell [p. 91], and
+Some general references for the game are @OxfordBG [112–3], @Bell [vol. 1, p. 91], and
 @Murray2 [§3.2.1, p. 40].

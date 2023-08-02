@@ -86,3 +86,7 @@ I cannot find this supposed section now!
 ## See also
 
 The modern game of Craps is based upon Hazard with a fixed main of seven; the come-out roll is the roll which determines the chance (“point”). This is why the shooter craps out on 2, 3, or 12, and wins on 7 or 11 (a “natural”).
+
+## General References
+
+See: @Bell [vol. 1, p. 132].

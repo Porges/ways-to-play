@@ -197,15 +197,8 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
     const renderFamily = (a: Author, ix: number) =>
         `<span itemprop="familyName">${a.family}</span>${ifSet(period && ix === (as.length - 1) && !a.family?.endsWith('.'), '.')}`;
 
-    const renderGiven = (a: Author, ix: number) => {
-        if (typeof a.given === 'string') {
-            return `<span itemprop="givenName">${a.given}</span>${ifSet(period && reverseFirst && ix === 0 && ix === (as.length - 1) && !a.given.endsWith('.'), '.')}`;
-        } else {
-            return `<span itemprop="givenName">${a.given[0]}</span>`
-                + ifSet(a.given.length > 1, ` <span itemprop="additionalName">${a.given.slice(1).join(' ')}</span>`)
-                + ifSet(period && reverseFirst && ix === 0 && ix === (as.length - 1) && !a.given[a.given.length - 1].endsWith('.'), '.');
-        }
-    };
+    const renderGiven = (a: Author, ix: number) => 
+        `<span itemprop="givenName">${a.given}</span>${ifSet(period && reverseFirst && ix === 0 && ix === (as.length - 1) && !a.given.endsWith('.'), '.')}`;
 
     const reverseName = (a: Author) => a.lang === undefined ? false : (a.lang.startsWith('zh') || a.lang.startsWith('ja'));
     const hiddenName = (a: Author) => `<meta itemprop="name" content="${reverseName(a) ? `${a.family}${a.given}` : `${a.given} ${a.family}`}" />`;
@@ -442,8 +435,14 @@ function renderContainer(reference: BiblioRef) {
                     : '. ';
 
             const publisher = renderPublisher(reference.in);
+            const editor = ('editor' in reference.in && reference.in.editor)
+                ? 'Edited by ' + renderPeople(reference.in.editor, false, false, 'editor') + '. '
+                : '';
 
-            return renderPeriodical(id, reference.in) + pageSuffix + `<span itemscope itemtype="https://schema.org/Organization" itemid="#${id}-publisher">${publisher}</span>`;
+            return renderPeriodical(id, reference.in)
+                + pageSuffix
+                + editor
+                + `<span itemscope itemtype="https://schema.org/Organization" itemid="#${id}-publisher">${publisher}</span>`;
 
         default:
             return '';

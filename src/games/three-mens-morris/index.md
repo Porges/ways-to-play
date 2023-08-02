@@ -87,7 +87,7 @@ A piece may also rotate without moving instead, as long as it changes orientatio
 
 ## See also
 
-General references are: @OxfordBG [p. 116], @Bell [p. 91], and @Murray2 [p. 41].
+General references are: @OxfordBG [p. 116], @Bell [vol. 1, p. 91], and @Murray2 [p. 41].
 
 {% gameref achi %} is often mis-described as a three-men’s-morris game (e.g. in @TicTacToe), based on a misreading of the description in @Murray2.
 
