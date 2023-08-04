@@ -129,18 +129,18 @@ const marks = expand(new Map<string | string[], Mark>([
     onVowel: "̃",
     onNext: new Map<string, string>(
       // ṅ before k, kh, g, gh, ṅ
-      [].concat(
-        Array.from("कखगघङ" + "കഖഗഘങ" + "").map((c: string): [string, string] => [c, "ṅ"]),
+      ([] as [string, string][]).concat(
+        Array.from("कखगघङ" + "കഖഗഘങ" + "").map(c => [c, "ṅ"]),
         // ñ before c, ch, j, jh, ñ
-        [["च", "ñ"], ["छ", "ñ"], ["ज", "ñ"], ["झ", "ñ"], ["ञ", "ñ"],
+        Array.from("चछजझञ" + "ചഛജഝഞ" + "").map(c => [c, "ñ"]),
         // ṇ before t., t.h, d., d.h, ṇ
-        ["ट", "ṇ"], ["ठ", "ṇ"], ["ड", "ṇ"], ["ढ", "ṇ"], ["ण", "ṇ"],
+        Array.from("टठडढण" + "ടഠഡഢണ" + "").map(c => [c, "ṇ"]),
         // n before t, th, d, dh, n
-        ["त", "n"], ["थ", "n"], ["द", "n"], ["ध", "n"], ["न", "n"],
+        Array.from("तथदधन" + "തഥദധന" + "").map(c => [c, "n"]),
         // m before p, ph, b, bh, m
-        ["प", "m"], ["फ", "m"], ["ब", "m"], ["भ", "m"], ["म", "m"]],
+        Array.from("पफबभम" + "പഫബഭമ" + "").map(c => [c, "m"]),
       )),
-  }], // Strict Nasalization! TODO: Malayalam should be 'm' when final.
+  }], // Strict Nasalization! TODO: Malayalam should _always_ be 'm' when final.
   ["ँ", {
     // value: "m̐",
     value: "̃",
