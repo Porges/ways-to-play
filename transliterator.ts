@@ -5,6 +5,8 @@ type Letter =
     value: string,
     implicitVowel?: string,
     vowelType?: "semi" | "full"
+    onNext?: [RegExp, string][],
+    onPrev?: [RegExp, string][],
   }
 
 type Mark =
@@ -18,13 +20,44 @@ type Mark =
     onSemivowel?: Mark,
   }
 
+// TODO: this is simplified dramatically
+const wordFinal = /$|\s|\P{Letter}/uy;
+
+/*
+
+Notes on Devanagari and related scripts:
+- base consonant comes first
+- then optional nukta
+- then optional vowel
+- then optional candrabindu
+- then optional svara
+
+Data from:
+- https://web.archive.org/web/20160512163746/http://homepage.ntlworld.com:80/stone-catend/trind.htm
+- https://transliteration.eki.ee/pdf/Hindi-Marathi-Nepali.pdf
+- https://transliteration.eki.ee/pdf/Malayalam.pdf
+- https://transliteration.eki.ee/pdf/Kannada.pdf
+
+*/
+
 const letters = expand(new Map<string | string[], Letter>([
   // ISO 15919
   // - Devanagari, Malayalam, Kannada
   [["ऽ", "ഽ", "ಽ"], "’"],
   [["अ", "അ", "ಅ"], { value: "a", vowelType: "full" }],
   [["आ", "ആ", "ಆ"], { value: "ā", vowelType: "full" }],
-  [["इ", "ഇ", "ಇ"], { value: "i", vowelType: "full" }],
+  [["इ", /*,*/ "ಇ"], { value: "i", vowelType: "full" }],
+  ["ഇ", {
+    value: "i",
+    vowelType: "full",
+    onPrev: [
+      // if previous is letter with no vowel mark
+      // (so it will be -a), this is 'a:i' to distinguish from 'ai'
+      // really this should test that previous is also a Malayalam character
+      // but can't do that without /v which is unsupported in Node currently.
+      [/(?<=\p{Letter})/uy, ":i"]
+    ]
+  }],
   [["ई", "ഈ", "ಈ"], { value: "ī", vowelType: "full" }],
   [["उ", "ഉ", "ಉ"], { value: "u", vowelType: "full" }],
   [["ऊ", "ഊ", "ಊ"], { value: "ū", vowelType: "full" }],
@@ -66,8 +99,22 @@ const letters = expand(new Map<string | string[], Letter>([
   [["ब", "ബ", "ಬ"], { value: "b", implicitVowel: "a" }],
   [["भ", "ഭ", "ಭ"], { value: "bh", implicitVowel: "a" }],
   [["म", "മ", "ಮ"], { value: "m", implicitVowel: "a" }],
-  [["य", "യ", "ಯ"], { value: "y", implicitVowel: "a" }], // TODO: Malayalam special medial form
-  [["र", "ര", "ರ"], { value: "r", implicitVowel: "a" }], // TODO: Malayalam special final form
+  [["य", /*,*/ "ಯ"], { value: "y", implicitVowel: "a" }],
+  ["യ", {
+    value: "y",
+    implicitVowel: "a",
+    onNext: [
+      [/(?<=്)\p{Letter}/uy, "y:"] // special medial form for suppressed vowel in Malayalam
+    ]
+  }],
+  [["र", /*,*/ "ರ"], { value: "r", implicitVowel: "a" }],
+  ["ര", {
+    value: "r",
+    implicitVowel: "a",
+    onNext: [
+      [wordFinal, "ṟ"] // special final form in Malayalam
+    ]
+  }],
   [["ऱ", "റ", "ಱ"], { value: "ṟ", implicitVowel: "a" }], // TODO: Malayalam special final form
   [["ल", "ല", "ಲ"], { value: "l", implicitVowel: "a" }],
   [["ळ", "ള", "ಳ"], { value: "ḷ", implicitVowel: "a" }],
@@ -94,15 +141,17 @@ const letters = expand(new Map<string | string[], Letter>([
   [[/**/ "ൾ", /**/], "ḷ"],
   [[/**/ "ൿ", /**/], "k"],
   // Not ISO:
+  ["ॐ", "om"], // OM
   [["त़", /* - - */], { value: "ț", implicitVowel: "a" }], // Maldivian
   [["ह़", /* - - */], { value: "ḥ", implicitVowel: "a" }], // Maldivian
   [["ब़", /* - - */], { value: "β", implicitVowel: "a" }], // Avestan
+  [["ॹ", /* - - */], { value: "ž", implicitVowel: "a" }], // Avestan
 ]));
 
 const marks = expand(new Map<string | string[], Mark>([
   // ISO 15919
   // - Devanagari, Malayalam, Kannada
-  [["्", "്", "ಂ"], { value: "", isVowel: true }],
+  [["्", "്", "್"], { value: "", isVowel: true }], // virama
   [["ा", "ാ", "ಾ"], { value: "ā", isVowel: true }],
   [["ि", "ി", "ಿ"], { value: "i", isVowel: true }],
   [["ी", "ീ", "ೀ"], { value: "ī", isVowel: true }],
@@ -122,26 +171,63 @@ const marks = expand(new Map<string | string[], Mark>([
   [["ो", "ോ", "ೋ"], { value: "ō", isVowel: true }],
   [["ौ", "ൌ", "ೌ"], { value: "au", isVowel: true }],
   ["ൗ", { value: "au", isVowel: true }],
-  [["ः", "ഃ", "ಃ"], "ḥ"],
-  [["ं", "ം", "ಂ"], {
+  [["ः", "ഃ", "ಃ"], "ḥ"], // visargam
+  [["ಂ"], { // Kannada, Strict Nasalization
     // value: "ṁ",
     value: "̃",
     onVowel: "̃",
     onNext: new Map<string, string>(
-      // ṅ before k, kh, g, gh, ṅ
       ([] as [string, string][]).concat(
-        Array.from("कखगघङ" + "കഖഗഘങ" + "").map(c => [c, "ṅ"]),
+        // ṅ before k, kh, g, gh, ṅ
+        Array.from("ಕಖಗಘಙ").map(c => [c, "ṅ"]),
         // ñ before c, ch, j, jh, ñ
-        Array.from("चछजझञ" + "ചഛജഝഞ" + "").map(c => [c, "ñ"]),
+        Array.from("ಚಛಜಝಞ").map(c => [c, "ñ"]),
         // ṇ before t., t.h, d., d.h, ṇ
-        Array.from("टठडढण" + "ടഠഡഢണ" + "").map(c => [c, "ṇ"]),
+        Array.from("ಟಠಡಢಣ").map(c => [c, "ṇ"]),
         // n before t, th, d, dh, n
-        Array.from("तथदधन" + "തഥദധന" + "").map(c => [c, "n"]),
+        Array.from("ತಥದಧನ").map(c => [c, "n"]),
         // m before p, ph, b, bh, m
-        Array.from("पफबभम" + "പഫബഭമ" + "").map(c => [c, "m"]),
+        Array.from("ಪಫಬಭಮ").map(c => [c, "m"]),
       )),
-  }], // Strict Nasalization! TODO: Malayalam should _always_ be 'm' when final.
-  ["ँ", {
+  }],
+  [["ം"], { // Malayalam, Strict Nasalization
+    // value: "ṁ",
+    value: "̃",
+    onVowel: "̃",
+    onNext: new Map<string, string>(
+      // always 'm' when final
+      ([["", "m"]] as [string, string][]).concat(
+        // ṅ before k, kh, g, gh, ṅ
+        Array.from("കഖഗഘങ").map(c => [c, "ṅ"]),
+        // ñ before c, ch, j, jh, ñ
+        Array.from("ചഛജഝഞ").map(c => [c, "ñ"]),
+        // ṇ before t., t.h, d., d.h, ṇ
+        Array.from("ടഠഡഢണ").map(c => [c, "ṇ"]),
+        // n before t, th, d, dh, n
+        Array.from("തഥദധന").map(c => [c, "n"]),
+        // m before p, ph, b, bh, m
+        Array.from("പഫബഭമ").map(c => [c, "m"]),
+      )),
+  }],
+  [["ं"], { // Devanagari, Strict Nasalization
+    // value: "ṁ",
+    value: "̃",
+    onVowel: "̃",
+    onNext: new Map<string, string>(
+      ([] as [string, string][]).concat(
+        // ṅ before k, kh, g, gh, ṅ
+        Array.from("कखगघङ").map(c => [c, "ṅ"]),
+        // ñ before c, ch, j, jh, ñ
+        Array.from("चछजझञ").map(c => [c, "ñ"]),
+        // ṇ before t., t.h, d., d.h, ṇ
+        Array.from("टठडढण").map(c => [c, "ṇ"]),
+        // n before t, th, d, dh, n
+        Array.from("तथदधन").map(c => [c, "n"]),
+        // m before p, ph, b, bh, m
+        Array.from("पफबभम").map(c => [c, "m"]),
+      )),
+  }],
+  ["ँ", { // Simplified nasalization.
     // value: "m̐",
     value: "̃",
     onVowel: "̃",
@@ -149,7 +235,7 @@ const marks = expand(new Map<string | string[], Mark>([
       value: "m̐",
       before: true,
     }
-  }], // Simplified nasalization. 
+  }],
 ]));
 
 function expand<K>(input: Map<string | string[], K>): Map<string, K> {
@@ -157,10 +243,17 @@ function expand<K>(input: Map<string | string[], K>): Map<string, K> {
   for (const [key, value] of input) {
     if (Array.isArray(key)) {
       for (const k of key) {
-        // TODO: check for overwriting
+        if (result.get(k) !== undefined) {
+          throw `duplicate value for ${k}`;
+        }
+
         result.set(k, value);
       }
     } else {
+      if (result.get(key) !== undefined) {
+        throw `duplicate value for ${key}`;
+      }
+
       result.set(key, value);
     }
   }
@@ -185,12 +278,47 @@ function replacement(substring: string, letter: string, letterMarks: string, off
     typeof letterReplacement === 'object'
     && letterReplacement.implicitVowel !== undefined;
 
-  if (letterMarks) {
-    let result =
-      typeof letterReplacement === 'string'
-        ? letterReplacement
-        : letterReplacement.value;
+  let result = "";
+  if (typeof letterReplacement === 'string') {
+    result += letterReplacement;
+  } else {
+    let foundMatch = false;
+    if (letterReplacement.onNext !== undefined) {
+      const targetIndex = offset + substring.length;
+      for (const [regexp, value] of letterReplacement.onNext) {
+        if (!regexp.sticky) {
+          throw "regexp must be sticky (/y)";
+        }
 
+        regexp.lastIndex = targetIndex;
+        if (regexp.test(wholeString)) {
+          result += value;
+          foundMatch = true;
+          break;
+        }
+      }
+    } else if (letterReplacement.onPrev !== undefined) {
+      const targetIndex = offset;
+      for (const [regexp, value] of letterReplacement.onPrev) {
+        if (!regexp.sticky) {
+          throw "regexp must be sticky (/y)";
+        }
+
+        regexp.lastIndex = targetIndex;
+        if (regexp.test(wholeString)) {
+          result += value;
+          foundMatch = true;
+          break;
+        }
+      }
+    }
+
+    if (!foundMatch) {
+      result += letterReplacement.value;
+    }
+  }
+
+  if (letterMarks) {
     for (const mark of Array.from(letterMarks)) {
       const markReplacement = marks.get(mark);
       if (markReplacement === undefined) {
@@ -208,12 +336,10 @@ function replacement(substring: string, letter: string, letterMarks: string, off
         if (typeof letterReplacement === 'object') {
           if (markReplacement.onNext !== undefined) {
             const next = wholeString.charAt(offset + substring.length);
-            if (next !== "") {
-              const nextValue = markReplacement.onNext.get(next);
-              if (nextValue !== undefined) {
-                result += nextValue;
-                continue;
-              }
+            const nextValue = markReplacement.onNext.get(next);
+            if (nextValue !== undefined) {
+              result += nextValue;
+              continue;
             }
           }
 
@@ -245,11 +371,7 @@ function replacement(substring: string, letter: string, letterMarks: string, off
     return result;
   }
 
-  if (typeof letterReplacement === 'string') {
-    return letterReplacement;
-  }
-
-  return letterReplacement.value + (mustEmitVowel ? letterReplacement.implicitVowel : "");
+  return result + (mustEmitVowel ? (letterReplacement as any).implicitVowel : "");
 }
 
 function addMark(value: string, mark: Mark): string {
