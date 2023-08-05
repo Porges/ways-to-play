@@ -14,7 +14,6 @@ it("should be good", () => {
 describe("unicode tests", () => {
     const tests = [
         ["ऱ्", "ṟ"],
-        ["र्\u200d", "r‍"], // should ZWJ be removed?
     ];
 
     it.each(tests)("check %s", (input, output) => {
@@ -59,7 +58,20 @@ describe("Malayalam special forms", () => {
     it.each(tests)("check %s", (input, output) => {
         expect(translit(input)).toEqual(output);
     });
+});
 
+describe("Devanagari special cases", () => {
+    const tests = [
+        ["बइ", "ba:i"],
+        ["बै", "bai"],
+        ["र्य", "rya"],
+        //["र्य", "r:ya"],
+        ["र्‍", "r̆"], // "eyelash R" as used in Nepali/Marathi
+    ];
+    
+    it.each(tests)("check %s", (input, output) => {
+        expect(translit(input)).toEqual(output);
+    });
 });
 
 describe("npm transliteration", () => {
@@ -91,10 +103,8 @@ describe("conjuncts", () => {
     });
 });
 
-/*
 describe('hindi tests', () => {
     it.each(hindi)("check %s", (input, output) => {
         expect(translit(input)).toEqual(output);
     });
 });
-*/

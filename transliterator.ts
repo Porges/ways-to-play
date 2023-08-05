@@ -46,20 +46,31 @@ const letters = expand(new Map<string | string[], Letter>([
   [["ऽ", "ഽ", "ಽ"], "’"],
   [["अ", "അ", "ಅ"], { value: "a", vowelType: "full" }],
   [["आ", "ആ", "ಆ"], { value: "ā", vowelType: "full" }],
-  [["इ", /*,*/ "ಇ"], { value: "i", vowelType: "full" }],
-  ["ഇ", {
+  [["इ", "ഇ", "ಇ"], {
     value: "i",
     vowelType: "full",
     onPrev: [
       // if previous is letter with no vowel mark
       // (so it will be -a), this is 'a:i' to distinguish from 'ai'
-      // really this should test that previous is also a Malayalam character
+      // really this should test that previous is also a script character
       // but can't do that without /v which is unsupported in Node currently.
-      [/(?<=\p{Letter})/uy, ":i"]
+      // this would be simpler if we checked upon the transliterated output...
+      [/(?<=\p{Letter})(?<![आആಆइഇಇईഈಈउഉಉ])/uy, ":i"]
     ]
   }],
   [["ई", "ഈ", "ಈ"], { value: "ī", vowelType: "full" }],
-  [["उ", "ഉ", "ಉ"], { value: "u", vowelType: "full" }],
+  [["उ", "ഉ", "ಉ"], {
+    value: "u",
+    vowelType: "full",
+    onPrev: [
+      // if previous is letter with no vowel mark
+      // (so it will be -a), this is 'a:u' to distinguish from 'au'
+      // really this should test that previous is also a script character
+      // but can't do that without /v which is unsupported in Node currently.
+      // this would be simpler if we checked upon the transliterated output...
+      [/(?<=\p{Letter})(?<![आആಆइഇಇईഈಈउഉಉ])/uy, ":u"]
+    ]
+  }],
   [["ऊ", "ഊ", "ಊ"], { value: "ū", vowelType: "full" }],
   [["ऋ", "ഋ", "ಋ"], { value: "r̥", vowelType: "semi" }],
   [["ॠ", "ൠ", "ಌೠ"], { value: "r̥̄", vowelType: "semi" }],
@@ -107,7 +118,13 @@ const letters = expand(new Map<string | string[], Letter>([
       [/(?<=്)\p{Letter}/uy, "y:"] // special medial form for suppressed vowel in Malayalam
     ]
   }],
-  [["र", /*,*/ "ರ"], { value: "r", implicitVowel: "a" }],
+  ["र", {
+    value: "r",
+    implicitVowel: "a",
+    onNext: [
+      [/(?<=्\u200d)/uy, "r̆"] // special case for "eyelash-R" in Nepali/Marathi
+    ]
+  }],
   ["ര", {
     value: "r",
     implicitVowel: "a",
@@ -115,6 +132,7 @@ const letters = expand(new Map<string | string[], Letter>([
       [wordFinal, "ṟ"] // special final form in Malayalam
     ]
   }],
+  [["ರ"], { value: "r", implicitVowel: "a" }],
   [["ऱ", "റ", "ಱ"], { value: "ṟ", implicitVowel: "a" }], // TODO: Malayalam special final form
   [["ल", "ല", "ಲ"], { value: "l", implicitVowel: "a" }],
   [["ळ", "ള", "ಳ"], { value: "ḷ", implicitVowel: "a" }],
@@ -262,7 +280,8 @@ function expand<K>(input: Map<string | string[], K>): Map<string, K> {
 }
 
 // include Nuktas alongside character, for matching
-const regex = /((?!\p{Script=Latin})\p{L}[಼\u093c]?)(\p{M}*)/gu;
+// allow suffix ZWJ, for now
+const regex = /((?!\p{Script=Latin})\p{L}[಼\u093c]?)(\p{M}*)\u200d?/gu;
 
 export function translit(value: string): string {
   return value.replaceAll(regex, replacement);
