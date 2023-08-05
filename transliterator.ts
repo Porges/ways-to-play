@@ -153,7 +153,14 @@ const letters = expand(new Map<string | string[], Letter>([
   [["फ़", "फ\u093c", /**/ "ಫ಼"], { value: "f", implicitVowel: "a" }],
   [["य़", "य\u093c",  /* - - */], { value: "ẏ", implicitVowel: "a" }],
   [[/**/ "ൺ", /**/], "ṇ"],
-  [[/**/ "ൻ", /**/], "n"], // TODO: disambiguation?
+  ["ൻ",
+    {
+      value: "n",
+      onNext: [
+        [/ന/uy, "n:"] // disambiguation
+      ]
+    }
+  ],
   [[/**/ "ർ", /**/], "r"], // TODO: Malayalam special final form
   [[/**/ "ൽ", /**/], "l"],
   [[/**/ "ൾ", /**/], "ḷ"],

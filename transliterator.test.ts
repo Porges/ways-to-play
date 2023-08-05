@@ -53,6 +53,9 @@ describe("Malayalam special forms", () => {
         // i: ambiguities
         ["ഇ", "i"],
         ["ബഇ", "ba:i"],
+        // ambiguity
+        ["ൻന", "n:na"],
+        ["ന്ന", "nna"],
     ];
 
     it.each(tests)("check %s", (input, output) => {
