@@ -68,7 +68,7 @@ describe("Devanagari special cases", () => {
         ["बइ", "ba:i"],
         ["बै", "bai"],
         ["र्य", "rya"],
-        //["र्य", "r:ya"],
+        //["र्य", "r:ya"], // unsure how this is constructed in the example
         ["र्‍", "r̆"], // "eyelash R" as used in Nepali/Marathi
     ];
     
