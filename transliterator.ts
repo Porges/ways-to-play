@@ -42,7 +42,10 @@ Data from:
 - https://unicode.org/L2/L2005/05110-tr36-draft3/indic-trans.html
 - https://en.wikipedia.org/wiki/Wikipedia:Indic_transliteration
 - https://scriptsource.org/cms/scripts/page.php?item_id=entry_detail&uid=g8w4snzcy5
-- https://aclanthology.org/C12-3014.pdf - wonder if this would be a good idea?
+
+- TODO: 
+  - https://aclanthology.org/C12-3014.pdf - wonder if this would be a good idea?
+  - https://aclanthology.org/2022.lrec-1.718.pdf - in this they mimic ISO 15919 but indicate silenced vowels
 */
 
 const gcLookup = buildUnicodeLookup("GeneralCategory");
@@ -193,15 +196,15 @@ const letters = expand(new Map<string | string[], Letter>([
       }];
     }),
   [indic(0x0A), { value: "ū", vowelType: "full" }],
-  [["ऋ", "ഋ", "ಋ", "ঋ"], { value: "r̥", vowelType: "full" }],
-  [["ॠ", "ൠ", "ಌೠ", "ৠ"], { value: "r̥̄", vowelType: "full" }],
-  [["ऌ", "ഌ", "ಌ", "ঌ"], { value: "l̥", vowelType: "full" }],
-  [["ॡ", "ൡ", "ೡ", "ৡ"], { value: "l̥̄", vowelType: "full" }],
-  [["ऍ", /* , , , */], { value: "ê", vowelType: "full" }],
+  [indic(0x0B), { value: "r̥", vowelType: "full" }],
+  [indic(0x60), { value: "r̥̄", vowelType: "full" }],
+  [indic(0x0C), { value: "l̥", vowelType: "full" }],
+  [indic(0x61), { value: "l̥̄", vowelType: "full" }],
+  [indic(0x0D), { value: "ê", vowelType: "full" }],
   [indic(0x0E), { value: "e", vowelType: "full" }],
   [indic(0x0F), { value: "ē", vowelType: "full" }],
   [indic(0x10), { value: "ai", vowelType: "full" }],
-  [["ऑ", /* , , , */], { value: "ô", vowelType: "full" }],
+  [indic(0x11), { value: "ô", vowelType: "full" }],
   [indic(0x12), { value: "o", vowelType: "full" }],
   [indic(0x13), { value: "ō", vowelType: "full" }],
   [indic(0x14), { value: "au", vowelType: "full" }],
