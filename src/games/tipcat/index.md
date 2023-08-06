@@ -9,5 +9,5 @@ Maybe: qulli @AmharicEnglish1 [p. 671].
 
 [@TipcatAndOtherChineseGames]
 
-ದೊಡ್ಡೆ  (dodde) - bat used at tipcat: http://www.aa.tufs.ac.jp/~tjun/data/kandic/kannada-english_dictionary.pdf
+ದೊಡ್ಡೆ  (doḍḍe) - bat used at tipcat: http://www.aa.tufs.ac.jp/~tjun/data/kandic/kannada-english_dictionary.pdf
 p. 542

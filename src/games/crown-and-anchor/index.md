@@ -466,10 +466,10 @@ Note that the heart is presented with the same orientation as the spade; this ap
 The names of the symbols are (in Hindi):
 
 * flag: <span lang="hi">झंडी</span> <span lang="hi-Latn">jhaṇḍī</span> (flag, specifically a triangular flag associated with Hinduism)
-* crown: <span lang="hi">मुंडा</span> <span lang="hi-Latn">muṇḍā</span> (“shaven”?)/<span lang="hi">बुर्जा</span> <span lang="hi-Latn">burjā</span> (tower?)/<span lang="hi">मुकुट</span> mukuṭ (crown)
+* crown: <span lang="hi">मुंडा</span> <span lang="hi-Latn">muṇḍā</span> (“shaven”?)/<span lang="hi">बुर्जा</span> <span lang="hi-Latn">burjā</span> (tower?)/<span lang="hi">मुकुट</span> <span lang="hi-Latn">mukuṭ</span> (crown)
 * spade: <span lang="hi">हुकुम</span> <span lang="hi-Latn">hukum</span>
 * club: <span lang="hi">चिड़ी</span> <span lang="hi-Latn">ciṛī</span>
-* diamond: <span lang="hi">ईंट</span> <span lang="hi-Latn">ī̃ṭ</span> (literally ‘brick’)
+* diamond: <span lang="hi">ईंट</span> <span lang="hi-Latn">īṇṭ</span> (literally ‘brick’)
 * heart: <span lang="hi">पान</span>  <span lang="hi-Latn">pān</span> (‘betel leaf’)
 
 {% image 

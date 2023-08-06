@@ -56,6 +56,7 @@
     "serve": "^14.0.1",
     "slug": "^8.0.0",
     "ts-jest": "^29.1.0",
+    "ucd-full": "^15.0.0",
     "yaml": "^2.2.1"
   },
   "dependencies": {

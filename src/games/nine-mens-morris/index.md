@@ -411,13 +411,13 @@ Other English names for the game have included:
 
 In other languages it has been called:
 
-* Bangla: <span lang="bn" class="aka">ন গুটি</span> (<span lang="bn-Latn" class="aka">nô guṭi</span>) ‘nine beads’, or <span lang="bn" class="aka">পাইত(-পাইত)</span> (<span lang="bn-Latn" class="aka">paite(-paite)</span>) ‘get(-ting)’[@FolkGamePait]
+* Bangla: <span lang="bn" class="aka">ন গুটি</span> (<span lang="bn-Latn" class="aka">na guṭi</span>) ‘nine beads’, or <span lang="bn" class="aka">পাইত(-পাইত)</span> (<span lang="bn-Latn" class="aka">pāit(-pāit)</span>) ‘get(-ting)’[@FolkGamePait]
 * Chinese: <span lang="zh" class="aka">三棋</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">sān qí</span>) ‘three game’[@KoreanGames p. 102], <span lang="zh" class="aka">捉三</span> (Cantonese: <span class="aka" lang="yue-Latn-jyutping">zuk¹ saam¹</span>; Mandarin: <span class="aka" lang="cmn-Latn-pinyin">zhuō sān</span>) ‘catching three’[@TipcatAndOtherChineseGames]
 * French: <span lang="fr" class="aka">le jeu du moulin</span> ‘the mill game’
 * Greek: <span lang="el" class="aka">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="el" class="aka">τριώδιον</span> ‘triodium’.[@Hyde2 p. 205]
 * German: <span lang="de" class="aka">Neunstein</span> ‘nine stone’ or simply <span lang="de" class="aka">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. --> In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de" class="aka">Fickmül</span>.{%fn%}See {%a rabelais,the Gargantua article%} for more about Fischart’s list.{%endfn%}
-* Gujarati: <span lang="gu" class="aka">નવ કાકરી</span> (<span lang="gu-Latn" class="aka">nav kakri</span>) ‘nine pieces’
-* Hindi: <span lang="hi" class="aka">नवकंकरी</span> (<span lang="hi-Latn" class="aka">navakankari</span>),[@AncientIndianBoardGames] or <span lang="hi" class="aka">नव गोटी</span> (<span lang="hi-Latn" class="aka">nav goti</span>), both meaning ‘nine pieces’
+* Gujarati: <span lang="gu" class="aka">નવ કાકરી</span> (<span lang="gu-Latn" class="aka">nav kākarī</span>) ‘nine pieces’
+* Hindi: <span lang="hi" class="aka">नवकंकरी</span> (<span lang="hi-Latn" class="aka">navakaṅkarī</span>),[@AncientIndianBoardGames] or <span lang="hi" class="aka">नव गोटी</span> (<span lang="hi-Latn" class="aka">nav gōṭī</span>), both meaning ‘nine pieces’
 * Kannada: <span lang="kn" class="aka">ನವಕಂಕರಿ</span> (<span lang="kn-Latn" class="aka">navakaṅkari</span>) ‘nine pieces’, <span lang="kn" class="aka">ಒಂಬತ್ತು ಕಾಯಿಯ ಆಟ</span> (<span lang="kn-Latn" class="aka">ombattu kāyiya āṭa</span>) ‘game of nine nuts (=pieces)’,<!-- https://www.youtube.com/watch?v=Cj_199Dl57c --> or generically <span lang="kn" class="aka">ಸಾಲು (ಮಣೆ) ಆಟ</span> (<span lang="kn-Latn" class="aka">sālu (maṇe) āṭa</span>) ‘row (board) game’
 * Korean: <span lang="ko" class="aka">곤질(고누)</span> (<span lang="ko-Latn" class="aka">gonjil(-gonu)</span>){%fn%}Given as <span lang="ko-Latn" class="aka">kon-tjil</span> in older books.[@KoreanGames p. 102]{%endfn%}
 * [Mono](https://en.wikipedia.org/wiki/Mono_language_(California)): <span lang="mnr" class="aka">yakamaido</span> ‘square game’[@CulinNorthAmericanIndians p. 796]

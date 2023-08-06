@@ -1,14 +1,16 @@
 import { it, expect, describe, test } from '@jest/globals';
 
-import { translit } from './transliterator';
+import { translit, indic } from './transliterator';
 
-import { hindi } from './transliteration_testdata';
+import { dict as hindi_tests } from './hindi_testdata';
+import { dict as bengali_tests } from './bengali_testdata';
 
 it("should be good", () => {
-    expect(translit("जें")).toEqual("jē̃");
-    expect(translit("एजें")).toEqual("ējē̃");
-    expect(translit("हॉकिंस")).toEqual("hôkĩsa");
+    expect(translit("जें")).toEqual("jēṁ");
+    expect(translit("एजें")).toEqual("ējēṁ");
+    expect(translit("हॉकिंस")).toEqual("hôkiṁsa");
     expect(translit("പീച്ചാംകുഴൽ")).toEqual("pīccāṅkuḻal");
+    expect(translit("Борис Николаевич Ельцин")).toEqual("Boris Nikolaevič Elʹcin");
 });
 
 describe("unicode tests", () => {
@@ -28,7 +30,7 @@ describe("tests from salita", () => {
         ["सत्यानृत", "satyānr̥ta"],
         ["राम", "rāma"],
         ["अपसलैः", "apasalaiḥ"],
-        ["स्रंसिन्", "srãsin"],
+        ["स्रंसिन्", "sraṁsin"],
         ["संका", "saṅkā"],
         ["कॢप्त", "kl̥pta"],
         ["उपनिषत्", "upaniṣat"],
@@ -70,6 +72,7 @@ describe("Devanagari special cases", () => {
         ["र्य", "rya"],
         //["र्य", "r:ya"], // unsure how this is constructed in the example
         ["र्‍", "r̆"], // "eyelash R" as used in Nepali/Marathi
+        ["सय्ँयन्ता", "sam̐yyantā"],
     ];
     
     it.each(tests)("check %s", (input, output) => {
@@ -106,8 +109,40 @@ describe("conjuncts", () => {
     });
 });
 
-describe('hindi tests', () => {
-    it.each(hindi)("check %s", (input, output) => {
+// these were table-driven tests but that was too slow:
+
+it('Hindi tests', () => {
+    for (const [input, output] of hindi_tests) {
         expect(translit(input)).toEqual(output);
-    });
+    }
+});
+
+/*
+it('Bengali tests', () => {
+    for (const [input, output] of bengali_tests) {
+        expect(translit(input)).toEqual(output);
+    }
+});
+*/
+
+it('Bengali cases', () => {
+    const tests = [
+        ["মন", "mana"],
+        ["সাপ", "sāpa"],
+        ["শাপ", "śāpa"],
+        ["মত", "mata"],
+        ["মতো", "matō"],
+        ["তেল", "tēla"],
+        ["গেল", "gēla"],
+        ["জ্বর", "jbara"],
+        ["স্বাস্থ্য", "sbāsthya"],
+        ["বাংলাদেশ", "bāṁlādēśa"],
+        ["ব্যঞ্জনধ্বনি", "byañjanadhbani"],
+        ["আত্মহত্যা", "ātmahatyā"],
+        ["ৰৱ", "rava"], // Assamese
+    ];
+
+    for (const [input, output] of tests) {
+        expect(translit(input)).toEqual(output);
+    }
 });
