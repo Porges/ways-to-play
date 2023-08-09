@@ -13,6 +13,19 @@ it("should be good", () => {
     expect(translit("Борис Николаевич Ельцин")).toEqual("Boris Nikolaevič Elʹcin");
 });
 
+it("should expand properly", () => {
+    expect(indic(0x21, true)).toEqual([
+        "ड़",
+        "ড়",
+        "ਡ਼",
+        "ડ઼",
+        "ଡ଼",
+        "డ఼", // Telugu nukta is a recent addition: https://www.unicode.org/L2/L2020/20085-telugu-nukta.pdf
+        "ಡ಼",
+        "ഡ഼",
+    ]);
+})
+
 describe("unicode tests", () => {
     const tests = [
         ["ऱ्", "ṟ"],
@@ -74,7 +87,7 @@ describe("Devanagari special cases", () => {
         ["र्‍", "r̆"], // "eyelash R" as used in Nepali/Marathi
         ["सय्ँयन्ता", "sam̐yyantā"],
     ];
-    
+
     it.each(tests)("check %s", (input, output) => {
         expect(translit(input)).toEqual(output);
     });

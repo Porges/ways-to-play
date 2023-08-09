@@ -18,7 +18,7 @@ type Mark =
     before?: boolean,
     // note that Mark onPrev still matches from before base letter
     onPrev?: [RegExp, Mark][],
-    onNext?: Map<string, string>,
+    onNext?: [RegExp, Mark][],
   }
 
 // TODO: this is simplified dramatically
@@ -78,9 +78,8 @@ const indicBases = [
 
 export function indic(offset: number, nuqta = false): string[] {
   return indicBases
-    .map(base => base + offset)
-    .filter(c => gcLookup(c) !== undefined) // ensure character is assigned
-    .map(c => String.fromCharCode(nuqta ? (0x3C + c) : c));
+    .filter(base => gcLookup(base + offset) !== undefined) // make sure character is assigned
+    .map(base => String.fromCodePoint(base + offset) + (nuqta ? String.fromCodePoint(base + 0x3C) : ""));
 }
 
 export function indic2(offset: number, extras: number[]): [string, string[]][] {
@@ -88,14 +87,71 @@ export function indic2(offset: number, extras: number[]): [string, string[]][] {
     .map(base => [base + offset, extras.map(e => base + e)] as const)
     .filter(([c, _]) => gcLookup(c) !== undefined) // ensure character is assigned
     .map(([c, extras]) =>
-      [String.fromCharCode(c),
-      extras.filter(c => gcLookup(c) !== undefined).map(c => String.fromCharCode(c))]);
+      [String.fromCodePoint(c),
+      extras.filter(c => gcLookup(c) !== undefined).map(c => String.fromCodePoint(c))]);
+}
+
+export function ethiopic(base: number, consonant: string, extras: string[] = []): [string, string][] {
+  const vowels = [
+    "ä", "u", "i", "a", "é", "e", "o",
+  ].concat(extras);
+
+  return vowels
+    .map((v, offset) => [v, offset] as const)
+    .filter(([_, offset]) => gcLookup(base + offset) !== undefined) // ensure character is assigned
+    .map(([vowel, offset]) => [String.fromCodePoint(base + offset), consonant + vowel]);
 }
 
 const letters = expand(new Map<string | string[], Letter>([
+  // Ethiopic languages
+  ...ethiopic(0x1200, "h", ["oa"]),
+  ...ethiopic(0x1208, "l", ["ʷa"]),
+  ...ethiopic(0x1210, "ḥ", ["ʷa"]),
+  ...ethiopic(0x1218, "m", ["ʷa"]), ["ፙ", "mʸä"],
+  ...ethiopic(0x1220, "ś", ["ʷa"]),
+  ...ethiopic(0x1228, "r", ["ʷa"]), ["ፘ", "rʸä"],
+  ...ethiopic(0x1230, "s", ["ʷa"]),
+  ...ethiopic(0x1238, "š", ["ʷa"]),
+  ...ethiopic(0x1240, "q", ["oa", "ʷä", "XX", "ʷi", "ʷa", "ʷé", "ʷe"]),
+  ...ethiopic(0x1250, "q̌", ["XX", "ʷä", "XX", "ʷi", "ʷa", "ʷé", "ʷe"]),
+  ...ethiopic(0x1260, "b", ["ʷa"]),
+  ...ethiopic(0x1268, "v", ["ʷa"]),
+  ...ethiopic(0x1270, "t", ["ʷa"]),
+  ...ethiopic(0x1278, "č", ["ʷa"]),
+  ...ethiopic(0x1280, "ḫ", ["oa", "ʷä", "XX", "ʷi", "ʷa", "ʷé", "ʷe"]),
+  ...ethiopic(0x1290, "n", ["ʷa"]),
+  ...ethiopic(0x1298, "ñ", ["ʷa"]),
+  ...ethiopic(0x12A0, "ʾ", ["ʷa"]),
+  ...ethiopic(0x12A8, "k", ["oa", "ʷä", "XX", "ʷi", "ʷa", "ʷé", "ʷe", "XX", "XX"]),
+  ...ethiopic(0x12B8, "x", ["XX", "ʷä", "XX", "ʷi", "ʷa", "ʷé", "ʷe"]),
+  ...ethiopic(0x12C8, "w"),
+  ...ethiopic(0x12D0, "ʿ"),
+  ...ethiopic(0x12D8, "z", ["ʷa"]),
+  ...ethiopic(0x12E0, "ž", ["ʷa"]),
+  ...ethiopic(0x12E8, "y"),
+  ...ethiopic(0x12F0, "d", ["ʷa"]),
+  ...ethiopic(0x12F8, "ḳ", ["ʷa"]), // ዸ used in Harari, using ḳ instead of k’ for consistency
+  ...ethiopic(0x1300, "ǧ", ["ʷa"]),
+  ...ethiopic(0x1308, "g", ["oa", "ʷä", "XX", "ʷi", "ʷa", "ʷé", "ʷe"]),
+  ...ethiopic(0x1318, "ŋ", ["ʷa"]), // ጘ used in Bilen, pronounced ŋ
+  ...ethiopic(0x1320, "ṭ", ["ʷa"]),
+  ...ethiopic(0x1328, "č̣", ["ʷa"]),
+  ...ethiopic(0x1330, "p̣", ["ʷa"]),
+  ...ethiopic(0x1338, "ṣ", ["ʷa"]),
+  ...ethiopic(0x1340, "ṣ́", ["oa"]),
+  ...ethiopic(0x1348, "f", ["ʷa"]), ["ፚ", "fʸä"],
+  ...ethiopic(0x1350, "p", ["ʷa"]),
+
   // ISO 9
   // - Cyrillic
   ["А", "A"], ["а", "a"],
+  ["Ӓ", "Ä"], ["ӓ", "ä"],
+  ["Ӓ̄", "Ạ̈"], ["ӓ̄", "ạ̈"],
+  ["Ӑ", "Ă"], ["ӑ", "ă"],
+  ["А̄", "Ā"], ["а̄", "ā"],
+  ["Ӕ", "Æ"], ["ӕ", "æ"],
+  ["А́", "Á"], ["а́", "á"],
+  ["А̊", "Å"], ["а̊", "å"],
   ["Б", "B"], ["б", "b"],
   ["В", "V"], ["в", "v"],
   ["Г", "G"], ["г", "g"],
@@ -109,6 +165,7 @@ const letters = expand(new Map<string | string[], Letter>([
   ["Е", "E"], ["е", "e"],
   ["Ӗ", "Ĕ"], ["ӗ", "ĕ"],
   ["Ё", "Ë"], ["ё", "ë"],
+  ["Е́", "É"], ["е́", "é"], // added by me
   ["Є", "Ê"], ["є", "ê"],
   ["Ж", "Ž"], ["ж", "ž"],
   ["Җ", "Ž̧̧"], ["җ", "ž̧"],
@@ -146,6 +203,15 @@ const letters = expand(new Map<string | string[], Letter>([
   ["С", "S"], ["с", "s"],
   ["Т", "T"], ["т", "t"],
   ["У", "U"], ["у", "u"],
+  ["Ӱ", "Ü"], ["ӱ", "ü"],
+  ["Ӯ", "Ū"], ["ӯ", "ū"],
+  ["Ў", "Ŭ"], ["ў", "ŭ"],
+  ["Ӳ", "Ű"], ["ӳ", "ű"],
+  ["У́", "Ü"], ["у́", "ü"],
+  ["Ӱ̄", "Ụ̈"], ["ӱ̄", "ụ̈"],
+  ["Ү", "Ù"], ["ү", "ù"],
+  ["Ұ", "U̇"], ["ұ", "u̇"],
+  ["Ԝ", "W"], ["ԝ", "w"],
   ["Ф", "F"], ["ф", "f"],
   ["Х", "H"], ["х", "h"],
   ["Ц", "C"], ["ц", "c"],
@@ -274,7 +340,7 @@ const letters = expand(new Map<string | string[], Letter>([
         ]
       }];
     } else {
-      return [c, { value: "r", implicitVowel: "a"}];
+      return [c, { value: "r", implicitVowel: "a" }];
     }
   }),
   [indic(0x31), { value: "ṟ", implicitVowel: "a" }], // TODO: Malayalam special final form
@@ -291,15 +357,19 @@ const letters = expand(new Map<string | string[], Letter>([
   [indic(0x39), { value: "h", implicitVowel: "a" }],
   ["হ়", { value: "h", implicitVowel: "a" }], // ??? no idea, not in ISO
   [["ഺ", /**/], { value: "ṯ", implicitVowel: "a" }],
-  [["क़", "क\u093c", "ক\u09bc"], { value: "q", implicitVowel: "a" }],
-  [["ख़", "ख\u093c", "খ\u09bc"], { value: "k͟h", implicitVowel: "a" }],
-  [["ग़", "ग\u093c", "গ\u09bc"], { value: "ġ", implicitVowel: "a" }],
-  [["ज़", "ज\u093c", "ಜ಼", "জ\u09bc"], { value: "z", implicitVowel: "a" }],
-  [["ड़", "ड\u093c", "ড়", "ড\u09bc"], { value: "ṛ", implicitVowel: "a" }],
-  [["ढ़", "ढ\u093c", "ঢ়", "ঢ\u09bc"], { value: "ṛh", implicitVowel: "a" }],
-  [["फ़", "फ\u093c", "ಫ಼", "ফ\u09bc"], { value: "f", implicitVowel: "a" }],
+  // some of these nukta forms have precomposed characters,
+  // but they are always decomposed by NFC
+  [["क\u093c", "ক\u09bc"], { value: "q", implicitVowel: "a" }],
+  [["ख\u093c", "খ\u09bc"], { value: "k͟h", implicitVowel: "a" }],
+  [["ग\u093c", "গ\u09bc"], { value: "ġ", implicitVowel: "a" }],
+  [["ज\u093c", "ಜ಼", "জ\u09bc"], { value: "z", implicitVowel: "a" }],
+  [indic(0x21, true), { value: "ṛ", implicitVowel: "a" }],
+  [["ढ\u093c", "ঢ\u09bc"], { value: "ṛh", implicitVowel: "a" }],
+  [["फ\u093c", "ಫ಼", "ফ\u09bc"], { value: "f", implicitVowel: "a" }],
   ["ব\u09bc", { value: "w", implicitVowel: "a" }],
-  [["य़", "य\u093c", "য়", "য\u09bc"], { value: "ẏ", implicitVowel: "a" }],
+  [["य\u093c", "য\u09bc"], { value: "ẏ", implicitVowel: "a" }],
+  ["ୟ", { value: "ẏ", implicitVowel: "a" }], // included in Oriya
+  // - end nuktas
   // Special Malayalam consonants:
   [[/**/ "ൺ", /**/], "ṇ"],
   ["ൻ",
@@ -346,80 +416,29 @@ const marks = expand(new Map<string | string[], Mark>([
   ...indic(0x4B).map((c): [string, Mark] => [c, { value: "ō", isVowel: true }]),
   ...indic(0x4C).map((c): [string, Mark] => [c, { value: "au", isVowel: true }]),
   [["ൗ", "ৗ"], { value: "au", isVowel: true }],
-  [["ः", "ഃ", "ಃ", "ঃ"], "ḥ"], // visargam
-  [["ಂ"], { // Kannada, Strict Nasalization
-    value: "ṁ",
-    //value: "̃",
-    //onVowel: "̃",
-    onNext: new Map<string, string>(
-      ([] as [string, string][]).concat(
-        // ṅ before k, kh, g, gh, ṅ
-        Array.from("ಕಖಗಘಙ").map(c => [c, "ṅ"]),
-        // ñ before c, ch, j, jh, ñ
-        Array.from("ಚಛಜಝಞ").map(c => [c, "ñ"]),
-        // ṇ before t., t.h, d., d.h, ṇ
-        Array.from("ಟಠಡಢಣ").map(c => [c, "ṇ"]),
-        // n before t, th, d, dh, n
-        Array.from("ತಥದಧನ").map(c => [c, "n"]),
-        // m before p, ph, b, bh, m
-        Array.from("ಪಫಬಭಮ").map(c => [c, "m"]),
-      )),
-  }],
-  [["ം"], { // Malayalam, Strict Nasalization
-    value: "ṁ",
-    //value: "̃",
-    //onVowel: "̃",
-    onNext: new Map<string, string>(
-      // always 'm' when final
-      ([["", "m"]] as [string, string][]).concat(
-        // ṅ before k, kh, g, gh, ṅ
-        Array.from("കഖഗഘങ").map(c => [c, "ṅ"]),
-        // ñ before c, ch, j, jh, ñ
-        Array.from("ചഛജഝഞ").map(c => [c, "ñ"]),
-        // ṇ before t., t.h, d., d.h, ṇ
-        Array.from("ടഠഡഢണ").map(c => [c, "ṇ"]),
-        // n before t, th, d, dh, n
-        Array.from("തഥദധന").map(c => [c, "n"]),
-        // m before p, ph, b, bh, m
-        Array.from("പഫബഭമ").map(c => [c, "m"]),
-      )),
-  }],
-  [["ं"], { // Devanagari, Strict Nasalization
-    value: "ṁ",
-    //value: "̃",
-    //onVowel: "̃",
-    onNext: new Map<string, string>(
-      ([] as [string, string][]).concat(
-        // ṅ before k, kh, g, gh, ṅ
-        Array.from("कखगघङ").map(c => [c, "ṅ"]),
-        // ñ before c, ch, j, jh, ñ
-        Array.from("चछजझञ").map(c => [c, "ñ"]),
-        // ṇ before t., t.h, d., d.h, ṇ
-        Array.from("टठडढण").map(c => [c, "ṇ"]),
-        // n before t, th, d, dh, n
-        Array.from("तथदधन").map(c => [c, "n"]),
-        // m before p, ph, b, bh, m
-        Array.from("पफबभम").map(c => [c, "m"]),
-      )),
-  }],
-  [["ং"], { // Bengali, Strict Nasalization
-    value: "ṁ",
-    //value: "̃",
-    //onVowel: "̃",
-    onNext: new Map<string, string>(
-      ([] as [string, string][]).concat(
-        // ṅ before k, kh, g, gh, ṅ
-        Array.from("কখগঘঙ").map(c => [c, "ṅ"]),
-        // ñ before c, ch, j, jh, ñ
-        Array.from("চছজঝঞ").map(c => [c, "ñ"]),
-        // ṇ before t., t.h, d., d.h, ṇ
-        Array.from("টঠডঢণ").map(c => [c, "ṇ"]),
-        // n before t, th, d, dh, n
-        Array.from("তথদধন").map(c => [c, "n"]),
-        // m before p, ph, b, bh, m
-        Array.from("পফবভম").map(c => [c, "m"]),
-      )),
-  }],
+  [indic(0x03), "ḥ"], // visargam
+  // anusvara
+  ...indic2(0x02, [0x15, 0x19, 0x1A, 0x1E, 0x1F, 0x23, 0x24, 0x28, 0x2A, 0x2E]).map(
+    ([c, [a1, a2, b1, b2, c1, c2, d1, d2, e1, e2]]): [string, Mark] => {
+      return [c,
+        {
+          value: "ṁ",
+          // Malayalam always 'm' when final
+          onNext: (c === "ം" ? [[wordFinal, "m"]] as [RegExp, string][] : []).concat([
+            // ṅ before k, kh, g, gh, ṅ
+            [new RegExp(`[${a1}-${a2}]`, 'yu'), "ṅ"],
+            // ñ before c, ch, j, jh, ñ
+            [new RegExp(`[${b1}-${b2}]`, 'yu'), "ñ"],
+            // ṇ before t., t.h, d., d.h, ṇ
+            [new RegExp(`[${c1}-${c2}]`, 'yu'), "ṇ"],
+            // n before t, th, d, dh, n
+            [new RegExp(`[${d1}-${d2}]`, 'yu'), "n"],
+            // m before p, ph, b, bh, m
+            [new RegExp(`[${e1}-${e2}]`, 'yu'), "m"],
+          ])
+        }
+      ];
+    }),
   // chandrabindu, then virama & semivowels (y r l .l v)
   ...indic2(0x01, [0x4D, 0x2F, 0x30, 0x32, 0x33, 0x35]).map(([cb, [virama, ...semis]]) =>
     [cb, {
@@ -438,9 +457,15 @@ const marks = expand(new Map<string | string[], Mark>([
 
 function expand<K>(input: Map<string | string[], K>): Map<string, K> {
   const result = new Map();
-  for (const [key, value] of input) {
+  for (let [key, value] of input) {
     if (Array.isArray(key)) {
-      for (const k of key) {
+      for (let k of key) {
+        if (k === value) {
+          throw `replacement to self for ${k}`;
+        }
+
+        k = k.normalize("NFC");
+
         if (result.get(k) !== undefined) {
           throw `duplicate value for ${k}`;
         }
@@ -448,6 +473,12 @@ function expand<K>(input: Map<string | string[], K>): Map<string, K> {
         result.set(k, value);
       }
     } else {
+      if (key === value) {
+        throw `replacement to self for ${key}`;
+      }
+
+      key = key.normalize("NFC");
+
       if (result.get(key) !== undefined) {
         throw `duplicate value for ${key}`;
       }
@@ -471,26 +502,26 @@ export function translit(value: string): string {
 }
 
 function replacement(substring: string, letter: string, letterMarks: string, offset: number, wholeString: string): string {
-  let letterReplacement = letters.get(letter);
+  // first match whole substring
+  let matchedWhole = true;
+  let letterReplacement = letters.get(substring);
   if (letterReplacement === undefined) {
-    throw `no replacement for letter: ${letter}`;
+    matchedWhole = false;
+    letterReplacement = letters.get(letter);
+    if (letterReplacement === undefined) {
+      throw `no replacement for letter: ${letter}`;
+    }
   }
 
   let mustEmitVowel =
     typeof letterReplacement === 'object'
     && letterReplacement.implicitVowel !== undefined;
 
-  let vowelType = null;
-
   let result = "";
   if (typeof letterReplacement === 'string') {
     result += letterReplacement;
   } else {
     let foundMatch = false;
-    if (letterReplacement.vowelType !== undefined) {
-      vowelType = letterReplacement.vowelType;
-    }
-
     if (letterReplacement.onNext !== undefined) {
       const targetIndex = offset + substring.length;
       for (const [regexp, value] of letterReplacement.onNext) {
@@ -526,11 +557,11 @@ function replacement(substring: string, letter: string, letterMarks: string, off
     }
   }
 
-  if (letterMarks) {
+  if (!matchedWhole && letterMarks) {
     for (const mark of Array.from(letterMarks)) {
       const markReplacement = marks.get(mark);
       if (markReplacement === undefined) {
-        throw `no replacement for mark: ${mark} in ${substring}`;
+        throw `no replacement for mark: ${mark} (U+${mark.charCodeAt(0).toString(16)}) in ${substring}`;
       }
 
       if (typeof markReplacement === 'object') {
@@ -562,14 +593,24 @@ function replacement(substring: string, letter: string, letterMarks: string, off
           }
         }
 
-        if (typeof letterReplacement === 'object') {
-          if (markReplacement.onNext !== undefined) {
-            const next = wholeString.charAt(offset + substring.length);
-            const nextValue = markReplacement.onNext.get(next);
-            if (nextValue !== undefined) {
-              result += nextValue;
-              continue;
+        if (markReplacement.onNext !== undefined) {
+          const targetIndex = offset + substring.length;
+          let foundMatch = false;
+          for (const [regexp, value] of markReplacement.onNext) {
+            if (!regexp.sticky) {
+              throw "regexp must be sticky (/y)";
             }
+
+            regexp.lastIndex = targetIndex;
+            if (regexp.test(wholeString)) {
+              result = addMark(result, value);
+              foundMatch = true;
+              break;
+            }
+          }
+
+          if (foundMatch) {
+            continue;
           }
         }
 
@@ -603,9 +644,9 @@ function addMark(value: string, mark: Mark): string {
 }
 
 import { createInterface } from "readline";
+import { waitForDebugger } from "inspector";
 
 if (process.argv) {
-
   let args = process.argv.slice(2);
   if (args[0] === "dict") {
     console.log("export const dict: [string, string][] = [");
@@ -620,6 +661,10 @@ if (process.argv) {
     }).on('close', () => {
       console.log("];");
     });
+  } else if (args[0] === "dump") {
+    for (const [letter, replacement] of letters) {
+      console.log(`${letter}\t→\t${replacement}`);
+    }
   } else {
     process.argv.slice(2).forEach(val => {
       console.log(translit(val));

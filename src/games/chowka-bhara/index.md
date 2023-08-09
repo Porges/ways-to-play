@@ -21,7 +21,7 @@ Other games to look into:
 6. നാടൻപന്തുകളി  - nāṭanpantukaḷi
 7. കബടി  - kabaṭi
 8. ഓണത്തിനുളള വിനോദങ്ങൾ, കളികൾ - ōṇattinuḷaḷa vinōdaṅṅaḷ, kaḷikaḷ
-9. കല്ലുകളി - kallukaḷi
+9. കല്ലുകളി - kallukaḷi - knucklebones
 10. ഓടിപ്രാന്തി - ōṭiprānti
 11. കുഴിതപ്പിക്കളി - kuḻitappikkaḷi
 12. കൈത്തല്ല്‌  - kaittall‌
@@ -33,6 +33,6 @@ In Tamil, <span lang="ta" class="aka">தாயம்</span> (<span lang="ta-Lat
 https://en.wikipedia.org/wiki/Chowka_bhara
 http://kreedaakaushalya.blogspot.com/2008/05/chauka-bara.html
 
-I think Liubo will turn out to be similar to this.
+I think Liubo will turn out to be similar to this. See also: https://www.youtube.com/watch?v=3tXvSgiwkvI
 
 Also known in Malaysia (Penang) as Main Pacheh (from pacheesi?).[@MalayIndoor]

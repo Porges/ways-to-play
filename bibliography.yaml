@@ -6576,8 +6576,8 @@ EveryLightWasOn:
   URL: https://archive.org/details/EveryLightWasOnHarrahs
 StatevCrownCigarStore:
   type: webpage
-  URL: https://casetext.com/case/state-v-crown-cigar-store
-  archive-URL: https://web.archive.org/web/20230517033551/https://casetext.com/case/state-v-crown-cigar-store
+  URL: https://scholar.google.com/scholar_case?case=3486779181448284709
+  # archive-URL: https://web.archive.org/web/20230517033551/https://casetext.com/case/state-v-crown-cigar-store
   title: State v. Crown Cigar Store
   publisher: Supreme Court of Montana
   issued:
@@ -10190,3 +10190,27 @@ ACharacter:
     issued:
       year: 1740
       month: 3
+InterestingGameVideo:
+  type: webpage
+  URL: "https://www.youtube.com/watch?v=FTUlxTuIfFU"
+  title: "Interesting Game | Nira | Padavettu | Kallukali | Mind Game | Nostalgia | Old Memmories"
+  author:
+  - given: "SPARCO TECH"
+  container-title: "YouTube"
+  archive-URL: https://web.archive.org/web/20230808053639/https://www.youtube.com/watch?v=FTUlxTuIfFU
+  issued:
+    year: 2019
+    month: 9
+    day: 24
+NiraVideo:
+  type: webpage
+  URL: https://www.youtube.com/watch?v=cJ_v7nfndyE
+  title: "Nira Kali/ traditional game in kerala"
+  archive-URL: https://web.archive.org/web/20230809023919/https://www.youtube.com/watch?v=cJ_v7nfndyE
+  author:
+  - given: vadakkan malloos
+  container-title: YouTube
+  issued:
+    year: 2020
+    month: 10
+    day: 2
