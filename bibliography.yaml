@@ -10214,3 +10214,18 @@ NiraVideo:
     year: 2020
     month: 10
     day: 2
+TheAcehnese:
+  type: book
+  URL: https://archive.org/details/achehnese01wilkgoog
+  title: The Achehnese
+  author:
+  - given: Christiaan Snouck
+    family: Hurgronje
+    URL: https://en.wikipedia.org/wiki/Christiaan_Snouck_Hurgronje
+  translator:
+  - given: A. W. S.
+    family: O’Sullivan
+  volume: 2
+  issued: 1906
+  publisher: E. J. Brill
+  publisher-place: Leyden

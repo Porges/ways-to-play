@@ -298,7 +298,7 @@ const letters = expand(new Map<string | string[], Letter>([
   [indic(0x24), { value: "t", implicitVowel: "a" }],
   ["ত়", { value: "ṭ", implicitVowel: "a" }], // not in ISO, found @ https://fr.wikipedia.org/wiki/%E0%A6%A4%E0%A6%BC
   [indic(0x25), { value: "th", implicitVowel: "a" }],
-  ["থ়", { value: "th", implicitVowel: "a" }], // ??? no idea
+  ["থ়", { value: "t͟h", implicitVowel: "a" }], // not in ISO, found @ https://fr.wikipedia.org/wiki/%E0%A6%A5%E0%A6%BC
   [indic(0x26), { value: "d", implicitVowel: "a" }],
   ["দ়", { value: "d͟h", implicitVowel: "a" }], // not in ISO, found @ https://fr.wikipedia.org/wiki/%E0%A6%A6%E0%A6%BC
   [indic(0x27), { value: "dh", implicitVowel: "a" }],
@@ -390,6 +390,72 @@ const letters = expand(new Map<string | string[], Letter>([
   [["ह़", /* - - */], { value: "ḥ", implicitVowel: "a" }], // Maldivian
   [["ब़", /* - - */], { value: "β", implicitVowel: "a" }], // Avestan
   [["ॹ", /* - - */], { value: "ž", implicitVowel: "a" }], // Avestan
+
+  // Arabic/Urdu
+
+  ["ا", "ā"], // 1 TODO: ʾ
+  ["أ", {
+    value: "TODO"
+  }],
+  ["اً", {
+    value: "TODO"
+  }],
+  ["إ", {
+    value :"ī",
+    onPrev: [
+      [/(?<!\p{L})/yu, "ʾi"]
+    ]
+  }],
+  ["ب", "b"], // 2
+  ["پ", "p"], // Urdu and others
+  ["ت", "t"], // 3
+  ["ة", "t"], // ta marbuta
+  ["ث", "th"], // 4
+  ["ج", "j"], // 5
+  ["چ", "ch"], // Urdu
+  ["ح", "ḥ"], // 6
+  ["خ", "kh"], // 7
+  ["د", "d"], // 8
+  ["ذ", "dh"], // 9
+  ["ر", "r"], // 10
+  ["ڑ", "ṛ"], // Urdu
+  ["ز", "z"], // 11
+  ["ژ", "ž"], // Urdu
+  ["س", "s"], // 12
+  ["ش", "sh"], // 13
+  ["ص", "ṣ"], // 14
+  ["ض", "ḍ"], // 15
+  ["ط", "ț"], // 16
+  ["ظ", "ẓ"], // 17
+  ["ع", "ʿ"], // 18
+  ["غ", "ġ"], // 19
+  ["ف", "f"], // 20
+  ["ڤ", "v"], 
+  ["ڥ", "v"],
+  ["ق", "q"], // 21
+  ["ك", "k"], // 22
+  ["ڪ", "k"],
+  ["گ", "g"],
+  ["ڨ", "g"],
+  ["ݣ", "g"],
+  ["ڭ", "g"],
+  ["ل", "l"], // 23
+  ["م", "m"], // 24
+  ["ن", "n"], // 25
+  ["ه", "h"], // 26
+  ["ھ", "ʰ"], // Urdu: aspiration
+  ["و", "w"], // 27
+  ["ي", "y"], // 28
+  ["ى", "ā"], // alif maqsurah
+  ["ئ", "TODO"], // ya hamzah
+  ["ٸ", "TODO"], // ya hamzah
+  ["ࢨ", "TODO"], // ya hamzah
+  ["ۓ", "TODO"], // ya hamzah
+  ["ے", "y"],
+  ["ء", "ʾ"],
+  ["آ", "ā"],
+  [ "ٹ", "ț" ],
+  ["ﷲ", "allāh"],
 ]));
 
 const marks = expand(new Map<string | string[], Mark>([
