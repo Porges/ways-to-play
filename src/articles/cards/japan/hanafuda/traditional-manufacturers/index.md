@@ -1458,15 +1458,14 @@ The extra {% gameref hachi-hachi %}-related cards of <span class="noun" lang="ja
     src="Yamashiro_trademark1.png;Yamashiro_trademark2.png;Yamashiro_trademark3.png"
     alt=";;"
     license="cc0" %}
-Some of <span class="noun" lang="ja-Latn">Yamashiro</span>’s trademarks, registered in 1901 &
-1902 by <span class="noun" lang="ja-Latn">Yamashiro Kōzaburō</span> (<span lang="ja">山城興三
-郎</span>).[@Trademarks1905 p. 66]
+Some of <span class="noun" lang="ja-Latn">Yamashiro</span>’s trademarks, registered in 1901 & 1902 by <span class="noun" lang="ja-Latn">Yamashiro Yosaburō</span> (<span lang="ja">山城與三郎</span>).[@Trademarks1905 p. 66]
 {% imageEnd %}
 
-A manufacturer that existed in <span class="noun" lang="ja-Latn">Kyōto</span> in
-1948,[@Yamaguchi p. 102] but stopped producing in 1962.[@ModernJapaneseWrappers
-p. 33] Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span
-lang="ja">十</span>). Brands included:
+A <span class="noun" lang="ja-Latn">Kyōto</span> manufacturer that existed from at least 1901 through 1948,[@Yamaguchi p. 102] but stopped producing in 1962.[@ModernJapaneseWrappers p. 33] Their manfufacturer’s mark was <span lang="ja">㊉</span> (circled <span lang="ja">十</span>). The founder was <span lang="ja">山城與三郎</span> <span class="noun" lang="ja-Latn">Yamashiro Yosaburō</span>, which was sometimes abbreviated to <span lang="ja">山與</span> <span class="noun" lang="ja-Latn">Yamayo</span> on printed cards.
+
+In addition to <span lang="ja-Latn" class="noun">Hanafuda</span> cards, they also produced <span lang="ja-Latn" class="noun">Kabufuda</span> and <span lang="ja-Latn" class="noun">Mekuri</span> cards.
+
+Their brands included:
 
 * <span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold
   baldy’, ‘baldy’ being a nickname for a priest)
@@ -1482,18 +1481,26 @@ lang="ja">十</span>). Brands included:
 * <span lang="ja">山猟</span> (<span lang="ja-Latn">yamasatsu</span>, ‘mountain
   hunter’)
 
+<div class="multi">
+{% image 
+    alt="The front and back cover of a pamphlet"
+    noborder=true
+    src="yamashiro_mushi.jpg"
+     %}
+An uncut sheet of <span lang="ja-Latn" class="noun">Mushi</span> cards, by <span class="noun" lang="ja-Latn">Yamashiro</span>.
+{% imageEnd %}
+
 {% image 
     alt="The front and back cover of a pamphlet"
     src="yamashiro_pricelist_cover.jpg"
     license="cc0" %}
-The cover of their pricelist shows a realistic shopfront, of similar
-construction to <span class="noun" lang="ja-Latn">Nintendō</span>’s store that is shown in a
-photo above.
+The cover of their pricelist shows a realistic shopfront, of similar construction to <span class="noun" lang="ja-Latn">Nintendō</span>’s store that is shown in a photo above.
 {% imageEnd %}
+</div>
 
 {% image 
     alt="The frontage of a very wide Japanese store, with signs depicting several figures."
-    size="wide"
+    size="extra-wide"
     src="yamashiro_exterior.jpg"
     license="cc0" %}
 A box wrapper from around 1900 featuring an imaginary depiction of the <span class="noun"

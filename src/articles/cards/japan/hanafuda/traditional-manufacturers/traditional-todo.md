@@ -36,7 +36,7 @@ draft: true
 - [x] Nihon Karuta Seizo (Kyoto)
 - [ ] Nakao Seikado (Kyoto)
 - [ ] Usui Nichigetsudo (Kyoto)
-- [ ] Yamashiro Shoten (Kyoto)
+- [x] Yamashiro Shoten (Kyoto)
 - [x] Tanaka Gyokusuido (Kyoto)
 - [ ] Tanaka Shokai (Kyoto)
 - [x] Oishi Tengudo (Kyoto)

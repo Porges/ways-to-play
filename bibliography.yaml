@@ -8361,6 +8361,7 @@ BitsOfChina:
   title: Bits of China
   author:
     - *kitong
+  translator:
     - given: R. H.
       family: Sherard
   issued: 1890

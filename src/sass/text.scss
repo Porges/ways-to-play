@@ -136,12 +136,15 @@ span[lang], cite[lang]  {
 
   // Use a specific font for Arabic/Persian/etc, or else we get Times New Roman on Windows:
   &:is(
-    :lang(fa):not(:lang(fa-Latn)),
-    :lang(ar):not(:lang(ar-Latn)),
-    :lang(ur):not(:lang(ur-Latn)),
-    :lang(ota):not(:lang(ota-Latn)),
+    :lang(fa):not(:lang(fa-Latn)), /* Persian */
+    :lang(ar):not(:lang(ar-Latn)), /* Arabic */
+    :lang(ur):not(:lang(ur-Latn)), /* Urdu */
+    :lang(ota):not(:lang(ota-Latn)), /* Old Turkish */
     // *-Arab is not yet supported
-    :lang(ms-Arab), :lang(pa-Arab)) {
+    :lang(ms-Arab), /* Malay */
+    :lang(pa-Arab), /* Punjabi */
+    :lang(wni-Arab)) /* Comorian */
+    { 
     font-family: "Noto Naksh", serif;
   }
 }
