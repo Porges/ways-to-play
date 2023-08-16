@@ -817,11 +817,16 @@ a[href*="wikipedia.org" i] {
 
 .inline-img {
     height: 1.05em;
-    //vertical-align: text-top;
+    vertical-align: baseline;
+    margin-bottom: -2px;
 
     &.big {
         height: 2em;
     }
+}
+
+.inline-img + .inline-img {
+    margin-left: 1px;
 }
 
 .image-identifier {
@@ -978,4 +983,9 @@ a[itemprop="license"] {
 
 .nav-link [role='img'] {
     color: $warning;
+}
+
+.dice {
+    // don't wrap inside dice
+    white-space: nowrap;
 }

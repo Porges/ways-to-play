@@ -6,7 +6,6 @@ subgames:
   lang: de
 players:
     min: 2
-    max: 100
 equipment: Dice
 ---
 

@@ -87,7 +87,7 @@ export type Players =
   | 'any'
   | number
   | number[]
-  | { min: number, max: number };
+  | { min: number, max?: number };
 
 export type GameData = Data & {
   players: Players|undefined,

@@ -12,7 +12,7 @@ export const data = {
 };
 
 type RenderableGame = {
-    players: 'banking' | 'any' | number[],
+    players: Players,
     equipment?: string,
     variant?: boolean,
     url: string,
@@ -26,6 +26,7 @@ function renderGames(allGames: RenderableGame[]) {
     const dest = document.getElementById('games-list')!;
     const params = new URLSearchParams(window.location.search);
 
+    // Filter players
     const playersS = params.get('players');
     if (playersS && playersS !== 'any') {
         if (playersS === 'banking') {
@@ -37,15 +38,34 @@ function renderGames(allGames: RenderableGame[]) {
                     return true;
                 }
 
-                if (g.players) {
-                    return Array.isArray(g.players) && g.players.includes(players);
+                if (g.players === 'banking') {
+                    return players >= 2;
                 }
 
+                if (typeof g.players === 'number') {
+                    return g.players === players;
+                }
+
+                if (Array.isArray(g.players)) {
+                    return g.players.includes(players);
+                }
+
+                if ('min' in g.players) {
+                    if (g.players.max) {
+                        return players >= g.players.min && players <= g.players.max;
+                    }
+
+                    return players >= g.players.min;
+                }
+
+                let _: never = g.players;
+                console.error("unable to process filter");
                 return false;
             });
         }
     }
 
+    // Filter equipment
     const equipmentS = params.get('equipment');
     if (equipmentS && equipmentS !== 'any') {
         allGames = allGames.filter(g => g.equipment === equipmentS);
@@ -71,38 +91,13 @@ function renderGames(allGames: RenderableGame[]) {
 }
 
 export function render(this: Context, data: Data) {
-    const expandPlayers = (title: string, players: Players | undefined): 'banking'|'any'|number[] => {
+    const expandPlayers = (title: string, players: Players | undefined): Players => {
         if (players === undefined) {
             console.warn('No players specified for ' + title);
             return [];
         }
 
-        if (players === 'any') {
-            return 'any';
-        }
-
-        if (players === 'banking') {
-            return 'banking';
-        }
-
-        if (typeof players === 'number') {
-            return [players];
-        }
-
-        if (Array.isArray(players)) {
-            return players;
-        }
-
-        if (players.min && players.max) {
-            const result = [];
-            for (let i = players.min; i <= players.max; ++i) {
-                result.push(i);
-            }
-
-            return result;
-        }
-
-        throw new Error("cannot handle players: " + players);
+        return players;
     }
 
     const expandedGames: RenderableGame[] = data.collections.game.filter(g => !IS_PRODUCTION || !g.data.draft).flatMap(g =>

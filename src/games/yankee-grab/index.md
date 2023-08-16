@@ -2,7 +2,6 @@
 title: Yankee Grab
 players:
     min: 2
-    max: 100
 subgames:
 - title: Multiplication
 equipment: Dice

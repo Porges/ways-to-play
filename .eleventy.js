@@ -178,7 +178,9 @@ function chinese_dice(content) {
     content = content.toString(10)
   }
 
-  return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6_chinese/d6_${c}.svg" />`);
+  return '<span class="dice">'
+    + content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6_chinese/d6_${c}.svg" />`)
+    + '</span>';
 }
 
 /**
@@ -189,7 +191,9 @@ function japanese_dice(content) {
     content = content.toString(10)
   }
 
-  return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6_japanese/d6_${c}.svg" />`);
+  return '<span class="dice">'
+    + content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6_japanese/d6_${c}.svg" />`)
+    + '</span>';
 }
 
 /**
@@ -200,7 +204,9 @@ function dice(content) {
     content = content.toString(10)
   }
 
-  return content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6/d6_${c}.svg" />`);
+  return '<span class="dice">'
+    + content.replace(/./g, c => `<img class="inline-img" alt="${c}" src="/small-images/d6/d6_${c}.svg" />`)
+    + '</span>';
 }
 
 function linkToArticle() {

@@ -10230,3 +10230,41 @@ TheAcehnese:
   issued: 1906
   publisher: E. J. Brill
   publisher-place: Leyden
+DiceGamesFrey:
+  type: book
+  URL: https://archive.org/details/completebookofdi0000frey
+  title: Complete Book of Dice Games
+  author:
+  - given: Skip
+    family: Frey
+  issued: 1978
+  publisher: Sphere Books Limited
+  publisher-place: London
+PigtailAddendum:
+  type: article-journal
+  title: 'Pigtail: A Pig Addendum'
+  URL: http://cs.gettysburg.edu/~tneller/papers/pig+.pdf
+  page: 443-458
+  author:
+  - given: Todd W.
+    family: Neller
+  - given: Clifton G. M.
+    family: Presser
+  in:
+    title: The UMAP Journal
+    volume: 26
+    issue: 4
+    issued: 2005
+MathTrek:
+  type: book
+  title: 'Math Trek: Adventures in the MathZone'
+  author:
+  - given: Ivars
+    family: Peterson
+  - given: Nancy
+    family: Henderson
+  URL: https://archive.org/details/isbn_9781435278981
+  ISBN: 9781435278981
+  issued: 2000
+  publisher: Jossey-Bass
+  publisher-place: San Francisco, CA, USA
