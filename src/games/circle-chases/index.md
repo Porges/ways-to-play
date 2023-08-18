@@ -86,7 +86,7 @@ spellings: (https://archive.org/details/greekenglishlexi01lidd/page/1458/mode/2u
 
 Drop-Cloth 
 
-French <span lang="fr">jeu de mouchoir</span>, Dutch zakdoekje legen
+French <span lang="fr">jeu de mouchoir</span>, Dutch <span lang="nl">zakdoekje leggen</span> (in Flanders <span lang="nl-BE">zakdoek leggen</span>).
 
 
 https://www.hellenicaworld.com/Greece/Literature/JamesAugustusStJohn/en/HistoryMannersAGreece1.html

@@ -2,7 +2,7 @@
 title: Hanafuda
 titleLang: ja-Latn
 originalTitle: <span lang="ja">花札</span>
-order: 3
+order: 4
 hero:
     image: ./intro/16201732242_8d1d3ed19d_o.jpg
     alt: A pile of hanafuda cards.

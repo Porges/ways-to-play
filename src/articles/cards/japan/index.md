@@ -22,22 +22,11 @@ originalUrl="https://collections.mfa.org/objects/403615/a-very-popular-cardplayi
 Unknown author (1908)
 {% imageEnd %}
 
-After being introduced by Portuguese sailors and merchants in the late 16th
-century,[@DragonsOfPortugal] playing cards in Japan underwent a long period of
-“speciation” due to the isolationist [<span
-lang="ja-Latn">sakoku</span>](https://en.wikipedia.org/wiki/Sakoku) (<span
-lang="ja">鎖国</span>, ‘closed country’) policy of the <span lang="ja-Latn"
-class="noun">Tokugawa</span> shōgunate which severely limited contact with the
-outside world for over 200 years.
+After being introduced by Portuguese sailors and merchants in the late 16th century,[@DragonsOfPortugal] playing cards in Japan underwent a long period of “speciation” due to the isolationist [<span lang="ja-Latn">sakoku</span>](https://en.wikipedia.org/wiki/Sakoku) (<span lang="ja">鎖国</span>, ‘closed country’) policy of the <span lang="ja-Latn" class="noun">Tokugawa</span> shōgunate which, severely limited contact with the outside world for over 200 years.
 
-Cut off from their original source, these playing cards were developed in
-new and surprising ways. Decks were increased in complexity by adding more ranks
-or additional suits. Later on, new variants were introduced to circumvent
-anti-gambling laws, to obscure the true nature of the cards as gambling
-implements, or to simplify existing decks by removing suits or ranks.
+Cut off from their original source, these playing cards were developed in new and surprising ways. Decks were increased in complexity by adding more ranks or additional suits. Later on, new variants were introduced to circumvent anti-gambling laws, to obscure the true nature of the cards as gambling implements, or to simplify existing decks by removing suits or ranks.
 
-There are two main families of cards, and a third probably derived from both of
-these:
+There are two main family “branches” of cards, and a third that derived from both of these:
 
 1. Cards derived from Portuguese patterns, with suits and ranks. In order of
   appearance these are:
@@ -47,7 +36,7 @@ these:
         </span>, ‘<span class="noun" lang="ja-Latn">Un-Sun</span> cards’)
       * <span class="noun" lang="ja-Latn">Sunkun Karuta</span> (<span lang="ja">すんくんかるた
         </span>, ‘<span class="noun" lang="ja-Latn">Sun-Kun</span> cards’)
-    * <span class="noun" lang="ja-Latn">Mekuri Karuta</span> (<span lang="ja">捲りかるた
+    * {%a mekuri-karuta%} (<span lang="ja">捲りかるた
       </span>, ‘turning cards’) were an alteration of the <span class="noun"
       lang="ja-Latn">Tenshō</span> pattern cards, possibly created to evade bans on
       those cards. The structure of the deck remains the same, but there are

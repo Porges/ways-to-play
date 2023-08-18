@@ -381,6 +381,7 @@ Bell:
   original-date:
     year: 1960
   ISBN: 978-0-486-23855-5
+  notes: Two volumes republished as one.
 Murray:
   type: book
   title: A History of Chess
@@ -10248,7 +10249,7 @@ PigtailAddendum:
   author:
   - given: Todd W.
     family: Neller
-  - given: Clifton G. M.
+  - given: Clifton G.M.
     family: Presser
   in:
     title: The UMAP Journal
@@ -10268,3 +10269,384 @@ MathTrek:
   issued: 2000
   publisher: Jossey-Bass
   publisher-place: San Francisco, CA, USA
+OptimalPig:
+  type: article-journal
+  title: Optimal Play of the Dice Game Pig
+  URL: https://cupola.gettysburg.edu/csfac/4/
+  page: 25-47
+  author:
+  - given: Todd W.
+    family: Neller
+  - given: Clifton G.M.
+    family: Presser
+  in:
+    title: The UMAP Journal
+    volume: 25
+    issue: 1
+    issued: 2004
+PracticalPig:
+  type: article-journal
+  title: Practical Play of the Dice Game Pig
+  URL: https://cupola.gettysburg.edu/csfac/7/
+  page: 5-19
+  author:
+  - given: Todd W.
+    family: Neller
+  - given: Clifton G.M.
+    family: Presser
+  in:
+    title: The UMAP Journal
+    volume: 31
+    issue: 1
+    issued: 2010
+ChoiceAndChance:
+  type: article-journal
+  title: 'Choice and Chance in Life: The Game of “Skunk”'
+  author:
+  - given: Dan
+    family: Brutlag
+  # URL: https://doi.org/10.5951/MTMS.1.1.0028
+  URL: https://www.jstor.org/stable/4118139
+  page: 28-33
+  in:
+    title: Mathematics Teaching in the Middle School
+    volume: 1
+    issue: 1
+    issued: 
+      day: 1
+      month: 4
+      year: 1994
+InteractiveMathematicsProgram:
+  type: book
+  title: 'Interactive Mathematics Program: Year 1'
+  author:
+  - given: Dan
+    family: Fendel
+  - given: Diane
+    family: Resek
+  - given: Lynne
+    family: Alper
+  - given: Sherry
+    family: Fraser
+  issued: 1997
+  ISBN: 1559536330
+  publisher: Key Curriculum Press
+  publisher-place: California, USA
+  URL: https://page.mpls.k12.mn.us/Res/interactive_mathematics_program_1_1st_ed_jane_s.pdf
+MeasuringUp:
+  type: book
+  title: 'Measuring Up: Prototypes for Mathematics Assessment'
+  URL: https://nap.nationalacademies.org/catalog/2071/measuring-up-prototypes-for-mathematics-assessment
+  author:
+  - given: Mathematical Sciences Education Board
+  issued: 1993
+  publisher: National Academy Press
+  publisher-place: Washington, DC, USA
+  ISBN: '0309048451'
+NZMathsPig:
+  type: webpage
+  URL: https://web.archive.org/web/20060512023126/http://www.nzmaths.co.nz/Statistics/Probability/greedypig.aspx
+  issued: 2006
+  container-title: New Zealand Maths
+  title: Greedy Pig
+  publisher: Ministry of Education
+  publisher-place: New Zealand
+BufferDinnerDudo:
+  type: article-newspaper
+  title: Buffer Dinner Is Given as Farewell Party
+  page: 13
+  URL: https://www.newspapers.com/article/casper-star-tribune-buffet-dinner-is-giv/130149603/
+  in:
+    title: Casper Star-Tribune
+    publisher-place: Casper, Wyoming, USA
+    volume: 67
+    issue: 293
+    issued:
+      day: 18
+      month: 1
+      year: 1959
+IncasAndOtherMen:
+  type: book
+  title: 'Incas and Other Men: Travels in the Andes'
+  URL: https://archive.org/details/incasothermentra0000geor
+  author:
+  - given: George
+    family: Woodcock
+  publisher: Faber and Faber
+  publisher-place: London, UK
+  issued: 1959
+RulesForLiarsDice:
+  type: book
+  title: Instructions for Liar’s Dice & Other Games
+  publisher: E. S. Lowe Co. Inc
+  publisher-place: Springfield, MA, USA
+  issued: 1974
+  URL: https://www.hasbro.com/common/instruct/Liar'sDice(1974).PDF
+  archive-URL: https://web.archive.org/web/20070321003616/http://www.hasbro.com/common/instruct/Liar'sDice(1974).PDF
+MBLiarsDice:
+  type: book
+  title: "Milton Bradley’s Original Liars Dice Rules"
+  issued: 1987
+  URL: https://magisterrex.files.wordpress.com/2014/07/liarsdice1987.pdf
+  archive-URL: https://web.archive.org/web/20190613211314/https://magisterrex.files.wordpress.com/2014/07/liarsdice1987.pdf
+  publisher: Milton Bradley
+  publisher-place: Springfield, MA, USA
+LiarsDice2002:
+  type: book
+  title: Liar’s Dice
+  author:
+  - given: Richard
+    family: Borg
+  publisher: Endless Games
+  publisher-place: Hoboken, NJ, USA
+  issued: 2002
+  URL: https://boardgamegeek.com/filepage/3368/endless-games-ld-rulespdf
+ABurntOutCase:
+  type: book
+  title: A Burnt-Out Case
+  URL: https://archive.org/details/in.ernet.dli.2015.150016/
+  author:
+  - given: Graham
+    family: Greene
+  issued: 1916
+  original-date:
+    year: 1910
+  publisher: Heinemann
+  publisher-place: London, UK
+AmericanBarsInParis:
+  type: article-newspaper
+  title: American Bars in Paris Have a New Game
+  author:
+  - given: Reynolds
+    family: Packard
+  URL: https://www.newspapers.com/article/santa-cruz-sentinel-american-bars-in-par/130149404/
+  archive-URL: https://web.archive.org/web/20230817223156/https://www.newspapers.com/article/santa-cruz-sentinel-american-bars-in-par/130149404/
+  page: 6
+  in:
+    title: Santa Cruz Sentinel
+    volume: 90
+    issue: 137
+    publisher-place: Santa Cruz, CA, USA
+    issued:
+      day: 9
+      month: 12
+      year: 1934
+SportsInTheOrient:
+  type: article-newspaper
+  title: Sports in The Orient
+  author:
+  - given: Frederic
+    family: Nelson
+  URL: https://www.newspapers.com/article/the-baltimore-sun-sports-in-the-orient/130149185/
+  archive-URL: https://web.archive.org/web/20230817223827/https://www.newspapers.com/article/the-baltimore-sun-sports-in-the-orient/130149185/
+  page: 10
+  in:
+    title: The Baltimore Sun
+    volume: 36
+    publisher-place: Baltimore, Maryland
+    issued:
+      day: 26
+      month: 1
+      year: 1936
+GeorgeSherriff:
+  type: article-newspaper
+  title: Thru the Shops wtih Sue
+  author:
+  - given: ‘Sue’
+  URL: https://www.newspapers.com/article/the-des-moines-register-george-sherriff/130149427/
+  archive-URL: 
+  page: 26
+  in: 
+    title: Des Moines Sunday Register
+    volume: 90
+    issue: 292
+    issued:
+      day: 9
+      month: 4
+      year: 1939
+    publisher-place: Des Moines, Iowa
+TheBreretonDiaries:
+  type: book
+  title: "The Brereton Diaries: The War in the Air in the Pacific, Middle East, and Europe, 3 October 1941–8 May 1945"
+  author:
+  - given: Lewis H.
+    family: Brereton
+  issued: 1946
+  publisher: William Morrow and Company
+  publisher-place: New York
+  URL: https://archive.org/details/TheBreretonDiaries
+JapanBeatsBritanAtGolf:
+  type: article-newspaper
+  title: Japan Beats Britan At Golf
+  URL: https://archive.org/details/north-china-herald-1940.01.24/page/7/mode/2up
+  page: 130
+  in: 
+    title: North-China Herald
+    volume: 214
+    issue: 3781
+    publisher-place: Shanghai
+    issued:
+      day: 24
+      month: 1
+      year: 1940
+CrossWindsOfEmpire:
+  type: book
+  title: Cross Winds of Empire
+  author:
+  - given: Woodbern E.
+    family: Remington
+  URL: https://archive.org/details/dli.ernet.168150
+  issued: 1941
+  publisher: The John Day Company
+  publisher-place: New York
+CurrentBiography1942:
+  type: book
+  title: 'Current Biography: Who’s News and Why, 1942'
+  editor:
+  - given: Maxine
+    family: Block
+  publisher: The H. W. Wilson Company
+  publisher-place: New York, NY
+  issued: 1942
+  URL: https://archive.org/details/currentbiography1942hwwi/page/334/mode/2up
+MontyRollsBones:
+  type: article-newspaper
+  title: Monty Rolls Bones For Match Stakes
+  URL: https://archive.org/details/sim_associated-press-clippings-file-europe-disorders_1946-09_0/page/n161/mode/2up
+  in:
+    title: Associated Press Clippings File
+    issued:
+      day: 14
+      month: 9
+      year: 1946
+ActionInTheEast:
+  type: book
+  title: Action In The East
+  URL: https://archive.org/details/in.ernet.dli.2015.89823
+  publisher: Doubleday, Doran and Company
+  publisher-place: New York
+  author:
+  - given: O. D.
+    family: Gallagher
+  issued: 1942
+SettingSunOfJapan:
+  type: book
+  title: The Setting Sun of Japan
+  URL: https://archive.org/details/settingsunofjapa0000carl
+  author:
+  - given: Carl
+    family: Randau
+  - given: Leane
+    family: Zugsmith
+  publisher: Random House
+  publisher-place: New York
+  issued: 1942
+YearOfWrath:
+  type: article-magazine
+  URL: https://archive.org/details/colliers110octspri
+  title: Year of Wrath
+  page: 11–12, 51–57
+  author:
+  - given: Carl
+    family: Randau
+  - given: Leane
+    family: Zugsmith
+  in:
+    title: Collier’s
+    issued:
+      day: 24
+      month: 10
+      year: 1942
+ModernHoyle1944:
+  type: book
+  title: The Modern Hoyle
+  URL: https://archive.org/details/modernhoyle0000unse
+  issued: 1944
+  author:
+  - given: Albert H.
+    family: Morehead
+  publisher: The John C. Winston Company
+  publisher-place: Philadelphia, PA
+WorldsBestDiceGames1981:
+  type: book
+  title: The World’s Best Dice Games
+  issued: 1981
+  URL: https://archive.org/details/worldsbestdicega0000jaco
+  author:
+  - family: Jacobs
+    given: Gil
+  publisher: John N. Hansen
+  publisher-place: Millbrae, CA
+BarDiceSF:
+  type: article-journal
+  URL: https://digicoll.lib.berkeley.edu/record/83771
+  #URL: https://digitalassets.lib.berkeley.edu/anthpubs/ucb/text/kas051_052-002.pdf
+  title: Bar Dice in the San Francisco Bay Area
+  author:
+  - given: Alan
+    family: Dundes
+  - given: Carl R.
+    family: Pagter
+  page: 1-18
+  in:
+    title: Kroeber Anthropological Society Papers
+    volume: 51
+    issued: 1975
+PhenomenalLuck:
+  type: article-newspaper
+  title: Eisenhower Air Deputy Is Man Who Guarded Normandy Invasion
+  author:
+  - given: John
+    family: Roderick
+  page: 3B
+  URL: https://archive.org/details/per_st-louis-post-dispatch_1951-04-29_103_222/page/n27/mode/1up
+  in:
+    title: St. Louis Post-Dispatch
+    publisher-place: St. Louis, MO
+    issued:
+      year: 1951
+      month: 4
+      day: 29
+    volume: 103
+    issue: 222
+ChinaCycle:
+  type: book
+  title: China Cycle
+  author:
+  - given: Richard P.
+    family: Dobson
+    url: https://en.wikipedia.org/wiki/Richard_Dobson_(businessman)
+  URL: https://archive.org/details/in.ernet.dli.2015.81915
+  publisher: MacMillan & Co.
+  issued: 1946
+  publisher-place: London
+GallopingIvories:
+  type: article-magazine
+  title: Galloping ivories in the Orient
+  author:
+  - given: A. M.
+    family: Balso
+  - given: Seward S.
+    family: Cramer
+  URL: https://archive.org/details/adventure-v-107-n-02-1942-06/page/123/mode/1up
+  page: 125
+  in:
+    title: Adventure
+    volume: 107
+    issue: 2
+    issued:
+      month: 6
+      year: 1942
+LiarDiceMoser:
+  type: article-magazine
+  title: Men and Events
+  URL: https://archive.org/details/millards-1939.09.30/page/183/mode/1up
+  page: 184
+  in:
+    title: The China Weekly Review
+    publisher-place: Shanghai
+    volume: 90
+    issued:
+      month: 9
+      day: 30
+      year: 1939
