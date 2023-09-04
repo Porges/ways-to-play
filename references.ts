@@ -283,6 +283,8 @@ const renderDate = (reference: Reference) => {
 }
 
 function toIsoDate(ymd: Date) {
+    // TODO: this should use ymd.OS to convert to Gregorian dates
+
     if (typeof ymd == "number") {
         return ymd;
     }

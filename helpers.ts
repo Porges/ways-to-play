@@ -66,13 +66,17 @@ export function renderExplicitDate(date: Date, omitIfJustYear: boolean): string 
   if ('month' in date) {
     const month = months[date.month - 1];
     if ('day' in date) {
-      const actualDate = new globalThis.Date(date.year, date.month - 1, date.day);
-
       if (date.OS) {
+        const actualDate =
+          (date.month < 3 || date.month === 3 && date.day < 25)
+          ? new globalThis.Date(date.year + 1, date.month - 1, date.day)
+          : new globalThis.Date(date.year, date.month - 1, date.day);
+
         const day = (((actualDate.getDay() - 10) % 7) + 7) % 7;
         return `${days[day]}, ${ordinal(date.day)} ${month} ${date.year} [<abbr title="old-style">OS</abbr>]`;
       }
 
+      const actualDate = new globalThis.Date(date.year, date.month - 1, date.day);
       const day = actualDate.getDay();
       return `${days[day]}, ${ordinal(date.day)} ${month} ${date.year}`;
     }

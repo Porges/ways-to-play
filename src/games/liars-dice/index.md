@@ -32,7 +32,7 @@ The earliest reference to the game I have found is from 1934, when the game appe
 
 -->
 
-In 1936, it is mentioned in the Philippines,[@SportsInTheOrient] and by 1939 reported in Des Moines, Iowa.[@GeorgeSherriff] In that year a book titled <cite>Liar Dice</cite> was published. This was a detective story set in [Tianjin](https://en.wikipedia.org/wiki/Tianjin), written by a man who had previously worked in the city.[@LiarDiceMoser]
+In 1936, it is mentioned in the Philippines,[@SportsInTheOrient] and by 1939 reported in Des Moines, Iowa.[@GeorgeSherriff] In that year a novel titled <cite>Liar Dice</cite> was published. This was a detective story set in [Tianjin](https://en.wikipedia.org/wiki/Tianjin), written by a man who had previously worked in the city.[@LiarDiceMoser]
 
 Mentions of the game begin to pick up after this: in 1940 the British golf team played it with the Japanese team in Shanghai,[@JapanBeatsBritanAtGolf] while British tobacconist [Richard Dobson](https://en.wikipedia.org/wiki/Richard_Dobson_(businessman)) also reported it at the Shanghai Country Club.[@ChinaCycle p. 176] In the same year it is mentioned as being played by locals at Cebu in the Philippines.[@CrossWindsOfEmpire p. 176] In 1941 it is reported at US Air Force bases on Midway and Wake Islands,[@TheBreretonDiaries p. 14, 16] and it seems to have become particularly associated with air force members on both sides of the Atlantic: a 1942 biography of Air Marshal [Arthur Harris](https://en.wikipedia.org/wiki/Arthur_Harris) even claims that he invented the game.[@CurrentBiography1942 p. 334] It was also popular in the army — in 1946 Harris’ counterpart{%fn%}Harris was promoted to Marshal of the Royal Air Force in 1946.{%endfn%} Field Marshal [Viscount Montgomery](https://en.wikipedia.org/wiki/Bernard_Montgomery) is described as teaching the “British game” to Americans.[@MontyRollsBones] In 1951, at the same time that Montgomery was Deputy to the Supreme Allied Commander Europe,{%fn%}At that time, [Dwight D. Eisenhower](https://en.wikipedia.org/wiki/Dwight_D._Eisenhower).{%endfn%} the Air Deputy was Air Marshal [Hugh Saunders](https://en.wikipedia.org/wiki/Hugh_Saunders_(RAF_officer)), who was also said to have “phenomenal luck” at Liar’s Dice.[@PhenomenalLuck]
 
@@ -268,7 +268,7 @@ https://www.sfgate.com/local-donotuse/article/San-Francisco-underground-dice-sce
 
 ## Dudo
 
-Earliest reference I can find are from the late 1960s: [@BufferDinnerDudo] & [@IncasAndOtherMen p. 47] (c. 1956).
+Earliest reference I can find are from the late 1950s: [@BufferDinnerDudo] & [@IncasAndOtherMen p. 47] (c. 1956).
 
 @RulesForLiarsDice [p. 2] describes an early version of the game.
 

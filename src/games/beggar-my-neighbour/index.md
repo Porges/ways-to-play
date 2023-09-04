@@ -10,11 +10,22 @@ players:
 <span class="aka">Beggar My Neighbour</span>, also known as <span class="aka">Strip Jack Naked</span>,{%fn%}The first card game my grandfather ever taught me!{%endfn%} or <span class="aka">Beat Your Neighbour Out-Of-Doors</span>,[@LondonStreetGames p. 12] is a simple luck-based card game from England for two or more players. No decisions are required to be made during the course of play, so it is an ideal children’s game.
 </p>
 
-<!-- excerpt -->
-
 A wonderful defence of this simple game as the ideal playing-card game may be found in the Meerut Universal Magazine.[@MUMagazine]
 
-It seems to have been mentioned as early as 1754 in the tract @SeriousReflections [p. 15], as “<span class="aka">Beat the Knave out of Doors</span>”.
+It is mentioned as early as 1603 by the British playwright [Thomas Heywood](https://en.wikipedia.org/wiki/Thomas_Heywood) under the name “<span class="aka">Knave out of Doors</span>” in his play <cite>A Woman Killed with Kindness</cite> (1603, published 1607).[@ThomasHeywood p. 1] A song about the [Rump Parliament](https://en.wikipedia.org/wiki/Rump_Parliament) called <cite>The Rebells Reign</cite> (from some time between 1639–61) also refers to the game under this name:
+
+> The Parliament sate as snug as a Cat,<br/>
+> &emsp;And were playing for mine and yours ;<br/>
+> Sweep-stakes was their Game, till <em>Oliver</em> came,<br/>
+> &emsp;And turn’d it to Knave out of doors.[@Rump p. 317]
+
+It is called “<span class="aka">Beat the Knave out of Doors</span>” in 1739,[@EighthChampion p. 4]{%fn%}It also appears under this name in the 1754 tract @SeriousReflections [p. 15].{%endfn%} and appears under the name “<span class="aka">Drive the Knave out of Doors</span>” in 1751.[@ALetterFromMrsMidnight p. 245]
+
+<!--
+
+called Boutehors in French? https://archive.org/details/bim_eighteenth-century_royal-dictionary-abrid_boyer-abel_1720/page/n757/mode/2up?q=%22Knave+out+of+Doors%22
+
+-->
 
 ## Play
 

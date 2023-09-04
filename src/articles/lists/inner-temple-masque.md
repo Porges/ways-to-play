@@ -75,11 +75,11 @@ The games listed are:
 <dt>In, and In</dt><dd>a dice game: {%gameref in-and-in %}</dd>
 <dt>Gleeke</dt><dd></dd>
 <dt>Priministe</dt><dd></dd>
-<dt>Noddie</dt><dd> a predecessor of cribbage</dd>
+<dt>Noddie</dt><dd>a predecessor of cribbage</dd>
 <dt>One and Thirtie</dt><dd></dd>
-<dt>Tickle Mee Quickly</dt><dd> a card game</dd>
-<dt>My Ladies Hole</dt><dd> a card game</dd>
-<dt>My Sow Has Pigd</dt><dd> a card game: {%gameref my-sow-pigged%}</dd>
+<dt>Tickle Mee Quickly</dt><dd>a card game</dd>
+<dt>My Ladies Hole</dt><dd>a card game: {%gameref my-ladys-hole %}</dd>
+<dt>My Sow Has Pigd</dt><dd>a card game: {%gameref my-sow-pigged%}</dd>
 <dt>Shooe the Mare</dt><dd></dd>
 <dt>Blind Man Buffe</dt><dd></dd>
 </dl>

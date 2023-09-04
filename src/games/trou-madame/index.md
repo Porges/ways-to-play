@@ -20,6 +20,13 @@ https://shakespeareillustration.org/2016/07/01/trol-my-dames-costume-temp-eliz-f
 https://www.istockphoto.com/vector/nine-holes-gm175396716-20296398
 -->
 
+<!--
+Mirélla
+
+https://archive.org/details/gri_33125008510097/page/n325/mode/2up?q=%22my+ladies+hole%22
+
+-->
+
 
 Nine Holes [@Strutt p. 340].
 

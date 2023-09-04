@@ -10650,3 +10650,138 @@ LiarDiceMoser:
       month: 9
       day: 30
       year: 1939
+YaleWalpole37:
+  type: book
+  title: The Yale Edition of Horace Walpole’s Correspondence
+  volume: 37
+  URL: https://libsvcs-1.its.yale.edu/hwcorrespondence/page.asp?vol=37&seq=5
+  volume-title: 'Horace Walpole’s Correspondence with Henry Seymour Conway, Lady Ailesbury, Lord and Lady Hertford, Mrs Harris: I'
+  issued: 1974
+  ISBN: '0300016689'
+  editor:
+  - given: W. S.
+    family: Lewis
+  - given: Lars E.
+    family: Troide
+  - given: Edwine M.
+    family: Martz
+  - given: Robert A.
+    family: Smith
+  publisher: Yale University Press
+  publisher-place: New Haven
+Pendarves1:
+  type: webpage
+  title: Mary Pendarves’ letters to Ann Granville about her visit to Killala, 1732
+  URL: http://research.ucc.ie/celt/document/E730001-001
+  archive-URL: https://web.archive.org/web/20230331130112/http://research.ucc.ie/celt/document/E730001-001
+  author:
+  - given: Mary
+    family: Pendarves
+  editor:
+  - given: Augusta
+    family: Hall
+  issued: 2014
+  publisher: University College Cork
+  container-title: "CELT: Corpus of Electronic Texts"
+AdamAndEve:
+  type: book
+  title: 'Adam and Eve Stript of their Furbelows: Or, the Faſhionable Virtues and Vices of both Sexes expos’d to publick View'
+  publisher: J. Woodward and A. Bettesworth
+  publisher-place: London
+  URL: https://books.google.co.nz/books?id=mc3BuyFcrecC
+  issued: 1714
+  author:
+  - given: Ned
+    family: Ward
+    url: https://en.wikipedia.org/wiki/Ned_Ward
+  notes: 'Originally published in 1708 under the title <cite>The modern world disrob’d: or, both sexes stript of their pretended vertue</cite>.'
+MerrySongsAndBallads5:
+  type: book
+  URL: https://archive.org/details/merrysongsandba02farmgoog
+  title: 'Merry Songs and Ballads: Prior to the Year A. D. 1800'
+  volume: 5
+  issued: 1897
+  editor:
+  - given: John S.
+    family: Farmer
+  series:
+    title: National Ballad and Song
+ObservationsOnSomeOldFashionedGames:
+  type: article-magazine
+  title: Observations on some old fashioned Games on the Cards
+  URL: https://archive.org/details/sim_weekly-entertainer-and-west-of-england-miscellany_1784-02-09_3_58/page/133/mode/2up
+  page: 133
+  in:
+    title: The Weekly Entertainer
+    volume: 3
+    issue: 58
+    issued:
+      year: 1784
+      month: 2
+      day: 9
+ALetterFromMrsMidnight:
+  type: article-magazine
+  title: A Letter from Mrs. Midnight to Mr. Hoyle, partly complimentary, and partly objurgatory
+  URL: https://books.google.co.nz/books?id=D2AEAAAAQAAJ&pg=PA195
+  page: 193
+  author:
+  - given: Christopher
+    family: Smart
+    url: https://en.wikipedia.org/wiki/Christopher_Smart
+  in:
+    title: The Midwife; or, The Old Woman’s Magazine
+    volume: 1
+    issue: 5
+    issued:
+      year: 1751
+ALetterFromALady:
+  type: article-magazine
+  title: A Letter from a Lady, to Mr. Hoyle, partly complimentory, and party objurgatory
+  URL: https://archive.org/details/sim_ladies-magazine-or-the-universal-entertainer_february-23-march-9-1751_2_9/page/132/mode/2up
+  author:
+  - given: J.
+    family: W.
+  in:
+    title: The Ladies Magazine; or, the Universal Entertainer
+    volume: 2
+    issue: 9
+    editor:
+    - given: Jasper
+      family: Goodwill
+    issued:
+      year: 1750
+      month: 2
+      day: 23
+      OS: true
+ThomasHeywood:
+  type: book
+  title: Thomas Heywood
+  editor:
+  - given: A. Wilson
+    family: Verity
+  URL: https://archive.org/details/thomasheywood0000heyw
+  issued: 1888
+  publisher: Vizetelly & Co.
+  publisher-place: London
+  series:
+    title: The Mermaid Series
+    editor:
+    - given: Havelock
+      family: Ellis
+EighthChampion:
+  type: book
+  title: The Life and Heroick Actions of the Eighth Champion of Christendom
+  author:
+  - given: James
+    family: Gurthie
+  issued: 1739
+  URL: https://archive.org/details/bim_eighteenth-century_the-life-and-heroick-act_gurthie-james_1739
+  publisher: Webb
+  publisher-place: London
+Rump:
+  type: book
+  title: 'Rump: or an Exact Collection of the Choycest Poems and Songs relating to the Late Times'
+  issued: 1662
+  publisher-place: London
+  URL: https://archive.org/details/rumporexactcolle00londiala
+  publisher: Henry Brome and Henry Marsh
