@@ -4,13 +4,9 @@ titleLang: ja-Latn
 originalTitle: <span lang="ja">カックリ</span>
 ---
 
-{%pronounce pronouncer="strawberrybrown" word="Kakkuri" lang="ja-Latn"
-file='pronunciation_ja_がっくり.mp3' %} (<span lang="ja">カックリ</span>) is the
-last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>,
-‘reading’) card game in Japan.[@KakkuriYomi] It is still played in the
-town of <span class="noun" lang="ja-Latn">Yafune</span>, part of the city of <span class="noun"
-lang="ja-Latn">Echizen</span>, <span class="noun" lang="ja-Latn">Fukui</span> prefecture
-(<span lang="ja">福井県越前市矢船町</span>).
+<p class="lead">
+{%pronounce pronouncer="strawberrybrown" word="Kakkuri" lang="ja-Latn" file='pronunciation_ja_がっくり.mp3' %} (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.[@KakkuriYomi] In 2005, it was still played in the town of <span class="noun" lang="ja-Latn">Yafune</span>, part of the city of <a href="https://en.wikipedia.org/wiki/Echizen,_Fukui"><span class="noun" lang="ja-Latn">Echizen</span>, <span class="noun" lang="ja-Latn">Fukui</span> prefecture</a> (<span lang="ja">福井県越前市矢船町</span>).
+</p>
 
 ## Equipment
 
@@ -44,10 +40,7 @@ set in a stack face-down in the middle of the table; this is called the ‘box�
 (<span lang="ja">箱</span> {% pronounce pronouncer="poyotan" word="hako"
 lang="ja-Latn" file='pronunciation_ja_箱.mp3' %}).
 
-If there are 8 people playing, then there will be no cards leftover to form the
-box; instead, whoever received the {% cards '3' %} of <span
-lang="ja-Latn">pao</span> (or {% cards '3c' %} with standard deck) drops out and
-their hand is shuffled to become the box.
+If there are 8 people playing, then there will be no cards leftover to form the box; instead, whoever received the {% cards '3' %} of <span lang="ja-Latn">pao</span> (or {% cards 'c3' %} with standard deck) drops out and their hand is shuffled to become the box.
 
 {% image 
   size="small"
@@ -65,7 +58,7 @@ with the hands of previous players if multiple players swapped.
 Next, the players look at their cards. If any player has been dealt the non-red
 {% cards '1' %}s of <span lang="ja-Latn">isu</span>, <span
 lang="ja-Latn">ouru</span>, and <span lang="ja-Latn">kotsu</span> (or {% cards
-'AsAdAh' %} if playing with standard playing cards), then they win instantly and
+'sAdAhA' %} if playing with standard playing cards), then they win instantly and
 are paid 3× by each other player. This is called {% pronounce lang="ja-Latn"
 word="utazu" pronouncer="poyotan" file='pronunciation_ja_打たず.mp3' %} <span
 lang="ja">ウタズ</span> (from <span lang="ja">打たず</span>, “without playing”).
@@ -94,10 +87,7 @@ next. Suits do not matter, and cards are played on the table in front of the
 person playing them, rather than in the middle of the table (this makes it
 easier to see how many cards each player has remaining).
 
-In addition, the {% cards '1' %} of <span lang="ja-Latn">pao</span> ({% cards
-'Ac' %}) and {% cards '2' %} of <span lang="ja-Latn">ouru</span> ({% cards '2d'
-%}) are wild and can be played as any other card. If turned up from the box they
-count as a normal {% cards '1' %} &amp; {% cards '2' %}.
+In addition, the {% cards '1' %} of <span lang="ja-Latn">pao</span> ({% cards 'cA' %}) and {% cards '2' %} of <span lang="ja-Latn">ouru</span> ({% cards 'd2' %}) are wild and can be played as any other card. If turned up from the box they count as a normal {% cards '1' %} &amp; {% cards '2' %}.
 
 {% image 
   size="small"

@@ -30,7 +30,7 @@ The main “lines” of manufacturers are (or were):
 
 Playing cards imported into New Zealand were taxed from 1860, and stamped from
 1880 until the tax ended in 1930.[@TaxStampNZ] All examples I have
-seen have been stamped on the {% cards '2d' %}.
+seen have been stamped on the {% cards 'd2' %}.
 
 <div className="multi">
 {% image 
@@ -226,10 +226,7 @@ Cards in the original A. D. Willis style, <abbr title="circa">c.</abbr> 1910.
 {%image noborder=true alt=";;;"
     src="Willis-Ace.jpg;Willis-Queen.jpg;Willis-Joker.jpg;ADWillis-500.jpg" %}
 
-Cards in the later Willis style, this deck possibly produced by A. D. Willis.
-The deck is a 500 deck and includes {% cards '⑪' %}s, {% cards '⑫' %}s, and {%
-cards '⑬' %}s. An unusual detail is that the tail of the {% cards 'Q' %} index is
-truncated on the red cards. 
+Cards in the later Willis style, this deck possibly produced by A. D. Willis.  The deck is a 500 deck and includes {% cards '⑪' %}s, {% cards '⑫' %}s, and {% cards '⑬' %}s. An unusual detail is that the tail of the {% cards 'Q' %} index is truncated on the red cards. 
 
 {% imageEnd %}
 

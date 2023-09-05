@@ -54,7 +54,7 @@ The dealer shuffles the cards and deals two cards to each player including thems
 
 Once all players have decided whether or not to receive a third card, all cards are revealed. Players who have beaten the dealer’s total win, and the others lose.
 
-The dealer also wins if their first card was a {%cards 4%} or {%cards 9%} and their second card was a {%cards 1%}. This beats any hand including a triple. The combination {%cards 41%} is called <span lang="ja-Latn">shippin</span> (<span lang="ja">シッピン</span>) and {%cards 91%} is called <span lang="ja-Latn">kuppin</span> (<span lang="ja">クッピン</span>).
+The dealer also wins if their first card was a {%cards 4%} or {%cards 9%} and their second card was a {%cards 1%}. This beats any hand including a triple. The combination {%cards "4–1"%} is called <span lang="ja-Latn">shippin</span> (<span lang="ja">シッピン</span>) and {%cards "9–1"%} is called <span lang="ja-Latn">kuppin</span> (<span lang="ja">クッピン</span>).
 
 If both dealer and player have a triple, the higher triple wins.
 
@@ -64,8 +64,8 @@ As with all living card games, there are many local variations.
 
 In the [<cite>Yakuza</cite>](https://en.wikipedia.org/wiki/Yakuza_(franchise)) video game series, there are two special hands:
 
-* A hand with {%cards '10 10 1'%}, in any order, wins 20× the stake.
-* A player who is dealt the two cards {%cards '4 6'%}, in any order, may choose
+* A hand with {%cards '10–10–1'%}, in any order, wins 20× the stake.
+* A player who is dealt the two cards {%cards '4–6'%}, in any order, may choose
   to turn in their cards and keep their stake, instead of playing out the round.
 
 ## Terminology

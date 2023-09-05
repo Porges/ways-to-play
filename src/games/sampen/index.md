@@ -26,7 +26,7 @@ subgames:
 
 The game is played by at least five players with a single Ceki deck of 60 cards, containing two copies of each card.
 
-It can also be played by combining two decks of standard playing cards: from each deck, take the {%cards 'A–10' %} in {%cards 'shd' %} as well as the {%cards 'JQKc' %}, giving two copies of each card, and 60 cards total.[@CardGamesAroundTheWorld p. 4–5]
+It can also be played by combining two decks of standard playing cards: from each deck, take the {%cards 'A–10' %} in {%cards 'shd' %} as well as the {%cards 'cJQK' %}, giving two copies of each card, and 60 cards total.[@CardGamesAroundTheWorld p. 4–5]
 
 ### Play
 

@@ -102,8 +102,12 @@ licensed under the [IPA Font License](https://opensource.org/licenses/IPA).
 
 [BabelStone Commons](https://www.babelstone.co.uk/Fonts/) by Andrew West is used to indicate licensing information. It is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
 
+<!--
 The playing-card font is [NKD04 by Umihotaru](https://umihotaru.work/). It has a
 [nonstandard but liberal license](https://umihotaru.work/faq.txt).
+-->
+
+The playing-card font is a custom one that is based upon Chris Aguilar’s open source [Vector Playing Cards](https://totalnonsense.com/open-source-vector-playing-cards/), which are licensed under the LGPL 3.0. My modifications are also licensed under the same license.
 
 Noto Naksh is used for Arabic and Persian and other related scripts. It is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
 

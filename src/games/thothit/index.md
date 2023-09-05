@@ -12,9 +12,9 @@ subgames:
   players: [4, 6]
 ---
 
-<span lang="jav-Latn" class="noun aka">Thothit</span>{%fn%}<span lang="jav-Latn" class="noun aka">Ṭoṭit</span> in older orthography.{%endfn%} (<span lang="jav" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a fishing game from Java for three players, and it is played with {% a ceki %}. The goal is to collect matching pairs of cards, especially red-stamped ones.
-
-<!-- excerpt -->
+<p class="lead">
+<span lang="jav-Latn" class="noun aka">Thothit</span>{%fn%}<span lang="jav-Latn" class="noun aka">Ṭoṭit</span> in older orthography.{%endfn%} (<span lang="jav" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a fishing game from Java for three players,  played with {% a ceki %}. The goal is to collect matching pairs of cards, especially red-stamped ones.
+</p>
 
 First, I describe the game as played in [Surakarta](https://en.wikipedia.org/wiki/Surakarta) in the early 20th century, based upon the description in @JavaanseKaartspelen [p. 71–2]. In Yogyakarta this game is known as <span lang="jav-Latn" class="noun aka">Ceweng</span> ‘to pull something towards oneself’, and <span lang="jav-Latn" class="noun">Thothit</span> refers to a different, simpler, game ({% gameref thothit-yogyakarta %}).
 
@@ -24,7 +24,7 @@ Use a single <span lang="jav-Latn">kepala</span> of <span lang="jav-Latn">ceki</
 
 Seats can be selected by choosing three pairs of cards and then dealing one of each pair to the players and the other of each pair to the seats; the players then sit in the matching seats. Alternatively, they can be allocated according to social rank. In Javanese play, the highest-ranking player should sit facing the front door of the house.
 
-Once seats are chosen, the first player must be selected. This can be done by dealing each player two cards; however has the highest total value — discarding tens — is the starting player. For example if one player has the cards {%cards '78' %}, for a total of 15, would have a value of 5; a player holding {%cards '15'%}, for a total of 6, would beat them.
+Once seats are chosen, the first player must be selected. This can be done by dealing each player two cards; however has the highest total value — discarding tens — is the starting player. For example if one player has the cards {%cards '7–8' %}, for a total of 15, would have a value of 5; a player holding {%cards '1–5'%}, for a total of 6, would beat them.
 
 The first player is called the <span lang="jav">ꦫꦗ</span> <span lang="jav-Latn">raja</span> ‘king’, the second (seated to their right) is called <span lang="jav">ꦥꦠꦶꦃ</span> <span lang="jav-Latn">patih</span> ‘king’s advisor’, and the last player (on the <span lang="jav-Latn">raja</span>’s left) is called <span lang="jav">ꦲꦸꦚꦶꦏ꧀</span> <span lang="jav-Latn">unyik</span> ‘last’.
 

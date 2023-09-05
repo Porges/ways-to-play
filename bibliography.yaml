@@ -4716,6 +4716,7 @@ alQamus:
 GamblingInIslam:
   type: chapter
   title: Gambling in Islam
+  URL: https://doi.org/10.1163/9789004270893_005
   author:
     - given: Franz
       family: Rosenthal
@@ -4725,12 +4726,17 @@ GamblingInIslam:
         family: Gutas
     title: Man versus Society in Medieval Islam
     ISBN: 978-90-04-27089-3
+    URL: https://doi.org/10.1163/9789004270893
     issued:
       year: 2015
     original-date:
       year: 1975
     publisher: Brill
     publisher-place: Leiden, The Netherlands
+    series:
+      title: Brill Classics in Islam
+      volume: 7
+      URL: https://brill.com/display/serial/BCII
   page: 338–516
 VictorianTTT:
   type: webpage
@@ -10725,8 +10731,9 @@ ALetterFromMrsMidnight:
   URL: https://books.google.co.nz/books?id=D2AEAAAAQAAJ&pg=PA195
   page: 193
   author:
-  - given: Christopher
-    family: Smart
+  - given: Mary
+    family: Midnight
+    alt: Christopher Smart
     url: https://en.wikipedia.org/wiki/Christopher_Smart
   in:
     title: The Midwife; or, The Old Woman’s Magazine
