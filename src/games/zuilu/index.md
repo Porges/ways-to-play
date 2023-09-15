@@ -134,7 +134,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
 <tr>
 <td>{%cdice 33333%}</td>
 <td><span lang="zh">陶柳三眼</span></td>
-<td></td>
+<td>… three eyes</td>
 <td>Give out 5</td>
 </tr>
 <tr>

@@ -249,4 +249,4 @@ The scoring combinations of <span lang="jav-Latn">Pei</span> are then explained 
 * <span lang="zh">虎</span> ‘tiger’: <span lang="jav-Latn">macan</span>, the lowest cards in each suit
 * <span lang="jav-Latn">bunci ireng</span> is made up of the highest cards in the coins suit (1, 2, 3), which is also an ‘eye’
 
-It is also possible that <span lang="jav-Latn">pang</span> ‘branch’ is a derivation of the Chinese <span lang="zh">碰</span> (Hokkien: <span lang="nan-Latn">pōng</span>), which describes a set of three tiles in Mahjong.
+It is also possible that <span lang="jav-Latn">pang</span> ‘branch’ is a derivation of the Chinese <span lang="zh">碰</span> (Hokkien: {%pronounce lang="nan-Latn" word="pōng" pronouncer="chihchao" file="pronunciation_nan_碰.mp3" %}), which describes a set of three tiles in Mahjong.
