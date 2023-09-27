@@ -73,7 +73,9 @@ There are two different [Sesotho orthographies](https://en.wikipedia.org/wiki/Se
 Two Lesotho herdsmen carrying staffs. What appear to be caps are rolled-up balaclava: most of Lesotho is above 1&#x202f;800&nbsp;m, so it is cooler than many neighbouring countries.
 {% imageEnd %}
 
-There are other names which are probably derived from the European name of ‘mill’:‌[@MkeleMorabaraba p. 134] an alternate Sesotho name is <span lang="st" class="aka">mmila</span>/<span lang="st" class="aka">’mila</span>, ‘road’.‌[@UsingGamesToPromote p. 283] In Botswana,[@CulturalGamesBotswana] the game is called <span lang="tn" class="aka">mhele</span> (‘reedbuck’, a type of antelope‌[@OldTswana p. 350]), and the name <span lang="tn">morabaraba</span> refers solely to a mancala game.{%fn%}Because of the large overlap of names, in written descriptions <span class="noun" lang="st">Morabaraba</span> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, @MorabarabaGetOnBoard).{%endfn%}
+There are other names which are probably derived from the European name of ‘mill’:‌[@MkeleMorabaraba p. 134] an alternate Sesotho name is <span lang="st" class="aka">mmila</span>/<span lang="st" class="aka">’mila</span>, ‘road’.‌[@UsingGamesToPromote p. 283] This is also sometimes given as <span lang="st" class="aka">mmela</span>.[@IncorporatingTheIndigenous p. 378]
+
+In some places, the name <span lang="tn">morabaraba</span> refers solely to a mancala game, and the board game goes by other names. This is the case in Botswana,[@CulturalGamesBotswana] where it is called <span lang="tn" class="aka">mohele</span> or <span lang="tn" class="aka">mhele</span> in Setswana (‘reedbuck’[@OldTswana p. 350] or ‘grey rhebuck’,[@SetswanaEnglishAfrikaans p. 92] a type of antelope), and also the neighbouring South African province [Limpopo](https://en.wikipedia.org/wiki/Limpopo), where it is called <span class="aka" lang="nso">mmela</span> (possibly in Sepedi).{%fn%}Because of the large overlap of names, in written descriptions <span class="noun" lang="st">Morabaraba</span> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, @MorabarabaGetOnBoard).{%endfn%}
 
 A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sesotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌[@UseOfMorabara p. 588] in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). In isiZulu a mill is a {% pronounce pronouncer="Lungii" word="isibhamu" lang="zu" %} (‘gun’), which allows you to “shoot” an opponent’s cow, while in Sesotho the mill is called a <span lang="st">molamu</span> (a staff carried by shepherds), and you can eat (<span lang="st">ja</span>) a cow.[@BasothoChildren p. 36]
 
@@ -165,6 +167,8 @@ piece of a mill. Other lines of three formed with the central point do not count
 as mills.[@BlacUmlabalaba][@TicTacToe pp. 67–70]
 
 Note that it is not possible to form a diagonal mill on this board.
+
+@IKSEthnomathematics [p. 16] reports that the game ends as soon as one player is reduced to 3 pieces, rather than 2.
 
 <div class="multi">
 {% image 

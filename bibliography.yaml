@@ -1903,6 +1903,34 @@ UsingGamesToPromote:
     publisher-place: Palm Cove, Cairns, Australia
     publisher: Mathematics Education into the 21st Century Project
   URL: http://math.unipa.it/~grim/ANkopodi.PDF
+IncorporatingTheIndigenous:
+  type: article-journal
+  title: Incorporating the indigenous game of <span lang="st">morabaraba</span> in the learning of mathematics
+  author:
+    - given: Nkopodi
+      family: Nkopodi
+    - given: Mogege
+      family: Mosimege
+  URL: http://ref.scielo.org/8t7fb4
+  page: 377-392
+  in:
+    issued: 2009
+    title: South African Journal of Education
+    volume: 29
+IKSEthnomathematics:
+  type: paper-conference
+  title: Indigenous Knowledge Systems and Ethnomathematics
+  URL: https://www.math.auckland.ac.nz/Events/2006/ICEM-3/1.Keynote/Indigenous/Mosimege-plenary-prez.ppt
+  author:
+    - given: Mogege
+      family: Mosimege
+  in:
+    title: Third International Conference on Ethnomathematics
+    issued:
+      day: 13
+      month: 2
+      year: 2006
+    publisher-place: Auckland, New Zealand
 SatireWithinKibyōshi:
   type: thesis
   genre: Master’s dissertation
@@ -10792,3 +10820,20 @@ Rump:
   publisher-place: London
   URL: https://archive.org/details/rumporexactcolle00londiala
   publisher: Henry Brome and Henry Marsh
+SetswanaEnglishAfrikaans:
+  type: book
+  title:
+    value: Dikišinare ya Setswana–English–Afrikaans
+    lang: tn
+  editor:
+  - given: J. W.
+    family: Snyman
+  - given: J. S.
+    family: Shole
+  - given: J. C.
+    family: Le Roux
+  ISBN: 079941218X
+  publisher: Via Afrika
+  publisher-place: Pretoria, South Africa
+  issued: 1990
+  URL: https://archive.org/details/dikisinareyasets0000snym
