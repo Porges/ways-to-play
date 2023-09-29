@@ -10837,3 +10837,32 @@ SetswanaEnglishAfrikaans:
   publisher-place: Pretoria, South Africa
   issued: 1990
   URL: https://archive.org/details/dikisinareyasets0000snym
+MultilingualIllustrated:
+  type: book
+  title: 'Multilingual Illustrated Dictionary: English, IsiZulu, Sesotho, IsiXhosa, Setswana, Afrikaans, Sepedi'
+  author:
+  - given: John
+    family: Bennett
+  - given: Nthuseng
+    family: Tsoeu
+  ISBN: '9780702167126'
+  URL: https://archive.org/details/multilingualillu0000benn
+  publisher: Pharos Dictionaries
+  publisher-place: Cape Town, South Africa
+  issued: 2006
+SummaryOffencesHongKong:
+  type: webpage
+  title: Summary Offences Ordinance, 1845
+  container-title: Historical Laws of Hong Kong Online
+  author:
+  - given: University of Hong Kong Libraries
+  URL: https://oelawhk.lib.hku.hk/items/show/547
+  archive-URL: https://web.archive.org/web/20230929215615/https://oelawhk.lib.hku.hk/items/show/547
+NuisancesOrdinanceHongKong:
+  type: webpage
+  title: Nuisances Ordinance
+  container-title: Historical Laws of Hong Kong Online
+  author:
+  - given: University of Hong Kong Libraries
+  URL: https://oelawhk.lib.hku.hk/items/show/299
+  archive-URL: https://web.archive.org/web/20230929220438/https://oelawhk.lib.hku.hk/items/show/299

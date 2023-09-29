@@ -36,13 +36,15 @@ Mentioned in @DiversChoiceRemarks [p. 266]
 
 Called <span lang="yue" class="aka">猜枚</span>[@TipcatAndOtherChineseGames] <span lang="yue-Latn-jyutping" class="aka">caai¹ mu⁴⁻²</span>{%fn%}In very old works this is represented as <span lang="yue-Latn" class="aka">Tsoey-Moey</span>[@MicatioDigitorumDescribed] or <span lang="yue-Latn" class="aka">Tsae Mei</span>.[@IuKiaoLi p. 284]{%endfn%} ‘guess the count’ or <span lang="yue" class="aka">猜碼</span>[@AFunSouthernChineseGame] <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span> ‘guess the number’ in Cantonese. A variant using two hands where a hand can only be open or shut is also called “15,20”, or “15,15,…” <span lang="zh" class="aka">十五二十</span>, and the player must guess correctly twice.[@ShiwuShiwu]
 
-In 1900 the game was semi-banned:
+On the 5th of April, 1872, the Nuisances Ordinance of Hong Kong (No. 2 of 1872) placed restrictions upon the game:{%fn%}This was later integrated as part of the Summary Offences Ordinance.[@LawAndRacism p. 248][@SummaryOffencesHongKong]{%endfn%}
 
-> "[n]o person shall utter any shouts or cries or make other noises while playing the game known as <span class="aka">Chai Mui</span>." REGULAIONS OF HONG KONG 1844-1914, Summary Offenses § 12 (Sept. 22, 1900).[@LawAndRacism p. 248]
+> 4. (Penalty for playing Chai-mui at night.) Every person shall be liable to a penalty not exceeding ten dollars who shall utter shouts or cries or make other noises while playing the game known as Chai-mui, between the hours of 11 P.M. and 6 A.M. within any district or place not permitted by some regulation of the Governor in Council.[@NuisancesOrdinanceHongKong]
+
+<!--
+> 12.—(1) No person shall utter any shouts or cries or make other noises while playing the game known as “<span class="aka" lang="yue-Latn">Chai Mui</span>” within the hours prescribed for any district of place by regulation of the Governor-in-Council.
+-->
 
 See [@PersistenceAndChange p. 196–7]
-
-
 
 ## Strategy
 

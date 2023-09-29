@@ -56,11 +56,11 @@ atop a sandstone plateau.
 
 ## Terminology
 
-The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small circles’,[@SeSothoDictionary p. 304] so could refer to the action of a mill.‌ In Nguni languages (isiZulu, isiXhosa), it is known as <span class="noun aka" lang="zu">(Um)labalaba</span>, with similar meaning,‌[@GamesBasotho pp. 247–50] and in Ronga, spoken in Mozambique, it is called <span class="noun aka" lang="rng">Muravarava</span>.
-
 {%aside%}
-There are two different [Sesotho orthographies](https://en.wikipedia.org/wiki/Sesotho_orthography). In this article I give the South African one first, followed by the Lesotho.
+Note that in Sesotho, isiXhosa, and Setswana, Um-/Mo-rabaraba can also be used to refer to the game of {%gameref draughts%}.[@MultilingualIllustrated p. 275]
 {%endaside%}
+
+The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small circles’,[@SeSothoDictionary p. 304] so could refer to the action of a mill.‌ In Nguni languages (isiZulu, isiXhosa), it is known as <span class="noun aka" lang="zu">(Um)labalaba</span>, with similar meaning,‌[@GamesBasotho pp. 247–50] and in Ronga, spoken in Mozambique, it is called <span class="noun aka" lang="rng">Muravarava</span>.
 
 {% image 
   alt="Two men dressed in warm blankets, gumboots, and balaclava, carrying staffs"
@@ -73,9 +73,13 @@ There are two different [Sesotho orthographies](https://en.wikipedia.org/wiki/Se
 Two Lesotho herdsmen carrying staffs. What appear to be caps are rolled-up balaclava: most of Lesotho is above 1&#x202f;800&nbsp;m, so it is cooler than many neighbouring countries.
 {% imageEnd %}
 
+{%aside%}
+There are two different [Sesotho orthographies](https://en.wikipedia.org/wiki/Sesotho_orthography). In this article I give the South African one first, followed by the Lesotho.
+{%endaside%}
+
 There are other names which are probably derived from the European name of ‘mill’:‌[@MkeleMorabaraba p. 134] an alternate Sesotho name is <span lang="st" class="aka">mmila</span>/<span lang="st" class="aka">’mila</span>, ‘road’.‌[@UsingGamesToPromote p. 283] This is also sometimes given as <span lang="st" class="aka">mmela</span>.[@IncorporatingTheIndigenous p. 378]
 
-In some places, the name <span lang="tn">morabaraba</span> refers solely to a mancala game, and the board game goes by other names. This is the case in Botswana,[@CulturalGamesBotswana] where it is called <span lang="tn" class="aka">mohele</span> or <span lang="tn" class="aka">mhele</span> in Setswana (‘reedbuck’[@OldTswana p. 350] or ‘grey rhebuck’,[@SetswanaEnglishAfrikaans p. 92] a type of antelope), and also the neighbouring South African province [Limpopo](https://en.wikipedia.org/wiki/Limpopo), where it is called <span class="aka" lang="nso">mmela</span> (possibly in Sepedi).{%fn%}Because of the large overlap of names, in written descriptions <span class="noun" lang="st">Morabaraba</span> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, @MorabarabaGetOnBoard).{%endfn%}
+In some places, the name <span lang="tn">morabaraba</span> refers solely to a mancala game, and the board game goes by other names. This is the case in Botswana,[@CulturalGamesBotswana] where it is called <span lang="tn" class="aka">mohele</span> or <span lang="tn" class="aka">mhele</span> in Setswana (‘reedbuck’[@OldTswana p. 350] or ‘grey rhebuck’,[@SetswanaEnglishAfrikaans p. 92] a type of antelope), and also the neighbouring South African province [Limpopo](https://en.wikipedia.org/wiki/Limpopo), where it is called <span class="aka" lang="nso">mmela</span> (possibly in sePedi).{%fn%}Because of the large overlap of names, in written descriptions <span class="noun" lang="st">Morabaraba</span> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, @MorabarabaGetOnBoard).{%endfn%}
 
 A distinctive feature of this game is its bovine theme: in each language, the pieces are called ‘cows’. In Sesotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌[@UseOfMorabara p. 588] in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). In isiZulu a mill is a {% pronounce pronouncer="Lungii" word="isibhamu" lang="zu" %} (‘gun’), which allows you to “shoot” an opponent’s cow, while in Sesotho the mill is called a <span lang="st">molamu</span> (a staff carried by shepherds), and you can eat (<span lang="st">ja</span>) a cow.[@BasothoChildren p. 36]
 
