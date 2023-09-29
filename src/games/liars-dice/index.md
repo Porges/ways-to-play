@@ -40,8 +40,7 @@ It was also popular with journalists, appearing in 1940 across [Kuching](https:/
 
 In 1942, one writer stated that “anyone who has spent some time in China or the Philippines” would know of the game, while their correspondent described some restrictions on the game: that only one number of dice could be altered, and that following players must use the same number of throws.[@GallopingIvories]
 
-At the end of WW2 the game begins to appear in reference works for the first time, at first in the 1944 @ModernHoyle1944 [p. 235], where it is described as “very popular in the United States Army”. The instructions describe the two-player game with a screen, as in the earliest 1934 reference.
-
+At the end of the Second World War the game began to appear in reference works for the first time, at first in the 1944 @ModernHoyle1944 [p. 235], where it was described as “very popular in the United States Army”. The instructions described the two-player game with a screen, as in the earliest 1934 reference.
 
 1976: @ComeUp [p. 17–26], and its later expansion @WorldsBestDiceGames1981 [p. 25–50]
 

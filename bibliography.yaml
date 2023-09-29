@@ -10505,6 +10505,7 @@ TheBreretonDiaries:
   author:
   - given: Lewis H.
     family: Brereton
+    url: https://en.wikipedia.org/wiki/Lewis_H._Brereton
   issued: 1946
   publisher: William Morrow and Company
   publisher-place: New York
@@ -10568,10 +10569,14 @@ SettingSunOfJapan:
   title: The Setting Sun of Japan
   URL: https://archive.org/details/settingsunofjapa0000carl
   author:
-  - given: Carl
+  - &Carl_Randau
+    given: Carl
     family: Randau
-  - given: Leane
+    url: https://en.wikipedia.org/wiki/Carl_Randau
+  - &Leane_Zugsmith
+    given: Leane
     family: Zugsmith
+    url: https://en.wikipedia.org/wiki/Leane_Zugsmith
   publisher: Random House
   publisher-place: New York
   issued: 1942
@@ -10581,10 +10586,8 @@ YearOfWrath:
   title: Year of Wrath
   page: 11–12, 51–57
   author:
-  - given: Carl
-    family: Randau
-  - given: Leane
-    family: Zugsmith
+  - *Carl_Randau
+  - *Leane_Zugsmith
   in:
     title: Collier’s
     issued:
@@ -10599,6 +10602,7 @@ ModernHoyle1944:
   author:
   - given: Albert H.
     family: Morehead
+    url: https://en.wikipedia.org/wiki/Albert_Hodges_Morehead
   publisher: The John C. Winston Company
   publisher-place: Philadelphia, PA
 WorldsBestDiceGames1981:
