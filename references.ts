@@ -16,9 +16,10 @@ export function renderReference(ref: BiblioRef): string {
         + renderAuthors(ref)
         + renderDate(ref)
         + renderTitle(ref)
-        + ('series' in ref ? renderSeries(ref, '; ', '') : '')
-        + '. '
+        + renderEditor(ref)
         + renderTranslator(ref)
+        + renderSeries(ref, '; ', '')
+        + '. '
         + renderPatentBits(ref)
         + renderContainer(ref)
         + (ref.type === 'thesis' ? ` ${ref.genre}, ` : '')
@@ -187,7 +188,18 @@ const renderAuthors = (reference: Reference) => {
 
 function renderTranslator(reference: Reference) {
     if ('translator' in reference && reference.translator) {
-        return ` Translated by ${renderPeople(reference.translator, false, false, 'translator')}. `
+        return `, translated by ${renderPeople(reference.translator, false, false, 'translator')}`;
+    }
+
+    return '';
+}
+
+function renderEditor(reference: Reference) {
+    if (reference.author !== undefined) {
+        // if author was not present we would have shown editor as author
+        if ('editor' in reference && reference.editor) {
+            return `, edited by ${renderPeople(reference.editor, false, false, 'editor')}`;
+        }
     }
 
     return '';

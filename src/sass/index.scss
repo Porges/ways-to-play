@@ -347,6 +347,12 @@ div.multi {
             width: 100%;
         }
     }
+
+}
+
+// equal-width (as opposed to equal-height)
+div.multi.equal > * {
+    flex: 1 1 0px;
 }
 
 div.wide, div.extra-wide {
@@ -987,4 +993,10 @@ a[itemprop="license"] {
 .dice {
     // don't wrap inside dice
     white-space: nowrap;
+}
+
+// Markdown output often generates empty paragraphs between
+// figures etc. Remove them.
+p:empty {
+    display: none;
 }

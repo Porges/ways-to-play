@@ -194,6 +194,10 @@ history: https://opinionatedgamers.com/2015/07/13/sdj-re-reviews-15-bluff-a-k-a-
 1982 "lie dice" https://archive.org/details/fearnoevil00davi/page/244/mode/2up?q=%22lie+dice%22
 
 ---
+
+recent refs: @OfficialWorldEncyclopedia [p. 124]
+
+---
 COmputer version: https://www.mobygames.com/game/204287/max/
 
 

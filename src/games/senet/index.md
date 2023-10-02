@@ -63,3 +63,5 @@ A painting from Queen Nefertari’s tomb, depicting her playing Senet, <abbr tit
 Ref: [@OxfordBG p. 66] [@Falkener p. 71] [@Bell vol. 1, p. 26] [@Murray2 §2.1.1, p. 13, §2.1.7, p. 17]
 
 Font test: <span lang="egy-Latn">ꞽsb</span> or <span lang="egy-Latn">ꞽꜣsb</span>.
+
+See: @DebunkingSenet

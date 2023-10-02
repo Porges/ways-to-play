@@ -80,25 +80,25 @@ Drop Handkerchief 4th most popular game at Lousville playgrounds in 1901.[@Louis
 
 ---
 
-German description: https://archive.org/details/erziehungundunt02unkngoog/page/n63/mode/2up?q=%CF%83%CF%87%CE%BF%CE%B9%CE%BD%CE%BF%CF%86%CE%B9%CE%BB%CE%AF%CE%BD%CE%B4%CE%B1
+German description: @LorenzGrasberger1 [p. 52], Das Plumpsackspiel 
 
-spellings: (https://archive.org/details/greekenglishlexi01lidd/page/1458/mode/2up?q=%CF%83%CF%87%CE%BF%CE%B9%CE%BD%CE%BF%CF%86%CE%B9%CE%BB%CE%AF%CE%BD%CE%B4%CE%B1)
+spellings: @GreekEnglishLexicon [p. 1459]  
 
 Drop-Cloth 
 
 French <span lang="fr">jeu de mouchoir</span>, Dutch <span lang="nl">zakdoekje leggen</span> (in Flanders <span lang="nl-BE">zakdoek leggen</span>).
 
+@MannersAncientGreece1 [p. 154] - Schœnophilinda.
 
-https://www.hellenicaworld.com/Greece/Literature/JamesAugustusStJohn/en/HistoryMannersAGreece1.html
 https://drum.lib.umd.edu/bitstream/handle/1903/9209/Layne_umd_0117N_10038.pdf?isAllowed=y&sequence=1
 
 
-Kiss in the ring (also thread-the-needle):
-https://archive.org/details/b29326072_0001/page/347/mode/2up
-https://archive.org/details/b29326072_0002/page/333/mode/2up?q=handkerchief
+- Kiss in the ring (also thread-the-needle): @EveryDayBook1 [p. 692]
+- drop handkerchief, kss in the ring: @EveryDayBook2 [p. 666]
 
 Also [@ShropshireFolklore3 p. 512]
 
 ---
 
-Called Kebeto in Ethiopia https://allaboutethio.com/10-best-ethiopian-traditional-sports-games.html
+Called Kebeto in Ethiopia https://allaboutethio.com/10-best-ethiopian-traditional-sports-games.html or Mehareben Yayachiw/Yayachihu (መሀረቤን ያያችሁ): https://www.youtube.com/watch?v=n11MPNDHC18 https://press.et/herald/?p=21771 (https://web.archive.org/web/20231001231632/https://press.et/herald/?p=21771)
+https://dlalaproject.com/archive/ ‘have you seen my handkerchief’ https://www.youtube.com/watch?v=S8q90YeGDNc

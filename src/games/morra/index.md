@@ -31,6 +31,8 @@ https://www.britishmuseum.org/collection/object/P_1865-0610-1320
 
 Mentioned in @DiversChoiceRemarks [p. 266]
 
+Arabic: Lane says: خَرَاجِ / خراج ‘khrāj’, or خَرِيجٌ: http://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/
+
 
 ## Chinese games
 

@@ -45,6 +45,7 @@ Falkener:
   author:
     - family: Falkener
       given: Edward
+      url: https://en.wikipedia.org/wiki/Edward_Falkener
   issued:
     year: 1961
   publisher: Dover Publications
@@ -143,8 +144,7 @@ NineMensDice:
   in: &bgs3
     title: Board Games Studies
     volume: 3
-    issued:
-      year: 2000
+    issued: 2000
     publisher: Research School CNWS
     publisher-place: Leiden, Netherlands
 FalkenerReview:
@@ -255,8 +255,10 @@ Zaslavsky:
   type: book
   title: Math Games & Activities from Around the World
   author:
-    - given: Claudia
+    - &Zaslavsky
+      given: Claudia
       family: Zaslavsky
+      url: https://en.wikipedia.org/wiki/Claudia_Zaslavsky
   issued:
     year: 1998
   ISBN: 1-55652-287-8
@@ -269,6 +271,7 @@ VoyageToPacific:
   author:
     - given: James
       family: King
+      url: https://en.wikipedia.org/wiki/James_King_(Royal_Navy_officer)
   issued:
     year: 1784
   publisher: W. and A. Strahan
@@ -352,6 +355,7 @@ Ellis17:
   author:
     - given: William
       family: Ellis
+      url: https://en.wikipedia.org/wiki/William_Ellis_(missionary)
   issued:
     year: 1917
   original-date:
@@ -781,8 +785,10 @@ TreatiseOnTheGameOfWhist:
   title: A Short Treatise On the Game of Whist
   URL: https://booksongaming.com/hoyle/bibliography/books/whist.1.1.xml
   author:
-    - given: Edmond
+    - &Edmond_Hoyle
+      given: Edmond
       family: Hoyle
+      url: https://en.wikipedia.org/wiki/Edmond_Hoyle
   issued:
     year: 1742
   publisher-place: London
@@ -932,8 +938,7 @@ AccurateGamester:
     year: 1748
   edition: 9
   author:
-    - given: Edmond
-      family: Hoyle
+  - *Edmond_Hoyle
   publisher: Thomas Osborne
   publisher-place: London
   notes: Reissue of first 1748 edition.
@@ -954,6 +959,7 @@ CourtGamester:
   author:
     - given: Richard
       family: Seymour
+      url: https://en.wikipedia.org/wiki/Richard_Seymour_(18th-century_writer)
   issued:
     year: 1722
   publisher-place: London, England, UK
@@ -1018,8 +1024,7 @@ AfricaCounts:
   type: book
   title: Africa Counts
   author:
-    - given: Claudia
-      family: Zaslavsky
+  - *Zaslavsky
   issued:
     year: 1999
   edition: 3
@@ -1033,8 +1038,7 @@ TicTacToe:
   title: Tic Tac Toe and other three-in-a-row games from Ancient Egypt to the
     modern computer
   author:
-    - given: Claudia
-      family: Zaslavsky
+  - *Zaslavsky
   issued:
     year: 1982
   ISBN: 0-690-04317-1
@@ -1085,8 +1089,10 @@ Hyde1:
     value: Mandragorias, Seu Historia Shahiludii
     lang: la
   author:
-    - family: Hyde
+    - &Thomas_Hyde
+      family: Hyde
       given: Thomas
+      url: https://en.wikipedia.org/wiki/Thomas_Hyde
   issued:
     year: 1694
   publisher:
@@ -1104,8 +1110,7 @@ Hyde2:
     value: Historia Nerdiludii
     lang: la
   author:
-    - family: Hyde
-      given: Thomas
+  - *Thomas_Hyde
   issued:
     year: 1694
   publisher:
@@ -1258,8 +1263,10 @@ GommeI:
   volume: 1
   volume-title: Traditional Games
   author:
-    - family: Gomme
+    - &Alice_Gomme
+      family: Gomme
       given: Alice Bertha
+      url: https://en.wikipedia.org/wiki/Alice_Gomme
   publisher: David Nutt
   publisher-place: London, UK
   URL: https://archive.org/details/traditionalgames01gommuoft
@@ -1271,8 +1278,7 @@ GommeII:
   volume: 2
   volume-title: Oats and Beans — Would You Know
   author:
-    - family: Gomme
-      given: Alice Bertha
+  - *Alice_Gomme
   publisher: David Nutt
   publisher-place: London, UK
   URL: https://archive.org/details/traditionalgames02gommuoft
@@ -1361,6 +1367,7 @@ PeterBuck:
   author:
     - family: Buck
       given: Peter
+      url: https://en.wikipedia.org/wiki/Peter_Buck_(anthropologist)
   issued:
     year: 1957
   publisher: Bishop Museum Press
@@ -1445,8 +1452,10 @@ CardGamesAmongAborigines:
   author:
     - given: Ronald M.
       family: Berndt
+      url: https://en.wikipedia.org/wiki/Ronald_Berndt
     - given: Catherine H.
       family: Berndt
+      url: https://en.wikipedia.org/wiki/Catherine_Berndt
   page: 248–269
   URL: https://www.jstor.org/stable/40328119
   in:
@@ -1670,6 +1679,7 @@ SteeleTeeko:
   author:
     - family: Steele
       given: Guy
+      url: https://en.wikipedia.org/wiki/Guy_L._Steele_Jr.
   issued:
     year: 1998
     month: 11
@@ -2114,12 +2124,12 @@ HeimannLoop:
       family: Heimann
   page: 51–61
   URL: http://bgsj.ludus-opuscula.org/Home/ArticleDetails/99
-  in:
+  in: &bgs8
     publisher:
       value: Associação Ludus
       lang: pt
     publisher-place: Lisboa, Portugal
-    title: Board Game Studies Journal
+    title: Board Game Studies
     volume: 8
     issued:
       year: 2014
@@ -2131,10 +2141,13 @@ WinningWaysV3:
   author:
     - given: Elwyn
       family: Berlekamp
+      url: https://en.wikipedia.org/wiki/Elwyn_Berlekamp
     - given: John
       family: Conway
+      url: https://en.wikipedia.org/wiki/John_Horton_Conway
     - given: Richard
       family: Guy
+      url: https://en.wikipedia.org/wiki/Richard_K._Guy
   publisher: A K Peters
   publisher-place: Natick, MA, USA
   issued:
@@ -2170,6 +2183,7 @@ CrokerCrofton:
   author:
     - given: Thomas Crofton
       family: Croker
+      url: https://en.wikipedia.org/wiki/Thomas_Crofton_Croker
   publisher: John Murray
   publisher-place: Albemarle Street, London, UK
   issued:
@@ -2240,8 +2254,10 @@ AncientEgyptiansAtPlay:
       given: Walter
     - family: Dunn-Vaturi
       given: Anne-Elizabeth
-    - family: de Voogt
+    - &Alex_de_Voogt
       given: Alex
+      family: de Voogt
+      url: https://en.wikipedia.org/wiki/Alexander_de_Voogt
   publisher: Bloomsbury Academic
   publisher-place: London, UK
   issued:
@@ -3413,6 +3429,9 @@ FlowersAndGardensOfJapan:
   type: book
   title: The Flowers And Gardens Of Japan
   author:
+    - given: Ella
+      family: Du Cane
+      url: https://en.wikipedia.org/wiki/Ella_Du_Cane
     - given: Florence
       family: Du Cane
   issued:
@@ -3841,6 +3860,7 @@ IndictmentsAndPleas:
   author:
     - given: Francis
       family: Wharton
+      url: https://en.wikipedia.org/wiki/Francis_Wharton
   issued:
     year: 1849
   publisher: James Kay, Jr. & Brother
@@ -4802,6 +4822,20 @@ LaneTab:
     year: 2021
   URL: http://arabiclexicon.hawramani.com/?p=1107&book=50#fba865
   archive-URL: https://web.archive.org/web/20220118011931/http://arabiclexicon.hawramani.com/%d8%b7%d8%a8%d9%86/?book=50#fba865
+ModernEgyptians:
+  type: book
+  title: "An Account of the Manners and Customs of the Modern Egyptians: Written in Egypt during the Years 1833–1835"
+  URL: https://archive.org/details/accountofmanners00laneuoft
+  author:
+  - given: Edward William
+    family: Lane
+    url: https://en.wikipedia.org/wiki/Edward_William_Lane
+  edition: 3
+  issued: 1940
+  original-date:
+    year: 1842
+  publisher: Ward, Lock and Co.
+  publisher-place: London
 AdjiBoto:
   type: article-journal
   title: Adjiboto, an African Game of the Bush-Negroes of Dutch Guiana
@@ -4867,6 +4901,7 @@ Trostspiegel:
   author:
     - family: Petrarca
       given: Francesco
+      url: https://en.wikipedia.org/wiki/Petrarch
   publisher-place: Frankfurt
   URL: https://www.digitale-sammlungen.de/en/view/bsb10149651
   issued:
@@ -4986,6 +5021,9 @@ JavaanseKaartspelen:
   author:
     - given: Tjan Tjoe
       family: Siem
+      alt:
+        value: 曾祖沁
+        lang: zh
   publisher-place: Bandung, West Java, Indonesia
   publisher: A. C. Nix & Co.
   issued:
@@ -5167,11 +5205,13 @@ SchadlerMisconceptions:
       family: Schädler
   page: 79–97
   URL: https://doi.org/10.2478/bgs-2021-0004
-  in:
-    title: Board Game Studies Journal
+  in: &bgs15
+    title: Board Game Studies
+    publisher: De Gruyter
     volume: 15
     issue: 1
     issued:
+      month: 4
       year: 2021
 FrancisWillughby:
   type: book
@@ -5196,8 +5236,10 @@ GamesOfNewZealandChildren:
   type: chapter
   title: The Games of New Zealand Children
   author:
-    - given: Brian
+    - &Brian_Sutton_Smith
+      given: Brian
       family: Sutton–Smith
+      url: https://en.wikipedia.org/wiki/Brian_Sutton-Smith
   page: 5–257
   in:
     title: The Folk-Games of Children
@@ -5454,9 +5496,11 @@ LouisMoland:
     value: "François Rabelais: tout ce qui existe de ses œuvres"
     lang: fr
   author:
-    - given: François
+    - &rabelais
+      given: François
       family: Rabelais
       lang: fr
+      url: https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais
   editor:
     - family: Moland
       given: Louis
@@ -5474,9 +5518,7 @@ EtienneDolet:
     value: La Plaiſante, & Ioyeuse hiſtoyre du grand Geant Gargantua
     lang: fr
   author:
-    - given: François
-      family: Rabelais
-      lang: fr
+  - *rabelais
   publisher:
     value: Eſtienne Dolet
     lang: fr
@@ -5490,9 +5532,7 @@ Juste1535:
     value: La vie inestimable du grand Gargantua, pere de Pantagruel, iadis cōpoſee par L’abſtracteur de quite eſsēce
     lang: fr
   author:
-  - given: François
-    family: Rabelais
-    lang: fr
+  - *rabelais
   publisher-place: Lyon, France
   publisher:
     value: François Juste
@@ -5505,9 +5545,7 @@ Juste1542:
     value: La vie treshorrificque du grand Gargantua, pere de Pantagruel, iadis cōpoſee par M. Alcofribas abſtracteur de quinte eſſence
     lang: fr
   author:
-  - given: François
-    family: Rabelais
-    lang: fr
+  - *rabelais
   publisher-place: Lyon, France
   publisher:
     value: François Juste
@@ -5544,9 +5582,7 @@ Screech:
   type: book
   title: Gargantua and Pantagruel
   author:
-    - given: François
-      family: Rabelais
-      lang: fr
+  - *rabelais
   translator:
     - given: M. A.
       family: Screech
@@ -5563,9 +5599,7 @@ Juste1534:
     lang: fr
   URL: https://gallica.bnf.fr/ark:/12148/btv1b8609586k/f76.item
   author:
-    - given: François
-      family: Rabelais
-      lang: fr
+  - *rabelais
   publisher:
     value: François Juste
     lang: fr
@@ -5577,9 +5611,7 @@ BrownGargantua:
   title: "Gargantua: the most horrific life of the great Gargantua, father of Pantagruel"
   URL: https://archive.org/details/gargantuamosthor0000rabe
   author:
-    - given: François
-      family: Rabelais
-      lang: fr
+  - *rabelais
   translator:
     - given: Andrew
       family: Brown
@@ -5596,9 +5628,7 @@ CohenRabelais:
   - given: J. M.
     family: Cohen
   author:
-  - given: François
-    family: Rabelais
-    lang: fr
+  - *rabelais
   issued:
     year: 1975
   publisher: Penguin
@@ -5836,6 +5866,7 @@ Strutt:
   author:
     - family: Strutt
       given: Joseph
+      url: https://en.wikipedia.org/wiki/Joseph_Strutt_(engraver_and_antiquary)
   issued:
     year: 1810
   publisher: T. Bensley
@@ -5865,6 +5896,7 @@ RememberingChinatown:
     editor:
       - given: Manying
         family: Ip
+        url: https://en.wikipedia.org/wiki/Manying_Ip
     ISBN: "1869402898"
     publisher: Auckland University Press
     publisher-place: Auckland, New Zealand
@@ -6277,6 +6309,7 @@ LimehouseNights:
   author:
     - family: Burke
       given: Thomas
+      url: https://en.wikipedia.org/wiki/Thomas_Burke_(author)
   issued:
     year: 1917
   publisher: Robert M. McBride & Company
@@ -6390,6 +6423,7 @@ MarathonMonument:
   author:
     - family: Vanderpool
       given: Eugene
+      url: https://en.wikipedia.org/wiki/Eugene_Vanderpool
   page: 93–106
   URL: https://www.jstor.org/stable/147299
   in:
@@ -6456,6 +6490,7 @@ AcademyOfArmory3:
   author:
     - family: Holme
       given: Randle
+      url: https://en.wikipedia.org/wiki/Randle_Holme
   issued:
     year: 1688
   publisher-place: Chester, Cheshire, England
@@ -6505,6 +6540,7 @@ OldManawatu:
   author:
     - given: Thomas Lindsay
       family: Buick
+      url: https://en.wikipedia.org/wiki/Lindsay_Buick
   publisher: Buick & Young
   publisher-place: Palmerston North, New Zealand
   issued:
@@ -6767,6 +6803,7 @@ RoughingIt:
   author:
     - given: Mark
       family: Twain
+      url: https://en.wikipedia.org/wiki/Mark_Twain
   issued:
     year: 1872
   URL: https://archive.org/details/cu31924022606465
@@ -7024,8 +7061,7 @@ StudyOfGames:
   author:
     - given: Elliott M.
       family: Avedon
-    - given: Brian
-      family: Sutton–Smith
+    - *Brian_Sutton_Smith
   issued: 1971
   ISBN: "0471038393"
   publisher: John Wiley & Sons
@@ -7130,8 +7166,9 @@ LondonStreetGames:
   author:
     - given: Douglas
       family: Norman
+      url: https://en.wikipedia.org/wiki/Norman_Douglas
   issued: 1916
-  publisher: The St. Catherine Press
+  publisher: St. Catherine Press
   publisher-place: London
 Petroniana1960:
   type: article-journal
@@ -7153,6 +7190,7 @@ Petroniana1959:
   author:
     - given: Lydia
       family: Baumbach
+      url: https://en.wikipedia.org/wiki/Lydia_Baumbach
   URL: https://doi.org/10520/AJA00651141_4
   in:
     title: "Acta Classica: Proceedings of the Classical Association of South Africa"
@@ -7166,10 +7204,14 @@ LoreAndLanguage:
   title: The Lore and Language of Schoolchildren
   URL: https://archive.org/details/lorelanguageofsc0000iona
   author:
-    - given: Iona
+    - &Iona_Opie 
+      given: Iona
       family: Opie
-    - given: Peter
+      url: https://en.wikipedia.org/wiki/Iona_and_Peter_Opie
+    - &Peter_Opie
+      given: Peter
       family: Opie
+      url: https://en.wikipedia.org/wiki/Iona_and_Peter_Opie
   publisher: Oxford University Press
   publisher-place: United Kingdom
   issued: 1959
@@ -7177,10 +7219,8 @@ ChildrensGamesInStreet:
   type: book
   title: Children’s Games in Street and Playground
   author:
-    - given: Iona
-      family: Opie
-    - given: Peter
-      family: Opie
+  - *Iona_Opie
+  - *Peter_Opie
   issued: 1969
   publisher: Oxford University Press
   publisher-place: London
@@ -7213,6 +7253,7 @@ TaylorsMotto:
   author:
     - given: John
       family: Taylor
+      url: https://en.wikipedia.org/wiki/John_Taylor_(poet)
 PopularRhymes:
   title: "Popular Rhymes and Nursery Tales: A sequel to the Nursery Rhymes of England"
   author:
@@ -7227,10 +7268,14 @@ ShropshireFolklore1:
   title: "Shropshire Folk-lore: A Sheaf of Gleanings"
   type: book
   author:
-    - given: Georgina Frederica
+    - &Georgina_Frederica_Jackson
+      given: Georgina Frederica
       family: Jackson
-    - given: Charlotte Sophia
+      url: https://en.wikipedia.org/wiki/Georgina_Frederica_Jackson
+    - &Charlotte_Sophia_Burne
+      given: Charlotte Sophia
       family: Burne
+      url: https://en.wikipedia.org/wiki/Charlotte_Sophia_Burne
   issued: 1883
   publisher: Trübner & Co
   publisher-place: London
@@ -7240,10 +7285,8 @@ ShropshireFolklore2:
   title: "Shropshire Folk-lore: A Sheaf of Gleanings"
   type: book
   author:
-    - given: Georgina Frederica
-      family: Jackson
-    - given: Charlotte Sophia
-      family: Burne
+    - *Georgina_Frederica_Jackson
+    - *Charlotte_Sophia_Burne
   issued: 1885
   publisher: Trübner & Co
   publisher-place: London
@@ -7253,10 +7296,8 @@ ShropshireFolklore3:
   title: "Shropshire Folk-lore: A Sheaf of Gleanings"
   type: book
   author:
-    - given: Georgina Frederica
-      family: Jackson
-    - given: Charlotte Sophia
-      family: Burne
+  - *Georgina_Frederica_Jackson
+  - *Charlotte_Sophia_Burne
   issued: 1886
   publisher: Trübner & Co
   publisher-place: London
@@ -7299,6 +7340,7 @@ PopishImpostures:
   author:
     - given: Samuel
       family: Harsnett
+      url: https://en.wikipedia.org/wiki/Samuel_Harsnett
   publisher: Iames Roberts
   publisher-place: London
   issued: 1603
@@ -7309,6 +7351,7 @@ InnerTempleMasque:
   author:
     - given: Thomas
       family: Middleton
+      url: https://en.wikipedia.org/wiki/Thomas_Middleton
   issued: 1619
   URL: http://name.umdl.umich.edu/A07503.0001.001
   publisher: Iohn Brovvne
@@ -7320,10 +7363,13 @@ GreekEnglishLexicon:
   author:
     - given: Henry George
       family: Liddell
+      url: https://en.wikipedia.org/wiki/Henry_Liddell
     - given: Robert
       family: Scott
+      url: https://en.wikipedia.org/wiki/Robert_Scott_(philologist)
     - given: Henry
       family: Drisler
+      url: https://en.wikipedia.org/wiki/Henry_Drisler
   publisher: Harper & Brothers
   publisher-place: New York
   issued: 1867
@@ -7333,8 +7379,11 @@ Nomenclator1585:
   author:
     - given: Hadrianus
       family: Junius
+      url: https://en.wikipedia.org/wiki/Hadrianus_Junius
+      alt: Adriaen de Jonghe
     - given: Abraham
       family: Fleming
+      url: https://en.wikipedia.org/wiki/Abraham_Fleming
   issued: 1585
   type: book
   publisher-place: London
@@ -7358,10 +7407,13 @@ Rider1640:
     till now, to the perfecting of the worke
   URL: https://books.google.co.nz/books?id=lkJJAAAAcAAJ
   author:
-    - given: John
+    - &John_Rider
+      given: John
       family: Rider
+      url: https://en.wikipedia.org/wiki/John_Rider_(bishop)
     - given: Francis
       family: Holy-Oke
+      url: https://en.wikipedia.org/wiki/Francis_Holyoake
   issued: 1640
   original-date:
     year: 1617
@@ -7371,8 +7423,7 @@ Rider1589:
   title: Bibliotheca Scholastica
   type: book
   author:
-    - given: John
-      family: Rider
+  - *John_Rider
   issued: 1589
   publisher-place: Oxford
   publisher: Joseph Barnes
@@ -7393,6 +7444,7 @@ GamesAndSongsAmericanChildren:
   author:
     - given: William Wells
       family: Newell
+      url: https://en.wikipedia.org/wiki/William_Wells_Newell
   issued: 1884
   publisher: Harper & Brothers
   publisher-place: New York
@@ -7403,6 +7455,7 @@ LittlePrettyPocket:
   author:
     - given: John
       family: Newbery
+      url: https://en.wikipedia.org/wiki/John_Newbery
   issued: 1787
   publisher: Isaiah Thomas
   publisher-place: Worcester, Massachusetts
@@ -7579,6 +7632,7 @@ IlGiocoDeGliScacchi:
     - given: Pietro
       family: Carrera
       lang: it
+      url: https://en.wikipedia.org/wiki/Pietro_Carrera
   issued: 1617
   publisher-place: Militello
   publisher: Giovanni Rosso
@@ -7592,6 +7646,7 @@ ReizeNaarArabie:
     - given: Carsten
       family: Niebuhr
       lang: nl
+      url: https://en.wikipedia.org/wiki/Carsten_Niebuhr
   issued: 1776
   publisher-place: Amsterdam & Utrecht
 TipcatAndOtherChineseGames:
@@ -7680,9 +7735,13 @@ LexiconLinguaeAethiopicae:
   volume-title: ሀ፡ — ነኀረ፡
   issued: 1862
   author:
-    - given: Augusto
+    - given: Augusti
       family: Dillmann
       lang: de
+      alt:
+        value: Christian Friedrich August Dillmann
+        lang: de
+      url: https://en.wikipedia.org/wiki/August_Dillmann
   publisher: T. O. Weigel
   publisher-place: Leipzig, Germany
   URL: https://books.google.co.nz/books?id=aitRAAAAcAAJ
@@ -7782,8 +7841,11 @@ DictionnaireAncienne3:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
   author:
-    - given: Fédéric
+    - &Frederic_Godefroy
+      given: Frédéric
       family: Godefroy
+      lang: fr
+      url: https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Godefroy
   volume: 3
   volume-title: É–FILDRON
   issued: 1884
@@ -7795,8 +7857,7 @@ DictionnaireAncienne4:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
   author:
-    - given: Fédéric
-      family: Godefroy
+  - *Frederic_Godefroy
   volume: 4
   volume-title: FILÉ–LISTAGE
   issued: 1885
@@ -7845,6 +7906,7 @@ ThingsChinese:
   author:
     - given: James Dyer
       family: Ball
+      url: https://en.wikipedia.org/wiki/James_Dyer_Ball
   edition: 4
   issued: 1903
   publisher: Kelly & Walsh
@@ -8508,8 +8570,10 @@ CountyFolklore5:
   volume: 5
   volume-title: "Printed Extracts No. VII: Examples of Printed Folk-Lore Concerning Lincolnshire"
   editor:
-  - given: Eliza
+  - &Eliza_Gutch
+    given: Eliza
     family: Gutch
+    url: https://en.wikipedia.org/wiki/Eliza_Gutch
   - given: Mabel
     family: Peacock
   issued: 1908
@@ -8525,8 +8589,7 @@ CountyFolklore6:
   volume: 6
   volume-title: "Printed Extracts No. VIII: Examples of Printed Folk-Lore Concerning the East Riding of Yorkshire"
   editor:
-    - given: Eliza
-      family: Gutch
+  - *Eliza_Gutch
   issued: 1912
   URL: https://archive.org/details/countyfolklore06folkuoft
   publisher: David Nutt
@@ -8583,6 +8646,7 @@ LakiCharms:
 GamblingFutures:
   type: chapter
   title: "Gambling Futures: Playing the Imminent in Highland Papua New Guinea"
+  URL: https://doi.org/10.1515/9781782383512-006
   author:
     - family: Pickles
       given: Anthony
@@ -8743,6 +8807,7 @@ TurkishEnglishLexicon:
   author:
   - given: James W.
     family: Redhouse
+    url: https://en.wikipedia.org/wiki/James_Redhouse
   publisher-place: Constantinople, Turkey
   publisher: A. H. Boyajian
   issued: 1890
@@ -8753,8 +8818,11 @@ JeuxDeParcours:
     value: Jeux de parcours du monde arabo-musulman (Afrique du Nord et Proche-Orient)
     lang: fr
   author:
-  - given: Thierry
+  - &Thierry_Depaulis
+    given: Thierry
     family: Depaulis
+    lang: fr
+    url: https://en.wikipedia.org/wiki/Thierry_Depaulis
   URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf
   page: 53–76
   in: &bgs4
@@ -8811,8 +8879,7 @@ HistoryOfTab:
   URL: https://doi.org/10.1086/690502
   title: "The History and Distribution of <span lang='ar-Latn'>ṭāb</span>: A Survey of Petra’s Gaming Boards"
   author:
-  - given: Alex
-    family: de Voogt
+  - *Alex_de_Voogt
   - given: Ahmad B. A.
     family: Hassanat
   - given: Mahmoud B.
@@ -8841,8 +8908,7 @@ ComputerizingTab:
     family: Faris
   - given: Mahmoud B.
     family: Alhasanat
-  - given: Alex
-    family: de Voogt
+  - *Alex_de_Voogt
   - given: Baker
     family: Al-Rawashdeh
   - given: Mohammed
@@ -9206,6 +9272,7 @@ CompleatGamester:
   author:
   - given: Charles
     family: Cotton
+    url: https://en.wikipedia.org/wiki/Charles_Cotton
   issued: 1674
   URL: https://books.google.com/books?id=FupmAAAAcAAJ
   publisher-place: London
@@ -9270,6 +9337,7 @@ TresMousquetaires:
   - given: Alexandre
     family: Dumas
     lang: fr
+    url: https://en.wikipedia.org/wiki/Alexandre_Dumas
   volume: 3
   issued: 1844
   publisher:
@@ -9283,6 +9351,7 @@ ClassicalDictionaryVulgar:
   author:
   - given: Francis
     family: Grose
+    url: https://en.wikipedia.org/wiki/Francis_Grose
   issued: 1785
   publisher: S. Hooper
   publisher-place: London
@@ -9386,6 +9455,7 @@ PhilipSkippon:
   author:
   - given: Philip
     family: Skippon
+    url: https://en.wikipedia.org/wiki/Philip_Skippon_(1641%E2%80%931691)
   URL: https://archive.org/details/accountofjourney00skip
   issued: 1732
   volume: 6
@@ -9410,6 +9480,8 @@ WorldeOfWordes:
   author:
   - given: John
     family: Florio
+    alt: Giovanni Florio
+    url: https://en.wikipedia.org/wiki/John_Florio
   publisher: Edward Blount
   publisher-place: London
   issued: 1598
@@ -9538,8 +9610,7 @@ SummonsFragment:
   type: webpage
   title: Summons of the Soul (a fragment)
   author:
-  - given: Alex
-    family: de Voogt
+  - *Alex_de_Voogt
   URL: https://exchanges.uiowa.edu/ancient/issues/diversions/liubo/
   archive-URL: https://web.archive.org/web/20230108014330/https://exchanges.uiowa.edu/ancient/issues/diversions/liubo/
   container-title: Ancient Exchanges
@@ -9997,6 +10068,7 @@ BambooFire:
 MoneyGames:
   type: book
   title: 'Money Games: Gambling in a Papua New Guinea Town'
+  URL: https://doi.org/10.3167/9781789202212
   author:
   - given: Anthony J.
     family: Pickles
@@ -10031,6 +10103,7 @@ EssayDAnalyse:
   - given: Pierre
     family: Rémond de Montmort
     lang: fr
+    url: https://en.wikipedia.org/wiki/Pierre_Remond_de_Montmort
   issued: 1713
   publisher:
     value: Jacque Quillau
@@ -10273,8 +10346,9 @@ DiceGamesFrey:
   - given: Skip
     family: Frey
   issued: 1978
-  publisher: Sphere Books Limited
+  publisher: Sphere Books
   publisher-place: London
+  ISBN: '0722136811'
 PigtailAddendum:
   type: article-journal
   title: 'Pigtail: A Pig Addendum'
@@ -10870,3 +10944,366 @@ NuisancesOrdinanceHongKong:
   - given: University of Hong Kong Libraries
   URL: https://oelawhk.lib.hku.hk/items/show/299
   archive-URL: https://web.archive.org/web/20230929220438/https://oelawhk.lib.hku.hk/items/show/299
+DiceGamesBelton:
+  type: book
+  title: Dice Games
+  URL: https://archive.org/details/dicegames0000belt
+  author:
+  - given: John
+    family: Belton
+  issued: 1976
+  ISBN: 081720024X
+  publisher: Raintree Publishers
+  publisher-place: Milwaukee, Wisconsin, USA
+GoughIntroduction:
+  type: article-journal
+  URL: https://archive.org/details/s2id13276660/page/152/mode/2up
+  title: Some observations on the Invention of Cards and their Introduction into England
+  author:
+  - family: Gough
+    given: Richard
+    url: https://en.wikipedia.org/wiki/Richard_Gough_(antiquarian)
+  #issued:
+    #day: 6
+    #month: 4
+    #year: 1775
+  page: 152-164
+  in:
+    &Archaeologia_8
+    title: "Archaeologia: or, Miscellaneous Tracts relating to Antiquity"
+    publisher: The Society of Antiquaries of London
+    volume: 8
+    publisher-place: London
+    issued: 1787
+ObservationsOnAPictureByZuccaro:
+  type: article-journal
+  title: Observations on a Picture by Zuccaro from Lord Falkland’s Collection supposed to represent the Game of Primero
+  URL: https://archive.org/details/s2id13276660/page/n169/mode/2up
+  author:
+  - &Daines_Barrington
+    given: Daines
+    family: Barrington
+    url: https://en.wikipedia.org/wiki/Daines_Barrington
+  # issued: 1785-05-05
+  page: 131-133
+  in: *Archaeologia_8
+ObservationsOnTheAntiquityOfCardPlaying:
+  type: article-journal
+  title: Observations on the Antiquity of Card-playing in England
+  URL: https://archive.org/details/s2id13276660/page/134/mode/2up
+  author:
+  - *Daines_Barrington
+  # issued: 1786-02-23
+  page: 134-146
+  in: *Archaeologia_8
+ObservationsOnCardPlayingBowle:
+  type: article-journal
+  URL: https://archive.org/details/s2id13276660/page/146/mode/2up
+  title: Observations on Card-playing
+  # issued: 1786-03-02
+  author:
+  - given: John
+    family: Bowle
+  page: 147-151
+  in: *Archaeologia_8
+EveryDayBook1:
+  type: book
+  URL: https://archive.org/details/b29326072_0001
+  title: "The Every-Day Book; or, Everlasting Calendar of Popular Amusements, sports, pastimes, ceremonies, manners, customs, and events, incident to each of the three hundred and sixty-five days, in past and present times"
+  editor:
+  - &William_Hone
+    given: William
+    family: Hone
+    url: https://en.wikipedia.org/wiki/William_Hone
+  volume: 1
+  issued: 1826
+  publisher: William Hone
+  publisher-place: London
+EveryDayBook2:
+  type: book
+  URL: https://archive.org/details/b29326072_0002
+  title: "The Every-Day Book; or, Everlasting Calendar of Popular Amusements, sports, pastimes, ceremonies, manners, customs, and events, incident to each of the three hundred and sixty-five days, in past and present times"
+  editor:
+  - *William_Hone
+  volume: 2
+  issued: 1827
+  publisher: William Hone
+  publisher-place: London
+MannersAncientGreece1:
+  type: book
+  URL: https://archive.org/details/in.ernet.dli.2015.36973
+  title: The History of the Manners and Customs of Ancient Greece
+  author:
+    - given: James Augustus
+      family: St. John
+      url: https://en.wikipedia.org/wiki/James_Augustus_St._John
+  volume: 1
+  publisher: Richard Bentley
+  publisher-place: London
+  issued: 1842
+LorenzGrasberger1:
+  type: book
+  URL: https://archive.org/details/erziehungundunt02unkngoog
+  title:
+    value: Erziehung und Unterricht im klassischen Altertum
+    lang: de
+  author:
+  - given: Lorenz
+    family: Grasberger
+    lang: de
+  publisher: 
+    value: Druck und Verlag der Stahel’sche Buch- und Kunsthandlung
+    lang: de
+  publisher-place: Würzburg, Germany
+  issued: 1864
+  volume: 1
+  volume-title:
+    lang: de
+    value: Die leibliche Erziehung bei den Griechen und Römern
+PerformingCircles:
+  type: article-journal
+  title: Performing Circles in Ancient Egypt from Mehen to Ouroboros
+  URL: https://www.jstor.org/stable/10.5325/preternature.7.2.0133
+  page: 133-153
+  author:
+  - given: Mark
+    family: Roblee
+  in:
+    title: "Preternature: Critical and Historical Studies on the Preternatural"
+    volume: 7
+    issue: 2
+    issued: 2018
+BrownGirlInTheRing:
+  type: book
+  title: 'Brown Girl in the Ring: An Anthology of Song Games from the Eastern Caribbean'
+  author:
+  - given: Alan
+    family: Lomax
+    url: https://en.wikipedia.org/wiki/Alan_Lomax
+  - given: J. D.
+    family: Elder
+  - given: Bess
+    family: Lomax Hawes
+    url: https://en.wikipedia.org/wiki/Bess_Lomax_Hawes
+  issued: 1997
+  ISBN: '0679404538'
+  publisher: Pantheon Books
+  publisher-place: New York
+  URL: https://archive.org/details/browngirlinringa00loma_0
+LoreOfThePlayground:
+  type: book
+  title: 'The Lore of the Playground: The Children’s World — Then and Now'
+  author:
+  - given: Steve
+    family: Roud
+    url: https://en.wikipedia.org/wiki/Steve_Roud
+  publisher: Arrow Books
+  ISBN: 9780099505273
+  issued: 2011
+  original-date:
+    year: 2010
+  URL: https://archive.org/details/loreofplayground0000roud
+  publisher-place: London
+GoldenCity:
+  type: book
+  URL: https://archive.org/details/goldencityscotti0000ritc
+  title: 'Golden City: Scottish Children’s Street Games and Songs'
+  author:
+  - given: James T. R.
+    family: Ritchie
+  publisher: Mercat Press
+  publisher-place: Edinburgh
+  issued: 1999
+  original-date: 1965
+  ISBN: 1873644973
+TheSingingStreet:
+  type: book
+  title: The Singing Street
+  URL: https://archive.org/details/singingstreet0000jame
+  author:
+  - given: James T. R.
+    family: Ritchie
+  publisher: Oliver & Boyd
+  issued: 1964
+  publisher-place: Edinburgh & London
+ChildrensGamesWithThings:
+  type: book
+  title: Children’s Games with Things
+  URL: https://archive.org/details/childrensgameswi00opie
+  author:
+  - *Iona_Opie
+  - *Peter_Opie
+  publisher: Oxford University Press
+  publisher-place: Oxford
+  issued: 1997
+  ISBN: '0192159631'
+SkippingAroundTheWorld:
+  type: book
+  title: "Skipping Around the World: The Ritual Nature of Folk Rhymes"
+  author:
+  - given: Francelia
+    family: Butler
+    url: https://en.wikipedia.org/wiki/Francelia_Butler
+  publisher: Ballantine Books
+  publisher-place: New York
+  issued: 1990
+  original-date:
+    year: 1989
+  ISBN: '0345364597'
+  URL: https://archive.org/details/skippingaroundwo0000butl
+OfficialWorldEncyclopedia:
+  type: book
+  title: The Official World Encyclopedia of Sports and Games
+  publisher: Paddington Press
+  publisher-place: New York & London
+  URL: https://archive.org/details/officialworldenc0000ruth
+  editor:
+  - given: Ruth
+    family: Midgley
+  - given: David
+    family: Heidenstam
+  - given: Paulin
+    family: Meier
+  - given: Jack
+    family: Wilkinson
+  issued: 1979
+  author:
+  - given: Diagram Group
+CityPlay:
+  type: book
+  title: City Play
+  URL: https://archive.org/details/cityplay0000darg
+  author:
+  - given: Amanda
+    family: Dargan
+  - given: Steven
+    family: Zeitlin
+  publisher: Rutgers University Press
+  publisher-place: New Brunswick & London
+  issued: 1990
+  ISBN: '0813515777'
+DebunkingSenet:
+  type: article-journal
+  author:
+  - given: Walter
+    family: Crist
+  title: Debunking the Diffusion of <span lang="egy-Latn">Senet</span>
+  URL: https://doi.org/10.2478/bgs-2021-0002
+  page: 13-27
+  in: *bgs15
+BoardGamesAncientFiction:
+  type: article-journal
+  author:
+  - given: Ioannis M.
+    family: Konstantakos
+  title: 'Board Games in Ancient Fiction: Egypt, Iran, Greece'
+  URL: https://doi.org/10.2478/bgs-2022-0016
+  in: &bgs16
+    title: Board Game Studies
+    volume: 16
+    issue: 1
+    issued:
+      month: 4
+      year: 2022
+    publisher: De Gruyter
+BedouinHeritage:
+  type: chapter
+  title: Games as Bedouin Heritage for All Generations
+  URL: http://dx.doi.org/10.1007/978-94-6209-950-0_10
+  author:
+  - given: Ada
+    family: Katsap
+  - given: Fredrick
+    family: Silverman
+  page: 253-271
+  in:
+    title: Ethnomathematics of Negev Bedouins’ Existence in Forms, Symbols and Geometric Patterns
+    issued: 2016
+    publisher: Sense
+    publisher-place: Rotterdam, The Netherlands
+    ISBN: 978-94-6209-950-0
+    URL: https://doi.org/10.1007/978-94-6209-950-0
+SeegaEgyptian:
+  type: article-journal
+  URL: https://www.jstor.org/stable/534200
+  title: Seegà, an Egyptian Game
+  author:
+  - &HC_Bolton
+    given: H. Carrington
+    family: Bolton
+    url: https://en.wikipedia.org/wiki/Henry_Carrington_Bolton
+  page: 132-134
+  in: 
+    title: Journal of American Folklore
+    volume: 3
+    issue: 9
+    issued:
+      year: 1890
+      month: 6
+SomeHawaiianPastimes:
+  title: Some Hawaiian Pastimes
+  type: article-journal
+  URL: https://www.jstor.org/stable/532928
+  author:
+  - *HC_Bolton
+  page: 21-26
+  in:
+    title: Journal of American Folklore
+    volume: 4
+    issue: 12
+    issued:
+      year: 1891
+      month: 3
+CountingOutRhymes:
+  title: The Counting-Out Rhymes of Children
+  type: article-journal
+  URL: https://www.jstor.org/stable/532884
+  author:
+  - *HC_Bolton
+  page: 31-37
+  in:
+    title: Journal of American Folklore
+    volume: 1
+    issue: 1
+    issued: 
+      year: 1888
+      month: 6
+MoreCountingOutRhymes:
+  title: More Counting-Out Rhymes
+  type: article-journal
+  URL: https://www.jstor.org/stable/533282
+  author:
+  - *HC_Bolton
+  page: 313-321
+  in:
+    title: Journal of American Folklore
+    volume: 10
+    issue: 39
+    issued: 
+      year: 1897
+      month: 12
+GameOfGoose:
+  URL: https://www.jstor.org/stable/533178
+  title: The Game of Goose
+  type: article-journal
+  author:
+  - *HC_Bolton
+  page: 145-150
+  in:
+    title: Journal of American Folklore
+    volume: 8
+    issue: 29
+    issued: 
+      year: 1895
+      month: 6
+WomenOfTheArabs:
+  title: The Women of the Arabs
+  type: book
+  author:
+  - given: Henry Harris
+    family: Jessup
+  issued: 1874
+  URL: https://archive.org/details/cu31924021882687
+  publisher-place: London
+  publisher: Sampson Low, Marston, Low & Searle
+  # part 6: https://archive.org/details/cu31924021882687/page/n363/mode/2up?q=game
