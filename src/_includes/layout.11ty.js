@@ -131,7 +131,7 @@ exports.render = async function (data) {
     innerId: "author"
   })}
       ${this.license("cc-by-nc-sa", "4.0", "license", true)}
-      · Feedback? Contact me on Mastodon <a href="https://toot.cafe/@porges" rel="me">@porges</a>,
+      · Feedback? Contact me on <a href="https://toot.cafe/@porges" rel="me">Mastodon</a>/<a href="https://bsky.app/profile/porges.bsky.social" rel="me">Bluesky</a>,
       <a href="mailto:porges@porg.es?subject=Ways%20To%20Play" target="_blank" rel="me">email me</a>,
       or <a href="https://github.com/Porges/ways-to-play/discussions/new">leave a note on GitHub</a>.
       </span>

@@ -10,6 +10,9 @@ equipment: Table
 The initial board setup.
 {% imageEnd %}
 
+History:
+- 
+
 Ref:
 - @OxfordBG
 - @Falkener [p. 254]

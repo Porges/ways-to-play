@@ -5,6 +5,17 @@ originalTitle: <span lang="ar">سيجة</span>
 draft: true
 ---
 
+{% image position="aside" src="Seega_1940s.jpg" alt="A photo of two men seated on the sand with a seega board and pieces between them. They are dressed in white clothes and children are watching them play." license="cc0" %}
+Men playing Sīja in the 1940s. Image from @HarvardCamp.
+{% imageEnd %}
+<!--
+Copyright was never renewed, so this is public domain: https://onlinebooks.library.upenn.edu/webbin/cinfo/archaeology
+
+Anything published before January 1, 1964 and whose copyright was not renewed is in the public domain. –https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/United_States#General_rules
+-->
+
+This game (usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources)
+
 سِيجَة sīja
 
 سيجة sīja
@@ -18,6 +29,8 @@ See: @BedouinHeritage, @ModernEgyptians [p. 318]
 https://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D8%AC%D8%A9_(%D9%84%D8%B9%D8%A8%D8%A9)
 
 https://web.archive.org/web/20180416162812/http://www.alhayat.com:80/Articles/1122615/%D9%84%D8%B9%D8%A8%D8%A9--%D8%A7%D9%84%D8%B3%D9%8A%D8%AC%D8%A9--%D8%A7%D9%84%D8%B4%D8%B9%D8%A8%D9%8A%D8%A9----%D8%B4%D8%B7%D8%B1%D9%86%D8%AC--%D8%A7%D9%84%D9%85%D8%B3%D9%86%D9%8A%D9%86-%D9%81%D9%8A-%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A9--%D8%AD%D9%82%D9%84-
+
+https://www.alaraby.co.uk/%22%D8%A7%D9%84%D8%B3%D9%8A%D8%AC%D8%A9%22-%D8%AA%D8%B1%D9%81%D9%8A%D9%87-%D8%A7%D9%84%D9%81%D9%82%D8%B1%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D8%B9%D9%8A%D8%AF
 
 <!--
 

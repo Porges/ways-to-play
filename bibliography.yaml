@@ -9,6 +9,7 @@ OxfordBG:
     year: 1999
     month: 6
     day: 3
+  URL: https://archive.org/details/oxfordhistoryofb0000parl_h4x4
   publisher: Oxford University Press
   publisher-place: Oxford, England, UK
 Gamut:
@@ -2423,8 +2424,10 @@ OnTheRulesForTheRoyalGameOfUr:
   title: On the Rules for the Royal Game of Ur
   URL: https://archive.org/details/ancientboardgame0000unse/page/16
   author:
-    - given: Irving L.
+    - &IL_Finkel
+      given: Irving L.
       family: Finkel
+      url: https://en.wikipedia.org/wiki/Irving_Finkel
   page: 16–32
   in: &ancientBoardGamesInPerspective
     title: Ancient Board Games in Perspective
@@ -2434,8 +2437,7 @@ OnTheRulesForTheRoyalGameOfUr:
     publisher-place: London, UK
     publisher: British Museum Press
     editor:
-    - given: Irving L.
-      family: Finkel
+    - *IL_Finkel
     ISBN: 9780714111537
 TheEgyptianGameOfTwentySquares:
   type: paper-conference
@@ -7230,7 +7232,7 @@ SomeRareScenes:
   title: Some Rare Scenes in the Tomb of Rashepses at Saqqara
   author:
     - given: Hany
-      family: El-Tayeb
+      family: el Tayeb
   page: 289–307
   URL: https://www.academia.edu/37698410/Some_Rare_Scenes_in_the_tomb_of_Rashepses_at_Saqqara
   in:
@@ -9904,7 +9906,7 @@ TwoTenSeven:
       family: Beal
 AmericanNonsingingGames:
   type: book
-  title: American Nonsigning Games
+  title: American Nonsinging Games
   author:
   - given: Paul G.
     family: Brewster
@@ -11307,3 +11309,109 @@ WomenOfTheArabs:
   publisher-place: London
   publisher: Sampson Low, Marston, Low & Searle
   # part 6: https://archive.org/details/cu31924021882687/page/n363/mode/2up?q=game
+HarvardCamp:
+  title: 'Harvard Camp: The Earliest American Archaeological Center in Egypt'
+  type: article-journal
+  URL: https://www.jstor.org/stable/41662330
+  author:
+  - given: William Stevenson
+    family: Smith
+  page: 194-195
+  in:
+    title: Archaeology
+    volume: 2
+    issue: 4
+    publisher: Archaeological Insitute of America
+    issued:
+      month: 12
+      year: 1949
+EgyptianHieroglyphicDictionary2:
+  type: book
+  author:
+  - &E_A_Wallis_Budge
+    given: E. A. Wallis
+    family: Budge
+    url: https://en.wikipedia.org/wiki/E._A._Wallis_Budge
+  volume: 2
+  title: An Egyptian Hieroglyphic Dictionary
+  URL: https://archive.org/details/egyptianhierogly02budguoft
+  publisher: John Murray
+  publisher-place: London
+  issued: 1920
+EgyptianHieroglyphicDictionary1:
+  type: book
+  author:
+  - *E_A_Wallis_Budge
+  volume: 1
+  title: An Egyptian Hieroglyphic Dictionary
+  URL: https://archive.org/details/egyptianhierogly01budguoft
+  publisher: John Murray
+  publisher-place: London
+  issued: 1920
+LD_3:
+  type: book
+  author: 
+  - &Lepsius
+    given: Karl Richard
+    family: Lepsius
+    url: https://en.wikipedia.org/wiki/Karl_Richard_Lepsius
+  title:
+    value: Denkmäler aus Aegypten und Aethiopien
+    lang: de
+  volume: 3
+  URL: https://archive.org/details/denkmaler-aus-aegypten-und-aethiopien/denkmaeler-3/
+  issued: 1859
+  publisher-place: Berlin
+  publisher: Nicolaische Buchhandlung
+FalseDoorRashepses:
+  type: webpage
+  title: The False-Door of Rashepses from Saqqara LS 16 (QS 902)
+  author:
+  - given: Hany
+    family: el Tayeb
+  URL: https://www.academia.edu/41934205/The_False_Door_of_Rashepses_from_Saqqara_LS_16_QS_902_
+SerpentBoard:
+  type: article-journal
+  title: A ‘Serpent’-Board from Egypt
+  author:
+  - given: A. F.
+    family: Shore
+  page: 88-91
+  URL: https://www.jstor.org/stable/4422781
+  in:
+    title: The British Museum Quarterly
+    volume: 26
+    issue: 3
+    issued:
+      season: Spring
+      year: 1963
+    publisher: British Museum
+TopographicalBibliography_1:
+  type: book
+  title: Topographical Bibliography of Ancient Egyptian Hieroglyphic Texts, Reliefs, and Paintings
+  volume: 1
+  volume-title: 'I. The Theban Necropolis; Part 1. Private Tombs'
+  author:
+  - given: Bertha
+    family: Porter
+  - given: Rosalind L. B.
+    family: Moss
+  edition: 2
+  publisher: Griffith Insitute, Ashmolean Museum
+  publisher-place: Oxford
+  issued: 1970
+  original-date: 1960
+  URL: http://www.griffith.ox.ac.uk/topbib/pdf/download.php?file=pm1-1.pdf
+HistoricalDevelopmentSenet:
+  type: thesis
+  genre: PhD thesis
+  title: The Historical Development of the Game of Senet and Its Significance for Egyptian Religion
+  author:
+  - given: Peter A.
+    family: Piccione
+  issued:
+    month: 12
+    year: 1990
+  publisher: University of Chicago
+  publisher-place: Chicago, IL, USA
+  URL: https://www.proquest.com/openview/1d5b3cc37019ec1a34349817384942f9
