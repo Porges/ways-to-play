@@ -3,6 +3,8 @@ title: Sīja
 titleLang: ar-Latn
 originalTitle: <span lang="ar">سيجة</span> 
 draft: true
+subgames:
+- Chokō
 ---
 
 {% image position="aside" src="Seega_1940s.jpg" alt="A photo of two men seated on the sand with a seega board and pieces between them. They are dressed in white clothes and children are watching them play." license="cc0" %}
@@ -24,7 +26,9 @@ This game (usually called <span lang="ar-Latn" class="noun aka">Seega</span> in 
 
 شيزة shiza
 
-See: @BedouinHeritage, @ModernEgyptians [p. 318]
+See: @BedouinHeritage, @ModernEgyptians [p. 318], @GebelElSilsila
+
+@Murray2 [§4.1.7], leaping variant @Murray2 [§4.4.3], citing @AncientCeylon [p. 604], where Chokō is also described
 
 https://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D8%AC%D8%A9_(%D9%84%D8%B9%D8%A8%D8%A9)
 
@@ -56,3 +60,32 @@ https://www.youtube.com/watch?v=WvPX0mYlB3g
 https://www.youtube.com/watch?v=eKqPC19j_n0
 
 -->
+
+
+## <span lang="ff-Adlm" class="aka noun">𞤕𞤮𞤳𞤮𞥅</span> Chokō
+
+"African checkers" https://archive.org/details/tribesofliberian0031geor/page/598/mode/2up?q=mandingo+games
+
+
+## Yoté
+
+https://archive.org/details/wolofofsenegambi0000gamb/page/76/mode/2up?q=mandinka+games
+
+also there ndal said to be very large version of  drafts?
+could be this? https://archive.org/details/ERIC_ED107644/page/n21/mode/2up?q=%22african+checkers%22
+
+or this: (azigo) https://archive.org/details/lccn_66010330/page/16/mode/2up?q=%22african+checkers%22
+
+or: imeyili: https://archive.org/details/ERIC_ED045976/page/n355/mode/2up?q=%22african+checkers%22
+
+or: zamma https://en.wikipedia.org/wiki/Zamma
+
+"Oudano" = African checkers https://archive.org/details/kuanyamaambofolk0013loeb/page/328/mode/2up?q=%22african+checkers%22
+
+## unrelated - dara
+
+https://journals.openedition.org/encyclopedieberbere/1514?gathStatIcon=true&lang=en
+
+shows 5×6? as dara
+
+https://www.persee.fr/doc/jafr_0399-0346_1988_num_58_1_2247

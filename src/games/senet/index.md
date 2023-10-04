@@ -25,13 +25,13 @@ https://www.britishmuseum.org/collection/object/Y_EA20935
 ### Old Kingdom (2686–2181 {%bce%})
 
 {% image src="Hesy-Re.jpg" alt="" license="cc0" noborder=true size="extra-wide" %}
-A painting from the tomb of Hesy-Re, {%c%}&nbsp;2650 {%bce%}. A {%gameref mehen %} board is at left, and the Senet board, pieces, and throwing-sticks are at top right.<br/>
+A painting from the tomb of Hesy-Re (<image src="/small-images/HesyRe_name.svg" alt="𓂋𓐰𓂝𓎛𓐱𓎿𓐰𓊃𓇋𓐱𓇋" class="inline-img" /> <span lang="egy-Latn">ḥs.jj-rꜥ</span>), {%c%}&nbsp;2650 {%bce%}. A {%gameref mehen %} board is at left, and the Senet board, pieces, and throwing-sticks are at top right.<br/>
 Depiction from @TombOfHesy [pl. XI].<!--http://digital.library.yale.edu/digital/collection/rebooks/id/97298-->
 {% imageEnd %}
 
 <div class="multi">
 {% image src="1514257001.jpg" alt="" license="cc-by-nc-sa" licenseVersion="4.0" originalUrl="https://www.britishmuseum.org/collection/image/1514257001" orgName="British Museum" %}
-Inscription from the tomb of Rahotep, who lived during the 4th Dynasty ({%c%}&nbsp;2613–2494 {%bce%}), showing Senet listed alongside Mehen and Men.
+Inscription from the tomb of Rahotep (<image src="/small-images/Rahotep_name.svg" alt="𓂋𓐰𓂝𓊵𓐰𓏏𓐱𓊪" class="inline-img" /> <span lang="egy-Latn">rꜥ-ḥtp</span>), who lived during the 4th Dynasty ({%c%}&nbsp;2613–2494 {%bce%}), showing Senet listed alongside Mehen and Men. This is the first appearance of the name of the game in text.[@HistoricalDevelopmentSenet p. 1]
 {%imageEnd%}
 
 {% image src="cu31924028670465_0088.jpg" alt="" license="cc0" %}
@@ -39,24 +39,31 @@ Showing the original painted colours, from @Medum [pl. XIII].
 {%imageEnd%}
 </div>
 
-{% image src="D6n3F4iWwAIgNpL.jpg" size="wide" alt="" license="with-permission" authorGiven="Walter" authorFamily="Crist" originalUrl="https://twitter.com/CuseKicks/status/1128706691825045510/photo/1" %}
-Image from the tomb of the overseer Nikauhor in Saqqara (<abbr title="Quibell">QS</abbr>915, {%c%} 2465–2389 {%bce%}). The tomb is now located in The Met museum.
+{% image src="Nikauhor.jpg" license="cc0" alt="" position="aside" size="wide" %}
+Representation of the relief, from @ExcavationsAtSaqqara1907 [pl. LXIV].
 {% imageEnd %}
+
+{% image src="D6n3F4iWwAIgNpL.jpg" alt="" license="with-permission" authorGiven="Walter" authorFamily="Crist" originalUrl="https://twitter.com/CuseKicks/status/1128706691825045510/photo/1" %}
+Relief from the tomb of the overseer Nikauhor (<image src="/small-images/Nikauhor_name.svg" alt="𓎛𓐱𓐷𓁷𓐰𓂋𓐸𓈖𓐰𓂓𓂓𓐰𓂓" class="inline-img" /> <span lang="egy-Latn">n(j)-kꜣ(w)-ḥr</span>) in Saqqara (<abbr title="Quibell">QS</abbr>915, {%c%} 2465–2389 {%bce%}). The tomb is now located in The Met museum.
+{% imageEnd %}
+
+
+See also @ExcavationsAtSaqqara1907 pl. LVIII, LIX for images of actual box
 
 {% image src="02030610.jpg" alt="" originalUrl="http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html"
  license="cc0" size="extra-wide" %}
-Senet (at bottom next to depiction of Mehen); Fifth Dynasty (25th–24th centuries {%bce%}) tomb of Rashepses at Saqqara (<abbr title="Lepsius">LS</abbr>16/<abbr title="Quibell">QS</abbr>902).[@LD_3 Abt. II, Bl. 61a] The tomb was constructed during the reign of Pharaoh [Djedkare](https://en.wikipedia.org/wiki/Djedkare_Isesi).[@FalseDoorRashepses]
+Senet (at bottom next to depiction of Mehen); Fifth Dynasty (25th–24th centuries {%bce%}) tomb of Rashepses (<image src="/small-images/Rashepses_name.svg" alt="𓂋𓐰𓂝𓀼𓋴𓋴" class="inline-img" /> <span lang="egy-Latn">rꜥ-šp.ss</span>) at Saqqara (<abbr title="Lepsius">LS</abbr>16/<abbr title="Quibell">QS</abbr>902).[@LD_3 Abt. II, Bl. 61a] The tomb was constructed during the reign of Pharaoh [Djedkare](https://en.wikipedia.org/wiki/Djedkare_Isesi).[@FalseDoorRashepses]
 <!--image from http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html-->
 {%imageEnd%}
 
 ### First Intermediate Period (2181–2055 {%bce%})
 
 {% image src="bh15.jpg" alt="" license="cc0" size="wide" %}
-Images from the tomb of Baqet (<span lang="egy">𓅡𓏏𓐰𓈎𓆭</span>) <span class="rnum">III</span> at Beni Hasan (BH15).[@BeniHasan pl. VII]{%fn%}Georges Ifrah suggests that the leftmost figures are playing {% gameref morra %}.{%endfn%} The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
+Images from the tomb of Baqet <span class="rnum">III</span> (<image src="/small-images/Baqet_name.svg" alt="𓅡𓈎𓐰𓏏𓆭" class="inline-img" /> <span lang="egy-Latn">bꜣq.t</span>) at Beni Hasan (BH15).[@BeniHasan pl. VII]{%fn%}Georges Ifrah suggests that the leftmost figures are playing {% gameref morra %}.{%endfn%} The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
 {%imageEnd%}
 
 {% image src="bh17.jpg" alt="" license="cc0" size="wide" %}
-Images from the tomb of Khety (<span lang="egy">𓄡𓐰𓏏𓇌</span>) at Beni Hasan (BH17).[@BeniHasan pl. XIII] The same games are depicted in reverse order.[@AncientEgyptiansAtPlay]
+Images from the tomb of Khety (<image src="/small-images/Khety_name.svg" alt="𓄡𓐰𓏏𓇋𓐱𓇋" class="inline-img" /> <span lang="egy-Latn">ẖt.jj</span>) at Beni Hasan (BH17).[@BeniHasan pl. XIII] The same games are depicted in reverse order.[@AncientEgyptiansAtPlay]
 {%imageEnd%}
 
 Khety was Baqet <span class="rnum">III</span>’s son.
@@ -73,4 +80,4 @@ Ref: [@OxfordBG p. 66] [@Falkener p. 71] [@Bell vol. 1, p. 26] [@Murray2 §2.1.1
 
 Font test: <span lang="egy-Latn">ꞽsb</span> or <span lang="egy-Latn">ꞽꜣsb</span>.
 
-See: @DebunkingSenet, @HistoricalDevelopmentSenet
+See: @DebunkingSenet, @HistoricalDevelopmentSenet, @PassingSenet

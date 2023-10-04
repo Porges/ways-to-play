@@ -339,11 +339,11 @@ div.multi {
         justify-content: center;
     }
 
-    figure {
+    & > figure {
         // unset width: 100% for figures
         width: unset;
 
-        img {
+        & > img {
             width: 100%;
         }
     }

@@ -2264,6 +2264,24 @@ AncientEgyptiansAtPlay:
   issued:
     year: 2016
   ISBN: 978-1-47422-119-1
+GebelElSilsila:
+  type: article-journal
+  title: 'The Role of Graffiti Game Boards in the Understanding of an Archaeological Site: The Gebel el-Silsila Quarries'
+  URL: https://doi.org/10.1177/0307513320971302
+  author:
+  - *Alex_de_Voogt
+  - given: Maria
+    family: Nilsson
+  - given: John
+    family: Ward
+  page: 123-132
+  in:
+    title: The Journal of Egyptian Archaeology 
+    volume: 106
+    issue: 1
+    issued:
+      year: 2020
+      month: 12
 TheVikingShipFromGokstad:
   type: book
   title: The Viking-Ship from Gokstad
@@ -8736,6 +8754,18 @@ TombOfHesy:
   publisher-place: Cairo, Egypt
   issued: 1913
   URL: https://archive.org/details/cu31924028671299
+ExcavationsAtSaqqara1907:
+  type: book
+  title: "Excavations at Saqqara (1907–1908)"
+  author:
+    - family: Quibell
+      given: James Edward
+  publisher:
+    value: Imprimerie de L’Institute Français D’Archéologie Orientale
+    lang: fr
+  publisher-place: Cairo, Egypt
+  issued: 1909
+  URL: https://archive.org/details/cu31924028671265
 MehenMemory:
   type: thesis
   title: "Mehen and the Cultural Memory: Incorporating, Maintaining and
@@ -11193,6 +11223,19 @@ DebunkingSenet:
   URL: https://doi.org/10.2478/bgs-2021-0002
   page: 13-27
   in: *bgs15
+PassingSenet:
+  type: article-journal
+  title: 'Passing from the Middle to the New Kingdom: A <span lang="egy-Latn">Senet</span> Board in the Rosicrucian Egyptian Museum'
+  author:
+  - given: Walter
+    family: Crist
+  URL: https://doi.org/10.1177/0307513319896288
+  page: 107-113
+  in:
+    title: The Journal of Egyptian Archaeology
+    volume: 105
+    issue: 1
+    issued: 2019
 BoardGamesAncientFiction:
   type: article-journal
   author:

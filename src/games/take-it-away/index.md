@@ -3,15 +3,20 @@ title: Take It Away
 players:
     min: 2
     max: 4
+subgames:
+- title: Acquisitions
+  players: 2
 ---
 
-Take It Away is a game for 2–4 players invented by Sid Sackson,[@Gamut pp.
+<p class="lead">
+<span class="aka">Take It Away</span> is a game for 2–4 players invented by Sid Sackson,[@Gamut pp.
 142–3] in which players try to achieve the highest score by capturing from a
 shared set of pieces on the board.
+</p>
 
 ## Play
 
-## Equipment
+### Equipment
 
 To play you will need an 8×8 chess or checkerboard, and 64 coloured pieces
 (Sackson suggests poker chips): 34 white, 20 red, and 10 blue.
@@ -57,6 +62,14 @@ Play continues after this as usual.
 
 A player cannot declare “take it away”, and no player is penalized for pieces
 remaining on the board.
+
+## <span class="aka">Acquisitions</span>
+
+This is a very similar game given in @100Other [p. 72–3], and which seems to have been influenced by Take It Away, although the game is not referenced.
+
+This version uses 63 undifferentiated pieces (although differentiated pieces may be used as above, in which case the game is essentially identical to Take It Away), which are placed on a chessboard. One corner is left empty. Players then take turns jumping and capturing as above. Whoever captures the most pieces is the winner.
+
+The drop-out rule is also possible as a variation; one player may drop out on their turn, and their opponent continues making captures until they cannot make any more. Any pieces left on the board count against their score.
 
 ## See also
 
