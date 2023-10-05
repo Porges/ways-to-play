@@ -11458,3 +11458,38 @@ HistoricalDevelopmentSenet:
   publisher: University of Chicago
   publisher-place: Chicago, IL, USA
   URL: https://www.proquest.com/openview/1d5b3cc37019ec1a34349817384942f9
+MandinkaEnglish:
+  type: book
+  title: Mandinka–English Dictionary
+  publisher: Peace Corps The Gambia
+  publisher-place: Banjul, The Gambia
+  URL: https://resourcepage.gambia.dk/ftp/mandinka.pdf
+  archive-URL: https://web.archive.org/web/20230801032109/https://resourcepage.gambia.dk/ftp/mandinka.pdf
+  issued: 1995
+IntermediateGambian:
+  type: book
+  title: Intermediate Gambian Mandinka–English Dictionary
+  URL: https://www.smcm.edu/gambia/wp-content/uploads/sites/31/2015/03/gamble-21.pdf
+  archive-URL: https://web.archive.org/web/20230716103810/https://www.smcm.edu/gambia/wp-content/uploads/sites/31/2015/03/gamble-21.pdf
+  author:
+  - given: David P.
+    family: Gamble
+  publisher-place: San Francisco
+  issued: 
+    month: 6
+    year: 1987
+  series:
+    title: Gambian Studies
+    number: 21
+ChokooGameVideo:
+  type: webpage
+  title: Chokoo game
+  URL: https://www.youtube.com/shorts/ZIJr6Czhp_c
+  archive-URL: https://web.archive.org/web/20231005050906/https://www.youtube.com/shorts/ZIJr6Czhp_c
+  author:
+  - given: '@pakalindingvillagemandinka5336'
+  container-title: YouTube
+  issued: 
+    year: 2020
+    month: 4
+    day: 28

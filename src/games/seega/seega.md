@@ -3,8 +3,6 @@ title: Sīja
 titleLang: ar-Latn
 originalTitle: <span lang="ar">سيجة</span> 
 draft: true
-subgames:
-- Chokō
 ---
 
 {% image position="aside" src="Seega_1940s.jpg" alt="A photo of two men seated on the sand with a seega board and pieces between them. They are dressed in white clothes and children are watching them play." license="cc0" %}
@@ -62,11 +60,6 @@ https://www.youtube.com/watch?v=eKqPC19j_n0
 -->
 
 
-## <span lang="ff-Adlm" class="aka noun">𞤕𞤮𞤳𞤮𞥅</span> Chokō
-
-"African checkers" https://archive.org/details/tribesofliberian0031geor/page/598/mode/2up?q=mandingo+games
-
-
 ## Yoté
 
 https://archive.org/details/wolofofsenegambi0000gamb/page/76/mode/2up?q=mandinka+games
@@ -89,3 +82,7 @@ https://journals.openedition.org/encyclopedieberbere/1514?gathStatIcon=true&lang
 shows 5×6? as dara
 
 https://www.persee.fr/doc/jafr_0399-0346_1988_num_58_1_2247
+
+## See also
+
+{% gameref chokoo %} is a very similar game.
