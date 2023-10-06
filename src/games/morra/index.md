@@ -33,6 +33,7 @@ Mentioned in @DiversChoiceRemarks [p. 266]
 
 Arabic: Lane says: خَرَاجِ / خراج ‘khrāj’, or خَرِيجٌ: http://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/
 
+Ge'ez: see @ComparativeGeez [p. 168]
 
 ## Chinese games
 

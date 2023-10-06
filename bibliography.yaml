@@ -11493,3 +11493,51 @@ ChokooGameVideo:
     year: 2020
     month: 4
     day: 28
+PersonsAndNamesOfTheMiddleKingdom:
+  type: webpage
+  URL: https://pnm.uni-mainz.de/info
+  title: Persons and Names of the Middle Kingdom
+  author: 
+  - given: Alexander
+    family: Ilin-Tomich
+  issued: 2022
+ThirtySquareDraught:
+  type: article-journal
+  URL: https://www.jstor.org/stable/3855312
+  title: A Thirty-Square Draught-Board in the Royal Ontario Museum
+  author:
+  - given: Winifred
+    family: Needler
+  page: 60-75
+  in:
+    title: The Journal of Egyptian Archaeology
+    publisher: Egypt Exploration Society
+    issued: 
+      month: 12
+      year: 1953
+    volume: 39
+WreszinksiAtlas1:
+  type: book
+  title:
+    value: Atlas zur altägyptischen Kulturgeschichte
+    lang: de
+  author:
+  - given: Walter
+    family: Wreszinkski
+  volume: 1
+  URL: https://digi.ub.uni-heidelberg.de/diglit/wreszinski1923bd1
+  publisher-place: Leipzig
+  publisher:
+    value: J. C. Hinrichs’sche Buchhandlung
+    lang: de
+  issued: 1923
+RamessideQueensTombs:
+  type: webpage
+  title: Ramesside Queens’ Tombs
+  author:
+  - given: Heather Lee
+    family: Mccarthy
+  issued: 2021
+  container-title: ARCE
+  URL: https://arce.org/project/ramesside-queens-tombs-heather-lee-mccarthy/
+  archive-URL: https://web.archive.org/web/20231006033037/https://arce.org/project/ramesside-queens-tombs-heather-lee-mccarthy/

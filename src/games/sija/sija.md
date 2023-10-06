@@ -34,6 +34,9 @@ https://web.archive.org/web/20180416162812/http://www.alhayat.com:80/Articles/11
 
 https://www.alaraby.co.uk/%22%D8%A7%D9%84%D8%B3%D9%8A%D8%AC%D8%A9%22-%D8%AA%D8%B1%D9%81%D9%8A%D9%87-%D8%A7%D9%84%D9%81%D9%82%D8%B1%D8%A7%D8%A1-%D9%81%D9%8A-%D8%A7%D9%84%D8%B5%D8%B9%D9%8A%D8%AF
 
+
+Shantarad or Bub in @SomaliGames [p. 505]
+
 <!--
 
 هناك ثلاث ألعاب تحمل اسم السيجة وهم:
@@ -85,4 +88,4 @@ https://www.persee.fr/doc/jafr_0399-0346_1988_num_58_1_2247
 
 ## See also
 
-{% gameref chokoo %} is a very similar game.
+{% gameref cokoo %} is a very similar game.

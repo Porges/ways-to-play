@@ -71,8 +71,12 @@ Khety was Baqet <span class="rnum">III</span>’s son.
 ### New Kingdom (1550–1069 {%bce%})
 
 {% image size="extra-wide" src="33887936151_36d11aca22_o.jpg" alt="" license="cc-by-nc-nd" licenseVersion="2.0" copyrightYear=2017 author="kairoinfo4u" originalUrl="https://www.flickr.com/photos/manna4u/33887936151" %}
-A painting from Queen Nefertari’s tomb, depicting her playing Senet, <abbr title="circa">ca.</abbr> 1279–1213 {%bce%}. Tomb 66 in the Valley of the Queens (QV66).
+A painting from Queen Nefertari’s tomb (<image src="/small-images/Nefertari_name.svg" alt="𓄤𓇋𓏏𓐰𓂋𓐰𓏭" class="inline-img" /> <span lang="egy-Latn">nfr.t-jrj</span>), depicting her playing Senet, <abbr title="circa">ca.</abbr> 1279–1213 {%bce%}. Tomb 66 in the Valley of the Queens (QV66).
 {%imageEnd%}
+
+{% image src="Nebenmaat_senet.jpg" alt="" license="cc0" %}
+Nebenmaat playing Senet with his wife, Mertesger, from his tomb in the village of Deir el Medina (TT219), same time period as the previous image. Image from @WreszinksiAtlas1 [p. 49]; this panel is now heavily damaged (see @RamessideQueensTombs).
+{% imageEnd %}
 
 ## General References
 
@@ -80,4 +84,4 @@ Ref: [@OxfordBG p. 66] [@Falkener p. 71] [@Bell vol. 1, p. 26] [@Murray2 §2.1.1
 
 Font test: <span lang="egy-Latn">ꞽsb</span> or <span lang="egy-Latn">ꞽꜣsb</span>.
 
-See: @DebunkingSenet, @HistoricalDevelopmentSenet, @PassingSenet
+See: @DebunkingSenet, @HistoricalDevelopmentSenet, @PassingSenet, @ThirtySquareDraught (list of boards)
