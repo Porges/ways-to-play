@@ -16,13 +16,13 @@ Anything published before January 1, 1964 and whose copyright was not renewed is
 
 This game (usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources)
 
-سِيجَة sīja
+<span lang="ar">سِيجَة</span> sīja
 
-سيجة sīja
+<span lang="ar">سيجة</span> {%pronounce word="sīja" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجة.mp3" %}
 
-سيجا sījā
+<span lang="ar">سيجا</span> {%pronounce word="sījā" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجا.mp3" %}
 
-شيزة shiza
+<span lang="ar">شيزة</span> {%pronounce word="shiza" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_شيزة.mp3" %}
 
 See: @BedouinHeritage, @ModernEgyptians [p. 318], @GebelElSilsila
 

@@ -54,7 +54,7 @@ See @FinalMahjong for examples of the use of <span lang="ja">通り</span>.
 
 ## Media
 
-The 1968 Japanese film <cite lang="ja">緋牡丹博徒</cite> <cite>Red Peony Gambler</cite> (<span lang="ja-Latn">hibotan bakuto</span>, also titled in English ‘Lady Yakuza: The Red Peony Gambler’) opens with a scene in which the game is played.{%fn%}The film can be viewed [on The Internet Archive](https://archive.org/details/LadyYakuzaTheRedPeonyGambler).{%endfn%}
+The 1968 Japanese film <cite lang="ja">緋牡丹博徒</cite> <cite>Red Peony Gambler</cite> ({%pronounce lang="ja-Latn" word="hibotan bakuto" pronouncer="mezashi" file="pronunciation_ja_緋牡丹博徒.mp3" %}, also titled in English ‘Lady Yakuza: The Red Peony Gambler’) opens with a scene in which the game is played.{%fn%}The film can be viewed [on The Internet Archive](https://archive.org/details/LadyYakuzaTheRedPeonyGambler).{%endfn%}
 
 Appears in the manga <cite lang="ja">世紀末博狼伝サガ</cite> <cite>Legend of the End-of-Century Gambling Wolf ‘Saga’</cite> (1995–8), chapters 14 through 28.
 

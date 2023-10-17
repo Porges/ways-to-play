@@ -7,7 +7,7 @@ players: 2
 ---
 
 <p class="lead">
-<span class="noun" lang="ja-Latn">Gunjin Shogi</span> (<span lang="ja">軍人将棋</span> ‘soldier chess’) is a Japanese game of hidden ranked combat, like the game Stratego. However, unlike Stratego, the game is usually played with a third person acting as referee, so that the identity of pieces does not need to be revealed at any stage.
+{%pronounce noun=true lang="ja-Latn" word="Gunjin Shogi" file="pronunciation_ja_軍人将棋.mp3" pronouncer="mezashi" %} (<span lang="ja">軍人将棋</span> ‘soldier chess’) is a Japanese game of hidden ranked combat, like the game Stratego. However, unlike Stratego, the game is usually played with a third person acting as referee, so that the identity of pieces does not need to be revealed at any stage.
 </p>
 
 ## Pieces and Powers
@@ -24,7 +24,7 @@ The box for <span lang="ja">新行軍将棋</span>. This was probably produced s
 time between 1945–55.[@HironoriGunjin]
 {% imageEnd %}
 
-This version was sold as <span lang="ja">新行軍将棋</span> (<span lang="ja-Latn">shinkōgunshōgi</span> ‘new marching chess’). There are fourteen pieces: the first eleven are soldiers ranking from <span lang="ja">元帥</span>{%fn%}In the game this is mistakenly spelled “<span lang="ja">元師</span>” both on the piece and in the rules.{%endfn%} ‘marshal’ down to <span lang="ja">少尉</span> ‘second lieutenant’; the rest are special pieces [<span lang="ja">ＭＰ</span>](https://en.wikipedia.org/wiki/Military_police), <span lang="ja">ヒコーキ</span> ‘aeroplane’, <span lang="ja">原子爆弾</span> ‘atomic bomb’, and <span lang="ja">スパイ</span> ‘spy’.
+This version was sold as <span lang="ja">新行軍将棋</span> ({% pronounce lang="ja-Latn" word="shinkōgunshōgi" pronouncer="mezashi" file="pronunciation_ja_新行軍将棋.mp3" %} ‘new marching chess’). There are fourteen pieces: the first eleven are soldiers ranking from <span lang="ja">元帥</span>{%fn%}In the game this is mistakenly spelled “<span lang="ja">元師</span>” both on the piece and in the rules.{%endfn%} ‘marshal’ down to <span lang="ja">少尉</span> ‘second lieutenant’; the rest are special pieces [<span lang="ja">ＭＰ</span>](https://en.wikipedia.org/wiki/Military_police), <span lang="ja">ヒコーキ</span> ‘aeroplane’, <span lang="ja">原子爆弾</span> ‘atomic bomb’, and <span lang="ja">スパイ</span> ‘spy’.
 
 The ordinary soldier pieces capture by rank: each can capture any other soldier
 piece ranked lower than itself. In general, if two pieces of the same rank meet,
@@ -326,5 +326,4 @@ The board for the 14-piece version, printed on thin paper.
 The box for <span lang="ja">大型行軍将棋</span>.
 {% imageEnd %}
 
-This version was sold as <span lang="ja">大型行軍将棋</span> (<span
-lang="ja-Latn">ōgatakōgunshōgi</span> ‘large marching chess’).
+This version was sold as <span lang="ja">大型行軍将棋</span> ({%pronounce lang="ja-Latn" word="ōgatakōgunshōgi" pronouncer="mezashi" file="pronunciation_ja_大型行軍将棋.mp3" %} ‘large marching chess’).

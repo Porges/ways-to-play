@@ -12,8 +12,7 @@ subgames:
 ---
 
 <p class="lead">
-Sixteen Soldiers (<span lang="ja">十六武蔵</span> <span lang="ja-Latn">jūroku
-musashi</span>) is an asymmetric capturing game from Japan.
+Sixteen Soldiers (<span lang="ja">十六武蔵</span> {%pronounce lang="ja-Latn" word="jūroku musashi" pronouncer="mezashi" file="pronunciation_ja_十六武蔵.mp3" %}) is an asymmetric capturing game from Japan.
 </p>
 
 {% image 
