@@ -108,4 +108,4 @@ function GenerateCountryMap {
 # GenerateCountryMap "Euchre" @("AU", "NZ", "CK", "FJ", "TO", "US", "CA", "GB") -rotate 210
 
 # provinces speaking Telugu, Kannada, Tamil
-GenerateProvinceMap "LambsAndTigers" @("IN-AP", "IN-TG", "IN-KA", "IN-TN") -offset 200
+# GenerateProvinceMap "LambsAndTigers" @("IN-AP", "IN-TG", "IN-KA", "IN-TN") -offset 200

@@ -11541,3 +11541,89 @@ RamessideQueensTombs:
   container-title: ARCE
   URL: https://arce.org/project/ramesside-queens-tombs-heather-lee-mccarthy/
   archive-URL: https://web.archive.org/web/20231006033037/https://arce.org/project/ramesside-queens-tombs-heather-lee-mccarthy/
+GamblingNearTheZoologicalGardens:
+  type: article-newspaper
+  title: Bristol Police Court — Gambling Near The Zoological Gardens
+  page: 3
+  URL: https://www.newspapers.com/article/daily-bristol-times-and-mirror-gambling/133667359/
+  archive-URL: https://web.archive.org/web/20231018201935/https://www.newspapers.com/article/daily-bristol-times-and-mirror-gambling/133667359/
+  in:
+    title: Daily Bristol Times and Mirror
+    volume: 96
+    issue: 5096
+    publisher-place: Bristol, Avon, England
+    issued:
+      day: 13
+      month: 8
+      year: 1867
+HunterGatherersState:
+  type: thesis
+  title: 'Hunter-Gatherers and the State: The Economic Anthropology of the Gunwinggu of North Australia'
+  author:
+  - given: Jon C.
+    family: Altman
+  genre: PhD thesis
+  publisher: Australian National University
+  publisher-place: Canberra, ACT, Australia
+  URL: http://hdl.handle.net/1885/116808
+  issued:
+    month: 4
+    year: 1982
+GamblingHardWork:
+  type: article-journal
+  title: 'Gambling is Hard Work: Card Playing in Tiwi Society'
+  author:
+  - given: Jane C.
+    family: Goodale
+  URL: https://www.jstor.org/stable/40330990
+  page: 6-21
+  in:
+    title: Oceania
+    issued:
+      month: 9
+      year: 1987
+    volume: 58
+    issue: 1
+WhatsTheBigDeal:
+  type: article-journal
+  title: 'What’s the big deal?: Aboriginal gambling in the Kimberley region'
+  author:
+  - given: Ernest M.  
+    family: Hunter
+  - given: Randolph M.
+    family: Spargo
+  page: 668-672
+  URL: https://onlinelibrary.wiley.com/doi/abs/10.5694/j.1326-5377.1988.tb120817.x
+  in: 
+    title: The Medical Journal of Australia
+    volume: 149
+    issue: 12
+    issued:
+      month: 12
+      year: 1988
+CardGamesToPokerMachines:
+  type: thesis
+  title: 'From card games to poker machines: Gambling in remote Aboriginal communities in the Northern Territory'
+  URL: https://ris.cdu.edu.au/ws/portalfiles/portal/22703608/Thesis_CDU_40111_Fogarty_M.pdf
+  archive-URL: https://web.archive.org/web/20231019034200/https://ris.cdu.edu.au/ws/portalfiles/portal/22703608/Thesis_CDU_40111_Fogarty_M.pdf
+  author:
+  - given: Marisa Annetta
+    family: Fogarty
+  genre: PhD thesis
+  publisher: The Northern Institute, Charles Darwin University
+  issued:
+    year: 2013
+    month: 8
+    day: 31
+  publisher-place: Haymarket, NSW, Australia
+IndonesianIdioms:
+  type: book
+  title: 'Indonesian Idioms and Expressions: Colloquial Indeonesian at Work'
+  author:
+  - given: Christopher
+    family: Torchia
+  ISBN: '9780804838733'
+  publisher: Tuttle Publishing
+  publisher-place: Singapore
+  issued: 2007
+  

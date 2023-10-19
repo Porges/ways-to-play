@@ -26,6 +26,4 @@ An under/over seven staking layout, from @KernanCatalogue [p. 19].
 
 In some versions of the game, there is also a bet labelled ‘7’, which wins and pays out 3&ratio;1 or 4&ratio;1 if the proprietor rolls 7. The house edge on this bet at a 4&ratio;1[@UndersAndOvers] payout is the same as the other bets; at 3&ratio;1[@SharpsAndFlats p. 246] it is a huge 33.33%.
 
-In the past, staking layouts were sometimes labelled “O.S.”, “U.S.”, and “S.”,
-perhaps to make the game less obvious to police.[@USOS] Another labelling scheme
-is simply “O”, “U”, and “7”.[@CompleteHoyle97]
+In the past, staking layouts were sometimes labelled “O.S.”, “U.S.”, and “S.”, perhaps to make the game less obvious to police.[@USOS] Another labelling scheme is simply “O”, “U”, and “7”.[@GamblingNearTheZoologicalGardens][@CompleteHoyle97]

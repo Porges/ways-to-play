@@ -559,7 +559,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS1.jpg;KS1.jpg;OS1.jpg;NS1.jpg;CS1.jpg" alt=";;;;" %}1 Strings{% imageEnd %}</th>
-<td><span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span><br />long or bird ace</td>
+<td><span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span><br />long or bird ace. In Indonesian, bird is also slang for penis.[@IndonesianIdioms p. 62]</td>
 <td><span lang="mcm">pau</span><br/>club</td>
 <td><span lang="min">hiu panjang</span><br />long shark</td>
 <!-- Java -->
@@ -1253,7 +1253,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Bali -->
 <td><span lang="ban">mer</span><br />[unknown]</td>
 <td><span lang="ban">mer</span></td>
-<td><span lang="ban">klenténg</span><br/>Chinese temple</td>
+<td><span lang="ban">klenténg</span><br/>Chinese temple (onomatopœic: bells)[@IndonesianIdioms p. 160]</td>
 <td><span lang="ban">pengka</span></td>
 <td><span lang="ban">mer</span></td>
 <td><span lang="ban">mer</span></td>
@@ -1568,9 +1568,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ban">kelepok</span></td>
 <td><span lang="ban">kelepok</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">pecah</span></td>
+<td><span lang="bjn">pecah</span><br/>broken?</td>
 <!-- Sulawesi -->
-<td><span lang="id">dukun</span></td>
+<td><span lang="id">dukun</span><br/><a href="https://en.wikipedia.org/wiki/Dukun">a shaman</a></td>
 <!-- Maluku -->
 <td><span lang="id">picah kapala</span></td>
 <!-- Timor -->
