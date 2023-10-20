@@ -61,6 +61,6 @@ A group of people playing <span lang="id">Dadu Putar</span> (or a game very simi
 
 The Japanese game of <span lang="ja-Latn" class="aka noun">Chobo-Ichi</span> (<span lang="ja" class="aka">樗蒲一</span>) is the same but played with a single die instead of a teetotum. The name means something like “gamble on one outcome”.
 
-In 1784 this game had become so popular that gambling sheds running the game lined the street for a whole [<span lang="ja-Latn">ri</span> (<span lang="ja">里</span>)](https://en.wiktionary.org/wiki/%E9%87%8C#Etymology_2_2) from Asakusa to Senju in Tokyo.[@ADiceyHistory]
+In 1784 this game had become so popular that gambling sheds running the game lined the street for a whole [<span lang="ja-Latn">ri</span> (<span lang="ja">里</span>)](https://en.wiktionary.org/wiki/%E9%87%8C#Etymology_2_2) — nearly 4&nbsp;km — from Asakusa to Senju in Tokyo.[@ADiceyHistory]
 
 The players place their bets upon the staking layout, then the banker rolls the die. Any players who bet upon the side that comes up win, and are paid 4× their stake. All other players lose their bets.

@@ -142,3 +142,5 @@ Also notes 7% fee.
 Good quote here, notes the use of the basket: https://archive.org/details/revuedesdeuxmon44chaugoog/page/410/mode/2up?q=fantan
 
 But rather lurid!
+
+Description of the game in Philippines, with baskets: https://bdh-rd.bne.es/viewer.vm?id=0000078105&page=176

@@ -2774,6 +2774,7 @@ OishiTengudoHistory4:
   publisher:
     value: 大石天狗堂
     lang: ja
+    alt: <span lang="ja-Latn" class="noun">Ōishi Tengudō</span>
   issued:
     year: 2014
   URL: https://www.tengudo.jp/blog/karuta-news/692.html
@@ -7555,6 +7556,7 @@ CompleteHoyle97:
   publisher: Frederick A. Stokes Company
   publisher-place: New York
   URL: https://archive.org/details/fosterscomplete00fostgoog
+# This seems to be a reprint of the 1897 edition
 CompleteHoyle09:
   type: book
   title: Foster’s Complete Hoyle
@@ -11626,4 +11628,157 @@ IndonesianIdioms:
   publisher: Tuttle Publishing
   publisher-place: Singapore
   issued: 2007
-  
+SomeImaginativeFunctions:
+  type: article-journal
+  title: Some Imaginative Functions of Consciousness from a Balinese Form of Life on Lombok
+  URL: https://www.jstor.org/stable/40462301
+  author:
+  - given: Andrew
+    family: Duff-Cooper
+  page: 63-85
+  in:
+    title: Anthropos
+    volume: 82
+    issue: 1
+    issued: 1987
+BaliHandbook:
+  type: book
+  title: Bali Handbook
+  author:
+  - given: Bill
+    family: Dalton
+  issued: 1997
+  URL: https://archive.org/details/balihandbook00dalt_0
+  publisher: Moon Publications
+  publisher-place: Chico, CA, USA
+  ISBN: '1566910730'
+InPlaceOfSlavery:
+  type: book
+  title: 'In Place of Slavery: A Social History of British Indian and Javanese Laborers in Suriname'
+  author:
+  - given: Rosemarijn
+    family: Hoefte
+  URL: https://archive.org/details/inplaceofslavery0000hoef
+  issued: 1998
+  publisher: University Press of Florida
+  ISBN: '0813016258'
+JavaneseEnglish:
+  type: book
+  title: Javanese English Dictionary
+  issued: 2002
+  URL: https://archive.org/details/javaneseenglishd0000robs
+  author:
+  - given: Stuart
+    family: Robson
+  - given: Singgih
+    family: Wibisono
+  publisher: Periplus Editions
+  publisher-place: Singapore
+  ISBN: '079460000X'
+ChineseLoanWordsMalay:
+  type: article-journal
+  title: Chinese Loan-Words in Malay
+  author:
+  - given: A. W.
+    family: Hamilton
+  URL: https://archive.org/details/dli.ministry.15568/page/47
+  page: 48-56
+  in:
+    title: Journal of the Malayan Branch of the Royal Asiatic Society
+    volume: 2
+    issued:
+      year: 1924
+      month: 6
+YeziPu:
+  type: book
+  title:
+    lang: zh
+    value: 葉子譜
+    alt: <span lang="cmn-Latn-pinyin" class="noun">Yèzi Pǔ</span>
+  URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497656$54i
+  issued: 1646
+  author:
+  - family: 潘
+    given: 之恒
+    lang: zh
+    alt:
+      lang: cmn-Latn-pinyin
+      value: Pān Zhīhéng
+  series:
+    title: &XuShuofu
+      value: 續說郛
+      lang: zh
+      alt: <span lang="cmn-Latn-pinyin" class="noun">Xù Shuōfú</span>
+    volume: 39
+    editor:
+    - &TaoTing
+      family: 陶
+      given: 珽
+      lang: zh
+      alt:
+        lang: cmn-Latn-pinyin
+        value: Táo Tǐng
+ZuiLu:
+  type: book
+  URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497146$21i
+  title:
+    lang: zh
+    value: 醉緑圖
+    alt: <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ Tú</span>
+  issued: 1646
+  author:
+  - family: 張
+    given: 光
+    lang: zh
+    alt:
+      lang: cmn-Latn-pinyin
+      value: Zhāng Guāng
+  series: &Shuofu_104
+    title: &Shuofu
+      value: 說郛
+      lang: zh
+      alt: <span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>
+    volume: 104
+    editor:
+    - *TaoTing
+ChuHong:
+  type: book
+  URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497146$5i
+  title: 
+    value: 除紅譜
+    lang: zh
+    alt: <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng Pǔ</span>
+  issued: 1646
+  author:
+  - family: 朱
+    given: 河
+    lang: zh
+    alt:
+      lang: cmn-Latn-pinyin
+      value: Zhū Hé
+  series: *Shuofu_104
+LoYeziPu:
+  type: article-journal
+  title: 'The ‘Yezi Pu’ (Manual of Leaves): A Card Manual for Games of the Late Ming Period [1368–1644]'
+  author:
+  - given: Andrew
+    family: Lo
+  page: 86-96
+  in:
+    title: Journal of the International Playing-Card Society
+    volume: 31
+    issue: 2
+    issued: 2002
+GabataAndOther:
+  type: article-journal
+  title: Gabata and Other Board-Games of Ethiopia and the Horn of Africa
+  page: 27-42
+  URL: https://doi.org/10.1080/00672708209511298
+  author: 
+  - given: Richard
+    family: Pankhurst
+  in:
+    title: 'Azania: Archaeological Research in Africa'
+    issued: 1982
+    issue: 1
+    volume: 17

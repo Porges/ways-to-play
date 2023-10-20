@@ -37,7 +37,7 @@ Ge'ez: see @ComparativeGeez [p. 168]
 
 ## Chinese games
 
-Called <span lang="yue" class="aka">猜枚</span>[@TipcatAndOtherChineseGames] <span lang="yue-Latn-jyutping" class="aka">caai¹ mu⁴⁻²</span>{%fn%}In very old works this is represented as <span lang="yue-Latn" class="aka">Tsoey-Moey</span>[@MicatioDigitorumDescribed] or <span lang="yue-Latn" class="aka">Tsae Mei</span>.[@IuKiaoLi p. 284]{%endfn%} ‘guess the count’ or <span lang="yue" class="aka">猜碼</span>[@AFunSouthernChineseGame] <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span> ‘guess the number’ in Cantonese. A variant using two hands where a hand can only be open or shut is also called “15,20”, or “15,15,…” <span lang="zh" class="aka">十五二十</span>, and the player must guess correctly twice.[@ShiwuShiwu]
+Called <span lang="yue" class="aka">猜枚</span>[@TipcatAndOtherChineseGames] <span lang="yue-Latn-jyutping" class="aka">caai¹ mu⁴⁻²</span>{%fn%}In very old works this is represented as <span lang="yue-Latn" class="aka">Tsoey-Moey</span>[@MicatioDigitorumDescribed], <span lang="yue-Latn" class="aka">Tsae Mei</span>,[@IuKiaoLi p. 284] or <span lang="yue-Latn" class="aka">chái-múí</span>.[@ThingsChinese p. 296]{%endfn%} ‘guess the count’ or <span lang="yue" class="aka">猜碼</span>[@AFunSouthernChineseGame] <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span> ‘guess the number’ in Cantonese. A variant using two hands where a hand can only be open or shut is also called “15,20”, or “15,15,…” <span lang="zh" class="aka">十五二十</span>, and the player must guess correctly twice.[@ShiwuShiwu]
 
 On the 5th of April, 1872, the Nuisances Ordinance of Hong Kong (No. 2 of 1872) placed restrictions upon the game:{%fn%}This was later integrated as part of the Summary Offences Ordinance.[@LawAndRacism p. 248][@SummaryOffencesHongKong]{%endfn%}
 
@@ -48,6 +48,8 @@ On the 5th of April, 1872, the Nuisances Ordinance of Hong Kong (No. 2 of 1872) 
 -->
 
 See [@PersistenceAndChange p. 196–7]
+
+See [@ThingsChinese p. 295–6]
 
 ## Strategy
 

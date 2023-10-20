@@ -10,7 +10,9 @@ hero:
     originalUrl: "https://www.flickr.com/photos/habsburg/3915400394" 
 ---
 
-Ceki or Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]<!--{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}--> “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation.{%endfn%} or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
+<p class="lead">
+Ceki or Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]<!--{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}--> “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">siki</span>/<span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]{%endfn%} or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
+</p>
 
 <!-- excerpt -->
 
@@ -55,20 +57,15 @@ Amongst [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (or <span lang
 
 ## Indonesia
 
-In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and
-Bali, all of which have historically had a large Chinese influence.
+In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and Bali, all of which have historically had a large Chinese influence. In Javanese the cards are also known as <span lang="jav-Latn">kertu cilik</span> (‘small cards’).[@JavaneseEnglish p. 365]
 
-During the colonial era, cards were manufactured in Europe by Dutch companies
-and exported to Indonesia. (See the [manufacturers](#manufacturers-brands)
-section below.)
+During the colonial era, cards were manufactured in Europe by Dutch companies and exported to Indonesia. (See the [manufacturers](#manufacturers-brands) section below.)
 
 {% image src="Kaartspelers.jpg" alt="" license="cc0" size="wide" %}
 Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps {% gameref pei %} (there are probably too many cards in the centre for it to be {% gameref thothit %}).
 {% imageEnd %}
 
-In Bali, the game is widely played and has “a large if not fanatical
-following”,[@TransitionalDemocracy p. 170] despite gambling being illegal. Cards
-are readily available at many convenience stores.
+In Bali, the game is widely played and has “a large if not fanatical following”,[@TransitionalDemocracy p. 170] despite gambling being illegal. Cards are readily available at many convenience stores.
 
 {% image size="wide" src="30414256602_246d032faa_o.jpg" license="cc-by-nc-nd" licenseVersion="2.0" 
   originalUrl="https://www.flickr.com/photos/adamcohn/30414256602/" authorGiven="Adam" authorFamily="Cohn"
@@ -80,9 +77,7 @@ Balinese men playing a gambling game.
 
 The game is particularly popular amongst the Minangkabau people of West Sumatra, as the Dutch card-making company <span class="noun" lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</span> had a factory{%fn%}This building was later to become the [Hotel Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in the [2009 Sumatran earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes). The company also had offices in Java & Sulawesi (previously known as Celebes).{%endfn%} in the city of Padang.  In the Minang language, they are called Koa (or Kowah).{%fn%}This appears to have been <span lang="ms-Arab">كوا</span> in old Malay orthography.[@MalayEnglishWilkinson p. 542]{%endfn%} The Minangkabau go so far as to say “<span lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1]
 
-In Buginese and Makassarese, both spoken in South Sulawesi, the game is also
-called <span lang="bug-Latn">kowa</span> (<span lang="bug">ᨀᨚᨓ</span> in Lontara
-script).[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46]
+In Buginese and Makassarese, both spoken in South Sulawesi, the game is also called <span lang="bug-Latn">kowa</span> (<span lang="bug">ᨀᨚᨓ</span> in Lontara script).[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46]
 
 {% image src="Kaartspel_op_een_Javaans_feest_in_Paramaribo,_Bestanddeelnr_252-2592.jpg" alt=""
   license="cc0"
@@ -91,15 +86,9 @@ script).[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46]
   copyrightYear=1955
   %}
 
-The game has also been carried to Suriname by [Javanese
-emigrants.](https://en.wikipedia.org/wiki/Javanese_Surinamese) This image shows
-it being played at the time of the visit of [Queen
-Juliana](https://en.wikipedia.org/wiki/Juliana_of_the_Netherlands) and [Prince
-Bernhard](https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld) in
-1955.
+The game has also been carried to Suriname by [Javanese emigrants.](https://en.wikipedia.org/wiki/Javanese_Surinamese) This image shows it being played at the time of the visit of [Queen Juliana](https://en.wikipedia.org/wiki/Juliana_of_the_Netherlands) and [Prince Bernhard](https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld) in 1955.
 
-The game being played here seems to be one that has “rooster” (<span
-lang="jav-Latn">jago</span>) bets.
+The game being played here seems to be one that has “rooster” (<span lang="jav-Latn">jago</span>) bets.
 
 {% imageEnd %}
 
@@ -495,7 +484,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="mcm">yo fogu</span><br/>one fire</td>
 <td><span lang="min">hiu merah</span><br/>red shark<br/><br/>or <span lang="min">penci</span><br/>[<a href="https://en.wikipedia.org/wiki/Songkok">a hat</a>?]</td>
 <!-- Java -->
-<td><span lang="jv">ꦏꦼꦚ꧀ꦕꦶ</span><br/><span lang="jv-Latn">kêñci</span><br/></td>
+<td><span lang="jv">ꦏꦼꦚ꧀ꦕꦶ</span><br/><span lang="jv-Latn">kêñci</span><br/>[unknown]</td>
 <td><span lang="jv-Latn">kenci</span></td>
 <td><span lang="jv-Latn">kenci</span></td>
 <td><span lang="jv-Latn">kenci</span></td>
@@ -503,7 +492,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jv-Latn">cinci</span><br />[unknown]</td>
 <td><span lang="jv-Latn">pinci</span></td>
 <!-- Bali -->
-<td><span lang="ban">kenci</span><br />[key/lock?]</td>
+<td><span lang="ban">kenci</span><br /></td>
 <td><span lang="ban">kunci</span></td>
 <td><span lang="ban">konci</span></td>
 <td><span lang="ban">konci</span></td>

@@ -231,21 +231,9 @@ The remainder of the cards have characters that are present in both <abbr class=
 
 ### <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span>’s Water Margin deck
 
-<span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒
-</span> 1556–1622)  was a late Ming era poet who provided the next full
-description of a money-suited deck, published at the end of the Ming dynasty
-about 1621–1644. 
+<span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒</span>, 1556–1622)  was a late Ming era poet who provided the next full description of a money-suited deck, written some time between 1613–1646.[@LoYeziPu] This work is available as part of the <span lang="zh">續說郛</span> <span lang="cmn-Latn-pinyin" class="noun">Xù Shuōfú</span> collection.[@YeziPu]
 
-Once again, I reproduce the list below, and the original Chinese text can be
-reconstructed by reading across each row. In addition to the information
-provided by <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>, <span
-lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> also lists the character’s
-corresponding stars and adds some additional notes for some of the cards. Three
-of the cards are noted as having “two heads”. This information may have been
-useful for playing the game <span lang="zh">鬥雙頭</span> <span lang="cmn-Latn-pinyin"
-class="noun">Dòu Shuāng Tóu</span> “competing [for?/with?] two heads”, which is
-mentioned by <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> in the same
-text. Unfortunately, no rules are recorded for this game.
+Once again, I reproduce the list below, and the original Chinese text can be reconstructed by reading across each row. In addition to the information provided by <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>, <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> also lists the character’s corresponding stars and adds some additional notes for some of the cards. Three of the cards are noted as having “two heads”. This information may have been useful for playing the game <span lang="zh">鬥雙頭</span> <span lang="cmn-Latn-pinyin" class="noun">Dòu Shuāng Tóu</span> “competing [for?/with?] two heads”, which is mentioned by <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> in the same text. Unfortunately, no rules are recorded for this game.
 
 <table class="table small">
 <thead>
@@ -417,12 +405,7 @@ Then there is something of a dance amongst three cards:
 
 ### The Water Margin deck after <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span>
 
-From <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> onwards the set of
-characters seems to be remarkably stable. In most of the decks derived from
-Chinese money-suited cards, the tens of myriads suit has been removed, but the
-myriads suit remains in the same order. It is often very hard to determine which
-cards are which as the names have mostly been dropped, but it is possible to
-identify characters by their customary attributes:
+From <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> onwards the set of characters seems to be remarkably stable. In most of the decks derived from Chinese money-suited cards, the tens of myriads suit has been removed, but the myriads suit remains in the same order. It is often very hard to determine which cards are which as the names have mostly been dropped, but it is possible to identify characters by their customary attributes:
 
 * The easiest character to identify is Zhu Tong, who is almost always depicted
   with a young child. He remains on the 8M card in all derived decks.
