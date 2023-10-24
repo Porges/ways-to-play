@@ -1546,9 +1546,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jv-Latn">lekok wong</span><br />dented person</td>
 <td><span lang="jv-Latn">wong buthak</span></td>
 <!-- Bali -->
-<td><span lang="ban">manak</span><br />[to be born?]</td>
-<td><span lang="ban">manak</span></td>
-<td><span lang="ban">manak</span></td>
+<td><span lang="ban">manak</span><br />to be born</td>
+<td><span lang="ban">manak</span><br />to be born</td>
+<td><span lang="ban">manak</span><br />to be born</td>
 <td><span lang="ban">celek</span></td>
 <td><span lang="ban">lepok</span></td>
 <td><span lang="ban">klepok</span></td>

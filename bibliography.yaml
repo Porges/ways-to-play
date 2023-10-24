@@ -11782,3 +11782,21 @@ GabataAndOther:
     issued: 1982
     issue: 1
     volume: 17
+SwineherdsGossip:
+  type: book
+  title:
+    lang: zh
+    value: 牧豬閒話
+    alt: <span lang="cmn-Latn-pinyin">Mù Zhū Xiánhuà</span>, “Swineherd’s gossip”
+  URL: https://ctext.org/library.pl?if=en&res=82810&remap=gb
+  author: 
+  - family: 金
+    given: 学诗
+    lang: zh
+    alt:
+      value: Jīn Xuéshī
+      lang: cmn-Latn-pinyin
+  issued: 1783
+  # extract on the portion about Ma Diao
+
+  

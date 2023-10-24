@@ -82,7 +82,7 @@ function renderSeries(ref: Reference, lead: string, trail: string) {
 
     const s = ref.series;
 
-    let title = renderLStr(s.title, 'span', {itemprop: 'name'});
+    let title = renderLStr(s.title, 'span', {itemprop: 'name'}, {itemprop: 'alternateName'});
     
     if (s.URL) {
         title = `<a href="${s.URL}" itemprop="url">${title}</a>`;
@@ -123,7 +123,7 @@ function renderTitle(reference: Reference) {
     }
 
     if (reference.type === 'book' || reference.type === 'thesis') {
-        return renderLStr(linkedTitle, 'cite', {itemprop: 'name'})
+        return renderLStr(linkedTitle, 'cite', {itemprop: 'name'}, {itemprop: 'alternateName'})
             + archiveURL
             + ifSet(reference.volume, v =>
                 ` volume <span itemprop="volumeNumber">${formatNumberString(v)}</span>`
@@ -132,7 +132,7 @@ function renderTitle(reference: Reference) {
             + ('edition' in reference && reference['edition'] ? ` (<span itemprop="bookEdition">${ordinal(reference['edition'])} edition</span>)` : '');
     } else {
         return '‘'
-            + renderLStr(linkedTitle, 'span', { itemprop: 'name headline' })
+            + renderLStr(linkedTitle, 'span', { itemprop: 'name headline' }, { itemprop: 'alternateName'})
             + '’'
             + archiveURL;
     }
@@ -151,7 +151,7 @@ function renderBook(book: Book, itemprop: string) {
         + '</span>';
 }
 
-export function renderLStr(lStr: LStr, tag: string, attributes: Record<string, string|undefined>) {
+export function renderLStr(lStr: LStr, tag: string, attributes: Record<string, string|undefined>, altAttributes?: Record<string, string|undefined>) {
     const value = typeof lStr == 'string' ? lStr : lStr.value;
     const lang = typeof lStr == 'string' ? undefined : lStr.lang;
 
@@ -159,7 +159,12 @@ export function renderLStr(lStr: LStr, tag: string, attributes: Record<string, s
 
     const result = isolate(`<${tag}${atts}${asAttr('lang', lang)}>${value}</${tag}>`);
     if (typeof lStr == 'object' && lStr.alt) {
-        return result + ` [${lStr.alt}]`;
+        const attributes =
+            altAttributes
+            ? Object.entries(altAttributes).map(([k, v]) => asAttr(k, v)).join('')
+            : '';
+
+        return result + ` [<span${attributes}>${lStr.alt}</span>]`;
     }
 
     return result;
@@ -173,7 +178,7 @@ const renderAuthors = (reference: Reference) => {
         return `${renderPeople(reference.editor, true, false, 'editor')} (editor${plural}) `;
     } else if ('publisher' in reference && reference.publisher) {
         return `<span itemscope itemtype="https://schema.org/Organization" itemprop="author">`
-            + renderLStr(reference.publisher, 'span', {itemprop: 'name', class: 'noun'})
+            + renderLStr(reference.publisher, 'span', {itemprop: 'name', class: 'noun'}, {itemprop: 'alternateName'})
             + '</span> (publisher) ';
     /*
     } else if ('in' in reference && 'publisher' in reference.in && reference.in.publisher) {
@@ -213,30 +218,31 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
         `<span itemprop="givenName">${a.given}</span>${ifSet(period && reverseFirst && ix === 0 && ix === (as.length - 1) && !a.given.endsWith('.'), '.')}`;
 
     const reverseName = (a: Author) => a.lang === undefined ? false : (a.lang.startsWith('zh') || a.lang.startsWith('ja'));
-    const hiddenName = (a: Author) => `<meta itemprop="name" content="${reverseName(a) ? `${a.family}${a.given}` : `${a.given} ${a.family}`}" />`;
+    const hiddenName = (a: Author) => `<meta itemprop="name" content="${reverseName(a) ? `${a.family || ''}${a.given}` : `${a.given} ${a.family || ''}`}" />`;
 
     const altName = (a: Author) => {
         if (!a.alt) {
             return '';
         }
 
-        return ' [' + renderLStr(a.alt, 'span', {class: 'noun'}) + ']';
+        return ' [' + renderLStr(a.alt, 'span', {class: 'noun', itemprop: 'alternateName'}) + ']';
     }
 
     return as.map((a, ix) => (
         ifSet(ix > 0, (ix === as.length - 1) ? `${ifSet(as.length > 2, ',')} and ` : ", ")
         + `<span itemscope itemtype="http://schema.org/Person"${asAttr('itemprop', itemprop)}${asAttr('lang', a.lang)} class="noun">`
         + hiddenName(a)
-        + ifSet(a.url, u => `<a href="${u}" itemprop="url">`)
+        + ifSet(a.url, u => `<a href="${u}" itemprop="sameAs">`)
         + ((reverseFirst && ix === 0)
             ? ifSet(a.family, () => `${isolate(renderFamily(a, ix))}, `) + isolate(renderGiven(a, ix))
             : isolate(
                 reverseName(a)
                     ? `${ifSet(a.family, () => `${renderFamily(a, ix)}`)}${renderGiven(a, ix)}`
                     : `${renderGiven(a, ix)}${ifSet(a.family, () => ` ${renderFamily(a, ix)}`)}`))
-        + `</span>`
         + ifSet(a.url, '</a>')
-        + altName(a))).join('');
+        + altName(a)
+        + `</span>`
+        )).join('');
 };
 
 const renderISBN = (reference: Reference) => {
@@ -326,7 +332,7 @@ const renderPublisher = (reference: { publisher?: LStr, ['publisher-place']?: st
 
     const publisher = 'publisher' in reference ? reference.publisher : undefined;
     if (publisher) {
-        result = renderLStr(publisher, 'span', {itemprop: 'name', class: 'noun'});
+        result = renderLStr(publisher, 'span', {itemprop: 'name', class: 'noun'}, {itemprop: 'alternateName'});
     }
 
     // (p) => `<span class="noun"${asAttr('lang', reference['publisher-lang'])}>${p}</span>${reference['publisher-place'] ? ': ' : (p.endsWith('.') ? ' ' : '. ')}`)
@@ -357,7 +363,7 @@ function renderPeriodical(id: string, p: Periodical): string {
         return (
             `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
             + `<link itemprop="publisher" href="${`#${id}-publisher`}" />`
-            + renderLStr(p.title, 'cite', {itemprop: 'name'})
+            + renderLStr(p.title, 'cite', {itemprop: 'name'}, {itemprop: 'alternateName'})
             + `</span>`
             + ' '
             + `<span itemscope itemtype="http://schema.org/PublicationVolume" itemid="${`#${id}-volume`}">`
@@ -379,7 +385,7 @@ function renderPeriodical(id: string, p: Periodical): string {
         return (
             `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
             + `<link itemprop="publisher" href="${`#${id}-publisher`}" />`
-            + renderLStr(p.title, 'cite', {itemprop: 'name'})
+            + renderLStr(p.title, 'cite', {itemprop: 'name'}, {itemprop: 'alternateName'})
             + `</span>`
             + ' '
             + `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationIssue">`
@@ -395,7 +401,7 @@ function renderPeriodical(id: string, p: Periodical): string {
         return (
             `<span itemscope itemtype="http://schema.org/Periodical" itemid="${`#${id}-periodical`}">`
             + `<link itemprop="publisher" href="${`#${id}-publisher`}" />`
-            + renderLStr(p.title, 'cite', {itemprop: 'name'})
+            + renderLStr(p.title, 'cite', {itemprop: 'name'}, {itemprop: 'alternateName'})
             + `</span>`
             + ' '
             + `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/PublicationVolume">`
@@ -411,7 +417,7 @@ function renderPeriodical(id: string, p: Periodical): string {
     return (
         `<span itemprop="isPartOf" itemscope itemtype="http://schema.org/Periodical">`
         + `<link itemprop="publisher" href="${`#${id}-publisher`}" />`
-        + renderLStr(p.title, 'cite', {itemprop: 'name'})
+        + renderLStr(p.title, 'cite', {itemprop: 'name'}, {itemprop: 'alternateName'})
         + datePart
         + `</span>`
     );
@@ -425,7 +431,7 @@ function renderContainer(reference: BiblioRef) {
             if ('container-title' in reference && reference['container-title']) {
                 return ` <span itemscope itemtype="http://schema.org/WebSite" itemprop="isPartOf">`
                     + '<i>'
-                    + renderLStr(reference['container-title'], 'span', {itemprop: 'name'})
+                    + renderLStr(reference['container-title'], 'span', {itemprop: 'name'}, {itemprop: 'alternateName'})
                     + '</i>'
                     + `</span>. `;
             }

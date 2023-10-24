@@ -25,6 +25,15 @@ Also murnivall, mourneval, mournaval, mourniuall, mornyfle; from French <a href=
 Also perryall, priol, prioll; from “pair royal”. An old English term for a set of three cards of the same rank.
 </dd>
 
+<dt id="pong">pong</dt>
+<dd>
+
+This is a term used in {% gameref mahjong %} to refer to a set (of three). It comes from the Chinese <span lang="zh">碰</span> (Mandarin: <span lang="cmn-Latn-pinyin">pèng</span>, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>, Hokkien: <span lang="nan-Latn">pōng</span> or <span lang="nan-Latn">phòng</span>); see the game {%gameref peng-he%}, in which the term may have originated.
+
+This word is now used in English mahjong games. It also seems to appear in Javanese as <span lang="jav-Latn">pang</span> (see {%gameref pei%}). Perhaps it could also be the origin of the Thai <span lang="th">ไพ่ผ่อง</span> <span lang="th-Latn">pai phong</span> (see {%gameref pai-tong%})?
+
+</dd>
+
 <dt>tong</dt>
 <dd>
 Payment made to the owner of a gambling establishment, as a fixed fee per game or as a percentage of winnings.

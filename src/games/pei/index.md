@@ -77,7 +77,14 @@ The red-stamped cards.
 
 This combination is formed from one of each of the three red-stamped cards. It is worth 13 points per card, so at least 39 points. Any additional cards of the same type add 13 points each.
 
-#### <span lang="jav-Latn">Kéyang</span> Branch (<span lang="jav-Latn">pang kéyang</span>)
+
+#### <span lang="jav-Latn">Pang Kéyang</span> (<span lang="jav-Latn">pang kéyang</span>)
+
+{%aside%}
+In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See {%a glossary#pong %} page for more.
+
+<span lang="jav-Latn">Kéyang</span> is the name of the 9 of myriads card. I am uncertain what it means.
+{%endaside%}
 
 {% image
     noborder=true
@@ -87,12 +94,12 @@ This combination is formed from one of each of the three red-stamped cards. It i
     hidden=true
     src="../../articles/cards/ceki/CWF.jpg;../../articles/cards/ceki/CS8.jpg;../../articles/cards/ceki/CM9.jpg"
     alt=";;" %}
-The cards for <span lang="jav-Latn">Kéyang</span>.
+The cards for <span lang="jav-Latn">Pang Kéyang</span>.
 {%imageEnd%}
 
 This combination is formed from one of each of White Flower, 8 of strings, and 9 of myriads. It scores 12 points per card (base 36 points), and 12 for each additional card.
 
-#### Coin Branch (<span lang="jav-Latn">pang picis</span>) 
+#### Coin <span lang="jav-Latn">Pang</span> (<span lang="jav-Latn">pang picis</span>) 
 
 {% image
     noborder=true
@@ -102,7 +109,7 @@ This combination is formed from one of each of White Flower, 8 of strings, and 9
     hidden=true
     src="../../articles/cards/ceki/CC8.jpg;../../articles/cards/ceki/CS2.jpg;../../articles/cards/ceki/CM2.jpg"
     alt=";;" %}
-The cards for <span lang="jav-Latn">Pang</span>.
+The cards for <span lang="jav-Latn">Pang Picis</span>.
 {%imageEnd%}
 
 This combination is formed from one of each of the 8 of coins, 2 of strings, and 2 of myriads. It scores 11 points per card (33 points), and 11 for each additional card.
