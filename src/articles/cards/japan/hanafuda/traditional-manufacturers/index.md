@@ -2179,17 +2179,9 @@ lang="ja-Latn">Nishi&shy;guchi Shōten</span>. Their brands included:
 前田喜兵衛</span>).[@Trademarks1905 p. 65]
 {% imageEnd %}
 
-For more about <span class="noun" lang="ja-Latn">Kamigataya</span>, see the [history
-article](/articles/cards/japan/hanafuda/art/). Early on, <span class="noun"
-lang="ja-Latn">Kamigataya</span> had decks made (by <span class="noun"
-lang="ja-Latn">Nintendō</span>) with their own brand, but they would later sell
-<span class="noun" lang="ja-Latn">Nintendō</span>-branded cards directly. Their maker’s mark
-was <span lang="ja">片&#xe0103;</span> with angle.
+For more about <span class="noun" lang="ja-Latn">Kamigataya</span>, see the [history article](/articles/cards/japan/hanafuda/art/). Early on, <span class="noun" lang="ja-Latn">Kamigataya</span> had decks made (by <span class="noun" lang="ja-Latn">Nintendō</span>) with their own brand, but they would later sell <span class="noun" lang="ja-Latn">Nintendō</span>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xE0103;</span> with angle.
 
-In 1914, the company was run by one <span class="noun" lang="ja-Latn">Kataoka Ei</span>
-(<span lang="ja">片岡エイ</span>). (Probably the logo dates from after <span class="noun"
-lang="ja-Latn">Kamigataya</span> was taken over by the <span class="noun"
-lang="ja-Latn">Kataoka</span> family.)
+In 1914, the company was run by one <span class="noun" lang="ja-Latn">Kataoka Ei</span> (<span lang="ja">片岡エイ</span>). (Probably the logo dates from after <span class="noun" lang="ja-Latn">Kamigataya</span> was taken over by the <span class="noun" lang="ja-Latn">Kataoka</span> family.)
 
 Their brands included:
 

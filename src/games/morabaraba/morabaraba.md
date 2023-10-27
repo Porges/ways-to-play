@@ -136,14 +136,6 @@ different move must be taken before doing so. This rule prevents a player from
 moving backwards and forwards between two mills quickly. This rule seems to me
 to be unlikely to be used in casual play.
 
-<!--
-{/*
-<Section title="Strategy">
-<p>There are some well-known strategies (<span lang="st">mawa</span>/<span lang="st">maoa</span>, singular <span lang="st">lewa</span>/<span lang="st">leoa</span>) that have been named. Unfortunately I have not been able to figure out exactly what they represent, but possibly they are names of specific piece formations.[@TransmitterOfAccolades] The Sesotho names are: <span lang="st">tjhitja</span>/<span lang="st">chitja</span> (‘hornless’ or ‘round’), which is apparently a winning strategy; <span lang="st">katapane</span>, another good strategy; and <span lang="st">qheane</span>, which is a poor or losing strategy.<cite r="MasculinityAccordion" page={[[185, 186]]} /> {/*Others are seakgela/seakhela and qholo. thoenthoere/thwenthwere is a 'double hit' when two are formed at once (BasuthoChildren) /}</p>
-</Section>
-*/}
--->
-
 ## Analysis
 
 With perfect play, the first player can force a win in 49
@@ -166,15 +158,30 @@ also crossed, and the inner diagonals are missing, giving 25 points that can be
 played on.‌[@IndigenousGamesRuleBook][@MkeleMorabaraba p. 133] This means that
 there is no possibility of a deadlock after the placement phase.
 
+The centre of the board is called the hole (<span lang="st">koti</span>)[@PapaliEaMorabaRaba] or well (<span lang="st">diba</span>).[@BasothoChildren p. 40]
+
 Most rulesets state that a piece on the central point can only be the middle
 piece of a mill. Other lines of three formed with the central point do not count
-as mills.[@BlacUmlabalaba][@TicTacToe pp. 67–70]
-
-Note that it is not possible to form a diagonal mill on this board.
+as mills.[@BlacUmlabalaba][@TicTacToe pp. 67–70] Note also that it is not possible to form a diagonal mill on this board.
 
 @IKSEthnomathematics [p. 16] reports that the game ends as soon as one player is reduced to 3 pieces, rather than 2.
 
-<div class="multi">
+#### Strategems
+
+In Lesotho, there are some well-known strategems (<span lang="st">mawa</span>/<span lang="st">maoa</span>, singular <span lang="st">lewa</span>/<span lang="st">leoa</span>) that have been named:
+
+- **<span lang="st">ka selibeng</span>** ‘using the well’, **<span lang="st">khomo ea koti</span>** ‘cow in the hole’: to start the game by placing a piece in the middle of the board[@PapaliEaMorabaRaba]
+- **<span lang="st">chitja/tjhitja</span>** ‘round’, also meaning a cow without horns: to completely surround the opponent so that they cannot move, a winning strategy[@PapaliEaMorabaRaba][@BasothoChildren p. 40]
+- **<span lang="st">khutla/kgutla</span>** ‘return’, a “running mill” which can be formed and reformed[@PapaliEaMorabaRaba][@MkeleMorabaraba p. 134][@BasothoChildren p. 40]
+- **<span lang="st">mapeli</span>** ‘two’, **<span lang="st">semufu</span>** (?), or **<span lang="st">thwenthwere/thoenthoere</span>** (onomatopœic): to form two mills at the same time (in a corner)[@PapaliEaMorabaRaba][@BasothoChildren p. 40]
+
+There are also others that I have not been able to figure out; see the sources linked above.
+
+<!--
+Unfortunately I have not been able to figure out exactly what they represent, but possibly they are names of specific piece formations.[@TransmitterOfAccolades] The Sesotho names are: <span lang="st">tjhitja</span>/<span lang="st">chitja</span> (‘hornless’ or ‘round’), which is apparently a winning strategy; <span lang="st">katapane</span>, another good strategy; and <span lang="st">qheane</span>, which is a poor or losing strategy.<cite r="MasculinityAccordion" page={[[185, 186]]} />  also ... seakgela/seakhela and qholo
+-->
+
+<div class="multi equal">
 {% image 
     src="large_merels_with_diagonals_and_centre_mill_examples.svg"
     alt="" %}

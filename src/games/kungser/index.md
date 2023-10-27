@@ -17,4 +17,6 @@ for the Gelug (<span lang="bo">དགེ་ལུགས་པ</span>) school.
 
 The game may represent this.
 
+Compare with @GuptaCalcutta, where "Mangal-pátá" is said to represent the conflict between "Moghals" and "Pathans". See also @Simaloerese [p. 10-11].
+
 See: https://journals.openedition.org/emscat/4631

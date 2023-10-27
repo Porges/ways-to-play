@@ -1,8 +1,10 @@
 OxfordBG:
   type: book
   author:
-    - family: Parlett
+    - &David_Parlett
+      family: Parlett
       given: David
+      url: https://en.wikipedia.org/wiki/David_Parlett
   title: The Oxford History of Board Games
   ISBN: 978-0192129987
   issued:
@@ -15,8 +17,10 @@ OxfordBG:
 Gamut:
   type: book
   author:
-    - family: Sackson
+    - &Sid_Sackson
+      family: Sackson
       given: Sid
+      url: https://en.wikipedia.org/wiki/Sid_Sackson
   title: A Gamut of Games
   issued:
     year: 2011
@@ -379,6 +383,7 @@ Bell:
   author:
     - given: R. C.
       family: Bell
+      url: https://en.wikipedia.org/wiki/Robert_Charles_Bell
   issued:
     year: 1969
   publisher: Dover Publications
@@ -391,8 +396,10 @@ Murray:
   type: book
   title: A History of Chess
   author:
-    - given: H. J. R.
+    - &HJR_Murray
+      given: H. J. R.
       family: Murray
+      url: https://en.wikipedia.org/wiki/H._J._R._Murray
   issued:
     year: 2012
   original-date:
@@ -404,8 +411,7 @@ Murray2:
   type: book
   title: A History of Board-Games Other Than Chess
   author:
-    - given: H. J. R.
-      family: Murray
+  - *HJR_Murray
   issued:
     year: 1951
   publisher: Oxford University Press
@@ -460,8 +466,10 @@ KoreanGames:
   type: book
   title: Korean Games with notes on the corresponding games of China and Japan
   author:
-    - family: Culin
+    - &Stewart_Culin
+      family: Culin
       given: Stewart
+      url: https://en.wikipedia.org/wiki/Stewart_Culin
   issued:
     year: 1895
   publisher: University of Pennsylvania
@@ -471,8 +479,7 @@ CulinHawaiian:
   type: article-journal
   title: Hawaiian Games
   author:
-    - family: Culin
-      given: Stewart
+  - *Stewart_Culin
   page: 201-247
   URL: http://www.jstor.org/stable/658394
   in:
@@ -486,8 +493,7 @@ CulinPhilippine:
   type: article-journal
   title: Philippine Games
   author:
-    - family: Culin
-      given: Stewart
+  - *Stewart_Culin
   page: 643–656
   URL: http://www.jstor.org/stable/659313
   in:
@@ -653,8 +659,7 @@ CardGamesAroundTheWorld:
   type: book
   title: Card Games Around the World
   author:
-    - family: Sackson
-      given: Sid
+  - *Sid_Sackson
   issued:
     year: 1994
   original-date:
@@ -1075,6 +1080,7 @@ MacedonianFolklore:
   author:
     - family: Abbott
       given: George Frederick
+      url: https://en.wikipedia.org/wiki/George_Frederick_Abbott
   publisher: Cambridge University Press
   publisher-place: Cambridge, UK
   issued:
@@ -1439,9 +1445,9 @@ NoteOnAMissingLink:
     - given: John
       family: Fairbairn
   page: 54–56
-  in:
-    ISSN: 0305-2133
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_16_2
+    ISSN: &IPCS_SSN 1752-671x #used to be? 0305-2133
+    title: &IPCS Journal of the International Playing-Card Society
     volume: 16
     issue: 2
     issued:
@@ -1490,9 +1496,9 @@ PoemsOfTheEchigobana:
     - family: Fairbairn
       given: John
   page: 97–102
-  in:
-    ISSN: 0305-2133
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_14_4
+    ISSN: *IPCS_SSN
+    title: *IPCS
     volume: 14
     issue: 4
     issued:
@@ -1505,9 +1511,9 @@ ModernKoreanCards:
     - family: Fairbairn
       given: John
   page: 68–72
-  in:
-    ISSN: 0305-2133
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_20_1
+    ISSN: *IPCS_SSN
+    title: *IPCS
     volume: 20
     issue: 1
     issued:
@@ -1520,9 +1526,9 @@ ModernJapaneseWrappers:
     - family: Hatton
       given: George
   page: 33–63
-  in:
-    ISSN: 0305-2133
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_10_2
+    ISSN: *IPCS_SSN
+    title: *IPCS
     volume: 10
     issue: 2
     issued:
@@ -2471,7 +2477,8 @@ BoardGamesInLateImperialChina:
   title: An Introduction to Board Games in Late Imperial China
   page: 125–132
   author:
-  - given: Andrew
+  - &Andrew_Lo
+    given: Andrew
     family: Lo
   in: *ancientBoardGamesInPerspective
 DimensionsOfBookOfGames:
@@ -2717,8 +2724,8 @@ KakkuriYomi:
   author:
     - given: Kimihiko
       family: Kuromiya
-  in:
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_33_4
+    title: *IPCS
     volume: 33
     issue: 4
     issued:
@@ -2797,7 +2804,8 @@ UmebayashiIsao:
     value: 地方の花札屋さん
     lang: ja
   author:
-    - family: 梅林
+    - &Umebayashi_Isao_JP
+      family: 梅林
       given: 勲
       lang: ja
       alt: 
@@ -3213,6 +3221,7 @@ MasculinityAccordion:
   publisher: University of South Africa
   publisher-place: Pretoria, South Africa
   URL: https://core.ac.uk/download/pdf/160476343.pdf
+  archive-URL: https://web.archive.org/web/20231027011558/https://core.ac.uk/download/pdf/160476343.pdf
 TransmitterOfAccolades:
   type: article-newspaper
   title: Transmitter of accolades to the deserving
@@ -3439,7 +3448,8 @@ TaxStampNZ:
   type: webpage
   title: Playing-Card Tax Stamps from New Zealand
   author:
-    - given: Peter
+    - &Peter_Endebrock
+      given: Peter
       family: Endebrock
   issued:
     year: 2017
@@ -3696,8 +3706,9 @@ ChikiCards:
     - family: Pwee
       given: Keng Ho
   page: 119–128
-  in:
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_32_3
+    ISSN: *IPCS_SSN
+    title: *IPCS
     volume: 32
     issue: 3
     issued:
@@ -5068,8 +5079,7 @@ ChineseInAmerica:
   type: book
   title: The Gambling Games of the Chinese in America
   author:
-    - given: Stewart
-      family: Culin
+  - *Stewart_Culin
   issued:
     year: 1891
   publisher: University of Pennsylvania
@@ -5079,8 +5089,7 @@ ChineseGames:
   type: book
   title: Chinese Games with Dice and Dominoes
   author:
-    - given: Stewart
-      family: Culin
+  - *Stewart_Culin
   issued:
     year: "1895"
   publisher: Government Printing Office
@@ -5194,7 +5203,7 @@ YoungCeki:
   page: 269–302
   URL: https://books.google.co.nz/books?id=BSUDAAAAYAAJ&pg=PA269
   in:
-    title:
+    title: &Tijd
       value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
       lang: nl
     volume: 31
@@ -5792,8 +5801,7 @@ GameOfLeaves:
   type: article-journal
   title: "The Game of Leaves: An Inquiry into the Origin of Chinese Playing Cards"
   author:
-    - given: Andrew
-      family: Lo
+  - *Andrew_Lo
   page: 389–406
   URL: http://www.jstor.org/stable/1559494
   in:
@@ -6477,8 +6485,7 @@ CulinChess:
   URL: https://archive.org/details/chessplayingcard00culi
   title: Chess and Playing Cards
   author:
-    - family: Culin
-      given: Stewart
+  - *Stewart_Culin
   issued:
     year: 1896
   publisher: Government Printing Office
@@ -7627,8 +7634,7 @@ CulinNorthAmericanIndians:
   type: book
   title: Games of the North American Indians
   author:
-    - given: Stewart
-      family: Culin
+  - *Stewart_Culin
   URL: https://archive.org/details/gamesofnorthamer00culirich
   issued: 1907
 ElAjedrez:
@@ -8519,8 +8525,7 @@ CulinMahjong:
   type: article-journal
   title: "The Game of Ma-Jong: Its Origin and Significance"
   author:
-    - family: Culin
-      given: Stewart
+  - *Stewart_Culin
   page: 153–168
   URL: http://www.jstor.com/stable/26460002
   in:
@@ -8534,8 +8539,7 @@ GamesOfTheOrient:
   type: book
   title: Games of the Orient
   author:
-    - family: Culin
-      given: Stewart
+  - *Stewart_Culin
   issued: 1958
   publisher: Tuttle
   publisher-place: Rutland, Vermont & Tokyo, Japan
@@ -8566,14 +8570,22 @@ ChaquiAndPartui:
   author:
     - given: Ana Maria
       family: Amaro
+  translator:
+    - given: A. G.
+      family: Smith
   page: 34–40
-  in:
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_22_2
+    ISSN: *IPCS_SSN
+    title: *IPCS
     volume: 22
     issue: 2
     issued:
       year: 1993
       month: 11
+    editor:
+    - &Stuart_Lawrence
+      given: Stuart
+      family: Lawrence
 MalayEnglishWilkinson:
   type: book
   title: A Malay–English Dictionary
@@ -8869,8 +8881,7 @@ DoubleSixes:
   type: chapter
   title: 'Double Sixes, Holding Spears, and the Long March: Games of the Backgammon Family in China'
   author:
-  - given: Andrew
-    family: Lo
+  - *Andrew_Lo
   page: 97–103
   in: *asianGames
 TangGuoshiBu:
@@ -9559,11 +9570,13 @@ NotesOnFishing:
   type: article-journal
   title: "Playing the Game: Notes on Fishing"
   author:
-  - given: John
+  - &John_McLeod
+    given: John
     family: McLeod
   page: 204-206
-  in:
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_26_6
+    title: *IPCS
+    ISSN: *IPCS_SSN
     volume: 26
     issue: 6
     issued:
@@ -9573,28 +9586,27 @@ FishingInYorkshire:
   type: article-journal
   title: "Playing the Game: Fishing in 18<sup>th</sup>-century Yorkshire"
   author:
-  - given: John
-    family: McLeod
+  - *John_McLeod
   page: 183-185
-  in:
-    title: Journal of the International Playing-Card Society
-    issue: 3
+  in: &IPCS_45_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
     volume: 45
+    issue: 3
     issued:
       month: 3
       year: 2017
     editor:
-    - given: Paul
-      family: Endebrock
+    - *Peter_Endebrock
 SwaziCasino:
   type: article-journal
   title: "Playing the Game: Swazi Casino"
   author:
-  - given: John
-    family: McLeod
+  - *John_McLeod
   page: 258-261
-  in:
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_28_5
+    title: *IPCS
+    ISSN: *IPCS_SSN
     volume: 28
     issue: 5
     issued:
@@ -9759,8 +9771,7 @@ BackgammonLo:
   title: Notes on the Early History of the Backgammon Family in China
   page: 232-234
   author:
-  - given: Andrew
-    family: Lo
+  - *Andrew_Lo
   in: *ancientBoardGamesInPerspective
 ChuTzuEarlyChinese:
   type: chapter
@@ -9825,8 +9836,9 @@ CasinoFromNowhere:
   - given: Franco
     family: Pratesi
   page: 6-12
-  in:
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_24_1
+    title: *IPCS
+    ISSN: *IPCS_SSN
     volume: 24
     issue: 1
     issued:
@@ -9877,8 +9889,7 @@ OnTheCards30:
   type: article-journal
   title: On The Cards
   author:
-  - given: David
-    family: Parlett
+  - *David_Parlett
   URL: https://archive.org/details/sim_games-and-puzzles_1974-11_30/page/44
   page: 44-46
   in:
@@ -9896,8 +9907,7 @@ OnTheCards34:
   type: article-journal
   title: On The Cards
   author:
-  - given: David
-    family: Parlett
+  - *David_Parlett
   URL: https://archive.org/details/sim_games-and-puzzles_1975-03_34/page/44
   page: 44-45
   in:
@@ -9915,7 +9925,8 @@ TwoTenSeven:
   type: article-journal
   title: Two-Ten-Seven
   author:
-  - given: Isao
+  - &Isao_Umebayashi_EN
+    given: Isao
     family: Umebayashi
     lang: ja-Latn
     alt:
@@ -9925,9 +9936,9 @@ TwoTenSeven:
   - given: George
     family: Hatton
   page: 141-144
-  in:
-    title: Journal of the International Playing-Card Society
-    ISSN: 0305-2133
+  in: &IPCS_25_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
     volume: 25
     issue: 3
     issued:
@@ -10857,6 +10868,7 @@ ObservationsOnSomeOldFashionedGames:
   title: Observations on some old fashioned Games on the Cards
   URL: https://archive.org/details/sim_weekly-entertainer-and-west-of-england-miscellany_1784-02-09_3_58/page/133/mode/2up
   page: 133
+  notes: This is a later adaptation of the 1750 piece included in the bibliography as “A Letter from a Lady”/“A Letter from Mrs Midnight”.
   in:
     title: The Weekly Entertainer
     volume: 3
@@ -11761,11 +11773,11 @@ LoYeziPu:
   type: article-journal
   title: 'The ‘Yezi Pu’ (Manual of Leaves): A Card Manual for Games of the Late Ming Period [1368–1644]'
   author:
-  - given: Andrew
-    family: Lo
+  - *Andrew_Lo
   page: 86-96
-  in:
-    title: Journal of the International Playing-Card Society
+  in: &IPCS_31_2
+    title: *IPCS
+    ISSN: *IPCS_SSN
     volume: 31
     issue: 2
     issued: 2002
@@ -11798,5 +11810,269 @@ SwineherdsGossip:
       lang: cmn-Latn-pinyin
   issued: 1783
   # extract on the portion about Ma Diao
-
+UncommonMahJiang:
+  type: article-journal
+  author:
+  - &Michael_Stanwick
+    given: Michael
+    family: Stanwick
+  title: An Uncommon Má Jiàng Pattern from Fujian?
+  page: 83-94
+  in: &IPCS_46_2
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 46
+    issue: 2
+    issued:
+      month: 12
+      year: 2017
+    editor: 
+    - *Peter_Endebrock
+EmbarrassingTiles:
+  type: article-journal
+  author:
+  - *Thierry_Depaulis
+  title: 'Embarrassing Tiles: Mahjong and the Taipings'
+  page: 148-153
+  in: &IPCS_35_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 35
+    issue: 3
+    issued:
+      month: 3 
+      year: 2007
+BerryChineseSuit:
+  type: article-journal
+  author:
+  - &John_Berry
+    given: John
+    family: Berry
+  title: Chinese Money-Suited Cards
+  page: 230-236
+  in: &IPCS_31_5
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 31
+    issue: 5
+    issued:
+      month: 4
+      year: 2003
+    editor:
+    - &Michael_Cooper
+      given: Michael B.
+      family: Cooper
+XuYeziPu_1:
+  type: article-journal
+  author:
+  - *Andrew_Lo
+  title: 'Pan Zhiheng’s ‘Xu Yezi Pu’ (Sequel to a Manual of Leaves) – Part 1'
+  page: 221-229
+  in: *IPCS_31_5
+XuYeziPu_2:
+  type: article-journal
+  author:
+  - *Andrew_Lo
+  title: 'Pan Zhiheng’s ‘Xu Yezi Pu’ (Sequel to a Manual of Leaves) – Part 2'
+  page: 278-284
+  in: &IPCS_31_6
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 31
+    issue: 6
+    issued:
+      month: 6
+      year: 2003
+    editor:
+    - *Michael_Cooper
+MahjongMahjong_1:
+  type: article-journal
+  author:
+  - *Michael_Stanwick
+  title: 'Mahjong(g) before Mahjong(g): Part 1'
+  URL: https://www.themahjongtileset.co.uk/tile-set-history/mahjongg-before-mahjongg-part-1/
+  page: 153-162
+  in: &IPCS_32_4
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 32
+    issue: 4
+    issued:
+      month: 2
+      year: 2004
+    editor: 
+    - *Michael_Cooper
+MahjongMahjong_2:
+  type: article-journal
+  author:
+  - *Michael_Stanwick
+  title: 'Mahjong(g) before Mahjong(g): Part 2'
+  URL: https://www.themahjongtileset.co.uk/tile-set-history/mahjongg-before-mahjongg-part-2/
+  page: 206-215
+  in: &IPCS_32_5
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 32
+    issue: 5
+    issued:
+      month: 4
+      year: 2005
+    editor:
+    - *Michael_Cooper
+FlowersAndKings:
+  type: article-journal
+  author:
+  - *Michael_Stanwick
+  - given: Hongbing
+    family: Xu
+  title: 'Flowers and Kings: A Hypothesis of their Function in Early Ma Que'
+  page: 29-40
+  in: &IPCS_37_1
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 37
+    issue: 1
+    issued:
+      month: 9
+      year: 2008
+    editor: 
+    - *Peter_Endebrock
+ModernChineseCharacterCards:
+  type: article-journal
+  author:
+  - given: Jeffery
+    family: Hopewell
+  title: Modern Chinese Character Cards
+  page: 273-277
+  in: *IPCS_31_6
+FourSuitedHakka:
+  type: article-journal
+  title: 'The Four-suited Chinese ‘Money’ Pack and a Gambling Game of the Hakka'
+  author:
+  - given: A. G.
+    family: Smith
+  page: 29-39
+  in: &IPCS_23_2
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 23
+    issue: 2
+    issued:
+      month: 11
+      year: 1994
+    editor:
+    - *Stuart_Lawrence
+BluffEnglishGame:
+  type: article-journal
+  title: "Bluff English Game – With American Branches: 2"
+  author:
+  - given: Jeffrey
+    family: Burton
+  page: 102-107
+  in: &IPCS_24_4
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 24
+    issue: 4
+    issued:
+      month: 2
+      year: 1996
+    editor:
+      - &George_Beal
+        given: George
+        family: Beal
+LiukFuAndOther:
+  type: article-journal
+  title: Liuk Fu, Cháng Pái and other East Asian Trick-Taking Games
+  author:
+  - given: Gunther
+    family: Senst
+  - given: Anthony
+    family: Smith
+  page: 111-119
+  in: *IPCS_24_4
+Cuajo:
+  type: article-journal
+  title: 'Cuajo: a Chinese game with Spanish Cards'
+  author:
+  - *John_McLeod
+  page: 256-259
+  in: &IPCS_29_4
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 29
+    issue: 6
+    issued: 
+      month: 6
+      year: 2001
+    editor:
+    - *Michael_Cooper
+PartitionGames:
+  type: article-journal
+  title: "Playing the Game: Partition games"
+  author:
+  - *John_McLeod
+  page: 173-175
+  in: *IPCS_32_4
+ResponseTuman:
+  type: article-journal
+  title: "A Response to the <i>*tuman</i> Problem"
+  author: 
+  - given: Diane
+    family: O’Donovan
+  page: 158-162
+  in: &IPCS_29_2
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 29
+    issue: 4
+    issued:
+      month: 2
+      year: 2001
+    editor:
+    - *Michael_Cooper
+Tuman10000:
+  # TODO: check this, I hit the limit
+  type: article-journal
+  author:
+  - given: Andrea
+    family: Pollett
+  title: Tûmân, or the 10,000 Cups of the Mamlûk Cards
+  page: 34-41
+  in: &IPCS_31_1
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 31
+    issue: 1
+    issued:
+      month: 8
+      year: 2002
+Simaloerese:
+  type: article-journal
+  author:
+  - given: Edward
+    family: Jacobson
+  title:
+    lang: nl
+    value: Simaloerese Sprookjes, Overleveringen, Raadsels en Spelen
+  page: 1-14
+  URL: https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
+  in:
+    title: *Tijd
+    volume: 58
+    issued: 1919
+PapaliEaMorabaRaba:
+  type: webpage
+  title:
+    value: Papali ea Moraba-raba
+    lang: st
+  author:
+  - given: Tšepo
+    family: Khoro
+  URL: https://www.slideshare.net/KhoroTsepo/papali-ea-morabarabaka-tsepo-khoropptx-253711929
+  container-title: Slideshare
+  issued:
+    day: 20
+    month: 10
+    year: 2022
   

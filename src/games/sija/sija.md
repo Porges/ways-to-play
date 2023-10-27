@@ -24,7 +24,7 @@ This game (usually called <span lang="ar-Latn" class="noun aka">Seega</span> in 
 
 <span lang="ar">شيزة</span> {%pronounce word="shiza" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_شيزة.mp3" %}
 
-See: @BedouinHeritage, @ModernEgyptians [p. 318], @GebelElSilsila
+See: @BedouinHeritage, @ModernEgyptians [p. 318], @GebelElSilsila, @SeegaEgyptian
 
 @Murray2 [§4.1.7], leaping variant @Murray2 [§4.4.3], citing @AncientCeylon [p. 604], where Chokō is also described
 

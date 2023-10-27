@@ -5,3 +5,5 @@ equipment: Playing cards (Standard)
 ---
 
 @PinkNinesAnyone
+
+@PartitionGames
