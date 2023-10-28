@@ -774,10 +774,7 @@ Sanga</span>](https://en.wikipedia.org/wiki/Kyoto_Sanga_FC) (<span lang="ja">京
 that is normally featured on the Paulownia bright card.
 {% imageEnd %}
 
-In conjunction with <span class="noun" lang="ja-Latn">Ganzo&shy;futo&shy;neko&shy;dō</span>
-(<span lang="ja">元祖ふとねこ堂</span>), they produced <strong><span class="noun"
-lang="ja-Latn">Hana&shy;neko&shy;fuda</span></strong> (<span lang="ja">花猫札
-</span>), featuring Japanese cats:
+In conjunction with <span class="noun" lang="ja-Latn">Ganzo&shy;futo&shy;neko&shy;dō</span> (<span lang="ja">元祖ふとねこ堂</span>), they produced <strong><span class="noun" lang="ja-Latn">Hana&shy;neko&shy;fuda</span></strong> (<span lang="ja">花猫札</span>), featuring Japanese cats:
 
 {% image 
     src="OishiTengudo_Cat.jpg"
@@ -804,18 +801,9 @@ The <span lang="ja-Latn">Daitenryū</span> packaging.
 {% imageEnd %}
 </div>
 
-Angel was originally named <span class="noun" lang="ja-Latn">Okina Karuta Honpo</span> (<span
-lang="ja">翁かるた本舗</span>), and was first based in the city of [<span class="noun"
-lang="ja-Latn">Yōkaichi</span>](https://en.wikipedia.org/wiki/Y%C5%8Dkaichi,_Shiga)
-(now <span class="noun" lang="ja-Latn">Higashiōmi</span>), <span class="noun" lang="ja-Latn">Shiga</span>
-prefecture (<span lang="ja">滋賀県八日市市</span>). It is now based in <span class="noun"
-lang="ja-Latn">Kyōto</span>. They still use the character <span lang="ja">翁
-</span> (<span lang="ja-Latn">okina</span>) as their maker’s mark, or otherwise
-the name Angel is written <span lang="ja">エンゼル</span>. On some cards this is
-spelled <span lang="ja">縁是留</span>.
+Angel was originally named <span class="noun" lang="ja-Latn">Okina Karuta Honpo</span> (<span lang="ja">翁かるた本舗</span>), and was first based in the city of [<span class="noun" lang="ja-Latn">Yōkaichi</span>](https://en.wikipedia.org/wiki/Y%C5%8Dkaichi,_Shiga) (now <span class="noun" lang="ja-Latn">Higashiōmi</span>), <span class="noun" lang="ja-Latn">Shiga</span> prefecture (<span lang="ja">滋賀県八日市市</span>). It is now based in <span class="noun" lang="ja-Latn">Kyōto</span>. They still use the character <span lang="ja">翁 </span> (<span lang="ja-Latn">okina</span>) as their maker’s mark, or otherwise the name Angel is written <span lang="ja">エンゼル</span>. On some cards this is [spelled](https://en.wikipedia.org/wiki/Ateji) <span lang="ja">縁是留</span>.
 
-Angel currently produces <span class="noun" lang="ja-Latn">Hanafuda</span> and <span class="noun"
-lang="ja-Latn">Kabufuda</span> in two brands:
+Angel currently produces <span class="noun" lang="ja-Latn">Hanafuda</span> and <span class="noun" lang="ja-Latn">Kabufuda</span> in two brands:
 
 * <span lang="ja">千鳥</span> (<span lang="ja-Latn">chidori</span> ‘numerous birds’)
 * <span lang="ja">元禄</span> (<span lang="ja-Latn">Genroku</span>, an era which spanned 1688–1704)
