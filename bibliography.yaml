@@ -368,15 +368,19 @@ Ellis17:
   publisher: Hawaiian Gazette Company
   publisher-place: Honolulu, Hawaiʻi
   URL: https://archive.org/details/journalofwilliam000434mbp
-Adler57:
+AdlerMagic:
   type: book
   title: Magic House of Numbers
+  URL: https://archive.org/details/B-001-001-881
+  edition: 2
   author:
     - given: Irving
       family: Adler
-  issued:
+  issued: 1974
+  original-date:
     year: 1957
-  publisher: New American Library
+  publisher: The John Day Company
+  publisher-place: New York, NY, USA
 Bell:
   type: book
   title: Board and Table Games from Many Civilizations
@@ -690,6 +694,20 @@ GameOfOmbre:
       given: Henry
   publisher: Chiswick Press
   publisher-place: Tooks Court, Chancery Lane, London, England, UK
+GameOfQuadrille:
+  type: book
+  title: The Game of Quadrille; or Ombre by Four, With its establish’d Laws and Rules, As it is now Play’d at the French Court
+  publisher-place: London
+  publisher: R. Francklin 
+  URL: https://archive.org/details/bim_eighteenth-century_the-game-of-quadrille-o_1720
+GameOfQuadrille_2e:
+  type: book
+  title: The Game of Quadrille; or Ombre by Four, With its establish’d Laws and Rules, To which is added, the Game of Quintille; or Ombre by Five, Both after the Old and New Manner
+  publisher-place: London
+  publisher: R. Francklin 
+  edition: 2
+  issued: 1728
+  URL: https://archive.org/details/bim_eighteenth-century_the-game-of-quadrille-o_1728
 LawsAndPractice:
   type: book
   title: The Laws and Practice of the Game of Euchre
@@ -5050,6 +5068,7 @@ JavaanseKaartspelen:
   title:
     value: "Javaanse Kaartspelen: bijdrage tot de beschrijving van land en volk"
     lang: nl
+    alt: Javanese Card Games
   author:
     - given: Tjan Tjoe
       family: Siem
@@ -5060,6 +5079,11 @@ JavaanseKaartspelen:
   publisher: A. C. Nix & Co.
   issued:
     year: 1941
+  series:
+    title:
+      value: "Verhandelingen van het Koninklijk Bataviaasch Genootschap van Kunsten en Wetenschappen"
+      lang: nl
+    volume: 75
 JavaanseKaartspelenReview:
   type: article-journal
   title:
@@ -7673,10 +7697,25 @@ ReizeNaarArabie:
   author:
     - given: Carsten
       family: Niebuhr
-      lang: nl
+      lang: de
       url: https://en.wikipedia.org/wiki/Carsten_Niebuhr
   issued: 1776
   publisher-place: Amsterdam & Utrecht
+ReisebeschreibungNachArabien:
+  type: book
+  URL: https://archive.org/details/bub_gb_cFJKAAAAYAAJ
+  title:
+    value: Reisebeschreibung nach Arabien und andern umliegenden Ländern
+    lang: de
+  volume: 1
+  author:
+    - given: Carsten
+      family: Niebuhr
+      lang: de
+      url: https://en.wikipedia.org/wiki/Carsten_Niebuhr
+  issued: 1774
+  publisher: Nicolaus Moͤller
+  publisher-place: Copenhagen
 TipcatAndOtherChineseGames:
   type: article-journal
   title: Tipcat, and Other Chinese Games
@@ -9482,6 +9521,7 @@ LaLangueDeRabelais:
   issued: 1922
 AllDeGeestigeWerken:
   type: book
+  URL: https://www.let.leidenuniv.nl/Dutch/Renaissance/Rabelais1682.html
   title:
     value: Alle de Geestige Werken van Mr. Francois Rabelais
     lang: nl
@@ -9492,7 +9532,7 @@ AllDeGeestigeWerken:
   publisher:
     value: Jan ten Hoorn
     lang: nl
-  publisher-place: Amsterdaa
+  publisher-place: Amsterdam
   issued: 1682
 PhilipSkippon:
   type: book
@@ -9775,7 +9815,7 @@ BackgammonLo:
   in: *ancientBoardGamesInPerspective
 ChuTzuEarlyChinese:
   type: chapter
-  title: Ch'u tz'u 楚辭
+  title: Ch’u tz’u <span lang="zh">楚辭</span>
   author:
   - given: David
     family: Hawkes
@@ -11710,13 +11750,14 @@ YeziPu:
   URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497656$54i
   issued: 1646
   author:
-  - family: 潘
+  - &Pan_Zhiheng
+    family: 潘
     given: 之恒
     lang: zh
     alt:
       lang: cmn-Latn-pinyin
       value: Pān Zhīhéng
-  series:
+  series: &XuShuofu_39
     title: &XuShuofu
       value: 續說郛
       lang: zh
@@ -11730,6 +11771,29 @@ YeziPu:
       alt:
         lang: cmn-Latn-pinyin
         value: Táo Tǐng
+XuYeziPu:
+  type: book
+  URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497656$61i
+  title:
+    lang: zh
+    value: 續葉子譜
+    alt: <span lang="cmn-Latn-pinyin" class="noun">Xù Yèzi Pǔ</span>
+  issued: 1646
+  author:
+  - *Pan_Zhiheng
+  series: *XuShuofu_39
+LiuboPu:
+  type: book
+  title:
+    value: 六博譜
+    lang: zh
+    alt: <span lang="cmn-Latn-pinyin" class="noun">Liùbó Pǔ</span>
+  URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497656$12i
+  issued: 1646
+  author:
+  - *Pan_Zhiheng
+  series: *XuShuofu_39
+  notes: A rather poor OCR is available from the <a href="https://ctext.org/library.pl?if=en&file=36761&page=19">Chinese Text Project</a>.
 ZuiLu:
   type: book
   URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497146$21i
@@ -11809,6 +11873,7 @@ SwineherdsGossip:
       value: Jīn Xuéshī
       lang: cmn-Latn-pinyin
   issued: 1783
+  notes: See text extracted and explained <a href="https://zhuanlan.zhihu.com/p/615258261">here</a>.
   # extract on the portion about Ma Diao
 UncommonMahJiang:
   type: article-journal
@@ -12075,4 +12140,125 @@ PapaliEaMorabaRaba:
     day: 20
     month: 10
     year: 2022
-  
+TravelsThroughArabia_1:
+  type: book
+  URL: https://archive.org/details/bim_eighteenth-century_travels-through-arabia-_niebuhr-carsten_1792_1
+  title: Travels through Arabia, and other countries in the East, performed by M. Niebuhr
+  author:
+  - given: M.
+    family: Niebuhr
+  translator:
+  - given: Robert
+    family: Heron
+  volume: 1
+  issued: 1792
+  original-date:
+    year: 1774
+  publisher: R. Morison and Son
+  publisher-place: Edinburgh, Scotland
+  notes: Originally published in German.
+UnsunOmbre:
+  type: article-journal
+  title: Unsun, a Far-eastern Cousin of Ombre
+  author:
+  - *Thierry_Depaulis
+  page: 39-44
+  in: &IPCS_12_
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    issued: 
+      month: 11
+      year: 1983
+    volume: 41
+    issue: 1
+    editor: &Eddie_Cass
+    - given: Eddie
+      family: Cass
+JeuDeLHombre_1674:
+  type: book
+  title:
+    value: Le Iev de L’Hombre
+    lang: fr
+  publisher-place: Paris
+  publisher:
+    value: Claude Barbin
+    lang: fr
+  issued: 1674
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k315519h
+  author:
+    - &Antoine_Gombaud
+      given: Antoine
+      family: Gombaud
+      alt: Chevalier de Méré
+      lang: fr
+      url: https://en.wikipedia.org/wiki/Antoine_Gombaud
+JeuDeLHombre_1682:
+  type: book
+  title:
+    value: Le Jeu de L’Hombre, Comme on le joüe aujourd’huy à la Cour, & comme on le doit joüer par tout
+    lang: fr
+  publisher-place: Paris
+  publisher:
+    value: Claude Barbin
+    lang: fr
+  issued: 1682
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k9616360q
+  edition: 2
+  author:
+    - &Antoine_Gombaud
+      given: Antoine
+      family: Gombaud
+      alt: Chevalier de Méré
+      lang: fr
+      url: https://en.wikipedia.org/wiki/Antoine_Gombaud
+JeuDeLHombre_1709:
+  type: book
+  URL: https://archive.org/details/lejeudelhombrea00civigoog
+  title:
+    value: Le Jeu de L’Hombre
+    lang: fr
+  publisher:
+    value: Pierre Ribou
+    lang: fr
+  publisher-place: Paris
+  issued: 1709
+JohnCragge:
+  type: article-journal
+  title: John Cragge’s <cite>The Wits Interpreter</cite>
+  URL: https://doi.org/10.1093/library/18.3.337
+  author:
+  - given: Joshua
+    family: McEvilla
+  page: 337-344
+  in:
+    title: The Library
+    issued:
+      day: 2
+      month: 9
+      year: 2017
+    volume: 18
+    issue: 3
+WitsInterpreter_2e:
+  type: book
+  title: Wits Interpreter, the English Parnassus
+  author:
+  - given: John
+    family: Cragge
+  issued: 1662
+  publisher: N. Brook
+  publisher-place: London
+  edition: 2
+  notes: Traditionally attributed to John Congrave, but see McEvilla (2017) in the bibliography. Ombre extract available <a href="http://web.archive.org/web/20071218104813/http://astro.uchicago.edu/~ruben/cards/wits_ombre_2.html">here</a>, Picket <a href="http://web.archive.org/web/20080327092342/http://astro.uchicago.edu/~ruben/cards/wits_picket.html">here</a>.
+BlackAces:
+  type: article-journal
+  title: 'Black Aces: Double Entendre in <cite>The Man of Mode</cite>'
+  author:
+  - given: Oliver R.
+    family: Baker
+  page: 13-16
+  URL: http://dx.doi.org/10.1080/0895769X.2013.749156
+  in:
+    title: 'ANQ: A Quarterly Journal of Short Articles, Notes, and Reviews'
+    volume: 26
+    issue: 1
+    issued: 2013

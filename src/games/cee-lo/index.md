@@ -19,7 +19,7 @@ In Japan the game is called <span lang="ja" class="aka">チンチロ(リン)</sp
 
 As of 2022, the game remains explicitly illegal — under the name “<span class="aka">Luk Kow</span>” — in Malaysia[@MalaysiaCommonGamingHousesAct p. 29] and Brunei,[@LawsOfBrunei p. 21] and as “<span class="aka">See Goh Lak</span>” in Singapore.[@SingaporeGamesOfChanceAndSkill] 
 
-It is possible the game is derived from a Ming-era game called <span lang="zh" class="aka">鬥腰</span> ‘fighting for the purse’, where the way to make a ‘point’ was the same,[@BettingOnEmpire p. 42] but I have not yet been able to find any further information on this game.
+It is possible the game is derived from a Ming-era game called <span lang="zh-Hant" class="aka">鬭腰</span>/<span lang="zh-Hans" class="aka">鬥腰</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">Dòu Yāo</span>) ‘fighting for the purse’, where the way to make a ‘point’ was the same.[@BettingOnEmpire p. 42] This game is described by <span class="noun" lang="cmn-Latn-pinyin">Pān Zhīhéng</span> in his work about dice games @LiuboPu, but I have not yet been able to translate this. At the very least the special throws {%cdice 456 %} and {%cdice 123%} are mentioned in this work.
 
 ## Play
 

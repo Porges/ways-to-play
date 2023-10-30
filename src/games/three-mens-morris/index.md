@@ -56,7 +56,7 @@ In Malayalam it is called <span lang="ml" class="aka">നിര</span> (<span la
 
 It is also played across Africa: in Madagascar it is called <span lang="mg" class="aka">fanorona telo</span> ‘three-{%gameref fanorona%}’;[@Murray2 p. 42] in Nigeria ([Urhobo](https://en.wikipedia.org/wiki/Urhobo_language)) <span lang="urh" class="aka">epelle</span>;[@Murray2 p. 42] and in Somaliland <span lang="so" class="aka">carabawg</span>.[@Murray2 p. 42]{%fn%}Is this name possibly the same as <span lang="so">kubbad</span>[@SomaliEnglishThesaurus p. 99]/<span lang="so">kurobodo</span>[@SomaliEnglishDictionary p. 87]/<span lang="so">koruböddo</span>/<span lang="so">korkaböd</span>[@SomaliGames p.  506]?{%endfn%}
 
-In Arabic it has been called <span lang="ar" class="aka">دريس اثلاثة</span> (<span lang="ar-Latn" class="aka">drīs ath-thalātha</span>).[@ReizeNaarArabie p. 166][@Murray2 p. 41]
+In Arabic it has been called <span lang="ar" class="aka">دريس اثلاثة</span> (<span lang="ar-Latn" class="aka">drīs ath-thalātha</span>).{%fn%}The book has <span lang="ar-Latn">drîs et talâte</span>.{%endfn%}[@ReisebeschreibungNachArabien p. 172][@Murray2 p. 41]
 
 The game is also sometimes called <span class="aka">Hopscotch</span>, in @MathematicalRecreationsMaurice [p. 290], but I think that name is better reserved for {%gameref picaria%}.{%fn%}As in @WinningWaysV3 [p. 737].{%endfn%}
 
