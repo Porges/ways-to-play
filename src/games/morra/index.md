@@ -51,6 +51,8 @@ See [@PersistenceAndChange p. 196–7]
 
 See [@ThingsChinese p. 295–6]
 
+See @ChaiMuiPickering
+
 ## Strategy
 
 Optimal strategy was calculated by [Merill M.

@@ -196,7 +196,7 @@ For each card in the table below I show (in left-to-right order):
 
 1. a card from a 19th-century deck collected in @ChineseOfTheStraitsSettlements,
 2. a card from a different 19th-century deck from @YoungCeki [p. 300] (as reproduced in @JavaanseKaartspelen),
-3. a card from a deck produced by Harmsen Verweij & Dunlop (after 1933), a Dutch company,
+3. a card from a deck produced by Harmsen Verweij & Dunlop (after 1933), a Dutch company,{%fn%}The cards as depicted in @BlikJavaansche_2 (pl. XVI) are identical to these.{%endfn%}
 4. a 1940s deck collected in @JavaanseKaartspelen,
 5. and then a modern card from a deck purchased in Bali in 2019 (clearly derived from #3).
 
@@ -1756,6 +1756,9 @@ Other games from Malaysia/Singapore, for which I have no rules, are:
 * Pak Tui, a solitaire game[@BabaMalayDictionary p. 215]
 * Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary p. 214]
 * Tongkeng, a game for two people[@BabaMalayDictionary p. 215]
+* Cho It and Chochot[@SomeNotesMalayCardGames p. 88] — could Chochot be the same as Chot or Thothit?
+
+In some descriptions, Ceki is itself a game (a variant of {%gameref balik-satu%}) and the cards called by other names such as <span lang="jav-Latn">ijo</span>. @BlikJavaansche_2 [p. 499] gives the games <span lang="jav-Latn">koa</span>, <span lang="jav-Latn">koa-baq</span>, <span lang="jav-Latn">koa-gonggong</span> ({%gameref gonggong%}), <span lang="jav-Latn">pehi</span> ({%gameref pei%}?), <span lang="jav-Latn">patui</span>, <span lang="jav-Latn">panghao</span>, and <span lang="jav-Latn">cĕki</span>, but without explanations.
 
 ## Manufacturers & Brands
 

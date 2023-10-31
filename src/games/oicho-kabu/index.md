@@ -140,7 +140,7 @@ The hand totals are counted with special gambling-specific numbers. Some of thes
     <td>9 <span lang="ja">九</span></td>
     <td><span lang="ja-Latn">kyū</span></td>
     <td><span lang="ja-Latn">kabu</span></td>
-    <td>From Portuguese <span lang="pt">cabo</span>, ‘end’. In some very old documents <span lang="ja-Latn">kabu</span> is written <span lang="ja">九寸</span>.</td>
+    <td>From Portuguese <span lang="pt">cabo</span>, ‘end’. <!--Removed, since I have no idea where this came from: In some very old documents <span lang="ja-Latn">kabu</span> is written <span lang="ja">九寸</span>.--></td>
     </tr>
 </tbody>
 </table>

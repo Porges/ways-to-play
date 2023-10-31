@@ -86,7 +86,8 @@ Shogi:
   type: book
   title: "Shogi: How To Play"
   author:
-    - family: Fairbairn
+    - &John_Fairbairn
+      family: Fairbairn
       given: John
   issued:
     year: 1979
@@ -1460,8 +1461,7 @@ NoteOnAMissingLink:
   type: article-journal
   title: A Note on a Missing Link Between Japan and Australia
   author:
-    - given: John
-      family: Fairbairn
+  - *John_Fairbairn
   page: 54–56
   in: &IPCS_16_2
     ISSN: &IPCS_SSN 1752-671x #used to be? 0305-2133
@@ -1511,8 +1511,7 @@ PoemsOfTheEchigobana:
   type: article-journal
   title: The Poems of the Echigobana
   author:
-    - family: Fairbairn
-      given: John
+  - *John_Fairbairn
   page: 97–102
   in: &IPCS_14_4
     ISSN: *IPCS_SSN
@@ -1526,8 +1525,7 @@ ModernKoreanCards:
   type: article-journal
   title: Modern Korean Cards – A Japanese Perspective
   author:
-    - family: Fairbairn
-      given: John
+  - *John_Fairbairn
   page: 68–72
   in: &IPCS_20_1
     ISSN: *IPCS_SSN
@@ -12102,7 +12100,7 @@ Tuman10000:
   author:
   - given: Andrea
     family: Pollett
-  title: Tûmân, or the 10,000 Cups of the Mamlûk Cards
+  title: <i>Tûmân</i>, or the Ten Thousand Cups of the Mamlûk Cards
   page: 34-41
   in: &IPCS_31_1
     title: *IPCS
@@ -12174,6 +12172,39 @@ UnsunOmbre:
     editor: &Eddie_Cass
     - given: Eddie
       family: Cass
+JapaneseUnsun:
+  type: article-journal
+  title: The Japanese Literature on Unsun Cards
+  author:
+  - *John_Fairbairn
+  page: 65-79
+  in: &IPCS_12_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 12
+    issue: 3
+    issued:
+      month: 2
+      year: 1984
+QuelquesRegles:
+  type: article-journal
+  title:
+    value: 'Le Jeu de Cartes: Quelques Regles du Passe'
+    lang: fr
+  author:
+  - *Thierry_Depaulis
+  page: 74
+  in: &IPCS_13_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 13
+    issue: 3
+    issued:
+      month: 2
+      year: 1985
+    editor:
+    - given: Trevor
+      family: Denning
 JeuDeLHombre_1674:
   type: book
   title:
@@ -12262,3 +12293,167 @@ BlackAces:
     volume: 26
     issue: 1
     issued: 2013
+MalayMagic:
+  type: book
+  title: Malay Magic
+  author: 
+  - given: Walter William
+    family: Skeat
+  publisher: MacMillan and Co.
+  publisher-place: London
+  issued: 1900
+  notes: Note that errata is included in this edition. The section on games starts on page 483.
+  URL: https://archive.org/details/malaymagicbeingi00skea
+SomeNotesMalayCardGames:
+  type: article-journal
+  title: Some Notes on Malay Card Games
+  author:
+  - given: R. O.
+    family: Winstedt
+  URL: http://www.jstor.org/stable/41561623
+  page: 85-88
+  in:
+    title: Journal of the Straits Branch of the Royal Asiatic Society
+    volume: 45
+    issued:
+      month: 6
+      year: 1906
+IetsOver:
+  type: article-journal
+  title:
+    value: Iets Over Het Dobbelen in de Onder-Afdeeling Banjoeasin en Koeboestreken der Residentie Palembang
+    lang: nl
+  URL: https://www.jstor.org/stable/20770162 
+  page: 382-389
+  author:
+  - given: H.
+    family: De Santy
+  in:
+    title:
+      value: Bijdragen tot de Taal-, Land- en Volkenkunde van Nederlandsch-Indië
+      lang: nl
+    issued:
+      month: 1
+      year: 1925
+    volume: 81
+    issue: 1
+VocabularyDusun:
+  type: article-journal
+  title: A Vocabulary of the Dusun Language of Kimanis
+  author:
+  - given: H. L. E.
+    family: Luering
+  page: 1-29
+  URL: http://www.jstor.org/stable/41561584
+  in:
+    title: Journal of the Straits Branch of the Royal Asiatic Society
+    volume: 30
+    issued:
+      month: 7
+      year: 1987
+ChaiMuiPickering:
+  type: article-journal
+  URL: https://archive.org/details/in.ernet.dli.2015.70589/page/n515/mode/2up
+  title: “Chai Mui,” (Hok-kien “Hoah-koon”)
+  author:
+  - given: W. A. 
+    family: Pickering
+  page: 54-56
+  notes: Issued with No. 15 of the Journal.
+  in: &SBRAS_NQ_2
+    # ref: https://www.jstor.org/stable/24480752
+    title: 'Straits Branch of the Royal Asiatic Society: Notes & Queries'
+    volume: 2
+    issued:
+      month: 6
+      year: 1885
+    publisher-place: Singapore
+DaunTiga:
+  type: article-journal
+  URL: https://archive.org/details/in.ernet.dli.2015.70588/page/n383/mode/2up
+  title: Daun tiga ’lei
+  author:
+  - family: Maxwell
+    given: W. E.
+  page: 24-27
+  in: 
+    title: 'Straits Branch of the Royal Asiatic Society: Notes & Queries'
+    volume: 1
+    issued:
+      month: 12
+      year: 1884
+    publisher-place: Singapore
+DaunTiga_2:
+  type: article-journal
+  URL: https://archive.org/details/in.ernet.dli.2015.70589/page/n519/mode/2up
+  title: Daun tiga ’lei
+  author:
+  - given: M.
+    family: S.
+  page: 57
+  in: *SBRAS_NQ_2
+MalayJongkak:
+  type: article-journal
+  title: Note on the Malay Game ‘Jongkak’
+  author:
+  - given: M.
+    family: Hellier
+  URL: https://www.jstor.org/stable/41561174
+  page: 93-94
+  in:
+    title: Journal of the Straits Branch of the Royal Asiatic Society
+    volume: 49
+    issued:
+      month: 12
+      year: 1907
+NewChongkak:
+  type: article-journal
+  title: New Notes on the Game of “Chongkak”
+  URL: https://www.jstor.org/stable/41561016
+  author:
+  - given: H.
+    family: Overbeck
+  page: 7-10
+  in:
+    title: Journal of the Straits Branch of the Royal Asiatic Society
+    volume: 68
+    issued:
+      month: 6
+      year: 1915
+BlikJavaansche_2:
+  type: book
+  title:
+    value: Een blik in het Javaansche volksleven
+    lang: nl
+    alt: A glimpse into Javanese folk life
+  volume: 2
+  URL: https://archive.org/details/afj1926.0001.002.umich.edu
+  author:
+  - given: L. Th.
+    family: Mayer
+  issued: 1897
+  publisher: E. J. Brill
+  publisher-place: Leiden, Netherlands
+VolkenDerAarde:
+  type: book
+  title:
+    value: De Volken der Aarde
+    lang: nl
+  URL: https://archive.org/details/devolkenderaardesnel
+  volume: 1
+  author:
+  - given: Joh. F.
+    family: Snelleman
+  publisher:
+    value: Scheltema & Holkema’s Boekhandel
+    lang: nl
+  publisher-place: Amsterdam, Netherlands
+CekiOrKowah:
+  type: webpage
+  title: Ceki (or Kowah)
+  URL: http://a_pollett.tripod.com/chekigam.htm
+  container-title: Andy’s Playing Cards
+  issued: 2003
+  author:
+  - given: Andrea
+    family: Pollett

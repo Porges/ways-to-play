@@ -57,6 +57,12 @@ In Indonesia the game has been called {%pronounce lang="id" word="Dadu Putar" cl
 A group of people playing <span lang="id">Dadu Putar</span> (or a game very similar to it) in [Bengkulu,](https://en.wikipedia.org/wiki/Bengkulu) Sumatra (1910–1930).
 {% imageEnd %}
 
+<!--
+
+TODO: @IetsOver [p. 382] has reference for this game
+
+-->
+
 ## <span lang="ja-Latn" class="noun">Chobo-Ichi</span>
 
 The Japanese game of <span lang="ja-Latn" class="aka noun">Chobo-Ichi</span> (<span lang="ja" class="aka">樗蒲一</span>) is the same but played with a single die instead of a teetotum. The name means something like “gamble on one outcome”.

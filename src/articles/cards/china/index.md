@@ -42,6 +42,11 @@ Japanese cards %} for more).
 
 ## Types of cards
 
+<!--
+TODO: @ModernChineseCharacterCards
+
+-->
+
 The many types of Chinese and Chinese-derived cards can be broken down into several broad categories, as follows.
 
 ⚠️ The categorization here is a work in progress and may change, especially the last section.

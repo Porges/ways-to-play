@@ -35,3 +35,15 @@ The equivalent game played with Chinese dominoes is known as Bullfighting (<span
 It is possible that the Chinese game is the original source of the Japanese one, but it is not clear at this point.
 
 See: https://www.tandfonline.com/doi/abs/10.1080/02664769100000033
+
+## Ngau
+
+Card game version:
+
+https://apkpure.com/cl-casino-%E9%AC%A5%E7%89%9B%E7%89%9B/gnau.bullfights.ngau
+
+http://maximimages.blogspot.com/2014/02/gnau-bullfights.html
+
+https://wizardofodds.com/games/saigon-5-card/
+
+There's an online version with cards: https://www.youtube.com/watch?v=afX1FQy5nCY
