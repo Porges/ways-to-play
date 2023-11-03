@@ -12457,3 +12457,102 @@ CekiOrKowah:
   author:
   - given: Andrea
     family: Pollett
+Douglas1899:
+  type: book
+  title: Chinese-English dictionary of the vernacular or spoken language of Amoy
+  author:
+  - given: Carstairs
+    family: Douglas
+  edition: 2
+  issued: 1899
+  publisher: Presbyterian Church of England
+  publisher-place: London
+  URL: https://archive.org/details/chineseenglishdict00doug
+EarSevered:
+  type: article-newspaper
+  title: Ear Severed With Bayonet Is Kept Alive Under Owner’s Collarbone
+  URL: https://archive.org/details/per_washington-post_1961-08-22_260/mode/2up
+  author:
+  - given: Nate
+    family: Haseltine
+  page: 1
+  in:
+    title: The Washington Post
+    issued:
+      day: 22
+      month: 8
+      year: 1961
+    volume: 84
+    issue: 260 
+LivingPoor:
+  type: book
+  title: 'Living Poor: A Participant Observer Study of Priorities and Choices'
+  author:
+  - given: Camille
+    family: Jeffers
+  issued: 1967
+  publisher: Ann Arbor Publishers
+  publisher-place: Ann Arbor, MI, USA
+  URL: https://archive.org/details/livingpoorpartic0000cami
+TheLastGentleman:
+  type: book
+  title: The Last Gentleman
+  URL: https://archive.org/details/lastgentleman0000walk
+  author:
+  - given: Walker
+    family: Percy
+  issued: 1966
+  publisher: Eyre & Spottiswoode
+  publisher-place: London
+WomanStabbedToDeath:
+  type: article-newspaper
+  URL: https://archive.org/details/per_washington-post_1951-01-14_27240/page/n11
+  title: Woman Stabbed to Death in Card Game Fight
+  page: 12M
+  in: 
+    title: The Washington Post
+    issued:
+      year: 1951
+      month: 1
+      day: 14
+    issue: 27240
+CardPlayerFatalRow:
+  type: article-newspaper
+  title: Card Player Indicated in Fatal Row
+  URL: https://archive.org/details/per_washington-post_1959-12-15_10/page/n35 
+  page: C8
+  in:
+    title: The Washington Post
+    issued:
+      year: 1959
+      month: 12
+      day: 15
+    volume: 83
+    issue: 10
+ManGetsTerm:
+  type: article-newspaper
+  title: Man Gets Term Of 5 to 30 Years
+  URL: https://archive.org/details/per_washington-post_1960-02-27_84/page/n29
+  page: B11
+  in: 
+    title: The Washington Post
+    issued:
+      year: 1960
+      month: 2
+      day: 27
+    volume: 83
+    issue: 84
+LuluLovedGame:
+  type: article-newspaper
+  title: Lulu Loved Game of Pitty Pat So She Used Gun To Get Her Way
+  URL: https://archive.org/details/portsmouth-daily-times-1916-10-10/page/n7 
+  page: 9
+  in: 
+    title: The Portsmouth Daily Times
+    issued:
+      year: 1916
+      month: 10
+      day: 10
+    volume: 22
+    publisher-place: Portsmouth, OH, USA
+    

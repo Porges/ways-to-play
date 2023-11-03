@@ -13,7 +13,7 @@ subgames:
 ---
 
 <p class="lead">
-<span lang="jav-Latn" class="noun aka">Thothit</span>{%fn%}<span lang="jav-Latn" class="noun aka">Ṭoṭit</span> in older orthography.{%endfn%} (<span lang="jav" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a {%a fishing-games, fishing game %} from Java for three players,  played with {% a ceki %}. The goal is to collect matching pairs of cards, especially red-stamped ones.
+<span lang="jav-Latn" class="noun aka">Thothit</span>{%fn%}<span lang="jav-Latn" class="noun aka">Ṭoṭit</span> in older orthography. I wonder if this could be derived from Hokkien <span lang="nan">𨑨迌</span> <span lang="nan-Latn">thit-thô</span> ‘to play’?{%endfn%} (<span lang="jav" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a {%a fishing-games, fishing game %} from Java for three players,  played with {% a ceki %}. The goal is to collect matching pairs of cards, especially red-stamped ones.
 </p>
 
 First, I describe the game as played in [Surakarta](https://en.wikipedia.org/wiki/Surakarta) in the early 20th century, based upon the description in @JavaanseKaartspelen [p. 71–2]. In Yogyakarta this game is known as <span lang="jav-Latn" class="noun aka">Ceweng</span> ‘to pull something towards oneself’, and <span lang="jav-Latn" class="noun">Thothit</span> refers to a different, simpler, game ({% gameref thothit-yogyakarta %}).

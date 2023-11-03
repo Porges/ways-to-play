@@ -4,7 +4,9 @@ originalTitle: <span lang="yue">番攤</span>
 draft: true
 ---
 
-The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> {%pronounce lang="yue-Latn" class="aka" word="faan¹ taan¹" pronouncer="potatokash" file="pronunciation_yue_番攤.mp3" %}; in Hokkien it is simply <span lang="nan" class="aka">攤</span> {%pronounce lang="nan-Latn" word="thoaⁿ" class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207" %}.[@GamblingGamesOfMalaya p. 118]
+<p class="lead">
+The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> {%pronounce lang="yue-Latn" class="aka" word="faan¹ taan¹" pronouncer="potatokash" file="pronunciation_yue_番攤.mp3" %}; in Hokkien it is simply <span lang="nan" class="aka">攤</span> {%pronounce lang="nan-Latn" word="thoaⁿ" class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207" %},[@GamblingGamesOfMalaya p. 118] to divide into equal parts.[@Douglas1899 p. 563b]
+</p>
 
 In Thai it has been called <span lang="th" class="aka">เล่นถั่ว</span> <span lang="th-Latn" class="aka">len thua</span> ‘beans game’,{%fn%}Given as <span lang="th-Latn" class="aka">Len Thoa</span> in older works.[@OnSiameseLiterature p. 383]{%endfn%} <span lang="th" class="aka">กำถั่ว</span>  <span lang="th-Latn" class="aka">kam thua</span> ‘beans handful’, <span lang="th" class="aka">โปกำ</span> <span class="aka" lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span class="aka" lang="th">ถั่ว</span> {%pronounce lang="th-Latn" class="aka" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’; a variant played with only odd/even outcomes is called Thamtat (?).[@OnSiameseLiterature p. 384]
 
