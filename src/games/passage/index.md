@@ -55,7 +55,6 @@ The inclusion of the double requirement only serves to heighten the tension of t
 <tr><td>6</td><td>21</td></tr>
 <tr><td>7</td><td>24</td></tr>
 <tr><td>8</td><td>28</td></tr>
-<tr><td><i>n</i> odd</td><td>(7<i>n</i>&minus;1)/2</td></tr>
-<tr><td><i>n</i> even</td><td>(7<i>n</i>)/2</td></tr>
+<tr><td><math><mi>n</mi></math></td><td><math><mrow><mo>⌊</mo><mfrac><mrow><mn>7</mn><mo>&#x2062;</mo><mi>n</mi></mrow><mn>2</mn></mfrac><mo>⌋</mo></mrow></math></td></tr>
 </tbody>
 </table>
