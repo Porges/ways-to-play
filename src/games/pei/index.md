@@ -81,7 +81,7 @@ This combination is formed from one of each of the three red-stamped cards. It i
 #### <span lang="jav-Latn">Pang Kéyang</span> (<span lang="jav-Latn">pang kéyang</span>)
 
 {%aside%}
-In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See {%a glossary#pong %} page for more.
+In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Hokkien: {%pronounce lang="nan-Latn" word="pōng" pronouncer="chihchao" file="pronunciation_nan_碰.mp3" %}, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See the {%a glossary#pong %} page for more.
 
 <span lang="jav-Latn">Kéyang</span> is the name of the 9 of myriads card. I am uncertain what it means.
 {%endaside%}
@@ -255,5 +255,3 @@ The scoring combinations of <span lang="jav-Latn">Pei</span> are then explained 
 * <span lang="zh">窮</span> ‘poverty’: <span lang="jav-Latn">pang picis</span>, the second-lowest cards in each suit
 * <span lang="zh">虎</span> ‘tiger’: <span lang="jav-Latn">macan</span>, the lowest cards in each suit
 * <span lang="jav-Latn">bunci ireng</span> is made up of the highest cards in the coins suit (1, 2, 3), which is also an ‘eye’
-
-It is also possible that <span lang="jav-Latn">pang</span> ‘branch’ is a derivation of the Chinese <span lang="zh">碰</span> (Hokkien: {%pronounce lang="nan-Latn" word="pōng" pronouncer="chihchao" file="pronunciation_nan_碰.mp3" %}), which describes a set of three tiles in Mahjong.

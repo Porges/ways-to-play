@@ -1,6 +1,7 @@
 ---
 title: Pitty Pat
 draft: true
+equipment: Playing cards (Standard)
 ---
 
 @LuluLovedGame
