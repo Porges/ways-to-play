@@ -3,6 +3,7 @@ title: Tab
 titleLang: ar-Latn
 originalTitle: <span lang="ar">الطاب</span>
 draft: true
+countries: EG,IR,TR,KM,SO
 ---
 
 - <span lang="ar">الطاب</span> (<span lang="ar-Latn">āl-ṭāb</span>) or <span lang="ar">لعب الطاب القصب</span> (<span lang="ar-Latn">lʿb āl-ṭāb āl-qṣb</span>)[@Hyde2 p. 217] (“tab reed game”)

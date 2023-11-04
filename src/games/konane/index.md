@@ -2,6 +2,7 @@
 title: Kōnane
 titleLang: haw
 players: 2
+countries: US
 ---
 
 <p class="lead"><span class="noun" lang="haw">Kōnane</span> (sometimes also called <span

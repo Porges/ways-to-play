@@ -93,12 +93,14 @@ export type GameData = Data & {
   players: Players|undefined,
   equipment: string|undefined,
   variant?: boolean;
+  countries: string|undefined,
   subgames: {
     title: string,
     titleLang?: string
     originalTitle?: string,
     players: Players|undefined,
     equipment: string|undefined,
+    countries: string|undefined,
     slug?: string,
   }[]
 };

@@ -1,6 +1,7 @@
 ---
 title: My Sow (Has) Pigged
 equipment: Playing cards (Standard)
+countries: UK
 ---
 
 <p class="lead">

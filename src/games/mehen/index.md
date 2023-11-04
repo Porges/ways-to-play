@@ -2,6 +2,7 @@
 title: Mehen
 draft: true
 originalTitle: <img src="/small-images/mehen.svg" alt="𓅓𓐱𓎛𓐰𓈖𓏌" class="inline-img" lang="egy" />
+countries: EG
 ---
 
 NB: despite the image of Rashepses tomb by Lepsius {include this from senet

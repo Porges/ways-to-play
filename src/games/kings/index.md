@@ -1,14 +1,17 @@
 ---
 title: Kings
 equipment: Playing cards (Standard)
+countries: PG
 subgames:
 - title: Thothit Yogyakarta
   titleLang: jav-Latn
   players: 3
+  countries: ID
   equipment: Playing cards (Ceki)
 - title: Thit-Thit-Dulit
   titleLang: jav-Latn
   players: 2
+  countries: ID
   equipment: Playing cards (Ceki)
 ---
 

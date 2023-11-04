@@ -1,8 +1,13 @@
 ---
 title: Horseshoe
 players: 2
-equipment: Stones
+equipment: Simple
+countries: CN,IN,KR,TH,MN,MY
 ---
+
+{% image src="../../maps/Horseshoe.svg" alt="" position="aside" %}
+Countries mentioned in this article.
+{% imageEnd %}
 
 <p class="lead">
 This is a simple blocking game for children that seems to originate from China, where it is known by many names. Because the board is shaped like the Chinese character ‘<span lang="zh">区</span>’ (‘area’), it is known as ‘<code>区</code> character game’ (<span lang="zh" class="aka">区字棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">qū zì qí</span>). Other names include ‘crotch game’ (<span lang="zh-Hant" class="aka">褲襠棋</span>/<span lang="zh-Hans" class="aka">裤裆棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh" class="aka">剪刀棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">jiǎndāo qí</span>). 
@@ -23,7 +28,7 @@ In Cantonese it is called ‘cleft lip game’ (<span lang="yue" class="aka">崩
 
 In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span lang="ko" class="aka">우물고누</span> ‘well game’) or <span lang="ko-Latn" class="aka">ganggonu</span> (<span lang="ko" class="aka">강고누</span> ‘river game’).[@KoreanGames p. 100] In Thailand it is called <span lang="th-Latn" class="aka">suea tok thang</span> (<span lang="th" class="aka">เสือตกถัง</span> ‘tiger falls into the bucket’),{%fn%}Older books transliterate this as <span lang="th-Latn" class="aka">sua tok tong</span>.{%endfn%} or <span lang="th-Latn" class="aka">saeng tawan</span> (<span lang="th" class="aka">แสงตะวัน</span> ‘sun rays’).[@TigerTank]{%fn%}Another name given is <span lang="th" class="aka">จะบูมูลู</span> but I haven’t been able to translate it.{%endfn%} In Malaysia it is known as {% pronounce lang="ms" class="aka" word="telaga buruk" pronouncer="Alvin00" %} (‘bad well’).[@TigerTank]
 
-<div class="multi">
+<div class="multi equal">
 
 {% image src="Korean_board.svg" alt="" %}
 A Korean board, after @KoreanGames [p. 100].

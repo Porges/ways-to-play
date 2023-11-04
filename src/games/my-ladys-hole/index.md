@@ -1,7 +1,8 @@
 ---
 title: My Lady’s Hole
 draft: true
-equipment: 
+equipment: Playing cards (Standard)
+countries: UK
 ---
 
 This article is about the card game; the term could also be used to refer to {%

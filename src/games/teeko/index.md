@@ -1,16 +1,16 @@
 ---
 title: Teeko
 players: 2
+equipment: Board game
+countries: US
 ---
 
 <p class="lead">Teeko is a game for two players by John Scarne.</p>
 
-<!-- excerpt -->
-
 ## History
 
 Teeko was developed over a period of 15 years by John Scarne.[@Teeko] With the
-usual Scarne bombast and confidence, he believed that it was a game to rival
+trademark Scarne bombast and confidence, he believed that it was a game to rival
 chess and checkers, and that it would eventually rank alongside (or above) them.
 Nowadays it is barely known.
 

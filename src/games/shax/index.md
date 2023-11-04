@@ -1,7 +1,8 @@
 ---
 title: Shax
 players: 2
-equipment: Stones
+equipment: Simple
+countries: SO
 ---
 
 <p class="lead">

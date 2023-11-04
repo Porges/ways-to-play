@@ -3,6 +3,7 @@ title: Senet
 originalTitle: <img src="/small-images/senet.svg" alt="𓊃𓐰𓈖𓐰𓏏𓏠" class="inline-img" />
 draft: true
 equipment: Board game
+countries: EG
 hero:
     image: D6n3F4iWwAIgNpL.jpg
     license: with-permission

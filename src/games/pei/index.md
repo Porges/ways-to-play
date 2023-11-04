@@ -4,6 +4,7 @@ titleLang: jav-Latn
 originalTitle: <span lang="jav">ꦥꦺꦲꦶ</span>
 players: 3
 equipment: Playing cards (Ceki)
+countries: ID
 subgames:
 - title: Pèi Magelang
 ---

@@ -3,6 +3,7 @@ title: Oicho-Kabu
 titleLang: ja-Latn
 originalTitle: <span lang="ja">おいちょかぶ</span>
 draft: true
+countries: JP
 subgames:
 - title: Kabu
   titleLang: en

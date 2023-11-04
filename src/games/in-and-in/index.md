@@ -2,6 +2,7 @@
 title: In and In
 players: [2,3]
 equipment: Dice
+countries: UK
 ---
 
 <p class="lead">

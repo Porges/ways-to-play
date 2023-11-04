@@ -2,11 +2,15 @@
 title: Prinola
 titleLang: fil
 players: banking
+equipment: Dice
+countries: PH
 subgames:
 - title: Dadu Putar
   titleLang: id
+  countries: ID
 - title: Chobo-Ichi
   titleLang: ja-Latn
+  countries: JP
   originalTitle: <span lang="ja" class="aka">樗蒲一</span>
 ---
 

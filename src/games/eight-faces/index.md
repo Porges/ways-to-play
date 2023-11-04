@@ -2,6 +2,7 @@
 title: Eight Faces
 mainImage: pek-bin.svg
 players: banking
+countries: CN,MY,SG
 originalTitle: <span lang="zh">八面</span>
 ---
 

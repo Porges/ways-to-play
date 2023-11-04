@@ -1,11 +1,14 @@
 ---
 title: Cee-Lo
 players: banking
+countries: CN,US
 subgames:
 - title: Chinchirorin
   titleLang: ja-Latn
+  countries: JP
   originalTitle: <span lang="ja">チンチロリン</span>
 - title: Underground Chinchirorin
+  countries: JP
 equipment: Dice
 ---
 

@@ -20,6 +20,7 @@ type RenderableGame = {
     titleLang?: string,
     originalTitle?: string,
     draft?: boolean,
+    countries?: string,
 };
 
 function renderGames(allGames: RenderableGame[]) {
@@ -71,6 +72,12 @@ function renderGames(allGames: RenderableGame[]) {
         allGames = allGames.filter(g => g.equipment === equipmentS);
     }
 
+    // Filter country
+    const countryS = params.get('country');
+    if (countryS && countryS !== 'any') {
+        allGames = allGames.filter(g => g.countries && g.countries.indexOf(countryS) >= 0);
+    }
+
     dest.replaceChildren(...allGames.map(g => {
         const li = document.createElement("li")
         if (g.variant) {
@@ -110,6 +117,7 @@ export function render(this: Context, data: Data) {
                 originalTitle: g.data.originalTitle,
                 players: expandPlayers(g.data.title, g.data.players),
                 equipment: g.data.equipment,
+                countries: g.data.countries,
             },
             ...(g.data.subgames || []).map(sg => ({
                 title: sg.title,
@@ -118,6 +126,7 @@ export function render(this: Context, data: Data) {
                 originalTitle: sg.originalTitle,
                 players: expandPlayers(sg.title, sg.players || g.data.players),
                 equipment: sg.equipment || g.data.equipment,
+                countries: sg.countries || g.data.countries,
                 url: g.url + "#" + (sg.slug || slug(sg.title)),
                 variant: true,
             }))
@@ -132,9 +141,22 @@ export function render(this: Context, data: Data) {
         }
     }
 
+    const countries = new Set<string>();
+    for (const g of expandedGames) {
+        if (g.countries) {
+            for (const c of g.countries.split(',')) {
+                countries.add(c);
+            }
+        } else {
+            console.warn(`no countries for ${g.title}`);
+        }
+    }
+
     const collator = new Intl.Collator('en', { sensitivity: 'base', numeric: true });
+    const countryNames = new Intl.DisplayNames(["en"], { type: "region" });
 
     const sortedEquipment = [...equipment.values()].sort(collator.compare);
+    const sortedCountries = [...countries.values()].sort((x, y) => collator.compare(countryNames.of(x)!, countryNames.of(y)!));
 
     expandedGames.sort((x, y) => x.title.localeCompare(y.title, 'en'));
 
@@ -165,9 +187,11 @@ export function render(this: Context, data: Data) {
         window.addEventListener('DOMContentLoaded', () => {
             handleSelect(document.getElementById('player-select'), 'players');
             handleSelect(document.getElementById('equipment-select'), 'equipment');
+            handleSelect(document.getElementById('country-select'), 'country');
             renderGames(GAMES);
         });
         </script>`;
+
 
     return '<h2>Filters</h2>'
         + '<form>'
@@ -197,7 +221,18 @@ export function render(this: Context, data: Data) {
         + '<div class="col-sm-10">'
         + '<select id="equipment-select" class="form-control">'
         + '<option selected>any</option>'
-        + sortedEquipment.map(e => `<option>${e}</option>`).join('')
+        + sortedEquipment.map(x => `<option>${x}</option>`).join('')
+        + '</select>'
+        + '</div>'
+        + '</div>'
+        + '</form>'
+
+        + '<div class="form-group row mt-2">'
+        + '<label for="country-select" class="col-sm-2 col-form-label">Country:</label>'
+        + '<div class="col-sm-10">'
+        + '<select id="country-select" class="form-control">'
+        + '<option selected>any</option>'
+        + sortedCountries.map(x => `<option value="${x}">${countryNames.of(x)}</option>`).join('')
         + '</select>'
         + '</div>'
         + '</div>'

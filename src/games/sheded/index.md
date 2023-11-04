@@ -2,6 +2,7 @@
 title: Sheded
 titleLang: ti-Latn
 originalTitle: <span lang="ti">ሸደድ</span>
+countries: ET,ER
 ---
 
 {% image position="aside" src="../../maps/Sheded.svg" alt="" %}

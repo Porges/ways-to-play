@@ -2,6 +2,7 @@
 title: Fan-Tan
 originalTitle: <span lang="yue">番攤</span>
 draft: true
+countries: US,UK,NZ,AU,HK,CN,TH,MY,SG,PH,MO
 ---
 
 <p class="lead">

@@ -3,6 +3,7 @@ title: Passage
 equipment: Dice
 players: 2
 mainImage: 314D003a.jpg
+countries: FR,UK
 ---
 
 {% image position="aside" src="314D003a.jpg" alt="A drawing of a man bending over a table and rolling three dice by candlelight. He looks ecstatic." 

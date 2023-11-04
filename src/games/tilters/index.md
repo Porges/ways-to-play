@@ -1,6 +1,7 @@
 ---
 title: Tilters
 equipment: Playing cards (Yankee Notion)
+countries: US
 players:
     min: 2
     max: 4

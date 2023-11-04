@@ -4,11 +4,14 @@ originalTitle: <span lang="ja">十六武蔵</span>
 mainImage: SC86494.jpg
 players: 2
 equipment: Board game
+countries: JP
 subgames:
 - title: Sixteen Pursue the General
   originalTitle: <span lang="zh">十六趕將軍</span>
+  countries: CN
 - title: Water Drowns the Monk
   originalTitle: <span lang="zh">水淹和尚</span>
+  countries: CN
 ---
 
 <p class="lead">

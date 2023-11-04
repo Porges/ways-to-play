@@ -1,7 +1,8 @@
 ---
 title: Achi
 titleLang: ee
-equipment: Stones
+equipment: Simple
+countries: GH,NG
 players: 2
 ---
 

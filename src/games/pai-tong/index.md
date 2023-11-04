@@ -5,9 +5,11 @@ originalTitle: <span lang="th">ไพ่ตอง</span>
 players: 
     min: 2
     max: 7
+countries: TH
 subgames:
 - title: Pong
   players: 4
+  countries: MY
 equipment: Playing cards (Ceki)
 ---
 

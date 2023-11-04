@@ -1,6 +1,7 @@
 ---
 title: Chuck-a-Luck
 mainImage: chuk-a-luck_bank_club_reno_nevada.jpg
+countries: US
 players: banking
 hero:
     image: 'Potter_GrandHazard.jpeg'

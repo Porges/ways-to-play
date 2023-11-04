@@ -1,9 +1,11 @@
 ---
 title: Ship, Captain, and Crew
+countries: US,UK,NZ,MX
 subgames:
 - title: Ship, Captain
 - title: Die Familie Meier
   lang: de
+  countries: DE
 players:
     min: 2
 equipment: Dice

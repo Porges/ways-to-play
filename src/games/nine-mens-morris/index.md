@@ -2,7 +2,8 @@
 title: Nine Men’s Morris
 mainImage: DSCF0525.jpg
 players: 2
-equipment: Stones
+equipment: Simple
+countries: CN,UK,US,NZ,AU,DE,FR,BD,GR,IN,KR,TR,CH,PK,LK,ES,IT
 subgames:
 - title: Lasker Morris
 - title: Twelve Men’s Morris

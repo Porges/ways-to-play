@@ -3,6 +3,7 @@ title: Sīja
 titleLang: ar-Latn
 originalTitle: <span lang="ar">سيجة</span> 
 draft: true
+countries: EG
 ---
 
 {% image position="aside" src="Seega_1940s.jpg" alt="A photo of two men seated on the sand with a seega board and pieces between them. They are dressed in white clothes and children are watching them play." license="cc0" %}

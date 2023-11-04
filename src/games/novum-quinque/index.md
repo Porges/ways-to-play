@@ -1,6 +1,8 @@
 ---
 title: Novum Quinque
 equipment: Dice
+players: any
+countries: UK,FR,DE
 ---
 
 <p class="lead">

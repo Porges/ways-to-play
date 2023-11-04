@@ -4,6 +4,7 @@ titleLang: jav-Latn
 originalTitle: <span lang="jav">ꦛꦺꦴꦛꦶꦠ꧀</span>
 equipment: Playing cards (Ceki)
 players: 3
+countries: ID
 subgames:
 - title: Enthit
   titleLang: jav-Latn
