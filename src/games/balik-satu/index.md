@@ -260,18 +260,6 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 ## Similar games
 
-<!--
-
-### <span class="noun aka" lang="jav-Latn">Koa</span>
-
-{%image src="koa_game.jpg" alt="" license="cc0" noborder=true size="wide" %}
-A Koa game in progress, 1890s or earlier. Image from @VolkenDerAarde [p. 106] (also @BlikJavaansche_2 [pl. XV]).
-{%imageEnd%}
-
-Also Kowah. This game is also sometimes simply called Ceki.[@CekiOrKowah]
-
--->
-
 ### <span class="noun aka" lang="jav-Latn">Gonggong</span>
 
 <span class="noun" lang="jav-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.

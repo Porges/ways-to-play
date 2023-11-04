@@ -3998,8 +3998,7 @@ TheAmericanHoyle5:
 TheAmericanHoyle8:
   type: book
   title: The American Hoyle
-  issued:
-    year: 1874
+  issued: 1874
   author:
     - given: William Brisbane
       family: Dick
@@ -4007,6 +4006,28 @@ TheAmericanHoyle8:
   publisher: Dick & Fitzgerald
   publisher-place: New York, NY, USA
   URL: https://archive.org/details/americanhoyleorg00dick_0
+TheAmericanHoyle15:
+  type: book
+  title: The American Hoyle
+  URL: https://archive.org/details/americanhoyleor00dickgoog
+  issued: 1894
+  edition: 15
+  publisher: Dick & Fitzgerald
+  publisher-place: New York, NY, USA
+  author:
+    - given: William Brisbane
+      family: Dick
+TheAmericanHoyle21:
+  type: book
+  title: The American Hoyle
+  URL: https://archive.org/details/americanhoyle0000unse
+  issued: 1917
+  edition: 21
+  author:
+    - given: William Brisbane
+      family: Dick
+  publisher: Dick & Fitzgerald
+  publisher-place: New York, NY, USA
 GamblingAndGamblingDevices:
   type: book
   title: Gambling and Gambling Devices
@@ -6238,18 +6259,6 @@ ScarneOnDice:
   issued:
     year: 1980
   ISBN: "0517541246"
-TheAmericanHoyle15:
-  type: book
-  title: The American Hoyle
-  edition: 15
-  publisher: Dick & Fitzgerald
-  publisher-place: New York, NY, USA
-  issued:
-    year: 1894
-  author:
-    - family: Dick
-      given: William Brisbane
-  URL: https://archive.org/details/americanhoyleor00dickgoog
 TheAmericanHoyle13:
   type: book
   title: The American Hoyle
@@ -12439,6 +12448,7 @@ VolkenDerAarde:
   title:
     value: De Volken der Aarde
     lang: nl
+  issued: 1903
   URL: https://archive.org/details/devolkenderaardesnel
   volume: 1
   author:
@@ -12451,6 +12461,7 @@ VolkenDerAarde:
 CekiOrKowah:
   type: webpage
   title: Ceki (or Kowah)
+  archive-URL: https://web.archive.org/web/20231104013636/http://a_pollett.tripod.com/chekigam.htm
   URL: http://a_pollett.tripod.com/chekigam.htm
   container-title: Andy’s Playing Cards
   issued: 2003
@@ -12555,4 +12566,46 @@ LuluLovedGame:
       day: 10
     volume: 22
     publisher-place: Portsmouth, OH, USA
-    
+MexicoPintoresco:
+  type: book
+  URL: https://archive.org/details/gri_mexicopintor03rive
+  volume: 3
+  title:
+    value: Mexico Pintoresco, Artistico y Monumental
+    lang: es
+  issued: 1883
+  author:
+  - given: Manuel
+    family: Rivera Cambas
+    lang: es
+  publisher-place: Mexico
+  publisher: 
+    value: Imprenta de la Reforma
+    lang: es
+MemoriasPrision:
+  type: book
+  title:
+    value: 'Memorias de una prisión: Páginas de la historia de Centro-américa'
+    lang: es
+  author:
+  - given: Rafael
+    family: Montúfar
+    lang: es
+  publisher-place: Guatemala
+  issued: 1917
+  URL: https://archive.org/details/memoriasdeunapr00montgoog
+TheHistoryOfCardGames:
+  type: article-journal
+  URL: https://doi.org/10.1017/S1062798700000478
+  author:
+  - &Michael_Dummett
+    given: Michael
+    family: Dummett
+    url: https://en.wikipedia.org/wiki/Michael_Dummett
+  page: 125-135
+  title: The History of Card Games
+  in:
+    title: European Review
+    volume: 1
+    issue: 2
+    issued: 1993
