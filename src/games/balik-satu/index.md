@@ -191,6 +191,10 @@ the normal scoring (no calling bonuses will apply).
 
 ### <span lang="mcm" class="noun aka">Chaqui</span>
 
+{%aside%}
+A video of this game being played can be found on [the Endangered Languages Archive (ELAR).](https://www.elararchive.org/uncategorized/IO_a417dbb9-20d8-43b6-9e24-a775e733edce/) At 2:20 one player wins and counts out the next 15 cards for scoring purposes.
+{%endaside%}
+
 Amongst the [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (<span lang="mcm">Christão</span>), the game was known as <span lang="mcm" class="noun">Chaqui</span>, <span lang="mcm" class="noun aka">Chiqui</span>, or <span lang="mcm" class="noun aka">Chekki</span>.[@ChaquiAndPartui p. 34]
 
 A set of three identical cards is called a <span lang="mcm">olo</span> (‘eye’). If an <span lang="mcm">olo</span> is completed by drawing another player’s discard, then it must be exposed.

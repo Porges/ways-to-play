@@ -12609,3 +12609,16 @@ TheHistoryOfCardGames:
     volume: 1
     issue: 2
     issued: 1993
+HowToPlayChiki:
+  title: How To Play Chiki
+  type: webpage
+  URL: http://hdl.handle.net/2196/00-0000-0000-0012-A2F9-1
+  archive-URL: https://web.archive.org/web/20231107072932/https://www.elararchive.org/uncategorized/SO_6887d9a4-3c0f-4aff-8d8a-65610aa4682c/
+  container-title: Endangered Languages Archive
+  issued:
+    year: 2012
+    month: 5
+    day: 19
+  author:
+  - given: Stefanie Shamila
+    family: Pillai

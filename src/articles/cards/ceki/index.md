@@ -250,7 +250,7 @@ section of the table is much more imprecise than the previous lines.
 <thead>
   <tr>
     <th class="text-center sticky-left border-end bg-white at-least-150-px"></th>
-    <th colspan="2">Malaysia/Singapore</th>
+    <th colspan="3">Malaysia/Singapore</th>
     <th>Sumatra</th>
     <th colspan="7">Java</th>
     <th colspan="7">Bali</th>
@@ -264,6 +264,7 @@ section of the table is much more imprecise than the previous lines.
     <th class="text-center sticky-left border-end table-light">Cards</th>
     <th>General</th>
     <th>Malacca (Kristang)<br/>(1972)[@ChaquiAndPartui]
+    <th>Malacca (Kristang)<br/>(2012)[@HowToPlayChiki]
 <th>
 
 Padang<br/>(2013)[@MinangCeki]
@@ -378,7 +379,8 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Honour & Rank 1</th>
 <td><span lang="ms">yu</span> or <span lang="ms">yeo</span>, from Hokkien <span lang="nan-Latn">io</span> <span lang="nan">幺</span>, ‘ace’</td>
-<td>—</td>
+<td><span lang="mcm">cartas fortes</span><br/>‘strong cards’, for the first three</td>
+<td><span lang="mcm">yoh</span></br>(Hokkien <span lang="nan-Latn">io</span>)</td>
 <td><span lang="min">hiu/iyu</span> ‘shark’, looks like a fin</td>
 <!-- Java -->
 <td></td>
@@ -412,7 +414,8 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DOT.jpg;KOT.jpg;OOT.jpg;NOT.jpg;COT.jpg" alt=";;;;" %}Old Thousand{% imageEnd %}</th>
 <td><span lang="ms">yu lau chian</span>, from Hokkien <span lang="nan">老千</span> ‘old thousand’<br/>or <span lang="ms">yu pinding</span></td>
-<td><span lang="mcm">yo sekarat, yo mitadi</span><br/>one half</td>
+<td><span lang="mcm">yo sekarat, yo mitadi</span><br/>candlenut, one half</td>
+<td><span lang="mcm">obu</span><br/>egg</td>
 <td><span lang="min">danau rezeki, hiu/babak</span><br />[chapter?] shark</td>
 <!-- Java -->
 <td><span lang="jv">ꦫꦗ</span><br/><span lang="jv-Latn">raja</span><br/>king</td>
@@ -447,6 +450,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DWF.jpg;KWF.jpg;OWF.jpg;NWF.jpg;CWF.jpg" alt=";;;;" %}White Flower{% imageEnd %}</th>
 <td><span lang="ms">yu kuching</span><br />cat ace</td>
 <td><span lang="mcm">yo feme</span><br/>one woman</td>
+<td><span lang="mcm">femi/fula</span><br/>woman/vagina</td>
 <td><span lang="min">hiu kuciang</span><br />cat shark</td>
 <!-- Java -->
 <td><span lang="jv">ꦏꦸꦕꦶꦁ</span><br/><span lang="jv-Latn">kucing</span><br/>cat</td>
@@ -481,6 +485,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DRF.jpg;KRF.jpg;ORF.jpg;NRF.jpg;CRF.jpg" alt=";;;;" %}Red Flower{% imageEnd %}</th>
 <td><span lang="ms">yu nyonya</span><br />(娘仔?) ace</td>
 <td><span lang="mcm">yo fogu</span><br/>one fire</td>
+<td><span lang="mcm">sekeras</span><br/>candlenut</td>
 <td><span lang="min">hiu merah</span><br/>red shark<br/><br/>or <span lang="min">penci</span><br/>[<a href="https://en.wikipedia.org/wiki/Songkok">a hat</a>?]</td>
 <!-- Java -->
 <td><span lang="jv">ꦏꦼꦚ꧀ꦕꦶ</span><br/><span lang="jv-Latn">kêñci</span><br/>[unknown]</td>
@@ -514,6 +519,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC1.jpg;KC1.jpg;OC1.jpg;NC1.jpg;CC1.jpg" alt=";;;;" %}1 Coins{% imageEnd %}</th>
 <td><span lang="ms">yu kasut</span><br />slipper ace (looks like a Nyonya slipper)</td>
+<td><span lang="mcm">sapatu</span><br/>shoe</td>
 <td><span lang="mcm">sapatu</span><br/>shoe</td>
 <td><span lang="min">hiu kasuik</span><br />[unknown] shark</td>
 <!-- Java -->
@@ -549,6 +555,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS1.jpg;KS1.jpg;OS1.jpg;NS1.jpg;CS1.jpg" alt=";;;;" %}1 Strings{% imageEnd %}</th>
 <td><span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span><br />long or bird ace. In Indonesian, bird is also slang for penis.[@IndonesianIdioms p. 62]</td>
 <td><span lang="mcm">pau</span><br/>club</td>
+<td><span lang="mcm">pau</span><br/>club</td>
 <td><span lang="min">hiu panjang</span><br />long shark</td>
 <!-- Java -->
 <td><span lang="jv">ꦧꦼꦢꦺꦴꦂ</span><br/><span lang="jv-Latn">bêdor</span><br/></td>
@@ -583,6 +590,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM1.jpg;KM1.jpg;OM1.jpg;NM1.jpg;CM1.jpg" alt=";;;;" %}1 Myriads{% imageEnd %}</th>
 <td><span lang="ms">yu hue sio</span><br />from Hokkien ‘monk’ <span lang="nan">和尚</span></td>
 <td><span lang="mcm">China/ladrán</span><br/>China/thief</td>
+<td><span lang="mcm">China</span><br/>China</td>
 <td><span lang="min">hiu bungo</span><br />flower shark</td>
 <!-- Java -->
 <td><span lang="jv">ꦥꦼꦠꦶꦏ꧀</sin><br/><span lang="jv-Latn">pêtik</span><br/></td>
@@ -615,8 +623,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 2</th>
-<td><span lang="ms">ji</span> (Hokkien jī)</td>
+<td><span lang="ms">ji</span><br/>(Hokkien jī)</td>
 <td>—</td>
+<td><span lang="mcm">gee</span><br/>(Hokkien jī)</td>
 <td><span lang="min">bengkok</span> ‘crooked’</td>
 <!-- Java -->
 <td></td>
@@ -650,6 +659,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC2.jpg;KC2.jpg;OC2.jpg;NC2.jpg;CC2.jpg" alt=";;;;" %}2 Coins{% imageEnd %}</th>
 <td><span lang="ms">ji hitam</span> or <span lang="ms">ji bulat</span><br />black or round two</td>
+<td><span lang="mcm">bola</span><br/>ball</td>
 <td><span lang="mcm">bola</span><br/>ball</td>
 <td><span lang="min">bengkok itam/wajik</span><br />black/diamond crooked</td>
 <!-- Java -->
@@ -685,6 +695,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS2.jpg;KS2.jpg;OS2.jpg;NS2.jpg;CS2.jpg" alt=";;;;" %}2 Strings{% imageEnd %}</th>
 <td><span lang="ms">ji burung</span><br />bird two</td>
 <td><span lang="mcm">beechu</span><br/>worm</td>
+<td><span lang="mcm">bicu, geli-geli</span><br/>caterpillar, worm</td>
 <td><span lang="min">bengkok gadang</span><br />big crooked</td>
 <!-- Java -->
 <td><span lang="jv">ꦢꦺꦁꦏꦺꦏ꧀</span><br/><span lang="jv-Latn">déngkék</span><br/></td>
@@ -719,6 +730,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM2.jpg;KM2.jpg;OM2.jpg;NM2.jpg;CM2.jpg" alt=";;;;" %}2 Myriads{% imageEnd %}</th>
 <td><span lang="ms">ji ban</span><br /></td>
 <td><span lang="mcm">noiba</span><br/>bride</td>
+<td><span lang="mcm">noiba</span><br/>bride</td>
 <td><span lang="min">bengkok aluih</span><br />genteel crooked</td>
 <!-- Java -->
 <td><span lang="jv">ꦝꦶꦩ꧀ꦥꦶꦭ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">dhimpil cina</span><br/>chipped Chinese</td>
@@ -751,8 +763,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 3</th>
-<td><span lang="ms">sa</span> (Hokkien saⁿ)</td>
+<td><span lang="ms">sa</span><br/>(Hokkien saⁿ)</td>
 <td>—</td>
+<td><span lang="mcm">sar</span><br/>(Hokkien saⁿ)</td>
 <td><span lang="min">jarum</span> ‘needle’</td>
 <!-- Java -->
 <td></td>
@@ -787,6 +800,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC3.jpg;KC3.jpg;OC3.jpg;NC3.jpg;CC3.jpg" alt=";;;;" %}3 Coins{% imageEnd %}</th>
 <td><span lang="ms">sa batik</span><br />batik three</td>
 <td><span lang="mcm">crossan</span><br/>heart, or brooch of Cabaia-wood</td>
+<td><span lang="mcm">batik</span><br/>batik</td>
 <td><span lang="min">jarum wajik/itam</span><br />diamond/black needle</td>
 <!-- Java -->
 <td><span lang="jv">ꦮꦗꦶꦏ꧀</span><br/><span lang="jv-Latn">wajik</span><br/>diamond</td>
@@ -821,6 +835,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS3.jpg;KS3.jpg;OS3.jpg;NS3.jpg;CS3.jpg" alt=";;;;" %}3 Strings{% imageEnd %}</th>
 <td><span lang="ms">sa udang</span><br />shrimp three</td>
 <td><span lang="mcm">kambrang</span><br/>shrimp</td>
+<td><span lang="mcm">kambrang, kotek, cucuk</span><br/>shrimp, penis, pierce</td>
 <td><span lang="min">jarum gadang</span><br />big needle</td>
 <!-- Java -->
 <td><span lang="jv">ꦒꦹꦤꦸꦁ</span><br/><span lang="jv-Latn">gunung</span><br/>mountain</td>
@@ -855,6 +870,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM3.jpg;KM3.jpg;OM3.jpg;NM3.jpg;CM3.jpg" alt=";;;;" %}3 Myriads{% imageEnd %}</th>
 <td><span lang="ms">sa ban</span></td>
 <td><span lang="mcm">chuchō</span><br/>prick (Malay <span lang="ms">cucok</span>)<br/><br/><span lang="mcm">agula</span><br/>needle</td>
+<td><span lang="mcm">agula</span><br/>needle</td>
 <td><span lang="min">jarum aluih</span><br />genteel needle</td>
 <!-- Java -->
 <td><span lang="jv">ꦗꦫꦸꦩ꧀</span><br/><span lang="jv-Latn">jarum</span><br/>needle</td>
@@ -887,8 +903,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 4</th>
-<td><span lang="ms">si</span> (Hokkien sì)</td>
+<td><span lang="ms">si</span><br/>(Hokkien sì)</td>
 <td>—</td>
+<td><span lang="mcm">see</span><br/>(Hokkien sì)</td>
 <td><span lang="min">suduang</span> ‘spoon’(?)</td>
 <!-- Java -->
 <td></td>
@@ -923,6 +940,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC4.jpg;KC4.jpg;OC4.jpg;NC4.jpg;CC4.jpg" alt=";;;;" %}4 Coins{% imageEnd %}</th>
 <td><span lang="ms">si hitam</span><br />black four</td>
 <td><span lang="mcm">manuco/rã</span><br/>frog</td>
+<td><span lang="mcm">kodok</span><br/>frog</td>
 <td><span lang="min">suduang itam/wajik</span><br />black/diamond spoon</td>
 <!-- Java -->
 <td><span lang="jv">ꦠꦩ꧀ꦧꦸꦂ</span><br/><span lang="jv-Latn">tambur</span><br/>drum</td>
@@ -957,6 +975,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS4.jpg;KS4.jpg;OS4.jpg;NS4.jpg;CS4.jpg" alt=";;;;" %}4 Strings{% imageEnd %}</th>
 <td><span lang="ms">si putih</span><br />white four</td>
 <td><span lang="mcm">basio</span><br/>plate</td>
+<td><span lang="mcm">basiu</span><br/>plate</td>
 <td><span lang="min">pinggang</span><br />waist</td>
 <!-- Java -->
 <td><span lang="jv">ꦕꦮꦁ</span><br/><span lang="jv-Latn">cawang</span><br/>forked</td>
@@ -991,6 +1010,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM4.jpg;KM4.jpg;OM4.jpg;NM4.jpg;CM4.jpg" alt=";;;;" %}4 Myriads{% imageEnd %}</th>
 <td><span lang="ms">si ban</span></td>
 <td><span lang="mcm">ryiami/curto</span><br/>short</td>
+<td><span lang="mcm">nyami</span><br/>yam</td>
 <td><span lang="min">suduang putiah</span><br />white spoon</td>
 <!-- Java -->
 <td><span lang="jv">ꦕꦶꦤ</span><br/><span lang="jv-Latn">cina</span><br/>China/Chinese</td>
@@ -1023,8 +1043,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 5</th>
-<td><span lang="ms">go</span> (Hokkien gō͘)</td>
+<td><span lang="ms">go</span><br/>(Hokkien gō͘)</td>
 <td>—</td>
+<td><span lang="mcm">goh</span><br/>(Hokkien gō͘)</td>
 <td><span lang="min">babi</span> ‘pig’ (looks like nostrils)</td>
 <!-- Java -->
 <td></td>
@@ -1059,6 +1080,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC5.jpg;KC5.jpg;OC5.jpg;NC5.jpg;CC5.jpg" alt=";;;;" %}5 Coins{% imageEnd %}</th>
 <td><span lang="ms">go pending</span><br />pending five</td>
 <td><span lang="mcm">panding</span><br/>sarong-fastener</td>
+<td><span lang="mcm">pending</span><br/>sarong-fastener</td>
 <td><span lang="min">babi pusek</span><br />navel pig</td>
 <!-- Java -->
 <td><span lang="jv">ꦧꦧꦶꦏꦟ꧀ꦛꦺꦴꦁ</span> (modern <span lang="jv">ꦏꦤ꧀ꦛꦺꦴꦁ</span>)<br/><span lang="jv-Latn">babi kaṇthong (kanthong)</span><br/>pig bag</td>
@@ -1093,6 +1115,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS5.jpg;KS5.jpg;OS5.jpg;NS5.jpg;CS5.jpg" alt=";;;;" %}5 Strings{% imageEnd %}</th>
 <td><span lang="ms">go burung</span><br />bird five</td>
 <td><span lang="mcm">baker</span><br/>cow</td>
+<td><span lang="mcm">baka</span><br/>cow</td>
 <td><span lang="min">babi gadang</span><br />big pig</td>
 <!-- Java -->
 <td><span lang="jv">ꦧꦧꦶꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">babi lintrik</span><br/></td>
@@ -1127,6 +1150,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM5.jpg;KM5.jpg;OM5.jpg;NM5.jpg;CM5.jpg" alt=";;;;" %}5 Myriads{% imageEnd %}</th>
 <td><span lang="ms">go ban</span></td>
 <td><span lang="mcm">governu/goberno</span><br/>governor<br/><br/><span lang="mcm">europeano</span><br/>european</td>
+<td><span lang="mcm">ropianu</span><br/>european</td>
 <td><span lang="min">babi aluih</span> <br />genteel pig</td>
 <!-- Java -->
 <td><span lang="jv">ꦧꦧꦶꦕꦶꦤ</span><br/><span lang="jv-Latn">babi cina</span><br/>pig China</td>
@@ -1159,8 +1183,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 6</th>
-<td><span lang="ms">lak</span> (Hokkien la̍k)</td>
+<td><span lang="ms">lak</span><br/>(Hokkien la̍k)</td>
 <td>—</td>
+<td><span lang="mcm">lak</span><br/>(Hokkien la̍k)</td>
 <td><span lang="min">kapik</span> ‘grill’</td>
 <!-- Java -->
 <td></td>
@@ -1195,6 +1220,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC6.jpg;KC6.jpg;OC6.jpg;NC6.jpg;CC6.jpg" alt=";;;;" %}6 Coins{% imageEnd %}</th>
 <td><span lang="ms">lak hitam</span><br />black six</td>
 <td><span lang="mcm">gordo</span><br/>fat</td>
+<td><span lang="mcm">godra</span><br/>fat</td>
 <td><span lang="min">kapik anam</span><br />grilled six</td>
 <!-- Java -->
 <td><span lang="jv">ꦏꦼꦫꦺꦴꦏ꧀ꦒ꦳ꦥꦶꦠ꧀</span><br/><span lang="jv-Latn">kêrok ghapit</span><br/>curry-comb tongs</td>
@@ -1228,6 +1254,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS6.jpg;KS6.jpg;OS6.jpg;NS6.jpg;CS6.jpg" alt=";;;;" %}6 Strings{% imageEnd %}</th>
 <td><span lang="ms">lak putih</span><br />white six</td>
+<td><span lang="mcm">gala</span><br/>bamboo</td>
 <td><span lang="mcm">gala</span><br/>bamboo</td>
 <td><span lang="min">kapik manih</span><br />grilled sweet</td>
 <!-- Java -->
@@ -1263,6 +1290,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM6.jpg;KM6.jpg;OM6.jpg;NM6.jpg;CM6.jpg" alt=";;;;" %}6 Myriads{% imageEnd %}</th>
 <td><span lang="ms">lak ban</span></td>
 <td><span lang="mcm">osu</span><br/>bone</td>
+<td><span lang="mcm">osu</span><br/>bone</td>
 <td><span lang="min">kapik aluih</span><br />grilled genteel</td>
 <!-- Java -->
 <td><span lang="jv">ꦕꦶꦤꦒ꦳ꦥꦶꦠ꧀</span><br/><span lang="jv-Latn">cina ghapit</span><br/>Chinese tongs</td>
@@ -1295,8 +1323,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 7</th>
-<td><span lang="ms">jit</span> (Hokkien chhit)</td>
+<td><span lang="ms">jit</span><br/>(Hokkien chhit)</td>
 <td>—</td>
+<td><span lang="ms">chit</span><br/>(Hokkien chhit)</td>
 <td><span lang="min">sisiak</span> ‘scales’</td>
 <!-- Java -->
 <td></td>
@@ -1331,6 +1360,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC7.jpg;KC7.jpg;OC7.jpg;NC7.jpg;CC7.jpg" alt=";;;;" %}7 Coins{% imageEnd %}</th>
 <td><span lang="ms">jit hitam</span> or <span lang="ms">jit daun</span><br />black or leaf seven</td>
 <td><span lang="mcm">lóia</span><br/>flag</td>
+<td><span lang="mcm">layar</span><br/>sail</td>
 <td><span lang="min">sisiak bendera</span><br />flag scales</td>
 <!-- Java -->
 <td><span lang="jv">ꦫꦺꦪꦧ꧀ꦭꦪꦂ</span><br/><span lang="jv-Latn">réyab layar</span><br/>sweep hair, sail</td>
@@ -1364,6 +1394,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS7.jpg;KS7.jpg;OS7.jpg;NS7.jpg;CS7.jpg" alt=";;;;" %}7 Strings{% imageEnd %}</th>
 <td><span lang="ms">jit burung</span><br />bird seven</td>
+<td><span lang="mcm">galinha</span><br/>chicken</td>
 <td><span lang="mcm">galinha</span><br/>chicken</td>
 <td><span lang="min">sisiak gadang</span><br />big scales</td>
 <!-- Java -->
@@ -1399,6 +1430,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM7.jpg;KM7.jpg;OM7.jpg;NM7.jpg;CM7.jpg" alt=";;;;" %}7 Myriads{% imageEnd %}</th>
 <td><span lang="ms">jit ban</span></td>
 <td><span lang="mcm">malayu</span><br/>malay</td>
+<td><span lang="mcm">malayu</span><br/>malay</td>
 <td><span lang="min">sisiak aluih</span><br />genteel scales</td>
 <!-- Java -->
 <td><span lang="jv">ꦫꦺꦪꦧ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">réyab cina</span><br/></td>
@@ -1431,8 +1463,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 8</th>
-<td><span lang="ms">puek</span> (Hokkien poeh)</td>
+<td><span lang="ms">puek</span><br/>(Hokkien poeh)</td>
 <td>—</td>
+<td><span lang="mcm">sepet</span><br/>‘half-closed (eyes)’</td>
 <td><span lang="min">pacah</span> ‘broken’</td>
 <!-- Java -->
 <td></td>
@@ -1467,6 +1500,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC8.jpg;KC8.jpg;OC8.jpg;NC8.jpg;CC8.jpg" alt=";;;;" %}8 Coins{% imageEnd %}</th>
 <td><span lang="ms">puek kerang</span><br />cockle eight</td>
 <td><span lang="mcm">brau</span><br/>ship</td>
+<td><span lang="mcm">prau</span><br/>ship</td>
 <td><span lang="min">pacah lapan</span><br />broken eight</td>
 <!-- Java -->
 <td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦥꦶꦕꦶꦱ꧀</span><br/><span lang="jv-Latn">lêkok picis</span><br/></td>
@@ -1501,6 +1535,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS8.jpg;KS8.jpg;OS8.jpg;NS8.jpg;CS8.jpg" alt=";;;;" %}8 Strings{% imageEnd %}</th>
 <td><span lang="ms">puek menak</span><br />noble<!--{%fn%}Menak is a title for an aristocrat.{%endfn%}--> eight</td>
 <td><span lang="mcm">baji/dosi</span><br/>sweet</td>
+<td><span lang="mcm">manis/dosi</span><br/>sweet</td>
 <td><span lang="min">pacah manih</span><br />broken sweet</td>
 <!-- Java -->
 <td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">lêkok lintrik</span><br/></td>
@@ -1535,6 +1570,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM8.jpg;KM8.jpg;OM8.jpg;NM8.jpg;CM8.jpg" alt=";;;;" %}8 Myriads{% imageEnd %}</th>
 <td><span lang="ms">puek ban</span></td>
 <td><span lang="mcm">belu</span><br/>old</td>
+<td><span lang="mcm">belu</span><br/>old</td>
 <td><span lang="min">pacah aluih</span><br />broken genteel</td>
 <!-- Java -->
 <td><span lang="jv">ꦊꦏꦺꦴꦏ꧀ꦕꦶꦤ</span><br/><span lang="jv-Latn">lêkok cina</span><br/></td>
@@ -1567,8 +1603,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 9</th>
-<td><span lang="ms">kau</span> (Hokkien káu)</td>
+<td><span lang="ms">kau</span><br/>(Hokkien káu)</td>
 <td>—</td>
+<td><span lang="ms">kau</span><br/>(Hokkien káu)</td>
 <td><span lang="min">tali</span> ‘rope’</td>
 <!-- Java -->
 <td></td>
@@ -1602,6 +1639,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC9.jpg;KC9.jpg;OC9.jpg;NC9.jpg;CC9.jpg" alt=";;;;" %}9 Coins{% imageEnd %}</th>
 <td><span lang="ms">kau hitam</span><br />black nine</td>
+<td><span lang="mcm">Mōru</span><br/>Moor/Indian</td>
 <td><span lang="mcm">Mōru</span><br/>Moor/Indian</td>
 <td><span lang="min">tali bulek</span><br />round rope</td>
 <!-- Java -->
@@ -1637,6 +1675,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS9.jpg;KS9.jpg;OS9.jpg;NS9.jpg;CS9.jpg" alt=";;;;" %}9 Strings{% imageEnd %}</th>
 <td><span lang="ms">kau merah</span><br />red nine</td>
 <td><span lang="mcm">botol/bottle/whisky</span><br/>bottle</td>
+<td><span lang="mcm">botel</span><br/>bottle</td>
 <td><span lang="min">tali merah</span><br />red rope</td>
 <!-- Java -->
 <td><span lang="jv">ꦒꦁꦭꦶꦤ꧀ꦠꦿꦶꦏ꧀</span><br/><span lang="jv-Latn">gang lintrik</span><br/></td>
@@ -1645,7 +1684,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jv-Latn">obor</span><br/>torch</td>
 <td><span lang="jv-Latn">sanga ban/lintrik</span><br/>rows or red nine<br/><br/><span lang="jav-Latn">obor</span><br/>torch</td>
 <td><span lang="jv-Latn">gang abang</span><br />red gap</td>
-<td><span lang="jv-Latn">cucuk abang/besar</span></td>
+<td><span lang="jv-Latn">cucuk abang/besar</span><br/>red/large prick</td>
 <!-- Bali -->
 <td><span lang="ban">besar</span><br />large</td>
 <td><span lang="ban">gesar</span></td>
@@ -1671,6 +1710,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM9.jpg;KM9.jpg;OM9.jpg;NM9.jpg;CM9.jpg" alt=";;;;" %}9 Myriads{% imageEnd %}</th>
 <td><span lang="ms">kau ban</span></td>
 <td><span lang="mcm">Mary, Mérri, Maria, Kau Mary</span><br/>Mary</td>
+<td><span lang="mcm">Mary</span><br/>Mary</td>
 <td><span lang="min">tali aluih</span><br />genteel rope</td>
 <!-- Java -->
 <td><span lang="jv">ꦒꦁꦕꦶꦤ</span><br/><span lang="jv-Latn">gang cina</span><br/></td>
