@@ -25,7 +25,7 @@
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-img": "^3.1.0",
     "@11ty/eleventy-navigation": "^0.3.2",
-    "@fec/eleventy-plugin-remark": "github:Porges/eleventy-plugin-remark",
+    "@fec/eleventy-plugin-remark": "^4.0.0",
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "@jest/globals": "^29.5.0",
     "@types/11ty__eleventy-img": "^2.0.2",
