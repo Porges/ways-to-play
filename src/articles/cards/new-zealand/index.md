@@ -208,13 +208,7 @@ Playing cards, circa 1920, Whanganui, by A. D. Willis Ltd.
 Archibald Dudingston Willis, circa 1902.
 {% imageEnd %}
 
-Archibald Dudingston Willis was a very early manufacturer of playing cards in
-New Zealand, who operated in Wanganui from the 1880s. In 1951 the company was
-sold to Weeks Ltd, which kept A. D. Willis as a subsidiary, and the business was
-sold in turn to United Empire Box (UEB) around 1964.[@AstuteBusinessman] In the
- late 1980s the design was taken over by Kiwi Packaging (part of Amcor). This
-line of designs now appears to be out-of-print, as Amcor no longer manufacture
-playing cards.
+Archibald Dudingston Willis was a very early manufacturer of playing cards in New Zealand, who operated in Wanganui from the 1880s. In 1951 the company was sold to Weeks Ltd, which kept A. D. Willis as a subsidiary, and the business was sold in turn to United Empire Box (UEB) around 1964.[@AstuteBusinessman]{%fn%}Some sources state 1949 here, but 1951 is corroborated by newspaper reports.[@AYearOfExpansion]{%endfn%} In the late 1980s the design was taken over by Kiwi Packaging (part of Amcor). This line of designs now appears to be out-of-print, as Amcor no longer manufacture playing cards.
 
 {% image 
     noborder=true

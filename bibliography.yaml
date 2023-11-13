@@ -3326,6 +3326,7 @@ CroxleyClosing:
   publisher: 1 NEWS
   publisher-place: New Zealand
   URL: https://www.tvnz.co.nz/one-news/new-zealand/croxley-confirms-factory-closure-100-job-losses-6072343.html
+  archive-URL: https://web.archive.org/web/20210421172424/https://www.tvnz.co.nz/one-news/new-zealand/croxley-confirms-factory-closure-100-job-losses-6072343.html
   issued:
     year: 2014
     month: 9
@@ -12622,3 +12623,17 @@ HowToPlayChiki:
   author:
   - given: Stefanie Shamila
     family: Pillai
+AYearOfExpansion:
+  title: 'Company News — Week’s Limited’s Accounts: A Year of Expansion'
+  type: article-newspaper
+  URL: https://paperspast.natlib.govt.nz/newspapers/CHP19510911.2.122
+  page: 9
+  in:
+    title: The Press
+    publisher-place: Christchurch, New Zealand
+    issued:
+      year: 1951
+      month: 9
+      day: 11
+    volume: 87
+    issue: 26523
