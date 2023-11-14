@@ -2738,8 +2738,10 @@ KakkuriYomi:
   type: article-journal
   title: "<span lang='ja-Latn'>Kakkuri</span>: The Last <span lang='ja-Latn'>Yomi</span> Game of Japan"
   author:
-    - given: Kimihiko
+    - &Kimihiko_Kuromiya
+      given: Kimihiko
       family: Kuromiya
+      lang: ja-Latn
   in: &IPCS_33_4
     title: *IPCS
     volume: 33
@@ -12035,9 +12037,28 @@ FourSuitedHakka:
       year: 1994
     editor:
     - *Stuart_Lawrence
-BluffEnglishGame:
+BluffEnglishGame_1:
   type: article-journal
-  title: "Bluff English Game – With American Branches: 2"
+  title: "Bluff English Game – with American Branches"
+  page: 70-78
+  author:
+  - given: Jeffrey
+    family: Burton
+  in: &IPCS_24_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 24
+    issue: 3
+    issued:
+      year: 1995
+      month: 12
+    editor:
+      - &George_Beal
+        given: George
+        family: Beal
+BluffEnglishGame_2:
+  type: article-journal
+  title: "Bluff English Game – with American Branches: 2"
   author:
   - given: Jeffrey
     family: Burton
@@ -12051,9 +12072,7 @@ BluffEnglishGame:
       month: 2
       year: 1996
     editor:
-      - &George_Beal
-        given: George
-        family: Beal
+      - *George_Beal
 LiukFuAndOther:
   type: article-journal
   title: Liuk Fu, Cháng Pái and other East Asian Trick-Taking Games
@@ -12637,3 +12656,28 @@ AYearOfExpansion:
       day: 11
     volume: 87
     issue: 26523
+MaldivianCardGames:
+  type: article-journal
+  title: "Maldivian card games: rules, language and history"
+  URL: https://askalexander.org/display/22622/The+Playing-Card+Vol+37/204
+  page: 186-194
+  author:
+  - *Alex_de_Voogt
+  in: &IPCS_37_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    issued:
+      year: 2003
+      month: 3
+    editor:
+    - *Peter_Endebrock
+    volume: 37
+    issue: 3
+DaiFugo:
+  type: article-journal
+  title: "Playing the Game: Dai Fugô"
+  page: 197-199
+  URL: https://askalexander.org/display/22622/The+Playing+Card/215
+  author:
+  - *Kimihiko_Kuromiya
+  in: *IPCS_37_3
