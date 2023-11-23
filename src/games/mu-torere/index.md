@@ -7,7 +7,7 @@ countries: NZ
 ---
 
 <p class="lead">
-<span lang="mi" class="noun aka">Mū Tōrere</span> is a traditional Maōri blocking game from New Zealand.
+<span lang="mi" class="noun aka">Mū Tōrere</span> is a traditional Māori blocking game from New Zealand.
 </p>
 
 The game was first described in print by @Best17, and this description is based upon his.
