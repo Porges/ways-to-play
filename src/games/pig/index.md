@@ -1,6 +1,5 @@
 ---
 title: Pig
-draft: true
 equipment: Dice
 players:
     min: 2
@@ -19,7 +18,7 @@ subgames:
 
 ## Pig
 
-The earliest reference to this game I have found is from John Scarne, who wrote about the game in 1945.[@ScarneOnDice p. 357] It is also sometimes called <span class="aka">Greedy Pig</span>[@NZMathsPig] or Pig-Out.
+The earliest reference to this game I have found is from John Scarne, who wrote about the game in 1945.[@ScarneOnDice p. 357] It is also sometimes called <span class="aka">Greedy Pig</span>[@NZMathsPig] or <span class="aka">Pig-Out</span>.
 
 The simplest form of the game is as follows: on each player’s turn, they roll one dice and count the number of points shown as their score (e.g. a roll of {%dice 6 %} counts as 6 points). They may keep rolling and adding points to their total for that turn as long as they want, but if the die ever shows a {% dice 1 %}, they lose all accumulated points for that turn and pass the die to the next player. Otherwise, if they stop their turn before rolling a {% dice 1 %}, then they add their points for that turn to their total points.
 
@@ -27,7 +26,7 @@ The first player to exceed 100 total points is the winner. To make the game fair
 
 ## <span class="aka">Big Pig</span>
 
-Also called <span class="aka">Two-Dice Pig</span>. Many books give this as the only version of the game: it is played the same as the basic game but with two dice. If _either_ die shows a {%dice 1%}, that ends a player’s turn.
+This version is also called <span class="aka">Two-Dice Pig</span>. Many books give this as the only version of the game: it is played the same as the basic game but with two dice. If _either_ die shows a {%dice 1%}, that ends a player’s turn.
 
 When playing with two dice it is common that **doubles** are special and their value is doubled, so that {%dice 22%} counts as 8, {%dice 33%} 12, {%dice 44 %} 16, {%dice 55%} 20, and {%dice 66%} 24 points. In this case, it is also played that {%dice 11%} does not end a player’s turn and instead counts for 25 points.[@DiceGamesFrey p. 20]
 
@@ -65,10 +64,13 @@ A total of 7 zeroes the player’s score for the turn, and there are no special 
 
 ## <span class="aka">Piglet</span>
 
-See: @OptimalPig [p. 28]
+This version of the game is played with a coin instead of a die.[@OptimalPig p. 28] Each turn, a player flips a coin until they decide to stop, in which case they score the number of ‘heads’ that they have flipped, or until they flip a ‘tail’, in which case they score zero. The winner is the first to reach a chosen target number.
 
 ## Strategy
 
+⚠️ I have yet to complete this section; in the mean-time, the [Wikipedia article](https://en.wikipedia.org/wiki/Pig_(dice_game)) is a useful reference.
+
+<!--
 - 2000 https://ieeexplore.ieee.org/abstract/document/8158672/
 - 2004 @OptimalPig
 - 2006 http://cs.gettysburg.edu/~tneller/papers/ccscne06.pdf
@@ -79,3 +81,4 @@ See: @OptimalPig [p. 28]
 - 2017 https://www.cs.huji.ac.il/w~ai/projects/2017/minmax/PIG/files/report.pdf
 - 2022 https://www.mdpi.com/2571-905X/5/3/47
 - 2023 https://www.nature.com/articles/s41598-023-35237-x
+-->

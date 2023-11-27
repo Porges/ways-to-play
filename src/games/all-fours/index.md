@@ -12,6 +12,13 @@ equipment: Playing cards (Standard)
 , where it is known as <span class="aka">Seven-Up</span>.
  <span class="aka">Old Sledge</span> or <span class="aka">Seven-Up</span>[@AmericanCardPlayer p. 121]
 
+Writing in 1866, William Brisbane Disk stated that it was “useless to inquire into the origin of this game”[@AmericanCardPlayer p. 121] — nevertheless, we shall try.
+
+
+
+Refs: [@SeriousReflections]
+
+
 ## Play
 
 ## Knaves and Jacks
@@ -282,7 +289,6 @@ This *Hearts* most humble, and his fellows beg.
 
 ---
 
-“useless to inquire into the origin of this game”[@AmericanCardPlayer p. 121]
 
 
 Variations according to @AmericanCardPlayer:
@@ -297,7 +303,7 @@ Refs: [@CardGamesAroundTheWorld p. 89]
 
 ### California Jack
 
-Also konwn as <span class="aka">French Fours</span>, <span class="aka">French Loo</span>, <span class="aka">High-Low-Jack</span>, or <span class="aka">High, Low, Jack-and-the-Game</span>[@LossesAndAdjustments p. 181] (a list of the scoring features).
+Also known as <span class="aka">French Fours</span>, <span class="aka">French Loo</span>, <span class="aka">High-Low-Jack</span>, or <span class="aka">High, Low, Jack-and-the-Game</span>[@LossesAndAdjustments p. 181] (a list of the scoring features).
 
 earliest reference found @SketchingsWestCampton, apparently in an early edition of <cite>The American Hoyle</cite>, (see: https://archive.org/details/firesidegamesfor00frik/page/n151/mode/2up?q=%22california+jack%22) but i haven't found anything earlier than @TheAmericanHoyle3
 
