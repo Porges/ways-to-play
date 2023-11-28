@@ -15,7 +15,7 @@ Copyright was never renewed, so this is public domain: https://onlinebooks.libra
 Anything published before January 1, 1964 and whose copyright was not renewed is in the public domain. –https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/United_States#General_rules
 -->
 
-This game (usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources)
+This game is usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources, rarely <span lang="ar-Latn" class="noun aka">Seejeh</span>[@Keats_2 p. 97] or <span lang="ar-Latn" class="noun aka">Sutreng</span>[@Keats_2 p. 97].{%fn%}Note that in @AncientEgyptiansAtPlay [p. 154] it is mistakenly stated that Hyde discusses the game; the names actually appear in Keats’ commentary on his translation.{%endfn%}
 
 <span lang="ar">سِيجَة</span> sīja
 

@@ -1109,11 +1109,13 @@ Hyde1:
   type: book
   title: 
     value: De Ludis Orientalibus Libri Duo
+    alt: Two Books On Oriental Games
     lang: la
   volume: 1
   volume-title:
     value: Mandragorias, Seu Historia Shahiludii
     lang: la
+    alt: Mandragorias, or the History of Chess
   author:
     - &Thomas_Hyde
       family: Hyde
@@ -1130,10 +1132,12 @@ Hyde2:
   type: book
   title:
     value: De Ludis Orientalibus Libri Duo
+    alt: Two Books On Oriental Games
     lang: la
   volume: 2
   volume-title:
     value: Historia Nerdiludii
+    alt: History of the Nerd-game
     lang: la
   author:
   - *Thomas_Hyde
@@ -12681,3 +12685,36 @@ DaiFugo:
   author:
   - *Kimihiko_Kuromiya
   in: *IPCS_37_3
+Keats_1:
+  type: book
+  title: Chess, Jews and History
+  author:
+  - &Victor_Keats
+    url: https://en.wikipedia.org/wiki/Victor_Keats
+    given: Victor
+    family: Keats
+  volume: 1
+  publisher: Oxford Academia Publishers
+  publisher-place: Oxford, England, UK
+  issued: 1994
+  ISBN: '1899237003'
+Keats_2:
+  type: book
+  title: Chess, Its Origin
+  author:
+  - *Victor_Keats
+  volume: 2
+  publisher: Oxford Academia Publishers
+  publisher-place: Oxford, England, UK
+  issued: 1994
+  ISBN: '1899237011'
+Keats_3:
+  type: book
+  title: Chess Among The Jews
+  author:
+  - *Victor_Keats
+  volume: 3
+  publisher: Oxford Academia Publishers
+  publisher-place: Oxford, England, UK
+  issued: 1994
+  ISBN: '189923702X'
