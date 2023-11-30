@@ -7152,6 +7152,7 @@ PrimitiveCulture:
   author:
     - given: Edward B.
       family: Tylor
+      url: https://en.wikipedia.org/wiki/Edward_Burnett_Tylor
 IlGiuocoDellaMorra:
   type: article-magazine
   title:
@@ -7172,6 +7173,7 @@ OnGameLearningTheory:
   author:
     - given: Merrill M.
       family: Flood
+      url: https://en.wikipedia.org/wiki/Merrill_M._Flood
   title: On Game-Learning Theory and Some Decision-Making Experiments
   URL: https://archive.org/details/DTIC_AD0604157
   issued:
@@ -7202,6 +7204,7 @@ OneToZero:
   author:
     - given: Georges
       family: Ifrah
+      url: https://en.wikipedia.org/wiki/Georges_Ifrah
   URL: https://archive.org/details/fromonetozerouni0000ifra
   publisher: Viking Penguin
   issued: 1985
@@ -7227,6 +7230,7 @@ AtlasClassicalAntiquities:
   author:
     - given: Theodor
       family: Schreiber
+      url: https://en.wikipedia.org/wiki/Theodor_Schreiber
     - given: W. C. F.
       family: Anderson
   issued: 1895
@@ -7746,6 +7750,7 @@ TipcatAndOtherChineseGames:
   author:
     - given: Alfred
       family: Lister
+      url: https://en.wikipedia.org/wiki/Alfred_Lister
   in:
     title: Notes and Queries on China and Japan
     volume: 4
@@ -7841,6 +7846,7 @@ ComparativeGeez:
   author:
     - given: Wolf
       family: Leslau
+      url: https://en.wikipedia.org/wiki/Wolf_Leslau
   issued: 1987
   publisher: Otto Harrassowitz
   publisher-place: Wiesbaden
@@ -9202,8 +9208,10 @@ IuKiaoLi:
   title: 'Iu-Kiao-Li: or, the Two Fair Cousins'
   volume: 2
   author:
-  - given: M.
-    family: Abel-Remusat
+  - given: Jean-Pierre
+    family: Abel-Rémusat
+    lang: fr
+    url: https://en.wikipedia.org/wiki/Jean-Pierre_Abel-R%C3%A9musat
   publisher: Hunt and Clarke
   publisher-place: London
   issued: 1827
@@ -12403,6 +12411,7 @@ ChaiMuiPickering:
   author:
   - given: W. A. 
     family: Pickering
+    url: https://en.wikipedia.org/wiki/William_A._Pickering
   page: 54-56
   notes: Issued with No. 15 of the Journal.
   in: &SBRAS_NQ_2
@@ -12730,3 +12739,19 @@ Keats_3:
   publisher-place: Oxford, England, UK
   issued: 1994
   ISBN: '189923702X'
+GamesOfStrategy_Dresher:
+  type: article-journal
+  title: Games of Strategy
+  author:
+  - given: Melvin
+    family: Dresher
+    url: https://en.wikipedia.org/wiki/Melvin_Dresher
+  URL: https://www.jstor.org/stable/3029660
+  page: 93–99
+  in:
+    title: Mathematics Magazine
+    volume: 25
+    issue: 2
+    issued: 
+      month: 12
+      year: 1951
