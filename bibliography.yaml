@@ -514,6 +514,7 @@ TsuniGoam:
   author:
     - family: Hahn
       given: Theophilus
+      url: https://en.wikipedia.org/wiki/Johannes_Theophilus_Hahn
   issued:
     year: 1881
   publisher: Trübner & Co
@@ -1155,6 +1156,7 @@ Fiske:
   author:
     - given: Willard
       family: Fiske
+      url: https://en.wikipedia.org/wiki/Willard_Fiske
   issued:
     year: 1905
   publisher: The Florentine Typographical Society
@@ -1339,8 +1341,10 @@ Gardner1:
   type: book
   title: Hexaflexagons and other mathematical diversions
   author:
-    - given: Martin
+    - &Martin_Gardner
+      given: Martin
       family: Gardner
+      url: https://en.wikipedia.org/wiki/Martin_Gardner
   issued:
     year: 1988
   original-date:
@@ -4832,6 +4836,7 @@ alQamus:
       alt:
         value: Muḥammad ibn Yaʿqūb al-Fīrūzābādī
         lang: ar-Latn
+      url: https://en.wikipedia.org/wiki/Firuzabadi
   issued:
     year: 1414
     circa: true
@@ -4919,6 +4924,7 @@ AdjiBoto:
   author:
     - given: Melville J.
       family: Herskovits
+      url: https://en.wikipedia.org/wiki/Melville_J._Herskovits
   page: 122-127
   in:
     title: Man
@@ -5030,6 +5036,7 @@ HullDown:
   author:
     - given: Bertram
       family: Hayes
+      url: https://en.wikipedia.org/wiki/Bertram_Fox_Hayes
   publisher: The Macmillan Company
   publisher-place: New York
   issued:
@@ -7325,6 +7332,7 @@ PopularRhymes:
   author:
     - given: James Orchard
       family: Halliwell-Phillipps
+      url: https://en.wikipedia.org/wiki/James_Halliwell-Phillipps
   type: book
   publisher: John Russell Smith
   publisher-place: London
@@ -8089,6 +8097,7 @@ GamesAndDances:
   author:
     - given: Walter
       family: Kaudern
+      url: https://en.wikipedia.org/wiki/Walter_Kaudern
   URL: https://archive.org/details/dli.ernet.501360
   issued: 1925
 GamesOfTheTibetans:
@@ -8493,6 +8502,7 @@ WhatTheHeathenPlays:
   author:
     - given: Wong Chin
       family: Foo
+      url: https://en.wikipedia.org/wiki/Wong_Chin_Foo
   in:
     title: Lowell Daily Courier
     publisher-place: Lowell, Mass., USA
@@ -8613,6 +8623,7 @@ ChinaAHistoryOfTheLaws:
   author:
     - given: John Henry
       family: Gray
+      url: https://en.wikipedia.org/wiki/John_Gray_(archdeacon_of_Hong_Kong)
   volume: 1
   issued: 1878
   publisher: Macmillan and Co.
@@ -9616,6 +9627,7 @@ CostumeOfYorkshire:
   author:
   - given: George
     family: Walker
+    url: https://en.wikipedia.org/wiki/George_Walker_(illustrator)
   issued: 1814
   publisher: T. Bensley
   publisher-place: London
