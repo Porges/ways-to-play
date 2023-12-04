@@ -6,7 +6,7 @@ country: Indonesia
 draft: true
 ---
 
-Also known as Surakarta (<span lang="jv">ꦯꦸꦫꦏꦂꦠ</span>), after the
+Also known as Surakarta (<span lang="jav">ꦯꦸꦫꦏꦂꦠ</span>), after the
 historical capital city of Java.
 
 [@OxfordBG, p. 249]

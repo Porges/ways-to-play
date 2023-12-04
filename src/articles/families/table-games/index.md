@@ -50,12 +50,12 @@ The opposite of bearing-on games.
 
 Some Chinese games with unknown rules, mentioned by the Tang scholar Li Zhao (<span lang="zh">李肇</span>, d. <836), are:[@DoubleSixes][@TangGuoshiBu p. 72]
 
-- <span lang="zh">圍透</span> <span lang="cmn-pinyin-Latn">wéi tòu</span> ‘surround and pierce?’
-- <span lang="zh">大點</span> <span lang="cmn-pinyin-Latn">dà diǎn</span> ‘big points’
-- <span lang="zh">小雙陸</span> <span lang="cmn-pinyin-Latn">xiǎo shuāng lù </span> ‘lesser double six’
-- <span lang="zh">小點</span> <span lang="cmn-pinyin-Latn">xiǎo diǎn</span> ‘small points’
-- <span lang="zh">握槊</span> <span lang="cmn-pinyin-Latn">wò shuò</span> ‘holding spears’{%fn%}Sometimes[@DoubleSixes][@BettingOnEmpire p. 39] reported as <span lang="zh">握槃</span> <span lang="cmn-pinyin-Latn">wò pán</span>.{%endfn%}
-- <span lang="zh">遊談</span> <span lang="cmn-pinyin-Latn">yóu tán</span> ‘chatting through playing?’
-- <span lang="zh">長行</span> <span lang="cmn-pinyin-Latn">cháng xíng</span> ‘long march’
-- <span lang="zh">雙陸</span> <span lang="cmn-pinyin-Latn">shuāng lù</span> ‘double six’
-- <span lang="zh">鳳翼</span> <span lang="cmn-pinyin-Latn">fèng yì</span> ‘phoenix wing’
+- <span lang="zh">圍透</span> <span lang="cmn-Latn-pinyin">wéi tòu</span> ‘surround and pierce?’
+- <span lang="zh">大點</span> <span lang="cmn-Latn-pinyin">dà diǎn</span> ‘big points’
+- <span lang="zh">小雙陸</span> <span lang="cmn-Latn-pinyin">xiǎo shuāng lù </span> ‘lesser double six’
+- <span lang="zh">小點</span> <span lang="cmn-Latn-pinyin">xiǎo diǎn</span> ‘small points’
+- <span lang="zh">握槊</span> <span lang="cmn-Latn-pinyin">wò shuò</span> ‘holding spears’{%fn%}Sometimes[@DoubleSixes][@BettingOnEmpire p. 39] reported as <span lang="zh">握槃</span> <span lang="cmn-Latn-pinyin">wò pán</span>.{%endfn%}
+- <span lang="zh">遊談</span> <span lang="cmn-Latn-pinyin">yóu tán</span> ‘chatting through playing?’
+- <span lang="zh">長行</span> <span lang="cmn-Latn-pinyin">cháng xíng</span> ‘long march’
+- <span lang="zh">雙陸</span> <span lang="cmn-Latn-pinyin">shuāng lù</span> ‘double six’
+- <span lang="zh">鳳翼</span> <span lang="cmn-Latn-pinyin">fèng yì</span> ‘phoenix wing’
