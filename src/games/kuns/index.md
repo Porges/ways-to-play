@@ -4,7 +4,7 @@ draft: true
 equipment: Playing cards (Standard)
 ---
 
-
+Japanese game: <span class="aka" lang="ja-Latn">Kingo</span> <span class="aka" lang="ja">きんご</span>.
 
 See: @ANoteOnKuns
 
