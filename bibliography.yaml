@@ -5730,6 +5730,7 @@ FrameRabelais:
   author:
     - family: Frame
       given: Donald
+  URL: https://archive.org/details/completeworksoff00rabe
 Pakapio:
   type: article-newspaper
   URL: https://www.newspapers.com/clip/101135182/pakapio/
@@ -9534,7 +9535,7 @@ LesLettresDuSeigneurDeLannoy:
 LaLangueDeRabelais:
   type: book
   title:
-    value: La Lange de Rabelais
+    value: La Langue de Rabelais
     lang: fr
   author:
   - given: Lazare
@@ -9552,6 +9553,7 @@ LaLangueDeRabelais:
     value: Civilisation de la Renaissance
     lang: fr
   issued: 1922
+  URL: https://archive.org/details/lalanguederabela01sain
 AllDeGeestigeWerken:
   type: book
   URL: https://www.let.leidenuniv.nl/Dutch/Renaissance/Rabelais1682.html
@@ -12064,6 +12066,7 @@ FourSuitedHakka:
 BluffEnglishGame_1:
   type: article-journal
   title: "Bluff English Game – with American Branches"
+  URL: https://askalexander.org/display/22506/The+Playing-Card+Vol+24/84
   page: 70-78
   author:
   - given: Jeffrey
@@ -12256,7 +12259,8 @@ QuelquesRegles:
       month: 2
       year: 1985
     editor:
-    - given: Trevor
+    - &Trevor_Denning
+      given: Trevor
       family: Denning
 JeuDeLHombre_1674:
   type: book
@@ -12755,3 +12759,190 @@ GamesOfStrategy_Dresher:
     issued: 
       month: 12
       year: 1951
+OmbreEtLumiere:
+  type: article-journal
+  title:
+    value: 'Ombre et Lumière: Un Peu de Lumière sur L’hombre (1)'
+    lang: fr
+  author:
+  - *Thierry_Depaulis
+  URL: https://askalexander.org/display/22573/The+Playing+Card/119
+  page: 101-110
+  in: &IPCS_15_4
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    issued:
+      year: 1987
+      month: 5
+    issue: 4
+    volume: 15
+    editor:
+    - *Trevor_Denning
+OmbreEtLumiere2:
+  type: article-journal
+  title:
+    value: 'Un Peu de Lumière sur L’hombre (2)'
+    lang: fr
+  author:
+  - *Thierry_Depaulis
+  URL: https://askalexander.org/display/22554/The+Playing-Card+Vol+16/12
+  page: 10-18
+  in: &IPCS_16_1
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    issued:
+      year: 1987
+      month: 8
+    issue: 1
+    volume: 16
+    editor:
+    - *Trevor_Denning
+OmbreEtLumiere3:
+  type: article-journal
+  title:
+    value: 'Un Peu de Lumière sur L’hombre (3)'
+    lang: fr
+  author:
+  - *Thierry_Depaulis
+  URL: https://askalexander.org/display/22554/The+Playing-Card+Vol+16/52
+  page: 44-53
+  in: &IPCS_16_2
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    issued:
+      year: 1987
+      month: 11
+    issue: 2
+    volume: 16
+    editor:
+    - *Trevor_Denning
+ADWillis_IPCS:
+  type: article-journal
+  title: "A. D. Willis — An Antipodean Cardmaker"
+  URL: https://askalexander.org/display/22554/The+Playing-Card+Vol+16/49
+  author:
+  - given: Michael
+    family: Goodall
+  page: 41-43
+  in: *IPCS_16_2
+HombreSurvival:
+  type: article-journal
+  title: "Playing the Game: The Survival of Hombre"
+  author:
+  - *John_McLeod
+  URL: https://askalexander.org/display/22586/The+Playing-Card+Vol+29/20
+  page: 18-20
+  in: &IPCS_29_1
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 29
+    issue: 1
+    issued: 
+      month: 8
+      year: 2000
+    editor:
+    - *Michael_Cooper
+Guritipau:
+  type: article-journal
+  page: 134-137
+  URL: https://askalexander.org/display/22536/The+Playing-Card+Vol+38/144
+  title: "Playing the Game: Iberian Triumphs Worldwide"
+  author:
+  - *Thierry_Depaulis
+  in: &IPCS_38_2
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 38
+    issue: 2
+    editor:
+    - *Peter_Endebrock
+    issued:
+      year: 2009
+      month: 12
+Marimba:
+  type: article-journal
+  page: 58-64
+  URL: https://askalexander.org/display/25263/The+Playing-Card+Vol+40+Issue+1/60
+  title: "Playing the Game: Marimba... without mallets"
+  author:
+  - *Thierry_Depaulis
+  in: &IPCS_40_1
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 40
+    issue: 1
+    editor:
+    - *Peter_Endebrock
+    issued:
+      year: 2011
+      month: 9
+Magion:
+  type: article-journal
+  title: The <span lang="it">magion</span> Experience in Italy
+  URL: https://askalexander.org/display/22536/The+Playing-Card+Vol+38/89
+  page: 79-90
+  author:
+  - given: Sergio
+    family: Mastromarino
+    lang: it
+  in: *IPCS_38_2
+BeggingToPitching:
+  type: article-journal
+  title: "Playing the Game: From Begging to Pitching (More notes on All Fours)"
+  author:
+  - given: John
+    family: Williamson
+  page: 201-205
+  in: &IPCS_41_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 41
+    issue: 3
+    editor:
+    - *Peter_Endebrock
+    issued:
+      month: 3
+      year: 2013
+TarockSkat:
+  type: article-journal
+  title: "The Tarock of the Skat Inventors Part II: The Weimar Classics and a Ludemic View on Tarock, Hombre, and Skat"
+  URL: https://askalexander.org/display/68801/The+playing-card+Vol+44+Issue+3/18
+  author:
+  - given: Ulf
+    family: Martin
+  page: 164-178
+  in: &IPCS_44_3
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 44
+    issue: 3
+    editor:
+    - *Peter_Endebrock
+    issued:
+      month: 3
+      year: 2016
+OriginsOfEuchre:
+  type: article-journal
+  title: "The origins of Euchre"
+  URL: https://askalexander.org/display/22520/The+Playing-Card+Vol+35/271
+  author:
+  - *David_Parlett
+  page: 255-261
+  in: &IPCS_35_4
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 35
+    issue: 4
+    issued:
+      month: 6
+      year: 2007
+    editor:
+    - *Peter_Endebrock
+ChineseGamesBigThree:
+  type: article-journal
+  title: "Playing the Game: Chinese Games, Big Three and Fight the Landlord"
+  URL: https://askalexander.org/display/22520/The+Playing-Card+Vol+35/278
+  author:
+  - *John_McLeod
+  page: 262-265
+  in: *IPCS_35_4
