@@ -1468,6 +1468,7 @@ KokinWakashu:
 NoteOnAMissingLink:
   type: article-journal
   title: A Note on a Missing Link Between Japan and Australia
+  URL: https://askalexander.org/display/22554/The+Playing+Card/62
   author:
   - *John_Fairbairn
   page: 54–56
@@ -1479,6 +1480,10 @@ NoteOnAMissingLink:
     issued:
       year: 1987
       month: 11
+    editor:
+    - &Trevor_Denning
+      given: Trevor
+      family: Denning
 CardGamesAmongAborigines:
   type: article-journal
   title: Card Games among Aborigines of the Northern Territory
@@ -1518,6 +1523,7 @@ PlayingCardsOfTheApaches:
 PoemsOfTheEchigobana:
   type: article-journal
   title: The Poems of the Echigobana
+  URL: https://askalexander.org/display/22551/The+Playing+Card/117
   author:
   - *John_Fairbairn
   page: 97–102
@@ -1532,6 +1538,7 @@ PoemsOfTheEchigobana:
 ModernKoreanCards:
   type: article-journal
   title: Modern Korean Cards – A Japanese Perspective
+  URL: https://askalexander.org/display/22595/The+Playing+Card/76
   author:
   - *John_Fairbairn
   page: 68–72
@@ -1546,6 +1553,7 @@ ModernKoreanCards:
 ModernJapaneseWrappers:
   type: article-journal
   title: Modern Japanese Wrappers
+  URL: https://askalexander.org/display/22525/The+Playing+Card/41
   author:
     - family: Hatton
       given: George
@@ -2690,8 +2698,9 @@ EbashiSadakuro:
   title: 
     value: 後世の花札図柄との異同
     lang: ja
-  author: &ebashi
-    - given: 崇
+  author: 
+    - &ebashi
+      given: 崇
       family: 江橋
       lang: ja
       alt:
@@ -2745,6 +2754,7 @@ Yamaguchi:
 KakkuriYomi:
   type: article-journal
   title: "<span lang='ja-Latn'>Kakkuri</span>: The Last <span lang='ja-Latn'>Yomi</span> Game of Japan"
+  URL: https://askalexander.org/display/22591/The+Playing+Card/254
   author:
     - &Kimihiko_Kuromiya
       given: Kimihiko
@@ -2817,7 +2827,8 @@ EbashiHanafuda:
   title:
     value: 花札
     lang: ja
-  author: *ebashi
+  author:
+  - *ebashi
   issued:
     year: 2014
   publisher:
@@ -2873,7 +2884,8 @@ CartaTaxLawContents:
   title:
     value: 骨牌税法の内容
     lang: ja
-  author: *ebashi
+  author:
+  - *ebashi
   type: webpage
   issued:
     year: 2020
@@ -3070,7 +3082,8 @@ EbashiCigaretteCards:
     lang: ja
   URL: https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/
   archive-URL: https://web.archive.org/web/20230328011006/https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/
-  author: *ebashi
+  author:
+  - *ebashi
   issued:
     year: 2020
   type: webpage
@@ -3453,7 +3466,8 @@ OpeningKamigataya:
   title:
     value: 花札の公然の販売‥‥「上方屋」の挑戦
     lang: ja
-  author: *ebashi
+  author:
+  - *ebashi
   publisher: Japan Playing Card Museum
   issued:
     year: 2020
@@ -3729,6 +3743,7 @@ BabaMalayDictionary:
 ChikiCards:
   type: article-journal
   title: Chiki Cards and Three Chiki Games
+  URL: https://askalexander.org/display/22588/The+Playing+Card/132
   author:
     - family: Pwee
       given: Keng Ho
@@ -7107,7 +7122,8 @@ EbashiKabuCarta:
   container-title: Japan Playing Card Museum
   issued:
     year: 2020
-  author: *ebashi
+  author:
+  - *ebashi
 EdoKaruta7:
   type: webpage
   title:
@@ -8638,6 +8654,7 @@ ChinaAHistoryOfTheLaws:
 ChaquiAndPartui:
   type: article-journal
   title: "Chaqui and Partui: Two Popular Card Games of the ‘Christãos’ of Malacca"
+  URL: https://askalexander.org/display/22523/The+Playing+Card/41
   author:
     - given: Ana Maria
       family: Amaro
@@ -9645,6 +9662,7 @@ CostumeOfYorkshire:
 NotesOnFishing:
   type: article-journal
   title: "Playing the Game: Notes on Fishing"
+  URL: https://askalexander.org/display/22626/The+Playing+Card/236
   author:
   - &John_McLeod
     given: John
@@ -9660,6 +9678,7 @@ NotesOnFishing:
       year: 1998
 FishingInYorkshire:
   type: article-journal
+  URL: https://askalexander.org/display/72223/The+playing+card/69
   title: "Playing the Game: Fishing in 18<sup>th</sup>-century Yorkshire"
   author:
   - *John_McLeod
@@ -9677,6 +9696,7 @@ FishingInYorkshire:
 SwaziCasino:
   type: article-journal
   title: "Playing the Game: Swazi Casino"
+  URL: https://askalexander.org/display/22502/The+Playing+Card/276
   author:
   - *John_McLeod
   page: 258-261
@@ -9908,6 +9928,7 @@ PlayingHanaKaruta:
 CasinoFromNowhere:
   type: article-journal
   title: Casino From Nowhere, to Vaguely Everywhere
+  URL: https://askalexander.org/display/22506/The+Playing+Card/8
   author: 
   - given: Franco
     family: Pratesi
@@ -10000,6 +10021,7 @@ OnTheCards34:
 TwoTenSeven:
   type: article-journal
   title: Two-Ten-Seven
+  URL: https://askalexander.org/display/22503/The+Playing+Card/161
   author:
   - &Isao_Umebayashi_EN
     given: Isao
@@ -11872,6 +11894,7 @@ ChuHong:
 LoYeziPu:
   type: article-journal
   title: 'The ‘Yezi Pu’ (Manual of Leaves): A Card Manual for Games of the Late Ming Period [1368–1644]'
+  URL: https://askalexander.org/display/22562/The+Playing+Card/94
   author:
   - *Andrew_Lo
   page: 86-96
@@ -11918,6 +11941,7 @@ UncommonMahJiang:
     given: Michael
     family: Stanwick
   title: An Uncommon Má Jiàng Pattern from Fujian?
+  URL: https://askalexander.org/display/73968/The+playing+card/45
   page: 83-94
   in: &IPCS_46_2
     title: *IPCS
@@ -11931,6 +11955,7 @@ UncommonMahJiang:
     - *Peter_Endebrock
 EmbarrassingTiles:
   type: article-journal
+  URL: https://askalexander.org/display/22520/The+Playing+Card/160
   author:
   - *Thierry_Depaulis
   title: 'Embarrassing Tiles: Mahjong and the Taipings'
@@ -11950,6 +11975,7 @@ BerryChineseSuit:
     given: John
     family: Berry
   title: Chinese Money-Suited Cards
+  URL: https://askalexander.org/display/22562/The+Playing+Card/256
   page: 230-236
   in: &IPCS_31_5
     title: *IPCS
@@ -11968,6 +11994,7 @@ XuYeziPu_1:
   author:
   - *Andrew_Lo
   title: 'Pan Zhiheng’s ‘Xu Yezi Pu’ (Sequel to a Manual of Leaves) – Part 1'
+  URL: https://askalexander.org/display/22562/The+Playing+Card/247
   page: 221-229
   in: *IPCS_31_5
 XuYeziPu_2:
@@ -11975,6 +12002,7 @@ XuYeziPu_2:
   author:
   - *Andrew_Lo
   title: 'Pan Zhiheng’s ‘Xu Yezi Pu’ (Sequel to a Manual of Leaves) – Part 2'
+  URL: https://askalexander.org/display/22562/The+Playing+Card/310
   page: 278-284
   in: &IPCS_31_6
     title: *IPCS
@@ -12027,6 +12055,7 @@ FlowersAndKings:
   - given: Hongbing
     family: Xu
   title: 'Flowers and Kings: A Hypothesis of their Function in Early Ma Que'
+  URL: https://askalexander.org/display/22622/The+Playing+Card/31
   page: 29-40
   in: &IPCS_37_1
     title: *IPCS
@@ -12044,11 +12073,13 @@ ModernChineseCharacterCards:
   - given: Jeffery
     family: Hopewell
   title: Modern Chinese Character Cards
+  URL: https://askalexander.org/display/22562/The+Playing+Card/305
   page: 273-277
   in: *IPCS_31_6
 FourSuitedHakka:
   type: article-journal
   title: 'The Four-suited Chinese ‘Money’ Pack and a Gambling Game of the Hakka'
+  URL: https://askalexander.org/display/22494/The+Playing+Card/37
   author:
   - given: A. G.
     family: Smith
@@ -12086,6 +12117,7 @@ BluffEnglishGame_1:
 BluffEnglishGame_2:
   type: article-journal
   title: "Bluff English Game – with American Branches: 2"
+  URL: https://askalexander.org/display/22506/The+Playing+Card/122
   author:
   - given: Jeffrey
     family: Burton
@@ -12103,6 +12135,7 @@ BluffEnglishGame_2:
 LiukFuAndOther:
   type: article-journal
   title: Liuk Fu, Cháng Pái and other East Asian Trick-Taking Games
+  URL: https://askalexander.org/display/22506/The+Playing+Card/131
   author:
   - given: Gunther
     family: Senst
@@ -12112,6 +12145,7 @@ LiukFuAndOther:
   in: *IPCS_24_4
 Cuajo:
   type: article-journal
+  URL: https://askalexander.org/display/22586/The+Playing+Card/292
   title: 'Cuajo: a Chinese game with Spanish Cards'
   author:
   - *John_McLeod
@@ -12128,6 +12162,7 @@ Cuajo:
     - *Michael_Cooper
 PartitionGames:
   type: article-journal
+  URL: https://askalexander.org/display/22588/The+Playing+Card/192
   title: "Playing the Game: Partition games"
   author:
   - *John_McLeod
@@ -12136,6 +12171,7 @@ PartitionGames:
 ResponseTuman:
   type: article-journal
   title: "A Response to the <i>*tuman</i> Problem"
+  URL: https://askalexander.org/display/22586/The+Playing+Card/182
   author: 
   - given: Diane
     family: O’Donovan
@@ -12151,8 +12187,8 @@ ResponseTuman:
     editor:
     - *Michael_Cooper
 Tuman10000:
-  # TODO: check this, I hit the limit
   type: article-journal
+  URL: https://askalexander.org/display/22562/The+Playing+Card/36
   author:
   - given: Andrea
     family: Pollett
@@ -12214,16 +12250,17 @@ TravelsThroughArabia_1:
 UnsunOmbre:
   type: article-journal
   title: Unsun, a Far-eastern Cousin of Ombre
+  URL: https://askalexander.org/display/22550/The+Playing+Card/41
   author:
   - *Thierry_Depaulis
   page: 39-44
-  in: &IPCS_12_
+  in: &IPCS_12_1
     title: *IPCS
     ISSN: *IPCS_SSN
     issued: 
       month: 11
       year: 1983
-    volume: 41
+    volume: 12
     issue: 1
     editor: &Eddie_Cass
     - given: Eddie
@@ -12231,6 +12268,7 @@ UnsunOmbre:
 JapaneseUnsun:
   type: article-journal
   title: The Japanese Literature on Unsun Cards
+  URL: https://askalexander.org/display/22550/The+Playing+Card/73
   author:
   - *John_Fairbairn
   page: 65-79
@@ -12244,6 +12282,7 @@ JapaneseUnsun:
       year: 1984
 QuelquesRegles:
   type: article-journal
+  URL: https://askalexander.org/display/22608/The+Playing+Card/96
   title:
     value: 'Le Jeu de Cartes: Quelques Regles du Passe'
     lang: fr
@@ -12259,9 +12298,7 @@ QuelquesRegles:
       month: 2
       year: 1985
     editor:
-    - &Trevor_Denning
-      given: Trevor
-      family: Denning
+    - *Trevor_Denning
 JeuDeLHombre_1674:
   type: book
   title:
@@ -12889,6 +12926,7 @@ Magion:
 BeggingToPitching:
   type: article-journal
   title: "Playing the Game: From Begging to Pitching (More notes on All Fours)"
+  URL: https://askalexander.org/display/39793/The+Playing+Card/57
   author:
   - given: John
     family: Williamson
@@ -12946,3 +12984,70 @@ ChineseGamesBigThree:
   - *John_McLeod
   page: 262-265
   in: *IPCS_35_4
+GameOfChrysanthemums:
+  type: article-journal
+  URL: https://askalexander.org/display/22626/The+Playing-Card+Vol+26/4
+  title: The Game of Three Chrysanthemums
+  author:
+  - given: Jude
+    family: Wudarczyk
+  page: 2-8
+  in: &IPCS_26_1
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    editor:
+    - *George_Beal
+    volume: 26
+    issue: 1
+    issued:
+      month: 8
+      year: 1997
+Dontsuku:
+  type: article-journal
+  title: A Card Game Played with Kurofuda
+  author:
+  - *ebashi
+  translator:
+  - *John_Fairbairn
+  page: 25-28
+  URL: https://askalexander.org/display/22573/The+Playing-Card+Vol+15/27
+  in: &IPCS_15_1
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    editor:
+    - *Trevor_Denning
+    volume: 15
+    issue: 1
+    issued:
+      month: 8
+      year: 1986
+MekuriDistribution:
+  type: article-journal
+  title: The Distribution of Japanese Mekuri Cards
+  URL: https://askalexander.org/display/22554/The+Playing-Card+Vol+16/101
+  author:
+  - *John_Fairbairn
+  page: 87-89
+  in: &IPCS_16_3
+    ISSN: *IPCS_SSN
+    title: *IPCS
+    volume: 16
+    issue: 3
+    issued:
+      year: 1988
+      month: 2
+    editor:
+    - *Trevor_Denning
+MamlukRemarks:
+  type: article-journal
+  title: Some Remarks on Mamluk Playing Cards
+  author:
+  - *Michael_Dummett
+  - given: Kamal
+    family: Abu-Deeb
+  page: 106-128
+  URL: http://www.jstor.org/stable/751160
+  in:
+    title: Journal of the Warburg and Courtald Institutes
+    volume: 36
+    issued: 1973

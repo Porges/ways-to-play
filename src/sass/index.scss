@@ -84,6 +84,11 @@
 	src: url('/fonts/CharisSIL-BoldItalic.woff2') format('woff2'),
         url('/fonts/CharisSIL-BoldItalic.woff') format('woff');
 }
+@font-face {
+    font-family: 'Balinese';
+    src: local('Noto Sans Balinese'), serif;
+    unicode-range: U+1b00-1b7f;
+}
 
 $font-family-sans-serif:
     CharisSILW,
@@ -91,7 +96,8 @@ $font-family-sans-serif:
     "Noto Emoji",
     serif, 
     "cc-icons", // fallback for Creative Commons Unicode characters
-    "UniHentaiKana"; // fallback for Hentaigana chars
+    "UniHentaiKana", // fallback for Hentaigana chars
+    "Balinese"; // fallback for Balinese script
 
 $primary: #6b5293;
 $secondary: #7c85a3;

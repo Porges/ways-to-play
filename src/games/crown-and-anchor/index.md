@@ -535,7 +535,7 @@ A game being played with 6 dice and 12 squares (including one featuring the
 [Teletubbies](https://en.wikipedia.org/wiki/Teletubbies)!) at <span class="noun"
 lang="id">Pura Samuan Tiga</span> temple; note the men wearing traditional
 Balinese dress including [<span
-lang="ban">udeng</span>](https://en.wikipedia.org/wiki/National_costume_of_Indonesia#:~:text=Malay%20men%27s%20headgear-,Udeng,-%2C%20Balinese%20men%27s%20headgear).
+lang="ban-Latn">udeng</span>](https://en.wikipedia.org/wiki/National_costume_of_Indonesia#:~:text=Malay%20men%27s%20headgear-,Udeng,-%2C%20Balinese%20men%27s%20headgear).
 {% imageEnd %}
 
 In the Balinese game, bets can be placed spanning two symbols.
@@ -546,19 +546,19 @@ In the Balinese game, bets can be placed spanning two symbols.
 
 Some of the sets of symbols used are:
 
-* <span lang="ban">basir</span>, robin, <span lang="ban">rare</span> (baby),
-  <span lang="ban">ikan barong</span> (fish
+* <span lang="ban-Latn">basir</span>, robin, <span lang="ban-Latn">rare</span> (baby),
+  <span lang="ban-Latn">ikan barong</span> (fish
   [Barong](https://en.wikipedia.org/wiki/Barong_(mythology))), <span
-  lang="ban">kepiting</span> (crab), <span lang="ban">ayam</span> (chicken); see
+  lang="ban-Latn">kepiting</span> (crab), <span lang="ban-Latn">ayam</span> (chicken); see
   images below
-* <span lang="ban">basir</span>, <span lang="ban">bayi ajaib</span> (magic
-  baby), [???], [a duck], <span lang="ban">macan</span> (tiger), <span
-  lang="ban">elang</span> ([Javan
+* <span lang="ban-Latn">basir</span>, <span lang="ban-Latn">bayi ajaib</span> (magic
+  baby), [???], [a duck], <span lang="ban-Latn">macan</span> (tiger), <span
+  lang="ban-Latn">elang</span> ([Javan
   hawk-eagle](https://en.wikipedia.org/wiki/Javan_hawk-eagle)){%fn%}Seen
   [here](https://www.alamy.com/stock-photo-bali-indonesia-gambling-with-dice-dlod-blungbang-village-71850399.html).{%endfn%}
-* <span lang="ban">kak tua</span> (grandfather), <span lang="ban">elang</span>,
-  <span lang="ban">cewek</span> (girl), <span lang="ban">singa</span> (lion),
-  <span lang="ban">ikan</span> (fish), <span lang="ban">kodok</span>
+* <span lang="ban-Latn">kak tua</span> (grandfather), <span lang="ban-Latn">elang</span>,
+  <span lang="ban-Latn">cewek</span> (girl), <span lang="ban-Latn">singa</span> (lion),
+  <span lang="ban-Latn">ikan</span> (fish), <span lang="ban-Latn">kodok</span>
   (frog){%fn%}Seen
   [here](https://www.alamy.com/balinese-traditional-street-gambling-the-game-called-kocok-or-mong-mongan-with-fields-saying-eagle-old-man-girl-fish-frog-and-lion-in-indonesian-image261042011.html).{%endfn%}
 
