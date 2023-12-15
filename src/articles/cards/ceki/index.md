@@ -11,12 +11,14 @@ hero:
 ---
 
 <p class="lead">
-Ceki or Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]<!--{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}--> “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]{%endfn%} or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
+Ceki (Javanese <span lang="jav">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]<!--{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}--> “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]{%endfn%}, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
 </p>
 
-“Ceki” (see sidenote #1) probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).{%fn%}<span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long thing objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”.{%endfn%} More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), or <span lang="id">kartu cina</span> (‘Chinese cards’).
+“Ceki” (see sidenote #1) probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).{%fn%}<span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long thing objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”.{%endfn%} More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘{%gameref gonggong%} cards’).
 
-The games were originally played throughout the Malaysian Archipelago. Ceki games are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity p. 555]
+The cards might also have been referred to in the past in Malay as <span lang="ms">kiya</span>{%fn%}<span lang="ms">Kija</span> or <span lang="ms-Arab">كيا</span>[@Pijnappel p. 96] in older orthographies.{%endfn%} or <span lang="ms">kiya-kiya</span>, meaning ‘fish’. This could refer to the fish symbology which is used on some decks of Chinese origin.
+
+Games that used these type of cards were originally played throughout the Malaysian Archipelago. They are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity p. 555]
 
 {% image src="../../../maps/Ceki.svg" alt="" %}
 Countries where Ceki cards are used.
@@ -74,9 +76,11 @@ In Bali, the game is widely played and has “a large if not fanatical following
 Balinese men playing a gambling game.
 {% imageEnd %}
 
-The game is particularly popular amongst the Minangkabau people of West Sumatra, as the Dutch card-making company <span class="noun" lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</span> had a factory{%fn%}This building was later to become the [Hotel Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in the [2009 Sumatran earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes). The company also had offices in Java & Sulawesi (previously known as Celebes).{%endfn%} in the city of Padang.  In the Minang language, they are called Koa (or Kowah).{%fn%}This appears to have been <span lang="ms-Arab">كوا</span> in old Malay orthography.[@MalayEnglishWilkinson p. 542]{%endfn%} The Minangkabau go so far as to say “<span lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1]
+The game is particularly popular amongst the Minangkabau people of West Sumatra, as the Dutch card-making company <span class="noun" lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</span> had a factory{%fn%}This building was later to become the [Hotel Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in the [2009 Sumatran earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes). The company also had offices in Java & Sulawesi (previously known as Celebes).{%endfn%} in the city of Padang. 
 
-In Buginese and Makassarese, both spoken in South Sulawesi, the game is also called <span lang="bug-Latn">kowa</span> (<span lang="bug">ᨀᨚᨓ</span> in Lontara script).[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46]
+In the Minang language, they game and cards are called Koa (sometimes spelt Kuwa or Kowah, <span lang="ms-Arab">كوا</span> in old Malay orthography).[@MalayEnglishWilkinson p. 542] The Minangkabau go so far as to say “<span lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1] In Buginese and Makassarese, both spoken in South Sulawesi, the game is also called <span lang="bug-Latn">kowa</span> (<span lang="bug">ᨀᨚᨓ</span> in Lontara script),[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46] after a term which is used in the game.
+
+These terms might come from a Chinese language term for the number nine, which is how many cards the players need to complete their hand in the most common form of the game in these areas.<!--{%fn%}I might even hazard something like <span lang="zh">九葉</span> ‘nine leaves’, Hakka <span lang="hak-Latn">kiú ya̍p</span>, Teochew <span lang="tws-Latn">gao² iab⁸</span>.{%endfn%}-->
 
 {% image src="Kaartspel_op_een_Javaans_feest_in_Paramaribo,_Bestanddeelnr_252-2592.jpg" alt=""
   license="cc0"
@@ -204,6 +208,24 @@ you help with this? Contact me!{%endfn%}) are closer in style to the #1 deck.
 
 Each card in the deck has its own name as listed in the table below.  The translations in the table are mostly from the [SEAlang](http://sealang.net) dictionaries; any mistakes are my own.{%fn%}According to some sources, the word “<span lang="jav-Latn">cina</span>” referring to a Chinese person is now considered a potentially derogatory term. For example, the Indonesian government no longer uses it in official communications, since the term was dropped from official usage by presidential decree in 2014.[@CinaOrTionghua]{%endfn%} In Malaysia/Singapore the names are based on the Hokkien names of the cards — a combination of suit and rank — but as we move in a south-easterly direction along the Malay Archipelago (the table below is listed roughly in this order), the names diverge further and further from this original source, and most cards have nicknames that are based upon their appearance rather than their numeric value.
 
+The names in the **Makassar** column have been assigned based upon comparisons with the other names given; the source does not show which card maps to which. I have not been able to figure out a satisfactory assignment for the following names: 
+<span lang="mak">ᨁᨚᨌᨗ</span> <span lang="mak-Latn">goncing</span>[@MakassaarschWoordenboek p. 76] ‘scissors’;
+<span lang="mak">ᨁᨑᨗᨁᨗ</span> <span lang="mak-Latn">garigi</span>[@MakassaarschWoordenboek p. 79] [?];
+<span lang="mak">ᨄᨄ</span> <span lang="mak-Latn">pampang</span>[@MakassaarschWoordenboek p. 98] ‘across’;
+<span lang="mak">ᨄᨚᨄᨚᨀ</span> <span lang="mak-Latn">popokang</span>[@MakassaarschWoordenboek p. 99] ‘sorceress’;{%fn%}Not just any sorceress, but one that sends out her head and entrails at night, leaving her body behind! In Minangkabau this is called a ‘<span lang="min" class="noun">Palasik Panangga</span>’, or a ‘<span lang="ms" class="noun">Penanggalan</span>’ in Malay. For more information, see @Penanggalan.{%endfn%}
+<span lang="mak">ᨄᨙᨔᨚ</span> <span lang="mak-Latn">peso</span>[@MakassaarschWoordenboek p. 140] ‘lame’;
+<span lang="mak">ᨅᨘᨀᨘ</span> <span lang="mak-Latn">buku</span>[@MakassaarschWoordenboek p. 148] ‘bone’;
+<span lang="mak">ᨅᨚᨈᨘᨓᨒ</span> <span lang="mak-Latn">bontuwala</span>[@MakassaarschWoordenboek p. 173] Bontoala, a place near Makassar, also the name of a type of large kris;
+<span lang="mak">ᨅᨒ</span> <span lang="mak-Latn">bala</span>[@MakassaarschWoordenboek p. 200] ‘house’;
+<span lang="mak">ᨅᨓᨗ</span> <span lang="mak-Latn">bawi</span>[@MakassaarschWoordenboek p. 221] ‘pig’;
+<span lang="mak">ᨆᨉᨘᨑ</span> <span lang="mak-Latn">mandura</span>[@MakassaarschWoordenboek p. 249] [?];
+<span lang="mak">ᨌᨄᨗ</span> <span lang="mak-Latn">capi</span>[@MakassaarschWoordenboek p. 385] ‘deformed’, also ‘cow’;
+<span lang="mak">ᨍᨘᨀᨘᨕᨙᨍ</span> <span lang="mak-Latn">juku-éja</span>[@MakassaarschWoordenboek p. 402] ‘red fish’;
+<span lang="mak">ᨍᨚᨅᨚ</span> <span lang="mak-Latn">jobong</span>[@MakassaarschWoordenboek p. 408] [?];
+<span lang="mak">ᨑᨚᨅᨙ</span> <span lang="mak-Latn">rombéng</span>[@MakassaarschWoordenboek p. 444] ‘long hair’;
+<span lang="mak">ᨔᨄᨗ</span> <span lang="mak-Latn">sapi</span>[@MakassaarschWoordenboek p. 554] ‘cow’;
+<span lang="mak">ᨔᨗᨄᨗ</span> <span lang="mak-Latn">sipi</span>[@MakassaarschWoordenboek p. 557] ‘pinch’.
+
 ⚠️ The table is *very wide* and might scroll horizontally.
 
 <!--
@@ -256,7 +278,7 @@ section of the table is much more imprecise than the previous lines.
     <th colspan="7">Bali</th>
     <th colspan="2">Lombok</th>
     <th>Borneo</th>
-    <th>Sulawesi</th>
+    <th colspan="2">Sulawesi</th>
     <th>Maluku</th>
     <th>Timor</th>
   </tr>
@@ -357,6 +379,12 @@ Lombok<br/>(1941)[@JavaanseKaartspelen]
 Banjarmasin<br/>(1941)[@JavaanseKaartspelen]
 
 </th>
+<!-- Sulawesi -->
+<th>
+
+Makassar<br/>(1859)[@MakassaarschWoordenboek]
+
+</th>
 <th>
 
 Manado<br/>(1876)[@HetMaleischderMolukken]
@@ -402,8 +430,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <td></td>
 <!-- Borneo -->
-<td></td>
+<td><span lang="bjn">hio</span></td>
 <!-- Sulawesi -->
+<td></td>
 <td></td>
 <!-- Maluku -->
 <td></td>
@@ -437,13 +466,14 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="sas">ᬓᭀᬩᬃ</span><br/><span lang="sas-Latn">kobar</span><br/>burning</td>
 <td><span lang="sas">ᬓᭀᬩᬃ</span><br/><span lang="sas-Latn">kobar</span><br/>burning</td>
 <!-- Borneo -->
-<td><span lang="bjn">abang/raja basar</span></td>
+<td><span lang="bjn">abang/raja basar</span><br/>red/big king</td>
 <!-- Sulawesi -->
-<td><span lang="id">laucan, lokjan</span></td>
+<td><span lang="mak">ᨒᨚᨌᨗᨐ</span><br/><span lang="mak-Latn">lociyang</span>[@MakassaarschWoordenboek p. 508]<br/>from Hokkien</td>
+<td><span lang="id">laucan, lokjan</span><br/>from Hokkien</td>
 <!-- Maluku -->
-<td><span lang="id">meirah lokjan</span></td>
+<td><span lang="id">meirah lokjan</span><br/>red lokjan</td>
 <!-- Timor -->
-<td><span lang="id">meirah besar</span></td>
+<td><span lang="id">meirah besar</span><br/>big red</td>
 </tr>
 
 <tr>
@@ -474,6 +504,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">kucing</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">kukis</span></td>
 <!-- Maluku -->
 <td><span lang="id">parampuwan</span><br/>woman</td>
@@ -509,6 +540,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">pinci</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">kapala</span></td>
 <!-- Maluku -->
 <td><span lang="id">meirah kapala</span></td>
@@ -544,6 +576,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">kasut/butuh [women]; bedor [men]</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨈᨗᨀᨑ</span><br/><span lang="mak-Latn">tikara</span>[@MakassaarschWoordenboek p. 276]<br/></td>
 <td><span lang="id">tikar</span><br/>plaited mat</td>
 <!-- Maluku -->
 <td><span lang="id">tikar</span><br/>plaited mat</td>
@@ -579,6 +612,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">panjang</span><br/>long</td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨒᨅᨘᨔᨘ</span><br/><span lang="mak-Latn">lambusu</span>[@MakassaarschWoordenboek p. 496]<br/>straight</td>
 <td><span lang="id">panjang</span><br/>long</td>
 <!-- Maluku -->
 <td><span lang="id">panjang</span><br/>long</td>
@@ -614,6 +648,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">nyonyah</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨌᨗᨊ</span><br/><span lang="mak-Latn">cina</span>[@MakassaarschWoordenboek p. 391]<br/>China</td>
 <td><span lang="id">cina</span></td>
 <!-- Maluku -->
 <td><span lang="id">cina</span></td>
@@ -649,6 +684,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td></td>
 <!-- Maluku -->
 <td></td>
@@ -684,6 +720,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">tambur dua</span><br/>two drums<br/><br/><span lang="bjn">palumpung</span><br/>[?]</td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨄᨗᨌᨗᨉᨘᨓ</span><br/><span lang="mak-Latn">picing duwa</span>[@MakassaarschWoordenboek p. 113]<br/>two coins</td>
 <td><span lang="id">duwa mata</span></td>
 <!-- Maluku -->
 <td><span lang="id">duwa mata</span></td>
@@ -719,6 +756,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">téngkong</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">bèngkok</span></td>
 <!-- Maluku -->
 <td><span lang="id">bongkok</span></td>
@@ -754,6 +792,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">miring</span><br/>angled</td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨀᨚᨉᨙ</span><br/><span lang="mak-Latn">kondé</span>[@MakassaarschWoordenboek p. 27]<br/>Chinese bun hairstyle</td>
 <td><span lang="id">miring</span><br/>angled</td>
 <!-- Maluku -->
 <td><span lang="id">miring</span><br/>angled</td>
@@ -790,6 +829,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <!-- Sulawesi -->
 <td></td>
+<td></td>
 <!-- Maluku -->
 <td></td>
 <!-- Timor -->
@@ -824,6 +864,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">tambur tiga</span><br/>three drums</td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">tiga mata</span></td>
 <!-- Maluku -->
 <td><span lang="id">tiga mata</span></td>
@@ -835,7 +876,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS3.jpg;KS3.jpg;OS3.jpg;NS3.jpg;CS3.jpg" alt=";;;;" %}3 Strings{% imageEnd %}</th>
 <td><span lang="ms">sa udang</span><br />shrimp three</td>
 <td><span lang="mcm">kambrang</span><br/>shrimp</td>
-<td><span lang="mcm">kambrang, kotek, cucuk</span><br/>shrimp, penis, pierce</td>
+<td><span lang="mcm">kambrang, kotek, cucuk</span><br/>shrimp, penis, thorn</td>
 <td><span lang="min">jarum gadang</span><br />big needle</td>
 <!-- Java -->
 <td><span lang="jav">ꦒꦹꦤꦸꦁ</span><br/><span lang="jav-Latn">gunung</span><br/>mountain</td>
@@ -859,6 +900,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">(jarum) gunung</span><br/>(needle) mountain</td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">udang</span><br/>shrimp</td>
 <!-- Maluku -->
 <td><span lang="id">udang</span><br/>shrimp</td>
@@ -894,6 +936,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">jarum (alus)</span><br/>needle</td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨍᨑᨘ</span><br/><span lang="mak-Latn">jarung</span>[@MakassaarschWoordenboek p. 416]<br/>nail</td>
 <td><span lang="id">jarum</span><br/>needle</td>
 <!-- Maluku -->
 <td><span lang="id">jarum</span><br/>needle</td>
@@ -930,6 +973,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <!-- Sulawesi -->
 <td></td>
+<td></td>
 <!-- Maluku -->
 <td></td>
 <!-- Timor -->
@@ -964,6 +1008,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">tambur (satu)</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">as</span></td>
 <!-- Maluku -->
 <td><span lang="id">tambur</span></td>
@@ -997,13 +1042,14 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="sas">ᬘᬯᬂ</span><br/><span lang="sas-Latn">cawang</span></td>
 <td><span lang="sas">ᬘᬯᬂ</span><br/><span lang="sas-Latn">cawang</span></td>
 <!-- Borneo -->
-<td><span lang="bjn">pinggang</span></td>
+<td><span lang="bjn">pinggang</span><br/>waist</td>
 <!-- Sulawesi -->
-<td><span lang="id">putus</span></td>
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
+<td><span lang="id">putus</span><br/>cut</td>
 <!-- Maluku -->
 <td><span lang="id">putus pinggang</span></td>
 <!-- Timor -->
-<td><span lang="id">pinggang</span></td>
+<td><span lang="id">pinggang</span><br/>waist</td>
 </tr>
 
 <tr>
@@ -1034,6 +1080,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">pajung</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">kondei</span></td>
 <!-- Maluku -->
 <td><span lang="id">kondei</span></td>
@@ -1070,6 +1117,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <!-- Sulawesi -->
 <td></td>
+<td></td>
 <!-- Maluku -->
 <td></td>
 <!-- Timor -->
@@ -1104,6 +1152,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">klonéng</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨄᨚᨌᨗ</span><br/><span lang="mak-Latn">poci</span>[@MakassaarschWoordenboek p. 114]<br/>navel</td>
 <td><span lang="id">prahu</span></td>
 <!-- Maluku -->
 <td><span lang="id">pusat</span><br/>navel</td>
@@ -1124,7 +1173,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jav-Latn">tholo</span></td>
 <td><span lang="jav-Latn">lima linktrik, pecuk</span></td>
 <td><span lang="jav-Latn">babi lintrik</span><br />pig [unknown]</td>
-<td><span lang="jav-Latn">cucuk babi</span></td>
+<td><span lang="jav-Latn">cucuk babi</span><br/>thorn ping</td>
 <!-- Bali -->
 <td><span lang="ban">ᬫᬢᭂᬕᭂᬤᬾ</span><br/><span lang="ban-Latn">mate gedé</span><br />big eye</td>
 <td><span lang="ban">ᬲᬸᬫ᭄ᬧᬸᬮ᭄</span><br/><span lang="ban-Latn">sumpul</span></td>
@@ -1139,6 +1188,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">pantat</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨁᨚᨁᨚᨔᨚ</span><br/><span lang="mak-Latn">gogoso</span>[@MakassaarschWoordenboek p. 69]<br/><a href="https://www.dreamstime.com/buras-traditional-food-west-south-sulawesi-indonesia-gogos-made-thick-glutinous-rice-then-wrapped-banana-leaves-image276176098">a dish of sticky rice cooked in bamboo leaves</a></td>
 <td><span lang="id">têroes</span></td>
 <!-- Maluku -->
 <td><span lang="id">têroes</span></td>
@@ -1174,6 +1224,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">babi</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">babi (pai tuwa)</span></td>
 <!-- Maluku -->
 <td><span lang="id">babi (pai tuwa)</span></td>
@@ -1210,6 +1261,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <!-- Sulawesi -->
 <td></td>
+<td></td>
 <!-- Maluku -->
 <td></td>
 <!-- Timor -->
@@ -1244,6 +1296,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">kerok</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨕᨊ</span><br/><span lang="mak-Latn">anang</span>[@MakassaarschWoordenboek p. 653]<br/>six</td>
 <td><span lang="id">anam mata</span></td>
 <!-- Maluku -->
 <td><span lang="id">anam kaladi</span></td>
@@ -1279,6 +1332,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">bambu</span><br/>bamboo</td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">bêlah buluh</span><br/>wide stripes<br/><br/><span lang="id">tarabei</span></td>
 <!-- Maluku -->
 <td><span lang="id">bambu</span><br/>bamboo</td>
@@ -1314,6 +1368,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">rumah</span><br/>building [temple?]</td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">lakban</span></td>
 <!-- Maluku -->
 <td><span lang="id">lakban</span></td>
@@ -1350,6 +1405,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <!-- Sulawesi -->
 <td></td>
+<td></td>
 <!-- Maluku -->
 <td></td>
 <!-- Timor -->
@@ -1384,6 +1440,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">layar</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨅᨉᨙᨑ</span><br/><span lang="mak-Latn">bandéra</span>[@MakassaarschWoordenboek p. 175]<br/>flag</td>
 <td><span lang="id">bandéra</span></td>
 <!-- Maluku -->
 <td><span lang="id">bulu ayam</span></td>
@@ -1419,6 +1476,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">bulu</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">galéma</span></td>
 <!-- Maluku -->
 <td><span lang="id">gohu</span></td>
@@ -1454,6 +1512,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">sisir</span><br/>comb</td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">ringgit</span></td>
 <!-- Maluku -->
 <td><span lang="id">sisir</span><br/>comb</td>
@@ -1490,6 +1549,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <!-- Sulawesi -->
 <td></td>
+<td></td>
 <!-- Maluku -->
 <td></td>
 <!-- Timor -->
@@ -1524,6 +1584,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">dalapan</span><br/>eight</td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨔᨁᨈᨘᨍᨘ</span><br/><span lang="mak-Latn">sagantuju</span>[@MakassaarschWoordenboek p. 551]<br/>eight</td>
 <td><span lang="id">delapan mata</span></td>
 <!-- Maluku -->
 <td><span lang="id">delapan kaladi</span></td>
@@ -1559,6 +1620,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">manis</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">manis</span></td>
 <!-- Maluku -->
 <td><span lang="id">manis</span></td>
@@ -1594,6 +1656,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">pecah</span><br/>broken?</td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">dukun</span><br/><a href="https://en.wikipedia.org/wiki/Dukun">a shaman</a></td>
 <!-- Maluku -->
 <td><span lang="id">picah kapala</span></td>
@@ -1630,6 +1693,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td></td>
 <!-- Sulawesi -->
 <td></td>
+<td></td>
 <!-- Maluku -->
 <td></td>
 <!-- Timor -->
@@ -1664,11 +1728,12 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">bulat</span><br/><br/><br/><span lang="bjn">galéndéng</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨑᨘᨄᨗᨐ</span><br/><span lang="mak-Latn">rupiya</span>[@MakassaarschWoordenboek p. 440]<br/>rupees</td>
 <td><span lang="id">roda</span></td>
 <!-- Maluku -->
-<td><span lang="id">rupiah</span></td>
+<td><span lang="id">rupiah</span><br/>rupees</td>
 <!-- Timor -->
-<td><span lang="id">rupiah</span></td>
+<td><span lang="id">rupiah</span><br/>rupees</td>
 </tr>
 
 <tr>
@@ -1699,6 +1764,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">léntri, lantri</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak">ᨀᨓᨚᨅ</span><br/><span lang="mak-Latn">kawo-bang</span>[@MakassaarschWoordenboek p. 63]<br/>red nine?</td>
 <td><span lang="id">kacang</span><br/>[bean/clitoris?]</td>
 <!-- Maluku -->
 <td><span lang="id">meirah kacang</span></td>
@@ -1719,7 +1785,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jav-Latn">keyang</span></td>
 <td><span lang="jav-Latn">sanga cina, kayang, kéyang</span></td>
 <td><span lang="jav-Latn">gang</span><br />gap</td>
-<td><span lang="jav-Latn">wong cucuk</span></td>
+<td><span lang="jav-Latn">wong cucuk</span><br/>thorn man</td>
 <!-- Bali -->
 <td><span lang="ban">ᬓᬳᭀ</span><br/><span lang="ban-Latn">kao</span><br />from Hokkien ‘nine’ (<span lang="nan-Latn">káu</span>)?</td>
 <td><span lang="ban">ᬓᬳᬸ</span><br/><span lang="ban-Latn">kau</span></td>
@@ -1734,6 +1800,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">turus</span></td>
 <!-- Sulawesi -->
+<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
 <td><span lang="id">gargaji (baduri)</span></td>
 <!-- Maluku -->
 <td><span lang="id">gargaji (baduri)</span></td>
@@ -1792,7 +1859,7 @@ them, I do not know of any other sets of rules recorded online.
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
-* Pak Tui, a solitaire game[@BabaMalayDictionary p. 215]
+* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui{%fn%}Patoei or <span lang="ms-Arab">ڤتوي</span>[@Pijnappel p. 58] in older orthographies.{%endfn%} which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn">pat tùi</span>),{%fn%}This possibility raised in @Morgenlandisch_2 [p. 572].{%endfn%} in which case the game could be something similar to {%gameref tantanan%}.
 * Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary p. 214]
 * Tongkeng, a game for two people[@BabaMalayDictionary p. 215]
 * Cho It and Chochot[@SomeNotesMalayCardGames p. 88] — could Chochot be the same as Chot or Thothit?

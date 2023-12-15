@@ -6530,7 +6530,8 @@ Himly:
     value: Anmerkungen in Beziehung auf das Schach- und andere Brettspiele
     lang: de
   author:
-    - family: Himly
+    - &K_Himly
+      family: Himly
       given: K.
   page: 461–484
   in:
@@ -13051,3 +13052,65 @@ MamlukRemarks:
     title: Journal of the Warburg and Courtald Institutes
     volume: 36
     issued: 1973
+Morgenlandisch_1:
+  type: article-journal
+  title: 
+    value: Morgenländisch oder abendländisch? Forschungen nach gewissen Spielausdrücken
+    lang: de
+    alt: Oriental or occidental? Research into certain game expressions
+  URL: https://archive.org/details/zeitschrift43deutuoft/page/414
+  author: 
+  - *K_Himly
+  page: 415-463
+  in: 
+    title:
+      value: Zeitschrift der Deutschen Morgenländischen Gesellschaft
+      lang: de
+    volume: 43
+    issue: 3
+    issued: 1889
+    publisher-place: Leipzig
+Morgenlandisch_2:
+  type: article-journal
+  title: 
+    value: Morgenländisch oder abendländisch? Forschungen nach gewissen Spielausdrücken (Zusätze)
+    lang: de
+    alt: Oriental or occidental? Research into certain game expressions (Additions)
+  URL: https://archive.org/details/zeitschrift43deutuoft/page/554
+  author:
+  - *K_Himly
+  page: 555-578
+  in:
+    title:
+      value: Zeitschrift der Deutschen Morgenländischen Gesellschaft
+      lang: de
+    volume: 43
+    issue: 4
+    issued: 1889
+    publisher-place: Leipzig
+Pijnappel:
+  type: book
+  URL: https://archive.org/details/ahy2565.0001.001.umich.edu
+  edition: 2
+  title:
+    value: Maleisch-Hollandsch Woordenboek
+    lang: nl
+  author:
+  - given: Jan
+    family: Pijnappel
+  issued: 1875
+  publisher-place: Haarlem, Amsterdam
+  publisher: Frederik Muller
+Penanggalan:
+  type: webpage
+  title: The Malaysian Penanggalan Haunts Pregnant Women and Newborns
+  author:
+  - given: Josh
+    family: Levine
+  issued:
+    day: 29
+    month: 10
+    year: 200
+  URL: https://www.atlasobscura.com/articles/monster-mythology-penanggalan
+  archive-URL: https://web.archive.org/web/20231215084419/https://www.atlasobscura.com/articles/monster-mythology-penanggalan
+  container-title: Atlas Obscura
