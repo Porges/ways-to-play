@@ -247,8 +247,8 @@ Newell59:
   type: article-journal
   title: A Few Asiatic Board Games Other than Chess
   author:
-    - given: Newell
-      family: W. H.
+    - family: Newell
+      given: W. H.
   page: 29-30
   URL: http://www.jstor.org/stable/2796540
   in:
@@ -13110,7 +13110,19 @@ Penanggalan:
   issued:
     day: 29
     month: 10
-    year: 200
+    year: 2020
   URL: https://www.atlasobscura.com/articles/monster-mythology-penanggalan
   archive-URL: https://web.archive.org/web/20231215084419/https://www.atlasobscura.com/articles/monster-mythology-penanggalan
   container-title: Atlas Obscura
+DepaulisMacassar:
+  type: book
+  title:
+    value: 'De Lisbonne à Macassar : un chapitre méconnu des cartes portugaises en Asie'
+    lang: fr
+  author:
+  - *Thierry_Depaulis
+  issued: 2008
+  publisher: Apenas
+  publisher-place: Lisbon, Portugal
+  
+      

@@ -63,6 +63,14 @@ Those derived from **dice**:
 * 15-Point Cards (<span lang="zh">十五湖</span> <span lang="cmn-Latn-pinyin">shíwǔ hú</span>)
 * Sichuan domino cards (<span lang="zh">川牌</span>)
 
+<!--
+
+domino card image: https://www.prm.ox.ac.uk/collections-online#/item/prm-object-65212
+
+https://www.prm.ox.ac.uk/collections-online#/item/prm-object-171321
+
+-->
+
 Those derived from paper **money**/banknotes:
 * Four-Suited money cards, of which most types are extinct:
   * Ma Diao (<span lang="zh">馬弔牌</span> <span lang="cmn-Latn-pinyin">mǎ diào pái</span>)

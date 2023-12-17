@@ -216,7 +216,6 @@ The names in the **Makassar** column have been assigned based upon comparisons w
 <span lang="mak">ᨄᨙᨔᨚ</span> <span lang="mak-Latn">peso</span>[@MakassaarschWoordenboek p. 140] ‘lame’;
 <span lang="mak">ᨅᨘᨀᨘ</span> <span lang="mak-Latn">buku</span>[@MakassaarschWoordenboek p. 148] ‘bone’;
 <span lang="mak">ᨅᨚᨈᨘᨓᨒ</span> <span lang="mak-Latn">bontuwala</span>[@MakassaarschWoordenboek p. 173] Bontoala, a place near Makassar, also the name of a type of large kris;
-<span lang="mak">ᨅᨒ</span> <span lang="mak-Latn">bala</span>[@MakassaarschWoordenboek p. 200] ‘house’;
 <span lang="mak">ᨅᨓᨗ</span> <span lang="mak-Latn">bawi</span>[@MakassaarschWoordenboek p. 221] ‘pig’;
 <span lang="mak">ᨆᨉᨘᨑ</span> <span lang="mak-Latn">mandura</span>[@MakassaarschWoordenboek p. 249] [?];
 <span lang="mak">ᨌᨄᨗ</span> <span lang="mak-Latn">capi</span>[@MakassaarschWoordenboek p. 385] ‘deformed’, also ‘cow’;
@@ -495,7 +494,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ban">ᬘᬓ᭄ᬭ</span><br/><span lang="ban-Latn">cakra</span><br />chakra</td>
 <td><span lang="ban">ᬘᬓ᭄ᬭ</span><br/><span lang="ban-Latn">cakra</span><br />chakra</td>
 <td><span lang="ban">ᬘᬓ᭄ᬭ</span><br/><span lang="ban-Latn">cakra</span><br />chakra</td>
-<td><span lang="ban">ᬘᭂᬧᭂ</span><br/><span lang="ban-Latn">cepe</span></td>
+<td><span lang="ban">ᬘᭂᬧᬾ</span><br/><span lang="ban-Latn">cepé</span></td>
 <td><span lang="ban">ᬘᬓ᭄ᬭ</span><br/><span lang="ban-Latn">cakra</span><br />chakra</td>
 <td><span lang="ban">ᬘᬓ᭄ᬭ</span><br/><span lang="ban-Latn">cakra</span><br />chakra</td>
 <!-- Lombok -->
@@ -533,7 +532,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="ban">ᬓᭀᬜ᭄ᬘᬶ</span><br/><span lang="ban-Latn">konci</span></td>
 <td><span lang="ban">ᬓᭀᬜ᭄ᬘᬶ</span><br/><span lang="ban-Latn">konci</span></td>
 <td><span lang="ban">ᬓᬶᬜ᭄ᬘᬶ</span><br/><span lang="ban-Latn">kinci (kenci KBW)</span></td>
-<td><span lang="ban">ᬓᭂᬜ᭄ᬘᬶ</span><br/><span lang="ban-Latn">kenci</span></td>
+<td><span lang="sas">ᬓᬾᬜ᭄ᬘᬶ</span><br/><span lang="sas-Latn">kènci</span></td>
 <!-- Lombok -->
 <td><span lang="sas">ᬓᬶᬜ᭄ᬘᬶ</span><br/><span lang="sas-Latn">kinci</span></td>
 <td><span lang="sas">ᬓᬾᬜ᭄ᬘᬶ</span><br/><span lang="sas-Latn">kènci</span></td>
@@ -1368,7 +1367,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">rumah</span><br/>building [temple?]</td>
 <!-- Sulawesi -->
-<td><span lang="mak"></span><br/><span lang="mak-Latn"></span><br/></td>
+<td><span lang="mak">ᨅᨒ</span><br/><span lang="mak-Latn">bala</span>[@MakassaarschWoordenboek p. 200]<br/>house [see bottom of card]</td>
 <td><span lang="id">lakban</span></td>
 <!-- Maluku -->
 <td><span lang="id">lakban</span></td>
@@ -1608,7 +1607,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="jav-Latn">cucuk buthak/manis</span></td>
 <!-- Bali -->
 <td><span lang="ban">ᬳᬸᬮᬸ</span><br/><span lang="ban-Latn">ulu</span><br />eight/upstream</td>
-<td><span lang="ban">ᬫᬤᭂᬓ᭄</span><br/><span lang="ban-Latn">madek</span></td>
+<td><span lang="ban">ᬫᬤᬾ</span><br/><span lang="ban-Latn">madé</span><br/>a ‘four-fold cord’[@SEAlangBalinese]</td>
 <td><span lang="ban">ᬳᬸᬮᬸ</span><br/><span lang="ban-Latn">ulu</span></td>
 <td><span lang="ban">ᬳᬸᬮᬸ</span><br/><span lang="ban-Latn">ulu</span></td>
 <td><span lang="ban">ᬫᬦᬶᬲ᭄</span><br/><span lang="ban-Latn">manis</span><br/>sweet</td>

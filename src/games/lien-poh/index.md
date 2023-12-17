@@ -21,3 +21,5 @@ Die (sometimes):
 寶通
 
 This is originally sourced from Matthes, so use that cite.
+
+Image in PRM: https://www.prm.ox.ac.uk/collections-online#/item/prm-object-114770

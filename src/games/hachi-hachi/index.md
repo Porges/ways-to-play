@@ -450,3 +450,9 @@ lang="ja-Latn">Kamigataya</span>.
     alt=";;;;" %}
 <span class="noun" lang="ja-Latn">Kashifuda</span> by an unknown manufacturer, in denominations of 1, 5, 25, and 100.
 {% imageEnd %}
+
+---
+
+Notes:
+
+A set in the Pitts River museum: https://www.prm.ox.ac.uk/collections-online#/item/prm-object-96895
