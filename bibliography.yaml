@@ -898,7 +898,7 @@ PopesGameOfOmbre:
   type: article-journal
   title: Pope’s Game of Ombre
   page: 262–269
-  URL: https://archive.org/details/macmillansmagaz12unkngoog
+  URL: https://archive.org/details/macmillansmagaz12unkngoog/page/262/mode/2up
   in:
     publisher: Macmillan and Co
     publisher-place: 29 & 30, Bedford Street, Convent Garden, London, England, UK
@@ -1016,9 +1016,11 @@ DragonsOfPortugal:
   type: book
   title: The Dragons of Portugal
   author:
-    - given: Sylvia
+    - &Sylvia_Mann
+      given: Sylvia
       family: Mann
-    - given: Virginia
+    - &Virginia_Wayland
+      given: Virginia
       family: Wayland
   issued:
     year: 1973
@@ -1507,8 +1509,7 @@ PlayingCardsOfTheApaches:
   type: book
   title: Playing Cards of the Apaches
   author:
-    - given: Virginia
-      family: Wayland
+    - *Virginia_Wayland
     - given: Harold
       family: Wayland
     - given: Alan
@@ -12374,7 +12375,7 @@ WitsInterpreter_2e:
   publisher: N. Brook
   publisher-place: London
   edition: 2
-  notes: Traditionally attributed to John Congrave, but see McEvilla (2017) in the bibliography. Ombre extract available <a href="http://web.archive.org/web/20071218104813/http://astro.uchicago.edu/~ruben/cards/wits_ombre_2.html">here</a>, Picket <a href="http://web.archive.org/web/20080327092342/http://astro.uchicago.edu/~ruben/cards/wits_picket.html">here</a>.
+  notes: Traditionally attributed to John Cotgrave, but see McEvilla (2017) in the bibliography. Ombre extract available <a href="http://web.archive.org/web/20071218104813/http://astro.uchicago.edu/~ruben/cards/wits_ombre_2.html">here</a>, Picket <a href="http://web.archive.org/web/20080327092342/http://astro.uchicago.edu/~ruben/cards/wits_picket.html">here</a>.
 BlackAces:
   type: article-journal
   title: 'Black Aces: Double Entendre in <cite>The Man of Mode</cite>'
@@ -12942,7 +12943,7 @@ BeggingToPitching:
     issued:
       month: 3
       year: 2013
-TarockSkat:
+TarockSkat_2:
   type: article-journal
   title: "The Tarock of the Skat Inventors Part II: The Weimar Classics and a Ludemic View on Tarock, Hombre, and Skat"
   URL: https://askalexander.org/display/68801/The+playing-card+Vol+44+Issue+3/18
@@ -12960,6 +12961,42 @@ TarockSkat:
     issued:
       month: 3
       year: 2016
+TarockSkat_1:
+  type: article-journal
+  title: "The Tarock of the Skat Inventors Part I: Grosstarock Redefined"
+  URL: https://askalexander.org/display/67969/The+playing+card/60
+  author:
+  - given: Ulf
+    family: Martin
+  page: 134-147
+  in: &IPCS_44_2
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 44
+    issue: 2
+    editor:
+    - *Peter_Endebrock
+    issued:
+      month: 12
+      year: 2015
+TarockSkat_3:
+  type: article-journal
+  title: "The Tarock of the Skat Inventors Part III: Whither Tarock Hombre?"
+  URL: https://askalexander.org/display/73969/The+playing+card/42
+  author:
+  - given: Ulf
+    family: Martin
+  page: 228-239
+  in: &IPCS_45_4
+    title: *IPCS
+    ISSN: *IPCS_SSN
+    volume: 45
+    issue: 4
+    editor:
+    - *Peter_Endebrock
+    issued:
+      month: 6
+      year: 2017
 OriginsOfEuchre:
   type: article-journal
   title: "The origins of Euchre"
@@ -13124,5 +13161,49 @@ DepaulisMacassar:
   issued: 2008
   publisher: Apenas
   publisher-place: Lisbon, Portugal
-  
-      
+AlleKarten_1:
+  type: book
+  title: <span lang="de">Alle Karten auf den Tisch</span> · All Cards on the Table
+  author:
+  - *Sylvia_Mann
+  volume: 1
+  volume-title: Text
+  publisher:
+    value: Jonas Verlag
+    lang: de
+  publisher-place: Marburg, Germany
+  issued: 1990
+  ISBN: 3922561985
+AlleKarten_2:
+  type: book
+  title: <span lang="de">Alle Karten auf den Tisch</span> · All Cards on the Table
+  author:
+  - *Sylvia_Mann
+  volume: 2
+  volume-title: Illustrations of the Catalogue-Numbers
+  publisher:
+    value: Jonas Verlag
+    lang: de
+  publisher-place: Marburg, Germany
+  issued: 1990
+  ISBN: 3922561985
+BaptisteTheatrum7:
+  type: book
+  URL: https://archive.org/details/bub_gb_Smyke7dAT0UC
+  title:
+    value: Theatrum Veritatis, et Justitiæ
+    lang: la
+  issued: 1758
+  original-date:
+    year: 1671
+  volume: 7
+  publisher-place: Napoli, Italy
+  publisher:
+    value: Typographia Lucæ Laurentii
+    lang: la
+  author:
+  - given: John Baptistæ
+    family: de Luca
+    lang: la
+    alt: Giovanni Battista de Luca
+    url: https://en.wikipedia.org/wiki/Giovanni_Battista_de_Luca
