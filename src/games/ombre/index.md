@@ -40,6 +40,25 @@ Refs: @GameOfOmbre; @PopesGameOfOmbre; @CourtGamester.
 
 @OmbreEtLumiere, @OmbreEtLumiere2, @OmbreEtLumiere3, @HombreSurvival
 
+## Omi
+
+Makassarese
+terms:
+tuwi ᨈᨘᨓᨗ - a pair [p. 349], hence patuwi (8 pair) the name of the game. patuwi also means blow away
+mata ᨆᨈ - eye, as in other languages
+tau ᨈᨕᨘ - (human) the cards called lotijiyang, lamboesoe, tjina, bawi, tikara, djobong. (i.e. the aces)
+buyang = paper
+
+Omi words:
+boelaeng bulang ᨅᨘᨒᨕᨙ - one of the suits (gold coins) of Omi [p. 220]
+basattoe basatu ᨅᨔᨈᨘ - basta [p. 229]
+kayoe kayu ᨀᨐᨘ - clubs [p. 35]
+sapada ᨔᨄᨉ - espada [p. 558]
+bulaeng ᨅᨘᨒᨕᨙ - hearts or diamonds [p. 220]
+kopasa ᨀᨚᨄᨔ - hearts [p. 9], also Buginese [p. 2]
+manila ᨆᨊᨗᨒ - manille [p. 250]
+sapadila ᨔᨄᨉᨗᨒ - spadille [p. 559]
+tunggeng ᨈᨘᨂᨙ - to go solo [p. 275]
 
 ## See Also
 

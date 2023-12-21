@@ -431,7 +431,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <!-- Borneo -->
 <td><span lang="bjn">hio</span></td>
 <!-- Sulawesi -->
-<td></td>
+<td><span lang="mak">ᨈᨕᨘ</span><br/><span lang="mak-Latn">tau</span><br/>human</td>
 <td></td>
 <!-- Maluku -->
 <td></td>
