@@ -60,7 +60,7 @@ Amongst [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (or <span lang
 
 In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and Bali, all of which have historically had a large Chinese influence. In Javanese the cards are also known as <span lang="jav-Latn">kertu cilik</span> (‘small cards’).[@JavaneseEnglish p. 365]
 
-During the colonial era, cards were manufactured in Europe by Dutch companies and exported to Indonesia. (See the [manufacturers](#manufacturers-brands) section below.)
+During the colonial era, cards were manufactured in Europe by Dutch companies and exported to Indonesia. (See the [manufacturers](#manufacturers-brands) section below.) Ceki cards were also prohibited from being imported (from European manufacturers) into some areas, such as Sulawesi, “for reasons of public safety”.[@Title39_48 p. 1013]
 
 {% image src="Kaartspelers.jpg" alt="" license="cc0" size="wide" %}
 Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps {% gameref pei %} (there are probably too many cards in the centre for it to be {% gameref thothit %}).
