@@ -25,6 +25,8 @@ The same game was reported under the name <span lang="pis">kura</span> in the So
 
 In Papua New Guinea it has been called <span lang="tpi">kawu</span> — clearly derived from the Japanese name.[@ThreeMoreNewGuineanCardGames p. 54]{%fn%}It is worth noting that in the article @ThreeMoreNewGuineanCardGames the author’s informant definitely knows more about the history of the game; it is not “almost certainly European in origin”!{%endfn%} Further versions of this game — of which there are many — are called <span lang="tpi">laki</span> (‘lucky’),[@ThreeNativeCardGames p. 50] and some variants are described below.  More extreme variations are described in their own article: {%gameref laki%}.
 
+Self Note: See the Makassar dictionary re kawu (the game) vs kuwa (the winning call). Kuwa could also mean "nine" there, and be from Hokkien?
+
 <!-- derived from a Chinese game called luk luk faat? 祿祿發 luk6 luk6 baat3 (or 路?)
 or maybe this is 668?
 luk6 luk6 faat3
