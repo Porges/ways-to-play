@@ -45,6 +45,10 @@ exports.render = async function (data) {
     <link rel="stylesheet" href="/css/index.css" type="text/css" />
     <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
     <link rel="canonical" href="${data.site.url}${data.page.url}" />
+    <link rel="preload" href="/fonts/CharisSIL-Regular.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/fonts/CharisSIL-Italic.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/fonts/CharisSIL-Bold.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/fonts/CharisSIL-BoldItalic.woff2" as="font" type="font/woff2" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="generator" content="Eleventy" />
     <meta name="theme-color" content="#000000" />
