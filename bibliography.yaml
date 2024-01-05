@@ -13222,4 +13222,30 @@ Title39_48:
       year: 1948
       month: 2
       day: 27
+LesBassoutos:
+  type: book
+  title:
+    lang: fr
+    value: Les Bassoutos ou Vingt-trois années de séjour et d’observations au sud de l’Afrique
+  author:
+  - given: Eugène
+    family: Casalis
+    lang: fr
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k852173
+  publisher:
+    value: Ch. Meyrueis et Cie
+    lang: fr
+  publisher-place: Paris
+  issued: 1859
+TheBasutos:
+  type: book
+  URL: https://archive.org/details/basutosortwentyt00casa
+  title: The Basutos; or, Twenty-Three Years in South Africa
+  author:
+  - given: Eugène
+    family: Casalis
+    lang: fr
+  issued: 1861
+  publisher: James Nisbet & Co.
+  publisher-place: London
   
