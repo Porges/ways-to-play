@@ -377,6 +377,7 @@ AdlerMagic:
   author:
     - given: Irving
       family: Adler
+      url: https://en.wikipedia.org/wiki/Irving_Adler
   issued: 1974
   original-date:
     year: 1957
@@ -7983,8 +7984,10 @@ DictionnaireHistorique6:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
   author:
-    - given: Jean-Baptiste
+    - &Jean_Baptiste
+      given: Jean-Baptiste
       family: de La Curne de Sainte-Palaye
+      url: https://en.wikipedia.org/wiki/Jean-Baptiste_de_La_Curne_de_Sainte-Palaye
   volume: 6
   volume-title: ESCI–GUY
   issued: 1879
@@ -7996,8 +7999,7 @@ DictionnaireHistorique7:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
   author:
-    - given: Jean-Baptiste
-      family: de La Curne de Sainte-Palaye
+    - *Jean_Baptiste
   volume: 7
   volume-title: H–MYT
   issued: 1880
@@ -9606,6 +9608,7 @@ EncycloBasset:
   author:
   - given: Jean le Rond
     family: d’Alembert
+    url: https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert
   translator:
   - given: Richard J.
     family: Pulskamp
@@ -9639,7 +9642,8 @@ VotariesI: &VotariesI
   type: book
   URL: https://archive.org/details/gamingtableitsvo01steiuoft
   author:
-  - given: Andrew
+  - &Andrew_Steinmetz
+    given: Andrew
     family: Steinmetz
   volume: 1
   issued: 1870
@@ -13263,3 +13267,25 @@ KoreasPastimes:
   publisher-place: Paramus, NJ, USA
   ISBN: '1931907382'
   issued: 2006
+JapanAndHerPeople:
+  type: book
+  title: Japan and Her People
+  author:
+    - *Andrew_Steinmetz
+  URL: https://archive.org/details/in.ernet.dli.2015.173287
+  publisher: Routledge, Warnes, and Routledge
+  publisher-place: London
+  issued: 1859
+JapanscheRijk:
+  type: book
+  title:
+    lang: nl
+    value: Bijdrage tot de kennis van het Japansche rijk
+  author:
+  - given: J. F.
+    family: van Overmeer Fischer
+    lang: nl
+  URL: https://archive.org/details/bijdragetotdeken00over
+  publisher: J. Müller & Comp.
+  publisher-place: Amsterdam
+  issued: 1833

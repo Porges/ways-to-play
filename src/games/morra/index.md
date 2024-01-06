@@ -30,6 +30,8 @@ Two Greek girls playing Morra, on a water-pot (<span lang="grc-Latn">hydria</spa
 
 See also: @PrimitiveCulture [p. 74]
 
+Ti in Maori? https://archive.org/details/accountofnewzeal02yate/page/112/mode/2up?q=%22game+with+their+fingers%22
+
 See: @FriendshipAndGamesItalian, @OneToZero [p. 67–70].
 
 https://www.britishmuseum.org/collection/object/P_1949-0203-263
@@ -40,6 +42,12 @@ Mentioned in @DiversChoiceRemarks [p. 266]
 Arabic: Lane says: خَرَاجِ / خراج ‘khrāj’, or خَرِيجٌ: http://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/
 
 Ge'ez: see @ComparativeGeez [p. 168]
+
+Also known in Japan[@JapanAndHerPeople p. 252]: “that game with their fingers, which has been perpetuated from classic times in Italy”. Original source for this is here: https://archive.org/details/bijdragetotdeken00over/page/202/mode/2up?q=vingers (jonko) [@JapanscheRijk p. 202–3]
+
+Some nice quotes maybe here:
+- https://archive.org/details/the-new-monthly-belle-assemblee-volume-22-january-june-1845/page/176/mode/2up?q=%22game+with+their+fingers%22
+- https://archive.org/details/newmonthlymagaz60unkngoog/page/462/mode/2up?q=%22game+with+their+fingers%22
 
 ## <span lang="yue-Latn-jyutping" class="aka">Caai¹ Mui⁴⁻²</span> (<span lang="yue" class="aka">猜枚</span>)
 
