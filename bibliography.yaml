@@ -13248,4 +13248,18 @@ TheBasutos:
   issued: 1861
   publisher: James Nisbet & Co.
   publisher-place: London
-  
+KoreasPastimes:
+  type: book
+  title: "Korea’s Pastimes and Customs: A Social History"  
+  author:
+  - given: Lee
+    family: E-Wha
+    lang: ko-Latn
+  translator:
+  - given: Ju-Hee
+    family: Park
+    lang: ko-Latn
+  publisher: Homa & Sekey Books
+  publisher-place: Paramus, NJ, USA
+  ISBN: '1931907382'
+  issued: 2006

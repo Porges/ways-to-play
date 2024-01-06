@@ -166,7 +166,8 @@ cite[lang]:lang(zh):not(:lang(zh-Latn)) {
   }
 }
 
-cite[lang]:lang(ja):not(:lang(ja-Latn)) {
+cite[lang]:lang(ja):not(:lang(ja-Latn)),
+cite[lang]:lang(ko):not(:lang(ko-Latn)) {
   font-style: inherit;
 
   &::before { content: '『' }

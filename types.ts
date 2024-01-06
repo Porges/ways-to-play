@@ -15,6 +15,7 @@ export type LicenseName
   | "cc-by-nc-nd"
   | "with-permission"
   | "us-fair-use"
+  | "terms"
 
 export type LicenseVersion = "2.0" | "2.5" | "3.0" | "4.0"
 
@@ -27,6 +28,7 @@ type CommonInfo = {
   organization?: Organization,
   licenseVersion?: LicenseVersion,
   license: LicenseName,
+  termsUrl?: string,
   hidden?: boolean, // don’t render this?
 }
 

@@ -45,6 +45,7 @@ type RawArticleImageProps = CommonArticleImageProps & {
     orgAbbr?: string,
     orgLang?: string,
     orgUrl?: string,
+    termsUrl?: string,
 };
 
 // convert from markdown-level representation to a structured one
@@ -73,6 +74,7 @@ function fromRaw(props: RawArticleImageProps): ArticleImageProps {
                 identifier: props.identifier,
                 originalUrl: props.originalUrl,
                 copyrightYear: props.copyrightYear,
+                termsUrl: props.termsUrl,
             }
             : undefined;
 
@@ -200,7 +202,7 @@ export function renderSource(source: SourceInfo, short = false) {
         + (source.license === 'cc0' ? '' : '© ')
         + ifSet(source.copyrightYear, `<span itemprop="copyrightYear">${source.copyrightYear}</span> `)
         + ((copyrightHolder && source.originalUrl) ? `<a href="${source.originalUrl}" itemprop="url">${copyrightHolder}</a>` : copyrightHolder)
-        + ifSet(source.license !== 'stock-image', () => license(source.license as any, source.licenseVersion, undefined, !!copyrightHolder))
+        + ifSet(source.license !== 'stock-image', () => license(source.license as any, source.licenseVersion, 'termsUrl' in source ? source.termsUrl : null, undefined, !!copyrightHolder))
         + ifSet(!short && source.identifier, `: <span class="image-identifier">${source.identifier}</span>`)
         + '</span>';
 }
@@ -402,11 +404,19 @@ export function person(props: PersonProps) {
         + `</span>`;
 }
 
-export function license(name: LicenseName, version: LicenseVersion | undefined, rel: string | undefined, leading: boolean | undefined) {
+export function license(name: LicenseName, version: LicenseVersion | undefined, termsUrl: string | null, rel: string | undefined, leading: boolean | undefined) {
     PropTypes.checkPropTypes(licensePropTypes, { license: name, version, rel, leading }, "props", "license");
 
     if (name === 'with-permission') {
         return `<span>${ifSet(leading, ', ')}used with permission</span>`;
+    }
+
+    if (name === 'terms') {
+        if (!termsUrl) {
+            throw "termsUrl must be provided if license=terms";
+        }
+
+        return `<span>${ifSet(leading, ', ')}used in accordance with <a href="${termsUrl}" itemprop="license">terms</a></span>`;
     }
 
     if (name === 'us-fair-use') {
@@ -438,7 +448,7 @@ export function license(name: LicenseName, version: LicenseVersion | undefined, 
 }
 
 const licensePropTypes = {
-    license: PropTypes.oneOf(["cc0", "cc-by", "cc-by-sa", "cc-by-nd", "cc-by-nc", "cc-by-nc-sa", "cc-by-nc-nd", "with-permission", "us-fair-use"]).isRequired,
+    license: PropTypes.oneOf(["cc0", "cc-by", "cc-by-sa", "cc-by-nd", "cc-by-nc", "cc-by-nc-sa", "cc-by-nc-nd", "with-permission", "us-fair-use", "terms"]).isRequired,
     version: PropTypes.oneOf(["2.0", "2.5", "3.0", "3.5", "4.0"]),
     rel: PropTypes.string,
     leading: PropTypes.bool,
