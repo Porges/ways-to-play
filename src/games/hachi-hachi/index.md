@@ -45,15 +45,9 @@ The <span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">ya
 #### <span lang="ja-Latn">Te&shy;yaku</span> &bull; <span lang="ja">手役</span> 
 
 {%aside%}
-Many traditional rulesets give the list of <span lang="ja-Latn">te&shy;yaku</span>
-in one group, with all possible combinations and their scores listed. When presented 
-in this way there are semingly 53 <span lang="ja-Latn">te&shy;yaku</span>! It is much simpler
-to remember two smaller sets of <span lang="ja-Latn">yaku</span> and to recognize that
-when scoring for two <span lang="ja-Latn">yaku</span>, the total score is simply the
-sum of each individual score.
+Many traditional rulesets give the list of <span lang="ja-Latn">te&shy;yaku</span> in one group, with all possible combinations and their scores listed. When presented in this way there are seemingly 53 <span lang="ja-Latn">te&shy;yaku</span>! It is much simpler to remember two smaller sets of <span lang="ja-Latn">yaku</span> and to recognize that when scoring for two <span lang="ja-Latn">yaku</span>, the total score is simply the sum of each individual score.
 
-However, in some extremely rare cases, I have seen rulesets where the scoring is not
-a simple linear combination. In this case, recourse to a lookup chart is required.
+However, in some extremely rare cases, I have seen rulesets where the scoring is not a simple linear combination. In this case, recourse to a lookup chart is required.
 {%endaside%}
 
 The <span lang="ja-Latn">te&shy;yaku</span> can be divided into two sets. The
@@ -62,10 +56,7 @@ set is based upon having a large number of 1-point (<span
 lang="ja-Latn">kasu</span>) cards.  A player can score one combination in each
 set; they should pick the highest-scoring combination.
 
-Note that in many ways the <span lang="ja-Latn">te&shy;yaku</span> combinations should be considered
-_compensation_ for having a hand that is hard to win with, rather than a straightforward 
-“winning combination” as in Texas Hold’em. As an example, a hand that has two pairs of three can only
-capture a maximum of three cards that are not already contained in the hand.
+Note that in many ways the <span lang="ja-Latn">te&shy;yaku</span> combinations should be considered _compensation_ for having a hand that is hard to win with, rather than a straightforward “winning combination” as in Texas Hold’em. As an example, a hand that has two pairs of three can only capture a maximum of three cards that are not already contained in the hand.
 
 Combinations based upon sets:
 
