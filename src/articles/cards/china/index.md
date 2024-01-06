@@ -69,6 +69,8 @@ domino card image: https://www.prm.ox.ac.uk/collections-online#/item/prm-object-
 
 https://www.prm.ox.ac.uk/collections-online#/item/prm-object-171321
 
+women playing: https://doi.org/10.25549/impa-m56453
+
 -->
 
 Those derived from paper **money**/banknotes:

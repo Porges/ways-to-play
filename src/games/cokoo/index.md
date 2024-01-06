@@ -10,3 +10,7 @@ Cokoo[@MandinkaEnglish p. 12][@IntermediateGambian p. 23] (also written Chokō[@
 
 
 "African checkers" https://archive.org/details/tribesofliberian0031geor/page/598/mode/2up?q=mandingo+games
+
+Might be pictured here:
+https://doi.org/10.25549/impa-m26095
+https://doi.org/10.25549/impa-m26099

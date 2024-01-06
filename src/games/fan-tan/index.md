@@ -147,3 +147,8 @@ Good quote here, notes the use of the basket: https://archive.org/details/revued
 But rather lurid!
 
 Description of the game in Philippines, with baskets: https://bdh-rd.bne.es/viewer.vm?id=0000078105&page=176
+
+image in Manchuria: https://doi.org/10.25549/impa-c123-79389
+
+photo: https://doi.org/10.25549/impa-m19568
+photo: https://doi.org/10.25549/impa-m19599
