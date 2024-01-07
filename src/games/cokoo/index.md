@@ -8,7 +8,7 @@ countries: GM
 <span lang="mnk" class="aka noun">Cokoo</span>[@MandinkaEnglish p. 12][@IntermediateGambian p. 23] (also written Chokō[@AncientCeylon p. 604] or Chukoo/Chokoo[@ChokooGameVideo]) is a game from The Gambia; the name itself seems to be <a href="https://en.wikipedia.org/wiki/Mandinka_language">Mandinkan</a>. 
 </p>
 
-Sometimes it has been referred to as “African checkers”,[@LiberianTribes fig. 100] but that name is also used to refer to other games such as those of the Mancala family.
+This game was first described in print in the early 20th century,[@AncientCeylon p. 604] and it is still played today.[@ChokooGameVideo] Sometimes it has been referred to as “African checkers”,[@LiberianTribes fig. 100] but that name is also used to refer to other games such as those of the Mancala family.
 
 <!--
 (ثُكُو?) (<span lang="ff-Adlm" class="aka noun">𞤕𞤮𞤳𞤮𞥅</span>?)
