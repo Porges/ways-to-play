@@ -69,10 +69,15 @@ https://www.youtube.com/watch?v=eKqPC19j_n0
 
 https://archive.org/details/wolofofsenegambi0000gamb/page/76/mode/2up?q=mandinka+games
 
+
+(
 also there ndal said to be very large version of  drafts?
 could be this? https://archive.org/details/ERIC_ED107644/page/n21/mode/2up?q=%22african+checkers%22
 
 or this: (azigo) https://archive.org/details/lccn_66010330/page/16/mode/2up?q=%22african+checkers%22
+)
+
+
 
 or: imeyili: https://archive.org/details/ERIC_ED045976/page/n355/mode/2up?q=%22african+checkers%22
 

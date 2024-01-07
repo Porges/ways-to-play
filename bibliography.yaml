@@ -11527,10 +11527,12 @@ LD_3:
 FalseDoorRashepses:
   type: webpage
   title: The False-Door of Rashepses from Saqqara LS 16 (QS 902)
+  container-title: Academia
   author:
   - given: Hany
     family: el Tayeb
   URL: https://www.academia.edu/41934205/The_False_Door_of_Rashepses_from_Saqqara_LS_16_QS_902_
+  issued: 2020
 SerpentBoard:
   type: article-journal
   title: A ‘Serpent’-Board from Egypt
@@ -13289,3 +13291,21 @@ JapanscheRijk:
   publisher: J. Müller & Comp.
   publisher-place: Amsterdam
   issued: 1833
+LiberianTribes:
+  type: book
+  title: Tribes of the Liberian Hinterland
+  author:
+  - given: George
+    family: Schwab
+  URL: https://archive.org/details/tribesofliberian0031geor
+  editor:
+  - given: George W.
+    family: Harley
+  publisher: Peabody Museum
+  publisher-place: Cambridge, MA, USA
+  issued: 1968
+  original-date:
+    year: 1947
+  series:
+    title: Papers of the Peabody Museum of American Archaeology and Ethnology, Harvard University
+    volume: 31
