@@ -12,7 +12,8 @@ countries: EG,IR,TR,KM,SO
 - Ottoman Turkish: <span lang="ota" class="aka">قامش اویون</span>[@TurkishEnglishLexicon p. 1423] (modern Turkish <span lang="tr" class="aka">kamış oyun</span>), ‘reed game’ {%fn%}Hyde has <span lang="ota">قمش اويني</span>.{%endfn%}
 - Comorian (Ndzuani): <span lang="wni-Arab" class="aka">ستة</span> (<span lang="wni-Latn" class="aka">sitta</span>) ‘six’
 
-
 See also: @JeuxDeParcours (many other games listed here), @HistoryOfTab, @ComputerizingTab, @ModernEgyptians [p. 317], @BedouinHeritage
 
 Called deleb in @SomaliGames [p. 508], see https://www.persee.fr/doc/ista_0000-0000_1993_act_495_1_2880
+
+The Somali children’s game <span lang="so" class="aka">imbili</span> also uses the names from this game.[@LetTheChildrenPlay p. 215]

@@ -21,3 +21,5 @@ Also ‘cunce’.[@WhatsTheBigDeal p. 668]
 From Quinze: [@GamesAndDances p. 324]
 
 In Buginese <span lang="bug">ᨀᨙᨔᨗ</span> <span lang="bug-Latn">kensi</span> [@BoegineeschWoordenboek p. 48][@Morgenlandisch_2 p. 559]
+
+Also discussed (as kunz) in @AboriginalCattleStation [p. 55-6].

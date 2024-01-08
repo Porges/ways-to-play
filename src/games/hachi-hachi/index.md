@@ -7,6 +7,7 @@ draft: true
 players:
     min: 3
     max: 8
+countries: JP
 ---
 
 {%pronounce noun=true lang="ja-Latn" word="Hachi-Hachi" file="pronunciation_ja_八八.mp3" pronouncer="mezashi" %} (<span lang="ja">八八</span>, ‘88’) is

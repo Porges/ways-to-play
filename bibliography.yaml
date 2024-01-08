@@ -13309,3 +13309,77 @@ LiberianTribes:
   series:
     title: Papers of the Peabody Museum of American Archaeology and Ethnology, Harvard University
     volume: 31
+VolofFrancais:
+  type: book
+  URL: https://archive.org/details/dictionnairevolof
+  title:
+    lang: fr
+    value: Dictionnaire Volof-Français
+  author:
+  - given: Aloys
+    family: Kobès
+    lang: fr
+  - given: Olivier
+    family: Abiven
+    lang: fr
+  edition: 2
+  publisher:
+    lang: fr
+    value: Vicariat Apostolique
+  issued: 1922
+AboriginalCattleStation:
+  type: chapter
+  title: "An Aboriginal cattle station: economy of a community in the North of Western Australia"
+  author:
+  - given: Kingsley
+    family: Palmer
+  page: 43-59
+  in: 
+    title: Small Rural Communities
+    editor:
+    - given: E. A.
+      family: Young
+    - given: E. K.
+      family: Fisk
+    issued: 1982
+    ISBN: "0909150796"
+    URL: http://hdl.handle.net/1885/210161
+    publisher: Development Studies Centre, Australian National University
+    publisher-place: Canberra, Australia
+    series:
+      title: The Aboriginal Component in the Australian Economy
+      volume: 3
+GamesOfManyNations:
+  type: book
+  title: Games of Many Nations
+  issued: 1954
+  URL: https://archive.org/details/gamesofmanynatio0000unse
+  author:
+  - given: Elvin Oscar
+    family: Harbin
+  publisher: Abingdon Press
+  publisher-place: New York, NY, USA
+LetTheChildrenPlay:
+  type: chapter
+  title: "Let The Children Play: Ethnolinguistic Notes on Somali Games"
+  author:
+  - given: Barbara
+    family: Turchetta
+  page: 207-218
+  URL: https://www.academia.edu/35117954/Let_the_children_play_ethnolinguistic_notes_on_Somali_games
+  in:
+    title: 'A Country Called Somalia: Culture, Language, and Society of a Vanishing State'
+    editor:
+    - given: Mara
+      family: Frascarelli
+    issued: 2011
+    ISBN: "9788878921788"
+    publisher: 
+      value: L’Haramattan Italia
+      lang: t
+    publisher-place: Turin, Italy
+    series:
+      title: 
+        value: Studi Somali
+        lang: it
+      volume: 14
