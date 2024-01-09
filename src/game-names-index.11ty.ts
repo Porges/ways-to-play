@@ -33,6 +33,7 @@ const nameOverrides = new Map<string, string>([
     ["gup", "Bininj Kunwok"],
     ["kew", "Kewa (West)"],
     ["kxd", "Kedayan"],
+    ["lmo", "Lombard"],
     ["mbw", "Maring"],
     ["mcm", "Malaccan Creole Portuguese"],
     ["mfa", "Pattani Malay"],

@@ -1,6 +1,6 @@
 ---
 draft: true
-title: Mancala games
+title: Mancala Games
 order: 150
 ---
 

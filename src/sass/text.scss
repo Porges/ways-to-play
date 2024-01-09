@@ -133,6 +133,11 @@ rt {
   font-variant-east-asian: ruby;
 }
 
+span[lang]:lang(el):not(:lang(el-Latn))  {
+  // Charis does not have good coverage of Greek
+  font-family: serif;
+}
+
 // Not using :is(span,cite) as that is slower to evaluate for some reason
 span[lang], cite[lang]  {
   // Use a Vietnamese-specific font, if present:

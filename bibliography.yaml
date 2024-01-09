@@ -4914,7 +4914,8 @@ LaneTab:
   title: "Arabic–English Lexicon by Edward William Lane (d. 1876): <span lang='ar'>طبن</span>"
   container-title: The Arabic Lexicon
   author:
-    - given: Ikram
+    - &Ikram_Hawramani
+      given: Ikram
       family: Hawramani
   issued:
     year: 2021
@@ -7163,7 +7164,7 @@ StudyOfGames:
 PrimitiveCulture:
   type: book
   URL: https://archive.org/details/primitiveculture01tylouoft
-  title: Primitive Culture
+  title: "Primitive Culture: Researches into the development of Mythology, Philosophy, Religion, Language, Art, and Custom"
   issued: 1920
   edition: 6
   volume: 1
@@ -13383,3 +13384,174 @@ LetTheChildrenPlay:
         value: Studi Somali
         lang: it
       volume: 14
+LaneMorra:
+  type: webpage
+  title: "Arabic–English Lexicon by Edward William Lane (d. 1876): <span lang='ar'>خرج</span>"
+  container-title: The Arabic Lexicon
+  URL: http://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/#f01499
+  archive-URL: https://web.archive.org/web/20240109002154/http://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/#f01499
+  author:
+  - *Ikram_Hawramani
+  issued: 2021
+AccountOfNewZealand:
+  type: book
+  title: An Account of New Zealand
+  author:
+  - given: William
+    family: Yate
+  edition: 2
+  publisher: R. B. Seeley and W. Burnside
+  publisher-place: London
+  issued: 1835
+  URL: https://archive.org/details/accountofnewzeal02yate
+JanuaLinguarum1641:
+  type: book
+  URL: https://archive.org/details/bim_early-english-books-1641-1700_janua-linguarum-reserata_comenius-johann-amos_1641/
+  title:
+    value: Janua Linguarum Reserata
+    lang: la
+  author:
+  - given: J. A.
+    family: Comenio
+    alt: John Amos Comenius
+  translator:
+  - given: Thomas
+    family: Horn
+  editor:
+  - given: John
+    family: Robotham
+  edition: 5
+  publisher: R. Young
+  issued: 1641
+  publisher-place: London
+IanvaAvreaReserata1676:
+  type: book
+  URL: https://books.google.co.nz/books?id=VT-717AalgcC
+  title:
+    value: Ianva Avrea Reserata Qvatvor Lingvarvm, Sive compendiosa Methodvs Latinam, Germanicam, Gallicam & Italicam
+    lang: la
+  issued: 1676
+  publisher-place: Geneva, Switzerland
+  publisher:
+    value: Samvelem de Tovrnes
+    lang: la
+    alt: Samuel de Tournes
+  author:
+  - given: I. A.
+    family: Comenii
+    alt: John Amos Comenius
+IanvaAvreaReserata1644:
+  type: book
+  title:
+    value: Ianva Avrea Reserata Qvatvor Lingvarvm, Sive compendiosa Methodvs Latinam, Germanicam, Gallicam & Italicam
+    lang: la
+  issued: 1644
+  edition: 2
+  author:
+  - given: I. A.
+    family: Comenii
+    alt: John Amos Comenius
+  translator:
+  - given: Nathanaele
+    family: Dhuëz
+  publisher:
+    value: Elseviriorum
+    lang: la
+  publisher-place: Leyden, Netherlands
+  notes: First edition was published in 1640.
+  URL: https://archive.org/details/bub_gb_SMnuDALynl4C
+JanuaLinguarum1661:
+  type: book
+  title:
+    value: Janua Linguarum Reserata Quinque-Linguis, Sinve compendiosa Methodus Latinam, Gallicam, Italicam, Hispanicam & Germanicam
+    lang: la
+  issued: 1661
+  edition: 3
+  author:
+  - given: J. A.
+    family: Comenii
+    alt: John Amos Comenius
+  translator:
+  - given: Nathanaele
+    family: Duesio
+  publisher:
+    value: Ludovicum & Danielem Elzevirios
+    lang: la
+  publisher-place: Amsterdam, Netherlands
+  URL: https://books.google.co.nz/books?id=Hy9QAAAAcAAJ
+IanvaLingvarvm1638:
+  type: book
+  title:
+    value: 'Ianva Lingvarvm Reserata Avrea; Sive Seminarivm Linvarvm & Scientiarum omnium: Hoc est Compoendiosa Latinam (& quamlibet aliam) Linguam'
+    lang: la
+  URL: https://books.google.co.nz/books?id=64ZQAAAAcAAJ
+  author:
+  - given: I. A.
+    family: Comenii
+    alt: John Amos Comenius
+  issued: 1638
+  publisher:
+    value: Ioannem Ianssonium
+    lang: la
+    alt: Joannem Janssonium
+  publisher-place: Amsterdam, Netherlands 
+  notes: Called “last edition” on the title page.
+TaylorComenius:
+  type: book
+  title:
+    value: 'Janua Lingvarum Reserata […]'
+    lang: la
+  author:
+  - given: J. A.
+    family: Comenii
+    alt: John Amos Comenius
+  URL: https://editions.mml.ox.ac.uk/editions/comenius/
+  issued:
+    year: 1662
+    circa: true
+  publisher-place: Hanau, Germany
+  notes: More about this book can be read <a href="https://historyofthebook.mml.ox.ac.uk/2020/02/13/in-pursuit-of-an-apostle-comenius-the-janua-and-an-unicum/">here</a>.
+IanvaAvrea1649:
+  type: book
+  URL: https://books.google.co.nz/books?id=WmhcAAAAcAAJ
+  title:
+    value: 'Ianva Avrea Lingvarvm, Et auctior & emendatior, quàm unquam antehac, cum adjuncta Græca versione'
+    lang: la
+  author:
+  - given: I. A.
+    family: Comenii
+    alt: John Amos Comenius
+  translator:
+  - given: Theodoro Simonio
+    family: Holsato
+  publisher:
+    value: Ludovicum Elzevirium
+    lang: la
+  publisher-place: Amsterdam, Netherlands
+  issued: 1649
+IanvaLingvarvm1617:
+  type: book
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_janua-linguarum-quadril_janua_1617
+  title: '<span lang="la">Ianva Lingvarvm, Qvadrilingvis</span>. Or A Messe of Tongves: Latine, English, French, and Spanish. Nearly served up together, for a wholesome repast, to the worthy curiositie of the studious.'
+  publisher-place: London
+  publisher: Matthæi Lownes
+  issued: 1617
+  editor:
+  - given: Jean
+    family: Barbier
+WilliamBathe:
+  type: book
+  title: "William Bathe, S.J., 1564–1614: A pioneer in linguistics"
+  author:
+  - given: Seán P.
+    family: Ó Mathúna
+  URL: https://doi.org/10.1075/sihols.37
+  publisher: John Benjamins Publishing Company
+  publisher-place: Amsterdam/Philadelphia
+  issued: 1986
+  ISBN: '9027245207'
+  series:
+    title: Studies in the History of the Language Sciences
+    volume: 37
+  
+  

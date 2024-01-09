@@ -3,7 +3,7 @@ title: Morra
 titleLang: it
 players: 2
 draft: true
-countries: IT
+countries: IT,FR,DE
 hero:
     image: morra.jpg
     license: cc0
@@ -16,11 +16,20 @@ subgames:
   originalTitle: 猜枚
 ---
 
-In English, this game is usually known by its Italian name of “<span class="aka" lang="it">morra</span>”.[@MacedonianFolklore p. 297] In Latin it was known as <span lang="la" class="aka">micatio</span>[@StudyOfGames p.  65] or <span lang="la" class="aka">micare digitis</span>.[@IlGiuocoDellaMorra]
+<p class="lead">
+This is a finger-guessing game which English is usually known by its Italian name of “<span class="aka" lang="it">morra</span>”.[@MacedonianFolklore p. 297] However, it has been around for a long time and very similar games are played in many countries throughout the world; in Latin it was known as <span lang="la" class="aka">micatio</span>[@StudyOfGames p.  65] or <span lang="la" class="aka">micare digitis</span>.[@IlGiuocoDellaMorra]
+</p>
 
 In Ancient Greek it was called ‘finger crossing’ (<span lang="el-polyton" class="aka">ἡ ἐπάλλαξις τῶν δακτύλων</span> <span lang="el-Latn-polyton" class="aka">hē epállaxis tôn daktúlōn</span>, or <span lang="el-polyton" class="aka">δακτύλων ἐπάλλαξις</span> <span lang="el-Latn-polyton" class="aka">daktúlōn epállaxis</span>).[@AtlasClassicalAntiquities p. 151] In this time it was usually played with a rod or wand, which was held with the left hand. In modern Greek it is called <span lang="el" class="aka">μόρρα</span>, after the Italian name.
 
 In French it is called <span lang="fr" class="aka">mourre</span>. In German it was once called <span lang="de" class="aka">Munke</span>,[@IuKiaoLi p. 285] although it is now known as <span lang="de" class="aka">Mora</span> or <span lang="de" class="aka">Morra</span> after the Italian.
+
+In Italy to play the game was <span lang="it">givocare alla mora</span>
+In Lombardy it was called <span lang="lmo" class="aka">buttàre al tocco</span>.[@GameOfMicatioDigitorum p. 509]
+
+## Play
+
+To play the game, both players stand facing each other. They simultaneously raise their hands with 0–5 fingers showing, and call out the **total** number of fingers that they think will be showing. If they get this correct, they are the winner.
 
 see correspondence [@GameOfMicatioDigitorum] [@MicatioDigitorumLetter][@MicatioDigitorumDescribed] (some of which is about {% gameref buck-buck %})
 
@@ -30,7 +39,7 @@ Two Greek girls playing Morra, on a water-pot (<span lang="grc-Latn">hydria</spa
 
 See also: @PrimitiveCulture [p. 74]
 
-Ti in Maori? https://archive.org/details/accountofnewzeal02yate/page/112/mode/2up?q=%22game+with+their+fingers%22
+Ti in Maori? [@AccountOfNewZealand 113]
 
 See: @FriendshipAndGamesItalian, @OneToZero [p. 67–70].
 
@@ -39,7 +48,8 @@ https://www.britishmuseum.org/collection/object/P_1865-0610-1320
 
 Mentioned in @DiversChoiceRemarks [p. 266]
 
-Arabic: Lane says: خَرَاجِ / خراج ‘khrāj’, or خَرِيجٌ: http://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/
+Arabic: Lane says: خَرَاجِ / خراج ‘khrāj’, or <span lang="ar" class="aka">خَرِيجٌ</span> (<span lang="ar-Latn" class="aka">kharij</span>)
+@LaneMorra
 
 Ge'ez: see @ComparativeGeez [p. 168]
 
@@ -51,7 +61,7 @@ Some nice quotes maybe here:
 
 ## <span lang="yue-Latn-jyutping" class="aka">Caai¹ Mui⁴⁻²</span> (<span lang="yue" class="aka">猜枚</span>)
 
-Called <span lang="yue" class="aka">猜枚</span>[@TipcatAndOtherChineseGames] <span lang="yue-Latn-jyutping" class="aka">caai¹ mui⁴⁻²</span>{%fn%}In very old works this is represented as <span lang="yue-Latn" class="aka">Tsoey-Moey</span>[@MicatioDigitorumDescribed], <span lang="yue-Latn" class="aka">Tsae Mei</span>,[@IuKiaoLi p. 284] or <span lang="yue-Latn" class="aka">chái-múí</span>.[@ThingsChinese p. 296]{%endfn%} ‘guess the count’, <span lang="yue" class="aka">猜碼</span>[@AFunSouthernChineseGame] <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span> ‘guess the number’, or <span lang="yue" class="aka">猜拳</span>[@TonicDictionary p. 191] <span lang="yue-Latn-jyutping" class="aka">caai¹ kyun⁴</span> ‘guess the fist’ in Cantonese. A variant using two hands where a hand can only be open or shut is also called “15,20”, or “15,15,…” <span lang="zh" class="aka">十五二十</span>, and the player must guess correctly twice.[@ShiwuShiwu]
+This is a game which is known as <span lang="zh" class="aka">猜枚</span>[@TipcatAndOtherChineseGames] (Cantonese: <span lang="yue-Latn-jyutping" class="aka">caai¹ mui⁴⁻²</span>; Hokkien: <span lang="nan-Latn" class="aka">chhai mûi</span>; Mandarin: <span lang="cmn-Latn-pinyin" class="aka">cāi méi</span>) ‘guess the count’,{%fn%}In very old works this is represented as <span lang="yue-Latn" class="aka">Tsoey-Moey</span>[@MicatioDigitorumDescribed], <span lang="yue-Latn" class="aka">Tsae Mei</span>,[@IuKiaoLi p. 284] or <span lang="yue-Latn" class="aka">chái-múí</span>.[@ThingsChinese p. 296]{%endfn%} <span lang="yue" class="aka">猜碼</span>[@AFunSouthernChineseGame] (Cantonese: <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span>) ‘guess the number’, or <span lang="zh" class="aka">猜拳</span>[@TonicDictionary p. 191] (Cantonese: <span lang="yue-Latn-jyutping" class="aka">caai¹ kyun⁴</span>; Hokkien: <span lang="nan-Latn" class="aka">chhai kûn</span>; Mandarin: <span class="aka" lang="cmn-Latn-pinyin">cāi quán</span>) ‘guess the fist’. A variant using two hands where a hand can only be open or shut is also called “15, 20” <span lang="zh" class="aka">十五二十</span>, or “15, 15, …” , and the player must guess correctly twice.[@ShiwuShiwu]
 
 On the 5th of April, 1872, the Nuisances Ordinance of Hong Kong (No. 2 of 1872) placed restrictions upon the game:{%fn%}This was later integrated as part of the Summary Offences Ordinance.[@LawAndRacism p. 248][@SummaryOffencesHongKong]{%endfn%}
 

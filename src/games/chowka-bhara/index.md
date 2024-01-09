@@ -35,4 +35,6 @@ http://kreedaakaushalya.blogspot.com/2008/05/chauka-bara.html
 
 I think Liubo will turn out to be similar to this. See also: https://www.youtube.com/watch?v=3tXvSgiwkvI
 
+Compare also to <span lang="so" class="aka">tammàn</span>, @SomaliGames [510–1]. Tamman/taman/toban means “ten” in Eritrea (Saho)/Nandi (Kalenjin)/Somali. https://www.jstor.org/stable/41715683, but here it comes from Arabic for 8.
+
 Also known in Malaysia (Penang) as Main Pacheh (from pacheesi?).[@MalayIndoor]
