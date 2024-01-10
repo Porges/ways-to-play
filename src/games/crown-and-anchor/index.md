@@ -124,7 +124,7 @@ An image from the patent for the game “Stars and Stripes”.
 {% imageEnd %}
 
 The game has also at times been called “bubble and buck”,[@BubbleBuck1911]
-“bumble and buck”,[@APrivateInTheGuards" p. 189] “diddlum
+“bumble and buck”,[@APrivateInTheGuards p. 189] “diddlum
 buck”[@SmallerSlangDictionary p. 44]  or “toodlum buck(s)”.{%fn%}This name was
 also used in Australia to refer to a children’s game played with a teetotum;
 perhaps the version on sale here is Crown & Anchor played with a
