@@ -1035,7 +1035,7 @@ RiichiBook1:
       family: Chiba
   issued:
     year: 2016
-  URL: http://riichi.dynaman.net/
+  URL: https://dainachiba.github.io/RiichiBooks/
 HanamiHanafuda:
   type: book
   title: Hanafuda Games
