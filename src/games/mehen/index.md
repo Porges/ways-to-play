@@ -1,9 +1,11 @@
 ---
 title: Mehen
 draft: true
-originalTitle: <img src="/small-images/mehen.svg" alt="𓅓𓐱𓎛𓐰𓈖𓏌" class="inline-img" lang="egy" />
+originalTitle: <span lang="egy">𓅓𓐱𓎛𓐰𓈖𓏌</span>
 countries: EG
 ---
+
+<span lang="egy-Latn" class="aka noun">Mehen</span> (<span lang="egy" class="aka">𓅓𓐱𓎛𓐰𓈖𓏌</span>)…
 
 NB: despite the image of Rashepses tomb by Lepsius {include this from senet
 article} looking like they are placing balls, they are apparently placing

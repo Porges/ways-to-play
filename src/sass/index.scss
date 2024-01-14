@@ -90,9 +90,17 @@
 }
 @font-face {
     font-family: 'Balinese';
+    // TODO: this should probably be Noto Serif Balinese
     src: local('Noto Sans Balinese'), serif;
     unicode-range: U+1b00-1b7f;
 }
+@font-face {
+    font-family: EgyptianText;
+    font-display: swap;
+	src: url('/fonts/EgyptianText.woff2') format('woff2'),
+        url('/fonts/EgyptianText.woff') format('woff');
+}
+
 
 $font-family-sans-serif:
     CharisSILW,

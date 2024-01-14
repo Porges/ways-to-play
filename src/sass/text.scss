@@ -160,6 +160,11 @@ span[lang], cite[lang]  {
   }
 }
 
+/* Ancient Egyptian - this is a special quadrat-supporting font */
+span[lang]:lang(egy):not(:lang(egy-Latn)) {
+  font-family: EgyptianText, "Egyptian Text", serif;
+}
+
 /* Work titles in non-Latin languages should be upright, not italic: */
 cite[lang]:lang(zh):not(:lang(zh-Latn)) {
   font-style: inherit;
