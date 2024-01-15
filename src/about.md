@@ -119,7 +119,7 @@ The playing-card font is a custom one that is based upon Chris Aguilar’s open 
 
 [Noto Naksh](https://fonts.google.com/noto/specimen/Noto+Naskh+Arabic) is used for Arabic and Persian and other related scripts. [Noto Sans Balinese](https://fonts.google.com/noto/specimen/Noto+Sans+Balinese) is used for Balinese script. Both are licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL). 
 
-For Ancient Egyptian, Microsoft’s [Egyptian font](https://github.com/microsoft/font-tools/blob/main/EgyptianOpenType/eot.md) with quadrat support is used. It is licensed under the [SIL Open Font License 1.1](https://github.com/microsoft/font-tools/blob/main/EgyptianOpenType/font/LICENSE.txt).
+For Ancient Egyptian, Microsoft’s [Egyptian OpenType font](https://github.com/microsoft/font-tools/blob/main/EgyptianOpenType/eot.md) with quadrat support is used. It is licensed under the [SIL Open Font License 1.1](https://github.com/microsoft/font-tools/blob/main/EgyptianOpenType/font/LICENSE.txt).
 
 The chess-piece font is [NKS30 by Umihotaru](https://booth.pm/ja/items/1949217).  It is a commercial font.
 
