@@ -97,14 +97,7 @@ The game being played here seems to be one that has “rooster” (<span lang="j
 
 ## The Deck
 
-The cards run {% cards '1–9' %} in three suits, and there are three ‘honour
-cards’, giving 30 different cards. Each deck, or <span lang="ms">kepala</span>
-(literally ‘head’, Javanese <span lang="jav">ꦏꦥꦭ</span> <span
-lang="jav-Latn">kapala</span>), contains two copies of each card, giving 60
-total. In Banyuwangi it is called a <span lang="jav">ꦫꦚ꧀ꦕꦏ꧀</span> <span
-lang="jav-Latn">rancak</span> ‘piece of wood’ or ‘set of
-instruments’.[@JavaanseKaartspelen p. 74] Many Ceki games require multiple <span
-lang="ms">kepala</span> to play, often two sets (giving 120 cards).
+The cards run {% cards '1–9' %} in three suits, and there are three ‘honour cards’, giving 30 different cards. Each deck, or <span lang="ms">kepala</span> (literally ‘head’, Javanese <span lang="jav">ꦏꦥꦭ</span> <span lang="jav-Latn">kapala</span>), contains two copies of each card, giving 60 total. In Banyuwangi it is called a <span lang="jav">ꦫꦚ꧀ꦕꦏ꧀</span> <span lang="jav-Latn">rancak</span> ‘piece of wood’ or ‘set of instruments’.[@JavaanseKaartspelen p. 74] In Thai a deck is called a <span lang="th">สํารับ</span> <span lang="th-Latn">sam&shy;rap</span> (literally ‘condiment tray’). Many Ceki games require multiple <span lang="ms">kepala</span> to play, often two sets (giving 120 cards).
 
 The three suits have various names.[@ChikiCards p. 119] ‘Coins’, ‘strings’, and
 ‘myriads’ are the terms I use for consistency across different types of

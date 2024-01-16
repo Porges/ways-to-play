@@ -31,13 +31,17 @@ money-suited cards (120 cards total, four copies of each card). Any style of
 card will work.
 
 In Thailand playing cards are produced by government monopoly, so all decks are
-the same.
+the same. Under the Gambling Act of 1935, the game may not be played for money without explicit permission.[@PaiPong]
 
 {% image src="thai_money_cards.jpg" alt="" noborder=true %}
 Thai-style government-printed money cards.
 {%imageEnd%}
 
 ### Setup & Play
+
+{%aside%}
+Videos of the game being played can be found on [TikTok](https://www.tiktok.com/@greathitz/video/6830362440400702722).
+{%endaside%}
 
 Shuffle the cards, and deal six cards to all players, then a second round of six
 cards to the starting player and five cards to all others, so that the starting
@@ -49,7 +53,7 @@ next player in an anti-clockwise direction.
 On a player’s turn they draw one card, and then — unless they have won the
 game by completing their hand — they discard one. 
 
-The goal of the game is to form a complete hand of 12 tiles, comprising four sets of three. A set is called a **<span lang="th-Latn">tong</span>** (<span lang="th">ตอง</span>), and comprises three cards of the same rank.{%fn%}This term — possibly derived from the Chinese <span lang="zh">同</span> (Hokkien: <span lang="nan-Latn">tông</span>; Teochew: <span lang="tws-Latn">tong⁵</span> Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>; Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.{%endfn%} For the purposes of forming sets, all the honour cards are considered to be of the same rank, so a set can be made of three different honour cards.
+The goal of the game is to form a complete hand of 12 tiles, comprising four sets of three. A set of three cards of the same rank is called a **<span lang="th-Latn">tong</span>** (<span lang="th">ตอง</span>),{%fn%}This term — possibly derived from the Chinese <span lang="zh">同</span> (Hokkien: <span lang="nan-Latn">tông</span>; Teochew: <span lang="tws-Latn">tong⁵</span> Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>; Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.{%endfn%} and a set of three different cards is called a **<span lang="th-Latn">siian</span>** (<span lang="th">เศียร</span>, ‘head’). For the purposes of forming sets, all the honour cards are considered to be of the same rank, so a set can be made of three different honour cards.
 
 Instead of taking from the draw pile, a player may also take the previous
 player’s discard, if they can form a <span lang="th-Latn">tong</span> using it.
@@ -64,8 +68,34 @@ lang="th">กิน</span>, meaning ‘to eat’).
 
 ### Scoring
 
-The Thai game seems to have multiple scoring combinations and I have not yet been
-able to find or get a good translation for them.
+The Thai game seems to have multiple scoring combinations and I have not yet been able to find or get a good translation for them.
+
+<!--
+
+* ถลก ‘scalp’ (฿4): to self-draw the winning card into a tong?
+* กินเศียร ‘eat the head’ (฿4): to self-draw the winning card into a head?
+
+* 3 ตองกินเศียร ‘3 tongs eat the head’ or เขียวเปรี้ยว ‘sour greens’ (฿4)
+* 3 เศียรกินตอง ‘3 heads eat the tong’ or เขียวหวาน ‘sweet greens’ (฿4)
+
+* เก็งตรง ‘straight guess’ (฿8): waiting on either a tong or pair+1 to finish?
+* เก็งข้าง ‘side guess’ (฿4): unsure of difference between this and the previous
+
+* สี่ดองมืด ‘concealed (dark) 4 tong’ (฿16)
+* สี่ตองผ่อง ‘open (bright) 4 tong’ (฿8)
+
+* unsure of next one ??? (฿4, 8, 12, 16, 20, 24)
+
+* สามดับ ‘three out’ (฿12): three of one rank and eight of another rank, winning on a ninth
+* สามแดง ‘three reds’ (฿40): three of one rank and eight red-stamped cards of the same rank, winning on a ninth
+
+* ช่องขาว ‘white slot’ (฿40): no joker, waiting for something
+* ทุบขาว ‘beat white’ (฿16): no joker, not sure of difference to previous
+
+* พวกเดียวกันทั้งมือ ‘all friends hand’ (฿30): four identical heads
+* เอี่ยวทั้งมือ ‘all involved hand’ (฿20): all cards are the same rank
+
+-->
 
 ## Pong
 
