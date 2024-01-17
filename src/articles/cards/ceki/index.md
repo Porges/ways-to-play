@@ -20,6 +20,8 @@ The cards might also have been referred to in the past in Malay as <span lang="m
 
 Games that used these type of cards were originally played throughout the Malaysian Archipelago. They are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity p. 555]
 
+Although these type of cards are not referred to in Thailand as “ceki” cards, I include them in the discussion below for comparison.
+
 {% image src="../../../maps/Ceki.svg" alt="" %}
 Countries where Ceki cards are used.
 {% imageEnd %}
@@ -107,19 +109,29 @@ money-suited cards.
 <dt>Coins</dt>
 <dd>
 
-<span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’)
+<span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’);
+
+in Thai, <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> ‘vegetable’.
 
 </dd>
 <dt>Strings</dt>
 <dd>
 
-<span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’)<br/>in Java, <span lang="jav-Latn">lintrik</span> (<span lang="jav">ꦭꦶꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?)[@JavanischeKartenspiele]
+<span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’);
+
+in Java, <span lang="jav-Latn">lintrik</span> (<span lang="jav">ꦭꦶꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?);[@JavanischeKartenspiele]
+
+in Thai, <span lang="th">นก</span> <span lang="th-Latn">nok</span> ‘birds’.[@PaiPhong1967 28]
 
 </dd>
 <dt>Myriads (Numbers)</dt>
 <dd>
 
-<span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’) <br/>in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span> ‘people’)[@JavanischeKartenspiele]
+<span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’);
+
+in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span> ‘people’);[@JavanischeKartenspiele]
+
+in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘people’.
 
 </dd>
 </dl>
@@ -201,7 +213,7 @@ you help with this? Contact me!{%endfn%}) are closer in style to the #1 deck.
 
 Each card in the deck has its own name as listed in the table below.  The translations in the table are mostly from the [SEAlang](http://sealang.net) dictionaries; any mistakes are my own.{%fn%}According to some sources, the word “<span lang="jav-Latn">cina</span>” referring to a Chinese person is now considered a potentially derogatory term. For example, the Indonesian government no longer uses it in official communications, since the term was dropped from official usage by presidential decree in 2014.[@CinaOrTionghua]{%endfn%} In Malaysia/Singapore the names are based on the Hokkien names of the cards — a combination of suit and rank — but as we move in a south-easterly direction along the Malay Archipelago (the table below is listed roughly in this order), the names diverge further and further from this original source, and most cards have nicknames that are based upon their appearance rather than their numeric value.
 
-The names in the **Makassar** column have been assigned based upon comparisons with the other names given; the source does not show which card maps to which. I have not been able to figure out a satisfactory assignment for the following names: 
+The names in the **Makassar** column have been assigned based upon comparisons with the other names given; the source — being a dictionary — does not show which card maps to which name. I have not been able to figure out a satisfactory assignment for the following names: 
 <span lang="mak">ᨁᨚᨌᨗ</span> <span lang="mak-Latn">goncing</span>[@MakassaarschWoordenboek p. 76] ‘scissors’;
 <span lang="mak">ᨁᨑᨗᨁᨗ</span> <span lang="mak-Latn">garigi</span>[@MakassaarschWoordenboek p. 79] [?];
 <span lang="mak">ᨄᨄ</span> <span lang="mak-Latn">pampang</span>[@MakassaarschWoordenboek p. 98] ‘across’;
@@ -264,6 +276,7 @@ section of the table is much more imprecise than the previous lines.
 <thead>
   <tr>
     <th class="text-center sticky-left border-end bg-white at-least-150-px"></th>
+    <th>Thailand</th>
     <th colspan="3">Malaysia/Singapore</th>
     <th>Sumatra</th>
     <th colspan="7">Java</th>
@@ -276,6 +289,7 @@ section of the table is much more imprecise than the previous lines.
   </tr>
   <tr>
     <th class="text-center sticky-left border-end table-light">Cards</th>
+    <th>(1967)[@PaiPhong1967]</th>
     <th>General</th>
     <th>Malacca (Kristang)<br/>(1972)[@ChaquiAndPartui]
     <th>Malacca (Kristang)<br/>(2012)[@HowToPlayChiki]
@@ -398,7 +412,8 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Honour & Rank 1</th>
-<td><span lang="ms">yu</span> or <span lang="ms">yeo</span>, from Hokkien <span lang="nan-Latn">io</span> <span lang="nan">幺</span>, ‘ace’</td>
+<td><span lang="th">เอี่ยว</span> <span lang="th-Latn">iao</span>, from Hokkien/Teochew <span lang="nan">幺</span> <span lang="nan-Latn">io</span>/<span lang="tws-Latn">iao¹</span>, ‘ace’</td>
+<td><span lang="ms">yu</span> or <span lang="ms">yeo</span>, from Hokkien/Teochew</td>
 <td><span lang="mcm">cartas fortes</span><br/>‘strong cards’, for the first three</td>
 <td><span lang="mcm">yoh</span></br>(Hokkien <span lang="nan-Latn">io</span>)</td>
 <td><span lang="min">hiu/iyu</span> ‘shark’, looks like a fin</td>
@@ -434,6 +449,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DOT.jpg;KOT.jpg;OOT.jpg;NOT.jpg;COT.jpg" alt=";;;;" %}Old Thousand{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เอี่ยวพญา</span><br/><span lang="th-Latn">iao phaya</span><br/>king ace<br/><br/><span lang="th">เอี่ยวแดงพญา</span><br/><span lang="th-Latn">iao daeng phaya</span><br/>red king ace<br/><br/><span lang="th">เอี่ยวโต้ง</span><br/><span lang="th-Latn">iao tong</span><br/>large ace</td>
+<!-- M/S -->
 <td><span lang="ms">yu lau chian</span>, from Hokkien <span lang="nan">老千</span> ‘old thousand’<br/>or <span lang="ms">yu pinding</span></td>
 <td><span lang="mcm">yo sekarat, yo mitadi</span><br/>candlenut, one half</td>
 <td><span lang="mcm">obu</span><br/>egg</td>
@@ -470,6 +488,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DWF.jpg;KWF.jpg;OWF.jpg;NWF.jpg;CWF.jpg" alt=";;;;" %}White Flower{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เอี่ยวชี</span><br/><span lang="th-Latn">iao chi</span><br/>nun ace</td>
+<!-- M/S -->
 <td><span lang="ms">yu kuching</span><br />cat ace</td>
 <td><span lang="mcm">yo feme</span><br/>one woman</td>
 <td><span lang="mcm">femi/fula</span><br/>woman/vagina</td>
@@ -506,6 +527,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DRF.jpg;KRF.jpg;ORF.jpg;NRF.jpg;CRF.jpg" alt=";;;;" %}Red Flower{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เอี่ยวแดงนาง</span><br/><span lang="th-Latn">iao daeng nang</span><br/>red lady ace<br/><br/><span lang="th">เอี่ยวนาง</span><br/><span lang="th-Latn">iao nang</span><br/>lady ace</td>
+<!-- M/S -->
 <td><span lang="ms">yu nyonya</span><br />(娘仔?) ace</td>
 <td><span lang="mcm">yo fogu</span><br/>one fire</td>
 <td><span lang="mcm">sekeras</span><br/>candlenut</td>
@@ -542,6 +566,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC1.jpg;KC1.jpg;OC1.jpg;NC1.jpg;CC1.jpg" alt=";;;;" %}1 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เอี่ยวเกือก</span><br/><span lang="th-Latn">iao kueak</span><br/>shoe ace<br/><br/><span lang="th">เอี่ยวรอง</span><br/><span lang="th-Latn">iao rong</span><br/>secondary ace</td>
+<!-- M/S -->
 <td><span lang="ms">yu kasut</span><br />slipper ace (looks like a Nyonya slipper)</td>
 <td><span lang="mcm">sapatu</span><br/>shoe</td>
 <td><span lang="mcm">sapatu</span><br/>shoe</td>
@@ -578,6 +605,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS1.jpg;KS1.jpg;OS1.jpg;NS1.jpg;CS1.jpg" alt=";;;;" %}1 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เอี่ยวยาว</span><br/><span lang="th-Latn">iao yao</span><br/> long ace<br/><br/><span lang="th">เอี่ยวเข็ม</span><br/><span lang="th-Latn">iao khem</span><br/>needle ace</td>
+<!-- M/S -->
 <td><span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span><br />long or bird ace. In Indonesian, bird is also slang for penis.[@IndonesianIdioms p. 62]</td>
 <td><span lang="mcm">pau</span><br/>club</td>
 <td><span lang="mcm">pau</span><br/>club</td>
@@ -614,6 +644,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM1.jpg;KM1.jpg;OM1.jpg;NM1.jpg;CM1.jpg" alt=";;;;" %}1 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เอี่ยวหนู</span><br/><span lang="th-Latn">iao nu</span><br/>mouse ace (the symbol looks like a mouse’s tail)</td>
+<!-- M/S -->
 <td><span lang="ms">yu hue sio</span><br />from Hokkien ‘monk’ <span lang="nan">和尚</span></td>
 <td><span lang="mcm">China/ladrán</span><br/>China/thief</td>
 <td><span lang="mcm">China</span><br/>China</td>
@@ -650,6 +683,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 2</th>
+<!-- Thai -->
+<td><span lang="th">สอง</span><br/><span lang="th-Latn">song</span><br/>two</td>
+<!-- M/S -->
 <td><span lang="ms">ji</span><br/>(Hokkien jī)</td>
 <td>—</td>
 <td><span lang="mcm">gee</span><br/>(Hokkien jī)</td>
@@ -686,6 +722,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC2.jpg;KC2.jpg;OC2.jpg;NC2.jpg;CC2.jpg" alt=";;;;" %}2 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สองตา</span><br/><span lang="th-Latn">song ta</span><br/>eyes two<br/><br/><span lang="th">สองตาโต</span><br/><span lang="th-Latn">song ta to</span><br/>shocked two</td>
+<!-- M/S -->
 <td><span lang="ms">ji hitam</span> or <span lang="ms">ji bulat</span><br />black or round two</td>
 <td><span lang="mcm">bola</span><br/>ball</td>
 <td><span lang="mcm">bola</span><br/>ball</td>
@@ -722,6 +761,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS2.jpg;KS2.jpg;OS2.jpg;NS2.jpg;CS2.jpg" alt=";;;;" %}2 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สององคต</span><br/><span lang="th-Latn">song (ongkot?)</span><br/>two <a href="https://en.wikipedia.org/wiki/Angada">Angada</a> (a legendary monkey with an immovable leg)</td>
+<!-- M/S -->
 <td><span lang="ms">ji burung</span><br />bird two</td>
 <td><span lang="mcm">beechu</span><br/>worm</td>
 <td><span lang="mcm">bicu, geli-geli</span><br/>caterpillar, worm</td>
@@ -758,6 +800,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM2.jpg;KM2.jpg;OM2.jpg;NM2.jpg;CM2.jpg" alt=";;;;" %}2 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สองคน</span><br/><span lang="th-Latn">song khon</span><br/>two people</td>
+<!-- M/S -->
 <td><span lang="ms">ji ban</span><br /></td>
 <td><span lang="mcm">noiba</span><br/>bride</td>
 <td><span lang="mcm">noiba</span><br/>bride</td>
@@ -794,6 +839,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 3</th>
+<!-- Thai -->
+<td><span lang="th">สาม</span><br/><span lang="th-Latn">sam</span><br/>three</td>
+<!-- M/S -->
 <td><span lang="ms">sa</span><br/>(Hokkien saⁿ)</td>
 <td>—</td>
 <td><span lang="mcm">sar</span><br/>(Hokkien saⁿ)</td>
@@ -830,6 +878,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC3.jpg;KC3.jpg;OC3.jpg;NC3.jpg;CC3.jpg" alt=";;;;" %}3 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สามตา</span><br/><span lang="th-Latn">sam ta</span><br/>three eyes<br/><br/><span lang="th">สามตาโต</span><br/><span lang="th-Latn">sam ta to</span><br/>three big eyes</td>
+<!-- M/S -->
 <td><span lang="ms">sa batik</span><br />batik three</td>
 <td><span lang="mcm">crossan</span><br/>heart, or brooch of Cabaia-wood</td>
 <td><span lang="mcm">batik</span><br/>batik</td>
@@ -866,6 +917,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS3.jpg;KS3.jpg;OS3.jpg;NS3.jpg;CS3.jpg" alt=";;;;" %}3 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สามนก</span><br/><span lang="th-Latn">sam nok</span><br/>three birds<br/><br/><span lang="th">สามนกเตี้ย</span><br/><span lang="th-Latn">sam nok tia</span><br/>three short birds</td>
+<!-- M/S -->
 <td><span lang="ms">sa udang</span><br />shrimp three</td>
 <td><span lang="mcm">kambrang</span><br/>shrimp</td>
 <td><span lang="mcm">kambrang, kotek, cucuk</span><br/>shrimp, penis, thorn</td>
@@ -902,6 +956,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM3.jpg;KM3.jpg;OM3.jpg;NM3.jpg;CM3.jpg" alt=";;;;" %}3 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สามคน</span><br/><span lang="th-Latn">sam khon</span><br/>three people</td>
+<!-- M/S -->
 <td><span lang="ms">sa ban</span></td>
 <td><span lang="mcm">chuchō</span><br/>prick (Malay <span lang="ms">cucok</span>)<br/><br/><span lang="mcm">agula</span><br/>needle</td>
 <td><span lang="mcm">agula</span><br/>needle</td>
@@ -938,6 +995,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 4</th>
+<!-- Thai -->
+<td><span lang="th">สี่</span><br/><span lang="th-Latn">si</span><br/>four</td>
+<!-- M/S -->
 <td><span lang="ms">si</span><br/>(Hokkien sì)</td>
 <td>—</td>
 <td><span lang="mcm">see</span><br/>(Hokkien sì)</td>
@@ -974,6 +1034,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC4.jpg;KC4.jpg;OC4.jpg;NC4.jpg;CC4.jpg" alt=";;;;" %}4 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สี่มะเขือ</span><br/><span lang="th-Latn">si makhuea</span><br/>four eggplants</td>
+<!-- M/S -->
 <td><span lang="ms">si hitam</span><br />black four</td>
 <td><span lang="mcm">manuco/rã</span><br/>frog</td>
 <td><span lang="mcm">kodok</span><br/>frog</td>
@@ -1010,6 +1073,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS4.jpg;KS4.jpg;OS4.jpg;NS4.jpg;CS4.jpg" alt=";;;;" %}4 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สี่นม</span><br/><span lang="th-Latn">si nom</span><br/>four breasts<br/><br/><span lang="th">สี่นมยาน</span><br/><span lang="th-Latn">si nom yan</span><br/>four hanging breasts</td>
+<!-- M/S -->
 <td><span lang="ms">si putih</span><br />white four</td>
 <td><span lang="mcm">basio</span><br/>plate</td>
 <td><span lang="mcm">basiu</span><br/>plate</td>
@@ -1046,6 +1112,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM4.jpg;KM4.jpg;OM4.jpg;NM4.jpg;CM4.jpg" alt=";;;;" %}4 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">สี่คน</span><br/><span lang="th-Latn">si khon</span><br/>four people</td>
+<!-- M/S -->
 <td><span lang="ms">si ban</span></td>
 <td><span lang="mcm">ryiami/curto</span><br/>short</td>
 <td><span lang="mcm">nyami</span><br/>yam</td>
@@ -1082,6 +1151,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 5</th>
+<!-- Thai -->
+<td><span lang="th">ห้า</span><br/><span lang="th-Latn">ha</span><br/>five</td>
+<!-- M/S -->
 <td><span lang="ms">go</span><br/>(Hokkien gō͘)</td>
 <td>—</td>
 <td><span lang="mcm">goh</span><br/>(Hokkien gō͘)</td>
@@ -1118,6 +1190,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC5.jpg;KC5.jpg;OC5.jpg;NC5.jpg;CC5.jpg" alt=";;;;" %}5 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">ห้าแตงโม</span><br/><span lang="th-Latn">ha taengmo</span><br/>five watermelons</td>
+<!-- M/S -->
 <td><span lang="ms">go pending</span><br />pending five</td>
 <td><span lang="mcm">panding</span><br/>sarong-fastener</td>
 <td><span lang="mcm">pending</span><br/>sarong-fastener</td>
@@ -1154,6 +1229,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS5.jpg;KS5.jpg;OS5.jpg;NS5.jpg;CS5.jpg" alt=";;;;" %}5 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">ห้านก</span><br/><span lang="th-Latn">ha nok</span><br/>five birds</td>
+<!-- M/S -->
 <td><span lang="ms">go burung</span><br />bird five</td>
 <td><span lang="mcm">baker</span><br/>cow</td>
 <td><span lang="mcm">baka</span><br/>cow</td>
@@ -1190,6 +1268,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM5.jpg;KM5.jpg;OM5.jpg;NM5.jpg;CM5.jpg" alt=";;;;" %}5 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">ห้าคน</span><br/><span lang="th-Latn">ha khon</span><br/>five people</td>
+<!-- M/S -->
 <td><span lang="ms">go ban</span></td>
 <td><span lang="mcm">governu/goberno</span><br/>governor<br/><br/><span lang="mcm">europeano</span><br/>european</td>
 <td><span lang="mcm">ropianu</span><br/>european</td>
@@ -1226,6 +1307,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 6</th>
+<!-- Thai -->
+<td><span lang="th">หก</span><br/><span lang="th-Latn">hok</span><br/>six</td>
+<!-- M/S -->
 <td><span lang="ms">lak</span><br/>(Hokkien la̍k)</td>
 <td>—</td>
 <td><span lang="mcm">lak</span><br/>(Hokkien la̍k)</td>
@@ -1262,6 +1346,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC6.jpg;KC6.jpg;OC6.jpg;NC6.jpg;CC6.jpg" alt=";;;;" %}6 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">หกตา</span><br/><span lang="th-Latn">hok ta</span><br/>six eyes</td>
+<!-- M/S -->
 <td><span lang="ms">lak hitam</span><br />black six</td>
 <td><span lang="mcm">gordo</span><br/>fat</td>
 <td><span lang="mcm">godra</span><br/>fat</td>
@@ -1298,6 +1385,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS6.jpg;KS6.jpg;OS6.jpg;NS6.jpg;CS6.jpg" alt=";;;;" %}6 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">หกละเอียด</span><br/><span lang="th-Latn">hok laiat</span><br/>delicate six<br/><br/><span lang="th">หกเซาะ</span><br/><span lang="th-Latn">hok so</span><br/>chiselled six</td>
+<!-- M/S -->
 <td><span lang="ms">lak putih</span><br />white six</td>
 <td><span lang="mcm">gala</span><br/>bamboo</td>
 <td><span lang="mcm">gala</span><br/>bamboo</td>
@@ -1334,6 +1424,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM6.jpg;KM6.jpg;OM6.jpg;NM6.jpg;CM6.jpg" alt=";;;;" %}6 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">หกคน</span><br/><span lang="th-Latn">hok khon</span><br/>six people</td>
+<!-- M/S -->
 <td><span lang="ms">lak ban</span></td>
 <td><span lang="mcm">osu</span><br/>bone</td>
 <td><span lang="mcm">osu</span><br/>bone</td>
@@ -1370,6 +1463,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 7</th>
+<!-- Thai -->
+<td><span lang="th">เจ็ด</span><br/><span lang="th-Latn">chet</span><br/>seven</td>
+<!-- M/S -->
 <td><span lang="ms">jit</span><br/>(Hokkien chhit)</td>
 <td>—</td>
 <td><span lang="ms">chit</span><br/>(Hokkien chhit)</td>
@@ -1406,6 +1502,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC7.jpg;KC7.jpg;OC7.jpg;NC7.jpg;CC7.jpg" alt=";;;;" %}7 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เจ็ดพัด</span><br/><span lang="th-Latn">chet phat</span><br/>seven fans</td>
+<!-- M/S -->
 <td><span lang="ms">jit hitam</span> or <span lang="ms">jit daun</span><br />black or leaf seven</td>
 <td><span lang="mcm">lóia</span><br/>flag</td>
 <td><span lang="mcm">layar</span><br/>sail</td>
@@ -1442,6 +1541,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS7.jpg;KS7.jpg;OS7.jpg;NS7.jpg;CS7.jpg" alt=";;;;" %}7 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เจ็ดนก</span><br/><span lang="th-Latn">chet nok</span><br/>seven birds</td>
+<!-- M/S -->
 <td><span lang="ms">jit burung</span><br />bird seven</td>
 <td><span lang="mcm">galinha</span><br/>chicken</td>
 <td><span lang="mcm">galinha</span><br/>chicken</td>
@@ -1478,6 +1580,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM7.jpg;KM7.jpg;OM7.jpg;NM7.jpg;CM7.jpg" alt=";;;;" %}7 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เจ็ดคน</span><br/><span lang="th-Latn">chet khon</span><br/>seven people</td>
+<!-- M/S -->
 <td><span lang="ms">jit ban</span></td>
 <td><span lang="mcm">malayu</span><br/>malay</td>
 <td><span lang="mcm">malayu</span><br/>malay</td>
@@ -1514,6 +1619,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 8</th>
+<!-- Thai -->
+<td><span lang="th">แปด</span><br/><span lang="th-Latn">paet</span><br/>eight</td>
+<!-- M/S -->
 <td><span lang="ms">puek</span><br/>(Hokkien poeh)</td>
 <td>—</td>
 <td><span lang="mcm">sepet</span><br/>‘half-closed (eyes)’</td>
@@ -1550,6 +1658,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC8.jpg;KC8.jpg;OC8.jpg;NC8.jpg;CC8.jpg" alt=";;;;" %}8 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">แปดตา</span><br/><span lang="th-Latn">paet ta</span><br/>eight eyes</td>
+<!-- M/S -->
 <td><span lang="ms">puek kerang</span><br />cockle eight</td>
 <td><span lang="mcm">brau</span><br/>ship</td>
 <td><span lang="mcm">prau</span><br/>ship</td>
@@ -1586,6 +1697,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS8.jpg;KS8.jpg;OS8.jpg;NS8.jpg;CS8.jpg" alt=";;;;" %}8 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">แปดละเอียด</span><br/><span lang="th-Latn">paet laiat</span><br/>delicate eight<br/><br/><span lang="th">แปดเซาะ</span><br/><span lang="th-Latn">paet so</span><br/>chiselled eight</td>
+<!-- M/S -->
 <td><span lang="ms">puek menak</span><br />noble<!--{%fn%}Menak is a title for an aristocrat.{%endfn%}--> eight</td>
 <td><span lang="mcm">baji/dosi</span><br/>sweet</td>
 <td><span lang="mcm">manis/dosi</span><br/>sweet</td>
@@ -1622,6 +1736,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM8.jpg;KM8.jpg;OM8.jpg;NM8.jpg;CM8.jpg" alt=";;;;" %}8 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">แปดคน</span><br/><span lang="th-Latn">paet khon</span><br/>eight people</td>
+<!-- M/S -->
 <td><span lang="ms">puek ban</span></td>
 <td><span lang="mcm">belu</span><br/>old</td>
 <td><span lang="mcm">belu</span><br/>old</td>
@@ -1658,6 +1775,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Rank 9</th>
+<!-- Thai -->
+<td><span lang="th">เก้า</span><br/><span lang="th-Latn">kao</span><br/>nine</td>
+<!-- M/S -->
 <td><span lang="ms">kau</span><br/>(Hokkien káu)</td>
 <td>—</td>
 <td><span lang="ms">kau</span><br/>(Hokkien káu)</td>
@@ -1694,6 +1814,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC9.jpg;KC9.jpg;OC9.jpg;NC9.jpg;CC9.jpg" alt=";;;;" %}9 Coins{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เก้าจัน</span><br/><span lang="th-Latn">kao chan</span><br/>nine <a href="https://en.wikipedia.org/wiki/Diospyros_decandra"><cite>Diospyros decandra</cite></a>, similar to a persimmon</td>
+<!-- M/S -->
 <td><span lang="ms">kau hitam</span><br />black nine</td>
 <td><span lang="mcm">Mōru</span><br/>Moor/Indian</td>
 <td><span lang="mcm">Mōru</span><br/>Moor/Indian</td>
@@ -1730,6 +1853,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS9.jpg;KS9.jpg;OS9.jpg;NS9.jpg;CS9.jpg" alt=";;;;" %}9 Strings{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เก้าแดง</span><br/><span lang="th-Latn">kao daeng</span><br/>red nine</td>
+<!-- M/S -->
 <td><span lang="ms">kau merah</span><br />red nine</td>
 <td><span lang="mcm">botol/bottle/whisky</span><br/>bottle</td>
 <td><span lang="mcm">botel</span><br/>bottle</td>
@@ -1766,6 +1892,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 
 <tr>
 <th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM9.jpg;KM9.jpg;OM9.jpg;NM9.jpg;CM9.jpg" alt=";;;;" %}9 Myriads{% imageEnd %}</th>
+<!-- Thai -->
+<td><span lang="th">เก้าคน</span><br/><span lang="th-Latn">kao khon</span><br/>nine people</td>
+<!-- M/S -->
 <td><span lang="ms">kau ban</span></td>
 <td><span lang="mcm">Mary, Mérri, Maria, Kau Mary</span><br/>Mary</td>
 <td><span lang="mcm">Mary</span><br/>Mary</td>
