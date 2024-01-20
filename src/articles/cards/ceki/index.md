@@ -22,6 +22,8 @@ Games that used these type of cards were originally played throughout the Malays
 
 Although these type of cards are not referred to in Thailand as “ceki” cards, I include them in the discussion below for comparison.
 
+At some point they were also called “8–9 cards”, in Malay <span lang="ms-Arab">باكو٢</span> <span lang="ms-Latn">pakau-pakau</span> (literally ‘8–9s’, which adapts the names of Chinese numerals).[@Pijnappel1 161] A similar name was also known in Thailand — <span lang="th">ไพ่แปดเก้า</span>,[@PaiPhong1967 9] literally “8–9 cards”{%fn%}Note that the name <span lang="th">ไพ่งาแปดเก้า</span> is also mentioned in the source; this is “8–9 bone cards” where “bone cards” is a calque of the Chinese <span lang="zh">骨牌</span> which means ‘dominos’ or sometimes ‘playing cards’.{%endfn%} — so it might be a Hokkien/Teochew name that eventually disappeared.{%fn%}Is there any remote connection to {%gameref oicho-kabu%} here?{%endfn%}
+
 {% image src="../../../maps/Ceki.svg" alt="" %}
 Countries where Ceki cards are used.
 {% imageEnd %}

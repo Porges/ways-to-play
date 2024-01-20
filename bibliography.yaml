@@ -4753,6 +4753,13 @@ HuaHuiBrunei:
     month: 7
     day: 9
   container-title: The Daily Brunei Resources
+SEAlangJavanese:
+  type: webpage
+  title: SEAlang library Balinese dictionary
+  URL: http://sealang.net/java/dictionary.htm
+  publisher: SEAlang
+  issued:
+    year: 2010
 SEAlangBalinese:
   type: webpage
   title: SEAlang library Balinese dictionary
@@ -13132,6 +13139,19 @@ Morgenlandisch_2:
     issue: 4
     issued: 1889
     publisher-place: Leipzig
+Pijnappel1:
+  type: book
+  URL: https://archive.org/details/maleischnederdu00klingoog
+  edition: 1
+  title:
+    value: Maleisch-Nederduitsch Woordenboek
+    lang: nl
+  editor:
+  - given: Jan
+    family: Pijnappel
+  issued: 1863  
+  publisher-place: Haarlem, Amsterdam
+  publisher: Frederik Muller
 Pijnappel:
   type: book
   URL: https://archive.org/details/ahy2565.0001.001.umich.edu
@@ -13583,3 +13603,15 @@ PaiPhong1967:
   publisher: Excise Department Printing House
   publisher-place: Wat Sommanat Vihara, Bangkok, Thailand
   notes: This is a <a href="https://en.wikipedia.org/wiki/Cremation_volume">cremation volume</a>.
+DajakschDeutsches:
+  type: book
+  URL: https://archive.org/details/dajackschdeutsc00hardgoog
+  title:
+    value: Dajaksch-deutsches Wörterbuch
+    lang: de
+  author:
+  - given: August
+    family: Hardeland
+  issued: 1859
+  publisher: Frederik Muller
+  publisher-place: Amsterdam, Netherlands

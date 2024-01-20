@@ -152,3 +152,10 @@ image in Manchuria: https://doi.org/10.25549/impa-c123-79389
 
 photo: https://doi.org/10.25549/impa-m19568
 photo: https://doi.org/10.25549/impa-m19599
+
+---
+
+A similar (children’s) game is known as <span lang="bug">ᨆᨀᨙᨌᨛ</span>
+makéce[@BoegineeschWoordenboek 24]{%fn%}old orthography: maketja{%endfn%} (Bugis), akece{%fn%}Aketje{%endfn%} (Makassarese), Javanese or Dayak{%fn%}The @DajakschDeutsches [260] says “<span lang="de" class="noun">KETJEK, das Ketjekspiel; s. die Beschreibung desselben unter <i>baketjek</i></span>”, but contains no such entry!{%endfn%} kecek{%fn%}Ketjek{%endfn%}.[@GamesAndDances 332–3]
+
+See also @Pijnappel1 [189], which gives Malay <span lang="ms">kecek</span> (<span lang="ms-Arab">كيچيق</span>){%fn%}old: ketjek{%endfn%} and Javanese <span lang="jav-Latn">kecik</span>,{%fn%}old: <span lang="jav-Arab">كچيق</span>, <span lang="jav-Latn">kĕtjik</span>{%endfn%} a name for the [<span lang="jav-Latn">sawo</span>](https://en.wikipedia.org/wiki/Manilkara_kauki) pit with which the game was played.[@SEAlangJavanese] (But compare also the entry for kècèk, noted as “a dice game”.)
