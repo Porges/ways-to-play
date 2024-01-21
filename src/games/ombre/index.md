@@ -44,7 +44,7 @@ Refs: @GameOfOmbre; @PopesGameOfOmbre; @CourtGamester.
 
 Makassarese
 terms:
-tuwi ᨈᨘᨓᨗ - a pair [p. 349], hence patuwi (8 pair) the name of the game. patuwi also means blow away
+tuwi ᨈᨘᨓᨗ - a pair [p. 349], hence patuwi (8 pair) the name of a game. patuwi also means blow away (see also Par Tui in the IPCS Malacca article, Patoewi in the dictionaries). Derived from Chinese (Hokkien) 八對 pat tùi ‘eight pair’.
 mata ᨆᨈ - eye, as in other languages
 tau ᨈᨕᨘ - (human) the cards called lotijiyang, lamboesoe, tjina, bawi, tikara, djobong. (i.e. the aces)
 buyang = paper

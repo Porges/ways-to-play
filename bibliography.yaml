@@ -13165,6 +13165,26 @@ Pijnappel:
   issued: 1875
   publisher-place: Haarlem, Amsterdam
   publisher: Frederik Muller
+MaleischNederlandsch_2:
+  type: book
+  URL: https://archive.org/details/afh0364.0002.001.umich.edu
+  volume: 2
+  title:
+    value: Maleisch-Nederlandsch Woordenboek
+    lang: nl
+  author:
+  - given: H.
+    family: von de Wall
+    lang: nl
+  editor:
+  - given: H. N.
+    family: van der Tuuk
+    lang: nl
+  issued: 1880
+  publisher-place: Batavia
+  publisher:
+    value: Landsdrukkerij
+    lang: nl
 Penanggalan:
   type: webpage
   title: The Malaysian Penanggalan Haunts Pregnant Women and Newborns
@@ -13615,3 +13635,36 @@ DajakschDeutsches:
   issued: 1859
   publisher: Frederik Muller
   publisher-place: Amsterdam, Netherlands
+DeLampong:
+  type: article-journal
+  title: 
+    value: De Lampongsche distrikten op het eiland Sumatra
+    lang: nl
+  URL: https://archive.org/details/tijdschriftvoor31hogoog/page/n260
+  page: 245–275, 309–333
+  author: 
+  - given: W. R.
+    family: van Hoëvell
+  in:
+    title: Tijdschrift voor Nederlandsch Indië
+    volume: 14
+    issued: 1852
+    issue: 1
+WoordenLijstPantoen:
+  type: article-journal
+  title:
+    value: Woordenlijst Tot de Pantoen’s Njai Soemoer Bandoeng, Tjioeng Wanara en Loetoeng Kasaroeng
+    lang: nl
+  author:
+  - family: Pleyte
+    given: C. M.
+    url: https://en.wikipedia.org/wiki/Cornelis_Marinus_Pleyte
+  notes: This is a wordlist derived from several <a href="https://en.wikipedia.org/wiki/Pantun_Sunda">Pantun</a>s.
+  page: 261-286
+  in:
+    title:
+      value: Verhandelingen van het Bataviaasch Genootschap van Kunsten en Wetenschappen
+      lang: nl
+    volume: 58
+    issue: 4
+    issued: 1911 
