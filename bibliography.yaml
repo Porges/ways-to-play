@@ -4760,6 +4760,20 @@ SEAlangJavanese:
   publisher: SEAlang
   issued:
     year: 2010
+SEAlangBurmese:
+  type: webpage
+  title: SEAlang library Burmese dictionary
+  URL: http://sealang.net/burmese/dictionary.htm
+  publisher: SEAlang
+  issued:
+    year: 2006
+SEAlangKhmer:
+  type: webpage
+  title: SEAlang library Khmer dictionary
+  URL: http://sealang.net/khmer/dictionary.htm
+  publisher: SEAlang
+  issued:
+    year: 2007
 SEAlangBalinese:
   type: webpage
   title: SEAlang library Balinese dictionary

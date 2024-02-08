@@ -102,3 +102,5 @@ Also [@ShropshireFolklore3 p. 512]
 
 Called Kebeto in Ethiopia https://allaboutethio.com/10-best-ethiopian-traditional-sports-games.html or Mehareben Yayachiw/Yayachihu (መሀረቤን ያያችሁ): https://www.youtube.com/watch?v=n11MPNDHC18 https://press.et/herald/?p=21771 (https://web.archive.org/web/20231001231632/https://press.et/herald/?p=21771)
 https://dlalaproject.com/archive/ ‘have you seen my handkerchief’ https://www.youtube.com/watch?v=S8q90YeGDNc
+
+in Khmer(!) លាក់កន្សែង , see http://sealang.net/khmer/

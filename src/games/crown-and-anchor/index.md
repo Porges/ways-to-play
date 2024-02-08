@@ -410,6 +410,14 @@ game at funerals.[@ThaiGambling p. 86]
     Dice with Thai names.
 {% imageEnd %}
 
+#### Cambodia
+
+In Khmer the game is called <span lang="km" class="aka">ខ្លាឃ្លោក</span> <span lang="km-Latn" class="aka">khlaa khlook</span> (‘tiger and gourds’),[@SEAlangKhmer] and the images are usually tiger, gourd, chicken, prawn, crab, fish. As in Thailand, gambling is illegal.
+
+### Myanmar
+
+The name of the game appears to be <span lang="my" class="aka">ဂျောက်ဂျက်</span> <span lang="my-Latn" class="aka">gjau’ gje’</span>,[@SEAlangBurmese] but I have no other information.
+
 #### Laos
 
 Again I have little information about the game here. Some images of the game being played in Laos follow. Interestingly, both photos show a board with Thai names.

@@ -104,10 +104,10 @@ function GenerateCountryMap {
 # GenerateCountryMap "Sheded" @("ET", "ER")
 
 # GenerateCountryMap "OichoKabu" @("JP", "AU", "PG", "SB")
-# GenerateCountryMap "Fantan" @("CN", "US", "NZ", "AU", "GB", "ZA", "CU", "PE", "TH", "CA", "PH", "MY", "VN", "MO", "KH") -rotate 210 -offset 1500
+# GenerateCountryMap "Fantan" @("CN", "US", "NZ", "AU", "GB", "ZA", "CU", "PE", "TH", "CA", "PH", "MY", "VN", "MO", "KH", "LA") -rotate 210 -offset 1500
 # GenerateCountryMap "Euchre" @("AU", "NZ", "CK", "FJ", "TO", "US", "CA", "GB") -rotate 210
 
 # provinces speaking Telugu, Kannada, Tamil
 # GenerateProvinceMap "LambsAndTigers" @("IN-AP", "IN-TG", "IN-KA", "IN-TN") -offset 200
 
-# GenerateCountryMap "Horseshoe" @("MY", "MN", "CN", "KR", "TH", "IN")
+# GenerateCountryMap "Horseshoe" @("MY", "MN", "CN", "KR", "TH", "IN", "KH")

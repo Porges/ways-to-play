@@ -41,6 +41,7 @@ Payment made to the owner of a gambling establishment, as a fixed fee per game o
 - This is possibly from the Chinese <span lang="zh">筒</span> (Hokkien: <span lang="nan-Latn">tông</span>), a round thing, a barrel or can (in which to place the payments). As a verb it means to place or put in.
 - In Javan usage the <span lang="jav-Latn">tong</span> was the glass in which the contributions to the gaming house (called <span lang="jav">ꦕꦸꦕꦸꦏ꧀</span> <span lang="jav-Latn">cucuk</span> or <span lang="jav">ꦕꦸꦏ꧀</span> <span lang="jav-Latn">cuk</span>) are placed.[@JavaanseKaartspelen p. 4]
 - In Thai it is <span lang="th">ต๋ง</span> (<span lang="th-Latn">tong</span>).
+- In Khmer it is <span lang="km">តុង</span> (<span lang="km-Latn">tong</span>).
 - Also used in Australia amongst Aboriginal groups who play games such as {% gameref kuns %}.[@ANoteOnKuns p. 42][@WhatsTheBigDeal p. 668][@CardGamesToPokerMachines p. 137–8]
 </dd>
 
