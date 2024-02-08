@@ -123,12 +123,15 @@ This is a faster version of the game which uses a teetotum instead of counting o
 
 The game might be run by a dedicated banker (chong), or have the banker rotate amongst players for a fixed period of time.
 
-
 ---
 
 Fan-tan was viewed as a fairer and safer game than mahjong or {% gameref pigeon-lottery %} and {% gameref huahui %}. A 1910 dragon-boat folk song gives the advice (as quoted in[@UnderstandingCanton p. 216]):
 
 > Only fan tan is played with great fairness. You can bet on the odds [of one to four] as you wish. If you lose, it is entirely up to you to decide if you would like to continue to stake. With only ten per cent of a stake taken away [by the bookmaker] as the charge, a winning bet is paid 90 percent of the total stake money [placed on winning number]. ‘Shop lottery’ and ‘mountain lottery’ [are also fairly played] as there are two hundred characters from which a better can choose at his will, without being misled or cheated. The drawing of the odds is conducted in the open [to ensure no room for swindling]. A lottery winner is by no means unfairly treated for receiving as prize money 80 per cent of the total money staked in a draw. The national treasure, as a result, has become heavily dependent on this source of revenue. The government, in consequence, is doing whatever it can to perpetuate the existence [of these forms of gambling].
+
+---
+
+When played with white beads (<span lang="zh">白珠</span>) instead of coins, it was called <span lang="zh" class="aka">牛傅</span> (‘cow teacher’?).[@ChineseGamesOfChance 1]
 
 ---
 

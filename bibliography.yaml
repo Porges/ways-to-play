@@ -13668,3 +13668,65 @@ WoordenLijstPantoen:
     volume: 58
     issue: 4
     issued: 1911 
+ChineseGamesOfChance:
+  type: book
+  title: A Book on Chinese Games of Chance
+  author:
+    - family: Ng
+      given: Kwai-Shang
+      alt:
+        value: 吳府(?)
+        lang: zh
+  publisher: Kwong Cheong Printers
+  publisher-place: Pottinger Street, Hong Kong
+  issued: 1886
+  notes: For (slightly) more about Ng Kwai-Shang, see <cite>Forgotten Souls</cite> in the bibliography, p. 499.
+ForgottenSouls:
+  type: book
+  title: 'Forgotten Souls: A Social History of the Hong Kong Cemetery'
+  author:
+    - given: Patricia
+      family: Lim
+  issued: 2011
+  URL: https://doi.org/10.5790/hongkong/9789622099906.001.0001
+  ISBN: 9789882207714
+  publisher: Hong Kong University Press
+  publisher-place: Hong Kong
+Frommers95:
+  type: book
+  title: 'Frommer’s Comprehensive Travel Guide: New York ’95'
+  URL: https://archive.org/details/frommerscomprehe0000hamm
+  author:
+  - given: Faye
+    family: Hammel
+  publisher: Macmillan Travel
+  publisher-place: New York, NY
+  issued: 1995
+  ISBN: '0671883763'
+AChinatownFind:
+  type: article-newspaper
+  title: "Restaurants: A Chinatown find, old-style French"
+  URL: https://www.nytimes.com/1982/06/11/arts/restaurants-a-chinatown-find-old-style-french.html
+  author:
+  - given: Mimi
+    family: Sheraton
+  page: 24
+  in:
+    title: New York Times
+    issued:
+      year: 1982
+      month: 6
+      day: 11
+456NextGeneration:
+  type: webpage
+  title: "4 5 6: The Next Generation"
+  URL: https://petercherches.blogspot.com/2011/02/4-5-6-next-generation.html
+  author:
+  - given: Peter
+    family: Cherches
+  container-title: Word of Mouth
+  archive-URL: https://web.archive.org/web/20240208073818/https://petercherches.blogspot.com/2011/02/4-5-6-next-generation.html
+  issued:
+    day: 21
+    month: 2
+    year: 2011

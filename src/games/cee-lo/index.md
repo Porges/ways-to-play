@@ -13,10 +13,12 @@ equipment: Dice
 ---
 
 <p class="lead">
-<span class="aka">Cee-Lo</span> is a gambling game played with three dice. The English name is apparently derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’; Mandarin: {%pronounce lang="cmn-Latn-pinyin" word="sì wǔ liù" pronouncer="MarvinMeow" file="pronunciation_zh_四五六.mp3" %}, Cantonese: {% pronounce lang="yue-Latn-jyutping" word="si³ ng⁵ luk⁶" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3" %}, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>), which is the highest roll in the game. Some books refer to it as “<span class="aka">Strung Flowers</span>”, another Chinese name for the highest roll;[@Bell vol. 1, p. 145] others call it “<span class="aka">Four Five Six</span>”, “<span class="aka">See Low</span>”,[@DiceGamesFrey p. 51] or simply the “<span class="aka">Three-Dice Game</span>”.[@ScarneOnDice p. 345]
+<span class="aka">Cee-Lo</span> is a gambling game played with three dice. The English name is apparently derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’; Mandarin: {%pronounce lang="cmn-Latn-pinyin" word="sì wǔ liù" pronouncer="MarvinMeow" file="pronunciation_zh_四五六.mp3" %}, Cantonese: {% pronounce lang="yue-Latn-jyutping" word="si³ ng⁵ luk⁶" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3" %}, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>, Shanghainese: <span lang="wuu-Latn" class="aka">⁵sy ⁶ng ⁸loq</span>),{%fn%}In New York’s Chinatown the Shanghai restaurant “Say Eng Look”[@Frommers95 110] at one point existed (5 East Broadway) across <a href="https://en.wikipedia.org/wiki/Chatham_Square">the square</a> from another Shanghai restaurant named “4–5–6”.[@AChinatownFind] The grandson of the owner of the latter now owns <a href="http://www.456shanghai.com/">a different 4–5–6 restaurant</a> in Mott Street.[@456NextGeneration]{%endfn%}  which is the highest roll in the game. Some books refer to it as “<span class="aka">Strung Flowers</span>”, another Chinese name for the highest roll;[@Bell vol. 1, p. 145] others call it “<span class="aka">Four Five Six</span>”, “<span class="aka">See Low</span>”,[@DiceGamesFrey p. 51] or simply the “<span class="aka">Three-Dice Game</span>”.[@ScarneOnDice p. 345]
 </p>
 
 In @GamblingGamesOfMalaya [p. 96] the name is given as <span lang="zh" class="aka">六骰</span> (literally ‘six dice’), but with the odd pronunciation “Luk Kow” (the correct Hokkien pronunciation is <span lang="nan-Latn">la̍k tâu</span>). Cee-Lo is also played with _three_, not six dice. It is possible that the name should be <span lang="zh" class="aka">六九</span> (Hokkien: {%pronounce lang="nan-Latn" word="la̍k káu" pronouncer="690518207" class="aka" file="pronunciation_nan_69.mp3" %}, ‘six nine’); indeed, the game is referred to under the name “<span class="aka">Luk Kow 69</span>” in Brunei gambling law.[@LawsOfBrunei p. 21] I don’t know to what part of the game “69” could refer, but one idea could be the roll {% cdice 6 %}–{% cdice 54 %} read as six–nine.
+
+In @ChineseGamesOfChance [p. 78], the name is given as <span lang="zh" class="aka">候六</span>[@ChineseGamesOfChance 79] ‘watching six’ (Cantonese: <span class="aka" lang="yue-Latn-jyutping">hau⁶ luk⁶</span>), which is the name of one of the winning dice rolls.
 
 In Japan the game is called <span lang="ja" class="aka">チンチロ(リン)</span> {%pronounce lang="ja-Latn" word="chin&shy;chi&shy;ro&shy;(rin)" pronouncer="skent" class="aka" file="pronunciation_ja_チンチロリン.mp3" %}, an onomatopœia based on the noise of dice being dropped into a bowl.{%fn%}It is also the noise made by the pine cricket (<span lang="ja">松虫</span> <span lang="ja-Latn">matsu&shy;mushi</span>).{%endfn%} It is also played with differing payoffs for each dice outcome (see {%gameref chinchirorin %} below).
 
@@ -50,23 +52,55 @@ The following table summarizes the results for the banker:
 
 <table class="table">
 <thead>
-<tr><th>Name</th><th>
-
-Chinese Name[@ChineseGames p. 493]
-
-</th><th>Name in New York</th><th>Roll</th><th>Outcome</th></tr>
+<tr>
+<th>Name/Roll</th>
+<th>Chinese Names</th>
+<th>Name in New York</th>
+<th>Outcome</th>
+</tr>
 </thead>
 <tbody class="table-group-divider">
-<tr><th scope="row">4–5–6</th><td><span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn-jyutping">si³ ng⁵ luk⁶</span><br/><br/><span lang="zh">串花</span> ‘strung flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">cyun³ faa¹</span></td><td>Head Crack</td><td>{%cdice 456%}</td><td class="bg-success text-white">Win</td></tr>
-<tr><th scope="row">Triple</th><td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: {% pronounce  lang="yue-Latn-jyutping" word="wai⁴" pronouncer="cuichungman" file="pronunciation_yue_圍.mp3" %}</td><td>Trips</td><td>{%cdice '==='%}</td><td class="bg-success text-white">Win</td></tr>
-<tr><th scope="row">6 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==6'%}</td><td class="bg-success text-white">Win</td></tr>
-<tr><th scope="row">5 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==5'%}</td><td>Point of 5</td></tr>
-<tr><th scope="row">4 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==4'%}</td><td>Point of 4</td></tr>
-<tr><th scope="row">3 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==3'%}</td><td>Point of 3</td></tr>
-<tr><th scope="row">2 Point</th><td><span lang="zh"></span></td><td></td><td>{%cdice '==2'%}</td><td>Point of 2</td></tr>
-<tr><th scope="row">1 Point</th><td><span lang="zh">一弗</span> ‘bad one’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ fat¹</span></td><td>Ace Out</td><td>{%cdice '==1'%}</td><td class="bg-danger text-white">Loss</td></tr>
-<tr><th scope="row">1–2–3</th><td><span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: {% pronounce lang="yue-Latn-jyutping" word="mou⁵ lung⁴" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3" %}<br/><br/><span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: {%pronounce lang="yue-Latn-jyutping" word="se⁴ zai²" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3" %}</td><td></td><td>{%cdice 123%}</td><td class="bg-danger text-white">Loss</td></tr>
-<tr><th scope="row">Nothing</th><td></td><td></td><td></td><td>Re-roll</td></tr>
+<tr>
+<th scope="row">4–5–6<br/>{%cdice 456%}</th>
+<td><span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn-jyutping">si³ ng⁵ luk⁶</span>[@ChineseGames 493]<br/><br/>
+<span lang="zh">串花</span> ‘strung flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">cyun³ faa¹</span>[@ChineseGames 493]<br/><br/>
+<span lang="zh">春花</span>[@ChineseGamesOfChance 79] ‘spring flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">ceon¹ faa¹</span>
+</td>
+<td>Head Crack</td>
+<td class="bg-success text-white">Win</td>
+</tr>
+<tr>
+<th scope="row">Triple<br/>{%cdice '==='%}</th>
+<td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: {% pronounce  lang="yue-Latn-jyutping" word="wai⁴" pronouncer="cuichungman" file="pronunciation_yue_圍.mp3" %}[@ChineseGames 493]<br/><br/>
+<span lang="zh">爲屏</span>[@ChineseGamesOfChance 78] ‘build a wall’<br/>Cantonese: <span lang="yue-Latn-jyutping">wai⁴ ping⁴</span></td>
+<td>Trips</td>
+<td class="bg-success text-white">Win</td></tr>
+<tr>
+<th scope="row">6 Point<br/>{%cdice '==6'%}</th>
+<td><span lang="zh">候六</span>[@ChineseGamesOfChance 79] ‘watching six’<br/><span lang="yue-Latn-jyutping">hau⁶ luk⁶</span></td>
+<td></td>
+<td class="bg-success text-white">Win</td>
+</tr>
+<tr><th scope="row">5 Point<br/>{%cdice '==5'%}</th><td><span lang="zh"></span></td><td></td><td>Point of 5</td></tr>
+<tr><th scope="row">4 Point<br/>{%cdice '==4'%}</th><td><span lang="zh"></span></td><td></td><td>Point of 4</td></tr>
+<tr><th scope="row">3 Point<br/>{%cdice '==3'%}</th><td><span lang="zh"></span></td><td></td><td>Point of 3</td></tr>
+<tr><th scope="row">2 Point<br/>{%cdice '==2'%}</th><td><span lang="zh"></span></td><td></td><td>Point of 2</td></tr>
+<tr>
+<th scope="row">1 Point<br/>{%cdice '==1'%}</th>
+<td>
+<span lang="zh">一弗</span> ‘bad one’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ fat¹</span>[@ChineseGames 493]<br/><br/>
+<span lang="zh">候丁</span>[@ChineseGamesOfChance 79] ‘watching [?]’<br/><span lang="yue-Latn-jyutping">hau⁶ ding¹</span>
+</td>
+<td>Ace Out</td><td class="bg-danger text-white">Loss</td></tr>
+<tr>
+<th scope="row">1–2–3<br/>{%cdice 123%}</th><td><span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: {% pronounce lang="yue-Latn-jyutping" word="mou⁵ lung⁴" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3" %}[@ChineseGames 493]<br/><br/>
+<span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: {%pronounce lang="yue-Latn-jyutping" word="se⁴ zai²" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3" %}[@ChineseGames 493]<br/><br/>
+<span lang="zh">一條蛇</span>[@ChineseGamesOfChance 79] ‘one snake’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ tiu⁴ se⁴</span>
+</td>
+<td></td>
+<td class="bg-danger text-white">Loss</td>
+</tr>
+<tr><th scope="row">Nothing</th><td></td><td></td><td>Re-roll</td></tr>
 </tbody>
 </table>
 
