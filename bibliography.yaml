@@ -3999,7 +3999,7 @@ TheAmericanHoyle4:
   publisher: Dick & Fitzgerald
   publisher-place: New York, NY, USA
   URL: https://archive.org/details/americanhoyleorg00dick
-TheModernPocketHoyle4:
+TheModernPocketHoyle1:
   type: book
   title: The Modern Pocket Hoyle
   issued:
@@ -4007,10 +4007,24 @@ TheModernPocketHoyle4:
   author:
     - given: William Brisbane
       family: Dick
+  edition: 1
+  publisher: Dick & Fiztgerald
+  publisher-place: New York, NY, USA
+  URL: https://books.google.co.nz/books?id=lmIVAAAAYAAJ
+TheModernPocketHoyle4:
+  type: book
+  title: The Modern Pocket Hoyle
+  issued:
+    year: 1868
+    circa: true
+  author:
+    - given: William Brisbane
+      family: Dick
   edition: 4
   publisher: Dick & Fitzgerald
   publisher-place: New York, NY, USA
   URL: https://archive.org/details/modernpockethoy00dickgoog
+  notes: The first edition of the <cite>Modern Pocket Hoyle</cite> was printed in 1868, and this one was produced some time after that but still with the same copyright year. (Thanks to Raymond Lee for pointing this out.)
 TheAmericanHoyle5:
   type: book
   title: The American Hoyle
@@ -7603,6 +7617,7 @@ UndersAndOvers:
   title: Rules for Playing Unders and Overs
   publisher: "Department of Racing, Gaming & Liquor: Goverment of Western Australia"
   URL: https://www.dlgsc.wa.gov.au/docs/default-source/racing-gaming-and-liquor/gaming/rules-of-the-game/unders-and-overs-rules.pdf
+  archive-URL: https://web.archive.org/web/20230923014616/https://www.dlgsc.wa.gov.au/docs/default-source/racing-gaming-and-liquor/gaming/rules-of-the-game/unders-and-overs-rules.pdf
   issued: 2022
 USOS:
   type: article-newspaper
@@ -12255,6 +12270,7 @@ PapaliEaMorabaRaba:
   - given: Tšepo
     family: Khoro
   URL: https://www.slideshare.net/KhoroTsepo/papali-ea-morabarabaka-tsepo-khoropptx-253711929
+  archive-URL: https://web.archive.org/web/20231027014918/https://www.slideshare.net/KhoroTsepo/papali-ea-morabarabaka-tsepo-khoropptx-253711929
   container-title: Slideshare
   issued:
     day: 20

@@ -11,7 +11,7 @@ equipment: Dice
 Yankee Grab was a dice game that became popular in New Zealand and Australia during the 19th-century goldrushes.
 </p>
 
-It is documented in 1868 in @TheModernPocketHoyle4 [p. 311], under the name “<span class="aka">Going to Boston</span>”.{%fn%}These games wouldn’t appear in the non-“pocket” version of the American Hoyle until 1874.[@TheAmericanHoyle8 p. 479]{%endfn%} By 1894 it was also called “<span class="aka">Newmarket</span>”,[@SharpsAndFlats p. 250] and in the 1930s it was also called “<span class="aka">Rolling Down to Rio Rita</span>” in New York.[@WithSkullAndBones]
+It is documented around 1870 in @TheModernPocketHoyle4 [p. 311], under the name “<span class="aka">Going to Boston</span>”.{%fn%}It does not appear in the first edition of that book which was published in 1868,[@TheModernPocketHoyle1] and these games wouldn’t appear in the non-“pocket” version of the American Hoyle until 1874.[@TheAmericanHoyle8 p. 479]{%endfn%} By 1894 it was also called “<span class="aka">Newmarket</span>”,[@SharpsAndFlats p. 250] and in the 1930s it was also called “<span class="aka">Rolling Down to Rio Rita</span>” in New York.[@WithSkullAndBones]
 
 ## Play
 

@@ -72,6 +72,7 @@ The following table summarizes the results for the banker:
 <tr>
 <th scope="row">Triple<br/>{%cdice '==='%}</th>
 <td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: {% pronounce  lang="yue-Latn-jyutping" word="wai⁴" pronouncer="cuichungman" file="pronunciation_yue_圍.mp3" %}[@ChineseGames 493]<br/><br/>
+<!-- ဝိုက် 'wai' in Burmese also means a set of 3… -->
 <span lang="zh">爲屏</span>[@ChineseGamesOfChance 78] ‘build a wall’<br/>Cantonese: <span lang="yue-Latn-jyutping">wai⁴ ping⁴</span></td>
 <td>Trips</td>
 <td class="bg-success text-white">Win</td></tr>
