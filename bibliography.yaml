@@ -13760,3 +13760,43 @@ AChinatownFind:
     day: 21
     month: 2
     year: 2011
+GamesOfTheWorld: # owned
+  type: book
+  title: Games of the World
+  editor:
+  - given: Frederic V.
+    family: Grunfeld
+  issued: 1975
+  ISBN: '0030152615'
+  publisher: Holt, Rinehart and Winston
+  publisher-place: New York
+TheWayToPlay: # owned
+  type: book
+  title: The Way to Play
+  author:
+  - given: Diagram Group
+  ISBN: '0553010425'
+  publisher: Bantam
+  publisher-place: New York
+  issued: 1977
+MahJonggArt: # owned
+  type: book
+  publisher: Tuttle Publishing
+  title: "Mah Jongg: The Art of the Game"
+  author:
+  - given: Ann M.
+    family: Israel
+  - given: Gregg
+    family: Swain
+  ISBN: 9784805313237
+  issued: 2014
+TheGamesWePlayed: # owned
+  type: book
+  title: 'The Games We Played: The Golden Age of Board & Table Games'
+  author:
+  - given: Margaret K.
+    family: Hofer
+  publisher: Princeton Architectural Press
+  publisher-place: New York
+  ISBN: 1568983972
+  issued: 2003
