@@ -495,7 +495,7 @@ lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
 * <span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<span class="noun"
   lang="ja-Latn">Tengu</span>’), trademarked in 1912[@Trademarks1924_5 p. 276]
 * <span lang="ja">大天狗</span> (<span lang="ja-Latn">daitengu</span>, the most
-  powerful type of <span class="noun" lang="ja-Latn">Tengu</span>)
+  powerful or chief type of <span class="noun" lang="ja-Latn">Tengu</span>), introduced in 1977
 * <span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’),
   trademarked in 1900[@Trademarks1905 p. 67]
 * <span lang="ja">白梅</span> (<span lang="ja-Latn">hakubai</span>, ‘white
@@ -506,8 +506,6 @@ lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
   ‘sunrise cherry blossoms’)
 * <span lang="ja">三羽鶴</span> (<span lang="ja-Latn">sanbazuru</span>, ‘three
   cranes’), not in use as of 1980
-* <span lang="ja">大天狗</span> (<span lang="ja-Latn">dai tengu</span>, ‘chief
-  <span class="noun" lang="ja-Latn">Tengu</span>’), introduced in 1977
 * <span lang="ja">千代桜</span> (<span lang="ja-Latn">chiyo zakura</span>,
   ‘thousand-year cherry blossoms’)
 * <span lang="ja">春遊</span> (<span lang="ja-Latn">shun’yu</span>, ‘spring
@@ -518,7 +516,7 @@ lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
   ‘imperial palace cherry blossoms’)
 * <span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)
 * <span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a
-  reference to the <span lang="ja-Latn">waka</span> that appears on the pine
+  reference to the [<span lang="ja-Latn">waka</span> that appears on the pine
   cards in some decks](/articles/cards/japan/hanafuda/art/#1))
 * <span lang="ja">丹頂</span> (<span lang="ja-Latn">tanchō</span>, ‘red-crested
   crane’, that appears on the pine bright)
