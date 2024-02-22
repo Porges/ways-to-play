@@ -16,7 +16,7 @@ The recent history of the game is often a story of racism and hypocrisy: as a Ch
 
 <!-- excerpt -->
 
-In European sources, the game is often referred to as simply “the Chinese lottery”. The transliteration of the game is usually given as “<span class="aka">pak-a-poo</span>” (most common in New Zealand) or “<span class="aka">pak-a(h)-pu</span>” (most common in Australia). In London (particularly centered around the Chinese community in Pennyfields, Poplar) it was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa “pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portugeuse romanization of “<span lang="pt" class="aka">pacapio</span>”, which remains standard in current usage (previous terms include <span lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first referred to as “<span class="aka">boc hop bu</span>”[@NYTimes18870127] before picking up a variety of the other names mentioned above, as well as “Bock Ka Pian”,[@WhatTheHeathenPlays] but in Hawaiʻi it was referred to as “<span class="aka">pakapio</span>”.[@Pakapio]
+In European sources, the game is often referred to as simply “the Chinese lottery”. The transliteration of the game is usually given as “<span class="aka">pak-a-poo</span>” (most common in New Zealand) or “<span class="aka">pak-a(h)-pu</span>” (most common in Australia). In London (particularly centered around the Chinese community in Pennyfields, Poplar) it was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa “pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portuguese romanization of “<span lang="pt" class="aka">pacapio</span>”, which remains standard in current usage (previous terms include <span lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first referred to as “<span class="aka">boc hop bu</span>”[@NYTimes18870127] before picking up a variety of the other names mentioned above, as well as “Bock Ka Pian”,[@WhatTheHeathenPlays] but in Hawaiʻi it was referred to as “<span class="aka">pakapio</span>”.[@Pakapio]
 
 While the specifics vary, the play of the game is simple: each player purchases
 one or more tickets upon which they mark some set of characters out of the
@@ -1106,10 +1106,14 @@ orgName="University of Nevada Oral History Program"
 A keno writer using a horsehair brush to mark tickets in Harolds Club, Nevada.
 {%imageEnd%}
 
-In this “racehorse” version of the game, each number had a horse’s name assigned
-to it, and the names were announced in a similar way to the way that “[bingo
-calls](https://en.wikipedia.org/wiki/List_of_British_bingo_nicknames)” are now
-performed. Other examples of names included:
+In this “racehorse” version of the game, each number had a horse’s name assigned to it, and the names were announced in a similar way to the way that “[bingo calls](https://en.wikipedia.org/wiki/List_of_British_bingo_nicknames)” are now performed. Warren gives an example of the patter (or “ballyhoo”) that was used to announce the game, mimicking the style of a horse racing commentator:[@AlwaysBetOnTheButcher p. 158]
+
+> All right, they’re off and running!<br/>Jockey number 1 on Nanny
+> Dee.<br/>Jockey 16 on Mainstreet,<br/>Right down the main drag.<br/>You’ve got
+> a hell of a race,<br/>And a hell of a bunch of horses!<br/>Jockey number 69 on
+> Kay Dugan,<br/>That old Irish girl again.
+
+Other examples of horse names include:
 
 <div class="columnar">
 
@@ -1125,14 +1129,6 @@ performed. Other examples of names included:
 
 </div>
 
-Warren also reports and example of the patter (or “ballyhoo”) that was used to
-announce the game, mimicking the style of a horse racing
-commentator:[@AlwaysBetOnTheButcher p. 158]
-
-> All right, they’re off and running!<br/>Jockey number 1 on Nanny
-> Dee.<br/>Jockey 16 on Mainstreet,<br/>Right down the main drag.<br/>You’ve got
-> a hell of a race,<br/>And a hell of a bunch of horses!<br/>Jockey number 69 on
-> Kay Dugan,<br/>That old Irish girl again.
 
 {% image
 alt="A black-and-white photo of a counter in front of which stand a richly-dressed man and woman. Behind the counter are two staff. On the counter is a 'squirrel cage' containing balls. On the wall behind the counter are the rules, a clock, and a board which lights up numbers when they are called."
@@ -1189,7 +1185,7 @@ distinction.{%endfn%} The player must then **condition** the ticket by
 indicating what their intended bets are. For example, if a ticket has three
 circled groups of four, this can be used as a 3-way 8-spot ticket (there are
 three ways of forming eight spots by combining the groups) by writing “3/8” and
-the amonut bet on each way on the ticket. The total cost of the ticket is the
+the amount bet on each way on the ticket. The total cost of the ticket is the
 amount bet per way multiplied by the number of ways. The same could also be used
 as a 3-way 4-spot ticket (by writing 3/4), and/or also a one-way 12-spot ticket
 (1/12), if the player wanted. On a way ticket an individual circled number is
