@@ -39,7 +39,7 @@ jobs:
       with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - uses: kheiakiyama/install-azcopy-action@d0c8a54798ecf011ec2219ea553196e19a16e7f8
+    - uses: kheiakiyama/install-azcopy-action@20e5ba89939ac40f6d304a06938e288c151814ce
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
