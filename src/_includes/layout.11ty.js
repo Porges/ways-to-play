@@ -108,6 +108,10 @@ exports.render = async function (data) {
     </script>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage"${data.tags?.includes('article')? ' itemref="breadcrumbs"' : ''}>
+    <div itemprop="isPartOf" itemscope itemtype="https://schema.org/WebSite">
+        <meta itemprop="url" content="https://games.porg.es/"/>
+        <meta itemprop="name" content="Ways To Play"/>
+    </div>
     <header>
       <nav class="navbar navbar-expand navbar-dark bg-primary">
         <div class="container">
