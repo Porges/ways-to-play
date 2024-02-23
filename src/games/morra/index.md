@@ -11,6 +11,7 @@ hero:
 equipment: None
 subgames:
 - title: Caai¹ Mui⁴⁻²
+  slug: caai1-mui42
   titleLang: yue-Latn-jyutping
   countries: CN,HK
   originalTitle: 猜枚

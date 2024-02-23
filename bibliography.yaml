@@ -9446,7 +9446,8 @@ CompleatGamester:
   type: book
   title: The Compleat Gameſter
   author:
-  - given: Charles
+  - &Charles_Cotton
+    given: Charles
     family: Cotton
     url: https://en.wikipedia.org/wiki/Charles_Cotton
   issued: 1674
@@ -13800,3 +13801,149 @@ TheGamesWePlayed: # owned
   publisher-place: New York
   ISBN: 1568983972
   issued: 2003
+APublicansReason:
+  type: article-magazine
+  title: A Publican’s Reason for not permitting Card-playing in his house
+  page: 180
+  URL: https://books.google.co.nz/books?id=8xlOAAAAcAAJ&pg=PA178#v=onepage&q&f=false
+  in:
+    title: The Rambler’s Magazine
+    volume: 2
+    issued: 
+      month: 5
+      year: 1784
+    publisher-place: London
+Erotopolis:
+  type: book
+  title:  
+    value: 'ΕΡΩΤΟΠΟΛΙΣ: the present state of Betty-land'
+    alt: Erōtopolis
+  author:
+  - *Charles_Cotton
+  issued: 1684
+  publisher: Thomas Fox
+  publisher-place: London
+  archive-URL: https://web.archive.org/web/20240223024745/https://quod.lib.umich.edu/e/eebo/A38586.0001.001?rgn=main;view=fulltext
+  URL: https://quod.lib.umich.edu/e/eebo/A38586.0001.001?rgn=main;view=fulltext
+PoeticalAmusementsBath1:
+  type: book
+  title: Poetical Amusements at a Villa near Bath
+  volume: 1
+  publisher-place: London
+  publisher: W. Frederick
+  editor:
+  - given: Anna Riggs
+    family: Miller
+    url: https://en.wikipedia.org/wiki/Anna,_Lady_Miller
+  issued: 1776
+  edition: 2
+  URL: https://hdl.handle.net/2027/njp.32101037041777
+PoeticalAmusementsBath2:
+  type: book
+  title: Poetical Amusements at a Villa near Bath
+  volume: 2
+  publisher-place: London
+  publisher: W. Frederick
+  editor:
+  - given: Anna Riggs
+    family: Miller
+    url: https://en.wikipedia.org/wiki/Anna,_Lady_Miller
+  issued: 1776
+  URL: https://hdl.handle.net/2027/njp.32101037041769
+FiveNewPlayes:
+  type: book
+  title: 'Five New Playes, viz. The English Moor, or The Mock-Marraige; The Love-Sick Court, or The Ambitious Politique; Covent Garden Weeded; The New Academy, or The New Exchange; The Queen and Concubine'
+  author:
+  - given: Richard
+    family: Brome
+    url: https://en.wikipedia.org/wiki/Richard_Brome
+  publisher-place: London
+  issued: 1659
+  URL: https://archive.org/details/fivenewplayesviz00brom
+MysteriesOfLoveAndEloquence:
+  type: book
+  title: "The Mysteries of Love & Eloquence, or, the Arts of Wooing and Complementing; As they are manag’d in the Spring Garden, Hide Park, the New Exchange, and other eminent places"
+  issued: 1685
+  edition: 3
+  publisher-place: London
+  author:
+  - given: Phillips
+    family: Edward
+    url: https://en.wikipedia.org/wiki/Edward_Phillips
+  URL: https://archive.org/details/bim_early-english-books-1641-1700_the-mysteries-of-love-_phillips-edward_1685
+RemainsOfGentilisme:
+  type: book
+  URL: https://archive.org/details/remainesofgentil00aubruoft
+  notes: This book based upon a manuscript composed by Aubrey between 1687–9.
+  title: Remaines of Gentilisme and Judaisme
+  author:
+  - given: John
+    family: Aubrey
+    url: https://en.wikipedia.org/wiki/John_Aubrey
+  issued: 1881
+  publisher: W. Satchell, Peyton, and Co.
+  publisher-place: London
+  editor:
+  - given: James
+    family: Britten
+    url: https://en.wikipedia.org/wiki/James_Britten
+  series:
+    title: Publications of the Folk-Lore Society
+    volume: 4
+TheElizabethanPeople:
+  type: book
+  # see 197, indoor amusements
+  URL: https://archive.org/details/elizabethanpeopl00stepuoft
+  title: The Elizabethan People
+  author:
+  - given: Henry Thew
+    family: Stephenson
+    url: https://en.wikipedia.org/wiki/Henry_Thew_Stephenson
+  issued: 1910
+  publisher: Henry Holt and Company
+  publisher-place: New York
+PlayingCardsEmployment1:
+  type: article-journal
+  title: The Antiquity and Use of Playing-Cards
+  page: 250–3, 
+  URL: https://archive.org/details/repositoryofarts1020acke/page/250/mode/2up
+  in:
+    title: The Repository of Arts, Literature, Fasions, Manufactures, &c (Second Series)
+    volume: 10
+    issue: 59
+    issued:
+      year: 1820
+      month: 11
+      day: 1
+PlayingCardsEmployment2:
+  type: article-journal
+  title: Playing-Cards, Their Origin and Employment
+  page: 317–320
+  notes: Much conjecture here is incorrect.
+  URL: https://archive.org/details/repositoryofarts1020acke/page/316/mode/2up
+  in: 
+    title: The Repository of Arts, Literature, Fasions, Manufactures, &c (Second Series)
+    volume: 10
+    issue: 60
+    issued:
+      year: 1820
+      month: 12
+      day: 1
+Littre2:
+  type: book
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k5406698m
+  title: 
+    lang: fr
+    value: Dictionnaire de la Langue Française
+  volume: 2
+  volume-title: D–H
+  author:
+  - given: Émile
+    family: Littré
+    url: https://en.wikipedia.org/wiki/%C3%89mile_Littr%C3%A9
+  notes: Also available at in web form at <a href="https://www.littre.org/">littre.org</a>.
+  issued: 1874
+  publisher:
+    lang: fr
+    value: Librairie Hachette et Cie
+  publisher-place: Paris

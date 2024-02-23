@@ -14,6 +14,7 @@ equipment: Playing cards (Standard)
 
 Writing in 1866, William Brisbane Disk stated that it was “useless to inquire into the origin of this game”[@AmericanCardPlayer p. 121] — nevertheless, we shall try.
 
+Mentioned in Cotton's @Erotopolis [109]; the name is understood to be sexual.[@SexualShakespeare1 14]
 
 
 Refs: [@SeriousReflections]

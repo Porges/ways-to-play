@@ -6,8 +6,12 @@ countries: UK
 ---
 
 <p class="lead">
-Laugh and Lie Down is a {% a  fishing-games, fishing game %} for five (or four) players from the 17th century.{%fn%}By 1784 it was being described as “old-fashioned”.[@ObservationsOnSomeOldFashionedGames p. 134]{%endfn%} The only known description of this game is from Francis Willughby’s <cite>Book of Games</cite>.[@FrancisWillughby p. 138]
+Laugh and Lie Down is a {% a  fishing-games, fishing game %} for five (or four) players from the 17th century.{%fn%}By 1784 it was being described as “old-fashioned”.[@ObservationsOnSomeOldFashionedGames p. 134]{%endfn%} The only known description of this game is from Francis Willughby’s <cite>Book of Games</cite>.[@FrancisWillughby p. 138] but also appears that same year in a humourous tract.[@APublicansReason]
 </p>
+
+In some cases the name is implied to have sexual meaning, for example in the pamphlet @SeriousReflections [13], which says:
+
+> There are other Games, which seem compos’d on Purpose to shock the Modesty, or, at least to give an _unlucky_ Bias to the Ideas of the younger Part of box Sexes. To name two of these will be sufficient, as my own Delicacy will not suffer me to dwell long upon them. And, indeed, I could not have persuaded myself to have gone thus far, but that I think any Female Reader, into whose Hands this Letter may happen to fall, will _easily_ be intreated to suffer her Eyes to jump over the following Words in Italics, viz. _Laugh and lie down_, and _{%gameref my-ladys-hole %}_.
 
 ## Play
 

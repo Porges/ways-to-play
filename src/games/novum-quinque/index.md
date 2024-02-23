@@ -47,7 +47,8 @@ https://archive.org/details/posiesdefran01sara/page/266/mode/2up?q=%22quinque+no
 
 ## Play
 
-One player is chosen to be the first thrower, the other players place their bets (which will be matched 1:1 by the thrower), and the thrower rolls two dice. The thrower loses the bets on a dice total of 5 or 9 (8 of the 36 possible combinations), and wins on 3, 11, or a doublet (10 of 36).
+Littre2:
+One player is chosen to be the first thrower, the other players place their bets (which will be matched 1:1 by the thrower), and the thrower rolls two dice. The thrower loses the bets on a dice total of 5 or 9 (8 of the 36 possible combinations), and wins on 3, 11, or a doublet (10 of 36).{%fn%}In French, throws of 3 or 11 were the <span lang="fr">hasards</span>.[@Littre2 1987]{%endfn%}
 
 On any other result (non-doublet 4, 6, 7, 8, or 10), a target number or **chance** is established. The roller then rolls repeatedly until they roll the chance number, in which case they win, or they roll 5 or 9, in which case they lose.
 

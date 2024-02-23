@@ -62,7 +62,7 @@ The named games are:
     - Trump
     - Nody
     - Whisk
-    - Hole
+    - Hole: {%gameref my-ladys-hole%}
     - Sant
     - Newcut
     - Loadum
