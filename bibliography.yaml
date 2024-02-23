@@ -13979,3 +13979,166 @@ StudiesInCheremis:
   series:
     title: Indiana University Publications Folklore Series
     number: 11
+SomeTraditionalGamesRoumania:
+  type: article-journal
+  title: Some Traditional Games from Roumania
+  URL: https://www.jstor.org/stable/536306
+  author:
+  - &PaulGBrewster
+    given: Paul G.
+    family: Brewster
+  page: 114–124
+  in:
+    title: The Journal of American Folklore
+    volume: 62
+    issue: 244
+    issued:
+      month: 6
+      year: 1949
+HantuMusang:
+  type: article-journal
+  author: [*PaulGBrewster]
+  URL: https://www.jstor.org/stable/1578932
+  page: 162–76
+  title: The Malayan <span lang="ms">Hantu Musang</span> and Other Possession Games of Indonesia and Indochina
+  in:
+    title: Oriens
+    volume: 11
+    issue: 1
+    issued:
+      day: 31
+      month: 12
+      year: 1958
+ARomanGameBrewster:
+  type: article-journal
+  author: [*PaulGBrewster]
+  title: A Roman Game and Its Survival on Four Continents
+  URL: https://www.jstor.org/stable/264299
+  page: 134–7
+  in:
+    title: Classical Philology
+    volume: 38
+    issue: 2
+    issued:
+      month: 4
+      year: 1943
+TenGamesBrewster:
+  type: article-journal
+  title: Ten Games from Other Lands
+  URL: https://www.jstor.org/stable/1497586
+  author: [*PaulGBrewster]
+  page: 146–51
+  in: 
+    title: Western Folklore
+    volume: 8
+    issue: 2
+    issued:
+      month: 4
+      year: 1949
+TwoGamesFromAfrica:
+  type: article-journal
+  title: Two Games from Africa
+  author: [*PaulGBrewster]
+  page: 268–9
+  URL: https://www.jstor.org/stable/663095
+  in:
+    title: American Anthropologist
+    volume: 46
+    issue: 2
+    issued:
+      month: 6
+      year: 1944
+HowManyHorns:
+  type: article-journal
+  title: Some Notes on the Guessing-Game “How Many Horns Has The Buck?”
+  author:
+  - *PaulGBrewster
+  - given: Seán
+    family: Ó Súilleabháin
+  page: 40–79
+  URL: https://www.jstor.org/stable/20522058
+  in:
+    title: Béaloideas
+    volume: 13
+    issue: 1 # or 2
+    issued:
+      month: 12
+      year: 1943
+SomeGamesFromSouthernEurope:
+  type: article-journal
+  title: Some Games from Southern Europe
+  author: [*PaulGBrewster]
+  page: 109–112
+  URL: https://www.jstor.org/stable/4317271
+  in:
+    title: Midwest Folklore
+    volume: 1
+    issue: 2
+    issued:
+      season: Summer
+      year: 1951
+ForfeitGamesBrewster:
+  type: article-journal
+  title: Forfeit Games from Greece and Czechoslovakia
+  URL: https://www.jstor.org/stable/27649950
+  author: [*PaulGBrewster]
+  page: 76–83
+  in:
+    title: Hoosier Folklore
+    volume: 7
+    issue: 3
+    issued:
+      month: 9
+      year: 1948
+FourGamesOfTag:
+  type: article-journal
+  title: Four Games of Tag from India
+  URL: https://www.jstor.org/stable/4317307
+  author: [*PaulGBrewster]
+  page: 239–241
+  in:
+    title: Midwest Folklore
+    volume: 1
+    issue: 4
+    issued:
+      season: Winter
+      year: 1951
+AfricanBuccaBucca:
+  type: article-journal
+  title: Some African Variants of “Bucca, Bucca”
+  author: [*PaulGBrewster]
+  page: 293–296
+  URL: https://www.jstor.org/stable/3292421
+  in:
+    title: The Classical Journal
+    volume: 39
+    issue: 5
+    issued:
+      month: 2
+      year: 1944
+GamesInVirginia:
+  type: article-journal
+  title: Games in Virginia, 1773
+  author: [*PaulGBrewster]
+  page: 387
+  URL: https://www.jstor.org/stable/1497844
+  in: 
+    title: Western Folklore
+    volume: 7
+    issue: 4
+    issued:
+      month: 10
+      year: 1948
+TenGamesFromEurope:
+  type: article-journal
+  title: Ten Games from Europe
+  author: [*PaulGBrewster]
+  URL: https://www.jstor.org/stable/536290
+  page: 88–90
+  in:
+    title: The Journal of American Folklore
+    volume: 65
+    issue: 255
+    issued:
+      month: 3
+      year: 1952

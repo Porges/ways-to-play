@@ -24,3 +24,5 @@ See: [@LondonStreetGames p. 31], [@Petroniana1959], [@Petroniana1960]
 early mention in [@OnTheGrammars]
 
 Butt, Butt in [@MicatioDigitorumLetter]
+
+[@ARomanGameBrewster] [@HowManyHorns] [@AfricanBuccaBucca]
