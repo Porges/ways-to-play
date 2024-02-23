@@ -13947,3 +13947,35 @@ Littre2:
     lang: fr
     value: Librairie Hachette et Cie
   publisher-place: Paris
+GamesAndSportsBrewster:
+  type: article-journal
+  title: Games and Sports in Sixteenth- and Seventeenth-Century English Literature
+  author:
+  - given: Paul G.
+    family: Brewster
+  page: 143–156
+  URL: https://www.jstor.org/stable/1496294
+  in:
+    title: Western Folklore
+    volume: 6
+    issue: 2
+    issued:
+      month: 4
+      year: 1947
+StudiesInCheremis:
+  type: book
+  title: Studies in Cheremis
+  volume: 6
+  volume-title: Games
+  URL: https://hdl.handle.net/2027/umn.319510022653107
+  author:
+  - given: Thomas A.
+    family: Sebeok
+  - given: Paul G.
+    family: Brewster
+  publisher: Indiana University Press
+  publisher-place: Bloomington, Indiana, USA
+  issued: 1958
+  series:
+    title: Indiana University Publications Folklore Series
+    number: 11
