@@ -14449,6 +14449,7 @@ CertainGamblingKlamath:
       year: 1901
 GamesTarascans:
   type: article-journal
+  title: Games of the Mountain Tarascans
   author:
   - given: Ralph L.
     family: Beals
@@ -14469,7 +14470,7 @@ CactusBuffalo:
   author:
   - given: Raymond A.
     family: Bucko
-  pages: 14–31, 91–92
+  page: 14–31, 91–92
   URL: https://www.jstor.org/stable/4520870
   in:
     title: 'Montana: The Magazine of Western History'
