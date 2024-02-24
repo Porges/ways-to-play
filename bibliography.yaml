@@ -503,8 +503,8 @@ CulinPhilippine:
   page: 643–656
   URL: http://www.jstor.org/stable/659313
   in:
-    title: American Anthropologist
-    volume: 2 # TODO (New Series)
+    title: American Anthropologist (New Series)
+    volume: 2
     issue: 4
     issued:
       year: 1900
@@ -14142,3 +14142,340 @@ TenGamesFromEurope:
     issued:
       month: 3
       year: 1952
+EastwardHoe:
+  type: book
+  title: Eastward Hoe
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_eastward-hoe_chapman-george_1605/
+  author:
+  - given: George
+    family: Chapman
+    url: https://en.wikipedia.org/wiki/George_Chapman
+  issued: 1605
+  publisher: William Aspley
+  publisher-place: London
+SomeGamesOjibwa:
+  type: article-journal
+  title: Some Games of the Bois Fort Ojibwa
+  author:
+  - given: Albert B.
+    family: Reagan
+  - given: F. W.
+    family: Waugh
+  page: 264-278
+  URL: https://www.jstor.org/stable/660478
+  in:
+    title: American Anthropologist (New Series)
+    volume: 21
+    issue: 3
+    issued:
+      month: 9
+      year: 1919
+ThreeGamesGodsave:
+  type: article-journal
+  title: Three games
+  author:
+  - given: Bruce F.
+    family: Godsave
+  page: 327–9
+  URL: https://www.jstor.org/stable/41186394
+  in:
+    title: The Arithmetic Teacher
+    volume: 18
+    issue: 5
+    issued:
+      year: 1971
+      month: 5
+GamesFilipinoChildren:
+  type: article-journal
+  title: Some Games of Filipino Children
+  author:
+  - given: Fletcher
+    family: Gardner
+  URL: https://www.jstor.org/stable/534656
+  page: 119–120
+  in:
+    title: The Journal of American Folklore
+    volume: 20
+    issue: 77
+    issued:
+      month: 6
+      year: 1907
+TangGa:
+  type: article-journal
+  title: Tang’-Ga, A Philippine Pa-Ma’-To Game
+  author:
+  - given: Albert Ernest
+    family: Jenks
+  page: 82–7
+  URL: https://www.jstor.org/stable/659166
+  in:
+    title: American Anthropologist (New Series)
+    volume: 8
+    issue: 1
+    issued:
+      month: 3
+      year: 1906
+FenianPastime:
+  type: article-journal
+  title: ‘A Fenian pastime’? Early Irish board games and their identification with chess
+  author:
+  - given: Timothy
+    family: Harding
+  page: 1-22
+  URL: https://www.jstor.org/stable/20750042
+  in:
+    title: Irish Historical Studies
+    volume: 37
+    issue: 145
+    issued:
+      month: 5
+      year: 2010
+KurkeBoardGames:
+  type: article-journal
+  title: Ancient Greek Board Games and How to Play Them
+  author:
+  - given: Leslie
+    family: Kurke
+  URL: https://www.jstor.org/stable/270405
+  page: 247–67
+  in:
+    title: Classical Philology
+    volume: 94
+    issue: 3
+    issued:
+      year: 1999
+      month: 7
+RomanBoardGamesI:
+  type: article-journal
+  title: Roman Board Games. I
+  author:
+  - &RGAustin
+    given: R. G.
+    family: Austin
+  page: 24-34
+  URL: https://www.jstor.org/stable/641231
+  in:
+    title: Greece & Rome
+    volume: 4
+    issue: 10
+    issued:
+      month: 10
+      year: 1934
+RomanBoardGamesII:
+  type: article-journal
+  title: Roman Board Games. II
+  author: [*RGAustin]
+  page: 76-82
+  URL: https://www.jstor.org/stable/640979
+  in:
+    title: Greece & Rome
+    volume: 4
+    issue: 11
+    issued:
+      month: 2
+      year: 1935
+FourBoardGames:
+  type: chapter
+  title: Four Board Games
+  author:
+  - given: Eriola
+    family: Jakoel
+  - given: Uzi
+    family: ‘Ad
+  URL: https://www.jstor.org/stable/jj.3452813.21
+  page: 325-330
+  in: 
+    title: 'The Naḥal Tanninim Dam and its Vicinity: Final Report of the 2000–2005 Excavation Seasons'
+    issued: 2023
+    publisher: Israel Antiquities Authority
+    publisher-place: Jerusalem
+    author:
+    - given: Yosef
+      family: Porath
+    - given: Uzi
+      family: ‘Ad
+    - given: ‘Abed
+      family: al-Salam Sa‘id
+    ISBN: 9789654067720
+    series:
+      title: Israel Antiquities Authority Reports
+      volume: 71
+TheBao:
+  type: chapter
+  title: 'The <span lang="bnt">bao</span>: a board game in Africa’s antiquity'
+  URL: https://www.jstor.org/stable/j.ctt1gxxpc6.13
+  author:
+  - given: Mwanzia
+    family: Kyule
+  page: 93-107
+  in:
+    title: 'Conservation of Natural and Cultural Heritage in Kenya: A Cross-Disciplinary Approach'
+    issued: 2016
+    editor:
+    - given: Anne-Marie
+      family: Deisser
+    - given: Mugwinma
+      family: Njuguna
+    publisher: UCL Press
+    publisher-place: London
+    ISBN: 9781910634844
+KnossosBoard:
+  type: article-journal
+  title: The Knossos Game Board
+  author:
+  - given: Robert S.
+    family: Brumbaugh
+  page: 135–7
+  URL: https://www.jstor.org/stable/503893
+  in:
+    title: American Journal of Archaeology
+    publisher: The University of Chicago Press
+    volume: 79
+    issue: 2
+    issued:
+      month: 4
+      year: 1975
+BoardGamesEasternCardo:
+  type: chapter
+  title: Board Games from the Eastern Cardo
+  author:
+  - given: Michael
+    family: Sebbane
+  page: 147–164
+  URL: https://www.jstor.org/stable/j.ctvpb3vzw.10
+  in:
+    title: Jerusalem Western Wall Plaza Excavations
+    volume: 1
+    volume-title: 'The Roman and Byzantine Remains: Architecture and Stratigraphy'
+    publisher: Israel Antiquities Authority
+    publisher-place: Jerusalem, Israel
+    author:
+    - given: Shlomit
+      family: Weksler-Bdolhah
+    - given: Alexander
+      family: Onn
+    issued: 2019
+    ISBN: 9789654066952
+GamesFrenchLouisiana:
+  type: article-journal
+  title: 'What Games Can Say: Two Medieval Games from French Louisiana'
+  author:
+  - given: Malcolm L.
+    family: Comeaux
+  URL: https://www.jstor.org/stable/4234083
+  page: 47–63
+  in:
+    title: 'Louisiana History: The Journal of the Louisiana Historical Association'
+    volume: 46
+    issue: 1
+    issued:
+      season: Winter
+      year: 2005
+ChildrensGamesOffaly:
+  type: article-journal
+  title: Children’s Games from Offaly
+  author:
+  - given: Pádraig
+    family: Ó Conchubhair
+  - given: Máire
+    family: Nic Neill
+  URL: https://www.jstor.org/stable/20722830
+  page: 186–200
+  in:
+    title: Béaloideas
+    volume: 17
+    issue: 2
+    issued: 1947
+GamesCaliforniaIndians:
+  type: article-journal
+  title: Games of the California Indian
+  author:
+  - given: A. L.
+    family: Kroeber
+  page: 272–27
+  URL: https://www.jstor.org/stable/660743
+  in:
+    title: American Anthropologist (New Series)
+    volume: 22
+    issue: 3
+    issued:
+      month: 9
+      year: 1920
+GamesOfTheGreekBoy:
+  type: article-journal
+  title: The Games of the Greek Boy
+  author:
+  - given: Walter S.
+    family: Hett
+  page: 24–9
+  URL: https://www.jstor.org/stable/641184
+  in:
+    title: Greece & Rome
+    volume: 1
+    issue: 1
+    issued:
+      month: 10
+      year: 1931
+SportsAndGamesAmericanRevolution:
+  type: article-journal
+  title: Sports and Games of the American Revolution
+  author:
+  - given: Bonnie S.
+    family: Lebetter
+  page: 29–40
+  URL: https://www.jstor.org/stable/43609001
+  in:
+    title: Journal of Sport History
+    volume: 6
+    issue: 3
+    issued:
+      season: Winter
+      year: 1979
+    publisher: University of Illinois Press
+CertainGamblingKlamath:
+  type: article-journal
+  title: Certain Gambling Games of the Klamath Indians
+  author:
+  - given: George A.
+    family: Dorsey
+  page: 14–27
+  URL: https://www.jstor.org/stable/659390
+  in:
+    title: American Anthropologist (New Series)
+    volume: 3
+    issue: 1
+    issued:
+      month: 3
+      year: 1901
+GamesTarascans:
+  type: article-journal
+  author:
+  - given: Ralph L.
+    family: Beals
+  - given: Pedro
+    family: Carrasco
+  URL: https://www.jstor.org/stable/663534
+  page: 516–522
+  in:
+    title: American Anthropologist (New Series)
+    volume: 46
+    issue: 4
+    issued:
+      month: 12
+      year: 1944
+CactusBuffalo:
+  type: article-journal
+  title: When Does a Cactus Become an Angry Buffalo? Traditional Games of the Lakotas
+  author:
+  - given: Raymond A.
+    family: Bucko
+  pages: 14–31, 91–92
+  URL: https://www.jstor.org/stable/4520870
+  in:
+    title: 'Montana: The Magazine of Western History'
+    volume: 57
+    issue: 1
+    issued:
+      season: Spring
+      year: 2007
+      
