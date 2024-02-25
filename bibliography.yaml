@@ -14798,4 +14798,14 @@ JeuxTouaregs:
     volume: 58
     issue: 1
     issued: 1988
-    
+LakeDwellingsOfIreland:
+  type: book
+  title: 'The Lake Dwellings of Ireland: or, Ancient Lacustrine Habitations of Erin, Commonly Called Crannogs'
+  author:
+  - given: W. G.
+    family: Wood-Martin
+  publisher: Hodges, Figgis & Co.
+  URL: https://archive.org/details/lakedwellingsofi00woodiala
+  publisher-place: Dublin
+  issued: 1886
+  notes: See page 128 onwards.
