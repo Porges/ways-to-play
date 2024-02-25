@@ -128,11 +128,11 @@ Hanafuda:
     month: 4
 OnSiameseLiterature:
   type: article-journal
-  title: On Siamese Literature
+  title: On Siamese Literature # Part Second: Entertainments, Games and Amusements
   author:
     - family: Low
       given: James
-  page: 374–392
+  page: 334–392 # second part starts at 374
   URL: https://archive.org/details/in.ernet.dli.2015.530375/page/n375
   in:
     title: Asiatic Researches
@@ -1662,6 +1662,7 @@ ChigoJapanese:
 MakingShinkokinshu:
   type: book
   title: The Making of Shinkokinshū
+  URL: https://www.jstor.org/stable/j.ctt1tg5k8r
   author:
     - given: Robert
       family: Huey
@@ -5325,6 +5326,7 @@ deClercqPehiSpel:
     value: Verklaring van het Péhi-spel
     lang: nl
   URL: https://munas.kemdikbud.go.id/ebook/file/tijd/TBG1876_23.pdf
+  archive-URL: https://web.archive.org/web/20231212123343/https://munas.kemdikbud.go.id/ebook/file/tijd/TBG1876_23.pdf
   author:
     - given: Frederik Sigismund Alexander
       family: de Clercq
@@ -7999,8 +8001,33 @@ DictionnaireAncienne3:
       lang: fr
       url: https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Godefroy
   volume: 3
-  volume-title: É–FILDRON
+  volume-title: É–Fildron
   issued: 1884
+  publisher: F. Vieweg
+  publisher-place: Paris
+DictionnaireAncienne2:
+  type: book
+  URL: https://archive.org/details/dictionnairedela02godeuoft
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author: [*Frederic_Godefroy]
+  volume: 2
+  volume-title: Casteillon–Dyvis
+  issued: 1883
+  publisher: F. Vieweg
+  publisher-place: Paris
+DictionnaireAncienne1:
+  type: book
+  URL: https://archive.org/details/dictionnairedela01godeuoft
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author: [*Frederic_Godefroy]
+  volume: 1
+  volume-title: A–Castaigneux
+  issued: 1881
+  publisher: F. Vieweg
   publisher-place: Paris
 DictionnaireAncienne4:
   type: book
@@ -8008,15 +8035,87 @@ DictionnaireAncienne4:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
-  author:
-  - *Frederic_Godefroy
+  author: [*Frederic_Godefroy]
   volume: 4
-  volume-title: FILÉ–LISTAGE
+  volume-title: Filé–Listage
   issued: 1885
+  publisher: F. Vieweg
   publisher-place: Paris
-DictionnaireHistorique6:
+DictionnaireAncienne5:
   type: book
-  URL: https://archive.org/details/dictionnairehis08conggoog
+  URL: https://archive.org/details/GodefroyDictionnaire5
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author: [*Frederic_Godefroy]
+  volume: 5
+  volume-title: Liste–Parsomme
+  issued: 1888
+  publisher: F. Vieweg
+  publisher-place: Paris
+DictionnaireAncienne6:
+  type: book
+  URL: https://archive.org/details/GodefroyDictionnaire6
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author: [*Frederic_Godefroy]
+  volume: 6
+  volume-title: Parsommer–Remembrance
+  issued: 1889
+  publisher: Émile Bouillon
+  publisher-place: Paris
+DictionnaireAncienne7:
+  type: book
+  URL: https://archive.org/details/GodefroyDictionnaire7
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author: [*Frederic_Godefroy]
+  volume: 7
+  volume-title: Remembrant–Traioir
+  issued: 1892
+  publisher: Émile Bouillon
+  publisher-place: Paris
+DictionnaireAncienne8:
+  type: book
+  URL: https://archive.org/details/GodefroyDictionnaire8
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author: [*Frederic_Godefroy]
+  volume: 8
+  volume-title: Traire–Zygaine, & Complément A–Carrefour
+  issued: 1895
+  publisher: Émile Bouillon
+  publisher-place: Paris
+DictionnaireAncienne9:
+  type: book
+  URL: https://archive.org/details/dictionnairedela09godeuoft
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author: [*Frederic_Godefroy]
+  volume: 9
+  volume-title: Complément Carrel–Inaccostable
+  issued: 1898
+  publisher: Émile Bouillon
+  publisher-place: Paris
+DictionnaireAncienne10:
+  type: book
+  URL: https://archive.org/details/dictionnairedela10godeuoft
+  title:
+    value: Dictionnaire de L’Ancienne Langue Française
+    lang: fr
+  author: [*Frederic_Godefroy]
+  volume: 10
+  volume-title: Complément Inaccoutumé–Zoophyte
+  issued: 1902
+  publisher: Émile Bouillon
+  publisher-place: Paris
+DictionnaireHistorique1:
+  type: book
+  URL: https://archive.org/details/dictionnairehis07conggoog
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
@@ -8025,9 +8124,70 @@ DictionnaireHistorique6:
       given: Jean-Baptiste
       family: de La Curne de Sainte-Palaye
       url: https://en.wikipedia.org/wiki/Jean-Baptiste_de_La_Curne_de_Sainte-Palaye
+  volume: 1
+  volume-title: A–AO
+  issued: 1876
+  publisher: H. Champion
+  publisher-place: Paris
+DictionnaireHistorique2:
+  type: book
+  URL: https://archive.org/details/dictionnairehis00conggoog
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author: [*Jean_Baptiste]
+  volume: 2
+  volume-title: AP–BIC
+  issued: 1876
+  publisher: H. Champion
+  publisher-place: Paris
+DictionnaireHistorique3:
+  type: book
+  URL: https://archive.org/details/dictionnairehis03conggoog
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author: [*Jean_Baptiste]
+  volume: 3
+  volume-title: BID–CHIC
+  issued: 1877
+  publisher: H. Champion
+  publisher-place: Paris
+DictionnaireHistorique4:
+  type: book
+  URL: https://archive.org/details/dictionnairehis06conggoog
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author: [*Jean_Baptiste]
+  volume: 4
+  volume-title: CHIE–DECA
+  issued: 1877
+  publisher: H. Champion
+  publisher-place: Paris
+DictionnaireHistorique5:
+  type: book
+  URL: https://archive.org/details/dictionnairehis05conggoog
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author: [*Jean_Baptiste]
+  volume: 5
+  volume-title: DECE–ESCH
+  issued: 1878
+  publisher: H. Champion
+  publisher-place: Paris
+DictionnaireHistorique6:
+  type: book
+  URL: https://archive.org/details/dictionnairehis08conggoog
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author: [*Jean_Baptiste]
   volume: 6
   volume-title: ESCI–GUY
   issued: 1879
+  publisher: H. Champion
   publisher-place: Paris
 DictionnaireHistorique7:
   type: book
@@ -8035,11 +8195,46 @@ DictionnaireHistorique7:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
-  author:
-    - *Jean_Baptiste
+  author: [*Jean_Baptiste]
   volume: 7
   volume-title: H–MYT
   issued: 1880
+  publisher: H. Champion
+  publisher-place: Paris
+DictionnaireHistorique8:
+  type: book
+  URL: https://archive.org/details/dictionnairehis02conggoog
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author: [*Jean_Baptiste]
+  volume: 8
+  volume-title: N–QUQ
+  issued: 1880
+  publisher: H. Champion
+  publisher-place: Paris
+DictionnaireHistorique9:
+  type: book
+  URL: https://archive.org/details/dictionnairehist09sainuoft
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author: [*Jean_Baptiste]
+  volume: 9
+  issued: 1880
+  publisher: L. Favre
+  publisher-place: Niort
+DictionnaireHistorique10:
+  type: book
+  URL: https://archive.org/details/dictionnairehis00moucgoog
+  title:
+    value: Dictionnaire Historique de L’Ancien Langage François
+    lang: fr
+  author: [*Jean_Baptiste]
+  volume: 10
+  volume-title: T–Z
+  issued: 1882
+  publisher: H. Champion
   publisher-place: Paris
 CompleteGuideWinningKeno:
   type: book
@@ -12258,6 +12453,7 @@ Simaloerese:
     value: Simaloerese Sprookjes, Overleveringen, Raadsels en Spelen
   page: 1-14
   URL: https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
+  archive-URL: https://web.archive.org/web/20240130222315/https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
   in:
     title: *Tijd
     volume: 58
@@ -14479,4 +14675,127 @@ CactusBuffalo:
     issued:
       season: Spring
       year: 2007
-      
+PrichardCroquet: #owned
+  type: book
+  title: The History of Croquet
+  author:
+  - given: D. M. C.
+    family: Prichard
+  ISBN: '0304307599'
+  publisher: Cassel
+  publisher-place: London
+  issued: 1981
+AkambaEastAfrica:
+  type: book
+  title: The Akamba in British East Africa
+  author:
+  - given: Gerhard
+    family: Lindblom
+    url: https://en.wikipedia.org/wiki/Gerhard_Lindblom
+  edition: 2
+  publisher-place: Uppsala, Sweden
+  issued: 1920
+  publisher: Appelbergs Boktryckeri Aktiebolag
+  notes: See Chapter 23, “Toys and games”
+  URL: https://archive.org/details/akambainbritishe00linduoft
+GwerinFfristial:
+  type: article-journal
+  title:
+    value: Gwrin Ffristial A Thawlbwrdd
+    lang: cy
+  URL: https://journals.library.wales/view/1386666/1412278/190
+  page: 185–205
+  author:
+  - given: Frank
+    family: Lewis
+  in:
+    title: Transactions of the Honourable Society of Cymmrodorion
+    volume: 1941
+    issued: 1943
+    publisher-place: London
+NativeGamesOfCentralAfrica:
+  type: article-journal
+  URL: https://www.jstor.org/stable/2843549
+  title: Native Games of Central Africa
+  author:
+  - given: Meredith G.
+    family: Sanderson
+  page: 726–36
+  in:
+    volume: 43
+    title: The Journal of the Royal Anthropological Institute of Great Britain and Ireland
+    issued:
+      month: 12
+      year: 1913
+HistoryOfJava:
+  type: book
+  URL: https://archive.org/details/historyjava00raffgoog
+  notes: See page 390 onwards.
+  title: The History of Java
+  volume: 1
+  edition: 2
+  publisher: John Murray
+  publisher-place: London
+  issued: 1830
+  author:
+  - given: Thomas Stamford
+    family: Raffles
+TheBurman_2e:
+  title: 'The Burman: His Life and Notions'
+  type: book
+  author:
+  - given: Shway
+    family: Yoe
+    url: https://en.wikipedia.org/wiki/James_George_Scott
+    alt: James George Scott
+  publisher: Macmillan and Co.
+  publisher-place: London and New York
+  issued: 1896
+  edition: 2
+  URL: https://archive.org/details/burmanhislifeno00scot
+  notes: See Chapter 37 on chess and 38 on games.
+TheBurman_3e:
+  title: 'The Burman: His Life and Notions'
+  type: book
+  author:
+  - given: Shway
+    family: Yoe
+    url: https://en.wikipedia.org/wiki/James_George_Scott
+    alt: James George Scott
+  publisher: Macmillan and Co.
+  publisher-place: London and New York
+  issued: 1910
+  edition: 3
+  URL: https://archive.org/details/in.ernet.dli.2015.173171
+  notes: This edition revises the romanization. See Chapter 37 on chess and 38 on games.
+TheBaVenda: 
+  type: book
+  URL: https://repository.up.ac.za/handle/2263/59437
+  archive-URL: https://web.archive.org/web/20230104203300/https://repository.up.ac.za/bitstream/handle/2263/59437/the_bavenda_1931.pdf?sequence=20&isAllowed=y
+  issued: 1931
+  author:
+  - given: Hugh A.
+    family: Stayt
+  publisher: Oxford University Press
+  publisher-place: London
+  title: The BaVenda
+  notes: See page 96 for children’s games, Appendix I for Mefuvha and Ndode.
+JeuxTouaregs:
+  type: article-journal
+  title:
+    value: Jeux touaregs de la région d’Agadez
+    lang: fr
+  author:
+  - given: Dominique
+    family: Casajus
+    lang: fr
+  page: 23–49
+  URL: https://www.persee.fr/doc/jafr_0399-0346_1988_num_58_1_2247
+  in:
+    title:
+      lang: fr
+      value: Journal des Africanistes
+    volume: 58
+    issue: 1
+    issued: 1988
+    
