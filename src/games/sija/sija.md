@@ -39,6 +39,8 @@ https://www.alaraby.co.uk/%22%D8%A7%D9%84%D8%B3%D9%8A%D8%AC%D8%A9%22-%D8%AA%D8%B
 
 Shantarad or Bub in @SomaliGames [p. 505]
 
+See also [@ArabGamesAndPuzzles]
+
 <!--
 
 هناك ثلاث ألعاب تحمل اسم السيجة وهم:

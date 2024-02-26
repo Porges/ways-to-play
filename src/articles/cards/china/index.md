@@ -43,8 +43,7 @@ Japanese cards %} for more).
 ## Types of cards
 
 <!--
-TODO: @ModernChineseCharacterCards
-
+TODO: @ModernChineseCharacterCards, @BerryChineseSuit
 -->
 
 The many types of Chinese and Chinese-derived cards can be broken down into several broad categories, as follows.

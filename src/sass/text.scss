@@ -1,118 +1,76 @@
 /* present proper nouns upright as there is no need to distinguish from surrounding text */
 span[lang]:not(.noun):is( // Italicize all *-Latn languages:
-  [lang*="-Latn"],
+  [lang*="-Latn" i],
   // Italicize non-English (but Latin) languages:
-  [lang|=ace],
-  // Acehnese
-  [lang|=bjn],
-  /* Banjarese */
-  [lang|=bnt],
-  /* Bantu (family) */
-  [lang|=ca],
-  // Catalan
-  [lang|=cbl],
-  // Chin (Bualkhaw)
-  [lang|=cfm],
-  // Chin (Falam)
-  [lang|=da],
-  /* Danish */
-  [lang|=de],
-  /* German */
-  [lang|=dtp],
-  /* Dusun(ic) */
-  [lang|=ee],
-  /* Ewe */
-  [lang|=es],
-  /* Spanish */
-  [lang|=fil],
-  /* Filipino */
-  [lang|=fr],
-  /* French */
-  [lang|=ga],
-  /* Gaelic */
-  [lang|=gsw],
-  /* Swiss German */
-  [lang|=gup],
-  /* Bininj Kunwok */
-  [lang|=haw],
-  /* Hawaiian */
-  [lang|=hu],
-  /* Hungarian */
-  [lang|=id],
-  /* Indonesian */
-  [lang|=is],
-  /* Icelandic */
-  [lang|=it],
-  /* Italian */
-  [lang|=kew],
-  /* Kewa (West) */
-  [lang|=kxd],
-  /* Brunei Malay */
-  [lang|=la],
-  /* Latin */
-  [lang|=mbw],
-  /* Maring */
-  [lang|=mcm],
-  /* Kristang */
-  [lang|=mi],
-  /* Māori */
-  [lang|=mfa],
-  /* Pattani Malay */
-  [lang|=mg],
-  /* Malagasy */
-  [lang|=min],
-  /* Minangkabau */
-  [lang|=mnk],
-  /* Mandinka */
-  [lang|=mnr],
-  /* Mono */
-  [lang=ms],
-  /* Malay (meta-language) */
-  [lang|=nl],
-  /* Dutch */
-  [lang|=no],
-  /* Norwegian */
-  [lang|=nso],
-  /* sePedi */
-  [lang|=pcc],
-  /* Bouyei */
-  [lang|=pis],
-  /* Pijin (Solomon Islands) */
-  [lang|=pt],
-  /* Portuguese */
-  [lang|=raw],
-  /* Rawang */
-  [lang|=rng],
-  /* Ronga */
-  [lang|=sm],
-  /* Samoa */
-  [lang|=sn],
-  /* Shona */
-  [lang|=so],
-  /* Somali */
-  [lang|=st],
-  /* seSotho */
-  [lang|=sv],
-  /* Swedish */
-  [lang|=tiw],
-  /* Tiwi */
-  [lang|=tn],
-  /* Tswana */
-  [lang|=to],
-  /* Tongan */
-  [lang|=tpi],
-  /* Tok Pisin */
-  [lang|=tr],
-  // Turkish
-  [lang|=urh],
-  // Urhobo
-  [lang|=ve],
-  /* Venda */
-  [lang=vi],
-  /* Vietnamese (but not vi-Hani) */
-  [lang|=yo],
-  /* Yoruba */
+  [lang|=ace], // Acehnese
+  [lang|=bem], // Bemba
+  [lang|=bjn], // Banjarese
+  [lang|=bnt], // Bantu (family)
+  [lang|=ca], // Catalan
+  [lang|=cbl], // Chin (Bualkhaw)
+  [lang|=cfm], // Chin (Falam)
+  [lang|=da], // Danish 
+  [lang|=de], // German 
+  [lang|=dtp], // Dusun(ic) 
+  [lang|=ee], // Ewe 
+  [lang|=es], // Spanish 
+  [lang|=fil], // Filipino 
+  [lang|=fr], // French 
+  [lang|=ga], // Gaelic
+  [lang|=gsw], // Swiss German
+  [lang|=gup], // Bininj Kunwok
+  [lang|=haw], // Hawaiian 
+  [lang|=hu], // Hungarian 
+  [lang|=id], // Indonesian 
+  [lang|=is], // Icelandic 
+  [lang|=it], // Italian
+  [lang|=ilb], // Ila
+  [lang|=kew], // Kewa (West) 
+  [lang|=kxd], // Brunei Malay 
+  [lang|=ksx], // Kédang 
+  [lang|=la], // Latin
+  [lang|=lg], // Luganda
+  [lang|=loz], // Lozi
+  [lang|=lun], // Lunda
+  [lang|=mbw], // Maring 
+  [lang|=mcm], // Kristang
+  [lang|=mi], // Māori
+  [lang|=mfa], // Pattani Malay
+  [lang|=mg], // Malagasy
+  [lang|=min], // Minangkabau 
+  [lang|=mnk], // Mandinka 
+  [lang|=mnr], // Mono 
+  [lang=ms], // Malay (meta-language) - exclude ms-Arab
+  [lang|=nl], // Dutch 
+  [lang|=no], // Norwegian 
+  [lang|=nso], // sePedi 
+  [lang|=pcc], // Bouyei 
+  [lang|=pis], // Pijin (Solomon Islands) 
+  [lang|=pt], // Portuguese 
+  [lang|=raw], // Rawang 
+  [lang|=rn], // Rundi
+  [lang|=rng], // Ronga 
+  [lang|=rw], // Kinyarwanda
+  [lang|=sm], // Samoa 
+  [lang|=smi], // Sámi
+  [lang|=sn], // Shona 
+  [lang|=so], // Somali 
+  [lang|=st], // seSotho 
+  [lang|=sv], // Swedish 
+  [lang|=tiw], // Tiwi 
+  [lang|=tn], // Tswana 
+  [lang|=to], // Tongan
+  [lang|=toi], // Tonga (Zimbabwe)
+  [lang|=tpi], // Tok Pisin
+  [lang|=tr], // Turkish
+  [lang|=tum], // Tumbuka
+  [lang|=tw], // Twi
+  [lang|=urh], // Urhobo
+  [lang|=ve], // Venda
+  [lang=vi], // Vietnamese (but not vi-Hani)
+  [lang|=yo], // Yoruba
   [lang|=zu] // isiZulu
+
 ) {
   font-style: italic;
 }
@@ -135,29 +93,31 @@ rt {
   font-variant-east-asian: ruby;
 }
 
-span[lang]:lang(el):not(:lang(el-Latn))  {
+span[lang]:lang(el):not(:lang(el-Latn)) {
   // Charis does not have good coverage of Greek
   font-family: serif;
 }
 
 // Not using :is(span,cite) as that is slower to evaluate for some reason
-span[lang], cite[lang]  {
+span[lang],
+cite[lang] {
+
   // Use a Vietnamese-specific font, if present:
   &:lang(vi-Hani) {
     font-family: "Nom Na Tong", serif;
   }
 
   // Use a specific font for Arabic/Persian/etc, or else we get Times New Roman on Windows:
-  &:is(
-    :lang(fa):not(:lang(fa-Latn)), /* Persian */
-    :lang(ar):not(:lang(ar-Latn)), /* Arabic */
-    :lang(ur):not(:lang(ur-Latn)), /* Urdu */
-    :lang(ota):not(:lang(ota-Latn)), /* Old Turkish */
+  &:is( :lang(fa):not(:lang(fa-Latn)), // Persian 
+    :lang(ar):not(:lang(ar-Latn)), // Arabic
+    :lang(ur):not(:lang(ur-Latn)), // Urdu
+    :lang(ota):not(:lang(ota-Latn)), // Old Turkish
     // *-Arab is not yet supported
-    :lang(ms-Arab), /* Malay */
-    :lang(pa-Arab), /* Punjabi */
-    :lang(wni-Arab)) /* Comorian */
-    { 
+    :lang(ms-Arab), // Malay
+    :lang(pa-Arab), // Punjabi
+    :lang(wni-Arab) // Comorian
+
+  ) {
     font-family: "Noto Naksh", serif;
   }
 }
@@ -171,12 +131,22 @@ span[lang]:lang(egy):not(:lang(egy-Latn)) {
 cite[lang]:lang(zh):not(:lang(zh-Latn)) {
   font-style: inherit;
 
-  &::before { content: '《'; }
-  &::after { content: '》'; }
+  &::before {
+    content: '《';
+  }
+
+  &::after {
+    content: '》';
+  }
 
   cite {
-    &::before { content: '〈 '; }
-    &::after { content: '〉'; }
+    &::before {
+      content: '〈 ';
+    }
+
+    &::after {
+      content: '〉';
+    }
   }
 }
 
@@ -184,12 +154,26 @@ cite[lang]:lang(ja):not(:lang(ja-Latn)),
 cite[lang]:lang(ko):not(:lang(ko-Latn)) {
   font-style: inherit;
 
-  &::before { content: '『' }
-  &::after { content: '』' }
+  &::before {
+    content: '『'
+  }
+
+  &::after {
+    content: '』'
+  }
 
   cite {
-    &::before { content: '「' };
-    &::after { content: '」'};
+    &::before {
+      content: '「'
+    }
+
+    ;
+
+    &::after {
+      content: '」'
+    }
+
+    ;
   }
 }
 

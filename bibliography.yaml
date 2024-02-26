@@ -146,7 +146,7 @@ NineMensDice:
     - family: Schädler
       given: Ulrich
   page: 112-116
-  URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf
+  URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=109
   in: &bgs3
     title: Board Games Studies
     volume: 3
@@ -387,7 +387,8 @@ Bell:
   type: book
   title: Board and Table Games from Many Civilizations
   author:
-    - given: R. C.
+    - &RC_Bell
+      given: R. C.
       family: Bell
       url: https://en.wikipedia.org/wiki/Robert_Charles_Bell
   issued:
@@ -438,6 +439,20 @@ SomaliGames:
     volume: 61
     issued:
       year: 1931
+MarinLudo:
+  type: article-journal
+  title: An Ancestor of the Game of “Ludo”
+  URL: https://www.jstor.org/stable/2791716
+  page: 114–7
+  author:
+  - given: G.
+    family: Marin
+  in:
+    title: Man
+    volume: 42
+    issued:
+      month: 10
+      year: 1942
 KniziaDice:
   type: book
   title: Dice Games Properly Explained
@@ -1398,6 +1413,7 @@ NotesAndQueriesS8V12:
   publisher: John C. Francis
   publisher-place: London, England, UK
   URL: https://archive.org/details/s8notesqueries12londuoft
+  notes: See page 333 for replies about Nine Men’s Morris (F. C. Birkbeck Terry, George E. Dartnell).
 PeterBuck:
   type: book
   title: Arts and Crafts of Hawaii
@@ -2483,7 +2499,7 @@ OnTheRulesForTheRoyalGameOfUr:
   title: On the Rules for the Royal Game of Ur
   URL: https://archive.org/details/ancientboardgame0000unse/page/16
   author:
-    - &IL_Finkel
+    - &Irving_Finkel
       given: Irving L.
       family: Finkel
       url: https://en.wikipedia.org/wiki/Irving_Finkel
@@ -2496,11 +2512,11 @@ OnTheRulesForTheRoyalGameOfUr:
     publisher-place: London, UK
     publisher: British Museum Press
     editor:
-    - *IL_Finkel
+    - *Irving_Finkel
     ISBN: 9780714111537
 TheEgyptianGameOfTwentySquares:
   type: paper-conference
-  title: The Egyptian ‘Game of Twenty Squares’
+  title: 'The Egyptian “Game of Twenty Squares”: Is It Related to “Marbles” and the Game of the Snake?'
   URL: https://archive.org/details/ancientboardgame0000unse/page/69
   author:
     - given: Edgar B.
@@ -2510,6 +2526,7 @@ TheEgyptianGameOfTwentySquares:
 BoardGamesInLateImperialChina:
   type: paper-conference
   title: An Introduction to Board Games in Late Imperial China
+  URL: https://archive.org/details/ancientboardgame0000unse/page/125
   page: 125–132
   author:
   - &Andrew_Lo
@@ -3113,11 +3130,18 @@ JapaneseGamesOfMemory:
       lang: ja-Latn
   in: &asianGames
     title: "Asian Games: The Art of Contest"
-    ISBN: 0-87848-099-4
+    ISBN: '0-87848-099-4'
+    URL: https://archive.org/details/asiangamesartofc0000unse
+    editor:
+    - given: Colin
+      family: Mackenzie
+    - given: Irving
+      family: Finkel
     issued:
       year: 2004
     publisher: Asia Society
   page: 252–271
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/252
 EssaysInIdleness:
   type: book
   title: Essays in Idleness and Hōjōki
@@ -4976,7 +5000,8 @@ AdjiBoto:
   title: Adjiboto, an African Game of the Bush-Negroes of Dutch Guiana
   URL: http://www.jstor.org/stable/2789486
   author:
-    - given: Melville J.
+    - &MJ_Herskovits
+      given: Melville J.
       family: Herskovits
       url: https://en.wikipedia.org/wiki/Melville_J._Herskovits
   page: 122-127
@@ -4986,6 +5011,18 @@ AdjiBoto:
     issued:
       month: 7
       year: 1929
+HerskovitsWari:
+  type: article-journal
+  title: Wari in the New World
+  author: [*MJ_Herskovits]
+  page: 23–37
+  URL: https://www.jstor.org/stable/2843876
+  in:
+    title: The Journal of the Royal Anthropological Institute of Great Britain and Ireland
+    volume: 62
+    issued:
+      month: 6
+      year: 1932
 AtlitCastle:
   type: article-journal
   title: Excavations at Pilgrims’ Castle, ʿAtlit (1932–3); Stables at the
@@ -5343,7 +5380,8 @@ SchadlerMisconceptions:
   type: article-journal
   title: Some misconceptions about Ancient Roman Games
   author:
-    - given: Ulrich
+    - &Ulrich_Schadler
+      given: Ulrich
       family: Schädler
   page: 79–97
   URL: https://doi.org/10.2478/bgs-2021-0004
@@ -7208,9 +7246,18 @@ PrimitiveCulture:
   publisher-place: London
   publisher: John Murray
   author:
-    - given: Edward B.
+    - &EB_Tylor
+      given: Edward B.
       family: Tylor
       url: https://en.wikipedia.org/wiki/Edward_Burnett_Tylor
+TylorAnthropology:
+  type: book
+  title: 'Anthropology: an introduction to the study of man and civilization'
+  URL: https://archive.org/details/anthropologyintr00tylouoft
+  author: [*EB_Tylor]
+  publisher: MacMillan and Co.
+  publisher-place: London
+  issued: 1881
 IlGiuocoDellaMorra:
   type: article-magazine
   title:
@@ -7731,7 +7778,7 @@ SocialHeat:
       year: 2011
       month: 6
 BriefHistoryOfBackgammon:
-  type: chapter
+  type: paper-conference
   title: A Brief History of Backgammon and the Design of the Board
   author:
   - given: Malcolm J.
@@ -9193,20 +9240,19 @@ JeuxDeParcours:
     family: Depaulis
     lang: fr
     url: https://en.wikipedia.org/wiki/Thierry_Depaulis
-  URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf
+  URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=51
   page: 53–76
   in: &bgs4
     title: Board Games Studies
     volume: 4
     issued: 2001
-    publisher: Research School CNWS
-    publisher-place: Leiden, Netherlands
 DoubleSixes:
   type: chapter
   title: 'Double Sixes, Holding Spears, and the Long March: Games of the Backgammon Family in China'
   author:
   - *Andrew_Lo
   page: 97–103
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/97
   in: *asianGames
 TangGuoshiBu:
   type: book
@@ -10008,6 +10054,7 @@ MythicChineseUnicorn:
 LiuboFiveHundred:
   type: chapter
   title: "<span lang='zh-Latn'>Liubo</span>: The Five-Hundred-Year Craze"
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/112
   author: 
   - given: Colin
     family: Mackenzie
@@ -10094,16 +10141,18 @@ AdditionalLiuPo:
       year: 1952
       month: 6
 BackgammonAncientIndian:
-  type: chapter
+  type: paper-conference
   title: Board Games and Backgammon in Ancient Indian Sculpture
+  URL: https://archive.org/details/ancientboardgame0000unse/page/177
   author:
   - given: Micaela
     family: Soar
   page: 177-231
   in: *ancientBoardGamesInPerspective
 BackgammonLo:
-  type: chapter
+  type: paper-conference
   title: Notes on the Early History of the Backgammon Family in China
+  URL: https://archive.org/details/ancientboardgame0000unse/page/232
   page: 232-234
   author:
   - *Andrew_Lo
@@ -10523,7 +10572,6 @@ Jurisprudence5:
     - given: M.
       family: Lerasle
       lang: fr
-
   series:
     title:
       value: Encyclopédie Méthodique
@@ -12645,7 +12693,8 @@ SomeNotesMalayCardGames:
   type: article-journal
   title: Some Notes on Malay Card Games
   author:
-  - given: R. O.
+  - &RO_Winstedt
+    given: R. O.
     family: Winstedt
   URL: http://www.jstor.org/stable/41561623
   page: 85-88
@@ -12655,6 +12704,16 @@ SomeNotesMalayCardGames:
     issued:
       month: 6
       year: 1906
+PapersOnMalaySubjects:
+  type: book
+  title: Papers on Malay Subjects
+  author: [*RO_Winstedt]
+  issued: 1923
+  volume: 3
+  volume-title: Malay Amusements
+  publisher-place: Kuala Lumpur, Malaysia
+  publisher: Government Press
+  URL: https://archive.org/details/in.ernet.dli.2015.502629/page/n539
 IetsOver:
   type: article-journal
   title:
@@ -13317,6 +13376,21 @@ MekuriDistribution:
       month: 2
     editor:
     - *Trevor_Denning
+CheatingJapaneseCards:
+  type: article-journal
+  title: Cheating With Japanese Cards
+  author: [*John_Fairbairn]
+  URL: https://askalexander.org/display/22554/The+Playing-Card+Vol+16/117
+  page: 97-99
+  in: &IPCS_16_4
+    ISSN: *IPCS_SSN
+    title: *IPCS
+    volume: 16
+    issue: 4
+    issued:
+      year: 1988
+      month: 5
+    editor: [*Trevor_Denning]
 MamlukRemarks:
   type: article-journal
   title: Some Remarks on Mamluk Playing Cards
@@ -14446,7 +14520,7 @@ RomanBoardGamesI:
   title: Roman Board Games. I
   author:
   - &RGAustin
-    given: R. G.
+    given: Roland G.
     family: Austin
   page: 24-34
   URL: https://www.jstor.org/stable/641231
@@ -14470,6 +14544,40 @@ RomanBoardGamesII:
     issued:
       month: 2
       year: 1935
+AustinGreekBoardGames:
+  type: article-journal
+  title: Greek Board-Games
+  author: [*RGAustin]
+  URL: https://doi.org/10.1017/S0003598X00015258
+  page: 257–71
+  in:
+    title: Antiquity
+    issued: 
+      month: 9
+      year: 1940
+    volume: 14
+    issue: 55
+ZenosTable:
+  type: article-journal
+  title: Zeno’s Game of <span lang="el">τάβλη</span> (<cite>A.P.</cite> ix. 482)
+  author: [*RGAustin]
+  page: 202–205
+  URL: https://www.jstor.org/stable/626864
+  in:
+    title: The Journal of Hellenic Studies
+    volume: 54
+    issue: 2
+    issued: 1934
+AustinGameBoard:
+  type: article-journal
+  title: A Roman Game-Board from Holt, Deneighshire
+  author: [*RGAustin]
+  URL: https://journals.library.wales/view/4718179/4738154/343
+  page: 250–3
+  in: 
+    title: Archaeologia Cambrensis
+    volume: 93
+    issued: 1938
 FourBoardGames:
   type: chapter
   title: Four Board Games
@@ -14809,3 +14917,1612 @@ LakeDwellingsOfIreland:
   publisher-place: Dublin
   issued: 1886
   notes: See page 128 onwards.
+UrFirstPhases:
+  type: book
+  URL: https://archive.org/details/in.ernet.dli.2015.283957
+  title: 'Ur: The First Phases'
+  author:
+  - given: Leonard
+    family: Woolley
+    url: https://en.wikipedia.org/wiki/Leonard_Woolley
+  publisher: Penguin Books 
+  publisher-place: London and New York
+  issued: 1946
+ExcavationsDeirElBahri:
+  type: article-journal
+  title: Excavations at the Temple of Deir el Bahri, 1921–1931
+  author:
+  - given: H. E.
+    family: Winlock
+    url: https://en.wikipedia.org/wiki/Herbert_Eustis_Winlock
+  page: 321–41
+  URL: https://www.jstor.org/stable/984644
+  in:
+    title: Proceedings of the American Philosophical Society
+    volume: 71
+    issue: 6
+    issued:
+      month: 4
+      year: 1932
+AmongCongoCannibals:
+  type: book
+  title: Among Congo Cannibals
+  author:
+  - given: John H. 
+    family: Weeks
+  issued: 1913
+  publisher: J. B. Lippincott Company
+  publisher-place: Philadelphia
+  URL: https://archive.org/details/amongcongocannib00week_0
+  notes: See Chapter 10, ‘Native Games and Pastimes’.
+IlokoGames:
+  type: article-journal
+  title: Iloko Games
+  author:
+  - given: Morice
+    family: Vanoverbergh
+  page: 216–243
+  URL: https://www.jstor.org/stable/40445102
+  in:
+    title: Anthropos
+    volume: 22
+    issue: 2
+    issued:
+      month: 4
+      year: 1927
+TribesOfKaramoja:
+  type: article-journal
+  URL: https://www.jstor.org/stable/2843831
+  title: Preliminary Studies of the Tribes of Karamoja
+  author:
+  - &EJ_Wayland
+    given: E. J. 
+    family: Wayland
+    url: https://en.wikipedia.org/wiki/Edward_James_Wayland
+  page: 187–230
+  in: 
+    title: The Journal of the Royal Anthropological Institute of Great Britain and Ireland
+    volume: 61
+    issued:
+      month: 6
+      year: 1931
+GameOfMweso:
+  type: article-journal
+  title: The Game of Mweso in Uganda
+  author:
+  - given: H. J.
+    family: Braunholtz
+  URL: https://www.jstor.org/stable/2790037
+  page: 121–2
+  in:
+    title: Man
+    volume: 31
+    issued:
+      month: 7
+      year: 1931
+MancalaSongo:
+  type: article-journal
+  title: A Mancala Board Called “Songo”
+  author:
+  - given: P. H. G.
+    family: Powell-Cotton
+  - given: H. J.
+    family: Braunholtz
+  URL: https://www.jstor.org/stable/2790038
+  page: 123
+  in:
+    title: Man
+    volume: 31
+    issued:
+      month: 7
+      year: 1931
+MancalaNorthernRhodesia:
+  type: article-journal
+  title: A Note on Mancala Games in Northern Rhodesia
+  page: 168–70
+  URL: https://www.jstor.org/stable/2793414
+  author:
+  - given: J. H.
+    family: Chaplin
+  in:
+    title: Man
+    volume: 56
+    issued:
+      month: 12
+      year: 1956
+MancalaDahomey:
+  type: article-journal
+  title: Mancala-Board from Dahomey
+  page: 26
+  author:
+  - &TA_Joyce
+    given: T. A.
+    family: Joyce
+    url: https://en.wikipedia.org/wiki/Thomas_Athol_Joyce
+  URL: https://www.jstor.org/stable/4420934
+  in:
+    title: The British Museum Quarterly
+    volume: 3
+    issue: 1
+    issued:
+      month: 1
+      year: 1928
+FourVariationsMancala:
+  type: article-journal
+  title: A Comparison of Four Variations of Mancala Found in Central Africa
+  page: 205–14
+  URL: https://www.jstor.org/stable/40459232
+  author:
+  - given: Russel D.
+    family: Fernald
+  in:
+    title: Anthropos
+    volume: 73
+    issue: 2 # todo check
+    issued: 1978
+MancalaKedang:
+  type: article-journal
+  title: 'Mancala in Kédang: A Structural Test'
+  author:
+  - given: R. H.
+    family: Barnes
+  page: 67–85
+  URL: https://www.jstor.org/stable/27861440
+  in:
+    title:
+      lang: nl
+      value: Bijdragen tot de Taal-, Land- en Volkenkunde 
+    volume: 131
+    issue: 1
+    issued: 1975
+GameOfMancalaCommonalities:
+  type: article-journal
+  title: 'The Game of Mancala with Reference to Commonalities among the Peoples of Ethiopia and in Comparison to Other African Peoples: Rules and Strategies'
+  author:
+  - given: Anthula
+    family: Natsoulas
+  page: 7–24
+  URL: https://www.jstor.org/stable/41931202
+  in:
+    title: Northeast African Studies (New Series)
+    ISSN: '07409133'
+    volume: 2
+    issue: 2
+    issued: 1995
+WaylandMweso:
+  type: article-journal
+  title: Notes on the Board Game, known as “Mweso” in Uganda
+  author: [*EJ_Wayland]
+  URL: https://www.loc.gov/resource/gdcwdl.wdl_13820/?sp=102
+  page: 84–89
+  in:
+    title: The Uganda Journal
+    volume: 4
+    issue: 1
+    issued:
+      year: 1936
+      month: 7
+Miscellanies2:
+  type: book
+  title: Miscellanies
+  volume: 2
+  author:
+  - given: Richard
+    family: Twiss
+    url: https://en.wikipedia.org/wiki/Richard_Twiss_(writer)
+  publisher-place: London
+  URL: https://books.google.co.nz/books?id=7FtPxAEACAAJ
+  issued: 1805
+BrettspeilWiedemann:
+  type: paper-conference
+  page: 37-61
+  title:
+    value: Das Brettspeil bei den alten Aegyptern
+    lang: de
+  author:
+  - given: Alfred
+    family: Wiedemann
+    url: https://en.wikipedia.org/wiki/Alfred_Wiedemann
+  URL: https://books.google.co.nz/books?id=QFo1AQAAMAAJ&pg=PA3
+  in:
+    title:
+      lang: fr
+      value: Actes du Dixième Congrès International Des Orientalistes
+    volume: Session de Genève, 1894
+    issued: 1897
+    publisher: E. J. Brill
+    publisher-place: Leiden
+IllustreradSpelbok:
+  type: book
+  title: 
+    value: Illustrerad Spelbok
+    lang: sv
+  author:
+  - given: Tom
+    family: Wilson
+  issued: 1888
+  publisher:
+    value: 'Looström & Komp:s Förlag'
+    lang: sv
+  publisher-place: Stockholm, Sweden
+  URL: https://hdl.handle.net/2027/hvd.hn5339
+UgandaForAHoliday:
+  type: book
+  title: Uganda for a Holiday
+  author:
+  - given: Frederick
+    family: Treves
+    url: https://en.wikipedia.org/wiki/Sir_Frederick_Treves,_1st_Baronet
+  URL: https://archive.org/details/cu31924028599680
+  publisher: E. P. Dutton and Company
+  publisher-place: New York
+  issued: 1910
+  notes: See pages 158–9.
+DeVetulaCalculations:
+  type: article-journal
+  title: '<span lang="la">De Vetula</span>: A Medieval Manuscript Containing Probability Calculations'
+  author:
+  - given: D. R.
+    family: Bellhouse
+  page: 123–36
+  URL: https://www.jstor.org/stable/1403664
+  in:
+    title: International Statistical Review
+    volume: 68
+    issue: 2
+    issued:
+      year: 2000
+      month: 8
+DecodingCardano:
+  type: article-journal
+  URL: https://doi.org/10.1016/j.hm.2004.04.001
+  title: Decoding Cardano’s <span lang="la">Liber de Ludo Aleae</span>
+  page: 180–202
+  in:
+    title: Historia Mathematica
+    volume: 32
+    issue: 2
+    issued:
+      year: 2005
+      month: 5
+  author:
+  - given: David
+    family: Bellhouse
+DeVetula:
+  type: book
+  title: 
+    value: 'Brunellus Vigelli, & Vetula Ovidii. Seu: Opuscula Duo Auctorum Incertorum: Prius quidem Vigelli, qui fertur, Speculum stultorum, Posterius verò libri tres de vetula, Ovidii, falsò sic dicti: Ambo ante duo propè Secula junctim publico charactere Coloniæ excusa, nunc verò denuò ex Illustri quâdam Saxoniæ Inferioris Bibliothecâ depromta, et qui ê vetusto exemplari in hanc minusculam compagem bonâ fide conformata'
+    lang: la
+  publisher-place: Wolfenbüttel, Germany
+  publisher:
+    value: Typis Sterniis
+    lang: la
+  issued: 1662
+  URL: https://archive.org/details/brunellusvigellietvetulaovidii
+HausaSuperstitions:
+  type: book
+  title: 'Hausa Superstitions and Customs: An Introduction to the Folk-lore and the Folk'
+  author:
+  - given: A. J. N.
+    family: Tremearne
+  URL: https://archive.org/details/cu31924026472278
+  publisher: John Bale, Sons & Danielsson
+  edition: 2
+  publisher-place: London
+  issued: 1913
+  series:
+    title: West African Nights’ Entertainments
+    volume: 1
+AboutPersiaAndItsPeople: 
+  type: book
+  title: About Persia and its People
+  URL: https://archive.org/details/aboutpersiaitspe00knan
+  author:
+  - given: Joseph
+    family: Knanishu
+  publisher: Lutheran Augustana Book Concern
+  issued: 1899
+PersiaAndItsPeople:
+  type: book
+  title: Persia and its People
+  author:
+  - given: Ella C.
+    family: Sykes
+  URL: https://archive.org/details/persiaitspeople00syke_0
+  issued: 1910
+  publisher-place: New York
+  publisher: The MacMillan Company
+LesBushongo:
+  type: book
+  title:
+    value: Notes ethnographiques sur les peuples communément appelés Bakuba, ainsi que sur les peuplades apparentées, les Bushongo
+    lang: fr
+  author:
+  - given: E.
+    family: Torday
+    url: https://en.wikipedia.org/wiki/Emil_Torday
+  - *TA_Joyce
+  series:
+    title:
+      lang: fr
+      value: 'Annales du Musée du Congo Belge: Ethnographie, Anthropology — Série III: Documents Ethnographiques concernant les populations du Congo Belge'
+    volume: 2
+    number: 1
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k6475837f
+  issued: 
+    year: 1911
+    month: 2
+  publisher:
+    lang: fr
+    value: Ministère des Colonies
+DiePangwe2:
+  type: book
+  title:
+    value: 'Die Pangwe'
+    lang: de
+  author:
+  - given: Günter
+    family: Tessmann
+    url: https://en.wikipedia.org/wiki/G%C3%BCnter_Tessmann
+  publisher: 
+    lang: de
+    value: Ernst Wasmuth
+  publisher-place: Berlin
+  issued: 1913
+  volume: 2
+  URL: https://library.si.edu/digital-library/book/diepangwevlkerku02tess
+TressanSchachspeil:
+  type: book
+  URL: https://hdl.handle.net/2027/hvd.hn4zyj
+  title:
+    lang: de
+    value: Das Schachspiel, seine Gattungen und Abarten
+  author:
+  - given: L.
+    family: Tressan
+  publisher:
+    value: Druck und Verlag von Gottfr. Basse
+    lang: de
+  publisher-place: Quedlinburg and Leipzig, Germany
+  issued: 1840
+ShackellMweso:
+  type: article-journal
+  title: Mweso—The Board Game
+  author:
+  - given: R. S.
+    family: Shackell
+  URL: https://www.loc.gov/resource/gdcwdl.wdl_09954/?sp=14
+  page: 14–20
+  in:
+    title: The Uganda Journal
+    volume: 2
+    issued:
+      year: 1934
+      month: 7
+    issue: 1
+ShackellMweso2:
+  type: article-journal
+  title: More about Mweso
+  author:
+  - given: R. S.
+    family: Shackell
+  URL: https://www.loc.gov/resource/gdcwdl.wdl_11008/?sp=39
+  page: 119–129
+  in:
+    title: The Uganda Journal
+    volume: 3
+    issued:
+      year: 1935
+      month: 10
+    issue: 2
+MwesoSheppard:
+  type: article-journal
+  author:
+  - given: T.
+    family: Sheppard
+  page: 245
+  title: A Mweso Board from Mombasa
+  URL: https://www.jstor.org/stable/2790940
+  in:
+    title: Man
+    volume: 31
+    issued:
+      month: 11
+      year: 1931
+WhiteAfrican:
+  type: book
+  title: 'White African: an early autobiography'
+  URL: https://archive.org/details/whiteafrican0000lsbl_k5w0
+  author:
+  - given: L. S. B.
+    family: Leakey
+    url: https://en.wikipedia.org/wiki/Louis_Leakey
+  publisher: Schenkman Publishing Company
+  publisher-place: Cambridge, MA, USA
+  issued: 1966
+  original-date:
+    year: 1937 
+HomoLudens:
+  type: book
+  title: Homo Ludens
+  author:
+  - given: Johan
+    family: Huizinga
+    lang: nl
+    url: https://en.wikipedia.org/wiki/Johan_Huizinga
+  translator:
+  - given: R. F. C.
+    family: Hull
+    url: https://en.wikipedia.org/wiki/R._F._C._Hull
+  URL: https://archive.org/details/homo_ludens_johan_huizinga_routledge_1949_
+  publisher: Routledge & Kegan Paul
+  issued: 1949
+  publisher-place: London, Boston and Henly
+TheStudyOfMan:
+  type: book
+  title: The Study of Man
+  author:
+  - given: Alfred C.
+    family: Haddon
+    url: https://en.wikipedia.org/wiki/Alfred_Cort_Haddon
+  issued: 1898
+  publisher: John Murray
+  publisher-place: London
+  URL: https://archive.org/details/in.ernet.dli.2015.277363
+ArtistsInString:
+  type: book
+  title: 'Artists In String: String Figures; their Regional Distribution and Social Significance'
+  author:
+  - &Kathleen_Haddon
+    given: Kathleen
+    family: Haddon
+    url: https://en.wikipedia.org/wiki/Kathleen_Rishbeth
+  publisher: Methuen & Co.
+  publisher-place: London
+  URL: https://archive.org/details/artistsinstrings0000hadd
+  issued: 1930
+CatsCradles:
+  type: book
+  title: Cat’s Cradles from Many Lands
+  author: [*Kathleen_Haddon]
+  publisher: Longmans, Green and Co.
+  publisher-place: London
+  issued: 1912
+  URL: https://archive.org/details/catscradlesfromm00hadduoft
+GroosPlayOfMan:
+  type: book
+  title: The Play of Man
+  author:
+  - given: Karl
+    family: Groos
+    url: https://en.wikipedia.org/wiki/Karl_Groos
+  publisher: William Heinemann
+  issued: 1901
+  publisher-place: London
+  translator:
+  - given: Elizabeth L.
+    family: Baldwin
+  URL: https://archive.org/details/b32823150
+AccountOfTheZande:
+  type: article-journal
+  title: An Account of the Zande
+  URL: https://www.jstor.org/stable/41715495
+  page: 1–55
+  author:
+  - given: P. M.
+    family: Larken
+  in:
+    title: Sudan Notes and Records
+    volume: 9
+    issue: 1
+    issued:
+      month: 7
+      year: 1926
+TanalaLinton:
+  type: book
+  title: 'The Tanala: a Hill Tribe of Madagascar'
+  URL: https://archive.org/details/tanalahilltribeo22lint
+  publisher: Field Museum of Natural History
+  author:
+  - given: Ralph
+    family: Linton
+  publisher-place: Chicago, USA
+  issued: 1933
+  series:
+    title: Anthropological Series
+    volume: 22
+ThroughCentralBorneo2:
+  type: book
+  title: Through Central Borneo
+  author:
+  - given: Carl
+    family: Lumholtz
+  volume: 2
+  publisher: Charles Scribner’s Sons
+  publisher-place: New York
+  issued: 1920
+  URL: https://archive.org/details/throughcentralbo02lumh
+  notes: See pages 247, 435. 
+UnconqueredAbyssinia:
+  type: book
+  title: 'Unconqured Abyssinia: As it is To-day'
+  author:
+  - given: Charles F.
+    family: Rey
+  publisher: J. B. Lippincott Company
+  publisher-place: Philadelphia
+  issued: 1924
+  URL: https://archive.org/details/unconqueredabyss00reyc
+SmithGo:
+  type: book
+  title: 'The Game of Go: The National Game of Japan'
+  author:
+  - given: Arthur
+    family: Smith
+  publisher: Moffat, Yard & Company
+  issued: 1908
+  publisher-place: New York
+  URL: https://archive.org/details/gameofgonational00smitrich
+VolpicelliGo:
+  type: article-journal
+  title: Wei-Ch‘i
+  author:
+  - given: Z.
+    family: Volpicelli
+  page: 80–107
+  URL: https://books.google.co.nz/books?id=7TwDAAAAMAAJ&pg=GBS.PA80
+  in:
+    title: Journal of the China Branch of the Royal Asiatic Society (New Series)
+    volume: 26
+    issued: 1892
+VolpicelliChess:
+  type: article-journal
+  title: Chinese Chess
+  author:
+  - given: Z.
+    family: Volpicelli
+  page: 248–284
+  URL: https://books.google.co.nz/books?id=_UZAAAAAYAAJ&pg=PA248
+  in:
+    title: Journal of the China Branch of the Royal Asiatic Society (New Series)
+    volume: 23
+    issued: 1888
+TravelsInAbyssinia:
+  type: book
+  title: Travels in Abyssinia and The Galla Country"
+  author:
+  - given: Walter Chichele
+    family: Plowden
+  editor:
+  - given: Trevor Chichele
+    family: Plowden
+  issued: 1868
+  publisher: Longmans, Green, and Co.
+  publisher-place: London
+  URL: https://archive.org/details/travelsinabyssin00plow
+  notes: See pages 149, 273.
+VanishingTribesKenya:
+  type: book
+  title: The Vanishing Tribes of Kenya
+  author:
+  - given: Granville St. John
+    family: Orde Browne
+  publisher: Seeley, Service & Co.
+  publisher-place: London
+  issued: 1925
+  URL: https://archive.org/details/vanishingtribeso0000jord
+LusheiKuki:
+  type: book
+  title: The Lushei Kuki Clans
+  author:
+  - given: John
+    family: Shakespear
+  issued: 1912
+  publisher: MacMillan and Co.
+  publisher-place: London
+  URL: https://archive.org/details/lusheikukiclans00shak/lusheikukiclans00shak
+  notes: See “Amusements”, page 38.
+GameOfChoro:
+  type: article-journal
+  title: The Game of Choro or Pereaüni
+  author:
+  - given: J. H.
+    family: Driberg
+  URL: https://www.jstor.org/stable/2787715
+  page: 168–172
+  in: 
+    title: Man
+    volume: 27
+    issued:
+      year: 1927
+      month: 9
+ArabiaDeserta:
+  type: book
+  title: Travels in Arabia Deserta
+  author:
+  - given: Charles Montagu
+    family: Doughty
+    url: https://en.wikipedia.org/wiki/Charles_Montagu_Doughty
+  notes: See page 536.
+  volume: 1
+  publisher: Philip Lee Warner
+  publisher-place: London
+  issued: 1921
+  URL: https://archive.org/details/travelsinarabiad01doug
+  original-date: 1888
+  edition: 2
+ArabGamesAndPuzzles:
+  type: article-journal
+  title: Some Arab Games and Puzzles
+  author:
+  - given: R.
+    family: Davies
+  page: 137–52
+  URL: https://www.jstor.org/stable/41715523
+  in:
+    title: Sudan Notes and Records
+    volume: 8
+    issued: 1925
+Pallanguli:
+  type: article-journal
+  title: 'Pallanguli: A South Indian Game'
+  author:
+  - given: H. G.
+    family: Durai
+  page: 185–6
+  URL: https://www.jstor.org/stable/2790573
+  in:
+    title: Man
+    volume: 28
+    issued:
+      month: 11
+      year: 1928
+NubianTreasure:
+  type: book
+  title: 'Nubian Treasure: An Account of the Discoveries at Ballana and Qustul'
+  author:
+  - given: Walter B.
+    family: Emery
+  issued: 1948
+  URL: https://archive.org/details/nubiantreasureac0000emer
+  publisher: Methuen & Co.
+  publisher-place: London
+CruickshankGames:
+  type: article-journal
+  title: Negro Games
+  author:
+  - given: J. Graham
+    family: Cruickshank
+  URL: https://www.jstor.org/stable/2789655
+  in:
+    title: Man
+    volume: 29
+    issued:
+      year: 1929
+      month: 10
+FiveLinesPritchett:
+  type: article-journal
+  title: “Five Lines” and <i>IG</i> I², 324
+  author:
+  - given: W. Kendrick
+    family: Pritchett
+  page: 187–215
+  URL: https://www.jstor.org/stable/25010573
+  in:
+    title: California Studies in Classical Antiquity
+    volume: 1
+    issued: 1968
+SuetoneJeuxDesGrecs:
+  type: article-journal
+  title:
+    lang: fr
+    value: Suétone, <cite>Sur Les Jeux des Grecs</cite>
+  author:
+  - given: Salvatore
+    family: Costanza
+  page: 361–412
+  URL: https://www.jstor.org/stable/48660467
+  in:
+    title:
+      lang: fr
+      value: Revue des Études Grecques
+    volume: 134
+    issue: 2
+    issued:
+      month: 12
+      year: 2021
+JeuxDansLOnomasticon:
+  type: article-journal
+  title:
+    lang: fr
+    value: Les Jeux dans L’<cite>Onomoasticon</cite> I 30; VI 107, 109; VII 203–205; IX 94–129 de Pollux
+  author:
+  - given: Salvatore
+    family: Costanza
+  page: 361–410
+  URL: https://www.jstor.org/stable/48632421
+  in:
+    title:
+      lang: fr
+      value: Revue des Études Grecques
+    volume: 133
+    issue: 2
+    issued:
+      month: 12
+      year: 2020
+AmongTheIbos:
+  type: book
+  title: Among the Ibos of Nigeria
+  author:
+  - given: George Thomas
+    family: Basden
+  publisher: Seeley, Service & Co.
+  publisher-place: London
+  issued: 1921
+  URL: https://archive.org/details/amongibosofniger00basd
+LifeInAncientBritain:
+  type: book
+  title: Life in Ancient Britain
+  author:
+  - given: Norman
+    family: Ault
+  publisher: Longmans, Green and Co.
+  publisher-place: London
+  issued: 1920
+  URL: https://archive.org/details/cu31924014023430
+GamesOfSkillAndConjuring:
+  type: book
+  title: Games of Skill, and Conjuring
+  issued: 1861
+  author:
+  - given: C. H.
+    family: Bennett
+  publisher: Routledgei, Warne, and Routledge
+  publisher-place: London
+  URL: https://archive.org/details/gamesskillandco00benngoog
+WariBennet:
+  type: chapter
+  title: Wari
+  author:
+  - given: G. T.
+    family: Bennett
+  URL: https://archive.org/details/religionartinash0000ratt_p4f9/page/382
+  page: 383–390
+  in:
+    title: Religion & Art in Ashanti
+    author:
+    - given: Robert Sutherland
+      family: Rattray
+    issued: 1969
+    original-date: 1927
+    URL: https://archive.org/details/religionartinash0000ratt_p4f9
+    publisher: Oxford University Press
+    publisher-place: Oxford, UK
+SiwaBelgrave:
+  type: book
+  title: 'Siwa: The Oasis of Jupiter Ammon'
+  author:
+  - given: C. Dalrymple
+    family: Belgrave
+  publisher: John Lane the Bodley Head
+  publisher-place: London
+  issued: 1923
+  URL: https://archive.org/details/belgrave_siwa_1923
+SacredCityEthiopians:
+  type: book
+  title: The Sacred City of the Ethiopians
+  author:
+  - given: James Theodore
+    family: Bent
+  edition: 2
+  publisher: Longmans, Green and Co.
+  publisher-place: London
+  issued: 1896
+  URL: https://archive.org/details/sacredcityofethi00bent
+GamblingAndCheatingRome:
+  type: article-journal
+  title: Gambling and Cheating in Ancient Rome
+  author:
+  - given: Rodolfo
+    family: Lanciani
+  page: 97–105
+  URL: https://www.jstor.org/stable/25102412
+  in:
+    title: The North American Review
+    volume: 155
+    issue: 428
+    issued:
+      month: 7
+      year: 1892
+LudusLP:
+  type: article-journal
+  title: The <cite lang="la">Ludus Latrunculorum</span> and <cite lang="la">Laus Pisonis</span> 190–208
+  author:
+  - given: John
+    family: Richmond
+  page: 164–79
+  URL: https://www.jstor.org/stable/24818294
+  in:
+    title: Museum Helveticum
+    volume: 51
+    issued: 1994
+    issue: 3
+TilleyLL:
+  type: article-journal
+  title: Ludus Latrunculorum
+  author:
+  - given: Arthur
+    family: Tilley
+  page: 335–6
+  URL: https://www.jstor.org/stable/690534
+  in:
+    title: The Classical Review
+    volume: 6
+    issue: 8
+    issued:
+      month: 10
+      year: 1892
+HomoLudensSimpson:
+  type: paper-conference
+  title: 'Homo Ludens: The Earliest Board Games in the Near East'
+  page: 5–10
+  author:
+  - given: St John
+    family: Simpson
+  URL: https://archive.org/details/ancientboardgame0000unse/page/5
+  in: *ancientBoardGamesInPerspective
+RoyalGameUrBecker:
+  type: paper-conference
+  title: The Royal Game of Ur
+  page: 11–15
+  author:
+  - given: Andrea
+    family: Becker
+  URL: https://archive.org/details/ancientboardgame0000unse/page/11
+  in: *ancientBoardGamesInPerspective
+MehenKendall:
+  type: paper-conference
+  title: 'Mehen: The Ancient Egyptian Game of the Serpent'
+  page: 33–45
+  author:
+  - given: Timothy
+    family: Kendall
+  URL: https://archive.org/details/ancientboardgame0000unse/page/33
+  in: *ancientBoardGamesInPerspective
+GamestersEgypt:
+  type: paper-conference
+  title: 'Were There Gamesters in Pharaonic Egypt?'
+  page: 46–53
+  author:
+  - given: W. J.
+    family: Tait
+  URL: https://archive.org/details/ancientboardgame0000unse/page/46
+  in: *ancientBoardGamesInPerspective
+PiccioneSenet:
+  type: paper-conference
+  title: The Egyptian Game of Senet and the Migration of the Soul
+  page: 54–63
+  author:
+  - given: Peter A.
+    family: Piccione
+  URL: https://archive.org/details/ancientboardgame0000unse/page/54
+  in: *ancientBoardGamesInPerspective
+HoerthHounds:
+  type: paper-conference
+  title: The Game of Hounds and Jackals
+  page: 64–68
+  author:
+  - given: A. J.
+    family: Hoerth
+  URL: https://archive.org/details/ancientboardgame0000unse/page/64
+  in: *ancientBoardGamesInPerspective
+RiecheSymbols:
+  type: paper-conference
+  title: Board Games and their Symbols from Roman Times to Early Christianity
+  page: 87–89
+  author:
+  - given: Anita
+    family: Rieche
+  URL: https://archive.org/details/ancientboardgame0000unse/page/87
+  in: *ancientBoardGamesInPerspective
+PurcellRoman:
+  type: paper-conference
+  title: Inscribed Imperial Roman Gaming-Boards
+  page: 90–97
+  author:
+  - given: Nicholas
+    family: Purcell
+  URL: https://archive.org/details/ancientboardgame0000unse/page/90
+  in: *ancientBoardGamesInPerspective
+PavementGames:
+  type: paper-conference
+  title: Notes on Pavement Games of Greece and Rome
+  page: 98–99
+  author: [*RC_Bell]
+  URL: https://archive.org/details/ancientboardgame0000unse/page/98
+  in: *ancientBoardGamesInPerspective
+RouecheGames:
+  type: paper-conference
+  title: Late Roman and Byzantine Game Boards at Aphrodisias
+  page: 100–105
+  author: 
+  - given: Charlotte
+    family: Roueché
+  URL: https://archive.org/details/ancientboardgame0000unse/page/100
+  in: *ancientBoardGamesInPerspective
+PavementTypology:
+  type: paper-conference
+  title: 'Graeco–Roman Pavement Signs and Game Boards: A British Museum Working Typology'
+  page: 106–109
+  author: 
+  - *RC_Bell
+  - given: C. M.
+    family: Roueché
+  URL: https://archive.org/details/ancientboardgame0000unse/page/106
+  in: *ancientBoardGamesInPerspective
+GamesAtVijayanagara:
+  type: paper-conference
+  title: 'Game Boards at Vijayanagara: A Preliminary Report'
+  page: 110–115
+  author: 
+  - given: John M.
+    family: Fritz
+  - given: David
+    family: Gibson
+  URL: https://archive.org/details/ancientboardgame0000unse/page/110
+  in: *ancientBoardGamesInPerspective
+GoInChina:
+  type: paper-conference
+  title: Go in China
+  page: 133–137
+  author: 
+  - *John_Fairbairn
+  URL: https://archive.org/details/ancientboardgame0000unse/page/133
+  in: *ancientBoardGamesInPerspective
+MMBeginningsOfChess:
+  type: paper-conference
+  title: The Beginnings of Chess
+  page: 138–157
+  author: 
+  - given: Michael
+    family: Mark
+  URL: https://archive.org/details/ancientboardgame0000unse/page/138
+  in: *ancientBoardGamesInPerspective
+DatingOfChess:
+  type: paper-conference
+  title: Grandmasters of <i>Shatranj</i> and the Dating of Chess
+  page: 158–161
+  author: 
+  - given: R. D.
+    family: Keene
+  URL: https://archive.org/details/ancientboardgame0000unse/page/158
+  in: *ancientBoardGamesInPerspective
+EalesChess:
+  type: paper-conference
+  title: 'Changing Cultures: The Reception of Chess into Western Europe in the Middle Ages'
+  page: 162–168
+  author: 
+  - given: Richard
+    family: Eales
+  URL: https://archive.org/details/ancientboardgame0000unse/page/162
+  in: *ancientBoardGamesInPerspective
+SemenovGames:
+  type: paper-conference
+  title: Board Games in Central Asia and Iran
+  page: 169–176
+  author: 
+  - given: Grigori L.
+    family: Semenov
+  URL: https://archive.org/details/ancientboardgame0000unse/page/169
+  in: *ancientBoardGamesInPerspective
+StewartTabulae:
+  type: paper-conference
+  title: A Late Eleventh-Century <span lang="la">Tabulae</span> Set from Gloucester
+  page: 235–237
+  author: 
+  - given: I. J.
+    family: Stewart
+  URL: https://archive.org/details/ancientboardgame0000unse/page/235
+  in: *ancientBoardGamesInPerspective
+RussMancala:
+  type: paper-conference
+  title: An Overview of Mancala Rules and Variations
+  page: 242–244
+  author: 
+  - given: L.
+    family: Russ
+  URL: https://archive.org/details/ancientboardgame0000unse/page/242
+  in: *ancientBoardGamesInPerspective
+TownshendMancala:
+  type: paper-conference
+  title: The Typological Spread of the Game of Mancala
+  page: 245–249
+  author: 
+  - given: Philip
+    family: Townshend
+  URL: https://archive.org/details/ancientboardgame0000unse/page/245
+  in: *ancientBoardGamesInPerspective
+WalkerMancala:
+  type: paper-conference
+  title: Mancala Game Boards as African Symbols of Status
+  page: 250–255
+  author: 
+  - given: R. A.
+    family: Walker
+  URL: https://archive.org/details/ancientboardgame0000unse/page/250
+  in: *ancientBoardGamesInPerspective
+RiddlerHnefatafl:
+  type: paper-conference
+  title: The Pursuit of <i>Hnefatafl</i>
+  page: 256–262
+  author: 
+  - given: Ian
+    family: Riddler
+  URL: https://archive.org/details/ancientboardgame0000unse/page/256
+  in: *ancientBoardGamesInPerspective
+StigterRithmomachia:
+  type: paper-conference
+  title: 'Rithmomachia, the Philosophers’ Game: An Introduction to its History and Rules'
+  page: 263–269
+  author: 
+  - given: Jurgen
+    family: Stigter
+  - given: Peter
+    family: Mebben
+  URL: https://archive.org/details/ancientboardgame0000unse/page/263
+  in: *ancientBoardGamesInPerspective
+CulinNewWorld:
+  type: paper-conference
+  title: Robert Stewart Culin and New World Games
+  page: 270–274
+  author: 
+  - given: Bonita
+    family: Freeman–Witthoft
+  URL: https://archive.org/details/ancientboardgame0000unse/page/270
+  in: *ancientBoardGamesInPerspective
+DiceInIndiaBeyond:
+  type: chapter
+  title: Dice in India and Beyond
+  author:
+  - *Irving_Finkel
+  page: 38-45
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/38
+  in: *asianGames
+FinkelPachisi:
+  type: chapter
+  title: 'Round and Round the Houses: The Game of <i>Pachisi</i>'
+  author:
+  - *Irving_Finkel
+  page: 46-57
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/46
+  in: *asianGames
+FinkelSnakesLadders:
+  type: chapter
+  title: 'The Ups and Downs of Life: The Indian Game of Snakes and Ladders'
+  author:
+  - *Irving_Finkel
+  page: 58-63
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/58
+  in: *asianGames
+LoPromotion:
+  type: chapter
+  title: 'Official Aspirations: Chinese Promotion Games'
+  author:
+  - *Andrew_Lo
+  page: 64-75
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/64
+  in: *asianGames
+KoichiESugoroku:
+  type: chapter
+  title: 'Scenic Views: <span lang="ja-Latn">E-Sugoroku</span>'
+  author:
+  - &Masukawa_Koichi
+    family: Masukawa
+    given: Koichi
+    lang: ja-Latn
+  page: 76-87
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/76
+  in: *asianGames
+FinkelBackgammon:
+  type: chapter
+  title: 'The World Conqueror Emerges: Backgammon in Persia'
+  author:
+  - *Irving_Finkel
+  page: 88-95
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/88
+  in: *asianGames
+KoichiBanSugoroku:
+  type: chapter
+  title: '<span lang="ja-Latn">Ban-Sugoroku</span>: Japan’s Game of Double Sixes'
+  author:
+  - *Masukawa_Koichi
+  page: 104-111
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/104
+  in: *asianGames
+FinkelMysore:
+  type: chapter
+  title: 'A Raja’s Diversions: Board Games at Mysore'
+  author:
+  - *Irving_Finkel
+  page: 126-133
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/126
+  in: *asianGames
+ChessGunter:
+  type: chapter
+  title: Chess and Its Visual Culture in West, South, and Southeast Asia
+  author:
+  - given: Ann C.
+    family: Gunter
+  page: 136-167
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/136
+  in: *asianGames
+LoXianqi:
+  type: chapter
+  title: '“The Earthworms Tame the Dragon”: The Game of <span lang="zh-Latn">Xiangqi</span>'
+  author:
+  - *Andrew_Lo
+  - given: Tzi-Cheng
+    family: Wang
+  page: 168-179
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/168
+  in: *asianGames
+KoichiShogi:
+  type: chapter
+  title: '<span lang="ja-Latn">Shogi</span>: Japan’s Game of Generals'
+  author:
+  - *Masukawa_Koichi
+  page: 180-185
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/180
+  in: *asianGames
+LoWeiqi:
+  type: chapter
+  title: 'Spider Threads Roaming the Empyrean: The Game of <span lang="zh-Latn">Weiqi</span>'
+  author:
+  - *Andrew_Lo
+  - given: Tzi-Cheng
+    family: Wang
+  page: 186-201
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/186
+  in: *asianGames
+KoichiGo:
+  type: chapter
+  title: '<span lang="ja-Latn">Go</span>: Japan’s Siege Game'
+  author:
+  - *Masukawa_Koichi
+  page: 202-213
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/202
+  in: *asianGames
+LoPassion:
+  type: chapter
+  title: 'China’s Passion for <span lang="zh-Latn">Pai</span>: Playing Cards, Dominoes, and Mahjong'
+  author:
+  - *Andrew_Lo
+  page: 216-231
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/216
+  in: *asianGames
+DibaPersianCards:
+  type: chapter
+  title: 'Persian Playing Cards: A Courtly Art'
+  author:
+  - given: Layla
+    family: Diba
+  page: 232-239
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/232
+  in: *asianGames
+HopewellGanjifa:
+  type: chapter
+  title: '<i>Ganjifa</i>: The Traditional Playing Cards of India'
+  author:
+  - given: Jeff
+    family: Hopewell
+  page: 240-251
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/240
+  in: *asianGames
+BowerPitchpot:
+  type: chapter
+  title: 'Pitchpot: The Scholar’s Arrow-Throwing Game'
+  author:
+  - given: Virginia
+    family: Bower
+  - given: Colin
+    family: Mackenzie
+  page: 274-281
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/274
+  in: *asianGames
+BowerPolo:
+  type: chapter
+  title: 'Polo: The Emperor of Games'
+  author:
+  - given: Virginia
+    family: Bower
+  - given: Colin
+    family: Mackenzie
+  page: 282-303
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/282
+  in: *asianGames
+BowerKickball:
+  type: chapter
+  title: 'Keeping It in the Air: Kickball in Japan and China'
+  author:
+  - given: Virginia
+    family: Bower
+  - given: Colin
+    family: Mackenzie
+  page: 304-310
+  URL: https://archive.org/details/asiangamesartofc0000unse/page/304
+  in: *asianGames
+HindmanIndoorGames:
+  type: book
+  title: Handbook of Indoor Games & Contests
+  author:
+  - given: Darwin A.
+    family: Hindman
+  editor:
+  - given: D. Cyril
+    family: Joynson
+  URL: https://archive.org/details/indoorgamesconte0000unse
+  publisher: Kaye & Ward
+  publisher-place: London
+  issued: 1972
+  original-date: 1957
+  ISBN: '0718205812'
+SchadlerMancala:
+  type: article-journal
+  author: [*Ulrich_Schadler]
+  title: Mancala in Roman Asia Minor?
+  page: 10-25
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS1-complete.pdf#page=9
+  in: &bgs1
+    title: Board Games Studies
+    volume: 1
+    issued: 1998
+DepaulisInca:
+  type: article-journal
+  author: [*Thierry_Depaulis]
+  title: Inca Dice and Board Games
+  page: 26-49
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS1-complete.pdf#page=25
+  in: *bgs1
+EagleMancala:
+  type: article-journal
+  author:
+  - given: Vernon A.
+    family: Eagle
+  title: On a Phylogenetic Classification of Mancala Games, with some Newly Recorded Games from the “Southern Silk Road,” Yunnan Province, China
+  page: 50-69
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS1-complete.pdf#page=49
+  in: *bgs1
+GoodfellowEnglishBoardGame:
+  type: article-journal
+  author:
+  - given: Caroline G.
+    family: Goodfellow
+  title: The Development of the English Board Game, 1770–1850
+  page: 70-81
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS1-complete.pdf#page=69
+  in: *bgs1
+VerbeeckPatolli:
+  type: article-journal
+  author:
+  - given: Lieve
+    family: Verbeeck
+  title: 'Bul: A Patolli Game in Maya Lowland'
+  page: 82-103
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS1-complete.pdf#page=79
+  in: *bgs1
+FinkelFalkener:
+  type: article-journal
+  author:
+  - *Irving_Finkel
+  title: 'Edward Falkener: Old Board Games for New'
+  page: 104-111
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS1-complete.pdf#page=99
+  in: *bgs1
+RotholherMehen:
+  type: article-journal
+  author:
+  - given: Benedikt
+    family: Rothöhler
+  title: Mehen, God of the Boardgames
+  page: 10-23
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=9
+  in: &bgs2
+    title: Board Games Studies
+    volume: 2
+    issued: 1999
+RollickeLiubo:
+  type: article-journal
+  author:
+  - given: Hermann-Josef
+    family: Röllicke
+  title:
+    lang: de
+    value: 'Von “Winkelwegen”, “Eulen” und “Fischziehern” — <i>liubo</i>: ein altchinesisches Brettspiel für Geister und Menschen'
+  page: 24-41
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=23
+  in: *bgs2
+BockRamingIndianChess:
+  type: article-journal
+  author:
+  - given: Andreas
+    family: Bock-Raming
+  title: 'The Gaming Board in Indian Chess and Related Board Games: A Terminological Investigation'
+  page: 42-59
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=41
+  in: *bgs2
+MebbenArithmomachia:
+  type: article-journal
+  author:
+  - given: Peter
+    family: Mebben
+  title: 
+    lang: de
+    value: Die Arithmomachia des Abraham Ries und weitere neuzeitliche Überlieferungen der Rithmomachie
+  page: 60-79
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=59
+  in: *bgs2
+Metromachie:
+  type: article-journal
+  author:
+  - given: Michel
+    family: Boutin
+  - given: Pierre
+    family: Parlebas
+  title: 
+    lang: fr
+    value: La Métromachie ou la bataille géométrique
+  page: 80-103
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=79
+  in: *bgs2
+DeVoogtMancala:
+  type: article-journal
+  author:
+  - given: Alexander J.
+    family: de Voogt
+  title: 'Distribution of Mancala Board Games: a methodological inquiry'
+  page: 104-115
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=103
+  in: *bgs2
+WhitehillAmericanGames:
+  type: article-journal
+  author:
+  - given: Bruce
+    family: Whitehill
+  title: 'American Games: A Historical Perspective'
+  page: 116-143
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=114
+  in: *bgs2
+Shadler20Field:
+  type: article-journal
+  author:
+  - *Ulrich_Schadler
+  title:
+    lang: de
+    value: Vom 20-Felder-Spiel zum Würfelvierschach?
+  page: 116-143
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=142
+  in: *bgs2
+RomainPions:
+  type: article-journal
+  author:
+  - given: Pascal
+    family: Romain
+  title: 
+    lang: fr
+    value: Les représentations des jeux de pions dans le Proche-Orient ancien et leur signification
+  page: 11-38
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=10
+  in: *bgs3
+KraaijeveldChess:
+  type: article-journal
+  author:
+  - given: Alex R.
+    family: Kraaijeveld
+  title: Origin of Chess — A Phylogenetic Perspective
+  page: 39-50
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=38
+  in: *bgs3
+KoichiTrickTrack:
+  type: article-journal
+  author:
+  - *Masukawa_Koichi
+  title:
+    lang: de
+    value: Kurze Geschichte des Tricktrack in Japan
+  page: 51-58
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=50
+  in: *bgs3
+HilgersKriegsspiel:
+  type: article-journal
+  author:
+  - given: Philipp
+    family: von Hilgers
+  title:
+    lang: de
+    value: Eine Anleitung zur Anleitung. Das taktische Kriegsspiel 1812–1824
+  page: 59-78
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=58
+  in: *bgs3
+Dakon:
+  type: article-journal
+  author:
+  - given: Joeroen
+    family: Donkers
+  - given: Alex
+    family: de Voogt
+  - given: Jos
+    family: Uiterwijk
+  title: 'Human versus Machine Problem-Solving: Wining Openings in Dakon'
+  page: 79-90
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=77
+  in: *bgs3
+DeVoogtMancalaBoards:
+  type: article-journal
+  author:
+  - given: Alexander J.
+    family: de Voogt
+  title: Mancala boards (Olinda Keliya) in the National Museums of Colombo
+  page: 91-102
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=89
+  in: *bgs3
+DepaulisIndoEuropean:
+  type: article-journal
+  author:
+  - *Thierry_Depaulis
+  title:
+    value: Les Indo-Européens jouaient-ils aux dés?
+    lang: fr
+  page: 103-106
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=100
+  in: *bgs3
+DunnVaturiAccessories:
+  type: article-journal
+  author:
+  - given: Anne-E.
+    family: Dunn–Vaturi
+  title: “The Monkey Race”. Remarks on Board Games Accessories
+  page: 107-111
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=104
+  in: *bgs3
+AlbertarelliMonopoly:
+  type: article-journal
+  author:
+  - given: Spartaco
+    family: Albertarelli
+  title: 1000s Ways to Play Monopoly
+  page: 117-123
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=114
+  in: *bgs3
+Daldosa:
+  type: article-journal
+  author:
+  - given: Alf
+    family:  Næsheim
+  title: <span lang="no">Daldøsa</span>, an old dice game with an obscure origin 
+  page: 9-14
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=9
+  in: *bgs4
+DaldosTheRules:
+  type: article-journal
+  author:
+  - given: Erik
+    family: Østergaard
+  - given: Anne
+    family: Gaston
+  title: <span lang="no">Daldøs</span> — the Rules
+  page: 15-18
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=15
+  in: *bgs4
+MichaelsenDaldos:
+  type: article-journal
+  author:
+  - given: Peter
+    family: Michaelsen
+  title: <span lang="no">Daldøs</span>, an almost forgotten dice board game
+  page: 19-32
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=19
+  in: *bgs4
+BorvoSahkku:
+  type: article-journal
+  author:
+  - given: Alan
+    family: Borvo
+  title: <span lang="smi">Sahkku</span>, the “Devil’s game”
+  page: 33-52
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=31
+  in: *bgs4
+DepaulisArabNorthPole:
+  type: article-journal
+  author:
+  - *Thierry_Depaulis
+  title: An Arab game in the North Pole?
+  page: 77-84
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=75
+  in: *bgs4
+SanvitoKeltenSpiels:
+  type: article-journal
+  author:
+  - given: Alessandro
+    family: Sanvito
+  title:
+    lang: de
+    value: Das Rätsel des Kelten-Spiels
+  page: 9-24
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=8
+  in: &bgs5
+    title: Board Games Studies
+    volume: 5
+    issued: 2002
+LongmenGames:
+  type: article-journal
+  author:
+  - family: Shimizu
+    given: Yasuji
+    lang: ja-Latn
+  - family: Miyahara
+    given: Shin’ichi
+    lang: ja-Latn
+  - *Masukawa_Koichi
+  title: Game boards in the longmen Caves and the game Fang
+  page: 25-38
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=24
+  in: *bgs5
+PlayingWithFilialPiety:
+  type: article-journal
+  author:
+  - family: Susanne
+    given: Formanek
+  - family: Sepp
+    given: Linhart
+  title: Playing with filial piety — some remarks on a 19th-century variety of Japanese pictorial <span lang="ja-Latn">sugoroku</span> games
+  page: 39-64
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=38
+  in: *bgs5
+FinkelPachisiArab:
+  type: article-journal
+  author:
+  - *Irving_Finkel
+  title: Pachisi in Arab garb
+  page: 65-78
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=64
+  in: *bgs5
+AngersteinLaska:
+  type: article-journal
+  author:
+  - given: Wolfgang
+    family: Angerstein
+  title: 
+    lang: de
+    value: 'Das Säulenspiel <i>Laska</i>: Renaissance einer fast vergessenen Dame-Variante mit Verbindungen zum Schach'
+  page: 79-102
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=78
+  in: *bgs5
+ThomsenChess:
+  type: article-journal
+  author:
+  - given: Thomas
+    family: Thomsen
+  title: Chess in Europe in the 5th century?
+  page: 103-104
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=100
+  in: *bgs5
+LhôteDameEnragée:
+  type: article-journal
+  author:
+  - given: Jean-Marie
+    family: Lhôte
+  title:
+    value: Martin Le Franc et la dame enragée
+    lang: fr
+  page: 105-110
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=102
+  in: *bgs5
+StoepEarlySpanish:
+  type: article-journal
+  author:
+  - given: Arie
+    family: van der Stoep
+  title: Early Spanish board-games
+  page: 111-119
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=108
+  in: *bgs5
