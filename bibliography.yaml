@@ -2180,6 +2180,11 @@ HeimannLoop:
   author:
     - given: Florian
       family: Heimann
+    - &Thierry_Depaulis
+      given: Thierry
+      family: Depaulis
+      lang: fr
+      url: https://en.wikipedia.org/wiki/Thierry_Depaulis
   page: 51–61
   URL: http://bgsj.ludus-opuscula.org/Home/ArticleDetails/99
   in: &bgs8
@@ -5387,11 +5392,12 @@ SchadlerMisconceptions:
   URL: https://doi.org/10.2478/bgs-2021-0004
   in: &bgs15
     title: Board Game Studies
-    publisher: De Gruyter
+    publisher: De Gruyter Open
     volume: 15
     issue: 1
     issued:
       month: 4
+      day: 27
       year: 2021
 FrancisWillughby:
   type: book
@@ -9235,11 +9241,7 @@ JeuxDeParcours:
     value: Jeux de parcours du monde arabo-musulman (Afrique du Nord et Proche-Orient)
     lang: fr
   author:
-  - &Thierry_Depaulis
-    given: Thierry
-    family: Depaulis
-    lang: fr
-    url: https://en.wikipedia.org/wiki/Thierry_Depaulis
+  - *Thierry_Depaulis
   URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=51
   page: 53–76
   in: &bgs4
@@ -9899,7 +9901,8 @@ WorldeOfWordes:
   type: book
   title: A Worlde of Wordes, or Moſt copious and exact Dictionarie in Italian and English
   author:
-  - given: John
+  - &John_Florio
+    given: John
     family: Florio
     alt: Giovanni Florio
     url: https://en.wikipedia.org/wiki/John_Florio
@@ -11642,14 +11645,15 @@ BoardGamesAncientFiction:
     family: Konstantakos
   title: 'Board Games in Ancient Fiction: Egypt, Iran, Greece'
   URL: https://doi.org/10.2478/bgs-2022-0016
-  in: &bgs16
+  in: &bgs16_1
     title: Board Game Studies
     volume: 16
     issue: 1
     issued:
+      day: 26
       month: 4
       year: 2022
-    publisher: De Gruyter
+    publisher: De Gruyter Open
 BedouinHeritage:
   type: chapter
   title: Games as Bedouin Heritage for All Generations
@@ -16526,3 +16530,1160 @@ StoepEarlySpanish:
   page: 111-119
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=108
   in: *bgs5
+MichaelsenDice:
+  type: article-journal
+  author:
+  - given: Peter
+    family: Michaelsen
+  title: On some unusual types of stick dice
+  page: 9-24
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=7
+  in: &bgs6
+    title: Board Games Studies
+    volume: 6
+    issued: 2003
+VasanthaVijayanagara:
+  type: article-journal
+  author:
+  - given: Rangachar
+    family: Vasantha
+  title: 'Board Games from the City of Vijayanagara (Hampi) (1336–1565): a survey and a study'
+  page: 25-36
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=23
+  in: *bgs6
+GranadosAllegories:
+  type: article-journal
+  author:
+  - given: Mayarí
+    family: Granados
+  title: Reflections on the role of baroque games tables with allegories of war in German courts
+  page: 37-46
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=35
+  in: *bgs6
+JudenRaus:
+  type: article-journal
+  author:
+  - given: Andrew
+    family: Morris–Friedman
+  - *Ulrich_Schadler
+  title: '“Juden Raus!” (Jews Out!): History’s most infamous board game'
+  page: 47–60
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=44
+  in: *bgs6
+ZollingerGansesspiels:
+  type: article-journal
+  author:
+  - given: Manfred
+    family: Zollinger
+  title: 
+    lang: de
+    value: 'Zwei unbekannte Regeln des Gänsespiels: Ulisse Aldrovandi und Herzog August d.J. von Braunschweig-Lüneburg'
+  page: 61-86
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=57
+  in: *bgs6
+DepaulisPions:
+  type: article-journal
+  author:
+  - *Thierry_Depaulis
+  title: 
+    lang: fr
+    value: Un jeu de pions mapuche au XVIe siècle
+  page: 87-94
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=82
+  in: *bgs6
+DeVoogtHawalis:
+  type: article-journal
+  author:
+  - *Alex_de_Voogt
+  title: 'Hawalis in Oman: a first account of expertise and dispersal of four-row mancala in the Middle East'
+  page: 95-98
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=90
+  in: *bgs6
+DuffGo:
+  type: article-journal
+  author:
+  - given: Stephen
+    family: Duff
+  title: Go and Order
+  page: 9-34
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGSJ_Issue_7_web.pdf#page=8
+  in: &bgs7
+    title: Board Games Studies
+    volume: 7
+    issued: 2004
+YuharaSugoroku:
+  type: article-journal
+  author:
+  - given: Katsumi
+    family: Yuhara
+  title: The Evolution of Sugoroku Boards
+  page: 35-52
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGSJ_Issue_7_web.pdf#page=34
+  in: *bgs7
+BoutinPions:
+  type: article-journal
+  author:
+  - given: Michel
+    family: Boutin
+  title: 
+    lang: fr
+    value: Les jeux de pions à la Belle Époque
+  page: 53-110
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGSJ_Issue_7_web.pdf#page=52
+  in: *bgs7
+DepaulisDamesAncienne:
+  type: article-journal
+  author:
+  - *Thierry_Depaulis
+  - given: Jean
+    family: Simonata
+  title: 
+    lang: fr
+    value: La plus ancienne représentation datée de joueurs de dames (1492)
+  page: 111-118
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGSJ_Issue_7_web.pdf#page=110
+  in: *bgs7
+EnglishBrettspiel:
+  type: article-journal
+  author:
+  - given: Claudia
+    family: Engler
+  title: 
+    lang: de
+    value: Karten-, Würfel- und Brettspiel im spätmittelalterlichen und frühneuzeitlichen Bern
+  page: 119-127
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGSJ_Issue_7_web.pdf#page=118
+  in: *bgs7
+CardellicchioEvolution:
+  type: article-journal
+  author:
+  - given: Cosimo
+    family: Cardellicchio
+  title: Evolution for games
+  page: 1-12
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/96
+  in: *bgs8
+GluskinPsych:
+  type: article-journal
+  author:
+  - given: Emanuel
+    family: Gluskin
+  title: 'On game psychology: an experiment on the chess board/screen, should you always “do your best”?'
+  page: 13-34
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/97
+  in: *bgs8
+GoriaPlateau:
+  type: article-journal
+  author:
+  - given: Stéphane
+    family: Goria
+  title: 
+    lang: fr
+    value: 'Présentation d’informations de Décisionnelles à partir de Jeux de Plateau: Illustration du Potenciel du Jeu de Dames Chinoises'
+  page: 35-49
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/98
+  in: *bgs8
+LawrenceHnefatafl:
+  type: article-journal
+  author:
+  - given: David
+    family: Lawrence
+  title: A pictish origin for Hnefatafl?
+  page: 63-79
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/100
+  in: *bgs8
+ShimizuLiubo:
+  type: article-journal
+  author:
+  - given: Yasuji
+    family: Shimizu
+  title: The Development and Regional Variations of Liubo
+  page: 81-105
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/101
+  in: *bgs8
+StoepChessLegend:
+  type: article-journal
+  author:
+  - given: Arie
+    family: van der Stoep
+  title: A Chess Legend
+  page: 107-122
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/102
+  in: *bgs8
+BBSolitaire:
+  type: article-journal
+  author:
+  - given: George I.
+    family: Bell
+  - given: John D.
+    family: Beasley
+  title: New problems on old solitaire boards
+  page: 123-145
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/103
+  in: *bgs8
+DeVoogtMakonn:
+  type: article-journal
+  author:
+  - *Alex_de_Voogt
+  title: 'Makonn and the Indian Ocean: East African slave trade and the dispersal of rules'
+  page: 147-152
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/104
+  in: *bgs8
+StoepChessQueen:
+  type: article-journal
+  author:
+  - given: Arie
+    family: van der Stoep
+  title: Birth of the Chess Queen
+  page: 153-158
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/105
+  in: *bgs8
+DeVoogtDice:
+  type: article-journal
+  author:
+  - *Alex_de_Voogt
+  - given: Nathan
+    family: Epstein
+  - given: Rachel
+    family: Sherman–Presser
+  title: The role of the dice in board games history
+  page: 1-7
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/1139
+  in: &bgs9
+    publisher:
+      value: Associação Ludus
+      lang: pt
+    publisher-place: Lisboa, Portugal
+    title: Board Game Studies
+    volume: 8
+    issued: 2015
+StoepMorris:
+  type: article-journal
+  author:
+  - given: Arie
+    family: van der Stoep
+  title: The origins of Morris and Draughts by etymology
+  page: 9-15
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/1142
+  in: *bgs9
+DugganStrange:
+  type: article-journal
+  author:
+  - given: Eddie
+    family: Duggan
+  title: 'Strange Games: some Iron Age examples of a four-player board game?'
+  page: 17-40
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/1145
+  in: *bgs9
+Markov4Handed:
+  type: article-journal
+  author:
+  - given: Georgi
+    family: Markov
+  title: 'Russian four-handed chess: myths and misconceptions'
+  page: 41-49
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/1143
+  in: *bgs9
+ParlettHareTortoise:
+  type: article-journal
+  author:
+  - *David_Parlett
+  title: The Life and Times of Hare & Tortoise
+  page: 51-63
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/1141
+  in: *bgs9
+Whitehill19thC:
+  type: article-journal
+  author:
+  - given: Bruce
+    family: Whitehill
+  title: Games of America in the Nineteenth Century
+  page: 65-87
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/1140
+  in: *bgs9
+SevilleSphere:
+  type: article-journal
+  author:
+  - given: Adrian
+    family: Seville
+  title: The Game of the Sphere or of the Universe — a Spiral Race Game from 17th century France
+  page: 1-16
+  URL: https://doi.org/10.1515/bgs-2016-0001
+  in: &bgs10
+    title: Board Game Studies
+    volume: 10
+    ISSN: 2183-3311
+    publisher: De Gruyter Open
+    issue: 1
+    issued:
+      month: 9
+      day: 29
+      year: 2016
+WinkelmanBoard:
+  type: article-journal
+  author:
+  - given: Philip M.
+    family: Winkelman
+  title: Board to Page to Board
+  page: 17-31
+  URL: https://doi.org/10.1515/bgs-2016-0002
+  in: *bgs10
+WieseFourKing:
+  type: article-journal
+  author:
+  - given: Harald
+    family: Wiese
+  title: Four-king chess with dice is neither unrealistic nor messed up
+  page: 33-59
+  URL: https://doi.org/10.1515/bgs-2016-0003
+  in: *bgs10
+BraunDomino:
+  type: article-journal
+  author:
+  - given: Ingram
+    family: Braun
+  title:
+    value: 'Die Kenntnis des Dominospiels in Europa: Archäologie, Geschichte, Bibliographie'
+    lang: de
+  page: 61-100
+  URL: https://doi.org/10.1515/bgs-2016-0004
+  in: *bgs10
+DramaGoose:
+  type: article-journal
+  author:
+  - given: J. P.
+    family: Neto
+  - given: J. N.
+    family: Silva
+  title: Measuring Drama in Goose-like Games
+  page: 100-119
+  URL: https://doi.org/10.1515/bgs-2016-0005
+  in: *bgs10
+LhotePicinelli:
+  type: article-journal
+  author:
+  - given: Jean-Marie
+    family: Lhôte
+  title: 
+    lang: fr
+    value: Le symbolisme des jeux chez Filippo Picinelli
+  page: 1-52
+  URL: https://sciendo.com/article/10.1515/bgs-2017-0001
+  in: &bgs11
+    title: Board Game Studies
+    volume: 11
+    ISSN: 2183-3311
+    publisher: De Gruyter Open
+    issue: 1
+    issued:
+      month: 10
+      day: 21
+      year: 2017
+ShimizuShogi:
+  type: article-journal
+  author:
+  - given: Yasuji
+    family: Shimizu
+  title: 'Theory of the introduction of Shogi via Southeast Asia: Viewed from the forms of Makruk pieces—Study of the reversing of promoted Bia pieces'
+  page: 53-71
+  URL: https://sciendo.com/article/10.1515/bgs-2017-0002
+  in: *bgs11
+MarkovChessTurkestan:
+  type: article-journal
+  author:
+  - given: Georgi
+    family: Markov
+  title: A Note On Chess In 19th Century Turkestan
+  page: 73-82
+  URL: https://sciendo.com/article/10.1515/bgs-2017-0003
+  in: *bgs11
+KiddGrammai:
+  type: article-journal
+  author:
+  - given: Stephen
+    family: Kidd
+  title: Pente Grammai and the “Holy Line”
+  page: 83-99
+  URL: https://sciendo.com/article/10.1515/bgs-2017-0004
+  in: *bgs11
+DugganStranger:
+  type: article-journal
+  author:
+  - given: Eddie
+    family: Duggan
+  title: 'Stranger Games: The life and times of the spintriae'
+  page: 101-121
+  URL: https://sciendo.com/article/10.1515/bgs-2017-0005
+  in: *bgs11
+BronderWurfelspiele:
+  type: article-journal
+  author:
+  - given: Thomas
+    family: Bronder
+  title: 
+    lang: de
+    value: Mittelalterliche Würfelspiele mit Einsatz und Gewinn
+  page: 1-27
+  URL: https://sciendo.com/article/10.1515/bgs-2018-0001
+  in: &bgs12
+    title: Board Game Studies
+    volume: 12
+    ISSN: 2183-3311
+    publisher: De Gruyter Open
+    issue: 1
+    issued:
+      month: 10
+      day: 16
+      year: 2018
+DepaulisAncientAmericanI:
+  type: article-journal
+  author:
+  - *Thierry_Depaulis
+  title: 'Ancient American Board Games, I: From Teotihuacan to the Great Plains'
+  page: 29-55
+  URL: https://sciendo.com/article/10.1515/bgs-2018-0002
+  in: *bgs12
+OkoshiMancala:
+  type: article-journal
+  author:
+  - given: Akane
+    family: Okoshi
+  - *Alex_de_Voogt
+  title: 'Mancala in Surinamese Maroon Communities: The Expedition of Melville J. Herskovits'
+  page: 57-73
+  URL: https://sciendo.com/article/10.1515/bgs-2018-0003
+  in: *bgs12
+DeshmukhIndia:
+  type: article-journal
+  author:
+  - given: Amit S.
+    family: Deshmukh
+  title: Culture of Sedentary Play in India – The Space Context
+  page: 65-80
+  URL: https://sciendo.com/article/10.1515/bgs-2018-0004
+  in: *bgs12
+LangeKrieg:
+  type: article-journal
+  author:
+  - given: Bernd-Peter
+    family: Lange
+  title:
+    lang: de
+    value: Agon und Ares. Der Krieg und die Spiele
+  page: 81-86
+  URL: https://sciendo.com/article/10.1515/bgs-2018-0005
+  in: *bgs12
+DeVoogtComoros:
+  type: article-journal
+  author:
+  - *Alex_de_Voogt
+  title: 'The Comoros: a confluence of board game histories'
+  page: 1-13
+  URL: https://sciendo.com/article/10.1515/bgs-2019-0001
+  in: &bgs13
+    title: Board Game Studies
+    volume: 13
+    ISSN: 2183-3311
+    publisher: De Gruyter Open
+    issue: 1
+    issued:
+      month: 11
+      day: 8
+      year: 2019
+MarkovVerney:
+  type: article-journal
+  author:
+  - given: Georgi
+    family: Markov
+  title: 'A game that never was: Verney’s duodecimal chess'
+  page: 15-20
+  URL: https://sciendo.com/article/10.1515/bgs-2019-0002
+  in: *bgs13
+GoriaWargame:
+  type: article-journal
+  author:
+  - given: Stéphane
+    family: Goria
+  - given: Philippe
+    family: Hardy
+  title: 
+    lang: fr
+    value: Le formateur et son public dans le cadre de l’élaboration d’une simulation de type wargame sur plateau
+  page: 21-65
+  URL: https://sciendo.com/article/10.1515/bgs-2019-0003
+  in: *bgs13
+RichterSeven:
+  type: article-journal
+  author:
+  - &Jonas_Richter
+    given: Jonas
+    family: Richter
+    url: https://orcid.org/0000-0002-2924-6026
+  title: 'The Game of Seven: Glückshaus and Related Dice Games'
+  page: 65-97
+  URL: https://sciendo.com/article/10.1515/bgs-2019-0004
+  in: *bgs13
+ParlettMagie:
+  type: article-journal
+  author:
+  - *David_Parlett
+  title: 'Lizzie Magie: America’s First Lady of Games'
+  page: 99-109
+  URL: https://sciendo.com/article/10.1515/bgs-2019-0005
+  in: *bgs13
+DugganGeese:
+  type: article-journal
+  author:
+  - given: Eddie
+    family: Duggan
+  title: 'Chasing Geese: on the trail of fourteen British-published copies of The Royal Pastime of Cupid, or Entertaining Game of the Snake'
+  page: 111-158
+  URL: https://sciendo.com/article/10.1515/bgs-2019-0006
+  in: *bgs13
+DonaldDuckHoliday:
+  type: article-journal
+  author:
+  - given: W. J. A.
+    family: van Heeswijk
+  title: 'Donald Duck Holiday Game: A numerical analysis of a Game of the Goose role-playing variant'
+  page: 1-15
+  URL: https://sciendo.com/article/10.1515/bgs-2020-0001
+  in: &bgs14
+    title: Board Game Studies
+    volume: 14
+    ISSN: 2183-3311
+    publisher: De Gruyter Open
+    issue: 1
+    issued:
+      month: 12
+      day: 17
+      year: 2020
+HeynMieroslawski:
+  type: article-journal
+  author:
+  - given: Oliver
+    family: Heyn
+  title: 'Wrested from Oblivion: General Ludwik Mierosławski’s Strategy Game Rediscovered'
+  page: 17-42
+  URL: https://sciendo.com/article/10.1515/bgs-2020-0002
+  in: *bgs14
+MarkovTurkish:
+  type: article-journal
+  author:
+  - given: Georgi
+    family: Markov
+  - given: Stefan
+    family: Härtel
+  title: 'Turkish Great Chess and Chinese Whispers: Misadventures of a Chess Variant'
+  page: 43-60
+  URL: https://sciendo.com/article/10.1515/bgs-2020-0003
+  in: *bgs14
+PriceCatan:
+  type: article-journal
+  author:
+  - given: Erica
+    family: Price
+  title: 'The Sellers of Catan: The Impact of the <cite>Settlers of Catan</cite> on the United States Leisure and Business Landscape, 1995–2019'
+  page: 61-82
+  URL: https://sciendo.com/article/10.1515/bgs-2020-0004
+  in: *bgs14
+SucklingSaratoga:
+  type: article-journal
+  author:
+  - given: Maurice
+    family: Suckling
+  title: 'Simulating Saratoga: How Saratoga-Themed Board Games Function as Experiential Historiography'
+  page: 83-108
+  URL: https://sciendo.com/article/10.1515/bgs-2020-0005
+  in: *bgs14
+PavsicMonopoly:
+  type: article-journal
+  author:
+  - given: Zala
+    family: Pavšič
+  title: 'Remembering Yugoslavia: Board Game Monopoly and Cultural Memory'
+  page: 109-126
+  URL: https://sciendo.com/article/10.1515/bgs-2020-0006
+  in: *bgs14
+DepaulisBeforeUr:
+  type: article-journal
+  author:
+  - *Thierry_Depaulis
+  title: Board Games Before Ur?
+  page: 127-144
+  URL: https://sciendo.com/article/10.1515/bgs-2020-0007
+  in: *bgs14
+DeVoogtMancalaMisconceptions:
+  type: article-journal
+  author:
+  - *Alex_de_Voogt
+  title: 'Misconceptions in the History of Mancala Games: Antiquity and Ubiquity'
+  page: 1-12
+  URL: https://sciendo.com/article/10.1515/bgs-2021-0001
+  in: *bgs15
+CruxAndCruciform:
+  type: article-journal
+  author:
+  - given: Jacob
+    family: Schmidt-Madsen
+  title: 'The Crux of the Cruciform: Retracing the Early History of Chaupar and Pachisi'
+  page: 29-77
+  URL: https://sciendo.com/article/10.1515/bgs-2021-0003
+  in: *bgs15
+DugganTafl:
+  type: article-journal
+  author:
+  - given: Eddie
+    family: Duggan
+  title: 'A Game on the Edge: An Attempt to Unravel the Gordian Knot of <i>tafl</i> Games'
+  page: 99-132
+  URL: https://sciendo.com/article/10.1515/bgs-2021-0005
+  in: *bgs15
+ReframingPlay:
+  type: article-journal
+  author:
+  - given: Barbara
+    family: Carè
+  - given: Véronique
+    family: Dasen
+  - *Ulrich_Schadler
+  title: 'Back to the Game: Reframing Play and Games in Context An Introduction'
+  page: 1-7
+  URL: https://doi.org/10.2478/bgs-2022-0001
+  in: *bgs16_1
+PhialonAmulets:
+  type: article-journal
+  author:
+  - given: Laetitia
+    family: Phialon
+  title: 'Amulets, Gaming Pieces, Toys or Offerings? Thoughts on Animal Figurines and Funerary Practices in the Late Bronze Age Aegean'
+  page: 9-50
+  URL: https://doi.org/10.2478/bgs-2022-0002
+  in: *bgs16_1
+WhySoSerious:
+  type: article-journal
+  author:
+  - given: Vassiliki
+    family: Pliatsika
+  - given: Jacqueline S.
+    family: Meier
+  title: '<i>Why so Serious?</i> An Extraordinary Cone Shell Group from Mycenae and the Problem of Identifying Mycenaean Board Gaming Material'
+  page: 51-93
+  URL: https://doi.org/10.2478/bgs-2022-0003
+  in: *bgs16_1
+HearthGames:
+  type: article-journal
+  author:
+  - given: Jérémy
+    family: Lamaze
+  title: 'Games and Oracular Practices Around the Hearth: The “Table of Offerings” from the so-called Temple 4 at Kition-<i>Kathari</i> (Cyprus)'
+  page: 95-128
+  URL: https://doi.org/10.2478/bgs-2022-0004
+  in: *bgs16_1
+PaleothodorosAttica:
+  type: article-journal
+  author:
+  - given: Dimitris
+    family: Paleothodoros
+  title: Board Games Equipment from Archaeological Contexts in Archaic Attica
+  page: 129-157
+  URL: https://doi.org/10.2478/bgs-2022-0005
+  in: *bgs16_1
+BoeotianDie:
+  type: article-journal
+  author:
+  - given: Victoria
+    family: Sabetai
+  - given: Euthymia 
+    family: Nikita
+  title: 'A Boeotian Die in Context: Gaming Pieces, Jewellery, Seals, Spindle Whorls and Bird Bowls in a Female Burial of Status'
+  page: 159-195
+  URL: https://doi.org/10.2478/bgs-2022-0006
+  in: *bgs16_1
+RomanGameFindsCremona:
+  type: article-journal
+  author:
+  - given: Lynn Arslan
+    family: Pitcher
+  - given: Chiara 
+    family: Bianchi
+  title: 'Roman Game Finds from Cremona (Italy)'
+  page: 197-224
+  URL: https://doi.org/10.2478/bgs-2022-0007
+  in: *bgs16_1
+CarePavement:
+  type: article-journal
+  author:
+  - given: Barbara
+    family: Carè
+  title: 'Pavement Designs and Game Boards from Public Spaces of Ancient Athens: A Review Across the Board'
+  page: 225-249
+  URL: https://doi.org/10.2478/bgs-2022-0008
+  in: *bgs16_1
+GreekCounterCulture:
+  type: article-journal
+  author:
+  - given: Véronique
+    family: Dasen
+  - given: Jérôme
+    family: Gavin
+  title: Game Board or Abacus? Greek Counter Culture Revisited
+  page: 251-307
+  URL: https://doi.org/10.2478/bgs-2022-0009
+  in: *bgs16_1
+BoyOfLilaia:
+  type: article-journal
+  author:
+  - given: Despina
+    family: Ignatiadou
+  - given: Irini-Despina
+    family: Papaikonomou
+  - given: Irini
+    family: Poupaki
+  title: 'The Knucklebone and the Goose: Playing and Jeopardy for the Boy of Lilaia'
+  page: 309-337
+  URL: https://doi.org/10.2478/bgs-2022-0010
+  in: *bgs16_1
+PlayfulCoroplast:
+  type: article-journal
+  author:
+  - given: Maria
+    family: Chidiroglou
+  title: 'A Playful <i>Coroplast</i>? A New Look at the Terracotta Group of the Early Roman Board-Game Players NAM 4200 and Related Finds'
+  page: 339-368
+  URL: https://doi.org/10.2478/bgs-2022-0011
+  in: *bgs16_1
+SchadlerCatacomb:
+  type: article-journal
+  author:
+  - *Ulrich_Schadler
+  title: 'Catacomb Games: Reused Game Boards or Funerary Inscriptions?'
+  page: 369-395
+  URL: https://doi.org/10.2478/bgs-2022-0012
+  in: *bgs16_1
+MuscolinoTriple:
+  type: article-journal
+  author:
+  - given: Francesco
+    family: Muscolino
+  title: 
+    lang: fr
+    value: 'Une « Triple Enceinte » Et L’inscription Funéraire De <span lang="la">Agate Filia Comites Gattilanis</span> À Milan'
+  page: 397-412
+  URL: https://doi.org/10.2478/bgs-2022-0013
+  in: *bgs16_1
+PlatoPlaysPolis:
+  type: article-journal
+  author:
+  - given: Geoff
+    family: Bakewell
+  title: Plato Plays Polis
+  page: 413-430
+  URL: https://doi.org/10.2478/bgs-2022-0014
+  in: *bgs16_1
+SalvatoreRollingDice:
+  type: article-journal
+  author:
+  - given: Costanza
+    family: Salvatore
+  title: Rolling Dice for Divination, Gambling and Homeromanteia
+  page: 431-447
+  URL: https://doi.org/10.2478/bgs-2022-0015
+  in: *bgs16_1
+ThreeLargeChess:
+  type: article-journal
+  author:
+  - given: Georgi
+    family: Markov
+  title: 'Three Large Chess Variants from India and Germany: a note on their rules'
+  page: 1-16
+  URL: https://doi.org/10.2478/bgs-2022-0017
+  in: &bgs16_2
+    title: Board Game Studies
+    volume: 16
+    issue: 2
+    issued:
+      day: 13
+      month: 10
+      year: 2022
+    publisher: De Gruyter Open
+GamesOfCharacter:
+  type: article-journal
+  author:
+  - given: Mark A.
+    family: Hall
+  page: 17-46
+  title: 'Games of Character: The Role of Board, Dice & Card Games in Popular Cinema'
+  URL: https://doi.org/10.2478/bgs-2022-0018
+  in: *bgs16_2
+DeshmukhMarathi:
+  type: article-journal
+  author:
+  - given: Amit
+    family: Deshmukh
+  page: 47-83
+  title: 'Where did the Games Go? Inquiry of Board Games in Medieval Marathi Literature in India'
+  URL: https://doi.org/10.2478/bgs-2022-0019
+  in: *bgs16_2
+DonmezXanthos:
+  type: article-journal
+  author:
+  - given: Aytaç
+    family: Dönmez
+  - given: Diether
+    family: Schürr
+  page: 85-99
+  title: Schälchenkreise in Xanthos
+  URL: https://doi.org/10.2478/bgs-2022-0020
+  in: *bgs16_2
+ErdoganHowToPlay:
+  type: article-journal
+  author:
+  - given: Abdulkadir
+    family: Erdogan
+  - given: Merve Atasay
+    family: Sunay
+  - given: Ayşegül Eryılmaz
+    family: Çevirgen
+  page: 101-122
+  title: How to Play Board Games? A Framework Proposal for Classroom Settings
+  URL: https://doi.org/10.2478/bgs-2022-0021
+  in: *bgs16_2
+RaposoUr:
+  type: article-journal
+  author:
+  - given: Diego J.
+    family: Raposo
+  - given: Padraig X.
+    family: Lamont
+  title: Mathematical analysis of the Royal Game of Ur
+  page: 1-46
+  URL: https://doi.org/10.2478/bgs-2023-0001
+  in: &bgs17
+    title: Board Game Studies
+    volume: 17
+    issue: 1
+    issued:
+      day: 19
+      month: 10
+      year: 2023
+    publisher: De Gruyter Open
+LudusRegularis:
+  type: article-journal
+  author:
+  - given: Carla
+    family: Cardoso
+  title: '<span lang="la">Ludus Regularis</span>: The Clergy Game'
+  page: 47-92
+  URL: https://doi.org/10.2478/bgs-2023-0002
+  in: *bgs17
+MarkovMaldivian:
+  type: article-journal
+  author:
+  - given: Georgi
+    family: Markov
+  title: Maldivian Chess (Raazuvaa)
+  page: 93-103
+  URL: https://doi.org/10.2478/bgs-2023-0003
+  in: *bgs17
+PennMarbleLanes:
+  type: article-journal
+  author:
+  - given: Tim
+    family: Penn
+  - given: Summer
+    family: Courts
+  - *Ulrich_Schadler
+  title: 'Reassessing Roman and Late Antique ‘Marbles Lanes’: One Game or Many?'
+  page: 105-165
+  URL: https://doi.org/10.2478/bgs-2023-0004
+  in: *bgs17
+RichterMerels:
+  type: article-journal
+  author:
+  - *Jonas_Richter
+  title: German Names for Merels
+  page: 167-204
+  URL: https://doi.org/10.2478/bgs-2023-0005
+  in: *bgs17
+FindingLudemes:
+  type: article-journal
+  author:
+  - given: Micael
+    family: Sousa
+  title: 'Finding Ludemes in Modern Board Games: Analyzing the Top Number One Games of Board Game Geek'
+  page: 205-229
+  URL: https://doi.org/10.2478/bgs-2023-0006
+  in: *bgs17
+MerelsChina:
+  type: article-journal
+  title: Research on the merels game in medieval China
+  URL: https://doi.org/10.1007/s41826-020-00037-z
+  author:
+  - given: Song
+    family: Wu
+  - given: Pauline
+    family: Sebillaud
+  page: 41-52
+  in:
+    title: Asian Archaeology
+    volume: 4
+    issue: 1
+    issued:
+      day: 16
+      month: 9
+      year: 2020
+AlmanachDesJeux:
+  type: book
+  issued: 1785
+  title:  
+    lang: fr
+    value: Almanach des Jeux, ou Académie Portative, Contenant les Regles du Reversis, du Wisk, du Tre-Sette, du Piquet, et du Trictrac
+  edition: 2
+  publisher-place: Paris
+  publisher: Chez Fournier
+  URL: https://archive.org/details/almanachdesjeux00philgoog
+  author:
+  - given: François-André Danican
+    family: Philidor
+RulesOfReversis:
+  type: book
+  title: Rules of Reversis, as played in the fasionable circles
+  publisher-place: London
+  publisher: S. and J. Reed
+  issued: 1796
+  URL: https://archive.org/details/bim_eighteenth-century_rules-of-reversis-as-pl_gentleman_1796
+RulesForTheGameOfReversis:
+  type: book
+  title: 'Rules for the Game of Reversis, translated originally from the Spanish: and now from the French'
+  publisher-place: Dublin
+  publisher: W. Hallhead
+  issued: 1777
+  URL: https://archive.org/details/bim_eighteenth-century_rules-for-the-game-of-re_1777
+AnnalsOfGaming:
+  type: book
+  title: Annals of Gaming; or, the Fair Player’s Sure Guide
+  publisher-place: London
+  publisher: G. Allen
+  issued: 1775
+  URL: https://archive.org/details/bim_eighteenth-century_annals-of-gaming-or-th_connoisseur_1775
+  notes: Collects articles which were previously published in <cite>Covent Garden Magazine</cite>.
+BooksOnGamingNQ:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 461-2
+  URL: https://archive.org/details/sim_notes-and-queries_1889-06-15_7_181/page/461
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 7
+    issue: 181
+    issued: 
+      month: 6
+      day: 15
+      year: 1889
+BooksOnGamingNQ2:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 481-2
+  URL: https://archive.org/details/sim_notes-and-queries_1889-06-22_7_182/page/481
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 7
+    issue: 182
+    issued: 
+      month: 6
+      day: 22
+      year: 1889
+BooksOnGamingNQ3:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 3-4
+  URL: https://archive.org/details/sim_notes-and-queries_1889-07-06_8_184/page/3
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 184
+    issued: 
+      month: 7
+      day: 6
+      year: 1889
+BooksOnGamingNQ4:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  - given: H. Eardley
+    family: Field
+  page: 42-3
+  URL: https://archive.org/details/sim_notes-and-queries_1889-07-20_8_186/page/42/mode/2up
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 186
+    issued: 
+      year: 1889
+      month: 7
+      day: 20
+BooksOnGamingNQ5:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 83-84
+  URL: https://archive.org/details/sim_notes-and-queries_1889-08-03_8_188/page/83
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 188
+    issued: 
+      year: 1889
+      month: 8
+      day: 3
+BooksOnGamingNQ6:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 144-5
+  URL: https://archive.org/details/sim_notes-and-queries_1889-08-24_8_191/page/144
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 191
+    issued: 
+      year: 1889
+      month: 8
+      day: 24
+BooksOnGamingNQ7:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 201-2
+  URL: https://archive.org/details/sim_notes-and-queries_1889-09-14_8_194/page/201
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 194
+    issued: 
+      year: 1889
+      month: 9
+      day: 14
+BooksOnGamingNQ8:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 262-4
+  URL: https://archive.org/details/sim_notes-and-queries_1889-10-05_8_197/page/262
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 197
+    issued: 
+      year: 1889
+      month: 10
+      day: 5
+BooksOnGamingNQ9:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 343-4
+  URL: https://archive.org/details/sim_notes-and-queries_1889-11-02_8_201/page/343
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 201
+    issued: 
+      year: 1889
+      month: 11
+      day: 2
+BooksOnGamingNQ10:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 404-5
+  URL: https://archive.org/details/sim_notes-and-queries_1889-11-23_8_204/page/404
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 204
+    issued: 
+      year: 1889
+      month: 11
+      day: 23
+BooksOnGamingNQ11:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 482-3
+  URL: https://archive.org/details/sim_notes-and-queries_1889-12-21_8_208/page/482
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 8
+    issue: 208
+    issued: 
+      year: 1889
+      month: 12
+      day: 21
+BooksOnGamingNQ12:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 24-5
+  URL: https://archive.org/details/sim_notes-and-queries_1990-01-11_9_211/page/24
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 9
+    issue: 211
+    issued: 
+      year: 1890
+      month: 1
+      day: 11
+BooksOnGamingNQ13:
+  type: article-magazine
+  title: Books on Gaming
+  author:
+  - given: Julian
+    family: Marshall
+  page: 142-4
+  URL: https://archive.org/details/sim_notes-and-queries_1990-02-22_9_217/page/142
+  in:
+    title: Notes and Queries (7th Series)
+    volume: 9
+    issue: 217
+    issued: 
+      year: 1890
+      month: 2
+      day: 22
+QueenAnnaFlorio:
+  type: book
+  title: Queen Anna’s New World of Words, or Dictionarie of the Italian and English Tongues
+  author:
+  - *John_Florio
+  issued: 1611
+  publisher: Edward Blount and William Barret
+  publisher-place: London
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_queen-annas-new-world-of_florio-giovanni_1611

@@ -17,8 +17,6 @@ countries. Other variations of the game — such as {% gameref shax %} or {%
 gameref morabaraba %} — are also played in several African countries.
 </p>
 
-<!-- excerpt -->
-
 In addition to being a game, the board itself was used as some kind of talisman
 or symbol; @MerylsBoardEnigma [p. 330] collects nearly a thousand examples of
 inscribed mill boards from around the world. Many of these are in vertical
@@ -292,13 +290,9 @@ Morris is evidently only suitable to be played by monkeys:
 <position="aside" src={imgLargeMerelsWithDiagonals} alt="">
 */} -->
 
-The board with diagonals seems to appear first in Arabic sources;[@Murray2 p.
-43] it is shown — as the only drawing — in the famous <span class="noun"
-lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<cite lang="ar">القاموس
-المحيط</cite>, ‘The Surrounding Ocean’) of [<span class="noun"
-lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi)
-(<span lang="fa">{% isolate 'فیروزآبادی' %}</span>, 1329–1414), published at the start of the
-15th century.[@alQamus]
+The board with diagonals seems to appear first in Arabic sources;[@Murray2 p. 43] it is shown — as the only drawing — in the famous <span class="noun" lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<cite lang="ar">القاموس المحيط</cite>, ‘The Surrounding Ocean’) of [<span class="noun" lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi) (<span lang="fa">{% isolate 'فیروزآبادی' %}</span>, 1329–1414), published at the start of the 15th century.[@alQamus]
+
+In China the game is mentioned by the Ming Dynasty author <span lang="cmn-Latn-pinyin" class="noun">Xiè Zhàozhè</span> (<span lang="zh" class="noun">谢肇淛</span>, 1567–1624 {%ce%}) in his <cite>Five Assorted Offerings</cite> (<cite lang="zh">五杂组</cite>),[@MerelsChina] and game-boards (almost entirely of the ‘diagonals’ type) have been found in China, starting from boards dated to the the 8–9th centuries in the [Uighur Khaganate](https://en.wikipedia.org/wiki/Uyghur_Khaganate) in what is now Mongolia, to the Balhae kingdom in the 9–10th centuries, and eventually spreading throughout the rest of China through the Liao/Song, then Jin and Yuan dynasties (10–14th centuries). It seems probable that the game reached China through the Silk Roads from the Middle East.[@MerelsChina]
 
 {% image 
     src='Fairuzabadi.jpg'
@@ -313,14 +307,7 @@ lang="ar-Latn">Qamūs</span>. The game is here identified with <span
 lang="ar-Latn">suddar</span>.
 {% imageEnd %}
 
-In later English history the game developed an association with rusticity, often
-mentioned as a game played by shepherds. In such guise it famously
-appears — albeit relocated in time and place to a fictional ancient Athens — in
-Shakespeare’s [<cite>A Midsummer Night’s
-Dream</cite>](https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream) (<abbr
-title="circa">c.</abbr> 1595), where, thanks to a feud between Titania and
-Oberon (queen and king of the fairies), the natural state of the countryside is
-upended, and:
+In later English history the game developed an association with rusticity, often mentioned as a game played by shepherds. In such guise it famously appears — albeit relocated in time and place to a fictional ancient Athens — in Shakespeare’s [<cite>A Midsummer Night’s Dream</cite>](https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream) (<abbr title="circa">c.</abbr> 1595), where, thanks to a feud between Titania and Oberon (queen and king of the fairies), the natural state of the countryside is upended, and:
 
 > The ox hath therefore stretch’d his yoke in vain,<br/>
 > The ploughman lost his sweat, and the green corn<br/>
@@ -413,7 +400,15 @@ Other English names for the game have included:
 In other languages it has been called:
 
 * Bangla: <span lang="bn" class="aka">ন গুটি</span> (<span lang="bn-Latn" class="aka">na guṭi</span>) ‘nine beads’, or <span lang="bn" class="aka">পাইত(-পাইত)</span> (<span lang="bn-Latn" class="aka">pāit(-pāit)</span>) ‘get(-ting)’[@FolkGamePait]
-* Chinese: <span lang="zh" class="aka">三棋</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">sān qí</span>) ‘three game’[@KoreanGames p. 102], <span lang="zh" class="aka">捉三</span> (Cantonese: <span class="aka" lang="yue-Latn-jyutping">zuk¹ saam¹</span>; Mandarin: <span class="aka" lang="cmn-Latn-pinyin">zhuō sān</span>) ‘catching three’[@TipcatAndOtherChineseGames]. In Teochew it can be called <span lang="tws" class="aka">直直</span> (<span lang="tws-Latn">dig⁸ dig⁸</span>) ‘straight line’,[@Newell59] and there was a Teochew proverb that “[Chinese] chess is for immortals; straight-line is for beggars” (<span lang="tws">仙棋乞食直</span> <span lang="tws-Latn">siêng¹ gi⁵ keg⁴ ziah⁸ dig⁸</span>).[@Newell59]{%fn%}Much thanks to [Brandon Seah](https://learn-teochew.github.io/) for helping to figure this transliteration out.{%endfn%}
+* Chinese:
+  * An old name is <span lang="zh" class="aka">馬城</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">mǎ chéng</span>) ‘horse walls’[@MerelsChina 4]
+  * More modern names include: <span lang="zh" class="aka">成三棋</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">chéng sān qí</span>) ‘achieving three game’,[@MerelsChina 4] or simply <span lang="zh" class="aka">三棋</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">sān qí</span>) ‘three game’[@KoreanGames 102]
+  * <span lang="zh" class="aka">連棋</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">lián qí</span>) ‘lining-up game’[@MerelsChina 4]
+  * <span lang="zh" class="aka">連環馬棋</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">lián huán mǎ qí</span>) ‘interlinked horses{%fn%}“Horse” is the standard term for a game piece.{%endfn%} game’[@MerelsChina 4]
+  * <span lang="zh" class="aka">捉三</span> (Cantonese: <span class="aka" lang="yue-Latn-jyutping">zuk¹ saam¹</span>; Mandarin: <span class="aka" lang="cmn-Latn-pinyin">zhuō sān</span>) ‘catching three’[@TipcatAndOtherChineseGames]
+  * <span lang="zh" class="aka">直棋</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">zhí qí</span>) ‘line game’[@MerelsChina 4]
+  *<span lang="zh" class="aka">吉日格</span> <span lang="cmn-Latn-pinyin" class="aka">jí rì gé</span>[@MerelsChina 4]
+  * In Teochew it can be called <span lang="tws" class="aka">直直</span> (<span lang="tws-Latn">dig⁸ dig⁸</span>) ‘straight line’,[@Newell59] and there was a Teochew proverb that “[Chinese] chess is for immortals; straight-line is for beggars” (<span lang="tws">仙棋乞食直</span> <span lang="tws-Latn">siêng¹ gi⁵ keg⁴ ziah⁸ dig⁸</span>).[@Newell59]{%fn%}Much thanks to [Brandon Seah](https://learn-teochew.github.io/) for helping to figure this transliteration out.{%endfn%}
 * French: <span lang="fr" class="aka">le jeu du moulin</span> ‘the mill game’
 * Greek: <span lang="el" class="aka">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="el" class="aka">τριώδιον</span> ‘triodium’.[@Hyde2 p. 205]
 * German: <span lang="de" class="aka">Neunstein</span> ‘nine stone’ or simply <span lang="de" class="aka">Mühlespiel</span> ‘mill game’. <!-- Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. --> In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de" class="aka">Fickmül</span>.{%fn%}See {%a rabelais,the Gargantua article%} for more about Fischart’s list.{%endfn%}

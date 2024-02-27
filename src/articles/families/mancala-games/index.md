@@ -10,6 +10,10 @@ Lots of images in Pitts Rivers Museum.
 
 - <span lang="naq" class="aka">ǁHus</span> or <span lang="naq" class="aka">ǃkhoros</span> @TsuniGoam [p. 70, 106]
 
+@DeVoogtMancala
+@DeVoogtMancalaBoards
+@DeVoogtMancalaMisconceptions
+
 ---
 ## Games by Region
 
@@ -34,3 +38,4 @@ Lots of images in Pitts Rivers Museum.
         - Bemba: <span lang="bem">mwambulula</span>[@MancalaNorthernRhodesia], or <span lang="bem">isolo</span>[@MancalaNorthernRhodesia]
 - South America:
     - Guyana: wari[@CruickshankGames]
+    - Suriname: @OkoshiMancala
