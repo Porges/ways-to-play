@@ -1897,7 +1897,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>shuttlecock</td>
 <td>shuttlecock</td>
 <td>shuttlecock</td>
-<td>a dice game, see Wikipedia “Rutebeuf”</td>
+<td>a dice game, {%gameref gresco%}</td>
 </tr>
 
 <tr>

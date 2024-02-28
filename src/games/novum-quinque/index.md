@@ -91,4 +91,4 @@ Unfortunately, due to errors in his analysis, the reformed game was not fair.
 
 ## See also
 
-{%gameref hazard%} is a very similar game, and seems to have been invented later than Novum Quinque.
+{%gameref hazard%} is a very similar game, and probably inspired Novum Quinque.

@@ -17687,3 +17687,141 @@ QueenAnnaFlorio:
   publisher: Edward Blount and William Barret
   publisher-place: London
   URL: https://archive.org/details/bim_early-english-books-1475-1640_queen-annas-new-world-of_florio-giovanni_1611
+CommerceOfTime:
+  type: thesis
+  title: 'The Commerce Of Time: The Influence Of Thirteenth Century Commercial Society On The Conception And Expression Of Time In Parisian Poet Rutebeuf’s Corpus'
+  author:
+  - given: Ashley
+    family: Powers
+  URL: http://rave.ohiolink.edu/etdc/view?acc_num=osu1469089012
+  genre: PhD thesis
+  issued: 2016
+  publisher: Ohio State University
+  publisher-place: Columbus, OH, USA  
+GreedForGain:
+  type: chapter
+  URL: https://www.academia.edu/2135669/Organizing_the_Greed_for_Gain_Alfonso_X_of_Spain_s_Law_on_Gambling_Houses
+  author:
+  - *Ulrich_Schadler
+  title: 'Organizing the Greed for Gain: Alfonso X of Spain’s Lawon Gambling Houses'
+  page: 23-47
+  in: 
+    title: 'Religions in Play: Games, Chance and Virtual Worlds'
+    issued: 2012
+    editor:
+    - given: Maya
+      family: Burger
+    - given: Philippe
+      family: Bornet
+    ISBN: '9783290220105'
+    publisher: Pano Verlag
+    publisher-place: Zürich, Switzerland
+ELJocDeNaibs:
+  type: article-journal
+  URL: https://archive.org/details/bibliofiliarecul02miquuoft/page/133
+  title:
+    lang: es
+    value: El joc de naibs a Catalunya
+  page: 181-207
+  author:
+  - given: Ramón
+    family: Miquel y Planas
+  in:
+    title:
+      lang: es
+      value: Bibliofilia
+    issued: 1916
+    volume: 2
+    publisher-place: Barcelona, Spain
+Perpignan:
+  type: article-journal
+  title:
+    value: "Documents Historiques sur la Ville de Perpignan: V. Criées concernant les mœurs popularies au XVe siècle"
+    lang: fr
+  page: 74-87
+  URL: https://archive.org/details/revuecatalane12sociuoft/page/74/mode/2up
+  author:
+  - given: Henry
+    family: Aragon
+  in:
+    title:
+      lang: fr
+      value: Revue Catalane
+    volume: 12
+    issued: 1918
+Disme:
+  type: book
+  title:
+    lang: fr
+    value: La Disme de Penitanche
+  author:
+  - given: Glynn
+    family: Hesketh
+  publisher: Modern Humanities Research Association
+  issued: 2006
+  publisher-place: London
+  ISBN: '9780947623715'
+  series:
+    title: MHRA Critical Texts
+    volume: 7
+    ISSN: 17461642
+WurfelUndWurfelspiel:
+  type: book
+  title:
+    value: Würfel und Würfelspiel im Alten Frankreich
+    lang: de
+  URL: https://archive.org/details/wurfelundwurfelspielsemrau
+  author:
+  - given: Franz
+    family: Semrau
+  issued: 1910
+  publisher: Max Niemeyer
+  publisher-place: Halle, Germany
+  series:
+    title: 
+      value: Beihefte zur Zeitschrift für Romanische Philologie Herausgegeben von Dr. Gustav Gröber
+      lang: de
+    volume: 23
+JongleursEtTrouveres:
+  type: book
+  URL: https://archive.org/details/jongleursettrou01jubigoog
+  title:
+    value: 'Jongleurs et trouvères: ou, Choix de saluts, épîtres, rêveries et autres pièces légères des XIIIe et XIVe siècles'
+    lang: fr
+  editor:
+  - given: Achille
+    family: Jubinal
+  publisher-place: Paris
+  issued: 1835
+  publisher: J. Albert Merklein
+RutebeufComplete:
+  type: book
+  title: 
+    value: 'Oeuvres complètes de Rutebeuf: trouvère du XIIIe siècle'
+    lang: fr
+  editor:
+  - given: Achille
+    family: Jubinal
+  issued: 1874
+  edition: 2
+  volume: 1
+  URL: https://archive.org/details/oeuvrescompltes02jubigoog
+ChansonsEtDits:
+  type: book
+  URL: https://archive.org/details/ChansonsEtDitsArtesiensDuXIIIeSi
+  title:
+    value: Chansons et Dits Artésiens du XIIIe Siècle 
+    lang: fr
+  author:
+  - given: Alfred
+    family: Jeanroy
+  - given: Henri
+    family: Guy
+  issued: 1898
+  publisher: Feret & Fils
+  publisher-place: Bordeaux, France
+  series:
+    title:
+      value: Bibliothèque des Universités du Midi
+      lang: fr
+    volume: 2

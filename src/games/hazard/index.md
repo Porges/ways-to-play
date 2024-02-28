@@ -7,17 +7,20 @@ equipment: Dice
 <span class="aka">Hazard</span> is a very old dice game — in fact, it was the name of the game before the word “hazard” meant anything else in English, and the modern meaning of the word is derived from the <em>hazardous</em> nature of the game. It has also been spelled <span class="aka">Hasard</span>, <span class="aka">Hassard</span>, or <span class="aka">Hazzard</span>.
 </p>
 
- The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Middle French <span lang="fr" class="aka">hasard</span>.<!--{%fn%}Sometimes ‘hazard’ refers to the specific die roll of {%dice 44%}.{%endfn%} CANNOT FIND MY SOURCE FOR THIS--> It has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard] French books seem to believe that the game was of English origin.[@TheorieDesJeuxDeHasard p. 8]
+The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Spanish <span lang="es">azar</span> and Middle French <span lang="fr" class="aka">hasard</span>. The original game which was called <span lang="es">azar</span> in Alfonso X’s @AlfonsoGames (1283) used three dice; the version described here was at the time possibly called <span lang="es" class="aka">azar con dos dados</span>.[@GreedForGain 15]
+
+<!--{%fn%}Sometimes ‘hazard’ refers to the specific die roll of {%dice 44%}.{%endfn%} CANNOT FIND MY SOURCE FOR THIS-->
+The game described here has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard] Later French books seem to believe that the game was of English origin.[@TheorieDesJeuxDeHasard p. 8]
 
 Charles Cotton says that Hazard is the “moſt bewitching Game that is plaid on the dice; for when a man begins to play he knows not when to leave off”,[@CompleatGamester p. 172]{%fn%}This page misnumbered 127 instead of 172.{%endfn%} and that “Hazzard is a proper name for this game; for it ſpeedily makes a man or undoes him; in the twinkling of an eye either a Man or a Mouſe.”[@CompleatGamester p. 168]
-
-Rules for the game appear in {%a hoyle,Hoyle’s%} from the 1775 Charles Jones edition,{%fn%}The <abbr class="initialism">OED</abbr> cites the 1778 _Thomas_ Jones edition, but this is a later piracy of the Charles Jones version.{%endfn%} when Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
 
 The <abbr class="initialism">OED</abbr> has a somewhat amusing definition of the game:
 
 <blockquote class="epigraph">
 A gambling game with two dice in which the chances are complicated by a number of arbitrary rules.
 </blockquote>
+
+Rules for the game appear in {%a hoyle,Hoyle’s%} from the 1775 Charles Jones edition,{%fn%}The <abbr class="initialism">OED</abbr> cites the 1778 _Thomas_ Jones edition, but this is a later piracy of the Charles Jones version.{%endfn%} when Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
 
 ## Play
 
@@ -81,6 +84,13 @@ When played against a bank, the game needed to be made unfair in some way so tha
 @TheorieDesJeuxDeHasard suggests that some numbers were made into … TODO
 
 I cannot find this supposed section now!
+
+-->
+
+<!-- 
+
+Interesting entry on Hazard here: https://archive.org/details/bub_gb_LclKAAAAcAAJ/page/396/mode/2up?q=hazard
+
 -->
 
 ## See also
