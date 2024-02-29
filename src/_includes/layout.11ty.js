@@ -106,6 +106,14 @@ exports.render = async function (data) {
         doHashPopup({newURL: window.location.href});
       });
     </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0CH5J6QX3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Z0CH5J6QX3');
+    </script>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage"${data.tags?.includes('article')? ' itemref="breadcrumbs"' : ''}>
     <div itemprop="isPartOf" itemscope itemtype="https://schema.org/WebSite">
