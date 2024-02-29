@@ -43,9 +43,13 @@ Which also says "granche"!
 
 ---
 
+Also <span lang="fr">gryache</span>, 15th century.[@DictionnaireHistorique6 434]
+
+---
+
 The word can also mean ‘gray’, and is used to refer to several birds (perdrix griesche, grey partridge; pie griesche, wariangle; poule griesche, moor-hen, hen of Greece;<!-- https://archive.org/details/bim_early-english-books-1475-1640_a-dictionarie-of-the-fre_cotgrave-randle_1611/page/n499/mode/2up?q=griesche--> griesche, the woodlark) or also means to ‘prick’, as in the name <cite>Ortie Griesche</cite> ‘stinging nettle’ (or Ortie Grecque, greek nettle).<!-- https://archive.org/details/bim_early-english-books-1475-1640_a-dictionarie-of-the-fre_cotgrave-randle_1611/page/n675/mode/2up?q=griesche --><!-- https://archive.org/details/bub_gb_C47LbJ2Wo7IC/page/n161/mode/2up?q=griesche --><!-- https://archive.org/details/mobot31753000811155/page/131/mode/2up?q=griesche -->{%fn%}Another place the game seems to appear is [here](https://archive.org/details/bub_gal_ark_12148_btv1b8454680s/page/n15/mode/2up?q=griesche), but I cannot locate any further information about this manuscript.{%endfn%}
 
-More modern authors often mistake this for “Greek”.
+The main meaning was Greek.[@DictionnaireHistorique6 427] The “pricking” meaning seems to have come from nettles.
 
 This in turn is probably the same game as <span lang="es" class="aka">guirguiesca</span>, which is described in [Alfonso X](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile)’s @AlfonsoGames of 1283, where sufficiently-detailed rules are supplied. It possibly earlier appears in <cite lang="es">Ordenamiento de las tafurerias</cite> (1276/7 {%ce%}), a law code regarding gambling games which was also produced upon the command of Alfonso X.[@GreedForGain 1] Here <span lang="es" class="aka">gargista</span> was described as a game which could legally be played for money — as long as other rules were followed. Various manuscripts of this code give 11 different spellings of the name, but none of them the same as <span lang="es" class="aka">guirguiesca</span>.[@GreedForGain 18]
 
