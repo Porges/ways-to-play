@@ -13,3 +13,5 @@ Maybe: qulli @AmharicEnglish1 [p. 671].
 p. 542
 
 dundoo - bat, https://archive.org/details/in.ernet.dli.2015.216711/page/n531
+
+@FromJavaneseToDani, I think, as “Flip-the-Stick”

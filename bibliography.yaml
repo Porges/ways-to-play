@@ -2400,6 +2400,10 @@ BirdBrainManual:
   title: Bird Brain Manual
   publisher: Animal Behavior Enterprises
   URL: https://www3.uca.edu/iqzoo/Media/PDF/Manual/manual5.pdf
+  archive-URL: https://web.archive.org/web/20240309064647/https://www3.uca.edu/iqzoo/Media/PDF/Manual/manual5.pdf
+  issued:
+    year: 1955
+    circa: true
 TheMouseWhoReinforced:
   type: article-journal
   title: "Marian Breland Bailey: The Mouse Who Reinforced"
@@ -5446,6 +5450,20 @@ GamesOfNewZealandChildren:
     issued:
       year: 1972
     ISBN: "0292724055"
+ChildrensFolkGamesAsCustoms:
+  type: article-journal
+  title: Children’s Folk Games as Customs
+  URL: https://www.jstor.org/stable/1499979
+  author:
+  - *Brian_Sutton_Smith
+  page: 33-42
+  in:
+    title: Western Folklore
+    volume: 48
+    issue: 1
+    issued:
+      month: 1
+      year: 1989
 PangHauKiImage:
   type: webpage
   title: "Game Diagram: Pang Hau Ki"
@@ -17976,3 +17994,94 @@ SolvingMorris:
   page: 101-113
   URL: https://library.slmath.org/books/Book29/files/gasser.pdf
   in: *GamesOfNoChance1
+BeyondTheRulesOfTheGame:
+  type: paper-conference
+  title: 'Beyond the Rules of the Game: Why are Rooie Rules Nice?'
+  author:
+  - given: Linda A.
+    family: Hughes
+  page: 188-199
+  URL: https://archive.org/details/worldofplayproce0000asso/page/188
+  in: &ASP7
+    title: 'The World of Play: Proceedings of the 7th Annual Meeting of The Association of the Anthropological Study of Play'
+    editor:
+    - given: Frank E.
+      family: Manning
+    publisher: Leisure Press
+    publisher-place: West Point, NY, USA
+    issued: 1983
+    URL: https://archive.org/details/worldofplayproce0000asso
+    ISBN: '0880110597'
+ChildrensGamesAndGaming:
+  type: chapter
+  author:
+  - given: Linda A.
+    family: Hughes
+  title: Children’s Games and Gaming
+  URL: https://www.jstor.org/stable/j.ctt46nskz.12
+  page: 93-120
+  in:
+    title: 'Children’s Folklore: A Source Book'
+    issued: 1999
+    URL: https://www.jstor.org/stable/j.ctt46nskz
+    editor: 
+    - *Brian_Sutton_Smith
+    - given: Jay
+      family: Mechling
+    - given: Thomas W.
+      family: Johnson
+    - given: Felicia R.
+      family: McMahon
+    publisher: Utah State University Press
+    publisher-place: Utah
+    ISBN: '0874212804'
+FromJavaneseToDani:
+  type: paper-conference
+  title: "From Javanese to Dani: The Translation of a Game"
+  author:
+  - given: Karl G.
+    family: Heider
+  page: 72-0
+  URL: https://archive.org/details/studiesinanthrop0000asso/page/72
+  in: &ASP2
+    title: 'Studies in the Anthropology of Play: Papers in Memory of B. Allan Tindall; Proceedings from the Second Annual Meeting of the Association for the Anthropological Study of Play'
+    editor:
+    - given: Phillips
+      family: Stevens
+      suffix: Jr.
+    publisher: Leisure Press
+    publisher-place: West Point, NY, USA
+    ISBN: '0918438098'
+    issued: 1977
+    URL: https://archive.org/details/studiesinanthrop0000asso
+MopanDice:
+  type: paper-conference
+  title: Mopan Maya Dice Games from the Southern Peten
+  author:
+  - given: Pierre
+    family: Ventur
+  page: 242-262
+  URL: https://archive.org/details/playculture0000unse/page/242
+  in: &ASP4
+    title: 'Play and Culture: 1978 Proceedings of the Association for the Anthropological Study of Play'
+    editor:
+    - given: Helen B.
+      family: Schwartzman
+    publisher: Leisure Press
+    publisher-place: West Point, NY, USA
+    issued: 1980
+    ISBN: '0918438527'
+    URL: https://archive.org/details/playculture0000unse
+OnePotatoTwoPotato:
+  type: book
+  title: "One Potato, Two Potato: The Secret Education of American Children"
+  author:
+  - given: Mary
+    family: Knapp
+  - given: Herbert
+    family: Knapp
+  publisher: W. W. Norton & Company
+  publisher-place: New York
+  URL: https://archive.org/details/onepotatotwopota00knap
+  issued: 1976
+  ISBN: '039308745X'

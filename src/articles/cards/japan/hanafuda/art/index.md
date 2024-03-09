@@ -971,7 +971,7 @@ centuries, the average peak of the cherry blossom season was April
 17th.[@FourSeasons loc. 484]{%endfn%} and why ‘August’ shows
 the full moon when the full moon festival (<span lang="ja">月見</span> {%
 pronounce pronouncer="skent" word="tsukimi" lang="ja-Latn"
-file="pronunciation_ja_月見.mp3" %} actually falls in September–October.
+file="pronunciation_ja_月見.mp3" %}) actually falls in September–October.
 
 However, even with these modifications the eleventh (willow) and twelfth
 (paulownia) months are in the wrong place. The eleventh month depicts rain,
