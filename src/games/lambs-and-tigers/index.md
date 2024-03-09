@@ -17,3 +17,10 @@ Kannada: <span lang="kn" class="aka">ಆಡು ಹುಲಿ ಆಟ</span> <span 
 Telugu: <span lang="te" class="aka">మేక పులి ఆట</span> <span lang="te-Latn" class="aka">mēka puli āṭa</span> ‘goat tiger game’, or <span lang="te" class="aka" class="aka">పులిజూదం</span> <span lang="te-Latn">pulijūdaṁ</span>.
 
 In [Acehnese](https://en.wikipedia.org/wiki/Acehnese_language), it is called <span lang="ace" class="aka">meurimueng-rimueng</span> ‘playing tigers’.[@TheAcehnese p. 204]
+
+
+---
+
+Bagh Chal as well:
+
+@TigerGoatsDraw

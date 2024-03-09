@@ -439,7 +439,7 @@ A <span lang="fr">jeu du moulin</span> in the south-west wall of the <span class
 
 ## Analysis
 
-With perfect play, the game is a draw.[@UltraStrongMorris]
+With perfect play, the game is a draw.[@SolvingMorris][@UltraStrongMorris] Interestingly, it is possible for the starting player to make a losing move as early as their third turn.[@SolvingMorris 112]
 
 ## Variants
 

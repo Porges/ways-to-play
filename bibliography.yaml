@@ -5270,10 +5270,22 @@ SparrowAndPigeon:
     volume: 93
     issued:
       year: 2014
+GamesOfChanceInMacau1:
+  type: article-journal
+  title: 'A History of Games of Chance in Macau: Part 1 — Introduction'
+  URL: https://dx.doi.org/10.2139/ssrn.2263185
+  author:
+    - given: Jorge
+      family: Godinho
+  page: 552-556
+  in:
+    title: Gaming Law Review and Economics
+    volume: 16
+    issue: 10
+    issued: 2012
 GamesOfChanceInMacau2:
   type: article-journal
-  title: "A History of Games of Chance in Macau: Part 2 — The Foundation of the
-    Macau Gaming Industry"
+  title: "A History of Games of Chance in Macau: Part 2 — The Foundation of the Macau Gaming Industry"
   author:
     - given: Jorge
       family: Godinho
@@ -17844,3 +17856,123 @@ LaneArabicEnglish2:
   URL: https://archive.org/details/arabic-english-lexicon-2/
   volume: 2
   volume-title: '&#x2068;ج&#x2069;–&#x2068;خ&#x2069;'
+GamesStuart:
+  type: thesis
+  genre: Master of Arts (MA) thesis
+  title: Games and Gaming of the Stuart Aristocracy
+  author:
+  - given: Vicky Ann
+    family: Sanderlin
+  issued:
+    year: 1981
+    season: Spring
+  publisher: Old Dominion University
+  publisher-place: Norfolk, VA, USA
+  URL: https://digitalcommons.odu.edu/history_etds/25
+RoleOfRoguery:
+  type: article-journal
+  title: The Role of Roguery in the History of Probability
+  URL: https://www.jstor.org/stable/2246175
+  author:
+  - given: David
+    family: Bellhouse
+  page: 410-20
+  in:
+    title: Statistical Science
+    issued: 1993
+    volume: 8
+    issue: 3
+GamesOfNoChance1: &GamesOfNoChance1
+  # TODO: really this should be individual chapters
+  type: book
+  title: Games of No Chance
+  editor:
+  - &Richard_J_Nowakowski
+    given: Richard J.
+    family: Nowakowski
+  issued: 1996
+  series:
+    title: MSRI Publications
+    volume: 29
+  URL: https://library.slmath.org/books/Book29/
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  ISBN: '9780521646529'
+GamesOfNoChance2:
+  # TODO: really this should be individual chapters
+  type: book
+  title: More Games of No Chance
+  URL: https://library.slmath.org/books/Book42/
+  editor:
+  - *Richard_J_Nowakowski
+  series:
+    title: MSRI Publications
+    volume: 42
+  publisher: Cambridge University Press
+  publisher-place: Cambridge
+  issued: 2002
+  ISBN: '978-0-521-80832-3'
+GamesOfNoChance3: &GamesOfNoChance3
+  # TODO: really this should be individual chapters
+  type: book
+  title: Games of No Chance 3
+  editor:
+  - given: Michael H.
+    family: Albert
+    url: https://en.wikipedia.org/wiki/Michael_H._Albert
+  - *Richard_J_Nowakowski
+  publisher: Cambridge University Press
+  publisher-place: Cambridge, UK
+  issued: 2009
+  ISBN: '9780521861342'
+  URL: https://library.slmath.org/books/Book56/
+  series:
+    title: MSRI Publications
+    volume: 56
+GamesOfNoChance4:
+  type: book
+  title: Games of No Chance 4
+  editor:
+  - *Richard_J_Nowakowski
+  URL: https://library.slmath.org/books/Book63/
+  series:
+    title: MSRI Publications
+    volume: 63
+  publisher: Cambridge University Press
+  issued: 2015
+  publisher-place: Cambridge, UK
+  ISBN: '978-1-107-01103-8'
+GamesOfNoChance5:
+  type: book
+  title: Games of No Chance 5
+  editor:
+  - given: Urban
+    family: Larsson
+  publisher: Cambridge University Press
+  publisher-place: Cambridge, UK
+  issued: 2019
+  ISBN: '978-1-108-48580-7'
+  URL: https://library.slmath.org/books/Book70/
+  series:
+    title: MSRI Publications
+    volume: 70
+TigerGoatsDraw:
+  type: chapter
+  title: Tigers and Goats is a draw
+  author:
+  - given: Yew Jin
+    family: Lim
+  - given: Jürg
+    family: Nievergelt
+  page: 163-176
+  URL: https://library.slmath.org/books/Book56/files/22jin.pdf
+  in: *GamesOfNoChance3
+SolvingMorris:
+  type: chapter
+  title: Solving Nine Men’s Morris
+  author:
+  - given: Ralph
+    family: Gasser
+  page: 101-113
+  URL: https://library.slmath.org/books/Book29/files/gasser.pdf
+  in: *GamesOfNoChance1
