@@ -4991,7 +4991,8 @@ ModernEgyptians:
   title: "An Account of the Manners and Customs of the Modern Egyptians: Written in Egypt during the Years 1833–1835"
   URL: https://archive.org/details/accountofmanners00laneuoft
   author:
-  - given: Edward William
+  - &Edward_Lane
+    given: Edward William
     family: Lane
     url: https://en.wikipedia.org/wiki/Edward_William_Lane
   edition: 3
@@ -17826,3 +17827,20 @@ ChansonsEtDits:
       value: Bibliothèque des Universités du Midi
       lang: fr
     volume: 2
+LaneArabicEnglish1: &laneArabic
+  type: book
+  title: An Arabic-English Lexicon
+  author:
+  - *Edward_Lane
+  publisher: Williams and Norgate
+  publisher-place: London
+  issued: 1863
+  volume: 1
+  URL: https://archive.org/details/anarabicenglish03lanegoog
+  volume-title: '&#x2068;ا&#x2069;–&#x2068;ث&#x2069;'
+LaneArabicEnglish2:
+  <<: *laneArabic
+  issued: 1865
+  URL: https://archive.org/details/arabic-english-lexicon-2/
+  volume: 2
+  volume-title: '&#x2068;ج&#x2069;–&#x2068;خ&#x2069;'
