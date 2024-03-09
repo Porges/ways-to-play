@@ -1,13 +1,13 @@
 ---
-title: Historical Development of Money-Suited Cards
+title: Development of the Water Margin deck
 draft: true
 ---
 
-Money cards.
+<p class="lead">
+Money cards are among the oldest types of cards in the world, and from them are derived many other types of cards, probably including “standard” playing cards, as well as games like mahjong, along with more obvious descendants like {%a ceki%}.
+</p>
 
-## The Historical Water Margin Deck
-
-Money cards are probably the oldest types of cards in the world, and from them are derived many other types of cards, probably including “standard” playing cards, as well as games like mahjong, along with more obvious descendants like {%a ceki%}.
+In this article I discuss the earliest-known discussions of this type of deck, and how the characters who are depicted on the cards have changed over time.
 
 ### <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>’s “Water Margin” deck
 
@@ -40,122 +40,122 @@ The list of figures given by <span class="noun" lang="cmn-Latn-pinyin">Lù Róng
 <tr>
 <td><span lang="zh">萬萬貫</span><br/>MMC</td>
 <td><span lang="zh">呼保義</span><br/>Protector of Righteousness</td>
-<td><span lang="zh">宋江</span><br/><span lang="cmn-Latn-pinyin">Sòng Jiāng</span></td>
+<td><span lang="zh">宋江</span><br/><span class="noun" lang="cmn-Latn-pinyin">Sòng Jiāng</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">千萬貫</span><br/>1,000MC</td>
 <td><span lang="zh">行者</span><br/>Pilgrim</td>
-<td><span lang="zh">武松</span><br/><span lang="cmn-Latn-pinyin">Wǔ Sōng</span></td>
+<td><span lang="zh">武松</span><br/><span class="noun" lang="cmn-Latn-pinyin">Wǔ Sōng</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">百萬貫</span><br/>100MC</td>
 <td>—</td>
-<td><span lang="zh">阮小五</span><br/><span lang="cmn-Latn-pinyin">Ruǎn Xiǎowǔ</span></td>
+<td><span lang="zh">阮小五</span><br/><span class="noun" lang="cmn-Latn-pinyin">Ruǎn Xiǎowǔ</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">九十萬貫</span><br/>90MC</td>
 <td><span lang="zh">活閻羅</span><br/>Living King Yama</td>
-<td><span lang="zh">阮小七</span><br/><span lang="cmn-Latn-pinyin">Ruǎn Xiǎoqī</span></td>
+<td><span lang="zh">阮小七</span><br/><span class="noun" lang="cmn-Latn-pinyin">Ruǎn Xiǎoqī</span></td>
 </tr>
 
 
 <tr>
 <td><span lang="zh">八十萬貫</span><br/>80MC</td>
 <td><span lang="zh">混江龍</span><br/>River Dragon</td>
-<td><span lang="zh">李進</span><br/><span lang="cmn-Latn-pinyin">Lǐ Jìn</span></td>
+<td><span lang="zh">李進</span><br/><span class="noun" lang="cmn-Latn-pinyin">Lǐ Jìn</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">七十萬貫</span><br/>70MC</td>
 <td><span lang="zh">病尉遲</span><br/>Sick Yuchi</td>
-<td><span lang="zh">孫立</span><br/><span lang="cmn-Latn-pinyin">Sūn Lì</span></td>
+<td><span lang="zh">孫立</span><br/><span class="noun" lang="cmn-Latn-pinyin">Sūn Lì</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">六十萬貫</span><br/>60MC</td>
 <td><span lang="zh">鐵鞭</span><br/>Chain Whip</td>
-<td><span lang="zh">呼延绰</span><br/><span lang="cmn-Latn-pinyin">Hūyán Chuò</span></td>
+<td><span lang="zh">呼延绰</span><br/><span class="noun" lang="cmn-Latn-pinyin">Hūyán Chuò</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">五十萬貫</span><br/>50MC</td>
 <td><span lang="zh">花和尚</span><br/>Flowery Monk</td>
-<td><span lang="zh">魯智深</span><br/><span lang="cmn-Latn-pinyin">Lǔ Zhìshēn</span></td>
+<td><span lang="zh">魯智深</span><br/><span class="noun" lang="cmn-Latn-pinyin">Lǔ Zhìshēn</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">四十萬貫</span><br/>40MC</td>
 <td><span lang="zh">賽關索</span><br/>Competes with Guan Suo</td>
-<td><span lang="zh">王雄</span><br/><span lang="cmn-Latn-pinyin">Wáng Xióng</span></td>
+<td><span lang="zh">王雄</span><br/><span class="noun" lang="cmn-Latn-pinyin">Wáng Xióng</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">三十萬貫</span><br/>30MC</td>
 <td><span lang="zh">青面獸</span><br/>Blue-Faced Beast</td>
-<td><span lang="zh">楊志</span><br/><span lang="cmn-Latn-pinyin">Yáng Zhì</span></td>
+<td><span lang="zh">楊志</span><br/><span class="noun" lang="cmn-Latn-pinyin">Yáng Zhì</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">二十萬貫</span><br/>20MC</td>
 <td><span lang="zh">一丈青</span><br/>Ten Feet of Steel</td>
-<td><span lang="zh">張橫</span><br/><span lang="cmn-Latn-pinyin">Zhāng Héng</span></td>
+<td><span lang="zh">張橫</span><br/><span class="noun" lang="cmn-Latn-pinyin">Zhāng Héng</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">九萬貫</span><br/>9MC</td>
 <td><span lang="zh">插翅虎</span><br/>Winged Tiger</td>
-<td><span lang="zh">雷橫</span><br/><span lang="cmn-Latn-pinyin">Léi Héng</span></td>
+<td><span lang="zh">雷橫</span><br/><span class="noun" lang="cmn-Latn-pinyin">Léi Héng</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">八萬貫</span><br/>8MC</td>
 <td><span lang="zh">急先鋒</span><br/>Impatient Vanguard</td>
-<td><span lang="zh">索超</span><br/><span lang="cmn-Latn-pinyin">Suǒ Chāo</span></td>
+<td><span lang="zh">索超</span><br/><span class="noun" lang="cmn-Latn-pinyin">Suǒ Chāo</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">七萬貫</span><br/>7MC</td>
 <td><span lang="zh">霹靂火</span><br/>Fiery Thunderbolt</td>
-<td><span lang="zh">秦明</span><br/><span lang="cmn-Latn-pinyin">Qín Míng</span></td>
+<td><span lang="zh">秦明</span><br/><span class="noun" lang="cmn-Latn-pinyin">Qín Míng</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">六萬貫</span><br/>6MC</td>
 <td><span lang="zh">混江龍</span><br/>River Dragon</td>
-<td><span lang="zh">李海</span><br/><span lang="cmn-Latn-pinyin">Lǐ Hǎi</span></td>
+<td><span lang="zh">李海</span><br/><span class="noun" lang="cmn-Latn-pinyin">Lǐ Hǎi</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">五萬貫</span><br/>5MC</td>
 <td><span lang="zh">黑旋風</span><br/>Black Whirlwind</td>
-<td><span lang="zh">李逵</span><br/><span lang="cmn-Latn-pinyin">Lǐ Kuí</span></td>
+<td><span lang="zh">李逵</span><br/><span class="noun" lang="cmn-Latn-pinyin">Lǐ Kuí</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">四萬貫</span><br/>4MC</td>
 <td><span lang="zh">小旋風</span><br/>Little Whirlwind</td>
-<td><span lang="zh">柴進</span><br/><span lang="cmn-Latn-pinyin">Chái Jìn</span></td>
+<td><span lang="zh">柴進</span><br/><span class="noun" lang="cmn-Latn-pinyin">Chái Jìn</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">三萬貫</span><br/>3MC</td>
 <td><span lang="zh">大刀</span><br/>Great Sword</td>
-<td><span lang="zh">關勝</span><br/><span lang="cmn-Latn-pinyin">Guān Shèng</span></td>
+<td><span lang="zh">關勝</span><br/><span class="noun" lang="cmn-Latn-pinyin">Guān Shèng</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">二萬貫</span><br/>2MC</td>
 <td><span lang="zh">小李廣</span><br/>Little Li Guang</td>
-<td><span lang="zh">花榮</span><br/><span lang="cmn-Latn-pinyin">Huā Róng</span></td>
+<td><span lang="zh">花榮</span><br/><span class="noun" lang="cmn-Latn-pinyin">Huā Róng</span></td>
 </tr>
 
 <tr>
 <td><span lang="zh">一萬貫</span><br/>1MC</td>
 <td><span lang="zh">浪子</span><br/>Wanderer</td>
-<td><span lang="zh">燕青</span><br/><span lang="cmn-Latn-pinyin">Yàn Qīng</span></td>
+<td><span lang="zh">燕青</span><br/><span class="noun" lang="cmn-Latn-pinyin">Yàn Qīng</span></td>
 </tr>
 
 </tbody>
@@ -171,12 +171,7 @@ Thus, <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> describes a dec
 - 10,000,000 貫
 - 100,000,000 貫
 
-In modern times, these cards are often referred to as “<cite>Water Margin</cite>
-cards”, but in fact, <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> does not
-cite <cite>Water Margin</cite> at all. Instead he writes:{%fn%}The fact that
-<span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> doesn’t know of the existence
-of <cite>Water Margin</cite> argues for a later creation date for that work
-than is usually given. See, for example, @WaterMarginDate.{%endfn%}
+In modern times, these cards are often referred to as “Water Margin cards” (<span lang="zh">水滸牌</span>), but in fact, <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> does not cite <cite>Water Margin</cite> at all. Instead he writes:{%fn%}The fact that <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> doesn’t seem to know of the existence of <cite>Water Margin</cite> (or assumes that his audience will know the characters) argues for a later creation date for that work than is usually given. See, for example, @WaterMarginDate.{%endfn%}
 
 <blockquote lang="zh">盖宋江等皆大盗，详见《宣和遗事》及《癸辛杂识》。</blockquote>
 
@@ -184,12 +179,7 @@ than is usually given. See, for example, @WaterMarginDate.{%endfn%}
 > see <cite lang="cmn-Latn-pinyin">Xuānhé Yíshì</cite> and <cite lang="cmn-Latn-pinyin">Guǐxīn
 > Záshí</cite>.
 
-Indeed, the characters listed on the ‘myriads’ cards are all taken from the book <cite
-lang="zh">宣和遺事</cite> <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span>
-(“Neglected Events of the Xuanhe Reign”), a story published {%c%} 1300 that would
-be one of the main sources of the later, more famous, book <cite lang="zh">水滸傳</cite>
-<span lang="cmn-Latn-pinyin" class="noun">Shuǐhǔzhuàn</span>, commonly known in English as
-<cite>Water Margin</cite>.
+Indeed, the characters listed on the ‘myriads’ cards are all taken from the book <cite lang="zh">宣和遺事</cite> <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span> (“Neglected Events of the Xuanhe Reign”), a story published {%c%} 1300 that would be one of the main sources of the later, more famous, book <cite lang="zh">水滸傳</cite> <span lang="cmn-Latn-pinyin" class="noun">Shuǐhǔzhuàn</span>, commonly known in English as <cite>Water Margin</cite>.
 
 in <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span> (hereafter <abbr
 class="initialism">XHYS</abbr>), <span lang="cmn-Latn-pinyin" class="noun">Sòng
@@ -217,7 +207,7 @@ class="noun">Hūyán Chuò</span> still retains his name in
 <dt><span lang="zh">六萬貫</span> 6MC<dt>
 <dd>The <abbr class="initialism">XHYS</abbr> character <span lang="zh">李海</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Hǎi</span> is given instead of the corresponding <abbr class="initialism">WM</abbr> character <span lang="zh">李俊</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jùn</span>. Both of these have the same epithet “River Dragon”.</dd>
 <dt><span lang="zh">二十萬貫</span> 20MC</dt>
-<dd><span lang="zh">张横</span> <span lang="cmn-Latn-pinyin" class="noun">Zhāng Héng</span>’s nickname is given as “Ten Feet of Steel”, which is his nickname in <abbr class="initialism">XHYS</abbr>, instead of “Boatman”, his nickname in <abbr class="initialism">WM</abbr>. In <abbr class="initialism">WM</abbr>, “Ten Feet of Steel” is the nickname given to a different character, <span lang="zh">扈三娘</span> <span lang="cmn-Latn-pinyin" class="noun">Hù Sānniáng</span>.</dd>
+<dd><span lang="zh">张横</span> <a href="https://en.wikipedia.org/wiki/Zhang_Heng_(Water_Margin)"><span lang="cmn-Latn-pinyin" class="noun">Zhāng Héng</span></a>’s nickname is given as “Ten Feet of Steel”, which is his nickname in <abbr class="initialism">XHYS</abbr>, instead of “Boatman”, his nickname in <abbr class="initialism">WM</abbr>. In <abbr class="initialism">WM</abbr>, “Ten Feet of Steel” is the nickname given to a different character, <span lang="zh">扈三娘</span> <a href="https://en.wikipedia.org/wiki/Hu_Sanniang"><span lang="cmn-Latn-pinyin" class="noun">Hù Sānniáng</span></a>.</dd>
 <dt><span lang="zh">四十萬貫</span> 40MC</dt>
 <dd>The <abbr class="initialism">XHYS</abbr> character <span lang="zh">王雄</span> <span lang="cmn-Latn-pinyin" class="noun">Wáng Xióng</span> (<span lang="zh">賽關索</span> Competes with Guan Suo) is given instead of the <abbr class="initialism">WM</abbr> character <span lang="zh">楊雄</span> <span lang="cmn-Latn-pinyin" class="noun">Yáng Xióng</span> (<span lang="zh">病關索</span> Sick Guan Suo).</dd>
 <dt><span lang="zh">六十萬貫</span> 60MC</dt>
@@ -407,10 +397,6 @@ Then there is something of a dance amongst three cards:
 
 From <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> onwards the set of characters seems to be remarkably stable. In most of the decks derived from Chinese money-suited cards, the tens of myriads suit has been removed, but the myriads suit remains in the same order. It is often very hard to determine which cards are which as the names have mostly been dropped, but it is possible to identify characters by their customary attributes:
 
-* The easiest character to identify is Zhu Tong, who is almost always depicted
-  with a young child. He remains on the 8M card in all derived decks.
-* Li Kui is often identifiable as well. He is either depicted with a child (in
-  fact the same child associated with Zhu Tong; in the book he ends up murdering
-  the child) or with a pair of axes, his chosen weapon.
-* Ruǎn Xiǎowǔ depicted with a flower in his cap (according to Pan Zhiheng,
-  op.cit. p. 93)
+* The easiest character to identify is <span lang="cmn-Latn-pinyin" class="noun">Zhū Tóng</span>, who is almost always depicted with a young child. He remains on the 8M card in nearly all derived decks.
+* <span lang="cmn-Latn-pinyin" class="noun">Lǐ Kuí</span> is often identifiable as well. He is either depicted with a child (in fact the same child associated with <span lang="cmn-Latn-pinyin" class="noun">Zhū Tóng</span>; in the book he ends up murdering the child) or with a pair of axes, his chosen weapon. Even if no child or axes are present, he is often shown with a wildly-painted face.
+* <span lang="cmn-Latn-pinyin" class="noun">Ruǎn Xiǎowǔ</span> is usually depicted with a flower in his cap (according to <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span>; the card is missing from later three-suited decks).
