@@ -14447,6 +14447,30 @@ TenGamesFromEurope:
     issued:
       month: 3
       year: 1952
+EarliestKnownList:
+  type: article-journal
+  title: "The Earliest Known List of Games: Some Comments"
+  URL: https://doi.org/10.5617/ao.5305
+  author: [*PaulGBrewster]
+  page: 33-42
+  in:
+    title: Acta Orientalia
+    volume: 23
+    issued: 1958
+BrewsterLangadi:
+  type: article-journal
+  title:
+    value: Langadi, Atya-Patya, sowie einige verwandte Spiele des Fernen Ostens
+    lang: de
+    alt: Langadi, Atya-Patya, and some kindred games of the Far East
+  page: 33-38
+  URL: https://doi.org/10.5194/gh-15-33-1960
+  author: [*PaulGBrewster]
+  in:
+    title: Geographica Helvetica
+    volume: 15
+    issue: 1
+    issued: 1960
 EastwardHoe:
   type: book
   title: Eastward Hoe

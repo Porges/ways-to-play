@@ -399,4 +399,4 @@ From <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> onwards the
 
 * The easiest character to identify is <span lang="cmn-Latn-pinyin" class="noun">Zhū Tóng</span>, who is almost always depicted with a young child. He remains on the 8M card in nearly all derived decks.
 * <span lang="cmn-Latn-pinyin" class="noun">Lǐ Kuí</span> is often identifiable as well. He is either depicted with a child (in fact the same child associated with <span lang="cmn-Latn-pinyin" class="noun">Zhū Tóng</span>; in the book he ends up murdering the child) or with a pair of axes, his chosen weapon. Even if no child or axes are present, he is often shown with a wildly-painted face.
-* <span lang="cmn-Latn-pinyin" class="noun">Ruǎn Xiǎowǔ</span> is usually depicted with a flower in his cap (according to <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span>; the card is missing from later three-suited decks).
+* <span lang="cmn-Latn-pinyin" class="noun">Ruǎn Xiǎowǔ</span> is usually depicted with a flower in his cap (according to <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span>;[@LoYeziPu 93] the card is missing from later three-suited decks).

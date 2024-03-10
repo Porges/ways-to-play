@@ -6,22 +6,11 @@ originalTitle: <span lang="ja">八道行成</span>
 players: 2
 ---
 
-<span lang="ja-Latn" class="noun">Yasakukari</span> (<span lang="ja">八道行成</span>,
- also pronounced <span lang="ja-Latn">yasugari</span> or <span
-lang="ja-Latn">yasukari</span>) is an old board game, played in
-Japan,{%fn%}Possibly China as well, but I have not been able to find any more
-information about this yet.{%endfn%} of the Fox and Geese family.[@KoreanGames
-p. 77]
+<p class="lead">
+<span lang="ja-Latn" class="noun">Yasakukari</span> (<span lang="ja">八道行成</span>, also pronounced <span lang="ja-Latn">yasugari</span> or <span lang="ja-Latn">yasukari</span>) is an old board game, played in Japan,{%fn%}Possibly China as well, but I have not been able to find any more information about this yet.{%endfn%} of the Fox and Geese family.[@KoreanGames p. 77]
+</p>
 
-The game is named in the book <cite>[Wamyō Ruijushō
-](https://en.wikipedia.org/wiki/Wamy%C5%8D_Ruijush%C5%8D)</cite> (<span
-lang="ja">倭名類聚抄</span>, ‘Japanese names, classified and annotated’),
-published in 938, so it was played in Japan since at least the <span
-lang="ja-Latn" class="noun">Heian</span> period. The name of the game also
-appears in the fifth-century [<cite>Mahāparinirvāṇa
-sūtra</cite>](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra),
-where it is described as a game to avoid,[@Lusthaus p. 205] but this might not
-refer to the same game.
+The game is named in the book <cite>[Wamyō Ruijushō](https://en.wikipedia.org/wiki/Wamy%C5%8D_Ruijush%C5%8D)</cite> (<span lang="ja">倭名類聚抄</span>, ‘Japanese names, classified and annotated’), published in 938, so it was played in Japan since at least the <span lang="ja-Latn" class="noun">Heian</span> period. The name of the game also appears in the fifth-century [<cite>Mahāparinirvāṇa sūtra</cite>](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra), where it is described as a game to avoid,[@Lusthaus p. 205]{%fn%}For other games that the Buddha says to avoid, see @EarliestKnownList.<!-- https://suttacentral.net/dn1/en/sujato?lang=en&layout=linebyline&reference=none&notes=asterisk&highlight=true&script=latin -->{%endfn%} but it is possible that this might not refer to the same game.
 
 ## Play
 
