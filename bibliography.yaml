@@ -18109,3 +18109,18 @@ OnePotatoTwoPotato:
   URL: https://archive.org/details/onepotatotwopota00knap
   issued: 1976
   ISBN: '039308745X'
+RauschRabelais:
+  type: thesis
+  title:
+    value: Das Spielverzeichnis im 25. Kapitel von Fischarts „Geschict&shy;klitterung“ (Gargantua)
+    lang: de
+  issued: 1908
+  genre: PhD thesis
+  publisher:
+    lang: de
+    value: Kaiser Wilhelms Universität
+  publisher-place: Strasbourg
+  author:
+  - given: Heinrich A.
+    family: Rausch
+  URL: https://books.google.com/books?id=olgVAQAAIAAJ

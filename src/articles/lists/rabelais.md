@@ -53,7 +53,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>flush</td>
 <td>flush</td>
 <td>flush</td>
-<td></td>
+<td>(card term, see below)</td>
 </tr>
 
 <tr>
@@ -68,7 +68,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>primiera</td>
 <td>primiera</td>
 <td>primero</td>
-<td></td>
+<td>(card term, see below)</td>
 </tr>
 
 <tr>
@@ -83,7 +83,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>grand slam</td>
 <td>grand slam</td>
 <td>trumps</td>
-<td></td>
+<td>(card term, see below)</td>
 </tr>
 
 <tr>
@@ -202,7 +202,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>pass ten</td>
 <td>ten-and-pass</td>
 <td>first-to-get-ten</td>
-<td>see {% gameref passage %}</td>
+<td>(see {% gameref passage %})</td>
 </tr>
 
 <tr>
@@ -547,7 +547,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>gleek</td>
 <td>rummy</td>
 <td>click</td>
-<td></td>
+<td>(probably {%gameref gleek%})</td>
 </tr>
 
 <tr>
@@ -562,7 +562,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>honors</td>
 <td>honours</td>
 <td>honours</td>
-<td></td>
+<td>(a card term or game)</td>
 </tr>
 
 <tr>
@@ -577,7 +577,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>morra</td>
 <td>morra</td>
 <td>the <span lang="it">morra</span></td>
-<td>see {% gameref morra %}</td>
+<td>(see {% gameref morra %})</td>
 </tr>
 
 <tr>
@@ -592,7 +592,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>chess</td>
 <td>chess</td>
 <td>chess</td>
-<td></td>
+<td>(see {%gameref chess%})</td>
 </tr>
 
 <tr>
@@ -622,7 +622,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>the men’s morris</td>
 <td>the men’s morris</td>
 <td>ludo</td>
-<td></td>
+<td>(see {%gameref nine-mens-morris%})</td>
 </tr>
 
 <tr>
@@ -652,7 +652,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>raffles</td>
 <td>raffles</td>
 <td>whites</td>
-<td></td>
+<td>(a lottery game, similar to tombola)</td>
 </tr>
 
 <tr>
@@ -667,7 +667,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>mumchance</td>
 <td>speculation</td>
 <td>chance</td>
-<td></td>
+<td>(probably a dice game)</td>
 </tr>
 
 <tr>
@@ -847,7 +847,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>draughts</td>
 <td>draughts</td>
 <td>draughts</td>
-<td></td>
+<td>(draughts)</td>
 </tr>
 
 <tr>
@@ -1771,7 +1771,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">au rapeau</span></td>
 <td><span lang="fr">au rapeau</span></td>
 <td><span lang="fr">au rapeau</span></td>
-<td>at the cock quintin ... at tip and hurle</td>
+<td>at tip and hurle</td>
 <td>the return course</td>
 <td>knock ’em out</td>
 <td>the return course</td>
@@ -1897,7 +1897,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>shuttlecock</td>
 <td>shuttlecock</td>
 <td>shuttlecock</td>
-<td>a dice game, {%gameref gresco%}</td>
+<td>(a dice game, see {%gameref gresco%})</td>
 </tr>
 
 <tr>
@@ -2461,7 +2461,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">a la migne migne bœuf</span></td>
 <td><span lang="fr">a la migne migne beuf</span></td>
 <td><span lang="fr">a la migne migne bœuf</span></td>
-<td>at the dillie dilie darling</td>
+<td>at the dillie dilie darling / at oxe moudie</td>
 <td>tit, tat, toe, my first go</td>
 <td><i>tit-tat-to</i></td>
 <td>tic-tac-toe, my first go</td>
@@ -2476,7 +2476,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">au propos</span></td>
 <td><span lang="fr">au pꝛopous</span></td>
 <td><span lang="fr">au propous</span></td>
-<td>at oxe moudie ?? at purporse in purporse</td>
+<td>at purporse in purporse</td>
 <td>a propos</td>
 <td>cut-him-short</td>
 <td>cross questions and crooked answers</td>
@@ -2506,7 +2506,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">au chapifol</span></td>
 <td><span lang="fr">au chapifou</span></td>
 <td><span lang="fr">au chapifou</span></td>
-<td>at blinde-man-buffe</td>
+<td>at thwack swinge him (switched with blinde-man-buffe)</td>
 <td>harry-racket</td>
 <td>harry racket</td>
 <td>harry-racket</td>
@@ -2555,7 +2555,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>the bull’s eye</td>
 <td>the bull’s-eye</td>
 <td>bull’s-eye</td>
-<td>bull’e-eye</td>
+<td>bull’s-eye</td>
 <td>hopscotch</td>
 <td></td>
 </tr>
@@ -2566,7 +2566,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">au cocquantin</span></td>
 <td><span lang="fr">au cocquantin</span></td>
 <td><span lang="fr">au cocquantin</span></td>
-<td>at thwack swinge him</td>
+<td>at the cock quintin (repositioned, was after nine pins)</td>
 <td>battledore</td>
 <td>battledore</td>
 <td>battledore and shuttlecock</td>
@@ -2581,7 +2581,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">a Colin Maillard</span></td>
 <td><span lang="fr">a Colin maillard</span></td>
 <td><span lang="fr">a colin maillard</span></td>
-<td>at apple, peare, plum</td>
+<td>at blinde-man-buffe (switched with thwack swinge him)</td>
 <td>blindman’s buff</td>
 <td>blind-man’s buff</td>
 <td>blindman’s bluff</td>
@@ -2596,7 +2596,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">a myrelimoufle</span></td>
 <td><span lang="fr">a myꝛelimofle</span></td>
 <td><span lang="fr">a myrelimofle</span></td>
-<td>at mumgi</td>
+<td> at apple, peare, plum</td>
 <td>bob-cherry</td>
 <td>bob cherry</td>
 <td>bob-cherry</td>
@@ -2611,8 +2611,8 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">a mouſchart</span></td>
 <td><span lang="fr">a mouſchart</span></td>
 <td><span lang="fr">a mouschart</span></td>
-<td>???</td>
-<td>???</td>
+<td>at mumgi</td>
+<td>—</td>
 <td>—</td>
 <td>spy</td>
 <td>spy</td>
@@ -2882,7 +2882,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">a la bacule</span></td>
 <td><span lang="fr">a la bacule</span></td>
 <td>at battabum, or riding of the wilde mare</td>
-<td>butting rams ??? bascule</td>
+<td>bascule</td>
 <td>drawbridges</td>
 <td>bascule</td>
 <td>seesaw</td>
@@ -2911,8 +2911,8 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">a la cheueche</span> (duplicated)</td>
 <td><span lang="fr">a la cheueche</span> (duplicated)</td>
 <td>—</td>
-<td></td>
-<td></td>
+<td>—</td>
+<td>—</td>
 <td>the madge-owlet</td>
 <td>the madge-owlet</td>
 <td>sliding</td>
@@ -2925,9 +2925,9 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">au eſcoublettes enraigees</span></td>
 <td><span lang="fr">aux eſcoublettes enragées</span></td>
 <td><span lang="fr">au eſcoublettes enraigees</span></td>
-<td><span lang="fr">aux escoublettes enragées</span> (repositioned)</td>
+<td><span lang="fr">aux escoublettes enragées</span> (repositioned, was after <span lang="fr">a la virevouste</span>)</td>
 <td>at the good mawkin</td>
-<td></td>
+<td>butting rams (repositioned in the same way as 1884)</td>
 <td>angry broomsticks</td>
 <td>—</td>
 <td>the witch’s hat</td>
@@ -3024,7 +3024,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>???</td>
 <td>
 
-[Barley-Break](https://en.wikipedia.org/wiki/Barley-Break)
+([Barley-Break](https://en.wikipedia.org/wiki/Barley-Break))
 
 </td>
 </tr>
