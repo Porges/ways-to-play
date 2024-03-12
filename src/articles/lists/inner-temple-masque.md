@@ -80,6 +80,8 @@ The games listed are:
 <dt>Tickle Mee Quickly</dt><dd>a card game</dd>
 <dt>My Ladies Hole</dt><dd>a card game: {%gameref my-ladys-hole %}</dd>
 <dt>My Sow Has Pigd</dt><dd>a card game: {%gameref my-sow-pigged%}</dd>
-<dt>Shooe the Mare</dt><dd></dd>
+<dt>Shooe the Mare</dt>
+<dd>a physical game: {%gameref shoe-the-mare %}
+</dd>
 <dt>Blind Man Buffe</dt><dd></dd>
 </dl>

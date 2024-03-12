@@ -67,8 +67,7 @@ export async function render(data: Data) {
         it.set(k, v);
     }
 
-    let result = '<p>This page lists all game names by language, for ease of reference.</p>'
-        + '<hr/>';
+    let result = '<p>This page lists all game names by language, for ease of reference.</p>';
 
     const displayer = new Intl.DisplayNames(["en"], { type: "language" });
     const display = (code: string) => {
@@ -81,12 +80,12 @@ export async function render(data: Data) {
         .map(([code, values]) => ({ code, title: display(code) || code, values }))
         .sort((a, b) => sorter.compare(a.title, b.title));
 
-    result += '<h2>Languages</h2><ul class="columnar">';
+    result += '<h2>Languages</h2><ul class="columnarr">';
     for (const { code, title } of langs) {
         result += `<li><a href="#${code}">${title}</a></li>`;
     }
     result += '</ul>'
-        + '<h2>List</h2>';
+        + '<hr/>';
 
     for (const { code, title, values } of langs) {
         result += `<h3 id="${code}"><a href="https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(' ', '_'))}_language">${title}</a></h3>`;

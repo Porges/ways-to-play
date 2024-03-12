@@ -104,3 +104,6 @@ Called Kebeto in Ethiopia https://allaboutethio.com/10-best-ethiopian-traditiona
 https://dlalaproject.com/archive/ ‘have you seen my handkerchief’ https://www.youtube.com/watch?v=S8q90YeGDNc
 
 in Khmer(!) លាក់កន្សែង , see http://sealang.net/khmer/
+
+
+<span lang="sco" class="aka">Allicomgreenyie</span>[@SupplementToJamieson 11]

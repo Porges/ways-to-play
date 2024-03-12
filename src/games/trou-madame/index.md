@@ -6,6 +6,8 @@ draft: true
 
 Also called “<span class="aka">Nine Holes</span>” in English.
 
+In Scots, <span lang="sco" class="aka">Trulis</span>.[@SupplementToJamieson 247]
+
 <!--
 
 See also Nine Holes/Bumble Puppy

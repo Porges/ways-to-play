@@ -2169,11 +2169,21 @@ Gallovidian:
   issued:
     year: 1876
   author:
-    - given: John
-      family: MacTaggart
+    - &John_Mactaggart
+      given: John
+      family: Mactaggart
+      url: https://en.wikipedia.org/wiki/John_Mactaggart_(1791-1830)
   edition: 2
   publisher: Hamilton, Adams and Co.
   publisher-place: London, UK
+Gallovidian_1e:
+  type: book
+  title: The Scottish Gallovidian Encyclopedia
+  URL: https://archive.org/details/bub_gb_ivgvAAAAYAAJ
+  issued: 1824
+  edition: 1
+  author: [*John_Mactaggart]
+  publisher-place: London
 HeimannLoop:
   type: article-journal
   title: The loop within circular Three Men’s Morris
@@ -6081,12 +6091,26 @@ Strutt:
   URL: https://archive.org/details/gri_33125012252157
   title: Glig-Gamena Angel-Deod, or the Sports and Pastimes of the People of England
   author:
-    - family: Strutt
+    - &Joseph_Strutt
+      family: Strutt
       given: Joseph
       url: https://en.wikipedia.org/wiki/Joseph_Strutt_(engraver_and_antiquary)
   issued:
     year: 1810
+  edition: 2
   publisher: T. Bensley
+  publisher-place: London
+CoxStrutt:
+  type: book
+  URL: https://archive.org/details/sportspastimeso00stru
+  title: The Sports and Pastimes of the People of England
+  author: [*Joseph_Strutt]
+  editor:
+  - given: J. Charles
+    family: Cox
+    url: https://en.wikipedia.org/wiki/John_Charles_Cox
+  issued: 1903
+  publisher: Methuen & Co.
   publisher-place: London
 DisputedGround:
   type: book
@@ -9039,6 +9063,22 @@ CountyFolklore6:
   series:
     title: Publications of the Folk-Lore Society
     volume: 69
+CountyFolklore7:
+  type: book
+  title: County Folk-Lore
+  volume: 7
+  volume-title: "Printed Extracts Nos. IX, X, XI: Examples of Printed Folk-Lore Concerning Fife with some notes on Clackmannan and Kinross-shires"
+  editor:
+  - given: John Ewart
+    family: Simpkins
+  issued: 1914
+  publisher: Sidgwick & Jackson
+  publisher-place: Londn
+  URL: https://archive.org/details/countyfolklore07folkuoft
+  notes: Search “game”.
+  series: 
+    title: Publications of the Folk-Lore Society
+    volume: 71
 LuckyAdditional:
   type: article-journal
   title: "Lucky: Additional Reflections on a Native Card Game in New Guinea"
@@ -10711,8 +10751,10 @@ EnglishCourtier:
     issued: 1868
     original-date: 1586
     editor: 
-    - given: W. C.
+    - &W_C_Hazlitt
+      given: W. Carew
       family: Hazlitt
+      url: https://en.wikipedia.org/wiki/William_Carew_Hazlitt
     series:
       title: Burt Franklin Research & Source Works Series
       volume: 49
@@ -18124,3 +18166,324 @@ RauschRabelais:
   - given: Heinrich A.
     family: Rausch
   URL: https://books.google.com/books?id=olgVAQAAIAAJ
+PoemsOnSeveralOccasions:
+  type: book
+  title: Poems on Several Occasions
+  author:
+  - *Charles_Cotton
+  publisher: Thomas Basset
+  publisher-place: London
+  issued: 1689
+  URL: https://archive.org/details/bim_early-english-books-1641-1700_poems-on-several-occasio_cotton-charles_1689_0
+ArchaeologyOfPopularPhrases1: &AoPP1
+  type: book
+  title: An Essay on the Archæology of our Popular Phrases, and Nursery Rhymes
+  author:
+  - &John_Bellenden_Ker
+    given: John Bellenden
+    family: Ker
+    url: https://en.wikipedia.org/wiki/John_Bellenden_Ker_Gawler
+  edition: 2
+  volume: 1
+  publisher: Longman, Rees, Orme, Brown, Green, & Co.
+  publisher-place: London
+  issued: 1837
+  URL: https://archive.org/details/anessayonarchol01kergoog
+ArchaeologyOfPopularPhrases2:
+  <<: *AoPP1
+  volume: 2
+  URL: https://archive.org/details/anessayonarchol02kergoog
+AoPPSupplement:
+  type: book
+  title: A Supplement to the Two Volumes of the Second Edition of the Essay on the Archæology of our Popular Phrases, Terms, and Nursery Rhymes
+  author: [*John_Bellenden_Ker]
+  issued: 1840
+  publisher: John King
+  publisher-place: Andover
+  URL: https://archive.org/details/anessayonarchol03kergoog
+Hesperides:
+  type: book
+  title: 'Hesperides: or, The Works both Humane & Divine of Robert Herrick Esq.'
+  author:
+  - given: Robert
+    family: Herrick
+    url: https://en.wikipedia.org/wiki/Robert_Herrick_(poet)
+  publisher-place: London
+  publisher: John Williams and Francis Eglesfield
+  issued: 1648
+  URL: https://archive.org/details/bim_early-english-books-1641-1700_hesperides-or-the-work_herrick-robert_1648_0
+GammerGurtonsGarland:
+  type: book
+  title: 'Gammer Gurton’s Garland: or, the Nursery Parnassus'
+  issued: 1795
+  publisher: R. Christopher
+  publisher-place: Stockton
+  editor:
+  - given: Joseph
+    family: Ritson
+    url: https://en.wikipedia.org/wiki/Joseph_Ritson
+  URL: https://archive.org/details/bim_eighteenth-century_gammer-gurtons-garland_1795
+PopularAntiquities1: &PopularAntiquities1
+  type: book
+  title: 'Observations on Popular Antiquities: Chiefly Illustrating the Origin of our Vulgar Customs, Ceremonies, and Superstitions'
+  author:
+  - &John_Brand
+    given: John
+    family: Brand
+    url: https://en.wikipedia.org/wiki/John_Brand_(antiquarian)
+  - &Henry_Ellis
+    given: Henry
+    family: Ellis
+    url: https://en.wikipedia.org/wiki/Henry_Ellis_(librarian)
+  volume: 1
+  publisher-place: London
+  issued: 1813
+  URL: https://archive.org/details/observationsonpo01branuoft
+PopularAntiquities2:
+  <<: *PopularAntiquities1
+  volume: 2
+  URL: https://archive.org/details/observationsonpo02branuoft
+PopularAntiquities3e_1: &PopularAntiquities3e_1
+  type: book
+  title: 'Observations on the Popular Antiquities of Great Britain: Chiefly Illustrating the Origin of our Vulgar and Provincial Customs, Ceremonies, and Superstitions'
+  author: [*John_Brand]
+  editor: [*Henry_Ellis]
+  publisher: Henry G. Bohn
+  publisher-place: London
+  edition: 3
+  volume: 1
+  issued: 1849
+  URL: https://archive.org/details/b29328561_0001
+  notes: Second edition was 1841–2, first edition 1813.
+PopularAntiquities3e_2:
+  <<: *PopularAntiquities3e_1
+  volume: 2
+  URL: https://archive.org/details/b29328561_0002
+PopularAntiquities3e_3:
+  <<: *PopularAntiquities3e_1
+  volume: 3
+  URL: https://archive.org/details/b29328561_0003
+PopularAntiquities1777:
+  type: book
+  title: 'Observations on Popular Antiquities: Including the whole of Mr. Bourne’s <cite lang="la">Antiquitates Vulgares</cite>, with Addenda to every Chapter of that Work: As also an Appendix, containing such Articles on the Subject, as have been omitted by that Author'
+  author: [*John_Brand]
+  issued: 1777
+  publisher: J. Johnson
+  publisher-place: Newcastle Upon Tyne
+  URL: https://archive.org/details/observationsonp00bourgoog
+AntiquitatesVulgares:
+  type: book
+  title: <span lang="la">Antiquitates vulgares</span>; or, the antiquities of the common people
+  author:
+  - given: Henry
+    family: Bourne
+    url: https://en.wikipedia.org/wiki/Henry_Bourne
+  URL: https://archive.org/details/bim_eighteenth-century_antiquitates-vulgares-o_bourne-henry_1725
+  publisher-place: Newcastle
+  issued: 1725
+  notes: Hand-ball on page 198.
+PopAntiqHazlitt1870_1: &PopAntiqHazlitt1870_1
+  type: book
+  title: 'Popular Antiquities of Great Britain: Comprising Notices of the Moveable and Immoveable Feasts, Customs, Superstitions and Amusements Past and Present'
+  author: [*John_Brand]
+  editor: [*W_C_Hazlitt]
+  issued: 1870
+  volume: 1
+  volume-title: The Calendar
+  URL: https://archive.org/details/popularantiquiti01bran
+  publisher: John Russell Smith
+  publisher-place: London
+PopAntiqHazlitt1870_2: 
+  <<: *PopAntiqHazlitt1870_1
+  volume: 2
+  volume-title: Customs and Ceremonies
+  URL: https://archive.org/details/popularantiquiti02bran
+PopAntiqHazlitt1905_1:
+  type: book
+  title: 'Brand’s Popular Antiquities of Great Britain: Faiths and Folklore, a Dictionary of National Beliefs, Superstitions and Popular Customs, Past and Current, with their Classical and Foreign Analogues, Described and Illlustrated'
+  author: [*W_C_Hazlitt]
+  volume: 1
+  issued: 1905
+BenJonson1616:
+  type: book
+  title: The Workes of Benjamin Jonson
+  author:
+  - &Ben_Jonson
+    given: Benjamin
+    family: Jonson
+    url: https://en.wikipedia.org/wiki/Ben_Jonson
+  URL: https://archive.org/details/workesofbenjamin01jons
+  issued: 1616
+  publisher-place: London
+BenJonson1716_3:
+  type: book
+  title: The Works of Ben. Johnson
+  volume: 3
+  author: [*Ben_Jonson]
+  publisher-place: London
+  issued: 1716
+  URL: https://archive.org/details/bim_eighteenth-century_the-works-of-ben-johnso_jonson-ben_1716_3
+ChristmasCustomsInMounmouthshire:
+  type: article-magazine
+  title: Christmas Customs in Monmouthshire
+  author:
+  - given: William
+    family: Dyke
+  page: 41-2
+  URL: https://archive.org/details/sim_gentlemans-magazine_1842-01_17/page/41
+  in:
+    title: The Gentleman’s Magazine (New Series)
+    #URL: https://hdl.handle.net/2027/inu.30000080772878
+    issued:
+      year: 1842
+      month: 1
+    volume: 17
+    editor:
+    - given: Sylvanus
+      family: Urban
+    publisher: William Pickering; John Bowyer Nichols and Son
+    publisher-place: London
+BattUponBatt:
+  type: book
+  title: 'Batt upon Batt: A Poem upon the Parts, Patience, and Pains, of Barth. Kempster, Clerk, Poet, Cutler of Holy-Rood-Parish in Southampton'
+  author:
+  - given: John
+    family: Speed
+  issued: 1680
+  publisher: Samuel Crouch
+  URL: https://archive.org/details/bim_early-english-books-1641-1700_batt-upon-batt-a-poem-_speed-john-1628-1711_1680
+  publisher-place: London
+TwelveMoneths:
+  type: book
+  title: The Twelve Moneths
+  author:
+  - given: M.
+    family: Stevenson
+  issued: 1661
+  publisher: Thomas Jenner
+  publisher-place: London
+  URL: https://archive.org/details/bim_early-english-books-1641-1700_the-twelve-moneths-_stevenson-matthew_1661
+NotesOnBullensOldPlays2:
+  type: article-journal
+  title: Notes on Bullen’s Old Plays, 1882–1885. II. Vol II.
+  author:
+  - given: Henry Chichester
+    family: Hart
+    url: https://en.wikipedia.org/wiki/Henry_Chichester_Hart 
+  page: 170-1
+  URL: https://books.google.co.nz/books?id=eu24sHbvRSAC&pg=RA1-PA170
+  in:
+    title: The Academy
+    volume: 34
+    issue: 854
+    issued:
+      year: 1886
+      month: 9
+      day: 15
+JamiesonScots1: &JamiesonScots1
+  type: book
+  title: An Etymological Dictionary of the Scottish Language
+  author:
+  - &John_Jamieson
+    given: John
+    family: Jamieson
+    url: https://en.wikipedia.org/wiki/John_Jamieson
+  URL: https://archive.org/details/etymologicaldict01jami
+  volume: 1
+  issued: 1808
+  publisher: Edinburgh University Press
+  publisher-place: Edinburgh
+JamiesonScots2:
+  <<: *JamiesonScots1
+  volume: 2
+  URL: https://archive.org/details/etymologicaldict02jami
+ScotsSupplement1: &ScotsSupplement1
+  type: book
+  title: Supplement to the Etymological Dictionary of the Scottish Language
+  author: [*John_Jamieson]
+  issued: 1825
+  publisher: Edinburgh University Press
+  publisher-place: Edinburgh
+  volume: 1
+  URL: https://archive.org/details/bub_gb_9w8oAAAAYAAJ
+ScotsSupplement2:
+  <<: *ScotsSupplement1
+  volume: 2
+  URL: https://archive.org/details/aetymologicaldi00jamigoog
+JamiesonScots2e_1: &JamiesonScots2e_1
+  type: book
+  title: An Etymological Dictionary of the Scottish Language
+  edition: 2
+  author:
+  - *John_Jamieson
+  - given: John 
+    family: Longmuir
+  - given: David
+    family: Donaldson
+  volume: 1
+  URL: https://archive.org/details/etymologicaldict01jamiuoft
+  publisher: Alexander Gardner
+  publisher-place: Paisley
+  issued: 1879
+JamiesonScots2e_2:
+  <<: *JamiesonScots2e_1
+  volume: 2
+  issued: 1880
+  URL: https://archive.org/details/etymologicaldict02jamiuoft
+JamiesonScots2e_3:
+  <<: *JamiesonScots2e_1
+  volume: 3
+  issued: 1880
+  URL: https://archive.org/details/etymologicaldict03jamiuoft
+JamiesonScots2e_4:
+  <<: *JamiesonScots2e_1
+  volume: 4
+  issued: 1882
+  URL: https://books.google.co.nz/books?id=v__lC29_568C
+SupplementToJamieson:
+  type: book
+  title: Supplement to Jamieson’s Scottish Dictionary, with Memoir, and Introduction
+  author:
+  - given: David
+    family: Donaldson
+  publisher: Alexander Gardner
+  publisher-place: Paisley
+  issued: 1887
+  URL: https://archive.org/details/supplementtojami00jamirich
+DesultoryNotes:
+  type: book
+  title: Desultory notes on Jamieson’s Scottish Dictionary
+  URL: https://archive.org/details/desultorynoteson00flemuoft
+  author:
+  - given: James B.
+    family: Montgomerie–Fleming
+  issued: 1899
+  publisher: William Hodge & Company
+  publisher-place: Glasgow and Edinburgh
+  notes: Search “game”. This refers to the 1879 edition of Jamieson.
+GamesDiversionsArgyleshire:
+  type: book
+  title: The Games & Diversions of Argyleshire
+  author:
+  - given: Robert Craig
+    family: Maclagan
+    url: https://en.wikipedia.org/wiki/Robert_Craig_Maclagan
+  URL: https://archive.org/details/gamesdiversionso00macl
+  issued: 1901
+  publisher: David Nutt
+  publisher-place: London
+  series:
+    title: Publications of the Folk-Lore Society
+    volume: 47
+Fantasticks:
+  type: book
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_fantasticks-_breton-nicholas_1626
+  title: 'Fantasticks: Serving for A Perpetuall Pronostication'
+  author:
+  - given: Nicholas
+    family: Breton
+    url: https://en.wikipedia.org/wiki/Nicholas_Breton
+  issued: 1626
+  publisher: Francis Williams
+  publisher-place: London
+  
