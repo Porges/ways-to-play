@@ -29,7 +29,7 @@ The game was commonly used to decide the outcome of some question, such as who s
 > the landlord and waiter would sit down and play “Yankee grab” to decide who
 > was to have the privilege of sleeping on the hearth-rug.
 
-In Milton, 1868, one correspondent reported that the game could even be played with the landlord to avoid paying for drinks:[@Tokomairiro]
+In [Milton](https://en.wikipedia.org/wiki/Milton,_New_Zealand), 1868, one correspondent reported that the game could even be played with the landlord to avoid paying for drinks:[@Tokomairiro]
 
 > It has lately been a habit in this neighborhood, instead of the old-fashioned
 > way of tossing for drinks, to play “Yankee Grab” for them. I for one see no
