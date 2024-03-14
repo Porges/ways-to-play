@@ -18499,3 +18499,46 @@ LeCuriexAlmanach:
   author:
   - given: Angelo
     family: Casaretta
+FrancisBeaumontJohnFletcher:
+  type: book
+  title: Comedies and Tragedies written by Francis Beaumont and John Fletcher Gentlemen
+  author:
+  - given: Francis
+    family: Beaumont
+    url: https://en.wikipedia.org/wiki/Francis_Beaumont
+  - given: John
+    family: Fletcher
+    url: https://en.wikipedia.org/wiki/John_Fletcher_(playwright)
+  issued: 1647
+  publisher-place: London
+  URL: https://archive.org/details/BeaumontFletcher1647
+NotSoYdle:
+  type: thesis
+  author:
+  - given: Margaret Ellen
+    family: Williams
+  title: '‘A Play is Not So Ydle a Thing’: The Dramatic Output and Theatre-Craft of Nathan Field'
+  genre: PhD thesis
+  publisher: University of Birmingham
+  issued:
+    month: 5
+    year: 1992
+  URL: https://etheses.bham.ac.uk/id/eprint/3150/1/Willliams92PhD.pdf 
+  archive-URL: https://web.archive.org/web/20240314080357/https://etheses.bham.ac.uk/id/eprint/3150/1/Willliams92PhD.pdf
+VowBreaker:
+  type: book
+  title: The Vow Breaker, or, the Faire Maide of Clifton
+  author:
+  - given: William
+    family: Sampson
+    url: https://en.wikipedia.org/wiki/William_Sampson_(playwright)
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_the-vow-breaker-or-the-_sampson-william_1636
+  issued: 1636
+  publisher-place: London
+RapeOfTheBride:
+  type: book
+  title: The Rape of the Bride; or, Marriage and Hanging go by Destiny
+  URL: https://archive.org/details/bim_eighteenth-century_the-rape-of-the-bride-o_1723_0 
+  issued: 1723
+  publisher-place: London
+   

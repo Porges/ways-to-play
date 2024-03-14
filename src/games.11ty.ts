@@ -153,7 +153,7 @@ export function render(this: Context, data: Data) {
     }
 
     const collator = new Intl.Collator('en', { sensitivity: 'base', numeric: true });
-    const countryNames = new Intl.DisplayNames(["en"], { type: "region" });
+    const countryNames = new Intl.DisplayNames(["en"], { type: "region", style: "short"});
 
     const sortedEquipment = [...equipment.values()].sort(collator.compare);
     const sortedCountries = [...countries.values()].sort((x, y) => collator.compare(countryNames.of(x)!, countryNames.of(y)!));
