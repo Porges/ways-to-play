@@ -2,7 +2,7 @@
 title: Basset
 draft: true
 players: banking
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 ---
 
 See @PhilipSkippon [p. 508]

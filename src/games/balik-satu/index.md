@@ -5,7 +5,7 @@ players:
   min: 2
   max: 14
 countries: SG,MY
-equipment: Playing cards (Ceki)
+equipment: Card game (Ceki)
 subgames:
 - title: Balik Lima Belas
   titleLang: ms

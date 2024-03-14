@@ -1,7 +1,7 @@
 ---
 title: Thirty Six
 draft: true
-equipment: Dice
+equipment: Dice game
 players:
     min: 2
 ---

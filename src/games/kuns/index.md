@@ -1,7 +1,7 @@
 ---
 title: Kuns
 draft: true
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 ---
 
 Japanese game: <span class="aka" lang="ja-Latn">Kingo</span> <span class="aka" lang="ja">きんご</span>.

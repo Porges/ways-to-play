@@ -1,7 +1,7 @@
 ---
 title: My Lady’s Hole
 draft: true
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 countries: UK
 ---
 
@@ -79,3 +79,23 @@ No idea how to play but .... "a double card plays best at my Lady's Hole"
 https://quod.lib.umich.edu/e/eebo/A42749.0001.001/1:4.1?rgn=div2;view=fulltext
 
 -->
+
+
+https://archive.org/details/bim_eighteenth-century_a-tryal-of-skill-between_1734/page/n3/mode/2up?q=%22lady%27s+hole%22
+
+https://archive.org/details/bim_eighteenth-century_the-merry-cobler-or-th_coffey-charles_1735/page/8/mode/2up?q=%22lady%27s+hole%22
+
+https://archive.org/details/bim_eighteenth-century_miscellaneous-poems-and-_rugeley-rowland_1763/page/(62)/mode/2up?q=%22lady%27s+hole%22
+https://archive.org/details/bim_eighteenth-century_the-prude-or-win-her-a_weeks-james-eyre_1791/page/n43/mode/2up?q=%22lady%27s+hole%22
+
+https://archive.org/details/sportingmagazin12unkngoog/page/n39/mode/2up?q=%22lady%27s+hole%22
+
+https://archive.org/details/sportingmagazin49unkngoog/page/n215/mode/2up?q=%22lady%27s+hole%22
+
+"old" https://archive.org/details/dictionaryobsol02wriggoog?q=%22lady%27s+hole%22
+"ancient" https://archive.org/details/dictionaryobsol06wriggoog?q=%22lady%27s+hole%22
+
+https://archive.org/details/oldenglishplays00unkngoog/page/n241/mode/2up?q=%22ladyes+hole%22
+
+
+Same as Whehee?! https://archive.org/details/bim_eighteenth-century_putt-a-mock-heroic-poem_fisherman_1792/page/n9/mode/2up?q=%22ladies+hole%22

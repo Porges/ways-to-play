@@ -1,7 +1,7 @@
 ---
 title: Thirty One
 draft: true
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 players: any
 ---
 

@@ -2,7 +2,7 @@
 title: All-Fours
 draft: true
 players: 2
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 ---
 
 <p class="lead">

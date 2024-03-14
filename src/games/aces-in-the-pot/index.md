@@ -2,7 +2,7 @@
 title: Aces in the Pot
 players:
     min: 3
-equipment: Dice
+equipment: Dice game
 subgames:
 - title: Fives to the Right
 ---

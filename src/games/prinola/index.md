@@ -2,7 +2,7 @@
 title: Prinola
 titleLang: fil
 players: banking
-equipment: Dice
+equipment: Dice game
 countries: PH
 subgames:
 - title: Dadu Putar

@@ -1,7 +1,7 @@
 ---
 title: Koa
 titleLang: jav-Latn
-equipment: Playing cards (Ceki)
+equipment: Card game (Ceki)
 countries: ID
 draft: true
 ---

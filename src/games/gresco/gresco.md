@@ -1,6 +1,6 @@
 ---
 title: Gresco
-equipment: Dice
+equipment: Dice game
 draft: true
 ---
 

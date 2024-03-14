@@ -2,7 +2,7 @@
 title: Bézique
 draft: true
 players: 2
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 subgames:
 - title: Polish Bézique
 ---

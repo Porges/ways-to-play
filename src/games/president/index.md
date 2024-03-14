@@ -2,7 +2,7 @@
 title: President
 draft: true
 players: { min: 2 }
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 ---
 
 Also known as: Scum, Asshole.

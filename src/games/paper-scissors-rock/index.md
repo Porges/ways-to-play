@@ -1,7 +1,7 @@
 ---
 title: Paper Scissors Rock
 draft: true
-equipment: None
+equipment: Hand game
 players: 2
 ---
 

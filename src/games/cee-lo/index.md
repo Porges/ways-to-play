@@ -9,7 +9,7 @@ subgames:
   originalTitle: <span lang="ja">チンチロリン</span>
 - title: Underground Chinchirorin
   countries: JP
-equipment: Dice
+equipment: Dice game
 ---
 
 <p class="lead">

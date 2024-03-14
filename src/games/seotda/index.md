@@ -2,7 +2,7 @@
 title: Seotda
 titleLang: ko-Latn
 originalTitle: <span lang="ko">섰다</span>
-equipment: Cards (Hwatu)
+equipment: Card game (Hwatu)
 draft: true
 countries: KR
 ---

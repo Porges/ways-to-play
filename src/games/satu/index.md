@@ -1,7 +1,7 @@
 ---
 title: Satu
 titleLang: tpi
-equipment: Dice
+equipment: Dice game
 ---
 
 <p class="lead">

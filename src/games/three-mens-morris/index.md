@@ -1,7 +1,7 @@
 ---
 title: Three Men’s Morris
 players: 2
-equipment: Simple
+equipment: Board game (simple equipment)
 subgames:
 - title: Circular Three Men’s Morris
 - title: X-ceter-O

@@ -197,8 +197,8 @@ export function render(this: Context, data: Data) {
         + '<form>'
 
         + '<div class="form-group row">'
-        + '<label for="player-select" class="col-sm-2 col-form-label">Players:</label>'
-        + '<div class="col-sm-10">'
+        + '<label for="player-select" class="col-sm-3 col-form-label">Players:</label>'
+        + '<div class="col-sm-7">'
         + '<select id="player-select" class="form-control">'
         + '<option selected>any</option>'
         + '<option value="banking">banking games (1+any)</option>'
@@ -217,8 +217,8 @@ export function render(this: Context, data: Data) {
         + '</div>'
 
         + '<div class="form-group row mt-2">'
-        + '<label for="equipment-select" class="col-sm-2 col-form-label">Equipment:</label>'
-        + '<div class="col-sm-10">'
+        + '<label for="equipment-select" class="col-sm-3 col-form-label">Type/Equipment:</label>'
+        + '<div class="col-sm-7">'
         + '<select id="equipment-select" class="form-control">'
         + '<option selected>any</option>'
         + sortedEquipment.map(x => `<option>${x}</option>`).join('')
@@ -228,8 +228,8 @@ export function render(this: Context, data: Data) {
         + '</form>'
 
         + '<div class="form-group row mt-2">'
-        + '<label for="country-select" class="col-sm-2 col-form-label">Country:</label>'
-        + '<div class="col-sm-10">'
+        + '<label for="country-select" class="col-sm-3 col-form-label">Country:</label>'
+        + '<div class="col-sm-7">'
         + '<select id="country-select" class="form-control">'
         + '<option selected>any</option>'
         + sortedCountries.map(x => `<option value="${x}">${countryNames.of(x)}</option>`).join('')

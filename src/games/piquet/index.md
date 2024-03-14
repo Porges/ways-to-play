@@ -2,7 +2,7 @@
 title: Piquet
 titleLang: fr
 draft: true
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 players: 2
 ---
 

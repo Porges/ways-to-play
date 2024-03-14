@@ -1,7 +1,7 @@
 ---
 title: Five Card
 draft: true
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 subgames:
 - title: Bullfighting
   originalTitle: <span lang="yue">鬥牛</span>

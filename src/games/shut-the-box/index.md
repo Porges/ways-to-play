@@ -2,7 +2,7 @@
 title: Shut the Box
 draft: true
 players: 2
-equipment: Dice
+equipment: Dice game
 ---
 
 Other versions:

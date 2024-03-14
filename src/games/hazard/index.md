@@ -1,6 +1,6 @@
 ---
 title: Hazard
-equipment: Dice
+equipment: Dice game
 ---
 
 <p class="lead">

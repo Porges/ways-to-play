@@ -10,7 +10,7 @@ subgames:
 - title: Pong
   players: 4
   countries: MY
-equipment: Playing cards (Ceki)
+equipment: Card game (Ceki)
 ---
 
 <p class="lead">

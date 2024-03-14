@@ -2,7 +2,7 @@
 title: Nine Men’s Morris
 mainImage: DSCF0525.jpg
 players: 2
-equipment: Simple
+equipment: Board game (simple equipment)
 countries: CN,UK,US,NZ,AU,DE,FR,BD,GR,IN,KR,TR,CH,PK,LK,ES,IT
 subgames:
 - title: Lasker Morris

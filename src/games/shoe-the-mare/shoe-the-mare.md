@@ -3,6 +3,7 @@ title: Shoe the Mare
 players:
     minimum: 1
 equipment: Physical
+countries: UK
 ---
 
 <p class="lead"><span class="aka">Shoe the (Wild) Mare</span>, or the <span class="aka">Shoeing of the (Wild) Mare</span> is a 17th-century English physical game of unclear form, as there are conflicting accounts of what the game comprised. It was popular during the Christmas season.</p>

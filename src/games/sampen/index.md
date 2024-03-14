@@ -4,7 +4,7 @@ titleLang: jav-Latn
 players:
     min: 2
     max: 8
-equipment: Playing cards (Ceki)
+equipment: Card game (Ceki)
 subgames:
 - title: Thothit Banyuwangi
   titleLang: jav-Latn

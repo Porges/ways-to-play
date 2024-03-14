@@ -2,7 +2,7 @@
 title: Chú Hóng
 titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">除紅</span>
-equipment: Dice
+equipment: Dice game
 players: any
 countries: CN
 mainImage: instructions.png

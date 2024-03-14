@@ -1,7 +1,7 @@
 ---
 title: '500'
 draft: true
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 players: 4
 hero:
     image: 500_vectored_logo.svg

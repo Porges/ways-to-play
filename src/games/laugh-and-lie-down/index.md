@@ -1,7 +1,7 @@
 --- 
 title: Laugh and Lie Down
 players: [4, 5]
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 countries: UK
 ---
 

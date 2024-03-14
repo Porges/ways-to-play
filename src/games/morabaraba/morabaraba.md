@@ -2,7 +2,7 @@
 title: Morabaraba
 titleLang: st
 players: 2
-equipment: Simple
+equipment: Board game (simple equipment)
 countries: ZA,LS,BW,MZ,SZ,ZW
 mainImage: '16908233_1262123897217460_4095342219718819840_n.jpg'
 hero:

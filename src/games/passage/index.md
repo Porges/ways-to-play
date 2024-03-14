@@ -1,6 +1,6 @@
 ---
 title: Passage
-equipment: Dice
+equipment: Dice game
 players: 2
 mainImage: 314D003a.jpg
 countries: FR,UK

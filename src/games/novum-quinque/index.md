@@ -1,6 +1,6 @@
 ---
 title: Novum Quinque
-equipment: Dice
+equipment: Dice game
 players: any
 countries: UK,FR,DE
 ---

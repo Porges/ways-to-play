@@ -8,7 +8,7 @@ subgames:
   countries: DE
 players:
     min: 2
-equipment: Dice
+equipment: Dice game
 ---
 
 <p class="lead"><span class="aka">Ship, Captain, and Crew</span> is a simple dice game for any number of people.</p>

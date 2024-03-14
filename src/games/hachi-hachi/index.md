@@ -2,7 +2,7 @@
 title: Hachi-Hachi
 titleLang: ja-Latn
 originalTitle: <span lang="ja">八八</span>
-equipment: Playing cards (Hanafuda)
+equipment: Card game (Hanafuda)
 draft: true
 players:
     min: 3

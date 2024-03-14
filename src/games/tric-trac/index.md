@@ -2,7 +2,7 @@
 title: Tric-Trac
 titleLang: fr
 draft: true
-equipment: Table
+equipment: Tables game
 players: 2
 ---
 

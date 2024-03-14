@@ -1,6 +1,6 @@
 ---
 title: My Sow (Has) Pigged
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 countries: UK
 ---
 

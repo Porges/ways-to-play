@@ -5,12 +5,12 @@ players: banking
 countries: IN,NP,CN,AU,GB,VN,TH,LA,ID,MM,MY,BN,JM,BM,NZ,CA,KH,MG,BT,BD
 hero:
     image: 'CA_StGeorge.jpg'
+equipment: Dice game (non-standard dice)
 subgames:
 - title: Grasping Eight
   originalTitle: <span lang="yue">八㪥</span>
-  equipment: Dice
+  equipment: Dice game
   countries: CN
-equipment: Dice (non-standard)
 ---
 
 <p class="lead">

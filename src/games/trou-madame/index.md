@@ -82,3 +82,9 @@ Pour emporter le prix, faut droictement viſer.</blockquote>
 However near they are: that would be to mistake you,<br/>
 To win the prize, you must aim rightly.</p>
 </div>
+
+italian:
+
+https://archive.org/details/bim_early-english-books-1641-1700_vocabulario-italiano-e-i_florio-giovanni_1690/page/n29/mode/2up?q=%22lady%27s+hole%22
+
+https://archive.org/details/gri_33125008510097/page/n441/mode/2up?q=%22ladies+hole%22

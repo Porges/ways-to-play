@@ -18486,4 +18486,16 @@ Fantasticks:
   issued: 1626
   publisher: Francis Williams
   publisher-place: London
-  
+LeCuriexAlmanach:
+  type: book
+  title:
+    value: Le Curieux Almanach pour L’An de Grace 1768
+    lang: fr
+  publisher: Chez Laurens Machuël
+  publisher-place: Rouen, France
+  issued: 1678
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k1519560f
+  notes: Nice engravings of games.
+  author:
+  - given: Angelo
+    family: Casaretta

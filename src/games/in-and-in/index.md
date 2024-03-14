@@ -1,7 +1,7 @@
 ---
 title: In and In
 players: [2,3]
-equipment: Dice
+equipment: Dice game
 countries: UK
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Beggar My Neighbour
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 players:
     min: 2
     max: 10

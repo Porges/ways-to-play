@@ -2,7 +2,7 @@
 title: Bridge
 draft: true
 players: 4
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 ---
 
 

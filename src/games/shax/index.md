@@ -1,7 +1,7 @@
 ---
 title: Shax
 players: 2
-equipment: Simple
+equipment: Board game (simple equipment)
 countries: SO
 ---
 

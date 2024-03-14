@@ -3,7 +3,7 @@ title: Whehee
 players:
     min: 2
     max: 17
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 countries: UK
 ---
 

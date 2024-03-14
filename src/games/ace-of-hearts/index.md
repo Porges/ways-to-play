@@ -1,6 +1,6 @@
 ---
 title: Ace of Hearts
-equipment: Custom
+equipment: Gambling game (special equipment)
 players: banking
 ---
 

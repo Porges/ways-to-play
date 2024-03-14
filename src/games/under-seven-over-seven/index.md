@@ -1,6 +1,6 @@
 ---
 title: Under Seven or Over Seven
-equipment: Dice
+equipment: Dice game
 ---
 
 <p class="lead">

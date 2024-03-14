@@ -1,7 +1,7 @@
 ---
 title: Liar’s Dice
 draft: true
-equipment: Dice
+equipment: Dice game
 players:
     min: 2
 ---

@@ -1,7 +1,7 @@
 ---
 title: Calypso
 draft: true
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 ---
 
 @OnTheCards34

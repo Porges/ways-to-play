@@ -1,6 +1,6 @@
 ---
 title: Pig
-equipment: Dice
+equipment: Dice game
 players:
     min: 2
 subgames:

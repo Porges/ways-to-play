@@ -8,7 +8,7 @@ hero:
     image: morra.jpg
     license: cc0
     author: Bartolomeo Pinelli
-equipment: None
+equipment: Hand game
 subgames:
 - title: Caai¹ Mui⁴⁻²
   slug: caai1-mui42

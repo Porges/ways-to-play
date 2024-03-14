@@ -1,6 +1,6 @@
 ---
 title: Circle Chases
-equipment: None
+equipment: Physical
 draft: true
 ---
 

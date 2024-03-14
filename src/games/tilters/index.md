@@ -1,6 +1,6 @@
 ---
 title: Tilters
-equipment: Playing cards (Yankee Notion)
+equipment: Card game (Yankee Notion cards)
 countries: US
 players:
     min: 2

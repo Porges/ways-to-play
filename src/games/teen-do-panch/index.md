@@ -3,7 +3,7 @@ title: Teen Do Pānch
 originalTitle: <span lang="hi">तीन दो पाँच</span>
 players: 3
 countries: IN
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 ---
 
 <p class="lead">

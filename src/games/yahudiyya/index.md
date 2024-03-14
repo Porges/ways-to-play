@@ -3,7 +3,7 @@ title: Yahūdiyya
 titleLang: ar-Latn
 originalTitle: <span lang="ar">يهودية</span>
 draft: true
-equipment: Table
+equipment: Tables game
 players: 2
 ---
 

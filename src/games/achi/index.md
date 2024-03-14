@@ -1,7 +1,7 @@
 ---
 title: Achi
 titleLang: ee
-equipment: Simple
+equipment: Board game (simple equipment)
 countries: GH,NG
 players: 2
 ---

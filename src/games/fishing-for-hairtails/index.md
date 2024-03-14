@@ -2,7 +2,7 @@
 title: Fishing for Hairtails
 originalTitle: <span lang="zh">釣白魚</span>
 players: [2,3]
-equipment: Playing cards (two-colour chess)
+equipment: Card game (two-colour chess cards)
 ---
 
 <p class="lead">

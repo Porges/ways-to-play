@@ -3,7 +3,7 @@ title: Zuì Lǜ
 titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">醉綠</span>
 countries: CN
-equipment: Dice
+equipment: Dice game
 players: any
 mainImage: 52423713.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: Cassino
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 draft: true
 subgames:
 - title: Royal Casino

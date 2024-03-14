@@ -2,7 +2,7 @@
 title: Thothit
 titleLang: jav-Latn
 originalTitle: <span lang="jav">ꦛꦺꦴꦛꦶꦠ꧀</span>
-equipment: Playing cards (Ceki)
+equipment: Card game (Ceki)
 players: 3
 countries: ID
 subgames:

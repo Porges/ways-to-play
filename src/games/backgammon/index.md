@@ -2,7 +2,7 @@
 title: Backgammon
 draft: true
 players: 2
-equipment: Table
+equipment: Tables game
 ---
 
 

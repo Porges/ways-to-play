@@ -6,7 +6,7 @@ draft: true
 players:
     min: 5
     max: 9
-equipment: Playing cards (Ceki)
+equipment: Card game (Ceki)
 ---
 
 <p class="lead">

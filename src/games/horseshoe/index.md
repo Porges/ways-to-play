@@ -1,7 +1,7 @@
 ---
 title: Horseshoe
 players: 2
-equipment: Simple
+equipment: Board game (simple equipment)
 countries: CN,IN,KR,TH,MN,MY
 ---
 

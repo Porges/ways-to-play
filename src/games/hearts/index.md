@@ -1,7 +1,7 @@
 ---
 title: Hearts
 draft: true
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 ---
 
 Refs: [@CardGamesAroundTheWorld, p. 63]

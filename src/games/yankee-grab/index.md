@@ -4,7 +4,7 @@ players:
     min: 2
 subgames:
 - title: Multiplication
-equipment: Dice
+equipment: Dice game
 ---
 
 <p class="lead">

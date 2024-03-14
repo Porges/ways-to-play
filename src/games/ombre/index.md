@@ -2,7 +2,7 @@
 title: Ombre
 draft: true
 players: 3
-equipment: Playing cards (Standard)
+equipment: Card game (standard deck)
 countries: FR,ES,UK,ID
 ---
 
