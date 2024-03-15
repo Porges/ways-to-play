@@ -35,4 +35,4 @@ In 1621, the poet James Taylor included it in [a list of games](/articles/lists/
 
 It is mentioned by [Fanny Burney](https://en.wikipedia.org/wiki/Frances_Burney) in her journal of 1770, alongside other card games that she played: “Pope Joan, my lady’s hole [later corrected by herself to ‘commerce’], or <i>my sow’s Pig’d</i>”.[@FannyBurney p. 121]
 
-In later sources it is said to be the same as “<span class="aka">My Bird Sings</span>”.[@TaylorHistory p.  311]{%fn%}This reference also mentions “my hen hath laid”, but that is apparently a different game (see {%gameref circle-chases%}).{%endfn%}
+In (much) later sources it is said to be the same as “<span class="aka">My Bird Sings</span>”.[@TaylorHistory p.  311]{%fn%}This reference also mentions “my hen hath laid”, but that is apparently a different game (see {%gameref circle-chases%}).{%endfn%}

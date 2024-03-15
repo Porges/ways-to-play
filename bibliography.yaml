@@ -18547,3 +18547,30 @@ CharacterCoffeeHouse:
   issued: 1673
   publisher-place: London
   URL: https://archive.org/details/bim_early-english-books-1641-1700_the-character-of-a-coffe_1673
+PuttMockHeroic:
+  type: book
+  title: 'Putt: A Mock-Heroic Poem'
+  issued: 1792
+  author:
+  - given: “A Fisherman”
+  publisher-place: Southhampton
+  publisher: A. Cunningham
+  URL: https://archive.org/details/bim_eighteenth-century_putt-a-mock-heroic-poem_fisherman_1792
+PostBoyRobd:
+  type: book
+  title: 'The Post-boy rob’d of his Mail: or, the Pacquet Broke Open'
+  issued: 1692
+  publisher-place: London
+  URL: http://quod.lib.umich.edu/e/eebo/A42749.0001.001
+  author:
+  - given: Charles
+    family: Gildon
+    url: https://en.wikipedia.org/wiki/Charles_Gildon
+TryalOfSkill:
+  type: book
+  title: A Tryal of Skill between a Court Lord, and a Twickenham Squire
+  issued: 1734
+  publisher-place: London
+  publisher: J. Dormer
+  URL: https://archive.org/details/bim_eighteenth-century_a-tryal-of-skill-between_1734
+  notes: Contains a list of games.
