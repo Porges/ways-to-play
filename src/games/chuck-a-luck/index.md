@@ -446,7 +446,7 @@ An H. C. Evans & Co. Big Six wheel at the Baryernhof Museum.
 
 ### Chuck-a-Luck log
 
-This form of the game was apparently invented to circumvent restrictions on gambling with dice or wheels. The log pictured below has 14 sides and was probably manufactured by H. C. Evans some time around the 1930s–50s. Pete Anderson who supplied the image calculates the house edge at 21.4% (the same as the spindle version above).
+This form of the game was apparently invented to circumvent restrictions on gambling with dice or wheels. The log pictured below has 14 sides and was probably manufactured by H. C. Evans some time around the 1930s–50s. Pete Angelos who supplied the image calculates the house edge at 21.4% (the same as the spindle version above).
 
 {%image src="93116122_542961236629804_5895971404179832832_n.jpg"
     alt="A photo of a large wooden cylinder with 14 sides. Each side has three numbers painted on it."
