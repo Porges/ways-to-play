@@ -18574,3 +18574,37 @@ TryalOfSkill:
   publisher: J. Dormer
   URL: https://archive.org/details/bim_eighteenth-century_a-tryal-of-skill-between_1734
   notes: Contains a list of games.
+LukFuHakka:
+  type: webpage
+  title: Rules of Luk Fu, a Hakka card game
+  URL: https://aloneinthefart.blogspot.com/2011/01/rules-of-luk-fu-hakka-card-game.html
+  archive-URL: https://web.archive.org/web/20220920193819/https://aloneinthefart.blogspot.com/2011/01/rules-of-luk-fu-hakka-card-game.html
+  container-title: Alone in the Fart
+  issued:
+    year: 2011
+    month: 1
+    day: 28
+  author:
+  - given: The Suffocated
+  - given: Siu Fat
+    family: Wong
+    lang: zh-Latn
+    alt:
+      value: 王小發
+      lang: zh
+CampagneAuTonkin:
+  type: book
+  title:
+    value: Une Campagne au Tonkin
+    lang: fr
+  author:
+  - given: Charles-Édouard
+    family: Hocquard
+    lang: fr
+    url: https://en.wikipedia.org/wiki/Charles-%C3%89douard_Hocquard
+  URL: https://archive.org/details/unecampagneauton00hocq
+  issued: 1892
+  publisher-place: Paris
+  publisher:
+    value: Hachette et Cie
+    lang: fr

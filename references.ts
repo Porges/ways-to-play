@@ -217,8 +217,13 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
     const renderGiven = (a: Author, ix: number) => 
         `<span itemprop="givenName">${a.given}</span>${ifSet(period && reverseFirst && ix === 0 && ix === (as.length - 1) && !a.given.endsWith('.'), '.')}`;
 
+    // Japanese and Chinese names should be last-name first
     const reverseName = (a: Author) => a.lang === undefined ? false : (a.lang.startsWith('zh') || a.lang.startsWith('ja'));
-    const hiddenName = (a: Author) => `<meta itemprop="name" content="${reverseName(a) ? `${a.family || ''}${a.given}` : `${a.given} ${a.family || ''}`}" />`;
+    
+    // if using Latin script we still need a space between, otherwise we don’t
+    const isLatn = (a: Author) => a.lang === undefined || a.lang.endsWith("-Latn");
+
+    const hiddenName = (a: Author) => `<meta itemprop="name" content="${reverseName(a) ? `${a.family || ''}${isLatn(a) ? ' ' : ''}${a.given}` : `${a.given} ${a.family || ''}`}" />`;
 
     const altName = (a: Author) => {
         if (!a.alt) {
@@ -237,7 +242,7 @@ const renderPeople = (as: readonly Author[], reverseFirst: boolean, period: bool
             ? ifSet(a.family, () => `${isolate(renderFamily(a, ix))}, `) + isolate(renderGiven(a, ix))
             : isolate(
                 reverseName(a)
-                    ? `${ifSet(a.family, () => `${renderFamily(a, ix)}`)}${renderGiven(a, ix)}`
+                    ? `${ifSet(a.family, () => `${renderFamily(a, ix)}`)}${isLatn(a) ? ' ' : ''}${renderGiven(a, ix)}`
                     : `${renderGiven(a, ix)}${ifSet(a.family, () => ` ${renderFamily(a, ix)}`)}`))
         + ifSet(a.url, '</a>')
         + altName(a)
