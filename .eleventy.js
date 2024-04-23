@@ -6,7 +6,7 @@ const argParse = require('liquid-args');
 const path = require('path');
 const fs = require('node:fs/promises');
 const slug = require('slug');
-const YAML = require('yaml');
+const YAML = require('js-yaml');
 
 const { asAttr, ifSet, IS_PRODUCTION, isolate } = require('./helpers');
 const references = require('./references');
@@ -361,7 +361,7 @@ const citationPlugin = () => {
     const biblioPath = path.join(__dirname, 'bibliography.yaml');
     let stat = await fs.stat(biblioPath);
     if (!biblio || stat.mtime > biblioLastModified) {
-      biblio = YAML.parse(await fs.readFile(biblioPath, 'utf8'), { merge: true });
+      biblio = YAML.load(await fs.readFile(biblioPath, 'utf8'));
       if (!referenceSchema.referenceValidator(biblio)) {
         throw new Error(JSON.stringify(referenceSchema.referenceValidator.errors));
       }

@@ -1,6 +1,6 @@
 import * as fs from 'node:fs/promises';
 import * as path from 'path';
-import { parse } from 'yaml';
+import * as jsyaml from 'js-yaml';
 
 import { IS_PRODUCTION } from '../helpers';
 
@@ -85,7 +85,7 @@ export async function render(data: Data) {
     await buildLookup(data.collections.game, refs);
     const locale = new Intl.Collator('en', { numeric: true, ignorePunctuation: true });
     const file = await fs.readFile(path.join(__dirname, "../bibliography.yaml"), 'utf8');
-    const parsedFile = parse(file, {merge: true});
+    const parsedFile = jsyaml.load(file);
     if (!referenceValidator(parsedFile)) {
         throw new Error(`Invalid bibliography: ${referenceValidator.errors}`);
     }
