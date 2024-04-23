@@ -49,6 +49,11 @@ const citeExtrator = /((?<!\w)@(?<id1>(_|[^\s\p{P}])+)(\s+\[(?<what1>[^\]]+)\])?
 
 async function buildLookup(coll: any[], refs: Map<string, any[]>) {
     for (const c of coll) {
+        if (c.data.draft && IS_PRODUCTION) {
+            // exclude drafts in production
+            continue;
+        }
+
         const content = await c.template.inputContent as string;
         const cites = content.matchAll(citeExtrator);
         const processed = new Map();
@@ -67,9 +72,6 @@ function renderBackreferences(ref: BiblioRef, refs: Map<string, any[]>) {
     if (backrefs === undefined) {
         return "";
     }
-
-    // exclude drafts in production
-    backrefs = backrefs.filter(x => !IS_PRODUCTION || !x.data.draft);
 
     // sort by title
     backrefs.sort((x, y) => x.data.title.localeCompare(y.data.title, 'en'));
