@@ -3556,10 +3556,7 @@ As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](http
 
 ## Johann Fischarts’ list
 
-As found in @Fischarts [p. 259].{%fn%}Transcription from [this
-site](http://www.zeno.org/Literatur/M/Fischart,+Johann/Roman/Geschichtklitterung/Das+25.+Capitel).{%endfn%}
-These are given separately to the table above, given the extensive expansion
-that Fischarts made to the list.
+As found in @Fischarts [p. 259].{%fn%}Transcription from [this site](http://www.zeno.org/Literatur/M/Fischart,+Johann/Roman/Geschichtklitterung/Das+25.+Capitel).{%endfn%} These are given separately to the table above, given the extensive expansion that Fischarts made to the list.
 
 Many items are duplicated or reduplicated, and Fischarts also added many games
 of his own invention, paralleling Rabelais’ original.
@@ -4461,7 +4458,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Räters.</dt>
 <dd></dd>
 <dt lang="de">Neunten stein,</dt>
-<dd></dd>
+<dd>‘ninth stone’, {%gameref nine-mens-morris%</dd>
 <dt lang="de">Des Verdiensts des Liebkrantzes.</dt>
 <dd></dd>
 <dt lang="de">Stein verbergen.</dt>
