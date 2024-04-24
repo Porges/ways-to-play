@@ -4458,7 +4458,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Räters.</dt>
 <dd></dd>
 <dt lang="de">Neunten stein,</dt>
-<dd>‘ninth stone’, {%gameref nine-mens-morris%</dd>
+<dd>‘ninth stone’, {%gameref nine-mens-morris%}</dd>
 <dt lang="de">Des Verdiensts des Liebkrantzes.</dt>
 <dd></dd>
 <dt lang="de">Stein verbergen.</dt>
