@@ -1,15 +1,19 @@
 ---
-title: Permainan
+title: Permainan-Tabal
 titleLang: id
 players: 2
 country: Indonesia
 draft: true
 ---
 
-Also known as Surakarta (<span lang="jav">ꦯꦸꦫꦏꦂꦠ</span>), after the
-historical capital city of Java.
+<p class="lead">
+<span lang="id" class="aka noun">Permainan-Tabal</span> (“drum game”) is an Indonesian game.{%fn%}The name is sometimes given as only <span lang="id" class="aka noun">Permainan</span>, but that merely means “game” in Indonesian.{%endfn%} The name of the game probably relates to the shape of the board, which resembles a drum.{%fn%}Compare also with the Japanese <span lang="ja">輪鼓</span> <span lang="ja-Latn">ryūgo</span> drum-shape symbol.{%endfn%}
+</p>
 
-[@OxfordBG, p. 249]
+
+The following is a different game:
+
+Known as <span lang="jav-Latn" class="aka noun">Surakarta</span> (<span lang="jav" class="aka noun">ꦯꦸꦫꦏꦂꦠ</span>), after the historical capital city of Java.[@OxfordBG p. 249]
 
 ## References
 
