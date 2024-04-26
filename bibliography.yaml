@@ -18773,7 +18773,7 @@ DepaulisBlackjack:
   page: 238-244
   in: &IPCS_38_4
     title: *IPCS
-    issn: *IPCS_SSN
+    ISSN: *IPCS_SSN
     editor: [*Peter_Endebrock]
     volume: 38
     issue: 4
@@ -18783,14 +18783,71 @@ DepaulisBlackjack:
 McLeodIndianGames:
   type: article-journal
   title: 'Playing the Game: Indian games – double tricks and collecting tens'
+  author: [*John_McLeod]
   page: 63-66
   URL: https://askalexander.org/display/22536/The+Playing-Card+Vol+38/65
   in: &IPCS_38_1
     title: *IPCS
-    issn: *IPCS_SSN
+    ISSN: *IPCS_SSN
     editor: [*Peter_Endebrock]
     volume: 38
     issue: 1
     issued:
       year: 2009
       month: 9
+DavisIndianGames:
+  type: article-journal
+  title: 'Indian Games: an Historical Research'
+  author:
+  - given: Andrew McFarland 
+    family: Davis
+  URL: https://archive.org/details/proceedings03esseuoft/page/n97
+  page: 89-144
+  in:
+    title: Bulletin of the Essex Institute
+    volume: 17
+    issue: 7
+    issued:
+      year: 1885
+      month: 7
+DavisIndianGames2:
+  type: article-journal
+  title: A Few Additional Notes Concerning Indian Games
+  URL: https://archive.org/details/proceedings03esseuoft/page/168
+  author:
+    - given: Andrew McFarland
+      family: Davis
+  page: 168-188
+  in:
+    title: Bulletin of the Essex Institute
+    volume: 18
+    issue: 3
+    issued:
+      year: 1886
+      month: 3
+WaltesLeonard:
+  type: chapter
+  title: Why <i>Waltes</i> Was a Woman’s Game
+  author:
+  - given: Kevin
+    family: Leonard
+  page: 19-33
+  in: &PrehistoricMesoamerica
+    title: 'Prehistoric Games of North American Indians: Subarctic to Mesoamerica'
+    editor:
+    - &BarbaraVoorhies
+      given: Barbara
+      family: Voorhies
+    publisher: University of Utah Press
+    publisher-place: Salt Lake City
+    issued: 2017
+    ISBN: '9781607815594'
+AncientPatolli:
+  type: chapter
+  title: Ancient Maya <i>Patolli</i>
+  author:
+  - given: John
+    family: Walden
+  - *BarbaraVoorhies
+  page: 197-218
+  in: *PrehistoricMesoamerica
