@@ -74,11 +74,8 @@ More relevant to the 17th-century game, we find in the play [<cite>The Coxcombe<
 
 ... you get the idea.
 
-<!--
-The closest I have found is “wehee” which is recorded in the <abbr title="Oxford English Dictionary" class="initialism">OED</abbr> as an old onomatopœic representation of a horse’s whinny (and can also be spelled in many different ways).
--->
-
 In the commentary of @FrancisWillughby [p. 290] it is suggested that the sound is of the “squealing of piglets” (clearly inaccurate, going by the above quotes), and that the game is related to {% gameref my-sow-pigged %}.
 
-
 The game is possibly the same as the game later recorded as ‘Wizzy, Wizzy, Wee’ in Shropshire, which is also said to be the same as {% gameref my-sow-pigged %}.[@ShropshireFolklore3 p. 527]
+
+In one case the game {%gameref my-ladys-hole%} is identified as equivalent to Whehee.
