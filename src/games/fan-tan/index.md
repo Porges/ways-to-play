@@ -161,6 +161,8 @@ photo: https://doi.org/10.25549/impa-m19599
 A similar (children’s) game is known as <span lang="bug">ᨆᨀᨙᨌᨛ</span>
 makéce[@BoegineeschWoordenboek 24]{%fn%}old orthography: maketja{%endfn%} (Bugis), akece{%fn%}Aketje{%endfn%} (Makassarese), Javanese or Dayak{%fn%}The @DajakschDeutsches [260] says “<span lang="de" class="noun">KETJEK, das Ketjekspiel; s. die Beschreibung desselben unter <i>baketjek</i></span>”, but contains no such entry!{%endfn%} kecek{%fn%}Ketjek{%endfn%}.[@GamesAndDances 332–3]
 
+See: https://archive.org/details/dajackschdeutsc00hardgoog/page/260/mode/2up?q=%22baKetjek%22, https://archive.org/details/hindujavanesemus0000jaap/page/148/mode/2up?q=%22ketjek%22
+
 See also @Pijnappel1 [189], which gives Malay <span lang="ms">kecek</span> (<span lang="ms-Arab">كيچيق</span> or <span lang="ms-Arab">كيچك</span>[@MaleischNederlandsch_2 p. 572]){%fn%}old: ketjek{%endfn%} and Javanese <span lang="jav-Latn">kecik</span>,{%fn%}old: <span lang="jav-Arab">كچيق</span>, <span lang="jav-Latn">kĕtjik</span>{%endfn%} a name for the [<span lang="jav-Latn">sawo</span>](https://en.wikipedia.org/wiki/Manilkara_kauki) pit with which the game was played.[@SEAlangJavanese] (But compare also the entry for kècèk, noted as “a dice game”.)
 
 In Lampung it was said to be native to Bali.[@DeLampong 273]

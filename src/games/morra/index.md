@@ -76,7 +76,22 @@ See [@PersistenceAndChange p. 196–7]
 
 See [@ThingsChinese p. 295–6]
 
-See @ChaiMuiPickering
+See @ChaiMuiPickering:
+
+<span lang="zh">
+一心
+二好
+三元
+四季
+五子
+六合
+七巧
+八仙
+九長
+十全
+對手
+</span>
+
 
 ## Strategy
 

@@ -23,6 +23,14 @@ See: [@LondonStreetGames p. 31], [@Petroniana1959], [@Petroniana1960]
 
 early mention in [@OnTheGrammars]
 
+mentioned as “common in Hampshire” in [@FolkEtymology 622]
+
+in @GamesAndSongsAmericanChildren [149]
+
 Butt, Butt in [@MicatioDigitorumLetter]
 
-[@ARomanGameBrewster] [@HowManyHorns] [@AfricanBuccaBucca] 
+Brewster started researching this in 1940: https://archive.org/details/ModernReview/1940_v67/page/331/mode/2up?q=%22Paul+G.+Brewster%22
+
+[@ARomanGameBrewster] [@HowManyHorns] [@AfricanBuccaBucca] [@BrewsterKitte]
+
+[@UllmanBuccaBucca]

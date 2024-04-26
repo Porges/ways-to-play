@@ -43,6 +43,7 @@ const nameOverrides = new Map<string, string>([
     ["tiw", "Tiwi"],
     ["tws", "Teochew"],
     ["urh", "Urhobo"],
+    ["vmw", "Makhuwa"],
     ["wni", "Comorian"], // Ndzwani
 ]);
 

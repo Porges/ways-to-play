@@ -76,7 +76,7 @@ function renderBackreferences(ref: BiblioRef, refs: Map<string, any[]>) {
     // sort by title
     backrefs.sort((x, y) => x.data.title.localeCompare(y.data.title, 'en'));
 
-    return '<ul class="backreferences columnarr">' + backrefs.map(b => `<li><a href="${b.url}">${b.data.title}</a></li>`).join("") + '</ul>';
+    return '<ul class="backreferences">' + backrefs.map(b => `<li><a href="${b.url}">${b.data.title}</a></li>`).join("") + '</ul>';
 }
 
 export async function render(data: Data) {

@@ -1982,7 +1982,7 @@ them, I do not know of any other sets of rules recorded online.
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
-* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui{%fn%}Patoei or <span lang="ms-Arab">ڤتوي</span>[@Pijnappel p. 58] in older orthographies.{%endfn%} which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn">pat tùi</span>),{%fn%}This possibility raised in @Morgenlandisch_2 [p. 572].{%endfn%} in which case the game could be something similar to {%gameref tantanan%}.
+* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui{%fn%}Patoei or <span lang="ms-Arab">ڤتوي</span>[@Pijnappel p. 58] in older orthographies, probably also equivalent to <span lang="rej-Latn">ptu’i</span> <span lang="rej">ꤶ꥓ꤳꥈꥆꥇ</span> in [Rejang](https://en.wikipedia.org/wiki/Rejang_language).[@MaterialsRejang 92]{%endfn%} which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn">pat tùi</span>),{%fn%}This possibility raised in @Morgenlandisch_2 [p. 572].{%endfn%} in which case the game could be something similar to {%gameref tantanan%}.
 * Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary p. 214]
 * Tongkeng, a game for two people[@BabaMalayDictionary p. 215]
 * Cho It and Chochot[@SomeNotesMalayCardGames p. 88] — could Chochot be the same as Chot or Thothit?

@@ -25,3 +25,5 @@ A specific tomb is that of Ibi (TT36)—see @TopographicalBibliography_1 [p. 6
 
 Beni Hasan here is the Ibi tomb: https://archive.org/details/mannerscustomsof01wilk_0/page/n71/mode/2up?q=draughts
 Mora again https://archive.org/details/mannerscustomsof02wilk_0/page/n73/mode/2up
+
+Could it be related to the game <span lang="vmw" class="aka">Kikote nno, kilye nno</span> played by [Makua](https://en.wikipedia.org/wiki/Makua_people) people?  @TwoGamesFromAfrica

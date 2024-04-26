@@ -95,6 +95,11 @@
     unicode-range: U+1b00-1b7f;
 }
 @font-face {
+    font-family: 'Rejang';
+    src: local('Noto Sans Rejang'), serif;
+    unicode-range: U+a930-a95f;
+}
+@font-face {
     font-family: EgyptianText;
     font-display: swap;
 	src: url('/fonts/EgyptianText.woff2') format('woff2'),
@@ -109,6 +114,7 @@ $font-family-sans-serif:
     serif, 
     "cc-icons", // fallback for Creative Commons Unicode characters
     "UniHentaiKana", // fallback for Hentaigana chars
+    "Rejang", // fallback for Rejang script
     "Balinese"; // fallback for Balinese script
 
 $primary: #6b5293;
@@ -500,14 +506,28 @@ div.multi > p {
     text-indent: -2em;
 }
 
-/* nested backreference lists need indentation undone */
-.backreferences > li {
-    text-indent: 0;
-}
-
 .backreferences {
     margin-top: .1em;
-    list-style-type: '→ ';
+    display: inline;
+    list-style: none;
+    padding-left: 0;
+    
+    & > li {
+        text-indent: 0;
+        display: inline;
+        
+        &::after  {
+            content: ", ";
+        }
+        
+        &:last-child::after {
+            content: "";
+        }
+    }
+    
+    &::before {
+        content: '→ ';
+    }
 }
 
 /*** Highlight target of link ***/

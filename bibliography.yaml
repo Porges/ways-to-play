@@ -5236,6 +5236,7 @@ JavaanseKaartspelenReview:
   author:
     - given: E. M.
       family: Uhlenbeck
+      url: https://en.wikipedia.org/wiki/Eugenius_Uhlenbeck
   page: 348-356
   URL: https://www.jstor.org/stable/27863508
   in:
@@ -9438,6 +9439,7 @@ PersonalLuck:
   author:
   - given: Mark
     family: Elvin
+    url: https://en.wikipedia.org/wiki/Mark_Elvin
   page: 400-468
   URL: https://doi.org/10.1163/ej.9789004185265.i-566.112
   in:
@@ -14315,6 +14317,7 @@ StudiesInCheremis:
   volume: 6
   volume-title: Games
   URL: https://hdl.handle.net/2027/umn.319510022653107
+  archive-URL: https://archive.org/details/studiesincheremi0000sebe
   author:
   - given: Thomas A.
     family: Sebeok
@@ -14450,12 +14453,70 @@ FourGamesOfTag:
     issued:
       season: Winter
       year: 1951
+BrewsterHopscotch:
+  type: article-journal
+  title: Some Unusual Forms of “Hopscotch”
+  author: [*PaulGBrewster]
+  URL: https://archive.org/details/sim_southern-folklore-quarterly_1945-12_9_4/page/n54
+  page: 229-231
+  in:
+    title: Southern Folklore Quarterly
+    volume: 9
+    issue: 4
+    issued:
+      year: 1945
+      month: 12
+BrewsterHungarian:
+  type: article-journal
+  title: Some Hungarian Games
+  author: [*PaulGBrewster]
+  URL: https://archive.org/details/sim_southern-folklore-quarterly_1949-12_13_4/page/175
+  page: 175–179
+  in:
+    title: Southern Folklore Quarterly
+    volume: 13
+    issue: 4
+    issued:
+      year: 1949
+      month: 12
+BrewsterYugoslav:
+  type: article-journal
+  title: A Group of Jugoslav Games
+  author:
+  - *PaulGBrewster
+  - given: Jelena
+    family: Milojković–Djurić
+  URL: https://archive.org/details/sim_southern-folklore-quarterly_1956-09_20_3/page/183
+  page: 183–191
+  in:
+    title: Southern Folklore Quarterly
+    volume: 20
+    issue: 3
+    issued:
+      year: 1956
+      month: 9
+JugoslavScandinavian:
+  type: article-journal
+  title: The Jugoslav Children’s Game <em>Most</em> and Some Scandinavian Parallels
+  author:
+  - given: Jelena
+    family: Milojković–Djurić
+  URL: https://archive.org/details/sim_southern-folklore-quarterly_1960-09_24_3/page/226
+  page: 226–234
+  in:
+    title: Southern Folklore Quarterly
+    volume: 24
+    issue: 3
+    issued:
+      year: 1960
+      month: 9
 AfricanBuccaBucca:
   type: article-journal
   title: Some African Variants of “Bucca, Bucca”
   author: [*PaulGBrewster]
   page: 293–296
   URL: https://www.jstor.org/stable/3292421
+  archive-URL: https://archive.org/details/sim_classical-journal_1944-02_39_5/page/293
   in:
     title: The Classical Journal
     volume: 39
@@ -14513,6 +14574,45 @@ BrewsterLangadi:
     volume: 15
     issue: 1
     issued: 1960
+BrewsterCollectionOfGames:
+  type: article-journal
+  title: A Collection of Games from India, with some Notes on Similar Games in other Parts of the World
+  author: [*PaulGBrewster]
+  page: 88–102
+  URL: https://www.jstor.org/stable/25840313
+  in:
+    title:
+      value: Zeitschrift für Ethnologie
+      lang: de
+    volume: 80
+    issue: 1
+    issued: 1955
+BrewsterKitte:
+  type: article-journal
+  title: The “Kitte Aṇḍe Bōl” Game of India
+  author: [*PaulGBrewster]
+  page: 149–152
+  URL: https://archive.org/details/sim_southern-folklore-quarterly_1943-09_7_3/page/149
+  in:
+    title: Southern Folklore Quarterly
+    issued:
+      year: 1943
+      month: 9
+    volume: 7
+    issue: 3
+BrewsterSomeGames:
+  type: article-journal
+  title: Some Games from Other Lands
+  author: [*PaulGBrewster]
+  page: 109–117
+  URL: https://archive.org/details/sim_southern-folklore-quarterly_1943-06_7_2/page/109
+  in:
+    title: Southern Folklore Quarterly
+    issued:
+      year: 1943
+      month: 6
+    volume: 7
+    issue: 2
 EastwardHoe:
   type: book
   title: Eastward Hoe
@@ -16866,8 +16966,10 @@ StoepMorris:
 DugganStrange:
   type: article-journal
   author:
-  - given: Eddie
+  - &Eddie_Duggan
+    given: Eddie
     family: Duggan
+    url: https://en.wikipedia.org/wiki/Eddie_Duggan
   title: 'Strange Games: some Iron Age examples of a four-player board game?'
   page: 17-40
   URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/1145
@@ -17005,9 +17107,7 @@ KiddGrammai:
   in: *bgs11
 DugganStranger:
   type: article-journal
-  author:
-  - given: Eddie
-    family: Duggan
+  author: [*Eddie_Duggan]
   title: 'Stranger Games: The life and times of the spintriae'
   page: 101-121
   URL: https://sciendo.com/article/10.1515/bgs-2017-0005
@@ -17130,9 +17230,7 @@ ParlettMagie:
   in: *bgs13
 DugganGeese:
   type: article-journal
-  author:
-  - given: Eddie
-    family: Duggan
+  author: [*Eddie_Duggan]
   title: 'Chasing Geese: on the trail of fourteen British-published copies of The Royal Pastime of Cupid, or Entertaining Game of the Snake'
   page: 111-158
   URL: https://sciendo.com/article/10.1515/bgs-2019-0006
@@ -17229,9 +17327,7 @@ CruxAndCruciform:
   in: *bgs15
 DugganTafl:
   type: article-journal
-  author:
-  - given: Eddie
-    family: Duggan
+  author: [*Eddie_Duggan]
   title: 'A Game on the Edge: An Attempt to Unravel the Gordian Knot of <i>tafl</i> Games'
   page: 99-132
   URL: https://sciendo.com/article/10.1515/bgs-2021-0005
@@ -18608,3 +18704,66 @@ CampagneAuTonkin:
   publisher:
     value: Hachette et Cie
     lang: fr
+UllmanBuccaBucca:
+  type: article-journal
+  title: Bucca, Bucca
+  page: 94-102
+  author:
+    - given: B. L.
+      family: Ullman
+      url: https://en.wikipedia.org/wiki/Berthold_Ullman
+  URL: https://www.jstor.org/stable/264294
+  archive-URL: https://archive.org/details/sim_classical-philology_1943-04_38_2/page/94
+  in:
+    title: Classical Philology
+    volume: 38
+    issue: 2
+    issued:
+      year: 1943
+      month: 4
+FolkEtymology:
+  type: book
+  title: 'Folk Etymology: A Dictionary'
+  author:
+  - given: A. Smythe
+    family: Palmer
+    url: https://en.wikipedia.org/wiki/Abram_Smythe_Palmer
+  issued: 1882
+  publisher-place: London
+  publisher: George Bell and Sons
+  URL: https://archive.org/details/in.ernet.dli.2015.83643
+MaterialsRejang:
+  type: book
+  title: Materials for a Rejang–Indonesian–English dictionary
+  author:
+  - given: M. A.
+    family: Jaspan
+  URL: https://archive.org/details/materialsforreja0058jasp
+  issued: 1984
+  series:
+    title: Materials in Languages of Indonesia
+    number: 27
+    editor:
+    - given: W. A. L.
+      family: Stokhof
+  publisher: Australian National University
+MewAbstration:
+  type: article-journal
+  title: 'A Short Visual History of Abstraction in Early Modern Japanese Karuta: Simplification, Reinterpretation, and Localization'
+  author:
+  - given: Mew Lingjun
+    family: Jiang
+    alt:
+      value: 蔣靈均
+      lang: zh
+  URL: https://doi.org/10.5109/4843130
+  archive-URL: https://web.archive.org/web/20240204133743/https://catalog.lib.kyushu-u.ac.jp/opac_download_md/4843130/007_p061.pdf
+  page: 61-83
+  in:
+    title: Journal of Asian Humanities at Kyushu University
+    volume: 7
+    issued:
+      year: 2022
+      season: Spring
+    
+  
