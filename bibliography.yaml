@@ -9209,8 +9209,10 @@ TombOfHesy:
   type: book
   title: "Excavations at Saqqara (1911–12): The Tomb of Hesy"
   author:
-    - family: Quibell
+    - &Quibell
+      family: Quibell
       given: James Edward
+      url: https://en.wikipedia.org/wiki/James_Quibell
   publisher:
     value: Imprimerie de L’Institute Français D’Archéologie Orientale
     lang: fr
@@ -9220,9 +9222,7 @@ TombOfHesy:
 ExcavationsAtSaqqara1907:
   type: book
   title: "Excavations at Saqqara (1907–1908)"
-  author:
-    - family: Quibell
-      given: James Edward
+  author: [*Quibell]
   publisher:
     value: Imprimerie de L’Institute Français D’Archéologie Orientale
     lang: fr
@@ -18765,5 +18765,32 @@ MewAbstration:
     issued:
       year: 2022
       season: Spring
-    
-  
+DepaulisBlackjack:
+  type: article-journal
+  title: 'Dawnson’s Game: Blackjack and the Klondike'
+  author: [*Thierry_Depaulis]
+  URL: https://askalexander.org/display/22536/The+Playing-Card+Vol+38/260
+  page: 238-244
+  in: &IPCS_38_4
+    title: *IPCS
+    issn: *IPCS_SSN
+    editor: [*Peter_Endebrock]
+    volume: 38
+    issue: 4
+    issued:
+      year: 2010
+      month: 6
+McLeodIndianGames:
+  type: article-journal
+  title: 'Playing the Game: Indian games – double tricks and collecting tens'
+  page: 63-66
+  URL: https://askalexander.org/display/22536/The+Playing-Card+Vol+38/65
+  in: &IPCS_38_1
+    title: *IPCS
+    issn: *IPCS_SSN
+    editor: [*Peter_Endebrock]
+    volume: 38
+    issue: 1
+    issued:
+      year: 2009
+      month: 9
