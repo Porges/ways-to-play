@@ -38,7 +38,7 @@ export function render(this: Context, data: Data) {
     <p>
     There are two main areas on this site, of <strong><a href="/articles/"><span role="img" aria-label="">🧾</span>&#8239;Articles</a></strong> about
     games or families of games, and <strong><a href="/games"><span role="img" aria-label="">🎲</span>&#8239;Games</a></strong> for rules of the games
-    themselves. There is also an index of <a href="/game-names-index/">game names by language</a>, if you are trying to locate a game.
+    themselves. There is also an index of <strong><a href="/game-names-index/">game names by language</a></strong>, if you are trying to locate a game.
     Every page on this website should be considered a work in progress: nothing is definite, and everything is subject to revision!
     You might also be interested in the <a href="/about/"><span role="img" aria-label="">📣</span>&#8239;About</a> page or perhaps
     the site-wide <strong><a href="/bibliography/"><span role="img" aria-label="">📚</span>&#8239;Bibliography</a></strong>.
