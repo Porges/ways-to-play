@@ -43,6 +43,7 @@ export function render(this: Context, data: Data) {
     You might also be interested in the <a href="/about/"><span role="img" aria-label="">📣</span>&#8239;About</a> page or perhaps
     the site-wide <strong><a href="/bibliography/"><span role="img" aria-label="">📚</span>&#8239;Bibliography</a></strong>.
     </p>
+    <p>For other sites about games, please visit the <a href="/see-also/">See Also</a> page.</p>
 
     <h2>Recently updated pages</h2>
     <ul class="columnar-large">
