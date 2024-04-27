@@ -12768,6 +12768,18 @@ MalayMagic:
   issued: 1900
   notes: Note that errata is included in this edition. The section on games starts on page 483.
   URL: https://archive.org/details/malaymagicbeingi00skea
+MalayCardGames:
+  type: article-journal
+  title: Malay Card Games
+  URL: https://www.jstor.org/stable/2842859
+  author:
+  - given: W.
+    family: S.
+  page: 136-139
+  in:
+    title: The Journal of the Anthropological Institute of Great Britain and Ireland
+    volume: 27
+    issued: 1898
 SomeNotesMalayCardGames:
   type: article-journal
   title: Some Notes on Malay Card Games
@@ -18851,3 +18863,151 @@ AncientPatolli:
   - *BarbaraVoorhies
   page: 197-218
   in: *PrehistoricMesoamerica
+HowYouPlaySpades:
+  type: webpage
+  title: How You Play Spades Is How You Play Life
+  container-title: The Pudding
+  author:
+  - given: Gabrielle Ione
+    family: Hickmon
+  URL: https://pudding.cool/2021/08/spades/
+  archive-URL: https://web.archive.org/web/20240417003144/https://pudding.cool/2021/08/spades/
+  issued:
+    year: 2021
+    month: 8
+BlackIntimacy:
+  type: article-magazine
+  title: A World of Black Intimacy at the Card Table
+  author:
+  - given: Hanif
+    family: Abdurraqib
+  URL: https://www.nytimes.com/2021/02/24/magazine/a-world-of-black-intimacy-at-the-card-table.html
+  archive-URL: https://web.archive.org/web/20240101025524/https://www.nytimes.com/2021/02/24/magazine/a-world-of-black-intimacy-at-the-card-table.html
+  in:
+    title: The New York Times
+    issued:
+      year: 2021
+      month: 2
+      day: 24
+LostFilipinoI:
+  type: webpage
+  title: 'Lost Filipino Culture: Playing-cards I'
+  URL: https://libertadfilipinas.wordpress.com/2014/12/09/lost-filipino-culture-playing-cards-i/
+  archive-URL: https://web.archive.org/web/20160404123957/https://libertadfilipinas.wordpress.com/2014/12/09/lost-filipino-culture-playing-cards-i/
+  author:
+  - given: 楚
+    family: 王
+  container-title: Libertad Filipinas
+  issued:
+    year: 2014
+    month: 12
+    day: 9
+LostFilipinoII:
+  type: webpage
+  title: 'Lost Filipino Culture: Playing-cards II'
+  URL: https://libertadfilipinas.wordpress.com/2014/12/19/lost-filipino-culture-playing-cards-ii/
+  archive-URL: https://web.archive.org/web/20160414123747/https://libertadfilipinas.wordpress.com/2014/12/19/lost-filipino-culture-playing-cards-ii/
+  author:
+  - given: 楚
+    family: 王
+  container-title: Libertad Filipinas
+  issued:
+    year: 2014
+    month: 12
+    day: 19
+ChapJiKiBlog:
+  type: webpage
+  title: Chap Ji Ki
+  container-title: Taking Up The Challenge
+  URL: https://victorkoo.blogspot.com/2010/02/chap-ji-ki.html
+  archive-URL: https://web.archive.org/web/20231123043738/https://victorkoo.blogspot.com/2010/02/chap-ji-ki.html
+  author:
+  - given: Victor
+    family: Koo
+  issued:
+    year: 2010
+    month: 2
+    day: 22
+ChapJiKiHousewives:
+  type: webpage
+  title: 'Desperate Housewives: The Lure of Chap Ji Kee'
+  URL: https://biblioasia.nlb.gov.sg/vol-11/issue-3/oct-dec-2015/housewives/
+  # also republished as
+  # URL: https://www.straitstimes.com/opinion/desperate-housewives-and-the-lure-of-chap-ji-kee
+  archive-URL: https://web.archive.org/web/20231206233822/https://biblioasia.nlb.gov.sg/vol-11/issue-3/oct-dec-2015/housewives/
+  author:
+  - given: Janice
+    family: Loo
+  issued:
+    year: 2015
+    month: 10
+    day: 1
+  container-title: biblioasia
+  publisher: National Library of Singapore
+OfPunningPunters:
+  type: article-magazine
+  title: Of Punning Punters, Bankers and Runners
+  author:
+  - given: Tan
+    family: Kuning
+  page: 18-20
+  URL: https://www.peranakan.org.sg/magazine/2011/2011_Issue_2.pdf#page=20
+  in:
+    title: The Peranakan
+    issue: 2
+    volume: 2011
+    issued: 2011
+ChapJiKiAndMyMother:
+  type: article-magazine
+  title: <span lang="ms">Chap-Ji-Ki</span> and My Mother
+  URL: https://www.peranakan.org.sg/magazine/2010/2010_Issue_3.pdf#page=5
+  page: 3-5
+  author:
+  - given: William
+    family: Gwee
+    alt: Gwee Thian Thock
+  in:
+    title: The Peranakan
+    volume: 2010
+    issue: 3
+    issued: 2010
+ChapJiKiAndMyMother2:
+  type: article-magazine
+  title: '<span lang="ms">Chap-Ji-Ki</span> and My Mother: Variations on an Obsession'
+  URL: https://www.peranakan.org.sg/magazine/2010/2010_Issue_4.pdf#page=19
+  archive-URL: https://web.archive.org/web/20220615001726/https://www.peranakan.org.sg/magazine/2010/2010_Issue_4.pdf
+  page: 17-18
+  author:
+  - given: William
+    family: Gwee
+    alt: Gwee Thian Thock
+  in:
+    title: The Peranakan
+    volume: 2010
+    issue: 4
+    issued: 2010
+GamblingInSingapore:
+  type: webpage
+  title: 4D, Mahjong and <span lang="ms">Chap Ji Kee</span>.. History of Gambling in Singapore
+  container-title: Remember Singapore
+  URL: https://remembersingapore.org/2011/11/30/4d-mahjong-and-chap-ji-kee/
+  archive-URL: https://web.archive.org/web/20230609111257/https://remembersingapore.org/2011/11/30/4d-mahjong-and-chap-ji-kee/
+  issued:
+    year: 2011
+    month: 11
+    day: 30
+HareChapJiKi:
+  type: article-journal
+  title: The Game of Chap-Ji-Ki
+  author:
+  - given: G. T.
+    family: Hare
+  URL: https://www.jstor.org/stable/41561675
+  page: 63-71
+  in:
+    title: Journal of the Straits Branch of the Royal Asiatic Society
+    volume: 31
+    issued:
+      year: 1898
+      month: 7
+    
