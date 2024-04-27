@@ -26,6 +26,6 @@ The **[Mancala World](https://mancala.fandom.com/wiki/Mancala)** wiki is the mos
 
 ---
 
-Other indexes:
+Other indices of sites:
 
 - Mark “Justin” Waks maintains [an index of games rules](https://jducoeur.org/game-hist/game-rules.html)
