@@ -33,3 +33,5 @@ See info on Datok Bakol, spirit used to pick numbers: https://www.peranakan.org.
 @NyonyaMosaic
 
 Good article here: https://www.nlb.gov.sg/main/article-detail?cmsuuid=a2557ca6-1db5-4ad2-b72d-1d66084c8a7c
+
+Discussion of breaking the syndicates in @SetiaDanBakti

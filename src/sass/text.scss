@@ -114,6 +114,7 @@ cite[lang] {
     :lang(ur):not(:lang(ur-Latn)), // Urdu
     :lang(ota):not(:lang(ota-Latn)), // Old Turkish
     // *-Arab is not yet supported
+    :lang(wo-Arab), // Wolof
     :lang(ms-Arab), // Malay
     :lang(pa-Arab), // Punjabi
     :lang(wni-Arab) // Comorian

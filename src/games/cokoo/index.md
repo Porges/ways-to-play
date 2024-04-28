@@ -32,6 +32,6 @@ https://doi.org/10.25549/impa-m26099
 
 ## See also
 
-{%gameref yote%} is a very similar game from neighbouring Senegal, which lacks the “dropping” phase of Chokoo. {%gameref sija%} is also very similar but capture is by enclosure rather than jumping. {% gameref konane %} also has similar gameplay.
+{%gameref yoote%} is a very similar game from neighbouring Senegal, which lacks the “dropping” phase of Chokoo. {%gameref sija%} is also very similar but capture is by enclosure rather than jumping. {% gameref konane %} also has similar gameplay.
 
 General references: the game is also re-described in @Murray2 [§4.4.5, p. 83], but I think he misinterprets the description of the game.

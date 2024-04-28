@@ -13760,6 +13760,19 @@ VolofFrancais:
     lang: fr
     value: Vicariat Apostolique
   issued: 1922
+WolofFrancais:
+  type: book
+  URL: https://books.google.co.nz/books?id=sW5PI-o_9RIC
+  title:
+    value: Dictionnaire wolof-français et français-wolof
+    lang: fr
+  issued: 2003
+  author:
+  - given: Jean-Léopold
+    family: Diouf
+  publisher: Karthala
+  publisher-place: Paris
+  ISBN: 9782845864542
 AboriginalCattleStation:
   type: chapter
   title: "An Aboriginal cattle station: economy of a community in the North of Western Australia"
@@ -19135,3 +19148,35 @@ Rabelais1711_1:
     value: Henri Bordesius
     lang: fr 
   publisher-place: Amsterdam
+SetiaDanBakti:
+  type: book
+  title: 'Setia Dan Bakti: 50 Stories of Loyalty and Service'
+  editor:
+  - given: Susan
+    family: Sim
+  - given: Francis
+    family: Chan
+  issued:
+    year: 2015
+    month: 6
+  publisher: Singapore Police Force
+  publisher-place: Singapore
+  URL: https://archive.org/details/police_life_41.06
+PoemFirstMaggal:
+  type: webpage
+  title: Poem of the First Màggal
+  issued: 2022
+  URL: http://sites.bu.edu/nehajami/the-four-languages/wolof/wolof-manuscripts/wolofalu-maggal-gu-njekk-gi/
+  archive-URL: https://web.archive.org/web/20240428100649/https://sites.bu.edu/nehajami/the-four-languages/wolof/wolof-manuscripts/wolofalu-maggal-gu-njekk-gi/
+  author:
+  - given: Fallou
+    family: Ngom
+  - given: Elhadji Djibril
+    family: Diagne
+  - given: Cheikh Mouhamadou S.
+    family: Diop
+  - given: Daivi
+    family: Rodima-Taylor
+  - given: Martin
+    family: Aucoin
+  container-title: NEH Ajami Research Project 

@@ -18,6 +18,10 @@ David Pritchard’s **[Classified Encyclopedia of Chess Variants](https://www.js
 
 **[Cyningstan](https://www.cyningstan.com/)** by Damian Gareth Walker contains excellent booklets with rules for many traditional games.
 
+**[Early Collaborative Games of Fantasy and Imagination](https://wobbupalooza.neocities.org/)** by wobbupalooza.
+
+**[Historical Games](https://historicalgames.neocities.org/)** by Tracy Christenson.
+
 The **[Mancala World](https://mancala.fandom.com/wiki/Mancala)** wiki is the most extensive collection of {%a mancala-games %} on the internet.
 
 **[One Bad World](https://onebadworld.fr/)** is an excellent source of information about Chinese and Chinese-derived playing cards, and is probably the most informative site on the whole internet about the game of Chee-Fa.
