@@ -3636,7 +3636,7 @@ Trademarks1924_7:
     lang: ja
   publisher-place: Japan
   issued:
-    year: 1924
+    year: 1915
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941553
 Trademarks1924_8:
   type: book
@@ -3648,7 +3648,7 @@ Trademarks1924_8:
     lang: ja
   publisher-place: Japan
   issued:
-    year: 1924
+    year: 1916
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941555
 Trademarks1924_9:
   type: book
@@ -3660,7 +3660,7 @@ Trademarks1924_9:
     lang: ja
   publisher-place: Japan
   issued:
-    year: 1924
+    year: 1917
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941557
 Trademarks1924_11:
   type: book
@@ -3672,7 +3672,7 @@ Trademarks1924_11:
     lang: ja
   publisher-place: Japan
   issued:
-    year: 1924
+    year: 1919
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941560
 Trademarks1924_5:
   type: book
@@ -3684,7 +3684,7 @@ Trademarks1924_5:
     lang: ja
   publisher-place: Japan
   issued:
-    year: 1924
+    year: 1913
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941550
 Trademarks1924_14:
   type: book
@@ -3696,7 +3696,7 @@ Trademarks1924_14:
     lang: ja
   publisher-place: Japan
   issued:
-    year: 1924
+    year: 1922
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941566
 Trademarks1924_15:
   type: book
@@ -3708,7 +3708,7 @@ Trademarks1924_15:
     lang: ja
   publisher-place: Japan
   issued:
-    year: 1924
+    year: 1922
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941568
 Trademarks1924_17:
   type: book
@@ -3720,7 +3720,7 @@ Trademarks1924_17:
     lang: ja
   publisher-place: Japan
   issued:
-    year: 1924
+    year: 1923
   URL: https://dl.ndl.go.jp/info:ndljp/pid/941572
 Trademarks1924_18:
   type: book
@@ -14732,6 +14732,7 @@ KurkeBoardGames:
   author:
   - given: Leslie
     family: Kurke
+    url: https://en.wikipedia.org/wiki/Leslie_Kurke
   URL: https://www.jstor.org/stable/270405
   page: 247–67
   in:

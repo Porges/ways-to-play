@@ -9,7 +9,7 @@ import { renderReference } from '../references';
 import { Data } from '../types';
 
 export const data = {
-    title: "Bibliography",
+    title: "Bibliography of Traditional Games",
     layout: "layout",
     eleventyImport: {
         collections: ["article", "game"]
