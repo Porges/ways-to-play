@@ -3,9 +3,9 @@ title: The Games of <cite>Gargantua</cite> (1534—)
 order: 1534
 ---
 
-One of the most famous lists of games is that in [<span class="noun" lang="fr">François Rabelais</span>](https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais)’ [<cite lang="fr">La vie de Gargantua et de Pantagruel</cite>](https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel) (<cite>The Life of Gargantua and of Pantagruel</cite>, published <abbr title="circa">c.</abbr> 1532–64). In the original French the list contains 216 games, but in each translation the games that are named were changed and often expanded upon. Many of the games are either invented by Rabelais, or are games for which we no longer know the rules.
-
-<!-- excerpt -->
+<p class="lead">
+One of the most famous historical lists of games is that found in Chaper 22 of <a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais"><span class="noun" lang="fr">François Rabelais</span></a>’ <a href="https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel"><cite lang="fr">Gargantua</cite></a> (full title <cite lang="fr">La vie très horrifique du grand Gargantua, père de Pantagruel</cite>: <cite>The Very Horrific Life of Great Gargantua, Father of Pantagruel</cite>), first published in 1534. In the original French the list contained 216 games, but in each translation the games that are named were changed and often expanded upon. Many of the games are either invented by Rabelais, or are games for which we no longer know the rules.
+</p>
 
 An in-depth examination of the games in the list lies [below the
 table](#the-list-in-depth). ⚠️ This article, more than most, is a
@@ -3351,7 +3351,7 @@ Commentators who have written about the games in the list include:
 - Le Duchat, first of the critical editions in 1711[@Rabelais1711_1]
 - the 1741 edition published by Jean Frédéric Bernard includes additional notes from Le Duchat[@Rabelais1741_1]
 - Michel Psichari, 1908[@JeuxDeGargantua]
-- Lazar, 1922[@LaLangueDeRabelais 278–91]
+- Lazare Sainéan, 1922[@LaLangueDeRabelais 278–91]
 
 ### Card games
 

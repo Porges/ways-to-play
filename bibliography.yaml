@@ -5790,8 +5790,10 @@ Urquhart:
   author:
     - given: Thomas
       family: Urquhart
+      url: https://en.wikipedia.org/wiki/Thomas_Urquhart
     - given: Peter
       family: Le Motteux
+      url: https://en.wikipedia.org/wiki/Peter_Anthony_Motteux
   publisher: Chatto & Windus
   publisher-place: London
 Smith1:
@@ -5871,6 +5873,7 @@ FrameRabelais:
   author:
     - family: Frame
       given: Donald
+      url: https://en.wikipedia.org/wiki/Donald_M._Frame
   URL: https://archive.org/details/completeworksoff00rabe
 Pakapio:
   type: article-newspaper
@@ -9916,6 +9919,7 @@ LaLangueDeRabelais:
   - given: Lazare
     family: Sainéan
     lang: fr
+    url: https://en.wikipedia.org/wiki/Laz%C4%83r_%C8%98%C4%83ineanu
     alt: 
       value: Lazăr Șăineanu
       lang: ro
@@ -19024,6 +19028,16 @@ HareChapJiKi:
     issued:
       year: 1898
       month: 7
+HareWaiSeng:
+  type: book
+  author:
+  - given: G. T.
+    family: Hare
+  title: '闈姓: The Wai Seng Lottery'
+  publisher-place: Singapore
+  issued: 1895
+  URL: https://archive.org/details/waisenglottery00haregoog
+  publisher: The Straits Branch of the Royal Asiatic Society
 ThePhilippineIslands:
   type: book
   URL: https://archive.org/details/philippineislan00fore
@@ -19181,3 +19195,172 @@ PoemFirstMaggal:
   - given: Martin
     family: Aucoin
   container-title: NEH Ajami Research Project 
+ColonySingapore1959:
+  type: book
+  title: Colony of Singapore Annual Report 1959
+  issued: 1961
+  publisher: Government Printing Office
+  publisher-place: Singapore
+  URL: https://archive.org/details/singapore-annual-report-1959
+ColonySingapore1958:
+  type: book
+  title: Colony of Singapore Annual Report 1958
+  issued: 1959
+  publisher: Government Printing Office
+  publisher-place: Singapore
+  URL: https://archive.org/details/singapore-annual-report-1958
+ColonySingapore1957:
+  type: book
+  title: Colony of Singapore Annual Report 1957
+  issued: 1959
+  publisher: Government Printing Office
+  publisher-place: Singapore
+  URL: https://archive.org/details/singapore-annual-report-1957
+ColonySingapore1956:
+  type: book
+  title: Colony of Singapore Annual Report 1956
+  issued: 1958
+  publisher: Government Printing Office
+  publisher-place: Singapore
+  URL: https://archive.org/details/singapore-annual-report-1956
+ColonySingapore1950:
+  type: book
+  title: Colony of Singapore Annual Report 1950
+  issued: 1951
+  publisher: Government Printing Office
+  publisher-place: Singapore
+  URL: https://archive.org/details/singapore-annual-report-1950
+  author:
+  - given: W. L.
+    family: Blythe
+ColonySingapore1951:
+  type: book
+  title: Colony of Singapore Annual Report 1951
+  issued: 1952
+  publisher: Government Printing Office
+  publisher-place: Singapore
+  URL: https://archive.org/details/singapore-annual-report-1951
+  author:
+  - given: W. L.
+    family: Blythe
+ColonySingapore1952:
+  type: book
+  title: Colony of Singapore Annual Report 1952
+  issued: 1953
+  publisher: Government Printing Office
+  publisher-place: Singapore
+  URL: https://archive.org/details/singapore-annual-report-1952
+  author:
+  - given: W. L.
+    family: Blythe
+LateQingGuangdong:
+  type: book
+  title: Gambling Operations in Late Qing Guangdong
+  author:
+  - given: Hon-wai
+    family: Ho
+    alt:
+      value: 何漢威
+      lang: zh-Hant
+  issued: 1998
+  ISBN: '1864990449'
+  publisher: Asian Business History Centre – History Department, The University of Queensland
+  URL: https://core.ac.uk/download/pdf/159137972.pdf
+  archive-URL: https://web.archive.org/web/20240428210637/https://core.ac.uk/download/pdf/159137972.pdf
+  series:
+    title: The Asian Business History Occasional Paper Series
+    number: 2
+HHW:
+  type: article-journal
+  title:
+    value: 清末廣東的賭博與賭稅
+    lang: zh-Hant
+    alt: Gamble and Gambling Taxes in Late Ch’ing Kwangtung
+  author:
+  - given: 漢威
+    family: 何
+    alt:
+      value: Ho Hon-wai
+      lang: zh-Latn
+  URL: http://www2.ihp.sinica.edu.tw/file/3222hbskHaH.pdf
+  archive-URL: https://web.archive.org/web/20230205050459/https://www2.ihp.sinica.edu.tw/file/3222hbskHaH.pdf
+  in:
+    title: Bulletin of the Institute of History and Philology, Academia Sinica
+    issued:
+      year: 1995
+      month: 6
+    volume: 66
+    issue: 2
+20thBritishMalaya:
+  type: book
+  title: Twentieth Century Impressions of British Malaya
+  editor:
+  - given: Arnold
+    family: Wright
+  - given: H. A.
+    family: Cartwright
+  publisher: Lloyd’s Greater Britan Publishing Company
+  issued: 1908
+  URL: https://archive.org/details/cu31924023134368
+AdvisingGambler:
+  type: article-newspaper
+  title: 'Chinese in Singapore: Advising Gambler'
+  URL: https://archive.org/details/NPWP19090524/page/437
+  page: 437
+  in:
+    title: The Hongkong Weekly Press and China Overland Trade Report
+    volume: 69
+    publisher-place: Hongkong
+    issued:
+      day: 24
+      month: 5
+      year: 1909
+    issue: 21
+GamblingMenaceSingapore:
+  type: article-newspaper
+  title: 'Gambling Menace: Some Lessons from Singapore'
+  page: 11
+  URL: https://archive.org/details/NPCM19290320/page/n10
+  in:
+    title: The China Mail
+    issued:
+      month: 3
+      day: 20
+      year: 1929
+    publisher-place: Hong Kong
+    issue: 27132
+SocialHistoryChinese:
+  type: book
+  title: A Social History of the Chinese in Singapore and Malaya 1800–1911
+  author:
+  - family: Yen
+    given: Ching-hwang
+    url: https://en.wikipedia.org/wiki/Yen_Ching-hwang
+    alt:
+      value: 顏清湟
+      lang: zh
+  ISBN: '0195826663'
+  URL: https://archive.org/details/socialhistoryofc0000yenc
+  publisher: Oxford University Press
+  issued: 1986
+StirFriedNotShaken:
+  type: book
+  title: Stir-Fried and not Shaken
+  author:
+  - given: Terry
+    family: Tan
+  issued: 2008
+  URL: https://archive.org/details/stirfriednotshak0000tant
+  publisher: Monsoon Books
+  publisher-place: Singapore
+  ISBN: 9789810807054
+JesselBibliography:
+  type: book
+  title: A Bibliography of Works in English on Playing Cards and Gaming
+  author:
+  - given: Frederic
+    family: Jessel
+  issued: 1905
+  publisher: Longmans, Green, and Co.
+  publisher-place: London
+  URL: https://archive.org/details/abibliographywo00jessgoog

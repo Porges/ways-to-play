@@ -148,6 +148,8 @@ A “Pacapio” sign in Macau.
 Back in Guangdong, merchants petitioned for the game to be made legal…[@BettingOnEmpire p. 161]
 -->
 
+Back in Guangdong, the game was made legal in 1900 under similar terms, with the Hongyuan company (<span lang="zh">宏遠公司</span>) winning the contract for the first four years for a total contribution of 3.6 million yuan.[@LateQingGuangdong 8]{%fn%}This source says “dollars” but yuan is intended, comparing with his original paper @HHW [527].{%endfn%} Other syndicates made competing offers, which eventually resulted in the transfer of the rights to a syndicate which offered better terms, only for that syndicate to collapse after it was unable to meet its obligations. The rights reverted to the Hongyuan company, but in 1904 the company did not attempt to renew the franchise due to the difficulty of meeting payments, and the incoming governor [Cen Chunxuan](https://en.wikipedia.org/wiki/Cen_Chunxuan) reinstated a ban on the game from May 1904.[@LateQingGuangdong 8]
+
 ## The Game
 
 The primary artifact of the game is the *ticket*, a slip of paper upon which is printed the name of the bank (see below) and 80 unique Chinese characters. These characters are the first 80 taken from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>), and are always printed in a top-down, right-to-left order, broken into four-character blocks:

@@ -35,3 +35,16 @@ See info on Datok Bakol, spirit used to pick numbers: https://www.peranakan.org.
 Good article here: https://www.nlb.gov.sg/main/article-detail?cmsuuid=a2557ca6-1db5-4ad2-b72d-1d66084c8a7c
 
 Discussion of breaking the syndicates in @SetiaDanBakti
+
+
+Good info about the game in @ColonySingapore1957 [194], where there was debate on its legality. Information for previous years in @ColonySingapore1956 [176] as well as @ColonySingapore1950 [122], @ColonySingapore1951 [108], @ColonySingapore1952 [204]. Later years use different spelling: @ColonySingapore1958 [210], @ColonySingapore1959 [106].
+
+@20thBritishMalaya [161] has info on the income in 1907.
+
+Wong Tai Sin chapels: @AdvisingGambler
+
+Info on Johore shutting down etc: @GamblingMenaceSingapore
+
+@SocialHistoryChinese [242]
+
+@StirFriedNotShaken [207]
