@@ -19010,4 +19010,128 @@ HareChapJiKi:
     issued:
       year: 1898
       month: 7
-    
+ThePhilippineIslands:
+  type: book
+  URL: https://archive.org/details/philippineislan00fore
+  title: The Philippine Islands
+  author:
+  - given: John
+    family: Foreman
+  edition: 2
+  issued: 1899
+  publisher: Charles Scribner’s Sons
+  publisher-place: New York
+CuestionesFilipinas:
+  type: book
+  title:
+    lang: es
+    value: Cuestiones Filipinas
+  volume: 1
+  volume-title:
+    lang: es
+    value: Los Chinos
+  URL: https://bdh-rd.bne.es/viewer.vm?id=0000078105
+  author:
+  - given: Rafael
+    family: Comenge
+  publisher-place: Manila
+  issued: 1894
+  publisher:
+    value: Chofré y Comp.
+    lang: es
+JuegosDeAzar:
+  type: article-journal
+  URL: https://doi.org/10.22201/iih.24486922e.1991.011.3341
+  title:
+    value: 'Los Juegos de Azar: ¿Una pasión novohispana?'
+    lang: es
+  author:
+  - given: Teresa
+    family: Lozano Armendares
+    lang: es
+  page: 155-181
+  in: 
+    issued:
+      year: 1991
+      month: 10
+      day: 5
+    title:
+      value: Estudios de Historia Novohispana
+      lang: es
+    volume: 11
+ChicagoBans26:
+  type: article-newspaper
+  title: Chicago Bans Dice Game “26”
+  URL: https://archive.org/details/NYTimes_nov16_30_1913/page/n344
+  page: 9
+  in:
+    title: The New York Times
+    volume: 63
+    issue: 20394
+    issued:
+      year: 1913
+      month: 11
+      day: 25
+CatalogueBalinese2:
+  type: book
+  title: Catalogue of Balinese manuscripts in the library of the University of Leiden and other collections in the Netherlands
+  URL: http://hdl.handle.net/1887.1/item:112189
+  author:
+  - given: H. I. R.
+    family: Hinzler
+  issued: 1986
+  publisher: Leiden University Press
+  publisher-place: Leiden
+  volume: 2
+  volume-title: Descriptions of the Balinese Drawings from the Van der Tuuk Collection
+  series:
+    title:
+      value: Codices Manuscripti
+      lang: la
+    volume: 23
+  ISBN: '9004072349'
+VillesExtremeOrient:
+  type: article-magazine
+  title:
+    lang: fr
+    value: Villes d’Extrême-Orient
+    alt: Cities of the Far East
+  author:
+  - given: André
+    family: Bellessort
+    lang: fr
+    url: https://en.wikipedia.org/wiki/Andr%C3%A9_Bellessort
+  page: 389-419
+  URL: https://archive.org/details/revuedesdeuxmon44chaugoog/page/389
+  in:
+    title:
+      lang: fr
+      value: Revue des deux mondes
+    volume: 154
+    issued: 1899
+Rabelais1741_1:
+  type: book
+  title: 
+    value: 'Oeuvres de maitre François Rabelais: avec des remarques historiques et critiques de Mr. Le Duchat'
+    lang: fr
+  volume: 1
+  issued: 1741
+  publisher-place: Amsterdam
+  author: [*rabelais]
+  publisher:
+    value: Jean Frédéric Bernard
+    lang: fr
+  URL: https://archive.org/details/oeuvresdemaitre01rabe
+Rabelais1711_1:
+  type: book
+  title:
+    value: 'Oeuvres de Maitre François Rabelais, publiées sous le titre de faits et dits du géant Gargantua et de son fils Pantagruel'
+    lang: fr
+  URL: https://archive.org/details/uvresdemaitrefr00rabegoog
+  volume: 1
+  issued: 1711
+  author: [*rabelais]
+  publisher:
+    value: Henri Bordesius
+    lang: fr 
+  publisher-place: Amsterdam

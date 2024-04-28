@@ -3,6 +3,11 @@ title: Fan-Tan
 originalTitle: <span lang="yue">番攤</span>
 draft: true
 countries: US,UK,NZ,AU,HK,CN,TH,MY,SG,PH,MO,KH,LA
+subgames:
+- title: Clěbontang
+  titleLang: ban-Latn
+  originalTitle: <span lang="ban" class="aka">ᬘᬼᬩᭀᬦ᭄ᬢᬂ</span>
+  countries: ID
 ---
 
 <p class="lead">
@@ -123,6 +128,13 @@ This is a faster version of the game which uses a teetotum instead of counting o
 
 The game might be run by a dedicated banker (chong), or have the banker rotate amongst players for a fixed period of time.
 
+#### <span lang="ban-Latn" class="noun">Clěbontang</span>
+
+The version played with a top was known in Bali as <span lang="ban" class="aka">ᬘᬼᬩᭀᬦ᭄ᬢᬂ</span> <span lang="ban-Latn" class="aka">clěbontang</span>.[@CatalogueBalinese2 127–8]
+
+## Info to compile
+
+
 ---
 
 Fan-tan was viewed as a fairer and safer game than mahjong or {% gameref pigeon-lottery %} and {% gameref huahui %}. A 1910 dragon-boat folk song gives the advice (as quoted in[@UnderstandingCanton p. 216]):
@@ -145,11 +157,9 @@ Also notes 7% fee.
 
 ---
 
-Good quote here, notes the use of the basket: https://archive.org/details/revuedesdeuxmon44chaugoog/page/410/mode/2up?q=fantan
+Good quote here, notes the use of the basket,[@VillesExtremeOrient 410] … but rather lurid!
 
-But rather lurid!
-
-Description of the game in Philippines, with baskets: https://bdh-rd.bne.es/viewer.vm?id=0000078105&page=176
+Description of the game in Philippines, with baskets:[@CuestionesFilipinas 170]
 
 image in Manchuria: https://doi.org/10.25549/impa-c123-79389
 

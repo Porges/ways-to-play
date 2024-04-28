@@ -3346,7 +3346,12 @@ https://babel.hathitrust.org/cgi/pt?id=uc1.e0000012021&view=1up&seq=95
 
 -->
 
-For more on the games, see @LaLangueDeRabelais [p. 278–91].
+Commentators who have written about the games in the list include:
+
+- Le Duchat, first of the critical editions in 1711[@Rabelais1711_1]
+- the 1741 edition published by Jean Frédéric Bernard includes additional notes from Le Duchat[@Rabelais1741_1]
+- Michel Psichari, 1908[@JeuxDeGargantua]
+- Lazar, 1922[@LaLangueDeRabelais 278–91]
 
 ### Card games
 

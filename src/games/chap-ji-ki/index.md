@@ -6,6 +6,8 @@ draft: true
 
 ... 
 
+Occasionally called <span lang="ms" class="aka">chapdiki</span>,[@ThePhilippineIslands 405] or in Spanish <span lang="es" class="aka">chabdiqui</span>.[@CuestionesFilipinas 170]
+
 
 <!-- excerpt -->
 
