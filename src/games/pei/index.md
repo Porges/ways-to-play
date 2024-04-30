@@ -10,7 +10,7 @@ subgames:
 ---
 
 <p class="lead">
-<span lang="jav-Latn" class="noun">Pèi</span> was a {% a fishing-games,fishing game %} for three players from Java, which used {% a ceki %}. The goal of the game is to capture specific scoring combinations.
+<span lang="jav-Latn" class="noun aka">Pèi</span> (<span lang="jav" class="aka">ꦥꦺꦲꦶ</span>) was a {% a fishing-games,fishing game %} for three players from Java, which used {% a ceki %}. The goal of the game is to capture specific scoring combinations.
 </p>
 
 The description below is based upon @JavaanseKaartspelen [p. 58–70].
@@ -23,7 +23,7 @@ The game as played in Surakarta and Yogyakarta was the same, but different termi
 
 The game is played by three players with two sets of <span lang="ms">ceki</span> cards (120 cards total). If there are four players, then three will take part in the game while the fourth player acts as the dealer and point-counter (<span lang="jav-Latn">makao</span> in Surakarta or <span lang="jav-Latn">matang atusi</span> in Yogyakarta).
 
-To decide seating order, each player is dealt two cards; the sum of their values determines (from highest to lowest) who will be <span lang="jav-Latn">raja</span> ‘king’, <span lang="jav-Latn">patih</span> ‘councillor’, and <span lang="jav-Latn">unyik</span> ‘last’.
+To decide seating order, each player is dealt two cards; the sum of their values determines (from highest to lowest) who will be <span lang="jav">ꦫꦗ</span> <span lang="jav-Latn">raja</span> ‘king’, <span lang="jav">ꦥꦠꦶꦃ</span> <span lang="jav-Latn">patih</span> ‘councillor’, and <span lang="jav">ꦲꦸꦚꦶꦏ꧀</span> <span lang="jav-Latn">unyik</span> ‘last’.
 
 The dealer (or last player, if there are only three) deals 7 cards face-down and 6 cards face-up to each player, then repeats this so that each player has 14 cards to form their hand and there are 36 cards face-up on the table, which form the central pool. The remaining 42 cards are placed face-down to form the stock.
 
@@ -47,7 +47,7 @@ The player with the highest score is <span lang="jav-Latn">ngeté</span> (‘pay
 
 There are five possible scoring combinations.
 
-#### Black Thirteen (<span lang="jav-Latn">bunci ireng</span>)
+#### Black Thirteen (<span lang="jav">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦶꦉꦁ​ </span> <span lang="jav-Latn">bunci ireng</span>)
 
 {% image
     noborder=true
@@ -63,7 +63,7 @@ This combination consists of the first three cards of the coin suit, in order.  
 
 The maximum score possible would be all 9 cards for 113 points.
 
-#### Red Thirteen (<span lang="jav-Latn">bunci abang</span>)
+#### Red Thirteen (<span lang="jav">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦧꦁ​ </span> <span lang="jav-Latn">bunci abang</span>)
 
 {% image
     noborder=true
@@ -79,7 +79,7 @@ The red-stamped cards.
 This combination is formed from one of each of the three red-stamped cards. It is worth 13 points per card, so at least 39 points. Any additional cards of the same type add 13 points each.
 
 
-#### <span lang="jav-Latn">Pang Kéyang</span> (<span lang="jav-Latn">pang kéyang</span>)
+#### <span lang="jav-Latn">Pang Kéyang</span> (<span lang="jav">ꦥꦁ​​ꦏꦺꦪꦁ​ </span> <span lang="jav-Latn">pang kéyang</span>)
 
 {%aside%}
 In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Hokkien: {%pronounce lang="nan-Latn" word="pōng" pronouncer="chihchao" file="pronunciation_nan_碰.mp3" %}, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See the {%a glossary#pong %} page for more.
@@ -100,7 +100,7 @@ The cards for <span lang="jav-Latn">Pang Kéyang</span>.
 
 This combination is formed from one of each of White Flower, 8 of strings, and 9 of myriads. It scores 12 points per card (base 36 points), and 12 for each additional card.
 
-#### Coin <span lang="jav-Latn">Pang</span> (<span lang="jav-Latn">pang picis</span>) 
+#### Coin <span lang="jav-Latn">Pang</span> (<span lang="jav">ꦥꦁ​​ꦥꦶꦕꦶꦱ꧀ </span> <span lang="jav-Latn">pang picis</span>) 
 
 {% image
     noborder=true
@@ -115,7 +115,7 @@ The cards for <span lang="jav-Latn">Pang Picis</span>.
 
 This combination is formed from one of each of the 8 of coins, 2 of strings, and 2 of myriads. It scores 11 points per card (33 points), and 11 for each additional card.
 
-#### Tiger (<span lang="jav-Latn">macan</span>)
+#### Tiger (<span lang="jav">ꦩꦕꦤ꧀</span> <span lang="jav-Latn">macan</span>)
 
 {% image
     noborder=true
@@ -251,8 +251,8 @@ Given this information, we can arrange the deck as follows, and we can easily se
 
 The scoring combinations of <span lang="jav-Latn">Pei</span> are then explained in this way, with their matching {% gameref kanhu %} combinations (I do not have names for all of them):
 
-* <span lang="zh">駕</span> ‘carriage’: <span lang="jav-Latn">bunci abang</span>, the highest (red-stamped) cards in each suit
+* <span lang="zh">駕</span> ‘carriage’, equivalent to <span lang="jav-Latn">bunci abang</span>, the highest (red-stamped) cards in each suit
 * <span lang="jav-Latn">pang kéyang</span> is made up of the second highest cards in each suit
-* <span lang="zh">窮</span> ‘poverty’: <span lang="jav-Latn">pang picis</span>, the second-lowest cards in each suit
-* <span lang="zh">虎</span> ‘tiger’: <span lang="jav-Latn">macan</span>, the lowest cards in each suit
+* <span lang="zh">窮</span> ‘poverty’, equivalent to <span lang="jav-Latn">pang picis</span>, the second-lowest cards in each suit
+* <span lang="zh">虎</span> ‘tiger’, equivalent to <span lang="jav-Latn">macan</span>, the lowest cards in each suit
 * <span lang="jav-Latn">bunci ireng</span> is made up of the highest cards in the coins suit (1, 2, 3), which is also an ‘eye’

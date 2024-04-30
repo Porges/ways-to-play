@@ -48,3 +48,5 @@ Info on Johore shutting down etc: @GamblingMenaceSingapore
 @SocialHistoryChinese [242]
 
 @StirFriedNotShaken [207]
+
+capjiki in Palembang language: https://archive.org/details/kamus-sederhana-bahasa-palembang/page/45/mode/2up?q=judi

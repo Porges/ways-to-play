@@ -4,25 +4,26 @@ originalTitle: <span lang="yue">番攤</span>
 draft: true
 countries: US,UK,NZ,AU,HK,CN,TH,MY,SG,PH,MO,KH,LA
 subgames:
-- title: Clěbontang
+- title: Clebontang
   titleLang: ban-Latn
   originalTitle: <span lang="ban" class="aka">ᬘᬼᬩᭀᬦ᭄ᬢᬂ</span>
   countries: ID
 ---
 
 <p class="lead">
-The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> {%pronounce lang="yue-Latn" class="aka" word="faan¹ taan¹" pronouncer="potatokash" file="pronunciation_yue_番攤.mp3" %}; in Hokkien it is simply <span lang="nan" class="aka">攤</span> {%pronounce lang="nan-Latn" word="thoaⁿ" class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207" %},[@GamblingGamesOfMalaya p. 118] to divide into equal parts.[@Douglas1899 p. 563b]
+<span class="aka">Fan-Tan</span> is a Cantonese gambling game that became very popular amongst the Chinese diaspora in the 19th century. It is now almost extinct, but was once played in many countries in Southeast Asia and the Pacific.
 </p>
 
-In Thai it has been called <span lang="th" class="aka">เล่นถั่ว</span> <span lang="th-Latn" class="aka">len thua</span> ‘beans game’,{%fn%}Given as <span lang="th-Latn" class="aka">Len Thoa</span> in older works.[@OnSiameseLiterature p. 383]{%endfn%} <span lang="th" class="aka">กำถั่ว</span>  <span lang="th-Latn" class="aka">kam thua</span> ‘beans handful’, <span lang="th" class="aka">โปกำ</span> <span class="aka" lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span class="aka" lang="th">ถั่ว</span> {%pronounce lang="th-Latn" class="aka" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’; a variant played with only odd/even outcomes is called Thamtat (?).[@OnSiameseLiterature p. 384] The Khmer (<span lang="km" class="aka">ធួ</span> or <span lang="km" class="aka">ថួ</span>, <span lang="km-Latn" class="aka">thuə</span>)[@SEAlangKhmer] and Lao (<span lang="lo" class="aka">ຖົ່ວ</span> <span lang="lo-Latn">thūa</span> ‘beans’) names are clearly related to the Thai ones.
+The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> {%pronounce lang="yue-Latn" class="aka" word="faan¹ taan¹" pronouncer="potatokash" file="pronunciation_yue_番攤.mp3" %} (‘repeatedly dividing’); in Hokkien it is known as simply <span lang="nan" class="aka">攤</span> {%pronounce lang="nan-Latn" word="thoaⁿ" class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207" %},[@GamblingGamesOfMalaya 118] to divide into equal parts.[@Douglas1899 p. 563b]
+
 
 In the Philippines, it has been known as <span lang="fil" class="aka">capona</span>.[@CulinPhilippine p. 650]
 
 {% image src="../../maps/Fantan.svg" alt="" %}
-Countries where Fan-Tan has been played, after @ParadoxicalSoftPower [p. 195], but extended with extra information.
+Countries where Fan-Tan has been played, after @ParadoxicalSoftPower [p. 195], but extended with additional countries located by the author.
 {%imageEnd%}
 
-## Game
+## The Game
 
 {% image src="in_our_chinese_quarter.png" alt="" 
   license="cc0" orgName="State Library of Victoria" originalUrl="http://handle.slv.vic.gov.au/10381/296711" noborder=true size="wide" 
@@ -31,6 +32,11 @@ Countries where Fan-Tan has been played, after @ParadoxicalSoftPower [p. 195], b
 {% imageEnd %}
 
 The play of the game is straightforward. The game master or croupier —  called <span lang="zh-Hant">揸攤人</span>/<span lang="zh-Hans">揸摊人</span> (Mandarin: <span lang="cmn-Latn-pinyin">zhā tān rén</span>) or <span lang="zh-Hant">攤官</span>/<span lang="zh-Hans">摊官</span> (Mandarin: <span lang="cmn-Latn-pinyin">tān guān</span>, Cantonese: <span lang="yue-Latn-jyutping">taan¹ gun¹</span>) — sits or stands at one end of the table.  Before them, they have a large pile of small identical objects; traditionally Chinese cash coins (<span lang="zh">釐</span>) were used, but more recently white buttons or white stones similar to go stones have been used. The game master has a cup called the ‘spreading cup’ <span lang="zh-Hant">攤盅</span>/<span lang="zh-Hans">摊盅</span> which is used to take a random number of items from the large pile and cover them while bets are placed.
+
+{%image src="fantan.png" alt="" license="cc0" size="extra-wide" noborder=true %}
+A game of fan-tan as played in Guangzhou, from @ChinaAHistoryOfTheLaws [p. 386]. The game master (seated at the far end of the table) appears to have two assistants, one to his right and one seated nearer the bettors.
+{%imageEnd%}
+
 
 Spreading cup used to spread out coins:  (http://www.ims.sdu.edu.cn/__local/F/F1/39/92CAD2D39E53B9090BDDAC265CC_F0836209_6D7B5.pdf)
 
@@ -62,7 +68,7 @@ There are several different kinds of bets that can be made. I present the someha
   * <span lang="zh">大眼</span> (although GGoM has 眠) ‘big eyes’[@GamblingGamesOfMalaya p. 119]
   * <span lang="zh">紅</span> ‘row’[@ChineseInAmerica p. 3]
 
-In modern games the Hong bet is usually removed, and two additional bets are available:
+In modern casino games the Hong bet is usually removed, and two additional bets are available:
 
 * **Nga Tan**, a bet on two outcomes, paying 1&ratio;2, and one other to push
   * <span lang="zh">丫攤</span> ‘booth’
@@ -79,9 +85,9 @@ Other non-traditional bets permitted in online games include:
   * <span lang="zh">双</span> ‘even’
   * Vietnamese: <span lang="vi-Hani">双</span> <span lang="vi">chẵn</span> ‘even’
 * **Small**, a bet that the remainder will be 1 or 2, paying 1&ratio;1
-  * Vietnamese: <span lang="vi">xỉu</span>
+  * Vietnamese: (<span lang="vi-Hani">小</span>){%fn%}The Vietnamese names for small/big seem to be transliterations of some Chinese language, and are not native Vietnamese words. I haven’t actually spotted any using characters on the board, and instead a large letter S/B is used, but these are what would be there if characters were used instead.{%endfn%} <span lang="vi">xỉu</span>
 * **Big**, a bet that the remainder will be 3 or 4, paying 1&ratio;1
-  * Vietnamese: <span lang="vi">tài</span>
+  * Vietnamese: (<span lang="vi-Hani">太</span>) <span lang="vi">tài</span>
 
 
 ## History
@@ -128,12 +134,11 @@ This is a faster version of the game which uses a teetotum instead of counting o
 
 The game might be run by a dedicated banker (chong), or have the banker rotate amongst players for a fixed period of time.
 
-#### <span lang="ban-Latn" class="noun">Clěbontang</span>
+#### <span lang="ban-Latn" class="noun">Clebontang</span>
 
-The version played with a top was known in Bali as <span lang="ban" class="aka">ᬘᬼᬩᭀᬦ᭄ᬢᬂ</span> <span lang="ban-Latn" class="aka">clěbontang</span>.[@CatalogueBalinese2 127–8]
+The version played with a top was known in Bali as <span lang="ban" class="aka">ᬘᬼᬩᭀᬦ᭄ᬢᬂ</span> <span lang="ban-Latn" class="aka">clebontang</span>.[@CatalogueBalinese2 127–8]
 
 ## Info to compile
-
 
 ---
 
@@ -146,10 +151,6 @@ Fan-tan was viewed as a fairer and safer game than mahjong or {% gameref pigeon-
 When played with white beads (<span lang="zh">白珠</span>) instead of coins, it was called <span lang="zh" class="aka">牛傅</span> (‘cow teacher’?).[@ChineseGamesOfChance 1]
 
 ---
-
-{%image src="fantan.png" alt="" license="cc0" size="wide" noborder=true %}
-A game of fan-tan as played in Guangzhou, from @ChinaAHistoryOfTheLaws [p. 386].
-{%imageEnd%}
 
 > In the inner apartment of these establishments the stakes are all in silver coin, whereas in the ante-chamber cash only — from fifty up to several hundreds — are played for. Three partners are also required to conduct the games in the inner room. As the stakes are very heavy, they are not placed on the table, lest the vagabonds who are in the habit of resorting to the first apartment in large numbers should rush in and sweep them away. It is customary, therefore, to use Chinese playing cards to distinguish the gamblers; also, corresponding cards from another pack to represent their stakes. The stakes are carefully noted down by the Ho-Koon, to avoid disputes. In spite of this, disputes are not uncommon, and I may add that the only stand-up fight which I ever witnessed during my long residence in China, occurred at the door of a gaming-house at Pit-kong, between the keeper of it and a disappointed speculator.
 
@@ -168,8 +169,61 @@ photo: https://doi.org/10.25549/impa-m19599
 
 ---
 
-A similar (children’s) game is known as <span lang="bug">ᨆᨀᨙᨌᨛ</span>
-makéce[@BoegineeschWoordenboek 24]{%fn%}old orthography: maketja{%endfn%} (Bugis), akece{%fn%}Aketje{%endfn%} (Makassarese), Javanese or Dayak{%fn%}The @DajakschDeutsches [260] says “<span lang="de" class="noun">KETJEK, das Ketjekspiel; s. die Beschreibung desselben unter <i>baketjek</i></span>”, but contains no such entry!{%endfn%} kecek{%fn%}Ketjek{%endfn%}.[@GamesAndDances 332–3]
+## Fan-Tan in the Malay Archipelago
+
+As pointed out by @ParadoxicalSoftPower [193], the game is distinctively Cantonese and most strongly associated with the migration of people from Guangdong throughout the 19th and 20th centuries. As such, it appears only rarely in places where the dominant Chinese influence was Teochew, Hokkien, or Hakka.[@ParadoxicalSoftPower 194] Thus, the game was not well-known in the Malay Archipelago, although references to it do exist. 
+
+<!--
+
+Wikipedia:
+
+Descendants of Hokkien Tanka are the dominant group in eastern Indonesia, Central and East Java and the western coast of Sumatra.
+
+Teochews, southern neighbors of the Hokkien, are found throughout the eastern coast of Sumatra, in the Riau Archipelago, and in western Borneo.
+
+Although they initially populated the mining centers of western Borneo and Bangka Island, Hakkas became attracted to the rapid growth of Batavia and West Java in the late 19th century.
+
+-->
+
+
+In Thai the game has been called <span lang="th" class="aka">เล่นถั่ว</span> <span lang="th-Latn" class="aka">len thua</span> ‘beans game’,{%fn%}Given as <span lang="th-Latn" class="aka">Len Thoa</span> in older works.[@OnSiameseLiterature 383]{%endfn%} <span lang="th" class="aka">กำถั่ว</span>  <span lang="th-Latn" class="aka">kam thua</span> ‘beans handful’, <span lang="th" class="aka">โปกำ</span> <span class="aka" lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span class="aka" lang="th">ถั่ว</span> {%pronounce lang="th-Latn" class="aka" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’. A variant played with only odd/even outcomes seems to have been called Thamtat (unknown transliteration).[@OnSiameseLiterature 384] The Khmer (<span lang="km" class="aka">ធួ</span> or <span lang="km" class="aka">ថួ</span>, <span lang="km-Latn" class="aka">thuə</span>)[@SEAlangKhmer] and Lao (<span lang="lo" class="aka">ຖົ່ວ</span> <span lang="lo-Latn">thūa</span> ‘beans’) names are clearly related to the Thai ones.
+
+Amongst the people of Sulawesi, a variation of Fan-Tan was known as a children’s game,{%fn%}I would assume that it was also played by adults, but I don’t have any evidence to cite for that.{%endfn%} called in Buginese <span lang="bug" class="aka">(ᨆ)ᨀᨙᨌᨛ</span> <span lang="bug-Latn" class="aka">(ma)kéce</span>[@BoegineeschWoordenboek 24]{%fn%}Old orthography: maketja.{%endfn%}, or in Makassarese <span lang="mak">(ᨕ)ᨀᨙᨌᨙ</span> <span lang="mak-Latn" class="aka">(a)kécé</span>[@MakassaarschWoordenboek 32]{%fn%}Old: aketje.{%endfn%} In this version, the game is for four players only; each player sits on one side, and the remainder of the counting-out determines the winning player.[GamesAndDances 332–3]
+
+, Javanese or Dayak{%fn%}The @DajakschDeutsches [260] says “<span lang="de" class="noun">KETJEK, das Ketjekspiel; s. die Beschreibung desselben unter <i>baketjek</i></span>”, but contains no such entry!{%endfn%} kecek{%fn%}Ketjek{%endfn%}.
+
+In Balinese the game was called <span class="aka" lang="ban">ᬓᭂᬍᬲᬦ᭄</span> <span class="aka" lang="ban-Latn">kelesan</span> or <span class="aka" lang="ban">ᬫᬓᭂᬍᬲ᭄</span> <span class="aka" lang="ban-Latn">makeles</span>; <!-- https://dictionary.basabali.org/w/index.php?title=Kelesan&uselang=en --> and probably in Javanese <span lang="jav">ꦏꦺꦕꦺꦏ꧀</span> <span class="aka" lang="jav-Latn">kècèk</span>.[@GamesAndDances 333][@ContemporaryIndonesian 152][@MakassaarschWoordenboek 32]
+
+<!--
+Balinese might also use "(ma)keles" 
+
+keles/kelesan/makeles @KamusBaliIndonesia 357
+
+tlaga = when "north" wins in kelesan https://dictionary.basabali.org/Tlaga
+pipis jai = the coins used https://dictionary.basabali.org/Pipis_jai
+  jai = finger-sized @KamusBaliIndonesia
+tari = win/lose in kelesan: https://kamusbahasaprovinsibali.kemdikbud.go.id/bali-indonesia/cari/tari
+@KamusBaliIndonesia 703
+
+
+Kobok = bowl @KamusBaliIndonesia 384, and the game
+-->
+
+<!--
+https://repositori.kemdikbud.go.id/2883/1/Kamus%20Bahasa%20Indonesia-Bali%20A-K%20%20%20%20%20%20-%20%20%20%20469h.pdf
+
+Indonesian kobak = Bali matembing, macontok, makobok
+-->
+
+<!--
+From Buginese dictionary:
+… soort van kinderspel, door vier jongens gespeeld. Men neemt een hoop pitten, en verdeelt die vier aan vier. Als het precies uitkomt, zoodat er geen overschiet, is de jongen, die de vierde zit, zooveel als bankier. Blijft er één over, zoo vervult No. 1 die rol. Degeslijks wanneer er twee of drie overblijven No. 2 of 3. De bankier neemt vervolgens weder een hoop pitten, en verdeelt die op nieuw vier aan vier. Hij wiens nommer dan overeenkomt met het resterend aantal pitten, krijgt van den bankier, wat hij opgezet heeft, de anderen betalen hun opzet aan den bankier. Indien er niets overschiet, krijgt de banker alles wat opgezet is.
+-->
+
+<!--
+From Makassarese dictionary:
+... soort van kinderspel, waarbij een zeker aantal pitten in vieren verdeeld wordt, en men vooraf raden moet, hoeveel er alsdan overschieten zullen. Het antwoord luidt "tarrusuna", d. i., dat er niets overschiet, — serena, d.i. dat er één overblijft, — ruwanna, dat er twee, of: tallunna, dat er drie resten. Boeg. idem. Jav. ____
+-->
 
 See: https://archive.org/details/dajackschdeutsc00hardgoog/page/260/mode/2up?q=%22baKetjek%22, https://archive.org/details/hindujavanesemus0000jaap/page/148/mode/2up?q=%22ketjek%22
 
@@ -182,4 +236,99 @@ https://archive.org/details/kawibalineeschn00tuukgoog/page/776/mode/2up?q=ketjek
 
 Kecek (ketjek) <span lang="ban">ᬓᬾᬘᬾᬓ᭄</span> <span lang="ban-Latn">kècèk</span> in https://archive.org/details/kawibalineeschn02tuukgoog/page/46/mode/2up?q=ketjek+
 
+This latter book has "contok" 'throwing coins into hollows' near "kělěs kobokan" Javanese: 'approach quietly .. finger-bowl'
+
+List of games in @UangKepeng
+
+> pinceran or toketan, kelesan or kobokan, matogtog, matembing, macontok, macontok pulang, malekenting, and materi use uang kepeng
+
+more info about coins: https://kepengindonesia.medium.com/revealing-the-existence-of-kepeng-currency-a-study-on-the-existence-and-value-of-kepeng-in-bali-87a841746a4e
+
+From: https://jurnal.harianregional.com/sastra/full-15558
+
+> Dari kedua jenis sarana yang digunakan, jenis-jenis perjudiannya dapat diuraikan sebagai berikut: matokék, kelesan, matogtog, makécé, macontok, dan magasal gandep yang menggunakan sarana uang kepeng. Kemudian mong-mongan dan makompiang yang menggunakan sarana dadu.
+
+So mapincer/pinceran = spin coin and cover it with hands. @KamusBaliIndonesia 531. tokekan/matokek = something like roulette @KamusBaliIndonesia 735
+
+From: http://sim.ihdn.ac.id/app-assets/repo/repo-dosen-031703102944-80.pdf
+
+> Beberapa permainan rakyat yang mempergunakan uang kepeng di antaranya permainan *pelinceran*, *matotog* dan *makeles*.
+
+From: https://e-journal.unmas.ac.id/index.php/baktisaraswati/article/download/615/583
+
+> Uang kepeng Lembang Yaitu uang kepeng yang memiliki ukuran lebih besar dibandingkan dengan uang kepeng biasa. Uang kepeng Lembang memiliki ukuran garis tengah tiga setengah sentimeter dengan warna kuning seperti uang kepeng Kerinyah. Pada umumnya uang kepeng Lembang digunakan sebagai alat judi yang disebut dengan makeles. (Sudarma, 2008:16).
+
+From: https://books.google.co.nz/books?redir_esc=y&id=FNoLAQAAMAAJ&focus=searchwithinvolume&q=makeles
+
+> plinceran, makeles dan matotog
+
+Balinese poem?  https://blogger-iwayanmardiana.blogspot.com/2012_12_05_archive.html
+
+by https://id.wikipedia.org/wiki/I_Made_Suarsa
+
+> Maceki…
+Matajen sawai makeles kantos kaki-kaki
+Judi yéki
+Ngardi pikayunan daki
+Manyama braya sai béki
+Benyah arabi laki
+Baya sidi tan siki
+Mriki mataki-taki
+Maca kidung
+Sekar alit sekar agung
+Pucung
+Widara gumulung
+Ngacep ang mang ung
+Sang hyang wisésa asung
+Manyama braya adung
+Sabayantaka salunglung
+Budidaya adiluhung
+Jagadhita sarwapranihita pulung.
+
+https://www.suarasakingbali.com/2016/01/i-made-suarsa.html
+
+> Maceki…
+Matajen sawai makeles kantos kaki-kaki
+Judi yéki
+Ngardi pikayunan daki
+Manyama braya sai béki
+Benyah arabi laki
+Baya sidi tan siki
+Mriki mataki-taki
+Maca kidung
+Sekar alit sekar agung
+Pucung
+Widara gumulung
+Ngacep ang mang ung
+Sang hyang wisésa asung
+Manyama braya adung
+Sabayantaka salunglung
+Budidaya adiluhung
+Jagadhita sarwapranihita pulung
+
+
+From: https://www.beritasatu.com/lifestyle/2786630/jadi-kuliner-istimewa-di-dunia-ini-sejarah-singkat-pempek
+
+> Sejarah pempek memiliki cerita menarik yang melibatkan perkembangan nama dan peran sejumlah tokoh dalam masyarakat Palembang. Awalnya, pempek dikenal dengan nama 'Kelesan', yang merujuk pada alat yang digunakan untuk menghaluskan daging ikan, bahan dasar utama pempek.
+
+> The history of pempek has an interesting story that involves the development of the name and the role of a number of figures in Palembang society. Originally, pempek was known as 'Kelesan', which refers to the tool used to smooth fish meat, the main ingredient of pempek.
+
+What's the tool???
+
+https://journalofethnicfoods.biomedcentral.com/articles/10.1186/s42779-023-00209-z
+
+> Initially, Pempek was referred to as Kelesan. Based on an interview with Nurjanah (July 10, 2022), it was mentioned that Kelesan means ingredients consisting of cleaned fish meat that has been "Pirik" (mashed or crushed). The fish meat is mixed with tapioca starch, salt, and water. Everything is "Kelesed" into one, formed into elongated rounds, and boiled. "Pirik" involves pressing with a tool called "Piri'an," which is made of which is made of round, slightly oval-shaped brass with a radius of around 8–10 cm. The bottom of the tool has holes, allowing the mashed meat to come out through these holes.
+
+
 <!-- Sundanese <span lang="jav-Latn">cek</span>,{%fn%}old: tjek{%endfn%} or <span lang="jav-Latn">kadek</span>.[@WoordenLijstPantoen 284] -->
+
+Sundanese Kobak: throwing coins into hole
+https://archive.org/details/soendaneesch-hollandsch-woordenboek/page/292/mode/2up?q=spel
+
+Totog: https://archive.org/details/soendaneesch-hollandsch-woordenboek/page/706/mode/2up?q=maen
+
+> maen totog (Kad.), een spel, waarbij men met een lans werpt naar een gegeven doelwit
+
+> maen totog (Kad. = Kadipatèn Mangkunagaran), a game, in which one throws a lance at a given target
+
+(ma)togtog @KamusBaliIndonesia 735

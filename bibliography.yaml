@@ -8463,6 +8463,7 @@ GamesAndDances:
   title: Results of the Author’s Expedition to Celebes 1917–20
   volume: 4
   volume-title: Games and Dances in Celebes
+  # better images in this scan http://sulang.org/sites/default/files/kaudern-1929-games-dances.pdf
   series:
     title: Ethnographical Studies in Celebes
   author:
@@ -14069,6 +14070,7 @@ WoordenLijstPantoen:
     given: C. M.
     url: https://en.wikipedia.org/wiki/Cornelis_Marinus_Pleyte
   notes: This is a wordlist derived from several <a href="https://en.wikipedia.org/wiki/Pantun_Sunda">Pantun</a>s.
+  URL: https://www.biodiversitylibrary.org/item/127959
   page: 261-286
   in:
     title:
@@ -19364,3 +19366,59 @@ JesselBibliography:
   publisher: Longmans, Green, and Co.
   publisher-place: London
   URL: https://archive.org/details/abibliographywo00jessgoog
+ContemporaryIndonesian:
+  type: book
+  title: Contemporary Indonesian–English Dictionary
+  author:
+  - given: A. Ed.
+    family: Schmidgall–Tellings
+  - given: Alan M.
+    family: Stevens
+  publisher: Ohio University Press
+  publisher-place: Athens, Ohio
+  issued: 1981
+  ISBN: '0821404245'
+  URL: https://archive.org/details/contemporaryindo00schm
+UangKepeng:
+  type: article-journal
+  title: '<span lang="ban-Latn">Uang Kepeng</span> in the Globalization Era: Industrialization at Kamasan Village, Klungkung, Bali'
+  author:
+  - given: Ketut
+    family: Supier
+  - given: I Wayan
+    family: Sadia
+  - given: I Wayan
+    family: Muderawan
+  URL: https://ojs.pnb.ac.id/index.php/JBK/article/download/1409/1077/
+  page: 65-119
+  in:
+    title:
+      value: Jurnal Bisnis dan Kewirausahaan
+      lang: id
+    issued:
+      month: 7
+      year: 2019
+    volume: 15
+    issue: 2
+KamusBaliIndonesia:
+  type: book
+  title:
+    value: Kamus Bali–Indonesia
+    lang: id
+  author:
+  - given: Ni Luh
+    family: Partami
+  - given: I Made
+    family: Sudiana
+  - given: I Nengah
+    family: Sukayana
+  - given: Ida Ayu Mirah
+    family: Purwiati
+  publisher:
+    value: Balai Bahasa Bali
+    lang: id
+  edition: 3
+  issued: 2016
+  # ISBN: 979-8855-50-X
+  # ISBN in printed book is incorrect
+  publisher-place: Denpasar, Bali
