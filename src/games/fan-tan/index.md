@@ -11,7 +11,7 @@ subgames:
 ---
 
 <p class="lead">
-<span class="aka">Fan-Tan</span> is a Cantonese gambling game that became very popular amongst the Chinese diaspora in the 19th century. It is now almost extinct, but was once played in many countries in Southeast Asia and the Pacific.
+<span class="aka">Fan-Tan</span> is a Cantonese gambling game that became very popular amongst the Chinese diaspora in the 19th century. It is now rare, but was once played in many countries in Southeast Asia and the Pacific.
 </p>
 
 The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> {%pronounce lang="yue-Latn" class="aka" word="faan¹ taan¹" pronouncer="potatokash" file="pronunciation_yue_番攤.mp3" %} (‘repeatedly dividing’); in Hokkien it is known as simply <span lang="nan" class="aka">攤</span> {%pronounce lang="nan-Latn" word="thoaⁿ" class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207" %},[@GamblingGamesOfMalaya 118] to divide into equal parts.[@Douglas1899 p. 563b]
@@ -48,7 +48,7 @@ Stakes: Tan Pi (<span lang="zh-Hant">攤皮</span>/<span lang="zh-Hans">摊皮</
 
 Each portion of four is called Pi (<span lang="zh">皮</span> Mandarin: <span lang="cmn-Latn-pinyin">pí</span>).[@OverseasChineseNZ p. 29]
 
-There are several different kinds of bets that can be made. I present the somehat-internationalized “casino name” first, and then other names. While Vietnamese is now written using the Latin alphabet, staking boards often use [<span class="noun" lang="vi">Chữ Nôm</span>](https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m) characters.[@LiveDealerFanTan]
+There are several different kinds of bets that can be made. I present the somehat-internationalized “casino name” first, and then other names. While Vietnamese is now written using the Latin alphabet, staking boards can use [<span class="noun" lang="vi">Chữ Nôm</span>](https://en.wikipedia.org/wiki/Ch%E1%BB%AF_N%C3%B4m) characters.[@LiveDealerFanTan]
 
 * **Fan**, a bet on a single outcome, paying 3&ratio;1
   * <span lang="zh">番</span>, Cantonese <span lang="yue-Latn-jyutping">faan¹</span>, or <span lang="zh">孤(番)</span> <span lang="yue-Latn-jyutping">gu¹ (faan¹)</span> ‘grasping (at turns)’[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
@@ -188,7 +188,7 @@ Although they initially populated the mining centers of western Borneo and Bangk
 
 In Thai the game has been called <span lang="th" class="aka">เล่นถั่ว</span> <span lang="th-Latn" class="aka">len thua</span> ‘beans game’,{%fn%}Given as <span lang="th-Latn" class="aka">Len Thoa</span> in older works.[@OnSiameseLiterature 383]{%endfn%} <span lang="th" class="aka">กำถั่ว</span>  <span lang="th-Latn" class="aka">kam thua</span> ‘beans handful’, <span lang="th" class="aka">โปกำ</span> <span class="aka" lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span class="aka" lang="th">ถั่ว</span> {%pronounce lang="th-Latn" class="aka" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’. A variant played with only odd/even outcomes seems to have been called Thamtat (unknown transliteration).[@OnSiameseLiterature 384] The Khmer (<span lang="km" class="aka">ធួ</span> or <span lang="km" class="aka">ថួ</span>, <span lang="km-Latn" class="aka">thuə</span>)[@SEAlangKhmer] and Lao (<span lang="lo" class="aka">ຖົ່ວ</span> <span lang="lo-Latn">thūa</span> ‘beans’) names are clearly related to the Thai ones.
 
-Amongst the people of Sulawesi, a variation of Fan-Tan was known as a children’s game,{%fn%}I would assume that it was also played by adults, but I don’t have any evidence to cite for that.{%endfn%} called in Buginese <span lang="bug" class="aka">(ᨆ)ᨀᨙᨌᨛ</span> <span lang="bug-Latn" class="aka">(ma)kéce</span>[@BoegineeschWoordenboek 24]{%fn%}Old orthography: maketja.{%endfn%}, or in Makassarese <span lang="mak">(ᨕ)ᨀᨙᨌᨙ</span> <span lang="mak-Latn" class="aka">(a)kécé</span>[@MakassaarschWoordenboek 32]{%fn%}Old: aketje.{%endfn%} In this version, the game is for four players only; each player sits on one side, and the remainder of the counting-out determines the winning player.[GamesAndDances 332–3]
+Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a children’s game,{%fn%}I would assume that it was also played by adults, but I don’t have any evidence to cite for that.{%endfn%} called in Buginese <span lang="bug" class="aka">(ᨆ)ᨀᨙᨌᨛ</span> <span lang="bug-Latn" class="aka">(ma)kéce</span>[@BoegineeschWoordenboek 24]{%fn%}Old orthography: maketja.{%endfn%}, or in Makassarese <span lang="mak">(ᨕ)ᨀᨙᨌᨙ</span> <span lang="mak-Latn" class="aka">(a)kécé</span>[@MakassaarschWoordenboek 32]{%fn%}Old: aketje.{%endfn%} In this version, the game is for four players only; each player sits on one side, and the remainder of the counting-out determines the winning player.[GamesAndDances 332–3]
 
 , Javanese or Dayak{%fn%}The @DajakschDeutsches [260] says “<span lang="de" class="noun">KETJEK, das Ketjekspiel; s. die Beschreibung desselben unter <i>baketjek</i></span>”, but contains no such entry!{%endfn%} kecek{%fn%}Ketjek{%endfn%}.
 
