@@ -91,6 +91,8 @@ https://www.persee.fr/doc/jafr_0399-0346_1988_num_58_1_2247
 
 Possibly the same as <span lang="so">kubbad</span>[@SomaliEnglishThesaurus p. 99]/<span lang="so">kurobodo</span>[@SomaliEnglishDictionary p. 87]/<span lang="so">koruböddo</span>/<span lang="so">korkaböd</span>[@SomaliGames p.  506].
 
+Dara also in [@JeuxChezTouaregs].
+
 ## See also
 
 {% gameref cokoo %} is a very similar game.

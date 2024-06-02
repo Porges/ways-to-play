@@ -15139,6 +15139,24 @@ JeuxTouaregs:
     volume: 58
     issue: 1
     issued: 1988
+JeuxChezTouaregs:
+  type: chapter
+  title:
+    value: Jeux chez les Touaregs
+    lang: fr
+  author:
+  - given: E.
+    family: Bernus
+  page: 3895-3903
+  in:
+    issued: 2003
+    original-date:
+      year: 1984
+    title:
+      lang: fr
+      value: Encyclopédie Berbère
+    volume: 25
+  URL: https://doi.org/10.4000/encyclopedieberbere.1514
 LakeDwellingsOfIreland:
   type: book
   title: 'The Lake Dwellings of Ireland: or, Ancient Lacustrine Habitations of Erin, Commonly Called Crannogs'
@@ -19422,3 +19440,81 @@ KamusBaliIndonesia:
   # ISBN: 979-8855-50-X
   # ISBN in printed book is incorrect
   publisher-place: Denpasar, Bali
+FactsAndSpeculations:
+  type: book
+  title: Facts and Speculations on the Origin and History of Playing Cards
+  author:
+  - given: William Andrew
+    family: Chatto
+    url: https://en.wikipedia.org/wiki/William_Andrew_Chatto
+  publisher: John Russell Smith
+  publisher-place: London
+  issued: 1848
+  URL: https://archive.org/details/factsspeculation00chat
+Allemagne1:
+  type: book
+  title:
+    lang: fr
+    value: Les Cartes à Jouer du XIV<sup>e</sup> au XX<sup>e</sup> siècle
+  author:
+  - &Allemagne
+    given: Henry-René d’Allemagne
+    lang: fr
+  volume: 1
+  issued: 1906
+  publisher:
+    value: Librairie Hachette
+    lang: fr
+  publisher-place: Paris
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k15234148
+Allemagne2:
+  type: book
+  title:
+    lang: fr
+    value: Les Cartes à Jouer du XIV<sup>e</sup> au XX<sup>e</sup> siècle
+  author: [*Allemagne]
+  volume: 2
+  issued: 1906
+  publisher:
+    value: Librairie Hachette
+    lang: fr
+  publisher-place: Paris
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k1523418x
+OrigineCartes:
+  type: book
+  title:
+    lang: fr
+    value: Origine des Cartes à Jouer
+  author:
+  - given: R.
+    family: Merlin
+  issued: 1869
+  publisher-place: Paris
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k1232440
+JeuxBamako:
+  type: article-journal
+  title:
+    lang: fr
+    value: Jeux d’écolières à Bamako
+  page: 732-743
+  author:
+  - given: Chantal
+    family: Lombard
+  in:
+    title:
+      lang: fr
+      value: Cahiers d’Études africaines
+    issued: 1973
+    volume: 52
+  URL: https://www.persee.fr/doc/cea_0008-0055_1973_num_13_52_2684
+ResearchesSinger:
+  type: book
+  title: Researches into the History of Playing Cards and Printing
+  author:
+  - given: Samuel Weller
+    family: Singer
+    url: https://en.wikipedia.org/wiki/Samuel_Weller_Singer
+  issued: 1816
+  publisher: Robert Triphook
+  publisher-place: London
+  URL: https://archive.org/details/researchesintoh00sing
