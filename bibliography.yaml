@@ -9965,7 +9965,8 @@ EncycloBasset:
   archive-URL: https://web.archive.org/web/20230517033917/https://quod.lib.umich.edu/d/did/did2222.0001.115?view=text;rgn=main
   title: Basset
   author:
-  - given: Jean le Rond
+  - &dAlembert
+    given: Jean le Rond
     family: d’Alembert
     url: https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert
   translator:
@@ -19518,3 +19519,121 @@ ResearchesSinger:
   publisher: Robert Triphook
   publisher-place: London
   URL: https://archive.org/details/researchesintoh00sing
+AlembertMathematiques3:
+  type: book
+  title: Dictionnaire des Jeux
+  editor:
+  - given: Jacques
+    family: Charles
+  publisher: Panckoucke
+  publisher-place: Paris
+  series:
+    title:
+      lang: fr
+      value: Encyclopédie Méthodique
+  URL: https://archive.org/details/bub_gb_6IQPAAAAQAAJ/page/n220
+  notes: The work does not list an author but in the appendix to the third volume of mathematics (to which this work was appended), Charles is listed as the editor. This Jacques Charles was not the balloonist but the geometer, see Gough (1979) and Hahn (1981) in this bibliography. For more about the publication of the <cite lang="fr">Encyclopédie Méthodique</cite>, see Watts (1958) in this bibliography.
+  issued: 1792
+Lacombe1:
+  type: book
+  title:
+    lang: fr
+    value: Dictionnaire encyclopédique des amusemens des sciences mathématiques et physiques
+  author:
+  - &Jacques_Lacombe
+    given: Jacques
+    family: Lacombe
+    url: https://en.wikipedia.org/wiki/Jacques_Lacombe_(writer)
+  publisher: Panckoucke
+  publisher-place: Paris
+  issued: 1792
+  URL: https://archive.org/details/b28763257
+  series:
+    title:
+      lang: fr
+      value: Encyclopédie Méthodique
+  notes: For more about the publication of the <cite lang="fr">Encyclopédie Méthodique</cite>, see Watts (1958) in this bibliography.
+Lacombe1_pics:
+  type: book
+  title:
+    lang: fr
+    value: Recueil des planches du dictionnaire encyclopedique des amusemens des sciences mathématiques et physiques
+  author: [*Jacques_Lacombe]
+  series:
+    title:
+      lang: fr
+      value: Encyclopédie Méthodique
+  issued: 1792
+  publisher: Panckoucke
+  publisher-place: Paris
+  notes: This conains the plates for the dictionary.
+  URL: https://archive.org/details/bub_gb_SFw6tgxmuooC
+Lacombe2:
+  type: book
+  title:
+    lang: fr
+    value: Dictionnaire des jeux mathématiques
+  author: [*Jacques_Lacombe]
+  series:
+    title:
+      lang: fr
+      value: Encyclopédie Méthodique
+  publisher: H. Agasse
+  publisher-place: Paris
+  issued: 1798
+  URL: https://archive.org/details/dictionnairedesj00laco_0
+Lacombe3:
+  type: book
+  title:
+    lang: fr
+    value: Dictionnaire des jeux familiers ou des amusemens de société
+  author: [*Jacques_Lacombe]
+  series:
+    title:
+      lang: fr
+      value: Encyclopédie Méthodique
+  publisher: H. Agasse
+  publisher-place: Paris
+  issued: 1796
+  URL: https://archive.org/details/dictionnairedesj00laco
+Watts1958:
+  type: article-journal
+  title: The <cite lang="fr">Encyclopédie Méthodique</cite>
+  URL: http://www.jstor.org/stable/460254
+  author:
+  - given: George B.
+    family: Watts
+  page: 348-366
+  in:
+    title: Publications of the Modern Language Association
+    volume: 73
+    issue: 4
+    issued:
+      month: 9
+      year: 1958
+CharlesTheObscure:
+  type: article-journal
+  title: Charles the Obscure
+  author:
+  - given: J. B.
+    family: Gough
+  page: 576-579
+  in:
+    title: Isis
+    volume: 70
+    issue: 4
+    issued: 1979
+  URL: https://www.jstor.org/stable/230726
+MoreCharlesTheObscure:
+  type: article-journal
+  title: More Light on Charles the Obscure
+  author:
+  - given: Roger
+    family: Hahn
+  URL: https://www.jstor.org/stable/231179
+  page: 83-86
+  in:
+    title: Isis
+    volume: 72
+    issue: 1
+    issued: 1981
