@@ -17960,7 +17960,7 @@ GreedForGain:
   URL: https://www.academia.edu/2135669/Organizing_the_Greed_for_Gain_Alfonso_X_of_Spain_s_Law_on_Gambling_Houses
   author:
   - *Ulrich_Schadler
-  title: 'Organizing the Greed for Gain: Alfonso X of Spain’s Lawon Gambling Houses'
+  title: 'Organizing the Greed for Gain: Alfonso X of Spain’s Law on Gambling Houses'
   page: 23-47
   in: 
     title: 'Religions in Play: Games, Chance and Virtual Worlds'
@@ -18464,6 +18464,14 @@ PopAntiqHazlitt1905_1:
   author: [*W_C_Hazlitt]
   volume: 1
   issued: 1905
+  URL: https://archive.org/details/brandspopularan00brangoog
+PopAntiqHazlitt1905_2:
+  type: book
+  title: 'Brand’s Popular Antiquities of Great Britain: Faiths and Folklore, a Dictionary of National Beliefs, Superstitions and Popular Customs, Past and Current, with their Classical and Foreign Analogues, Described and Illlustrated'
+  author: [*W_C_Hazlitt]
+  volume: 2
+  issued: 1905
+  URL: https://archive.org/details/brandspopularan01brangoog
 BenJonson1616:
   type: book
   title: The Workes of Benjamin Jonson
@@ -19472,7 +19480,8 @@ Allemagne1:
     value: Les Cartes à Jouer du XIV<sup>e</sup> au XX<sup>e</sup> siècle
   author:
   - &Allemagne
-    given: Henry-René d’Allemagne
+    given: Henry-René
+    family: d’Allemagne
     lang: fr
   volume: 1
   issued: 1906
@@ -19750,14 +19759,14 @@ CostanzaPolluce:
     lang: it
     value: 'Guilo Polluce, <cite>Onomasticon: excerpta de ludis</cite>'
   author:
-  - given: Salvatore
-    family: Costanza
+  - family: Salvatore
+    given: Costanza
   publisher:
     lang: it
     value: Edizioni dell’Orso
   publisher-place: Alessandria, Italy
   issued: 2019
-  URL: https://zenodo.org/records/4263416#.YObJMhMzYk5
+  URL: https://zenodo.org/records/4263416
   ISBN: 9788862749930
   series:
     title:
