@@ -85,4 +85,4 @@ Ref: [@OxfordBG p. 66] [@Falkener p. 71] [@Bell vol. 1, p. 26] [@Murray2 §2.1.1
 
 Font test: <span lang="egy-Latn">ꞽsb</span> or <span lang="egy-Latn">ꞽꜣsb</span>.
 
-See: @DebunkingSenet, @HistoricalDevelopmentSenet, @PassingSenet, @ThirtySquareDraught (list of boards)
+See: @DebunkingSenet, @HistoricalDevelopmentSenet, @PassingSenet, @ThirtySquareDraught (list of boards), @SenetBoardArizona

@@ -239,7 +239,7 @@ A commercial version of <span lang="haw">kōnane</span>. The board can be seen o
 
 ## Analysis
 
-Michael Ernst has performed game-theoretic analysis of various board positions.[@Ernst95]
+Michael Ernst has performed game-theoretic analysis of various board positions.[@Ernst95] Analysis of techniques for AI play has been done by @NeuralNetworkKonane and @AnalysisKonane.
 
 ## See also
 

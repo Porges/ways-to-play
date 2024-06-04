@@ -19650,3 +19650,122 @@ MoreCharlesTheObscure:
     volume: 72
     issue: 1
     issued: 1981
+BestPlayFanorona:
+  type: paper-conference
+  title: Best Play in Fanorona Leads to Draw
+  author:
+  - given: Maarten P. D.
+    family: Schadd
+  - given: Mark H. M.
+    family: Winands
+  - given: Jos W. H. M.
+    family: Uiterwijk
+  - given: H. Jaap
+    family: van den Jerik
+  - given: Maurice H. J.
+    family: Bergsma
+  page: 635-642
+  URL: https://doi.org/10.1142/9789812709677_0243
+  in:
+    title: Information Sciences 2007
+    publisher: World Scientific Publishing Company
+    issued: 2007
+NeuralNetworkKonane:
+  type: thesis
+  title: Teaching a Neural Network to Play Konane
+  author:
+  - given: Darby
+    family: Thompson
+  issued:
+    season: Spring
+    year: 2005
+  URL: https://cs.brynmawr.edu/Theses/Thompson.pdf
+  archive-URL: https://web.archive.org/web/20221013191730/https://cs.brynmawr.edu/Theses/Thompson.pdf
+  publisher: Bryn Mawr College
+  publisher-place: Bryn Mawr, PA, USA
+AnalysisKonane:
+  type: thesis
+  author:
+  - given: Kaitlin
+    family: Hendrick
+  title: Analysis of Artificial Intelligence Techniques for Konane
+  genre: Honors Thesis
+  publisher: Texas Christian University
+  publisher-place: Fort Worth, TX, USA
+  URL: https://repository.tcu.edu/handle/116099117/22458
+  archive-URL: https://web.archive.org/web/20230924031317/https://repository.tcu.edu/bitstream/handle/116099117/22458/Hendrick__Kaitlin-Honors_Project.pdf?sequence=1&isAllowed=y
+  issued:
+    year: 2018
+    month: 5
+    day: 7
+SenetBoardArizona:
+  type: article-journal
+  title: An Ancient Egyptian Senet Board in the Arizona State Museum
+  URL: https://doi.org/10.1515/zaes-2018-0005
+  author:
+  - given: Irene Bald
+    family: Romano
+  - given: William John 
+    family: Tait
+  - given: Christina
+    family: Bisulca
+  - given: Pearce Paul
+    family: Creasman
+  - given: Gregory
+    family: Hodgins
+  - given: Tomasz
+    family: Wazny
+  in:  
+    title:
+      lang: de
+      value: Zeitschrift für Ägyptische Sprache und Altertumskunde
+    volume: 145
+    issue: 1
+    publisher: De Gruyter
+    issued:
+      year: 2018
+      month: 5
+      day: 29
+JeuxDeVilains:
+  type: article-magazine
+  title:
+    lang: fr
+    value: Jeux de Mains, Jeux de Vilans? La <span lang="it">Morra</span>
+  author:
+  - given: Véronique
+    family: Dasen
+  page: 37
+  URL: https://zenodo.org/records/6938803
+  in: &Archeothema_31
+    title:
+      lang: fr
+      value: Archéothéma
+    issue: 31
+    issued:
+      month: 12
+      year: 2013
+CostanzaPolluce:
+  type: book
+  title:
+    lang: it
+    value: 'Guilo Polluce, <cite>Onomasticon: excerpta de ludis</cite>'
+  author:
+  - given: Salvatore
+    family: Costanza
+  publisher:
+    lang: it
+    value: Edizioni dell’Orso
+  publisher-place: Alessandria, Italy
+  issued: 2019
+  URL: https://zenodo.org/records/4263416#.YObJMhMzYk5
+  ISBN: 9788862749930
+  series:
+    title:
+      lang: it
+      value: 'Hellenica: Testi e strumenti di letteratura greca antica, medievale e umanistica'
+    volume: 81
+    editor:
+    - given: Enrico V.
+      family: Maltese
+    ISSN: 1825-3490
+  

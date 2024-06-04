@@ -26,11 +26,17 @@ lang="el-monoton">σχοινοβιλίνδα</span>.[@GreekEnglishLexicon p. 145
 in his proto-encyclopædia <cite>Onomasticon</cite> (<span
 lang="el-polyton">Ὀνομαστικὸν</span>, {%c%} 200 {%ce%}):
 
+Ή δέ σχοινοφιλίνδα, κάθηται κύκλος, είς δέ σχοινίον έχων λαθών παρά τω τίθησι·
+κάν μέν άγνοήση έκενος παρ' ώ κεϊται, περιθέων περί τον κύκλον τύπτεται, εί δέ
+μάθοι, περιελαύνει τόν θέντα τύπτων.
+
 > ἡ δὲ σχοινοφιλίνδα, κάθηται κύκλος, εἷς δὲ σχοινίον ἔχων ἐλθὼν παρ’ αὐτῷ
 > τίθησι· κἂν μὲν ἀγνοήσῃ ἐκεῖνος παρ’ ᾧ κεῖται, περιθέων περὶ τὸν κύκλον
 > τύπτεται, εἰ δὲ μάθοι περιελαύνει τὸν θέοντα τύπτων [Book 9,
 > 115]{%fn%}Unfortunately I do not yet have a good translation of this
 > passage.{%endfn%}
+
+See Italian translation: @CostanzaPolluce
 
 The game involved one player walking around the outside of the circle with a
 piece of rope, who attempted to drop or place it behind a player without them
