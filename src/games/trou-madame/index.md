@@ -33,7 +33,7 @@ https://archive.org/details/gri_33125008510097/page/n325/mode/2up?q=%22my+ladies
 Nine Holes [@Strutt p. 340].
 
 {% image src="DP862848.jpg" size="wide" alt="" originalUrl="https://www.metmuseum.org/art/collection/search/744905" license="cc0" orgName="The Met museum" identifier="2016.360.6" noborder=true %}
-A table-top game of Trou Madame, from @EnigmeJoyeuse [f. 8r].
+A table-top game of Trou Madame, from @EnigmeJoyeuse [f. 8r].<br/>This depicts the thirteen-hole version of the game, known in Italian as <span lang="it" class="noun">Trúcco</span>.[@FlorioVocabolario]
 {% imageEnd %}
 
 Players at the time were well aware of the double-entendres possible with such a
@@ -59,7 +59,7 @@ Confeſſe que tu ſçais enfiler la venelle :<br/>
 Et que le coup eſt bon : l’on ioüe à la rigueur.</blockquote>
 <p>Putting it there is not all: you must push it with vigour<br/>
 Until it goes to the bottom: so that the maiden<br/>
-Confesses that you know how to thread the alley:<br/>
+Confesses that you know how to thread the alley:{%fn%}or the space beside the bed{%endfn%}<br/>
 And that the blow is good: one plays with rigour.</p>
 </div>
 
@@ -68,7 +68,7 @@ And that the blow is good: one plays with rigour.</p>
 Demeurer en chemin, perdre courſe & carriere,<br/>
 Entrer, ſortir ſoudain, retourner en arriere,<br/>
 Sont traicts pour à iamais te faire meſpriſer.</blockquote>
-<p>To not make progress, to lose race and racecourse,<br/>
+<p>To not make progress, to lose course and quarry,{%fn%}Both words in their hunting sense; <span lang="fr">carrière</span> and <em>quarry</em> are synonyms in both their rocky and rabbity senses, as they are from the same root.[@DictionnaireHistorique3 251]{%endfn%}<br/>
 To enter, to leave suddenly, to go back,<br/>
 Are acts to make you despised forever.</p>
 </div>
@@ -83,8 +83,6 @@ However near they are: that would be to mistake you,<br/>
 To win the prize, you must aim rightly.</p>
 </div>
 
-italian:
+Similar Italian games are <span lang="it" class="aka noun">Mirélla</span> (9 balls, 9 holes), <span lang="it" class="aka noun">Rúllo</span>, and <span lang="it" class="aka noun">Trúcco</span> (13 holes).[@FlorioVocabolario]
 
 https://archive.org/details/bim_early-english-books-1641-1700_vocabulario-italiano-e-i_florio-giovanni_1690/page/n29/mode/2up?q=%22lady%27s+hole%22
-
-https://archive.org/details/gri_33125008510097/page/n441/mode/2up?q=%22ladies+hole%22

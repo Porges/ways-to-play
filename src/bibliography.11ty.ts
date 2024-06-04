@@ -119,13 +119,26 @@ export async function render(data: Data) {
         + '</div>'
         + '</div>'
         + `<script type="module">
+            ${handleSelect}
             ${runSort}
             ${compareKeys}
             document.addEventListener("DOMContentLoaded", () => {
                 const selector = document.getElementById('sort-selector');
-                selector.addEventListener('change', () => runSort(selector.value));
+                selector.addEventListener('change', () => handleSelect(selector.value));
+                
+                const params = new URLSearchParams(window.location.search);
+                const sort = params.get('sort') || 'name,year';
+                selector.value = sort;
+                handleSelect(selector.value);
             })
         </script>`;
+}
+
+function handleSelect(on: string) {
+    const params = new URLSearchParams(window.location.search);
+    params.set('sort', on);
+    window.history.pushState(null, null!, '?' + params.toString());
+    runSort(on);
 }
 
 function runSort(on: string) {

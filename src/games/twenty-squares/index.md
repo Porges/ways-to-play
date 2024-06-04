@@ -8,3 +8,6 @@ draft: true
 ## References
 
 See: @OnTheRulesForTheRoyalGameOfUr, @TheEgyptianGameOfTwentySquares.
+
+@RoyalGameUrBecker
+@RaposoUr

@@ -15912,6 +15912,7 @@ AmongTheIbos:
   publisher-place: London
   issued: 1921
   URL: https://archive.org/details/amongibosofniger00basd
+  notes: See chapter 9, “Sports and Pastimes”, page 127 onwards.
 LifeInAncientBritain:
   type: book
   title: Life in Ancient Britain
@@ -17931,6 +17932,18 @@ QueenAnnaFlorio:
   publisher: Edward Blount and William Barret
   publisher-place: London
   URL: https://archive.org/details/bim_early-english-books-1475-1640_queen-annas-new-world-of_florio-giovanni_1611
+FlorioVocabolario:
+  type: book
+  title: Vocabolario Italiano & Inglese, a Dictionary Italian & English
+  author:
+  - given: Giovanni
+    family: Torriano
+  - *John_Florio
+  notes: Based upon Florio’s 1611 dictionary.
+  publisher-place: London
+  publisher: T. Warren (printer)
+  issued: 1659
+  URL: https://archive.org/details/gri_33125008510097
 CommerceOfTime:
   type: thesis
   title: 'The Commerce Of Time: The Influence Of Thirteenth Century Commercial Society On The Conception And Expression Of Time In Parisian Poet Rutebeuf’s Corpus'
@@ -19532,7 +19545,7 @@ AlembertMathematiques3:
       lang: fr
       value: Encyclopédie Méthodique
   URL: https://archive.org/details/bub_gb_6IQPAAAAQAAJ/page/n220
-  notes: The work does not list an author but in the appendix to the third volume of mathematics (to which this work was appended), Charles is listed as the editor. This Jacques Charles was not the balloonist but the geometer, see Gough (1979) and Hahn (1981) in this bibliography. For more about the publication of the <cite lang="fr">Encyclopédie Méthodique</cite>, see Watts (1958) in this bibliography.
+  notes: The work does not list an author but in the appendix to the third volume of mathematics (to which this work was appended), Charles is listed as the editor. This Jacques Charles was not the balloonist but the geometer (see Gough (1979) and Hahn (1981) in this bibliography), but he died before this work was published. For more about the publication of the <cite lang="fr">Encyclopédie Méthodique</cite>, see Watts (1958) in this bibliography.
   issued: 1792
 Lacombe1:
   type: book
