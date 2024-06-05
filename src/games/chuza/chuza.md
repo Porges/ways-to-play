@@ -1,7 +1,7 @@
 ---
 title: Chuza
 titleLang: es
-countries: MX
+countries: MX,US
 equipment: Gambling game (special equipment)
 players: banking
 ---
