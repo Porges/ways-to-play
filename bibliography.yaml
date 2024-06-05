@@ -19777,4 +19777,29 @@ CostanzaPolluce:
     - given: Enrico V.
       family: Maltese
     ISSN: 1825-3490
-  
+KBNWB_1: &KBNWB_1
+  type: book
+  title:
+    lang: nl
+    value: Kawi-Balineesch-Nederlandsch Woordenboek
+  author:
+  - given: Herman Neubronner
+    family: van der Tuuk
+    url: https://en.wikipedia.org/wiki/Herman_Neubronner_van_der_Tuuk
+  volume: 1
+  volume-title: <span lang="ban">ᬅ</span> (<span lang="ban">ᬳ</span>, enz.) – <span lang="ban">ᬭᬗᬂ᭞</span>
+  publisher-place: Batavia
+  issued: 1897
+  URL: https://archive.org/details/kawibalineeschn00tuukgoog
+KBNWB_2:
+  <<: *KBNWB_1
+  volume: 2
+  volume-title: <span lang="ban">ᬓ</span> – <span lang="ban">ᬢᭂᬗᬗᬾ᭞</span>
+  issued: 1899
+  URL: https://archive.org/details/kawibalineeschn02tuukgoog
+KBNWB_3:
+  <<: *KBNWB_1
+  volume: 3
+  volume-title: <span lang="ban">ᬲ</span> – <span lang="ban">ᬮᬾᬗᬂ᭞</span>
+  issued: 1901
+  URL: https://archive.org/details/kawibalineeschn01tuukgoog
