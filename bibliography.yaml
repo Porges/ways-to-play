@@ -19803,3 +19803,101 @@ KBNWB_3:
   volume-title: <span lang="ban">ᬲ</span> – <span lang="ban">ᬮᬾᬗᬂ᭞</span>
   issued: 1901
   URL: https://archive.org/details/kawibalineeschn01tuukgoog
+TheGamblersTale:
+  type: book
+  title: 'The Gambler’s Tale: A Life in Japan’s Underworld'
+  author:
+  - given: Junischi
+    family: Saga
+    lang: ja-Latn
+  translator:
+  - given: John
+    family: Bester
+  URL: https://archive.org/details/gamblerstalelife0000saga
+  publisher: Kodansha International
+  ISBN: 4770015402
+  issued: 1991
+  notes: Originally published as <cite lang="ja">浅草博徒一台</cite> <cite lang="ja-Latn">Asakusa bakuto ichidai</cite>.
+TheWhiteChief:
+  type: book
+  title: The White Chief
+  author:
+  - given: Mayne
+    family: Reid
+  publisher: G. W. Dillingham
+  publisher-place: New York
+  issued: 1891
+  URL: https://archive.org/details/whitechiefalege02reidgoog
+CommercePrairies_1:
+  type: book
+  title: Commerce of the Prairies, or the Journal of a Santa Fé trader, during eight expeditions across the Great Western Prairies, and a residence of nearly nine years in Northern Mexico
+  author:
+  - given: Josiah
+    family: Gregg
+  volume: 1
+  edition: 4
+  issued: 1849
+  publisher: J. W. Moore
+  publisher-place: Philadelphia, PA, USA
+  URL: https://archive.org/details/CommerceOfThePrairiesVol.21849Gregg/Commerce%20of%20the%20Prairies%20Vol.%201%20%281849%29%20Gregg/
+MagneticWest:
+  type: article-newspaper
+  title: 'The Magnetic West: The Spanish Risk'
+  author:
+  - given: Joseph
+    family: Hergesheimer
+  URL: https://archive.org/details/saturdayeveningp1953unse/page/644/
+  page: 20-21 #and 140...
+  in:
+    title: The Saturday Evening Post
+    publisher-place: Philadelphia, PA
+    # volume:  can't see...
+    issue: 34
+    issued:
+      year: 1923
+      month: 2
+      day: 17
+ChuzaNotesAndQueries:
+  type: article-magazine
+  title: “Chuza”, a Game
+  author:
+  - given: J. S. M.
+    family: T.
+  page: 328
+  URL: https://archive.org/details/s9notesqueries02londuoft/page/328
+  in:
+    title: Notes and Queries (9th Series)
+    volume: 2
+    publisher-place: London
+    issue: 43
+    issued: 
+      month: 10
+      day: 22
+      year: 1898
+NewMexicanCustoms:
+  type: article-newspaper
+  title: New Mexican customs
+  page: 2
+  in:
+    title: Santa Fe Weekly Gazette
+    volume: 5
+    issue: 41
+    issued:
+      year: 1856
+      month: 11
+      day: 15
+NMInTransition:
+  type: article-journal
+  title: New Mexico in Transition (continued)
+  author:
+  - given: Arnold L.
+    family: Rodríguez
+  URL: https://archive.org/details/newmexicohistori24univrich/page/184
+  page: 184-222
+  in:
+    title: New Mexico Historical Review
+    volume: 24
+    issued:
+      month: 7
+      year: 1949
+    issue: 3
