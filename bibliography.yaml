@@ -19901,3 +19901,13 @@ NMInTransition:
       month: 7
       year: 1949
     issue: 3
+AltarsBlacky:
+  type: webpage
+  archive-URL: https://web.archive.org/web/20040102191417/http://members.aol.com/dicetalk/rules/altars.txt
+  author:
+  - given: Blacky
+    family: Imbril
+  title: Altars
+  container-title: The International Bone Rollers’ Guild
+  issued: 2002
+  

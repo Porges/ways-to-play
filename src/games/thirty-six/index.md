@@ -7,6 +7,6 @@ players:
 ---
 
 
-See also "Altars": https://web.archive.org/web/20040102191417/http://members.aol.com/dicetalk/rules/altars.txt
+See also "Altars": @AltarsBlacky
 
 @OfficialWorldEncyclopedia [p. 124]
