@@ -404,7 +404,7 @@ export function person(props: PersonProps) {
         + `</span>`;
 }
 
-export function license(name: LicenseName, version: LicenseVersion | undefined, termsUrl: string | null, rel: string | undefined, leading: boolean | undefined) {
+export function license(name: LicenseName, version: LicenseVersion | undefined, termsUrl: string | null | undefined, rel: string | undefined, leading: boolean | undefined) {
     PropTypes.checkPropTypes(licensePropTypes, { license: name, version, rel, leading }, "props", "license");
 
     if (name === 'with-permission') {
