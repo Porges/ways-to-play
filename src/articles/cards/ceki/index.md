@@ -24,6 +24,10 @@ Although these type of cards are not referred to in Thailand as “ceki” cards
 
 At some point they were also called “8–9 cards”, in Malay <span lang="ms-Latn">pakau-pakau</span> (<span lang="ms-Arab">&#x2068;باكو٢&#x2069;</span>,{%fn%}Perhaps also <span lang="ms-Arab">ڤيكق</span> <span lang="ms-Latn">pékak</span>?[@MaleischNederlandsch_2 456]{%endfn%} literally ‘8–9s’, which adapts the names of Chinese numerals).[@Pijnappel1 161] A similar name was also known in Thailand — <span lang="th">ไพ่แปดเก้า</span> <span lang="th-Latn">phai paet kao</span>,[@PaiPhong1967 9] literally “8–9 cards”{%fn%}Note that the name <span lang="th">ไพ่งาแปดเก้า</span> <span lang="th-Latn">phai nga paet kao</span> is also mentioned in the source; this is “8–9 bone cards” where “bone cards” could be a calque of the Chinese <span lang="zh">骨牌</span> which means ‘dominos’ or sometimes ‘playing cards’.{%endfn%} — so it might be a Hokkien/Teochew name that eventually disappeared.{%fn%}Is there any remote connection to {%gameref oicho-kabu%} here?{%endfn%}
 
+<!--
+The “Kowa” name I think is probably also derived from a game, and was eventually applied to the cards themselves. It is likely from an older Chinese language term for the number nine, referring to the number of cards needed to complete the hand, or also for the target number to be achieved in a different type of game.
+-->
+
 {% image src="../../../maps/Ceki.svg" alt="" %}
 Countries where Ceki cards are used.
 {% imageEnd %}
@@ -279,7 +283,7 @@ section of the table is much more imprecise than the previous lines.
   <tr>
     <th class="text-center sticky-left border-end bg-white at-least-150-px"></th>
     <th>Thailand</th>
-    <th colspan="3">Malaysia/Singapore</th>
+    <th colspan="4">Malaysia/Singapore</th>
     <th>Sumatra</th>
     <th colspan="7">Java</th>
     <th colspan="7">Bali</th>
@@ -293,6 +297,7 @@ section of the table is much more imprecise than the previous lines.
     <th class="text-center sticky-left border-end table-light">Cards</th>
     <th>(1967)[@PaiPhong1967]</th>
     <th>General</th>
+    <th>Older (Malay)<br/>(1894)[@CliffordMalay3 334]</th>
     <th>Malacca (Kristang)<br/>(1972)[@ChaquiAndPartui]
     <th>Malacca (Kristang)<br/>(2012)[@HowToPlayChiki]
 <th>
@@ -415,7 +420,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <tr class="table-secondary">
 <th scope="row" class="text-center sticky-left border-end">Honour & Rank 1</th>
 <td><span lang="th">เอี่ยว</span> <span lang="th-Latn">iao</span>, from Hokkien/Teochew <span lang="nan">幺</span> <span lang="nan-Latn">io</span>/<span lang="tws-Latn">iao¹</span>, ‘ace’</td>
+<!-- Malay -->
 <td><span lang="ms">yu</span> or <span lang="ms">yeo</span>, from Hokkien/Teochew</td>
+<td><span lang="ms">iu</span> (modern <span lang="ms">ayu</span>)<br/><span lang="ms-Arab">ايو</span><br/>from Hokkien/Teochew</td>
 <td><span lang="mcm">cartas fortes</span><br/>‘strong cards’, for the first three</td>
 <td><span lang="mcm">yoh</span></br>(Hokkien <span lang="nan-Latn">io</span>)</td>
 <td><span lang="min">hiu/iyu</span> ‘shark’, looks like a fin</td>
@@ -455,6 +462,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เอี่ยวพญา</span><br/><span lang="th-Latn">iao phaya</span><br/>king ace<br/><br/><span lang="th">เอี่ยวแดงพญา</span><br/><span lang="th-Latn">iao daeng phaya</span><br/>red king ace<br/><br/><span lang="th">เอี่ยวโต้ง</span><br/><span lang="th-Latn">iao tong</span><br/>large ace</td>
 <!-- M/S -->
 <td><span lang="ms">yu lau chian</span>, from Hokkien <span lang="nan">老千</span> ‘old thousand’<br/>or <span lang="ms">yu pinding</span></td>
+<td><span lang="ms">iu mêrah bĕsar</span><br/><span lang="ms-Arab">ايو ميره بسر</span><br/>large red/king ace</td>
 <td><span lang="mcm">yo sekarat, yo mitadi</span><br/>candlenut, one half</td>
 <td><span lang="mcm">obu</span><br/>egg</td>
 <td><span lang="min">danau rezeki, hiu/babak</span><br />[chapter?] shark</td>
@@ -494,6 +502,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เอี่ยวชี</span><br/><span lang="th-Latn">iao chi</span><br/>nun ace</td>
 <!-- M/S -->
 <td><span lang="ms">yu kuching</span><br />cat ace</td>
+<td><span lang="ms">iu kûching</span><br/><span lang="ms-Arab">ايو كوچيڠ</span><br/>cat ace</td>
 <td><span lang="mcm">yo feme</span><br/>one woman</td>
 <td><span lang="mcm">femi/fula</span><br/>woman/vagina</td>
 <td><span lang="min">hiu kuciang</span><br />cat shark</td>
@@ -533,6 +542,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เอี่ยวแดงนาง</span><br/><span lang="th-Latn">iao daeng nang</span><br/>red lady ace<br/><br/><span lang="th">เอี่ยวนาง</span><br/><span lang="th-Latn">iao nang</span><br/>lady ace</td>
 <!-- M/S -->
 <td><span lang="ms">yu nyonya</span><br />(娘仔?) ace</td>
+<td><span lang="ms">iu mêrah s’krat</span><br/><span lang="ms-Arab">ايو ميره سكرة</span><br/>partly red ace</td>
 <td><span lang="mcm">yo fogu</span><br/>one fire</td>
 <td><span lang="mcm">sekeras</span><br/>candlenut</td>
 <td><span lang="min">hiu merah</span><br/>red shark<br/><br/>or <span lang="min">penci</span><br/>[<a href="https://en.wikipedia.org/wiki/Songkok">a hat</a>?]</td>
@@ -572,6 +582,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เอี่ยวเกือก</span><br/><span lang="th-Latn">iao kueak</span><br/>shoe ace<br/><br/><span lang="th">เอี่ยวรอง</span><br/><span lang="th-Latn">iao rong</span><br/>secondary ace</td>
 <!-- M/S -->
 <td><span lang="ms">yu kasut</span><br />slipper ace (looks like a Nyonya slipper)</td>
+<td><span lang="ms">iu kâsut</span><br/><span lang="ms-Arab">ايو كاسة</span><br/>slipper ace</td>
 <td><span lang="mcm">sapatu</span><br/>shoe</td>
 <td><span lang="mcm">sapatu</span><br/>shoe</td>
 <td><span lang="min">hiu kasuik</span><br />[unknown] shark</td>
@@ -611,6 +622,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เอี่ยวยาว</span><br/><span lang="th-Latn">iao yao</span><br/> long ace<br/><br/><span lang="th">เอี่ยวเข็ม</span><br/><span lang="th-Latn">iao khem</span><br/>needle ace</td>
 <!-- M/S -->
 <td><span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span><br />long or bird ace. In Indonesian, bird is also slang for penis.[@IndonesianIdioms p. 62]</td>
+<td><span lang="ms">iu pli</span><br/><span lang="ms-Arab">ايو ڤلي</span><br/>? ace</td>
 <td><span lang="mcm">pau</span><br/>club</td>
 <td><span lang="mcm">pau</span><br/>club</td>
 <td><span lang="min">hiu panjang</span><br />long shark</td>
@@ -650,6 +662,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เอี่ยวหนู</span><br/><span lang="th-Latn">iao nu</span><br/>mouse ace (the symbol looks like a mouse’s tail)</td>
 <!-- M/S -->
 <td><span lang="ms">yu hue sio</span><br />from Hokkien ‘monk’ <span lang="nan">和尚</span></td>
+<td><span lang="ms">iu lîchin</span><br/><span lang="ms-Arab">ايو ليچين</span><br/>smooth/bare ace (probably referring to the bald head)</td>
 <td><span lang="mcm">China/ladrán</span><br/>China/thief</td>
 <td><span lang="mcm">China</span><br/>China</td>
 <td><span lang="min">hiu bungo</span><br />flower shark</td>
@@ -689,6 +702,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สอง</span><br/><span lang="th-Latn">song</span><br/>two</td>
 <!-- M/S -->
 <td><span lang="ms">ji</span><br/>(Hokkien jī)</td>
+<td><span lang="ms">lĕkok</span><br/><span lang="ms-Arab">لكوق</span><br/>notched</td>
 <td>—</td>
 <td><span lang="mcm">gee</span><br/>(Hokkien jī)</td>
 <td><span lang="min">bengkok</span> ‘crooked’</td>
@@ -728,6 +742,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สองตา</span><br/><span lang="th-Latn">song ta</span><br/>eyes two<br/><br/><span lang="th">สองตาโต</span><br/><span lang="th-Latn">song ta to</span><br/>shocked two</td>
 <!-- M/S -->
 <td><span lang="ms">ji hitam</span> or <span lang="ms">ji bulat</span><br />black or round two</td>
+<td><span lang="ms">lĕkok lâmah</span><br/><span lang="ms-Arab">لكوق لامه</span><br/>? notched</td>
 <td><span lang="mcm">bola</span><br/>ball</td>
 <td><span lang="mcm">bola</span><br/>ball</td>
 <td><span lang="min">bengkok itam/wajik</span><br />black/diamond crooked</td>
@@ -767,6 +782,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สององคต</span><br/><span lang="th-Latn">song (ongkot?)</span><br/>two <a href="https://en.wikipedia.org/wiki/Angada">Angada</a> (a legendary monkey with an immovable leg)</td>
 <!-- M/S -->
 <td><span lang="ms">ji burung</span><br />bird two</td>
+<td><span lang="ms">lĕkok lêrek</span><br/><span lang="ms-Arab">لكوق ليرق</span><br/>notched borer?</td>
 <td><span lang="mcm">beechu</span><br/>worm</td>
 <td><span lang="mcm">bicu, geli-geli</span><br/>caterpillar, worm</td>
 <td><span lang="min">bengkok gadang</span><br />big crooked</td>
@@ -806,6 +822,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สองคน</span><br/><span lang="th-Latn">song khon</span><br/>two people</td>
 <!-- M/S -->
 <td><span lang="ms">ji ban</span><br /></td>
+<td><span lang="ms">lĕkok cîna</span><br/><span lang="ms-Arab">لكوق چين</span><br/>notched Chinese</td>
 <td><span lang="mcm">noiba</span><br/>bride</td>
 <td><span lang="mcm">noiba</span><br/>bride</td>
 <td><span lang="min">bengkok aluih</span><br />genteel crooked</td>
@@ -845,6 +862,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สาม</span><br/><span lang="th-Latn">sam</span><br/>three</td>
 <!-- M/S -->
 <td><span lang="ms">sa</span><br/>(Hokkien saⁿ)</td>
+<td><span lang="ms">sêrong</span><br/><span lang="ms-Arab">سيروڠ</span><br/>askew</td>
 <td>—</td>
 <td><span lang="mcm">sar</span><br/>(Hokkien saⁿ)</td>
 <td><span lang="min">jarum</span> ‘needle’</td>
@@ -884,6 +902,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สามตา</span><br/><span lang="th-Latn">sam ta</span><br/>three eyes<br/><br/><span lang="th">สามตาโต</span><br/><span lang="th-Latn">sam ta to</span><br/>three big eyes</td>
 <!-- M/S -->
 <td><span lang="ms">sa batik</span><br />batik three</td>
+<td><span lang="ms">sêrong wâjik</span><br/><span lang="ms-Arab">سيروڠ واجيق</span><br/>askew diamond</td>
 <td><span lang="mcm">crossan</span><br/>heart, or brooch of Cabaia-wood</td>
 <td><span lang="mcm">batik</span><br/>batik</td>
 <td><span lang="min">jarum wajik/itam</span><br />diamond/black needle</td>
@@ -923,6 +942,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สามนก</span><br/><span lang="th-Latn">sam nok</span><br/>three birds<br/><br/><span lang="th">สามนกเตี้ย</span><br/><span lang="th-Latn">sam nok tia</span><br/>three short birds</td>
 <!-- M/S -->
 <td><span lang="ms">sa udang</span><br />shrimp three</td>
+<td><span lang="ms">sêrong gûnong</span><br/><span lang="ms-Arab">سيروڠ ݢونڠ</span><br/>askew mountain</td>
 <td><span lang="mcm">kambrang</span><br/>shrimp</td>
 <td><span lang="mcm">kambrang, kotek, cucuk</span><br/>shrimp, penis, thorn</td>
 <td><span lang="min">jarum gadang</span><br />big needle</td>
@@ -962,6 +982,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สามคน</span><br/><span lang="th-Latn">sam khon</span><br/>three people</td>
 <!-- M/S -->
 <td><span lang="ms">sa ban</span></td>
+<td><span lang="ms">sêrong jârum</span><br/><span lang="ms-Arab">سيروڠ جارم</span><br/>askew needle</td>
 <td><span lang="mcm">chuchō</span><br/>prick (Malay <span lang="ms">cucok</span>)<br/><br/><span lang="mcm">agula</span><br/>needle</td>
 <td><span lang="mcm">agula</span><br/>needle</td>
 <td><span lang="min">jarum aluih</span><br />genteel needle</td>
@@ -1001,6 +1022,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สี่</span><br/><span lang="th-Latn">si</span><br/>four</td>
 <!-- M/S -->
 <td><span lang="ms">si</span><br/>(Hokkien sì)</td>
+<td><span lang="ms">kĕpâla bûlat</span><br/><span lang="ms-Arab">كڤلا بولة</span><br/>round head</td>
 <td>—</td>
 <td><span lang="mcm">see</span><br/>(Hokkien sì)</td>
 <td><span lang="min">suduang</span> ‘spoon’(?)</td>
@@ -1040,6 +1062,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สี่มะเขือ</span><br/><span lang="th-Latn">si makhuea</span><br/>four eggplants</td>
 <!-- M/S -->
 <td><span lang="ms">si hitam</span><br />black four</td>
+<td><span lang="ms">kĕpâla bûlat gĕrôbok</span><br/><span lang="ms-Arab">كڤلا بولة ݢروبق</span><br/>round head crockery chest</td>
 <td><span lang="mcm">manuco/rã</span><br/>frog</td>
 <td><span lang="mcm">kodok</span><br/>frog</td>
 <td><span lang="min">suduang itam/wajik</span><br />black/diamond spoon</td>
@@ -1079,6 +1102,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สี่นม</span><br/><span lang="th-Latn">si nom</span><br/>four breasts<br/><br/><span lang="th">สี่นมยาน</span><br/><span lang="th-Latn">si nom yan</span><br/>four hanging breasts</td>
 <!-- M/S -->
 <td><span lang="ms">si putih</span><br />white four</td>
+<td><span lang="ms">kĕpâla bûlat sûngkap</span><br/><span lang="ms-Arab">كڤلا بولة سوڠكڤ</span><br/>round head loose hair</td>
 <td><span lang="mcm">basio</span><br/>plate</td>
 <td><span lang="mcm">basiu</span><br/>plate</td>
 <td><span lang="min">pinggang</span><br />waist</td>
@@ -1118,6 +1142,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">สี่คน</span><br/><span lang="th-Latn">si khon</span><br/>four people</td>
 <!-- M/S -->
 <td><span lang="ms">si ban</span></td>
+<td><span lang="ms">kĕpâla bûlat sundul</span><br/><span lang="ms-Arab">كڤلا بولة سوندل</span><br/>round head ?</td>
 <td><span lang="mcm">ryiami/curto</span><br/>short</td>
 <td><span lang="mcm">nyami</span><br/>yam</td>
 <td><span lang="min">suduang putiah</span><br />white spoon</td>
@@ -1157,6 +1182,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">ห้า</span><br/><span lang="th-Latn">ha</span><br/>five</td>
 <!-- M/S -->
 <td><span lang="ms">go</span><br/>(Hokkien gō͘)</td>
+<td><span lang="ms">mâta dûa</span><br/><span lang="ms-Arab">ماة دوا</span><br/>two eyes</td>
 <td>—</td>
 <td><span lang="mcm">goh</span><br/>(Hokkien gō͘)</td>
 <td><span lang="min">babi</span> ‘pig’ (looks like nostrils)</td>
@@ -1196,6 +1222,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">ห้าแตงโม</span><br/><span lang="th-Latn">ha taengmo</span><br/>five watermelons</td>
 <!-- M/S -->
 <td><span lang="ms">go pending</span><br />pending five</td>
+<td><span lang="ms">mâta dûa kĕlôning</span><br/><span lang="ms-Arab">ماة دوا كلونيڠ</span><br/>? two eyes</td>
 <td><span lang="mcm">panding</span><br/>sarong-fastener</td>
 <td><span lang="mcm">pending</span><br/>sarong-fastener</td>
 <td><span lang="min">babi pusek</span><br />navel pig</td>
@@ -1235,6 +1262,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">ห้านก</span><br/><span lang="th-Latn">ha nok</span><br/>five birds</td>
 <!-- M/S -->
 <td><span lang="ms">go burung</span><br />bird five</td>
+<td><span lang="ms">mâta dûa lêrek</span><br/><span lang="ms-Arab">ماة دوا ليرق</span><br/>? two eyes</td>
 <td><span lang="mcm">baker</span><br/>cow</td>
 <td><span lang="mcm">baka</span><br/>cow</td>
 <td><span lang="min">babi gadang</span><br />big pig</td>
@@ -1274,6 +1302,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">ห้าคน</span><br/><span lang="th-Latn">ha khon</span><br/>five people</td>
 <!-- M/S -->
 <td><span lang="ms">go ban</span></td>
+<td><span lang="ms">mâta dûa cîna</span><br/><span lang="ms-Arab">ماة دوا چين</span><br/>Chinese two eyes</td>
 <td><span lang="mcm">governu/goberno</span><br/>governor<br/><br/><span lang="mcm">europeano</span><br/>european</td>
 <td><span lang="mcm">ropianu</span><br/>european</td>
 <td><span lang="min">babi aluih</span> <br />genteel pig</td>
@@ -1313,6 +1342,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">หก</span><br/><span lang="th-Latn">hok</span><br/>six</td>
 <!-- M/S -->
 <td><span lang="ms">lak</span><br/>(Hokkien la̍k)</td>
+<td><span lang="ms">lak</span><br/><span lang="ms-Arab">لق</span><br/>(from Hokkien)</td>
 <td>—</td>
 <td><span lang="mcm">lak</span><br/>(Hokkien la̍k)</td>
 <td><span lang="min">kapik</span> ‘grill’</td>
@@ -1352,6 +1382,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">หกตา</span><br/><span lang="th-Latn">hok ta</span><br/>six eyes</td>
 <!-- M/S -->
 <td><span lang="ms">lak hitam</span><br />black six</td>
+<td><span lang="ms">lak kroh</span><br/><span lang="ms-Arab">لق كروه</span><br/>? six</td>
 <td><span lang="mcm">gordo</span><br/>fat</td>
 <td><span lang="mcm">godra</span><br/>fat</td>
 <td><span lang="min">kapik anam</span><br />grilled six</td>
@@ -1391,6 +1422,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">หกละเอียด</span><br/><span lang="th-Latn">hok laiat</span><br/>delicate six<br/><br/><span lang="th">หกเซาะ</span><br/><span lang="th-Latn">hok so</span><br/>chiselled six</td>
 <!-- M/S -->
 <td><span lang="ms">lak putih</span><br />white six</td>
+<td><span lang="ms">lak tâli</span><br/><span lang="ms-Arab">لق تالي</span><br/>rope six</td>
 <td><span lang="mcm">gala</span><br/>bamboo</td>
 <td><span lang="mcm">gala</span><br/>bamboo</td>
 <td><span lang="min">kapik manih</span><br />grilled sweet</td>
@@ -1430,6 +1462,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">หกคน</span><br/><span lang="th-Latn">hok khon</span><br/>six people</td>
 <!-- M/S -->
 <td><span lang="ms">lak ban</span></td>
+<td><span lang="ms">lak chantek</span><br/><span lang="ms-Arab">لق چنتيق</span><br/>beautiful six</td>
 <td><span lang="mcm">osu</span><br/>bone</td>
 <td><span lang="mcm">osu</span><br/>bone</td>
 <td><span lang="min">kapik aluih</span><br />grilled genteel</td>
@@ -1469,6 +1502,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เจ็ด</span><br/><span lang="th-Latn">chet</span><br/>seven</td>
 <!-- M/S -->
 <td><span lang="ms">jit</span><br/>(Hokkien chhit)</td>
+<td><span lang="ms">chit</span><br/><span lang="ms-Arab">چية</span><br/>(from Hokkien)</td>
 <td>—</td>
 <td><span lang="ms">chit</span><br/>(Hokkien chhit)</td>
 <td><span lang="min">sisiak</span> ‘scales’</td>
@@ -1508,6 +1542,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เจ็ดพัด</span><br/><span lang="th-Latn">chet phat</span><br/>seven fans</td>
 <!-- M/S -->
 <td><span lang="ms">jit hitam</span> or <span lang="ms">jit daun</span><br />black or leaf seven</td>
+<td><span lang="ms">chit sûngkai</span><br/><span lang="ms-Arab">چية سوڠكي</span><br/><a href="https://en.wikipedia.org/wiki/Peronema"><cite lang="la">Peronema canescens</cite></a> (a leafy plant) seven</td>
 <td><span lang="mcm">lóia</span><br/>flag</td>
 <td><span lang="mcm">layar</span><br/>sail</td>
 <td><span lang="min">sisiak bendera</span><br />flag scales</td>
@@ -1547,6 +1582,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เจ็ดนก</span><br/><span lang="th-Latn">chet nok</span><br/>seven birds</td>
 <!-- M/S -->
 <td><span lang="ms">jit burung</span><br />bird seven</td>
+<td><span lang="ms">chit halus</span><br/><span lang="ms-Arab">چية هالس</span><br/>fine seven</td>
 <td><span lang="mcm">galinha</span><br/>chicken</td>
 <td><span lang="mcm">galinha</span><br/>chicken</td>
 <td><span lang="min">sisiak gadang</span><br />big scales</td>
@@ -1586,6 +1622,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เจ็ดคน</span><br/><span lang="th-Latn">chet khon</span><br/>seven people</td>
 <!-- M/S -->
 <td><span lang="ms">jit ban</span></td>
+<td><span lang="ms">chit kâsar</span><br/><span lang="ms-Arab">چية كاسر</span><br/>coarse seven</td>
 <td><span lang="mcm">malayu</span><br/>malay</td>
 <td><span lang="mcm">malayu</span><br/>malay</td>
 <td><span lang="min">sisiak aluih</span><br />genteel scales</td>
@@ -1625,6 +1662,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">แปด</span><br/><span lang="th-Latn">paet</span><br/>eight</td>
 <!-- M/S -->
 <td><span lang="ms">puek</span><br/>(Hokkien poeh)</td>
+<td><span lang="ms">mâta sâtu</span><br/><span lang="ms-Arab">ماة ساتو</span><br/>one eye</td>
 <td>—</td>
 <td><span lang="mcm">sepet</span><br/>‘half-closed (eyes)’</td>
 <td><span lang="min">pacah</span> ‘broken’</td>
@@ -1664,6 +1702,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">แปดตา</span><br/><span lang="th-Latn">paet ta</span><br/>eight eyes</td>
 <!-- M/S -->
 <td><span lang="ms">puek kerang</span><br />cockle eight</td>
+<td><span lang="ms">mâta sâtu plong</span><br/><span lang="ms-Arab">ماة ساتو ڤلوڠ</span><br/>? one eye</td>
 <td><span lang="mcm">brau</span><br/>ship</td>
 <td><span lang="mcm">prau</span><br/>ship</td>
 <td><span lang="min">pacah lapan</span><br />broken eight</td>
@@ -1703,6 +1742,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">แปดละเอียด</span><br/><span lang="th-Latn">paet laiat</span><br/>delicate eight<br/><br/><span lang="th">แปดเซาะ</span><br/><span lang="th-Latn">paet so</span><br/>chiselled eight</td>
 <!-- M/S -->
 <td><span lang="ms">puek menak</span><br />noble<!--{%fn%}Menak is a title for an aristocrat.{%endfn%}--> eight</td>
+<td><span lang="ms">mâta sâtu bengkok</span><br/><span lang="ms-Arab">ماة ساتو بڠكوق</span><br/>crooked one eye</td>
 <td><span lang="mcm">baji/dosi</span><br/>sweet</td>
 <td><span lang="mcm">manis/dosi</span><br/>sweet</td>
 <td><span lang="min">pacah manih</span><br />broken sweet</td>
@@ -1742,6 +1782,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">แปดคน</span><br/><span lang="th-Latn">paet khon</span><br/>eight people</td>
 <!-- M/S -->
 <td><span lang="ms">puek ban</span></td>
+<td><span lang="ms">mâta sâtu kĕrbau</span><br/><span lang="ms-Arab">ماة ساتو كربو</span><br/>buffalo one eye</td>
 <td><span lang="mcm">belu</span><br/>old</td>
 <td><span lang="mcm">belu</span><br/>old</td>
 <td><span lang="min">pacah aluih</span><br />broken genteel</td>
@@ -1781,6 +1822,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เก้า</span><br/><span lang="th-Latn">kao</span><br/>nine</td>
 <!-- M/S -->
 <td><span lang="ms">kau</span><br/>(Hokkien káu)</td>
+<td><span lang="ms">ânjing</span><br/><span lang="ms-Arab">انجيڠ</span><br/>dog?</td>
 <td>—</td>
 <td><span lang="ms">kau</span><br/>(Hokkien káu)</td>
 <td><span lang="min">tali</span> ‘rope’</td>
@@ -1820,6 +1862,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เก้าจัน</span><br/><span lang="th-Latn">kao chan</span><br/>nine <a href="https://en.wikipedia.org/wiki/Diospyros_decandra"><cite>Diospyros decandra</cite></a>, similar to a persimmon</td>
 <!-- M/S -->
 <td><span lang="ms">kau hitam</span><br />black nine</td>
+<td><span lang="ms">ânjing pîtis</span><br/><span lang="ms-Arab">انجيڠ بيتس</span><br/>dog? cash</td>
 <td><span lang="mcm">Mōru</span><br/>Moor/Indian</td>
 <td><span lang="mcm">Mōru</span><br/>Moor/Indian</td>
 <td><span lang="min">tali bulek</span><br />round rope</td>
@@ -1859,6 +1902,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เก้าแดง</span><br/><span lang="th-Latn">kao daeng</span><br/>red nine</td>
 <!-- M/S -->
 <td><span lang="ms">kau merah</span><br />red nine</td>
+<td><span lang="ms">ânjing hâti</span><br/><span lang="ms-Arab">انجيڠ هاتي</span><br/>dog? heart/liver</td>
 <td><span lang="mcm">botol/bottle/whisky</span><br/>bottle</td>
 <td><span lang="mcm">botel</span><br/>bottle</td>
 <td><span lang="min">tali merah</span><br />red rope</td>
@@ -1898,6 +1942,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 <td><span lang="th">เก้าคน</span><br/><span lang="th-Latn">kao khon</span><br/>nine people</td>
 <!-- M/S -->
 <td><span lang="ms">kau ban</span></td>
+<td><span lang="ms">ânjing kau</span><br/><span lang="ms-Arab">انجيڠ كاو</span><br/>dog? nine</td>
 <td><span lang="mcm">Mary, Mérri, Maria, Kau Mary</span><br/>Mary</td>
 <td><span lang="mcm">Mary</span><br/>Mary</td>
 <td><span lang="min">tali aluih</span><br />genteel rope</td>

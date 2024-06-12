@@ -50,3 +50,6 @@ Info on Johore shutting down etc: @GamblingMenaceSingapore
 @StirFriedNotShaken [207]
 
 capjiki in Palembang language: https://archive.org/details/kamus-sederhana-bahasa-palembang/page/45/mode/2up?q=judi
+
+
+The card game in Indonesian is called <span lang="id" class="aka">cap-sah-taipo</span>.[@StevensComprehensiveIndonesian 183]

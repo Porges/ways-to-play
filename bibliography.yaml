@@ -19910,4 +19910,63 @@ AltarsBlacky:
   title: Altars
   container-title: The International Bone Rollers’ Guild
   issued: 2002
-  
+HolmMathematicsCardPlaying:
+  type: article-journal
+  title: The Mathematics of Card Playing in an Aboriginal Community
+  author:
+  - given: Neil
+    family: Holm
+  - given: Lionel
+    family: Japanangka
+  page: 19-22
+  URL: https://www.academia.edu/4661406/The_Mathematics_of_Card_Playing_in_an_Aboriginal_Community
+  in:
+    title: The Australian Journal of Indigenous Education (The Aboriginal Child at School)
+    volume: 4
+    issue: 5
+    issued:
+      month: 10
+      year: 1976
+AutonomyAndRelatedness:
+  type: thesis
+  author:
+  - given: David Fernandes
+    family: Martin
+  issued:
+    month: 2
+    year: 1993
+  genre: PhD thesis
+  publisher: Australian National University
+  publisher-place: Canberra, Australia
+  title: 'Autonomy and Relatedness: an ethnography of Wik people of Aurukun, Western Cape York Peninsula'
+  URL: http://hdl.handle.net/1885/10999
+  notes: Section on gambling, page 129 onwards.
+CliffordMalay3:
+  type: book
+  title: A Dictionary of the Malay language
+  URL: https://archive.org/details/adictionarymala00swetgoog
+  author:
+  - given: Hugh
+    family: Clifford
+    url: https://en.wikipedia.org/wiki/Hugh_Clifford_(colonial_administrator)
+  - given: Frank Athelstane
+    family: Swettenham
+    url: https://en.wikipedia.org/wiki/Frank_Swettenham
+  issued: 1897
+  volume: 3
+  volume-title: The Letter “Ch”
+  publisher-place: Taiping, Perak
+  publisher: Government Printing Office
+StevensComprehensiveIndonesian:
+  type: book
+  title: A Comprehensive Indonesian–English Dictionary
+  author:
+  - given: Alan M.
+    family: Stevens
+  - given: A. Ed.
+    family: Schmidgall-Tellings
+  publisher: Ohio University Press
+  publisher-place: Athens, OH, USA
+  URL: https://archive.org/details/comprehensiveind0000stev
+  issued: 2004
+  ISBN: '0821415840'
