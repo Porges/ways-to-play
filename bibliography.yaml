@@ -19987,11 +19987,26 @@ LynchingAtTucson:
   title: A Lynching at Tucson in 1873
   page: 233-242
   URL: https://archive.org/details/newmexicohistori19univrich/page/233 
-  author: [*John_G_Bourke]
-  #editor:
-  #- family: Bloom
-  #  given: Lansing B.
+  author:
+  - family: Bloom
+    given: Lansing B.
+  - *John_G_Bourke
   in:
     title: New Mexico Historical Review
     issued: 1944
     volume: 29
+NewMexicoMexican:
+  type: article-magazine
+  title: "New Mexico Under Mexican Administration: Part III"
+  page: 235-287
+  URL: https://archive.org/details/oldsantafemagazi01unse_1/page/n507/
+  author:
+  - given: Lansing B.
+    family: Bloom
+  in:
+    title: Old Santa Fe
+    volume: 1
+    issue: 3
+    issued:
+      month: 1
+      year: 1914
