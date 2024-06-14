@@ -19970,3 +19970,28 @@ StevensComprehensiveIndonesian:
   URL: https://archive.org/details/comprehensiveind0000stev
   issued: 2004
   ISBN: '0821415840'
+BorderWithCrook:
+  type: book
+  title: On the border with Crook
+  URL: https://archive.org/details/ldpd_7039048_000/
+  issued: 1891
+  author:
+  - &John_G_Bourke
+    given: John G.
+    family: Bourke
+    url: https://en.wikipedia.org/wiki/John_Gregory_Bourke
+  publisher: Charles Scribner’s Sons
+  publisher-place: New York
+LynchingAtTucson:
+  type: article-journal
+  title: A Lynching at Tucson in 1873
+  page: 233-242
+  URL: https://archive.org/details/newmexicohistori19univrich/page/233 
+  author: [*John_G_Bourke]
+  #editor:
+  #- family: Bloom
+  #  given: Lansing B.
+  in:
+    title: New Mexico Historical Review
+    issued: 1944
+    volume: 29
