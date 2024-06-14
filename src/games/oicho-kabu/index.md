@@ -27,7 +27,7 @@ In Papua New Guinea it has been called <span lang="tpi">kawu</span> — clea
 
 Self Note: See the Makassar dictionary re kawu (the game) vs kuwa (the winning call). Kuwa could also mean "nine" there, and be from Hokkien? Kuwa also in [@ChineseLoanWordsMalay 56]
 
-Chinese game <span lang="zh" class="aka">扯三章</span>, see @XuYeziPu_2.
+Chinese game <span lang="zh" class="aka">扯三章</span>, or actually <span lang="zh" class="aka">扯三張</span> see @XuYeziPu_2. (https://iiif.lib.harvard.edu/manifests/view/drs:428497656$67i)
 
 ## Equipment
 

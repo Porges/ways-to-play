@@ -48,6 +48,7 @@ exports.render = async function (data) {
     <link rel="preload" crossorigin="anonymous" href="/fonts/CharisSIL-Regular.woff2" as="font" type="font/woff2" />
     <link rel="preload" crossorigin="anonymous" href="/fonts/CharisSIL-Italic.woff2" as="font" type="font/woff2" />
     <link rel="preload" crossorigin="anonymous" href="/fonts/CharisSIL-Bold.woff2" as="font" type="font/woff2" />
+    <link rel="alternate" type="application/atom+xml" title="Ways To Play Atom feed" href="/atom.xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="generator" content="Eleventy" />
     <meta name="theme-color" content="#000000" />
