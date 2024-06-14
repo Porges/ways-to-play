@@ -34,6 +34,13 @@ jobs:
     - run: npm run-script build
       env:
         CI: true
+
+    - name: Deploy to Neocities
+      uses: bcomnes/deploy-to-neocities@v2
+      with:
+        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false
+        dist_dir: public
       
     - uses: azure/login@v1
       with:
