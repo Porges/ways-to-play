@@ -129,14 +129,19 @@ exports.render = async function (data) {
         <meta itemprop="name" content="Ways To Play"/>
     </div>
     <header>
-      <nav class="navbar navbar-expand navbar-dark bg-primary">
-        <div class="container">
-          <a href="/" class="navbar-brand">Ways to Play</a>
-          <ul class="navbar-nav">
-            <li><a href="/articles/" class="nav-link"><span aria-label="" role="img">🧾</span> Articles</a></li>
-            <li><a href="/games/" class="nav-link"><span aria-label="" role="img">🎲</span> Games</a></li>
-          </ul>
-        </div>
+      <nav class="navbar navbar-expand navbar-dark bg-primary justify-content-between">
+        <a href="/" class="navbar-brand ms-2 ms-lg-4">Ways to Play</a>
+        <ul class="navbar-nav mr-auto">
+          <li><a href="/articles/" class="nav-link"><span aria-label="" role="img">🧾</span> Articles</a></li>
+          <li><a href="/games/" class="nav-link"><span aria-label="" role="img">🎲</span> Games</a></li>
+        </ul>
+        <form class="form-inline me-2 me-lg-4" method="get" action="https://duckduckgo.com/" target="_top">
+          <div class="input-group">
+            <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">🔍&#8239;</button>
+            <input type="hidden" name="sites" value="games.porg.es" />
+          </div>
+        </form>
       </nav>
     </header>
     <main>

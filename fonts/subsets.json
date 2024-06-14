@@ -3,12 +3,14 @@
         {
             "format": "woff",
             "suffix": "min",
-            "codepoints": "1f9fe,1f3b2,1f4e3,1f4da"
+            "codepoints": "1f9fe,1f3b2,1f4e3,1f4da,1f50d"
         },
         {
             "format": "woff2",
             "suffix": "min",
-            "codepoints": "1f9fe,1f3b2,1f4e3,1f4da"
+            "codepoints": "1f9fe,1f3b2,1f4e3,1f4da,1f50d"
         }
     ]
 }
+
+// https://fonts.googleapis.com/css?family=Noto%20Emoji&text=📚🎲📣🔍🧾

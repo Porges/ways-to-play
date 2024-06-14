@@ -48,9 +48,8 @@
 @font-face {
     font-family: "Noto Emoji";
     font-display: swap;
-    src: url('/fonts/NotoEmoji-Medium-min.woff2') format('woff2'),
-         url('/fonts/NotoEmoji-Medium-min.woff') format('woff');
-    unicode-range: U+1f9fe, U+1f3b2, U+1f4e3, U+1f4da;
+    src: url('/fonts/NotoEmoji-Medium-min.woff2') format('woff2');
+    unicode-range: U+1f9fe, U+1f3b2, U+1f4e3, U+1f4da, U+1f50d;
 }
 
 @font-face {
