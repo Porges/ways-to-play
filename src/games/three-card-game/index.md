@@ -1,48 +1,70 @@
 ---
-title: Oicho-Kabu
-titleLang: ja-Latn
-originalTitle: <span lang="ja">おいちょかぶ</span>
+title: The Three-Card Game
 draft: true
-countries: JP
+countries: JP,AU,US
 subgames:
+- title: Oicho-Kabu
+  titleLang: ja-Latn
+  originalTitle: <span lang="ja">おいちょかぶ</span>
+  countries: JP
 - title: Kabu
   titleLang: en
+  countries: US
 ---
 
 <p class="lead">
-<span class="noun" lang="ja-Latn">Oicho-Kabu</span> (<span lang="ja">おいちょかぶ</span>, ‘eight-nine’) is a Japanese gambling game in the style of Baccarat.
+This page discusses variants of what — for lack of a better term — I call the ‘three-card game’. The game is played with a deck of cards and the goal is to achieve a score as close to 9 as possible. It dates from at least the late Ming dynasty ({%c%} 1580–1600), but has spread to many countries, with one route in particular originating in Japan, passing down through the Malay Archipelago, and arriving in Aboriginal communities in the Northern Territory of Australia. The most widespread version of the game today is that derived in Europe and known as Baccarat.
 </p>
 
-<!-- excerpt -->
-
+<!--
 {% image position="left" src="../../maps/OichoKabu.svg" alt="" %}
 Countries where the game has been played.
 {% imageEnd %}
+-->
 
-The game originated in Japan, probably based upon some now-lost Portuguese game, but has surprisingly also been seen played amongst Aboriginal communities in the northern parts of Australia (particularly by [Larrakia](https://en.wikipedia.org/wiki/Larrakia_people) people around Darwin), apparently having been transferred there by Japanese sailors working in [the pearl industry](https://en.wikipedia.org/wiki/Pearling_in_Western_Australia).[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <span class="noun" lang="ja-Latn">Nintendō</span> advertising poster from the early 20th century also indicates that their cards were being exported to Australia. In Australia the game was played with standard “international” playing cards. There it is also called <span class="aka">cabul-card</span> or <span class="aka">two-three card</span>.[@WhatsTheBigDeal p. 668]
+The earliest reference that I know of is that of <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒</span>, 1556–1622), a late Ming-era poet who mentioned the game <span lang="zh" class="aka">扯三章</span>/<span lang="zh" class="aka">扯三張</span>{%fn%}The first name is used in the @YeziPu, the second in @XuYeziPu.{%endfn%}  (‘draw 3 cards’) in passing while describing the rules of the game <span lang="zh">扯三章</span> (‘draw 5 cards’, for which, see the {%gameref five-card%} article). The rules are not explicitly given (he simply states <span lang="zh">扯三張例俱如前</span> ‘drawing 3 cards: rules as above’ after a subsection of the 5-card rules), but it is clear from the context that the game is essentially the same as the more recent versions given below.[@XuYeziPu_2] <span lang="cmn-Latn-pinyin" class="noun">Pān</span> also describes the game being played for drinks:[@XuYeziPu_2 281]
+
+> In the <span lang="zh-Latn">wuzi</span> year [<span lang="zh">戊子</span>, here 1588], I was with his lordship the Vice Minister of War Wang Shizhen [<span lang="zh">王世贞</span>, 1526–90]{%fn%}Also a poet, calligrapher, and historian.{%endfn%} in his official residence in the auxiliary capital Nanjing. We drank and wrote poetry together every day. When a few rounds had passed, he would have cards brought out,and we would play the game ‘Drawing Three Cards’. Each one would take turns being the ‘banker’, and the others would gather round and play against him. There would be complete wins or losses, or a mixture of both. Those who lost would drink a large cup. Sometimes, one of the players would try to get up and escape, feeling unable to drink anymore. If he was really inebriated, we would not chase him. If he was pretending, we would stop him. If someone was the sole winner, others would feel dissatisfied, and he would have to play against everyone again. All gave shouts of delight and had a wonderful time. His lordship would sometimes be in his cups, and would tell his two pages to help him retire. The guests would then continue with his sons and play to their hearts’ delight. These sessions were frequent, but each time the game provided fresh delights. There is just no better drinking game than this.
+
+I don’t yet know of any other Chinese references to the game, so the game may have been a game of lower status which was not commonly played — or at least described — by the literati.
+
+The facts of the Chinese game at this point were: it was played with a money-suited deck of thirty cards ranking 1–9 in 3 suits (coins, strings, and myriads), and the goal was to get a total as close to 9 as possible. The 3 honour or ‘flower’ (<span lang="zh">花</span>) cards were also used and could count as one or zero.
+
+(https://iiif.lib.harvard.edu/manifests/view/drs:428497656$67i)
+
+Within the next hundred years, Portuguese sailors had taken the game to Japan (possibly picking it up from the Portuguese port at Macau, from which one of the earliest European games also takes its name).{%fn%}The Portuguese influence upon the Japanese game is known through the use of a Portuguese name and terminology (for more see below), as well as cards derived from European and not Chinese examples.{%endfn%} It is unclear whether or not the game was played in Europe at this time, but the lack of other references to it makes it seem unlikely.
+
+The Japanese game is also played amongst Aboriginal communities in the northern parts of Australia (particularly by [Larrakia](https://en.wikipedia.org/wiki/Larrakia_people) people around Darwin), apparently having been transferred there by Japanese sailors working in [the pearl industry](https://en.wikipedia.org/wiki/Pearling_in_Western_Australia).[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <span class="noun" lang="ja-Latn">Nintendō</span> advertising poster from the early 20th century also indicates that their cards were being exported to Australia.
+
 
 The same game was reported under the name <span lang="pis">kura</span> in the Solomon Islands in the 1970s,[@EthnographicPsychology p. 271]{%fn%}The word also seems to apply to gambling in general.{%endfn%} and it is still played there to this day.[@IllegalCardGamesToBeBanned]
 
-In Papua New Guinea it has been called <span lang="tpi">kawu</span> — clearly derived from the Japanese name.[@ThreeMoreNewGuineanCardGames p. 54]{%fn%}It is worth noting that in the article @ThreeMoreNewGuineanCardGames the author’s informant definitely knows more about the history of the game; it is not “almost certainly European in origin”!{%endfn%} Further versions of this game — of which there are many — are called <span lang="tpi">laki</span> (‘lucky’),[@ThreeNativeCardGames p. 50] and some variants are described below.  More extreme variations are described in their own article: {%gameref laki%}.
+In Papua New Guinea it has been called <span lang="tpi">kawu</span> — clearly derived from the Japanese name.[@ThreeMoreNewGuineanCardGames p. 54]{%fn%}It is worth noting that in the article @ThreeMoreNewGuineanCardGames the author’s informant definitely knows more about the history of the game; it is not “almost certainly European in origin”!{%endfn%} Further versions of this game — of which there are many — are called <span lang="tpi">laki</span> (‘lucky’),[@ThreeNativeCardGames p. 50] and these variants are described below.
 
 Self Note: See the Makassar dictionary re kawu (the game) vs kuwa (the winning call). Kuwa could also mean "nine" there, and be from Hokkien? Kuwa also in [@ChineseLoanWordsMalay 56]
 
-Chinese game <span lang="zh" class="aka">扯三章</span>, or actually <span lang="zh" class="aka">扯三張</span> see @XuYeziPu_2. (https://iiif.lib.harvard.edu/manifests/view/drs:428497656$67i)
 
-## Equipment
+## <span lang="aka noun" lang="ja-Latn">Oicho-Kabu</span> <span lang="ja" class="aka">おいちょかぶ</span>: The Japanese Game
 
-The game in Japan is played with special cards called <span lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span lang="ja-Latn">kabu</span> cards’), which are numbered from 1–10. A full deck is 40 cards, and has four copies of each card.
+<span class="noun" lang="ja-Latn">Oicho-Kabu</span> (<span lang="ja">おいちょかぶ</span>, ‘eight-nine’) is a Japanese version of the game which has been played as a gambling game for a long time. 
 
-It can also be played with <span lang="ja-Latn">hanafuda</span> cards (by dropping two months),{%fn%}There are also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of the standard deck.{%endfn%} or with all of the {% cards 'A–10' %} from a standard deck of playing cards.
+In Japan the game is usually played with special cards called <span lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span lang="ja-Latn">kabu</span> cards’), which are numbered from 1–10. A full deck is 40 cards, and has four copies of each card. It can also be played with <span lang="ja-Latn">hanafuda</span> cards (by dropping two months),{%fn%}There are also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of the standard deck.{%endfn%} or with all of the {% cards 'A–10' %} from a standard deck of playing cards.
 
 {%image 
   src='../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg'
-  size="wide"
   alt="" %}
 A full deck of forty <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
 {% imageEnd %}
 
-## Play
+Possibly the game was originally called the ‘three card’ (<span lang="ja">三枚</span>) game.
+
+### Play
+
+{%image src="3card.png" alt="" noborder=true position="aside"
+  license="cc0" originalUrl="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/cb3e601f-5df0-4433-bbae-723e214ef33c"
+  orgName="General Library in the University of Tokyo" %}
+A three-card game being played in a picture that accompanies the story “A Man Coming to [Ponto”](https://en.wikipedia.org/wiki/Ponto-ch%C5%8D) <span lang="ja">「<ruby>先斗<rp>（</rp><rt>ぼんと</rt><rp>）</rp></ruby>に<ruby>置<rp>（</rp><rt>をい</rt><rp>）</rp></ruby>て<ruby>来多<rp>（</rp><rt>きた</rt><rp>）</rp></ruby>男」</span> in the book <cite>Twenty Cases of Unfilial Children</cite> <cite lang="ja">本朝二十不孝</cite> (1686) by [<span lang="ja-Latn" class="noun">Ihara Saikaku</span>](https://en.wikipedia.org/wiki/Ihara_Saikaku) (<span lang="ja">井原西鶴</span>, 1642—1693); the book is a parody of the Chinese classic [<cite>Twenty-Four Paragons of Filial Piety</cite> <cite lang="zh">二十四孝</span>.](https://en.wikipedia.org/wiki/The_Twenty-four_Filial_Exemplars)
+{%imageEnd%}
 
 Up to ten people can play the game (aside from the dealer).
 
@@ -68,7 +90,7 @@ In the [<cite>Yakuza</cite>](https://en.wikipedia.org/wiki/Yakuza_(franchise)) v
 * A player who is dealt the two cards {%cards '4–6'%}, in any order, may choose
   to turn in their cards and keep their stake, instead of playing out the round.
 
-## Terminology
+### Special Terminology
 
 The hand totals are counted with special gambling-specific numbers. Some of these — like the playing cards themselves — are derived from Portuguese:
 
@@ -145,7 +167,7 @@ The hand totals are counted with special gambling-specific numbers. Some of thes
 </tbody>
 </table>
 
-### Named hands
+#### Named hands
 
 In the past, some combinations of hands totalling 9 (<span lang="ja-Latn">kabu</span>) were named. In the erotic book <cite>Lustful Plum Blossom Fence</cite> (<cite lang="ja">好色梅花垣</cite>, date unknown to me), the following names were given. The meaning of most of the names is obscure.[@EbashiKabuCarta]
 
@@ -187,21 +209,9 @@ This term was adopted by gamblers as a nickname and eventually became the standa
 
 As to _why_ this particular hand was chosen, there are several options. Note that it is not the only hand that sums to zero; there are 22 such hands.  However, it is the only hand containing an {%cards 8%} and a {%cards 9%} that results in a zero score; thus if the name of the game is “8, 9…” it is naturally followed by “3”.
 
-## History
-
-Possibly the game was originally called the ‘three card’ (<span lang="ja">三枚</span>) game.
-
-{%image src="3card.png" alt="" noborder=true position="aside"
-  license="cc0" originalUrl="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/cb3e601f-5df0-4433-bbae-723e214ef33c"
-  orgName="General Library in the University of Tokyo" %}
-A three-card game being played in a picture that accompanies the story “A Man Coming to [Ponto”](https://en.wikipedia.org/wiki/Ponto-ch%C5%8D) <span lang="ja">「<ruby>先斗<rp>（</rp><rt>ぼんと</rt><rp>）</rp></ruby>に<ruby>置<rp>（</rp><rt>をい</rt><rp>）</rp></ruby>て<ruby>来多<rp>（</rp><rt>きた</rt><rp>）</rp></ruby>男」</span> in the book <cite>Twenty Cases of Unfilial Children</cite> <cite lang="ja">本朝二十不孝</cite> (1686) by [<span lang="ja-Latn" class="noun">Ihara Saikaku</span>](https://en.wikipedia.org/wiki/Ihara_Saikaku) (<span lang="ja">井原西鶴</span>, 1642—1693); the book is a parody of the Chinese classic [<cite>Twenty-Four Paragons of Filial Piety</cite> <cite lang="zh">二十四孝</span>.](https://en.wikipedia.org/wiki/The_Twenty-four_Filial_Exemplars)
-{%imageEnd%}
-
-## Variants
-
 ### Kabu
 
-This is a simplified variant by [Sid Sackson](/articles/people/sid-sackson/), for 2–6 players, described in @CardGamesAroundTheWorld [p. 12].
+This is a simplified variant of <span lang="ja-Latn" class="noun">Oicho-Kabu</span> by [Sid Sackson](/articles/people/sid-sackson/), for 2–6 players, as described in @CardGamesAroundTheWorld [p. 12].
 
 Play with the {% cards 'A–⑩' %} from a standard deck of cards. You will also need some chips to keep track of score. Sids’ suggested chip distribution for each player is:
 
@@ -263,3 +273,11 @@ After all players have finished requesting new cards, the hands are revealed.  E
 The game ends when a player is unable to pay their debts as they have run out of chips. They do not pay any of their remaining chips. Whoever has the most points is the winner.
 
 **Variant:** in addition to dealing to the players, deal 6 cards face-up to the table. These cards are out of play but give the players more information about the cards remaining in the deck.
+
+## Laki: The Papuan Game
+
+## The Aboriginal Game
+
+In Australia the game was played with standard “international” playing cards. There it is also called <span class="aka">cabul-card</span> or <span class="aka">two-three card</span>.[@WhatsTheBigDeal p. 668]
+
+## The European Game
