@@ -21,8 +21,15 @@ let data = {
             /* copy across our own attributes */
             titleLang: data => data.titleLang,
             draft: data => data.draft,
-        }
-    }
+            permalink: data => {
+                if (IS_PRODUCTION && data.draft === true) {
+                    return false;
+                } else {
+                    return undefined;
+                }
+            },
+        },
+    },
 }
 
 //if (IS_PRODUCTION) {
