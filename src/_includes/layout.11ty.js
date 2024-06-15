@@ -149,7 +149,7 @@ exports.render = async function (data) {
     </main>
     <footer class="navbar navbar-expand navbar-dark bg-primary mt-4">
       <span class="navbar-text ms-2 ms-lg-4 me-2">
-        <a href="https://neocities.org/site/waystoplay"><img class="inline-img big" src="/small-images/Hosted_by_Neocities.svg" alt="Hosted by Neocities" /></a>
+        <a href="https://neocities.org/site/waystoplay"><img width="135" height="40" class="inline-img big" src="/small-images/Hosted_by_Neocities.svg" alt="Hosted by Neocities" /></a>
       </span>
       <span class="ms-lg-auto ms-2 navbar-text me-2 me-lg-4">
       ©
