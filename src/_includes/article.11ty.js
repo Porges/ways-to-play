@@ -55,7 +55,7 @@ exports.render = async function (data) {
                     + '</p>'
                     + '</a>')
                 + '</div>'
-                + '<div class="col-xs-12 col-md-6">'
+                + '<div class="col-xs-12 col-md-6 content">'
                 + ifSet(nextArticle, () =>
                     `<a href="${nextArticle.url}" class="nav-link" rel="next">`
                     + '<p class="text-end m-2">'

@@ -115,13 +115,18 @@ $font-family-sans-serif:
     "UniHentaiKana", // fallback for Hentaigana chars
     "Rejang", // fallback for Rejang script
     "Balinese"; // fallback for Balinese script
-
-$primary: #6b5293;
-$secondary: #7c85a3;
-$light: #f4f7f5;
-$dark: #201521;
-
-$accent: #af4157;
+    
+$light:      #f8dbc3;
+$dark:       #000649;
+$primary:    #7f5e48;
+$secondary:  #965541;
+$accent:     #483a55;
+$accent2:    #6d6f84;
+$accent3:    #b89da3;
+$info:       #fca53d;
+$success:    #55a611;
+$warning:    #ffc05b;
+$danger:     #f20861;
 
 $link-hover-decoration: underline $accent;
 $link-decoration: underline $light;
@@ -146,6 +151,11 @@ body {
     display: flex; 
     flex-direction: column;
     min-height: 100vh;
+    //background: $light;
+}
+
+.content {
+    //background: white;
 }
 
 h1, h2 {
@@ -280,6 +290,10 @@ blockquote {
 }
 
 /*** Figures ***/
+figure, figcaption {
+    //background: white;
+}
+
 .figure {
     display: table;
 }
@@ -309,7 +323,7 @@ img {
     width: auto;
     height: auto;
 
-    border: 1px solid black;
+    border: 1px solid $accent;
 }
 
 /* don't border diagrams by default */
@@ -451,7 +465,7 @@ div.multi > p {
 }
 
 .jumbotron.hero {
-    @extend .text-light;
+    color: white;
     position: relative;
 
     &[style] {
@@ -483,7 +497,8 @@ div.multi > p {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 0 .5em;
     border-top-left-radius: 5px;
-
+    
+    color: $light;
     a { color: $light }
 }
 
@@ -576,13 +591,13 @@ abbr[title="old-style"], .rnum {
 
 /*** Pronunciation ***/
 .pronunciation {
-    text-decoration: color.scale($secondary, $lightness: 30%) underline wavy;
+    text-decoration: $light underline wavy;
     text-decoration-skip-ink: none;
     cursor: help;
 }
 
 .pronunciation:hover {
-    text-decoration: $secondary underline wavy;
+    text-decoration: $accent underline wavy;
 }
 
 /*** Tables ***/
