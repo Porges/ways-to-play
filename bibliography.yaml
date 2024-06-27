@@ -20010,3 +20010,64 @@ NewMexicoMexican:
     issued:
       month: 1
       year: 1914
+LibroDeLasTahurerias:
+  type: book
+  title: '<span lang="es">Libro de las Tahurerías</span>: A Special Code of Law, Concerning Gambling, Drawn Up by Maestro Roldán at the Command of Afonso X of Castile'
+  author:
+  - given: Robert A.
+    family: MacDonald
+  publisher: Hispanic Seminary of Medieval Studies
+  issued: 1995
+  publisher-place: Madison, WI, USA
+  series:
+    title: Legal Series
+    volume: 19
+  ISBN: '1569540276'
+Notice12483:
+  type: article-journal
+  title:
+    lang: fr
+    value: Notice du Manuscrit Français 12483 de la Bibliothèque Nationale
+  author:
+  - given: Arthur
+    family: Långfors
+    lang: fi
+    url: https://fr.wikipedia.org/wiki/Arthur_L%C3%A5ngfors
+  URL: https://archive.org/details/NoticesEtExtraitsV39N2/page/n208
+  page: 503-665
+  in:
+    title:
+      value: Notices et extraits des manuscrits de la Bibliothèque nationale et autres bibliothèques
+      lang: fr
+    volume: 39
+    issue: 2
+    issued: 1916
+PoemeMoralise:
+  type: article-journal
+  title:
+    lang: fr
+    value: Poème Moralisé sur les Propriétés des Choses
+  author:
+  - given: Gaston
+    family: Raynaud
+    lang: fr
+  URL: https://www.jstor.org/stable/45042094
+  page: 442-484
+  in:
+    title: Romania
+    volume: 14
+    issue: 56
+    issued: 1885
+LesPoésiesPersonnellesReview:
+  type: article-journal
+  title: '<cite lang="fr">Les poésies personnelles de Rutebeuf. Étude linguistique et litiéraire, suivie d’une édition critique du texte avec commentaire et glossaire (Thèse de doctorat de Strasbourg)</cite> by Harry Lucas'
+  author:
+  - given: Julia
+    family: Bastin
+  page: 398-407
+  URL: https://www.jstor.org/stable/45045327
+  in:
+    title: Romania
+    volume: 66
+    issue: 263
+    issued: 1941
