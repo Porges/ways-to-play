@@ -53,10 +53,15 @@
 }
 
 @font-face {
-    font-family: "Noto Naksh";
+    font-family: "Noto Naskh Arabic";
     font-display: swap;
-    src: url('/fonts/NotoNaskhArabic-VariableFont_wght.woff2') format('woff2'),
-         url('/fonts/NotoNaskhArabic-VariableFont_wght.woff') format('woff');
+    src: local('Noto Naskh Arabic'), url('/fonts/NotoNaskhArabic-VariableFont_wght.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "Noto Nastaliq Urdu";
+    font-display: swap;
+    src: local('Noto Nastaliq Urdu'), url('/fonts/NotoNastaliqUrdu-VariableFont_wght.woff2') format('woff2');
 }
 
 @font-face {
@@ -89,8 +94,7 @@
 }
 @font-face {
     font-family: 'Balinese';
-    // TODO: this should probably be Noto Serif Balinese
-    src: local('Noto Sans Balinese'), serif;
+    src: local('Noto Serif Balinese'), serif;
     unicode-range: U+1b00-1b7f;
 }
 @font-face {

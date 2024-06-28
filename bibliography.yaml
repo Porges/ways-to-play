@@ -14285,9 +14285,10 @@ TheElizabethanPeople:
   publisher-place: New York
 PlayingCardsEmployment1:
   type: article-journal
-  title: The Antiquity and Use of Playing-Cards
-  page: 250–3, 
+  title: The Antiquity and Use of Playing-Cards 
+  page: 250–3
   URL: https://archive.org/details/repositoryofarts1020acke/page/250/mode/2up
+  notes: Article continued as ‘Playing-Cards, Their Origin and Employment’
   in:
     title: The Repository of Arts, Literature, Fasions, Manufactures, &c (Second Series)
     volume: 10
@@ -14300,7 +14301,7 @@ PlayingCardsEmployment2:
   type: article-journal
   title: Playing-Cards, Their Origin and Employment
   page: 317–320
-  notes: Much conjecture here is incorrect.
+  notes: Article continued from ‘The Antiquity and Use of Playing-Cards’; much conjecture here is incorrect.
   URL: https://archive.org/details/repositoryofarts1020acke/page/316/mode/2up
   in: 
     title: The Repository of Arts, Literature, Fasions, Manufactures, &c (Second Series)

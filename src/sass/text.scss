@@ -109,18 +109,22 @@ cite[lang] {
   }
 
   // Use a specific font for Arabic/Persian/etc, or else we get Times New Roman on Windows:
-  &:is( :lang(fa):not(:lang(fa-Latn)), // Persian 
-    :lang(ar):not(:lang(ar-Latn)), // Arabic
-    :lang(ur):not(:lang(ur-Latn)), // Urdu
+  &:is( :lang(ar):not(:lang(ar-Latn)), // Arabic
     :lang(ota):not(:lang(ota-Latn)), // Old Turkish
     // *-Arab is not yet supported
     :lang(wo-Arab), // Wolof
     :lang(ms-Arab), // Malay
-    :lang(pa-Arab), // Punjabi
     :lang(wni-Arab) // Comorian
-
   ) {
-    font-family: "Noto Naksh", serif;
+    font-family: "Noto Naskh Arabic", serif;
+  }
+  
+  &:is( :lang(fa):not(:lang(fa-Latn)), // Persian
+    :lang(ur):not(:lang(ur-Latn)), // Urdu
+    :lang(pa-Arab), // Punjabi
+    :lang(ks), :lang(ks-Arab) // Kashmiri
+  ) {
+    font-family: "Noto Nastaliq Urdu", serif;
   }
 }
 
