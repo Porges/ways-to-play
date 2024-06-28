@@ -36,12 +36,12 @@ seen have been stamped on the {% cards 'd2' %}.
 {% image 
     src='tax1.jpg'
     alt="" %}
-Tax stamp dated 14<sup>th</sup> March, 1913, on imported “1001 Aladdin” cards made by the National Card Co. of Indianapolis & New York.
+Tax stamp dated 14<sup class="ordinal">th</sup> March, 1913, on imported “1001 Aladdin” cards made by the National Card Co. of Indianapolis & New York.
 {% imageEnd %}
 {% image 
     src='tax2.jpg'
     alt="" %}
-Tax stamp dated 21<sup>st</sup> June, 1929, on imported “Congress” brand cards made by the United States Playing Card Co. in Windsor, Ontario, Canada.
+Tax stamp dated 21<sup class="ordinal">st</sup> June, 1929, on imported “Congress” brand cards made by the United States Playing Card Co. in Windsor, Ontario, Canada.
 {% imageEnd %}
 {% image 
     src='tax3.jpg'

@@ -214,3 +214,11 @@ cite[lang]:lang(fa):not(:lang(fa-Latn)) {
 .blue {
   color: #0000CC;
 }
+
+// make ordinal sups align with top of text, not above
+sup.ordinal {
+  vertical-align: top;
+  position: unset;
+  line-height: unset;
+  top: unset;
+}

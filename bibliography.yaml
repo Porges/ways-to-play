@@ -10046,7 +10046,7 @@ NotesOnFishing:
 FishingInYorkshire:
   type: article-journal
   URL: https://askalexander.org/display/72223/The+playing+card/69
-  title: "Playing the Game: Fishing in 18<sup>th</sup>-century Yorkshire"
+  title: 'Playing the Game: Fishing in 18<sup class="ordinal">th</sup>-century Yorkshire'
   author:
   - *John_McLeod
   page: 183-185
@@ -16836,7 +16836,7 @@ DepaulisPions:
   - *Thierry_Depaulis
   title: 
     lang: fr
-    value: Un jeu de pions mapuche au XVIe siècle
+    value: Un jeu de pions mapuche au XVI<sup class="ordinal">e</sup> siècle
   page: 87-94
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=82
   in: *bgs6
@@ -17993,7 +17993,7 @@ ELJocDeNaibs:
 Perpignan:
   type: article-journal
   title:
-    value: "Documents Historiques sur la Ville de Perpignan: V. Criées concernant les mœurs popularies au XVe siècle"
+    value: 'Documents Historiques sur la Ville de Perpignan: V. Criées concernant les mœurs popularies au XV<sup class="ordinal">e</sup> siècle'
     lang: fr
   page: 74-87
   URL: https://archive.org/details/revuecatalane12sociuoft/page/74/mode/2up
@@ -18044,7 +18044,7 @@ JongleursEtTrouveres:
   type: book
   URL: https://archive.org/details/jongleursettrou01jubigoog
   title:
-    value: 'Jongleurs et trouvères: ou, Choix de saluts, épîtres, rêveries et autres pièces légères des XIIIe et XIVe siècles'
+    value: 'Jongleurs et trouvères: ou, Choix de saluts, épîtres, rêveries et autres pièces légères des XIII<sup class="ordinal">e</sup> et XIV<sup class="ordinal">e</sup> siècles'
     lang: fr
   editor:
   - given: Achille
@@ -18055,7 +18055,7 @@ JongleursEtTrouveres:
 RutebeufComplete:
   type: book
   title: 
-    value: 'Oeuvres complètes de Rutebeuf: trouvère du XIIIe siècle'
+    value: 'Oeuvres complètes de Rutebeuf: trouvère du XIII<sup class="ordinal">e</sup> siècle'
     lang: fr
   editor:
   - given: Achille
@@ -18068,7 +18068,7 @@ ChansonsEtDits:
   type: book
   URL: https://archive.org/details/ChansonsEtDitsArtesiensDuXIIIeSi
   title:
-    value: Chansons et Dits Artésiens du XIIIe Siècle 
+    value: Chansons et Dits Artésiens du XIII<sup class="ordinal">e</sup> Siècle 
     lang: fr
   author:
   - given: Alfred
@@ -19477,7 +19477,7 @@ Allemagne1:
   type: book
   title:
     lang: fr
-    value: Les Cartes à Jouer du XIV<sup>e</sup> au XX<sup>e</sup> siècle
+    value: Les Cartes à Jouer du XIV<sup class="ordinal">e</sup> au XX<sup class="ordinal">e</sup> siècle
   author:
   - &Allemagne
     given: Henry-René
@@ -19494,7 +19494,7 @@ Allemagne2:
   type: book
   title:
     lang: fr
-    value: Les Cartes à Jouer du XIV<sup>e</sup> au XX<sup>e</sup> siècle
+    value: Les Cartes à Jouer du XIV<sup class="ordinal">e</sup> au XX<sup class="ordinal">e</sup> siècle
   author: [*Allemagne]
   volume: 2
   issued: 1906
