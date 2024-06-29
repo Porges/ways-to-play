@@ -42,6 +42,9 @@ exports.render = async function (data) {
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="preload" href="/fonts/charis/CharisSIL-Latin-Regular.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/fonts/charis/CharisSIL-Latin-Italic.woff2" as="font" type="font/woff2" />
+    <link rel="preload" href="/fonts/charis/CharisSIL-Latin-Bold.woff2" as="font" type="font/woff2" />
     <link rel="stylesheet" href="/fonts/charis.css" type="text/css" />
     <link rel="stylesheet" href="/css/index.css" type="text/css" />
     <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
