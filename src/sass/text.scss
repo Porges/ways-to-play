@@ -94,8 +94,9 @@ rt {
   font-variant-east-asian: ruby;
 }
 
-span[lang]:lang(el):not(:lang(el-Latn)) {
-  // Charis does not have good coverage of Greek
+span[lang]:lang(el):not(:lang(el-Latn)),
+span[lang]:lang(gr):not(:lang(gr-Latn)) {
+  // Charis does not have good coverage of Polytonic Greek
   font-family: serif;
 }
 
