@@ -1,0 +1,49 @@
+
+/* Greek */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Greek-Bold.woff2') format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* Greek */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Greek-BoldItalic.woff2') format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* Greek */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Greek-Italic.woff2') format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* Greek */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Greek-Regular.woff2') format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* Latin */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Bold.woff2') format('woff2');
+    unicode-range: U+0020-007F,U+00A0-00FF,U+2000-206F;
+}
+/* Latin */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-BoldItalic.woff2') format('woff2');
+    unicode-range: U+0020-007F,U+00A0-00FF,U+2000-206F;
+}
+/* Latin */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Italic.woff2') format('woff2');
+    unicode-range: U+0020-007F,U+00A0-00FF,U+2000-206F;
+}
+/* Latin */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Regular.woff2') format('woff2');
+    unicode-range: U+0020-007F,U+00A0-00FF,U+2000-206F;
+}

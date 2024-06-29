@@ -65,34 +65,6 @@
 }
 
 @font-face {
-    font-family: CharisSILW;
-    font-display: swap;
-    src: url('/fonts/CharisSIL-Regular.woff2') format('woff2'),
-        url('/fonts/CharisSIL-Regular.woff') format('woff');
-}
-@font-face {
-    font-family: CharisSILW;
-    font-display: swap;
-    font-style: italic;
-    src: url('/fonts/CharisSIL-Italic.woff2') format('woff2'),
-        url('/fonts/CharisSIL-Italic.woff') format('woff');
-}
-@font-face {
-	font-family: CharisSILW;
-    font-display: swap;
-	font-weight: bold;
-	src: url('/fonts/CharisSIL-Bold.woff2') format('woff2'),
-        url('/fonts/CharisSIL-Bold.woff') format('woff');
-}
-@font-face {
-	font-family: CharisSILW;
-    font-display: swap;
-	font-weight: bold;
-	font-style: italic;
-	src: url('/fonts/CharisSIL-BoldItalic.woff2') format('woff2'),
-        url('/fonts/CharisSIL-BoldItalic.woff') format('woff');
-}
-@font-face {
     font-family: 'Balinese';
     src: local('Noto Serif Balinese'), serif;
     unicode-range: U+1b00-1b7f;
@@ -111,7 +83,7 @@
 
 
 $font-family-sans-serif:
-    CharisSILW,
+    "Charis SIL",
     "NKS30",
     "Noto Emoji",
     serif, 

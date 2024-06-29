@@ -42,12 +42,10 @@ exports.render = async function (data) {
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <link rel="stylesheet" href="/fonts/charis.css" type="text/css" />
     <link rel="stylesheet" href="/css/index.css" type="text/css" />
     <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
     <link rel="canonical" href="${data.site.url}${data.page.url}" />
-    <link rel="preload" crossorigin="anonymous" href="/fonts/CharisSIL-Regular.woff2" as="font" type="font/woff2" />
-    <link rel="preload" crossorigin="anonymous" href="/fonts/CharisSIL-Italic.woff2" as="font" type="font/woff2" />
-    <link rel="preload" crossorigin="anonymous" href="/fonts/CharisSIL-Bold.woff2" as="font" type="font/woff2" />
     <link rel="alternate" type="application/atom+xml" title="Ways To Play Atom feed" href="/atom.xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="generator" content="Eleventy" />
