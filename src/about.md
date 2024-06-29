@@ -94,7 +94,7 @@ BY](http://creativecommons.org/licenses/by/3.0/).
 
 The site is generated with [Eleventy](https://www.11ty.dev/), with a bunch of custom code!
 
-Thi main font used is [Charis SIL](https://software.sil.org/charis/), which is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
+The main font used is Adobe’s [Source Serif 4](https://fonts.adobe.com/fonts/source-serif-4), which is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL). [Charis SIL](https://software.sil.org/charis/) (also licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL)) is used as a fallback for some rarer characters (e.g. mediævalist abbreviations), as it is very similar in design to Source Serif.
 
 <!--
 The main font used is the [Brill typeface v4.0](https://brill.com/page/BrillFont/brill-typeface), which is free for non-commercial use.

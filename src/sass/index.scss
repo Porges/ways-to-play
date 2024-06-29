@@ -71,9 +71,9 @@
         url('/fonts/EgyptianText.woff') format('woff');
 }
 
-
 $font-family-sans-serif:
-    "Charis SIL",
+    "Source Serif 4",
+    "Charis SIL", // very similar to Source Serif, used as a fallback for medievalist and other chars
     "NKS30",
     "Noto Emoji",
     serif, 
