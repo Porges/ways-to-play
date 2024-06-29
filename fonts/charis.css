@@ -5,7 +5,7 @@
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Bold.woff2') format('woff2');
     font-display: block;
     font-weight: bold;
-    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff;
+    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+2150-215e;
 }
 /* Latin (BasicLatin, GeneralPunctuation, Latin1Supplement) */
 @font-face {
@@ -14,7 +14,7 @@
     font-display: block;
     font-style: italic;
     font-weight: bold;
-    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff;
+    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+2150-215e;
 }
 /* Latin (BasicLatin, GeneralPunctuation, Latin1Supplement) */
 @font-face {
@@ -22,14 +22,14 @@
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Italic.woff2') format('woff2');
     font-display: block;
     font-style: italic;
-    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff;
+    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+2150-215e;
 }
 /* Latin (BasicLatin, GeneralPunctuation, Latin1Supplement) */
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Regular.woff2') format('woff2');
     font-display: block;
-    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff;
+    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+2150-215e;
 }
 /* LatinExt (LatinExtendedA, CombiningDiacriticalMarks) */
 @font-face {

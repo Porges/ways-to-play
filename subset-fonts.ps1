@@ -11,6 +11,7 @@ $subsets = [ordered]@{
     "Latin" = @{
         "Features" = "c2sc,smcp,subs,sups"
         "Display" = "block"
+        "Additional" = "U+2150-215e"
         "Blocks" = @("BasicLatin", "GeneralPunctuation", "Latin1Supplement")
     }
     # Don't need smcp/c2sc for these
@@ -52,6 +53,9 @@ foreach ($subset in $subsets.GetEnumerator()) {
     $name = $subset.Key 
     echo "$name - $($subset.Value.Blocks)"
     $whitelist = ($subset.Value.Blocks | %{ whitelistFromBlock($_) }) -join ','
+    if ($subset.Value.ContainsKey('Additional')) {
+        $whitelist += ",$($subset.Value.Additional)"
+    }
     
     $features = @()
     if ($subset.Value.ContainsKey('Features')) {
