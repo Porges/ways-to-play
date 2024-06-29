@@ -3,6 +3,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Bold.woff2') format('woff2');
+    font-display: block;
     font-weight: bold;
     unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff;
 }
@@ -10,6 +11,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-BoldItalic.woff2') format('woff2');
+    font-display: block;
     font-style: italic;
     font-weight: bold;
     unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff;
@@ -18,6 +20,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Italic.woff2') format('woff2');
+    font-display: block;
     font-style: italic;
     unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff;
 }
@@ -25,12 +28,14 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Latin-Regular.woff2') format('woff2');
+    font-display: block;
     unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff;
 }
 /* LatinExt (LatinExtendedA, CombiningDiacriticalMarks) */
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-LatinExt-Bold.woff2') format('woff2');
+    font-display: swap;
     font-weight: bold;
     unicode-range: U+0100-017f,U+0300-036f;
 }
@@ -38,6 +43,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-LatinExt-BoldItalic.woff2') format('woff2');
+    font-display: swap;
     font-style: italic;
     font-weight: bold;
     unicode-range: U+0100-017f,U+0300-036f;
@@ -46,6 +52,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-LatinExt-Italic.woff2') format('woff2');
+    font-display: swap;
     font-style: italic;
     unicode-range: U+0100-017f,U+0300-036f;
 }
@@ -53,12 +60,46 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-LatinExt-Regular.woff2') format('woff2');
+    font-display: swap;
     unicode-range: U+0100-017f,U+0300-036f;
+}
+/* Cyrillic (Cyrillic) */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Cyrillic-Bold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: bold;
+    unicode-range: U+0400-04ff;
+}
+/* Cyrillic (Cyrillic) */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Cyrillic-BoldItalic.woff2') format('woff2');
+    font-display: swap;
+    font-style: italic;
+    font-weight: bold;
+    unicode-range: U+0400-04ff;
+}
+/* Cyrillic (Cyrillic) */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Cyrillic-Italic.woff2') format('woff2');
+    font-display: swap;
+    font-style: italic;
+    unicode-range: U+0400-04ff;
+}
+/* Cyrillic (Cyrillic) */
+@font-face {
+    font-family: 'Charis SIL';
+    src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Cyrillic-Regular.woff2') format('woff2');
+    font-display: swap;
+    unicode-range: U+0400-04ff;
 }
 /* ChineseTranslit (LatinExtendedB, SuperscriptsandSubscripts) */
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-ChineseTranslit-Bold.woff2') format('woff2');
+    font-display: swap;
     font-weight: bold;
     unicode-range: U+0180-024f,U+2070-209f;
 }
@@ -66,6 +107,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-ChineseTranslit-BoldItalic.woff2') format('woff2');
+    font-display: swap;
     font-style: italic;
     font-weight: bold;
     unicode-range: U+0180-024f,U+2070-209f;
@@ -74,6 +116,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-ChineseTranslit-Italic.woff2') format('woff2');
+    font-display: swap;
     font-style: italic;
     unicode-range: U+0180-024f,U+2070-209f;
 }
@@ -81,12 +124,14 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-ChineseTranslit-Regular.woff2') format('woff2');
+    font-display: swap;
     unicode-range: U+0180-024f,U+2070-209f;
 }
 /* VietIndic (LatinExtendedAdditional) */
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-VietIndic-Bold.woff2') format('woff2');
+    font-display: swap;
     font-weight: bold;
     unicode-range: U+1e00-1eff;
 }
@@ -94,6 +139,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-VietIndic-BoldItalic.woff2') format('woff2');
+    font-display: swap;
     font-style: italic;
     font-weight: bold;
     unicode-range: U+1e00-1eff;
@@ -102,6 +148,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-VietIndic-Italic.woff2') format('woff2');
+    font-display: swap;
     font-style: italic;
     unicode-range: U+1e00-1eff;
 }
@@ -109,12 +156,14 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-VietIndic-Regular.woff2') format('woff2');
+    font-display: swap;
     unicode-range: U+1e00-1eff;
 }
 /* Historical (LatinExtendedD) */
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Historical-Bold.woff2') format('woff2');
+    font-display: swap;
     font-weight: bold;
     unicode-range: U+a720-a7ff;
 }
@@ -122,6 +171,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Historical-BoldItalic.woff2') format('woff2');
+    font-display: swap;
     font-style: italic;
     font-weight: bold;
     unicode-range: U+a720-a7ff;
@@ -130,6 +180,7 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Historical-Italic.woff2') format('woff2');
+    font-display: swap;
     font-style: italic;
     unicode-range: U+a720-a7ff;
 }
@@ -137,5 +188,6 @@
 @font-face {
     font-family: 'Charis SIL';
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Historical-Regular.woff2') format('woff2');
+    font-display: swap;
     unicode-range: U+a720-a7ff;
 }

@@ -10,11 +10,16 @@ $fontFamily = "Charis SIL";
 $subsets = [ordered]@{
     "Latin" = @{
         "Features" = "c2sc,smcp,subs,sups"
+        "Display" = "block"
         "Blocks" = @("BasicLatin", "GeneralPunctuation", "Latin1Supplement")
     }
     # Don't need smcp/c2sc for these
     "LatinExt" = @{
         "Blocks" = @("LatinExtendedA", "CombiningDiacriticalMarks")
+    }
+    # Cyrillic
+    "Cyrillic" = @{
+        "Blocks" = @("Cyrillic")
     }
     # Chinese (Pinyin & Jyutping) transliteration
     "ChineseTranslit" = @{
@@ -64,6 +69,11 @@ foreach ($subset in $subsets.GetEnumerator()) {
         echo "@font-face {" >> $css
         echo "    font-family: '$fontFamily';" >> $css
         echo "    src: local('$fontFamily'), url('/fonts/charis/$(Split-Path -Leaf $targetFile)') format('woff2');" >> $css
+        if ($subset.Value.ContainsKey("Display")) {
+            echo "    font-display: $($subset.Value.Display);" >> $css
+        } else {
+            echo "    font-display: swap;" >> $css
+        }
         if ($file.Name -like "*Italic*") {
             echo "    font-style: italic;" >> $css
         }
