@@ -144,6 +144,16 @@ h1, h2 {
 h2 {
     margin-left: calc(-1 * var(--base-unit));
     border-bottom: 1px solid var(--colour-accent2);
+    
+    /*
+    &::before {
+        content: "● ";
+    }
+    */
+}
+
+h3 {
+    border-bottom: 1px solid var(--colour-light);
 }
 
 p {
@@ -336,7 +346,6 @@ span.draft {
 figure {
     margin-top: var(--base-unit);
     clear: both;
-    text-align: center;
 
     .figure-img {
         display: block;
@@ -345,11 +354,24 @@ figure {
         height: auto;
         width: auto;
         object-fit: contain;
+        margin: auto;
         
         cursor: zoom-in;
 
         &:not(.border-0) {
             border: 1px solid var(--colour-accent2);
+        }
+    }
+    
+    &.extra-small {
+        .figure-img {
+            max-height: 100px;
+        }
+    }
+    
+    &.small {
+        .figure-img {
+            max-height: 200px;
         }
     }
     

@@ -58,7 +58,7 @@ Undated tax stamp from A. D. Willis cards.
 
 ## Manufacturers
 
-## John Dickinson/Croxley
+### John Dickinson/Croxley
 
 {%aside%}
 The original John Dickinson/Croxley factory (known as “Croxley house”) still
