@@ -1,5 +1,13 @@
 :root {
-    --base-unit: 1.5rem;
+    --font-size: 1.125rem;
+    --base-unit: calc(1.125 * 1.5rem);
+    --text-width: calc(22 * var(--base-unit));
+    --footnote-width: calc(15 * var(--base-unit));
+
+    --bu2: calc(2 * var(--base-unit));
+
+    --font-size-sm: calc(0.75 * var(--font-size));
+    --line-height-sm: calc(0.75 * var(--base-unit));
 
     color-scheme: light dark;
 
@@ -15,6 +23,29 @@
     --colour-success: #55a611;
     --colour-warning: #ffc05b;
     --colour-danger: #f20861;
+
+    /* Overridden by media queries */
+    --nav-direction: column;
+    --main-padding-left: var(--base-unit);
+    --main-padding-right: var(--base-unit);
+    --figure-wide-overlap: 0;
+}
+
+/*
+sm: 576px;
+md: 768px;
+lg: 992px;
+xl: 1200px;
+xxl: 1400px;
+*/
+
+@media (min-width: 768px) {
+    :root {
+        --main-padding-left: 20vw;
+        --main-padding-right: var(--bu2);
+        --nav-direction: row;
+        --figure-wide-overlap: calc(3 * var(--base-unit));
+    }
 }
 
 /*** Reset (based upon ) ***/
@@ -30,8 +61,6 @@
 
 body {
     -webkit-font-smoothing: antialiased;
-    line-height: 1.5;
-    /* WCAG requirement */
 }
 
 input,
@@ -41,7 +70,6 @@ select {
     font: inherit;
 }
 
-p,
 h1,
 h2,
 h3,
@@ -58,18 +86,29 @@ body {
     min-height: 100vh;
 }
 
-main {
-    padding-left: var(--base-unit);
-    padding-right: var(--base-unit);
+article {
+    display: grid;
+    grid-template-columns:
+        minmax(var(--figure-wide-overlap), 1fr)
+        var(--text-width)
+        minmax(calc(var(--footnote-width) + var(--base-unit)), 3fr);
+
+    &>* {
+        grid-column: 2;
+    }
 }
 
 /*** Text setup ***/
 body {
-    font-size: 1rem;
+    font-size: var(--font-size);
     font-family:
         "Source Serif 4",
         "Charis SIL",
         serif;
+    /* WCAG suggestion */
+    line-height: var(--base-unit);
+    font-weight: 380;
+
 
     /** pwid: We are going to be embedding Japanese and Chinese in Latin text,
         so make them proportional. This has better spacing for kana etc. */
@@ -91,24 +130,49 @@ h3,
 h4,
 h5,
 h6 {
+    margin-top: var(--base-unit);
+    
+    .permalink {
+        display: none; /* TODO */
+    }
+}
+
+h1, h2 { 
     line-height: calc(2 * var(--base-unit));
 }
 
+h2 {
+    margin-left: calc(-1 * var(--base-unit));
+    border-bottom: 1px solid var(--colour-accent2);
+}
+
 p {
-    margin-top: 1.5em;
     /* == line-height */
 
     /* Lead paragraphs */
     &.lead {
-        font-size: larger;
-        /* TODO */
         font-weight: 350;
+        font-size: calc(1.5 * var(--font-size));
+        line-height: calc(1.5 * var(--base-unit));
+        
+        /* Push out RHS by same amount as figure */
+        margin-right: calc(-2 * var(--figure-wide-overlap));
+        
+        text-align: left;
     }
 
     &:not(.lead) {
         hyphens: auto;
-        text-align: justify;
     }
+}
+
+* + p {
+    margin-top: 1.5em;
+}
+
+/* Main content is justified */
+section>p {
+    text-align: justify;
 }
 
 a {
@@ -121,18 +185,17 @@ a {
 }
 
 /*** Header & Footer ***/
-header>nav,
+nav.site,
 footer {
     padding: var(--base-unit);
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    flex-direction: var(--nav-direction);
 }
 
-header>nav {
+header {
     margin-bottom: calc(2 * var(--base-unit));
-    border-bottom: 2px solid var(--colour-accent2);
 }
 
 footer {
@@ -146,15 +209,16 @@ nav {
         text-decoration: none;
     }
 
-    .brand, .page-title {
+    .brand,
+    .page-title {
         font-size: 2rem;
         line-height: 2rem;
     }
-    
+
     .brand {
         font-weight: 900;
     }
-    
+
     .page-title {
         font-style: italic;
         font-weight: bolder;
@@ -190,6 +254,30 @@ nav {
     }
 }
 
+/*** Breadcrumbs ***/
+
+nav.breadcrumbs {
+    padding: 0 1em 0 1em;
+
+    ol {
+        padding-left: 0;
+
+        list-style: none;
+
+        li {
+            &::before {
+                content: " / ";
+                color: var(--colour-accent2);
+            }
+
+            display: inline;
+        }
+    }
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
 /*** Citations ***/
 
 sup.citation {
@@ -197,6 +285,21 @@ sup.citation {
     font-size: unset;
     vertical-align: unset;
     font-variant-position: super;
+}
+
+/*** Abbreviations ***/
+
+abbr {
+    text-decoration: none;
+
+    &[title] {
+        cursor: help;
+    }
+
+    &.initialism {
+        /* apply 'c2sc' feature */
+        font-variant-caps: all-small-caps;
+    }
 }
 
 /*** Misc ***/
@@ -216,4 +319,143 @@ span.draft {
     &::before {
         content: '🚧';
     }
+}
+
+/*** Images ***/
+.inline-img {
+    height: 1em;
+    margin-bottom: -1px;
+
+    &.big {
+        height: 2em;
+    }
+}
+
+/*** Figures ***/
+
+figure {
+    margin-top: var(--base-unit);
+    clear: both;
+    text-align: center;
+
+    .figure-img {
+        display: block;
+        max-width: 100%;
+        max-height: 450px;
+        height: auto;
+        width: auto;
+        object-fit: contain;
+        
+        cursor: zoom-in;
+
+        &:not(.border-0) {
+            border: 1px solid var(--colour-accent2);
+        }
+    }
+    
+    &.wide {
+        margin-left: calc(-1 * var(--figure-wide-overlap));
+        /* bias it to the right a bit */
+        margin-right: calc(-2 * var(--figure-wide-overlap));
+        
+        /* we know this won’t be too tall because it’s wide */
+        .figure-img {
+            max-height: unset;
+        }
+    }
+    
+    &.extra-wide {
+        margin-left: calc(-1 * var(--figure-wide-overlap));
+        margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
+        
+        .figure-img {
+            max-height: unset;
+        }
+    }
+}
+
+figcaption {
+    margin-top: calc(0.5 * var(--base-unit));
+
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+
+    text-align: center;
+    text-wrap: balance;
+}
+
+dialog.lightbox {
+    max-width: calc(100vw - 20px);
+    max-height: calc(100vh - 20px);
+    margin: auto;
+    
+    &>img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        cursor: zoom-out;
+        
+        max-height: calc(100vh - 200px);
+    }
+}
+
+/*** Blockquote ***/
+
+blockquote {
+    margin-top: var(--base-unit);
+    margin-left: var(--base-unit);
+    color: var(--colour-accent);
+
+    text-align: start;
+}
+
+/*** Multi ***/
+
+div.multi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    
+    gap: calc(0.5 * var(--base-unit));
+
+    /*
+    &>figure {
+        width: unset;
+
+        &>img {
+            width: 100%;
+        }
+    }
+    */
+}
+
+.columnar {
+    columns: 2;
+}
+
+/*** Footnotes ***/
+body {
+    counter-reset: footnote;
+}
+
+.footnote {
+    float: right;
+    clear: right;
+    width: var(--footnote-width);
+    margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
+    
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+    text-align: left;
+}
+
+.footnote-indicator::before {
+    counter-increment: footnote;
+    content: counter(footnote);
+    font-variant-position: super;
+}
+
+span.footnote::before {
+    content: counter(footnote) ": ";
 }

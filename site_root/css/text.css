@@ -1,0 +1,146 @@
+/* present proper nouns upright as there is no need to distinguish from surrounding text */
+span[lang]:not(.noun):is(
+    /*  Italicize all *-Latn languages: */
+    [lang*="-Latn" i],
+    /*  Italicize non-English (but Latin) languages: */
+    [lang|=ace],
+    /*  Acehnese */
+    [lang|=bem],
+    /*  Bemba */
+    [lang|=bjn],
+    /*  Banjarese */
+    [lang|=bnt],
+    /*  Bantu (family) */
+    [lang|=ca],
+    /*  Catalan */
+    [lang|=cbl],
+    /*  Chin (Bualkhaw) */
+    [lang|=cfm],
+    /*  Chin (Falam) */
+    [lang|=da],
+    /*  Danish  */
+    [lang|=de],
+    /*  German  */
+    [lang|=dtp],
+    /*  Dusun(ic)  */
+    [lang|=ee],
+    /*  Ewe  */
+    [lang|=es],
+    /*  Spanish  */
+    [lang|=fil],
+    /*  Filipino  */
+    [lang|=fr],
+    /*  French  */
+    [lang|=ga],
+    /*  Gaelic */
+    [lang|=gd],
+    /*  Scots Gaelic */
+    [lang|=gsw],
+    /*  Swiss German */
+    [lang|=gup],
+    /*  Bininj Kunwok */
+    [lang|=haw],
+    /*  Hawaiian  */
+    [lang|=hu],
+    /*  Hungarian  */
+    [lang|=id],
+    /*  Indonesian  */
+    [lang|=is],
+    /*  Icelandic  */
+    [lang|=it],
+    /*  Italian */
+    [lang|=ilb],
+    /*  Ila */
+    [lang|=kew],
+    /*  Kewa (West)  */
+    [lang|=kxd],
+    /*  Brunei Malay  */
+    [lang|=ksx],
+    /*  Kédang  */
+    [lang|=la],
+    /*  Latin */
+    [lang|=lg],
+    /*  Luganda */
+    [lang|=loz],
+    /*  Lozi */
+    [lang|=lun],
+    /*  Lunda */
+    [lang|=mbw],
+    /*  Maring  */
+    [lang|=mcm],
+    /*  Kristang */
+    [lang|=mi],
+    /*  Māori */
+    [lang|=mfa],
+    /*  Pattani Malay */
+    [lang|=mg],
+    /*  Malagasy */
+    [lang|=min],
+    /*  Minangkabau  */
+    [lang|=mnk],
+    /*  Mandinka  */
+    [lang|=mnr],
+    /*  Mono  */
+    [lang=ms],
+    /*  Malay (meta-language) - exclude ms-Arab */
+    [lang|=nl],
+    /*  Dutch  */
+    [lang|=no],
+    /*  Norwegian  */
+    [lang|=nso],
+    /*  sePedi  */
+    [lang|=pcc],
+    /*  Bouyei  */
+    [lang|=pis],
+    /*  Pijin (Solomon Islands)  */
+    [lang|=pt],
+    /*  Portuguese  */
+    [lang|=raw],
+    /*  Rawang  */
+    [lang|=rn],
+    /*  Rundi */
+    [lang|=rng],
+    /*  Ronga  */
+    [lang|=rw],
+    /*  Kinyarwanda */
+    [lang|=sm],
+    /*  Samoa  */
+    [lang|=smi],
+    /*  Sámi */
+    [lang|=sn],
+    /*  Shona  */
+    [lang|=so],
+    /*  Somali  */
+    [lang|=st],
+    /*  seSotho  */
+    [lang|=sv],
+    /*  Swedish  */
+    [lang|=tiw],
+    /*  Tiwi  */
+    [lang|=tn],
+    /*  Tswana  */
+    [lang|=to],
+    /*  Tongan */
+    [lang|=toi],
+    /*  Tonga (Zimbabwe) */
+    [lang|=tpi],
+    /*  Tok Pisin */
+    [lang|=tr],
+    /*  Turkish */
+    [lang|=tum],
+    /*  Tumbuka */
+    [lang|=tw],
+    /*  Twi */
+    [lang|=urh],
+    /*  Urhobo */
+    [lang|=ve],
+    /*  Venda */
+    [lang=vi],
+    /*  Vietnamese (but not vi-Hani) */
+    [lang|=yo],
+    /*  Yoruba */
+    [lang|=zu]
+    /*  isiZulu */
+) {
+    font-style: italic;
+}

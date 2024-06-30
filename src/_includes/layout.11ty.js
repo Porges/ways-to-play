@@ -3,6 +3,8 @@ const path = require('path');
 const Image = require('@11ty/eleventy-img');
 const { JSDOM } = require('jsdom');
 
+import { IS_PRODUCTION } from '../../helpers';
+
 exports.data = {
   title: "Ways to Play"
 };
@@ -35,7 +37,9 @@ exports.render = async function (data) {
     });
 
     ogImage = data.site.url + metadata[Object.keys(metadata)[0]][0].url;
-  } 
+  }
+
+  const breadcrumbs = makeBreadCrumbs(this, data);
 
   return `<!doctype html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#">
@@ -47,6 +51,7 @@ exports.render = async function (data) {
     <link rel="stylesheet" href="/fonts/sourceserif4.css" type="text/css" />
     <link rel="stylesheet" href="/fonts/charis.css" type="text/css" />
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/css/text.css" type="text/css" />
     <!--<link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />-->
     <link rel="canonical" href="${data.site.url}${data.page.url}" />
     <link rel="alternate" type="application/atom+xml" title="Ways To Play Atom feed" href="/atom.xml" />
@@ -124,13 +129,13 @@ exports.render = async function (data) {
       })(window, document, "clarity", "script", "gzk1ekbi1n");
     </script>
   </head>
-  <body itemscope itemtype="http://schema.org/WebPage"${data.tags?.includes('article')? ' itemref="breadcrumbs"' : ''}>
+  <body itemscope itemtype="http://schema.org/WebPage"${data.tags?.includes('article') ? ' itemref="breadcrumbs"' : ''}>
     <div itemprop="isPartOf" itemscope itemtype="https://schema.org/WebSite">
         <meta itemprop="url" content="https://games.porg.es/"/>
         <meta itemprop="name" content="Ways To Play"/>
     </div>
     <header>
-      <nav>
+      <nav class="site">
         <a href="/" class="brand">Ways to Play</a>
         <span class="page-title">${title}</span>
         <div>
@@ -144,6 +149,7 @@ exports.render = async function (data) {
           </form>
         </div>
       </nav>
+      ${breadcrumbs}
     </header>
     <main>
       ${data.content}
@@ -170,4 +176,30 @@ exports.render = async function (data) {
     </footer>
   </body>
 </html>`;
+}
+
+function makeBreadCrumbs(me, data) {
+  if (data.eleventyNavigation) {
+    const crumbs = me.eleventyNavigationBreadcrumb(data.collections.all, data.eleventyNavigation.key);
+    return '<nav class="breadcrumbs" aria-label="breadcrumb">'
+      + '<ol itemscope itemtype="https://schema.org/BreadcrumbList" itemprop="breadcrumb">'
+      + crumbs.map((page, ix) => {
+        return (`<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">`
+          + `<meta itemProp="position" content="${ix + 1}" />`
+          + ((!IS_PRODUCTION || !page.draft) ? `<a href="${page.url}" itemprop="item">` : '<span itemprop="item">')
+          + `<span itemprop="name"${asAttr('lang', page.titleLang)}>`
+          + `${page.title}`
+          + `</span>`
+          + ((!IS_PRODUCTION || !page.draft) ? '</a>' : '</span>')
+          + '</li>');
+      }).join('')
+      + `<li class="active" aria-current="page"${asAttr('lang', data.titleLang)} itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">`
+      + `<meta itemProp="position" content="${crumbs.length + 1}" />`
+      + `<span itemProp="name">${data.title}</span>`
+      + `</li>`
+      + '</ol>'
+      + '</nav>';
+  } else {
+    return '';
+  }
 }

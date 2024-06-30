@@ -35,8 +35,6 @@ exports.render = async function (data) {
     let prevNext = '';
     let childArticles = '';
     if (data.tags.includes('article')) {
-        breadCrumbs = makeBreadCrumbs(this, data);
-
         let parent = this.eleventyNavigation(data.collections.all, data.eleventyNavigation.parent);
         parent = parent.filter(x => !IS_PRODUCTION || !x.draft);
         const myIndex = parent.findIndex(p => p.key === data.eleventyNavigation.key);
@@ -84,7 +82,8 @@ exports.render = async function (data) {
     }
 
     // console.log(data);
-    return `<article itemscope itemtype="http://schema.org/Article" itemprop="mainEntity" itemref="author-outer">
+    return `
+    <article itemscope itemtype="http://schema.org/Article" itemprop="mainEntity" itemref="author-outer">
     <div class="jumbotron jumbotron-fluid ${heroImage ? 'hero' : ''}" style="${heroImage ? `background-image: url('${heroImage}')` : ''}">
         <div class="container">
             <div class="row">
@@ -102,23 +101,8 @@ exports.render = async function (data) {
         </div>
         ${heroSource}
     </div>
-    <div class="container-fluid mb-5 breadcrumb-container">
-       <nav class="border-bottom border-top border-light row" aria-label="Breadcrumbs">
-        <div class="col">
-          <div class="container">
-            ${breadCrumbs}
-          </div>
-        </div>
-        </nav>
-    </div>
-    <div class="container">
-        <p class="text-secondary small col-lg-7 offset-lg-1 border-bottom border-light">◦ last updated: <time itemprop="dateModified">${new Date(Date.parse(data.page.date)).toISOString().split('T')[0]}</time></p>
-        <div class="row">
-            <div class="col-lg-7 offset-lg-1 content">
-                ${data.content}
-            </div>
-        </div>
-    </div>
+    <p class="text-secondary small col-lg-7 offset-lg-1 border-bottom border-light">◦ last updated: <time itemprop="dateModified">${new Date(Date.parse(data.page.date)).toISOString().split('T')[0]}</time></p>
+    ${data.content}
 </article>`
         + giscusCode
         + ifSet(childArticles, childArticles)
@@ -163,26 +147,3 @@ const giscusCode = `<div class="container">
 </div>
 </div>
 </div>`;
-
-function makeBreadCrumbs(me, data) {
-    const crumbs = me.eleventyNavigationBreadcrumb(data.collections.all, data.eleventyNavigation.key);
-    return '<nav aria-label="breadcrumb" itemscope>'
-        + '<ol class="breadcrumb m-1 p-1" itemscope itemtype="https://schema.org/BreadcrumbList" itemprop="breadcrumb" id="breadcrumbs">'
-        + crumbs.map((page, ix) => {
-            return (`<li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">`
-                + `<meta itemProp="position" content="${ix + 1}" />`
-                + ((!IS_PRODUCTION || !page.draft) ? `<a href="${page.url}" itemprop="item">` : '<span itemprop="item">')
-                + `<span itemprop="name"${asAttr('lang', page.titleLang)}>`
-                + `${page.title}`
-                + `</span>`
-                + ((!IS_PRODUCTION || !page.draft) ? '</a>' : '</span>')
-                + '</li>');
-        }).join('')
-        + `<li class="breadcrumb-item active" aria-current="page"${asAttr('lang', data.titleLang)} itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">`
-        + `<meta itemProp="position" content="${crumbs.length + 1}" />`
-        + `<span itemProp="name">${data.title}</span>`
-        + `</li>`
-        + '</ol>'
-        + '</nav>';
-
-}

@@ -28,6 +28,7 @@
     "@fec/eleventy-plugin-remark": "^4.0.0",
     "@fullhuman/postcss-purgecss": "^6.0.0",
     "@jest/globals": "^29.5.0",
+    "@microflash/rehype-toc": "^1.0.2",
     "@types/11ty__eleventy-img": "^4.0.0",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^20.10.6",

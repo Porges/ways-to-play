@@ -12,9 +12,6 @@ hero:
 
 <p class="lead"><span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the {% pronounce lang="ja-Latn" word="Edo" noun=true pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3" %} period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> {% pronounce lang="ja-Latn" word="mono-awase" file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan" %}) that had been played since the {% pronounce lang="ja-Latn" word="Heian" noun=true pronouncer="skent" file="pronunciation_ja_平安.mp3" %} period (<span lang="ja">平安</span>, 794–1185).</p>
 
-<!-- excerpt -->
-
-
 ## Origins
 
 In their original form, <span lang="ja-Latn">mono-awase</span> were courtly
