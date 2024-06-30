@@ -1,0 +1,219 @@
+:root {
+    --base-unit: 1.5rem;
+
+    color-scheme: light dark;
+
+    --colour-light: #f8dbc3;
+    --colour-dark: #000649;
+    --colour-primary: #7f5e48;
+    --colour-secondary: #965541;
+    --colour-accent: #483a55;
+    --colour-accent2: #6d6f84;
+    --colour-accent3: #b89da3;
+    --colour-black: light-dark(black, white);
+    --colour-info: #fca53d;
+    --colour-success: #55a611;
+    --colour-warning: #ffc05b;
+    --colour-danger: #f20861;
+}
+
+/*** Reset (based upon ) ***/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    /* WCAG requirement */
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*** Layout ***/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    padding-left: var(--base-unit);
+    padding-right: var(--base-unit);
+}
+
+/*** Text setup ***/
+body {
+    font-size: 1rem;
+    font-family:
+        "Source Serif 4",
+        "Charis SIL",
+        serif;
+
+    /** pwid: We are going to be embedding Japanese and Chinese in Latin text,
+        so make them proportional. This has better spacing for kana etc. */
+    font-variant-east-asian: proportional-width;
+
+    /* We would like to enable this setting
+       but it seems to make Yu Mincho fixed-width, 
+       counteracting the above setting. */
+    /* font-feature-settings: "hkna"; */
+
+    font-kerning: normal;
+    font-variant-numeric: oldstyle-nums;
+    font-variant-ligatures: common-ligatures contextual;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: calc(2 * var(--base-unit));
+}
+
+p {
+    margin-top: 1.5em;
+    /* == line-height */
+
+    /* Lead paragraphs */
+    &.lead {
+        font-size: larger;
+        /* TODO */
+        font-weight: 350;
+    }
+
+    &:not(.lead) {
+        hyphens: auto;
+        text-align: justify;
+    }
+}
+
+a {
+    text-decoration: underline var(--colour-light);
+    color: var(--colour-primary);
+
+    &:hover {
+        text-decoration: underline var(--colour-accent);
+    }
+}
+
+/*** Header & Footer ***/
+header>nav,
+footer {
+    padding: var(--base-unit);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>nav {
+    margin-bottom: calc(2 * var(--base-unit));
+    border-bottom: 2px solid var(--colour-accent2);
+}
+
+footer {
+    margin-top: calc(2 * var(--base-unit));
+    border-top: 2px solid var(--colour-accent2);
+}
+
+nav {
+    a {
+        color: var(--colour-primary);
+        text-decoration: none;
+    }
+
+    .brand, .page-title {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+    
+    .brand {
+        font-weight: 900;
+    }
+    
+    .page-title {
+        font-style: italic;
+        font-weight: bolder;
+    }
+
+    ul {
+        li {
+            display: inline;
+
+            &::before {
+                content: '·'
+            }
+
+            &:first-child::before {
+                content: unset;
+            }
+        }
+    }
+
+    input,
+    button {
+        border: 1px solid var(--colour-black);
+        color: var(--colour-black);
+        background-color: white;
+    }
+
+    input {
+        border-radius: 3px 0 0 3px;
+    }
+
+    button {
+        border-radius: 0 3px 3px 0;
+    }
+}
+
+/*** Citations ***/
+
+sup.citation {
+    /* show citations using real 'sups' feature */
+    font-size: unset;
+    vertical-align: unset;
+    font-variant-position: super;
+}
+
+/*** Misc ***/
+/* Markdown output often generates empty paragraphs between
+   figures etc. Remove them. */
+p:empty {
+    display: none;
+}
+
+span.draft {
+    color: white;
+    background-color: var(--colour-info);
+    border: 2px solid var(--colour-black);
+    border-radius: 5px;
+    padding: 0 4px 0 4px;
+
+    &::before {
+        content: '🚧';
+    }
+}

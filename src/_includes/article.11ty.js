@@ -94,7 +94,7 @@ exports.render = async function (data) {
                         <a href="${data.page.url}" itemprop="mainEntityOfPage">${data.title}
                         ${ifSet(data.originalTitle, () => `<br>` + data.originalTitle)}
                         </a>
-                        ${data.draft ? '<br/><span class="badge bg-warning text-dark">Draft</span>' : ''}
+                        ${data.draft ? '<br/><span class="draft">Draft</span>' : ''}
                     </h1>
                 </div>
                 <div class="col-lg-1" style="z-index: -1"></div>

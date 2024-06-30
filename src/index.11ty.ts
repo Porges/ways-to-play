@@ -2,7 +2,7 @@ import { Context, Data } from "../types";
 
 export const data = {
     layout: "columned",
-    title: "Ways to Play",
+    title: "Welcome",
     eleventyImport: {
         collections: ["game", "article"]
     }

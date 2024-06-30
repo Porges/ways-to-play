@@ -46,8 +46,8 @@ exports.render = async function (data) {
     <link rel="preload" href="/fonts/sourceserif4/SourceSerif4Variable-Latin-Italic.ttf.woff2" as="font" type="font/woff2" crossorigin/>
     <link rel="stylesheet" href="/fonts/sourceserif4.css" type="text/css" />
     <link rel="stylesheet" href="/fonts/charis.css" type="text/css" />
-    <link rel="stylesheet" href="/css/index.css" type="text/css" />
-    <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+    <!--<link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />-->
     <link rel="canonical" href="${data.site.url}${data.page.url}" />
     <link rel="alternate" type="application/atom+xml" title="Ways To Play Atom feed" href="/atom.xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -130,29 +130,29 @@ exports.render = async function (data) {
         <meta itemprop="name" content="Ways To Play"/>
     </div>
     <header>
-      <nav class="navbar navbar-expand navbar-dark bg-primary justify-content-between">
-        <a href="/" class="navbar-brand ms-2 ms-lg-4">Ways to Play</a>
-        <ul class="navbar-nav mr-auto">
-          <li><a href="/articles/" class="nav-link"><span aria-label="" role="img">🧾</span> Articles</a></li>
-          <li><a href="/games/" class="nav-link"><span aria-label="" role="img">🎲</span> Games</a></li>
-        </ul>
-        <form class="form-inline me-2 me-lg-4" method="get" action="https://duckduckgo.com/" target="_top">
-          <div class="input-group">
-            <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">🔍&#8239;</button>
+      <nav>
+        <a href="/" class="brand">Ways to Play</a>
+        <span class="page-title">${title}</span>
+        <div>
+          <ul>
+            <li><a href="/articles/"><span aria-label="" role="img">🧾</span> Articles</a></li>
+            <li><a href="/games/"><span aria-label="" role="img">🎲</span> Games</a></li>
+          </ul>
+          <form>
+            <input type="search" name="q" placeholder="Search" aria-label="Search" /><button type="submit">&#x1F50D;&#8239;</button>
             <input type="hidden" name="sites" value="games.porg.es" />
-          </div>
-        </form>
+          </form>
+        </div>
       </nav>
     </header>
     <main>
       ${data.content}
     </main>
-    <footer class="navbar navbar-expand navbar-dark bg-primary mt-4">
-      <span class="navbar-text ms-2 ms-lg-4 me-2">
+    <footer>
+      <span>
         <a href="https://neocities.org/site/waystoplay"><img width="135" height="40" class="inline-img big" src="/small-images/Hosted_by_Neocities.svg" alt="Hosted by Neocities" /></a>
       </span>
-      <span class="ms-lg-auto ms-2 navbar-text me-2 me-lg-4">
+      <span>
       ©
       ${this.person({
     name: { given: "George", family: "Pollard" },
