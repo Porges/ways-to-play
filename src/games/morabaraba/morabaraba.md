@@ -13,7 +13,7 @@ hero:
     originalUrl: "https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624"
 ---
 
-{% image src="../../maps/Morabaraba.svg" alt="A map showing Botswana, Lesotho, Mozambique, and South Africa." position="right" %}
+{% image src="../../maps/Morabaraba.svg" alt="A map showing Botswana, Lesotho, Mozambique, and South Africa." position="aside" noborder=true size="small" %}
 <span class="noun" lang="st">Morabaraba</span> is played across south-eastern Africa.
 {% imageEnd %}
 
@@ -96,7 +96,8 @@ caps](https://www.instagram.com/p/BMBbRAzBg1z/), and they show up in
 skeuomorphic feature.{%endfn%} are used in two contrasting colours.
 
 {% image 
-  position="right"
+  position="aside"
+  noborder=true
   src="../../articles/families/mill-games/large_merels_with_diagonals.svg"
   alt="" %}
 Standard <span class="noun" lang="st">Morabaraba</span> is played on the large mill board with diagonals.
@@ -147,8 +148,9 @@ moves.[@UltraStrongMorris]
 ### Sotho version
 
 {% image 
-    position="right"
+    position="aside"
     src="large_merels_with_diagonals_and_centre.svg"
+    noborder=true
     alt="" %}
 The Sotho version of the game is played on a board with a central cross.
 {% imageEnd %}
@@ -184,11 +186,13 @@ Unfortunately I have not been able to figure out exactly what they represent, bu
 
 <div class="multi equal">
 {% image 
+    noborder=true
     src="large_merels_with_diagonals_and_centre_mill_examples.svg"
     alt="" %}
 Some examples of valid mills on the Sotho board.
 {% imageEnd %}
 {% image 
+    noborder=true
     src="large_merels_with_diagonals_and_centre_bad_move.svg"
     alt="" %}
 Not a mill; any mill using the centre point must have its middle piece on the centre point.
@@ -214,7 +218,8 @@ href="https://www.instagram.com/p/yPNmJpPNzW/">4</a>).
 ### Alternate board
 
 {% image 
-    size="small"
+    position="aside"
+    noborder=true
     src="large_merels_with_full_diagonals.svg"
     alt="" %}
 An alternate <span class="noun" lang="st">Morabaraba</span> board.

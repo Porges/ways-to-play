@@ -8,7 +8,7 @@ players: banking
 </p>
 
 {%image
-    position="right"
+    position="aside"
     src="TheSeaLion.jpg"
     alt=""
     license="cc0"

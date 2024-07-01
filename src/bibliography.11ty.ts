@@ -92,9 +92,7 @@ export async function render(data: Data) {
 
     const biblio = Object.entries(parsedFile as Bibliography).map(([k, v]) => ({ ...v, id: k, sortName: sortName(v), sortDate: sortableDate(v) }));
     biblio.sort((x, y) => locale.compare(x.sortName, y.sortName) || locale.compare(x.sortDate, y.sortDate) );
-    return '<div class="container">'
-        + `<h1>${data.title}</h1>`
-        + '<form class="mb-4">'
+    return '<form class="mb-4">'
         + '<div class="form-group row">'
         + '<label for="sort-selector" class="col-lg-1 offset-lg-4 col-form-label text-end">Sort by:</label>'
         + '<div class="col-lg-3">'
@@ -116,7 +114,6 @@ export async function render(data: Data) {
                 + renderBackreferences(b, refs)
                 + `</li>`;
         }).join("\n")}\n</ul>`
-        + '</div>'
         + '</div>'
         + `<script type="module">
             ${handleSelect}

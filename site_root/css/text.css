@@ -140,7 +140,66 @@ span[lang]:not(.noun):is(
     [lang|=yo],
     /*  Yoruba */
     [lang|=zu]
+
     /*  isiZulu */
 ) {
     font-style: italic;
+}
+
+/* Vertical writing */
+.vertical-rl {
+    writing-mode: vertical-rl;
+    margin-block-start: 1lh;
+}
+
+/* Shouldn't grow as fast in a multi */
+div.multi .vertical-rl {
+    flex-grow: 0.5;
+}
+
+/* Chinese citation style */
+cite[lang]:lang(zh):not(:lang(zh-Latn)) {
+    font-style: inherit;
+
+    &::before {
+        content: '《';
+    }
+
+    &::after {
+        content: '》';
+    }
+
+    cite {
+        &::before {
+            content: '〈 ';
+        }
+
+        &::after {
+            content: '〉';
+        }
+    }
+}
+
+/* Japanese and Korean citation styles */
+cite[lang]:lang(ja):not(:lang(ja-Latn)),
+cite[lang]:lang(ko):not(:lang(ko-Latn)) {
+    font-style: inherit;
+
+    &::before {
+        content: '『'
+    }
+
+    &::after {
+        content: '』'
+    }
+
+    cite {
+        &::before {
+            content: '「'
+        }
+
+        &::after {
+            content: '」'
+        }
+    }
 }

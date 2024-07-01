@@ -6,7 +6,6 @@
     font-display: swap;
     font-style: italic;
     unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+0300-036f;
-    font-optical-sizing: auto;
 }
 /* Latin (BasicLatin, GeneralPunctuation, Latin1Supplement, CombiningDiacriticalMarks) */
 @font-face {
@@ -14,7 +13,6 @@
     src: local('Source Serif 4'), url('/fonts/sourceserif4/SourceSerif4Variable-Latin-Roman.ttf.woff2') format('woff2');
     font-display: swap;
     unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+0300-036f;
-    font-optical-sizing: auto;
 }
 /* LatinExt (LatinExtendedA, SpacingModifierLetters, IpaExtensions) */
 @font-face {
@@ -23,7 +21,6 @@
     font-display: swap;
     font-style: italic;
     unicode-range: U+0100-017f,U+02b0-02ff,U+0250-02af;
-    font-optical-sizing: auto;
 }
 /* LatinExt (LatinExtendedA, SpacingModifierLetters, IpaExtensions) */
 @font-face {
@@ -31,7 +28,6 @@
     src: local('Source Serif 4'), url('/fonts/sourceserif4/SourceSerif4Variable-LatinExt-Roman.ttf.woff2') format('woff2');
     font-display: swap;
     unicode-range: U+0100-017f,U+02b0-02ff,U+0250-02af;
-    font-optical-sizing: auto;
 }
 /* ChineseTranslit (LatinExtendedB, SuperscriptsandSubscripts) */
 @font-face {
@@ -40,7 +36,6 @@
     font-display: swap;
     font-style: italic;
     unicode-range: U+0180-024f,U+2070-209f;
-    font-optical-sizing: auto;
 }
 /* ChineseTranslit (LatinExtendedB, SuperscriptsandSubscripts) */
 @font-face {
@@ -48,7 +43,6 @@
     src: local('Source Serif 4'), url('/fonts/sourceserif4/SourceSerif4Variable-ChineseTranslit-Roman.ttf.woff2') format('woff2');
     font-display: swap;
     unicode-range: U+0180-024f,U+2070-209f;
-    font-optical-sizing: auto;
 }
 /* VietIndic (LatinExtendedAdditional) */
 @font-face {
@@ -57,7 +51,6 @@
     font-display: swap;
     font-style: italic;
     unicode-range: U+1e00-1eff;
-    font-optical-sizing: auto;
 }
 /* VietIndic (LatinExtendedAdditional) */
 @font-face {
@@ -65,7 +58,6 @@
     src: local('Source Serif 4'), url('/fonts/sourceserif4/SourceSerif4Variable-VietIndic-Roman.ttf.woff2') format('woff2');
     font-display: swap;
     unicode-range: U+1e00-1eff;
-    font-optical-sizing: auto;
 }
 /* Cyrillic (Cyrillic) */
 @font-face {
@@ -74,7 +66,6 @@
     font-display: swap;
     font-style: italic;
     unicode-range: U+0400-04ff;
-    font-optical-sizing: auto;
 }
 /* Cyrillic (Cyrillic) */
 @font-face {
@@ -82,7 +73,6 @@
     src: local('Source Serif 4'), url('/fonts/sourceserif4/SourceSerif4Variable-Cyrillic-Roman.ttf.woff2') format('woff2');
     font-display: swap;
     unicode-range: U+0400-04ff;
-    font-optical-sizing: auto;
 }
 /* Greek (GreekandCoptic) */
 @font-face {
@@ -91,7 +81,6 @@
     font-display: swap;
     font-style: italic;
     unicode-range: U+0370-03ff;
-    font-optical-sizing: auto;
 }
 /* Greek (GreekandCoptic) */
 @font-face {
@@ -99,5 +88,4 @@
     src: local('Source Serif 4'), url('/fonts/sourceserif4/SourceSerif4Variable-Greek-Roman.ttf.woff2') format('woff2');
     font-display: swap;
     unicode-range: U+0370-03ff;
-    font-optical-sizing: auto;
 }

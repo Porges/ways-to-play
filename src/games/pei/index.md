@@ -52,7 +52,7 @@ There are five possible scoring combinations.
 {% image
     noborder=true
     size="small"
-    position="right"
+    position="left"
     justify="centered"
     hidden=true
     src="../../articles/cards/ceki/CC1.jpg;../../articles/cards/ceki/CC2.jpg;../../articles/cards/ceki/CC3.jpg"
@@ -90,7 +90,7 @@ In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however,
 {% image
     noborder=true
     justify="centered"
-    position="right"
+    position="left"
     size="small"
     hidden=true
     src="../../articles/cards/ceki/CWF.jpg;../../articles/cards/ceki/CS8.jpg;../../articles/cards/ceki/CM9.jpg"
@@ -120,7 +120,7 @@ This combination is formed from one of each of the 8 of coins, 2 of strings, and
 {% image
     noborder=true
     justify="centered"
-    position="right"
+    position="left"
     size="small"
     hidden=true
     src="../../articles/cards/ceki/CC9.jpg;../../articles/cards/ceki/CS1.jpg;../../articles/cards/ceki/CM1.jpg"

@@ -122,7 +122,6 @@ foreach ($font in $fonts.GetEnumerator()) {
                 echo "    font-weight: bold;" >> $css
             }
             echo "    unicode-range: $whitelist;" >> $css
-            echo "    font-optical-sizing: auto;" >> $css
             echo "}" >> $css
         }
     }

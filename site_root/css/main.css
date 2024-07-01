@@ -1,34 +1,67 @@
+/* Font registrations */
+@font-face {
+    font-family: "cc-icons";
+    src: url('/fonts/BabelStoneCommons.woff2') format('woff2');
+    unicode-range: U+1f16d-1f16f, U+1f10d-1f10f, U+229c;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ocrb';
+    src: url('/fonts/ocrb.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root {
-    --font-size: 1.125rem;
-    --base-unit: calc(1.125 * 1.5rem);
-    --text-width: calc(22 * var(--base-unit));
-    --footnote-width: calc(15 * var(--base-unit));
+    font-size: 1.125rem;
+    line-height: 1.5;
 
-    --bu2: calc(2 * var(--base-unit));
+    --font-size: 1rem;
+    --base-unit: 1.5rem;
+    --text-width: 22rlh;
+    --footnote-width: 15rlh;
 
-    --font-size-sm: calc(0.75 * var(--font-size));
-    --line-height-sm: calc(0.75 * var(--base-unit));
+    --font-size-sm: .75rem;
+    --line-height-sm: .75rlh;
 
     color-scheme: light dark;
 
-    --colour-light: #f8dbc3;
-    --colour-dark: #000649;
-    --colour-primary: #7f5e48;
-    --colour-secondary: #965541;
+    /* via: https://coolors.co/palette/1a3d84-6d85a8-e6e6e9-333333-0a0908-fdfffc-fadfdb-cc0000-004733-fbc823 */
+    --colour-primary: #1a3d84;
+    --colour-secondary: #6d85a8;
+    --colour-light: #e6e6e9;
+    --colour-dark: #333333;
+    --colour-black: light-dark(#0a0908, #fdfffc);
+    --colour-white: light-dark(#fdfffc, #0a0908);
+
+    --colour-accent: #fadfdb;
+
+    --red: #CC0000;
+    --blue: #0000CC;
+    --green: #004733;
+    --colour-yellow: #fbc823;
+
+    /*
     --colour-accent: #483a55;
     --colour-accent2: #6d6f84;
     --colour-accent3: #b89da3;
-    --colour-black: light-dark(black, white);
     --colour-info: #fca53d;
     --colour-success: #55a611;
     --colour-warning: #ffc05b;
     --colour-danger: #f20861;
+    */
 
     /* Overridden by media queries */
     --nav-direction: column;
-    --main-padding-left: var(--base-unit);
-    --main-padding-right: var(--base-unit);
     --figure-wide-overlap: 0;
+    --heading-protrude: 0;
+    --metadata-position: static;
+
+    --expand-size: calc(var(--base-unit) + var(--figure-wide-overlap) + var(--text-width) + var(--base-unit) + var(--footnote-width) + var(--base-unit));
+    /* this ends up being 1161px */
+    /* main text block is 648px */
 }
 
 /*
@@ -38,15 +71,6 @@ lg: 992px;
 xl: 1200px;
 xxl: 1400px;
 */
-
-@media (min-width: 768px) {
-    :root {
-        --main-padding-left: 20vw;
-        --main-padding-right: var(--bu2);
-        --nav-direction: row;
-        --figure-wide-overlap: calc(3 * var(--base-unit));
-    }
-}
 
 /*** Reset (based upon ) ***/
 *,
@@ -70,15 +94,6 @@ select {
     font: inherit;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    overflow-wrap: break-word;
-}
-
 /*** Layout ***/
 body {
     display: flex;
@@ -86,29 +101,60 @@ body {
     min-height: 100vh;
 }
 
-article {
+main {
     display: grid;
-    grid-template-columns:
-        minmax(var(--figure-wide-overlap), 1fr)
-        var(--text-width)
-        minmax(calc(var(--footnote-width) + var(--base-unit)), 3fr);
+
+    grid-template-columns: var(--base-unit) 1fr var(--base-unit);
 
     &>* {
         grid-column: 2;
     }
 }
 
+section {
+    display: flow-root; /* trap floats inside */
+}
+
+/* see --expand-size above */
+@media screen and (width >= 648px) {
+    main {
+        display: grid;
+
+        grid-template-columns:
+            minmax(var(--base-unit), 1fr) var(--figure-wide-overlap) var(--text-width) var(--figure-wide-overlap) minmax(var(--base-unit), 1fr);
+
+        /* We need more space on the right if footnotes are present */
+        &:has(.footnote, figure.aside) {
+            grid-template-columns:
+                minmax(var(--base-unit), 1fr) var(--figure-wide-overlap) var(--text-width) var(--base-unit) var(--footnote-width) minmax(var(--base-unit), 1fr);
+        }
+
+        &>* {
+            grid-column: 3;
+        }
+    }
+}
+
+/* see --expand-size above */
+@media screen and (width >= 1161px) {
+    :root {
+        --nav-direction: row;
+        --figure-wide-overlap: calc(3 * var(--base-unit));
+        --heading-protrude: -1rlh;
+        --metadata-position: absolute;
+    }
+}
+
 /*** Text setup ***/
 body {
-    font-size: var(--font-size);
     font-family:
         "Source Serif 4",
         "Charis SIL",
-        serif;
-    /* WCAG suggestion */
-    line-height: var(--base-unit);
-    font-weight: 380;
+        serif,
+        "cc-icons";
 
+    font-weight: 380;
+    font-optical-sizing: auto;
 
     /** pwid: We are going to be embedding Japanese and Chinese in Latin text,
         so make them proportional. This has better spacing for kana etc. */
@@ -124,51 +170,21 @@ body {
     font-variant-ligatures: common-ligatures contextual;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-top: var(--base-unit);
-    
-    .permalink {
-        display: none; /* TODO */
-    }
-}
-
-h1, h2 { 
-    line-height: calc(2 * var(--base-unit));
-}
-
-h2 {
-    margin-left: calc(-1 * var(--base-unit));
-    border-bottom: 1px solid var(--colour-accent2);
-    
-    /*
-    &::before {
-        content: "● ";
-    }
-    */
-}
-
-h3 {
-    border-bottom: 1px solid var(--colour-light);
-}
-
 p {
-    /* == line-height */
-
     /* Lead paragraphs */
     &.lead {
+        margin-top: 0;
+
         font-weight: 350;
-        font-size: calc(1.5 * var(--font-size));
-        line-height: calc(1.5 * var(--base-unit));
-        
+        font-size: 1.5rem;
+
         /* Push out RHS by same amount as figure */
         margin-right: calc(-2 * var(--figure-wide-overlap));
-        
+
         text-align: left;
+        text-wrap: balance;
+
+        color: var(--colour-dark)
     }
 
     &:not(.lead) {
@@ -176,11 +192,64 @@ p {
     }
 }
 
-* + p {
-    margin-top: 1.5em;
+*+p {
+    margin-top: 1lh;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1rlh;
+
+    .permalink {
+        display: none;
+        /* TODO */
+    }
+
+    break-after: avoid;
+}
+
+h1,
+h2 {
+    line-height: 2rlh;
+}
+
+h2 {
+    margin-left: var(--heading-protrude);
+    border-bottom: 1px solid var(--colour-dark);
+    margin-bottom: -1px;
+}
+
+h2,
+h3 {
+    margin-top: 1.5rlh;
+
+    &+* {
+        margin-top: 0.5rlh;
+    }
+}
+
+h3 {
+    line-height: 1rlh;
+    border-bottom: 1px solid var(--colour-light);
+    margin-bottom: -1px;
+}
+
+h4,
+h5,
+h6 {
+    margin-top: 1rlh;
+
+    &+* {
+        margin-top: 0;
+    }
+}
+
+
 /* Main content is justified */
+article>p,
 section>p {
     text-align: justify;
 }
@@ -190,39 +259,41 @@ a {
     color: var(--colour-primary);
 
     &:hover {
-        text-decoration: underline var(--colour-accent);
+        text-decoration: underline var(--colour-secondary);
     }
 }
 
 /*** Header & Footer ***/
-nav.site,
-footer {
-    padding: var(--base-unit);
+header {
+    margin-bottom: 1.5rlh;
+}
+
+nav.site, footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: var(--nav-direction);
 }
 
-header {
-    margin-bottom: calc(2 * var(--base-unit));
+nav.site {
+    margin-top: 1rlh;
+    padding: 0 1rlh 0 1rlh;
 }
 
 footer {
-    margin-top: calc(2 * var(--base-unit));
-    border-top: 2px solid var(--colour-accent2);
+    margin-top: calc(2rlh - 1px);
+    padding: .5rlh 1rlh .5rlh 1rlh;
+    border-top: 1px dotted var(--colour-secondary);
+    background-color: var(--colour-accent);
+    color: var(--colour-dark);
+    font-style: italic;
 }
 
-nav {
-    a {
-        color: var(--colour-primary);
-        text-decoration: none;
-    }
-
+nav.site {
     .brand,
     .page-title {
         font-size: 2rem;
-        line-height: 2rem;
+        line-height: 2rlh;
     }
 
     .brand {
@@ -230,16 +301,24 @@ nav {
     }
 
     .page-title {
-        font-style: italic;
         font-weight: bolder;
+        text-align: center;
+
+        /* The Latin portion should be italic */
+        .simple {
+            font-style: italic;
+        }
     }
 
-    ul {
+    ul.under-brand {
+        text-align: center;
+        padding-left: 0;
+
         li {
             display: inline;
 
             &::before {
-                content: '·'
+                content: ' · '
             }
 
             &:first-child::before {
@@ -264,10 +343,21 @@ nav {
     }
 }
 
+nav {
+    a {
+        color: var(--colour-primary);
+        text-decoration: none;
+    }
+}
+
 /*** Breadcrumbs ***/
 
 nav.breadcrumbs {
-    padding: 0 1em 0 1em;
+    padding: .5rlh 1rlh .5rlh 1rlh;
+    border-bottom: 1px solid var(--colour-secondary);
+    margin-bottom: -1px;
+
+    background-color: var(--colour-white);
 
     ol {
         padding-left: 0;
@@ -277,15 +367,12 @@ nav.breadcrumbs {
         li {
             &::before {
                 content: " / ";
-                color: var(--colour-accent2);
+                color: var(--colour-secondary);
             }
 
             display: inline;
         }
     }
-
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
 }
 
 /*** Citations ***/
@@ -295,6 +382,26 @@ sup.citation {
     font-size: unset;
     vertical-align: unset;
     font-variant-position: super;
+
+    color: var(--colour-secondary);
+
+    a {
+        color: var(--colour-secondary);
+        text-decoration: none;
+    }
+}
+
+/*** Ordinals ***/
+
+sup.ordinal {
+    vertical-align: unset;
+    position: unset;
+    line-height: unset;
+    top: unset;
+    font-size: unset;
+
+    /* = 'ordn' */
+    font-variant-numeric: ordinal;
 }
 
 /*** Abbreviations ***/
@@ -320,11 +427,13 @@ p:empty {
 }
 
 span.draft {
-    color: white;
-    background-color: var(--colour-info);
+    color: var(--colour-white);
+    background-color: var(--colour-yellow);
     border: 2px solid var(--colour-black);
     border-radius: 5px;
     padding: 0 4px 0 4px;
+
+    white-space: nowrap;
 
     &::before {
         content: '🚧';
@@ -344,8 +453,16 @@ span.draft {
 /*** Figures ***/
 
 figure {
-    margin-top: var(--base-unit);
-    clear: both;
+    /* This is so figcaption can be limited to width of content. */
+    display: table;
+    margin: auto;
+
+    clear: left;
+
+    margin-top: 1rlh;
+
+    /* for printing */
+    break-inside: avoid;
 
     .figure-img {
         display: block;
@@ -355,68 +472,104 @@ figure {
         width: auto;
         object-fit: contain;
         margin: auto;
-        
+
         cursor: zoom-in;
 
         &:not(.border-0) {
-            border: 1px solid var(--colour-accent2);
+            border: 1px solid var(--colour-dark);
         }
     }
-    
+
+    &.left {
+        clear: left;
+        float: left;
+        margin-right: .5rlh;
+        margin-left: calc(-1 * var(--figure-wide-overlap));
+
+        /* helps stop text wrapping badly */
+        margin-bottom: .5rlh;
+    }
+
+    &.right {
+        clear: right;
+        float: right;
+        margin-left: .5rlh;
+        margin-right: calc(-1 * var(--figure-wide-overlap));
+
+        margin-bottom: .5rlh;
+    }
+
     &.extra-small {
         .figure-img {
             max-height: 100px;
         }
     }
-    
+
     &.small {
         .figure-img {
             max-height: 200px;
         }
     }
-    
+
     &.wide {
+        clear: both;
+
         margin-left: calc(-1 * var(--figure-wide-overlap));
         /* bias it to the right a bit */
         margin-right: calc(-2 * var(--figure-wide-overlap));
-        
+
         /* we know this won’t be too tall because it’s wide */
         .figure-img {
             max-height: unset;
+            border-width: 2px;
         }
     }
-    
+
     &.extra-wide {
+        clear: both;
+
         margin-left: calc(-1 * var(--figure-wide-overlap));
         margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
-        
+
         .figure-img {
             max-height: unset;
+            border-width: 2px;
         }
     }
 }
 
-figcaption {
-    margin-top: calc(0.5 * var(--base-unit));
+
+figcaption,
+caption {
+    display: table-caption;
+    caption-side: bottom;
+
+    margin-top: .5rlh;
 
     font-size: var(--font-size-sm);
     line-height: var(--line-height-sm);
 
     text-align: center;
     text-wrap: balance;
+
+    color: var(--colour-dark);
+
+    p:has(span[itemprop='copyrightNotice']) {
+        margin-top: .5rlh;
+    }
 }
 
 dialog.lightbox {
     max-width: calc(100vw - 20px);
     max-height: calc(100vh - 20px);
     margin: auto;
-    
+
     &>img {
         display: block;
         max-width: 100%;
         max-height: 100%;
         cursor: zoom-out;
-        
+
         max-height: calc(100vh - 200px);
     }
 }
@@ -424,60 +577,417 @@ dialog.lightbox {
 /*** Blockquote ***/
 
 blockquote {
-    margin-top: var(--base-unit);
-    margin-left: var(--base-unit);
-    color: var(--colour-accent);
+    margin-top: 1lh;
+    padding-left: 1lh;
+    color: var(--colour-dark);
 
     text-align: start;
+
+    &.epigraph::before {
+        content: '❝';
+        color: var(--colour-secondary);
+        display: block;
+        width: 1rlh;
+        margin-left: -1rlh;
+        font-size: 2em;
+        position: absolute;
+        margin-top: -.2em;
+    }
 }
 
 /*** Multi ***/
 
 div.multi {
+    clear: left;
+
     display: flex;
-    width: 100%;
     justify-content: center;
     align-items: flex-start;
-    
-    gap: calc(0.5 * var(--base-unit));
 
-    /*
-    &>figure {
-        width: unset;
+    gap: .5rlh;
 
-        &>img {
-            width: 100%;
-        }
+    &.wide {
+        clear: both;
+
+        margin-left: calc(-1 * var(--figure-wide-overlap));
+        /* bias it to the right a bit */
+        margin-right: calc(-2 * var(--figure-wide-overlap));
     }
-    */
+
+    &.extra-wide {
+        clear: both;
+
+        margin-left: calc(-1 * var(--figure-wide-overlap));
+        margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
+    }
+
+    &>* {
+        /* items should all get the same amount of size */
+        flex: 1 1 0px;
+    }
+
+    /* if first child is a paragraph it needs a margin */
+    &>p:first-child {
+        margin-top: 1lh;
+    }
+
+    &+div.multi {
+        margin-top: .5rlh;
+    }
 }
+
+/*** Full-width ***/
+
+div.full-width {
+    clear: both;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+/*** Columns ***/
 
 .columnar {
     columns: 2;
 }
 
-/*** Footnotes ***/
-body {
-    counter-reset: footnote;
+@media screen and (width >= 1161) {
+    .columnar-large {
+        columns: 2;
+    }
+
+    .columnarr {
+        columns: 3;
+    }
 }
 
-.footnote {
+
+/*** Tables ***/
+
+table {
+    margin: auto;
+    margin-top: var(--base-unit);
+    border-collapse: collapse;
+
+    th {
+        text-align: left;
+
+        &[colspan] {
+            border-bottom: 1px solid var(--colour-dark);
+            border-right: 1px solid var(--colour-dark);
+        }
+    }
+
+    thead+tbody {
+        border-top: 2px solid var(--colour-dark);
+    }
+
+    &.small {
+        font-size: var(--font-size-sm);
+        /* TODO lineheights etc */
+    }
+
+    &.sticky-header {
+        max-height: 100vh;
+        overflow-y: scroll;
+
+        thead {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            /* TODO */
+        }
+    }
+}
+
+td.numeric,
+th.numeric,
+table.numeric>:is(tbody, tfoot)>tr>:is(th, td),
+:is(tbody, tfoot).numeric>tr>:is(th, td) {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+}
+
+/*** Lists ***/
+article {
+
+    ul,
+    ol {
+        margin-top: 1lh;
+        padding-left: 1lh;
+
+        li::marker {
+            color: var(--colour-primary);
+        }
+
+        ul,
+        ol {
+            margin-top: 0;
+
+            li::marker {
+                color: var(--colour-secondary);
+            }
+        }
+    }
+}
+
+/*** Footnotes ***/
+
+.footnote,
+figure.aside {
     float: right;
     clear: right;
     width: var(--footnote-width);
-    margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
-    
+
+    /* reset colour in case inside blockquote, etc */
+    color: var(--colour-black);
+
+    /* offset to the right, plus a gutter of 1 */
+    margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+
     font-size: var(--font-size-sm);
-    line-height: var(--line-height-sm);
     text-align: left;
+
+    /* Margin-bottom used here because we always want the top
+        to be level with the footnote indicator. */
+    margin-bottom: 1lh;
+}
+
+.footnote {
+    text-wrap: balance;
+}
+
+aside.footnote {
+    /* if aside is before some element (which it usually is)
+    that element is likely to have a 1lh=rlh margin-top */
+    margin-top: 1rlh;
+}
+
+/*** Counters ***/
+
+body {
+    counter-reset: footnote;
 }
 
 .footnote-indicator::before {
     counter-increment: footnote;
     content: counter(footnote);
     font-variant-position: super;
+    color: var(--red);
 }
 
 span.footnote::before {
-    content: counter(footnote) ": ";
+    content: counter(footnote) "\2004·\2004";
+    color: var(--red);
+}
+
+aside.footnote {
+    &::before {
+        content: "¶\2002";
+        float: left;
+        color: var(--red);
+    }
+
+    &.reference-warning {
+        margin-top: 0;
+
+        &::before {
+            content: "⚠\2002";
+        }
+    }
+
+    &.reference-note {
+        margin-top: 0;
+
+        &::before {
+            content: "\2139\2002";
+        }
+    }
+}
+
+/*** DLs ***/
+
+dl {
+    margin-top: 1lh;
+    padding-left: 1lh;
+
+    dt {
+        margin-top: 1lh;
+        font-weight: bolder;
+    }
+
+    dd {
+        padding-left: 1lh;
+    }
+}
+
+/*** References ***/
+
+.reference-list {
+    padding-left: 1.5lh;
+
+    &>li {
+        margin-top: .5lh;
+
+        &::marker {
+            color: var(--colour-secondary);
+        }
+    }
+
+    span[itemprop='isbn'] {
+        font-family: 'ocrb';
+        font-size: .8em;
+        color: var(--colour-secondary);
+    }
+}
+
+#ref-list {
+    &>li {
+        &>p {
+            text-indent: -1.5lh;
+        }
+
+        &::marker {
+            content: none;
+        }
+    }
+}
+
+ul.backreferences {
+    padding-left: 0;
+
+    &>li {
+        display: inline;
+
+        &::before {
+            content: ', ';
+        }
+
+        &:first-of-type::before {
+            content: '→ ';
+        }
+    }
+}
+
+/*** Licensing symbols ***/
+
+a[itemprop="license"] {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*** Colours ***/
+
+.red {
+    color: var(--red);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+/*** Target ***/
+
+*:target {
+    background-color: var(--colour-accent);
+}
+
+/** Horizontal Rule ***/
+
+hr {
+    border: none;
+    margin-top: calc(1lh - 1px);
+    border-top: 1px solid var(--colour-secondary);
+
+    height: 0;
+    text-align: center;
+    overflow: visible;
+
+    &::after {
+        color: var(--colour-secondary);
+        background-color: white;
+        content: '•';
+        padding: 0 .5em;
+        position: relative;
+        vertical-align: top;
+        top: calc(-.5lh - 1px);
+    }
+}
+
+/** Metadata **/
+.last-updated {
+    color: var(--colour-dark);
+    font-style: italic;
+    font-weight: 350;
+    left: 0px;
+    margin-top: 0;
+    margin-left: 1rlh;
+    position: var(--metadata-position);
+}
+
+/** Next/previous article **/
+#after-article {
+    margin-top: 2lh;
+}
+
+p.articlesInThisSection {
+    font-weight: bolder;
+    text-align: center;
+}
+
+ul.article-list {
+    margin-top: 1lh;
+    padding-left: 1lh;
+    
+    ul {
+        margin-top: 0;
+    }
+}
+
+.prev-next {
+    margin-top: 1lh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    .prevNextArticle {
+        font-weight: bolder;
+    }
+    
+    .nav-link[rel="prev"] {
+        grid-column: 1;
+        
+        .prevNextArticle::before {
+            content: '← ';
+        }
+    }
+    
+    .nav-link[rel="next"] {
+        grid-column: 2;
+        text-align: right;
+        
+        .prevNextArticle::after {
+            content: ' →';
+        }
+    }
+}
+
+/*** Print removals ***/
+@media print {
+    .under-brand, #search-box, .breadcrumbs, #after-article {
+        display: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    span[itemprop="copyrightNotice"] {
+        a[itemprop="url"] {
+            &::after {
+                content: ' (' attr(href) ')';
+            }
+        }
+    }
 }

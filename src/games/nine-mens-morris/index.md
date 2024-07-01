@@ -40,7 +40,8 @@ A large-format Nine Men’s Morris game being played at a festival in Hungary.
 {%imageEnd%}
 
 {% image 
-    position="right"
+    position="aside"
+    noborder=true
     alt=""
     src="../../articles/families/mill-games/large_merels.svg" %}
 Nine Men’s Morris is played on the large mill board.
@@ -454,6 +455,7 @@ triangular and pentagonal shapes,[@SourcesInRecreationalMathematics] but I have
 not yet been able to see the manuscript in question.
 
 {% image 
+    noborder=true
     src="windmill.svg;merel-pentagon.svg;merel-pentagon2.svg"
     alt=";A board constructed from three nested pentagons with corners and side-middles connected.;A board constructed from five nested pentagons in alternating orientations." %}
 Alternate boards of German origin:[@KlassischeSpiele p. 58] a ‘sun-mill’ (played
@@ -464,6 +466,7 @@ for four, 6; and for five, 5.
 {% imageEnd %}
 
 {% image 
+    noborder=true
     src="merel-cube1.svg;merel-cube2.svg"
     alt=";" %}
 Two variations of a ‘cube’ board by David Parlett.[@OxfordBG p. 122] On the
@@ -473,6 +476,7 @@ mill on the next turn.
 {% imageEnd %}
 
 {% image 
+  noborder=true
   src="merel-mobius.svg;merel-pentagon3.svg;merel-hexagon.svg"
   alt=";;" %}
 The Möbius board (invented by <span class="noun" lang="de">Ingo Althöfer</span>), another

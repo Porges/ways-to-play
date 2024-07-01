@@ -52,7 +52,6 @@ exports.render = async function (data) {
     <link rel="stylesheet" href="/fonts/charis.css" type="text/css" />
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
     <link rel="stylesheet" href="/css/text.css" type="text/css" />
-    <!--<link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />-->
     <link rel="canonical" href="${data.site.url}${data.page.url}" />
     <link rel="alternate" type="application/atom+xml" title="Ways To Play Atom feed" href="/atom.xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -135,21 +134,21 @@ exports.render = async function (data) {
         <meta itemprop="name" content="Ways To Play"/>
     </div>
     <header>
-      <nav class="site">
-        <a href="/" class="brand">Ways to Play</a>
-        <span class="page-title">${title}</span>
-        <div>
-          <ul>
-            <li><a href="/articles/"><span aria-label="" role="img">🧾</span> Articles</a></li>
-            <li><a href="/games/"><span aria-label="" role="img">🎲</span> Games</a></li>
-          </ul>
-          <form>
-            <input type="search" name="q" placeholder="Search" aria-label="Search" /><button type="submit">&#x1F50D;&#8239;</button>
-            <input type="hidden" name="sites" value="games.porg.es" />
-          </form>
-        </div>
-      </nav>
       ${breadcrumbs}
+      <nav class="site">
+        <div>
+          <a href="/" class="brand">Ways to Play</a>
+          <ul class="under-brand">
+            <li><a href="/articles/">Articles</a></li>
+            <li><a href="/games/">Games</a></li>
+          </ul>
+        </div>
+        <h1 class="page-title"${this.asAttr('lang', data.titleLang)}>${ifSet(data.originalTitle, () => `${data.originalTitle} · `)}<span class="simple">${data.title}</simple></h1>
+        <form id="search-box" method="get" action="https://duckduckgo.com/" target="_top">
+          <input type="search" name="q" placeholder="Search" aria-label="Search" /><button type="submit">&#x1F50D;&#8239;</button>
+          <input type="hidden" name="sites" value="games.porg.es" />
+        </form>
+      </nav>
     </header>
     <main>
       ${data.content}

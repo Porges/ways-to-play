@@ -35,7 +35,7 @@ most pieces is the winner.
 ## Variants
 
 {% image 
-  position="right"
+  position="aside"
   alt="A square game board randomly filled with white, red, yellow, and green pieces."
   src='leap-frog-variation.svg' %}
   A sample initial configuration for Murray’s variation.

@@ -6,7 +6,6 @@
     font-display: swap;
     font-weight: bold;
     unicode-range: U+0000-007f,U+0300-036f;
-    font-optical-sizing: auto;
 }
 /* LatinFallback (BasicLatin, CombiningDiacriticalMarks) */
 @font-face {
@@ -16,7 +15,6 @@
     font-style: italic;
     font-weight: bold;
     unicode-range: U+0000-007f,U+0300-036f;
-    font-optical-sizing: auto;
 }
 /* LatinFallback (BasicLatin, CombiningDiacriticalMarks) */
 @font-face {
@@ -25,7 +23,6 @@
     font-display: swap;
     font-style: italic;
     unicode-range: U+0000-007f,U+0300-036f;
-    font-optical-sizing: auto;
 }
 /* LatinFallback (BasicLatin, CombiningDiacriticalMarks) */
 @font-face {
@@ -33,7 +30,6 @@
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-LatinFallback-Regular.woff2') format('woff2');
     font-display: swap;
     unicode-range: U+0000-007f,U+0300-036f;
-    font-optical-sizing: auto;
 }
 /* Historical (LatinExtendedD) */
 @font-face {
@@ -42,7 +38,6 @@
     font-display: swap;
     font-weight: bold;
     unicode-range: U+a720-a7ff;
-    font-optical-sizing: auto;
 }
 /* Historical (LatinExtendedD) */
 @font-face {
@@ -52,7 +47,6 @@
     font-style: italic;
     font-weight: bold;
     unicode-range: U+a720-a7ff;
-    font-optical-sizing: auto;
 }
 /* Historical (LatinExtendedD) */
 @font-face {
@@ -61,7 +55,6 @@
     font-display: swap;
     font-style: italic;
     unicode-range: U+a720-a7ff;
-    font-optical-sizing: auto;
 }
 /* Historical (LatinExtendedD) */
 @font-face {
@@ -69,5 +62,4 @@
     src: local('Charis SIL'), url('/fonts/charis/CharisSIL-Historical-Regular.woff2') format('woff2');
     font-display: swap;
     unicode-range: U+a720-a7ff;
-    font-optical-sizing: auto;
 }

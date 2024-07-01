@@ -641,8 +641,8 @@ based on that of [<span class="noun" lang="ja-Latn">Sanjōya</span>](#sanjoya).
 {% imageEnd %}
 
 {% image 
-    position="right"
     size="small"
+    position="aside"
     src="Oishi_Mark.jpg"
     alt="A card with wistera showing the manufacturer’s mark." %}
 <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s manufacturer’s mark, on a Wisteria card from an old <span class="noun" lang="ja-Latn">Narikin</span> deck.
@@ -830,23 +830,19 @@ The extra cards of Angel’s “Hana-Trump” deck.
 
 ### <img src='/small-images/yaguruma.svg' alt="" class="inline-img" /> <a href="http://www.shogundo.co.jp/" class="noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)
 
-A small manufacturer, founded in 1921. Unlike other manufacturers, their mark is
-not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead
-a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">
-矢車</span>, ‘arrow wheel’).{%fn%}The <span lang="ja-Latn">yaguruma</span> is a
-windmill-like device of arrows arranged in a wheel and allowed to rotate in the
-wind. They are associated with festivals, particularly the May 5th [<span class="noun"
-lang="ja-Latn">Tango no
-Sekku</span>](https://en.wikipedia.org/wiki/Tango_no_sekku) festival, where they
-are placed on top of tall poles from which [<span lang="ja-Latn">koi</span>
-streamers](https://en.wikipedia.org/wiki/Koinobori) are flown. <img
-class="d-block mx-auto w-75" src="/small-images/yaguruma.svg" alt="An example yaguruma symbol
-of seven arrows in a wheel, with the flights facing outwards." />{%endfn%} They
-have also published <span class="noun" lang="ja-Latn">Harifuda</span> and <span class="noun"
-lang="ja-Latn">Shirofuda</span> (blank cards) under the mark <span
-lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce
-<span class="noun" lang="ja-Latn">Hyakunin Isshu</span>, <span class="noun" lang="ja-Latn">Manyo
-Karuta</span>, and <span class="noun" lang="ja-Latn">Hanafuda</span>.
+{%image 
+    src="../../../../../../small-images/yaguruma.svg"
+    size="small"
+    noborder=true
+    position="aside"
+    license="cc0"
+    alt="An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards."
+%}
+The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th [<span class="noun" lang="ja-Latn">Tango no Sekku</span>](https://en.wikipedia.org/wiki/Tango_no_sekku) festival, where they are placed on top of tall poles from which [<span lang="ja-Latn">koi</span> streamers](https://en.wikipedia.org/wiki/Koinobori) are flown.
+{%imageEnd%}
+
+A small manufacturer, founded in 1921. Unlike other manufacturers, their mark is not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja"> 矢車</span>, ‘arrow wheel’). They have also published <span class="noun" lang="ja-Latn">Harifuda</span> and <span class="noun" lang="ja-Latn">Shirofuda</span> (blank cards) under the mark <span lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce <span class="noun" lang="ja-Latn">Hyakunin Isshu</span>, <span class="noun" lang="ja-Latn">Manyo Karuta</span>, and <span class="noun" lang="ja-Latn">Hanafuda</span>.
+
 
 Most of <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s cards are produced with
 hand-wrapped backing paper; they have [another web page that details their
@@ -905,7 +901,7 @@ lang="ja-Latn">Hanafuda</span> cards; firstly the standard pattern, with brands
 
 {% image 
     size="small"
-    position="right"
+    position="aside"
     alt="A hanafuda wrapper with a depiction of an apprentice geisha under blossoms and autumn leaves."
     src='Shogundo.jpg' %}
 <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">Kyō maiko</span> brand.
@@ -1902,8 +1898,8 @@ The <span lang="ja-Latn">ginhyō</span> wrapper.
 ### <a href="http://www.nichiyu.net/en" class="noun" lang="ja-Latn">Nippon Yūgi Gangu/Nichiyū</a> (<span lang="ja">日本遊戯玩具</span>/<span lang="ja">ニチユー</span>)
 
 {% image 
-    position="right"
-    alt=""
+    position="aside"
+    alt="A red human-like Tengu with a long nose."
     src='NYG_tengu.jpg' %}
 <span class="noun" lang="ja-Latn">Nippon Yūgi</span>’s <span lang="ja-Latn">kintengu</span> brand.
 {% imageEnd %}
@@ -2104,7 +2100,7 @@ A manufacturer that has a very finely-detailed deck of cards reproduced in
     src='NG_bamboo.jpg'
     alt=""
     size="small"
-    position="right"
+    position="aside"
     license='with-permission',
     authorFamily="Richert", authorGiven="Marcus" %}
 <span class="noun" lang="ja-Latn">Nihon Goraku</span>’s <span lang="ja-Latn">takejirushi</span> wrapper.
@@ -2133,7 +2129,7 @@ October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<spa
 西口榮助</span>).[@Trademarks1924_7 p. 226]
 {% imageEnd %}
 
-{% image size="small" position="right" src='NS_otanoshimi.jpg' alt="A hanafuda wrapper showing images of hanafuda cards." %}
+{% image size="small" position="aside" src='NS_otanoshimi.jpg' alt="A hanafuda wrapper showing images of hanafuda cards." %}
 The <span lang="ja-Latn">otanoshimi</span> wrapper.
 {% imageEnd %}
 
@@ -2230,7 +2226,7 @@ included:
     src='Seedo_Ebisu.jpg'
     alt="A hanafuda deck wrapper with an image of a smiling man carrying a fishing pole and two fish."
     size="small"
-    position="right"
+    position="aside"
     license="with-permission",
     copyrightYear=2020,
     authorFamily="Sartor",

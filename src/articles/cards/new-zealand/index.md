@@ -7,6 +7,12 @@ mainImage: 22738050.jpg
 <p class="lead">Manufacturing of playing cards in New Zealand started in the 1880s. Despite this
 early start, there have not been many manufacturers of playing-cards.</p>
 
+The main “lines” of manufacturers described below are (or were):
+
+* [John Dickinson/Croxley](#john-dickinsoncroxley)
+* [A. D. Willis/Weeks Ltd./United Empire Box/Amcor](#a-d-willisweeks-ltdunited-empire-boxamcor)
+* [Strong & Ready/Tanner Couch](#strong-andamp-readytanner-couch)
+
 {% image src="wt_display.jpg"
     size="wide"
     alt=""
@@ -17,14 +23,6 @@ early start, there have not been many manufacturers of playing-cards.</p>
 Window display at Whitcombe & Tombs (now Whitcoulls), Christchurch (1912).
 Mostly showing foreign-made cards: Goodall & Congress.
 {% imageEnd %}
-
-<!-- excerpt -->
-
-The main “lines” of manufacturers are (or were):
-
-* [John Dickinson/Croxley](#john-dickinsoncroxley)
-* [A. D. Willis/Weeks Ltd./United Empire Box/Amcor](#a-d-willisweeks-ltdunited-empire-boxamcor)
-* [Strong & Ready/Tanner Couch](#strong-andamp-readytanner-couch)
 
 ## Tax Stamps
 

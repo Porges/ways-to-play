@@ -16,7 +16,7 @@ hero:
 
 In their original form, <span lang="ja-Latn">mono-awase</span> were courtly
 competitions in which various objects were compared as to their qualities or
-unique attributes:{%fn%}Although the same terminology of <span
+unique attributes:{%fn%}The same terminology of <span
 lang="ja-Latn">awase</span> was also used for sports such as
 cock-fighting.[@WorldOfTheShiningPrince p. 165]{%endfn%} objects that were
 judged in these competitions included artefacts such as fans or
@@ -240,14 +240,15 @@ The monk <span lang="ja-Latn"
 class="noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</a>
 (<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr
 title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in
-Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130] {%fn%}<span class="noun"
+Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130]
+
+{%aside%}
+<span class="noun"
 lang="ja-Latn">Kenkō</span> goes on to apply this strategic advice as part of an
-extended metaphor for good governance and living well: “In all things, do not
-seek for distant advantage. Simply maintain correctly what is close to hand. In
-the words of the Chinese sage [Duke Xiao of
-Qing](https://en.wikipedia.org/wiki/Zhao_Pu), ‘Do what is good, and ask no
-questions of the future.’ Surely a ruler should also govern in this
-way.”{%endfn%}
+extended metaphor for good governance and living well:
+
+> In all things, do not seek for distant advantage. Simply maintain correctly what is close to hand. In the words of the Chinese sage [Duke Xiao of Qing](https://en.wikipedia.org/wiki/Zhao_Pu), ‘Do what is good, and ask no questions of the future.’ Surely a ruler should also govern in this way.
+{%endaside%}
 
 > If someone engaged in a game of shell matching neglects the shells in front of
 > him while he looks around to check what others might be hiding in their
@@ -1256,7 +1257,7 @@ bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two
     license='cc0',
     originalUrl="https://www.flickr.com/photos/library_of_congress/16944707362",
     orgName="Library of Congress" %}
-<cite>Third Month: Blossom-Viewing in Askukayama</cite><br /><cite lang="ja">三月　飛鳥山花見</cite><br />by <span class="noun" lang="ja-Latn">Kitao Shigemasa</span> (<span lang="ja">北尾 重政</span>, 1739–1820).
+<cite>Third Month: Blossom-Viewing in Askukayama</cite><cite lang="ja">三月飛鳥山花見</cite> by <span class="noun" lang="ja-Latn">Kitao Shigemasa</span> (<span lang="ja">北尾 重政</span>, 1739–1820).
 {% imageEnd %}
 
 {% image
@@ -1733,8 +1734,7 @@ Its destination:<br /> The skies, one with<br /> Musashi Plain, where<br /> From
 
 </div>
 
-The <span lang="ja-Latn">Awa-bana kasu</span> carry a shortened version, with
-the two cards carrying mirror versions:
+The <span lang="ja-Latn">Awa-bana kasu</span> carry a shortened version, with the two cards carrying mirror versions:
 
 <div class="multi">
 <p lang="ja" class="vertical-rl">
@@ -1745,8 +1745,9 @@ the two cards carrying mirror versions:
 月𛂜け𛀆
 </p>
 <p lang="ja" class="vertical-rl">
-月の景武蔵野の原<br />
-武蔵野の月の景
+月の景<br/>武蔵野の原<br />
+<br/>
+武蔵野の<br/>月の景
 </p>
 
 View of the moon: <span class="noun" lang="ja-Latn">Musashino</span> plain<br /><br /><span class="noun" lang="ja-Latn">Musashino</span>’s view of the moon
@@ -1754,7 +1755,7 @@ View of the moon: <span class="noun" lang="ja-Latn">Musashino</span> plain<br />
 </div>
 
 {% image 
-    size="wide"
+    size="extra-wide"
     src="SC148933.jpg"
     alt="Three horsemen crossing a grassy plain at night, while geese fly past the moon."
     license='cc0',
@@ -1832,6 +1833,7 @@ Otokuni</span> (<span lang="ja">河合乙州</span>) came to visit him with a gi
 
 {% image 
     src="Imperial_Seal_of_Japan.svg"
+    noborder=true
     position="aside"
     size="small"
     alt="A very stylized image of a chrysanthemum with 16 petals radiating outward."

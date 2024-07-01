@@ -164,7 +164,7 @@ export async function articleImage(this: ExpectedThis, caption: string, rawprops
     if (srcs.length === 1) {
         return `<figure class="figure ${className}" itemprop="image" itemscope itemtype="${imageObject}">`
             + await renderImage(this, src, alt, sourceInfo, sizes, noborder)
-            + `<figcaption class="text-center figure-caption">`
+            + `<figcaption>`
             + captionAndSource
             + `</figcaption>`
             + `</figure>`;
@@ -172,7 +172,7 @@ export async function articleImage(this: ExpectedThis, caption: string, rawprops
         const sourceId = "src_" + randomUUID();
         return `<figure class="figure ${className}">`
             + await renderImages(this, srcs, alts, sourceInfo, perRow, sourceId, sizes, noborder, justify as 'centered' | undefined)
-            + `<figcaption class="text-center figure-caption" itemscope>`
+            + `<figcaption itemscope>`
             + `<div id="${sourceId}">`
             + captionAndSource
             + `</div>`
