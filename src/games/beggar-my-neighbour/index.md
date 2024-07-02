@@ -7,8 +7,10 @@ players:
 ---
 
 <p class="lead">
-<span class="aka">Beggar My Neighbour</span>, also known as <span class="aka">Strip Jack Naked</span>,{%fn%}The first card game my grandfather ever taught me!{%endfn%} or <span class="aka">Beat Your Neighbour Out-Of-Doors</span>,[@LondonStreetGames p. 12] is a simple luck-based card game from England for two or more players. No decisions are required to be made during the course of play, so it is an ideal children’s game.
+<span class="aka">Beggar My Neighbour</span>, also known as <span class="aka">Strip Jack Naked</span>, or <span class="aka">Beat Your Neighbour Out-Of-Doors</span>,[@LondonStreetGames p. 12] is a simple luck-based card game from England for two or more players. No decisions are required to be made during the course of play, so it is an ideal children’s game.
 </p>
+
+{%aside%}This is the first card game that my grandfather ever taught me!{%endaside%}
 
 A wonderful defence of this simple game as the ideal playing-card game may be found in the Meerut Universal Magazine.[@MUMagazine]
 

@@ -7,10 +7,10 @@ players: banking
 ---
 
 <p class='lead'>
-<span lang="es" class="aka noun">Chuza</span> or <span lang="es" class="aka noun">Chusas</span> (‘owls’) was a gambling game popular in the 19th century in both Mexico and New Mexico,{%fn%}Writing in 1886, John Gregory Bourke described it as a “purely Mexican game”, in opposition to “American” games such as Faro, Keno, and Diana.[@LynchingAtTucson 236]{%endfn%} and similar to {%gameref roulette %}.
+<span lang="es" class="aka noun">Chuza</span> or <span lang="es" class="aka noun">Chusas</span> (‘owls’) was a gambling game popular in the 19th century in both Mexico and New Mexico, and similar to {%gameref roulette %}.
 </p>
 
-The game was said to be particularly popular with women:[@TheWhiteChief 44][@CommercePrairies_1 240]
+Writing in 1886, John Gregory Bourke described it as a “purely Mexican game”, in opposition to “American” games such as Faro, Keno, and Diana.[@LynchingAtTucson 236] The game was said to be particularly popular with women:[@TheWhiteChief 44][@CommercePrairies_1 240]
 
 > [it is not] confined to any class; but the most respectable New Mexican ladies would be found seated at these tables day and night, until their faces and sunken eyes proclaimed that the excitement was too powerful for their system.[@NewMexicanCustoms]{%fn%}One author in the New Mexico Historical Review misunderstood this passage as referring to a card game.[@NMInTransition 191]{%endfn%}
 

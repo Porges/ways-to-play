@@ -4,7 +4,7 @@ players: banking
 ---
 
 <p class="lead">
-<span class="aka">Black and White Cocks</span>{%fn%}an apparently un-Googleable name…{%endfn%} was a gambling game played in England in the 19th century. In 1838 it was described as a “well-known game of chance”,[@Tiverton] but it seems to have died out before the 20th century.
+<span class="aka">Black and White Cocks</span> — an apparently un-Googleable name — was a gambling game played in England in the 19th century. In 1838 it was described as a “well-known game of chance”,[@Tiverton] but it seems to have died out before the 20th century.
 </p>
 
 {%image

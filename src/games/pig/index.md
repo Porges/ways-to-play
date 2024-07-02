@@ -68,7 +68,7 @@ This version of the game is played with a coin instead of a die.[@OptimalPig p. 
 
 ## Strategy
 
-⚠️ I have yet to complete this section; in the mean-time, the [Wikipedia article](https://en.wikipedia.org/wiki/Pig_(dice_game)) is a useful reference.
+🚧 I have yet to complete this section; in the mean-time, the [Wikipedia article](https://en.wikipedia.org/wiki/Pig_(dice_game)) is a useful reference. 🚧
 
 <!--
 - 2000 https://ieeexplore.ieee.org/abstract/document/8158672/

@@ -8,15 +8,15 @@ One of the most famous historical lists of games is that found in Chaper 22 of <
 </p>
 
 An in-depth examination of the games in the list lies [below the
-table](#the-list-in-depth). ⚠️ This article, more than most, is a
-work-in-progress.
+table](#the-list-in-depth). 🚧 This article, more than most, is a
+work-in-progress. 🚧
 
 The first five columns give the lists from five different French editions; the
 remaining columns are from translations into English.
 
 The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (German, 1590) are given beneath the table as they diverge significantly.
 
-⚠️ Note that the entries in the Screech column are out of sync with the others and I haven’t had time to match them up yet.
+🚧 Note that the entries in the Screech column are out of sync with the others and I haven’t had time to match them up yet. 🚧
 
 ⚠️ This table is very wide and might scroll horizontally. My notes are at the far right.
 

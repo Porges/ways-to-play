@@ -16,7 +16,7 @@ subgames:
 
 ## Play
 
-{%image src="../mill-games/small_merels_with_diagonals.svg" alt="" %}
+{%image noborder=true position="aside" size="small" src="../mill-games/small_merels_with_diagonals.svg" alt="" %}
 The game is played on the small mill board with diagonals.
 {%imageEnd%}
 

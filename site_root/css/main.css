@@ -268,7 +268,7 @@ header {
     margin-bottom: 1.5rlh;
 }
 
-nav.site, footer {
+nav.site, #site-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -280,7 +280,7 @@ nav.site {
     padding: 0 1rlh 0 1rlh;
 }
 
-footer {
+#site-footer {
     margin-top: calc(2rlh - 1px);
     padding: .5rlh 1rlh .5rlh 1rlh;
     border-top: 1px dotted var(--colour-secondary);
@@ -329,17 +329,35 @@ nav.site {
 
     input,
     button {
-        border: 1px solid var(--colour-black);
-        color: var(--colour-black);
-        background-color: white;
+        color: var(--colour-dark);
+        border: none;
+        background: inherit;
+        
+        &::placeholder {
+            font-style: italic;
+            font-weight: 300;
+        }
     }
-
+    
     input {
-        border-radius: 3px 0 0 3px;
+        border-bottom: 1px solid var(--colour-dark);
+        &:focus {
+            outline: none;
+        }
+    }
+    
+    button {
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-bottom-color: var(--colour-dark);
+        &:hover {
+            background: var(--colour-accent);
+        }
     }
 
-    button {
-        border-radius: 0 3px 3px 0;
+    input:valid + button {
+        color: var(--colour-secondary);
+        border-color: var(--colour-secondary);
     }
 }
 
@@ -584,7 +602,8 @@ blockquote {
     text-align: start;
 
     &.epigraph::before {
-        content: '❝';
+        content: '“';
+        font-weight: 900;
         color: var(--colour-secondary);
         display: block;
         width: 1rlh;
@@ -592,6 +611,13 @@ blockquote {
         font-size: 2em;
         position: absolute;
         margin-top: -.2em;
+    }
+
+    footer {
+        color: black;
+        margin-top: calc(.5rlh - 1px);
+        border-top: 1px solid var(--colour-light);
+        text-align: right;
     }
 }
 
@@ -809,7 +835,7 @@ aside.footnote {
 
 dl {
     margin-top: 1lh;
-    padding-left: 1lh;
+    padding-left: .5lh;
 
     dt {
         margin-top: 1lh;
@@ -817,7 +843,7 @@ dl {
     }
 
     dd {
-        padding-left: 1lh;
+        padding-left: .5lh;
     }
 }
 

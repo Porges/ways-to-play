@@ -16,7 +16,9 @@ It is possible that the name should really be transcribed <span lang="ee">adji</
 
 ## Play
 {% image
+    noborder=true
     size="small"
+    position="aside"
     src="../../articles/families/mill-games/medium_merels.svg"
     alt="" %}
 <span class="noun" lang="ee">Achi</span> is played on the medium-sized mill board.
@@ -27,6 +29,7 @@ Each player has six pieces. To begin the game, players take turns placing a sing
 A valid mill, like in other mill games, consists of three pieces in a straight line. However, in <span class="noun" lang="ee">Achi</span>, a mill may also be formed by *two* pieces on the central lines on either side.
 
 {% image 
+    noborder=true
     size="small"
     src="achi_examples.svg"
     alt="" %}

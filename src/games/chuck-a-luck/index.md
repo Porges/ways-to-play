@@ -16,11 +16,7 @@ hero:
 late 19th century and early 20th century. It began as a portable soldier’s game
 and later developed into more complex casino variants.</p>
 
-<!-- excerpt -->
-
 ## Sweat-Cloth / Chuck-A-Luck
-
-### Play
 
 {% image 
     src='ChuckALuckLayout.jpg'
@@ -114,13 +110,6 @@ A modern Chuck-a-Luck game on Coney Island.
 
 ### Pictorial dice
 
-{% image 
-    src='MustangLayout.jpg'
-    alt="Six cells containing: a horse’s head, the suits of hearts, diamonds, clubs, and spades, and an anchor."
-    license="cc0" %}
-A Mustang layout, from Kernan Manufacturing’s @KernanCatalogue [p. 19].
-{% imageEnd %}
-
 By the 1870s, the game also began to be manufactured with images instead of pips
 on the dice, and in this form it was called Mustang or Horse-Head (with dice
 with images of a horse’s head, anchor, and the card suit symbols: club, spade,
@@ -128,6 +117,13 @@ diamond, and heart). In another form it was known as Feather and Anchor
 (horse-head, anchor, feather, game cock, leaf, star).[@WanderingsofaVagabond p.
 238][@ATourOfStLouis p. 532] Yet another form had the symbols: snake, elephant,
 eagle, baby, turtle (and 6th?).[@FoolsOfFortuneOrGamblingAndGamblers p. 283]
+
+{% image 
+    src='MustangLayout.jpg'
+    alt="Six cells containing: a horse’s head, the suits of hearts, diamonds, clubs, and spades, and an anchor."
+    license="cc0" %}
+A Mustang layout, from Kernan Manufacturing’s @KernanCatalogue [p. 19].
+{% imageEnd %}
 
 It is possible that it was one  one of these pictorial versions that was taken
 and adopted by the British as {% gameref crown-and-anchor %}.
@@ -156,6 +152,10 @@ played as early as 1888.[@CubicMutualPool]
 
 ## Casino Chuck-A-Luck / Grand Hazard
 
+In casinos the basic game was augmented with equipment to become known as either
+“Hyronemus” (where the dice were spun in a bowl) or “Bird-Cage” (where the dice
+were tumbled inside a wire hourglass).
+
 {% image 
     alt="Men sitting around a table with an extended Chuck-A-Luck staking layout and bird-cage sitting on it."
     size="wide"
@@ -166,10 +166,6 @@ played as early as 1888.[@CubicMutualPool]
 Chuk-A-Luck with an expanded staking board being played at the Bank Club, Reno,
 Nevada (<abbr title="circa">c.</abbr> 1932).
 {% imageEnd %}
-
-In casinos the basic game was augmented with equipment to become known as either
-“Hyronemus” (where the dice were spun in a bowl) or “Bird-Cage” (where the dice
-were tumbled inside a wire hourglass).
 
 Many books of the time claim that these tools were often gaffed or crooked, with
 one advertisement for an Electric Hyronemus claiming it can be made to roll only
@@ -332,6 +328,7 @@ usual, the extended staking layout contains boxes for the following bets:
 
 {% image 
     size="small"
+    position="aside"
     src='HyronemusBets.jpg'
     alt="A layout containing the Chuck-A-Luck numbers and 4 other betting cells: Under 10, Over 11, 10, and 11."
     license="cc0" %}

@@ -8,6 +8,8 @@ countries: UK
 
 <p class="lead"><span class="aka">Shoe the (Wild) Mare</span>, or the <span class="aka">Shoeing of the (Wild) Mare</span> is a 17th-century English physical game of unclear form, as there are conflicting accounts of what the game comprised. It was popular during the Christmas season.</p>
 
+## Accounts
+
 In 1616 it appears in [Ben Johnson](https://en.wikipedia.org/wiki/Ben_Jonson)’s masque [<cite>Love Restored</cite>](https://en.wikipedia.org/wiki/Love_Restored):[@BenJonson1616 990]{%fn%}In some later editions this mistakenly appears as “shooting the wild Mare”.[@BenJonson1716_3]{%endfn%}
 
 > Are these your court-sports ! would I had kept me to my gamboles o’ the countrey still, selling of fish, short service, shooing the wild mare, or rosting of Robin red-brest.
@@ -75,7 +77,7 @@ The “suspended” version seems to be particular to Scotland, another account 
 
 > A beam is suspended from the roof by two ropes of about equal length, and high enough from the ground to prevent any one astride of it touching the floor with his feet. The feat consists in keeping your seat on this white mare without touching the ropes. When it is called “shoeing the mare,” the rider is supposed to be the smith, and has a piece of wood in his hand which represents his hammer, with the hammer he was supposed to drive in the nails of the shoes, striking the lower part of the beam four times eight blows. He who could complete the shoeing of the horse without being thrown off was of course a master of smithcraft. When it was merely riding “the kicking mare,” the rider was provided with a wand with which he struck at his lively mount in all directions, and the more quickly and more variously he could do this without falling off, he was considered all the better rider. It generally ended in a tumble, exciting the merriment of the spectators.
 
-## Other Interpretations
+## Other interpretations
 
 [W. Carew Hazlitt](https://en.wikipedia.org/wiki/William_Carew_Hazlitt)  described the game as:[@PopAntiqHazlitt1870_2 332]
 
@@ -85,6 +87,6 @@ However, this seems to be entirely his own supposition.
 
 Another 19th-century author remembers it as a circle chase where “if my boyish recollections be correct, this game is played by a number standing in a ring, holding hands, with one outside the ring, who drops a handkerchief behind any one he pleases; and the point is, to be sharp in observing if it be dropped behind you, and then to be quick in overtaking the dropper before he arrives at your place—the only practical allusion to a horse being in the activity”.[@ChristmasCustomsInMounmouthshire] See {%gameref circle-chases %} for more on these types of games.
 
-## References
+## Other references
 
 There is some discussion of this game in @GamesAndSportsBrewster [153], although he also includes references to the song “how away the mare”, which may not be related to the physical game.

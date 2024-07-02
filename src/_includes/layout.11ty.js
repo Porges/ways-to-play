@@ -144,8 +144,8 @@ exports.render = async function (data) {
           </ul>
         </div>
         <h1 class="page-title"${this.asAttr('lang', data.titleLang)}>${ifSet(data.originalTitle, () => `${data.originalTitle} · `)}<span class="simple">${data.title}</simple></h1>
-        <form id="search-box" method="get" action="https://duckduckgo.com/" target="_top">
-          <input type="search" name="q" placeholder="Search" aria-label="Search" /><button type="submit">&#x1F50D;&#8239;</button>
+        <form id="search-box" role="search" method="get" action="https://duckduckgo.com/" target="_top">
+          <input type="search" role="searchbox" name="q" required placeholder="Search this site" aria-label="Search this site" /><button type="submit">&#x1F50D;&#xFE0E;</button>
           <input type="hidden" name="sites" value="games.porg.es" />
         </form>
       </nav>
@@ -153,7 +153,7 @@ exports.render = async function (data) {
     <main>
       ${data.content}
     </main>
-    <footer>
+    <footer id="site-footer">
       <span>
         <a href="https://neocities.org/site/waystoplay"><img width="135" height="40" class="inline-img big" src="/small-images/Hosted_by_Neocities.svg" alt="Hosted by Neocities" /></a>
       </span>

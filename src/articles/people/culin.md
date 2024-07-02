@@ -25,7 +25,7 @@ order: 50
 
 Culin usually only presents names and terms in their transliterated form. For Chinese, it seems that the most common dictionary he used was the @TonicDictionary, so they are almost always presented in Cantonese pronunciation.
 
-⚠️ This section is currently incomplete.
+🚧 This section is currently incomplete. 🚧
 
 In @KoreanGames:
 

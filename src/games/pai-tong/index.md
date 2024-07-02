@@ -14,11 +14,10 @@ equipment: Card game (Ceki)
 ---
 
 <p class="lead">
-<span class="noun aka" lang="th-Latn">Pai Tong</span> (<span lang="th" class="aka">ไพ่ตอง</span>, ‘<span lang="th-Latn">tong</span> cards’) is a draw-and-discard card game from Thailand, played with Thai money cards. It is also known as <span class="noun" lang="th-Latn" class="aka">Pai Phong (Thai)</span> (<span lang="th" class="aka">ไพ่ผ่อง(ไทย)</span>){%fn%}The name <span lang="th-Latn">pai phong</span> could be from Hokkien <span lang="zh">碰牌</span> <span lang="nan-Latn">phòng pâi</span>, ‘bump cards’. This terminology is also used in the game of {%gameref mahjong%}, where <span lang="zh">碰</span> — usually “pong” in English rules — is the call for claiming a tile to form a set of three identical tiles. For the derivation of <span lang="th-latn">tong</span>, see below.{%endfn%} or <span class="noun" lang="th-Latn" class="aka">Pai Chot</span> (<span lang="th" class="aka">ไพ่จอด</span>).[@ThaiGambling p. 71–6] Very similar games are also played in Kelantan in Malaysia.
+<span class="noun aka" lang="th-Latn">Pai Tong</span> (<span lang="th" class="aka">ไพ่ตอง</span>, ‘<span lang="th-Latn">tong</span> cards’) is a draw-and-discard card game from Thailand, played with Thai money cards. It is also known as <span class="noun" lang="th-Latn" class="aka">Pai Phong (Thai)</span> (<span lang="th" class="aka">ไพ่ผ่อง(ไทย)</span>) or <span class="noun" lang="th-Latn" class="aka">Pai Chot</span> (<span lang="th" class="aka">ไพ่จอด</span>).[@ThaiGambling p. 71–6] Very similar games are also played in Kelantan in Malaysia.
 </p>
 
-
-<!-- excerpt -->
+{%aside%}The name <span lang="th-Latn">pai phong</span> could be from Hokkien <span lang="zh">碰牌</span> <span lang="nan-Latn">phòng pâi</span>, ‘bump cards’. This terminology is also used in the game of {%gameref mahjong%}, where <span lang="zh">碰</span> — usually “pong” in English rules — is the call for claiming a tile to form a set of three identical tiles. For the derivation of <span lang="th-latn">tong</span>, see below.{%endaside%}
 
 {% image src="../../maps/Pong.svg" alt="" %}
 Thailand and Malaysia, with Kelantan’s location highlighted.
