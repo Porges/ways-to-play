@@ -161,7 +161,7 @@ span[lang]:not(.noun):is(
 /* Vertical writing */
 .vertical-rl {
     writing-mode: vertical-rl;
-    margin-block-start: 1lh;
+    margin-block-start: .5lh;
 }
 
 /* Shouldn't grow as fast in a multi */

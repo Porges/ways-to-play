@@ -19,7 +19,7 @@ export function render(this: Context, data: Data) {
         .slice(0, 30)
         .map((p: any) => {
             const iso = p.date.toISOString();
-            return `<li><a href="${p.url}">${p.data.title}</a> (<time datetime="${iso}" class="relative">${iso}</time>)</li>`;})
+            return `<li><a href="${p.url}">${p.data.title}</a> <span class="recently-updated-time">(<time datetime="${iso}" class="relative">${iso}</time>)</a></li>`;})
         .join("\n");
 
     pages.sort((x, y) => y.content.length - x.content.length);

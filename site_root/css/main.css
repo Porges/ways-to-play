@@ -43,21 +43,9 @@
     --green: #004733;
     --colour-yellow: #fbc823;
 
-    /*
-    --colour-accent: #483a55;
-    --colour-accent2: #6d6f84;
-    --colour-accent3: #b89da3;
-    --colour-info: #fca53d;
-    --colour-success: #55a611;
-    --colour-warning: #ffc05b;
-    --colour-danger: #f20861;
-    */
-
     /* Overridden by media queries */
-    --nav-direction: column;
     --figure-wide-overlap: 0;
     --heading-protrude: 0;
-    --metadata-position: static;
 
     --expand-size: calc(var(--base-unit) + var(--figure-wide-overlap) + var(--text-width) + var(--base-unit) + var(--footnote-width) + var(--base-unit));
     /* this ends up being 1161px */
@@ -104,29 +92,40 @@ body {
 main {
     display: grid;
 
-    grid-template-columns: var(--base-unit) 1fr var(--base-unit);
+    grid-template-columns: .5rlh 1fr .5rlh;
+
+    &:has(>article) {
+        border-top: 1px solid var(--colour-light);
+        margin-top: -1px;
+    }
 
     &>* {
         grid-column: 2;
     }
 }
 
+article {
+    max-width: 100%;
+}
+
 section {
-    display: flow-root; /* trap floats inside */
+    clear: left;
+    /* trap floats inside */
+    display: flow-root;
 }
 
 /* see --expand-size above */
-@media screen and (width >= 648px) {
+@media screen and (width >=648px) {
     main {
         display: grid;
 
         grid-template-columns:
-            minmax(var(--base-unit), 1fr) var(--figure-wide-overlap) var(--text-width) var(--figure-wide-overlap) minmax(var(--base-unit), 1fr);
+            minmax(1rlh, 1fr) var(--figure-wide-overlap) var(--text-width) var(--figure-wide-overlap) minmax(1rlh, 1fr);
 
         /* We need more space on the right if footnotes are present */
         &:has(.footnote, figure.aside) {
             grid-template-columns:
-                minmax(var(--base-unit), 1fr) var(--figure-wide-overlap) var(--text-width) var(--base-unit) var(--footnote-width) minmax(var(--base-unit), 1fr);
+                minmax(1rlh, 1fr) var(--figure-wide-overlap) var(--text-width) 1rlh var(--footnote-width) minmax(1rlh, 1fr);
         }
 
         &>* {
@@ -136,12 +135,10 @@ section {
 }
 
 /* see --expand-size above */
-@media screen and (width >= 1161px) {
+@media screen and (width >=1161px) {
     :root {
-        --nav-direction: row;
         --figure-wide-overlap: calc(3 * var(--base-unit));
         --heading-protrude: -1rlh;
-        --metadata-position: absolute;
     }
 }
 
@@ -173,8 +170,6 @@ body {
 p {
     /* Lead paragraphs */
     &.lead {
-        margin-top: 0;
-
         font-weight: 350;
         font-size: 1.5rem;
 
@@ -265,19 +260,32 @@ a {
 
 /*** Header & Footer ***/
 header {
-    margin-bottom: 1.5rlh;
+    margin-bottom: 1rlh;
 }
 
-nav.site, #site-footer {
+nav.site,
+#site-footer {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-between;
-    flex-direction: var(--nav-direction);
+    gap: 1rlh;
 }
 
 nav.site {
     margin-top: 1rlh;
     padding: 0 1rlh 0 1rlh;
+}
+
+@media (width >= 1161px) {
+    nav.site, #site-footer {
+        flex-direction: row;
+    }
+    
+    nav.site {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
 }
 
 #site-footer {
@@ -332,30 +340,32 @@ nav.site {
         color: var(--colour-dark);
         border: none;
         background: inherit;
-        
+
         &::placeholder {
             font-style: italic;
             font-weight: 300;
         }
     }
-    
+
     input {
         border-bottom: 1px solid var(--colour-dark);
+
         &:focus {
             outline: none;
         }
     }
-    
+
     button {
         cursor: pointer;
         border: 1px solid transparent;
         border-bottom-color: var(--colour-dark);
+
         &:hover {
             background: var(--colour-accent);
         }
     }
 
-    input:valid + button {
+    input:valid+button {
         color: var(--colour-secondary);
         border-color: var(--colour-secondary);
     }
@@ -371,7 +381,7 @@ nav {
 /*** Breadcrumbs ***/
 
 nav.breadcrumbs {
-    padding: .5rlh 1rlh .5rlh 1rlh;
+    padding: .25rlh .5rlh .25rlh .5rlh;
     border-bottom: 1px solid var(--colour-secondary);
     margin-bottom: -1px;
 
@@ -498,25 +508,6 @@ figure {
         }
     }
 
-    &.left {
-        clear: left;
-        float: left;
-        margin-right: .5rlh;
-        margin-left: calc(-1 * var(--figure-wide-overlap));
-
-        /* helps stop text wrapping badly */
-        margin-bottom: .5rlh;
-    }
-
-    &.right {
-        clear: right;
-        float: right;
-        margin-left: .5rlh;
-        margin-right: calc(-1 * var(--figure-wide-overlap));
-
-        margin-bottom: .5rlh;
-    }
-
     &.extra-small {
         .figure-img {
             max-height: 100px;
@@ -528,30 +519,53 @@ figure {
             max-height: 200px;
         }
     }
+}
 
-    &.wide {
-        clear: both;
+@media (width >= 1161px) {
+    figure {
+        &.left {
+            clear: left;
+            float: left;
+            margin-right: .5rlh;
+            margin-left: calc(-1 * var(--figure-wide-overlap));
 
-        margin-left: calc(-1 * var(--figure-wide-overlap));
-        /* bias it to the right a bit */
-        margin-right: calc(-2 * var(--figure-wide-overlap));
-
-        /* we know this won’t be too tall because it’s wide */
-        .figure-img {
-            max-height: unset;
-            border-width: 2px;
+            /* helps stop text wrapping badly */
+            margin-bottom: .5rlh;
         }
-    }
 
-    &.extra-wide {
-        clear: both;
+        &.right {
+            clear: right;
+            float: right;
+            margin-left: .5rlh;
+            margin-right: calc(-1 * var(--figure-wide-overlap));
 
-        margin-left: calc(-1 * var(--figure-wide-overlap));
-        margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
+            margin-bottom: .5rlh;
+        }
 
-        .figure-img {
-            max-height: unset;
-            border-width: 2px;
+        &.wide {
+            clear: both;
+
+            margin-left: calc(-1 * var(--figure-wide-overlap));
+            /* bias it to the right a bit */
+            margin-right: calc(-2 * var(--figure-wide-overlap));
+
+            /* we know this won’t be too tall because it’s wide */
+            .figure-img {
+                max-height: unset;
+                border-width: 2px;
+            }
+        }
+
+        &.extra-wide {
+            clear: both;
+
+            margin-left: calc(-1 * var(--figure-wide-overlap));
+            margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
+
+            .figure-img {
+                max-height: unset;
+                border-width: 2px;
+            }
         }
     }
 }
@@ -631,21 +645,8 @@ div.multi {
     align-items: flex-start;
 
     gap: .5rlh;
-
-    &.wide {
-        clear: both;
-
-        margin-left: calc(-1 * var(--figure-wide-overlap));
-        /* bias it to the right a bit */
-        margin-right: calc(-2 * var(--figure-wide-overlap));
-    }
-
-    &.extra-wide {
-        clear: both;
-
-        margin-left: calc(-1 * var(--figure-wide-overlap));
-        margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
-    }
+    
+    flex-wrap: wrap;
 
     &>* {
         /* items should all get the same amount of size */
@@ -662,8 +663,28 @@ div.multi {
     }
 }
 
+@media (width >= 1161px) {
+    div.multi {
+        &.wide {
+            clear: both;
+
+            margin-left: calc(-1 * var(--figure-wide-overlap));
+            /* bias it to the right a bit */
+            margin-right: calc(-2 * var(--figure-wide-overlap));
+        }
+
+        &.extra-wide {
+            clear: both;
+
+            margin-left: calc(-1 * var(--figure-wide-overlap));
+            margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+        }
+    }
+}
+
 /*** Full-width ***/
 
+/* NB: doesn't work */
 div.full-width {
     clear: both;
     position: relative;
@@ -677,7 +698,7 @@ div.full-width {
     columns: 2;
 }
 
-@media screen and (width >= 1161) {
+@media (width >=1161px) {
     .columnar-large {
         columns: 2;
     }
@@ -686,7 +707,6 @@ div.full-width {
         columns: 3;
     }
 }
-
 
 /*** Tables ***/
 
@@ -736,7 +756,6 @@ table.numeric>:is(tbody, tfoot)>tr>:is(th, td),
 
 /*** Lists ***/
 article {
-
     ul,
     ol {
         margin-top: 1lh;
@@ -759,29 +778,48 @@ article {
 
 /*** Footnotes ***/
 
-.footnote,
-figure.aside {
-    float: right;
-    clear: right;
-    width: var(--footnote-width);
-
+.footnote {
+    float: left;
+    clear: left;
+    width: 100%;
+    
     /* reset colour in case inside blockquote, etc */
     color: var(--colour-black);
-
-    /* offset to the right, plus a gutter of 1 */
-    margin-right: calc(-1 * var(--footnote-width) - 1rlh);
 
     font-size: var(--font-size-sm);
     text-align: left;
 
-    /* Margin-bottom used here because we always want the top
-        to be level with the footnote indicator. */
-    margin-bottom: 1lh;
+    border-top: dotted 1px var(--colour-light);
+    border-bottom: dotted 1px var(--colour-light);
+
+    margin-bottom: calc(.5rlh - 1px);
+    margin-top: calc(.5rlh - 1px);
 }
 
-.footnote {
-    text-wrap: balance;
+@media (width >= 1161px) {
+    .footnote, figure.aside {
+        float: right;
+        clear: right;
+
+        width: var(--footnote-width);
+
+        /* offset to the right, plus a gutter of 1 */
+        margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+
+        border: none;
+
+        /* Margin-bottom used here instead of margin-top
+            because we always want the top
+            to be level with the footnote indicator. */
+        margin-top: 0;
+        margin-bottom: 1lh;
+    }
+
+    .footnote {
+        text-wrap: balance;
+    }
 }
+
 
 aside.footnote {
     /* if aside is before some element (which it usually is)
@@ -943,72 +981,88 @@ hr {
 /** Metadata **/
 .last-updated {
     color: var(--colour-dark);
+    font-size: var(--font-size-sm);
+    line-height: .5rlh;
     font-style: italic;
     font-weight: 350;
-    left: 0px;
-    margin-top: 0;
-    margin-left: 1rlh;
-    position: var(--metadata-position);
+    text-align: right;
+    margin-top: .5rlh;
+    margin-bottom: .5rlh;
+}
+
+@media (width >= 1161px) {
+    .last-updated {
+        text-align: left;
+    }
+}
+
+.recently-updated-time {
+    font-size: var(--font-size-sm);
 }
 
 /** Next/previous article **/
 #after-article {
     margin-top: 2lh;
-}
 
-p.articlesInThisSection {
-    font-weight: bolder;
-    text-align: center;
-}
-
-ul.article-list {
-    margin-top: 1lh;
-    padding-left: 1lh;
-    
-    ul {
-        margin-top: 0;
-    }
-}
-
-.prev-next {
-    margin-top: 1lh;
-
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
-    .prevNextArticle {
+    p.articlesInThisSection {
         font-weight: bolder;
+        text-align: center;
     }
-    
-    .nav-link[rel="prev"] {
-        grid-column: 1;
-        
-        .prevNextArticle::before {
-            content: '← ';
+
+    ul.article-list {
+        margin-top: 1lh;
+        padding-left: 1lh;
+
+        ul {
+            margin-top: 0;
         }
     }
-    
-    .nav-link[rel="next"] {
-        grid-column: 2;
-        text-align: right;
-        
-        .prevNextArticle::after {
-            content: ' →';
+
+    .prev-next {
+        margin-top: 1lh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .prevNextArticle {
+            font-weight: bolder;
+        }
+
+        .nav-link[rel="prev"] {
+            grid-column: 1;
+
+            .prevNextArticle::before {
+                content: '← ';
+            }
+        }
+
+        .nav-link[rel="next"] {
+            grid-column: 2;
+            text-align: right;
+
+            .prevNextArticle::after {
+                content: ' →';
+            }
         }
     }
 }
+
 
 /*** Print removals ***/
 @media print {
-    .under-brand, #search-box, .breadcrumbs, #after-article {
+
+    .under-brand,
+    #search-box,
+    .breadcrumbs,
+    #after-article {
         display: none;
     }
-    
+
     a {
         text-decoration: none;
         color: inherit;
     }
-    
+
     span[itemprop="copyrightNotice"] {
         a[itemprop="url"] {
             &::after {
