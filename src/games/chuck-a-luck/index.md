@@ -267,7 +267,7 @@ usual, the extended staking layout contains boxes for the following bets:
 <dt>Specific totals</dt>
 <dd>
     <p>Each total is paid out at a different rate. All have extremely high house edges:</p>
-    <table class="table numeric">
+    <table class="numeric">
         <thead>
         <tr>
             <th>Values</th>
@@ -276,7 +276,7 @@ usual, the extended staking layout contains boxes for the following bets:
             <th>Edge</th>
         </tr>
         </thead>
-        <tbody class="table-group-divider">
+        <tbody>
         <tr>
             <td>10, 11</td>
             <td>5&ratio;1</td>

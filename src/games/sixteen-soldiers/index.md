@@ -35,7 +35,7 @@ class="noun">Kobayashi Eitaku</span> (<span lang="ja">小林永濯</span> 1843�
 
 ## Play
 
-{% image src="16_soldiers_setup.svg" alt="" %}
+{% image src="16_soldiers_setup.svg" alt="" noborder=true %}
 Initial setup of the board.
 {% imageEnd %}
 
@@ -72,7 +72,7 @@ Gahō</span> in 1909.
 
 ## Sixteen Pursue the General
 
-{% image src="16_soldiers_chinese_setup.svg" alt="" %}
+{% image src="16_soldiers_chinese_setup.svg" alt="" noborder=true %}
 Initial setup of the Chinese board.
 {% imageEnd %}
 
@@ -83,7 +83,7 @@ a slightly different board, with a different extension and 29 points.
 
 ## Water Drowns the Monk
 
-{% image src="water_drowns_monk.svg" alt="" %}
+{% image src="water_drowns_monk.svg" alt="" noborder=true %}
 Initial setup of the Sichuan/Tibetan board.
 {% imageEnd %}
 

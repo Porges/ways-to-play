@@ -13,14 +13,14 @@ countries: KR
 
 ## Hand Rankings
 
-<table class="table table-sm">
+<table>
 <thead>
 <tr>
 <th>Group</th><th>Combination</th><th>Description</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
-<tr class="table-danger">
+<tbody>
+<tr>
 <th rowspan="3" scope="row" class="sideways centered">
 <span lang="ko">광땡</span><br/>
 <span lang="ko-Latn">gwang&shy;ttaeng</span>
@@ -48,7 +48,7 @@ Highest combination in the game; cannot be beaten.
 
 </td>
 </tr>
-<tr class="table-danger">
+<tr>
 <td>
 {% image 
     noborder=true
@@ -66,7 +66,7 @@ Highest combination in the game; cannot be beaten.
 </td>
 <td></td>
 </tr>
-<tr class="table-danger">
+<tr>
 <td>
 {% image 
     noborder=true
@@ -84,7 +84,7 @@ Highest combination in the game; cannot be beaten.
 </td>
 <td></td>
 </tr>
-<tr class="table-group-divider table-warning">
+<tr>
 <th rowspan="3" class="sideways centered" scope="row">
 <span lang="ko">땡</span> <span lang="ko-Latn">ttaeng</span>
 </th>

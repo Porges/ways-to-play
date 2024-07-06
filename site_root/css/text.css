@@ -252,3 +252,25 @@ cite[lang] {
     font-family: inherit;
   }
 }
+
+/* Fingers crossed these are the same across all fonts.
+   These are correct on Yu Mincho and Kozuka Mincho, at least.
+ */
+.circled {
+  font-feature-settings: "nalt" 2
+}
+
+.squared {
+  font-feature-settings: "nalt" 4
+}
+
+@font-face {
+    font-family: "Card Indices";
+    src: url('/fonts/cardindices.woff2') format('woff2');
+    font-display: swap;
+    size-adjust: 90%;
+}
+
+.playing-cards {
+  font-family: "Card Indices";
+}

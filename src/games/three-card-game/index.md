@@ -94,7 +94,7 @@ In the [<cite>Yakuza</cite>](https://en.wikipedia.org/wiki/Yakuza_(franchise)) v
 
 The hand totals are counted with special gambling-specific numbers. Some of these — like the playing cards themselves — are derived from Portuguese:
 
-<table class="table table-sm">
+<table>
 <thead>
     <tr>
     <th>Total</th>
@@ -103,7 +103,7 @@ The hand totals are counted with special gambling-specific numbers. Some of thes
     <th>Meaning</th>
     </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
     <tr>
     <td>0 <span lang="ja">〇</span></td>
     <td><span lang="ja-Latn">rei</span></td>
@@ -215,7 +215,7 @@ This is a simplified variant of <span lang="ja-Latn" class="noun">Oicho-Kabu</sp
 
 Play with the {% cards 'A–⑩' %} from a standard deck of cards. You will also need some chips to keep track of score. Sids’ suggested chip distribution for each player is:
 
-<table class="table numeric table-sm">
+<table class="numeric">
     <thead>
     <tr>
         <th>Players</th>
@@ -225,37 +225,37 @@ Play with the {% cards 'A–⑩' %} from a standard deck of cards. You will also
         <th>Total Points</th>
     </tr>
     </thead>
-    <tbody class="table-group-divider">
+    <tbody>
     <tr>
-        <th scope="row" class="text-center">2</td>
+        <th scope="row">2</td>
         <td>10</td>
         <td>2</td>
         <td>2</td>
         <td>40</td>
     </tr>
     <tr>
-        <th scope="row" class="text-center">3</th>
+        <th scope="row">3</th>
         <td>10</td>
         <td>3</td>
         <td>3</td>
         <td>55</td>
     </tr>
     <tr>
-        <th scope="row" class="text-center">4</th>
+        <th scope="row">4</th>
         <td>10</td>
         <td>4</td>
         <td>4</td>
         <td>70</td>
     </tr>
     <tr>
-        <th scope="row" class="text-center">5</th>
+        <th scope="row">5</th>
         <td>10</td>
         <td>5</td>
         <td>5</td>
         <td>85</td>
     </tr>
     <tr>
-        <th scope="row" class="text-center">6</th>
+        <th scope="row">6</th>
         <td>10</td>
         <td>6</td>
         <td>6</td>

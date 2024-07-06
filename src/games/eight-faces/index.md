@@ -22,7 +22,7 @@ As of 2021, the game remains explicitly illegal in Malaysia,[@MalaysiaCommonGami
 
 The special die has eight sides, each marked with the name of a character from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game, and they are divided alternately into two different colours. If the teetotum is made out of a dark material (such as buffalo horn), the characters are inlaid with red and white; if a light material (ivory, bone) is used then they are red and blue/black. These colours are not necessary for the play of the game but make it easier to match the result.
 
-<table class="table">
+<table>
     <thead>
         <tr>
             <th>Name</th>
@@ -31,7 +31,7 @@ The special die has eight sides, each marked with the name of a character from t
             <th>Older Romanization</th>
         </tr>
     </thead>
-    <tbody class="table-group-divider">
+    <tbody>
         <tr class="red">
             <td><span lang="zh">太平</span></td>
             <td><span class="noun" lang="cmn-Latn">Tài Píng</span></td>

@@ -295,8 +295,7 @@ Chi zu: straight column?
 Below are a sampling of payoff schemes, to give a taste of the ratios used. The
 payouts vary based upon the number of correctly-chosen characters, in the left column:
 
-<div class="extra-wide table-responsive">
-<table class="table table-sm small">
+<table class="extra-wide">
 <thead>
 <tr>
 <th></th>
@@ -348,7 +347,7 @@ Las Vegas<br/>
 </th>
 </tr>
 </thead>
-<tbody class="numeric table-group-divider">
+<tbody class="numeric">
 <tr class="table-secondary">
 <th scope="row">cost</th>
 <td>3<span lang="zh">厘</span> (cash)</td>
@@ -426,6 +425,8 @@ Las Vegas<br/>
 <td>$2500<br/>(2500×)</td>
 <td>$12,500<br/>(20833⅓×)</td>
 </tr>
+</tbody>
+<tfoot class="numeric">
 <tr class="table-secondary">
 <th scope="row"><abbr title="house advantage">H.A.</abbr</th>
 <td>33.10%</td>
@@ -437,9 +438,8 @@ Las Vegas<br/>
 <td>58.01%</td>
 <td>25.01%</td>
 </tr>
-</tbody>
+</tfoot>
 </table>
-</div>
 
 The trend over time has been to increase the payouts on the higher end, which
 makes the game more attractive to players while not unduly affecting the house

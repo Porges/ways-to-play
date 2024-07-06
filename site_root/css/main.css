@@ -7,6 +7,20 @@
 }
 
 @font-face {
+    font-family: "UniHentaiKana";
+    src: url('/fonts/UniHentaiKana-Regular.woff') format('woff');
+    font-display: swap;
+    unicode-range: U+1B000-1B0FF, U+1B100-1B12F;
+}
+
+@font-face {
+    font-family: "NKS30";
+    src: url('/fonts/nks30_chess_pieces.woff2') format('woff2');
+    unicode-range: U+2654-265f;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'ocrb';
     src: url('/fonts/ocrb.woff2') format('woff2');
     font-weight: normal;
@@ -147,8 +161,10 @@ body {
     font-family:
         "Source Serif 4",
         "Charis SIL",
+        "NKS30",
         serif,
-        "cc-icons";
+        "cc-icons",
+        "UniHentaiKana";
 
     font-weight: 380;
     font-optical-sizing: auto;
@@ -647,7 +663,7 @@ div.multi {
     gap: .5rlh;
     
     flex-wrap: wrap;
-
+    
     &>* {
         /* items should all get the same amount of size */
         flex: 1 1 0px;
@@ -656,6 +672,10 @@ div.multi {
     /* if first child is a paragraph it needs a margin */
     &>p:first-child {
         margin-top: 1lh;
+    }
+    
+    &:has(p) {
+        margin-left: 1lh;
     }
 
     &+div.multi {
@@ -714,24 +734,70 @@ table {
     margin: auto;
     margin-top: var(--base-unit);
     border-collapse: collapse;
+    
+    td, th {
+        padding: .25lh .25lh;
+    }
 
+    thead>tr>th {
+        vertical-align: bottom;
+    }
+
+    tbody>tr>:is(th,td) {
+        vertical-align: top;
+    }
+    
     th {
         text-align: left;
 
         &[colspan] {
-            border-bottom: 1px solid var(--colour-dark);
-            border-right: 1px solid var(--colour-dark);
+            border-bottom: 1px var(--colour-dark) dashed;
         }
     }
 
-    thead+tbody {
-        border-top: 2px solid var(--colour-dark);
+    thead+tbody, tbody+tfoot {
+        border-top: 1px solid var(--colour-dark);
+        
+        & > tr:first-child > td {
+            padding-top: calc(.25lh - 1px);
+        }
+    }
+    
+    tbody > tr+tr {
+        border-top: 1px solid var(--colour-light);
+
+        &.table-group-divider {
+            border-top: 1px dashed var(--colour-dark);
+        }
+        
+        & > td {
+            padding-top: calc(.25lh - 1px);
+        }
     }
 
+    tbody > tr > :is(th,td)[rowspan] {
+        &:first-child {
+            border-right: 1px dashed var(--colour-light);
+        }
+
+        &:last-child {
+            border-left: 1px dashed var(--colour-light);
+        }
+    }
+
+    &.centered {
+        text-align: center;
+    }
+    
+    &.fixed {
+        table-layout: fixed;
+    }
+
+    /*
     &.small {
         font-size: var(--font-size-sm);
-        /* TODO lineheights etc */
     }
+    */
 
     &.sticky-header {
         max-height: 100vh;
@@ -744,6 +810,31 @@ table {
             /* TODO */
         }
     }
+
+    &.rule-between-cells tr+tr {
+        border-top: 1px solid var(--colour-dark);
+    }
+
+    &.rule-between-cells td+td {
+        border-left: 1px solid var(--colour-dark);
+    }
+
+    &.rule-first-row tr:first-child {
+        border-bottom: 1px solid var(--colour-dark);
+    }
+
+    &.rule-first-col tr>:first-child {
+        border-right: 1px solid var(--colour-dark);
+    }
+
+    &.rule-last-col :is(tbody, tfoot)>tr>:last-child {
+        border-left: 1px solid var(--colour-dark);
+    }
+
+    &.rule-last-row tr:last-child {
+        border-top: 1px solid var(--colour-dark);
+    }
+    
 }
 
 td.numeric,
@@ -1047,6 +1138,14 @@ hr {
     }
 }
 
+/*** IFrames ***/
+
+iframe {
+    width: 100%;
+    border: none;
+    margin-top: 1lh;
+}
+
 
 /*** Print removals ***/
 @media print {
@@ -1054,15 +1153,18 @@ hr {
     .under-brand,
     #search-box,
     .breadcrumbs,
+    iframe,
     #after-article {
         display: none;
     }
 
+    /* Hide link colouring */
     a {
         text-decoration: none;
         color: inherit;
     }
 
+    /* Show URLs where important */
     span[itemprop="copyrightNotice"] {
         a[itemprop="url"] {
             &::after {

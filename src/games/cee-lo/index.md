@@ -50,16 +50,16 @@ Any other roll that is not one of the rolls mentioned above does not count and m
 
 The following table summarizes the results for the banker:
 
-<table class="table">
+<table class="fixed">
 <thead>
 <tr>
 <th>Name/Roll</th>
 <th>Chinese Names</th>
-<th>Name in New York</th>
+<th>New York Name</th>
 <th>Outcome</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <th scope="row">4–5–6<br/>{%cdice 456%}</th>
 <td><span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn-jyutping">si³ ng⁵ luk⁶</span>[@ChineseGames 493]<br/><br/>
@@ -67,7 +67,7 @@ The following table summarizes the results for the banker:
 <span lang="zh">春花</span>[@ChineseGamesOfChance 79] ‘spring flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">ceon¹ faa¹</span>
 </td>
 <td>Head Crack</td>
-<td class="bg-success text-white">Win</td>
+<td>Win</td>
 </tr>
 <tr>
 <th scope="row">Triple<br/>{%cdice '==='%}</th>
@@ -75,12 +75,12 @@ The following table summarizes the results for the banker:
 <!-- ဝိုက် 'wai' in Burmese also means a set of 3… -->
 <span lang="zh">爲屏</span>[@ChineseGamesOfChance 78] ‘build a wall’<br/>Cantonese: <span lang="yue-Latn-jyutping">wai⁴ ping⁴</span></td>
 <td>Trips</td>
-<td class="bg-success text-white">Win</td></tr>
+<td>Win</td></tr>
 <tr>
 <th scope="row">6 Point<br/>{%cdice '==6'%}</th>
 <td><span lang="zh">候六</span>[@ChineseGamesOfChance 79] ‘watching six’<br/><span lang="yue-Latn-jyutping">hau⁶ luk⁶</span></td>
 <td></td>
-<td class="bg-success text-white">Win</td>
+<td>Win</td>
 </tr>
 <tr><th scope="row">5 Point<br/>{%cdice '==5'%}</th><td><span lang="zh"></span></td><td></td><td>Point of 5</td></tr>
 <tr><th scope="row">4 Point<br/>{%cdice '==4'%}</th><td><span lang="zh"></span></td><td></td><td>Point of 4</td></tr>
@@ -92,14 +92,14 @@ The following table summarizes the results for the banker:
 <span lang="zh">一弗</span> ‘bad one’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ fat¹</span>[@ChineseGames 493]<br/><br/>
 <span lang="zh">候丁</span>[@ChineseGamesOfChance 79] ‘watching [?]’<br/><span lang="yue-Latn-jyutping">hau⁶ ding¹</span>
 </td>
-<td>Ace Out</td><td class="bg-danger text-white">Loss</td></tr>
+<td>Ace Out</td><td>Loss</td></tr>
 <tr>
 <th scope="row">1–2–3<br/>{%cdice 123%}</th><td><span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: {% pronounce lang="yue-Latn-jyutping" word="mou⁵ lung⁴" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3" %}[@ChineseGames 493]<br/><br/>
 <span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: {%pronounce lang="yue-Latn-jyutping" word="se⁴ zai²" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3" %}[@ChineseGames 493]<br/><br/>
 <span lang="zh">一條蛇</span>[@ChineseGamesOfChance 79] ‘one snake’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ tiu⁴ se⁴</span>
 </td>
 <td></td>
-<td class="bg-danger text-white">Loss</td>
+<td>Loss</td>
 </tr>
 <tr><th scope="row">Nothing</th><td></td><td></td><td>Re-roll</td></tr>
 </tbody>
@@ -121,10 +121,10 @@ become the banker for the next round.
 
 ## In Hip-Hop
 
-<blockquote class="blockquote epigraph">
+<blockquote class="epigraph">
 <p>4, 5, 6 is in the mix, I’m hittin’ them with trips<br/>
 Headcrack, time to get the bread, black!</p>
-<footer class="blockquote-footer">Kool G Rap, “4,5,6”</footer>
+<footer>Kool G Rap, “4,5,6”</footer>
 </blockquote>
 
 Cee-Lo has been a part of hip-hop culture since the late 1980s. It is particularly
@@ -232,20 +232,20 @@ lang="ja-Latn" word="arashi" file="pronunciation_ja_嵐.mp3"
 pronouncer="straycat88" %}).{%fn%}Apparently this term comes from the game
 {%gameref oicho-kabu%}.{%endfn%}
 
-<table class="table">
+<table>
 <caption>Table of roll payoffs for <span lang="ja-Latn">Chinchirorin</span>.</caption>
 <thead>
 <tr><th>Roll</th><th>Name</th><th>Outcome</th></tr>
 </thead>
-<tbody class="table-group-divider">
-<tr><th scope="row">Triple 2–6 {%jdice '==='%}</th><td><span lang="ja">アラシ</span> <span lang="ja-Latn">arashi</span> ‘storm’</td><td class="bg-success text-white">win 3×</td></tr>
-<tr><th scope="row">4–5–6 {%jdice 456%}</th><td><span lang="ja">シゴロ</span> <span lang="ja-Latn">shigoro</span> ‘four five six’</td><td class="bg-success text-white">win 2×</td></tr>
-<tr><th scope="row">Point 6 {%jdice '==6'%}</th><td><span lang="ja">六の目</span> <span lang="ja-Latn">roppou no me</span> ‘eye of 6’</td><td class="bg-success text-white">win 1×</td></tr>
+<tbody>
+<tr><th scope="row">Triple 2–6 {%jdice '==='%}</th><td><span lang="ja">アラシ</span> <span lang="ja-Latn">arashi</span> ‘storm’</td><td>win 3×</td></tr>
+<tr><th scope="row">4–5–6 {%jdice 456%}</th><td><span lang="ja">シゴロ</span> <span lang="ja-Latn">shigoro</span> ‘four five six’</td><td>win 2×</td></tr>
+<tr><th scope="row">Point 6 {%jdice '==6'%}</th><td><span lang="ja">六の目</span> <span lang="ja-Latn">roppou no me</span> ‘eye of 6’</td><td>win 1×</td></tr>
 <tr><th scope="row">Points 2–5</th><td><span lang="ja">目</span> <span lang="ja-Latn">me</span> ‘eye’</td><td>1×</td></tr>
-<tr><th scope="row">Point 1 {%jdice '==1'%}</th><td><span lang="ja">一の目</span> <span lang="ja-Latn">pin no me</span> ‘eye of 1’</td><td class="bg-danger text-white">lose 1×</td></tr>
-<tr><th scope="row">Bust</th><td><span lang="ja">目なし</span> <span lang="ja-Latn">me no nai</span> ‘no eye’</td><td class="bg-danger text-white">lose 1×</td></tr>
-<tr><th scope="row">1–2–3 {%jdice 123%}</th><td><span lang="ja">ヒフミ</span> <span lang="ja-Latn">hifumi</span> ‘one two three’</td><td class="bg-danger text-white">lose 2×</td></tr>
-<tr><th scope="row">Triple 1 {%jdice 111%}</th><td><span lang="ja">ピンゾロ</span> <span lang="ja-Latn">pinzoro</span> ‘triple ace’</td><td class="bg-danger text-white">lose 3×</td></tr>
+<tr><th scope="row">Point 1 {%jdice '==1'%}</th><td><span lang="ja">一の目</span> <span lang="ja-Latn">pin no me</span> ‘eye of 1’</td><td>lose 1×</td></tr>
+<tr><th scope="row">Bust</th><td><span lang="ja">目なし</span> <span lang="ja-Latn">me no nai</span> ‘no eye’</td><td>lose 1×</td></tr>
+<tr><th scope="row">1–2–3 {%jdice 123%}</th><td><span lang="ja">ヒフミ</span> <span lang="ja-Latn">hifumi</span> ‘one two three’</td><td>lose 2×</td></tr>
+<tr><th scope="row">Triple 1 {%jdice 111%}</th><td><span lang="ja">ピンゾロ</span> <span lang="ja-Latn">pinzoro</span> ‘triple ace’</td><td>lose 3×</td></tr>
 </tbody>
 </table>
 
@@ -261,17 +261,17 @@ There are also variations to the main rules:
 - The banker has no automatic wins; the players always have a chance to equal or beat their roll. Whoever has the higher roll wins the amount according to their ‘outcome’ in the table below.
 - Each player is banker for two rounds. If on their first round the banker rolls a {%jdice 111%}, busts, or rolls a {%jdice 123%} then they pass on the bankership after the first round. A player can also pass on the bankership instead of taking it.
 
-<table class="table">
+<table>
 <caption>Table of roll payoffs for Underground <span lang="ja-Latn">Chinchirorin</span>.</caption>
 <thead>
 <tr><th>Roll</th><th>Outcome</th></tr>
 </thead>
-<tbody class="table-group-divider">
-<tr><th scope="row">Triple 1 {%jdice 111%}</th><td class="bg-success text-white">win 5×</td></tr>
-<tr><th scope="row">Triple 2–6 {%jdice '==='%}</th><td class="bg-success text-white">win 3×</td></tr>
-<tr><th scope="row">4–5–6 {%jdice 456%}</th><td class="bg-success text-white">win 2×</td></tr>
+<tbody>
+<tr><th scope="row">Triple 1 {%jdice 111%}</th><td>win 5×</td></tr>
+<tr><th scope="row">Triple 2–6 {%jdice '==='%}</th><td>win 3×</td></tr>
+<tr><th scope="row">4–5–6 {%jdice 456%}</th><td>win 2×</td></tr>
 <tr><th scope="row">Points 1–6</th><td>1×</td></tr>
-<tr><th scope="row">Bust</th><td class="bg-danger text-white">lose 1×</td></tr>
-<tr><th scope="row">1–2–3 {%jdice 123%}</th><td class="bg-danger text-white">lose 2×</td></tr>
+<tr><th scope="row">Bust</th><td>lose 1×</td></tr>
+<tr><th scope="row">1–2–3 {%jdice 123%}</th><td>lose 2×</td></tr>
 </tbody>
 </table>

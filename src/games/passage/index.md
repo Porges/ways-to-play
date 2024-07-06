@@ -40,14 +40,14 @@ The inclusion of the double requirement only serves to heighten the tension of t
 
 @GeneralizingGalileo gives a generalization of this game to any number of dice, by calculating the “pass points” for each number. Note that this calculation ignores the doubles-requirement, which may alter the game for numbers of dice other than three.
 
-<table class="table table-sm">
+<table>
 <thead>
 <tr>
 <th>Dice</th>
 <th>Pass point</th>
 </tr>
 </thead>
-<tbody class="table-group-divider numeric">
+<tbody class="numeric">
 <tr><td>1</td><td>2</td></tr>
 <tr><td>2</td><td>7</td></tr>
 <tr><td>3</td><td>10</td></tr>
