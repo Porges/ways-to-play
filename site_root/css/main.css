@@ -112,7 +112,7 @@ main {
     /* minmax(0, 1fr) here makes the column 'definitely sized',
        see: https://css-tricks.com/preventing-a-grid-blowout/
     */
-    grid-template-columns: [left-margin-start] .5rlh [content-start] minmax(0, 1fr) [content-end] .5rlh;
+    grid-template-columns: .5rlh [content-start] minmax(0, 1fr) [content-end] .5rlh;
 
     &:has(>article) {
         border-top: 1px solid var(--colour-light);
@@ -141,12 +141,12 @@ section {
         display: grid;
 
         grid-template-columns:
-            [left-margin-start] minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--figure-wide-overlap) minmax(1rlh, 1fr);
+            minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--figure-wide-overlap) minmax(1rlh, 1fr);
 
         /* We need more space on the right if footnotes are present */
         &:has(.footnote, figure.aside) {
             grid-template-columns:
-                [left-margin-start] minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] 1rlh var(--footnote-width) minmax(1rlh, 1fr);
+                minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] 1rlh var(--footnote-width) minmax(1rlh, 1fr);
         }
     }
 }
