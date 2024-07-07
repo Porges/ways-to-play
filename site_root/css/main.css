@@ -125,12 +125,6 @@ main {
     }
 }
 
-#left-margin {
-    grid-column-start: left-margin-start;
-    grid-column-end: content-start;
-    container: left-margin / inline-size;
-}
-
 article {
     max-width: 100%;
 }
@@ -968,18 +962,18 @@ aside.footnote {
 /*** Counters ***/
 
 body {
-    counter-reset: footnote;
+    counter-reset: fn;
 }
 
 .footnote-indicator::before {
-    counter-increment: footnote;
-    content: counter(footnote);
+    counter-increment: fn;
+    content: counter(fn);
     font-variant-position: super;
     color: var(--red);
 }
 
 span.footnote::before {
-    content: counter(footnote) "\2004·\2004";
+    content: counter(fn) "\2004·\2004";
     color: var(--red);
 }
 
