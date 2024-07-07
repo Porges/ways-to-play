@@ -22,12 +22,12 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 
 <!-- Putnam doesn’t attempt translation -->
 
-<div class="full-width table-responsive">
-<table class="table table-sm small">
+<div class="full-width scroller">
+<table>
 <thead>
 <tr>
-<th>ed. François Juste<br/>(1534)[@Juste1534 chap. XX]</th>
-<th>ed. François Juste<br/>(1535)[@Juste1535 chap. XX]</th>
+<th>ed. François Juste<br/>(1534)[@Juste1534 c. XX]</th>
+<th>ed. François Juste<br/>(1535)[@Juste1535 c. XX]</th>
 <th>ed. Etienne Dolet<br/>(1542)[@EtienneDolet p. 96]</th>
 <th>ed. François Juste<br/>(1542)[@Juste1542 f. 56v]</th>
 <th>ed. Louis Moland<br/>(1884)[@LouisMoland p. 42]</th>
@@ -40,7 +40,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <th>my notes</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <td><span lang="fr">au fleux</span></td>
 <td><span lang="fr">au flux</span></td>

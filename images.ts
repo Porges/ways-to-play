@@ -20,6 +20,7 @@ type CommonArticleImageProps = {
     perRow?: number,
     noborder?: boolean,
     cram?: boolean,
+    equalheight?: boolean,
     size?: 'small' | 'extra-small' | 'wide' | 'extra-wide',
     position?: string,
     justify?: string,
@@ -114,6 +115,7 @@ function fromRaw(props: RawArticleImageProps): ArticleImageProps {
         perRow: props.perRow,
         position: props.position,
         size: props.size,
+        equalheight: props.equalheight,
     };
 
     return result;
@@ -131,9 +133,9 @@ const meSource: SourceInfo = {
 export async function articleImage(this: ExpectedThis, caption: string, rawprops: RawArticleImageProps) {
     const props = fromRaw(rawprops);
     PropTypes.checkPropTypes(articleImagePropTypes, props, 'props', 'articleImage');
-    const { alt, src, noborder, cram, source, position, size, perRow, justify } = props;
+    const { alt, src, noborder, cram, source, equalheight, position, size, perRow, justify } = props;
 
-    const className = `${position || ''} ${size || ''} ${cram ? 'cram' : ''}`;
+    const className = `${position || ''} ${size || ''}`;
     // sizes are from Bootstrap breakpoints: https://getbootstrap.com/docs/4.3/layout/overview/ 
     const sizes =
         size === 'extra-wide'
@@ -171,7 +173,7 @@ export async function articleImage(this: ExpectedThis, caption: string, rawprops
     } else {
         const sourceId = "src_" + randomUUID();
         return `<figure class="figure ${className}">`
-            + await renderImages(this, srcs, alts, sourceInfo, perRow, sourceId, sizes, noborder, justify as 'centered' | undefined)
+            + await renderImages(this, srcs, alts, sourceInfo, perRow, sourceId, sizes, noborder, cram, equalheight, justify as 'centered' | undefined)
             + `<figcaption itemscope>`
             + `<div id="${sourceId}">`
             + captionAndSource
@@ -229,7 +231,7 @@ async function renderImage(me: ExpectedThis, src: string, alt: string, sourceInf
         + `</a>`;
 }
 
-async function renderImages(me: ExpectedThis, srcs: string[], alts: string[], sourceInfo: string, perRow = 1000, sourceId: string, sizes: string, noborder: boolean | undefined, justify: 'centered' | undefined) {
+async function renderImages(me: ExpectedThis, srcs: string[], alts: string[], sourceInfo: string, perRow = 1000, sourceId: string, sizes: string, noborder: boolean | undefined, cram: boolean | undefined, equalheight: boolean|undefined, justify: 'centered' | undefined) {
     let classes = "multi";
     if (justify) {
         switch (justify) {
@@ -240,6 +242,15 @@ async function renderImages(me: ExpectedThis, srcs: string[], alts: string[], so
                 throw new Error(`Invalid 'justify' value: ${justify}`)
         }
     }
+
+    if (cram) {
+        classes += ' cram';
+    }
+    
+    if (equalheight) {
+        classes += ' equal-height';
+    }
+
     let result = '';
     for (let at = 0; at < srcs.length; at += perRow) {
         result += `<div class="${classes}">`;
@@ -304,6 +315,7 @@ const articleImagePropTypes = {
     src: PropTypes.string.isRequired,
     noborder: PropTypes.bool,
     cram: PropTypes.bool,
+    equalheight: PropTypes.bool,
     justify: PropTypes.oneOf(['centered']),
 };
 

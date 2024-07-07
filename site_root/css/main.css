@@ -101,12 +101,18 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+
+    /* can query for cqw */
+    container-type: inline-size;
 }
 
 main {
     display: grid;
 
-    grid-template-columns: .5rlh 1fr .5rlh;
+    /* minmax(0, 1fr) here makes the column 'definitely sized',
+       see: https://css-tricks.com/preventing-a-grid-blowout/
+    */
+    grid-template-columns: [left-margin-start] .5rlh [content-start] minmax(0, 1fr) [content-end] .5rlh;
 
     &:has(>article) {
         border-top: 1px solid var(--colour-light);
@@ -114,8 +120,15 @@ main {
     }
 
     &>* {
-        grid-column: 2;
+        grid-column-start: content-start;
+        grid-column-end: content-end;
     }
+}
+
+#left-margin {
+    grid-column-start: left-margin-start;
+    grid-column-end: content-start;
+    container: left-margin / inline-size;
 }
 
 article {
@@ -134,16 +147,12 @@ section {
         display: grid;
 
         grid-template-columns:
-            minmax(1rlh, 1fr) var(--figure-wide-overlap) var(--text-width) var(--figure-wide-overlap) minmax(1rlh, 1fr);
+            [left-margin-start] minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--figure-wide-overlap) minmax(1rlh, 1fr);
 
         /* We need more space on the right if footnotes are present */
         &:has(.footnote, figure.aside) {
             grid-template-columns:
-                minmax(1rlh, 1fr) var(--figure-wide-overlap) var(--text-width) 1rlh var(--footnote-width) minmax(1rlh, 1fr);
-        }
-
-        &>* {
-            grid-column: 3;
+                [left-margin-start] minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] 1rlh var(--footnote-width) minmax(1rlh, 1fr);
         }
     }
 }
@@ -293,11 +302,13 @@ nav.site {
     padding: 0 1rlh 0 1rlh;
 }
 
-@media (width >= 1161px) {
-    nav.site, #site-footer {
+@media (width >=1161px) {
+
+    nav.site,
+    #site-footer {
         flex-direction: row;
     }
-    
+
     nav.site {
         border-bottom: 0;
         margin-bottom: 0;
@@ -314,6 +325,7 @@ nav.site {
 }
 
 nav.site {
+
     .brand,
     .page-title {
         font-size: 2rem;
@@ -494,6 +506,11 @@ span.draft {
     }
 }
 
+/*** Horizontal scrolling ***/
+div.scroller {
+    overflow-x: auto;
+}
+
 /*** Figures ***/
 
 figure {
@@ -608,7 +625,7 @@ caption {
 }
 
 dialog.lightbox {
-    max-width: calc(100vw - 20px);
+    max-width: calc(100cqw - 20px);
     max-height: calc(100vh - 20px);
     margin: auto;
 
@@ -659,21 +676,34 @@ div.multi {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    flex-wrap: wrap;
 
     gap: .5rlh;
     
-    flex-wrap: wrap;
-    
+    &.cram {
+        gap: 1px;
+    }
+
     &>* {
         /* items should all get the same amount of size */
+        /* start at minimum and grow*/
         flex: 1 1 0px;
+    }
+
+    &.equal-height {
+        flex-wrap: nowrap;
+        &>* {
+            /* not equal size */
+            /* start at maximum and shrink */
+            flex: 1 1 auto;
+        }
     }
 
     /* if first child is a paragraph it needs a margin */
     &>p:first-child {
         margin-top: 1lh;
     }
-    
+
     &:has(p) {
         margin-left: 1lh;
     }
@@ -683,8 +713,8 @@ div.multi {
     }
 }
 
-@media (width >= 1161px) {
-    div.multi {
+@media (width >=1161px) {
+    div {
         &.wide {
             clear: both;
 
@@ -704,12 +734,19 @@ div.multi {
 
 /*** Full-width ***/
 
-/* NB: doesn't work */
-div.full-width {
-    clear: both;
-    position: relative;
-    left: 0;
-    right: 0;
+@media (width >=1161px) {
+    div.full-width {
+        clear: both;
+        position: relative;
+
+        /* TODO: without footnotes */
+        left: calc(-0.5 * (100cqw - var(--text-width) - var(--figure-wide-overlap) - var(--footnote-width) - 1rlh) - var(--figure-wide-overlap));
+        width: 100cqw;
+    }
+}
+
+div:has(table.sticky-header) {
+    max-height: 100vh;
 }
 
 /*** Columns ***/
@@ -734,8 +771,9 @@ table {
     margin: auto;
     margin-top: var(--base-unit);
     border-collapse: collapse;
-    
-    td, th {
+
+    td,
+    th {
         padding: .25lh .25lh;
     }
 
@@ -743,10 +781,10 @@ table {
         vertical-align: bottom;
     }
 
-    tbody>tr>:is(th,td) {
+    tbody>tr>:is(th, td) {
         vertical-align: top;
     }
-    
+
     th {
         text-align: left;
 
@@ -755,27 +793,28 @@ table {
         }
     }
 
-    thead+tbody, tbody+tfoot {
+    thead+tbody,
+    tbody+tfoot {
         border-top: 1px solid var(--colour-dark);
-        
-        & > tr:first-child > td {
+
+        &>tr:first-child>td {
             padding-top: calc(.25lh - 1px);
         }
     }
-    
-    tbody > tr+tr {
+
+    tbody>tr+tr {
         border-top: 1px solid var(--colour-light);
 
         &.table-group-divider {
             border-top: 1px dashed var(--colour-dark);
         }
-        
-        & > td {
+
+        &>td {
             padding-top: calc(.25lh - 1px);
         }
     }
 
-    tbody > tr > :is(th,td)[rowspan] {
+    tbody>tr> :is(th, td)[rowspan] {
         &:first-child {
             border-right: 1px dashed var(--colour-light);
         }
@@ -788,9 +827,14 @@ table {
     &.centered {
         text-align: center;
     }
-    
+
     &.fixed {
         table-layout: fixed;
+        width: 100%;
+    }
+
+    &.max-content {
+        width: max-content;
     }
 
     /*
@@ -834,7 +878,7 @@ table {
     &.rule-last-row tr:last-child {
         border-top: 1px solid var(--colour-dark);
     }
-    
+
 }
 
 td.numeric,
@@ -847,6 +891,7 @@ table.numeric>:is(tbody, tfoot)>tr>:is(th, td),
 
 /*** Lists ***/
 article {
+
     ul,
     ol {
         margin-top: 1lh;
@@ -873,7 +918,7 @@ article {
     float: left;
     clear: left;
     width: 100%;
-    
+
     /* reset colour in case inside blockquote, etc */
     color: var(--colour-black);
 
@@ -887,8 +932,10 @@ article {
     margin-top: calc(.5rlh - 1px);
 }
 
-@media (width >= 1161px) {
-    .footnote, figure.aside {
+@media (width >=1161px) {
+
+    .footnote,
+    figure.aside {
         float: right;
         clear: right;
 
@@ -1081,7 +1128,7 @@ hr {
     margin-bottom: .5rlh;
 }
 
-@media (width >= 1161px) {
+@media (width >=1161px) {
     .last-updated {
         text-align: left;
     }

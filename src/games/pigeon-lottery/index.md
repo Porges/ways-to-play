@@ -295,7 +295,8 @@ Chi zu: straight column?
 Below are a sampling of payoff schemes, to give a taste of the ratios used. The
 payouts vary based upon the number of correctly-chosen characters, in the left column:
 
-<table class="extra-wide">
+<div class="scroller extra-wide">
+<table class="max-content">
 <thead>
 <tr>
 <th></th>
@@ -350,7 +351,7 @@ Las Vegas<br/>
 <tbody class="numeric">
 <tr class="table-secondary">
 <th scope="row">cost</th>
-<td>3<span lang="zh">厘</span> (cash)</td>
+<td>3<span lang="zh">厘</span> (<a href="https://en.wikipedia.org/wiki/Cash_(unit)">cash</a>)</td>
 <td>6d</td>
 <td>6d</td>
 <td>6d</td>
@@ -372,7 +373,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">6</th>
-<td>5<span lang="zh">分</span> (candareen)<br/>= 50 cash (16⅔×)</td>
+<td>5<span lang="zh">分</span> (<a href="https://en.wikipedia.org/wiki/Candareen">candareen</a>)<br/>= 50 cash (16⅔×)</td>
 <td>9/–<br/>(18×)</td>
 <td>8/6<br/>(17×)</td>
 <td>?</td>
@@ -383,7 +384,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">7</th>
-<td>5<span lang="zh">錢</span> (mace)<br/>= 500 cash (166⅔×)</td>
+<td>5<span lang="zh">錢</span> (<a href="https://en.wikipedia.org/wiki/Mace_(unit)">mace</a>)<br/>= 500 cash (166⅔×)</td>
 <td>£3 18/6<br/>(157×)</td>
 <td>£3 10/–<br/>(140×)</td>
 <td>£4<br/>(160×)</td>
@@ -394,7 +395,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">8</th>
-<td>2<span lang="zh">兩</span> (tael) 5<span lang="zh">錢</span> (mace)<br/>= 2500 cash (833⅓×)</td>
+<td>2<span lang="zh">兩</span> (<a href="https://en.wikipedia.org/wiki/Tael">tael</a>) 5<span lang="zh">錢</span> (mace)<br/>= 2500 cash (833⅓×)</td>
 <td>£20 15/–<br/>(830×)</td>
 <td>£19 2/6<br/>(765×)</td>
 <td>£20<br/>(800×)</td>
@@ -440,6 +441,7 @@ Las Vegas<br/>
 </tr>
 </tfoot>
 </table>
+</div>
 
 The trend over time has been to increase the payouts on the higher end, which
 makes the game more attractive to players while not unduly affecting the house
