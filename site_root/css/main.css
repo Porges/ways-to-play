@@ -187,6 +187,7 @@ body {
 }
 
 p {
+
     /* Lead paragraphs */
     &.lead {
         font-weight: 350;
@@ -548,7 +549,7 @@ figure {
     }
 }
 
-@media (width >= 1161px) {
+@media (width >=1161px) {
     figure {
         &.left {
             clear: left;
@@ -673,7 +674,7 @@ div.multi {
     flex-wrap: wrap;
 
     gap: .5rlh;
-    
+
     &.cram {
         gap: 1px;
     }
@@ -686,6 +687,7 @@ div.multi {
 
     &.equal-height {
         flex-wrap: nowrap;
+
         &>* {
             /* not equal size */
             /* start at maximum and shrink */
