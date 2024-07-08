@@ -963,7 +963,8 @@ aside.footnote {
 
 /*** Counters ***/
 
-body {
+article {
+    /* counter-reset on body gives messed up results because of some weird interaction with container-type */
     counter-reset: fn;
 }
 
