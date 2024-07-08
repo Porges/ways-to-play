@@ -10,7 +10,7 @@ Etc etc
 In the past there were many games using the four-colour deck. Some are listed
 below; for most I do not have rules.[@GamblingGamesOfMalaya p. 62]
 
-<table class="table">
+<table>
 <thead>
 <tr>
 <th>Chinese</th>
@@ -18,7 +18,7 @@ below; for most I do not have rules.[@GamblingGamesOfMalaya p. 62]
 <th>English</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 
 <tr>
 <td><span lang="zh">四色</span></td>

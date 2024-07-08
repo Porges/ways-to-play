@@ -156,7 +156,7 @@ Back in Guangdong, the game was made legal in 1900 under similar terms, with the
 
 The primary artifact of the game is the *ticket*, a slip of paper upon which is printed the name of the bank (see below) and 80 unique Chinese characters. These characters are the first 80 taken from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>), and are always printed in a top-down, right-to-left order, broken into four-character blocks:
 
-<blockquote lang="zh" class="vertical-rl mx-auto blockquote">
+<blockquote lang="zh" class="vertical-rl">
 天地玄黄&#x3000;宇宙洪荒<br/>
 囸月盈昃&#x3000;辰宿列張<br/>
 寒來暑徃&#x3000;秋收冬藏<br/>
@@ -295,7 +295,7 @@ Chi zu: straight column?
 Below are a sampling of payoff schemes, to give a taste of the ratios used. The
 payouts vary based upon the number of correctly-chosen characters, in the left column:
 
-<div class="scroller extra-wide">
+<div class="scroller full-width">
 <table class="max-content">
 <thead>
 <tr>

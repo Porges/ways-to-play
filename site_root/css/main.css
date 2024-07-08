@@ -63,7 +63,6 @@
 
     --expand-size: calc(var(--base-unit) + var(--figure-wide-overlap) + var(--text-width) + var(--base-unit) + var(--footnote-width) + var(--base-unit));
     /* this ends up being 1161px */
-    /* main text block is 648px */
 }
 
 /*
@@ -136,26 +135,33 @@ section {
 }
 
 /* see --expand-size above */
-@media screen and (width >=648px) {
-    main {
-        display: grid;
+/* 648 (main text block) + 2*27 = 702 */
+@media (width >=702px) {
+    :root {
+        --figure-wide-overlap: var(--base-unit);
+        --heading-protrude: -1rlh;
+    }
 
+    main {
         grid-template-columns:
             minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--figure-wide-overlap) minmax(1rlh, 1fr);
+    }
+}
+
+/* see --expand-size above */
+@media (width >=1161px) {
+    :root {
+        --figure-wide-overlap: calc(3 * var(--base-unit));
+        --heading-protrude: -1rlh;
+    }
+
+    main {
 
         /* We need more space on the right if footnotes are present */
         &:has(.footnote, figure.aside) {
             grid-template-columns:
                 minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] 1rlh var(--footnote-width) minmax(1rlh, 1fr);
         }
-    }
-}
-
-/* see --expand-size above */
-@media screen and (width >=1161px) {
-    :root {
-        --figure-wide-overlap: calc(3 * var(--base-unit));
-        --heading-protrude: -1rlh;
     }
 }
 
@@ -276,7 +282,15 @@ a {
     &:hover {
         text-decoration: underline var(--colour-secondary);
     }
+
+    /*
+    &[href*="wikipedia.org" i] {
+        text-decoration-style: dotted;
+    }
+    */
 }
+
+
 
 /*** Header & Footer ***/
 header {
@@ -508,14 +522,17 @@ div.scroller {
 
 /*** Figures ***/
 
+*+figure {
+    margin-top: 1rlh;
+}
+
 figure {
     /* This is so figcaption can be limited to width of content. */
     display: table;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 
     clear: left;
-
-    margin-top: 1rlh;
 
     /* for printing */
     break-inside: avoid;
@@ -549,7 +566,7 @@ figure {
     }
 }
 
-@media (width >=1161px) {
+@media (width >=702px) {
     figure {
         &.left {
             clear: left;
@@ -570,12 +587,13 @@ figure {
             margin-bottom: .5rlh;
         }
 
-        &.wide {
+        &.wide,
+        &.extra-wide {
             clear: both;
 
             margin-left: calc(-1 * var(--figure-wide-overlap));
             /* bias it to the right a bit */
-            margin-right: calc(-2 * var(--figure-wide-overlap));
+            margin-right: calc(-1 * var(--figure-wide-overlap));
 
             /* we know this won’t be too tall because it’s wide */
             .figure-img {
@@ -584,15 +602,20 @@ figure {
             }
         }
 
-        &.extra-wide {
-            clear: both;
+    }
+}
 
-            margin-left: calc(-1 * var(--figure-wide-overlap));
-            margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
+@media (width >=1161px) {
 
-            .figure-img {
-                max-height: unset;
-                border-width: 2px;
+    /* expand on footnote layout */
+    main:has(.footnote, figure.aside) {
+        figure {
+            &.wide {
+                margin-right: calc(-2 * var(--figure-wide-overlap));
+            }
+
+            &.extra-wide {
+                margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
             }
         }
     }
@@ -635,9 +658,11 @@ dialog.lightbox {
 }
 
 /*** Blockquote ***/
+*+blockquote {
+    margin-top: 1lh;
+}
 
 blockquote {
-    margin-top: 1lh;
     padding-left: 1lh;
     color: var(--colour-dark);
 
@@ -664,6 +689,9 @@ blockquote {
 }
 
 /*** Multi ***/
+*+div.multi {
+    margin-top: 1lh;
+}
 
 div.multi {
     clear: left;
@@ -680,6 +708,7 @@ div.multi {
     }
 
     &>* {
+        margin-top: 0;
         /* items should all get the same amount of size */
         /* start at minimum and grow*/
         flex: 1 1 0px;
@@ -695,12 +724,8 @@ div.multi {
         }
     }
 
-    /* if first child is a paragraph it needs a margin */
-    &>p:first-child {
-        margin-top: 1lh;
-    }
-
-    &:has(p) {
+    /* this feels pretty hacky */
+    &:has(p:first-child) {
         margin-left: 1lh;
     }
 
@@ -709,35 +734,57 @@ div.multi {
     }
 }
 
-@media (width >=1161px) {
+@media (width >=702px) {
     div {
-        &.wide {
-            clear: both;
 
-            margin-left: calc(-1 * var(--figure-wide-overlap));
-            /* bias it to the right a bit */
-            margin-right: calc(-2 * var(--figure-wide-overlap));
-        }
-
+        &.wide,
         &.extra-wide {
             clear: both;
 
             margin-left: calc(-1 * var(--figure-wide-overlap));
-            margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+            margin-right: calc(-1 * var(--figure-wide-overlap));
+        }
+
+    }
+}
+
+@media (width >=1161px) {
+    main:has(.footnote, figure.aside) {
+        div {
+            &.wide {
+                /* bias it to the right a bit */
+                margin-right: calc(-1 * var(--figure-wide-overlap));
+            }
+
+            &.extra-wide {
+                margin-left: calc(-1 * var(--figure-wide-overlap));
+                margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+            }
         }
     }
 }
 
 /*** Full-width ***/
+div.full-width {
+    clear: both;
+    position: relative;
+    width: 100cqw;
+    left: -.5rlh;
+}
+
+@media (width >=702px) {
+
+    /* without footnotes */
+    div.full-width {
+        left: calc(-0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - var(--figure-wide-overlap)) - var(--figure-wide-overlap));
+    }
+}
 
 @media (width >=1161px) {
-    div.full-width {
-        clear: both;
-        position: relative;
 
-        /* TODO: without footnotes */
-        left: calc(-0.5 * (100cqw - var(--text-width) - var(--figure-wide-overlap) - var(--footnote-width) - 1rlh) - var(--figure-wide-overlap));
-        width: 100cqw;
+    /* with footnotes */
+    main:has(.footnote, figure.aside) div.full-width {
+        left: calc(-0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - 1rlh - var(--footnote-width)) - var(--figure-wide-overlap));
     }
 }
 
@@ -789,6 +836,10 @@ table {
         }
     }
 
+    tr.table-secondary {
+        background-color: var(--colour-light);
+    }
+
     thead+tbody,
     tbody+tfoot {
         border-top: 1px solid var(--colour-dark);
@@ -820,7 +871,8 @@ table {
         }
     }
 
-    &.centered {
+    &.centered,
+    .centered {
         text-align: center;
     }
 
@@ -829,15 +881,18 @@ table {
         width: 100%;
     }
 
+    .sideways {
+        writing-mode: vertical-rl;
+        transform: scale(-1);
+    }
+
     &.max-content {
         width: max-content;
     }
 
-    /*
     &.small {
         font-size: var(--font-size-sm);
     }
-    */
 
     &.sticky-header {
         max-height: 100vh;
@@ -888,11 +943,14 @@ table.numeric>:is(tbody, tfoot)>tr>:is(th, td),
 /*** Lists ***/
 article {
 
-    ul,
-    ol {
+    *+ul,
+    *+ol {
         margin-top: 1lh;
         padding-left: 1lh;
+    }
 
+    ul,
+    ol {
         li::marker {
             color: var(--colour-primary);
         }
@@ -1006,8 +1064,11 @@ aside.footnote {
 
 /*** DLs ***/
 
-dl {
+*+dl {
     margin-top: 1lh;
+}
+
+dl {
     padding-left: .5lh;
 
     dt {
@@ -1083,6 +1144,10 @@ a[itemprop="license"] {
 
 .blue {
     color: var(--blue);
+}
+
+.smallcaps {
+    font-variant: small-caps;
 }
 
 /*** Target ***/
@@ -1183,13 +1248,25 @@ hr {
 }
 
 /*** IFrames ***/
+*+iframe {
+    margin-top: 1lh;
+}
 
 iframe {
     width: 100%;
     border: none;
-    margin-top: 1lh;
 }
 
+/*** Pronunciation ***/
+.pronunciation {
+    text-decoration: underline wavy var(--colour-light);
+    text-decoration-skip-ink: none;
+    cursor: help;
+
+    &:hover {
+        text-decoration-color: var(--colour-secondary);
+    }
+}
 
 /*** Print removals ***/
 @media print {

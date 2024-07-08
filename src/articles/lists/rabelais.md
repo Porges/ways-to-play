@@ -23,7 +23,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <!-- Putnam doesn’t attempt translation -->
 
 <div class="full-width scroller">
-<table>
+<table class="small">
 <thead>
 <tr>
 <th>ed. François Juste<br/>(1534)[@Juste1534 c. XX]</th>

@@ -179,8 +179,7 @@ The combinations in particular are copied directly from the {% gameref kanhu %} 
 
 Given this information, we can arrange the deck as follows, and we can easily see how the combinations were arrived at:
 
-<div class="table-responsive">
-<table class="table table-sm" style="table-layout:fixed; width: 100%">
+<table class="fixed">
 <caption>A Ceki deck presented in “historical order” to show how the combinations were derived.</caption>
 <thead>
 <tr class="text-center">
@@ -198,7 +197,7 @@ Given this information, we can arrange the deck as follows, and we can easily se
 <th>high</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <th scope="row" class="sideways centered">Myriads</th>
 <td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM1.jpg" alt="" %}{% imageEnd %}</td>
@@ -243,7 +242,6 @@ Given this information, we can arrange the deck as follows, and we can easily se
 </tr>
 </tbody>
 </table>
-</div>
 
 The scoring combinations of <span lang="jav-Latn">Pei</span> are then explained in this way, with their matching {% gameref kanhu %} combinations (I do not have names for all of them):
 

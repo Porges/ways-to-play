@@ -39,7 +39,7 @@ A table-top game of Trou Madame, from @EnigmeJoyeuse [f. 8r].<br/>This depicts t
 Players at the time were well aware of the double-entendres possible with such a
 name; the text accompanying the image in the book reads:
 
-<div class="parallel">
+<div class="multi">
 <blockquote lang="fr"> 
 Voicy comme tu dois ioüer d’adreſſe & d’heur,<br/>
 Il faut mettre au milieu de ce trou, qu’on apelle<br/>
@@ -51,7 +51,7 @@ Hole Madame: otherwise you will lose to her,<br/>
 The middle is the target, and the point of honour.</p>
 </div>
 
-<div class="parallel">
+<div class="multi">
 <blockquote lang="fr">
 L’y mettre n’eſt pas tout : il faut auec vigueur<br/>
 Le pouſſer iuſqu’au fond : Si que la Damoiſelle<br/>
@@ -63,7 +63,7 @@ Confesses that you know how to thread the alley:{%fn%}or the space beside the be
 And that the blow is good: one plays with rigour.</p>
 </div>
 
-<div class="parallel">
+<div class="multi">
 <blockquote lang="fr">
 Demeurer en chemin, perdre courſe & carriere,<br/>
 Entrer, ſortir ſoudain, retourner en arriere,<br/>
@@ -73,7 +73,7 @@ To enter, to leave suddenly, to go back,<br/>
 Are acts to make you despised forever.</p>
 </div>
 
-<div class="parallel">
+<div class="multi">
 <blockquote lang="fr">
 Ioüant, garde toy bien vn trou pour l’autre prendre,<br/>
 Quoy que proches ils ſoient : ce ſeroit te meſprendre,<br/>

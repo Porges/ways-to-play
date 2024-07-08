@@ -11,8 +11,7 @@ In this article I discuss the earliest-known discussions of this type of deck, a
 
 ### <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>’s “Water Margin” deck
 
-The earliest definite written description of these cards comes from the Chinese scholar [<span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span>](https://en.wikipedia.org/wiki/Lu_Rong) (<span lang="zh">陸容</span>, 1436–1494). In his book <cite lang="zh-Hant">菽園雜記</cite>/<cite lang="zh-Hans">菽园杂记</cite> (<cite>Miscellaneous Records from the Bean Garden</cite>),{%fn%}This text appears in many collections, such as the Ming-period <span lang="zh-Hant">今獻彙言</span> [<span lang="cmn-Latn-pinyin">Jīnxiàn huìyán
-</span>](http://www.chinaknowledge.de/Literature/Poetry/jinxianhuiyan.html), or the Qing-period <span lang="zh-Hant">墨海金壺</span> [<span lang="cmn-Latn-pinyin">Mòhǎi jīnhú</span>](http://www.chinaknowledge.de/Literature/Poetry/mohaijinhu.html).{%endfn%} he writes:
+The earliest definite written description of these cards comes from the Chinese scholar [<span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span>](https://en.wikipedia.org/wiki/Lu_Rong) (<span lang="zh">陸容</span>, 1436–1494). In his book <cite lang="zh-Hant">菽園雜記</cite>/<cite lang="zh-Hans">菽园杂记</cite> (<cite>Miscellaneous Records from the Bean Garden</cite>),{%fn%}This text appears in many collections, such as the Ming-period <span lang="zh-Hant">今獻彙言</span> [<span lang="cmn-Latn-pinyin">Jīnxiàn huìyán </span>](http://www.chinaknowledge.de/Literature/Poetry/jinxianhuiyan.html), or the Qing-period <span lang="zh-Hant">墨海金壺</span> [<span lang="cmn-Latn-pinyin">Mòhǎi jīnhú</span>](http://www.chinaknowledge.de/Literature/Poetry/mohaijinhu.html).{%endfn%} he writes:
 
 > In my native city of [Kunshan](https://en.wikipedia.org/wiki/Kunshan),
 > everyone knows how to play cards, from scholar-officials to children. I spent

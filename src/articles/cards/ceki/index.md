@@ -112,41 +112,35 @@ The three suits have various names.[@ChikiCards p. 119] ‘Coins’, ‘strings�
 money-suited cards.
 
 <dl>
-<dt>Coins</dt>
+<dt>Names for Coins</dt>
 <dd>
 
-<span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’);
-
-in Thai, <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> ‘vegetable’.
+* <span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’);
+* in Thai, <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> ‘vegetable’.
 
 </dd>
-<dt>Strings</dt>
+<dt>Names for Strings</dt>
 <dd>
 
-<span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’);
-
-in Java, <span lang="jav-Latn">lintrik</span> (<span lang="jav">ꦭꦶꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?);[@JavanischeKartenspiele]
-
-in Thai, <span lang="th">นก</span> <span lang="th-Latn">nok</span> ‘birds’.[@PaiPhong1967 28]
+* <span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’);
+* in Java, <span lang="jav-Latn">lintrik</span> (<span lang="jav">ꦭꦶꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?);[@JavanischeKartenspiele]
+* in Thai, <span lang="th">นก</span> <span lang="th-Latn">nok</span> ‘birds’.[@PaiPhong1967 28]
 
 </dd>
-<dt>Myriads (Numbers)</dt>
+<dt>Names for Myriads (Numbers)</dt>
 <dd>
 
-<span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’);
-
-in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span> ‘people’);[@JavanischeKartenspiele]
-
-in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘people’.
+* <span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’);
+* in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span> ‘people’);[@JavanischeKartenspiele]
+* in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘people’.
 
 </dd>
 </dl>
 
-<div class="table-responsive">
-<table class="table table-sm" style="table-layout:fixed; width: 100%">
+<table class="fixed">
 <caption>Cards from a modern Balinese Ceki deck.</caption>
 <thead>
-<tr class="text-center">
+<tr class="centered">
 <th></th>
 <th></th>
 <th>1</th>
@@ -160,7 +154,7 @@ in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘peopl
 <th>9</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <th scope="row" class="sideways centered">Coins</th>
 <td>{% image noborder=true cram=true equalheight=true src="COT.jpg" hidden=true alt="" %}{% imageEnd %}</td>
@@ -202,7 +196,6 @@ in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘peopl
 </tr>
 </tbody>
 </table>
-</div>
 
 ## Card Names
 
@@ -278,10 +271,10 @@ section of the table is much more imprecise than the previous lines.
 -->
 
 <div class="full-width scroller">
-<table>
+<table class="rule-first-col small">
 <thead>
   <tr>
-    <th class="text-center sticky-left border-end bg-white at-least-150-px" style="min-width: 150px"></th>
+    <th style="min-width: 200px"></th>
     <th>Thailand</th>
     <th colspan="4">Malaysia/Singapore</th>
     <th>Sumatra</th>
@@ -294,7 +287,7 @@ section of the table is much more imprecise than the previous lines.
     <th>Timor</th>
   </tr>
   <tr>
-    <th class="text-center sticky-left border-end table-light">Cards</th>
+    <th>Cards</th>
     <th>(1967)[@PaiPhong1967]</th>
     <th>General</th>
     <th>Older (Malay)<br/>(1894)[@CliffordMalay3 334]</th>
@@ -415,10 +408,10 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </th>
   </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 
 <tr class="table-secondary">
-<th scope="row" class="text-center sticky-left border-end">Honour & Rank 1</th>
+<th scope="row" class="text-center sticky-left border-end">Honours & Rank 1</th>
 <td><span lang="th">เอี่ยว</span> <span lang="th-Latn">iao</span>, from Hokkien/Teochew <span lang="nan">幺</span> <span lang="nan-Latn">io</span>/<span lang="tws-Latn">iao¹</span>, ‘ace’</td>
 <!-- Malay -->
 <td><span lang="ms">yu</span> or <span lang="ms">yeo</span>, from Hokkien/Teochew</td>

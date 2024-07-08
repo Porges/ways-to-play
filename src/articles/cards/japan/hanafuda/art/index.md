@@ -200,7 +200,6 @@ lang="ja">貝尽浦の錦</cite> (1751) by <span class="noun" lang="ja-Latn">Ōe
 {% image
     alt="A grandmother, a mother, two young women, and a child sitting in a circle around shells on a tatami mat."
     position="aside"
-    size="wide"
     src='KaiAwaseGame.jpg'
     license='cc0',
     orgName="跡見学園女子大学",
@@ -501,7 +500,6 @@ lang="ja-Latn">Shimogataya</span> (<span lang="ja">下方屋</span>).[@OpeningKa
 {%image
     src="Kamigataya-Motomachi.jpg"
     position="aside"
-    size="wide"
     alt="An image of a Japanese street with lots of signs and flags for stores"
     license="cc0" %}
 In this early 20th-century postcard, another branch of <span class="noun"
@@ -1001,6 +999,7 @@ ordering (with differences in **bold**) is:
 {% image
     src="../Hanafuda_1-1.svg;../Hanafuda_1-2.svg;../Hanafuda_1-3.svg;../Hanafuda_1-4.svg"
     alt="A card with a red moon, a crane, and pine trees.;A card with pine trees and a red tanzaku with writing.;A card with pine trees.;A card with pine trees."
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1162,6 +1161,7 @@ In reality, the bush warbler is not a brightly-coloured bird.
 {% image
     src="../Hanafuda_2-1.svg;../Hanafuda_2-2.svg;../Hanafuda_2-3.svg;../Hanafuda_2-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1240,6 +1240,7 @@ The nightingale’s<br />Song is clear<br />And the white plum blossom<br />Beco
 {% image
     src="../Hanafuda_3-1.svg;../Hanafuda_3-2.svg;../Hanafuda_3-3.svg;../Hanafuda_3-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1263,7 +1264,6 @@ bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two
 {% image
     src='Yoshino.jpg'
     position="aside"
-    size="wide"
     alt="A mountain covered in cherry blossom trees showing light pink blooms, amongst other dark green trees."
     license='cc-by-nc-nd',
     licenseVersion='4.0',
@@ -1363,6 +1363,7 @@ right.
 {% image
     src="../Hanafuda_4-1.svg;../Hanafuda_4-2.svg;../Hanafuda_4-3.svg;../Hanafuda_4-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1449,6 +1450,7 @@ inverted.
 {% image
     src="../Hanafuda_5-1.svg;../Hanafuda_5-2.svg;../Hanafuda_5-3.svg;../Hanafuda_5-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1520,6 +1522,7 @@ lang="ja-Latn">Ogata Kōrin</span> (<span lang="ja">尾形光琳</span>, 1658–
 {% image
     src="../Hanafuda_6-1.svg;../Hanafuda_6-2.svg;../Hanafuda_6-3.svg;../Hanafuda_6-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1557,6 +1560,7 @@ clover shows a remarkably similar form to that of the boar card.
 {% image
     src="../Hanafuda_7-1.svg;../Hanafuda_7-2.svg;../Hanafuda_7-3.svg;../Hanafuda_7-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1650,6 +1654,7 @@ deer are renowned for being separated from their lovers... */} -->
 {% image
     src="../Hanafuda_8-1.svg;../Hanafuda_8-2.svg;../Hanafuda_8-3.svg;../Hanafuda_8-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1662,7 +1667,6 @@ card, and two <span lang="ja-Latn">kasu</span> cards.
 
 {% image
     position="aside"
-    size="wide"
     alt="Miscanthus brushes in the sun."
     src="miscanthus.jpg"
     originalUrl="https://www.flickr.com/photos/mana_wu/4161937912",
@@ -1772,6 +1776,7 @@ by <span class="noun" lang="ja-Latn">Totoya Hokkei</span> (<span lang="ja">魚�
 {% image
     src="../Hanafuda_9-1.svg;../Hanafuda_9-2.svg;../Hanafuda_9-3.svg;../Hanafuda_9-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1863,6 +1868,7 @@ the imperial family (who use a 14-petal version).
 {% image
     src="../Hanafuda_10-1.svg;../Hanafuda_10-2.svg;../Hanafuda_10-3.svg;../Hanafuda_10-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -1876,7 +1882,6 @@ cards.
 
 {% image 
     position="aside"
-    size="wide"
     src='Tatsutagawa.jpg'
     alt="Maple trees with their leaves showing a bright red-orange colour."
     license='cc-by-sa',
@@ -1967,6 +1972,7 @@ From the lower branches<br />Maple leaves scatter<br />In Autumn showers on the 
 {% image
     src="../Hanafuda_11-1.svg;../Hanafuda_11-2.svg;../Hanafuda_11-3.svg;../Hanafuda_11-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,
@@ -2097,6 +2103,7 @@ A key-block print of the <span class="noun" lang="ja-Latn">Raijin</span> scene, 
 {% image
     src="../Hanafuda_12-1.svg;../Hanafuda_12-2.svg;../Hanafuda_12-3.svg;../Hanafuda_12-4.svg"
     alt=";;;"
+    noborder=true
     authorFamily="Mantia",
     authorGiven="Louie",
     copyrightYear=2021,

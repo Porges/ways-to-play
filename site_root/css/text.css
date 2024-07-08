@@ -1,219 +1,241 @@
 @font-face {
-    font-family: "Noto Naskh Arabic";
-    font-display: swap;
-    src: local('Noto Naskh Arabic'), url('/fonts/NotoNaskhArabic-VariableFont_wght.woff2') format('woff2');
+  font-family: "Noto Naskh Arabic";
+  font-display: swap;
+  src: local('Noto Naskh Arabic'), url('/fonts/NotoNaskhArabic-VariableFont_wght.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: "Noto Nastaliq Urdu";
-    font-display: swap;
-    src: local('Noto Nastaliq Urdu'), url('/fonts/NotoNastaliqUrdu-VariableFont_wght.woff2') format('woff2');
+  font-family: "Noto Nastaliq Urdu";
+  font-display: swap;
+  src: local('Noto Nastaliq Urdu'), url('/fonts/NotoNastaliqUrdu-VariableFont_wght.woff2') format('woff2');
 }
 
 /* present proper nouns upright as there is no need to distinguish from surrounding text */
 span[lang]:not(.noun):is(
-    /*  Italicize all *-Latn languages: */
-    [lang*="-Latn" i],
-    /*  Italicize non-English (but Latin) languages: */
-    [lang|=ace],
-    /*  Acehnese */
-    [lang|=bem],
-    /*  Bemba */
-    [lang|=bjn],
-    /*  Banjarese */
-    [lang|=bnt],
-    /*  Bantu (family) */
-    [lang|=ca],
-    /*  Catalan */
-    [lang|=cbl],
-    /*  Chin (Bualkhaw) */
-    [lang|=cfm],
-    /*  Chin (Falam) */
-    [lang|=da],
-    /*  Danish  */
-    [lang|=de],
-    /*  German  */
-    [lang|=dtp],
-    /*  Dusun(ic)  */
-    [lang|=ee],
-    /*  Ewe  */
-    [lang|=es],
-    /*  Spanish  */
-    [lang|=fil],
-    /*  Filipino  */
-    [lang|=fr],
-    /*  French  */
-    [lang|=ga],
-    /*  Gaelic */
-    [lang|=gd],
-    /*  Scots Gaelic */
-    [lang|=gsw],
-    /*  Swiss German */
-    [lang|=gup],
-    /*  Bininj Kunwok */
-    [lang|=haw],
-    /*  Hawaiian  */
-    [lang|=hu],
-    /*  Hungarian  */
-    [lang|=id],
-    /*  Indonesian  */
-    [lang|=is],
-    /*  Icelandic  */
-    [lang|=it],
-    /*  Italian */
-    [lang|=ilb],
-    /*  Ila */
-    [lang|=kew],
-    /*  Kewa (West)  */
-    [lang|=kxd],
-    /*  Brunei Malay  */
-    [lang|=ksx],
-    /*  Kédang  */
-    [lang|=la],
-    /*  Latin */
-    [lang|=lg],
-    /*  Luganda */
-    [lang|=loz],
-    /*  Lozi */
-    [lang|=lun],
-    /*  Lunda */
-    [lang|=mbw],
-    /*  Maring  */
-    [lang|=mcm],
-    /*  Kristang */
-    [lang|=mi],
-    /*  Māori */
-    [lang|=mfa],
-    /*  Pattani Malay */
-    [lang|=mg],
-    /*  Malagasy */
-    [lang|=min],
-    /*  Minangkabau  */
-    [lang|=mnk],
-    /*  Mandinka  */
-    [lang|=mnr],
-    /*  Mono  */
-    [lang=ms],
-    /*  Malay (meta-language) - exclude ms-Arab */
-    [lang|=nl],
-    /*  Dutch  */
-    [lang|=no],
-    /*  Norwegian  */
-    [lang|=nso],
-    /*  sePedi  */
-    [lang|=pcc],
-    /*  Bouyei  */
-    [lang|=pis],
-    /*  Pijin (Solomon Islands)  */
-    [lang|=pt],
-    /*  Portuguese  */
-    [lang|=raw],
-    /*  Rawang  */
-    [lang|=rn],
-    /*  Rundi */
-    [lang|=rng],
-    /*  Ronga  */
-    [lang|=rw],
-    /*  Kinyarwanda */
-    [lang|=sm],
-    /*  Samoa  */
-    [lang|=smi],
-    /*  Sámi */
-    [lang|=sn],
-    /*  Shona  */
-    [lang|=so],
-    /*  Somali  */
-    [lang|=st],
-    /*  seSotho  */
-    [lang|=sv],
-    /*  Swedish  */
-    [lang|=tiw],
-    /*  Tiwi  */
-    [lang|=tn],
-    /*  Tswana  */
-    [lang|=to],
-    /*  Tongan */
-    [lang|=toi],
-    /*  Tonga (Zimbabwe) */
-    [lang|=tpi],
-    /*  Tok Pisin */
-    [lang|=tr],
-    /*  Turkish */
-    [lang|=tum],
-    /*  Tumbuka */
-    [lang|=tw],
-    /*  Twi */
-    [lang|=urh],
-    /*  Urhobo */
-    [lang|=ve],
-    /*  Venda */
-    [lang=vi],
-    /*  Vietnamese (but not vi-Hani) */
-    [lang|=yo],
-    /*  Yoruba */
-    [lang|=zu]
+  /*  Italicize all *-Latn languages: */
+  [lang*="-Latn" i],
+  /*  Italicize non-English (but Latin) languages: */
+  [lang|=ace],
+  /*  Acehnese */
+  [lang|=bem],
+  /*  Bemba */
+  [lang|=bjn],
+  /*  Banjarese */
+  [lang|=bnt],
+  /*  Bantu (family) */
+  [lang|=ca],
+  /*  Catalan */
+  [lang|=cbl],
+  /*  Chin (Bualkhaw) */
+  [lang|=cfm],
+  /*  Chin (Falam) */
+  [lang|=da],
+  /*  Danish  */
+  [lang|=de],
+  /*  German  */
+  [lang|=dtp],
+  /*  Dusun(ic)  */
+  [lang|=ee],
+  /*  Ewe  */
+  [lang|=es],
+  /*  Spanish  */
+  [lang|=fil],
+  /*  Filipino  */
+  [lang|=fr],
+  /*  French  */
+  [lang|=ga],
+  /*  Gaelic */
+  [lang|=gd],
+  /*  Scots Gaelic */
+  [lang|=gsw],
+  /*  Swiss German */
+  [lang|=gup],
+  /*  Bininj Kunwok */
+  [lang|=haw],
+  /*  Hawaiian  */
+  [lang|=hu],
+  /*  Hungarian  */
+  [lang|=id],
+  /*  Indonesian  */
+  [lang|=is],
+  /*  Icelandic  */
+  [lang|=it],
+  /*  Italian */
+  [lang|=ilb],
+  /*  Ila */
+  [lang|=kew],
+  /*  Kewa (West)  */
+  [lang|=kxd],
+  /*  Brunei Malay  */
+  [lang|=ksx],
+  /*  Kédang  */
+  [lang|=la],
+  /*  Latin */
+  [lang|=lg],
+  /*  Luganda */
+  [lang|=loz],
+  /*  Lozi */
+  [lang|=lun],
+  /*  Lunda */
+  [lang|=mbw],
+  /*  Maring  */
+  [lang|=mcm],
+  /*  Kristang */
+  [lang|=mi],
+  /*  Māori */
+  [lang|=mfa],
+  /*  Pattani Malay */
+  [lang|=mg],
+  /*  Malagasy */
+  [lang|=min],
+  /*  Minangkabau  */
+  [lang|=mnk],
+  /*  Mandinka  */
+  [lang|=mnr],
+  /*  Mono  */
+  [lang=ms],
+  /*  Malay (meta-language) - exclude ms-Arab */
+  [lang|=nl],
+  /*  Dutch  */
+  [lang|=no],
+  /*  Norwegian  */
+  [lang|=nso],
+  /*  sePedi  */
+  [lang|=pcc],
+  /*  Bouyei  */
+  [lang|=pis],
+  /*  Pijin (Solomon Islands)  */
+  [lang|=pt],
+  /*  Portuguese  */
+  [lang|=raw],
+  /*  Rawang  */
+  [lang|=rn],
+  /*  Rundi */
+  [lang|=rng],
+  /*  Ronga  */
+  [lang|=rw],
+  /*  Kinyarwanda */
+  [lang|=sm],
+  /*  Samoa  */
+  [lang|=smi],
+  /*  Sámi */
+  [lang|=sn],
+  /*  Shona  */
+  [lang|=so],
+  /*  Somali  */
+  [lang|=st],
+  /*  seSotho  */
+  [lang|=sv],
+  /*  Swedish  */
+  [lang|=tiw],
+  /*  Tiwi  */
+  [lang|=tn],
+  /*  Tswana  */
+  [lang|=to],
+  /*  Tongan */
+  [lang|=toi],
+  /*  Tonga (Zimbabwe) */
+  [lang|=tpi],
+  /*  Tok Pisin */
+  [lang|=tr],
+  /*  Turkish */
+  [lang|=tum],
+  /*  Tumbuka */
+  [lang|=tw],
+  /*  Twi */
+  [lang|=urh],
+  /*  Urhobo */
+  [lang|=ve],
+  /*  Venda */
+  [lang=vi],
+  /*  Vietnamese (but not vi-Hani) */
+  [lang|=yo],
+  /*  Yoruba */
+  [lang|=zu]
 
-    /*  isiZulu */
+  /*  isiZulu */
 ) {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* Vertical writing */
 .vertical-rl {
-    writing-mode: vertical-rl;
-    margin-block-start: .5lh;
+  writing-mode: vertical-rl;
+  margin-block-start: .5lh;
+  /*font-feature-settings: "vkrn", "vpal", "vkna";*/
 }
 
 /* Shouldn't grow as fast in a multi */
 div.multi .vertical-rl {
-    flex-grow: 0.5;
+  flex-grow: 0.5;
 }
+
+/* Ruby text */
+rt {
+  /* why is this not on by default! */
+  font-variant-east-asian: ruby;
+}
+
 
 /* Chinese citation style */
 cite[lang]:lang(zh):not(:lang(zh-Latn)) {
-    font-style: inherit;
+  font-style: inherit;
 
+  &::before {
+    content: '《';
+  }
+
+  &::after {
+    content: '》';
+  }
+
+  cite {
     &::before {
-        content: '《';
+      content: '〈 ';
     }
 
     &::after {
-        content: '》';
+      content: '〉';
     }
-
-    cite {
-        &::before {
-            content: '〈 ';
-        }
-
-        &::after {
-            content: '〉';
-        }
-    }
+  }
 }
 
 /* Japanese and Korean citation styles */
 cite[lang]:lang(ja):not(:lang(ja-Latn)),
 cite[lang]:lang(ko):not(:lang(ko-Latn)) {
-    font-style: inherit;
+  font-style: inherit;
 
+  &::before {
+    content: '『'
+  }
+
+  &::after {
+    content: '』'
+  }
+
+  cite {
     &::before {
-        content: '『'
+      content: '「'
     }
 
     &::after {
-        content: '』'
+      content: '」'
     }
+  }
+}
 
-    cite {
-        &::before {
-            content: '「'
-        }
+/* Arabic/Persian citations */
+cite[lang]:lang(ar):not(:lang(ar-Latn)),
+cite[lang]:lang(fa):not(:lang(fa-Latn)) {
+  font-style: inherit;
 
-        &::after {
-            content: '」'
-        }
-    }
+  &::before {
+    content: '“'
+  }
+
+  &::after {
+    content: '”'
+  }
 }
 
 
@@ -227,26 +249,35 @@ cite[lang] {
   }
 
   /* Use a specific font for Arabic/Persian/etc, or else we get Times New Roman on Windows: */
-  &:is(
-    :lang(ar), /* Arabic */
-    :lang(ota), /* Old Turkish */
+  &:is( :lang(ar),
+    /* Arabic */
+    :lang(ota),
+    /* Old Turkish */
     /* *-Arab is not yet supported */
-    :lang(wo-Arab), /* Wolof */
-    :lang(ms-Arab), /* Malay */
-    :lang(wni-Arab) /* Comorian */
+    :lang(wo-Arab),
+    /* Wolof */
+    :lang(ms-Arab),
+    /* Malay */
+    :lang(wni-Arab)
+
+    /* Comorian */
   ) {
     font-family: "Noto Naskh Arabic", serif;
   }
-  
-  &:is(
-    :lang(fa), /* Persian */
-    :lang(ur), /* Urdu */
-    :lang(pa-Arab), /* Punjabi */
-    :lang(ks), :lang(ks-Arab) /* Kashmiri */
+
+  &:is( :lang(fa),
+    /* Persian */
+    :lang(ur),
+    /* Urdu */
+    :lang(pa-Arab),
+    /* Punjabi */
+    :lang(ks), :lang(ks-Arab)
+
+    /* Kashmiri */
   ) {
     font-family: "Noto Nastaliq Urdu", serif;
   }
-  
+
   &:is(:lang(ar-Latn), :lang(ota-Latn), :lang(fa-Latn), :lang(ur-Latn)) {
     /* need to reset font here */
     font-family: inherit;
@@ -265,10 +296,10 @@ cite[lang] {
 }
 
 @font-face {
-    font-family: "Card Indices";
-    src: url('/fonts/cardindices.woff2') format('woff2');
-    font-display: swap;
-    size-adjust: 90%;
+  font-family: "Card Indices";
+  src: url('/fonts/cardindices.woff2') format('woff2');
+  font-display: swap;
+  size-adjust: 90%;
 }
 
 .playing-cards {

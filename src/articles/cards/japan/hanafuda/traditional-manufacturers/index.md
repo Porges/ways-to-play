@@ -76,9 +76,9 @@ at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">
 called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
 
 ### Index of Marks
-<div class="multi only-large">
-    <table class="table table-sm">
-    <tbody class="table-group-divider">
+<div class="multi">
+    <table>
+    <tbody>
         <tr>
         <td><img src='/small-images/marufuku.svg' class="inline-img big" alt="The Marufuku symbol" /></td>
         <td><a href="#nintendo"><span class="noun" lang="ja-Latn">Nintendō</span></a></td>
@@ -157,8 +157,8 @@ called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
         </tr>
     </tbody>
     </table>
-    <table class="table table-sm">
-    <tbody class="table-group-divider">
+    <table>
+    <tbody>
         <tr>
         <td><img src='/small-images/marui.svg' class="inline-img big" alt="The Marui symbol" /></td>
         <td><a href="#nishimura"><span class="noun" lang="ja-Latn">Nishimura</span></a></td>
@@ -289,7 +289,7 @@ The following table is summarized from [a series of
 articles](https://japanplayingcardmuseum.com/category/0-0-cartatax-law-history/)
 provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
 
-<table class="numeric table table-sm">
+<table class="numeric">
 <caption>Tax levied on <span class="noun" lang="ja-Latn">Hanafuda</span> sets over time.</caption>
 <thead>
     <tr>
@@ -655,7 +655,7 @@ circled <span class="circled" lang="ja">高</span>. Brands produced by <span cla
 lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 57–8]
 
-{% image position="aside" size="wide" src="Takarabune_by_Hiroshige.jpg" alt="" originalUrl="https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license="cc0", author="MichaelMaggs" %}
+{% image position="aside" src="Takarabune_by_Hiroshige.jpg" alt="" originalUrl="https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license="cc0", author="MichaelMaggs" %}
 The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikipedia.org/wiki/Takarabune) that carries the [seven lucky gods](https://en.wikipedia.org/wiki/Seven_Lucky_Gods), as shown in this print by [Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) ({%c%} 1840). 
 {% imageEnd %}
 
@@ -1435,7 +1435,6 @@ The extra {% gameref hachi-hachi %}-related cards of <span class="noun" lang="ja
 
 {% image 
     noborder=true
-    size="wide"
     position="aside"
     src="Yamashiro_trademark1.png;Yamashiro_trademark2.png;Yamashiro_trademark3.png"
     alt=";;"
@@ -1798,7 +1797,6 @@ lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
 
 {% image 
     noborder=true
-    size="wide"
     position="aside"
     src="Nishimura_trademark1.png;Nishimura_trademark2.png;Nishimura_trademark3.png"
     alt=";;"

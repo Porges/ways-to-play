@@ -40,7 +40,7 @@ Showing the original painted colours, from @Medum [pl. XIII].
 {%imageEnd%}
 </div>
 
-{% image src="Nikauhor.jpg" license="cc0" alt="" position="aside" size="wide" %}
+{% image src="Nikauhor.jpg" license="cc0" alt="" position="aside" %}
 Representation of the relief, from @ExcavationsAtSaqqara1907 [pl. LXIV].
 {% imageEnd %}
 
