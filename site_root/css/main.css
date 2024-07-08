@@ -107,6 +107,7 @@ body {
 
 main {
     display: grid;
+    margin-bottom: 2rlh; /* footer must use margin-top auto */
 
     /* minmax(0, 1fr) here makes the column 'definitely sized',
        see: https://css-tricks.com/preventing-a-grid-blowout/
@@ -325,7 +326,7 @@ nav.site {
 }
 
 #site-footer {
-    margin-top: calc(2rlh - 1px);
+    margin-top: auto;
     padding: .5rlh 1rlh .5rlh 1rlh;
     border-top: 1px dotted var(--colour-secondary);
     background-color: var(--colour-accent);
