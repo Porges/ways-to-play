@@ -3,9 +3,11 @@ title: Traversal Games
 order: 400
 ---
 
-A traversal game is a type of board game where the goal is to move your pieces
+<p class="lead">A traversal game is a type of board game where the goal is to move your pieces
 from a starting location into a different position or configuration on the
-board. Capture of pieces is not usually a feature of these types of games.
+board. Capture of pieces is not usually a feature of these types of games.</p>
+
+## Games
 
 The most famous example of this kind of game is probably {% gameref halma %}, or
 especially one of its descendents, such as “Chinese Checkers”.

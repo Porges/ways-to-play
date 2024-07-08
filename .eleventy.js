@@ -44,6 +44,7 @@ module.exports = function (eleventyConfig) {
       },
       citationPlugin,
       addSlugs,
+      '@microflash/rehype-toc',
       {
         plugin: 'rehype-autolink-headings',
         options: {

@@ -90,7 +90,7 @@ function renderGames(allGames: RenderableGame[]) {
             link.setAttribute('lang', g.titleLang);
         }
 
-        link.innerHTML = `${g.title}${g.originalTitle ? ` (${g.originalTitle})` : ''}${g.draft ? ' <span class="badge bg-warning text-dark">Draft</span>' : ''}`;
+        link.innerHTML = `${g.title}${g.originalTitle ? ` (${g.originalTitle})` : ''}${g.draft ? ' <span class="draft">Draft</span>' : ''}`;
 
         li.appendChild(link);
         return li;

@@ -326,7 +326,7 @@ game has a much higher house edge of 13.865%.
 
 ## Around the World
 
-{% image src="../../maps/CrownAndAnchor.svg" alt="" size="wide" %}
+{% image noborder=true src="../../maps/CrownAndAnchor.svg" alt="" size="wide" %}
 Countries known to play Crown & Anchor.
 {% imageEnd %}
 

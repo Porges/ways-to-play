@@ -2,7 +2,7 @@ import { Context, Data } from "../types";
 
 export const data = {
     layout: "columned",
-    title: "Ways to Play",
+    title: "Welcome",
     eleventyImport: {
         collections: ["game", "article"]
     }
@@ -19,7 +19,7 @@ export function render(this: Context, data: Data) {
         .slice(0, 30)
         .map((p: any) => {
             const iso = p.date.toISOString();
-            return `<li><a href="${p.url}">${p.data.title}</a> (<time datetime="${iso}" class="relative">${iso}</time>)</li>`;})
+            return `<li><a href="${p.url}">${p.data.title}</a> <span class="recently-updated-time">(<time datetime="${iso}" class="relative">${iso}</time>)</a></li>`;})
         .join("\n");
 
     pages.sort((x, y) => y.content.length - x.content.length);
@@ -36,14 +36,14 @@ export function render(this: Context, data: Data) {
     </p>
 
     <p>
-    There are two main areas on this site, of <strong><a href="/articles/"><span role="img" aria-label="">🧾</span>&#8239;Articles</a></strong> about
-    games or families of games, and <strong><a href="/games"><span role="img" aria-label="">🎲</span>&#8239;Games</a></strong> for rules of the games
+    There are two main areas on this site, of <strong><a href="/articles/">Articles</a></strong> about
+    games or families of games, and <strong><a href="/games">Games</a></strong> for rules of the games
     themselves. There is also an index of <strong><a href="/game-names-index/">game names by language</a></strong>, if you are trying to locate a game.
     Every page on this website should be considered a work in progress: nothing is definite, and everything is subject to revision!
-    You might also be interested in the <a href="/about/"><span role="img" aria-label="">📣</span>&#8239;About</a> page or perhaps
-    the site-wide <strong><a href="/bibliography/"><span role="img" aria-label="">📚</span>&#8239;Bibliography</a></strong>.
+    You might also be interested in the <strong><a href="/about/">About</a></strong> page or perhaps
+    the site-wide <strong><a href="/bibliography/">Bibliography</a></strong>.
     </p>
-    <p>For other sites about games, please visit the <a href="/see-also/">See Also</a> page.</p>
+    <p>For other sites about games, please visit the <strong><a href="/see-also/">See Also</a></strong> page.</p>
 
     <h2>Recently updated pages</h2>
     <ul class="columnar-large">

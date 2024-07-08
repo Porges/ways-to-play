@@ -49,34 +49,33 @@ There are five possible scoring combinations.
 
 #### Black Thirteen (<span lang="jav">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦶꦉꦁ​ </span> <span lang="jav-Latn">bunci ireng</span>)
 
+This combination consists of the first three cards of the coin suit, in order.  The combination may be extended by capturing more of the coin cards in _unbroken_ sequence. This gives 13 points per card in the sequence, so three cards scores 39, four cards scores 42, etc.
+
+The maximum score possible would be all 9 cards for 113 points.
+
 {% image
     noborder=true
     size="small"
-    position="right"
     justify="centered"
     hidden=true
     src="../../articles/cards/ceki/CC1.jpg;../../articles/cards/ceki/CC2.jpg;../../articles/cards/ceki/CC3.jpg"
     alt=";;" %}
 The first three cards of the coin suit must be obtained in order to score <span lang="jav-Latn">bunci ireng</span>.  {%imageEnd%}
 
-This combination consists of the first three cards of the coin suit, in order.  The combination may be extended by capturing more of the coin cards in _unbroken_ sequence. This gives 13 points per card in the sequence, so three cards scores 39, four cards scores 42, etc.
-
-The maximum score possible would be all 9 cards for 113 points.
 
 #### Red Thirteen (<span lang="jav">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦧꦁ​ </span> <span lang="jav-Latn">bunci abang</span>)
+
+This combination is formed from one of each of the three red-stamped cards. It is worth 13 points per card, so at least 39 points. Any additional cards of the same type add 13 points each.
 
 {% image
     noborder=true
     justify="centered"
-    position="right"
     size="small"
     hidden=true
     src="../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/CS9.jpg"
     alt=";;" %}
 The red-stamped cards.
 {%imageEnd%}
-
-This combination is formed from one of each of the three red-stamped cards. It is worth 13 points per card, so at least 39 points. Any additional cards of the same type add 13 points each.
 
 
 #### <span lang="jav-Latn">Pang Kéyang</span> (<span lang="jav">ꦥꦁ​​ꦏꦺꦪꦁ​ </span> <span lang="jav-Latn">pang kéyang</span>)
@@ -87,10 +86,11 @@ In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however,
 <span lang="jav-Latn">Kéyang</span> is the name of the 9 of myriads card. I am uncertain what it means.
 {%endaside%}
 
+This combination is formed from one of each of White Flower, 8 of strings, and 9 of myriads. It scores 12 points per card (base 36 points), and 12 for each additional card.
+
 {% image
     noborder=true
     justify="centered"
-    position="right"
     size="small"
     hidden=true
     src="../../articles/cards/ceki/CWF.jpg;../../articles/cards/ceki/CS8.jpg;../../articles/cards/ceki/CM9.jpg"
@@ -98,14 +98,13 @@ In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however,
 The cards for <span lang="jav-Latn">Pang Kéyang</span>.
 {%imageEnd%}
 
-This combination is formed from one of each of White Flower, 8 of strings, and 9 of myriads. It scores 12 points per card (base 36 points), and 12 for each additional card.
-
 #### Coin <span lang="jav-Latn">Pang</span> (<span lang="jav">ꦥꦁ​​ꦥꦶꦕꦶꦱ꧀ </span> <span lang="jav-Latn">pang picis</span>) 
+
+This combination is formed from one of each of the 8 of coins, 2 of strings, and 2 of myriads. It scores 11 points per card (33 points), and 11 for each additional card.
 
 {% image
     noborder=true
     justify="centered"
-    position="right"
     size="small"
     hidden=true
     src="../../articles/cards/ceki/CC8.jpg;../../articles/cards/ceki/CS2.jpg;../../articles/cards/ceki/CM2.jpg"
@@ -113,22 +112,19 @@ This combination is formed from one of each of White Flower, 8 of strings, and 9
 The cards for <span lang="jav-Latn">Pang Picis</span>.
 {%imageEnd%}
 
-This combination is formed from one of each of the 8 of coins, 2 of strings, and 2 of myriads. It scores 11 points per card (33 points), and 11 for each additional card.
-
 #### Tiger (<span lang="jav">ꦩꦕꦤ꧀</span> <span lang="jav-Latn">macan</span>)
+
+This combination is formed from one of each of the 1 of coins, 9 of strings, and 1 of myriads. It scores 10 points per card (30 points), and 10 for each additional card.
 
 {% image
     noborder=true
     justify="centered"
-    position="right"
     size="small"
     hidden=true
     src="../../articles/cards/ceki/CC9.jpg;../../articles/cards/ceki/CS1.jpg;../../articles/cards/ceki/CM1.jpg"
     alt=";;" %}
 The cards for <span lang="jav-Latn">Macan</span>.
 {%imageEnd%}
-
-This combination is formed from one of each of the 1 of coins, 9 of strings, and 1 of myriads. It scores 10 points per card (30 points), and 10 for each additional card.
 
 ### Possible bets
 
@@ -183,8 +179,7 @@ The combinations in particular are copied directly from the {% gameref kanhu %} 
 
 Given this information, we can arrange the deck as follows, and we can easily see how the combinations were arrived at:
 
-<div class="table-responsive">
-<table class="table table-sm" style="table-layout:fixed; width: 100%">
+<table class="fixed">
 <caption>A Ceki deck presented in “historical order” to show how the combinations were derived.</caption>
 <thead>
 <tr class="text-center">
@@ -202,7 +197,7 @@ Given this information, we can arrange the deck as follows, and we can easily se
 <th>high</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <th scope="row" class="sideways centered">Myriads</th>
 <td>{% image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM1.jpg" alt="" %}{% imageEnd %}</td>
@@ -247,7 +242,6 @@ Given this information, we can arrange the deck as follows, and we can easily se
 </tr>
 </tbody>
 </table>
-</div>
 
 The scoring combinations of <span lang="jav-Latn">Pei</span> are then explained in this way, with their matching {% gameref kanhu %} combinations (I do not have names for all of them):
 

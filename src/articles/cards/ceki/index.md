@@ -11,10 +11,10 @@ hero:
 ---
 
 <p class="lead">
-Ceki (Javanese <span lang="jav">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki{%fn%}The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]<!--{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}--> “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]{%endfn%}, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
+Ceki (Javanese <span lang="jav">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
 </p>
 
-“Ceki” (see sidenote #1) probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).{%fn%}<span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”.{%endfn%} More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘{%gameref gonggong%} cards’).
+“Ceki”{%fn%}The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]<!--{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}--> “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]{%endfn%} probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).{%fn%}<span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”.{%endfn%} More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘{%gameref gonggong%} cards’).
 
 The cards might also have been referred to in the past in Malay as <span lang="ms">kiya</span>{%fn%}<span lang="ms">Kija</span> or <span lang="ms-Arab">كيا</span>[@Pijnappel p. 96] in older orthographies.{%endfn%} or <span lang="ms">kiya-kiya</span>, meaning ‘fish’. This could refer to the fish symbology which is used on some decks of Chinese origin.
 
@@ -112,41 +112,35 @@ The three suits have various names.[@ChikiCards p. 119] ‘Coins’, ‘strings�
 money-suited cards.
 
 <dl>
-<dt>Coins</dt>
+<dt>Names for Coins</dt>
 <dd>
 
-<span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’);
-
-in Thai, <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> ‘vegetable’.
+* <span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’);
+* in Thai, <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> ‘vegetable’.
 
 </dd>
-<dt>Strings</dt>
+<dt>Names for Strings</dt>
 <dd>
 
-<span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’);
-
-in Java, <span lang="jav-Latn">lintrik</span> (<span lang="jav">ꦭꦶꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?);[@JavanischeKartenspiele]
-
-in Thai, <span lang="th">นก</span> <span lang="th-Latn">nok</span> ‘birds’.[@PaiPhong1967 28]
+* <span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’);
+* in Java, <span lang="jav-Latn">lintrik</span> (<span lang="jav">ꦭꦶꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?);[@JavanischeKartenspiele]
+* in Thai, <span lang="th">นก</span> <span lang="th-Latn">nok</span> ‘birds’.[@PaiPhong1967 28]
 
 </dd>
-<dt>Myriads (Numbers)</dt>
+<dt>Names for Myriads (Numbers)</dt>
 <dd>
 
-<span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’);
-
-in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span> ‘people’);[@JavanischeKartenspiele]
-
-in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘people’.
+* <span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’);
+* in Java, <span lang="jav-Latn">wong</span> (<span lang='jav'>ꦮꦺꦴꦁ</span> ‘people’);[@JavanischeKartenspiele]
+* in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘people’.
 
 </dd>
 </dl>
 
-<div class="table-responsive">
-<table class="table table-sm" style="table-layout:fixed; width: 100%">
+<table class="fixed">
 <caption>Cards from a modern Balinese Ceki deck.</caption>
 <thead>
-<tr class="text-center">
+<tr class="centered">
 <th></th>
 <th></th>
 <th>1</th>
@@ -160,49 +154,48 @@ in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘peopl
 <th>9</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <th scope="row" class="sideways centered">Coins</th>
-<td>{% image noborder=true cram=true src="COT.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CC9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="COT.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CC9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Strings</th>
-<td>{% image noborder=true cram=true src="CWF.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CS9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CWF.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CS9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Myriads</th>
-<td>{% image noborder=true cram=true src="CRF.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
-<td>{% image noborder=true cram=true src="CM9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CRF.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM1.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM2.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM3.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM4.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM5.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM6.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM7.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM8.jpg" hidden=true alt="" %}{% imageEnd %}</td>
+<td>{% image noborder=true cram=true equalheight=true src="CM9.jpg" hidden=true alt="" %}{% imageEnd %}</td>
 </tr>
 </tbody>
 </table>
-</div>
 
 ## Card Names
 
@@ -277,11 +270,11 @@ section of the table is much more imprecise than the previous lines.
 </dl>
 -->
 
-<div class="full-width table-responsive">
-<table class="table table-sm small" style="table-layout:fixed">
+<div class="full-width scroller">
+<table class="rule-first-col small">
 <thead>
   <tr>
-    <th class="text-center sticky-left border-end bg-white at-least-150-px"></th>
+    <th style="min-width: 200px"></th>
     <th>Thailand</th>
     <th colspan="4">Malaysia/Singapore</th>
     <th>Sumatra</th>
@@ -294,7 +287,7 @@ section of the table is much more imprecise than the previous lines.
     <th>Timor</th>
   </tr>
   <tr>
-    <th class="text-center sticky-left border-end table-light">Cards</th>
+    <th>Cards</th>
     <th>(1967)[@PaiPhong1967]</th>
     <th>General</th>
     <th>Older (Malay)<br/>(1894)[@CliffordMalay3 334]</th>
@@ -415,10 +408,10 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </th>
   </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 
 <tr class="table-secondary">
-<th scope="row" class="text-center sticky-left border-end">Honour & Rank 1</th>
+<th scope="row" class="text-center sticky-left border-end">Honours & Rank 1</th>
 <td><span lang="th">เอี่ยว</span> <span lang="th-Latn">iao</span>, from Hokkien/Teochew <span lang="nan">幺</span> <span lang="nan-Latn">io</span>/<span lang="tws-Latn">iao¹</span>, ‘ace’</td>
 <!-- Malay -->
 <td><span lang="ms">yu</span> or <span lang="ms">yeo</span>, from Hokkien/Teochew</td>
@@ -457,7 +450,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DOT.jpg;KOT.jpg;OOT.jpg;NOT.jpg;COT.jpg" alt=";;;;" %}Old Thousand{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DOT.jpg;KOT.jpg;OOT.jpg;NOT.jpg;COT.jpg" alt=";;;;" %}Old Thousand{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เอี่ยวพญา</span><br/><span lang="th-Latn">iao phaya</span><br/>king ace<br/><br/><span lang="th">เอี่ยวแดงพญา</span><br/><span lang="th-Latn">iao daeng phaya</span><br/>red king ace<br/><br/><span lang="th">เอี่ยวโต้ง</span><br/><span lang="th-Latn">iao tong</span><br/>large ace</td>
 <!-- M/S -->
@@ -497,7 +490,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DWF.jpg;KWF.jpg;OWF.jpg;NWF.jpg;CWF.jpg" alt=";;;;" %}White Flower{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DWF.jpg;KWF.jpg;OWF.jpg;NWF.jpg;CWF.jpg" alt=";;;;" %}White Flower{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เอี่ยวชี</span><br/><span lang="th-Latn">iao chi</span><br/>nun ace</td>
 <!-- M/S -->
@@ -537,7 +530,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DRF.jpg;KRF.jpg;ORF.jpg;NRF.jpg;CRF.jpg" alt=";;;;" %}Red Flower{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DRF.jpg;KRF.jpg;ORF.jpg;NRF.jpg;CRF.jpg" alt=";;;;" %}Red Flower{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เอี่ยวแดงนาง</span><br/><span lang="th-Latn">iao daeng nang</span><br/>red lady ace<br/><br/><span lang="th">เอี่ยวนาง</span><br/><span lang="th-Latn">iao nang</span><br/>lady ace</td>
 <!-- M/S -->
@@ -577,7 +570,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC1.jpg;KC1.jpg;OC1.jpg;NC1.jpg;CC1.jpg" alt=";;;;" %}1 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC1.jpg;KC1.jpg;OC1.jpg;NC1.jpg;CC1.jpg" alt=";;;;" %}1 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เอี่ยวเกือก</span><br/><span lang="th-Latn">iao kueak</span><br/>shoe ace<br/><br/><span lang="th">เอี่ยวรอง</span><br/><span lang="th-Latn">iao rong</span><br/>secondary ace</td>
 <!-- M/S -->
@@ -617,7 +610,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS1.jpg;KS1.jpg;OS1.jpg;NS1.jpg;CS1.jpg" alt=";;;;" %}1 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS1.jpg;KS1.jpg;OS1.jpg;NS1.jpg;CS1.jpg" alt=";;;;" %}1 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เอี่ยวยาว</span><br/><span lang="th-Latn">iao yao</span><br/> long ace<br/><br/><span lang="th">เอี่ยวเข็ม</span><br/><span lang="th-Latn">iao khem</span><br/>needle ace</td>
 <!-- M/S -->
@@ -657,7 +650,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM1.jpg;KM1.jpg;OM1.jpg;NM1.jpg;CM1.jpg" alt=";;;;" %}1 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM1.jpg;KM1.jpg;OM1.jpg;NM1.jpg;CM1.jpg" alt=";;;;" %}1 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เอี่ยวหนู</span><br/><span lang="th-Latn">iao nu</span><br/>mouse ace (the symbol looks like a mouse’s tail)</td>
 <!-- M/S -->
@@ -737,7 +730,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC2.jpg;KC2.jpg;OC2.jpg;NC2.jpg;CC2.jpg" alt=";;;;" %}2 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC2.jpg;KC2.jpg;OC2.jpg;NC2.jpg;CC2.jpg" alt=";;;;" %}2 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สองตา</span><br/><span lang="th-Latn">song ta</span><br/>eyes two<br/><br/><span lang="th">สองตาโต</span><br/><span lang="th-Latn">song ta to</span><br/>shocked two</td>
 <!-- M/S -->
@@ -777,7 +770,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS2.jpg;KS2.jpg;OS2.jpg;NS2.jpg;CS2.jpg" alt=";;;;" %}2 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS2.jpg;KS2.jpg;OS2.jpg;NS2.jpg;CS2.jpg" alt=";;;;" %}2 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สององคต</span><br/><span lang="th-Latn">song (ongkot?)</span><br/>two <a href="https://en.wikipedia.org/wiki/Angada">Angada</a> (a legendary monkey with an immovable leg)</td>
 <!-- M/S -->
@@ -817,7 +810,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM2.jpg;KM2.jpg;OM2.jpg;NM2.jpg;CM2.jpg" alt=";;;;" %}2 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM2.jpg;KM2.jpg;OM2.jpg;NM2.jpg;CM2.jpg" alt=";;;;" %}2 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สองคน</span><br/><span lang="th-Latn">song khon</span><br/>two people</td>
 <!-- M/S -->
@@ -897,7 +890,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC3.jpg;KC3.jpg;OC3.jpg;NC3.jpg;CC3.jpg" alt=";;;;" %}3 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC3.jpg;KC3.jpg;OC3.jpg;NC3.jpg;CC3.jpg" alt=";;;;" %}3 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สามตา</span><br/><span lang="th-Latn">sam ta</span><br/>three eyes<br/><br/><span lang="th">สามตาโต</span><br/><span lang="th-Latn">sam ta to</span><br/>three big eyes</td>
 <!-- M/S -->
@@ -937,7 +930,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS3.jpg;KS3.jpg;OS3.jpg;NS3.jpg;CS3.jpg" alt=";;;;" %}3 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS3.jpg;KS3.jpg;OS3.jpg;NS3.jpg;CS3.jpg" alt=";;;;" %}3 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สามนก</span><br/><span lang="th-Latn">sam nok</span><br/>three birds<br/><br/><span lang="th">สามนกเตี้ย</span><br/><span lang="th-Latn">sam nok tia</span><br/>three short birds</td>
 <!-- M/S -->
@@ -977,7 +970,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM3.jpg;KM3.jpg;OM3.jpg;NM3.jpg;CM3.jpg" alt=";;;;" %}3 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM3.jpg;KM3.jpg;OM3.jpg;NM3.jpg;CM3.jpg" alt=";;;;" %}3 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สามคน</span><br/><span lang="th-Latn">sam khon</span><br/>three people</td>
 <!-- M/S -->
@@ -1057,7 +1050,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC4.jpg;KC4.jpg;OC4.jpg;NC4.jpg;CC4.jpg" alt=";;;;" %}4 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC4.jpg;KC4.jpg;OC4.jpg;NC4.jpg;CC4.jpg" alt=";;;;" %}4 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สี่มะเขือ</span><br/><span lang="th-Latn">si makhuea</span><br/>four eggplants</td>
 <!-- M/S -->
@@ -1097,7 +1090,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS4.jpg;KS4.jpg;OS4.jpg;NS4.jpg;CS4.jpg" alt=";;;;" %}4 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS4.jpg;KS4.jpg;OS4.jpg;NS4.jpg;CS4.jpg" alt=";;;;" %}4 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สี่นม</span><br/><span lang="th-Latn">si nom</span><br/>four breasts<br/><br/><span lang="th">สี่นมยาน</span><br/><span lang="th-Latn">si nom yan</span><br/>four hanging breasts</td>
 <!-- M/S -->
@@ -1137,7 +1130,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM4.jpg;KM4.jpg;OM4.jpg;NM4.jpg;CM4.jpg" alt=";;;;" %}4 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM4.jpg;KM4.jpg;OM4.jpg;NM4.jpg;CM4.jpg" alt=";;;;" %}4 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">สี่คน</span><br/><span lang="th-Latn">si khon</span><br/>four people</td>
 <!-- M/S -->
@@ -1217,7 +1210,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC5.jpg;KC5.jpg;OC5.jpg;NC5.jpg;CC5.jpg" alt=";;;;" %}5 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC5.jpg;KC5.jpg;OC5.jpg;NC5.jpg;CC5.jpg" alt=";;;;" %}5 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">ห้าแตงโม</span><br/><span lang="th-Latn">ha taengmo</span><br/>five watermelons</td>
 <!-- M/S -->
@@ -1257,7 +1250,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS5.jpg;KS5.jpg;OS5.jpg;NS5.jpg;CS5.jpg" alt=";;;;" %}5 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS5.jpg;KS5.jpg;OS5.jpg;NS5.jpg;CS5.jpg" alt=";;;;" %}5 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">ห้านก</span><br/><span lang="th-Latn">ha nok</span><br/>five birds</td>
 <!-- M/S -->
@@ -1297,7 +1290,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM5.jpg;KM5.jpg;OM5.jpg;NM5.jpg;CM5.jpg" alt=";;;;" %}5 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM5.jpg;KM5.jpg;OM5.jpg;NM5.jpg;CM5.jpg" alt=";;;;" %}5 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">ห้าคน</span><br/><span lang="th-Latn">ha khon</span><br/>five people</td>
 <!-- M/S -->
@@ -1377,7 +1370,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC6.jpg;KC6.jpg;OC6.jpg;NC6.jpg;CC6.jpg" alt=";;;;" %}6 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC6.jpg;KC6.jpg;OC6.jpg;NC6.jpg;CC6.jpg" alt=";;;;" %}6 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">หกตา</span><br/><span lang="th-Latn">hok ta</span><br/>six eyes</td>
 <!-- M/S -->
@@ -1417,7 +1410,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS6.jpg;KS6.jpg;OS6.jpg;NS6.jpg;CS6.jpg" alt=";;;;" %}6 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS6.jpg;KS6.jpg;OS6.jpg;NS6.jpg;CS6.jpg" alt=";;;;" %}6 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">หกละเอียด</span><br/><span lang="th-Latn">hok laiat</span><br/>delicate six<br/><br/><span lang="th">หกเซาะ</span><br/><span lang="th-Latn">hok so</span><br/>chiselled six</td>
 <!-- M/S -->
@@ -1457,7 +1450,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM6.jpg;KM6.jpg;OM6.jpg;NM6.jpg;CM6.jpg" alt=";;;;" %}6 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM6.jpg;KM6.jpg;OM6.jpg;NM6.jpg;CM6.jpg" alt=";;;;" %}6 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">หกคน</span><br/><span lang="th-Latn">hok khon</span><br/>six people</td>
 <!-- M/S -->
@@ -1537,7 +1530,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC7.jpg;KC7.jpg;OC7.jpg;NC7.jpg;CC7.jpg" alt=";;;;" %}7 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC7.jpg;KC7.jpg;OC7.jpg;NC7.jpg;CC7.jpg" alt=";;;;" %}7 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เจ็ดพัด</span><br/><span lang="th-Latn">chet phat</span><br/>seven fans</td>
 <!-- M/S -->
@@ -1577,7 +1570,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS7.jpg;KS7.jpg;OS7.jpg;NS7.jpg;CS7.jpg" alt=";;;;" %}7 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS7.jpg;KS7.jpg;OS7.jpg;NS7.jpg;CS7.jpg" alt=";;;;" %}7 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เจ็ดนก</span><br/><span lang="th-Latn">chet nok</span><br/>seven birds</td>
 <!-- M/S -->
@@ -1617,7 +1610,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM7.jpg;KM7.jpg;OM7.jpg;NM7.jpg;CM7.jpg" alt=";;;;" %}7 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM7.jpg;KM7.jpg;OM7.jpg;NM7.jpg;CM7.jpg" alt=";;;;" %}7 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เจ็ดคน</span><br/><span lang="th-Latn">chet khon</span><br/>seven people</td>
 <!-- M/S -->
@@ -1697,7 +1690,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC8.jpg;KC8.jpg;OC8.jpg;NC8.jpg;CC8.jpg" alt=";;;;" %}8 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC8.jpg;KC8.jpg;OC8.jpg;NC8.jpg;CC8.jpg" alt=";;;;" %}8 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">แปดตา</span><br/><span lang="th-Latn">paet ta</span><br/>eight eyes</td>
 <!-- M/S -->
@@ -1737,7 +1730,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS8.jpg;KS8.jpg;OS8.jpg;NS8.jpg;CS8.jpg" alt=";;;;" %}8 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS8.jpg;KS8.jpg;OS8.jpg;NS8.jpg;CS8.jpg" alt=";;;;" %}8 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">แปดละเอียด</span><br/><span lang="th-Latn">paet laiat</span><br/>delicate eight<br/><br/><span lang="th">แปดเซาะ</span><br/><span lang="th-Latn">paet so</span><br/>chiselled eight</td>
 <!-- M/S -->
@@ -1777,7 +1770,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM8.jpg;KM8.jpg;OM8.jpg;NM8.jpg;CM8.jpg" alt=";;;;" %}8 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM8.jpg;KM8.jpg;OM8.jpg;NM8.jpg;CM8.jpg" alt=";;;;" %}8 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">แปดคน</span><br/><span lang="th-Latn">paet khon</span><br/>eight people</td>
 <!-- M/S -->
@@ -1857,7 +1850,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DC9.jpg;KC9.jpg;OC9.jpg;NC9.jpg;CC9.jpg" alt=";;;;" %}9 Coins{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DC9.jpg;KC9.jpg;OC9.jpg;NC9.jpg;CC9.jpg" alt=";;;;" %}9 Coins{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เก้าจัน</span><br/><span lang="th-Latn">kao chan</span><br/>nine <a href="https://en.wikipedia.org/wiki/Diospyros_decandra"><cite>Diospyros decandra</cite></a>, similar to a persimmon</td>
 <!-- M/S -->
@@ -1897,7 +1890,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DS9.jpg;KS9.jpg;OS9.jpg;NS9.jpg;CS9.jpg" alt=";;;;" %}9 Strings{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DS9.jpg;KS9.jpg;OS9.jpg;NS9.jpg;CS9.jpg" alt=";;;;" %}9 Strings{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เก้าแดง</span><br/><span lang="th-Latn">kao daeng</span><br/>red nine</td>
 <!-- M/S -->
@@ -1937,7 +1930,7 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true size="small" src="DM9.jpg;KM9.jpg;OM9.jpg;NM9.jpg;CM9.jpg" alt=";;;;" %}9 Myriads{% imageEnd %}</th>
+<th scope="row" class="sticky-left border-end table-light">{% image noborder=true hidden=true cram=true equalheight=true size="small" src="DM9.jpg;KM9.jpg;OM9.jpg;NM9.jpg;CM9.jpg" alt=";;;;" %}9 Myriads{% imageEnd %}</th>
 <!-- Thai -->
 <td><span lang="th">เก้าคน</span><br/><span lang="th-Latn">kao khon</span><br/>nine people</td>
 <!-- M/S -->

@@ -8,26 +8,26 @@ One of the most famous historical lists of games is that found in Chaper 22 of <
 </p>
 
 An in-depth examination of the games in the list lies [below the
-table](#the-list-in-depth). ⚠️ This article, more than most, is a
-work-in-progress.
+table](#the-list-in-depth). 🚧 This article, more than most, is a
+work-in-progress. 🚧
 
 The first five columns give the lists from five different French editions; the
 remaining columns are from translations into English.
 
 The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (German, 1590) are given beneath the table as they diverge significantly.
 
-⚠️ Note that the entries in the Screech column are out of sync with the others and I haven’t had time to match them up yet.
+🚧 Note that the entries in the Screech column are out of sync with the others and I haven’t had time to match them up yet. 🚧
 
 ⚠️ This table is very wide and might scroll horizontally. My notes are at the far right.
 
 <!-- Putnam doesn’t attempt translation -->
 
-<div class="full-width table-responsive">
-<table class="table table-sm small">
+<div class="full-width scroller">
+<table class="small">
 <thead>
 <tr>
-<th>ed. François Juste<br/>(1534)[@Juste1534 chap. XX]</th>
-<th>ed. François Juste<br/>(1535)[@Juste1535 chap. XX]</th>
+<th>ed. François Juste<br/>(1534)[@Juste1534 c. XX]</th>
+<th>ed. François Juste<br/>(1535)[@Juste1535 c. XX]</th>
 <th>ed. Etienne Dolet<br/>(1542)[@EtienneDolet p. 96]</th>
 <th>ed. François Juste<br/>(1542)[@Juste1542 f. 56v]</th>
 <th>ed. Louis Moland<br/>(1884)[@LouisMoland p. 42]</th>
@@ -40,7 +40,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <th>my notes</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <td><span lang="fr">au fleux</span></td>
 <td><span lang="fr">au flux</span></td>

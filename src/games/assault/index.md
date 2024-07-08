@@ -42,13 +42,13 @@ The presentation of the game usually has a militaristic theme, often celebrating
 
 ## Setup 
 
-{% image src="asalto_board.svg" alt="" %}
+{% image src="asalto_board.svg" noborder=true alt="" %}
 The board for Assault. The fortress is marked in red.
 {% imageEnd %}
 
 The game is played on a board with 33 points arranged in a cross shape. Nine points on one arm of the cross are marked off to form the **fortress**.
 
-{% image src="asalto_setup.svg" alt="" %}
+{% image src="asalto_setup.svg" noborder=true alt="" %}
 The initial setup for Assault. The attacker’s pieces are purple and the defender’s are yellow.
 {% imageEnd %}
 
@@ -62,7 +62,7 @@ The attacker starts and may move any of their pieces from its location to anothe
 
 The defender’s pieces move in a similar way, but are not required to move in any particular direction. They may also **jump** over an attacker’s piece in a straight line to a vacant point beyond it, as in checkers. This captures the jumped piece and removes it from the board. A defending piece may make multiple jumps in a single turn, and may change direction after each jump. The defender *must* make a jump if it is possible, and cannot jump one of their own pieces.
 
-{% image src="defender_multiple_jumps.svg" alt="" %}
+{% image src="defender_multiple_jumps.svg" noborder=true alt="" %}
 A defending piece may make multiple consecutive jumps.
 {%imageEnd%}
 
@@ -76,17 +76,17 @@ Many small variations of the board have been published. Some are displayed here.
 
 <div class="multi wide">
 
-{% image src="asalto_simplified_board.svg" alt="" %}
+{% image src="asalto_simplified_board.svg" noborder=true alt="" %}
 A board without most diagonals (as found [here](https://boardgamegeek.com/image/5069937/miscellaneous-game-compilation)).
 {%imageEnd%}
 
-{% image src="fuchs_und_henne.svg" alt="" %}
+{% image src="fuchs_und_henne.svg" noborder=true alt="" %}
 
 A board variant for [<span lang="de" class="aka">Fuchs und Henne</span>](https://web.archive.org/web/20120817104138/http://www.holznerspiele.de/anleitung.html), played with 20 attackers which are set up on all the lower points. 
 
 {%imageEnd%}
 
-{% image src="2_contra_20.svg" alt="" %}
+{% image src="2_contra_20.svg" noborder=true alt="" %}
 
 A board variant for [<span lang="de" class="aka">2 Contra 20</span>](https://boardgamegeek.com/image/6417481/asalto) (published by A.  Eggenweiler), played with 20 attackers which are set up on all the lower points. 
 
@@ -102,7 +102,7 @@ The defender has three pieces which start on the middle and either end of the
 bottom row of the fortress. The attacker has fifty pieces which are placed on
 all points outside the fortress. Play is otherwise the same as Assault.
 
-{% image src="Grosse_Belagerungsspiel.svg" alt="" %}
+{% image src="Grosse_Belagerungsspiel.svg" noborder=true alt="" %}
 
 <span lang="de">Grosse Belagerungsspiel</span> board. See examples
 [here](https://boardgamegeek.com/image/4378970/asalto) and
@@ -112,7 +112,7 @@ all points outside the fortress. Play is otherwise the same as Assault.
 
 Another version of the “Royal Garrison” board connected all diagonals:
 
-{% image src="royal_garrison.svg" alt="" %}
+{% image src="royal_garrison.svg" noborder=true alt="" %}
 
 A different Royal Garrison board.
 

@@ -43,18 +43,6 @@
 }
 
 @font-face {
-    font-family: "Noto Naskh Arabic";
-    font-display: swap;
-    src: local('Noto Naskh Arabic'), url('/fonts/NotoNaskhArabic-VariableFont_wght.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: "Noto Nastaliq Urdu";
-    font-display: swap;
-    src: local('Noto Nastaliq Urdu'), url('/fonts/NotoNastaliqUrdu-VariableFont_wght.woff2') format('woff2');
-}
-
-@font-face {
     font-family: 'Balinese';
     src: local('Noto Serif Balinese'), serif;
     unicode-range: U+1b00-1b7f;

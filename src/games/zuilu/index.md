@@ -44,7 +44,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
 
 {%aside%}Some translations below are from @PersonalLuck [p. 426].{%endaside%}
 
-<table class="table table-sm">
+<table>
 <thead>
 <tr>
 <th>Roll</th>
@@ -53,7 +53,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
 <th>Outcome</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <td>{%cdice 12345%}</td>
 <td><span lang="zh">群英入轂</span></td>
@@ -305,14 +305,14 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
 
 Here is a summarized version without the names:
 
-<table class="table table-sm">
+<table>
 <thead>
 <tr>
 <th>Roll</th>
 <th>Outcome</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <td>{%cdice 12345%}</td>
 <td>Give out 5 glasses of wine</td>

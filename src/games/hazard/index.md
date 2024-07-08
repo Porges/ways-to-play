@@ -40,7 +40,7 @@ If a player wins they are paid their stake by those who bet against them; if the
 
 The odds of each outcome are as follows:
 
-<table class="table rule-last-col">
+<table class="rule-last-col">
 <thead>
 <th rowspan="2">Main</th>
 <th rowspan="2">Nick</th>
@@ -53,20 +53,20 @@ The odds of each outcome are as follows:
 <th>Loss</th>
 <tr>
 </thead>
-<tbody class="numeric table-group-divider">
+<tbody class="numeric">
 <tr><th scope="row">5</th><td>1.85%</td><td>2.78%</td><td>6.36%</td><td>5.68%</td><td>49.24%</td></tr>
 <tr><th scope="row">6</th><td>3.47%</td><td>2.89%</td><td>6.70%</td><td>7.77%</td><td>48.83%</td></tr>
 <tr><th scope="row">7</th><td>5.56%</td><td>2.78%</td><td>6.77%</td><td>9.90%</td><td>49.29%</td></tr>
 <tr><th scope="row">8</th><td>3.47%</td><td>2.89%</td><td>6.70%</td><td>7.77%</td><td>48.83%</td></tr>
 <tr><th scope="row">9</th><td>1.85%</td><td>2.78%</td><td>6.36%</td><td>5.68%</td><td>49.24%</td></tr>
 </tbody>
-<tfoot class="numeric table-group-divider">
+<tfoot class="numeric">
 <tr>
 <th scope="row">Overall</td>
-<td class="bg-success text-white">16.20%</td>
-<td class="bg-danger text-white">14.12%</td>
-<td class="bg-success text-white">32.88%</td>
-<td class="bg-danger text-white">36.80%</td>
+<td>16.20%</td>
+<td>14.12%</td>
+<td>32.88%</td>
+<td>36.80%</td>
 <td>49.08%</td>
 </tr>
 </tfoot>

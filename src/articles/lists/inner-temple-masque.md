@@ -8,12 +8,12 @@ With explanations:
 https://archive.org/details/cu31924013133453/page/n217/mode/2up?q=%22sow+has+pigged%22
 -->
 
-[Thomas Middleton](https://en.wikipedia.org/wiki/Thomas_Middleton)’s <cite>The
+<p class="lead"><a href="https://en.wikipedia.org/wiki/Thomas_Middleton">Thomas Middleton</a>’s <cite>The
 Inner-Temple Masque, or Masque of Heroes</cite> features a scene in which a
 farcical “will of Christmas” is read, which contains allusions to several games
-that were current at the time.[@InnerTempleMasque]
+that were current at the time.[@InnerTempleMasque]</p>
 
-The will is read aloud while Plum interjects:
+The will is read aloud while the character “Plum” interjects:
 
 > **The last WILL and TESTAMENT of KERSMAS,**{%fn%}i.e., Christmas{%endfn%} **Irreuocable. Read;**
 >

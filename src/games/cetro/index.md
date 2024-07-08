@@ -3,6 +3,11 @@ title: Cetro
 players: 2
 ---
 
+<p class="lead">
+Cetro is a {%a traversal-games,traversal game%} for two players that was 
+published at the start of the 20th century in Germany by J. W. Spear & Son.
+</p>
+
 {% image 
     position="aside"
     src="J.W.Spear.jpg"
@@ -12,18 +17,11 @@ players: 2
 A man and woman playing Cetro on the cover of J. W. Spear & Söhne’s catalogue.
 {% imageEnd %}
 
-<p class="lead">
-Cetro is a {%a traversal-games,traversal game%} for two players that was 
-published at the start of the 20th century in Germany by J. W. Spear & Son.
-</p>
-
-<!-- excerpt -->
-
 Cetro is played on a 9×9 grid, with some rows marked out with different colours.
 The top- and bottom-most rows (those nearest the two players) are coloured blue,
 the second-most green, the third-most red, and the inner three rows are black:
 
-{% image src="cetro_board.svg" alt="" %}
+{% image src="cetro_board.svg" noborder=true alt="" %}
 The Cetro board.
 {% imageEnd%}
 
@@ -31,7 +29,7 @@ Each player has 14 pieces in the three colors: 5 each of blue and red, and 4
 green. One player’s pieces are marked as kings (&#x2654;) and the other’s as
 bishops (&#x265D;).
 
-{% image src="cetro_pieces.svg" alt="" %}
+{% image src="cetro_pieces.svg" noborder=true alt="" %}
 The players’ pieces.
 {% imageEnd%}
 
@@ -39,7 +37,7 @@ The players’ pieces.
 
 The initial setup of the board places the pieces on squares of matching colour:
 
-{% image src="cetro_setup.svg" alt="" %}
+{% image src="cetro_setup.svg" noborder=true alt="" %}
 Initial setup of the Cetro board.
 {% imageEnd%}
 

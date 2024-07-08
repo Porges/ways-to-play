@@ -9,12 +9,14 @@ subgames:
 ---
 
 <p class="lead">
-The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak⁶ gaap³ piu³" pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" class="aka" %}){%fn%}Other romanizations include <span lang="yue-Latn" class="aka">pak kap piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn" class="aka">pák kòp piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn" class="aka">baahk gáap piu</span>, <span lang="yue-Latn" class="aka">paâk káap p'iu</span>, or <span lang="yue-Latn" class="aka">pai ko p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and this further proves the Cantonese origin of the game (see e.g.  @SparrowAndPigeon, although I find some of his other (original) conclusions to be dubious).{%endfn%} is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
+The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak⁶ gaap³ piu³" pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" class="aka" %}) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
 </p>
 
 The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Eventually the game became known under the modern name of Keno, which is now played in casinos around the world.
 
-<!-- excerpt -->
+{%aside%}
+Older romanizations include <span lang="yue-Latn" class="aka">pak kap piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn" class="aka">pák kòp piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn" class="aka">baahk gáap piu</span>, <span lang="yue-Latn" class="aka">paâk káap p'iu</span>, or <span lang="yue-Latn" class="aka">pai ko p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and this further proves the Cantonese origin of the game (see e.g.  @SparrowAndPigeon, although I find some of his other (original) conclusions to be dubious).
+{%endaside%}
 
 In European sources, the game is often referred to as simply “the Chinese lottery”. The transliteration of the game is usually given as “<span class="aka">pak-a-poo</span>” (most common in New Zealand) or “<span class="aka">pak-a(h)-pu</span>” (most common in Australia). In London (particularly centered around the Chinese community in Pennyfields, Poplar) it was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa “pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portuguese romanization of “<span lang="pt" class="aka">pacapio</span>”, which remains standard in current usage (previous terms include <span lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first referred to as “<span class="aka">boc hop bu</span>”[@NYTimes18870127] before picking up a variety of the other names mentioned above, as well as “Bock Ka Pian”,[@WhatTheHeathenPlays] but in Hawaiʻi it was referred to as “<span class="aka">pakapio</span>”.[@Pakapio]
 
@@ -154,7 +156,7 @@ Back in Guangdong, the game was made legal in 1900 under similar terms, with the
 
 The primary artifact of the game is the *ticket*, a slip of paper upon which is printed the name of the bank (see below) and 80 unique Chinese characters. These characters are the first 80 taken from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>), and are always printed in a top-down, right-to-left order, broken into four-character blocks:
 
-<blockquote lang="zh" class="vertical-rl mx-auto blockquote">
+<blockquote lang="zh" class="vertical-rl">
 天地玄黄&#x3000;宇宙洪荒<br/>
 囸月盈昃&#x3000;辰宿列張<br/>
 寒來暑徃&#x3000;秋收冬藏<br/>
@@ -293,8 +295,8 @@ Chi zu: straight column?
 Below are a sampling of payoff schemes, to give a taste of the ratios used. The
 payouts vary based upon the number of correctly-chosen characters, in the left column:
 
-<div class="extra-wide table-responsive">
-<table class="table table-sm small">
+<div class="scroller full-width">
+<table class="max-content">
 <thead>
 <tr>
 <th></th>
@@ -346,10 +348,10 @@ Las Vegas<br/>
 </th>
 </tr>
 </thead>
-<tbody class="numeric table-group-divider">
+<tbody class="numeric">
 <tr class="table-secondary">
 <th scope="row">cost</th>
-<td>3<span lang="zh">厘</span> (cash)</td>
+<td>3<span lang="zh">厘</span> (<a href="https://en.wikipedia.org/wiki/Cash_(unit)">cash</a>)</td>
 <td>6d</td>
 <td>6d</td>
 <td>6d</td>
@@ -371,7 +373,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">6</th>
-<td>5<span lang="zh">分</span> (candareen)<br/>= 50 cash (16⅔×)</td>
+<td>5<span lang="zh">分</span> (<a href="https://en.wikipedia.org/wiki/Candareen">candareen</a>)<br/>= 50 cash (16⅔×)</td>
 <td>9/–<br/>(18×)</td>
 <td>8/6<br/>(17×)</td>
 <td>?</td>
@@ -382,7 +384,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">7</th>
-<td>5<span lang="zh">錢</span> (mace)<br/>= 500 cash (166⅔×)</td>
+<td>5<span lang="zh">錢</span> (<a href="https://en.wikipedia.org/wiki/Mace_(unit)">mace</a>)<br/>= 500 cash (166⅔×)</td>
 <td>£3 18/6<br/>(157×)</td>
 <td>£3 10/–<br/>(140×)</td>
 <td>£4<br/>(160×)</td>
@@ -393,7 +395,7 @@ Las Vegas<br/>
 </tr>
 <tr>
 <th scope="row">8</th>
-<td>2<span lang="zh">兩</span> (tael) 5<span lang="zh">錢</span> (mace)<br/>= 2500 cash (833⅓×)</td>
+<td>2<span lang="zh">兩</span> (<a href="https://en.wikipedia.org/wiki/Tael">tael</a>) 5<span lang="zh">錢</span> (mace)<br/>= 2500 cash (833⅓×)</td>
 <td>£20 15/–<br/>(830×)</td>
 <td>£19 2/6<br/>(765×)</td>
 <td>£20<br/>(800×)</td>
@@ -424,6 +426,8 @@ Las Vegas<br/>
 <td>$2500<br/>(2500×)</td>
 <td>$12,500<br/>(20833⅓×)</td>
 </tr>
+</tbody>
+<tfoot class="numeric">
 <tr class="table-secondary">
 <th scope="row"><abbr title="house advantage">H.A.</abbr</th>
 <td>33.10%</td>
@@ -435,7 +439,7 @@ Las Vegas<br/>
 <td>58.01%</td>
 <td>25.01%</td>
 </tr>
-</tbody>
+</tfoot>
 </table>
 </div>
 
@@ -449,7 +453,7 @@ winners being paid out first).
 
 ## Spread to other countries
 
-{% image src="../../maps/PigeonTickets.svg" alt="" size="wide" %}
+{% image noborder=true src="../../maps/PigeonTickets.svg" alt="" size="wide" %}
 
 Countries where the game was played in the past (before becoming Keno);
 locations with particular reports highlighted.
@@ -795,7 +799,16 @@ Europeans.”[@GamblingAmongChinese]
 In any case, McGowan’s 1904 bill was subsequently withdrawn and this version of
 the amendment was never passed.
 
-<div class="multi wide centered">
+{%image
+    position="aside"
+    noborder=true
+    src="NZFL19061103.1.5-c256.png"
+    alt="A cartoon: a man wielding a spade reading 'gaming & betting bill' is using it to dig out 'weeds' from 'New Zealand's garden of Youth'. A European-looking weed is labelled 'bookmaker', and Chinese-faced ones are labelled 'gaming house keeper', 'pak-a-poo', 'fan-tan'. There are mushrooms labelled 'lottery'. The caption reads 'A Sharp Spade', then 'Sir Joe: it's up to me to do a bit of weeding'."
+    orgName="Papers Past"
+    originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1906/11/03/5"
+    license="cc0" %}
+By 1906 the appetite had increased for regulation of all forms of gambling.
+{%imageEnd%}
 
 {%image
     noborder=true
@@ -807,18 +820,6 @@ the amendment was never passed.
 This 1904 cartoon from <cite>The Free Lance</cite> protests against the inconsistent
 application of gambling laws, whilst still portraying a Chinese man in a racist manner.
 {%imageEnd%}
-
-{%image
-    noborder=true
-    src="NZFL19061103.1.5-c256.png"
-    alt="A cartoon: a man wielding a spade reading 'gaming & betting bill' is using it to dig out 'weeds' from 'New Zealand's garden of Youth'. A European-looking weed is labelled 'bookmaker', and Chinese-faced ones are labelled 'gaming house keeper', 'pak-a-poo', 'fan-tan'. There are mushrooms labelled 'lottery'. The caption reads 'A Sharp Spade', then 'Sir Joe: it's up to me to do a bit of weeding'."
-    orgName="Papers Past"
-    originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1906/11/03/5"
-    license="cc0" %}
-By 1906 the appetite had increased for regulation of all forms of gambling.
-{%imageEnd%}
-
-</div>
 
 Only a year later, in 1905, the Supreme Court again heard a case regarding
 Pak-A-Poo (<cite>Lee Sun v. Daniel Conolly</cite>),[@LeeSunVDanielConolly] and

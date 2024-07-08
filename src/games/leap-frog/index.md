@@ -35,7 +35,7 @@ most pieces is the winner.
 ## Variants
 
 {% image 
-  position="right"
+  position="aside"
   alt="A square game board randomly filled with white, red, yellow, and green pieces."
   src='leap-frog-variation.svg' %}
   A sample initial configuration for Murray’s variation.
@@ -49,7 +49,7 @@ are arranged randomly on the squares, and the first player must remove a white
 piece to begin. The player with the highest point value of pieces taken at the
 end wins.
 
-<table class="table-sm table">
+<table>
   <caption>Example piece counts for different board sizes</caption>
   <thead>
     <tr>
@@ -61,7 +61,7 @@ end wins.
       <th class="numeric">Points</th>
     </tr>
   </thead>
-  <tbody class="table-group-divider">
+  <tbody>
     <tr>
       <td>8×8 (64)</td>
       <td class="numeric">6</td>

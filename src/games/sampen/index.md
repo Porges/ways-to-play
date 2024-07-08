@@ -52,14 +52,14 @@ However, the winner must shuffle the cards and deal the cards for next time (inc
 
 In @CardGamesAroundTheWorld, Sid Sackson suggests dealing a varying number of cards depending on the number of players:
 
-<table class="table small">
+<table>
 <thead>
 <tr>
 <th>Players</th>
 <th>Cards</th>
 </tr>
 </thead>
-<tbody class="numeric table-group-divider">
+<tbody class="numeric">
 <tr><td>2–3</td><td>15</td></tr>
 <tr><td>4</td><td>13</td></tr>
 <tr><td>5</td><td>11</td></tr>

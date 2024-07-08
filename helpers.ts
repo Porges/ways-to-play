@@ -110,7 +110,7 @@ export function purify(str: string): string {
 export function renderArticle(article: Article) {
   if (!IS_PRODUCTION || !article.draft) {
     return `<li><a href="${article.url}"${asAttr("lang", article.titleLang)}>${article.title}</a>`
-      + ifSet(article.draft, ' <span class="badge bg-warning text-dark">Draft</span>')
+      + ifSet(article.draft, ' <span class="draft">Draft</span>')
       + (article.children ? renderArticleList(article.children) : '')
       + `</li>`;
   }

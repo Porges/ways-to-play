@@ -28,11 +28,11 @@ The aim of the game is to score points by winning the most tricks and tilters.
 The target score, the number of tricks required to make a “book”, and the number
 of cards dealt varies according to the number of players. When four play they play as partners.
 
-<table class="table table-sm">
+<table>
 <thead>
 <tr><th>Players</th><th>Cards dealt</th><th>Tricks required (book)</th><th>Target score</th></tr>
 </thead>
-<tbody class="numeric table-group-divider">
+<tbody class="numeric">
 <tr><td>2</td><td>13</td><td>6</td><td>10</td></tr>
 <tr><td>3</td><td>13</td><td>4</td><td>15</td></tr>
 <tr><td>4</td><td>12</td><td>6</td><td>20</td></tr>

@@ -94,41 +94,6 @@ rt {
   font-variant-east-asian: ruby;
 }
 
-// Not using :is(span,cite) as that is slower to evaluate for some reason
-span[lang],
-cite[lang] {
-
-  // Use a Vietnamese-specific font, if present:
-  &:lang(vi-Hani) {
-    font-family: "Nom Na Tong", serif;
-  }
-
-  // Use a specific font for Arabic/Persian/etc, or else we get Times New Roman on Windows:
-  &:is(
-    :lang(ar), // Arabic
-    :lang(ota), // Old Turkish
-    // *-Arab is not yet supported
-    :lang(wo-Arab), // Wolof
-    :lang(ms-Arab), // Malay
-    :lang(wni-Arab) // Comorian
-  ) {
-    font-family: "Noto Naskh Arabic", serif;
-  }
-  
-  &:is(
-    :lang(fa), // Persian
-    :lang(ur), // Urdu
-    :lang(pa-Arab), // Punjabi
-    :lang(ks), :lang(ks-Arab) // Kashmiri
-  ) {
-    font-family: "Noto Nastaliq Urdu", serif;
-  }
-  
-  &:is(:lang(ar-Latn), :lang(ota-Latn), :lang(fa-Latn), :lang(ur-Latn)) {
-    // need to reset font here
-    font-family: $font-family-sans-serif;
-  }
-}
 
 /* Ancient Egyptian - this is a special quadrat-supporting font */
 span[lang]:lang(egy):not(:lang(egy-Latn)) {

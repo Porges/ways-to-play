@@ -40,16 +40,21 @@ from @TheBabas [p. 155].
 
 <span class="noun" lang="ms">Balik Satu</span> can be played by almost any number of people as long as you have enough cards. My two sources give differing amounts of cards per player. (I am inclined to prefer the middle column as it starts with the simple example of two decks for two people, even though the book suggests that up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a <span class="noun" lang="ms">Cherki</span> deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type.
 
-<table class="numeric table table-sm">
+<table class="numeric">
   <thead>
     <tr>
-      <th>Players</th>
-      <th>Decks (Cards)<br />from Pwee</th>
-      <th>Decks (Cards)<br/>from <cite>The Babas</cite></th>
-      <th>Decks (Cards)<br/>from @ChaquiAndPartui
+      <th rowspan="2">Players</th>
+      <th colspan="3">
+      Decks (Cards)
+      </th>
+    </tr>
+    <tr>
+      <th>from Pwee</th>
+      <th>from <cite>The Babas</cite></th>
+      <th>from @ChaquiAndPartui
     </tr>
   </thead>
-  <tbody class="table-group-divider">
+  <tbody>
     <tr><th scope="row">2</th><td>2½ (150)</td><td>2 (120)</td><td>—</td></tr>
     <tr><th scope="row">3</th><td rowspan="2">3 (180)</td><td>2½ (150)</td><td rowspan="2">2</td></tr>
     <tr><th scope="row">4</th><td>3 (180)</td></tr>

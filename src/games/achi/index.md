@@ -7,7 +7,7 @@ players: 2
 ---
 
 <p class="lead">
-<span class="noun aka" lang="ee">Achi</span> is a {%a mill-games,mill game%} from West Africa, reportedly (in the 1920s) played in Ghana and by Yoruba people in Nigeria, where it is known as <span class="noun aka" lang="yo">Akidada</span>.[@Murray2 p. 43]
+<span class="noun aka" lang="ee">Achi</span> is a {%a mill-games,mill game%} from West Africa, reportedly (in the 1920s) played in Ghana. It was also played by Yoruba people in Nigeria, where it was known as <span class="noun aka" lang="yo">Akidada</span>.[@Murray2 p. 43]
 </p>
 
 The game is very similar to Five Men’s Morris, but an additional form of mill is permitted, compared to the standard game. The game as reported below was recorded by [Kenneth Murray](https://en.wikipedia.org/wiki/Kenneth_Murray_(archaeologist)), son of {%a hjr-murray%} and Nigeria’s first surveyor of antiquities.
@@ -16,7 +16,9 @@ It is possible that the name should really be transcribed <span lang="ee">adji</
 
 ## Play
 {% image
+    noborder=true
     size="small"
+    position="aside"
     src="../../articles/families/mill-games/medium_merels.svg"
     alt="" %}
 <span class="noun" lang="ee">Achi</span> is played on the medium-sized mill board.
@@ -27,6 +29,7 @@ Each player has six pieces. To begin the game, players take turns placing a sing
 A valid mill, like in other mill games, consists of three pieces in a straight line. However, in <span class="noun" lang="ee">Achi</span>, a mill may also be formed by *two* pieces on the central lines on either side.
 
 {% image 
+    noborder=true
     size="small"
     src="achi_examples.svg"
     alt="" %}

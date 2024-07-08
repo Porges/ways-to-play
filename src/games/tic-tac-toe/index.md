@@ -32,6 +32,7 @@ slate pencil”.
 
 {% image
   alt="",
+  noborder=true
   src="../mill-games/small_merels_with_diagonals.svg",
   position="aside" %}
 The small merels board with diagonals.
@@ -139,11 +140,11 @@ This usage of referring to neatly-aligned triplets is still current with the Swe
 {% imageEnd %}
 
 {% image
-  position="right",
+  position="aside",
   src='tick-tack-toe.png'
   alt="A drawing of children playing ‘tick-tack-toe’ on a circular board drawn on the sidewalk.",
   license='cc0' %}
-Children playing a <em>different</em> game of ‘tick-tack-toe’ (by F. J. Shields, as reproduced in @MagazineOfArt [p. 136]).
+Children playing a <em>different</em> game of ‘tick-tack-toe’.<br/>F. J. Shields, as reproduced in @MagazineOfArt [p. 136].
 {% imageEnd %}
 
 The same rhyme and name were also used for an unrelated game, using a circular board, in which a player would attempt to locate high-scoring sections of a circle while blindfolded.[@GamesBookForBoysAndGirls p. 55]
@@ -161,14 +162,14 @@ In the ‘folkish’ group we have examples like the Dutch ‘<span lang="nl" cl
 
 Like the English names, one Dutch name (<span lang="nl" class="aka">boter, melk, kaas</span>) is derived from a rhyme:[@WinningWaysV3 p. 732]
 
-<div class="multi text-center">
+<div class="multi">
   <p lang="nl">Boter, melk, kaas,<br />ik ben de baas.</p>
   <p>Butter, milk, cheese,<br />I am the boss.</p>
 </div>
 
 Sweden had a similar rhyme:[@GamesOfTheGods p. 163]
 
-<div class="multi text-center">
+<div class="multi">
   <p lang="sv">Tripp, trapp, trull,<br />min kvarn är full.</p>
   <p>Tripp, trapp, trull,<br />my mill is full.</p>
 </div>
@@ -241,6 +242,7 @@ If this is confusing, muse upon the following diagram: the red solid vertical li
 
 {% image 
   src="jam.svg"
+  noborder=true
   alt="" %}
 The JAM board.
 {% imageEnd %}
@@ -255,7 +257,7 @@ Write down the nine words ‘Spit’, ‘Not’, ‘So’, ‘Fat’, ‘Fop’,
 
 This can be shown to be the same game in the following way (note that the number of letters in each word is the same as the number of lines that can be formed through that square):
 
-<table class="text-center rule-first-row rule-first-col rule-last-col rule-last-row">
+<table class="centered rule-first-row rule-first-col rule-last-col rule-last-row">
   <tbody>
     <tr>
       <td><strong>P</strong></td>

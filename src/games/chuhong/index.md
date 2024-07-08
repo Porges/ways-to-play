@@ -47,9 +47,9 @@ My version of the rules is as follows:{%fn%}My only source for the method of pla
 
 Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, or two pairs:
 
-<table class="table table-sm">
+<table>
 <thead>
-<tr class="centered">
+<tr>
 <th>Group</th>
 <th>Roll</th>
 <th>Name</th>
@@ -60,18 +60,18 @@ Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, o
 <tbody class="table-group-divider">
 
 <tr>
-<th scope="row" rowspan="6" class="centered">Quads</th>
+<th scope="row" rowspan="6">Quads</th>
 <td>{% cdice 4444 %}</td>
 <td><span lang="zh">滿園春</span></td>
 <td></td>
-<td class="centered">Win 6×</td>
+<td>Win 6×</td>
 </tr>
 <tr>
 <!-- Quads -->
 <td>{% cdice 6666 %}</td>
 <td><span lang="zh">混江龍</span></td>
 <td></td>
-<td rowspan="5" class="centered">Win 5×</td>
+<td rowspan="5">Win 5×</td>
 </tr>
 <tr>
 <!-- Quads -->
@@ -99,18 +99,18 @@ Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, o
 </tr>
 
 <tr>
-<th scope="row" rowspan="5" class="centered">Triple {%cdice 4%}</th>
+<th scope="row" rowspan="5">Triple {%cdice 4%}</th>
 <td>{% cdice 4441 %}</td>
 <td><span lang="zh">花心動</span></td>
-<td class="centered"></td>
-<td class="centered">Win 5×</td>
+<td></td>
+<td>Win 5×</td>
 </tr>
 <tr>
 <!-- Triple -->
 <td>{% cdice 4442 %}</td>
 <td><span lang="zh">蝶戀花</span></td>
 <td></td>
-<td rowspan="4" class="centered">Win 4×</td>
+<td rowspan="4">Win 4×</td>
 </tr>
 <tr>
 <!-- Triple -->
@@ -132,27 +132,27 @@ Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, o
 </tr>
 
 <tr>
-<th scope="row" class="centered">{%cdice 44%}+Pair</th>
+<th scope="row">{%cdice 44%}+Pair</th>
 <td>{% cdice '44==' %}</td>
-<td  class="centered"><span lang="zh">紅葉兒</span></td>
-<td  class="centered">Red Leaves</td>
-<td  class="centered">Win 3×</td>
+<td ><span lang="zh">紅葉兒</span></td>
+<td >Red Leaves</td>
+<td >Win 3×</td>
 </tr>
 
 <tr>
 <th scope="row">Special</th>
 <td>{% cdice 4456 %}</td>
 <td><span lang="zh">節節髙</span></td>
-<td class="centered">Successively Higher</td>
-<td class="centered">Win 3×</td>
+<td>Successively Higher</td>
+<td>Win 3×</td>
 </tr>
 
 <tr>
 <th scope="row">Two Pairs</th>
 <td>{% cdice '==' %},{%cdice '=='%}</td>
-<td class="centered"><span lang="zh">素葉兒</span></td>
-<td class="centered">Plain Leaves</td>
-<td class="centered">Win 2×</td>
+<td><span lang="zh">素葉兒</span></td>
+<td>Plain Leaves</td>
+<td>Win 2×</td>
 </tr>
 
 </tbody>
@@ -160,9 +160,9 @@ Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, o
 
 If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the other three dice; this is how the name of the game is derived, as the ‘red’ is excluded from the calculation. If the sum is above 12 it is a winning roll; if below 9 it is a losing roll:
 
-<table class="table table-sm">
+<table>
 <thead>
-<tr class="centered">
+<tr>
 <th>Sum</th>
 <th>Roll</th>
 <th>Name</th>
@@ -170,27 +170,27 @@ If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the oth
 <th>Outcome</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <td class="numeric">18</td>
 <td>{%cdice 4666 %}</td>
 <td><span lang="zh">得勝令</span></td>
 <td>Chant of Victory</td>
-<td class="centered">Win 5×</td>
+<td>Win 5×</td>
 </tr>
 <tr>
 <td class="numeric">17</td>
 <td>{%cdice 4566 %}</td>
 <td><span lang="zh">皂羅袍</span></td>
 <td>Silky Robe</td>
-<td class="centered">Win 3×</td>
+<td>Win 3×</td>
 </tr>
 <tr>
 <td class="numeric">16</td>
 <td>{%cdice 4556 %}</td>
 <td><span lang="zh">雪兒梅</span></td>
 <td>Snow Plum</td>
-<td class="centered" rowspan="5">Win 1×</td>
+<td rowspan="5">Win 1×</td>
 </tr>
 <tr>
 <td class="numeric">15</td>
@@ -221,7 +221,7 @@ If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the oth
 <td>{%cdice 4166 %}</td>
 <td><span lang="zh">點絳唇</span></td>
 <td></td>
-<td class="centered" rowspan="2">Win 2×</td>
+<td rowspan="2">Win 2×</td>
 </tr>
 <tr>
 <td class="numeric">13</td>
@@ -234,21 +234,21 @@ If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the oth
 <td>{%cdice 4256 %}</td>
 <td><span lang="zh">埜雞頸</span></td>
 <td>Pheasant Neck</td>
-<td class="centered">Win 3×</td>
+<td>Win 3×</td>
 </tr>
 <tr>
 <td class="numeric">12</td>
 <td>{%cdice 4255 %}</td>
 <td><span lang="zh">十二時</span></td>
 <td>12 o’clock</td>
-<td class="centered">Win 4×</td>
+<td>Win 4×</td>
 </tr>
 <tr class="table-group-divider">
 <td class="numeric">12</td>
 <td>{%cdice 4336 %}</td>
 <td><span lang="zh">鷓鴣天</span></td>
 <td></td>
-<td class="centered" rowspan="11"><span lang="zh">賽色</span></td>
+<td rowspan="11"><span lang="zh">賽色</span></td>
 </tr>
 <tr>
 <td class="numeric">12</td>
@@ -315,21 +315,21 @@ If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the oth
 <td>{%cdice 4333 %}</td>
 <td><span lang="zh">柳葉兒</span></td>
 <td>Willow Leaves</td>
-<td class="centered">Lose 4×</td>
+<td>Lose 4×</td>
 </tr>
 <tr>
 <td class="numeric">8</td>
 <td>{%cdice 4125 %}</td>
 <td><span lang="zh">鎖頂八</span></td>
 <td>Lock Top 8</td>
-<td class="centered">Lose 3×</td>
+<td>Lose 3×</td>
 </tr>
 <tr>
 <td class="numeric">8</td>
 <td>{%cdice 4116 %}</td>
 <td><span lang="zh">睜眼八</span></td>
 <td>Open Eyes 8</td>
-<td class="centered" rowspan="2">Lose 2×</td>
+<td rowspan="2">Lose 2×</td>
 </tr>
 <tr>
 <td class="numeric">8</td>
@@ -342,7 +342,7 @@ If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the oth
 <td>{%cdice 4133 %}</td>
 <td><span lang="zh">川七兒</span></td>
 <td>River 7</td>
-<td class="centered" rowspan="3">Lose 1×</td>
+<td rowspan="3">Lose 1×</td>
 </tr>
 <tr>
 <td class="numeric">7</td>
@@ -361,14 +361,14 @@ If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the oth
 <td>{%cdice 4123 %}</td>
 <td><span lang="zh">要孩兒</span></td>
 <td>Wanting a Child</td>
-<td class="centered">Lose 3×</td>
+<td>Lose 3×</td>
 </tr>
 <tr>
 <td class="numeric">6</td>
 <td>{%cdice 4222 %}</td>
 <td><span lang="zh">粉蝶兒</span></td>
 <td>White Butterfly</td>
-<td class="centered" rowspan="3">Lose 1×</td>
+<td rowspan="3">Lose 1×</td>
 </tr>
 <tr>
 <td class="numeric">5</td>
@@ -387,14 +387,14 @@ If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the oth
 <td>{%cdice 4112 %}</td>
 <td><span lang="zh">咬牙四</span></td>
 <td>Gnashing Teeth 4</td>
-<td class="centered">Lose 3×</td>
+<td>Lose 3×</td>
 </tr>
 <tr>
 <td class="numeric">3</td>
 <td>{%cdice 4111 %}</td>
 <td><span lang="zh">快活三</span></td>
 <td>Cheerful 3</td>
-<td class="centered">Lose 5×</td>
+<td>Lose 5×</td>
 </tr>
 <tr>
 </tbody>

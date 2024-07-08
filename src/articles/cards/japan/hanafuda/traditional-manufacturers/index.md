@@ -76,9 +76,9 @@ at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">
 called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
 
 ### Index of Marks
-<div class="multi only-large">
-    <table class="table table-sm">
-    <tbody class="table-group-divider">
+<div class="multi">
+    <table>
+    <tbody>
         <tr>
         <td><img src='/small-images/marufuku.svg' class="inline-img big" alt="The Marufuku symbol" /></td>
         <td><a href="#nintendo"><span class="noun" lang="ja-Latn">Nintendō</span></a></td>
@@ -157,8 +157,8 @@ called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
         </tr>
     </tbody>
     </table>
-    <table class="table table-sm">
-    <tbody class="table-group-divider">
+    <table>
+    <tbody>
         <tr>
         <td><img src='/small-images/marui.svg' class="inline-img big" alt="The Marui symbol" /></td>
         <td><a href="#nishimura"><span class="noun" lang="ja-Latn">Nishimura</span></a></td>
@@ -289,7 +289,7 @@ The following table is summarized from [a series of
 articles](https://japanplayingcardmuseum.com/category/0-0-cartatax-law-history/)
 provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
 
-<table class="numeric table table-sm">
+<table class="numeric">
 <caption>Tax levied on <span class="noun" lang="ja-Latn">Hanafuda</span> sets over time.</caption>
 <thead>
     <tr>
@@ -641,8 +641,8 @@ based on that of [<span class="noun" lang="ja-Latn">Sanjōya</span>](#sanjoya).
 {% imageEnd %}
 
 {% image 
-    position="right"
     size="small"
+    position="aside"
     src="Oishi_Mark.jpg"
     alt="A card with wistera showing the manufacturer’s mark." %}
 <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s manufacturer’s mark, on a Wisteria card from an old <span class="noun" lang="ja-Latn">Narikin</span> deck.
@@ -655,7 +655,7 @@ circled <span class="circled" lang="ja">高</span>. Brands produced by <span cla
 lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 57–8]
 
-{% image position="aside" size="wide" src="Takarabune_by_Hiroshige.jpg" alt="" originalUrl="https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license="cc0", author="MichaelMaggs" %}
+{% image position="aside" src="Takarabune_by_Hiroshige.jpg" alt="" originalUrl="https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license="cc0", author="MichaelMaggs" %}
 The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikipedia.org/wiki/Takarabune) that carries the [seven lucky gods](https://en.wikipedia.org/wiki/Seven_Lucky_Gods), as shown in this print by [Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) ({%c%} 1840). 
 {% imageEnd %}
 
@@ -830,23 +830,19 @@ The extra cards of Angel’s “Hana-Trump” deck.
 
 ### <img src='/small-images/yaguruma.svg' alt="" class="inline-img" /> <a href="http://www.shogundo.co.jp/" class="noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)
 
-A small manufacturer, founded in 1921. Unlike other manufacturers, their mark is
-not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead
-a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja">
-矢車</span>, ‘arrow wheel’).{%fn%}The <span lang="ja-Latn">yaguruma</span> is a
-windmill-like device of arrows arranged in a wheel and allowed to rotate in the
-wind. They are associated with festivals, particularly the May 5th [<span class="noun"
-lang="ja-Latn">Tango no
-Sekku</span>](https://en.wikipedia.org/wiki/Tango_no_sekku) festival, where they
-are placed on top of tall poles from which [<span lang="ja-Latn">koi</span>
-streamers](https://en.wikipedia.org/wiki/Koinobori) are flown. <img
-class="d-block mx-auto w-75" src="/small-images/yaguruma.svg" alt="An example yaguruma symbol
-of seven arrows in a wheel, with the flights facing outwards." />{%endfn%} They
-have also published <span class="noun" lang="ja-Latn">Harifuda</span> and <span class="noun"
-lang="ja-Latn">Shirofuda</span> (blank cards) under the mark <span
-lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce
-<span class="noun" lang="ja-Latn">Hyakunin Isshu</span>, <span class="noun" lang="ja-Latn">Manyo
-Karuta</span>, and <span class="noun" lang="ja-Latn">Hanafuda</span>.
+{%image 
+    src="../../../../../../small-images/yaguruma.svg"
+    size="small"
+    noborder=true
+    position="aside"
+    license="cc0"
+    alt="An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards."
+%}
+The <span lang="ja-Latn">yaguruma</span> is a windmill-like device of arrows arranged in a wheel and allowed to rotate in the wind. They are associated with festivals, particularly the May 5th [<span class="noun" lang="ja-Latn">Tango no Sekku</span>](https://en.wikipedia.org/wiki/Tango_no_sekku) festival, where they are placed on top of tall poles from which [<span lang="ja-Latn">koi</span> streamers](https://en.wikipedia.org/wiki/Koinobori) are flown.
+{%imageEnd%}
+
+A small manufacturer, founded in 1921. Unlike other manufacturers, their mark is not a standard <span lang="ja-Latn">kanji</span>-shape combination, but instead a stylized depiction of a <span lang="ja-Latn">yaguruma</span> (<span lang="ja"> 矢車</span>, ‘arrow wheel’). They have also published <span class="noun" lang="ja-Latn">Harifuda</span> and <span class="noun" lang="ja-Latn">Shirofuda</span> (blank cards) under the mark <span lang="ja">㊀</span> (circled <span lang="ja">一</span>). They currently produce <span class="noun" lang="ja-Latn">Hyakunin Isshu</span>, <span class="noun" lang="ja-Latn">Manyo Karuta</span>, and <span class="noun" lang="ja-Latn">Hanafuda</span>.
+
 
 Most of <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s cards are produced with
 hand-wrapped backing paper; they have [another web page that details their
@@ -905,7 +901,7 @@ lang="ja-Latn">Hanafuda</span> cards; firstly the standard pattern, with brands
 
 {% image 
     size="small"
-    position="right"
+    position="aside"
     alt="A hanafuda wrapper with a depiction of an apprentice geisha under blossoms and autumn leaves."
     src='Shogundo.jpg' %}
 <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">Kyō maiko</span> brand.
@@ -1439,7 +1435,6 @@ The extra {% gameref hachi-hachi %}-related cards of <span class="noun" lang="ja
 
 {% image 
     noborder=true
-    size="wide"
     position="aside"
     src="Yamashiro_trademark1.png;Yamashiro_trademark2.png;Yamashiro_trademark3.png"
     alt=";;"
@@ -1802,7 +1797,6 @@ lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
 
 {% image 
     noborder=true
-    size="wide"
     position="aside"
     src="Nishimura_trademark1.png;Nishimura_trademark2.png;Nishimura_trademark3.png"
     alt=";;"
@@ -1902,8 +1896,8 @@ The <span lang="ja-Latn">ginhyō</span> wrapper.
 ### <a href="http://www.nichiyu.net/en" class="noun" lang="ja-Latn">Nippon Yūgi Gangu/Nichiyū</a> (<span lang="ja">日本遊戯玩具</span>/<span lang="ja">ニチユー</span>)
 
 {% image 
-    position="right"
-    alt=""
+    position="aside"
+    alt="A red human-like Tengu with a long nose."
     src='NYG_tengu.jpg' %}
 <span class="noun" lang="ja-Latn">Nippon Yūgi</span>’s <span lang="ja-Latn">kintengu</span> brand.
 {% imageEnd %}
@@ -2104,7 +2098,7 @@ A manufacturer that has a very finely-detailed deck of cards reproduced in
     src='NG_bamboo.jpg'
     alt=""
     size="small"
-    position="right"
+    position="aside"
     license='with-permission',
     authorFamily="Richert", authorGiven="Marcus" %}
 <span class="noun" lang="ja-Latn">Nihon Goraku</span>’s <span lang="ja-Latn">takejirushi</span> wrapper.
@@ -2133,7 +2127,7 @@ October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<spa
 西口榮助</span>).[@Trademarks1924_7 p. 226]
 {% imageEnd %}
 
-{% image size="small" position="right" src='NS_otanoshimi.jpg' alt="A hanafuda wrapper showing images of hanafuda cards." %}
+{% image size="small" position="aside" src='NS_otanoshimi.jpg' alt="A hanafuda wrapper showing images of hanafuda cards." %}
 The <span lang="ja-Latn">otanoshimi</span> wrapper.
 {% imageEnd %}
 
@@ -2230,7 +2224,7 @@ included:
     src='Seedo_Ebisu.jpg'
     alt="A hanafuda deck wrapper with an image of a smiling man carrying a fishing pole and two fish."
     size="small"
-    position="right"
+    position="aside"
     license="with-permission",
     copyrightYear=2020,
     authorFamily="Sartor",

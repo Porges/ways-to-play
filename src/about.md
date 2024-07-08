@@ -6,7 +6,7 @@ bodyType: http://schema.org/AboutPage
 
 <article>
 
-<p className="lead text-center">This is a site about games<br />and how to play them.</p>
+<p className="lead">This is a site about games and how to play them.</p>
 
 ## Why?
 As Alan Ferg says in @PlayingCardsOfTheApaches [p. 35]:

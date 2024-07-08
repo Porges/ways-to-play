@@ -48,7 +48,7 @@ TODO: @ModernChineseCharacterCards, @BerryChineseSuit
 
 The many types of Chinese and Chinese-derived cards can be broken down into several broad categories, as follows.
 
-⚠️ The categorization here is a work in progress and may change, especially the last section.
+🚧 The categorization here is a work in progress and may change, especially the last section. 🚧
 
 Those derived from **{% gameref xiangqi %}** (“Chinese chess”):
 * {%a four-colour-cards %} (<span lang="zh">四色牌</span> <span lang="cmn-Latn-pinyin">sì sè pái</span>)

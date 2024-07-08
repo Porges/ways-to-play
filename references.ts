@@ -12,7 +12,8 @@ export function renderReference(ref: BiblioRef): string {
         extraItemTypes += ' https://schema.org/PublicationVolume';
     }
 
-    return `<p itemscope itemtype="${itemtypes[type]}${extraItemTypes}" id="ref-${id}" itemprop="citation">`
+    return renderWarningsAndNotes(ref)
+        + `<p itemscope itemtype="${itemtypes[type]}${extraItemTypes}" id="ref-${id}" itemprop="citation">`
         + renderAuthors(ref)
         + renderDate(ref)
         + renderTitle(ref)
@@ -27,7 +28,6 @@ export function renderReference(ref: BiblioRef): string {
             ? `<span itemprop="publisher" itemscope itemtype="https://schema.org/Organization">${renderPublisher(ref)}</span>`
             : '')
         + renderISBN(ref)
-        + renderWarningsAndNotes(ref)
         + '</p>';
 }
 
@@ -50,11 +50,11 @@ function renderWarningsAndNotes(reference: Reference) {
     let result = '';
 
     if (reference.warnings) {
-        result += `<span class="reference-warning"><abbr title="warning">⚠</abbr>&nbsp;${reference.warnings}</span>`;
+        result += `<aside class="reference-warning footnote">${reference.warnings}</aside>`;
     }
 
     if (reference.notes) {
-        result += `<span class="reference-note"><abbr title="note">&#x2139;</abbr>&nbsp;${reference.notes}</span>`;
+        result += `<aside class="reference-note footnote">${reference.notes}</aside>`;
     }
 
     return result;

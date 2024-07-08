@@ -11,8 +11,7 @@ In this article I discuss the earliest-known discussions of this type of deck, a
 
 ### <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>’s “Water Margin” deck
 
-The earliest definite written description of these cards comes from the Chinese scholar [<span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span>](https://en.wikipedia.org/wiki/Lu_Rong) (<span lang="zh">陸容</span>, 1436–1494). In his book <cite lang="zh-Hant">菽園雜記</cite>/<cite lang="zh-Hans">菽园杂记</cite> (<cite>Miscellaneous Records from the Bean Garden</cite>),{%fn%}This text appears in many collections, such as the Ming-period <span lang="zh-Hant">今獻彙言</span> [<span lang="cmn-Latn-pinyin">Jīnxiàn huìyán
-</span>](http://www.chinaknowledge.de/Literature/Poetry/jinxianhuiyan.html), or the Qing-period <span lang="zh-Hant">墨海金壺</span> [<span lang="cmn-Latn-pinyin">Mòhǎi jīnhú</span>](http://www.chinaknowledge.de/Literature/Poetry/mohaijinhu.html).{%endfn%} he writes:
+The earliest definite written description of these cards comes from the Chinese scholar [<span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span>](https://en.wikipedia.org/wiki/Lu_Rong) (<span lang="zh">陸容</span>, 1436–1494). In his book <cite lang="zh-Hant">菽園雜記</cite>/<cite lang="zh-Hans">菽园杂记</cite> (<cite>Miscellaneous Records from the Bean Garden</cite>),{%fn%}This text appears in many collections, such as the Ming-period <span lang="zh-Hant">今獻彙言</span> [<span lang="cmn-Latn-pinyin">Jīnxiàn huìyán </span>](http://www.chinaknowledge.de/Literature/Poetry/jinxianhuiyan.html), or the Qing-period <span lang="zh-Hant">墨海金壺</span> [<span lang="cmn-Latn-pinyin">Mòhǎi jīnhú</span>](http://www.chinaknowledge.de/Literature/Poetry/mohaijinhu.html).{%endfn%} he writes:
 
 > In my native city of [Kunshan](https://en.wikipedia.org/wiki/Kunshan),
 > everyone knows how to play cards, from scholar-officials to children. I spent
@@ -26,7 +25,7 @@ The earliest definite written description of these cards comes from the Chinese 
 
 The list of figures given by <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> is as follows. The Chinese text can be exactly recovered by reading across each row.[@LuRong p. 90–91]
 
-<table class="table small">
+<table>
 <caption>In this table, I have abbreviated ‘myriads’ as M and ‘strings of coins’ as C.
 <thead>
 <tr>
@@ -35,7 +34,7 @@ The list of figures given by <span class="noun" lang="cmn-Latn-pinyin">Lù Róng
 <th>Name</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 
 <tr>
 <td><span lang="zh">萬萬貫</span><br/>MMC</td>
@@ -225,13 +224,13 @@ The remainder of the cards have characters that are present in both <abbr class=
 
 Once again, I reproduce the list below, and the original Chinese text can be reconstructed by reading across each row. In addition to the information provided by <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>, <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> also lists the character’s corresponding stars and adds some additional notes for some of the cards. Three of the cards are noted as having “two heads”. This information may have been useful for playing the game <span lang="zh">鬥雙頭</span> <span lang="cmn-Latn-pinyin" class="noun">Dòu Shuāng Tóu</span> “competing [for?/with?] two heads”, which is mentioned by <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> in the same text. Unfortunately, no rules are recorded for this game.
 
-<table class="table small">
+<table>
 <thead>
 <tr>
 <th>Card</th><th>Star Name</th><th>Epithet</th><th>Name</th><th>Notes</th>
 </tr>
 </thead>
-<tbody class="table-group-divider">
+<tbody>
 <tr>
 <td><span lang="zh">萬萬貫</span><br/>MMC</td>
 <td><span lang="zh">天魁星</span><br/>Leader Star</td>

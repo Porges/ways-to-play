@@ -31,7 +31,7 @@ piece ranked lower than itself. In general, if two pieces of the same rank meet,
 both are removed from the board. My interpretation of the ranking of each piece
 is as follows:
 
-{% image src="gunjin_shogi.jpg" alt="" position="aside" size="wide" %}
+{% image src="gunjin_shogi.jpg" alt="" position="aside" %}
 The board for the 14-piece version, printed on thin paper.
 {% imageEnd %}
 

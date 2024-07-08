@@ -14,6 +14,10 @@ subgames:
       players: 4
 ---
 
+<p class="lead">
+Chivalry, Camelot, Cam, and Camette are members of a series of related 2-player
+games originally developed by George Parker (of Parker Brothers fame).</p>
+
 
 {% image 
     position="aside"
@@ -25,9 +29,6 @@ subgames:
     license="with-permission" %}
 A 1930s Camelot box.
 {% imageEnd %}
-
-Chivalry, Camelot, Cam, and Camette are members of a series of related 2-player
-games originally developed by George Parker (of Parker Brothers fame).
 
 Also in the family are the 4-player games of Four-Handed Chivalry, Grand
 Camelot, and Grand Cam.
@@ -144,6 +145,7 @@ game. It was invented by Michael Wortley Nolan in 2002.
 
 {% image 
     alt=""
+    noborder=true
     src='camette.svg' %}
 The initial setup for Camette.
 {% imageEnd %}
@@ -160,7 +162,7 @@ Cam is a downsized version of Camelot released by Parker Brothers in 1949.
 
 {% image 
     alt=""
-    src="cam.svg" %}
+    src="cam.svg" noborder=true %}
 The initial setup for Cam.
 {% imageEnd %}
 
@@ -172,7 +174,7 @@ There are no draws or stalemates in Cam.
 
 ### Camelot
 
-{% image src="camelot.svg" alt="" %}
+{% image src="camelot.svg" alt="" noborder=true %}
 The initial setup for Camelot.
 {% imageEnd %}
 
@@ -198,7 +200,7 @@ entering a castle:
 
 ### Chivalry
 
-{% image src="chivalry.svg" alt="" %}
+{% image src="chivalry.svg" alt="" noborder=true %}
 The initial setup for Chivalry.
 {% imageEnd %}
 
@@ -215,7 +217,7 @@ may jump and capture pieces from either opponent.
 
 Grand Cam was designed by Paul Bramwell Smith in 2005.
 
-{% image src="grand-cam.svg" alt="" %}
+{% image src="grand-cam.svg" alt="" noborder=true %}
 The initial setup for Grand Cam.
 {% imageEnd %}
 
@@ -236,7 +238,7 @@ castles on their left and right sides.
 
 Grand Camelot was released by Parker Brothers in 1932.
 
-{% image  src="grand-camelot.svg" alt="" %}
+{% image  src="grand-camelot.svg" alt="" noborder=true %}
 The initial setup for Grand Camelot.
 {% imageEnd %}
 
@@ -257,7 +259,7 @@ each player may make two castle-moves per game.
 
 ### Four-Handed Chivalry
 
-{% image src="four-handed-chivalry.svg" alt="" %}
+{% image src="four-handed-chivalry.svg" alt="" noborder=true %}
 The initial setup for Four-Handed Chivalry.
 {% imageEnd %}
 

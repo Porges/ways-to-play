@@ -1,0 +1,1297 @@
+/* Font registrations */
+@font-face {
+    font-family: "cc-icons";
+    src: url('/fonts/BabelStoneCommons.woff2') format('woff2');
+    unicode-range: U+1f16d-1f16f, U+1f10d-1f10f, U+229c;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "UniHentaiKana";
+    src: url('/fonts/UniHentaiKana-Regular.woff') format('woff');
+    font-display: swap;
+    unicode-range: U+1B000-1B0FF, U+1B100-1B12F;
+}
+
+@font-face {
+    font-family: "NKS30";
+    src: url('/fonts/nks30_chess_pieces.woff2') format('woff2');
+    unicode-range: U+2654-265f;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ocrb';
+    src: url('/fonts/ocrb.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    font-size: 1.125rem;
+    line-height: 1.5;
+
+    --font-size: 1rem;
+    --base-unit: 1.5rem;
+    --text-width: 22rlh;
+    --footnote-width: 15rlh;
+
+    --font-size-sm: .75rem;
+    --line-height-sm: .75rlh;
+
+    color-scheme: light dark;
+
+    /* via: https://coolors.co/palette/1a3d84-6d85a8-e6e6e9-333333-0a0908-fdfffc-fadfdb-cc0000-004733-fbc823 */
+    --colour-primary: #1a3d84;
+    --colour-secondary: #6d85a8;
+    --colour-light: #e6e6e9;
+    --colour-dark: #333333;
+    --colour-black: light-dark(#0a0908, #fdfffc);
+    --colour-white: light-dark(#fdfffc, #0a0908);
+
+    --colour-accent: #fadfdb;
+
+    --red: #CC0000;
+    --blue: #0000CC;
+    --green: #004733;
+    --colour-yellow: #fbc823;
+
+    /* Overridden by media queries */
+    --figure-wide-overlap: 0;
+    --heading-protrude: 0;
+
+    --expand-size: calc(var(--base-unit) + var(--figure-wide-overlap) + var(--text-width) + var(--base-unit) + var(--footnote-width) + var(--base-unit));
+    /* this ends up being 1161px */
+}
+
+/*
+sm: 576px;
+md: 768px;
+lg: 992px;
+xl: 1200px;
+xxl: 1400px;
+*/
+
+/*** Reset (based upon ) ***/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*** Layout ***/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    /* can query for cqw */
+    container-type: inline-size;
+}
+
+main {
+    display: grid;
+    margin-bottom: 2rlh; /* footer must use margin-top auto */
+
+    /* minmax(0, 1fr) here makes the column 'definitely sized',
+       see: https://css-tricks.com/preventing-a-grid-blowout/
+    */
+    grid-template-columns: .5rlh [content-start] minmax(0, 1fr) [content-end] .5rlh;
+
+    &:has(>article) {
+        border-top: 1px solid var(--colour-light);
+        margin-top: -1px;
+    }
+
+    &>* {
+        grid-column-start: content-start;
+        grid-column-end: content-end;
+    }
+}
+
+article {
+    max-width: 100%;
+}
+
+section {
+    clear: left;
+    /* trap floats inside */
+    display: flow-root;
+}
+
+/* see --expand-size above */
+/* 648 (main text block) + 2*27 = 702 */
+@media (width >=702px) {
+    :root {
+        --figure-wide-overlap: var(--base-unit);
+        --heading-protrude: -1rlh;
+    }
+
+    main {
+        grid-template-columns:
+            minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--figure-wide-overlap) minmax(1rlh, 1fr);
+    }
+}
+
+/* see --expand-size above */
+@media (width >=1161px) {
+    :root {
+        --figure-wide-overlap: calc(3 * var(--base-unit));
+        --heading-protrude: -1rlh;
+    }
+
+    main {
+
+        /* We need more space on the right if footnotes are present */
+        &:has(.footnote, figure.aside) {
+            grid-template-columns:
+                minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] 1rlh var(--footnote-width) minmax(1rlh, 1fr);
+        }
+    }
+}
+
+/*** Text setup ***/
+body {
+    font-family:
+        "Source Serif 4",
+        "Charis SIL",
+        "NKS30",
+        serif,
+        "cc-icons",
+        "UniHentaiKana";
+
+    font-weight: 380;
+    font-optical-sizing: auto;
+
+    /** pwid: We are going to be embedding Japanese and Chinese in Latin text,
+        so make them proportional. This has better spacing for kana etc. */
+    font-variant-east-asian: proportional-width;
+
+    /* We would like to enable this setting
+       but it seems to make Yu Mincho fixed-width, 
+       counteracting the above setting. */
+    /* font-feature-settings: "hkna"; */
+
+    font-kerning: normal;
+    font-variant-numeric: oldstyle-nums;
+    font-variant-ligatures: common-ligatures contextual;
+}
+
+p {
+
+    /* Lead paragraphs */
+    &.lead {
+        font-weight: 350;
+        font-size: 1.5rem;
+
+        /* Push out RHS by same amount as figure */
+        margin-right: calc(-2 * var(--figure-wide-overlap));
+
+        text-align: left;
+        text-wrap: balance;
+
+        color: var(--colour-dark)
+    }
+
+    &:not(.lead) {
+        hyphens: auto;
+    }
+}
+
+*+p {
+    margin-top: 1lh;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 1rlh;
+
+    .permalink {
+        display: none;
+        /* TODO */
+    }
+
+    break-after: avoid;
+}
+
+h1,
+h2 {
+    line-height: 2rlh;
+}
+
+h2 {
+    margin-left: var(--heading-protrude);
+    border-bottom: 1px solid var(--colour-dark);
+    margin-bottom: -1px;
+}
+
+h2,
+h3 {
+    margin-top: 1.5rlh;
+
+    &+* {
+        margin-top: 0.5rlh;
+    }
+}
+
+h3 {
+    line-height: 1rlh;
+    border-bottom: 1px solid var(--colour-light);
+    margin-bottom: -1px;
+}
+
+h4,
+h5,
+h6 {
+    margin-top: 1rlh;
+
+    &+* {
+        margin-top: 0;
+    }
+}
+
+
+/* Main content is justified */
+article>p,
+section>p {
+    text-align: justify;
+}
+
+a {
+    text-decoration: underline var(--colour-light);
+    color: var(--colour-primary);
+
+    &:hover {
+        text-decoration: underline var(--colour-secondary);
+    }
+
+    /*
+    &[href*="wikipedia.org" i] {
+        text-decoration-style: dotted;
+    }
+    */
+}
+
+
+
+/*** Header & Footer ***/
+header {
+    margin-bottom: 1rlh;
+}
+
+nav.site,
+#site-footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rlh;
+}
+
+nav.site {
+    margin-top: 1rlh;
+    padding: 0 1rlh 0 1rlh;
+}
+
+@media (width >=1161px) {
+
+    nav.site,
+    #site-footer {
+        flex-direction: row;
+    }
+
+    nav.site {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+#site-footer {
+    margin-top: auto;
+    padding: .5rlh 1rlh .5rlh 1rlh;
+    border-top: 1px dotted var(--colour-secondary);
+    background-color: var(--colour-accent);
+    color: var(--colour-dark);
+    font-style: italic;
+}
+
+nav.site {
+
+    .brand,
+    .page-title {
+        font-size: 2rem;
+        line-height: 2rlh;
+    }
+
+    .brand {
+        font-weight: 900;
+    }
+
+    .page-title {
+        font-weight: bolder;
+        text-align: center;
+
+        /* The Latin portion should be italic */
+        .simple {
+            font-style: italic;
+        }
+    }
+
+    ul.under-brand {
+        text-align: center;
+        padding-left: 0;
+
+        li {
+            display: inline;
+
+            &::before {
+                content: ' · '
+            }
+
+            &:first-child::before {
+                content: unset;
+            }
+        }
+    }
+
+    input,
+    button {
+        color: var(--colour-dark);
+        border: none;
+        background: inherit;
+
+        &::placeholder {
+            font-style: italic;
+            font-weight: 300;
+        }
+    }
+
+    input {
+        border-bottom: 1px solid var(--colour-dark);
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    button {
+        cursor: pointer;
+        border: 1px solid transparent;
+        border-bottom-color: var(--colour-dark);
+
+        &:hover {
+            background: var(--colour-accent);
+        }
+    }
+
+    input:valid+button {
+        color: var(--colour-secondary);
+        border-color: var(--colour-secondary);
+    }
+}
+
+nav {
+    a {
+        color: var(--colour-primary);
+        text-decoration: none;
+    }
+}
+
+/*** Breadcrumbs ***/
+
+nav.breadcrumbs {
+    padding: .25rlh .5rlh .25rlh .5rlh;
+    border-bottom: 1px solid var(--colour-secondary);
+    margin-bottom: -1px;
+
+    background-color: var(--colour-white);
+
+    ol {
+        padding-left: 0;
+
+        list-style: none;
+
+        li {
+            &::before {
+                content: " / ";
+                color: var(--colour-secondary);
+            }
+
+            display: inline;
+        }
+    }
+}
+
+/*** Citations ***/
+
+sup.citation {
+    /* show citations using real 'sups' feature */
+    font-size: unset;
+    vertical-align: unset;
+    font-variant-position: super;
+
+    color: var(--colour-secondary);
+
+    a {
+        color: var(--colour-secondary);
+        text-decoration: none;
+    }
+}
+
+/*** Ordinals ***/
+
+sup.ordinal {
+    vertical-align: unset;
+    position: unset;
+    line-height: unset;
+    top: unset;
+    font-size: unset;
+
+    /* = 'ordn' */
+    font-variant-numeric: ordinal;
+}
+
+/*** Abbreviations ***/
+
+abbr {
+    text-decoration: none;
+
+    &[title] {
+        cursor: help;
+    }
+
+    &.initialism {
+        /* apply 'c2sc' feature */
+        font-variant-caps: all-small-caps;
+    }
+}
+
+/*** Misc ***/
+/* Markdown output often generates empty paragraphs between
+   figures etc. Remove them. */
+p:empty {
+    display: none;
+}
+
+span.draft {
+    color: var(--colour-white);
+    background-color: var(--colour-yellow);
+    border: 2px solid var(--colour-black);
+    border-radius: 5px;
+    padding: 0 4px 0 4px;
+
+    white-space: nowrap;
+
+    &::before {
+        content: '🚧';
+    }
+}
+
+/*** Images ***/
+.inline-img {
+    height: 1em;
+    margin-bottom: -1px;
+
+    &.big {
+        height: 2em;
+    }
+}
+
+/*** Horizontal scrolling ***/
+div.scroller {
+    overflow-x: auto;
+}
+
+/*** Figures ***/
+
+*+figure {
+    margin-top: 1rlh;
+}
+
+figure {
+    /* This is so figcaption can be limited to width of content. */
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+
+    clear: left;
+
+    /* for printing */
+    break-inside: avoid;
+
+    .figure-img {
+        display: block;
+        max-width: 100%;
+        max-height: 450px;
+        height: auto;
+        width: auto;
+        object-fit: contain;
+        margin: auto;
+
+        cursor: zoom-in;
+
+        &:not(.border-0) {
+            border: 1px solid var(--colour-dark);
+        }
+    }
+
+    &.extra-small {
+        .figure-img {
+            max-height: 100px;
+        }
+    }
+
+    &.small {
+        .figure-img {
+            max-height: 200px;
+        }
+    }
+}
+
+@media (width >=702px) {
+    figure {
+        &.left {
+            clear: left;
+            float: left;
+            margin-right: .5rlh;
+            margin-left: calc(-1 * var(--figure-wide-overlap));
+
+            /* helps stop text wrapping badly */
+            margin-bottom: .5rlh;
+        }
+
+        &.right {
+            clear: right;
+            float: right;
+            margin-left: .5rlh;
+            margin-right: calc(-1 * var(--figure-wide-overlap));
+
+            margin-bottom: .5rlh;
+        }
+
+        &.wide,
+        &.extra-wide {
+            clear: both;
+
+            margin-left: calc(-1 * var(--figure-wide-overlap));
+            /* bias it to the right a bit */
+            margin-right: calc(-1 * var(--figure-wide-overlap));
+
+            /* we know this won’t be too tall because it’s wide */
+            .figure-img {
+                max-height: unset;
+                border-width: 2px;
+            }
+        }
+
+    }
+}
+
+@media (width >=1161px) {
+
+    /* expand on footnote layout */
+    main:has(.footnote, figure.aside) {
+        figure {
+            &.wide {
+                margin-right: calc(-2 * var(--figure-wide-overlap));
+            }
+
+            &.extra-wide {
+                margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
+            }
+        }
+    }
+}
+
+
+figcaption,
+caption {
+    display: table-caption;
+    caption-side: bottom;
+
+    margin-top: .5rlh;
+
+    font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
+
+    text-align: center;
+    text-wrap: balance;
+
+    color: var(--colour-dark);
+
+    p:has(span[itemprop='copyrightNotice']) {
+        margin-top: .5rlh;
+    }
+}
+
+dialog.lightbox {
+    max-width: calc(100cqw - 20px);
+    max-height: calc(100vh - 20px);
+    margin: auto;
+
+    &>img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        cursor: zoom-out;
+
+        max-height: calc(100vh - 200px);
+    }
+}
+
+/*** Blockquote ***/
+*+blockquote {
+    margin-top: 1lh;
+}
+
+blockquote {
+    padding-left: 1lh;
+    color: var(--colour-dark);
+
+    text-align: start;
+
+    &.epigraph::before {
+        content: '“';
+        font-weight: 900;
+        color: var(--colour-secondary);
+        display: block;
+        width: 1rlh;
+        margin-left: -1rlh;
+        font-size: 2em;
+        position: absolute;
+        margin-top: -.2em;
+    }
+
+    footer {
+        color: black;
+        margin-top: calc(.5rlh - 1px);
+        border-top: 1px solid var(--colour-light);
+        text-align: right;
+    }
+}
+
+/*** Multi ***/
+*+div.multi {
+    margin-top: 1lh;
+}
+
+div.multi {
+    clear: left;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    gap: .5rlh;
+
+    &.cram {
+        gap: 1px;
+    }
+
+    &>* {
+        margin-top: 0;
+        /* items should all get the same amount of size */
+        /* start at minimum and grow*/
+        flex: 1 1 0px;
+    }
+
+    &.equal-height {
+        flex-wrap: nowrap;
+
+        &>* {
+            /* not equal size */
+            /* start at maximum and shrink */
+            flex: 1 1 auto;
+        }
+    }
+
+    /* this feels pretty hacky */
+    &:has(p:first-child) {
+        margin-left: 1lh;
+    }
+
+    &+div.multi {
+        margin-top: .5rlh;
+    }
+}
+
+@media (width >=702px) {
+    div {
+
+        &.wide,
+        &.extra-wide {
+            clear: both;
+
+            margin-left: calc(-1 * var(--figure-wide-overlap));
+            margin-right: calc(-1 * var(--figure-wide-overlap));
+        }
+
+    }
+}
+
+@media (width >=1161px) {
+    main:has(.footnote, figure.aside) {
+        div {
+            &.wide {
+                /* bias it to the right a bit */
+                margin-right: calc(-1 * var(--figure-wide-overlap));
+            }
+
+            &.extra-wide {
+                margin-left: calc(-1 * var(--figure-wide-overlap));
+                margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+            }
+        }
+    }
+}
+
+/*** Full-width ***/
+div.full-width {
+    clear: both;
+    position: relative;
+    width: 100cqw;
+    left: -.5rlh;
+}
+
+@media (width >=702px) {
+
+    /* without footnotes */
+    div.full-width {
+        left: calc(-0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - var(--figure-wide-overlap)) - var(--figure-wide-overlap));
+    }
+}
+
+@media (width >=1161px) {
+
+    /* with footnotes */
+    main:has(.footnote, figure.aside) div.full-width {
+        left: calc(-0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - 1rlh - var(--footnote-width)) - var(--figure-wide-overlap));
+    }
+}
+
+div:has(table.sticky-header) {
+    max-height: 100vh;
+}
+
+/*** Columns ***/
+
+.columnar {
+    columns: 2;
+}
+
+@media (width >=1161px) {
+    .columnar-large {
+        columns: 2;
+    }
+
+    .columnarr {
+        columns: 3;
+    }
+}
+
+/*** Tables ***/
+
+table {
+    margin: auto;
+    margin-top: var(--base-unit);
+    border-collapse: collapse;
+
+    td,
+    th {
+        padding: .25lh .25lh;
+    }
+
+    thead>tr>th {
+        vertical-align: bottom;
+    }
+
+    tbody>tr>:is(th, td) {
+        vertical-align: top;
+    }
+
+    th {
+        text-align: left;
+
+        &[colspan] {
+            border-bottom: 1px var(--colour-dark) dashed;
+        }
+    }
+
+    tr.table-secondary {
+        background-color: var(--colour-light);
+    }
+
+    thead+tbody,
+    tbody+tfoot {
+        border-top: 1px solid var(--colour-dark);
+
+        &>tr:first-child>td {
+            padding-top: calc(.25lh - 1px);
+        }
+    }
+
+    tbody>tr+tr {
+        border-top: 1px solid var(--colour-light);
+
+        &.table-group-divider {
+            border-top: 1px dashed var(--colour-dark);
+        }
+
+        &>td {
+            padding-top: calc(.25lh - 1px);
+        }
+    }
+
+    tbody>tr> :is(th, td)[rowspan] {
+        &:first-child {
+            border-right: 1px dashed var(--colour-light);
+        }
+
+        &:last-child {
+            border-left: 1px dashed var(--colour-light);
+        }
+    }
+
+    &.centered,
+    .centered {
+        text-align: center;
+    }
+
+    &.fixed {
+        table-layout: fixed;
+        width: 100%;
+    }
+
+    .sideways {
+        writing-mode: vertical-rl;
+        transform: scale(-1);
+    }
+
+    &.max-content {
+        width: max-content;
+    }
+
+    &.small {
+        font-size: var(--font-size-sm);
+    }
+
+    &.sticky-header {
+        max-height: 100vh;
+        overflow-y: scroll;
+
+        thead {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            /* TODO */
+        }
+    }
+
+    &.rule-between-cells tr+tr {
+        border-top: 1px solid var(--colour-dark);
+    }
+
+    &.rule-between-cells td+td {
+        border-left: 1px solid var(--colour-dark);
+    }
+
+    &.rule-first-row tr:first-child {
+        border-bottom: 1px solid var(--colour-dark);
+    }
+
+    &.rule-first-col tr>:first-child {
+        border-right: 1px solid var(--colour-dark);
+    }
+
+    &.rule-last-col :is(tbody, tfoot)>tr>:last-child {
+        border-left: 1px solid var(--colour-dark);
+    }
+
+    &.rule-last-row tr:last-child {
+        border-top: 1px solid var(--colour-dark);
+    }
+
+}
+
+td.numeric,
+th.numeric,
+table.numeric>:is(tbody, tfoot)>tr>:is(th, td),
+:is(tbody, tfoot).numeric>tr>:is(th, td) {
+    font-variant-numeric: tabular-nums;
+    text-align: right;
+}
+
+/*** Lists ***/
+article {
+
+    *+ul,
+    *+ol {
+        margin-top: 1lh;
+        padding-left: 1lh;
+    }
+
+    ul,
+    ol {
+        li::marker {
+            color: var(--colour-primary);
+        }
+
+        ul,
+        ol {
+            margin-top: 0;
+
+            li::marker {
+                color: var(--colour-secondary);
+            }
+        }
+    }
+}
+
+/*** Footnotes ***/
+
+.footnote {
+    float: left;
+    clear: left;
+    width: 100%;
+
+    /* reset colour in case inside blockquote, etc */
+    color: var(--colour-black);
+
+    font-size: var(--font-size-sm);
+    text-align: left;
+
+    border-top: dotted 1px var(--colour-light);
+    border-bottom: dotted 1px var(--colour-light);
+
+    margin-bottom: calc(.5rlh - 1px);
+    margin-top: calc(.5rlh - 1px);
+}
+
+@media (width >=1161px) {
+
+    .footnote,
+    figure.aside {
+        float: right;
+        clear: right;
+
+        width: var(--footnote-width);
+
+        /* offset to the right, plus a gutter of 1 */
+        margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+
+        border: none;
+
+        /* Margin-bottom used here instead of margin-top
+            because we always want the top
+            to be level with the footnote indicator. */
+        margin-top: 0;
+        margin-bottom: 1lh;
+    }
+
+    .footnote {
+        text-wrap: balance;
+    }
+}
+
+
+aside.footnote {
+    /* if aside is before some element (which it usually is)
+    that element is likely to have a 1lh=rlh margin-top */
+    margin-top: 1rlh;
+}
+
+/*** Counters ***/
+
+article {
+    /* counter-reset on body gives messed up results because of some weird interaction with container-type */
+    counter-reset: fn;
+}
+
+.footnote-indicator::before {
+    counter-increment: fn;
+    content: counter(fn);
+    font-variant-position: super;
+    color: var(--red);
+}
+
+span.footnote::before {
+    content: counter(fn) "\2004·\2004";
+    color: var(--red);
+}
+
+aside.footnote {
+    &::before {
+        content: "¶\2002";
+        float: left;
+        color: var(--red);
+    }
+
+    &.reference-warning {
+        margin-top: 0;
+
+        &::before {
+            content: "⚠\2002";
+        }
+    }
+
+    &.reference-note {
+        margin-top: 0;
+
+        &::before {
+            content: "\2139\2002";
+        }
+    }
+}
+
+/*** DLs ***/
+
+*+dl {
+    margin-top: 1lh;
+}
+
+dl {
+    padding-left: .5lh;
+
+    dt {
+        margin-top: 1lh;
+        font-weight: bolder;
+    }
+
+    dd {
+        padding-left: .5lh;
+    }
+}
+
+/*** References ***/
+
+.reference-list {
+    padding-left: 1.5lh;
+
+    &>li {
+        margin-top: .5lh;
+
+        &::marker {
+            color: var(--colour-secondary);
+        }
+    }
+
+    span[itemprop='isbn'] {
+        font-family: 'ocrb';
+        font-size: .8em;
+        color: var(--colour-secondary);
+    }
+}
+
+#ref-list {
+    &>li {
+        &>p {
+            text-indent: -1.5lh;
+        }
+
+        &::marker {
+            content: none;
+        }
+    }
+}
+
+ul.backreferences {
+    padding-left: 0;
+
+    &>li {
+        display: inline;
+
+        &::before {
+            content: ', ';
+        }
+
+        &:first-of-type::before {
+            content: '→ ';
+        }
+    }
+}
+
+/*** Licensing symbols ***/
+
+a[itemprop="license"] {
+    font-style: normal;
+    text-decoration: none;
+}
+
+/*** Colours ***/
+
+.red {
+    color: var(--red);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+/*** Target ***/
+
+*:target {
+    background-color: var(--colour-accent);
+}
+
+/** Horizontal Rule ***/
+
+hr {
+    border: none;
+    margin-top: calc(1lh - 1px);
+    border-top: 1px solid var(--colour-secondary);
+
+    height: 0;
+    text-align: center;
+    overflow: visible;
+
+    &::after {
+        color: var(--colour-secondary);
+        background-color: white;
+        content: '•';
+        padding: 0 .5em;
+        position: relative;
+        vertical-align: top;
+        top: calc(-.5lh - 1px);
+    }
+}
+
+/** Metadata **/
+.last-updated {
+    color: var(--colour-dark);
+    font-size: var(--font-size-sm);
+    line-height: .5rlh;
+    font-style: italic;
+    font-weight: 350;
+    text-align: right;
+    margin-top: .5rlh;
+    margin-bottom: .5rlh;
+}
+
+@media (width >=1161px) {
+    .last-updated {
+        text-align: left;
+    }
+}
+
+.recently-updated-time {
+    font-size: var(--font-size-sm);
+}
+
+/** Next/previous article **/
+#after-article {
+    margin-top: 2lh;
+
+    p.articlesInThisSection {
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    ul.article-list {
+        margin-top: 1lh;
+        padding-left: 1lh;
+
+        ul {
+            margin-top: 0;
+        }
+    }
+
+    .prev-next {
+        margin-top: 1lh;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .prevNextArticle {
+            font-weight: bolder;
+        }
+
+        .nav-link[rel="prev"] {
+            grid-column: 1;
+
+            .prevNextArticle::before {
+                content: '← ';
+            }
+        }
+
+        .nav-link[rel="next"] {
+            grid-column: 2;
+            text-align: right;
+
+            .prevNextArticle::after {
+                content: ' →';
+            }
+        }
+    }
+}
+
+/*** IFrames ***/
+*+iframe {
+    margin-top: 1lh;
+}
+
+iframe {
+    width: 100%;
+    border: none;
+}
+
+/*** Pronunciation ***/
+.pronunciation {
+    text-decoration: underline wavy var(--colour-light);
+    text-decoration-skip-ink: none;
+    cursor: help;
+
+    &:hover {
+        text-decoration-color: var(--colour-secondary);
+    }
+}
+
+/*** Print removals ***/
+@media print {
+
+    .under-brand,
+    #search-box,
+    .breadcrumbs,
+    iframe,
+    #after-article {
+        display: none;
+    }
+
+    /* Hide link colouring */
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* Show URLs where important */
+    span[itemprop="copyrightNotice"] {
+        a[itemprop="url"] {
+            &::after {
+                content: ' (' attr(href) ')';
+            }
+        }
+    }
+}

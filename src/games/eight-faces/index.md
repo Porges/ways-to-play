@@ -7,10 +7,10 @@ originalTitle: <span lang="zh">八面</span>
 ---
 
 <p class="lead">
-Eight Faces (<span lang="zh" class="aka">八面</span>, Mandarin <span lang="cmn-Latn-pinyin" class="aka">bā miàn</span>, Hokkien <span lang="nan-Latn" class="aka">peh bīn</span>){%fn%}Given as “<span class="aka">Pek Bin</span>” in older English sources, such as @GamblingGamesOfMalaya [p. 125], and in legislation based upon that work (see below).{%endfn%} is (or was) a simple staking game played with a special eight-sided teetotum (<span lang="zh">陀螺</span>, Mandarin <span lang="cmn-Latn">tuóluó</span>, Hokkien <span lang="nan-Latn">tolo</span>). It is also called <span lang="zh" class="aka">小花会</span> (Mandarin <span lang="cmn-Latn-pinyin" class="aka">xiǎohuāhuì</span>, ‘small <span class="noun" lang="cmn-Latn">Huāhuì</span>’), as it uses a subset of characters from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game.[@郑超麟回忆录]
+Eight Faces (<span lang="zh" class="aka">八面</span>, Mandarin <span lang="cmn-Latn-pinyin" class="aka">bā miàn</span>, Hokkien <span lang="nan-Latn" class="aka">peh bīn</span>) is (or was) a simple staking game played with a special eight-sided teetotum (<span lang="zh">陀螺</span>, Mandarin <span lang="cmn-Latn">tuóluó</span>, Hokkien <span lang="nan-Latn">tolo</span>). It is also called <span lang="zh" class="aka">小花会</span> (Mandarin <span lang="cmn-Latn-pinyin" class="aka">xiǎohuāhuì</span>, ‘small <span class="noun" lang="cmn-Latn">Huāhuì</span>’), as it uses a subset of characters from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game.[@郑超麟回忆录]
 </p>
 
-<!-- excerpt -->
+{%aside%}The name is given as “<span class="aka">Pek Bin</span>” in older English sources, such as @GamblingGamesOfMalaya [p. 125], and in legislation based upon that work (see below).{%endaside%}
 
 The description below is mostly based upon @GamblingGamesOfMalaya, which describes it as popular in Malaysia with “Chinese ladies”. In Malay the game is called <span lang="ms" class="aka">pebin</span>.[@ChineseLoanWordsMalay p. 53]
 
@@ -22,7 +22,7 @@ As of 2021, the game remains explicitly illegal in Malaysia,[@MalaysiaCommonGami
 
 The special die has eight sides, each marked with the name of a character from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game, and they are divided alternately into two different colours. If the teetotum is made out of a dark material (such as buffalo horn), the characters are inlaid with red and white; if a light material (ivory, bone) is used then they are red and blue/black. These colours are not necessary for the play of the game but make it easier to match the result.
 
-<table class="table">
+<table>
     <thead>
         <tr>
             <th>Name</th>
@@ -31,7 +31,7 @@ The special die has eight sides, each marked with the name of a character from t
             <th>Older Romanization</th>
         </tr>
     </thead>
-    <tbody class="table-group-divider">
+    <tbody>
         <tr class="red">
             <td><span lang="zh">太平</span></td>
             <td><span class="noun" lang="cmn-Latn">Tài Píng</span></td>
@@ -86,7 +86,7 @@ The special die has eight sides, each marked with the name of a character from t
 The staking board is drawn on a piece of paper or cloth, and has eight cells,
 one for each result, along with several circles and quarter-circles:
 
-{% image src='pek-bin.svg' alt="" %}
+{% image src='pek-bin.svg' noborder=true alt="" %}
 The staking layout, after @GamblingGamesOfMalaya [p. 124].
 {% imageEnd %}
 

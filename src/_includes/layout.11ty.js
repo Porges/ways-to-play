@@ -3,6 +3,8 @@ const path = require('path');
 const Image = require('@11ty/eleventy-img');
 const { JSDOM } = require('jsdom');
 
+import { IS_PRODUCTION } from '../../helpers';
+
 exports.data = {
   title: "Ways to Play"
 };
@@ -35,7 +37,9 @@ exports.render = async function (data) {
     });
 
     ogImage = data.site.url + metadata[Object.keys(metadata)[0]][0].url;
-  } 
+  }
+
+  const breadcrumbs = makeBreadCrumbs(this, data);
 
   return `<!doctype html>
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" prefix="og: http://ogp.me/ns#">
@@ -46,8 +50,8 @@ exports.render = async function (data) {
     <link rel="preload" href="/fonts/sourceserif4/SourceSerif4Variable-Latin-Italic.ttf.woff2" as="font" type="font/woff2" crossorigin/>
     <link rel="stylesheet" href="/fonts/sourceserif4.css" type="text/css" />
     <link rel="stylesheet" href="/fonts/charis.css" type="text/css" />
-    <link rel="stylesheet" href="/css/index.css" type="text/css" />
-    <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/css/text.css" type="text/css" />
     <link rel="canonical" href="${data.site.url}${data.page.url}" />
     <link rel="alternate" type="application/atom+xml" title="Ways To Play Atom feed" href="/atom.xml" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -61,53 +65,7 @@ exports.render = async function (data) {
     ${ifSet(data.ogType, ogt => `<meta property="og:type" content="${ogt}" />`)}
     ${ifSet(ogImage, i => `<meta property="og:image" content="${i}" />`)}
     ${ifSet(excerpt, e => `<meta property="og:description" content="${e}" /><meta name="description" content="${e}" />`)}
-    <script type="module">
-      function doHashPopup({newURL, oldURL}) {
-        if (oldURL) {
-          const oldHash = new URL(oldURL).hash;
-          if (oldHash) {
-            const old = document.getElementById(oldHash.substring(1));
-            if (old.close) {
-              old.close('navigated');
-            }
-          }
-        }
-
-        const newHash = new URL(newURL).hash;
-        if (newHash) {
-          const target = document.getElementById(newHash.substring(1));
-          if (target.showModal) {
-            target.showModal();
-          }
-        }
-      }
-
-      addEventListener('DOMContentLoaded', () => {
-        const now = new Date();
-        const relTimeFormatter = new Intl.RelativeTimeFormat('en');
-        for (const time of document.getElementsByClassName('relative')) {
-          const t = new Date(time.getAttribute("datetime"));
-          const diff = Math.trunc((t - now) / (24*60*60*1000));
-          time.replaceChildren(relTimeFormatter.format(diff, 'day'));
-        }
-      });
-
-      addEventListener('DOMContentLoaded', () => {
-        for (const lb of document.getElementsByClassName('lightbox')) {
-          lb.firstChild.addEventListener('click', () => lb.close('clicked'));
-          lb.addEventListener('close', () => {
-            if (lb.returnValue !== 'navigated') {
-              history.replaceState("", document.title, window.location.pathname + window.location.search);
-            }
-
-            lb.returnValue = '';
-          });
-        }
-
-        window.addEventListener('hashchange', doHashPopup);
-        doHashPopup({newURL: window.location.href});
-      });
-    </script>
+    <script type="module" src="/js/main.js" />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0CH5J6QX3"></script>
     <script>
@@ -124,35 +82,36 @@ exports.render = async function (data) {
       })(window, document, "clarity", "script", "gzk1ekbi1n");
     </script>
   </head>
-  <body itemscope itemtype="http://schema.org/WebPage"${data.tags?.includes('article')? ' itemref="breadcrumbs"' : ''}>
+  <body itemscope itemtype="http://schema.org/WebPage"${data.tags?.includes('article') ? ' itemref="breadcrumbs"' : ''}>
     <div itemprop="isPartOf" itemscope itemtype="https://schema.org/WebSite">
         <meta itemprop="url" content="https://games.porg.es/"/>
         <meta itemprop="name" content="Ways To Play"/>
     </div>
     <header>
-      <nav class="navbar navbar-expand navbar-dark bg-primary justify-content-between">
-        <a href="/" class="navbar-brand ms-2 ms-lg-4">Ways to Play</a>
-        <ul class="navbar-nav mr-auto">
-          <li><a href="/articles/" class="nav-link"><span aria-label="" role="img">🧾</span> Articles</a></li>
-          <li><a href="/games/" class="nav-link"><span aria-label="" role="img">🎲</span> Games</a></li>
-        </ul>
-        <form class="form-inline me-2 me-lg-4" method="get" action="https://duckduckgo.com/" target="_top">
-          <div class="input-group">
-            <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">🔍&#8239;</button>
-            <input type="hidden" name="sites" value="games.porg.es" />
-          </div>
+      ${breadcrumbs}
+      <nav class="site">
+        <div>
+          <a href="/" class="brand">Ways to Play</a>
+          <ul class="under-brand">
+            <li><a href="/articles/">Articles</a></li>
+            <li><a href="/games/">Games</a></li>
+          </ul>
+        </div>
+        <h1 class="page-title"${this.asAttr('lang', data.titleLang)}>${ifSet(data.originalTitle, () => `${data.originalTitle} · `)}<span class="simple">${data.title}</simple></h1>
+        <form id="search-box" role="search" method="get" action="https://duckduckgo.com/" target="_top">
+          <input type="search" role="searchbox" name="q" required placeholder="Search this site" aria-label="Search this site" /><button type="submit">&#x1F50D;&#xFE0E;</button>
+          <input type="hidden" name="sites" value="games.porg.es" />
         </form>
       </nav>
     </header>
     <main>
       ${data.content}
     </main>
-    <footer class="navbar navbar-expand navbar-dark bg-primary mt-4">
-      <span class="navbar-text ms-2 ms-lg-4 me-2">
+    <footer id="site-footer">
+      <span>
         <a href="https://neocities.org/site/waystoplay"><img width="135" height="40" class="inline-img big" src="/small-images/Hosted_by_Neocities.svg" alt="Hosted by Neocities" /></a>
       </span>
-      <span class="ms-lg-auto ms-2 navbar-text me-2 me-lg-4">
+      <span>
       ©
       ${this.person({
     name: { given: "George", family: "Pollard" },
@@ -170,4 +129,30 @@ exports.render = async function (data) {
     </footer>
   </body>
 </html>`;
+}
+
+function makeBreadCrumbs(me, data) {
+  if (data.eleventyNavigation) {
+    const crumbs = me.eleventyNavigationBreadcrumb(data.collections.all, data.eleventyNavigation.key);
+    return '<nav class="breadcrumbs" aria-label="breadcrumb">'
+      + '<ol itemscope itemtype="https://schema.org/BreadcrumbList" itemprop="breadcrumb">'
+      + crumbs.map((page, ix) => {
+        return (`<li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">`
+          + `<meta itemProp="position" content="${ix + 1}" />`
+          + ((!IS_PRODUCTION || !page.draft) ? `<a href="${page.url}" itemprop="item">` : '<span itemprop="item">')
+          + `<span itemprop="name"${asAttr('lang', page.titleLang)}>`
+          + `${page.title}`
+          + `</span>`
+          + ((!IS_PRODUCTION || !page.draft) ? '</a>' : '</span>')
+          + '</li>');
+      }).join('')
+      + `<li class="active" aria-current="page"${asAttr('lang', data.titleLang)} itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">`
+      + `<meta itemProp="position" content="${crumbs.length + 1}" />`
+      + `<span itemProp="name">${data.title}</span>`
+      + `</li>`
+      + '</ol>'
+      + '</nav>';
+  } else {
+    return '';
+  }
 }
