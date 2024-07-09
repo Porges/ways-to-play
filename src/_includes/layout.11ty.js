@@ -82,7 +82,7 @@ exports.render = async function (data) {
       })(window, document, "clarity", "script", "gzk1ekbi1n");
     </script>
   </head>
-  <body itemscope itemtype="http://schema.org/WebPage"${data.tags?.includes('article') ? ' itemref="breadcrumbs"' : ''}>
+  <body itemscope itemtype="http://schema.org/WebPage">
     <div itemprop="isPartOf" itemscope itemtype="https://schema.org/WebSite">
         <meta itemprop="url" content="https://games.porg.es/"/>
         <meta itemprop="name" content="Ways To Play"/>
