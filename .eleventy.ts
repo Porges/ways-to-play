@@ -29,7 +29,6 @@ function _normalizeShortcodeScope(ctx) {
 }
 
 export default function (eleventyConfig) {
-  eleventyConfig.addWatchTarget("src/sass");
   eleventyConfig.addWatchTarget("src/maps");
   eleventyConfig.addWatchTarget("bibliography.yaml");
   eleventyConfig.addPassthroughCopy("fonts");
