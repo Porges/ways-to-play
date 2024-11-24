@@ -1,6 +1,6 @@
 ---
 title: See Also
-layout: columned
+layout: layout.11ty.js
 bodyType: http://schema.org/WebPage
 ---
 

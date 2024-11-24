@@ -1,29 +1,34 @@
-const eleventyRemark = require('@fec/eleventy-plugin-remark');
-const { EleventyRenderPlugin } = require("@11ty/eleventy");
-const eleventyNavigation = require('@11ty/eleventy-navigation');
-const PropTypes = require('prop-types');
-const argParse = require('liquid-args');
-const path = require('path');
-const fs = require('node:fs/promises');
-const slug = require('slug');
-const YAML = require('js-yaml');
+import "tsx/esm";
+import { renderToStaticMarkup } from "react-dom/server";
 
-const { asAttr, ifSet, IS_PRODUCTION, isolate } = require('./helpers');
-const references = require('./references');
-const { articleImage, person, license, organization } = require('./images');
-const referenceSchema = require('./references-schema');
+import eleventyRemark from '@fec/eleventy-plugin-remark';
+import { EleventyRenderPlugin } from "@11ty/eleventy";
+import eleventyNavigation from '@11ty/eleventy-navigation';
+import PropTypes from 'prop-types';
+import argParse from 'liquid-args';
+import path from 'path';
+import fs from 'node:fs/promises';
+import slug from 'slug';
+import YAML from 'js-yaml';
 
-PropTypes.resetWarningCache();
+import { asAttr, ifSet, IS_PRODUCTION, isolate } from './helpers';
+import * as references from './references';
+import { articleImage, person, license, organization } from './images';
+import * as referenceSchema from './references-schema';
+
+if (IS_PRODUCTION) {
+  PropTypes.resetWarningCache();
+}
 
 function _normalizeShortcodeScope(ctx) {
-  let obj = {};
+  let obj: any = {};
   if (ctx) {
     obj.page = ctx.get(["page"]);
   }
   return obj;
 }
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addWatchTarget("src/sass");
   eleventyConfig.addWatchTarget("src/maps");
   eleventyConfig.addWatchTarget("bibliography.yaml");
@@ -65,8 +70,16 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventyNavigation);
 
   eleventyConfig.addExtension(["11ty.jsx", "11ty.ts", "11ty.tsx"], {
-    key: "11ty.js"
-  });
+		key: "11ty.js",
+		compile: function () {
+			return async function (data) {
+				let content = await this.defaultRenderer(data);
+				return renderToStaticMarkup(content);
+			};
+		},
+	});
+  eleventyConfig.addTemplateFormats(["11ty.ts","11ty.tsx"]);
+  //eleventyConfig.addDataFormats("11ty.ts,11ty.tsx");
 
   eleventyConfig.addShortcode("person", person);
   eleventyConfig.addShortcode("organization", organization);
@@ -253,9 +266,9 @@ function gameRef() {
       }
 
       // try to find a sub-article
-      for (g of games) {
+      for (const g of games) {
         if (g.data.subgames) {
-          for (sg of g.data.subgames) {
+          for (const sg of g.data.subgames) {
             const s = sg.slug || slug(sg.title);
             if (s === this.ref) {
               if (IS_PRODUCTION && g.data.draft) {
@@ -281,7 +294,7 @@ function gameRef() {
 
 // altered from: https://github.com/rehypejs/rehype-slug/blob/main/index.js
 const addSlugs = () => {
-  let imports = undefined;
+  let imports: any = undefined;
   return async tree => {
     if (!imports) {
       imports = {
@@ -332,7 +345,7 @@ const citationPlugin = () => {
       switch (reference.type) {
         case 'book':
           return `<a href="${`#ref-${id}`}">`
-            + references.renderLStr(reference.title, 'cite', {})
+            + renderToStaticMarkup(references.renderLStr(reference.title, 'cite', {}))
             + `</a>`
             + ifSet(suffix, ` (${suffix})`);
         case 'chapter':
@@ -359,7 +372,7 @@ const citationPlugin = () => {
       unist = await import('unist-util-visit');
     }
 
-    const biblioPath = path.join(__dirname, 'bibliography.yaml');
+    const biblioPath = new URL('./bibliography.yaml', import.meta.url);
     let stat = await fs.stat(biblioPath);
     if (!biblio || stat.mtime > biblioLastModified) {
       biblio = YAML.load(await fs.readFile(biblioPath, 'utf8'));
@@ -452,7 +465,7 @@ const citationPlugin = () => {
               return {
                 type: 'element',
                 tagName: 'li',
-                children: [{ type: 'raw', value: references.renderReference(biblio[id]) }],
+                children: [{ type: 'raw', value: renderToStaticMarkup(references.renderReference(biblio[id])) }],
               };
             }),
           },

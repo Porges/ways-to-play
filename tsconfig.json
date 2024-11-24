@@ -9,7 +9,9 @@
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         "strict": true,
-        "moduleResolution": "node",
-        "resolveJsonModule": true
+        "moduleResolution": "node16",
+        "module": "Node16",
+        "resolveJsonModule": true,
+        "jsx": "preserve"
     }
 }

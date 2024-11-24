@@ -1,17 +1,13 @@
-const { ifSet, asAttr, purify } = require('../../helpers');
-const path = require('path');
-const Image = require('@11ty/eleventy-img');
-const { JSDOM } = require('jsdom');
+import path from 'path';
+import Image from '@11ty/eleventy-img';
+import { JSDOM } from 'jsdom';
+import { IS_PRODUCTION, ifSet, asAttr } from '../../helpers.js';
 
-import { IS_PRODUCTION } from '../../helpers';
-
-exports.data = {
-  title: "Ways to Play"
-};
+export const data = { title: "Ways to Play" };
 
 const leadMatcher = /<p class="lead">(.*?)<\/p>/s;
 
-exports.render = async function (data) {
+export async function render(data) {
 
   let excerpt = data.content.match(leadMatcher)?.[1];
   if (excerpt) {
@@ -81,6 +77,7 @@ exports.render = async function (data) {
           y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
       })(window, document, "clarity", "script", "gzk1ekbi1n");
     </script>
+    ${ ifSet(data.script, s => `<script type="module">${s}</script>`) }
   </head>
   <body itemscope itemtype="http://schema.org/WebPage">
     <div itemprop="isPartOf" itemscope itemtype="https://schema.org/WebSite">

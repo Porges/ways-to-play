@@ -1,13 +1,49 @@
-import { IS_PRODUCTION, ifSet } from '../helpers';
+import { IS_PRODUCTION, ifSet } from '../helpers.jsx';
 
 import slug from 'slug';
-import { Article, Context, Data, GameData, Players } from '../types';
+import { Article, Context, Data, GameData, Players } from '../types.js';
+import React from 'react';
+import { safeHTML } from '../references.jsx';
 
 export const data = {
     title: "Games",
-    layout: "columned",
+    layout: "layout.11ty.js",
     eleventyImport: {
         collections: ["game"]
+    },
+    eleventyComputed: {
+        script: (data: Data) => {
+            const expandedGames = getGames(data);
+            return `const GAMES=${JSON.stringify(expandedGames)};
+            ${renderGames}
+
+            function handleSelect(el, name) {
+                el.onchange = () => {
+                    const params = new URLSearchParams(window.location.search);
+                    const v = el.value;
+                    if (v === 'any') {
+                        params.delete(name);
+                    } else {
+                        params.set(name, v);
+                    }
+
+                    const queryString = params.toString();
+                    if (queryString) {
+                        window.history.pushState(null, null, '?' + queryString);
+                    } else {
+                        window.history.pushState(null, null, window.location.pathname);
+                    }
+                    renderGames(GAMES);
+                }
+            }
+
+            window.addEventListener('DOMContentLoaded', () => {
+                handleSelect(document.getElementById('player-select'), 'players');
+                handleSelect(document.getElementById('equipment-select'), 'equipment');
+                handleSelect(document.getElementById('country-select'), 'country');
+                renderGames(GAMES);
+            });`
+        }
     }
 };
 
@@ -97,7 +133,7 @@ function renderGames(allGames: RenderableGame[]) {
     }));
 }
 
-export function render(this: Context, data: Data) {
+function getGames(data: Data) {
     const expandPlayers = (title: string, players: Players | undefined): Players => {
         if (players === undefined) {
             console.warn('No players specified for ' + title);
@@ -107,7 +143,7 @@ export function render(this: Context, data: Data) {
         return players;
     }
 
-    const expandedGames: RenderableGame[] = data.collections.game.filter(g => !IS_PRODUCTION || !g.data.draft).flatMap(g =>
+    return data.collections.game.filter(g => !IS_PRODUCTION || !g.data.draft).flatMap(g =>
         [
             {
                 title: g.data.title,
@@ -131,6 +167,10 @@ export function render(this: Context, data: Data) {
                 variant: true,
             }))
         ]);
+}
+
+export function render(this: Context, data: Data): React.JSX.Element {
+    const expandedGames: RenderableGame[] = getGames(data);
 
     const equipment = new Set<string>();
     for (const g of expandedGames) {
@@ -153,98 +193,67 @@ export function render(this: Context, data: Data) {
     }
 
     const collator = new Intl.Collator('en', { sensitivity: 'base', numeric: true });
-    const countryNames = new Intl.DisplayNames(["en"], { type: "region", style: "short"});
+    const countryNames = new Intl.DisplayNames(["en"], { type: "region", style: "short" });
 
     const sortedEquipment = [...equipment.values()].sort(collator.compare);
     const sortedCountries = [...countries.values()].sort((x, y) => collator.compare(countryNames.of(x)!, countryNames.of(y)!));
 
     expandedGames.sort((x, y) => x.title.localeCompare(y.title, 'en'));
 
-    const script = `<script type="module">
-        const GAMES=${JSON.stringify(expandedGames)};
-        ${renderGames}
+    return (<>
+        <h2>Filters</h2>
+        <form>
+            <div className="form-group row">
+                <label htmlFor="player-select" className="col-sm-3 col-form-label">Players:</label>
+                <div className="col-sm-7">
+                    <select id="player-select" className="form-control">
+                        <option selected>any</option>
+                        <option value="banking">banking games (1+any)</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </select>
+                </div>
+            </div>
 
-        function handleSelect(el, name) {
-            el.onchange = () => {
-                const params = new URLSearchParams(window.location.search);
-                const v = el.value;
-                if (v === 'any') {
-                    params.delete(name);
-                } else {
-                    params.set(name, v);
-                }
+            <div className="form-group row mt-2">
+                <label htmlFor="equipment-select" className="col-sm-3 col-form-label">Type/Equipment:</label>
+                <div className="col-sm-7">
+                    <select id="equipment-select" className="form-control">
+                        <option selected>any</option>
+                        {sortedEquipment.map((x, ix) => <option key={ix}>{x}</option>)}
+                    </select>
+                </div>
+            </div>
 
-                const queryString = params.toString();
-                if (queryString) {
-                    window.history.pushState(null, null, '?' + queryString);
-                } else {
-                    window.history.pushState(null, null, window.location.pathname);
-                }
-                renderGames(GAMES);
-            }
-        }
+            <div className="form-group row mt-2">
+                <label htmlFor="country-select" className="col-sm-3 col-form-label">Country:</label>
+                <div className="col-sm-7">
+                    <select id="country-select" className="form-control">
+                        <option selected>any</option>
+                        {sortedCountries.map((x, ix) => <option key={ix} value={x}>{countryNames.of(x)}</option>)}
+                    </select>
+                </div>
+            </div>
+        </form>
 
-        window.addEventListener('DOMContentLoaded', () => {
-            handleSelect(document.getElementById('player-select'), 'players');
-            handleSelect(document.getElementById('equipment-select'), 'equipment');
-            handleSelect(document.getElementById('country-select'), 'country');
-            renderGames(GAMES);
-        });
-        </script>`;
-
-
-    return '<h2>Filters</h2>'
-        + '<form>'
-
-        + '<div class="form-group row">'
-        + '<label for="player-select" class="col-sm-3 col-form-label">Players:</label>'
-        + '<div class="col-sm-7">'
-        + '<select id="player-select" class="form-control">'
-        + '<option selected>any</option>'
-        + '<option value="banking">banking games (1+any)</option>'
-        + '<option>1</option>'
-        + '<option>2</option>'
-        + '<option>3</option>'
-        + '<option>4</option>'
-        + '<option>5</option>'
-        + '<option>6</option>'
-        + '<option>7</option>'
-        + '<option>8</option>'
-        + '<option>9</option>'
-        + '<option>10</option>'
-        + '</select>'
-        + '</div>'
-        + '</div>'
-
-        + '<div class="form-group row mt-2">'
-        + '<label for="equipment-select" class="col-sm-3 col-form-label">Type/Equipment:</label>'
-        + '<div class="col-sm-7">'
-        + '<select id="equipment-select" class="form-control">'
-        + '<option selected>any</option>'
-        + sortedEquipment.map(x => `<option>${x}</option>`).join('')
-        + '</select>'
-        + '</div>'
-        + '</div>'
-        + '</form>'
-
-        + '<div class="form-group row mt-2">'
-        + '<label for="country-select" class="col-sm-3 col-form-label">Country:</label>'
-        + '<div class="col-sm-7">'
-        + '<select id="country-select" class="form-control">'
-        + '<option selected>any</option>'
-        + sortedCountries.map(x => `<option value="${x}">${countryNames.of(x)}</option>`).join('')
-        + '</select>'
-        + '</div>'
-        + '</div>'
-        + '</form>'
-
-        + '<h2>List</h2>'
-        + '<ul id="games-list" class="columnarr wide">'
-        + expandedGames.map(g => {
-            return `<li${(g.variant ? ' class="game-variant"' : '')}>`
-                + `<a href="${g.url}"${this.asAttr("lang", g.titleLang)}>${g.title}${ifSet(g.originalTitle, ` (${g.originalTitle})`)}</a>`
-                + '</li>';
-        }).join("\n")
-        + '</ul>'
-        + script;
+        <h2>List</h2>
+        <ul id="games-list" className="columnarr wide">
+            {expandedGames.map((g, ix) =>
+                <li key={ix} className={g.variant ? "game-variant" : undefined}>
+                    <a href={g.url} lang={g.titleLang}>
+                        <span dangerouslySetInnerHTML={safeHTML(g.title)} />
+                        {g.originalTitle && <> (<span dangerouslySetInnerHTML={safeHTML(g.originalTitle)} />)</>}
+                    </a>
+                </li>
+            )}
+        </ul>
+    </>);
 }

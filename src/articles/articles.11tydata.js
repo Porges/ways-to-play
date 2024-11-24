@@ -1,8 +1,9 @@
-const { IS_PRODUCTION, IS_PRINT } = require("../../helpers");
+import { IS_PRODUCTION, IS_PRINT } from "../../helpers";
 
-let data = {
-    "layout": IS_PRINT ? "article-print" : "article",
-    "tags": "article",
+export default {
+    layout: IS_PRINT ? "article-print" : "article",
+    tags: "article",
+    date: "git Last Modified",
     eleventyComputed: {
         // idea from: https://github.com/adamduncan/eleventy-auto-navigation/blob/main/src/_data/eleventyComputed.js
         eleventyNavigation: {
@@ -30,10 +31,4 @@ let data = {
             },
         },
     },
-}
-
-//if (IS_PRODUCTION) {
-    data.date = "git Last Modified";
-//}
-
-module.exports = data;
+};

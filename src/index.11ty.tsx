@@ -1,7 +1,8 @@
-import { Context, Data } from "../types";
+import { Context, Data } from "../types.js";
+import * as React from 'react';
 
 export const data = {
-    layout: "columned",
+    layout: "layout.11ty.js",
     title: "Welcome",
     eleventyImport: {
         collections: ["game", "article"]
@@ -19,19 +20,17 @@ export function render(this: Context, data: Data) {
         .slice(0, 30)
         .map((p: any) => {
             const iso = p.date.toISOString();
-            return `<li><a href="${p.url}">${p.data.title}</a> <span class="recently-updated-time">(<time datetime="${iso}" class="relative">${iso}</time>)</a></li>`;})
-        .join("\n");
+            return <li><a href={p.url}>{p.data.title}</a> <span className="recently-updated-time">(<time dateTime={iso} className="relative">{iso}</time>)</span></li>;
+        });
 
     pages.sort((x, y) => y.content.length - x.content.length);
 
     const longPages = pages
         .slice(0, 20)
-        .map(p => {
-            return `<li><a href="${p.url}">${p.data.title}</a></li>`;})
-        .join("\n");
+        .map(p => <li><a href={p.url}>{p.data.title}</a></li>);
 
-    return `
-    <p class="lead">
+    return (<>
+    <p className="lead">
     This is a site about games, traditional and modern, that are played around the world.
     </p>
 
@@ -46,13 +45,9 @@ export function render(this: Context, data: Data) {
     <p>For other sites about games, please visit the <strong><a href="/see-also/">See Also</a></strong> page.</p>
 
     <h2>Recently updated pages</h2>
-    <ul class="columnar-large">
-    ${recentPages}
-    </ul>
+    <ul className="columnar-large">{recentPages}</ul>
 
     <h2>Longest pages</h2>
-    <ul class="columnar-large">
-    ${longPages}
-    </ul>
-    `;
+    <ul className="columnar-large">{longPages}</ul>
+    </>);
 }

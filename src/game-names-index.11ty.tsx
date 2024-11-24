@@ -1,9 +1,10 @@
-import { IS_PRODUCTION } from "../helpers";
-import { Data } from "../types";
+import React from "react";
+import { IS_PRODUCTION } from "../helpers.jsx";
+import { Data } from "../types.js";
 
 export const data = {
     title: "Game Names Index",
-    layout: "columned",
+    layout: "layout.11ty.js",
     eleventyImport: {
         collections: ["game"]
     }
@@ -16,7 +17,7 @@ type Name = {
     name: string,
 }
 
-async function findNames(coll: any[], refs: Map<Name, any>) {
+function findNames(coll: any[], refs: Map<Name, any>) {
     for (const c of coll) {
         const content = c.content as string;
         const matches = content.matchAll(nameMatcher);
@@ -47,9 +48,9 @@ const nameOverrides = new Map<string, string>([
     ["wni", "Comorian"], // Ndzwani
 ]);
 
-export async function render(data: Data) {
+export function render(data: Data): React.JSX.Element {
     const refs = new Map<Name, any>();
-    await findNames(data.collections.game, refs);
+    findNames(data.collections.game, refs);
 
     const byLang = new Map<string, Map<{ lang: string, name: string }, any>>();
     for (const [k, v] of refs) {
@@ -68,7 +69,6 @@ export async function render(data: Data) {
         it.set(k, v);
     }
 
-    let result = '<p>This page lists all game names by language, for ease of reference.</p>';
 
     const displayer = new Intl.DisplayNames(["en"], { type: "language" });
     const display = (code: string) => {
@@ -81,28 +81,44 @@ export async function render(data: Data) {
         .map(([code, values]) => ({ code, title: display(code) || code, values }))
         .sort((a, b) => sorter.compare(a.title, b.title));
 
-    result += '<h2>Languages</h2><ul class="columnarr">';
-    for (const { code, title } of langs) {
-        result += `<li><a href="#${code}">${title}</a></li>`;
-    }
-    result += '</ul>'
-        + '<hr/>';
+    return (<>
+        <p>This page lists all game names by language, for ease of reference.</p>
+        <h2>Languages</h2>
+        <ul className="columnarr">
+            {langs.map(({ code, title }, ix) => <li key={ix}><a href={`#${code}`}>{title}</a></li>)}
+        </ul>
+        <hr />
 
-    for (const { code, title, values } of langs) {
-        result += `<h3 id="${code}"><a href="https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(' ', '_'))}_language">${title}</a></h3>`;
-        result += '<ul class="columnarr">';
-        const names = [...values.entries()].sort((a, b) => sorter.compare(a[0].name, b[0].name));
-        for (const [{ lang, name }, page] of names) {
-            if (IS_PRODUCTION && page.data.draft) {
-                continue;
+        {langs.map(({ code, title, values }, ix) => {
+
+            const names = [...values.entries()]
+                .sort((a, b) => sorter.compare(a[0].name, b[0].name))
+                .filter(([{ lang, name }, page]) => !IS_PRODUCTION || !page.data.draft);
+
+            if (names.length === 0) {
+                return null;
             }
 
-            result += `<li><a href="${page.url}#:~:text=${encodeURIComponent(name).replaceAll('-', '%2D')}"><span class="noun" lang="${lang}">${titlize(name)}</span></a></li>`;
-        }
-        result += '</ul>';
-    }
-
-    return result;
+            return (
+                <React.Fragment key={ix}>
+                    <h3 id={code}>
+                        <a href={`https://en.wikipedia.org/wiki/${encodeURIComponent(title.replaceAll(' ', '_'))}_language`}>
+                            {title}
+                        </a>
+                    </h3>
+                    <ul className="columnarr">
+                        {names.map(([{ lang, name }, page], ix) =>
+                            <li key={ix}>
+                                <a href={`${page.url}#:~:text=${encodeURIComponent(name).replaceAll('-', '%2D')}`}>
+                                    <span className="noun" lang={lang}>{titlize(name)}</span>
+                                </a>
+                            </li>
+                        )}
+                    </ul>
+                </React.Fragment>
+            );
+        })}
+    </>);
 }
 
 const titlizer = /(?<![\(\)’'\u00ad]\p{Letter}*)(\p{Letter}|\p{Mark})+/ug;

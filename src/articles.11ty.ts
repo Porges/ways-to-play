@@ -3,7 +3,7 @@ import { Context, Data } from '../types';
 
 export const data = {
     title: "Articles",
-    layout: "columned",
+    layout: "layout.11ty.js",
     eleventyNavigation: {
         title: "Articles",
         key: 'articles'

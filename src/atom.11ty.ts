@@ -1,10 +1,13 @@
-import { ifSet } from "../helpers";
-import { Context, Data } from "../types";
-const { JSDOM } = require('jsdom');
+import { ifSet } from "../helpers.jsx";
+import { Context, Data } from "../types.js";
+import { JSDOM } from 'jsdom';
 
 export const data = {
     permalink: "/atom.xml",
     eleventyExcludeFromCollections: true,
+    eleventyImport: {
+        collections: ["article", "game"]
+    }
 };
 
 function escape(str: string): string {

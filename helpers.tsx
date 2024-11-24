@@ -1,5 +1,6 @@
 import { env } from 'process';
-import { Date, Article } from './types';
+import { Date, Article } from './types.js';
+import * as React from 'react';
 
 import ordinal from 'ordinal';
 
@@ -58,7 +59,7 @@ const days =
    "Saturday"
   ];
 
-export function renderExplicitDate(date: Date, omitIfJustYear: boolean): string | null {
+export function renderExplicitDate(date: Date, omitIfJustYear: boolean): React.JSX.Element | null {
   if (typeof date === 'number') {
     date = { year: date };
   }
@@ -73,19 +74,19 @@ export function renderExplicitDate(date: Date, omitIfJustYear: boolean): string 
           : new globalThis.Date(date.year, date.month - 1, date.day);
 
         const day = (((actualDate.getDay() - 10) % 7) + 7) % 7;
-        return `${days[day]}, ${ordinal(date.day)} ${month} ${date.year} [<abbr title="old-style">OS</abbr>]`;
+        return <>{days[day]}, {ordinal(date.day)} {month} {date.year} [<abbr title="old-style">OS</abbr>]</>;
       }
 
       const actualDate = new globalThis.Date(date.year, date.month - 1, date.day);
       const day = actualDate.getDay();
-      return `${days[day]}, ${ordinal(date.day)} ${month} ${date.year}`;
+      return <>{days[day]}, {ordinal(date.day)} {month} {date.year}</>;
     }
 
-    return `${month} ${date.year}`;
+    return <>{month} {date.year}</>;
   }
 
   if ('season' in date) {
-    return `${date.season} ${date.year}`;
+    return <>{date.season} {date.year}</>;
   }
 
   if (omitIfJustYear) {
@@ -95,46 +96,37 @@ export function renderExplicitDate(date: Date, omitIfJustYear: boolean): string 
   return null;
 }
 
-export function isolate(value: string): string {
-  return `&#x2068;${value}&#x2069;`;
+export function isolate(text: string): string {
+  return `\u{2068}${text}\u{2069}`;
 }
 
-export function purify(str: string): string {
-  return str.replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('\'', '&#039;')
-    .replaceAll('"', '&quot;');
+export function Isolated({children}: {children: React.JSX.Element}): React.JSX.Element {
+  return <>{"\u{2068}"}{children}{"\u{2069}"}</>;
 }
 
-export function renderArticle(article: Article) {
+export function renderArticle(article: Article): React.JSX.Element | null {
   if (!IS_PRODUCTION || !article.draft) {
-    return `<li><a href="${article.url}"${asAttr("lang", article.titleLang)}>${article.title}</a>`
-      + ifSet(article.draft, ' <span class="draft">Draft</span>')
-      + (article.children ? renderArticleList(article.children) : '')
-      + `</li>`;
+    return (<li><a href={article.url} lang={article.titleLang}>{article.title}</a>
+       { article.draft && <> <span className="draft">Draft</span></> }
+       { article.children && renderArticleList(article.children) }
+       </li>);
   }
 
   // render draft article names if they have children
   if (article.children?.length) {
-    return `<li><span${asAttr("lang", article.titleLang)}>${article.title}</span>`
-      + (article.children ? renderArticleList(article.children) : '')
-      + `</li>`;
+    return (<li><span lang={article.titleLang}>{article.title}</span>
+      { article.children && renderArticleList(article.children) }
+      </li>);
   }
 
-  return '';
+  return null;
 }
 
-export function renderArticleList(articles: readonly Article[]) {
+export function renderArticleList(articles: readonly Article[]): React.JSX.Element | null {
   if (articles.length === 0) {
-    return '';
+    return null;
   }
 
-  let result = '<ul class="article-list">';
-  for (const article of articles) {
-    result += renderArticle(article);
-  }
-
-  result += "</ul>";
-  return result;
+  const RenderArticle = ({article}: {article: Article}) => renderArticle(article);
+  return <ul className="article-list">{articles.map((a, ix) => <RenderArticle key={ix} article={a} />)}</ul>;
 }

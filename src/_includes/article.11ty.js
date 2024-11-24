@@ -1,16 +1,16 @@
-const path = require('path');
-const Image = require('@11ty/eleventy-img');
-const { JSDOM } = require('jsdom');
+import path from 'path';
+import Image from '@11ty/eleventy-img';
+import { JSDOM } from 'jsdom';
 
-const { renderSource } = require('../../images');
-const { ifSet, asAttr, renderArticleList, IS_PRODUCTION } = require('../../helpers');
+import { renderSource } from '../../images';
+import { ifSet, asAttr, renderArticleList, IS_PRODUCTION } from '../../helpers';
 
-exports.data = {
+export const data = {
     layout: "layout.11ty.js",
     ogType: "article",
 };
 
-exports.render = async function (data) {
+export async function render(data) {
     /*
     let heroImage = '';
     let heroSource = '';

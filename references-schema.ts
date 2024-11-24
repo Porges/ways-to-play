@@ -1,4 +1,5 @@
 import Ajv, { JSONSchemaType } from 'ajv';
+import React from 'react';
 
 export type Author = {
     readonly family?: string,
@@ -68,7 +69,7 @@ const dateSchema: JSONSchemaType<Date> = {
 };
 
 export type LStr = string | {
-    value: string,
+    value: string | React.JSX.Element,
     lang?: string,
     alt?: string
 }

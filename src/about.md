@@ -1,6 +1,6 @@
 ---
 title: About
-layout: columned
+layout: layout.11ty.js
 bodyType: http://schema.org/AboutPage
 ---
 
