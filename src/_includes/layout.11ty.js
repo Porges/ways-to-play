@@ -61,7 +61,7 @@ export async function render(data) {
     ${ifSet(data.ogType, ogt => `<meta property="og:type" content="${ogt}" />`)}
     ${ifSet(ogImage, i => `<meta property="og:image" content="${i}" />`)}
     ${ifSet(excerpt, e => `<meta property="og:description" content="${e}" /><meta name="description" content="${e}" />`)}
-    <script type="module" src="/js/main.js" />
+    <script type="module" src="/js/main.js"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0CH5J6QX3"></script>
     <script>
