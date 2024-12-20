@@ -8,7 +8,7 @@ equipment: Physical
 “<span class="aka">Buck, Buck</span>” — or, in its full version, “<span class="aka">Buck, Buck, How Many Fingers Do I Hold Up?</span>” — is a children’s game with a surprisingly long history.
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 
 See: [@LondonStreetGames p. 31], [@Petroniana1959], [@Petroniana1960]

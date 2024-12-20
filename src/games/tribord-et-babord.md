@@ -8,7 +8,7 @@ players: 2
 <p class="lead">The French game of <span class="noun" lang="fr">Tribord et Bâbord</span> (‘Starboard and
 Port’) is a 19th-century dice gambling game for two players.</p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## Equipment
 

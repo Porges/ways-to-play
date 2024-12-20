@@ -19,7 +19,7 @@ subgames:
 <span class="aka">Kings</span> is a luck-based card game from New Guinea. It plays similarly to a fishing game, only there are no decisions to be made.
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 The description below is based upon @ThreeNativeCardGames [p. 52–3].
 
@@ -51,7 +51,7 @@ player with the most {%cards 'K'%}s is the winner. Again, if there is a tie
 between players then a single round of {% gameref laki %} can be played to
 determine the overall winner.
 
-<!--
+{/*
 ## Discussion
 
 The shortening of the deck to 48 cards makes me wonder if this is a game derived
@@ -60,7 +60,7 @@ have a known Japanese origin. A {% a hanafuda %} deck has (12×4=) 48 cards in
 it, and the gameplay of Kings is remniscent of many <span lang="ja-Latn"
 class="noun">Hanafuda</span> fishing games, where cards are paired to capture
 them from a central pool.
--->
+*/}
 
 ## <span lang="jav-Latn">Thothit Yogyakarta</span>
 

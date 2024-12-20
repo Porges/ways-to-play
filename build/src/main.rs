@@ -34,6 +34,7 @@ struct Args {
 struct File {
     url_path: String,
     content: mdast::Node,
+    header: saphyr::Yaml,
 }
 
 struct Builder {
@@ -78,6 +79,10 @@ impl Builder {
         parse_options.constructs.gfm_table = true;
         parse_options.constructs.gfm_footnote_definition = true;
         parse_options.constructs.gfm_label_start_footnote = true;
+        parse_options.constructs.html_flow = false;
+        parse_options.constructs.html_text = false;
+        parse_options.constructs.mdx_jsx_flow = true;
+        parse_options.constructs.mdx_jsx_text = true;
 
         let mut to_visit = vec![self.base_path.join(rel)];
 
@@ -92,7 +97,18 @@ impl Builder {
                 } else {
                     let entry_path = entry.path();
                     if entry_path.extension() == Some(OsStr::new("md")) {
-                        let content = std::fs::read_to_string(&entry_path)?;
+                        let data = std::fs::read_to_string(&entry_path)?;
+                        // normal markdown cannot cause syntax errors
+                        let content = markdown::to_mdast(&data, &parse_options)
+                            .map_err(|e| format!("couldn't parse {}: {e}", entry_path.display()))
+                            .unwrap();
+                        let header = mdast_to_html::get_header(&content).unwrap();
+                        let yaml_header = saphyr::Yaml::load_from_str(&header.value)
+                            .unwrap()
+                            .into_iter()
+                            .next()
+                            .unwrap();
+                        println!("{:?}", yaml_header);
                         result.push(File {
                             url_path: entry_path
                                 .strip_prefix(&self.base_path)?
@@ -100,8 +116,8 @@ impl Builder {
                                 .to_string_lossy()
                                 .replace('\\', "/")
                                 + "/",
-                            // normal markdown cannot cause syntax errors
-                            content: markdown::to_mdast(&content, &parse_options).unwrap(),
+                            content,
+                            header: yaml_header,
                         });
                     }
                 }
@@ -125,7 +141,16 @@ impl Builder {
                 path.set_extension("htm");
             }
 
-            let content = content.into_string();
+            let templated = templates::base(
+                article.header["title"].as_str().unwrap_or_default(),
+                article.header["titleLang"].as_str(),
+                article.header["originalTitle"].as_str(),
+                "https://games.porg.es/",
+                &article.url_path,
+                content,
+            );
+
+            let content = templated.into_string();
             std::fs::create_dir_all(path.parent().unwrap())?;
             std::fs::write(path, &content)?;
         }

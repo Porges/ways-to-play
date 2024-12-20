@@ -10,9 +10,9 @@ countries: GM
 
 This game was first described in print in the early 20th century,[@AncientCeylon p. 604] and it is still played today.[@ChokooGameVideo] Sometimes it has been referred to as “African checkers”,[@LiberianTribes fig. 100] but that name is also used to refer to other games such as those of the {%a mancala-games,Mancala family%}.
 
-<!--
+{/*
 (ثُكُو?) (<span lang="ff-Adlm" class="aka noun">𞤕𞤮𞤳𞤮𞥅</span>?)
--->
+*/}
 
 ## Play
 
@@ -24,11 +24,11 @@ For the second phase of the game, each player takes one of their sticks and jump
 
 It is not stated by the source, but presumably the players may also move a stick one square orthogonally instead of jumping.
 
-<!--
+{/*
 Might be pictured here:
 https://doi.org/10.25549/impa-m26095
 https://doi.org/10.25549/impa-m26099
--->
+*/}
 
 ## See also
 

@@ -9,7 +9,7 @@ is the general name for Japanese playing cards, derived from the Portuguese word
 for playing cards, <span lang="pt">carta</span>.
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 {% image src="sc67123.jpg" alt="A pile of Japanese wooden sandles in the entrance-way to a house." license="cc0"
 noborder=true

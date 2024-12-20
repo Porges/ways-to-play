@@ -23,11 +23,11 @@ It is mentioned as early as 1603 by the British playwright [Thomas Heywood](http
 
 It is called “<span class="aka">Beat the Knave out of Doors</span>” in 1739,[@EighthChampion p. 4]{%fn%}It also appears under this name in the 1754 tract @SeriousReflections [p. 15].{%endfn%} and appears under the name “<span class="aka">Drive the Knave out of Doors</span>” in 1751.[@ALetterFromMrsMidnight p. 245]
 
-<!--
+{/* 
 
 called Boutehors in French? https://archive.org/details/bim_eighteenth-century_royal-dictionary-abrid_boyer-abel_1720/page/n757/mode/2up?q=%22Knave+out+of+Doors%22
 
--->
+*/}
 
 ## Play
 

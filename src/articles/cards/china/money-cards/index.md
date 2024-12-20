@@ -50,6 +50,6 @@ brand cards. This deck only has one type of honour card.
 {% image src="nantong_double_ended.jpg" alt="" 
     noborder=true size="wide" %}
 
-<!-- http://anthonylesq.blogspot.com/2019/02/long-cards-5-double-faced-nantong.html -->
+{/* http://anthonylesq.blogspot.com/2019/02/long-cards-5-double-faced-nantong.html */}
 
 {%imageEnd%}

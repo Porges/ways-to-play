@@ -12,7 +12,7 @@ subgames:
 <span class="aka">Three Men’s Morris</span> is an ancient {%a mill-games,mill game%} game for two players.
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## Play
 
@@ -61,10 +61,10 @@ In Arabic it has been called <span lang="ar" class="aka">دريس اثلاثة</
 
 The game is also sometimes called <span class="aka">Hopscotch</span>, in @MathematicalRecreationsMaurice [p. 290], but I think that name is better reserved for {%gameref picaria%}.{%fn%}As in @WinningWaysV3 [p. 737].{%endfn%}
 
-<!-- To Check
+{/* To Check
 * Terni Lapilli
 * Three Men’s Marriage
--->
+*/}
 
 ## Variants
 

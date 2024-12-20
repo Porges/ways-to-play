@@ -31,7 +31,7 @@ hero:
 
 <p class="lead"><span class="noun aka" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with {%a ceki,Cherki cards%}. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 Most of the description below is drawn from @ChikiCards [p. 122], with additions
 from @TheBabas [p. 155].
@@ -284,7 +284,8 @@ A self-drawn win is called <span lang="jav-Latn">rabas</span> ‘clear’. A win
 <span lang="jav-Latn">metu</span>, they win one stake from it. If a player wins
 with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
 <dt><span lang="jav-Latn">toh bayaran</span> (‘stake payments’)</dt>
-<dd>This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. The winner scores according to the following scheme:
+<dd>
+This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. The winner scores according to the following scheme:
 <ol>
 <li>1 for <span lang="jav-Latn">metu</span>; 2 for <span lang="jav-Latn">metu</span> with a red card, or <span lang="jav-Latn">rabas</span>; or 3 for <span lang="jav-Latn">rabas</span> with a red card,</li>
 <li>an additional 1 for each <span lang="jav-Latn">bak</span> or 2 for each red <span lang="jav-Latn">bak</span> in their hand,</li>
@@ -298,10 +299,9 @@ with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
     src="../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CM1.jpg" %}
     These cards are worth 10 points each.
 {% imageEnd %}
-</div>
 </ol>
 </dd>
-<dt>alternative <span lang="jav-Latn">toh bayaran</span>, drawing 14 cards</st>
+<dt>alternative <span lang="jav-Latn">toh bayaran</span>, drawing 14 cards</dt>
 <dd>This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jav-Latn">toh bayaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jav-Latn">bak</span> from these cards. For each <span lang="jav-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jav-Latn">bak</span>.</dd>
 </dl>
 

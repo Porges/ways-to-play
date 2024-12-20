@@ -25,7 +25,7 @@ A 19th century print; bold lines indicate paths the Attacker may not use.
 {%imageEnd%}
 </div>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 In other languages and countries it is known as:
 

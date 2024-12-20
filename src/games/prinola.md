@@ -61,11 +61,11 @@ In Indonesia the game has been called {%pronounce lang="id" word="Dadu Putar" cl
 A group of people playing <span lang="id">Dadu Putar</span> (or a game very similar to it) in [Bengkulu,](https://en.wikipedia.org/wiki/Bengkulu) Sumatra (1910–1930).
 {% imageEnd %}
 
-<!--
+{/*
 
 TODO: @IetsOver [p. 382] has reference for this game
 
--->
+*/}
 
 ## <span lang="ja-Latn" class="noun">Chobo-Ichi</span>
 

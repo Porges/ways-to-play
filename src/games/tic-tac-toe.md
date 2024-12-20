@@ -7,7 +7,7 @@ equipment: Pen and paper
 
 <p class="lead"><span class="aka">Tic-Tac-Toe</span> is a simple game for two players that is well-known to result in a draw if played ‘rationally’. Unlike most board games, pieces cannot be moved or removed once placed, making it an ideal game to play with pen & paper.</p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 {% image 
     alt="Several games of tic-tac-toe scrawled on a concrete wall.",
@@ -211,7 +211,7 @@ You know this, right?
 
 See, e.g. @Gardner1 [pp. 37–46].
 
-<!-- It is claimed that “yih” 弈 is an old name for the game. No, this is go, or maybe something older. -->
+{/* It is claimed that “yih” 弈 is an old name for the game. No, this is go, or maybe something older. */}
 
 ## Variants
 

@@ -31,11 +31,9 @@ games, but the procedures of betting and payment combine to increase the
 complexity. There are also multiple sets of <span lang="ja-Latn">yaku</span>,
 and specialized equipment that was commonly used with the game.
 
-<!-- 
-{/*
-<p>Because of this, I present a simplified base game first, and each subsequent section introduces another extension of the rules until the full version of the game is attained.<Footnote>This approach was inspired by Z.D. Smith’s “<a href="https://blog.zdsmith.com/posts/a-curriculum-of-vira.html">A Curriculum of Vira</a>”.</Footnote> As a game that was often played in secret for money, there is no one ‘true’ set of rules, and there are also many optional variations and regional rules differences.</p>
-*/}
--->
+> [!todo]
+> Because of this, I present a simplified base game first, and each subsequent section introduces another extension of the rules until the full version of the game is attained.[^zds] As a game that was often played in secret for money, there is no one ‘true’ set of rules, and there are also many optional variations and regional rules differences.
+> [^zds]: This approach was inspired by Z.D. Smith’s “<a href="https://blog.zdsmith.com/posts/a-curriculum-of-vira.html">A Curriculum of Vira</a>”.
 
 ## Rules
 
@@ -378,8 +376,7 @@ lang="ja-Latn">Jingū</span>](https://en.wikipedia.org/wiki/Empress_Jing%C5%AB),
 and which was used from 1881 until 1899. The set also contained (not pictured
 here) another 50-<span lang="ja-Latn">kan</span> card and a 100-<span
 lang="ja-Latn">kan</span> card.
-<!--{/*https://cdn.discordapp.com/attachments/644611492846632960/702040093140975687/i-img800x600-1587393965cq878p755785.png*/
-} -->
+{/*https://cdn.discordapp.com/attachments/644611492846632960/702040093140975687/i-img800x600-1587393965cq878p755785.png*/}
 {% imageEnd %}
 
 {% image 

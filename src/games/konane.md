@@ -11,7 +11,7 @@ Hawaiian abstract game for two players. While it looks similar to checkers at
 first glance, the object of the game is different, and the strategy is very
 deep.</p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 {% image 
     src='konane_960.jpg'
@@ -65,7 +65,7 @@ Pacific.  In an entry dated March 1779, he wrote:
 > number of ſquares, it is much more intricate. The board is about two feet
 > long, and it is divided into two hundred and thirty-eight ſquares, of which
 > there are fourteen in a row, and they make uſe of black and white pebbles,
-> which they move from ſquare to ſquare.[@VoyageToPacific p. 144]</p>
+> which they move from ſquare to ſquare.[@VoyageToPacific p. 144]
 
 Another early witness was Archibald Campbell,{%fn%}Campbell arrived in <span class="noun"
 lang="haw">Hawaiʻi</span> aboard the <em>Neva</em>, the first Russian ship to
@@ -245,4 +245,4 @@ Michael Ernst has performed game-theoretic analysis of various board positions.[
 
 {% gameref take-it-away %} and {% gameref leap-frog %} play similarly but have different winning conditions.
 
-<!-- https://totakeresponsibility.blogspot.com/search/label/Konane -->
+{/* https://totakeresponsibility.blogspot.com/search/label/Konane */}

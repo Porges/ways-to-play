@@ -235,11 +235,7 @@ person in the room.[@JapaneseGamesOfMemory p. 270] Evidently the game could get
 physical, as those same books warn that “to quarrel and remove shells by force
 is something that only men and courtesans do.”
 
-The monk <span lang="ja-Latn"
-class="noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</a>
-(<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr
-title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in
-Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130]
+The monk <span lang="ja-Latn" class="noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</span> (<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130]
 
 {%aside%}
 <span class="noun"
@@ -657,12 +653,9 @@ on the backs possibly indicate that they were adapted to be used as <span class=
 lang="ja-Latn">Iroha</span> cards.
 {% imageEnd %}
 
-<!--
-      {/* TODO
-      <Section title="Traditional Methods of Manufacture">
-        <p>(Often manufactured by <span lang="ja-Latn">kuge</span> nobles,[@GrantsToKugeNobles" /> as they were very poor. Iwakura’s family had even resorted to renting out their house as a gambling den[@EmperorOfJapan p. 4] (although he was later very successful — he was excluded from the grants cited previously.))</p>
-      </Section>
--->
+> [!todo]
+> ## Traditional Methods of Manufacture
+> Often manufactured by <span lang="ja-Latn">kuge</span> nobles,[@GrantsToKugeNobles] as they were very poor. Iwakura’s family had even resorted to renting out their house as a gambling den[@EmperorOfJapan p. 4] (although he was later very successful — he was excluded from the grants cited previously.)
 
 ### Taxation, Decline, and Revival
 
@@ -1436,7 +1429,7 @@ Cascades of flowers<br />bloom on the wisteria<br />by my garden lake.<br />When
 
 </div>
 
-<!-- {/*TODO: an image showing upside-down wisteria*/} --> 
+{/* TODO: an image showing upside-down wisteria */}
 
 In Korean contexts, the non-<span lang="ja-Latn">tane</span> wisteria cards are
 almost always shown upside-down, so that the plants are presented in the same
@@ -1646,8 +1639,7 @@ prohibited.[@FourSeasons loc. 4261] Wild game such as boar and deer were not
 included: either they escaped the imagination of the Emperor, or they were too
 important as food sources for commoners.
 
-<!-- {/* Deer is associated with bush clover but instead we have a boar? But also
-deer are renowned for being separated from their lovers... */} -->
+{/* Deer is associated with bush clover but instead we have a boar? But also deer are renowned for being separated from their lovers... */}
 
 ### <span lang="ja">8月</span>
 
@@ -1724,13 +1716,12 @@ lang="ja">藤原良経</span>, 1169–1206).
 {%endaside%}
 
 
-<!-- 
     {/*
     <p lang="ja" class="vertical-rl">
     行く末𛂞<br/>雲もひと𛁩に<br/>むさ𛁅の<br/>陰𛂜原より<br/>?𛂦る月影
     </p>
     */}
-    -->
+
 <div class="multi">
 <p lang="ja" class="vertical-rl">行く末は<br />空もひとつの<br />武蔵野に<br />草の原より<br />出づる月影</p>
 

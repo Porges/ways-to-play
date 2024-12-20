@@ -16,7 +16,8 @@ subgames:
 
 <p class="lead">
 Chivalry, Camelot, Cam, and Camette are members of a series of related 2-player
-games originally developed by George Parker (of Parker Brothers fame).</p>
+games originally developed by George Parker (of Parker Brothers fame).
+</p>
 
 
 {% image 
@@ -68,7 +69,7 @@ include the knight featured on the Camelot box front (also included is another
 game called [The Knight’s
 Journey](https://boardgamegeek.com/boardgame/186268/knights-journey).
   
-<!-- {/* https://mysteriouswritings.com/my-1928-knights-in-shining-armor/*/}). -->
+{/* {/* https://mysteriouswritings.com/my-1928-knights-in-shining-armor/*/}). */}
 
 In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to
 popularize the game on the internet.[@WCF] The rules descriptions
@@ -132,7 +133,7 @@ variant.
 ## Two-Player Games
 
 In the diagrams below, the foot-soldiers are represented by the chess pawns
-♟︎<!--override Edge defaulting to emoji presentation-->/♙ and the knights
+♟︎{/*override Edge defaulting to emoji presentation*/}/♙ and the knights
 are represented by the chess knights ♞/♘.
 
 The target castle squares for each player are represented by a star in their own

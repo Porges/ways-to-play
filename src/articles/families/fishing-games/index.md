@@ -39,13 +39,11 @@ The last type are luck-based games where all cards are turned from the stock.  T
     - {% gameref thothit-yogyakarta %}
     - {% gameref thit-thit-dulit %}
 
-<!--
+{/*
 ### By matching type
 
 Another way to categorize the games is to group them by how cards are matched.
--->
 
-<!--
 To be included:
 @NotesOnFishing:
 - Tenteret
@@ -74,4 +72,5 @@ To be included:
 - Snatchem/Snitch’ems
 - Escoba
 - Scopa de Quindici
--->
+
+ */}

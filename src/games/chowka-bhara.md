@@ -9,7 +9,7 @@ Kannada: <span lang="kn" class="aka">ಚೌಕಾಬಾರ</span> <span lang="kn
 
 In Malayalam, spoken in Kerala: <span lang="ml" class="aka">കവടി കളി</span>{%fn%}Sometimes <span lang="ml">കവടിക്കളി</span> <span lang="ml-Latn">kavaṭikkaḷi</span>.{%endfn%} (<span lang="ml-Latn" class="aka">kavaṭi kaḷi</span> ‘cowry game’), or <span lang="ml" class="aka">ദായക്കളി</span>/<span lang="ml" class="aka">തായക്കളി</span> (<span lang="ml-Latn" class="aka">dāyakkaḷi</span>/<span lang="ml-Latn" class="aka">tāyakkaḷi</span> ‘dice game’) — these can also be used for other similar games.
 
-<!--
+{/*
 
 Other games to look into:
 
@@ -26,7 +26,8 @@ Other games to look into:
 11. കുഴിതപ്പിക്കളി - kuḻitappikkaḷi
 12. കൈത്തല്ല്‌  - kaittall‌
 13. പീച്ചാംകുഴൽ - pīccāṅkuḻal 
--->
+
+*/}
 
 In Tamil, <span lang="ta" class="aka">தாயம்</span> (<span lang="ta-Latn" class="aka">tāyam</span> ‘dice’).
 

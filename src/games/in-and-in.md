@@ -12,7 +12,7 @@ The earliest descriptions of this game are from the 17th century, but by the 18t
 
 The name is somewhat lewd as it was also used to refer to sexual intercourse (see @SexualShakespeare2 [p. 707] for many quotes and puns upon the name) — “in and out” is a more modern version of this usage. [Charles Cotton](https://en.wikipedia.org/wiki/Charles_Cotton) refers to the game alongside {%gameref all-fours %} in his sexualized parodic tract <cite>Erotopolis</cite>,[@Erotopolis 109] but also mentions it in his serious book about games,[@CompleatGamester p. 164] where he describes the game as being commonly played in inns (“ordinaries”).
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## Play
 

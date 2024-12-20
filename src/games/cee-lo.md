@@ -62,7 +62,8 @@ The following table summarizes the results for the banker:
 <tbody>
 <tr>
 <th scope="row">4–5–6<br/>{%cdice 456%}</th>
-<td><span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn-jyutping">si³ ng⁵ luk⁶</span>[@ChineseGames 493]<br/><br/>
+<td>
+<span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn-jyutping">si³ ng⁵ luk⁶</span>[@ChineseGames 493]<br/><br/>
 <span lang="zh">串花</span> ‘strung flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">cyun³ faa¹</span>[@ChineseGames 493]<br/><br/>
 <span lang="zh">春花</span>[@ChineseGamesOfChance 79] ‘spring flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">ceon¹ faa¹</span>
 </td>
@@ -72,10 +73,11 @@ The following table summarizes the results for the banker:
 <tr>
 <th scope="row">Triple<br/>{%cdice '==='%}</th>
 <td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: {% pronounce  lang="yue-Latn-jyutping" word="wai⁴" pronouncer="cuichungman" file="pronunciation_yue_圍.mp3" %}[@ChineseGames 493]<br/><br/>
-<!-- ဝိုက် 'wai' in Burmese also means a set of 3… -->
+{/* ဝိုက် 'wai' in Burmese also means a set of 3… */}
 <span lang="zh">爲屏</span>[@ChineseGamesOfChance 78] ‘build a wall’<br/>Cantonese: <span lang="yue-Latn-jyutping">wai⁴ ping⁴</span></td>
 <td>Trips</td>
-<td>Win</td></tr>
+<td>Win</td>
+</tr>
 <tr>
 <th scope="row">6 Point<br/>{%cdice '==6'%}</th>
 <td><span lang="zh">候六</span>[@ChineseGamesOfChance 79] ‘watching six’<br/><span lang="yue-Latn-jyutping">hau⁶ luk⁶</span></td>
@@ -92,9 +94,12 @@ The following table summarizes the results for the banker:
 <span lang="zh">一弗</span> ‘bad one’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ fat¹</span>[@ChineseGames 493]<br/><br/>
 <span lang="zh">候丁</span>[@ChineseGamesOfChance 79] ‘watching [?]’<br/><span lang="yue-Latn-jyutping">hau⁶ ding¹</span>
 </td>
-<td>Ace Out</td><td>Loss</td></tr>
+<td>Ace Out</td><td>Loss</td>
+</tr>
 <tr>
-<th scope="row">1–2–3<br/>{%cdice 123%}</th><td><span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: {% pronounce lang="yue-Latn-jyutping" word="mou⁵ lung⁴" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3" %}[@ChineseGames 493]<br/><br/>
+<th scope="row">1–2–3<br/>{%cdice 123%}</th>
+<td>
+<span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: {% pronounce lang="yue-Latn-jyutping" word="mou⁵ lung⁴" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3" %}[@ChineseGames 493]<br/><br/>
 <span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: {%pronounce lang="yue-Latn-jyutping" word="se⁴ zai²" pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3" %}[@ChineseGames 493]<br/><br/>
 <span lang="zh">一條蛇</span>[@ChineseGamesOfChance 79] ‘one snake’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ tiu⁴ se⁴</span>
 </td>
@@ -206,9 +211,9 @@ references craps instead.{%endfn%} A selection of tracks that reference the game
   Up](https://open.spotify.com/track/75MmKQ71V9zFAfK2aA8Wgl)” from
   <cite>Herstory in the Making</cite>: M.A Music/3D.
 
-<!--
+{/*
 * Rome Streetz & Futurewave (2019). “[Headcrack](https://open.spotify.com/track/0lsfoAHlOUFXbdnE68MJtN)” from <cite>Headcrack</cite>: FXCK RXP RXCXRDS.
--->
+*/}
 
 <iframe class="spotify playlist" src="https://open.spotify.com/embed/playlist/70hrMIVqVhi3OO16vLtMpj?utm_source=generator&theme=0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 

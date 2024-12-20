@@ -173,7 +173,7 @@ photo: https://doi.org/10.25549/impa-m19599
 
 As pointed out by @ParadoxicalSoftPower [193], the game is distinctively Cantonese and most strongly associated with the migration of people from Guangdong throughout the 19th and 20th centuries. As such, it appears only rarely in places where the dominant Chinese influence was Teochew, Hokkien, or Hakka.[@ParadoxicalSoftPower 194] Thus, the game was not well-known in the Malay Archipelago, although references to it do exist. 
 
-<!--
+{/*
 
 Wikipedia:
 
@@ -183,7 +183,7 @@ Teochews, southern neighbors of the Hokkien, are found throughout the eastern co
 
 Although they initially populated the mining centers of western Borneo and Bangka Island, Hakkas became attracted to the rapid growth of Batavia and West Java in the late 19th century.
 
--->
+*/}
 
 
 In Thai the game has been called <span lang="th" class="aka">เล่นถั่ว</span> <span lang="th-Latn" class="aka">len thua</span> ‘beans game’,{%fn%}Given as <span lang="th-Latn" class="aka">Len Thoa</span> in older works.[@OnSiameseLiterature 383]{%endfn%} <span lang="th" class="aka">กำถั่ว</span>  <span lang="th-Latn" class="aka">kam thua</span> ‘beans handful’, <span lang="th" class="aka">โปกำ</span> <span class="aka" lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span class="aka" lang="th">ถั่ว</span> {%pronounce lang="th-Latn" class="aka" word="thua" file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton" %} ‘beans’. A variant played with only odd/even outcomes seems to have been called Thamtat (unknown transliteration).[@OnSiameseLiterature 384] The Khmer (<span lang="km" class="aka">ធួ</span> or <span lang="km" class="aka">ថួ</span>, <span lang="km-Latn" class="aka">thuə</span>)[@SEAlangKhmer] and Lao (<span lang="lo" class="aka">ຖົ່ວ</span> <span lang="lo-Latn">thūa</span> ‘beans’) names are clearly related to the Thai ones.
@@ -192,9 +192,9 @@ Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a c
 
 , Javanese or Dayak{%fn%}The @DajakschDeutsches [260] says “<span lang="de" class="noun">KETJEK, das Ketjekspiel; s. die Beschreibung desselben unter <i>baketjek</i></span>”, but contains no such entry!{%endfn%} kecek{%fn%}Ketjek{%endfn%}.
 
-In Balinese the game was called <span class="aka" lang="ban">ᬓᭂᬍᬲᬦ᭄</span> <span class="aka" lang="ban-Latn">kelesan</span> or <span class="aka" lang="ban">ᬫᬓᭂᬍᬲ᭄</span> <span class="aka" lang="ban-Latn">makeles</span>; <!-- https://dictionary.basabali.org/w/index.php?title=Kelesan&uselang=en --> and probably in Javanese <span lang="jav">ꦏꦺꦕꦺꦏ꧀</span> <span class="aka" lang="jav-Latn">kècèk</span>.[@GamesAndDances 333][@ContemporaryIndonesian 152][@MakassaarschWoordenboek 32]
+In Balinese the game was called <span class="aka" lang="ban">ᬓᭂᬍᬲᬦ᭄</span> <span class="aka" lang="ban-Latn">kelesan</span> or <span class="aka" lang="ban">ᬫᬓᭂᬍᬲ᭄</span> <span class="aka" lang="ban-Latn">makeles</span>; {/* https://dictionary.basabali.org/w/index.php?title=Kelesan&uselang=en */} and probably in Javanese <span lang="jav">ꦏꦺꦕꦺꦏ꧀</span> <span class="aka" lang="jav-Latn">kècèk</span>.[@GamesAndDances 333][@ContemporaryIndonesian 152][@MakassaarschWoordenboek 32]
 
-<!--
+{/*
 Balinese might also use "(ma)keles" 
 
 keles/kelesan/makeles @KamusBaliIndonesia 357
@@ -207,23 +207,23 @@ tari = win/lose in kelesan: https://kamusbahasaprovinsibali.kemdikbud.go.id/bali
 
 
 Kobok = bowl @KamusBaliIndonesia 384, and the game
--->
+*/}
 
-<!--
+{/*
 https://repositori.kemdikbud.go.id/2883/1/Kamus%20Bahasa%20Indonesia-Bali%20A-K%20%20%20%20%20%20-%20%20%20%20469h.pdf
 
 Indonesian kobak = Bali matembing, macontok, makobok
--->
+*/}
 
-<!--
+{/*
 From Buginese dictionary:
 … soort van kinderspel, door vier jongens gespeeld. Men neemt een hoop pitten, en verdeelt die vier aan vier. Als het precies uitkomt, zoodat er geen overschiet, is de jongen, die de vierde zit, zooveel als bankier. Blijft er één over, zoo vervult No. 1 die rol. Degeslijks wanneer er twee of drie overblijven No. 2 of 3. De bankier neemt vervolgens weder een hoop pitten, en verdeelt die op nieuw vier aan vier. Hij wiens nommer dan overeenkomt met het resterend aantal pitten, krijgt van den bankier, wat hij opgezet heeft, de anderen betalen hun opzet aan den bankier. Indien er niets overschiet, krijgt de banker alles wat opgezet is.
--->
+*/}
 
-<!--
+{/*
 From Makassarese dictionary:
 ... soort van kinderspel, waarbij een zeker aantal pitten in vieren verdeeld wordt, en men vooraf raden moet, hoeveel er alsdan overschieten zullen. Het antwoord luidt "tarrusuna", d. i., dat er niets overschiet, — serena, d.i. dat er één overblijft, — ruwanna, dat er twee, of: tallunna, dat er drie resten. Boeg. idem. Jav. ____
--->
+*/}
 
 See: https://archive.org/details/dajackschdeutsc00hardgoog/page/260/mode/2up?q=%22baKetjek%22, https://archive.org/details/hindujavanesemus0000jaap/page/148/mode/2up?q=%22ketjek%22
 
@@ -320,7 +320,7 @@ https://journalofethnicfoods.biomedcentral.com/articles/10.1186/s42779-023-00209
 > Initially, Pempek was referred to as Kelesan. Based on an interview with Nurjanah (July 10, 2022), it was mentioned that Kelesan means ingredients consisting of cleaned fish meat that has been "Pirik" (mashed or crushed). The fish meat is mixed with tapioca starch, salt, and water. Everything is "Kelesed" into one, formed into elongated rounds, and boiled. "Pirik" involves pressing with a tool called "Piri'an," which is made of which is made of round, slightly oval-shaped brass with a radius of around 8–10 cm. The bottom of the tool has holes, allowing the mashed meat to come out through these holes.
 
 
-<!-- Sundanese <span lang="jav-Latn">cek</span>,{%fn%}old: tjek{%endfn%} or <span lang="jav-Latn">kadek</span>.[@WoordenLijstPantoen 284] -->
+{/* Sundanese <span lang="jav-Latn">cek</span>,{%fn%}old: tjek{%endfn%} or <span lang="jav-Latn">kadek</span>.[@WoordenLijstPantoen 284] */}
 
 Sundanese Kobak: throwing coins into hole
 https://archive.org/details/soendaneesch-hollandsch-woordenboek/page/292/mode/2up?q=spel

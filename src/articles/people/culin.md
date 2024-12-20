@@ -7,7 +7,7 @@ order: 50
 <a href="https://en.wikipedia.org/wiki/Stewart_Culin">Stewart Culin</a> (1858–1959) was a prominent games historian, especially of East and South-East Asian and Native American games.
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## Games-related works
 

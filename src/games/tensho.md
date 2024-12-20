@@ -34,10 +34,10 @@ A Japanese Department of Justice report from 1927[@NagoyaReport f. 13–15, 52�
 </thead>
 <tbody class="table-group-divider">
 
-<!--
+{/*
 アカ
 ドロ
--->
+*/}
 
 <tr lang="ja">
 <td>1</td>

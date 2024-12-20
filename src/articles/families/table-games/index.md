@@ -50,7 +50,7 @@ The opposite of bearing-on games.
 
 ### Unknown games
 
-Some Chinese games with unknown rules, mentioned by the Tang scholar Li Zhao (<span lang="zh">李肇</span>, d. <836), are:[@DoubleSixes][@TangGuoshiBu p. 72]
+Some Chinese games with unknown rules, mentioned by the Tang scholar Li Zhao (<span lang="zh">李肇</span>, d. &lt;836), are:[@DoubleSixes][@TangGuoshiBu p. 72]
 
 - <span lang="zh">圍透</span> <span lang="cmn-Latn-pinyin">wéi tòu</span> ‘surround and pierce?’
 - <span lang="zh">大點</span> <span lang="cmn-Latn-pinyin">dà diǎn</span> ‘big points’

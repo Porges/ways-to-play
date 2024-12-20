@@ -23,7 +23,7 @@ See: @EthnographicPsychology
 
 @GamblingHardWork [p. 14]
 
-{%fn%}@CardGamesAmongAborigines also says that the Chinese name of the game is said to be <span lang="zh-Latn">luk luk fāt</span>. I have not been able to find a Chinese game under this name yet, but it could be something along the lines of <span lang="zh">祿祿發</span>/<span lang="zh">路路發</span>, with Cantonese pronunciation <span lang="yue-Latn-jyutping">luk⁶ luk⁶ fat¹</span>/<span lang="yue-Latn-jyutping">lou⁶ lou⁶ fat¹</span>, which is very similar to ‘668’ in pronunciation. This number is still used in the name of card game brands.<!-- Could this be the source of the "sticks" game given in some places? -->{%endfn%}
+{%fn%}@CardGamesAmongAborigines also says that the Chinese name of the game is said to be <span lang="zh-Latn">luk luk fāt</span>. I have not been able to find a Chinese game under this name yet, but it could be something along the lines of <span lang="zh">祿祿發</span>/<span lang="zh">路路發</span>, with Cantonese pronunciation <span lang="yue-Latn-jyutping">luk⁶ luk⁶ fat¹</span>/<span lang="yue-Latn-jyutping">lou⁶ lou⁶ fat¹</span>, which is very similar to ‘668’ in pronunciation. This number is still used in the name of card game brands.{/* Could this be the source of the "sticks" game given in some places? */}{%endfn%}
 
 @CardGamesAmongAborigines [p. 250]  Also called "putkad" or "tent" (10).
 

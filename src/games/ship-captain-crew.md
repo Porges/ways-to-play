@@ -13,7 +13,7 @@ equipment: Dice game
 
 <p class="lead"><span class="aka">Ship, Captain, and Crew</span> is a simple dice game for any number of people.</p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 There are a few similar games that go under the same name, but the main goal is always to roll a Ship ({%dice 6%}), Captain ({%dice 5%}), and Crew ({%dice 4%}), in that order.
 

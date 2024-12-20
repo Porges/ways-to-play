@@ -22,13 +22,13 @@ Pictorial instructions from the text.
 
 The instructional text forms part of the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html) collection{%fn%}See @ChuHong for a 1646 edition.{%endfn%} and can subsequently be found included as part of it in the Qing-era <span lang="zh">四庫全書</span> [<span lang="cmn-Latn-pinyin" class="noun">Sìkù Quánshū</span>](http://www.chinaknowledge.de/Literature/Science/sikuquanshu.html) imperial book collection. It also appears in <span lang="zh">茅一相</span> <span lang="cmn-Latn-pinyin" class="noun">Máo Yīxiāng</span>’s Ming-era continuation of the <span lang="zh-Hant">欣賞編</span>/<span lang="zh-Hans">欣赏续</span> [<cite>Compilation of Enjoyable Texts</cite>](http://www.chinaknowledge.de/Literature/Poetry/xinshangbian.html), in some editions with <span lang="cmn-Latn-pinyin" class="noun">Yáng</span>’s preface and in others without.
 
-<!--
+{/*
 See:
 - https://www.digital.archives.go.jp/img/3743276, No. 4, pg. 53
 - https://www.digital.archives.go.jp/img/629453, No. 11, pg. 2
 - https://www.digital.archives.go.jp/img/4426763, No. 10, pg. 10 (note that previous game is Liubo!)
 
--->
+*/}
 
 For reference purposes, an example reproduction of this book can be found in @CompleteCollectionOfBooksContinued102 [p. 609–20] and the transcribed text of the <span lang="cmn-Latn-pinyin" class="noun">Sìkù Quánshū</span> version can be seen on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102).
 
@@ -68,32 +68,32 @@ Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, o
 <td>Win 6×</td>
 </tr>
 <tr>
-<!-- Quads -->
+{/* Quads */}
 <td>{% cdice 6666 %}</td>
 <td><span lang="zh">混江龍</span></td>
 <td></td>
 <td rowspan="5">Win 5×</td>
 </tr>
 <tr>
-<!-- Quads -->
+{/* Quads */}
 <td>{% cdice 5555 %}</td>
 <td><span lang="zh">碧牡丹</span></td>
 <td></td>
 </tr>
 <tr>
-<!-- Quads -->
+{/* Quads */}
 <td>{% cdice 3333 %}</td>
 <td><span lang="zh">雁行兒</span></td>
 <td></td>
 </tr>
 <tr>
-<!-- Quads -->
+{/* Quads */}
 <td>{% cdice 2222 %}</td>
 <td><span lang="zh">拍板兒</span></td>
 <td></td>
 </tr>
 <tr>
-<!-- Quads -->
+{/* Quads */}
 <td>{% cdice 1111 %}</td>
 <td><span lang="zh">滿盆星</span></td>
 <td></td>
@@ -107,26 +107,26 @@ Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, o
 <td>Win 5×</td>
 </tr>
 <tr>
-<!-- Triple -->
+{/* Triple */}
 <td>{% cdice 4442 %}</td>
 <td><span lang="zh">蝶戀花</span></td>
 <td></td>
 <td rowspan="4">Win 4×</td>
 </tr>
 <tr>
-<!-- Triple -->
+{/* Triple */}
 <td>{% cdice 4443 %}</td>
 <td><span lang="zh">紅衫兒</span></td>
 <td></td>
 </tr>
 <tr>
-<!-- Triple -->
+{/* Triple */}
 <td>{% cdice 4445 %}</td>
 <td><span lang="zh">錦上花</span></td>
 <td></td>
 </tr>
 <tr>
-<!-- Triple -->
+{/* Triple */}
 <td>{% cdice 4446 %}</td>
 <td><span lang="zh">銷金帳</span></td>
 <td></td>
@@ -397,6 +397,5 @@ If only one {%cdice 4%} was rolled, the outcome is based upon the sum of the oth
 <td>Cheerful 3</td>
 <td>Lose 5×</td>
 </tr>
-<tr>
 </tbody>
 </table>

@@ -11,7 +11,7 @@ Fishing for Hairtails <span lang="zh-Hant">釣白魚</span> (Hokkien: <span lang
 
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 The hairtail is [<cite>Trichiurus lepturus</cite>,](https://en.wikipedia.org/wiki/Largehead_hairtail) called the <span lang="ms">layur</span> throughout the Malay Archipelago. Legend has it that when one of these fish is caught, another one catches its tail, and so on, until the whole shoal is pulled up out of the water. This is compared to the way that cards are captured in this game. The reality is not as dramatic as that, but when they are being caught the hairtails do have a tendency to latch onto each other (see image at @タチウオの共食い), and it is possible to use hairtail tails as bait for them.
 
@@ -19,16 +19,16 @@ When many friends come to visit in succession, it is also compared to the way ha
 
 The description below is based upon @YoungCeki [p. 293–5] and @DrieChineescheKaartspelen.
 
-<!--
+{/*
 Chineesche visschers verhalen vandezen visch dat,wan eréénuiteenschool aandenhoek gevangen isenuithetwater gehaald wordt,denaaste buurman hem onmiddelijk indenstaart bijtenzich mede laat optrekken.Deze handeling plant zich voort door degeheele school en200ge beurt hetdatdevisscher meteenonbeduidend stukje aas,bestaande uiteenmoot vandenzelfden »witten visch"inéénkeer eengroot aantal dier visschen vaugt. Nuheeft deChineesche kaartspeler dievorming vancenaaneenschakeling door den »witten visch "vergeleken metdevorming vanseriën inzijnkaartspel ,en aanééndier spelen dennaam »denwitten visch hengelen “gegeven . Buiten het kaartspel wordt deze hebbelijkheid van den »witten visch" nog gebezigd om te wijzen op een ongewoon groot aantal vrienden, die achtereenvolgens op den zelfdeuntijd een bezoek komen brengen. Het achter elkander binnenkomen der vrieden wordt nl. vergeleken met die reeks witte visschen aan den hengel, en onder een welkemstgroet voegt de gastheer den bezoekers toe: "de witte visschen bitjen elkander in den staart"
 
 Chinese fishermen tell that when one of the school's fish is caught at an angle and taken out of the water, its next neighbour immediately bites its tail and pulls it up with him. This action is repeated throughout the whole school and 200 times the fisherman fishes a large number of fish with an insignificant piece of bait consisting of the same "white fish". Now the Chinese card player has compared the formation of cen links by the "white fish" with the formation of saris in his card game, and has given this game the name "angling the white fish". Outside the card game, the "whitefish's" ability is also used to refer to an unusually large number of friends who come to visit successively at the same time. The arrival of friends one after the other is compared to a series of white fish on a fishing rod, and under a greeting the host adds: "the white fish bit each other in the tail".
 
 Translated with www.DeepL.com/Translator (free version)
 
--->
+*/}
 
-<!-- 
+{/*
 一方有難，八方追著啃
 
 釣帶魚時，會發生一種神奇現象。《海錯圖》畫的就是這個場景：一隻帶魚咬鉤後，另一隻會咬住它的尾巴，一起被提出水。
@@ -46,8 +46,7 @@ This is not just nonsense, as people can still see this spectacle when fishing f
 Original website: https://kknews.cc/food/mpov422.html
 
 Translated with www.DeepL.com/Translator (free version)
-
--->
+*/}
 
 ## Play
 
@@ -64,13 +63,13 @@ Example cards from a deck.
 The types of cards in each colour are:
 
 <ul class="columnar">
-<li><b><span lang="zh-Hant" class="red">帥</span> <span lang="zh-Hant">將</span></b> king
-<li><b><span lang="zh-Hant" class="red">仕</span> <span lang="zh-Hant">士</span></b> councillor
-<li><b><span lang="zh-Hant" class="red">相</span> <span lang="zh-Hant">象</span></b> elephant
-<li><b><span lang="zh-Hant" class="red">俥</span> <span lang="zh-Hant">車</span></b> chariot
-<li><b><span lang="zh-Hant" class="red">傌</span> <span lang="zh-Hant">馬</span></b> horse
-<li><b><span lang="zh-Hant" class="red">炮</span> <span lang="zh-Hant">包</span></b> cannon
-<li><b><span lang="zh-Hant" class="red">兵</span> <span lang="zh-Hant">卒</span></b> soldier
+<li><b><span lang="zh-Hant" class="red">帥</span> <span lang="zh-Hant">將</span></b> king</li>
+<li><b><span lang="zh-Hant" class="red">仕</span> <span lang="zh-Hant">士</span></b> councillor</li>
+<li><b><span lang="zh-Hant" class="red">相</span> <span lang="zh-Hant">象</span></b> elephant</li>
+<li><b><span lang="zh-Hant" class="red">俥</span> <span lang="zh-Hant">車</span></b> chariot</li>
+<li><b><span lang="zh-Hant" class="red">傌</span> <span lang="zh-Hant">馬</span></b> horse</li>
+<li><b><span lang="zh-Hant" class="red">炮</span> <span lang="zh-Hant">包</span></b> cannon</li>
+<li><b><span lang="zh-Hant" class="red">兵</span> <span lang="zh-Hant">卒</span></b> soldier</li>
 </ul>
 
 Determine the dealer by drawing cards; the highest card becomes dealer, red outranking black.

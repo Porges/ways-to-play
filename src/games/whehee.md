@@ -25,13 +25,13 @@ If the dealer exchanges without becoming Whehee, then another round of exchanges
 
 The meaning of the name is probably onomatopœic, that of a whinny or some other sound made by a horse. This usage goes right back to [Chaucer](https://en.wikipedia.org/wiki/Geoffrey_Chaucer), where in the Reeve’s tale:
 
-> He looketh up and doun til he hath founde<br>
-> The clerkes hors, ther as it stood ybounde<br>
-> Bihynde the mille, under a levesel;<br>
-> And to the hors he goth hym faire and wel,<br>
-> He strepeth of the brydel right anon.<br>
-> And whan the hors was laus, he gynneth gon<br>
-> Toward the fen, ther wilde mares renne,<br>
+> He looketh up and doun til he hath founde<br/>
+> The clerkes hors, ther as it stood ybounde<br/>
+> Bihynde the mille, under a levesel;<br/>
+> And to the hors he goth hym faire and wel,<br/>
+> He strepeth of the brydel right anon.<br/>
+> And whan the hors was laus, he gynneth gon<br/>
+> Toward the fen, ther wilde mares renne,<br/>
 > And forth with “wehee,” thurgh thikke and thurgh thenne.
 
 More relevant to the 17th-century game, we find in the play [<cite>The Coxcombe</cite>](https://en.wikipedia.org/wiki/The_Coxcomb) (performed {%c%} 1610, and first published in 1647):[@FrancisBeaumontJohnFletcher 102]

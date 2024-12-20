@@ -13,7 +13,7 @@ equipment: Card game (Ceki)
 <span class="noun" lang="jav-Latn">Kartu Lima</span> (‘five cards’) is an unusual trick-taking game from Java, which was played with {% a ceki %}.[@JavaanseKaartspelen p. 46–57] The same game has also been described under the name <span class="noun" lang="jav-Latn">Tepu</span>.[@JavanischeKartenspiele p. 47]
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 The game below was described as being played in Surakarta. The version played in Yogyakarta was slightly different and is described afterwards.
 
@@ -47,13 +47,14 @@ There are various ways to make bets on the game. The first type is <span lang="j
 
 Instead of winning the whole pot, a method called <span lang="jav-Latn">undhuh-undhuh</span> (‘pickings’) may be followed. In this case the winner only wins back the amount that each player staked (e.g. if everyone staked 5¢, then the winner takes 5¢ from the pot). One pot is built and will last for a number of rounds equal to the number of players. It can also be agreed than anyone who wins a second round in a row instantly takes the remainder of the pot, and a new one is created. If they win a third or subsequent consecutive round, they continue to win whole pots until their winning streak is ended.
 
-<!--  this section is very unclear in the book…
+{/*
+ this section is very unclear in the book…
 Usually the pot method is only followed for the first game (which I understand
 to mean until the pot is taken). After this a method called <span
 lang="jav-Latn">bal-balan</span> (‘bales’) is followed, whereby each player
 places any bet amount they want in front of themselves, but it must be at least
 the stake amount using during <span lang="jav-Latn">wudhon tengah</span>.
--->
+*/}
 
 Another possible bet is <span lang="jav-Latn">pethitan</span> (“tapering points”?): if a player leads a <span lang="jav-Latn">dika</span> to the last round and it is not beaten, they win the bet; if it is killed, the killer takes the bet.
 
@@ -244,7 +245,8 @@ The <span lang="jav-Latn">wangsalan</span> for the <span lang="jav-Latn">dika</s
 </ul>
 </dd>
 <dt><span lang="jav-Latn">Bedor</span> (1 Bamboo)</dt>
-<dd>All of the <span lang="jav-Latn">wangsalan</span> for this card refer to its phallic appearance:
+<dd>
+All of the <span lang="jav-Latn">wangsalan</span> for this card refer to its phallic appearance:
 <ul>
 <li><span lang="jav-Latn">lindu ambèn</span> (sleeping-couch shaker)</li>
 <li><span lang="jav-Latn">pada nggawa</span> (we all carry it), used amongst men</li>
@@ -253,6 +255,7 @@ The <span lang="jav-Latn">wangsalan</span> for the <span lang="jav-Latn">dika</s
 <li><span lang="jav-Latn">paku sentong</span> (nail of the small room)</li>
 <li><span lang="jav-Latn">kenthès lèker</span> (pleasant cudgel)</li>
 </ul>
+</dd>
 <dt><span lang="jav-Latn">Kasut</span> (1 Coins)</dt>
 <dd>
 <ul>
@@ -264,12 +267,13 @@ The <span lang="jav-Latn">wangsalan</span> for the <span lang="jav-Latn">dika</s
 <dd>
 <ul>
 <li><span lang="jav-Latn">tiba kanteb</span> (falling down), since <span lang="jav-Latn">rèngkèk-rèngkèk</span> (walking with a bent back) sounds like <span lang="jav-Latn">déngkék</span></li>
-<li><span lang="jav-Latn">ménco jurang</span> (mynah bird of the gorge), via another name for it <span lang="jav-Latn">tèngkèk</spa></li>
-<li>in Yogyakarta it was called <span lang="jav-Latn">kendang Sala</span> (drum of Surakarta), since the drum sounds like <span lang="jav-Latn">andlingdanghèk</spa>(?)</li> </ul>
+<li><span lang="jav-Latn">ménco jurang</span> (mynah bird of the gorge), via another name for it <span lang="jav-Latn">tèngkèk</span></li>
+<li>in Yogyakarta it was called <span lang="jav-Latn">kendang Sala</span> (drum of Surakarta), since the drum sounds like <span lang="jav-Latn">andlingdanghèk</span>(?)</li>
 </ul>
 </dd>
 <dt><span lang="jav-Latn">Gunung</span> (3 Bamboo)</dt>
-<dd>Referring to the name “mountain”:
+<dd>
+Referring to the name “mountain”:
 <ul>
 <li><span lang="jav-Latn">pager jagad</span> (world wall)</li>
 <li><span lang="jav-Latn">wudun bumi</span> (earth pimple)</li>
@@ -312,7 +316,8 @@ The <span lang="jav-Latn">wangsalan</span> for the <span lang="jav-Latn">dika</s
 </ul>
 </dd>
 <dt><span lang="jav-Latn">Kéra</span> (7 Coins)</dt>
-<dd>Meaning “cross-eyed”:
+<dd>
+Meaning “cross-eyed”:
 <ul>
 <li><span lang="jav-Latn">putra pacé</span> (child of a type of fruit), unclear but <span lang="jav-Latn">pécé</span> means one-eyed</li>
 <li><span lang="jav-Latn">bebed klèmbrèh</span> (a batik garment worn by men, hanging loosely)</li>

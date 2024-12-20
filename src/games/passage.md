@@ -14,8 +14,8 @@ countries: FR,UK
 {%imageEnd%}
 
 <p class="lead">
-<span class="aka">Passage</span> is an old dice gambling game for two players.[@CompleatGamester p. 167] In French it was called <span lang="fr" class="aka">passe-dix</span> ‘pass-ten’, similarly in Italian <span lang="it" class="aka">passadiéci</span>,[@QueenAnnaFlorio 360] and in German <span lang="de" class="aka">Paschen</span>. It has also been called <span class="aka">pass-dice</span>.[@AnnalsOfGaming 45] <!-- OED: 1805   T. Holcroft Mem. Bryan Perdue II. 56   To..idle away..part of the four and twenty hours at hazard, pass-dice, picquet [etc.].
--->
+<span class="aka">Passage</span> is an old dice gambling game for two players.[@CompleatGamester p. 167] In French it was called <span lang="fr" class="aka">passe-dix</span> ‘pass-ten’, similarly in Italian <span lang="it" class="aka">passadiéci</span>,[@QueenAnnaFlorio 360] and in German <span lang="de" class="aka">Paschen</span>. It has also been called <span class="aka">pass-dice</span>.[@AnnalsOfGaming 45] {/* OED: 1805   T. Holcroft Mem. Bryan Perdue II. 56   To..idle away..part of the four and twenty hours at hazard, pass-dice, picquet [etc.].
+*/}
 </p>
 
 In England, the game was specifically outlawed by [the <cite>Gaming Act 1739</cite>](http://www.nzlii.org/nz/legis/imp_act_1881/ga173913gic19108/) (previously known as <cite>13 Geo. II., c. 19</cite>), which was a new addition since the <cite>Gaming Act 1738</cite> (<cite>12 Geo. II., c. 28</cite>) of the previous year:

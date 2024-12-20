@@ -21,11 +21,11 @@ My sow has pigg’d.[@PopularRhymes p. 114]
 
 In 1603 [Samuel Harsnett](https://en.wikipedia.org/wiki/Samuel_Harsnett) (1561–1631) — at the time archdeacon of Essex — listed it as “my sow hath pigd” amongst several other ‘Christmas games’ in his <cite>Declaration of Egregious Popish Impostures</cite>.[@PopishImpostures p. 116]
 
-<!--
+{/*
 other games:
 hynch pynch, and laugh not: coale vnder candlesticke: Frier Rush: and wo-penny hoe
 woe penny ho?
--->
+*/}
 
 [Thomas Middleton](https://en.wikipedia.org/wiki/Thomas_Middleton)’s 1619 play <cite>The Inner-Temple Masque, or Masque of Heroes</cite> alludes to the game amongst several others, as part of a facetious ‘last will and testament’:
 

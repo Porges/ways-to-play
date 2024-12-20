@@ -48,11 +48,8 @@ Undated tax stamp from A. D. Willis cards.
 {% imageEnd %}
 </div>
 
-<!--
-{/*
-<Section title="Playing cards & Māori">
-</Section>
--->
+> [!todo]
+> A section on Playing cards & Māori
 
 ## Manufacturers
 

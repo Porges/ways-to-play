@@ -10,27 +10,27 @@ players:
 
 ## History
 
-<!--
+{/*
 The earliest references I have found are often from British sources who believe the game to be of Chinese or perhaps other Asian origin — it is reported to be played at many outposts in British colonies — but as of yet I do not know of a true Chinese or other source of the game.
--->
+*/}
 
-<!--
+{/*
 However, the very first reference I have found is in the novel @ABurntOutCase [p. 153], which is set in a location on the upper Congo river.
 
 1916: https://archive.org/details/in.ernet.dli.2015.150016/page/n159/mode/2up?q=%22liar+dice%22
 
 No! This is 1961, and the book is incorrectly printed!
--->
+*/}
 
 The earliest reference to the game I have found is from 1934, when the game appeared in the famous American [Harry’s New York Bar](https://en.wikipedia.org/wiki/Harry%27s_New_York_Bar) in Paris. At this time it was already described as a game that had “long […] been popular in the Far East”.[@AmericanBarsInParis] In this version it is described as a game for two players, played with poker dice.
 
-<!--
+{/*
 
 1934: https://www.newspapers.com/article/the-miami-herald-liars-dice-popular-gam/130149358/
 
 1934: https://www.newspapers.com/article/santa-cruz-sentinel-american-bars-in-par/130149404/
 
--->
+*/}
 
 In 1936, it is mentioned in the Philippines,[@SportsInTheOrient] and by 1939 reported in Des Moines, Iowa.[@GeorgeSherriff] In that year a novel titled <cite>Liar Dice</cite> was published. This was a detective story set in [Tianjin](https://en.wikipedia.org/wiki/Tianjin), written by a man who had previously worked in the city.[@LiarDiceMoser]
 

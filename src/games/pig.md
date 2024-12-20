@@ -14,7 +14,7 @@ subgames:
 
 <p class="lead"><span class="aka">Pig</span> is a simple push-your-luck dice game for any number of players. There are many variations of this game.</p>
 
-<!-- also a card game: https://archive.org/details/hoylesrulesofgam00more/page/170/mode/2up?q=pig+dice+game -->
+{/* also a card game: https://archive.org/details/hoylesrulesofgam00more/page/170/mode/2up?q=pig+dice+game */}
 
 ## Pig
 
@@ -70,7 +70,7 @@ This version of the game is played with a coin instead of a die.[@OptimalPig p. 
 
 🚧 I have yet to complete this section; in the mean-time, the [Wikipedia article](https://en.wikipedia.org/wiki/Pig_(dice_game)) is a useful reference. 🚧
 
-<!--
+{/*
 - 2000 https://ieeexplore.ieee.org/abstract/document/8158672/
 - 2004 @OptimalPig
 - 2006 http://cs.gettysburg.edu/~tneller/papers/ccscne06.pdf
@@ -81,4 +81,4 @@ This version of the game is played with a coin instead of a die.[@OptimalPig p. 
 - 2017 https://www.cs.huji.ac.il/w~ai/projects/2017/minmax/PIG/files/report.pdf
 - 2022 https://www.mdpi.com/2571-905X/5/3/47
 - 2023 https://www.nature.com/articles/s41598-023-35237-x
--->
+*/}

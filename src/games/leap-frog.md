@@ -8,7 +8,7 @@ players:
 <p class="lead">Leap-Frog is a game for two or more players in which the object is to capture
 the most pieces from a board containing identical pieces.</p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## Equipment
 To play you will need a gridded board (@Murray2 [p. 93] suggests 15×15 to 18×18

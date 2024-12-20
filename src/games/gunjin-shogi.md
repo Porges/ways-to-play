@@ -35,7 +35,7 @@ is as follows:
 The board for the 14-piece version, printed on thin paper.
 {% imageEnd %}
 
-<!-- {/*TODO: this table is a best-guess at the moment */} -->
+{/* {/*TODO: this table is a best-guess at the moment */} */}
 <table class="table table-sm" lang="ja" style='clear:none'>
 <thead>
   <tr>

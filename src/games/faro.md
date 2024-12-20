@@ -5,7 +5,7 @@ players: banking
 ---
 
 
-<!-- DOI is broken: https://doi.org/10.25549/chs-m11411 -->
+{/* DOI is broken: https://doi.org/10.25549/chs-m11411 */}
 
 {% image
 src="CHS-5940.jpg" 

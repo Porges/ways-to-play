@@ -388,7 +388,7 @@ lang="ja-Latn">Yamauchi</span> family for three generations until <span class="n
 lang="ja-Latn">Yamauchi Hiroshi</span> (<span lang="ja">山内溥</span>) stepped
 down in 2002.
 
-<!--
+{/* 
   TODO: this seems dubious.
 
   <p> In the early days of the company,  <span class="noun" lang="ja-Latn">Fusajirō</span> joined forces with the “tobacco king” <span class="noun" lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) who had founded the <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco company in 1892. Like <span class="noun" lang="ja-Latn">Nintendō</span>, who were one of the first companies to produce Western-style cards in Japan, <span class="noun" lang="ja-Latn">Murai</span> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing”{%fn%}In some sources this is given in its translated form as the “Oriental Printing Company”.{%endfn%} (<span lang="ja">東洋印刷</span>).[@EbashiCigaretteCards]</p>
@@ -402,7 +402,7 @@ down in 2002.
     An example of a combination <span class="noun" lang="ja-Latn">Hanafuda</span> card included with a packet of Murai Bros. cigarettes. Note that the clubs are printed in the “wrong” colour.
 
   <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <span class="noun" lang="ja-Latn">Hanafuda</span> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <span class="noun" lang="ja-Latn">Hanafuda</span> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,{%fn%}<span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]{%endfn%} and <span class="noun" lang="ja-Latn">Tōyō</span> Printing was sold along with the rest of the company.[@TarHeel p. 362]</p>
-  } -->
+*/} 
 
 A too-brief summary of their later success: after WWII, <span class="noun"
 lang="jp-Latn">Nintendō</span> managed to survive a period of crushing taxation

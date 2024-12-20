@@ -9,7 +9,7 @@ order: 1955
 
 The law codes of Singapore, Malaysia, and Brunei all contain lists of illegal games which are based on this book (the spelling and ordering of the games are identical).
 
-<!-- excerpt -->
+{/* excerpt */}
 
 The games listed in the book are as follows.
 

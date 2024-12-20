@@ -17,7 +17,7 @@ remove one of the opponent’s pieces from the board (usually not from another
 mill).</p>
 
 
-<!-- excerpt -->
+{/* excerpt */}
 
 Most mill games are split into two phases of *placement* and *movement*, so that
 all pieces are placed on the board before any pieces are moved.

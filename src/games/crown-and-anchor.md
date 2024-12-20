@@ -17,7 +17,7 @@ subgames:
 <span class="aka">Crown & Anchor</span> is a dice game that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world. The game play is equivalent to that of {% gameref chuck-a-luck %}, but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: {% cards 's' %} spade, {% cards 'c' %} club, {% cards 'd' %} diamond, and {% cards 'h' %} heart.
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 {% image src="D0578.jpg" originalUrl="https://averweij.web.cern.ch/crownanchor.htm" 
   alt="Three dice bearing the symbols of a crown, anchor, and playing card symbols."
@@ -248,7 +248,7 @@ In 1940, it was reported that [Australian Imperial Force](https://en.wikipedia.o
 A “St. George Series” Crown & Anchor board, <abbr title="circa">c.</abbr> 1930s?
 {% imageEnd %}
 
-<!-- { /* TODO <p>As in the Boer and First World Wars, the game was played by prisoners in  and concentration camps.</p>*/} -->
+{/* { /* TODO <p>As in the Boer and First World Wars, the game was played by prisoners in  and concentration camps.</p>*/} */}
 
 ### Post-War
 
@@ -379,12 +379,8 @@ Playing with a dice tower in Laos; the board has names in Thai.
 {% imageEnd %}
 </div>
 
-<!--
-    {/*
-    <Section title="Myanmar">
-    </Section>
-    */}
-    -->
+> [!todo]
+> Myanmar?
 
 ### India and Nepal
 
@@ -480,9 +476,9 @@ lang="ban-Latn">udeng</span>](https://en.wikipedia.org/wiki/National_costume_of_
 
 In the Balinese game, bets can be placed spanning two symbols.
 
-<!-- TODO: what is the bet return here? -->
+{/* TODO: what is the bet return here? */}
 
-<!-- TODO: Javanese game: https://www.britishmuseum.org/collection/object/A_As-5302 -->
+{/* TODO: Javanese game: https://www.britishmuseum.org/collection/object/A_As-5302 */}
 
 Some of the sets of symbols used are:
 
@@ -557,7 +553,7 @@ A busy game being played during the Cup Match in Bermuda.
 
 In Bermuda, the game is legal during the weekend of the Cup Match (a cricket tournament), and played in large tents known as the “stock market”.[@CupMatchAndCarnival p. 267] It is also known as <span class="aka">Hook and Hat</span>.[@AScapeToBermuda p. 123]
 
-<!--{/* TODO: Lago Lago in Bhutan? */}-->
+{/*{/* TODO: Lago Lago in Bhutan? */}*/}
 
 ## Fairground variants
 

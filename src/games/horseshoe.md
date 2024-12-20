@@ -55,7 +55,7 @@ obstacle that a piece could fall into.
 This theme is also known in the Mongolian version of the game, where the circular board above is known as <span lang="mn-Latn" class="aka">temeenii tavkhai</span> (<span lang="mn-Cyrl" class="aka">тэмээний тавхай</span>/<span lang="mn-Mong" class="aka">ᠲᠡᠮᠡᢉᠡᠨ ᠦ᠋ ᠲᠠᠪᠠᠬᠠᠢ</span>) ‘camel’s paw’, and the circle is called the <span lang="mn-Latn">khudag</span> (<span lang="mn-Cyrl">худаг</span>/<span lang="mn-Mong">ᠬᠤᠳᠳᠤᠭ</span>) ‘well’. The square form of the board without a well is known as <span class="aka" lang="mn-Latn">dörvön bukh</span> (<span lang="mn-Cyrl" class="aka">дөрвөн бух</span>/<span lang="mn-Mong" class="aka">ᠳᠥᠷᠪᠡᠨ ᠪᠤᠬ</span>) ‘four bulls’.[@GamesOfMongolianShepherds p. 37–8]{%fn%}In the summary at the end of @GamesOfMongolianShepherds the game is described as if the goal is to _prevent_ the other player from entering the well, however this can’t be correct as the game does not function when played in this manner.{%endfn%}
 
 
-<!--<span lang="pa">ਦੋਗੁਟਿ</span> Punjabi?--> 
+{/*<span lang="pa">ਦੋਗੁਟਿ</span> Punjabi?*/} 
 
 
 ## Play

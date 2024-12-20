@@ -10,6 +10,7 @@ isbn = { version = "0.4.0" }
 markdown = "1.0.0-alpha"
 maud = "0.26.0"
 num-format = "0.4.4"
+saphyr = "0.0.3"
 serde = { version = "1.0.216", features = ["derive"] }
 serde_json = "1.0.133"
 serde_with = "3.11.0"

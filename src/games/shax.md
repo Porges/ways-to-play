@@ -12,7 +12,7 @@ pronouncer="ahmed_aw_abdi" class="aka" %} is a {%a mill-games,mill game%} from S
 
 {%aside%}The name is also transcribed with different letters for the sound /ħ/, such as <span lang="so">shah</span>, <span lang="so">shahh</span>, or <span lang="so">shaḥ</span>.{%endaside%}
 
-<!--
+{/*
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a
 href="https://twitter.com/hashtag/Shax?src=hash&amp;ref_src=twsrc%5Etfw">#Shax</a>
 Somali traditional Board game on <a
@@ -21,7 +21,7 @@ href="https://twitter.com/hashtag/HIBF2017?src=hash&amp;ref_src=twsrc%5Etfw">#HI
 🐪Tirsit Yetbarek (@ tirsity) <a
 href="https://twitter.com/tirsity/status/890503033280507904?ref_src=twsrc%5Etfw">July
 27, 2017</a></blockquote>
--->
+*/}
 
 ## History
 

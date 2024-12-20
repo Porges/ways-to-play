@@ -17,7 +17,7 @@ subgames:
 
 The goal of the game is for the players to guess the card which the dealer has chosen; the fact that the dealer must _choose_ the card and not select one at random turns this into a game of psychology rather than one of pure chance.
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## Equipment
 

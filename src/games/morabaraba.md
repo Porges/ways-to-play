@@ -180,9 +180,8 @@ In Lesotho, there are some well-known strategems (<span lang="st">mawa</span>/<s
 
 There are also others that I have not been able to figure out; see the sources linked above.
 
-<!--
-Unfortunately I have not been able to figure out exactly what they represent, but possibly they are names of specific piece formations.[@TransmitterOfAccolades] The Sesotho names are: <span lang="st">tjhitja</span>/<span lang="st">chitja</span> (‘hornless’ or ‘round’), which is apparently a winning strategy; <span lang="st">katapane</span>, another good strategy; and <span lang="st">qheane</span>, which is a poor or losing strategy.<cite r="MasculinityAccordion" page={[[185, 186]]} />  also ... seakgela/seakhela and qholo
--->
+> [!todo]
+> Unfortunately I have not been able to figure out exactly what they represent, but possibly they are names of specific piece formations.[@TransmitterOfAccolades] The Sesotho names are: <span lang="st">tjhitja</span>/<span lang="st">chitja</span> (‘hornless’ or ‘round’), which is apparently a winning strategy; <span lang="st">katapane</span>, another good strategy; and <span lang="st">qheane</span>, which is a poor or losing strategy.[@MasculinityAccordion p. 185–6] also ... seakgela/seakhela and qholo
 
 <div class="multi equal">
 {% image 

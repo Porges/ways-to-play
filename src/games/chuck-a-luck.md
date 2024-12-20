@@ -320,8 +320,8 @@ usual, the extended staking layout contains boxes for the following bets:
             <td>16.67%</td>
         </tr>
         </tbody>
-    </Table>
-    </dd>
+    </table>
+</dd>
 </dl>
 
 ### Other Hyronemus Bets

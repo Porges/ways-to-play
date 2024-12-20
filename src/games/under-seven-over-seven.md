@@ -11,7 +11,7 @@ England as an (illegal) attraction at race courses or fairs.[@ChelseaBuns]
 It is sometimes simply known as “Unders and Overs”.[@UndersAndOvers] The
 earliest mention I have found of it in newspapers is from 1803.[@usos1803]
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## Rules
 

@@ -13,7 +13,7 @@ according to the game), who must then chase them.
 The most obvious modern version of this game is ‘Duck, Duck, Goose’.
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## History
 

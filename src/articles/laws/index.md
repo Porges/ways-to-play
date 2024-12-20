@@ -7,11 +7,11 @@ order: 105
 
 ----
 
-<!--
+{/* 
 #### 1254
 
 France: Louis <span class="rnum">IX</span> forbids playing chess, dice, or tables games.[@Jurisprudence5 p. 271]
--->
+ */}
 
 #### 1665
 

@@ -29,7 +29,7 @@ The dealer (or last player, if there are only three) deals 7 cards face-down and
 
 The dealer then arranges the cards in the centre of the table by rank to make them easier to find; usually they are formed into a square around the stock pile, with nines and ones in front of the <span lang="jav-Latn">raja</span>, eights and twos in front of the <span lang="jav-Latn">patih</span>, sevens, threes, and fives in front of the <span lang="jav-Latn">unyik</span>, and sixes and fours on the side of the dealer.
 
-The top card of the stock is then turned face-up next to it. This will be the last card drawn and thus will go to the <span lang="jav-Latn">unyik</span>. The <span lang="jav-Latn">unyik</span> can then use this to plan their last move of the round.<!-- Strategy: they should try to keep a matching card in hand so that TODO -->
+The top card of the stock is then turned face-up next to it. This will be the last card drawn and thus will go to the <span lang="jav-Latn">unyik</span>. The <span lang="jav-Latn">unyik</span> can then use this to plan their last move of the round.{/* Strategy: they should try to keep a matching card in hand so that TODO */}
 
 The <span lang="jav-Latn">patih</span> is then permitted to look at the top card of the deck, which will be the second-to-last card drawn and thus their last card of the round, but it is not shown to the other players, and is replaced upon the top of the deck.
 

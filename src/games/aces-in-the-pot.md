@@ -14,7 +14,7 @@ subgames:
 The earliest mention I have found of this game is in the 1885 edition of
 @TheAmericanHoyle13 [p. 467].
 
-<!-- @TheCompleteBookOfGames [p. 351]. Later descriptions of this game such as Bell's all seem to stem from this one source.  -->
+{/* @TheCompleteBookOfGames [p. 351]. Later descriptions of this game such as Bell's all seem to stem from this one source.  */}
 
 ## Play
 

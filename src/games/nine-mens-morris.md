@@ -197,9 +197,9 @@ pleasure without placing wagers. No brother should play chess, backgammon, or
 </div>
 
 It is unclear <em>why</em> mill games were permitted by the
-Templars<!--{%fn%}TODO: it has been suggested (?) that the tripartite board was
+Templars{/*{%fn%}TODO: it has been suggested (?) that the tripartite board was
 taken as supportive of the trinity, or remniscent of the First Temple of
-Jerusalem.{%endfn%}-->, but, reading the rest of the passage (not quoted above),
+Jerusalem.{%endfn%}*/}, but, reading the rest of the passage (not quoted above),
 the intent of the Rule seems to be to prevent playing games for money — bets
 were allowed to be placed on games, but only with worthless items such as wooden
 tent pegs. Viewed in this light, perhaps mill games were considered less
@@ -286,10 +286,7 @@ Morris is evidently only suitable to be played by monkeys:
     originalUrl="https://www.digitale-sammlungen.de/en/view/bsb10149651?page=48" %}
 {% imageEnd %}
 
-<!--
-{/*
-<position="aside" src={imgLargeMerelsWithDiagonals} alt="">
-*/} -->
+{/* src={imgLargeMerelsWithDiagonals} */}
 
 The board with diagonals seems to appear first in Arabic sources;[@Murray2 p. 43] it is shown — as the only drawing — in the famous <span class="noun" lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<cite lang="ar">القاموس المحيط</cite>, ‘The Surrounding Ocean’) of [<span class="noun" lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi) (<span lang="fa">{% isolate 'فیروزآبادی' %}</span>, 1329–1414), published at the start of the 15th century.[@alQamus]
 
@@ -412,10 +409,10 @@ In other languages it has been called:
   * In Teochew it can be called <span lang="tws" class="aka">直直</span> (<span lang="tws-Latn">dig⁸ dig⁸</span>) ‘straight line’,[@Newell59] and there was a Teochew proverb that “[Chinese] chess is for immortals; straight-line is for beggars” (<span lang="tws">仙棋乞食直</span> <span lang="tws-Latn">siêng¹ gi⁵ keg⁴ ziah⁸ dig⁸</span>).[@Newell59]{%fn%}Much thanks to [Brandon Seah](https://learn-teochew.github.io/) for helping to figure this transliteration out.{%endfn%}
 * French: <span lang="fr" class="aka">le jeu du moulin</span> ‘the mill game’
 * Greek: <span lang="el" class="aka">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="el" class="aka">τριώδιον</span> ‘triodium’.[@Hyde2 p. 205]
-* German: names are based on the number nine, e.g. <span lang="de" class="aka">Neunstein</span> ‘nine stone’, <span lang="de" class="aka">Neunten Stein</span> ‘ninth stone’, <span lang="de" class="aka">Neunemahl</span> ‘nine flour’; or on the mill, e.g. <span lang="de" class="aka">Mühlespiel</span> ‘mill game’. Research by Jonas Richter indicates that the ‘nine’ names are the older form.[@RichterMerels] <!-- Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. --> In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de" class="aka">Fickmül</span>.{%fn%}See {%a rabelais,the Gargantua article%} for more about Fischart’s list.{%endfn%}
+* German: names are based on the number nine, e.g. <span lang="de" class="aka">Neunstein</span> ‘nine stone’, <span lang="de" class="aka">Neunten Stein</span> ‘ninth stone’, <span lang="de" class="aka">Neunemahl</span> ‘nine flour’; or on the mill, e.g. <span lang="de" class="aka">Mühlespiel</span> ‘mill game’. Research by Jonas Richter indicates that the ‘nine’ names are the older form.[@RichterMerels] {/* Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. */} In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de" class="aka">Fickmül</span>.{%fn%}See {%a rabelais,the Gargantua article%} for more about Fischart’s list.{%endfn%}
 * Gujarati: <span lang="gu" class="aka">નવ કાકરી</span> (<span lang="gu-Latn" class="aka">nav kākarī</span>) ‘nine pieces’
 * Hindi: <span lang="hi" class="aka">नवकंकरी</span> (<span lang="hi-Latn" class="aka">navakaṅkarī</span>),[@AncientIndianBoardGames] or <span lang="hi" class="aka">नव गोटी</span> (<span lang="hi-Latn" class="aka">nav gōṭī</span>), both meaning ‘nine pieces’
-* Kannada: <span lang="kn" class="aka">ನವಕಂಕರಿ</span> (<span lang="kn-Latn" class="aka">navakaṅkari</span>) ‘nine pieces’, <span lang="kn" class="aka">ಒಂಬತ್ತು ಕಾಯಿಯ ಆಟ</span> (<span lang="kn-Latn" class="aka">ombattu kāyiya āṭa</span>) ‘game of nine nuts (=pieces)’,<!-- https://www.youtube.com/watch?v=Cj_199Dl57c --> or generically <span lang="kn" class="aka">ಸಾಲು (ಮಣೆ) ಆಟ</span> (<span lang="kn-Latn" class="aka">sālu (maṇe) āṭa</span>) ‘row (board) game’
+* Kannada: <span lang="kn" class="aka">ನವಕಂಕರಿ</span> (<span lang="kn-Latn" class="aka">navakaṅkari</span>) ‘nine pieces’, <span lang="kn" class="aka">ಒಂಬತ್ತು ಕಾಯಿಯ ಆಟ</span> (<span lang="kn-Latn" class="aka">ombattu kāyiya āṭa</span>) ‘game of nine nuts (=pieces)’,{/* https://www.youtube.com/watch?v=Cj_199Dl57c */} or generically <span lang="kn" class="aka">ಸಾಲು (ಮಣೆ) ಆಟ</span> (<span lang="kn-Latn" class="aka">sālu (maṇe) āṭa</span>) ‘row (board) game’
 * Korean: <span lang="ko" class="aka">곤질(고누)</span> (<span lang="ko-Latn" class="aka">gonjil(-gonu)</span>){%fn%}Given as <span lang="ko-Latn" class="aka">kon-tjil</span> in older books.[@KoreanGames p. 102]{%endfn%}
 * [Mono](https://en.wikipedia.org/wiki/Mono_language_(California)): <span lang="mnr" class="aka">yakamaido</span> ‘square game’[@CulinNorthAmericanIndians p. 796]
 * Ottoman Turkish: <span lang="ota" class="aka">طقوز طاش</span> (<span lang="ota-Latn" class="aka">dokuz taş</span>) ‘nine stone’, or <span lang="ota" class="aka">دقورجین</span> (<span lang="ota-Latn" class="aka">dokurġin</span>) [something to do with nine?][@Hyde2 p. 206]
@@ -423,9 +420,9 @@ In other languages it has been called:
 * Telugu: <span lang="te" class="aka">దాడి</span> (<span lang="te-Latn" class="aka">dāḍi</span>) ‘attack’
 * Urdu: <span lang="ur" class="aka">نو گوٹی</span> (<span lang="ur-Latn" class="aka">nau guṭī</span>) ‘nine pieces’[@GuptaD p. 145]
 
-<!--{/* Persian: دوز نه تایی
+{/*{/* Persian: دوز نه تایی
 dvz noh tʾyi
-flat 9 triads */}-->
+flat 9 triads */}*/}
 
 {% image 
     alt="A Morris board in a brick wall, made out of black and red bricks"
@@ -540,7 +537,7 @@ a piece that is already on the board.
 
 With perfect play the game is a draw.[@SolvingLaskerMorris][@UltraStrongMorris]
 
-<!--
+{/*
 
 ## Commerical Variants
 
@@ -605,7 +602,7 @@ Trencho board and pieces. A board with a different configuration can be seen
 [here](https://www.flickr.com/photos/communityhistorysa/15513283420/in/photolist-sZrx-4ymJZ6-nHnS3U-qtBtX5-bWfoc7-dMYNfX-pCRCFN-JQvGw-f5ZAxg-83Djx-Je3MXg/).
 {% imageEnd %}
 
--->
+*/}
 
 ## See also
 

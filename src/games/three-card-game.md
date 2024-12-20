@@ -16,11 +16,11 @@ subgames:
 This page discusses variants of what — for lack of a better term — I call the ‘three-card game’. The game is played with a deck of cards and the goal is to achieve a score as close to 9 as possible. It dates from at least the late Ming dynasty ({%c%} 1580–1600), but has spread to many countries, with one route in particular originating in Japan, passing down through the Malay Archipelago, and arriving in Aboriginal communities in the Northern Territory of Australia. The most widespread version of the game today is that derived in Europe and known as Baccarat.
 </p>
 
-<!--
+{/*
 {% image position="left" src="../../maps/OichoKabu.svg" alt="" %}
 Countries where the game has been played.
 {% imageEnd %}
--->
+*/}
 
 The earliest reference that I know of is that of <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒</span>, 1556–1622), a late Ming-era poet who mentioned the game <span lang="zh" class="aka">扯三章</span>/<span lang="zh" class="aka">扯三張</span>{%fn%}The first name is used in the @YeziPu, the second in @XuYeziPu.{%endfn%}  (‘draw 3 cards’) in passing while describing the rules of the game <span lang="zh">扯三章</span> (‘draw 5 cards’, for which, see the {%gameref five-card%} article). The rules are not explicitly given (he simply states <span lang="zh">扯三張例俱如前</span> ‘drawing 3 cards: rules as above’ after a subsection of the 5-card rules), but it is clear from the context that the game is essentially the same as the more recent versions given below.[@XuYeziPu_2] <span lang="cmn-Latn-pinyin" class="noun">Pān</span> also describes the game being played for drinks:[@XuYeziPu_2 281]
 
@@ -63,7 +63,7 @@ Possibly the game was originally called the ‘three card’ (<span lang="ja">�
 {%image src="3card.png" alt="" noborder=true position="aside"
   license="cc0" originalUrl="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/cb3e601f-5df0-4433-bbae-723e214ef33c"
   orgName="General Library in the University of Tokyo" %}
-A three-card game being played in a picture that accompanies the story “A Man Coming to [Ponto”](https://en.wikipedia.org/wiki/Ponto-ch%C5%8D) <span lang="ja">「<ruby>先斗<rp>（</rp><rt>ぼんと</rt><rp>）</rp></ruby>に<ruby>置<rp>（</rp><rt>をい</rt><rp>）</rp></ruby>て<ruby>来多<rp>（</rp><rt>きた</rt><rp>）</rp></ruby>男」</span> in the book <cite>Twenty Cases of Unfilial Children</cite> <cite lang="ja">本朝二十不孝</cite> (1686) by [<span lang="ja-Latn" class="noun">Ihara Saikaku</span>](https://en.wikipedia.org/wiki/Ihara_Saikaku) (<span lang="ja">井原西鶴</span>, 1642—1693); the book is a parody of the Chinese classic [<cite>Twenty-Four Paragons of Filial Piety</cite> <cite lang="zh">二十四孝</span>.](https://en.wikipedia.org/wiki/The_Twenty-four_Filial_Exemplars)
+A three-card game being played in a picture that accompanies the story “A Man Coming to [Ponto”](https://en.wikipedia.org/wiki/Ponto-ch%C5%8D) <span lang="ja">「<ruby>先斗<rp>（</rp><rt>ぼんと</rt><rp>）</rp></ruby>に<ruby>置<rp>（</rp><rt>をい</rt><rp>）</rp></ruby>て<ruby>来多<rp>（</rp><rt>きた</rt><rp>）</rp></ruby>男」</span> in the book <cite>Twenty Cases of Unfilial Children</cite> <cite lang="ja">本朝二十不孝</cite> (1686) by [<span lang="ja-Latn" class="noun">Ihara Saikaku</span>](https://en.wikipedia.org/wiki/Ihara_Saikaku) (<span lang="ja">井原西鶴</span>, 1642—1693); the book is a parody of the Chinese classic [<cite>Twenty-Four Paragons of Filial Piety</cite> <cite lang="zh">二十四孝</cite>.](https://en.wikipedia.org/wiki/The_Twenty-four_Filial_Exemplars)
 {%imageEnd%}
 
 Up to ten people can play the game (aside from the dealer).
@@ -162,7 +162,7 @@ The hand totals are counted with special gambling-specific numbers. Some of thes
     <td>9 <span lang="ja">九</span></td>
     <td><span lang="ja-Latn">kyū</span></td>
     <td><span lang="ja-Latn">kabu</span></td>
-    <td>From Portuguese <span lang="pt">cabo</span>, ‘end’. <!--Removed, since I have no idea where this came from: In some very old documents <span lang="ja-Latn">kabu</span> is written <span lang="ja">九寸</span>.--></td>
+    <td>From Portuguese <span lang="pt">cabo</span>, ‘end’. {/*Removed, since I have no idea where this came from: In some very old documents <span lang="ja-Latn">kabu</span> is written <span lang="ja">九寸</span>.*/}</td>
     </tr>
 </tbody>
 </table>

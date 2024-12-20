@@ -12,12 +12,11 @@ It was explicitly banned by the <cite>Gaming Act 1738</cite> (<cite>12 Geo. II.,
 
 Some few references that I have found: In a satirical verse published in 1740, one “Damon” is described as a “ſerious gameſter at the ace of hearts”.[@ACharacter] In his 1753 book @LettersToAGentlemanOfFortune [p. 36] Lyonell Vane included the game in a fictional diary of a lady who is “far gone in high-life”.
 
-<!--
+{/*
 https://archive.org/details/McGillLibrary-osl_the_toast_BO5022_folioS31633t1747-20074/page/n195/mode/2up?q=%22ace+of+hearts%22
 
 https://archive.org/details/sim_gentlemans-magazine_1740-03_10_3/page/138/mode/2up?q=%22ace+of+hearts%22
-
--->
+*/}
 
 ## Play
 

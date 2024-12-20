@@ -8,7 +8,7 @@ As the probable country of origin of playing cards, China has a long history of
 card-playing and many different varieties.
 </p>
 
-<!--excerpt-->
+{/* excerpt */}
 
 The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard
 Chinese: {%pronounce lang="cmn-Latn-pinyin" word="pái" pronouncer="LofZRules"
@@ -19,22 +19,22 @@ languages adjacent to China, a derived or related term is used in the local
 language. Below I list some examples, ordered by number of speakers:
 
 * Chinese: <span lang="zh">牌</span> <span lang="cmn-Latn-pinyin">pái</span> (Mandarin)
-* Vietnamese: <span lang="vi">bài</span> <!-- 76M -->
+* Vietnamese: <span lang="vi">bài</span> {/* 76M */}
 * Thai: <span lang="th">ไพ่</span> ({% pronounce lang="th-Latn" word="pâi"
-  file="pronunciation_th_ไพ.mp3" pronouncer="Ghee" %}) <!-- 44M -->
-* Burmese: <span lang="my">ဖဲ</span> (<span lang="my-Latn">hpai</span>) <!-- 33M --> 
-* Lao: <span lang="lo">ໄພ້</span> (<span lang="lo-Latn">pʰâi</span>) <!-- 30M -->
+  file="pronunciation_th_ไพ.mp3" pronouncer="Ghee" %}) {/* 44M */}
+* Burmese: <span lang="my">ဖဲ</span> (<span lang="my-Latn">hpai</span>) {/* 33M */} 
+* Lao: <span lang="lo">ໄພ້</span> (<span lang="lo-Latn">pʰâi</span>) {/* 30M */}
 * Khmer: <span lang="km">បៀ</span> ({% pronounce lang="km-Latn" word="bie"
-  file="pronunciation_km_បៀ.mp3" pronouncer="chetanachey" %}) <!-- 16M -->
-* [Zhuang:](https://en.wikipedia.org/wiki/Zhuang_languages) <span lang="za-Latn">bej</span> or <span lang="zhn-Latn">paih</span>/<span lang="zhn-Latn">paij₂</span> (Nong Zhuang)[@ZCELexicon] <!-- 16M -->
-* [Bouyei:](https://en.wikipedia.org/wiki/Bouyei_language) <span lang="pcc">pai²</span>[@DictionnaireDioiFrancais p. 365]  <!-- 2.7M --> <!-- TODO: this is not the modern way to write the tones -->
-* [Tai Lue:](https://en.wikipedia.org/wiki/Tai_Lue_language) <span lang="khb">ᦘᦻᧉ</span> (<span lang="khb-Latn">pʰaaj⁶</span>)[@DaiLueDictionary] <!-- 550k -->
-* [Bru:](https://en.wikipedia.org/wiki/Bru_language) <span lang="bru">ບາຍ</span> (<span lang="bru-Latn">bai</span>)[@BruDictionary] <!-- 300k -->
-* [Kayan:](https://en.wikipedia.org/wiki/Padaung_language) <span lang="pdu-Latn">phaǐ₁</span>[@KayanDictionary] <!-- 130k -->
-* [Dungan:](https://en.wikipedia.org/wiki/Dungan_language) <span lang="dng">пэ</span> (<span lang="dng-Latn">pe</span>) <!-- 110k -->
-* [Chin:](https://en.wikipedia.org/wiki/Falam_language) <span lang="cfm">phe₂</span> (Falam)[@ChinFalamDictionary]; <span lang="cbl">phe₁</span> or <span lang="cbl">phe₃</span> (Bualkhaw)[@ChinBualkhawDictionary] <!-- 107k -->
-* [Rawang:](https://en.wikipedia.org/wiki/Rawang_language) <spang lang="raw">pày</span>[@RawangDictionary] <!-- 63k -->
-* [Kayaw:](https://en.wikipedia.org/wiki/Kayaw_language) <span lang="kvl-Latn">be₁</span>[@KayawDictionary] <!-- 17k -->
+  file="pronunciation_km_បៀ.mp3" pronouncer="chetanachey" %}) {/* 16M */}
+* [Zhuang:](https://en.wikipedia.org/wiki/Zhuang_languages) <span lang="za-Latn">bej</span> or <span lang="zhn-Latn">paih</span>/<span lang="zhn-Latn">paij₂</span> (Nong Zhuang)[@ZCELexicon] {/* 16M */}
+* [Bouyei:](https://en.wikipedia.org/wiki/Bouyei_language) <span lang="pcc">pai²</span>[@DictionnaireDioiFrancais p. 365]  {/* 2.7M */} {/* TODO: this is not the modern way to write the tones */}
+* [Tai Lue:](https://en.wikipedia.org/wiki/Tai_Lue_language) <span lang="khb">ᦘᦻᧉ</span> (<span lang="khb-Latn">pʰaaj⁶</span>)[@DaiLueDictionary] {/* 550k */}
+* [Bru:](https://en.wikipedia.org/wiki/Bru_language) <span lang="bru">ບາຍ</span> (<span lang="bru-Latn">bai</span>)[@BruDictionary] {/* 300k */}
+* [Kayan:](https://en.wikipedia.org/wiki/Padaung_language) <span lang="pdu-Latn">phaǐ₁</span>[@KayanDictionary] {/* 130k */}
+* [Dungan:](https://en.wikipedia.org/wiki/Dungan_language) <span lang="dng">пэ</span> (<span lang="dng-Latn">pe</span>) {/* 110k */}
+* [Chin:](https://en.wikipedia.org/wiki/Falam_language) <span lang="cfm">phe₂</span> (Falam)[@ChinFalamDictionary]; <span lang="cbl">phe₁</span> or <span lang="cbl">phe₃</span> (Bualkhaw)[@ChinBualkhawDictionary] {/* 107k */}
+* [Rawang:](https://en.wikipedia.org/wiki/Rawang_language) <span lang="raw">pày</span>[@RawangDictionary] {/* 63k */}
+* [Kayaw:](https://en.wikipedia.org/wiki/Kayaw_language) <span lang="kvl-Latn">be₁</span>[@KayawDictionary] {/* 17k */}
 
 Unusually, Japan does not use cards derived from Chinese examples, but instead
 from European (specifically Portuguese) cards (see {%a japan, the page about
@@ -42,9 +42,9 @@ Japanese cards %} for more).
 
 ## Types of cards
 
-<!--
+{/* 
 TODO: @ModernChineseCharacterCards, @BerryChineseSuit
--->
+*/}
 
 The many types of Chinese and Chinese-derived cards can be broken down into several broad categories, as follows.
 
@@ -62,7 +62,7 @@ Those derived from **dice**:
 * 15-Point Cards (<span lang="zh">十五湖</span> <span lang="cmn-Latn-pinyin">shíwǔ hú</span>)
 * Sichuan domino cards (<span lang="zh">川牌</span>)
 
-<!--
+{/*
 
 domino card image: https://www.prm.ox.ac.uk/collections-online#/item/prm-object-65212
 
@@ -70,7 +70,7 @@ https://www.prm.ox.ac.uk/collections-online#/item/prm-object-171321
 
 women playing: https://doi.org/10.25549/impa-m56453
 
--->
+*/}
 
 Those derived from paper **money**/banknotes:
 * Four-Suited money cards, of which most types are extinct:
@@ -93,4 +93,4 @@ Those that are numbered or use **characters** (<span lang="zh">字牌</span> <sp
 * Luzhou Big Two cards <span lang="zh">泸州大贰</span>, from Luzhou city, Sichuan province
 * Leshan round cards <span lang="zh">樂山圈牌</span>, from Leshan city, Sichuan province
 
-<!-- Those that resemble flies from a distance -->
+{/* Those that resemble flies from a distance */}

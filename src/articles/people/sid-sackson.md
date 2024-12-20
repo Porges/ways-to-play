@@ -75,4 +75,5 @@ Games that are in **bold** below are those of his own invention.
 <li>Bolivia</li> <li>Draw Poker</li> <li>Stud Poker</li> <li>Pinochle</li>
 <li>Contract Bridge</li> <li>Rummy</li> <li>500 Rummy</li> <li>Gin Rummy</li>
 <li>Oklahoma Gin</li> <li><strong>Buried Treasure</strong></li> <li><strong>Divide and
-Conquer</strong></li> <li><strong>Card Football</strong></li> <li><strong>Card Stock Market</strong></li> </ul>
+Conquer</strong></li> <li><strong>Card Football</strong></li> <li><strong>Card Stock Market</strong></li>
+</ul>

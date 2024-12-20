@@ -74,7 +74,7 @@ Scoring possibilities for the winner are as follows. I have found these the hard
 * <span lang="th">เก็งข้าง</span> ‘side guess’ (฿4): [might involve placing a card open while waiting?]
 * <span lang="th">สี่ดองมืด</span> ‘concealed (dark) 4 tong’ (฿16): a hand consisting of 4 tongs, with none of them exposed
 * <span lang="th">สี่ตองผ่อง</span> ‘open (bright) 4 tong’ (฿8): a hand consisting of 4 tongs, with at least one exposed
-<!--* [unsure of next one ???] (฿4, 8, 12, 16, 20, 24)-->
+{/** [unsure of next one ???] (฿4, 8, 12, 16, 20, 24)*/}
 * <span lang="th">สามดับ</span> ‘three out’ (฿12): one set of anything, with the remaining eight cards being of a single rank, winning on a ninth to form three tongs
 * <span lang="th">สามแดง</span> ‘three reds’ (฿40): one set of anything, with the remaining eight being red-stamped cards, winning on a ninth to form three tongs
 * ช่องขาว ‘white slot’ (฿40): no joker, [waiting for something?]

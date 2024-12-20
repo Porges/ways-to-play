@@ -19,7 +19,8 @@ In 1616 it appears in [Ben Johnson](https://en.wikipedia.org/wiki/Ben_Jonson)’
 It was probably a physical game played by men, also mentioned in a poem (“A New-yeares gift sent to Sir Simeon Steward”) published by [Robert Herrick](https://en.wikipedia.org/wiki/Robert_Herrick_(poet)) in 1648:[@Hesperides 146]
 
 <blockquote>
-<p>Of Christmas sports, the <em>Wassell-boule</em>,<br/>
+<p>
+Of Christmas sports, the <em>Wassell-boule</em>,<br/>
 That tost up, after <em>Fox-i’th’hole</em>:<br/>
 Of <em>Blind-man-buffe</em>, and of the care<br/>
 That young men have to shooe the <em>Mare</em>:

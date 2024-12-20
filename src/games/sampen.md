@@ -20,7 +20,7 @@ subgames:
 <span lang="jav-Latn" class="noun aka">Sampèn</span> is a simple luck-based gambling game played in Java using {%a ceki%}.[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## The Game
 

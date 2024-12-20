@@ -12,7 +12,7 @@ mainImage: 52423713.jpg
 <span lang="cmn-Latn-pinyin" class="noun aka">Zuì Lǜ</span> (<span lang="zh" class="aka">醉綠</span>, ‘drunken green’) was a very old Chinese drinking game from the late Ming period that is played with five dice. At a later stage it was known as <span lang="zh" class="aka">合歡</span> <span lang="cmn-Latn-pinyin" class="noun aka">Héhuān</span> ‘happy union’.[@BettingOnEmpire p. 42]
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
 {% image src="52423713.jpg" alt="Pages from a book with four diagrams of dice rolls in pictorial form and Chinese writing around each diagram indicating the name and outcome of the roll."
     size="wide"
