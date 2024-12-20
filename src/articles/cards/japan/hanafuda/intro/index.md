@@ -15,9 +15,9 @@ hero:
 {%pronounce pronouncer="biscuit" word="Hanafuda" lang="ja-Latn" file="pronunciation_ja_花札.mp3" noun=true %} (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as {% pronounce pronouncer="ssoonkimi" word="hwatu" lang="ko-Latn" file="pronunciation_ko_화투.mp3" %} (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.
 </p>
 
-<!-- excerpt -->
+{/* excerpt */}
 
-<!--
+{/* 
 {% image
     size="wide"
     src="16201732242_8d1d3ed19d_o.jpg"
@@ -29,7 +29,7 @@ hero:
     originalUrl="https://www.flickr.com/photos/68532869@N08/16201732242" %}
 Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintendo
 {% imageEnd %}
--->
+*/}
 
 ## Composition of the deck
 
@@ -259,21 +259,6 @@ Finally, the player takes (‘captures’) any cards that were matched together 
 of the pool, and places them face-up in front of themselves. This ends their
 turn.
 
-<!--
-    {/* <section id="terminology">
-      <dl>
-        <dt><span lang="ja">場</span> <span lang="ja-Latn">ba</span>, ‘field’</dt>
-        <dd>The area where cards are played.</dd>
-
-        <dt><span lang="ja">親</span> <span lang="ja-Latn">oya</span>, ‘parent’</dt>
-        <dd>The dealer.</dd>
-
-        <dt><span lang="ja">ナカ</span> <span lang="ja-Latn">naka</span>, ‘middle’</dt>
-        <dd>The second player in a three-player game.</dd>
-        
-        <dt><span lang="ja">ビキ</span> <span lang="ja-Latn">biki</span></dt>
-        <dd>The third player in a three-player game.</dd>
-      </dl>
-    </section> */}
-  </>);
--->
+> [!todo]
+> Terminology
+> <dl> <dt><span lang="ja">場</span> <span lang="ja-Latn">ba</span>, ‘field’</dt> <dd>The area where cards are played.</dd> <dt><span lang="ja">親</span> <span lang="ja-Latn">oya</span>, ‘parent’</dt> <dd>The dealer.</dd> <dt><span lang="ja">ナカ</span> <span lang="ja-Latn">naka</span>, ‘middle’</dt> <dd>The second player in a three-player game.</dd> <dt><span lang="ja">ビキ</span> <span lang="ja-Latn">biki</span></dt> <dd>The third player in a three-player game.</dd> </dl>

@@ -75,6 +75,6 @@ Facetiis, dicteriis ac ænigmatibus certare, ingeniosum est; pila, harpasto, (qu
 
 A 1666 Latin-only edition in the Taylorian library has:[@TaylorComenius 107]
 
-<blockquote lang=la">
+<blockquote lang="la">
 Facetiis, dictériis ac ænigmátibus certáre, ingeniosum est; Pila, harpastô (qui minor est folle, & major paganicâ[)] impostoriâ, Sphærâ in Sphæristerio, & Conis, Trocho, Turbone & Tubulo Sambuceo (quo elisa glande stupea strepitum cient) Globulis, Myinda, Par impar, O scillo (O scillatione[)], Basilinda, Apodidrascindâ, Cindelismo &c. Puerili: chartis (tabulis) lusoriis, Talis (Tesseris) Aleâ (Fritillo) pyrgo (turriculâ) aleatorium: micàre digitis Italorum; Ascolismus empusæ est. Latrunculis (quibis quidam privilegiarii rusticelli Saxonici in ducatu Brunswicensi præcullunt,) operosum.
 </blockquote>

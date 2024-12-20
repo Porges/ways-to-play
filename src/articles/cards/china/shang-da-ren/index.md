@@ -23,7 +23,8 @@ The standard version of the text can be interpreted loosely as:[@SocialHeat p. 2
 <strong><span class="red">佳</span></strong>作仁<br/>
 <strong><span class="red">可</span></strong>知禮
 </p>
-<p>His Greatness<br/>
+<p>
+His Greatness<br/>
 Confucius<br/>
 has taught three thousand students<br/>
 of which seventy became virtuous scholars.<br/>

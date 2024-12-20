@@ -10,14 +10,14 @@ hero:
     author: "Delpixel"
     license: "stock-image"
 ---
-
 <p class="lead">Mill games are a family of boardgames also known as <em>Morris</em> or
 <em>Merels</em> games. The main aim of any mill game is to try to form a row of
 three pieces, which is called a ‘mill’, and which usually allows the player to
 remove one of the opponent’s pieces from the board (usually not from another
 mill).</p>
 
-<!-- excerpt -->
+
+{/* excerpt */}
 
 Most mill games are split into two phases of *placement* and *movement*, so that
 all pieces are placed on the board before any pieces are moved.

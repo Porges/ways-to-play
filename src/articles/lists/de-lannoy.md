@@ -5,6 +5,7 @@ order: 1464
 
 <p class="lead">
 In 1464, <a href="https://en.wikipedia.org/wiki/Jean_de_Lannoy">Jean de Lannoy</a> (1410–1493) — a nobleman from Lannoy, in what was then the Holy Roman Empire but now is part of northern France — wrote a series of letters to his newly-born son, in the fear that he would die before he was able to educate him personally.[@LesLettresDuSeigneurDeLannoy1856]
+</p>
 
 In one letter he warns against the dangers of games, usefully providing a list of games that were popular at the time:[@LesLettresDuSeigneurDeLannoy p. 241]
 
@@ -19,7 +20,7 @@ The games mentioned are:
     - <span lang="fr">rouffle</span>
     - <span lang="fr">XXXI</span>: see {%gameref thirty-one%}
     - <span lang="fr">ghelicque</span>: see {% gameref glic %}
-    - <span lang="fr">hanequin</span> <!-- Anakin, Hannikin -->
+    - <span lang="fr">hanequin</span> {/* Anakin, Hannikin */}
     - <span lang="fr">franc ju</span>
 - Table games:
     - <span lang="fr">droit ju</span>
@@ -31,6 +32,5 @@ The games mentioned are:
 - Dice games:
     - <span lang="fr">poulain</span>
     - <span lang="fr">lymechon</span>
-    - <span lang="fr">gobelet</span> <!-- maybe Treygobet? OED: ?1565   Enterlude of Youth sig. C.iii   Syr I can teache you to play at the dice At the quenes game and at the Iryshe The Treygobet and the hasarde also And many other games mo.
- -->
+    - <span lang="fr">gobelet</span> {/* maybe Treygobet? OED: ?1565   Enterlude of Youth sig. C.iii   Syr I can teache you to play at the dice At the quenes game and at the Iryshe The Treygobet and the hasarde also And many other games mo. */}
     - <span lang="fr">nycque nocque</span>

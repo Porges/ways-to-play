@@ -17,7 +17,7 @@ to larger firms, and the designs aren’t made by the themselves. Thanks to the
 rise of crowdfunding, the variety of designs has greatly expanded from the
 traditional patterns.
 
-<!-- excerpt -->
+{/* excerpt */}
 
 ## [Blank’s Art Project](https://blankproject.kr/)
 
@@ -153,7 +153,7 @@ lang="ja-Latn">Hanafuda</span>/<span class="noun" lang="ja-Latn">Kabufuda</span>
 know of, which is printed on poker-sized cards. There is also a <span class="noun"
 lang="ja-Latn">Hanafuda</span>-only deck, in a traditional format.
 
-<!-- {/*<p>by Hanako: https://profile.ameba.jp/ameba/estudio-artes</p>*/} -->
+{/* by Hanako: https://profile.ameba.jp/ameba/estudio-artes */}
 
 {% image 
   src='NishikiFuda.jpg'

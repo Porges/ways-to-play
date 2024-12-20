@@ -26,7 +26,7 @@ The earliest definite written description of these cards comes from the Chinese 
 The list of figures given by <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> is as follows. The Chinese text can be exactly recovered by reading across each row.[@LuRong p. 90–91]
 
 <table>
-<caption>In this table, I have abbreviated ‘myriads’ as M and ‘strings of coins’ as C.
+<caption>In this table, I have abbreviated ‘myriads’ as M and ‘strings of coins’ as C.</caption>
 <thead>
 <tr>
 <th>Card</th>
@@ -203,7 +203,7 @@ class="noun">Hūyán Chuò</span> still retains his name in
 <cite>Encomium</cite>.{%endfn%}
 
 <dl>
-<dt><span lang="zh">六萬貫</span> 6MC<dt>
+<dt><span lang="zh">六萬貫</span> 6MC</dt>
 <dd>The <abbr class="initialism">XHYS</abbr> character <span lang="zh">李海</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Hǎi</span> is given instead of the corresponding <abbr class="initialism">WM</abbr> character <span lang="zh">李俊</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jùn</span>. Both of these have the same epithet “River Dragon”.</dd>
 <dt><span lang="zh">二十萬貫</span> 20MC</dt>
 <dd><span lang="zh">张横</span> <a href="https://en.wikipedia.org/wiki/Zhang_Heng_(Water_Margin)"><span lang="cmn-Latn-pinyin" class="noun">Zhāng Héng</span></a>’s nickname is given as “Ten Feet of Steel”, which is his nickname in <abbr class="initialism">XHYS</abbr>, instead of “Boatman”, his nickname in <abbr class="initialism">WM</abbr>. In <abbr class="initialism">WM</abbr>, “Ten Feet of Steel” is the nickname given to a different character, <span lang="zh">扈三娘</span> <a href="https://en.wikipedia.org/wiki/Hu_Sanniang"><span lang="cmn-Latn-pinyin" class="noun">Hù Sānniáng</span></a>.</dd>

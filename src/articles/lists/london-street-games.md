@@ -198,15 +198,12 @@ Stick games:
 <li>Catching the Falling Wand</li>
 <li>Seizing Sticks (Scotch and English)</li>
 <li>Wand Balance Race</li>
-<li>Tibby-Cat (Nibby-Cap)
-<ul>
+<li>Tibby-Cat (Nibby-Cap)<ul>
 <li>Sets</li>
 <li>Runs</li>
 <li>Woggles</li>
 <li>Catchers</li>
-<li>Singles</li>
-</ul>
-</li>
+<li>Singles</li></ul></li>
 <li>Hitting the Mummy</li>
 </ul>
 
@@ -833,11 +830,9 @@ Chalk games:
 <li>Germans–English</li>
 <li>Polly Polly What’s the Time</li>
 <li>Boots, Shoes, Tips, or Nails</li>
-<li>Chalk Chase
-<ul>
+<li>Chalk Chase<ul>
 <li>Convicts and Warders (Tracking the Convicts)</li>
-<li>Scouts</li>
-</ul>
+<li>Scouts</li></ul></li>
 </ul>
 
 Touch games:

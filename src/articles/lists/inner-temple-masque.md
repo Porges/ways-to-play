@@ -2,11 +2,10 @@
 title: Thomas Middleton’s <cite>The Inner-Temple Masque</cite> (1619)
 order: 1619
 ---
-
-<!--
+{/*
 With explanations:
 https://archive.org/details/cu31924013133453/page/n217/mode/2up?q=%22sow+has+pigged%22
--->
+*/}
 
 <p class="lead"><a href="https://en.wikipedia.org/wiki/Thomas_Middleton">Thomas Middleton</a>’s <cite>The
 Inner-Temple Masque, or Masque of Heroes</cite> features a scene in which a
@@ -80,8 +79,6 @@ The games listed are:
 <dt>Tickle Mee Quickly</dt><dd>a card game</dd>
 <dt>My Ladies Hole</dt><dd>a card game: {%gameref my-ladys-hole %}</dd>
 <dt>My Sow Has Pigd</dt><dd>a card game: {%gameref my-sow-pigged%}</dd>
-<dt>Shooe the Mare</dt>
-<dd>a physical game: {%gameref shoe-the-mare %}
-</dd>
+<dt>Shooe the Mare</dt><dd>a physical game: {%gameref shoe-the-mare %}</dd>
 <dt>Blind Man Buffe</dt><dd></dd>
 </dl>

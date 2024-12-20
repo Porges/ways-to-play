@@ -9,7 +9,7 @@ order: 1955
 
 The law codes of Singapore, Malaysia, and Brunei all contain lists of illegal games which are based on this book (the spelling and ordering of the games are identical).
 
-<!-- excerpt -->
+{/* excerpt */}
 
 The games listed in the book are as follows.
 
@@ -31,7 +31,7 @@ The games listed in the book are as follows.
     - Sook Sik Pai ({% a four-colour-cards %})
     - Luk Foo Pai
     - Seong Kum Pai or Pin Kum Pai
-    - Chi Kee Pai ({% a ceki %})
+    - Chi Kee Pai ([Ceki](articles/cards/ceki/index.md))
     - Sap Ng Hor Pai
     - Tung Koon Pai
     - Oh Peh Pai

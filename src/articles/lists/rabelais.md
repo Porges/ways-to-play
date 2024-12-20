@@ -7,8 +7,7 @@ order: 1534
 One of the most famous historical lists of games is that found in Chaper 22 of <a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais"><span class="noun" lang="fr">François Rabelais</span></a>’ <a href="https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel"><cite lang="fr">Gargantua</cite></a>, first published in 1534. In the original French the list contained 216 games, but in each translation the games that are named were changed and often expanded upon. Many of the games are either invented by Rabelais, or are games for which we no longer know the rules.
 </p>
 
-An in-depth examination of the games in the list lies [below the
-table](#the-list-in-depth). 🚧 This article, more than most, is a
+An in-depth examination of the games in the list lies [below the table](#the-list-in-depth). 🚧 This article, more than most, is a
 work-in-progress. 🚧
 
 The first five columns give the lists from five different French editions; the
@@ -20,7 +19,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 
 ⚠️ This table is very wide and might scroll horizontally. My notes are at the far right.
 
-<!-- Putnam doesn’t attempt translation -->
+{/* Putnam doesn’t attempt translation */}
 
 <div class="full-width scroller">
 <table class="small">
@@ -144,6 +143,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>one hundred</td>
 <td>discard</td>
 <td></td>
+</tr>
 
 <tr>
 <td><span lang="fr">a leſpinay</span></td>
@@ -496,7 +496,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td><span lang="fr">au beline</span></td>
 <td><span lang="fr">au beline</span></td>
 <td><span lang="fr">au beliné</span></td>
-<td>at he’s gulled and <i>esto</i></td> <!-- lang ? -->
+<td>at he’s gulled and <i>esto</i></td>{/* lang ? */}
 <td>gulls</td>
 <td>gulls</td>
 <td>gulls</td>
@@ -3335,16 +3335,18 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 
 ## The list in depth
 
-<!-- tables games: https://gallica.bnf.fr/ark:/12148/bpt6k98003639.texteImage -->
+{/* 
+tables games: https://gallica.bnf.fr/ark:/12148/bpt6k98003639.texteImage
+*/}
 
-<!--
+{/* 
 
 images, including chapifou https://www.istockphoto.com/vector/rabelais-games-of-gargantua-jeu-du-chapifou-gm538491410-95775259
 
 from:
 https://babel.hathitrust.org/cgi/pt?id=uc1.e0000012021&view=1up&seq=95
 
--->
+*/}
 
 Commentators who have written about the games in the list include:
 
@@ -3430,7 +3432,7 @@ As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](http
 <dt lang="nl">Van ik denk</dt><dd></dd>
 <dt lang="nl">Van doe dit, doe dat</dt><dd></dd>
 <dt lang="nl">Van ka, ka, volgme na</dt><dd></dd>
-<dt lang="nl">Van de dwerl loop of wild jagen
+<dt lang="nl">Van de dwerl loop of wild jagen</dt><dd></dd>
 <dt lang="nl">Van ’t Osje</dt>
 <dd>“owl” i.e. <span lang="fr">hybou</span>, from Rabelais’ list</dd>
 <dt lang="nl">Van die wint, verliest</dt><dd></dd>
@@ -3478,7 +3480,7 @@ As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](http
 <dt lang="nl">Van Ulenspiegel in de byenkorf</dt><dd></dd>
 <dt lang="nl">Van ’t Paardje te beslaan</dt><dd></dd>
 <dt lang="nl">Van ’t schrobbelen</dt><dd></dd>
-<dt lang="nl">Van waar zal die man staan?
+<dt lang="nl">Van waar zal die man staan?</dt><dd></dd>
 <dt lang="nl">Van Hand-slag</dt><dd></dd>
 <dt lang="nl">Van stomme beevaard</dt><dd></dd>
 <dt lang="nl">Van in ’t touwtje te springen</dt><dd></dd>
@@ -3489,7 +3491,7 @@ As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](http
 <dt lang="nl">Van eeven uit, even in</dt><dd></dd>
 <dt lang="nl">Van val, vijgje, val</dt><dd></dd>
 <dt lang="nl">Van Heerom danst in ’t hemd</dt><dd></dd>
-<dt lang="nl">Van, wie zal ik gooije?
+<dt lang="nl">Van, wie zal ik gooije?</dt><dd></dd>
 <dt lang="nl">Van ’t vosje villen</dt><dd></dd>
 <dt lang="nl">Van versche ton</dt><dd></dd>
 <dt lang="nl">Van haver verkopen</dt><dd></dd>
@@ -3541,12 +3543,12 @@ As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](http
 <dt lang="nl">Van kap-monik</dt><dd></dd>
 <dt lang="nl">Van ik visch ik visch</dt><dd></dd>
 <dt lang="nl">Van Suiker-oompje</dt><dd></dd>
-<dt lang="nl">Van, moet ik inje landje treden?
+<dt lang="nl">Van, moet ik inje landje treden?</dt><dd></dd>
 <dt lang="nl">Van ’t begraasen</dt><dd></dd>
 <dt lang="nl">Van beuijtelen</dt><dd></dd>
 <dt lang="nl">Van springen</dt><dd></dd>
-<dt lang="nl">Van rij-schenkelen
-<dt lang="nl">Van ’t hinkelen
+<dt lang="nl">Van rij-schenkelen</dt><dd></dd>
+<dt lang="nl">Van ’t hinkelen</dt><dd></dd>
 <dt lang="nl">Van man, man ik ben opje blokhuys</dt><dd></dd>
 <dt lang="nl">Van schuile-wink</dt><dd></dd>
 <dt lang="nl">Van molle molle mol</dt><dd></dd>

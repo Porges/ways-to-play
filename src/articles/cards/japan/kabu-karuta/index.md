@@ -15,7 +15,7 @@ order: 3
 Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
 {% imageEnd %}
 
-This special ‘suit’ has the <Cards>1</Cards> and <Cards>4</Cards> distinguished. The
-<Cards>4</Cards> is overlaid with a depiction of a ‘[wish-fulfilling
+This special ‘suit’ has the {% cards 1 %} and {% cards 4 %} distinguished. The
+4 is overlaid with a depiction of a ‘[wish-fulfilling
 jewel](https://en.wikipedia.org/wiki/Cintamani)’ (<span lang="ja">宝珠</span>
 <span lang="ja-Latn">hōju</span>).

@@ -18,7 +18,7 @@ In Mahjong the ‘eye’ is the pair that is required to make a complete hand.
 <dt id="mournival">mournival</dt>
 <dd>
 Also murnivall, mourneval, mournaval, mourniuall, mornyfle; from French <a href="http://stella.atilf.fr/Dendien/scripts/tlfiv5/affart.exe?28;s=83619345;?b=0;"><span lang="fr">mornifle</span></a> ‘slap’. An old English term for a set of four cards of the same rank.
-<dd>
+</dd>
 
 <dt id="prial">prial</dt>
 <dd>
