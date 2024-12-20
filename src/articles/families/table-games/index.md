@@ -2,6 +2,8 @@
 title: Table Games
 draft: true
 order: 390
+aliases:
+  - table game
 ---
 
 {% image src="table_empty.svg" alt="" %}

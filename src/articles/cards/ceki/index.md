@@ -2,12 +2,14 @@
 title: Ceki cards
 order: 50
 hero:
-    image: 3915400394_ce30e3617d_o.jpg
-    author: ecv5
-    copyrightYear: 2008
-    license: "cc-by-nc-nd"
-    licenseVersion: "2.0"
-    originalUrl: "https://www.flickr.com/photos/habsburg/3915400394" 
+  image: 3915400394_ce30e3617d_o.jpg
+  author: ecv5
+  copyrightYear: 2008
+  license: cc-by-nc-nd
+  licenseVersion: "2.0"
+  originalUrl: https://www.flickr.com/photos/habsburg/3915400394
+aliases:
+  - Ceki
 ---
 
 <p class="lead">
