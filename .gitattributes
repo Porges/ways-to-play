@@ -1,0 +1,2 @@
+# needed for Ubuntu pwsh
+*.ps1 text eol=lf

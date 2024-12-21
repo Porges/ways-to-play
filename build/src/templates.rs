@@ -7,10 +7,11 @@ pub fn base(
     site_url: &str,
     page_url: &str,
     content: Markup,
+    og_type: Option<&str>,
 ) -> Markup {
     html! {
         (DOCTYPE)
-        html {
+        html lang="en" prefix="og: http://ogp.me/ns#" {
             head {
                 meta charset="utf-8";
                 link rel="shortcut icon" type="image/png" href="/favicon.png" ;
@@ -26,11 +27,13 @@ pub fn base(
                 //meta name="generator" content="Eleventy";
                 meta name="theme-color" content="#000000";
                 meta name="robots" content="noai,noimageai";
-                title { (title) " · Ways to Play" }
+                title { (title) " · Ways To Play" }
                 meta property="og:site_name" content="Ways To Play";
                 meta property="og:title" content=(title) lang=[title_lang];
-                meta property="og:url" content=(page_url);
-                // ${ifSet(data.ogType, ogt => `<meta property="og:type" content="${ogt}" />`)}
+                meta property="og:url" content={"/"(page_url)};
+                @if let Some(og_type) = og_type {
+                    meta property="og:type" content=(og_type);
+                }
                 // ${ifSet(ogImage, i => `<meta property="og:image" content="${i}" />`)}
                 // ${ifSet(excerpt, e => `<meta property="og:description" content="${e}" /><meta name="description" content="${e}" />`)}
                 script type="module" src="/js/main.js" {}
@@ -88,4 +91,34 @@ pub fn base(
             }
         }
     }
+}
+
+pub fn article(
+    title: &str,
+    title_lang: Option<&str>,
+    original_title: Option<&str>,
+    site_url: &str,
+    page_url: &str,
+    content: Markup,
+    mod_date: Option<time::Date>,
+) -> Markup {
+    base(
+        title,
+        title_lang,
+        original_title,
+        site_url,
+        page_url,
+        html! {
+            article itemprop="mainEntity" itemscope itemtype="https://schema.org/Article" itemref="author-outer" {
+                meta itemprop="headline" content=(title);
+                @if let Some(mod_date) = mod_date {
+                    p.last-updated {
+                        "Last updated: " time itemprop="dateModified" { (mod_date) } "."
+                    }
+                }
+                (content)
+            }
+        },
+        Some("article"),
+    )
 }

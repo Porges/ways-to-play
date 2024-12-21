@@ -2,6 +2,8 @@
 title: About
 layout: layout.11ty.js
 bodyType: http://schema.org/AboutPage
+date created: 2024-12-18
+date modified: 2024-12-21
 ---
 
 <article>
@@ -97,24 +99,18 @@ The site is generated with [Eleventy](https://www.11ty.dev/), with a bunch of cu
 
 The main font used is Adobe’s [Source Serif 4](https://fonts.adobe.com/fonts/source-serif-4), which is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL). [Charis SIL](https://software.sil.org/charis/) (also licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL)) is used as a fallback for some rarer characters (e.g. mediævalist abbreviations), as it is very similar in design to Source Serif.
 
-{/*
-The main font used is the [Brill typeface v4.0](https://brill.com/page/BrillFont/brill-typeface), which is free for non-commercial use.
-*/}
+> [!todo]
+> (Old) The main font used is the [Brill typeface v4.0](https://brill.com/page/BrillFont/brill-typeface), which is free for non-commercial use.
 
-{/*
-The main fonts are [Inter by Rasmus Andersson](https://rsms.me/inter/) (body text),
-[Fira GO](https://bboxtype.com/typefaces/FiraGO) (body italics), and
-[Vollkorn by Friedrich Althausen](http://vollkorn-typeface.com/) (headings).
-*/}
+> [!todo] 
+> (Old) The main fonts are [Inter by Rasmus Andersson](https://rsms.me/inter/) (body text), [Fira GO](https://bboxtype.com/typefaces/FiraGO) (body italics), and [Vollkorn by Friedrich Althausen](http://vollkorn-typeface.com/) (headings).
 
 [UniHentaiKana](https://wakufactory.jp/densho/font/hentai/) is used as a fallback font for <span lang="ja-Latn">hentaigana</span> characters. It is licensed under the [IPA Font License](https://opensource.org/licenses/IPA).
 
 [BabelStone Commons](https://www.babelstone.co.uk/Fonts/) by Andrew West is used to indicate licensing information. It is licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/OFL).
 
-{/*
-The playing-card font is [NKD04 by Umihotaru](https://umihotaru.work/). It has a
-[nonstandard but liberal license](https://umihotaru.work/faq.txt).
-*/}
+> [!todo]
+> (Old) The playing-card font is [NKD04 by Umihotaru](https://umihotaru.work/). It has a [nonstandard but liberal license](https://umihotaru.work/faq.txt).
 
 The playing-card font is a custom one that is based upon Chris Aguilar’s open source [Vector Playing Cards](https://totalnonsense.com/open-source-vector-playing-cards/), which are licensed under the LGPL 3.0. My modifications are also licensed under the same license.
 

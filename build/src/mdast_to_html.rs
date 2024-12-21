@@ -1,6 +1,6 @@
 use std::collections::BTreeMap;
 
-use markdown::mdast::{MdxJsxFlowElement, MdxJsxTextElement, Node, Yaml};
+use markdown::mdast::{Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Yaml};
 use maud::{html, Markup};
 
 pub fn get_header(node: &Node) -> Option<Yaml> {
@@ -62,9 +62,7 @@ impl Converter {
                 Node::Break(_) => { br; },
                 Node::ThematicBreak(_) => { hr; },
                 Node::Blockquote(blockquote) => {
-                    blockquote {
-                        (self.expand(blockquote.children))
-                    }
+                    (self.handle_blockquote(blockquote))
                 },
                 Node::List(list) => {
                     @if list.ordered {
@@ -161,7 +159,7 @@ impl Converter {
                 Node::FootnoteDefinition(_) => {} // already handled
                 Node::FootnoteReference(footnote_reference) => {
                     @if let Some(children) = self.fndefs.get(&footnote_reference.identifier) {
-                        span.fn { (self.expand(children.clone())) }
+                        span.footnote { (self.expand(children.clone())) }
                     } @else {
                         (panic!("unknown footnote reference: {}", footnote_reference.identifier))
                     }
@@ -247,6 +245,36 @@ impl Converter {
                 }
             }
             _ => panic!("unknown component: {:?}", flow.name),
+        }
+    }
+
+    fn handle_blockquote(&self, blockquote: Blockquote) -> Markup {
+        if let Some(Node::Paragraph(p)) = blockquote.children.first() {
+            if let Some(Node::Text(t)) = p.children.first() {
+                let trimmed = t.value.trim_start();
+                if let Some(trimmed) = trimmed.strip_prefix("[!aside]") {
+                    return html! {
+                        aside {
+                            p {
+                                (trimmed.trim())
+                                (self.expand(p.children.clone().into_iter().skip(1).collect()))
+                            }
+                            (self.expand(blockquote.children.into_iter().skip(1).collect()))
+                        }
+                    };
+                } else if trimmed.starts_with("[!todo]") {
+                    // not rendered
+                    return Markup::default();
+                } else if trimmed.starts_with("[!") {
+                    panic!("unknown callout: {}", trimmed.split_once("]").unwrap().0)
+                }
+            }
+        }
+
+        html! {
+            blockquote {
+                (self.expand(blockquote.children))
+            }
         }
     }
 }

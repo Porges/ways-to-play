@@ -4,10 +4,10 @@ use std::{error::Error, ffi::OsStr, path::PathBuf, process, vec};
 
 use bibliography::Bibliography;
 use clap::Parser;
-use clio::ClioPath;
 use markdown::{mdast, ParseOptions};
 
 mod bib_render;
+mod bib_to_csl;
 mod bibliography;
 mod mdast_to_html;
 mod nvec;
@@ -16,19 +16,11 @@ mod templates;
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
 struct Args {
-    #[arg(
-        value_name = "INPUT_DIR",
-        value_parser = clap::value_parser!(ClioPath).exists().is_dir(),
-        default_value = "src",
-    )]
-    input_path: ClioPath,
+    #[arg(short, long, value_name = "INPUT_DIR")]
+    input: PathBuf,
 
-    #[arg(
-        value_name = "OUTPUT_DIR",
-        value_parser = clap::value_parser!(ClioPath).is_dir(),
-        default_value = "public",
-    )]
-    output_path: ClioPath,
+    #[arg(short, long, value_name = "OUTPUT_DIR")]
+    output: PathBuf,
 }
 
 struct File {
@@ -65,6 +57,9 @@ impl Builder {
             .output()?;
 
         self.bibliography = serde_json::from_slice(&converted_bib.stdout)?;
+
+        let csl = bib_to_csl::to_csl(&self.bibliography);
+        std::fs::write(self.base_path.join("../bib.json"), csl.to_string())?;
 
         self.articles = self.load_files("articles")?;
         self.games = self.load_files("games")?;
@@ -108,14 +103,23 @@ impl Builder {
                             .into_iter()
                             .next()
                             .unwrap();
-                        println!("{:?}", yaml_header);
+
+                        if yaml_header["draft"].as_bool().unwrap_or(false) {
+                            continue;
+                        }
+
+                        let mut url_path =
+                            entry_path.strip_prefix(&self.base_path)?.with_extension("");
+
+                        // folder note handling:
+                        if url_path.file_name() == url_path.parent().and_then(|p| p.file_name()) {
+                            url_path.pop();
+                        }
+
+                        let url_path = url_path.to_string_lossy().replace('\\', "/") + "/";
+
                         result.push(File {
-                            url_path: entry_path
-                                .strip_prefix(&self.base_path)?
-                                .with_extension("")
-                                .to_string_lossy()
-                                .replace('\\', "/")
-                                + "/",
+                            url_path,
                             content,
                             header: yaml_header,
                         });
@@ -136,18 +140,21 @@ impl Builder {
             //
             let mut path = self.output_path.join(&article.url_path);
             if path.file_name() != Some(OsStr::new("index")) {
-                path.push("index.htm");
+                path.push("index.html");
             } else {
-                path.set_extension("htm");
+                path.set_extension("html");
             }
 
-            let templated = templates::base(
+            let templated = templates::article(
                 article.header["title"].as_str().unwrap_or_default(),
                 article.header["titleLang"].as_str(),
                 article.header["originalTitle"].as_str(),
                 "https://games.porg.es/",
                 &article.url_path,
                 content,
+                article.header["lastModified"].as_str().map(|s| {
+                    time::Date::parse(s, &time::format_description::well_known::Rfc3339).unwrap()
+                }),
             );
 
             let content = templated.into_string();
@@ -162,12 +169,13 @@ impl Builder {
 fn main() -> Result<(), Box<dyn Error>> {
     let args = Args::parse();
 
-    std::fs::create_dir(args.output_path.path())?;
+    if let Err(e) = std::fs::create_dir_all(&args.output) {
+        if e.kind() != std::io::ErrorKind::AlreadyExists {
+            return Err(e.into());
+        }
+    }
 
-    let mut builder = Builder::new(
-        args.input_path.path().canonicalize()?,
-        args.output_path.path().canonicalize()?,
-    );
+    let mut builder = Builder::new(args.input.canonicalize()?, args.output.canonicalize()?);
 
     builder.load()?;
     builder.generate()?;

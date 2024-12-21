@@ -3,10 +3,10 @@ title: <cite>Taylor’s Motto</cite> (1621)
 order: 1621
 ---
 
-{%image position="aside" src="motto.jpg" alt="A man standing upon a rock, straddling a glob, with a churning sea around him. He is looking at the sun."
+<Image position="aside" src="motto.jpg" alt="A man standing upon a rock, straddling a glob, with a churning sea around him. He is looking at the sun."
 license="cc0" originalUrl="https://artmuseum.princeton.edu/collections/objects/46096" orgName="Princeton University Art Museum" %}
 Frontispiece to Taylor’s <cite>Motto</cite> (1621).
-{% imageEnd %}
+</Image>
 
 [John Taylor](https://en.wikipedia.org/wiki/John_Taylor_(poet)) (1578–1653) was
 an English poet who gave himself the epithet “the Water-Poet”. His work
