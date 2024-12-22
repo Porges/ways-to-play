@@ -12,7 +12,9 @@ Called <span lang="sm">suipi</span> in Samoa,[cite?] and similarly <span lang="t
 
 https://www.youtube.com/watch?v=Z1052WduUbM
 
-Building is called <span lang="sm">faʻamau</span> in Samoan or <span lang="to">fakamaʻu</span> in Tongan, both meaning ‘to fasten; button down’.{%fn%}The Māori cognate is <span lang="mi">whakamau</span>.{%endfn%}
+Building is called <span lang="sm">faʻamau</span> in Samoan or <span lang="to">fakamaʻu</span> in Tongan, both meaning ‘to fasten; button down’.[^fn0]
+
+[^fn0]: The Māori cognate is <span lang="mi">whakamau</span>.
 
 The Tongan/Samoan version is played with 8 cards instead of 4.
 

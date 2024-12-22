@@ -97,7 +97,9 @@ The staking layout, after @GamblingGamesOfMalaya [p. 124].
 
 The game is a gambling game played with one player at a time acting as the banker (莊, Hokkien <span lang="nan-Latn">chong</span>, Mandarin <span lang="cmn-Latn">zhuāng</span>). The game can be run by a syndicate with a fixed banker, or in a friendly game the banker can rotate on a time interval (e.g.  every 15 or 30 minutes).
 
-Each round, the top is spun on a plate{%fn%}This plate was often placed on a bed of rice inside a larger bowl, to deaden the noise.{%endfn%} and covered with a bowl. While the top remains covered, players place their bets on the staking board, then the banker reveals the top and the bets are collected.
+Each round, the top is spun on a plate[^fn0] and covered with a bowl. While the top remains covered, players place their bets on the staking board, then the banker reveals the top and the bets are collected.
+
+[^fn0]: This plate was often placed on a bed of rice inside a larger bowl, to deaden the noise.
 
 There are four kinds of bets that can be placed:
 

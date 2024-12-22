@@ -4,7 +4,9 @@ draft: true
 equipment: Board game
 ---
 
-Milton-Bradley game, also called “Japanese Backgammon”, but has no meaning in Japanese.{%fn%}<span lang="ja">書けば</span> means ‘if one writes’.{%endfn%}
+Milton-Bradley game, also called “Japanese Backgammon”, but has no meaning in Japanese.[^fn0]
+
+[^fn0]: <span lang="ja">書けば</span> means ‘if one writes’.
 
 Earliest reference 1873?
 https://archive.org/details/americanstati161884newy/page/76/mode/2up?q=kakeba

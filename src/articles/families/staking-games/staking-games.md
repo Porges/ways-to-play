@@ -1,6 +1,8 @@
 ---
 title: Simple Staking Games
 order: 380
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -10,10 +12,10 @@ Under this title, I collect games where bets are placed by players, usually on a
 ## Games
 
 <ul class="columnar">
-<li>{% gameref belangkai %}</li>
+<li>[Belangkai](games/belangkai/belangkai.md)</li>
 <li>{% gameref chobo-ichi %}</li>
-<li>{% gameref chuck-a-luck %}</li>
-<li>{% gameref crown-and-anchor %}</li>
+<li>[Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md)</li>
+<li>[Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md)</li>
 <li>{% gameref dadu-putar %}</li>
-<li>{% gameref prinola %}</li>
+<li>[Prinola](games/prinola/prinola.md)</li>
 </ul>

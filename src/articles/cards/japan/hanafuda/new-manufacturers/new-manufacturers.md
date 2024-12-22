@@ -211,7 +211,9 @@ The 5 Bright cards of the Junior Phoenix <span class="noun" lang="ja-Latn">Hanaf
 
 To fill out the full 54 cards of a standard poker deck, there are an additional
 6 ‘bamboo’ cards including an additional <span class="noun" lang="ja-Latn">Fuji</span> Bright
-and second Oni card:{%fn%}These were inspired by the extra cards of the Universal deck.{%endfn%}
+and second Oni card:[^fn0]
+
+[^fn0]: These were inspired by the extra cards of the Universal deck.
 
 <Image 
   src='louie_bamboo.jpg'

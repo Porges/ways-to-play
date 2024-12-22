@@ -112,7 +112,9 @@ The fullest expression of this rhyme is along the lines of:
 > All in a row;<br />
 > Stick one up,<br />
 > Stick one down,<br />
-> Stick one in the old man’s crown!{%fn%}Some sources (e.g. @NurseryWitch [p. 374]) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.{%endfn%}
+> Stick one in the old man’s crown![^fn0]
+
+[^fn0]: Some sources (e.g. @NurseryWitch [p. 374]) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.
 
 
 Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to any set of three lined-up objects — in [F. W. N. Bayley](https://en.wikipedia.org/wiki/F._W._N._Bayley)’s 1842 adaptation of the gruesome [Bluebeard](https://en.wikipedia.org/wiki/Bluebeard) fairy-tale, Mrs.  Bluebeard discovers that her husband has murdered his six previous wives, and:[@ComicNurseryTales p. 19]
@@ -125,9 +127,11 @@ Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer t
 > And “three jolly butchers all of a row,”<br />
 > But Oh . . . Oh . . . Oh . . ! ! !<br />
 > It’s a double case of tit-tat-toe,<br />
-> <span class="smallcaps">And Six Dead Women all of a Row.</span>{%fn%}Supposedly this is a children’s book.{%endfn%}
+> <span class="smallcaps">And Six Dead Women all of a Row.</span>[^fn1]
 
-This usage of referring to neatly-aligned triplets is still current with the Swedish equivalent of {% pronounce file='pronunciation_sv_tripp,_trapp,_trull.mp3' lang="sv" pronouncer="tigris" word="tripp, trapp, trull" %} (see more below). The three houses in [Kalmar](https://en.wikipedia.org/wiki/Kalmar) in the following image are nicknamed the “<span lang="sv">tripp trapp trull</span> houses”:
+[^fn1]: Supposedly this is a children’s book.
+
+This usage of referring to neatly-aligned triplets is still current with the Swedish equivalent of <Pronounce file='pronunciation_sv_tripp,_trapp,_trull.mp3' lang="sv" pronouncer="tigris" >tripp, trapp, trull</Pronounce> (see more below). The three houses in [Kalmar](https://en.wikipedia.org/wiki/Kalmar) in the following image are nicknamed the “<span lang="sv">tripp trapp trull</span> houses”:
 
 <Image 
   src="Tripp_trapp_trull_kalmar.jpg",
@@ -184,9 +188,11 @@ On the other hand, the English poet Wordsworth didn’t think the game was worth
 > Our home-amusements by the warm peat-fire<br />
 > At evening, when with pencil and smooth slate,<br />
 > In square divisions parcelled out, and all<br />
-> With crosses and with cyphers{%fn%}“cyphers” here means “zeroes”{%endfn%} scribbled o’er<br />
+> With crosses and with cyphers[^fn2] scribbled o’er<br />
 > We schemed and puzzled, head opposed to head<br />
 > In strife too humble to be named in verse
+
+[^fn2]: “cyphers” here means “zeroes”
 
 <Image
   size="wide"
@@ -201,7 +207,9 @@ A tic-tac-toe game on a wall in Marseille, France.
 
 ### Other languages
 
-In Greek it is called <span lang="el" class="aka">τρίλιζα</span> (<span lang="el-Latn">triliza</span>), or <span lang="el" class="aka">πατητό</span> (<span lang="el-Latn">patito</span>) in Thessaloniki.{%fn%}This is given in @Butito as “butito”, played in Larnaca on Cyprus. <span lang="el-Latn">Patito</span> (‘stepping’) is also used for hopscotch.{%endfn%}
+In Greek it is called <span lang="el" class="aka">τρίλιζα</span> (<span lang="el-Latn">triliza</span>), or <span lang="el" class="aka">πατητό</span> (<span lang="el-Latn">patito</span>) in Thessaloniki.[^fn3]
+
+[^fn3]: This is given in @Butito as “butito”, played in Larnaca on Cyprus. <span lang="el-Latn">Patito</span> (‘stepping’) is also used for hopscotch.
 
 ## Play
 

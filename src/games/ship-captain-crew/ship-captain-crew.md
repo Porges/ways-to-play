@@ -19,7 +19,9 @@ There are a few similar games that go under the same name, but the main goal is 
 
 Sometimes it is called <span class="aka">Ship, Captain, Mate, and Crew</span> — where the Mate is the {%dice 4%}, and the remaining two dice are the Crew. Other recorded names are <span class="aka">Mariner</span>, <span class="aka">Battleship</span>, or <span class="aka">Destroyers</span>.[@ScarneOnDice p. 364] All of these names, for whatever reason, are nautical!
 
-The oldest record I have found of the game is from 1937, where it is mentioned as being played in Mexico.[@MexicoAroundMe p. 25] It seems to have been popular on the West Coast of the USA in the 1970s.{%fn%}See @GamesTheyPlayInSanFrancisco [p. 58], and @TheGreatGreen [p. 121] says it is a “dice game played in West Coast bars”.{%endfn%}
+The oldest record I have found of the game is from 1937, where it is mentioned as being played in Mexico.[@MexicoAroundMe p. 25] It seems to have been popular on the West Coast of the USA in the 1970s.[^fn0]
+
+[^fn0]: See @GamesTheyPlayInSanFrancisco [p. 58], and @TheGreatGreen [p. 121] says it is a “dice game played in West Coast bars”.
 
 ## Play
 

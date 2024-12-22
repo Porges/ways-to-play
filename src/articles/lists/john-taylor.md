@@ -1,10 +1,11 @@
 ---
 title: <cite>Taylor’s Motto</cite> (1621)
 order: 1621
+date created: 2024-12-18
+date modified: 2024-12-22
 ---
 
-<Image position="aside" src="motto.jpg" alt="A man standing upon a rock, straddling a glob, with a churning sea around him. He is looking at the sun."
-license="cc0" originalUrl="https://artmuseum.princeton.edu/collections/objects/46096" orgName="Princeton University Art Museum" %}
+<Image position="aside" src="motto.jpg" alt="A man standing upon a rock, straddling a glob, with a churning sea around him. He is looking at the sun." license="cc0" originalUrl="https://artmuseum.princeton.edu/collections/objects/46096" orgName="Princeton University Art Museum">
 Frontispiece to Taylor’s <cite>Motto</cite> (1621).
 </Image>
 
@@ -42,7 +43,7 @@ Giues suck to thousands, and himselfe sucks none.[@TaylorsMotto]
 The named games are:
 - Dice games:
     - Trey-Trip
-    - Passage: see {%gameref passage %}
+    - Passage: see [Passage](games/passage/passage.md)
     - The Most at Thrice
 - Tables games:
     - Irish
@@ -62,7 +63,7 @@ The named games are:
     - Trump
     - Nody
     - Whisk
-    - Hole: {%gameref my-ladys-hole%}
+    - Hole: [My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)
     - Sant
     - Newcut
     - Loadum
@@ -73,7 +74,7 @@ The named games are:
     - Primero
     - Maw
     - Whip-her-ginny
-    - My-sow-pigg’d: {%gameref my-sow-pigged%}
+    - My-sow-pigg’d: [My Sow (Has) Pigged](games/my-sow-pigged/my-sow-pigged.md)
 - Physical games:
     - Bowles
     - Shoue-groate

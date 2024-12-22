@@ -1,13 +1,17 @@
 ---
 title: Francis Willughby’s <cite>Book of Games</cite> (1665–70)
 order: 1665
+date created: 2024-12-18
+date modified: 2024-12-22
 ---
 
 <p class="lead">
 <a href="https://en.wikipedia.org/wiki/Francis_Willughby">Francis Willughby</a>’s <cite>Book of Games</cite> is an unfinished and unpublished manuscript written by the author in the years leading up to his death. It collects games played by both children and adults — some sections of the manuscript are written by an unidentified child, probably one of his children.
 </p>
 
-In the order given in the manuscript, the sections are:{%fn%}Not every page is titled in the original, but titles are inferred in @FrancisWillughby.{%endfn%}
+In the order given in the manuscript, the sections are:[^fn0]
+
+[^fn0]: Not every page is titled in the original, but titles are inferred in @FrancisWillughby.
 
 - Stow Ball
 - Billiards
@@ -16,13 +20,13 @@ In the order given in the manuscript, the sections are:{%fn%}Not every page is t
     - Dublets
     - Ticktack
     - Irish
-    - Back Gammon: {%gameref backgammon%}
+    - Back Gammon: [Backgammon](games/backgammon/backgammon.md)
 - Long Laurence
 - Cards
     - One and Thirtie
     - One and Thirtie Bon Ace
     - Hannikin Canst Abide It
-    - Laugh & Ly Downe: {%gameref laugh-and-lie-down%}
+    - Laugh & Ly Downe: [Laugh and Lie Down](games/laugh-and-lie-down/laugh-and-lie-down.md)
     - Nodde
     - Cribbidge
     - A New Cribbidge or Nodde
@@ -34,7 +38,7 @@ In the order given in the manuscript, the sections are:{%fn%}Not every page is t
     - Winning Loadum
     - Ging or Seven Cards
     - Put
-    - {%gameref whehee%}
+    - [Whehee](games/whehee/whehee.md)
     - Tricks at Cards
 - Barly Breakes
 - Running 3 Times through the Charter House
@@ -108,8 +112,8 @@ In the order given in the manuscript, the sections are:{%fn%}Not every page is t
 - Trole Madame or Nine Holes
 - Shovel Board
 - Span Counter
-- Nine Mens Maurice: {%gameref nine-mens-morris%}
-- 3 Mens Maurice: {%gameref three-mens-morris%}
+- Nine Mens Maurice: [Nine Men’s Morris](games/nine-mens-morris/nine-mens-morris.md)
+- 3 Mens Maurice: [Three Men’s Morris](games/three-mens-morris/three-mens-morris.md)
 - Fox and Goose
 - Draughts
 - Cock Fighting

@@ -1,6 +1,8 @@
 ---
 title: The Games of <cite>Gargantua</cite> (1534—)
 order: 1534
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -202,7 +204,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>pass ten</td>
 <td>ten-and-pass</td>
 <td>first-to-get-ten</td>
-<td>(see {% gameref passage %})</td>
+<td>(see [Passage](games/passage/passage.md))</td>
 </tr>
 
 <tr>
@@ -547,7 +549,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>gleek</td>
 <td>rummy</td>
 <td>click</td>
-<td>(probably {%gameref gleek%})</td>
+<td>(probably [Gleek](games/gleek/gleek.md))</td>
 </tr>
 
 <tr>
@@ -577,7 +579,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>morra</td>
 <td>morra</td>
 <td>the <span lang="it">morra</span></td>
-<td>(see {% gameref morra %})</td>
+<td>(see [Morra](games/morra/morra.md))</td>
 </tr>
 
 <tr>
@@ -592,7 +594,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>chess</td>
 <td>chess</td>
 <td>chess</td>
-<td>(see {%gameref chess%})</td>
+<td>(see [Chess](games/chess/chess.md))</td>
 </tr>
 
 <tr>
@@ -622,7 +624,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>the men’s morris</td>
 <td>the men’s morris</td>
 <td>ludo</td>
-<td>(see {%gameref nine-mens-morris%})</td>
+<td>(see [Nine Men’s Morris](games/nine-mens-morris/nine-mens-morris.md))</td>
 </tr>
 
 <tr>
@@ -1897,7 +1899,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 <td>shuttlecock</td>
 <td>shuttlecock</td>
 <td>shuttlecock</td>
-<td>(a dice game, see {%gameref gresco%})</td>
+<td>(a dice game, see [Gresco](games/gresco/gresco.md))</td>
 </tr>
 
 <tr>
@@ -3563,7 +3565,9 @@ As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](http
 
 ## Johann Fischarts’ list
 
-As found in @Fischarts [p. 259].{%fn%}Transcription from [this site](http://www.zeno.org/Literatur/M/Fischart,+Johann/Roman/Geschichtklitterung/Das+25.+Capitel).{%endfn%} These are given separately to the table above, given the extensive expansion that Fischarts made to the list.
+As found in @Fischarts [p. 259].[^fn0] These are given separately to the table above, given the extensive expansion that Fischarts made to the list.
+
+[^fn0]: Transcription from [this site](http://www.zeno.org/Literatur/M/Fischart,+Johann/Roman/Geschichtklitterung/Das+25.+Capitel).
 
 Many items are duplicated or reduplicated, and Fischarts also added many games
 of his own invention, paralleling Rabelais’ original.
@@ -3588,7 +3592,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Des Legens</dt>
 <dd></dd>
 <dt lang="de">Der 31</dt>
-<dd>i.e. <span lang="fr">trente et un</span>, from Rabelais’ list; see {% gameref thirty-one %}</dd>
+<dd>i.e. <span lang="fr">trente et un</span>, from Rabelais’ list; see [Thirty One](games/thirty-one/thirty-one.md)</dd>
 <dt lang="de">Marsch</dt>
 <dd>“march”</dd>
 <dt lang="de">Rümpffen</dt>
@@ -3604,7 +3608,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Auß und ein machen die Meydlin gern.</dt>
 <dd></dd>
 <dt lang="de">Fickmül</dt>
-<dd>“rub-mill”, probably {% gameref nine-mens-morris %}</dd>
+<dd>“rub-mill”, probably [Nine Men’s Morris](games/nine-mens-morris/nine-mens-morris.md)</dd>
 <dt lang="de">Hupff auff, dupff auff,</dt>
 <dd></dd>
 <dt lang="de">Wintertrost</dt>
@@ -3644,7 +3648,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Der Palirmül</dt>
 <dd></dd>
 <dt lang="de">Ein und dreissig</dt>
-<dd>(again) <span lang="fr">trente et un</span>, from Rabelais’ list; see {% gameref thirty-one %}</dd>
+<dd>(again) <span lang="fr">trente et un</span>, from Rabelais’ list; see [Thirty One](games/thirty-one/thirty-one.md)</dd>
 <dt lang="de">Krumme neun</dt>
 <dd>“crooked nine”</dd>
 <dt lang="de">Rausch</dt>
@@ -3765,7 +3769,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Lausen oder Noppen.</dt>
 <dd></dd>
 <dt lang="de">Fingerschnellen</dt>
-<dd>probably <span lang="fr">morra</span>, from Rabelais’ list; see {%gameref morra %}</dd>
+<dd>probably <span lang="fr">morra</span>, from Rabelais’ list; see [Morra](games/morra/morra.md)</dd>
 <dt lang="de">Den verkaufften gabelochssen mit Wasser zahln:</dt>
 <dd></dd>
 <dt lang="de">Wer kan siben Lügen</dt>
@@ -4465,7 +4469,7 @@ of his own invention, paralleling Rabelais’ original.
 <dt lang="de">Räters.</dt>
 <dd></dd>
 <dt lang="de">Neunten stein,</dt>
-<dd>‘ninth stone’, {%gameref nine-mens-morris%}</dd>
+<dd>‘ninth stone’, [Nine Men’s Morris](games/nine-mens-morris/nine-mens-morris.md)</dd>
 <dt lang="de">Des Verdiensts des Liebkrantzes.</dt>
 <dd></dd>
 <dt lang="de">Stein verbergen.</dt>

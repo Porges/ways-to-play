@@ -36,7 +36,9 @@ Rules for the game appear in the book <cite lang="zh">醉緑圖</cite> <cite>Dru
 </blockquote>
 
 
-I am unable to translate the rules,{%fn%}Yet! Any assistance would be appreciated.{%endfn%} but the scoring combinations are listed below.
+I am unable to translate the rules,[^fn0] but the scoring combinations are listed below.
+
+[^fn0]: Yet! Any assistance would be appreciated.
 
 The general scheme is that rolling 5-of-a-kind gives out 5 drinks, 4-of-a-kind 3 drinks, rolling a 6 means you are penalized 1 drink. However each of these outcomes has its own name, so they fill up the majority of the table. A summarized table follows the main one.
 
@@ -55,249 +57,249 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
 </thead>
 <tbody>
 <tr>
-<td>{%cdice 12345%}</td>
+<td><Dice type="chinese">12345</Dice></td>
 <td><span lang="zh">群英入轂</span></td>
 <td></td>
 <td>Give out 5 glasses of wine</td>
 </tr>
 <tr>
-<td>{%cdice 11111%}</td>
+<td><Dice type="chinese">11111</Dice></td>
 <td><span lang="zh">五星聚奎</span></td>
 <td>5 Star Alignment</td>
 <td>Give out 5</td>
 </tr>
 <tr>
-<td>{%cdice 11211%}</td>
+<td><Dice type="chinese">11211</Dice></td>
 <td><span lang="zh">兩儀四像</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 11311%}</td>
+<td><Dice type="chinese">11311</Dice></td>
 <td><span lang="zh">七曜麗空</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 11411%}</td>
+<td><Dice type="chinese">11411</Dice></td>
 <td><span lang="zh">丹露聮珠</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 11511%}</td>
+<td><Dice type="chinese">11511</Dice></td>
 <td><span lang="zh">四方歸極</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 11611%}</td>
+<td><Dice type="chinese">11611</Dice></td>
 <td><span lang="zh">六化四時</span></td>
 <td></td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 22222%}</td>
+<td><Dice type="chinese">22222</Dice></td>
 <td><span lang="zh">十道同風</span></td>
 <td></td>
 <td>Give out 5</td>
 </tr>
 <tr>
-<td>{%cdice 22122%}</td>
+<td><Dice type="chinese">22122</Dice></td>
 <td><span lang="zh">八荒一體</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 22322%}</td>
+<td><Dice type="chinese">22322</Dice></td>
 <td><span lang="zh">麟閣功臣</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 22422%}</td>
+<td><Dice type="chinese">22422</Dice></td>
 <td><span lang="zh">瓊樓十二</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 22522%}</td>
+<td><Dice type="chinese">22522</Dice></td>
 <td><span lang="zh">五行八字</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 22622%}</td>
+<td><Dice type="chinese">22622</Dice></td>
 <td><span lang="zh">八柱擎天</span></td>
 <td></td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 33333%}</td>
+<td><Dice type="chinese">33333</Dice></td>
 <td><span lang="zh">陶柳三眼</span></td>
 <td>… three eyes</td>
 <td>Give out 5</td>
 </tr>
 <tr>
-<td>{%cdice 33133%}</td>
+<td><Dice type="chinese">33133</Dice></td>
 <td><span lang="zh">月夜南飛</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 33233%}</td>
+<td><Dice type="chinese">33233</Dice></td>
 <td><span lang="zh">夢合巫山</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 33433%}</td>
+<td><Dice type="chinese">33433</Dice></td>
 <td><span lang="zh">落紅飛鷰</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 33533%}</td>
+<td><Dice type="chinese">33533</Dice></td>
 <td><span lang="zh">花壓玉欄</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 33633%}</td>
+<td><Dice type="chinese">33633</Dice></td>
 <td><span lang="zh">霜空鴈字</span></td>
 <td></td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 44444%}</td>
+<td><Dice type="chinese">44444</Dice></td>
 <td><span lang="zh">丹鳳聮飛</span></td>
 <td></td>
 <td>Give out 5</td>
 </tr>
 <tr>
-<td>{%cdice 44144%}</td>
+<td><Dice type="chinese">44144</Dice></td>
 <td><span lang="zh">蔡蕚向陽</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 44244%}</td>
+<td><Dice type="chinese">44244</Dice></td>
 <td><span lang="zh">雙蝶穿花</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 44344%}</td>
+<td><Dice type="chinese">44344</Dice></td>
 <td><span lang="zh">落霞飛鶩</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 44544%}</td>
+<td><Dice type="chinese">44544</Dice></td>
 <td><span lang="zh">梅飄花徑</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 44644%}</td>
+<td><Dice type="chinese">44644</Dice></td>
 <td><span lang="zh">六女踏花</span></td>
 <td>Six Girls Trampling Flowers</td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 55555%}</td>
+<td><Dice type="chinese">55555</Dice></td>
 <td><span lang="zh">江城梅落</span></td>
 <td></td>
 <td>Give out 5</td>
 </tr>
 <tr>
-<td>{%cdice 55155%}</td>
+<td><Dice type="chinese">55155</Dice></td>
 <td><span lang="zh">五雲捧日</span></td>
 <td>Five Clouds Lifting the Sun</td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 55255%}</td>
+<td><Dice type="chinese">55255</Dice></td>
 <td><span lang="zh">合璧連珠</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 55355%}</td>
+<td><Dice type="chinese">55355</Dice></td>
 <td><span lang="zh">三弄梅花</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 55455%}</td>
+<td><Dice type="chinese">55455</Dice></td>
 <td><span lang="zh">紅英綴翠</span></td>
 <td></td>
 <td>Give out 3</td>
 </tr>
 <tr>
-<td>{%cdice 55655%}</td>
+<td><Dice type="chinese">55655</Dice></td>
 <td><span lang="zh">雪㸃隴梅</span></td>
 <td></td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 66666%}</td>
+<td><Dice type="chinese">66666</Dice></td>
 <td><span lang="zh">六魔降世</span></td>
 <td>Six Demons Come to Earth</td>
 <td>Give out 5, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 66166%}</td>
+<td><Dice type="chinese">66166</Dice></td>
 <td><span lang="zh">麗日中天</span></td>
 <td>Fair Sun in the Midst of Heaven</td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 66266%}</td>
+<td><Dice type="chinese">66266</Dice></td>
 <td><span lang="zh">二雄逐鹿</span></td>
 <td>Two Men Fight for the Throne</td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 66366%}</td>
+<td><Dice type="chinese">66366</Dice></td>
 <td><span lang="zh">碧天劍氣</span></td>
 <td></td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 66466%}</td>
+<td><Dice type="chinese">66466</Dice></td>
 <td><span lang="zh">二十八宿</span></td>
 <td><a href="https://en.wikipedia.org/wiki/Twenty-Eight_Mansions">Twenty-Eight Mansions</a></td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 66566%}</td>
+<td><Dice type="chinese">66566</Dice></td>
 <td><span lang="zh">月值朔虛</span></td>
 <td></td>
 <td>Give out 3, drink one</td>
 </tr>
 <tr>
-<td colspan="3">{%cdice "==="%}+{%cdice "=="%} (no {%cdice 6%})</td>
+<td colspan="3"><Dice type="chinese">===</Dice>+<Dice type="chinese">==</Dice> (no <Dice type="chinese">6</Dice>)</td>
 <td>Give out 2</td>
 </tr>
 <tr>
-<td colspan="3">{%cdice 666%}+{%cdice "=="%}</td>
+<td colspan="3"><Dice type="chinese">666</Dice>+<Dice type="chinese">==</Dice></td>
 <td>Give out 2, drink one</td>
 </tr>
 <tr>
-<td colspan="3">{%cdice 666%}+{%cdice 'qq'%}</td>
+<td colspan="3"><Dice type="chinese">666</Dice>+<Dice type="chinese">qq</Dice></td>
 <td>Give out one, drink one</td>
 </tr>
 <tr>
-<td colspan="3">{%cdice "==="%}+{%cdice 66%}</td>
+<td colspan="3"><Dice type="chinese">===</Dice>+<Dice type="chinese">66</Dice></td>
 <td>Drink 2</td>
 </tr>
 <tr>
-<td colspan="3">{%cdice "==="%}+{%cdice "6q"%}</td>
+<td colspan="3"><Dice type="chinese">===</Dice>+<Dice type="chinese">6q</Dice></td>
 <td>Drink one</td>
 </tr>
 <tr>
-<td colspan="3">{%cdice "==="%}+{%cdice 'qq'%}</td>
+<td colspan="3"><Dice type="chinese">===</Dice>+<Dice type="chinese">qq</Dice></td>
 <td>Competition</td>
 </tr>
 </tbody>
@@ -314,39 +316,39 @@ Here is a summarized version without the names:
 </thead>
 <tbody>
 <tr>
-<td>{%cdice 12345%}</td>
+<td><Dice type="chinese">12345</Dice></td>
 <td>Give out 5 glasses of wine</td>
 </tr>
 <tr>
-<td>{%cdice '====='%}</td>
-<td>Give out 5, drink one if any {%cdice 6%}</td>
+<td><Dice type="chinese">=====</Dice></td>
+<td>Give out 5, drink one if any <Dice type="chinese">6</Dice></td>
 </tr>
 <tr>
-<td>{%cdice '===='%}+{%cdice 'q'%}</td>
-<td>Give out 3, drink one if any {%cdice 6%}</td>
+<td><Dice type="chinese">====</Dice>+<Dice type="chinese">q</Dice></td>
+<td>Give out 3, drink one if any <Dice type="chinese">6</Dice></td>
 </tr>
 <tr>
-<td>{%cdice "==="%}+{%cdice "=="%} (no {%cdice 6%})</td>
+<td><Dice type="chinese">===</Dice>+<Dice type="chinese">==</Dice> (no <Dice type="chinese">6</Dice>)</td>
 <td>Give out 2</td>
 </tr>
 <tr>
-<td>{%cdice 666%}+{%cdice "=="%}</td>
+<td><Dice type="chinese">666</Dice>+<Dice type="chinese">==</Dice></td>
 <td>Give out 2, drink one</td>
 </tr>
 <tr>
-<td>{%cdice 666%}+{%cdice 'qq'%}</td>
+<td><Dice type="chinese">666</Dice>+<Dice type="chinese">qq</Dice></td>
 <td>Give out one, drink one</td>
 </tr>
 <tr>
-<td>{%cdice "==="%}+{%cdice 66%}</td>
+<td><Dice type="chinese">===</Dice>+<Dice type="chinese">66</Dice></td>
 <td>Drink 2</td>
 </tr>
 <tr>
-<td>{%cdice "==="%}+{%cdice "6q"%}</td>
+<td><Dice type="chinese">===</Dice>+<Dice type="chinese">6q</Dice></td>
 <td>Drink one</td>
 </tr>
 <tr>
-<td>{%cdice "==="%}+{%cdice 'qq'%}</td>
+<td><Dice type="chinese">===</Dice>+<Dice type="chinese">qq</Dice></td>
 <td>Competition</td>
 </tr>
 </tbody>

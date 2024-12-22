@@ -10,7 +10,7 @@ countries: FR,UK
     originalUrl="http://www.zeno.org/nid/20003938557" 
     orgName="Zeno.org"
     license="cc0" %}
-<span lang="fr">Le Passe Dix</span> ({%c%} 1797) by Daniel Nikolaus Chodowiecki (here signed ‘Huquier’, the publishing address is also false). The player is probably the button-maker Nicolas Fonvielle.[@AntiquariaatArineVanDerSteur44 p. 38]
+<span lang="fr">Le Passe Dix</span> (<abbr>c.</abbr> 1797) by Daniel Nikolaus Chodowiecki (here signed ‘Huquier’, the publishing address is also false). The player is probably the button-maker Nicolas Fonvielle.[@AntiquariaatArineVanDerSteur44 p. 38]
 </Image>
 
 <p class="lead">
@@ -26,7 +26,9 @@ In England, the game was specifically outlawed by [the <cite>Gaming Act 1739</ci
 
 Francis Grose, in @ClassicalDictionaryVulgar, indicates that by 1785 Passage was a “camp game” played amongst soldiers, and that the person in charge of running the game throughout the army was called the “head cully of the pass” or the “passage bank”.
 
-The game is mentioned in [<cite>The Three Musketeers</cite>](https://en.wikipedia.org/wiki/The_Three_Musketeers) (1844),[@TresMousquetaires p. 133] where Porthos plays it with some young clerks.{%fn%}Alongside <span lang="fr">bassette</span> and <span lang="fr">lansquenet</span>.{%endfn%}  The game also appears in later editions of {% a rabelais,Rabelais’ <cite>Gargantua</cite> %}, at least from 1884.
+The game is mentioned in [<cite>The Three Musketeers</cite>](https://en.wikipedia.org/wiki/The_Three_Musketeers) (1844),[@TresMousquetaires p. 133] where Porthos plays it with some young clerks.[^fn0]  The game also appears in later editions of {% a rabelais,Rabelais’ <cite>Gargantua</cite> %}, at least from 1884.
+
+[^fn0]: Alongside <span lang="fr">bassette</span> and <span lang="fr">lansquenet</span>.
 
 ## Play
 

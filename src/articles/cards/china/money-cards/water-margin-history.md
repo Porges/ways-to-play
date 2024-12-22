@@ -11,7 +11,9 @@ In this article I discuss the earliest-known discussions of this type of deck, a
 
 ### <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>’s “Water Margin” deck
 
-The earliest definite written description of these cards comes from the Chinese scholar [<span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span>](https://en.wikipedia.org/wiki/Lu_Rong) (<span lang="zh">陸容</span>, 1436–1494). In his book <cite lang="zh-Hant">菽園雜記</cite>/<cite lang="zh-Hans">菽园杂记</cite> (<cite>Miscellaneous Records from the Bean Garden</cite>),{%fn%}This text appears in many collections, such as the Ming-period <span lang="zh-Hant">今獻彙言</span> [<span lang="cmn-Latn-pinyin">Jīnxiàn huìyán </span>](http://www.chinaknowledge.de/Literature/Poetry/jinxianhuiyan.html), or the Qing-period <span lang="zh-Hant">墨海金壺</span> [<span lang="cmn-Latn-pinyin">Mòhǎi jīnhú</span>](http://www.chinaknowledge.de/Literature/Poetry/mohaijinhu.html).{%endfn%} he writes:
+The earliest definite written description of these cards comes from the Chinese scholar [<span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span>](https://en.wikipedia.org/wiki/Lu_Rong) (<span lang="zh">陸容</span>, 1436–1494). In his book <cite lang="zh-Hant">菽園雜記</cite>/<cite lang="zh-Hans">菽园杂记</cite> (<cite>Miscellaneous Records from the Bean Garden</cite>),[^fn0] he writes:
+
+[^fn0]: This text appears in many collections, such as the Ming-period <span lang="zh-Hant">今獻彙言</span> [<span lang="cmn-Latn-pinyin">Jīnxiàn huìyán </span>](http://www.chinaknowledge.de/Literature/Poetry/jinxianhuiyan.html), or the Qing-period <span lang="zh-Hant">墨海金壺</span> [<span lang="cmn-Latn-pinyin">Mòhǎi jīnhú</span>](http://www.chinaknowledge.de/Literature/Poetry/mohaijinhu.html).
 
 > In my native city of [Kunshan](https://en.wikipedia.org/wiki/Kunshan),
 > everyone knows how to play cards, from scholar-officials to children. I spent
@@ -170,7 +172,9 @@ Thus, <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> describes a dec
 - 10,000,000 貫
 - 100,000,000 貫
 
-In modern times, these cards are often referred to as “Water Margin cards” (<span lang="zh">水滸牌</span>), but in fact, <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> does not cite <cite>Water Margin</cite> at all. Instead he writes:{%fn%}The fact that <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> doesn’t seem to know of the existence of <cite>Water Margin</cite> (or assumes that his audience will know the characters) argues for a later creation date for that work than is usually given. See, for example, @WaterMarginDate.{%endfn%}
+In modern times, these cards are often referred to as “Water Margin cards” (<span lang="zh">水滸牌</span>), but in fact, <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> does not cite <cite>Water Margin</cite> at all. Instead he writes:[^fn1]
+
+[^fn1]: The fact that <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span> doesn’t seem to know of the existence of <cite>Water Margin</cite> (or assumes that his audience will know the characters) argues for a later creation date for that work than is usually given. See, for example, @WaterMarginDate.
 
 <blockquote lang="zh">盖宋江等皆大盗，详见《宣和遗事》及《癸辛杂识》。</blockquote>
 
@@ -178,7 +182,7 @@ In modern times, these cards are often referred to as “Water Margin cards” (
 > see <cite lang="cmn-Latn-pinyin">Xuānhé Yíshì</cite> and <cite lang="cmn-Latn-pinyin">Guǐxīn
 > Záshí</cite>.
 
-Indeed, the characters listed on the ‘myriads’ cards are all taken from the book <cite lang="zh">宣和遺事</cite> <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span> (“Neglected Events of the Xuanhe Reign”), a story published {%c%} 1300 that would be one of the main sources of the later, more famous, book <cite lang="zh">水滸傳</cite> <span lang="cmn-Latn-pinyin" class="noun">Shuǐhǔzhuàn</span>, commonly known in English as <cite>Water Margin</cite>.
+Indeed, the characters listed on the ‘myriads’ cards are all taken from the book <cite lang="zh">宣和遺事</cite> <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span> (“Neglected Events of the Xuanhe Reign”), a story published <abbr>c.</abbr> 1300 that would be one of the main sources of the later, more famous, book <cite lang="zh">水滸傳</cite> <span lang="cmn-Latn-pinyin" class="noun">Shuǐhǔzhuàn</span>, commonly known in English as <cite>Water Margin</cite>.
 
 in <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span> (hereafter <abbr
 class="initialism">XHYS</abbr>), <span lang="cmn-Latn-pinyin" class="noun">Sòng
@@ -212,8 +216,12 @@ class="noun">Hūyán Chuò</span> still retains his name in
 <dt><span lang="zh">六十萬貫</span> 60MC</dt>
 <dd>The <abbr class="initialism">XHYS</abbr> name <span lang="zh">呼延绰</span> <span lang="cmn-Latn-pinyin" class="noun">Hūyán Chuò</span> is given instead of the <abbr class="initialism">WM</abbr> <span lang="zh">呼延灼</span> <span lang="cmn-Latn-pinyin" class="noun">Hūyán Zhuó</span>.</dd>
 <dt><span lang="zh">八十萬貫</span> 80MC</dt>
-<dd>This is the hardest divergence to explain, as <span lang="zh">李進</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìn</span> is not a character that appears in <abbr class="initialism">XHYS</abbr>, and the nickname given is a duplicate of the 6MC card. However, there is a <span lang="zh">李進義</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìnyì</span> in <abbr class="initialism">XHYS</abbr>,{%fn%}Who has the same nickname <span lang="zh">玉麒麟</span> “Jade Qilin” as <span lang="zh">盧俊義</span> <span lang="cmn-Latn-pinyin" class="noun">Lú Jùnyì</span> in <abbr class="initialism">WM</abbr>.{%endfn%} which could be the origin of the name. A possible explanation for the doubled “River Dragon” nickname is that a later copyist or copyists who were familiar with <abbr class="initialism">WM</abbr> became confused about the names and conflated several different characters, truncating a hypothetical original <span lang="zh">李進義</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìnyì</span> into <span lang="zh">李進</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìn</span> and then giving him <span lang="zh">李俊</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jùn</span>’s <abbr class="initialism">WM</abbr> nickname in an effort to “correct” the text. More research into different editions of <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>’s text, or intermediate texts between <abbr class="initialism">XHYS</abbr> and <abbr class="initialism">WM</abbr> may give a better answer.{%fn%}The <cite>Encomium</cite> mentioned above doesn’t seem to shed any light here.{%endfn%}</dd>
+<dd>This is the hardest divergence to explain, as <span lang="zh">李進</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìn</span> is not a character that appears in <abbr class="initialism">XHYS</abbr>, and the nickname given is a duplicate of the 6MC card. However, there is a <span lang="zh">李進義</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìnyì</span> in <abbr class="initialism">XHYS</abbr>,[^fn2] which could be the origin of the name. A possible explanation for the doubled “River Dragon” nickname is that a later copyist or copyists who were familiar with <abbr class="initialism">WM</abbr> became confused about the names and conflated several different characters, truncating a hypothetical original <span lang="zh">李進義</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìnyì</span> into <span lang="zh">李進</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìn</span> and then giving him <span lang="zh">李俊</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jùn</span>’s <abbr class="initialism">WM</abbr> nickname in an effort to “correct” the text. More research into different editions of <span lang="cmn-Latn-pinyin" class="noun">Lù Róng</span>’s text, or intermediate texts between <abbr class="initialism">XHYS</abbr> and <abbr class="initialism">WM</abbr> may give a better answer.[^fn3]</dd>
 </dl>
+
+[^fn2]: Who has the same nickname <span lang="zh">玉麒麟</span> “Jade Qilin” as <span lang="zh">盧俊義</span> <span lang="cmn-Latn-pinyin" class="noun">Lú Jùnyì</span> in <abbr class="initialism">WM</abbr>.
+
+[^fn3]: The <cite>Encomium</cite> mentioned above doesn’t seem to shed any light here.
 
 The remainder of the cards have characters that are present in both <abbr class="initialism">XHYS</abbr> and <abbr class="initialism">WM</abbr>, with identical epithets.
 
@@ -388,9 +396,11 @@ class="initialism">WM</abbr> mentioned above has been corrected:
 
 Then there is something of a dance amongst three cards:
 
-1. <span lang="zh">六萬貫</span> 6MC: <span lang="zh">李海</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Hǎi</span> (who becomes <span lang="zh">李俊</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jùn</span> in WM) is replaced by <span lang="zh">史進</span> <span lang="cmn-Latn-pinyin" class="noun">Shǐ Jìn</span>.{%fn%}Interestingly, this name is similar to the removed “corrupted” <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìn</span>.{%endfn%}
+1. <span lang="zh">六萬貫</span> 6MC: <span lang="zh">李海</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Hǎi</span> (who becomes <span lang="zh">李俊</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jùn</span> in WM) is replaced by <span lang="zh">史進</span> <span lang="cmn-Latn-pinyin" class="noun">Shǐ Jìn</span>.[^fn4]
 2. <span lang="zh">李逵</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Kuí</span> is replaced by <span lang="zh">李俊</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jùn</span>,
 3. and <span lang="zh">四十萬貫</span> 40MC: <span lang="zh">王雄</span> <span lang="cmn-Latn-pinyin" class="noun">Wáng Xióng</span> is replaced by <span lang="zh">李逵</span> <span lang="cmn-Latn-pinyin" class="noun">Lǐ Kuí</span>.
+
+[^fn4]: Interestingly, this name is similar to the removed “corrupted” <span lang="cmn-Latn-pinyin" class="noun">Lǐ Jìn</span>.
 
 ### The Water Margin deck after <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span>
 

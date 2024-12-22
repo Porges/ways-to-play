@@ -35,7 +35,7 @@ To play the game, both players stand facing each other. They simultaneously rais
 see correspondence [@GameOfMicatioDigitorum] [@MicatioDigitorumLetter][@MicatioDigitorumDescribed] (some of which is about {% gameref buck-buck %})
 
 <Image src="morra_vase.jpg" alt="" license="cc0" %}
-Two Greek girls playing Morra, on a water-pot (<span lang="grc-Latn">hydria</span>), {%c%} 500 {%bce%}. From @AtlasClassicalAntiquities [p. 150].
+Two Greek girls playing Morra, on a water-pot (<span lang="grc-Latn">hydria</span>), <abbr>c.</abbr> 500 <abbr>BCE</abbr>. From @AtlasClassicalAntiquities [p. 150].
 </Image>
 
 See also: @PrimitiveCulture [p. 74]
@@ -62,9 +62,15 @@ Some nice quotes maybe here:
 
 ## <span lang="yue-Latn-jyutping" class="aka">Caai¹ Mui⁴⁻²</span> (<span lang="yue" class="aka">猜枚</span>)
 
-This is a game which is known as <span lang="zh" class="aka">猜枚</span>[@TipcatAndOtherChineseGames] (Cantonese: <span lang="yue-Latn-jyutping" class="aka">caai¹ mui⁴⁻²</span>; Hokkien: <span lang="nan-Latn" class="aka">chhai mûi</span>; Mandarin: <span lang="cmn-Latn-pinyin" class="aka">cāi méi</span>) ‘guess the count’,{%fn%}In very old works this is represented as <span lang="yue-Latn" class="aka">Tsoey-Moey</span>[@MicatioDigitorumDescribed], <span lang="yue-Latn" class="aka">Tsae Mei</span>,[@IuKiaoLi p. 284] or <span lang="yue-Latn" class="aka">chái-múí</span>.[@ThingsChinese p. 296]{%endfn%} <span lang="yue" class="aka">猜碼</span>[@AFunSouthernChineseGame] (Cantonese: <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span>) ‘guess the number’, or <span lang="zh" class="aka">猜拳</span>[@TonicDictionary p. 191] (Cantonese: <span lang="yue-Latn-jyutping" class="aka">caai¹ kyun⁴</span>; Hokkien: <span lang="nan-Latn" class="aka">chhai kûn</span>; Mandarin: <span class="aka" lang="cmn-Latn-pinyin">cāi quán</span>) ‘guess the fist’.{%fn%}Also <span lang="zh" class="aka">猜媒</span> in @ChineseGamesOfChance [2].{%endfn%} A variant using two hands where a hand can only be open or shut is also called “15, 20” <span lang="zh" class="aka">十五二十</span>, or “15, 15, …” , and the player must guess correctly twice.[@ShiwuShiwu]
+This is a game which is known as <span lang="zh" class="aka">猜枚</span>[@TipcatAndOtherChineseGames] (Cantonese: <span lang="yue-Latn-jyutping" class="aka">caai¹ mui⁴⁻²</span>; Hokkien: <span lang="nan-Latn" class="aka">chhai mûi</span>; Mandarin: <span lang="cmn-Latn-pinyin" class="aka">cāi méi</span>) ‘guess the count’,[^fn0] <span lang="yue" class="aka">猜碼</span>[@AFunSouthernChineseGame] (Cantonese: <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span>) ‘guess the number’, or <span lang="zh" class="aka">猜拳</span>[@TonicDictionary p. 191] (Cantonese: <span lang="yue-Latn-jyutping" class="aka">caai¹ kyun⁴</span>; Hokkien: <span lang="nan-Latn" class="aka">chhai kûn</span>; Mandarin: <span class="aka" lang="cmn-Latn-pinyin">cāi quán</span>) ‘guess the fist’.[^fn1] A variant using two hands where a hand can only be open or shut is also called “15, 20” <span lang="zh" class="aka">十五二十</span>, or “15, 15, …” , and the player must guess correctly twice.[@ShiwuShiwu]
 
-On the 5th of April, 1872, the Nuisances Ordinance of Hong Kong (No. 2 of 1872) placed restrictions upon the game:{%fn%}This was later integrated as part of the Summary Offences Ordinance.[@LawAndRacism p. 248][@SummaryOffencesHongKong]{%endfn%}
+[^fn0]: In very old works this is represented as <span lang="yue-Latn" class="aka">Tsoey-Moey</span>[@MicatioDigitorumDescribed], <span lang="yue-Latn" class="aka">Tsae Mei</span>,[@IuKiaoLi p. 284] or <span lang="yue-Latn" class="aka">chái-múí</span>.[@ThingsChinese p. 296]
+
+[^fn1]: Also <span lang="zh" class="aka">猜媒</span> in @ChineseGamesOfChance [2].
+
+On the 5th of April, 1872, the Nuisances Ordinance of Hong Kong (No. 2 of 1872) placed restrictions upon the game:[^fn2]
+
+[^fn2]: This was later integrated as part of the Summary Offences Ordinance.[@LawAndRacism p. 248][@SummaryOffencesHongKong]
 
 > 4. (Penalty for playing Chai-mui at night.) Every person shall be liable to a penalty not exceeding ten dollars who shall utter shouts or cries or make other noises while playing the game known as Chai-mui, between the hours of 11 P.M. and 6 A.M. within any district or place not permitted by some regulation of the Governor in Council.[@NuisancesOrdinanceHongKong]
 

@@ -1,6 +1,8 @@
 ---
 title: The Christmas Gambols (1776)
 order: 1776
+date created: 2024-12-18
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -28,9 +30,9 @@ This poem by an otherwise unnamed “Boughton, Esq.” is featured in @PoeticalA
 > &emsp;_The Royal Game of Goose_.
 > 
 > Oft would the king with beauteous dame,<br/>
-> &emsp;Carouse it o’er the bowl,{%fn%}i.e. the [wassail-bowl](https://en.wikipedia.org/wiki/Wassail){%endfn%}<br/>
+> &emsp;Carouse it o’er the bowl,[^fn0]<br/>
 > And then would play the sprightly game,<br/>
-> &emsp;’Yclept _{%gameref my-ladys-hole%}_.
+> &emsp;’Yclept _[My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)_.
 >
 > We’ll visit now the City dames,<br/>
 > &emsp;The aldermen and mayor;<br/>
@@ -42,10 +44,10 @@ This poem by an otherwise unnamed “Boughton, Esq.” is featured in @PoeticalA
 > Each neighbour might, to play agree<br/>
 > &emsp;At _Cuckolds All-a-Row_.
 >
-> The Town to quit for Country sports,{%fn%}Possibly a pun akin to Shakespeare’s “country matters”.{%endfn%}<br/>
+> The Town to quit for Country sports,[^fn1]<br/>
 > &emsp;Will give us better cheer:<br/>
 > The pastimes we’ll not all recite,<br/>
-> &emsp;That’s play’d in _Bed-fordshire_.{%fn%}“This poem is just about dirty stuff.”{%endfn%}
+> &emsp;That’s play’d in _Bed-fordshire_.[^fn2]
 >
 > At villages and market towns,<br/>
 > &emsp;The lads the lasses wheedle,<br/>
@@ -60,19 +62,34 @@ This poem by an otherwise unnamed “Boughton, Esq.” is featured in @PoeticalA
 > Full many a lass _this game_ doth rue,<br/>
 > &emsp;Both rich as well as poor,<br/>
 > Far better had they learnt to play<br/>
-> &emsp;At _Beat Knave out of Door_.{%fn%}See: {%gameref beggar-my-neighbour%}.{%endfn%}
+> &emsp;At _Beat Knave out of Door_.[^fn3]
 >
 > Whilst in the parlour cards are play’d,<br/>
 > &emsp;Or novels shall be read,<br/>
-> The servant shall the _Slipper hunt_{%fn%}i.e. hunt-the-slipper, a circle-game{%endfn%}<br/>
-> &emsp;And mould the _Cockle Bread_.{%fn%}“Young Wenches have a wanton sport which they call _moulding of Cocklebread: viz._ they gett upon a Table-board, and then gather-up their knees and their coates with their hands as high as they can, and then they wabble to and fro with their Buttocks as if they were kneading of Dowgh with their A[rse], and say these words, _viz._—‘My Dame is sick and gonne to bed/And I’le go mowld my Cockle-bread’.”[@RemainsOfGentilisme 43] This was apparently a remnant of a older folk-magic in which such _fundamentally_-kneaded bread would be served to the object of the girl’s desire, in order to secure their love.[@RemainsOfGentilisme 225] See also “cockle-bread” in @SexualShakespeare1 [264].{%endfn%}
+> The servant shall the _Slipper hunt_[^fn4]<br/>
+> &emsp;And mould the _Cockle Bread_.[^fn5]
 >
 > Each lady has her hobby-horse,<br/>
 > &emsp;Few men without their poney;<br/>
-> May _Laugh and lie down_ be my lot,{%fn%}See: {%gameref laugh-and-lie-down %}.{%endfn%}<br/>
+> May _Laugh and lie down_ be my lot,[^fn6]<br/>
 > &emsp;With _Loo, and Matrimony_.
 > 
 > And, now I’ve done, this boon I crave,<br/>
 > &emsp;’Twill make my Muse to amble,<br/>
 > (For tir’d she is) a sprig you’ll give,<br/>
 > &emsp;_The Master of the Gambol_.
+
+
+[^fn0]: i.e. the [wassail-bowl](https://en.wikipedia.org/wiki/Wassail)
+
+[^fn1]: Possibly a pun akin to Shakespeare’s “country matters”.
+
+[^fn2]: “This poem is just about dirty stuff.”
+
+[^fn3]: See: [Beggar My Neighbour](games/beggar-my-neighbour/beggar-my-neighbour.md).
+
+[^fn4]: i.e. hunt-the-slipper, a circle-game
+
+[^fn5]: “Young Wenches have a wanton sport which they call _moulding of Cocklebread: viz._ they gett upon a Table-board, and then gather-up their knees and their coates with their hands as high as they can, and then they wabble to and fro with their Buttocks as if they were kneading of Dowgh with their A[rse], and say these words, _viz._—‘My Dame is sick and gonne to bed/And I’le go mowld my Cockle-bread’.”[@RemainsOfGentilisme 43] This was apparently a remnant of a older folk-magic in which such _fundamentally_-kneaded bread would be served to the object of the girl’s desire, in order to secure their love.[@RemainsOfGentilisme 225] See also “cockle-bread” in @SexualShakespeare1 [264].
+
+[^fn6]: See: [Laugh and Lie Down](games/laugh-and-lie-down/laugh-and-lie-down.md).

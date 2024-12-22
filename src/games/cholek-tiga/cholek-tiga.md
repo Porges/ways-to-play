@@ -10,6 +10,8 @@ hero:
     author: "khooiay"
     identifier: "1900515673"
     originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead"><span class="noun" lang="ms">Cholek Tiga</span> (‘draw three’) is a Peranakan fishing game for two or three players, played with {%a ceki,Cherki cards%}.</p>
@@ -95,4 +97,4 @@ a bonus from **each** other player, which is paid instantly:
 
 ## See also
 
-{% gameref balik-satu %} is another <span class="noun" lang="ms-Latn">Cherki</span> game.
+[Balik Satu](games/balik-satu/balik-satu.md) is another <span class="noun" lang="ms-Latn">Cherki</span> game.

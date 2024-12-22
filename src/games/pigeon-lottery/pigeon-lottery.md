@@ -6,10 +6,12 @@ hero:
     image: MingLeeDuw.jpg
 subgames:
     - title: Keno
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
-The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="baak⁶ gaap³ piu³" pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" class="aka" %}) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
+The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" class="aka">baak⁶ gaap³ piu³</Pronounce>) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
 </p>
 
 The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Eventually the game became known under the modern name of Keno, which is now played in casinos around the world.
@@ -49,7 +51,7 @@ foundation of the Han dynasty, saying that it was invented by [<span
 lang="cmn-Latn-pinyin" class="noun">Zhāng
 Liáng</span>](https://en.wikipedia.org/wiki/Zhang_Liang_(Western_Han)) (<span
 lang="zh">張良</span>, <abbr title="circa">c.</abbr>&nbsp;251–189
-{%bce%}),{%fn%}Older sources transliterate his name as Cheung Leung.{%endfn%}
+<abbr>BCE</abbr>),[^fn0]
 advisor to [Emperor <span class="noun"
 lang="cmn-Latn-pinyin">Gāozǔ</span>,](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han)
 in order to raise money for the support of the army when a city was
@@ -58,9 +60,13 @@ lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a
 lottery to raise funds, it seems to be unlikely to be identical to the modern
 game. For one thing, the <cite>Thousand Character Classic</cite> upon which the
 game is based is traditionally dated to the [Liang
-dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 {%ce%}).
+dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 <abbr>CE</abbr>).
 
-The true origin of the game apparently lies in gambling that was carried out as part of the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span lang="yue-Latn-jyutping">baak⁶ gap³ wui²</span>) which was held in Guangdong.  Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span lang="zh">佛山</span>), and groups of pigeons were numbered using the opening characters from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>).{%fn%}This system of enumeration has also been used to number volumes of books and other objects, including in the instructions for assembly kit-set furniture.[@RepresentingHainingStreet1 p. 53]{%endfn%} Bets were made on which group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the pigeons were dropped entirely and a game was developed based on characters being drawn at random.
+[^fn0]: Older sources transliterate his name as Cheung Leung.
+
+The true origin of the game apparently lies in gambling that was carried out as part of the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span lang="yue-Latn-jyutping">baak⁶ gap³ wui²</span>) which was held in Guangdong.  Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span lang="zh">佛山</span>), and groups of pigeons were numbered using the opening characters from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>).[^fn1] Bets were made on which group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the pigeons were dropped entirely and a game was developed based on characters being drawn at random.
+
+[^fn1]: This system of enumeration has also been used to number volumes of books and other objects, including in the instructions for assembly kit-set furniture.[@RepresentingHainingStreet1 p. 53]
 
 ## Known history
 
@@ -481,7 +487,9 @@ Qichao</span>](https://en.wikipedia.org/wiki/Liang_Qichao) (<span lang="zh">梁�
 1903, claimed that almost every Chinese family was involved with gambling in
 some way.[@BettingOnEmpire p. 191]
 
-According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 four banks were operating in Philadelphia{%fn%}He provides the names “Extensive Increase” (<span lang="yue">廣泰</span> <span lang="yue-Latn-jyutping">gwong² taai³</span>), “Heavenly Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn-jyutping">tin¹ wo⁴</span>), “Fortunate Increase” (<span lang="yue">福泰</span> <span lang="yue-Latn-jyutping">fuk¹ taai³</span>), and “Encouraging Fountain” (<span lang="yue">釗泉</span> <span lang="yue-Latn-jyutping">ciu¹ cyun⁴</span>).{%endfn%} and five in New York, along with others in Boston and Chicago.
+According to Stewart Culin[@ChineseInAmerica p. 11], by 1886 four banks were operating in Philadelphia[^fn2] and five in New York, along with others in Boston and Chicago.
+
+[^fn2]: He provides the names “Extensive Increase” (<span lang="yue">廣泰</span> <span lang="yue-Latn-jyutping">gwong² taai³</span>), “Heavenly Harmony” (<span lang="yue">天和</span> <span lang="yue-Latn-jyutping">tin¹ wo⁴</span>), “Fortunate Increase” (<span lang="yue">福泰</span> <span lang="yue-Latn-jyutping">fuk¹ taai³</span>), and “Encouraging Fountain” (<span lang="yue">釗泉</span> <span lang="yue-Latn-jyutping">ciu¹ cyun⁴</span>).
 
 There were ten Chinese lottery banks operating in San Francisco in
 1890,[@FoolsOfFortuneOrGamblingAndGamblers p. 450] and by 1892 the same number
@@ -524,7 +532,7 @@ stationed on the West Coast from spending their money on gambling; most did not
 re-open after the war.[@WhenChinatownHadItsOwnLotteries]
 
 Other banks (often termed “companies” on 20th-century tickets) I have [seen](https://web.archive.org/web/20071006145040/http://www.chinesecol.com/treasure5.html)
-include:{%fn%}The suffix of the ticket title in Chinese here indicates whether the ticket was for a day (<span lang="zh">日</span>) or night (<span lang="zh">夜</span>) draw.{%endfn%}
+include:[^fn3]
 American Co. (Chinese title <span lang="zh">花旗夜廠</span>),
 Liberty Co. (<span lang="zh">自由日廠</span>),
 Sun Set Co. (<span lang="zh">順式日廠</span>),
@@ -532,6 +540,8 @@ Cleveland Co. (<span lang="zh">企李倫夜廠</span>),
 New World Co. (<span lang="zh">新世界夜廠</span>),
 and Oregon Co. (<span lang="zh">柯利近日廠</span>).
 In the Penn Museum are bundles of 19th-century tickets from [Lee Kee Co.](https://www.penn.museum/collections/object/100724) (<span lang="zh">利記廠</span>) and [Tai Kee Co.](https://www.penn.museum/collections/object/265515) (<span lang="zh">泰記厰</span>).  Californian companies included [Fook Tai](https://calisphere.org/item/ark:/13030/hb1t1n982s/) (<span lang="zh">泰福夜厰</span>), [The Sun](https://www.abebooks.co.uk/Vintage-Chinese-lottery-tickets-Fook-Tai/10106995025/bd) (?), [Lee Tai](https://calisphere.org/item/ark:/13030/hb3j49n63p/) (<span lang="zh">利泰日厰</span>), [Boston](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?order=2&brand=oac4) (<span lang="zh">保市頓</span>), and [American Co.](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?order=4&brand=oac4) (<span lang="zh">花旗</span>). 
+
+[^fn3]: The suffix of the ticket title in Chinese here indicates whether the ticket was for a day (<span lang="zh">日</span>) or night (<span lang="zh">夜</span>) draw.
 
 ### In Australia
 
@@ -945,20 +955,16 @@ to even _operate_ a licensed game.{%fn%}This seems particularly egregious given 
 the distinctly Chinese game of Fan-Tan was also explicitly legalized by the
 bill… but only for US citizens!{%endfn%}
 
-At this time, the name “keno” (or “quino”) referred to a Bingo-like game from
-the 19th century (see the {%gameref keno-bingo %} article for
-more).{%fn%}Interestingly, one of the few books to get the distinction between
-‘old’ and ‘new’ Keno straight is @PlayboysIllustratedTreasury [p. 215].{%endfn%}
-This game used pre-printed sheets and randomly-drawn numbers, and is not
-directly related to the Chinese-derived modern game of Keno, where sheets are
-marked by the players.
+At this time, the name “keno” (or “quino”) referred to a Bingo-like game from the 19th century (see the [Keno (Bingo)](games/keno-bingo/keno-bingo.md) article for more).[^fnpb] This game used pre-printed sheets and randomly-drawn numbers, and is not directly related to the Chinese-derived modern game of Keno, where sheets are marked by the players.
+
+[^fnpb]: Interestingly, one of the few books to get the distinction between ‘old’ and ‘new’ Keno straight is @PlayboysIllustratedTreasury [p. 215].
 
 However, it seems that the Lyden brothers seized upon this opportunity to
-rebrand their game under the “keno” name. In 1935 Francis moved to Reno, where
+rebrand their game under the “keno” name. In 1935 Francis moved to Reno,[^nojoe] where
 he began to work for John Petricciani, owner of the newly-opened Palace
-Club.[@FrancisLydenButteBoy] {%fn%}Joe Lyden doesn’t feature any further in this
-story, but he would also later (after 1938?) move to Las Vegas and start the
-first Keno game there, at the Fremont.{%endfn%}
+Club.[@FrancisLydenButteBoy]
+
+[^nojoe]: Joe Lyden doesn’t feature any further in this story, but he would also later (after 1938?) move to Las Vegas and start the first Keno game there, at the Fremont.
 
 ### “Chinese Keno”
 
@@ -973,7 +979,7 @@ council and his staff arrested.[@LotteryAndKenoContrasted] While the case
 against the staff was eventually dropped, Woo Sing was unable to recover his
 $300 ($6870 in 2022 dollars) license fee. In May 1933, a J. B. Crane, an
 associate of Woo Sing’s, attempted to procure a license to run the game as
-“keno”.{%fn%}At the Lucky Club, 233 Lake Street.{%endfn%} Crane stated
+“keno”.[^fn4] Crane stated
 (correctly) that the game was not actually a lottery and hence not illegal, and
 that his game would use numbers in place of Chinese characters, and the license
 was subsequently granted.[@CraneIssuedKeno] By the middle of June the club had
@@ -982,6 +988,8 @@ reopen it,[@ChineseKenoGamesToOperate] until finally Crane’s licenses were
 revoked and his club was ordered shut.[@JBCrane]{%fn%}Crane had previously
 boasted that the council did not have the power to refuse a license, which must
 not have helped his cause.{%endfn%}
+
+[^fn4]: At the Lucky Club, 233 Lake Street.
 
 Another operator named Walter Tun, who had watched the proceedings closely, also
 chose to close his “lottery” operation.[@CouncilRevokesCrane] While all this was
@@ -1220,9 +1228,11 @@ extensive list on their Keno page.
 
 ### Outside the casino: “Lottery” Keno
 
-<Image src="keno_ticket.jpg" alt="">
-A modern non-casino Keno ticket, as used in New Zealand.
-</Image>
+> [!figure]
+>
+> ![](keno_ticket.jpg)
+>
+> A modern non-casino Keno ticket, as used in New Zealand.
 
 Keno is also run as a large-scale operation by lotteries operators. In this form
 of the game, only ‘straight’ tickets may be played — due to the number of

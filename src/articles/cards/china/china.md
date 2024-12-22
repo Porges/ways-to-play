@@ -12,13 +12,7 @@ card-playing and many different varieties.
 
 {/* excerpt */}
 
-The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard
-Chinese: {%pronounce lang="cmn-Latn-pinyin" word="pái" pronouncer="LofZRules"
-file="pronunciation_zh_牌.mp3" %}), does not distinguish between different forms
-of card-like games and equally applies to paper or cardboard cards, bamboo
-sticks, or bone, ivory, or plastic Mahjong tiles. In many adjacent countries and
-languages adjacent to China, a derived or related term is used in the local
-language. Below I list some examples, ordered by number of speakers:
+The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard Chinese: <Pronounce lang="cmn-Latn-pinyin" pronouncer="LofZRules" file="pronunciation_zh_牌.mp3">pái</Pronounce>), does not distinguish between different forms of card-like games and equally applies to paper or cardboard cards, bamboo sticks, or bone, ivory, or plastic Mahjong tiles. In many adjacent countries and languages adjacent to China, a derived or related term is used in the local language. Below I list some examples, ordered by number of speakers:
 
 * Chinese: <span lang="zh">牌</span> <span lang="cmn-Latn-pinyin">pái</span> (Mandarin)
 * Vietnamese: <span lang="vi">bài</span> {/* 76M */}

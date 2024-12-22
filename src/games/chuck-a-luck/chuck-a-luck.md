@@ -10,6 +10,8 @@ hero:
     organization: 
         orgName: "Potter & Potter Auctions"
     originalUrl: "https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx"
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">Chuck-A-Luck was a simple dicing game popular in the United States in the mid to
@@ -126,7 +128,7 @@ A Mustang layout, from Kernan Manufacturing’s @KernanCatalogue [p. 19].
 </Image>
 
 It is possible that it was one  one of these pictorial versions that was taken
-and adopted by the British as {% gameref crown-and-anchor %}.
+and adopted by the British as [Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md).
 
 <Image 
     position="aside"
@@ -259,7 +261,7 @@ usual, the extended staking layout contains boxes for the following bets:
 <dl>
 <dt>Raffles</dt>
 <dd>
-<p>A “raffle” is a three-of-a-kind. There are two different raffles bets that can be made: either that any raffle will come up, which pays 29&ratio;1{%fn%}Note that the payments on the board in the image below are given as “30 <em>for</em> 1” and not “30 <em>to</em> 1”. This means that the stake counts as part of the winnings and thus increases the already-high house edge.{%endfn%} (fair odds 35&ratio;1), or else a bet can be placed on a specific raffle, which pays 179&ratio;1 (fair odds 216&ratio;1). Both bets have the same high house edge of 16.67% and so in the long-term are equivalent bets.</p>
+<p>A “raffle” is a three-of-a-kind. There are two different raffles bets that can be made: either that any raffle will come up, which pays 29&ratio;1[^fn0] (fair odds 35&ratio;1), or else a bet can be placed on a specific raffle, which pays 179&ratio;1 (fair odds 216&ratio;1). Both bets have the same high house edge of 16.67% and so in the long-term are equivalent bets.</p>
 <p>More modern versions of the game might pay out 30&ratio;1 for any 3-of-a-kind, which has a slightly lower edge of 13.89%.</p>
 </dd>
 <dt>Low (≤10) or High (≥11)</dt>
@@ -323,6 +325,8 @@ usual, the extended staking layout contains boxes for the following bets:
     </table>
 </dd>
 </dl>
+
+[^fn0]: Note that the payments on the board in the image below are given as “30 <em>for</em> 1” and not “30 <em>to</em> 1”. This means that the stake counts as part of the winnings and thus increases the already-high house edge.
 
 ### Other Hyronemus Bets
 

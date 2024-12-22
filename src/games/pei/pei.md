@@ -37,13 +37,17 @@ The <span lang="jav-Latn">patih</span> is then permitted to look at the top card
 
 On each player’s turn, first they play a card from their hand, trying to match one of the face-up cards by rank. If they can, they capture both cards. If they cannot make a match, their played card is left face-up with the other cards on the table. After this, they draw a card from the stock and again try to match a card by rank. Captured cards may be kept either face-up or face-down, depending on the players.
 
-Unusually, cards are drawn from the stock by passing it around and drawing cards from the bottom.{%fn%}This feature is also recorded by Ki-Tong Tcheng, see below.{%endfn%} The stock pile may be split into multiple sections to make this easier, making sure to leave the pile with the <span lang="jav-Latn">patih</span>’s card for last. The <span lang="jav-Latn">unyik</span>’s card remains face-up in the middle, alongside any money placed there for bets.
+Unusually, cards are drawn from the stock by passing it around and drawing cards from the bottom.[^fn0] The stock pile may be split into multiple sections to make this easier, making sure to leave the pile with the <span lang="jav-Latn">patih</span>’s card for last. The <span lang="jav-Latn">unyik</span>’s card remains face-up in the middle, alongside any money placed there for bets.
+
+[^fn0]: This feature is also recorded by Ki-Tong Tcheng, see below.
 
 The round continues until players have used up all the cards in their hands. If some cards are unmatched at the end of the game then they are left on the table.
 
 The dealer (if any) arranges the player’s cards by scoring combinations and counts the points (apparently grouping them into sets of 25 makes this faster).  Any cards that are not part of a combination score their face value (rank).
 
-The player with the highest score is <span lang="jav-Latn">ngeté</span> (‘payment getter’?),{%fn%}The book suggests <span lang="jav-Latn">te</span> is from Chinese <span lang="zh">貯</span> ‘hoard, savings’.{%endfn%} the second is <span lang="jav-Latn">tengah</span> ‘centre’ or <span lang="jav-Latn">jangga</span> ‘neck’?, and the last is <span lang="jav-Latn">kete</span> (‘payment giver’?).
+The player with the highest score is <span lang="jav-Latn">ngeté</span> (‘payment getter’?),[^fn1] the second is <span lang="jav-Latn">tengah</span> ‘centre’ or <span lang="jav-Latn">jangga</span> ‘neck’?, and the last is <span lang="jav-Latn">kete</span> (‘payment giver’?).
+
+[^fn1]: The book suggests <span lang="jav-Latn">te</span> is from Chinese <span lang="zh">貯</span> ‘hoard, savings’.
 
 ### Scoring Combinations
 
@@ -85,7 +89,7 @@ The red-stamped cards.
 
 
 > [!aside]
-> In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Hokkien: {%pronounce lang="nan-Latn" word="pōng" pronouncer="chihchao" file="pronunciation_nan_碰.mp3" %}, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See the {%a glossary#pong %} page for more.
+> In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Hokkien: <Pronounce lang="nan-Latn"  pronouncer="chihchao" file="pronunciation_nan_碰.mp3">pōng</Pronounce>, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See the {%a glossary#pong %} page for more.
 > 
 > <span lang="jav-Latn">Kéyang</span> is the name of the 9 of myriads card. I am uncertain what it means.
 
@@ -156,7 +160,9 @@ In addition, players can pay to each other the <span lang="jav-Latn">jung</span>
 
 ### The Chinese game
 
-The Chinese version of this game is described under the (French) name of <span lang="fr">la pêche</span> (‘fishing’) by [Tcheng Ki-tong.](https://en.wikipedia.org/wiki/Chen_Jitong)[@PlaisirsEnChine p. 270]{%fn%}See also the English translation of this work, @BitsOfChina [p. 205].{%endfn%} Presumably the Chinese name is <span lang="zh-Hant">釣魚</span> (Hokkien: <span lang="nan-Latn">tiò-hû</span>), which is also shared by a domino game which uses the fishing mechanic.[@ChineseGames p. 511]
+The Chinese version of this game is described under the (French) name of <span lang="fr">la pêche</span> (‘fishing’) by [Tcheng Ki-tong.](https://en.wikipedia.org/wiki/Chen_Jitong)[@PlaisirsEnChine p. 270][^fn2] Presumably the Chinese name is <span lang="zh-Hant">釣魚</span> (Hokkien: <span lang="nan-Latn">tiò-hû</span>), which is also shared by a domino game which uses the fishing mechanic.[@ChineseGames p. 511]
+
+[^fn2]: See also the English translation of this work, @BitsOfChina [p. 205].
 
 The game is for three players, and uses two decks (120 cards). To deal, the deck is divided into 8 packs of 14 cards, with 8 cards left over. Dice are used to select three packs which will be used as a stock (of 42 cards). Another two packs are selected and combined with the 8 extra cards — these cards will form the central pool of 36 cards. Lastly the three remaining packs are allocated to the players. The last player spreads the pool cards out face up, and also is allowed to look at the last card in the stock to compensate for playing last.  Since they are the last player they will receive this card at the very end of the round, so they can know what to expect.
 
@@ -176,7 +182,7 @@ In the version as played in [Magelang](https://en.wikipedia.org/wiki/Magelang),[
 
 In @JavaanseKaartspelen [p. 58] it is suggested that the name of the game comes from the Chinese game {% gameref fishing-for-hairtails %}, but that is played with (two-colour) chess playing cards, and doesn’t have any sequence collection.
 
-In fact, the game is closely related to the Chinese game of {% gameref kanhu %}, and so I believe the name probably comes from the Chinese word for playing cards, <span lang="zh-Hant">牌</span> (Hokkien: {% pronounce lang="nan-Latn" word="pâi" pronouncer="690518207" file="pronunciation_nan_牌.mp3" %}).
+In fact, the game is closely related to the Chinese game of {% gameref kanhu %}, and so I believe the name probably comes from the Chinese word for playing cards, <span lang="zh-Hant">牌</span> (Hokkien: <Pronounce lang="nan-Latn"  pronouncer="690518207" file="pronunciation_nan_牌.mp3">pâi</Pronounce>).
 
 The combinations in particular are copied directly from the {% gameref kanhu %} scoring combinations called ‘eyes’ (<span lang="zh">眼</span>). The odd combinations of cards are explained by the historical ordering of the deck (see its article for more on this), in short, the suit of coins used to rank in reverse. White Flower derives from the half-coin card and Red Flower from the zero-coin card, so they rank above all other coins.
 

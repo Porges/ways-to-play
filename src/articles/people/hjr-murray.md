@@ -1,13 +1,14 @@
 ---
 title: H. J. R. Murray
 order: 100
+aliases: Murray
 ---
 
-[H. J. R.  Murray](https://en.wikipedia.org/wiki/H._J._R._Murray){%fn%}Son of
-[James Murray](https://en.wikipedia.org/wiki/James_Murray_(lexicographer)), the
-first editor of the Oxford English Dictionary.{%endfn%} (1868–1955) is a very
+[H. J. R.  Murray](https://en.wikipedia.org/wiki/H._J._R._Murray)[^son] (1868–1955) is a very
 important figure in the history of board games studies. He published two key
  works: @Murray in 1913 and @Murray2 in 1951.
+
+[^son]: Son of [James Murray](https://en.wikipedia.org/wiki/James_Murray_(lexicographer)), the first editor of the Oxford English Dictionary.
 
 <cite>A History of Chess</cite> took 13 years to complete, and Murray taught
 himself German and Arabic in order to finish the book! <cite>A History of

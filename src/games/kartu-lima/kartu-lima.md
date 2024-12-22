@@ -186,7 +186,9 @@ There are four cards in this group; the 9 of Strings outranks the 8 of Strings, 
 
 ### <span lang="jav-Latn">Dika</span>
 
-The remaining 12 cards are in this group.  The name of this group comes from the work <span lang="jav-Latn">mardika</span> meaning ‘free, independent, not in service to someone else’. This group should really be thought of as 12 different groups,{%fn%}As pointed out in @JavaanseKaartspelenReview [p. 350].{%endfn%} one for each card, as the cards in this group can only be beaten by their identical copy (there are two copies of each card).
+The remaining 12 cards are in this group.  The name of this group comes from the work <span lang="jav-Latn">mardika</span> meaning ‘free, independent, not in service to someone else’. This group should really be thought of as 12 different groups,[^fn0] one for each card, as the cards in this group can only be beaten by their identical copy (there are two copies of each card).
+
+[^fn0]: As pointed out in @JavaanseKaartspelenReview [p. 350].
 
 Note that because these are really 12 separate groups, if one of the <span lang="jav-Latn">dika</span> is led, the only card that is forced to be played is its matching partner (which, if played, must win the trick). You do not have to throw away another <span lang="jav-Latn">dika</span> as a discard.
 

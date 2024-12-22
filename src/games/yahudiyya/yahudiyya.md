@@ -21,6 +21,8 @@ For terminology, please see the {% a table-games %} article.
 
 The game is played using only the inner table of the board. In each player’s outer three points they stack two pieces, and on each of their inner three points they stack three pieces.
 
-<Image src="yahudiya_setup.svg" alt="">
-The initial board setup.
-</Image>
+> [!figure]
+>
+> ![](yahudiya_setup.svg)
+>
+> The initial board setup.

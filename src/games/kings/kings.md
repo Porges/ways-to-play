@@ -64,7 +64,9 @@ them from a central pool.
 
 ## <span lang="jav-Latn">Thothit Yogyakarta</span>
 
-A very similar game but played with {% a ceki %} is known in [Yogyakarta](https://en.wikipedia.org/wiki/Yogyakarta) as <span lang="jav-Latn" class="noun aka">Thothit</span>{%fn%}Older Romanizations spell this <span lang="jav-Latn" class="noun aka">Ṭoṭit</span>.{%endfn%} (there is also a different game which was called {% gameref thothit %} in Surakarta; see that article for details).
+A very similar game but played with {% a ceki %} is known in [Yogyakarta](https://en.wikipedia.org/wiki/Yogyakarta) as <span lang="jav-Latn" class="noun aka">Thothit</span>[^fn0] (there is also a different game which was called {% gameref thothit %} in Surakarta; see that article for details).
+
+[^fn0]: Older Romanizations spell this <span lang="jav-Latn" class="noun aka">Ṭoṭit</span>.
 
 According to @JavaanseKaartspelen [p. 75], the game is usually played by women.
 

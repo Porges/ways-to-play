@@ -173,4 +173,4 @@ Another way to vary the game would be to play on a non-square or non-uniform boa
 
 ## See also
 
-{% gameref take-it-away %} is a similar game by Sid Sackson.
+[Take It Away](games/take-it-away/take-it-away.md) is a similar game by Sid Sackson.

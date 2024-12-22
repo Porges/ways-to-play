@@ -5,9 +5,13 @@ originalTitle: <span lang="kn" class="aka">ಚೌಕಾಬಾರ</span>
 draft: true
 ---
 
-Kannada: <span lang="kn" class="aka">ಚೌಕಾಬಾರ</span> <span lang="kn-Latn" class="aka">caukābāra</span>.{%fn%}In older sources this is transliterated <span class="aka" lang="kn-Latn">Chowka Bhara</span>.{%endfn%}
+Kannada: <span lang="kn" class="aka">ಚೌಕಾಬಾರ</span> <span lang="kn-Latn" class="aka">caukābāra</span>.[^fn0]
 
-In Malayalam, spoken in Kerala: <span lang="ml" class="aka">കവടി കളി</span>{%fn%}Sometimes <span lang="ml">കവടിക്കളി</span> <span lang="ml-Latn">kavaṭikkaḷi</span>.{%endfn%} (<span lang="ml-Latn" class="aka">kavaṭi kaḷi</span> ‘cowry game’), or <span lang="ml" class="aka">ദായക്കളി</span>/<span lang="ml" class="aka">തായക്കളി</span> (<span lang="ml-Latn" class="aka">dāyakkaḷi</span>/<span lang="ml-Latn" class="aka">tāyakkaḷi</span> ‘dice game’) — these can also be used for other similar games.
+[^fn0]: In older sources this is transliterated <span class="aka" lang="kn-Latn">Chowka Bhara</span>.
+
+In Malayalam, spoken in Kerala: <span lang="ml" class="aka">കവടി കളി</span>[^fn1] (<span lang="ml-Latn" class="aka">kavaṭi kaḷi</span> ‘cowry game’), or <span lang="ml" class="aka">ദായക്കളി</span>/<span lang="ml" class="aka">തായക്കളി</span> (<span lang="ml-Latn" class="aka">dāyakkaḷi</span>/<span lang="ml-Latn" class="aka">tāyakkaḷi</span> ‘dice game’) — these can also be used for other similar games.
+
+[^fn1]: Sometimes <span lang="ml">കവടിക്കളി</span> <span lang="ml-Latn">kavaṭikkaḷi</span>.
 
 {/*
 

@@ -10,7 +10,9 @@ The game of <span lang="kew" class="aka noun">Satu</span> (amongst the Muli Eker
 
 ## Play
 
-Three dice are needed to play. The player rolls all three dice: if the majority of dice show one of {%dice 123 %}, then the result is ‘one’ (Kewa <span lang="kew">pameda</span>); if most show {%dice 456%} then the result is ‘four’ (Kewa <span lang="kew">maala</span>).{%fn%}Oddly this seems to use numbers originating from two different counting systems, see @KewaCounting.{%endfn%}
+Three dice are needed to play. The player rolls all three dice: if the majority of dice show one of {%dice 123 %}, then the result is ‘one’ (Kewa <span lang="kew">pameda</span>); if most show {%dice 456%} then the result is ‘four’ (Kewa <span lang="kew">maala</span>).[^fn0]
+
+[^fn0]: Oddly this seems to use numbers originating from two different counting systems, see @KewaCounting.
 
 Bets are either on ‘one’ or ‘four’. A player chooses their target at the start of the session and does not change. They only choose which dice rolls to bet on, and who to bet against: bets are placed and settled between individuals, although most players will form an implicit ‘team’ that they are coöperating with.[@WaitingForCompany p. 208]
 

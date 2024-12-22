@@ -60,7 +60,9 @@ pictorial versions of Chuck-A-Luck such as “Mustang”. In England there are
 certainly many old references to “dice boards” or “gaming tables”, but they are
 not described in detail very often.
 
-At first, the game was played with symbols other than the crown and anchor. The earliest reference I have found is to a version played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George <span class="rnum">IV</span> in Hyde Park in 1821.{%fn%}This is clearly the same game as six outcomes are listed and the operator announces “three to win, three to lose” — a classically misleading claim!{%endfn%}[@DissolutionOfCoronationFair]
+At first, the game was played with symbols other than the crown and anchor. The earliest reference I have found is to a version played with “anchors, stars, clubs, spades, hearts, and diamonds” at the coronation fair of George <span class="rnum">IV</span> in Hyde Park in 1821.[^fn0][@DissolutionOfCoronationFair]
+
+[^fn0]: This is clearly the same game as six outcomes are listed and the operator announces “three to win, three to lose” — a classically misleading claim!
 
 Other variants were developed through the 19th century: In 1842, the
 <cite>Punch</cite> character Mr. Muff “mistrust[s] the chances of the ‘Dimunt,
@@ -276,19 +278,23 @@ discussed in the [Chuck-a-Luck](games/chuck-a-luck.md) article.
 Modern Chinese dice.
 </Image>
 
-In English the Chinese name is usually given as “<span class="aka">Hoo Hey How</span>”; this appears to derive from the Hokkien {%pronounce lang="nan-Latn" word="hû hê hāu" file="pronunciation_nan_魚蝦鱟.mp3" class="aka" pronouncer="2867290031" %} <span lang="nan" class="aka">魚蝦鱟</span>.[@GamblingGamesOfMalaya p. 109] The modern Chinese name is <span lang="zh-Hant" class="aka">魚蝦蟹</span>/<span lang="zh-Hans" class="aka">鱼虾鲎</span> ‘fish prawn crab’; these are several of the symbols that commonly appear on the staking layout.
+In English the Chinese name is usually given as “<span class="aka">Hoo Hey How</span>”; this appears to derive from the Hokkien <Pronounce lang="nan-Latn"  file="pronunciation_nan_魚蝦鱟.mp3" class="aka" pronouncer="2867290031">hû hê hāu</Pronounce> <span lang="nan" class="aka">魚蝦鱟</span>.[@GamblingGamesOfMalaya p. 109] The modern Chinese name is <span lang="zh-Hant" class="aka">魚蝦蟹</span>/<span lang="zh-Hans" class="aka">鱼虾鲎</span> ‘fish prawn crab’; these are several of the symbols that commonly appear on the staking layout.
 
-<Image src="chinese_board.svg" alt="">
-Example of a Chinese-style staking layout. At the top is the manufacturer’s name <span lang="zh">高慶坊</span> <span class="noun" lang="cmn-Latn-pinyin">Gāo Qìng Fāng</span>, followed by <span lang="zh">翹骰不算</span> “cocked dice don’t count”.
-</Image>
+> [!figure]
+>
+> ![](chinese_board.svg)
+>
+> Example of a Chinese-style staking layout. At the top is the manufacturer’s name <span lang="zh">高慶坊</span> <span class="noun" lang="cmn-Latn-pinyin">Gāo Qìng Fāng</span>, followed by <span lang="zh">翹骰不算</span> “cocked dice don’t count”.
 
 An equivalent (perhaps older) game can be played with three standard six-sided dice. It does not need to be played with a layout board but it can be. In this form it can be called <span lang="nan" class="aka">么二三</span> <span lang="nan-Latn" class="aka">io jī sam</span> (‘ace, two, three’, romanized “<span class="aka noun" lang="nan-Latn">Yew Yee Sam</span>” in older texts).[@GamblingGamesOfMalaya p. 95]
 
 #### ‘Grasping Eight’
 
-Culin[@ChineseGames p. 495–6] describes a very similar game that he calls “<span class="aka">Grasping Eight</span>” (<span lang="yue" class="aka">八㪥</span>, Cantonese: <span lang="yue-Latn-jyutping" class="aka">baat³ zaa¹</span>),{%fn%}Culin transcribes this as <span lang="yue-Latn" class="aka">pát chá</span>.{%endfn%} which uses eight dice.
+Culin[@ChineseGames p. 495–6] describes a very similar game that he calls “<span class="aka">Grasping Eight</span>” (<span lang="yue" class="aka">八㪥</span>, Cantonese: <span lang="yue-Latn-jyutping" class="aka">baat³ zaa¹</span>),[^fn1] which uses eight dice.
 
-The staking board contains the six squares with the dice symbols {%cdice 123456%}, and players place their stakes on the squares. The eight dice are rolled. If at least three match a number, the players who staked on that number win 8×; if at least six match, they win 16×. All other stakes are lost.
+[^fn1]: Culin transcribes this as <span lang="yue-Latn" class="aka">pát chá</span>.
+
+The staking board contains the six squares with the dice symbols <Dice type="chinese">123456</Dice>, and players place their stakes on the squares. The eight dice are rolled. If at least three match a number, the players who staked on that number win 8×; if at least six match, they win 16×. All other stakes are lost.
 
 ### Indochina
 
@@ -386,7 +392,9 @@ Playing with a dice tower in Laos; the board has names in Thai.
 
 ### India and Nepal
 
-The game was known in Mumbai and Pune{%fn%}Then called Bombay and Poona.{%endfn%} as early as 1905, as indicated by court cases from the time,[@ABookmakerAndThePolice][@HeartAnchorAndCrown] but it may have been in India for a long time prior to that.
+The game was known in Mumbai and Pune[^fn2] as early as 1905, as indicated by court cases from the time,[@ABookmakerAndThePolice][@HeartAnchorAndCrown] but it may have been in India for a long time prior to that.
+
+[^fn2]: Then called Bombay and Poona.
 
 In current times, the game is called <span lang="hi" class="aka">झंडी मुंडा</span> <span class="noun aka" lang="hi-Latn">Jhaṇḍī Muṇḍā</span> (“flag crown”?), or <span lang="hi" class="aka">खोर खोरे</span> <span class="noun aka" lang="hi-Latn">Khor Khore</span>.
 
@@ -431,7 +439,9 @@ The game being played with 6 dice in [Pokhara](https://en.wikipedia.org/wiki/Pok
 Modern dice for the Nepalese game.
 </Image>
 
-In Nepal the game is called <span lang="ne-Latn" class="aka">langur burja</span> (<span lang="ne" class="aka">लंगूर</span> or <span lang="ne" class="aka">लङ्गुर बुर्जा</span>).{%fn%}<span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.{%endfn%} It is commonly played during the festivals of [<span class="noun" lang="ne-Latn">Dashain</span>](https://en.wikipedia.org/wiki/Dashain) (<span lang="ne">दशैं</span>) and [<span class="noun" lang="ne-Latn">Tihar</span>](https://en.wikipedia.org/wiki/Tihar_(festival)) (<span lang="ne">तिहार</span>), and it is usually played with six dice (requiring a minimum of two matches to pay out).
+In Nepal the game is called <span lang="ne-Latn" class="aka">langur burja</span> (<span lang="ne" class="aka">लंगूर</span> or <span lang="ne" class="aka">लङ्गुर बुर्जा</span>).[^fn3] It is commonly played during the festivals of [<span class="noun" lang="ne-Latn">Dashain</span>](https://en.wikipedia.org/wiki/Dashain) (<span lang="ne">दशैं</span>) and [<span class="noun" lang="ne-Latn">Tihar</span>](https://en.wikipedia.org/wiki/Tihar_(festival)) (<span lang="ne">तिहार</span>), and it is usually played with six dice (requiring a minimum of two matches to pay out).
+
+[^fn3]: <span lang="ne-Latn">Langur</span> would seem to derive from the Hindi <span lang="hi">लंगर</span> <span lang="hi-Latn">langar</span>, “anchor”, but the association has been lost in Nepal as the anchor symbol was replaced by a flag.
 
 Some Nepali names for the playing-card symbols are:
 

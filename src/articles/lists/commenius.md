@@ -4,7 +4,9 @@ order: 1629
 draft: true
 ---
 
-John Amos Comenius first published <cite lang="la">Janua Linguarum Reserata</cite> (<cite>The Door of Languages Unlocked</cite>) in 1629. It contains a series of 1000 sentences in Latin, which were then translated into other languages by subsequent authors.{%fn%}Comenius was inspired by the earlier <cite lang="la">Janua Linguarum</cite> (<cite>The Door of Languages</cite>) by William Bathe, first published in Salamanca in 1611, and then in English in 1617.[@IanvaLingvarvm1617] This earlier book mentions dice games in passing but provides nothing like a list of games. For more about William Bathe’s work, see @WilliamBathe.{%endfn%}
+John Amos Comenius first published <cite lang="la">Janua Linguarum Reserata</cite> (<cite>The Door of Languages Unlocked</cite>) in 1629. It contains a series of 1000 sentences in Latin, which were then translated into other languages by subsequent authors.[^fn0]
+
+[^fn0]: Comenius was inspired by the earlier <cite lang="la">Janua Linguarum</cite> (<cite>The Door of Languages</cite>) by William Bathe, first published in Salamanca in 1611, and then in English in 1617.[@IanvaLingvarvm1617] This earlier book mentions dice games in passing but provides nothing like a list of games. For more about William Bathe’s work, see @WilliamBathe.
 
 Chapter 96 (“<span lang="la">De Ludicris</span>”) contains a list of board and card games in sentence 941. As such, the translations of this passage are useful to see what games were being played in different countries at this time. Here I give a selection from several different editions.
 
@@ -44,7 +46,9 @@ Contendere con burle, motti ô detti piaceuoli, & enigmi {* Indouinelli}, è cos
 </blockquote>
 
 A later pentalingual 1661 edition also by Duëz expanded these slightly and added Spanish:[@JanuaLinguarum1661 483–5]
-{%fn%}A later quadrilingual edition of 1676 seemingly takes these from Duëz’ 1661 edition, as it has copying errors…[@IanvaAvreaReserata1676 503–4] but that cannot be the whole story as it does not include the Spanish translation.{%endfn%}
+[^fn1]
+
+[^fn1]: A later quadrilingual edition of 1676 seemingly takes these from Duëz’ 1661 edition, as it has copying errors…[@IanvaAvreaReserata1676 503–4] but that cannot be the whole story as it does not include the Spanish translation.
 
 <blockquote lang="la">
 Facetiis, dicteriis, ac ænigmatibus certare, ingeniosum est: pilâ cum reticulo in sphæristerio, sphærâ in suo sphæristerio, pilâ paganicâ (à paganis & rusticis sic dicta, quòd in pagis eâ utantur) harpasto, folle, palæstra, (palæstra scilicet cursoria,) sphæraque per annulum, sanum, disco, globo & conis, trocho, turbine, verticillis, sclopo (est catapulta pneumatica, & rubulus flatu jaculatorius,) globulis, nucibus, myindâ, apodidrascindâ, basilindâ, oscillo, ascoliasmo, cindalismo (paxiliorum ludus, in quo paxillum paxillo excutiunit: [German here]) par impar, & tubulo sambuceo, quo elisâ glande stupeâ aut chartaceâ strepitus cietur, puerile: aleis, uti chartis tabulisve lusoriis, talis sive tesseris, fritillo, & pyrgo seu turriculâ, aleatorium: digitis micare, Italotum: scrupis, tum novem, tum duodecim, & latrunculis, operosum atque tædiosum.

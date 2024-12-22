@@ -3,6 +3,8 @@ title: Fox & Geese
 draft: true
 players: 2
 equipment: Board game
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 Fox and Geese games are discussed by Randle Holme in @AcademyOfArmory3 [p. 67–8].
@@ -18,4 +20,4 @@ In other languages and countries it is known as:
 
 ## See also
 
-{% gameref assault %} is also played on the same board.
+[assault](games/assault/assault.md) is also played on the same board.

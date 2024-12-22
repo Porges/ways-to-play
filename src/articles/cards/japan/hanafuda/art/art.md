@@ -9,10 +9,10 @@ hero:
     organization: 
         orgName: "Metropolitan Museum of Art"
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2024-12-22
 ---
 
-<p class="lead"><span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the {% pronounce lang="ja-Latn" word="Edo" noun=true pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3" %} period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> {% pronounce lang="ja-Latn" word="mono-awase" file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan" %}) that had been played since the {% pronounce lang="ja-Latn" word="Heian" noun=true pronouncer="skent" file="pronunciation_ja_平安.mp3" %} period (<span lang="ja">平安</span>, 794–1185).</p>
+<p class="lead"><span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn"  noun=true pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) that had been played since the <Pronounce lang="ja-Latn"  noun=true pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> period (<span lang="ja">平安</span>, 794–1185).</p>
 
 ## Origins
 
@@ -385,11 +385,13 @@ lang="ja-Latn">hanafuda</span> deck was already present.
 
 At the moment it is unclear exactly how the <span class="noun" lang="ja-Latn">Hanafuda</span>
 deck was developed from the <span lang="ja-Latn">hana-awase</span>
-cards.{%fn%}I hope to expand on this in future!{%endfn%} It seems that at
+cards.[^fn0] It seems that at
 some point an enterprising manufacturer began to produce a stripped-down version
 that Japanese <span class="noun" lang="ja-Latn">Hanafuda</span> scholar <span class="noun"
 lang="ja-Latn">Ebashi Takashi</span> (<span lang="ja">江橋崇</span>) calls the
 <span class="noun" lang="ja-Latn">Musashino</span> (<span lang="ja">武蔵野</span>) deck.
+
+[^fn0]: I hope to expand on this in future!
 
 ### Banning & Legalization
 
@@ -541,7 +543,9 @@ of evidence, the case was dropped, but <span class="noun" lang="ja-Latn">Kojima<
 accepted ‘moral responsibility’ for the scandal and resigned his
 position.[@EmperorOfJapan p. 813]
 
-Despite this “image problem”, playing <span class="noun" lang="ja-Latn">Hanafuda</span> became part of what it meant to be a <span lang="ja-Latn">shinshi</span> (<span lang="ja">紳士</span>) — that is, a modern, worldly gentleman.{%fn%}The Japanese word <span lang="ja-Latn">shinshi</span> had originally been coined to translate the English “gentleman”,[@TheEastandtheIdeaofEurope p. 32–8] and was particularly associated with those who enthusiastically embraced Westernization during the <span class="noun" lang="ja-Latn">Meiji</span> period.{%endfn%} The author <span class="noun" lang="ja-Latn">Uchida Roan</span> (1868–1929) is said to have joked:
+Despite this “image problem”, playing <span class="noun" lang="ja-Latn">Hanafuda</span> became part of what it meant to be a <span lang="ja-Latn">shinshi</span> (<span lang="ja">紳士</span>) — that is, a modern, worldly gentleman.[^fn1] The author <span class="noun" lang="ja-Latn">Uchida Roan</span> (1868–1929) is said to have joked:
+
+[^fn1]: The Japanese word <span lang="ja-Latn">shinshi</span> had originally been coined to translate the English “gentleman”,[@TheEastandtheIdeaofEurope p. 32–8] and was particularly associated with those who enthusiastically embraced Westernization during the <span class="noun" lang="ja-Latn">Meiji</span> period.
 
 <blockquote lang="ja">紳士の資格は？　弄花と蓄妾と負債と奔走。</blockquote>
 
@@ -589,48 +593,14 @@ Apparently a family playing with <span class="noun" lang="ja-Latn">Hanafuda</spa
 </Image>
 </div>
 
-{%aside%}<span class="noun" lang="ja-Latn">Murai</span>’s main competitor was <span class="noun"
-lang="ja-Latn">Iwaya</span> (<span lang="ja-Latn">岩谷商会</span>), run by <span class="noun"
-lang="ja-Latn">Iwaya Matsuhei</span> (<span lang="ja">岩谷松平</span>), who had
-a more nationalistic outlook. Interestingly, the iconography of their cigarette
-brands overlaps significantly with that of later <span class="noun"
-lang="ja-Latn">Hanafuda</span> brands — some examples include <span
-lang="ja-Latn">dai&shy;tengu</span> (<span lang="ja">大天狗</span> “large
-tengu”), <span class="noun" lang="ja-Latn">Fuji</span> (<span lang="ja">冨士</span>), and
-<span lang="ja-Latn">hinode</span> (<span lang="ja">日乃出</span>
-“sunrise”) — and their chief logo was that of a red <span class="noun"
-lang="ja-Latn">Tengu</span>, which is also strongly associated with <span class="noun"
-lang="ja-Latn">Hanafuda</span>. It is unclear to me whether there is any real
-link here or if the coincidence simply reflects the conventionality of
-traditional Japanese art.{%endaside%}
+> [!aside]
+> <span class="noun" lang="ja-Latn">Murai</span>’s main competitor was <span class="noun" lang="ja-Latn">Iwaya</span> (<span lang="ja-Latn">岩谷商会</span>), run by <span class="noun" lang="ja-Latn">Iwaya Matsuhei</span> (<span lang="ja">岩谷松平</span>), who had a more nationalistic outlook. Interestingly, the iconography of their cigarette brands overlaps significantly with that of later <span class="noun" lang="ja-Latn">Hanafuda</span> brands — some examples include <span lang="ja-Latn">dai&shy;tengu</span> (<span lang="ja">大天狗</span> “large tengu”), <span class="noun" lang="ja-Latn">Fuji</span> (<span lang="ja">冨士</span>), and <span lang="ja-Latn">hinode</span> (<span lang="ja">日乃出</span> “sunrise”) — and their chief logo was that of a red <span class="noun" lang="ja-Latn">Tengu</span>, which is also strongly associated with <span class="noun" lang="ja-Latn">Hanafuda</span>. It is unclear to me whether there is any real link here or if the coincidence simply reflects the conventionality of traditional Japanese art.
 
-Another popularizing force during this period was that of cigarette
-manufacturers who began to include <span class="noun"
-lang="ja-Latn">Hanafuda</span>-patterned cards in cigarette packages as
-collectible items. The manufacturer <span class="noun" lang="ja-Latn">Murai</span> Brothers
-(<span lang="ja">村井兄弟商會</span>, founded by the “tobacco king” <span class="noun"
-lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) in
-<span class="noun" lang="ja-Latn">Kyōto</span> in 1892) included tobacco cards which combined
-<span class="noun" lang="ja-Latn">Hanafuda</span> with Western playing cards. <span class="noun"
-lang="ja-Latn">Murai</span> was a progressive company that enthusiastically
-embraced Westernization across the whole of its business. They operated in
-conjunction with Western tobacco companies such as the British-American Tobacco
-Company, and many of their cigarette brands bore English titles. Where his
-competitor <span class="noun" lang="ja-Latn">Iwaya</span> would name a brand <span lang="ja">
-日乃出</span> (<span lang="ja-Latn">hinode</span> “sunrise”), <span class="noun"
-lang="ja-Latn">Murai</span> used the English name “Sunshine”.
+Another popularizing force during this period was that of cigarette manufacturers who began to include <span class="noun" lang="ja-Latn">Hanafuda</span>-patterned cards in cigarette packages as collectible items. The manufacturer <span class="noun" lang="ja-Latn">Murai</span> Brothers (<span lang="ja">村井兄弟商會</span>, founded by the “tobacco king” <span class="noun" lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) in <span class="noun" lang="ja-Latn">Kyōto</span> in 1892) included tobacco cards which combined <span class="noun" lang="ja-Latn">Hanafuda</span> with Western playing cards. <span class="noun" lang="ja-Latn">Murai</span> was a progressive company that enthusiastically embraced Westernization across the whole of its business. They operated in conjunction with Western tobacco companies such as the British-American Tobacco Company, and many of their cigarette brands bore English titles. Where his competitor <span class="noun" lang="ja-Latn">Iwaya</span> would name a brand <span lang="ja"> 日乃出</span> (<span lang="ja-Latn">hinode</span> “sunrise”), <span class="noun" lang="ja-Latn">Murai</span> used the English name “Sunshine”.
 
-In 1899, <span class="noun" lang="ja-Latn">Murai</span> formed the subsidiary “Tōyō
-Printing”{%fn%}In some sources this is given in its translated form as the
-“Oriental Printing Company”.{%endfn%} (<span lang="ja">東洋印刷</span>), and
-acquired printing equipment and training from the United States. With this
-equipment, they were able to produce high-quality packaging, and there is some
-suggestion that they worked with <span class="noun" lang="ja-Latn">Nintendō</span> to produce
-the first Western-style playing cards produced in Japan
-(1902).[@EbashiCigaretteCards] Certainly, <span class="noun" lang="ja-Latn">Nintendō</span>’s
-early cards are often imitations of those produced by such US companies as the
-National Card Company which had been merged with the United States Playing-card
-Company in 1894.[@WOPCNCC]
+In 1899, <span class="noun" lang="ja-Latn">Murai</span> formed the subsidiary “Tōyō Printing”[^fn2] (<span lang="ja">東洋印刷</span>), and acquired printing equipment and training from the United States. With this equipment, they were able to produce high-quality packaging, and there is some suggestion that they worked with <span class="noun" lang="ja-Latn">Nintendō</span> to produce the first Western-style playing cards produced in Japan (1902).[@EbashiCigaretteCards] Certainly, <span class="noun" lang="ja-Latn">Nintendō</span>’s early cards are often imitations of those produced by such US companies as the National Card Company which had been merged with the United States Playing-card Company in 1894.[@WOPCNCC]
+
+[^fn2]: In some sources this is given in its translated form as the “Oriental Printing Company”.
 
 In 1904, the Japanese government nationalized{%fn%}<span class="noun"
 lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of
@@ -959,8 +929,10 @@ willows, and a frog, all of which are associated with summer.
 In Korea, an altered ordering is used where the ‘November’ and ‘December’ months
 are switched. There is also another ordering used in Japan which might be called
 the “<span class="noun" lang="ja-Latn">Nagoya</span> ordering”, as it is used in
-several games from that region.{%fn%}Such as [Tensho](games/tensho/tensho.md).{%endfn%} This
+several games from that region.[^fn3] This
 ordering (with differences in **bold**) is:
+
+[^fn3]: Such as [Tensho](games/tensho/tensho.md).
 
 <ol class="columnar">
 <li>Pine</li>
@@ -1267,7 +1239,9 @@ seen in the image on the left. It was common to use striped fabric, particularly
 in red &amp; white, while nobility would use curtains bearing their family
 crest.
 
-The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">mi&shy;yoshino</span> <span lang="ja">みよしの</span> ‘beautiful <span class="noun" lang="ja-Latn">Yoshino</span>’,{%fn%}Some older cards spell this phrase differently, some examples are: <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>. Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja"> す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md) <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>). {%endfn%} which is a sobriquet for the mountainous area of <span class="noun" lang="ja-Latn">Yoshino</span> (<span lang="ja">吉野</span>) in <span class="noun" lang="ja-Latn">Nara</span> prefecture, famous for its cherry blossoms. The term <span lang="ja-Latn">miyoshino</span> is [often used to refer to this location](http://www.wakapoetry.net/?s=miyosino) in the imperial poetry collections.
+The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">mi&shy;yoshino</span> <span lang="ja">みよしの</span> ‘beautiful <span class="noun" lang="ja-Latn">Yoshino</span>’,[^fn4] which is a sobriquet for the mountainous area of <span class="noun" lang="ja-Latn">Yoshino</span> (<span lang="ja">吉野</span>) in <span class="noun" lang="ja-Latn">Nara</span> prefecture, famous for its cherry blossoms. The term <span lang="ja-Latn">miyoshino</span> is [often used to refer to this location](http://www.wakapoetry.net/?s=miyosino) in the imperial poetry collections.
+
+[^fn4]: Some older cards spell this phrase differently, some examples are: <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>. Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja"> す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md) <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>). 
 
 In 1688, [<span class="noun" lang="ja-Latn">Matsuo
 Bashō</span>](https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D) (<span lang="ja">松尾芭蕉</span>),
@@ -1765,7 +1739,7 @@ flowers drips into the river from which he drinks. Eight hundred years later he
 has not aged a day, and he returns to court as the legendary <span class="noun"
 lang="cmn-Latn-pinyin">Peng Zu</span> (<span lang="zh">彭祖</span>) during the reign of
 King <span class="noun" lang="cmn-Latn-pinyin">Wen</span> (<span lang="zh">周文王</span>, <abbr
-title="reigned">r.</abbr> 1112–1050 {%bce%}), who
+title="reigned">r.</abbr> 1112–1050 <abbr>BCE</abbr>), who
 subsequently institutes the festival.
 {%endaside%}
     
@@ -2107,7 +2081,7 @@ The paulownia crest was most famously used by the <span class="noun" lang="ja-La
 </Image>
 
 The twelfth month is represented by paulownia (<span lang="ja">桐</span>
-{% pronounce pronouncer="kaoring" word="kiri" lang="ja-Latn" file="pronunciation_ja_桐.mp3" %}).
+<Pronounce pronouncer="kaoring"  lang="ja-Latn" file="pronunciation_ja_桐.mp3">kiri</Pronounce>).
 This is a tree that flowers in spring, and has large heart-shaped leaves.
 
 The paulownia as a symbol was originally used by the imperial family and ranked

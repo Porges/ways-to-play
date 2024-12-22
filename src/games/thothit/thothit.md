@@ -75,7 +75,9 @@ He also offers simplified scoring: score one point per _identical_ pair. As an a
 
 ### <span lang="jav-Latn" class="noun aka">Enthit</span>
 
-<span lang="jav-Latn" class="noun">Enthit</span>{%fn%}Old orthography: <span lang="jav-Latn" class="aka">Enṭit</span>.{%endfn%} is a very similar game from Yogyakarta where the goal is to form identical quadruplets instead of pairs.[@JavaanseKaartspelen p. 74] For this, two <span lang="jav-Latn">kepala</span> are used, giving 120 cards.
+<span lang="jav-Latn" class="noun">Enthit</span>[^fn0] is a very similar game from Yogyakarta where the goal is to form identical quadruplets instead of pairs.[@JavaanseKaartspelen p. 74] For this, two <span lang="jav-Latn">kepala</span> are used, giving 120 cards.
+
+[^fn0]: Old orthography: <span lang="jav-Latn" class="aka">Enṭit</span>.
 
 Deal 14 cards each and 12 to the table. Play as in the description above.  Captured cards are placed face-up.
 
@@ -83,7 +85,9 @@ For scoring, each identical quadruplet (<span lang="jav">ꦲꦺꦤ꧀ꦛꦶꦠ�
 
 ### <span lang="jav-Latn" class="noun aka">Thothit Kuna</span>
 
-<span lang="jav-Latn" class="noun">Thothit Kuna</span>{%fn%}Old orthography: <span lang="jav-Latn" class="aka">Ṭoṭit Koena</span>.{%endfn%}, or ‘ancient’ <span lang="jav-Latn" class="noun">Thothit</span> is a form of the game previously played at the Surakarta court.[@JavaanseKaartspelen p. 74–5] It is mostly the same as the game described above but uses more cards and so takes longer to play.
+<span lang="jav-Latn" class="noun">Thothit Kuna</span>[^fn1], or ‘ancient’ <span lang="jav-Latn" class="noun">Thothit</span> is a form of the game previously played at the Surakarta court.[@JavaanseKaartspelen p. 74–5] It is mostly the same as the game described above but uses more cards and so takes longer to play.
+
+[^fn1]: Old orthography: <span lang="jav-Latn" class="aka">Ṭoṭit Koena</span>.
 
 The game is for four or six players. One <span lang="ms">kepala</span> of cards is needed for each player, so 240 cards for four players or 360 cards for six.
 

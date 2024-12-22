@@ -10,29 +10,45 @@ hero:
   originalUrl: https://www.flickr.com/photos/habsburg/3915400394
 aliases:
   - Ceki
+date created: 2024-12-18
+date modified: 2024-12-22
 ---
 
 <p class="lead">
 Ceki (Javanese <span lang="jav">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
 </p>
 
-“Ceki”{%fn%}The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]{/*{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}*/} “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]{%endfn%} probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).{%fn%}<span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”.{%endfn%} More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘{%gameref gonggong%} cards’).
+“Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun aka" lang="jav-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#<span%20class="noun%20aka"%20lang="jav-Latn">Gonggong</span>) cards’).
 
-The cards might also have been referred to in the past in Malay as <span lang="ms">kiya</span>{%fn%}<span lang="ms">Kija</span> or <span lang="ms-Arab">كيا</span>[@Pijnappel p. 96] in older orthographies.{%endfn%} or <span lang="ms">kiya-kiya</span>, meaning ‘fish’. This could refer to the fish symbology which is used on some decks of Chinese origin.
+[^spelling]: The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]{/*{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}*/} “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]
+
+[^daun]: <span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”. 
+
+The cards might also have been referred to in the past in Malay as <span lang="ms">kiya</span>[^kiya] or <span lang="ms">kiya-kiya</span>, meaning ‘fish’. This could refer to the fish symbology which is used on some decks of Chinese origin.
+
+[^kiya]: <span lang="ms">Kija</span> or <span lang="ms-Arab">كيا</span>[@Pijnappel p. 96] in older orthographies.
 
 Games that used these type of cards were originally played throughout the Malaysian Archipelago. They are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity p. 555]
 
 Although these type of cards are not referred to in Thailand as “ceki” cards, I include them in the discussion below for comparison.
 
-At some point they were also called “8–9 cards”, in Malay <span lang="ms-Latn">pakau-pakau</span> (<span lang="ms-Arab">&#x2068;باكو٢&#x2069;</span>,{%fn%}Perhaps also <span lang="ms-Arab">ڤيكق</span> <span lang="ms-Latn">pékak</span>?[@MaleischNederlandsch_2 456]{%endfn%} literally ‘8–9s’, which adapts the names of Chinese numerals).[@Pijnappel1 161] A similar name was also known in Thailand — <span lang="th">ไพ่แปดเก้า</span> <span lang="th-Latn">phai paet kao</span>,[@PaiPhong1967 9] literally “8–9 cards”{%fn%}Note that the name <span lang="th">ไพ่งาแปดเก้า</span> <span lang="th-Latn">phai nga paet kao</span> is also mentioned in the source; this is “8–9 bone cards” where “bone cards” could be a calque of the Chinese <span lang="zh">骨牌</span> which means ‘dominos’ or sometimes ‘playing cards’.{%endfn%} — so it might be a Hokkien/Teochew name that eventually disappeared.{%fn%}Is there any remote connection to {%gameref oicho-kabu%} here?{%endfn%}
+At some point they were also called “8–9 cards”, in Malay <span lang="ms-Latn">pakau-pakau</span> (<span lang="ms-Arab"><bdi>باكو٢</bdi></span>,[^pekak] literally ‘8–9s’, which adapts the names of Chinese numerals).[@Pijnappel1 161] A similar name was also known in Thailand — <span lang="th">ไพ่แปดเก้า</span> <span lang="th-Latn">phai paet kao</span>,[@PaiPhong1967 9] literally “8–9 cards”[^thai] — so it might be a Hokkien/Teochew name that eventually disappeared.[^oicho-kabu]
+
+[^pekak]: Perhaps also <span lang="ms-Arab">ڤيكق</span> <span lang="ms-Latn">pékak</span>?[@MaleischNederlandsch_2 456]
+
+[^thai]: Note that the name <span lang="th">ไพ่งาแปดเก้า</span> <span lang="th-Latn">phai nga paet kao</span> is also mentioned in the source; this is “8–9 bone cards” where “bone cards” could be a calque of the Chinese <span lang="zh">骨牌</span> which means ‘dominos’ or sometimes ‘playing cards’.
+
+[^oicho-kabu]: Is there any remote connection to {%gameref oicho-kabu%} here?
 
 {/*
 The “Kowa” name I think is probably also derived from a game, and was eventually applied to the cards themselves. It is likely from an older Chinese language term for the number nine, referring to the number of cards needed to complete the hand, or also for the target number to be achieved in a different type of game.
 */}
 
-<Image src="../../../maps/Ceki.svg" alt="">
-Countries where Ceki cards are used.
-</Image>
+> [!figure]
+>
+> ![](../../../maps/Ceki.svg)
+>
+> Countries where Ceki cards are used.
 
 ## Malaysia & Singapore
 
@@ -41,28 +57,23 @@ The use of Cherki cards in Malaysia & Singapore was introduced by
 Much of the terminology and card naming derives from Hokkien, and the cards used
 are closer to their ancestral forms than those used in Indonesia.
 
-<Image 
-    src="shutterstock_1293448237.jpg"
-    alt=""
-    license="stock-image",
-    orgName="Shutterstock.com",
-    author="Fiqah Anugerah Dah Besa",
-    identifier="1293448237",
-    originalUrl="https://www.shutterstock.com/image-photo/penang-malaysia-january-22-2019-happy-1293448237" %}
-An exhibition game using Cherki cards being played in Penang, Malaysia.
-</Image>
+> [!figure]
+>
+> ![](shutterstock_1293448237.jpg)
+>
+> ```yaml
+ > license: stock-image
+ > orgName: Shutterstock.com
+ > author: Fiqah Anugerah Dah Besa
+ > identifier: 1293448237
+ > originalUrl: https://www.shutterstock.com/image-photo/penang-malaysia-january-22-2019-happy-1293448237
+> ```
+>
+>  An exhibition game using Cherki cards being played in Penang, Malaysia.
 
-In the past the game was played by all levels of society; records of the palace
-expenditure of the [Sultan Abdul Hamid Halim of
-Kedah](https://en.wikipedia.org/wiki/Abdul_Hamid_Halim_of_Kedah) (1864–1943)
-from 1896–99 indicate that he enjoyed gambling with
-Ceki.[@MemoryOfTheWorldRegister p. 58]
+In the past the game was played by all levels of society; records of the palace expenditure of the [Sultan Abdul Hamid Halim of Kedah](https://en.wikipedia.org/wiki/Abdul_Hamid_Halim_of_Kedah) (1864–1943) from 1896–99 indicate that he enjoyed gambling with Ceki.[@MemoryOfTheWorldRegister p. 58]
 
-More recent accounts from Malaysia & Singapore indicate that the game was almost
-exclusively played by women, and in modern times it has nearly died out.
-@TheBabas reported that by the 1980s it was only possible to get cards in
-Melaka. However, there are ongoing efforts to preserve and repopularize the
-game.
+More recent accounts from Malaysia & Singapore indicate that the game was almost exclusively played by women, and in modern times it has nearly died out. @TheBabas reported that by the 1980s it was only possible to get cards in Melaka. However, there are ongoing efforts to preserve and repopularize the game.
 
 Amongst [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (or <span lang="mcm">Christão</span>) communities in Malacca, the cards were known as <span lang="mcm">chaqui</span> or <span lang="mcm">chiqui</span>.[@ChaquiAndPartui p. 34]
 
@@ -72,32 +83,51 @@ In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and Bal
 
 During the colonial era, cards were manufactured in Europe by Dutch companies and exported to Indonesia. (See the [manufacturers](#manufacturers-brands) section below.) Ceki cards were also prohibited from being imported (from European manufacturers) into some areas, such as Sulawesi, “for reasons of public safety”.[@Title39_48 p. 1013]
 
-<Image src="Kaartspelers.jpg" alt="" license="cc0" size="wide" %}
-Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps {% gameref pei %} (there are probably too many cards in the centre for it to be {% gameref thothit %}).
-</Image>
+> [!figure]
+> 
+> ![](Kaartspelers.jpg)
+>
+> ```yaml
+> license: cc0
+> size: wide
+> ```
+>
+> Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps [Pèi](games/pei/pei.md) (there are probably too many cards in the centre for it to be {% gameref thothit %}).
 
 In Bali, the game is widely played and has “a large if not fanatical following”,[@TransitionalDemocracy p. 170] despite gambling being illegal. Cards are readily available at many convenience stores.
 
-<Image size="wide" src="30414256602_246d032faa_o.jpg" license="cc-by-nc-nd" licenseVersion="2.0" 
-  originalUrl="https://www.flickr.com/photos/adamcohn/30414256602/" authorGiven="Adam" authorFamily="Cohn"
-  copyrightYear=2016
-  alt="Men in traditional dress seated around a cloth mat upon which are placed ceki cards and bundles of money."
-  %}
-Balinese men playing a gambling game.
-</Image>
+> [!figure]
+>
+> ![Men in traditional dress seated around a cloth mat upon which are placed ceki cards and bundles of money.](30414256602_246d032faa_o.jpg)
+>
+> ```yaml
+> size: wide
+> license: cc-by-nc-nd
+> licenseVersion: 2.0
+> originalUrl: https://www.flickr.com/photos/adamcohn/30414256602/ 
+> authorGiven: Adam
+> authorFamily: Cohn
+> copyrightYear: 2016
+> ```
+>
+> Balinese men playing a gambling game.
 
-The game is particularly popular amongst the Minangkabau people of West Sumatra, as the Dutch card-making company <span class="noun" lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</span> had a factory{%fn%}This building was later to become the [Hotel Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in the [2009 Sumatran earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes). The company also had offices in Java & Sulawesi (previously known as Celebes).{%endfn%} in the city of Padang. 
+The game is particularly popular amongst the Minangkabau people of West Sumatra, as the Dutch card-making company <span class="noun" lang="nl">Handelsvereniging Harmsen Verweij & Dunlop N.V.</span> had a factory[^hotel] in the city of Padang. 
+
+[^hotel]: This building was later to become the [Hotel Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in the [2009 Sumatran earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes). The company also had offices in Java & Sulawesi (previously known as Celebes).
 
 In the Minang language, they game and cards are called Koa (sometimes spelt Kuwa or Kowah, <span lang="ms-Arab">كوا</span> in old Malay orthography).[@MalayEnglishWilkinson p. 542] The Minangkabau go so far as to say “<span lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1] In Buginese and Makassarese, both spoken in South Sulawesi, the game is also called <span lang="bug-Latn">kowa</span> (<span lang="bug">ᨀᨚᨓ</span> in Lontara script),[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46] after a term which is used in the game.
 
-These terms might come from a Chinese language term for the number nine, which is how many cards the players need to complete their hand in the most common form of the game in these areas.{/*{%fn%}I might even hazard something like <span lang="zh">九葉</span> ‘nine leaves’, Hakka <span lang="hak-Latn">kiú ya̍p</span>, Teochew <span lang="tws-Latn">gao² iab⁸</span>.{%endfn%}*/}
+These terms might come from a Chinese language term for the number nine, which is how many cards the players need to complete their hand in the most common form of the game in these areas.
+
+> [!todo]
+> Dubious: I might even hazard something like <span lang="zh">九葉</span> ‘nine leaves’, Hakka <span lang="hak-Latn">kiú ya̍p</span>, Teochew <span lang="tws-Latn">gao² iab⁸</span>.
 
 <Image src="Kaartspel_op_een_Javaans_feest_in_Paramaribo,_Bestanddeelnr_252-2592.jpg" alt=""
   license="cc0"
   originalUrl="http://proxy.handle.net/10648/aead8142-d0b4-102d-bcf8-003048976d84"
   orgName="Nationaal Archief"
-  copyrightYear=1955
-  %}
+  copyrightYear=1955>
 
 The game has also been carried to Suriname by [Javanese emigrants.](https://en.wikipedia.org/wiki/Javanese_Surinamese) This image shows it being played at the time of the visit of [Queen Juliana](https://en.wikipedia.org/wiki/Juliana_of_the_Netherlands) and [Prince Bernhard](https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld) in 1955.
 
@@ -205,20 +235,24 @@ For each card in the table below I show (in left-to-right order):
 
 1. a card from a 19th-century deck collected in @ChineseOfTheStraitsSettlements,
 2. a card from a different 19th-century deck from @YoungCeki [p. 300] (as reproduced in @JavaanseKaartspelen),
-3. a card from a deck produced by Harmsen Verweij & Dunlop (after 1933), a Dutch company,{%fn%}The cards as depicted in @BlikJavaansche_2 (pl. XVI) are identical to these.{%endfn%}
+3. a card from a deck produced by Harmsen Verweij & Dunlop (after 1933), a Dutch company,[^fn0]
 4. a 1940s deck collected in @JavaanseKaartspelen,
 5. and then a modern card from a deck purchased in Bali in 2019 (clearly derived from #3).
+
+[^fn0]: The cards as depicted in @BlikJavaansche_2 (pl. XVI) are identical to these.
 
 Modern Malaysian & Singaporean decks (of which I have no samples{%fn%}Yet! Can
 you help with this? Contact me!{%endfn%}) are closer in style to the #1 deck.
 
-Each card in the deck has its own name as listed in the table below.  The translations in the table are mostly from the [SEAlang](http://sealang.net) dictionaries; any mistakes are my own.{%fn%}According to some sources, the word “<span lang="jav-Latn">cina</span>” referring to a Chinese person is now considered a potentially derogatory term. For example, the Indonesian government no longer uses it in official communications, since the term was dropped from official usage by presidential decree in 2014.[@CinaOrTionghua]{%endfn%} In Malaysia/Singapore the names are based on the Hokkien names of the cards — a combination of suit and rank — but as we move in a south-easterly direction along the Malay Archipelago (the table below is listed roughly in this order), the names diverge further and further from this original source, and most cards have nicknames that are based upon their appearance rather than their numeric value.
+Each card in the deck has its own name as listed in the table below.  The translations in the table are mostly from the [SEAlang](http://sealang.net) dictionaries; any mistakes are my own.[^fn1] In Malaysia/Singapore the names are based on the Hokkien names of the cards — a combination of suit and rank — but as we move in a south-easterly direction along the Malay Archipelago (the table below is listed roughly in this order), the names diverge further and further from this original source, and most cards have nicknames that are based upon their appearance rather than their numeric value.
+
+[^fn1]: According to some sources, the word “<span lang="jav-Latn">cina</span>” referring to a Chinese person is now considered a potentially derogatory term. For example, the Indonesian government no longer uses it in official communications, since the term was dropped from official usage by presidential decree in 2014.[@CinaOrTionghua]
 
 The names in the **Makassar** column have been assigned based upon comparisons with the other names given; the source — being a dictionary — does not show which card maps to which name. I have not been able to figure out a satisfactory assignment for the following names: 
 <span lang="mak">ᨁᨚᨌᨗ</span> <span lang="mak-Latn">goncing</span>[@MakassaarschWoordenboek p. 76] ‘scissors’;
 <span lang="mak">ᨁᨑᨗᨁᨗ</span> <span lang="mak-Latn">garigi</span>[@MakassaarschWoordenboek p. 79] [?];
 <span lang="mak">ᨄᨄ</span> <span lang="mak-Latn">pampang</span>[@MakassaarschWoordenboek p. 98] ‘across’;
-<span lang="mak">ᨄᨚᨄᨚᨀ</span> <span lang="mak-Latn">popokang</span>[@MakassaarschWoordenboek p. 99] ‘sorceress’;{%fn%}Not just any sorceress, but one that sends out her head and entrails at night, leaving her body behind! In Minangkabau this is called a ‘<span lang="min" class="noun">Palasik Panangga</span>’, or a ‘<span lang="ms" class="noun">Penanggalan</span>’ in Malay. For more information, see @Penanggalan.{%endfn%}
+<span lang="mak">ᨄᨚᨄᨚᨀ</span> <span lang="mak-Latn">popokang</span>[@MakassaarschWoordenboek p. 99] ‘sorceress’;[^fn2]
 <span lang="mak">ᨄᨙᨔᨚ</span> <span lang="mak-Latn">peso</span>[@MakassaarschWoordenboek p. 140] ‘lame’;
 <span lang="mak">ᨅᨘᨀᨘ</span> <span lang="mak-Latn">buku</span>[@MakassaarschWoordenboek p. 148] ‘bone’;
 <span lang="mak">ᨅᨚᨈᨘᨓᨒ</span> <span lang="mak-Latn">bontuwala</span>[@MakassaarschWoordenboek p. 173] Bontoala, a place near Makassar, also the name of a type of large kris;
@@ -231,46 +265,45 @@ The names in the **Makassar** column have been assigned based upon comparisons w
 <span lang="mak">ᨔᨄᨗ</span> <span lang="mak-Latn">sapi</span>[@MakassaarschWoordenboek p. 554] ‘cow’;
 <span lang="mak">ᨔᨗᨄᨗ</span> <span lang="mak-Latn">sipi</span>[@MakassaarschWoordenboek p. 557] ‘pinch’.
 
+[^fn2]: Not just any sorceress, but one that sends out her head and entrails at night, leaving her body behind! In Minangkabau this is called a ‘<span lang="min" class="noun">Palasik Panangga</span>’, or a ‘<span lang="ms" class="noun">Penanggalan</span>’ in Malay. For more information, see @Penanggalan.
+
 ⚠️ The table is *very wide* and might scroll horizontally.
 
-{/* 
-The columns in
-the table are as follows:
-
-<dl>
-<dt>Malysia/Singapore</dt>
-<dd>
-
-These names are a combination of the rank (derived from Hokkien number names) and
-either the suit name or some nickname based on the middle portion of the
-card,[@ChikiCards p. 121] which is slightly bigger there than in the Indonesian
-version.
-
-</dd>
-
-<dt>Minang</dt>
-<dd>These are names used by Minangkabau people in Indonesia. Instead of numeric
-ranks, they are based on the appearance of the indices in the corners of the
-cards.</dd>
-
-<dt>Java</dt>
-<dd>
-
-The third row of names are those used in Java, as recorded in the early 20th
-century,[@JavanischeKartenspiele] and as such might be very outdated.
-
-</dd>
-
-<dt>Bali/Lombok</dt>
-<dd>
-
-The fourth row of names records names reportedly used in Bali[@RancangBangun pp.
-45–7] or Lombok,[@LombokCeki] where almost every card has a specific name. This
-section of the table is much more imprecise than the previous lines.
-
-</dd>
-</dl>
-*/}
+> [!todo]
+> The columns in the table are as follows:
+> <dl>
+> <dt>Malysia/Singapore</dt>
+> <dd>
+> 
+> These names are a combination of the rank (derived from Hokkien number names) and
+> either the suit name or some nickname based on the middle portion of the
+> card,[@ChikiCards p. 121] which is slightly bigger there than in the Indonesian
+> version.
+> 
+> </dd>
+> 
+> <dt>Minang</dt>
+> <dd>These are names used by Minangkabau people in Indonesia. Instead of numeric
+> ranks, they are based on the appearance of the indices in the corners of the
+> cards.</dd>
+> 
+> <dt>Java</dt>
+> <dd>
+> 
+> The third row of names are those used in Java, as recorded in the early 20th
+> century,[@JavanischeKartenspiele] and as such might be very outdated.
+> 
+> </dd>
+> 
+> <dt>Bali/Lombok</dt>
+> <dd>
+> 
+> The fourth row of names records names reportedly used in Bali[@RancangBangun pp.
+> 45–7] or Lombok,[@LombokCeki] where almost every card has a specific name. This
+> section of the table is much more imprecise than the previous lines.
+> 
+> </dd>
+> </dl>
 
 <div class="full-width scroller">
 <table class="rule-first-col small">
@@ -1986,9 +2019,8 @@ them, I do not know of any other sets of rules recorded online.
 
 **Fishing** games (where players capture cards from a central pool):
 
-* {% gameref cholek-tiga %} (‘draw three’), a Malaysian game for two or three
-  players[@BabaMalayDictionary p. 214][@ChikiCards p. 125]
-* {% gameref pei %}, a Javanese game for three players where the goal is to collect specific scoring combinations[@JavaanseKaartspelen p. 58–70]
+* [Cholek Tiga](games/cholek-tiga/cholek-tiga.md) (‘draw three’), a Malaysian game for two or three players[@BabaMalayDictionary p. 214][@ChikiCards p. 125]
+* [Pèi](games/pei/pei.md), a Javanese game for three players where the goal is to collect specific scoring combinations[@JavaanseKaartspelen p. 58–70]
 * {% gameref thothit %}, a Javanese game for three players where the goal is to capture identical pairs[@JavaanseKaartspelen p. 71–2]
 * {% gameref enthit %}, a similar Javanese game for three players where the goal is to capture identical quadruplets[@JavaanseKaartspelen p. 74]
 * {% gameref thothit-kuna %}, an older and slower version of the game[@JavaanseKaartspelen p. 74]
@@ -1997,12 +2029,12 @@ them, I do not know of any other sets of rules recorded online.
 
 **Simple** gambling games:
 
-* {% gameref sampen %} is a gambling game from Java that requires no skill
+* [Sampen](games/sampen/sampen.md) is a gambling game from Java that requires no skill
 * {% gameref thothit-banyuwangi %} is a similar game[@JavaanseKaartspelen p. 76]
 
 **Trick-taking** games:
 
-* {% gameref kartu-lima %} is a Javan game with unusual card rankings
+* [Kartu Lima](games/kartu-lima/kartu-lima.md) is a Javan game with unusual card rankings
 
 **Draw & discard** games (like Mahjong):
 
@@ -2017,25 +2049,37 @@ them, I do not know of any other sets of rules recorded online.
   players[@JavaanseKaartspelen p. 94–7]
 * {% gameref tantanan %}, a fast-playing Javan game for four
   players[@JavaanseKaartspelen p. 98]
-* {% gameref pong %} a Malaysian version of a Thai game, played by four people,
+* [Pong](games/pai-tong/pai-tong.md) a Malaysian version of a Thai game, played by four people,
   also played with Mahjong tiles
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
-* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui{%fn%}Patoei or <span lang="ms-Arab">ڤتوي</span>[@Pijnappel p. 58] in older orthographies, probably also equivalent to <span lang="rej-Latn">ptu’i</span> <span lang="rej">ꤶ꥓ꤳꥈꥆꥇ</span> in [Rejang](https://en.wikipedia.org/wiki/Rejang_language).[@MaterialsRejang 92]{%endfn%} which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn">pat tùi</span>),{%fn%}This possibility raised in @Morgenlandisch_2 [p. 572].{%endfn%} in which case the game could be something similar to {%gameref tantanan%}.
+* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui[^fn3] which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn">pat tùi</span>),[^fn4] in which case the game could be something similar to {%gameref tantanan%}.
 * Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary p. 214]
 * Tongkeng, a game for two people[@BabaMalayDictionary p. 215]
 * Cho It and Chochot[@SomeNotesMalayCardGames p. 88] — could Chochot be the same as Chot or Thothit?
+
+[^fn3]: Patoei or <span lang="ms-Arab">ڤتوي</span>[@Pijnappel p. 58] in older orthographies, probably also equivalent to <span lang="rej-Latn">ptu’i</span> <span lang="rej">ꤶ꥓ꤳꥈꥆꥇ</span> in [Rejang](https://en.wikipedia.org/wiki/Rejang_language).[@MaterialsRejang 92]
+
+[^fn4]: This possibility raised in @Morgenlandisch_2 [p. 572].
 
 In some descriptions, Ceki is itself a game (a variant of {%gameref balik-satu%}) and the cards called by other names such as <span lang="jav-Latn">ijo</span>. @BlikJavaansche_2 [p. 499] gives the games <span lang="jav-Latn">koa</span>, <span lang="jav-Latn">koa-baq</span>, <span lang="jav-Latn">koa-gonggong</span> ({%gameref gonggong%}), <span lang="jav-Latn">pehi</span> ({%gameref pei%}?), <span lang="jav-Latn">patui</span>, <span lang="jav-Latn">panghao</span>, and <span lang="jav-Latn">cĕki</span>, but without explanations.
 
 ## Manufacturers & Brands
 
-<Image position="aside" alt="A bird perched on a branch." src="Handelsvereeniging_logo.jpg" %}
+<Image position="aside" alt="A bird perched on a branch." src="Handelsvereeniging_logo.jpg">
+
 The logo for <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</span>.
+
 </Image>
 
 (Extinct) European manufacturers included:
+
+<Image src="Sin_Po_1922_03_20_001.png" position="aside" noborder=true  alt="A black and white advertisement with an image of two tigers fighting." originalUrl="https://opac.perpusnas.go.id/uploaded_files/dokumen_isi3/Terbitan%20Berkala/Sin_Po_1922_03_20_001.pdf" license="cc0">
+
+Newspaper advertisement in [<span class="noun" lang="id">Sin Po</span>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922, for <span lang="fr" class="noun">Mesmaekers Frères</span>’ <span class="noun" lang="id">Dua Macan</span> (‘two tigers’) brand ceki cards (<span lang="id">kartoe tjeki</span>), being sold by Handel Mij. (also publishers of the newspaper).
+
+</Image>
 
 * <span class="noun" lang="fr">Camoin</span>, a French company that was based in Marseille
 * <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</span>, a
@@ -2043,16 +2087,6 @@ The logo for <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & D
 * [<span class="noun" lang="fr">Mesmaekers
   Frères</span>](https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack), a Belgian company based in Turnhout whose cards were imported to Java by Brandon Mesritz & Co.[@ChiChiPai] Their brands included:
   * <span class="noun" lang="id">Dua Macan</span> (‘two tigers’), trademark registered 15th October 1887.[@Turnhout p. 32] This brand was also used for other types of cards, like domino cards.{/* stefan_lauwers_domino_cards.jpg */}
-<Image src="Sin_Po_1922_03_20_001.png" position="aside" noborder=true 
-  alt="A black and white advertisement with an image of two tigers fighting."
-  originalUrl="https://opac.perpusnas.go.id/uploaded_files/dokumen_isi3/Terbitan%20Berkala/Sin_Po_1922_03_20_001.pdf"
-  license="cc0" %}
-Newspaper advertisement in [<span class="noun" lang="id">Sin
-Po</span>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922,
-for <span lang="fr" class="noun">Mesmaekers Frères</span>’ <span class="noun" lang="id">Dua Macan</span> (‘two tigers’) brand ceki cards (<span
-lang="id">kartoe tjeki</span>), being sold by Handel Mij. (also publishers of
-the newspaper).
-</Image>
 * Cartamundi, a Belgian company based in Turnhout, and now the largest manufacturer of playing cards in the world. Their brands included:
   * Three Goats Brand (also labelled <span lang="zh">行通南</span>?),{/* jef_smets_cartamundi_three_goats.jpg */} trademark registered 26 July 1972.[@Turnhout p. 47] Decks containing Ceki cards seem to have been in a red packet and labelled ‘A’; green and ‘B’ were four-colour cards.
 

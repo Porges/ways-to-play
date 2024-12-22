@@ -36,9 +36,11 @@ and hence understand courtesy and manners.
 In most versions of the cards, the first of each set of three characters is
 highlighted in red. In some versions, the second character is highlighted in green.
 
-<Image src="shang_da_ren.jpg" size="wide" alt="">
-A 96-card deck published under the brand <span lang="zh">上大人乐喜</span>.
-</Image>
+> [!figure]
+>
+> ![](shang_da_ren.jpg" size="wide)
+>
+> A 96-card deck published under the brand <span lang="zh">上大人乐喜</span>.
 
 <Image src="shang_da_ren_144.jpg" size="wide" alt="">
 A 145-card deck published under the brand <span lang="zh">上大人乐喜</span>.

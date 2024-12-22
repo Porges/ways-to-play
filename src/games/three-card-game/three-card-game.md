@@ -11,11 +11,11 @@ subgames:
   titleLang: en
   countries: US
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2024-12-22
 ---
 
 <p class="lead">
-This page discusses variants of what — for lack of a better term — I call the ‘three-card game’. The game is played with a deck of cards and the goal is to achieve a score as close to 9 as possible. It dates from at least the late Ming dynasty ({%c%} 1580–1600), but has spread to many countries, with one route in particular originating in Japan, passing down through the Malay Archipelago, and arriving in Aboriginal communities in the Northern Territory of Australia. The most widespread version of the game today is that derived in Europe and known as Baccarat.
+This page discusses variants of what — for lack of a better term — I call the ‘three-card game’. The game is played with a deck of cards and the goal is to achieve a score as close to 9 as possible. It dates from at least the late Ming dynasty (<abbr>c.</abbr> 1580–1600), but has spread to many countries, with one route in particular originating in Japan, passing down through the Malay Archipelago, and arriving in Aboriginal communities in the Northern Territory of Australia. The most widespread version of the game today is that derived in Europe and known as Baccarat.
 </p>
 
 {/*
@@ -24,9 +24,13 @@ Countries where the game has been played.
 </Image>
 */}
 
-The earliest reference that I know of is that of <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒</span>, 1556–1622), a late Ming-era poet who mentioned the game <span lang="zh" class="aka">扯三章</span>/<span lang="zh" class="aka">扯三張</span>{%fn%}The first name is used in the @YeziPu, the second in @XuYeziPu.{%endfn%}  (‘draw 3 cards’) in passing while describing the rules of the game <span lang="zh">扯三章</span> (‘draw 5 cards’, for which, see the {%gameref five-card%} article). The rules are not explicitly given (he simply states <span lang="zh">扯三張例俱如前</span> ‘drawing 3 cards: rules as above’ after a subsection of the 5-card rules), but it is clear from the context that the game is essentially the same as the more recent versions given below.[@XuYeziPu_2] <span lang="cmn-Latn-pinyin" class="noun">Pān</span> also describes the game being played for drinks:[@XuYeziPu_2 281]
+The earliest reference that I know of is that of <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒</span>, 1556–1622), a late Ming-era poet who mentioned the game <span lang="zh" class="aka">扯三章</span>/<span lang="zh" class="aka">扯三張</span>[^fn0]  (‘draw 3 cards’) in passing while describing the rules of the game <span lang="zh">扯三章</span> (‘draw 5 cards’, for which, see the [Five Card](games/five-card/five-card.md) article). The rules are not explicitly given (he simply states <span lang="zh">扯三張例俱如前</span> ‘drawing 3 cards: rules as above’ after a subsection of the 5-card rules), but it is clear from the context that the game is essentially the same as the more recent versions given below.[@XuYeziPu_2] <span lang="cmn-Latn-pinyin" class="noun">Pān</span> also describes the game being played for drinks:[@XuYeziPu_2 281]
 
-> In the <span lang="zh-Latn">wuzi</span> year [<span lang="zh">戊子</span>, here 1588], I was with his lordship the Vice Minister of War Wang Shizhen [<span lang="zh">王世贞</span>, 1526–90]{%fn%}Also a poet, calligrapher, and historian.{%endfn%} in his official residence in the auxiliary capital Nanjing. We drank and wrote poetry together every day. When a few rounds had passed, he would have cards brought out,and we would play the game ‘Drawing Three Cards’. Each one would take turns being the ‘banker’, and the others would gather round and play against him. There would be complete wins or losses, or a mixture of both. Those who lost would drink a large cup. Sometimes, one of the players would try to get up and escape, feeling unable to drink anymore. If he was really inebriated, we would not chase him. If he was pretending, we would stop him. If someone was the sole winner, others would feel dissatisfied, and he would have to play against everyone again. All gave shouts of delight and had a wonderful time. His lordship would sometimes be in his cups, and would tell his two pages to help him retire. The guests would then continue with his sons and play to their hearts’ delight. These sessions were frequent, but each time the game provided fresh delights. There is just no better drinking game than this.
+[^fn0]: The first name is used in the @YeziPu, the second in @XuYeziPu.
+
+> In the <span lang="zh-Latn">wuzi</span> year [<span lang="zh">戊子</span>, here 1588], I was with his lordship the Vice Minister of War Wang Shizhen [<span lang="zh">王世贞</span>, 1526–90][^fn1] in his official residence in the auxiliary capital Nanjing. We drank and wrote poetry together every day. When a few rounds had passed, he would have cards brought out,and we would play the game ‘Drawing Three Cards’. Each one would take turns being the ‘banker’, and the others would gather round and play against him. There would be complete wins or losses, or a mixture of both. Those who lost would drink a large cup. Sometimes, one of the players would try to get up and escape, feeling unable to drink anymore. If he was really inebriated, we would not chase him. If he was pretending, we would stop him. If someone was the sole winner, others would feel dissatisfied, and he would have to play against everyone again. All gave shouts of delight and had a wonderful time. His lordship would sometimes be in his cups, and would tell his two pages to help him retire. The guests would then continue with his sons and play to their hearts’ delight. These sessions were frequent, but each time the game provided fresh delights. There is just no better drinking game than this.
+
+[^fn1]: Also a poet, calligrapher, and historian.
 
 I don’t yet know of any other Chinese references to the game, so the game may have been a game of lower status which was not commonly played — or at least described — by the literati.
 
@@ -34,14 +38,20 @@ The facts of the Chinese game at this point were: it was played with a money-sui
 
 (https://iiif.lib.harvard.edu/manifests/view/drs:428497656$67i)
 
-Within the next hundred years, Portuguese sailors had taken the game to Japan (possibly picking it up from the Portuguese port at Macau, from which one of the earliest European games also takes its name).{%fn%}The Portuguese influence upon the Japanese game is known through the use of a Portuguese name and terminology (for more see below), as well as cards derived from European and not Chinese examples.{%endfn%} It is unclear whether or not the game was played in Europe at this time, but the lack of other references to it makes it seem unlikely.
+Within the next hundred years, Portuguese sailors had taken the game to Japan (possibly picking it up from the Portuguese port at Macau, from which one of the earliest European games also takes its name).[^fn2] It is unclear whether or not the game was played in Europe at this time, but the lack of other references to it makes it seem unlikely.
+
+[^fn2]: The Portuguese influence upon the Japanese game is known through the use of a Portuguese name and terminology (for more see below), as well as cards derived from European and not Chinese examples.
 
 The Japanese game is also played amongst Aboriginal communities in the northern parts of Australia (particularly by [Larrakia](https://en.wikipedia.org/wiki/Larrakia_people) people around Darwin), apparently having been transferred there by Japanese sailors working in [the pearl industry](https://en.wikipedia.org/wiki/Pearling_in_Western_Australia).[@NoteOnAMissingLink][@CardGamesAmongAborigines] A <span class="noun" lang="ja-Latn">Nintendō</span> advertising poster from the early 20th century also indicates that their cards were being exported to Australia.
 
 
-The same game was reported under the name <span lang="pis">kura</span> in the Solomon Islands in the 1970s,[@EthnographicPsychology p. 271]{%fn%}The word also seems to apply to gambling in general.{%endfn%} and it is still played there to this day.[@IllegalCardGamesToBeBanned]
+The same game was reported under the name <span lang="pis">kura</span> in the Solomon Islands in the 1970s,[@EthnographicPsychology p. 271][^fn3] and it is still played there to this day.[@IllegalCardGamesToBeBanned]
 
-In Papua New Guinea it has been called <span lang="tpi">kawu</span> — clearly derived from the Japanese name.[@ThreeMoreNewGuineanCardGames p. 54]{%fn%}It is worth noting that in the article @ThreeMoreNewGuineanCardGames the author’s informant definitely knows more about the history of the game; it is not “almost certainly European in origin”!{%endfn%} Further versions of this game — of which there are many — are called <span lang="tpi">laki</span> (‘lucky’),[@ThreeNativeCardGames p. 50] and these variants are described below.
+[^fn3]: The word also seems to apply to gambling in general.
+
+In Papua New Guinea it has been called <span lang="tpi">kawu</span> — clearly derived from the Japanese name.[@ThreeMoreNewGuineanCardGames p. 54][^fn4] Further versions of this game — of which there are many — are called <span lang="tpi">laki</span> (‘lucky’),[@ThreeNativeCardGames p. 50] and these variants are described below.
+
+[^fn4]: It is worth noting that in the article @ThreeMoreNewGuineanCardGames the author’s informant definitely knows more about the history of the game; it is not “almost certainly European in origin”!
 
 Self Note: See the Makassar dictionary re kawu (the game) vs kuwa (the winning call). Kuwa could also mean "nine" there, and be from Hokkien? Kuwa also in [@ChineseLoanWordsMalay 56]
 
@@ -49,7 +59,9 @@ Self Note: See the Makassar dictionary re kawu (the game) vs kuwa (the winning c
 
 <span class="noun" lang="ja-Latn">Oicho-Kabu</span> (<span lang="ja">おいちょかぶ</span>, ‘eight-nine’) is a Japanese version of the game which has been played as a gambling game for a long time.
 
-In Japan the game is usually played with special cards called <span lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span lang="ja-Latn">kabu</span> cards’), which are numbered from 1–10. A full deck is 40 cards, and has four copies of each card. It can also be played with <span lang="ja-Latn">hanafuda</span> cards (by dropping two months),{%fn%}There are also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of the standard deck.{%endfn%} or with all of the <Cards>A–10</Cards> from a standard deck of playing cards.
+In Japan the game is usually played with special cards called <span lang="ja-Latn">kabufuda</span> (<span lang="ja">株札</span>, ‘<span lang="ja-Latn">kabu</span> cards’), which are numbered from 1–10. A full deck is 40 cards, and has four copies of each card. It can also be played with <span lang="ja-Latn">hanafuda</span> cards (by dropping two months),[^fn5] or with all of the <Cards>A–10</Cards> from a standard deck of playing cards.
+
+[^fn5]: There are also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of the standard deck.
 
 <Image 
   src='../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg'
@@ -71,7 +83,7 @@ Up to ten people can play the game (aside from the dealer).
 
 The goal of the game is to get a card total as close to 9 as possible. The total is calculated by summing the values of the cards in a player’s hand. Card totals equal to or over 10 have their first digit discarded (i.e. the sum is calculated modulo ten), so that a total of 10 is equivalent to zero, and a total of 12 equivalent to two.
 
-In addition, a hand of three cards of the same rank is an automatic win. This hand is called  {% pronounce lang="ja-Latn" word="arashi" file="pronunciation_ja_嵐.mp3" pronouncer="straycat88" %} (<span lang="ja">嵐 </span> ‘storm’) or <span lang="ja-Latn">zoro</span> (<span lang="ja">揃</span> ‘set’).
+In addition, a hand of three cards of the same rank is an automatic win. This hand is called  <Pronounce lang="ja-Latn"  file="pronunciation_ja_嵐.mp3" pronouncer="straycat88">arashi</Pronounce> (<span lang="ja">嵐 </span> ‘storm’) or <span lang="ja-Latn">zoro</span> (<span lang="ja">揃</span> ‘set’).
 
 The dealer shuffles the cards and deals two cards to each player including themselves, the first face-up, the second face-down. Each player looks at their cards and may then request a third if they wish. A common rule is that a player *must* ask for another card if their total is 3 or less, and *may not* ask for another card if their total is 7 or more.
 
@@ -173,11 +185,13 @@ The hand totals are counted with special gambling-specific numbers. Some of thes
 In the past, some combinations of hands totalling 9 (<span lang="ja-Latn">kabu</span>) were named. In the erotic book <cite>Lustful Plum Blossom Fence</cite> (<cite lang="ja">好色梅花垣</cite>, date unknown to me), the following names were given. The meaning of most of the names is obscure.[@EbashiKabuCarta]
 
 * <Cards>153</Cards> ‘royal nine’ (<span lang="ja">御かぶ</span> <span lang="ja-Latn">o&shy;kabu</span>)
-* <Cards>234</Cards> ‘ascending nine’ (<span lang="ja">のぼりがぶ</span> <span lang="ja-Latn">nobori&shy;kabu</span>){%fn%}i.e. <span lang="ja">上り</span> — not, as Japanese Wikipedia has, [<span lang="ja">幟</span>](https://en.wikipedia.org/wiki/Nobori).{%endfn%} — this is the only obvious name
+* <Cards>234</Cards> ‘ascending nine’ (<span lang="ja">のぼりがぶ</span> <span lang="ja-Latn">nobori&shy;kabu</span>)[^fn6] — this is the only obvious name
 * <Cards>333</Cards> ‘newly-born imperial prince/new shrine nine’ (<span lang="ja">今みやがぶ</span>)
 * <Cards>559</Cards> ??? (<span lang="ja">でつくがぶ</span>)
 * <Cards>757</Cards> ‘two card imperial archivist protection nine’ (<span lang="ja">二条蔵人あいごがぶ</span>) — the position of the head of the “imperial archivists” (<span lang="ja">蔵人頭</span> <span lang="ja-Latn">kurōdo</span> or <span lang="ja-Latn">kurando no tō</span>, usually translated ‘head chamberlain’) was held by two people, who were personally selected by the Emperor
 * <Cards>883</Cards> ‘thunder nine’ (<span lang="ja">雷公がぶ</span> <span lang="ja-Latn">raikō gabu</span>) — named after a [Chinese god of thunder](https://en.wikipedia.org/wiki/Leigong)
+
+[^fn6]: i.e. <span lang="ja">上り</span> — not, as Japanese Wikipedia has, [<span lang="ja">幟</span>](https://en.wikipedia.org/wiki/Nobori).
 
 Similarly, in the <span lang="ja-Latn">bunraku/kabuki</span> play <cite>Ōtō-no-Miya and the Armor of the Rising Sun</cite> (<cite lang="ja">大塔宮曦鎧</cite>), staged for the first time in 1723, other names are given for the zero-scoring hands:[@EdoKaruta7]
 
@@ -200,7 +214,9 @@ An interesting coincidence pointed out by Ryan Sartor is that when translated to
 
 A hand that sums to zero is the worst possible hand. The name of one of these hands — that comprising the 8, 9, and 3 cards — will be familiar to many English-speakers today as the word used for Japanese gangsters, <span lang="ja-Latn">yakuza</span>. The name is a straightforward reading (one of several possible) of the numbers <span lang="ja">八九三</span> (893), and, before being applied to gangsters, was a term derived from the <span lang="ja-Latn" class="noun">Oicho-Kabu</span> hand which also meant “useless” or “good-for-nothing”. 
 
-The term has been used in this way for a long time; it appears in the <span lang="ja-Latn">bunraku</span> (and later <span lang="ja-Latn">kabuki</span>) play <span lang="ja-Latn">Wada Gassen Onna Maizuru</span> (<cite lang="ja">和田 合戦女舞鶴</cite> ‘Wada Battle Female Dancing Crane’),{%fn%}The dancing crane (<span lang="ja-Latn">maizuru</span>) was the <span lang="ja-Latn">mon</span> of a standard <span lang="ja-Latn">kabuki</span> character based upon [<span lang="ja-Latn">Asahina Yoshihide</span>](https://en.wikipedia.org/wiki/Asahina_Yoshihide); thus, the title promised a female version of this character.{%endfn%} first performed in 1736:
+The term has been used in this way for a long time; it appears in the <span lang="ja-Latn">bunraku</span> (and later <span lang="ja-Latn">kabuki</span>) play <span lang="ja-Latn">Wada Gassen Onna Maizuru</span> (<cite lang="ja">和田 合戦女舞鶴</cite> ‘Wada Battle Female Dancing Crane’),[^fn7] first performed in 1736:
+
+[^fn7]: The dancing crane (<span lang="ja-Latn">maizuru</span>) was the <span lang="ja-Latn">mon</span> of a standard <span lang="ja-Latn">kabuki</span> character based upon [<span lang="ja-Latn">Asahina Yoshihide</span>](https://en.wikipedia.org/wiki/Asahina_Yoshihide); thus, the title promised a female version of this character.
 
 <blockquote lang="ja" class="blockquote">
 エエ埒もない<ruby>八九三<rp>(</rp><rt>ヤクザ</rt><rp>)</rp></ruby>の<ruby>眶 <rp>(</rp><rt>まぶた</rt><rp>)</rp></ruby>に出合うて

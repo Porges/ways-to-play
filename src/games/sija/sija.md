@@ -15,9 +15,11 @@ Copyright was never renewed, so this is public domain: https://onlinebooks.libra
 Anything published before January 1, 1964 and whose copyright was not renewed is in the public domain. –https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/United_States#General_rules
 */}
 
-This game is usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources, rarely <span lang="ar-Latn" class="noun aka">Seejeh</span>[@Keats_2 p. 97] or <span lang="ar-Latn" class="noun aka">Sutreng</span>.[@Keats_2 p. 97]{%fn%}Note that in @AncientEgyptiansAtPlay [p. 154] it is mistakenly stated that Hyde discusses the game; the names actually appear in Keats’ commentary on his translation. The layout of Keats’ book is idiosyncratic so it is not entirely clear from the text.{%endfn%}
+This game is usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources, rarely <span lang="ar-Latn" class="noun aka">Seejeh</span>[@Keats_2 p. 97] or <span lang="ar-Latn" class="noun aka">Sutreng</span>.[@Keats_2 p. 97][^fn0]
 
-In Arabic it is variously called <span lang="ar" class="aka">سِيجَة</span> <span lang="ar-Latn" class="aka">sīja</span>; <span lang="ar" class="aka">سيجة</span> {%pronounce word="sīja" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجة.mp3" class="aka" %}; <span lang="ar" class="aka">سيجا</span> {%pronounce word="sījā" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجا.mp3" class="aka" %}; or (in Egypt? there was some specific location here) <span lang="ar" class="aka">شيزة</span> {%pronounce word="shiza" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_شيزة.mp3" class="aka" %}.
+[^fn0]: Note that in @AncientEgyptiansAtPlay [p. 154] it is mistakenly stated that Hyde discusses the game; the names actually appear in Keats’ commentary on his translation. The layout of Keats’ book is idiosyncratic so it is not entirely clear from the text.
+
+In Arabic it is variously called <span lang="ar" class="aka">سِيجَة</span> <span lang="ar-Latn" class="aka">sīja</span>; <span lang="ar" class="aka">سيجة</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجة.mp3" class="aka">sīja</Pronounce>; <span lang="ar" class="aka">سيجا</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجا.mp3" class="aka">sījā</Pronounce>; or (in Egypt? there was some specific location here) <span lang="ar" class="aka">شيزة</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_شيزة.mp3" class="aka">shiza</Pronounce>.
 
 See: @BedouinHeritage, @ModernEgyptians [p. 318], @GebelElSilsila, @SeegaEgyptian
 

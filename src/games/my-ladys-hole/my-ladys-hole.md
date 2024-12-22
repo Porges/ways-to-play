@@ -17,7 +17,7 @@ It also has apparently been called simply “<span class="aka">Hole</span>”, a
 See: https://books.google.co.nz/books?id=2XtWDhgljvkC&pg=PA673&lpg=PA673&dq=%22my+lady%27s+hole%22&source=bl&ots=SdWKwWQYcR&sig=ACfU3U22jqnQGfl9FiGhEfZwhN0R2ofToA&hl=en&sa=X&ved=2ahUKEwik0emtwJr7AhXF1zgGHePNAacQ6AF6BAgoEAM#v=onepage&q=%22my%20lady's%20hole%22&f=false
 */}
 
-Some references, such as that in the song <cite>(Commodities of) The New Exchange</cite> from {%c%} 1615, must obviously refer to the bowling game:[@MerrySongsAndBallads5 p. 4]
+Some references, such as that in the song <cite>(Commodities of) The New Exchange</cite> from <abbr>c.</abbr> 1615, must obviously refer to the bowling game:[@MerrySongsAndBallads5 p. 4]
 
 > Here is a set of kitle pins,<br/>
 > &emsp;& boules at them to roule ;<br/>
@@ -46,7 +46,9 @@ An early definitive reference to the card game is in 1708:
 
 As does [Fanny Burney](https://en.wikipedia.org/wiki/Frances_Burney)  in her journal entry referring to 29th March, 1770 (although she later self-censored the name of the game).[@FannyBurney 121]
 
-In 1784, it was already being referred to as “old-fashioned”,[@ObservationsOnSomeOldFashionedGames]{%fn%}This is a later adaptation of the piece in @ALetterFromALady/@ALetterFromMrsMidnight.{%endfn%} but also appears that year in a humorous tract.[@APublicansReason]
+In 1784, it was already being referred to as “old-fashioned”,[@ObservationsOnSomeOldFashionedGames][^fn0] but also appears that year in a humorous tract.[@APublicansReason]
+
+[^fn0]: This is a later adaptation of the piece in @ALetterFromALady/@ALetterFromMrsMidnight.
 
 ## Identification
 

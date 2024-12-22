@@ -9,6 +9,8 @@ subgames:
     titleLang: ms
   - title: Daun Empat
     titleLang: id
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -34,7 +36,7 @@ A set of <span lang="ja-Latn">harifuda</span> produced by Tamura Shogundō.
 A set of <span lang="ja-Latn">harifuda</span> produced by Tamura Shogundō, in the Ōsaka style.
 </Image>
 
-Cards for the dealer, again numbered 1–6, but in a different pattern. These are called **<span lang="ja-Latn">hiki&shy;fuda</span>** (<span lang="ja">引札</span> ‘drawing cards’), <span lang="ja-Latn">kuri&shy;fuda</span> (<span lang="ja">繰札</span> ‘shuffling cards’), {% pronounce lang="ja-Latn" word="oya&shy;fuda" file="pronunciation_ja_親札.mp3" pronouncer="cochan0308" %} (<span lang="ja">親札</span> ‘house cards’), or <span lang="ja-Latn">mame&shy;fuda</span> (<span lang="ja">豆札</span> ‘bean cards’). The card with the number 4 on it is usually stamped with the manufacturer’s mark.
+Cards for the dealer, again numbered 1–6, but in a different pattern. These are called **<span lang="ja-Latn">hiki&shy;fuda</span>** (<span lang="ja">引札</span> ‘drawing cards’), <span lang="ja-Latn">kuri&shy;fuda</span> (<span lang="ja">繰札</span> ‘shuffling cards’), <Pronounce lang="ja-Latn"  file="pronunciation_ja_親札.mp3" pronouncer="cochan0308">oya&shy;fuda</Pronounce> (<span lang="ja">親札</span> ‘house cards’), or <span lang="ja-Latn">mame&shy;fuda</span> (<span lang="ja">豆札</span> ‘bean cards’). The card with the number 4 on it is usually stamped with the manufacturer’s mark.
 
 Sometimes these are produced with the same images as on the <span lang="ja-Latn">harifuda</span>, in which case they are called <span lang="ja-Latn">ko&shy;hari</span> (<span lang="ja">小張</span>, ‘small <span lang="ja-Latn">hari</span>’).
 
@@ -48,13 +50,15 @@ A set of <span lang="ja-Latn">hikifuda</span> produced by Tamura Shogundō.
 A set of <span lang="ja-Latn">kohari</span> produced by Tamura Shogundō.
 </Image>
 
-Finally, there are wooden blocks numbered 1–6 for the dealer to show recently chosen numbers. These are called <span lang="ja-Latn">mefuda</span> (<span lang="ja">目札</span> ‘seeing cards’), <span lang="ja-Latn">memoku</span> (<span lang="ja">目木</span> ‘seeing woods’), or {% pronounce lang="ja-Latn" word="meyasufuda" file="pronunciation_ja_目安札.mp3" pronouncer="cochan0308" %} (<span lang="ja">目安札</span> ‘easy-to-see cards’).
+Finally, there are wooden blocks numbered 1–6 for the dealer to show recently chosen numbers. These are called <span lang="ja-Latn">mefuda</span> (<span lang="ja">目札</span> ‘seeing cards’), <span lang="ja-Latn">memoku</span> (<span lang="ja">目木</span> ‘seeing woods’), or <Pronounce lang="ja-Latn"  file="pronunciation_ja_目安札.mp3" pronouncer="cochan0308">meyasufuda</Pronounce> (<span lang="ja">目安札</span> ‘easy-to-see cards’).
 
 See @FinalMahjong for examples of the use of <span lang="ja">通り</span>.
 
 ## Media
 
-The 1968 Japanese film <cite lang="ja">緋牡丹博徒</cite> <cite>Red Peony Gambler</cite> ({%pronounce lang="ja-Latn" word="hibotan bakuto" pronouncer="mezashi" file="pronunciation_ja_緋牡丹博徒.mp3" %}, also titled in English ‘Lady Yakuza: The Red Peony Gambler’) opens with a scene in which the game is played.{%fn%}The film can be viewed [on The Internet Archive](https://archive.org/details/LadyYakuzaTheRedPeonyGambler).{%endfn%}
+The 1968 Japanese film <cite lang="ja">緋牡丹博徒</cite> <cite>Red Peony Gambler</cite> (<Pronounce lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_緋牡丹博徒.mp3">hibotan bakuto</Pronounce>, also titled in English ‘Lady Yakuza: The Red Peony Gambler’) opens with a scene in which the game is played.[^fn0]
+
+[^fn0]: The film can be viewed [on The Internet Archive](https://archive.org/details/LadyYakuzaTheRedPeonyGambler).
 
 Appears in the manga <cite lang="ja">世紀末博狼伝サガ</cite> <cite>Legend of the End-of-Century Gambling Wolf ‘Saga’</cite> (1995–8), chapters 14 through 28.
 
@@ -63,7 +67,11 @@ Appears in the manga <cite lang="ja">世紀末博狼伝サガ</cite> <cite>Legen
 
 When played with [Mah Jong](/equipment/mah-jong.html) tiles, it can be called <span lang="ja-Latn" class="aka">haihonbiki</span> (<span lang="ja" class="aka">牌本引</span>).
 
-Tehonbiki can also be played with [Hanafuda](/equipment/hanafuda.html) cards. In this case it can be called <span lang="ja-Latn" class="aka">ehonbiki</span> (<span lang="ja" class="aka">絵本引</span>) or <span lang="ja-Latn" class="aka">echobo</span> (<span lang="ja" class="aka">絵樗蒲</span>/<span lang="ja" class="aka">えちょぼ</span>).{%fn%}<span lang="ja-Latn">Chobo</span> here probably just means “gambling”; see also the dice game {%gameref chobo-ichi%}.{%endfn%} When used in this manner, the values of the cards are ignored and only the months are considered; the mapping of months to numbers is:{%fn%}The reason that this mapping doesn’t seem to obey the standard ordering of the cards is that it is based upon the so-called “Nagoya order”.{%endfn%}
+Tehonbiki can also be played with [Hanafuda](/equipment/hanafuda.html) cards. In this case it can be called <span lang="ja-Latn" class="aka">ehonbiki</span> (<span lang="ja" class="aka">絵本引</span>) or <span lang="ja-Latn" class="aka">echobo</span> (<span lang="ja" class="aka">絵樗蒲</span>/<span lang="ja" class="aka">えちょぼ</span>).[^fn1] When used in this manner, the values of the cards are ignored and only the months are considered; the mapping of months to numbers is:[^fn2]
+
+[^fn1]: <span lang="ja-Latn">Chobo</span> here probably just means “gambling”; see also the dice game {%gameref chobo-ichi%}.
+
+[^fn2]: The reason that this mapping doesn’t seem to obey the standard ordering of the cards is that it is based upon the so-called “Nagoya order”.
 
 <ol class="columnar">
 <li>Pine or Bush clover</li>
@@ -87,7 +95,9 @@ This variant of the game was played with {%a four-colour-cards %}; each player r
 
 ## <span lang="id" class="noun aka">Daun Empat</span>
 
-<span lang="id" class="noun aka">Daun Empat</span> (‘four leaves’), also known as <span lang="nan" class="aka">四支頁</span> ‘four pages’ (Hokkien: <span lang="nan-Latn" class="aka">sì ki ia̍h</span>),{%fn%}Transliterated as <span lang="nan-Latn" class="aka">see kee yah</span> in older texts.[@GamblingGamesOfMalaya p. 116]{%endfn%} is a version of the game played with only four objects, which was at one time popular in Penang and Kelantan.[@GamblingGamesOfMalaya p. 116]
+<span lang="id" class="noun aka">Daun Empat</span> (‘four leaves’), also known as <span lang="nan" class="aka">四支頁</span> ‘four pages’ (Hokkien: <span lang="nan-Latn" class="aka">sì ki ia̍h</span>),[^fn3] is a version of the game played with only four objects, which was at one time popular in Penang and Kelantan.[@GamblingGamesOfMalaya p. 116]
+
+[^fn3]: Transliterated as <span lang="nan-Latn" class="aka">see kee yah</span> in older texts.[@GamblingGamesOfMalaya p. 116]
 
 This game remains explicitly illegal in Malaysia when played in a gaming house.[@MalaysiaCommonGamingHousesAct]
 

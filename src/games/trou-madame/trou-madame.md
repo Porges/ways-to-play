@@ -61,9 +61,11 @@ Et que le coup eſt bon : l’on ioüe à la rigueur.
 </blockquote>
 <p>Putting it there is not all: you must push it with vigour<br/>
 Until it goes to the bottom: so that the maiden<br/>
-Confesses that you know how to thread the alley:{%fn%}or the space beside the bed{%endfn%}<br/>
+Confesses that you know how to thread the alley:[^fn0]<br/>
 And that the blow is good: one plays with rigour.</p>
 </div>
+
+[^fn0]: or the space beside the bed
 
 <div class="multi">
 <blockquote lang="fr">
@@ -71,10 +73,12 @@ Demeurer en chemin, perdre courſe & carriere,<br/>
 Entrer, ſortir ſoudain, retourner en arriere,<br/>
 Sont traicts pour à iamais te faire meſpriſer.
 </blockquote>
-<p>To not make progress, to lose course and quarry,{%fn%}Both words in their hunting sense; <span lang="fr">carrière</span> and <em>quarry</em> are synonyms in both their rocky and rabbity senses, as they are from the same root.[@DictionnaireHistorique3 251]{%endfn%}<br/>
+<p>To not make progress, to lose course and quarry,[^fn1]<br/>
 To enter, to leave suddenly, to go back,<br/>
 Are acts to make you despised forever.</p>
 </div>
+
+[^fn1]: Both words in their hunting sense; <span lang="fr">carrière</span> and <em>quarry</em> are synonyms in both their rocky and rabbity senses, as they are from the same root.[@DictionnaireHistorique3 251]
 
 <div class="multi">
 <blockquote lang="fr">

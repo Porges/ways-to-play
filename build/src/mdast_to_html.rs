@@ -1,6 +1,6 @@
 use std::collections::BTreeMap;
 
-use markdown::mdast::{Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Yaml};
+use markdown::mdast::{Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Text, Yaml};
 use maud::{html, Markup};
 
 pub fn get_header(node: &Node) -> Option<Yaml> {
@@ -171,8 +171,30 @@ impl Converter {
     }
 
     fn handle_component_text(&self, flow: MdxJsxTextElement) -> Markup {
+        // Some preloaded abbreviations for ease of use
+        if flow.name.as_deref() == Some("abbr") {
+            if let [Node::Text(t)] = flow.children.as_slice() {
+                if let Some(known) = match t.value.as_str() {
+                    "BCE" => Some("before common era"),
+                    "CE" => Some("common era"),
+                    "c." => Some("circa"),
+                    _ => None,
+                } {
+                    let class = if t.value.chars().all(|c| c.is_ascii_uppercase()) {
+                        Some("initialism")
+                    } else {
+                        None
+                    };
+
+                    return html! {
+                        abbr class=[class] title=(known) { (t.value) }
+                    };
+                }
+            }
+        }
+
         match flow.name.as_deref() {
-            Some(x) if ('a'..='z').contains(&x.chars().next().unwrap()) => {
+            Some(x) if x.chars().next().unwrap().is_ascii_lowercase() => {
                 // TODO: ugly
                 html! {
                     @if let Some(name) = &flow.name {
@@ -211,7 +233,7 @@ impl Converter {
 
     fn handle_component(&self, flow: MdxJsxFlowElement) -> Markup {
         match flow.name.as_deref() {
-            Some(x) if ('a'..='z').contains(&x.chars().next().unwrap()) => {
+            Some(x) if x.chars().next().unwrap().is_ascii_lowercase() => {
                 // TODO: ugly
                 html! {
                     @if let Some(name) = &flow.name {
@@ -254,7 +276,7 @@ impl Converter {
                 let trimmed = t.value.trim_start();
                 if let Some(trimmed) = trimmed.strip_prefix("[!aside]") {
                     return html! {
-                        aside {
+                        aside role="note" class="footnote" {
                             p {
                                 (trimmed.trim())
                                 (self.expand(p.children.clone().into_iter().skip(1).collect()))

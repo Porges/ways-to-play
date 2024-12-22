@@ -1,6 +1,8 @@
 ---
 title: Glossary of Games Terminology
 order: 104
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 Here I collect some terms instead of reëxplaining them in many articles, as well as providing a place for discussion or expansion.
@@ -10,7 +12,7 @@ Here I collect some terms instead of reëxplaining them in many articles, as wel
 <dt>eyes</dt>
 <dd>
 
-A group of cards in {% gameref kanhu %} is called an ‘eye’ (<span lang="zh">眼</span> Cantonese: {%pronounce lang="yue-Latn-jyutping" word="ngaan⁵" file="pronunciation_yue_眼.mp3" pronouncer="diniskachonchan" %}).[@CulinMahjong p. 156] In other games combinations are called called ‘ox’ (<span lang="zh">牛</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁴</span>).[@GamblingGamesOfMalaya p. 88] I wonder if both terms are derived by modifying ‘pair’ (<span lang="zh">偶</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁵</span>)?[@TonicDictionary p. 323]
+A group of cards in {% gameref kanhu %} is called an ‘eye’ (<span lang="zh">眼</span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  file="pronunciation_yue_眼.mp3" pronouncer="diniskachonchan">ngaan⁵</Pronounce>).[@CulinMahjong p. 156] In other games combinations are called called ‘ox’ (<span lang="zh">牛</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁴</span>).[@GamblingGamesOfMalaya p. 88] I wonder if both terms are derived by modifying ‘pair’ (<span lang="zh">偶</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁵</span>)?[@TonicDictionary p. 323]
 
 In Mahjong the ‘eye’ is the pair that is required to make a complete hand.
 </dd>
@@ -42,7 +44,7 @@ Payment made to the owner of a gambling establishment, as a fixed fee per game o
 - In Javan usage the <span lang="jav-Latn">tong</span> was the glass in which the contributions to the gaming house (called <span lang="jav">ꦕꦸꦕꦸꦏ꧀</span> <span lang="jav-Latn">cucuk</span> or <span lang="jav">ꦕꦸꦏ꧀</span> <span lang="jav-Latn">cuk</span>) are placed.[@JavaanseKaartspelen p. 4]
 - In Thai it is <span lang="th">ต๋ง</span> (<span lang="th-Latn">tong</span>).
 - In Khmer it is <span lang="km">តុង</span> (<span lang="km-Latn">tong</span>).
-- Also used in Australia amongst Aboriginal groups who play games such as {% gameref kuns %}.[@ANoteOnKuns p. 42][@WhatsTheBigDeal p. 668][@CardGamesToPokerMachines p. 137–8]
+- Also used in Australia amongst Aboriginal groups who play games such as [Kuns](games/kuns/kuns.md).[@ANoteOnKuns p. 42][@WhatsTheBigDeal p. 668][@CardGamesToPokerMachines p. 137–8]
 </dd>
 
 </dl>

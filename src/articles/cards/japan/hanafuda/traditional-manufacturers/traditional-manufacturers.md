@@ -9,6 +9,8 @@ hero:
     license: cc-by-sa
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 ## Identification 
@@ -391,7 +393,9 @@ down in 2002.
 {/* 
   TODO: this seems dubious.
 
-  <p> In the early days of the company,  <span class="noun" lang="ja-Latn">Fusajirō</span> joined forces with the “tobacco king” <span class="noun" lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) who had founded the <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco company in 1892. Like <span class="noun" lang="ja-Latn">Nintendō</span>, who were one of the first companies to produce Western-style cards in Japan, <span class="noun" lang="ja-Latn">Murai</span> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing”{%fn%}In some sources this is given in its translated form as the “Oriental Printing Company”.{%endfn%} (<span lang="ja">東洋印刷</span>).[@EbashiCigaretteCards]</p>
+  <p> In the early days of the company,  <span class="noun" lang="ja-Latn">Fusajirō</span> joined forces with the “tobacco king” <span class="noun" lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) who had founded the <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco company in 1892. Like <span class="noun" lang="ja-Latn">Nintendō</span>, who were one of the first companies to produce Western-style cards in Japan, <span class="noun" lang="ja-Latn">Murai</span> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing”[^fn0] (<span lang="ja">東洋印刷</span>).[@EbashiCigaretteCards]</p>
+
+[^fn0]: In some sources this is given in its translated form as the “Oriental Printing Company”.
 
     position="left"
     alt="An image of a cigarette card with a combination Hanafuda (Wisteria) and Western (4 of clubs) on the front, and on the reverse reading “A different card in each package of cigarettes”."
@@ -401,8 +405,10 @@ down in 2002.
     } %}
     An example of a combination <span class="noun" lang="ja-Latn">Hanafuda</span> card included with a packet of Murai Bros. cigarettes. Note that the clubs are printed in the “wrong” colour.
 
-  <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <span class="noun" lang="ja-Latn">Hanafuda</span> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <span class="noun" lang="ja-Latn">Hanafuda</span> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,{%fn%}<span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]{%endfn%} and <span class="noun" lang="ja-Latn">Tōyō</span> Printing was sold along with the rest of the company.[@TarHeel p. 362]</p>
+  <p>Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <span class="noun" lang="ja-Latn">Hanafuda</span> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <span class="noun" lang="ja-Latn">Hanafuda</span> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,[^fn1] and <span class="noun" lang="ja-Latn">Tōyō</span> Printing was sold along with the rest of the company.[@TarHeel p. 362]</p>
 */} 
+
+[^fn1]: <span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]
 
 A too-brief summary of their later success: after WWII, <span class="noun"
 lang="jp-Latn">Nintendō</span> managed to survive a period of crushing taxation
@@ -572,11 +578,7 @@ month of the <span class="noun" lang="ja-Latn">Hanafuda</span> deck:
 The 5 Brights of <span class="noun" lang="ja-Latn">Nintendō</span>’s “Hana-Trump” deck.
 </Image>
 
-Because there are four more cards in the standard deck compared to the <span class="noun"
-lang="ja-Latn">Hanafuda</span> one, <span class="noun" lang="ja-Latn">Nintendō</span> added
-an additional four cards (and two jokers) to the set. These extra cards are
-counterparts for specialized pieces of equipment present in boxed {% gameref
-hachi-hachi %} (<span lang="ja">八八</span>) sets.
+Because there are four more cards in the standard deck compared to the <span class="noun" lang="ja-Latn">Hanafuda</span> one, <span class="noun" lang="ja-Latn">Nintendō</span> added an additional four cards (and two jokers) to the set. These extra cards are counterparts for specialized pieces of equipment present in boxed [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md) (<span lang="ja">八八</span>) sets.
 
 <Image 
     src='HanaTrump_Extra.jpg'
@@ -656,7 +658,7 @@ lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 57–8]
 
 <Image position="aside" src="Takarabune_by_Hiroshige.jpg" alt="" originalUrl="https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png", license="cc0", author="MichaelMaggs" %}
-The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikipedia.org/wiki/Takarabune) that carries the [seven lucky gods](https://en.wikipedia.org/wiki/Seven_Lucky_Gods), as shown in this print by [Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) ({%c%} 1840). 
+The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikipedia.org/wiki/Takarabune) that carries the [seven lucky gods](https://en.wikipedia.org/wiki/Seven_Lucky_Gods), as shown in this print by [Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) (<abbr>c.</abbr> 1840). 
 </Image>
 
 * <span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <span class="noun" lang="ja-Latn">Tengu</span>’), also used for <span class="noun" lang="ja-Latn">Kabu</span> and <span class="noun" lang="ja-Latn">Tehonbiki</span> cards, trademarked in 1921[@Trademarks1924_18 p. 330]
@@ -1425,10 +1427,10 @@ deck:
 The bright cards of <span class="noun" lang="ja-Latn">Nihon Karuta</span>’s Hana-Trump deck. These are obviously based on the much older [Universal](#universal) <span class="noun" lang="ja-Latn">Trump-Hana</span> deck.
 </Image>
 
-<Image 
-    alt="Five cards, one a joker and the other four being kings with various objects depicted."
-    src='Windmill_Extra.jpg' %}
-The extra {% gameref hachi-hachi %}-related cards of <span class="noun" lang="ja-Latn">Nihon Karuta</span>’s Hana-Trump deck. There is a windmill depicted in the corners of the Joker card.
+<Image  alt="Five cards, one a joker and the other four being kings with various objects depicted." src='Windmill_Extra.jpg'>
+
+The extra [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md)-related cards of <span class="noun" lang="ja-Latn">Nihon Karuta</span>’s Hana-Trump deck. There is a windmill depicted in the corners of the Joker card.
+
 </Image>
 
 ### <img class="inline-img" src='/small-images/marujuu.svg' alt="" /> <span class="noun" lang="ja-Latn">Yamashiro Shōten</span> (<span lang="ja">山城商店</span>)
@@ -1875,8 +1877,10 @@ Brands included:[@ModernJapaneseWrappers p. 46]
 * <span lang="ja">千姫</span> (<span lang="ja-Latn">senhime</span> ‘[Lady <span class="noun" lang="ja-Latn">Sen</span>](https://en.wikipedia.org/wiki/Senhime)’)
 * <span lang="ja">銀瓠</span> (<span lang="ja-Latn">ginhyō</span> ‘silver gourd’)
 * <span lang="ja">金瓠</span> (<span lang="ja-Latn">kinhyō</span> ‘gold gourd’)
-* <span lang="ja">豊太閤</span>{%fn%}On some versions of this, it is misspelt <span lang="ja">豊太閣</span>.{%endfn%} (<span lang="ja-Latn">hōtaikō</span>, a title of honour for [<span class="noun" lang="ja-Latn">Toyotomi Hideyoshi</span>](https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi))
+* <span lang="ja">豊太閤</span>[^fn2] (<span lang="ja-Latn">hōtaikō</span>, a title of honour for [<span class="noun" lang="ja-Latn">Toyotomi Hideyoshi</span>](https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi))
 * <span lang="ja">千成</span> (<span lang="ja-Latn">sennari</span>, short for <span lang="ja">千成瓢箪</span> <span lang="ja-Latn">sennaribyōtan</span> ‘thousand gourds’, the standard used by <span class="noun" lang="ja-Latn">Hideyoshi</span>)
+
+[^fn2]: On some versions of this, it is misspelt <span lang="ja">豊太閣</span>.
 
 <div class="multi wide">
 <Image src='DN_hotaiko.jpg' alt="A hanafuda wrapper with a man wearing tall headdress and holding a fan." %}
@@ -1969,31 +1973,24 @@ lang="ja-Latn">Hanafuda</span> than other brands’ combination cards are. A ver
 similar deck was published under the brand “Star Playing Cards” (numbered
 “<strong>807</strong>”, with a five-pointed star).
 
-<Image 
-    src='Universal_TrumpHana_Brights.jpg'
-    alt="">
+<Image  src='Universal_TrumpHana_Brights.jpg' alt="">
+
 The Bright cards of Universal’s <span class="noun" lang="ja-Latn">Trump-Hana</span> deck.
 This particular deck is listed as number “350” on the packaging.
+
 </Image>
 
-<Image 
-    src='Universal_TrumpHana_Extras.jpg'
-    alt="">
-The extra {% gameref hachi-hachi %}-related cards of Universal’s <span class="noun"
-lang="ja-Latn">Trump-Hana</span> deck. I’m not sure of the significance of the
-“vase” Joker, since usually the Joker has the manufacturer’s name. It could be
-intended as a multilingual pun on “Universal” (<span lang="ja">ユニバーセル
-</span> <span lang="ja-Latn">yunibāseru</span>) → “Universe” (<span lang="ja">ユ
-ニバース</span> <span lang="ja-Latn">yunibāsu</span>), which sounds like
-“uni-vase” (one vase).
+<Image  src='Universal_TrumpHana_Extras.jpg' alt="">
+
+The extra [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md)-related cards of Universal’s <span class="noun" lang="ja-Latn">Trump-Hana</span> deck. I’m not sure of the significance of the “vase” Joker, since usually the Joker has the manufacturer’s name. It could be intended as a multilingual pun on “Universal” (<span lang="ja">ユニバーセル </span> <span lang="ja-Latn">yunibāseru</span>) → “Universe” (<span lang="ja">ユ ニバース</span> <span lang="ja-Latn">yunibāsu</span>), which sounds like “uni-vase” (one vase).
+
 </Image>
 
-<Image 
-    src='Star_Joker.jpg'
-    size="small"
-    alt="Two small playing cards, the first a joker with a person in a robber-mask inside a star shape, and the second a paulownia card with yellow background and the words “U.P.C. Co.”" %}
+<Image  src='Star_Joker.jpg' size="small" alt="Two small playing cards, the first a joker with a person in a robber-mask inside a star shape, and the second a paulownia card with yellow background and the words “U.P.C. Co.”">
+
 The joker and manufacturer’s Paulownia card from the “Star Playing Cards” brand.
 The Universal #350 deck’s manufacturer’s card is identical to this one.
+
 </Image>
 
 A larger sized <span class="noun" lang="ja-Latn">Hana-Trump</span> deck (numbered
@@ -2001,16 +1998,16 @@ A larger sized <span class="noun" lang="ja-Latn">Hana-Trump</span> deck (numbere
 <span class="noun" lang="ja-Latn">Hanafuda</span>-style cards that could be used as an
 additional suit in games with more players.
 
-<Image 
-    src='Universal_25_brights.jpg'
-    alt="">
-The Bright cards of Universal’s <span class="noun" lang="ja-Latn">Hana-Trump</span> deck.
-This particular deck is listed as number “25” on the packaging.
+<Image  src='Universal_25_brights.jpg' alt="">
+
+The Bright cards of Universal’s <span class="noun" lang="ja-Latn">Hana-Trump</span> deck. This particular deck is listed as number “25” on the packaging.
+
 </Image>
 
 <Image 
     src='Universal_25_extras.jpg'
     alt="">
+
 The Bamboo–King extra suit of Universal’s <span class="noun" lang="ja-Latn">Hana-Trump</span>
 deck. The extra cards, from left-to-right, are: an additional Bright card
 featuring Princess <span class="noun" lang="ja-Latn">Yaegaki</span> (<span lang="ja">八重垣姫
@@ -2025,18 +2022,16 @@ lang="ja-Latn">tanzaku</span> card, which is inscribed <span lang="ja">さゝ�
 <span lang="ja-Latn">tane</span> card, showing two sparrows; and the <span
 lang="ja-Latn">kasu</span> card, which has a yellow background similar to one of
 the Paulownia cards.
+
 </Image>
 
 <Image 
     src='Universal_25_jokers.jpg'
     size="small"
     alt="">
-The reverse of the deck features a grape vine pattern. There are also two jokers
-included, one featuring a [<span
-lang="ja-Latn">kadomatsu</span>](https://en.wikipedia.org/wiki/Kadomatsu) (<span
-lang="ja">門松</span>), and the other with significantly less effort invested in
-its design. Note the small six-pointed stars in the corners, containing the
-letters U &amp; C intertwined.
+
+The reverse of the deck features a grape vine pattern. There are also two jokers included, one featuring a [<span lang="ja-Latn">kadomatsu</span>](https://en.wikipedia.org/wiki/Kadomatsu) (<span lang="ja">門松</span>), and the other with significantly less effort invested in its design. Note the small six-pointed stars in the corners, containing the letters U &amp; C intertwined.
+
 </Image>
 
 ### <img src='/small-images/kaneman.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kawai</span>
@@ -2131,7 +2126,7 @@ October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<spa
 The <span lang="ja-Latn">otanoshimi</span> wrapper.
 </Image>
 
-<span class="noun" lang="ja-Latn">Nishi&shy;gushi</span> also manufactured board games (such as {% gameref gunjin-shogi %}) Some of their decks were manufactured by <span class="noun" lang="ja-Latn">Nihon Karuta</span>. Their mark was a circled <span class="circled" lang="ja">榮</span>, the same as <span class="noun" lang="ja-Latn">Kyōwadō</span>. Brands included:
+<span class="noun" lang="ja-Latn">Nishi&shy;gushi</span> also manufactured board games (such as [Gunjin Shogi](games/gunjin-shogi/gunjin-shogi.md)) Some of their decks were manufactured by <span class="noun" lang="ja-Latn">Nihon Karuta</span>. Their mark was a circled <span class="circled" lang="ja">榮</span>, the same as <span class="noun" lang="ja-Latn">Kyōwadō</span>. Brands included:
 
 * <span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)
 
@@ -2144,7 +2139,9 @@ class="circled" lang="ja">榮</span>, the same as <span class="noun"
 lang="ja-Latn">Nishi&shy;guchi Shōten</span>. Their brands included:
 
 * <span lang="ja">京寶船</span> (<span lang="ja-Latn">kyō&shy;takarabune</span>, ‘<span class="noun" lang="ja-Latn">Kyōto</span> treasure ship’)
-* <span lang="ja">京紅梅</span> (<span lang="ja-Latn">kyō&shy;kōbai</span>, ‘<span class="noun" lang="ja-Latn">Kyōto</span> red plum’){%fn%}This is a <em>likely</em> categorization based upon the design of the box, but the maker’s mark appears to be different.{%endfn%}
+* <span lang="ja">京紅梅</span> (<span lang="ja-Latn">kyō&shy;kōbai</span>, ‘<span class="noun" lang="ja-Latn">Kyōto</span> red plum’)[^fn3]
+
+[^fn3]: This is a <em>likely</em> categorization based upon the design of the box, but the maker’s mark appears to be different.
 
 ### <img src='/small-images/kanekata.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kamigataya</span> (<span lang="ja">上方屋</span>)
 

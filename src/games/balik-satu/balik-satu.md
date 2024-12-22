@@ -258,6 +258,8 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 ### <span class="noun aka" lang="jav-Latn">Gonggong</span>
 
+^711670
+
 <span class="noun" lang="jav-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.
 
 <Image src="74334415_1705918149541872_2426033331075284992_n.jpg"
@@ -301,7 +303,9 @@ These cards are worth 10 points each.
 <dd>This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jav-Latn">toh bayaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jav-Latn">bak</span> from these cards. For each <span lang="jav-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jav-Latn">bak</span>.</dd>
 </dl>
 
-In the 1940s the <span lang="jav-Latn">toh bayaran</span> methods were paid out at 2¢{%fn%}These were cents of the [Netherlands Indies gulden](https://en.wikipedia.org/wiki/Netherlands_Indies_gulden).{%endfn%} per point from each other player.
+In the 1940s the <span lang="jav-Latn">toh bayaran</span> methods were paid out at 2¢[^fn0] per point from each other player.
+
+[^fn0]: These were cents of the [Netherlands Indies gulden](https://en.wikipedia.org/wiki/Netherlands_Indies_gulden).
 
 In Yogyakarta the following bets were used:
 

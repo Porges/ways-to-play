@@ -1,6 +1,8 @@
 ---
 title: Jean de Lannoy (1464)
 order: 1464
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -18,8 +20,8 @@ The games mentioned are:
 
 - Card games:
     - <span lang="fr">rouffle</span>
-    - <span lang="fr">XXXI</span>: see {%gameref thirty-one%}
-    - <span lang="fr">ghelicque</span>: see {% gameref glic %}
+    - <span lang="fr">XXXI</span>: see [Thirty One](games/thirty-one/thirty-one.md)
+    - <span lang="fr">ghelicque</span>: see [Glic](games/glic/glic.md)
     - <span lang="fr">hanequin</span> {/* Anakin, Hannikin */}
     - <span lang="fr">franc ju</span>
 - Table games:

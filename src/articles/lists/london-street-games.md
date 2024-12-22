@@ -1,6 +1,8 @@
 ---
 title: London Street Games (1916)
 order: 1916
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -139,7 +141,7 @@ Gambling games:
 <li>Raps on the Bugle</li>
 <li>Nap</li>
 <li>Trump</li>
-<li>Beat Your Neighbour Out Of Doors: see {% gameref beggar-my-neighbour %}</li>
+<li>Beat Your Neighbour Out Of Doors: see [Beggar My Neighbour](games/beggar-my-neighbour/beggar-my-neighbour.md)</li>
 <li>My Birdie Whistles</li>
 <li>Polish Banker</li>
 <li>Donkey</li>
@@ -158,12 +160,12 @@ Gambling games:
 <li>Pitch and Toss</li>
 <li>Blind Sam</li>
 <li>Overs Keeps</li>
-<li>Knocking Dolly Out O’ Bed: see {% gameref beggar-my-neighbour %}, perhaps?</li>
+<li>Knocking Dolly Out O’ Bed: see [Beggar My Neighbour](games/beggar-my-neighbour/beggar-my-neighbour.md), perhaps?</li>
 </ul>
 
 Tossing games:
 <ul class="columnarr">
-<li>Throwing the Nicker (Tin on the Line): maybe {%gameref crack-lew%}?</li>
+<li>Throwing the Nicker (Tin on the Line): maybe [Crack Lew](games/crack-lew/crack-lew.md)?</li>
 <li>Nixie</li>
 <li>Pitch Out</li>
 <li>Pitching on the Hat</li>
@@ -346,7 +348,7 @@ Duty games:
 <li>Nelson</li>
 <li>Hiding Hats in the Houses of Parliament</li>
 <li>Polly Tell Me The Time</li>
-<li>Buck, Buck, How Many Fingers Have I Got Up: see {% gameref buck-buck %}</li>
+<li>Buck, Buck, How Many Fingers Have I Got Up: see [Buck, Buck](games/buck-buck/buck-buck.md)</li>
 <li>Solomon Silent Reading: perhaps a pun on “solemn-and-silent reading”</li>
 <li>Bull-Dog Race</li>
 <li>Eating Fish and Potatoes</li>
@@ -706,7 +708,7 @@ Marbles games:
 <li>Porky</li>
 <li>Throw the Farthest</li>
 <li>Some or None</li>
-<li>Bridge-Board: something like {%gameref trou-madame %}</li>
+<li>Bridge-Board: something like [Trou Madame](games/trou-madame/trou-madame.md)</li>
 <li>Bounce Eye</li>
 <li>Ringums</li>
 <li>Chipping out of the Ring</li>
@@ -815,11 +817,11 @@ Chalk games:
 <li>Wriggly-Worm (Whirly-Whirly, Wiggly-Woggly, Snal)</li>
 <li>Squares</li>
 <li>Numbers</li>
-<li>Dot-Boxes (Dots): see {%gameref dots-and-boxes%}</li>
+<li>Dot-Boxes (Dots): see [Dots and Boxes](games/dots-and-boxes/dots-and-boxes.md)</li>
 <li>All Over the Wolrd</li>
 <li>Stepping-Stones</li>
 <li>Zig-Zag</li>
-<li>Noughts and Crosses (Oxen-Crosses): see {% gameref tic-tac-toe%}</li>
+<li>Noughts and Crosses (Oxen-Crosses): see [Tic-Tac-Toe](games/tic-tac-toe/tic-tac-toe.md)</li>
 <li>Maps</li>
 <li>London</li>
 <li>Battlements</li>

@@ -8,7 +8,7 @@ countries: KR
 ---
 
 <p class="lead">
-{%pronounce file="pronunciation_ko_섰다.mp3" word="Seotda" pronouncer="Letitgo"  class="aka" noun=true lang="ko-Latn" %} (<span lang="ko">섰다</span>)
+<Pronounce file="pronunciation_ko_섰다.mp3"  pronouncer="Letitgo"  class="aka" noun=true lang="ko-Latn">Seotda</Pronounce> (<span lang="ko">섰다</span>)
 </p>
 
 ## Hand Rankings

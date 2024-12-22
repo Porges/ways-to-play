@@ -3,6 +3,8 @@ title: Kōnane
 titleLang: haw
 players: 2
 countries: US
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead"><span class="noun" lang="haw">Kōnane</span> (sometimes also called <span
@@ -36,7 +38,7 @@ transmitted by the survivors of Japanese shipwrecks.[@Stokes]{%endfn%}  However,
 it definitely existed before European contact, as it was described by Captain
 Cook’s voyage, which was the first of its kind to reach the islands (see below).
 
-The game dates at least from the early 18th century, as it was played by Kahekili <span class="rnum">II</span> (c. 1737–1794), who was high chief ({%pronounce lang="haw" word="aliʻi nui" pronouncer="lilibet" %}) of Maui. Kahekili and his advisers possibly used the board, or at least the pieces, to plan battles:
+The game dates at least from the early 18th century, as it was played by Kahekili <span class="rnum">II</span> (c. 1737–1794), who was high chief (<Pronounce lang="haw"  pronouncer="lilibet">aliʻi nui</Pronounce>) of Maui. Kahekili and his advisers possibly used the board, or at least the pieces, to plan battles:
 
 > [T]here was no other king so genuinely accomplished in making war as King
 > Kahekili of Maui and the actions on the battlefield plainly showed his
@@ -243,6 +245,7 @@ Michael Ernst has performed game-theoretic analysis of various board positions.[
 
 ## See also
 
-{% gameref take-it-away %} and {% gameref leap-frog %} play similarly but have different winning conditions.
+[Take It Away](games/take-it-away/take-it-away.md) and [Leap-Frog](games/leap-frog/leap-frog.md) play similarly but have different winning conditions.
 
-{/* https://totakeresponsibility.blogspot.com/search/label/Konane */}
+> [!todo]
+> https://totakeresponsibility.blogspot.com/search/label/Konane

@@ -12,7 +12,7 @@ date created: 2024-12-18
 date modified: 2024-12-21
 ---
 
-{%pronounce noun=true lang="ja-Latn" word="Hachi-Hachi" file="pronunciation_ja_八八.mp3" pronouncer="mezashi" %} (<span lang="ja">八八</span>, ‘88’) is
+<Pronounce noun=true lang="ja-Latn"  file="pronunciation_ja_八八.mp3" pronouncer="mezashi">Hachi-Hachi</Pronounce> (<span lang="ja">八八</span>, ‘88’) is
 the preëminent [<span class="noun"
 lang="ja-Latn">Hanafuda</span>](/articles/cards/japan/hanafuda/) gambling game for 3–7 players.
 In many old English sources it is considered synonymous with ‘<span class="noun"
@@ -68,18 +68,24 @@ Combinations based upon sets:
 <dt><span lang="ja-Latn">tate&shy;sanbon</span> &bull; <span lang="ja">立三本 (たてさんぼん)</span> &bull; special three-of-a-kind/3*</dt>
 <dd>
 Three cards of the months of Wisteria, Iris, Bush Clover, or the three <span lang="ja-Latn">kasu</span> of Paulownia.
-This is worth more because these months cannot contribute towards the <span lang="ja-Latn">aka-tan</span> or <span lang="ja-Latn">ao-tan</span> <span lang="ja-Latn">dekiyaku</span>, so this form has a higher compensation.{%fn%}Also written as <span lang="ja">竪三本</span> or <span lang="ja">たて三本</span>.{%endfn%}
+This is worth more because these months cannot contribute towards the <span lang="ja-Latn">aka-tan</span> or <span lang="ja-Latn">ao-tan</span> <span lang="ja-Latn">dekiyaku</span>, so this form has a higher compensation.[^fn0]
 </dd>
+
+[^fn0]: Also written as <span lang="ja">竪三本</span> or <span lang="ja">たて三本</span>.
 
 <dt><span lang="ja-Latn">futa-sanbon</span> &bull; <span lang="ja">二三本 (ふたさんぼん)</span> &bull; two three-of-a-kind/3–3</dt>
 <dd>
-Two sets of three cards of the same month.{%fn%}Also written as <span lang="ja">二三本</span>, <span lang="ja">二タ三本</span>, <span lang="ja">ふた三本</span>, <span lang="ja">双三本</span>.{%endfn%}
+Two sets of three cards of the same month.[^fn1]
 </dd>
+
+[^fn1]: Also written as <span lang="ja">二三本</span>, <span lang="ja">二タ三本</span>, <span lang="ja">ふた三本</span>, <span lang="ja">双三本</span>.
 
 <dt><span lang="ja-Latn">kuttsuki</span>  &bull; <span lang="ja">喰付 (くっつき)</span> &bull; three pairs/2–2–2</dt>
 <dd>
-Three pairs from three different months.{%fn%}Also written as <span lang="ja">食付</span>, <span lang="ja">クツッキ</span>, <span lang="ja">三双</span>, <span lang="ja">相合</span>.{%endfn%}
+Three pairs from three different months.[^fn2]
 </dd>
+
+[^fn2]: Also written as <span lang="ja">食付</span>, <span lang="ja">クツッキ</span>, <span lang="ja">三双</span>, <span lang="ja">相合</span>.
 
 <dt><span lang="ja-Latn">teshi</span> &bull; <span lang="ja">手四 (てし)</span>  &bull; four-of-a-kind/4</dt>
 <dd>All four cards of a single month.</dd>
@@ -92,13 +98,17 @@ Three cards of one month, and two pairs from two different months.{%fn%}Also wri
 
 <dt><span lang="ja-Latn">ichi-ni-shi</span> &bull; <span lang="ja">一二四</span> &bull; 1–2–4</dt>
 <dd>
-Four cards of one month, and a pair from another month, along with any other card.{%fn%}Also written <span lang="ja">一弐四</span>, <span lang="ja">一にし</span>.{%endfn%}
+Four cards of one month, and a pair from another month, along with any other card.[^fn3]
 </dd>
+
+[^fn3]: Also written <span lang="ja">一弐四</span>, <span lang="ja">一にし</span>.
 
 <dt><span lang="ja-Latn">shi-sō</span> &bull; <span lang="ja">四三 (しそう)</span> &bull; 4–3</dt>
 <dd>
-All four cards of the same month, and three cards of another month.{%fn%} Also written <span lang="ja">𛁈さう</span>.{%endfn%}
+All four cards of the same month, and three cards of another month.[^fn4]
 </dd>
+
+[^fn4]:  Also written <span lang="ja">𛁈さう</span>.
 
 </dl>
 
@@ -108,27 +118,37 @@ Combinations based upon <span lang="ja-Latn">kasu</span> cards. Remember that al
 
 <dt><span lang="ja-Latn">aka</span> &bull; <span lang="ja">赤 (あか)</span> &bull; ‘red’</dt>
 <dd>
-At least two ribbon cards (despite the name, the colour does not matter), and the rest <span lang="ja-Latn">kasu</span>. Note that this should not be confused with the <span lang="ja-Latn">aka-tan dekiyaku</span>.{%fn%}Also written <span lang="ja">アカ</span>.{%endfn%}
+At least two ribbon cards (despite the name, the colour does not matter), and the rest <span lang="ja-Latn">kasu</span>. Note that this should not be confused with the <span lang="ja-Latn">aka-tan dekiyaku</span>.[^fn5]
 </dd>
+
+[^fn5]: Also written <span lang="ja">アカ</span>.
 
 <dt><span lang="ja-Latn">tan-ichi</span> &bull; <span lang="ja">短一</span> &bull; one ribbon</dt>
 <dd>
-Only one ribbon card, and the rest <span lang="ja-Latn">kasu</span>.{%fn%}Also written <span lang="ja">丹一</span>, <span lang="ja">タン一</span>, <span lang="ja">丹・1</span>.{%endfn%}
+Only one ribbon card, and the rest <span lang="ja-Latn">kasu</span>.[^fn6]
 </dd>
 
+[^fn6]: Also written <span lang="ja">丹一</span>, <span lang="ja">タン一</span>, <span lang="ja">丹・1</span>.
+
 <dt><span lang="ja-Latn">tō-ichi</span> &bull; <span lang="ja">十一</span> &bull; one ten</dt>
-<dd>Only one ten-point card, and the rest <span lang="ja-Latn">kasu</span>.{%fn%}Have seen this written as <span lang="ja">10・一</span>.{%endfn%}</dd>
+<dd>Only one ten-point card, and the rest <span lang="ja-Latn">kasu</span>.[^fn7]</dd>
+
+[^fn7]: Have seen this written as <span lang="ja">10・一</span>.
 
 <dt><span lang="ja-Latn">pika-ichi</span> &bull; <span lang="ja">光一</span> &bull; one bright</dt>
 <dd>
-Only one bright card, and the rest <span lang="ja-Latn">kasu</span>.{%fn%}Also written <span lang="ja">ひかり一</span>, <span lang="ja">ガチャ</span>, <span lang="ja">がちや</span>, <span lang="ja">ピカ・1</span>.{%endfn%}
+Only one bright card, and the rest <span lang="ja-Latn">kasu</span>.[^fn8]
 </dd>
+
+[^fn8]: Also written <span lang="ja">ひかり一</span>, <span lang="ja">ガチャ</span>, <span lang="ja">がちや</span>, <span lang="ja">ピカ・1</span>.
 
 <dt><span lang="ja-Latn">karasu</span> &bull; <span lang="ja">カラス (からす)</span> &bull; all <span lang="ja-Latn">kasu</span></dt>
 <dd>
-A hand consisting of only <span lang="ja-Latn">kasu</span> cards.{%fn%}Also written <span lang="ja">空巣</span>, <span lang="ja">空素</span>, <span lang="ja">空巢</span>.{%endfn%}
+A hand consisting of only <span lang="ja-Latn">kasu</span> cards.[^fn9]
 </dd>
 </dl>
+
+[^fn9]: Also written <span lang="ja">空巣</span>, <span lang="ja">空素</span>, <span lang="ja">空巢</span>.
 
 Thus, the highest-scoring hand possible has both <span
 lang="ja-Latn">shi&shy;sō</span> and <span lang="ja-Latn">karasu</span>; there
@@ -323,7 +343,9 @@ lang="ja-Latn">yoroshi</span>), and <span lang="ja">す𛀙𛂦ら</span> (<span
 lang="ja-Latn">sugawara</span>).
 </Image>
 
-It was also formerly known as {%pronounce lang="ja-Latn" word="ura-sugawara" file="pronunciation_ja_裏菅原.mp3" pronouncer="mezashi" %} (<span lang="ja">裏菅原</span>, ‘behind/inside <span class="noun" lang="ja-Latn">Sugawara</span>’) or <span lang="ja-Latn">urasu</span> for short.{%fn%}Other spellings of <span lang="ja-Latn">urasu</span> (<span lang="ja">うらす</span>) include <span lang="ja">裏</span>, <span lang="ja">裏す</span>, <span lang="ja">宇良す</span>, or <span lang="ja">𛀋らす</span>.{%endfn%} This name was a reference to the popular <span lang="ja-Latn">kabuki</span> play <cite>{% pronounce lang="ja-Latn" word="Sugawara Denju Tenarai Kagami" file="pronunciation_ja_菅原伝授手習鑑.mp3" pronouncer="jinyamai" %}</cite> (<span lang="ja">菅原伝授手習鑑</span>, ‘<cite>Sugawara and the Secrets of Calligraphy</cite>’). In the play the three main characters are brothers who are named after the three plants featured on the cards: {%pronounce noun=true lang="ja-Latn" word="Matsuōmaru" pronouncer="mezashi" file="pronunciation_ja_松王丸.mp3" %} (<span lang="ja">松王丸</span>, pine), {%pronounce noun=true lang="ja-Latn" word="Umeōmaru" pronouncer="mezashi" file="pronunciation_ja_梅王丸.mp3" %} (<span lang="ja">梅王丸</span>, plum), and {%pronounce noun=true lang="ja-latn" word="Sakuramaru" file="pronunciation_ja_桜丸.mp3" pronouncer="mezashi" %} (<span lang="ja">桜丸</span>, cherry). In the play the brothers wear costumes which bear symbols of the plants related to their names.
+It was also formerly known as <Pronounce lang="ja-Latn"  file="pronunciation_ja_裏菅原.mp3" pronouncer="mezashi">ura-sugawara</Pronounce> (<span lang="ja">裏菅原</span>, ‘behind/inside <span class="noun" lang="ja-Latn">Sugawara</span>’) or <span lang="ja-Latn">urasu</span> for short.[^fn10] This name was a reference to the popular <span lang="ja-Latn">kabuki</span> play <cite><Pronounce lang="ja-Latn"  file="pronunciation_ja_菅原伝授手習鑑.mp3" pronouncer="jinyamai">Sugawara Denju Tenarai Kagami</Pronounce></cite> (<span lang="ja">菅原伝授手習鑑</span>, ‘<cite>Sugawara and the Secrets of Calligraphy</cite>’). In the play the three main characters are brothers who are named after the three plants featured on the cards: <Pronounce noun=true lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_松王丸.mp3">Matsuōmaru</Pronounce> (<span lang="ja">松王丸</span>, pine), <Pronounce noun=true lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_梅王丸.mp3">Umeōmaru</Pronounce> (<span lang="ja">梅王丸</span>, plum), and <Pronounce noun=true lang="ja-latn"  file="pronunciation_ja_桜丸.mp3" pronouncer="mezashi">Sakuramaru</Pronounce> (<span lang="ja">桜丸</span>, cherry). In the play the brothers wear costumes which bear symbols of the plants related to their names.
+
+[^fn10]: Other spellings of <span lang="ja-Latn">urasu</span> (<span lang="ja">うらす</span>) include <span lang="ja">裏</span>, <span lang="ja">裏す</span>, <span lang="ja">宇良す</span>, or <span lang="ja">𛀋らす</span>.
 
 The <span lang="ja-Latn">yaku</span> can also be called <span lang="ja-Latn">yoroshī</span> (<span lang="ja">よろしい</span>, ‘good’) or <span lang="ja-Latn">akayoro</span> (<span lang="ja">赤よろ</span>, ‘red good’), or even simply <span lang="ja-Latn">aka</span> (<span lang="ja">緋</span>, ‘scarlet’), although this risks confusion with the <span lang="ja-Latn">aka teyaku</span>.
 

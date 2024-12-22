@@ -5,7 +5,7 @@ originalTitle: <span lang="ja">カックリ</span>
 ---
 
 <p class="lead">
-{%pronounce pronouncer="strawberrybrown" word="Kakkuri" lang="ja-Latn" file='pronunciation_ja_がっくり.mp3' %} (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.[@KakkuriYomi] In 2005, it was still played in the town of <span class="noun" lang="ja-Latn">Yafune</span>, part of the city of <a href="https://en.wikipedia.org/wiki/Echizen,_Fukui"><span class="noun" lang="ja-Latn">Echizen</span>, <span class="noun" lang="ja-Latn">Fukui</span> prefecture</a> (<span lang="ja">福井県越前市矢船町</span>).
+<Pronounce pronouncer="strawberrybrown"  lang="ja-Latn" file='pronunciation_ja_がっくり.mp3'>Kakkuri</Pronounce> (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.[@KakkuriYomi] In 2005, it was still played in the town of <span class="noun" lang="ja-Latn">Yafune</span>, part of the city of <a href="https://en.wikipedia.org/wiki/Echizen,_Fukui"><span class="noun" lang="ja-Latn">Echizen</span>, <span class="noun" lang="ja-Latn">Fukui</span> prefecture</a> (<span lang="ja">福井県越前市矢船町</span>).
 </p>
 
 ## Equipment

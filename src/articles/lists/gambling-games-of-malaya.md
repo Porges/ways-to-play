@@ -1,6 +1,8 @@
 ---
 title: Gambling Games of Malaya (1955)
 order: 1955
+date created: 2024-12-18
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -15,13 +17,13 @@ The games listed in the book are as follows.
 
 **Lottery games:**
 
-- Chee Fah, Hwah Hwey, or 36 Numbers ({% gameref huahui %})
+- Chee Fah, Hwah Hwey, or 36 Numbers ([huahui](games/huahui/huahui.md))
 - Whay
 - Chee Tam, or 80 Characters
 - Chap Ji Kee
 - Sap Sam Tai Poh
 - Wee Sua Peow, Wei San Piew, Tong Sua Peow, or Quay Sua Peow
-- Pak Kap Piew, or Pigeon Lottery ({% gameref pigeon-lottery %})
+- Pak Kap Piew, or Pigeon Lottery ([The Pigeon Lottery](games/pigeon-lottery/pigeon-lottery.md))
 - Tikam Ekor, or the 100, 1,000, 10,000 number games
 
 **Games with cards:**
@@ -54,25 +56,25 @@ The games listed in the book are as follows.
 
 **Dice games:**
 
-- Yew Yee Sam, or One Two Three (mentioned in {%gameref crown-and-anchor %})
+- Yew Yee Sam, or One Two Three (mentioned in [Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md))
 - Tai Sai or Big and Small (simple version)
-- Luk Kow or Dicing Six ({%gameref cee-lo %})
+- Luk Kow or Dicing Six ([Cee-Lo](games/cee-lo/cee-lo.md))
 - Sepat
 - Ta Kai or Cockfighting
 - Chong Yuen Chow
 - Sek Poh
 - Sek Chai Tan or Kok Kok
 - Tai Sai or Big and Small (staking board version)
-- Hoo, Hey, How ({%gameref crown-and-anchor %})
+- Hoo, Hey, How ([Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md))
 
 **Miscellaneous games:**
 
 - Chap Ji Kee Pangjang
 - Daun Empat or See Kee Yah
-- Fan Tan or Tuahn ({%gameref fan-tan %})
-- Poh, Lien Poh, or Ewok ({%gameref lien-poh %})
+- Fan Tan or Tuahn ([Fan-Tan](games/fan-tan/fan-tan.md))
+- Poh, Lien Poh, or Ewok ([Lián Pó](games/lien-poh/lien-poh.md))
 - Pek Bin
-- Belankai ({%gameref belangkai%})
+- Belankai ([Belangkai](games/belangkai/belangkai.md))
 - Dadu Katak Ular
 - Dadu Muka Enam
 - Dadu Belankas Mata

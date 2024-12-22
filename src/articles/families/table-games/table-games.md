@@ -4,23 +4,28 @@ draft: true
 order: 390
 aliases:
   - table game
+date created: 2024-12-18
+date modified: 2024-12-22
 ---
 
-<Image src="table_empty.svg" alt="">
-An empty tables board.
-</Image>
+> [!figure]
+>
+> ![](table_empty.svg)
+>
+> An empty tables board.
 
-<Image src="backgammon_labelled.svg" alt="">
-The parts of the board and direction of play.
-</Image>
+> [!figure]
+>
+> ![](backgammon_labelled.svg)
+>
+> The parts of the board and direction of play.
 
 ## Nomenclature
 
 Hyde has a good list: https://play.google.com/books/reader?id=8rBAAAAAcAAJ&pg=GBS.PA8&hl=en
 
-{%aside%}
-For citations below regarding @Hyde2, note that page 9 is misnumbered as “6”.
-{%endaside%}
+> [!aside]
+> For citations below regarding @Hyde2, note that page 9 is misnumbered as “6”.
 
 Points of the board:
 - Arabic: <span lang="ar">بيوت</span> (<span lang="ar-Latn">buyūt</span>) ‘houses’, singular <span lang="ar">بيت</span> (<span lang="ar-Latn">bayt</span>)[@Hyde2 p. 9]
@@ -31,7 +36,7 @@ Points of the board:
 
 ## Games
 
-The primary game of this family is {%gameref backgammon%}.
+The primary game of this family is [Backgammon](games/backgammon/backgammon.md).
 
 ### Bearing-off games
 
@@ -39,14 +44,14 @@ These are simple games where the goal is to bear-off all of
 one’s pieces. There is no hitting.
 
 - Doublets [@OxfordBG p. 75]
-- {%gameref eureka%}
-- {%gameref yahudiyya%}
+- [Eureka](games/eureka/eureka.md)
+- [Yahūdiyya](games/yahudiyya/yahudiyya.md)
 
 ### Bearing-on games
 
 The opposite of bearing-on games.
 
-- {%gameref twelve-dogs%}
+- [Twelve Dogs](games/twelve-dogs/twelve-dogs.md)
 
 ### Unknown games
 
@@ -56,8 +61,11 @@ Some Chinese games with unknown rules, mentioned by the Tang scholar Li Zhao (<s
 - <span lang="zh">大點</span> <span lang="cmn-Latn-pinyin">dà diǎn</span> ‘big points’
 - <span lang="zh">小雙陸</span> <span lang="cmn-Latn-pinyin">xiǎo shuāng lù </span> ‘lesser double six’
 - <span lang="zh">小點</span> <span lang="cmn-Latn-pinyin">xiǎo diǎn</span> ‘small points’
-- <span lang="zh">握槊</span> <span lang="cmn-Latn-pinyin">wò shuò</span> ‘holding spears’{%fn%}Sometimes[@DoubleSixes][@BettingOnEmpire p. 39] reported as <span lang="zh">握槃</span> <span lang="cmn-Latn-pinyin">wò pán</span>.{%endfn%}
+- <span lang="zh">握槊</span> <span lang="cmn-Latn-pinyin">wò shuò</span> ‘holding spears’[^fn0]
 - <span lang="zh">遊談</span> <span lang="cmn-Latn-pinyin">yóu tán</span> ‘chatting through playing?’
 - <span lang="zh">長行</span> <span lang="cmn-Latn-pinyin">cháng xíng</span> ‘long march’
 - <span lang="zh">雙陸</span> <span lang="cmn-Latn-pinyin">shuāng lù</span> ‘double six’
 - <span lang="zh">鳳翼</span> <span lang="cmn-Latn-pinyin">fèng yì</span> ‘phoenix wing’
+
+
+[^fn0]: Sometimes[@DoubleSixes][@BettingOnEmpire p. 39] reported as <span lang="zh">握槃</span> <span lang="cmn-Latn-pinyin">wò pán</span>.

@@ -1,11 +1,12 @@
 ---
 title: Thomas Middleton’s <cite>The Inner-Temple Masque</cite> (1619)
 order: 1619
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
-{/*
-With explanations:
-https://archive.org/details/cu31924013133453/page/n217/mode/2up?q=%22sow+has+pigged%22
-*/}
+
+> [!todo]
+>  With explanations: https://archive.org/details/cu31924013133453/page/n217/mode/2up?q=%22sow+has+pigged%22
 
 <p class="lead"><a href="https://en.wikipedia.org/wiki/Thomas_Middleton">Thomas Middleton</a>’s <cite>The
 Inner-Temple Masque, or Masque of Heroes</cite> features a scene in which a
@@ -14,7 +15,7 @@ that were current at the time.[@InnerTempleMasque]</p>
 
 The will is read aloud while the character “Plum” interjects:
 
-> **The last WILL and TESTAMENT of KERSMAS,**{%fn%}i.e., Christmas{%endfn%} **Irreuocable. Read;**
+> **The last WILL and TESTAMENT of KERSMAS,**[^fn0] **Irreuocable. Read;**
 >
 > IN *primis* I giue and bequeath to my second Sonne
 > *In*, and *In*; his perpetuall Lodging i’the Kingsbench,
@@ -52,11 +53,7 @@ The will is read aloud while the character “Plum” interjects:
 > They wil be good ware in Lent, when flesh
 > is forbid by Proclamation.
 > 
-> *Item*, I giue to my Nephew *Gambols*,{%fn%}This is possibly a reference to Ben
-> Jonson’s [<cite>Christmas, His
-> Masque</cite>](https://www.hymnsandcarolsofchristmas.com/Poetry/christmas_his_masque.htm)
-> (1616), where ten children of Christmas are named, “Gamboll” amongst
-> them.{%endfn%} commonly cald by the name of *Kersmas Gambols*, all my
+> *Item*, I giue to my Nephew *Gambols*,[^jonson] commonly cald by the name of *Kersmas Gambols*, all my
 > *Cattle*, *Horse* and *Mare*, but let him shooe 'em himselfe.
 >
 > Plum.
@@ -68,17 +65,21 @@ The will is read aloud while the character “Plum” interjects:
 > *English-Beere*: and lastly, I haue giuen by word of
 > mouth, to poore Blind man *Buffe*, a flap with a Foxetayle.
 
+[^fn0]: i.e., Christmas
+
+[^jonson]: This is possibly a reference to Ben Jonson’s [<cite>Christmas, His Masque</cite>](https://www.hymnsandcarolsofchristmas.com/Poetry/christmas_his_masque.htm) (1616), where ten children of Christmas are named, “Gamboll” amongst them.
+
 The games listed are:
 
 <dl>
-<dt>In, and In</dt><dd>a dice game: {%gameref in-and-in %}</dd>
+<dt>In, and In</dt><dd>a dice game: [In and In](games/in-and-in/in-and-in.md)</dd>
 <dt>Gleeke</dt><dd></dd>
 <dt>Priministe</dt><dd></dd>
 <dt>Noddie</dt><dd>a predecessor of cribbage</dd>
 <dt>One and Thirtie</dt><dd></dd>
 <dt>Tickle Mee Quickly</dt><dd>a card game</dd>
-<dt>My Ladies Hole</dt><dd>a card game: {%gameref my-ladys-hole %}</dd>
-<dt>My Sow Has Pigd</dt><dd>a card game: {%gameref my-sow-pigged%}</dd>
-<dt>Shooe the Mare</dt><dd>a physical game: {%gameref shoe-the-mare %}</dd>
+<dt>My Ladies Hole</dt><dd>a card game: [My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)</dd>
+<dt>My Sow Has Pigd</dt><dd>a card game: [My Sow (Has) Pigged](games/my-sow-pigged/my-sow-pigged.md)</dd>
+<dt>Shooe the Mare</dt><dd>a physical game: [Shoe the Mare](games/shoe-the-mare/shoe-the-mare.md)</dd>
 <dt>Blind Man Buffe</dt><dd></dd>
 </dl>

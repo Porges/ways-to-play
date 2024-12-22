@@ -9,7 +9,7 @@ countries: UK,FR,DE
 This gambling dice game was popular from the 16th to 18th centuries, especially in France, where it was called <span lang="fr" class="aka noun">Quinque-nove</span>.[@EssayDAnalyse p. 173] In English sources it is sometimes simply called <span class="aka">Novum</span>, otherwise <span class="aka">Novum Quinque</span>, or <span class="aka">Quinque Nove</span>.
 </p>
 
-The name of the game comes from the Latin words for five (<span lang="la">quinque</span>) and nine (<span lang="la">novem</span>), which are the losing throws in the game. It is mentioned as “Nouem Quinque” in a list of games from 1579,[@Cyuile p. 56] and  referenced by Shakespeare as “Novum” in [<cite>Love’s Labour’s Lost</cite>](https://en.wikipedia.org/wiki/Love%27s_Labour%27s_Lost) ({%c%} 1598):
+The name of the game comes from the Latin words for five (<span lang="la">quinque</span>) and nine (<span lang="la">novem</span>), which are the losing throws in the game. It is mentioned as “Nouem Quinque” in a list of games from 1579,[@Cyuile p. 56] and  referenced by Shakespeare as “Novum” in [<cite>Love’s Labour’s Lost</cite>](https://en.wikipedia.org/wiki/Love%27s_Labour%27s_Lost) (<abbr>c.</abbr> 1598):
 
 > **Lord Berowne**: The pedant, the braggart, the hedge-priest, the fool, and the boy.<br/>
 > Abate throw at novum, and the whole world again<br/>
@@ -32,7 +32,9 @@ And will rhyme in my Alcove.
 </p>
 </div>
 
-The game was expressly prohibited in France by Louis <span class="rnum">XIV</span>, on the 21st April 1665.[@Jurisprudence5 p. 272] Despite this ban, in January 1741 Louis <span class="rnum">XV</span> gifted a box with a depiction of the game on it to the 15-year-old Madame d’Antin (who would later be his mistress for a short period);[@MarieFrançois] this game and <span lang="fr">cavagnole</span> were apparently her favourites.[@MemoiresSurLaCour3 p. 298]{%fn%}Marie-François is now most famous for [her portrait painted by Jean-Marc Nattier](https://en.wikipedia.org/wiki/Portrait_of_Mathilde_de_Canisy,_Marquise_d%27Antin).{%endfn%}
+The game was expressly prohibited in France by Louis <span class="rnum">XIV</span>, on the 21st April 1665.[@Jurisprudence5 p. 272] Despite this ban, in January 1741 Louis <span class="rnum">XV</span> gifted a box with a depiction of the game on it to the 15-year-old Madame d’Antin (who would later be his mistress for a short period);[@MarieFrançois] this game and <span lang="fr">cavagnole</span> were apparently her favourites.[@MemoiresSurLaCour3 p. 298][^fn0]
+
+[^fn0]: Marie-François is now most famous for [her portrait painted by Jean-Marc Nattier](https://en.wikipedia.org/wiki/Portrait_of_Mathilde_de_Canisy,_Marquise_d%27Antin).
 
 Later in England, it was prohibited by a proclamation of George <span class="rnum">II</span> in 1741.[@SaturdaysPost1741] By 1806 the game was described as “little used” (<span lang="pt">pouco usados</span>) in Portugal.[@AcademiaDosJogos4 p. 136]
 {/*
@@ -47,7 +49,9 @@ https://archive.org/details/posiesdefran01sara/page/266/mode/2up?q=%22quinque+no
 
 ## Play
 
-One player is chosen to be the first thrower, the other players place their bets (which will be matched 1:1 by the thrower), and the thrower rolls two dice. The thrower loses the bets on a dice total of 5 or 9 (8 of the 36 possible combinations), and wins on 3, 11, or a doublet (10 of 36).{%fn%}In French, throws of 3 or 11 were the <span lang="fr">hasards</span>.[@Littre2 1987]{%endfn%}
+One player is chosen to be the first thrower, the other players place their bets (which will be matched 1:1 by the thrower), and the thrower rolls two dice. The thrower loses the bets on a dice total of 5 or 9 (8 of the 36 possible combinations), and wins on 3, 11, or a doublet (10 of 36).[^fn1]
+
+[^fn1]: In French, throws of 3 or 11 were the <span lang="fr">hasards</span>.[@Littre2 1987]
 
 On any other result (non-doublet 4, 6, 7, 8, or 10), a target number or **chance** is established. The roller then rolls repeatedly until they roll the chance number, in which case they win, or they roll 5 or 9, in which case they lose.
 

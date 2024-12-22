@@ -1,6 +1,8 @@
 ---
 title: Traversal Games
 order: 400
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">A traversal game is a type of board game where the goal is to move your pieces
@@ -9,8 +11,8 @@ board. Capture of pieces is not usually a feature of these types of games.</p>
 
 ## Games
 
-The most famous example of this kind of game is probably {% gameref halma %}, or
-especially one of its descendents, such as “Chinese Checkers”.
+The most famous example of this kind of game is probably [Halma](games/halma/halma.md), or
+especially one of its descendants, such as “Chinese Checkers”.
 
 Other examples are:
 * Barricade
@@ -18,10 +20,10 @@ Other examples are:
 * Colorado  [@OxfordBG p. 137]
 * <span lang="fr">Conspirateurs</span>  [@NewRules p. 111]
 * Conquest [@OxfordBG p. 142]
-* {% gameref cetro %}
-* {% gameref epaminondas %}
-* {% gameref five-field-gonu %}
-* {% gameref halma %}
+* [Cetro](games/cetro/cetro.md)
+* [Epaminondas](games/epaminondas/epaminondas.md)
+* [Five Field Gonu](games/five-field-gonu/five-field-gonu.md)
+* [Halma](games/halma/halma.md)
 * Jumpin
 * Pasta  [@OxfordBG p. 139–40]
 * Permutations  [@OxfordBG p. 136–7]

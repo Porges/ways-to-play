@@ -24,7 +24,7 @@ lang="el-polyton">σχοινοφῖλίνδᾶ</span>){%fn%}Also written <span
 lang="el-monoton">σχοινοφιλίνδα</span> or <span
 lang="el-monoton">σχοινοβιλίνδα</span>.[@GreekEnglishLexicon p. 1459]{%endfn%}
 in his proto-encyclopædia <cite>Onomasticon</cite> (<span
-lang="el-polyton">Ὀνομαστικὸν</span>, {%c%} 200 {%ce%}):
+lang="el-polyton">Ὀνομαστικὸν</span>, <abbr>c.</abbr> 200 <abbr>CE</abbr>):
 
 Ή δέ σχοινοφιλίνδα, κάθηται κύκλος, είς δέ σχοινίον έχων λαθών παρά τω τίθησι·
 κάν μέν άγνοήση έκενος παρ' ώ κεϊται, περιθέων περί τον κύκλον τύπτεται, εί δέ

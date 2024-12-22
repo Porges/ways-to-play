@@ -10,7 +10,9 @@ countries: UK
 
 ## Accounts
 
-In 1616 it appears in [Ben Johnson](https://en.wikipedia.org/wiki/Ben_Jonson)’s masque [<cite>Love Restored</cite>](https://en.wikipedia.org/wiki/Love_Restored):[@BenJonson1616 990]{%fn%}In some later editions this mistakenly appears as “shooting the wild Mare”.[@BenJonson1716_3]{%endfn%}
+In 1616 it appears in [Ben Johnson](https://en.wikipedia.org/wiki/Ben_Jonson)’s masque [<cite>Love Restored</cite>](https://en.wikipedia.org/wiki/Love_Restored):[@BenJonson1616 990][^fn0]
+
+[^fn0]: In some later editions this mistakenly appears as “shooting the wild Mare”.[@BenJonson1716_3]
 
 > Are these your court-sports ! would I had kept me to my gamboles o’ the countrey still, selling of fish, short service, shooing the wild mare, or rosting of Robin red-brest.
 
@@ -27,7 +29,9 @@ That young men have to shooe the <em>Mare</em>:
 </p>
 </blockquote>
 
-In [Nicholas Breton](https://en.wikipedia.org/wiki/Nicholas_Breton)’s @Fantasticks [17], it is mentioned in the section on Christmas:{%fn%}Although in the later reworking @TwelveMoneths [4], it is mentioned under the chapter for January, as part of the [twelve days of Christmas](https://en.wikipedia.org/wiki/Twelve_Days_of_Christmas).{%endfn%}
+In [Nicholas Breton](https://en.wikipedia.org/wiki/Nicholas_Breton)’s @Fantasticks [17], it is mentioned in the section on Christmas:[^fn1]
+
+[^fn1]: Although in the later reworking @TwelveMoneths [4], it is mentioned under the chapter for January, as part of the [twelve days of Christmas](https://en.wikipedia.org/wiki/Twelve_Days_of_Christmas).
 
 > It is now Christmas, and not a Cup of Drinke must passe without a Caroll, the Beasts, Fowls, and Fish, come to a generall execution, and the Corne is ground to dust for the Bakehouse, and the Pastry: Cards and Dice purge many a purse, and the Youth shew their agility in shooing of the wild Mare: now good cheere and welcome, and God be with you, and I thank you: and against the new yeare, provide for the presents: the Lord of Mis-rule is no meane man for his time, and the ghests of the high Table must lacke no Wine: the lusty bloods must looke about them like men, and piping and dauncing puts away much melancholy: […]
 
@@ -51,7 +55,9 @@ For Man, or Woman, care not of a <em>Turd</em>,<br/>
 &emsp;&emsp;&emsp;But their own <em>Masters</em>.</p>
 </blockquote>
 
-An old nursery rhyme of unknown date runs:[@GammerGurtonsGarland 52]{%fn%}[John Bellenden Ker](https://en.wikipedia.org/wiki/John_Bellenden_Ker_Gawler) gives a masterfully absurd interpretation of this poem as a heathen Saxon invection against Catholic monks, see: @AoPPSupplement [257].{%endfn%}
+An old nursery rhyme of unknown date runs:[@GammerGurtonsGarland 52][^fn2]
+
+[^fn2]: [John Bellenden Ker](https://en.wikipedia.org/wiki/John_Bellenden_Ker_Gawler) gives a masterfully absurd interpretation of this poem as a heathen Saxon invection against Catholic monks, see: @AoPPSupplement [257].
 
 <blockquote>
 <p>Shoe the colt,<br/>

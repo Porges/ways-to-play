@@ -3,6 +3,8 @@ title: Tribord et Bâbord
 titleLang: fr
 mainImage: 'TribordBoard.png'
 players: 2
+date created: 2024-12-18
+date modified: 2024-12-22
 ---
 
 <p class="lead">The French game of <span class="noun" lang="fr">Tribord et Bâbord</span> (‘Starboard and
@@ -12,11 +14,7 @@ Port’) is a 19th-century dice gambling game for two players.</p>
 
 ## Equipment
 
-{%pronounce noun=true lang="fr" word="Tribord et Bâbord"
-file="pronunciation_fr_tribord_et_bâbord.mp3" pronouncer="Pat91" %} is played
-using a board and a single die, and six tokens to mark the spaces on the board.
-The board contains six symbols, which are also printed on the die. These are
-similar to those used in the game of {% gameref crown-and-anchor %}.
+<Pronounce noun=true lang="fr" file="pronunciation_fr_tribord_et_bâbord.mp3" pronouncer="Pat91">Tribord et Bâbord</Pronounce> is played using a board and a single die, and six tokens to mark the spaces on the board. The board contains six symbols, which are also printed on the die. These are similar to those used in the game of [Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md).
 
 <Image 
     src='./TribordBoard.png'
@@ -25,9 +23,7 @@ similar to those used in the game of {% gameref crown-and-anchor %}.
 The board for  <span class="noun" lang="fr">Tribord et Bâbord</span>
 </Image>
 
-The game was published by the <span class="noun" lang="fr">L. Saussine</span> company of
-Paris in 1880 (printed by <span class="noun" lang="fr">Roche</span> and illustrated by a
-<span class="noun" lang="fr">B. Coudert</span>).[@BibliographieDeLaFrance69 p. 227]
+The game was published by the <span class="noun" lang="fr">L. Saussine</span> company of Paris in 1880 (printed by <span class="noun" lang="fr">Roche</span> and illustrated by one <span class="noun" lang="fr">B. Coudert</span>).[@BibliographieDeLaFrance69 p. 227]
 
 ## Play
 
@@ -46,13 +42,13 @@ symbol can only be marked off once.
 The first time a player marks off one of their symbols, their opponent pays them
 1× the stake, the second time (called {%pronounce lang="fr" word="radoub"
 pronouncer="marois" %}, ‘refitting’ the ship), they are paid 2×, and the third
-time (called the {%pronounce lang="fr" word="prise" pronouncer="spl0uf" %},
+time (called the <Pronounce lang="fr"  pronouncer="spl0uf">prise</Pronounce>,
 ‘capture’), they win 4× the stake.
 
 If they roll a symbol that is already marked off, they are paid 1× the stake.
 
 Each time they roll one of their opponent’s symbols, they pay them 1× the stake
-(this is called the {%pronounce lang="fr" word="écueil" pronouncer="spl0uf" %},
+(this is called the <Pronounce lang="fr"  pronouncer="spl0uf">écueil</Pronounce>,
 ‘reef’).
 
 If a player doesn’t manage to roll a single one of their own symbols in their
@@ -66,5 +62,4 @@ lang="fr">prise</span> by marking off all the symbols on their side.
 
 ## See also
 
-{% gameref crown-and-anchor %} uses a similar board, and was perhaps the
-inspiration for this game.
+[Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md) uses a similar board, and was perhaps the inspiration for this game.

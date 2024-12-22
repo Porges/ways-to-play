@@ -12,7 +12,7 @@ hero:
   license: "with-permission"
   originalUrl: "https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624"
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2024-12-22
 ---
 
 <Image src="../../maps/Morabaraba.svg" alt="A map showing Botswana, Lesotho, Mozambique, and South Africa." position="aside" noborder=true size="small" %}
@@ -38,7 +38,9 @@ A game of <span class="noun" lang="st">Morabaraba</span> being played.
 
 ## History
 
-Surprisingly, unlike most board games we know who was responsible for transmitting the game from Europe:[@MkeleMorabaraba p.  134][@FromBearnToSouthernAfrica p. 79] it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis, a French protestant missionary who acted as Foreign Advisor to [King Moshoeshoe I](https://en.wikipedia.org/wiki/Moshoeshoe_I) for nearly two decades.{%fn%}Casalis is also sometimes also referred to as Cazalis in English sources. Upon his return to France he wrote about his experiences in @LesBassoutos (later published in English as @TheBasutos), but the book contains no mention of any board games. There is now [a roundabout](https://goo.gl/maps/jymZMMft3fB2) in his home town, <span class="noun" lang="fr">Orthez</span>, [named after him](http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php).{%endfn%} The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.[@FromBearnToSouthernAfrica p. 79] Obsession with the game also led herders to neglect their flocks,[@FromBearnToSouthernAfrica p. 79] so it became known by the epithet <span lang="st" class="aka">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌[@BasothoChildren p. 41] “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌[@TheWorldAndCattle p. 56]
+Surprisingly, unlike most board games we know who was responsible for transmitting the game from Europe:[@MkeleMorabaraba p.  134][@FromBearnToSouthernAfrica p. 79] it was introduced to Lesotho—then called Basutoland—some time between 1832 and 1855 by Eugène Casalis, a French protestant missionary who acted as Foreign Advisor to [King Moshoeshoe I](https://en.wikipedia.org/wiki/Moshoeshoe_I) for nearly two decades.[^fn0] The introduction of the game had unintended consequences for the mission: young men preferred to play the game rather than attend mass.[@FromBearnToSouthernAfrica p. 79] Obsession with the game also led herders to neglect their flocks,[@FromBearnToSouthernAfrica p. 79] so it became known by the epithet <span lang="st" class="aka">sethetsabadisana</span> ‘deceiver of the herd-boys’:‌[@BasothoChildren p. 41] “for when you play it, old or young, you forget your herds, and they wander into the corn…”‌[@TheWorldAndCattle p. 56]
+
+[^fn0]: Casalis is also sometimes also referred to as Cazalis in English sources. Upon his return to France he wrote about his experiences in @LesBassoutos (later published in English as @TheBasutos), but the book contains no mention of any board games. There is now [a roundabout](https://goo.gl/maps/jymZMMft3fB2) in his home town, <span class="noun" lang="fr">Orthez</span>, [named after him](http://www.larepubliquedespyrenees.fr/2013/02/16/un-nom-pour-les-ronds-points-la-gare-routiere-et-la-rocade,1118172.php).
 
 The game was also popular amongst Basotho men who travelled to South Africa to work in its mines. References to <span class="noun" lang="st">Morabaraba</span> can be found in <span lang="st">difela</span>/<span lang="st">lifela</span> (singular <span lang="st">sefela</span>), song–poems that were sung by these migrant workers.[@BasothoOralPoetry pp. 17, 175, 229][@TimeOfCannibals pp. 98–101]
 
@@ -59,9 +61,8 @@ atop a sandstone plateau.
 
 ## Terminology
 
-{%aside%}
-Note that in Sesotho, isiXhosa, and Setswana, Um-/Mo-rabaraba can also be used to refer to the game of {%gameref draughts%}.[@MultilingualIllustrated p. 275]
-{%endaside%}
+> [!aside]
+>  Note that in Sesotho, isiXhosa, and Setswana, Um-/Mo-rabaraba can also be used to refer to the game of [Draughts](games/draughts/draughts.md).[@MultilingualIllustrated p. 275]
 
 The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small circles’,[@SeSothoDictionary p. 304] so could refer to the action of a mill.‌ In Nguni languages (isiZulu, isiXhosa), it is known as <span class="noun aka" lang="zu">(Um)labalaba</span>, with similar meaning,‌[@GamesBasotho pp. 247–50] and in Ronga, spoken in Mozambique, it is called <span class="noun aka" lang="rng">Muravarava</span>.
 
@@ -76,15 +77,16 @@ The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and
 Two Lesotho herdsmen carrying staffs. What appear to be caps are rolled-up balaclava: most of Lesotho is above 1&#x202f;800&nbsp;m, so it is cooler than many neighbouring countries.
 </Image>
 
-{%aside%}
-There are two different [Sesotho orthographies](https://en.wikipedia.org/wiki/Sesotho_orthography). In this article I give the South African one first, followed by the Lesotho.
-{%endaside%}
+> [!aside]
+> There are two different [Sesotho orthographies](https://en.wikipedia.org/wiki/Sesotho_orthography). In this article I give the South African one first, followed by the Lesotho.
 
 There are other names which are probably derived from the European name of ‘mill’:‌[@MkeleMorabaraba p. 134] an alternate Sesotho name is <span lang="st" class="aka">mmila</span>/<span lang="st" class="aka">’mila</span>, ‘road’.‌[@UsingGamesToPromote p. 283] This is also sometimes given as <span lang="st" class="aka">mmela</span>.[@IncorporatingTheIndigenous p. 378]
 
-In some places, the name <span lang="tn">morabaraba</span> refers solely to a mancala game, and the board game goes by other names. This is the case in Botswana,[@CulturalGamesBotswana] where it is called <span lang="tn" class="aka">mohele</span> or <span lang="tn" class="aka">mhele</span> in Setswana (‘reedbuck’[@OldTswana p. 350] or ‘grey rhebuck’,[@SetswanaEnglishAfrikaans p. 92] a type of antelope), and also the neighbouring South African province [Limpopo](https://en.wikipedia.org/wiki/Limpopo), where it is called <span class="aka" lang="nso">mmela</span> (possibly in sePedi).{%fn%}Because of the large overlap of names, in written descriptions <span class="noun" lang="st">Morabaraba</span> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, @MorabarabaGetOnBoard).{%endfn%} In other places, the same name is used to refer to both the board game and the mancala game; the [Lozi people](https://en.wikipedia.org/wiki/Lozi_people) refer to both as <span lang="loz" class="aka">mulabalaba</span>.[@MancalaNorthernRhodesia 170]
+In some places, the name <span lang="tn">morabaraba</span> refers solely to a mancala game, and the board game goes by other names. This is the case in Botswana,[@CulturalGamesBotswana] where it is called <span lang="tn" class="aka">mohele</span> or <span lang="tn" class="aka">mhele</span> in Setswana (‘reedbuck’[@OldTswana p. 350] or ‘grey rhebuck’,[@SetswanaEnglishAfrikaans p. 92] a type of antelope), and also the neighbouring South African province [Limpopo](https://en.wikipedia.org/wiki/Limpopo), where it is called <span class="aka" lang="nso">mmela</span> (possibly in sePedi).[^fn1] In other places, the same name is used to refer to both the board game and the mancala game; the [Lozi people](https://en.wikipedia.org/wiki/Lozi_people) refer to both as <span lang="loz" class="aka">mulabalaba</span>.[@MancalaNorthernRhodesia 170]
 
-A distinctive feature of this game is its bovine theme: the pieces are usually called ‘cows’. In Sesotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌[@UseOfMorabara p. 588] in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). In isiZulu a mill is a {% pronounce pronouncer="Lungii" word="isibhamu" lang="zu" %} (‘gun’), which allows you to “shoot” an opponent’s cow, while in Sesotho the mill is called a <span lang="st">molamu</span> (a staff carried by shepherds), and you can eat (<span lang="st">ja</span>) a cow.[@BasothoChildren p. 36]
+[^fn1]: Because of the large overlap of names, in written descriptions <span class="noun" lang="st">Morabaraba</span> is often confused with or included in lists of other mancala games, such as <span lang="ve">mefuvha</span> (from Limpopo) or <span lang="sn">tsoro</span> (from Mozambique/Zimbabwe) (see, for example, @MorabarabaGetOnBoard).
+
+A distinctive feature of this game is its bovine theme: the pieces are usually called ‘cows’. In Sesotho this is <span lang="st">dikgomo</span>/<span lang="st">likhomo</span> (singular <span lang="st">kgomo</span>/<span lang="st">khomo</span>);‌[@UseOfMorabara p. 588] in isiZulu it is <span lang="zu">izinkomo</span> (singular <span lang="zu">inkomo</span>). In isiZulu a mill is a <Pronounce pronouncer="Lungii"  lang="zu">isibhamu</Pronounce> (‘gun’), which allows you to “shoot” an opponent’s cow, while in Sesotho the mill is called a <span lang="st">molamu</span> (a staff carried by shepherds), and you can eat (<span lang="st">ja</span>) a cow.[@BasothoChildren p. 36]
 
 ## Play
 

@@ -3,6 +3,8 @@ title: Horseshoe
 players: 2
 equipment: Board game (simple equipment)
 countries: CN,IN,KR,TH,MN,MY
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 
@@ -28,7 +30,7 @@ In English the game has no standard name, not being widespread, but it has been 
 
 In Cantonese it is called ‘cleft lip game’ (<span lang="yue" class="aka">崩口棋</span> <span lang="yue-Latn-jyutping" class="aka">bong¹ hau² kei⁴</span>),[@KoreanGames p.  100][@PangHauKiImage]{%fn%}In older books (such as Culin’s) this is transliterated as <span lang="yue-Latn" class="aka">pong hau k’i</span>.{%endfn%} because of the shape of the board. In Hindi it is called <span lang="hi-Latn" class="aka">do-guṭī</span> (<span lang="hi" class="aka">दो गुटी</span> ‘two pieces’, perhaps Urdu <span lang="ur" class="aka">دو گتھی</span>).[@GuptaD p. 143]
 
-In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span lang="ko" class="aka">우물고누</span> ‘well game’) or <span lang="ko-Latn" class="aka">ganggonu</span> (<span lang="ko" class="aka">강고누</span> ‘river game’).[@KoreanGames p. 100] In Thailand it is called <span lang="th-Latn" class="aka">suea tok thang</span> (<span lang="th" class="aka">เสือตกถัง</span> ‘tiger falls into the bucket’),{%fn%}Older books transliterate this as <span lang="th-Latn" class="aka">sua tok tong</span>.{%endfn%} and a similar Khmer name is <span lang="km-Latn" class="aka">khlaa thlĕək ʼɑndoung</span> (<span lang="km" class="aka">ខ្លាធ្លាក់អណ្ដូង</span> ‘tiger falls in the well’).[@SEAlangKhmer] Other Thai names are <span lang="th-Latn" class="aka">saeng tawan</span> (<span lang="th" class="aka">แสงตะวัน</span> ‘sun rays’).[@TigerTank]{%fn%}Another name given is <span lang="th" class="aka">จะบูมูลู</span> but I haven’t been able to translate it.{%endfn%} In Malaysia it is known as {% pronounce lang="ms" class="aka" word="telaga buruk" pronouncer="Alvin00" %} (‘bad well’).[@TigerTank]
+In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span lang="ko" class="aka">우물고누</span> ‘well game’) or <span lang="ko-Latn" class="aka">ganggonu</span> (<span lang="ko" class="aka">강고누</span> ‘river game’).[@KoreanGames p. 100] In Thailand it is called <span lang="th-Latn" class="aka">suea tok thang</span> (<span lang="th" class="aka">เสือตกถัง</span> ‘tiger falls into the bucket’),{%fn%}Older books transliterate this as <span lang="th-Latn" class="aka">sua tok tong</span>.{%endfn%} and a similar Khmer name is <span lang="km-Latn" class="aka">khlaa thlĕək ʼɑndoung</span> (<span lang="km" class="aka">ខ្លាធ្លាក់អណ្ដូង</span> ‘tiger falls in the well’).[@SEAlangKhmer] Other Thai names are <span lang="th-Latn" class="aka">saeng tawan</span> (<span lang="th" class="aka">แสงตะวัน</span> ‘sun rays’).[@TigerTank]{%fn%}Another name given is <span lang="th" class="aka">จะบูมูลู</span> but I haven’t been able to translate it.{%endfn%} In Malaysia it is known as <Pronounce lang="ms" class="aka"  pronouncer="Alvin00">telaga buruk</Pronounce> (‘bad well’).[@TigerTank]
 
 <div class="multi equal">
 

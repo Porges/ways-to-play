@@ -81,9 +81,11 @@ Robinson Group” for a few months from 19 Dec 1968 – 26 Mar 1969, and then �
 Croxley remained around as its own company, but closed its last manufacturing
 plant in 2005.[@CroxleyClosing] The brand itself still exists, being owned by
 OfficeMax. However, it may soon disappear forever as OfficeMax closed all of its
-New Zealand stores in late 2020,{%fn%}A victim of Covid-19.{%endfn%} and is now
+New Zealand stores in late 2020,[^fn0] and is now
 online-only. Current Croxley cards appear to be made in China and only retain
 the Ace as a nod to the Dickinson line.
+
+[^fn0]: A victim of Covid-19.
 
 The aces have changed over the years to match the name of the company; the later
 aces are often poor copies of the earlier ones, where detail has been lost.
@@ -203,7 +205,9 @@ Playing cards, circa 1920, Whanganui, by A. D. Willis Ltd.
 Archibald Dudingston Willis, circa 1902.
 </Image>
 
-Archibald Dudingston Willis (1842–1908)[@ADWillis_IPCS] was a very early manufacturer of playing cards in New Zealand who operated in Wanganui from the 1880s. In 1951 the company was sold to Weeks Ltd, which kept A. D. Willis as a subsidiary, and the business was sold in turn to United Empire Box (UEB) around 1964.[@AstuteBusinessman]{%fn%}Some sources (including [@ADWillis_IPCS]) state 1949 here, but 1951 is corroborated by newspaper reports.[@AYearOfExpansion]{%endfn%} In the late 1980s the design was taken over by Kiwi Packaging (part of Amcor). This line of designs now appears to be out-of-print, as Amcor no longer manufacture playing cards.
+Archibald Dudingston Willis (1842–1908)[@ADWillis_IPCS] was a very early manufacturer of playing cards in New Zealand who operated in Wanganui from the 1880s. In 1951 the company was sold to Weeks Ltd, which kept A. D. Willis as a subsidiary, and the business was sold in turn to United Empire Box (UEB) around 1964.[@AstuteBusinessman][^fn1] In the late 1980s the design was taken over by Kiwi Packaging (part of Amcor). This line of designs now appears to be out-of-print, as Amcor no longer manufacture playing cards.
+
+[^fn1]: Some sources (including [@ADWillis_IPCS]) state 1949 here, but 1951 is corroborated by newspaper reports.[@AYearOfExpansion]
 
 <Image 
     noborder=true

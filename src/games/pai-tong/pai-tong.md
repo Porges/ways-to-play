@@ -11,17 +11,22 @@ subgames:
   players: 4
   countries: MY
 equipment: Card game (Ceki)
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
 <span class="noun aka" lang="th-Latn">Pai Tong</span> (<span lang="th" class="aka">ไพ่ตอง</span>, ‘<span lang="th-Latn">tong</span> cards’) is a draw-and-discard card game from Thailand, played with Thai money cards. It is also known as <span class="noun" lang="th-Latn" class="aka">Pai Phong (Thai)</span> (<span lang="th" class="aka">ไพ่ผ่อง(ไทย)</span>) or <span class="noun" lang="th-Latn" class="aka">Pai Chot</span> (<span lang="th" class="aka">ไพ่จอด</span>).[@ThaiGambling p. 71–6] Very similar games are also played in Kelantan in Malaysia.
 </p>
 
-{%aside%}The name <span lang="th-Latn">pai phong</span> could be from Hokkien <span lang="zh">碰牌</span> <span lang="nan-Latn">phòng pâi</span>, ‘bump cards’. This terminology is also used in the game of {%gameref mahjong%}, where <span lang="zh">碰</span> — usually “pong” in English rules — is the call for claiming a tile to form a set of three identical tiles. For the derivation of <span lang="th-latn">tong</span>, see below.{%endaside%}
+> [!aside]
+> The name <span lang="th-Latn">pai phong</span> could be from Hokkien <span lang="zh">碰牌</span> <span lang="nan-Latn">phòng pâi</span>, ‘bump cards’. This terminology is also used in the game of [Mahjong](games/mahjong/mahjong.md), where <span lang="zh">碰</span> — usually “pong” in English rules — is the call for claiming a tile to form a set of three identical tiles. For the derivation of <span lang="th-latn">tong</span>, see below.
 
-<Image src="../../maps/Pong.svg" alt="">
-Thailand and Malaysia, with Kelantan’s location highlighted.
-</Image>
+> [!figure]
+>
+> ![](../../maps/Pong.svg)
+>
+> Thailand and Malaysia, with Kelantan’s location highlighted.
 
 ### Equipment
 
@@ -48,7 +53,9 @@ The first player starts the game by discarding any card face-up. Play proceeds w
 
 On a player’s turn they draw one card from either the top of discard pile or the top of the stock, and then — unless they have won the game by completing their hand — they discard one. 
 
-The goal of the game is to form a complete hand of 12 cards, comprising four sets of three. Each set must consist of three cards of the same rank.A set of three identical cards of the same rank is called a **<span lang="th-Latn">tong</span>** (<span lang="th">ตอง</span>),{%fn%}This term — possibly derived from the Chinese <span lang="zh">同</span> (Hokkien: <span lang="nan-Latn">tông</span>; Teochew: <span lang="tws-Latn">tong⁵</span> Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>; Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.{%endfn%} and a set of three different cards is called a **head** (<span lang="th">เศียร</span> <span lang="th-Latn">siian</span>). A set of two identical cards and one other is called a **group** (<span lang="th">พวก</span> <span lang="th-Latn">phuak</span>). Heads and <span lang="th-Latn">tong</span>s are worth more in the scoring.
+The goal of the game is to form a complete hand of 12 cards, comprising four sets of three. Each set must consist of three cards of the same rank.A set of three identical cards of the same rank is called a **<span lang="th-Latn">tong</span>** (<span lang="th">ตอง</span>),[^fn0] and a set of three different cards is called a **head** (<span lang="th">เศียร</span> <span lang="th-Latn">siian</span>). A set of two identical cards and one other is called a **group** (<span lang="th">พวก</span> <span lang="th-Latn">phuak</span>). Heads and <span lang="th-Latn">tong</span>s are worth more in the scoring.
+
+[^fn0]: This term — possibly derived from the Chinese <span lang="zh">同</span> (Hokkien: <span lang="nan-Latn">tông</span>; Teochew: <span lang="tws-Latn">tong⁵</span> Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>; Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.
 
 For the purposes of forming heads, the honour cards or aces are grouped into two sets; one set comprises the two red stamped cards and the 1 Myriads, and other set is made up of the other three cards. To form a head using these cards requires them to be of the same set.
 

@@ -6,6 +6,8 @@ players:
 subgames:
 - title: Acquisitions
   players: 2
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -73,4 +75,4 @@ The drop-out rule is also possible as a variation; one player may drop out on th
 
 ## See also
 
-{% gameref leap-frog %} is a similar game.
+[Leap-Frog](games/leap-frog/leap-frog.md) is a similar game.

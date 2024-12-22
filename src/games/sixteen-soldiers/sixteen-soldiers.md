@@ -12,10 +12,12 @@ subgames:
 - title: Water Drowns the Monk
   originalTitle: <span lang="zh">水淹和尚</span>
   countries: CN
+date created: 2024-12-18
+date modified: 2024-12-22
 ---
 
 <p class="lead">
-Sixteen Soldiers (<span lang="ja">十六武蔵</span> {%pronounce lang="ja-Latn" word="jūroku musashi" pronouncer="mezashi" file="pronunciation_ja_十六武蔵.mp3" %}) is an asymmetric capturing game from Japan.
+Sixteen Soldiers (<span lang="ja">十六武蔵</span> <Pronounce lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_十六武蔵.mp3">jūroku musashi</Pronounce>) is an asymmetric capturing game from Japan.
 </p>
 
 <Image 
@@ -76,7 +78,9 @@ Gahō</span> in 1909.
 Initial setup of the Chinese board.
 </Image>
 
-In China the game is called “Sixteen pursue the general” (<span lang="zh" class="aka">十六趕將軍</span>, Mandarin: {%pronounce lang="cmn-Latn-pinyin" word="Shí liù gǎn jiāng jūn" class="aka" file="pronunciation_zh_十六趕將軍.mp3" pronouncer="j10oyc24e" %}, Cantonese: <span lang="yue-Latn-jyutping" class="aka">sap⁶ luk⁶ gon² zoeng¹ gwan¹</span>).[@Himly p.  469][@CulinChess p. 874]{%fn%}In older works this is transliterated <span lang="yue-Latn" class="aka">Shap luk kong tséung kwan</span> or <span lang="cmn-Latn" class="aka">Šĭ liu kan tsiang kün</span>.{%endfn%}
+In China the game is called “Sixteen pursue the general” (<span lang="zh" class="aka">十六趕將軍</span>, Mandarin: <Pronounce lang="cmn-Latn-pinyin"  class="aka" file="pronunciation_zh_十六趕將軍.mp3" pronouncer="j10oyc24e">Shí liù gǎn jiāng jūn</Pronounce>, Cantonese: <span lang="yue-Latn-jyutping" class="aka">sap⁶ luk⁶ gon² zoeng¹ gwan¹</span>).[@Himly p.  469][@CulinChess p. 874][^fn0]
+
+[^fn0]: In older works this is transliterated <span lang="yue-Latn" class="aka">Shap luk kong tséung kwan</span> or <span lang="cmn-Latn" class="aka">Šĭ liu kan tsiang kün</span>.
 
 The rules of the game are the same as the Japanese version, but it is played on
 a slightly different board, with a different extension and 29 points.
@@ -91,7 +95,7 @@ This version, called “Water Drowns the Monk” (<span lang="zh" class="aka">�
 
 ## See also
 
-{% gameref yasasukari %} was a possible predecessor of this game.
+[Yasasukari](games/yasasukari/yasasukari.md) was a possible predecessor of this game.
 
 <Image 
     size="wide"
@@ -102,8 +106,7 @@ This version, called “Water Drowns the Monk” (<span lang="zh" class="aka">�
     orgName="Museum of Fine Arts Boston"
     orgAbbr="MFA"
     originalUrl="https://collections.mfa.org/objects/421479/new-years-card-tiger-on-a-game-board"
-    identifier="2002.8925"
-    %}
+    identifier="2002.8925">
 
 Japanese postcard for the year 1914 (a year of the tiger), with a game motif.
 

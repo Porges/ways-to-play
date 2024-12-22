@@ -1,6 +1,8 @@
 ---
 title: Hazard
 equipment: Dice game
+date created: 2024-12-22
+date modified: 2024-12-22
 ---
 
 <p class="lead">
@@ -9,10 +11,15 @@ equipment: Dice game
 
 The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Spanish <span lang="es">azar</span> and Middle French <span lang="fr" class="aka">hasard</span>. The original game which was called <span lang="es">azar</span> in Alfonso X’s @AlfonsoGames (1283) used three dice; the version described here was at the time possibly called <span lang="es" class="aka">azar con dos dados</span>.[@GreedForGain 15]
 
-{/*{%fn%}Sometimes ‘hazard’ refers to the specific die roll of {%dice 44%}.{%endfn%} CANNOT FIND MY SOURCE FOR THIS*/}
+> [!todo]
+> Sometimes ‘hazard’ refers to the specific die roll of {%dice 44%}. 
+> CANNOT FIND MY SOURCE FOR THIS
+
 The game described here has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard] Later French books seem to believe that the game was of English origin.[@TheorieDesJeuxDeHasard p. 8]
 
-Charles Cotton says that Hazard is the “moſt bewitching Game that is plaid on the dice; for when a man begins to play he knows not when to leave off”,[@CompleatGamester p. 172]{%fn%}This page misnumbered 127 instead of 172.{%endfn%} and that “Hazzard is a proper name for this game; for it ſpeedily makes a man or undoes him; in the twinkling of an eye either a Man or a Mouſe.”[@CompleatGamester p. 168]
+Charles Cotton says that Hazard is the “moſt bewitching Game that is plaid on the dice; for when a man begins to play he knows not when to leave off”,[@CompleatGamester p. 172][^fn1] and that “Hazzard is a proper name for this game; for it ſpeedily makes a man or undoes him; in the twinkling of an eye either a Man or a Mouſe.”[@CompleatGamester p. 168]
+
+[^fn1]: This page misnumbered 127 instead of 172.
 
 The <abbr class="initialism">OED</abbr> has a somewhat amusing definition of the game:
 
@@ -20,7 +27,9 @@ The <abbr class="initialism">OED</abbr> has a somewhat amusing definition of the
 A gambling game with two dice in which the chances are complicated by a number of arbitrary rules.
 </blockquote>
 
-Rules for the game appear in {%a hoyle,Hoyle’s%} from the 1775 Charles Jones edition,{%fn%}The <abbr class="initialism">OED</abbr> cites the 1778 _Thomas_ Jones edition, but this is a later piracy of the Charles Jones version.{%endfn%} when Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
+Rules for the game appear in {%a hoyle,Hoyle’s%} from the 1775 Charles Jones edition,[^fn2] when Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
+
+[^fn2]: The <abbr class="initialism">OED</abbr> cites the 1778 _Thomas_ Jones edition, but this is a later piracy of the Charles Jones version.
 
 ## Play
 
@@ -79,7 +88,9 @@ In some (later) versions of the game the player is allowed to select any valid m
 
 ## The Banking Game
 
-When played against a bank, the game needed to be made unfair in some way so that the bank was guaranteed a profit.{%fn%}I do not yet have details about how this change was made.{%endfn%} Sometimes the banking game was called <span class="aka">French Hazard</span> and the non-banking version <span class="aka">English Hazard</span> or <span class="aka">Chicken Hazard</span>.[@BarristersLife p. 43]
+When played against a bank, the game needed to be made unfair in some way so that the bank was guaranteed a profit.[^fn3] Sometimes the banking game was called <span class="aka">French Hazard</span> and the non-banking version <span class="aka">English Hazard</span> or <span class="aka">Chicken Hazard</span>.[@BarristersLife p. 43]
+
+[^fn3]: I do not yet have details about how this change was made.
 
 {/*
 @TheorieDesJeuxDeHasard suggests that some numbers were made into … TODO

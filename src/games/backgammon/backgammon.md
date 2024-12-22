@@ -6,9 +6,11 @@ equipment: Tables game
 ---
 
 
-<Image src="backgammon.svg" alt="">
-The initial board setup.
-</Image>
+> [!figure]
+>
+> ![](backgammon.svg)
+>
+> The initial board setup.
 
 History:
 - 
