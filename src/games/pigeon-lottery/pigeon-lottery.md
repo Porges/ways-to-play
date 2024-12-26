@@ -239,24 +239,28 @@ and depictions often mention or show long knives that were kept behind the bars
 to defend against any attempts upon the bank’s chest (see, e.g. the image on the
 right below).
 
-<div class="multi extra-wide">
-
-<Image src="drawing_tickets.jpg" alt="A line drawing of a crowd of people, mostly in European dress, gathered outside the bars of a bank. Inside the bank one Chinese man is writing down characters as they are read out. The Chinese characters are depicted very poorly."
-    noborder=true license="cc0" %}
-
-Drawing of tickets (Australia, 1873).[@DrawingTheNumbersForTheBankTicket]
-
-</Image>
-
-<Image src="drawing_the_lottery.jpg" alt="A closer-in drawing than the previous one: a small crowd of people gathered outside the bars of a bank. Inside a Chinese man is pinning up characters onto a board. In the crowd a man and a small girl are both holding tickets. On a table inside the bank is a chest with four bowls around it and long knives standing endwise on the table. A depiction of a ticket is inset."
-    noborder=true license="cc0" %}
-
-Drawing of tickets, with a rather mangled representation of a ticket
-(Australia, 1876).[@InAChineseLotteryShop]
-
-</Image>
-
-</div>
+> [!multi-extra-wide]
+> > [!figure]
+> >
+> > ![A line drawing of a crowd of people, mostly in European dress, gathered outside the bars of a bank. Inside the bank one Chinese man is writing down characters as they are read out. The Chinese characters are depicted very poorly.](drawing_tickets.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > license: "cc0"
+> > ```
+> >
+> > Drawing of tickets (Australia, 1873).[@DrawingTheNumbersForTheBankTicket]
+> 
+> > [!figure]
+> >
+> > ![A closer-in drawing than the previous one: a small crowd of people gathered outside the bars of a bank. Inside a Chinese man is pinning up characters onto a board. In the crowd a man and a small girl are both holding tickets. On a table inside the bank is a chest with four bowls around it and long knives standing endwise on the table. A depiction of a ticket is inset.](drawing_the_lottery.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > license: "cc0"
+> > ```
+> >
+> > Drawing of tickets, with a rather mangled representation of a ticket (Australia, 1876).[@InAChineseLotteryShop]
 
 In some Chinese versions of the game, there were restrictions imposed upon which characters could be drawn: ten had to be chosen from each of the upper and lower halves of the tickets, the whole four characters in a particular line, or four in a block or diagonal could not be selected at once (it is not stated how these restrictions were enforced).[@BettingOnEmpire p. 104] These rules would allow the players to feel like they were able to have more control by making informed selections of characters.
 
@@ -463,17 +467,17 @@ Despite the existence of other very similar games in China, such as the ‘mount
 
 ### In the United States
 
-<Image
-noborder=true
-position="aside"
-src="twain_lottery.png"
-alt="A drawing of Mark Twain leaning on the counter of a Chinese lottery ticket seller. The Chinese man has long pointed fingernails. Twain holds a brush in his right hand."
-license="cc0"
- %}
-
-Mark Twain visits a Chinese lottery. Note brush in the right hand.[@RoughingIt p. 396]
-
-</Image>
+> [!figure]
+>
+> ![A drawing of Mark Twain leaning on the counter of a Chinese lottery ticket seller. The Chinese man has long pointed fingernails. Twain holds a brush in his right hand.](twain_lottery.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> Mark Twain visits a Chinese lottery. Note brush in the right hand.[@RoughingIt p. 396]
 
 According to @EncyclopediaOfKeno, the game was introduced to the Western United
 States in the mid-19th century, and had reached the Eastern cities by 1870. 
@@ -518,17 +522,19 @@ ticket = 10¢
 10 = $297
 */}
 
-<Image src="ark__13030_hb0q2nb02d_cropped.jpg" alt="A flash-lit black-and-white photograph of a room. In the centre of the room is a man wearing a suit who is looking at a row of tickets pinned above a table. On the table top are brushes and ink: the table has a heavy plastic tablecloth to protect against ink spillages. On the floor lie many discarded tickets. At the back of the room are a row of teller locations, with low lamps, and protected by chicken-wire mesh." 
-    license="cc-by"
-    orgName="University of California, Los Angeles"
-    orgAbbr="UCLA"
-    identifier="uclamss_1387_b12_18958-2"
-    originalUrl="https://digital.library.ucla.edu/catalog/ark:/13030/hb0q2nb02d"
-    %}
-Interior of a Chinese lottery & casino in California, 1938, during a police raid. Ink and brushes are
-provided to mark the chosen numbers, and on the floor lie discarded losing
-tickets.
-</Image>
+> [!figure]
+>
+> ![A flash-lit black-and-white photograph of a room. In the centre of the room is a man wearing a suit who is looking at a row of tickets pinned above a table. On the table top are brushes and ink: the table has a heavy plastic tablecloth to protect against ink spillages. On the floor lie many discarded tickets. At the back of the room are a row of teller locations, with low lamps, and protected by chicken-wire mesh.](ark__13030_hb0q2nb02d_cropped.jpg)
+>
+> ```yaml
+> license: "cc-by"
+> orgName: "University of California, Los Angeles"
+> orgAbbr: "UCLA"
+> identifier: "uclamss_1387_b12_18958-2"
+> originalUrl: "https://digital.library.ucla.edu/catalog/ark:/13030/hb0q2nb02d"
+> ```
+>
+> Interior of a Chinese lottery & casino in California, 1938, during a police raid. Ink and brushes are provided to mark the chosen numbers, and on the floor lie discarded losing tickets.
 
 In Seattle, some known banks known in the 20th century were named: Union, N.P.,
 Shanghai, New American, and Wing Tien.[@WhenChinatownHadItsOwnLotteries] During
@@ -652,17 +658,20 @@ all too easy to find examples of the former.
 
 #### Legality and Hypocrisy
 
-<Image src="pakapoo_ticket.jpg" alt="A ticket with crosses marking chosen characters. There are three lines dividing the ticket into four sections."
-    position="aside"
-    orgName="Alexander Turnbull Library" identifier="Eph-A-LOTTERY-1920s-01"
-    license="with-permission"
-    originalUrl="https://natlib.govt.nz/records/22741041" %}
-    
-A used “pakapoo” ticket from New Zealand, probably from the 1920s. This ticket
-records four simultaneous bets on sets of five numbers; the drawn lines divide
-the ticket into four separate zones.
+> [!figure]
+>
+> ![A ticket with crosses marking chosen characters. There are three lines dividing the ticket into four sections.](pakapoo_ticket.jpg)
+>
+> ```yaml
+> position: "aside"
+> orgName: "Alexander Turnbull Library"
+> identifier: "Eph-A-LOTTERY-1920s-01"
+> license: "with-permission"
+> originalUrl: "https://natlib.govt.nz/records/22741041"
+> ```
+>
+> A used “pakapoo” ticket from New Zealand, probably from the 1920s. This ticket records four simultaneous bets on sets of five numbers; the drawn lines divide the ticket into four separate zones.
 
-</Image>
 
 Pakapoo was illegal from 1862 in Otago,[@RememberingChinatown p. 93] and would
  be made illegal nationwide with the passage of the [Gaming and Lotteries Act of
@@ -738,15 +747,19 @@ Court was dismissed on the basis that pakapoo was a game of chance, and not a
 lottery;[@PakAPooNotALottery] taken at face value, the Act stated that games of
 chance were only illegal if played in public places.
 
-<Image src="southern_bank.jpg" alt="Two Chinese men sitting at a counter in fashionable European suits. The name ‘Southern Bank’ and a rough sketch of a British flag are painted on the door. There are pak-a-poo tickets on the counter. The door reads 'Southern Bank'."
-    orgName="Alexander Turnbull Library"
-    identifier="PUBL-0090-001"
-    license="with-permission"
-    originalUrl="https://natlib.govt.nz/records/23132885" %}
+> [!figure]
+>
+> ![Two Chinese men sitting at a counter in fashionable European suits. The name ‘Southern Bank’ and a rough sketch of a British flag are painted on the door. There are pak-a-poo tickets on the counter. The door reads 'Southern Bank'.](southern_bank.jpg)
+>
+> ```yaml
+> orgName: "Alexander Turnbull Library"
+> identifier: "PUBL-0090-001"
+> license: "with-permission"
+> originalUrl: "https://natlib.govt.nz/records/23132885"
+> ```
+>
+> Two men in the “Southern Bank” on Walker Street in Dunedin, 1904.
 
-Two men in the “Southern Bank” on Walker Street in Dunedin, 1904.
-
-</Image>
 
 With the game seeming to be on the verge of becoming legal, in 1904, the “Gaming
 and Lotteries Act Amendment Bill” was introduced to parliament by [James
@@ -797,27 +810,32 @@ Europeans.”[@GamblingAmongChinese]
 In any case, McGowan’s 1904 bill was subsequently withdrawn and this version of
 the amendment was never passed.
 
-<Image
-    position="aside"
-    noborder=true
-    src="NZFL19061103.1.5-c256.png"
-    alt="A cartoon: a man wielding a spade reading 'gaming & betting bill' is using it to dig out 'weeds' from 'New Zealand's garden of Youth'. A European-looking weed is labelled 'bookmaker', and Chinese-faced ones are labelled 'gaming house keeper', 'pak-a-poo', 'fan-tan'. There are mushrooms labelled 'lottery'. The caption reads 'A Sharp Spade', then 'Sir Joe: it's up to me to do a bit of weeding'."
-    orgName="Papers Past"
-    originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1906/11/03/5"
-    license="cc0" %}
-By 1906 the appetite had increased for regulation of all forms of gambling.
-</Image>
+> [!figure]
+>
+> ![A cartoon: a man wielding a spade reading 'gaming & betting bill' is using it to dig out 'weeds' from 'New Zealand's garden of Youth'. A European-looking weed is labelled 'bookmaker', and Chinese-faced ones are labelled 'gaming house keeper', 'pak-a-poo', 'fan-tan'. There are mushrooms labelled 'lottery'. The caption reads 'A Sharp Spade', then 'Sir Joe: it's up to me to do a bit of weeding'.](NZFL19061103.1.5-c256.png)
+>
+> ```yaml
+> position: "aside"
+> noborder: true
+> orgName: "Papers Past"
+> originalUrl: "https://paperspast.natlib.govt.nz/newspapers/free-lance/1906/11/03/5"
+> license: "cc0"
+> ```
+>
+> By 1906 the appetite had increased for regulation of all forms of gambling.
 
-<Image
-    noborder=true
-    src="NZFL19040827.1.5-c256.png"
-    alt="A cartoon: a policeman threatens a Chinese man running a fan-tan/pak-a-poo shop, whilst behind him European men attend the totalisator without penalty. The caption reads 'it might be desirable to do away with Chinese gambling dens, but this Bill would give the police a power which no other police possess. The more they tried by tinpt and tyrannous legislation to suppress gambling the more gambling would increase.—Mr. Lawry', then 'Fish of One, Fowl of the Other', then 'John Chinaman: wha' foh?'"
-    orgName="Papers Past"
-    originalUrl="https://paperspast.natlib.govt.nz/newspapers/free-lance/1904/08/27/5"
-    license="cc0" %}
-This 1904 cartoon from <cite>The Free Lance</cite> protests against the inconsistent
-application of gambling laws, whilst still portraying a Chinese man in a racist manner.
-</Image>
+> [!figure]
+>
+> ![A cartoon: a policeman threatens a Chinese man running a fan-tan/pak-a-poo shop, whilst behind him European men attend the totalisator without penalty. The caption reads 'it might be desirable to do away with Chinese gambling dens, but this Bill would give the police a power which no other police possess. The more they tried by tinpt and tyrannous legislation to suppress gambling the more gambling would increase.—Mr. Lawry', then 'Fish of One, Fowl of the Other', then 'John Chinaman: wha' foh?](NZFL19040827.1.5-c256.png)
+>
+> ```yaml
+> noborder: true
+> orgName: "Papers Past"
+> originalUrl: "https://paperspast.natlib.govt.nz/newspapers/free-lance/1904/08/27/5"
+> license: "cc0"
+> ```
+>
+> This 1904 cartoon from <cite>The Free Lance</cite> protests against the inconsistent application of gambling laws, whilst still portraying a Chinese man in a racist manner.
 
 Only a year later, in 1905, the Supreme Court again heard a case regarding
 Pak-A-Poo (<cite>Lee Sun v. Daniel Conolly</cite>),[@LeeSunVDanielConolly] and
@@ -845,20 +863,18 @@ upon trade with China:
 > people in the world, and it should be remembered that we forced opium on them
 > because of the profit in it. It is utter hypocrisy.” [@HarryingOfChinese]
 
-<Image src="nlnzimage.jpg" alt="A photograph of a dirty floor with a missing floorboard. Around the hole lie used tickets."
-    identifier="PAColl-7796-35"
-    orgName="Alexander Turnbull Library"
-    license="with-permission"
-    originalUrl="https://natlib.govt.nz/records/22706477" %}
-
-Pakapoo tickets discovered during the demolition of a house on Wellington’s
-Haining Street, May 1960.
-
-Haining Street was the centre of Wellington’s Chinese community and had also
-been the centre of pakapoo activity: of the 53 buildings that existed on the street, 20 of
-them were used for pakapoo at some stage or another.[@RepresentingHainingStreet2 pp. 94–135]
-
-</Image>
+> [!figure]
+>
+> ![A photograph of a dirty floor with a missing floorboard. Around the hole lie used tickets.](nlnzimage.jpg)
+>
+> ```yaml
+> identifier: "PAColl-7796-35"
+> orgName: "Alexander Turnbull Library"
+> license: "with-permission"
+> originalUrl: "https://natlib.govt.nz/records/22706477"
+> ```
+>
+> Pakapoo tickets discovered during the demolition of a house on Wellington’s Haining Street, May 1960. Haining Street was the centre of Wellington’s Chinese community and had also been the centre of pakapoo activity: of the 53 buildings that existed on the street, 20 of them were used for pakapoo at some stage or another.[@RepresentingHainingStreet2 pp. 94–135]
 
 Now that we are able to look back with the benefit of time and more sources, it
 is clear that, despite lurid newspaper and magazine reports of pakapoo dens and
@@ -921,17 +937,18 @@ this was still at the time the Chinese game.{%endfn%} but here I recount what
 appears to be the main thread of popularization which led to widespread
 commercial implementation of Keno.
 
-<Image src="americanized_ticket.jpg" alt="A Chinese lottery ticket with a Chinese title but numbers in place of characters." 
-    originalUrl="https://oac.cdlib.org/ark:/13030/hb1t1n982s/?order=3&brand=oac4"
-    identifier="AAS ARC 2000/13: box: fol. 4"
-    orgName="UC Berkeley, Ethnic Studies Library"
-    license="cc0"
-    %}
-
-Evidence of Chinese attempts at popularizing the game include tickets
-with numerals written in place of Chinese characters.
-
-</Image>
+> [!figure]
+>
+> ![A Chinese lottery ticket with a Chinese title but numbers in place of characters.](americanized_ticket.jpg)
+>
+> ```yaml
+> originalUrl: "https://oac.cdlib.org/ark:/13030/hb1t1n982s/?order=3&brand=oac4"
+> identifier: "AAS ARC 2000/13: box: fol. 4"
+> orgName: "UC Berkeley, Ethnic Studies Library"
+> license: "cc0"
+> ```
+>
+> Evidence of Chinese attempts at popularizing the game include tickets with numerals written in place of Chinese characters.
 
 In the early 20th century, versions of the “Chinese lottery” were being played
 in Butte, Montana. Just like the examples above of other locations the game had
@@ -1139,20 +1156,18 @@ Other examples of horse names include:
 </div>
 
 
-<Image
-alt="A black-and-white photo of a counter in front of which stand a richly-dressed man and woman. Behind the counter are two staff. On the counter is a 'squirrel cage' containing balls. On the wall behind the counter are the rules, a clock, and a board which lights up numbers when they are called."
-src="harolds_race_horse_keno.jpg"
-license="cc-by-nc-nd"
-licenseVersion="4.0"
-originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n209"
-orgName="University of Nevada Oral History Program"
-%}
-
-The race-horse keno counter at Harolds Club in the 1940s. Note the “squirrel
-cage” containing the balls. The payoffs listed are identical to those reported
-at the Crown Cigar Store in Montana, 1948.[@StatevCrownCigarStore]
-
-</Image>
+> [!figure]
+>
+> ![A black-and-white photo of a counter in front of which stand a richly-dressed man and woman. Behind the counter are two staff. On the counter is a 'squirrel cage' containing balls. On the wall behind the counter are the rules, a clock, and a board which lights up numbers when they are called.](harolds_race_horse_keno.jpg)
+>
+> ```yaml
+> license: "cc-by-nc-nd"
+> licenseVersion: "4.0"
+> originalUrl: "https://archive.org/details/FamilyAffairHaroldsClub/page/n209"
+> orgName: "University of Nevada Oral History Program"
+> ```
+>
+> The race-horse keno counter at Harolds Club in the 1940s. Note the “squirrel cage” containing the balls. The payoffs listed are identical to those reported at the Crown Cigar Store in Montana, 1948.[@StatevCrownCigarStore]
 
 The Bank Club (the next-door rival of the Palace Club) and Harolds Club were
 soon to follow by installing Keno games of their own.[@AlwaysBetOnTheButcher p.

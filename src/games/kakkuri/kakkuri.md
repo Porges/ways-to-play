@@ -47,14 +47,16 @@ lang="ja-Latn" file='pronunciation_ja_箱.mp3' %}).
 
 If there are 8 people playing, then there will be no cards leftover to form the box; instead, whoever received the <Cards>3</Cards> of <span lang="ja-Latn">pao</span> (or <Cards>c3</Cards> with standard deck) drops out and their hand is shuffled to become the box.
 
-<Image 
-  size="small"
-  noborder=true
-  src="3pao.jpg"
-  alt="A card with three black lines which overlap each other." %}
-The 3 of <span lang="ja-Latn">pao</span>, also known as <span lang="ja">黒火箸
-</span> <span lang="ja-Latn">kuro-hibashi</span> ‘black fire tongs’.
-</Image>
+> [!figure]
+>
+> ![A card with three black lines which overlap each other.](3pao.jpg)
+>
+> ```yaml
+> size: "small"
+> noborder: true
+> ```
+>
+> The 3 of <span lang="ja-Latn">pao</span>, also known as <span lang="ja">黒火箸 </span> <span lang="ja-Latn">kuro-hibashi</span> ‘black fire tongs’.
 
 Before looking at their cards, each player in turn can exchange their hand with
 the dealer’s hand. This can happen multiple times so that players can end up

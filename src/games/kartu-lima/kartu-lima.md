@@ -96,14 +96,24 @@ Red Flower is the second-highest.
 </Image>
 </div>
 
-<Image
-    noborder=true
-    size="small"
-    hidden=true
-    src="../../articles/cards/ceki/CM2.jpg;../../articles/cards/ceki/CM3.jpg;../../articles/cards/ceki/CM4.jpg;../../articles/cards/ceki/CM5.jpg;../../articles/cards/ceki/CM6.jpg;../../articles/cards/ceki/CM7.jpg;../../articles/cards/ceki/CM8.jpg;../../articles/cards/ceki/CM9.jpg"
-    alt=";;;;;;;" %}
-Then the rest of the Myriads cards (aside from <Cards>1</Cards>) are ranked equally.
-</Image>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM2.jpg)
+> ![](../../articles/cards/ceki/CM3.jpg)
+> ![](../../articles/cards/ceki/CM4.jpg)
+> ![](../../articles/cards/ceki/CM5.jpg)
+> ![](../../articles/cards/ceki/CM6.jpg)
+> ![](../../articles/cards/ceki/CM7.jpg)
+> ![](../../articles/cards/ceki/CM8.jpg)
+> ![](../../articles/cards/ceki/CM9.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> hidden: true
+> ```
+>
+> Then the rest of the Myriads cards (aside from <Cards>1</Cards>) are ranked equally.
 
 ### 3 & 4 Coins
 
@@ -173,15 +183,19 @@ There are four cards in this group; the 9 of Strings outranks the 8 of Strings, 
     alt="">
 8 Strings is the second-highest.
 </Image>
-<Image
-    noborder=true
-    size="small"
-    justify="centered"
-    alt=";"
-    hidden=true
-    src="../../articles/cards/ceki/CS7.jpg;../../articles/cards/ceki/CS5.jpg" %}
-5 & 7 Strings are ranked equally.
-</Image>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS7.jpg)
+> ![](../../articles/cards/ceki/CS5.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> justify: "centered"
+> hidden: true
+> ```
+>
+> 5 & 7 Strings are ranked equally.
 </div>
 
 ### <span lang="jav-Latn">Dika</span>
@@ -194,35 +208,53 @@ Note that because these are really 12 separate groups, if one of the <span lang=
 
 The cards are:
 
-<Image
-    noborder=true
-    size="small"
-    justify="centered"
-    hidden=true
-    src="../../articles/cards/ceki/CWF.jpg;../../articles/cards/ceki/CM1.jpg;../../articles/cards/ceki/CS1.jpg;../../articles/cards/ceki/CC1.jpg"
-    alt=";;;" %}
-All non-red rank-1 cards.
-</Image>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CWF.jpg)
+> ![](../../articles/cards/ceki/CM1.jpg)
+> ![](../../articles/cards/ceki/CS1.jpg)
+> ![](../../articles/cards/ceki/CC1.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> justify: "centered"
+> hidden: true
+> ```
+>
+> All non-red rank-1 cards.
 
-<Image
-    noborder=true
-    size="small"
-    justify="centered"
-    hidden=true
-    src="../../articles/cards/ceki/CS2.jpg;../../articles/cards/ceki/CS3.jpg;../../articles/cards/ceki/CS4.jpg;../../articles/cards/ceki/CS6.jpg"
-    alt=";;;" %}
-The 2, 3, 4, and 6 of Strings.
-</Image>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS2.jpg)
+> ![](../../articles/cards/ceki/CS3.jpg)
+> ![](../../articles/cards/ceki/CS4.jpg)
+> ![](../../articles/cards/ceki/CS6.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> justify: "centered"
+> hidden: true
+> ```
+>
+> The 2, 3, 4, and 6 of Strings.
 
-<Image
-    noborder=true
-    size="small"
-    justify="centered"
-    alt=";;;"
-    hidden=true
-    src="../../articles/cards/ceki/CC2.jpg;../../articles/cards/ceki/CC5.jpg;../../articles/cards/ceki/CC6.jpg;../../articles/cards/ceki/CC7.jpg" %}
-The 2, 5, 6, and 7 of Coins.
-</Image>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC2.jpg)
+> ![](../../articles/cards/ceki/CC5.jpg)
+> ![](../../articles/cards/ceki/CC6.jpg)
+> ![](../../articles/cards/ceki/CC7.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> justify: "centered"
+> hidden: true
+> ```
+>
+> The 2, 5, 6, and 7 of Coins.
 
 ## <span lang="jav-Latn">Wangsalan</span>
 

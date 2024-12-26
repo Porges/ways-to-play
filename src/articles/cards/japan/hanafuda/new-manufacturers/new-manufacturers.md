@@ -151,21 +151,15 @@ lang="ko-Latn">hwatu</span> decks. Each of them comes with an additional six
 joker cards, appropriate to the theme. Both decks were crowdfunded on the Korean
 site ‘tumblbug’.
 
-<Image 
-  src='Nyangtu.jpg'
-  alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards." %}
-Jamaistore’s <span lang="ko">냥투</span> (<span lang="ko-Latn">nyangtu</span>, ‘meow fight’) deck (2016).<br />
-
-The name is a pun on <span lang="ko-Latn">hwatu</span> with the Korean <span lang="ko-Latn">nyang</span> meaning ‘meow’.
-</Image>
+> [!figure]
+>
+> ![The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.](Nyangtu.jpg)
+>
+> Jamaistore’s <span lang="ko">냥투</span> (<span lang="ko-Latn">nyangtu</span>, ‘meow fight’) deck (2016).<br /> The name is a pun on <span lang="ko-Latn">hwatu</span> with the Korean <span lang="ko-Latn">nyang</span> meaning ‘meow’.
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='Meongtu.jpg'
-  alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards." 
-> ```
+> ![The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.](Meongtu.jpg)
 >
 > Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘woof fight’) deck (2017).
 
@@ -179,11 +173,7 @@ are larger and longer than normal playing cards.
 
 > [!figure]
 >
-> ```yaml
-> 
-  src="Modern_Hanafuda.jpg"
-  alt="Five playing cards, the first with a crane with its neck arched back and pine trees patterened with criss-crossing stripes, the second with cherry blossoms behind a curtain bearing a cherry blossom pattern, the third of a white moon in a red sky over circular hills in orange and yellow, the fourth with a man holding an umbrella and standing under a willow tree watching a frog, and the fifth with a Japanese phoenix beating its wings over realistically-shaped Paulownia flowers." 
-> ```
+> ![Five playing cards, the first with a crane with its neck arched back and pine trees patterened with criss-crossing stripes, the second with cherry blossoms behind a curtain bearing a cherry blossom pattern, the third of a white moon in a red sky over circular hills in orange and yellow, the fourth with a man holding an umbrella and standing under a willow tree watching a frog, and the fifth with a Japanese phoenix beating its wings over realistically-shaped Paulownia flowers.](Modern_Hanafuda.jpg)
 >
 >   The 5 Bright cards of the Modern Hanafuda deck.
 
@@ -208,11 +198,7 @@ lang="ja-Latn">Kabufuda</span> cards.
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='NishikiHana.jpg'
-  alt=""
-> ```
+> ![](NishikiHana.jpg)
 >
 > The 5 Bright cards of the standard <span class="noun" lang="ja-Latn">Nishiki Fuda</span> deck.
 
@@ -225,11 +211,7 @@ several editions over the years.
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='YongJaengStyle.jpg'
-  alt=""
-> ```
+> ![](YongJaengStyle.jpg)
 >
 > The five Bright cards of the <span class="noun" lang="ko-Latn">Yongjaeng Hwatoo</span> Style deck (2017).
 

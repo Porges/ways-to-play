@@ -14,23 +14,18 @@ expelled from the country entirely. <span lang="ja-Latn"
 class="noun">Tenshō</span> cards were made illegal in 1648.[@DragonsOfPortugal
 p. 46]
 
-<Image
-size="extra-wide"
-src="Matsuura-Byobu-by-Iwasa-Matabei.png"
-alt="" 
-orgName="Wikimedia Commons"
-originalUrl="https://commons.wikimedia.org/wiki/File:Matsuura-Byobu-by-Iwasa-Matabei.png"
-license="cc0"%}
-
-The women on the left are playing cards with a Portuguese-influenced deck.<br/>
-The Matsuura folding screen <cite lang="ja">松浦屏風</cite>, a National Treasure of Japan, created in the Edo period, currently at the <span lang="ja-Latn" class="noun">Yamato Bunkakan</span>.
-
-</Image>
-
-<figure itemscope="itemscope" itemtype="http://schema.org/CreativeWork" class="wide"><img
-itemprop="image" src="/images/" alt="" />
-<figcaption></figcaption></figure>
-
+> [!figure]
+> 
+> ![](Matsuura-Byobu-by-Iwasa-Matabei.png)
+>
+> ```yaml
+> size: extra-wide
+> orgName: Wikimedia Commons
+> originalUrl: https://commons.wikimedia.org/wiki/File:Matsuura-Byobu-by-Iwasa-Matabei.png
+> license: cc0
+> ```
+>
+> The women on the left are playing cards with a Portuguese-influenced deck.<br/> The Matsuura folding screen <cite lang="ja">松浦屏風</cite>, a National Treasure of Japan, created in the Edo period, currently at the <span lang="ja-Latn" class="noun">Yamato Bunkakan</span>.
 
 ### <span lang="ja-Latn" class="noun">Unsun Karuta</span> (<span lang="ja">うんすんかるた</span>)
 

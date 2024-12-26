@@ -485,7 +485,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DOT.jpg;KOT.jpg;OOT.jpg;NOT.jpg;COT.jpg" alt=";;;;" %}Old Thousand</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DOT.jpg)
+> ![](KOT.jpg)
+> ![](OOT.jpg)
+> ![](NOT.jpg)
+> ![](COT.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> Old Thousand
+</th>
 {/* Thai */}
 <td><span lang="th">เอี่ยวพญา</span><br/><span lang="th-Latn">iao phaya</span><br/>king ace<br/><br/><span lang="th">เอี่ยวแดงพญา</span><br/><span lang="th-Latn">iao daeng phaya</span><br/>red king ace<br/><br/><span lang="th">เอี่ยวโต้ง</span><br/><span lang="th-Latn">iao tong</span><br/>large ace</td>
 {/* M/S */}
@@ -525,7 +543,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DWF.jpg;KWF.jpg;OWF.jpg;NWF.jpg;CWF.jpg" alt=";;;;" %}White Flower</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DWF.jpg)
+> ![](KWF.jpg)
+> ![](OWF.jpg)
+> ![](NWF.jpg)
+> ![](CWF.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> White Flower
+</th>
 {/* Thai */}
 <td><span lang="th">เอี่ยวชี</span><br/><span lang="th-Latn">iao chi</span><br/>nun ace</td>
 {/* M/S */}
@@ -565,7 +601,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DRF.jpg;KRF.jpg;ORF.jpg;NRF.jpg;CRF.jpg" alt=";;;;" %}Red Flower</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DRF.jpg)
+> ![](KRF.jpg)
+> ![](ORF.jpg)
+> ![](NRF.jpg)
+> ![](CRF.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> Red Flower
+</th>
 {/* Thai */}
 <td><span lang="th">เอี่ยวแดงนาง</span><br/><span lang="th-Latn">iao daeng nang</span><br/>red lady ace<br/><br/><span lang="th">เอี่ยวนาง</span><br/><span lang="th-Latn">iao nang</span><br/>lady ace</td>
 {/* M/S */}
@@ -605,7 +659,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC1.jpg;KC1.jpg;OC1.jpg;NC1.jpg;CC1.jpg" alt=";;;;" %}1 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC1.jpg)
+> ![](KC1.jpg)
+> ![](OC1.jpg)
+> ![](NC1.jpg)
+> ![](CC1.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 1 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">เอี่ยวเกือก</span><br/><span lang="th-Latn">iao kueak</span><br/>shoe ace<br/><br/><span lang="th">เอี่ยวรอง</span><br/><span lang="th-Latn">iao rong</span><br/>secondary ace</td>
 {/* M/S */}
@@ -645,7 +717,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS1.jpg;KS1.jpg;OS1.jpg;NS1.jpg;CS1.jpg" alt=";;;;" %}1 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS1.jpg)
+> ![](KS1.jpg)
+> ![](OS1.jpg)
+> ![](NS1.jpg)
+> ![](CS1.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 1 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">เอี่ยวยาว</span><br/><span lang="th-Latn">iao yao</span><br/> long ace<br/><br/><span lang="th">เอี่ยวเข็ม</span><br/><span lang="th-Latn">iao khem</span><br/>needle ace</td>
 {/* M/S */}
@@ -685,7 +775,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM1.jpg;KM1.jpg;OM1.jpg;NM1.jpg;CM1.jpg" alt=";;;;" %}1 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM1.jpg)
+> ![](KM1.jpg)
+> ![](OM1.jpg)
+> ![](NM1.jpg)
+> ![](CM1.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 1 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">เอี่ยวหนู</span><br/><span lang="th-Latn">iao nu</span><br/>mouse ace (the symbol looks like a mouse’s tail)</td>
 {/* M/S */}
@@ -765,7 +873,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC2.jpg;KC2.jpg;OC2.jpg;NC2.jpg;CC2.jpg" alt=";;;;" %}2 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC2.jpg)
+> ![](KC2.jpg)
+> ![](OC2.jpg)
+> ![](NC2.jpg)
+> ![](CC2.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 2 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">สองตา</span><br/><span lang="th-Latn">song ta</span><br/>eyes two<br/><br/><span lang="th">สองตาโต</span><br/><span lang="th-Latn">song ta to</span><br/>shocked two</td>
 {/* M/S */}
@@ -805,7 +931,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS2.jpg;KS2.jpg;OS2.jpg;NS2.jpg;CS2.jpg" alt=";;;;" %}2 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS2.jpg)
+> ![](KS2.jpg)
+> ![](OS2.jpg)
+> ![](NS2.jpg)
+> ![](CS2.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 2 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">สององคต</span><br/><span lang="th-Latn">song (ongkot?)</span><br/>two <a href="https://en.wikipedia.org/wiki/Angada">Angada</a> (a legendary monkey with an immovable leg)</td>
 {/* M/S */}
@@ -845,7 +989,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM2.jpg;KM2.jpg;OM2.jpg;NM2.jpg;CM2.jpg" alt=";;;;" %}2 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM2.jpg)
+> ![](KM2.jpg)
+> ![](OM2.jpg)
+> ![](NM2.jpg)
+> ![](CM2.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 2 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">สองคน</span><br/><span lang="th-Latn">song khon</span><br/>two people</td>
 {/* M/S */}
@@ -925,7 +1087,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC3.jpg;KC3.jpg;OC3.jpg;NC3.jpg;CC3.jpg" alt=";;;;" %}3 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC3.jpg)
+> ![](KC3.jpg)
+> ![](OC3.jpg)
+> ![](NC3.jpg)
+> ![](CC3.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 3 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">สามตา</span><br/><span lang="th-Latn">sam ta</span><br/>three eyes<br/><br/><span lang="th">สามตาโต</span><br/><span lang="th-Latn">sam ta to</span><br/>three big eyes</td>
 {/* M/S */}
@@ -965,7 +1145,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS3.jpg;KS3.jpg;OS3.jpg;NS3.jpg;CS3.jpg" alt=";;;;" %}3 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS3.jpg)
+> ![](KS3.jpg)
+> ![](OS3.jpg)
+> ![](NS3.jpg)
+> ![](CS3.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 3 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">สามนก</span><br/><span lang="th-Latn">sam nok</span><br/>three birds<br/><br/><span lang="th">สามนกเตี้ย</span><br/><span lang="th-Latn">sam nok tia</span><br/>three short birds</td>
 {/* M/S */}
@@ -1005,7 +1203,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM3.jpg;KM3.jpg;OM3.jpg;NM3.jpg;CM3.jpg" alt=";;;;" %}3 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM3.jpg)
+> ![](KM3.jpg)
+> ![](OM3.jpg)
+> ![](NM3.jpg)
+> ![](CM3.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 3 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">สามคน</span><br/><span lang="th-Latn">sam khon</span><br/>three people</td>
 {/* M/S */}
@@ -1085,7 +1301,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC4.jpg;KC4.jpg;OC4.jpg;NC4.jpg;CC4.jpg" alt=";;;;" %}4 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC4.jpg)
+> ![](KC4.jpg)
+> ![](OC4.jpg)
+> ![](NC4.jpg)
+> ![](CC4.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 4 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">สี่มะเขือ</span><br/><span lang="th-Latn">si makhuea</span><br/>four eggplants</td>
 {/* M/S */}
@@ -1125,7 +1359,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS4.jpg;KS4.jpg;OS4.jpg;NS4.jpg;CS4.jpg" alt=";;;;" %}4 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS4.jpg)
+> ![](KS4.jpg)
+> ![](OS4.jpg)
+> ![](NS4.jpg)
+> ![](CS4.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 4 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">สี่นม</span><br/><span lang="th-Latn">si nom</span><br/>four breasts<br/><br/><span lang="th">สี่นมยาน</span><br/><span lang="th-Latn">si nom yan</span><br/>four hanging breasts</td>
 {/* M/S */}
@@ -1165,7 +1417,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM4.jpg;KM4.jpg;OM4.jpg;NM4.jpg;CM4.jpg" alt=";;;;" %}4 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM4.jpg)
+> ![](KM4.jpg)
+> ![](OM4.jpg)
+> ![](NM4.jpg)
+> ![](CM4.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 4 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">สี่คน</span><br/><span lang="th-Latn">si khon</span><br/>four people</td>
 {/* M/S */}
@@ -1245,7 +1515,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC5.jpg;KC5.jpg;OC5.jpg;NC5.jpg;CC5.jpg" alt=";;;;" %}5 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC5.jpg)
+> ![](KC5.jpg)
+> ![](OC5.jpg)
+> ![](NC5.jpg)
+> ![](CC5.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 5 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">ห้าแตงโม</span><br/><span lang="th-Latn">ha taengmo</span><br/>five watermelons</td>
 {/* M/S */}
@@ -1285,7 +1573,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS5.jpg;KS5.jpg;OS5.jpg;NS5.jpg;CS5.jpg" alt=";;;;" %}5 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS5.jpg)
+> ![](KS5.jpg)
+> ![](OS5.jpg)
+> ![](NS5.jpg)
+> ![](CS5.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 5 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">ห้านก</span><br/><span lang="th-Latn">ha nok</span><br/>five birds</td>
 {/* M/S */}
@@ -1325,7 +1631,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM5.jpg;KM5.jpg;OM5.jpg;NM5.jpg;CM5.jpg" alt=";;;;" %}5 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM5.jpg)
+> ![](KM5.jpg)
+> ![](OM5.jpg)
+> ![](NM5.jpg)
+> ![](CM5.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 5 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">ห้าคน</span><br/><span lang="th-Latn">ha khon</span><br/>five people</td>
 {/* M/S */}
@@ -1405,7 +1729,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC6.jpg;KC6.jpg;OC6.jpg;NC6.jpg;CC6.jpg" alt=";;;;" %}6 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC6.jpg)
+> ![](KC6.jpg)
+> ![](OC6.jpg)
+> ![](NC6.jpg)
+> ![](CC6.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 6 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">หกตา</span><br/><span lang="th-Latn">hok ta</span><br/>six eyes</td>
 {/* M/S */}
@@ -1445,7 +1787,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS6.jpg;KS6.jpg;OS6.jpg;NS6.jpg;CS6.jpg" alt=";;;;" %}6 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS6.jpg)
+> ![](KS6.jpg)
+> ![](OS6.jpg)
+> ![](NS6.jpg)
+> ![](CS6.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 6 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">หกละเอียด</span><br/><span lang="th-Latn">hok laiat</span><br/>delicate six<br/><br/><span lang="th">หกเซาะ</span><br/><span lang="th-Latn">hok so</span><br/>chiselled six</td>
 {/* M/S */}
@@ -1485,7 +1845,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM6.jpg;KM6.jpg;OM6.jpg;NM6.jpg;CM6.jpg" alt=";;;;" %}6 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM6.jpg)
+> ![](KM6.jpg)
+> ![](OM6.jpg)
+> ![](NM6.jpg)
+> ![](CM6.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 6 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">หกคน</span><br/><span lang="th-Latn">hok khon</span><br/>six people</td>
 {/* M/S */}
@@ -1565,7 +1943,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC7.jpg;KC7.jpg;OC7.jpg;NC7.jpg;CC7.jpg" alt=";;;;" %}7 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC7.jpg)
+> ![](KC7.jpg)
+> ![](OC7.jpg)
+> ![](NC7.jpg)
+> ![](CC7.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 7 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">เจ็ดพัด</span><br/><span lang="th-Latn">chet phat</span><br/>seven fans</td>
 {/* M/S */}
@@ -1605,7 +2001,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS7.jpg;KS7.jpg;OS7.jpg;NS7.jpg;CS7.jpg" alt=";;;;" %}7 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS7.jpg)
+> ![](KS7.jpg)
+> ![](OS7.jpg)
+> ![](NS7.jpg)
+> ![](CS7.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 7 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">เจ็ดนก</span><br/><span lang="th-Latn">chet nok</span><br/>seven birds</td>
 {/* M/S */}
@@ -1645,7 +2059,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM7.jpg;KM7.jpg;OM7.jpg;NM7.jpg;CM7.jpg" alt=";;;;" %}7 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM7.jpg)
+> ![](KM7.jpg)
+> ![](OM7.jpg)
+> ![](NM7.jpg)
+> ![](CM7.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 7 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">เจ็ดคน</span><br/><span lang="th-Latn">chet khon</span><br/>seven people</td>
 {/* M/S */}
@@ -1725,7 +2157,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC8.jpg;KC8.jpg;OC8.jpg;NC8.jpg;CC8.jpg" alt=";;;;" %}8 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC8.jpg)
+> ![](KC8.jpg)
+> ![](OC8.jpg)
+> ![](NC8.jpg)
+> ![](CC8.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 8 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">แปดตา</span><br/><span lang="th-Latn">paet ta</span><br/>eight eyes</td>
 {/* M/S */}
@@ -1765,7 +2215,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS8.jpg;KS8.jpg;OS8.jpg;NS8.jpg;CS8.jpg" alt=";;;;" %}8 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS8.jpg)
+> ![](KS8.jpg)
+> ![](OS8.jpg)
+> ![](NS8.jpg)
+> ![](CS8.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 8 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">แปดละเอียด</span><br/><span lang="th-Latn">paet laiat</span><br/>delicate eight<br/><br/><span lang="th">แปดเซาะ</span><br/><span lang="th-Latn">paet so</span><br/>chiselled eight</td>
 {/* M/S */}
@@ -1805,7 +2273,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM8.jpg;KM8.jpg;OM8.jpg;NM8.jpg;CM8.jpg" alt=";;;;" %}8 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM8.jpg)
+> ![](KM8.jpg)
+> ![](OM8.jpg)
+> ![](NM8.jpg)
+> ![](CM8.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 8 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">แปดคน</span><br/><span lang="th-Latn">paet khon</span><br/>eight people</td>
 {/* M/S */}
@@ -1885,7 +2371,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DC9.jpg;KC9.jpg;OC9.jpg;NC9.jpg;CC9.jpg" alt=";;;;" %}9 Coins</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DC9.jpg)
+> ![](KC9.jpg)
+> ![](OC9.jpg)
+> ![](NC9.jpg)
+> ![](CC9.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 9 Coins
+</th>
 {/* Thai */}
 <td><span lang="th">เก้าจัน</span><br/><span lang="th-Latn">kao chan</span><br/>nine <a href="https://en.wikipedia.org/wiki/Diospyros_decandra"><cite>Diospyros decandra</cite></a>, similar to a persimmon</td>
 {/* M/S */}
@@ -1925,7 +2429,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DS9.jpg;KS9.jpg;OS9.jpg;NS9.jpg;CS9.jpg" alt=";;;;" %}9 Strings</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DS9.jpg)
+> ![](KS9.jpg)
+> ![](OS9.jpg)
+> ![](NS9.jpg)
+> ![](CS9.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 9 Strings
+</th>
 {/* Thai */}
 <td><span lang="th">เก้าแดง</span><br/><span lang="th-Latn">kao daeng</span><br/>red nine</td>
 {/* M/S */}
@@ -1965,7 +2487,25 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </tr>
 
 <tr>
-<th scope="row" class="sticky-left border-end table-light"><Image noborder=true hidden=true cram=true equalheight=true size="small" src="DM9.jpg;KM9.jpg;OM9.jpg;NM9.jpg;CM9.jpg" alt=";;;;" %}9 Myriads</Image></th>
+<th scope="row" class="sticky-left border-end table-light">
+> [!figure]
+>
+> ![](DM9.jpg)
+> ![](KM9.jpg)
+> ![](OM9.jpg)
+> ![](NM9.jpg)
+> ![](CM9.jpg)
+>
+> ```yaml
+> noborder: true
+> hidden: true
+> cram: true
+> equalheight: true
+> size: "small"
+> ```
+>
+> 9 Myriads
+</th>
 {/* Thai */}
 <td><span lang="th">เก้าคน</span><br/><span lang="th-Latn">kao khon</span><br/>nine people</td>
 {/* M/S */}

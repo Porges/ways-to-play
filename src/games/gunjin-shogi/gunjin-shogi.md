@@ -16,13 +16,15 @@ There exist many different versions of <span class="noun" lang="ja-Latn">Gunjin 
 
 ### 15-piece version
 
-<Image 
-  size="small"
-  alt="A board game box with an image of a soldier riding a white horse and carrying the flag of the Japanese army. On the side of the image are depicted two aeroplanes and a mushroom cloud."
-  src='gunjin_shogi_box_1.jpg' %}
-The box for <span lang="ja">新行軍将棋</span>. This was probably produced some
-time between 1945–55.[@HironoriGunjin]
-</Image>
+> [!figure]
+>
+> ![A board game box with an image of a soldier riding a white horse and carrying the flag of the Japanese army. On the side of the image are depicted two aeroplanes and a mushroom cloud.](gunjin_shogi_box_1.jpg)
+>
+> ```yaml
+> size: "small"
+> ```
+>
+> The box for <span lang="ja">新行軍将棋</span>. This was probably produced some time between 1945–55.[@HironoriGunjin]
 
 This version was sold as <span lang="ja">新行軍将棋</span> (<Pronounce lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_新行軍将棋.mp3">shinkōgunshōgi</Pronounce> ‘new marching chess’). There are fourteen pieces: the first eleven are soldiers ranking from <span lang="ja">元帥</span>[^fn0] ‘marshal’ down to <span lang="ja">少尉</span> ‘second lieutenant’; the rest are special pieces [<span lang="ja">ＭＰ</span>](https://en.wikipedia.org/wiki/Military_police), <span lang="ja">ヒコーキ</span> ‘aeroplane’, <span lang="ja">原子爆弾</span> ‘atomic bomb’, and <span lang="ja">スパイ</span> ‘spy’.
 

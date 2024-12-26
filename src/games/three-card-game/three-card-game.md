@@ -18,15 +18,15 @@ date modified: 2024-12-22
 This page discusses variants of what — for lack of a better term — I call the ‘three-card game’. The game is played with a deck of cards and the goal is to achieve a score as close to 9 as possible. It dates from at least the late Ming dynasty (<abbr>c.</abbr> 1580–1600), but has spread to many countries, with one route in particular originating in Japan, passing down through the Malay Archipelago, and arriving in Aboriginal communities in the Northern Territory of Australia. The most widespread version of the game today is that derived in Europe and known as Baccarat.
 </p>
 
-{/*
 > [!figure]
 >
+> ![](../../maps//OichoKabu.svg)
+>
 > ```yaml
-> position="left" src="../../maps/OichoKabu.svg" alt=""
+> position: left
 > ```
 >
-> Countries where the game has been played.
-*/}
+> Countries where the game has been played. (TODO)
 
 The earliest reference that I know of is that of <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒</span>, 1556–1622), a late Ming-era poet who mentioned the game <span lang="zh" class="aka">扯三章</span>/<span lang="zh" class="aka">扯三張</span>[^fn0]  (‘draw 3 cards’) in passing while describing the rules of the game <span lang="zh">扯三章</span> (‘draw 5 cards’, for which, see the [Five Card](games/five-card/five-card.md) article). The rules are not explicitly given (he simply states <span lang="zh">扯三張例俱如前</span> ‘drawing 3 cards: rules as above’ after a subsection of the 5-card rules), but it is clear from the context that the game is essentially the same as the more recent versions given below.[@XuYeziPu_2] <span lang="cmn-Latn-pinyin" class="noun">Pān</span> also describes the game being played for drinks:[@XuYeziPu_2 281]
 
@@ -69,11 +69,7 @@ In Japan the game is usually played with special cards called <span lang="ja-Lat
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg'
-  alt=""
-> ```
+> ![](../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg)
 >
 > A full deck of forty <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
 
@@ -83,10 +79,14 @@ Possibly the game was originally called the ‘three card’ (<span lang="ja">�
 
 > [!figure]
 >
+> ![](3card.png)
+>
 > ```yaml
-> src="3card.png" alt="" noborder=true position="aside"
-  license="cc0" originalUrl="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/cb3e601f-5df0-4433-bbae-723e214ef33c"
-  orgName="General Library in the University of Tokyo" 
+> noborder: true
+> position: aside
+> license: cc0
+> originalUrl: "https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/cb3e601f-5df0-4433-bbae-723e214ef33c"
+> orgName: "General Library in the University of Tokyo" 
 > ```
 >
 > A three-card game being played in a picture that accompanies the story “A Man Coming to [Ponto”](https://en.wikipedia.org/wiki/Ponto-ch%C5%8D) <span lang="ja">「<ruby>先斗<rp>（</rp><rt>ぼんと</rt><rp>）</rp></ruby>に<ruby>置<rp>（</rp><rt>をい</rt><rp>）</rp></ruby>て<ruby>来多<rp>（</rp><rt>きた</rt><rp>）</rp></ruby>男」</span> in the book <cite>Twenty Cases of Unfilial Children</cite> <cite lang="ja">本朝二十不孝</cite> (1686) by [<span lang="ja-Latn" class="noun">Ihara Saikaku</span>](https://en.wikipedia.org/wiki/Ihara_Saikaku) (<span lang="ja">井原西鶴</span>, 1642—1693); the book is a parody of the Chinese classic [<cite>Twenty-Four Paragons of Filial Piety</cite> <cite lang="zh">二十四孝</cite>.](https://en.wikipedia.org/wiki/The_Twenty-four_Filial_Exemplars)
@@ -213,17 +213,23 @@ Similarly, in the <span lang="ja-Latn">bunraku/kabuki</span> play <cite>Ōtō-no
 
 ### “<span lang="ja-Latn">Yakuza</span>”
 
-{%aside%}
-An interesting coincidence pointed out by Ryan Sartor is that when translated to the <span lang="ja-Latn" class="noun">Hanafuda</span> deck (with which the game could also be played), the card values <Cards>893</Cards> correspond to the following card combination (<span lang="ja">役</span> <span lang="ja-Latn">yaku</span>), which is named <span lang="ja-Latn">nomi</span> (<span lang="ja">飲み</span> ‘drinking’), and is used in several <span lang="ja-Latn" class="noun">Hanafuda</span> games:
-<Image src="../../articles/cards/japan/hanafuda/Hanafuda_8-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_9-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_3-1.svg" alt="a card showing the full moon;a card showing a sake cup;a card showing cherry blossoms" size="small" justify="centered"
-    authorFamily="Mantia"
-    authorGiven="Louie"
-    copyrightYear=2021
-    license="cc-by-sa"
-    licenseVersion="4.0"
- %}
-</Image>
-{%endaside%}
+> [!aside]
+> An interesting coincidence pointed out by Ryan Sartor is that when translated to the <span lang="ja-Latn" class="noun">Hanafuda</span> deck (with which the game could also be played), the card values <Cards>893</Cards> correspond to the following card combination (<span lang="ja">役</span> <span lang="ja-Latn">yaku</span>), which is named <span lang="ja-Latn">nomi</span> (<span lang="ja">飲み</span> ‘drinking’), and is used in several <span lang="ja-Latn" class="noun">Hanafuda</span> games:
+> > [!figure]
+> >
+> > ![a card showing the full moon](../../articles/cards/japan/hanafuda/Hanafuda_8-1.svg)
+> > ![a card showing a sake cup](../../articles/cards/japan/hanafuda/Hanafuda_9-1.svg)
+> > ![a card showing cherry blossoms](../../articles/cards/japan/hanafuda/Hanafuda_3-1.svg)
+> >
+> > ```yaml
+> > size: "small"
+> > justify: "centered"
+> > authorFamily: "Mantia"
+> > authorGiven: "Louie"
+> > copyrightYear: 2021
+> > license: "cc-by-sa"
+> > licenseVersion: "4.0"
+> > ```
 
 A hand that sums to zero is the worst possible hand. The name of one of these hands — that comprising the 8, 9, and 3 cards — will be familiar to many English-speakers today as the word used for Japanese gangsters, <span lang="ja-Latn">yakuza</span>. The name is a straightforward reading (one of several possible) of the numbers <span lang="ja">八九三</span> (893), and, before being applied to gangsters, was a term derived from the <span lang="ja-Latn" class="noun">Oicho-Kabu</span> hand which also meant “useless” or “good-for-nothing”. 
 

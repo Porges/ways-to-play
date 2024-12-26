@@ -109,17 +109,15 @@ the temple (marked “Hale o Lono” in the map below), in the current location 
 the Hawaii Community Foundation. Smaller boards were near what is now Iolani
 Palace.
 
-<Image 
-  size="wide"
-  src="61-511high.png"
-  alt="A map of Honolulu as it was in 1810." %}
-A reconstruction of Honolulu as it was in 1810. Kamehameha lived in the large
-compound on the point at the bottom centre. Kou is the area around there,
-bordered by the yam field at the top. Archibald Campbell stayed for some time
-with Isaac Davis, who lived in the rightmost of the three houses on the left.
-(Map from the [University of <span class="noun"
-lang="haw">Hawaiʻi</span>](https://digicoll.manoa.hawaii.edu/savedmaps/Pages/viewtext.php?s=browse&amp;tid=61&amp;route=browseby.php&amp;by=newest).)
-</Image>
+> [!figure]
+>
+> ![A map of Honolulu as it was in 1810.](61-511high.png)
+>
+> ```yaml
+> size: "wide"
+> ```
+>
+>  A reconstruction of Honolulu as it was in 1810. Kamehameha lived in the large compound on the point at the bottom centre. Kou is the area around there, bordered by the yam field at the top. Archibald Campbell stayed for some time with Isaac Davis, who lived in the rightmost of the three houses on the left. (Map from the [University of <span class="noun" lang="haw">Hawaiʻi</span>](https://digicoll.manoa.hawaii.edu/savedmaps/Pages/viewtext.php?s=browse&amp;tid=61&amp;route=browseby.php&amp;by=newest).) 
 
 The game continued to be popular throughout the 19th century; William Brigham
 (first director of Hawaii’s state museum) reported that King <span class="noun"

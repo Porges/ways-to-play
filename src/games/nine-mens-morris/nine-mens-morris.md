@@ -481,34 +481,41 @@ Babbage also apparently experimented with differently-shaped boards, in both
 triangular and pentagonal shapes,[@SourcesInRecreationalMathematics] but I have
 not yet been able to see the manuscript in question.
 
-<Image 
-    noborder=true
-    src="windmill.svg;merel-pentagon.svg;merel-pentagon2.svg"
-    alt=";A board constructed from three nested pentagons with corners and side-middles connected.;A board constructed from five nested pentagons in alternating orientations." %}
-Alternate boards of German origin:[@KlassischeSpiele p. 58] a ‘sun-mill’ (played
-with 12 pieces each), and two boards constructed from nested pentagons. The
-first pentagonal board is played with 11 pieces each, the second is designed to
-be played by two or more players: for two players use 12 pieces; for three, 8;
-for four, 6; and for five, 5.
-</Image>
+> [!figure]
+>
+> ![](windmill.svg)
+> ![A board constructed from three nested pentagons with corners and side-middles connected.](merel-pentagon.svg)
+> ![A board constructed from five nested pentagons in alternating orientations.](merel-pentagon2.svg)
+>
+> ```yaml
+> noborder: true
+> ```
+>
+> Alternate boards of German origin:[@KlassischeSpiele p. 58] a ‘sun-mill’ (played with 12 pieces each), and two boards constructed from nested pentagons. The first pentagonal board is played with 11 pieces each, the second is designed to be played by two or more players: for two players use 12 pieces; for three, 8; for four, 6; and for five, 5.
 
-<Image 
-    noborder=true
-    src="merel-cube1.svg;merel-cube2.svg"
-    alt=";" %}
-Two variations of a ‘cube’ board by David Parlett.[@OxfordBG p. 122] On the
-coloured board, a mill may not cross between differently-coloured regions, and
-the middle point may only be taken to complete a mill or prevent completion of a
-mill on the next turn.
-</Image>
+> [!figure]
+>
+> ![](merel-cube1.svg)
+> ![](merel-cube2.svg)
+>
+> ```yaml
+> noborder: true
+> ```
+>
+> Two variations of a ‘cube’ board by David Parlett.[@OxfordBG p. 122] On the coloured board, a mill may not cross between differently-coloured regions, and the middle point may only be taken to complete a mill or prevent completion of a mill on the next turn.
 
-<Image 
-  noborder=true
-  src="merel-mobius.svg;merel-pentagon3.svg;merel-hexagon.svg"
-  alt=";;" %}
-The Möbius board (invented by <span class="noun" lang="de">Ingo Althöfer</span>), another
-pentagonal board (without joined corners), and a hexagonal board.
-</Image>
+
+> [!figure]
+>
+> ![](merel-mobius.svg)
+> ![](merel-pentagon3.svg)
+> ![](merel-hexagon.svg)
+>
+> ```yaml
+> noborder: true
+> ```
+>
+> The Möbius board (invented by <span class="noun" lang="de">Ingo Althöfer</span>), another pentagonal board (without joined corners), and a hexagonal board.
 
 ### Twelve Men’s Morris
 

@@ -105,17 +105,31 @@ form a <span lang="ms">mata</span> for their last set) they call ‘<span
 lang="ms">ceki</span>’.{%fn%}From Hokkien <span lang="nan">一枝</span> ‘one
 card’.{%endfn%}
 
-<Image 
-  cram=true
-  noborder=true
-  size="wide"
-  hidden=true
-  src="../../articles/cards/ceki/CS2.jpg;../../articles/cards/ceki/CM2.jpg;../../articles/cards/ceki/CM2.jpg;../../articles/cards/ceki/CC3.jpg;../../articles/cards/ceki/CS3.jpg;../../articles/cards/ceki/CM3.jpg;../../articles/cards/ceki/CC6.jpg;../../articles/cards/ceki/CS6.jpg;../../articles/cards/ceki/CM6.jpg;../../articles/cards/ceki/CS7.jpg;../../articles/cards/ceki/CS7.jpg;../../articles/cards/ceki/CM7.jpg;../../articles/cards/ceki/CM8.jpg;../../articles/cards/ceki/CM8.jpg"
-  alt=";;;;;;;;;;;;;" %}
-A hand with four complete sets that can be called as ‘<span
-lang="ms">ceki</span>’, hoping to turn the pair of identical <Cards>8</Cards>s
-into a <span lang="ms">mata</span>.
-</Image>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS2.jpg)
+> ![](../../articles/cards/ceki/CM2.jpg)
+> ![](../../articles/cards/ceki/CM2.jpg)
+> ![](../../articles/cards/ceki/CC3.jpg)
+> ![](../../articles/cards/ceki/CS3.jpg)
+> ![](../../articles/cards/ceki/CM3.jpg)
+> ![](../../articles/cards/ceki/CC6.jpg)
+> ![](../../articles/cards/ceki/CS6.jpg)
+> ![](../../articles/cards/ceki/CM6.jpg)
+> ![](../../articles/cards/ceki/CS7.jpg)
+> ![](../../articles/cards/ceki/CS7.jpg)
+> ![](../../articles/cards/ceki/CM7.jpg)
+> ![](../../articles/cards/ceki/CM8.jpg)
+> ![](../../articles/cards/ceki/CM8.jpg)
+>
+> ```yaml
+> cram: true
+> noborder: true
+> size: "wide"
+> hidden: true
+> ```
+>
+> A hand with four complete sets that can be called as ‘<span lang="ms">ceki</span>’, hoping to turn the pair of identical <Cards>8</Cards>s into a <span lang="ms">mata</span>.
 
 Once any player has called, whenever a player draws from the face-down stock,
 they must reveal the card before adding it to their hand. If it is the winning

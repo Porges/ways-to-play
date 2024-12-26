@@ -24,15 +24,15 @@ the front indicates their highest-quality card, but it could contain either
 <span class="noun" lang="ja-Latn">Hanafuda</span> or <span class="noun" lang="ja-Latn">Kabufuda</span>
 cards.
 
-<Image 
-  size="small"
-  src='NintendoEnd.jpg'
-  alt="The end of a Hanafuda wrapper with Japanese writing indicating its contents." %}
-The end of a <span class="noun" lang="ja-Latn">Nintendō</span> wrapper indicating that it
-contains standard (<span lang="ja">八々花</span> <span
-lang="ja-Latn">hachihachibana</span>) Hanafuda cards, with black (<span
-lang="ja">黒</span>) backs.
-</Image>
+> [!figure]
+>
+> ![The end of a Hanafuda wrapper with Japanese writing indicating its contents.](NintendoEnd.jpg)
+>
+> ```yaml
+> size: "small"
+> ```
+>
+> The end of a <span class="noun" lang="ja-Latn">Nintendō</span> wrapper indicating that it contains standard (<span lang="ja">八々花</span> <span lang="ja-Latn">hachihachibana</span>) Hanafuda cards, with black (<span lang="ja">黒</span>) backs.
 
 Traditionally, decks were boxed in sets of two, usually one with black backs and
 the other with red backs. The outer box containing the two decks would have a
@@ -383,13 +383,12 @@ right.
 
 </div>
 
-<Image 
-    src="tax_stamp_pink.jpg;tax_stamp_purple.jpg"
-    alt="A long rectangular stamp coloured pink, with elaborate border and a serial number in centre.;A long rectangular stamp coloured purple, with elaborate border and a serial number in centre." %}
-Tax stamps of the type used from 1960 until the tax was abolished in 1989. Pink
-was used for <span class="noun" lang="ja-Latn">Hanafuda</span> decks and purple was used for
-Western style (“trump”) decks.
-</Image>
+> [!figure]
+>
+> ![A long rectangular stamp coloured pink, with elaborate border and a serial number in centre.](tax_stamp_pink.jpg)
+> ![A long rectangular stamp coloured purple, with elaborate border and a serial number in centre.](tax_stamp_purple.jpg)
+>
+> Tax stamps of the type used from 1960 until the tax was abolished in 1989. Pink was used for <span class="noun" lang="ja-Latn">Hanafuda</span> decks and purple was used for Western style (“trump”) decks.
 
 ## Current Manufacturers
 
@@ -452,28 +451,32 @@ lang="ja" class="circled">福</span> (<span lang="ja-Latn">fuku</span>,
 [<span lang="ja-Latn">yagō</span>](https://en.wikipedia.org/wiki/Yag%C5%8D)) of
 the <span class="noun" lang="ja-Latn">Yamauchi</span> family.
 
-<Image 
-    size="wide"
-    src="nintendo-shop.jpg"
-    alt="A wooden storefront with wrought-iron railings and a bicycle parked outside."
-    license="cc0" %}
-The <span class="noun" lang="ja-Latn">Nintendō</span> storefront in <span class="noun"
-lang="ja-Latn">Kyōto</span> (original source dates this as 1889, but it seems
-more likely to be after 1900).
-</Image>
+> [!figure]
+>
+> ![A wooden storefront with wrought-iron railings and a bicycle parked outside.](nintendo-shop.jpg)
+>
+> ```yaml
+> size: "wide"
+> license: "cc0"
+> ```
+>
+> The <span class="noun" lang="ja-Latn">Nintendō</span> storefront in <span class="noun" lang="ja-Latn">Kyōto</span> (original source dates this as 1889, but it seems more likely to be after 1900).
 
-<Image 
-    noborder=true
-    position="aside"
-    perRow=2
-    src="Nintendo_trademark2.png;Nintendo_trademark3.png;Nintendo_trademark4.png;Nintendo_trademark5.png"
-    alt=";;;"
-    license="cc0" %}
-Some early <span class="noun" lang="ja-Latn">Nintendō</span> trademarks, registered in 1900
-by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō</span>.[@Trademarks1905 p. 67] Note
-that at this time <span class="noun" lang="ja-Latn">Nintendō</span> had not yet started using
-the stylized form of the <span lang="ja-Latn">marufuku</span> symbol.
-</Image>
+> [!figure]
+>
+> ![](Nintendo_trademark2.png)
+> ![](Nintendo_trademark3.png)
+> ![](Nintendo_trademark4.png)
+> ![](Nintendo_trademark5.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> perRow: 2
+> license: "cc0"
+> ```
+>
+> Some early <span class="noun" lang="ja-Latn">Nintendō</span> trademarks, registered in 1900 by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō</span>.[@Trademarks1905 p. 67] Note that at this time <span class="noun" lang="ja-Latn">Nintendō</span> had not yet started using the stylized form of the <span lang="ja-Latn">marufuku</span> symbol.
 
 In the past <span class="noun" lang="ja-Latn">Nintendō</span> produced many varieties of
 local cards or <span class="noun" lang="ja-Latn">Mekuri</span> cards, but today they only
@@ -485,13 +488,16 @@ lang="ja">丸福天狗</span>; and <span lang="ja-Latn">Miyako no Hana</span> <s
 lang="ja">都の花</span> ‘flowers of the city’.
 
 <div class="multi">
-<Image 
-    src="Nintendo.jpg"
-    alt="A Hanafuda wrapper featuring an image of Napoleon on the front." %}
-<span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">Daitōryō</span>
-packaging (1970s). Note the <span class="noun" lang="ja-Latn">Marufuku</span> mark at top
-right.
-</Image>
+> [!figure]
+>
+> ![A Hanafuda wrapper featuring an image of Napoleon on the front.](Nintendo.jpg)
+>
+> ```yaml
+> 
+> ```
+>
+> <span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s). Note the <span class="noun" lang="ja-Latn">Marufuku</span> mark at top right.
+
 > [!figure]
 >
 > ```yaml
@@ -691,13 +697,15 @@ far as I know, they are the only major manufacturer still producing <span class=
 lang="ja-Latn">Mefuda</span> cards. They also produce reproductions of even
 older cards, such as the <span class="noun" lang="ja-Latn">Unsun</span> deck.
 
-<Image 
-    size="wide"
-    src="OishiTengudo_handprint.jpg"
-    alt="Two sets of Hanafuda cards with colours printed by hand, indicated by streaks in the inks." %}
-Cards from two different hand-printed <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>
-decks, showing the high variability caused by the technique.
-</Image>
+> [!figure]
+>
+> ![Two sets of Hanafuda cards with colours printed by hand, indicated by streaks in the inks.](OishiTengudo_handprint.jpg)
+>
+> ```yaml
+> size: "wide"
+> ```
+>
+> Cards from two different hand-printed <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> decks, showing the high variability caused by the technique.
 
 <Image 
     noborder=true
@@ -876,45 +884,18 @@ In addition to the many standard & local patterns of <span class="noun"
 lang="ja-Latn">Hanafuda</span> they produce, they also publish some novelty
 decks, such as the <strong><span class="noun" lang="ja-Latn">Kyōto Hanafuda</span></strong>:
 
-<Image 
-    src="KyoHana.jpg"
-    alt="Five hanafuda cards with depictions of landmarks and various aspects of Kyōto life." %}
-The <span class="noun" lang="ja-Latn">Kyōto Hanafuda</span>’s 5 Brights, showing icons and landmarks of <span class="noun" lang="ja-Latn">Kyōto</span>.
-
-From left to right they represent: a fox with a jewel in its mouth, from the
-gate of the [<span class="noun" lang="ja-Latn">Fushimi Inari</span>
-shrine](https://en.wikipedia.org/wiki/Fushimi_Inari-taisha) (<span lang="ja">伏
-見稲荷大社</span>); [<span class="noun" lang="ja-Latn">Toyotomi
-Hideyoshi</span>](https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi) (<span
-lang="ja">豊臣秀吉</span>), [<span class="noun" lang="ja-Latn">Kita no
-Mandokoro</span>](https://en.wikipedia.org/wiki/K%C5%8Ddai-in) (<span lang="ja">
-北政所</span>), and [<span class="noun"
-lang="ja-Latn">Yodogimi</span>](https://en.wikipedia.org/wiki/Yodo-dono) (<span
-lang="ja">淀君</span>) at [Fushimi
-Castle](https://en.wikipedia.org/wiki/Fushimi_Castle) (<span lang="ja">伏見城
-</span>); the character <span lang="ja">大</span> (<span
-lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <span class="noun"
-lang="ja-Latn">Daimonji</span> (<span lang="ja">大文字山</span>) during the
-festival of [<span class="noun" lang="ja-Latn">Gozan no
-Okuribi</span>](https://en.wikipedia.org/wiki/Gozan_no_Okuribi) (<span
-lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk [<span class="noun"
-lang="ja-Latn">Benkei</span>](https://en.wikipedia.org/wiki/Benkei) (<span
-lang="ja">弁慶</span>) meeting [<span class="noun" lang="ja-Latn">Minamoto no
-Yoshitsune</span>](https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune) (<span
-lang="ja">源義経</span>), who is playing the flute, at <span class="noun"
-lang="ja-Latn">Gojō</span> bridge (<span lang="ja">五条橋</span>); and the
-[<span class="noun" lang="ja-Latn">Kyōto
-Sanga</span>](https://en.wikipedia.org/wiki/Kyoto_Sanga_FC) (<span lang="ja">京
-都サンガ</span>) football club, whose logo contains the Chinese/Japanese phoenix
-that is normally featured on the Paulownia bright card.
-</Image>
+> [!figure]
+>
+> ![Five hanafuda cards with depictions of landmarks and various aspects of Kyōto life.](KyoHana.jpg)
+>
+>
+> The <span class="noun" lang="ja-Latn">Kyōto Hanafuda</span>’s 5 Brights, showing icons and landmarks of <span class="noun" lang="ja-Latn">Kyōto</span>. From left to right they represent: a fox with a jewel in its mouth, from the gate of the [<span class="noun" lang="ja-Latn">Fushimi Inari</span> shrine](https://en.wikipedia.org/wiki/Fushimi_Inari-taisha) (<span lang="ja">伏 見稲荷大社</span>); [<span class="noun" lang="ja-Latn">Toyotomi Hideyoshi</span>](https://en.wikipedia.org/wiki/Toyotomi_Hideyoshi) (<span lang="ja">豊臣秀吉</span>), [<span class="noun" lang="ja-Latn">Kita no Mandokoro</span>](https://en.wikipedia.org/wiki/K%C5%8Ddai-in) (<span lang="ja"> 北政所</span>), and [<span class="noun" lang="ja-Latn">Yodogimi</span>](https://en.wikipedia.org/wiki/Yodo-dono) (<span lang="ja">淀君</span>) at [Fushimi Castle](https://en.wikipedia.org/wiki/Fushimi_Castle) (<span lang="ja">伏見城 </span>); the character <span lang="ja">大</span> (<span lang="ja-Latn">dai</span>, ‘large’), which is lit on fire on mount <span class="noun" lang="ja-Latn">Daimonji</span> (<span lang="ja">大文字山</span>) during the festival of [<span class="noun" lang="ja-Latn">Gozan no Okuribi</span>](https://en.wikipedia.org/wiki/Gozan_no_Okuribi) (<span lang="ja">五山送り火</span>, ‘five mountain fire’); the warrior monk [<span class="noun" lang="ja-Latn">Benkei</span>](https://en.wikipedia.org/wiki/Benkei) (<span lang="ja">弁慶</span>) meeting [<span class="noun" lang="ja-Latn">Minamoto no Yoshitsune</span>](https://en.wikipedia.org/wiki/Minamoto_no_Yoshitsune) (<span lang="ja">源義経</span>), who is playing the flute, at <span class="noun" lang="ja-Latn">Gojō</span> bridge (<span lang="ja">五条橋</span>); and the [<span class="noun" lang="ja-Latn">Kyōto Sanga</span>](https://en.wikipedia.org/wiki/Kyoto_Sanga_FC) (<span lang="ja">京 都サンガ</span>) football club, whose logo contains the Chinese/Japanese phoenix that is normally featured on the Paulownia bright card.
 
 In conjunction with <span class="noun" lang="ja-Latn">Ganzo&shy;futo&shy;neko&shy;dō</span> (<span lang="ja">元祖ふとねこ堂</span>), they produced <strong><span class="noun" lang="ja-Latn">Hana&shy;neko&shy;fuda</span></strong> (<span lang="ja">花猫札</span>), featuring Japanese cats:
 
-<Image 
-    src="OishiTengudo_Cat.jpg"
-    alt="Hanafuda cards with Japanese cats on them." %}
-</Image>
+> [!figure]
+>
+> ![Hanafuda cards with Japanese cats on them.](OishiTengudo_Cat.jpg)
 
 ### <img src='/small-images/angel-logo.svg' alt="" class="inline-img" /> <a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)
 
@@ -1627,26 +1608,31 @@ the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in
 > Another version of the storefront box, from the <abbr title="Worshipful Company of Playing Card Makers">WCPCM</abbr> collection.
 
 
-<Image 
-    noborder=true
-    position="aside"
-    src="Tamada_trademark1.png;Tamada_trademark2.png"
-    alt=";"
-    license="cc0" %}
-Some early <span class="noun" lang="ja-Latn">Tamada</span> trademarks, registered in 1899 by
-<span class="noun" lang="ja-Latn">Tamada Yasunosuke</span> (<span lang="ja">玉田安之助
-</span>).[@Trademarks1905 p. 66]
-</Image>
+> [!figure]
+>
+> ![](Tamada_trademark1.png)
+> ![](Tamada_trademark2.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> Some early <span class="noun" lang="ja-Latn">Tamada</span> trademarks, registered in 1899 by <span class="noun" lang="ja-Latn">Tamada Yasunosuke</span> (<span lang="ja">玉田安之助 </span>).[@Trademarks1905 p. 66]
 
-<Image 
-    noborder=true
-    position="aside"
-    src="NihonKaruta_trademark1.png;NihonKaruta_trademark2.png"
-    alt=";"
-    license="cc0" %}
-Earliest <span class="noun" lang="ja-Latn">Nihon Karuta</span> trademarks, registered in
-1915.[@Trademarks1924_8 p. 295]
-</Image>
+> [!figure]
+>
+> ![](NihonKaruta_trademark1.png)
+> ![](NihonKaruta_trademark2.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> Earliest <span class="noun" lang="ja-Latn">Nihon Karuta</span> trademarks, registered in 1915.[@Trademarks1924_8 p. 295]
 
 The mark of both of these companies was <span lang="ja">中</span> with corner at
 top-right.
@@ -1891,17 +1877,16 @@ Their brands included:
 
 </div>
 
-<Image 
-    alt="The frontage of a very wide Japanese store, with signs depicting several figures."
-    size="extra-wide"
-    src="yamashiro_exterior.jpg"
-    license="cc0" %}
-A box wrapper from around 1900 featuring an imaginary depiction of the <span class="noun"
-lang="ja-Latn">Yamashiro</span> store exterior; in reality it was nowhere near
-as large as this. The advertising boards at the left depict <span class="noun"
-lang="cmn-Latn-pinyin">Guan Yu</span> and <span class="noun" lang="cmn-Latn-pinyin">Shi Jin</span>, who
-represent two of the company’s brands (see trademark images at right).
-</Image>
+> [!figure]
+>
+> ![The frontage of a very wide Japanese store, with signs depicting several figures.](yamashiro_exterior.jpg)
+>
+> ```yaml
+> size: "extra-wide"
+> license: "cc0"
+> ```
+>
+> A box wrapper from around 1900 featuring an imaginary depiction of the <span class="noun" lang="ja-Latn">Yamashiro</span> store exterior; in reality it was nowhere near as large as this. The advertising boards at the left depict <span class="noun" lang="cmn-Latn-pinyin">Guan Yu</span> and <span class="noun" lang="cmn-Latn-pinyin">Shi Jin</span>, who represent two of the company’s brands (see trademark images at right).
 
 ### <img src='/small-images/maruryu.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Ryūtendō</span> (<span lang="ja">龍天堂</span>)
 
@@ -2226,12 +2211,11 @@ brands included:
 >
 >     The <span lang="ja-Latn">fune</span> wrapper.
 
-<Image src='KHnarikomaya.jpg' alt="A hanafuda wrapper with a symbol repeated on it." %}
-The <span lang="ja-Latn">narikomaya</span> wrapper. The repeated symbol is <span
-lang="ja">イ菱</span> ‘<span lang="ja">イ</span> caltrop’, the <span
-lang="ja-Latn">mon</span> of the <span class="noun" lang="ja-Latn">Nakamura Ganjirō</span>
-line of actors.
-</Image>
+> [!figure]
+>
+> ![A hanafuda wrapper with a symbol repeated on it.](KHnarikomaya.jpg)
+>
+> The <span lang="ja-Latn">narikomaya</span> wrapper. The repeated symbol is <span lang="ja">イ菱</span> ‘<span lang="ja">イ</span> caltrop’, the <span lang="ja-Latn">mon</span> of the <span class="noun" lang="ja-Latn">Nakamura Ganjirō</span> line of actors.
 </div>
 
 ### <img src='/small-images/marukei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nakao Kōkeidō</span> (<span lang="ja">中尾晃恵堂</span>)
@@ -2282,16 +2266,19 @@ this type of umbrella is also referred to as a <span
 lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
 </Image>
 
-<Image 
-    noborder=true
-    position="aside"
-    src="Nishimura_trademark1.png;Nishimura_trademark2.png;Nishimura_trademark3.png"
-    alt=";;"
-    license="cc0" %}
-Early <span class="noun" lang="ja-Latn">Nishimura</span> trademarks, registered in 1915 by
-<span class="noun" lang="ja-Latn">Nishimura Inosuke</span> (<span lang="ja">西村伊之助
-</span>).[@Trademarks1924_8 p. 296]
-</Image>
+> [!figure]
+>
+> ![](Nishimura_trademark1.png)
+> ![](Nishimura_trademark2.png)
+> ![](Nishimura_trademark3.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> Early <span class="noun" lang="ja-Latn">Nishimura</span> trademarks, registered in 1915 by <span class="noun" lang="ja-Latn">Nishimura Inosuke</span> (<span lang="ja">西村伊之助 </span>).[@Trademarks1924_8 p. 296]
 
 At first an important manufacturer in <span class="noun" lang="ja-Latn">Tōkyō</span>, but
 later cards were made by other makers including <span class="noun" lang="ja-Latn">Ōishi
@@ -2436,12 +2423,11 @@ included point values on the cards, as well as the name of the month and the
 flower associated with the month. Interestingly, the point values on some of the
 cards indicate that they were intended to be played with Hawaiian rules.
 
-<Image 
-    alt="Five hanafuda cards with points which are marked with values listed in the corners, the flower listed at top, and the month listed at bottom."
-    src='NYG_hanatrump.jpg' %}
-<span class="noun" lang="ja-Latn">Nippon Yūgi</span>’s poker-format deck, possibly created
-for sale in <span class="noun" lang="haw">Hawai'i</span>.
-</Image>
+> [!figure]
+>
+> ![Five hanafuda cards with points which are marked with values listed in the corners, the flower listed at top, and the month listed at bottom.](NYG_hanatrump.jpg)
+>
+> <span class="noun" lang="ja-Latn">Nippon Yūgi</span>’s poker-format deck, possibly created for sale in <span class="noun" lang="haw">Hawai'i</span>.
 
 ### Universal (<span lang="ja">ユニバーサル</span>)
 
@@ -2492,18 +2478,20 @@ This particular deck is listed as number “350” on the packaging.
 
 > [!figure]
 >
-> ```yaml
->  src='Universal_TrumpHana_Extras.jpg' alt=""
-> ```
+> ![](Universal_TrumpHana_Extras.jpg)
 >
 > The extra [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md)-related cards of Universal’s <span class="noun" lang="ja-Latn">Trump-Hana</span> deck. I’m not sure of the significance of the “vase” Joker, since usually the Joker has the manufacturer’s name. It could be intended as a multilingual pun on “Universal” (<span lang="ja">ユニバーセル </span> <span lang="ja-Latn">yunibāseru</span>) → “Universe” (<span lang="ja">ユ ニバース</span> <span lang="ja-Latn">yunibāsu</span>), which sounds like “uni-vase” (one vase).
 
-<Image  src='Star_Joker.jpg' size="small" alt="Two small playing cards, the first a joker with a person in a robber-mask inside a star shape, and the second a paulownia card with yellow background and the words “U.P.C. Co.”">
+> [!figure]
+>
+> ![Two small playing cards, the first a joker with a person in a robber-mask inside a star shape, and the second a paulownia card with yellow background and the words “U.P.C. Co.”](Star_Joker.jpg)
+>
+> ```yaml
+> size: "small"
+> ```
+>
+> The joker and manufacturer’s Paulownia card from the “Star Playing Cards” brand. The Universal #350 deck’s manufacturer’s card is identical to this one.
 
-The joker and manufacturer’s Paulownia card from the “Star Playing Cards” brand.
-The Universal #350 deck’s manufacturer’s card is identical to this one.
-
-</Image>
 
 A larger sized <span class="noun" lang="ja-Latn">Hana-Trump</span> deck (numbered
 “<strong>25</strong>”) of theirs has different Kings which feature additional
@@ -2512,9 +2500,7 @@ additional suit in games with more players.
 
 > [!figure]
 >
-> ```yaml
->  src='Universal_25_brights.jpg' alt=""
-> ```
+> ![](Universal_25_brights.jpg)
 >
 > The Bright cards of Universal’s <span class="noun" lang="ja-Latn">Hana-Trump</span> deck. This particular deck is listed as number “25” on the packaging.
 

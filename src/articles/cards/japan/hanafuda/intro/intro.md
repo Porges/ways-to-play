@@ -227,25 +227,25 @@ Japanese decks also contain joker-like cards featuring <span
 lang="ja-Latn">oni</span> (<span lang="ja">鬼</span>, a Japanese ogre); see the
 next page for more examples of these.
 
-<div class="multi">
-<Image
-    src="Flower_jokers.jpg"
-    alt="Six cards each with a different face."%}
-    Assorted jokers from a Korean Flower deck.
-</Image>
-<Image
-    src="Rainbow_jokers.jpg"
-    alt="Six cards each with a different face."%}
-    Assorted jokers from a Korean Rainbow deck.
-</Image>
-</div>
+> [!multi]
+> > [!figure]
+> >
+> > ![Six cards each with a different face.](Flower_jokers.jpg)
+> >
+> > Assorted jokers from a Korean Flower deck.
+> 
+> > [!figure]
+> >
+> > ![Six cards each with a different face.](Rainbow_jokers.jpg)
+> >
+> > Assorted jokers from a Korean Rainbow deck.
 
 > [!figure]
 >
+> ![Two cards labelled ‘joker’, one with a frog and one with a black bird.](hwatoo_jokers.jpg)
+>
 > ```yaml
-> size="small"
-src='hwatoo_jokers.jpg'
-alt="Two cards labelled ‘joker’, one with a frog and one with a black bird." 
+> size: small
 > ```
 >
 > Two joker cards from the Yongjaeng Hwatoo ‘Style’ deck.

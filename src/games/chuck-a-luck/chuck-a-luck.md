@@ -20,13 +20,15 @@ and later developed into more complex casino variants.</p>
 
 ## Sweat-Cloth / Chuck-A-Luck
 
-<Image 
-    src='ChuckALuckLayout.jpg'
-    alt="The numbers from 1 to 6 written in separate boxes."
-    license="cc0" %}
-A professionally-produced Chuck-A-Luck layout, from Kernan Manufacturing’s
-@KernanCatalogue [p. 19].
-</Image>
+> [!figure]
+>
+> ![The numbers from 1 to 6 written in separate boxes.](ChuckALuckLayout.jpg)
+>
+> ```yaml
+> license: "cc0"
+> ```
+>
+> A professionally-produced Chuck-A-Luck layout, from Kernan Manufacturing’s @KernanCatalogue [p. 19].
 
 The play of the game is simple: there is a staking-board with six cells
 containing the numbers 1 through 6. Each player places their bet(s) on numbers
@@ -445,13 +447,16 @@ reality the edge is nearly three times higher, at 21.43%.
 If this wasn’t enough, the game was often played with a gaffed wheel that
 allowed the operator to stop the spindle spinning at will.
 
-<Image 
-    src='Spindle_ChuckALuck.png'
-    alt="A single spinner that can point to 14 different sectors with 3 numbers in each sector."
-    license="cc0" %}
-An H. C. Evans & Co. spindle and layout from their 1909–10 catalogue, as
-reproduced in @GamblingAndGamblingDevices [p. 145].
-</Image>
+> [!figure]
+>
+> ![A single spinner that can point to 14 different sectors with 3 numbers in each sector.](Spindle_ChuckALuck.png)
+>
+> ```yaml
+> license: "cc0"
+> ```
+>
+> An H. C. Evans & Co. spindle and layout from their 1909–10 catalogue, as reproduced in @GamblingAndGamblingDevices [p. 145].
+
 
 ### Jumbo Dice Wheel (Big Six)
 

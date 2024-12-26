@@ -494,42 +494,42 @@ with names that punned on the original store, such as <span class="noun"
 lang="ja-Latn">Nakagataya</span> (<span lang="ja">中方屋</span>) and <span class="noun"
 lang="ja-Latn">Shimogataya</span> (<span lang="ja">下方屋</span>).[@OpeningKamigataya]
 
-<Image
-    src="Kamigataya-Motomachi.jpg"
-    position="aside"
-    alt="An image of a Japanese street with lots of signs and flags for stores"
-    license="cc0" %}
-In this early 20th-century postcard, another branch of <span class="noun"
-lang="ja-Latn">Kamigataya</span> can be seen on the left, identified by the
-large die; this one is in <span class="noun" lang="ja-Latn">Motomachi</span> in <span class="noun"
-lang="ja-Latn">Yokohama</span>.
-</Image>
+> [!figure]
+>
+> ![An image of a Japanese street with lots of signs and flags for stores](Kamigataya-Motomachi.jpg)
+>
+> ```yaml
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> In this early 20th-century postcard, another branch of <span class="noun" lang="ja-Latn">Kamigataya</span> can be seen on the left, identified by the large die; this one is in <span class="noun" lang="ja-Latn">Motomachi</span> in <span class="noun" lang="ja-Latn">Yokohama</span>.
 
-<div class="multi">
-<Image
-    src='Kamigataya-Ginza.jpg'
-    alt="A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda."
-    license="cc0" %}
-A newspaper advertisement depicting the outside of the <span class="noun"
-lang="ja-Latn">Ginza</span> <span class="noun" lang="ja-Latn">Kamigataya</span> store, 1889.
-The large die was added to the store in December 1886.
-</Image>
-<Image
-    src='Nakagataya.jpg'
-    alt="A Japanese storefront, open to the street, with a large die shop marker."
-    license="cc0" %}
-The storefront of <span class="noun" lang="ja-Latn">Nakagataya</span>, as shown on a <span class="noun"
-lang="ja-Latn">Hyakunin Isshu</span> box.
-</Image>
+
+> [!multi]
+> > [!figure]
+> >
+> > ![A Japanese storefront, open to the street, with many placards depicting Western cards along with Hanafuda.](Kamigataya-Ginza.jpg)
+> >
+> > ```yaml
+> > license: "cc0"
+> > ```
+> >
+> > A newspaper advertisement depicting the outside of the <span class="noun" lang="ja-Latn">Ginza</span> <span class="noun" lang="ja-Latn">Kamigataya</span> store, 1889. The large die was added to the store in December 1886.
+> 
+> > [!figure]
+> >
+> > ![A Japanese storefront, open to the street, with a large die shop marker.](Nakagataya.jpg)
+> >
+> > ```yaml
+> > license: "cc0"
+> > ```
+> >
+> > The storefront of <span class="noun" lang="ja-Latn">Nakagataya</span>, as shown on a <span class="noun" lang="ja-Latn">Hyakunin Isshu</span> box.
+
 </div>
 
-Once the viability of <span class="noun" lang="ja-Latn">Hanafuda</span> had been pro&shy;ven,
-other manufacturers appeared quickly: the com&shy;pany that was later to become
-<span class="noun" lang="ja-Latn">Nin&shy;tendo</span> began producing <span class="noun"
-lang="ja-Latn">Hanafuda</span> cards in 1889. Other companies such as <span class="noun"
-lang="ja-Latn">Ōishi Tengudō</span> claim to have been operating discreetly
-during the pro&shy;hi&shy;bition period; in their case behind the doors of a
-rice merchant named <span class="noun" lang="ja-Latn">Minatoya</span> (<span lang="ja">湊屋</span>).[@OishiTengudoHistory4]
+Once the viability of <span class="noun" lang="ja-Latn">Hanafuda</span> had been pro&shy;ven, other manufacturers appeared quickly: the com&shy;pany that was later to become <span class="noun" lang="ja-Latn">Nin&shy;tendo</span> began producing <span class="noun" lang="ja-Latn">Hanafuda</span> cards in 1889. Other companies such as <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> claim to have been operating discreetly during the pro&shy;hi&shy;bition period; in their case behind the doors of a rice merchant named <span class="noun" lang="ja-Latn">Minatoya</span> (<span lang="ja">湊屋</span>).[@OishiTengudoHistory4]
 
 ### Changing Attitudes
 
@@ -609,18 +609,26 @@ enterprises.[@JapanInTheTaishoEra p. 632]{%endfn%} the manufacture of all
 tobacco products, and the <span class="noun" lang="ja-Latn">Tōyō</span> Printing subsidiary
 was taken over by British-American Tobacco.[@TarHeel p. 362]
 
-<Image
-    noborder=true
-    size="wide"
-    perRow=5
-    src="Murai1.jpg;Murai2.jpg;Murai3.jpg;Murai4.jpg;Murai5.jpg;MuraiBack1.jpg;MuraiBack2.jpg;MuraiBack3.jpg;MuraiBack4.jpg;MuraiBack5.jpg"
-    alt='A tobacco card with a maple and tanzaku pattern, along with the 10 of diamonds.;A tobacco card with the moon bright and the 8 of hearts.;A tobacco card with the wisteria tanzaku and the 4 of hearts.A tobacco card with maple leaves drifting on water and the 10 of spades.A tobacco card with the November swallow and the King of hearts.;;;;;;;' 
-    %}
-Fronts and backs of combination tobacco cards produced by <span class="noun"
-lang="ja-Latn">Murai</span> Brothers, prior to 1904. The hand-written markings
-on the backs possibly indicate that they were adapted to be used as <span class="noun"
-lang="ja-Latn">Iroha</span> cards.
-</Image>
+> [!figure]
+>
+> ![A tobacco card with a maple and tanzaku pattern, along with the 10 of diamonds.](Murai1.jpg)
+> ![A tobacco card with the moon bright and the 8 of hearts.](Murai2.jpg)
+> ![A tobacco card with the wisteria tanzaku and the 4 of hearts.A tobacco card with maple leaves drifting on water and the 10 of spades.A tobacco card with the November swallow and the King of hearts.](Murai3.jpg)
+> ![](Murai4.jpg)
+> ![](Murai5.jpg)
+> ![](MuraiBack1.jpg)
+> ![](MuraiBack2.jpg)
+> ![](MuraiBack3.jpg)
+> ![](MuraiBack4.jpg)
+> ![](MuraiBack5.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "wide"
+> perRow: 5
+> ```
+>
+> Fronts and backs of combination tobacco cards produced by <span class="noun" lang="ja-Latn">Murai</span> Brothers, prior to 1904. The hand-written markings on the backs possibly indicate that they were adapted to be used as <span class="noun" lang="ja-Latn">Iroha</span> cards.
 
 > [!todo]
 > ## Traditional Methods of Manufacture
@@ -728,13 +736,15 @@ primarily used to play the game <span lang="ja">八八</span> ‘88’. Almost a
 decks use this pattern, and images from it are used to show the cards of each
 month below.
 
-<Image
-    size="small"
-    src='../intro/5_brights.jpg'
-    alt="Five Hanafuda cards: the crane, cherry curtain, moon, rain-man, and phoenix." %}
-The 5 Bright cards of the <span lang="ja-Latn">hachihachi-bana</span> pattern,
-from a <span class="noun" lang="ja-Latn">Nintendo</span> deck.
-</Image>
+> [!figure]
+>
+> ![Five Hanafuda cards: the crane, cherry curtain, moon, rain-man, and phoenix.](../intro/5_brights.jpg)
+>
+> ```yaml
+> size: "small"
+> ```
+>
+> The 5 Bright cards of the <span lang="ja-Latn">hachihachi-bana</span> pattern, from a <span class="noun" lang="ja-Latn">Nintendo</span> deck.
 
 #### Korean deck differences
 
@@ -746,45 +756,37 @@ file="pronunciation_ko_홍단.mp3" %} ‘crimson ribbon’) and all three blue r
 (<span lang="ko">청단</span>, {% pronounce lang="ko-Latn" word="cheongdan"
 pronouncer="glamstar77" file="pronunciation_ko_청단.mp3" %} ‘blue ribbon’).
 
-<Image
-    src='Korean_tanzaku.jpg'
-    alt="Six Hwatu cards showing ribbons with Korean text written on them." %}
-Korean <span class="noun" lang="ko-Latn">Hwatu</span> cards with ribbons.
-</Image>
+> [!figure]
+>
+> ![Six Hwatu cards showing ribbons with Korean text written on them.](Korean_tanzaku.jpg)
+>
+> Korean <span class="noun" lang="ko-Latn">Hwatu</span> cards with ribbons.
 
 There are also differences in the ‘rain man’ (see below), and depending on the
 deck, other aspects of the cards can also be translated into Korean cultural
 terms. For example, the lesser cuckoo of the Japanese cards is in some decks the
 Oriental magpie, which is the national bird of Korea.
 
-<div class="multi">
-<Image 
-    size="small"
-    src='Magpie_vs_Hototogisu.jpg'
-    alt="Two hwatu-format cards: the left shows cherry blossoms with a Korean magpie that has a blue chest with black and yellow wings, while the right shows cherry blossoms with a lesser cuckoo that has a yellow body and green wings." %}
-The <span lang="ko">무지개</span> ({% pronounce word="mujigae" lang="ko-Latn"
-file="pronunciation_ko_무지개.mp3" pronouncer="fairybel" %}, ‘rainbow’) brand
-<span class="noun" lang="ko-Latn">Hwatu</span> deck (on left) features a Korean magpie (<span
-lang="ko">까치</span> {% pronounce file="pronunciation_ko_까치.mp3"
-word="kkachi" lang="ko-Latn" pronouncer="goeun" %}), instead of the usual lesser
-cuckoo as shown on the Daiso <span class="noun" lang="ko-Latn">Hwatu</span>-format deck.
-</Image>
-<Image
-    size="small"
-    src="Japan_vs_Korean_man.jpg"
-    alt="Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean." %}
-The ‘rain man’ wears traditional clothing in both Japanese and Korean decks. The
-Japanese man (left) wears a <span class="noun" lang="ja-Latn">Heian</span> period courtier’s
-daily outfit (<span lang="ja">狩衣</span> {% pronounce pronouncer="skent"
-lang="ja-Latn" word="kariginu" file="pronunciation_ja_狩衣.mp3" %}), with tall
-<span lang="ja-Latn">tate-eboshi</span> (<span lang="ja">楯烏帽子</span>) hat,
-and very tall rain-clogs (<span lang="ja">足駄</span> {% pronounce lang="ja-Latn"
-word="ashida" pronouncer="skent" file="pronunciation_ja_足駄.mp3" %}) on his feet. The Korean
-man is wearing a noble’s {% pronounce pronouncer="glamstar77" lang="ko-Latn"
-word="gat" file="pronunciation_ko_갓.mp3" %} (<span lang="ko">갓</span>) hat,
-and an outer coat with very large sleeves.
-</Image>
-</div>
+> [!multi]
+> > [!figure]
+> >
+> > ![Two hwatu-format cards: the left shows cherry blossoms with a Korean magpie that has a blue chest with black and yellow wings, while the right shows cherry blossoms with a lesser cuckoo that has a yellow body and green wings.](Magpie_vs_Hototogisu.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > The <span lang="ko">무지개</span> ({% pronounce word="mujigae" lang="ko-Latn" file="pronunciation_ko_무지개.mp3" pronouncer="fairybel" %}, ‘rainbow’) brand <span class="noun" lang="ko-Latn">Hwatu</span> deck (on left) features a Korean magpie (<span lang="ko">까치</span> {% pronounce file="pronunciation_ko_까치.mp3" word="kkachi" lang="ko-Latn" pronouncer="goeun" %}), instead of the usual lesser cuckoo as shown on the Daiso <span class="noun" lang="ko-Latn">Hwatu</span>-format deck.
+> 
+> > [!figure]
+> >
+> > ![Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean.](Japan_vs_Korean_man.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > The ‘rain man’ wears traditional clothing in both Japanese and Korean decks. The Japanese man (left) wears a <span class="noun" lang="ja-Latn">Heian</span> period courtier’s daily outfit (<span lang="ja">狩衣</span> {% pronounce pronouncer="skent" lang="ja-Latn" word="kariginu" file="pronunciation_ja_狩衣.mp3" %}), with tall <span lang="ja-Latn">tate-eboshi</span> (<span lang="ja">楯烏帽子</span>) hat, and very tall rain-clogs (<span lang="ja">足駄</span> {% pronounce lang="ja-Latn" word="ashida" pronouncer="skent" file="pronunciation_ja_足駄.mp3" %}) on his feet. The Korean man is wearing a noble’s {% pronounce pronouncer="glamstar77" lang="ko-Latn" word="gat" file="pronunciation_ko_갓.mp3" %} (<span lang="ko">갓</span>) hat, and an outer coat with very large sleeves.
 
 ### <span class="noun" lang="ja-Latn">Mushi-bana</span>
 
@@ -814,12 +816,11 @@ flowers’) pattern is based on designs that are older than the standard pattern
 The most obvious difference is that all the cards are overpainted with gold and
 silver in various patterns.
 
-<Image
-    src='EchigoBana.jpg'
-    alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details." %}
-The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern, by <span class="noun"
-lang="ja-Latn">Ōishi Tengudō</span>.
-</Image>
+> [!figure]
+>
+> ![Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details.](EchigoBana.jpg)
+>
+> The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
 
 Some of the <span lang="ja-Latn">kasu</span> cards also carry short poems (<span
 lang="ja">短歌</span> {%pronounce pronouncer="akitomo" word="tanka" lang="ja-Latn"
@@ -836,11 +837,11 @@ flowers’) pattern is similar to the <span class="noun" lang="ja-Latn">Echigo-b
 with very small cards measuring approximately 3&nbsp;cm × 4.5&nbsp;cm (1⅛″ ×
 1¾″).
 
-<Image
-    src="Echigo_Kobana_Brights.jpg"
-    alt="Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details." %}
-The 5 Brights of the <span lang="ja-Latn">Echigo-kobana</span> pattern, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
-</Image>
+> [!figure]
+>
+> ![Five hanafuda cards which are overpainted in silver and gold paints in various patterns, obscuring the details.](Echigo_Kobana_Brights.jpg)
+>
+> The 5 Brights of the <span lang="ja-Latn">Echigo-kobana</span> pattern, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
 
 Because of the small size, there are no poems on this deck. However, it does
 contain four extra cards. Any special rules for the deck, including the use of
@@ -862,16 +863,16 @@ contact them!
 
 ### <span class="noun" lang="ja-Latn">Awa-­bana</span>/<span class="noun" lang="ja-Latn">Kintoki­-bana</span>
 
-<Image 
-    position="aside"
-    size="small"
-    src="KintoBana_Kintoki.jpg"
-    alt="A Hanafuda card depicting a red boy carrying an axe, and wearing a shirt with the character for ‘gold’ on it." %}
-The <span class="noun" lang="ja-Latn">Kintoki</span> card, by <span class="noun" lang="ja-Latn">Ōishi
-Tengudō</span>. He is depicted carrying an axe and wearing a shirt with the
-character <span lang="ja">金</span> (<span lang="ja-Latn">kin</span>, ‘gold’) on
-it.
-</Image>
+> [!figure]
+>
+> ![A Hanafuda card depicting a red boy carrying an axe, and wearing a shirt with the character for ‘gold’ on it.](KintoBana_Kintoki.jpg)
+>
+> ```yaml
+> position: "aside"
+> size: "small"
+> ```
+>
+> The <span class="noun" lang="ja-Latn">Kintoki</span> card, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>. He is depicted carrying an axe and wearing a shirt with the character <span lang="ja">金</span> (<span lang="ja-Latn">kin</span>, ‘gold’) on it.
 
 This is another regional pattern called {% pronounce lang="ja-Latn"
 word="Awa­-bana" pronouncer="poyotan" file="pronunciation_ja_阿波花.mp3" %}
@@ -891,11 +892,8 @@ lang="ja-Latn">Kintarō</span>](https://en.wikipedia.org/wiki/Kintar%C5%8D).
 
 > [!figure]
 >
-> ```yaml
-> 
-    src="KintokiBana_Brights.jpg"
-    alt="Five hanafuda cards with bright colours and overpainted with silver."
-> ```
+> ![Five hanafuda cards with bright colours and overpainted with silver.](KintokiBana_Brights.jpg)
+>
 >
 > The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
 
@@ -905,11 +903,11 @@ lang="ja-Latn">Kintarō</span>](https://en.wikipedia.org/wiki/Kintar%C5%8D).
 
 The main distinguishing feature of the pattern is that each type of <span lang="ja-Latn">tanzaku</span> card has a unique background pattern (as opposed to the usual ‘confetti’). The remainder of the cards follow the standard pattern very closely.
 
-<Image
-    src="dairenbana.jpg"
-    alt="Three hanafuda cards: the first, with a red ribbon with writing on it, has a background consisting of a wave pattern, the second, with a red ribbon without writing, has a diagonal-striped background, and the third, with a blue ribbon, has a hatched background.">
-Three cards showing the different backgrounds for each type of <span lang="ja-Latn">tanzaku</span> card.
-</Image>
+> [!figure]
+>
+> ![Three hanafuda cards: the first, with a red ribbon with writing on it, has a background consisting of a wave pattern, the second, with a red ribbon without writing, has a diagonal-striped background, and the third, with a blue ribbon, has a hatched background.](dairenbana.jpg)
+>
+> Three cards showing the different backgrounds for each type of <span lang="ja-Latn">tanzaku</span> card.
 
 ### Modern/Novelty decks
 
@@ -1091,22 +1089,26 @@ this poem, announcing that spring is here:
     <p>The unchanging tree<br />is green.</p>
 </div>
 
-<div class="multi">
-<Image
-    size="small"
-    src='poem-1.jpg'
-    alt="The kasu cards of the Echigo-bana pattern which bear the poem." %}
-<span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
-</Image>
-<Image
-    size="small"
-    src='awa_tanka_1.jpg'
-    alt="The kasu cards of the Awa-bana pattern which bears a poem." %}
-An <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> card,
-with a shortened version of the same <span lang="ja-Latn">tanka</span> (the
-other <span lang="ja-Latn">kasu</span> card bears the same phrases).
-</Image>
-</div>
+> [!multi]
+> > [!figure]
+> >
+> > ![The kasu cards of the Echigo-bana pattern which bear the poem.](poem-1.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
+> 
+> > [!figure]
+> >
+> > ![The kasu cards of the Awa-bana pattern which bears a poem.](awa_tanka_1.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > An <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> card, with a shortened version of the same <span lang="ja-Latn">tanka</span> (the other <span lang="ja-Latn">kasu</span> card bears the same phrases).
 
 ### <span lang="ja">2月</span>
 
@@ -1371,12 +1373,15 @@ lang="ja-Latn">Yorimasa</span> from the <span class="noun" lang="ja-Latn">Heike
 Monogatari</span>,[@HeikeMonogatari pp. 161–3] but the oldest decks do not have
 a moon on this card.
 
-<Image
-    size="small"
-    alt="The kasu cards of the Echigo-bana pattern which bear the poem."
-    src="poem-6.jpg" %}
-<span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
-</Image>
+> [!figure]
+>
+> ![The kasu cards of the Echigo-bana pattern which bear the poem.](poem-6.jpg)
+>
+> ```yaml
+> size: "small"
+> ```
+>
+> <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
 
 The <span lang="ja-Latn">tanka</span> on the <span lang="ja-Latn">kasu</span>
 cards is similar to Poem 135 from the Summer section of the <span class="noun"
@@ -1448,12 +1453,15 @@ I have a beloved wife,<br />Familiar as the skirt<br />Of a well-worn robe,<br /
 
 </div>
 
-<Image
-    size="small"
-    src="poem-5.jpg"
-    alt="The kasu cards of the Echigo-bana pattern which bear the poem." %}
-<span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
-</Image>
+> [!figure]
+>
+> ![The kasu cards of the Echigo-bana pattern which bear the poem.](poem-5.jpg)
+>
+> ```yaml
+> size: "small"
+> ```
+>
+> <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
 
 This poem, which appears in full on the <span lang="ja-Latn">kasu</span> cards
 of the <span lang="ja-Latn">Echigo-bana</span> pattern,[@PoemsOfTheEchigobana p.
@@ -1466,16 +1474,18 @@ distinguish between <span lang="ja">は</span> <span lang="ja-Latn">ha</span> an
 <span lang="ja">ば</span> <span lang="ja-Latn">ba</span>.{%endfn%} Because of
 this scene, the iris and the planked bridge have a long association in Japan.
 
-<Image
-    size="extra-wide"
-    src="Irises_at_Yatsuhashi_(left).jpg;Irises_at_Yatsuhashi_(right).jpg"
-    alt=";"
-    perRow=2
-    license='cc0' %}
-<cite>Irises at <span class="noun" lang="ja-Latn">Yatsuhashi</span></cite><br /><cite
-lang="ja">八橋図屏風</cite><br />A pair of screens by the artist <span class="noun"
-lang="ja-Latn">Ogata Kōrin</span> (<span lang="ja">尾形光琳</span>, 1658–1716)
-</Image>
+> [!figure]
+>
+> ![](Irises_at_Yatsuhashi_(left).jpg)
+> ![](Irises_at_Yatsuhashi_(right).jpg)
+>
+> ```yaml
+> size: "extra-wide"
+> perRow: 2
+> license: 'cc0'
+> ```
+>
+> <cite>Irises at <span class="noun" lang="ja-Latn">Yatsuhashi</span></cite><br /><cite lang="ja">八橋図屏風</cite><br />A pair of screens by the artist <span class="noun" lang="ja-Latn">Ogata Kōrin</span> (<span lang="ja">尾形光琳</span>, 1658–1716)
 
 ### <span lang="ja">6月</span>
 
@@ -1563,15 +1573,15 @@ lang="ja-Latn" file="pronunciation_ja_赤豆.mp3" %}). Bush clover is very
 strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span
 lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.
 
-<Image
-    src="hagi_temple.jpg"
-    license="cc0"
-    alt="Under a full moon, figures walk amongst flowerbeds in a temple courtyard." %}
-People viewing <span lang="ja-Latn">hagi</span> flowers at [<span class="noun"
-lang="ja-Latn">Taiyū</span> temple](https://en.wikipedia.org/wiki/Taiy%C5%AB-ji)
-(<span lang="ja">太融寺</span>), by <span class="noun" lang="ja-Latn">Hasegawa
-Sadanobu</span>  (<span lang="ja">長谷川貞信</span>).
-</Image>
+> [!figure]
+>
+> ![Under a full moon, figures walk amongst flowerbeds in a temple courtyard.](hagi_temple.jpg)
+>
+> ```yaml
+> license: "cc0"
+> ```
+>
+> People viewing <span lang="ja-Latn">hagi</span> flowers at [<span class="noun" lang="ja-Latn">Taiyū</span> temple](https://en.wikipedia.org/wiki/Taiy%C5%AB-ji) (<span lang="ja">太融寺</span>), by <span class="noun" lang="ja-Latn">Hasegawa Sadanobu</span> (<span lang="ja">長谷川貞信</span>).
 
 Bush clover is also (along with miscanthus, see the next month) considered one of the “seven flowers of autumn” (<span lang="ja">秋の七草</span>), a term which derives from a pair of poems in the <span class="noun" lang="ja-Latn">Man’yōshū</span> (book 8:1537–8):[@TheManyoshu p. 212]
 
@@ -1925,13 +1935,15 @@ Beautiful is the Tatsuta<br />With Autumn’s brightest weaving;<br />If I cross
 
 </div>
 
-<Image 
-    size="small"
-    src="poem-2.jpg"
-    alt="The kasu cards of the Echigo-bana pattern which bear the poem." %}
-<span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards,
-with <span lang="ja-Latn">tanka</span>.
-</Image>
+> [!figure]
+>
+> ![The kasu cards of the Echigo-bana pattern which bear the poem.](poem-2.jpg)
+>
+> ```yaml
+> size: "small"
+> ```
+>
+> <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
 
 The poem on the <span lang="ja-Latn">Echigo-bana</span> <span
 lang="ja-Latn">kasu</span> cards is Poem 437 from the ‘Autumn 2’ section of the
@@ -2046,14 +2058,16 @@ which are visible in some patterns, are an attribute of the thunder god {%
 pronounce noun=true lang="ja-Latn" word="Raijin" pronouncer="kaori410f"
 file="pronunciation_ja_雷神.mp3" %} (<span lang="ja">雷神</span>).
 
-<Image 
-    position="aside"
-    alt="A grinning ogre in a cloud lowers an anchor towards a Taiko drum floating in the ocean."
-    license="cc0"
-    src="otsue_raijin.jpg" %}
-In this <span class="noun" lang="ja-Latn">Ōtsu-e</span>, <span class="noun" lang="ja-Latn">Raijin</span>
-attempts to recover his drum.
-</Image>
+> [!figure]
+>
+> ![A grinning ogre in a cloud lowers an anchor towards a Taiko drum floating in the ocean.](otsue_raijin.jpg)
+>
+> ```yaml
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> In this <span class="noun" lang="ja-Latn">Ōtsu-e</span>, <span class="noun" lang="ja-Latn">Raijin</span> attempts to recover his drum.
 
 In some older decks, the lightning card depicts a scene derived from [<span class="noun"
 lang="ja-Latn">Ōtsu-e</span> prints](https://en.wikipedia.org/wiki/Otsu-e)
@@ -2209,27 +2223,26 @@ yellow, but sometimes with red as well. In some games it becomes a <span
 lang="ja-Latn">tane</span> card, or even a <span lang="ja-Latn">tanzaku</span>
 card.
 
-<div class="multi">
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> > 
+> > ![A small Hanafuda card depicting Paulownia with a large red streak across it.](ekb_junk_12.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > One of the Paulownia cards of the <span class="noun" lang="ja-Latn">Echigo-kobana</span> pattern has a <span lang="ja-Latn">tanzaku</span>.
 > 
-    size="small"
-    src="ekb_junk_12.jpg"
-    alt="A small Hanafuda card depicting Paulownia with a large red streak across it." 
-> ```
->
-> One of the Paulownia cards of the <span class="noun" lang="ja-Latn">Echigo-kobana</span> pattern has a <span lang="ja-Latn">tanzaku</span>.
-
-<Image 
-    size="small"
-    src="awa_junk_12.jpg"
-    alt="A Hanafuda card depicting Paulownia with a red cloud at the top of it." %}
-The yellow-coloured <span lang="ja-Latn">kasu</span> of the <span class="noun"
-lang="ja-Latn">Awa-bana</span> pattern is marked with the red clouds that
-usually indicate a <span lang="ja-Latn">tane</span> card.
-</Image>
-</div>
+> > [!figure]
+> >
+> > ![A Hanafuda card depicting Paulownia with a red cloud at the top of it.](awa_junk_12.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > The yellow-coloured <span lang="ja-Latn">kasu</span> of the <span class="noun" lang="ja-Latn">Awa-bana</span> pattern is marked with the red clouds that usually indicate a <span lang="ja-Latn">tane</span> card.
 
 Usually (in Japanese decks) the manufacturer’s mark is on the coloured <span
 lang="ja-Latn">kasu</span> card, much like the ace of spades is used in European
