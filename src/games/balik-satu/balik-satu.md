@@ -148,47 +148,41 @@ The winner draws an additional card from the deck (hence the name of the game),
 and this determines the value of their hand. Unmarked cards are worth their rank
 value (1–9 points), and the red-stamped cards are worth more:
 
-<div class="multi centered">
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CS9.jpg)
+> >
+> > ```yaml
+> > size: small
+> > noborder: true
+> > hidden: true
+> > ```
+> >
+> > Red Nine scores 10 points.
 > 
-    size="small"
-    noborder=true
-    alt=""
-    hidden=true
-    src="../../articles/cards/ceki/CS9.jpg" 
-> ```
->
-> Red Nine scores 10 points.
-
-> [!figure]
->
-> ```yaml
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CRF.jpg)
+> >
+> > ```yaml
+> > size: small
+> > noborder: true
+> > hidden: true
+> > ```
+> >
+> > Nyonya scores 11 points.
 > 
-    size="small"
-    noborder=true
-    alt=""
-    hidden=true
-    src="../../articles/cards/ceki/CRF.jpg" 
-> ```
->
-> Nyonya scores 11 points.
-
-> [!figure]
->
-> ```yaml
-> 
-    size="small"
-    noborder=true
-    alt=""
-    hidden=true
-    src="../../articles/cards/ceki/COT.jpg" 
-> ```
->
-> Lau Chian scores 12 points.
-
-</div>
+> > [!figure]
+> >
+> > ![]("../../articles/cards/ceki/COT.jpg)
+> > ```yaml
+> > size: small
+> > noborder: true
+> > hidden: true
+> > ```
+> >
+> > Lau Chian scores 12 points.
 
 A common rule is that if the drawn card is a rank-1 <span lang="ms">yeo</span>
 card, then the winning player does not score and the round is played again.
