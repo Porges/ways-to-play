@@ -4,11 +4,11 @@ draft: true
 players: 2
 ---
 
-<Image
-    src="../../maps/LambsAndTigers.svg"
-    alt="">
-Parts of India where the game is well-known.
-</Image>
+> [!figure]
+>
+> ![](../../maps/LambsAndTigers.svg)
+>
+> Parts of India where the game is well-known.
 
 Tamil: <span lang="ta" class="aka">ஆடு புலி ஆட்டம்</span> <span lang="ta-Latn" class="aka">āṭu puli āṭṭam</span> ‘goat tiger game’.
 

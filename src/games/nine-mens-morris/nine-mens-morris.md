@@ -68,19 +68,20 @@ When played on a board with diagonals, mills are not usually permitted to be mad
 > A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
  
 
-<Image
-  alt="" 
-  src="8238351242_37e76bbc44_o.jpg"
-  authorGiven="Dan"
-  authorFamily="Diffendale"
-  copyrightYear=2012
-  license="cc-by-nc-sa"
-  licenseVersion="2.0"
-  originalUrl="https://www.flickr.com/photos/dandiffendale/8238351242/" %}
-
-A board carved on the capital of the Athenian trophy (or tropaion, <span lang="el">τρόπαιον</span>) from Marathon, which was constructed some time after 490 <abbr>BCE</abbr> but destroyed at a later date. An image of the board carved on the decapitated capital <span lang="la">in situ</span> can be seen in @MarathonMonument [plate 32].
-
-</Image>
+> [!figure]
+>
+> ![](8238351242_37e76bbc44_o.jpg)
+>
+> ```yaml
+> authorGiven: "Dan"
+> authorFamily: "Diffendale"
+> copyrightYear: 2012
+> license: "cc-by-nc-sa"
+> licenseVersion: "2.0"
+> originalUrl: "https://www.flickr.com/photos/dandiffendale/8238351242/"
+> ```
+>
+> A board carved on the capital of the Athenian trophy (or tropaion, <span lang="el">τρόπαιον</span>) from Marathon, which was constructed some time after 490 <abbr>BCE</abbr> but destroyed at a later date. An image of the board carved on the decapitated capital <span lang="la">in situ</span> can be seen in @MarathonMonument [plate 32].
 
 </div>
 
@@ -595,9 +596,15 @@ With perfect play the game is a draw.[@SolvingLaskerMorris][@UltraStrongMorris]
 > [!aside]
 > The game was originally patented (US [4,579,347](https://patents.google.com/patent/US4579347A)) in a slightly different form, with a more complex board. In this version each player had 14 pieces.
 > 
-> <Image alt="" src="mozog.svg">
-> The board from the patent was of a more complex construction, but with fewer squares.
-> </Image>
+> > [!figure]
+>
+> ![](mozog.svg)
+>
+> ```yaml
+> 
+> ```
+>
+> > The board from the patent was of a more complex construction, but with fewer squares. >
 
 > [!figure]
 >
@@ -616,13 +623,15 @@ to two pieces.
 Trencho was a variant published by Chad Valley in 1916 that was billed as “An
 Australian War-Game as Played in the Camps & Trenches”.
 
-<Image 
-  alt=""
-  position="aside"
-  src="trencho.svg" %}
-Trencho is played on a modified large mill board. The game was published with
-(at least) two different configurations.
-</Image>
+> [!figure]
+>
+> ![](trencho.svg)
+>
+> ```yaml
+> position: "aside"
+> ```
+>
+> Trencho is played on a modified large mill board. The game was published with (at least) two different configurations.
 
 Trencho is played on a modified mill board where only two shortened diagonals
 are present. Mills are called “trenches”.

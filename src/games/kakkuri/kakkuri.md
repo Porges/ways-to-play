@@ -70,14 +70,16 @@ are paid 3× by each other player. This is called {% pronounce lang="ja-Latn"
 word="utazu" pronouncer="poyotan" file='pronunciation_ja_打たず.mp3' %} <span
 lang="ja">ウタズ</span> (from <span lang="ja">打たず</span>, “without playing”).
 
-<Image 
-  size="small"
-  noborder=true
-  src='utazu.jpg'
-  alt="">
-The <Cards>1</Cards>s of <span lang="ja-Latn">isu</span>, <span
-lang="ja-Latn">ouru</span>, and <span lang="ja-Latn">kotsu</span>.
-</Image>
+> [!figure]
+>
+> ![](utazu.jpg)
+>
+> ```yaml
+> size: "small"
+> noborder: true
+> ```
+>
+> The <Cards>1</Cards>s of <span lang="ja-Latn">isu</span>, <span lang="ja-Latn">ouru</span>, and <span lang="ja-Latn">kotsu</span>.
 
 ## Play
 
@@ -96,14 +98,16 @@ easier to see how many cards each player has remaining).
 
 In addition, the <Cards>1</Cards> of <span lang="ja-Latn">pao</span> (<Cards>cA</Cards>) and <Cards>2</Cards> of <span lang="ja-Latn">ouru</span> (<Cards>d2</Cards>) are wild and can be played as any other card. If turned up from the box they count as a normal <Cards>1</Cards> &amp; <Cards>2</Cards>.
 
-<Image 
-  size="small"
-  noborder=true
-  src="wilds.jpg"
-  alt="">
-The wild cards: <Cards>1</Cards> of <span lang="ja-Latn">pao</span> and {% cards
-'2' %} of <span lang="ja-Latn">ouru</span>.
-</Image>
+> [!figure]
+>
+> ![](wilds.jpg)
+>
+> ```yaml
+> size: "small"
+> noborder: true
+> ```
+>
+> The wild cards: <Cards>1</Cards> of <span lang="ja-Latn">pao</span> and {% cards '2' %} of <span lang="ja-Latn">ouru</span>.
 
 There are two other special cases that allow more than one card of the same rank
 to be played:

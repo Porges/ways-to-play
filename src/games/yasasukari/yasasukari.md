@@ -23,18 +23,18 @@ The game is named in the book <cite>[Wamyō Ruijushō](https://en.wikipedia.org/
 
 The description below is mostly based upon @Yasukaki.
 
-<Image
-    alt=""
-    src="Yasasukari.jpg"
-    originalUrl="https://archive.org/details/wakansansaizue16368800/page/n58/mode/2up"
-    license="cc0"
-    orgName="Internet Archive" %}
-
-Diagram of the initial setup, from the [<cite lang="ja-Latn">Wakan Sansai
-Zue</cite>](https://en.wikipedia.org/wiki/Wakan_Sansai_Zue) (<cite lang="ja">和漢三才図会</cite>,
- ‘Illustrated Sino-Japanese Encyclopedia’), first published in 1712.
-
-</Image>
+> [!figure]
+>
+> ![](Yasasukari.jpg)
+>
+> ```yaml
+> originalUrl: "https://archive.org/details/wakansansaizue16368800/page/n58/mode/2up"
+> license: "cc0"
+> orgName: "Internet Archive"
+> ```
+>
+> Diagram of the initial setup, from the [<cite lang="ja-Latn">Wakan Sansai
+Zue</cite>](https://en.wikipedia.org/wiki/Wakan_Sansai_Zue) (<cite lang="ja">和漢三才図会</cite>, ‘Illustrated Sino-Japanese Encyclopedia’), first published in 1712.
 
 One player has the single piece which starts in the centre, the other player has
 the 16 pieces that start on the intersections around the border.

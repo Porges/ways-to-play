@@ -235,45 +235,345 @@ Given this information, we can arrange the deck as follows, and we can easily se
 <tbody>
 <tr>
 <th scope="row" class="sideways centered">Myriads</th>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM1.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM2.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM3.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM4.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM5.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM6.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM7.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM8.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CM9.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/COT.jpg" alt=""></Image></td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM1.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM2.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM3.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM4.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM5.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM6.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM7.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM8.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CM9.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/COT.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
 <td></td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Strings</th>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS1.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS2.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS3.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS4.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS5.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS6.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS7.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS8.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CS9.jpg" alt=""></Image></td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS1.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS2.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS3.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS4.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS5.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS6.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS7.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS8.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CS9.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Coins</th>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC9.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC8.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC7.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC6.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC5.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC4.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC3.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC2.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CC1.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CWF.jpg" alt=""></Image></td>
-<td><Image noborder=true cram=true hidden=true src="../../articles/cards/ceki/CRF.jpg" alt=""></Image></td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC9.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC8.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC7.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC6.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC5.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC4.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC3.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC2.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CC1.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CWF.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](../../articles/cards/ceki/CRF.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> hidden: true
+> ```
+</td>
 </tr>
 </tbody>
 </table>

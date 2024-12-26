@@ -329,24 +329,26 @@ In this role, miniature <span lang="ja-Latn">kai-oke</span> can be found in
 lang="ja-Latn">hina-matsuri</span>](https://en.wikipedia.org/wiki/Hinamatsuri)
 col&shy;lections, and these are still produced for this purpose today.
 
-<Image
-    position="aside"
-    size="small"
-    src='HinaMatsuri-Masanobu-Detail.jpg'
-    alt="">
-Detail of the miniature <span lang="ja-Latn">kai-oke</span> in the print.
-</Image>
+> [!figure]
+>
+> ![](HinaMatsuri-Masanobu-Detail.jpg)
+>
+> ```yaml
+> position: "aside"
+> size: "small"
+> ```
+>
+> Detail of the miniature <span lang="ja-Latn">kai-oke</span> in the print.
 
-<Image
-    src="HinaMatsuri-Masanobu.jpg"
-    alt=""
-    license="cc0" %}
-A miniature <span lang="ja-Latn">kai-oke</span> can be seen in this depiction of
-a <span lang="ja-Latn">hina-matsuri</span> set.<br />By [<span class="noun"
-lang="ja-Latn">Okumura
-Masanobu</span>](https://en.wikipedia.org/wiki/Okumura_Masanobu) (<span
-lang="ja">奥村政信</span>, 1686–1764).
-</Image>
+> [!figure]
+>
+> ![](HinaMatsuri-Masanobu.jpg)
+>
+> ```yaml
+> license: "cc0"
+> ```
+>
+> A miniature <span lang="ja-Latn">kai-oke</span> can be seen in this depiction of a <span lang="ja-Latn">hina-matsuri</span> set.<br />By [<span class="noun" lang="ja-Latn">Okumura Masanobu</span>](https://en.wikipedia.org/wiki/Okumura_Masanobu) (<span lang="ja">奥村政信</span>, 1686–1764).
 
 ### <span lang="ja-Latn">Hana-awase</span>
 
@@ -574,25 +576,29 @@ However, despite his protestation in the book that “I do not care for playing 
 cards, but I know the methods”, he goes on to give a detailed account of the
 gameplay — far more than a casual observer would know!
 
-<div class="multi">
-<Image
-    src='./Maeda_game.png'
-    alt=""
-    noborder=true
-    license='cc0' %}
-A Westernized gentleman playing cards with <span lang="ja-Latn">geisha</span>,
-all of them wearing playing-card themed clothing. Note cigarette and
-ashtray.[@MaedaBook p. 25]
-</Image>
-<Image
-    src='./Maeda_family.png'
-    alt=""
-    noborder=true
-    license='cc0' %}
-Apparently a family playing with <span class="noun" lang="ja-Latn">Hanafuda</span> cards.[@MaedaBook p. 13]
-</Image>
-</div>
-
+> [!multi]
+> > [!figure]
+> >
+> > ![](./Maeda_game.png)
+> >
+> > ```yaml
+> > noborder: true
+> > license: 'cc0'
+> > ```
+> >
+> > A Westernized gentleman playing cards with <span lang="ja-Latn">geisha</span>, all of them wearing playing-card themed clothing. Note cigarette and ashtray.[@MaedaBook p. 25]
+> 
+> > [!figure]
+> >
+> > ![](./Maeda_family.png)
+> >
+> > ```yaml
+> > noborder: true
+> > license: 'cc0'
+> > ```
+> >
+> > Apparently a family playing with <span class="noun" lang="ja-Latn">Hanafuda</span> cards.[@MaedaBook p. 13]
+ 
 > [!aside]
 > <span class="noun" lang="ja-Latn">Murai</span>’s main competitor was <span class="noun" lang="ja-Latn">Iwaya</span> (<span lang="ja-Latn">岩谷商会</span>), run by <span class="noun" lang="ja-Latn">Iwaya Matsuhei</span> (<span lang="ja">岩谷松平</span>), who had a more nationalistic outlook. Interestingly, the iconography of their cigarette brands overlaps significantly with that of later <span class="noun" lang="ja-Latn">Hanafuda</span> brands — some examples include <span lang="ja-Latn">dai&shy;tengu</span> (<span lang="ja">大天狗</span> “large tengu”), <span class="noun" lang="ja-Latn">Fuji</span> (<span lang="ja">冨士</span>), and <span lang="ja-Latn">hinode</span> (<span lang="ja">日乃出</span> “sunrise”) — and their chief logo was that of a red <span class="noun" lang="ja-Latn">Tengu</span>, which is also strongly associated with <span class="noun" lang="ja-Latn">Hanafuda</span>. It is unclear to me whether there is any real link here or if the coincidence simply reflects the conventionality of traditional Japanese art.
 
@@ -801,12 +807,11 @@ regional pattern.
 <span class="noun" lang="ja-Latn">Nintendō</span> produced this pattern until recently, but
 it now appears to be extinct.
 
-<Image
-    src="nintendo_mushibana.jpg"
-    alt="">
-<span class="noun" lang="ja-Latn">Nintendō</span>’s <span class="noun" lang="ja-Latn">Mushi</span> pattern
-differs slightly from that of its standard deck.
-</Image>
+> [!figure]
+>
+> ![](nintendo_mushibana.jpg)
+>
+> <span class="noun" lang="ja-Latn">Nintendō</span>’s <span class="noun" lang="ja-Latn">Mushi</span> pattern differs slightly from that of its standard deck.
 
 ### <span class="noun" lang="ja-Latn">Echigo-bana</span>
 

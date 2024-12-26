@@ -297,12 +297,15 @@ The basic set of <span lang="ja-Latn">deki&shy;yaku</span> is:
 
 This <span lang="ja-Latn">yaku</span> is made up of exactly the three red <span lang="ja-Latn">tanzaku</span> cards of the first three months (pine, plum, cherry). No other <span lang="ja-Latn">tanzaku</span> may be used to complete it.
 
-<Image 
-    noborder=true
-    src='Urasu.jpg'
-    alt="">
-The cards that form the <span class="noun" lang="ja-Latn">Aka-tan/Ura-Sugawara</span> <span lang="ja-Latn">yaku</span>, from an old [<span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tanaka-gyokusuido) deck. The cards are labelled <span lang="ja">𛀋らす</span> (<span lang="ja-Latn">urasu</span>), <span lang="ja">よろし</span> (<span lang="ja-Latn">yoroshi</span>), and <span lang="ja">す𛀙𛂦ら</span> (<span lang="ja-Latn">sugawara</span>).
-</Image>
+> [!figure]
+>
+> ![](Urasu.jpg)
+>
+> ```yaml
+> noborder: true
+> ```
+>
+> The cards that form the <span class="noun" lang="ja-Latn">Aka-tan/Ura-Sugawara</span> <span lang="ja-Latn">yaku</span>, from an old [<span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tanaka-gyokusuido) deck. The cards are labelled <span lang="ja">𛀋らす</span> (<span lang="ja-Latn">urasu</span>), <span lang="ja">よろし</span> (<span lang="ja-Latn">yoroshi</span>), and <span lang="ja">す𛀙𛂦ら</span> (<span lang="ja-Latn">sugawara</span>).
 
 It was also formerly known as <Pronounce lang="ja-Latn"  file="pronunciation_ja_裏菅原.mp3" pronouncer="mezashi">ura-sugawara</Pronounce> (<span lang="ja">裏菅原</span>, ‘behind/inside <span class="noun" lang="ja-Latn">Sugawara</span>’) or <span lang="ja-Latn">urasu</span> for short.[^fn10] This name was a reference to the popular <span lang="ja-Latn">kabuki</span> play <cite><Pronounce lang="ja-Latn"  file="pronunciation_ja_菅原伝授手習鑑.mp3" pronouncer="jinyamai">Sugawara Denju Tenarai Kagami</Pronounce></cite> (<span lang="ja">菅原伝授手習鑑</span>, ‘<cite>Sugawara and the Secrets of Calligraphy</cite>’). In the play the three main characters are brothers who are named after the three plants featured on the cards: <Pronounce noun=true lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_松王丸.mp3">Matsuōmaru</Pronounce> (<span lang="ja">松王丸</span>, pine), <Pronounce noun=true lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_梅王丸.mp3">Umeōmaru</Pronounce> (<span lang="ja">梅王丸</span>, plum), and <Pronounce noun=true lang="ja-latn"  file="pronunciation_ja_桜丸.mp3" pronouncer="mezashi">Sakuramaru</Pronounce> (<span lang="ja">桜丸</span>, cherry). In the play the brothers wear costumes which bear symbols of the plants related to their names.
 

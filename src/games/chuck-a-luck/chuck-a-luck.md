@@ -48,15 +48,17 @@ Bo.{%endfn%} retains a house edge of 3.7%, higher than that of roulette.
 
 ### History
 
-<Image 
-    alt=""
-    src='ChuckALuckDepiction.jpg'
-    position="aside"
-    noborder=true
-    license="cc0" %}
-A depiction of soldiers playing Chuck-A-Luck, by [George Y.
-Coffin](https://en.wikipedia.org/wiki/George_Yost_Coffin).<br />From @SiKlegg.
-</Image>
+> [!figure]
+>
+> ![](ChuckALuckDepiction.jpg)
+>
+> ```yaml
+> position: "aside"
+> noborder: true
+> license: "cc0"
+> ```
+>
+> A depiction of soldiers playing Chuck-A-Luck, by [George Y. Coffin](https://en.wikipedia.org/wiki/George_Yost_Coffin).<br />From @SiKlegg.
 
 A game known as Sweat-Cloth{%fn%}Probably in this context meaning a canvas
 saddle-cloth, upon which numbers were written to serve as a staking
@@ -213,18 +215,17 @@ one advertisement for an Electric Hyronemus claiming it can be made to roll only
 >
 >     A hand-held “bird cage” for tossing Chuck-A-Luck dice (<abbr title="circa">c.</abbr> 1930).
 
-<Image 
-    alt=""
-    size="small"
-    noborder=true
-    src='ChuckALuck_Cage.jpg'
-    license='cc0'  %}
-A mounted “bird cage”, from @GamblingAndGamblingDevices [p. 118]. The handle at
-the left is used to invert the cage, and this rings a bell mounted on the right.
-The top and bottom are made from taut leather and produce a drumming noise when
-the dice drop. (A video of one of these bird cages in action can be [found on
-YouTube](https://www.youtube.com/watch?v=PEI2bvjXeCU).)
-</Image>
+> [!figure]
+>
+> ![](ChuckALuck_Cage.jpg)
+>
+> ```yaml
+> size: "small"
+> noborder: true
+> license: 'cc0'
+> ```
+>
+> A mounted “bird cage”, from @GamblingAndGamblingDevices [p. 118]. The handle at the left is used to invert the cage, and this rings a bell mounted on the right. The top and bottom are made from taut leather and produce a drumming noise when the dice drop. (A video of one of these bird cages in action can be [found on YouTube](https://www.youtube.com/watch?v=PEI2bvjXeCU).)
 </div>
 
 <Image 

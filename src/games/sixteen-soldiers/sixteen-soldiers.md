@@ -16,31 +16,31 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 Sixteen Soldiers (<span lang="ja">十六武蔵</span> <Pronounce lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_十六武蔵.mp3">jūroku musashi</Pronounce>) is an asymmetric capturing game from Japan.
-</p>
 
-<Image 
-    size="wide"
-    src="0023305c.jpg"
-    alt=""
-    license="cc0"
-    orgName="University of Edinburgh"
-    originalUrl="http://images.is.ed.ac.uk/luna/servlet/s/ornb1m"
-    identifier="0023305"
-    %}
-
-Children playing sixteen soldiers (and <span lang="ja-Latn">sugoroku</span>), <span lang="ja-Latn"
+> [!figure]
+>
+> ![](0023305c.jpg)
+>
+> ```yaml
+> size: "wide"
+> license: "cc0"
+> orgName: "University of Edinburgh"
+> originalUrl: "http://images.is.ed.ac.uk/luna/servlet/s/ornb1m"
+> identifier: "0023305"
+> ```
+>
+> Children playing sixteen soldiers (and <span lang="ja-Latn">sugoroku</span>), <span lang="ja-Latn"
 class="noun">Kobayashi Eitaku</span> (<span lang="ja">小林永濯</span> 1843–90), 1894.
-
-</Image>
 
 ## Play
 
 > [!figure]
 >
+> ![](16_soldiers_setup.svg)
+>
 > ```yaml
-> src="16_soldiers_setup.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > Initial setup of the board.
@@ -59,30 +59,29 @@ The goal of the player with the smaller pieces is to surround the single piece
 so that it cannot move, thus winning the game. The goal of the single piece is
 to eliminate enough opposing pieces that it cannot be surrounded.
 
-<Image 
-    noborder=true
-    size="wide"
-    src="吉例壽曾我十六むさし..jpg"
-    alt=""
-    license="cc0"
-    orgName="Princeton University Library"
-    originalUrl="https://dpul.princeton.edu/cotsen/catalog/9593tw430"
-    identifier="ark:/88435/9593tw430"
-    %}
-
-A cut-out-and-play version of the game,<br/>
-<cite lang="ja">吉例壽曾我十六むさし</cite> (‘a festive annual custom, kabuki
-stars board game’), published by <span lang="ja-Latn" class="noun">Engei
-Gahō</span> in 1909.
-
-</Image>
+> [!figure]
+>
+> ![](吉例壽曾我十六むさし..jpg)
+>
+> ```yaml
+> noborder: true
+> size: "wide"
+> license: "cc0"
+> orgName: "Princeton University Library"
+> originalUrl: "https://dpul.princeton.edu/cotsen/catalog/9593tw430"
+> identifier: "ark:/88435/9593tw430"
+> ```
+>
+> A cut-out-and-play version of the game,<br/> <cite lang="ja">吉例壽曾我十六むさし</cite> (‘a festive annual custom, kabuki stars board game’), published by <span lang="ja-Latn" class="noun">Engei Gahō</span> in 1909.
 
 ## Sixteen Pursue the General
 
 > [!figure]
 >
+> ![](16_soldiers_chinese_setup.svg)
+>
 > ```yaml
-> src="16_soldiers_chinese_setup.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > Initial setup of the Chinese board.
@@ -99,8 +98,10 @@ a slightly different board, with a different extension and 29 points.
 
 > [!figure]
 >
+> ![](water_drowns_monk.svg)
+>
 > ```yaml
-> src="water_drowns_monk.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > Initial setup of the Sichuan/Tibetan board.
@@ -114,17 +115,16 @@ This version, called “Water Drowns the Monk” (<span lang="zh" class="aka">�
 
 > [!figure]
 >
+> ![](SC86494.jpg)
+>
 > ```yaml
-> 
-    size="wide"
-    noborder=true
-    src="SC86494.jpg"
-    alt=""
-    license="cc0"
-    orgName="Museum of Fine Arts Boston"
-    orgAbbr="MFA"
-    originalUrl="https://collections.mfa.org/objects/421479/new-years-card-tiger-on-a-game-board"
-    identifier="2002.8925"
+> size: wide
+> noborder: true
+> license: cc0
+> orgName: Museum of Fine Arts Boston
+> orgAbbr: MFA
+> originalUrl: https://collections.mfa.org/objects/421479/new-years-card-tiger-on-a-game-board
+> identifier: "2002.8925"
 > ```
 >
 > Japanese postcard for the year 1914 (a year of the tiger), with a game motif.

@@ -123,17 +123,18 @@ These terms might come from a Chinese language term for the number nine, which i
 > [!todo]
 > Dubious: I might even hazard something like <span lang="zh">九葉</span> ‘nine leaves’, Hakka <span lang="hak-Latn">kiú ya̍p</span>, Teochew <span lang="tws-Latn">gao² iab⁸</span>.
 
-<Image src="Kaartspel_op_een_Javaans_feest_in_Paramaribo,_Bestanddeelnr_252-2592.jpg" alt=""
-  license="cc0"
-  originalUrl="http://proxy.handle.net/10648/aead8142-d0b4-102d-bcf8-003048976d84"
-  orgName="Nationaal Archief"
-  copyrightYear=1955>
-
-The game has also been carried to Suriname by [Javanese emigrants.](https://en.wikipedia.org/wiki/Javanese_Surinamese) This image shows it being played at the time of the visit of [Queen Juliana](https://en.wikipedia.org/wiki/Juliana_of_the_Netherlands) and [Prince Bernhard](https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld) in 1955.
-
-The game being played here seems to be one that has “rooster” (<span lang="jav-Latn">jago</span>) bets.
-
-</Image>
+> [!figure]
+>
+> ![](Kaartspel_op_een_Javaans_feest_in_Paramaribo,_Bestanddeelnr_252-2592.jpg)
+>
+> ```yaml
+> license: "cc0"
+> originalUrl: "http://proxy.handle.net/10648/aead8142-d0b4-102d-bcf8-003048976d84"
+> orgName: "Nationaal Archief"
+> copyrightYear: 1955
+> ```
+>
+> The game has also been carried to Suriname by [Javanese emigrants.](https://en.wikipedia.org/wiki/Javanese_Surinamese) This image shows it being played at the time of the visit of [Queen Juliana](https://en.wikipedia.org/wiki/Juliana_of_the_Netherlands) and [Prince Bernhard](https://en.wikipedia.org/wiki/Prince_Bernhard_of_Lippe-Biesterfeld) in 1955. The game being played here seems to be one that has “rooster” (<span lang="jav-Latn">jago</span>) bets.
 
 ## The Deck
 
@@ -189,42 +190,372 @@ money-suited cards.
 <tbody>
 <tr>
 <th scope="row" class="sideways centered">Coins</th>
-<td><Image noborder=true cram=true equalheight=true src="COT.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC1.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC2.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC3.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC4.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC5.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC6.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC7.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC8.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CC9.jpg" hidden=true alt=""></Image></td>
+<td>
+> [!figure]
+>
+> ![](COT.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC1.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC2.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC3.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC4.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC5.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC6.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC7.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC8.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CC9.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Strings</th>
-<td><Image noborder=true cram=true equalheight=true src="CWF.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS1.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS2.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS3.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS4.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS5.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS6.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS7.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS8.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CS9.jpg" hidden=true alt=""></Image></td>
+<td>
+> [!figure]
+>
+> ![](CWF.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS1.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS2.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS3.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS4.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS5.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS6.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS7.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS8.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CS9.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
 </tr>
 <tr>
 <th scope="row" class="sideways centered">Myriads</th>
-<td><Image noborder=true cram=true equalheight=true src="CRF.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM1.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM2.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM3.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM4.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM5.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM6.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM7.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM8.jpg" hidden=true alt=""></Image></td>
-<td><Image noborder=true cram=true equalheight=true src="CM9.jpg" hidden=true alt=""></Image></td>
+<td>
+> [!figure]
+>
+> ![](CRF.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM1.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM2.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM3.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM4.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM5.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM6.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM7.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM8.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
+<td>
+> [!figure]
+>
+> ![](CM9.jpg)
+>
+> ```yaml
+> noborder: true
+> cram: true
+> equalheight: true
+> hidden: true
+> ```
+</td>
 </tr>
 </tbody>
 </table>

@@ -77,24 +77,29 @@ The card groupings are unusual and I have not yet figured out an explanation for
 
 There are ten cards in this group: the Myriad cards from <Cards>2–9</Cards> are all of equal rank. In the same group, but ranked higher, are Red Flower, and then Old Thousand is the highest.
 
-<div class="multi centered">
-<Image
-    noborder=true
-    size="small"
-    src="../../articles/cards/ceki/COT.jpg"
-    hidden=true
-    alt="">
-Old Thousand is the highest-ranking card in this group.
-</Image>
-<Image
-    noborder=true
-    size="small"
-    src="../../articles/cards/ceki/CRF.jpg"
-    hidden=true
-    alt="">
-Red Flower is the second-highest.
-</Image>
-</div>
+> [!multi-centered]
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/COT.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > hidden: true
+> > ```
+> >
+> > Old Thousand is the highest-ranking card in this group.
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CRF.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > hidden: true
+> > ```
+> >
+> > Red Flower is the second-highest.
 
 > [!figure]
 >
@@ -119,84 +124,100 @@ Red Flower is the second-highest.
 
 There are only two cards in this group; the 4 of Coins outranks the 3 of Coins.
 
-<div class="multi centered">
-<Image
-    noborder=true
-    size="small"
-    hidden=true
-    src="../../articles/cards/ceki/CC4.jpg"
-    alt="">
-4 Coins is the higher-ranking.
-</Image>
-<Image
-    noborder=true
-    size="small"
-    hidden=true
-    src="../../articles/cards/ceki/CC3.jpg"
-    alt="">
-3 Coins is the lower-ranking.
-</Image>
-</div>
+> [!multi-centered]
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CC4.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > hidden: true
+> > ```
+> >
+> > 4 Coins is the higher-ranking.
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CC3.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > hidden: true
+> > ```
+> >
+> > 3 Coins is the lower-ranking.
 
 ### 8 & 9 Coins
 
 There are only two cards in this group; the 9 of Coins outranks the 8 of Coins.
 
-<div class="multi centered">
-<Image
-    noborder=true
-    size="small"
-    hidden=true
-    src="../../articles/cards/ceki/CC9.jpg"
-    alt="">
-9 Coins is the higher-ranking.
-</Image>
-<Image
-    noborder=true
-    size="small"
-    hidden=true
-    src="../../articles/cards/ceki/CC8.jpg"
-    alt="">
-8 Coins is the lower-ranking.
-</Image>
-</div>
-
+> [!multi-centered]
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CC9.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > hidden: true
+> > ```
+> >
+> > 9 Coins is the higher-ranking.
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CC8.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > hidden: true
+> > ```
+> >
+> > 8 Coins is the lower-ranking.
 
 ### <span lang="jav-Latn">Lintrik cilik</span> (‘little rows’)
 
 There are four cards in this group; the 9 of Strings outranks the 8 of Strings, and the 5 & 7 of Strings are of equal rank.
 
-<div class="multi centered">
-<Image
-    noborder=true
-    size="small"
-    hidden=true
-    src="../../articles/cards/ceki/CS9.jpg"
-    alt="">
-9 Strings is the highest-ranking.
-</Image>
-<Image
-    noborder=true
-    size="small"
-    hidden=true
-    src="../../articles/cards/ceki/CS8.jpg"
-    alt="">
-8 Strings is the second-highest.
-</Image>
-> [!figure]
->
-> ![](../../articles/cards/ceki/CS7.jpg)
-> ![](../../articles/cards/ceki/CS5.jpg)
->
-> ```yaml
-> noborder: true
-> size: "small"
-> justify: "centered"
-> hidden: true
-> ```
->
-> 5 & 7 Strings are ranked equally.
-</div>
+> ![multi-centered]
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CS9.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > hidden: true
+> > ```
+> >
+> > 9 Strings is the highest-ranking.
+> 
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CS8.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > hidden: true
+> > ```
+> >
+> > 8 Strings is the second-highest.
+> 
+> > [!figure]
+> >
+> > ![](../../articles/cards/ceki/CS7.jpg)
+> > ![](../../articles/cards/ceki/CS5.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > justify: "centered"
+> > hidden: true
+> > ```
+> >
+> > 5 & 7 Strings are ranked equally.
 
 ### <span lang="jav-Latn">Dika</span>
 

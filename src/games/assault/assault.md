@@ -25,10 +25,18 @@ Assault was probably derived from the game of [Fox & Geese](games/fox-and-geese.
 >
 > Reprint of an old German Assault board. Black lines indicate paths that the Attacker may not use.
 
-<Image src="1324594001.jpg" alt="" originalUrl="https://www.britishmuseum.org/collection/image/1324594001" 
-  license="cc-by-nc-sa" licenseVersion="4.0" orgName="Trustees of the British Museum"> 
-A 19th century print; bold lines indicate paths the Attacker may not use. 
-</Image>
+> [!figure]
+>
+> ![](1324594001.jpg)
+>
+> ```yaml
+> originalUrl: "https://www.britishmuseum.org/collection/image/1324594001"
+> license: "cc-by-nc-sa"
+> licenseVersion: "4.0"
+> orgName: "Trustees of the British Museum"
+> ```
+>
+> A 19th century print; bold lines indicate paths the Attacker may not use.
 </div>
 
 {/* excerpt */}
@@ -50,8 +58,10 @@ The presentation of the game usually has a militaristic theme, often celebrating
 
 > [!figure]
 >
+> ![](asalto_board.svg)
+>
 > ```yaml
-> src="asalto_board.svg" noborder=true alt=""
+> noborder: true
 > ```
 >
 > The board for Assault. The fortress is marked in red.
@@ -60,8 +70,10 @@ The game is played on a board with 33 points arranged in a cross shape. Nine poi
 
 > [!figure]
 >
+> ![](asalto_setup.svg)
+>
 > ```yaml
-> src="asalto_setup.svg" noborder=true alt=""
+> noborder: true
 > ```
 >
 > The initial setup for Assault. The attacker’s pieces are purple and the defender’s are yellow.
@@ -78,8 +90,10 @@ The defender’s pieces move in a similar way, but are not required to move in a
 
 > [!figure]
 >
+> ![](defender_multiple_jumps.svg)
+>
 > ```yaml
-> src="defender_multiple_jumps.svg" noborder=true alt=""
+> noborder: true
 > ```
 >
 > A defending piece may make multiple consecutive jumps.
@@ -92,33 +106,37 @@ The goal of the attacker is to occupy every point of the fortress, or to surroun
 
 Many small variations of the board have been published. Some are displayed here.  For these I do not have rules, so it is unclear if horizontal movements were permitted or not.
 
-<div class="multi wide">
 
-> [!figure]
->
-> ```yaml
-> src="asalto_simplified_board.svg" noborder=true alt=""
-> ```
->
-> A board without most diagonals (as found [here](https://boardgamegeek.com/image/5069937/miscellaneous-game-compilation)).
-
-> [!figure]
->
-> ```yaml
-> src="fuchs_und_henne.svg" noborder=true alt=""
-> ```
->
-> A board variant for [<span lang="de" class="aka">Fuchs und Henne</span>](https://web.archive.org/web/20120817104138/http://www.holznerspiele.de/anleitung.html), played with 20 attackers which are set up on all the lower points. 
-
-> [!figure]
->
-> ```yaml
-> src="2_contra_20.svg" noborder=true alt=""
-> ```
->
-> A board variant for [<span lang="de" class="aka">2 Contra 20</span>](https://boardgamegeek.com/image/6417481/asalto) (published by A.  Eggenweiler), played with 20 attackers which are set up on all the lower points. 
-
-</div>
+> [!multi-wide]
+> > [!figure]
+> >
+> > ![](asalto_simplified_board.svg)
+> >
+> > ```yaml
+> > noborder: true
+> > ```
+> >
+> > A board without most diagonals (as found [here](https://boardgamegeek.com/image/5069937/miscellaneous-game-compilation)).
+> 
+> > [!figure]
+> >
+> > ![](fuchs_und_henne.svg)
+> >
+> > ```yaml
+> > noborder: true
+> > ```
+> >
+> > A board variant for [<span lang="de" class="aka">Fuchs und Henne</span>](https://web.archive.org/web/20120817104138/http://www.holznerspiele.de/anleitung.html), played with 20 attackers which are set up on all the lower points. 
+> 
+> > [!figure]
+> >
+> > ![](2_contra_20.svg)
+> >
+> > ```yaml
+> > noborder: true
+> > ```
+> >
+> > A board variant for [<span lang="de" class="aka">2 Contra 20</span>](https://boardgamegeek.com/image/6417481/asalto) (published by A.  Eggenweiler), played with 20 attackers which are set up on all the lower points. 
 
 ### <span class="aka">Royal Garrison</span>
 
@@ -128,18 +146,26 @@ The defender has three pieces which start on the middle and either end of the
 bottom row of the fortress. The attacker has fifty pieces which are placed on
 all points outside the fortress. Play is otherwise the same as Assault.
 
-<Image src="Grosse_Belagerungsspiel.svg" noborder=true alt="">
-<span lang="de">Grosse Belagerungsspiel</span> board. See examples
+> [!figure]
+>
+> ![](Grosse_Belagerungsspiel.svg)
+>
+> ```yaml
+> noborder: true
+> ```
+>
+> <span lang="de">Grosse Belagerungsspiel</span> board. See examples
 [here](https://boardgamegeek.com/image/4378970/asalto) and
 [here](https://boardgamegeek.com/image/6800504/asalto).
-</Image>
 
 Another version of the “Royal Garrison” board connected all diagonals:
 
 > [!figure]
+> 
+> ![](royal_garrison.svg)
 >
 > ```yaml
-> src="royal_garrison.svg" noborder=true alt=""
+> noborder: true
 > ```
 >
 > A different Royal Garrison board.

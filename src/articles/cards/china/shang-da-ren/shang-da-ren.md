@@ -42,11 +42,15 @@ highlighted in red. In some versions, the second character is highlighted in gre
 >
 > A 96-card deck published under the brand <span lang="zh">上大人乐喜</span>.
 
-<Image src="shang_da_ren_144.jpg" size="wide" alt="">
-A 145-card deck published under the brand <span lang="zh">上大人乐喜</span>.
-There are 5 extra cards and 5 copies of each card. (The seller advertised this as
-a 144-card deck.)
-</Image>
+> [!figure]
+>
+> ![](shang_da_ren_144.jpg)
+>
+> ```yaml
+> size: "wide"
+> ```
+>
+> A 145-card deck published under the brand <span lang="zh">上大人乐喜</span>. There are 5 extra cards and 5 copies of each card. (The seller advertised this as a 144-card deck.)
 
 ## <span lang="cmn-Latn-pinyin" class="noun">Fú Lù Shòu Pái</span> <span lang="zh">福祿壽牌</span> 
 
@@ -55,8 +59,12 @@ Rén</span> cards where the final three characters are replaced by the character
 <span lang="zh">福祿壽</span> (‘fortune, prosperity, longevity’).
 
 
-<Image src="shang_da_ren_alternative.jpg" size="wide" alt="">
-A 96-card <span lang="cmn-Latn-pinyin" class="noun">Fú Lù Shòu</span> deck published
-under the brand name “Shashi” <span lang="zh">沙石</span>. These cards have
-indices so the values can be read while fanned.
-</Image>
+> [!figure]
+>
+> ![](shang_da_ren_alternative.jpg)
+>
+> ```yaml
+> size: "wide"
+> ```
+>
+> A 96-card <span lang="cmn-Latn-pinyin" class="noun">Fú Lù Shòu</span> deck published under the brand name “Shashi” <span lang="zh">沙石</span>. These cards have indices so the values can be read while fanned.

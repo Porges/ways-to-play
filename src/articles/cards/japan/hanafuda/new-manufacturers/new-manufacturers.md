@@ -188,13 +188,11 @@ lang="ja-Latn">Hanafuda</span>-only deck, in a traditional format.
 
 {/* by Hanako: https://profile.ameba.jp/ameba/estudio-artes */}
 
-<Image 
-  src='NishikiFuda.jpg'
-  alt="">
-The 5 Bright cards of the combination <span class="noun" lang="ja-Latn">Nishiki Fuda</span>
-deck. The cards from A–10 have Japanese numerals for use as  <span class="noun"
-lang="ja-Latn">Kabufuda</span> cards.
-</Image>
+> [!figure]
+>
+> ![](NishikiFuda.jpg)
+>
+> The 5 Bright cards of the combination <span class="noun" lang="ja-Latn">Nishiki Fuda</span> deck. The cards from A–10 have Japanese numerals for use as <span class="noun" lang="ja-Latn">Kabufuda</span> cards.
 
 > [!figure]
 >
@@ -223,12 +221,11 @@ lang="ja-Latn">Kokoyo</strong>](http://www.cochae.com/system/goods/2359/)
 coded by background colour so that Bright cards have a gold background, Tane
 have silver, etc.
 
-<Image 
-  src='Cochae_Brights.jpg'
-  alt="">
-The 5 Bright cards of the Cochae <span class="noun" lang="ja-Latn">Kokoyo</span> deck (2019).
-The backgrounds are a metallic gold colour, which doesn’t show up well here.
-</Image>
+> [!figure]
+>
+> ![](Cochae_Brights.jpg)
+>
+> The 5 Bright cards of the Cochae <span class="noun" lang="ja-Latn">Kokoyo</span> deck (2019). The backgrounds are a metallic gold colour, which doesn’t show up well here.
 
 ## [Junior](https://www.junior.cards/)
 
@@ -289,12 +286,11 @@ games invented by Ryan.
 >
 > The five Brights of the Pixel <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
 
-<Image 
-  src='pixel_hanafuda_swapped.jpg'
-  alt="">
-Some of the palette-swapped cards from the Pixel <span class="noun"
-lang="ja-Latn">Hanafuda</span> deck.
-</Image>
+> [!figure]
+>
+> ![](pixel_hanafuda_swapped.jpg)
+>
+> Some of the palette-swapped cards from the Pixel <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
 
 ## <span class="noun" lang="ja-Latn">Tetsufuda</span>
 
@@ -318,14 +314,11 @@ each month combine to form a tetraptych.
 >
 > The five Brights of the <span class="noun" lang="ja-Latn">Tetsufuda</span> deck.
 
-<Image 
-  src='JR_tetraptych.jpg'
-  alt="">
-The maple cards feature the [<span class="noun" lang="ja-Latn">Nozomi
-Shinkansen</span>](https://en.wikipedia.org/wiki/Nozomi_(train)) of the [<span class="noun"
-lang="ja-Latn">Tōkaidō</span>
-line](https://en.wikipedia.org/wiki/Tokaido_Shinkansen).
-</Image>
+> [!figure]
+>
+> ![](JR_tetraptych.jpg)
+>
+> The maple cards feature the [<span class="noun" lang="ja-Latn">Nozomi Shinkansen</span>](https://en.wikipedia.org/wiki/Nozomi_(train)) of the [<span class="noun" lang="ja-Latn">Tōkaidō</span> line](https://en.wikipedia.org/wiki/Tokaido_Shinkansen).
 
 ## Heroku Hanafuda
 

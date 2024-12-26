@@ -27,10 +27,17 @@ https://www.britishmuseum.org/collection/object/Y_EA20935
 
 ### Old Kingdom (2686–2181 <abbr>BCE</abbr>)
 
-<Image src="Hesy-Re.jpg" alt="" license="cc0" noborder=true size="extra-wide" %}
-A painting from the tomb of Hesy-Re (<span lang="egy">𓂋𓐰𓂝𓎛𓐱𓎿𓐰𓊃𓇋𓐱𓇋</span> <span lang="egy-Latn">ḥs.jj-rꜥ</span>), <abbr>c.</abbr>&nbsp;2650 <abbr>BCE</abbr>. A [Mehen](games/mehen/mehen.md) board is at left, and the Senet board, pieces, and throwing-sticks are at top right.<br/>
-Depiction from @TombOfHesy [pl. XI].{/*http://digital.library.yale.edu/digital/collection/rebooks/id/97298*/}
-</Image>
+> [!figure]
+>
+> ![](Hesy-Re.jpg)
+>
+> ```yaml
+> license: "cc0"
+> noborder: true
+> size: "extra-wide"
+> ```
+>
+> A painting from the tomb of Hesy-Re (<span lang="egy">𓂋𓐰𓂝𓎛𓐱𓎿𓐰𓊃𓇋𓐱𓇋</span> <span lang="egy-Latn">ḥs.jj-rꜥ</span>), <abbr>c.</abbr>&nbsp;2650 <abbr>BCE</abbr>. A [Mehen](games/mehen/mehen.md) board is at left, and the Senet board, pieces, and throwing-sticks are at top right.<br/> Depiction from @TombOfHesy [pl. XI]. http://digital.library.yale.edu/digital/collection/rebooks/id/97298
 
 <div class="multi">
 > [!figure]
@@ -73,11 +80,17 @@ Depiction from @TombOfHesy [pl. XI].{/*http://digital.library.yale.edu/digital/c
 
 See also @ExcavationsAtSaqqara1907 pl. LVIII, LIX for images of actual box
 
-<Image src="02030610.jpg" alt="" originalUrl="http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html"
- license="cc0" size="extra-wide" %}
-Senet (at bottom next to depiction of Mehen); Fifth Dynasty (25th–24th centuries <abbr>BCE</abbr>) tomb of Rashepses (<span lang="egy">𓂋𓐰𓂝𓀼𓋴𓋴</span> <span lang="egy-Latn">rꜥ-šp.ss</span>) at Saqqara (<abbr title="Lepsius">LS</abbr>16/<abbr title="Quibell">QS</abbr>902).[@LD_3 Abt. II, Bl. 61a] The tomb was constructed during the reign of Pharaoh [Djedkare](https://en.wikipedia.org/wiki/Djedkare_Isesi).[@FalseDoorRashepses]
-{/*image from http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html*/}
-</Image>
+> [!figure]
+>
+> ![](02030610.jpg)
+>
+> ```yaml
+> originalUrl: "http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html"
+> license: "cc0"
+> size: "extra-wide"
+> ```
+>
+> Senet (at bottom next to depiction of Mehen); Fifth Dynasty (25th–24th centuries <abbr>BCE</abbr>) tomb of Rashepses (<span lang="egy">𓂋𓐰𓂝𓀼𓋴𓋴</span> <span lang="egy-Latn">rꜥ-šp.ss</span>) at Saqqara (<abbr title="Lepsius">LS</abbr>16/<abbr title="Quibell">QS</abbr>902).[@LD_3 Abt. II, Bl. 61a] The tomb was constructed during the reign of Pharaoh [Djedkare](https://en.wikipedia.org/wiki/Djedkare_Isesi).[@FalseDoorRashepses] image from http://edoc3.bibliothek.uni-halle.de/lepsius/tafelwa2.html
 
 ### First Intermediate Period (2181–2055 <abbr>BCE</abbr>)
 

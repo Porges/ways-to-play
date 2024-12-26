@@ -22,21 +22,33 @@ The only source I have found for the game is that of Stewart Culin. He also says
 
 ### Equipment
 
-<Image src="prinola.png" alt="" license="cc0" noborder=true size="wide" %}
-
-Implements for Prinola, from @CulinPhilippine [p. 646].
-
-</Image>
+> [!figure]
+>
+> ![](prinola.png)
+>
+> ```yaml
+> license: "cc0"
+> noborder: true
+> size: "wide"
+> ```
+>
+> Implements for Prinola, from @CulinPhilippine [p. 646].
 
 <span lang="fil-Latn" class="noun">Prinola</span> is played using a staking layout containing symbols for the dice results <Dice type="chinese">1</Dice> through <Dice type="chinese">6</Dice>, and a six-sided teetotum. The teetotum is usually spun in a shallow dish.
 
 Alternately, the teetotum can also be decorated with animals or other images, in much the same way as the Chinese versions of {%gameref crown-and-anchor%}.
 
-<Image src="prinola_equipment.jpg" alt="" license="cc0" noborder=true size="wide" %}
-
-A photograph of implements for Prinola, from @ChineseGames [pl. 2].
-
-</Image>
+> [!figure]
+>
+> ![](prinola_equipment.jpg)
+>
+> ```yaml
+> license: "cc0"
+> noborder: true
+> size: "wide"
+> ```
+>
+> A photograph of implements for Prinola, from @ChineseGames [pl. 2].
 
 ### Play
 

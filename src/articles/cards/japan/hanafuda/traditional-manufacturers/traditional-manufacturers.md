@@ -400,16 +400,18 @@ lang="ja-Latn">Hanafuda</span> cards.
 
 ### <img src='/small-images/marufuku.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nintendō</span> (<span lang="ja">任天堂</span>)
 
-<Image 
-    noborder=true
-    size="small"
-    position="aside"
-    alt=""
-    src="Nintendo_trademark1.png"
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">marufuku</span>
-mark, registered in 1900 by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō</span>.[@Trademarks1905 p. 67]
-</Image>
+> [!figure]
+>
+> ![](Nintendo_trademark1.png)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">marufuku</span> mark, registered in 1900 by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō</span>.[@Trademarks1905 p. 67]
 
 <span class="noun" lang="ja-Latn">Nintendō</span> is the most prominent company that produces
 <span class="noun" lang="jp-Latn">Hanafuda</span> cards today. The company was founded in
@@ -666,12 +668,11 @@ Currently <span class="noun" lang="ja-Latn">Nintendō</span> also produce many n
 themed with their videogame characters, such as Mario (pictured below), Pokémon,
 Mario Pikachu (limited edition, 2016), Kirby (2020), among others.
 
-<Image 
-    src='Nintendo_Mario_Brights.jpg'
-    alt="">
-<span class="noun" lang="ja-Latn">Nintendō</span>’s Mario deck, featuring recurring
-characters from the Mario series.
-</Image>
+> [!figure]
+>
+> ![](Nintendo_Mario_Brights.jpg)
+>
+> <span class="noun" lang="ja-Latn">Nintendō</span>’s Mario deck, featuring recurring characters from the Mario series.
 
 <span class="noun" lang="ja-Latn">Nintendō</span> have also on occasion produced decks for
 other companies, such as the <span class="noun" lang="ja-Latn">Shikishima Hanafuda</span>
@@ -679,15 +680,11 @@ other companies, such as the <span class="noun" lang="ja-Latn">Shikishima Hanafu
 Karuta</span> (<span lang="ja">奥野かるた店</span>), a games shop in <span class="noun"
 lang="ja-Latn">Tōkyō</span>.
 
-<Image 
-    src="Shikishima.jpg"
-    alt="">
-<span class="noun" lang="ja-Latn">Okuno Karuta’s Shikishima Hanafuda</span>. The cards were
-designed by the print artist <span class="noun" lang="ja-Latn">Itō Takumi</span> (<span
-lang="ja">伊藤卓美</span>, <abbr title="born">b.</abbr> 1946). They are larger
-than normal <span class="noun" lang="ja-Latn">Hanafuda</span> and the cards are printed on
-flat cardboard, not wrapped with backing paper.
-</Image>
+> [!figure]
+>
+> ![](Shikishima.jpg)
+>
+> <span class="noun" lang="ja-Latn">Okuno Karuta’s Shikishima Hanafuda</span>. The cards were designed by the print artist <span class="noun" lang="ja-Latn">Itō Takumi</span> (<span lang="ja">伊藤卓美</span>, <abbr title="born">b.</abbr> 1946). They are larger than normal <span class="noun" lang="ja-Latn">Hanafuda</span> and the cards are printed on flat cardboard, not wrapped with backing paper.
 
 ### <img src='/small-images/yamami.svg' alt="" class="inline-img" /> <a href="https://www.tengudo.jp/" class="noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)
 
@@ -707,18 +704,18 @@ older cards, such as the <span class="noun" lang="ja-Latn">Unsun</span> deck.
 >
 > Cards from two different hand-printed <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> decks, showing the high variability caused by the technique.
 
-<Image 
-    noborder=true
-    size="small"
-    position="aside"
-    alt=""
-    src="Oishi_trademark.png"
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s earliest trademark, registered on
-the 5th of October 1893 by <span class="noun" lang="ja-Latn">Ōishi Sato</span> (<span
-lang="ja">大石サト</span>).[@Trademarks1905 p. 65] This trademark was clearly
-based on that of [<span class="noun" lang="ja-Latn">Sanjōya</span>](#sanjoya).
-</Image>
+> [!figure]
+>
+> ![](Oishi_trademark.png)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s earliest trademark, registered on the 5th of October 1893 by <span class="noun" lang="ja-Latn">Ōishi Sato</span> (<span lang="ja">大石サト</span>).[@Trademarks1905 p. 65] This trademark was clearly based on that of [<span class="noun" lang="ja-Latn">Sanjōya</span>](#sanjoya).
 
 > [!figure]
 >
@@ -1159,14 +1156,11 @@ of his told him to “make something that doesn’t exist anywhere”.[@TewazaNo
 Since closing, <span class="noun" lang="ja-Latn">Matsui Tengudō</span> decks now fetch high
 prices on Yahoo! Auctions, often selling for several hundred US dollars.
 
-<Image 
-    src='Matsui_Brights.jpg'
-    alt="">
-The 5 Bright cards from a deck produced by <span class="noun"
-lang="ja-Latn">Matsui Shigeo</span> to demonstrate his printing technique
-(1978). This deck was produced as part of a demonstration for members of the
-International Playing Card Society.
-</Image>
+> [!figure]
+>
+> ![](Matsui_Brights.jpg)
+>
+> The 5 Bright cards from a deck produced by <span class="noun" lang="ja-Latn">Matsui Shigeo</span> to demonstrate his printing technique (1978). This deck was produced as part of a demonstration for members of the International Playing Card Society.
 
 <span class="noun" lang="ja-Latn">Matsui</span>’s mark was <span lang="ja">松</span> in a
 square, and brands included:
@@ -1417,17 +1411,18 @@ Brands produced by <span class="noun" lang="ja-Latn">Maruē</span> included:[@Mo
 
 ### <img src='/small-images/yamata.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span> (<span lang="ja">田中玉水堂</span>)
 
-<Image 
-    noborder=true
-    size="small"
-    position="aside"
-    alt=""
-    src='Gyokusuido_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s trademark, registered on the
-16th of October 1893 by <span class="noun" lang="ja-Latn">Tanaka Heibe</span> (<span
-lang="ja">田中平兵衛</span>).[@Trademarks1905 p. 65]
-</Image>
+> [!figure]
+>
+> ![](Gyokusuido_trademark.png)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s trademark, registered on the 16th of October 1893 by <span class="noun" lang="ja-Latn">Tanaka Heibe</span> (<span lang="ja">田中平兵衛</span>).[@Trademarks1905 p. 65]
 
 <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span> was founded around 1893, and
 existed in <span class="noun" lang="ja-Latn">Kyōto</span> through 1914 (when it was run by
@@ -1518,17 +1513,18 @@ included:
 
 ### <span class="noun" lang="ja-Latn">Iwata Honten</span> (<span lang="ja">岩田本店</span>)
 
-<Image 
-    noborder=true
-    size="small"
-    position="aside"
-    alt=""
-    src='Iwata_trademark.png'
-    license="cc0"  %}
-<span class="noun" lang="ja-Latn">Iwata Honten</span>’s trademark, registered on the 27th of
-February 1918 by <span class="noun" lang="ja-Latn">Iwata Yoshinosuke</span> (<span lang="ja">
-岩田芳之助</span>).[@Trademarks1924_11 p. 330]
-</Image>
+> [!figure]
+>
+> ![](Iwata_trademark.png)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Iwata Honten</span>’s trademark, registered on the 27th of February 1918 by <span class="noun" lang="ja-Latn">Iwata Yoshinosuke</span> (<span lang="ja"> 岩田芳之助</span>).[@Trademarks1924_11 p. 330]
 
 <span class="noun" lang="ja-Latn">Iwata</span> was founded around 1918. They did not make
 their own cards but had them made by other manufacturers, including <span class="noun"
@@ -1908,17 +1904,18 @@ was a circled <span lang="ja">順</span>.
 
 ### <img src='/small-images/kanese.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nakao Seikadō</span> (<span lang="ja">中尾清花堂</span>)
 
-<Image 
-    noborder=true
-    size="small"
-    position="aside"
-    alt=""
-    src='Seikado_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Nakao Seikadō</span>’s trademark, registered on the 12th of
-July 1894 by <span class="noun" lang="ja-Latn">Nakao Kiyosuke</span> (<span lang="ja">中尾清
-助</span>).[@Trademarks1905 p. 66]
-</Image>
+> [!figure]
+>
+> ![](Seikado_trademark.png)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Nakao Seikadō</span>’s trademark, registered on the 12th of July 1894 by <span class="noun" lang="ja-Latn">Nakao Kiyosuke</span> (<span lang="ja">中尾清 助</span>).[@Trademarks1905 p. 66]
 
 Founded around 1894, and still existed in <span class="noun" lang="ja-Latn">Kyōto</span> in
 1948. Their [@Yamaguchi p. 102] mark was <span lang="ja">セ</span> with corner
@@ -1944,16 +1941,17 @@ Brands included:
 
 ### <span class="noun" lang="ja-Latn">Tsuchida Tenguya</span> (<span lang="ja">土田天狗屋</span>)
 
-<Image 
-    noborder=true
-    position="aside"
-    alt=""
-    src='Tsuchida_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Tsuchida Tenguya</span>’s trademark, registered on the 16th
-of April 1894 by <span class="noun" lang="ja-Latn">Tsuchida Tsurumatsu</span> (<span
-lang="ja">土田鶴松</span>).[@Trademarks1905 p. 66]
-</Image>
+> [!figure]
+>
+> ![](Tsuchida_trademark.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Tsuchida Tenguya</span>’s trademark, registered on the 16th of April 1894 by <span class="noun" lang="ja-Latn">Tsuchida Tsurumatsu</span> (<span lang="ja">土田鶴松</span>).[@Trademarks1905 p. 66]
 
 Founded around 1894, <span class="noun" lang="ja-Latn">Tsuchida Tenguya</span> was based in
 <span class="noun" lang="ja-Latn">Ōsaka</span>, and also manufactured Western and <span
@@ -2015,17 +2013,18 @@ In the 1930s their brands included (in descending price order):
 
 ### <img src='/small-images/kanewe.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span> (<span lang="ja">臼井日月堂</span>)/<span class="noun" lang="ja-Latn">Kyōto Karuta</span> (<span lang="ja">京都カルタ</span>)
 
-<Image 
-    noborder=true
-    size="small"
-    position="aside"
-    alt=""
-    src='Usui_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span>’s trademark, registered on the 9th
-of October 1894 by <span class="noun" lang="ja-Latn">Usui Iwajirō</span> (<span lang="ja">臼
-井岩次郎</span>).[@Trademarks1905 p. 66]
-</Image>
+> [!figure]
+>
+> ![](Usui_trademark.png)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span>’s trademark, registered on the 9th of October 1894 by <span class="noun" lang="ja-Latn">Usui Iwajirō</span> (<span lang="ja">臼 井岩次郎</span>).[@Trademarks1905 p. 66]
 
 Founded around 1894, their mark was <span lang="ja">ヱ</span> in an angle, this
 company was at first called <span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span> and
@@ -2437,15 +2436,16 @@ England](https://www.wopc.co.uk/alfcooke/index). As far as I can tell, the two
 companies were unrelated.
 {%endaside%}
 
-<Image 
-    noborder=true
-    src='Universal_Ace.jpg'
-    alt=""
-    position="aside" %}
-Universal also published standard Western decks; this Ace from a “No.
-<strong>706</strong>” deck shows the logo of a star containing the letters U
-&amp; C intertwined.
-</Image>
+> [!figure]
+>
+> ![](Universal_Ace.jpg)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> ```
+>
+> Universal also published standard Western decks; this Ace from a “No. <strong>706</strong>” deck shows the logo of a star containing the letters U &amp; C intertwined.
 
 The Universal Playing Card Company was founded in 1914, and based in <span class="noun"
 lang="ja-Latn">Ōsaka</span>.[@UniversalInfo] Their maker’s mark on <span class="noun"
@@ -2469,12 +2469,11 @@ lang="ja-Latn">Hanafuda</span> than other brands’ combination cards are. A ver
 similar deck was published under the brand “Star Playing Cards” (numbered
 “<strong>807</strong>”, with a five-pointed star).
 
-<Image  src='Universal_TrumpHana_Brights.jpg' alt="">
-
-The Bright cards of Universal’s <span class="noun" lang="ja-Latn">Trump-Hana</span> deck.
-This particular deck is listed as number “350” on the packaging.
-
-</Image>
+> [!figure]
+>
+> ![](Universal_TrumpHana_Brights.jpg)
+>
+> The Bright cards of Universal’s <span class="noun" lang="ja-Latn">Trump-Hana</span> deck. This particular deck is listed as number “350” on the packaging.
 
 > [!figure]
 >
@@ -2504,26 +2503,11 @@ additional suit in games with more players.
 >
 > The Bright cards of Universal’s <span class="noun" lang="ja-Latn">Hana-Trump</span> deck. This particular deck is listed as number “25” on the packaging.
 
-<Image 
-    src='Universal_25_extras.jpg'
-    alt="">
-
-The Bamboo–King extra suit of Universal’s <span class="noun" lang="ja-Latn">Hana-Trump</span>
-deck. The extra cards, from left-to-right, are: an additional Bright card
-featuring Princess <span class="noun" lang="ja-Latn">Yaegaki</span> (<span lang="ja">八重垣姫
-</span>), a character from the traditional <span lang="ja-Latn">bunraku</span>
-(and later <span lang="ja-Latn">kabuki</span>) play <cite>24 Paragons of Filial
-Piety</cite> (<span lang="ja">本朝廿四孝</span>, <span lang="ja-Latn">Honchō
-Nijūshikō</span>), who is taking a magical helmet to her lover across frozen
-[Lake <span class="noun"
-lang="ja-Latn">Suwa</span>](https://en.wikipedia.org/wiki/Lake_Suwa); the <span
-lang="ja-Latn">tanzaku</span> card, which is inscribed <span lang="ja">さゝ𛂜ゆ
-き</span> (<span lang="ja-Latn">sasa no yuki</span>, ‘snow on bamboo’); the
-<span lang="ja-Latn">tane</span> card, showing two sparrows; and the <span
-lang="ja-Latn">kasu</span> card, which has a yellow background similar to one of
-the Paulownia cards.
-
-</Image>
+> [!figure]
+>
+> ![](Universal_25_extras.jpg)
+>
+> The Bamboo–King extra suit of Universal’s <span class="noun" lang="ja-Latn">Hana-Trump</span> deck. The extra cards, from left-to-right, are: an additional Bright card featuring Princess <span class="noun" lang="ja-Latn">Yaegaki</span> (<span lang="ja">八重垣姫 </span>), a character from the traditional <span lang="ja-Latn">bunraku</span> (and later <span lang="ja-Latn">kabuki</span>) play <cite>24 Paragons of Filial Piety</cite> (<span lang="ja">本朝廿四孝</span>, <span lang="ja-Latn">Honchō Nijūshikō</span>), who is taking a magical helmet to her lover across frozen [Lake <span class="noun" lang="ja-Latn">Suwa</span>](https://en.wikipedia.org/wiki/Lake_Suwa); the <span lang="ja-Latn">tanzaku</span> card, which is inscribed <span lang="ja">さゝ𛂜ゆ き</span> (<span lang="ja-Latn">sasa no yuki</span>, ‘snow on bamboo’); the <span lang="ja-Latn">tane</span> card, showing two sparrows; and the <span lang="ja-Latn">kasu</span> card, which has a yellow background similar to one of the Paulownia cards.
 
 > [!figure]
 >
@@ -2543,16 +2527,17 @@ lang="ja">万</span> with corner at top-right.[@OstasiatischeSpielkarten p. 135]
 
 ### <img src='/small-images/marumatsu.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Akata Shōjōya</span> (<span lang="ja">赤田猩々屋</span>)
 
-<Image 
-    noborder=true
-    position="aside"
-    alt=""
-    src='Akata_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Aakata Shōjōya</span>’s trademark, registered on the 24th
-of April 1900 by <span class="noun" lang="ja-Latn">Akada Hanjirō</span> (<span lang="ja">赤田
-半次郎</span>).[@Trademarks1905 p. 67]
-</Image>
+> [!figure]
+>
+> ![](Akata_trademark.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Aakata Shōjōya</span>’s trademark, registered on the 24th of April 1900 by <span class="noun" lang="ja-Latn">Akada Hanjirō</span> (<span lang="ja">赤田 半次郎</span>).[@Trademarks1905 p. 67]
 
 A <span class="noun" lang="ja-Latn">Kyōto</span> manufacturer whose mark was <span lang="ja">
 松</span> in a circle. Their mascot was a <span
@@ -2617,17 +2602,18 @@ Their mark was circled <span lang="ja">娯</span>, and brands included:
 
 ### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nishi&shy;guchi Shōten</span> (<span lang="ja">西口商店</span>)
 
-<Image 
-    noborder=true
-    size="small"
-    position="aside"
-    alt=""
-    src='Nishiguchi_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Nishiguchi</span>’s trademark, registered on the 3rd of
-October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<span lang="ja">
-西口榮助</span>).[@Trademarks1924_7 p. 226]
-</Image>
+> [!figure]
+>
+> ![](Nishiguchi_trademark.png)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Nishiguchi</span>’s trademark, registered on the 3rd of October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<span lang="ja"> 西口榮助</span>).[@Trademarks1924_7 p. 226]
 
 > [!figure]
 >
@@ -2657,16 +2643,17 @@ lang="ja-Latn">Nishi&shy;guchi Shōten</span>. Their brands included:
 
 ### <img src='/small-images/kanekata.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kamigataya</span> (<span lang="ja">上方屋</span>)
 
-<Image 
-    noborder=true
-    position="aside"
-    alt=""
-    src='Kamigataya_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Kamigataya</span>’s earliest trademark, registered on the
-2nd of October 1889 by <span class="noun" lang="ja-Latn">Maeda Kihei</span> (<span lang="ja">
-前田喜兵衛</span>).[@Trademarks1905 p. 65]
-</Image>
+> [!figure]
+>
+> ![](Kamigataya_trademark.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Kamigataya</span>’s earliest trademark, registered on the 2nd of October 1889 by <span class="noun" lang="ja-Latn">Maeda Kihei</span> (<span lang="ja"> 前田喜兵衛</span>).[@Trademarks1905 p. 65]
 
 For more about <span class="noun" lang="ja-Latn">Kamigataya</span>, see the [history article](/articles/cards/japan/hanafuda/art/). Early on, <span class="noun" lang="ja-Latn">Kamigataya</span> had decks made (by <span class="noun" lang="ja-Latn">Nintendō</span>) with their own brand, but they would later sell <span class="noun" lang="ja-Latn">Nintendō</span>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xE0103;</span> with angle.
 
@@ -2756,16 +2743,17 @@ included:
 
 ### <span class="noun" lang="ja-Latn">Tamei Fukujudō</span> (<span lang="ja">為井福寿堂</span>)
 
-<Image 
-    noborder=true
-    position="aside"
-    alt=""
-    src='Tamei_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Tamei</span>’s trademark, registered on the 8th of January
-1900 by <span class="noun" lang="ja-Latn">Tamei Tatsunosuke</span> (<span lang="ja">為井辰之
-助</span>).[@Trademarks1905 p. 67]
-</Image>
+> [!figure]
+>
+> ![](Tamei_trademark.png)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Tamei</span>’s trademark, registered on the 8th of January 1900 by <span class="noun" lang="ja-Latn">Tamei Tatsunosuke</span> (<span lang="ja">為井辰之 助</span>).[@Trademarks1905 p. 67]
 
 Tamei was founded around 1900 and unusally used a romanized version of their
 name as a mark. I only know of one brand:
@@ -2774,17 +2762,18 @@ name as a mark. I only know of one brand:
 
 ### <span class="noun" lang="ja-Latn">Sanjōya</span> (<span lang="ja">三條屋</span>)
 
-<Image 
-    noborder=true
-    size="small"
-    position="aside"
-    alt=""
-    src='Sanjoya_trademark.png'
-    license="cc0" %}
-<span class="noun" lang="ja-Latn">Sanjōya</span>’s trademark, registered on the 24th of
-November 1890 by <span class="noun" lang="ja-Latn">Kawasaki Matayoshi</span> (<span
-lang="ja">川崎又吉</span>).[@Trademarks1905 p. 65]
-</Image>
+> [!figure]
+>
+> ![](Sanjoya_trademark.png)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Sanjōya</span>’s trademark, registered on the 24th of November 1890 by <span class="noun" lang="ja-Latn">Kawasaki Matayoshi</span> (<span lang="ja">川崎又吉</span>).[@Trademarks1905 p. 65]
 
 <span class="noun" lang="ja-Latn">Sanjōya</span> was the second company to apply for a
 trademark for <span class="noun" lang="ja-Latn">Hanafuda</span> after [<span class="noun"

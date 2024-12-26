@@ -192,13 +192,15 @@ apparently sought-after.
 
 [^nlnz]: The National Library of New Zealand has [at least 10 pakapoo printing blocks](https://tiaki.natlib.govt.nz/#details=ecatalogue.470454), and another photo [documents the movement of a printing press](https://tiaki.natlib.govt.nz/#details=ecatalogue.949016) that was originally used by one Joe Quinn to print pakapoo tickets in Wellington.
 
-<Image src="MingLeeDuw.jpg" alt="" noborder=true %}
-A Ming Lee Duw Co. ticket from California (reading <span lang="zh">名利就廠</span>
-right-to-left). The center reads <span lang="zh">生財有道</span>, a [four-character idiom](https://en.wikipedia.org/wiki/Chengyu)
-meaning “an expert in making money”, a reference to an extract from the
-Confucian [<cite>Book of
-Rites</cite>.](https://en.wikipedia.org/wiki/Book_of_Rites)
-</Image>
+> [!figure]
+>
+> ![](MingLeeDuw.jpg)
+>
+> ```yaml
+> noborder: true
+> ```
+>
+> A Ming Lee Duw Co. ticket from California (reading <span lang="zh">名利就廠</span> right-to-left). The center reads <span lang="zh">生財有道</span>, a [four-character idiom](https://en.wikipedia.org/wiki/Chengyu) meaning “an expert in making money”, a reference to an extract from the Confucian [<cite>Book of Rites</cite>.](https://en.wikipedia.org/wiki/Book_of_Rites)
 
 The place that distributed the winnings and collected the profits was invariably
 referred to as the “bank”, and each bank would have its own name. In places such
@@ -451,12 +453,16 @@ winners being paid out first).
 
 ## Spread to other countries
 
-<Image noborder=true src="../../maps/PigeonTickets.svg" alt="" size="wide" %}
-
-Countries where the game was played in the past (before becoming Keno);
-locations with particular reports highlighted.
-
-</Image>
+> [!figure]
+>
+> ![](../../maps/PigeonTickets.svg)
+>
+> ```yaml
+> noborder: true
+> size: "wide"
+> ```
+>
+> Countries where the game was played in the past (before becoming Keno); locations with particular reports highlighted.
 
 The game traveled everywhere that Chinese people migrated to. In particular, it
 seems to have been popular in places with goldfields where Chinese men came to

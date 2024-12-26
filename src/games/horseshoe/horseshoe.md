@@ -26,10 +26,16 @@ The board is simple enough to be drawn with a finger into dirt or sand, and can
 be played with any two sets of two distinctive pieces: rocks, shell, bottlecaps,
 etc.
 
-<Image src="standard_board.svg" noborder=true alt="" size="small" %}
-A “standardized” board with places for the pieces to go.<br/>The normal Chinese
-board is the same as this, only drawn without circles.
-</Image>
+> [!figure]
+>
+> ![](standard_board.svg)
+>
+> ```yaml
+> noborder: true
+> size: "small"
+> ```
+>
+> A “standardized” board with places for the pieces to go.<br/>The normal Chinese board is the same as this, only drawn without circles.
 
 In English the game has no standard name, not being widespread, but it has been called “<span class="aka">horseshoe</span>”, or also “<span class="aka">bar</span>”.[@MeditoBoxFront]
 
