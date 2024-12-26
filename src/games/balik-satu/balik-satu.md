@@ -135,30 +135,45 @@ and this determines the value of their hand. Unmarked cards are worth their rank
 value (1–9 points), and the red-stamped cards are worth more:
 
 <div class="multi centered">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     noborder=true
     alt=""
     hidden=true
-    src="../../articles/cards/ceki/CS9.jpg" %}
-Red Nine scores 10 points.
-</Image>
-<Image 
+    src="../../articles/cards/ceki/CS9.jpg" 
+> ```
+>
+> Red Nine scores 10 points.
+
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     noborder=true
     alt=""
     hidden=true
-    src="../../articles/cards/ceki/CRF.jpg" %}
-Nyonya scores 11 points.
-</Image>
-<Image 
+    src="../../articles/cards/ceki/CRF.jpg" 
+> ```
+>
+> Nyonya scores 11 points.
+
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     noborder=true
     alt=""
     hidden=true
-    src="../../articles/cards/ceki/COT.jpg" %}
-Lau Chian scores 12 points.
-</Image>
+    src="../../articles/cards/ceki/COT.jpg" 
+> ```
+>
+> Lau Chian scores 12 points.
+
 </div>
 
 A common rule is that if the drawn card is a rank-1 <span lang="ms">yeo</span>
@@ -262,14 +277,19 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 <span class="noun" lang="jav-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.
 
-<Image src="74334415_1705918149541872_2426033331075284992_n.jpg"
+> [!figure]
+>
+> ```yaml
+> src="74334415_1705918149541872_2426033331075284992_n.jpg"
   alt="A black-and-white photograph of ten people sitting in a circle on a mat, mostly men, several are wearing pork-pie hats. They are holding cards, and in the centre of the mat is a plate holding ceki cards."
   license="with-permission"
   authorGiven="Hans"
   authorFamily="van der Horst"
-  originalUrl="https://www.facebook.com/Nickerianen/posts/pfbid0onFnYziW2UL8evg91FSZswgUdrrSTAfbyKzh39SrSbh6wEuE6cnSHHjx8UC5fyByl" %}
-A group of people playing Gonggong in the 1970s in Nickerie, Suriname.
-</Image>
+  originalUrl="https://www.facebook.com/Nickerianen/posts/pfbid0onFnYziW2UL8evg91FSZswgUdrrSTAfbyKzh39SrSbh6wEuE6cnSHHjx8UC5fyByl" 
+> ```
+>
+> A group of people playing Gonggong in the 1970s in Nickerie, Suriname.
+
 
 
 The game as played in Surakarta was described as follows:
@@ -294,9 +314,13 @@ This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. T
 <li>1 for <span lang="jav-Latn">metu</span>; 2 for <span lang="jav-Latn">metu</span> with a red card, or <span lang="jav-Latn">rabas</span>; or 3 for <span lang="jav-Latn">rabas</span> with a red card,</li>
 <li>an additional 1 for each <span lang="jav-Latn">bak</span> or 2 for each red <span lang="jav-Latn">bak</span> in their hand,</li>
 <li>and then turn over the top card and add its points. Nyonya/Lau Chian/1 Myriads score 10 points, everything else according to rank (White Flower scores 1).</li>
-<Image  size="small" noborder=true justify="centered" alt=";;" hidden=true src="../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CM1.jpg">
-These cards are worth 10 points each.
-</Image>
+> [!figure]
+>
+> ```yaml
+>  size="small" noborder=true justify="centered" alt=";;" hidden=true src="../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CM1.jpg"
+> ```
+>
+> These cards are worth 10 points each.
 </ol>
 </dd>
 <dt>alternative <span lang="jav-Latn">toh bayaran</span>, drawing 14 cards</dt>

@@ -9,12 +9,16 @@ Tri-Hex is a {%a mill-games,mill game%} that was invented by T. H. O’Beirne in
 
 ## Rules
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src="tri-hex.svg"
     noborder=true
-    alt="">
-The Tri-Hex board.
-</Image>
+    alt=""
+> ```
+>
+> The Tri-Hex board.
 
 Each player has four pieces, which are first (the placement phase) placed one at
 a time on the board. Once all the pieces are on the board, players take turns

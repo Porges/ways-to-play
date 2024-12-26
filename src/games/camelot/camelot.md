@@ -20,16 +20,21 @@ games originally developed by George Parker (of Parker Brothers fame).
 </p>
 
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     position="aside"
     src="camelot.jpg"
     alt="A board game box with a picture of two knights on the front." 
     authorFamily="Thompson", authorGiven="Mike",
     originalUrl="https://tomsk3000.com/product/1930-camelot-board-game-by-parker-brothers/",
     copyrightYear=2020,
-    license="with-permission" %}
-A 1930s Camelot box.
-</Image>
+    license="with-permission" 
+> ```
+>
+> A 1930s Camelot box.
+
 
 Also in the family are the 4-player games of Four-Handed Chivalry, Grand
 Camelot, and Grand Cam.
@@ -44,15 +49,20 @@ George Parker developed Chivalry over a number of years starting in 1882. It was
 eventually published by George S. Parker &amp; Co. in 1887, and then again by
 the newly-formed Parker Brothers in 1888.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   position="left"
   src='Camelot_Patent.png'
   alt="A black and white drawing of a game board"
     orgName="Google Patents",
     originalUrl="https://patents.google.com/patent/US1780038A",
-    license="cc0" %}
-A diagram of the board from George Parker’s 1930 patent.
-</Image>
+    license="cc0" 
+> ```
+>
+> A diagram of the board from George Parker’s 1930 patent.
+
 
 In 1930 he simplified the game of Chivalry to produce Camelot, and received a
 patent [US1780038](https://patents.google.com/patent/US1780038) for the game.
@@ -85,15 +95,20 @@ and capture in each game.
 In each game, White moves first and the players take turns moving a single
 piece.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src="camelot_board.jpg"
   alt="A chequered board with an unusual shape, missing the corner squares."
     authorFamily="Thompson", authorGiven="Mike",
     originalUrl="https://tomsk3000.com/product/1930-camelot-board-game-by-parker-brothers/",
     copyrightYear=2020,
-    license="with-permission" %}
-A 1930s Camelot board.
-</Image>
+    license="with-permission" 
+> ```
+>
+> A 1930s Camelot board.
+
 
 ### Moves
 
@@ -144,12 +159,17 @@ colour.
 Camette is the smallest of the Camelot variants, and is ideal for learning the
 game. It was invented by Michael Wortley Nolan in 2002.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt=""
     noborder=true
-    src='camette.svg' %}
-The initial setup for Camette.
-</Image>
+    src='camette.svg' 
+> ```
+>
+> The initial setup for Camette.
+
 
 Each player has 3 foot soldiers and 1 knight. The goal of the game is to get a
 single piece into the opponent’s castle, or to capture all of the opponent’s
@@ -161,11 +181,16 @@ There are no draws or stalemates in Camette.
 
 Cam is a downsized version of Camelot released by Parker Brothers in 1949.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt=""
-    src="cam.svg" noborder=true %}
-The initial setup for Cam.
-</Image>
+    src="cam.svg" noborder=true 
+> ```
+>
+> The initial setup for Cam.
+
 
 Each player has 5 foot soldiers and 2 knights. The goal of the game is to get a
 single piece into the opponent’s castle, or to capture all of the opponent’s
@@ -175,9 +200,14 @@ There are no draws or stalemates in Cam.
 
 ### Camelot
 
-<Image src="camelot.svg" alt="" noborder=true %}
-The initial setup for Camelot.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="camelot.svg" alt="" noborder=true 
+> ```
+>
+> The initial setup for Camelot.
+
 
 Each player has 10 foot soldiers and 4 knights.
 
@@ -201,9 +231,14 @@ entering a castle:
 
 ### Chivalry
 
-<Image src="chivalry.svg" alt="" noborder=true %}
-The initial setup for Chivalry.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="chivalry.svg" alt="" noborder=true 
+> ```
+>
+> The initial setup for Chivalry.
+
 
 Each player has 12 foot soldiers and 8 knights.
 
@@ -218,9 +253,14 @@ may jump and capture pieces from either opponent.
 
 Grand Cam was designed by Paul Bramwell Smith in 2005.
 
-<Image src="grand-cam.svg" alt="" noborder=true %}
-The initial setup for Grand Cam.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="grand-cam.svg" alt="" noborder=true 
+> ```
+>
+> The initial setup for Grand Cam.
+
 
 Each player has 5 foot soldiers and 2 knights.
 
@@ -239,9 +279,14 @@ castles on their left and right sides.
 
 Grand Camelot was released by Parker Brothers in 1932.
 
-<Image  src="grand-camelot.svg" alt="" noborder=true %}
-The initial setup for Grand Camelot.
-</Image>
+> [!figure]
+>
+> ```yaml
+>  src="grand-camelot.svg" alt="" noborder=true 
+> ```
+>
+> The initial setup for Grand Camelot.
+
 
 Each player has 8 foot soldiers and 4 knights. (The setup depicted above is that
 recommended by the WCF, the original layout by Parker Brothers has all 4 knights
@@ -260,9 +305,14 @@ each player may make two castle-moves per game.
 
 ### Four-Handed Chivalry
 
-<Image src="four-handed-chivalry.svg" alt="" noborder=true %}
-The initial setup for Four-Handed Chivalry.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="four-handed-chivalry.svg" alt="" noborder=true 
+> ```
+>
+> The initial setup for Four-Handed Chivalry.
+
 
 Four-Handed Chivalry is different to all the other variants: each player has
 only 8 knights. The board is the same as for two-player Chivalry.

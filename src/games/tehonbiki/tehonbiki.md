@@ -26,29 +26,59 @@ The goal of the game is for the players to guess the card which the dealer has c
 To play the game, three sets of cards are used:
 
 Cards for each player, numbered 1–6. These are called **<span lang="ja-Latn">hari&shy;fuda</span>** (<span lang="ja">張札</span> ‘spreading cards’), <span lang="ja-Latn">kaki&shy;fuda</span> (<span lang="ja">書札</span> ‘document cards’), or <span lang="ja-Latn">dai ichi roku</span> (<span lang="ja">大一六</span> ‘big one-six’). There are two styles; the Ōsaka style has the odd numbers in red, whereas with the Kyōto style all the numbers are black.
-<Image src="Nintendo_Harifuda.jpg" alt="" noborder=true %}
-A set of <span lang="ja-Latn">harifuda</span> produced by Nintendō.
-</Image>
-<Image src="TS_Harifuda_1.jpg" alt="" noborder=true %}
-A set of <span lang="ja-Latn">harifuda</span> produced by Tamura Shogundō.
-</Image>
-<Image src="TS_Harifuda_2.jpg" alt="" noborder=true %}
-A set of <span lang="ja-Latn">harifuda</span> produced by Tamura Shogundō, in the Ōsaka style.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="Nintendo_Harifuda.jpg" alt="" noborder=true 
+> ```
+>
+> A set of <span lang="ja-Latn">harifuda</span> produced by Nintendō.
+
+> [!figure]
+>
+> ```yaml
+> src="TS_Harifuda_1.jpg" alt="" noborder=true 
+> ```
+>
+> A set of <span lang="ja-Latn">harifuda</span> produced by Tamura Shogundō.
+
+> [!figure]
+>
+> ```yaml
+> src="TS_Harifuda_2.jpg" alt="" noborder=true 
+> ```
+>
+> A set of <span lang="ja-Latn">harifuda</span> produced by Tamura Shogundō, in the Ōsaka style.
+
 
 Cards for the dealer, again numbered 1–6, but in a different pattern. These are called **<span lang="ja-Latn">hiki&shy;fuda</span>** (<span lang="ja">引札</span> ‘drawing cards’), <span lang="ja-Latn">kuri&shy;fuda</span> (<span lang="ja">繰札</span> ‘shuffling cards’), <Pronounce lang="ja-Latn"  file="pronunciation_ja_親札.mp3" pronouncer="cochan0308">oya&shy;fuda</Pronounce> (<span lang="ja">親札</span> ‘house cards’), or <span lang="ja-Latn">mame&shy;fuda</span> (<span lang="ja">豆札</span> ‘bean cards’). The card with the number 4 on it is usually stamped with the manufacturer’s mark.
 
 Sometimes these are produced with the same images as on the <span lang="ja-Latn">harifuda</span>, in which case they are called <span lang="ja-Latn">ko&shy;hari</span> (<span lang="ja">小張</span>, ‘small <span lang="ja-Latn">hari</span>’).
 
-<Image src="Nintendo_Hikifuda.jpg" alt="" noborder=true %}
-A set of <span lang="ja-Latn">hikifuda</span> produced by Nintendō.
-</Image>
-<Image src="TS_Hikifuda_2.jpg" alt="" noborder=true %}
-A set of <span lang="ja-Latn">hikifuda</span> produced by Tamura Shogundō.
-</Image>
-<Image src="TS_Hikifuda_1.jpg" alt="" noborder=true %}
-A set of <span lang="ja-Latn">kohari</span> produced by Tamura Shogundō.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="Nintendo_Hikifuda.jpg" alt="" noborder=true 
+> ```
+>
+> A set of <span lang="ja-Latn">hikifuda</span> produced by Nintendō.
+
+> [!figure]
+>
+> ```yaml
+> src="TS_Hikifuda_2.jpg" alt="" noborder=true 
+> ```
+>
+> A set of <span lang="ja-Latn">hikifuda</span> produced by Tamura Shogundō.
+
+> [!figure]
+>
+> ```yaml
+> src="TS_Hikifuda_1.jpg" alt="" noborder=true 
+> ```
+>
+> A set of <span lang="ja-Latn">kohari</span> produced by Tamura Shogundō.
+
 
 Finally, there are wooden blocks numbered 1–6 for the dealer to show recently chosen numbers. These are called <span lang="ja-Latn">mefuda</span> (<span lang="ja">目札</span> ‘seeing cards’), <span lang="ja-Latn">memoku</span> (<span lang="ja">目木</span> ‘seeing woods’), or <Pronounce lang="ja-Latn"  file="pronunciation_ja_目安札.mp3" pronouncer="cochan0308">meyasufuda</Pronounce> (<span lang="ja">目安札</span> ‘easy-to-see cards’).
 

@@ -13,31 +13,29 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<p class="lead">Mill games are a family of boardgames also known as <em>Morris</em> or
+Mill games are a family of boardgames also known as <em>Morris</em> or
 <em>Merels</em> games. The main aim of any mill game is to try to form a row of
 three pieces, which is called a ‘mill’, and which usually allows the player to
 remove one of the opponent’s pieces from the board (usually not from another
-mill).</p>
-
-{/* excerpt */}
+mill).
 
 Most mill games are split into two phases of *placement* and *movement*, so that
 all pieces are placed on the board before any pieces are moved.
 
-<Image 
-    src="shutterstock_120413827.jpg",
-    alt="A Nine Men’s Morris game, just after all pieces have been placed"
-    size="wide"
-    orgName="Shutterstock.com"
-    author="FooTToo",
-    license="stock-image",
-    identifier="120413827",
-    originalUrl="https://www.shutterstock.com/image-photo/old-nine-mens-morris-board-on-120413827">
-
-A game in progress, just after the *placement* phase has been finished, and all
-18 pieces are on the board.
-
-</Image>
+> [!figure]
+> 
+> ![A Nine Men’s Morris game, just after all pieces have been placed.](shutterstock_120413827.jpg)
+>
+> ```yaml
+> size: wide
+> orgName: Shutterstock.com
+> author: FooTToo
+> license: stock-image
+> identifier: 120413827
+> originalUrl: https://www.shutterstock.com/image-photo/old-nine-mens-morris-board-on-120413827
+> ```
+> 
+> A game in progress, just after the *placement* phase has been finished, and all 18 pieces are on the board.
 
 ## Games
 
@@ -48,12 +46,15 @@ before.
 
 ### Games on the large mill board
 
-<Image
-    size="small"
-    src="large_merels.svg;large_merels_with_diagonals.svg",
-    alt="The large mill board of three nested squares.;The large mill board of three nested squares, with diagonal lines.">
-Two different large mill boards, one without diagonals, and one with diagonals.
-</Image>
+> [!figure]
+> 
+> ![The large mill board of three nested squares.](large_merels.svg)
+> ![The large mill board of three nested squares, with diagonal lines.](large_merels_with_diagonals.svg)
+>
+> ```yaml
+> size: small
+> ```
+> Two different large mill boards, one without diagonals, and one with diagonals.
 
 * [Morabaraba](games/morabaraba/morabaraba.md) is a mill game played competitively in South Africa. It differs slightly from Twelve Men’s Morris.
 * [Nine Men’s Morris](games/nine-mens-morris/nine-mens-morris.md) is the most well-known, and can be viewed as the stereotypical mill game. Many variants are described on this page.
@@ -67,9 +68,15 @@ Two different large mill boards, one without diagonals, and one with diagonals.
 
 ### Games on the small mill board
 
-<Image size="small" src="small_merels.svg" alt="The small mill board of a single square.">
-The small mill board.
-</Image>
+> [!figure]
+>
+> ![The small mill board of a single square.](small_merels.svg)
+>
+> ```yaml
+> size: small
+> ```
+>
+> The small mill board.
 
 * [Three Men’s Morris](games/three-mens-morris/three-mens-morris.md) is a simple mill game that is known around the world.
 * [Tic-Tac-Toe](games/tic-tac-toe/tic-tac-toe.md) can be viewed as a degenerate mill game (and could derive from Three Men’s Morris?)

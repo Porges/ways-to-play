@@ -17,17 +17,21 @@ In addition to being a game, the board itself was used as some kind of talisman 
 
 ## Play
 
-<Image size="wide" src="9245498309_0bbb716a9e_o.jpg" alt="People playing a large nine men’s morris game outdoors on a very large cloth with the board painted on it. They are playing on the grass surrounded by pavilions and onlookers."  originalUrl="https://www.flickr.com/photos/neonzu1/9245498309" copyrightYear=2013 license="cc-by-nc-nd" licenseVersion="2.0" authorGiven="Ken" authorFamily="Owen">
+> [!figure]
+>
+> ```yaml
+> size="wide" src="9245498309_0bbb716a9e_o.jpg" alt="People playing a large nine men’s morris game outdoors on a very large cloth with the board painted on it. They are playing on the grass surrounded by pavilions and onlookers."  originalUrl="https://www.flickr.com/photos/neonzu1/9245498309" copyrightYear=2013 license="cc-by-nc-nd" licenseVersion="2.0" authorGiven="Ken" authorFamily="Owen"
+> ```
+>
+> A large-format Nine Men’s Morris game being played at a festival in Hungary.
 
-A large-format Nine Men’s Morris game being played at a festival in Hungary.
-
-</Image>
-
-<Image  position="aside" noborder=true alt="" src="../../articles/families/mill-games/large_merels.svg">
-
-Nine Men’s Morris is played on the large mill board.
-
-</Image>
+> [!figure]
+>
+> ```yaml
+>  position="aside" noborder=true alt="" src="../../articles/families/mill-games/large_merels.svg"
+> ```
+>
+> Nine Men’s Morris is played on the large mill board.
 
 The game (as most mill games) is split into two phases. During the first
 (placement) phase, the players take turns placing a single piece at a time onto
@@ -52,12 +56,17 @@ When played on a board with diagonals, mills are not usually permitted to be mad
 
 <div class="multi extra-wide">
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt="A weathered Nine Men’s Morris board scratched into a rock."
     src='DSCF0525.jpg'
-    copyrightYear=2014 %}
-A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
-</Image> 
+    copyrightYear=2014 
+> ```
+>
+> A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
+ 
 
 <Image
   alt="" 
@@ -99,16 +108,21 @@ Norway.[@TheVikingShipFromGokstad pp. 44, 99] Another boat burial (the “<span 
 lang="sv">Årby</span> boat”) from around the same time also included a Morris
 game.[@BoardGamesInBoatBurials p. 441]
 
-<Image src="ship_board.jpg;6065924.jpg" alt=";" size="extra-wide" perRow=1
+> [!figure]
+>
+> ```yaml
+> src="ship_board.jpg;6065924.jpg" alt=";" size="extra-wide" perRow=1
   license="cc-by-sa" licenseVersion="4.0"
   authorGiven="Eirik Irgens"
   authorFamily="Johnsen"
   originalUrl="https://www.unimus.no/portal/#/things/7d99fcd2-59b3-45f3-aaa0-27d857633fc9"
   orgName="Kulturhistorisk Museum"
   orgAbbr="KHM"
-%}
-Sketch and photograph of the board from the Gokstad ship.
-</Image>
+
+> ```
+>
+> Sketch and photograph of the board from the Gokstad ship.
+
 
 One of the earliest written references to the game is in the 10th century [<cite lang="ar-Latn">Kitāb al-Aghānī</cite>](https://en.wikipedia.org/wiki/Kitab_al-Aghani) (<cite lang="ar">{% isolate "كتاب الأغاني" %}</cite>, ‘book of songs’), a large collection of poems and stories assembled by [<span class="noun" lang="ar-Latn">ʾAbū l-Faraj al-Iṣfahānī</span>](https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani) (<span lang="ar">{% isolate "أبو الفرج الأصفهاني" %}</span>, 897–967). One story describes a club from the time of the poet <span class="noun" lang="ar-Latn">al-Aḥwaṣ</span> (<span lang="ar">{% isolate "الأحوص" %}</span>, 660–724), along with the board games it held for the use of its members.  According to the book, they could play <span lang="ar-Latn">shiṭranj</span> (<span lang="ar">{% isolate "شطرنج" %}</span>, chess), <span lang="ar-Latn">nard</span> (<span lang="ar">نرد</span>), or — most importantly here — <span lang="ar-Latn">qirq</span> (<span lang="ar">{% isolate 'قرق' %}</span>, morris).[@GamblingInIslam p. 481] The derivation of the name <span lang="ar-Latn">qirq</span> (<span lang="ar">قِرْقٌ</span>) is uncertain,[^fn1] but it is apparently not originally an Arabic word.[@Murray2 p. 37][^fn2]
 
@@ -149,15 +163,20 @@ which we get the English ‘merels’), probably deriving from a word meaning �
 stone” or “token”.{%fn%}The <span lang="fr">marelles</span> name currently
 refers to hopscotch, due to the stones tossed upon the diagram.{%endfn%} 
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     position="aside"
     alt="A section of a manuscript written in a calligraphic hand"
     src='templar-rule.jpg'
     originalUrl="https://gallica.bnf.fr/ark:/12148/btv1b9058924p/f58.item.zoom",
     license="cc0",
-    orgName='Bibliothèque nationale de France', orgLang="fr", orgAbbr='BnF' %}
-Text of the French Templar rule from an early 14th-century manuscript edition (with quoted passage highlighted).
-</Image>
+    orgName='Bibliothèque nationale de France', orgLang="fr", orgAbbr='BnF' 
+> ```
+>
+> Text of the French Templar rule from an early 14th-century manuscript edition (with quoted passage highlighted).
+
 
 In the early 12th century, the game was
 mentioned in the French Rule of the Templar order (probably written between 1139
@@ -198,13 +217,18 @@ X](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile)’s <cite lang="es">Libro
 de los Juegos</cite> (<cite>Book of Games</cite>), where in addition to the
 standard game, rules for playing with dice are given ([see below](#with-dice)).
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   size="small"
     src='Alfonso_NMM.jpg'
     alt=""
-    license="cc0" %}
-From Alfonso’s <cite>Book of Games</cite>.
-</Image>
+    license="cc0" 
+> ```
+>
+> From Alfonso’s <cite>Book of Games</cite>.
+
 
 <Image 
     src="Nicolas_de_btv1b6000238t_361.jpg"
@@ -311,13 +335,18 @@ Lord the Younger was “admonished and dismissed” for “plaieing at nine men�
 morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation p. 497]
 
 <div class="multi">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='../daldos/maryrose_daldos.jpg'
   alt=""
   license="with-permission", orgName="The Mary Rose Museum" %}
-A Nine Men’s Morris board alongside what seems to be a {% gameref daldos %}
-board, on a barrel-end from the wreck of the English warship ‘[Mary Rose](https://en.wikipedia.org/wiki/Mary_Rose)’ (1545).
-</Image>
+A Nine Men’s Morris board alongside what seems to be a {% gameref daldos 
+> ```
+>
+> board, on a barrel-end from the wreck of the English warship ‘[Mary Rose](https://en.wikipedia.org/wiki/Mary_Rose)’ (1545).
+
 <Image 
     src='82-001079.jpg'
     alt="A peasant boy holding a Nine Men’s Morris board."
@@ -420,16 +449,21 @@ In other languages it has been called:
 dvz noh tʾyi
 flat 9 triads */}*/}
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt="A Morris board in a brick wall, made out of black and red bricks"
     src='P1130411a.jpg'
     size="wide"
     authorGiven="Ken", authorFamily="Broadhurst",
     copyrightYear=2016,
     license="with-permission",
-    originalUrl="https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html" %}
-A <span lang="fr">jeu du moulin</span> in the south-west wall of the <span class="noun" lang="fr">Château du Moulin</span> (<span class="noun" lang="fr">Loir-et-Cher</span>, France). Built between 1480–1501, this is a punny reference to the name of the original owner, <span class="noun" lang="fr">Philippe du Moulin</span>. There is another Three Men’s Morris board on the eastern wall, and the nearby <span class="noun" lang="fr">Château de Gien</span> has a similar motif.[@MerylsBoardEnigma p. 103]
-</Image>
+    originalUrl="https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html" 
+> ```
+>
+> A <span lang="fr">jeu du moulin</span> in the south-west wall of the <span class="noun" lang="fr">Château du Moulin</span> (<span class="noun" lang="fr">Loir-et-Cher</span>, France). Built between 1480–1501, this is a punny reference to the name of the original owner, <span class="noun" lang="fr">Philippe du Moulin</span>. There is another Three Men’s Morris board on the eastern wall, and the nearby <span class="noun" lang="fr">Château de Gien</span> has a similar motif.[@MerylsBoardEnigma p. 103]
+
 
 ## Analysis
 
@@ -482,16 +516,21 @@ This is played with twelve pieces per player, on a board that has
 diagonals.[@Zaslavsky p. 7][@Murray2 p. 48] In all other respects, the game is
 the same.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt="An old man’s hand reaches towards a worn morris board to move a piece."
     src='../../articles/families/mill-games/shutterstock_235028281.jpg'
     orgName="Shutterstock.com",
     author="Delpixel",
     identifier="235028281",
     originalUrl="https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281",
-    license="stock-image" %}
-A Twelve Men’s Morris game being played.
-</Image>
+    license="stock-image" 
+> ```
+>
+> A Twelve Men’s Morris game being played.
+
 
 #### Nomenclature
 
@@ -505,12 +544,17 @@ In other countries or languages Twelve Men’s Morris has been known as:
 
 ### With Dice
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   alt="A manuscript drawing of two men sitting beside a morris board with pieces and dice on it, while their attendants hold their spears."
   src='Nine_Mens_Morris_with_dice_in_Libro_de_los_juegos.jpg'
-  license="cc0" %}
-A game being played with dice, from Alfonso X’s <cite>Book of Games</cite>.
-</Image>
+  license="cc0" 
+> ```
+>
+> A game being played with dice, from Alfonso X’s <cite>Book of Games</cite>.
+
 
 Alfonso X’s book of games describes a variant played with dice.[@AlfonsoGames]
 While it is unclear from the manuscript what the exact rules are, Ulrich

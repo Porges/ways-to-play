@@ -98,7 +98,10 @@ this is the name that stuck. It was commonly played by soldiers and by the late
 19th century was known as the “old soldier’s game”.{%fn%}This term is also used
 for Housie or Bingo.{%endfn%}
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src='84220038_a0ceecebc6_o.jpg'
     alt="A man standing behind a Chuck-a-Luck board attempts to entice passers by."
     copyrightYear=2005,
@@ -106,9 +109,11 @@ for Housie or Bingo.{%endfn%}
     authorFamily="Drissman"
     license="cc-by-nc-sa",
     licenseVersion='2.0',
-    originalUrl='https://www.flickr.com/photos/28864802@N00/84220038/' %}
-A modern Chuck-a-Luck game on Coney Island.
-</Image>
+    originalUrl='https://www.flickr.com/photos/28864802@N00/84220038/' 
+> ```
+>
+> A modern Chuck-a-Luck game on Coney Island.
+
 
 ### Pictorial dice
 
@@ -120,33 +125,48 @@ diamond, and heart). In another form it was known as Feather and Anchor
 238][@ATourOfStLouis p. 532] Yet another form had the symbols: snake, elephant,
 eagle, baby, turtle (and 6th?).[@FoolsOfFortuneOrGamblingAndGamblers p. 283]
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src='MustangLayout.jpg'
     alt="Six cells containing: a horse’s head, the suits of hearts, diamonds, clubs, and spades, and an anchor."
-    license="cc0" %}
-A Mustang layout, from Kernan Manufacturing’s @KernanCatalogue [p. 19].
-</Image>
+    license="cc0" 
+> ```
+>
+> A Mustang layout, from Kernan Manufacturing’s @KernanCatalogue [p. 19].
+
 
 It is possible that it was one  one of these pictorial versions that was taken
 and adopted by the British as [Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md).
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     position="aside"
     alt="Three dice with the letters P A C E R S on them."
     src='Potter_Pacers.jpeg'
     copyrightYear=2018,
     license="with-permission",
     orgName="Potter & Potter Auctions",
-    originalUrl="https://auctions.potterauctions.com/Three_Ivory_Ball_Dice__-LOT9833.aspx" %}
-Three Hyronemus (see below) ball dice for use with Cubic Mutual Pool.
-</Image>
+    originalUrl="https://auctions.potterauctions.com/Three_Ivory_Ball_Dice__-LOT9833.aspx" 
+> ```
+>
+> Three Hyronemus (see below) ball dice for use with Cubic Mutual Pool.
 
-<Image 
+
+> [!figure]
+>
+> ```yaml
+> 
     src='CubicMutualPool.jpg'
     alt="A layout board titled Cubic Mutal Pool and with six cells with horses depicted, named: Pilot, Arab, Canada, Eclipse, Rover, and Saxton."
-    license="cc0" %}
-A Cubic Mutal Pool layout, from Kernan Manufacturing’s @KernanCatalogue [p. 20].
-</Image>
+    license="cc0" 
+> ```
+>
+> A Cubic Mutal Pool layout, from Kernan Manufacturing’s @KernanCatalogue [p. 20].
+
 
 The came was also transmuted into a horse-racing form, played using dice with
 sides marked <Cards>PACERS</Cards>. Under the name “Cubic Mutual Pool”, this was
@@ -174,7 +194,10 @@ one advertisement for an Electric Hyronemus claiming it can be made to roll only
 “Treys and Fours” on command.
 
 <div class="multi">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt=""
     size="small"
     noborder=true
@@ -183,9 +206,11 @@ one advertisement for an Electric Hyronemus claiming it can be made to roll only
     license="with-permission",
     orgName="Potter & Potter Auctions",
     originalUrl="https://auctions.potterauctions.com/Chuck_A_Luck_Hand_Held_Cage_with_Three_Dice__-LOT9883.aspx"
-    %}
-    A hand-held “bird cage” for tossing Chuck-A-Luck dice (<abbr title="circa">c.</abbr> 1930).
-</Image>
+    
+> ```
+>
+>     A hand-held “bird cage” for tossing Chuck-A-Luck dice (<abbr title="circa">c.</abbr> 1930).
+
 <Image 
     alt=""
     size="small"
@@ -213,14 +238,19 @@ faces so can also be used to run other side bets.
 </Image>
 
 <div class="multi">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt=""
     size="small"
     noborder=true
     src='Hyronemus_Layout.jpg'
-    license='cc0' %}
-Hyronemus tub and staking layout, from @GamblingAndGamblingDevices [p. 119].
-</Image>
+    license='cc0' 
+> ```
+>
+> Hyronemus tub and staking layout, from @GamblingAndGamblingDevices [p. 119].
+
 <Image 
     alt="A wooden bowl mounted on a spindle and lined with green baize."
     size="small"
@@ -243,7 +273,10 @@ This version of the game could also be called Grand Hazard (despite its name,
 this has nothing to do with the earlier game of Hazard). These kinds of bets are
 still used in modern games run under the name of Chuck-A-Luck.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt="A table-top painted with various locations for bets to be placed"
     size="wide"
     noborder=true
@@ -251,9 +284,11 @@ still used in modern games run under the name of Chuck-A-Luck.
     copyrightYear=2018,
     license="with-permission",
     orgName="Potter & Potter Auctions",
-    originalUrl="https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx" %}
-A Will & Finck Grand Hazard layout (<abbr title="circa">c.</abbr> 1890).
-</Image>
+    originalUrl="https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx" 
+> ```
+>
+> A Will & Finck Grand Hazard layout (<abbr title="circa">c.</abbr> 1890).
+
 
 In addition to the “Chuck” bets, which are played in boxes labelled 1–6 as
 usual, the extended staking layout contains boxes for the following bets:
@@ -330,14 +365,19 @@ usual, the extended staking layout contains boxes for the following bets:
 
 ### Other Hyronemus Bets
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     position="aside"
     src='HyronemusBets.jpg'
     alt="A layout containing the Chuck-A-Luck numbers and 4 other betting cells: Under 10, Over 11, 10, and 11."
-    license="cc0" %}
-A Hyronemus layout, from @GamblingAndGamblingDevices [p. 117].
-</Image>
+    license="cc0" 
+> ```
+>
+> A Hyronemus layout, from @GamblingAndGamblingDevices [p. 117].
+
 
 Some bets seen on Hyronemus layouts are based on the sum of the dice:
 
@@ -382,12 +422,17 @@ so. Further developments of the game increased the returns for the operators.
 This version has three separately-rotating spindles, and has exactly the same
 odds and house edge as standard Chuck-A-Luck.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src='ChuckALuck3Spindle.jpg'
     alt="Three overlapping spinners that can point to any one of the numbers 1 to 6."
-    license="cc0" %}
-As found in Kernan Manufacturing’s @KernanCatalogue [p. 26].
-</Image>
+    license="cc0" 
+> ```
+>
+> As found in Kernan Manufacturing’s @KernanCatalogue [p. 26].
+
 
 ### Spindle Chuck-A-Luck
 
@@ -426,34 +471,48 @@ In general the more doubles or triples on the wheel, the worse the odds are for
 the players.
 
 <div class="multi">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     src='Big6Wheel1960.jpg'
     alt="A large upright wheel that can be spun, with a pointer at top."
     license="cc0",
     copyrightYear=1960,
-    author="H. C. Evans & Co." %}
-A K. C. Card Co. Jumbo Dice Wheel, from their 1960 catalogue.
-</Image>
-<Image 
+    author="H. C. Evans & Co." 
+> ```
+>
+> A K. C. Card Co. Jumbo Dice Wheel, from their 1960 catalogue.
+
+> [!figure]
+>
+> ```yaml
+> 
     src='Gambling_wheel_by_H._C._Evans_and_Co.,_Chicago_-_Bayernhof_Museum_-_DSC06276.jpg'
     alt="A large upright wheel that can be spun, with a pointer at top."
     license="cc0",
     author="Daderot",
-    originalUrl="https://commons.wikimedia.org/wiki/File:Gambling_wheel_by_H._C._Evans_and_Co.,_Chicago_-_Bayernhof_Museum_-_DSC06276.JPG" %}
-An H. C. Evans & Co. Big Six wheel at the Baryernhof Museum.
-</Image>
+    originalUrl="https://commons.wikimedia.org/wiki/File:Gambling_wheel_by_H._C._Evans_and_Co.,_Chicago_-_Bayernhof_Museum_-_DSC06276.JPG" 
+> ```
+>
+> An H. C. Evans & Co. Big Six wheel at the Baryernhof Museum.
+
 </div>
 
 ### Chuck-a-Luck log
 
 This form of the game was apparently invented to circumvent restrictions on gambling with dice or wheels. The log pictured below has 14 sides and was probably manufactured by H. C. Evans some time around the 1930s–50s. Pete Angelos who supplied the image calculates the house edge at 21.4% (the same as the spindle version above).
 
-<Image src="93116122_542961236629804_5895971404179832832_n.jpg"
+> [!figure]
+>
+> ```yaml
+> src="93116122_542961236629804_5895971404179832832_n.jpg"
     alt="A photo of a large wooden cylinder with 14 sides. Each side has three numbers painted on it."
     authorGiven="Pete"
     authorFamily="Angelos"
     copyrightYear=2012
-    license="with-permission" %}
-A rolling log version of Chuck-a-Luck.
-</Image>
+    license="with-permission" 
+> ```
+>
+> A rolling log version of Chuck-a-Luck.

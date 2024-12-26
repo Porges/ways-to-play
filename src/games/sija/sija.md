@@ -6,9 +6,14 @@ draft: true
 countries: EG
 ---
 
-<Image position="aside" src="Seega_1940s.jpg" alt="A photo of two men seated on the sand with a seega board and pieces between them. They are dressed in white clothes and children are watching them play." license="cc0" %}
-Men playing Sīja in the 1940s. Image from @HarvardCamp.
-</Image>
+> [!figure]
+>
+> ```yaml
+> position="aside" src="Seega_1940s.jpg" alt="A photo of two men seated on the sand with a seega board and pieces between them. They are dressed in white clothes and children are watching them play." license="cc0" 
+> ```
+>
+> Men playing Sīja in the 1940s. Image from @HarvardCamp.
+
 {/*
 Copyright was never renewed, so this is public domain: https://onlinebooks.library.upenn.edu/webbin/cinfo/archaeology
 

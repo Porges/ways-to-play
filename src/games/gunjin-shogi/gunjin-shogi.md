@@ -33,9 +33,14 @@ piece ranked lower than itself. In general, if two pieces of the same rank meet,
 both are removed from the board. My interpretation of the ranking of each piece
 is as follows:
 
-<Image src="gunjin_shogi.jpg" alt="" position="aside" %}
-The board for the 14-piece version, printed on thin paper.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="gunjin_shogi.jpg" alt="" position="aside" 
+> ```
+>
+> The board for the 14-piece version, printed on thin paper.
+
 
 {/* {/*TODO: this table is a best-guess at the moment */} */}
 <table class="table table-sm" lang="ja" style='clear:none'>
@@ -321,11 +326,16 @@ The board for the 14-piece version, printed on thin paper.
 
 ### 31-piece version
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   size="small"
   alt="A board game box with an image of a soldier riding a white horse and carrying the flag of the Japanese army. On the side of the image are depicted two aeroplanes and a tank."
-  src='gunjin_shogi_box_2.jpg' %}
-The box for <span lang="ja">大型行軍将棋</span>.
-</Image>
+  src='gunjin_shogi_box_2.jpg' 
+> ```
+>
+> The box for <span lang="ja">大型行軍将棋</span>.
+
 
 This version was sold as <span lang="ja">大型行軍将棋</span> (<Pronounce lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_大型行軍将棋.mp3">ōgatakōgunshōgi</Pronounce> ‘large marching chess’).

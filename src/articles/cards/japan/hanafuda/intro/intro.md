@@ -71,11 +71,19 @@ There are 5 ‘bright’ (<span lang="ja">光</span> <Pronounce pronouncer="stra
 * the rain man (November), <span lang="ja">柳に小野道風</span> <span lang="ja-Latn">yanagi ni Ono no Tōfū</span>
 * the phoenix (December), <span lang="ja">桐に鳳凰</span> <span lang="ja-Latn">kiri ni hōō</span>
 
-<Image size="small", src='5_brights.jpg', alt="TODO" position="aside" %}
-The five bright cards, from a standard <span class="noun" lang="ja-Latn">Nintendo</span> deck.
-</Image>
+> [!figure]
+>
+> ```yaml
+> size="small", src='5_brights.jpg', alt="TODO" position="aside" 
+> ```
+>
+> The five bright cards, from a standard <span class="noun" lang="ja-Latn">Nintendo</span> deck.
 
-<Image 
+
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     justify="centered"
     src="../Hanafuda_1-1.svg;../Hanafuda_3-1.svg;../Hanafuda_8-1.svg;../Hanafuda_11-1.svg;../Hanafuda_12-1.svg"
@@ -85,19 +93,29 @@ The five bright cards, from a standard <span class="noun" lang="ja-Latn">Nintend
     copyrightYear=2021,
     license="cc-by-sa",
     licenseVersion="4.0",
-    perRow=5 %}
-The bright cards of a Japanese deck.
-</Image>
+    perRow=5 
+> ```
+>
+> The bright cards of a Japanese deck.
+
 
 In some decks, especially Korean ones, these are marked with the 光 character for ease of identification.[^fn0]
 
 [^fn0]: <span class="noun" lang="ja-Latn">Maeda Masafumi</span> (<span lang="ja">前田雅文</span>, <abbr title="died">d.</abbr> 1998) of the manufacturer <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> has claimed that these markings were actually a trademark-like feature that they used, which was picked up by the Korean manufacturers as a standardized marking.[@ModernKoreanCards]
 
-<Image size="small", src='5_brights_kr.jpg', alt="TODO" position="aside" %}
-The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.
-</Image>
+> [!figure]
+>
+> ```yaml
+> size="small", src='5_brights_kr.jpg', alt="TODO" position="aside" 
+> ```
+>
+> The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.
 
-<Image 
+
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     size="small"
     justify="centered"
@@ -109,9 +127,11 @@ The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) 
     license="cc-by-sa",
     licenseVersion="4.0",
     originalUrl="http://www.marcusrichert.com/images/hwatu/",
-    perRow=5 %}
-The bright cards of a Korean deck.
-</Image>
+    perRow=5 
+> ```
+>
+> The bright cards of a Korean deck.
+
 
 
 #### <span lang="ja-Latn">Tane</span> cards
@@ -220,11 +240,16 @@ next page for more examples of these.
 </Image>
 </div>
 
-<Image size="small"
+> [!figure]
+>
+> ```yaml
+> size="small"
 src='hwatoo_jokers.jpg'
-alt="Two cards labelled ‘joker’, one with a frog and one with a black bird." %}
-Two joker cards from the Yongjaeng Hwatoo ‘Style’ deck.
-</Image>
+alt="Two cards labelled ‘joker’, one with a frog and one with a black bird." 
+> ```
+>
+> Two joker cards from the Yongjaeng Hwatoo ‘Style’ deck.
+
 
 ## Basic matching rules
 

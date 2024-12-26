@@ -273,20 +273,36 @@ impl Converter {
     fn handle_blockquote(&self, blockquote: Blockquote) -> Markup {
         if let Some(Node::Paragraph(p)) = blockquote.children.first() {
             if let Some(Node::Text(t)) = p.children.first() {
-                let trimmed = t.value.trim_start();
-                if let Some(trimmed) = trimmed.strip_prefix("[!aside]") {
+                let trimmed = t.value.trim();
+                if trimmed == "[!aside]" {
                     return html! {
                         aside role="note" class="footnote" {
-                            p {
-                                (trimmed.trim())
-                                (self.expand(p.children.clone().into_iter().skip(1).collect()))
-                            }
                             (self.expand(blockquote.children.into_iter().skip(1).collect()))
                         }
                     };
                 } else if trimmed.starts_with("[!todo]") {
                     // not rendered
                     return Markup::default();
+                } else if trimmed == "[!figure]" {
+                    todo!()
+                } else if trimmed == "[!multi]" {
+                    return html! {
+                        div.multi {
+                            (self.expand(blockquote.children.into_iter().skip(1).collect()))
+                        }
+                    };
+                } else if trimmed == "[!multi-wide]" {
+                    return html! {
+                        div.multi.wide {
+                            (self.expand(blockquote.children.into_iter().skip(1).collect()))
+                        }
+                    };
+                } else if trimmed == "[!multi-extra-wide]" {
+                    return html! {
+                        div.multi.extra-wide {
+                            (self.expand(blockquote.children.into_iter().skip(1).collect()))
+                        }
+                    };
                 } else if trimmed.starts_with("[!") {
                     panic!("unknown callout: {}", trimmed.split_once("]").unwrap().0)
                 }

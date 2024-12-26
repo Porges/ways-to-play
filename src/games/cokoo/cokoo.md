@@ -2,6 +2,8 @@
 title: Cokoo
 players: 2
 countries: GM
+date created: 2024-12-18
+date modified: 2024-12-23
 ---
 
 <p class="lead">
@@ -10,9 +12,9 @@ countries: GM
 
 This game was first described in print in the early 20th century,[@AncientCeylon p. 604] and it is still played today.[@ChokooGameVideo] Sometimes it has been referred to as “African checkers”,[@LiberianTribes fig. 100] but that name is also used to refer to other games such as those of the {%a mancala-games,Mancala family%}.
 
-{/*
-(ثُكُو?) (<span lang="ff-Adlm" class="aka noun">𞤕𞤮𞤳𞤮𞥅</span>?)
-*/}
+> [!todo]
+>  * (ثُكُو?) (<span lang="ff-Adlm" class="aka noun">𞤕𞤮𞤳𞤮𞥅</span>?)
+
 
 ## Play
 
@@ -32,6 +34,6 @@ https://doi.org/10.25549/impa-m26099
 
 ## See also
 
-{%gameref yoote%} is a very similar game from neighbouring Senegal, which lacks the “dropping” phase of Chokoo. {%gameref sija%} is also very similar but capture is by enclosure rather than jumping. {% gameref konane %} also has similar gameplay.
+[Yoote](games/yoote/yoote.md)  is a very similar game from neighbouring Senegal, which lacks the “dropping” phase of Chokoo. [Sīja](games/sija/sija.md) is also very similar but capture is by enclosure rather than jumping. [Kōnane](games/konane/konane.md) also has similar gameplay.
 
 General references: the game is also re-described in @Murray2 [§4.4.5, p. 83], but I think he misinterprets the description of the game.

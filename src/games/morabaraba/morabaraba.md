@@ -15,9 +15,14 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<Image src="../../maps/Morabaraba.svg" alt="A map showing Botswana, Lesotho, Mozambique, and South Africa." position="aside" noborder=true size="small" %}
-<span class="noun" lang="st">Morabaraba</span> is played across south-eastern Africa.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="../../maps/Morabaraba.svg" alt="A map showing Botswana, Lesotho, Mozambique, and South Africa." position="aside" noborder=true size="small" 
+> ```
+>
+> <span class="noun" lang="st">Morabaraba</span> is played across south-eastern Africa.
+
 
 <p class="lead">
 <span class="noun aka" lang="st">Morabaraba</span> is a {% a mill-games,mill game %} from south-eastern Africa. The gameplay of the standardized version is very similar to {% gameref twelve-mens-morris %}  (with a few minor differences), but the version played in Lesotho has a unique board.
@@ -25,16 +30,21 @@ date modified: 2024-12-22
 
 <span class="noun" lang="st">Morabaraba</span> is played as a competitive sport in South Africa, administered by [Mind Sports South Africa](http://mindsportsa.co.za/).  It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.[@MorabarabaGetOnBoard]
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     alt="A morabaraba board with bottlecaps being used as pieces. One player is using them right-side-up and the other player is using them upside-down."
     size="wide"
     src='shutterstock_1431198950.jpg'
   orgName="Shutterstock.com",
   author="ivanfolio",
   originalUrl="https://www.shutterstock.com/image-photo/traditonal-african-strategy-board-game-know-1431198950",
-  license="stock-image" %}
-A game of <span class="noun" lang="st">Morabaraba</span> being played.
-</Image>
+  license="stock-image" 
+> ```
+>
+> A game of <span class="noun" lang="st">Morabaraba</span> being played.
+
 
 ## History
 
@@ -66,16 +76,21 @@ atop a sandstone plateau.
 
 The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small circles’,[@SeSothoDictionary p. 304] so could refer to the action of a mill.‌ In Nguni languages (isiZulu, isiXhosa), it is known as <span class="noun aka" lang="zu">(Um)labalaba</span>, with similar meaning,‌[@GamesBasotho pp. 247–50] and in Ronga, spoken in Mozambique, it is called <span class="noun aka" lang="rng">Muravarava</span>.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   alt="Two men dressed in warm blankets, gumboots, and balaclava, carrying staffs"
   position="left"
   src="shutterstock_1759308824.jpg"
     originalUrl="https://www.shutterstock.com/image-photo/bloemfontein-south-africa-september-11th-2019-1759308824",
     authorGiven="Vladimira", authorFamily="Pufflerova",
     orgName="Shutterstock.com",
-    license="stock-image" %}
-Two Lesotho herdsmen carrying staffs. What appear to be caps are rolled-up balaclava: most of Lesotho is above 1&#x202f;800&nbsp;m, so it is cooler than many neighbouring countries.
-</Image>
+    license="stock-image" 
+> ```
+>
+> Two Lesotho herdsmen carrying staffs. What appear to be caps are rolled-up balaclava: most of Lesotho is above 1&#x202f;800&nbsp;m, so it is cooler than many neighbouring countries.
+
 
 > [!aside]
 > There are two different [Sesotho orthographies](https://en.wikipedia.org/wiki/Sesotho_orthography). In this article I give the South African one first, followed by the Lesotho.
@@ -99,13 +114,17 @@ caps](https://www.instagram.com/p/BMBbRAzBg1z/), and they show up in
 [computerized versions](https://www.instagram.com/p/Bf-isgxnIPF/) as a
 skeuomorphic feature.{%endfn%} are used in two contrasting colours.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   position="aside"
   noborder=true
   src="../../articles/families/mill-games/large_merels_with_diagonals.svg"
-  alt="">
-Standard <span class="noun" lang="st">Morabaraba</span> is played on the large mill board with diagonals.
-</Image>
+  alt=""
+> ```
+>
+> Standard <span class="noun" lang="st">Morabaraba</span> is played on the large mill board with diagonals.
 
 During the placement phase, players must place a single piece on any vacant
 point of the board. Once all their pieces are placed, players can move a single
@@ -124,16 +143,21 @@ vacant point on the board, ignoring the lines.
 A player loses the game when they are reduced to fewer than three pieces, or if
 they are unable to make a valid move on their turn.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   alt="Two school chidren stand next to a table where a game of muravarava is being played, looking at the board intensely, while an umpire watches."
   src='shutterstock_1268455078.jpg'
     copyrightYear=2018,
     orgName="Shutterstock.com",
     author="ivanfolio",
     originalUrl="https://www.shutterstock.com/image-photo/manica-mozambique-december-19-2018-young-1268455078",
-    license="stock-image" %}
-A game of <span class="noun" lang="rng">Muravarava</span> being played in Mozambique, at Chinhamapere Secondary School.
-</Image>
+    license="stock-image" 
+> ```
+>
+> A game of <span class="noun" lang="rng">Muravarava</span> being played in Mozambique, at Chinhamapere Secondary School.
+
 
 In tournament play, Mind Sports adopted an additional rule: During the movement
 phase, a piece that is moved from one mill to form another mill may not move
@@ -151,13 +175,17 @@ moves.[@UltraStrongMorris]
 
 ### Sotho version
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     position="aside"
     src="large_merels_with_diagonals_and_centre.svg"
     noborder=true
-    alt="">
-The Sotho version of the game is played on a board with a central cross.
-</Image>
+    alt=""
+> ```
+>
+> The Sotho version of the game is played on a board with a central cross.
 
 The Sotho version of the game is played on a special board or flat stone (<span
 lang="st">letlapa</span>)[@BasothoChildren p. 35] where the centre square is
@@ -188,18 +216,26 @@ There are also others that I have not been able to figure out; see the sources l
 > Unfortunately I have not been able to figure out exactly what they represent, but possibly they are names of specific piece formations.[@TransmitterOfAccolades] The Sesotho names are: <span lang="st">tjhitja</span>/<span lang="st">chitja</span> (‘hornless’ or ‘round’), which is apparently a winning strategy; <span lang="st">katapane</span>, another good strategy; and <span lang="st">qheane</span>, which is a poor or losing strategy.[@MasculinityAccordion p. 185–6] also ... seakgela/seakhela and qholo
 
 <div class="multi equal">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     src="large_merels_with_diagonals_and_centre_mill_examples.svg"
-    alt="">
-Some examples of valid mills on the Sotho board.
-</Image>
-<Image 
+    alt=""
+> ```
+>
+> Some examples of valid mills on the Sotho board.
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     src="large_merels_with_diagonals_and_centre_bad_move.svg"
-    alt="">
-Not a mill; any mill using the centre point must have its middle piece on the centre point.
-</Image>
+    alt=""
+> ```
+>
+> Not a mill; any mill using the centre point must have its middle piece on the centre point.
 </div>
 
 <Image 
@@ -220,13 +256,17 @@ href="https://www.instagram.com/p/yPNmJpPNzW/">4</a>).
 
 ### Alternate board
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     position="aside"
     noborder=true
     src="large_merels_with_full_diagonals.svg"
-    alt="">
-An alternate <span class="noun" lang="st">Morabaraba</span> board.
-</Image>
+    alt=""
+> ```
+>
+> An alternate <span class="noun" lang="st">Morabaraba</span> board.
 
 Another board pattern is also used to play <span class="noun" lang="st">Morabaraba</span>,
 with a diagonally crossed central square. I do not know if the rules vary in any

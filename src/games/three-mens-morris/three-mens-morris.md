@@ -18,9 +18,13 @@ date modified: 2024-12-22
 
 ## Play
 
-<Image noborder=true position="aside" size="small" src="../mill-games/small_merels_with_diagonals.svg" alt="">
-The game is played on the small mill board with diagonals.
-</Image>
+> [!figure]
+>
+> ```yaml
+> noborder=true position="aside" size="small" src="../mill-games/small_merels_with_diagonals.svg" alt=""
+> ```
+>
+> The game is played on the small mill board with diagonals.
 
 Each player has three pieces, in contrasting colours. The aim of the game is to arrange all of one’s pieces in a line, either horizontally, vertically or diagonally. The first player to do this wins.
 

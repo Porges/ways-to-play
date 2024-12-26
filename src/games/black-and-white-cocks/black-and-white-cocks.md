@@ -2,21 +2,21 @@
 title: Black and White Cocks
 players: banking
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2024-12-23
 ---
 
-<p class="lead">
 <span class="aka">Black and White Cocks</span> — an apparently un-Googleable name — was a gambling game played in England in the 19th century. In 1838 it was described as a “well-known game of chance”,[@Tiverton] but it seems to have died out before the 20th century.
-</p>
 
-<Image
-    position="aside"
-    src="TheSeaLion.jpg"
-    alt=""
-    license="cc0"
-%}
-The caption from the book reads: “A remarkable Caricatura, compounded of ſeveral ſpecies, being by ſome ſuppoſed to be a Sea-Calf, by others a Sea Lion; after having been toſſed about on his native Element for ſome Years, he was caſt aſhore on a *gaming Iſland*, where he was ſo captivated with Cards and Dice, that he commenced *Gameſter*, and fixed upon the Iſland ever ſince.”
-</Image>
+> [!figure]
+> 
+> ![](TheSeaLion.jpg)
+>
+> ```yaml
+>  position: aside
+>  license: cc0
+> ```
+>
+> The caption from the book reads: “A remarkable Caricatura, compounded of ſeveral ſpecies, being by ſome ſuppoſed to be a Sea-Calf, by others a Sea Lion; after having been toſſed about on his native Element for ſome Years, he was caſt aſhore on a *gaming Iſland*, where he was ſo captivated with Cards and Dice, that he commenced *Gameſter*, and fixed upon the Iſland ever ſince.”
 
 The form of the game is still obscure to me, but based upon brief descriptions, it was a gambling game played with a spinning wheel,[@SharpersAtAltcar] probably much like the game E–O (an early form of Roulette). A table with black and white cocks (presumably roosters) painted on it was used, probably as a staking layout,[@MorningChronicleOldBailey] where bets as low as a penny could be placed.[@Tiverton] Like other games of this type, it was played at racecourse meets[@EastbourneHunt] and fairs.[@CamberwellFair]
 

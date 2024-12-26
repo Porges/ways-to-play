@@ -34,12 +34,17 @@ most pieces is the winner.
 
 ## Variants
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   position="aside"
   alt="A square game board randomly filled with white, red, yellow, and green pieces."
-  src='leap-frog-variation.svg' %}
-  A sample initial configuration for Murray’s variation.
-</Image>
+  src='leap-frog-variation.svg' 
+> ```
+>
+>   A sample initial configuration for Murray’s variation.
+
 
 Murray[@Murray2 pp. 93–4] invented a variant in 1898. The undifferentiated
 pieces are replaced by pieces coloured white, yellow, red, and green, in the

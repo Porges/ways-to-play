@@ -78,9 +78,14 @@ Drop-Handkerchief[@GommeI p. 110]
 
 Cat After Mouse or Threading The Needle[@GommeI p. 64][@Strutt p. 337]
 
-<Image src="lettertomylove.jpg" alt="" license="cc0" %}
-A depiction of “A Letter to My Love” from @LittlePrettyPocket [p. 38].
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="lettertomylove.jpg" alt="" license="cc0" 
+> ```
+>
+> A depiction of “A Letter to My Love” from @LittlePrettyPocket [p. 38].
+
 
 Drop Handkerchief 4th most popular game at Lousville playgrounds in 1901.[@LouisvilleSummerPlaygrounds]
 

@@ -848,12 +848,17 @@ these extra cards, are unknown — <span class="noun" lang="ja-Latn">Ōishi 
 includes a note with every deck sold asking for anyone who knows the rules to
 contact them!
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src="Echigo_Kobana_Extras.jpg"
-    alt="Four hanafuda cards, one with a picture of a Tengu and manfacturer’s name, the rest with a stylized depiction of a spearman." %}
-The four extra cards of an <span lang="ja-Latn">Echigo-kobana</span> deck by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
-</Image>
+    alt="Four hanafuda cards, one with a picture of a Tengu and manfacturer’s name, the rest with a stylized depiction of a spearman." 
+> ```
+>
+> The four extra cards of an <span lang="ja-Latn">Echigo-kobana</span> deck by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
+
 
 ### <span class="noun" lang="ja-Latn">Awa-­bana</span>/<span class="noun" lang="ja-Latn">Kintoki­-bana</span>
 
@@ -884,11 +889,15 @@ file='pronunciation_ja_kintoki.mp3' word="Kintoki" %} (<span lang="ja">金時
 </span>), [a legendary strong-boy also known as <span class="noun"
 lang="ja-Latn">Kintarō</span>](https://en.wikipedia.org/wiki/Kintar%C5%8D).
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src="KintokiBana_Brights.jpg"
-    alt="Five hanafuda cards with bright colours and overpainted with silver.">
-The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
-</Image>
+    alt="Five hanafuda cards with bright colours and overpainted with silver."
+> ```
+>
+> The 5 Brights of the <span lang="ja-Latn">Awa-bana</span> pattern, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
 
 ### <span class="noun" lang="ja-Latn">Dairen-bana</span>
 
@@ -1168,12 +1177,17 @@ Without the voice of the warbler that comes out of the valley, how would we know
 
 </div>
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src="poem-4.jpg"
-    alt="The kasu cards of the Echigo-bana pattern which bear the poem." %}
-<span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
-</Image>
+    alt="The kasu cards of the Echigo-bana pattern which bear the poem." 
+> ```
+>
+> <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
+
 
 The poem on the <span class="noun" lang="ja-Latn">Echigo-bana</span> <span
 lang="ja-Latn">kasu</span> cards (the origin of which is unknown) also describes
@@ -1263,16 +1277,21 @@ lang="ja">舞楽</span>) scene, with a large drum decorated with flames (<span
 lang="ja">火焔太鼓</span> <span lang="ja-Latn">kaendaiko</span>).
 
 <div class="multi">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src="cherry_bugaku1.jpg"
     alt=""
     orgName="Worshipful Company of the Makers of Playing Cards",
     orgAbbr="WCMPC",
     originalUrl="http://www.playingcardmakerscollection.co.uk/Cardhtml/W0329.html",
-    license="with-permission" %}
-A <span lang="ja-Latn">bugaku</span> scene from a combination card produced by <span class="noun" lang="ja-Latn">Tenguya Tsutida</span>.
-</Image>
+    license="with-permission" 
+> ```
+>
+> A <span lang="ja-Latn">bugaku</span> scene from a combination card produced by <span class="noun" lang="ja-Latn">Tenguya Tsutida</span>.
+
 <Image
     size="small"
     src="cherry_bugaku2.jpg"
@@ -1638,18 +1657,28 @@ full moon always fell on the 15th due to the way the calendar was
 constructed.[@WorldOfTheShiningPrince p. 170]
 
 <div class="multi">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src="poem-3.jpg"
-    alt="The kasu cards of the Echigo-bana pattern which bear a poem." %}
-<span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
-</Image>
-<Image 
+    alt="The kasu cards of the Echigo-bana pattern which bear a poem." 
+> ```
+>
+> <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
+
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src="awa_junk_8.jpg"
-    alt="The kasu cards of the Awa-bana pattern which bears a different portion of the poem." %}
-<span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> cards, with reduced form of the <span lang="ja-Latn">tanka</span>.
-</Image>
+    alt="The kasu cards of the Awa-bana pattern which bears a different portion of the poem." 
+> ```
+>
+> <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> cards, with reduced form of the <span lang="ja-Latn">tanka</span>.
+
 </div>
 
 @PoemsOfTheEchigobana says that the poem on the <span
@@ -1775,7 +1804,10 @@ Otokuni</span> (<span lang="ja">河合乙州</span>) came to visit him with a gi
 > this grass door—<br />dusk arrives with a present<br />of chrysanthemum
 > sake[@GreveSake]
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src="Imperial_Seal_of_Japan.svg"
     noborder=true
     position="aside"
@@ -1785,9 +1817,11 @@ Otokuni</span> (<span lang="ja">河合乙州</span>) came to visit him with a gi
     originalUrl="https://commons.wikimedia.org/wiki/File:Imperial_Seal_of_Japan.svg",
     authorGiven="Philip",
     authorFamily="Nilsson",
-    copyrightYear=2006 %}
-    The Imperial Seal of Japan.
-</Image>
+    copyrightYear=2006 
+> ```
+>
+>     The Imperial Seal of Japan.
+
 
 Chrysanthemums were also prized for their secular beauty, and collectors
 competed to breed particularly beautiful varieties.
@@ -1819,7 +1853,10 @@ lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span>
 cards.
 </Image>
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     position="aside"
     src='Tatsutagawa.jpg'
     alt="Maple trees with their leaves showing a bright red-orange colour."
@@ -1827,9 +1864,11 @@ cards.
     licenseVersion='3.0',
     originalUrl='https://commons.wikimedia.org/wiki/File:Nara_Prefectural_Tatsuta_Park01s3s4200.jpg',
     author='663highland',
-    copyrightYear=2010 %}
-Maple trees along the banks of the <span class="noun" lang="ja-Latn">Tatsuta-gawa</span> in autumn.
-</Image>
+    copyrightYear=2010 
+> ```
+>
+> Maple trees along the banks of the <span class="noun" lang="ja-Latn">Tatsuta-gawa</span> in autumn.
+
         
 The tenth month is represented by autumn leaves/maple (<span lang="ja">紅葉</span> <span lang="ja-Latn">momiji</span>/{% pronounce pronouncer="El55"
 word="kōyō" lang="ja-Latn" file='pronunciation_ja_紅葉.mp3' %}). The <span
@@ -1851,14 +1890,19 @@ about the river from the [<cite lang="ja-Latn">Hyakunin
 Isshu</cite>](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu).
 </Image>
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     position="aside"
     size="small"
     alt="A combination Hanafuda-Western playing cards tobacco card with maple leaves floating on water, and the 10 of spades."
-    src='Murai4.jpg' %}
-This <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco card shows maple leaves floating on water.
-</Image>
+    src='Murai4.jpg' 
+> ```
+>
+> This <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco card shows maple leaves floating on water.
+
 
 While the leaves on the <span lang="ja-Latn">tane</span> card are attached to a
 tree, the leaves on the other cards appear to be floating on water. This could
@@ -1976,13 +2020,18 @@ On older decks, a different “rain man” is pictured. On these cards, the man 
 running in the rain with the umbrella closed around his head. This feature is
 preserved in the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern.
     
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     position="left"
     src="ekb_rainman.jpg"
-    alt="A card with a picture of a figure carrying an umbrella and walking away from the viewer. The figure has a fluffy orange tail." %}
-The <span class="noun" lang="ja-Latn">Echigo-kobana</span> “rain man” appears to be some kind of animal.
-</Image>
+    alt="A card with a picture of a figure carrying an umbrella and walking away from the viewer. The figure has a fluffy orange tail." 
+> ```
+>
+> The <span class="noun" lang="ja-Latn">Echigo-kobana</span> “rain man” appears to be some kind of animal.
+
 
 On the <span class="noun" lang="ja-Latn">Echigo-kobana</span>’s “rain man” card, the figure
 has a bushy tail and appears to be either a <span lang="ja-Latn">kitsune</span>,
@@ -2013,28 +2062,42 @@ attempting to ‘fish’ back a drum that he has dropped. Remnants of this desig
 can be seen in many decks of the standard pattern.
 
 <div class="multi">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src='hanafuda-musashino-09.pdf-000.jpg'
-    alt="">
-    A dramatic fishing scene, from @DevilsPictureBooks.
-</Image>
-<Image 
+    alt=""
+> ```
+>
+>     A dramatic fishing scene, from @DevilsPictureBooks.
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src="raijin_card_sun.jpg"
-    alt="Hands extending from a cloud dangle a hooked rope towards a floating drum." %}
-A key-block print of the <span class="noun" lang="ja-Latn">Raijin</span> scene, from @MuraiSun.
-</Image>
-<Image 
+    alt="Hands extending from a cloud dangle a hooked rope towards a floating drum." 
+> ```
+>
+> A key-block print of the <span class="noun" lang="ja-Latn">Raijin</span> scene, from @MuraiSun.
+
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src='kaikinki-hanafuda11.pdf-000.jpg'
     alt=""
     orgName="Japan Playing Card Museum",
     orgAbbr="JPCM",
     originalUrl="https://japanplayingcardmuseum.com/image/kaikinki-hanafuda11.pdf",
-    license="with-permission" %}
-    A card with hook visible at bottom, from a deck by <span class="noun" lang="ja-Latn">Hakamada</span> (<span lang="ja">袴田</span>).
-</Image>
+    license="with-permission" 
+> ```
+>
+>     A card with hook visible at bottom, from a deck by <span class="noun" lang="ja-Latn">Hakamada</span> (<span lang="ja">袴田</span>).
+
 </div>
 
 ### <span lang="ja">12月</span>
@@ -2058,27 +2121,37 @@ von Siebold, a German botanist who also collected various playing cards from
 Japan, including [a very early <span class="noun" lang="ja-Latn">Hanafuda</span> deck.](https://www.rekihaku.ac.jp/up-cgi/getimgrd.pl?tn=1&ti=2047&h=./history/w11614825036_3149&ch=1&p=param/pfvs/db_param&o=1&k=50&sf=0&so=&im=0&li=10&fn=0.jpg)
 {%endaside%}
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     position="aside"
     alt=""
     src="shutterstock_666401218.jpg"
     license="stock-image",
     orgName="Shutterstock.com",
     author="Dina Rogatnykh",
-    originalUrl="https://www.shutterstock.com/image-photo/flowers-paulownia-tomentosa-close-666401218" %}
-Flowers of the paulownia tree.
-</Image>
+    originalUrl="https://www.shutterstock.com/image-photo/flowers-paulownia-tomentosa-close-666401218" 
+> ```
+>
+> Flowers of the paulownia tree.
 
-<Image 
+
+> [!figure]
+>
+> ```yaml
+> 
     position="aside"
     src="shutterstock_1546151357.jpg"
     alt=""
     license="stock-image",
     orgName="Shutterstock.com"
     author="Stray Toki",
-    originalUrl="https://www.shutterstock.com/image-photo/toyotomi-hideyoshi-family-crest-on-roof-1546151357" %}
-The paulownia crest was most famously used by the <span class="noun" lang="ja-Latn">Toyotomi</span> family.
-</Image>
+    originalUrl="https://www.shutterstock.com/image-photo/toyotomi-hideyoshi-family-crest-on-roof-1546151357" 
+> ```
+>
+> The paulownia crest was most famously used by the <span class="noun" lang="ja-Latn">Toyotomi</span> family.
+
 
 The twelfth month is represented by paulownia (<span lang="ja">桐</span>
 <Pronounce pronouncer="kaoring"  lang="ja-Latn" file="pronunciation_ja_桐.mp3">kiri</Pronounce>).
@@ -2137,12 +2210,17 @@ lang="ja-Latn">tane</span> card, or even a <span lang="ja-Latn">tanzaku</span>
 card.
 
 <div class="multi">
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="small"
     src="ekb_junk_12.jpg"
-    alt="A small Hanafuda card depicting Paulownia with a large red streak across it." %}
-One of the Paulownia cards of the <span class="noun" lang="ja-Latn">Echigo-kobana</span> pattern has a <span lang="ja-Latn">tanzaku</span>.
-</Image>
+    alt="A small Hanafuda card depicting Paulownia with a large red streak across it." 
+> ```
+>
+> One of the Paulownia cards of the <span class="noun" lang="ja-Latn">Echigo-kobana</span> pattern has a <span lang="ja-Latn">tanzaku</span>.
+
 <Image 
     size="small"
     src="awa_junk_12.jpg"

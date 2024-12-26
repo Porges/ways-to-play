@@ -34,9 +34,14 @@ To play the game, both players stand facing each other. They simultaneously rais
 
 see correspondence [@GameOfMicatioDigitorum] [@MicatioDigitorumLetter][@MicatioDigitorumDescribed] (some of which is about {% gameref buck-buck %})
 
-<Image src="morra_vase.jpg" alt="" license="cc0" %}
-Two Greek girls playing Morra, on a water-pot (<span lang="grc-Latn">hydria</span>), <abbr>c.</abbr> 500 <abbr>BCE</abbr>. From @AtlasClassicalAntiquities [p. 150].
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="morra_vase.jpg" alt="" license="cc0" 
+> ```
+>
+> Two Greek girls playing Morra, on a water-pot (<span lang="grc-Latn">hydria</span>), <abbr>c.</abbr> 500 <abbr>BCE</abbr>. From @AtlasClassicalAntiquities [p. 150].
+
 
 See also: @PrimitiveCulture [p. 74]
 

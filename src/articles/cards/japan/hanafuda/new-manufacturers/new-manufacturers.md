@@ -26,11 +26,15 @@ Blank’s Art Project have created several Hwatu decks with custom art:
 on Korean site ‘wadiz’), and Pebble Film Edition (2019). They have also created
 custom promotional decks for Jeju beer (2017).
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='PebbleHwatu.jpg'
-  alt="">
-The five Bright cards of the Pebble <span class="noun" lang="ko-Latn">Hwatu</span> deck (2016).
-</Image>
+  alt=""
+> ```
+>
+> The five Bright cards of the Pebble <span class="noun" lang="ko-Latn">Hwatu</span> deck (2016).
 
 ## [Hanafuda Hawaii](http://www.hanafudahawaii.com/)
 
@@ -42,20 +46,28 @@ artwork, including scores printed on the cards and with helpful icons to
 identify scoring combinations on the cards. In the rules given with the deck,
 there are not “5 Brights”, so the “4 Brights” are reproduced here:
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='Hawaii_5Brights.jpg'
-  alt="">
-Hanafuda Hawai‘i Style bright cards.
-</Image>
+  alt=""
+> ```
+>
+> Hanafuda Hawai‘i Style bright cards.
 
 The cards of November show more of the style of the cards (note the ‘rain man’
 is worth a mere 5 points with the Hawaiian rules):
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='Hawaii_November.jpg'
-  alt="">
-Hanafuda Hawai‘i Style November cards.
-</Image>
+  alt=""
+> ```
+>
+> Hanafuda Hawai‘i Style November cards.
 
 **Hanafuda Nā Pua Hawai‘i** is probably my favourite of all the modern <span class="noun"
 lang="ja-Latn">Hanafuda</span> decks. It recontextualizes the game with the
@@ -64,17 +76,25 @@ Hawai‘i Style deck: in the month of March, for example, the cherry blossoms
 become <span lang="haw">‘iliahi</span> (sandalwood) flowers, and the curtain
 becomes the traditional <span lang="haw">kapa</span> cloth.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='NaPua_5Brights.jpg'
-  alt="">
-Hanafuda Nā Pua Hawai‘i bright cards.
-</Image>
+  alt=""
+> ```
+>
+> Hanafuda Nā Pua Hawai‘i bright cards.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='NaPua_November.jpg'
-  alt="">
-Hanafuda Nā Pua Hawai‘i November cards.
-</Image>
+  alt=""
+> ```
+>
+> Hanafuda Nā Pua Hawai‘i November cards.
 
 ## [Indianwolf Studios](http://www.indianwolfstudios.com/)
 
@@ -85,11 +105,16 @@ Hanafuda</span>](http://www.indianwolfstudios.com/sensu.html) (2019) decks, in
 poker-sized cards printed by Legends Playing Card Company. Both of these are
 available in a plain version, or one that has indices to aid new players.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='Hanami.jpg'
-  alt="Five hanafuda cards drawn in a minimalistic but realistic style." %}
-The five Bright cards of the <span class="noun" lang="ja-Latn">Hanami Hanafuda</span> deck.
-</Image>
+  alt="Five hanafuda cards drawn in a minimalistic but realistic style." 
+> ```
+>
+> The five Bright cards of the <span class="noun" lang="ja-Latn">Hanami Hanafuda</span> deck.
+
 
 After another successful Kickstarter campaign, Indianwolf also produced the
 [<strong>Night
@@ -99,17 +124,25 @@ deck is themed upon traditional Japanese monsters (<span
 lang="ja-Latn">yōkai</span>), and it also comes with rules for a new game called
 “[Orochi](https://en.wikipedia.org/wiki/Yamata_no_Orochi)”.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src="IW_night_parade.jpg"
-  alt="">
-The five Bright cards of the Night Parade deck, and one joker.
-</Image>
+  alt=""
+> ```
+>
+> The five Bright cards of the Night Parade deck, and one joker.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='IW_tetraptych.jpg'
-  alt="">
-The tetraptych formed by the four <Cards>K</Cards>s, all of which can be used as jokers.
-</Image>
+  alt=""
+> ```
+>
+> The tetraptych formed by the four <Cards>K</Cards>s, all of which can be used as jokers.
 
 ## [<span lang="ko">자매상점</span> (jamaistore)](https://www.instagram.com/jamaistore/)
 
@@ -126,11 +159,16 @@ Jamaistore’s <span lang="ko">냥투</span> (<span lang="ko-Latn">nyangtu</span
 The name is a pun on <span lang="ko-Latn">hwatu</span> with the Korean <span lang="ko-Latn">nyang</span> meaning ‘meow’.
 </Image>
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='Meongtu.jpg'
-  alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards." %}
-Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘woof fight’) deck (2017).
-</Image>
+  alt="The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards." 
+> ```
+>
+> Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘woof fight’) deck (2017).
+
 
 ## [Modern Hanafuda](http://www.modernhanafuda.net/)
 
@@ -139,11 +177,16 @@ Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span
 the cards are decorated with bold flat colours and geometric patterns. The cards
 are larger and longer than normal playing cards.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src="Modern_Hanafuda.jpg"
-  alt="Five playing cards, the first with a crane with its neck arched back and pine trees patterened with criss-crossing stripes, the second with cherry blossoms behind a curtain bearing a cherry blossom pattern, the third of a white moon in a red sky over circular hills in orange and yellow, the fourth with a man holding an umbrella and standing under a willow tree watching a frog, and the fifth with a Japanese phoenix beating its wings over realistically-shaped Paulownia flowers." %}
-  The 5 Bright cards of the Modern Hanafuda deck.
-</Image>
+  alt="Five playing cards, the first with a crane with its neck arched back and pine trees patterened with criss-crossing stripes, the second with cherry blossoms behind a curtain bearing a cherry blossom pattern, the third of a white moon in a red sky over circular hills in orange and yellow, the fourth with a man holding an umbrella and standing under a willow tree watching a frog, and the fifth with a Japanese phoenix beating its wings over realistically-shaped Paulownia flowers." 
+> ```
+>
+>   The 5 Bright cards of the Modern Hanafuda deck.
+
 
 ## [<span class="noun" lang="ja-Latn">NISHIKI</span> <span lang="ja">錦</span>](https://www.etsy.com/shop/nishikie)
 
@@ -163,11 +206,15 @@ deck. The cards from A–10 have Japanese numerals for use as  <span class="noun
 lang="ja-Latn">Kabufuda</span> cards.
 </Image>
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='NishikiHana.jpg'
-  alt="">
-The 5 Bright cards of the standard <span class="noun" lang="ja-Latn">Nishiki Fuda</span> deck.
-</Image>
+  alt=""
+> ```
+>
+> The 5 Bright cards of the standard <span class="noun" lang="ja-Latn">Nishiki Fuda</span> deck.
 
 ## [<span lang="ko">용쟁화투</span> <span class="noun" lang="ko-Latn">Yongjaeng Hwatoo</span>](http://www.hatoo.net/)
 
@@ -176,11 +223,15 @@ lang="ko-Latn">hwatu</span> decks in three varieties: Classic, Cute, and
 <strong>Style</strong> (pictured below). These designs have been produced in
 several editions over the years.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='YongJaengStyle.jpg'
-  alt="">
-The five Bright cards of the <span class="noun" lang="ko-Latn">Yongjaeng Hwatoo</span> Style deck (2017).
-</Image>
+  alt=""
+> ```
+>
+> The five Bright cards of the <span class="noun" lang="ko-Latn">Yongjaeng Hwatoo</span> Style deck (2017).
 
 ## Cochae
 
@@ -201,13 +252,17 @@ The backgrounds are a metallic gold colour, which doesn’t show up well here.
 
 Junior have produced a ground-up redesign of Hanafuda into a poker format deck, printed by <abbr title="the United States Playing Card Company">USPCC</abbr>.  The first edition is called the <strong>Phoenix</strong> deck (2019). Each different type of <span class="noun" lang="ja-Latn">Hanafuda</span> card has a different background, and all are identified by suit marker indices, which helps to clarify the cards for new players.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='louie_brights.jpg'
   size="wide"
   noborder=true
-  alt="">
-The 5 Bright cards of the Junior Phoenix <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
-</Image>
+  alt=""
+> ```
+>
+> The 5 Bright cards of the Junior Phoenix <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
 
 To fill out the full 54 cards of a standard poker deck, there are an additional
 6 ‘bamboo’ cards including an additional <span class="noun" lang="ja-Latn">Fuji</span> Bright
@@ -215,13 +270,17 @@ and second Oni card:[^fn0]
 
 [^fn0]: These were inspired by the extra cards of the Universal deck.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='louie_bamboo.jpg'
   size="wide"
   noborder=true
-  alt="">
-The additional ‘Bamboo’ suit of the Phoenix deck, as well as the lightning card (featuring an <span lang="ja-Latn">oni</span>) and an advertisement card.
-</Image>
+  alt=""
+> ```
+>
+> The additional ‘Bamboo’ suit of the Phoenix deck, as well as the lightning card (featuring an <span lang="ja-Latn">oni</span>) and an advertisement card.
 
 After the successful completion of [the Kickstarter campaign](https://www.kickstarter.com/projects/juniorcards/junior-hanafuda) in 2020, two more Junior decks were produced: <strong>Dragon</strong> and <strong>Tiger</strong>.
 
@@ -238,11 +297,15 @@ homage to the artistic techniques of the era. These additional cards can be used
 to play or invent new games; the set also includes rules for three original
 games invented by Ryan.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='pixel_hanafuda.jpg'
-  alt="">
-The five Brights of the Pixel <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
-</Image>
+  alt=""
+> ```
+>
+> The five Brights of the Pixel <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
 
 <Image 
   src='pixel_hanafuda_swapped.jpg'
@@ -263,11 +326,15 @@ Each month features a real train that runs on a JR line, and the cards show
 attributes or specialities of the different regions of Japan. The four cards of
 each month combine to form a tetraptych.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='JR_brights.jpg'
-  alt="">
-The five Brights of the <span class="noun" lang="ja-Latn">Tetsufuda</span> deck.
-</Image>
+  alt=""
+> ```
+>
+> The five Brights of the <span class="noun" lang="ja-Latn">Tetsufuda</span> deck.
 
 <Image 
   src='JR_tetraptych.jpg'
@@ -284,9 +351,13 @@ line](https://en.wikipedia.org/wiki/Tokaido_Shinkansen).
 deck was designed by [Lynn Fisher](https://lynnandtonic.com/). The cards feature
 icons and imagery related to Heroku’s products.
 
-<Image src='Heroku_Brights.jpg' alt="">
-The 5 Brights of Heroku’s deck.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src='Heroku_Brights.jpg' alt=""
+> ```
+>
+> The 5 Brights of Heroku’s deck.
 
 ## [Tuhwa (<span lang="ko">투화</span>)](http://utmost.co.kr/portfolio/flower-war/)
 
@@ -301,33 +372,45 @@ features different art based on traditional Korean art styles. The cards are
 much larger than those in a standard deck, and are made of plastic like other
 Korean decks.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='Tuhwa_Brights.jpg'
   size="wide"
-  alt="">
-  The 5 Brights of the Tuhwa (v2) deck.
-</Image>
+  alt=""
+> ```
+>
+>   The 5 Brights of the Tuhwa (v2) deck.
 
 ## Hanafuda Koi-Koi: Deluxe Edition
 
 This deck was [Kickstarted in 2023](https://www.kickstarter.com/projects/ebaraf/hanafuda-and-the-one-hundred-torii-diverging-paths) by Pencil First Games. The art is by Vincent Dutrait.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='hanafuda_koikoi.jpg'
   noborder=true
   size="wide"
-  alt="">
-The 5 Brights of the Hanafuda Koi-Koi (deluxe edition) deck.
-</Image>
+  alt=""
+> ```
+>
+> The 5 Brights of the Hanafuda Koi-Koi (deluxe edition) deck.
 
 ## Brownies Carta de Flor
 
 In 2023, the video game company [Brownies](https://en.wikipedia.org/wiki/Brownies_(company)) (now part of Nintendo itself) produced a deck that was manufactured by Nintendo. The cards are in an art-nouveau style.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='brownies.jpg'
   noborder=true
   size="wide"
-  alt="">
-The 5 Brights of the Brownies deck.
-</Image>
+  alt=""
+> ```
+>
+> The 5 Brights of the Brownies deck.

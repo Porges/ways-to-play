@@ -15,16 +15,21 @@ deep.</p>
 
 {/* excerpt */}
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src='konane_960.jpg'
     alt="A child playing kōnane."
     authorGiven="Janice", authorFamily="Wei",
     orgName="National Park Service", orgAbbr="NPS",
     copyrightYear=2018,
     license="cc0",
-    originalUrl="https://www.nps.gov/havo/learn/news/20180315_pr_april_events.htm" %}
-A game of <span lang="haw">kōnane</span> in action.
-</Image>
+    originalUrl="https://www.nps.gov/havo/learn/news/20180315_pr_april_events.htm" 
+> ```
+>
+> A game of <span lang="haw">kōnane</span> in action.
+
 
 ## History
 
@@ -167,7 +172,10 @@ lang="es">damas</span> (‘Spanish draughts’), which is known in Hawaii as <sp
 lang="haw">mū</span>. However, it could also be used to play <span
 lang="haw">kōnane</span> by playing the game on the diagonal.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="wide"
     src="33654775226_96814ca128_o.jpg"
     alt="A photograph of a kōnane board set up for play on a beach, with two chairs carved from tree trunks."
@@ -175,9 +183,11 @@ lang="haw">kōnane</span> by playing the game on the diagonal.
     copyrightYear=2017,
     license='cc-by',
     licenseVersion='2.0',
-    originalUrl="https://www.flickr.com/photos/stella12/33654775226/" %}
-A <span lang="haw">kōnane</span> board at Alahaka Bay.
-</Image>
+    originalUrl="https://www.flickr.com/photos/stella12/33654775226/" 
+> ```
+>
+> A <span lang="haw">kōnane</span> board at Alahaka Bay.
+
 
 ### The Pieces
 
@@ -203,16 +213,21 @@ on a beach, using rocks &amp; shells.
 
 The board is set up by filling it with black and white pieces in a checkerboard pattern.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src="24417651849_e661252c66_o.jpg"
   alt="A kōnane board set up for play with pieces in a checkerboard pattern."
     copyrightYear=2016,
     authorGiven="Kris", authorFamily="Arnold",
     license="cc-by",
     licenseVersion="2.0",
-    originalUrl="https://www.flickr.com/photos/43675529@N00/24417651849" %}
-A <span lang="haw">kōnane</span> board ready to play.
-</Image>
+    originalUrl="https://www.flickr.com/photos/43675529@N00/24417651849" 
+> ```
+>
+> A <span lang="haw">kōnane</span> board ready to play.
+
 
 To begin, the first player removes a piece from the centre of the board (or one
 of the squares adjacent to that, on an even-sized board), or from any corner.
@@ -228,16 +243,21 @@ lang="haw">kāholo</span>, ‘to move quickly’.
 The first player that cannot move any piece on their turn loses; draws are not
 possible.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src="Z0092008.jpg"
   alt=""
     copyrightYear=2008,
     orgName="The Strong National Museum of Play",
     originalUrl="https://web.archive.org/web/20150912083503/http://www.museumofplay.org/online-collections/3/48/112.7273",
     license='cc-by-nc-nd',
-    licenseVersion='4.0' %}
-A commercial version of <span lang="haw">kōnane</span>. The board can be seen on the top of the box.
-</Image>
+    licenseVersion='4.0' 
+> ```
+>
+> A commercial version of <span lang="haw">kōnane</span>. The board can be seen on the top of the box.
+
 
 ## Analysis
 

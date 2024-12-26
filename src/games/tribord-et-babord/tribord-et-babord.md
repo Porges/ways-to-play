@@ -16,12 +16,17 @@ Port’) is a 19th-century dice gambling game for two players.</p>
 
 <Pronounce noun=true lang="fr" file="pronunciation_fr_tribord_et_bâbord.mp3" pronouncer="Pat91">Tribord et Bâbord</Pronounce> is played using a board and a single die, and six tokens to mark the spaces on the board. The board contains six symbols, which are also printed on the die. These are similar to those used in the game of [Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md).
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src='./TribordBoard.png'
     alt="A board with three symbols on each side. On the left side, labelled “port” in French, it has images of a club, an anchor, and a spade. On the right, labelled “starboard” in French, a diamond, a sun, and a heart."
-    license="cc0" %}
-The board for  <span class="noun" lang="fr">Tribord et Bâbord</span>
-</Image>
+    license="cc0" 
+> ```
+>
+> The board for  <span class="noun" lang="fr">Tribord et Bâbord</span>
+
 
 The game was published by the <span class="noun" lang="fr">L. Saussine</span> company of Paris in 1880 (printed by <span class="noun" lang="fr">Roche</span> and illustrated by one <span class="noun" lang="fr">B. Coudert</span>).[@BibliographieDeLaFrance69 p. 227]
 

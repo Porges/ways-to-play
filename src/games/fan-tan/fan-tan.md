@@ -27,17 +27,27 @@ In the Philippines, it has been known as <span lang="fil" class="aka">capona</sp
 
 ## The Game
 
-<Image src="in_our_chinese_quarter.png" alt="" 
+> [!figure]
+>
+> ```yaml
+> src="in_our_chinese_quarter.png" alt="" 
   license="cc0" orgName="State Library of Victoria" originalUrl="http://handle.slv.vic.gov.au/10381/296711" noborder=true size="wide" 
-  identifier="1656481" %}
-“Sketches in Our Chinese Quarter: Fan Tan Playing, and A Chinese Restaurant”, as depicted in the <cite>Australasian Sketcher</cite>.[@SketchesInOurChineseQuarter]
-</Image>
+  identifier="1656481" 
+> ```
+>
+> “Sketches in Our Chinese Quarter: Fan Tan Playing, and A Chinese Restaurant”, as depicted in the <cite>Australasian Sketcher</cite>.[@SketchesInOurChineseQuarter]
+
 
 The play of the game is straightforward. The game master or croupier —  called <span lang="zh-Hant">揸攤人</span>/<span lang="zh-Hans">揸摊人</span> (Mandarin: <span lang="cmn-Latn-pinyin">zhā tān rén</span>) or <span lang="zh-Hant">攤官</span>/<span lang="zh-Hans">摊官</span> (Mandarin: <span lang="cmn-Latn-pinyin">tān guān</span>, Cantonese: <span lang="yue-Latn-jyutping">taan¹ gun¹</span>) — sits or stands at one end of the table.  Before them, they have a large pile of small identical objects; traditionally Chinese cash coins (<span lang="zh">釐</span>) were used, but more recently white buttons or white stones similar to go stones have been used. The game master has a cup called the ‘spreading cup’ <span lang="zh-Hant">攤盅</span>/<span lang="zh-Hans">摊盅</span> which is used to take a random number of items from the large pile and cover them while bets are placed.
 
-<Image src="fantan.png" alt="" license="cc0" size="extra-wide" noborder=true %}
-A game of fan-tan as played in Guangzhou, from @ChinaAHistoryOfTheLaws [p. 386]. The game master (seated at the far end of the table) appears to have two assistants, one to his right and one seated nearer the bettors.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="fantan.png" alt="" license="cc0" size="extra-wide" noborder=true 
+> ```
+>
+> A game of fan-tan as played in Guangzhou, from @ChinaAHistoryOfTheLaws [p. 386]. The game master (seated at the far end of the table) appears to have two assistants, one to his right and one seated nearer the bettors.
+
 
 
 Spreading cup used to spread out coins:  (http://www.ims.sdu.edu.cn/__local/F/F1/39/92CAD2D39E53B9090BDDAC265CC_F0836209_6D7B5.pdf)
@@ -105,11 +115,16 @@ An early description in English, from 1843:[@AmusementsInChina]
 ---
 
 
-<Image src="mp004312.png" alt="" 
+> [!figure]
+>
+> ```yaml
+> src="mp004312.png" alt="" 
   license="cc0" orgName="State Library of Victoria" originalUrl="http://handle.slv.vic.gov.au/10381/253000" noborder=true size="wide" 
-  identifier="1656481" %}
-“The Chinese in Victoria—A Game of Fan Tan”, as depicted in the <cite>Illustrated Australian News</cite>.[@AGameOfFanTan]
-</Image>
+  identifier="1656481" 
+> ```
+>
+> “The Chinese in Victoria—A Game of Fan Tan”, as depicted in the <cite>Illustrated Australian News</cite>.[@AGameOfFanTan]
+
 
 > The British law is somewhat severe on the heathen in the matter of games of chance. There are hundreds of ways by which Europeans evade the act, but the Chinese are made to pay dearly for any attempt of that nature.[@AGameOfFanTanArticle]
 

@@ -32,9 +32,14 @@ https://archive.org/details/gri_33125008510097/page/n325/mode/2up?q=%22my+ladies
 
 Nine Holes [@Strutt p. 340].
 
-<Image src="DP862848.jpg" size="wide" alt="" originalUrl="https://www.metmuseum.org/art/collection/search/744905" license="cc0" orgName="The Met museum" identifier="2016.360.6" noborder=true %}
-A table-top game of Trou Madame, from @EnigmeJoyeuse [f. 8r].<br/>This depicts the thirteen-hole version of the game, known in Italian as <span lang="it" class="noun">Trúcco</span>.[@FlorioVocabolario]
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="DP862848.jpg" size="wide" alt="" originalUrl="https://www.metmuseum.org/art/collection/search/744905" license="cc0" orgName="The Met museum" identifier="2016.360.6" noborder=true 
+> ```
+>
+> A table-top game of Trou Madame, from @EnigmeJoyeuse [f. 8r].<br/>This depicts the thirteen-hole version of the game, known in Italian as <span lang="it" class="noun">Trúcco</span>.[@FlorioVocabolario]
+
 
 Players at the time were well aware of the double-entendres possible with such a
 name; the text accompanying the image in the book reads:

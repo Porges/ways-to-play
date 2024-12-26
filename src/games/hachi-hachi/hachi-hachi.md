@@ -349,15 +349,20 @@ It was also formerly known as <Pronounce lang="ja-Latn"  file="pronunciation_ja_
 
 The <span lang="ja-Latn">yaku</span> can also be called <span lang="ja-Latn">yoroshī</span> (<span lang="ja">よろしい</span>, ‘good’) or <span lang="ja-Latn">akayoro</span> (<span lang="ja">赤よろ</span>, ‘red good’), or even simply <span lang="ja-Latn">aka</span> (<span lang="ja">緋</span>, ‘scarlet’), although this risks confusion with the <span lang="ja-Latn">aka teyaku</span>.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="extra-wide"
     src='Sugawara_scene.jpg'
     alt=""
     originalUrl='https://collections.mfa.org/objects/217240',
     orgName='Museum of Fine Arts Boston',
-    license='cc0' %}
-The ‘<span class="noun" lang="ja-Latn">Kuruma&shy;hiki</span>’ (<span lang="ja">車引き</span>, carriage-pulling) scene from <cite>Sugawara and the Secrets of Calligraphy</cite>.<br/>The three brothers can be seen at front wearing clothes bearing the plants: cherry blossoms, plum blossoms, and pine trees.<br/>An 1841 print by <span class="noun" lang="ja-Latn">[Utagawa Kunisada](https://en.wikipedia.org/wiki/Kunisada)</span> (<span lang="ja">歌川国貞</span>).
-</Image>
+    license='cc0' 
+> ```
+>
+> The ‘<span class="noun" lang="ja-Latn">Kuruma&shy;hiki</span>’ (<span lang="ja">車引き</span>, carriage-pulling) scene from <cite>Sugawara and the Secrets of Calligraphy</cite>.<br/>The three brothers can be seen at front wearing clothes bearing the plants: cherry blossoms, plum blossoms, and pine trees.<br/>An 1841 print by <span class="noun" lang="ja-Latn">[Utagawa Kunisada](https://en.wikipedia.org/wiki/Kunisada)</span> (<span lang="ja">歌川国貞</span>).
+
 
 ## Equipment
 
@@ -416,31 +421,46 @@ lang="ja-Latn">Kamigataya [Kabushiki
 Kaisha](https://en.wikipedia.org/wiki/Kabushiki_gaisha)</span>.
 </Image>
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     size="extra-wide"
     src="KashiNintendo_1.jpg;KashiNintendo_10.jpg;KashiNintendo_50.jpg;KashiNintendo_100.jpg;KashiNintendo_reverse.jpg"
-    alt=";;;;" %}
-Nintendo-style <span class="noun" lang="ja-Latn">Kashifuda</span> cards, in denominations of 1, 10, 50, and 100.
-</Image>
+    alt=";;;;" 
+> ```
+>
+> Nintendo-style <span class="noun" lang="ja-Latn">Kashifuda</span> cards, in denominations of 1, 10, 50, and 100.
 
-<Image 
+
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     size="extra-wide"
     src='KashiNintendo2_1.jpg;KashiNintendo2_10.jpg;KashiNintendo2_50.jpg;KashiNintendo2_100.jpg;KashiNintendo2_reverse.jpg'
     alt=";;;;"
-    %}
-Later (redrawn) Nintendo-style <span class="noun" lang="ja-Latn">Kashifuda</span> cards, in denominations of 1, 10, 50, and 100.
-</Image>
+    
+> ```
+>
+> Later (redrawn) Nintendo-style <span class="noun" lang="ja-Latn">Kashifuda</span> cards, in denominations of 1, 10, 50, and 100.
 
-<Image 
+
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     size="extra-wide"
     src='KashiNintendo3_1.jpg;KashiNintendo3_10.jpg;KashiNintendo3_50.jpg;KashiNintendo3_100.jpg;KashiNintendo3_reverse.jpg'
     alt=";;;;"
-    %}
-Yet later (slightly redrawn) Nintendo-style <span class="noun" lang="ja-Latn">Kashifuda</span> cards, in denominations of 1, 10, 50, and 100.
-</Image>
+    
+> ```
+>
+> Yet later (slightly redrawn) Nintendo-style <span class="noun" lang="ja-Latn">Kashifuda</span> cards, in denominations of 1, 10, 50, and 100.
+
 
 <Image 
     noborder=true
@@ -455,13 +475,18 @@ what “NNN” means, but it may be in imitation of the “KKK” used by <span 
 lang="ja-Latn">Kamigataya</span>.
 </Image>
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     size="extra-wide"
     src="Kashi非_1.jpg;Kashi非_5.jpg;Kashi非_25.jpg;Kashi非_100.jpg;Kashi非_reverse.jpg"
-    alt=";;;;" %}
-<span class="noun" lang="ja-Latn">Kashifuda</span> by an unknown manufacturer, in denominations of 1, 5, 25, and 100.
-</Image>
+    alt=";;;;" 
+> ```
+>
+> <span class="noun" lang="ja-Latn">Kashifuda</span> by an unknown manufacturer, in denominations of 1, 5, 25, and 100.
+
 
 ---
 

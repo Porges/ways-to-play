@@ -37,15 +37,20 @@ card will work.
 In Thailand playing cards are produced by government monopoly, so all decks are
 the same. Under the Gambling Act of 1935, the game may not be played for money without explicit permission.[@PaiPong]
 
-<Image src="thai_money_cards.jpg" alt="" noborder=true %}
-Thai-style government-printed money cards.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="thai_money_cards.jpg" alt="" noborder=true 
+> ```
+>
+> Thai-style government-printed money cards.
+
 
 ### Setup & Play
 
-{%aside%}
-Videos of the game being played can be found on [TikTok](https://www.tiktok.com/@greathitz/video/6830362440400702722).
-{%endaside%}
+> [!aside]
+>
+> Videos of the game being played can be found on [TikTok](https://www.tiktok.com/@greathitz/video/6830362440400702722).
 
 Shuffle the cards, and deal six cards to all players, then a second round of six cards to the starting player and five cards to all others, so that the starting player has 12 cards and the rest 11. Place the remainder of the cards face down in the middle to form the stock.
 

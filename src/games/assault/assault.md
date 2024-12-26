@@ -13,13 +13,17 @@ date modified: 2024-12-21
 Assault was probably derived from the game of [Fox & Geese](games/fox-and-geese.md), with which it shares a board. The play of the game is similar, but the object in Assault is for one side to achieve a particular arrangement of their pieces — although it is still possible to win by “trapping” like in [Fox & Geese](games/fox-and-geese.md).
 
 <div class="multi">
-<Image src="pic5996205.jpg" alt="" originalUrl="https://boardgamegeek.com/image/5996205/miscellaneous-game-compilation"
+> [!figure]
+>
+> ```yaml
+> src="pic5996205.jpg" alt="" originalUrl="https://boardgamegeek.com/image/5996205/miscellaneous-game-compilation"
     authorGiven="Stephan"
     authorFamily="Krug"
     license="cc0"
-    copyrightYear=2021>
-Reprint of an old German Assault board. Black lines indicate paths that the Attacker may not use.
-</Image>
+    copyrightYear=2021
+> ```
+>
+> Reprint of an old German Assault board. Black lines indicate paths that the Attacker may not use.
 
 <Image src="1324594001.jpg" alt="" originalUrl="https://www.britishmuseum.org/collection/image/1324594001" 
   license="cc-by-nc-sa" licenseVersion="4.0" orgName="Trustees of the British Museum"> 
@@ -44,15 +48,23 @@ The presentation of the game usually has a militaristic theme, often celebrating
 
 ## Setup 
 
-<Image src="asalto_board.svg" noborder=true alt="">
-The board for Assault. The fortress is marked in red.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="asalto_board.svg" noborder=true alt=""
+> ```
+>
+> The board for Assault. The fortress is marked in red.
 
 The game is played on a board with 33 points arranged in a cross shape. Nine points on one arm of the cross are marked off to form the **fortress**.
 
-<Image src="asalto_setup.svg" noborder=true alt="">
-The initial setup for Assault. The attacker’s pieces are purple and the defender’s are yellow.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="asalto_setup.svg" noborder=true alt=""
+> ```
+>
+> The initial setup for Assault. The attacker’s pieces are purple and the defender’s are yellow.
 
 The two players are called the **attacker** and the **defender**.
 
@@ -64,9 +76,13 @@ The attacker starts and may move any of their pieces from its location to anothe
 
 The defender’s pieces move in a similar way, but are not required to move in any particular direction. They may also **jump** over an attacker’s piece in a straight line to a vacant point beyond it, as in checkers. This captures the jumped piece and removes it from the board. A defending piece may make multiple jumps in a single turn, and may change direction after each jump. The defender *must* make a jump if it is possible, and cannot jump one of their own pieces.
 
-<Image src="defender_multiple_jumps.svg" noborder=true alt="">
-A defending piece may make multiple consecutive jumps.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="defender_multiple_jumps.svg" noborder=true alt=""
+> ```
+>
+> A defending piece may make multiple consecutive jumps.
 
 The goal of the attacker is to occupy every point of the fortress, or to surround their defender’s pieces so that they cannot move. The goal of the defender is to reduce the attacker to eight pieces so that they cannot achieve their goal. The first player to achieve their goal wins.
 
@@ -78,17 +94,29 @@ Many small variations of the board have been published. Some are displayed here.
 
 <div class="multi wide">
 
-<Image src="asalto_simplified_board.svg" noborder=true alt="">
-A board without most diagonals (as found [here](https://boardgamegeek.com/image/5069937/miscellaneous-game-compilation)).
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="asalto_simplified_board.svg" noborder=true alt=""
+> ```
+>
+> A board without most diagonals (as found [here](https://boardgamegeek.com/image/5069937/miscellaneous-game-compilation)).
 
-<Image src="fuchs_und_henne.svg" noborder=true alt="">
-A board variant for [<span lang="de" class="aka">Fuchs und Henne</span>](https://web.archive.org/web/20120817104138/http://www.holznerspiele.de/anleitung.html), played with 20 attackers which are set up on all the lower points. 
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="fuchs_und_henne.svg" noborder=true alt=""
+> ```
+>
+> A board variant for [<span lang="de" class="aka">Fuchs und Henne</span>](https://web.archive.org/web/20120817104138/http://www.holznerspiele.de/anleitung.html), played with 20 attackers which are set up on all the lower points. 
 
-<Image src="2_contra_20.svg" noborder=true alt="">
-A board variant for [<span lang="de" class="aka">2 Contra 20</span>](https://boardgamegeek.com/image/6417481/asalto) (published by A.  Eggenweiler), played with 20 attackers which are set up on all the lower points. 
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="2_contra_20.svg" noborder=true alt=""
+> ```
+>
+> A board variant for [<span lang="de" class="aka">2 Contra 20</span>](https://boardgamegeek.com/image/6417481/asalto) (published by A.  Eggenweiler), played with 20 attackers which are set up on all the lower points. 
 
 </div>
 
@@ -108,9 +136,13 @@ all points outside the fortress. Play is otherwise the same as Assault.
 
 Another version of the “Royal Garrison” board connected all diagonals:
 
-<Image src="royal_garrison.svg" noborder=true alt="">
-A different Royal Garrison board.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="royal_garrison.svg" noborder=true alt=""
+> ```
+>
+> A different Royal Garrison board.
 
 ## See also
 

@@ -3,24 +3,24 @@ title: Japanese Cards (<span lang="ja-Latn">Karuta</span>)
 order: 200
 ---
 
-<p class="lead">
 <span lang="ja-Latn" class="noun">Karuta</span> (<span lang="ja">かるた</span>)
 is the general name for Japanese playing cards, derived from the Portuguese word
 for playing cards, <span lang="pt">carta</span>.
-</p>
 
-{/* excerpt */}
-
-<Image src="sc67123.jpg" alt="A pile of Japanese wooden sandles in the entrance-way to a house." license="cc0"
-noborder=true
-orgName="Museum of Fine Arts Boston" position="aside"
-identifier="2002.2083"
-orgAbbr="MFA"
-originalUrl="https://collections.mfa.org/objects/403615/a-very-popular-cardplaying-gathering-sakan-naru-karuta-kai"
- %}
-<cite lang="ja">新年骨牌会</cite>, a New Year playing-card gathering<br/>
-Unknown author (1908)
-</Image>
+> [!figure]
+>
+> ![A pile of Japanese wooden sandles in the entrance-way to a house.](sc67123.jpg)
+>
+> ```yaml
+> license: cc0
+> noborder: true
+> orgName: Museum of Fine Arts Boston position="aside"
+> identifier: 2002.2083
+> orgAbbr: MFA
+> originalUrl: https://collections.mfa.org/objects/403615/a-very-popular-cardplaying-gathering-sakan-naru-karuta-kai
+> ```
+> 
+> <cite lang="ja">新年骨牌会</cite>, a New Year playing-card gathering<br/> Unknown author (1908)
 
 After being introduced by Portuguese sailors and merchants in the late 16th century,[@DragonsOfPortugal] playing cards in Japan underwent a long period of “speciation” due to the isolationist [<span lang="ja-Latn">sakoku</span>](https://en.wikipedia.org/wiki/Sakoku) (<span lang="ja">鎖国</span>, ‘closed country’) policy of the <span lang="ja-Latn" class="noun">Tokugawa</span> shōgunate which severely limited contact with the outside world for over 200 years.
 

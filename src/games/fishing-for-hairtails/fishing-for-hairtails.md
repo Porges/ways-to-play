@@ -53,12 +53,17 @@ Translated with www.DeepL.com/Translator (free version)
 The game is played with a deck of two-colour chess cards containing 56 cards, so that there are 4 copies of each individual card (8 of each rank). This deck is sometimes called <span lang="nan-Latn">âng-pâi</span> (<span lang="zh">紅牌
 </span>, ‘red cards’).[@DrieChineescheKaartspelen p. 415]
 
-<Image src="釣魚牌.jpg" alt="" 
+> [!figure]
+>
+> ```yaml
+> src="釣魚牌.jpg" alt="" 
     originalUrl="https://commons.wikimedia.org/wiki/File:%E9%87%A3%E9%AD%9A%E7%89%8C.png"
     author="outlookxp" copyrightYear="2013"
-    license="cc-by-sa" licenseVersion="3.0" %}
-Example cards from a deck.
-</Image>
+    license="cc-by-sa" licenseVersion="3.0" 
+> ```
+>
+> Example cards from a deck.
+
 
 The types of cards in each colour are:
 

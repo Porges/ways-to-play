@@ -14,9 +14,9 @@ deck ordering and <span lang="ja-Latn">yaku</span> that are not found in other
 
 ## History
 
-{%aside%}
-Special thanks must be given to Ryan Sartor and ‘Lilith’ from the Hanafuda Discord server who helped to figure this out!
-{%endaside%}
+> [!aside]
+>
+> Special thanks must be given to Ryan Sartor and ‘Lilith’ from the Hanafuda Discord server who helped to figure this out!
 
 An interesting thing about <span lang="ja-Latn" class="noun">Tenshō</span> is that it appears to have originally been a game played with a <span lang="ja-Latn">mekuri</span> deck that was later transferred to the <span lang="ja-Latn" class="noun">Hanafuda</span> deck.
 

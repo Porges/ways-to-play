@@ -5,9 +5,13 @@ originalTitle: <span lang="ti">ሸደድ</span>
 countries: ET,ER
 ---
 
-<Image position="aside" src="../../maps/Sheded.svg" alt="">
-Countries where the game is played.
-</Image>
+> [!figure]
+>
+> ```yaml
+> position="aside" src="../../maps/Sheded.svg" alt=""
+> ```
+>
+> Countries where the game is played.
 
 This is a game from Ethiopia and Eritrea which involves throwing six or more
 two-sided sticks, that each have one side marked. Depending on how many marked

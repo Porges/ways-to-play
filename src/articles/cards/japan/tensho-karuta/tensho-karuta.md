@@ -5,7 +5,7 @@ draft: true
 order: 1
 ---
 
-<p class="lead"><span lang="ja-Latn" class="noun">Tenshō Karuta</span> (<span lang="ja">天正かる た</span>) is the earliest known type of playing-card deck native to Japan, appearing during the <a href="https://en.wikipedia.org/wiki/Tensh%C5%8D_(Momoyama_period)"><span lang="ja-Latn" class="noun">Tenshō</span> period</a> (1573–1592). It recreated precisely the Portuguese decks of the period, retaining the imagery and composition of the originals.</p>
+<span lang="ja-Latn" class="noun">Tenshō Karuta</span> (<span lang="ja">天正かる た</span>) is the earliest known type of playing-card deck native to Japan, appearing during the <a href="https://en.wikipedia.org/wiki/Tensh%C5%8D_(Momoyama_period)"><span lang="ja-Latn" class="noun">Tenshō</span> period</a> (1573–1592). It recreated precisely the Portuguese decks of the period, retaining the imagery and composition of the originals.
 
 In 1597 there is a reference in the records of the [<span lang="ja-Latn" class="noun">Chōsokabe</span> family](https://en.wikipedia.org/wiki/Ch%C5%8Dsokabe_clan) (<span lang="ja">長宗我部氏</span>) that describes soldiers playing with cards.[@DragonsOfPortugal p. 43]
 

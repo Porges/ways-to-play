@@ -43,14 +43,18 @@ As in other {%a mill-games,mill games %}, the aim of the game is to form a **mil
 
 ### Placement phase
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     position="right"
     noborder=true
     size="small"
     src='../../articles/families/mill-games/large_merels.svg'
-    alt="">
-    <span class="noun" lang="so">Shax</span> is played on the large mill board, without diagonals.
-</Image>
+    alt=""
+> ```
+>
+>     <span class="noun" lang="so">Shax</span> is played on the large mill board, without diagonals.
 
 Players take turns playing one of their pieces on a vacant point of the board. Unlike Twelve Men’s Morris, completing a mill during this phase does not allow you to remove an opponent’s piece.
 

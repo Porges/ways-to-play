@@ -16,14 +16,19 @@ It is said that the [Ngāti Haua](https://en.wikipedia.org/wiki/Ng%C4%81ti_Hau%C
 
 ## Game
 
-<Image src="mu_torere.jpg" alt="TODO"
+> [!figure]
+>
+> ```yaml
+> src="mu_torere.jpg" alt="TODO"
     size="wide"
     orgName="Alexander Turnbull Library"
     license="with-permission"
     identifier="PAColl-5671-07"
-    originalUrl="https://natlib.govt.nz/records/23218316" %}
-A married couple (Te Urikore at left and Te Rangiua at right) playing Mū Tōrere, <abbr title="circa">c.</abbr> 1910.
-</Image>
+    originalUrl="https://natlib.govt.nz/records/23218316" 
+> ```
+>
+> A married couple (Te Urikore at left and Te Rangiua at right) playing Mū Tōrere, <abbr title="circa">c.</abbr> 1910.
+
 
 The board used in the game has a central spot (<span lang="mi">putahi</span> ‘centre’) as well as eight arms or ‘tentacles’ (<span lang="mi">kāwai</span>) arranged around the central spot. In this way, the board resembles an octopus, and modern commercial versions of the game are often octopus-themed.
 

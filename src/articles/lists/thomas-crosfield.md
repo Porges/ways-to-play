@@ -5,13 +5,17 @@ order: 1629
 
 <p class="lead">Thomas Crosfield’s diary entry for Christmas day 1629 contains an entry titled “Games at Chartes” that contains a list of card games.[@ThomasCrosfield fol. 34r]</p>
 
-<Image src="Queen-s-College-MS-390_00073_fol-34r.jpg" alt=""
+> [!figure]
+>
+> ```yaml
+> src="Queen-s-College-MS-390_00073_fol-34r.jpg" alt=""
     originalUrl="https://digital.bodleian.ox.ac.uk/objects/fe116079-c422-402f-8dca-3efce5f73ff9/surfaces/ed1b83c1-1c2d-48ad-b1be-df7662d730f2/"
     orgName="The Provost and Fellows of the Queen’s College, Oxford"
     license="cc-by-nc" licenseVersion="4.0"
-    copyrightYear="2022" size="wide">
-The original diary entry.
-</Image>
+    copyrightYear="2022" size="wide"
+> ```
+>
+> The original diary entry.
 
 The games listed are:
 

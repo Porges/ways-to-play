@@ -5,9 +5,14 @@ equipment: Card game (standard deck)
 players: 4
 ---
 
-<Image src="../../maps/Euchre.svg" alt="A map showing Australia, New Zealand, the USA, Canada, the UK, the Cook Islands, Fiji, Tonga." %}
-Euchre is played in many countries around the world.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="../../maps/Euchre.svg" alt="A map showing Australia, New Zealand, the USA, Canada, the UK, the Cook Islands, Fiji, Tonga." 
+> ```
+>
+> Euchre is played in many countries around the world.
+
 
 It is popular throughout Polynesia:
 

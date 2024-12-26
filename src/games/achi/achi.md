@@ -22,23 +22,32 @@ It is possible that the name should really be transcribed <span lang="ee">adji</
 
 ## Play
 
-<Image noborder=true size="small" position="aside">
-
-![](articles/families/mill-games/medium_merels.svg)
+> [!figure]
+>
+> ![](articles/families/mill-games/medium_merels.svg)
+>
+> ```yaml
+> noborder: true
+> size: small
+> position: aside
+> ```
+>
 > <span class="noun" lang="ee">Achi</span> is played on the medium-sized mill board.
-
-</Image>
 
 Each player has six pieces. To begin the game, players take turns placing a single piece on any of the free points. If at any stage a player completes a mill, they can remove and capture any one of their opponent’s pieces.
 
 A valid mill, like in other mill games, consists of three pieces in a straight line. However, in <span class="noun" lang="ee">Achi</span>, a mill may also be formed by *two* pieces on the central lines on either side.
 
-<Image noborder=true size="small">
-
-![](games/achi/achi_examples.svg)
+> [!figure]
+>
+> ![](games/achi/achi_examples.svg)
+>
+> ```yaml
+> noborder: true
+> size: small
+> ```
+>
 > Two examples of valid mills; the two-piece mill is unique to <span class="noun" lang="ee">Achi</span>.
-
-</Image>
 
 Once a player has placed all their pieces, they then move one piece at a time from a point to any free point, along a line, attempting to form a mill. A player that is reduced to two pieces loses.
 

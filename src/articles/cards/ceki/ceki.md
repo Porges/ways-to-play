@@ -11,7 +11,7 @@ hero:
 aliases:
   - Ceki
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2024-12-23
 ---
 
 <p class="lead">
@@ -2008,9 +2008,9 @@ Timor<br/>(1876)[@HetMaleischderMolukken]
 </table>
 </div>
 
-{%aside%}
-The book @GatewayToOldSchoolGames uses the spellings: burung = burong, batik = bateh, yu = yeo, hue sio = huay sio, putih = puteh, ji = jee, sa = sarh, si = see, go = gor, lak = lark.
-{%endaside%}
+> [!aside]
+>
+> The book @GatewayToOldSchoolGames uses the spellings: burung = burong, batik = bateh, yu = yeo, hue sio = huay sio, putih = puteh, ji = jee, sa = sarh, si = see, go = gor, lak = lark.
 
 ## Games
 
@@ -2067,30 +2067,44 @@ In some descriptions, Ceki is itself a game (a variant of {%gameref balik-satu%}
 
 ## Manufacturers & Brands
 
-<Image position="aside" alt="A bird perched on a branch." src="Handelsvereeniging_logo.jpg">
-
-The logo for <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</span>.
-
-</Image>
+> [!figure]
+>
+> ![A bird perched on a branch.](Handelsvereeniging_logo.jpg)
+>
+> ```yaml
+> position: aside
+> ```
+>
+> The logo for <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</span>.
 
 (Extinct) European manufacturers included:
 
-<Image src="Sin_Po_1922_03_20_001.png" position="aside" noborder=true  alt="A black and white advertisement with an image of two tigers fighting." originalUrl="https://opac.perpusnas.go.id/uploaded_files/dokumen_isi3/Terbitan%20Berkala/Sin_Po_1922_03_20_001.pdf" license="cc0">
-
-Newspaper advertisement in [<span class="noun" lang="id">Sin Po</span>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922, for <span lang="fr" class="noun">Mesmaekers Frères</span>’ <span class="noun" lang="id">Dua Macan</span> (‘two tigers’) brand ceki cards (<span lang="id">kartoe tjeki</span>), being sold by Handel Mij. (also publishers of the newspaper).
-
-</Image>
+> [!figure]
+>
+> ![A black and white advertisement with an image of two tigers fighting.](Sin_Po_1922_03_20_001.png)
+>
+> ```yaml
+> position: aside
+> noborder: true
+> originalUrl: "https://opac.perpusnas.go.id/uploaded_files/dokumen_isi3/Terbitan%20Berkala/Sin_Po_1922_03_20_001.pdf"
+> license: cc0
+> ```
+>
+> Newspaper advertisement in [<span class="noun" lang="id">Sin Po</span>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922, for <span lang="fr" class="noun">Mesmaekers Frères</span>’ <span class="noun" lang="id">Dua Macan</span> (‘two tigers’) brand ceki cards (<span lang="id">kartoe tjeki</span>), being sold by Handel Mij. (also publishers of the newspaper).
 
 * <span class="noun" lang="fr">Camoin</span>, a French company that was based in Marseille
 * <span class="noun" lang="nl">Handelsvereeniging Harmsen Verweij & Dunlop N.V.</span>, a
   Dutch company that had offices in Java, Sumatra, and Celebes (Sulawesi)[@TraditionCardGameCeki]
 * [<span class="noun" lang="fr">Mesmaekers
   Frères</span>](https://www.wopc.co.uk/belgium/mesmaeker/mesmaeker-moentack), a Belgian company based in Turnhout whose cards were imported to Java by Brandon Mesritz & Co.[@ChiChiPai] Their brands included:
-  * <span class="noun" lang="id">Dua Macan</span> (‘two tigers’), trademark registered 15th October 1887.[@Turnhout p. 32] This brand was also used for other types of cards, like domino cards.{/* stefan_lauwers_domino_cards.jpg */}
+  * <span class="noun" lang="id">Dua Macan</span> (‘two tigers’), trademark registered 15th October 1887.[@Turnhout p. 32] This brand was also used for other types of cards, like domino cards.
 * Cartamundi, a Belgian company based in Turnhout, and now the largest manufacturer of playing cards in the world. Their brands included:
-  * Three Goats Brand (also labelled <span lang="zh">行通南</span>?),{/* jef_smets_cartamundi_three_goats.jpg */} trademark registered 26 July 1972.[@Turnhout p. 47] Decks containing Ceki cards seem to have been in a red packet and labelled ‘A’; green and ‘B’ were four-colour cards.
+  * Three Goats Brand (also labelled <span lang="zh">行通南</span>?), trademark registered 26 July 1972.[@Turnhout p. 47] Decks containing Ceki cards seem to have been in a red packet and labelled ‘A’; green and ‘B’ were four-colour cards.
 
-{/* {/*<p>榮興記</p>*/}*/}
+> [!todo]
+>   stefan_lauwers_domino_cards.jpg 
+>  jef_smets_cartamundi_three_goats.jpg 
+> <p>榮興記</p>
 
 Old Indonesian brands included:
 

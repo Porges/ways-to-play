@@ -17,14 +17,19 @@ suits. Alternatively, it can be played with <span class="noun" lang="ja-Latn">Ha
 cards if you are very familiar with the deck ordering, or you can play with a
 standard deck of cards by removing all <Cards>⑩</Cards>s.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   noborder=true
   size="wide"
   src="../../articles/cards/japan/komatsufuda.png"
   alt="48 cards in 4 suits of 12 with red and black designs, which are difficult to decipher"
-  license='cc-by-sa', licenseVersion='4.0', author='Outlookxp', copyrightYear=2014, originalUrl='https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%9D%BE%E6%9C%AD.png' %}
-The 48 cards of the traditional <span lang="ja-Latn">komatsufuda</span> deck.
-</Image>
+  license='cc-by-sa', licenseVersion='4.0', author='Outlookxp', copyrightYear=2014, originalUrl='https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%9D%BE%E6%9C%AD.png' 
+> ```
+>
+> The 48 cards of the traditional <span lang="ja-Latn">komatsufuda</span> deck.
+
 
 ## Setup
 

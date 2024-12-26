@@ -89,9 +89,13 @@ The special die has eight sides, each marked with the name of a character from t
 The staking board is drawn on a piece of paper or cloth, and has eight cells,
 one for each result, along with several circles and quarter-circles:
 
-<Image src='pek-bin.svg' noborder=true alt="">
-The staking layout, after @GamblingGamesOfMalaya [p. 124].
-</Image>
+> [!figure]
+>
+> ```yaml
+> src='pek-bin.svg' noborder=true alt=""
+> ```
+>
+> The staking layout, after @GamblingGamesOfMalaya [p. 124].
 
 ## Rules
 

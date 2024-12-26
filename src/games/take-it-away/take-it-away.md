@@ -27,11 +27,16 @@ To play you will need an 8×8 chess or checkerboard, and 64 coloured pieces
 
 Arrange the pieces randomly, one on each square of the board.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     src='take-it-away.svg'
-    alt="A board randomly filled with white, red, and blue pieces." %}
-    A sample initial configuration.
-</Image>
+    alt="A board randomly filled with white, red, and blue pieces." 
+> ```
+>
+>     A sample initial configuration.
+
 
 ### Game
 The first player starts the game by removing any white chip from the board and

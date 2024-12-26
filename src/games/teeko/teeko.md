@@ -29,12 +29,16 @@ Teeko is played with four pieces per player (usually in red and black), and a
 special board (although it can also be played on a standard chess/checkers
 board):
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     src="teeko.svg"
-    alt="">
-Teeko is played on the points of a 5×5 grid.
-</Image>
+    alt=""
+> ```
+>
+> Teeko is played on the points of a 5×5 grid.
 
 ## Play
 
@@ -42,13 +46,18 @@ The aim of the game is to create a straight line of four pieces, along the
 horizontal, vertical, or diagonal lines on the board, or alternately, to form
 all four pieces into a square. There are 44 distinct winning positions.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     size="wide"
     noborder=true
     src="teeko-line.svg;teeko-vertline.svg;teeko-diag.svg;teeko-square.svg"
-    alt=";;;" %}
-Examples of winning positions in Teeko.
-</Image>
+    alt=";;;" 
+> ```
+>
+> Examples of winning positions in Teeko.
+
 
 In the placement phase of the game, players take turns putting one piece at a
 time onto any empty space on the board. If a player can make a line or square
@@ -62,12 +71,17 @@ to another empty space. Whoever can first form a line or square wins.
 
 In Advanced Teeko, squares can also be made in “extended” form, with gaps between the pieces:
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
     noborder=true
     src="teeko-square-2.svg;teeko-square-3.svg;teeko-square-4.svg"
-    alt=";;" %}
-Examples of extended squares in Advanced Teeko.
-</Image>
+    alt=";;" 
+> ```
+>
+> Examples of extended squares in Advanced Teeko.
+
 
 In Advanced Teeko there are 58 distinct winning positions.
 

@@ -20,9 +20,14 @@ A Song-era book entitled <cite lang="zh">除紅譜</cite> <cite>Manual for Exclu
 
 [^fn0]: According to the <cite>Preface</cite>, a descendent of <span lang="cmn-Latn-pinyin" class="noun">Zhū Guāngtíng</span>, a famous politician of the Song dynasty.
 
-<Image src="instructions.png" alt="" noborder=true position="aside" license="cc0" %}
-Pictorial instructions from the text.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="instructions.png" alt="" noborder=true position="aside" license="cc0" 
+> ```
+>
+> Pictorial instructions from the text.
+
 
 The instructional text forms part of the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html) collection[^fn1] and can subsequently be found included as part of it in the Qing-era <span lang="zh">四庫全書</span> [<span lang="cmn-Latn-pinyin" class="noun">Sìkù Quánshū</span>](http://www.chinaknowledge.de/Literature/Science/sikuquanshu.html) imperial book collection. It also appears in <span lang="zh">茅一相</span> <span lang="cmn-Latn-pinyin" class="noun">Máo Yīxiāng</span>’s Ming-era continuation of the <span lang="zh-Hant">欣賞編</span>/<span lang="zh-Hans">欣赏续</span> [<cite>Compilation of Enjoyable Texts</cite>](http://www.chinaknowledge.de/Literature/Poetry/xinshangbian.html), in some editions with <span lang="cmn-Latn-pinyin" class="noun">Yáng</span>’s preface and in others without.
 

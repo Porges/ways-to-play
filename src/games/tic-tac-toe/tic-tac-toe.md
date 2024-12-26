@@ -248,12 +248,16 @@ This is another isomorphic variant invented by John Michon.[@TheGameOfJAM] It is
 
 If this is confusing, muse upon the following diagram: the red solid vertical line represents the middle cell of the Tic-Tac-Toe board; it crosses four points (winning lines). The four blue dashed lines are the corner cells, which cross three points (winning lines) each, and the four green dotted lines are the side-centre cells, which cross two points (winning lines) each.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src="jam.svg"
   noborder=true
-  alt="">
-The JAM board.
-</Image>
+  alt=""
+> ```
+>
+> The JAM board.
 
 To play, players take turns claiming an entire line, which crosses several points. Once a player has claimed a line it may not be claimed by the other player. The first player that claims all three lines that pass through any single point wins the game.
 

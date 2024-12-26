@@ -19,9 +19,13 @@ This page discusses variants of what — for lack of a better term — I
 </p>
 
 {/*
-<Image position="left" src="../../maps/OichoKabu.svg" alt="">
-Countries where the game has been played.
-</Image>
+> [!figure]
+>
+> ```yaml
+> position="left" src="../../maps/OichoKabu.svg" alt=""
+> ```
+>
+> Countries where the game has been played.
 */}
 
 The earliest reference that I know of is that of <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒</span>, 1556–1622), a late Ming-era poet who mentioned the game <span lang="zh" class="aka">扯三章</span>/<span lang="zh" class="aka">扯三張</span>[^fn0]  (‘draw 3 cards’) in passing while describing the rules of the game <span lang="zh">扯三章</span> (‘draw 5 cards’, for which, see the [Five Card](games/five-card/five-card.md) article). The rules are not explicitly given (he simply states <span lang="zh">扯三張例俱如前</span> ‘drawing 3 cards: rules as above’ after a subsection of the 5-card rules), but it is clear from the context that the game is essentially the same as the more recent versions given below.[@XuYeziPu_2] <span lang="cmn-Latn-pinyin" class="noun">Pān</span> also describes the game being played for drinks:[@XuYeziPu_2 281]
@@ -63,21 +67,30 @@ In Japan the game is usually played with special cards called <span lang="ja-Lat
 
 [^fn5]: There are also <span lang="ja-Latn">hanafuda</span> decks with only 10 months, called <span lang="ja-Latn">mushifuda</span>. These lack the 6th &amp; 7th months of the standard deck.
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
   src='../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg'
-  alt="">
-A full deck of forty <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
-</Image>
+  alt=""
+> ```
+>
+> A full deck of forty <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
 
 Possibly the game was originally called the ‘three card’ (<span lang="ja">三枚</span>) game.
 
 ### Play
 
-<Image src="3card.png" alt="" noborder=true position="aside"
+> [!figure]
+>
+> ```yaml
+> src="3card.png" alt="" noborder=true position="aside"
   license="cc0" originalUrl="https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/katei/document/cb3e601f-5df0-4433-bbae-723e214ef33c"
-  orgName="General Library in the University of Tokyo" %}
-A three-card game being played in a picture that accompanies the story “A Man Coming to [Ponto”](https://en.wikipedia.org/wiki/Ponto-ch%C5%8D) <span lang="ja">「<ruby>先斗<rp>（</rp><rt>ぼんと</rt><rp>）</rp></ruby>に<ruby>置<rp>（</rp><rt>をい</rt><rp>）</rp></ruby>て<ruby>来多<rp>（</rp><rt>きた</rt><rp>）</rp></ruby>男」</span> in the book <cite>Twenty Cases of Unfilial Children</cite> <cite lang="ja">本朝二十不孝</cite> (1686) by [<span lang="ja-Latn" class="noun">Ihara Saikaku</span>](https://en.wikipedia.org/wiki/Ihara_Saikaku) (<span lang="ja">井原西鶴</span>, 1642—1693); the book is a parody of the Chinese classic [<cite>Twenty-Four Paragons of Filial Piety</cite> <cite lang="zh">二十四孝</cite>.](https://en.wikipedia.org/wiki/The_Twenty-four_Filial_Exemplars)
-</Image>
+  orgName="General Library in the University of Tokyo" 
+> ```
+>
+> A three-card game being played in a picture that accompanies the story “A Man Coming to [Ponto”](https://en.wikipedia.org/wiki/Ponto-ch%C5%8D) <span lang="ja">「<ruby>先斗<rp>（</rp><rt>ぼんと</rt><rp>）</rp></ruby>に<ruby>置<rp>（</rp><rt>をい</rt><rp>）</rp></ruby>て<ruby>来多<rp>（</rp><rt>きた</rt><rp>）</rp></ruby>男」</span> in the book <cite>Twenty Cases of Unfilial Children</cite> <cite lang="ja">本朝二十不孝</cite> (1686) by [<span lang="ja-Latn" class="noun">Ihara Saikaku</span>](https://en.wikipedia.org/wiki/Ihara_Saikaku) (<span lang="ja">井原西鶴</span>, 1642—1693); the book is a parody of the Chinese classic [<cite>Twenty-Four Paragons of Filial Piety</cite> <cite lang="zh">二十四孝</cite>.](https://en.wikipedia.org/wiki/The_Twenty-four_Filial_Exemplars)
+
 
 Up to ten people can play the game (aside from the dealer).
 

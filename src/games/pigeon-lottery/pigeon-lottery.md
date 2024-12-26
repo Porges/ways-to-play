@@ -136,15 +136,20 @@ Nevertheless, the game was permitted to continue and licenses to run <span lang=
 
 [^unpopular]: A study in 2019 found that only 4 out of 855 gamblers (0.5%) had played the game in the last 12 months.[@SegmentingChineseGamblers]
 
-<Image src="156734440_fc41d2c401_o.jpg" alt="A neon “Pacapio” sign."
+> [!figure]
+>
+> ```yaml
+> src="156734440_fc41d2c401_o.jpg" alt="A neon “Pacapio” sign."
     license="cc-by"
     licenseVersion="2.0"
     authorGiven="Brian"
     authorFamily="Chow"
     copyrightYear="2005"
-    originalUrl="https://www.flickr.com/photos/free-stuff/156734440" %}
-A “Pacapio” sign in Macau.
-</Image>
+    originalUrl="https://www.flickr.com/photos/free-stuff/156734440" 
+> ```
+>
+> A “Pacapio” sign in Macau.
+
 
 {/*
 Back in Guangdong, merchants petitioned for the game to be made legal…[@BettingOnEmpire p. 161]
@@ -1063,14 +1068,19 @@ inadvertently returned the game to its pigeon-racing roots.
 
 ### Racehorse Keno
 
-<Image src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
+> [!figure]
+>
+> ```yaml
+> src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
     justify="centered"
     alt="A newspaper advertisement: 'The Palace Club presents Reno's newest sensation: race horse keno. $2000 limit, it's new, it's different, don't miss the grand opening. Post time 12:00 noon.';A newspaper advertisement: 'They're off! at The Palace Club on their second sensational week: race horse keno, the game that has taken Reno by storm. First post 10 A.M., races every twenty minutes until 2:00 A.M., Saturdays until 4:00 A. M.'"
     originalUrl="https://www.newspapers.com/clip/99585617/race-horse-keno/"
     license="cc0"
-    orgName="newspapers.com" %}
-Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
-</Image>
+    orgName="newspapers.com" 
+> ```
+>
+> Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
+
 
 As a game of chance and not a lottery, the “new” game was legal under Nevada
 laws.[@SilvioPetricciani p. 26] Warren describes in his own words how the game
@@ -1089,16 +1099,21 @@ marked the tickets still used hair brushes imported from China,[@EveryLightWasOn
 p. 129] and the ink was purchased from Chinese
 suppliers.[@AlwaysBetOnTheButcher p. 50]
 
-<Image 
+> [!figure]
+>
+> ```yaml
+> 
 alt="A black-and-white photo of two tickets on a stone counter. Two hands belonging to a man are in the shot: the left is holding the ticket, the right is holding a brush with ink on it."
 src="harolds_keno.jpg"
 license="cc-by-nc-nd"
 licenseVersion="4.0"
 originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n201"
 orgName="University of Nevada Oral History Program"
-%}
-A keno writer using a horsehair brush to mark tickets in Harolds Club, Nevada.
-</Image>
+
+> ```
+>
+> A keno writer using a horsehair brush to mark tickets in Harolds Club, Nevada.
+
 
 In this “racehorse” version of the game, each number had a horse’s name assigned to it, and the names were announced in a similar way to the way that “[bingo calls](https://en.wikipedia.org/wiki/List_of_British_bingo_nicknames)” are now performed. Warren gives an example of the patter (or “ballyhoo”) that was used to announce the game, mimicking the style of a horse racing commentator:[@AlwaysBetOnTheButcher p. 158]
 

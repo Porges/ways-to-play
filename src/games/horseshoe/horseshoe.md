@@ -13,9 +13,14 @@ This is a simple blocking game for children that seems to originate from China, 
 </p>
 
 
-<Image src="../../maps/Horseshoe.svg" noborder=true alt="" position="aside" %}
-Countries mentioned in this article.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="../../maps/Horseshoe.svg" noborder=true alt="" position="aside" 
+> ```
+>
+> Countries mentioned in this article.
+
 
 The board is simple enough to be drawn with a finger into dirt or sand, and can
 be played with any two sets of two distinctive pieces: rocks, shell, bottlecaps,
@@ -34,17 +39,31 @@ In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span 
 
 <div class="multi equal">
 
-<Image src="Korean_board.svg" noborder=true alt="">
-A Korean board, after @KoreanGames [p. 100].
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="Korean_board.svg" noborder=true alt=""
+> ```
+>
+> A Korean board, after @KoreanGames [p. 100].
 
-<Image src="Thai_board_2.svg" alt="" noborder=true %}
-A Thai board, as found [online](https://web.archive.org/web/20220809031306/https://shopee.co.th/%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-Dead-End-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87-wooden-family-board-games-i.92760471.11313361650).
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="Thai_board_2.svg" alt="" noborder=true 
+> ```
+>
+> A Thai board, as found [online](https://web.archive.org/web/20220809031306/https://shopee.co.th/%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-Dead-End-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87-wooden-family-board-games-i.92760471.11313361650).
 
-<Image src="Thai_board.svg" alt="" noborder=true %}
-A Thai board, after @KoreanGames [p. 100].
-</Image>
+
+> [!figure]
+>
+> ```yaml
+> src="Thai_board.svg" alt="" noborder=true 
+> ```
+>
+> A Thai board, after @KoreanGames [p. 100].
+
 
 </div>
 
@@ -62,9 +81,14 @@ This theme is also known in the Mongolian version of the game, where the circula
 
 ## Play
 
-<Image src="pong-hau-ki.svg" alt="" size="small" noborder=true %}
-The initial placement of the pieces.
-</Image>
+> [!figure]
+>
+> ```yaml
+> src="pong-hau-ki.svg" alt="" size="small" noborder=true 
+> ```
+>
+> The initial placement of the pieces.
+
 
 Each player has two matching pieces. The game board is set up in the initial
 position as shown above. On each player’s turn, they select one of their pieces to
