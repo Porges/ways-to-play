@@ -17,8 +17,12 @@ date modified: 2024-12-22
 
 > [!figure]
 >
+> ![A map showing Botswana, Lesotho, Mozambique, and South Africa.](../../maps/Morabaraba.svg)
+>
 > ```yaml
-> src="../../maps/Morabaraba.svg" alt="A map showing Botswana, Lesotho, Mozambique, and South Africa." position="aside" noborder=true size="small" 
+> position: "aside"
+> noborder: true
+> size: "small"
 > ```
 >
 > <span class="noun" lang="st">Morabaraba</span> is played across south-eastern Africa.
@@ -116,12 +120,11 @@ skeuomorphic feature.{%endfn%} are used in two contrasting colours.
 
 > [!figure]
 >
+> ![](../../articles/families/mill-games/large_merels_with_diagonals.svg)
+>
 > ```yaml
-> 
-  position="aside"
-  noborder=true
-  src="../../articles/families/mill-games/large_merels_with_diagonals.svg"
-  alt=""
+> position: "aside"
+> noborder: true
 > ```
 >
 > Standard <span class="noun" lang="st">Morabaraba</span> is played on the large mill board with diagonals.
@@ -177,12 +180,11 @@ moves.[@UltraStrongMorris]
 
 > [!figure]
 >
+> ![](large_merels_with_diagonals_and_centre.svg)
+>
 > ```yaml
-> 
-    position="aside"
-    src="large_merels_with_diagonals_and_centre.svg"
-    noborder=true
-    alt=""
+> position: "aside"
+> noborder: true
 > ```
 >
 > The Sotho version of the game is played on a board with a central cross.
@@ -215,28 +217,26 @@ There are also others that I have not been able to figure out; see the sources l
 > [!todo]
 > Unfortunately I have not been able to figure out exactly what they represent, but possibly they are names of specific piece formations.[@TransmitterOfAccolades] The Sesotho names are: <span lang="st">tjhitja</span>/<span lang="st">chitja</span> (‘hornless’ or ‘round’), which is apparently a winning strategy; <span lang="st">katapane</span>, another good strategy; and <span lang="st">qheane</span>, which is a poor or losing strategy.[@MasculinityAccordion p. 185–6] also ... seakgela/seakhela and qholo
 
-<div class="multi equal">
-> [!figure]
+> [!multi-equal]
+> > [!figure]
+> >
+> > ![](large_merels_with_diagonals_and_centre_mill_examples.svg)
+> >
+> > ```yaml
+> > noborder: true
+> > ```
+> >
+> > Some examples of valid mills on the Sotho board.
 >
-> ```yaml
-> 
-    noborder=true
-    src="large_merels_with_diagonals_and_centre_mill_examples.svg"
-    alt=""
-> ```
->
-> Some examples of valid mills on the Sotho board.
-> [!figure]
->
-> ```yaml
-> 
-    noborder=true
-    src="large_merels_with_diagonals_and_centre_bad_move.svg"
-    alt=""
-> ```
->
-> Not a mill; any mill using the centre point must have its middle piece on the centre point.
-</div>
+> > [!figure]
+> >
+> > ![](large_merels_with_diagonals_and_centre_bad_move.svg)
+> >
+> > ```yaml
+> > noborder: true
+> > ```
+> >
+> > Not a mill; any mill using the centre point must have its middle piece on the centre point.
 
 <Image 
     src="8237668945_878d81116c_o.jpg"
@@ -258,12 +258,11 @@ href="https://www.instagram.com/p/yPNmJpPNzW/">4</a>).
 
 > [!figure]
 >
+> ![](large_merels_with_full_diagonals.svg)
+>
 > ```yaml
-> 
-    position="aside"
-    noborder=true
-    src="large_merels_with_full_diagonals.svg"
-    alt=""
+> position: "aside"
+> noborder: true
 > ```
 >
 > An alternate <span class="noun" lang="st">Morabaraba</span> board.

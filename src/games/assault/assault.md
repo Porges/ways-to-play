@@ -8,38 +8,37 @@ date created: 2024-12-18
 date modified: 2024-12-21
 ---
 
-<p class="lead"><span class="aka">Assault</span> is a traditional board game for two players that used to be popular throughout Europe. In English it is commonly known by the Spanish name <span lang="es" class="aka">Asalto</span>.</p>
+<span class="aka">Assault</span> is a traditional board game for two players that used to be popular throughout Europe. In English it is commonly known by the Spanish name <span lang="es" class="aka">Asalto</span>.
 
 Assault was probably derived from the game of [Fox & Geese](games/fox-and-geese.md), with which it shares a board. The play of the game is similar, but the object in Assault is for one side to achieve a particular arrangement of their pieces — although it is still possible to win by “trapping” like in [Fox & Geese](games/fox-and-geese.md).
 
-<div class="multi">
-> [!figure]
->
-> ```yaml
-> src="pic5996205.jpg" alt="" originalUrl="https://boardgamegeek.com/image/5996205/miscellaneous-game-compilation"
-    authorGiven="Stephan"
-    authorFamily="Krug"
-    license="cc0"
-    copyrightYear=2021
-> ```
->
-> Reprint of an old German Assault board. Black lines indicate paths that the Attacker may not use.
-
-> [!figure]
->
-> ![](1324594001.jpg)
->
-> ```yaml
-> originalUrl: "https://www.britishmuseum.org/collection/image/1324594001"
-> license: "cc-by-nc-sa"
-> licenseVersion: "4.0"
-> orgName: "Trustees of the British Museum"
-> ```
->
-> A 19th century print; bold lines indicate paths the Attacker may not use.
-</div>
-
-{/* excerpt */}
+> [!multi]
+> > [!figure]
+> >
+> > ![](pic5996205.jpg)
+> >
+> > ```yaml
+> > originalUrl: "https://boardgamegeek.com/image/5996205/miscellaneous-game-compilation"
+> > authorGiven: "Stephan"
+> > authorFamily: "Krug"
+> > license: "cc0"
+> > copyrightYear: 2021
+> > ```
+> >
+> > Reprint of an old German Assault board. Black lines indicate paths that the Attacker may not use.
+> 
+> > [!figure]
+> >
+> > ![](1324594001.jpg)
+> >
+> > ```yaml
+> > originalUrl: "https://www.britishmuseum.org/collection/image/1324594001"
+> > license: "cc-by-nc-sa"
+> > licenseVersion: "4.0"
+> > orgName: "Trustees of the British Museum"
+> > ```
+> >
+> > A 19th century print; bold lines indicate paths the Attacker may not use.
 
 In other languages and countries it is known as:
 

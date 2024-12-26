@@ -11,11 +11,10 @@ Tri-Hex is a {%a mill-games,mill game%} that was invented by T. H. O’Beirne in
 
 > [!figure]
 >
+> ![](tri-hex.svg)
+>
 > ```yaml
-> 
-    src="tri-hex.svg"
-    noborder=true
-    alt=""
+> noborder: true
 > ```
 >
 > The Tri-Hex board.

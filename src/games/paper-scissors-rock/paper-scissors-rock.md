@@ -9,24 +9,39 @@ date modified: 2024-12-21
 
 > [!figure]
 >
+> ![](DP144546.jpg)
+>
 > ```yaml
-> src="DP144546.jpg" alt="" originalUrl="https://www.metmuseum.org/art/collection/search/37105" license="cc0" orgName="The Met museum" identifier="JP655"
+> originalUrl: "https://www.metmuseum.org/art/collection/search/37105"
+> license: "cc0"
+> orgName: "The Met museum"
+> identifier: "JP655"
 > ```
 >
 > 
 
 > [!figure]
 >
+> ![](DP119534.jpg)
+>
 > ```yaml
-> src="DP119534.jpg" alt="" originalUrl="https://www.metmuseum.org/art/collection/search/57030" license="cc0" orgName="The Met museum" identifier="JP2770a,b"
+> originalUrl: "https://www.metmuseum.org/art/collection/search/57030"
+> license: "cc0"
+> orgName: "The Met museum"
+> identifier: "JP2770a,b"
 > ```
 >
 > 
 
 > [!figure]
 >
+> ![](DP119521.jpg)
+>
 > ```yaml
-> src="DP119521.jpg" alt="" originalUrl="https://www.metmuseum.org/art/collection/search/57034" license="cc0" orgName="The Met museum" identifier="JP2778"
+> originalUrl: "https://www.metmuseum.org/art/collection/search/57034"
+> license: "cc0"
+> orgName: "The Met museum"
+> identifier: "JP2778"
 > ```
 >
 > 

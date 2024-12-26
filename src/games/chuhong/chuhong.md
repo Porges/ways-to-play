@@ -22,8 +22,12 @@ A Song-era book entitled <cite lang="zh">除紅譜</cite> <cite>Manual for Exclu
 
 > [!figure]
 >
+> ![](instructions.png)
+>
 > ```yaml
-> src="instructions.png" alt="" noborder=true position="aside" license="cc0" 
+> noborder: true
+> position: "aside"
+> license: "cc0"
 > ```
 >
 > Pictorial instructions from the text.

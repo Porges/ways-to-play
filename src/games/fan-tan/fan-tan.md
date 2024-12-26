@@ -29,10 +29,15 @@ In the Philippines, it has been known as <span lang="fil" class="aka">capona</sp
 
 > [!figure]
 >
+> ![](in_our_chinese_quarter.png)
+>
 > ```yaml
-> src="in_our_chinese_quarter.png" alt="" 
-  license="cc0" orgName="State Library of Victoria" originalUrl="http://handle.slv.vic.gov.au/10381/296711" noborder=true size="wide" 
-  identifier="1656481" 
+> license: "cc0"
+> orgName: "State Library of Victoria"
+> originalUrl: "http://handle.slv.vic.gov.au/10381/296711"
+> noborder: true
+> size: "wide"
+> identifier: "1656481"
 > ```
 >
 > “Sketches in Our Chinese Quarter: Fan Tan Playing, and A Chinese Restaurant”, as depicted in the <cite>Australasian Sketcher</cite>.[@SketchesInOurChineseQuarter]
@@ -42,13 +47,15 @@ The play of the game is straightforward. The game master or croupier —  ca
 
 > [!figure]
 >
+> ![](fantan.png)
+>
 > ```yaml
-> src="fantan.png" alt="" license="cc0" size="extra-wide" noborder=true 
+> license: "cc0"
+> size: "extra-wide"
+> noborder: true
 > ```
 >
 > A game of fan-tan as played in Guangzhou, from @ChinaAHistoryOfTheLaws [p. 386]. The game master (seated at the far end of the table) appears to have two assistants, one to his right and one seated nearer the bettors.
-
-
 
 Spreading cup used to spread out coins:  (http://www.ims.sdu.edu.cn/__local/F/F1/39/92CAD2D39E53B9090BDDAC265CC_F0836209_6D7B5.pdf)
 
@@ -117,10 +124,15 @@ An early description in English, from 1843:[@AmusementsInChina]
 
 > [!figure]
 >
+> ![](mp004312.png)
+>
 > ```yaml
-> src="mp004312.png" alt="" 
-  license="cc0" orgName="State Library of Victoria" originalUrl="http://handle.slv.vic.gov.au/10381/253000" noborder=true size="wide" 
-  identifier="1656481" 
+> license: "cc0"
+> orgName: "State Library of Victoria"
+> originalUrl: "http://handle.slv.vic.gov.au/10381/253000"
+> noborder: true
+> size: "wide"
+> identifier: "1656481"
 > ```
 >
 > “The Chinese in Victoria—A Game of Fan Tan”, as depicted in the <cite>Illustrated Australian News</cite>.[@AGameOfFanTan]

@@ -26,26 +26,33 @@ The goal of the game is for the players to guess the card which the dealer has c
 To play the game, three sets of cards are used:
 
 Cards for each player, numbered 1–6. These are called **<span lang="ja-Latn">hari&shy;fuda</span>** (<span lang="ja">張札</span> ‘spreading cards’), <span lang="ja-Latn">kaki&shy;fuda</span> (<span lang="ja">書札</span> ‘document cards’), or <span lang="ja-Latn">dai ichi roku</span> (<span lang="ja">大一六</span> ‘big one-six’). There are two styles; the Ōsaka style has the odd numbers in red, whereas with the Kyōto style all the numbers are black.
+
 > [!figure]
 >
+> ![](Nintendo_Harifuda.jpg)
+>
 > ```yaml
-> src="Nintendo_Harifuda.jpg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > A set of <span lang="ja-Latn">harifuda</span> produced by Nintendō.
 
 > [!figure]
 >
+> ![](TS_Harifuda_1.jpg)
+>
 > ```yaml
-> src="TS_Harifuda_1.jpg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > A set of <span lang="ja-Latn">harifuda</span> produced by Tamura Shogundō.
 
 > [!figure]
 >
+> ![](TS_Harifuda_2.jpg)
+>
 > ```yaml
-> src="TS_Harifuda_2.jpg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > A set of <span lang="ja-Latn">harifuda</span> produced by Tamura Shogundō, in the Ōsaka style.
@@ -57,24 +64,30 @@ Sometimes these are produced with the same images as on the <span lang="ja-Latn"
 
 > [!figure]
 >
+> ![](Nintendo_Hikifuda.jpg)
+>
 > ```yaml
-> src="Nintendo_Hikifuda.jpg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > A set of <span lang="ja-Latn">hikifuda</span> produced by Nintendō.
 
 > [!figure]
 >
+> ![](TS_Hikifuda_2.jpg)
+>
 > ```yaml
-> src="TS_Hikifuda_2.jpg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > A set of <span lang="ja-Latn">hikifuda</span> produced by Tamura Shogundō.
 
 > [!figure]
 >
+> ![](TS_Hikifuda_1.jpg)
+>
 > ```yaml
-> src="TS_Hikifuda_1.jpg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > A set of <span lang="ja-Latn">kohari</span> produced by Tamura Shogundō.

@@ -39,8 +39,10 @@ the same. Under the Gambling Act of 1935, the game may not be played for money w
 
 > [!figure]
 >
+> ![](thai_money_cards.jpg)
+>
 > ```yaml
-> src="thai_money_cards.jpg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > Thai-style government-printed money cards.

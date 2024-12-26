@@ -55,11 +55,14 @@ The game is played with a deck of two-colour chess cards containing 56 cards, so
 
 > [!figure]
 >
+> ![](釣魚牌.jpg)
+>
 > ```yaml
-> src="釣魚牌.jpg" alt="" 
-    originalUrl="https://commons.wikimedia.org/wiki/File:%E9%87%A3%E9%AD%9A%E7%89%8C.png"
-    author="outlookxp" copyrightYear="2013"
-    license="cc-by-sa" licenseVersion="3.0" 
+> originalUrl: "https://commons.wikimedia.org/wiki/File:%E9%87%A3%E9%AD%9A%E7%89%8C.png"
+> author: "outlookxp"
+> copyrightYear: "2013"
+> license: "cc-by-sa"
+> licenseVersion: "3.0"
 > ```
 >
 > Example cards from a deck.

@@ -20,8 +20,12 @@ date modified: 2024-12-22
 
 > [!figure]
 >
+> ![](../mill-games/small_merels_with_diagonals.svg)
+>
 > ```yaml
-> noborder=true position="aside" size="small" src="../mill-games/small_merels_with_diagonals.svg" alt=""
+> noborder: true
+> position: "aside"
+> size: "small"
 > ```
 >
 > The game is played on the small mill board with diagonals.

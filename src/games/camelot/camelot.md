@@ -183,10 +183,10 @@ Cam is a downsized version of Camelot released by Parker Brothers in 1949.
 
 > [!figure]
 >
+> ![](cam.svg)
+>
 > ```yaml
-> 
-    alt=""
-    src="cam.svg" noborder=true 
+> noborder: true
 > ```
 >
 > The initial setup for Cam.
@@ -202,8 +202,10 @@ There are no draws or stalemates in Cam.
 
 > [!figure]
 >
+> ![](camelot.svg)
+>
 > ```yaml
-> src="camelot.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > The initial setup for Camelot.
@@ -233,8 +235,10 @@ entering a castle:
 
 > [!figure]
 >
+> ![](chivalry.svg)
+>
 > ```yaml
-> src="chivalry.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > The initial setup for Chivalry.
@@ -255,8 +259,10 @@ Grand Cam was designed by Paul Bramwell Smith in 2005.
 
 > [!figure]
 >
+> ![](grand-cam.svg)
+>
 > ```yaml
-> src="grand-cam.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > The initial setup for Grand Cam.
@@ -281,8 +287,10 @@ Grand Camelot was released by Parker Brothers in 1932.
 
 > [!figure]
 >
+> ![](grand-camelot.svg)
+>
 > ```yaml
->  src="grand-camelot.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > The initial setup for Grand Camelot.
@@ -307,8 +315,10 @@ each player may make two castle-moves per game.
 
 > [!figure]
 >
+> ![](four-handed-chivalry.svg)
+>
 > ```yaml
-> src="four-handed-chivalry.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > The initial setup for Four-Handed Chivalry.

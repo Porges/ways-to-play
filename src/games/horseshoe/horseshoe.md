@@ -15,8 +15,11 @@ This is a simple blocking game for children that seems to originate from China, 
 
 > [!figure]
 >
+> ![](../../maps/Horseshoe.svg)
+>
 > ```yaml
-> src="../../maps/Horseshoe.svg" noborder=true alt="" position="aside" 
+> noborder: true
+> position: "aside"
 > ```
 >
 > Countries mentioned in this article.
@@ -47,16 +50,22 @@ In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span 
 
 > [!figure]
 >
+> > 
+> ![](Korean_board.svg)
+>
 > ```yaml
-> src="Korean_board.svg" noborder=true alt=""
+> noborder: true
 > ```
 >
 > A Korean board, after @KoreanGames [p. 100].
 
 > [!figure]
 >
+> > 
+> ![](Thai_board_2.svg)
+>
 > ```yaml
-> src="Thai_board_2.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > A Thai board, as found [online](https://web.archive.org/web/20220809031306/https://shopee.co.th/%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-Dead-End-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87-wooden-family-board-games-i.92760471.11313361650).
@@ -64,8 +73,11 @@ In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span 
 
 > [!figure]
 >
+> > 
+> ![](Thai_board.svg)
+>
 > ```yaml
-> src="Thai_board.svg" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > A Thai board, after @KoreanGames [p. 100].
@@ -89,8 +101,12 @@ This theme is also known in the Mongolian version of the game, where the circula
 
 > [!figure]
 >
+> > 
+> ![](pong-hau-ki.svg)
+>
 > ```yaml
-> src="pong-hau-ki.svg" alt="" size="small" noborder=true 
+> size: "small"
+> noborder: true
 > ```
 >
 > The initial placement of the pieces.

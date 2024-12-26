@@ -7,8 +7,13 @@ date modified: 2024-12-22
 
 > [!figure]
 >
+> ![A man standing upon a rock, straddling a glob, with a churning sea around him. He is looking at the sun.](motto.jpg)
+>
 > ```yaml
-> position="aside" src="motto.jpg" alt="A man standing upon a rock, straddling a glob, with a churning sea around him. He is looking at the sun." license="cc0" originalUrl="https://artmuseum.princeton.edu/collections/objects/46096" orgName="Princeton University Art Museum"
+> position: "aside"
+> license: "cc0"
+> originalUrl: "https://artmuseum.princeton.edu/collections/objects/46096"
+> orgName: "Princeton University Art Museum"
 > ```
 >
 > Frontispiece to Taylor’s <cite>Motto</cite> (1621).
