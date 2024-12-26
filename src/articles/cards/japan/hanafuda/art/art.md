@@ -45,15 +45,19 @@ colours — the Left in warm colours, orange or purple, the Right in cool,
 yellow or blue — and their accompaniments could also be chosen to match the
 team colours.[@GoldenShells p. 90]
 
-<Image
-    src="suhama-left.jpg;suhama.jpg"
-    alt=";"
-    size="wide"
-    license="cc0",
-    orgName="Waseda University", 
-    originalUrl="https://www.wul.waseda.ac.jp/kotenseki/html/ri05/ri05_06661/index.html" %}
-A depiction of the full-moon competition including two <span lang="ja-Latn">suhama</span>, from an edition of unknown date.
-</Image>
+> [!figure]
+>
+> ![](suhama-left.jpg)
+> ![](suhama.jpg)
+>
+> ```yaml
+> size: "wide"
+> license: "cc0"
+> orgName: "Waseda University"
+> originalUrl: "https://www.wul.waseda.ac.jp/kotenseki/html/ri05/ri05_06661/index.html"
+> ```
+>
+> A depiction of the full-moon competition including two <span lang="ja-Latn">suhama</span>, from an edition of unknown date.
 
 In 966, Emperor Murakami held a <span lang="ja-Latn">mono-awase</span>
 competition on the 15th of the 8th month (the most important full moon of the
@@ -146,17 +150,18 @@ intimate competitions were held with poetry as their focus. This doesn’t mean
 that the proceedings were any less elaborate; the largest competition of this
 type involved nine poets competing over 1500 rounds.
 
-<Image
-    src='DP135571.jpg'
-    size="wide"
-    alt="Ladies in elaborate traditional Japanese dress sitting in a circle around shells that are arranged face-down on the floor."
-    license='cc0',
-    orgName="Metropolitan Museum of Art", 
-    originalUrl='https://www.metmuseum.org/art/collection/search/37303' %}
-Ladies playing a game of <span lang="ja-Latn">kai-ōi</span>.<br />From
-<cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790),
-by <span class="noun" lang="ja-Latn">Kitagawa Utamaro</span> (<span lang="ja">喜多川歌麿</span>).
-</Image>
+> [!figure]
+>
+> ![Ladies in elaborate traditional Japanese dress sitting in a circle around shells that are arranged face-down on the floor.](DP135571.jpg)
+>
+> ```yaml
+> size: "wide"
+> license: 'cc0'
+> orgName: "Metropolitan Museum of Art"
+> originalUrl: 'https://www.metmuseum.org/art/collection/search/37303'
+> ```
+>
+> Ladies playing a game of <span lang="ja-Latn">kai-ōi</span>.<br />From <cite>Gifts from the Ebb Tide</cite> <cite lang="ja">潮干のつと</cite> (1790), by <span class="noun" lang="ja-Latn">Kitagawa Utamaro</span> (<span lang="ja">喜多川歌麿</span>).
 
 
 ### <span lang="ja-Latn">Kai-awase</span> to <span lang="ja-Latn">Kai-ōi</span>
@@ -183,34 +188,34 @@ well,[@KaiOi][@JapaneseGamesOfMemory p. 270] and today <span
 lang="ja-Latn">kai-awase</span> is the term most commonly used for replica game
 sets.
 
-<Image 
-    size="small"
-    position="left"
-    src="knot_ground.jpg;knot_out.jpg"
-    alt="An elaborate knot with a single main bow.;An elaborate knot with two main bows."
-    license="cc0",
-    orgName="Waseda University",
-    originalUrl="https://www.wul.waseda.ac.jp/kotenseki/html/ni15/ni15_00715/index.html" %}
-These diagrams indicate knots that could be tied on the decorative cord 
-(<span lang="ja">組紐</span> <span lang="ja-Latn">kumihimo</span>) which is used to secure the <span
-lang="ja-Latn">kai-oke</span>. Two different knots are used to distinguish the “ground” shells (left) from the
-“coming out” shells (right). From <cite>Brocade of Shellfish</cite> <cite
-lang="ja">貝尽浦の錦</cite> (1751) by <span class="noun" lang="ja-Latn">Ōeda Ryūhō</span>
-(<span lang="ja">大枝流芳</span>).
-</Image>
+> [!figure]
+>
+> ![An elaborate knot with a single main bow.](knot_ground.jpg)
+> ![An elaborate knot with two main bows.](knot_out.jpg)
+>
+> ```yaml
+> size: "small"
+> position: "left"
+> license: "cc0"
+> orgName: "Waseda University"
+> originalUrl: "https://www.wul.waseda.ac.jp/kotenseki/html/ni15/ni15_00715/index.html"
+> ```
+>
+> These diagrams indicate knots that could be tied on the decorative cord (<span lang="ja">組紐</span> <span lang="ja-Latn">kumihimo</span>) which is used to secure the <span lang="ja-Latn">kai-oke</span>. Two different knots are used to distinguish the “ground” shells (left) from the “coming out” shells (right). From <cite>Brocade of Shellfish</cite> <cite lang="ja">貝尽浦の錦</cite> (1751) by <span class="noun" lang="ja-Latn">Ōeda Ryūhō</span> (<span lang="ja">大枝流芳</span>).
 
-<Image
-    alt="A grandmother, a mother, two young women, and a child sitting in a circle around shells on a tatami mat."
-    position="aside"
-    src='KaiAwaseGame.jpg'
-    license='cc0',
-    orgName="跡見学園女子大学",
-    orgLang="ja"
-    originalUrl='https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/' %}
-Four generations of women playing <span lang="ja-Latn" >kai-ōi</span>.<br />From
-<cite lang="ja">女有職莩文庫</cite> (1866), by <span class="noun" lang="ja-Latn">Okada
-Tamayama</span> (<span lang="ja">岡田玉山</span>).
-</Image>
+> [!figure]
+>
+> ![A grandmother, a mother, two young women, and a child sitting in a circle around shells on a tatami mat.](KaiAwaseGame.jpg)
+>
+> ```yaml
+> position: "aside"
+> license: 'cc0'
+> orgName: "跡見学園女子大学"
+> orgLang: "ja"
+> originalUrl: 'https://trc-adeac.trc.co.jp/Html/ImageView/1171055100/1171055100200010/0010458776-1/'
+> ```
+>
+> Four generations of women playing <span lang="ja-Latn" >kai-ōi</span>.<br />From <cite lang="ja">女有職莩文庫</cite> (1866), by <span class="noun" lang="ja-Latn">Okada Tamayama</span> (<span lang="ja">岡田玉山</span>).
 
 Unlike <span lang="ja-Latn">kai-awase</span>, the new game was exclusively
 played with clam (<span lang="ja">蛤</span>) shells, and it offered definitive
@@ -261,17 +266,18 @@ Records of the imperial household indicate that the shell-matching game was
 played formally nearly five hundred times over the period 1481–1589, sometimes
 as many as nine times a month.[@JapaneseGamesOfMemory p. 257]
 
-<Image
-    size="extra-wide"
-    src="SC219954.jpg"
-    alt="A group of four people playing a game of kai-oi, one of them a man"
-    orgName='Boston Museum of Fine Arts',
-    license='cc0',
-    originalUrl='https://collections.mfa.org/objects/27189' %}
-This early depiction from the 16th-century scroll <cite>Tale of Brief
-Slumbers</cite> <cite lang="ja">うたたね草紙</cite> shows a mixed group playing
-<span lang="ja-Latn">kai-ōi</span> (at left).
-</Image>
+> [!figure]
+>
+> ![A group of four people playing a game of kai-oi, one of them a man](SC219954.jpg)
+>
+> ```yaml
+> size: "extra-wide"
+> orgName: 'Boston Museum of Fine Arts'
+> license: 'cc0'
+> originalUrl: 'https://collections.mfa.org/objects/27189'
+> ```
+>
+> This early depiction from the 16th-century scroll <cite>Tale of Brief Slumbers</cite> <cite lang="ja">うたたね草紙</cite> shows a mixed group playing <span lang="ja-Latn">kai-ōi</span> (at left).
 
 When played with many shells, the game must have been difficult, since the clues
 that point to a match are solely the subtle shades and contours of the shell,
@@ -300,14 +306,18 @@ poem in each, so that the matching pair could be read as a complete poem; these
 types of the game would eventually evolve into the <span
 lang="ja-Latn">uta-garuta</span> (<span lang="ja">歌骨牌</span>) poetry cards.
 
-<Image
-        src="2008_0079_0000_01_P.jpg;2008_0079_0000_02_P.jpg"
-        alt='Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.;Eight shells whose interiors have been painted with garden scenes and ornamented with gold.'
-        license='cc0', orgName="Portland Art Museum", originalUrl='http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101' %}
-An 18th-century <span lang="ja-Latn">kai-ōi</span> set. The paired boxes are the
-<span lang="ja-Latn">kai-oke</span>, and half of each shell pair was stored in
-each bucket. The shells are decorated with painted scenes.
-</Image>
+> [!figure]
+>
+> ![Two large octagonal wooden containers painted with black lacquer and gold ornamental designs of wisteria.](2008_0079_0000_01_P.jpg)
+> ![Eight shells whose interiors have been painted with garden scenes and ornamented with gold.](2008_0079_0000_02_P.jpg)
+>
+> ```yaml
+> license: 'cc0'
+> orgName: "Portland Art Museum"
+> originalUrl: 'http://portlandartmuseum.us/mwebcgi/mweb.exe?request=record;id=55705;type=101'
+> ```
+>
+> An 18th-century <span lang="ja-Latn">kai-ōi</span> set. The paired boxes are the <span lang="ja-Latn">kai-oke</span>, and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
 
 During the 17th century, a personal <span lang="ja-Latn">kai-ōi</span> set
 became a standard component of a noble bride’s wedding gifts, as the joining of
@@ -364,22 +374,21 @@ as the deck pictured below) show a very regular configuration of cards for each
 flower, which evolved during the 18th and 19th centuries into the unusual
 configuration of the <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
 
-<Image
-    noborder=true
-    size="wide"
-    src="hanafuda-hanaawase02.jpg"
-    alt=""
-    copyrightYear=2019,
-    orgName="Japan Playing Card Museum",
-    orgAbbr="JPCM"
-    originalUrl="http://jpcm.sub.jp/home/image/hanafuda-hanaawase02.pdf",
-    license="with-permission" %}
-Some of the cards from a <span lang="ja-Latn">hana-awase</span> deck produced
-circa 1704 (at least before 1710). This type of deck originally contained 400
-cards but many are missing, and the extant set pictured here comprises cards
-from several different packs. Note the chrysanthemum with <span
-lang="ja-Latn">sake</span> cup in the third card on the top row.
-</Image>
+> [!figure]
+>
+> ![](hanafuda-hanaawase02.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "wide"
+> copyrightYear: 2019
+> orgName: "Japan Playing Card Museum"
+> orgAbbr: "JPCM"
+> originalUrl: "http://jpcm.sub.jp/home/image/hanafuda-hanaawase02.pdf"
+> license: "with-permission"
+> ```
+>
+> Some of the cards from a <span lang="ja-Latn">hana-awase</span> deck produced circa 1704 (at least before 1710). This type of deck originally contained 400 cards but many are missing, and the extant set pictured here comprises cards from several different packs. Note the chrysanthemum with <span lang="ja-Latn">sake</span> cup in the third card on the top row.
 
 While decks such as the above are obviously for a different style of game, most
 of the imagery that would become part of the <span
@@ -434,21 +443,19 @@ file="pronunciation_ja_上方屋.mp3" %}” (<span lang="ja">上方屋</span>, �
 lang="ja-Latn">Kyōto</span> region store’).[@EbashiHanafuda pp.
 189–192][@OpeningKamigataya]
 
-<Image
-    src="Kamigataya-Sugoroku.jpg"
-    alt="A Japanese sugoroku board game with images spiralling in counter-clockwise from the outside to the centre, showing scenes of Maeda applying to the police to open his store, along with products such as cards and dice."
-    size="extra-wide"
-    orgName="Japan Playing Card Museum",
-    orgAbbr="JPCM",
-    originalUrl="https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/",
-    license="with-permission" %}
-Ever the promotor, at the end of 1887, <span class="noun" lang="ja-Latn">Maeda</span>
-published this <span lang="ja-Latn">sugoroku</span> game based on the story of
-his struggle to open a store selling playing cards. The track spirals in a
-counter-clockwise direction to the centre of the board, where the final
-square (marked <span lang="ja">上り</span>) shows Japanese and Western cards and
-dice celebrating together.
-</Image>
+> [!figure]
+>
+> ![A Japanese sugoroku board game with images spiralling in counter-clockwise from the outside to the centre, showing scenes of Maeda applying to the police to open his store, along with products such as cards and dice.](Kamigataya-Sugoroku.jpg)
+>
+> ```yaml
+> size: "extra-wide"
+> orgName: "Japan Playing Card Museum"
+> orgAbbr: "JPCM"
+> originalUrl: "https://japanplayingcardmuseum.com/111-1-1challenge-openlyhanacartasales-kamigataya/"
+> license: "with-permission"
+> ```
+>
+> Ever the promotor, at the end of 1887, <span class="noun" lang="ja-Latn">Maeda</span> published this <span lang="ja-Latn">sugoroku</span> game based on the story of his struggle to open a store selling playing cards. The track spirals in a counter-clockwise direction to the centre of the board, where the final square (marked <span lang="ja">上り</span>) shows Japanese and Western cards and dice celebrating together.
 
 <span class="noun" lang="ja-Latn">Kamigataya</span> was thus the first store to openly sell
 <span class="noun" lang="ja-Latn">Hanafuda</span>. A month later, <span class="noun"
@@ -462,21 +469,21 @@ lang="ja-Latn">Hanafuda</span>-themed play in March 1886, which was held at the
 <span class="noun" lang="ja-Latn">Chitose</span> theatre (now called the [<span class="noun"
 lang="ja-Latn">Meiji-za</span>](https://en.wikipedia.org/wiki/Meiji-za)).
 
-<Image cram=true src='Play-Left.jpg;Play-Right.jpg' alt=";" 
-    orgName="Art Research Center, Ritsumeikan University"
-    justify="centered"
-    originalUrl="https://jpsearch.go.jp/item/arc_nishikie-M648_011aNr010a",
-    license="cc-by-nc-sa", licenseVersion="4.0" %} 
-Advertisement for <span class="noun" lang="ja-Latn">Maeda</span>’s play entitled <cite
-lang="ja">花合四季盃</cite> (“Flower-matching four seasons sake cup”). The
-background shows an early form of <span class="noun" lang="ja-Latn">Hanafuda</span> deck. On
-left is [Onoe Kikugorō V](https://en.wikipedia.org/wiki/Onoe_Kikugor%C5%8D_V)
-(<span lang="ja">五代目尾上菊五郎</span>), on right [<span class="noun"
-lang="ja-Latn">Ichikawa Kuzō
-III</span>](https://ja.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%9C%98%E8%94%B5_(7%E4%BB%A3%E7%9B%AE))
-(<span lang="ja">三代目市川九蔵</span>) as <span class="noun" lang="ja-Latn">Ono no
-Michikaze</span>.
-</Image>
+> [!figure]
+>
+> ![](Play-Left.jpg)
+> ![](Play-Right.jpg)
+>
+> ```yaml
+> cram: true
+> orgName: "Art Research Center, Ritsumeikan University"
+> justify: "centered"
+> originalUrl: "https://jpsearch.go.jp/item/arc_nishikie-M648_011aNr010a"
+> license: "cc-by-nc-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> Advertisement for <span class="noun" lang="ja-Latn">Maeda</span>’s play entitled <cite lang="ja">花合四季盃</cite> (“Flower-matching four seasons sake cup”). The background shows an early form of <span class="noun" lang="ja-Latn">Hanafuda</span> deck. On left is [Onoe Kikugorō V](https://en.wikipedia.org/wiki/Onoe_Kikugor%C5%8D_V) (<span lang="ja">五代目尾上菊五郎</span>), on right [<span class="noun" lang="ja-Latn">Ichikawa Kuzō III</span>](https://ja.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%9C%98%E8%94%B5_(7%E4%BB%A3%E7%9B%AE)) (<span lang="ja">三代目市川九蔵</span>) as <span class="noun" lang="ja-Latn">Ono no Michikaze</span>.
 
 In addition to the retail stores, a specialized wholesale store was opened in
 the {% pronounce lang="ja-Latn" noun=true word="Ningyōchō" pronouncer="keto2204"
@@ -707,19 +714,26 @@ Artistically, the cards derive from the <span lang="ja-Latn">kachō-ga</span>
 created in this style often have poems written upon them, and these appear on
 some cards of the <span lang="ja-Latn">Echigo-bana</span> pattern.
 
-<Image
-    src="SC232139.jpg;SC232140.jpg;SC232143.jpg;SC232156.jpg;SC232159.jpg;SC232172.jpg;SC232177.jpg;SC232155.jpg"
-    alt=";;;;;;;"
-    noborder=true
-    perRow=4
-    license='cc0',
-    orgName='Boston Museum of Fine Arts',
-    originalUrl="https://www.mfa.org/collections/object/title-page-from-the-series-forty-eight-hawks-drawn-from-life-ikiutsushi-shij%C3%BBhachi-taka-209778" %}
-Art in the <span lang="ja-Latn">kachō-ga</span> style: a selection of prints
-from the series <cite>Forty-Eight Hawks Drawn From Life</cite><br /> <cite
-lang="ja">生うつし四十八鷹</cite> (1859), by <span class="noun" lang="ja-Latn">Nakayama
-Sūgakudō</span>.
-</Image>
+> [!figure]
+>
+> ![](SC232139.jpg)
+> ![](SC232140.jpg)
+> ![](SC232143.jpg)
+> ![](SC232156.jpg)
+> ![](SC232159.jpg)
+> ![](SC232172.jpg)
+> ![](SC232177.jpg)
+> ![](SC232155.jpg)
+>
+> ```yaml
+> noborder: true
+> perRow: 4
+> license: 'cc0'
+> orgName: 'Boston Museum of Fine Arts'
+> originalUrl: "https://www.mfa.org/collections/object/title-page-from-the-series-forty-eight-hawks-drawn-from-life-ikiutsushi-shij%C3%BBhachi-taka-209778"
+> ```
+>
+> Art in the <span lang="ja-Latn">kachō-ga</span> style: a selection of prints from the series <cite>Forty-Eight Hawks Drawn From Life</cite><br /> <cite lang="ja">生うつし四十八鷹</cite> (1859), by <span class="noun" lang="ja-Latn">Nakayama Sūgakudō</span>.
 
 ## Hanafuda Patterns
 
@@ -963,31 +977,37 @@ ordering (with differences in **bold**) is:
 
 ### <span lang="ja">1月</span>
 
-<Image
-    src="../Hanafuda_1-1.svg;../Hanafuda_1-2.svg;../Hanafuda_1-3.svg;../Hanafuda_1-4.svg"
-    alt="A card with a red moon, a crane, and pine trees.;A card with pine trees and a red tanzaku with writing.;A card with pine trees.;A card with pine trees."
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %}
-The cards for January feature pine trees. There is one bright card, one <span
-lang="ja-Latn">tanzaku</span> card (with text), and two <span
-lang="ja-Latn">kasu</span> cards.
-</Image>
+> [!figure]
+>
+> ![A card with a red moon, a crane, and pine trees.](../Hanafuda_1-1.svg)
+> ![A card with pine trees and a red tanzaku with writing.](../Hanafuda_1-2.svg)
+> ![A card with pine trees.](../Hanafuda_1-3.svg)
+> ![A card with pine trees.](../Hanafuda_1-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for January feature pine trees. There is one bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards.
 
-<Image
-    position="aside"
-    alt="A kimono featuring pine trees and cranes on the back of a large turtle."
-    src="HoraiKimono.jpg"
-    originalUrl="https://collections.mfa.org/objects/30805/kimono-uchikake",
-    orgAbbr="MFA", orgName="Museum of Fine Arts Boston"
-    license='cc0' %}
-An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <span class="noun"
-lang="ja-Latn">Hōrai</span> pattern: plum and pine trees with cranes, atop a
-large turtle.
-</Image>
+> [!figure]
+>
+> ![A kimono featuring pine trees and cranes on the back of a large turtle.](HoraiKimono.jpg)
+>
+> ```yaml
+> position: "aside"
+> originalUrl: "https://collections.mfa.org/objects/30805/kimono-uchikake"
+> orgAbbr: "MFA"
+> orgName: "Museum of Fine Arts Boston"
+> license: 'cc0'
+> ```
+>
+> An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <span class="noun" lang="ja-Latn">Hōrai</span> pattern: plum and pine trees with cranes, atop a large turtle.
 
 The first month is represented by pine trees (<span lang="ja">松</span> {%
 pronounce pronouncer="_ai_" word="matsu" lang="ja-Latn" file="pronunciation_ja_松.mp3"
@@ -998,16 +1018,19 @@ lang="ja-Latn">Hōrai</span>](https://en.wikipedia.org/wiki/Mount_Penglai),
 a dwelling-place of immortals, is depicted as wooded with pine trees and populated
 by cranes.
 
-<Image
-    src='shutterstock_1043519431.jpg'
-    alt="Two cranes walking side-by-side through the snow. They have white bodies with black extremities and the top of their head is red."
-    identifier=1043519431,
-    license="stock-image",
-    orgName="Shutterstock.com",
-    author="Ondrej Prosicky",
-    originalUrl="https://www.shutterstock.com/image-photo/snowy-meadow-dancing-cranes-hokkaido-japan-1043519431" %}
-The [Japanese crane](https://en.wikipedia.org/wiki/Red-crowned_crane) has a red crest.
-</Image>
+> [!figure]
+>
+> ![Two cranes walking side-by-side through the snow. They have white bodies with black extremities and the top of their head is red.](shutterstock_1043519431.jpg)
+>
+> ```yaml
+> identifier: 1043519431
+> license: "stock-image"
+> orgName: "Shutterstock.com"
+> author: "Ondrej Prosicky"
+> originalUrl: "https://www.shutterstock.com/image-photo/snowy-meadow-dancing-cranes-hokkaido-japan-1043519431"
+> ```
+>
+> The [Japanese crane](https://en.wikipedia.org/wiki/Red-crowned_crane) has a red crest.
 
 The pine is associated with winter and snow, so these cards show the lingering
 influence of winter during the new year. The first week of the new year is known
@@ -1017,21 +1040,21 @@ Rat of the new year (<span lang="ja">子の日の宴</span> <span
 lang="ja-Latn">nenohi no en</span>) involved uprooting small pine
 trees.[@WorldOfTheShiningPrince p. 168]
 
-<Image
-    noborder=true,
-    position="left"
-    size="small"
-    src="pine_urasu.jpg"
-    alt="A card with a pine tree and a red ribbon"
-    orgName="Japan Playing Card Museum",
-    orgAbbr="JPCM",
-    originalUrl="https://japanplayingcardmuseum.com/image/hachihachi-hanafuda16.pdf",
-    license="with-permission" %}
-An old pine <span lang="ja-Latn">tanzaku</span> card with inscription reading
-<span lang="ja-Latn">urasu</span> (<span lang="ja">宇良す</span>), the name of a
-<span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">yaku</span>.
-Produced by <span lang="ja">現〇商会</span>.
-</Image>
+> [!figure]
+>
+> ![A card with a pine tree and a red ribbon](pine_urasu.jpg)
+>
+> ```yaml
+> noborder: true
+> position: "left"
+> size: "small"
+> orgName: "Japan Playing Card Museum"
+> orgAbbr: "JPCM"
+> originalUrl: "https://japanplayingcardmuseum.com/image/hachihachi-hanafuda16.pdf"
+> license: "with-permission"
+> ```
+>
+> An old pine <span lang="ja-Latn">tanzaku</span> card with inscription reading <span lang="ja-Latn">urasu</span> (<span lang="ja">宇良す</span>), the name of a <span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">yaku</span>. Produced by <span lang="ja">現〇商会</span>.
 
 The text on the <span lang="ja-Latn">tanzaku</span> reads <span
 lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.{%fn%}The
@@ -1117,32 +1140,39 @@ this poem, announcing that spring is here:
 
 ### <span lang="ja">2月</span>
 
-<Image
-    position="aside"
-    alt="A small dull-coloured bird sitting on a branch."
-    src="bush_warbler.jpg"
-    authorFamily="Gropp", authorGiven="Eric"
-    originalUrl="https://www.flickr.com/photos/egropp/16717864053",
-    license="cc-by",
-    copyrightYear=2015,
-    licenseVersion="2.0" %}
-In reality, the bush warbler is not a brightly-coloured bird.
-</Image>
+> [!figure]
+>
+> ![A small dull-coloured bird sitting on a branch.](bush_warbler.jpg)
+>
+> ```yaml
+> position: "aside"
+> authorFamily: "Gropp"
+> authorGiven: "Eric"
+> originalUrl: "https://www.flickr.com/photos/egropp/16717864053"
+> license: "cc-by"
+> copyrightYear: 2015
+> licenseVersion: "2.0"
+> ```
+>
+> In reality, the bush warbler is not a brightly-coloured bird.
 
-<Image
-    src="../Hanafuda_2-1.svg;../Hanafuda_2-2.svg;../Hanafuda_2-3.svg;../Hanafuda_2-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for February feature plum trees in blossom. There is one <span
-lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card
-(with text), and two <span lang="ja-Latn">kasu</span> cards. The text on the
-<span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_2-1.svg)
+> ![](../Hanafuda_2-2.svg)
+> ![](../Hanafuda_2-3.svg)
+> ![](../Hanafuda_2-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for February feature plum trees in blossom. There is one <span lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards. The text on the <span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
 
 The second month is represented by plum trees in blossom (<span lang="ja">梅</span> {% pronounce pronouncer="akitomo" word="ume" lang="ja-Latn"
 file="pronunciation_ja_梅.mp3" %}). The <span lang="ja-Latn">tane</span> has a
@@ -1213,41 +1243,52 @@ The nightingale’s<br />Song is clear<br />And the white plum blossom<br />Beco
 
 ### <span lang="ja">3月</span>
 
-<Image
-    src="../Hanafuda_3-1.svg;../Hanafuda_3-2.svg;../Hanafuda_3-3.svg;../Hanafuda_3-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for March show the famous cherry blossoms of Japan. There is one
-bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two
-<span lang="ja-Latn">kasu</span> cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_3-1.svg)
+> ![](../Hanafuda_3-2.svg)
+> ![](../Hanafuda_3-3.svg)
+> ![](../Hanafuda_3-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for March show the famous cherry blossoms of Japan. There is one bright card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards.
 
-<Image
-    position="left"
-    src='16944707362_9f2f1aa838_o.jpg'
-    alt="A picture of three women and a man consuming heated sake under a cherry tree in blossom, while surrounded by striped curtains."
-    license='cc0',
-    originalUrl="https://www.flickr.com/photos/library_of_congress/16944707362",
-    orgName="Library of Congress" %}
-<cite>Third Month: Blossom-Viewing in Askukayama</cite><cite lang="ja">三月飛鳥山花見</cite> by <span class="noun" lang="ja-Latn">Kitao Shigemasa</span> (<span lang="ja">北尾 重政</span>, 1739–1820).
-</Image>
+> [!figure]
+>
+> ![A picture of three women and a man consuming heated sake under a cherry tree in blossom, while surrounded by striped curtains.](16944707362_9f2f1aa838_o.jpg)
+>
+> ```yaml
+> position: "left"
+> license: 'cc0'
+> originalUrl: "https://www.flickr.com/photos/library_of_congress/16944707362"
+> orgName: "Library of Congress"
+> ```
+>
+> <cite>Third Month: Blossom-Viewing in Askukayama</cite><cite lang="ja">三月飛鳥山花見</cite> by <span class="noun" lang="ja-Latn">Kitao Shigemasa</span> (<span lang="ja">北尾 重政</span>, 1739–1820).
 
-<Image
-    src='Yoshino.jpg'
-    position="aside"
-    alt="A mountain covered in cherry blossom trees showing light pink blooms, amongst other dark green trees."
-    license='cc-by-nc-nd',
-    licenseVersion='4.0',
-    originalUrl='http://photozou.jp/photo/show/314766/35962820',
-    copyrightYear=2010,
-    author='ゆぼ', authorLang="ja" %}
-The <span class="noun" lang="ja-Latn">Yoshino</span> mountainside with cherry trees in bloom.
-</Image>
+> [!figure]
+>
+> ![A mountain covered in cherry blossom trees showing light pink blooms, amongst other dark green trees.](Yoshino.jpg)
+>
+> ```yaml
+> position: "aside"
+> license: 'cc-by-nc-nd'
+> licenseVersion: '4.0'
+> originalUrl: 'http://photozou.jp/photo/show/314766/35962820'
+> copyrightYear: 2010
+> author: 'ゆぼ'
+> authorLang: "ja"
+> ```
+>
+> The <span class="noun" lang="ja-Latn">Yoshino</span> mountainside with cherry trees in bloom.
 
 The third month is represented by cherry trees in bloom (<span lang="ja">桜</span> {%pronounce pronouncer="strawberrybrown" word="sakura" lang="ja-Latn"
 file='pronunciation_ja_桜.mp3' %}). Blossom-viewing (<span lang="ja">花見</span>
@@ -1283,75 +1324,83 @@ lang="ja-Latn">bugaku</span>](https://en.wikipedia.org/wiki/Bugaku) (<span
 lang="ja">舞楽</span>) scene, with a large drum decorated with flames (<span
 lang="ja">火焔太鼓</span> <span lang="ja-Latn">kaendaiko</span>).
 
-<div class="multi">
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> >
+> > ![](cherry_bugaku1.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > orgName: "Worshipful Company of the Makers of Playing Cards"
+> > orgAbbr: "WCMPC"
+> > originalUrl: "http://www.playingcardmakerscollection.co.uk/Cardhtml/W0329.html"
+> > license: "with-permission" 
+> > ```
+> >
+> > A <span lang="ja-Latn">bugaku</span> scene from a combination card produced by <span class="noun" lang="ja-Latn">Tenguya Tsutida</span>.
 > 
-    size="small"
-    src="cherry_bugaku1.jpg"
-    alt=""
-    orgName="Worshipful Company of the Makers of Playing Cards",
-    orgAbbr="WCMPC",
-    originalUrl="http://www.playingcardmakerscollection.co.uk/Cardhtml/W0329.html",
-    license="with-permission" 
-> ```
->
-> A <span lang="ja-Latn">bugaku</span> scene from a combination card produced by <span class="noun" lang="ja-Latn">Tenguya Tsutida</span>.
-
-<Image
-    size="small"
-    src="cherry_bugaku2.jpg"
-    alt=""
-    orgName="Japan Playing Card Museum",
-    orgAbbr="JPCM",
-    originalUrl="https://japanplayingcardmuseum.com/image/kaikinki-hanafuda19.pdf",
-    license="with-permission" %}
-A <span lang="ja-Latn">bugaku</span> scene from a non-standard card by an unknown manufacturer.
-</Image>
-<Image
-    size="small"
-    src="cherry_bugaku3.jpg"
-    alt=""
-    orgName="Japan Playing Card Museum",
-    orgAbbr="JPCM",
-    originalUrl="https://japanplayingcardmuseum.com/image/hanafuda-musashino-12.pdf",
-    license="with-permission" %}
-A <span lang="ja-Latn">bugaku</span> scene from a mid-<span
-lang="ja-Latn">Meiji</span> deck by <span lang="ja-Latn">Arakawa Fujibei</span>
-(<span lang="ja">荒川藤兵衛</span>). Another subtle detail are the [<span
-lang="ja-Latn">yukitsuri</span>](https://en.wikipedia.org/wiki/Yukitsuri) at top
-right.
-</Image>
-</div>
+> > [!figure]
+> >
+> > ![](cherry_bugaku2.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > orgName: "Japan Playing Card Museum"
+> > orgAbbr: "JPCM"
+> > originalUrl: "https://japanplayingcardmuseum.com/image/kaikinki-hanafuda19.pdf"
+> > license: "with-permission"
+> > ```
+> >
+> > A <span lang="ja-Latn">bugaku</span> scene from a non-standard card by an unknown manufacturer.
+> 
+> > [!figure]
+> >
+> > ![](cherry_bugaku3.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > orgName: "Japan Playing Card Museum"
+> > orgAbbr: "JPCM"
+> > originalUrl: "https://japanplayingcardmuseum.com/image/hanafuda-musashino-12.pdf"
+> > license: "with-permission"
+> > ```
+> >
+> > A <span lang="ja-Latn">bugaku</span> scene from a mid-<span lang="ja-Latn">Meiji</span> deck by <span lang="ja-Latn">Arakawa Fujibei</span> (<span lang="ja">荒川藤兵衛</span>). Another subtle detail are the [<span lang="ja-Latn">yukitsuri</span>](https://en.wikipedia.org/wiki/Yukitsuri) at top right.
 
 ### <span lang="ja">4月</span>
 
-<Image
-    src="../Hanafuda_4-1.svg;../Hanafuda_4-2.svg;../Hanafuda_4-3.svg;../Hanafuda_4-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for April show the drooping branches of wisteria. There is one <span
-lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span>
-card, and two <span lang="ja-Latn">kasu</span> cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_4-1.svg)
+> ![](../Hanafuda_4-2.svg)
+> ![](../Hanafuda_4-3.svg)
+> ![](../Hanafuda_4-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for April show the drooping branches of wisteria. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
-<Image
-    position="aside"
-    alt="Wisteria in bloom, with long strings of flowers dangling."
-    src="wisteria_bloom.jpg"
-    originalUrl="https://www.flickr.com/photos/ariari/3490155124",
-    author="ariari",
-    copyrightYear=2009,
-    license="cc-by-nc-nd",
-    licenseVersion="2.0" %}
-    Wisteria in bloom.
-</Image>
+> [!figure]
+>
+> ![Wisteria in bloom, with long strings of flowers dangling.](wisteria_bloom.jpg)
+>
+> ```yaml
+> position: "aside"
+> originalUrl: "https://www.flickr.com/photos/ariari/3490155124"
+> author: "ariari"
+> copyrightYear: 2009
+> license: "cc-by-nc-nd"
+> licenseVersion: "2.0"
+> ```
+>
+> Wisteria in bloom.
 
 The fourth month is represented by wisteria (<span lang="ja">藤</span> {% pronounce 
 pronouncer="kaoring" word="fuji" lang="ja-Latn" file='pronunciation_ja_藤.mp3' %}).
@@ -1417,19 +1466,23 @@ inverted.
 
 ### <span lang="ja">5月</span>
 
-<Image
-    src="../Hanafuda_5-1.svg;../Hanafuda_5-2.svg;../Hanafuda_5-3.svg;../Hanafuda_5-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for May depict iris flowers. There is one <span
-lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span>
-card, and two <span lang="ja-Latn">kasu</span> cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_5-1.svg)
+> ![](../Hanafuda_5-2.svg)
+> ![](../Hanafuda_5-3.svg)
+> ![](../Hanafuda_5-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for May depict iris flowers. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
 The fifth month is represented by iris (<span lang="ja">菖蒲</span> {% pronounce
 pronouncer="akitomo" word="ayame" lang="ja-Latn" file="pronunciation_ja_菖蒲.mp3" %});
@@ -1494,20 +1547,23 @@ this scene, the iris and the planked bridge have a long association in Japan.
 
 ### <span lang="ja">6月</span>
 
-<Image
-    src="../Hanafuda_6-1.svg;../Hanafuda_6-2.svg;../Hanafuda_6-3.svg;../Hanafuda_6-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for June show peony flowers. There is one <span
-lang="ja-Latn">tane</span> card, one blue/purple <span
-lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span>
-cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_6-1.svg)
+> ![](../Hanafuda_6-2.svg)
+> ![](../Hanafuda_6-3.svg)
+> ![](../Hanafuda_6-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for June show peony flowers. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
 The sixth month is represented by the tree peony (<span lang="ja">牡丹</span>
 {%pronounce pronouncer="ryomasakamoto" word="botan" lang="ja-Latn"
@@ -1520,43 +1576,52 @@ which do exist usually mention its striking colour, size, or Chinese origins.
 
 ### <span lang="ja">7月</span>
 
-<Image
-    position="aside"
-    src="SC138896.jpg"
-    orgName="Boston Museum of Fine Arts",
-    orgAbbr="MFA"
-    originalUrl="https://collections.mfa.org/objects/234703",
-    license="cc0" 
-    alt="A boar rampant under a spray of bush clover blossoms." %}
-This print by <span class="noun" lang="ja-Latn">Hiroshige</span> featuring a boar and bush
-clover shows a remarkably similar form to that of the boar card.
-</Image>
+> [!figure]
+>
+> ![A boar rampant under a spray of bush clover blossoms.](SC138896.jpg)
+>
+> ```yaml
+> position: "aside"
+> orgName: "Boston Museum of Fine Arts"
+> orgAbbr: "MFA"
+> originalUrl: "https://collections.mfa.org/objects/234703"
+> license: "cc0"
+> ```
+>
+> This print by <span class="noun" lang="ja-Latn">Hiroshige</span> featuring a boar and bush clover shows a remarkably similar form to that of the boar card.
 
-<Image
-    src="../Hanafuda_7-1.svg;../Hanafuda_7-2.svg;../Hanafuda_7-3.svg;../Hanafuda_7-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for July show bush clover. There is one <span
-lang="ja-Latn">tanzaku</span> card, one red <span lang="ja-Latn">tanzaku</span>
-card, and two <span lang="ja-Latn">kasu</span> cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_7-1.svg)
+> ![](../Hanafuda_7-2.svg)
+> ![](../Hanafuda_7-3.svg)
+> ![](../Hanafuda_7-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for July show bush clover. There is one <span lang="ja-Latn">tanzaku</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
-<Image
-    position="aside"
-    alt="Bush clover blooming, with small pink flowers."
-    src="hagi_bloom.jpg"
-    originalUrl="https://www.flickr.com/photos/yumem/50224773876",
-    author="Atsuhiko Takagi",
-    copyrightYear=2020,
-    license="cc-by-nc-nd",
-    licenseVersion="2.0" %}
-Bush clover in bloom.
-</Image>
+> [!figure]
+>
+> ![Bush clover blooming, with small pink flowers.](hagi_bloom.jpg)
+>
+> ```yaml
+> position: "aside"
+> originalUrl: "https://www.flickr.com/photos/yumem/50224773876"
+> author: "Atsuhiko Takagi"
+> copyrightYear: 2020
+> license: "cc-by-nc-nd"
+> licenseVersion: "2.0"
+> ```
+>
+> Bush clover in bloom.
 
 {%aside%}
 One common species of bush clover in Japan is [<cite>Lespedeza
@@ -1625,31 +1690,38 @@ important as food sources for commoners.
 
 ### <span lang="ja">8月</span>
 
-<Image
-    src="../Hanafuda_8-1.svg;../Hanafuda_8-2.svg;../Hanafuda_8-3.svg;../Hanafuda_8-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for August show waving fields of miscanthus, also known as
-silvergrass. There is one bright card, one <span lang="ja-Latn">tane</span>
-card, and two <span lang="ja-Latn">kasu</span> cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_8-1.svg)
+> ![](../Hanafuda_8-2.svg)
+> ![](../Hanafuda_8-3.svg)
+> ![](../Hanafuda_8-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for August show waving fields of miscanthus, also known as silvergrass. There is one bright card, one <span lang="ja-Latn">tane</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
-<Image
-    position="aside"
-    alt="Miscanthus brushes in the sun."
-    src="miscanthus.jpg"
-    originalUrl="https://www.flickr.com/photos/mana_wu/4161937912",
-    author="mana_wu",
-    copyrightYear=2009,
-    license="cc-by-nc-nd",
-    licenseVersion="2.0" %}
-Miscanthus plumes.
-</Image>
+> [!figure]
+>
+> ![Miscanthus brushes in the sun.](miscanthus.jpg)
+>
+> ```yaml
+> position: "aside"
+> originalUrl: "https://www.flickr.com/photos/mana_wu/4161937912"
+> author: "mana_wu"
+> copyrightYear: 2009
+> license: "cc-by-nc-nd"
+> licenseVersion: "2.0"
+> ```
+>
+> Miscanthus plumes.
 
 The eighth month is represented by miscanthus or silvergrass (<span lang="ja">芒/薄</span> {% pronounce pronouncer="kaoring" word="susuki" lang="ja-Latn"
 file="pronunciation_ja_スズキ.mp3" %}). It can also be called <span
@@ -1741,35 +1813,38 @@ View of the moon: <span class="noun" lang="ja-Latn">Musashino</span> plain<br />
 
 </div>
 
-<Image 
-    size="extra-wide"
-    src="SC148933.jpg"
-    alt="Three horsemen crossing a grassy plain at night, while geese fly past the moon."
-    license='cc0',
-    orgName='Boston Museum of Fine Arts',
-    originalUrl="https://www.mfa.org/collections/object/musashi-plain-musashino-from-the-series-famous-places-in-the-provinces-shokoku-meisho-233023" %}
-<cite>Famous places in the provinces: <span class="noun" lang="ja-Latn">Musashi</span>
-Plain</cite><br /><cite lang="ja">諸国名所　武蔵野</cite><br />A woodblock print
-by <span class="noun" lang="ja-Latn">Totoya Hokkei</span> (<span lang="ja">魚屋 北渓</span>,
-1780–1850)
-</Image>
+> [!figure]
+>
+> ![Three horsemen crossing a grassy plain at night, while geese fly past the moon.](SC148933.jpg)
+>
+> ```yaml
+> size: "extra-wide"
+> license: 'cc0'
+> orgName: 'Boston Museum of Fine Arts'
+> originalUrl: "https://www.mfa.org/collections/object/musashi-plain-musashino-from-the-series-famous-places-in-the-provinces-shokoku-meisho-233023"
+> ```
+>
+> <cite>Famous places in the provinces: <span class="noun" lang="ja-Latn">Musashi</span> Plain</cite><br /><cite lang="ja">諸国名所　武蔵野</cite><br />A woodblock print by <span class="noun" lang="ja-Latn">Totoya Hokkei</span> (<span lang="ja">魚屋 北渓</span>, 1780–1850)
 
 ### <span lang="ja">9月</span>
 
-<Image
-    src="../Hanafuda_9-1.svg;../Hanafuda_9-2.svg;../Hanafuda_9-3.svg;../Hanafuda_9-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for September show chrysanthemums. There is one <span
-lang="ja-Latn">tane</span> card, one blue/purple <span
-lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span>
-cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_9-1.svg)
+> ![](../Hanafuda_9-2.svg)
+> ![](../Hanafuda_9-3.svg)
+> ![](../Hanafuda_9-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for September show chrysanthemums. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
 {%aside%}
 A story invented by <span class="noun" lang="ja-Latn">Tendai</span> monks in the 14th-century
@@ -1853,20 +1928,23 @@ the imperial family (who use a 14-petal version).
 
 ### <span lang="ja">10月</span>
 
-<Image
-    src="../Hanafuda_10-1.svg;../Hanafuda_10-2.svg;../Hanafuda_10-3.svg;../Hanafuda_10-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for October show fallen maple leaves. There is one <span
-lang="ja-Latn">tane</span> card, one blue/purple <span
-lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span>
-cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_10-1.svg)
+> ![](../Hanafuda_10-2.svg)
+> ![](../Hanafuda_10-3.svg)
+> ![](../Hanafuda_10-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for October show fallen maple leaves. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
 > [!figure]
 >
@@ -1892,18 +1970,18 @@ shoulder, sometimes inspecting a twig. A reference to this card, the ‘10-point
 deer’ (<span lang="ja">鹿十</span> <span lang="ja-Latn">shikato</span>) has thus
 become a slang term <span lang="ja-Latn">shikato</span> (<span lang="ja">しかと</span>) meaning to ignore or neglect.
 
-<Image 
-    alt=""
-    src="587094001.jpg"
-    orgName="British Museum",
-    originalUrl='https://www.britishmuseum.org/collection/object/A_2008-3037-10615',
-    license='cc-by-nc-sa',
-    licenseVersion='4.0' %}
-The poet <span class="noun" lang="ja-Latn">Narihira</span> gazes at leaves floating on the
-<span class="noun" lang="ja-Latn">Tatsuta</span> river. The print features one of his poems
-about the river from the [<cite lang="ja-Latn">Hyakunin
-Isshu</cite>](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu).
-</Image>
+> [!figure]
+>
+> ![](587094001.jpg)
+>
+> ```yaml
+> orgName: "British Museum"
+> originalUrl: 'https://www.britishmuseum.org/collection/object/A_2008-3037-10615'
+> license: 'cc-by-nc-sa'
+> licenseVersion: '4.0'
+> ```
+>
+> The poet <span class="noun" lang="ja-Latn">Narihira</span> gazes at leaves floating on the <span class="noun" lang="ja-Latn">Tatsuta</span> river. The print features one of his poems about the river from the [<cite lang="ja-Latn">Hyakunin Isshu</cite>](https://en.wikipedia.org/wiki/Ogura_Hyakunin_Isshu).
 
 > [!figure]
 >
@@ -1969,19 +2047,23 @@ From the lower branches<br />Maple leaves scatter<br />In Autumn showers on the 
 ### <span lang="ja">11月</span>
 
 
-<Image
-    src="../Hanafuda_11-1.svg;../Hanafuda_11-2.svg;../Hanafuda_11-3.svg;../Hanafuda_11-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for November show willow trees. There is one bright card, one <span
-lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span>
-card, and one <span lang="ja-Latn">kasu</span> card.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_11-1.svg)
+> ![](../Hanafuda_11-2.svg)
+> ![](../Hanafuda_11-3.svg)
+> ![](../Hanafuda_11-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for November show willow trees. There is one bright card, one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and one <span lang="ja-Latn">kasu</span> card.
 
 The eleventh month is represented by willow (<span lang="ja">柳</span>
 {%pronounce pronouncer="akitomo" word="yanagi" lang="ja-Latn"
@@ -1997,41 +2079,23 @@ ex&shy;ample, the bright of November will often score less than the other four
 brights, and in some games the “lightning card” has special powers, such as
 being able to match any other card.
 
-{%aside%}
-It has been suggested (e.g. by author <span class="noun" lang="ja-Latn">Murai Shōzō</span>
-<span lang="ja">村井省三</span> and by <span class="noun" lang="ja-Latn">Ōishi
-Tengudō</span>[@OishiSadakuro]) that the running “Umbrella Man” has
-its origins in the character of <span class="noun" lang="ja-Latn">Sadakurō</span> from the
-<span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal
-Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite
-lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <span class="noun"
-lang="ja-Latn">Ebashi</span> points out,[@EbashiSadakuro] the <span
-lang="ja-Latn">hana-awase</span> deck pictured at the top of this article
-contains an “Umbrella Man”. This precludes the <span class="noun"
-lang="ja-Latn">Sadakurō</span> origin story, as the play was written some 40
-years after that deck was produced.
+> [!aside]
+> It has been suggested (e.g. by author <span class="noun" lang="ja-Latn">Murai Shōzō</span> <span lang="ja">村井省三</span> and by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>[@OishiSadakuro]) that the running “Umbrella Man” has its origins in the character of <span class="noun" lang="ja-Latn">Sadakurō</span> from the <span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <span class="noun" lang="ja-Latn">Ebashi</span> points out,[@EbashiSadakuro] the <span lang="ja-Latn">hana-awase</span> deck pictured at the top of this article contains an “Umbrella Man”. This precludes the <span class="noun" lang="ja-Latn">Sadakurō</span> origin story, as the play was written some 40 years after that deck was produced.
+>
+> > [!figure]
+> >
+> > ![A very old card picturing a man with an umbrella running from lightning.](running_man.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > orgName: "Japan Playing Card Museum"
+> > orgAbbr: "JPCM"
+> > originalUrl: "https://japanplayingcardmuseum.com/image/hanafuda-hanaawase04.pdf"
+> > license: "with-permission"
+> > ```
 
-<Image 
-    noborder=true
-    size="small"
-    src="running_man.jpg"
-    alt="A very old card picturing a man with an umbrella running from lightning."
-    orgName="Japan Playing Card Museum",
-    orgAbbr="JPCM",
-    originalUrl="https://japanplayingcardmuseum.com/image/hanafuda-hanaawase04.pdf",
-    license="with-permission" %}
-</Image>
-{%endaside%}
-
-The man pictured on the bright card is the poet <span class="noun" lang="ja-Latn">Ono no
-Michikaze</span> (<span lang="ja">小野道風</span>), who is considered to be one
-of the founders of Japanese calligraphy. The jumping frog re&shy;calls an
-episode in his life: he had failed seven times to achieve a promotion and was
-considering abandoning his attempts. One day, walking beside a stream, he saw a
-frog attempting to jump onto a willow branch. Seven times it jumped, and seven
-times it failed. On the eighth attempt, the frog reached the branch
-successfully. <span class="noun" lang="ja-Latn">Michikaze</span> was thus inspired to
-persevere with his attempts.[@AnimalInFarEasternArt pp. 86–7]
+The man pictured on the bright card is the poet <span class="noun" lang="ja-Latn">Ono no Michikaze</span> (<span lang="ja">小野道風</span>), who is considered to be one of the founders of Japanese calligraphy. The jumping frog re&shy;calls an episode in his life: he had failed seven times to achieve a promotion and was considering abandoning his attempts. One day, walking beside a stream, he saw a frog attempting to jump onto a willow branch. Seven times it jumped, and seven times it failed. On the eighth attempt, the frog reached the branch successfully. <span class="noun" lang="ja-Latn">Michikaze</span> was thus inspired to persevere with his attempts.[@AnimalInFarEasternArt pp. 86–7]
 
 On older decks, a different “rain man” is pictured. On these cards, the man is
 running in the rain with the umbrella closed around his head. This feature is
@@ -2121,18 +2185,23 @@ can be seen in many decks of the standard pattern.
 
 ### <span lang="ja">12月</span>
 
-<Image
-    src="../Hanafuda_12-1.svg;../Hanafuda_12-2.svg;../Hanafuda_12-3.svg;../Hanafuda_12-4.svg"
-    alt=";;;"
-    noborder=true
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %} 
-The cards for December show paulownia flowers. There is one bright card and
-three <span lang="ja-Latn">kasu</span> cards.
-</Image>
+> [!figure]
+>
+> ![](../Hanafuda_12-1.svg)
+> ![](../Hanafuda_12-2.svg)
+> ![](../Hanafuda_12-3.svg)
+> ![](../Hanafuda_12-4.svg)
+>
+> ```yaml
+> noborder: true
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The cards for December show paulownia flowers. There is one bright card and three <span lang="ja-Latn">kasu</span> cards.
 
 {%aside%}
 Curiously, the paulownia genus was given its scientific name by Philipp Franz
@@ -2205,15 +2274,17 @@ material. Older high-quality <span class="noun" lang="ja-Latn">Hanafuda</span> d
 encased in an outer box of paulownia wood. The manufacturer <span class="noun"
 lang="ja-Latn">Ōishi Tengudo</span> still boxes many of their decks in this way.
 
-<Image 
-    src='SC152627.jpg'
-    alt="A phoenix bird swoops down onto a paulownia tree."
-    originalUrl="https://www.mfa.org/collections/object/phoenix-and-paulownia-tree-235857",
-    license='cc0',
-    orgName="Boston Museum of Fine Arts" %}
-<cite>Phoenix and Paulownia Tree</cite><br /><cite lang="ja">桐に鳳凰</cite><br
-/>by <span class="noun" lang="ja-Latn">Isoda Koryūsai</span> (<span lang="ja">礒田 湖龍斎</span>, 1735–1790)
-</Image>
+> [!figure]
+>
+> ![A phoenix bird swoops down onto a paulownia tree.](SC152627.jpg)
+>
+> ```yaml
+> originalUrl: "https://www.mfa.org/collections/object/phoenix-and-paulownia-tree-235857"
+> license: 'cc0'
+> orgName: "Boston Museum of Fine Arts"
+> ```
+>
+> <cite>Phoenix and Paulownia Tree</cite><br /><cite lang="ja">桐に鳳凰</cite><br />by <span class="noun" lang="ja-Latn">Isoda Koryūsai</span> (<span lang="ja">礒田 湖龍斎</span>, 1735–1790)
 
 The phoenix (<span lang="ja">鳳凰</span> {% pronounce pronouncer="akitomo"
 word="hōō" lang="ja-Latn" file="pronunciation_ja_鳳凰.mp3" %}, or <span

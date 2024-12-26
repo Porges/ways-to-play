@@ -7,9 +7,7 @@ draft: true
 countries: KR
 ---
 
-<p class="lead">
 <Pronounce file="pronunciation_ko_섰다.mp3"  pronouncer="Letitgo"  class="aka" noun=true lang="ko-Latn">Seotda</Pronounce> (<span lang="ko">섰다</span>)
-</p>
 
 ## Hand Rankings
 
@@ -26,19 +24,22 @@ countries: KR
 <span lang="ko-Latn">gwang&shy;ttaeng</span>
 </th>
 <td>
-<Image 
-    noborder=true
-    size="extra-small"
-    silent=true
-    src="../../articles/cards/japan/hanafuda/Hwatu_March_Hikari.png;../../articles/cards/japan/hanafuda/Hwatu_August_Hikari.png"
-    alt="The cherry blossom curtain.;The full moon." 
-    authorFamily="Richert",
-    authorGiven="Marcus",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    originalUrl="http://www.marcusrichert.com/images/hwatu/" %}
-</Image>
+> [!figure]
+>
+> ![The cherry blossom curtain.](../../articles/cards/japan/hanafuda/Hwatu_March_Hikari.png)
+> ![The full moon.](../../articles/cards/japan/hanafuda/Hwatu_August_Hikari.png)
+>
+> ```yaml
+> noborder: true
+> size: "extra-small"
+> silent: true
+> authorFamily: "Richert"
+> authorGiven: "Marcus"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> originalUrl: "http://www.marcusrichert.com/images/hwatu/"
+> ```
 </td>
 <td>
 
@@ -50,37 +51,43 @@ Highest combination in the game; cannot be beaten.
 </tr>
 <tr>
 <td>
-<Image 
-    noborder=true
-    size="extra-small"
-    silent=true
-    src="../../articles/cards/japan/hanafuda/Hwatu_January_Hikari.png;../../articles/cards/japan/hanafuda/Hwatu_August_Hikari.png"
-    alt="The crane and pine.;The full moon." 
-    authorFamily="Richert",
-    authorGiven="Marcus",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    originalUrl="http://www.marcusrichert.com/images/hwatu/" %}
-</Image>
+> [!figure]
+>
+> ![The crane and pine.](../../articles/cards/japan/hanafuda/Hwatu_January_Hikari.png)
+> ![The full moon.](../../articles/cards/japan/hanafuda/Hwatu_August_Hikari.png)
+>
+> ```yaml
+> noborder: true
+> size: "extra-small"
+> silent: true
+> authorFamily: "Richert"
+> authorGiven: "Marcus"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> originalUrl: "http://www.marcusrichert.com/images/hwatu/"
+> ```
 </td>
 <td></td>
 </tr>
 <tr>
 <td>
-<Image 
-    noborder=true
-    size="extra-small"
-    silent=true
-    src="../../articles/cards/japan/hanafuda/Hwatu_January_Hikari.png;../../articles/cards/japan/hanafuda/Hwatu_March_Hikari.png"
-    alt="The crane and pine.;The cherry blossom curtain." 
-    authorFamily="Richert",
-    authorGiven="Marcus",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    originalUrl="http://www.marcusrichert.com/images/hwatu/" %}
-</Image>
+> [!figure]
+>
+> ![The crane and pine.](../../articles/cards/japan/hanafuda/Hwatu_January_Hikari.png)
+> ![The cherry blossom curtain.](../../articles/cards/japan/hanafuda/Hwatu_March_Hikari.png)
+>
+> ```yaml
+> noborder: true
+> size: "extra-small"
+> silent: true
+> authorFamily: "Richert"
+> authorGiven: "Marcus"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> originalUrl: "http://www.marcusrichert.com/images/hwatu/"
+> ```
 </td>
 <td></td>
 </tr>
@@ -89,20 +96,23 @@ Highest combination in the game; cannot be beaten.
 <span lang="ko">땡</span> <span lang="ko-Latn">ttaeng</span>
 </th>
 <td>
-<Image 
-    noborder=true
-    size="extra-small"
-    silent=true
-    justify="centered"
-    src="../../articles/cards/japan/hanafuda/Hwatu_October_Tane.png;../../articles/cards/japan/hanafuda/Hwatu_October_Tanzaku.png"
-    alt="The deer.;The maple tanzaku." 
-    authorFamily="Richert",
-    authorGiven="Marcus",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    originalUrl="http://www.marcusrichert.com/images/hwatu/" %}
-</Image>
+> [!figure]
+>
+> ![The deer.](../../articles/cards/japan/hanafuda/Hwatu_October_Tane.png)
+> ![The maple tanzaku.](../../articles/cards/japan/hanafuda/Hwatu_October_Tanzaku.png)
+>
+> ```yaml
+> noborder: true
+> size: "extra-small"
+> silent: true
+> justify: "centered"
+> authorFamily: "Richert"
+> authorGiven: "Marcus"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> originalUrl: "http://www.marcusrichert.com/images/hwatu/"
+> ```
 </td>
 <td></td>
 </tr>
@@ -113,20 +123,23 @@ Highest combination in the game; cannot be beaten.
 </tr>
 <tr class="table-warning">
 <td>
-<Image 
-    noborder=true
-    size="extra-small"
-    justify="centered"
-    silent=true
-    src="../../articles/cards/japan/hanafuda/Hwatu_January_Hikari.png;../../articles/cards/japan/hanafuda/Hwatu_January_Tanzaku.png"
-    alt="The crane.;The pine tanzaku." 
-    authorFamily="Richert",
-    authorGiven="Marcus",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    originalUrl="http://www.marcusrichert.com/images/hwatu/" %}
-</Image>
+> [!figure]
+>
+> ![The crane.](../../articles/cards/japan/hanafuda/Hwatu_January_Hikari.png)
+> ![The pine tanzaku.](../../articles/cards/japan/hanafuda/Hwatu_January_Tanzaku.png)
+>
+> ```yaml
+> noborder: true
+> size: "extra-small"
+> justify: "centered"
+> silent: true
+> authorFamily: "Richert"
+> authorGiven: "Marcus"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> originalUrl: "http://www.marcusrichert.com/images/hwatu/"
+> ```
 </td>
 <td></td>
 </tr>

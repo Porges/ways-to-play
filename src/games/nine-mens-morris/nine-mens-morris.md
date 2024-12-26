@@ -231,18 +231,19 @@ standard game, rules for playing with dice are given ([see below](#with-dice)).
 > From Alfonso’s <cite>Book of Games</cite>.
 
 
-<Image 
-    src="Nicolas_de_btv1b6000238t_361.jpg"
-    position="aside"
-    alt="Page from a manuscript with a Nine Men’s Morris board on it."
-    orgName="Bibliothèque nationale de France",
-    orgLang="fr",
-    originalUrl="https://gallica.bnf.fr/ark:/12148/btv1b6000238t/f359.item",
-    license="cc0" %}
-The first problem in one of the <cite>Bonus Socius</cite> manuscripts written in
-Picardy (MS Latin 10286). The different shapes of the pieces in the diagram are
-used to identify particular pieces in the accompanying text.
-</Image>
+> [!figure]
+>
+> ![Page from a manuscript with a Nine Men’s Morris board on it.](Nicolas_de_btv1b6000238t_361.jpg)
+>
+> ```yaml
+> position: "aside"
+> orgName: "Bibliothèque nationale de France"
+> orgLang: "fr"
+> originalUrl: "https://gallica.bnf.fr/ark:/12148/btv1b6000238t/f359.item"
+> license: "cc0"
+> ```
+>
+> The first problem in one of the <cite>Bonus Socius</cite> manuscripts written in Picardy (MS Latin 10286). The different shapes of the pieces in the diagram are used to identify particular pieces in the accompanying text.
 
 In the same century the <cite lang="la">Bonus Socius</cite> series of
 manuscripts contained problems for the game, alongside other problems for chess
@@ -251,16 +252,17 @@ describes the problems as being of very high quality, and that in fact “they
 leave a more favourable impression of the ingenuity of the mediaeval composer
 than is the case with the problems of chess or tables.”[@Murray p. 703]
 
-<Image 
-    src='O.2.45_010_O.2.45_p002-p003.jpg'
-    alt="Page from a manuscript with a Nine Men’s Morris board on it."
-    orgName="Trinity College",
-    license="cc-by-nc",
-    originalUrl="http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=668" %}
-A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine
-Men’s Morris board alongside an Alquerque board and another unidentified board
-(possibly {% gameref daldos %}).
-</Image>
+> [!figure]
+>
+> ![Page from a manuscript with a Nine Men’s Morris board on it.](O.2.45_010_O.2.45_p002-p003.jpg)
+>
+> ```yaml
+> orgName: "Trinity College"
+> license: "cc-by-nc"
+> originalUrl: "http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=668"
+> ```
+>
+> A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board (possibly {% gameref daldos %}).
 
 By examining depictions of the game in artwork, we can understand the attitude
 towards the game at the time the image was produced. In the manuscript image
@@ -268,18 +270,20 @@ below (<abbr title="circa">c.</abbr> 1340), nobles of opposite sex face each
 other across a game board. Evidently the game was considered worthy of being
 played by the nobility, and suitable for men and women to play together:
 
-<Image 
-    src='Alexander_Morris.jpg'
-    alt="A man and woman sitting either side of a morris board."
-    orgName="Bodleian Libraries, University of Oxford",
-    license="cc-by-nc",
-    licenseVersion='4.0',
-    copyrightYear=2015,
-    identifier="SC=2464",
-    originalUrl="https://digital.bodleian.ox.ac.uk/objects/60834383-7146-41ab-bfe1-48ee97bc04be/surfaces/8975ddf1-8759-443e-94e8-0b1b0a9712a5/" %}
-A woman and a man playing Nine Men’s Morris together, miniature from a copy of
-the <cite>Romance of Alexander</cite> (produced 1338–44).
-</Image>
+> [!figure]
+>
+> ![A man and woman sitting either side of a morris board.](Alexander_Morris.jpg)
+>
+> ```yaml
+> orgName: "Bodleian Libraries, University of Oxford"
+> license: "cc-by-nc"
+> licenseVersion: '4.0'
+> copyrightYear: 2015
+> identifier: "SC=2464"
+> originalUrl: "https://digital.bodleian.ox.ac.uk/objects/60834383-7146-41ab-bfe1-48ee97bc04be/surfaces/8975ddf1-8759-443e-94e8-0b1b0a9712a5/"
+> ```
+>
+> A woman and a man playing Nine Men’s Morris together, miniature from a copy of the <cite>Romance of Alexander</cite> (produced 1338–44).
 
 The previous scene is in stark contrast to this German woodcut by Hans Weiditz
 from @Trostspiegel [p. 24] — a version of Petrarch’s <cite>De remediis utriusque
@@ -287,36 +291,38 @@ fortunae</cite> published some 200 years later in 1572. In this image we can s
 Chess being played by nobles and Backgammon by ordinary men, but Nine Men’s
 Morris is evidently only suitable to be played by monkeys:
 
-<Image 
-    noborder=true
-    size="wide"
-    src='PetrarchMonkey.jpg'
-    alt=""
-    license="cc0",
-    copyrightYear=2012,
-    orgName="Münchener DigitalisierungsZentrum Digitale Bibliothek",
-    orgLang="de"
-    originalUrl="https://www.digitale-sammlungen.de/en/view/bsb10149651?page=48" %}
-</Image>
-
-{/* src={imgLargeMerelsWithDiagonals} */}
+> [!figure]
+>
+> ![](PetrarchMonkey.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "wide"
+> license: "cc0"
+> copyrightYear: 2012
+> orgName: "Münchener DigitalisierungsZentrum Digitale Bibliothek"
+> orgLang: "de"
+> originalUrl: "https://www.digitale-sammlungen.de/en/view/bsb10149651?page=48"
+> ```
+>
 
 The board with diagonals seems to appear first in Arabic sources;[@Murray2 p. 43] it is shown — as the only drawing — in the famous <span class="noun" lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<cite lang="ar">القاموس المحيط</cite>, ‘The Surrounding Ocean’) of [<span class="noun" lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi) (<span lang="fa">{% isolate 'فیروزآبادی' %}</span>, 1329–1414), published at the start of the 15th century.[@alQamus]
 
 In China the game is mentioned by the Ming Dynasty author <span lang="cmn-Latn-pinyin" class="noun">Xiè Zhàozhè</span> (<span lang="zh" class="noun">谢肇淛</span>, 1567–1624 <abbr>CE</abbr>) in his <cite>Five Assorted Offerings</cite> (<cite lang="zh">五杂组</cite>),[@MerelsChina] and game-boards (almost entirely of the ‘diagonals’ type) have been found in China, starting from boards dated to the the 8–9th centuries in the [Uighur Khaganate](https://en.wikipedia.org/wiki/Uyghur_Khaganate) in what is now Mongolia, to the Balhae kingdom in the 9–10th centuries, and eventually spreading throughout the rest of China through the Liao/Song, then Jin and Yuan dynasties (10–14th centuries). It seems probable that the game reached China through the Silk Roads from the Middle East.[@MerelsChina]
 
-<Image 
-    src='Fairuzabadi.jpg'
-    size="wide"
-    alt="A page from an illuminated Arabic dictionary with a digram of a Nine Men's Morris board with diagonals."
-    license="cc-by",
-    licenseVersion="4.0",
-    orgName="University of Pennsylvania, Kislak Center for Special Collections"
-    originalUrl="https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r" %}
-The entry for “<span lang="ar">القَرْقُ</span>” in the <span class="noun"
-lang="ar-Latn">Qamūs</span>. The game is here identified with <span
-lang="ar-Latn">suddar</span>.
-</Image>
+> [!figure]
+>
+> ![A page from an illuminated Arabic dictionary with a digram of a Nine Men's Morris board with diagonals.](Fairuzabadi.jpg)
+>
+> ```yaml
+> size: "wide"
+> license: "cc-by"
+> licenseVersion: "4.0"
+> orgName: "University of Pennsylvania, Kislak Center for Special Collections"
+> originalUrl: "https://openn.library.upenn.edu/Data/0001/html/ljs387.html#a328r"
+> ```
+>
+> The entry for “<span lang="ar">القَرْقُ</span>” in the <span class="noun" lang="ar-Latn">Qamūs</span>. The game is here identified with <span lang="ar-Latn">suddar</span>.
 
 In later English history the game developed an association with rusticity, often mentioned as a game played by shepherds. In such guise it famously appears — albeit relocated in time and place to a fictional ancient Athens — in Shakespeare’s [<cite>A Midsummer Night’s Dream</cite>](https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream) (<abbr title="circa">c.</abbr> 1595), where, thanks to a feud between Titania and Oberon (queen and king of the fairies), the natural state of the countryside is upended, and:
 
@@ -335,32 +341,32 @@ instance from the parish of Bitteswell records that in 1634 a certain Robert
 Lord the Younger was “admonished and dismissed” for “plaieing at nine men’s
 morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation p. 497]
 
-<div class="multi">
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> >
+> > ![](../daldos/maryrose_daldos.jpg)
+> >
+> > ```yaml
+> > license: "with-permission"
+> > orgName: "The Mary Rose Museum"
+> > ```
+> >
+> > A Nine Men’s Morris board alongside what seems to be a {% gameref daldos %} board, on a barrel-end from the wreck of the English warship ‘[Mary Rose](https://en.wikipedia.org/wiki/Mary_Rose)’ (1545).
 > 
-  src='../daldos/maryrose_daldos.jpg'
-  alt=""
-  license="with-permission", orgName="The Mary Rose Museum" %}
-A Nine Men’s Morris board alongside what seems to be a {% gameref daldos 
-> ```
->
-> board, on a barrel-end from the wreck of the English warship ‘[Mary Rose](https://en.wikipedia.org/wiki/Mary_Rose)’ (1545).
-
-<Image 
-    src='82-001079.jpg'
-    alt="A peasant boy holding a Nine Men’s Morris board."
-    authorGiven="Jean",
-    authorFamily="Schormans",
-    orgName="RMN-Grand Palais (musée du Louvre)",
-    orgLang="fr",
-    originalUrl="https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits_fil-de-soie_tapisserie-technique_laine-textile",
-    license="cc0" %}
-Detail from the 16th-century tapestry <cite lang="fr">Suite des Nobles
-Pastorales</cite>.
-</Image>
-</div>
+> > [!figure]
+> >
+> > ![A peasant boy holding a Nine Men’s Morris board.](82-001079.jpg)
+> >
+> > ```yaml
+> > authorGiven: "Jean"
+> > authorFamily: "Schormans"
+> > orgName: "RMN-Grand Palais (musée du Louvre)"
+> > orgLang: "fr"
+> > originalUrl: "https://art.rmngp.fr/fr/library/artworks/suite-des-nobles-pastorales-jeu-de-marelle-et-cueillette-des-fruits_fil-de-soie_tapisserie-technique_laine-textile"
+> > license: "cc0"
+> > ```
+> >
+> > Detail from the 16th-century tapestry <cite lang="fr">Suite des Nobles Pastorales</cite>.
 
 In colonial America, the game began to be played with twelve pieces (exclusively
 on the board with diagonals) and thus became the standard American form, known
@@ -587,74 +593,73 @@ a piece that is already on the board.
 
 With perfect play the game is a draw.[@SolvingLaskerMorris][@UltraStrongMorris]
 
-{/*
-
-## Commerical Variants
-
-### Mozog
-
-> [!aside]
-> The game was originally patented (US [4,579,347](https://patents.google.com/patent/US4579347A)) in a slightly different form, with a more complex board. In this version each player had 14 pieces.
+> [!todo]
+> ## Commerical Variants
+> 
+> ### Mozog
+> 
+> > [!aside]
+> > The game was originally patented (US [4,579,347](https://patents.google.com/patent/US4579347A)) in a slightly different form, with a more complex board. In this version each player had 14 pieces.
+> > 
+> > > [!figure]
+> >
+> > ![](mozog.svg)
+> >
+> > ```yaml
+> > 
+> > ```
+> >
+> > > The board from the patent was of a more complex construction, but with fewer squares. >
 > 
 > > [!figure]
->
-> ![](mozog.svg)
->
-> ```yaml
+> >
+> > ![](mozog-published.svg)
+> >
+> > The Mozog board as published has 7 nested squares, giving 56 points.
 > 
-> ```
->
-> > The board from the patent was of a more complex construction, but with fewer squares. >
-
-> [!figure]
->
-> ![](mozog-published.svg)
->
-> The Mozog board as published has 7 nested squares, giving 56 points.
-
-[Mozog](https://boardgamegeek.com/boardgame/22075/mozog) is a variant created in
-1984 by Wilhelm Reman, and it is played on a custom board. Each player has 20
-pieces, and play is as in Nine Men’s Morris except that mills may not be made
-along the dotted lines on the board. The game is over when one player is reduced
-to two pieces.
-
-### Trencho
-
-Trencho was a variant published by Chad Valley in 1916 that was billed as “An
-Australian War-Game as Played in the Camps & Trenches”.
-
-> [!figure]
->
-> ![](trencho.svg)
->
-> ```yaml
-> position: "aside"
-> ```
->
-> Trencho is played on a modified large mill board. The game was published with (at least) two different configurations.
-
-Trencho is played on a modified mill board where only two shortened diagonals
-are present. Mills are called “trenches”.
-
-The game is played as usual except:
-
-* Upon forming a trench, a player may either remove an opponent’s piece or
-  restore one of their own. If they replace a piece it may not complete a
-  trench.
-* A trench may not be formed again in the same position by the same three
-  pieces.
-
-<Image 
-  alt=""
-  src="nma_149016_ma45226671_trencho_board_game.jpg"
-    orgName="National Museum of Australia",
-    license="cc-by-sa",
-    originalUrl="http://collectionsearch.nma.gov.au/object/149016" %}
-Trencho board and pieces. A board with a different configuration can be seen
-[here](https://www.flickr.com/photos/communityhistorysa/15513283420/in/photolist-sZrx-4ymJZ6-nHnS3U-qtBtX5-bWfoc7-dMYNfX-pCRCFN-JQvGw-f5ZAxg-83Djx-Je3MXg/).
-</Image>
-
-*/}
+> [Mozog](https://boardgamegeek.com/boardgame/22075/mozog) is a variant created in
+> 1984 by Wilhelm Reman, and it is played on a custom board. Each player has 20
+> pieces, and play is as in Nine Men’s Morris except that mills may not be made
+> along the dotted lines on the board. The game is over when one player is reduced
+> to two pieces.
+> 
+> ### Trencho
+> 
+> Trencho was a variant published by Chad Valley in 1916 that was billed as “An
+> Australian War-Game as Played in the Camps & Trenches”.
+> 
+> > [!figure]
+> >
+> > ![](trencho.svg)
+> >
+> > ```yaml
+> > position: "aside"
+> > ```
+> >
+> > Trencho is played on a modified large mill board. The game was published with (at least) two different configurations.
+> 
+> Trencho is played on a modified mill board where only two shortened diagonals
+> are present. Mills are called “trenches”.
+> 
+> The game is played as usual except:
+> 
+> * Upon forming a trench, a player may either remove an opponent’s piece or
+>   restore one of their own. If they replace a piece it may not complete a
+>   trench.
+> * A trench may not be formed again in the same position by the same three
+>   pieces.
+> 
+> > [!figure]
+> >
+> > ![](nma_149016_ma45226671_trencho_board_game.jpg)
+> >
+> > ```yaml
+> > orgName: "National Museum of Australia"
+> > license: "cc-by-sa"
+> > originalUrl: "http://collectionsearch.nma.gov.au/object/149016"
+> > ```
+> >
+> > Trencho board and pieces. A board with a different configuration can be seen [here](https://www.flickr.com/photos/communityhistorysa/15513283420/in/photolist-sZrx-4ymJZ6-nHnS3U-qtBtX5-bWfoc7-dMYNfX-pCRCFN-JQvGw-f5ZAxg-83Djx-Je3MXg/).
 
 ## See also
 

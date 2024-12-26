@@ -5,20 +5,22 @@ players: 2
 equipment: Pen and paper
 ---
 
-<p class="lead"><span class="aka">Tic-Tac-Toe</span> is a simple game for two players that is well-known to result in a draw if played ‘rationally’. Unlike most board games, pieces cannot be moved or removed once placed, making it an ideal game to play with pen & paper.</p>
+<span class="aka">Tic-Tac-Toe</span> is a simple game for two players that is well-known to result in a draw if played ‘rationally’. Unlike most board games, pieces cannot be moved or removed once placed, making it an ideal game to play with pen & paper.
 
-{/* excerpt */}
 
-<Image 
-    alt="Several games of tic-tac-toe scrawled on a concrete wall.",
-    src="7429845046_ddc7a1464a_o.jpg",
-    author="gerogeri",
-    copyrightYear=2012,
-    originalUrl="https://www.flickr.com/photos/65029995@N05/7429845046",
-    license="cc-by-nc-nd",
-    licenseVersion="2.0" %} 
-Some tic-tac-toe games.
-</Image>
+> [!figure]
+>
+> ![Several games of tic-tac-toe scrawled on a concrete wall.](7429845046_ddc7a1464a_o.jpg)
+>
+> ```yaml
+> author: "gerogeri"
+> copyrightYear: 2012
+> originalUrl: "https://www.flickr.com/photos/65029995@N05/7429845046"
+> license: "cc-by-nc-nd"
+> licenseVersion: "2.0"
+> ```
+>
+> Some tic-tac-toe games.
 
 ## History
 
@@ -30,13 +32,16 @@ by children in schools during this period. Indeed, @BerkshirePhrases [p. 164]
 describes the game as “the first game taught to children when they can use a
 slate pencil”.
 
-<Image
-  alt="",
-  noborder=true
-  src="../mill-games/small_merels_with_diagonals.svg",
-  position="aside" %}
-The small merels board with diagonals.
-</Image>
+> [!figure]
+>
+> ![](../mill-games/small_merels_with_diagonals.svg)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> ```
+>
+> The small merels board with diagonals.
 
 However, there is an early antecedent of a game which is equivalent in play, if
 not in presentation. [Alfonso X of
@@ -51,13 +56,15 @@ three-men’s-morris game where the pieces can be moved after being placed, but
 this is not supported by the original manuscript.[@DimensionsOfBookOfGames p.
 609]
 
-<Image
-  src="Alfonso_AdT.jpg",
-  alt="",
-  license="cc0" %}
-This image from Alfonso X’s <cite>Book of Games</cite> shows that <span
-lang="es">alquerque de tres</span> was considered a children’s game. 
-</Image>
+> [!figure]
+>
+> ![](Alfonso_AdT.jpg)
+>
+> ```yaml
+> license: "cc0"
+> ```
+>
+> This image from Alfonso X’s <cite>Book of Games</cite> shows that <span lang="es">alquerque de tres</span> was considered a children’s game.
 
 Some of the earliest known written references to Tic-Tac-Toe in English occur in Charles Babbage’s unpublished manuscript <cite>Essays on the Philosophy of Analysis</cite> (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the game is never mentioned by name.[@SourcesInRecreationalMathematics] In 1842, ‘tit-tat-to’ again occurs in his notebooks, when he conceptualizes an automaton that would play the game against a human.[@SourcesInRecreationalMathematics][@ICommencedAnExamination]
 
@@ -81,16 +88,20 @@ Bethlehem”:[@DevilsPulpit p. 7]
 > and catgallowses [a high-jump], and scratchcradles [cat’s cradle], to play at
 > tit-tat-toe with.
 
-<Image
-  size="wide",
-  src="large_BAB_S20_0002.jpg;large_BAB_S20_0003.jpg",
-  alt="Sketches of various games of tic-tac-toe in a notebook.;Sketches of various games of tic-tac-toe in a notebook.",
-  orgName="Science Museum Group",
-  originalUrl="https://collection.sciencemuseum.org.uk/documents/aa110069631",
-  license="cc-by-sa",
-  licenseVersion="4.0" %}
-Some of Babbage’s notes on “Tit-Tat-To”, dated 15th–16th September 1860.
-</Image>
+> [!figure]
+>
+> ![Sketches of various games of tic-tac-toe in a notebook.](large_BAB_S20_0002.jpg)
+> ![Sketches of various games of tic-tac-toe in a notebook.](large_BAB_S20_0003.jpg)
+>
+> ```yaml
+> size: "wide"
+> orgName: "Science Museum Group"
+> originalUrl: "https://collection.sciencemuseum.org.uk/documents/aa110069631"
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> Some of Babbage’s notes on “Tit-Tat-To”, dated 15th–16th September 1860.
 
 ## Terminology
 
@@ -133,23 +144,28 @@ Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer t
 
 This usage of referring to neatly-aligned triplets is still current with the Swedish equivalent of <Pronounce file='pronunciation_sv_tripp,_trapp,_trull.mp3' lang="sv" pronouncer="tigris" >tripp, trapp, trull</Pronounce> (see more below). The three houses in [Kalmar](https://en.wikipedia.org/wiki/Kalmar) in the following image are nicknamed the “<span lang="sv">tripp trapp trull</span> houses”:
 
-<Image 
-  src="Tripp_trapp_trull_kalmar.jpg",
-  alt="Three houses, from left to right a small olive coloured house, a larger off-white house, and then the tallest, a red house.",
-  originalUrl='https://commons.wikimedia.org/wiki/File:Tripp_trapp_trull_kalmar.jpg',
-  author='Nordelch',
-  license='cc-by-sa',
-  licenseVersion='2.5',
-  copyrightYear=2006 %}
-</Image>
+> [!figure]
+>
+> ![Three houses, from left to right a small olive coloured house, a larger off-white house, and then the tallest, a red house.](Tripp_trapp_trull_kalmar.jpg)
+>
+> ```yaml
+> originalUrl: 'https://commons.wikimedia.org/wiki/File:Tripp_trapp_trull_kalmar.jpg'
+> author: 'Nordelch'
+> license: 'cc-by-sa'
+> licenseVersion: '2.5'
+> copyrightYear: 2006
+> ```
 
-<Image
-  position="aside",
-  src='tick-tack-toe.png'
-  alt="A drawing of children playing ‘tick-tack-toe’ on a circular board drawn on the sidewalk.",
-  license='cc0' %}
-Children playing a <em>different</em> game of ‘tick-tack-toe’.<br/>F. J. Shields, as reproduced in @MagazineOfArt [p. 136].
-</Image>
+> [!figure]
+>
+> ![A drawing of children playing ‘tick-tack-toe’ on a circular board drawn on the sidewalk.](tick-tack-toe.png)
+>
+> ```yaml
+> position: "aside"
+> license: 'cc0'
+> ```
+>
+> Children playing a <em>different</em> game of ‘tick-tack-toe’.<br/>F. J. Shields, as reproduced in @MagazineOfArt [p. 136].
 
 The same rhyme and name were also used for an unrelated game, using a circular board, in which a player would attempt to locate high-scoring sections of a circle while blindfolded.[@GamesBookForBoysAndGirls p. 55]
 
@@ -194,16 +210,20 @@ On the other hand, the English poet Wordsworth didn’t think the game was worth
 
 [^fn2]: “cyphers” here means “zeroes”
 
-<Image
-  size="wide"
-  src="5072574617_9afa5ee9ae_o.jpg",
-  alt="A wall with a completed tic-tac-toe game drawn on it in chalk."
-  authorFamily='Nova', authorGiven='Nicolas',
-  license='cc-by-nc',
-  licenseVersion='2.0',
-  originalUrl='https://www.flickr.com/photos/nnova/5072574617/' %}
-A tic-tac-toe game on a wall in Marseille, France.
-</Image>
+> [!figure]
+>
+> ![A wall with a completed tic-tac-toe game drawn on it in chalk.](5072574617_9afa5ee9ae_o.jpg)
+>
+> ```yaml
+> size: "wide"
+> authorFamily: 'Nova'
+> authorGiven: 'Nicolas'
+> license: 'cc-by-nc'
+> licenseVersion: '2.0'
+> originalUrl: 'https://www.flickr.com/photos/nnova/5072574617/'
+> ```
+>
+> A tic-tac-toe game on a wall in Marseille, France.
 
 ### Other languages
 
@@ -250,11 +270,10 @@ If this is confusing, muse upon the following diagram: the red solid vertical li
 
 > [!figure]
 >
+> ![](jam.svg)
+>
 > ```yaml
-> 
-  src="jam.svg"
-  noborder=true
-  alt=""
+> noborder: true
 > ```
 >
 > The JAM board.
@@ -308,16 +327,19 @@ This can be shown to be the same game in the following way (note that the number
   </tbody>
 </table>
 
-<Image
-  size="wide"
-  src='8576897675_c7c5785b4a_o.jpg'
-  alt="A wall with completed tic-tac-toe games drawn on it in blue pen."
-  author='henrykkcheung',
-  originalUrl='https://www.flickr.com/photos/henrykkcheung/8576897675/in/photostream/',
-  license='cc-by-nc-nd',
-  licenseVersion='2.0' %}
-Tic-tac-toe games on a wall in the Medina of Fez (<span lang="ar">فاس البالي</span>), Morocco.
-</Image>
+> [!figure]
+>
+> ![A wall with completed tic-tac-toe games drawn on it in blue pen.](8576897675_c7c5785b4a_o.jpg)
+>
+> ```yaml
+> size: "wide"
+> author: 'henrykkcheung'
+> originalUrl: 'https://www.flickr.com/photos/henrykkcheung/8576897675/in/photostream/'
+> license: 'cc-by-nc-nd'
+> licenseVersion: '2.0'
+> ```
+>
+> Tic-tac-toe games on a wall in the Medina of Fez (<span lang="ar">فاس البالي</span>), Morocco.
 
 ## Automatic Players
 
@@ -333,13 +355,17 @@ whereabouts (if it still exists) are currently unknown.{%fn%}For more about
 Freeland, see @VictorianTTT.{%endfn%} This machine predates any other
 implementations by some 70 years!
 
-<Image
-  noborder=true,
-  src="Freeland_Input.jpg;Freeland_Cylinder.jpg",
-  alt=";",
-  license="cc0" %}
-Freeland’s input device and cylinder layout (for selecting an appropriate response).
-</Image>
+> [!figure]
+>
+> ![](Freeland_Input.jpg)
+> ![](Freeland_Cylinder.jpg)
+>
+> ```yaml
+> noborder: true
+> license: "cc0"
+> ```
+>
+> Freeland’s input device and cylinder layout (for selecting an appropriate response).
 
 Later (but still early, in the computing world) implementations of the game include:
 
@@ -350,15 +376,18 @@ Later (but still early, in the computing world) implementations of the game incl
 
 Chickens have also been trained to ‘play’ the game.[@CrossOutALandmark][@TheChickenVanishes][@ChinatownFairIsBack] The first of these games, “Bird Brain”, was developed in the late 1970s by Animal Behavior Enterprises, a company founded by Marian &amp; Keller Breland, who were students of [B. F.  Skinner](https://en.wikipedia.org/wiki/B._F._Skinner), the behavioural psychologist.[@TheMouseWhoReinforced  p. 73] In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.[@BirdBrainManual]
 
-<Image
-  src="bird_brain.jpg",
-  alt="",
-  originalUrl="http://n2t.net/ark:/65665/ng49ca746ab-6f36-704b-e053-15f76fa0b4fa",
-  copyrightYear="2004",
-  orgName="Smithsonian"
-  license="us-fair-use" %}
-A surviving copy of Animal Behaviour Enterprises’ Bird Brain game.
-</Image>
+> [!figure]
+>
+> ![](bird_brain.jpg)
+>
+> ```yaml
+> originalUrl: "http://n2t.net/ark:/65665/ng49ca746ab-6f36-704b-e053-15f76fa0b4fa"
+> copyrightYear: "2004"
+> orgName: "Smithsonian"
+> license: "us-fair-use"
+> ```
+>
+> A surviving copy of Animal Behaviour Enterprises’ Bird Brain game.
 
 ## See also
 

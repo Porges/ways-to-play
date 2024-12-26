@@ -60,18 +60,20 @@ The game was also popular amongst Basotho men who travelled to South Africa to w
 
 In Lesotho’s past the game was restricted to being played by men, to the point that women were not permitted in the vicinity of the gaming area.[@SesothoFarming p. 95] Thankfully, times have changed, and as of 2021, the top-ranked player in Mind Sports South Africa’s league is a woman, named Saudah Bhaimia, who has won the last three national championships.[@SaudahBhaimia] 
 
-<Image 
-  src='shutterstock_1180878514.jpg'
-  size="extra-wide"
-  alt=""
-    orgName="Shutterstock.com",
-    originalUrl="https://www.shutterstock.com/image-photo/thaba-bosiu-lesotho-royal-graveyard-1180878514",
-    authorGiven="Damian", authorFamily="Ryszawy",
-    license="stock-image" %}
-Casalis was stationed at Moshoeshoe’s stronghold
-[Thaba-Bosiu](https://en.wikipedia.org/wiki/Thaba_Bosiu), which was positioned
-atop a sandstone plateau.
-</Image>
+> [!figure]
+>
+> ![](shutterstock_1180878514.jpg)
+>
+> ```yaml
+> size: "extra-wide"
+> orgName: "Shutterstock.com"
+> originalUrl: "https://www.shutterstock.com/image-photo/thaba-bosiu-lesotho-royal-graveyard-1180878514"
+> authorGiven: "Damian"
+> authorFamily: "Ryszawy"
+> license: "stock-image"
+> ```
+>
+> Casalis was stationed at Moshoeshoe’s stronghold [Thaba-Bosiu](https://en.wikipedia.org/wiki/Thaba_Bosiu), which was positioned atop a sandstone plateau.
 
 ## Terminology
 
@@ -238,21 +240,20 @@ There are also others that I have not been able to figure out; see the sources l
 > >
 > > Not a mill; any mill using the centre point must have its middle piece on the centre point.
 
-<Image 
-    src="8237668945_878d81116c_o.jpg"
-    alt="A well-used morabaraba board with two different types of bottle caps for pieces."
-      copyrightYear=2012,
-      originalUrl="https://www.flickr.com/photos/nagarjun/8237668945",
-      authorGiven="Nagarjun", authorFamily="Kandukuru",
-      license="cc-by-nc-nd",
-      licenseVersion="2.0" %}
-A Sotho-style morabaraba board in Kliptown, Soweto (more examples of this board
-can be seen on Instagram: <a
-href="https://www.instagram.com/p/BD-gorsFbjf/">1</a>, <a
-href="https://www.instagram.com/p/_glPKmNkd5/">2</a>, <a
-href="https://www.instagram.com/p/-voBcjAFc9/">3</a>, <a
-href="https://www.instagram.com/p/yPNmJpPNzW/">4</a>).
-</Image>
+> [!figure]
+>
+> ![A well-used morabaraba board with two different types of bottle caps for pieces.](8237668945_878d81116c_o.jpg)
+>
+> ```yaml
+> copyrightYear: 2012
+> originalUrl: "https://www.flickr.com/photos/nagarjun/8237668945"
+> authorGiven: "Nagarjun"
+> authorFamily: "Kandukuru"
+> license: "cc-by-nc-nd"
+> licenseVersion: "2.0"
+> ```
+>
+> A Sotho-style morabaraba board in Kliptown, Soweto (more examples of this board can be seen on Instagram: <a href="https://www.instagram.com/p/BD-gorsFbjf/">1</a>, <a href="https://www.instagram.com/p/_glPKmNkd5/">2</a>, <a href="https://www.instagram.com/p/-voBcjAFc9/">3</a>, <a href="https://www.instagram.com/p/yPNmJpPNzW/">4</a>).
 
 ### Alternate board
 
@@ -271,15 +272,15 @@ Another board pattern is also used to play <span class="noun" lang="st">Morabara
 with a diagonally crossed central square. I do not know if the rules vary in any
 way.
 
-<Image 
-    src='16908233_1262123897217460_4095342219718819840_n.jpg'
-    alt="Two sets of men playing on two different morabaraba boards."
-      copyrightYear=2017,
-      author="mk11photography",
-      license="with-permission",
-      originalUrl="https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624" %}
-Men playing on a different <span class="noun" lang="st">Morabaraba</span> board. More
-examples of this board can be found on Instagram: <a
-href="https://www.instagram.com/p/-lij8bskZZ/">1</a>, <a
-href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>.
-</Image>
+> [!figure]
+>
+> ![Two sets of men playing on two different morabaraba boards.](16908233_1262123897217460_4095342219718819840_n.jpg)
+>
+> ```yaml
+> copyrightYear: 2017
+> author: "mk11photography"
+> license: "with-permission"
+> originalUrl: "https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624"
+> ```
+>
+> Men playing on a different <span class="noun" lang="st">Morabaraba</span> board. More examples of this board can be found on Instagram: <a href="https://www.instagram.com/p/-lij8bskZZ/">1</a>, <a href="https://www.instagram.com/p/Xh1mSsnw0H/">2</a>.

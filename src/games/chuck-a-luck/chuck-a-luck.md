@@ -182,16 +182,18 @@ In casinos the basic game was augmented with equipment to become known as either
 “Hyronemus” (where the dice were spun in a bowl) or “Bird-Cage” (where the dice
 were tumbled inside a wire hourglass).
 
-<Image 
-    alt="Men sitting around a table with an extended Chuck-A-Luck staking layout and bird-cage sitting on it."
-    size="wide"
-    src='chuk-a-luck_bank_club_reno_nevada.jpg'
-    license="cc0",
-    orgName="University of Nevada, Reno",
-    originalUrl="https://unr.dgicloud.com/islandora/object/spphotoscollection%3A5615" %}
-Chuk-A-Luck with an expanded staking board being played at the Bank Club, Reno,
-Nevada (<abbr title="circa">c.</abbr> 1932).
-</Image>
+> [!figure]
+>
+> ![Men sitting around a table with an extended Chuck-A-Luck staking layout and bird-cage sitting on it.](chuk-a-luck_bank_club_reno_nevada.jpg)
+>
+> ```yaml
+> size: "wide"
+> license: "cc0"
+> orgName: "University of Nevada, Reno"
+> originalUrl: "https://unr.dgicloud.com/islandora/object/spphotoscollection%3A5615"
+> ```
+>
+> Chuk-A-Luck with an expanded staking board being played at the Bank Club, Reno, Nevada (<abbr title="circa">c.</abbr> 1932).
 
 Many books of the time claim that these tools were often gaffed or crooked, with
 one advertisement for an Electric Hyronemus claiming it can be made to roll only
@@ -228,46 +230,47 @@ one advertisement for an Electric Hyronemus claiming it can be made to roll only
 > A mounted “bird cage”, from @GamblingAndGamblingDevices [p. 118]. The handle at the left is used to invert the cage, and this rings a bell mounted on the right. The top and bottom are made from taut leather and produce a drumming noise when the dice drop. (A video of one of these bird cages in action can be [found on YouTube](https://www.youtube.com/watch?v=PEI2bvjXeCU).)
 </div>
 
-<Image 
-    position="aside"
-    alt="Three dice with the numbers 1 to 6 inscribed on their faces, with 1, 2, and 3 in red, and 4, 5, and 6 in black."
-    src='Potter_HyronemusDice.jpeg'
-    copyrightYear=2018,
-    license="with-permission",
-    orgName="Potter & Potter Auctions",
-    originalUrl="https://auctions.potterauctions.com/Three_Beveled_Ivory_Ball_Dice__-LOT9835.aspx" %}
-Three ball dice for use in the Hyronemus tub; these dice have black and red
-faces so can also be used to run other side bets.
-</Image>
-
-<div class="multi">
 > [!figure]
 >
+> ![Three dice with the numbers 1 to 6 inscribed on their faces, with 1, 2, and 3 in red, and 4, 5, and 6 in black.](Potter_HyronemusDice.jpeg)
+>
 > ```yaml
-> 
-    alt=""
-    size="small"
-    noborder=true
-    src='Hyronemus_Layout.jpg'
-    license='cc0' 
+> position: "aside"
+> copyrightYear: 2018
+> license: "with-permission"
+> orgName: "Potter & Potter Auctions"
+> originalUrl: "https://auctions.potterauctions.com/Three_Beveled_Ivory_Ball_Dice__-LOT9835.aspx"
 > ```
 >
-> Hyronemus tub and staking layout, from @GamblingAndGamblingDevices [p. 119].
+> Three ball dice for use in the Hyronemus tub; these dice have black and red faces so can also be used to run other side bets.
 
-<Image 
-    alt="A wooden bowl mounted on a spindle and lined with green baize."
-    size="small"
-    noborder=true
-    src='Potter_Hyronemus.jpeg'
-    copyrightYear=2018,
-    license="with-permission",
-    orgName="Potter & Potter Auctions",
-    originalUrl="https://auctions.potterauctions.com/Will___Finck_Hyronemus_Tub_and_Original_Shipping_C-LOT9831.aspx" %}
-A Will & Finck–brand ‘Hyronemus tub’, which would be spun, driving the dice up
-to the rim, and then stopped so that they fell to the centre (<abbr
-title="circa">c.</abbr> 1890).
-</Image>
-</div>
+> [!multi]
+> > [!figure]
+> >
+> > ![](Hyronemus_Layout.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > noborder: true
+> > license: 'cc0' 
+> > ```
+> >
+> > Hyronemus tub and staking layout, from @GamblingAndGamblingDevices [p. 119].
+> 
+> > [!figure]
+> >
+> > ![A wooden bowl mounted on a spindle and lined with green baize.](Potter_Hyronemus.jpeg)
+> >
+> > ```yaml
+> > size: "small"
+> > noborder: true
+> > copyrightYear: 2018
+> > license: "with-permission"
+> > orgName: "Potter & Potter Auctions"
+> > originalUrl: "https://auctions.potterauctions.com/Will___Finck_Hyronemus_Tub_and_Original_Shipping_C-LOT9831.aspx"
+> > ```
+> >
+> > A Will & Finck–brand ‘Hyronemus tub’, which would be spun, driving the dice up to the rim, and then stopped so that they fell to the centre (<abbr title="circa">c.</abbr> 1890).
 
 ### Extended Bets
 

@@ -11,25 +11,23 @@ hero:
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 ---
 
-<p class="lead">
 <Pronounce pronouncer="biscuit"  lang="ja-Latn" file="pronunciation_ja_花札.mp3" noun=true>Hanafuda</Pronounce> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronounce pronouncer="ssoonkimi"  lang="ko-Latn" file="pronunciation_ko_화투.mp3">hwatu</Pronounce> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.
-</p>
 
-{/* excerpt */}
-
-{/* 
-<Image
-    size="wide"
-    src="16201732242_8d1d3ed19d_o.jpg"
-    alt="A pile of hanafuda cards."
-    author="Japanexpertna.se",
-    copyrightYear=2015,
-    license='cc-by-sa',
-    licenseVersion='2.0',
-    originalUrl="https://www.flickr.com/photos/68532869@N08/16201732242" %}
-Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintendo
-</Image>
-*/}
+> [!todo]
+> > [!figure]
+> >
+> > ![A pile of hanafuda cards.](16201732242_8d1d3ed19d_o.jpg)
+> >
+> > ```yaml
+> > size: "wide"
+> > author: "Japanexpertna.se"
+> > copyrightYear: 2015
+> > license: 'cc-by-sa'
+> > licenseVersion: '2.0'
+> > originalUrl: "https://www.flickr.com/photos/68532869@N08/16201732242"
+> > ```
+> >
+> > Cards from a modern <span lang="ja-Latn">hanafuda</span> deck printed by Nintendo
 
 ## Composition of the deck
 
@@ -138,19 +136,30 @@ In some decks, especially Korean ones, these are marked with the 光 character f
 
 There are 9 <Pronounce pronouncer="yasuo"  lang="ja-Latn" file="pronunciation_ja_種.mp3">tane</Pronounce> (<span lang="ja">種</span>) cards, which are usually worth 10 points each. These cards mostly feature animals, but also a sake cup, and the ‘eight-planked bridge’.
 
-<Image
-    size="small"
-    justify="centered"
-    src="../Hanafuda_2-1.svg;../Hanafuda_4-1.svg;../Hanafuda_5-1.svg;../Hanafuda_6-1.svg;../Hanafuda_7-1.svg;../Hanafuda_8-2.svg;../Hanafuda_9-1.svg;../Hanafuda_10-1.svg;../Hanafuda_11-2.svg"
-    alt="The tane card for February, a bush warbler.;The tane card for April, a lesser cuckoo.;The tane card for May, a bridge.;The tane card for June, butterflies.;The tane card for July, a boar.;The tane card for August, geese.;The tane card for September, a sake cup.;The tane card for October, a deer.;The tane card for November, a swallow."
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    perRow=5 %}
-The 9 <span lang="ja-Latn">tane</span> cards.
-</Image>
+> [!figure]
+>
+> ![The tane card for February, a bush warbler.](../Hanafuda_2-1.svg)
+> ![The tane card for April, a lesser cuckoo.](../Hanafuda_4-1.svg)
+> ![The tane card for May, a bridge.](../Hanafuda_5-1.svg)
+> ![The tane card for June, butterflies.](../Hanafuda_6-1.svg)
+> ![The tane card for July, a boar.](../Hanafuda_7-1.svg)
+> ![The tane card for August, geese.](../Hanafuda_8-2.svg)
+> ![The tane card for September, a sake cup.](../Hanafuda_9-1.svg)
+> ![The tane card for October, a deer.](../Hanafuda_10-1.svg)
+> ![The tane card for November, a swallow.](../Hanafuda_11-2.svg)
+>
+> ```yaml
+> size: "small"
+> justify: "centered"
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> perRow: 5
+> ```
+>
+> The 9 <span lang="ja-Latn">tane</span> cards.
 
 #### <span lang="ja-Latn">Tanzaku</span> cards
 
@@ -163,30 +172,44 @@ sub-groups: <span lang="ja-Latn">tanzaku</span> with writing, plain red <span
 lang="ja-Latn">tanzaku</span>, and plain blue/purple <span
 lang="ja-Latn">tanzaku</span>.
 
-<Image
-    size="small"
-    justify="centered"
-    src="../Hanafuda_1-2.svg;../Hanafuda_2-2.svg;../Hanafuda_3-2.svg;../Hanafuda_4-2.svg;../Hanafuda_5-2.svg;../Hanafuda_6-2.svg;../Hanafuda_7-2.svg;../Hanafuda_9-2.svg;../Hanafuda_10-2.svg;../Hanafuda_11-3.svg"
-    alt="The tanzaku card for January.;The tanzaku card for February.;The tanzaku card for March.;The tanzaku card for April.;The tanzaku card for May.;The tanzaku card for June.;The tanzaku card for July.;The tanzaku card for September.;The tanzaku card for October.;The tanzaku card for November."
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    perRow=5 %}
-The 10 <span lang="ja-Latn">tanzaku</span> cards.
-</Image>
+> [!figure]
+>
+> ![The tanzaku card for January.](../Hanafuda_1-2.svg)
+> ![The tanzaku card for February.](../Hanafuda_2-2.svg)
+> ![The tanzaku card for March.](../Hanafuda_3-2.svg)
+> ![The tanzaku card for April.](../Hanafuda_4-2.svg)
+> ![The tanzaku card for May.](../Hanafuda_5-2.svg)
+> ![The tanzaku card for June.](../Hanafuda_6-2.svg)
+> ![The tanzaku card for July.](../Hanafuda_7-2.svg)
+> ![The tanzaku card for September.](../Hanafuda_9-2.svg)
+> ![The tanzaku card for October.](../Hanafuda_10-2.svg)
+> ![The tanzaku card for November.](../Hanafuda_11-3.svg)
+>
+> ```yaml
+> size: "small"
+> justify: "centered"
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> perRow: 5
+> ```
+>
+> The 10 <span lang="ja-Latn">tanzaku</span> cards.
 
-<Image
-    alt="A screen with a painting of a maple tree in autumn colours, and many tanzaku hanging from its branches."
-    size="wide"
-    src="Autumn_Maples_with_Poem_Slips.jpg"
-    originalUrl="https://www.artic.edu/artworks/127644/autumn-maples-with-poem-slips",
-    license='cc0',
-    orgName='The Art Institute of Chicago' %}
-<cite>Maple with Poem Slips</cite> (c. 1675)<br /><cite lang="ja">櫻楓短冊圖</cite><br />
-A six-panel screen (one of a pair) by <span class="noun" lang="ja-Latn">Tosa Mitsuoki</span> (<span lang="ja">土佐 光起</span>, 1617–1691).
-</Image>
+> [!figure]
+>
+> ![A screen with a painting of a maple tree in autumn colours, and many tanzaku hanging from its branches.](Autumn_Maples_with_Poem_Slips.jpg)
+>
+> ```yaml
+> size: "wide"
+> originalUrl: "https://www.artic.edu/artworks/127644/autumn-maples-with-poem-slips"
+> license: 'cc0'
+> orgName: 'The Art Institute of Chicago'
+> ```
+>
+> <cite>Maple with Poem Slips</cite> (c. 1675)<br /><cite lang="ja">櫻楓短冊圖</cite><br /> A six-panel screen (one of a pair) by <span class="noun" lang="ja-Latn">Tosa Mitsuoki</span> (<span lang="ja">土佐 光起</span>, 1617–1691).
 
 #### <span lang="ja-Latn">Kasu</span> cards
 
@@ -203,19 +226,45 @@ bold red &amp; black pattern. One of the December <span
 lang="ja-Latn">kasu</span> cards also has a yellow background and this card is
 treated specially in some games.
 
-<Image
-    size="small"
-    justify="centered"
-    src="../Hanafuda_1-3.svg;../Hanafuda_1-4.svg;../Hanafuda_2-3.svg;../Hanafuda_2-4.svg;../Hanafuda_3-3.svg;../Hanafuda_3-4.svg;../Hanafuda_4-3.svg;../Hanafuda_4-4.svg;../Hanafuda_5-3.svg;../Hanafuda_5-4.svg;../Hanafuda_6-3.svg;../Hanafuda_6-4.svg;../Hanafuda_7-3.svg;../Hanafuda_7-4.svg;../Hanafuda_8-3.svg;../Hanafuda_8-4.svg;../Hanafuda_9-3.svg;../Hanafuda_9-4.svg;../Hanafuda_10-3.svg;../Hanafuda_10-4.svg;../Hanafuda_11-4.svg;../Hanafuda_12-2.svg;../Hanafuda_12-3.svg;../Hanafuda_12-4.svg"
-    alt="A kasu card for January.;A kasu card for January.;A kasu card for February.;A kasu card for February.;A kasu card for March.;A kasu card for March.;A kasu card for April.;A kasu card for April.;A kasu card for May.;A kasu card for May.;A kasu card for June.;A kasu card for June.;A kasu card for July.;A kasu card for July.;A kasu card for August.;A kasu card for August.;A kasu card for September.;A kasu card for September.;A kasu card for October.;A kasu card for October.;The kasu card for November.;A kasu card for December, with yellow background.;A kasu card for December.;A kasu card for December."
-    perRow=8,
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %}
-The 24 <span lang="ja-Latn">kasu</span> cards.
-</Image>
+> [!figure]
+>
+> ![A kasu card for January.](../Hanafuda_1-3.svg)
+> ![A kasu card for January.](../Hanafuda_1-4.svg)
+> ![A kasu card for February.](../Hanafuda_2-3.svg)
+> ![A kasu card for February.](../Hanafuda_2-4.svg)
+> ![A kasu card for March.](../Hanafuda_3-3.svg)
+> ![A kasu card for March.](../Hanafuda_3-4.svg)
+> ![A kasu card for April.](../Hanafuda_4-3.svg)
+> ![A kasu card for April.](../Hanafuda_4-4.svg)
+> ![A kasu card for May.](../Hanafuda_5-3.svg)
+> ![A kasu card for May.](../Hanafuda_5-4.svg)
+> ![A kasu card for June.](../Hanafuda_6-3.svg)
+> ![A kasu card for June.](../Hanafuda_6-4.svg)
+> ![A kasu card for July.](../Hanafuda_7-3.svg)
+> ![A kasu card for July.](../Hanafuda_7-4.svg)
+> ![A kasu card for August.](../Hanafuda_8-3.svg)
+> ![A kasu card for August.](../Hanafuda_8-4.svg)
+> ![A kasu card for September.](../Hanafuda_9-3.svg)
+> ![A kasu card for September.](../Hanafuda_9-4.svg)
+> ![A kasu card for October.](../Hanafuda_10-3.svg)
+> ![A kasu card for October.](../Hanafuda_10-4.svg)
+> ![The kasu card for November.](../Hanafuda_11-4.svg)
+> ![A kasu card for December, with yellow background.](../Hanafuda_12-2.svg)
+> ![A kasu card for December.](../Hanafuda_12-3.svg)
+> ![A kasu card for December.](../Hanafuda_12-4.svg)
+>
+> ```yaml
+> size: "small"
+> justify: "centered"
+> perRow: 8
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The 24 <span lang="ja-Latn">kasu</span> cards.
 
 #### Extra cards
 
@@ -259,17 +308,20 @@ centre of the table. The goal is to capture high-value cards or to form specific
 scoring patterns called <span lang="ja-Latn">yaku</span> (<span lang="ja">役
 </span>).
 
-<Image
-    src="Hanafuda_Koi-Koi_Setup.jpg"
-    alt="Two hands of Hanafuda cards face down on a table with eight cards dealt face-up between them and the remainder of the cards in a stack face-down to the side."
-    copyrightYear=2021,
-    authorGiven="Marcus",
-    authorFamily="Richert",
-    originalUrl='http://www.marcusrichert.com/images/koikoi1/',
-    license='cc-by',
-    licenseVersion='2.0' %}
-A sample setup for the game of <span class="noun" lang="ja-Latn">Koi-Koi</span>, with a pool of eight cards.
-</Image>
+> [!figure]
+>
+> ![Two hands of Hanafuda cards face down on a table with eight cards dealt face-up between them and the remainder of the cards in a stack face-down to the side.](Hanafuda_Koi-Koi_Setup.jpg)
+>
+> ```yaml
+> copyrightYear: 2021
+> authorGiven: "Marcus"
+> authorFamily: "Richert"
+> originalUrl: 'http://www.marcusrichert.com/images/koikoi1/'
+> license: 'cc-by'
+> licenseVersion: '2.0'
+> ```
+>
+> A sample setup for the game of <span class="noun" lang="ja-Latn">Koi-Koi</span>, with a pool of eight cards.
 
 In most <span class="noun" lang="ja-Latn">Hanafuda</span> fishing games a turn proceeds as
 follows:

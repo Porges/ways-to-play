@@ -347,15 +347,19 @@ provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
 > This 50 <span lang="ja-Latn">sen</span> stamp has a clear <span lang="ja-Latn" class="noun">Nintendō</span> (<span lang="ja">任天堂</span>) cancellation mark.
 
 
-<Image 
-    src="20190921_timbre1.jpg;20190921_timbre.jpg"
-    alt="A square blue stamp reading ‘50 sen’ in Japanese with a stylized chrysanthemum flower.;A square red stamp reading ‘1 yen’ in Japanese with a stylized chrysanthemum flower and elaborate border."
-    copyrightYear=2019,
-    authorGiven="Fabrice", authorFamily="Heilig",
-    license='with-permission' %}
-Late <span class="noun" lang="ja-Latn">Taishō</span>‐era tax stamps: blue 50 <span lang="ja-Latn">sen</span> on left, red 1 <span lang="ja-Latn">yen</span> on
-right.
-</Image>
+> [!figure]
+>
+> ![A square blue stamp reading ‘50 sen’ in Japanese with a stylized chrysanthemum flower.](20190921_timbre1.jpg)
+> ![A square red stamp reading ‘1 yen’ in Japanese with a stylized chrysanthemum flower and elaborate border.](20190921_timbre.jpg)
+>
+> ```yaml
+> copyrightYear: 2019
+> authorGiven: "Fabrice"
+> authorFamily: "Heilig"
+> license: 'with-permission'
+> ```
+>
+> Late <span class="noun" lang="ja-Latn">Taishō</span>‐era tax stamps: blue 50 <span lang="ja-Latn">sen</span> on left, red 1 <span lang="ja-Latn">yen</span> on right.
 
 <div class="multi">
 > [!figure]
@@ -535,13 +539,20 @@ lang="ja">都の花</span> ‘flowers of the city’.
 Other <span class="noun" lang="ja-Latn">Nintendō</span> <span class="noun" lang="ja-Latn">Hanafuda</span>
 brands have included:[@ModernJapaneseWrappers p. 54]
 
-<Image position="aside" alt="An actor wearing a mask of a white-faced woman with large cheeks, raised eyebrows, and a smile on her lips." src="otafuku.jpg" originalUrl="https://www.flickr.com/photos/kryptos5/2953289035", authorGiven="See Tatt", authorFamily="Yeo" license="cc-by-nc-nd", licenseVersion="2.0" %}
-<span class="noun" lang="ja-Latn">Otafuku</span> (also known as
-<span class="noun" lang="ja-Latn">Okame</span>) is a traditional character associated with
-good luck, and often appears in <span lang="ja-Latn">kagura</span>
-performances alongside [<span class="noun"
-lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
-</Image>
+> [!figure]
+>
+> ![An actor wearing a mask of a white-faced woman with large cheeks, raised eyebrows, and a smile on her lips.](otafuku.jpg)
+>
+> ```yaml
+> position: "aside"
+> originalUrl: "https://www.flickr.com/photos/kryptos5/2953289035"
+> authorGiven: "See Tatt"
+> authorFamily: "Yeo"
+> license: "cc-by-nc-nd"
+> licenseVersion: "2.0"
+> ```
+>
+> <span class="noun" lang="ja-Latn">Otafuku</span> (also known as <span class="noun" lang="ja-Latn">Okame</span>) is a traditional character associated with good luck, and often appears in <span lang="ja-Latn">kagura</span> performances alongside [<span class="noun" lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
 
 * <span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a
   translation of ‘first consul’, Napoleon’s title from 1799–1804), trademarked
@@ -580,15 +591,19 @@ lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
 * <span lang="ja">丹頂</span> (<span lang="ja-Latn">tanchō</span>, ‘red-crested
   crane’, that appears on the pine bright)
 
-<Image
-    orgName="beforemario.com",
-    orgUrl="https://beforemario.com",
-    copyrightYear=2021,
-    license="with-permission"
-    src="./Nintendo_tokiwa_box.jpg;./Nintendo_tokiwa.jpg"
-    alt=";Some green pine trees in a misty landscape." %}
-The <span lang="ja-Latn">tokiwa</span> external box and wrapper.
-</Image>
+> [!figure]
+>
+> ![](./Nintendo_tokiwa_box.jpg)
+> ![Some green pine trees in a misty landscape.](./Nintendo_tokiwa.jpg)
+>
+> ```yaml
+> orgName: "beforemario.com"
+> orgUrl: "https://beforemario.com"
+> copyrightYear: 2021
+> license: "with-permission"
+> ```
+>
+> The <span lang="ja-Latn">tokiwa</span> external box and wrapper.
 
 <div class="multi">
 > [!figure]
@@ -1239,19 +1254,18 @@ suit, while the 14-month deck has both bamboo and lotus.
 > All the cards from <span class="noun" lang="ja-Latn">Matsui Tengudō</span>’s 13-month deck.
 
 
-<Image 
-    src="Matsui_13thmonth.jpg"
-    alt=""
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="with-permission" %}
-The bamboo cards from the 13-month deck. From left-to-right they are: a sixth
-Bright card featuring the <span lang="ja-Latn">kanji</span> for “tiger” (<span
-lang="ja">寅</span>), a <span lang="ja-Latn">tane</span> card with a sparrow, a
-<span lang="ja-Latn">tanzaku</span> card, and a <span lang="ja-Latn">kasu</span>
-card.
-</Image>
+> [!figure]
+>
+> ![](Matsui_13thmonth.jpg)
+>
+> ```yaml
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "with-permission"
+> ```
+>
+> The bamboo cards from the 13-month deck. From left-to-right they are: a sixth Bright card featuring the <span lang="ja-Latn">kanji</span> for “tiger” (<span lang="ja">寅</span>), a <span lang="ja-Latn">tane</span> card with a sparrow, a <span lang="ja-Latn">tanzaku</span> card, and a <span lang="ja-Latn">kasu</span> card.
 
 ### Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>)
 
@@ -1577,19 +1591,19 @@ Brands included:[@ModernJapaneseWrappers p. 48]
 
 ### <img src='/small-images/kanenaka.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nihon Karuta Seizō</span>  (<span lang="ja">日本骨牌製造</span>)/<span class="noun" lang="ja-Latn">Tamada Fukushōdō</span> (<span lang="ja">玉田福勝堂</span>)
 
-<Image 
-    position="aside"
-    src='Nihon_1896.jpg'
-    alt="A box front depicting the storefront of a Japanese karuta manufacturer."
-    orgName="British Museum",
-    license="cc-by-nc-sa",
-    licenseVersion="4.0",
-    originalUrl="https://www.britishmuseum.org/collection/object/A_1896-0501-876" %}
-A <span class="noun" lang="ja-Latn">Tamada Fukushōdō</span> box depicting a storefront, from
-the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in
-1895. (This deck is briefly described in @SchreiberCollection [p. 184], under
-‘Japanese #2’.)
-</Image>
+> [!figure]
+>
+> ![A box front depicting the storefront of a Japanese karuta manufacturer.](Nihon_1896.jpg)
+>
+> ```yaml
+> position: "aside"
+> orgName: "British Museum"
+> license: "cc-by-nc-sa"
+> licenseVersion: "4.0"
+> originalUrl: "https://www.britishmuseum.org/collection/object/A_1896-0501-876"
+> ```
+>
+> A <span class="noun" lang="ja-Latn">Tamada Fukushōdō</span> box depicting a storefront, from the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in 1895. (This deck is briefly described in @SchreiberCollection [p. 184], under ‘Japanese #2’.)
 
 > [!figure]
 >
@@ -2055,44 +2069,45 @@ brands included:
 * <span lang="ja">旭富士</span> (<span lang="ja-Latn">asahifuji</span> ‘<span class="noun" lang="ja-Latn">Fuji</span> sunrise’)
 * <span lang="ja">桜判官</span> (<span lang="ja-Latn">sakurahangan</span> ‘cherry blossom judge’, a reference to [<span class="noun" lang="ja-Latn">Tōyama Kagemoto</span>](https://en.wikipedia.org/wiki/T%C5%8Dyama_Kagemoto))
 
-<div class="multi">
-<Image 
-    src='Heibon_botanjishi.jpg'
-    alt="A hanafuda deck with an image of a stylized lion and peony flower."
-    license="with-permission",
-    copyrightYear=2021,
-    authorFamily="Sartor",
-    authorGiven="Ryan" %}
-<span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">botanjishi</span>
-wrapper. Note the sticker indicating that the box contains <span class="noun"
-lang="ja-Latn">Kabufuda</span> cards.
-</Image>
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> >
+> > ![A hanafuda deck with an image of a stylized lion and peony flower.](Heibon_botanjishi.jpg)
+> >
+> > ```yaml
+> > license: "with-permission"
+> > copyrightYear: 2021
+> > authorFamily: "Sartor"
+> > authorGiven: "Ryan"
+> > ```
+> >
+> > <span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">botanjishi</span> wrapper. Note the sticker indicating that the box contains <span class="noun" lang="ja-Latn">Kabufuda</span> cards.
 > 
-    src='Heibon_sakurahangan.jpg'
-    alt="A hanafuda wrapper with an image of a Japanese judge’s haircut and cherry blossoms."
-    license="with-permission",
-    copyrightYear=2021,
-    authorFamily="Sartor",
-    authorGiven="Ryan" 
-> ```
->
-> <span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">sakurahangan</span> wrapper.
-
-<Image 
-    src='Heibon_asahifuji.jpg'
-    alt="A hanafuda wrapper with an image of the sun rising over Mount Fuji."
-    license="with-permission",
-    copyrightYear=2021,
-    authorFamily="Sartor",
-    authorGiven="Ryan" %}
-<span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">asahifuji</span> wrapper.
-(Low-resolution image from the side of a <span lang="ja-Latn">botanjishi</span>
-wrapper.)
-</Image>
-</div>
+> > [!figure]
+> >
+> > ![A hanafuda wrapper with an image of a Japanese judge’s haircut and cherry blossoms.](Heibon_sakurahangan.jpg)
+> >
+> > ```yaml
+> > license: "with-permission"
+> > copyrightYear: 2021
+> > authorFamily: "Sartor"
+> > authorGiven: "Ryan" 
+> > ```
+> >
+> > <span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">sakurahangan</span> wrapper.
+> 
+> > [!figure]
+> >
+> > ![A hanafuda wrapper with an image of the sun rising over Mount Fuji.](Heibon_asahifuji.jpg)
+> >
+> > ```yaml
+> > license: "with-permission"
+> > copyrightYear: 2021
+> > authorFamily: "Sartor"
+> > authorGiven: "Ryan"
+> > ```
+> >
+> > <span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">asahifuji</span> wrapper. (Low-resolution image from the side of a <span lang="ja-Latn">botanjishi</span> wrapper.)
 
 ### <span class="noun" lang="ja-Latn">Kawakita</span> (<span lang="ja">川北</span>)
 
@@ -2247,23 +2262,19 @@ lang="ja" class="circled">恵</span>. The only brands I know of are:
 
 ### <img src='/small-images/marui.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nishimura</span> (<span lang="ja">西村</span>)
 
-<Image 
-    position="aside"
-    src='nishimura_brand.jpg'
-    alt="A card with a samurai wearing traditional clothing and carrying an open umbrella"
-    authorFamily="Richert",
-    authorGiven="Marcus"
-    copyrightYear=2020,
-    license="with-permission" %}
-An extra ‘advertising’ card featuring the <span lang="ja-Latn">kabuki</span>
-character [<span class="noun"
-lang="ja-Latn">Sukeroku</span>](https://en.wikipedia.org/wiki/Sukeroku), who
-appeared often in <span class="noun" lang="ja-Latn">Nishimura</span>’s branding. <span class="noun"
-lang="ja-Latn">Sukeroku</span> popularized the style of umbrella called a
-‘snake-eye umbrella’ (<span lang="ja">蛇の目傘</span>) due to its pattern, so
-this type of umbrella is also referred to as a <span
-lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
-</Image>
+> [!figure]
+>
+> ![A card with a samurai wearing traditional clothing and carrying an open umbrella](nishimura_brand.jpg)
+>
+> ```yaml
+> position: "aside"
+> authorFamily: "Richert"
+> authorGiven: "Marcus"
+> copyrightYear: 2020
+> license: "with-permission"
+> ```
+>
+> An extra ‘advertising’ card featuring the <span lang="ja-Latn">kabuki</span> character [<span class="noun" lang="ja-Latn">Sukeroku</span>](https://en.wikipedia.org/wiki/Sukeroku), who appeared often in <span class="noun" lang="ja-Latn">Nishimura</span>’s branding. <span class="noun" lang="ja-Latn">Sukeroku</span> popularized the style of umbrella called a ‘snake-eye umbrella’ (<span lang="ja">蛇の目傘</span>) due to its pattern, so this type of umbrella is also referred to as a <span lang="ja-Latn">Sukeroku-gasa</span> (<span lang="ja">助六傘</span>).
 
 > [!figure]
 >
@@ -2310,14 +2321,18 @@ brands included:[@ModernJapaneseWrappers pp. 54–8]
 * <span lang="ja">圓満</span> (<span lang="ja-Latn">enman</span>, ‘harmony’), trademarked in 1921[@Trademarks1924_18 p. 332]
 * <span lang="ja">東山</span> (<span lang="ja-Latn">higashiyama</span>, ‘[<span class="noun" lang="ja-Latn">Higashiyama</span>](https://en.wikipedia.org/wiki/Higashiyama-ku,_Kyoto)’)
 
-<Image 
-    src="nishimura_1.png;nishimura_2.png"
-    alt="A picture of a die surrounded by various playing cards.;A picture of a hand holding various playing cards, and a Tengu mask."
-    license="cc0", originalUrl="http://www.tga-j.org/documents/i/627/detail.html",orgName="日本粧業会 資料館" %}
-Two <span class="noun" lang="ja-Latn">Nishimura</span> advertisements, from the December 1907
-issue of the “Tokyo Toilet Trade Journal”. The advert on the right shows that
-they also sold <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> products.
-</Image>
+> [!figure]
+>
+> ![A picture of a die surrounded by various playing cards.](nishimura_1.png)
+> ![A picture of a hand holding various playing cards, and a Tengu mask.](nishimura_2.png)
+>
+> ```yaml
+> license: "cc0"
+> originalUrl: "http://www.tga-j.org/documents/i/627/detail.html"
+> orgName: "日本粧業会 資料館"
+> ```
+>
+> Two <span class="noun" lang="ja-Latn">Nishimura</span> advertisements, from the December 1907 issue of the “Tokyo Toilet Trade Journal”. The advert on the right shows that they also sold <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> products.
 
 ### <img src='/small-images/marukyou.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kyōto Karuta</span> (<span lang="ja">京都かるた</span>)
 
@@ -2545,30 +2560,32 @@ lang="ja-Latn">[shōjō](https://en.wikipedia.org/wiki/Sh%C5%8Dj%C5%8D)</span>, 
 Japanese sea spirit who is depicted as carrying a long-handled <span
 lang="ja-Latn">sake</span> ladle.
 
-<div class="multi">
-<Image 
-    alt="A card with an image of a woman carrying a fan with the manufacturer’s name written upon it, surrounded by leaves of the various plants of the Hanafuda deck"
-    src='Akata-Card.jpg'
-    license="cc0",
-    originalUrl='https://gallica.bnf.fr/ark:/12148/btv1b105093472',
-    orgName='Bibliothèque nationale de France', orgLang="fr", orgAbbr='BnF' %}
-An additional manufacturer’s card included with an <span class="noun" lang="ja-Latn">Akata Shōjōya</span> deck, produced after 1902.
-
-BnF Gallica has [high-quality scans](https://gallica.bnf.fr/ark:/12148/btv1b105093472) of this deck, and Yale University also [owns a copy](https://search.library.yale.edu/catalog/13318512).
-</Image>
-<Image 
-    alt="A newspaper ad in Japanese with pictures of Hanafuda and Western playing cards."
-    src='Akata-Newspaper.jpg'
-    license="cc0",
-    originalUrl='https://hojishinbun.hoover.org/?a=d&d=jan19210920-01.1.4',
-    orgName='Hoover Institution' %}
-An advertisement for <span class="noun" lang="ja-Latn">Akata Shōjōya</span> cards in the <a
-href="https://en.wikipedia.org/wiki/Nichi_Bei_Times">Nichi Bei Times</a>,
-September 1921. This indicates the cards were being imported into San Francisco
-in the 1920s.
-</Image>
-</div>
-
+> [!multi]
+> > [!figure]
+> >
+> > ![A card with an image of a woman carrying a fan with the manufacturer’s name written upon it, surrounded by leaves of the various plants of the Hanafuda deck](Akata-Card.jpg)
+> >
+> > ```yaml
+> > license: "cc0"
+> > originalUrl: 'https://gallica.bnf.fr/ark:/12148/btv1b105093472'
+> > orgName: 'Bibliothèque nationale de France'
+> > orgLang: "fr"
+> > orgAbbr: 'BnF'
+> > ```
+> >
+> > An additional manufacturer’s card included with an <span class="noun" lang="ja-Latn">Akata Shōjōya</span> deck, produced after 1902. BnF Gallica has [high-quality scans](https://gallica.bnf.fr/ark:/12148/btv1b105093472) of this deck, and Yale University also [owns a copy](https://search.library.yale.edu/catalog/13318512).
+> 
+> > [!figure]
+> >
+> > ![A newspaper ad in Japanese with pictures of Hanafuda and Western playing cards.](Akata-Newspaper.jpg)
+> >
+> > ```yaml
+> > license: "cc0"
+> > originalUrl: 'https://hojishinbun.hoover.org/?a=d&d=jan19210920-01.1.4'
+> > orgName: 'Hoover Institution'
+> > ```
+> >
+> > An advertisement for <span class="noun" lang="ja-Latn">Akata Shōjōya</span> cards in the <a href="https://en.wikipedia.org/wiki/Nichi_Bei_Times">Nichi Bei Times</a>, September 1921. This indicates the cards were being imported into San Francisco in the 1920s.
 ### <span class="noun" lang="ja-Latn">Suisando</span> (<span lang="ja">翠山堂</span>)
 
 A manufacturer that has a very finely-detailed deck of cards reproduced in
@@ -2673,15 +2690,18 @@ Their brands included:
 * <span lang="ja">𠮷野櫻</span> (<span lang="ja-Latn">yoshino&shy;zakura</span>, ‘<span class="noun" lang="ja-Latn">Yoshino</span> cherry blossoms’), trademarked in 1921[@Trademarks1924_18 p. 333]
 * <span lang="ja">百萬圓</span> (<span lang="ja-Latn">hyakumanen</span>, ‘a million yen’), trademarked in 1921[@Trademarks1924_18 p. 333]
 
-<Image src='Kamigataya_miyakonishiki.jpg' alt="" 
-    orgName="beforemario.com",
-    orgUrl="https://beforemario.com",
-    copyrightYear=2021,
-    license="with-permission" %}
-The <span lang="ja-Latn">miyako nishiki</span> wrapper, manufactured by <span class="noun"
-lang="ja-Latn">Nintendō</span> (credited as “<span class="noun" lang="ja-Latn">F.
-Yamauchi</span>”).
-</Image>
+> [!figure]
+>
+> ![](Kamigataya_miyakonishiki.jpg)
+>
+> ```yaml
+> orgName: "beforemario.com"
+> orgUrl: "https://beforemario.com"
+> copyrightYear: 2021
+> license: "with-permission"
+> ```
+>
+> The <span lang="ja-Latn">miyako nishiki</span> wrapper, manufactured by <span class="noun" lang="ja-Latn">Nintendō</span> (credited as “<span class="noun" lang="ja-Latn">F. Yamauchi</span>”).
 
 ### <img src='/small-images/marukin.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Marukin</span>
 

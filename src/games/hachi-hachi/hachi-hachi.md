@@ -136,16 +136,25 @@ A hand consisting of only <span lang="ja-Latn">kasu</span> cards.[^fn9]
 
 Thus, the highest-scoring hand possible has both <span lang="ja-Latn">shi&shy;sō</span> and <span lang="ja-Latn">karasu</span>; there is only one way this hand can be formed, giving it a 1-in-73&#x202f;629&#x202f;072 chance of occurring! Even ordinary <span lang="ja-Latn">shi&shy;sō</span> has a mere 1-in-139&#x202f;449 chance of being dealt, and when this happens it is a common house rule that the round is instantly won by the player who receives such a hand; some sources suggest that the deck should then be burned.
 
-<Image
-    src="../../articles/cards/japan/hanafuda/Hanafuda_11-1.svg;../../articles/cards/japan/hanafuda/Hanafuda_11-2.svg;../../articles/cards/japan/hanafuda/Hanafuda_11-3.svg;../../articles/cards/japan/hanafuda/Hanafuda_11-4.svg;../../articles/cards/japan/hanafuda/Hanafuda_12-2.svg;../../articles/cards/japan/hanafuda/Hanafuda_12-3.svg;../../articles/cards/japan/hanafuda/Hanafuda_12-4.svg"
-    alt=";;;;;;"
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0" %}
-The exceedingly rare highest-possible dealt hand.
-</Image>
+> [!figure]
+>
+> ![](../../articles/cards/japan/hanafuda/Hanafuda_11-1.svg)
+> ![](../../articles/cards/japan/hanafuda/Hanafuda_11-2.svg)
+> ![](../../articles/cards/japan/hanafuda/Hanafuda_11-3.svg)
+> ![](../../articles/cards/japan/hanafuda/Hanafuda_11-4.svg)
+> ![](../../articles/cards/japan/hanafuda/Hanafuda_12-2.svg)
+> ![](../../articles/cards/japan/hanafuda/Hanafuda_12-3.svg)
+> ![](../../articles/cards/japan/hanafuda/Hanafuda_12-4.svg)
+>
+> ```yaml
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> ```
+>
+> The exceedingly rare highest-possible dealt hand.
 
 The overall number of possible hands with combinations from each set of <span lang="ja-Latn">te&shy;yaku</span> are as follows. Each cell indicates the number of possible hands which contain both the given ‘set’ and <span lang="ja-Latn">‘kasu’ yaku</span>, as well as the overall probability (many entries round to zero). By inverting the probability of the top-left entry, we can see that a <span lang="ja-Latn">te&shy;yaku</span> is expected in about 1-in-4 dealt hands.
 
