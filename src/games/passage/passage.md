@@ -8,11 +8,13 @@ countries: FR,UK
 
 > [!figure]
 >
+> ![A drawing of a man bending over a table and rolling three dice by candlelight. He looks ecstatic.](314D003a.jpg)
+>
 > ```yaml
-> position="aside" src="314D003a.jpg" alt="A drawing of a man bending over a table and rolling three dice by candlelight. He looks ecstatic." 
-    originalUrl="http://www.zeno.org/nid/20003938557" 
-    orgName="Zeno.org"
-    license="cc0" 
+> position: "aside"
+> originalUrl: "http://www.zeno.org/nid/20003938557"
+> orgName: "Zeno.org"
+> license: "cc0"
 > ```
 >
 > <span lang="fr">Le Passe Dix</span> (<abbr>c.</abbr> 1797) by Daniel Nikolaus Chodowiecki (here signed ‘Huquier’, the publishing address is also false). The player is probably the button-maker Nicolas Fonvielle.[@AntiquariaatArineVanDerSteur44 p. 38]

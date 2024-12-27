@@ -19,13 +19,15 @@ standard deck of cards by removing all <Cards>⑩</Cards>s.
 
 > [!figure]
 >
+> ![48 cards in 4 suits of 12 with red and black designs, which are difficult to decipher](../../articles/cards/japan/komatsufuda.png)
+>
 > ```yaml
-> 
-  noborder=true
-  size="wide"
-  src="../../articles/cards/japan/komatsufuda.png"
-  alt="48 cards in 4 suits of 12 with red and black designs, which are difficult to decipher"
-  license='cc-by-sa', licenseVersion='4.0', author='Outlookxp', copyrightYear=2014, originalUrl='https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%9D%BE%E6%9C%AD.png' 
+> noborder: true
+> size: "wide"
+> license: 'cc-by-sa'
+> licenseVersion: '4.0'
+> author: 'Outlookxp'
+> copyrightYear: 2014, originalUrl='https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%9D%BE%E6%9C%AD.png' 
 > ```
 >
 > The 48 cards of the traditional <span lang="ja-Latn">komatsufuda</span> deck.

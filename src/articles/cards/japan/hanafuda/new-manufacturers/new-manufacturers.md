@@ -28,11 +28,7 @@ custom promotional decks for Jeju beer (2017).
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='PebbleHwatu.jpg'
-  alt=""
-> ```
+> ![](PebbleHwatu.jpg)
 >
 > The five Bright cards of the Pebble <span class="noun" lang="ko-Latn">Hwatu</span> deck (2016).
 
@@ -48,11 +44,7 @@ there are not “5 Brights”, so the “4 Brights” are reproduced here:
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='Hawaii_5Brights.jpg'
-  alt=""
-> ```
+> ![](Hawaii_5Brights.jpg)
 >
 > Hanafuda Hawai‘i Style bright cards.
 
@@ -61,11 +53,7 @@ is worth a mere 5 points with the Hawaiian rules):
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='Hawaii_November.jpg'
-  alt=""
-> ```
+> ![](Hawaii_November.jpg)
 >
 > Hanafuda Hawai‘i Style November cards.
 
@@ -77,22 +65,14 @@ become <span lang="haw">‘iliahi</span> (sandalwood) flowers, and the curtain
 becomes the traditional <span lang="haw">kapa</span> cloth.
 
 > [!figure]
->
-> ```yaml
 > 
-  src='NaPua_5Brights.jpg'
-  alt=""
-> ```
+> ![](NaPua_5Brights.jpg)
 >
 > Hanafuda Nā Pua Hawai‘i bright cards.
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='NaPua_November.jpg'
-  alt=""
-> ```
+> ![](NaPua_November.jpg)
 >
 > Hanafuda Nā Pua Hawai‘i November cards.
 
@@ -107,11 +87,7 @@ available in a plain version, or one that has indices to aid new players.
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='Hanami.jpg'
-  alt="Five hanafuda cards drawn in a minimalistic but realistic style." 
-> ```
+> ![Five hanafuda cards drawn in a minimalistic but realistic style.](Hanami.jpg)
 >
 > The five Bright cards of the <span class="noun" lang="ja-Latn">Hanami Hanafuda</span> deck.
 
@@ -126,21 +102,13 @@ lang="ja-Latn">yōkai</span>), and it also comes with rules for a new game calle
 
 > [!figure]
 >
-> ```yaml
-> 
-  src="IW_night_parade.jpg"
-  alt=""
-> ```
+> ![](IW_night_parade.jpg)
 >
 > The five Bright cards of the Night Parade deck, and one joker.
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='IW_tetraptych.jpg'
-  alt=""
-> ```
+> ![](IW_tetraptych.jpg)
 >
 > The tetraptych formed by the four <Cards>K</Cards>s, all of which can be used as jokers.
 
@@ -233,12 +201,11 @@ Junior have produced a ground-up redesign of Hanafuda into a poker format deck, 
 
 > [!figure]
 >
+> ![](louie_brights.jpg)
+>
 > ```yaml
-> 
-  src='louie_brights.jpg'
-  size="wide"
-  noborder=true
-  alt=""
+> size: "wide"
+> noborder: true
 > ```
 >
 > The 5 Bright cards of the Junior Phoenix <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
@@ -251,12 +218,11 @@ and second Oni card:[^fn0]
 
 > [!figure]
 >
+> ![](louie_bamboo.jpg)
+>
 > ```yaml
-> 
-  src='louie_bamboo.jpg'
-  size="wide"
-  noborder=true
-  alt=""
+> size: "wide"
+> noborder: true
 > ```
 >
 > The additional ‘Bamboo’ suit of the Phoenix deck, as well as the lightning card (featuring an <span lang="ja-Latn">oni</span>) and an advertisement card.
@@ -278,10 +244,11 @@ games invented by Ryan.
 
 > [!figure]
 >
+> 
+> ![](pixel_hanafuda.jpg)
+>
 > ```yaml
 > 
-  src='pixel_hanafuda.jpg'
-  alt=""
 > ```
 >
 > The five Brights of the Pixel <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
@@ -306,11 +273,7 @@ each month combine to form a tetraptych.
 
 > [!figure]
 >
-> ```yaml
-> 
-  src='JR_brights.jpg'
-  alt=""
-> ```
+> ![](JR_brights.jpg)
 >
 > The five Brights of the <span class="noun" lang="ja-Latn">Tetsufuda</span> deck.
 
@@ -328,9 +291,7 @@ icons and imagery related to Heroku’s products.
 
 > [!figure]
 >
-> ```yaml
-> src='Heroku_Brights.jpg' alt=""
-> ```
+> ![](Heroku_Brights.jpg)
 >
 > The 5 Brights of Heroku’s deck.
 
@@ -349,11 +310,10 @@ Korean decks.
 
 > [!figure]
 >
+> ![](Tuhwa_Brights.jpg)
+>
 > ```yaml
-> 
-  src='Tuhwa_Brights.jpg'
-  size="wide"
-  alt=""
+> size: "wide"
 > ```
 >
 >   The 5 Brights of the Tuhwa (v2) deck.
@@ -364,12 +324,11 @@ This deck was [Kickstarted in 2023](https://www.kickstarter.com/projects/ebaraf/
 
 > [!figure]
 >
+> ![](hanafuda_koikoi.jpg)
+>
 > ```yaml
-> 
-  src='hanafuda_koikoi.jpg'
-  noborder=true
-  size="wide"
-  alt=""
+> noborder: true
+> size: "wide"
 > ```
 >
 > The 5 Brights of the Hanafuda Koi-Koi (deluxe edition) deck.
@@ -380,12 +339,11 @@ In 2023, the video game company [Brownies](https://en.wikipedia.org/wiki/Brownie
 
 > [!figure]
 >
+> ![](brownies.jpg)
+>
 > ```yaml
-> 
-  src='brownies.jpg'
-  noborder=true
-  size="wide"
-  alt=""
+> noborder: true
+> size: "wide"
 > ```
 >
 > The 5 Brights of the Brownies deck.

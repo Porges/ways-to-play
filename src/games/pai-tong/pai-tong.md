@@ -20,6 +20,7 @@ date modified: 2024-12-22
 </p>
 
 > [!aside]
+>
 > The name <span lang="th-Latn">pai phong</span> could be from Hokkien <span lang="zh">碰牌</span> <span lang="nan-Latn">phòng pâi</span>, ‘bump cards’. This terminology is also used in the game of [Mahjong](games/mahjong/mahjong.md), where <span lang="zh">碰</span> — usually “pong” in English rules — is the call for claiming a tile to form a set of three identical tiles. For the derivation of <span lang="th-latn">tong</span>, see below.
 
 > [!figure]

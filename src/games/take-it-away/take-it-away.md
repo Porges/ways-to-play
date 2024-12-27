@@ -28,14 +28,10 @@ To play you will need an 8×8 chess or checkerboard, and 64 coloured pieces
 Arrange the pieces randomly, one on each square of the board.
 
 > [!figure]
->
-> ```yaml
 > 
-    src='take-it-away.svg'
-    alt="A board randomly filled with white, red, and blue pieces." 
-> ```
+> ![A board randomly filled with white, red, and blue pieces.](take-it-away.svg)
 >
->     A sample initial configuration.
+> A sample initial configuration.
 
 
 ### Game

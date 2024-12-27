@@ -17,6 +17,7 @@ The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang
 The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Eventually the game became known under the modern name of Keno, which is now played in casinos around the world.
 
 > [!aside]
+>
 > Older romanizations include <span lang="yue-Latn" class="aka">pak kap piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn" class="aka">pák kòp piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn" class="aka">baahk gáap piu</span>, <span lang="yue-Latn" class="aka">paâk káap p'iu</span>, or <span lang="yue-Latn" class="aka">pai ko p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and this further proves the Cantonese origin of the game (see e.g.  @SparrowAndPigeon, although I find some of his other (original) conclusions to be dubious).
 
 In European sources, the game is often referred to as simply “the Chinese lottery”. The transliteration of the game is usually given as “<span class="aka">pak-a-poo</span>” (most common in New Zealand) or “<span class="aka">pak-a(h)-pu</span>” (most common in Australia). In London (particularly centred around the Chinese community in Pennyfields, Poplar) it was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa “pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portuguese romanization of “<span lang="pt" class="aka">pacapio</span>”, which remains standard in current usage (previous terms include <span lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first referred to as “<span class="aka">boc hop bu</span>”[@NYTimes18870127] before picking up a variety of the other names mentioned above, as well as “Bock Ka Pian”,[@WhatTheHeathenPlays] but in Hawaiʻi it was referred to as “<span class="aka">pakapio</span>”.[@Pakapio]
@@ -138,14 +139,15 @@ Nevertheless, the game was permitted to continue and licenses to run <span lang=
 
 > [!figure]
 >
+> ![A neon “Pacapio” sign.](156734440_fc41d2c401_o.jpg)
+>
 > ```yaml
-> src="156734440_fc41d2c401_o.jpg" alt="A neon “Pacapio” sign."
-    license="cc-by"
-    licenseVersion="2.0"
-    authorGiven="Brian"
-    authorFamily="Chow"
-    copyrightYear="2005"
-    originalUrl="https://www.flickr.com/photos/free-stuff/156734440" 
+> license: "cc-by"
+> licenseVersion: "2.0"
+> authorGiven: "Brian"
+> authorFamily: "Chow"
+> copyrightYear: "2005"
+> originalUrl: "https://www.flickr.com/photos/free-stuff/156734440"
 > ```
 >
 > A “Pacapio” sign in Macau.
@@ -1093,13 +1095,14 @@ inadvertently returned the game to its pigeon-racing roots.
 
 > [!figure]
 >
+> ![A newspaper advertisement: 'The Palace Club presents Reno's newest sensation: race horse keno. $2000 limit, it's new, it's different, don't miss the grand opening. Post time 12:00 noon.'](Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg)
+> ![A newspaper advertisement: 'They're off! at The Palace Club on their second sensational week: race horse keno, the game that has taken Reno by storm. First post 10 A.M., races every twenty minutes until 2:00 A.M., Saturdays until 4:00 A. M.](Reno_Gazette_Journal_Sat__May_2__1936_.jpg)
+>
 > ```yaml
-> src="Reno_Gazette_Journal_Sat__Apr_25__1936_.jpg;Reno_Gazette_Journal_Sat__May_2__1936_.jpg" 
-    justify="centered"
-    alt="A newspaper advertisement: 'The Palace Club presents Reno's newest sensation: race horse keno. $2000 limit, it's new, it's different, don't miss the grand opening. Post time 12:00 noon.';A newspaper advertisement: 'They're off! at The Palace Club on their second sensational week: race horse keno, the game that has taken Reno by storm. First post 10 A.M., races every twenty minutes until 2:00 A.M., Saturdays until 4:00 A. M.'"
-    originalUrl="https://www.newspapers.com/clip/99585617/race-horse-keno/"
-    license="cc0"
-    orgName="newspapers.com" 
+> justify: "centered"
+> originalUrl: "https://www.newspapers.com/clip/99585617/race-horse-keno/"
+> license: "cc0"
+> orgName: "newspapers.com"
 > ```
 >
 > Race Horse Keno was introduced to the Palace Club in Reno upon its grand (re)opening on the 25th of April 1936.
@@ -1124,15 +1127,13 @@ suppliers.[@AlwaysBetOnTheButcher p. 50]
 
 > [!figure]
 >
+> ![A black-and-white photo of two tickets on a stone counter. Two hands belonging to a man are in the shot: the left is holding the ticket, the right is holding a brush with ink on it.](harolds_keno.jpg)
+>
 > ```yaml
-> 
-alt="A black-and-white photo of two tickets on a stone counter. Two hands belonging to a man are in the shot: the left is holding the ticket, the right is holding a brush with ink on it."
-src="harolds_keno.jpg"
-license="cc-by-nc-nd"
-licenseVersion="4.0"
-originalUrl="https://archive.org/details/FamilyAffairHaroldsClub/page/n201"
-orgName="University of Nevada Oral History Program"
-
+> license: "cc-by-nc-nd"
+> licenseVersion: "4.0"
+> originalUrl: "https://archive.org/details/FamilyAffairHaroldsClub/page/n201"
+> orgName: "University of Nevada Oral History Program"
 > ```
 >
 > A keno writer using a horsehair brush to mark tickets in Harolds Club, Nevada.

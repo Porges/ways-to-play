@@ -35,16 +35,15 @@ date modified: 2024-12-22
 <span class="noun" lang="st">Morabaraba</span> is played as a competitive sport in South Africa, administered by [Mind Sports South Africa](http://mindsportsa.co.za/).  It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.[@MorabarabaGetOnBoard]
 
 > [!figure]
+> 
+> ![A morabaraba board with bottlecaps being used as pieces. One player is using them right-side-up and the other player is using them upside-down.](shutterstock_1431198950.jpg)
 >
 > ```yaml
-> 
-    alt="A morabaraba board with bottlecaps being used as pieces. One player is using them right-side-up and the other player is using them upside-down."
-    size="wide"
-    src='shutterstock_1431198950.jpg'
-  orgName="Shutterstock.com",
-  author="ivanfolio",
-  originalUrl="https://www.shutterstock.com/image-photo/traditonal-african-strategy-board-game-know-1431198950",
-  license="stock-image" 
+> size: "wide"
+> orgName: "Shutterstock.com"
+> author: "ivanfolio"
+> originalUrl: "https://www.shutterstock.com/image-photo/traditonal-african-strategy-board-game-know-1431198950"
+> license: "stock-image"
 > ```
 >
 > A game of <span class="noun" lang="st">Morabaraba</span> being played.
@@ -78,27 +77,28 @@ In Lesotho’s past the game was restricted to being played by men, to the point
 ## Terminology
 
 > [!aside]
->  Note that in Sesotho, isiXhosa, and Setswana, Um-/Mo-rabaraba can also be used to refer to the game of [Draughts](games/draughts/draughts.md).[@MultilingualIllustrated p. 275]
+>
+> Note that in Sesotho, isiXhosa, and Setswana, Um-/Mo-rabaraba can also be used to refer to the game of [Draughts](games/draughts/draughts.md).[@MultilingualIllustrated p. 275]
 
 The name <span lang="st">moraba-raba</span> comes from the Sesotho language, and is related to the verb <span lang="st">ho raba raba</span> ‘to roam in small circles’,[@SeSothoDictionary p. 304] so could refer to the action of a mill.‌ In Nguni languages (isiZulu, isiXhosa), it is known as <span class="noun aka" lang="zu">(Um)labalaba</span>, with similar meaning,‌[@GamesBasotho pp. 247–50] and in Ronga, spoken in Mozambique, it is called <span class="noun aka" lang="rng">Muravarava</span>.
 
 > [!figure]
 >
+> ![Two men dressed in warm blankets, gumboots, and balaclava, carrying staffs](shutterstock_1759308824.jpg)
+>
 > ```yaml
-> 
-  alt="Two men dressed in warm blankets, gumboots, and balaclava, carrying staffs"
-  position="left"
-  src="shutterstock_1759308824.jpg"
-    originalUrl="https://www.shutterstock.com/image-photo/bloemfontein-south-africa-september-11th-2019-1759308824",
-    authorGiven="Vladimira", authorFamily="Pufflerova",
-    orgName="Shutterstock.com",
-    license="stock-image" 
+> position: "left"
+> originalUrl: "https://www.shutterstock.com/image-photo/bloemfontein-south-africa-september-11th-2019-1759308824"
+> authorGiven: "Vladimira"
+> authorFamily: "Pufflerova"
+> orgName: "Shutterstock.com"
+> license: "stock-image" 
 > ```
 >
 > Two Lesotho herdsmen carrying staffs. What appear to be caps are rolled-up balaclava: most of Lesotho is above 1&#x202f;800&nbsp;m, so it is cooler than many neighbouring countries.
 
-
 > [!aside]
+>
 > There are two different [Sesotho orthographies](https://en.wikipedia.org/wiki/Sesotho_orthography). In this article I give the South African one first, followed by the Lesotho.
 
 There are other names which are probably derived from the European name of ‘mill’:‌[@MkeleMorabaraba p. 134] an alternate Sesotho name is <span lang="st" class="aka">mmila</span>/<span lang="st" class="aka">’mila</span>, ‘road’.‌[@UsingGamesToPromote p. 283] This is also sometimes given as <span lang="st" class="aka">mmela</span>.[@IncorporatingTheIndigenous p. 378]
@@ -150,15 +150,14 @@ they are unable to make a valid move on their turn.
 
 > [!figure]
 >
+> ![Two school chidren stand next to a table where a game of muravarava is being played, looking at the board intensely, while an umpire watches.](shutterstock_1268455078.jpg)
+>
 > ```yaml
-> 
-  alt="Two school chidren stand next to a table where a game of muravarava is being played, looking at the board intensely, while an umpire watches."
-  src='shutterstock_1268455078.jpg'
-    copyrightYear=2018,
-    orgName="Shutterstock.com",
-    author="ivanfolio",
-    originalUrl="https://www.shutterstock.com/image-photo/manica-mozambique-december-19-2018-young-1268455078",
-    license="stock-image" 
+> copyrightYear: 2018
+> orgName: "Shutterstock.com"
+> author: "ivanfolio"
+> originalUrl: "https://www.shutterstock.com/image-photo/manica-mozambique-december-19-2018-young-1268455078"
+> license: "stock-image"
 > ```
 >
 > A game of <span class="noun" lang="rng">Muravarava</span> being played in Mozambique, at Chinhamapere Secondary School.

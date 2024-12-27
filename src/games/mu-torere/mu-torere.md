@@ -18,13 +18,14 @@ It is said that the [Ngāti Haua](https://en.wikipedia.org/wiki/Ng%C4%81ti_Hau%C
 
 > [!figure]
 >
+> ![](mu_torere.jpg)
+>
 > ```yaml
-> src="mu_torere.jpg" alt="TODO"
-    size="wide"
-    orgName="Alexander Turnbull Library"
-    license="with-permission"
-    identifier="PAColl-5671-07"
-    originalUrl="https://natlib.govt.nz/records/23218316" 
+> size: "wide"
+> orgName: "Alexander Turnbull Library"
+> license: "with-permission"
+> identifier: "PAColl-5671-07"
+> originalUrl: "https://natlib.govt.nz/records/23218316"
 > ```
 >
 > A married couple (Te Urikore at left and Te Rangiua at right) playing Mū Tōrere, <abbr title="circa">c.</abbr> 1910.

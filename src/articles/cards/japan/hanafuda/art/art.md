@@ -12,7 +12,7 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<p class="lead"><span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn"  noun=true pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) that had been played since the <Pronounce lang="ja-Latn"  noun=true pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> period (<span lang="ja">平安</span>, 794–1185).</p>
+<p class="lead"><span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn"  noun="true" pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) that had been played since the <Pronounce lang="ja-Latn"  noun="true" pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> period (<span lang="ja">平安</span>, 794–1185).</p>
 
 ## Origins
 
@@ -245,9 +245,10 @@ is something that only men and courtesans do.”
 The monk <span lang="ja-Latn" class="noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</span> (<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130]
 
 > [!aside]
+>
 > <span class="noun" lang="ja-Latn">Kenkō</span> goes on to apply this strategic advice as part of an extended metaphor for good governance and living well:
 >
- > > In all things, do not seek for distant advantage. Simply maintain correctly what is close to hand. In the words of the Chinese sage [Duke Xiao of Qing](https://en.wikipedia.org/wiki/Zhao_Pu), ‘Do what is good, and ask no questions of the future.’ Surely a ruler should also govern in this way.
+> > In all things, do not seek for distant advantage. Simply maintain correctly what is close to hand. In the words of the Chinese sage [Duke Xiao of Qing](https://en.wikipedia.org/wiki/Zhao_Pu), ‘Do what is good, and ask no questions of the future.’ Surely a ruler should also govern in this way.
 
 > If someone engaged in a game of shell matching neglects the shells in front of
 > him while he looks around to check what others might be hiding in their
@@ -438,7 +439,7 @@ his first shop in the <span class="noun" lang="ja-Latn">Yagenbori</span> neighbo
 [Chūō](https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo) district in <span class="noun"
 lang="ja-Latn">Tōkyō</span> (<span lang="ja">中央区薬研堀町</span>, now part of
 <span class="noun" lang="ja-Latn">Higashi–Nihonbashi</span>).  The shop was named “{%
-pronounce lang="ja-Latn" word="Kamigataya" noun=true pronouncer="poyotan"
+pronounce lang="ja-Latn" word="Kamigataya" noun="true" pronouncer="poyotan"
 file="pronunciation_ja_上方屋.mp3" %}” (<span lang="ja">上方屋</span>, ‘<span class="noun"
 lang="ja-Latn">Kyōto</span> region store’).[@EbashiHanafuda pp.
 189–192][@OpeningKamigataya]
@@ -486,7 +487,7 @@ lang="ja-Latn">Meiji-za</span>](https://en.wikipedia.org/wiki/Meiji-za)).
 > Advertisement for <span class="noun" lang="ja-Latn">Maeda</span>’s play entitled <cite lang="ja">花合四季盃</cite> (“Flower-matching four seasons sake cup”). The background shows an early form of <span class="noun" lang="ja-Latn">Hanafuda</span> deck. On left is [Onoe Kikugorō V](https://en.wikipedia.org/wiki/Onoe_Kikugor%C5%8D_V) (<span lang="ja">五代目尾上菊五郎</span>), on right [<span class="noun" lang="ja-Latn">Ichikawa Kuzō III</span>](https://ja.wikipedia.org/wiki/%E5%B8%82%E5%B7%9D%E5%9C%98%E8%94%B5_(7%E4%BB%A3%E7%9B%AE)) (<span lang="ja">三代目市川九蔵</span>) as <span class="noun" lang="ja-Latn">Ono no Michikaze</span>.
 
 In addition to the retail stores, a specialized wholesale store was opened in
-the {% pronounce lang="ja-Latn" noun=true word="Ningyōchō" pronouncer="keto2204"
+the {% pronounce lang="ja-Latn" noun="true" word="Ningyōchō" pronouncer="keto2204"
 file="pronunciation_ja_人形町通り.mp3" %} street in the <span class="noun"
 lang="ja-Latn">Sumi&shy;yoshi</span> neigh&shy;bour&shy;hood,{%fn%}<span class="noun"
 lang="ja-Latn">Sumiyoshi-chō</span> was an <span class="noun"
@@ -535,8 +536,6 @@ lang="ja-Latn">Shimogataya</span> (<span lang="ja">下方屋</span>).[@OpeningKa
 > > ```
 > >
 > > The storefront of <span class="noun" lang="ja-Latn">Nakagataya</span>, as shown on a <span class="noun" lang="ja-Latn">Hyakunin Isshu</span> box.
-
-</div>
 
 Once the viability of <span class="noun" lang="ja-Latn">Hanafuda</span> had been pro&shy;ven, other manufacturers appeared quickly: the com&shy;pany that was later to become <span class="noun" lang="ja-Latn">Nin&shy;tendo</span> began producing <span class="noun" lang="ja-Latn">Hanafuda</span> cards in 1889. Other companies such as <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> claim to have been operating discreetly during the pro&shy;hi&shy;bition period; in their case behind the doors of a rice merchant named <span class="noun" lang="ja-Latn">Minatoya</span> (<span lang="ja">湊屋</span>).[@OishiTengudoHistory4]
 
@@ -607,6 +606,7 @@ gameplay — far more than a casual observer would know!
 > > Apparently a family playing with <span class="noun" lang="ja-Latn">Hanafuda</span> cards.[@MaedaBook p. 13]
  
 > [!aside]
+>
 > <span class="noun" lang="ja-Latn">Murai</span>’s main competitor was <span class="noun" lang="ja-Latn">Iwaya</span> (<span lang="ja-Latn">岩谷商会</span>), run by <span class="noun" lang="ja-Latn">Iwaya Matsuhei</span> (<span lang="ja">岩谷松平</span>), who had a more nationalistic outlook. Interestingly, the iconography of their cigarette brands overlaps significantly with that of later <span class="noun" lang="ja-Latn">Hanafuda</span> brands — some examples include <span lang="ja-Latn">dai&shy;tengu</span> (<span lang="ja">大天狗</span> “large tengu”), <span class="noun" lang="ja-Latn">Fuji</span> (<span lang="ja">冨士</span>), and <span lang="ja-Latn">hinode</span> (<span lang="ja">日乃出</span> “sunrise”) — and their chief logo was that of a red <span class="noun" lang="ja-Latn">Tengu</span>, which is also strongly associated with <span class="noun" lang="ja-Latn">Hanafuda</span>. It is unclear to me whether there is any real link here or if the coincidence simply reflects the conventionality of traditional Japanese art.
 
 Another popularizing force during this period was that of cigarette manufacturers who began to include <span class="noun" lang="ja-Latn">Hanafuda</span>-patterned cards in cigarette packages as collectible items. The manufacturer <span class="noun" lang="ja-Latn">Murai</span> Brothers (<span lang="ja">村井兄弟商會</span>, founded by the “tobacco king” <span class="noun" lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) in <span class="noun" lang="ja-Latn">Kyōto</span> in 1892) included tobacco cards which combined <span class="noun" lang="ja-Latn">Hanafuda</span> with Western playing cards. <span class="noun" lang="ja-Latn">Murai</span> was a progressive company that enthusiastically embraced Westernization across the whole of its business. They operated in conjunction with Western tobacco companies such as the British-American Tobacco Company, and many of their cigarette brands bore English titles. Where his competitor <span class="noun" lang="ja-Latn">Iwaya</span> would name a brand <span lang="ja"> 日乃出</span> (<span lang="ja-Latn">hinode</span> “sunrise”), <span class="noun" lang="ja-Latn">Murai</span> used the English name “Sunshine”.
@@ -870,11 +870,10 @@ contact them!
 
 > [!figure]
 >
+> ![Four hanafuda cards, one with a picture of a Tengu and manfacturer’s name, the rest with a stylized depiction of a spearman.](Echigo_Kobana_Extras.jpg)
+>
 > ```yaml
-> 
-    size="small"
-    src="Echigo_Kobana_Extras.jpg"
-    alt="Four hanafuda cards, one with a picture of a Tengu and manfacturer’s name, the rest with a stylized depiction of a spearman." 
+> size: "small"
 > ```
 >
 > The four extra cards of an <span lang="ja-Latn">Echigo-kobana</span> deck by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
@@ -904,7 +903,7 @@ lang="ja-Latn">Tokushima</span> prefecture.
 Like the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern, some of the <span class="noun"
 lang="ja-Latn">Awa-­bana</span> carry poems (in fact, they carry the same
 poems). The deck also contains an extra card which features the titular {%
-pronounce noun=true lang="ja-Latn" pronouncer="renad"
+pronounce noun="true" lang="ja-Latn" pronouncer="renad"
 file='pronunciation_ja_kintoki.mp3' word="Kintoki" %} (<span lang="ja">金時
 </span>), [a legendary strong-boy also known as <span class="noun"
 lang="ja-Latn">Kintarō</span>](https://en.wikipedia.org/wiki/Kintar%C5%8D).
@@ -1085,7 +1084,7 @@ Poetry’.{%endfn%} (<span lang="ja">源宗于</span>) at a poetry competition
 organized by the Empress during the reign of Emperor <span class="noun"
 lang="ja-Latn">Uda</span> . It is featured as Poem 24 in the ‘Spring’ section of
 the {% pronounce pronouncer="skent" word="Kokin Wakashū" lang="ja-Latn"
-file='pronunciation_ja_古今和歌集.mp3' noun=true %} (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):
+file='pronunciation_ja_古今和歌集.mp3' noun="true" %} (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):
 
 {%aside%}
 @PoemsOfTheEchigobana [p. 4] notes that in the standard design printed by
@@ -1178,7 +1177,7 @@ The second month is represented by plum trees in blossom (<span lang="ja">梅</s
 file="pronunciation_ja_梅.mp3" %}). The <span lang="ja-Latn">tane</span> has a
 bush warbler–plum blossom combination that has been associated with spring since
 very early times, dating at least from the {% pronounce pronouncer="monekuson"
-word="Man’yōshū" lang="ja-Latn" file="pronunciation_ja_万葉集.mp3" noun=true %}
+word="Man’yōshū" lang="ja-Latn" file="pronunciation_ja_万葉集.mp3" noun="true" %}
 (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of
 poetry compiled during the <span class="noun" lang="ja-Latn">Nara</span> period sometime
 after 759).[@FourSeasons loc. 978]
@@ -1216,11 +1215,10 @@ Without the voice of the warbler that comes out of the valley, how would we know
 
 > [!figure]
 >
+> ![The kasu cards of the Echigo-bana pattern which bear the poem.](poem-4.jpg)
+>
 > ```yaml
-> 
-    size="small"
-    src="poem-4.jpg"
-    alt="The kasu cards of the Echigo-bana pattern which bear the poem." 
+> size: "small"
 > ```
 >
 > <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
@@ -1743,30 +1741,26 @@ lang="ja-Latn">chūshū kangetsu</span>);[@WorldOfTheShiningPrince p. 176] the
 full moon always fell on the 15th due to the way the calendar was
 constructed.[@WorldOfTheShiningPrince p. 170]
 
-<div class="multi">
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> >
+> > ![The kasu cards of the Echigo-bana pattern which bear a poem.](poem-3.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
 > 
-    size="small"
-    src="poem-3.jpg"
-    alt="The kasu cards of the Echigo-bana pattern which bear a poem." 
-> ```
->
-> <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
-
-> [!figure]
->
-> ```yaml
-> 
-    size="small"
-    src="awa_junk_8.jpg"
-    alt="The kasu cards of the Awa-bana pattern which bears a different portion of the poem." 
-> ```
->
-> <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> cards, with reduced form of the <span lang="ja-Latn">tanka</span>.
-
-</div>
+> > [!figure]
+> >
+> > ![The kasu cards of the Awa-bana pattern which bears a different portion of the poem.](awa_junk_8.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> cards, with reduced form of the <span lang="ja-Latn">tanka</span>.
 
 @PoemsOfTheEchigobana says that the poem on the <span
 lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards is
@@ -1896,18 +1890,18 @@ Otokuni</span> (<span lang="ja">河合乙州</span>) came to visit him with a gi
 
 > [!figure]
 >
-> ```yaml
 > 
-    src="Imperial_Seal_of_Japan.svg"
-    noborder=true
-    position="aside"
-    size="small"
-    alt="A very stylized image of a chrysanthemum with 16 petals radiating outward."
-    license="cc0",
-    originalUrl="https://commons.wikimedia.org/wiki/File:Imperial_Seal_of_Japan.svg",
-    authorGiven="Philip",
-    authorFamily="Nilsson",
-    copyrightYear=2006 
+> ![A very stylized image of a chrysanthemum with 16 petals radiating outward.](Imperial_Seal_of_Japan.svg)
+>
+> ```yaml
+> noborder: true
+> position: "aside"
+> size: "small"
+> license: "cc0"
+> originalUrl: "https://commons.wikimedia.org/wiki/File:Imperial_Seal_of_Japan.svg"
+> authorGiven: "Philip"
+> authorFamily: "Nilsson"
+> copyrightYear: 2006
 > ```
 >
 >     The Imperial Seal of Japan.
@@ -1948,16 +1942,16 @@ the imperial family (who use a 14-petal version).
 
 > [!figure]
 >
-> ```yaml
 > 
-    position="aside"
-    src='Tatsutagawa.jpg'
-    alt="Maple trees with their leaves showing a bright red-orange colour."
-    license='cc-by-sa',
-    licenseVersion='3.0',
-    originalUrl='https://commons.wikimedia.org/wiki/File:Nara_Prefectural_Tatsuta_Park01s3s4200.jpg',
-    author='663highland',
-    copyrightYear=2010 
+> ![Maple trees with their leaves showing a bright red-orange colour.](Tatsutagawa.jpg)
+>
+> ```yaml
+> position: "aside"
+> license: 'cc-by-sa'
+> licenseVersion: '3.0'
+> originalUrl: 'https://commons.wikimedia.org/wiki/File:Nara_Prefectural_Tatsuta_Park01s3s4200.jpg'
+> author: '663highland'
+> copyrightYear: 2010
 > ```
 >
 > Maple trees along the banks of the <span class="noun" lang="ja-Latn">Tatsuta-gawa</span> in autumn.
@@ -1985,13 +1979,12 @@ become a slang term <span lang="ja-Latn">shikato</span> (<span lang="ja">しか�
 
 > [!figure]
 >
+> ![A combination Hanafuda-Western playing cards tobacco card with maple leaves floating on water, and the 10 of spades.](Murai4.jpg)
+>
 > ```yaml
-> 
-    noborder=true
-    position="aside"
-    size="small"
-    alt="A combination Hanafuda-Western playing cards tobacco card with maple leaves floating on water, and the 10 of spades."
-    src='Murai4.jpg' 
+> noborder: true
+> position: "aside"
+> size: "small"
 > ```
 >
 > This <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco card shows maple leaves floating on water.
@@ -2080,6 +2073,7 @@ brights, and in some games the “lightning card” has special powers, such as
 being able to match any other card.
 
 > [!aside]
+>
 > It has been suggested (e.g. by author <span class="noun" lang="ja-Latn">Murai Shōzō</span> <span lang="ja">村井省三</span> and by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>[@OishiSadakuro]) that the running “Umbrella Man” has its origins in the character of <span class="noun" lang="ja-Latn">Sadakurō</span> from the <span lang="ja-Latn">bunraku</span> play <cite>The Treasury of Loyal Retainers</cite> (<cite lang="ja">仮名手本忠臣蔵</cite> <cite lang="ja-Latn">Kanadehon Chūshingura</cite>), written in 1748. However, as <span class="noun" lang="ja-Latn">Ebashi</span> points out,[@EbashiSadakuro] the <span lang="ja-Latn">hana-awase</span> deck pictured at the top of this article contains an “Umbrella Man”. This precludes the <span class="noun" lang="ja-Latn">Sadakurō</span> origin story, as the play was written some 40 years after that deck was produced.
 >
 > > [!figure]
@@ -2103,12 +2097,11 @@ preserved in the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern.
     
 > [!figure]
 >
+> ![A card with a picture of a figure carrying an umbrella and walking away from the viewer. The figure has a fluffy orange tail.](ekb_rainman.jpg)
+>
 > ```yaml
-> 
-    size="small"
-    position="left"
-    src="ekb_rainman.jpg"
-    alt="A card with a picture of a figure carrying an umbrella and walking away from the viewer. The figure has a fluffy orange tail." 
+> size: "small"
+> position: "left"
 > ```
 >
 > The <span class="noun" lang="ja-Latn">Echigo-kobana</span> “rain man” appears to be some kind of animal.
@@ -2124,7 +2117,7 @@ lang="ja-Latn">kasu</span> card, which is usually called the ogre card in
 Japanese (<span lang="ja">鬼札</span> {%pronounce  pronouncer="strawberrybrown"
 word="onifuda" lang="ja-Latn" file="pronunciation_ja_鬼札.mp3" %}). The drums,
 which are visible in some patterns, are an attribute of the thunder god {%
-pronounce noun=true lang="ja-Latn" word="Raijin" pronouncer="kaori410f"
+pronounce noun="true" lang="ja-Latn" word="Raijin" pronouncer="kaori410f"
 file="pronunciation_ja_雷神.mp3" %} (<span lang="ja">雷神</span>).
 
 > [!figure]
@@ -2144,44 +2137,42 @@ lang="ja-Latn">Ōtsu-e</span> prints](https://en.wikipedia.org/wiki/Otsu-e)
 attempting to ‘fish’ back a drum that he has dropped. Remnants of this design
 can be seen in many decks of the standard pattern.
 
-<div class="multi">
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> >
+> > 
+> > ![](hanafuda-musashino-09.pdf-000.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > A dramatic fishing scene, from @DevilsPictureBooks.
 > 
-    size="small"
-    src='hanafuda-musashino-09.pdf-000.jpg'
-    alt=""
-> ```
->
->     A dramatic fishing scene, from @DevilsPictureBooks.
-> [!figure]
->
-> ```yaml
+> > [!figure]
+> >
+> > 
+> > ![Hands extending from a cloud dangle a hooked rope towards a floating drum.](raijin_card_sun.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > A key-block print of the <span class="noun" lang="ja-Latn">Raijin</span> scene, from @MuraiSun.
 > 
-    size="small"
-    src="raijin_card_sun.jpg"
-    alt="Hands extending from a cloud dangle a hooked rope towards a floating drum." 
-> ```
->
-> A key-block print of the <span class="noun" lang="ja-Latn">Raijin</span> scene, from @MuraiSun.
-
-> [!figure]
->
-> ```yaml
-> 
-    size="small"
-    src='kaikinki-hanafuda11.pdf-000.jpg'
-    alt=""
-    orgName="Japan Playing Card Museum",
-    orgAbbr="JPCM",
-    originalUrl="https://japanplayingcardmuseum.com/image/kaikinki-hanafuda11.pdf",
-    license="with-permission" 
-> ```
->
->     A card with hook visible at bottom, from a deck by <span class="noun" lang="ja-Latn">Hakamada</span> (<span lang="ja">袴田</span>).
-
-</div>
+> > [!figure]
+> >
+> > ![](kaikinki-hanafuda11.pdf-000.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > orgName: "Japan Playing Card Museum"
+> > orgAbbr: "JPCM"
+> > originalUrl: "https://japanplayingcardmuseum.com/image/kaikinki-hanafuda11.pdf"
+> > license: "with-permission"
+> > ```
+> >
+> > A card with hook visible at bottom, from a deck by <span class="noun" lang="ja-Latn">Hakamada</span> (<span lang="ja">袴田</span>).
 
 ### <span lang="ja">12月</span>
 
@@ -2211,15 +2202,14 @@ Japan, including [a very early <span class="noun" lang="ja-Latn">Hanafuda</span>
 
 > [!figure]
 >
+> ![](shutterstock_666401218.jpg)
+>
 > ```yaml
-> 
-    position="aside"
-    alt=""
-    src="shutterstock_666401218.jpg"
-    license="stock-image",
-    orgName="Shutterstock.com",
-    author="Dina Rogatnykh",
-    originalUrl="https://www.shutterstock.com/image-photo/flowers-paulownia-tomentosa-close-666401218" 
+> position: "aside"
+> license: "stock-image"
+> orgName: "Shutterstock.com"
+> author: "Dina Rogatnykh"
+> originalUrl: "https://www.shutterstock.com/image-photo/flowers-paulownia-tomentosa-close-666401218"
 > ```
 >
 > Flowers of the paulownia tree.
@@ -2227,15 +2217,14 @@ Japan, including [a very early <span class="noun" lang="ja-Latn">Hanafuda</span>
 
 > [!figure]
 >
+> ![](shutterstock_1546151357.jpg)
+>
 > ```yaml
-> 
-    position="aside"
-    src="shutterstock_1546151357.jpg"
-    alt=""
-    license="stock-image",
-    orgName="Shutterstock.com"
-    author="Stray Toki",
-    originalUrl="https://www.shutterstock.com/image-photo/toyotomi-hideyoshi-family-crest-on-roof-1546151357" 
+> position: "aside"
+> license: "stock-image"
+> orgName: "Shutterstock.com"
+> author: "Stray Toki"
+> originalUrl: "https://www.shutterstock.com/image-photo/toyotomi-hideyoshi-family-crest-on-roof-1546151357"
 > ```
 >
 > The paulownia crest was most famously used by the <span class="noun" lang="ja-Latn">Toyotomi</span> family.

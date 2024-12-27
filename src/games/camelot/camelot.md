@@ -22,15 +22,15 @@ games originally developed by George Parker (of Parker Brothers fame).
 
 > [!figure]
 >
+> ![A board game box with a picture of two knights on the front.]()camelot.jpg
+>
 > ```yaml
-> 
-    position="aside"
-    src="camelot.jpg"
-    alt="A board game box with a picture of two knights on the front." 
-    authorFamily="Thompson", authorGiven="Mike",
-    originalUrl="https://tomsk3000.com/product/1930-camelot-board-game-by-parker-brothers/",
-    copyrightYear=2020,
-    license="with-permission" 
+> position: "aside"
+> authorFamily: "Thompson"
+> authorGiven: "Mike"
+> originalUrl: "https://tomsk3000.com/product/1930-camelot-board-game-by-parker-brothers/"
+> copyrightYear: 2020
+> license: "with-permission" 
 > ```
 >
 > A 1930s Camelot box.
@@ -51,14 +51,14 @@ the newly-formed Parker Brothers in 1888.
 
 > [!figure]
 >
-> ```yaml
 > 
-  position="left"
-  src='Camelot_Patent.png'
-  alt="A black and white drawing of a game board"
-    orgName="Google Patents",
-    originalUrl="https://patents.google.com/patent/US1780038A",
-    license="cc0" 
+> ![A black and white drawing of a game board](Camelot_Patent.png)
+>
+> ```yaml
+> position: "left"
+> orgName: "Google Patents"
+> originalUrl: "https://patents.google.com/patent/US1780038A"
+> license: "cc0"
 > ```
 >
 > A diagram of the board from George Parker’s 1930 patent.
@@ -97,18 +97,17 @@ piece.
 
 > [!figure]
 >
+> ![A chequered board with an unusual shape, missing the corner squares.](camelot_board.jpg)
+>
 > ```yaml
-> 
-  src="camelot_board.jpg"
-  alt="A chequered board with an unusual shape, missing the corner squares."
-    authorFamily="Thompson", authorGiven="Mike",
-    originalUrl="https://tomsk3000.com/product/1930-camelot-board-game-by-parker-brothers/",
-    copyrightYear=2020,
-    license="with-permission" 
+> authorFamily: "Thompson"
+> authorGiven: "Mike"
+> originalUrl: "https://tomsk3000.com/product/1930-camelot-board-game-by-parker-brothers/"
+> copyrightYear: 2020
+> license: "with-permission" 
 > ```
 >
 > A 1930s Camelot board.
-
 
 ### Moves
 
@@ -161,11 +160,11 @@ game. It was invented by Michael Wortley Nolan in 2002.
 
 > [!figure]
 >
-> ```yaml
 > 
-    alt=""
-    noborder=true
-    src='camette.svg' 
+> ![](camette.svg)
+>
+> ```yaml
+> noborder: true
 > ```
 >
 > The initial setup for Camette.

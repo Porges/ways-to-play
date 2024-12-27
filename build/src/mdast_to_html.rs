@@ -147,7 +147,7 @@ impl Converter {
                 Node::ListItem(list_item) => { li { (self.expand(list_item.children)) } },
                 Node::Paragraph(paragraph) => { p { (self.expand(paragraph.children)) } },
                 Node::MdxJsxFlowElement(mdx_jsx_flow_element) => {
-                    (self.handle_component(mdx_jsx_flow_element))
+                    (self.handle_component_flow(mdx_jsx_flow_element))
                 }
                 Node::MdxJsxTextElement(mdx_jsx_text_element) => {
                     (self.handle_component_text(mdx_jsx_text_element))
@@ -227,11 +227,29 @@ impl Converter {
                     "An image would go here"
                 }
             }
+            Some("Pronounce") => {
+                // TODO: complete this
+                html! {
+                    span.pronounce { (self.expand(flow.children)) }
+                }
+            }
+            Some("Cards") => {
+                // TODO: complete this
+                html! {
+                    span.cards { (self.expand(flow.children)) }
+                }
+            }
+            Some("Dice") => {
+                // TODO: complete this
+                html! {
+                    span.dice { (self.expand(flow.children)) }
+                }
+            }
             _ => panic!("unknown component: {:?}", flow.name),
         }
     }
 
-    fn handle_component(&self, flow: MdxJsxFlowElement) -> Markup {
+    fn handle_component_flow(&self, flow: MdxJsxFlowElement) -> Markup {
         match flow.name.as_deref() {
             Some(x) if x.chars().next().unwrap().is_ascii_lowercase() => {
                 // TODO: ugly
@@ -284,10 +302,26 @@ impl Converter {
                     // not rendered
                     return Markup::default();
                 } else if trimmed == "[!figure]" {
-                    todo!()
+                    return html! {
+                        figure {
+                            "TODO: a figure goes here"
+                        }
+                    };
+                } else if trimmed == "[!epigraph]" {
+                    return html! {
+                        blockquote.epigraph {
+                            (self.expand(blockquote.children.into_iter().skip(1).collect()))
+                        }
+                    };
                 } else if trimmed == "[!multi]" {
                     return html! {
                         div.multi {
+                            (self.expand(blockquote.children.into_iter().skip(1).collect()))
+                        }
+                    };
+                } else if trimmed == "[!multi-equal]" {
+                    return html! {
+                        div.multi.equal {
                             (self.expand(blockquote.children.into_iter().skip(1).collect()))
                         }
                     };

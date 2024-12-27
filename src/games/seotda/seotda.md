@@ -7,7 +7,7 @@ draft: true
 countries: KR
 ---
 
-<Pronounce file="pronunciation_ko_섰다.mp3"  pronouncer="Letitgo"  class="aka" noun=true lang="ko-Latn">Seotda</Pronounce> (<span lang="ko">섰다</span>)
+<Pronounce file="pronunciation_ko_섰다.mp3"  pronouncer="Letitgo"  class="aka" noun="true" lang="ko-Latn">Seotda</Pronounce> (<span lang="ko">섰다</span>)
 
 ## Hand Rankings
 

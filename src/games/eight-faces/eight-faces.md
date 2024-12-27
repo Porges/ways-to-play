@@ -13,6 +13,7 @@ Eight Faces (<span lang="zh" class="aka">八面</span>, Mandarin <span lang="cmn
 </p>
 
 > [!aside]
+>
 > The name is given as “<span class="aka">Pek Bin</span>” in older English sources, such as @GamblingGamesOfMalaya [p. 125], and in legislation based upon that work (see below).
 
 The description below is mostly based upon @GamblingGamesOfMalaya, which describes it as popular in Malaysia with “Chinese ladies”. In Malay the game is called <span lang="ms" class="aka">pebin</span>.[@ChineseLoanWordsMalay p. 53]
@@ -91,8 +92,10 @@ one for each result, along with several circles and quarter-circles:
 
 > [!figure]
 >
+> ![](pek-bin.svg)
+>
 > ```yaml
-> src='pek-bin.svg' noborder=true alt=""
+> noborder: true
 > ```
 >
 > The staking layout, after @GamblingGamesOfMalaya [p. 124].

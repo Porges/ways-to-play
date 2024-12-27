@@ -33,7 +33,7 @@ deep.</p>
 
 ## History
 
-{% pronounce lang="haw" noun=true word="Kōnane" pronouncer="vawahine"
+{% pronounce lang="haw" noun="true" word="Kōnane" pronouncer="vawahine"
 file="pronunciation_haw_kōnane.mp3" %} stands alone as a purely-abstract game in
 Hawaiian culture.{%fn%}John F. G. Stokes (1875–1960, an Australian archæologist
 on <span class="noun" lang="haw">Hawaiʻi</span>) suggested at one point—with
@@ -172,20 +172,19 @@ lang="haw">kōnane</span> by playing the game on the diagonal.
 
 > [!figure]
 >
+> ![A photograph of a kōnane board set up for play on a beach, with two chairs carved from tree trunks.](33654775226_96814ca128_o.jpg)
+>
 > ```yaml
-> 
-    size="wide"
-    src="33654775226_96814ca128_o.jpg"
-    alt="A photograph of a kōnane board set up for play on a beach, with two chairs carved from tree trunks."
-    authorGiven="Deb", authorFamily="Nystrom",
-    copyrightYear=2017,
-    license='cc-by',
-    licenseVersion='2.0',
-    originalUrl="https://www.flickr.com/photos/stella12/33654775226/" 
+> size: "wide"
+> authorGiven: "Deb"
+> authorFamily: "Nystrom"
+> copyrightYear: 2017
+> license: 'cc-by'
+> licenseVersion: '2.0'
+> originalUrl: "https://www.flickr.com/photos/stella12/33654775226/" 
 > ```
 >
 > A <span lang="haw">kōnane</span> board at Alahaka Bay.
-
 
 ### The Pieces
 
@@ -213,15 +212,15 @@ The board is set up by filling it with black and white pieces in a checkerboard 
 
 > [!figure]
 >
+> ![A kōnane board set up for play with pieces in a checkerboard pattern.](24417651849_e661252c66_o.jpg)
+>
 > ```yaml
-> 
-  src="24417651849_e661252c66_o.jpg"
-  alt="A kōnane board set up for play with pieces in a checkerboard pattern."
-    copyrightYear=2016,
-    authorGiven="Kris", authorFamily="Arnold",
-    license="cc-by",
-    licenseVersion="2.0",
-    originalUrl="https://www.flickr.com/photos/43675529@N00/24417651849" 
+> copyrightYear: 2016
+> authorGiven: "Kris"
+> authorFamily: "Arnold"
+> license: "cc-by"
+> licenseVersion: "2.0"
+> originalUrl: "https://www.flickr.com/photos/43675529@N00/24417651849" 
 > ```
 >
 > A <span lang="haw">kōnane</span> board ready to play.
@@ -243,15 +242,15 @@ possible.
 
 > [!figure]
 >
-> ```yaml
 > 
-  src="Z0092008.jpg"
-  alt=""
-    copyrightYear=2008,
-    orgName="The Strong National Museum of Play",
-    originalUrl="https://web.archive.org/web/20150912083503/http://www.museumofplay.org/online-collections/3/48/112.7273",
-    license='cc-by-nc-nd',
-    licenseVersion='4.0' 
+> ![](Z0092008.jpg)
+>
+> ```yaml
+> copyrightYear: 2008
+> orgName: "The Strong National Museum of Play"
+> originalUrl: "https://web.archive.org/web/20150912083503/http://www.museumofplay.org/online-collections/3/48/112.7273"
+> license: 'cc-by-nc-nd'
+> licenseVersion: '4.0'
 > ```
 >
 > A commercial version of <span lang="haw">kōnane</span>. The board can be seen on the top of the box.

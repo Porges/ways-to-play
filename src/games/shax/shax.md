@@ -6,7 +6,7 @@ countries: SO
 ---
 
 <p class="lead">
-{% pronounce word="Shax" file="pronunciation_so_shax.mp3" lang="so" noun=true
+{% pronounce word="Shax" file="pronunciation_so_shax.mp3" lang="so" noun="true"
 pronouncer="ahmed_aw_abdi" class="aka" %} is a {%a mill-games,mill game%} from Somalia. In central and southern regions of Somalia it is called <span lang="so" class="aka">jare</span> (‘cut’).[@IntroductionToShax p. 1] Unlike most mill games, captures cannot be made during the placement phase.
 </p>
 
@@ -44,17 +44,16 @@ As in other {%a mill-games,mill games %}, the aim of the game is to form a **mil
 ### Placement phase
 
 > [!figure]
+> 
+> ![](../../articles/families/mill-games/large_merels.svg)
 >
 > ```yaml
-> 
-    position="right"
-    noborder=true
-    size="small"
-    src='../../articles/families/mill-games/large_merels.svg'
-    alt=""
+> position: "right"
+> noborder: true
+> size: "small"
 > ```
 >
->     <span class="noun" lang="so">Shax</span> is played on the large mill board, without diagonals.
+> <span class="noun" lang="so">Shax</span> is played on the large mill board, without diagonals.
 
 Players take turns playing one of their pieces on a vacant point of the board. Unlike Twelve Men’s Morris, completing a mill during this phase does not allow you to remove an opponent’s piece.
 

@@ -222,6 +222,7 @@ the normal scoring (no calling bonuses will apply).
 ### <span lang="mcm" class="noun aka">Chaqui</span>
 
 > [!aside]
+>
 > A video of this game being played can be found on [the Endangered Languages Archive (ELAR).](https://www.elararchive.org/uncategorized/IO_a417dbb9-20d8-43b6-9e24-a775e733edce/) At 2:20 one player wins and counts out the next 15 cards for scoring purposes.
 
 Amongst the [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (<span lang="mcm">Christão</span>), the game was known as <span lang="mcm" class="noun">Chaqui</span>, <span lang="mcm" class="noun aka">Chiqui</span>, or <span lang="mcm" class="noun aka">Chekki</span>.[@ChaquiAndPartui p. 34]
@@ -252,6 +253,7 @@ With great loss of blood.
 ### <span class="noun aka" lang="ms">Balik Lima Belas</span>
 
 > [!aside]
+>
 > Note that in @ChikiCards [p. 127], <span class="noun" lang="ms">Balik Lima Belas</span> and <span class="noun" lang="ms">Chot</span> are described as the same game. Here I separate them as in @TheBabas [p. 167]: <span class="noun" lang="ms">Balik Lima Belas</span> is a specific scoring method, and <span class="noun" lang="ms">Chot</span> is the four-player partnership version of the game.
 
 <span class="noun" lang="ms">Balik Lima Belas</span> (‘draw fifteen’) is an alternate scoring mechanism for <span class="noun" lang="ms">Balik Satu</span>.
@@ -264,8 +266,8 @@ lang="ms">ayam</span> or <span lang="ms">kandang</span>) still apply.
 ### <span class="noun aka" lang="ms">Chot</span>
 
 > [!aside]
-> Note that the sources are a little unclear and contradictory, so I have
-attempted to harmonize this description.
+>
+> Note that the sources are a little unclear and contradictory, so I have attempted to harmonize this description.
 
 <span class="noun" lang="ms">Chot</span> or <span class="noun aka" lang="ms">Kiong</span> is a version played with four players in partnerships, with partners sitting opposite each other. Three decks of cards are used (180 cards). 
 
@@ -286,14 +288,14 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 <span class="noun" lang="jav-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.
 
 > [!figure]
+> 
+> ![A black-and-white photograph of ten people sitting in a circle on a mat, mostly men, several are wearing pork-pie hats. They are holding cards, and in the centre of the mat is a plate holding ceki cards.](74334415_1705918149541872_2426033331075284992_n.jpg)
 >
 > ```yaml
-> src="74334415_1705918149541872_2426033331075284992_n.jpg"
-  alt="A black-and-white photograph of ten people sitting in a circle on a mat, mostly men, several are wearing pork-pie hats. They are holding cards, and in the centre of the mat is a plate holding ceki cards."
-  license="with-permission"
-  authorGiven="Hans"
-  authorFamily="van der Horst"
-  originalUrl="https://www.facebook.com/Nickerianen/posts/pfbid0onFnYziW2UL8evg91FSZswgUdrrSTAfbyKzh39SrSbh6wEuE6cnSHHjx8UC5fyByl" 
+> license: "with-permission"
+> authorGiven: "Hans"
+> authorFamily: "van der Horst"
+> originalUrl: "https://www.facebook.com/Nickerianen/posts/pfbid0onFnYziW2UL8evg91FSZswgUdrrSTAfbyKzh39SrSbh6wEuE6cnSHHjx8UC5fyByl"
 > ```
 >
 > A group of people playing Gonggong in the 1970s in Nickerie, Suriname.
@@ -324,8 +326,15 @@ This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. T
 <li>and then turn over the top card and add its points. Nyonya/Lau Chian/1 Myriads score 10 points, everything else according to rank (White Flower scores 1).</li>
 > [!figure]
 >
+> ![](../../articles/cards/ceki/CRF.jpg)
+> ![](../../articles/cards/ceki/COT.jpg)
+> ![](../../articles/cards/ceki/CM1.jpg)
+>
 > ```yaml
->  size="small" noborder=true justify="centered" alt=";;" hidden=true src="../../articles/cards/ceki/CRF.jpg;../../articles/cards/ceki/COT.jpg;../../articles/cards/ceki/CM1.jpg"
+> size: "small"
+> noborder: true
+> justify: "centered"
+> hidden: true
 > ```
 >
 > These cards are worth 10 points each.

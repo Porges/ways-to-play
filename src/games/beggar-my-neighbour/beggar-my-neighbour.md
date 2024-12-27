@@ -13,6 +13,7 @@ date modified: 2024-12-21
 </p>
 
 > [!aside]
+>
 > This is the first card game that my grandfather ever taught me!
 
 A wonderful defence of this simple game as the ideal playing-card game may be found in the Meerut Universal Magazine.[@MUMagazine]

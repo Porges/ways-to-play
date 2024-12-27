@@ -25,10 +25,14 @@ The staking layout also bears these four symbols.
 
 > [!figure]
 >
+> ![Two spinners, one white and one black, bearing the symbols of the game. The spinner is made of a long wooden dowel with a plastic rectangular prism fixed upon it halfway down.](D0623nd.jpg)
+> ![Four spinners, some made of clear plastic, with identical construction.](D0625nd.jpg)
+>
 > ```yaml
-> src="D0623nd.jpg;D0625nd.jpg" originalUrl="https://averweij.web.cern.ch/belankai.htm" 
-  alt="Two spinners, one white and one black, bearing the symbols of the game. The spinner is made of a long wooden dowel with a plastic rectangular prism fixed upon it halfway down.;Four spinners, some made of clear plastic, with identical construction."
-  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" 
+> originalUrl: "https://averweij.web.cern.ch/belankai.htm"
+> authorGiven: "Arjan"
+> authorFamily: "Verweij"
+> license: "with-permission"
 > ```
 >
 > Various modern plastic spinners.

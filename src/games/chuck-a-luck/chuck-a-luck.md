@@ -103,17 +103,16 @@ this is the name that stuck. It was commonly played by soldiers and by the late
 for Housie or Bingo.{%endfn%}
 
 > [!figure]
+> 
+> ![A man standing behind a Chuck-a-Luck board attempts to entice passers by.](84220038_a0ceecebc6_o.jpg)
 >
 > ```yaml
-> 
-    src='84220038_a0ceecebc6_o.jpg'
-    alt="A man standing behind a Chuck-a-Luck board attempts to entice passers by."
-    copyrightYear=2005,
-    authorGiven="Avi",
-    authorFamily="Drissman"
-    license="cc-by-nc-sa",
-    licenseVersion='2.0',
-    originalUrl='https://www.flickr.com/photos/28864802@N00/84220038/' 
+> copyrightYear: 2005
+> authorGiven: "Avi"
+> authorFamily: "Drissman"
+> license: "cc-by-nc-sa"
+> licenseVersion: '2.0'
+> originalUrl: 'https://www.flickr.com/photos/28864802@N00/84220038/'
 > ```
 >
 > A modern Chuck-a-Luck game on Coney Island.
@@ -131,11 +130,10 @@ eagle, baby, turtle (and 6th?).[@FoolsOfFortuneOrGamblingAndGamblers p. 283]
 
 > [!figure]
 >
+> ![Six cells containing: a horse’s head, the suits of hearts, diamonds, clubs, and spades, and an anchor.](MustangLayout.jpg)
+>
 > ```yaml
-> 
-    src='MustangLayout.jpg'
-    alt="Six cells containing: a horse’s head, the suits of hearts, diamonds, clubs, and spades, and an anchor."
-    license="cc0" 
+> license: "cc0"
 > ```
 >
 > A Mustang layout, from Kernan Manufacturing’s @KernanCatalogue [p. 19].
@@ -146,27 +144,25 @@ and adopted by the British as [Crown & Anchor](games/crown-and-anchor/crown-and-
 
 > [!figure]
 >
+> ![Three dice with the letters P A C E R S on them.](Potter_Pacers.jpeg)
+>
 > ```yaml
-> 
-    position="aside"
-    alt="Three dice with the letters P A C E R S on them."
-    src='Potter_Pacers.jpeg'
-    copyrightYear=2018,
-    license="with-permission",
-    orgName="Potter & Potter Auctions",
-    originalUrl="https://auctions.potterauctions.com/Three_Ivory_Ball_Dice__-LOT9833.aspx" 
+> position: "aside"
+> copyrightYear: 2018
+> license: "with-permission"
+> orgName: "Potter & Potter Auctions"
+> originalUrl: "https://auctions.potterauctions.com/Three_Ivory_Ball_Dice__-LOT9833.aspx"
 > ```
 >
 > Three Hyronemus (see below) ball dice for use with Cubic Mutual Pool.
 
 
 > [!figure]
+> 
+> ![A layout board titled Cubic Mutal Pool and with six cells with horses depicted, named: Pilot, Arab, Canada, Eclipse, Rover, and Saxton.](CubicMutualPool.jpg)
 >
 > ```yaml
-> 
-    src='CubicMutualPool.jpg'
-    alt="A layout board titled Cubic Mutal Pool and with six cells with horses depicted, named: Pilot, Arab, Canada, Eclipse, Rover, and Saxton."
-    license="cc0" 
+> license: "cc0"
 > ```
 >
 > A Cubic Mutal Pool layout, from Kernan Manufacturing’s @KernanCatalogue [p. 20].
@@ -199,36 +195,33 @@ Many books of the time claim that these tools were often gaffed or crooked, with
 one advertisement for an Electric Hyronemus claiming it can be made to roll only
 “Treys and Fours” on command.
 
-<div class="multi">
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> >
+> > ![](Potter_ChuckALuck.jpeg)
+> >
+> > ```yaml
+> > size: "small"
+> > noborder: true
+> > copyrightYear: 2018
+> > license: "with-permission"
+> > orgName: "Potter & Potter Auctions"
+> > originalUrl: "https://auctions.potterauctions.com/Chuck_A_Luck_Hand_Held_Cage_with_Three_Dice__-LOT9883.aspx"
+> > ```
+> >
+> >     A hand-held “bird cage” for tossing Chuck-A-Luck dice (<abbr title="circa">c.</abbr> 1930).
 > 
-    alt=""
-    size="small"
-    noborder=true
-    src='Potter_ChuckALuck.jpeg'
-    copyrightYear=2018,
-    license="with-permission",
-    orgName="Potter & Potter Auctions",
-    originalUrl="https://auctions.potterauctions.com/Chuck_A_Luck_Hand_Held_Cage_with_Three_Dice__-LOT9883.aspx"
-    
-> ```
->
->     A hand-held “bird cage” for tossing Chuck-A-Luck dice (<abbr title="circa">c.</abbr> 1930).
-
-> [!figure]
->
-> ![](ChuckALuck_Cage.jpg)
->
-> ```yaml
-> size: "small"
-> noborder: true
-> license: 'cc0'
-> ```
->
-> A mounted “bird cage”, from @GamblingAndGamblingDevices [p. 118]. The handle at the left is used to invert the cage, and this rings a bell mounted on the right. The top and bottom are made from taut leather and produce a drumming noise when the dice drop. (A video of one of these bird cages in action can be [found on YouTube](https://www.youtube.com/watch?v=PEI2bvjXeCU).)
-</div>
+> > [!figure]
+> >
+> > ![](ChuckALuck_Cage.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > noborder: true
+> > license: 'cc0'
+> > ```
+> >
+> > A mounted “bird cage”, from @GamblingAndGamblingDevices [p. 118]. The handle at the left is used to invert the cage, and this rings a bell mounted on the right. The top and bottom are made from taut leather and produce a drumming noise when the dice drop. (A video of one of these bird cages in action can be [found on YouTube](https://www.youtube.com/watch?v=PEI2bvjXeCU).)
 
 > [!figure]
 >
@@ -281,23 +274,20 @@ still used in modern games run under the name of Chuck-A-Luck.
 
 > [!figure]
 >
+> ![A table-top painted with various locations for bets to be placed](Potter_GrandHazard.jpeg)
+>
 > ```yaml
-> 
-    alt="A table-top painted with various locations for bets to be placed"
-    size="wide"
-    noborder=true
-    src='Potter_GrandHazard.jpeg'
-    copyrightYear=2018,
-    license="with-permission",
-    orgName="Potter & Potter Auctions",
-    originalUrl="https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx" 
+> size: "wide"
+> noborder: true
+> copyrightYear: 2018
+> license: "with-permission"
+> orgName: "Potter & Potter Auctions"
+> originalUrl: "https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx"
 > ```
 >
 > A Will & Finck Grand Hazard layout (<abbr title="circa">c.</abbr> 1890).
 
-
-In addition to the “Chuck” bets, which are played in boxes labelled 1–6 as
-usual, the extended staking layout contains boxes for the following bets:
+In addition to the “Chuck” bets, which are played in boxes labelled 1–6 as usual, the extended staking layout contains boxes for the following bets:
 
 <dl>
 <dt>Raffles</dt>
@@ -372,14 +362,13 @@ usual, the extended staking layout contains boxes for the following bets:
 ### Other Hyronemus Bets
 
 > [!figure]
+> 
+> ![A layout containing the Chuck-A-Luck numbers and 4 other betting cells: Under 10, Over 11, 10, and 11.](HyronemusBets.jpg)
 >
 > ```yaml
-> 
-    size="small"
-    position="aside"
-    src='HyronemusBets.jpg'
-    alt="A layout containing the Chuck-A-Luck numbers and 4 other betting cells: Under 10, Over 11, 10, and 11."
-    license="cc0" 
+> size: "small"
+> position: "aside"
+> license: "cc0"
 > ```
 >
 > A Hyronemus layout, from @GamblingAndGamblingDevices [p. 117].
@@ -430,11 +419,10 @@ odds and house edge as standard Chuck-A-Luck.
 
 > [!figure]
 >
+> ![Three overlapping spinners that can point to any one of the numbers 1 to 6.](ChuckALuck3Spindle.jpg)
+>
 > ```yaml
-> 
-    src='ChuckALuck3Spindle.jpg'
-    alt="Three overlapping spinners that can point to any one of the numbers 1 to 6."
-    license="cc0" 
+> license: "cc0"
 > ```
 >
 > As found in Kernan Manufacturing’s @KernanCatalogue [p. 26].
@@ -479,35 +467,31 @@ photo in his book.){%endfn%}
 In general the more doubles or triples on the wheel, the worse the odds are for
 the players.
 
-<div class="multi">
-> [!figure]
->
-> ```yaml
+> [!multi]
+> > [!figure]
+> > 
+> > ![A large upright wheel that can be spun, with a pointer at top.](Big6Wheel1960.jpg)
+> >
+> > ```yaml
+> > noborder: true
+> > license: "cc0"
+> > copyrightYear: 1960
+> > author: "H. C. Evans & Co."
+> > ```
+> >
+> > A K. C. Card Co. Jumbo Dice Wheel, from their 1960 catalogue.
 > 
-    noborder=true
-    src='Big6Wheel1960.jpg'
-    alt="A large upright wheel that can be spun, with a pointer at top."
-    license="cc0",
-    copyrightYear=1960,
-    author="H. C. Evans & Co." 
-> ```
->
-> A K. C. Card Co. Jumbo Dice Wheel, from their 1960 catalogue.
-
-> [!figure]
->
-> ```yaml
-> 
-    src='Gambling_wheel_by_H._C._Evans_and_Co.,_Chicago_-_Bayernhof_Museum_-_DSC06276.jpg'
-    alt="A large upright wheel that can be spun, with a pointer at top."
-    license="cc0",
-    author="Daderot",
-    originalUrl="https://commons.wikimedia.org/wiki/File:Gambling_wheel_by_H._C._Evans_and_Co.,_Chicago_-_Bayernhof_Museum_-_DSC06276.JPG" 
-> ```
->
-> An H. C. Evans & Co. Big Six wheel at the Baryernhof Museum.
-
-</div>
+> > [!figure]
+> >
+> > ![A large upright wheel that can be spun, with a pointer at top.](Gambling_wheel_by_H._C._Evans_and_Co.,_Chicago_-_Bayernhof_Museum_-_DSC06276.jpg)
+> >
+> > ```yaml
+> > license: "cc0"
+> > author: "Daderot"
+> > originalUrl: "https://commons.wikimedia.org/wiki/File:Gambling_wheel_by_H._C._Evans_and_Co.,_Chicago_-_Bayernhof_Museum_-_DSC06276.JPG"
+> > ```
+> >
+> > An H. C. Evans & Co. Big Six wheel at the Baryernhof Museum.
 
 ### Chuck-a-Luck log
 
@@ -515,13 +499,13 @@ This form of the game was apparently invented to circumvent restrictions on gamb
 
 > [!figure]
 >
+> ![A photo of a large wooden cylinder with 14 sides. Each side has three numbers painted on it.](93116122_542961236629804_5895971404179832832_n.jpg)
+>
 > ```yaml
-> src="93116122_542961236629804_5895971404179832832_n.jpg"
-    alt="A photo of a large wooden cylinder with 14 sides. Each side has three numbers painted on it."
-    authorGiven="Pete"
-    authorFamily="Angelos"
-    copyrightYear=2012
-    license="with-permission" 
+> authorGiven: "Pete"
+> authorFamily: "Angelos"
+> copyrightYear: 2012
+> license: "with-permission"
 > ```
 >
 > A rolling log version of Chuck-a-Luck.

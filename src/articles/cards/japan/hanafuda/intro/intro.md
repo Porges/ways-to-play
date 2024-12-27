@@ -11,7 +11,7 @@ hero:
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 ---
 
-<Pronounce pronouncer="biscuit"  lang="ja-Latn" file="pronunciation_ja_花札.mp3" noun=true>Hanafuda</Pronounce> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronounce pronouncer="ssoonkimi"  lang="ko-Latn" file="pronunciation_ko_화투.mp3">hwatu</Pronounce> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.
+<Pronounce pronouncer="biscuit"  lang="ja-Latn" file="pronunciation_ja_花札.mp3" noun="true">Hanafuda</Pronounce> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronounce pronouncer="ssoonkimi"  lang="ko-Latn" file="pronunciation_ko_화투.mp3">hwatu</Pronounce> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.
 
 > [!todo]
 > > [!figure]
@@ -80,18 +80,21 @@ There are 5 ‘bright’ (<span lang="ja">光</span> <Pronounce pronouncer="stra
 
 > [!figure]
 >
+> ![The crane and pine.](../Hanafuda_1-1.svg)
+> ![The cherry blossom curtain.](../Hanafuda_3-1.svg)
+> ![The full moon.](../Hanafuda_8-1.svg)
+> ![The rain man.](../Hanafuda_11-1.svg)
+> ![The phoenix.](../Hanafuda_12-1.svg)
+>
 > ```yaml
-> 
-    size="small"
-    justify="centered"
-    src="../Hanafuda_1-1.svg;../Hanafuda_3-1.svg;../Hanafuda_8-1.svg;../Hanafuda_11-1.svg;../Hanafuda_12-1.svg"
-    alt="The crane and pine.;The cherry blossom curtain.;The full moon.;The rain man.;The phoenix." 
-    authorFamily="Mantia",
-    authorGiven="Louie",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    perRow=5 
+> size: "small"
+> justify: "centered"
+> authorFamily: "Mantia"
+> authorGiven: "Louie"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> perRow: 5
 > ```
 >
 > The bright cards of a Japanese deck.
@@ -112,20 +115,23 @@ In some decks, especially Korean ones, these are marked with the 光 character f
 
 > [!figure]
 >
+> ![The crane and pine.](../Hwatu_January_Hikari.png)
+> ![The cherry blossom curtain.](../Hwatu_March_Hikari.png)
+> ![The full moon.](../Hwatu_August_Hikari.png)
+> ![The rain man.](../Hwatu_November_Hikari.png)
+> ![The phoenix.](../Hwatu_December_Hikari.png)
+>
 > ```yaml
-> 
-    noborder=true
-    size="small"
-    justify="centered"
-    src="../Hwatu_January_Hikari.png;../Hwatu_March_Hikari.png;../Hwatu_August_Hikari.png;../Hwatu_November_Hikari.png;../Hwatu_December_Hikari.png"
-    alt="The crane and pine.;The cherry blossom curtain.;The full moon.;The rain man.;The phoenix." 
-    authorFamily="Richert",
-    authorGiven="Marcus",
-    copyrightYear=2021,
-    license="cc-by-sa",
-    licenseVersion="4.0",
-    originalUrl="http://www.marcusrichert.com/images/hwatu/",
-    perRow=5 
+> noborder: true
+> size: "small"
+> justify: "centered"
+> authorFamily: "Richert"
+> authorGiven: "Marcus"
+> copyrightYear: 2021
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> originalUrl: "http://www.marcusrichert.com/images/hwatu/"
+> perRow: 5
 > ```
 >
 > The bright cards of a Korean deck.

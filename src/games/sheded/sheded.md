@@ -7,8 +7,10 @@ countries: ET,ER
 
 > [!figure]
 >
+> ![](../../maps/Sheded.svg)
+>
 > ```yaml
-> position="aside" src="../../maps/Sheded.svg" alt=""
+> position: "aside"
 > ```
 >
 > Countries where the game is played.

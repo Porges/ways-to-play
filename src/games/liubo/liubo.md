@@ -44,6 +44,7 @@ https://www.metmuseum.org/art/collection/search/53937
 ## Nine Ways of Looking at <span lang="cmn-Latn-pinyin">Zhāo Hún</span>
 
 > [!aside]
+>
 > You should really read @19Ways, if you haven’t.
 
 The “shamanistic” poem <span lang="cmn-Latn-pinyin" class="noun">Zhāo Hún</span> <span lang="zh">招魂</span> (“Summons of the Soul”) — written perhaps around 270 <abbr>BCE</abbr>, and part of the [<span lang="cmn-Latn-pinyin" class="noun">Chǔ Cí</span>](http://www.chinaknowledge.de/Literature/Poetry/chuci.html) <span lang="zh">楚辭</span> (“Songs of [Chu](https://en.wikipedia.org/wiki/Chu_(state))”) collection, traditionally attributed to either of [<span lang="cmn-Latn-pinyin" class="noun">Qū Yuán</span>](https://en.wikipedia.org/wiki/Qu_Yuan) (<span lang="zh">屈原</span>) or [<span lang="cmn-Latn-pinyin" class="noun">Sòng Yù</span>](https://en.wikipedia.org/wiki/Song_Yu) (<span lang="zh">宋玉</span>)[@ChuTzuEarlyChinese][@SongsOfTheSouth p. 219–23]  — contains a verse that refers to the game, attempting to entice the soul of a king back to the world of the living:

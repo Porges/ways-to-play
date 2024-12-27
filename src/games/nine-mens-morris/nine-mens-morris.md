@@ -18,17 +18,28 @@ In addition to being a game, the board itself was used as some kind of talisman 
 ## Play
 
 > [!figure]
+> 
+> ![People playing a large nine men’s morris game outdoors on a very large cloth with the board painted on it. They are playing on the grass surrounded by pavilions and onlookers.](9245498309_0bbb716a9e_o.jpg)
 >
 > ```yaml
-> size="wide" src="9245498309_0bbb716a9e_o.jpg" alt="People playing a large nine men’s morris game outdoors on a very large cloth with the board painted on it. They are playing on the grass surrounded by pavilions and onlookers."  originalUrl="https://www.flickr.com/photos/neonzu1/9245498309" copyrightYear=2013 license="cc-by-nc-nd" licenseVersion="2.0" authorGiven="Ken" authorFamily="Owen"
+> size: "wide"
+> originalUrl: "https://www.flickr.com/photos/neonzu1/9245498309"
+> copyrightYear: 2013
+> license: "cc-by-nc-nd"
+> licenseVersion: "2.0"
+> authorGiven: "Ken"
+> authorFamily: "Owen"
 > ```
 >
 > A large-format Nine Men’s Morris game being played at a festival in Hungary.
 
 > [!figure]
 >
+> ![](../../articles/families/mill-games/large_merels.svg)
+>
 > ```yaml
->  position="aside" noborder=true alt="" src="../../articles/families/mill-games/large_merels.svg"
+> position: "aside"
+> noborder: true
 > ```
 >
 > Nine Men’s Morris is played on the large mill board.
@@ -57,12 +68,11 @@ When played on a board with diagonals, mills are not usually permitted to be mad
 <div class="multi extra-wide">
 
 > [!figure]
+> 
+> ![A weathered Nine Men’s Morris board scratched into a rock.](DSCF0525.jpg)
 >
 > ```yaml
-> 
-    alt="A weathered Nine Men’s Morris board scratched into a rock."
-    src='DSCF0525.jpg'
-    copyrightYear=2014 
+> copyrightYear: 2014
 > ```
 >
 > A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
@@ -111,15 +121,19 @@ game.[@BoardGamesInBoatBurials p. 441]
 
 > [!figure]
 >
+> ![](ship_board.jpg)
+> ![](6065924.jpg)
+>
 > ```yaml
-> src="ship_board.jpg;6065924.jpg" alt=";" size="extra-wide" perRow=1
-  license="cc-by-sa" licenseVersion="4.0"
-  authorGiven="Eirik Irgens"
-  authorFamily="Johnsen"
-  originalUrl="https://www.unimus.no/portal/#/things/7d99fcd2-59b3-45f3-aaa0-27d857633fc9"
-  orgName="Kulturhistorisk Museum"
-  orgAbbr="KHM"
-
+> size: "extra-wide"
+> perRow: 1
+> license: "cc-by-sa"
+> licenseVersion: "4.0"
+> authorGiven: "Eirik Irgens"
+> authorFamily: "Johnsen"
+> originalUrl: "https://www.unimus.no/portal/#/things/7d99fcd2-59b3-45f3-aaa0-27d857633fc9"
+> orgName: "Kulturhistorisk Museum"
+> orgAbbr: "KHM"
 > ```
 >
 > Sketch and photograph of the board from the Gokstad ship.
@@ -220,12 +234,11 @@ standard game, rules for playing with dice are given ([see below](#with-dice)).
 
 > [!figure]
 >
+> ![](Alfonso_NMM.jpg)
+>
 > ```yaml
-> 
-  size="small"
-    src='Alfonso_NMM.jpg'
-    alt=""
-    license="cc0" 
+> size: "small"
+> license: "cc0"
 > ```
 >
 > From Alfonso’s <cite>Book of Games</cite>.
@@ -532,15 +545,14 @@ the same.
 
 > [!figure]
 >
+> ![An old man’s hand reaches towards a worn morris board to move a piece.](../../articles/families/mill-games/shutterstock_235028281.jpg)
+>
 > ```yaml
-> 
-    alt="An old man’s hand reaches towards a worn morris board to move a piece."
-    src='../../articles/families/mill-games/shutterstock_235028281.jpg'
-    orgName="Shutterstock.com",
-    author="Delpixel",
-    identifier="235028281",
-    originalUrl="https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281",
-    license="stock-image" 
+> orgName: "Shutterstock.com"
+> author: "Delpixel"
+> identifier: "235028281"
+> originalUrl: "https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281"
+> license: "stock-image"
 > ```
 >
 > A Twelve Men’s Morris game being played.
@@ -560,11 +572,10 @@ In other countries or languages Twelve Men’s Morris has been known as:
 
 > [!figure]
 >
+> ![A manuscript drawing of two men sitting beside a morris board with pieces and dice on it, while their attendants hold their spears.](Nine_Mens_Morris_with_dice_in_Libro_de_los_juegos.jpg)
+>
 > ```yaml
-> 
-  alt="A manuscript drawing of two men sitting beside a morris board with pieces and dice on it, while their attendants hold their spears."
-  src='Nine_Mens_Morris_with_dice_in_Libro_de_los_juegos.jpg'
-  license="cc0" 
+> license: "cc0"
 > ```
 >
 > A game being played with dice, from Alfonso X’s <cite>Book of Games</cite>.
@@ -599,6 +610,7 @@ With perfect play the game is a draw.[@SolvingLaskerMorris][@UltraStrongMorris]
 > ### Mozog
 > 
 > > [!aside]
+> >
 > > The game was originally patented (US [4,579,347](https://patents.google.com/patent/US4579347A)) in a slightly different form, with a more complex board. In this version each player had 14 pieces.
 > > 
 > > > [!figure]

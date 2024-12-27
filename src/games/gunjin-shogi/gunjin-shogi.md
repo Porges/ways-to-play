@@ -7,7 +7,7 @@ players: 2
 ---
 
 <p class="lead">
-<Pronounce noun=true lang="ja-Latn"  file="pronunciation_ja_軍人将棋.mp3" pronouncer="mezashi">Gunjin Shogi</Pronounce> (<span lang="ja">軍人将棋</span> ‘soldier chess’) is a Japanese game of hidden ranked combat, like the game Stratego. However, unlike Stratego, the game is usually played with a third person acting as referee, so that the identity of pieces does not need to be revealed at any stage.
+<Pronounce noun="true" lang="ja-Latn"  file="pronunciation_ja_軍人将棋.mp3" pronouncer="mezashi">Gunjin Shogi</Pronounce> (<span lang="ja">軍人将棋</span> ‘soldier chess’) is a Japanese game of hidden ranked combat, like the game Stratego. However, unlike Stratego, the game is usually played with a third person acting as referee, so that the identity of pieces does not need to be revealed at any stage.
 </p>
 
 ## Pieces and Powers
@@ -36,9 +36,11 @@ both are removed from the board. My interpretation of the ranking of each piece
 is as follows:
 
 > [!figure]
+> 
+> ![](gunjin_shogi.jpg)
 >
 > ```yaml
-> src="gunjin_shogi.jpg" alt="" position="aside" 
+> position: "aside"
 > ```
 >
 > The board for the 14-piece version, printed on thin paper.
@@ -330,11 +332,10 @@ is as follows:
 
 > [!figure]
 >
+> ![A board game box with an image of a soldier riding a white horse and carrying the flag of the Japanese army. On the side of the image are depicted two aeroplanes and a tank.](gunjin_shogi_box_2.jpg)
+>
 > ```yaml
-> 
-  size="small"
-  alt="A board game box with an image of a soldier riding a white horse and carrying the flag of the Japanese army. On the side of the image are depicted two aeroplanes and a tank."
-  src='gunjin_shogi_box_2.jpg' 
+> size: "small"
 > ```
 >
 > The box for <span lang="ja">大型行軍将棋</span>.

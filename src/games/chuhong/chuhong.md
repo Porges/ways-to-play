@@ -61,6 +61,7 @@ My version of the rules is as follows:[^fn2] on a player’s turn they roll all 
 [^fn2]: My only source for the method of play is @KKChuhong, so this description might be somewhat inaccurate; I read neither modern nor middle Chinese! I know for certain that the introductory section of the book is not properly included here.
 
 > [!aside]
+>
 > Some translations below are from @BettingOnEmpire [p. 42] or @GameOfLeaves [p. 402].
 
 Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, or two pairs:

@@ -7,9 +7,7 @@ players: 4
 
 > [!figure]
 >
-> ```yaml
-> src="../../maps/Euchre.svg" alt="A map showing Australia, New Zealand, the USA, Canada, the UK, the Cook Islands, Fiji, Tonga." 
-> ```
+> ![A map showing Australia, New Zealand, the USA, Canada, the UK, the Cook Islands, Fiji, Tonga.](../../maps/Euchre.svg)
 >
 > Euchre is played in many countries around the world.
 

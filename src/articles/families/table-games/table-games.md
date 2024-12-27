@@ -25,6 +25,7 @@ date modified: 2024-12-22
 Hyde has a good list: https://play.google.com/books/reader?id=8rBAAAAAcAAJ&pg=GBS.PA8&hl=en
 
 > [!aside]
+>
 > For citations below regarding @Hyde2, note that page 9 is misnumbered as “6”.
 
 Points of the board:

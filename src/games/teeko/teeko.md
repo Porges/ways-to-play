@@ -30,12 +30,11 @@ special board (although it can also be played on a standard chess/checkers
 board):
 
 > [!figure]
+> 
+> ![](teeko.svg)
 >
 > ```yaml
-> 
-    noborder=true
-    src="teeko.svg"
-    alt=""
+> noborder: true
 > ```
 >
 > Teeko is played on the points of a 5×5 grid.
@@ -47,13 +46,15 @@ horizontal, vertical, or diagonal lines on the board, or alternately, to form
 all four pieces into a square. There are 44 distinct winning positions.
 
 > [!figure]
+> 
+> ![](teeko-line.svg)
+> ![](teeko-vertline.svg)
+> ![](teeko-diag.svg)
+> ![](teeko-square.svg)
 >
 > ```yaml
-> 
-    size="wide"
-    noborder=true
-    src="teeko-line.svg;teeko-vertline.svg;teeko-diag.svg;teeko-square.svg"
-    alt=";;;" 
+> size: "wide"
+> noborder: true
 > ```
 >
 > Examples of winning positions in Teeko.
@@ -73,11 +74,12 @@ In Advanced Teeko, squares can also be made in “extended” form, with gaps be
 
 > [!figure]
 >
+> ![](teeko-square-2.svg)
+> ![](teeko-square-3.svg)
+> ![](teeko-square-4.svg)
+>
 > ```yaml
-> 
-    noborder=true
-    src="teeko-square-2.svg;teeko-square-3.svg;teeko-square-4.svg"
-    alt=";;" 
+> noborder: true
 > ```
 >
 > Examples of extended squares in Advanced Teeko.

@@ -79,9 +79,11 @@ Drop-Handkerchief[@GommeI p. 110]
 Cat After Mouse or Threading The Needle[@GommeI p. 64][@Strutt p. 337]
 
 > [!figure]
+> 
+> ![](lettertomylove.jpg)
 >
 > ```yaml
-> src="lettertomylove.jpg" alt="" license="cc0" 
+> license: "cc0"
 > ```
 >
 > A depiction of “A Letter to My Love” from @LittlePrettyPocket [p. 38].

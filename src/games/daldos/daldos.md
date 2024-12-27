@@ -6,9 +6,11 @@ players: 2
 
 > [!figure]
 >
+> ![](maryrose_daldos.jpg)
+>
 > ```yaml
-> src="maryrose_daldos.jpg"  alt="" 
-   license="with-permission", orgName="The Mary Rose Museum" 
+> license: "with-permission"
+> orgName: "The Mary Rose Museum" 
 > ```
 >
 > Daldøs board(?) on a barrel-end from the wreck of the Mary Rose (1545).

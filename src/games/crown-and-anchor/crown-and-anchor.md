@@ -473,9 +473,8 @@ Gambling remains illegal in most of India but the game is commonly played during
 > ```
 >
 > An example of a staking layout for <span class="noun" lang="hi-Latn">Jhaṇḍī Muṇḍā</span>.
-
-Note that the heart is presented with the same orientation as the spade; this appears to be a typical feature (see more examples: [1](https://www.alamy.com/stock-photo-traditional-gambling-in-indian-village-on-a-festival-132646298.html), [2](https://www.alamy.com/stock-photo-children-playing-gambling-game-bahundanda-village-lamjung-district-27979377.html)).
-</Image>
+> 
+> Note that the heart is presented with the same orientation as the spade; this appears to be a typical feature (see more examples: [1](https://www.alamy.com/stock-photo-traditional-gambling-in-indian-village-on-a-festival-132646298.html), [2](https://www.alamy.com/stock-photo-children-playing-gambling-game-bahundanda-village-lamjung-district-27979377.html)).
 
 The names of the symbols are (in Hindi):
 

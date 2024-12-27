@@ -57,10 +57,14 @@ Players place their stakes on any of the partitions on the layout. The banker th
 ## <span lang="id">Dadu Putar</span>
 
 > [!figure]
+> 
+> ![A wooden dice cover and six-sided teetotum.](D0141nd.jpg)
 >
 > ```yaml
-> src="D0141nd.jpg" alt="A wooden dice cover and six-sided teetotum." 
-  authorGiven="Arjan" authorFamily="Verweij" license="with-permission" originalUrl="https://averweij.web.cern.ch/indonesia.htm" 
+> authorGiven: "Arjan"
+> authorFamily: "Verweij"
+> license: "with-permission"
+> originalUrl: "https://averweij.web.cern.ch/indonesia.htm"
 > ```
 >
 > Equipment for <span lang="id">Dadu Putar</span>.
@@ -70,26 +74,23 @@ In Indonesia the game has been called <Pronounce lang="id"  class="noun aka" pro
 
 > [!figure]
 >
+> ![A black-and-white photo of a group of people, mostly men, standing and seated around a mat on the ground. One man is spining a teetotum in a dish, other players are placing coins on the mat inside squares marked with dice symbols.](20.500.11840_1366529.jpg)
+>
 > ```yaml
-> src="20.500.11840_1366529.jpg"
-  alt="A black-and-white photo of a group of people, mostly men, standing and seated around a mat on the ground. One man is spining a teetotum in a dish, other players are placing coins on the mat inside squares marked with dice symbols."
-  identifier="TM-10018006_REPRO"
-  license="cc0"
-  size="wide"
-  orgName="Nationaal Museum van Wereldculturen"
-  orgLang="nl"
-  orgAbbr="NMVW"
-  originalUrl="https://hdl.handle.net/20.500.11840/1366529" 
+> identifier: "TM-10018006_REPRO"
+> license: "cc0"
+> size: "wide"
+> orgName: "Nationaal Museum van Wereldculturen"
+> orgLang: "nl"
+> orgAbbr: "NMVW"
+> originalUrl: "https://hdl.handle.net/20.500.11840/1366529"
 > ```
 >
 > A group of people playing <span lang="id">Dadu Putar</span> (or a game very similar to it) in [Bengkulu,](https://en.wikipedia.org/wiki/Bengkulu) Sumatra (1910–1930).
 
 
-{/*
-
-TODO: @IetsOver [p. 382] has reference for this game
-
-*/}
+> [!todo]
+> @IetsOver [p. 382] has reference for this game
 
 ## <span lang="ja-Latn" class="noun">Chobo-Ichi</span>
 

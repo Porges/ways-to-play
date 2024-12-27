@@ -59,7 +59,7 @@ In Papua New Guinea it has been called <span lang="tpi">kawu</span> — clea
 
 Self Note: See the Makassar dictionary re kawu (the game) vs kuwa (the winning call). Kuwa could also mean "nine" there, and be from Hokkien? Kuwa also in [@ChineseLoanWordsMalay 56]
 
-## <span lang="aka noun" lang="ja-Latn">Oicho-Kabu</span> <span lang="ja" class="aka">おいちょかぶ</span>: The Japanese Game</h2> ^oicho-kabu
+## <span lang="aka noun" lang="ja-Latn">Oicho-Kabu</span> <span lang="ja" class="aka">おいちょかぶ</span>: The Japanese Game
 
 <span class="noun" lang="ja-Latn">Oicho-Kabu</span> (<span lang="ja">おいちょかぶ</span>, ‘eight-nine’) is a Japanese version of the game which has been played as a gambling game for a long time.
 
@@ -214,7 +214,9 @@ Similarly, in the <span lang="ja-Latn">bunraku/kabuki</span> play <cite>Ōtō-no
 ### “<span lang="ja-Latn">Yakuza</span>”
 
 > [!aside]
+>
 > An interesting coincidence pointed out by Ryan Sartor is that when translated to the <span lang="ja-Latn" class="noun">Hanafuda</span> deck (with which the game could also be played), the card values <Cards>893</Cards> correspond to the following card combination (<span lang="ja">役</span> <span lang="ja-Latn">yaku</span>), which is named <span lang="ja-Latn">nomi</span> (<span lang="ja">飲み</span> ‘drinking’), and is used in several <span lang="ja-Latn" class="noun">Hanafuda</span> games:
+>
 > > [!figure]
 > >
 > > ![a card showing the full moon](../../articles/cards/japan/hanafuda/Hanafuda_8-1.svg)

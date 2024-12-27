@@ -100,6 +100,7 @@ This combination is formed from one of each of the three red-stamped cards. It i
 
 
 > [!aside]
+>
 > In Javanese, <span lang="jav-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Hokkien: <Pronounce lang="nan-Latn"  pronouncer="chihchao" file="pronunciation_nan_碰.mp3">pōng</Pronounce>, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See the {%a glossary#pong %} page for more.
 > 
 > <span lang="jav-Latn">Kéyang</span> is the name of the 9 of myriads card. I am uncertain what it means.

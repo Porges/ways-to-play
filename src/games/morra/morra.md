@@ -36,8 +36,10 @@ see correspondence [@GameOfMicatioDigitorum] [@MicatioDigitorumLetter][@MicatioD
 
 > [!figure]
 >
+> ![](morra_vase.jpg)
+>
 > ```yaml
-> src="morra_vase.jpg" alt="" license="cc0" 
+> license: "cc0"
 > ```
 >
 > Two Greek girls playing Morra, on a water-pot (<span lang="grc-Latn">hydria</span>), <abbr>c.</abbr> 500 <abbr>BCE</abbr>. From @AtlasClassicalAntiquities [p. 150].

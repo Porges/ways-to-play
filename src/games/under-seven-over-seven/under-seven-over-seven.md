@@ -22,8 +22,10 @@ To play, the players stake their bets on the bet that they choose, and the propr
 
 > [!figure]
 >
+> ![](under_over_seven.png)
+>
 > ```yaml
-> src="under_over_seven.png" alt="" noborder=true 
+> noborder: true
 > ```
 >
 > An under/over seven staking layout, from @KernanCatalogue [p. 19].
