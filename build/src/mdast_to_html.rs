@@ -1,7 +1,8 @@
-use std::collections::BTreeMap;
+use std::{collections::BTreeMap, sync::LazyLock};
 
 use markdown::mdast::{Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Text, Yaml};
 use maud::{html, Markup};
+use regex::Captures;
 
 pub fn get_header(node: &Node) -> Option<Yaml> {
     match node {
@@ -34,18 +35,26 @@ pub fn locate_defs(node: &Node) -> (BTreeMap<String, Vec<Node>>, BTreeMap<String
     (fndefs, linkdefs)
 }
 
-pub fn to_html(node: Node) -> Markup {
+pub fn to_html(node: Node, bibliography: &BTreeMap<String, Markup>) -> Markup {
     let (fndefs, linkdefs) = locate_defs(&node);
-    Converter { fndefs, linkdefs }.convert(false, node)
+    Converter {
+        fndefs,
+        linkdefs,
+        bibliography,
+        used_bib: Vec::new(),
+    }
+    .convert(false, node)
 }
 
-struct Converter {
+struct Converter<'a> {
     fndefs: BTreeMap<String, Vec<Node>>,
     linkdefs: BTreeMap<String, String>,
+    bibliography: &'a BTreeMap<String, Markup>,
+    used_bib: Vec<String>,
 }
 
-impl Converter {
-    fn expand(&self, n: Vec<Node>) -> Markup {
+impl Converter<'_> {
+    fn expand(&mut self, n: Vec<Node>) -> Markup {
         html! {
             @for child in n {
                 (self.convert(false, child))
@@ -53,69 +62,134 @@ impl Converter {
         }
     }
 
-    fn convert(&self, table_head: bool, node: Node) -> Markup {
-        html! {
-            @match node {
-                Node::Root(root) => {
-                    (self.expand(root.children))
-                },
-                Node::Break(_) => { br; },
-                Node::ThematicBreak(_) => { hr; },
-                Node::Blockquote(blockquote) => {
-                    (self.handle_blockquote(blockquote))
-                },
-                Node::List(list) => {
-                    @if list.ordered {
-                        ol start=[list.start] { (self.expand(list.children)) }
-                    } @else {
-                        ul { (self.expand(list.children)) }
+    fn convert_refs(&mut self, text: String) -> Markup {
+        static RE1: LazyLock<regex::Regex> = LazyLock::new(|| {
+            regex::Regex::new(r"\[@(?<id>(_|[^\s\p{P}])+)(\s+(?<what>[^\]]+))?\]").unwrap()
+        });
+
+        let t1 = RE1.replace_all(&text, |m: &Captures<'_>| {
+            let id = m.name("id").unwrap().as_str();
+            self.used_bib.push(id.to_owned());
+
+            html! {
+                sup.citation {
+                    a href={"#ref-" (id)} {
+                        "A CITATION"
+                        @if let Some(what) = m.name("what") {
+                            " (" (what.as_str()) ")"
+                        }
                     }
                 }
-                Node::InlineCode(inline_code) => {
-                    code { (inline_code.value) }
-                },
-                Node::InlineMath(inline_math) => {
-                    code{ (inline_math.value) }
-                },
-                Node::Delete(delete) => { del { (self.expand(delete.children)) } },
-                Node::Emphasis(emphasis) => { em { (self.expand(emphasis.children)) } },
-                Node::Strong(strong) => { strong { (self.expand(strong.children)) } },
-                Node::Html(html) => {
-                    (maud::PreEscaped(html.value))
-                },
-                Node::Image(image) => {
-                    img src=(image.url) alt=(image.alt) title=[image.title];
-                },
-                Node::ImageReference(image_reference) => {},
-                Node::Link(link) => {
+            }
+            .into_string()
+        });
+
+        static RE2: LazyLock<regex::Regex> = LazyLock::new(|| {
+            regex::Regex::new(r"@(?<id>(_|[^\s\p{P}])+)(\s+\[(?<what>[^\]]+)\])?").unwrap()
+        });
+
+        let t2 = RE2.replace_all(&t1, |m: &Captures<'_>| {
+            let id = m.name("id").unwrap().as_str();
+            self.used_bib.push(id.to_owned());
+
+            html! {
+                a href={"#ref-" (id)} {
+                    "A CITATION"
+                    @if let Some(what) = m.name("what") {
+                        " (" (what.as_str()) ")"
+                    }
+                }
+            }
+            .into_string()
+        });
+
+        maud::PreEscaped(t2.into_owned())
+    }
+
+    fn convert(&mut self, table_head: bool, node: Node) -> Markup {
+        match node {
+            Node::Root(root) => self.expand(root.children),
+            Node::Break(_) => html! { br; },
+            Node::ThematicBreak(_) => html! { hr; },
+            Node::Blockquote(blockquote) => self.handle_blockquote(blockquote),
+            Node::List(list) => {
+                if list.ordered {
+                    html! { ol start=[list.start] { (self.expand(list.children)) } }
+                } else {
+                    html! { ul { (self.expand(list.children)) } }
+                }
+            }
+            Node::InlineCode(inline_code) => {
+                html! { code { (inline_code.value) } }
+            }
+            Node::InlineMath(inline_math) => {
+                html! { code{ (inline_math.value) } }
+            }
+            Node::Delete(delete) => {
+                html! { del { (self.expand(delete.children)) } }
+            }
+            Node::Emphasis(emphasis) => {
+                html! { em { (self.expand(emphasis.children)) } }
+            }
+            Node::Strong(strong) => {
+                html! { strong { (self.expand(strong.children)) } }
+            }
+            Node::Html(html) => maud::PreEscaped(html.value),
+            Node::Image(image) => {
+                html! { img src=(image.url) alt=(image.alt) title=[image.title]; }
+            }
+            Node::ImageReference(image_reference) => Markup::default(),
+            Node::Link(link) => {
+                html! {
                     a href=(link.url) title=[link.title] {
                         (self.expand(link.children))
                     }
-                },
-                Node::LinkReference(link_reference) => {
-                },
-                Node::Text(text) => { (text.value) },
-                Node::Code(code) => {
+                }
+            }
+            Node::LinkReference(link_reference) => {
+                todo!()
+            }
+            Node::Text(text) => {
+                html! { (self.convert_refs(text.value)) }
+            }
+            Node::Code(code) => {
+                html! {
                     pre {
                         code {
                             (code.value)
                         }
                     }
-                },
-                Node::Math(math) => {},
-                Node::Heading(heading) => {
-                    @let children = (self.expand(heading.children));
-                    @match heading.depth {
-                        1 => { h1 { (children) } },
-                        2 => { h2 { (children) } },
-                        3 => { h3 { (children) } },
-                        4 => { h4 { (children) } },
-                        5 => { h5 { (children) } },
-                        6 => { h6 { (children) } },
-                        _ => {}
+                }
+            }
+            Node::Math(math) => {
+                todo!()
+            }
+            Node::Heading(heading) => {
+                let children = self.expand(heading.children);
+                match heading.depth {
+                    1 => {
+                        html! { h1 { (children) } }
                     }
-                },
-                Node::Table(table) => {
+                    2 => {
+                        html! { h2 { (children) } }
+                    }
+                    3 => {
+                        html! { h3 { (children) } }
+                    }
+                    4 => {
+                        html! { h4 { (children) } }
+                    }
+                    5 => {
+                        html! { h5 { (children) } }
+                    }
+                    6 => {
+                        html! { h6 { (children) } }
+                    }
+                    _ => unreachable!(),
+                }
+            }
+            Node::Table(table) => {
+                html! {
                     @let mut children = table.children.into_iter();
                     table {
                         thead {
@@ -124,53 +198,67 @@ impl Converter {
                             }
                         }
                         tbody {
-                            @while let Some(c) = children.next() {
+                            @for c in children {
                                 (self.convert(false, c))
                             }
                         }
                     }
-                },
-                Node::TableRow(table_row) => {
+                }
+            }
+            Node::TableRow(table_row) => {
+                html! {
                     tr {
                         @for child in table_row.children {
                             (self.convert(table_head, child))
                         }
                     }
-                },
-                Node::TableCell(table_cell) => {
+                }
+            }
+            Node::TableCell(table_cell) => {
+                html! {
                     @if table_head {
                         th { (self.expand(table_cell.children)) }
                     } @else {
                         td { (self.expand(table_cell.children)) }
                     }
-                },
-                Node::ListItem(list_item) => { li { (self.expand(list_item.children)) } },
-                Node::Paragraph(paragraph) => { p { (self.expand(paragraph.children)) } },
-                Node::MdxJsxFlowElement(mdx_jsx_flow_element) => {
-                    (self.handle_component_flow(mdx_jsx_flow_element))
                 }
-                Node::MdxJsxTextElement(mdx_jsx_text_element) => {
-                    (self.handle_component_text(mdx_jsx_text_element))
-                },
-                Node::MdxTextExpression(mdx_text_expression) => {},
-                Node::MdxFlowExpression(mdx_flow_expression) => {},
-                Node::MdxjsEsm(mdxjs_esm) => {},
-                Node::Definition(_) => {}, // already handled
-                Node::FootnoteDefinition(_) => {} // already handled
-                Node::FootnoteReference(footnote_reference) => {
-                    @if let Some(children) = self.fndefs.get(&footnote_reference.identifier) {
-                        span.footnote { (self.expand(children.clone())) }
-                    } @else {
-                        (panic!("unknown footnote reference: {}", footnote_reference.identifier))
-                    }
-                },
-                Node::Toml(toml) => {},
-                Node::Yaml(yaml) => {},
             }
+            Node::ListItem(list_item) => {
+                html! { li { (self.expand(list_item.children)) } }
+            }
+            Node::Paragraph(paragraph) => {
+                html! { p { (self.expand(paragraph.children)) } }
+            }
+            Node::MdxJsxFlowElement(mdx_jsx_flow_element) => {
+                self.handle_component_flow(mdx_jsx_flow_element)
+            }
+            Node::MdxJsxTextElement(mdx_jsx_text_element) => {
+                self.handle_component_text(mdx_jsx_text_element)
+            }
+            Node::MdxTextExpression(mdx_text_expression) => todo!(),
+            Node::MdxFlowExpression(mdx_flow_expression) => todo!(),
+            Node::MdxjsEsm(mdxjs_esm) => todo!(),
+            Node::Definition(_) => Markup::default(), // already handled
+            Node::FootnoteDefinition(_) => Markup::default(), // already handled
+            Node::FootnoteReference(footnote_reference) => {
+                if let Some(children) = self.fndefs.get(&footnote_reference.identifier) {
+                    html! {
+                        span.footnote { (self.expand(children.clone())) }
+                    }
+                } else {
+                    panic!(
+                        "unknown footnote reference: {}",
+                        footnote_reference.identifier
+                    )
+                }
+            }
+            // These should be handled by higher-level methods
+            Node::Toml(_toml) => Markup::default(),
+            Node::Yaml(_yaml) => Markup::default(),
         }
     }
 
-    fn handle_component_text(&self, flow: MdxJsxTextElement) -> Markup {
+    fn handle_component_text(&mut self, flow: MdxJsxTextElement) -> Markup {
         // Some preloaded abbreviations for ease of use
         if flow.name.as_deref() == Some("abbr") {
             if let [Node::Text(t)] = flow.children.as_slice() {
@@ -249,7 +337,7 @@ impl Converter {
         }
     }
 
-    fn handle_component_flow(&self, flow: MdxJsxFlowElement) -> Markup {
+    fn handle_component_flow(&mut self, flow: MdxJsxFlowElement) -> Markup {
         match flow.name.as_deref() {
             Some(x) if x.chars().next().unwrap().is_ascii_lowercase() => {
                 // TODO: ugly
@@ -288,7 +376,7 @@ impl Converter {
         }
     }
 
-    fn handle_blockquote(&self, blockquote: Blockquote) -> Markup {
+    fn handle_blockquote(&mut self, blockquote: Blockquote) -> Markup {
         if let Some(Node::Paragraph(p)) = blockquote.children.first() {
             if let Some(Node::Text(t)) = p.children.first() {
                 let trimmed = t.value.trim();

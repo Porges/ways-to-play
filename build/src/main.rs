@@ -134,15 +134,16 @@ impl Builder {
     fn generate(self) -> Result<(), Box<dyn Error>> {
         println!("Generating outputs in {}", self.output_path.display());
 
+        let rendered_bib = bib_render::to_rendered(&self.bibliography);
+
         for article in self.articles.into_iter().chain(self.games.into_iter()) {
-            let content = mdast_to_html::to_html(article.content);
-            // let html = templates::article(&content);
-            //
-            let mut path = self.output_path.join(&article.url_path);
-            if path.file_name() != Some(OsStr::new("index")) {
-                path.push("index.html");
+            let content = mdast_to_html::to_html(article.content, &rendered_bib);
+
+            let mut output_path = self.output_path.join(&article.url_path);
+            if output_path.file_name() != Some(OsStr::new("index")) {
+                output_path.push("index.html");
             } else {
-                path.set_extension("html");
+                output_path.set_extension("html");
             }
 
             let templated = templates::article(
@@ -158,8 +159,8 @@ impl Builder {
             );
 
             let content = templated.into_string();
-            std::fs::create_dir_all(path.parent().unwrap())?;
-            std::fs::write(path, &content)?;
+            std::fs::create_dir_all(output_path.parent().unwrap())?;
+            std::fs::write(output_path, &content)?;
         }
 
         Ok(())

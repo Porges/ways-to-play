@@ -76,8 +76,10 @@ pub fn base(
                             span.simple { (title) }
                         }
                         form #search-box role="search" method="get" action="https://duckduckgo.com/" target="_top" {
-                          input type="search" role="searchbox" name="q" required placeholder="Search this site" aria-label="Search this site";
-                          button type="submit" { "&#x1F50D;&#xFE0E;" }
+                          span.simple {
+                              input type="search" role="searchbox" name="q" required placeholder="Search this site" aria-label="Search this site";
+                              button type="submit" { "\u{1F50D}\u{FE0E}" }
+                          }
                           input type="hidden" name="sites" value="games.porg.es";
                         }
                     }
@@ -85,8 +87,47 @@ pub fn base(
                 main {
                     (content)
                 }
-                footer {
+                footer #site-footer {
+                    span {
+                        a href="https://neocities.org/site/waystoplay" {
+                            img.inline-img.big width="135" height="40" src="/small-images/Hosted_by_Neocities.svg" alt="Hosted by Neocities";
+                        }
+                    }
+                    " "
+                    span {
+                        "© "
+                        span #author-outer
+                            itemscope
+                            itemprop="copyrightHolder author publisher"
+                            itemtype="https://schema.org/Person" {
+                            link href="https://porg.es" itemprop="url";
+                            link href="https://bsky.app/profile/porg.es" itemprop="sameAs";
+                            span #author {
+                                span itemprop="name" {
+                                    span itemprop="givenName" { "George" }
+                                    " "
+                                    span itemprop="familyName" { "Pollard" }
+                                }
+                            }
+                        }
 
+                        " "
+
+                        a href="https://creativecommons.org/licenses/by-nc-sa/4.0" itemprop="license" rel="license"
+                            title="Licensed under the Creative Commons Attribution Non-Commercial Share-Alike license, 4.0" {
+                            "🅭🅯🄏🄎"
+                        }
+
+                        " · Feedback? Contact me on "
+                        a href="https://toot.cafe/@porges" rel="me" { "Mastodon" }
+                        "/"
+                        a href="https://bsky.app/profile/porg.es" rel="me" { "Bluesky" }
+                        ", "
+                        a href="mailto:porges@porg.es?subject=Ways%20To%20Play" rel="me" target="_blank" { "email me" }
+                        ", or "
+                        a href="https://github.com/Porges/ways-to-play/discussions/new" { "leave a note on GitHub" }
+                        "."
+                    }
                 }
             }
         }

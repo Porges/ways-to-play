@@ -1,3 +1,5 @@
+use std::collections::BTreeMap;
+
 use maud::{html, Markup};
 use num_format::{Locale, ToFormattedString};
 
@@ -19,6 +21,15 @@ pub fn render_bib(bib: &Bibliography) -> Markup {
             }
         }
     }
+}
+
+pub fn to_rendered(bib: &Bibliography) -> BTreeMap<String, Markup> {
+    let mut result = BTreeMap::new();
+    for (key, reference) in &bib.references {
+        result.insert(key.clone(), render_ref(key, reference));
+    }
+
+    result
 }
 
 fn format_num(num: u64) -> String {
