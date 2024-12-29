@@ -6,9 +6,7 @@ countries: ID
 draft: true
 ---
 
-<p class="lead">
 Koa (also Kowah) is a draw-and-discard game played with {%a ceki%}. It is also sometimes simply called Ceki,[@CekiOrKowah] and is probably the most canonical of the games played with the cards.
-</p>
 
 > [!figure]
 > 
@@ -23,7 +21,5 @@ Koa (also Kowah) is a draw-and-discard game played with {%a ceki%}. It is also s
 > ```
 >
 > A Koa game in progress, 1890s or earlier.[^fn0] Note the <span lang="jav-Latn">{%a glossary#:~:text=the%20tong,tong%}</span> on the table for collecting the house cut.
-
-
 
 [^fn0]: Identified as such in @VolkenDerAarde [p. 106], and @BlikJavaansche_2 [pl. XV].

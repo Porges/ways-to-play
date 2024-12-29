@@ -5,9 +5,7 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 <span class="aka">Hazard</span> is a very old dice game — in fact, it was the name of the game before the word “hazard” meant anything else in English, and the modern meaning of the word is derived from the <em>hazardous</em> nature of the game. It has also been spelled <span class="aka">Hasard</span>, <span class="aka">Hassard</span>, or <span class="aka">Hazzard</span>.
-</p>
 
 The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Spanish <span lang="es">azar</span> and Middle French <span lang="fr" class="aka">hasard</span>. The original game which was called <span lang="es">azar</span> in Alfonso X’s @AlfonsoGames (1283) used three dice; the version described here was at the time possibly called <span lang="es" class="aka">azar con dos dados</span>.[@GreedForGain 15]
 

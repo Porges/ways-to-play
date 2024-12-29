@@ -4,9 +4,7 @@ titleLang: tpi
 equipment: Dice game
 ---
 
-<p class="lead">
 The game of <span lang="kew" class="aka noun">Satu</span> (amongst the Muli Ekerepa),[@WaitingForCompany p. 207] or <span lang="mbw" class="aka noun">Sandu</span> (amongst the Maring),[@IsGamblingBisnis p. 47] is a simple gambling game that was played with dice in Papua New Guinea in the 1980s. As of 2010, the game has apparently fallen out of fashion.[@BambooFire, in afterword]
-</p>
 
 ## Play
 

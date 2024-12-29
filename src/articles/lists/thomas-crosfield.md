@@ -14,7 +14,7 @@ order: 1629
 > orgName: "The Provost and Fellows of the Queen’s College, Oxford"
 > license: "cc-by-nc"
 > licenseVersion: "4.0"
-> copyrightYear: "2022"
+> copyrightYear: 2022
 > size: "wide"
 > ```
 >

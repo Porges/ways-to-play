@@ -5,9 +5,7 @@ date created: 2024-12-18
 date modified: 2024-12-21
 ---
 
-<p class="lead">
 Fishing games are a family of card games where players play cards from their hand to attempt to capture cards that are face-up on the table, in a shared ‘pool’.
-</p>
 
 ## Categorization
 

@@ -6,9 +6,7 @@ country: Indonesia
 draft: true
 ---
 
-<p class="lead">
 <span lang="id" class="aka noun">Permainan-Tabal</span> (“drum game”) is an Indonesian game.[^fn0] The name of the game probably relates to the shape of the board, which resembles a drum.[^fn1]
-</p>
 
 [^fn0]: The name is sometimes given as only <span lang="id" class="aka noun">Permainan</span>, but that merely means “game” in Indonesian.
 

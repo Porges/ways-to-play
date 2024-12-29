@@ -5,7 +5,7 @@ equipment: Board game
 countries: US
 ---
 
-<p class="lead">Teeko is a game for two players by John Scarne.</p>
+Teeko is a game for two players by John Scarne.
 
 ## History
 

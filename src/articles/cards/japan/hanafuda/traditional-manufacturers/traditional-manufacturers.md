@@ -495,10 +495,6 @@ lang="ja">都の花</span> ‘flowers of the city’.
 >
 > ![A Hanafuda wrapper featuring an image of Napoleon on the front.](Nintendo.jpg)
 >
-> ```yaml
-> 
-> ```
->
 > <span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">Daitōryō</span> packaging (1970s). Note the <span class="noun" lang="ja-Latn">Marufuku</span> mark at top right.
 
 > [!figure]
@@ -590,47 +586,45 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 >
 > The <span lang="ja-Latn">tokiwa</span> external box and wrapper.
 
-<div class="multi">
-> [!figure]
->
-> ![](Nintendo_goshozakura.jpg)
->
-> ```yaml
-> orgName: "beforemario.com"
-> orgUrl: "https://beforemario.com"
-> copyrightYear: 2021
-> license: "with-permission"
-> ```
->
-> The <span lang="ja-Latn">gosho&shy;zakura</span> wrapper.
-
-> [!figure]
->
-> ![](Nintendo_hinode.jpg)
->
-> ```yaml
-> orgName: "beforemario.com"
-> orgUrl: "https://beforemario.com"
-> copyrightYear: 2021
-> license: "with-permission"
-> ```
->
-> The <span lang="ja-Latn">hinode</span> wrapper.
-
-> [!figure]
->
-> ![An abstract image of a white plum flower on a red background.](Nintendo_hakubai.jpg)
->
-> ```yaml
-> orgName: "beforemario.com"
-> orgUrl: "https://beforemario.com"
-> copyrightYear: 2021
-> license: "with-permission"
-> ```
->
-> The <span lang="ja-Latn">hakubai</span> wrapper.
-
-</div>
+> [!multi]
+> > [!figure]
+> >
+> > ![](Nintendo_goshozakura.jpg)
+> >
+> > ```yaml
+> > orgName: "beforemario.com"
+> > orgUrl: "https://beforemario.com"
+> > copyrightYear: 2021
+> > license: "with-permission"
+> > ```
+> >
+> > The <span lang="ja-Latn">gosho&shy;zakura</span> wrapper.
+> 
+> > [!figure]
+> >
+> > ![](Nintendo_hinode.jpg)
+> >
+> > ```yaml
+> > orgName: "beforemario.com"
+> > orgUrl: "https://beforemario.com"
+> > copyrightYear: 2021
+> > license: "with-permission"
+> > ```
+> >
+> > The <span lang="ja-Latn">hinode</span> wrapper.
+> 
+> > [!figure]
+> >
+> > ![An abstract image of a white plum flower on a red background.](Nintendo_hakubai.jpg)
+> >
+> > ```yaml
+> > orgName: "beforemario.com"
+> > orgUrl: "https://beforemario.com"
+> > copyrightYear: 2021
+> > license: "with-permission"
+> > ```
+> >
+> > The <span lang="ja-Latn">hakubai</span> wrapper.
 
 One interesting deck they used to produce was **Hana-Trump**, which combined
 <span class="noun" lang="ja-Latn">Hanafuda</span> cards with the cards of the international
@@ -1296,7 +1290,7 @@ lang="ja-Latn">Ginsuehiro</span>) and manufacturer’s mark were taken over by
 > size: "small"
 > ```
 >
->     <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s maker’s mark.
+> <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s maker’s mark.
 
 Their maker’s mark was <span lang="ja">田</span> with corner on top, and brands
 included:
@@ -1542,9 +1536,15 @@ Brands of both companies have included:[@ModernJapaneseWrappers pp. 54–5]
 > 
 > > [!figure]
 > >
+> > ![A hanafuda wrapper with an image of Mount Fuji](NK_fuji.jpg)
+> >
 > > ```yaml
-> > src='NK_fuji.jpg' alt="A hanafuda wrapper with an image of Mount Fuji"
->     authorFamily="琴比", authorGiven="良哲", authorFamilyFirst=true, authorLang="ja", license="with-permission", copyrightYear=2021  
+> > authorFamily: "琴比"
+> > authorGiven: "良哲"
+> > authorFamilyFirst: true
+> > authorLang: "ja"
+> > license: "with-permission"
+> > copyrightYear: 2021  
 > > ```
 > >
 > > The <span lang="ja-Latn">fuji</span> wrapper.
@@ -1922,12 +1922,12 @@ brands included:
 > > The <span lang="ja-Latn">onijirushi</span> wrapper.
 > 
 > > [!figure]
+> >
 > > ![A hanafuda wrapper with a ship sailing a flag reading “treasure” in Japanese.](KH_takarabune.jpg)
 > >
 > > The <span lang="ja-Latn">takarabune</span> wrapper.
 > 
 > > [!figure]
-> >
 > > 
 > > ![A hanafuda wrapper with a warrior wearing a helmet with long horns.](KH_shoki.jpg)
 > >
@@ -2327,7 +2327,7 @@ A manufacturer that has a very finely-detailed deck of cards reproduced in
 > ```yaml
 > size: "small"
 > position: "aside"
-> license: 'with-permission',
+> license: 'with-permission'
 > authorFamily: "Richert"
 > authorGiven: "Marcus" 
 > ```

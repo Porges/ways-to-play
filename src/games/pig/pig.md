@@ -12,9 +12,11 @@ subgames:
 - title: Fast Pig or Hog
 ---
 
-<p class="lead"><span class="aka">Pig</span> is a simple push-your-luck dice game for any number of players. There are many variations of this game.</p>
+<span class="aka">Pig</span> is a simple push-your-luck dice game for any number of players. There are many variations of this game.
 
-{/* also a card game: https://archive.org/details/hoylesrulesofgam00more/page/170/mode/2up?q=pig+dice+game */}
+> [!todo]
+>
+> also a card game: https://archive.org/details/hoylesrulesofgam00more/page/170/mode/2up?q=pig+dice+game 
 
 ## Pig
 

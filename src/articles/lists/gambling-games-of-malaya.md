@@ -5,9 +5,7 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 @GamblingGamesOfMalaya is a book written by one C. T. Dobree (Charles Thomas Winston Dobrée), who was at one time Assistant Commissioner of Police in Malaya. Dobree intended it to be useful for identifying games for the purposes of deciding whether or not a particular game was legal, and it remains a very valuable source for information on games which have been played throughout the <a href="https://en.wikipedia.org/wiki/Malay_Archipelago">Malay archipelago.</a>
-</p>
 
 The law codes of Singapore, Malaysia, and Brunei all contain lists of illegal games which are based on this book (the spelling and ordering of the games are identical).
 

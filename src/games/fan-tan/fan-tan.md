@@ -10,9 +10,7 @@ subgames:
   countries: ID
 ---
 
-<p class="lead">
 <span class="aka">Fan-Tan</span> is a Cantonese gambling game that became very popular amongst the Chinese diaspora in the 19th century. It is now rare, but was once played in many countries in Southeast Asia and the Pacific.
-</p>
 
 The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> <Pronounce lang="yue-Latn" class="aka"  pronouncer="potatokash" file="pronunciation_yue_番攤.mp3">faan¹ taan¹</Pronounce> (‘repeatedly dividing’); in Hokkien it is known as simply <span lang="nan" class="aka">攤</span> <Pronounce lang="nan-Latn"  class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207">thoaⁿ</Pronounce>,[@GamblingGamesOfMalaya 118] to divide into equal parts.[@Douglas1899 p. 563b]
 

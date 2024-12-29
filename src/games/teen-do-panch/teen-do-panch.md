@@ -6,9 +6,7 @@ countries: IN
 equipment: Card game (standard deck)
 ---
 
-<p class="lead">
 <span lang="hi-Latn" class="noun aka">Teen Do Pānch</span> (<span lang="hi" class="aka">तीन दो पाँच</span> <span lang="hi-Latn">tīn dō pā̃ca</span>) is a three-player card game from India. The name of the game means 3–2–5 in Hindi (or <span lang="hi">३–२–५</span> with Devanāgarī numerals).
-</p>
 
 Ten tricks are played, and each player must make a certain number depending on
 their position in relation to the dealer.

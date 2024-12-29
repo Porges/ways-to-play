@@ -382,7 +382,7 @@ Chickens have also been trained to ‘play’ the game.[@CrossOutALandmark][@The
 >
 > ```yaml
 > originalUrl: "http://n2t.net/ark:/65665/ng49ca746ab-6f36-704b-e053-15f76fa0b4fa"
-> copyrightYear: "2004"
+> copyrightYear: 2004
 > orgName: "Smithsonian"
 > license: "us-fair-use"
 > ```

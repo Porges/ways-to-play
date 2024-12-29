@@ -8,9 +8,7 @@ date created: 2024-12-18
 date modified: 2024-12-21
 ---
 
-<p class="lead">
 <span class="aka">Beggar My Neighbour</span>, also known as <span class="aka">Strip Jack Naked</span>, or <span class="aka">Beat Your Neighbour Out-Of-Doors</span>,[@LondonStreetGames p. 12] is a simple luck-based card game from England for two or more players. No decisions are required to be made during the course of play, so it is an ideal children’s game.
-</p>
 
 > [!aside]
 >

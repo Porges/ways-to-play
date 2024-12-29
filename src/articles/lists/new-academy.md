@@ -3,9 +3,7 @@ title: <cite>The New Academy, or the New Exchange</cite> (1640)
 order: 1640
 ---
 
-<p class="lead">
 <a href="https://en.wikipedia.org/wiki/Richard_Brome">Richard Brome</a>’s play <cite>The New Academy, or the New Exchange</cite> (registered 1640, published 1659) contains a short list of card games.
-</p>
 
 After the character Rachel asks:[@FiveNewPlayes 48]
 

@@ -17,9 +17,7 @@ subgames:
   originalTitle: 猜枚
 ---
 
-<p class="lead">
 This is a finger-guessing game which English is usually known by its Italian name of “<span class="aka" lang="it">morra</span>”.[@MacedonianFolklore p. 297] However, it has been around for a long time and very similar games are played in many countries throughout the world; in Latin it was known as <span lang="la" class="aka">micatio</span>[@StudyOfGames p.  65] or <span lang="la" class="aka">micare digitis</span>.[@IlGiuocoDellaMorra]
-</p>
 
 In Ancient Greek it was called ‘finger crossing’ (<span lang="el-polyton" class="aka">ἡ ἐπάλλαξις τῶν δακτύλων</span> <span lang="el-Latn-polyton" class="aka">hē epállaxis tôn daktúlōn</span>, or <span lang="el-polyton" class="aka">δακτύλων ἐπάλλαξις</span> <span lang="el-Latn-polyton" class="aka">daktúlōn epállaxis</span>).[@AtlasClassicalAntiquities p. 151] In this time it was usually played with a rod or wand, which was held with the left hand. In modern Greek it is called <span lang="el" class="aka">μόρρα</span>, after the Italian name.
 

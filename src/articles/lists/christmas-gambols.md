@@ -5,9 +5,7 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 This poem by an otherwise unnamed “Boughton, Esq.” is featured in @PoeticalAmusementsBath2 [126–30] and contains reference to a number of games which were apparently at risk of being forgotten at the time the poem was written — however the poem is actually a sequence of sexual references.
-</p>
 
 > As Christmas Gambols are our theme,<br/>
 > &emsp;Let’s search through good old times,<br/>

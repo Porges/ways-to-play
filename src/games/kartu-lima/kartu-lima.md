@@ -9,11 +9,7 @@ players:
 equipment: Card game (Ceki)
 ---
 
-<p class="lead">
 <span class="noun" lang="jav-Latn">Kartu Lima</span> (‘five cards’) is an unusual trick-taking game from Java, which was played with {% a ceki %}.[@JavaanseKaartspelen p. 46–57] The same game has also been described under the name <span class="noun" lang="jav-Latn">Tepu</span>.[@JavanischeKartenspiele p. 47]
-</p>
-
-{/* excerpt */}
 
 The game below was described as being played in Surakarta. The version played in Yogyakarta was slightly different and is described afterwards.
 

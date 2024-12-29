@@ -7,25 +7,24 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead"><span class="noun" lang="haw">Kōnane</span> (sometimes also called <span
+<span class="noun" lang="haw">Kōnane</span> (sometimes also called <span
 lang="haw">mū</span>, which is also used to refer to draughts) is a traditional
 Hawaiian abstract game for two players. While it looks similar to checkers at
 first glance, the object of the game is different, and the strategy is very
-deep.</p>
-
-{/* excerpt */}
+deep.
 
 > [!figure]
 >
+> ![A child playing kōnane.](konane_960.jpg)
+>
 > ```yaml
-> 
-    src='konane_960.jpg'
-    alt="A child playing kōnane."
-    authorGiven="Janice", authorFamily="Wei",
-    orgName="National Park Service", orgAbbr="NPS",
-    copyrightYear=2018,
-    license="cc0",
-    originalUrl="https://www.nps.gov/havo/learn/news/20180315_pr_april_events.htm" 
+> authorGiven: "Janice"
+> authorFamily: "Wei"
+> orgName: "National Park Service"
+> orgAbbr: "NPS"
+> copyrightYear: 2018
+> license: "cc0"
+> originalUrl: "https://www.nps.gov/havo/learn/news/20180315_pr_april_events.htm" 
 > ```
 >
 > A game of <span lang="haw">kōnane</span> in action.

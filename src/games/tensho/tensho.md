@@ -5,12 +5,10 @@ originalTitle: <span lang="ja">テンショ</span>
 draft: true
 ---
 
-<p class="lead">
 <span lang="ja-Latn" class="noun">Tensho</span> (<span lang="ja">テンショ</span>) is a <span lang="ja-Latn" class="noun">Hanafuda</span> game from <span
 lang="ja-Latn" class="noun">Nagoya</span> in Japan. It is played with an unusual
 deck ordering and <span lang="ja-Latn">yaku</span> that are not found in other
 <span lang="ja-Latn" class="noun">Hanafuda</span> games.
-</p>
 
 ## History
 

@@ -4,9 +4,7 @@ titleLang: ja-Latn
 originalTitle: <span lang="ja">カックリ</span>
 ---
 
-<p class="lead">
 <Pronounce pronouncer="strawberrybrown"  lang="ja-Latn" file='pronunciation_ja_がっくり.mp3'>Kakkuri</Pronounce> (<span lang="ja">カックリ</span>) is the last surviving <span lang="ja-Latn">yomi</span> (<span lang="ja">読み</span>, ‘reading’) card game in Japan.[@KakkuriYomi] In 2005, it was still played in the town of <span class="noun" lang="ja-Latn">Yafune</span>, part of the city of <a href="https://en.wikipedia.org/wiki/Echizen,_Fukui"><span class="noun" lang="ja-Latn">Echizen</span>, <span class="noun" lang="ja-Latn">Fukui</span> prefecture</a> (<span lang="ja">福井県越前市矢船町</span>).
-</p>
 
 ## Equipment
 
@@ -27,7 +25,8 @@ standard deck of cards by removing all <Cards>⑩</Cards>s.
 > license: 'cc-by-sa'
 > licenseVersion: '4.0'
 > author: 'Outlookxp'
-> copyrightYear: 2014, originalUrl='https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%9D%BE%E6%9C%AD.png' 
+> copyrightYear: 2014
+> originalUrl: 'https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%9D%BE%E6%9C%AD.png'
 > ```
 >
 > The 48 cards of the traditional <span lang="ja-Latn">komatsufuda</span> deck.
@@ -114,14 +113,8 @@ In addition, the <Cards>1</Cards> of <span lang="ja-Latn">pao</span> (<Cards>cA<
 There are two other special cases that allow more than one card of the same rank
 to be played:
 
-* If a player has three cards of the same rank they can play all of them
-  together. Four cannot be played together, but you can play three cards out of
-  a set of four.
-* If a player’s hand consists of three pairs, then any time before they play
-  their first card they can declare ‘three pairs’ (<span lang="ja">三足</span>
-  {% pronounce pronouncer="usako_usagiclub" word="sansoku" lang="ja-Latn"
-  file='pronunciation_ja_三足.mp3' %}). After that they can (and must) play
-  their cards in pairs.
+* If a player has three cards of the same rank they can play all of them together. Four cannot be played together, but you can play three cards out of a set of four.
+* If a player’s hand consists of three pairs, then any time before they play their first card they can declare ‘three pairs’ (<span lang="ja">三足</span> <Pronounce pronouncer="usako_usagiclub" lang="ja-Latn" file='pronunciation_ja_三足.mp3'>sansoku</Pronounce>). After that they can (and must) play their cards in pairs.
 
 Once a player has finished their turn, they say “pass” and it is the next
 player’s turn. Passing is ‘soft’ and doesn’t prevent a player from playing again

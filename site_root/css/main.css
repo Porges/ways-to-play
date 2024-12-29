@@ -194,24 +194,22 @@ body {
 }
 
 p {
+    hyphens: auto;
+}
 
-    /* Lead paragraphs */
-    &.lead {
-        font-weight: 350;
-        font-size: 1.5rem;
+article>p:first-of-type {
+    hyphens: none;
 
-        /* Push out RHS by same amount as figure */
-        margin-right: calc(-2 * var(--figure-wide-overlap));
+    font-weight: 350;
+    font-size: 1.5rem;
 
-        text-align: left;
-        text-wrap: balance;
+    /* Push out RHS by same amount as figure */
+    margin-right: calc(-2 * var(--figure-wide-overlap));
 
-        color: var(--colour-dark)
-    }
+    text-align: left;
+    text-wrap: balance;
 
-    &:not(.lead) {
-        hyphens: auto;
-    }
+    color: var(--colour-dark)
 }
 
 *+p {

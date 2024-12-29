@@ -5,13 +5,7 @@ players: [2,3]
 equipment: Card game (two-colour chess cards)
 ---
 
-<p class="lead">
-
 Fishing for Hairtails <span lang="zh-Hant">釣白魚</span> (Hokkien: <span lang="nan-Latn">tiò pe̍h-hî</span>) is a Hokkien [[articles/families/fishing-games/fishing-games|fishing card game]] for two or three players that is played with two-colour chess cards, which are sometimes called <span lang="zh-Hant">釣魚牌</span> ‘fishing cards’.  It may also be called <span lang="zh-Hant">白魚賭</span> ‘hairtail gambling’ or simply <span lang="zh-Hant">釣魚</span> ‘fishing’.
-
-</p>
-
-{/* excerpt */}
 
 The hairtail is [<cite>Trichiurus lepturus</cite>,](https://en.wikipedia.org/wiki/Largehead_hairtail) called the <span lang="ms">layur</span> throughout the Malay Archipelago. Legend has it that when one of these fish is caught, another one catches its tail, and so on, until the whole shoal is pulled up out of the water. This is compared to the way that cards are captured in this game. The reality is not as dramatic as that, but when they are being caught the hairtails do have a tendency to latch onto each other (see image at @タチウオの共食い), and it is possible to use hairtail tails as bait for them.
 
@@ -60,7 +54,7 @@ The game is played with a deck of two-colour chess cards containing 56 cards, so
 > ```yaml
 > originalUrl: "https://commons.wikimedia.org/wiki/File:%E9%87%A3%E9%AD%9A%E7%89%8C.png"
 > author: "outlookxp"
-> copyrightYear: "2013"
+> copyrightYear: 2013
 > license: "cc-by-sa"
 > licenseVersion: "3.0"
 > ```

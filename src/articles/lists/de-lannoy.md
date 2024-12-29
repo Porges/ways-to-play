@@ -5,9 +5,7 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 In 1464, <a href="https://en.wikipedia.org/wiki/Jean_de_Lannoy">Jean de Lannoy</a> (1410–1493) — a nobleman from Lannoy, in what was then the Holy Roman Empire but now is part of northern France — wrote a series of letters to his newly-born son, in the fear that he would die before he was able to educate him personally.[@LesLettresDuSeigneurDeLannoy1856]
-</p>
 
 In one letter he warns against the dangers of games, usefully providing a list of games that were popular at the time:[@LesLettresDuSeigneurDeLannoy p. 241]
 

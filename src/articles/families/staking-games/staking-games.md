@@ -5,9 +5,7 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 Under this title, I collect games where bets are placed by players, usually on a staking layout of some kind, and then the winning bets are selected by some random method — dice, wheel, teetotum, card — by the dealer or house. The only choice of the player is where to lay their bets.
-</p>
 
 ## Games
 

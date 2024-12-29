@@ -14,9 +14,7 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead"><span class="noun" lang="ms">Cholek Tiga</span> (‘draw three’) is a Peranakan fishing game for two or three players, played with {%a ceki,Cherki cards%}.</p>
-
-{/* excerpt */}
+<span class="noun" lang="ms">Cholek Tiga</span> (‘draw three’) is a Peranakan fishing game for two or three players, played with {%a ceki,Cherki cards%}.
 
 The description below is based on @ChikiCards [p. 125–7]:
 

@@ -6,9 +6,7 @@ equipment: Card game (standard deck)
 countries: FR,ES,UK,ID
 ---
 
-<p class="lead">
 <span class="aka">Ombre</span>, or <span class="aka">Hombre</span>, is one of the earliest card games that was played in Europe. Originally played in Spain as a game for four, it became popularized throughout the continent as a three-player game until other games later overtook it in popularity. Despite this it has survived until this day in some locations, still being played in Denmark and on the island of Sulawesi in Indonesia, where it is called <span class="aka noun" lang="bug">Omi</span>.
-</p>
 
 Other games directly derived from Ombre include the {% a unsun-karuta, Unsun %} games of Japan, while the bidding system influenced many other card games.[@OmbreEtLumiere p. 101]
 

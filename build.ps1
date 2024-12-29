@@ -3,47 +3,66 @@
 $root = $PSScriptRoot
 $public = Join-Path $root "public"
 $src = Join-Path $root "src"
-
-if (Test-Path $public) {
-    Write-Error "public dir already exists"
-    Exit 1
-}
+$image_manifest = Join-Path $PSScriptRoot "images.json"
 
 function Copy-StaticContent {
-    Copy-Item -Path (Join-Path $root "site_root") -Recurse -Destination $public
+    Copy-Item -Path (Join-Path $root "site_root") -Recurse -Destination $public -Force
     $static_content = @("audio", "fonts", "small-images")
     foreach ($dir in $static_content) {
-        Copy-Item -Path (Join-Path $root $dir) -Recurse -Destination $public
+        Copy-Item -Path (Join-Path $root $dir) -Recurse -Destination $public -Force
     }
 }
 
 function Resize-Images {
     $target_dir = Join-Path $public "img"
-    New-Item -Path $target_dir -ItemType Directory
+    New-Item -Path $target_dir -ItemType Directory -ErrorAction SilentlyContinue
+    
+    $sizes = (300, 600, 800, 1200, 4000)
+    Push-Location $src
+    try {
+        $files = git ls-tree HEAD . -r '--format=%(path):%(objectname)' | Select-String '\.jpe?g:'
+        Write-Host "Found $($files.Count) images to convert"
+        $env:MAGICK_THREAD_LIMIT = 1
+        
+        $files | ForEach-Object -ThrottleLimit ([System.Environment]::ProcessorCount) -Parallel {
+            $path, $hash = $_ -split ':'
+            $origPath = Join-Path $using:target_dir "$hash.jpg"
+            if (Test-Path $origPath) {
+                Write-Host "Skipping $path"
+            }
+            else {
+                Write-Host "Converting $path"
+                $magick_args = $using:sizes | ForEach-Object { 
+                    @(
+                        '('
+                        'mpr:x'
+                        '-resize'
+                        "$($_)x$($_)>"
+                        '-quality'
+                        '80'
+                        '-write'
+                        (Join-Path $using:target_dir "$hash-$_.jpg")
+                        ')'
+                    )
+                }
 
-    Get-ChildItem -Path $src -Recurse -Include '*.jpg', '*.jpeg' | ForEach-Object -ThrottleLimit 10 -Parallel {
-        $file = $_
-        $src_modified = $file.LastWriteTime
-        $target_dir = $using:target_dir
-        $test_file = Join-Path $target_dir $("." + $file.Name)
-        if (Test-Path $test_file -NewerThan $src_modified) {
-            Write-Host "Skipping $file"
+                magick $path -write mpr:x +delete @magick_args null:
+                Copy-Item $path $origPath -Force
+            }
         }
-        else {
-            Write-Host "Converting $file"
-            magick $file -set filename:pre '%t_%#' -set filename:post '.%e' -write mpr:x +delete `
-                '(' mpr:x -resize '4000x4000>' -quality 80 -write "$target_dir/%[filename:pre]4000%[filename:post]" ')' `
-                '(' mpr:x -resize '1200x1200>' -quality 80 -write "$target_dir/%[filename:pre]1200%[filename:post]" ')' `
-                '(' mpr:x -resize '800x800>' -quality 80 -write "$target_dir/%[filename:pre]800%[filename:post]" ')' `
-                '(' mpr:x -resize '600x600>' -quality 80 -write "$target_dir/%[filename:pre]600%[filename:post]" ')' `
-                '(' mpr:x -resize '300x300>' -quality 80 -write "$target_dir/%[filename:pre]300%[filename:post]" ')' `
-                null:
-
-            New-Item -Path $test_file -ItemType File -Force | Out-Null
+        
+        $file_lookup = @{}
+        $files | ForEach-Object {
+            $path, $hash = $_ -split ':'
+            $file_lookup[$path] = $hash
         }
+        
+        Set-Content -Path $image_manifest -Value ($file_lookup | ConvertTo-Json -Depth 100)
+    }
+    finally {
+        Pop-Location
     }
 }
-
 function Build-Builder {
     Push-Location (Join-Path $root "build")
     try {
@@ -56,10 +75,10 @@ function Build-Builder {
 
 function Build-HTML {
     $builder = Join-Path $root "build/target/release/wtp-build"
-    & $builder --input $src --output $public
+    & $builder --input $src --output $public --image-manifest $image_manifest
 }
 
 Copy-StaticContent
-# Resize-Images
+Resize-Images
 Build-Builder
-Build-HTML
+Build-HTML 

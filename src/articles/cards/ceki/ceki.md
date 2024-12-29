@@ -14,9 +14,7 @@ date created: 2024-12-18
 date modified: 2024-12-23
 ---
 
-<p class="lead">
 Ceki (Javanese <span lang="jav">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
-</p>
 
 “Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun aka" lang="jav-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#<span%20class="noun%20aka"%20lang="jav-Latn">Gonggong</span>) cards’).
 
@@ -65,7 +63,7 @@ are closer to their ancestral forms than those used in Indonesia.
  > license: stock-image
  > orgName: Shutterstock.com
  > author: Fiqah Anugerah Dah Besa
- > identifier: 1293448237
+ > identifier: '1293448237'
  > originalUrl: https://www.shutterstock.com/image-photo/penang-malaysia-january-22-2019-happy-1293448237
 > ```
 >
@@ -103,7 +101,7 @@ In Bali, the game is widely played and has “a large if not fanatical following
 > ```yaml
 > size: wide
 > license: cc-by-nc-nd
-> licenseVersion: 2.0
+> licenseVersion: '2.0'
 > originalUrl: https://www.flickr.com/photos/adamcohn/30414256602/ 
 > authorGiven: Adam
 > authorFamily: Cohn

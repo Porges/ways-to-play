@@ -47,7 +47,7 @@ elsewhere; for the moment, at least, I cannot say.
 > ```yaml
 > size: wide
 > license: cc-by
-> licenseVersion: 4.0
+> licenseVersion: '4.0'
 > originalUrl: https://collections.museumsvictoria.com.au/items/387918
 > authorFamily: Morrow
 > authorGiven: Sandra
@@ -361,7 +361,7 @@ The Vietnamese game has a similar æsthetic to the Chinese version, including th
 > license: stock-image
 > orgName: Shutterstock.com
 > originalUrl: https://www.shutterstock.com/image-photo/traditional-vietnamese-game-bau-cua-tom-541065277
-> identifier: 541065082 
+> identifier: '541065082' 
 > ```
 >
 > Three dice as used in the Vietnamese game.
@@ -399,7 +399,7 @@ game at funerals.[@ThaiGambling p. 86]
 > license: stock-image
 > orgName: Shutterstock.com
 > author: jointstar
-> identifier: 319181276
+> identifier: '319181276'
 > originalUrl: https://www.shutterstock.com/image-photo/animal-picture-on-dice-319181276
 > ```
 >
@@ -425,7 +425,7 @@ Again I have little information about the game here. Some images of the game bei
 > >
 > > ```yaml
 > > license: cc-by
-> > licenseVersion: 2.0
+> > licenseVersion: '2.0'
 > > copyrightYear: 2013
 > > author: PhotAsia
 > > originalUrl: https://www.flickr.com/photos/photasia/8373019722/
@@ -439,7 +439,7 @@ Again I have little information about the game here. Some images of the game bei
 > >
 > > ```yaml
 > > license: cc-by-nc
-> > licenseVersion: 2.0
+> > licenseVersion: '2.0'
 > > authorGiven: Jodie
 > > authorFamily: Gallagher
 > > originalUrl: https://www.flickr.com/photos/126412580@N04/14740162634/
@@ -468,7 +468,7 @@ Gambling remains illegal in most of India but the game is commonly played during
 > license: stock-image
 > orgName: Shutterstock.com
 > author: rajanpy
-> identifier: 1958829937
+> identifier: '1958829937'
 > originalUrl: https://www.shutterstock.com/image-vector/langur-burja-jhandi-munda-dice-local-1958829937
 > ```
 >
@@ -494,7 +494,7 @@ The names of the symbols are (in Hindi):
 > license: stock-image
 > orgName: Shutterstock.com
 > author: Kondoruk
-> identifier: 1035142783
+> identifier: '1035142783'
 > copyrightYear: 2017
 > originalUrl: https://www.shutterstock.com/image-photo/pokhara-nepal-sept-24-2017-unidentified-1035142783
 > ```
@@ -564,7 +564,7 @@ As in many cultures, gambling is often associated with religious festivals.  Whi
 >
 > ```yaml
 > license: cc-by-nc-nd
-> licenseVersion: 2.0
+> licenseVersion: '2.0'
 > author: Walther Tjon Pian Gi
 > copyrightYear: 2011
 > originalUrl: https://www.flickr.com/photos/wtpg/15100534169/
@@ -607,7 +607,7 @@ Some of the sets of symbols used are:
 > > license: stock-image
 > > orgName: Shutterstock.com
 > > author: Novie Charleen Magne
-> > identifier: 1350321158
+> > identifier: '1350321158'
 > > copyrightYear: 2013
 > > originalUrl: https://www.shutterstock.com/image-photo/karangasem-bali-indonesia-26-july-2013-1350321158
 > > ```
@@ -622,7 +622,7 @@ Some of the sets of symbols used are:
 > > license: stock-image
 > > orgName: Shutterstock.com
 > > author: Novie Charleen Magne
-> > identifier: 1350321164
+> > identifier: '1350321164'
 > > copyrightYear: 2013
 > > originalUrl: https://www.shutterstock.com/image-photo/karangasem-bali-indonesia-26-july-2013-1350321164
 > > ```
@@ -639,7 +639,7 @@ The game can also be played without symbols, but the dice used are still very hi
 > license: stock-image
 > orgName: Shutterstock.com
 > author: Nomad1988
-> identifier: 1398460952
+> identifier: '1398460952'
 > copyrightYear: 2017
 > originalUrl: https://www.shutterstock.com/image-photo/baliindonesia2009-on-weekeds-bali-1398460952
 > ```
@@ -659,7 +659,7 @@ The game is still played today in Jamaica.
 > ```yaml
 > originalUrl: https://www.flickr.com/photos/ekkaia/207971457
 > license: cc-by-nd
-> licenseVersion: 2.0
+> licenseVersion: '2.0'
 > author: Lisa
 > copyrightYear: 2006 
 > ```
@@ -685,7 +685,7 @@ As with [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md), the game has been ad
 > originalUrl: https://www.flickr.com/photos/tsarkasim/3891195907/
 > author: Damien D.
 > copyrightYear: 2009
-> licenseVersion: 2.0
+> licenseVersion: '2.0'
 > license: cc-by-sa 
 > ```
 >

@@ -6,7 +6,7 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<p class="lead"><span class="aka">Gresco</span> is a very old dice game, dating from at least the 13th century.</p>
+<span class="aka">Gresco</span> is a very old dice game, dating from at least the 13th century.
 
 In English sources, it is mentioned as early as 1605 in @EastwardHoe [p. 56].[^fn0] In {%a new-academy %} it is described as a card game, but I think this is probably a joke; the character who mentions it says that she knows it only by “hear-say” and lists it alongside “primofistula”!
 In Florio’s Italian–English dictionary of 1611[^fn1] it is definitively mentioned alongside [Hazard](games/hazard/hazard.md) as a dice game.[@QueenAnnaFlorio 45, 303, 463]

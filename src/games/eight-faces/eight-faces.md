@@ -8,9 +8,7 @@ date created: 2024-12-18
 date modified: 2024-12-21
 ---
 
-<p class="lead">
 Eight Faces (<span lang="zh" class="aka">八面</span>, Mandarin <span lang="cmn-Latn-pinyin" class="aka">bā miàn</span>, Hokkien <span lang="nan-Latn" class="aka">peh bīn</span>) is (or was) a simple staking game played with a special eight-sided teetotum (<span lang="zh">陀螺</span>, Mandarin <span lang="cmn-Latn">tuóluó</span>, Hokkien <span lang="nan-Latn">tolo</span>). It is also called <span lang="zh" class="aka">小花会</span> (Mandarin <span lang="cmn-Latn-pinyin" class="aka">xiǎohuāhuì</span>, ‘small <span class="noun" lang="cmn-Latn">Huāhuì</span>’), as it uses a subset of characters from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game.[@郑超麟回忆录]
-</p>
 
 > [!aside]
 >

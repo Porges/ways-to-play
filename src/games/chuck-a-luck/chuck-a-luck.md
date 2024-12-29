@@ -14,9 +14,9 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">Chuck-A-Luck was a simple dicing game popular in the United States in the mid to
+Chuck-A-Luck was a simple dicing game popular in the United States in the mid to
 late 19th century and early 20th century. It began as a portable soldier’s game
-and later developed into more complex casino variants.</p>
+and later developed into more complex casino variants.
 
 ## Sweat-Cloth / Chuck-A-Luck
 
@@ -209,7 +209,7 @@ one advertisement for an Electric Hyronemus claiming it can be made to roll only
 > > originalUrl: "https://auctions.potterauctions.com/Chuck_A_Luck_Hand_Held_Cage_with_Three_Dice__-LOT9883.aspx"
 > > ```
 > >
-> >     A hand-held “bird cage” for tossing Chuck-A-Luck dice (<abbr title="circa">c.</abbr> 1930).
+> > A hand-held “bird cage” for tossing Chuck-A-Luck dice (<abbr title="circa">c.</abbr> 1930).
 > 
 > > [!figure]
 > >

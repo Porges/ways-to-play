@@ -10,9 +10,7 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer='GeraldYang' file="pronunciation_yue_白鴿票.mp3" class="aka">baak⁶ gaap³ piu³</Pronounce>) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
-</p>
 
 The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Eventually the game became known under the modern name of Keno, which is now played in casinos around the world.
 
@@ -146,7 +144,7 @@ Nevertheless, the game was permitted to continue and licenses to run <span lang=
 > licenseVersion: "2.0"
 > authorGiven: "Brian"
 > authorFamily: "Chow"
-> copyrightYear: "2005"
+> copyrightYear: 2005
 > originalUrl: "https://www.flickr.com/photos/free-stuff/156734440"
 > ```
 >

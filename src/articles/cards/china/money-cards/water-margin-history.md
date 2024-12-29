@@ -3,9 +3,7 @@ title: Development of the Water Margin deck
 draft: true
 ---
 
-<p class="lead">
 Money cards are among the oldest types of cards in the world, and from them are derived many other types of cards, probably including “standard” playing cards, as well as games like mahjong, along with more obvious descendants like {%a ceki%}.
-</p>
 
 In this article I discuss the earliest-known discussions of this type of deck, and how the characters who are depicted on the cards have changed over time.
 

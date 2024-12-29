@@ -4,9 +4,7 @@ titleLang: ms
 players: banking
 ---
 
-<p class="lead">
 <span lang="ms" class="noun aka">Belangkai</span> is a gambling game that is played in Malaysia[@GamblingGamesOfMalaya p. 127] and is named after the Malaysian word for the horseshoe crab <span lang="ms">belangkas</span>. The game is also referred to as Belankai, Belanki, or simply Belan(g)kas. In @GamblingGamesOfMalaya [p. 127] the name <span lang="zh" class="aka">勿人介</span> is also given, although without explanation. In Vietnam, it is called <span lang="vi" class="noun aka">Cua Hoàng Đế</span> (‘emperor crab’).
-</p>
 
 The game is still played currently, and has many online implementations.[^fn0]
 

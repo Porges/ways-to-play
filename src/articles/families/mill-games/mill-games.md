@@ -31,7 +31,7 @@ all pieces are placed on the board before any pieces are moved.
 > orgName: Shutterstock.com
 > author: FooTToo
 > license: stock-image
-> identifier: 120413827
+> identifier: '120413827'
 > originalUrl: https://www.shutterstock.com/image-photo/old-nine-mens-morris-board-on-120413827
 > ```
 > 

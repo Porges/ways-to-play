@@ -7,12 +7,8 @@ players:
     max: 4
 ---
 
-<p class="lead">
 Tilters is a trick-taking game played with a custom 50-card deck of cards called
 Yankee’s Notion cards.[@Hoyle1857 p. 142–3]
-</p>
-
-{/* excerpt */}
 
 ## Setup
 

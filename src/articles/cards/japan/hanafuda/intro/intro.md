@@ -71,8 +71,11 @@ There are 5 ‘bright’ (<span lang="ja">光</span> <Pronounce pronouncer="stra
 
 > [!figure]
 >
+> ![](5_brights.jpg)
+>
 > ```yaml
-> size="small", src='5_brights.jpg', alt="TODO" position="aside" 
+> size: small
+> position: aside 
 > ```
 >
 > The five bright cards, from a standard <span class="noun" lang="ja-Latn">Nintendo</span> deck.
@@ -106,8 +109,11 @@ In some decks, especially Korean ones, these are marked with the 光 character f
 
 > [!figure]
 >
+> ![](5_brights_kr.jpg)
+>
 > ```yaml
-> size="small", src='5_brights_kr.jpg', alt="TODO" position="aside" 
+> size: "small"
+> position: "aside" 
 > ```
 >
 > The five bright cards, from a Korean Pierrot (<span lang="ko">피에로</span>) deck.

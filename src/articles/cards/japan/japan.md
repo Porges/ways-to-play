@@ -15,7 +15,7 @@ for playing cards, <span lang="pt">carta</span>.
 > license: cc0
 > noborder: true
 > orgName: Museum of Fine Arts Boston position="aside"
-> identifier: 2002.2083
+> identifier: '2002.2083'
 > orgAbbr: MFA
 > originalUrl: https://collections.mfa.org/objects/403615/a-very-popular-cardplaying-gathering-sakan-naru-karuta-kai
 > ```

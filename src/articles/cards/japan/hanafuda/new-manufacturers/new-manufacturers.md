@@ -247,10 +247,6 @@ games invented by Ryan.
 > 
 > ![](pixel_hanafuda.jpg)
 >
-> ```yaml
-> 
-> ```
->
 > The five Brights of the Pixel <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
 
 > [!figure]

@@ -4,8 +4,8 @@ order: 400
 mainImage: 22738050.jpg
 ---
 
-<p class="lead">Manufacturing of playing cards in New Zealand started in the 1880s. Despite this
-early start, there have not been many manufacturers of playing-cards.</p>
+Manufacturing of playing cards in New Zealand started in the 1880s. Despite this
+early start, there have not been many manufacturers of playing-cards.
 
 The main “lines” of manufacturers described below are (or were):
 
@@ -79,7 +79,7 @@ cards.
 >
 > ```yaml
 > noborder: true
-> position: left"
+> position: left
 > ```
 >
 > The Joker card (with the non-pictorial decks) remains unchanged throughout the years, aside from reproduction infelicities.
@@ -390,6 +390,7 @@ Archibald Dudingston Willis (1842–1908)[@ADWillis_IPCS] was a very early manuf
 > “Strand” Cards in the Willis style, this deck probably made by UEB. The designs are redrawn from the original Willis design. This deck is unusual in that the paper is uncoated and the cards feel like plain cardboard, despite the box promising a “Linen Finish”.
 
 > [!figure]
+>
 > ![](UEB3-Ace.jpg)
 > ![](UEB3-Queen.jpg)
 > ![](UEB3-Joker.jpg)

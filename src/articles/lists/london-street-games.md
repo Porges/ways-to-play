@@ -5,9 +5,7 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 @LondonStreetGames is a very curious book which contains many (many) children’s games of many varieties. It somewhat rivals {%a rabelais,Rabelais%} in breadth! James Joyce raided this book for <a href="http://www.fweet.org/cgi-bin/gio?%3CLSG%3E">many of the games referenced</a> in <a href="https://en.wikipedia.org/wiki/Finnegans_Wake"><cite>Finnegan’s Wake</cite> (1939)</a>, however obliquely.
-</p>
 
 The games from the book are listed below. The divisions are my own; the games are otherwise listed in the order that they appear in the original book.
 

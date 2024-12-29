@@ -4,16 +4,9 @@ equipment: Physical
 draft: true
 ---
 
-<p class="lead">
-Under this title, I collect several children’s games which are very similar and
-involve most of the players sitting or standing in a circle while another player
-walks around the outside of it until they choose someone (with or without their knowing,
-according to the game), who must then chase them.
+Under this title, I collect several children’s games which are very similar and involve most of the players sitting or standing in a circle while another player walks around the outside of it until they choose someone (with or without their knowing, according to the game), who must then chase them.
 
 The most obvious modern version of this game is ‘Duck, Duck, Goose’.
-</p>
-
-{/* excerpt */}
 
 ## History
 

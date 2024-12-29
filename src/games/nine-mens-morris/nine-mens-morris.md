@@ -180,14 +180,15 @@ refers to hopscotch, due to the stones tossed upon the diagram.{%endfn%}
 
 > [!figure]
 >
+> ![A section of a manuscript written in a calligraphic hand](templar-rule.jpg)
+>
 > ```yaml
-> 
-    position="aside"
-    alt="A section of a manuscript written in a calligraphic hand"
-    src='templar-rule.jpg'
-    originalUrl="https://gallica.bnf.fr/ark:/12148/btv1b9058924p/f58.item.zoom",
-    license="cc0",
-    orgName='Bibliothèque nationale de France', orgLang="fr", orgAbbr='BnF' 
+> position: "aside"
+> originalUrl: "https://gallica.bnf.fr/ark:/12148/btv1b9058924p/f58.item.zoom"
+> license: "cc0"
+> orgName: 'Bibliothèque nationale de France'
+> orgLang: "fr"
+> orgAbbr: 'BnF' 
 > ```
 >
 > Text of the French Templar rule from an early 14th-century manuscript edition (with quoted passage highlighted).
@@ -471,15 +472,15 @@ flat 9 triads */}*/}
 
 > [!figure]
 >
+> ![A Morris board in a brick wall, made out of black and red bricks](P1130411a.jpg)
+>
 > ```yaml
-> 
-    alt="A Morris board in a brick wall, made out of black and red bricks"
-    src='P1130411a.jpg'
-    size="wide"
-    authorGiven="Ken", authorFamily="Broadhurst",
-    copyrightYear=2016,
-    license="with-permission",
-    originalUrl="https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html" 
+> size: "wide"
+> authorGiven: "Ken"
+> authorFamily: "Broadhurst"
+> copyrightYear: 2016
+> license: "with-permission"
+> originalUrl: "https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html" 
 > ```
 >
 > A <span lang="fr">jeu du moulin</span> in the south-west wall of the <span class="noun" lang="fr">Château du Moulin</span> (<span class="noun" lang="fr">Loir-et-Cher</span>, France). Built between 1480–1501, this is a punny reference to the name of the original owner, <span class="noun" lang="fr">Philippe du Moulin</span>. There is another Three Men’s Morris board on the eastern wall, and the nearby <span class="noun" lang="fr">Château de Gien</span> has a similar motif.[@MerylsBoardEnigma p. 103]

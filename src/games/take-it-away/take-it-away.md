@@ -10,11 +10,9 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 <span class="aka">Take It Away</span> is a game for 2–4 players invented by Sid Sackson,[@Gamut pp.
 142–3] in which players try to achieve the highest score by capturing from a
 shared set of pieces on the board.
-</p>
 
 ## Play
 

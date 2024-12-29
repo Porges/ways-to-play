@@ -13,13 +13,9 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 <span lang="ja-Latn" class="noun aka">Tehonbiki</span> (<span lang="ja" class="aka">手本引き</span>, meaning something like ‘draw an example’) is a traditional Japanese gambling game that is played with sets of six cards.
-</p>
 
 The goal of the game is for the players to guess the card which the dealer has chosen; the fact that the dealer must _choose_ the card and not select one at random turns this into a game of psychology rather than one of pure chance.
-
-{/* excerpt */}
 
 ## Equipment
 

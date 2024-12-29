@@ -14,9 +14,7 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 <span class="aka">Cee-Lo</span> is a gambling game played with three dice. The English name is apparently derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’; Mandarin: <Pronounce lang="cmn-Latn-pinyin"  pronouncer="MarvinMeow" file="pronunciation_zh_四五六.mp3">sì wǔ liù</Pronounce>, Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3">si³ ng⁵ luk⁶</Pronounce>, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>, Shanghainese: <span lang="wuu-Latn" class="aka">⁵sy ⁶ng ⁸loq</span>),[^fn0]  which is the highest roll in the game. Some books refer to it as “<span class="aka">Strung Flowers</span>”, another Chinese name for the highest roll;[@Bell vol. 1, p. 145] others call it “<span class="aka">Four Five Six</span>”, “<span class="aka">See Low</span>”,[@DiceGamesFrey p. 51] or simply the “<span class="aka">Three-Dice Game</span>”.[@ScarneOnDice p. 345]
-</p>
 
 [^fn0]: In New York’s Chinatown the Shanghai restaurant “Say Eng Look”[@Frommers95 110] at one point existed (5 East Broadway) across <a href="https://en.wikipedia.org/wiki/Chatham_Square">the square</a> from another Shanghai restaurant named “4–5–6”.[@AChinatownFind] The grandson of the owner of the latter now owns <a href="http://www.456shanghai.com/">a different 4–5–6 restaurant</a> in Mott Street.[@456NextGeneration]
 

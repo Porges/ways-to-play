@@ -6,9 +6,7 @@ originalTitle: <span lang="nan">輦寶</span>
 draft: true
 ---
 
-<p class="lead">
 <span lang="nan-Latn" class="noun aka">Lián Pó</span> <span lang="nan" class="aka">輦寶</span>[^fn0] is a gambling game played with a distinctive spinner.
-</p>
 
 [^fn0]: Usually transliterated as <span lang="nan-Latn" class="noun aka">Lien Poh</span> in older works.
 

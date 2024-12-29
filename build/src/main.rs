@@ -1,10 +1,12 @@
 #![recursion_limit = "512"]
 
-use std::{error::Error, ffi::OsStr, path::PathBuf, process, vec};
+use std::{collections::BTreeMap, error::Error, ffi::OsStr, path::PathBuf, process, vec};
 
 use bibliography::Bibliography;
 use clap::Parser;
+use eyre::{eyre, Context, Result};
 use markdown::{mdast, ParseOptions};
+use serde::{Deserialize, Serialize};
 
 mod bib_render;
 mod bib_to_csl;
@@ -21,12 +23,20 @@ struct Args {
 
     #[arg(short, long, value_name = "OUTPUT_DIR")]
     output: PathBuf,
+
+    #[arg(short, long)]
+    image_manifest: PathBuf,
 }
 
 struct File {
     url_path: String,
     content: mdast::Node,
     header: saphyr::Yaml,
+}
+
+#[derive(Deserialize)]
+struct ImageManifest {
+    images: BTreeMap<String, String>,
 }
 
 struct Builder {
@@ -36,16 +46,20 @@ struct Builder {
     bibliography: Bibliography,
     articles: Vec<File>,
     games: Vec<File>,
+    images: BTreeMap<String, String>,
 }
 
 impl Builder {
-    fn new(base_path: PathBuf, output_path: PathBuf) -> Self {
+    fn new(base_path: PathBuf, output_path: PathBuf, image_manifest: PathBuf) -> Self {
+        let manifest = std::fs::read_to_string(image_manifest).unwrap();
+        let images = serde_json::de::from_str(&manifest).unwrap();
         Self {
             base_path,
             output_path,
             articles: Vec::new(),
             games: Vec::new(),
             bibliography: Bibliography::default(),
+            images,
         }
     }
 
@@ -137,7 +151,8 @@ impl Builder {
         let rendered_bib = bib_render::to_rendered(&self.bibliography);
 
         for article in self.articles.into_iter().chain(self.games.into_iter()) {
-            let content = mdast_to_html::to_html(article.content, &rendered_bib);
+            let content = mdast_to_html::to_html(article.content, &rendered_bib)
+                .wrap_err_with(|| eyre!("couldn’t render {}", article.url_path))?;
 
             let mut output_path = self.output_path.join(&article.url_path);
             if output_path.file_name() != Some(OsStr::new("index")) {
@@ -176,7 +191,11 @@ fn main() -> Result<(), Box<dyn Error>> {
         }
     }
 
-    let mut builder = Builder::new(args.input.canonicalize()?, args.output.canonicalize()?);
+    let mut builder = Builder::new(
+        args.input.canonicalize()?,
+        args.output.canonicalize()?,
+        args.image_manifest.canonicalize()?,
+    );
 
     builder.load()?;
     builder.generate()?;

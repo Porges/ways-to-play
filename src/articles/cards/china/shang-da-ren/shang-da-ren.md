@@ -38,7 +38,11 @@ highlighted in red. In some versions, the second character is highlighted in gre
 
 > [!figure]
 >
-> ![](shang_da_ren.jpg" size="wide)
+> ![](shang_da_ren.jpg)
+>
+> ```yaml
+> size: "wide"
+> ```
 >
 > A 96-card deck published under the brand <span lang="zh">上大人乐喜</span>.
 

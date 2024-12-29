@@ -12,7 +12,7 @@ date created: 2024-12-18
 date modified: 2024-12-22
 ---
 
-<p class="lead"><span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn"  noun="true" pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) that had been played since the <Pronounce lang="ja-Latn"  noun="true" pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> period (<span lang="ja">平安</span>, 794–1185).</p>
+<span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn"  noun="true" pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) that had been played since the <Pronounce lang="ja-Latn"  noun="true" pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> period (<span lang="ja">平安</span>, 794–1185).
 
 ## Origins
 
@@ -1022,7 +1022,7 @@ by cranes.
 > ![Two cranes walking side-by-side through the snow. They have white bodies with black extremities and the top of their head is red.](shutterstock_1043519431.jpg)
 >
 > ```yaml
-> identifier: 1043519431
+> identifier: '1043519431'
 > license: "stock-image"
 > orgName: "Shutterstock.com"
 > author: "Ondrej Prosicky"
@@ -1904,7 +1904,7 @@ Otokuni</span> (<span lang="ja">河合乙州</span>) came to visit him with a gi
 > copyrightYear: 2006
 > ```
 >
->     The Imperial Seal of Japan.
+> The Imperial Seal of Japan.
 
 
 Chrysanthemums were also prized for their secular beauty, and collectors
