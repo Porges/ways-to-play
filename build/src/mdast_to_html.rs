@@ -1,4 +1,4 @@
-use std::{collections::BTreeMap, ffi::OsStr, io::Write, process, sync::LazyLock};
+use std::{collections::BTreeMap, ffi::OsStr, io::Write, path::Path, process, sync::LazyLock};
 
 use eyre::{eyre, Context, OptionExt, Result};
 use markdown::mdast::{
@@ -40,18 +40,30 @@ pub fn locate_defs(node: &Node) -> (BTreeMap<String, Vec<Node>>, BTreeMap<String
     (fndefs, linkdefs)
 }
 
-pub fn to_html(node: Node, bibliography: &BTreeMap<String, Markup>) -> Result<Markup> {
+pub fn to_html(
+    content_root: &Path,
+    file_path: &Path,
+    node: Node,
+    bibliography: &BTreeMap<String, Markup>,
+    images: &BTreeMap<String, String>,
+) -> Result<Markup> {
     let (fndefs, linkdefs) = locate_defs(&node);
     Converter {
+        content_root,
+        file_path,
         fndefs,
         linkdefs,
         bibliography,
+        images,
         used_bib: Vec::new(),
     }
     .convert(false, node)
 }
 
 struct Converter<'a> {
+    content_root: &'a Path,
+    file_path: &'a Path,
+    images: &'a BTreeMap<String, String>,
     fndefs: BTreeMap<String, Vec<Node>>,
     linkdefs: BTreeMap<String, String>,
     bibliography: &'a BTreeMap<String, Markup>,
@@ -490,7 +502,7 @@ impl Converter<'_> {
                     return Ok(html! {
                         figure {
                             @for img in images {
-                                img src=(img.url) alt=(img.alt) title=[img.title];
+                                img src=(self.resolve_image(img.url)?) alt=(img.alt) title=[img.title];
                             }
 
                             figcaption {
@@ -542,6 +554,41 @@ impl Converter<'_> {
                 (self.expand(blockquote.children)?)
             }
         })
+    }
+
+    fn resolve_image(&self, url: String) -> Result<String> {
+        // absolute URLs remain absolute
+        if url.starts_with('/') {
+            return Ok(url);
+        }
+
+        let ext = Path::new(&url)
+            .extension()
+            .unwrap_or_default()
+            .to_string_lossy();
+
+        self.images
+            // first try obsidian vault-relative URL
+            .get(&url)
+            .or_else(|| {
+                let content_root = url::Url::from_directory_path(self.content_root).unwrap();
+                let url_file = url::Url::from_file_path(self.file_path)
+                    .unwrap()
+                    .join(&url)
+                    .unwrap();
+                let rel_path = content_root.make_relative(&url_file).unwrap();
+
+                // file-relative URL
+                self.images.get(&rel_path)
+            })
+            .map(|u| format!("/img/{u}.{ext}"))
+            .ok_or_else(|| {
+                eyre!(
+                    "unknown image: {} (self: {})",
+                    &url,
+                    self.file_path.display()
+                )
+            })
     }
 }
 

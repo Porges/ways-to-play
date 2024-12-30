@@ -1,5 +1,12 @@
 #!/bin/env pwsh
 
+$ErrorActionPreference = 'Stop'
+
+$env:LC_ALL = "C.UTF-8"
+$env:MAGICK_THREAD_LIMIT = 1
+
+[System.Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+
 $root = $PSScriptRoot
 $public = Join-Path $root "public"
 $src = Join-Path $root "src"
@@ -20,41 +27,47 @@ function Resize-Images {
     $sizes = (300, 600, 800, 1200, 4000)
     Push-Location $src
     try {
-        $files = git ls-tree HEAD . -r '--format=%(path):%(objectname)' | Select-String '\.jpe?g:'
+        $files = (git ls-tree HEAD . -r -z).Split("`0") | Select-String '\.(jpe?g|svg|png)$'
         Write-Host "Found $($files.Count) images to convert"
-        $env:MAGICK_THREAD_LIMIT = 1
         
-        $files | ForEach-Object -ThrottleLimit ([System.Environment]::ProcessorCount) -Parallel {
-            $path, $hash = $_ -split ':'
-            $origPath = Join-Path $using:target_dir "$hash.jpg"
+        $files  | ForEach-Object -ThrottleLimit ([System.Environment]::ProcessorCount) -Parallel {
+            $mode, $type, $hash, $path = $_ -split '\s+'
+            
+            $ext = Split-Path $path -Extension
+            $origPath = Join-Path $using:target_dir "$hash$ext"
+
             if (Test-Path $origPath) {
                 Write-Host "Skipping $path"
             }
             else {
                 Write-Host "Converting $path"
-                $magick_args = $using:sizes | ForEach-Object { 
-                    @(
-                        '('
-                        'mpr:x'
-                        '-resize'
-                        "$($_)x$($_)>"
-                        '-quality'
-                        '80'
-                        '-write'
-                        (Join-Path $using:target_dir "$hash-$_.jpg")
-                        ')'
-                    )
+                
+                if ((Split-Path $path -Extension) -match ".jp?eg") {
+                    $magick_args = $using:sizes | ForEach-Object { 
+                        @(
+                            '('
+                            'mpr:x'
+                            '-resize'
+                            "$($_)x$($_)>"
+                            '-quality'
+                            '80'
+                            '-write'
+                            (Join-Path $using:target_dir "$hash-$_.jpg")
+                            ')'
+                        )
+                    }
+
+                    magick $path -write mpr:x +delete @magick_args null:
                 }
 
-                magick $path -write mpr:x +delete @magick_args null:
                 Copy-Item $path $origPath -Force
             }
         }
         
         $file_lookup = @{}
         $files | ForEach-Object {
-            $path, $hash = $_ -split ':'
-            $file_lookup[$path] = $hash
+            $mode, $type, $hash, $path = $_ -split '\s+'
+            $file_lookup[[uri]::EscapeUriString($path)] = $hash
         }
         
         Set-Content -Path $image_manifest -Value ($file_lookup | ConvertTo-Json -Depth 100)

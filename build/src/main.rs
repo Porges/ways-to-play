@@ -29,6 +29,7 @@ struct Args {
 }
 
 struct File {
+    file_path: PathBuf,
     url_path: String,
     content: mdast::Node,
     header: saphyr::Yaml,
@@ -122,8 +123,9 @@ impl Builder {
                             continue;
                         }
 
-                        let mut url_path =
-                            entry_path.strip_prefix(&self.base_path)?.with_extension("");
+                        let rel_path = entry_path.strip_prefix(&self.base_path)?;
+
+                        let mut url_path = rel_path.with_extension("");
 
                         // folder note handling:
                         if url_path.file_name() == url_path.parent().and_then(|p| p.file_name()) {
@@ -133,6 +135,7 @@ impl Builder {
                         let url_path = url_path.to_string_lossy().replace('\\', "/") + "/";
 
                         result.push(File {
+                            file_path: entry_path,
                             url_path,
                             content,
                             header: yaml_header,
@@ -151,8 +154,14 @@ impl Builder {
         let rendered_bib = bib_render::to_rendered(&self.bibliography);
 
         for article in self.articles.into_iter().chain(self.games.into_iter()) {
-            let content = mdast_to_html::to_html(article.content, &rendered_bib)
-                .wrap_err_with(|| eyre!("couldn’t render {}", article.url_path))?;
+            let content = mdast_to_html::to_html(
+                &self.base_path,
+                &article.file_path,
+                article.content,
+                &rendered_bib,
+                &self.images,
+            )
+            .wrap_err_with(|| eyre!("couldn’t render {}", article.url_path))?;
 
             let mut output_path = self.output_path.join(&article.url_path);
             if output_path.file_name() != Some(OsStr::new("index")) {

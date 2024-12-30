@@ -381,7 +381,7 @@ Archibald Dudingston Willis (1842–1908)[@ADWillis_IPCS] was a very early manuf
 > ![](UEB-Ace.jpg)
 > ![](UEB-Queen.jpg)
 > ![](UEB-Joker.jpg)
-> ![](AdWillis-Strand-Box.jpg)
+> ![](ADWillis-Strand-Box.jpg)
 >
 > ```yaml
 > noborder: true

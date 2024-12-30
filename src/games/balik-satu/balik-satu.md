@@ -175,7 +175,7 @@ value (1–9 points), and the red-stamped cards are worth more:
 > 
 > > [!figure]
 > >
-> > ![]("../../articles/cards/ceki/COT.jpg)
+> > ![](../../articles/cards/ceki/COT.jpg)
 > > ```yaml
 > > size: small
 > > noborder: true
