@@ -1,6 +1,6 @@
 use std::{collections::BTreeMap, ffi::OsStr, io::Write, path::Path, process, sync::LazyLock};
 
-use eyre::{eyre, Context, OptionExt, Result};
+use eyre::{bail, eyre, Context, OptionExt, Result};
 use markdown::mdast::{
     AttributeContent, AttributeValue, Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Text,
     Yaml,
@@ -8,6 +8,7 @@ use markdown::mdast::{
 use maud::{html, Markup};
 use regex::Captures;
 use serde::Deserialize;
+use serde_json::Map;
 
 pub fn get_header(node: &Node) -> Option<Yaml> {
     match node {
@@ -464,26 +465,10 @@ impl Converter<'_> {
                             eyre::bail!("figure callout code block must be 'yaml'");
                         }
 
-                        let as_json = process::Command::new("yq")
-                            .args([OsStr::new("-o"), OsStr::new("json")])
-                            .stdin(process::Stdio::piped())
-                            .stdout(process::Stdio::piped())
-                            .spawn()
-                            .wrap_err("spawning yq")?;
+                        let yaml =
+                            saphyr::Yaml::load_from_str(&yaml.value).wrap_err("parsing yaml")?;
 
-                        as_json
-                            .stdin
-                            .as_ref()
-                            .expect("stdout was piped")
-                            .write_all(yaml.value.as_bytes())?;
-
-                        let output = as_json.wait_with_output().wrap_err("waiting for yq")?;
-
-                        if !output.status.success() {
-                            eyre::bail!("yq failed to parse:\n{}", yaml.value);
-                        }
-
-                        serde_json::from_slice(&output.stdout)?
+                        serde_json::from_value(yaml_to_json(yaml)?)?
                     } else {
                         ImageMetadata {
                             ..Default::default()
@@ -674,4 +659,52 @@ enum License {
     CcByNcNd,
     CcByNcSa,
     UsFairUse,
+}
+
+fn yaml_to_json(input: Vec<saphyr::Yaml>) -> Result<serde_json::Value> {
+    if input.len() == 1 {
+        yaml_node_to_json(input.into_iter().next().unwrap())
+    } else {
+        eyre::bail!("expected exactly one yaml node")
+    }
+}
+
+fn yaml_node_to_string(yaml: saphyr::Yaml) -> Result<String> {
+    let result = match yaml {
+        saphyr::Yaml::String(x) => x,
+        saphyr::Yaml::Real(x) => x,
+        saphyr::Yaml::Integer(x) => x.to_string(),
+        saphyr::Yaml::Boolean(x) => x.to_string(),
+        saphyr::Yaml::Array(_) => bail!("unexpected array as key value"),
+        saphyr::Yaml::Hash(_) => bail!("unexpected hash as key value"),
+        saphyr::Yaml::Alias(_) => bail!("unexpected alias as key value"),
+        saphyr::Yaml::Null => bail!("unexpected null as key value"),
+        saphyr::Yaml::BadValue => bail!("bad value"),
+    };
+
+    Ok(result)
+}
+
+fn yaml_node_to_json(yaml: saphyr::Yaml) -> Result<serde_json::Value> {
+    let result: serde_json::Value = match yaml {
+        saphyr::Yaml::Real(x) => str::parse::<f64>(&x)?.into(),
+        saphyr::Yaml::Integer(x) => x.into(),
+        saphyr::Yaml::String(x) => x.into(),
+        saphyr::Yaml::Boolean(x) => x.into(),
+        saphyr::Yaml::Array(vec) => vec
+            .into_iter()
+            .map(yaml_node_to_json)
+            .collect::<Result<Vec<_>>>()?
+            .into(),
+        saphyr::Yaml::Hash(linked_hash_map) => linked_hash_map
+            .into_iter()
+            .map(|(k, v)| Ok((yaml_node_to_string(k)?, yaml_node_to_json(v)?)))
+            .collect::<Result<Map<_, _>>>()?
+            .into(),
+        saphyr::Yaml::Alias(_) => todo!(),
+        saphyr::Yaml::Null => serde_json::Value::Null,
+        saphyr::Yaml::BadValue => eyre::bail!("bad value"),
+    };
+
+    Ok(result)
 }

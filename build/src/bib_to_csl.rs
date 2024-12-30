@@ -1,69 +1,93 @@
-use json::JsonValue;
+use serde_json::Value;
 
 use crate::bibliography::{Bibliography, Reference};
 
 // Downlevels my fancy bibliography to something vaguely CSL-compatible.
-pub fn to_csl(bib: &Bibliography) -> JsonValue {
-    let mut result = json::Array::new();
+pub fn to_csl(bib: &Bibliography) -> Value {
+    let mut result: Vec<Value> = Vec::new();
 
     for (key, entry) in bib.references.iter() {
-        let mut obj = json::object::Object::new();
-        obj["id"] = key.as_str().into();
-        obj["title"] = entry.common().title.value.as_str().into();
-        obj["author"] = entry
-            .common()
-            .author
-            .iter()
-            .map(|a| {
-                json::object! {
-                    "given": a.given.clone(),
-                    "family": a.family.clone(),
-                }
-            })
-            .collect::<json::Array>()
-            .into();
+        let mut obj = serde_json::Map::new();
+        obj.insert("id".to_string(), key.as_str().into());
+        obj.insert(
+            "title".to_string(),
+            entry.common().title.value.as_str().into(),
+        );
+        obj.insert(
+            "author".to_string(),
+            entry
+                .common()
+                .author
+                .iter()
+                .map(|a| {
+                    let mut obj = serde_json::Map::new();
+                    obj.insert("family".to_string(), a.family.clone().into());
+                    obj.insert("given".to_string(), a.given.clone().into());
+                    obj
+                })
+                .collect::<Vec<_>>()
+                .into(),
+        );
 
         match entry {
             Reference::JournalArticle(journal_article) => {
-                obj["type"] = "article-journal".into();
-                obj["issued"] = journal_article.periodical.issued.to_iso().into();
+                obj.insert("type".to_string(), "article-journal".into());
+                obj.insert(
+                    "issued".to_string(),
+                    journal_article.periodical.issued.to_iso().into(),
+                );
             }
             Reference::NewspaperArticle(newspaper_article) => {
-                obj["type"] = "article-newspaper".into();
-                obj["issued"] = newspaper_article.periodical.issued.to_iso().into();
+                obj.insert("type".to_string(), "article-newspaper".into());
+                obj.insert(
+                    "issued".to_string(),
+                    newspaper_article.periodical.issued.to_iso().into(),
+                );
             }
             Reference::MagazineArticle(magazine_article) => {
-                obj["type"] = "article-magazine".into();
-                obj["issued"] = magazine_article.periodical.issued.to_iso().into();
+                obj.insert("type".to_string(), "article-magazine".into());
+                obj.insert(
+                    "issued".to_string(),
+                    magazine_article.periodical.issued.to_iso().into(),
+                );
             }
             Reference::Book(book) => {
-                obj["type"] = "book".into();
-                obj["issued"] = book.issued.as_ref().map(|d| d.to_iso()).into();
+                obj.insert("type".to_string(), "book".into());
+                obj.insert(
+                    "issued".to_string(),
+                    book.issued.as_ref().map(|d| d.to_iso()).into(),
+                );
             }
             Reference::Chapter(chapter) => {
-                obj["type"] = "chapter".into();
-                obj["issued"] = chapter.book.issued.as_ref().map(|d| d.to_iso()).into();
+                obj.insert("type".to_string(), "chapter".into());
+                obj.insert(
+                    "issued".to_string(),
+                    chapter.book.issued.as_ref().map(|d| d.to_iso()).into(),
+                );
             }
             Reference::Document(document) => {
-                obj["type"] = "document".into();
+                obj.insert("type".to_string(), "document".into());
             }
             Reference::WebPage(web_page) => {
-                obj["type"] = "webpage".into();
+                obj.insert("type".to_string(), "webpage".into());
             }
             Reference::Thesis(thesis) => {
-                obj["type"] = "thesis".into();
+                obj.insert("type".to_string(), "thesis".into());
             }
             Reference::ConferencePaper(conference_paper) => {
-                obj["type"] = "paper-conference".into();
-                obj["issued"] = conference_paper
-                    .book
-                    .issued
-                    .as_ref()
-                    .map(|d| d.to_iso())
-                    .into();
+                obj.insert("type".to_string(), "paper-conference".into());
+                obj.insert(
+                    "issued".to_string(),
+                    conference_paper
+                        .book
+                        .issued
+                        .as_ref()
+                        .map(|d| d.to_iso())
+                        .into(),
+                );
             }
             Reference::Patent(patent) => {
-                obj["type"] = "patent".into();
+                obj.insert("type".to_string(), "patent".into());
             }
         }
 
