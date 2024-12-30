@@ -1,4 +1,4 @@
-use std::{collections::BTreeMap, ffi::OsStr, io::Write, path::Path, process, sync::LazyLock};
+use std::{collections::BTreeMap, fmt::Display, path::Path, sync::LazyLock, u32};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
 use markdown::mdast::{
@@ -9,6 +9,8 @@ use maud::{html, Markup};
 use regex::Captures;
 use serde::Deserialize;
 use serde_json::Map;
+
+use crate::ImageManifest;
 
 pub fn get_header(node: &Node) -> Option<Yaml> {
     match node {
@@ -46,7 +48,7 @@ pub fn to_html(
     file_path: &Path,
     node: Node,
     bibliography: &BTreeMap<String, Markup>,
-    images: &BTreeMap<String, String>,
+    images: &ImageManifest,
 ) -> Result<Markup> {
     let (fndefs, linkdefs) = locate_defs(&node);
     Converter {
@@ -55,7 +57,7 @@ pub fn to_html(
         fndefs,
         linkdefs,
         bibliography,
-        images,
+        img_manifest: images,
         used_bib: Vec::new(),
     }
     .convert(false, node)
@@ -64,7 +66,7 @@ pub fn to_html(
 struct Converter<'a> {
     content_root: &'a Path,
     file_path: &'a Path,
-    images: &'a BTreeMap<String, String>,
+    img_manifest: &'a ImageManifest,
     fndefs: BTreeMap<String, Vec<Node>>,
     linkdefs: BTreeMap<String, String>,
     bibliography: &'a BTreeMap<String, Markup>,
@@ -456,7 +458,8 @@ impl Converter<'_> {
                         }
                     }
 
-                    let metadata: ImageMetadata = if matches!(iter.peek(), Some(Node::Code(_))) {
+                    let mut metadata: ImageMetadata = if matches!(iter.peek(), Some(Node::Code(_)))
+                    {
                         let Some(Node::Code(yaml)) = iter.next() else {
                             unreachable!()
                         };
@@ -470,10 +473,24 @@ impl Converter<'_> {
 
                         serde_json::from_value(yaml_to_json(yaml)?)?
                     } else {
-                        ImageMetadata {
-                            ..Default::default()
-                        }
+                        Default::default()
                     };
+
+                    if metadata.license.is_none() {
+                        // check for a mistake
+                        if metadata.author.is_some()
+                            || metadata.author_given.is_some()
+                            || metadata.org_name.is_some()
+                        {
+                            bail!("missing license in image metadata");
+                        }
+
+                        // otherwise it's defaulting to me
+                        metadata.license = Some(License::CcByNcSa);
+                        metadata.license_version = Some("4.0".to_string());
+                        metadata.author_given = Some("George".to_string());
+                        metadata.author_family = Some("Pollard".to_string());
+                    }
 
                     let mut caption = Vec::new();
                     for next in iter {
@@ -484,14 +501,65 @@ impl Converter<'_> {
                         }
                     }
 
+                    let multi_classes = format!(
+                        "{}{}{}",
+                        metadata
+                            .justify
+                            .as_deref()
+                            .map(|v| format!(" {v}"))
+                            .unwrap_or_default(),
+                        if metadata.cram { " cram" } else { "" },
+                        if metadata.equalheight {
+                            " equal-height"
+                        } else {
+                            ""
+                        }
+                    );
+
+                    let noborder = if metadata.noborder { " border-0" } else { "" };
+                    let copyright_notice = metadata.copyright_notice();
+
                     return Ok(html! {
-                        figure {
-                            @for img in images {
-                                img src=(self.resolve_image(img.url)?) alt=(img.alt) title=[img.title];
+                        figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
+                            @if images.len() == 1 {
+                                @let img = &images[0];
+                                @let orig = self.resolve_image(&img.url)?;
+                                @let hash = orig.split('/').last().unwrap_or_default().split(".").next().unwrap_or_default();
+                                dialog.lightbox id={"lb-" (hash)} {
+                                    img src=(orig) srcset="" alt=(&img.alt) title=[&img.title] loading="lazy";
+                                    div.lightbox-under {
+                                        span itemscope {
+                                            (copyright_notice)
+                                        }
+                                        form method="dialog" {
+                                            a href=(orig) role="button" target="_blank" { "Original" }
+                                            button.lightbox-close { "Close" }
+                                        }
+                                    }
+                                }
+                                a href={"#lb-" (hash)} {
+                                    img class={"figure-img" (noborder)}
+                                        itemprop="contentUrl"
+                                        src="" alt=(&img.alt)
+                                        width="" height=""
+                                        srcset="" sizes="";
+                                }
+                            } @else {
+                                @for row in images.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
+                                    div class={"multi" (multi_classes)} {
+                                        @for img in row {
+                                            img class={"figure-img" (noborder)} src=(self.resolve_image(&img.url)?) alt=(&img.alt) title=[&img.title];
+                                        }
+                                    }
+                                }
                             }
 
                             figcaption {
-                                (self.expand(caption)?)
+                                div itemprop="caption" {
+                                    (self.expand(caption)?)
+                                }
+                                br;
+                                (copyright_notice)
                             }
                         }
                     });
@@ -541,10 +609,10 @@ impl Converter<'_> {
         })
     }
 
-    fn resolve_image(&self, url: String) -> Result<String> {
+    fn resolve_image(&self, url: &str) -> Result<String> {
         // absolute URLs remain absolute
         if url.starts_with('/') {
-            return Ok(url);
+            return Ok(url.to_string());
         }
 
         let ext = Path::new(&url)
@@ -552,21 +620,21 @@ impl Converter<'_> {
             .unwrap_or_default()
             .to_string_lossy();
 
-        self.images
+        self.img_manifest
             // first try obsidian vault-relative URL
-            .get(&url)
+            .get(url)
             .or_else(|| {
                 let content_root = url::Url::from_directory_path(self.content_root).unwrap();
                 let url_file = url::Url::from_file_path(self.file_path)
                     .unwrap()
-                    .join(&url)
+                    .join(url)
                     .unwrap();
                 let rel_path = content_root.make_relative(&url_file).unwrap();
 
                 // file-relative URL
-                self.images.get(&rel_path)
+                self.img_manifest.get(&rel_path)
             })
-            .map(|u| format!("/img/{u}.{ext}"))
+            .map(|u| format!("/img/{}.{ext}", u.hash))
             .ok_or_else(|| {
                 eyre!(
                     "unknown image: {} (self: {})",
@@ -592,10 +660,11 @@ fn find_attribute<'a>(atts: &'a [AttributeContent], name: &'static str) -> Optio
 #[derive(Deserialize, Default)]
 #[serde(deny_unknown_fields, rename_all = "camelCase")]
 struct ImageMetadata {
+    license: Option<License>,
+
     position: Option<ImagePositions>,
     size: Option<ImageSizes>,
     copyright_year: Option<u32>,
-    license: Option<License>,
     license_version: Option<String>, // TODO
     original_url: Option<String>,
     identifier: Option<String>,
@@ -617,7 +686,7 @@ struct ImageMetadata {
 
     justify: Option<String>, // TODO remove?
 
-    per_row: Option<u32>,
+    per_row: Option<usize>,
 
     author: Option<String>,
     author_given: Option<String>,
@@ -628,6 +697,8 @@ struct ImageMetadata {
     org_abbr: Option<String>,
     org_url: Option<String>,
     org_lang: Option<String>,
+
+    terms_url: Option<String>,
 }
 
 #[derive(Deserialize)]
@@ -659,6 +730,168 @@ enum License {
     CcByNcNd,
     CcByNcSa,
     UsFairUse,
+    Terms,
+}
+
+const CC: char = '\u{1f16d}';
+const CC0: char = '\u{1f16e}';
+const BY: char = '\u{1f16f}';
+const SA: char = '\u{1f10e}';
+const NC: char = '\u{1f10f}';
+const ND: char = '⊜';
+
+impl ImageMetadata {
+    fn copyright_notice(&self) -> Markup {
+        let hidden = if self.hidden { Some("hidden") } else { None };
+        html! {
+            span itemprop="copyrightNotice" hidden=[hidden] {
+                @if !matches!(self.license, Some(License::Cc0)) {
+                    "© "
+                }
+                @if let Some(copyright_year) = self.copyright_year {
+                    span itemprop="copyrightYear" { (copyright_year) }
+                    " "
+                }
+                @if let Some(copyright_holder) = self.copyright_holder() {
+                    (copyright_holder)
+                    ", "
+                }
+                (self.license_info())
+                @if let Some(identifier) = &self.identifier {
+                    ": " span.image-identifier { (identifier) }
+                }
+            }
+        }
+    }
+
+    fn copyright_holder(&self) -> Option<Markup> {
+        if self.org_name.is_some() {
+            if self.author.is_some() || self.author_given.is_some() {
+                Some(self.person("creator"))
+            } else {
+                Some(self.organization("copyrightHolder"))
+            }
+        } else if self.author.is_some() || self.author_given.is_some() {
+            Some(self.person("copyrightHolder creator"))
+        } else {
+            None
+        }
+    }
+
+    fn organization(&self, itemprop: &str) -> Markup {
+        if let Some(org_name) = &self.org_name {
+            let content = if let Some(org_abbr) = &self.org_abbr {
+                html! {
+                    meta itemprop="name" content=(org_name);
+                    abbr title=(org_name) { (org_abbr) }
+                }
+            } else {
+                html! { span itemprop="name" { (org_name) } }
+            };
+            html! {
+                span itemscope itemtype="https://schema.org/Organization" lang=[&self.org_lang] itemprop=(itemprop) {
+                    @if let Some(url) = &self.org_url {
+                        a href=(url) { (content) }
+                    } else {
+                        (content)
+                    }
+                }
+            }
+        } else {
+            todo!("huh")
+        }
+    }
+
+    fn person(&self, itemprop: &str) -> Markup {
+        html! {
+            span itemscope itemtype="https://schema.org/Person" itemprop=(itemprop) {
+                @if self.org_name.is_some() {
+                    (self.organization("worksFor")) "/"
+                }
+                span itemprop="name" lang=[&self.author_lang] {
+                    @if let Some(name) = &self.author {
+                        (name)
+                    }
+
+                    @if crate::bib_render::family_last(self.author_lang.as_deref()) {
+                        @if let Some(given) = &self.author_given {
+                            span itemprop="givenName" { (given) }
+                        }
+                        " "
+                        @if let Some(family) = &self.author_family {
+                            span itemprop="familyName" { (family) }
+                        }
+                    } @else {
+                        @if let Some(family) = &self.author_family {
+                            span itemprop="familyName" { (family) }
+                        }
+                        @if let Some(given) = &self.author_given {
+                            span itemprop="givenName" { (given) }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    fn license_info(&self) -> Markup {
+        let cc = |name: &str, title: &str, content: Markup| -> Markup {
+            let version = self.license_version.as_deref().unwrap_or("4.0");
+            html! {
+                a itemprop="license" href={"https://creativecommons.org/licenses/" (name) "/" (version) "/"}
+                title={"Licensed under the Creative Commons " (title) " license " (version)} {
+                    (content)
+                }
+            }
+        };
+
+        match self.license.as_ref().unwrap() {
+            License::StockImage => Markup::default(),
+            License::WithPermission => {
+                html! { "used with permission" }
+            }
+            License::UsFairUse => {
+                html! { "under US fair use" }
+            }
+            License::Terms => {
+                html! {
+                    span {
+                        "used in accordance with "
+                        a href=[&self.terms_url] itemprop="license" { "terms" }
+                    }
+                }
+            }
+            License::Cc0 => {
+                html! {
+                    a itemprop="license" href="https://creativecommons.org/publicdomain/mark/1.0/" title="Public Domain" {
+                        (CC0)
+                    }
+                }
+            }
+            License::CcBy => cc("by", "Attribution", html! { (CC) (BY) }),
+            License::CcBySa => cc("by-sa", "Attribution-ShareAlike", html! { (CC) (BY) (SA) }),
+            License::CcByNc => cc(
+                "by-nc",
+                "Attribution-NonCommercial",
+                html! { (CC) (BY) (NC) },
+            ),
+            License::CcByNd => cc(
+                "by-nd",
+                "Attribution-NoDerivatives",
+                html! { (CC) (BY) (ND) },
+            ),
+            License::CcByNcNd => cc(
+                "by-nc-nd",
+                "Attribution-NonCommercial-NoDerivatives",
+                html! { (CC) (BY) (NC) (ND) },
+            ),
+            License::CcByNcSa => cc(
+                "by-nc-sa",
+                "Attribution-NonCommercial-ShareAlike",
+                html! { (CC) (BY) (NC) (SA) },
+            ),
+        }
+    }
 }
 
 fn yaml_to_json(input: Vec<saphyr::Yaml>) -> Result<serde_json::Value> {

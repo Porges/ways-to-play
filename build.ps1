@@ -27,22 +27,32 @@ function Resize-Images {
     $sizes = (300, 600, 800, 1200, 4000)
     Push-Location $src
     try {
-        $files = (git ls-tree HEAD . -r -z).Split("`0") | Select-String '\.(jpe?g|svg|png)$'
+        $files = (git ls-tree HEAD . -r -z).Split("`0") | Select-String '\.(jpe?g|svg|png)$' | ForEach-Object {
+            $mode, $type, $hash, $path = $_ -split '\s+'
+            @{
+                mode = $mode
+                type = $type
+                hash = $hash
+                path = $path
+            }
+        }
+
         Write-Host "Found $($files.Count) images to convert"
         
         $files  | ForEach-Object -ThrottleLimit ([System.Environment]::ProcessorCount) -Parallel {
-            $mode, $type, $hash, $path = $_ -split '\s+'
+            $hash = $_.hash
+            $path = $_.path
             
             $ext = Split-Path $path -Extension
             $origPath = Join-Path $using:target_dir "$hash$ext"
 
             if (Test-Path $origPath) {
-                Write-Host "Skipping $path"
+                Write-Debug "Skipping $path"
             }
             else {
                 Write-Host "Converting $path"
                 
-                if ((Split-Path $path -Extension) -match ".jp?eg") {
+                if ((Split-Path $path -Extension) -match ".jpe?g") {
                     $magick_args = $using:sizes | ForEach-Object { 
                         @(
                             '('
@@ -66,8 +76,29 @@ function Resize-Images {
         
         $file_lookup = @{}
         $files | ForEach-Object {
-            $mode, $type, $hash, $path = $_ -split '\s+'
-            $file_lookup[[uri]::EscapeUriString($path)] = $hash
+            $file_lookup[[uri]::EscapeUriString($_.path)] = @{
+                hash = $_.hash
+            }
+        }
+        
+        # get sizes of raster formats, quickly
+        $sizes = exiftool -json -ImageHeight -ImageWidth -r -q -ext jpg -ext jpeg -ext png . | ConvertFrom-Json
+        foreach ($size in $sizes) {
+            # Starts with "./"
+            $path = $size.SourceFile.Substring(2)
+            $target = $file_lookup[[uri]::EscapeUriString($path)]
+            $target.width = $size.ImageWidth
+            $target.height = $size.ImageHeight
+        }
+        
+        # get sizes of SVGs
+        $files | ForEach-Object {
+            if ((Split-Path -Extension $_.path) -eq ".svg") {
+                $size = yq '{"width": .svg.+@width | from_yaml, "height": .svg.+@height | from_yaml }' -px -oj $_.path | ConvertFrom-Json
+                $target = $file_lookup[[uri]::EscapeUriString($_.path)]
+                $target.width = $size.width
+                $target.height = $size.height
+            }
         }
         
         Set-Content -Path $image_manifest -Value ($file_lookup | ConvertTo-Json -Depth 100)

@@ -90,6 +90,19 @@ fn render_authors(r: &Reference) -> Markup {
     }
 }
 
+pub fn family_last(lang: Option<&str>) -> bool {
+    lang.is_none_or(|l| {
+        !l.starts_with("zh")
+            && !l.starts_with("ja")
+            && !l.starts_with("cmn")
+            && !l.starts_with("yue")
+    })
+}
+
+pub fn is_latn(lang: Option<&str>) -> bool {
+    lang.is_none_or(|l| l.ends_with("-Latn"))
+}
+
 fn render_people(
     people: OneOrMore<Person>,
     reverse_first: bool,
@@ -100,13 +113,8 @@ fn render_people(
         @for (ix, person) in people.into_iter().enumerate() {
             @let given = html! { span itemProp="givenName" { (person.given) } };
             @let family = person.family.as_deref().map(|f| html! { span itemProp="familyName" { (f) } });
-            @let is_latn = person.lang.as_ref().is_none_or(|l| l.ends_with("-Latn"));
-            @let family_last = person.lang.as_ref().is_none_or(|l| {
-                !l.starts_with("zh")
-                    && !l.starts_with("ja")
-                    && !l.starts_with("cmn")
-                    && !l.starts_with("yue")
-            });
+            @let is_latn = is_latn(person.lang.as_deref());
+            @let family_last = family_last(person.lang.as_deref());
             @let is_first = ix == 0;
             @let is_last = ix == total - 1;
             @let name_sep = if is_latn && family.is_some() { " " } else { "" };

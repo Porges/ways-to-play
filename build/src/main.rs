@@ -6,7 +6,7 @@ use bibliography::Bibliography;
 use clap::Parser;
 use eyre::{eyre, Context, Result};
 use markdown::{mdast, ParseOptions};
-use serde::{Deserialize, Serialize};
+use serde::Deserialize;
 
 mod bib_render;
 mod bib_to_csl;
@@ -35,9 +35,13 @@ struct File {
     header: saphyr::Yaml,
 }
 
+type ImageManifest = BTreeMap<String, ImageManifestEntry>;
+
 #[derive(Deserialize)]
-struct ImageManifest {
-    images: BTreeMap<String, String>,
+struct ImageManifestEntry {
+    hash: String,
+    height: usize,
+    width: usize,
 }
 
 struct Builder {
@@ -47,21 +51,22 @@ struct Builder {
     bibliography: Bibliography,
     articles: Vec<File>,
     games: Vec<File>,
-    images: BTreeMap<String, String>,
+    images: ImageManifest,
 }
 
 impl Builder {
-    fn new(base_path: PathBuf, output_path: PathBuf, image_manifest: PathBuf) -> Self {
-        let manifest = std::fs::read_to_string(image_manifest).unwrap();
-        let images = serde_json::de::from_str(&manifest).unwrap();
-        Self {
+    fn new(base_path: PathBuf, output_path: PathBuf, image_manifest: PathBuf) -> Result<Self> {
+        let manifest =
+            std::fs::read_to_string(image_manifest).wrap_err("loading image manifest")?;
+        let images = serde_json::de::from_str(&manifest).wrap_err("parsing image manifest")?;
+        Ok(Self {
             base_path,
             output_path,
             articles: Vec::new(),
             games: Vec::new(),
             bibliography: Bibliography::default(),
             images,
-        }
+        })
     }
 
     fn load(&mut self) -> Result<(), Box<dyn Error>> {
@@ -204,7 +209,7 @@ fn main() -> Result<(), Box<dyn Error>> {
         args.input.canonicalize()?,
         args.output.canonicalize()?,
         args.image_manifest.canonicalize()?,
-    );
+    )?;
 
     builder.load()?;
     builder.generate()?;
