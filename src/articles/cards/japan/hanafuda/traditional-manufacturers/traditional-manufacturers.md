@@ -10,7 +10,7 @@ hero:
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-22
-date modified: 2024-12-30
+date modified: 2025-01-02
 ---
 
 ## Identification 
@@ -901,7 +901,7 @@ of <span class="noun" lang="ja-Latn">Nintendō</span>’s (above).
 
 > [!figure]
 >
-> ![An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards.](/small-images/yaguruma.svg)
+> ![An example yaguruma symbol of seven arrows in a wheel, with the flights facing outwards.](./yaguruma.svg)
 >
 > ```yaml
 > size: "small"

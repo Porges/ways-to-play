@@ -10,7 +10,7 @@ use regex::Captures;
 use serde::Deserialize;
 use serde_json::Map;
 
-use crate::ImageManifest;
+use crate::{ImageManifest, ImageManifestEntry};
 
 pub fn get_header(node: &Node) -> Option<Yaml> {
     match node {
@@ -523,32 +523,32 @@ impl Converter<'_> {
                         figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
                             @if images.len() == 1 {
                                 @let img = &images[0];
-                                @let orig = self.resolve_image(&img.url)?;
-                                @let hash = orig.split('/').last().unwrap_or_default().split(".").next().unwrap_or_default();
-                                dialog.lightbox id={"lb-" (hash)} {
-                                    img src=(orig) srcset="" alt=(&img.alt) title=[&img.title] loading="lazy";
+                                @let meta = self.resolve_image(&img.url)?;
+                                dialog.lightbox id={"lb-" (meta.hash)} {
+                                    img src=(meta.url) srcset="" alt=(&img.alt) title=[&img.title] loading="lazy" width=(meta.width) height=(meta.height);
                                     div.lightbox-under {
                                         span itemscope {
                                             (copyright_notice)
                                         }
                                         form method="dialog" {
-                                            a href=(orig) role="button" target="_blank" { "Original" }
+                                            a href=(meta.url) role="button" target="_blank" { "Original" }
                                             button.lightbox-close { "Close" }
                                         }
                                     }
                                 }
-                                a href={"#lb-" (hash)} {
+                                a href={"#lb-" (meta.hash)} {
                                     img class={"figure-img" (noborder)}
                                         itemprop="contentUrl"
-                                        src="" alt=(&img.alt)
-                                        width="" height=""
+                                        src=(meta.url) alt=(&img.alt)
+                                        width=(meta.width) height=(meta.height)
                                         srcset="" sizes="";
                                 }
                             } @else {
                                 @for row in images.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
                                     div class={"multi" (multi_classes)} {
                                         @for img in row {
-                                            img class={"figure-img" (noborder)} src=(self.resolve_image(&img.url)?) alt=(&img.alt) title=[&img.title];
+                                            @let meta = self.resolve_image(&img.url)?;
+                                            img class={"figure-img" (noborder)} src=(meta.url) alt=(&img.alt) title=[&img.title] width=(meta.width) height=(meta.height);
                                         }
                                     }
                                 }
@@ -609,17 +609,7 @@ impl Converter<'_> {
         })
     }
 
-    fn resolve_image(&self, url: &str) -> Result<String> {
-        // absolute URLs remain absolute
-        if url.starts_with('/') {
-            return Ok(url.to_string());
-        }
-
-        let ext = Path::new(&url)
-            .extension()
-            .unwrap_or_default()
-            .to_string_lossy();
-
+    fn resolve_image(&self, url: &str) -> Result<&ImageManifestEntry> {
         self.img_manifest
             // first try obsidian vault-relative URL
             .get(url)
@@ -634,7 +624,6 @@ impl Converter<'_> {
                 // file-relative URL
                 self.img_manifest.get(&rel_path)
             })
-            .map(|u| format!("/img/{}.{ext}", u.hash))
             .ok_or_else(|| {
                 eyre!(
                     "unknown image: {} (self: {})",

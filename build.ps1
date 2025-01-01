@@ -101,6 +101,11 @@ function Resize-Images {
             }
         }
         
+        foreach ($x in $file_lookup.GetEnumerator()) {
+            $val = $x.Value
+            $val.url = "/img/$($val.hash)$(Split-Path $x.Key -Extension)"
+        }
+        
         Set-Content -Path $image_manifest -Value ($file_lookup | ConvertTo-Json -Depth 100)
     }
     finally {

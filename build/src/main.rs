@@ -42,6 +42,7 @@ struct ImageManifestEntry {
     hash: String,
     height: usize,
     width: usize,
+    url: String,
 }
 
 struct Builder {
