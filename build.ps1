@@ -94,7 +94,7 @@ function Resize-Images {
         # get sizes of SVGs
         $files | ForEach-Object {
             if ((Split-Path -Extension $_.path) -eq ".svg") {
-                $size = yq '{"width": .svg.+@width | from_yaml, "height": .svg.+@height | from_yaml }' -px -oj $_.path | ConvertFrom-Json
+                $size = yq '{"width": .svg.+@width | sub("px", "") | from_yaml, "height": .svg.+@height | sub("px", "") | from_yaml }' -px -oj $_.path | ConvertFrom-Json
                 $target = $file_lookup[[uri]::EscapeUriString($_.path)]
                 $target.width = $size.width
                 $target.height = $size.height
