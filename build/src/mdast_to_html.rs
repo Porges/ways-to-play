@@ -1,4 +1,4 @@
-use std::{collections::BTreeMap, fmt::Display, path::Path, sync::LazyLock, u32};
+use std::{collections::BTreeMap, path::Path, sync::LazyLock};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
 use markdown::mdast::{
@@ -394,12 +394,12 @@ impl Converter<'_> {
                     }
                     @for attr in flow.attributes {
                         @match attr {
-                            markdown::mdast::AttributeContent::Expression(mdx_jsx_expression_attribute) => (todo!()),
+                            markdown::mdast::AttributeContent::Expression(_mdx_jsx_expression_attribute) => (bail!("MDX expressions not supported")),
                             markdown::mdast::AttributeContent::Property(mdx_jsx_attribute) =>  {
                                 (maud::PreEscaped(format!(" {}", mdx_jsx_attribute.name)))
                                 @if let Some(value) = mdx_jsx_attribute.value {
                                     @match value {
-                                        markdown::mdast::AttributeValue::Expression(attribute_value_expression) => (todo!()),
+                                        markdown::mdast::AttributeValue::Expression(_attribute_value_expression) => (bail!("MDX expressions not supported")),
                                         markdown::mdast::AttributeValue::Literal(s) => (maud::PreEscaped(format!("=\"{}\"", s))),
                                     }
                                 }
@@ -558,7 +558,9 @@ impl Converter<'_> {
                                 div itemprop="caption" {
                                     (self.expand(caption)?)
                                 }
-                                br;
+                                @if copyright_notice.0.len() > 10 {
+                                    br;
+                                }
                                 (copyright_notice)
                             }
                         }

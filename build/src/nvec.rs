@@ -51,7 +51,7 @@ pub struct AtLeast<'a, const N: usize, A> {
     tail: &'a [A],
 }
 
-impl<'a, const N: usize, A> AtLeast<'a, N, A> {
+impl<const N: usize, A> AtLeast<'_, N, A> {
     pub fn len(&self) -> usize {
         self.head.len() + self.tail.len()
     }
