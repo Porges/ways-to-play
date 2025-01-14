@@ -1131,6 +1131,7 @@ Hyde1:
     alt: Two Books On Oriental Games
     lang: la
   volume: 1
+  language: la
   volume-title:
     value: Mandragorias, Seu Historia Shahiludii
     lang: la
@@ -1153,6 +1154,7 @@ Hyde2:
     value: De Ludis Orientalibus Libri Duo
     alt: Two Books On Oriental Games
     lang: la
+  language: la
   volume: 2
   volume-title:
     value: Historia Nerdiludii
@@ -2196,7 +2198,8 @@ HeimannLoop:
       lang: fr
       url: https://en.wikipedia.org/wiki/Thierry_Depaulis
   page: 51–61
-  URL: http://bgsj.ludus-opuscula.org/Home/ArticleDetails/99
+  URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/99
+  archive-URL: https://web.archive.org/web/20240623021241/https://bgsj.ludus-opuscula.org/PDF_Files/04online.pdf
   in: &bgs8
     publisher:
       value: Associação Ludus
@@ -2206,6 +2209,8 @@ HeimannLoop:
     volume: 8
     issued:
       year: 2014
+      month: 2
+      day: 21
 WinningWaysV3:
   type: book
   title: Winning Ways
@@ -2242,6 +2247,7 @@ FiggiUndMuliHaa:
   title: 
     value: "Schweizerisches Idiotikon: Figgi und Müli haa"
     lang: gsw
+  language: gsw
   publisher: Schweizerdeutsches Wörterbuch
   publisher-place: Zürich, Switzerland
   URL: https://www.idiotikon.ch/wortgeschichten1/368-figgi-und-mueli-haa
@@ -2628,6 +2634,7 @@ KlassischeSpiele:
   title:
     value: Klassische Spiele ganz neu
     lang: de
+  language: de
   author:
     - family: Bücken
       given: Hajo
@@ -2694,6 +2701,7 @@ Koolman:
   title:
     value: Wörterbuch der Ostfriesischen Sprache
     lang: de
+  language: de
   volume: 3
   volume-title: Q–Z
   author:
@@ -2737,6 +2745,7 @@ EbashiSadakuro:
   title: 
     value: 後世の花札図柄との異同
     lang: ja
+  language: ja
   author: 
     - &ebashi
       given: 崇
@@ -2769,6 +2778,7 @@ IwanoMatsui:
   title:
     value: 松井天狗堂の買取致します
     lang: ja
+  language: ja
   issued:
     year: 2017
   publisher: Iwano Art Co.
@@ -2778,6 +2788,7 @@ Yamaguchi:
   title:
     value: 最後の読みカルタ
     lang: ja
+  language: ja
   author:
     - family: 山口
       given: 泰彦
@@ -2810,6 +2821,7 @@ OstasiatischeSpielkarten:
   title:
     value: Ostasiatische Spielkarten
     lang: de
+  language: de
   author:
     - given: Gernot
       family: Prunner
@@ -2835,6 +2847,7 @@ TewazaNoKioku:
   title: 
     value: 手わざの記憶
     lang: ja
+  language: ja
   author:
     - given: 健司
       family: 村上
@@ -2853,6 +2866,7 @@ OishiTengudoHistory4:
   title: 
     value: 大石天狗堂口伝　第四章
     lang: ja
+  language: ja
   publisher:
     value: 大石天狗堂
     lang: ja
@@ -2866,6 +2880,7 @@ EbashiHanafuda:
   title:
     value: 花札
     lang: ja
+  language: ja
   author:
   - *ebashi
   issued:
@@ -2879,6 +2894,7 @@ UmebayashiIsao:
   title:
     value: 地方の花札屋さん
     lang: ja
+  language: ja
   author:
     - &Umebayashi_Isao_JP
       family: 梅林
@@ -2923,6 +2939,7 @@ CartaTaxLawContents:
   title:
     value: 骨牌税法の内容
     lang: ja
+  language: ja
   author:
   - *ebashi
   type: webpage
@@ -2948,6 +2965,7 @@ HironoriGunjin:
   title: 
     value: 日本と世界の行軍将棋
     lang: ja
+  language: ja
   author:
     - given: 浩徳
       family: 高橋
@@ -2977,6 +2995,7 @@ MuraiSun:
   title: 
     value: 明治の花札
     lang: ja
+  language: ja
   page: 160–4
   in: 
     issue: 9
@@ -3004,6 +3023,7 @@ KaiOi:
   title:
     value: 貝覆い
     lang: ja
+  language: ja
   publisher: Boardwalk Community
   author:
     - given: 浩徳
@@ -3103,6 +3123,7 @@ NintendoHistory:
   title:
     value: 在卖游戏之前，任天堂还上演过一出豪门宫斗
     lang: zh
+  language: zh
   type: webpage
   URL: https://zhuanlan.zhihu.com/p/31321595
   archive-URL: https://web.archive.org/web/20210328095321/https://zhuanlan.zhihu.com/p/31321595
@@ -3119,6 +3140,7 @@ EbashiCigaretteCards:
   title:
     value: 花札図柄の「煙草カード」
     lang: ja
+  language: ja
   URL: https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/
   archive-URL: https://web.archive.org/web/20230328011006/https://japanplayingcardmuseum.com/112-1-2-cigarettecard-designed-hanacarta/
   author:
@@ -3179,6 +3201,7 @@ CabinetOfficeEntertainment:
   title:
     value: 娯楽に関する世論調査
     lang: ja
+  language: ja
   author:
     - given: 内閣府
       lang: ja
@@ -3195,6 +3218,7 @@ NihonGoraku:
   title:
     value: 会社案内｜日本娯楽
     lang: ja
+  language: ja
   publisher:
     value: 日本娯楽
     lang: ja
@@ -3259,6 +3283,7 @@ MundartLexikon:
   title:
     value: Mundart-Lexikon
     lang: gsw
+  language: gsw
   issued:
     year: 2014
   publisher:
@@ -3358,6 +3383,7 @@ LaRegleDuTemple:
   title:
     value: La Règle Du Temple
     lang: fr
+  language: fr
   issued:
     year: 1886
   author:
@@ -3512,6 +3538,7 @@ OpeningKamigataya:
   title:
     value: 花札の公然の販売‥‥「上方屋」の挑戦
     lang: ja
+  language: ja
   author:
   - *ebashi
   publisher: Japan Playing Card Museum
@@ -3578,6 +3605,7 @@ JapaneseBusinessmen1914:
   title:
     value: 日本全国商工人名録
     lang: ja
+  language: ja
   publisher:
     value: 商工社
     lang: ja
@@ -3590,6 +3618,7 @@ JapaneseBusinessmen1916:
   title:
     value: 日本全国商工人名録
     lang: ja
+  language: ja
   publisher:
     value: 商工社
     lang: ja
@@ -3602,6 +3631,7 @@ Trademarks1905:
   title:
     value: 日本登録商標大全. 第六編
     lang: ja
+  language: ja
   publisher:
     value:  東京書院
     lang: ja
@@ -3614,6 +3644,7 @@ UniversalInfo:
   title:
     value: ウニバーセルトランプ
     lang: ja
+  language: ja
   in:
     title: 
       value: 全国百貨店有名取引業者総覧
@@ -3631,6 +3662,7 @@ Trademarks1924_7:
   title:
     value: 日本登録商標大全. 　第７輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3643,6 +3675,7 @@ Trademarks1924_8:
   title:
     value: 日本登録商標大全. 　第８輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3655,6 +3688,7 @@ Trademarks1924_9:
   title:
     value: 日本登録商標大全. 　第９輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3667,6 +3701,7 @@ Trademarks1924_11:
   title:
     value: 日本登録商標大全. 　第１１輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3679,6 +3714,7 @@ Trademarks1924_5:
   title:
     value: 日本登録商標大全. 　第５輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3691,6 +3727,7 @@ Trademarks1924_14:
   title:
     value: 日本登録商標大全. 　第１４輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3703,6 +3740,7 @@ Trademarks1924_15:
   title:
     value: 日本登録商標大全. 　第１５輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3715,6 +3753,7 @@ Trademarks1924_17:
   title:
     value: 日本登録商標大全. 　第１７輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3727,6 +3766,7 @@ Trademarks1924_18:
   title:
     value: 日本登録商標大全. 　第１８輯　下
     lang: ja
+  language: ja
   publisher:
     value: 東京書院
     lang: ja
@@ -3886,6 +3926,7 @@ RancangBangun:
   title:
     value: Rancang Bangun Permainan Ceki <em>Online</em>
     lang: ban
+  language: ban
   publisher: Universitas Udayana
   publisher-place: Denpasar, Bali, Indonesia
   issued:
@@ -3918,6 +3959,7 @@ JavanischeKartenspiele:
   title:
     value: Javanische Kartenspiele
     lang: de
+  language: de
   author:
     - given: O. D.
       family: Tauern
@@ -4227,6 +4269,7 @@ Aldenardiana:
   title:
     value: "Aldenardiana: Novellen Uit het Zuiden van Oost-Vlaanderen"
     lang: nl
+  language: nl
   author:
     - given: Isidoor
       family: Teirlinck
@@ -4517,6 +4560,7 @@ TableauxEtCartons:
   title:
     value: Tableaux et Cartons Illustrés Nécessaires à Certains Jeux de Dés
     lang: fr
+  language: fr
   author:
     - given: François
       family: Richard
@@ -4536,6 +4580,7 @@ BibliographieDeLaFrance69:
   title:
     value: "Gravures, Lithographies, Photographies: Genre"
     lang: fr
+  language: fr
   URL: https://books.google.co.nz/books?id=e4M7AQAAMAAJ
   in:
     title:
@@ -4788,6 +4833,7 @@ MaedaBook:
   title:
     value: "骨牌勝利法 : 文明遊具 一名・まける事しらず"
     lang: ja
+  language: ja
   author:
     - family: 前田
       given: 喜兵衛
@@ -4844,6 +4890,7 @@ SEAlangBalinese:
   title:
     value: 郑超麟回忆录
     lang: zh
+  language: zh
   author:
     - family: 郑
       given: 超麟
@@ -4925,6 +4972,7 @@ alQamus:
     value: القاموس المحيط
     lang: ar
     alt: The Surrounding Ocean
+  language: ar
   author:
     - family: فيروزآبادى
       given: محمد بن يعقوب
@@ -5091,6 +5139,7 @@ Trostspiegel:
   title:
     value: Trostspiegel in Glück und Unglück
     lang: de
+  language: de
   author:
     - family: Petrarca
       given: Francesco
@@ -5213,6 +5262,7 @@ JavaanseKaartspelen:
     value: "Javaanse Kaartspelen: bijdrage tot de beschrijving van land en volk"
     lang: nl
     alt: Javanese Card Games
+  language: nl
   author:
     - given: Tjan Tjoe
       family: Siem
@@ -5233,6 +5283,7 @@ JavaanseKaartspelenReview:
   title:
     value: "Tjan Tjoe Siem: Javaansche Kaartspelen: bidrage tot de beschrijving van land en volk"
     lang: nl
+  language: nl
   author:
     - given: E. M.
       family: Uhlenbeck
@@ -5269,6 +5320,7 @@ SparrowAndPigeon:
   title:
     value: “麻雀牌”與“白鴿票”之原詞形音義探討
     lang: zh-Hant
+  language: zh
   author:
     - family: 譚
       given: 世寶
@@ -5333,6 +5385,7 @@ QinYingChapter:
   title:
     value: 列傳一百四十一
     lang: zh
+  language: zh
   in:
     title:
       value: 清史稿
@@ -5351,6 +5404,7 @@ PermainanKoaPart1:
   title:
     value: Permainan KOA (bagian 1)
     lang: id
+  language: id
   URL: http://auacorner.blogspot.com/2013/08/permainan-koa-bagian-1.html
   archive-URL: https://web.archive.org/web/20200222140448/http://auacorner.blogspot.com/2013/08/permainan-koa-bagian-1.html
   container-title: Cindua Dingin
@@ -5364,6 +5418,7 @@ HetMaleischderMolukken:
   title:
     value: Het Maleisch der Molukken
     lang: nl
+  language: nl
   author:
     - given: Frederik Sigismund Alexander
       family: de Clercq
@@ -5378,6 +5433,7 @@ YoungCeki:
   title:
     value: Bijdrage tot de kennis der Chinesche hazard- en kaartspelen
     lang: nl
+  language: nl
   author:
     - given: J. W.
       family: Young
@@ -5395,6 +5451,7 @@ deClercqPehiSpel:
   title:
     value: Verklaring van het Péhi-spel
     lang: nl
+  language: nl
   URL: https://munas.kemdikbud.go.id/ebook/file/tijd/TBG1876_23.pdf
   archive-URL: https://web.archive.org/web/20231212123343/https://munas.kemdikbud.go.id/ebook/file/tijd/TBG1876_23.pdf
   author:
@@ -5626,6 +5683,7 @@ FinalMahjong:
   title:
     value: アカギ 36―闇に降り立った天才 (掉尾の闘牌)
     lang: ja
+  language: ja
   ISBN: 978-4801963085
   author:
     - family: 福本
@@ -5723,6 +5781,7 @@ LouisMoland:
   title:
     value: "François Rabelais: tout ce qui existe de ses œuvres"
     lang: fr
+  language: fr
   author:
     - &rabelais
       given: François
@@ -5745,6 +5804,7 @@ EtienneDolet:
   title: 
     value: La Plaiſante, & Ioyeuse hiſtoyre du grand Geant Gargantua
     lang: fr
+  language: fr
   author:
   - *rabelais
   publisher:
@@ -5759,6 +5819,7 @@ Juste1535:
   title: 
     value: La vie inestimable du grand Gargantua, pere de Pantagruel, iadis cōpoſee par L’abſtracteur de quite eſsēce
     lang: fr
+  language: fr
   author:
   - *rabelais
   publisher-place: Lyon, France
@@ -5772,6 +5833,7 @@ Juste1542:
   title: 
     value: La vie treshorrificque du grand Gargantua, pere de Pantagruel, iadis cōpoſee par M. Alcofribas abſtracteur de quinte eſſence
     lang: fr
+  language: fr
   author:
   - *rabelais
   publisher-place: Lyon, France
@@ -5827,6 +5889,7 @@ Juste1534:
   title:
     value: Gargantua
     lang: fr
+  language: fr
   URL: https://gallica.bnf.fr/ark:/12148/btv1b8609586k/f76.item
   author:
   - *rabelais
@@ -5893,6 +5956,7 @@ JeuxDeGargantua:
   title:
     value: Les Jeux de Gargantua
     lang: fr
+  language: fr
   author:
     - family: Psichari
       given: Michel
@@ -5909,6 +5973,7 @@ Fischarts:
   title:
     value: Geschichtklitterung
     lang: de
+  language: de
   URL: https://archive.org/details/johannfischarts00fiscgoog/page/258
   author:
     - given: Johann
@@ -5927,6 +5992,7 @@ Yasukaki:
   title:
     value: 八道行成
     lang: ja
+  language: ja
   publisher: Boardwalk Community
   author:
     - given: 浩徳
@@ -5978,6 +6044,7 @@ NagoyaReport:
   title:
     value: 司法資料. 第121号
     lang: ja
+  language: ja
   publisher:
     value: 司法省調査課
     lang: ja
@@ -5988,6 +6055,7 @@ LuRong:
   title:
     value: 菽园杂记
     lang: zh-Hans
+  language: zh
   volume: 3
   URL: https://ctext.org/library.pl?if=en&file=89214&page=90&remap=gb
   author:
@@ -6018,6 +6086,7 @@ WaterMarginDate:
   title:
     value: 从《菽园杂记》、《叶子谱》所记“叶子戏”看《水浒传》成书时间
     lang: zh
+  language: zh
   author:
     - family: 王
       given: 齐洲
@@ -6044,6 +6113,7 @@ ThaiGambling:
   title:
     value: พนันกับการบูรณาการหลักธรรมเพื่อแก้ปัญหาจากการพนันของชุมชน
     lang: th
+  language: th
   URL: http://gamblingstudy-th.org/imgadmins/research_file/ebook-60-13-Phannapong.pdf
   author:
     - family: วงศ์ณาศรี
@@ -6068,6 +6138,7 @@ BoegineeschWoordenboek:
   title:
     value: Boegineesch–Hollandsch woordenboek
     lang: nl
+  language: nl
   author:
     - family: Matthes
       given: Benjamin Frederik
@@ -6082,6 +6153,7 @@ MakassaarschWoordenboek:
   title:
     value: Makassaarsch–Hollandsch woordenboek
     lang: nl
+  language: nl
   author:
     - family: Matthes
       given: Benjamin Frederik
@@ -6672,6 +6744,7 @@ Himly:
   title:
     value: Anmerkungen in Beziehung auf das Schach- und andere Brettspiele
     lang: de
+  language: de
   author:
     - &K_Himly
       family: Himly
@@ -6813,6 +6886,7 @@ TigerTank:
   title:
     value: เสือตกถัง
     lang: th
+  language: th
   URL: http://legacy.orst.go.th/?knowledges=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-%E0%B9%91%E0%B9%90-%E0%B8%81%E0%B8%B8%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C
   archive-URL: https://web.archive.org/web/20230517033504/http://legacy.orst.go.th/?knowledges=%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-%E0%B9%91%E0%B9%90-%E0%B8%81%E0%B8%B8%E0%B8%A1%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B9%8C
   author:
@@ -7016,6 +7090,7 @@ ACidadeMaisPitoresca:
   title:
     value: "Macau: A Cidade Mais Pitoresca Do Nosso Dominio Ultramarino"
     lang: pt
+  language: pt
   in:
     title:
       value: Ilustração Portuguesa
@@ -7261,6 +7336,7 @@ EbashiKabuCarta:
   title:
     value: 「かぶカルタ」遊技の流行
     lang: ja
+  language: ja
   URL: https://japanplayingcardmuseum.com/2-3-3-2-kabucarta-game-spread/
   archive-URL: https://web.archive.org/web/20230207044123/https://japanplayingcardmuseum.com/2-3-3-2-kabucarta-game-spread/
   container-title: Japan Playing Card Museum
@@ -7273,6 +7349,7 @@ EdoKaruta7:
   title:
     value: 「やくざ（八九三）」の語源考
     lang: ja
+  language: ja
   URL: https://sudare10.gokenin.com/room/mein/mein-07.html
   archive-URL: https://web.archive.org/web/20220803010639/https://sudare10.gokenin.com/room/mein/mein-07.html
   container-title:
@@ -7328,6 +7405,7 @@ IlGiuocoDellaMorra:
   title:
     value: Il Giuoco Della Morra
     lang: it
+  language: it
   in:
     title: The Penny Magazine
     volume: 14
@@ -7800,6 +7878,7 @@ EnigmeJoyeuse:
   title:
     value: Enigme joyeuse pour les bon esprits
     lang: fr
+  language: fr
   publisher:
     value: Jean Le Clerc
     lang: fr
@@ -7863,6 +7942,7 @@ ElAjedrez:
   title:
     value: "El Ajedrez: Investigaciones sobre su origen"
     lang: es
+  language: es
   author:
     - family: Brunet y Bellet
       given: D. José
@@ -7877,6 +7957,7 @@ IlGiocoDeGliScacchi:
   title:
     value: Il Gioco De Gli Scacchi
     lang: it
+  language: it
   author:
     - given: Pietro
       family: Carrera
@@ -7891,6 +7972,7 @@ ReizeNaarArabie:
   title:
     value: "Reize naar Arabië: en andere omliggende landen"
     lang: nl
+  language: nl
   author:
     - given: Carsten
       family: Niebuhr
@@ -7904,6 +7986,7 @@ ReisebeschreibungNachArabien:
   title:
     value: Reisebeschreibung nach Arabien und andern umliegenden Ländern
     lang: de
+  language: de
   volume: 1
   author:
     - given: Carsten
@@ -7980,6 +8063,7 @@ DictionnaireTurcFrançais2:
   title:
     value: Dictionnaire Turc-Français
     lang: fr
+  language: fr
   volume: 2
   volume-title: "\u2068ع\u2069–\u2068ى\u2069" # treated as individuals, not a phrase
   issued: 1867
@@ -7996,6 +8080,7 @@ LexiconLinguaeAethiopicae:
   title:
     value: Lexicon Linguae Aethiopicae
     lang: la
+  language: la
   volume: 1
   volume-title: ሀ፡ — ነኀረ፡
   issued: 1862
@@ -8092,6 +8177,7 @@ NoticeDesÉmaux:
   title:
     value: Notice des émaux, bijoux et objets divers, exposés dans les galeries du Musée du Louvre
     lang: fr
+  language: fr
   volume: 2
   URL: https://archive.org/details/bnf-bpt6k6464476k
   publisher-place: Paris
@@ -8106,6 +8192,7 @@ DictionnaireAncienne3:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author:
     - &Frederic_Godefroy
       given: Frédéric
@@ -8123,6 +8210,7 @@ DictionnaireAncienne2:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 2
   volume-title: Casteillon–Dyvis
@@ -8135,6 +8223,7 @@ DictionnaireAncienne1:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 1
   volume-title: A–Castaigneux
@@ -8147,6 +8236,7 @@ DictionnaireAncienne4:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 4
   volume-title: Filé–Listage
@@ -8159,6 +8249,7 @@ DictionnaireAncienne5:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 5
   volume-title: Liste–Parsomme
@@ -8171,6 +8262,7 @@ DictionnaireAncienne6:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 6
   volume-title: Parsommer–Remembrance
@@ -8183,6 +8275,7 @@ DictionnaireAncienne7:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 7
   volume-title: Remembrant–Traioir
@@ -8195,6 +8288,7 @@ DictionnaireAncienne8:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 8
   volume-title: Traire–Zygaine, & Complément A–Carrefour
@@ -8207,6 +8301,7 @@ DictionnaireAncienne9:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 9
   volume-title: Complément Carrel–Inaccostable
@@ -8219,6 +8314,7 @@ DictionnaireAncienne10:
   title:
     value: Dictionnaire de L’Ancienne Langue Française
     lang: fr
+  language: fr
   author: [*Frederic_Godefroy]
   volume: 10
   volume-title: Complément Inaccoutumé–Zoophyte
@@ -8231,6 +8327,7 @@ DictionnaireHistorique1:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author:
     - &Jean_Baptiste
       given: Jean-Baptiste
@@ -8247,6 +8344,7 @@ DictionnaireHistorique2:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 2
   volume-title: AP–BIC
@@ -8259,6 +8357,7 @@ DictionnaireHistorique3:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 3
   volume-title: BID–CHIC
@@ -8271,6 +8370,7 @@ DictionnaireHistorique4:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 4
   volume-title: CHIE–DECA
@@ -8283,6 +8383,7 @@ DictionnaireHistorique5:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 5
   volume-title: DECE–ESCH
@@ -8295,6 +8396,7 @@ DictionnaireHistorique6:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 6
   volume-title: ESCI–GUY
@@ -8307,6 +8409,7 @@ DictionnaireHistorique7:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 7
   volume-title: H–MYT
@@ -8319,6 +8422,7 @@ DictionnaireHistorique8:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 8
   volume-title: N–QUQ
@@ -8331,6 +8435,7 @@ DictionnaireHistorique9:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 9
   issued: 1880
@@ -8342,6 +8447,7 @@ DictionnaireHistorique10:
   title:
     value: Dictionnaire Historique de L’Ancien Langage François
     lang: fr
+  language: fr
   author: [*Jean_Baptiste]
   volume: 10
   volume-title: T–Z
@@ -8418,6 +8524,7 @@ DieFandse:
   title:
     value: "Die Fandse: Ein Beitrag Zur Volkskunde Von Kham"
     lang: de
+  language: de
   author:
     - family: 任
       given: 乃强
@@ -8518,6 +8625,7 @@ TamilCountryGames:
   title:
     value: தமிழர் நாட்டு விளையாட்டுகள்
     lang: ta
+  language: ta
   author:
     - family: பாலசுப்பிரமணியம்
       given: இரா.
@@ -8675,6 +8783,7 @@ OverseasChineseNZ:
     value: 紐西蘭華僑史略
     lang: zh
     alt: A Brief History of the Overseas Chinese in New Zealand
+  language: zh
   author:
     - given: 耀星
       family: 周
@@ -8902,6 +9011,7 @@ PlaisirsEnChine:
   title:
     value: Les Plaisirs en Chine
     lang: fr
+  language: fr
   author:
     - &kitong
       given: Ki-tong
@@ -8932,6 +9042,7 @@ BitsOfChina:
   title:
     value: タチウオの共食い
     lang: ja
+  language: ja
   author:
     - given: うなっくす
       lang: ja
@@ -9316,6 +9427,7 @@ JeuxDeParcours:
   title: 
     value: Jeux de parcours du monde arabo-musulman (Afrique du Nord et Proche-Orient)
     lang: fr
+  language: fr
   author:
   - *Thierry_Depaulis
   URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=51
@@ -9338,6 +9450,7 @@ TangGuoshiBu:
     value: 唐國史補
     lang: zh
     alt: Supplement to the History of the Tang Dynasty
+  language: zh
   volume: 3
   volume-title:
     value: 卷下
@@ -9648,6 +9761,7 @@ KKChuhong:
   title:
     value: 喝酒時想玩簡單的酒令？試試這一種宋代遊戲
     lang: zh
+  language: zh
   container-title:
     value: 每日頭條
     lang: zh
@@ -9686,6 +9800,7 @@ DictionnaireDioiFrancais:
   title:
     value: Essai de Dictionnaire Dioi₃–Français
     lang: fr
+  language: fr
   author:
   - given: Joseph
     family: Esquirol
@@ -9830,6 +9945,7 @@ TresMousquetaires:
   title: 
     value: Les Trois Mousquetaires
     lang: fr
+  language: fr
   author:
   - given: Alexandre
     family: Dumas
@@ -9858,6 +9974,7 @@ TheorieDesJeuxDeHasard:
   title: 
     value: La Theorie des Jeux de Hasard
     lang: fr
+  language: fr
   issued: 1788
   author:
   - given: P. N.
@@ -9887,6 +10004,7 @@ LesLettresDuSeigneurDeLannoy1856:
   title:
     value: Les Lettres du Seigneur de Lannoy pour l’Éducation de son Fils
     lang: fr
+  language: fr
   in:
     title:
       value: Le Cabinet Historique
@@ -9901,6 +10019,7 @@ LesLettresDuSeigneurDeLannoy:
   title:
     value: Les Lettres du Seigneur de Lannoy
     lang: fr
+  language: fr
   in:
     title:
       value: Le Cabinet Historique
@@ -9916,6 +10035,7 @@ LaLangueDeRabelais:
   title:
     value: La Langue de Rabelais
     lang: fr
+  language: fr
   author:
   - given: Lazare
     family: Sainéan
@@ -9940,6 +10060,7 @@ AllDeGeestigeWerken:
   title:
     value: Alle de Geestige Werken van Mr. Francois Rabelais
     lang: nl
+  language: nl
   author:
   - given: Claudio
     family: Gallitalo
@@ -10083,6 +10204,7 @@ DrieChineescheKaartspelen:
   title: 
     value: Beschrijving van Drie Chineesche Kaartspelen
     lang: nl
+  language: nl
   page: 414-422
   URL: https://books.google.co.nz/books?id=EwpJAAAAMAAJ&pg=PA413
   in:
@@ -10287,6 +10409,7 @@ PlayingHanaKaruta:
     value: 花かるたの遊び
     lang: ja
     alt: Playing Hana-Karuta
+  language: ja
   author:
   - given: 百合雄
     family: 片岡
@@ -10611,6 +10734,7 @@ EssayDAnalyse:
   title: 
     value: Essay d’Analyse sur les Jeux de Hazard
     lang: fr
+  language: fr
   edition: 2
   author:
   - given: Pierre
@@ -10643,6 +10767,7 @@ Jurisprudence5:
   title: 
     value: Jurisprudence
     lang: fr
+  language: fr
   URL: https://archive.org/details/jurisprudence05unse 
   volume: 5
   publisher:
@@ -10674,6 +10799,7 @@ AcademiaDosJogos4:
   title:
     value: Academia dos Jogos
     lang: pt
+  language: pt
   volume: 4
   publisher-place: Lisboa, Portugal
   issued: 1806
@@ -10686,6 +10812,7 @@ JeuPenseeLeibniz:
   title:
     value: Le jeu dans la pensée de Leibniz
     lang: fr
+  language: fr
   URL: https://www.academia.edu/34942056/Le_jeu_dans_la_pens%C3%A9e_de_Leibniz
   author:
   - given: Vincent
@@ -10706,6 +10833,7 @@ MemoiresSurLaCour3:
   title:
     value: Mémoires du Duc de Luynes sur la cour de Louis XV, 1735–1758
     lang: fr
+  language: fr
   author:
   - given: Charles Philippe
     family: d’Albert de Luynes
@@ -10724,6 +10852,7 @@ MarieFrançois:
   title:
     value: Marie-François Renée de Forcalquier, maitresse passagère du Bien-Aimé
     lang: fr
+  language: fr
   author:
   - given: Minega
   issued:
@@ -10738,6 +10867,7 @@ LaMuseHistorique3:
   title:
     value: 'La muze historique, ou Recueil des lettres en vers contenant les nouvelles du temps : écrites à Son Altesse Mademoizelle de Longueville, depuis duchesse de Nemours (1650-1665)'
     lang: fr
+  language: fr
   author:
     - given: Jean
       family: Loret
@@ -11418,6 +11548,7 @@ SetswanaEnglishAfrikaans:
   title:
     value: Dikišinare ya Setswana–English–Afrikaans
     lang: tn
+  language: tn
   editor:
   - given: J. W.
     family: Snyman
@@ -11562,6 +11693,7 @@ LorenzGrasberger1:
   title:
     value: Erziehung und Unterricht im klassischen Altertum
     lang: de
+  language: de
   author:
   - given: Lorenz
     family: Grasberger
@@ -11885,6 +12017,7 @@ LD_3:
   title:
     value: Denkmäler aus Aegypten und Aethiopien
     lang: de
+  language: de
   volume: 3
   URL: https://archive.org/details/denkmaler-aus-aegypten-und-aethiopien/denkmaeler-3/
   issued: 1859
@@ -12007,6 +12140,7 @@ WreszinksiAtlas1:
   title:
     value: Atlas zur altägyptischen Kulturgeschichte
     lang: de
+  language: de
   author:
   - given: Walter
     family: Wreszinkski
@@ -12179,6 +12313,7 @@ YeziPu:
     lang: zh
     value: 葉子譜
     alt: <span lang="cmn-Latn-pinyin" class="noun">Yèzi Pǔ</span>
+  language: zh
   URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497656$54i
   issued: 1646
   author:
@@ -12210,6 +12345,7 @@ XuYeziPu:
     lang: zh
     value: 續葉子譜
     alt: <span lang="cmn-Latn-pinyin" class="noun">Xù Yèzi Pǔ</span>
+  language: zh
   issued: 1646
   author:
   - *Pan_Zhiheng
@@ -12220,6 +12356,7 @@ LiuboPu:
     value: 六博譜
     lang: zh
     alt: <span lang="cmn-Latn-pinyin" class="noun">Liùbó Pǔ</span>
+  language: zh
   URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497656$12i
   issued: 1646
   author:
@@ -12233,6 +12370,7 @@ ZuiLu:
     lang: zh
     value: 醉緑圖
     alt: <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ Tú</span>
+  language: zh
   issued: 1646
   author:
   - family: 張
@@ -12256,6 +12394,7 @@ ChuHong:
     value: 除紅譜
     lang: zh
     alt: <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng Pǔ</span>
+  language: zh
   issued: 1646
   author:
   - family: 朱
@@ -12297,6 +12436,7 @@ SwineherdsGossip:
     lang: zh
     value: 牧豬閒話
     alt: <span lang="cmn-Latn-pinyin">Mù Zhū Xiánhuà</span>, “Swineherd’s gossip”
+  language: zh
   URL: https://ctext.org/library.pl?if=en&res=82810&remap=gb
   author: 
   - family: 金
@@ -12584,6 +12724,7 @@ Simaloerese:
   title:
     lang: nl
     value: Simaloerese Sprookjes, Overleveringen, Raadsels en Spelen
+  language: nl
   page: 1-14
   URL: https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
   archive-URL: https://web.archive.org/web/20240130222315/https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
@@ -12596,6 +12737,7 @@ PapaliEaMorabaRaba:
   title:
     value: Papali ea Moraba-raba
     lang: st
+  language: st
   author:
   - given: Tšepo
     family: Khoro
@@ -12662,6 +12804,7 @@ QuelquesRegles:
   title:
     value: 'Le Jeu de Cartes: Quelques Regles du Passe'
     lang: fr
+  language: fr
   author:
   - *Thierry_Depaulis
   page: 74
@@ -12680,6 +12823,7 @@ JeuDeLHombre_1674:
   title:
     value: Le Iev de L’Hombre
     lang: fr
+  language: fr
   publisher-place: Paris
   publisher:
     value: Claude Barbin
@@ -12698,6 +12842,7 @@ JeuDeLHombre_1682:
   title:
     value: Le Jeu de L’Hombre, Comme on le joüe aujourd’huy à la Cour, & comme on le doit joüer par tout
     lang: fr
+  language: fr
   publisher-place: Paris
   publisher:
     value: Claude Barbin
@@ -13511,6 +13656,7 @@ Morgenlandisch_1:
   author: 
   - *K_Himly
   page: 415-463
+  language: de
   in: 
     title:
       value: Zeitschrift der Deutschen Morgenländischen Gesellschaft
@@ -13526,6 +13672,7 @@ Morgenlandisch_2:
     lang: de
     alt: Oriental or occidental? Research into certain game expressions (Additions)
   URL: https://archive.org/details/zeitschrift43deutuoft/page/554
+  language: de
   author:
   - *K_Himly
   page: 555-578
@@ -15128,6 +15275,7 @@ JeuxTouaregs:
   title:
     value: Jeux touaregs de la région d’Agadez
     lang: fr
+  language: fr
   author:
   - given: Dominique
     family: Casajus
@@ -15146,6 +15294,7 @@ JeuxChezTouaregs:
   title:
     value: Jeux chez les Touaregs
     lang: fr
+  language: fr
   author:
   - given: E.
     family: Bernus
@@ -15372,6 +15521,7 @@ BrettspeilWiedemann:
   title:
     value: Das Brettspeil bei den alten Aegyptern
     lang: de
+  language: de
   author:
   - given: Alfred
     family: Wiedemann
@@ -15390,6 +15540,7 @@ IllustreradSpelbok:
   title: 
     value: Illustrerad Spelbok
     lang: sv
+  language: sv
   author:
   - given: Tom
     family: Wilson
@@ -15446,6 +15597,7 @@ DeVetula:
   title: 
     value: 'Brunellus Vigelli, & Vetula Ovidii. Seu: Opuscula Duo Auctorum Incertorum: Prius quidem Vigelli, qui fertur, Speculum stultorum, Posterius verò libri tres de vetula, Ovidii, falsò sic dicti: Ambo ante duo propè Secula junctim publico charactere Coloniæ excusa, nunc verò denuò ex Illustri quâdam Saxoniæ Inferioris Bibliothecâ depromta, et qui ê vetusto exemplari in hanc minusculam compagem bonâ fide conformata'
     lang: la
+  language: la
   publisher-place: Wolfenbüttel, Germany
   publisher:
     value: Typis Sterniis
@@ -15490,6 +15642,7 @@ LesBushongo:
   title:
     value: Notes ethnographiques sur les peuples communément appelés Bakuba, ainsi que sur les peuplades apparentées, les Bushongo
     lang: fr
+  language: fr
   author:
   - given: E.
     family: Torday
@@ -15513,6 +15666,7 @@ DiePangwe2:
   title:
     value: 'Die Pangwe'
     lang: de
+  language: de
   author:
   - given: Günter
     family: Tessmann
@@ -15530,6 +15684,7 @@ TressanSchachspeil:
   title:
     lang: de
     value: Das Schachspiel, seine Gattungen und Abarten
+  language: de
   author:
   - given: L.
     family: Tressan
@@ -15870,6 +16025,7 @@ SuetoneJeuxDesGrecs:
   title:
     lang: fr
     value: Suétone, <cite>Sur Les Jeux des Grecs</cite>
+  language: fr
   author:
   - given: Salvatore
     family: Costanza
@@ -15889,6 +16045,7 @@ JeuxDansLOnomasticon:
   title:
     lang: fr
     value: Les Jeux dans L’<cite>Onomoasticon</cite> I 30; VI 107, 109; VII 203–205; IX 94–129 de Pollux
+  language: fr
   author:
   - given: Salvatore
     family: Costanza
@@ -16492,6 +16649,7 @@ RollickeLiubo:
   title:
     lang: de
     value: 'Von “Winkelwegen”, “Eulen” und “Fischziehern” — <i>liubo</i>: ein altchinesisches Brettspiel für Geister und Menschen'
+  language: de
   page: 24-41
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=23
   in: *bgs2
@@ -16512,6 +16670,7 @@ MebbenArithmomachia:
   title: 
     lang: de
     value: Die Arithmomachia des Abraham Ries und weitere neuzeitliche Überlieferungen der Rithmomachie
+  language: de
   page: 60-79
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=59
   in: *bgs2
@@ -16525,6 +16684,7 @@ Metromachie:
   title: 
     lang: fr
     value: La Métromachie ou la bataille géométrique
+  language: fr
   page: 80-103
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=79
   in: *bgs2
@@ -16553,6 +16713,7 @@ Shadler20Field:
   title:
     lang: de
     value: Vom 20-Felder-Spiel zum Würfelvierschach?
+  language: de
   page: 116-143
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS2-complete.pdf#page=142
   in: *bgs2
@@ -16564,6 +16725,7 @@ RomainPions:
   title: 
     lang: fr
     value: Les représentations des jeux de pions dans le Proche-Orient ancien et leur signification
+  language: fr
   page: 11-38
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=10
   in: *bgs3
@@ -16583,6 +16745,7 @@ KoichiTrickTrack:
   title:
     lang: de
     value: Kurze Geschichte des Tricktrack in Japan
+  language: de
   page: 51-58
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=50
   in: *bgs3
@@ -16594,6 +16757,7 @@ HilgersKriegsspiel:
   title:
     lang: de
     value: Eine Anleitung zur Anleitung. Das taktische Kriegsspiel 1812–1824
+  language: de
   page: 59-78
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=58
   in: *bgs3
@@ -16626,6 +16790,7 @@ DepaulisIndoEuropean:
   title:
     value: Les Indo-Européens jouaient-ils aux dés?
     lang: fr
+  language: fr
   page: 103-106
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=100
   in: *bgs3
@@ -16701,6 +16866,7 @@ SanvitoKeltenSpiels:
   title:
     lang: de
     value: Das Rätsel des Kelten-Spiels
+  language: de
   page: 9-24
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=8
   in: &bgs5
@@ -16748,6 +16914,7 @@ AngersteinLaska:
   title: 
     lang: de
     value: 'Das Säulenspiel <i>Laska</i>: Renaissance einer fast vergessenen Dame-Variante mit Verbindungen zum Schach'
+  language: de
   page: 79-102
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=78
   in: *bgs5
@@ -16768,6 +16935,7 @@ LhôteDameEnragée:
   title:
     value: Martin Le Franc et la dame enragée
     lang: fr
+  language: fr
   page: 105-110
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS5-complete.pdf#page=102
   in: *bgs5
@@ -16828,6 +16996,7 @@ ZollingerGansesspiels:
   title: 
     lang: de
     value: 'Zwei unbekannte Regeln des Gänsespiels: Ulisse Aldrovandi und Herzog August d.J. von Braunschweig-Lüneburg'
+  language: de
   page: 61-86
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=57
   in: *bgs6
@@ -16838,6 +17007,7 @@ DepaulisPions:
   title: 
     lang: fr
     value: Un jeu de pions mapuche au XVI<sup class="ordinal">e</sup> siècle
+  language: fr
   page: 87-94
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS6-complete.pdf#page=82
   in: *bgs6
@@ -16878,6 +17048,7 @@ BoutinPions:
   title: 
     lang: fr
     value: Les jeux de pions à la Belle Époque
+  language: fr
   page: 53-110
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGSJ_Issue_7_web.pdf#page=52
   in: *bgs7
@@ -16890,6 +17061,7 @@ DepaulisDamesAncienne:
   title: 
     lang: fr
     value: La plus ancienne représentation datée de joueurs de dames (1492)
+  language: fr
   page: 111-118
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGSJ_Issue_7_web.pdf#page=110
   in: *bgs7
@@ -16901,6 +17073,7 @@ EnglishBrettspiel:
   title: 
     lang: de
     value: Karten-, Würfel- und Brettspiel im spätmittelalterlichen und frühneuzeitlichen Bern
+  language: de
   page: 119-127
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGSJ_Issue_7_web.pdf#page=118
   in: *bgs7
@@ -16930,6 +17103,7 @@ GoriaPlateau:
   title: 
     lang: fr
     value: 'Présentation d’informations de Décisionnelles à partir de Jeux de Plateau: Illustration du Potenciel du Jeu de Dames Chinoises'
+  language: fr
   page: 35-49
   URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/98
   in: *bgs8
@@ -17097,6 +17271,7 @@ BraunDomino:
   title:
     value: 'Die Kenntnis des Dominospiels in Europa: Archäologie, Geschichte, Bibliographie'
     lang: de
+  language: de
   page: 61-100
   URL: https://doi.org/10.1515/bgs-2016-0004
   in: *bgs10
@@ -17119,6 +17294,7 @@ LhotePicinelli:
   title: 
     lang: fr
     value: Le symbolisme des jeux chez Filippo Picinelli
+  language: fr
   page: 1-52
   URL: https://sciendo.com/article/10.1515/bgs-2017-0001
   in: &bgs11
@@ -17173,6 +17349,7 @@ BronderWurfelspiele:
   title: 
     lang: de
     value: Mittelalterliche Würfelspiele mit Einsatz und Gewinn
+  language: de
   page: 1-27
   URL: https://sciendo.com/article/10.1515/bgs-2018-0001
   in: &bgs12
@@ -17220,6 +17397,7 @@ LangeKrieg:
   title:
     lang: de
     value: Agon und Ares. Der Krieg und die Spiele
+  language: de
   page: 81-86
   URL: https://sciendo.com/article/10.1515/bgs-2018-0005
   in: *bgs12
@@ -17259,6 +17437,7 @@ GoriaWargame:
   title: 
     lang: fr
     value: Le formateur et son public dans le cadre de l’élaboration d’une simulation de type wargame sur plateau
+  language: fr
   page: 21-65
   URL: https://sciendo.com/article/10.1515/bgs-2019-0003
   in: *bgs13
@@ -17515,6 +17694,7 @@ MuscolinoTriple:
   title: 
     lang: fr
     value: 'Une « Triple Enceinte » Et L’inscription Funéraire De <span lang="la">Agate Filia Comites Gattilanis</span> À Milan'
+  language: fr
   page: 397-412
   URL: https://doi.org/10.2478/bgs-2022-0013
   in: *bgs16_1
@@ -17685,6 +17865,7 @@ AlmanachDesJeux:
   title:  
     lang: fr
     value: Almanach des Jeux, ou Académie Portative, Contenant les Regles du Reversis, du Wisk, du Tre-Sette, du Piquet, et du Trictrac
+  language: fr
   edition: 2
   publisher-place: Paris
   publisher: Chez Fournier
@@ -17980,6 +18161,7 @@ ELJocDeNaibs:
   title:
     lang: es
     value: El joc de naibs a Catalunya
+  language: es
   page: 181-207
   author:
   - given: Ramón
@@ -17996,6 +18178,7 @@ Perpignan:
   title:
     value: 'Documents Historiques sur la Ville de Perpignan: V. Criées concernant les mœurs popularies au XV<sup class="ordinal">e</sup> siècle'
     lang: fr
+  language: fr
   page: 74-87
   URL: https://archive.org/details/revuecatalane12sociuoft/page/74/mode/2up
   author:
@@ -18028,6 +18211,7 @@ WurfelUndWurfelspiel:
   title:
     value: Würfel und Würfelspiel im Alten Frankreich
     lang: de
+  language: de
   URL: https://archive.org/details/wurfelundwurfelspielsemrau
   author:
   - given: Franz
@@ -18047,6 +18231,7 @@ JongleursEtTrouveres:
   title:
     value: 'Jongleurs et trouvères: ou, Choix de saluts, épîtres, rêveries et autres pièces légères des XIII<sup class="ordinal">e</sup> et XIV<sup class="ordinal">e</sup> siècles'
     lang: fr
+  language: fr
   editor:
   - given: Achille
     family: Jubinal
@@ -18058,6 +18243,7 @@ RutebeufComplete:
   title: 
     value: 'Oeuvres complètes de Rutebeuf: trouvère du XIII<sup class="ordinal">e</sup> siècle'
     lang: fr
+  language: fr
   editor:
   - given: Achille
     family: Jubinal
@@ -18071,6 +18257,7 @@ ChansonsEtDits:
   title:
     value: Chansons et Dits Artésiens du XIII<sup class="ordinal">e</sup> Siècle 
     lang: fr
+  language: fr
   author:
   - given: Alfred
     family: Jeanroy
@@ -18317,6 +18504,7 @@ RauschRabelais:
   title:
     value: Das Spielverzeichnis im 25. Kapitel von Fischarts „Geschict&shy;klitterung“ (Gargantua)
     lang: de
+  language: de
   issued: 1908
   genre: PhD thesis
   publisher:
@@ -18660,6 +18848,7 @@ LeCuriexAlmanach:
   title:
     value: Le Curieux Almanach pour L’An de Grace 1768
     lang: fr
+  language: fr
   publisher: Chez Laurens Machuël
   publisher-place: Rouen, France
   issued: 1678
@@ -18766,6 +18955,7 @@ CampagneAuTonkin:
   title:
     value: Une Campagne au Tonkin
     lang: fr
+  language: fr
   author:
   - given: Charles-Édouard
     family: Hocquard
@@ -19097,6 +19287,7 @@ CuestionesFilipinas:
   title:
     lang: es
     value: Cuestiones Filipinas
+  language: es
   volume: 1
   volume-title:
     lang: es
@@ -19116,6 +19307,7 @@ JuegosDeAzar:
   title:
     value: 'Los Juegos de Azar: ¿Una pasión novohispana?'
     lang: es
+  language: es
   author:
   - given: Teresa
     family: Lozano Armendares
@@ -19167,6 +19359,7 @@ VillesExtremeOrient:
     lang: fr
     value: Villes d’Extrême-Orient
     alt: Cities of the Far East
+  language: fr
   author:
   - given: André
     family: Bellessort
@@ -19185,6 +19378,7 @@ Rabelais1741_1:
   title: 
     value: 'Oeuvres de maitre François Rabelais: avec des remarques historiques et critiques de Mr. Le Duchat'
     lang: fr
+  language: fr
   volume: 1
   issued: 1741
   publisher-place: Amsterdam
@@ -19198,6 +19392,7 @@ Rabelais1711_1:
   title:
     value: 'Oeuvres de Maitre François Rabelais, publiées sous le titre de faits et dits du géant Gargantua et de son fils Pantagruel'
     lang: fr
+  language: fr
   URL: https://archive.org/details/uvresdemaitrefr00rabegoog
   volume: 1
   issued: 1711
@@ -19319,6 +19514,7 @@ HHW:
     value: 清末廣東的賭博與賭稅
     lang: zh-Hant
     alt: Gamble and Gambling Taxes in Late Ch’ing Kwangtung
+  language: zh
   author:
   - given: 漢威
     family: 何
@@ -19446,6 +19642,7 @@ KamusBaliIndonesia:
   title:
     value: Kamus Bali–Indonesia
     lang: id
+  language: id
   author:
   - given: Ni Luh
     family: Partami
@@ -19479,6 +19676,7 @@ Allemagne1:
   title:
     lang: fr
     value: Les Cartes à Jouer du XIV<sup class="ordinal">e</sup> au XX<sup class="ordinal">e</sup> siècle
+  language: fr
   author:
   - &Allemagne
     given: Henry-René
@@ -19496,6 +19694,7 @@ Allemagne2:
   title:
     lang: fr
     value: Les Cartes à Jouer du XIV<sup class="ordinal">e</sup> au XX<sup class="ordinal">e</sup> siècle
+  language: fr
   author: [*Allemagne]
   volume: 2
   issued: 1906
@@ -19509,6 +19708,7 @@ OrigineCartes:
   title:
     lang: fr
     value: Origine des Cartes à Jouer
+  language: fr
   author:
   - given: R.
     family: Merlin
@@ -19520,6 +19720,7 @@ JeuxBamako:
   title:
     lang: fr
     value: Jeux d’écolières à Bamako
+  language: fr
   page: 732-743
   author:
   - given: Chantal
@@ -19562,6 +19763,7 @@ Lacombe1:
   title:
     lang: fr
     value: Dictionnaire encyclopédique des amusemens des sciences mathématiques et physiques
+  language: fr
   author:
   - &Jacques_Lacombe
     given: Jacques
@@ -19581,6 +19783,7 @@ Lacombe1_pics:
   title:
     lang: fr
     value: Recueil des planches du dictionnaire encyclopedique des amusemens des sciences mathématiques et physiques
+  language: fr
   author: [*Jacques_Lacombe]
   series:
     title:
@@ -19596,6 +19799,7 @@ Lacombe2:
   title:
     lang: fr
     value: Dictionnaire des jeux mathématiques
+  language: fr
   author: [*Jacques_Lacombe]
   series:
     title:
@@ -19610,6 +19814,7 @@ Lacombe3:
   title:
     lang: fr
     value: Dictionnaire des jeux familiers ou des amusemens de société
+  language: fr
   author: [*Jacques_Lacombe]
   series:
     title:
@@ -19741,6 +19946,7 @@ JeuxDeVilains:
   title:
     lang: fr
     value: Jeux de Mains, Jeux de Vilans? La <span lang="it">Morra</span>
+  language: fr
   author:
   - given: Véronique
     family: Dasen
@@ -19759,6 +19965,7 @@ CostanzaPolluce:
   title:
     lang: it
     value: 'Guilo Polluce, <cite>Onomasticon: excerpta de ludis</cite>'
+  language: it
   author:
   - family: Salvatore
     given: Costanza
@@ -19783,6 +19990,7 @@ KBNWB_1: &KBNWB_1
   title:
     lang: nl
     value: Kawi-Balineesch-Nederlandsch Woordenboek
+  language: nl
   author:
   - given: Herman Neubronner
     family: van der Tuuk
@@ -20029,6 +20237,7 @@ Notice12483:
   title:
     lang: fr
     value: Notice du Manuscrit Français 12483 de la Bibliothèque Nationale
+  language: fr
   author:
   - given: Arthur
     family: Långfors
@@ -20048,6 +20257,7 @@ PoemeMoralise:
   title:
     lang: fr
     value: Poème Moralisé sur les Propriétés des Choses
+  language: fr
   author:
   - given: Gaston
     family: Raynaud

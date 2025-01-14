@@ -1,5 +1,6 @@
 use std::{collections::BTreeMap, convert::Infallible, str::FromStr};
 
+use isolang::Language;
 use num_format::ToFormattedString;
 use serde::{
     de::{self, Visitor},
@@ -107,6 +108,8 @@ pub struct Common {
     pub url: Option<String>,
     #[serde(rename = "archive-URL")]
     pub archive_url: Option<String>,
+
+    pub language: Option<Language>,
 
     pub notes: Option<String>,
     pub warnings: Option<String>,

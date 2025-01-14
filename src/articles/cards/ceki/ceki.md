@@ -18,7 +18,11 @@ Ceki (Javanese <span lang="jav">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">�
 
 “Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun aka" lang="jav-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#<span%20class="noun%20aka"%20lang="jav-Latn">Gonggong</span>) cards’).
 
-[^spelling]: The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48]{/*{/*TODO: or 7 cards?  https://core.ac.uk/download/pdf/48633257.pdf */}*/} “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]
+[^spelling]: The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48] “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jav-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jav-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]
+
+> [!todo]
+>
+> 1 card or _7 cards_?  https://core.ac.uk/download/pdf/48633257.pdf
 
 [^daun]: <span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”. 
 
@@ -38,9 +42,9 @@ At some point they were also called “8–9 cards”, in Malay <span lang="ms-L
 
 [^oicho-kabu]: Is there any remote connection to {%gameref oicho-kabu%} here?
 
-{/*
-The “Kowa” name I think is probably also derived from a game, and was eventually applied to the cards themselves. It is likely from an older Chinese language term for the number nine, referring to the number of cards needed to complete the hand, or also for the target number to be achieved in a different type of game.
-*/}
+> [!todo]
+>
+> The “Kowa” name I think is probably also derived from a game, and was eventually applied to the cards themselves. It is likely from an older Chinese language term for the number nine, referring to the number of cards needed to complete the hand, or also for the target number to be achieved in a different type of game.
 
 > [!figure]
 >

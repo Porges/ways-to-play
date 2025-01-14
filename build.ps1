@@ -127,7 +127,7 @@ function Build-HTML {
     & $builder --input $src --output $public --image-manifest $image_manifest
 }
 
-Copy-StaticContent
-Resize-Images
+# Copy-StaticContent
+# Resize-Images
 Build-Builder
 Build-HTML 

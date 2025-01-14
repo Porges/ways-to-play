@@ -5,13 +5,14 @@ use num_format::{Locale, ToFormattedString};
 
 use crate::{
     bibliography::{
-        Bibliography, Book, Date, JournalArticle, LString, MagazineArticle, NewspaperArticle,
-        Pagination, Periodical, Person, Reference, Thesis,
+        Bibliography, Book, Chapter, Common, ConferencePaper, Date, Document, JournalArticle,
+        LString, MagazineArticle, NewspaperArticle, Pagination, Periodical, Person, Reference,
+        Thesis, WebPage,
     },
     nvec::OneOrMore,
 };
 
-pub fn render_bib(bib: &Bibliography) -> Markup {
+pub fn render_whole_bib(bib: &Bibliography) -> Markup {
     html! {
         ul {
             @for (key, reference) in &bib.references {
@@ -23,13 +24,67 @@ pub fn render_bib(bib: &Bibliography) -> Markup {
     }
 }
 
-pub fn to_rendered(bib: &Bibliography) -> BTreeMap<String, Markup> {
+pub struct RenderedEntry {
+    pub reference: Markup,
+    pub inline_cite: Option<Markup>,
+}
+
+pub type RenderedBibliography = BTreeMap<String, RenderedEntry>;
+
+pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
     let mut result = BTreeMap::new();
     for (key, reference) in &bib.references {
-        result.insert(key.clone(), render_ref(key, reference));
+        let inline_cite = inline_cite(reference);
+        let reference = render_ref(key, reference);
+        result.insert(
+            key.clone(),
+            RenderedEntry {
+                reference,
+                inline_cite,
+            },
+        );
     }
 
     result
+}
+
+fn inline_cite(reference: &Reference) -> Option<Markup> {
+    match &reference {
+        Reference::Book(book) => Some(render_lstr_cite(&book.common.title, None, None, None)),
+        Reference::JournalArticle(JournalArticle {
+            common: Common { author, .. },
+            periodical: Periodical { issued, .. },
+            ..
+        })
+        | Reference::Thesis(Thesis {
+            common: Common { author, .. },
+            issued,
+            ..
+        })
+        | Reference::Chapter(Chapter {
+            common: Common { author, .. },
+            book: Book {
+                issued: Some(issued),
+                ..
+            },
+            ..
+        })
+        | Reference::ConferencePaper(ConferencePaper {
+            common: Common { author, .. },
+            book: Book {
+                issued: Some(issued),
+                ..
+            },
+            ..
+        }) if !author.is_empty() => {
+            let a = author.first().unwrap();
+            Some(html! {
+                (a.family.as_deref().unwrap_or(&a.given))
+                " (" (issued.year()) ")"
+            })
+        }
+        _ => None,
+    }
 }
 
 fn format_num(num: u64) -> String {
@@ -44,7 +99,13 @@ fn item_type(reference: &Reference) -> &'static str {
         Reference::NewspaperArticle(_) | Reference::MagazineArticle(_) => {
             "https://schema.org/Article"
         }
-        Reference::Book(_) => "https://schema.org/Book",
+        Reference::Book(b) => {
+            if b.volume.is_none() {
+                "https://schema.org/Book"
+            } else {
+                "https://schema.org/Book https://schema.org/PublicationVolume"
+            }
+        }
         Reference::Chapter(_) => "https://schema.org/Chapter",
         Reference::Patent(_) | Reference::Document(_) => "https://schema.org/CreativeWork",
         Reference::WebPage(_) => "https://schema.org/WebPage",
@@ -65,7 +126,7 @@ fn render_ref(key: &str, reference: &Reference) -> Markup {
             (render_patent_bits(reference))
             (render_container(key, reference))
             (render_genre(reference))
-            (render_publisher(reference))
+            (render_publisher(key, reference))
             (render_isbn(reference))
         }
     }
@@ -180,8 +241,13 @@ fn render_title(r: &Reference) -> Markup {
     };
 
     if matches!(r, Reference::Book(_) | Reference::Thesis(_)) {
+        let title = render_lstr_cite(&r.common().title, None, Some("name"), Some("alternateName"));
         html! {
-            (render_lstr_cite(&r.common().title, None, Some("name"), Some("alternateName")))
+            @if let Some(url) = &r.common().url {
+                a href=(url) itemprop="url" { (title) }
+            } @else {
+                (title)
+            }
             (archive_url)
             @if let Reference::Book(b) = r {
                 @if let Some(vol) = &b.volume {
@@ -200,10 +266,31 @@ fn render_title(r: &Reference) -> Markup {
             }
         }
     } else {
+        let title = render_lstr_main(&r.common().title, Some("noun"), Some("name headline"));
+        let additional_prefix = r.common().language.as_ref().map(|lang| {
+            html! {
+                "in "
+                span itemprop="inLanguage" { (lang.to_name()) }
+            }
+        });
+
+        let rest = render_lstr_alt(
+            &r.common().title,
+            " [",
+            "]",
+            additional_prefix,
+            Some("alternateName"),
+        );
+
         html! {
             "‘"
-            (render_lstr(&r.common().title, None, Some("name headline"), Some("alternateName")))
+            @if let Some(url) = &r.common().url {
+                a href=(url) itemprop="url" { (title) }
+            } @else {
+                (title)
+            }
             "’"
+            (rest)
             (archive_url)
         }
     }
@@ -265,16 +352,42 @@ fn render_lstr(
     alt_item_prop: Option<&'static str>,
 ) -> Markup {
     html! {
+        (render_lstr_main(lstr, class, item_prop))
+        (render_lstr_alt(lstr, " [", " ]", None, alt_item_prop))
+    }
+}
+
+fn render_lstr_main(
+    lstr: &LString,
+    class: Option<&'static str>,
+    item_prop: Option<&'static str>,
+) -> Markup {
+    html! {
         span class=[class] itemprop=[item_prop] lang=[lstr.lang.as_deref()] {
             (maud::PreEscaped(&lstr.value))
         }
+    }
+}
 
+fn render_lstr_alt(
+    lstr: &LString,
+    prefix: &str,
+    suffix: &str,
+    additional_prefix: Option<Markup>,
+    alt_item_prop: Option<&'static str>,
+) -> Markup {
+    html! {
         @if let Some(alt) = &lstr.alt {
-            " ["
+            (prefix)
+            @if let Some(pref) = additional_prefix {
+                (pref) ": "
+            }
             span itemprop=[alt_item_prop] {
                 (maud::PreEscaped(&alt))
             }
-            "]"
+            (suffix)
+        } @else if let Some(pref) = additional_prefix {
+            (prefix) (pref) (suffix)
         }
     }
 }
@@ -419,10 +532,6 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                 @if let Ok(editor) = r.editors().try_into() {
                     "Edited by " (render_people(editor, false, "editor")) ". "
                 }
-
-                span itemid={(key)"-publisher"} itemtype="https://schema.org/Organization" itemscope {
-                    (render_publisher_periodical(periodical))
-                }
             }
         }
         Reference::Chapter(_) | Reference::WebPage(_) | Reference::ConferencePaper(_) => {
@@ -505,27 +614,98 @@ fn render_periodical(key: &str, p: &Periodical) -> Markup {
     }
 }
 
-fn render_publisher(r: &Reference) -> Markup {
-    html! {
-        "TODO: publisher"
+fn render_publisher(key: &str, r: &Reference) -> Markup {
+    let (publisher, place) = match r {
+        Reference::JournalArticle(JournalArticle {
+            periodical:
+                Periodical {
+                    publisher,
+                    publisher_place,
+                    ..
+                },
+            ..
+        })
+        | Reference::NewspaperArticle(NewspaperArticle {
+            periodical:
+                Periodical {
+                    publisher,
+                    publisher_place,
+                    ..
+                },
+            ..
+        })
+        | Reference::MagazineArticle(MagazineArticle {
+            periodical:
+                Periodical {
+                    publisher,
+                    publisher_place,
+                    ..
+                },
+            ..
+        })
+        | Reference::Book(Book {
+            publisher,
+            publisher_place,
+            ..
+        })
+        | Reference::Chapter(Chapter {
+            book:
+                Book {
+                    publisher,
+                    publisher_place,
+                    ..
+                },
+            ..
+        })
+        | Reference::Document(Document {
+            publisher,
+            publisher_place,
+            ..
+        })
+        | Reference::WebPage(WebPage {
+            publisher,
+            publisher_place,
+            ..
+        })
+        | Reference::Thesis(Thesis {
+            publisher,
+            publisher_place,
+            ..
+        })
+        | Reference::ConferencePaper(ConferencePaper {
+            book:
+                Book {
+                    publisher,
+                    publisher_place,
+                    ..
+                },
+            ..
+        }) => (publisher, publisher_place),
+        Reference::Patent(_) => (&None, &None),
+    };
+
+    if publisher.is_none() && place.is_none() {
+        return Markup::default();
     }
-}
 
-fn render_publisher_periodical(p: &Periodical) -> Markup {
     html! {
-        @if let Some(p) = &p.publisher {
-            (render_lstr(p, Some("noun"), Some("name"), Some("alternateName")))
-        }
-
-        @if let Some(publisher_place) = &p.publisher_place {
-            @if p.publisher.is_some() {
-                ": "
+        span itemprop="publisher" itemscope itemtype="https://schema.org/Organization" itemid={"#"(key)"-publisher"} {
+            @if let Some(publisher) = publisher {
+                (render_lstr(publisher, Some("noun"), Some("name"), Some("alternateName")))
+                @if place.is_none() {
+                    @if !publisher.value.ends_with('.') {
+                        ". "
+                    }
+                } @else {
+                    ": "
+                }
             }
-            span itemprop="location" { (render_lstr(publisher_place, Some("noun"), None, None)) }
-            ". "
-        }
-        @else if p.publisher.as_ref().is_some_and(|p| p.alt.is_some() || !p.value.ends_with('.')) {
-            ". "
+            @if let Some(place) = place {
+                (render_lstr(place, Some("noun"), Some("location"), None))
+                @if !place.value.ends_with('.') {
+                    ". "
+                }
+            }
         }
     }
 }
@@ -541,6 +721,7 @@ fn render_genre(r: &Reference) -> Markup {
 fn render_isbn(r: &Reference) -> Markup {
     html! {
         @if let Reference::Book(Book{isbn: Some(isbn), ..}) = r {
+            " "
             @let isbn = isbn.0.hyphenate().unwrap();
             abbr.initialism { "ISBN" } ": "
             a href={"https://www.worldcat.org/isbn/"(isbn)} {

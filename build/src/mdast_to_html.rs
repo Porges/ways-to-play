@@ -1,16 +1,20 @@
-use std::{collections::BTreeMap, path::Path, sync::LazyLock};
+use std::{collections::BTreeMap, ops::Add, path::Path, sync::LazyLock};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
+use indexmap::IndexMap;
 use markdown::mdast::{
     AttributeContent, AttributeValue, Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Text,
     Yaml,
 };
-use maud::{html, Markup};
+use maud::{html, Markup, Render};
 use regex::Captures;
 use serde::Deserialize;
 use serde_json::Map;
 
-use crate::{ImageManifest, ImageManifestEntry};
+use crate::{
+    bib_render::{RenderedBibliography, RenderedEntry},
+    ImageManifest, ImageManifestEntry,
+};
 
 pub fn get_header(node: &Node) -> Option<Yaml> {
     match node {
@@ -47,7 +51,7 @@ pub fn to_html(
     content_root: &Path,
     file_path: &Path,
     node: Node,
-    bibliography: &BTreeMap<String, Markup>,
+    bibliography: &RenderedBibliography,
     images: &ImageManifest,
 ) -> Result<Markup> {
     let (fndefs, linkdefs) = locate_defs(&node);
@@ -58,9 +62,10 @@ pub fn to_html(
         linkdefs,
         bibliography,
         img_manifest: images,
-        used_bib: Vec::new(),
+        used_bib: Default::default(),
+        cite_count: 0,
     }
-    .convert(false, node)
+    .convert_whole(node)
 }
 
 struct Converter<'a> {
@@ -69,8 +74,20 @@ struct Converter<'a> {
     img_manifest: &'a ImageManifest,
     fndefs: BTreeMap<String, Vec<Node>>,
     linkdefs: BTreeMap<String, String>,
-    bibliography: &'a BTreeMap<String, Markup>,
-    used_bib: Vec<String>,
+    bibliography: &'a RenderedBibliography,
+    used_bib: IndexMap<String, Vec<String>>, // need to preserve insertion order
+    cite_count: usize,
+}
+
+fn index_to_string(mut index: u32) -> String {
+    let mut result = String::new();
+    while index > 0 {
+        let num = (index - 1) % 26;
+        result = String::from(char::from_u32('A' as u32 + num).unwrap()) + &result;
+        index = (index - num) / 26;
+    }
+
+    result
 }
 
 impl Converter<'_> {
@@ -82,26 +99,43 @@ impl Converter<'_> {
         })
     }
 
-    fn convert_refs(&mut self, text: String) -> Markup {
+    fn convert_refs(&mut self, text: String) -> Result<Markup> {
         static RE1: LazyLock<regex::Regex> = LazyLock::new(|| {
             regex::Regex::new(r"\[@(?<id>(_|[^\s\p{P}])+)(\s+(?<what>[^\]]+))?\]").unwrap()
         });
 
+        let mut insert_ref = |id: &str| -> (String, String) {
+            self.cite_count += 1;
+            let cite_anchor = format!("cite-{}", self.cite_count);
+            let entry = self.used_bib.entry(id.to_owned());
+            let ix = entry.index();
+            entry.or_default().push(cite_anchor.clone());
+            let ref_indicator = index_to_string(ix as u32);
+            (cite_anchor, ref_indicator)
+        };
+
+        let mut missing = Vec::new();
+
         let t1 = RE1.replace_all(&text, |m: &Captures<'_>| {
             let id = m.name("id").unwrap().as_str();
-            self.used_bib.push(id.to_owned());
+            if self.bibliography.contains_key(id) {
+                let (cite_anchor, ref_indicator) = insert_ref(id);
+                html! {
+                    sup.citation #(cite_anchor) {
+                        a.index href={"#ref-" (id)} {
+                            (ref_indicator)
+                        }
 
-            html! {
-                sup.citation {
-                    a href={"#ref-" (id)} {
-                        "A CITATION"
                         @if let Some(what) = m.name("what") {
                             " (" (what.as_str()) ")"
                         }
                     }
                 }
+                .into_string()
+            } else {
+                missing.push(id.to_owned());
+                String::new()
             }
-            .into_string()
         });
 
         static RE2: LazyLock<regex::Regex> = LazyLock::new(|| {
@@ -110,20 +144,55 @@ impl Converter<'_> {
 
         let t2 = RE2.replace_all(&t1, |m: &Captures<'_>| {
             let id = m.name("id").unwrap().as_str();
-            self.used_bib.push(id.to_owned());
+            if let Some(entry) = self.bibliography.get(id) {
+                let (cite_anchor, ref_indicator) = insert_ref(id);
+                html! {
+                    span.citation.inline #(cite_anchor) {
+                        @if let Some(inline_cite) = &entry.inline_cite {
+                            a href={"#ref-" (id)} {
+                                (inline_cite)
+                            }
+                        } @else {
+                            a.index href={"#ref-" (id)} {
+                                "[" (ref_indicator) "]"
+                            }
+                        }
 
-            html! {
-                a href={"#ref-" (id)} {
-                    "A CITATION"
-                    @if let Some(what) = m.name("what") {
-                        " (" (what.as_str()) ")"
+                        @if let Some(what) = m.name("what") {
+                            " (" (what.as_str()) ")"
+                        }
+                    }
+                }
+                .into_string()
+            } else {
+                missing.push(id.to_owned());
+                String::new()
+            }
+        });
+
+        if missing.is_empty() {
+            Ok(maud::PreEscaped(t2.into_owned()))
+        } else {
+            bail!("missing bibliography entry: {:?}", missing)
+        }
+    }
+
+    fn convert_whole(&mut self, root: Node) -> Result<Markup> {
+        let result = html! {
+            (self.convert(false, root)?)
+            @if !self.used_bib.is_empty() {
+                h2 #references { "References" }
+                ol.reference-list type="A" {
+                    @for (id, _cites) in &self.used_bib {
+                        li {
+                            (self.bibliography.get(id).unwrap().reference)
+                        }
                     }
                 }
             }
-            .into_string()
-        });
+        };
 
-        maud::PreEscaped(t2.into_owned())
+        Ok(result)
     }
 
     fn convert(&mut self, table_head: bool, node: Node) -> Result<Markup> {
@@ -170,7 +239,7 @@ impl Converter<'_> {
                 todo!()
             }
             Node::Text(text) => {
-                html! { (self.convert_refs(text.value)) }
+                html! { (self.convert_refs(text.value)?) }
             }
             Node::Code(code) => {
                 html! {
@@ -262,11 +331,18 @@ impl Converter<'_> {
             Node::FootnoteDefinition(_) => Markup::default(), // already handled
             Node::FootnoteReference(footnote_reference) => {
                 if let Some(children) = self.fndefs.get(&footnote_reference.identifier) {
-                    html! {
-                        span.footnote { (self.expand(children.clone())?) }
+                    match children.as_slice() {
+                        [Node::Paragraph(p)] => html! {
+                            span.footnote-indicator { }
+                            span.footnote role="note" { (self.expand(p.children.clone())?) }
+                        },
+                        _ => bail!(
+                            "unexpected footnote content (should be one paragraph): {:?}",
+                            children
+                        ),
                     }
                 } else {
-                    panic!(
+                    bail!(
                         "unknown footnote reference: {}",
                         footnote_reference.identifier
                     )
