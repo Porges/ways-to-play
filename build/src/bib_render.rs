@@ -269,8 +269,8 @@ fn render_title(r: &Reference) -> Markup {
         let title = render_lstr_main(&r.common().title, Some("noun"), Some("name headline"));
         let additional_prefix = r.common().language.as_ref().map(|lang| {
             html! {
-                "in "
-                span itemprop="inLanguage" { (lang.to_name()) }
+                "in " (lang.to_name())
+                meta itemprop="inLanguage" content=(lang.to_639_1().unwrap_or_else(|| lang.to_639_3())) ;
             }
         });
 
