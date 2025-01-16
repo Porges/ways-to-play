@@ -6,6 +6,7 @@ use bibliography::Bibliography;
 use clap::Parser;
 use eyre::{eyre, Context, Result};
 use markdown::{mdast, ParseOptions};
+use maud::Markup;
 use serde::Deserialize;
 
 mod bib_render;
@@ -35,6 +36,12 @@ struct File {
     header: saphyr::Yaml,
 }
 
+struct OtherFile {
+    url_path: String,
+    content: Markup,
+    header: saphyr::Yaml,
+}
+
 type ImageManifest = BTreeMap<String, ImageManifestEntry>;
 
 #[derive(Deserialize)]
@@ -53,6 +60,7 @@ struct Builder {
     articles: Vec<File>,
     games: Vec<File>,
     images: ImageManifest,
+    other_files: Vec<OtherFile>,
 }
 
 impl Builder {
@@ -65,6 +73,7 @@ impl Builder {
             output_path,
             articles: Vec::new(),
             games: Vec::new(),
+            other_files: Vec::new(),
             bibliography: Bibliography::default(),
             images,
         })
@@ -154,6 +163,23 @@ impl Builder {
         Ok(result)
     }
 
+    fn prepare_other_files(&mut self) -> Result<(), Box<dyn Error>> {
+        self.other_files.extend([
+            OtherFile {
+                url_path: "about".to_string(),
+                content: templates::about("about"),
+                header: saphyr::Yaml::Null,
+            },
+            OtherFile {
+                url_path: "bibliography".to_string(),
+                content: templates::bibliography("bibliography", &self.bibliography),
+                header: saphyr::Yaml::Null,
+            },
+        ]);
+
+        Ok(())
+    }
+
     fn generate(self) -> Result<(), Box<dyn Error>> {
         println!("Generating outputs in {}", self.output_path.display());
 
@@ -183,12 +209,23 @@ impl Builder {
                 "https://games.porg.es/",
                 &article.url_path,
                 content,
-                article.header["lastModified"].as_str().map(|s| {
-                    time::Date::parse(s, &time::format_description::well_known::Rfc3339).unwrap()
-                }),
+                article.header["lastModified"]
+                    .as_str()
+                    .map(|s| time::Date::parse(s, &time::format_description::well_known::Rfc3339))
+                    .transpose()?,
             );
 
             let content = templated.into_string();
+            std::fs::create_dir_all(output_path.parent().unwrap())?;
+            std::fs::write(output_path, &content)?;
+        }
+
+        for other_file in self.other_files {
+            let output_path = self
+                .output_path
+                .join(&other_file.url_path)
+                .join("index.html");
+            let content = other_file.content.into_string();
             std::fs::create_dir_all(output_path.parent().unwrap())?;
             std::fs::write(output_path, &content)?;
         }
@@ -213,6 +250,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     )?;
 
     builder.load()?;
+    builder.prepare_other_files()?;
     builder.generate()?;
 
     Ok(())

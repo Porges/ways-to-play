@@ -1,16 +1,18 @@
 ---
 title: Mill Games
 order: 200
-mainImage: 'shutterstock_120413827.jpg'
+mainImage: shutterstock_120413827.jpg
 hero:
-    image: 'shutterstock_235028281.jpg'
-    organization:
-      orgName: "Shutterstock.com" 
-    originalUrl: "https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281"
-    author: "Delpixel"
-    license: "stock-image"
+  image: shutterstock_235028281.jpg
+  organization:
+    orgName: Shutterstock.com
+  originalUrl: https://www.shutterstock.com/image-photo/close-on-hand-old-man-playing-235028281
+  author: Delpixel
+  license: stock-image
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-01-16
+aliases:
+  - mill game
 ---
 
 Mill games are a family of boardgames also known as <em>Morris</em> or

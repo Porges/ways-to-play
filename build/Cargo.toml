@@ -9,6 +9,8 @@ eyre = "0.6.12"
 indexmap = "2.7.0"
 isbn = { version = "0.4.0" }
 isolang = { version = "2.4.0", features = ["serde"] }
+itertools = "0.14.0"
+langtag = { version = "0.4.0", features = ["serde"] }
 markdown = "1.0.0-alpha"
 maud = "0.26.0"
 num-format = "0.4.4"

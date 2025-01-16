@@ -13,7 +13,7 @@ $src = Join-Path $root "src"
 $image_manifest = Join-Path $PSScriptRoot "images.json"
 
 function Copy-StaticContent {
-    Copy-Item -Path (Join-Path $root "site_root") -Recurse -Destination $public -Force
+    Copy-Item -Path (Join-Path $root "site_root/*") -Recurse -Destination $public -Force
     $static_content = @("audio", "fonts", "small-images")
     foreach ($dir in $static_content) {
         Copy-Item -Path (Join-Path $root $dir) -Recurse -Destination $public -Force
@@ -127,7 +127,7 @@ function Build-HTML {
     & $builder --input $src --output $public --image-manifest $image_manifest
 }
 
-# Copy-StaticContent
-# Resize-Images
+Copy-StaticContent
+#Resize-Images
 Build-Builder
 Build-HTML 

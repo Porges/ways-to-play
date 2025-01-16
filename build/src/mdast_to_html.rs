@@ -1,12 +1,13 @@
-use std::{collections::BTreeMap, ops::Add, path::Path, sync::LazyLock};
+use std::{collections::BTreeMap, path::Path, sync::LazyLock};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
 use indexmap::IndexMap;
+use itertools::Itertools;
 use markdown::mdast::{
     AttributeContent, AttributeValue, Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Text,
     Yaml,
 };
-use maud::{html, Markup, Render};
+use maud::{html, Markup};
 use regex::Captures;
 use serde::Deserialize;
 use serde_json::Map;
@@ -100,6 +101,14 @@ impl Converter<'_> {
     }
 
     fn convert_refs(&mut self, text: String) -> Result<Markup> {
+        static ARCHIVE_URL: LazyLock<regex::Regex> =
+            LazyLock::new(|| regex::Regex::new(r"^https?://archive\.org/details/[^/]+").unwrap());
+
+        static GOOGLE_URL: LazyLock<regex::Regex> = LazyLock::new(|| {
+            regex::Regex::new(r"^https?://books\.google(\.com|\.co\.nz|\.com\.au)/books\?id=\w+")
+                .unwrap()
+        });
+
         static RE1: LazyLock<regex::Regex> = LazyLock::new(|| {
             regex::Regex::new(r"\[@(?<id>(_|[^\s\p{P}])+)(\s+(?<what>[^\]]+))?\]").unwrap()
         });
@@ -108,26 +117,60 @@ impl Converter<'_> {
             self.cite_count += 1;
             let cite_anchor = format!("cite-{}", self.cite_count);
             let entry = self.used_bib.entry(id.to_owned());
-            let ix = entry.index();
+            let ix = entry.index() + 1;
             entry.or_default().push(cite_anchor.clone());
             let ref_indicator = index_to_string(ix as u32);
             (cite_anchor, ref_indicator)
+        };
+
+        // generate a direct link to the page
+        let direct_link = |entry: &RenderedEntry, what: Option<&str>| -> Option<String> {
+            let (Some(what), Some(url)) = (what, &entry.url) else {
+                return None;
+            };
+
+            let what = what.strip_prefix("p. ").unwrap_or(what);
+            if what.chars().all(|c| c.is_ascii_digit()) {
+                if let Some(m) = ARCHIVE_URL.find(url) {
+                    let mut link = m.as_str().to_string();
+                    link.push_str("/page/");
+                    link.push_str(what);
+                    return Some(link);
+                }
+
+                if let Some(m) = GOOGLE_URL.find(url) {
+                    let mut link = m.as_str().to_string();
+                    link.push_str("&pg=PA");
+                    link.push_str(what);
+                    return Some(link);
+                }
+            }
+
+            None
         };
 
         let mut missing = Vec::new();
 
         let t1 = RE1.replace_all(&text, |m: &Captures<'_>| {
             let id = m.name("id").unwrap().as_str();
-            if self.bibliography.contains_key(id) {
+            if let Some(entry) = self.bibliography.get(id) {
                 let (cite_anchor, ref_indicator) = insert_ref(id);
+                let what = m.name("what").map(|m| m.as_str());
+                let direct_link = direct_link(entry, what);
                 html! {
                     sup.citation #(cite_anchor) {
                         a.index href={"#ref-" (id)} {
                             (ref_indicator)
                         }
 
-                        @if let Some(what) = m.name("what") {
-                            " (" (what.as_str()) ")"
+                        @if let Some(what) = what {
+                            "\u{202f}("
+                            @if let Some(direct_link) = direct_link {
+                                a href=(direct_link) { (what) }
+                            } @else {
+                                (what)
+                            }
+                            ")"
                         }
                     }
                 }
@@ -146,6 +189,9 @@ impl Converter<'_> {
             let id = m.name("id").unwrap().as_str();
             if let Some(entry) = self.bibliography.get(id) {
                 let (cite_anchor, ref_indicator) = insert_ref(id);
+                let what = m.name("what").map(|m| m.as_str());
+                let direct_link = direct_link(entry, what);
+
                 html! {
                     span.citation.inline #(cite_anchor) {
                         @if let Some(inline_cite) = &entry.inline_cite {
@@ -158,8 +204,14 @@ impl Converter<'_> {
                             }
                         }
 
-                        @if let Some(what) = m.name("what") {
-                            " (" (what.as_str()) ")"
+                        @if let Some(what) = what {
+                            " ("
+                            @if let Some(direct_link) = direct_link {
+                                a href=(direct_link) { (what) }
+                            } @else {
+                                (what)
+                            }
+                            ")"
                         }
                     }
                 }
@@ -227,17 +279,39 @@ impl Converter<'_> {
             Node::Image(image) => {
                 html! { img src=(image.url) alt=(image.alt) title=[image.title]; }
             }
-            Node::ImageReference(image_reference) => Markup::default(),
             Node::Link(link) => {
+                let root = url::Url::parse("https://games.porg.es/").unwrap();
+                let mut url = root
+                    .join(&link.url)
+                    .wrap_err_with(|| format!("parsing URL in link: {}", link.url))?;
+
+                // handle internal links
+                if url.host() == Some(url::Host::Domain("games.porg.es")) {
+                    // if ends with .../x/x.md, replace with .../x/
+                    if let Some(segments) = url.path_segments() {
+                        let mut iter = segments.rev();
+                        let ultimate = iter.next();
+                        let penultimate = iter.next();
+                        if let (Some(pu), Some(u)) = (penultimate, ultimate) {
+                            if let Some(mdfile) = u.strip_suffix(".md") {
+                                if mdfile == pu {
+                                    url.path_segments_mut().unwrap().pop().push("");
+                                }
+                            }
+                        }
+                    }
+                }
+
+                //let rel_url = root.make_relative(&url).unwrap_or_else(|| url.to_string());
+
                 html! {
-                    a href=(link.url) title=[link.title] {
+                    a href=(url) title=[link.title] {
                         (self.expand(link.children)?)
                     }
                 }
             }
-            Node::LinkReference(link_reference) => {
-                todo!()
-            }
+            Node::LinkReference(_link_reference) => bail!("link reference not implemented"),
+            Node::ImageReference(_image_reference) => bail!("image reference not implemented"),
             Node::Text(text) => {
                 html! { (self.convert_refs(text.value)?) }
             }
@@ -250,7 +324,7 @@ impl Converter<'_> {
                     }
                 }
             }
-            Node::Math(math) => {
+            Node::Math(_math) => {
                 todo!()
             }
             Node::Heading(heading) => {
@@ -324,9 +398,9 @@ impl Converter<'_> {
             Node::MdxJsxTextElement(mdx_jsx_text_element) => {
                 self.handle_component_text(mdx_jsx_text_element)?
             }
-            Node::MdxTextExpression(mdx_text_expression) => todo!(),
-            Node::MdxFlowExpression(mdx_flow_expression) => todo!(),
-            Node::MdxjsEsm(mdxjs_esm) => todo!(),
+            Node::MdxTextExpression(_mdx_text_expression) => todo!(),
+            Node::MdxFlowExpression(_mdx_flow_expression) => todo!(),
+            Node::MdxjsEsm(_mdxjs_esm) => todo!(),
             Node::Definition(_) => Markup::default(), // already handled
             Node::FootnoteDefinition(_) => Markup::default(), // already handled
             Node::FootnoteReference(footnote_reference) => {
@@ -356,21 +430,21 @@ impl Converter<'_> {
         Ok(result)
     }
 
-    fn handle_component_text(&mut self, flow: MdxJsxTextElement) -> Result<Markup> {
+    fn handle_component_text(&mut self, text: MdxJsxTextElement) -> Result<Markup> {
         // Some preloaded abbreviations for ease of use
-        if flow.name.as_deref() == Some("abbr") {
-            if let [Node::Text(t)] = flow.children.as_slice() {
+        if text.name.as_deref() == Some("abbr") {
+            if let [Node::Text(t)] = text.children.as_slice() {
                 if let Some(known) = match t.value.as_str() {
                     "BCE" => Some("before common era"),
                     "CE" => Some("common era"),
                     "c." => Some("circa"),
                     _ => None,
                 } {
-                    let class = if t.value.chars().all(|c| c.is_ascii_uppercase()) {
-                        Some("initialism")
-                    } else {
-                        None
-                    };
+                    let class = t
+                        .value
+                        .chars()
+                        .all(|c| c.is_ascii_uppercase())
+                        .then_some("initialism");
 
                     return Ok(html! {
                         abbr class=[class] title=(known) { (t.value) }
@@ -379,14 +453,14 @@ impl Converter<'_> {
             }
         }
 
-        let result = match flow.name.as_deref() {
+        let result = match text.name.as_deref() {
             Some(x) if x.chars().next().unwrap().is_ascii_lowercase() => {
                 // TODO: ugly
                 html! {
-                    @if let Some(name) = &flow.name {
+                    @if let Some(name) = &text.name {
                         (maud::PreEscaped(format!("<{}", name)))
                     }
-                    @for attr in flow.attributes {
+                    @for attr in text.attributes {
                         @match attr {
                             markdown::mdast::AttributeContent::Expression(mdx_jsx_expression_attribute) => (todo!()),
                             markdown::mdast::AttributeContent::Property(mdx_jsx_attribute) =>  {
@@ -402,28 +476,28 @@ impl Converter<'_> {
                         }
                     }
                     (maud::PreEscaped(">"))
-                    (self.expand(flow.children)?)
-                    @if let Some(name) = flow.name {
+                    (self.expand(text.children)?)
+                    @if let Some(name) = text.name {
                         (maud::PreEscaped(format!("</{}>", name)))
                     }
                 }
             }
             Some("Pronounce") => {
                 // TODO: complete this
-                let lang = find_attribute(&flow.attributes, "lang")
+                let lang = find_attribute(&text.attributes, "lang")
                     .ok_or_eyre("lang attribute is required on <Pronounce>")?;
 
-                let pronouncer = find_attribute(&flow.attributes, "pronouncer")
+                let pronouncer = find_attribute(&text.attributes, "pronouncer")
                     .ok_or_eyre("pronouncer attribute is required on <Pronounce>")?;
 
-                let noun = find_attribute(&flow.attributes, "noun")
+                let noun = find_attribute(&text.attributes, "noun")
                     .map(|_| " noun")
                     .unwrap_or_default();
 
-                let file = find_attribute(&flow.attributes, "file")
+                let file = find_attribute(&text.attributes, "file")
                     .map(|v| Ok(v.to_string()))
                     .unwrap_or_else(|| {
-                        let word = match flow.children.as_slice() {
+                        let word = match text.children.as_slice() {
                             [Node::Text(Text { value, .. })] => value,
                             _ => eyre::bail!("<Pronounce> must have a single text child"),
                         };
@@ -438,23 +512,63 @@ impl Converter<'_> {
                 html! {
                     audio preload="none" src={"/audio/" (file)};
                     span class={"pronunciation" (noun)} lang=(lang) title=(title) onclick="this.previousSibling.play()" {
-                        (self.expand(flow.children)?)
+                        (self.expand(text.children)?)
                     }
                 }
             }
             Some("Cards") => {
                 // TODO: complete this
                 html! {
-                    span.cards { (self.expand(flow.children)?) }
+                    span.cards { (self.expand(text.children)?) }
                 }
             }
             Some("Dice") => {
-                // TODO: complete this
+                if text.children.len() != 1 || !matches!(text.children.first(), Some(Node::Text(_)))
+                {
+                    bail!("<Dice> must have a single text child");
+                }
+
+                let dice_type = find_attribute(&text.attributes, "type");
+                if let Some(ty) = dice_type {
+                    if ty != "chinese" && ty != "japanese" {
+                        bail!("unknown dice type: {ty}");
+                    }
+                }
+
+                let text = match text.children.first() {
+                    Some(Node::Text(t)) => t,
+                    _ => unreachable!(),
+                };
+
+                let ty = dice_type.map(|c| "_".to_string() + c).unwrap_or_default();
+
+                let children = text
+                    .value
+                    .chars()
+                    .map(|d| {
+                        Ok(match d {
+                            '1' => html! { img.inline-img alt="⚀" src={"/small-images/d6" (ty) "/d6_1.svg"}; },
+                            '2' => html! { img.inline-img alt="⚁" src={"/small-images/d6" (ty) "/d6_2.svg"}; },
+                            '3' => html! { img.inline-img alt="⚂" src={"/small-images/d6" (ty) "/d6_3.svg"}; },
+                            '4' => html! { img.inline-img alt="⚃" src={"/small-images/d6" (ty) "/d6_4.svg"}; },
+                            '5' => html! { img.inline-img alt="⚄" src={"/small-images/d6" (ty) "/d6_5.svg"}; },
+                            '6' => html! { img.inline-img alt="⚅" src={"/small-images/d6" (ty) "/d6_6.svg"}; },
+                            '?' | 'q' => html! { img.inline-img alt="any" src={"/small-images/d6" (ty) "/d6_q.svg"}; },
+                            '=' => html! { img.inline-img alt="equal" src={"/small-images/d6" (ty) "/d6_=.svg"}; },
+                            o => bail!("invalid dice character: {}", o),
+                        })
+                    })
+                    .collect::<Result<Vec<Markup>>>()?;
+
                 html! {
-                    span.dice { (self.expand(flow.children)?) }
+                    span.dice {
+                        @for c in children {
+                            (c)
+                        }
+                    }
                 }
             }
-            _ => return Err(eyre!("unknown component: {:?}", flow.name)),
+            _ => return Err(eyre!("unknown component: {:?}", text.name)),
         };
 
         Ok(result)
@@ -577,33 +691,43 @@ impl Converter<'_> {
                         }
                     }
 
-                    let multi_classes = format!(
-                        "{}{}{}",
-                        metadata
-                            .justify
-                            .as_deref()
-                            .map(|v| format!(" {v}"))
-                            .unwrap_or_default(),
-                        if metadata.cram { " cram" } else { "" },
-                        if metadata.equalheight {
-                            " equal-height"
-                        } else {
-                            ""
-                        }
-                    );
+                    let multi_classes = [
+                        metadata.justify.as_deref(),
+                        metadata.cram.then_some("cram"),
+                        metadata.equalheight.then_some("equal-height"),
+                    ]
+                    .into_iter()
+                    .flatten()
+                    .join(" ");
 
                     let noborder = if metadata.noborder { " border-0" } else { "" };
                     let copyright_notice = metadata.copyright_notice();
 
+                    let figure_classes = [
+                        metadata.position.as_ref().map(|p| match p {
+                            ImagePositions::Left => "left",
+                            ImagePositions::Right => "right",
+                            ImagePositions::Aside => "aside",
+                        }),
+                        metadata.size.map(|s| match s {
+                            ImageSizes::Small => "small",
+                            ImageSizes::Wide => "wide",
+                            ImageSizes::ExtraWide => "extra-wide",
+                        }),
+                    ]
+                    .into_iter()
+                    .flatten()
+                    .join(" ");
+
                     return Ok(html! {
-                        figure itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
+                        figure class=(figure_classes) itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
                             @if images.len() == 1 {
                                 @let img = &images[0];
                                 @let meta = self.resolve_image(&img.url)?;
                                 dialog.lightbox id={"lb-" (meta.hash)} {
                                     img src=(meta.url) srcset="" alt=(&img.alt) title=[&img.title] loading="lazy" width=(meta.width) height=(meta.height);
                                     div.lightbox-under {
-                                        span itemscope {
+                                        p itemscope {
                                             (copyright_notice)
                                         }
                                         form method="dialog" {
@@ -634,10 +758,9 @@ impl Converter<'_> {
                                 div itemprop="caption" {
                                     (self.expand(caption)?)
                                 }
-                                @if copyright_notice.0.len() > 10 {
-                                    br;
+                                p {
+                                    (copyright_notice)
                                 }
-                                (copyright_notice)
                             }
                         }
                     });
@@ -820,7 +943,11 @@ impl ImageMetadata {
                     " "
                 }
                 @if let Some(copyright_holder) = self.copyright_holder() {
-                    (copyright_holder)
+                    @if let Some(original_url) = &self.original_url {
+                        a href=(original_url) { (copyright_holder) }
+                    } @else {
+                        (copyright_holder)
+                    }
                     ", "
                 }
                 (self.license_info())
@@ -859,7 +986,7 @@ impl ImageMetadata {
                 span itemscope itemtype="https://schema.org/Organization" lang=[&self.org_lang] itemprop=(itemprop) {
                     @if let Some(url) = &self.org_url {
                         a href=(url) { (content) }
-                    } else {
+                    } @else {
                         (content)
                     }
                 }
@@ -1007,4 +1134,17 @@ fn yaml_node_to_json(yaml: saphyr::Yaml) -> Result<serde_json::Value> {
     };
 
     Ok(result)
+}
+
+#[cfg(test)]
+mod test {
+    use super::*;
+
+    #[test]
+    fn indicator() {
+        assert_eq!(index_to_string(0), "");
+        assert_eq!(index_to_string(1), "A");
+        assert_eq!(index_to_string(26), "Z");
+        assert_eq!(index_to_string(27), "AA");
+    }
 }

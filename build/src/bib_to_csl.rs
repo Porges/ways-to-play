@@ -65,13 +65,13 @@ pub fn to_csl(bib: &Bibliography) -> Value {
                     chapter.book.issued.as_ref().map(|d| d.to_iso()).into(),
                 );
             }
-            Reference::Document(document) => {
+            Reference::Document(_document) => {
                 obj.insert("type".to_string(), "document".into());
             }
-            Reference::WebPage(web_page) => {
+            Reference::WebPage(_web_page) => {
                 obj.insert("type".to_string(), "webpage".into());
             }
-            Reference::Thesis(thesis) => {
+            Reference::Thesis(_thesis) => {
                 obj.insert("type".to_string(), "thesis".into());
             }
             Reference::ConferencePaper(conference_paper) => {
@@ -86,7 +86,7 @@ pub fn to_csl(bib: &Bibliography) -> Value {
                         .into(),
                 );
             }
-            Reference::Patent(patent) => {
+            Reference::Patent(_patent) => {
                 obj.insert("type".to_string(), "patent".into());
             }
         }

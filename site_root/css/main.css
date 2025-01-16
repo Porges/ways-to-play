@@ -1293,3 +1293,8 @@ iframe {
         }
     }
 }
+
+p.informational {
+    text-align: center;
+    font-style: italic;
+}

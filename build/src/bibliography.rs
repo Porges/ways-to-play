@@ -1,6 +1,7 @@
 use std::{collections::BTreeMap, convert::Infallible, str::FromStr};
 
 use isolang::Language;
+use langtag::LangTagBuf;
 use num_format::ToFormattedString;
 use serde::{
     de::{self, Visitor},
@@ -79,6 +80,7 @@ impl Reference {
             Reference::Document(doc) => doc.publisher.as_ref(),
             _ => None,
         }
+        // TODO: periodical publishers shouldn’t be here, but should others?
     }
 
     pub fn editors(&self) -> &[Person] {
@@ -87,11 +89,37 @@ impl Reference {
             Reference::WebPage(web_page) => &web_page.editor,
             _ => &[],
         }
+        // TODO: periodical editors shouldn’t be here, but should others?
+    }
+
+    pub fn iso_date(&self) -> Option<String> {
+        match self {
+            Reference::JournalArticle(JournalArticle { periodical, .. })
+            | Reference::NewspaperArticle(NewspaperArticle { periodical, .. })
+            | Reference::MagazineArticle(MagazineArticle { periodical, .. }) => {
+                Some(periodical.issued.to_iso())
+            }
+            Reference::Book(Book { issued, .. })
+            | Reference::Document(Document { issued, .. })
+            | Reference::WebPage(WebPage { issued, .. })
+            | Reference::ConferencePaper(ConferencePaper {
+                book: Book { issued, .. },
+                ..
+            })
+            | Reference::Chapter(Chapter {
+                book: Book { issued, .. },
+                ..
+            }) => issued.as_ref().map(|d| d.to_iso()),
+            Reference::Thesis(Thesis { issued, .. }) => Some(issued.to_iso()),
+            Reference::Patent(patent) => {
+                Some(patent.issued.as_ref().unwrap_or(&patent.filed).to_iso())
+            }
+        }
     }
 }
 
 #[serde_as]
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Common {
     #[serde(default)]
@@ -181,17 +209,18 @@ pub enum Pagination {
 }
 
 #[serde_as]
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Book {
-    pub r#type: Option<String>, // for back-compat
+    #[allow(unused)] // for back-compat
+    pub r#type: Option<String>,
 
     #[serde(flatten)]
     pub common: Common,
 
     pub issued: Option<Date>,
 
-    pub edition: Option<u64>,
+    pub edition: Option<NumberOrString>,
     pub volume: Option<NumberOrString>,
 
     #[serde(rename = "volume-title")]
@@ -312,7 +341,7 @@ pub struct Document {
 }
 
 #[serde_as]
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Series {
     pub title: LString,
@@ -330,7 +359,7 @@ pub struct Series {
     pub editor: Vec<Person>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Person {
     pub family: Option<String>,
@@ -476,10 +505,10 @@ impl Date {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct LString {
     pub value: String,
-    pub lang: Option<String>,
+    pub lang: Option<LangTagBuf>,
     pub alt: Option<String>,
 }
 
@@ -546,7 +575,10 @@ impl<'de> Deserialize<'de> for LString {
                                 return Err(de::Error::duplicate_field("lang"));
                             }
 
-                            lang = Some(v);
+                            lang = match LangTagBuf::new(v) {
+                                Ok(l) => Some(l),
+                                Err(e) => return Err(de::Error::custom(e)),
+                            };
                         }
                         "alt" => {
                             if alt.is_some() {
@@ -571,7 +603,7 @@ impl<'de> Deserialize<'de> for LString {
     }
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Isbn(pub isbn::Isbn);
 
 impl<'de> Deserialize<'de> for Isbn {
@@ -610,7 +642,7 @@ impl<'de> Deserialize<'de> for Isbn {
     }
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(untagged)]
 pub enum NumberOrString {
     Str(String),

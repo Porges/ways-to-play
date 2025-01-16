@@ -24,6 +24,15 @@ Other than that, I know little about how it was played.[^fn1] Any further inform
 
 > [!figure]
 >
-> ![An old wooden shallow cone shaped wheel with a raised rim, and a painted design on the centre."  license="terms" termsUrl="https://media.newmexicoculture.org/policies.php?name=terms" orgName="Historical Society of New Mexico" identifier="NMHM/DCA 09409.45" originalUrl="https://media.newmexicoculture.org/photo-library/event/file/detail/4658/4534/19" copyrightYear="2018](Chuza-9409.45-resized.jpg)
+> ![An old wooden shallow cone shaped wheel with a raised rim, and a painted design on the centre.](Chuza-9409.45-resized.jpg)
+>
+> ```yaml
+> license: "terms"
+> termsUrl: "https://web.archive.org/web/20250103222106/https://media.newmexicoculture.org/policies.php?name=terms"
+> orgName: "Historical Society of New Mexico"
+> identifier: "NMHM/DCA 09409.45"
+> originalUrl: "https://media.newmexicoculture.org/photo-library/event/file/detail/4658/4534/19"
+> copyrightYear: 2018
+> ```
 >
 > A Chuza wheel.

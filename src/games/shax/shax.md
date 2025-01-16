@@ -3,43 +3,36 @@ title: Shax
 players: 2
 equipment: Board game (simple equipment)
 countries: SO
+date created: 2024-12-18
+date modified: 2025-01-16
 ---
 
-<p class="lead">
-{% pronounce word="Shax" file="pronunciation_so_shax.mp3" lang="so" noun="true"
-pronouncer="ahmed_aw_abdi" class="aka" %} is a {%a mill-games,mill game%} from Somalia. In central and southern regions of Somalia it is called <span lang="so" class="aka">jare</span> (‘cut’).[@IntroductionToShax p. 1] Unlike most mill games, captures cannot be made during the placement phase.
-</p>
+<Pronounce file="pronunciation_so_shax.mp3" lang="so" noun="true"
+pronouncer="ahmed_aw_abdi" class="aka">Shax</Pronounce> is a [mill game](articles/families/mill-games/mill-games.md) from Somalia. In central and southern regions of Somalia it is called <span lang="so" class="aka">jare</span> (‘cut’).[@IntroductionToShax p. 1] Unlike most mill games, captures cannot be made during the placement phase.
 
-{%aside%}The name is also transcribed with different letters for the sound /ħ/, such as <span lang="so">shah</span>, <span lang="so">shahh</span>, or <span lang="so">shaḥ</span>.{%endaside%}
+> [!aside]
+>
+> The name is also transcribed with different letters for the sound /ħ/, such as <span lang="so">shah</span>, <span lang="so">shahh</span>, or <span lang="so">shaḥ</span>.
 
-{/*
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a
-href="https://twitter.com/hashtag/Shax?src=hash&amp;ref_src=twsrc%5Etfw">#Shax</a>
-Somali traditional Board game on <a
-href="https://twitter.com/hashtag/HIBF2017?src=hash&amp;ref_src=twsrc%5Etfw">#HIBF2017</a>
-<a href="https://t.co/Zcf3S04xY2">pic.twitter.com/Zcf3S04xY2</a></p>&mdash;
-🐪Tirsit Yetbarek (@ tirsity) <a
-href="https://twitter.com/tirsity/status/890503033280507904?ref_src=twsrc%5Etfw">July
-27, 2017</a></blockquote>
-*/}
+> [!todo]
+>
+> <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Shax?src=hash&amp;ref_src=twsrc%5Etfw">#Shax</a> Somali traditional Board game on <a href="https://twitter.com/hashtag/HIBF2017?src=hash&amp;ref_src=twsrc%5Etfw">#HIBF2017</a> <a href="https://t.co/Zcf3S04xY2">pic.twitter.com/Zcf3S04xY2</a></p>&mdash; 🐪Tirsit Yetbarek (@ tirsity) <a href="https://twitter.com/tirsity/status/890503033280507904?ref_src=twsrc%5Etfw">July 27, 2017</a></blockquote>
 
 ## History
 
-<blockquote class="blockquote epigraph">
-
-Sometimes [the Bedouin] play at Shahh, Shantarah, and other games, of which they
+> [!epigraph]
+>
+> Sometimes [the Bedouin] play at Shahh, Shantarah, and other games, of which they
 are passionately fond: with a board formed of lines traced in the sand, and bits
 of dry wood or camel’s earth acting pieces, they spend hour after hour, every
 looker-on vociferating his opinion, and catching at the men, till apparently the
 two players are those least interested in the game.[@FirstFootsteps pp. 179–80]
 
-</blockquote>
-
 The game is mentioned in many stories of Somali poets and leaders (and poet-leaders), such as <span class="noun" lang="so">Garaad Xirsi Garaad Faarax</span> (commonly known as “<span class="noun" lang="so">Wiil Waal</span>”, ‘crazy boy’), the early 19th century ruler of [<span class="noun" lang="so">Jigjiga</span>](https://en.wikipedia.org/wiki/Jijiga) (now part of Ethiopia); [<span class="noun" lang="so">Yuusuf Cali Keenadiid</span>](https://en.wikipedia.org/wiki/Yusuf_Ali_Kenadid) (1837–1911), [Sultan of Hobyo](https://en.wikipedia.org/wiki/Sultanate_of_Hobyo); and [<span class="noun" lang="so">Sayid Maxamed Cabdulle Xasan</span>](https://en.wikipedia.org/wiki/Mohammed_Abdullah_Hassan) (1856–1920), leader of the [Dervish movement](https://en.wikipedia.org/wiki/Dervish_movement_(Somali)).[@IntroductionToShax p. 2]
 
 ## Play
 
-As in other {%a mill-games,mill games %}, the aim of the game is to form a **mill** (line of three pieces). Each time this is done, this enables the player to remove one of the opponent’s pieces from the board. When a player is reduced to fewer than three pieces, they lose the game.
+As in other [mill games](articles/families/mill-games/mill-games.md), the aim of the game is to form a **mill** (line of three pieces). Each time this is done, this enables the player to remove one of the opponent’s pieces from the board. When a player is reduced to fewer than three pieces, they lose the game.
 
 ### Placement phase
 

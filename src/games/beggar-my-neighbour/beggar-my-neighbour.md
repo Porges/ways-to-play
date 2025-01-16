@@ -16,7 +16,7 @@ date modified: 2024-12-21
 
 A wonderful defence of this simple game as the ideal playing-card game may be found in the Meerut Universal Magazine.[@MUMagazine]
 
-It is mentioned as early as 1603 by the British playwright [Thomas Heywood](https://en.wikipedia.org/wiki/Thomas_Heywood) under the name “<span class="aka">Knave out of Doors</span>” in his play <cite>A Woman Killed with Kindness</cite> (1603, published 1607).[@ThomasHeywood p. 1] A song about the [Rump Parliament](https://en.wikipedia.org/wiki/Rump_Parliament) called <cite>The Rebells Reign</cite> (from some time between 1639–61) also refers to the game under this name:
+It is mentioned as early as 1603 by the British playwright [Thomas Heywood](https://en.wikipedia.org/wiki/Thomas_Heywood) under the name “<span class="aka">Knave out of Doors</span>” in his play <cite>A Woman Killed with Kindness</cite> (1603, published 1607).[@ThomasHeywood p. 5] A song about the [Rump Parliament](https://en.wikipedia.org/wiki/Rump_Parliament) called <cite>The Rebells Reign</cite> (from some time between 1639–61) also refers to the game under this name:
 
 > The Parliament sate as snug as a Cat,\
 > &emsp;And were playing for mine and yours ;\

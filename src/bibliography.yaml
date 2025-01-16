@@ -392,13 +392,15 @@ Bell:
       family: Bell
       url: https://en.wikipedia.org/wiki/Robert_Charles_Bell
   issued:
-    year: 1969
+    year: 1979
   publisher: Dover Publications
   publisher-place: New York, NY, USA
   original-date:
     year: 1960
+  edition: revised edition
+  original-publisher: Oxford University Press
   ISBN: 978-0-486-23855-5
-  notes: Two volumes republished as one.
+  notes: Two volumes of the second edition revised and republished as one.
 Murray:
   type: book
   title: A History of Chess
@@ -4002,6 +4004,7 @@ TheCamdenRaceCourse:
   title: The Camden Race Course
   author:
     - given: “M”
+  page: 305-6
   in:
     title: The Friend
     issued:
@@ -5329,7 +5332,7 @@ SparrowAndPigeon:
         value: Tán Shìbǎo
         lang: cmn-Latn-pinyin
   page: 26–37
-  URL: http://www.icm.gov.mo/rc/viewer/10093/2508
+  URL: https://www.icm.gov.mo/rc/viewer/10093/2508
   in:
     title: 
       value: Revista de Cultura
@@ -11479,7 +11482,7 @@ ObservationsOnSomeOldFashionedGames:
 ALetterFromMrsMidnight:
   type: article-magazine
   title: A Letter from Mrs. Midnight to Mr. Hoyle, partly complimentary, and partly objurgatory
-  URL: https://books.google.co.nz/books?id=D2AEAAAAQAAJ&pg=PA195
+  URL: https://books.google.co.nz/books?id=D2AEAAAAQAAJ&pg=PA193
   page: 193
   author:
   - given: Mary
@@ -11499,6 +11502,7 @@ ALetterFromALady:
   author:
   - given: J.
     family: W.
+  page: 133-4
   in:
     title: The Ladies Magazine; or, the Universal Entertainer
     volume: 2
@@ -13975,7 +13979,7 @@ LetTheChildrenPlay:
     ISBN: "9788878921788"
     publisher: 
       value: L’Haramattan Italia
-      lang: t
+      lang: it
     publisher-place: Turin, Italy
     series:
       title: 

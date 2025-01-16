@@ -1,5 +1,7 @@
 use maud::{html, Markup, DOCTYPE};
 
+use crate::{bib_render, bibliography::Bibliography};
+
 pub fn base(
     title: &str,
     title_lang: Option<&str>,
@@ -161,5 +163,46 @@ pub fn article(
             }
         },
         Some("article"),
+    )
+}
+
+pub fn bibliography(url: &str, bib: &Bibliography) -> Markup {
+    let content = html! {
+        form {
+            label for="sort-selector" { "Sort by:" }
+            select #sort-selector {
+                option value="name,year" selected { "default" }
+                option value="year asc" { "year (oldest first)" }
+                option value="year desc" { "year (newest first)" }
+                option value="refs desc" { "number of references (most first)" }
+                option value="refs asc" { "number of references (least first)" }
+            }
+        }
+        (bib_render::render_whole_bib(bib))
+    };
+    base(
+        "Bibliography of Traditional Games",
+        None,
+        None,
+        "https://games.porg.es",
+        url,
+        content,
+        None,
+    )
+}
+
+pub fn about(url: &str) -> Markup {
+    let content = html! {
+        "About: TODO"
+    };
+
+    base(
+        "About",
+        None,
+        None,
+        "https://games.porg.es",
+        url,
+        content,
+        None,
     )
 }
