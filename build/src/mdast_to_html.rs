@@ -302,10 +302,13 @@ impl Converter<'_> {
                     }
                 }
 
-                //let rel_url = root.make_relative(&url).unwrap_or_else(|| url.to_string());
+                let rel_url = root
+                    .make_relative(&url)
+                    .map(|u| "/".to_string() + &u)
+                    .unwrap_or_else(|| url.to_string());
 
                 html! {
-                    a href=(url) title=[link.title] {
+                    a href=(rel_url) title=[link.title] {
                         (self.expand(link.children)?)
                     }
                 }
@@ -390,6 +393,10 @@ impl Converter<'_> {
                 html! { li { (self.expand(list_item.children)?) } }
             }
             Node::Paragraph(paragraph) => {
+                if paragraph.children.is_empty() {
+                    return Ok(Markup::default());
+                }
+
                 html! { p { (self.expand(paragraph.children)?) } }
             }
             Node::MdxJsxFlowElement(mdx_jsx_flow_element) => {
@@ -510,24 +517,50 @@ impl Converter<'_> {
                 );
 
                 html! {
-                    audio preload="none" src={"/audio/" (file)};
+                    audio preload="none" src={"/audio/" (file)} {}
                     span class={"pronunciation" (noun)} lang=(lang) title=(title) onclick="this.previousSibling.play()" {
                         (self.expand(text.children)?)
                     }
                 }
             }
             Some("Cards") => {
-                // TODO: complete this
+                let [Node::Text(text)] = text.children.as_slice() else {
+                    bail!("<Cards> must have a single text child");
+                };
+
+                let children = text
+                    .value
+                    .chars()
+                    .map(|c| {
+                        Ok(match c {
+                            'c' => {
+                                html! { "♣" }
+                            }
+                            's' => {
+                                html! { "♠" }
+                            }
+                            'd' => {
+                                html! { span.red { "♦" } }
+                            }
+                            'h' => {
+                                html! { span.red { "♥" } }
+                            }
+                            c => {
+                                html! { (c) }
+                            }
+                        })
+                    })
+                    .collect::<Result<Vec<Markup>>>()?;
+
                 html! {
-                    span.cards { (self.expand(text.children)?) }
+                    span.playing-cards {
+                        @for c in children {
+                            (c)
+                        }
+                    }
                 }
             }
             Some("Dice") => {
-                if text.children.len() != 1 || !matches!(text.children.first(), Some(Node::Text(_)))
-                {
-                    bail!("<Dice> must have a single text child");
-                }
-
                 let dice_type = find_attribute(&text.attributes, "type");
                 if let Some(ty) = dice_type {
                     if ty != "chinese" && ty != "japanese" {
@@ -535,15 +568,14 @@ impl Converter<'_> {
                     }
                 }
 
-                let text = match text.children.first() {
-                    Some(Node::Text(t)) => t,
-                    _ => unreachable!(),
+                let [Node::Text(text)] = text.children.as_slice() else {
+                    bail!("<Dice> must have a single text child");
                 };
 
                 let ty = dice_type.map(|c| "_".to_string() + c).unwrap_or_default();
 
-                let children = text
-                    .value
+                let children =
+                    text.value
                     .chars()
                     .map(|d| {
                         Ok(match d {
@@ -720,8 +752,8 @@ impl Converter<'_> {
                     .join(" ");
 
                     return Ok(html! {
-                        figure class=(figure_classes) itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
-                            @if images.len() == 1 {
+                        @if images.len() == 1 {
+                            figure class=(figure_classes) itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
                                 @let img = &images[0];
                                 @let meta = self.resolve_image(&img.url)?;
                                 dialog.lightbox id={"lb-" (meta.hash)} {
@@ -743,26 +775,39 @@ impl Converter<'_> {
                                         width=(meta.width) height=(meta.height)
                                         srcset="" sizes="";
                                 }
-                            } @else {
-                                @for row in images.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
-                                    div class={"multi" (multi_classes)} {
-                                        @for img in row {
-                                            @let meta = self.resolve_image(&img.url)?;
-                                            img class={"figure-img" (noborder)} src=(meta.url) alt=(&img.alt) title=[&img.title] width=(meta.width) height=(meta.height);
-                                        }
+                                figcaption {
+                                    div itemprop="caption" {
+                                        (self.expand(caption)?)
+                                    }
+                                    p {
+                                        (copyright_notice)
                                     }
                                 }
                             }
-
-                            figcaption {
-                                div itemprop="caption" {
-                                    (self.expand(caption)?)
+                        } @else {
+                            figure class=(figure_classes) {
+                                @for row in images.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
+                                    div class={"multi " (multi_classes)} {
+                                        @for img in row {
+                                            @let meta = self.resolve_image(&img.url)?;
+                                            div itemscope itemtype="https://schema.org/ImageObject" itemprop="image" itemref="TODO" {
+                                                // TODO: lightbox
+                                                img class={"figure-img" (noborder)} src=(meta.url) alt=(&img.alt) title=[&img.title] width=(meta.width) height=(meta.height);
+                                            }
+                                        }
+                                    }
                                 }
-                                p {
-                                    (copyright_notice)
+                                figcaption {
+                                    div itemprop="caption" {
+                                        (self.expand(caption)?)
+                                    }
+                                    p #{"TODO"} {
+                                        (copyright_notice)
+                                    }
                                 }
                             }
                         }
+
                     });
                 } else if trimmed == "[!epigraph]" {
                     return Ok(html! {
@@ -794,9 +839,15 @@ impl Converter<'_> {
                             (self.expand(blockquote.children.into_iter().skip(1).collect())?)
                         }
                     });
+                } else if let Some(lang) = trimmed.strip_prefix("[!lang]") {
+                    return Ok(html! {
+                        div lang=(lang.trim()) {
+                            (self.expand(blockquote.children.into_iter().skip(1).collect())?)
+                        }
+                    });
                 } else if trimmed.starts_with("[!") {
                     return Err(eyre!(
-                        "unknown callout: {}",
+                        "unknown callout: {}]",
                         trimmed.split_once("]").unwrap().0
                     ));
                 }

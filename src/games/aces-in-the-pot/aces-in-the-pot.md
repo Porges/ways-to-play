@@ -5,6 +5,8 @@ players:
 equipment: Dice game
 subgames:
 - title: Fives to the Right
+date created: 2024-12-18
+date modified: 2025-01-17
 ---
 
 <span class="aka">Ace(s) in the Pot</span> is a simple gambling game which requires no skill and two dice. It has also been called <span class="aka">Pot Luck</span>.[@WithSkullAndBones]
@@ -12,9 +14,9 @@ subgames:
 The earliest mention I have found of this game is in the 1885 edition of
 @TheAmericanHoyle13 [p. 467].
 
-> [!todo]
+> [!aside]
 >
-> @TheCompleteBookOfGames [p. 351]. Later descriptions of this game such as Bell's all seem to stem from this one source.
+>  Later descriptions of this game such as Bell’s (below) all seem to stem from @TheCompleteBookOfGames [p. 351].
 
 ## Play
 

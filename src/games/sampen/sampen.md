@@ -14,19 +14,17 @@ subgames:
 - title: Sèmbrèh
   titleLang: jav-Latn
   players: 5
+date created: 2024-12-18
+date modified: 2025-01-17
 ---
 
-<p class="lead">
-<span lang="jav-Latn" class="noun aka">Sampèn</span> is a simple luck-based gambling game played in Java using {%a ceki%}.[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
-</p>
-
-{/* excerpt */}
+<span lang="jav-Latn" class="noun aka">Sampèn</span> is a simple luck-based gambling game played in Java using [Ceki](articles/cards/ceki/ceki.md) cards.[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
 
 ## The Game
 
 The game is played by at least five players with a single Ceki deck of 60 cards, containing two copies of each card.
 
-It can also be played by combining two decks of standard playing cards: from each deck, take the <Cards>A–10</Cards> in <Cards>shd</Cards> as well as the <Cards>cJQK</Cards>, giving two copies of each card, and 60 cards total.[@CardGamesAroundTheWorld p. 4–5]
+It can also be played by combining two decks of standard playing cards: from each deck, take the <Cards>A–⑩</Cards> in <Cards>shd</Cards> as well as the <Cards>cJQK</Cards>, giving two copies of each card, and 60 cards total.[@CardGamesAroundTheWorld p. 4–5]
 
 ### Play
 

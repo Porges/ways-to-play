@@ -11,7 +11,7 @@ hero:
         orgName: "Potter & Potter Auctions"
     originalUrl: "https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx"
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-01-17
 ---
 
 Chuck-A-Luck was a simple dicing game popular in the United States in the mid to
@@ -43,8 +43,9 @@ These usual payouts lead to a relatively high house edge of 7.87%, and thus
 Chuck-A-Luck has an earned reputation of being a “suckers” game. In more modern
 casino variants the payout for all three dice matching is usually increased to
 make the game more attractive: a 5× payout still leads to a house edge of 6.94%,
-and even a 12× payout{%fn%}As used in the New Zealand variant of Sic
-Bo.{%endfn%} retains a house edge of 3.7%, higher than that of roulette.
+and even a 12× payout[^nz] retains a house edge of 3.7%, higher than that of roulette.
+
+[^nz]: As used in the variant of Sic Bo that is played in New Zealand casinos.
 
 ### History
 
@@ -60,18 +61,15 @@ Bo.{%endfn%} retains a house edge of 3.7%, higher than that of roulette.
 >
 > A depiction of soldiers playing Chuck-A-Luck, by [George Y. Coffin](https://en.wikipedia.org/wiki/George_Yost_Coffin).<br />From @SiKlegg.
 
-A game known as Sweat-Cloth{%fn%}Probably in this context meaning a canvas
-saddle-cloth, upon which numbers were written to serve as a staking
-layout.{%endfn%} was played since at least the early 19th century. The name
+A game known as Sweat-Cloth[^canvas] was played since at least the early 19th century. The name
 could also be shortened to simply “Sweat”.[@TheAmericanHoyle4 p. 480] Gambling
 histories often cite an English origin, but I have yet to find any early mention
-of the game there.{%fn%}Although there are old English slang terms for gaming
-cloths, such as “tatty tog” from *tatt* ‘dice’ and *tog*
-‘clothes’[@ADictionaryOfTheSlangAndCantLanguages] (American derivatives of these
-sources note that this is equivalent to “sweat-cloth”[@Vocabulum p. 89]), I have
-yet to find reference to an actual game that is played with these
-cloths.{%endfn%} The earliest reference I have found so far dates from 1808,
+of the game there.[^tatt] The earliest reference I have found so far dates from 1808,
 when a man was indicted in Pennsylvania because he:[@IndictmentsAndPleas p. 442]
+
+[^canvas]: Probably in this context meaning a canvas saddle-cloth, upon which numbers were written to serve as a staking layout.
+
+[^tatt]: Although there are old English slang terms for gaming cloths, such as “tatty tog” from *tatt* ‘dice’ and *tog* ‘clothes’[@ADictionaryOfTheSlangAndCantLanguages] (American derivatives of these sources note that this is equivalent to “sweat-cloth”[@Vocabulum p. 89]), I have yet to find reference to an actual game that is played with these cloths.
 
 > … unlawfully did publicly and privately set up, erect, make, exercise, keep
 > open, show and expose to be played at, drawn at and thrown at by dice, numbers
@@ -99,8 +97,9 @@ events:[@TheChiefOfHisTribe][@TheCamdenRaceCourse]
 
 By 1830, the game began to be called Chuck-A-Luck (or simply Chuck-Luck), and
 this is the name that stuck. It was commonly played by soldiers and by the late
-19th century was known as the “old soldier’s game”.{%fn%}This term is also used
-for Housie or Bingo.{%endfn%}
+19th century was known as the “old soldier’s game”.[^old-soldier]
+
+[^old-soldier]: This term is also used for Housie or Bingo.
 
 > [!figure]
 > 
@@ -457,12 +456,9 @@ wheel-of-fortune with money printed on it, but in its earliest form the wheel
 had dice drawn in each sector. As with Spindle Chuck-A-Luck, the distribution of
 the dice rolls has been manipulated to provide the operator extra income. The
 house edge on the wheel on the right below, with 48 sectors, is 14.583%. The
-edge on the wheel at left, with 54 sectors, is 12.963%.{%fn%}Or at least, it is
-intended to be. The wheel represented here seems to have an error where one 5
-has been switched with a 3, so the edge on those two numbers is different.
-(Scarne[@ScarneGambling pp. 501–3] miscalculates the house edge on this wheel as
-22.22%, as it seems has was working from a different version than shown in the
-photo in his book.){%endfn%}
+edge on the wheel at left, with 54 sectors, is 12.963%.[^intended]
+
+[^intended]: Or at least, it is intended to be. The wheel represented here seems to have an error where one 5 has been switched with a 3, so the edge on those two numbers is different. (Scarne[@ScarneGambling pp. 501–3] miscalculates the house edge on this wheel as 22.22%, as it seems has was working from a different version than shown in the photo in his book.)
 
 In general the more doubles or triples on the wheel, the worse the odds are for
 the players.

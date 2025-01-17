@@ -2,9 +2,10 @@
 
 use std::{collections::BTreeMap, error::Error, ffi::OsStr, path::PathBuf, process, vec};
 
+use bib_render::RenderedBibliography;
 use bibliography::Bibliography;
 use clap::Parser;
-use eyre::{eyre, Context, Result};
+use eyre::{bail, eyre, Context, ContextCompat, Result};
 use markdown::{mdast, ParseOptions};
 use maud::Markup;
 use serde::Deserialize;
@@ -41,6 +42,14 @@ struct OtherFile {
     content: Markup,
     header: saphyr::Yaml,
 }
+
+#[derive(Default, Debug)]
+struct ArticleNode {
+    name: Option<String>,
+    children: ArticleTree,
+}
+
+type ArticleTree = BTreeMap<String, ArticleNode>;
 
 type ImageManifest = BTreeMap<String, ImageManifestEntry>;
 
@@ -163,6 +172,24 @@ impl Builder {
         Ok(result)
     }
 
+    fn build_article_tree(&self) -> Result<ArticleNode> {
+        let mut tree = ArticleNode::default();
+        for article in &self.articles {
+            let mut node = &mut tree;
+            for part in article.url_path.trim_matches('/').split('/') {
+                node = node.children.entry(part.to_string()).or_default();
+            }
+
+            if node.name.is_some() {
+                bail!("duplicate articles for path: {}", article.url_path);
+            }
+
+            node.name = article.header["title"].as_str().map(|s| s.to_string());
+        }
+
+        Ok(tree)
+    }
+
     fn prepare_other_files(&mut self) -> Result<(), Box<dyn Error>> {
         self.other_files.extend([
             OtherFile {
@@ -175,49 +202,89 @@ impl Builder {
                 content: templates::bibliography("bibliography", &self.bibliography),
                 header: saphyr::Yaml::Null,
             },
+            OtherFile {
+                url_path: "".to_string(),
+                content: templates::welcome(""),
+                header: saphyr::Yaml::Null,
+            },
         ]);
 
         Ok(())
     }
 
-    fn generate(self) -> Result<(), Box<dyn Error>> {
+    fn export_article(
+        &self,
+        article: File,
+        rendered_bib: &RenderedBibliography,
+        article_tree: Option<&ArticleNode>,
+    ) -> Result<()> {
+        let content = mdast_to_html::to_html(
+            &self.base_path,
+            &article.file_path,
+            article.content,
+            rendered_bib,
+            &self.images,
+        )
+        .wrap_err("rendering HTML")?;
+
+        let mut output_path = self.output_path.join(&article.url_path);
+        if output_path.file_name() != Some(OsStr::new("index")) {
+            output_path.push("index.html");
+        } else {
+            output_path.set_extension("html");
+        }
+
+        let mut breadcrumbs = Vec::new();
+        if let Some(mut tree) = article_tree {
+            for part in article.url_path.trim_matches('/').split('/') {
+                tree = tree
+                    .children
+                    .get(part)
+                    .wrap_err_with(|| eyre!("missing parent article `{part}`"))?;
+
+                breadcrumbs.push((part, tree.name.as_deref()));
+            }
+        }
+
+        let templated = templates::article(
+            article.header["title"].as_str().unwrap_or_default(),
+            article.header["titleLang"].as_str(),
+            article.header["originalTitle"].as_str(),
+            "https://games.porg.es/",
+            &article.url_path,
+            &breadcrumbs,
+            content,
+            article.header["date modified"]
+                .as_str()
+                .map(|s| {
+                    time::Date::parse(s, time::macros::format_description!("[year]-[month]-[day]"))
+                })
+                .transpose()
+                .wrap_err("parsing 'date modified'")?,
+        );
+
+        let content = templated.wrap_err("templating content")?.into_string();
+        std::fs::create_dir_all(output_path.parent().unwrap())?;
+        std::fs::write(output_path, &content)?;
+        Ok(())
+    }
+
+    fn generate(mut self) -> Result<(), Box<dyn Error>> {
         println!("Generating outputs in {}", self.output_path.display());
 
+        let article_tree = self.build_article_tree()?;
         let rendered_bib = bib_render::to_rendered(&self.bibliography);
 
-        for article in self.articles.into_iter().chain(self.games.into_iter()) {
-            let content = mdast_to_html::to_html(
-                &self.base_path,
-                &article.file_path,
-                article.content,
-                &rendered_bib,
-                &self.images,
-            )
-            .wrap_err_with(|| eyre!("couldn’t render {}", article.url_path))?;
+        for article in std::mem::take(&mut self.articles) {
+            let path = article.file_path.clone();
+            self.export_article(article, &rendered_bib, Some(&article_tree))
+                .wrap_err_with(|| eyre!("couldn’t export {}", path.display()))?;
+        }
 
-            let mut output_path = self.output_path.join(&article.url_path);
-            if output_path.file_name() != Some(OsStr::new("index")) {
-                output_path.push("index.html");
-            } else {
-                output_path.set_extension("html");
-            }
-
-            let templated = templates::article(
-                article.header["title"].as_str().unwrap_or_default(),
-                article.header["titleLang"].as_str(),
-                article.header["originalTitle"].as_str(),
-                "https://games.porg.es/",
-                &article.url_path,
-                content,
-                article.header["lastModified"]
-                    .as_str()
-                    .map(|s| time::Date::parse(s, &time::format_description::well_known::Rfc3339))
-                    .transpose()?,
-            );
-
-            let content = templated.into_string();
-            std::fs::create_dir_all(output_path.parent().unwrap())?;
-            std::fs::write(output_path, &content)?;
+        for article in std::mem::take(&mut self.games) {
+            let path = article.file_path.clone();
+            self.export_article(article, &rendered_bib, None)
+                .wrap_err_with(|| eyre!("couldn’t export {}", path.display()))?;
         }
 
         for other_file in self.other_files {

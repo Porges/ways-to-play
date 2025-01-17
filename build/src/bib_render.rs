@@ -2,6 +2,7 @@ use std::collections::BTreeMap;
 
 use maud::{html, Markup};
 use num_format::{Locale, ToFormattedString};
+use time::macros::format_description;
 
 use crate::{
     bibliography::{
@@ -621,7 +622,30 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                 (render_book(key, book, "isPartOf"))
             }
         }
-        Reference::WebPage(_) => Markup::default(),
+        Reference::WebPage(WebPage {
+            container_title, ..
+        }) => html! {
+            @if let Some(title) = container_title {
+                "Published on "
+                span itemscope itemtype="https://schema.org/WebSite" itemprop="isPartOf" {
+                    (render_lstr_cite(title, None, Some("name"), Some("alternateName")))
+                }
+
+                @if let Some(archive_url) = r.common().archive_url.as_ref()
+                    .and_then(|u| u.strip_prefix("https://web.archive.org/web/"))
+                    .and_then(|u| u.split_once('/'))
+                    .map(|(pref, _)| &pref[..8]) {
+                    @let access_date = time::Date::parse(archive_url, format_description!("[year][month][day]")).unwrap();
+                    @let iso_date = access_date.format(format_description!("[year]-[month]-[day]")).unwrap();
+                    @let nice_date = format!("{}, {} {} {}", access_date.weekday(), ordinal(access_date.day() as u64), access_date.month(), access_date.year());
+                    " (accessed "
+                    time itemprop="lastReviewed" datetime=(iso_date) { (nice_date) }
+                    ")"
+                }
+
+                ". "
+            }
+        },
         Reference::Patent(_)
         | Reference::Book(_)
         | Reference::Document(_)
@@ -754,15 +778,6 @@ fn render_publisher(key: &str, r: &Reference) -> Markup {
             publisher_place,
             ..
         })
-        | Reference::Chapter(Chapter {
-            book:
-                Book {
-                    publisher,
-                    publisher_place,
-                    ..
-                },
-            ..
-        })
         | Reference::Document(Document {
             publisher,
             publisher_place,
@@ -787,7 +802,8 @@ fn render_publisher(key: &str, r: &Reference) -> Markup {
                 },
             ..
         }) => (publisher, publisher_place),
-        Reference::Patent(_) => (&None, &None),
+        Reference::Chapter(_) | // publisher rendered as part of inner Book
+         Reference::Patent(_) => (&None, &None),
     };
 
     if publisher.is_none() && place.is_none() {

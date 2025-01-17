@@ -16,25 +16,12 @@ date modified: 2024-12-22
 
 ## Origins
 
-In their original form, <span lang="ja-Latn">mono-awase</span> were courtly
-competitions in which various objects were compared as to their qualities or
-unique attributes:{%fn%}The same terminology of <span
-lang="ja-Latn">awase</span> was also used for sports such as
-cock-fighting.[@WorldOfTheShiningPrince p. 165]{%endfn%} objects that were
-judged in these competitions included artefacts such as fans or
-paintings;[@BrocadeByNight p. 242] flowers and plants (chrysanthemums, iris
-roots,[@WorldOfTheShiningPrince p. 163] wild pinks); animals (insects,
-song&shy;birds[@WorldOfTheShiningPrince p. 163]); incense;
-tea[@AnIntroductionToJapaneseTeaRitual p. 26]; or — what we are most interested
-in here — shells.
+In their original form, <span lang="ja-Latn">mono-awase</span> were courtly competitions in which various objects were compared as to their qualities or unique attributes:[^awase-term] objects that were judged in these competitions included artefacts such as fans or paintings;[@BrocadeByNight p. 242] flowers and plants (chrysanthemums, iris roots,[@WorldOfTheShiningPrince p. 163] wild pinks); animals (insects, song&shy;birds[@WorldOfTheShiningPrince p. 163]); incense; tea[@AnIntroductionToJapaneseTeaRitual p. 26]; or — what we are most interested in here — shells.
+
+[^awase-term]: The same terminology of <span lang="ja-Latn">awase</span> was also used for sports such as cock-fighting.[@WorldOfTheShiningPrince p. 165]
 
 The competitions were generally organized between two teams, named Left (who
-started the game, and usually had higher-ranking members){%fn%}In Japan, the
-left-hand side was traditionally considered the dominant or “masculine” side
-(see the [naming of shells below](#kai-awase-to-kai-oi)), the opposite of
-European tradition. In the <span class="noun" lang="ja-Latn">Heian</span>
-period, the Minister of the Left (<span lang="ja">左大臣</span>) outranked the
-Minister of the Right (<span lang="ja">右大臣</span>).{%endfn%} and Right, and
+started the game, and usually had higher-ranking members)[^lhs] and Right, and
 consisted of a series of rounds in which each team would present one item at a
 time, often with accompanying poem. Another format involved the presentation of
 a selection of objects on a miniature artificial garden or island called a <span
@@ -44,6 +31,8 @@ expensive wood or precious metals. The teams were outfitted in different
 colours — the Left in warm colours, orange or purple, the Right in cool,
 yellow or blue — and their accompaniments could also be chosen to match the
 team colours.[@GoldenShells p. 90]
+
+[^lhs]: In Japan, the left-hand side was traditionally considered the dominant or “masculine” side (see the [naming of shells below](#kai-awase-to-kai-oi)), the opposite of European tradition. In the <span class="noun" lang="ja-Latn">Heian</span> period, the Minister of the Left (<span lang="ja">左大臣</span>) outranked the Minister of the Right (<span lang="ja">右大臣</span>).
 
 > [!figure]
 >
@@ -114,8 +103,9 @@ could be used for scoring. During a contest in 1035 one side planted miniature
 pine trees to track their score; at another in 1078, “the Left inserted arrows
 with silver shafts and glass feathers into a target to mark their wins, and the
 Right placed tiny replicas of musical instruments in a silver box inlaid with
-crystal.”[@BrocadeByNight p. 243]{%fn%}Elaborate scoring tracks were [also used
-for incense competitions](https://images.dnpartcom.jp/ia/workDetail?id=TAM000634).{%endfn%}
+crystal.”[@BrocadeByNight p. 243][^scoring-tracks]
+
+[^scoring-tracks]: Elaborate scoring tracks were [also used for incense competitions](https://images.dnpartcom.jp/ia/workDetail?id=TAM000634).
 
 ### An aside about <span lang="ja-Latn">Uta-awase</span>
 

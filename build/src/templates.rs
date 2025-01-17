@@ -1,4 +1,6 @@
+use eyre::Result;
 use maud::{html, Markup, DOCTYPE};
+use time::macros::format_description;
 
 use crate::{bib_render, bibliography::Bibliography};
 
@@ -8,6 +10,7 @@ pub fn base(
     original_title: Option<&str>,
     site_url: &str,
     page_url: &str,
+    breadcrumbs: &[(&str, Option<&str>)],
     content: Markup,
     og_type: Option<&str>,
 ) -> Markup {
@@ -61,9 +64,23 @@ pub fn base(
                     meta itemprop="name" content="Ways To Play";
                 }
                 header {
-                    // TODO: breadcrumbs
+                    @if !breadcrumbs.is_empty() {
+                        nav.breadcrumbs aria-label="breadcrumb" {
+                            ol itemscope itemtype="https://schema.org/BreadcrumbList" itemprop="breadcrumb" {
+                                @let mut url_so_far = "/".to_string();
+                                @for (ix, (part, name)) in breadcrumbs.iter().enumerate() {
+                                    li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" {
+                                        meta itemprop="position" content=(ix + 1);
+                                        a href=({url_so_far.push_str(part); url_so_far.push('/'); &url_so_far}) itemprop="item" {
+                                            span itemprop="name" { (name.unwrap_or(part)) }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
 
-                    nav."site" {
+                    nav.site {
                         div {
                           a.brand href="/" { "Ways to Play" }
                           ul.under-brand {
@@ -73,9 +90,9 @@ pub fn base(
                         }
                         h1.page-title lang=[title_lang] {
                             @if let Some(original_title) = original_title {
-                                (original_title) " · "
+                                (maud::PreEscaped(original_title)) " · "
                             }
-                            span.simple { (title) }
+                            span.simple itemprop="name" { (title) }
                         }
                         form #search-box role="search" method="get" action="https://duckduckgo.com/" target="_top" {
                           span.simple {
@@ -142,28 +159,38 @@ pub fn article(
     original_title: Option<&str>,
     site_url: &str,
     page_url: &str,
+    breadcrumbs: &[(&str, Option<&str>)],
     content: Markup,
     mod_date: Option<time::Date>,
-) -> Markup {
-    base(
+) -> Result<Markup> {
+    let result = base(
         title,
         title_lang,
         original_title,
         site_url,
         page_url,
+        breadcrumbs,
         html! {
             article itemprop="mainEntity" itemscope itemtype="https://schema.org/Article" itemref="author-outer" {
-                meta itemprop="headline" content=(title);
-                @if let Some(mod_date) = mod_date {
-                    p.last-updated {
-                        "Last updated: " time itemprop="dateModified" { (mod_date) } "."
+                div.article-meta {
+                    meta itemprop="headline" content=(title);
+                    @if let Some(mod_date) = mod_date {
+                        p.last-updated {
+                            "Last updated: "
+                            time itemprop="dateModified" datetime=(mod_date) {
+                                (mod_date.format(&format_description!("[weekday repr:long], [day padding:none] [month repr:long] [year]"))?)
+                            }
+                            "."
+                        }
                     }
                 }
                 (content)
             }
         },
         Some("article"),
-    )
+    );
+
+    Ok(result)
 }
 
 pub fn bibliography(url: &str, bib: &Bibliography) -> Markup {
@@ -186,6 +213,7 @@ pub fn bibliography(url: &str, bib: &Bibliography) -> Markup {
         None,
         "https://games.porg.es",
         url,
+        &[],
         content,
         None,
     )
@@ -202,6 +230,43 @@ pub fn about(url: &str) -> Markup {
         None,
         "https://games.porg.es",
         url,
+        &[],
+        content,
+        None,
+    )
+}
+
+pub fn welcome(url: &str) -> Markup {
+    let content = html! {
+        p {
+            "This is a site about games, traditional and modern, that are played around the world."
+        }
+
+        p {
+            "There are two main areas on this site, of " strong { a href="/articles/" { "Articles" } }
+            " about games or families of games, and " strong { a href="/games" { "Games" } }
+            " themselves. There is also an index of " strong { a href="/game-names-index/" { "game names by language" } }
+            ", if you are trying to locate a game. Every page on this website should be considered a work in progress:"
+            " nothing is definite, and everything is subject to revision!"
+            " "
+            "You might also be interested in the " strong { a href="/about/" { "About" } } " page or perhaps"
+            " the site-wide " strong { a href="/bibliography/" { "Bibliography" } } "."
+        }
+
+        p {
+            "For other sites about games, please visit the " strong { a href="/see-also/" { "See Also" } } " page."
+        }
+    };
+
+    // TODO: recently updated/longest pages
+
+    base(
+        "Welcome",
+        None,
+        None,
+        "https://games.porg.es",
+        url,
+        &[],
         content,
         None,
     )

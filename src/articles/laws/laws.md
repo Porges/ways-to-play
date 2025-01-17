@@ -9,20 +9,18 @@ date modified: 2024-12-22
 
 ----
 
-{/* 
-#### 1254
-
-France: Louis <span class="rnum">IX</span> forbids playing chess, dice, or tables games.[@Jurisprudence5 p. 271]
- */}
+> [!todo]
+>
+> #### 1254
+> 
+> France: Louis <span class="rnum">IX</span> forbids playing chess, dice, or tables games.[@Jurisprudence5 p. 271]
 
 #### 1665
 
 France, April 21: Louis <span class="rnum">XIV</span> issues an ordinance banning:[@Jurisprudence5 p. 272]
 
 <blockquote lang="fr">
-
 … *trois dés* , le *tope & quinte* , & le *paſſe-dix* [[Passage](games/passage/passage.md)], le *quinque nove* [[Novum Quinque](games/novum-quinque/novum-quinque.md)], la *dupe* , le *biribi* , la *roulette* [[Roulette](games/roulette/roulette.md)], le *mormonique* , le *hoca* , la *baſſette* [[Basset](games/basset/basset.md)], le *pharaon* [[Faro](games/faro/faro.md)], le *pair ou non* , le *quinze* , les *petits paquets* …
-
 </blockquote>
 
 

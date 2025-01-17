@@ -31,46 +31,43 @@ date created: 2024-12-18
 date modified: 2024-12-21
 ---
 
-<p class="lead"><span class="noun aka" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with {%a ceki,Cherki cards%}. The method of play is similar to Mahjong, with the goal being to collect five sets of three cards.</p>
+<span class="noun aka" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with [Cherki cards](articles/cards/ceki/ceki.md). The method of play is similar to [Mahjong](games/mahjong/mahjong.md), with the goal being to collect five sets of three cards.
 
-{/* excerpt */}
-
-Most of the description below is drawn from @ChikiCards [p. 122], with additions
-from @TheBabas [p. 155].
+Most of the description below is drawn from @ChikiCards [p. 122], with additions from @TheBabas [p. 155].
 
 ## Equipment
 
 <span class="noun" lang="ms">Balik Satu</span> can be played by almost any number of people as long as you have enough cards. My two sources give differing amounts of cards per player. (I am inclined to prefer the middle column as it starts with the simple example of two decks for two people, even though the book suggests that up to 20 people can play with a total of 1&#x202f;200 cards!) Recall that a <span class="noun" lang="ms">Cherki</span> deck contains 60 cards, two of each type, so a ½ deck has 30 cards, one of each type.
 
 <table class="numeric">
-  <thead>
-    <tr>
-      <th rowspan="2">Players</th>
-      <th colspan="3">
-      Decks (Cards)
-      </th>
-    </tr>
-    <tr>
-      <th>from Pwee</th>
-      <th>from <cite>The Babas</cite></th>
-      <th>from @ChaquiAndPartui
-    </tr>
-  </thead>
-  <tbody>
-    <tr><th scope="row">2</th><td>2½ (150)</td><td>2 (120)</td><td>—</td></tr>
-    <tr><th scope="row">3</th><td rowspan="2">3 (180)</td><td>2½ (150)</td><td rowspan="2">2</td></tr>
-    <tr><th scope="row">4</th><td>3 (180)</td></tr>
-    <tr><th scope="row">5</th><td rowspan="2">3½ (210)</td><td>3½ (210)</td><td rowspan="2">3</td></tr>
-    <tr><th scope="row">6</th><td>4 (240)</td></tr>
-    <tr><th scope="row">7</th><td rowspan="2">4 (240)</td><td>4½ (270)</td><td rowspan="2">4</td></tr>
-    <tr><th scope="row">8</th><td>5 (300)</td></tr>
-    <tr><th scope="row">9</th><td rowspan="2">4½ (270)</td><td>5½ (330)</td><td rowspan="2">5</td></tr>
-    <tr><th scope="row">10</th><td>6 (360)</td></tr>
-    <tr><th scope="row">11</th><td rowspan="2">5 (300)</td><td>6½ (390)</td><td rowspan="2">6</td></tr>
-    <tr><th scope="row">12</th><td>7 (420)</td></tr>
-    <tr><th scope="row">13</th><td rowspan="2">5½ (330)</td><td>7½ (450)</td><td rowspan="2">7</td></tr>
-    <tr><th scope="row">14</th><td>8 (480)</td></tr>
-  </tbody>
+<thead>
+<tr>
+<th rowspan="2">Players</th>
+<th colspan="3">
+Decks (Cards)
+</th>
+</tr>
+<tr>
+<th>from Pwee</th>
+<th>from <cite>The Babas</cite></th>
+<th>from @ChaquiAndPartui</th>
+</tr>
+</thead>
+<tbody>
+<tr><th scope="row">2</th><td>2½ (150)</td><td>2 (120)</td><td>—</td></tr>
+<tr><th scope="row">3</th><td rowspan="2">3 (180)</td><td>2½ (150)</td><td rowspan="2">2</td></tr>
+<tr><th scope="row">4</th><td>3 (180)</td></tr>
+<tr><th scope="row">5</th><td rowspan="2">3½ (210)</td><td>3½ (210)</td><td rowspan="2">3</td></tr>
+<tr><th scope="row">6</th><td>4 (240)</td></tr>
+<tr><th scope="row">7</th><td rowspan="2">4 (240)</td><td>4½ (270)</td><td rowspan="2">4</td></tr>
+<tr><th scope="row">8</th><td>5 (300)</td></tr>
+<tr><th scope="row">9</th><td rowspan="2">4½ (270)</td><td>5½ (330)</td><td rowspan="2">5</td></tr>
+<tr><th scope="row">10</th><td>6 (360)</td></tr>
+<tr><th scope="row">11</th><td rowspan="2">5 (300)</td><td>6½ (390)</td><td rowspan="2">6</td></tr>
+<tr><th scope="row">12</th><td>7 (420)</td></tr>
+<tr><th scope="row">13</th><td rowspan="2">5½ (330)</td><td>7½ (450)</td><td rowspan="2">7</td></tr>
+<tr><th scope="row">14</th><td>8 (480)</td></tr>
+</tbody>
 </table>
 
 ## Play
@@ -99,11 +96,12 @@ the stock, not from a discard.
 card to win, they can “call” on their next discard. To do this, they discard and
 then flick their discarded card with their finger. If they have formed at least
 one <span lang="ms">mata</span> already, they call ‘<span
-lang="ms">tan</span>’,{%fn%}This comes from Hokkien <span lang="nan">等</span>
-<span lang="nan-Latn">tán</span> ‘wait’.{%endfn%} or else (if they are trying to
+lang="ms">tan</span>’,[^tan] or else (if they are trying to
 form a <span lang="ms">mata</span> for their last set) they call ‘<span
-lang="ms">ceki</span>’.{%fn%}From Hokkien <span lang="nan">一枝</span> ‘one
-card’.{%endfn%}
+lang="ms">ceki</span>’.[^ceki]
+
+[^tan]: This comes from Hokkien <span lang="nan">等</span> <span lang="nan-Latn">tán</span> ‘wait’.
+[^ceki]: From Hokkien <span lang="nan">一枝</span> ‘one card’.
 
 > [!figure]
 >
@@ -196,12 +194,9 @@ To the point value of the drawn card, the winner adds one point for each unmarke
 of red-stamped cards.
 
 Finally, if the player won by completing a <span lang="ms">mata</span> (i.e.
-they called ‘<span lang="ms">ceki</span>’),{%fn%}If the winner initially called
-‘<span lang="ms">ceki</span>’ and later changed their call to ‘<span
-lang="ms">tan</span>’, it does not count as calling <span lang="ms">ceki</span>.
-The rules given in @ChikiCards also award 1 point for winning after calling
-<span lang="ms">tan</span>, but this seems superfluous as the winner will always
-win at least 1 point for their <span lang="ms">mata</span>.{%endfn%} then:
+they called ‘<span lang="ms">ceki</span>’),[^initially] then:
+
+[^initially]: If the winner initially called ‘<span lang="ms">ceki</span>’ and later changed their call to ‘<span lang="ms">tan</span>’, it does not count as calling <span lang="ms">ceki</span>. The rules given in @ChikiCards also award 1 point for winning after calling <span lang="ms">tan</span>, but this seems superfluous as the winner will always win at least 1 point for their <span lang="ms">mata</span>.
 
 * if someone else drew the winning card from the stock (called <span
   lang="ms">ayam</span>, ‘chicken’), they earn an additional
@@ -212,12 +207,11 @@ win at least 1 point for their <span lang="ms">mata</span>.{%endfn%} then:
   10,[@TheBabas p. 162] or 20[@ChikiCards] points.
 
 The player is then paid their total score by <em>each</em> player. In
-Singapore[@ChikiCards] this is done by paying 10¢ per point.{%fn%}This was 5¢ a
-point in the 1970s[@TheBabas p. 162].{%endfn%}
+Singapore[@ChikiCards] this is done by paying 10¢ per point.[^in70s]
 
-In the case that a player is initially dealt a winning hand (<span
-lang="ms">kandang tangan</span> ‘cage in hand’), they win instantly and double
-the normal scoring (no calling bonuses will apply).
+[^in70s]: This was 5¢ a point in the 1970s[@TheBabas p. 162].
+
+In the case that a player is initially dealt a winning hand (<span lang="ms">kandang tangan</span> ‘cage in hand’), they win instantly and double the normal scoring (no calling bonuses will apply).
 
 ### <span lang="mcm" class="noun aka">Chaqui</span>
 
@@ -235,20 +229,19 @@ If a player completes their hand via <span lang="mcm">chiqui</span>, an identica
 
 A song about the game runs:
 
-<div class="multi">
-<p lang="mcm">
-Bom bom filo<br/>
-Nao bai djoga chiqui<br/>
-Com grande de bergonha<br/>
-Cum grandi pedrē sangui.
-</p>
-<p>
-My good good son<br/>
-Don’t go and play <span lang="mcm">chiqui</span><br/>
-With great dishonour<br/>
-With great loss of blood.
-</p>
-</div>
+> [!multi]
+>
+> > [!lang] mcm
+> > 
+> > Bom bom filo\
+> > Nao bai djoga chiqui\
+> > Com grande de bergonha\
+> > Cum grandi pedrē sangui.
+>
+> My good good son\
+> Don’t go and play <span lang="mcm">chiqui</span>\
+> With great dishonour\
+> With great loss of blood.
 
 ### <span class="noun aka" lang="ms">Balik Lima Belas</span>
 

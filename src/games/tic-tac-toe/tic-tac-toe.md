@@ -3,6 +3,8 @@ title: Tic-Tac-Toe
 mainImage: '5072574617_9afa5ee9ae_o.jpg'
 players: 2
 equipment: Pen and paper
+date created: 2024-12-22
+date modified: 2025-01-17
 ---
 
 <span class="aka">Tic-Tac-Toe</span> is a simple game for two players that is well-known to result in a draw if played ‘rationally’. Unlike most board games, pieces cannot be moved or removed once placed, making it an ideal game to play with pen & paper.
@@ -351,9 +353,10 @@ The earliest fully automated player was constructed by a Frank T. Freeland of
 Philadelphia, who described its implementation in an 1879 journal
 article.[@AutomaticTTT] According to the article, the machine was built and
 exhibited in 1878 before being moved to the University of Pennsylvania. Its
-whereabouts (if it still exists) are currently unknown.{%fn%}For more about
-Freeland, see @VictorianTTT.{%endfn%} This machine predates any other
+whereabouts (if it still exists) are currently unknown.[^freeland] This machine predates any other
 implementations by some 70 years!
+
+[^freeland]: For more about Freeland, see @VictorianTTT.
 
 > [!figure]
 >
