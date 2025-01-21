@@ -23,29 +23,29 @@ an English poet who gave himself the epithet “the Water-Poet”. His work
 <cite>Taylor’s Motto</cite> was published in 1621, and contains a list of games, as follows:
 
 <blockquote>
-The Prodigals estate, like to a flux,<br/>
-The Mercer, Draper, and the Silkman sucks:<br/>
-The Taylor, Millainer, Dogs, Drabs and Dice,<br/>
-Trey-trip, or Passage, or The most at thrice;<br/>
-At Irish, Tick-tack, Doublets, Draughts or Chesse,<br/>
-He flings his money free with carelessenesse:<br/>
-At Nouum, Mumchance, mischance, (chuse ye which<br/>
-At One and thirty, or at Poore and rich,<br/>
-Ruffe, slam, Trump, nody, whisk, hole, Sant, Newcut.<br/>
-Vnto the keeping of foure Knaues he'le put<br/>
-His whole estate, at Loadum, or at Gleeke<br/>
-At Tickle-me-quickly, he's a merry Greeke,<br/>
-At Primefisto, Post and payre, Primero,<br/>
-Maw, Whip-her-ginny, he•s a lib'rall Hero;<br/>
-At My-sow-pigg'd, and (Reader neuer doubt ye,<br/>
-He's skil'd in all games, except) Looke about ye.<br/>
-Bowles, shoue-groate, tennis, no game comes amis,<br/>
-His purse a nurse for any body is;<br/>
-Caroches, Coaches, and Tobacconists,<br/>
-All sorts of people freely from his fists<br/>
-His vaine expences daily sucke and soake,<br/>
-And his himselfe sucks onely drinke and smoake,<br/>
-And thus the Prodigall, himselfe alone,<br/>
+The Prodigals estate, like to a flux,\
+The Mercer, Draper, and the Silkman sucks:\
+The Taylor, Millainer, Dogs, Drabs and Dice,\
+Trey-trip, or Passage, or The most at thrice;\
+At Irish, Tick-tack, Doublets, Draughts or Chesse,\
+He flings his money free with carelessenesse:\
+At Nouum, Mumchance, mischance, (chuse ye which\
+At One and thirty, or at Poore and rich,\
+Ruffe, slam, Trump, nody, whisk, hole, Sant, Newcut.\
+Vnto the keeping of foure Knaues he'le put\
+His whole estate, at Loadum, or at Gleeke\
+At Tickle-me-quickly, he's a merry Greeke,\
+At Primefisto, Post and payre, Primero,\
+Maw, Whip-her-ginny, he•s a lib'rall Hero;\
+At My-sow-pigg'd, and (Reader neuer doubt ye,\
+He's skil'd in all games, except) Looke about ye.\
+Bowles, shoue-groate, tennis, no game comes amis,\
+His purse a nurse for any body is;\
+Caroches, Coaches, and Tobacconists,\
+All sorts of people freely from his fists\
+His vaine expences daily sucke and soake,\
+And his himselfe sucks onely drinke and smoake,\
+And thus the Prodigall, himselfe alone,\
 Giues suck to thousands, and himselfe sucks none.[@TaylorsMotto]
 </blockquote>
 
@@ -72,7 +72,7 @@ The named games are:
     - Trump
     - Nody
     - Whisk
-    - Hole: [My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)
+    - Hole: probably [My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)
     - Sant
     - Newcut
     - Loadum

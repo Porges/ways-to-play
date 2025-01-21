@@ -8,12 +8,10 @@ countries: ID
 subgames:
 - title: Pèi Magelang
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2025-01-21
 ---
 
-<p class="lead">
-<span lang="jav-Latn" class="noun aka">Pèi</span> (<span lang="jav" class="aka">ꦥꦺꦲꦶ</span>) was a {% a fishing-games,fishing game %} for three players from Java, which used {% a ceki %}. The goal of the game is to capture specific scoring combinations.
-</p>
+<span lang="jav-Latn" class="noun aka">Pèi</span> (<span lang="jav" class="aka">ꦥꦺꦲꦶ</span>) was a [fishing game](articles/families/fishing-games/fishing-games.md) for three players from Java, which used [Ceki cards](articles/cards/ceki/ceki.md). The goal of the game is to capture specific scoring combinations.
 
 The description below is based upon @JavaanseKaartspelen [p. 58–70].
 
@@ -31,7 +29,10 @@ The dealer (or last player, if there are only three) deals 7 cards face-down and
 
 The dealer then arranges the cards in the centre of the table by rank to make them easier to find; usually they are formed into a square around the stock pile, with nines and ones in front of the <span lang="jav-Latn">raja</span>, eights and twos in front of the <span lang="jav-Latn">patih</span>, sevens, threes, and fives in front of the <span lang="jav-Latn">unyik</span>, and sixes and fours on the side of the dealer.
 
-The top card of the stock is then turned face-up next to it. This will be the last card drawn and thus will go to the <span lang="jav-Latn">unyik</span>. The <span lang="jav-Latn">unyik</span> can then use this to plan their last move of the round.{/* Strategy: they should try to keep a matching card in hand so that TODO */}
+The top card of the stock is then turned face-up next to it. This will be the last card drawn and thus will go to the <span lang="jav-Latn">unyik</span>. The <span lang="jav-Latn">unyik</span> can then use this to plan their last move of the round.
+
+> [!todo]
+>  Strategy: they should try to keep a matching card in hand so that TODO 
 
 The <span lang="jav-Latn">patih</span> is then permitted to look at the top card of the deck, which will be the second-to-last card drawn and thus their last card of the round, but it is not shown to the other players, and is replaced upon the top of the deck.
 
@@ -207,11 +208,11 @@ In the version as played in [Magelang](https://en.wikipedia.org/wiki/Magelang),[
 
 ## Derivation of the Combinations
 
-In @JavaanseKaartspelen [p. 58] it is suggested that the name of the game comes from the Chinese game {% gameref fishing-for-hairtails %}, but that is played with (two-colour) chess playing cards, and doesn’t have any sequence collection.
+In @JavaanseKaartspelen [p. 58] it is suggested that the name of the game comes from the Chinese game [Fishing for Hairtails](games/fishing-for-hairtails/fishing-for-hairtails.md), but that is played with (two-colour) chess playing cards, and doesn’t have any sequence collection.
 
-In fact, the game is closely related to the Chinese game of {% gameref kanhu %}, and so I believe the name probably comes from the Chinese word for playing cards, <span lang="zh-Hant">牌</span> (Hokkien: <Pronounce lang="nan-Latn"  pronouncer="690518207" file="pronunciation_nan_牌.mp3">pâi</Pronounce>).
+In fact, the game is closely related to the Chinese game of [Kànhǔ](games/kanhu/kanhu.md), and so I believe the name probably comes from the Chinese word for playing cards, <span lang="zh-Hant">牌</span> (Hokkien: <Pronounce lang="nan-Latn"  pronouncer="690518207" file="pronunciation_nan_牌.mp3">pâi</Pronounce>).
 
-The combinations in particular are copied directly from the {% gameref kanhu %} scoring combinations called ‘eyes’ (<span lang="zh">眼</span>). The odd combinations of cards are explained by the historical ordering of the deck (see its article for more on this), in short, the suit of coins used to rank in reverse. White Flower derives from the half-coin card and Red Flower from the zero-coin card, so they rank above all other coins.
+The combinations in particular are copied directly from the [Kànhǔ](games/kanhu/kanhu.md) scoring combinations called ‘eyes’ (<span lang="zh">眼</span>). The odd combinations of cards are explained by the historical ordering of the deck (see its article for more on this), in short, the suit of coins used to rank in reverse. White Flower derives from the half-coin card and Red Flower from the zero-coin card, so they rank above all other coins.
 
 Given this information, we can arrange the deck as follows, and we can easily see how the combinations were arrived at:
 
@@ -579,7 +580,7 @@ Given this information, we can arrange the deck as follows, and we can easily se
 </tbody>
 </table>
 
-The scoring combinations of <span lang="jav-Latn">Pei</span> are then explained in this way, with their matching {% gameref kanhu %} combinations (I do not have names for all of them):
+The scoring combinations of <span lang="jav-Latn">Pei</span> are then explained in this way, with their matching [Kànhǔ](games/kanhu/kanhu.md) combinations (I do not have names for all of them):
 
 * <span lang="zh">駕</span> ‘carriage’, equivalent to <span lang="jav-Latn">bunci abang</span>, the highest (red-stamped) cards in each suit
 * <span lang="jav-Latn">pang kéyang</span> is made up of the second highest cards in each suit

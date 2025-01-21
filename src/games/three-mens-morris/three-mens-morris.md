@@ -10,11 +10,7 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
-<span class="aka">Three Men’s Morris</span> is an ancient {%a mill-games,mill game%} game for two players.
-</p>
-
-{/* excerpt */}
+<span class="aka">Three Men’s Morris</span> is an ancient [mill game](articles/families/mill-games/mill-games.md) for two players.
 
 ## Play
 
@@ -50,7 +46,7 @@ In 19th century Ireland, it was described as ‘universally’ played by the pea
 
 [^fn0]: Hyde[@Hyde2 p. 211] wrote this as “<span lang="ga" class="aka">cashlan gherra</span>”.
 
-{% a hjr-murray %} also claims that a distinct game called ‘<span class="aka">Nine Holes</span>’ existed,[@Murray2] but I don’t believe that it was a separate game to Three Men’s Morris, as all the references seem to track back to a single entry in Robert Nares’ <cite>Glossary</cite>.[@NaresGlossary p. 345] To me, it is the same game only played on a board that doesn’t show any lines. In any case, it is recorded as being played on the Isle of Man in 1674, when a man was [presented](https://en.wikipedia.org/wiki/Presentment) in [Malew](https://en.wikipedia.org/wiki/Malew) for “playing nine holes on Easter day before evening prayers”,[@Rothwell1674] and again in 1699 when two men were presented in [Lezayre](https://en.wikipedia.org/wiki/Lezayre) for “Makeing Nine holes with their knives upon Sunday after evening Prayer”.[@LezayrePresentments][^fn1]
+[Murray](articles/people/hjr-murray.md) also claims that a distinct game called ‘<span class="aka">Nine Holes</span>’ existed,[@Murray2] but I don’t believe that it was a separate game to Three Men’s Morris, as all the references seem to track back to a single entry in Robert Nares’ <cite>Glossary</cite>.[@NaresGlossary p. 345] To me, it is the same game only played on a board that doesn’t show any lines. In any case, it is recorded as being played on the Isle of Man in 1674, when a man was [presented](https://en.wikipedia.org/wiki/Presentment) in [Malew](https://en.wikipedia.org/wiki/Malew) for “playing nine holes on Easter day before evening prayers”,[@Rothwell1674] and again in 1699 when two men were presented in [Lezayre](https://en.wikipedia.org/wiki/Lezayre) for “Makeing Nine holes with their knives upon Sunday after evening Prayer”.[@LezayrePresentments][^fn1]
 
 [^fn1]: Their punishment being “to acknowledge their fault, and promise Reformation.”
 
@@ -66,7 +62,7 @@ Writing in 1694,[@Hyde2 p. 211] Thomas Hyde said that it was called “<span lan
 
 The game is popular throughout India: In Bengali, it has been called <span lang="bn" class="aka">তাঁত ফাঁত</span> <span lang="bn-Latn" class="aka">tā̃t phā̃t</span>[^fn3] (‘loom-[foom]’, possibly meaning something like weaving?), <span lang="bn" class="aka">তিন গুটি পাইত পাইত</span> (<span lang="bn-Latn" class="aka">tin guṭi pāit pāit</span>, ‘getting three pieces’), or simply <span lang="bn" class="aka">তিন গুটি</span> (<span lang="bn-Latn" class="aka">tina guṭi</span>) ‘three pieces’, and is played with the pieces starting on the board.
 
-[^fn3]: Given as <span lang="bn-Latn" class="aka">tant-fant</span> in older works.[@Datta, p. 167]
+[^fn3]: Given as <span lang="bn-Latn" class="aka">tant-fant</span> in older works.[@Datta p. 167]
 
 In Hindi it is called <span lang="hi" class="aka">तीन गोटी</span> (<span lang="hi-Latn" class="aka">tīn gōṭī</span>) ‘three pieces’; in Tamil <span lang="ta" class="aka">கட்ட விளையாட்டு</span> (<span lang="ta-Latn" class="aka">kaṭṭa viḷaiyāṭṭu</span>) ‘square game’ (although this is also used for other games).[@TamilCountryGames p. 59]
 
@@ -76,9 +72,9 @@ It is also played across Africa: in Madagascar it is called <span lang="mg" clas
 
 [^fn4]: In Marin’s orthography this is <span lang="so" class="aka">dʒara-badàχ</span>. It is also variously spelled <span lang="so" class="aka">jara-badàkh</span>,[@Murray2 §3.1.10, p. 40] <span lang="so" class="aka">jarabadach</span>,[@GamesOfManyNations 18], <span lang="so" class="aka">carabawg</span>.[@Murray2 §3.3.17, p. 42]
 
-In Arabic it has been called <span lang="ar" class="aka">دريس اثلاثة</span> (<span lang="ar-Latn" class="aka">drīs ath-thalātha</span>).[^fn5][@ReisebeschreibungNachArabien p. 172][@Murray2 p. 41]
+In Arabic it has been called <span lang="ar" class="aka">دريس اثلاثة</span> (<span lang="ar-Latn" class="aka">drīs ath-thalātha</span>).[^fn5][@ReisebeschreibungNachArabien 172][@Murray2 41]
 
-[^fn5]: The book has <span lang="ar-Latn">drîs et talâte</span>.
+[^fn5]: Neibuhr uses “<span lang="ar-Latn">drîs et talâte</span>”.
 
 The game is also sometimes called <span class="aka">Hopscotch</span>, in @MathematicalRecreationsMaurice [p. 290], but I think that name is better reserved for [Picaria](games/picaria/picaria.md).[^fn6]
 

@@ -2,7 +2,7 @@ use eyre::Result;
 use maud::{html, Markup, DOCTYPE};
 use time::macros::format_description;
 
-use crate::{bib_render, bibliography::Bibliography};
+use crate::{bib_render, bibliography::Bibliography, File};
 
 pub fn base(
     title: &str,
@@ -16,7 +16,7 @@ pub fn base(
 ) -> Markup {
     html! {
         (DOCTYPE)
-        html lang="en" prefix="og: http://ogp.me/ns#" {
+        html lang="en" prefix="og: https://ogp.me/ns#" {
             head {
                 meta charset="utf-8";
                 link rel="shortcut icon" type="image/png" href="/favicon.png" ;
@@ -26,7 +26,7 @@ pub fn base(
                 link rel="stylesheet" href="/fonts/charis.css" type="text/css" ;
                 link rel="stylesheet" href="/css/main.css" type="text/css" ;
                 link rel="stylesheet" href="/css/text.css" type="text/css" ;
-                link rel="canonical" href={(site_url)(page_url)} ;
+                link rel="canonical" href={(site_url)(page_url)};
                 link rel="alternate" type="application/atom+xml" title="Ways To Play Atom feed" href="/atom.xml" ;
                 meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no";
                 //meta name="generator" content="Eleventy";
@@ -35,7 +35,7 @@ pub fn base(
                 title { (title) " · Ways To Play" }
                 meta property="og:site_name" content="Ways To Play";
                 meta property="og:title" content=(title) lang=[title_lang];
-                meta property="og:url" content={"/"(page_url)};
+                meta property="og:url" content={(site_url)(page_url)};
                 @if let Some(og_type) = og_type {
                     meta property="og:type" content=(og_type);
                 }
@@ -262,6 +262,31 @@ pub fn welcome(url: &str) -> Markup {
 
     base(
         "Welcome",
+        None,
+        None,
+        "https://games.porg.es",
+        url,
+        &[],
+        content,
+        None,
+    )
+}
+
+pub fn games(url: &str, games: &[File]) -> Markup {
+    let content = html! {
+        ul {
+            @for game in games {
+                li {
+                    a href=(game.url_path) {
+                        (game.header["title"].as_str().unwrap_or("Untitled"))
+                    }
+                }
+            }
+        }
+    };
+
+    base(
+        "Games",
         None,
         None,
         "https://games.porg.es",

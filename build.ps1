@@ -1,4 +1,7 @@
 #!/bin/env pwsh
+param(
+    [switch]$watch = $false
+)
 
 $ErrorActionPreference = 'Stop'
 
@@ -12,6 +15,8 @@ $public = Join-Path $root "public"
 $src = Join-Path $root "src"
 $image_manifest = Join-Path $PSScriptRoot "images.json"
 
+New-Item -ItemType Directory -Path $public -ErrorAction SilentlyContinue > $null
+
 function Copy-StaticContent {
     Copy-Item -Path (Join-Path $root "site_root/*") -Recurse -Destination $public -Force
     $static_content = @("audio", "fonts", "small-images")
@@ -22,9 +27,9 @@ function Copy-StaticContent {
 
 function Resize-Images {
     $target_dir = Join-Path $public "img"
-    New-Item -Path $target_dir -ItemType Directory -ErrorAction SilentlyContinue
+    New-Item -Path $target_dir -ItemType Directory -ErrorAction SilentlyContinue > $null
     
-    $sizes = (300, 600, 800, 1200, 4000)
+    $target_sizes = @(300, 600, 800, 1200, 4000)
     Push-Location $src
     try {
         $files = (git ls-tree HEAD . -r -z).Split("`0") | Select-String '\.(jpe?g|svg|png)$' | ForEach-Object {
@@ -38,22 +43,50 @@ function Resize-Images {
         }
 
         Write-Host "Found $($files.Count) images to convert"
+       
+        $file_lookup = @{}
+        $files | ForEach-Object {
+            $file_lookup[[uri]::EscapeUriString($_.path)] = @{
+                hash = $_.hash
+            }
+        }
         
+        # get sizes of raster formats, quickly
+        $sizes = exiftool -json -ImageHeight -ImageWidth -r -q -ext jpg -ext jpeg -ext png . 2>$null | ConvertFrom-Json
+        foreach ($size in $sizes) {
+            # Starts with "./"
+            $path = $size.SourceFile.Substring(2)
+            $target = $file_lookup[[uri]::EscapeUriString($path)]
+            $target.width = $size.ImageWidth
+            $target.height = $size.ImageHeight
+        }
+         
+        # produce other sizes of JPEGs
         $files  | ForEach-Object -ThrottleLimit ([System.Environment]::ProcessorCount) -Parallel {
             $hash = $_.hash
             $path = $_.path
             
+            $absPath = Join-Path $using:src $path
+            
             $ext = Split-Path $path -Extension
             $origPath = Join-Path $using:target_dir "$hash$ext"
 
-            if (Test-Path $origPath) {
-                Write-Debug "Skipping $path"
-            }
-            else {
-                Write-Host "Converting $path"
+            if ((Split-Path $path -Extension) -match ".jpe?g") {
+                $rel_path = (Resolve-Path -Relative $path -RelativeBasePath $using:src).Substring(2).Replace('\', '/')
+                $meta = ($using:file_lookup)[[uri]::EscapeUriString($rel_path)]
+                $applicable_sizes = $using:target_sizes | Where-Object { $_ -lt $meta.width }
+                $meta_sizes = @{}
+                foreach ($size in $applicable_sizes) {
+                    $meta_sizes["$size"] = "/img/$hash-$size.jpg"
+                }
+                $meta.sizes = $meta_sizes
                 
-                if ((Split-Path $path -Extension) -match ".jpe?g") {
-                    $magick_args = $using:sizes | ForEach-Object { 
+                if (Test-Path $origPath) {
+                    Write-Debug "Skipping $path"
+                }
+                else {
+                    Write-Host "Converting $path"
+                    $magick_args = $applicable_sizes | ForEach-Object { 
                         @(
                             '('
                             'mpr:x'
@@ -68,29 +101,15 @@ function Resize-Images {
                     }
 
                     magick $path -write mpr:x +delete @magick_args null:
+                    New-Item -ItemType SymbolicLink -Path $origPath -Value $absPath -ErrorAction SilentlyContinue > $null
                 }
+            }
+            else {
+                Write-Host "Linking $path"
+                New-Item -ItemType SymbolicLink -Path $origPath -Value $absPath -ErrorAction SilentlyContinue > $null
+            }
+        }
 
-                Copy-Item $path $origPath -Force
-            }
-        }
-        
-        $file_lookup = @{}
-        $files | ForEach-Object {
-            $file_lookup[[uri]::EscapeUriString($_.path)] = @{
-                hash = $_.hash
-            }
-        }
-        
-        # get sizes of raster formats, quickly
-        $sizes = exiftool -json -ImageHeight -ImageWidth -r -q -ext jpg -ext jpeg -ext png . | ConvertFrom-Json
-        foreach ($size in $sizes) {
-            # Starts with "./"
-            $path = $size.SourceFile.Substring(2)
-            $target = $file_lookup[[uri]::EscapeUriString($path)]
-            $target.width = $size.ImageWidth
-            $target.height = $size.ImageHeight
-        }
-        
         # get sizes of SVGs
         $files | ForEach-Object {
             if ((Split-Path -Extension $_.path) -eq ".svg") {
@@ -122,12 +141,22 @@ function Build-Builder {
     }
 }
 
+$builder = Join-Path $root "build/target/release/wtp-build"
 function Build-HTML {
-    $builder = Join-Path $root "build/target/release/wtp-build"
     & $builder --input $src --output $public --image-manifest $image_manifest
 }
 
 Copy-StaticContent
-#Resize-Images
+# Resize-Images
 Build-Builder
-Build-HTML 
+Build-HTML
+
+if ($watch) {
+    $bg = Start-Job { miniserve $using:public --index index.html }
+    try {
+        watchexec -E RUST_LOG=info -w $src --emit-events-to file -- $builder --input $src --output $public --image-manifest $image_manifest
+    }
+    finally {
+        $bg.StopJob()
+    }
+}

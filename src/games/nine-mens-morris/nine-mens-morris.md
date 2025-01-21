@@ -65,49 +65,37 @@ When played on a board with diagonals, mills are not usually permitted to be mad
 
 ## History
 
-<div class="multi extra-wide">
-
-> [!figure]
+> [!multi-extra-wide]
+>
+> > [!figure]
+> > 
+> > ![A weathered Nine Men’s Morris board scratched into a rock.](DSCF0525.jpg)
+> >
+> > ```yaml
+> > copyrightYear: 2014
+> > ```
+> >
+> > A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
+>  
 > 
-> ![A weathered Nine Men’s Morris board scratched into a rock.](DSCF0525.jpg)
->
-> ```yaml
-> copyrightYear: 2014
-> ```
->
-> A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
- 
+> > [!figure]
+> >
+> > ![](8238351242_37e76bbc44_o.jpg)
+> >
+> > ```yaml
+> > authorGiven: "Dan"
+> > authorFamily: "Diffendale"
+> > copyrightYear: 2012
+> > license: "cc-by-nc-sa"
+> > licenseVersion: "2.0"
+> > originalUrl: "https://www.flickr.com/photos/dandiffendale/8238351242/"
+> > ```
+> >
+> > A board carved on the capital of the Athenian trophy (or tropaion, <span lang="el">τρόπαιον</span>) from Marathon, which was constructed some time after 490 <abbr>BCE</abbr> but destroyed at a later date. An image of the board carved on the decapitated capital <span lang="la">in situ</span> can be seen in @MarathonMonument [plate 32].
 
-> [!figure]
->
-> ![](8238351242_37e76bbc44_o.jpg)
->
-> ```yaml
-> authorGiven: "Dan"
-> authorFamily: "Diffendale"
-> copyrightYear: 2012
-> license: "cc-by-nc-sa"
-> licenseVersion: "2.0"
-> originalUrl: "https://www.flickr.com/photos/dandiffendale/8238351242/"
-> ```
->
-> A board carved on the capital of the Athenian trophy (or tropaion, <span lang="el">τρόπαιον</span>) from Marathon, which was constructed some time after 490 <abbr>BCE</abbr> but destroyed at a later date. An image of the board carved on the decapitated capital <span lang="la">in situ</span> can be seen in @MarathonMonument [plate 32].
+The game dates from at least the late Roman Empire or Byzantine period, and at the moment we do not have solid evidence for an earlier date.[@GamesGreekAndRoman p. 3] Earlier dates have often been proposed based upon the existence of boards carved on ancient monuments such as the Ramesseum[@AncientEgyptiansAtPlay p. 144] and the Mortuary Temple of Seti I at Qurna,[@AncientCeylon p. 644] but these are not able to be dated definitively—the monument only provides an _earliest possible_ date.[^fn0]
 
-</div>
-
-The game dates from at least the late Roman Empire or Byzantine period, and at
-the moment we do not have solid evidence for an earlier
-date.[@GamesGreekAndRoman p. 3]{%fn%}@RamatHanadiv [p. 227] describes a board
-found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<span class="noun"
-lang="he-Latn">Ḥorvat ʿAqav</span>), dated 400–600&nbsp;<abbr>CE</abbr>, while a cache of
-gaming boards found in a Roman fort at <span class="noun" lang="ar-Latn">Abu Sha’ar</span>
-that was abandoned in the late 4th century contained no mills
-boards.[@RomanGameBoards]{%endfn%} Earlier dates have often been proposed based
-upon the existence of boards carved on ancient monuments such as the
-Ramesseum[@AncientEgyptiansAtPlay p. 144] and the Mortuary Temple of Seti I at
-Qurna,[@AncientCeylon p. 644] but these are not able to be dated
-definitively—the monument only provides an <em>earliest possible</em>
-date.[^fn0]
+[^villa]: @RamatHanadiv [p. 227] describes a board found in a Byzantine villa in <span lang="he">חורבת עקב</span> (<span class="noun" lang="he-Latn">Ḥorvat ʿAqav</span>), dated 400–600&nbsp;<abbr>CE</abbr>, while a cache of gaming boards found in a Roman fort at <span class="noun" lang="ar-Latn">Abu Sha’ar</span> that was abandoned in the late 4th century contained no mills boards.[@RomanGameBoards]
 
 [^fn0]: This is also discussed at length in @SchadlerMisconceptions.
 
@@ -139,11 +127,11 @@ game.[@BoardGamesInBoatBurials p. 441]
 > Sketch and photograph of the board from the Gokstad ship.
 
 
-One of the earliest written references to the game is in the 10th century [<cite lang="ar-Latn">Kitāb al-Aghānī</cite>](https://en.wikipedia.org/wiki/Kitab_al-Aghani) (<cite lang="ar">{% isolate "كتاب الأغاني" %}</cite>, ‘book of songs’), a large collection of poems and stories assembled by [<span class="noun" lang="ar-Latn">ʾAbū l-Faraj al-Iṣfahānī</span>](https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani) (<span lang="ar">{% isolate "أبو الفرج الأصفهاني" %}</span>, 897–967). One story describes a club from the time of the poet <span class="noun" lang="ar-Latn">al-Aḥwaṣ</span> (<span lang="ar">{% isolate "الأحوص" %}</span>, 660–724), along with the board games it held for the use of its members.  According to the book, they could play <span lang="ar-Latn">shiṭranj</span> (<span lang="ar">{% isolate "شطرنج" %}</span>, chess), <span lang="ar-Latn">nard</span> (<span lang="ar">نرد</span>), or — most importantly here — <span lang="ar-Latn">qirq</span> (<span lang="ar">{% isolate 'قرق' %}</span>, morris).[@GamblingInIslam p. 481] The derivation of the name <span lang="ar-Latn">qirq</span> (<span lang="ar">قِرْقٌ</span>) is uncertain,[^fn1] but it is apparently not originally an Arabic word.[@Murray2 p. 37][^fn2]
+One of the earliest written references to the game is in the 10th century [<cite lang="ar-Latn">Kitāb al-Aghānī</cite>](https://en.wikipedia.org/wiki/Kitab_al-Aghani) (<cite lang="ar"><bdi>كتاب الأغاني</bdi></cite>, ‘book of songs’), a large collection of poems and stories assembled by [<span class="noun" lang="ar-Latn">ʾAbū l-Faraj al-Iṣfahānī</span>](https://en.wikipedia.org/wiki/Abu_al-Faraj_al-Isfahani) (<span lang="ar"><bdi>أبو الفرج الأصفهاني</bdi></span>, 897–967). One story describes a club from the time of the poet <span class="noun" lang="ar-Latn">al-Aḥwaṣ</span> (<span lang="ar"><bdi>الأحوص</bdi></span>, 660–724), along with the board games it held for the use of its members.  According to the book, they could play <span lang="ar-Latn">shiṭranj</span> (<span lang="ar"><bdi>شطرنج</bdi></span>, chess), <span lang="ar-Latn">nard</span> (<span lang="ar">نرد</span>), or — most importantly here — <span lang="ar-Latn">qirq</span> (<span lang="ar"><bdi>قرق</bdi></span>, morris).[@GamblingInIslam p. 481] The derivation of the name <span lang="ar-Latn">qirq</span> (<span lang="ar">قِرْقٌ</span>) is uncertain,[^fn1] but it is apparently not originally an Arabic word.[@Murray2 p. 37][^fn2]
 
 [^fn1]: It may also be related to the Geʽez word <span lang="gez">ቀርቂስ</span>[@LexiconLinguaeAethiopicae pp. 424–5] (<span lang="gez-Latn">qarqis</span>), referring to various games,[@ComparativeGeez p. 443] or the (Ottoman) Turkish <span lang="ota">قرق</span>/<span lang="tr">kırk</span> ‘forty (=many)’.[@DictionnaireTurcFrançais2 p. 989]
 
-[^fn2]: The Imam <span class="noun" lang="ar-Latn">ʾAbū al-Qāsim al-Rāfiʿī al-Qazwīnī</span> (<span lang="ar">{% isolate "أبو القاسم الرافعي القزويني" %}</span>, 1160–1226) would later describe <span lang="ar-Latn">qirq</span> as the “chess of the [Maghrebis”.](https://en.wikipedia.org/wiki/Maghrebis)[@GamblingInIslam p. 381] Similarly, {% gameref shax %} is sometimes referred to as “Somali chess”.
+[^fn2]: The Imam <span class="noun" lang="ar-Latn">ʾAbū al-Qāsim al-Rāfiʿī al-Qazwīnī</span> (<span lang="ar"><bdi>أبو القاسم الرافعي القزويني</bdi></span>, 1160–1226) would later describe <span lang="ar-Latn">qirq</span> as the “chess of the [Maghrebis”.](https://en.wikipedia.org/wiki/Maghrebis)[@GamblingInIslam p. 381] Similarly, [Shax](games/shax/shax.md) is sometimes referred to as “Somali chess”.
 
 Later, <span class="noun" lang="fa-Latn">Faīrūzābādī</span> (of whom, more below) would
 identify <span lang="ar-Latn">qirq</span> with <span
@@ -161,13 +149,9 @@ mill games, but also refers to loosely related games such as
 [Quantik](https://boardgamegeek.com/boardgame/286295/quantik). With that said, a
 Persian origin for the game does seem likely, given the number of ways that
 <span lang="ar-Latn">suddar</span> is rendered in Arabic
-dictionaries.{%fn%}Other versions of the name are given as <span lang="ar">سِهْ
-بَرَهٌ</span> (<span lang="ar-Latn">sih barahun</span>), <span
-lang="ar">سِيدَرَهِ</span> (<span lang="ar-Latn">sīdarahi</span>), <span
-lang="ar">سِدْرَه</span> (<span lang="ar-Latn">sidrah</span>), <span
-lang="ar">سَذْ مَرَهْ</span> (<span lang="ar-Latn">saḏ marah</span>), or <span
-lang="ar">سِدْ مَزْه</span> (<span lang="ar-Latn">sid
-mazh</span>).[@LaneTab]{%endfn%}
+dictionaries.[^arabic]
+
+[^arabic]: Other versions of the name are given as <span lang="ar">سِهْ بَرَهٌ</span> (<span lang="ar-Latn">sih barahun</span>), <span lang="ar">سِيدَرَهِ</span> (<span lang="ar-Latn">sīdarahi</span>), <span lang="ar">سِدْرَه</span> (<span lang="ar-Latn">sidrah</span>), <span lang="ar">سَذْ مَرَهْ</span> (<span lang="ar-Latn">saḏ marah</span>), or <span lang="ar">سِدْ مَزْه</span> (<span lang="ar-Latn">sid mazh</span>).[@LaneTab]
 
 From the Arabic-speaking world the game entered Spain, where <span
 lang="ar-Latn">al-qirq</span> became <span lang="es">alquerque</span>, which has
@@ -175,8 +159,9 @@ remained the Spanish name for this family of games until the present day.
 
 In France the game was in the past called <span lang="fr">marelles</span> (from
 which we get the English ‘merels’), probably deriving from a word meaning “small
-stone” or “token”.{%fn%}The <span lang="fr">marelles</span> name currently
-refers to hopscotch, due to the stones tossed upon the diagram.{%endfn%} 
+stone” or “token”.[^hopscotch]
+
+[^hopscotch]: The <span lang="fr">marelles</span> name currently refers to hopscotch, due to the stones tossed upon the diagram. 
 
 > [!figure]
 >
@@ -198,40 +183,31 @@ In the early 12th century, the game was
 mentioned in the French Rule of the Templar order (probably written between 1139
 and 1147 <abbr>CE</abbr>[@TheRuleOfTheTemplars p. 12]), as the only board game allowed
 to be played by Templar brothers. It is possible that the order picked up the
-game through their contact with the Arabic-speaking world:{%fn%}Indeed, a board
-has been found inscribed upon a stone in [<span class="noun" lang="fr">Château
-Pèrelin</span>](https://en.wikipedia.org/wiki/Ch%C3%A2teau_P%C3%A8lerin), a
-fortress constructed by the Templars in what is now Israel — although it could
-have been placed there any time since the fortress was built.[@AtlitCastle p.
-60]{%endfn%}
+game through their contact with the Arabic-speaking world:[^chateau]
 
-<div class="multi">
+[^chateau]: Indeed, a board has been found inscribed upon a stone in [<span class="noun" lang="fr">Château Pèrelin</span>](https://en.wikipedia.org/wiki/Ch%C3%A2teau_P%C3%A8lerin), a fortress constructed by the Templars in what is now Israel — although it could have been placed there any time since the fortress was built.[@AtlitCastle p. 60]
 
-<span lang="fr">Et sachies que a nul autre jeu frere dou Temple ne doit joer,
-fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans
-metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as
-eschaçons.[@LaRegleDuTemple p. 185]</span>
+> [!multi]
+>
+> > [!lang] fr
+> >
+> > Et sachies que a nul autre jeu frere dou Temple ne doit joer,
+> > fors qu’a marelles as queles chascun puet juer se il veaut por desduit sans
+> > metre gajeures. As eschas ni a tables nul frere dou Temple ne doit juer, ne as
+> > eschaçons.[@LaRegleDuTemple p. 185]
+>
+> And let it be known that a brother of the Temple should play no other game
+> except <span lang="fr">marelles</span>, which each may play if he wishes, for
+> pleasure without placing wagers. No brother should play chess, backgammon, or
+> <span lang="fr">eschaçons</span> [an unknown game].[@TheRuleOfTheTemplars p. 90]
 
-And let it be known that a brother of the Temple should play no other game
-except <span lang="fr">marelles</span>, which each may play if he wishes, for
-pleasure without placing wagers. No brother should play chess, backgammon, or
-<span lang="fr">eschaçons</span> [an unknown game].[@TheRuleOfTheTemplars p. 90]
+It is unclear _why_ mill games were permitted by the Templars, but, reading the rest of the passage (not quoted above), the intent of the Rule seems to be to prevent playing games for money — bets were allowed to be placed on games, but only with worthless items such as wooden tent pegs. Viewed in this light, perhaps mill games were considered less susceptible to gambling, and therefore permissible.
 
-</div>
+> [!todo]
+> 
+>it has been suggested (?) that the tripartite board was taken as supportive of the trinity, or reminiscent of the First Temple of Jerusalem
 
-It is unclear <em>why</em> mill games were permitted by the
-Templars{/*{%fn%}TODO: it has been suggested (?) that the tripartite board was
-taken as supportive of the trinity, or remniscent of the First Temple of
-Jerusalem.{%endfn%}*/}, but, reading the rest of the passage (not quoted above),
-the intent of the Rule seems to be to prevent playing games for money — bets
-were allowed to be placed on games, but only with worthless items such as wooden
-tent pegs. Viewed in this light, perhaps mill games were considered less
-susceptible to gambling, and therefore permissible.
-
-In 1283 it appeared in the Castilian king [Alfonso
-X](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile)’s <cite lang="es">Libro
-de los Juegos</cite> (<cite>Book of Games</cite>), where in addition to the
-standard game, rules for playing with dice are given ([see below](#with-dice)).
+In 1283 it appeared in the Castilian king [Alfonso X](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile)’s <cite lang="es">Libro de los Juegos</cite> (<cite>Book of Games</cite>), where in addition to the standard game, rules for playing with dice are given ([see below](#with-dice)).
 
 > [!figure]
 >
@@ -276,7 +252,7 @@ than is the case with the problems of chess or tables.”[@Murray p. 703]
 > originalUrl: "http://trin-sites-pub.trin.cam.ac.uk/james/viewpage.php?index=668"
 > ```
 >
-> A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board (possibly {% gameref daldos %}).
+> A 13th-century English manuscript (MS O.2.45) from Cerne Abbey shows a Nine Men’s Morris board alongside an Alquerque board and another unidentified board (possibly [Daldøs](games/daldos/daldos.md)).
 
 By examining depictions of the game in artwork, we can understand the attitude
 towards the game at the time the image was produced. In the manuscript image
@@ -320,7 +296,7 @@ Morris is evidently only suitable to be played by monkeys:
 > ```
 >
 
-The board with diagonals seems to appear first in Arabic sources;[@Murray2 p. 43] it is shown — as the only drawing — in the famous <span class="noun" lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<cite lang="ar">القاموس المحيط</cite>, ‘The Surrounding Ocean’) of [<span class="noun" lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi) (<span lang="fa">{% isolate 'فیروزآبادی' %}</span>, 1329–1414), published at the start of the 15th century.[@alQamus]
+The board with diagonals seems to appear first in Arabic sources;[@Murray2 p. 43] it is shown — as the only drawing — in the famous <span class="noun" lang="ar-Latn">al-Qamūs al-Muḥīṭ</span> dictionary (<cite lang="ar">القاموس المحيط</cite>, ‘The Surrounding Ocean’) of [<span class="noun" lang="fa-Latn">Fairūzābādī</span>](https://en.wikipedia.org/wiki/Fairuzabadi) (<span lang="fa"><bdi>فیروزآبادی</bdi></span>, 1329–1414), published at the start of the 15th century.[@alQamus]
 
 In China the game is mentioned by the Ming Dynasty author <span lang="cmn-Latn-pinyin" class="noun">Xiè Zhàozhè</span> (<span lang="zh" class="noun">谢肇淛</span>, 1567–1624 <abbr>CE</abbr>) in his <cite>Five Assorted Offerings</cite> (<cite lang="zh">五杂组</cite>),[@MerelsChina] and game-boards (almost entirely of the ‘diagonals’ type) have been found in China, starting from boards dated to the the 8–9th centuries in the [Uighur Khaganate](https://en.wikipedia.org/wiki/Uyghur_Khaganate) in what is now Mongolia, to the Balhae kingdom in the 9–10th centuries, and eventually spreading throughout the rest of China through the Liao/Song, then Jin and Yuan dynasties (10–14th centuries). It seems probable that the game reached China through the Silk Roads from the Middle East.[@MerelsChina]
 
@@ -340,13 +316,13 @@ In China the game is mentioned by the Ming Dynasty author <span lang="cmn-Latn-p
 
 In later English history the game developed an association with rusticity, often mentioned as a game played by shepherds. In such guise it famously appears — albeit relocated in time and place to a fictional ancient Athens — in Shakespeare’s [<cite>A Midsummer Night’s Dream</cite>](https://en.wikipedia.org/wiki/A_Midsummer_Night%27s_Dream) (<abbr title="circa">c.</abbr> 1595), where, thanks to a feud between Titania and Oberon (queen and king of the fairies), the natural state of the countryside is upended, and:
 
-> The ox hath therefore stretch’d his yoke in vain,<br/>
-> The ploughman lost his sweat, and the green corn<br/>
-> Hath rotted ere his youth attain’d a beard.<br/>
-> The fold stands empty in the drowned field,<br/>
-> And crows are fatted with the murrion flock;<br/>
-> **The nine men’s morris is filled up with mud,**<br/>
-> And the quaint mazes in the wanton green<br/>
+> The ox hath therefore stretch’d his yoke in vain,\
+> The ploughman lost his sweat, and the green corn\
+> Hath rotted ere his youth attain’d a beard.\
+> The fold stands empty in the drowned field,\
+> And crows are fatted with the murrion flock;\
+> **The nine men’s morris is filled up with mud,**\
+> And the quaint mazes in the wanton green\
 > For lack of tread are undistinguishable.
 
 The game can be seen in English history through its appearance in
@@ -365,7 +341,7 @@ morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation p. 497]
 > > orgName: "The Mary Rose Museum"
 > > ```
 > >
-> > A Nine Men’s Morris board alongside what seems to be a {% gameref daldos %} board, on a barrel-end from the wreck of the English warship ‘[Mary Rose](https://en.wikipedia.org/wiki/Mary_Rose)’ (1545).
+> > A Nine Men’s Morris board alongside what seems to be a [Daldøs](games/daldos/daldos.md) board, on a barrel-end from the wreck of the English warship ‘[Mary Rose](https://en.wikipedia.org/wiki/Mary_Rose)’ (1545).
 > 
 > > [!figure]
 > >
@@ -384,10 +360,9 @@ morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation p. 497]
 
 In colonial America, the game began to be played with twelve pieces (exclusively
 on the board with diagonals) and thus became the standard American form, known
-as [Twelve Men’s Morris](#twelve-mens-morris).{%fn%}Rules for a game called
-<span lang="es">alquerque de doze</span>, sometimes translated as Twelve Men’s
-Morris, are given in Alfonso X’s <cite>Book of Games</cite>, but it describes a
-game of a different form.{%endfn%}
+as [Twelve Men’s Morris](#twelve-mens-morris).[^dedoze]
+
+[^dedoze]: Rules for a game called <span lang="es">alquerque de doze</span>, sometimes translated as Twelve Men’s Morris, are given in Alfonso X’s <cite>Book of Games</cite>, but it describes a game of a different form.
 
 ### Nomenclature 
 
@@ -447,10 +422,10 @@ In other languages it has been called:
   * In Teochew it can be called <span lang="tws" class="aka">直直</span> (<span lang="tws-Latn">dig⁸ dig⁸</span>) ‘straight line’,[@Newell59] and there was a Teochew proverb that “[Chinese] chess is for immortals; straight-line is for beggars” (<span lang="tws">仙棋乞食直</span> <span lang="tws-Latn">siêng¹ gi⁵ keg⁴ ziah⁸ dig⁸</span>).[@Newell59][^fn4]
 * French: <span lang="fr" class="aka">le jeu du moulin</span> ‘the mill game’
 * Greek: <span lang="el" class="aka">τὸ τριόδι</span> ‘trio’[@MacedonianFolklore p. 295], or <span lang="el" class="aka">τριώδιον</span> ‘triodium’.[@Hyde2 p. 205]
-* German: names are based on the number nine, e.g. <span lang="de" class="aka">Neunstein</span> ‘nine stone’, <span lang="de" class="aka">Neunten Stein</span> ‘ninth stone’, <span lang="de" class="aka">Neunemahl</span> ‘nine flour’; or on the mill, e.g. <span lang="de" class="aka">Mühlespiel</span> ‘mill game’. Research by Jonas Richter indicates that the ‘nine’ names are the older form.[@RichterMerels] {/* Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”. */} In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de" class="aka">Fickmül</span>.[^fn5]
+* German: names are based on the number nine, e.g. <span lang="de" class="aka">Neunstein</span> ‘nine stone’, <span lang="de" class="aka">Neunten Stein</span> ‘ninth stone’, <span lang="de" class="aka">Neunemahl</span> ‘nine flour’; or on the mill, e.g. <span lang="de" class="aka">Mühlespiel</span> ‘mill game’. Research by Jonas Richter indicates that the ‘nine’ names are the older form.[@RichterMerels] In 1575 [Johann Fischart](https://en.wikipedia.org/wiki/Johann_Fischart) included it in his version of <cite>Gargantua</cite> as <span lang="de" class="aka">Fickmül</span>.[^fn5]
 * Gujarati: <span lang="gu" class="aka">નવ કાકરી</span> (<span lang="gu-Latn" class="aka">nav kākarī</span>) ‘nine pieces’
 * Hindi: <span lang="hi" class="aka">नवकंकरी</span> (<span lang="hi-Latn" class="aka">navakaṅkarī</span>),[@AncientIndianBoardGames] or <span lang="hi" class="aka">नव गोटी</span> (<span lang="hi-Latn" class="aka">nav gōṭī</span>), both meaning ‘nine pieces’
-* Kannada: <span lang="kn" class="aka">ನವಕಂಕರಿ</span> (<span lang="kn-Latn" class="aka">navakaṅkari</span>) ‘nine pieces’, <span lang="kn" class="aka">ಒಂಬತ್ತು ಕಾಯಿಯ ಆಟ</span> (<span lang="kn-Latn" class="aka">ombattu kāyiya āṭa</span>) ‘game of nine nuts (=pieces)’,{/* https://www.youtube.com/watch?v=Cj_199Dl57c */} or generically <span lang="kn" class="aka">ಸಾಲು (ಮಣೆ) ಆಟ</span> (<span lang="kn-Latn" class="aka">sālu (maṇe) āṭa</span>) ‘row (board) game’
+* Kannada: <span lang="kn" class="aka">ನವಕಂಕರಿ</span> (<span lang="kn-Latn" class="aka">navakaṅkari</span>) ‘nine pieces’, <span lang="kn" class="aka">ಒಂಬತ್ತು ಕಾಯಿಯ ಆಟ</span> (<span lang="kn-Latn" class="aka">ombattu kāyiya āṭa</span>) ‘game of nine nuts (=pieces)’, or generically <span lang="kn" class="aka">ಸಾಲು (ಮಣೆ) ಆಟ</span> (<span lang="kn-Latn" class="aka">sālu (maṇe) āṭa</span>) ‘row (board) game’
 * Korean: <span lang="ko" class="aka">곤질(고누)</span> (<span lang="ko-Latn" class="aka">gonjil(-gonu)</span>)[^fn6]
 * [Mono](https://en.wikipedia.org/wiki/Mono_language_(California)): <span lang="mnr" class="aka">yakamaido</span> ‘square game’[@CulinNorthAmericanIndians p. 796]
 * Ottoman Turkish: <span lang="ota" class="aka">طقوز طاش</span> (<span lang="ota-Latn" class="aka">dokuz taş</span>) ‘nine stone’, or <span lang="ota" class="aka">دقورجین</span> (<span lang="ota-Latn" class="aka">dokurġin</span>) [something to do with nine?][@Hyde2 p. 206]
@@ -458,17 +433,26 @@ In other languages it has been called:
 * Telugu: <span lang="te" class="aka">దాడి</span> (<span lang="te-Latn" class="aka">dāḍi</span>) ‘attack’
 * Urdu: <span lang="ur" class="aka">نو گوٹی</span> (<span lang="ur-Latn" class="aka">nau guṭī</span>) ‘nine pieces’[@GuptaD p. 145]
 
-[^fn3]: “Horse” is the standard term for a game piece.
+ > [!todo]
+ > 
+ > Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”.
+
+> [!todo]
+> Kannada:  https://www.youtube.com/watch?v=Cj_199Dl57c 
+
+[^fn3]: “Horse” is the usual term for a game piece.
 
 [^fn4]: Much thanks to [Brandon Seah](https://learn-teochew.github.io/) for helping to figure this transliteration out.
 
-[^fn5]: See {%a rabelais,the Gargantua article%} for more about Fischart’s list.
+[^fn5]: See [the Gargantua article](articles/lists/rabelais.md) for more about Fischart’s list.
 
 [^fn6]: Given as <span lang="ko-Latn" class="aka">kon-tjil</span> in older books.[@KoreanGames p. 102]
 
-{/*{/* Persian: دوز نه تایی
-dvz noh tʾyi
-flat 9 triads */}*/}
+> [!todo]
+>
+> Persian: دوز نه تایی
+> dvz noh tʾyi
+> flat 9 triads 
 
 > [!figure]
 >
@@ -584,13 +568,13 @@ In other countries or languages Twelve Men’s Morris has been known as:
 
 Alfonso X’s book of games describes a variant played with dice.[@AlfonsoGames]
 While it is unclear from the manuscript what the exact rules are, Ulrich
-Schädler offers the following interpretation:[@NineMensDice]{%fn%}This
-interpretation disagrees with previous interpretations given in @Murray2 and
-@Bell; see the article for full details.{%endfn%}
+Schädler offers the following interpretation:[@NineMensDice][^disagrees]
+
+[^disagrees]: This interpretation disagrees with previous interpretations given in @Murray2 and @Bell; see the article for full details.
 
 1. During the placement phase, no mills may be made.
 2. During the movement phase, each player rolls three dice before moving a
-   piece. If they roll any of the special rolls {% dice 654 %}, {% dice 633 %}, {%dice 522 %}, or {% dice 411 %}, they may ‘fly’ a piece from anywhere on the board to complete a mill (or two mills). For any other result, the player moves as normal. 
+   piece. If they roll any of the special rolls <Dice>654</Dice>, <Dice>633</Dice>, <Dice>522</Dice>, or <Dice>411</Dice>, they may ‘fly’ a piece from anywhere on the board to complete a mill (or two mills). For any other result, the player moves as normal. 
 
 
 ### Lasker Morris

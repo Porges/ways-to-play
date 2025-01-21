@@ -413,7 +413,7 @@ fn render_lstr(
 ) -> Markup {
     html! {
         (render_lstr_just_span(lstr, class, item_prop))
-        (render_lstr_alt(lstr, " [", " ]", None, alt_item_prop))
+        (render_lstr_alt(lstr, " [", "]", None, alt_item_prop))
     }
 }
 
@@ -460,7 +460,7 @@ fn render_lstr_cite(
 ) -> Markup {
     html! {
         (render_lstr_just_cite(lstr, class, item_prop))
-        (render_lstr_alt(lstr, " [", " ]", None, alt_item_prop))
+        (render_lstr_alt(lstr, " [", "]", None, alt_item_prop))
     }
 }
 

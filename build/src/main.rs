@@ -1,6 +1,14 @@
 #![recursion_limit = "512"]
 
-use std::{collections::BTreeMap, error::Error, ffi::OsStr, path::PathBuf, process, vec};
+use std::{
+    borrow::Cow,
+    collections::{BTreeMap, HashSet},
+    error::Error,
+    ffi::OsStr,
+    path::{Path, PathBuf},
+    process::{self},
+    vec,
+};
 
 use bib_render::RenderedBibliography;
 use bibliography::Bibliography;
@@ -9,6 +17,8 @@ use eyre::{bail, eyre, Context, ContextCompat, Result};
 use markdown::{mdast, ParseOptions};
 use maud::Markup;
 use serde::Deserialize;
+use tracing::{debug, info};
+use tracing_subscriber::{fmt::format::FmtSpan, EnvFilter};
 
 mod bib_render;
 mod bib_to_csl;
@@ -37,10 +47,9 @@ struct File {
     header: saphyr::Yaml,
 }
 
-struct OtherFile {
-    url_path: String,
+struct OutputFile {
+    url_path: Cow<'static, str>,
     content: Markup,
-    header: saphyr::Yaml,
 }
 
 #[derive(Default, Debug)]
@@ -59,6 +68,8 @@ struct ImageManifestEntry {
     height: usize,
     width: usize,
     url: String,
+    // size → URL
+    sizes: Option<BTreeMap<usize, String>>,
 }
 
 struct Builder {
@@ -69,7 +80,7 @@ struct Builder {
     articles: Vec<File>,
     games: Vec<File>,
     images: ImageManifest,
-    other_files: Vec<OtherFile>,
+    output_files: Vec<OutputFile>,
 }
 
 impl Builder {
@@ -82,31 +93,51 @@ impl Builder {
             output_path,
             articles: Vec::new(),
             games: Vec::new(),
-            other_files: Vec::new(),
+            output_files: Vec::new(),
             bibliography: Bibliography::default(),
             images,
         })
     }
 
-    fn load(&mut self) -> Result<(), Box<dyn Error>> {
+    fn load(&mut self, file_filter: &dyn Fn(&Path) -> bool) -> Result<(), Box<dyn Error>> {
         let target_bib = self.base_path.join("bibliography.yaml");
 
-        let converted_bib = process::Command::new("yq")
-            .args([OsStr::new("-o"), OsStr::new("json"), target_bib.as_os_str()])
-            .output()?;
+        {
+            let converted_bib = process::Command::new("yq")
+                .args([OsStr::new("-o"), OsStr::new("json"), target_bib.as_os_str()])
+                .output()
+                .context("Running `yq` to convert bibliography")?;
 
-        self.bibliography = serde_json::from_slice(&converted_bib.stdout)?;
+            self.bibliography = serde_json::from_slice(&converted_bib.stdout)?;
+
+            info!(
+                "Loaded bibliography ({} entries)",
+                self.bibliography.references.len()
+            );
+        }
 
         let csl = bib_to_csl::to_csl(&self.bibliography);
+
+        info!("Writing CSL for Obsidian plugin");
         std::fs::write(self.base_path.join("../bib.json"), csl.to_string())?;
 
-        self.articles = self.load_files("articles")?;
-        self.games = self.load_files("games")?;
+        self.articles = self.load_files("articles", file_filter)?;
+        self.games = self.load_files("games", file_filter)?;
+
+        info!(
+            "Loaded {} articles, {} games",
+            self.articles.len(),
+            self.games.len()
+        );
 
         Ok(())
     }
 
-    fn load_files(&self, rel: &str) -> Result<Vec<File>, Box<dyn Error>> {
+    fn load_files(
+        &self,
+        rel: &str,
+        filter: &dyn Fn(&Path) -> bool,
+    ) -> Result<Vec<File>, Box<dyn Error>> {
         let mut parse_options = ParseOptions::default();
         parse_options.constructs.frontmatter = true;
         parse_options.constructs.gfm_strikethrough = true;
@@ -131,6 +162,11 @@ impl Builder {
                 } else {
                     let entry_path = entry.path();
                     if entry_path.extension() == Some(OsStr::new("md")) {
+                        if !filter(&entry_path) {
+                            debug!("Skipping non-modified file {}", entry_path.display());
+                            continue;
+                        }
+
                         let data = std::fs::read_to_string(&entry_path)?;
                         // normal markdown cannot cause syntax errors
                         let content = markdown::to_mdast(&data, &parse_options)
@@ -156,7 +192,9 @@ impl Builder {
                             url_path.pop();
                         }
 
-                        let url_path = url_path.to_string_lossy().replace('\\', "/") + "/";
+                        let mut url_path = url_path.to_string_lossy().replace('\\', "/");
+                        url_path.insert(0, '/');
+                        url_path.push('/');
 
                         result.push(File {
                             file_path: entry_path,
@@ -190,49 +228,43 @@ impl Builder {
         Ok(tree)
     }
 
-    fn prepare_other_files(&mut self) -> Result<(), Box<dyn Error>> {
-        self.other_files.extend([
-            OtherFile {
-                url_path: "about".to_string(),
-                content: templates::about("about"),
-                header: saphyr::Yaml::Null,
+    fn generate_other_files(&mut self) -> Result<(), Box<dyn Error>> {
+        self.output_files.extend([
+            OutputFile {
+                url_path: "/about/".into(),
+                content: templates::about("/about/"),
             },
-            OtherFile {
-                url_path: "bibliography".to_string(),
-                content: templates::bibliography("bibliography", &self.bibliography),
-                header: saphyr::Yaml::Null,
+            OutputFile {
+                url_path: "/bibliography/".into(),
+                content: templates::bibliography("/bibliography/", &self.bibliography),
             },
-            OtherFile {
-                url_path: "".to_string(),
+            OutputFile {
+                url_path: "/".into(),
                 content: templates::welcome(""),
-                header: saphyr::Yaml::Null,
+            },
+            OutputFile {
+                url_path: "/games/".into(),
+                content: templates::games("/games/", &self.games),
             },
         ]);
 
         Ok(())
     }
 
-    fn export_article(
+    fn generate_article(
         &self,
-        article: File,
+        article: &File,
         rendered_bib: &RenderedBibliography,
         article_tree: Option<&ArticleNode>,
-    ) -> Result<()> {
+    ) -> Result<OutputFile> {
         let content = mdast_to_html::to_html(
             &self.base_path,
             &article.file_path,
-            article.content,
+            &article.content,
             rendered_bib,
             &self.images,
         )
         .wrap_err("rendering HTML")?;
-
-        let mut output_path = self.output_path.join(&article.url_path);
-        if output_path.file_name() != Some(OsStr::new("index")) {
-            output_path.push("index.html");
-        } else {
-            output_path.set_extension("html");
-        }
 
         let mut breadcrumbs = Vec::new();
         if let Some(mut tree) = article_tree {
@@ -263,37 +295,56 @@ impl Builder {
                 .wrap_err("parsing 'date modified'")?,
         );
 
-        let content = templated.wrap_err("templating content")?.into_string();
-        std::fs::create_dir_all(output_path.parent().unwrap())?;
-        std::fs::write(output_path, &content)?;
-        Ok(())
+        let content = templated.wrap_err("templating content")?;
+        Ok(OutputFile {
+            url_path: article.url_path.clone().into(),
+            content,
+        })
     }
 
-    fn generate(mut self) -> Result<(), Box<dyn Error>> {
-        println!("Generating outputs in {}", self.output_path.display());
-
+    fn generate(&mut self) -> Result<(), Box<dyn Error>> {
         let article_tree = self.build_article_tree()?;
         let rendered_bib = bib_render::to_rendered(&self.bibliography);
 
-        for article in std::mem::take(&mut self.articles) {
+        for article in &self.articles {
             let path = article.file_path.clone();
-            self.export_article(article, &rendered_bib, Some(&article_tree))
+            let output = self
+                .generate_article(article, &rendered_bib, Some(&article_tree))
                 .wrap_err_with(|| eyre!("couldn’t export {}", path.display()))?;
+
+            self.output_files.push(output);
         }
 
-        for article in std::mem::take(&mut self.games) {
+        for article in &self.games {
             let path = article.file_path.clone();
-            self.export_article(article, &rendered_bib, None)
+            let output = self
+                .generate_article(article, &rendered_bib, None)
                 .wrap_err_with(|| eyre!("couldn’t export {}", path.display()))?;
+
+            self.output_files.push(output);
         }
 
-        for other_file in self.other_files {
+        self.generate_other_files()?;
+        Ok(())
+    }
+
+    fn output(self) -> Result<(), Box<dyn Error>> {
+        info!(
+            "Generating {} outputs in {}",
+            self.output_files.len(),
+            dunce::simplified(&self.output_path).display()
+        );
+
+        for output_file in self.output_files {
             let output_path = self
                 .output_path
-                .join(&other_file.url_path)
+                .join(output_file.url_path.trim_start_matches('/'))
                 .join("index.html");
-            let content = other_file.content.into_string();
+            let content = output_file.content.into_string();
+
             std::fs::create_dir_all(output_path.parent().unwrap())?;
+
+            debug!("Writing to {}", dunce::simplified(&output_path).display());
             std::fs::write(output_path, &content)?;
         }
 
@@ -302,6 +353,11 @@ impl Builder {
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
+    tracing_subscriber::fmt::fmt()
+        .with_env_filter(EnvFilter::from_default_env())
+        .with_span_events(FmtSpan::CLOSE | FmtSpan::ENTER)
+        .init();
+
     let args = Args::parse();
 
     if let Err(e) = std::fs::create_dir_all(&args.output) {
@@ -311,14 +367,38 @@ fn main() -> Result<(), Box<dyn Error>> {
     }
 
     let mut builder = Builder::new(
-        args.input.canonicalize()?,
-        args.output.canonicalize()?,
-        args.image_manifest.canonicalize()?,
+        dunce::canonicalize(args.input)?,
+        dunce::canonicalize(args.output)?,
+        dunce::canonicalize(args.image_manifest)?,
     )?;
 
-    builder.load()?;
-    builder.prepare_other_files()?;
+    let file_filter: Box<dyn Fn(&Path) -> bool> =
+        if let Ok(events_path) = std::env::var("WATCHEXEC_EVENTS_FILE") {
+            debug!("Reading changed files: {}", events_path);
+
+            let hash_set: HashSet<PathBuf> = std::fs::read_to_string(events_path)?
+                .lines()
+                .filter_map(|l| Some(PathBuf::from(l.split_once(':')?.1)))
+                .collect();
+
+            if !hash_set.is_empty() {
+                info!(
+                    "Rebuilding {} modified files: {:?}",
+                    hash_set.len(),
+                    hash_set
+                );
+            }
+
+            Box::new(move |p: &Path| hash_set.contains(p))
+        } else {
+            Box::new(|_: &Path| true)
+        };
+
+    builder.load(&file_filter)?;
     builder.generate()?;
+    builder.output()?;
+
+    info!("Done!");
 
     Ok(())
 }

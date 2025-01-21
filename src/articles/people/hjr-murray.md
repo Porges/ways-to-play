@@ -49,10 +49,9 @@ or <i>saddeh</i> refer to simple mills, not the ‘running mill’ formation.
 <strong>§3.5.13</strong> (p. 47): al-Fīrūzābādī shows board <ins>G</ins>, not
 <del>B</del>.
 
-{/*
-<p><strong>3.5.32</strong> (p. 48): citation could be misleading there are 
-two articles by Goddard, <cite r="Goddard1901" inline /> has no reference to Trique.</p>
-*/}
+> [!todo]
+>
+> <strong>3.5.32</strong> (p. 48): citation could be misleading there are two articles by Goddard, @Goddard1901 has no reference to Trique.
 
 **§4.9.3** (p. 94): Murray mistakenly suggests that <span lang="ms">tjeki</span> (i.e. {%a ceki%}) is the same as the game <span lang="ms">chuki</span>.
 

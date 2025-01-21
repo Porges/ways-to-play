@@ -51,11 +51,11 @@ pub fn locate_defs(node: &Node) -> (BTreeMap<String, Vec<Node>>, BTreeMap<String
 pub fn to_html(
     content_root: &Path,
     file_path: &Path,
-    node: Node,
+    node: &Node,
     bibliography: &RenderedBibliography,
     images: &ImageManifest,
 ) -> Result<Markup> {
-    let (fndefs, linkdefs) = locate_defs(&node);
+    let (fndefs, linkdefs) = locate_defs(node);
     Converter {
         content_root,
         file_path,
@@ -92,7 +92,7 @@ fn index_to_string(mut index: u32) -> String {
 }
 
 impl Converter<'_> {
-    fn expand(&mut self, n: Vec<Node>) -> Result<Markup> {
+    fn expand(&mut self, n: &[Node]) -> Result<Markup> {
         Ok(html! {
             @for child in n {
                 (self.convert(false, child)?)
@@ -100,7 +100,7 @@ impl Converter<'_> {
         })
     }
 
-    fn convert_refs(&mut self, text: String) -> Result<Markup> {
+    fn convert_refs(&mut self, text: &str) -> Result<Markup> {
         static ARCHIVE_URL: LazyLock<regex::Regex> =
             LazyLock::new(|| regex::Regex::new(r"^https?://archive\.org/details/[^/]+").unwrap());
 
@@ -151,7 +151,7 @@ impl Converter<'_> {
 
         let mut missing = Vec::new();
 
-        let t1 = RE1.replace_all(&text, |m: &Captures<'_>| {
+        let t1 = RE1.replace_all(text, |m: &Captures<'_>| {
             let id = m.name("id").unwrap().as_str();
             if let Some(entry) = self.bibliography.get(id) {
                 let (cite_anchor, ref_indicator) = insert_ref(id);
@@ -229,7 +229,7 @@ impl Converter<'_> {
         }
     }
 
-    fn convert_whole(&mut self, root: Node) -> Result<Markup> {
+    fn convert_whole(&mut self, root: &Node) -> Result<Markup> {
         let result = html! {
             (self.convert(false, root)?)
             @if !self.used_bib.is_empty() {
@@ -247,17 +247,17 @@ impl Converter<'_> {
         Ok(result)
     }
 
-    fn convert(&mut self, table_head: bool, node: Node) -> Result<Markup> {
+    fn convert(&mut self, table_head: bool, node: &Node) -> Result<Markup> {
         let result = match node {
-            Node::Root(root) => self.expand(root.children)?,
+            Node::Root(root) => self.expand(&root.children)?,
             Node::Break(_) => html! { br; },
             Node::ThematicBreak(_) => html! { hr; },
             Node::Blockquote(blockquote) => self.handle_blockquote(blockquote)?,
             Node::List(list) => {
                 if list.ordered {
-                    html! { ol start=[list.start] { (self.expand(list.children)?) } }
+                    html! { ol start=[list.start] { (self.expand(&list.children)?) } }
                 } else {
-                    html! { ul { (self.expand(list.children)?) } }
+                    html! { ul { (self.expand(&list.children)?) } }
                 }
             }
             Node::InlineCode(inline_code) => {
@@ -267,17 +267,17 @@ impl Converter<'_> {
                 html! { code{ (inline_math.value) } }
             }
             Node::Delete(delete) => {
-                html! { del { (self.expand(delete.children)?) } }
+                html! { del { (self.expand(&delete.children)?) } }
             }
             Node::Emphasis(emphasis) => {
-                html! { em { (self.expand(emphasis.children)?) } }
+                html! { em { (self.expand(&emphasis.children)?) } }
             }
             Node::Strong(strong) => {
-                html! { strong { (self.expand(strong.children)?) } }
+                html! { strong { (self.expand(&strong.children)?) } }
             }
-            Node::Html(html) => maud::PreEscaped(html.value),
+            Node::Html(html) => maud::PreEscaped(html.value.to_string()),
             Node::Image(image) => {
-                html! { img src=(image.url) alt=(image.alt) title=[image.title]; }
+                html! { img src=(image.url) alt=(image.alt) title=[&image.title]; }
             }
             Node::Link(link) => {
                 let root = url::Url::parse("https://games.porg.es/").unwrap();
@@ -308,15 +308,15 @@ impl Converter<'_> {
                     .unwrap_or_else(|| url.to_string());
 
                 html! {
-                    a href=(rel_url) title=[link.title] {
-                        (self.expand(link.children)?)
+                    a href=(rel_url) title=[&link.title] {
+                        (self.expand(&link.children)?)
                     }
                 }
             }
             Node::LinkReference(_link_reference) => bail!("link reference not implemented"),
             Node::ImageReference(_image_reference) => bail!("image reference not implemented"),
             Node::Text(text) => {
-                html! { (self.convert_refs(text.value)?) }
+                html! { (self.convert_refs(&text.value)?) }
             }
             Node::Code(code) => {
                 html! {
@@ -331,7 +331,7 @@ impl Converter<'_> {
                 todo!()
             }
             Node::Heading(heading) => {
-                let children = self.expand(heading.children)?;
+                let children = self.expand(&heading.children)?;
                 match heading.depth {
                     1 => {
                         html! { h1 { (children) } }
@@ -356,7 +356,7 @@ impl Converter<'_> {
             }
             Node::Table(table) => {
                 html! {
-                    @let mut children = table.children.into_iter();
+                    @let mut children = table.children.iter();
                     table {
                         thead {
                             @if let Some(c) = children.next() {
@@ -374,7 +374,7 @@ impl Converter<'_> {
             Node::TableRow(table_row) => {
                 html! {
                     tr {
-                        @for child in table_row.children {
+                        @for child in &table_row.children {
                             (self.convert(table_head, child)?)
                         }
                     }
@@ -383,21 +383,21 @@ impl Converter<'_> {
             Node::TableCell(table_cell) => {
                 html! {
                     @if table_head {
-                        th { (self.expand(table_cell.children)?) }
+                        th { (self.expand(&table_cell.children)?) }
                     } @else {
-                        td { (self.expand(table_cell.children)?) }
+                        td { (self.expand(&table_cell.children)?) }
                     }
                 }
             }
             Node::ListItem(list_item) => {
-                html! { li { (self.expand(list_item.children)?) } }
+                html! { li { (self.expand(&list_item.children)?) } }
             }
             Node::Paragraph(paragraph) => {
                 if paragraph.children.is_empty() {
                     return Ok(Markup::default());
                 }
 
-                html! { p { (self.expand(paragraph.children)?) } }
+                html! { p { (self.expand(&paragraph.children)?) } }
             }
             Node::MdxJsxFlowElement(mdx_jsx_flow_element) => {
                 self.handle_component_flow(mdx_jsx_flow_element)?
@@ -415,7 +415,7 @@ impl Converter<'_> {
                     match children.as_slice() {
                         [Node::Paragraph(p)] => html! {
                             span.footnote-indicator { }
-                            span.footnote role="note" { (self.expand(p.children.clone())?) }
+                            span.footnote role="note" { (self.expand(&p.children.clone())?) }
                         },
                         _ => bail!(
                             "unexpected footnote content (should be one paragraph): {:?}",
@@ -437,7 +437,7 @@ impl Converter<'_> {
         Ok(result)
     }
 
-    fn handle_component_text(&mut self, text: MdxJsxTextElement) -> Result<Markup> {
+    fn handle_component_text(&mut self, text: &MdxJsxTextElement) -> Result<Markup> {
         // Some preloaded abbreviations for ease of use
         if text.name.as_deref() == Some("abbr") {
             if let [Node::Text(t)] = text.children.as_slice() {
@@ -461,32 +461,16 @@ impl Converter<'_> {
         }
 
         let result = match text.name.as_deref() {
-            Some(x) if x.chars().next().unwrap().is_ascii_lowercase() => {
-                // TODO: ugly
+            Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
+                let attributes = extract_attributes(&text.attributes)?;
                 html! {
-                    @if let Some(name) = &text.name {
-                        (maud::PreEscaped(format!("<{}", name)))
-                    }
-                    @for attr in text.attributes {
-                        @match attr {
-                            markdown::mdast::AttributeContent::Expression(mdx_jsx_expression_attribute) => (todo!()),
-                            markdown::mdast::AttributeContent::Property(mdx_jsx_attribute) =>  {
-                                (maud::PreEscaped(format!(" {}", mdx_jsx_attribute.name)))
-                                @if let Some(value) = mdx_jsx_attribute.value {
-                                    @match value {
-                                        markdown::mdast::AttributeValue::Expression(attribute_value_expression) => (todo!("{}", attribute_value_expression.value)),
-                                        markdown::mdast::AttributeValue::Literal(s) => (maud::PreEscaped(format!("=\"{}\"", s))),
-                                    }
-                                }
-                            },
-
-                        }
+                    (maud::PreEscaped(format!("<{}", el_name)))
+                    @for attr in &attributes {
+                        " " (attr.0) "=\"" (attr.1) "\""
                     }
                     (maud::PreEscaped(">"))
-                    (self.expand(text.children)?)
-                    @if let Some(name) = text.name {
-                        (maud::PreEscaped(format!("</{}>", name)))
-                    }
+                    (self.expand(&text.children)?)
+                    (maud::PreEscaped(format!("</{}>", el_name)))
                 }
             }
             Some("Pronounce") => {
@@ -519,7 +503,7 @@ impl Converter<'_> {
                 html! {
                     audio preload="none" src={"/audio/" (file)} {}
                     span class={"pronunciation" (noun)} lang=(lang) title=(title) onclick="this.previousSibling.play()" {
-                        (self.expand(text.children)?)
+                        (self.expand(&text.children)?)
                     }
                 }
             }
@@ -594,7 +578,7 @@ impl Converter<'_> {
 
                 html! {
                     span.dice {
-                        @for c in children {
+                        @for c in children.into_iter().intersperse(html! { "\u{2009}" }) {
                             (c)
                         }
                     }
@@ -606,34 +590,18 @@ impl Converter<'_> {
         Ok(result)
     }
 
-    fn handle_component_flow(&mut self, flow: MdxJsxFlowElement) -> Result<Markup> {
+    fn handle_component_flow(&mut self, flow: &MdxJsxFlowElement) -> Result<Markup> {
         let result = match flow.name.as_deref() {
-            Some(x) if x.chars().next().unwrap().is_ascii_lowercase() => {
-                // TODO: ugly
+            Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
+                let attributes = extract_attributes(&flow.attributes)?;
                 html! {
-                    @if let Some(name) = &flow.name {
-                        (maud::PreEscaped(format!("<{}", name)))
-                    }
-                    @for attr in flow.attributes {
-                        @match attr {
-                            markdown::mdast::AttributeContent::Expression(_mdx_jsx_expression_attribute) => (bail!("MDX expressions not supported")),
-                            markdown::mdast::AttributeContent::Property(mdx_jsx_attribute) =>  {
-                                (maud::PreEscaped(format!(" {}", mdx_jsx_attribute.name)))
-                                @if let Some(value) = mdx_jsx_attribute.value {
-                                    @match value {
-                                        markdown::mdast::AttributeValue::Expression(_attribute_value_expression) => (bail!("MDX expressions not supported")),
-                                        markdown::mdast::AttributeValue::Literal(s) => (maud::PreEscaped(format!("=\"{}\"", s))),
-                                    }
-                                }
-                            },
-
-                        }
+                    (maud::PreEscaped(format!("<{}", el_name)))
+                    @for attr in attributes {
+                        " " (attr.0) "=\"" (attr.1) "\""
                     }
                     (maud::PreEscaped(">"))
-                    (self.expand(flow.children)?)
-                    @if let Some(name) = flow.name {
-                        (maud::PreEscaped(format!("</{}>", name)))
-                    }
+                    (self.expand(&flow.children)?)
+                    (maud::PreEscaped(format!("</{}>", el_name)))
                 }
             }
             _ => return Err(eyre!("unknown component: {:?}", flow.name)),
@@ -642,21 +610,21 @@ impl Converter<'_> {
         Ok(result)
     }
 
-    fn handle_blockquote(&mut self, blockquote: Blockquote) -> Result<Markup> {
+    fn handle_blockquote(&mut self, blockquote: &Blockquote) -> Result<Markup> {
         if let Some(Node::Paragraph(p)) = blockquote.children.first() {
             if let Some(Node::Text(t)) = p.children.first() {
                 let trimmed = t.value.trim();
                 if trimmed == "[!aside]" {
                     return Ok(html! {
                         aside role="note" class="footnote" {
-                            (self.expand(blockquote.children.into_iter().skip(1).collect())?)
+                            (self.expand(&blockquote.children[1..])?)
                         }
                     });
                 } else if trimmed.starts_with("[!todo]") {
                     // not rendered
                     return Ok(Markup::default());
                 } else if trimmed == "[!figure]" {
-                    let mut iter = blockquote.children.into_iter().skip(1).peekable();
+                    let mut iter = blockquote.children.iter().skip(1).peekable();
 
                     let mut images = Vec::new();
                     let p = match iter.next() {
@@ -668,7 +636,7 @@ impl Converter<'_> {
                         }
                     };
 
-                    for child in p.children {
+                    for child in &p.children {
                         match child {
                             Node::Image(img) => {
                                 images.push(img);
@@ -714,10 +682,10 @@ impl Converter<'_> {
                         metadata.author_family = Some("Pollard".to_string());
                     }
 
-                    let mut caption = Vec::new();
+                    let mut caption: Vec<Node> = Vec::new();
                     for next in iter {
                         if let Node::Paragraph(p) = next {
-                            caption.push(Node::Paragraph(p));
+                            caption.push(Node::Paragraph(p.clone()));
                         } else {
                             eyre::bail!("figure callout should only contain paragraphs after images/metadata: {:?}", next);
                         }
@@ -741,7 +709,7 @@ impl Converter<'_> {
                             ImagePositions::Right => "right",
                             ImagePositions::Aside => "aside",
                         }),
-                        metadata.size.map(|s| match s {
+                        metadata.size.as_ref().map(|s| match s {
                             ImageSizes::Small => "small",
                             ImageSizes::Wide => "wide",
                             ImageSizes::ExtraWide => "extra-wide",
@@ -751,11 +719,20 @@ impl Converter<'_> {
                     .flatten()
                     .join(" ");
 
+                    let intended_width = match (&metadata.position, &metadata.size) {
+                        (None, Some(ImageSizes::ExtraWide)) => 1200,
+                        (None, Some(ImageSizes::Wide)) => 800,
+                        (None, None) => 600,
+                        (None, Some(ImageSizes::Small)) => 300,
+                        _ => 300,
+                    };
+
                     return Ok(html! {
                         @if images.len() == 1 {
                             figure class=(figure_classes) itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
                                 @let img = &images[0];
                                 @let meta = self.resolve_image(&img.url)?;
+                                @let target_url = meta.sizes.as_ref().and_then(|ss| ss.iter().filter(|(w, _)| **w <= intended_width).max_by(|(w1, _), (w2, _)| w1.cmp(w2)).map(|(_, url)| url)).unwrap_or(&meta.url);
                                 dialog.lightbox id={"lb-" (meta.hash)} {
                                     img src=(meta.url) srcset="" alt=(&img.alt) title=[&img.title] loading="lazy" width=(meta.width) height=(meta.height);
                                     div.lightbox-under {
@@ -771,13 +748,13 @@ impl Converter<'_> {
                                 a href={"#lb-" (meta.hash)} {
                                     img class={"figure-img" (noborder)}
                                         itemprop="contentUrl"
-                                        src=(meta.url) alt=(&img.alt)
+                                        src=(target_url) alt=(&img.alt)
                                         width=(meta.width) height=(meta.height)
                                         srcset="" sizes="";
                                 }
                                 figcaption {
                                     div itemprop="caption" {
-                                        (self.expand(caption)?)
+                                        (self.expand(&caption)?)
                                     }
                                     p {
                                         (copyright_notice)
@@ -799,7 +776,7 @@ impl Converter<'_> {
                                 }
                                 figcaption {
                                     div itemprop="caption" {
-                                        (self.expand(caption)?)
+                                        (self.expand(&caption)?)
                                     }
                                     p #{"TODO"} {
                                         (copyright_notice)
@@ -812,37 +789,37 @@ impl Converter<'_> {
                 } else if trimmed == "[!epigraph]" {
                     return Ok(html! {
                         blockquote.epigraph {
-                            (self.expand(blockquote.children.into_iter().skip(1).collect())?)
+                            (self.expand(&blockquote.children[1..])?)
                         }
                     });
                 } else if trimmed == "[!multi]" {
                     return Ok(html! {
                         div.multi {
-                            (self.expand(blockquote.children.into_iter().skip(1).collect())?)
+                            (self.expand(&blockquote.children[1..])?)
                         }
                     });
                 } else if trimmed == "[!multi-equal]" {
                     return Ok(html! {
                         div.multi.equal {
-                            (self.expand(blockquote.children.into_iter().skip(1).collect())?)
+                            (self.expand(&blockquote.children[1..])?)
                         }
                     });
                 } else if trimmed == "[!multi-wide]" {
                     return Ok(html! {
                         div.multi.wide {
-                            (self.expand(blockquote.children.into_iter().skip(1).collect())?)
+                            (self.expand(&blockquote.children[1..])?)
                         }
                     });
                 } else if trimmed == "[!multi-extra-wide]" {
                     return Ok(html! {
                         div.multi.extra-wide {
-                            (self.expand(blockquote.children.into_iter().skip(1).collect())?)
+                            (self.expand(&blockquote.children[1..])?)
                         }
                     });
                 } else if let Some(lang) = trimmed.strip_prefix("[!lang]") {
                     return Ok(html! {
                         div lang=(lang.trim()) {
-                            (self.expand(blockquote.children.into_iter().skip(1).collect())?)
+                            (self.expand(&blockquote.children[1..])?)
                         }
                     });
                 } else if trimmed.starts_with("[!") {
@@ -856,7 +833,7 @@ impl Converter<'_> {
 
         Ok(html! {
             blockquote {
-                (self.expand(blockquote.children)?)
+                (self.expand(&blockquote.children)?)
             }
         })
     }
@@ -984,6 +961,7 @@ const ND: char = '⊜';
 impl ImageMetadata {
     fn copyright_notice(&self) -> Markup {
         let hidden = if self.hidden { Some("hidden") } else { None };
+        let license = self.license_info();
         html! {
             span itemprop="copyrightNotice" hidden=[hidden] {
                 @if !matches!(self.license, Some(License::Cc0)) {
@@ -999,9 +977,12 @@ impl ImageMetadata {
                     } @else {
                         (copyright_holder)
                     }
-                    ", "
+
+                    @if !license.0.is_empty() {
+                        ", "
+                    }
                 }
-                (self.license_info())
+                (license)
                 @if let Some(identifier) = &self.identifier {
                     ": " span.image-identifier { (identifier) }
                 }
@@ -1137,6 +1118,30 @@ impl ImageMetadata {
             ),
         }
     }
+}
+
+fn extract_attributes(attributes: &[AttributeContent]) -> Result<Vec<(&str, &str)>> {
+    attributes
+        .iter()
+        .map(|attr| match attr {
+            AttributeContent::Expression(mdx_jsx_expression_attribute) => bail!(
+                "MDX expressions not supported: {:?}",
+                mdx_jsx_expression_attribute
+            ),
+            AttributeContent::Property(mdx_jsx_attribute) => match &mdx_jsx_attribute.value {
+                Some(value) => match value {
+                    AttributeValue::Expression(attribute_value_expression) => {
+                        bail!(
+                            "MDX expressions not supported: {:?}",
+                            attribute_value_expression
+                        )
+                    }
+                    AttributeValue::Literal(s) => Ok((mdx_jsx_attribute.name.as_str(), s.as_str())),
+                },
+                None => bail!("attribute value required: {:?}", mdx_jsx_attribute),
+            },
+        })
+        .collect::<Result<Vec<_>>>()
 }
 
 fn yaml_to_json(input: Vec<saphyr::Yaml>) -> Result<serde_json::Value> {

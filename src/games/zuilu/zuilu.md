@@ -6,6 +6,8 @@ countries: CN
 equipment: Dice game
 players: any
 mainImage: 52423713.jpg
+date created: 2024-12-22
+date modified: 2025-01-21
 ---
 
 <span lang="cmn-Latn-pinyin" class="noun aka">Zuì Lǜ</span> (<span lang="zh" class="aka">醉綠</span>, ‘drunken green’) was a very old Chinese drinking game from the late Ming period that is played with five dice. At a later stage it was known as <span lang="zh" class="aka">合歡</span> <span lang="cmn-Latn-pinyin" class="noun aka">Héhuān</span> ‘happy union’.[@BettingOnEmpire p. 42]
@@ -44,7 +46,9 @@ The general scheme is that rolling 5-of-a-kind gives out 5 drinks, 4-of-a-kind 3
 
 Rolling the ‘competition’ outcome means that there is some comparison done involving the ‘point’ of the roll (the sum of the two dice that are not part of the triple). However, I am not sure at the moment how this works.
 
-{%aside%}Some translations below are from @PersonalLuck [p. 426].{%endaside%}
+> [!aside]
+> 
+> Some translations below are from @PersonalLuck [p. 426].
 
 <table>
 <thead>

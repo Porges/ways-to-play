@@ -18,7 +18,7 @@ date created: 2024-12-18
 date modified: 2025-01-17
 ---
 
-<span lang="jav-Latn" class="noun aka">Sampèn</span> is a simple luck-based gambling game played in Java using [Ceki](articles/cards/ceki/ceki.md) cards.[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
+<span lang="jav-Latn" class="noun aka">Sampèn</span> is a simple luck-based gambling game played in Java using [Ceki cards](articles/cards/ceki/ceki.md).[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
 
 ## The Game
 
