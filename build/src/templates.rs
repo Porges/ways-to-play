@@ -1,15 +1,19 @@
-use std::borrow::{Borrow, Cow};
+use std::borrow::Cow;
 
-use eyre::Result;
+use eyre::{Context, Result};
 use itertools::Itertools;
 use maud::{html, Markup, DOCTYPE};
 use time::macros::format_description;
 use url::Url;
 
-use crate::{bib_render, bibliography::Bibliography, File};
+use crate::{bib_render, bibliography::Bibliography};
 
 pub struct Templater {
     site_url: Url,
+}
+pub struct OutputFile {
+    pub url_path: Cow<'static, str>,
+    pub content: Markup,
 }
 
 pub trait BaseMetadata {
@@ -65,9 +69,13 @@ impl Templater {
         metadata: &dyn BaseMetadata,
         breadcrumbs: &[(&str, Option<&str>)],
         content: Markup,
-    ) -> Markup {
-        let url = self.site_url.join(metadata.url_path()).unwrap();
-        html! {
+    ) -> Result<OutputFile> {
+        let url = self
+            .site_url
+            .join(metadata.url_path())
+            .wrap_err("building canonical url")?;
+
+        let content = html! {
             (DOCTYPE)
             html lang="en" prefix="og: https://ogp.me/ns#" {
                 head {
@@ -203,7 +211,12 @@ impl Templater {
                     }
                 }
             }
-        }
+        };
+
+        Ok(OutputFile {
+            url_path: metadata.url_path().to_owned().into(),
+            content,
+        })
     }
 
     pub fn article<T: ArticleMetadata + BaseMetadata>(
@@ -211,8 +224,8 @@ impl Templater {
         article: &T,
         content: Markup,
         breadcrumbs: &[(&str, Option<&str>)],
-    ) -> Result<Markup> {
-        let result = self.base(
+    ) -> Result<OutputFile> {
+        self.base(
             article,
             breadcrumbs,
             html! {
@@ -232,12 +245,10 @@ impl Templater {
                     (content)
                 }
             },
-        );
-
-        Ok(result)
+        )
     }
 
-    pub fn bibliography(&self, bib: &Bibliography) -> Markup {
+    pub fn bibliography(&self, bib: &Bibliography) -> Result<OutputFile> {
         let content = html! {
             form {
                 label for="sort-selector" { "Sort by:" }
@@ -262,7 +273,7 @@ impl Templater {
         )
     }
 
-    pub fn welcome(&self) -> Markup {
+    pub fn welcome(&self) -> Result<OutputFile> {
         let content = html! {
             p {
                 "This is a site about games, traditional and modern, that are played around the world."
@@ -296,7 +307,10 @@ impl Templater {
         )
     }
 
-    pub fn games<T: BaseMetadata + ArticleMetadata + GameMetadata>(&self, games: &[T]) -> Markup {
+    pub fn games<T: BaseMetadata + ArticleMetadata + GameMetadata>(
+        &self,
+        games: &[T],
+    ) -> Result<OutputFile> {
         let games_all = games.iter().sorted_by_key(|g| g.title());
 
         let content = html! {

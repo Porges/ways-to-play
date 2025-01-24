@@ -17,7 +17,7 @@ use eyre::{bail, eyre, Context, ContextCompat, OptionExt, Result};
 use markdown::{mdast, ParseOptions};
 use maud::Markup;
 use serde::Deserialize;
-use templates::{ArticleMetadata, BaseMetadata, GameMetadata, Templater};
+use templates::{ArticleMetadata, BaseMetadata, GameMetadata, OutputFile, Templater};
 use tracing::{debug, info, warn};
 use tracing_subscriber::{fmt::format::FmtSpan, EnvFilter};
 use url::Url;
@@ -183,11 +183,6 @@ impl std::borrow::Borrow<ArticleHeader> for GameHeader {
     fn borrow(&self) -> &ArticleHeader {
         &self.article_meta
     }
-}
-
-struct OutputFile {
-    url_path: Cow<'static, str>,
-    content: Markup,
 }
 
 #[derive(Default, Debug)]
@@ -404,18 +399,15 @@ impl Builder {
                 &self.load_file::<ArticleHeader>(self.base_path.join("about.md"))?,
                 None,
             )?,
-            OutputFile {
-                url_path: "/bibliography/".into(),
-                content: self.templater.bibliography(&self.bibliography),
-            },
-            OutputFile {
-                url_path: "/".into(),
-                content: self.templater.welcome(),
-            },
-            OutputFile {
-                url_path: "/games/".into(),
-                content: self.templater.games(&self.games),
-            },
+            self.templater
+                .bibliography(&self.bibliography)
+                .wrap_err("generating bibliography")?,
+            self.templater
+                .welcome()
+                .wrap_err("generating welcome page")?,
+            self.templater
+                .games(&self.games)
+                .wrap_err("generating games page")?,
         ]);
 
         Ok(())
@@ -450,15 +442,9 @@ impl Builder {
             }
         }
 
-        let content = self
-            .templater
+        self.templater
             .article(article, content, &breadcrumbs)
-            .wrap_err("templating content")?;
-
-        Ok(OutputFile {
-            url_path: article.url_path.to_string().into(),
-            content,
-        })
+            .wrap_err("templating article")
     }
 
     fn generate(&mut self) -> Result<(), Box<dyn Error>> {
@@ -467,7 +453,7 @@ impl Builder {
 
         for article in &self.articles {
             let output = self
-                .generate_article(&article, Some(&article_tree))
+                .generate_article(article, Some(&article_tree))
                 .wrap_err_with(|| eyre!("couldn’t export {}", article.file_path.display()))?;
 
             output_files.push(output);
