@@ -3,7 +3,6 @@
 use std::{
     borrow::{Borrow, Cow},
     collections::{BTreeMap, HashSet},
-    error::Error,
     ffi::OsStr,
     path::{Path, PathBuf},
     process::{self},
@@ -11,7 +10,6 @@ use std::{
 };
 
 use bib_render::RenderedBibliography;
-use bibliography::Bibliography;
 use clap::Parser;
 use eyre::{bail, eyre, Context, ContextCompat, OptionExt, Result};
 use markdown::{mdast, ParseOptions};
@@ -211,7 +209,6 @@ struct Builder {
 
     templater: Templater,
 
-    bibliography: Bibliography,
     rendered_bibliography: RenderedBibliography,
 
     articles: Vec<File<ArticleHeader>>,
@@ -246,7 +243,6 @@ impl Builder {
             articles: Vec::new(),
             games: Vec::new(),
             output_files: Vec::new(),
-            bibliography: Bibliography::default(),
             rendered_bibliography: RenderedBibliography::default(),
             images,
             parse_options,
@@ -256,22 +252,20 @@ impl Builder {
     fn load(&mut self, drafts: bool, file_filter: &dyn Fn(&Path) -> bool) -> Result<()> {
         let target_bib = self.base_path.join("bibliography.yaml");
 
-        {
-            let converted_bib = process::Command::new("yq")
-                .args([OsStr::new("-o"), OsStr::new("json"), target_bib.as_os_str()])
-                .output()
-                .context("Running `yq` to convert bibliography")?;
+        let converted_bib = process::Command::new("yq")
+            .args([OsStr::new("-o"), OsStr::new("json"), target_bib.as_os_str()])
+            .output()
+            .context("Running `yq` to convert bibliography")?;
 
-            self.bibliography = serde_json::from_slice(&converted_bib.stdout)?;
-            self.rendered_bibliography = bib_render::to_rendered(&self.bibliography);
+        let bibliography = serde_json::from_slice(&converted_bib.stdout)?;
+        self.rendered_bibliography = bib_render::to_rendered(&bibliography);
 
-            info!(
-                "Loaded bibliography ({} entries)",
-                self.bibliography.references.len()
-            );
-        }
+        info!(
+            "Loaded bibliography ({} entries)",
+            bibliography.references.len()
+        );
 
-        let csl = bib_to_csl::to_csl(&self.bibliography);
+        let csl = bib_to_csl::to_csl(&bibliography);
 
         info!("Writing CSL for Obsidian plugin");
         std::fs::write(self.base_path.join("../bib.json"), csl.to_string())?;
@@ -402,7 +396,7 @@ impl Builder {
                 None,
             )?,
             self.templater
-                .bibliography(&self.bibliography)
+                .bibliography(&self.rendered_bibliography)
                 .wrap_err("generating bibliography")?,
             self.templater
                 .welcome()

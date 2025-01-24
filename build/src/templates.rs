@@ -6,7 +6,7 @@ use maud::{html, Markup, DOCTYPE};
 use time::macros::format_description;
 use url::Url;
 
-use crate::{bib_render, bibliography::Bibliography};
+use crate::bib_render::RenderedBibliography;
 
 pub struct Templater {
     site_url: Url,
@@ -248,7 +248,7 @@ impl Templater {
         )
     }
 
-    pub fn bibliography(&self, bib: &Bibliography) -> Result<OutputFile> {
+    pub fn bibliography(&self, bib: &RenderedBibliography) -> Result<OutputFile> {
         let content = html! {
             form {
                 label for="sort-selector" { "Sort by:" }
@@ -260,7 +260,17 @@ impl Templater {
                     option value="refs asc" { "number of references (least first)" }
                 }
             }
-            (bib_render::render_whole_bib(bib))
+            p.informational {
+                (bib.len()) " works"
+            }
+            ul.reference-list #ref-list {
+                @for reference in bib.values() {
+                    @let refs = 0; // TODO
+                    li data-year=[&reference.iso_date] data-name=(reference.name_key) data-refs=(refs) {
+                        (reference.reference)
+                    }
+                }
+            }
         };
 
         self.base(

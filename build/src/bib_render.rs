@@ -13,30 +13,10 @@ use crate::{
     nvec::OneOrMore,
 };
 
-pub fn render_whole_bib(bib: &Bibliography) -> Markup {
-    html! {
-        p.informational {
-            (bib.references.len()) " works"
-        }
-        ul.reference-list #ref-list {
-            @for (key, reference) in &bib.references {
-                @let year = reference.iso_date();
-                @let name =
-                    reference.authors().first().map(|a| format!("{} {}", a.family.as_deref().unwrap_or_default(), a.given))
-                    .or_else(|| reference.editors().first().map(|a| format!("{} {}", a.family.as_deref().unwrap_or_default(), a.given)))
-                    .or_else(|| reference.publisher().map(|l| l.value.clone()))
-                    .unwrap_or_default();
-
-                @let refs = 0; // TODO
-                li data-year=[year] data-name=(name) data-refs=(refs) {
-                    (render_ref(key, reference))
-                }
-            }
-        }
-    }
-}
-
 pub struct RenderedEntry {
+    pub iso_date: Option<String>,
+    pub name_key: String,
+
     pub reference: Markup,
     pub inline_cite: Option<Markup>,
     pub url: Option<String>,
@@ -49,10 +29,29 @@ pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
     for (key, reference) in &bib.references {
         let inline_cite = inline_cite(reference);
         let url = reference.common().url.clone();
+        let iso_date = reference.iso_date();
+
+        // generate name sort key
+        let name_key = reference
+            .authors()
+            .first()
+            .map(|a| format!("{} {}", a.family.as_deref().unwrap_or_default(), a.given))
+            .or_else(|| {
+                reference
+                    .editors()
+                    .first()
+                    .map(|a| format!("{} {}", a.family.as_deref().unwrap_or_default(), a.given))
+            })
+            .or_else(|| reference.publisher().map(|l| l.value.clone()))
+            .unwrap_or_default();
+
         let reference = render_ref(key, reference);
+
         result.insert(
             key.clone(),
             RenderedEntry {
+                iso_date,
+                name_key,
                 reference,
                 inline_cite,
                 url,
