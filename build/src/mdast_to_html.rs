@@ -17,9 +17,9 @@ use crate::{
     ImageManifest, ImageManifestEntry,
 };
 
-pub fn get_header(node: &Node) -> Option<Yaml> {
+pub fn get_header(node: &Node) -> Option<&Yaml> {
     match node {
-        Node::Yaml(yaml) => Some(yaml.clone()),
+        Node::Yaml(yaml) => Some(yaml),
         n => n
             .children()
             .and_then(|c| c.iter().filter_map(get_header).next()),

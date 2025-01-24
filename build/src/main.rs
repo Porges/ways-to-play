@@ -325,16 +325,18 @@ impl Builder {
         let data = std::fs::read_to_string(&file_path)?;
         // normal markdown cannot cause syntax errors
         let content = markdown::to_mdast(&data, &self.parse_options)
-            .map_err(|e| format!("couldn't parse {}: {e}", file_path.display()))
-            .unwrap();
-        let header = mdast_to_html::get_header(&content).unwrap();
+            .map_err(|e| eyre!("couldn't parse {}: {e}", file_path.display()))?;
+
+        let header =
+            mdast_to_html::get_header(&content).ok_or_eyre("missing YAML header in file")?;
+
         let header = saphyr::Yaml::load_from_str(&header.value)
-            .unwrap()
+            .wrap_err("parsing YAML header")?
             .into_iter()
             .next()
-            .unwrap()
+            .ok_or_eyre("empty YAML header")?
             .into_hash()
-            .unwrap();
+            .ok_or_eyre("YAML header wasn't a hash")?;
 
         let mut header = header
             .into_iter()
@@ -345,12 +347,12 @@ impl Builder {
             .wrap_err_with(|| eyre!("parsing metadata in {}", file_path.display()))?;
 
         if let Some(k) = header.keys().next() {
+            // warn about one unused key per file
             warn!(
                 "unused YAML metadata key `{}` in {}",
                 k,
                 file_path.display()
             );
-            // warn about one unused key per file
         }
 
         let rel_path = file_path.strip_prefix(&self.base_path)?;
