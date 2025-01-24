@@ -5,8 +5,8 @@ originalTitle: <span lang="ja">八八</span>
 equipment: Card game (Hanafuda)
 draft: true
 players:
-    min: 3
-    max: 8
+   min: 3
+   max: 8
 countries: JP
 date created: 2024-12-18
 date modified: 2024-12-21
@@ -77,8 +77,7 @@ Three pairs from three different months.[^fn2]
 
 <dt><span lang="ja-Latn">haneken</span> &bull; <span lang="ja">はねけん</span> &bull; 2–2–3</dt>
 <dd>
-Three cards of one month, and two pairs from two different months.{%fn%}Also written as <span lang="ja">はねけん三</span>, <span lang="ja">二二三</span>, <span lang="ja">けんぎん</span>, <span lang="ja">八子ケン</span>,
-<span lang="ja">跳劒</span>, <span lang="ja">羽見(ン)三</span>, <span lang="ja">ハネケン</span>.{%endfn%}
+Three cards of one month, and two pairs from two different months.[^alsowritten]
 </dd>
 
 <dt><span lang="ja-Latn">ichi-ni-shi</span> &bull; <span lang="ja">一二四</span> &bull; 1–2–4</dt>
@@ -96,6 +95,8 @@ All four cards of the same month, and three cards of another month.[^fn4]
 [^fn4]:  Also written <span lang="ja">𛁈さう</span>.
 
 </dl>
+
+[^alsowritten]: Also written as <span lang="ja">はねけん三</span>, <span lang="ja">二二三</span>, <span lang="ja">けんぎん</span>, <span lang="ja">八子ケン</span>, <span lang="ja">跳劒</span>, <span lang="ja">羽見(ン)三</span>, <span lang="ja">ハネケン</span>.
 
 Combinations based upon <span lang="ja-Latn">kasu</span> cards. Remember that all Willow (November) cards count as <span lang="ja-Latn">kasu</span> in this game:
 
@@ -329,8 +330,8 @@ The <span lang="ja-Latn">yaku</span> can also be called <span lang="ja-Latn">yor
 >
 > ```yaml
 > size: extra-wide
-> originalUrl: 'https://collections.mfa.org/objects/217240',
-> orgName: 'Museum of Fine Arts Boston',
+> originalUrl: 'https://collections.mfa.org/objects/217240'
+> orgName: 'Museum of Fine Arts Boston'
 > license: 'cc0' 
 > ```
 >

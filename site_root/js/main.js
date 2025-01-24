@@ -52,7 +52,6 @@ addEventListener('DOMContentLoaded', () => {
   function runSort(value) {
     const parts = value.split(' ');
     const keys = parts[0].split(',').map(key => `data-${key}`);
-    const collator = new Intl.Collator('en', { numeric: true, ignorePunctuation: true });
     const multiplier = parts[1] === 'desc' ? -1 : 1;
     const list = document.getElementById('ref-list');
     let children = Array.prototype.slice.call(list.children);
@@ -84,10 +83,64 @@ addEventListener('DOMContentLoaded', () => {
   }
 
   const selector = document.getElementById('sort-selector');
+  if (!selector) return;
+
   selector.addEventListener('change', () => handleSelect(selector.value));
 
   const params = new URLSearchParams(window.location.search);
   const sort = params.get('sort') || 'name,year';
   selector.value = sort;
   handleSelect(selector.value);
+});
+
+// Games sorter
+addEventListener('DOMContentLoaded', () => {
+  const form = document.getElementById('game-form');
+  if (!form) return;
+  
+  const selects = form.getElementsByTagName('select');
+  for (const select of selects) {
+    select.addEventListener('change', () => handleSelect(select));
+  }
+  
+  runFilter();
+  
+  function handleSelect(select) {
+    const params = new URLSearchParams(window.location.search);
+    if (!select.value) {
+      params.delete(select.name);
+    } else {
+      params.set(select.name, select.value);
+    }
+
+    window.history.pushState('', '', '?' + params.toString());
+    runFilter();
+  }
+  
+  function runFilter() {
+    const params = new URLSearchParams(window.location.search);
+
+    /** @type {Map<string, string>} */
+    const attrFilter = new Map(); 
+    for (const select of selects) {
+      const param = params.get(select.name);
+      if (param) {
+        attrFilter.set(`data-${select.name}`, param);
+      }
+    }
+    
+    const games = document.getElementById('games');
+    for (const game of games.children) {
+      let show = true;
+      for (const [key, value] of attrFilter) {
+        if (game.getAttribute(key) !== value) {
+          show = false;
+          break;
+        }
+      }
+      
+      game.hidden = !show;
+    }
+  }
+
 });

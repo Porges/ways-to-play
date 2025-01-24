@@ -4,6 +4,8 @@ equipment: Card game (standard deck)
 draft: true
 subgames:
 - title: Royal Casino
+date created: 2024-12-18
+date modified: 2025-01-23
 ---
 
 Called <span lang="sm">suipi</span> in Samoa,[cite?] and similarly <span lang="tpi">swip</span> in New Guinea.[@ThreeNativeCardGames p. 51]
@@ -30,7 +32,7 @@ With slightly different rules: Whip (Belgium), Sip (Northern India), Sweep (Paki
 
 ## Variants
 
-### Royal Casino
+### <span id="royal-casino">Royal Casino</span>
 
 Refs: [@CardGamesAroundTheWorld, p. 88] [@CasinoFromNowhere p. 8]
 

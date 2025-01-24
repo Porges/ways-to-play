@@ -468,6 +468,12 @@ sup.ordinal {
     font-variant-numeric: ordinal;
 }
 
+/*** Numbers in ruler names ***/
+
+.rnum {
+    font-variant-caps: all-small-caps;
+}
+
 /*** Abbreviations ***/
 
 abbr {

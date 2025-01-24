@@ -1,16 +1,14 @@
 ---
 title: About
-layout: layout.11ty.js
 bodyType: http://schema.org/AboutPage
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2025-01-24
 ---
 
-<article>
-
-<p className="lead">This is a site about games and how to play them.</p>
+This is a site about games and how to play them.
 
 ## Why?
+
 As Alan Ferg says in @PlayingCardsOfTheApaches [p. 35]:
 
 > In the introductory remarks to her encyclopedic <em>All Cards on the
@@ -39,21 +37,31 @@ cultures and other times.
 > In order to form a just estimation of the character of any particular people,
 > it is absolutely necessary to investigate the sports and pastimes most
 > generally prevalent among them.
-> <footer>Joseph Strutt (in @Strutt)</footer>
+>
+> <footer>
+> Joseph Strutt (in @Strutt)
+> </footer>
 
 > A revolution can destroy cathedrals, but I cannot see how it will deter
 > children from playing with marbles.
-> <footer>Marcel Griaule (as translated in @EldersCathedrals [p. 191])</footer>
+>
+> <footer>
+> Marcel Griaule (as translated in @EldersCathedrals [p. 191])
+> </footer>
 
 Perhaps I am best aligned with [Thomas Hyde](https://en.wikipedia.org/wiki/Thomas_Hyde):
 
-<div class="multi">
-
-<blockquote lang="la">Hæc enim otiando & quaſi ludendo ſcripſi; quamvis aliàs non ſim egregius Luſor, nec eo exercitii genere delecter: quam autem alii voluptatem Ludos exercendo inſectantur eâque fruuntur, eandem ego eorundem Hiſtoriam ſcribendo, & Antiquorum de eis vocabula & ſententias explicando & enucleando, amplector.</blockquote>
-
-<blockquote>I am not an outstanding player, nor do I get much pleasure from this kind of practice; but the enjoyment which others derive from playing games I get from writing their history and from unravelling the name of the Ancients for them and from opinions of them.<footer>(as translated in @Keats_1 [p. 33])</footer></blockquote>
-
-</div>
+> [!multi]
+>
+> > [!lang] la
+> >
+> > Hæc enim otiando & quaſi ludendo ſcripſi; quamvis aliàs non ſim egregius Luſor, nec eo exercitii genere delecter: quam autem alii voluptatem Ludos exercendo inſectantur eâque fruuntur, eandem ego eorundem Hiſtoriam ſcribendo, & Antiquorum de eis vocabula & ſententias explicando & enucleando, amplector.
+> 
+> > I am not an outstanding player, nor do I get much pleasure from this kind of practice; but the enjoyment which others derive from playing games I get from writing their history and from unravelling the name of the Ancients for them and from opinions of them.
+> >
+> > <footer>
+> > (as translated in @Keats_1 [p. 33])
+> > </footer>
 
 ## A note on languages…
 
@@ -125,5 +133,3 @@ The inline SVG dice images were made by me using [NKS02 by Umihotaru](https://um
 The font used for other emoji not covered by fonts mentioned above is [Noto Emoji](https://fonts.google.com/noto/specimen/Noto+Emoji/about), licensed under the [SIL Open Font License 1.1](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL).
 
 The font used for ISBN numbers is [OCR-B produced by Matthew Skala](https://tsukurimashou.osdn.jp/ocr.php.en), and released under GPL version 3 (with an exception for using the font in documents).
-
-</article>

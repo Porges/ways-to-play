@@ -15,6 +15,8 @@ subgames:
   titleLang: yue-Latn-jyutping
   countries: CN,HK
   originalTitle: 猜枚
+date created: 2024-12-18
+date modified: 2025-01-23
 ---
 
 This is a finger-guessing game which English is usually known by its Italian name of “<span class="aka" lang="it">morra</span>”.[@MacedonianFolklore p. 297] However, it has been around for a long time and very similar games are played in many countries throughout the world; in Latin it was known as <span lang="la" class="aka">micatio</span>[@StudyOfGames p.  65] or <span lang="la" class="aka">micare digitis</span>.[@IlGiuocoDellaMorra]
@@ -30,7 +32,7 @@ In Lombardy it was called <span lang="lmo" class="aka">buttàre al tocco</span>.
 
 To play the game, both players stand facing each other. They simultaneously raise their hands with 0–5 fingers showing, and call out the **total** number of fingers that they think will be showing. If they get this correct, they are the winner.
 
-see correspondence [@GameOfMicatioDigitorum] [@MicatioDigitorumLetter][@MicatioDigitorumDescribed] (some of which is about {% gameref buck-buck %})
+see correspondence [@GameOfMicatioDigitorum] [@MicatioDigitorumLetter][@MicatioDigitorumDescribed] (some of which is about [Buck, Buck](games/buck-buck/buck-buck.md))
 
 > [!figure]
 >

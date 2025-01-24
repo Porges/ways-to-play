@@ -1,6 +1,8 @@
 ---
 title: Four-Colour cards
 draft: true
+date created: 2024-12-18
+date modified: 2025-01-23
 ---
 
 Etc etc

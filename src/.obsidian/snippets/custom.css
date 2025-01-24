@@ -1,0 +1,17 @@
+span[lang]:not(.noun):not([lang="zh"]):not([lang="ja"]):not([lang="nan"]):not([lang="yue"]) {
+    font-style: italic;
+}
+
+span[lang] {
+    color: seagreen;
+}
+
+div.multi {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+Pronounce {
+    text-decoration: underline black;
+}

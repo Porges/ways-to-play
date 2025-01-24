@@ -27,10 +27,7 @@ date modified: 2024-12-22
 >
 > <span class="noun" lang="st">Morabaraba</span> is played across south-eastern Africa.
 
-
-<p class="lead">
-<span class="noun aka" lang="st">Morabaraba</span> is a {% a mill-games,mill game %} from south-eastern Africa. The gameplay of the standardized version is very similar to {% gameref twelve-mens-morris %}  (with a few minor differences), but the version played in Lesotho has a unique board.
-</p>
+<span class="noun aka" lang="st">Morabaraba</span> is a [mill game](articles/families/mill-games/mill-games.md) from south-eastern Africa. The gameplay of the standardized version is very similar to {% gameref twelve-mens-morris %}  (with a few minor differences), but the version played in Lesotho has a unique board.
 
 <span class="noun" lang="st">Morabaraba</span> is played as a competitive sport in South Africa, administered by [Mind Sports South Africa](http://mindsportsa.co.za/).  It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.[@MorabarabaGetOnBoard]
 
@@ -114,11 +111,9 @@ A distinctive feature of this game is its bovine theme: the pieces are usually c
 The following description is based on Mind Sports South Africa’s “Generally
 Accepted Rules”. As with all traditional board games, local rules can vary.
 
-Each player has 12 pieces. Commonly, plastic or metal bottle caps{%fn%}The use
-of bottle caps is so common that even [commercial sets use bottle
-caps](https://www.instagram.com/p/BMBbRAzBg1z/), and they show up in
-[computerized versions](https://www.instagram.com/p/Bf-isgxnIPF/) as a
-skeuomorphic feature.{%endfn%} are used in two contrasting colours.
+Each player has 12 pieces. Commonly, plastic or metal bottle caps[^skeuo] are used in two contrasting colours.
+
+[^skeuo]: The use of bottle caps is so common that even [commercial sets use bottle caps](https://www.instagram.com/p/BMBbRAzBg1z/), and they show up in [computerized versions](https://www.instagram.com/p/Bf-isgxnIPF/) as a skeuomorphic feature.
 
 > [!figure]
 >

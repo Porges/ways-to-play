@@ -117,7 +117,7 @@ See also @ExcavationsAtSaqqara1907 pl. LVIII, LIX for images of actual box
 > Images from the tomb of Baqet <span class="rnum">III</span> (<span lang="egy">𓅡𓈎𓐰𓏏𓆭</span> <span lang="egy-Latn">bꜣq.t</span>) at Beni Hasan (BH15).[@BeniHasan pl. VII][^fn0] The two games on the right are probably Senet.[@AncientEgyptiansAtPlay]
 
 
-[^fn0]: Georges Ifrah suggests that the leftmost figures are playing {% gameref morra %}, but this seems unlikely.
+[^fn0]: Georges Ifrah suggests that the leftmost figures are playing [Morra](games/morra/morra.md), but this seems — at the very least — unlikely.
 
 > [!figure]
 >

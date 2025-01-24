@@ -68,20 +68,9 @@ the Paulownia junk cards, but on older decks it can be on a Peony or Wisteria
 > Manufacturer’s marks from <span class="noun" lang="ja-Latn">Nintendō</span>, Angel, and <span class="noun" lang="ja-Latn">Maruē</span>.
 
 
-Often the mark is a simplified version of the name,{%fn%}Also be aware that
-Japanese can be written in either direction; @OstasiatischeSpielkarten [p. 136]
-describes a deck made by a mysterious manufacturer named ‘<span class="noun"
-lang="ja-Latn">Dōtennin</span>’.{%endfn%} or a different <span
-lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When
-pronouncing the mark the shape is usually also ‘read’, so that <span class="noun"
-lang="ja-Latn">Nintendō</span>’s mark—a stylized <span lang="ja">福</span>
-(<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span
-lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “[Circle
-K](https://en.wikipedia.org/wiki/Circle_K)”. The same can also be done with the
-square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner
-at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩
-</span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is
-called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
+Often the mark is a simplified version of the name,[^direction] or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <span class="noun" lang="ja-Latn">Nintendō</span>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “[Circle K](https://en.wikipedia.org/wiki/Circle_K)”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩 </span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
+
+[^direction]: Also be aware that Japanese can be written in either direction; @OstasiatischeSpielkarten [p. 136] describes a deck made by a mysterious manufacturer named ‘<span class="noun" lang="ja-Latn">Dōtennin</span>’!
 
 ### Index of Marks
 <div class="multi">
@@ -1032,28 +1021,13 @@ These are producers that do not exist any more.
 >
 > The <span class="noun" lang="ja-Latn">Matsui Tengudō</span> store as it appeared in 2017, 7 years after shutting down.
 
+<span class="noun" lang="ja-Latn">Matsui Tengudō</span> was founded in <span class="noun" lang="ja-Latn">Kyōto</span>[^osaka] in 1897 by <span class="noun" lang="ja-Latn">Matsui Shigejiro</span> (<span lang="ja">松井重次郎</span>), and was run by the <span class="noun" lang="ja-Latn">Matsui</span> family for three generations until it closed in 2010 after <span class="noun" lang="ja-Latn">Matsui Shigeo</span> (<span lang="ja">松井重夫 </span>, 1931–2016) retired.[@IwanoMatsui]
 
-<span class="noun" lang="ja-Latn">Matsui Tengudō</span> was founded in <span class="noun"
-lang="ja-Latn">Kyōto</span>{%fn%}There was also an <span class="noun"
-lang="ja-Latn">Ōsaka</span>-based <span class="noun" lang="ja-Latn">Matsui Tengudō</span>,
-started by the younger brother of <span class="noun" lang="ja-Latn">Matsui Shigejiro</span>,
-which had actually opened before the <span class="noun" lang="ja-Latn">Kyōto</span> branch.
-It used the same manufacturer’s mark and existed in
-1914[@JapaneseBusinessmen1914 p. 219] but closed after the second
-generation.{%endfn%} in 1897 by <span class="noun" lang="ja-Latn">Matsui Shigejiro</span>
-(<span lang="ja">松井重次郎</span>), and was run by the <span class="noun"
-lang="ja-Latn">Matsui</span> family for three generations until it closed in
-2010 after <span class="noun" lang="ja-Latn">Matsui Shigeo</span> (<span lang="ja">松井重夫
-</span>, 1931–2016) retired.[@IwanoMatsui]
+[^osaka]: There was also an <span class="noun" lang="ja-Latn">Ōsaka</span>-based <span class="noun" lang="ja-Latn">Matsui Tengudō</span>, started by the younger brother of <span class="noun" lang="ja-Latn">Matsui Shigejiro</span>, which had actually opened before the <span class="noun" lang="ja-Latn">Kyōto</span> branch. It used the same manufacturer’s mark and existed in 1914[@JapaneseBusinessmen1914 p. 219] but closed after the second generation.
 
-<span class="noun" lang="ja-Latn">Matsui Tengudō</span> was the last manufacturer to make
-cards entirely by hand;[@SalterJapanese] <span class="noun" lang="ja-Latn">Matsui
-Shigeo</span> had recovered this process in 1976 as a way to distinguish his
-cards from those being produced by other manufacturers, after a former teacher
-of his told him to “make something that doesn’t exist anywhere”.[@TewazaNoKioku]
+<span class="noun" lang="ja-Latn">Matsui Tengudō</span> was the last manufacturer to make cards entirely by hand;[@SalterJapanese] <span class="noun" lang="ja-Latn">Matsui Shigeo</span> had recovered this process in 1976 as a way to distinguish his cards from those being produced by other manufacturers, after a former teacher of his told him to “make something that doesn’t exist anywhere”.[@TewazaNoKioku]
 
-Since closing, <span class="noun" lang="ja-Latn">Matsui Tengudō</span> decks now fetch high
-prices on Yahoo! Auctions, often selling for several hundred US dollars.
+Since closing, <span class="noun" lang="ja-Latn">Matsui Tengudō</span> decks now fetch high prices on Yahoo! Auctions, often selling for several hundred US dollars.
 
 > [!figure]
 >

@@ -1,6 +1,8 @@
 ---
 title: Sid Sackson
 order: 120
+date created: 2024-12-18
+date modified: 2025-01-24
 ---
 
 <p class="lead">
@@ -39,7 +41,7 @@ Games that are in **bold** below are those of his own invention.
 <li>Slam</li>
 <li>Solitaire Dice</li>
 <li>Suit Yourself</li>
-<li><strong>{% gameref take-it-away %}</strong></li>
+<li><strong>[Take It Away](games/take-it-away/take-it-away.md)</strong></li>
 </ul>
 
 ### From @CardGamesAroundTheWorld
@@ -50,30 +52,63 @@ Games that are in **bold** below are those of his own invention.
 <li>Khanhoo</li>
 <li>Kowah</li>
 <li>{% gameref thothit %}</li>
-<li>{% gameref kabu %}</li>
+<li>[Kabu](games/three-card-game/three-card-game.md#kabu)</li>
 <li>As Nas</li>
 <li>La Malilla</li>
 <li>La Mosca</li>
-<li>Briscola</li> <li>Scopa</li> <li>Piquet</li> <li>Ecarte</li>
-<li><span lang="fr" class="noun">Vingt-et-Un</span> (Blackjack)</li> <li>Skat</li>
+<li>Briscola</li>
+<li>Scopa</li>
+<li>Piquet</li>
+<li>Ecarte</li>
+<li><span lang="fr" class="noun">Vingt-et-Un</span> (Blackjack)</li>
+<li>Skat</li>
 <li>Sechs und Sechzig</li>
-<li>{%gameref bezique%}</li> <li>{%gameref polish-bezique%}</li>
-<li>Jass</li> <li>Klabberjass</li> <li>Solo Whist</li> <li>Vint</li>
-<li>Tyzicha</li> <li>War</li> <li>Old Maid</li> <li>Authors</li> <li>Hearts</li>
-<li>Black Lady</li> <li>Fan Tan</li> <li>Eights (Crazy Eights)</li>
-<li>Klondike</li> <li>Klondike for 2 (Double Solitaire)</li> <li>Clock</li>
-<li>La Belle Loucie</li> <li>Accordian</li> <li>Calculation</li>
-<li>{%gameref whist %}</li>
-<li>Blackout</li> <li>Cribbage</li>
-<li>Casino: {%gameref cassino%}</li>
-<li>{%gameref royal-casino%}</li>
+<li>[Bézique](games/bezique/bezique.md)</li>
+<li>{%gameref polish-bezique%}</li>
+<li>Jass</li>
+<li>Klabberjass</li>
+<li>Solo Whist</li>
+<li>Vint</li>
+<li>Tyzicha</li>
+<li>War</li>
+<li>Old Maid</li>
+<li>Authors</li>
+<li>Hearts</li>
+<li>Black Lady</li>
+<li>Fan Tan</li>
+<li>Eights (Crazy Eights)</li>
+<li>Klondike</li>
+<li>Klondike for 2 (Double Solitaire)</li>
+<li>Clock</li>
+<li>La Belle Loucie</li>
+<li>Accordian</li>
+<li>Calculation</li>
+<li>[Whist](games/whist/whist.md)</li>
+<li>Blackout</li>
+<li>Cribbage</li>
+<li>Casino: [Cassino](games/cassino/cassino.md)</li>
+<li>[Royal Casino](games/cassino/cassino.md#royal-casino)</li>
 <li>Nap (Napoleon)</li>
-<li>{% gameref all-fours %} (Seven Up)</li>
+<li>[All-Fours](games/all-fours/all-fours.md) (Seven Up)</li>
 <li>Newmarket
-(Michigan)</li> <li>Spoil Five</li> <li>Scotch Whist (Catch the Ten)</li>
-<li>Conquian</li> <li>Pif Paf</li> <li>Canasta</li> <li>Samba</li>
-<li>Bolivia</li> <li>Draw Poker</li> <li>Stud Poker</li> <li>Pinochle</li>
-<li>Contract Bridge</li> <li>Rummy</li> <li>500 Rummy</li> <li>Gin Rummy</li>
-<li>Oklahoma Gin</li> <li><strong>Buried Treasure</strong></li> <li><strong>Divide and
-Conquer</strong></li> <li><strong>Card Football</strong></li> <li><strong>Card Stock Market</strong></li>
+(Michigan)</li>
+<li>Spoil Five</li>
+<li>Scotch Whist (Catch the Ten)</li>
+<li>Conquian</li>
+<li>Pif Paf</li>
+<li>Canasta</li>
+<li>Samba</li>
+<li>Bolivia</li>
+<li>Draw Poker</li>
+<li>Stud Poker</li>
+<li>Pinochle</li>
+<li>Contract Bridge</li>
+<li>Rummy</li>
+<li>500 Rummy</li>
+<li>Gin Rummy</li>
+<li>Oklahoma Gin</li>
+<li><strong>Buried Treasure</strong></li>
+<li><strong>Divide and Conquer</strong></li>
+<li><strong>Card Football</strong></li>
+<li><strong>Card Stock Market</strong></li>
 </ul>

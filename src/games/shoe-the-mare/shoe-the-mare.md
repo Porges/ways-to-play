@@ -4,6 +4,8 @@ players:
     minimum: 1
 equipment: Physical
 countries: UK
+date created: 2024-12-22
+date modified: 2025-01-23
 ---
 
 <span class="aka">Shoe the (Wild) Mare</span>, or the <span class="aka">Shoeing of the (Wild) Mare</span> is a 17th-century English physical game of unclear form, as there are conflicting accounts of what the game comprised. It was popular during the Christmas season.
@@ -92,7 +94,7 @@ The “suspended” version seems to be particular to Scotland, another account 
 
 However, this seems to be entirely his own supposition.
 
-Another 19th-century author remembers it as a circle chase where “if my boyish recollections be correct, this game is played by a number standing in a ring, holding hands, with one outside the ring, who drops a handkerchief behind any one he pleases; and the point is, to be sharp in observing if it be dropped behind you, and then to be quick in overtaking the dropper before he arrives at your place—the only practical allusion to a horse being in the activity”.[@ChristmasCustomsInMounmouthshire] See {%gameref circle-chases %} for more on these types of games.
+Another 19th-century author remembers it as a circle chase where “if my boyish recollections be correct, this game is played by a number standing in a ring, holding hands, with one outside the ring, who drops a handkerchief behind any one he pleases; and the point is, to be sharp in observing if it be dropped behind you, and then to be quick in overtaking the dropper before he arrives at your place—the only practical allusion to a horse being in the activity”.[@ChristmasCustomsInMounmouthshire] See [Circle Chases](games/circle-chases/circle-chases.md) for more on these types of games.
 
 ## Other references
 

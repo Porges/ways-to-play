@@ -15,7 +15,7 @@ draft: true
 
 The following is a different game:
 
-Known as <span lang="jav-Latn" class="aka noun">Surakarta</span> (<span lang="jav" class="aka noun">ꦯꦸꦫꦏꦂꦠ</span>), after the historical capital city of Java.[@OxfordBG p. 249]
+Known as <span lang="jv-Latn" class="aka noun">Surakarta</span> (<span lang="jv" class="aka noun">ꦯꦸꦫꦏꦂꦠ</span>), after the historical capital city of Java.[@OxfordBG p. 249]
 
 ## References
 

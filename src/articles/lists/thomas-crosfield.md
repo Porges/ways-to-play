@@ -1,6 +1,8 @@
 ---
 title: Thomas Crosfield’s Diary (1629)
 order: 1629
+date created: 2024-12-22
+date modified: 2025-01-23
 ---
 
 <p class="lead">Thomas Crosfield’s diary entry for Christmas day 1629 contains an entry titled “Games at Chartes” that contains a list of card games.[@ThomasCrosfield fol. 34r]</p>
@@ -27,6 +29,7 @@ The games listed are:
 <dt>trumpe</dt>
 <dt>Slam̃e</dt>
 <dt>Gleeke</dt>
+<dd>[Gleek](games/gleek/gleek.md)</dd>
 <dt>Newcut</dt>
 <dt>Swigg</dt>
 <dt>Loadam</dt>
@@ -37,5 +40,7 @@ The games listed are:
 <dt>Anakin</dt>
 <dt>Seven Cardes</dt>
 <dt>one & 30</dt>
-<dt>my sewe has pig’d</dt><dd>{%gameref my-sow-pigged %}</dd>
+<dd>[Thirty One](games/thirty-one/thirty-one.md)</dd>
+<dt>my sewe has pig’d</dt>
+<dd>[My Sow Has Pigged](games/my-sow-pigged/my-sow-pigged.md)</dd>
 </dl>

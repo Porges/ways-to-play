@@ -105,7 +105,7 @@ That never yet had shirt or band to wear?
 > ![A woodblock print of a playing-card Knave facing away from the viewer, with tight pants showing the outline of his buttocks.](Knave_buttocks.jpg)
 >
 > ```yaml
-> license: c00
+> license: cc0
 > position: aside
 > ```
 >

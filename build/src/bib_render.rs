@@ -533,7 +533,7 @@ fn render_series(r: &Reference) -> Markup {
             @if let Ok(editors) = series.editor.as_slice().try_into() {
                 @let editors: OneOrMore<_> = editors;
                 ", series editor"
-                @if editors.len() > 1 { "s " } else { " " }
+                @if editors.len() > 1 { "s " } @else { " " }
                 (render_people(editors, false, "editor"))
             }
         }
@@ -626,7 +626,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
             container_title, ..
         }) => html! {
             @if let Some(title) = container_title {
-                "Published on "
+                "On the website "
                 span itemscope itemtype="https://schema.org/WebSite" itemprop="isPartOf" {
                     (render_lstr_cite(title, None, Some("name"), Some("alternateName")))
                 }

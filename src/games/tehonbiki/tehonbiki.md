@@ -10,7 +10,7 @@ subgames:
   - title: Daun Empat
     titleLang: id
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-01-23
 ---
 
 <span lang="ja-Latn" class="noun aka">Tehonbiki</span> (<span lang="ja" class="aka">手本引き</span>, meaning something like ‘draw an example’) is a traditional Japanese gambling game that is played with sets of six cards.
@@ -146,6 +146,6 @@ To play, the dealer (<span lang="nan">保官</span> <span lang="nan-Latn">pó ko
 
 Finally, the dealer moves the card corresponding to the chosen tile to the front of the line of cards, then reveals the tile in the box. Players who have selected that tile win 3× their stakes; all other stakes are lost. 10% of winning stakes are retained by the dealer (or else the odds would be fair).
 
-Players bets may be indicated in two ways: either a staking board is used in the manner of {% gameref fan-tan %}, or a deck of cards may be distributed to the players; each player is given one card of each suit.
+Players bets may be indicated in two ways: either a staking board is used in the manner of [Fan-Tan](games/fan-tan/fan-tan.md), or a deck of cards may be distributed to the players; each player is given one card of each suit.
 
 When the playing-card method is used there are other bets that can be made: placing two cards on top of each other indicates a bet where either card will win, for a payment of 1× the stake. Placing two cards with one in front of the other indicates a bet where the front card wins 2× the stake if it matches, and the rear card is a push.

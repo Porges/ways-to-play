@@ -233,7 +233,7 @@ Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a c
 
 [^fn6]: Old: Ketjek
 
-In Balinese the game was called <span class="aka" lang="ban">ᬓᭂᬍᬲᬦ᭄</span> <span class="aka" lang="ban-Latn">kelesan</span> or <span class="aka" lang="ban">ᬫᬓᭂᬍᬲ᭄</span> <span class="aka" lang="ban-Latn">makeles</span>; {/* https://dictionary.basabali.org/w/index.php?title=Kelesan&uselang=en */} and probably in Javanese <span lang="jav">ꦏꦺꦕꦺꦏ꧀</span> <span class="aka" lang="jav-Latn">kècèk</span>.[@GamesAndDances 333][@ContemporaryIndonesian 152][@MakassaarschWoordenboek 32]
+In Balinese the game was called <span class="aka" lang="ban">ᬓᭂᬍᬲᬦ᭄</span> <span class="aka" lang="ban-Latn">kelesan</span> or <span class="aka" lang="ban">ᬫᬓᭂᬍᬲ᭄</span> <span class="aka" lang="ban-Latn">makeles</span>; {/* https://dictionary.basabali.org/w/index.php?title=Kelesan&uselang=en */} and probably in Javanese <span lang="jv">ꦏꦺꦕꦺꦏ꧀</span> <span class="aka" lang="jv-Latn">kècèk</span>.[@GamesAndDances 333][@ContemporaryIndonesian 152][@MakassaarschWoordenboek 32]
 
 {/*
 Balinese might also use "(ma)keles" 
@@ -268,11 +268,11 @@ From Makassarese dictionary:
 
 See: https://archive.org/details/dajackschdeutsc00hardgoog/page/260/mode/2up?q=%22baKetjek%22, https://archive.org/details/hindujavanesemus0000jaap/page/148/mode/2up?q=%22ketjek%22
 
-See also @Pijnappel1 [189], which gives Malay <span lang="ms">kecek</span> (<span lang="ms-Arab">كيچيق</span> or <span lang="ms-Arab">كيچك</span>[@MaleischNederlandsch_2 p. 572])[^fn7] and Javanese <span lang="jav-Latn">kecik</span>,[^fn8] a name for the [<span lang="jav-Latn">sawo</span>](https://en.wikipedia.org/wiki/Manilkara_kauki) pit with which the game was played.[@SEAlangJavanese] (But compare also the entry for kècèk, noted as “a dice game”.) Kecèk is also a cymbal: https://archive.org/details/hindujavanesemus0000jaap/page/68/mode/2up
+See also @Pijnappel1 [189], which gives Malay <span lang="ms">kecek</span> (<span lang="ms-Arab">كيچيق</span> or <span lang="ms-Arab">كيچك</span>[@MaleischNederlandsch_2 p. 572])[^fn7] and Javanese <span lang="jv-Latn">kecik</span>,[^fn8] a name for the [<span lang="jv-Latn">sawo</span>](https://en.wikipedia.org/wiki/Manilkara_kauki) pit with which the game was played.[@SEAlangJavanese] (But compare also the entry for kècèk, noted as “a dice game”.) Kecèk is also a cymbal: https://archive.org/details/hindujavanesemus0000jaap/page/68/mode/2up
 
 [^fn7]: old: ketjek
 
-[^fn8]: old: <span lang="jav-Arab">كچيق</span>, <span lang="jav-Latn">kĕtjik</span>
+[^fn8]: old: <span lang="jv-Arab">كچيق</span>, <span lang="jv-Latn">kĕtjik</span>
 
 In Lampung it was said to be native to Bali.[@DeLampong 273]
 
@@ -365,7 +365,7 @@ https://journalofethnicfoods.biomedcentral.com/articles/10.1186/s42779-023-00209
 > Initially, Pempek was referred to as Kelesan. Based on an interview with Nurjanah (July 10, 2022), it was mentioned that Kelesan means ingredients consisting of cleaned fish meat that has been "Pirik" (mashed or crushed). The fish meat is mixed with tapioca starch, salt, and water. Everything is "Kelesed" into one, formed into elongated rounds, and boiled. "Pirik" involves pressing with a tool called "Piri'an," which is made of which is made of round, slightly oval-shaped brass with a radius of around 8–10 cm. The bottom of the tool has holes, allowing the mashed meat to come out through these holes.
 
 
-{/* Sundanese <span lang="jav-Latn">cek</span>,[^fn9] or <span lang="jav-Latn">kadek</span>.[@WoordenLijstPantoen 284] */}
+{/* Sundanese <span lang="jv-Latn">cek</span>,[^fn9] or <span lang="jv-Latn">kadek</span>.[@WoordenLijstPantoen 284] */}
 
 [^fn9]: old: tjek
 

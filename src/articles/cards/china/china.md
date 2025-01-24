@@ -8,14 +8,13 @@ date modified: 2024-12-21
 As the probable country of origin of playing cards, China has a long history of
 card-playing and many different varieties.
 
-The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard Chinese: <Pronounce lang="cmn-Latn-pinyin" pronouncer="LofZRules" file="pronunciation_zh_牌.mp3">pái</Pronounce>), does not distinguish between different forms of card-like games and equally applies to paper or cardboard cards, bamboo sticks, or bone, ivory, or plastic Mahjong tiles. In many adjacent countries and languages adjacent to China, a derived or related term is used in the local language. Below I list some examples, ordered by number of speakers:
+The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard Mandarin Chinese: <Pronounce lang="cmn-Latn-pinyin" pronouncer="LofZRules" file="pronunciation_zh_牌.mp3">pái</Pronounce>), does not distinguish between different forms of card-like games and equally applies to paper or cardboard cards, bamboo sticks, or bone, ivory, or plastic Mahjong tiles. In many adjacent countries and languages adjacent to China, a derived or related term is used in the local language. Below I list some examples, ordered by number of speakers:
 
 * Chinese: <span lang="zh">牌</span> <span lang="cmn-Latn-pinyin">pái</span> (Mandarin)
-* Vietnamese: <span lang="vi">bài</span> {/* 76M */}
-* Thai: <span lang="th">ไพ่</span> ({% pronounce lang="th-Latn" word="pâi"
-  file="pronunciation_th_ไพ.mp3" pronouncer="Ghee" %}) {/* 44M */}
-* Burmese: <span lang="my">ဖဲ</span> (<span lang="my-Latn">hpai</span>) {/* 33M */} 
-* Lao: <span lang="lo">ໄພ້</span> (<span lang="lo-Latn">pʰâi</span>) {/* 30M */}
+* Vietnamese: <span lang="vi">bài</span> [76M]
+* Thai: <span lang="th">ไพ่</span> (<Pronounce lang="th-Latn" file="pronunciation_th_ไพ.mp3" pronouncer="Ghee">pâi</Pronounce>) [44M]
+* Burmese: <span lang="my">ဖဲ</span> (<span lang="my-Latn">hpai</span>) [33M]
+* Lao: <span lang="lo">ໄພ້</span> (<span lang="lo-Latn">pʰâi</span>) [30M]
 * Khmer: <span lang="km">បៀ</span> ({% pronounce lang="km-Latn" word="bie"
   file="pronunciation_km_បៀ.mp3" pronouncer="chetanachey" %}) {/* 16M */}
 * [Zhuang:](https://en.wikipedia.org/wiki/Zhuang_languages) <span lang="za-Latn">bej</span> or <span lang="zhn-Latn">paih</span>/<span lang="zhn-Latn">paij₂</span> (Nong Zhuang)[@ZCELexicon] {/* 16M */}
@@ -34,9 +33,9 @@ Japanese cards %} for more).
 
 ## Types of cards
 
-{/* 
-TODO: @ModernChineseCharacterCards, @BerryChineseSuit
-*/}
+> [!todo]
+>
+> TODO: @ModernChineseCharacterCards, @BerryChineseSuit
 
 The many types of Chinese and Chinese-derived cards can be broken down into several broad categories, as follows.
 

@@ -4,6 +4,8 @@ titleLang: ar-Latn
 originalTitle: <span lang="ar">سيجة</span> 
 draft: true
 countries: EG
+date created: 2024-12-22
+date modified: 2025-01-23
 ---
 
 > [!figure]
@@ -105,4 +107,4 @@ Dara also in [@JeuxChezTouaregs].
 
 ## See also
 
-{% gameref cokoo %} is a very similar game.
+[Cokoo](games/cokoo/cokoo.md) is a very similar game.

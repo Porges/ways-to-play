@@ -13,10 +13,10 @@ subgames:
   titleLang: ms
   players: 4
 - title: Gonggong
-  titleLang: jav-Latn
+  titleLang: jv-Latn
   originalTitle: <span lang="mak">ᨁᨚᨁᨚ</span>
 - title: Tantanan
-  titleLang: jav-Latn
+  titleLang: jv-Latn
 - title: Chaqui
   titleLang: mcm
 hero:
@@ -274,11 +274,11 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 ## Similar games
 
-### <span class="noun aka" lang="jav-Latn">Gonggong</span>
+### <span class="noun aka" lang="jv-Latn">Gonggong</span>
 
 ^711670
 
-<span class="noun" lang="jav-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.
+<span class="noun" lang="jv-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.
 
 > [!figure]
 > 
@@ -297,25 +297,25 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 The game as played in Surakarta was described as follows:
 
-It is played with six sets of cards (180 cards) for four players, or eight sets (240 cards) for six players. Deal 14 cards each and play as with <span class="noun" lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called a <span lang="jav-Latn">bak</span>) must be completed.
+It is played with six sets of cards (180 cards) for four players, or eight sets (240 cards) for six players. Deal 14 cards each and play as with <span class="noun" lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called a <span lang="jv-Latn">bak</span>) must be completed.
 
-Waiting for a specific card to win (to complete a <span lang="jav-Latn">bak</span>) is called <span lang="jav-Latn">ceki nocog</span>, and is announced by placing one coin on the table. Waiting for any card of a particular rank is called <span lang="jav-Latn">ceki kowah</span> and is announced by placing two coins on top of each other.
+Waiting for a specific card to win (to complete a <span lang="jv-Latn">bak</span>) is called <span lang="jv-Latn">ceki nocog</span>, and is announced by placing one coin on the table. Waiting for any card of a particular rank is called <span lang="jv-Latn">ceki kowah</span> and is announced by placing two coins on top of each other.
 
-A self-drawn win is called <span lang="jav-Latn">rabas</span> ‘clear’. A win by the opponents’ card is called <span lang="jav-Latn">metu</span> (formal <span lang="jav-Latn">medal</span>) ‘came out’.
+A self-drawn win is called <span lang="jv-Latn">rabas</span> ‘clear’. A win by the opponents’ card is called <span lang="jv-Latn">metu</span> (formal <span lang="jv-Latn">medal</span>) ‘came out’.
 
 **Scoring** is a little different to <span class="noun" lang="ms">Balik Satu</span>, and is done by one of several methods:
 
 <dl>
-<dt><span lang="jav-Latn">undhuh-undhuhan</span> (‘pickings’)</dt>
+<dt><span lang="jv-Latn">undhuh-undhuhan</span> (‘pickings’)</dt>
 <dd>At the beginning of the game a pot is formed with a stake from each player. If a player wins with
-<span lang="jav-Latn">metu</span>, they win one stake from it. If a player wins
-with <span lang="jav-Latn">rabas</span>, they win the entire remaining pot.</dd>
-<dt><span lang="jav-Latn">toh bayaran</span> (‘stake payments’)</dt>
+<span lang="jv-Latn">metu</span>, they win one stake from it. If a player wins
+with <span lang="jv-Latn">rabas</span>, they win the entire remaining pot.</dd>
+<dt><span lang="jv-Latn">toh bayaran</span> (‘stake payments’)</dt>
 <dd>
 This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. The winner scores according to the following scheme:
 <ol>
-<li>1 for <span lang="jav-Latn">metu</span>; 2 for <span lang="jav-Latn">metu</span> with a red card, or <span lang="jav-Latn">rabas</span>; or 3 for <span lang="jav-Latn">rabas</span> with a red card,</li>
-<li>an additional 1 for each <span lang="jav-Latn">bak</span> or 2 for each red <span lang="jav-Latn">bak</span> in their hand,</li>
+<li>1 for <span lang="jv-Latn">metu</span>; 2 for <span lang="jv-Latn">metu</span> with a red card, or <span lang="jv-Latn">rabas</span>; or 3 for <span lang="jv-Latn">rabas</span> with a red card,</li>
+<li>an additional 1 for each <span lang="jv-Latn">bak</span> or 2 for each red <span lang="jv-Latn">bak</span> in their hand,</li>
 <li>and then turn over the top card and add its points. Nyonya/Lau Chian/1 Myriads score 10 points, everything else according to rank (White Flower scores 1).</li>
 > [!figure]
 >
@@ -333,38 +333,38 @@ This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. T
 > These cards are worth 10 points each.
 </ol>
 </dd>
-<dt>alternative <span lang="jav-Latn">toh bayaran</span>, drawing 14 cards</dt>
-<dd>This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jav-Latn">toh bayaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jav-Latn">bak</span> from these cards. For each <span lang="jav-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jav-Latn">bak</span>.</dd>
+<dt>alternative <span lang="jv-Latn">toh bayaran</span>, drawing 14 cards</dt>
+<dd>This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jv-Latn">toh bayaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jv-Latn">bak</span> from these cards. For each <span lang="jv-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jv-Latn">bak</span>.</dd>
 </dl>
 
-In the 1940s the <span lang="jav-Latn">toh bayaran</span> methods were paid out at 2¢[^fn0] per point from each other player.
+In the 1940s the <span lang="jv-Latn">toh bayaran</span> methods were paid out at 2¢[^fn0] per point from each other player.
 
 [^fn0]: These were cents of the [Netherlands Indies gulden](https://en.wikipedia.org/wiki/Netherlands_Indies_gulden).
 
 In Yogyakarta the following bets were used:
 
 <dl>
-<dt><span lang="jav-Latn">bak-bakan</span></dt>
-<dd>This is payment according to the number of <span lang="jav-Latn">bak</span>, i.e. the same as <span lang="jav-Latn">toh bayaran</span>.</dd>
-<dt><span lang="jav-Latn">umbuk</span> (‘piled’)</dt>
-<dd>A pot is formed with a stake from each player. If a player wins with <span lang="jav-Latn">metu</span>, they win half the pot. If a player wins with <span lang="jav-Latn">rabas</span>, they win the entire pot.</dd>
-<dt><span lang="jav-Latn">ceken</span></dt>
+<dt><span lang="jv-Latn">bak-bakan</span></dt>
+<dd>This is payment according to the number of <span lang="jv-Latn">bak</span>, i.e. the same as <span lang="jv-Latn">toh bayaran</span>.</dd>
+<dt><span lang="jv-Latn">umbuk</span> (‘piled’)</dt>
+<dd>A pot is formed with a stake from each player. If a player wins with <span lang="jv-Latn">metu</span>, they win half the pot. If a player wins with <span lang="jv-Latn">rabas</span>, they win the entire pot.</dd>
+<dt><span lang="jv-Latn">ceken</span></dt>
 <dd>Ad-hoc bets are made between the players, whoever wins receives the staked amount from the others.</dd>
 </dl>
 
-### <span class="noun aka" lang="jav-Latn">Tantanan</span>
+### <span class="noun aka" lang="jv-Latn">Tantanan</span>
 
 This is another game described as being played in Surakarta in Java during the 1940s.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <span class="noun" lang="ms">Balik Satu</span> and is thus a faster game.
 
 The game is played by four people with one full set of 60 cards. Each player is dealt five cards. 
 
-In this reduced game, a player must form three pairs to win, and one pair must be identical (a <span lang="jav-Latn">bak</span>). All honour cards are considered to be rank 1, so can be paired with other rank-1 cards.
+In this reduced game, a player must form three pairs to win, and one pair must be identical (a <span lang="jv-Latn">bak</span>). All honour cards are considered to be rank 1, so can be paired with other rank-1 cards.
 
-Waiting for a one card to win is called <span lang="jav-Latn">tan</span>, as in <span class="noun" lang="ms">Balik Satu</span>. Waiting for a identical card is called <span lang="jav-Latn">tan nokang</span>, waiting for any card of the same rank is called <span lang="jav-Latn">tan kowah</span>.
+Waiting for a one card to win is called <span lang="jv-Latn">tan</span>, as in <span class="noun" lang="ms">Balik Satu</span>. Waiting for a identical card is called <span lang="jv-Latn">tan nokang</span>, waiting for any card of the same rank is called <span lang="jv-Latn">tan kowah</span>.
 
-Scoring is performed the same as the <span lang="jav-Latn">toh bayaran</span> method of <span class="noun" lang="jav-Latn">Gonggong</span>, above.
+Scoring is performed the same as the <span lang="jv-Latn">toh bayaran</span> method of <span class="noun" lang="jv-Latn">Gonggong</span>, above.
 
-In Yogyakarta this game was played with three people and known as <span class="noun aka" lang="jav-Latn">Cekèn</span> or <span class="noun aka" lang="jav-Latn">Sampèn</span>.[@JavaanseKaartspelen p. 98][^other]
+In Yogyakarta this game was played with three people and known as <span class="noun aka" lang="jv-Latn">Cekèn</span> or <span class="noun aka" lang="jv-Latn">Sampèn</span>.[@JavaanseKaartspelen p. 98][^other]
 
 [^other]: Note that there is also another game called [Sampen](games/sampen/sampen.md).
 

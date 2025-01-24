@@ -143,7 +143,9 @@ function Build-Builder {
 
 $builder = Join-Path $root "build/target/release/wtp-build"
 function Build-HTML {
-    & $builder --input $src --output $public --image-manifest $image_manifest
+    $env:RUST_LOG = 'info'
+    & $builder --input $src --output $public --image-manifest $image_manifest --draft
+    Remove-Item env:RUST_LOG
 }
 
 Copy-StaticContent
@@ -154,7 +156,7 @@ Build-HTML
 if ($watch) {
     $bg = Start-Job { miniserve $using:public --index index.html }
     try {
-        watchexec -E RUST_LOG=info -w $src --emit-events-to file -- $builder --input $src --output $public --image-manifest $image_manifest
+        watchexec -E RUST_LOG=info -w $src --emit-events-to file -- $builder --input $src --output $public --image-manifest $image_manifest --draft
     }
     finally {
         $bg.StopJob()

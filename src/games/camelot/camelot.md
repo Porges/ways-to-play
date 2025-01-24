@@ -61,38 +61,23 @@ the newly-formed Parker Brothers in 1888.
 > A diagram of the board from George Parker’s 1930 patent.
 
 
-In 1930 he simplified the game of Chivalry to produce Camelot, and received a
-patent [US1780038](https://patents.google.com/patent/US1780038) for the game.
-Camelot remained popular until the 1960s, but was eventually discontinued in
-1968. In 1985 the game was re-introduced as “Inside Moves” but production
-stopped a year later.
+In 1930 he simplified the game of Chivalry to produce Camelot, and received a patent [US1780038](https://patents.google.com/patent/US1780038) for the game. Camelot remained popular until the 1960s, but was eventually discontinued in 1968. In 1985 the game was re-introduced as “Inside Moves” but production of that game was stopped a year later.
 
-Parker called Chivalry “the best game in 2000 years”, and he was clearly
-enamoured with it. After his death in 1952, his wife commissioned stained-glass
-windows for the First Church in Salem in his memory,{%fn%}Images of the windows
-can be seen [on the WCF
-website](http://www.worldcamelotfederation.com/Art.htm).{%endfn%} and they
-include the knight featured on the Camelot box front (also included is another
-game called [The Knight’s
-Journey](https://boardgamegeek.com/boardgame/186268/knights-journey).
+Parker called Chivalry “the best game in 2000 years”, and he was clearly enamoured with it. After his death in 1952, his wife commissioned stained-glass windows for the First Church in Salem in his memory,[^images] and they include the knight featured on the Camelot box front (also included is another game called [The Knight’s Journey](https://boardgamegeek.com/boardgame/186268/knights-journey).
+
+[^images]: Images of the windows can be seen [on the WCF website](http://www.worldcamelotfederation.com/Art.htm).
   
 > [!todo]
 >
 > https://mysteriouswritings.com/my-1928-knights-in-shining-armor/
 
-In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to
-popularize the game on the internet.[@WCF] The rules descriptions
-below are based on his website (they differ slightly from the original rules
-supplied by Parker Brothers).
+In 1999 the World Camelot Foundation (WCF) was formed by Michael Nolan to popularize the game on the internet.[@WCF] The rules descriptions below are based on his website (they differ slightly from the original rules supplied by Parker Brothers).
 
 ## Basic Rules
 
-Across all the variations of Camelot, there are only two different pieces—the
-foot-soldier and the knight—and these pieces have the same powers of movement
-and capture in each game.
+Across all the variations of Camelot, there are only two different pieces—the foot-soldier and the knight—and these pieces have the same powers of movement and capture in each game.
 
-In each game, White moves first and the players take turns moving a single
-piece.
+In each game, White moves first and the players take turns moving a single piece.
 
 > [!figure]
 >

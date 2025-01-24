@@ -5,11 +5,11 @@ equipment: Card game (standard deck)
 subgames:
 - title: Bullfighting
   originalTitle: <span lang="yue">鬥牛</span>
+date created: 2024-12-22
+date modified: 2025-01-23
 ---
 
-<p class="lead">
-<span class="aka">Five Card</span> is a game that is similar to {%gameref oicho-kabu%}. It is played both in Japan, where it probably originated, as well as amongst Aboriginal people in the north of Australia.
-</p>
+<span class="aka">Five Card</span> is a game that is similar to the Japanese [Oicho Kabu](games/three-card-game/three-card-game.md#oicho-kabu). It is played both in Japan, where it probably originated, as well as amongst Aboriginal people in the north of Australia.
 
 The name is given with various local pronunciations as <span lang="tiw">paipkad</span>[@GamblingHardWork p. 13] or <span>bayb kad</span>.[@EthnographicPsychology p. 271]
 
@@ -17,7 +17,7 @@ The Australian game is almost certainly — like other <span lang="ja-Latn">
 
 [^fn0]: Formerly ‘Bamyili’.
 
-Strong linguistic evidence for the Japanese origin of the Aboriginal game is the name used by the [Kunwinjku](https://en.wikipedia.org/wiki/Kunwinjku_people)[^fn1] people,[@HunterGatherersState p. 291] or other groups around [Maningrida](https://en.wikipedia.org/wiki/Maningrida,_Northern_Territory),[@CardGamesToPokerMachines p. 101] where this five-card variant of the game is called <span lang="gup" class="aka">butakat</span> or <span class="aka" lang="gup">buta</span>. This is not a Kunwinjku term,[^fn2] but the slang word for ‘zero’ amongst Japanese gamblers (see the {%gameref oicho-kabu%} article for more on Japanese terminology), and relates to an important aspect of the game.
+Strong linguistic evidence for the Japanese origin of the Aboriginal game is the name used by the [Kunwinjku](https://en.wikipedia.org/wiki/Kunwinjku_people)[^fn1] people,[@HunterGatherersState p. 291] or other groups around [Maningrida](https://en.wikipedia.org/wiki/Maningrida,_Northern_Territory),[@CardGamesToPokerMachines p. 101] where this five-card variant of the game is called <span lang="gup" class="aka">butakat</span> or <span class="aka" lang="gup">buta</span>. This is not a Kunwinjku term,[^fn2] but the slang word for ‘zero’ amongst Japanese gamblers (see the [Oicho Kabu](games/three-card-game/three-card-game.md#oicho-kabu) article for more on Japanese terminology), and relates to an important aspect of the game.
 
 [^fn1]: Formerly ‘Gunwinggu’.
 

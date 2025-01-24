@@ -182,27 +182,11 @@ In modern times, these cards are often referred to as “Water Margin cards” (
 
 Indeed, the characters listed on the ‘myriads’ cards are all taken from the book <cite lang="zh">宣和遺事</cite> <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span> (“Neglected Events of the Xuanhe Reign”), a story published <abbr>c.</abbr> 1300 that would be one of the main sources of the later, more famous, book <cite lang="zh">水滸傳</cite> <span lang="cmn-Latn-pinyin" class="noun">Shuǐhǔzhuàn</span>, commonly known in English as <cite>Water Margin</cite>.
 
-in <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span> (hereafter <abbr
-class="initialism">XHYS</abbr>), <span lang="cmn-Latn-pinyin" class="noun">Sòng
-Jiāng</span> has only 36 bandit-followers, unlike the 108 bandits that appear in
-<cite>Water Margin</cite>.{%fn%}It is tempting to suggest, given that there are
-38 cards in the deck and actually 38 bandit characters in <abbr class="initialism">XHYS</abbr> — 36 along with
-their leader <span lang="zh" class="noun">Sòng Jiāng</span>, as well as <span
-lang="zh" class="noun">Zhāng Héng</span>, who is not part of the core group but
-joins later, and does appear in <span class="noun" lang="cmn-Latn-pinyin">Lù
-Róng</span>’s list — that originally every card had a corresponding figure.
-However, without further evidence this must remain a remote
-possibility.{%endfn%} The differences between the list of bandits that appears
-on the deck and in <cite>Water Margin</cite> are as follows:{%fn%}It is worth
-noting that most of the changes that are listed here as occurring in <cite>Water
-Margin</cite> are also present in the earlier <cite lang="zh">宋江三十六人赞
-</cite> <cite>Encomium to <span lang="cmn-Latn-pinyin" class="noun">Sòng Jiāng</span>
-and his Thirty-Six</cite>, a poem from the Yuan period by <span lang="zh">龚开
-</span> [<span lang="cmn-Latn-pinyin" class="noun">Gong
-Kai</span>](https://en.wikipedia.org/wiki/Gong_Kai) (1222–1307). The only change
- that doesn’t appear is that <span lang="zh">呼延绰</span> <span lang="cmn-Latn-pinyin"
-class="noun">Hūyán Chuò</span> still retains his name in
-<cite>Encomium</cite>.{%endfn%}
+In <span lang="cmn-Latn-pinyin" class="noun">Xuānhé Yíshì</span> (hereafter <abbr class="initialism">XHYS</abbr>), <span lang="cmn-Latn-pinyin" class="noun">Sòng Jiāng</span> has only 36 bandit-followers, unlike the 108 bandits that appear in <cite>Water Margin</cite>.[^tempting] The differences between the list of bandits that appears on the deck and in <cite>Water Margin</cite> are as follows:[^changes]
+
+[^tempting]: It is tempting to suggest, given that there are 38 cards in the deck and actually 38 bandit characters in <abbr class="initialism">XHYS</abbr> — 36 along with their leader <span lang="zh" class="noun">Sòng Jiāng</span>, as well as <span lang="zh" class="noun">Zhāng Héng</span>, who is not part of the core group but joins later, and does appear in <span class="noun" lang="cmn-Latn-pinyin">Lù Róng</span>’s list — that originally every card had a corresponding figure. However, without further evidence this must remain a remote possibility.
+
+[^changes]: It is worth noting that most of the changes that are listed here as occurring in <cite>Water Margin</cite> are also present in the earlier <cite lang="zh">宋江三十六人赞 </cite> <cite>Encomium to <span lang="cmn-Latn-pinyin" class="noun">Sòng Jiāng</span> and his Thirty-Six</cite>, a poem from the Yuan period by <span lang="zh">龚开 </span> [<span lang="cmn-Latn-pinyin" class="noun">Gong Kai</span>](https://en.wikipedia.org/wiki/Gong_Kai) (1222–1307). The only change that doesn’t appear is that <span lang="zh">呼延绰</span> <span lang="cmn-Latn-pinyin" class="noun">Hūyán Chuò</span> still retains his name in <cite>Encomium</cite>.
 
 <dl>
 <dt><span lang="zh">六萬貫</span> 6MC</dt>

@@ -1,0 +1,8 @@
+{
+  "newLinkFormat": "absolute",
+  "useMarkdownLinks": true,
+  "vimMode": true,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "showInlineTitle": false
+}

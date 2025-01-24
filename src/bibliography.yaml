@@ -1257,8 +1257,10 @@ NotesOnTheAbbey:
   type: article-journal
   title: Notes on the abbey buildings of Westminster
   author:
-    - family: Micklethwaite
+    - &jt_micklethwaite
+      family: Micklethwaite
       given: J. T.
+      url: https://en.wikipedia.org/wiki/John_Thomas_Micklethwaite
   page: 15–48
   URL: https://archive.org/details/archaeologicalj01unkngoog/page/n46
   in:
@@ -1269,9 +1271,7 @@ NotesOnTheAbbey:
 OnTheIndoorGamesOfSchoolBoys:
   type: article-journal
   title: On the indoor games of school boys in the middle ages
-  author:
-    - family: Micklethwaite
-      given: J. T.
+  author: [*jt_micklethwaite]
   page: 319–328
   URL: https://archive.org/details/archaeologicaljo49brit/page/318
   in:
@@ -16151,7 +16151,7 @@ GamblingAndCheatingRome:
       year: 1892
 LudusLP:
   type: article-journal
-  title: The <cite lang="la">Ludus Latrunculorum</span> and <cite lang="la">Laus Pisonis</span> 190–208
+  title: The <cite lang="la">Ludus Latrunculorum</cite> and <cite lang="la">Laus Pisonis</cite> 190–208
   author:
   - given: John
     family: Richmond

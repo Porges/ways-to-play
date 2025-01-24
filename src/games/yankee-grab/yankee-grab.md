@@ -5,11 +5,11 @@ players:
 subgames:
 - title: Multiplication
 equipment: Dice game
+date created: 2024-12-22
+date modified: 2025-01-22
 ---
 
-<p class="lead">
 Yankee Grab was a dice game that became popular in New Zealand and Australia during the 19th-century goldrushes.
-</p>
 
 It is documented around 1870 in @TheModernPocketHoyle4 [p. 311], under the name “<span class="aka">Going to Boston</span>”.[^fn0] By 1894 it was also called “<span class="aka">Newmarket</span>”,[@SharpsAndFlats p. 250] and in the 1930s it was also called “<span class="aka">Rolling Down to Rio Rita</span>” in New York.[@WithSkullAndBones]
 
@@ -19,7 +19,7 @@ It is documented around 1870 in @TheModernPocketHoyle4 [p. 311], under the name 
 
 The game is played with three dice. Each player has one turn which consists of three attempts at rolling the dice. After each roll, the player must set one die aside and continue rolling the remainder. The goal is to roll the highest total sum showing on the dice after all attempts have been completed. A player can stop early if they are satisfied with their score.
 
-A later development in the “colonies” was that {%dice 1%} showing on the die was counted as 7 points, so that the highest roll was {%dice 111 %} for 21 points.[@SharpsAndFlats p. 250]
+A later development in the “colonies” was that <Dice>1</Dice> showing on the die was counted as 7 points, so that the highest roll was <Dice>111</Dice> for 21 points.[@SharpsAndFlats p. 250]
 
 
 ## History
@@ -34,7 +34,7 @@ The game was commonly used to decide the outcome of some question, such as who s
 In [Milton](https://en.wikipedia.org/wiki/Milton,_New_Zealand), 1868, one correspondent reported that the game could even be played with the landlord to avoid paying for drinks:[@Tokomairiro]
 
 > It has lately been a habit in this neighborhood, instead of the old-fashioned
-> way of tossing for drinks, to play “Yankee Grab” for them. I for one see no
+> way of tossing for drinks,[^tossing] to play “Yankee Grab” for them. I for one see no
 > great evil in it. For instance, I myself could not avoid asking two friends to
 > have a glass of something with me (God knows I could ill enough spare the 1s.
 > 6d.), so to avoid that I attempt to get out of it as honorably as I can. At
@@ -45,9 +45,11 @@ In [Milton](https://en.wikipedia.org/wiki/Milton,_New_Zealand), 1868, one corres
 > should have a kindly feeling for the hotelkeepers, considering the many
 > annoyances they have to put up with.
 
+[^tossing]: Probably referring to “heads or tails”.
+
 A contributor to <cite>The Bulletin</cite> describes playing the game with [Hōne Wētere](https://teara.govt.nz/en/biographies/2t29/te-rerenga-hone-wetere) (<abbr title="died">d.</abbr> 1889) during a stay in [Mōkau](https://en.wikipedia.org/wiki/Mokau):[@AGameOfEuchre] 
 
-> I played [Euchre] fair and owed Wetere three sacks of potatoes and a pig.
+> I played [[Euchre](games/euchre/euchre.md)] fair and owed Wetere three sacks of potatoes and a pig.
 >
 > Then we tried Yankee grab.
 >
@@ -59,8 +61,7 @@ A contributor to <cite>The Bulletin</cite> describes playing the game with [Hōn
 > “Oh! It mean ‘Be plenty strong all the time,’” said he.
 >
 > “Well, Wetere, you’re too jolly strong for me!” said I, picking up a “tat” all
-> fives and sixes that he had rung in.{%fn%}Wētere has been using a modified die
-> that is only marked with 5s and 6s.{%endfn%} “Where you get him?”
+> fives and sixes that he had rung in.[^tat] “Where you get him?”
 > 
 > “[Kimball Bent](https://en.wikipedia.org/wiki/Kimball_Bent) make him for me.
 > You no tell [Mitchelson](https://en.wikipedia.org/wiki/Edwin_Mitchelson)?”
@@ -72,7 +73,11 @@ A contributor to <cite>The Bulletin</cite> describes playing the game with [Hōn
 > “No, Wetere! Bet your life I won’t.”
 >
 > And that’s the last time I gambled with a gentleman who played with a
-> greenstone club within arm’s length.
+> greenstone club[^mere] within arm’s length.
+
+[^tat]: Wētere has been using a modified die that is only marked with 5s and 6s.
+
+[^mere]: i.e. a <span lang="mi">mere pounamu</span>, a [traditional Māori club (<span lang="mi">mere</span>)](https://en.wikipedia.org/wiki/Mere_(weapon)) which in this case has been made from greenstone ([<span lang="mi">pounamu</span>](https://en.wikipedia.org/wiki/Pounamu)) as a symbol of prestige.
 
 ## Multiplication
 

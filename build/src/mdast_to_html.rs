@@ -65,6 +65,7 @@ pub fn to_html(
         img_manifest: images,
         used_bib: Default::default(),
         cite_count: 0,
+        header_stack: Vec::new(),
     }
     .convert_whole(node)
 }
@@ -78,6 +79,7 @@ struct Converter<'a> {
     bibliography: &'a RenderedBibliography,
     used_bib: IndexMap<String, Vec<String>>, // need to preserve insertion order
     cite_count: usize,
+    header_stack: Vec<usize>,
 }
 
 fn index_to_string(mut index: u32) -> String {
@@ -232,6 +234,7 @@ impl Converter<'_> {
     fn convert_whole(&mut self, root: &Node) -> Result<Markup> {
         let result = html! {
             (self.convert(false, root)?)
+            (self.do_sections(0))
             @if !self.used_bib.is_empty() {
                 h2 #references { "References" }
                 ol.reference-list type="A" {
@@ -334,22 +337,40 @@ impl Converter<'_> {
                 let children = self.expand(&heading.children)?;
                 match heading.depth {
                     1 => {
-                        html! { h1 { (children) } }
+                        html! {
+                            (self.do_sections(1))
+                            h1 { (children) }
+                        }
                     }
                     2 => {
-                        html! { h2 { (children) } }
+                        html! {
+                            (self.do_sections(2))
+                            h2 { (children) }
+                        }
                     }
                     3 => {
-                        html! { h3 { (children) } }
+                        html! {
+                            (self.do_sections(3))
+                            h3 { (children) }
+                        }
                     }
                     4 => {
-                        html! { h4 { (children) } }
+                        html! {
+                            (self.do_sections(4))
+                            h4 { (children) }
+                        }
                     }
                     5 => {
-                        html! { h5 { (children) } }
+                        html! {
+                            (self.do_sections(5))
+                            h5 { (children) }
+                        }
                     }
                     6 => {
-                        html! { h6 { (children) } }
+                        html! {
+                            (self.do_sections(6))
+                            h6 { (children) }
+                        }
                     }
                     _ => unreachable!(),
                 }
@@ -437,6 +458,25 @@ impl Converter<'_> {
         Ok(result)
     }
 
+    fn do_sections(&mut self, new_header: usize) -> Markup {
+        let mut result = String::new();
+        while let Some(last_header) = self.header_stack.last() {
+            if new_header > *last_header {
+                break;
+            }
+
+            result.push_str("</section>");
+            self.header_stack.pop();
+        }
+
+        if new_header > 0 {
+            self.header_stack.push(new_header);
+            result.push_str("<section>");
+        }
+
+        maud::PreEscaped(result)
+    }
+
     fn handle_component_text(&mut self, text: &MdxJsxTextElement) -> Result<Markup> {
         // Some preloaded abbreviations for ease of use
         if text.name.as_deref() == Some("abbr") {
@@ -463,14 +503,17 @@ impl Converter<'_> {
         let result = match text.name.as_deref() {
             Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
                 let attributes = extract_attributes(&text.attributes)?;
+                let empty = el_name == "br";
                 html! {
                     (maud::PreEscaped(format!("<{}", el_name)))
                     @for attr in &attributes {
-                        " " (attr.0) "=\"" (attr.1) "\""
+                        " " (attr.0) (maud::PreEscaped("=\"")) (attr.1) (maud::PreEscaped("\""))
                     }
                     (maud::PreEscaped(">"))
                     (self.expand(&text.children)?)
-                    (maud::PreEscaped(format!("</{}>", el_name)))
+                    @if !empty {
+                        (maud::PreEscaped(format!("</{}>", el_name)))
+                    }
                 }
             }
             Some("Pronounce") => {
@@ -594,14 +637,17 @@ impl Converter<'_> {
         let result = match flow.name.as_deref() {
             Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
                 let attributes = extract_attributes(&flow.attributes)?;
+                let empty = el_name == "br";
                 html! {
                     (maud::PreEscaped(format!("<{}", el_name)))
                     @for attr in attributes {
-                        " " (attr.0) "=\"" (attr.1) "\""
+                        " " (attr.0) (maud::PreEscaped("=\"")) (attr.1) (maud::PreEscaped("\""))
                     }
                     (maud::PreEscaped(">"))
                     (self.expand(&flow.children)?)
-                    (maud::PreEscaped(format!("</{}>", el_name)))
+                    @if !empty {
+                        (maud::PreEscaped(format!("</{}>", el_name)))
+                    }
                 }
             }
             _ => return Err(eyre!("unknown component: {:?}", flow.name)),
@@ -819,6 +865,12 @@ impl Converter<'_> {
                 } else if let Some(lang) = trimmed.strip_prefix("[!lang]") {
                     return Ok(html! {
                         div lang=(lang.trim()) {
+                            (self.expand(&blockquote.children[1..])?)
+                        }
+                    });
+                } else if let Some(lang) = trimmed.strip_prefix("[!langv]") {
+                    return Ok(html! {
+                        div.vertical-rl lang=(lang.trim()) {
                             (self.expand(&blockquote.children[1..])?)
                         }
                     });

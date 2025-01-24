@@ -1,7 +1,7 @@
 #![recursion_limit = "512"]
 
 use std::{
-    borrow::Cow,
+    borrow::{Borrow, Cow},
     collections::{BTreeMap, HashSet},
     error::Error,
     ffi::OsStr,
@@ -13,12 +13,14 @@ use std::{
 use bib_render::RenderedBibliography;
 use bibliography::Bibliography;
 use clap::Parser;
-use eyre::{bail, eyre, Context, ContextCompat, Result};
+use eyre::{bail, eyre, Context, ContextCompat, OptionExt, Result};
 use markdown::{mdast, ParseOptions};
 use maud::Markup;
 use serde::Deserialize;
-use tracing::{debug, info};
+use templates::{ArticleMetadata, BaseMetadata, GameMetadata, Templater};
+use tracing::{debug, info, warn};
 use tracing_subscriber::{fmt::format::FmtSpan, EnvFilter};
+use url::Url;
 
 mod bib_render;
 mod bib_to_csl;
@@ -38,13 +40,149 @@ struct Args {
 
     #[arg(short, long)]
     image_manifest: PathBuf,
+
+    #[arg(short, long)]
+    draft: bool,
 }
 
-struct File {
+struct File<M> {
     file_path: PathBuf,
-    url_path: String,
+    url_path: Cow<'static, str>,
     content: mdast::Node,
-    header: saphyr::Yaml,
+    metadata: M,
+}
+
+type Header = BTreeMap<String, saphyr::Yaml>;
+
+trait YamlHeader: Sized {
+    fn from_header(header: &mut Header) -> Result<Self>;
+}
+
+fn take_header(header: &mut Header, key: &str) -> saphyr::Yaml {
+    header.remove(key).unwrap_or(saphyr::Yaml::BadValue)
+}
+
+impl YamlHeader for ArticleHeader {
+    fn from_header(header: &mut Header) -> Result<Self> {
+        let ymd = time::macros::format_description!("[year]-[month]-[day]");
+
+        let title = take_header(header, "title")
+            .into_string()
+            .ok_or_eyre("missing title")?;
+
+        let title_lang = take_header(header, "titleLang").into_string();
+
+        let original_title = take_header(header, "originalTitle")
+            .into_string()
+            .map(maud::PreEscaped); // TODO: html sanitization
+
+        let date_created = take_header(header, "date created")
+            .as_str()
+            .map(|s| time::Date::parse(s, ymd))
+            .transpose()
+            .wrap_err("parsing 'date created'")?;
+
+        let date_modified = take_header(header, "date modified")
+            .as_str()
+            .map(|s| time::Date::parse(s, ymd))
+            .transpose()
+            .wrap_err("parsing 'date modified'")?;
+
+        let draft = take_header(header, "draft").into_bool().unwrap_or_default();
+
+        Ok(ArticleHeader {
+            title,
+            title_lang,
+            original_title,
+            date_modified,
+            date_created,
+            draft,
+        })
+    }
+}
+
+impl YamlHeader for GameHeader {
+    fn from_header(header: &mut Header) -> Result<Self> {
+        let article_meta = ArticleHeader::from_header(header)?;
+        let countries = take_header(header, "countries")
+            .into_string()
+            .map(|s| s.split(',').map(|s| s.to_string()).collect())
+            .unwrap_or_default();
+
+        let equipment = take_header(header, "equipment").into_string();
+        let players = take_header(header, "players").into_string();
+
+        Ok(GameHeader {
+            article_meta,
+            countries,
+            equipment,
+            players,
+        })
+    }
+}
+
+pub struct ArticleHeader {
+    title: String,
+    title_lang: Option<String>,
+    original_title: Option<Markup>,
+    date_modified: Option<time::Date>,
+    date_created: Option<time::Date>,
+    draft: bool,
+}
+
+impl<T: Borrow<ArticleHeader>> BaseMetadata for File<T> {
+    fn title(&self) -> &str {
+        &self.metadata.borrow().title
+    }
+
+    fn title_lang(&self) -> Option<&str> {
+        self.metadata.borrow().title_lang.as_deref()
+    }
+
+    fn original_title(&self) -> Option<&Markup> {
+        self.metadata.borrow().original_title.as_ref()
+    }
+
+    fn og_type(&self) -> Option<&str> {
+        Some("article")
+    }
+
+    fn url_path(&self) -> &str {
+        &self.url_path
+    }
+}
+
+impl<T: Borrow<ArticleHeader>> ArticleMetadata for File<T> {
+    fn date_modified(&self) -> Option<time::Date> {
+        self.metadata.borrow().date_modified
+    }
+}
+
+impl GameMetadata for File<GameHeader> {
+    fn countries(&self) -> &[String] {
+        &self.metadata.countries
+    }
+
+    fn equipment(&self) -> Option<&str> {
+        self.metadata.equipment.as_deref()
+    }
+
+    fn players(&self) -> Option<&str> {
+        self.metadata.players.as_deref()
+    }
+}
+
+pub struct GameHeader {
+    article_meta: ArticleHeader,
+    countries: Vec<String>,
+    equipment: Option<String>,
+    players: Option<String>,
+}
+
+impl std::borrow::Borrow<ArticleHeader> for GameHeader {
+    fn borrow(&self) -> &ArticleHeader {
+        &self.article_meta
+    }
 }
 
 struct OutputFile {
@@ -53,12 +191,12 @@ struct OutputFile {
 }
 
 #[derive(Default, Debug)]
-struct ArticleNode {
-    name: Option<String>,
-    children: ArticleTree,
+struct ArticleNode<'a> {
+    name: Option<&'a str>,
+    children: ArticleTree<'a>,
 }
 
-type ArticleTree = BTreeMap<String, ArticleNode>;
+type ArticleTree<'a> = BTreeMap<String, ArticleNode<'a>>;
 
 type ImageManifest = BTreeMap<String, ImageManifestEntry>;
 
@@ -76,11 +214,17 @@ struct Builder {
     base_path: PathBuf,
     output_path: PathBuf,
 
+    templater: Templater,
+
     bibliography: Bibliography,
-    articles: Vec<File>,
-    games: Vec<File>,
+    rendered_bibliography: RenderedBibliography,
+
+    articles: Vec<File<ArticleHeader>>,
+    games: Vec<File<GameHeader>>,
     images: ImageManifest,
     output_files: Vec<OutputFile>,
+
+    parse_options: ParseOptions,
 }
 
 impl Builder {
@@ -88,18 +232,33 @@ impl Builder {
         let manifest =
             std::fs::read_to_string(image_manifest).wrap_err("loading image manifest")?;
         let images = serde_json::de::from_str(&manifest).wrap_err("parsing image manifest")?;
+
+        let mut parse_options = ParseOptions::default();
+        parse_options.constructs.frontmatter = true;
+        parse_options.constructs.gfm_strikethrough = true;
+        parse_options.constructs.gfm_table = true;
+        parse_options.constructs.gfm_footnote_definition = true;
+        parse_options.constructs.gfm_label_start_footnote = true;
+        parse_options.constructs.html_flow = false;
+        parse_options.constructs.html_text = false;
+        parse_options.constructs.mdx_jsx_flow = true;
+        parse_options.constructs.mdx_jsx_text = true;
+
         Ok(Self {
             base_path,
             output_path,
+            templater: Templater::new(Url::parse("https://games.porg.es/").unwrap()),
             articles: Vec::new(),
             games: Vec::new(),
             output_files: Vec::new(),
             bibliography: Bibliography::default(),
+            rendered_bibliography: RenderedBibliography::default(),
             images,
+            parse_options,
         })
     }
 
-    fn load(&mut self, file_filter: &dyn Fn(&Path) -> bool) -> Result<(), Box<dyn Error>> {
+    fn load(&mut self, drafts: bool, file_filter: &dyn Fn(&Path) -> bool) -> Result<()> {
         let target_bib = self.base_path.join("bibliography.yaml");
 
         {
@@ -109,6 +268,7 @@ impl Builder {
                 .context("Running `yq` to convert bibliography")?;
 
             self.bibliography = serde_json::from_slice(&converted_bib.stdout)?;
+            self.rendered_bibliography = bib_render::to_rendered(&self.bibliography);
 
             info!(
                 "Loaded bibliography ({} entries)",
@@ -121,8 +281,8 @@ impl Builder {
         info!("Writing CSL for Obsidian plugin");
         std::fs::write(self.base_path.join("../bib.json"), csl.to_string())?;
 
-        self.articles = self.load_files("articles", file_filter)?;
-        self.games = self.load_files("games", file_filter)?;
+        self.articles = self.load_files("articles", drafts, file_filter)?;
+        self.games = self.load_files("games", drafts, file_filter)?;
 
         info!(
             "Loaded {} articles, {} games",
@@ -133,22 +293,12 @@ impl Builder {
         Ok(())
     }
 
-    fn load_files(
+    fn load_files<M: YamlHeader>(
         &self,
         rel: &str,
+        drafts: bool,
         filter: &dyn Fn(&Path) -> bool,
-    ) -> Result<Vec<File>, Box<dyn Error>> {
-        let mut parse_options = ParseOptions::default();
-        parse_options.constructs.frontmatter = true;
-        parse_options.constructs.gfm_strikethrough = true;
-        parse_options.constructs.gfm_table = true;
-        parse_options.constructs.gfm_footnote_definition = true;
-        parse_options.constructs.gfm_label_start_footnote = true;
-        parse_options.constructs.html_flow = false;
-        parse_options.constructs.html_text = false;
-        parse_options.constructs.mdx_jsx_flow = true;
-        parse_options.constructs.mdx_jsx_text = true;
-
+    ) -> Result<Vec<File<M>>> {
         let mut to_visit = vec![self.base_path.join(rel)];
 
         let mut result = Vec::new();
@@ -167,47 +317,67 @@ impl Builder {
                             continue;
                         }
 
-                        let data = std::fs::read_to_string(&entry_path)?;
-                        // normal markdown cannot cause syntax errors
-                        let content = markdown::to_mdast(&data, &parse_options)
-                            .map_err(|e| format!("couldn't parse {}: {e}", entry_path.display()))
-                            .unwrap();
-                        let header = mdast_to_html::get_header(&content).unwrap();
-                        let yaml_header = saphyr::Yaml::load_from_str(&header.value)
-                            .unwrap()
-                            .into_iter()
-                            .next()
-                            .unwrap();
-
-                        if yaml_header["draft"].as_bool().unwrap_or(false) {
-                            continue;
-                        }
-
-                        let rel_path = entry_path.strip_prefix(&self.base_path)?;
-
-                        let mut url_path = rel_path.with_extension("");
-
-                        // folder note handling:
-                        if url_path.file_name() == url_path.parent().and_then(|p| p.file_name()) {
-                            url_path.pop();
-                        }
-
-                        let mut url_path = url_path.to_string_lossy().replace('\\', "/");
-                        url_path.insert(0, '/');
-                        url_path.push('/');
-
-                        result.push(File {
-                            file_path: entry_path,
-                            url_path,
-                            content,
-                            header: yaml_header,
-                        });
+                        result.push(self.load_file(entry_path)?);
                     }
                 }
             }
         }
 
         Ok(result)
+    }
+
+    fn load_file<M: YamlHeader>(&self, file_path: PathBuf) -> Result<File<M>> {
+        let data = std::fs::read_to_string(&file_path)?;
+        // normal markdown cannot cause syntax errors
+        let content = markdown::to_mdast(&data, &self.parse_options)
+            .map_err(|e| format!("couldn't parse {}: {e}", file_path.display()))
+            .unwrap();
+        let header = mdast_to_html::get_header(&content).unwrap();
+        let header = saphyr::Yaml::load_from_str(&header.value)
+            .unwrap()
+            .into_iter()
+            .next()
+            .unwrap()
+            .into_hash()
+            .unwrap();
+
+        let mut header = header
+            .into_iter()
+            .map(|(k, v)| (k.into_string().unwrap(), v))
+            .collect::<Header>();
+
+        let metadata = M::from_header(&mut header)
+            .wrap_err_with(|| eyre!("parsing metadata in {}", file_path.display()))?;
+
+        if let Some(k) = header.keys().next() {
+            warn!(
+                "unused YAML metadata key `{}` in {}",
+                k,
+                file_path.display()
+            );
+            // warn about one unused key per file
+        }
+
+        let rel_path = file_path.strip_prefix(&self.base_path)?;
+
+        let mut url_path = rel_path.with_extension("");
+
+        // folder note handling:
+        // a file 'xyz' in a folder 'xyz' should be served at /xyz/ not /xyz/xyz/
+        if url_path.file_name() == url_path.parent().and_then(|p| p.file_name()) {
+            url_path.pop();
+        }
+
+        let mut url_path = url_path.to_string_lossy().replace('\\', "/");
+        url_path.insert(0, '/');
+        url_path.push('/');
+
+        Ok(File {
+            file_path,
+            url_path: url_path.into(),
+            content,
+            metadata,
+        })
     }
 
     fn build_article_tree(&self) -> Result<ArticleNode> {
@@ -222,7 +392,7 @@ impl Builder {
                 bail!("duplicate articles for path: {}", article.url_path);
             }
 
-            node.name = article.header["title"].as_str().map(|s| s.to_string());
+            node.name = Some(&article.metadata.title);
         }
 
         Ok(tree)
@@ -230,38 +400,40 @@ impl Builder {
 
     fn generate_other_files(&mut self) -> Result<(), Box<dyn Error>> {
         self.output_files.extend([
-            OutputFile {
-                url_path: "/about/".into(),
-                content: templates::about("/about/"),
-            },
+            self.generate_article(
+                &self.load_file::<ArticleHeader>(self.base_path.join("about.md"))?,
+                None,
+            )?,
             OutputFile {
                 url_path: "/bibliography/".into(),
-                content: templates::bibliography("/bibliography/", &self.bibliography),
+                content: self.templater.bibliography(&self.bibliography),
             },
             OutputFile {
                 url_path: "/".into(),
-                content: templates::welcome(""),
+                content: self.templater.welcome(),
             },
             OutputFile {
                 url_path: "/games/".into(),
-                content: templates::games("/games/", &self.games),
+                content: self.templater.games(&self.games),
             },
         ]);
 
         Ok(())
     }
 
-    fn generate_article(
+    fn generate_article<T>(
         &self,
-        article: &File,
-        rendered_bib: &RenderedBibliography,
+        article: &File<T>,
         article_tree: Option<&ArticleNode>,
-    ) -> Result<OutputFile> {
+    ) -> Result<OutputFile>
+    where
+        File<T>: ArticleMetadata + BaseMetadata,
+    {
         let content = mdast_to_html::to_html(
             &self.base_path,
             &article.file_path,
             &article.content,
-            rendered_bib,
+            &self.rendered_bibliography,
             &self.images,
         )
         .wrap_err("rendering HTML")?;
@@ -274,56 +446,42 @@ impl Builder {
                     .get(part)
                     .wrap_err_with(|| eyre!("missing parent article `{part}`"))?;
 
-                breadcrumbs.push((part, tree.name.as_deref()));
+                breadcrumbs.push((part, tree.name));
             }
         }
 
-        let templated = templates::article(
-            article.header["title"].as_str().unwrap_or_default(),
-            article.header["titleLang"].as_str(),
-            article.header["originalTitle"].as_str(),
-            "https://games.porg.es/",
-            &article.url_path,
-            &breadcrumbs,
-            content,
-            article.header["date modified"]
-                .as_str()
-                .map(|s| {
-                    time::Date::parse(s, time::macros::format_description!("[year]-[month]-[day]"))
-                })
-                .transpose()
-                .wrap_err("parsing 'date modified'")?,
-        );
+        let content = self
+            .templater
+            .article(article, content, &breadcrumbs)
+            .wrap_err("templating content")?;
 
-        let content = templated.wrap_err("templating content")?;
         Ok(OutputFile {
-            url_path: article.url_path.clone().into(),
+            url_path: article.url_path.to_string().into(),
             content,
         })
     }
 
     fn generate(&mut self) -> Result<(), Box<dyn Error>> {
+        let mut output_files = Vec::new();
         let article_tree = self.build_article_tree()?;
-        let rendered_bib = bib_render::to_rendered(&self.bibliography);
 
         for article in &self.articles {
-            let path = article.file_path.clone();
             let output = self
-                .generate_article(article, &rendered_bib, Some(&article_tree))
-                .wrap_err_with(|| eyre!("couldn’t export {}", path.display()))?;
+                .generate_article(&article, Some(&article_tree))
+                .wrap_err_with(|| eyre!("couldn’t export {}", article.file_path.display()))?;
 
-            self.output_files.push(output);
+            output_files.push(output);
         }
 
-        for article in &self.games {
-            let path = article.file_path.clone();
+        for game in &self.games {
             let output = self
-                .generate_article(article, &rendered_bib, None)
-                .wrap_err_with(|| eyre!("couldn’t export {}", path.display()))?;
+                .generate_article(game, None)
+                .wrap_err_with(|| eyre!("couldn’t export {}", game.file_path.display()))?;
 
-            self.output_files.push(output);
+            output_files.push(output);
         }
 
+        self.output_files.extend(output_files);
         self.generate_other_files()?;
         Ok(())
     }
@@ -387,14 +545,17 @@ fn main() -> Result<(), Box<dyn Error>> {
                     hash_set.len(),
                     hash_set
                 );
-            }
 
-            Box::new(move |p: &Path| hash_set.contains(p))
+                Box::new(move |p: &Path| hash_set.contains(p))
+            } else {
+                info!("No modified files, exiting");
+                return Ok(());
+            }
         } else {
             Box::new(|_: &Path| true)
         };
 
-    builder.load(&file_filter)?;
+    builder.load(args.draft, &file_filter)?;
     builder.generate()?;
     builder.output()?;
 

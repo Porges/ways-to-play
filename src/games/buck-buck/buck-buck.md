@@ -3,13 +3,9 @@ title: "Buck, Buck"
 draft: true
 equipment: Physical
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-01-23
 ---
-
 “<span class="aka">Buck, Buck</span>” — or, in its full version, “<span class="aka">Buck, Buck, How Many Fingers Do I Hold Up?</span>” — is a children’s game with a surprisingly long history.
-
-{/* excerpt */}
-
 
 See: [@LondonStreetGames p. 31], [@Petroniana1959], [@Petroniana1960]
 

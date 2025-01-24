@@ -12,6 +12,8 @@ subgames:
   titleLang: ja-Latn
   countries: JP
   originalTitle: <span lang="ja" class="aka">樗蒲一</span>
+date created: 2024-12-18
+date modified: 2025-01-24
 ---
 
 <p class="lead"><span lang="fil" class="noun aka">Prinola</span> is a {%a staking-games,simple staking game%} that used to be played in the Philippines. The name is derived from the Spanish <span lang="es">pirinola</span>, a spinning-top or teetotum.</p>
@@ -36,7 +38,7 @@ The only source I have found for the game is that of Stewart Culin. He also says
 
 <span lang="fil-Latn" class="noun">Prinola</span> is played using a staking layout containing symbols for the dice results <Dice type="chinese">1</Dice> through <Dice type="chinese">6</Dice>, and a six-sided teetotum. The teetotum is usually spun in a shallow dish.
 
-Alternately, the teetotum can also be decorated with animals or other images, in much the same way as the Chinese versions of {%gameref crown-and-anchor%}.
+Alternately, the teetotum can also be decorated with animals or other images, in much the same way as the Chinese versions of [Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md).
 
 > [!figure]
 >

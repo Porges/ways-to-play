@@ -31,8 +31,8 @@ countries: KR
 >
 > ```yaml
 > noborder: true
-> size: "extra-small"
-> silent: true
+> size: "small"
+> hidden: true
 > authorFamily: "Richert"
 > authorGiven: "Marcus"
 > copyrightYear: 2021
@@ -58,8 +58,8 @@ Highest combination in the game; cannot be beaten.
 >
 > ```yaml
 > noborder: true
-> size: "extra-small"
-> silent: true
+> size: "small"
+> hidden: true
 > authorFamily: "Richert"
 > authorGiven: "Marcus"
 > copyrightYear: 2021
@@ -79,8 +79,8 @@ Highest combination in the game; cannot be beaten.
 >
 > ```yaml
 > noborder: true
-> size: "extra-small"
-> silent: true
+> size: "small"
+> hidden: true
 > authorFamily: "Richert"
 > authorGiven: "Marcus"
 > copyrightYear: 2021
@@ -103,8 +103,8 @@ Highest combination in the game; cannot be beaten.
 >
 > ```yaml
 > noborder: true
-> size: "extra-small"
-> silent: true
+> size: "small"
+> hidden: true
 > justify: "centered"
 > authorFamily: "Richert"
 > authorGiven: "Marcus"
@@ -130,9 +130,9 @@ Highest combination in the game; cannot be beaten.
 >
 > ```yaml
 > noborder: true
-> size: "extra-small"
+> size: "small"
 > justify: "centered"
-> silent: true
+> hidden: true
 > authorFamily: "Richert"
 > authorGiven: "Marcus"
 > copyrightYear: 2021

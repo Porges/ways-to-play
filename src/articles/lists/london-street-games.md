@@ -2,10 +2,10 @@
 title: London Street Games (1916)
 order: 1916
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-01-23
 ---
 
-@LondonStreetGames is a very curious book which contains many (many) children’s games of many varieties. It somewhat rivals {%a rabelais,Rabelais%} in breadth! James Joyce raided this book for <a href="http://www.fweet.org/cgi-bin/gio?%3CLSG%3E">many of the games referenced</a> in <a href="https://en.wikipedia.org/wiki/Finnegans_Wake"><cite>Finnegan’s Wake</cite> (1939)</a>, however obliquely.
+@LondonStreetGames is a very curious book which contains many (many) children’s games of many varieties. It somewhat rivals [Rabelais](articles/lists/rabelais.md) in breadth! James Joyce raided this book for <a href="http://www.fweet.org/cgi-bin/gio?%3CLSG%3E">many of the games referenced</a> in <a href="https://en.wikipedia.org/wiki/Finnegans_Wake"><cite>Finnegan’s Wake</cite> (1939)</a>, however obliquely.
 
 The games from the book are listed below. The divisions are my own; the games are otherwise listed in the order that they appear in the original book.
 
@@ -423,7 +423,7 @@ Games for girls and boys:
 <li>Ugly Statues</li>
 <li>Pretty Statues</li>
 <li>Here We Go Up the Mulberry Tree</li>
-<li>I Sent a Letter To My Love (Lost Letter): see {%gameref circle-chases%}</li>
+<li>I Sent a Letter To My Love (Lost Letter): see [Circle Chases](games/circle-chases/circle-chases.md)</li>
 <li>Nick Nack Tolly Whack</li>
 <li>Looking Glass</li>
 <li>Goose-Gander</li>
