@@ -2,7 +2,7 @@
 title: In and In
 players: [2,3]
 equipment: Dice game
-countries: UK
+countries: GB
 date created: 2024-12-18
 date modified: 2025-01-23
 ---

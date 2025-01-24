@@ -6,6 +6,7 @@ use std::{
     ffi::OsStr,
     path::{Path, PathBuf},
     process::{self},
+    str::FromStr,
     vec,
 };
 
@@ -104,8 +105,12 @@ impl YamlHeader for GameHeader {
         let article_meta = ArticleHeader::from_header(header)?;
         let countries = take_header(header, "countries")
             .into_string()
-            .map(|s| s.split(',').map(|s| s.to_string()).collect())
-            .unwrap_or_default();
+            .unwrap_or_default()
+            .split(',')
+            .filter(|s| !s.is_empty())
+            .map(celes::Country::from_str)
+            .collect::<Result<Vec<celes::Country>, &'static str>>()
+            .map_err(|e| eyre!("error parsing countries: {e}"))?;
 
         let equipment = take_header(header, "equipment").into_string();
         let players = take_header(header, "players").into_string();
@@ -157,7 +162,7 @@ impl<T: Borrow<ArticleHeader>> ArticleMetadata for File<T> {
 }
 
 impl GameMetadata for File<GameHeader> {
-    fn countries(&self) -> &[String] {
+    fn countries(&self) -> &[celes::Country] {
         &self.metadata.countries
     }
 
@@ -172,7 +177,7 @@ impl GameMetadata for File<GameHeader> {
 
 pub struct GameHeader {
     article_meta: ArticleHeader,
-    countries: Vec<String>,
+    countries: Vec<celes::Country>,
     equipment: Option<String>,
     players: Option<String>,
 }

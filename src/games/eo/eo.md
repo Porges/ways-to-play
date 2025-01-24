@@ -2,7 +2,7 @@
 title: EO
 players: banking
 draft: true
-countries: UK
+countries: GB
 ---
 
 A basic inference must be that the 

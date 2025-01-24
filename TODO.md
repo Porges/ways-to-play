@@ -1,0 +1,2 @@
+- Only use a &lt;meta name&gt; for authors if their name is reversed, otherwise surround the spans. (Save data on the already very large bibliography.html)
+- Only insert &lt;bdi&gt; if the name is non-Latn?

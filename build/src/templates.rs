@@ -54,7 +54,7 @@ pub trait ArticleMetadata {
 }
 
 pub trait GameMetadata {
-    fn countries(&self) -> &[String];
+    fn countries(&self) -> &[celes::Country];
     fn players(&self) -> Option<&str>;
     fn equipment(&self) -> Option<&str>;
 }
@@ -321,7 +321,25 @@ impl Templater {
         &self,
         games: &[T],
     ) -> Result<OutputFile> {
-        let games_all = games.iter().sorted_by_key(|g| g.title());
+        let games_all = Vec::from_iter(games.iter().sorted_by_key(|g| g.title()));
+
+        let player_options = games_all
+            .iter()
+            .filter_map(|g| g.players())
+            .unique()
+            .sorted();
+
+        let country_options = games_all
+            .iter()
+            .flat_map(|g| g.countries())
+            .sorted()
+            .unique();
+
+        let equipment_options = games_all
+            .iter()
+            .filter_map(|g| g.equipment())
+            .sorted()
+            .unique();
 
         let content = html! {
             form #game-form {
@@ -330,14 +348,20 @@ impl Templater {
                         "Players: "
                         select name="players" {
                             option value="" { "any" }
+                            @for players in player_options {
+                                option value=(players) { (players) }
+                            }
                         }
                     }
                 }
                 div {
                     label {
                         "Country: "
-                        select name="countries" {
+                        select name="countries" data-contains="true" {
                             option value="" { "any" }
+                            @for country in country_options {
+                                option value=(country.alpha2) { (country.long_name) }
+                            }
                         }
                     }
                 }
@@ -346,16 +370,27 @@ impl Templater {
                         "Type/equipment: "
                         select name="equipment" {
                             option value="" { "any" }
+                            @for equipment in equipment_options {
+                                option value=(equipment) { (equipment) }
+                            }
                         }
                     }
                 }
             }
-            ul {
+            hr;
+            p.informational {
+                span #games-count { (games_all.len()) } " games found"
+            }
+            ul.columnar #games-list {
                 @for game in games_all {
-                    li data-name=(game.title()) data-countries=(game.countries().join(",")) data-players=[game.players()] data-equipment=[game.equipment()] {
+                    li data-name=(game.title()) data-countries=(game.countries().iter().map(|c| c.alpha2).join(",")) data-players=[game.players()] data-equipment=[game.equipment()] {
                         a href=(game.url_path()) {
-                            span lang=[game.title_lang()] {
+                            span.noun lang=[game.title_lang()] {
                                 (game.title())
+                            }
+
+                            @if let Some(original_title) = game.original_title() {
+                                " (" (original_title) ")"
                             }
                         }
                     }

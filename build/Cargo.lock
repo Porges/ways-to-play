@@ -200,6 +200,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "celes"
+version = "2.5.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "54441489dce7026efc8f01d1aa996c23fa39dd615a953d0e934433a42f61dd30"
+dependencies = [
+ "serde",
+]
+
+[[package]]
 name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1685,6 +1694,7 @@ checksum = "1e9df38ee2d2c3c5948ea468a8406ff0db0b29ae1ffde1bcf20ef305bcc95c51"
 name = "wtp-build"
 version = "0.1.0"
 dependencies = [
+ "celes",
  "clap",
  "dunce",
  "eyre",

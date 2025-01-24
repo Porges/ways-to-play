@@ -2,7 +2,7 @@
 title: Crown & Anchor
 mainImage: 'CA_StGeorge.jpg'
 players: banking
-countries: IN,NP,CN,AU,UK,VN,TH,LA,ID,MM,MY,BN,JM,BM,NZ,CA,KH,MG,BT,BD
+countries: IN,NP,CN,AU,GB,VN,TH,LA,ID,MM,MY,BN,JM,BM,NZ,CA,KH,MG,BT,BD
 hero:
     image: 'CA_StGeorge.jpg'
 equipment: Dice game (non-standard dice)

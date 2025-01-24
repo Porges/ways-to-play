@@ -4,14 +4,12 @@ players:
     min: 2
     max: 17
 equipment: Card game (standard deck)
-countries: UK
+countries: GB
 date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<p class="lead">
 Whehee is a 17th-century English children’s card game described in Francis Willughby’s (1635–1672) “Book of Games”, where it was entered by an unidentified young person.[@FrancisWillughby p. 160]
-</p>
 
 ## Rules
 

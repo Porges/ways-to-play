@@ -2,7 +2,7 @@
 title: Fan-Tan
 originalTitle: <span lang="yue">番攤</span>
 draft: true
-countries: US,UK,NZ,AU,HK,CN,TH,MY,SG,PH,MO,KH,LA
+countries: US,GB,NZ,AU,HK,CN,TH,MY,SG,PH,MO,KH,LA
 subgames:
 - title: Clebontang
   titleLang: ban-Latn

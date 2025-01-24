@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+celes = "2.5.0"
 clap = { version = "4.5.23", features = ["derive"] }
 dunce = "1.0.5"
 eyre = "0.6.12"

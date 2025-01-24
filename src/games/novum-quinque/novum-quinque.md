@@ -2,7 +2,7 @@
 title: Novum Quinque
 equipment: Dice game
 players: any
-countries: UK,FR,DE
+countries: GB,FR,DE
 date created: 2024-12-22
 date modified: 2025-01-17
 ---

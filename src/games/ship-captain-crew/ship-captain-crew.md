@@ -1,6 +1,6 @@
 ---
 title: Ship, Captain, and Crew
-countries: US,UK,NZ,MX
+countries: US,GB,NZ,MX
 subgames:
 - title: Ship, Captain
 - title: Die Familie Meier

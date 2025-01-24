@@ -3,7 +3,7 @@ title: Shoe the Mare
 players:
     minimum: 1
 equipment: Physical
-countries: UK
+countries: GB
 date created: 2024-12-22
 date modified: 2025-01-23
 ---

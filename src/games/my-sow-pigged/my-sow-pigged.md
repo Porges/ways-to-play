@@ -1,7 +1,7 @@
 ---
 title: My Sow (Has) Pigged
 equipment: Card game (standard deck)
-countries: UK
+countries: GB
 date created: 2024-12-22
 date modified: 2025-01-23
 ---

@@ -3,7 +3,7 @@ title: My Lady’s Hole
 players:
     minimum: 3
 equipment: Card game (standard deck)
-countries: UK
+countries: GB
 date created: 2024-12-22
 date modified: 2025-01-21
 ---

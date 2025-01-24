@@ -99,8 +99,16 @@ addEventListener('DOMContentLoaded', () => {
   if (!form) return;
   
   const selects = form.getElementsByTagName('select');
-  for (const select of selects) {
-    select.addEventListener('change', () => handleSelect(select));
+  {
+    // setup selects
+    const params = new URLSearchParams(window.location.search);
+    for (const select of selects) {
+      select.addEventListener('change', () => handleSelect(select));
+      const paramValue = params.get(select.name);
+      if (paramValue) {
+        select.value = paramValue;
+      }
+    }
   }
   
   runFilter();
@@ -120,27 +128,33 @@ addEventListener('DOMContentLoaded', () => {
   function runFilter() {
     const params = new URLSearchParams(window.location.search);
 
-    /** @type {Map<string, string>} */
-    const attrFilter = new Map(); 
+    /** @type {((target: Element) => boolean)[]} */
+    let conditions = []; 
     for (const select of selects) {
       const param = params.get(select.name);
       if (param) {
-        attrFilter.set(`data-${select.name}`, param);
+        /** @type {(target: Element) => boolean} */
+        const newFilter =
+          select.getAttribute('data-contains')
+          ? (target) => target.getAttribute(`data-${select.name}`).includes(param)
+          : (target) => target.getAttribute(`data-${select.name}`) === param;
+
+        conditions.push(newFilter);
       }
     }
     
-    const games = document.getElementById('games');
+    const games = document.getElementById('games-list');
+    
+    let shown = 0;
     for (const game of games.children) {
-      let show = true;
-      for (const [key, value] of attrFilter) {
-        if (game.getAttribute(key) !== value) {
-          show = false;
-          break;
-        }
-      }
-      
+      const show = conditions.every(condition => condition(game));
       game.hidden = !show;
+      if (show) {
+        shown++;
+      }
     }
+    
+    document.getElementById('games-count').textContent = shown;
   }
 
 });

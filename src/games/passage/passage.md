@@ -3,7 +3,7 @@ title: Passage
 equipment: Dice game
 players: 2
 mainImage: 314D003a.jpg
-countries: FR,UK
+countries: FR,GB
 ---
 
 > [!figure]
