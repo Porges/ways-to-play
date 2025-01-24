@@ -395,7 +395,7 @@ impl Builder {
         Ok(tree)
     }
 
-    fn generate_other_files(&mut self) -> Result<(), Box<dyn Error>> {
+    fn generate_other_files(&mut self) -> Result<()> {
         self.output_files.extend([
             self.generate_article(
                 &self.load_file::<ArticleHeader>(self.base_path.join("about.md"))?,
@@ -449,7 +449,7 @@ impl Builder {
             .wrap_err("templating article")
     }
 
-    fn generate(&mut self) -> Result<(), Box<dyn Error>> {
+    fn generate(&mut self) -> Result<()> {
         let mut output_files = Vec::new();
         let article_tree = self.build_article_tree()?;
 
@@ -474,7 +474,7 @@ impl Builder {
         Ok(())
     }
 
-    fn output(self) -> Result<(), Box<dyn Error>> {
+    fn output(self) -> Result<()> {
         info!(
             "Generating {} outputs in {}",
             self.output_files.len(),
@@ -498,7 +498,7 @@ impl Builder {
     }
 }
 
-fn main() -> Result<(), Box<dyn Error>> {
+fn main() -> Result<()> {
     tracing_subscriber::fmt::fmt()
         .with_env_filter(EnvFilter::from_default_env())
         .with_span_events(FmtSpan::CLOSE | FmtSpan::ENTER)
