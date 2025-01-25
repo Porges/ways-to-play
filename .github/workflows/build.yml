@@ -3,26 +3,16 @@ on:
   pull_request:
     branches:
     - main
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-
-    - name: Cache image files
-      uses: actions/cache@v4
-      with:
-        path: public/img
-        key: ${{ runner.os }}-images-${{ hashFiles('src/**/*.png', 'src/**/*.jpe?g', 'src/**/*.gif', 'src/**/*.svg') }}
-        restore-keys: ${{ runner.os }}-images-
-
-    - uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-
-    - run: npm install 
-    - run: npm run-script build
-      env:
-        CI: true
+    - name: Build site
+      run: ./build.ps1
+    - name: Validate HTML
+      run: |
+        wget https://github.com/validator/validator/releases/download/20.6.30/vnu.linux.zip -O vnu.linux.zip
+        unzip vnu.linux.zip
+        vnu-runtime-image/bin/vnu --skip-non-html public
