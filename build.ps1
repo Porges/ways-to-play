@@ -92,6 +92,8 @@ function Resize-Images {
                             'mpr:x'
                             '-resize'
                             "$($_)x$($_)>"
+                            '-colorspace'
+                            'sRGB'
                             '-quality'
                             '80'
                             '-write'
@@ -100,7 +102,7 @@ function Resize-Images {
                         )
                     }
 
-                    magick $path -write mpr:x +delete @magick_args null:
+                    magick $path -colorspace RGB -write mpr:x +delete @magick_args null:
                     New-Item -ItemType SymbolicLink -Path $origPath -Value $absPath -ErrorAction SilentlyContinue > $null
                 }
             }
@@ -149,7 +151,7 @@ function Build-HTML {
 }
 
 Copy-StaticContent
-# Resize-Images
+Resize-Images
 Build-Builder
 Build-HTML
 
