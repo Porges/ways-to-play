@@ -512,9 +512,9 @@ fn main() -> Result<()> {
     }
 
     let mut builder = Builder::new(
-        dunce::canonicalize(args.input)?,
-        dunce::canonicalize(args.output)?,
-        dunce::canonicalize(args.image_manifest)?,
+        dunce::canonicalize(args.input).wrap_err("resolving input dir")?,
+        dunce::canonicalize(args.output).wrap_err("resolving output dir")?,
+        dunce::canonicalize(args.image_manifest).wrap_err("resolving image manifest")?,
     )?;
 
     let file_filter: Box<dyn Fn(&Path) -> bool> =
