@@ -15,10 +15,20 @@ jobs:
         mkdir "$HOME/bin"
         wget -q 'https://imagemagick.org/archive/binaries/magick' -O "$HOME/bin/magick"
         chmod +x "$HOME/bin/magick"
+    - uses: actions/cache@v4
+      id: image-cache
+      with:
+        path: public/img
+        key: images-${{ hashFiles('src/**/*.png', 'src/**/*.jpe?g', 'src/**/*.gif', 'src/**/*.svg') }}
+        restore-keys: images-
     - name: Build site
       run: |
         export PATH="$HOME/bin:$PATH"
-        ./build.ps1
+        if "${{ steps.image-cache.outputs.cache-hit }}" == "true"; then
+          ./build.ps1 -skipimages
+        else
+          ./build.ps1
+        fi
     - name: Validate HTML
       run: |
         wget https://github.com/validator/validator/releases/download/20.6.30/vnu.linux.zip -O vnu.linux.zip

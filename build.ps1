@@ -1,6 +1,7 @@
 #!/bin/env pwsh
 param(
-    [switch]$watch = $false
+    [switch]$watch = $false,
+    [switch]$skipimages = $false
 )
 
 $ErrorActionPreference = 'Stop'
@@ -151,7 +152,9 @@ function Build-HTML {
 }
 
 Copy-StaticContent
-Resize-Images
+if (-not $skipimages) {
+    Resize-Images
+}
 Build-Builder
 
 if ($watch) {
