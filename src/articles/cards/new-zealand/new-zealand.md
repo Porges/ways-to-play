@@ -4,6 +4,7 @@ mainImage: 22738050.jpg
 date created: 2024-12-22
 date modified: 2025-02-03
 ---
+# Playing Cards in New Zealand
 
 Manufacturing of playing cards in New Zealand started in the 1880s. Despite this
 early start, there have not been many manufacturers of playing-cards.

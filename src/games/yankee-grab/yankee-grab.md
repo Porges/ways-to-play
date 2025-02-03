@@ -8,19 +8,18 @@ equipment: Dice game
 date created: 2024-12-22
 date modified: 2025-01-22
 ---
+# Yankee Grab
 
 Yankee Grab was a dice game that became popular in New Zealand and Australia during the 19th-century goldrushes.
 
 It is documented around 1870 in @TheModernPocketHoyle4 [p. 311], under the name “<span class="aka">Going to Boston</span>”.[^fn0] By 1894 it was also called “<span class="aka">Newmarket</span>”,[@SharpsAndFlats p. 250] and in the 1930s it was also called “<span class="aka">Rolling Down to Rio Rita</span>” in New York.[@WithSkullAndBones]
 
 [^fn0]: It does not appear in the first edition of that book which was published in 1868,[@TheModernPocketHoyle1] and these games wouldn’t appear in the non-“pocket” version of the American Hoyle until 1874.[@TheAmericanHoyle8 p. 479]
-
 ## Play
 
 The game is played with three dice. Each player has one turn which consists of three attempts at rolling the dice. After each roll, the player must set one die aside and continue rolling the remainder. The goal is to roll the highest total sum showing on the dice after all attempts have been completed. A player can stop early if they are satisfied with their score.
 
 A later development in the “colonies” was that <Dice>1</Dice> showing on the die was counted as 7 points, so that the highest roll was <Dice>111</Dice> for 21 points.[@SharpsAndFlats p. 250]
-
 
 ## History
 

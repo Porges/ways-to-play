@@ -1,9 +1,11 @@
 ---
-title: Japanese Cards (<span lang="ja-Latn">Karuta</span>)
+title: 'Japanese Cards (<span lang="ja-Latn">Karuta</span>)'
+date created: 2024-12-18
+date modified: 2025-02-03
 ---
+# Japanese Cards (<span lang="ja-Latn">Karuta</span>)
 
-<span lang="ja-Latn" class="noun">Karuta</span> (<span lang="ja">かるた</span>)
-is the general name for Japanese playing cards, derived from the Portuguese word
+<span lang="ja-Latn" class="noun">Karuta</span> (<span lang="ja">かるた</span>) is the general name for Japanese playing cards, derived from the Portuguese word
 for playing cards, <span lang="pt">carta</span>.
 
 > [!figure]

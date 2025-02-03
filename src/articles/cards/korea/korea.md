@@ -1,8 +1,11 @@
 ---
-title: Korean playing cards
+title: Korean Playing Cards
 draft: true
----
+date created: 2024-12-18
 
+date modified: 2025-02-03
+---
+# Korean Playing Cards
 
 Tuejon images:
 

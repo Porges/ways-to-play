@@ -2,9 +2,11 @@
 title: Fan Tan (Card Game)
 draft: true
 equipment: Card game (standard deck)
+date created: 2024-12-18
+date modified: 2025-02-03
 ---
 
-Refs: [@CardGamesAroundTheWorld, p. 65]
+Refs: [@CardGamesAroundTheWorld p. 65]
 
 
 called Flinch, 1904 USA? https://www-newspapers-com.wikipedialibrary.idm.oclc.org/image/864770993/?terms=ping%20%22Chinese%20game%22&match=1
