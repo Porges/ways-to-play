@@ -24,11 +24,7 @@ jobs:
     - name: Build site
       run: |
         export PATH="$HOME/bin:$PATH"
-        if "${{ steps.image-cache.outputs.cache-hit }}" == "true"; then
-          ./build.ps1 -skipimages
-        else
-          ./build.ps1
-        fi
+        ./build.ps1
     - name: Validate HTML
       run: |
         wget https://github.com/validator/validator/releases/download/20.6.30/vnu.linux.zip -O vnu.linux.zip
