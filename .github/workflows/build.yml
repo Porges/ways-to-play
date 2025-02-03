@@ -16,7 +16,9 @@ jobs:
         wget 'https://imagemagick.org/archive/binaries/magick' -O "$HOME/bin/magick"
         chmod +x "$HOME/bin/magick"
     - name: Build site
-      run: ./build.ps1
+      run: |
+        export PATH="$HOME/bin:$PATH"
+        ./build.ps1
     - name: Validate HTML
       run: |
         wget https://github.com/validator/validator/releases/download/20.6.30/vnu.linux.zip -O vnu.linux.zip

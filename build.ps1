@@ -151,7 +151,7 @@ function Build-HTML {
 }
 
 Copy-StaticContent
-# Resize-Images
+Resize-Images
 Build-Builder
 
 if ($watch) {
