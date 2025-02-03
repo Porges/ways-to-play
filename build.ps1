@@ -102,7 +102,7 @@ function Resize-Images {
                         )
                     }
 
-                    convert $path -colorspace RGB -write mpr:x +delete @magick_args null:
+                    magick $path -colorspace RGB -write mpr:x +delete @magick_args null:
                     New-Item -ItemType SymbolicLink -Path $origPath -Value $absPath -ErrorAction SilentlyContinue > $null
                 }
             }
