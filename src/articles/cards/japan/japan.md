@@ -1,6 +1,5 @@
 ---
 title: Japanese Cards (<span lang="ja-Latn">Karuta</span>)
-order: 200
 ---
 
 <span lang="ja-Latn" class="noun">Karuta</span> (<span lang="ja">かるた</span>)

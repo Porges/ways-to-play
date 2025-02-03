@@ -1,6 +1,5 @@
 ---
 title: Fishing Games
-order: 50
 date created: 2024-12-18
 date modified: 2025-01-23
 aliases: 
@@ -26,7 +25,7 @@ In games where cards are played from both hand and stock, after playing a card f
 
 - played with two-colour chess cards: 
     - [Fishing for Hairtails](games/fishing-for-hairtails/fishing-for-hairtails.md)
-- played with [[Ceki|Ceki cards]]:
+- played with [Ceki cards](articles/cards/ceki/ceki.md):
     - {% gameref cholek-tiga %}
     - {% gameref enthit %}
     - {% gameref thothit %}

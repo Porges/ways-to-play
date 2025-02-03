@@ -9,10 +9,10 @@ players:
    max: 8
 countries: JP
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2025-02-03
 ---
 
-<Pronounce noun="true" lang="ja-Latn"  file="pronunciation_ja_八八.mp3" pronouncer="mezashi">Hachi-Hachi</Pronounce> (<span lang="ja">八八</span>, ‘88’) is the preëminent [<span class="noun" lang="ja-Latn">Hanafuda</span>](/articles/cards/japan/hanafuda/) gambling game for 3–7 players. In many old English sources it is considered synonymous with ‘<span class="noun" lang="ja-Latn">hanafuda</span>’ or ‘<span class="noun" lang="ja-Latn">hana-awase</span>’ and isn’t given a more specific name.
+<Pronounce noun="true" lang="ja-Latn"  file="pronunciation_ja_八八.mp3" pronouncer="mezashi">Hachi-Hachi</Pronounce> (<span lang="ja">八八</span>, ‘88’) is the preëminent [<span class="noun" lang="ja-Latn">Hanafuda</span>](articles/cards/japan/hanafuda/hanafuda.md) gambling game for 3–7 players. In many old English sources it is considered synonymous with ‘<span class="noun" lang="ja-Latn">hanafuda</span>’ or ‘<span class="noun" lang="ja-Latn">hana-awase</span>’ and isn’t given a more specific name.
 
 Ref: [@Hanafuda, p. 39] @Gimmi88 @HachiHachi @PlayingHanaKaruta
 
@@ -23,7 +23,7 @@ Despite being — historically, at least —  the most important <span c
 > [!todo]
 > Because of this, I present a simplified base game first, and each subsequent section introduces another extension of the rules until the full version of the game is attained.[^zds] As a game that was often played in secret for money, there is no one ‘true’ set of rules, and there are also many optional variations and regional rules differences.
 >
-> [^zds]: This approach was inspired by Z.D. Smith’s “<a href="https://blog.zdsmith.com/posts/a-curriculum-of-vira.html">A Curriculum of Vira</a>”.
+> :[^zds] This approach was inspired by Z.D. Smith’s “<a href="https://blog.zdsmith.com/posts/a-curriculum-of-vira.html">A Curriculum of Vira</a>”.
 
 ## Rules
 
@@ -316,7 +316,7 @@ This <span lang="ja-Latn">yaku</span> is made up of exactly the three red <span 
 > noborder: true
 > ```
 >
-> The cards that form the <span class="noun" lang="ja-Latn">Aka-tan/Ura-Sugawara</span> <span lang="ja-Latn">yaku</span>, from an old [<span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tanaka-gyokusuido) deck. The cards are labelled <span lang="ja">𛀋らす</span> (<span lang="ja-Latn">urasu</span>), <span lang="ja">よろし</span> (<span lang="ja-Latn">yoroshi</span>), and <span lang="ja">す𛀙𛂦ら</span> (<span lang="ja-Latn">sugawara</span>).
+> The cards that form the <span class="noun" lang="ja-Latn">Aka-tan/Ura-Sugawara</span> <span lang="ja-Latn">yaku</span>, from an old [<span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>](articles/cards/japan/hanafuda/traditional-manufacturers/traditional-manufacturers.md#tanaka-gyokusuido) deck. The cards are labelled <span lang="ja">𛀋らす</span> (<span lang="ja-Latn">urasu</span>), <span lang="ja">よろし</span> (<span lang="ja-Latn">yoroshi</span>), and <span lang="ja">す𛀙𛂦ら</span> (<span lang="ja-Latn">sugawara</span>).
 
 It was also formerly known as <Pronounce lang="ja-Latn"  file="pronunciation_ja_裏菅原.mp3" pronouncer="mezashi">ura-sugawara</Pronounce> (<span lang="ja">裏菅原</span>, ‘behind/inside <span class="noun" lang="ja-Latn">Sugawara</span>’) or <span lang="ja-Latn">urasu</span> for short.[^fn10] This name was a reference to the popular <span lang="ja-Latn">kabuki</span> play <cite><Pronounce lang="ja-Latn"  file="pronunciation_ja_菅原伝授手習鑑.mp3" pronouncer="jinyamai">Sugawara Denju Tenarai Kagami</Pronounce></cite> (<span lang="ja">菅原伝授手習鑑</span>, ‘<cite>Sugawara and the Secrets of Calligraphy</cite>’). In the play the three main characters are brothers who are named after the three plants featured on the cards: <Pronounce noun="true" lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_松王丸.mp3">Matsuōmaru</Pronounce> (<span lang="ja">松王丸</span>, pine), <Pronounce noun="true" lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_梅王丸.mp3">Umeōmaru</Pronounce> (<span lang="ja">梅王丸</span>, plum), and <Pronounce noun="true" lang="ja-latn"  file="pronunciation_ja_桜丸.mp3" pronouncer="mezashi">Sakuramaru</Pronounce> (<span lang="ja">桜丸</span>, cherry). In the play the brothers wear costumes which bear symbols of the plants related to their names.
 
@@ -360,7 +360,7 @@ It is unclear how literally the images should be taken — did a card depict
 > perRow: 3
 > ```
 >
-> Old-style <span class="noun" lang="ja-Latn">Kashifuda</span> (c. 1920?), published by [<span class="noun" lang="ja-Latn">Tsuchida Tenguya</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tsuchida-tenguya). At top left, two 25-<span lang="ja-Latn">kan</span> notes, the left one reading <span lang="ja">小鯛雀𛁋し</span> (‘<span class="noun" lang="ja-Latn">Kodai Suzume</span> sushi’), a sushi restaurant [that opened in <span class="noun" lang="ja-Latn">Ōsaka</span> in 1781, and apparently a favourite of Emperor <span class="noun" lang="ja-Latn">Meiji</span>](http://www.sushiman.co.jp/company/); the other reads <span lang="ja">上等蒸菓子</span> (‘fine steamed confectionary’). The two 50-<span lang="ja-Latn">kan</span> cards (top right, bottom left) are for <span lang="ja">洋食</span> (‘Western meal’) and <span lang="ja">上等葡萄酒</span> (‘fine wine’). The reverse of the cards is designed to look like a <span class="noun" lang="ja-Latn">Meiji</span>-era 1-yen banknote that bore a portrait of the [Empress <span class="noun" lang="ja-Latn">Jingū</span>](https://en.wikipedia.org/wiki/Empress_Jing%C5%AB), and which was used from 1881 until 1899. The set also contained (not pictured here) another 50-<span lang="ja-Latn">kan</span> card and a 100-<span lang="ja-Latn">kan</span> card. {/*https://cdn.discordapp.com/attachments/644611492846632960/702040093140975687/i-img800x600-1587393965cq878p755785.png*/}
+> Old-style <span class="noun" lang="ja-Latn">Kashifuda</span> (c. 1920?), published by [<span class="noun" lang="ja-Latn">Tsuchida Tenguya</span>](articles/cards/japan/hanafuda/traditional-manufacturers/traditional-manufacturers.md#tsuchida-tenguya). At top left, two 25-<span lang="ja-Latn">kan</span> notes, the left one reading <span lang="ja">小鯛雀𛁋し</span> (‘<span class="noun" lang="ja-Latn">Kodai Suzume</span> sushi’), a sushi restaurant [that opened in <span class="noun" lang="ja-Latn">Ōsaka</span> in 1781, and apparently a favourite of Emperor <span class="noun" lang="ja-Latn">Meiji</span>](http://www.sushiman.co.jp/company/); the other reads <span lang="ja">上等蒸菓子</span> (‘fine steamed confectionary’). The two 50-<span lang="ja-Latn">kan</span> cards (top right, bottom left) are for <span lang="ja">洋食</span> (‘Western meal’) and <span lang="ja">上等葡萄酒</span> (‘fine wine’). The reverse of the cards is designed to look like a <span class="noun" lang="ja-Latn">Meiji</span>-era 1-yen banknote that bore a portrait of the [Empress <span class="noun" lang="ja-Latn">Jingū</span>](https://en.wikipedia.org/wiki/Empress_Jing%C5%AB), and which was used from 1881 until 1899. The set also contained (not pictured here) another 50-<span lang="ja-Latn">kan</span> card and a 100-<span lang="ja-Latn">kan</span> card. {/*https://cdn.discordapp.com/attachments/644611492846632960/702040093140975687/i-img800x600-1587393965cq878p755785.png*/}
 
 
 > [!figure]
@@ -382,7 +382,7 @@ It is unclear how literally the images should be taken — did a card depict
 > perRow: 5
 > ```
 >
-> <span class="noun" lang="ja-Latn">Kashifuda</span> as published by [<span class="noun" lang="ja-Latn">Kamigataya</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#kamigataya) in denominations of 1, 10, 50, 100, and two different 25 cards (the only two in the set). The reverse bears the name “K.K.K.” which stands for <span class="noun" lang="ja-Latn">Kamigataya [Kabushiki Kaisha](https://en.wikipedia.org/wiki/Kabushiki_gaisha)</span>.
+> <span class="noun" lang="ja-Latn">Kashifuda</span> as published by [<span class="noun" lang="ja-Latn">Kamigataya</span>](articles/cards/japan/hanafuda/traditional-manufacturers/traditional-manufacturers.md#kamigataya) in denominations of 1, 10, 50, 100, and two different 25 cards (the only two in the set). The reverse bears the name “K.K.K.” which stands for <span class="noun" lang="ja-Latn">Kamigataya [Kabushiki Kaisha](https://en.wikipedia.org/wiki/Kabushiki_gaisha)</span>.
 
 > [!figure]
 >
@@ -445,7 +445,7 @@ It is unclear how literally the images should be taken — did a card depict
 > size: "extra-wide"
 > ```
 >
-> <span class="noun" lang="ja-Latn">Kashifuda</span> cards produced by [<span class="noun" lang="ja-Latn">Nakao Seikadō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#nakao-seikado), in denominations of 1, 10, 50, and 100, and the reverse of the 10. It is unclear what “NNN” means, but it may be in imitation of the “KKK” used by <span class="noun" lang="ja-Latn">Kamigataya</span>.
+> <span class="noun" lang="ja-Latn">Kashifuda</span> cards produced by [<span class="noun" lang="ja-Latn">Nakao Seikadō</span>](articles/cards/japan/hanafuda/traditional-manufacturers/traditional-manufacturers.md#nakao-seikado), in denominations of 1, 10, 50, and 100, and the reverse of the 10. It is unclear what “NNN” means, but it may be in imitation of the “KKK” used by <span class="noun" lang="ja-Latn">Kamigataya</span>.
 
 > [!figure]
 >

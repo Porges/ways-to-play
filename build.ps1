@@ -151,16 +151,20 @@ function Build-HTML {
 }
 
 Copy-StaticContent
-Resize-Images
+# Resize-Images
 Build-Builder
-Build-HTML
 
 if ($watch) {
     $bg = Start-Job { miniserve $using:public --index index.html }
     try {
-        watchexec -E RUST_LOG=info -w $src --emit-events-to file -- $builder --input $src --output $public --image-manifest $image_manifest --draft
+        $env:RUST_LOG = 'info'
+        & $builder --input $src --output $public --image-manifest $image_manifest --draft --watch
+        Remove-Item env:RUST_LOG
     }
     finally {
         $bg.StopJob()
     }
+}
+else {
+    Build-HTML
 }

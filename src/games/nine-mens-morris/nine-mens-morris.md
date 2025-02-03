@@ -5,8 +5,8 @@ players: 2
 equipment: Board game (simple equipment)
 countries: CN,GB,US,NZ,AU,DE,FR,BD,GR,IN,KR,TR,CH,PK,LK,ES,IT
 subgames:
-- title: Lasker Morris
-- title: Twelve Men’s Morris
+  lasker-morris: Lasker Morris
+  twelve-mens-morris: Twelve Men’s Morris
 date created: 2024-12-18
 date modified: 2024-12-22
 ---
@@ -373,7 +373,7 @@ Other English names for the game have included:
 * <span class="aka">Blind Men’s Morris</span> (Leicestershire[@PegMeryll p. 130])
 * <span class="aka">Bushels</span>[@Hyde2 p. 204]
 * <span class="aka">Buttons</span> (played on a slate with buttons in 1890s New Zealand[@GamesOfNewZealandChildren p. 151])
-* <span class="aka">Figmill</span> (in Clarence, New York, USA)[@Figmill] (This name derives from an American manufacturer of equipment, but originally might derive from [the Swiss term <span lang="gsw">«Figgi und Müli»</span>](/articles/mill-games/#terminology).)
+* <span class="aka">Figmill</span> (in Clarence, New York, USA)[@Figmill] (This name derives from an American manufacturer of equipment, but originally might derive from [the Swiss term <span lang="gsw">«Figgi und Müli»</span>](articles/families/mill-games/mill-games.md#terminology).)
 * Morris (Cornwall[@PegMeryll p. 130])
 * Madell or Medal[@NotesAndQueriesS8V12 p. 333]
 * Marl (Wiltshire[@PegMeryll p. 130])
@@ -522,11 +522,9 @@ not yet been able to see the manuscript in question.
 >
 > The Möbius board (invented by <span class="noun" lang="de">Ingo Althöfer</span>), another pentagonal board (without joined corners), and a hexagonal board.
 
-### Twelve Men’s Morris
+### <span id="twelve-mens-morris">Twelve Men’s Morris</span>
 
-This is played with twelve pieces per player, on a board that has
-diagonals.[@Zaslavsky p. 7][@Murray2 p. 48] In all other respects, the game is
-the same.
+This is played with twelve pieces per player, on a board that has diagonals.[@Zaslavsky p. 7][@Murray2 p. 48] In all other respects, the game is the same.
 
 > [!figure]
 >
@@ -577,7 +575,7 @@ Schädler offers the following interpretation:[@NineMensDice][^disagrees]
    piece. If they roll any of the special rolls <Dice>654</Dice>, <Dice>633</Dice>, <Dice>522</Dice>, or <Dice>411</Dice>, they may ‘fly’ a piece from anywhere on the board to complete a mill (or two mills). For any other result, the player moves as normal. 
 
 
-### Lasker Morris
+### <span id="lasker-morris">Lasker Morris</span>
 
 This variant was developed by <span class="noun" lang="de">Emanuel Lasker</span>, who was
 World Chess Champion from 1894 to 1921. It unifies the two phases of the game

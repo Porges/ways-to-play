@@ -195,7 +195,7 @@ The area where the tickets were to be drawn, and where the bank’s capital was 
 
 In some Chinese versions of the game, there were restrictions imposed upon which characters could be drawn: ten had to be chosen from each of the upper and lower halves of the tickets, the whole four characters in a particular line, or four in a block or diagonal could not be selected at once (it is not stated how these restrictions were enforced).[@BettingOnEmpire p. 104] These rules would allow the players to feel like they were able to have more control by making informed selections of characters.
 
-Another feature that was sometimes used that allowed players to feel like they had some control over the game was the book called the “character container” (<span lang="zh">字容</span>), which recorded the number of times each character had been drawn in the recent past.[@BettingOnEmpire p. 102] In reality, this would function similarly to a [Roulette](games/roulette.md) tote board which displays the most recent results, and thus play up the effect of the gambler’s fallacy on the players.
+Another feature that was sometimes used that allowed players to feel like they had some control over the game was the book called the “character container” (<span lang="zh">字容</span>), which recorded the number of times each character had been drawn in the recent past.[@BettingOnEmpire p. 102] In reality, this would function similarly to a [Roulette](games/roulette/roulette.md) tote board which displays the most recent results, and thus play up the effect of the gambler’s fallacy on the players.
 
 > [!todo]
 >

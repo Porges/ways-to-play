@@ -10,7 +10,7 @@ hero:
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-22
-date modified: 2025-01-02
+date modified: 2025-02-03
 ---
 
 ## Identification 
@@ -415,7 +415,7 @@ down in 2002.
 >
 > In the early days of the company,  <span class="noun" lang="ja-Latn">Fusajirō</span> joined forces with the “tobacco king” <span class="noun" lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) who had founded the <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco company in 1892. Like <span class="noun" lang="ja-Latn">Nintendō</span>, who were one of the first companies to produce Western-style cards in Japan, <span class="noun" lang="ja-Latn">Murai</span> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing”[^fn0] (<span lang="ja">東洋印刷</span>).[@EbashiCigaretteCards]
 >
-> [^fn0]: In some sources this is given in its translated form as the “Oriental Printing Company”.
+> :[^fn0] In some sources this is given in its translated form as the “Oriental Printing Company”.
 >
 >    position="left"
 >     alt="An image of a cigarette card with a combination Hanafuda (Wisteria) and Western (4 of clubs) on the front, and on the reverse reading “A different card in each package of cigarettes”."
@@ -427,7 +427,7 @@ down in 2002.
 >
 > Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <span class="noun" lang="ja-Latn">Hanafuda</span> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <span class="noun" lang="ja-Latn">Hanafuda</span> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,[^fn1] and <span class="noun" lang="ja-Latn">Tōyō</span> Printing was sold along with the rest of the company.[@TarHeel p. 362]
 > 
-> [^fn1]: <span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]
+> :[^fn1] <span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]
 
 A too-brief summary of their later success: after WWII, <span class="noun"
 lang="jp-Latn">Nintendō</span> managed to survive a period of crushing taxation
@@ -555,7 +555,7 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 * <span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)
 * <span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a
   reference to the [<span lang="ja-Latn">waka</span> that appears on the pine
-  cards in some decks](/articles/cards/japan/hanafuda/art/#1))
+  cards in some decks](articles/cards/japan/hanafuda/art/art.md#month-1))
 * <span lang="ja">丹頂</span> (<span lang="ja-Latn">tanchō</span>, ‘red-crested
   crane’, that appears on the pine bright)
 
@@ -884,7 +884,7 @@ of <span class="noun" lang="ja-Latn">Nintendō</span>’s (above).
 >
 > The extra cards of Angel’s “Hana-Trump” deck.
 
-### <img src='/small-images/yaguruma.svg' alt="" class="inline-img" /> <a href="http://www.shogundo.co.jp/" class="noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)
+### <img src='/small-images/yaguruma.svg' alt="" class="inline-img" /> <a id="tamura-shogundo" href="http://www.shogundo.co.jp/" class="noun" lang="ja-Latn">Tamura Shōgundō</a> (<span lang="ja">田村将軍堂</span>)
 
 > [!figure]
 >
@@ -1219,7 +1219,7 @@ Brands produced by <span class="noun" lang="ja-Latn">Maruē</span> included:[@Mo
 * <span lang="ja">梅の花</span> (<span lang="ja-Latn">ume no hana</span> ‘plum flowers’)
 * <span lang="ja">秀吉</span> (<span lang="ja-Latn">hideyoshi</span> ‘Hideyoshi’)
 
-### <img src='/small-images/yamata.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span> (<span lang="ja">田中玉水堂</span>)
+### <img src='/small-images/yamata.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="tanaka-gyokusuido">Tanaka Gyokusuidō</span> (<span lang="ja">田中玉水堂</span>)
 
 > [!figure]
 >
@@ -2145,11 +2145,9 @@ cards indicate that they were intended to be played with Hawaiian rules.
 
 ### Universal (<span lang="ja">ユニバーサル</span>)
 
-{%aside%}
-There was also [a Universal Playing Card Co. based in
-England](https://www.wopc.co.uk/alfcooke/index). As far as I can tell, the two
-companies were unrelated.
-{%endaside%}
+> [!aside]
+> 
+> There was also [a Universal Playing Card Co. based in England](https://www.wopc.co.uk/alfcooke/index). As far as I can tell, the two companies were unrelated.
 
 > [!figure]
 >
@@ -2374,7 +2372,7 @@ lang="ja-Latn">Nishi&shy;guchi Shōten</span>. Their brands included:
 >
 > <span class="noun" lang="ja-Latn">Kamigataya</span>’s earliest trademark, registered on the 2nd of October 1889 by <span class="noun" lang="ja-Latn">Maeda Kihei</span> (<span lang="ja"> 前田喜兵衛</span>).[@Trademarks1905 p. 65]
 
-For more about <span class="noun" lang="ja-Latn">Kamigataya</span>, see the [history article](/articles/cards/japan/hanafuda/art/). Early on, <span class="noun" lang="ja-Latn">Kamigataya</span> had decks made (by <span class="noun" lang="ja-Latn">Nintendō</span>) with their own brand, but they would later sell <span class="noun" lang="ja-Latn">Nintendō</span>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xE0103;</span> with angle.
+For more about <span class="noun" lang="ja-Latn">Kamigataya</span>, see the [history article](articles/cards/japan/hanafuda/art/art.md). Early on, <span class="noun" lang="ja-Latn">Kamigataya</span> had decks made (by <span class="noun" lang="ja-Latn">Nintendō</span>) with their own brand, but they would later sell <span class="noun" lang="ja-Latn">Nintendō</span>-branded cards directly. Their maker’s mark was <span lang="ja">片&#xE0103;</span> with angle.
 
 In 1914, the company was run by one <span class="noun" lang="ja-Latn">Kataoka Ei</span> (<span lang="ja">片岡エイ</span>). (Probably the logo dates from after <span class="noun" lang="ja-Latn">Kamigataya</span> was taken over by the <span class="noun" lang="ja-Latn">Kataoka</span> family.)
 

@@ -10,7 +10,7 @@ date modified: 2024-12-21
 
 <span class="aka">Assault</span> is a traditional board game for two players that used to be popular throughout Europe. In English it is commonly known by the Spanish name <span lang="es" class="aka">Asalto</span>.
 
-Assault was probably derived from the game of [Fox & Geese](games/fox-and-geese.md), with which it shares a board. The play of the game is similar, but the object in Assault is for one side to achieve a particular arrangement of their pieces — although it is still possible to win by “trapping” like in [Fox & Geese](games/fox-and-geese.md).
+Assault was probably derived from the game of [Fox & Geese](games/fox-and-geese/fox-and-geese.md), with which it shares a board. The play of the game is similar, but the object in Assault is for one side to achieve a particular arrangement of their pieces — although it is still possible to win by “trapping” like in [Fox & Geese](games/fox-and-geese/fox-and-geese.md).
 
 > [!multi]
 > > [!figure]
@@ -171,4 +171,4 @@ Another version of the “Royal Garrison” board connected all diagonals:
 
 ## See also
 
-[Fox & Geese](games/fox-and-geese.md) is also played on the same board.
+[Fox & Geese](games/fox-and-geese/fox-and-geese.md) is also played on the same board.

@@ -1,6 +1,5 @@
 ---
 title: Historical Laws Banning Specific Games
-order: 105
 date created: 2024-12-18
 date modified: 2024-12-22
 ---

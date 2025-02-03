@@ -27,7 +27,7 @@ date modified: 2024-12-22
 >
 > <span class="noun" lang="st">Morabaraba</span> is played across south-eastern Africa.
 
-<span class="noun aka" lang="st">Morabaraba</span> is a [mill game](articles/families/mill-games/mill-games.md) from south-eastern Africa. The gameplay of the standardized version is very similar to {% gameref twelve-mens-morris %}  (with a few minor differences), but the version played in Lesotho has a unique board.
+<span class="noun aka" lang="st">Morabaraba</span> is a [mill game](articles/families/mill-games/mill-games.md) from south-eastern Africa. The gameplay of the standardized version is very similar to [Twelve Men’s Morris](games/nine-mens-morris/nine-mens-morris.md#twelve-mens-morris) (with a few minor differences), but the version played in Lesotho has a unique board.
 
 <span class="noun" lang="st">Morabaraba</span> is played as a competitive sport in South Africa, administered by [Mind Sports South Africa](http://mindsportsa.co.za/).  It is widely played throughout the country; a poll conducted by <cite>The Sowetan</cite> in 1996 indicated that 40% of South Africans played the game.[@MorabarabaGetOnBoard]
 

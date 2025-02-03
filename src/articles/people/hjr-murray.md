@@ -1,6 +1,6 @@
 ---
 title: H. J. R. Murray
-order: 100
+order: murray
 aliases: Murray
 ---
 

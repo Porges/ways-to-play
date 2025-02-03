@@ -69,7 +69,7 @@ In Japan the game is usually played with special cards called <span lang="ja-Lat
 >
 > ![](../../articles/cards/japan/kabu-karuta/Shogundo_cards.jpg)
 >
-> A full deck of forty <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura Shōgundō</span>](/articles/cards/japan/hanafuda/traditional-manufacturers/#tamura-shogundo).
+> A full deck of forty <span class="noun" lang="ja-Latn">Kabu</span> cards produced by [<span class="noun" lang="ja-Latn">Tamura Shōgundō</span>](articles/cards/japan/hanafuda/traditional-manufacturers/traditional-manufacturers.md#tamura-shogundo).
 
 Possibly the game was originally called the ‘three card’ (<span lang="ja">三枚</span>) game. (CITE?)
 
@@ -251,7 +251,7 @@ As to _why_ this particular hand was chosen, there are several options. Note tha
 
 ### <span id="kabu">Kabu</span>
 
-This is a simplified variant of <span lang="ja-Latn" class="noun">Oicho-Kabu</span> by [Sid Sackson](/articles/people/sid-sackson/), for 2–6 players, as described in @CardGamesAroundTheWorld [p. 12].
+This is a simplified variant of <span lang="ja-Latn" class="noun">Oicho-Kabu</span> by [Sid Sackson](articles/people/sid-sackson.md), for 2–6 players, as described in @CardGamesAroundTheWorld [p. 12].
 
 Play with the <Cards>A–⑩</Cards> from a standard deck of cards. You will also need some chips to keep track of score. Sids’ suggested chip distribution for each player is:
 

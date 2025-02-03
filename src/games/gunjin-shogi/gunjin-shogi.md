@@ -4,11 +4,11 @@ titleLang: ja-Latn
 originalTitle: <span lang="ja">軍人将棋</span>
 draft: true
 players: 2
+date created: 2024-12-22
+date modified: 2025-02-03
 ---
 
-<p class="lead">
 <Pronounce noun="true" lang="ja-Latn"  file="pronunciation_ja_軍人将棋.mp3" pronouncer="mezashi">Gunjin Shogi</Pronounce> (<span lang="ja">軍人将棋</span> ‘soldier chess’) is a Japanese game of hidden ranked combat, like the game Stratego. However, unlike Stratego, the game is usually played with a third person acting as referee, so that the identity of pieces does not need to be revealed at any stage.
-</p>
 
 ## Pieces and Powers
 
@@ -46,285 +46,288 @@ is as follows:
 > The board for the 14-piece version, printed on thin paper.
 
 
-{/* {/*TODO: this table is a best-guess at the moment */} */}
+> [!todo]
+> 
+> this table is a best-guess at the moment
+
 <table class="table table-sm" lang="ja" style='clear:none'>
 <thead>
-  <tr>
-    <th></th>
-    <th><span class="vertical-rl">元帥</span></th>
-    <th><span class="vertical-rl">大将</span></th>
-    <th><span class="vertical-rl">中将</span></th>
-    <th><span class="vertical-rl">少将</span></th>
-    <th><span class="vertical-rl">代将</span></th>
-    <th><span class="vertical-rl">大佐</span></th>
-    <th><span class="vertical-rl">中佐</span></th>
-    <th><span class="vertical-rl">少佐</span></th>
-    <th><span class="vertical-rl">大尉</span></th>
-    <th><span class="vertical-rl">中尉</span></th>
-    <th><span class="vertical-rl">少尉</span></th>
-    <th><span class="vertical-rl">ＭＰ</span></th>
-    <th><span class="vertical-rl">ヒコーキ</span></th>
-    <th><span class="vertical-rl">原子爆弾</span></th>
-    <th><span class="vertical-rl">スパイ</span></th>
-  </tr>
+<tr>
+<th></th>
+<th><span class="vertical-rl">元帥</span></th>
+<th><span class="vertical-rl">大将</span></th>
+<th><span class="vertical-rl">中将</span></th>
+<th><span class="vertical-rl">少将</span></th>
+<th><span class="vertical-rl">代将</span></th>
+<th><span class="vertical-rl">大佐</span></th>
+<th><span class="vertical-rl">中佐</span></th>
+<th><span class="vertical-rl">少佐</span></th>
+<th><span class="vertical-rl">大尉</span></th>
+<th><span class="vertical-rl">中尉</span></th>
+<th><span class="vertical-rl">少尉</span></th>
+<th><span class="vertical-rl">ＭＰ</span></th>
+<th><span class="vertical-rl">ヒコーキ</span></th>
+<th><span class="vertical-rl">原子爆弾</span></th>
+<th><span class="vertical-rl">スパイ</span></th>
+</tr>
 </thead>
 <tbody class="text-center table-group-divider">
-  <tr>
-    <th scope="row" class="text-end">元帥</th>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-  </tr><tr>
-    <th scope="row" class="text-end">大将</th>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">中将</th>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">少将</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">代将</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">大佐</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">中佐</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">少佐</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">大尉</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">中尉</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">少尉</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">ＭＰ</th>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">ヒコーキ</th>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">原子爆弾</th>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-    <td>○</td>
-  </tr><tr>
-    <th scope="row" class="text-end">スパイ</th>
-    <td>○</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>×</td>
-    <td>△</td>
-  </tr>
+<tr>
+<th scope="row" class="text-end">元帥</th>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+</tr><tr>
+<th scope="row" class="text-end">大将</th>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">中将</th>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">少将</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">代将</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">大佐</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">中佐</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">少佐</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">大尉</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">中尉</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">少尉</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">ＭＰ</th>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">ヒコーキ</th>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">原子爆弾</th>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+<td>○</td>
+</tr><tr>
+<th scope="row" class="text-end">スパイ</th>
+<td>○</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>×</td>
+<td>△</td>
+</tr>
 </tbody>
 </table>
 

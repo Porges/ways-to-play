@@ -85,7 +85,7 @@ Other variants were developed through the 19th century: In 1842, the <cite>Punch
 
 Early references to the game under the name <span lang="nl">anker en zon</span> (“anchor and sun”) appear in Flanders in 1880,[@Aldenardiana] and finally as “the crown and anchor game” in Melbourne,[^inmelbourne] Australia in 1882.[@CrownAndAnchorAustralia] An equivalent game is recorded as being played in British-controlled Hong Kong in 1884.[@HongKongCrownAnchor]
 
-[^inmelbourne]: The game under the name of [Chuck-a-Luck](games/chuck-a-luck.md) or “old sweat” is known in Melbourne from at least 1866.[@LayOfAMelbourneVagrant]
+[^inmelbourne]: The game under the name of [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md) or “old sweat” is known in Melbourne from at least 1866.[@LayOfAMelbourneVagrant]
 
 Information from the people who actually ran the games is hard to find. One notable exception is that of Arthur Harding, whose memoir details his life growing up in [The Nichol](https://en.wikipedia.org/wiki/Boundary_Estate),[^nichol]  in the late 19th and early 20th centuries.[@EastEndUnderworld] Harding states that “some of the first pennies [he] earned was holding up the boards for ‘Crown and Anchor’”, and describes how the board would be held by a person at each end, with a cloth on which the staking layout was painted placed on top. The entire setup was designed to make it as easy as possible to disappear when the police arrived, although in many cases the games were tolerated by police as the income the games provided prevented the operators from resorting to harder crimes.[^snidepitching]
 
@@ -290,7 +290,7 @@ A version of the game played by workers constructing Scotland’s hydro-electric
 
 The game is played in many locations around the world, some of which are
 described below. Note that American-style games including casino versions are
-discussed in the [Chuck-a-Luck](games/chuck-a-luck.md) article.
+discussed in the [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md) article.
 
 ### China and amongst Peranakans
 

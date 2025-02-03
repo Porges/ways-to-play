@@ -1,6 +1,5 @@
 ---
 title: Traversal Games
-order: 400
 date created: 2024-12-22
 date modified: 2024-12-22
 ---

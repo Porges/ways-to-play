@@ -9,8 +9,6 @@ date modified: 2024-12-22
 
 The law codes of Singapore, Malaysia, and Brunei all contain lists of illegal games which are based on this book (the spelling and ordering of the games are identical).
 
-{/* excerpt */}
-
 The games listed in the book are as follows.
 
 **Lottery games:**
@@ -28,7 +26,7 @@ The games listed in the book are as follows.
 
 - Games with English cards
 - Games with Chinese cards:
-    - Sook Sik Pai ({% a four-colour-cards %})
+    - Sook Sik Pai ([Four-Colour cards](articles/cards/china/four-colour-cards/four-colour-cards.md))
     - Luk Foo Pai
     - Seong Kum Pai or Pin Kum Pai
     - Chi Kee Pai ([Ceki](articles/cards/ceki/ceki.md))

@@ -1,7 +1,6 @@
 ---
 draft: true
 title: Mancala Games
-order: 150
 ---
 
 @GuptaB

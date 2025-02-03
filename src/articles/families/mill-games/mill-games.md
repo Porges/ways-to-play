@@ -1,6 +1,5 @@
 ---
 title: Mill Games
-order: 200
 mainImage: shutterstock_120413827.jpg
 hero:
   image: shutterstock_235028281.jpg
@@ -41,7 +40,7 @@ all pieces are placed on the board before any pieces are moved.
 
 ## Games
 
-Many of the games overlap so much that they could be considered to be the same game. For example, [Morabaraba](games/morabaraba/morabaraba.md) as standardized by Mind Sports South Africa has only two small differences from [Twelve Men’s Morris](games/nine-mens-morris/nine-mens-morris.md#Twelve%20Men’s%20Morris) as standardized by the <span class="noun" lang="de">Weltmühlespiel Dachverband</span>. However, I have chosen to describe it separately due to the interesting history and cultural context around the game.
+Many of the games overlap so much that they could be considered to be the same game. For example, [Morabaraba](games/morabaraba/morabaraba.md) as standardized by Mind Sports South Africa has only two small differences from [Twelve Men’s Morris](games/nine-mens-morris/nine-mens-morris.md#twelve-mens-morris) as standardized by the <span class="noun" lang="de">Weltmühlespiel Dachverband</span>. However, I have chosen to describe it separately due to the interesting history and cultural context around the game.
 
 The most important representative of the type is [Nine Men’s Morris](games/nine-mens-morris/nine-mens-morris.md), and it is a good place to start if you have never played this type of game
 before.
@@ -55,7 +54,9 @@ before.
 >
 > ```yaml
 > size: small
+> noborder: true
 > ```
+>
 > Two different large mill boards, one without diagonals, and one with diagonals.
 
 * [Morabaraba](games/morabaraba/morabaraba.md) is a mill game played competitively in South Africa. It differs slightly from Twelve Men’s Morris.
@@ -76,6 +77,7 @@ before.
 >
 > ```yaml
 > size: small
+> noborder: true
 > ```
 >
 > The small mill board.

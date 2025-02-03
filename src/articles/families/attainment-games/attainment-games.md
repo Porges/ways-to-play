@@ -1,7 +1,6 @@
 ---
 title: Attainment Games
 draft: true
-order: 1
 aliases:
   - attainment game
 date created: 2024-12-18

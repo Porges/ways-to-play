@@ -4,6 +4,8 @@ equipment: Dice game
 players: 2
 mainImage: 314D003a.jpg
 countries: FR,GB
+date created: 2025-01-26
+date modified: 2025-02-03
 ---
 
 > [!figure]
@@ -20,10 +22,11 @@ countries: FR,GB
 > <span lang="fr">Le Passe Dix</span> (<abbr>c.</abbr> 1797) by Daniel Nikolaus Chodowiecki (here signed ‘Huquier’, the publishing address is also false). The player is probably the button-maker Nicolas Fonvielle.[@AntiquariaatArineVanDerSteur44 p. 38]
 
 
-<p class="lead">
-<span class="aka">Passage</span> is an old dice gambling game for two players.[@CompleatGamester p. 167] In French it was called <span lang="fr" class="aka">passe-dix</span> ‘pass-ten’, similarly in Italian <span lang="it" class="aka">passadiéci</span>,[@QueenAnnaFlorio 360] and in German <span lang="de" class="aka">Paschen</span>. It has also been called <span class="aka">pass-dice</span>.[@AnnalsOfGaming 45] {/* OED: 1805   T. Holcroft Mem. Bryan Perdue II. 56   To..idle away..part of the four and twenty hours at hazard, pass-dice, picquet [etc.].
-*/}
-</p>
+<span class="aka">Passage</span> is an old dice gambling game for two players.[@CompleatGamester p. 167] In French it was called <span lang="fr" class="aka">passe-dix</span> ‘pass-ten’, similarly in Italian <span lang="it" class="aka">passadiéci</span>,[@QueenAnnaFlorio 360] and in German <span lang="de" class="aka">Paschen</span>. It has also been called <span class="aka">pass-dice</span>.[@AnnalsOfGaming 45] 
+
+> [!todo]
+> 
+>  OED: 1805   T. Holcroft Mem. Bryan Perdue II. 56   To..idle away..part of the four and twenty hours at hazard, pass-dice, picquet [etc.].
 
 In England, the game was specifically outlawed by [the <cite>Gaming Act 1739</cite>](http://www.nzlii.org/nz/legis/imp_act_1881/ga173913gic19108/) (previously known as <cite>13 Geo. II., c. 19</cite>), which was a new addition since the <cite>Gaming Act 1738</cite> (<cite>12 Geo. II., c. 28</cite>) of the previous year:
 
@@ -33,13 +36,15 @@ In England, the game was specifically outlawed by [the <cite>Gaming Act 1739</ci
 
 Francis Grose, in @ClassicalDictionaryVulgar, indicates that by 1785 Passage was a “camp game” played amongst soldiers, and that the person in charge of running the game throughout the army was called the “head cully of the pass” or the “passage bank”.
 
-The game is mentioned in [<cite>The Three Musketeers</cite>](https://en.wikipedia.org/wiki/The_Three_Musketeers) (1844),[@TresMousquetaires p. 133] where Porthos plays it with some young clerks.[^fn0]  The game also appears in later editions of {% a rabelais,Rabelais’ <cite>Gargantua</cite> %}, at least from 1884.
+The game is mentioned in [<cite>The Three Musketeers</cite>](https://en.wikipedia.org/wiki/The_Three_Musketeers) (1844),[@TresMousquetaires p. 133] where Porthos plays it with some young clerks.[^fn0]  The game also appears in later editions of [Rabelais’ <cite>Gargantua</cite>](articles/lists/rabelais.md), at least from 1884.
 
 [^fn0]: Alongside <span lang="fr">bassette</span> and <span lang="fr">lansquenet</span>.
 
 ## Play
 
-{%aside%}Cotton’s description makes it sound like the calculated sum is only for the double, but the game does not function properly if played in that way; the chance of winning would only be ⅙. Comparison with descriptions in other languages (e.g. @TheorieDesJeuxDeHasard) makes the actual game clear.{%endaside%}
+> [!aside]
+>
+> Cotton’s description makes it sound like the calculated sum is only for the double, but the game does not function properly if played in that way; the chance of winning would only be ⅙. Comparison with descriptions in other languages (e.g. @TheorieDesJeuxDeHasard) makes the actual game clear.
 
 On a player’s turn they place a bet and roll three dice until they roll a double. If the sum of the dice is _above_ ten, then they **pass** and win, otherwise they are **out** and lose. 
 

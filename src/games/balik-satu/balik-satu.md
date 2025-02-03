@@ -274,9 +274,7 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 ## Similar games
 
-### <span class="noun aka" lang="jv-Latn">Gonggong</span>
-
-^711670
+### <span class="noun aka" lang="jv-Latn" id="gonggong">Gonggong</span>
 
 <span class="noun" lang="jv-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.
 

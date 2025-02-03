@@ -765,7 +765,7 @@ In Korea, an altered ordering is used where the ‘November’ and ‘December�
 <li><strong>Plum</strong></li>
 </ol>
 
-### <span lang="ja">1月</span>
+### <span lang="ja" id="month-1">1月</span>
 
 > [!figure]
 >

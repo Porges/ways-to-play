@@ -4,11 +4,11 @@ titleLang: mi
 players: 2
 equipment: Board game (simple equipment)
 countries: NZ
+date created: 2024-12-18
+date modified: 2025-02-03
 ---
 
-<p class="lead">
 <span lang="mi" class="noun aka">Mū Tōrere</span> is a traditional Māori blocking game from New Zealand.
-</p>
 
 The game was first described in print by @Best17, and this description is based upon his.
 

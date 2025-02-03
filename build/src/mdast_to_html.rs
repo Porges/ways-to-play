@@ -1,4 +1,9 @@
-use std::{collections::BTreeMap, path::Path, sync::LazyLock};
+use std::{
+    borrow::Cow,
+    collections::BTreeMap,
+    path::{Path, PathBuf},
+    sync::LazyLock,
+};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
 use indexmap::IndexMap;
@@ -11,6 +16,7 @@ use maud::{html, Markup};
 use regex::Captures;
 use serde::Deserialize;
 use serde_json::Map;
+use url::Url;
 
 use crate::{
     bib_render::{RenderedBibliography, RenderedEntry},
@@ -54,6 +60,7 @@ pub fn to_html(
     node: &Node,
     bibliography: &RenderedBibliography,
     images: &ImageManifest,
+    url_lookup: &BTreeMap<String, Option<&str>>,
 ) -> Result<Markup> {
     let (fndefs, linkdefs) = locate_defs(node);
     Converter {
@@ -66,6 +73,7 @@ pub fn to_html(
         used_bib: Default::default(),
         cite_count: 0,
         header_stack: Vec::new(),
+        url_lookup,
     }
     .convert_whole(node)
 }
@@ -80,6 +88,7 @@ struct Converter<'a> {
     used_bib: IndexMap<String, Vec<String>>, // need to preserve insertion order
     cite_count: usize,
     header_stack: Vec<usize>,
+    url_lookup: &'a BTreeMap<String, Option<&'a str>>,
 }
 
 fn index_to_string(mut index: u32) -> String {
@@ -283,35 +292,46 @@ impl Converter<'_> {
                 html! { img src=(image.url) alt=(image.alt) title=[&image.title]; }
             }
             Node::Link(link) => {
-                let root = url::Url::parse("https://games.porg.es/").unwrap();
-                let mut url = root
-                    .join(&link.url)
-                    .wrap_err_with(|| format!("parsing URL in link: {}", link.url))?;
+                let (path, hash) = link
+                    .url
+                    .split_once("#")
+                    .map(|(p, h)| (p, Some(h)))
+                    .unwrap_or((link.url.as_str(), None));
 
-                // handle internal links
-                if url.host() == Some(url::Host::Domain("games.porg.es")) {
-                    // if ends with .../x/x.md, replace with .../x/
-                    if let Some(segments) = url.path_segments() {
-                        let mut iter = segments.rev();
-                        let ultimate = iter.next();
-                        let penultimate = iter.next();
-                        if let (Some(pu), Some(u)) = (penultimate, ultimate) {
-                            if let Some(mdfile) = u.strip_suffix(".md") {
-                                if mdfile == pu {
-                                    url.path_segments_mut().unwrap().pop().push("");
+                let href: Option<Cow<str>> = if path.is_empty() {
+                    Some(Cow::Borrowed(link.url.as_str()))
+                } else {
+                    match Url::parse(path) {
+                        Ok(abs) => Some(Cow::Owned(abs.into())),
+                        Err(url::ParseError::RelativeUrlWithoutBase) => {
+                            if let Some(dest) = self.url_lookup.get(path) {
+                                if let Some(actual_url) = dest {
+                                    Some(Cow::Borrowed(actual_url)) // not draft
+                                } else {
+                                    None // draft
                                 }
+                            } else {
+                                bail!("unknown relative URL: {}", path);
                             }
                         }
+                        Err(err) => {
+                            bail!("invalid URL: {}, {err}", path);
+                        }
                     }
-                }
-
-                let rel_url = root
-                    .make_relative(&url)
-                    .map(|u| "/".to_string() + &u)
-                    .unwrap_or_else(|| url.to_string());
+                };
 
                 html! {
-                    a href=(rel_url) title=[&link.title] {
+                    @if let Some(href) = href {
+                        @let href = if let Some(hash) = hash {
+                            Cow::Owned(format!("{}#{}", href, hash))
+                        } else {
+                            href
+                        };
+
+                        a href=(href) title=[&link.title] {
+                            (self.expand(&link.children)?)
+                        }
+                    } @else {
                         (self.expand(&link.children)?)
                     }
                 }

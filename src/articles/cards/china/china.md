@@ -1,6 +1,5 @@
 ---
 title: Chinese Cards
-order: 100
 date created: 2024-12-18
 date modified: 2024-12-21
 ---
@@ -41,7 +40,7 @@ The many types of Chinese and Chinese-derived cards can be broken down into seve
 
 🚧 The categorization here is a work in progress and may change, especially the last section. 🚧
 
-Those derived from **[Xiàngqí](games/xiangqi.md)** (“Chinese chess”):
+Those derived from **[Xiàngqí](games/xiangqi/xiangqi.md)** (“Chinese chess”):
 * [Four-Colour cards](articles/cards/china/four-colour-cards/four-colour-cards.md) (<span lang="zh">四色牌</span> <span lang="cmn-Latn-pinyin">sì sè pái</span>)
 * Two-Coloured chess cards, including:
   * Red cards (<span lang="zh">紅牌</span>), also called Double Gold cards (<span lang="zh">雙金牌</span> <span lang="cmn-Latn-pinyin">shuāng jīn pái</span>)

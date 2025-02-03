@@ -8,33 +8,35 @@ date modified: 2024-12-22
 
 <span class="aka">Gresco</span> is a very old dice game, dating from at least the 13th century.
 
-In English sources, it is mentioned as early as 1605 in @EastwardHoe [p. 56].[^fn0] In {%a new-academy %} it is described as a card game, but I think this is probably a joke; the character who mentions it says that she knows it only by “hear-say” and lists it alongside “primofistula”!
+In English sources, it is mentioned as early as 1605 in @EastwardHoe [p. 56].[^fn0] In [<cite>The New Academy</cite>](articles/lists/new-academy.md) it is described as a card game, but I think this is probably a joke; the character who mentions it says that she knows it only by “hear-say” and lists it alongside “primofistula”!
 In Florio’s Italian–English dictionary of 1611[^fn1] it is definitively mentioned alongside [Hazard](games/hazard/hazard.md) as a dice game.[@QueenAnnaFlorio 45, 303, 463]
 
 [^fn0]: Nare claims it as a card game[@NaresGlossary 213] probably based upon its proximity to [Primero](games/primero/primero.md) here, but they are associated by being both gambling games.
 
 [^fn1]: It is not mentioned in his earlier dictionary of 1598.[@WorldeOfWordes]
 
-My best guess is that it is the same as the French game <span lang="fr">la Griesche</span>, which is most famously described in several poems by [Rutebeuf](https://en.wikipedia.org/wiki/Rutebeuf) (fl. 1245–85) entitled <cite lang="fr">Li diz de la Griesche d’yver</cite> (<cite>The tale of the Griesche of Winter</cite>), and <cite lang="fr">La Griesche d’estei</cite> (<cite>The Griesche of Summer</cite>){/*, and <cite lang="fr">Li diz des ribaux de greive</cite>*/}.[@CommerceOfTime] Griesche also appears in [Rabelais’ list of games](articles/lists/rabelais.md); some scholars [who?] believe that this refers to a game of shuttle-cock (the word has this meaning in Anjou; see @RutebeufComplete [p. 26-8], but I disagree with him identifying blanc=zara=griesche), but a dice game fits the context there more easily.
+My best guess is that it is the same as the French game <span lang="fr">la Griesche</span>, which is most famously described in several poems by [Rutebeuf](https://en.wikipedia.org/wiki/Rutebeuf) (fl. 1245–85) entitled <cite lang="fr">Li diz de la Griesche d’yver</cite> (<cite>The tale of the Griesche of Winter</cite>), and <cite lang="fr">La Griesche d’estei</cite> (<cite>The Griesche of Summer</cite>).[@CommerceOfTime] Griesche also appears in [Rabelais’ list of games](articles/lists/rabelais.md); some scholars [who?] believe that this refers to a game of shuttle-cock (the word has this meaning in Anjou; see @RutebeufComplete [p. 26-8], but I disagree with him identifying blanc=zara=griesche), but a dice game fits the context there more easily.
 
-Other old French names are <span lang="fr" class="aka">le grieske</span> (Arras, 13th century),[@ChansonsEtDits 97] <span lang="fr" class="aka">la grigoise</span> (seen in Jehan de Journi’s <cite lang="fr">La Disme de Penitanche</cite>, 1288) or <span lang="fr" class="aka">la grijoise</span>,[^fn2] in an undated work entitled <cite lang="fr">Resveries</cite>, with the wonderful lines:[@Disme 163][@JongleursEtTrouveres 40]
+> [!todo]
+> , and <cite lang="fr">Li diz des ribaux de greive</cite>?
+ 
+Other old French names are <span lang="fr" class="aka">le grieske</span> ([Arras](https://en.wikipedia.org/wiki/Arras), 13th century),[@ChansonsEtDits 97] <span lang="fr" class="aka">la grigoise</span> (seen in Jehan de Journi’s <cite lang="fr">La Disme de Penitanche</cite>, 1288)[@Disme 163] or <span lang="fr" class="aka">la grijoise</span>,[^fn2] in an undated work entitled <cite lang="fr">Resveries</cite>, with the wonderful lines:[@JongleursEtTrouveres 40]
 
 [^fn2]: The letters I and J were as yet undifferentiated in text so this is written <span lang="fr" class="aka">griioise</span> in the source.
 
-<div class="multi">
-<p lang="fr">
-J’a perdu tout mon argent<br/>
-&emsp;A la griioise.<br/>
-Il i a bone cervoise<br/>
-&emsp;En Engleterre.
-</p>
-<p>
-I have lost all my money<br/>
-&emsp;At <span lang="fr">grijoise</span>.<br/>
-There is good beer<br/>
-&emsp;In England.
-</p>
-</div>
+> [!multi]
+>
+> > [!lang] fr
+> > 
+> > J’a perdu tout mon argent\
+> > &emsp;A la griioise.\
+> > Il i a bone cervoise\
+> > &emsp;En Engleterre.
+>
+> I have lost all my money\
+> &emsp;At <span lang="fr">grijoise</span>.\
+> There is good beer\
+> &emsp;In England.
 
 ---
 

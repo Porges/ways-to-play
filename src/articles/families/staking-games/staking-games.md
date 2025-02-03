@@ -1,6 +1,5 @@
 ---
 title: Simple Staking Games
-order: 380
 date created: 2024-12-22
 date modified: 2024-12-22
 ---

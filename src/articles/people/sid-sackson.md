@@ -1,13 +1,11 @@
 ---
 title: Sid Sackson
-order: 120
+order: sackson
 date created: 2024-12-18
 date modified: 2025-01-24
 ---
 
-<p class="lead">
 Sid Sackson (1920–2002) was a prolific game designer and author of books about games.
-</p>
 
 ## Board Games
 

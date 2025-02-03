@@ -5,7 +5,7 @@ date created: 2024-12-22
 date modified: 2025-01-23
 ---
 
-<p class="lead">Thomas Crosfield’s diary entry for Christmas day 1629 contains an entry titled “Games at Chartes” that contains a list of card games.[@ThomasCrosfield fol. 34r]</p>
+Thomas Crosfield’s diary entry for Christmas day 1629 contains an entry titled “Games at Chartes” that contains a list of card games.[@ThomasCrosfield fol. 34r]
 
 > [!figure]
 > 
@@ -25,22 +25,58 @@ date modified: 2025-01-23
 The games listed are:
 
 <dl>
-<dt>Ruffe</dt>
-<dt>trumpe</dt>
-<dt>Slam̃e</dt>
-<dt>Gleeke</dt>
-<dd>[Gleek](games/gleek/gleek.md)</dd>
-<dt>Newcut</dt>
-<dt>Swigg</dt>
-<dt>Loadam</dt>
-<dt>putt</dt>
-<dt>primifisty</dt>
-<dt>post & pair</dt>
-<dt>Bone-ace</dt>
-<dt>Anakin</dt>
-<dt>Seven Cardes</dt>
-<dt>one & 30</dt>
-<dd>[Thirty One](games/thirty-one/thirty-one.md)</dd>
-<dt>my sewe has pig’d</dt>
-<dd>[My Sow Has Pigged](games/my-sow-pigged/my-sow-pigged.md)</dd>
+<dt>
+Ruffe
+</dt>
+<dt>
+trumpe
+</dt>
+<dt>
+Slam̃e
+</dt>
+<dt>
+Gleeke
+</dt>
+<dd>
+[Gleek](games/gleek/gleek.md)
+</dd>
+<dt>
+Newcut
+</dt>
+<dt>
+Swigg
+</dt>
+<dt>
+Loadam
+</dt>
+<dt>
+putt
+</dt>
+<dt>
+primifisty
+</dt>
+<dt>
+post & pair
+</dt>
+<dt>
+Bone-ace
+</dt>
+<dt>
+Anakin
+</dt>
+<dt>
+Seven Cardes
+</dt>
+<dt>
+one & 30
+</dt>
+<dd>
+[Thirty One](games/thirty-one/thirty-one.md)
+</dd>
+<dt>
+my sewe has pig’d
+</dt>
+<dd>
+[My Sow Has Pigged](games/my-sow-pigged/my-sow-pigged.md)
+</dd>
 </dl>

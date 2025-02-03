@@ -49,4 +49,4 @@ Once a player has placed all their pieces, they then move one piece at a time fr
 
 ## See also
 
-<span class="noun" lang="ee">Achi</span> is sometimes misreported as a [Three Men’s Morris](games/three-mens-morris.md) game.
+<span class="noun" lang="ee">Achi</span> is sometimes misreported as a [Three Men’s Morris](games/three-mens-morris/three-mens-morris.md) game.

@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+ammonia = "4.0.0"
 celes = "2.5.0"
 clap = { version = "4.5.23", features = ["derive"] }
 dunce = "1.0.5"
@@ -15,7 +16,10 @@ itertools = "0.14.0"
 langtag = { version = "0.4.0", features = ["serde"] }
 markdown = "1.0.0-alpha"
 maud = "0.26.0"
+notify = "8.0.0"
+notify-debouncer-full = "0.5.0"
 num-format = "0.4.4"
+rayon = "1.10.0"
 regex = "1.11.1"
 saphyr = "0.0.3"
 serde = { version = "1.0.217", features = ["derive"] }
@@ -26,3 +30,4 @@ tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 url = "2.5.4"
 uuid = { version = "1.11.0", features = ["fast-rng"] }
+walkdir = "2.5.0"

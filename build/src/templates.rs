@@ -6,7 +6,7 @@ use maud::{html, Markup, DOCTYPE};
 use time::macros::format_description;
 use url::Url;
 
-use crate::bib_render::RenderedBibliography;
+use crate::{bib_render::RenderedBibliography, ArticleNode};
 
 pub struct Templater {
     site_url: Url,
@@ -14,10 +14,22 @@ pub struct Templater {
 pub struct OutputFile {
     pub url_path: Cow<'static, str>,
     pub content: Markup,
+    pub write_to_disk: bool,
+}
+
+impl OutputFile {
+    pub fn new(url_path: Cow<'static, str>, content: Markup) -> Self {
+        Self {
+            url_path,
+            content,
+            write_to_disk: true,
+        }
+    }
 }
 
 pub trait BaseMetadata {
-    fn title(&self) -> &str;
+    fn title_markup(&self) -> &Markup;
+    fn title_string(&self) -> &str;
 
     fn title_lang(&self) -> Option<&str> {
         None
@@ -32,20 +44,41 @@ pub trait BaseMetadata {
     }
 
     fn url_path(&self) -> &str;
+
+    fn is_draft(&self) -> bool;
 }
 
 struct SimplePage {
-    title: Cow<'static, str>,
+    title_string: String,
+    title_markup: Markup,
     url_path: Cow<'static, str>,
 }
 
+impl SimplePage {
+    pub fn new(title: String, url_path: Cow<'static, str>) -> Self {
+        Self {
+            title_string: title.to_string(),
+            title_markup: html! { (title) },
+            url_path,
+        }
+    }
+}
+
 impl BaseMetadata for SimplePage {
-    fn title(&self) -> &str {
-        &self.title
+    fn title_markup(&self) -> &Markup {
+        &self.title_markup
+    }
+
+    fn title_string(&self) -> &str {
+        &self.title_string
     }
 
     fn url_path(&self) -> &str {
         &self.url_path
+    }
+
+    fn is_draft(&self) -> bool {
+        false
     }
 }
 
@@ -67,7 +100,7 @@ impl Templater {
     pub fn base(
         &self,
         metadata: &dyn BaseMetadata,
-        breadcrumbs: &[(&str, Option<&str>)],
+        breadcrumbs: &[(&str, Option<&Markup>)],
         content: Markup,
     ) -> Result<OutputFile> {
         let url = self
@@ -93,9 +126,9 @@ impl Templater {
                     //meta name="generator" content="Eleventy";
                     meta name="theme-color" content="#000000";
                     meta name="robots" content="noai,noimageai";
-                    title { (metadata.title()) " · Ways To Play" }
+                    title { (metadata.title_string()) " · Ways To Play" }
                     meta property="og:site_name" content="Ways To Play";
-                    meta property="og:title" content=(metadata.title()) lang=[metadata.title_lang()];
+                    meta property="og:title" content=(metadata.title_string()) lang=[metadata.title_lang()];
                     meta property="og:url" content=(url);
                     @if let Some(og_type) = metadata.og_type() {
                         meta property="og:type" content=(og_type);
@@ -128,12 +161,15 @@ impl Templater {
                         @if !breadcrumbs.is_empty() {
                             nav.breadcrumbs aria-label="breadcrumb" {
                                 ol itemscope itemtype="https://schema.org/BreadcrumbList" itemprop="breadcrumb" {
-                                    @let mut url_so_far = "/".to_string();
-                                    @for (ix, (part, name)) in breadcrumbs.iter().enumerate() {
+                                    @for (ix, (url, name)) in breadcrumbs.iter().enumerate() {
                                         li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" {
                                             meta itemprop="position" content=(ix + 1);
-                                            a href=({url_so_far.push_str(part); url_so_far.push('/'); &url_so_far}) itemprop="item" {
-                                                span itemprop="name" { (name.unwrap_or(part)) }
+                                            a href=(url) itemprop="item" {
+                                                @if let Some(name) = name {
+                                                    span itemprop="name" { (name) }
+                                                } @else {
+                                                    span itemprop="name" { "…" }
+                                                }
                                             }
                                         }
                                     }
@@ -153,7 +189,10 @@ impl Templater {
                                 @if let Some(original_title) = metadata.original_title() {
                                     (original_title) " · "
                                 }
-                                span.simple itemprop="name" { (metadata.title()) }
+                                span.simple itemprop="name" { (metadata.title_markup()) }
+                                @if metadata.is_draft() {
+                                    " 🚧"
+                                }
                             }
                             form #search-box role="search" method="get" action="https://duckduckgo.com/" target="_top" {
                               span.simple {
@@ -213,17 +252,19 @@ impl Templater {
             }
         };
 
-        Ok(OutputFile {
-            url_path: metadata.url_path().to_owned().into(),
+        Ok(OutputFile::new(
+            metadata.url_path().to_owned().into(),
             content,
-        })
+        ))
     }
 
     pub fn article<T: ArticleMetadata + BaseMetadata>(
         &self,
         article: &T,
         content: Markup,
-        breadcrumbs: &[(&str, Option<&str>)],
+        breadcrumbs: &[(&str, Option<&Markup>)],
+        children: Option<Markup>,
+        prev_next: Option<Markup>,
     ) -> Result<OutputFile> {
         self.base(
             article,
@@ -231,7 +272,7 @@ impl Templater {
             html! {
                 article itemprop="mainEntity" itemscope itemtype="https://schema.org/Article" itemref="author-outer" {
                     div.article-meta {
-                        meta itemprop="headline" content=(article.title());
+                        meta itemprop="headline" content=(article.title_string());
                         @if let Some(mod_date) = article.date_modified() {
                             p.last-updated {
                                 "Last updated: "
@@ -243,6 +284,23 @@ impl Templater {
                         }
                     }
                     (content)
+                }
+                @if children.is_some() || prev_next.is_some() {
+                    div #after-article {
+                        @if let Some(children) = children {
+                            @if !content.0.is_empty() {
+                                hr;
+                                p.articlesInThisSection {
+                                    "Other articles under “" (article.title_markup()) "”:"
+                                }
+                            }
+                            (children)
+                        }
+                        @if let Some(prev_next) = prev_next {
+                            hr;
+                            (prev_next)
+                        }
+                    }
                 }
             },
         )
@@ -274,10 +332,10 @@ impl Templater {
         };
 
         self.base(
-            &SimplePage {
-                title: "Bibliography of Traditional Games".into(),
-                url_path: "/bibliography/".into(),
-            },
+            &SimplePage::new(
+                "Bibliography of Traditional Games".to_string(),
+                "/bibliography/".into(),
+            ),
             &[],
             content,
         )
@@ -308,20 +366,17 @@ impl Templater {
         // TODO: recently updated/longest pages
 
         self.base(
-            &SimplePage {
-                title: "Welcome".into(),
-                url_path: "/".into(),
-            },
+            &SimplePage::new("Welcome".to_string(), "/".into()),
             &[],
             content,
         )
     }
 
-    pub fn games<T: BaseMetadata + ArticleMetadata + GameMetadata>(
+    pub fn games<'a, T: BaseMetadata + ArticleMetadata + GameMetadata + 'a>(
         &self,
-        games: &[T],
+        games: impl Iterator<Item = &'a T>,
     ) -> Result<OutputFile> {
-        let games_all = Vec::from_iter(games.iter().sorted_by_key(|g| g.title()));
+        let games_all = Vec::from_iter(games.sorted_by_key(|g| g.title_string()));
 
         let player_options = games_all
             .iter()
@@ -383,14 +438,18 @@ impl Templater {
             }
             ul.columnar #games-list {
                 @for game in games_all {
-                    li data-name=(game.title()) data-countries=(game.countries().iter().map(|c| c.alpha2).join(",")) data-players=[game.players()] data-equipment=[game.equipment()] {
+                    li data-name=(game.title_string()) data-countries=(game.countries().iter().map(|c| c.alpha2).join(",")) data-players=[game.players()] data-equipment=[game.equipment()] {
                         a href=(game.url_path()) {
                             span.noun lang=[game.title_lang()] {
-                                (game.title())
+                                (game.title_markup())
                             }
 
                             @if let Some(original_title) = game.original_title() {
                                 " (" (original_title) ")"
+                            }
+
+                            @if game.is_draft() {
+                                " 🚧"
                             }
                         }
                     }
@@ -399,12 +458,65 @@ impl Templater {
         };
 
         self.base(
-            &SimplePage {
-                title: "Games".into(),
-                url_path: "/games/".into(),
-            },
+            &SimplePage::new("Games".to_string(), "/games/".into()),
             &[],
             content,
         )
     }
+}
+
+pub fn render_article_tree(root: &str, tree: &ArticleNode) -> Option<Markup> {
+    if tree.children.is_empty() {
+        return None;
+    }
+
+    Some(html! {
+        ul.article-list {
+            @for (name, value) in tree.children.iter().sorted_by_key(|(_, c)| c.order) {
+                @let path = root.to_string() + name + "/";
+                li {
+                    @if let Some(name) = value.name {
+                        a href=(path) {
+                            (name)
+                            @if value.draft {
+                                " 🚧"
+                            }
+                        }
+                    }
+
+                    (render_article_tree(&path, value).unwrap_or_default())
+                }
+            }
+        }
+    })
+}
+
+pub fn render_prev_next(prev: Option<&ArticleNode>, next: Option<&ArticleNode>) -> Option<Markup> {
+    if prev.is_none() && next.is_none() {
+        return None;
+    }
+
+    Some(html! {
+        nav.prev-next aria-label="Nearby Articles" {
+            @if let Some(prev) = prev {
+                @if let Some(name) = prev.name {
+                    a href=(prev.url_path) rel="prev" {
+                        span.prevNextArticle { "Previous Article" }
+                        br;
+                        (name)
+                    }
+                }
+            }
+
+            @if let Some(next) = next {
+                @if let Some(name) = next.name {
+                    a href=(next.url_path) rel="next" {
+                        span.prevNextArticle { "Next Article" }
+                        br;
+                        (name)
+                    }
+                }
+            }
+        }
+    })
 }

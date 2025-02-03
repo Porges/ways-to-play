@@ -12,14 +12,14 @@ subgames:
   titleLang: jv-Latn
   players: [4, 6]
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-03
 ---
 
-<p class="lead">
-<span lang="jv-Latn" class="noun aka">Thothit</span> (<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a {%a fishing-games, fishing game %} from Java for three players,  played with {% a ceki %}. The goal is to collect matching pairs of cards, especially red-stamped ones.
-</p>
+<span lang="jv-Latn" class="noun aka">Thothit</span> (<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a [fishing game](articles/families/fishing-games/fishing-games.md) from Java for three players,  played with [Ceki cards](articles/cards/ceki/ceki.md). The goal is to collect matching pairs of cards, especially red-stamped ones.
 
-{%aside%}The name is given as <span lang="jv-Latn" class="noun aka">Ṭoṭit</span> in older orthography. I wonder if this could be derived from Hokkien <span lang="nan">𨑨迌</span> <span lang="nan-Latn">thit-thô</span> ‘to play’?{%endaside%}
+> [!aside]
+> 
+> The name is given as <span lang="jv-Latn" class="noun aka">Ṭoṭit</span> in older orthography. I wonder if this could be derived from Hokkien <span lang="nan">𨑨迌</span> <span lang="nan-Latn">thit-thô</span> ‘to play’?
 
 First, I describe the game as played in [Surakarta](https://en.wikipedia.org/wiki/Surakarta) in the early 20th century, based upon the description in @JavaanseKaartspelen [p. 71–2]. In Yogyakarta this game is known as <span lang="jv-Latn" class="noun aka">Ceweng</span> ‘to pull something towards oneself’, and <span lang="jv-Latn" class="noun">Thothit</span> refers to a different, simpler, game ({% gameref thothit-yogyakarta %}).
 
@@ -67,7 +67,7 @@ this is done, the player who does it cannot win the round.
 
 ### Sid Sackson’s description
 
-{% a sid-sackson %} describes the game in @CardGamesAroundTheWorld [p. 11–2].  However, he misses the second part of the player’s turn (turning a card from the stock).
+[Sid Sackson](articles/people/sid-sackson.md) describes the game in @CardGamesAroundTheWorld [p. 11–2].  However, he misses the second part of the player’s turn (turning a card from the stock).
 
 The rules are given in terms of standard playing cards: from two decks, take the <Cards>shdA–9</Cards> and <Cards>cJQK</Cards>, giving 60 cards. The <Cards>AJQK</Cards> cards are all considered to be <Cards>1</Cards> and thus match.
 
@@ -87,7 +87,7 @@ For scoring, each identical quadruplet (<span lang="jv">ꦲꦺꦤ꧀ꦛꦶꦠ꧀
 
 ### <span lang="jv-Latn" class="noun aka">Thothit Kuna</span>
 
-<span lang="jv-Latn" class="noun">Thothit Kuna</span>[^fn1], or ‘ancient’ <span lang="jv-Latn" class="noun">Thothit</span> is a form of the game previously played at the Surakarta court.[@JavaanseKaartspelen p. 74–5] It is mostly the same as the game described above but uses more cards and so takes longer to play.
+<span lang="jv-Latn" class="noun">Thothit Kuna</span>,[^fn1] or ‘ancient’ <span lang="jv-Latn" class="noun">Thothit</span> is a form of the game previously played at the Surakarta court.[@JavaanseKaartspelen p. 74–5] It is mostly the same as the game described above but uses more cards and so takes longer to play.
 
 [^fn1]: Old orthography: <span lang="jv-Latn" class="aka">Ṭoṭit Koena</span>.
 

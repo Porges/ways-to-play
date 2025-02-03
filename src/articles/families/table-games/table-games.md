@@ -1,7 +1,6 @@
 ---
 title: Table Games
 draft: true
-order: 390
 aliases:
   - table game
 date created: 2024-12-18

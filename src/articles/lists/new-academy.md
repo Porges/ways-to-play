@@ -27,5 +27,5 @@ The games listed by Rachel are:
 - [My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)
 - Gleek
 - Primero
-- Gresco
+- [Gresco](games/gresco/gresco.md)
 - Primfistula

@@ -1,6 +1,5 @@
 ---
 title: Lists of Games
-order: 110
 ---
 
 In this section are:

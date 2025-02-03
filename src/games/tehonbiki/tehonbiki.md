@@ -10,9 +10,8 @@ subgames:
   - title: Daun Empat
     titleLang: id
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-03
 ---
-
 <span lang="ja-Latn" class="noun aka">Tehonbiki</span> (<span lang="ja" class="aka">手本引き</span>, meaning something like ‘draw an example’) is a traditional Japanese gambling game that is played with sets of six cards.
 
 The goal of the game is for the players to guess the card which the dealer has chosen; the fact that the dealer must _choose_ the card and not select one at random turns this into a game of psychology rather than one of pure chance.
@@ -104,9 +103,9 @@ Appears in the manga <cite lang="ja">世紀末博狼伝サガ</cite> <cite>Legen
 
 ## Equipment variations
 
-When played with [Mah Jong](/equipment/mah-jong.html) tiles, it can be called <span lang="ja-Latn" class="aka">haihonbiki</span> (<span lang="ja" class="aka">牌本引</span>).
+When played with [Mahjong](games/mahjong/mahjong.md) tiles, it can be called <span lang="ja-Latn" class="aka">haihonbiki</span> (<span lang="ja" class="aka">牌本引</span>).
 
-Tehonbiki can also be played with [Hanafuda](/equipment/hanafuda.html) cards. In this case it can be called <span lang="ja-Latn" class="aka">ehonbiki</span> (<span lang="ja" class="aka">絵本引</span>) or <span lang="ja-Latn" class="aka">echobo</span> (<span lang="ja" class="aka">絵樗蒲</span>/<span lang="ja" class="aka">えちょぼ</span>).[^fn1] When used in this manner, the values of the cards are ignored and only the months are considered; the mapping of months to numbers is:[^fn2]
+Tehonbiki can also be played with [Hanafuda](articles/cards/japan/hanafuda/hanafuda.md) cards. In this case it can be called <span lang="ja-Latn" class="aka">ehonbiki</span> (<span lang="ja" class="aka">絵本引</span>) or <span lang="ja-Latn" class="aka">echobo</span> (<span lang="ja" class="aka">絵樗蒲</span>/<span lang="ja" class="aka">えちょぼ</span>).[^fn1] When used in this manner, the values of the cards are ignored and only the months are considered; the mapping of months to numbers is:[^fn2]
 
 [^fn1]: <span lang="ja-Latn">Chobo</span> here probably just means “gambling”; see also the dice game {%gameref chobo-ichi%}.
 

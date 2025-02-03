@@ -1,7 +1,8 @@
 ---
 title: Playing Cards in New Zealand
-order: 400
 mainImage: 22738050.jpg
+date created: 2024-12-22
+date modified: 2025-02-03
 ---
 
 Manufacturing of playing cards in New Zealand started in the 1880s. Despite this
@@ -59,19 +60,11 @@ seen have been stamped on the <Cards>d2</Cards>.
 
 ### John Dickinson/Croxley
 
-{%aside%}
-The original John Dickinson/Croxley factory (known as “Croxley house”) still
-stands in Wellington and was turned into [an apartment
-building](https://custance.co.nz/project/croxley-mills-apartments) in the early 2000s.
-{%endaside%}
+> [!aside]
+>
+> The original John Dickinson/Croxley factory (known as “Croxley house”) still stands in Wellington and was turned into [an apartment building](https://custance.co.nz/project/croxley-mills-apartments) in the early 2000s.
 
-John Dickinson was a stationery company based in the United Kingdom that opened
-a New Zealand branch (“John Dickinson & Co.”) in 1920.[@CroxleyHistory]
-“Croxley” was their public brand of stationery products in New Zealand (the UK
-company originated in [Croxley
-Green](https://en.wikipedia.org/wiki/Croxley_Green)), under which they also
-published playing cards. As far as I know, the UK company never manufactured
-cards.
+John Dickinson was a stationery company based in the United Kingdom that opened a New Zealand branch (“John Dickinson & Co.”) in 1920.[@CroxleyHistory] “Croxley” was their public brand of stationery products in New Zealand (the UK company originated in [Croxley Green](https://en.wikipedia.org/wiki/Croxley_Green)), under which they also published playing cards. As far as I know, the UK company never manufactured cards.
 
 > [!figure]
 >

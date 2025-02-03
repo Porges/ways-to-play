@@ -1233,7 +1233,7 @@ hr {
             font-weight: bolder;
         }
 
-        .nav-link[rel="prev"] {
+        a[rel="prev"] {
             grid-column: 1;
 
             .prevNextArticle::before {
@@ -1241,7 +1241,7 @@ hr {
             }
         }
 
-        .nav-link[rel="next"] {
+        a[rel="next"] {
             grid-column: 2;
             text-align: right;
 

@@ -27,7 +27,7 @@ In 1603 [Samuel Harsnett](https://en.wikipedia.org/wiki/Samuel_Harsnett) (1561�
 
 > <i>Item</i>, I leaue to their old Aunt, <i>my Sow h’as Pigd</i>,<br/>a Litter of Curtizans to breede vp for Shroue-tide.[@InnerTempleMasque]
 
-In 1621, the poet James Taylor included it in [a list of games](/articles/lists/john-taylor/) as “my-sow-pigg’d”; and in 1629, Thomas Crosfield mentioned it [in his diary](/articles/lists/thomas-crosfield/) as “My Sewe has Pig’d”.
+In 1621, the poet James Taylor included it in [a list of games](articles/lists/john-taylor.md) as “my-sow-pigg’d”; and in 1629, Thomas Crosfield mentioned it [in his diary](articles/lists/thomas-crosfield.md) as “My Sewe has Pig’d”.
 
 It is mentioned by [Fanny Burney](https://en.wikipedia.org/wiki/Frances_Burney) in her journal of 1770, alongside other card games that she played: “Pope Joan, my lady’s hole [later corrected or bowdlerized by herself to ‘commerce’], or <i>my sow’s Pig’d</i>”.[@FannyBurney p. 121]
 

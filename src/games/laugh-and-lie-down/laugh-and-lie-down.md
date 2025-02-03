@@ -7,7 +7,7 @@ equipment: Card game (standard deck)
 countries: GB
 ---
 
-Laugh and Lie Down is a {% a  fishing-games, fishing game %} for five (or four) players from the 17th century.[^fn0] The only known description of the rules of this game is from Francis Willughby’s <cite>Book of Games</cite>.[@FrancisWillughby p. 138] but also appears that same year in a humourous tract.[@APublicansReason]
+Laugh and Lie Down is a [fishing game](articles/families/fishing-games/fishing-games.md) for five (or four) players from the 17th century.[^fn0] The only known description of the rules of this game is from Francis Willughby’s <cite>Book of Games</cite>.[@FrancisWillughby p. 138] but also appears that same year in a humorous tract.[@APublicansReason]
 
 [^fn0]: By 1784 it was being described as “old-fashioned”.[@ObservationsOnSomeOldFashionedGames p. 134]
 
@@ -25,11 +25,11 @@ The goal of the game is to capture at least 4 pairs (8 cards).
 
 All players put 2 stakes into the pot; the dealer stakes 3 instead (so that the pot contains 11 stakes).
 
-Deal out 8 cards to each player one at a time. The remaining 12 cards are turned face-up upon the table to form the central pool. If there are four cards of the same suit (a ‘{%a glossary#mournival,murnivall %}’) amongst the pool cards, the dealer takes it.
+Deal out 8 cards to each player one at a time. The remaining 12 cards are turned face-up upon the table to form the central pool. If there are four cards of the same suit (a ‘[murnivall](articles/glossary.md#mournival)’) amongst the pool cards, the dealer takes it.
 
 Starting with the player to the dealer’s left, each player in turn plays a card from their hand that matches one of the face-up cards in the pool by rank. They then capture the pair of cards. If a player is unable to capture a card on their turn, then they _Lie Down_ all the cards in their hand to add to the central pool and are out of the game for the remainder of the round (presumably, as everyone else _Laughs_ at them).
 
-If there are three cards of the same rank in the pool (a ‘{% a glossary#prial,perryall %}’), all three may be captured by the fourth card.
+If there are three cards of the same rank in the pool (a ‘[perryall](articles/glossary.md#prial)’), all three may be captured by the fourth card.
 
 Cards from the hand may be placed directly into a player’s captured cards in the following situations:
 - If a player has a pair in hand when another pair of the same rank is captured, they may place it into their captured cards.

@@ -1,6 +1,5 @@
 ---
 title: Glossary of Games Terminology
-order: 104
 date created: 2024-12-22
 date modified: 2025-01-23
 ---
@@ -36,7 +35,7 @@ This word is now used in English mahjong games. It also seems to appear in Javan
 
 </dd>
 
-<dt>tong</dt>
+<dt id="tong">tong</dt>
 <dd>
 Payment made to the owner of a gambling establishment, as a fixed fee per game or as a percentage of winnings.
 

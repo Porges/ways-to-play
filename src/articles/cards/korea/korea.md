@@ -1,7 +1,6 @@
 ---
 title: Korean playing cards
 draft: true
-order: 250
 ---
 
 

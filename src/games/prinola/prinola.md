@@ -16,11 +16,11 @@ date created: 2024-12-18
 date modified: 2025-01-24
 ---
 
-<p class="lead"><span lang="fil" class="noun aka">Prinola</span> is a {%a staking-games,simple staking game%} that used to be played in the Philippines. The name is derived from the Spanish <span lang="es">pirinola</span>, a spinning-top or teetotum.</p>
+<span lang="fil" class="noun aka">Prinola</span> is a [simple staking game](games/simple-staking-games/simple-staking-games.md) that used to be played in the Philippines. The name is derived from the Spanish <span lang="es">pirinola</span>, a spinning-top or teetotum.
 
-The only source I have found for the game is that of Stewart Culin. He also says the same game is played in China under the name <span lang="yue" class="aka">車咩</span> (‘teetotum’, Cantonese: <span lang="yue-Latn-jyutping" class="aka">ce¹ me¹</span>).[@ChineseGames p. 496][^fn0]
+The only source I have found for the game is that of Stewart Culin. He also states that the same game is played in China under the name <span lang="yue" class="aka">車咩</span> (‘teetotum’, Cantonese: <span lang="yue-Latn-jyutping" class="aka">ce¹ me¹</span>).[@ChineseGames p. 496][^fn0]
 
-[^fn0]: Culin transliterates this as <span lang="yue-Latn" class="aka">ch’é mé</span>.
+[^fn0]: Transliterated as <span lang="yue-Latn" class="aka">ch’é mé</span> in the original work.
 
 ### Equipment
 
@@ -92,6 +92,7 @@ In Indonesia the game has been called <Pronounce lang="id"  class="noun aka" pro
 
 
 > [!todo]
+>
 > @IetsOver [p. 382] has reference for this game
 
 ## <span lang="ja-Latn" class="noun">Chobo-Ichi</span>
