@@ -11,9 +11,9 @@ jobs:
     - uses: actions/checkout@v4
     - name: Install pre-reqs
       run: |
-        sudo apt-get install -y exiftool
+        sudo apt-get install -y exiftool libfuse2
         mkdir "$HOME/bin"
-        wget 'https://imagemagick.org/archive/binaries/magick' -O "$HOME/bin/magick"
+        wget -q 'https://imagemagick.org/archive/binaries/magick' -O "$HOME/bin/magick"
         chmod +x "$HOME/bin/magick"
     - name: Build site
       run: |
