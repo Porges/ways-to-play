@@ -364,10 +364,8 @@ impl Converter<'_> {
                 let children = self.expand(&heading.children)?;
                 match heading.depth {
                     1 => {
-                        html! {
-                            (self.do_sections(1))
-                            h1 { (children) }
-                        }
+                        // we will synthesize the h1 later
+                        Markup::default()
                     }
                     2 => {
                         html! {

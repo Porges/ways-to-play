@@ -784,8 +784,16 @@ fn main() -> Result<()> {
                 }
             }
 
-            builder.generate()?;
-            builder.output()?;
+            let mut update = || -> Result<()> {
+                builder.generate()?;
+                builder.output()?;
+                Ok(())
+            };
+
+            match update() {
+                Ok(()) => info!("Updated!"),
+                Err(e) => error!("Error updating: {e:#}"),
+            }
         }
     } else {
         info!("Done!");

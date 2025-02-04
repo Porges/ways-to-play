@@ -197,7 +197,7 @@ p {
     hyphens: auto;
 }
 
-article>p:first-of-type {
+p.last-updated + p {
     hyphens: none;
 
     font-weight: 350;
@@ -231,15 +231,25 @@ h6 {
     break-after: avoid;
 }
 
-h1,
-h2 {
+h1.page-title {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 1rlh;
     line-height: 2rlh;
+
+    /* The Latin portion should be italic */
+    .simple {
+        font-style: italic;
+    }
 }
+
 
 h2 {
     margin-left: var(--heading-protrude);
     border-bottom: 1px solid var(--colour-dark);
     margin-bottom: -1px;
+    line-height: 2rlh;
 }
 
 h2,
@@ -292,10 +302,6 @@ a {
 
 
 /*** Header & Footer ***/
-header {
-    margin-bottom: 1rlh;
-}
-
 nav.site,
 #site-footer {
     display: flex;
@@ -306,12 +312,11 @@ nav.site,
 }
 
 nav.site {
-    margin-top: 1rlh;
     padding: 0 1rlh 0 1rlh;
+    margin-bottom: .5rlh;
 }
 
 @media (width >=1161px) {
-
     nav.site,
     #site-footer {
         flex-direction: row;
@@ -319,7 +324,6 @@ nav.site {
 
     nav.site {
         border-bottom: 0;
-        margin-bottom: 0;
     }
 }
 
@@ -333,25 +337,10 @@ nav.site {
 }
 
 nav.site {
-
-    .brand,
-    .page-title {
-        font-size: 2rem;
-        line-height: 2rlh;
-    }
-
     .brand {
+        font-size: 1.6rem;
+        line-height: 2rlh;
         font-weight: 900;
-    }
-
-    .page-title {
-        font-weight: bolder;
-        text-align: center;
-
-        /* The Latin portion should be italic */
-        .simple {
-            font-style: italic;
-        }
     }
 
     ul.under-brand {
@@ -417,9 +406,9 @@ nav {
 /*** Breadcrumbs ***/
 
 nav.breadcrumbs {
-    padding: .25rlh .5rlh .25rlh .5rlh;
-    border-bottom: 1px solid var(--colour-secondary);
-    margin-bottom: -1px;
+    padding: .25rlh 1rlh .25rlh 1rlh;
+    border-top: 1px solid var(--colour-light);
+    margin-top: -1px;
 
     background-color: var(--colour-white);
 
@@ -1193,12 +1182,6 @@ hr {
     text-align: right;
     margin-top: .5rlh;
     margin-bottom: .5rlh;
-}
-
-@media (width >=1161px) {
-    .last-updated {
-        text-align: left;
-    }
 }
 
 .recently-updated-time {

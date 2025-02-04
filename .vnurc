@@ -1,4 +1,8 @@
+# Language stuff
 .* Language tag should omit the default script for the language.
 Bad value “(cmn-Latn-pinyin|tws(-Latn)?|el-polyton-Latn|grc)” for attribute “lang” on element .*
+# <dialog> -related bits
 The “dialog” element is not supported in all browsers. .*
 Bad value “dialog” for attribute “method” on element “form”.
+# “Unnecessary” roles
+The “searchbox” role is unnecessary for an “input” element that has no “list” attribute and whose type is “search”.

@@ -1,5 +1,5 @@
 ---
-title: Introduction to Hanafuda
+title: 'Introduction to <span lang="ja-Latn" class="noun">Hanafuda</span>'
 order: 1
 hero:
     image: 16201732242_8d1d3ed19d_o.jpg
@@ -9,7 +9,10 @@ hero:
     license: cc-by-sa
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
+date created: 2024-12-27
+date modified: 2025-02-04
 ---
+# Introduction to <span lang="ja-Latn" class="noun">Hanafuda</span>
 
 <Pronounce pronouncer="biscuit"  lang="ja-Latn" file="pronunciation_ja_花札.mp3" noun="true">Hanafuda</Pronounce> (<span lang="ja">花札</span>, ‘flower cards’) are a type of playing card originating in Japan. They are also used in Korea, where they are known as <Pronounce pronouncer="ssoonkimi"  lang="ko-Latn" file="pronunciation_ko_화투.mp3">hwatu</Pronounce> (<span lang="ko">화투</span>, ‘flower fight’, originally <span lang="ko-Hani">花鬪</span>), and in Hawaiʻi, where there is a large Japanese population. They are mostly used to play matching or set-collecting games, but they can also be used for complex gambling games.
 
@@ -57,7 +60,7 @@ In Korean and some Hawaiian decks, the months of November &amp; December are swi
 
 ### Types of card
 
-The deck is divided into four categories of card. In descending order of value, these are:
+The deck is divided into four categories of card. In descending order of value, these are: the “bright” (<span lang="ja-Latn">hikari</span>) cards, the <span lang="ja-Latn">tane</span> cards, the <span lang="ja-Latn">tanzaku</span> cards, and the <span lang="ja-Latn">kasu</span> cards.
 
 #### Bright cards
 

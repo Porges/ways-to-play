@@ -139,17 +139,17 @@ impl Templater {
                     //<!-- Google tag (gtag.js) -->
                     script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0CH5J6QX3" {}
                     script {
-                      "window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-Z0CH5J6QX3');"
+                      "window.dataLayer = window.dataLayer || [];"
+                      "function gtag(){dataLayer.push(arguments);}"
+                      "gtag('js', new Date());"
+                      "gtag('config', 'G-Z0CH5J6QX3');"
                     }
-                    script type="text/javascript" {
-                      "(function(c,l,a,r,i,t,y){
-                      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-                      t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;
-                      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-                  })(window, document, 'clarity', 'script', 'gzk1ekbi1n');"
+                    script {
+                      "(function(c,l,a,r,i,t,y){"
+                      "c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};"
+                      "t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;"
+                      "y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);"
+                      "})(window, document, 'clarity', 'script', 'gzk1ekbi1n');"
                     }
                 }
                 body itemscope itemtype="https://schema.org/WebPage" {
@@ -158,6 +158,23 @@ impl Templater {
                         meta itemprop="name" content="Ways To Play";
                     }
                     header {
+                        nav.site {
+                            div {
+                              a.brand href="/" { "Ways to Play" }
+                              ul.under-brand {
+                                li { a href="/articles/" { "Articles" } }
+                                li { a href="/games/" { "Games" } }
+                              }
+                            }
+                            form #search-box role="search" method="get" action="https://duckduckgo.com/" target="_top" {
+                              span.simple {
+                                  input type="search" role="searchbox" name="q" required placeholder="Search this site" aria-label="Search this site";
+                                  button type="submit" { "\u{1F50D}\u{FE0E}" }
+                              }
+                              input type="hidden" name="sites" value="games.porg.es";
+                            }
+                        }
+
                         @if !breadcrumbs.is_empty() {
                             nav.breadcrumbs aria-label="breadcrumb" {
                                 ol itemscope itemtype="https://schema.org/BreadcrumbList" itemprop="breadcrumb" {
@@ -174,32 +191,6 @@ impl Templater {
                                         }
                                     }
                                 }
-                            }
-                        }
-
-                        nav.site {
-                            div {
-                              a.brand href="/" { "Ways to Play" }
-                              ul.under-brand {
-                                li { a href="/articles/" { "Articles" } }
-                                li { a href="/games/" { "Games" } }
-                              }
-                            }
-                            h1.page-title lang=[metadata.title_lang()] {
-                                @if let Some(original_title) = metadata.original_title() {
-                                    (original_title) " · "
-                                }
-                                span.simple itemprop="name" { (metadata.title_markup()) }
-                                @if metadata.is_draft() {
-                                    " 🚧"
-                                }
-                            }
-                            form #search-box role="search" method="get" action="https://duckduckgo.com/" target="_top" {
-                              span.simple {
-                                  input type="search" role="searchbox" name="q" required placeholder="Search this site" aria-label="Search this site";
-                                  button type="submit" { "\u{1F50D}\u{FE0E}" }
-                              }
-                              input type="hidden" name="sites" value="games.porg.es";
                             }
                         }
                     }
@@ -271,16 +262,22 @@ impl Templater {
             breadcrumbs,
             html! {
                 article itemprop="mainEntity" itemscope itemtype="https://schema.org/Article" itemref="author-outer" {
-                    div.article-meta {
-                        meta itemprop="headline" content=(article.title_string());
-                        @if let Some(mod_date) = article.date_modified() {
-                            p.last-updated {
-                                "Last updated: "
-                                time itemprop="dateModified" datetime=(mod_date) {
-                                    (mod_date.format(&format_description!("[weekday repr:long], [day padding:none] [month repr:long] [year]"))?)
-                                }
-                                "."
+                    h1.page-title lang=[article.title_lang()] itemprop="headline" {
+                        @if let Some(original_title) = article.original_title() {
+                            (original_title) " · "
+                        }
+                        span.simple itemprop="name" { (article.title_markup()) }
+                        @if article.is_draft() {
+                            " 🚧"
+                        }
+                    }
+                    @if let Some(mod_date) = article.date_modified() {
+                        p.last-updated {
+                            "Last updated: "
+                            time itemprop="dateModified" datetime=(mod_date) {
+                                (mod_date.format(&format_description!("[weekday repr:long], [day padding:none] [month repr:long] [year]"))?)
                             }
+                            "."
                         }
                     }
                     (content)

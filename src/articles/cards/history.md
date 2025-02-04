@@ -4,6 +4,7 @@ draft: true
 date created: 2024-12-22
 date modified: 2024-12-22
 ---
+# History of Playing Cards
 
 Carsten Niebuhr visited Bombay in 1763 and reported that:[@TravelsThroughArabia_1 p. ] 
 
