@@ -3,6 +3,7 @@ title: Glossary of Games Terminology
 date created: 2024-12-22
 date modified: 2025-01-23
 ---
+# Glossary of Games Terminology
 
 Here I collect some terms instead of reëxplaining them in many articles, as well as providing a place for discussion or expansion.
 

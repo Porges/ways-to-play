@@ -5,6 +5,7 @@ players: banking
 date created: 2024-12-18
 date modified: 2024-12-21
 ---
+# Ace of Hearts
 
 <span class="aka">Ace of Hearts</span>, also known as <span class="aka">Fair Chance</span>, was a simple roulette-like gambling game played in England in the 18th century.
 

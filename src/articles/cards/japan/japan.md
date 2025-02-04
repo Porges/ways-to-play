@@ -14,6 +14,7 @@ for playing cards, <span lang="pt">carta</span>.
 >
 > ```yaml
 > license: cc0
+> position: aside
 > noborder: true
 > orgName: Museum of Fine Arts Boston position="aside"
 > identifier: '2002.2083'
@@ -37,7 +38,7 @@ There are two main family “branches” of cards, and a third that derived from
         </span>, ‘<span class="noun" lang="ja-Latn">Un-Sun</span> cards’)
       * <span class="noun" lang="ja-Latn">Sunkun Karuta</span> (<span lang="ja">すんくんかるた
         </span>, ‘<span class="noun" lang="ja-Latn">Sun-Kun</span> cards’)
-    * {%a mekuri-karuta%} (<span lang="ja">捲りかるた
+    * [<span lang="ja-Latn" class="noun">Mekuri Karuta</span>](articles/cards/japan/mekuri-karuta/mekuri-karuta.md) (<span lang="ja">捲りかるた
       </span>, ‘turning cards’) were an alteration of the <span class="noun"
       lang="ja-Latn">Tenshō</span> pattern cards, possibly created to evade bans on
       those cards. The structure of the deck remains the same, but there are
@@ -57,6 +58,6 @@ There are two main family “branches” of cards, and a third that derived from
       - <span class="noun" lang="ja-Latn">Hyakunin Isshu</span> (<span lang="ja">百人一首</span>)
       - <span class="noun" lang="ja-Latn">Genji Karuta</span> (<span lang="ja">源氏かるた</span>)
     * <span class="noun" lang="ja-Latn">Iroha-garuta</span> (<span lang="ja">いろはかるた</span>, ‘alphabet cards’)
-3. {%a hanafuda,<span class="noun" lang="ja-Latn">Hanafuda</span>%} (<span
+3. [Hanafuda](articles/cards/japan/hanafuda/hanafuda.md) (<span
   lang="ja">花札</span>, ‘flower cards’) are derived from a combination of both
   the Portuguese and the matching-type cards.
