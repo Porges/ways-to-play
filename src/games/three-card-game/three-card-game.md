@@ -57,7 +57,7 @@ In Papua New Guinea it has been called <span lang="tpi">kawu</span> — clea
 
 Self Note: See the Makassar dictionary re kawu (the game) vs kuwa (the winning call). Kuwa could also mean "nine" there, and be from Hokkien? Kuwa also in [@ChineseLoanWordsMalay 56]
 
-## <span id="oicho-kabu" lang="aka noun" lang="ja-Latn">Oicho-Kabu</span> <span lang="ja" class="aka">おいちょかぶ</span>: The Japanese Game
+## <span id="oicho-kabu" class="aka noun" lang="ja-Latn">Oicho-Kabu</span> <span lang="ja" class="aka">おいちょかぶ</span>: The Japanese Game
 
 <span class="noun" lang="ja-Latn">Oicho-Kabu</span> (<span lang="ja">おいちょかぶ</span>, ‘eight-nine’) is a Japanese version of the game which has been played as a gambling game for a long time.
 

@@ -26,12 +26,64 @@ of cards dealt varies according to the number of players. When four play they pl
 
 <table>
 <thead>
-<tr><th>Players</th><th>Cards dealt</th><th>Tricks required (book)</th><th>Target score</th></tr>
+<tr>
+<th>
+Players
+</th>
+<th>
+Cards dealt
+</th>
+<th>
+Tricks required (book)
+</th>
+<th>
+Target score
+</th>
+</tr>
 </thead>
 <tbody class="numeric">
-<tr><td>2</td><td>13</td><td>6</td><td>10</td></tr>
-<tr><td>3</td><td>13</td><td>4</td><td>15</td></tr>
-<tr><td>4</td><td>12</td><td>6</td><td>20</td></tr>
+<tr>
+<td>
+2
+</td>
+<td>
+13
+</td>
+<td>
+6
+</td>
+<td>
+10
+</td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+13
+</td>
+<td>
+4
+</td>
+<td>
+15
+</td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+12
+</td>
+<td>
+6
+</td>
+<td>
+20
+</td>
+</tr>
 </tbody>
 </table>
 

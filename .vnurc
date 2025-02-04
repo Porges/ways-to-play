@@ -1,2 +1,4 @@
-Bad value “cmn-Latn-pinyin” for attribute “lang” on element .*
+.* Language tag should omit the default script for the language.
+Bad value “(cmn-Latn-pinyin|tws(-Latn)?|el-polyton-Latn|grc)” for attribute “lang” on element .*
 The “dialog” element is not supported in all browsers. .*
+Bad value “dialog” for attribute “method” on element “form”.

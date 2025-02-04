@@ -1,6 +1,6 @@
 ---
 title: Eureka
-originalTitle: <span lang="gr" class="noun">Εύρηκα</span>
+originalTitle: <span lang="grc" class="noun">Εύρηκα</span>
 draft: true
 ---
 

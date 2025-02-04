@@ -1,9 +1,4 @@
-use std::{
-    borrow::Cow,
-    collections::BTreeMap,
-    path::{Path, PathBuf},
-    sync::LazyLock,
-};
+use std::{borrow::Cow, collections::BTreeMap, path::Path, sync::LazyLock};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
 use indexmap::IndexMap;
@@ -112,6 +107,18 @@ impl Converter<'_> {
     }
 
     fn convert_refs(&mut self, text: &str) -> Result<Markup> {
+        static QUICKRE: LazyLock<regex::Regex> =
+            LazyLock::new(|| regex::Regex::new(r"[&<]").unwrap());
+
+        // first, pre-escape any HTML special chars
+        let text = QUICKRE.replace_all(text, |m: &regex::Captures<'_>| {
+            match m.get(0).unwrap().as_str() {
+                "&" => "&amp;",
+                "<" => "&lt;",
+                _ => unreachable!(),
+            }
+        });
+
         static ARCHIVE_URL: LazyLock<regex::Regex> =
             LazyLock::new(|| regex::Regex::new(r"^https?://archive\.org/details/[^/]+").unwrap());
 
@@ -162,7 +169,7 @@ impl Converter<'_> {
 
         let mut missing = Vec::new();
 
-        let t1 = RE1.replace_all(text, |m: &Captures<'_>| {
+        let t1 = RE1.replace_all(&text, |m: &Captures<'_>| {
             let id = m.name("id").unwrap().as_str();
             if let Some(entry) = self.bibliography.get(id) {
                 let (cite_anchor, ref_indicator) = insert_ref(id);
