@@ -2,8 +2,14 @@
 title: Stewart Culin
 order: culin
 date created: 2024-12-18
-date modified: 2025-02-03
+date modified: 2025-02-08
+aliases:
+  - Stewart Culin
+  - Culin
+linter-yaml-title-alias: Stewart Culin
 ---
+
+# Stewart Culin
 
 <a href="https://en.wikipedia.org/wiki/Stewart_Culin">Stewart Culin</a> (1858–1959) was a prominent games historian, especially of East and South-East Asian and Native American games.
 

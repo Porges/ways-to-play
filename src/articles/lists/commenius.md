@@ -2,7 +2,13 @@
 title: John Amos Comenius (1629—)
 order: 1629
 draft: true
+aliases: [John Amos Comenius (1629—)]
+linter-yaml-title-alias: John Amos Comenius (1629—)
+date created: 2024-12-22
+date modified: 2025-02-08
 ---
+
+# John Amos Comenius (1629—)
 
 John Amos Comenius first published <cite lang="la">Janua Linguarum Reserata</cite> (<cite>The Door of Languages Unlocked</cite>) in 1629. It contains a series of 1000 sentences in Latin, which were then translated into other languages by subsequent authors.[^fn0]
 

@@ -1,8 +1,11 @@
 ---
 title: Simple Staking Games
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [Simple Staking Games]
+linter-yaml-title-alias: Simple Staking Games
 ---
+# Simple Staking Games
 
 Under this title, I collect games where bets are placed by players, usually on a staking layout of some kind, and then the winning bets are selected by some random method — dice, wheel, teetotum, card — by the dealer or house. The only choice of the player is where to lay their bets.
 

@@ -1,12 +1,17 @@
 ---
-title: Achi
+title: '<span lang="ee" class="noun">Achi</span>'
 titleLang: ee
 equipment: Board game (simple equipment)
 countries: GH,NG
 players: 2
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2025-02-08
+aliases:
+  - Achi
+  - '<span lang="ee" class="noun">Achi</span>'
+linter-yaml-title-alias: '<span lang="ee" class="noun">Achi</span>'
 ---
+# <span lang="ee" class="noun">Achi</span>
 
 <span class="noun aka" lang="ee">Achi</span> is a [mill game](articles/families/mill-games/mill-games.md) from West Africa, reportedly (in the 1920s) played in Ghana. It was also played by Yoruba people in Nigeria, where it was known as <span class="noun aka" lang="yo">Akidada</span>.[@Murray2 p. 43]
 

@@ -1,5 +1,5 @@
 ---
-title: Kartu Lima
+title: '<span lang="jv-Latn" class="noun">Kartu Lima</span>'
 countries: ID
 titleLang: jv-Latn
 draft: true
@@ -7,9 +7,14 @@ players:
     min: 5
     max: 9
 equipment: Card game (Ceki)
+aliases: ['<span lang="jv-Latn" class="noun">Kartu Lima</span>']
+linter-yaml-title-alias: '<span lang="jv-Latn" class="noun">Kartu Lima</span>'
+date created: 2024-12-27
+date modified: 2025-02-08
 ---
+# <span lang="jv-Latn" class="noun">Kartu Lima</span>
 
-<span class="noun" lang="jv-Latn">Kartu Lima</span> (‘five cards’) is an unusual trick-taking game from Java, which was played with {% a ceki %}.[@JavaanseKaartspelen p. 46–57] The same game has also been described under the name <span class="noun" lang="jv-Latn">Tepu</span>.[@JavanischeKartenspiele p. 47]
+<span class="noun" lang="jv-Latn">Kartu Lima</span> (‘five cards’) was an unusual trick-taking game from Java, which was played with [Ceki cards](articles/cards/ceki/ceki.md).[@JavaanseKaartspelen p. 46–57] The same game has also been described under the name <span class="noun" lang="jv-Latn">Tepu</span>.[@JavanischeKartenspiele p. 47]
 
 The game below was described as being played in Surakarta. The version played in Yogyakarta was slightly different and is described afterwards.
 
@@ -182,7 +187,7 @@ There are only two cards in this group; the 9 of Coins outranks the 8 of Coins.
 
 There are four cards in this group; the 9 of Strings outranks the 8 of Strings, and the 5 & 7 of Strings are of equal rank.
 
-> ![multi]
+> [!multi]
 >
 > > [!figure]
 > >

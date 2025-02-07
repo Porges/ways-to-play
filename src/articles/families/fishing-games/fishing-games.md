@@ -1,10 +1,13 @@
 ---
 title: Fishing Games
 date created: 2024-12-18
-date modified: 2025-01-23
-aliases: 
-- fishing game
+date modified: 2025-02-08
+aliases:
+  - Fishing Games
+  - fishing game
+linter-yaml-title-alias: Fishing Games
 ---
+# Fishing Games
 
 Fishing games are a family of card games where players play cards from their hand to attempt to capture cards that are face-up on the table, in a shared ‘pool’.
 

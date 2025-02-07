@@ -3,7 +3,10 @@ title: Money-Suited Cards
 draft: true
 date created: 2024-12-22
 date modified: 2024-12-22
+aliases:
+  - Money Cards
 ---
+# Money-Suited Cards
 
 Gough mentions having a deck of these, @GoughIntroduction [p. 171]:
 

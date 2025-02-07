@@ -6,6 +6,7 @@ equipment: Card game (standard deck)
 date created: 2024-12-18
 date modified: 2024-12-23
 ---
+# All-Fours
 
 <span class="aka">All-Fours</span> is a very old English card game for two players, dating from about the 16th century. It also spread throughout the United States, becoming a common game amongst African-Americans, and is now considered the ‘national game’ of <a href="https://en.wikipedia.org/wiki/Trinidad_and_Tobago">Trinidad and Tobago</a>, where it is known as <span class="aka">Old Sledge</span> or <span class="aka">Seven-Up</span>[@AmericanCardPlayer p. 121]
 

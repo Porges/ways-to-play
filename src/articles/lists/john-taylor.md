@@ -2,12 +2,16 @@
 title: <cite>Taylor’s Motto</cite> (1621)
 order: 1621
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [<cite>Taylor’s Motto</cite> (1621)]
+linter-yaml-title-alias: <cite>Taylor’s Motto</cite> (1621)
 ---
+# <cite>Taylor’s Motto</cite> (1621)
+
 
 > [!figure]
 >
-> ![A man standing upon a rock, straddling a glob, with a churning sea around him. He is looking at the sun.](motto.jpg)
+> ![A man standing upon a rock, straddling a globe, with a churning sea around him. He is looking at the sun.](motto.jpg)
 >
 > ```yaml
 > position: "aside"
@@ -20,34 +24,32 @@ date modified: 2024-12-22
 
 [John Taylor](https://en.wikipedia.org/wiki/John_Taylor_(poet)) (1578–1653) was
 an English poet who gave himself the epithet “the Water-Poet”. His work
-<cite>Taylor’s Motto</cite> was published in 1621, and contains a list of games, as follows:
+<cite>Taylor’s Motto</cite> was published in 1621, and contains a list of games in one verse, as follows:
 
-<blockquote>
-The Prodigals estate, like to a flux,\
-The Mercer, Draper, and the Silkman sucks:\
-The Taylor, Millainer, Dogs, Drabs and Dice,\
-Trey-trip, or Passage, or The most at thrice;\
-At Irish, Tick-tack, Doublets, Draughts or Chesse,\
-He flings his money free with carelessenesse:\
-At Nouum, Mumchance, mischance, (chuse ye which\
-At One and thirty, or at Poore and rich,\
-Ruffe, slam, Trump, nody, whisk, hole, Sant, Newcut.\
-Vnto the keeping of foure Knaues he'le put\
-His whole estate, at Loadum, or at Gleeke\
-At Tickle-me-quickly, he's a merry Greeke,\
-At Primefisto, Post and payre, Primero,\
-Maw, Whip-her-ginny, he•s a lib'rall Hero;\
-At My-sow-pigg'd, and (Reader neuer doubt ye,\
-He's skil'd in all games, except) Looke about ye.\
-Bowles, shoue-groate, tennis, no game comes amis,\
-His purse a nurse for any body is;\
-Caroches, Coaches, and Tobacconists,\
-All sorts of people freely from his fists\
-His vaine expences daily sucke and soake,\
-And his himselfe sucks onely drinke and smoake,\
-And thus the Prodigall, himselfe alone,\
-Giues suck to thousands, and himselfe sucks none.[@TaylorsMotto]
-</blockquote>
+> The Prodigals estate, like to a flux,\
+> The Mercer, Draper, and the Silkman sucks:\
+> The Taylor, Millainer, Dogs, Drabs and Dice,\
+> Trey-trip, or Passage, or The most at thrice;\
+> At Irish, Tick-tack, Doublets, Draughts or Chesse,\
+> He flings his money free with carelessenesse:\
+> At Nouum, Mumchance, mischance, (chuse ye which\
+> At One and thirty, or at Poore and rich,\
+> Ruffe, slam, Trump, nody, whisk, hole, Sant, Newcut.\
+> Vnto the keeping of foure Knaues he'le put\
+> His whole estate, at Loadum, or at Gleeke\
+> At Tickle-me-quickly, he's a merry Greeke,\
+> At Primefisto, Post and payre, Primero,\
+> Maw, Whip-her-ginny, he•s a lib'rall Hero;\
+> At My-sow-pigg'd, and (Reader neuer doubt ye,\
+> He's skil'd in all games, except) Looke about ye.\
+> Bowles, shoue-groate, tennis, no game comes amis,\
+> His purse a nurse for any body is;\
+> Caroches, Coaches, and Tobacconists,\
+> All sorts of people freely from his fists\
+> His vaine expences daily sucke and soake,\
+> And his himselfe sucks onely drinke and smoake,\
+> And thus the Prodigall, himselfe alone,\
+> Giues suck to thousands, and himselfe sucks none.[@TaylorsMotto]
 
 The named games are:
 - Dice games:

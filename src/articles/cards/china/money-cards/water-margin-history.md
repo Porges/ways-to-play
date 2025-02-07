@@ -1,7 +1,13 @@
 ---
 title: Development of the Water Margin deck
 draft: true
+aliases: [Development of the Water Margin deck]
+linter-yaml-title-alias: Development of the Water Margin deck
+date created: 2024-12-22
+date modified: 2025-02-08
 ---
+
+# Development of the Water Margin deck
 
 Money cards are among the oldest types of cards in the world, and from them are derived many other types of cards, probably including “standard” playing cards, as well as games like mahjong, along with more obvious descendants like {%a ceki%}.
 

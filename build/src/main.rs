@@ -77,7 +77,7 @@ fn sanitized_html(value: &str) -> Markup {
     static AMMONIA: LazyLock<ammonia::Builder> = LazyLock::new(|| {
         let mut builder = ammonia::Builder::new();
         builder.tags(["cite", "span", "sup", "i", "em", "a"].into());
-        builder.add_allowed_classes("span", ["noun"]);
+        builder.add_allowed_classes("span", ["noun", "rnum"]);
         builder.add_allowed_classes("sup", ["ordinal"]);
         builder
     });
@@ -124,14 +124,36 @@ impl YamlHeader for ArticleHeader {
             .into_string()
             .ok_or_eyre("missing title")?;
 
-        let title = sanitized_html(&raw_title);
-        let title_string = string_value_of_html(&raw_title);
-
-        let title_lang = take_header(header, "titleLang").into_string();
-
-        let original_title = take_header(header, "originalTitle")
+        let mut title = sanitized_html(&raw_title);
+        let mut title_lang = take_header(header, "titleLang").into_string();
+        let mut original_title = take_header(header, "originalTitle")
             .into_string()
-            .map(maud::PreEscaped); // TODO: html sanitization
+            .map(|s| sanitized_html(&s));
+
+        // title can instead contain · to separate original and latinized titles
+        if let Some((orig, latn)) = title.0.split_once("·") {
+            original_title = Some(maud::PreEscaped(orig.trim().to_string()));
+
+            title = maud::PreEscaped(latn.trim().to_string());
+        }
+
+        // see if latnized title is in another language
+        // this is needed to provide a language for the title_string value
+        // which is used in metadata
+        static LANG_GETTER: LazyLock<regex::Regex> =
+            LazyLock::new(|| regex::Regex::new(r#"lang=("[^"]+"|'[^']+')"#).unwrap());
+
+        if let Some(m) = LANG_GETTER.captures(&title.0) {
+            title_lang = Some(
+                m.get(1)
+                    .unwrap()
+                    .as_str()
+                    .trim_matches(['\'', '"'])
+                    .to_string(),
+            );
+        }
+
+        let title_string = string_value_of_html(&title.0);
 
         let date_created = take_header(header, "date created")
             .as_str()
@@ -266,6 +288,7 @@ impl std::borrow::Borrow<ArticleHeader> for GameHeader {
 #[derive(Default, Debug)]
 struct ArticleNode<'a> {
     name: Option<&'a Markup>,
+    original_name: Option<&'a Markup>,
     order: &'a str,
     url_path: &'a str,
     children: ArticleTree<'a>,
@@ -498,6 +521,7 @@ impl Builder {
             }
 
             node.name = Some(&article.metadata.title);
+            node.original_name = article.metadata.original_title.as_ref();
             node.order = article
                 .metadata
                 .order
@@ -756,43 +780,34 @@ fn main() -> Result<()> {
         debouncer.watch(&args.input, notify::RecursiveMode::Recursive)?;
 
         for res in rx {
-            match res {
-                Ok(evs) => {
-                    for ev in evs {
-                        info!("Event: {:?}", ev);
-                        let kind = ev.event.kind;
-                        let path = ev.event.paths.into_iter().next().unwrap();
-                        match kind {
-                            EventKind::Create(CreateKind::File) => {
-                                builder.file_created(path)?;
-                            }
-                            EventKind::Modify(_) => {
-                                builder.file_modified(path)?;
-                            }
-                            EventKind::Remove(RemoveKind::File) => {
-                                builder.file_removed(&path)?;
-                            }
-                            EventKind::Access(_) | EventKind::Create(_) | EventKind::Remove(_) => {}
-                            other => warn!("unhandled event: {:?}", other),
+            let update = || -> Result<()> {
+                let evs = res.map_err(|e| eyre!("watch error: {e:#?}"))?;
+                for ev in evs {
+                    info!("File {:?}: {}", ev.event.kind, ev.event.paths[0].display());
+                    let kind = ev.event.kind;
+                    let path = ev.event.paths.into_iter().next().unwrap();
+                    match kind {
+                        EventKind::Create(CreateKind::File) => {
+                            builder.file_created(path)?;
                         }
+                        EventKind::Modify(_) => {
+                            builder.file_modified(path)?;
+                        }
+                        EventKind::Remove(RemoveKind::File) => {
+                            builder.file_removed(&path)?;
+                        }
+                        EventKind::Access(_) | EventKind::Create(_) | EventKind::Remove(_) => {}
+                        other => warn!("unhandled event: {:?}", other),
                     }
                 }
-                Err(errs) => {
-                    for e in errs {
-                        error!("watch error: {e:#}");
-                    }
-                }
-            }
 
-            let mut update = || -> Result<()> {
                 builder.generate()?;
                 builder.output()?;
                 Ok(())
             };
 
-            match update() {
-                Ok(()) => info!("Updated!"),
-                Err(e) => error!("Error updating: {e:#}"),
+            if let Err(e) = update() {
+                error!("Error (will continue): {e:#}");
             }
         }
     } else {

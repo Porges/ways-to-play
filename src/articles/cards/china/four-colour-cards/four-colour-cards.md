@@ -1,9 +1,10 @@
 ---
-title: Four-Colour cards
+title: '<span lang="zh">四色牌</span> · Four Colour Cards'
 draft: true
 date created: 2024-12-18
-date modified: 2025-01-23
+date modified: 2025-02-08
 ---
+# <span lang="zh">四色牌</span> · Four Colour Cards
 
 Etc etc
 

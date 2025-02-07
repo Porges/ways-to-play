@@ -10,8 +10,12 @@ hero:
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-27
-date modified: 2025-02-03
+date modified: 2025-02-08
+aliases: [New Hanafuda Brands]
+linter-yaml-title-alias: New Hanafuda Brands
 ---
+
+# New Hanafuda Brands
 
 In the internet era there are now many <span class="noun" lang="ja-Latn">Hanafuda</span>
 brands that are produced on a small scale. Most of the production is outsourced

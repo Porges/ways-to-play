@@ -1,8 +1,11 @@
 ---
 title: Historical Laws Banning Specific Games
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [Historical Laws Banning Specific Games]
+linter-yaml-title-alias: Historical Laws Banning Specific Games
 ---
+# Historical Laws Banning Specific Games
 
 🚧 This page is very much a work in progress. 🚧
 

@@ -1,9 +1,13 @@
 ---
-title: London Street Games (1916)
+title: <cite>London Street Games</cite> (1916)
 order: 1916
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-08
+aliases: [<cite>London Street Games</cite> (1916)]
+linter-yaml-title-alias: <cite>London Street Games</cite> (1916)
 ---
+
+# <cite>London Street Games</cite> (1916)
 
 @LondonStreetGames is a very curious book which contains many (many) children’s games of many varieties. It somewhat rivals [Rabelais](articles/lists/rabelais.md) in breadth! James Joyce raided this book for <a href="http://www.fweet.org/cgi-bin/gio?%3CLSG%3E">many of the games referenced</a> in <a href="https://en.wikipedia.org/wiki/Finnegans_Wake"><cite>Finnegan’s Wake</cite> (1939)</a>, however obliquely.
 

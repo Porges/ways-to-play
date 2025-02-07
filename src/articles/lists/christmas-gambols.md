@@ -2,8 +2,12 @@
 title: The Christmas Gambols (1776)
 order: 1776
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [The Christmas Gambols (1776)]
+linter-yaml-title-alias: The Christmas Gambols (1776)
 ---
+
+#  The Christmas Gambols (1776)
 
 This poem by an otherwise unnamed “Boughton, Esq.” is featured in @PoeticalAmusementsBath2 [126–30] and contains reference to a number of games which were apparently at risk of being forgotten at the time the poem was written — however the poem is actually a sequence of sexual references.
 

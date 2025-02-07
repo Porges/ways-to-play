@@ -9,10 +9,14 @@ hero:
   originalUrl: https://www.flickr.com/photos/habsburg/3915400394
 aliases:
   - Ceki
+  - Cherki
+  - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2025-01-23
+date modified: 2025-02-08
+linter-yaml-title-alias: Ceki cards
 ---
+# Ceki cards
 
 Ceki (Javanese <span lang="jv">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
 

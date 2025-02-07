@@ -1,7 +1,12 @@
 ---
 draft: true
 title: Mancala Games
+aliases: [Mancala Games]
+linter-yaml-title-alias: Mancala Games
+date created: 2024-12-18
+date modified: 2025-02-08
 ---
+# Mancala Games
 
 @GuptaB
 

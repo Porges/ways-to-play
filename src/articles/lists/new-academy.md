@@ -2,8 +2,12 @@
 title: <cite>The New Academy, or the New Exchange</cite> (1640)
 order: 1640
 date created: 2024-12-18
-date modified: 2025-01-24
+date modified: 2025-02-08
+aliases: ["<cite>The New Academy, or the New Exchange</cite> (1640)"]
+linter-yaml-title-alias: "<cite>The New Academy, or the New Exchange</cite> (1640)"
 ---
+
+# <cite>The New Academy, or the New Exchange</cite> (1640)
 
 <a href="https://en.wikipedia.org/wiki/Richard_Brome">Richard Brome</a>’s play <cite>The New Academy, or the New Exchange</cite> (registered 1640, published 1659) contains a short list of card games.
 

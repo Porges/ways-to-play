@@ -262,7 +262,7 @@ impl Templater {
             breadcrumbs,
             html! {
                 article itemprop="mainEntity" itemscope itemtype="https://schema.org/Article" itemref="author-outer" {
-                    h1.page-title lang=[article.title_lang()] itemprop="headline" {
+                    h1.page-title itemprop="headline" {
                         @if let Some(original_title) = article.original_title() {
                             (original_title) " · "
                         }
@@ -475,6 +475,9 @@ pub fn render_article_tree(root: &str, tree: &ArticleNode) -> Option<Markup> {
                     @if let Some(name) = value.name {
                         a href=(path) {
                             (name)
+                            @if let Some(orig_name) = value.original_name {
+                                " (" (orig_name) ")"
+                            }
                             @if value.draft {
                                 " 🚧"
                             }

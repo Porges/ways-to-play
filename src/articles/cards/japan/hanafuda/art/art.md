@@ -1,5 +1,5 @@
 ---
-title: 'The History & Art of Hanafuda'
+title: The History & Art of Hanafuda
 mainImage: DP135571.jpg
 order: 2
 hero:
@@ -9,8 +9,12 @@ hero:
     organization: 
         orgName: "Metropolitan Museum of Art"
 date created: 2024-12-18
-date modified: 2025-01-22
+date modified: 2025-02-08
+aliases: [The History & Art of Hanafuda]
+linter-yaml-title-alias: The History & Art of Hanafuda
 ---
+
+# The History & Art of Hanafuda
 
 <span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn"  noun="true" pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) that had been played since the <Pronounce lang="ja-Latn"  noun="true" pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> period (<span lang="ja">平安</span>, 794–1185).
 

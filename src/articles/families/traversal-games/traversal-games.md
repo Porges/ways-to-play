@@ -1,8 +1,11 @@
 ---
 title: Traversal Games
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [Traversal Games]
+linter-yaml-title-alias: Traversal Games
 ---
+# Traversal Games
 
 A traversal game is a type of board game where the goal is to move your pieces
 from a starting location into a different position or configuration on the

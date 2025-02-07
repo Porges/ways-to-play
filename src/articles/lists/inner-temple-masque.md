@@ -2,8 +2,12 @@
 title: Thomas Middleton’s <cite>The Inner-Temple Masque</cite> (1619)
 order: 1619
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [Thomas Middleton’s <cite>The Inner-Temple Masque</cite> (1619)]
+linter-yaml-title-alias: Thomas Middleton’s <cite>The Inner-Temple Masque</cite> (1619)
 ---
+
+# Thomas Middleton’s <cite>The Inner-Temple Masque</cite> (1619)
 
 <a href="https://en.wikipedia.org/wiki/Thomas_Middleton">Thomas Middleton</a>’s <cite>The Inner-Temple Masque, or Masque of Heroes</cite> features a scene in which a farcical “will of Christmas” is read, which contains allusions to several games that were current at the time.[@InnerTempleMasque]
 

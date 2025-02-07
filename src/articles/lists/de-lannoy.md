@@ -2,8 +2,12 @@
 title: Jean de Lannoy (1464)
 order: 1464
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [Jean de Lannoy (1464)]
+linter-yaml-title-alias: Jean de Lannoy (1464)
 ---
+
+# Jean de Lannoy (1464)
 
 In 1464, <a href="https://en.wikipedia.org/wiki/Jean_de_Lannoy">Jean de Lannoy</a> (1410–1493) — a nobleman from Lannoy, in what was then the Holy Roman Empire but now is part of northern France — wrote a series of letters to his newly-born son, in the fear that he would die before he was able to educate him personally.[@LesLettresDuSeigneurDeLannoy1856]
 

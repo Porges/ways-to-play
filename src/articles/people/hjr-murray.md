@@ -1,8 +1,13 @@
 ---
 title: H. J. R. Murray
 order: murray
-aliases: Murray
+aliases: [H. J. R. Murray, Murray]
+linter-yaml-title-alias: H. J. R. Murray
+date created: 2024-12-18
+date modified: 2025-02-08
 ---
+
+# H. J. R. Murray
 
 [H. J. R.  Murray](https://en.wikipedia.org/wiki/H._J._R._Murray)[^son] (1868–1955) is a very
 important figure in the history of board games studies. He published two key

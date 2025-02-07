@@ -2,8 +2,12 @@
 title: Sid Sackson
 order: sackson
 date created: 2024-12-18
-date modified: 2025-01-24
+date modified: 2025-02-08
+aliases: [Sid Sackson]
+linter-yaml-title-alias: Sid Sackson
 ---
+
+# Sid Sackson
 
 Sid Sackson (1920–2002) was a prolific game designer and author of books about games.
 

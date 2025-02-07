@@ -9,10 +9,13 @@ hero:
   author: Delpixel
   license: stock-image
 date created: 2024-12-18
-date modified: 2025-01-16
+date modified: 2025-02-08
 aliases:
+  - Mill Games
   - mill game
+linter-yaml-title-alias: Mill Games
 ---
+# Mill Games
 
 Mill games are a family of boardgames also known as <em>Morris</em> or
 <em>Merels</em> games. The main aim of any mill game is to try to form a row of

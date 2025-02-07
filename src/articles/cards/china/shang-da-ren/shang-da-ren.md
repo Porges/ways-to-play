@@ -1,37 +1,41 @@
 ---
-title: Shàng Dà Rén Pái
+title: <span lang="zh" class="noun">上大人牌</span> · <span lang="cmn-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards
 titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">上大人牌</span>
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2025-02-08
+aliases:
+  - <span lang="zh" class="noun">上大人牌</span> · <span lang="cmn-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards
+  - <span lang="cmn-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards
+linter-yaml-title-alias: <span lang="zh" class="noun">上大人牌</span> · <span lang="cmn-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards
 ---
+# <span lang="zh" class="noun">上大人牌</span> · <span lang="cmn-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards
 
 <span lang="cmn-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards (<span lang="zh">上大人牌</span>) are a type of [Chinese playing card](articles/cards/china/china.md). The deck is constructed from a set of 24 cards, each one bearing a character from a traditional Chinese text that was used to practice calligraphy. A full deck contains multiple copies of each card; usually four, giving 96 cards total.
 
 The standard version of the text can be interpreted loosely as:[@SocialHeat p. 272]
 
-<div class="multi">
-<p lang="zh">
-<strong><span class="red">上</span></strong>大人<br/>
-<strong><span class="red">孔</span></strong>乙己<br/>
-<strong><span class="red">化</span></strong>三千<br/>
-<strong><span class="red">七</span></strong>十[士/贤]<br/>
-<strong><span class="red">尔</span></strong>小生<br/>
-<strong><span class="red">八</span></strong>九子<br/>
-<strong><span class="red">佳</span></strong>作仁<br/>
-<strong><span class="red">可</span></strong>知禮
-</p>
-<p>
-His Greatness<br/>
-Confucius<br/>
-has taught three thousand students<br/>
-of which seventy became virtuous scholars.<br/>
-A young student like you<br/>
-should study from eight or nine sages<br/>
-should learn how to be benevolent<br/>
-and hence understand courtesy and manners.
-</p>
-</div>
+> [!multi]
+>
+> > [!lang] zh
+> >
+> > **<span class="red">上</span>** 大人\
+> > **<span class="red">孔</span>** 乙己\
+> > **<span class="red">化</span>** 三千\
+> > **<span class="red">七</span>** 十[士/贤]\
+> > **<span class="red">尔</span>** 小生\
+> > **<span class="red">八</span>** 九子\
+> > **<span class="red">佳</span>** 作仁\
+> > **<span class="red">可</span>** 知禮
+>
+> His Greatness\
+> Confucius\
+> has taught three thousand students\
+> of which seventy became virtuous scholars.\
+> A young student like you\
+> should study from eight or nine sages\
+> should learn how to be benevolent\
+> and hence understand courtesy and manners.
 
 In most versions of the cards, the first of each set of three characters is
 highlighted in red. In some versions, the second character is highlighted in green.

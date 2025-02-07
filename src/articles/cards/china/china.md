@@ -1,8 +1,11 @@
 ---
 title: Chinese Cards
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2025-02-08
+aliases: [Chinese Cards]
+linter-yaml-title-alias: Chinese Cards
 ---
+# Chinese Cards
 
 As the probable country of origin of playing cards, China has a long history of
 card-playing and many different varieties.
@@ -40,7 +43,7 @@ The many types of Chinese and Chinese-derived cards can be broken down into seve
 
 🚧 The categorization here is a work in progress and may change, especially the last section. 🚧
 
-Those derived from **[Xiàngqí](games/xiangqi/xiangqi.md)** (“Chinese chess”):
+Those derived from **[<span lang="cmn-Latn-pinyin" class="noun">Xiàngqí</span>](games/xiangqi/xiangqi.md)** (“Chinese chess”):
 * [Four-Colour cards](articles/cards/china/four-colour-cards/four-colour-cards.md) (<span lang="zh">四色牌</span> <span lang="cmn-Latn-pinyin">sì sè pái</span>)
 * Two-Coloured chess cards, including:
   * Red cards (<span lang="zh">紅牌</span>), also called Double Gold cards (<span lang="zh">雙金牌</span> <span lang="cmn-Latn-pinyin">shuāng jīn pái</span>)
@@ -77,8 +80,8 @@ Those derived from paper **money**/banknotes:
   * Vietnamese <span lang="vi">bài tổ tôm</span>
 
 Those that are numbered or use **characters** (<span lang="zh">字牌</span> <span lang="cmn-Latn-pinyin">zì pái</span>):
-* [Shàng Dà Rén Pái](articles/cards/china/shang-da-ren/shang-da-ren.md) (<span lang="zh">上大人牌</span>), from Hubei province
-  * 3–5–7 cards (<span lang="zh">三五七</span>), from Hubei province
+* [<span lang="cmn-Latn-pinyin" class="noun">Shàng Dà Rén</span> Cards](articles/cards/china/shang-da-ren/shang-da-ren.md) (<span lang="zh">上大人牌</span>), from Hubei province
+* 3–5–7 cards (<span lang="zh">三五七</span>), from Hubei province
 * 2–7–10 (<span lang="zh">二七十</span>), from Hunan province?
 * Luzhou Big Two cards <span lang="zh">泸州大贰</span>, from Luzhou city, Sichuan province
 * Leshan round cards <span lang="zh">樂山圈牌</span>, from Leshan city, Sichuan province

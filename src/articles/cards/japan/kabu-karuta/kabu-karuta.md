@@ -1,11 +1,15 @@
 ---
-title: Kabu Karuta
+title: <span lang="ja-Latn" class="noun">Kabu Karuta</span>
 titleLang: ja-Latn
 draft: true
 order: 3
 date created: 2024-12-18
-date modified: 2025-02-03
+date modified: 2025-02-08
+aliases:
+  - <span lang="ja-Latn" class="noun">Kabu Karuta</span>
+linter-yaml-title-alias:
 ---
+# <span lang="ja-Latn" class="noun">Kabu Karuta</span>
 
 ## The Cards
 

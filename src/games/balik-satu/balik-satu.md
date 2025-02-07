@@ -1,6 +1,5 @@
 ---
-title: Balik Satu
-titleLang: ms
+title: '<span lang="ms" class="noun">Balik Satu</span>'
 players:
   min: 2
   max: 14
@@ -28,8 +27,12 @@ hero:
     identifier: "1900515673"
     originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
 date created: 2024-12-18
-date modified: 2024-12-21
+date modified: 2025-02-08
+aliases: ['<span lang="ms" class="noun">Balik Satu</span>']
+linter-yaml-title-alias: '<span lang="ms" class="noun">Balik Satu</span>'
 ---
+
+# <span lang="ms" class="noun">Balik Satu</span>
 
 <span class="noun aka" lang="ms">Balik Satu</span> (‘turn one’) is a Peranakan game played with [Cherki cards](articles/cards/ceki/ceki.md). The method of play is similar to [Mahjong](games/mahjong/mahjong.md), with the goal being to collect five sets of three cards.
 

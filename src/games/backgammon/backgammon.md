@@ -3,8 +3,13 @@ title: Backgammon
 draft: true
 players: 2
 equipment: Tables game
+aliases: [Backgammon]
+linter-yaml-title-alias: Backgammon
+date created: 2024-12-18
+date modified: 2025-02-08
 ---
 
+# Backgammon
 
 > [!figure]
 >

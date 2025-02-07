@@ -2,8 +2,11 @@
 title: Francis Willughby’s <cite>Book of Games</cite> (1665–70)
 order: 1665
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [Francis Willughby’s <cite>Book of Games</cite> (1665–70)]
+linter-yaml-title-alias: Francis Willughby’s <cite>Book of Games</cite> (1665–70)
 ---
+# Francis Willughby’s <cite>Book of Games</cite> (1665–70)
 
 <a href="https://en.wikipedia.org/wiki/Francis_Willughby">Francis Willughby</a>’s <cite>Book of Games</cite> is an unfinished and unpublished manuscript written by the author in the years leading up to his death. It collects games played by both children and adults — some sections of the manuscript are written by an unidentified child, probably one of his children.
 

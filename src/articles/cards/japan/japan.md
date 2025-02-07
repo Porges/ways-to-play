@@ -1,7 +1,9 @@
 ---
 title: 'Japanese Cards (<span lang="ja-Latn">Karuta</span>)'
 date created: 2024-12-18
-date modified: 2025-02-03
+date modified: 2025-02-08
+aliases: ['Japanese Cards (<span lang="ja-Latn">Karuta</span>)']
+linter-yaml-title-alias: 'Japanese Cards (<span lang="ja-Latn">Karuta</span>)'
 ---
 # Japanese Cards (<span lang="ja-Latn">Karuta</span>)
 
@@ -28,36 +30,29 @@ After being introduced by Portuguese sailors and merchants in the late 16th cent
 
 Cut off from their original source, these playing cards were developed in new and surprising ways. Decks were increased in complexity by adding more ranks or additional suits. Later on, new variants were introduced to circumvent anti-gambling laws, to obscure the true nature of the cards as gambling implements, or to simplify existing decks by removing suits or ranks.
 
-There are two main family “branches” of cards, and a third that derived from both of these:
+Within Japanese cards, there are two main “family branches” of card, and a third that eventually derived from both of these.
 
-1. Cards derived from Portuguese patterns, with suits and ranks. In order of
-  appearance these are:
-    * {%a tensho-karuta,<span class="noun" lang="ja-Latn">Tenshō Karuta</span> (<span lang="ja">
-      天正カルタ</span>, ‘<span class="noun" lang="ja-Latn">Tenshō</span> cards’) %}, closely followed by:
-      * <span class="noun" lang="ja-Latn">Unsun Karuta</span> (<span lang="ja">うんすんかるた
-        </span>, ‘<span class="noun" lang="ja-Latn">Un-Sun</span> cards’)
-      * <span class="noun" lang="ja-Latn">Sunkun Karuta</span> (<span lang="ja">すんくんかるた
-        </span>, ‘<span class="noun" lang="ja-Latn">Sun-Kun</span> cards’)
-    * [<span lang="ja-Latn" class="noun">Mekuri Karuta</span>](articles/cards/japan/mekuri-karuta/mekuri-karuta.md) (<span lang="ja">捲りかるた
-      </span>, ‘turning cards’) were an alteration of the <span class="noun"
-      lang="ja-Latn">Tenshō</span> pattern cards, possibly created to evade bans on
-      those cards. The structure of the deck remains the same, but there are
-      many different regional artwork patterns.
-      - <span class="noun" lang="ja-Latn">Shimafuda</span> (<span lang="ja">島札</span>) are a still-surviving
-        descendent of <span lang="ja-Latn">mekuri</span> cards, originating from <span lang="ja-Latn" class="noun">Okinawa</span>.
-    * {%a kabu-karuta,<span class="noun" lang="ja-Latn">Kabu
-      Karuta</span>%} (<span lang="ja">株かる
-      た</span>) were a further simplification of <span
-      lang="ja-Latn">mekuri</span> cards, eliminating all suits except for one,
-      which is replicated four times. Like <span lang="ja-Latn">mekuri</span>
-      cards, there are many regional varieties. 
-      - <span lang="ja-Latn" class="noun">Kabufuda</span> (<span lang="ja">株札</span>) is the only type still in mass production.
-2. Cards used for simpler matching games, not organized into suits or ranks:
-    * <span class="noun" lang="ja-Latn">Uta-garuta</span> (<span lang="ja">歌かるた</span>,
-      ‘poetry cards’), of which there are many sub-types, including:
-      - <span class="noun" lang="ja-Latn">Hyakunin Isshu</span> (<span lang="ja">百人一首</span>)
-      - <span class="noun" lang="ja-Latn">Genji Karuta</span> (<span lang="ja">源氏かるた</span>)
-    * <span class="noun" lang="ja-Latn">Iroha-garuta</span> (<span lang="ja">いろはかるた</span>, ‘alphabet cards’)
-3. [Hanafuda](articles/cards/japan/hanafuda/hanafuda.md) (<span
-  lang="ja">花札</span>, ‘flower cards’) are derived from a combination of both
-  the Portuguese and the matching-type cards.
+The first family is those cards which are derived from Portuguese patterns, and which are formed into decks with suits and ranks. In order of appearance these are:
+
+* [<span lang="ja-Latn" class="noun">Tenshō Karuta</span>](articles/cards/japan/tensho-karuta/tensho-karuta.md) (<span lang="ja">天正カルタ</span>, ‘<span class="noun" lang="ja-Latn">Tenshō</span> cards’), closely followed by:
+  * <span class="noun" lang="ja-Latn">Unsun Karuta</span> (<span lang="ja">うんすんかるた</span>, ‘<span class="noun" lang="ja-Latn">Un-Sun</span> cards’)
+  * <span class="noun" lang="ja-Latn">Sunkun Karuta</span> (<span lang="ja">すんくんかるた</span>, ‘<span class="noun" lang="ja-Latn">Sun-Kun</span> cards’)
+* [<span lang="ja-Latn" class="noun">Mekuri Karuta</span>](articles/cards/japan/mekuri-karuta/mekuri-karuta.md) (<span lang="ja">捲りかるた
+  </span>, ‘turning cards’) were an alteration of the <span class="noun"
+  lang="ja-Latn">Tenshō</span> pattern cards, possibly created to evade bans on
+  those cards. The structure of the deck remains the same, but there are
+  many different regional artwork patterns.
+  - <span class="noun" lang="ja-Latn">Shimafuda</span> (<span lang="ja">島札</span>) are a still-surviving
+	descendent of <span lang="ja-Latn">mekuri</span> cards, originating from <span lang="ja-Latn" class="noun">Okinawa</span>.
+* [<span lang="ja-Latn" class="noun">Kabu Karuta</span>](articles/cards/japan/kabu-karuta/kabu-karuta.md) (<span lang="ja">株かるた</span>) were a further simplification of <span lang="ja-Latn">mekuri</span> cards, eliminating all suits except for one, which is replicated four times. Like <span lang="ja-Latn">mekuri</span> cards, there are many regional varieties. 
+  - <span lang="ja-Latn" class="noun">Kabufuda</span> (<span lang="ja">株札</span>) is the only type still in mass production.
+
+The second family is made up of cards which are used for simpler matching games, not organized into suits or ranks. These decks usually have many matching pairs of cards:
+
+* <span class="noun" lang="ja-Latn">Uta-garuta</span> (<span lang="ja">歌かるた</span>,
+  ‘poetry cards’), of which there are many sub-types, including:
+  - <span class="noun" lang="ja-Latn">Hyakunin Isshu</span> (<span lang="ja">百人一首</span>)
+  - <span class="noun" lang="ja-Latn">Genji Karuta</span> (<span lang="ja">源氏かるた</span>)
+* <span class="noun" lang="ja-Latn">Iroha-garuta</span> (<span lang="ja">いろはかるた</span>, ‘alphabet cards’)
+
+The final type of card is [<span lang="ja-Latn">Hanafuda</span>](articles/cards/japan/hanafuda/hanafuda.md) (<span lang="ja">花札</span>, ‘flower cards’), which are derived from a combination of both the Portuguese and the matching-type cards.

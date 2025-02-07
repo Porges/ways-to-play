@@ -2,8 +2,12 @@
 title: Thomas Crosfield’s Diary (1629)
 order: 1629
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-08
+aliases: [Thomas Crosfield’s Diary (1629)]
+linter-yaml-title-alias: Thomas Crosfield’s Diary (1629)
 ---
+
+# Thomas Crosfield’s Diary (1629)
 
 Thomas Crosfield’s diary entry for Christmas day 1629 contains an entry titled “Games at Chartes” that contains a list of card games.[@ThomasCrosfield fol. 34r]
 

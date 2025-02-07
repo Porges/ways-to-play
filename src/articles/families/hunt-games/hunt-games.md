@@ -2,8 +2,11 @@
 title: Hunt Games
 draft: true
 date created: 2024-12-18
-date modified: 2025-01-23
+date modified: 2025-02-08
+aliases: [Hunt Games]
+linter-yaml-title-alias: Hunt Games
 ---
+# Hunt Games
 
 Hunt games are a family of games where two unequal forces are controlled by different players. In most games the smaller force has more powerful pieces, and the larger force wins by trapping or pinning the smaller force.
 

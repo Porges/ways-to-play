@@ -9,7 +9,13 @@ hero:
     license: cc-by-sa
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
+aliases: [Hanafuda variations]
+linter-yaml-title-alias: Hanafuda variations
+date created: 2024-12-18
+date modified: 2025-02-08
 ---
+
+# Hanafuda variations
 
 This article lists games that are variations on standard <span class="noun" lang="ja-Latn">Hanafuda</span>. Full rules for these games are not given here but on the game articles (if they exist).
 

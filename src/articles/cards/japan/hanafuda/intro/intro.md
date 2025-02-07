@@ -10,7 +10,9 @@ hero:
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-27
-date modified: 2025-02-04
+date modified: 2025-02-08
+aliases: ['Introduction to <span lang="ja-Latn" class="noun">Hanafuda</span>']
+linter-yaml-title-alias: 'Introduction to <span lang="ja-Latn" class="noun">Hanafuda</span>'
 ---
 # Introduction to <span lang="ja-Latn" class="noun">Hanafuda</span>
 

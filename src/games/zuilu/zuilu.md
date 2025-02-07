@@ -1,5 +1,5 @@
 ---
-title: Zuì Lǜ
+title: '<span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>'
 titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">醉綠</span>
 countries: CN
@@ -7,10 +7,14 @@ equipment: Dice game
 players: any
 mainImage: 52423713.jpg
 date created: 2024-12-22
-date modified: 2025-01-21
+date modified: 2025-02-08
+aliases: ['<span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>']
+linter-yaml-title-alias: '<span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>'
 ---
 
-<span lang="cmn-Latn-pinyin" class="noun aka">Zuì Lǜ</span> (<span lang="zh" class="aka">醉綠</span>, ‘drunken green’) was a very old Chinese drinking game from the late Ming period that is played with five dice. At a later stage it was known as <span lang="zh" class="aka">合歡</span> <span lang="cmn-Latn-pinyin" class="noun aka">Héhuān</span> ‘happy union’.[@BettingOnEmpire p. 42]
+# <span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>
+
+<span lang="cmn-Latn-pinyin" class="noun aka">Zuì Lǜ</span> (<span lang="zh" class="aka">醉綠</span>, ‘drunken green’) was a very old Chinese drinking game from the late Ming period that is played with five dice. At a later stage it was known as <span lang="zh" class="aka">合歡</span> <span lang="cmn-Latn-pinyin" class="noun aka">Héhuān</span>, ‘happy union’.[@BettingOnEmpire p. 42]
 
 > [!figure]
 >

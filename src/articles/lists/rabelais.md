@@ -2,8 +2,12 @@
 title: The Games of <cite>Gargantua</cite> (1534—)
 order: 1534
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-08
+aliases: [The Games of <cite>Gargantua</cite> (1534—)]
+linter-yaml-title-alias: The Games of <cite>Gargantua</cite> (1534—)
 ---
+
+# The Games of <cite>Gargantua</cite> (1534—)
 
 One of the most famous historical lists of games is that found in Chaper 22 of <a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais"><span class="noun" lang="fr">François Rabelais</span></a>’ <a href="https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel"><cite lang="fr">Gargantua</cite></a>, first published in 1534. In the original French the list contained 216 games, but in each translation the games that are named were changed and often expanded upon. Many of the games are either invented by Rabelais, or are games for which we no longer know the rules.
 

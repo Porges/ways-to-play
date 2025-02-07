@@ -2,10 +2,13 @@
 title: Table Games
 draft: true
 aliases:
+  - Table Games
   - table game
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-08
+linter-yaml-title-alias: Table Games
 ---
+# Table Games
 
 > [!figure]
 >

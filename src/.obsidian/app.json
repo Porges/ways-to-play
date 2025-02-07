@@ -1,8 +1,9 @@
 {
   "newLinkFormat": "absolute",
   "useMarkdownLinks": true,
-  "vimMode": true,
+  "vimMode": false,
   "alwaysUpdateLinks": true,
   "readableLineLength": true,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "attachmentFolderPath": "./"
 }
