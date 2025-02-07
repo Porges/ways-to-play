@@ -5,7 +5,7 @@ use std::{
     collections::{BTreeMap, HashSet},
     ffi::OsStr,
     path::{Path, PathBuf},
-    process::{self},
+    process::{self, Output},
     str::FromStr,
     sync::LazyLock,
     time::Duration,
@@ -249,6 +249,10 @@ impl<T: Borrow<ArticleHeader>> BaseMetadata for File<T> {
 
     fn is_draft(&self) -> bool {
         self.metadata.borrow().draft
+    }
+
+    fn modification_date(&self) -> Option<time::Date> {
+        self.metadata.borrow().date_modified
     }
 }
 
@@ -593,7 +597,36 @@ impl Builder {
                 .wrap_err("generating games page")?,
         ]);
 
+        output_files.push(self.sitemap(output_files).wrap_err("generating sitemap")?);
+
         Ok(())
+    }
+
+    fn sitemap(&self, output_files: &[OutputFile]) -> Result<OutputFile> {
+        let iso_format = time::macros::format_description!("[year]-[month]-[day]");
+
+        let mut most_recent = None;
+
+        let mut result = String::new();
+        result.push_str("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
+        result.push_str("<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n");
+        for file in output_files {
+            result.push_str("<url>");
+            result.push_str("<loc>https://games.porg.es");
+            result.push_str(&file.url_path);
+            result.push_str("</loc>");
+            if let Some(last_mod) = file.last_modified {
+                result.push_str("<lastmod>");
+                result.push_str(&last_mod.format(&iso_format)?);
+                result.push_str("</lastmod>");
+            }
+            result.push_str("</url>\n");
+
+            most_recent = most_recent.max(file.last_modified);
+        }
+        result.push_str("</urlset>\n");
+
+        Ok(OutputFile::new("/sitemap.xml", result, most_recent))
     }
 
     fn generate_article<T>(
@@ -657,7 +690,7 @@ impl Builder {
                 breadcrumbs.push((tree.url_path, tree.name));
             }
 
-            children = templates::render_article_tree(&article.url_path, tree);
+            children = templates::render_article_tree(&article.url_path, tree, self.output_drafts);
             prev_next = templates::render_prev_next(prev_sibling, next_sibling);
         }
 
@@ -669,7 +702,7 @@ impl Builder {
     fn generate(&mut self) -> Result<()> {
         let old_outputs = std::mem::take(&mut self.output_files);
         let url_lookup = self.build_url_lookup()?;
-        let old_outputs_map: BTreeMap<Cow<'static, str>, Markup> = old_outputs
+        let old_outputs_map: BTreeMap<Cow<'static, str>, Vec<u8>> = old_outputs
             .into_iter()
             .map(|o| (o.url_path, o.content))
             .collect();
@@ -701,7 +734,7 @@ impl Builder {
 
         for file in &mut self.output_files {
             if let Some(old) = old_outputs_map.get(&file.url_path) {
-                if old.0 == file.content.0 {
+                if *old == file.content {
                     file.write_to_disk = false;
                 }
             }
@@ -724,15 +757,23 @@ impl Builder {
                 continue;
             }
 
-            let output_path = self
-                .output_path
-                .join(output_file.url_path.trim_start_matches('/'))
-                .join("index.html");
+            let output_path = if output_file.url_path.ends_with('/') {
+                // directory
+                self.output_path
+                    .join(output_file.url_path.trim_start_matches('/'))
+                    .join("index.html")
+            } else {
+                // file
+                self.output_path
+                    .join(output_file.url_path.trim_start_matches('/'))
+            };
 
             let content = &output_file.content;
             std::fs::create_dir_all(output_path.parent().unwrap())?;
             debug!("Writing to {}", dunce::simplified(&output_path).display());
-            std::fs::write(output_path, &content.0)?;
+            std::fs::write(&output_path, content).wrap_err_with(|| {
+                eyre!("writing file {}", dunce::simplified(&output_path).display())
+            })?;
         }
 
         info!("Skipped {} unchanged files", skipped);

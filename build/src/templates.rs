@@ -13,16 +13,22 @@ pub struct Templater {
 }
 pub struct OutputFile {
     pub url_path: Cow<'static, str>,
-    pub content: Markup,
+    pub content: Vec<u8>,
     pub write_to_disk: bool,
+    pub last_modified: Option<time::Date>,
 }
 
 impl OutputFile {
-    pub fn new(url_path: Cow<'static, str>, content: Markup) -> Self {
+    pub fn new(
+        url_path: impl Into<Cow<'static, str>>,
+        content: impl Into<Vec<u8>>,
+        last_modified: Option<time::Date>,
+    ) -> Self {
         Self {
-            url_path,
-            content,
+            url_path: url_path.into(),
+            content: content.into(),
             write_to_disk: true,
+            last_modified,
         }
     }
 }
@@ -46,20 +52,28 @@ pub trait BaseMetadata {
     fn url_path(&self) -> &str;
 
     fn is_draft(&self) -> bool;
+
+    fn modification_date(&self) -> Option<time::Date>;
 }
 
 struct SimplePage {
     title_string: String,
     title_markup: Markup,
     url_path: Cow<'static, str>,
+    last_modified: Option<time::Date>,
 }
 
 impl SimplePage {
-    pub fn new(title: String, url_path: Cow<'static, str>) -> Self {
+    pub fn new(
+        title: String,
+        url_path: Cow<'static, str>,
+        last_modified: Option<time::Date>,
+    ) -> Self {
         Self {
             title_string: title.to_string(),
             title_markup: html! { (title) },
             url_path,
+            last_modified,
         }
     }
 }
@@ -79,6 +93,10 @@ impl BaseMetadata for SimplePage {
 
     fn is_draft(&self) -> bool {
         false
+    }
+
+    fn modification_date(&self) -> Option<time::Date> {
+        self.last_modified
     }
 }
 
@@ -244,8 +262,9 @@ impl Templater {
         };
 
         Ok(OutputFile::new(
-            metadata.url_path().to_owned().into(),
-            content,
+            metadata.url_path().to_owned(),
+            content.into_string(),
+            metadata.modification_date(),
         ))
     }
 
@@ -332,6 +351,7 @@ impl Templater {
             &SimplePage::new(
                 "Bibliography of Traditional Games".to_string(),
                 "/bibliography/".into(),
+                None, // TODO - bibliography modification date
             ),
             &[],
             content,
@@ -363,7 +383,7 @@ impl Templater {
         // TODO: recently updated/longest pages
 
         self.base(
-            &SimplePage::new("Welcome".to_string(), "/".into()),
+            &SimplePage::new("Welcome".to_string(), "/".into(), None),
             &[],
             content,
         )
@@ -374,6 +394,7 @@ impl Templater {
         games: impl Iterator<Item = &'a T>,
     ) -> Result<OutputFile> {
         let games_all = Vec::from_iter(games.sorted_by_key(|g| g.title_string()));
+        let modification_date = games_all.iter().filter_map(|g| g.modification_date()).max();
 
         let player_options = games_all
             .iter()
@@ -455,14 +476,14 @@ impl Templater {
         };
 
         self.base(
-            &SimplePage::new("Games".to_string(), "/games/".into()),
+            &SimplePage::new("Games".to_string(), "/games/".into(), modification_date),
             &[],
             content,
         )
     }
 }
 
-pub fn render_article_tree(root: &str, tree: &ArticleNode) -> Option<Markup> {
+pub fn render_article_tree(root: &str, tree: &ArticleNode, render_drafts: bool) -> Option<Markup> {
     if tree.children.is_empty() {
         return None;
     }
@@ -470,21 +491,23 @@ pub fn render_article_tree(root: &str, tree: &ArticleNode) -> Option<Markup> {
     Some(html! {
         ul.article-list {
             @for (name, value) in tree.children.iter().sorted_by_key(|(_, c)| c.order) {
-                @let path = root.to_string() + name + "/";
-                li {
-                    @if let Some(name) = value.name {
-                        a href=(path) {
-                            (name)
-                            @if let Some(orig_name) = value.original_name {
-                                " (" (orig_name) ")"
-                            }
-                            @if value.draft {
-                                " 🚧"
+                @if !value.draft || render_drafts {
+                    @let path = root.to_string() + name + "/";
+                    li {
+                        @if let Some(name) = value.name {
+                            a href=(path) {
+                                (name)
+                                @if let Some(orig_name) = value.original_name {
+                                    " (" (orig_name) ")"
+                                }
+                                @if value.draft {
+                                    " 🚧"
+                                }
                             }
                         }
-                    }
 
-                    (render_article_tree(&path, value).unwrap_or_default())
+                        (render_article_tree(&path, value, render_drafts).unwrap_or_default())
+                    }
                 }
             }
         }

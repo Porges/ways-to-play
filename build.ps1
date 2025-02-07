@@ -1,6 +1,7 @@
 #!/bin/env pwsh
 param(
-    [switch]$watch = $false
+    [switch]$watch = $false,
+    [switch]$drafts = $false
 )
 
 $ErrorActionPreference = 'Stop'
@@ -144,9 +145,12 @@ function Build-Builder {
 }
 
 $builder = Join-Path $root "build/target/release/wtp-build"
+
+$draft_arg = if ($drafts) { @("--draft") } else { @() }
+
 function Build-HTML {
     $env:RUST_LOG = 'info'
-    & $builder --input $src --output $public --image-manifest $image_manifest --draft
+    & $builder --input $src --output $public --image-manifest $image_manifest @draft_arg
     Remove-Item env:RUST_LOG
 }
 
@@ -158,7 +162,7 @@ if ($watch) {
     $bg = Start-Job { miniserve $using:public --index index.html }
     try {
         $env:RUST_LOG = 'info'
-        & $builder --input $src --output $public --image-manifest $image_manifest --draft --watch
+        & $builder --input $src --output $public --image-manifest $image_manifest @draft_arg --watch
         Remove-Item env:RUST_LOG
     }
     finally {
