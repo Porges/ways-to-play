@@ -887,6 +887,12 @@ impl Converter<'_> {
                             (self.expand(&blockquote.children[1..])?)
                         }
                     });
+                } else if trimmed == "[!game]" {
+                    return Ok(html! {
+                        div.aside.game-meta {
+                            (self.expand(&blockquote.children[1..])?)
+                        }
+                    });
                 } else if let Some(lang) = trimmed.strip_prefix("[!lang]") {
                     return Ok(html! {
                         div lang=(lang.trim()) {
@@ -995,6 +1001,10 @@ struct ImageMetadata {
 
     terms_url: Option<String>,
 }
+
+#[derive(Deserialize)]
+#[serde(deny_unknown_fields, rename_all = "camelCase")]
+struct GameMetadata {}
 
 #[derive(Deserialize)]
 #[serde(rename_all = "kebab-case")]

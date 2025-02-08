@@ -159,7 +159,7 @@ section {
     main {
 
         /* We need more space on the right if footnotes are present */
-        &:has(.footnote, figure.aside) {
+        &:has(.footnote, .aside) {
             grid-template-columns:
                 minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] 1rlh var(--footnote-width) minmax(1rlh, 1fr);
         }
@@ -602,7 +602,7 @@ figure {
 @media (width >=1161px) {
 
     /* expand on footnote layout */
-    main:has(.footnote, figure.aside) {
+    main:has(.footnote, .aside) {
         figure {
             &.wide {
                 margin-right: calc(-2 * var(--figure-wide-overlap));
@@ -743,7 +743,7 @@ div.multi {
 }
 
 @media (width >=1161px) {
-    main:has(.footnote, figure.aside) {
+    main:has(.footnote, .aside) {
         div {
             &.wide {
                 /* bias it to the right a bit */
@@ -777,7 +777,7 @@ div.full-width {
 @media (width >=1161px) {
 
     /* with footnotes */
-    main:has(.footnote, figure.aside) div.full-width {
+    main:has(.footnote, .aside) div.full-width {
         left: calc(-0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - 1rlh - var(--footnote-width)) - var(--figure-wide-overlap));
     }
 }
@@ -983,7 +983,7 @@ article {
 @media (width >=1161px) {
 
     .footnote,
-    figure.aside {
+    .aside {
         float: right;
         clear: right;
 

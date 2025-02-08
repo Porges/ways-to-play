@@ -739,8 +739,7 @@ The main distinguishing feature of the pattern is that each type of <span lang="
 
 In addition to the above, there are also many modern revisions or novelty decks
 that do not conform to any one of the traditional patterns. More information and
-examples of these can be found in the {%a new-manufacturers,article about new
-<span class="noun" lang="ja-Latn">Hanafuda</span> manufacturers%}.
+examples of these can be found in the [article about new <span lang="ja-Latn" class="noun">Hanafuda</span> manufacturers](articles/cards/japan/hanafuda/new-manufacturers/new-manufacturers.md).
 
 ## The Cards in Depth
 

@@ -4,8 +4,9 @@ use std::{
     borrow::{Borrow, Cow},
     collections::{BTreeMap, HashSet},
     ffi::OsStr,
+    io::Write,
     path::{Path, PathBuf},
-    process::{self, Output},
+    process::{self},
     str::FromStr,
     sync::LazyLock,
     time::Duration,
@@ -25,6 +26,7 @@ use notify_debouncer_full::{new_debouncer, DebounceEventResult};
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
 use serde::Deserialize;
 use templates::{ArticleMetadata, BaseMetadata, GameMetadata, OutputFile, Templater};
+use time::UtcOffset;
 use tracing::{debug, error, info, warn};
 use tracing_subscriber::{fmt::format::FmtSpan, EnvFilter};
 use url::Url;
@@ -351,6 +353,7 @@ impl Builder {
             html_text: false,
             mdx_jsx_flow: true,
             mdx_jsx_text: true,
+            code_indented: false, // easier to indent mdx
             ..Constructs::default()
         };
 
@@ -771,9 +774,20 @@ impl Builder {
             let content = &output_file.content;
             std::fs::create_dir_all(output_path.parent().unwrap())?;
             debug!("Writing to {}", dunce::simplified(&output_path).display());
-            std::fs::write(&output_path, content).wrap_err_with(|| {
-                eyre!("writing file {}", dunce::simplified(&output_path).display())
-            })?;
+
+            {
+                let mut file = std::fs::File::create(&output_path)
+                    .wrap_err_with(|| eyre!("creating file {}", output_path.display()))?;
+                file.write_all(content)?;
+                if let Some(mod_date) = output_file.last_modified {
+                    let datetime = time::OffsetDateTime::new_in_offset(
+                        mod_date,
+                        time::Time::from_hms(0, 0, 0)?,
+                        UtcOffset::UTC,
+                    );
+                    file.set_modified(datetime.into())?;
+                }
+            }
         }
 
         info!("Skipped {} unchanged files", skipped);
