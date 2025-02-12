@@ -217,26 +217,44 @@ The combinations in particular are copied directly from the [Kànhǔ](games/kanh
 Given this information, we can arrange the deck as follows, and we can easily see how the combinations were arrived at:
 
 <table class="fixed">
-<caption>A Ceki deck presented in “historical order” to show how the combinations were derived.</caption>
+<caption>
+A Ceki deck presented in “historical order” to show how the combinations were derived.
+</caption>
 <thead>
 <tr class="text-center">
-<th></th>
-<th>low</th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th>high</th>
+<th>
+</th>
+<th>
+low
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+</th>
+<th>
+high
+</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th scope="row" class="sideways centered">Myriads</th>
+<th scope="row" class="sideways centered">
+Myriads
+</th>
 <td>
 > [!figure]
 >
@@ -347,10 +365,13 @@ Given this information, we can arrange the deck as follows, and we can easily se
 > hidden: true
 > ```
 </td>
-<td></td>
+<td>
+</td>
 </tr>
 <tr>
-<th scope="row" class="sideways centered">Strings</th>
+<th scope="row" class="sideways centered">
+Strings
+</th>
 <td>
 > [!figure]
 >
@@ -450,11 +471,15 @@ Given this information, we can arrange the deck as follows, and we can easily se
 > hidden: true
 > ```
 </td>
-<td></td>
-<td></td>
+<td>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<th scope="row" class="sideways centered">Coins</th>
+<th scope="row" class="sideways centered">
+Coins
+</th>
 <td>
 > [!figure]
 >

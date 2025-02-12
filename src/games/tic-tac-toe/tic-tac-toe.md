@@ -184,17 +184,27 @@ In the ‘folkish’ group we have examples like the Dutch ‘<span lang="nl" cl
 
 Like the English names, one Dutch name (<span lang="nl" class="aka">boter, melk, kaas</span>) is derived from a rhyme:[@WinningWaysV3 p. 732]
 
-<div class="multi">
-  <p lang="nl">Boter, melk, kaas,<br />ik ben de baas.</p>
-  <p>Butter, milk, cheese,<br />I am the boss.</p>
-</div>
+> [!multi]
+> 
+> > [!lang] nl
+> > 
+> > Boter, melk, kaas,\
+> > ik ben de baas.
+>
+> Butter, milk, cheese,\
+> I am the boss.
 
 Sweden had a similar rhyme:[@GamesOfTheGods p. 163]
 
-<div class="multi">
-  <p lang="sv">Tripp, trapp, trull,<br />min kvarn är full.</p>
-  <p>Tripp, trapp, trull,<br />my mill is full.</p>
-</div>
+> [!multi]
+>
+> > [!lang] sv
+> >
+> > Tripp, trapp, trull,\
+> > min kvarn är full.
+>
+> Tripp, trapp, trull,\
+> my mill is full.
 
 In the ‘functional’ group of names are those like the Arabic <span lang="ar" class="aka">لعبة إكس-أو</span> ‘the <i>X</i>–<i>O</i> game’; or the Chinese <span lang="zh" class="aka">圈圈叉叉</span> ‘circles &amp; crosses’, or <span lang="zh" class="aka">井字棋</span> ‘<code>井</code> character game’.
 
@@ -255,11 +265,41 @@ This game is isomorphic to the game of tic-tac-toe. Astonishingly, this form was
 To show the equivalence, write down the numbers in the form of the (unique) 3&times;3 magic square:
 
 <table class="numeric rule-between-cells">
-  <tbody>
-    <tr><td>4</td><td>9</td><td>2</td></tr>
-    <tr><td>3</td><td>5</td><td>7</td></tr>
-    <tr><td>8</td><td>1</td><td>6</td></tr>
-  </tbody>
+<tbody>
+<tr>
+  <td>
+  4
+  </td>
+  <td>
+  9
+  </td>
+  <td>
+  2
+  </td>
+</tr>
+<tr>
+  <td>
+  3
+  </td>
+  <td>
+  5
+  </td>
+  <td>
+  7
+  </td>
+</tr>
+<tr>
+  <td>
+  8
+  </td>
+  <td>
+  1
+  </td>
+  <td>
+  6
+  </td>
+</tr>
+</tbody>
 </table>
 
 From this it can be seen that the game is the same as tic-tac-toe. Each row, column, and long diagonal sums to 15.
@@ -291,42 +331,92 @@ Write down the nine words ‘Spit’, ‘Not’, ‘So’, ‘Fat’, ‘Fop’,
 This can be shown to be the same game in the following way (note that the number of letters in each word is the same as the number of lines that can be formed through that square):
 
 <table class="centered rule-first-row rule-first-col rule-last-col rule-last-row">
-  <tbody>
-    <tr>
-      <td><strong>P</strong></td>
-      <td><strong>N</strong></td>
-      <td><strong>S</strong></td>
-      <td><strong>F</strong></td>
-      <td><strong>T</strong></td>
-    </tr>
-    <tr>
-      <td><strong>A</strong></td>
-      <td><span>P</span><span>A</span><span>N</span></td>
-      <td><span>A</span><span>S</span></td><td><span>F</span><span>A</span><span>T</span></td>
-      <td><strong>A</strong></td>
-    </tr>
-    <tr>
-      <td><strong>I</strong></td>
-      <td><span>I</span><span>N</span></td>
-      <td><span>S</span><span>P</span><span>I</span><span>T</span></td>
-      <td><span>I</span><span>F</span></td>
-      <td><strong>I</strong></td>
-    </tr>
-    <tr>
-      <td><strong>O</strong></td>
-      <td><span>N</span><span>O</span><span>T</span></td>
-      <td><span>S</span><span>O</span></td>
-      <td><span>F</span><span>O</span><span>P</span> </td>
-      <td><strong>O</strong></td>
-    </tr>
-    <tr>
-      <td><strong>T</strong></td>
-      <td><strong>N</strong></td>
-      <td><strong>S</strong></td>
-      <td><strong>F</strong></td>
-      <td><strong>P</strong></td>
-    </tr>
-  </tbody>
+<tbody>
+<tr>
+<td>
+<strong>P</strong>
+</td>
+<td>
+<strong>N</strong>
+</td>
+<td>
+<strong>S</strong>
+</td>
+<td>
+<strong>F</strong>
+</td>
+<td>
+<strong>T</strong>
+</td>
+</tr>
+<tr>
+<td>
+<strong>A</strong>
+</td>
+<td>
+<span>P</span><span>A</span><span>N</span>
+</td>
+<td>
+<span>A</span><span>S</span>
+</td><td>
+<span>F</span><span>A</span><span>T</span>
+</td>
+<td>
+<strong>A</strong>
+</td>
+</tr>
+<tr>
+<td>
+<strong>I</strong>
+</td>
+<td>
+<span>I</span><span>N</span>
+</td>
+<td>
+<span>S</span><span>P</span><span>I</span><span>T</span>
+</td>
+<td>
+<span>I</span><span>F</span>
+</td>
+<td>
+<strong>I</strong>
+</td>
+</tr>
+<tr>
+<td>
+<strong>O</strong>
+</td>
+<td>
+<span>N</span><span>O</span><span>T</span>
+</td>
+<td>
+<span>S</span><span>O</span>
+</td>
+<td>
+<span>F</span><span>O</span><span>P</span> 
+</td>
+<td>
+<strong>O</strong>
+</td>
+</tr>
+<tr>
+<td>
+<strong>T</strong>
+</td>
+<td>
+<strong>N</strong>
+</td>
+<td>
+<strong>S</strong>
+</td>
+<td>
+<strong>F</strong>
+</td>
+<td>
+<strong>P</strong>
+</td>
+</tr>
+</tbody>
 </table>
 
 > [!figure]

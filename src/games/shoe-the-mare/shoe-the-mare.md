@@ -19,17 +19,12 @@ In 1616 it appears in [Ben Johnson](https://en.wikipedia.org/wiki/Ben_Jonson)’
 > Are these your court-sports ! would I had kept me to my gamboles o’ the countrey still, selling of fish, short service, shooing the wild mare, or rosting of Robin red-brest.
 
 
-
 It was probably a physical game played by men, also mentioned in a poem (“A New-yeares gift sent to Sir Simeon Steward”) published by [Robert Herrick](https://en.wikipedia.org/wiki/Robert_Herrick_(poet)) in 1648:[@Hesperides 146]
 
-<blockquote>
-<p>
-Of Christmas sports, the <em>Wassell-boule</em>,<br/>
-That tost up, after <em>Fox-i’th’hole</em>:<br/>
-Of <em>Blind-man-buffe</em>, and of the care<br/>
-That young men have to shooe the <em>Mare</em>:
-</p>
-</blockquote>
+> Of Christmas sports, the _Wassell-boule_,\
+> That tost up, after _Fox-i’th’hole_:\
+> Of _Blind-man-buffe_, and of the care\
+> That young men have to shooe the _Mare_:
 
 In [Nicholas Breton](https://en.wikipedia.org/wiki/Nicholas_Breton)’s @Fantasticks [17], it is mentioned in the section on Christmas:[^fn1]
 
@@ -39,36 +34,32 @@ In [Nicholas Breton](https://en.wikipedia.org/wiki/Nicholas_Breton)’s @Fantast
 
 The 1680 poem “Batt upon Batt” has:[@BattUponBatt 5]
 
-> Our _Batt_ can dance, play at high Jinks with Dice,<br/>
-> At any primitive Orthodoxal Vice.<br/>
-> Shooing the wild Mare, tumbling the young Wenches,<br/>
+> Our _Batt_ can dance, play at high Jinks with Dice,\
+> At any primitive Orthodoxal Vice.\
+> Shooing the wild Mare, tumbling the young Wenches,\
 > Drinking all night, and Sleeping on the Benches.
 
 It also appears in another poem (“To my Friend Mr. John Anderson”) by <a href="https://en.wikipedia.org/wiki/Charles_Cotton">Charles Cotton</a> published posthumously in 1689:[@PoemsOnSeveralOccasions 378]
 
-<blockquote>
-<p>&emsp;We have too errant <em>Knights</em> so stout,<br/>
-&emsp;As honest <em>Hobinel</em> and <em>Clout</em>,<br/>
-With many an other stiff and sturdy Lout,<br/>
-&emsp;&emsp;&emsp;That <a href="https://www.thearma.org/essays/wasters.htm">play at wasters</a>,<br/>
-&emsp;Shooe the wild Mare, and lick the board,<br/>
-&emsp;That for stiff Tuck, or cutting Sword,<br/>
-For Man, or Woman, care not of a <em>Turd</em>,<br/>
-&emsp;&emsp;&emsp;But their own <em>Masters</em>.</p>
-</blockquote>
+> &emsp;We have too errant _Knights_ so stout,\
+> &emsp;As honest _Hobinel_ and _Clout_,\
+> With many an other stiff and sturdy Lout,\
+> &emsp;&emsp;&emsp;That <a href="https://www.thearma.org/essays/wasters.htm">play at wasters</a>,\
+> &emsp;Shooe the wild Mare, and lick the board,\
+> &emsp;That for stiff Tuck, or cutting Sword,\
+> For Man, or Woman, care not of a _Turd_,\
+> &emsp;&emsp;&emsp;But their own _Masters_.
 
 An old nursery rhyme of unknown date runs:[@GammerGurtonsGarland 52][^fn2]
 
 [^fn2]: [John Bellenden Ker](https://en.wikipedia.org/wiki/John_Bellenden_Ker_Gawler) gives a masterfully absurd interpretation of this poem as a heathen Saxon invection against Catholic monks, see: @AoPPSupplement [257].
 
-<blockquote>
-<p>Shoe the colt,<br/>
-Shoe the colt,<br/>
-&emsp;Shoe the wild mare;<br/>
-Here a nail,<br/>
-There a nail,<br/>
-&emsp;Yet she goes bare.</p>
-</blockquote>
+> Shoe the colt,\
+> Shoe the colt,\
+> &emsp;Shoe the wild mare;\
+> Here a nail,\
+> There a nail,\
+> &emsp;Yet she goes bare.
 
 ## The Game
 

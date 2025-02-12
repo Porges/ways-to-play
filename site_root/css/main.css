@@ -802,6 +802,14 @@ div:has(table.sticky-header) {
     }
 }
 
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
 /*** Tables ***/
 
 table {

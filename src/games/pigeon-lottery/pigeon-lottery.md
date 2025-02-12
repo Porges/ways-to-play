@@ -226,7 +226,8 @@ payouts vary based upon the number of correctly-chosen characters, in the left c
 <table class="max-content">
 <thead>
 <tr>
-<th></th>
+<th>
+</th>
 <th>
 China\
 (&lt;1864)[@GrammarOfTheChineseLanguage2 p. 157]
@@ -263,106 +264,290 @@ Las Vegas\
 </thead>
 <tbody class="numeric">
 <tr class="table-secondary">
-<th scope="row">cost</th>
-<td>3<span lang="zh">厘</span> (<a href="https://en.wikipedia.org/wiki/Cash_(unit)">cash</a>)</td>
-<td>6d</td>
-<td>6d</td>
-<td>6d</td>
-<td>6d</td>
-<td>25¢</td>
-<td>$1</td>
-<td>60¢</td>
+<th scope="row">
+cost
+</th>
+<td>
+3<span lang="zh">厘</span> (<a href="https://en.wikipedia.org/wiki/Cash_(unit)">cash</a>)
+</td>
+<td>
+6d
+</td>
+<td>
+6d
+</td>
+<td>
+6d
+</td>
+<td>
+6d
+</td>
+<td>
+25¢
+</td>
+<td>
+$1
+</td>
+<td>
+60¢
+</td>
 </tr>
 <tr>
-<th scope="row">5</th>
-<td>5<span lang="zh">厘</span> (cash)<br/>(1⅔×)</td>
-<td>1/2<br/>(2⅓×)</td>
-<td>1/–<br/>(2×)</td>
-<td>?</td>
-<td>6d<br/>(1×)</td>
-<td>50¢<br/>(2×)</td>
-<td>$1<br/>(1×)</td>
-<td>$1.20<br/>(2×)</td>
+<th scope="row">
+5
+</th>
+<td>
+5<span lang="zh">厘</span> (cash)\
+(1⅔×)
+</td>
+<td>
+1/2\
+(2⅓×)
+</td>
+<td>
+1/–\
+(2×)
+</td>
+<td>
+?
+</td>
+<td>
+6d\
+(1×)
+</td>
+<td>
+50¢\
+(2×)
+</td>
+<td>
+$1\
+(1×)
+</td>
+<td>
+$1.20\
+(2×)
+</td>
 </tr>
 <tr>
-<th scope="row">6</th>
-<td>5<span lang="zh">分</span> (<a href="https://en.wikipedia.org/wiki/Candareen">candareen</a>)<br/>= 50 cash (16⅔×)</td>
-<td>9/–<br/>(18×)</td>
-<td>8/6<br/>(17×)</td>
-<td>?</td>
-<td>18/6<br/>(37×)</td>
-<td>$4.5<br/>(18×)</td>
-<td>$10<br/>(10×)</td>
-<td>$12<br/>(20×)</td>
+<th scope="row">
+6
+</th>
+<td>
+5<span lang="zh">分</span> (<a href="https://en.wikipedia.org/wiki/Candareen">candareen</a>)\
+= 50 cash (16⅔×)
+</td>
+<td>
+9/–\
+(18×)
+</td>
+<td>
+8/6\
+(17×)
+</td>
+<td>
+?
+</td>
+<td>
+18/6\
+(37×)
+</td>
+<td>
+$4.5\
+(18×)
+</td>
+<td>
+$10\
+(10×)
+</td>
+<td>
+$12\
+(20×)
+</td>
 </tr>
 <tr>
-<th scope="row">7</th>
-<td>5<span lang="zh">錢</span> (<a href="https://en.wikipedia.org/wiki/Mace_(unit)">mace</a>)<br/>= 500 cash (166⅔×)</td>
-<td>£3 18/6<br/>(157×)</td>
-<td>£3 10/–<br/>(140×)</td>
-<td>£4<br/>(160×)</td>
-<td>£3 15/–<br/>(150×)</td>
-<td>$45<br/>(180×)</td>
-<td>$100<br/>(100×)</td>
-<td>$90<br/>(150×)</td>
+<th scope="row">
+7
+</th>
+<td>
+5<span lang="zh">錢</span> (<a href="https://en.wikipedia.org/wiki/Mace_(unit)">mace</a>)\
+= 500 cash (166⅔×)
+</td>
+<td>
+£3 18/6\
+(157×)
+</td>
+<td>
+£3 10/–\
+(140×)
+</td>
+<td>
+£4\
+(160×)
+</td>
+<td>
+£3 15/–\
+(150×)
+</td>
+<td>
+$45\
+(180×)
+</td>
+<td>
+$100\
+(100×)
+</td>
+<td>
+$90\
+(150×)
+</td>
 </tr>
 <tr>
-<th scope="row">8</th>
-<td>2<span lang="zh">兩</span> (<a href="https://en.wikipedia.org/wiki/Tael">tael</a>) 5<span lang="zh">錢</span> (mace)<br/>= 2500 cash (833⅓×)</td>
-<td>£20 15/–<br/>(830×)</td>
-<td>£19 2/6<br/>(765×)</td>
-<td>£20<br/>(800×)</td>
-<td>£18 10/–<br/>(740×)</td>
-<td>$225<br/>(900×)</td>
-<td>$625<br/>(625×)</td>
-<td>$660<br/>(1100×)</td>
+<th scope="row">
+8
+</th>
+<td>
+2<span lang="zh">兩</span> (<a href="https://en.wikipedia.org/wiki/Tael">tael</a>) 5<span lang="zh">錢</span> (mace)\
+= 2500 cash (833⅓×)
+</td>
+<td>
+£20 15/–\
+(830×)
+</td>
+<td>
+£19 2/6\
+(765×)
+</td>
+<td>
+£20\
+(800×)
+</td>
+<td>
+£18 10/–\
+(740×)
+</td>
+<td>
+$225\
+(900×)
+</td>
+<td>
+$625\
+(625×)
+</td>
+<td>
+$660\
+(1100×)
+</td>
 </tr>
 <tr>
-<th scope="row">9</th>
-<td>5<span lang="zh">兩</span> (tael)<br/>= 5000 cash (1666⅔×)</td>
-<td>£36<br/>(1440×)</td>
-<td>£35<br/>(1400×)</td>
-<td>£40<br/>(1600×)</td>
-<td>£36<br/>(1440×)</td>
-<td>$450<br/>(1800×)</td>
-<td>$1250<br/>(1250×)</td>
-<td>$2400<br/>(4000×)</td>
+<th scope="row">
+9
+</th>
+<td>
+5<span lang="zh">兩</span> (tael)\
+= 5000 cash (1666⅔×)
+</td>
+<td>
+£36\
+(1440×)
+</td>
+<td>
+£35\
+(1400×)
+</td>
+<td>
+£40\
+(1600×)
+</td>
+<td>
+£36\
+(1440×)
+</td>
+<td>
+$450\
+(1800×)
+</td>
+<td>
+$1250\
+(1250×)
+</td>
+<td>
+$2400\
+(4000×)
+</td>
 </tr>
 <tr>
-<th scope="row">10</th>
-<td>10<span lang="zh">兩</span> (tael)<br/>= 10000 cash (3333⅓×)</td>
-<td>£70<br/>(2800×)</td>
-<td>£70<br/>(2800×)</td>
-<td>£80<br/>(3200×)</td>
-<td>£85<br/>(3400×)</td>
-<td>$900<br/>(3600×)</td>
-<td>$2500<br/>(2500×)</td>
-<td>$12,500<br/>(20833⅓×)</td>
+<th scope="row">
+10
+</th>
+<td>
+10<span lang="zh">兩</span> (tael)\
+= 10000 cash (3333⅓×)
+</td>
+<td>
+£70\
+(2800×)
+</td>
+<td>
+£70\
+(2800×)
+</td>
+<td>
+£80\
+(3200×)
+</td>
+<td>
+£85\
+(3400×)
+</td>
+<td>
+$900\
+(3600×)
+</td>
+<td>
+$2500\
+(2500×)
+</td>
+<td>
+$12,500\
+(20833⅓×)
+</td>
 </tr>
 </tbody>
 <tfoot class="numeric">
 <tr class="table-secondary">
-<th scope="row"><abbr title="house advantage">H.A.</abbr></th>
-<td>33.10%</td>
-<td>29.89%</td>
-<td>36.40%</td>
-<td>—</td>
-<td>17.46%</td>
-<td>26.72%</td>
-<td>58.01%</td>
-<td>25.01%</td>
+<th scope="row">
+<abbr title="house advantage">H.A.</abbr>
+</th>
+<td>
+33.10%
+</td>
+<td>
+29.89%
+</td>
+<td>
+36.40%
+</td>
+<td>
+—
+</td>
+<td>
+17.46%
+</td>
+<td>
+26.72%
+</td>
+<td>
+58.01%
+</td>
+<td>
+25.01%
+</td>
 </tr>
 </tfoot>
 </table>
 </div>
 
-The trend over time has been to increase the payouts on the higher end, which
-makes the game more attractive to players while not unduly affecting the house
-margin — as long as the house has sufficient capital to avoid going bankrupt
-when a player hits a big win. Aggregate payout limits are also used to prevent
-such an occurrence; for example, a casino might advertise a $50,000 limit, which
-is the maximum combined winnings that players can win on any single game (bigger
-winners being paid out first).
+The trend over time has been to increase the payouts on the higher end, which makes the game more attractive to players while not unduly affecting the house margin — as long as the house has sufficient capital to avoid going bankrupt when a player hits a big win. Aggregate payout limits are also used to prevent such an occurrence; for example, a casino might advertise a $50,000 limit, which is the maximum combined winnings that players can win on any single game (bigger winners being paid out first).
 
 ## Spread to other countries
 

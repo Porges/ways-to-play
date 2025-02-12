@@ -112,12 +112,24 @@ Tehonbiki can also be played with [Hanafuda](articles/cards/japan/hanafuda/hanaf
 [^fn2]: The reason that this mapping doesn’t seem to obey the standard ordering of the cards is that it is based upon the so-called “Nagoya order”.
 
 <ol class="columnar">
-<li>Pine or Bush clover</li>
-<li>Rain or Silver grass</li>
-<li>Cherry or Chrysanthemum</li>
-<li>Wisteria or Maple</li>
-<li>Iris or Peony </li>
-<li>Paulownia or Plum</li>
+<li>
+Pine or Bush clover
+</li>
+<li>
+Rain or Silver grass
+</li>
+<li>
+Cherry or Chrysanthemum
+</li>
+<li>
+Wisteria or Maple
+</li>
+<li>
+Iris or Peony 
+</li>
+<li>
+Paulownia or Plum
+</li>
 </ol>
 
 When playing with Hanafuda, <span lang="ja-Latn">mefuda</span> are not used, and

@@ -44,18 +44,42 @@ cards by a plant related to that month.
 The months and their associated plants are:
 
 <ol class="columnar">
-<li>January: pine (<span lang="ja">松</span> <Pronounce pronouncer="_ai_"  lang="ja-Latn" file="pronunciation_ja_松.mp3">matsu</Pronounce>)</li>
-<li>February: plum (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo"  lang="ja-Latn" file="pronunciation_ja_梅.mp3">ume</Pronounce>)</li>
-<li>March: cherry (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown"  lang="ja-Latn" file="pronunciation_ja_桜.mp3">sakura</Pronounce>)</li>
-<li>April: wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring"  lang="ja-Latn" file="pronunciation_ja_藤.mp3">fuji</Pronounce>)</li>
-<li>May: iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo"  lang="ja-Latn" file="pronunciation_ja_菖蒲.mp3">ayame</Pronounce>)</li>
-<li>June: peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto"  lang="ja-Latn" file="pronunciation_ja_牡丹.mp3">botan</Pronounce>)</li>
-<li>July: bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown"  lang="ja-Latn" file="pronunciation_ja_萩.mp3">hagi</Pronounce>)</li>
-<li>August: silvergrass (<span lang="ja">芒/薄</span> <Pronounce pronouncer="kaoring"  lang="ja-Latn" file="pronunciation_ja_スズキ.mp3">susuki</Pronounce>)</li>
-<li>September: chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo"  lang="ja-Latn" file="pronunciation_ja_菊.mp3">kiku</Pronounce>)</li>
-<li>October: maple (<span lang="ja">紅葉</span> <Pronounce pronouncer="El55"  lang="ja-Latn" file="pronunciation_ja_紅葉.mp3">kōyō</Pronounce>)</li>
-<li>November: willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo"  lang="ja-Latn" file="pronunciation_ja_柳.mp3">yanagi</Pronounce>)</li>
-<li>December: paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring"  lang="ja-Latn" file="pronunciation_ja_桐.mp3">kiri</Pronounce>)</li>
+<li>
+January: pine (<span lang="ja">松</span> <Pronounce pronouncer="_ai_"  lang="ja-Latn" file="pronunciation_ja_松.mp3">matsu</Pronounce>)
+</li>
+<li>
+February: plum (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo"  lang="ja-Latn" file="pronunciation_ja_梅.mp3">ume</Pronounce>)
+</li>
+<li>
+March: cherry (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown"  lang="ja-Latn" file="pronunciation_ja_桜.mp3">sakura</Pronounce>)
+</li>
+<li>
+April: wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring"  lang="ja-Latn" file="pronunciation_ja_藤.mp3">fuji</Pronounce>)
+</li>
+<li>
+May: iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo"  lang="ja-Latn" file="pronunciation_ja_菖蒲.mp3">ayame</Pronounce>)
+</li>
+<li>
+June: peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto"  lang="ja-Latn" file="pronunciation_ja_牡丹.mp3">botan</Pronounce>)
+</li>
+<li>
+July: bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown"  lang="ja-Latn" file="pronunciation_ja_萩.mp3">hagi</Pronounce>)
+</li>
+<li>
+August: silvergrass (<span lang="ja">芒/薄</span> <Pronounce pronouncer="kaoring"  lang="ja-Latn" file="pronunciation_ja_スズキ.mp3">susuki</Pronounce>)
+</li>
+<li>
+September: chrysanthemum (<span lang="ja">菊</span> <Pronounce pronouncer="akitomo"  lang="ja-Latn" file="pronunciation_ja_菊.mp3">kiku</Pronounce>)
+</li>
+<li>
+October: maple (<span lang="ja">紅葉</span> <Pronounce pronouncer="El55"  lang="ja-Latn" file="pronunciation_ja_紅葉.mp3">kōyō</Pronounce>)
+</li>
+<li>
+November: willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo"  lang="ja-Latn" file="pronunciation_ja_柳.mp3">yanagi</Pronounce>)
+</li>
+<li>
+December: paulownia (<span lang="ja">桐</span> <Pronounce pronouncer="kaoring"  lang="ja-Latn" file="pronunciation_ja_桐.mp3">kiri</Pronounce>)
+</li>
 </ol>
 
 In Korean and some Hawaiian decks, the months of November &amp; December are switched. This rarely makes a difference except in some gambling games when the numeric order of the cards is used.

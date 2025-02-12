@@ -81,9 +81,9 @@ On the 5th of April, 1872, the Nuisances Ordinance of Hong Kong (No. 2 of 1872) 
 
 > 4. (Penalty for playing Chai-mui at night.) Every person shall be liable to a penalty not exceeding ten dollars who shall utter shouts or cries or make other noises while playing the game known as Chai-mui, between the hours of 11 P.M. and 6 A.M. within any district or place not permitted by some regulation of the Governor in Council.[@NuisancesOrdinanceHongKong]
 
-{/*
+> [!todo]
+>
 > 12.—(1) No person shall utter any shouts or cries or make other noises while playing the game known as “<span class="aka" lang="yue-Latn">Chai Mui</span>” within the hours prescribed for any district of place by regulation of the Governor-in-Council.
-*/}
 
 See [@PersistenceAndChange p. 196–7]
 
@@ -91,7 +91,7 @@ See [@ThingsChinese p. 295–6]
 
 See @ChaiMuiPickering:
 
-<span lang="zh">
+<blockquote lang="zh">
 一心
 二好
 三元
@@ -103,7 +103,7 @@ See @ChaiMuiPickering:
 九長
 十全
 對手
-</span>
+</blockquote>
 
 
 ## Strategy

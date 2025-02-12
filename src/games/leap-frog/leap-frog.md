@@ -84,107 +84,261 @@ Points
 <td>
 8×8 (64)
 </td>
-<td class="numeric">6</td>
-<td class="numeric">13</td>
-<td class="numeric">19</td>
-<td class="numeric">26</td>
-<td class="numeric">127</td>
+<td class="numeric">
+6
+</td>
+<td class="numeric">
+13
+</td>
+<td class="numeric">
+19
+</td>
+<td class="numeric">
+26
+</td>
+<td class="numeric">
+127
+</td>
 </tr>
 <tr>
-<td>9×9 (81)</td>
-<td class="numeric">8</td>
-<td class="numeric">16</td>
-<td class="numeric">24</td>
-<td class="numeric">33</td>
-<td class="numeric">161</td>
+<td>
+9×9 (81)
+</td>
+<td class="numeric">
+8
+</td>
+<td class="numeric">
+16
+</td>
+<td class="numeric">
+24
+</td>
+<td class="numeric">
+33
+</td>
+<td class="numeric">
+161
+</td>
 </tr>
 <tr>
-<td>10×10 (100)</td>
-<td class="numeric">10</td>
-<td class="numeric">20</td>
-<td class="numeric">30</td>
-<td class="numeric">40</td>
-<td class="numeric">200</td>
+<td>
+10×10 (100)
+</td>
+<td class="numeric">
+10
+</td>
+<td class="numeric">
+20
+</td>
+<td class="numeric">
+30
+</td>
+<td class="numeric">
+40
+</td>
+<td class="numeric">
+200
+</td>
 </tr>
 <tr>
-<td>11×11 (121)</td>
-<td class="numeric">12</td>
-<td class="numeric">24</td>
-<td class="numeric">36</td>
-<td class="numeric">49</td>
-<td class="numeric">241</td>
+<td>
+11×11 (121)
+</td>
+<td class="numeric">
+12
+</td>
+<td class="numeric">
+24
+</td>
+<td class="numeric">
+36
+</td>
+<td class="numeric">
+49
+</td>
+<td class="numeric">
+241
+</td>
 </tr>
 <tr>
-<td>12×12 (144)</td>
-<td class="numeric">14</td>
-<td class="numeric">29</td>
-<td class="numeric">43</td>
-<td class="numeric">58</td>
-<td class="numeric">287</td>
+<td>
+12×12 (144)
+</td>
+<td class="numeric">
+14
+</td>
+<td class="numeric">
+29
+</td>
+<td class="numeric">
+43
+</td>
+<td class="numeric">
+58
+</td>
+<td class="numeric">
+287
+</td>
 </tr>
 <tr>
-<td>13×13 (169)</td>
-<td class="numeric">17</td>
-<td class="numeric">34</td>
-<td class="numeric">51</td>
-<td class="numeric">67</td>
-<td class="numeric">339</td>
+<td>
+13×13 (169)
+</td>
+<td class="numeric">
+17
+</td>
+<td class="numeric">
+34
+</td>
+<td class="numeric">
+51
+</td>
+<td class="numeric">
+67
+</td>
+<td class="numeric">
+339
+</td>
 </tr>
 <tr>
-<td>14×14 (196)</td>
-<td class="numeric">20</td>
-<td class="numeric">39</td>
-<td class="numeric">59</td>
-<td class="numeric">78</td>
-<td class="numeric">393</td>
+<td>
+14×14 (196)
+</td>
+<td class="numeric">
+20
+</td>
+<td class="numeric">
+39
+</td>
+<td class="numeric">
+59
+</td>
+<td class="numeric">
+78
+</td>
+<td class="numeric">
+393
+</td>
 </tr>
 <tr>
-<td>15×15 (225)</td>
-<td class="numeric">23</td>
-<td class="numeric">45</td>
-<td class="numeric">68</td>
-<td class="numeric">89</td>
-<td class="numeric">452</td>
+<td>
+15×15 (225)
+</td>
+<td class="numeric">
+23
+</td>
+<td class="numeric">
+45
+</td>
+<td class="numeric">
+68
+</td>
+<td class="numeric">
+89
+</td>
+<td class="numeric">
+452
+</td>
 </tr>
 <tr>
-<td>16×16 (256)</td>
-<td class="numeric">26</td>
-<td class="numeric">51</td>
-<td class="numeric">77</td>
-<td class="numeric">102</td>
-<td class="numeric">513</td>
+<td>
+16×16 (256)
+</td>
+<td class="numeric">
+26
+</td>
+<td class="numeric">
+51
+</td>
+<td class="numeric">
+77
+</td>
+<td class="numeric">
+102
+</td>
+<td class="numeric">
+513
+</td>
 </tr>
 <tr>
-<td>17×17 (289)</td>
-<td class="numeric">29</td>
-<td class="numeric">58</td>
-<td class="numeric">87</td>
-<td class="numeric">115</td>
-<td class="numeric">579</td>
+<td>
+17×17 (289)
+</td>
+<td class="numeric">
+29
+</td>
+<td class="numeric">
+58
+</td>
+<td class="numeric">
+87
+</td>
+<td class="numeric">
+115
+</td>
+<td class="numeric">
+579
+</td>
 </tr>
 <tr>
-<td>18×18 (324)</td>
-<td class="numeric">32</td>
-<td class="numeric">65</td>
-<td class="numeric">97</td>
-<td class="numeric">130</td>
-<td class="numeric">647</td>
+<td>
+18×18 (324)
+</td>
+<td class="numeric">
+32
+</td>
+<td class="numeric">
+65
+</td>
+<td class="numeric">
+97
+</td>
+<td class="numeric">
+130
+</td>
+<td class="numeric">
+647
+</td>
 </tr>
 <tr>
-<td>19×19 (361)</td>
-<td class="numeric">36</td>
-<td class="numeric">72</td>
-<td class="numeric">108</td>
-<td class="numeric">145</td>
-<td class="numeric">721</td>
+<td>
+19×19 (361)
+</td>
+<td class="numeric">
+36
+</td>
+<td class="numeric">
+72
+</td>
+<td class="numeric">
+108
+</td>
+<td class="numeric">
+145
+</td>
+<td class="numeric">
+721
+</td>
 </tr>
 <tr>
-<td>20×20 (400)</td>
-<td class="numeric">40</td>
-<td class="numeric">80</td>
-<td class="numeric">120</td>
-<td class="numeric">160</td>
-<td class="numeric">800</td>
+<td>
+20×20 (400)
+</td>
+<td class="numeric">
+40
+</td>
+<td class="numeric">
+80
+</td>
+<td class="numeric">
+120
+</td>
+<td class="numeric">
+160
+</td>
+<td class="numeric">
+800
+</td>
 </tr>
 </tbody>
 </table>

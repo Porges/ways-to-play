@@ -8,6 +8,8 @@ date created: 2025-01-26
 date modified: 2025-02-03
 ---
 
+<span class="aka">Passage</span> is an old dice gambling game for two players.[@CompleatGamester p. 167] In French it was called <span lang="fr" class="aka">passe-dix</span> ‘pass-ten’, similarly in Italian <span lang="it" class="aka">passadiéci</span>,[@QueenAnnaFlorio 360] and in German <span lang="de" class="aka">Paschen</span>. It has also been called ‘<span class="aka">pass-dice</span>’.[@AnnalsOfGaming 45] 
+
 > [!figure]
 >
 > ![A drawing of a man bending over a table and rolling three dice by candlelight. He looks ecstatic.](314D003a.jpg)
@@ -20,9 +22,6 @@ date modified: 2025-02-03
 > ```
 >
 > <span lang="fr">Le Passe Dix</span> (<abbr>c.</abbr> 1797) by Daniel Nikolaus Chodowiecki (here signed ‘Huquier’, the publishing address is also false). The player is probably the button-maker Nicolas Fonvielle.[@AntiquariaatArineVanDerSteur44 p. 38]
-
-
-<span class="aka">Passage</span> is an old dice gambling game for two players.[@CompleatGamester p. 167] In French it was called <span lang="fr" class="aka">passe-dix</span> ‘pass-ten’, similarly in Italian <span lang="it" class="aka">passadiéci</span>,[@QueenAnnaFlorio 360] and in German <span lang="de" class="aka">Paschen</span>. It has also been called <span class="aka">pass-dice</span>.[@AnnalsOfGaming 45] 
 
 > [!todo]
 > 
@@ -57,19 +56,86 @@ The inclusion of the double requirement only serves to heighten the tension of t
 <table>
 <thead>
 <tr>
-<th>Dice</th>
-<th>Pass point</th>
+<th>
+Dice
+</th>
+<th>
+Pass point
+</th>
 </tr>
 </thead>
 <tbody class="numeric">
-<tr><td>1</td><td>2</td></tr>
-<tr><td>2</td><td>7</td></tr>
-<tr><td>3</td><td>10</td></tr>
-<tr><td>4</td><td>14</td></tr>
-<tr><td>5</td><td>17</td></tr>
-<tr><td>6</td><td>21</td></tr>
-<tr><td>7</td><td>24</td></tr>
-<tr><td>8</td><td>28</td></tr>
-<tr><td><math><mi>n</mi></math></td><td><math><mrow><mo>⌊</mo><mfrac><mrow><mn>7</mn><mo>&#x2062;</mo><mi>n</mi></mrow><mn>2</mn></mfrac><mo>⌋</mo></mrow></math></td></tr>
+<tr>
+<td>
+1
+</td>
+<td>
+2
+</td>
+</tr>
+<tr>
+<td>
+2
+</td>
+<td>
+7
+</td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+10
+</td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+14
+</td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td>
+17
+</td>
+</tr>
+<tr>
+<td>
+6
+</td>
+<td>
+21
+</td>
+</tr>
+<tr>
+<td>
+7
+</td>
+<td>
+24
+</td>
+</tr>
+<tr>
+<td>
+8
+</td>
+<td>
+28
+</td>
+</tr>
+<tr>
+<td>
+<math><mi>n</mi></math>
+</td>
+<td>
+<math><mrow><mo>⌊</mo><mfrac><mrow><mn>7</mn><mo>&#x2062;</mo><mi>n</mi></mrow><mn>2</mn></mfrac><mo>⌋</mo></mrow></math>
+</td>
+</tr>
 </tbody>
 </table>

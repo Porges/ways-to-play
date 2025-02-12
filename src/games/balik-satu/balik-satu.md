@@ -45,31 +45,172 @@ Most of the description below is drawn from @ChikiCards [p. 122], with additions
 <table class="numeric">
 <thead>
 <tr>
-<th rowspan="2">Players</th>
+<th rowspan="2">
+Players
+</th>
 <th colspan="3">
 Decks (Cards)
 </th>
 </tr>
 <tr>
-<th>from Pwee</th>
-<th>from <cite>The Babas</cite></th>
-<th>from @ChaquiAndPartui</th>
+<th>
+from Pwee
+</th>
+<th>
+from <cite>The Babas</cite>
+</th>
+<th>
+from @ChaquiAndPartui
+</th>
 </tr>
 </thead>
 <tbody>
-<tr><th scope="row">2</th><td>2½ (150)</td><td>2 (120)</td><td>—</td></tr>
-<tr><th scope="row">3</th><td rowspan="2">3 (180)</td><td>2½ (150)</td><td rowspan="2">2</td></tr>
-<tr><th scope="row">4</th><td>3 (180)</td></tr>
-<tr><th scope="row">5</th><td rowspan="2">3½ (210)</td><td>3½ (210)</td><td rowspan="2">3</td></tr>
-<tr><th scope="row">6</th><td>4 (240)</td></tr>
-<tr><th scope="row">7</th><td rowspan="2">4 (240)</td><td>4½ (270)</td><td rowspan="2">4</td></tr>
-<tr><th scope="row">8</th><td>5 (300)</td></tr>
-<tr><th scope="row">9</th><td rowspan="2">4½ (270)</td><td>5½ (330)</td><td rowspan="2">5</td></tr>
-<tr><th scope="row">10</th><td>6 (360)</td></tr>
-<tr><th scope="row">11</th><td rowspan="2">5 (300)</td><td>6½ (390)</td><td rowspan="2">6</td></tr>
-<tr><th scope="row">12</th><td>7 (420)</td></tr>
-<tr><th scope="row">13</th><td rowspan="2">5½ (330)</td><td>7½ (450)</td><td rowspan="2">7</td></tr>
-<tr><th scope="row">14</th><td>8 (480)</td></tr>
+<tr>
+<th scope="row">
+2
+</th>
+<td>
+2½ (150)
+</td>
+<td>
+2 (120)
+</td>
+<td>
+—
+</td>
+</tr>
+<tr>
+<th scope="row">
+3
+</th>
+<td rowspan="2">
+3 (180)
+</td>
+<td>
+2½ (150)
+</td>
+<td rowspan="2">
+2
+</td>
+</tr>
+<tr>
+<th scope="row">
+4
+</th>
+<td>
+3 (180)
+</td>
+</tr>
+<tr>
+<th scope="row">
+5
+</th>
+<td rowspan="2">
+3½ (210)
+</td>
+<td>
+3½ (210)
+</td>
+<td rowspan="2">
+3
+</td>
+</tr>
+<tr>
+<th scope="row">
+6
+</th>
+<td>
+4 (240)
+</td>
+</tr>
+<tr>
+<th scope="row">
+7
+</th>
+<td rowspan="2">
+4 (240)
+</td>
+<td>
+4½ (270)
+</td>
+<td rowspan="2">
+4
+</td>
+</tr>
+<tr>
+<th scope="row">
+8
+</th>
+<td>
+5 (300)
+</td>
+</tr>
+<tr>
+<th scope="row">
+9
+</th>
+<td rowspan="2">
+4½ (270)
+</td>
+<td>
+5½ (330)
+</td>
+<td rowspan="2">
+5
+</td>
+</tr>
+<tr>
+<th scope="row">
+10
+</th>
+<td>
+6 (360)
+</td>
+</tr>
+<tr>
+<th scope="row">
+11
+</th>
+<td rowspan="2">
+5 (300)
+</td>
+<td>
+6½ (390)
+</td>
+<td rowspan="2">
+6
+</td>
+</tr>
+<tr>
+<th scope="row">
+12
+</th>
+<td>
+7 (420)
+</td>
+</tr>
+<tr>
+<th scope="row">
+13
+</th>
+<td rowspan="2">
+5½ (330)
+</td>
+<td>
+7½ (450)
+</td>
+<td rowspan="2">
+7
+</td>
+</tr>
+<tr>
+<th scope="row">
+14
+</th>
+<td>
+8 (480)
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -307,17 +448,28 @@ A self-drawn win is called <span lang="jv-Latn">rabas</span> ‘clear’. A win 
 **Scoring** is a little different to <span class="noun" lang="ms">Balik Satu</span>, and is done by one of several methods:
 
 <dl>
-<dt><span lang="jv-Latn">undhuh-undhuhan</span> (‘pickings’)</dt>
-<dd>At the beginning of the game a pot is formed with a stake from each player. If a player wins with
-<span lang="jv-Latn">metu</span>, they win one stake from it. If a player wins
-with <span lang="jv-Latn">rabas</span>, they win the entire remaining pot.</dd>
-<dt><span lang="jv-Latn">toh bayaran</span> (‘stake payments’)</dt>
+<dt>
+<span lang="jv-Latn">undhuh-undhuhan</span> (‘pickings’)
+</dt>
+<dd>
+At the beginning of the game a pot is formed with a stake from each player. If a player wins with <span lang="jv-Latn">metu</span>, they win one stake from it. If a player wins with <span lang="jv-Latn">rabas</span>, they win the entire remaining pot.
+</dd>
+<dt>
+<span lang="jv-Latn">toh bayaran</span> (‘stake payments’)
+</dt>
 <dd>
 This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. The winner scores according to the following scheme:
 <ol>
-<li>1 for <span lang="jv-Latn">metu</span>; 2 for <span lang="jv-Latn">metu</span> with a red card, or <span lang="jv-Latn">rabas</span>; or 3 for <span lang="jv-Latn">rabas</span> with a red card,</li>
-<li>an additional 1 for each <span lang="jv-Latn">bak</span> or 2 for each red <span lang="jv-Latn">bak</span> in their hand,</li>
-<li>and then turn over the top card and add its points. Nyonya/Lau Chian/1 Myriads score 10 points, everything else according to rank (White Flower scores 1).</li>
+<li>
+1 for <span lang="jv-Latn">metu</span>; 2 for <span lang="jv-Latn">metu</span> with a red card, or <span lang="jv-Latn">rabas</span>; or 3 for <span lang="jv-Latn">rabas</span> with a red card,
+</li>
+<li>
+an additional 1 for each <span lang="jv-Latn">bak</span> or 2 for each red <span lang="jv-Latn">bak</span> in their hand,
+</li>
+<li>
+and then turn over the top card and add its points. Nyonya/Lau Chian/1 Myriads score 10 points, everything else according to rank (White Flower scores 1).
+</li>
+</ol>
 > [!figure]
 >
 > ![](../../articles/cards/ceki/CRF.jpg)
@@ -332,10 +484,13 @@ This method is very similar to <span class="noun" lang="ms">Balik Satu</span>. T
 > ```
 >
 > These cards are worth 10 points each.
-</ol>
 </dd>
-<dt>alternative <span lang="jv-Latn">toh bayaran</span>, drawing 14 cards</dt>
-<dd>This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jv-Latn">toh bayaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jv-Latn">bak</span> from these cards. For each <span lang="jv-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jv-Latn">bak</span>.</dd>
+<dt>
+alternative <span lang="jv-Latn">toh bayaran</span>, drawing 14 cards
+</dt>
+<dd>
+This method is very similar to <span class="noun" lang="ms">Balik Lima Belas</span>. The winner’s score is calculated according to steps 1 & 2 in <span lang="jv-Latn">toh bayaran</span> but instead of step 3, they draw 14 cards from the stock. They combine these 14 with the 14 cards from their hand (excluding the winning card) and try to form <span lang="jv-Latn">bak</span> from these cards. For each <span lang="jv-Latn">bak</span> they can form, they add 1 point, or 2 for a red <span lang="jv-Latn">bak</span>.
+</dd>
 </dl>
 
 In the 1940s the <span lang="jv-Latn">toh bayaran</span> methods were paid out at 2¢[^fn0] per point from each other player.
@@ -345,12 +500,24 @@ In the 1940s the <span lang="jv-Latn">toh bayaran</span> methods were paid out a
 In Yogyakarta the following bets were used:
 
 <dl>
-<dt><span lang="jv-Latn">bak-bakan</span></dt>
-<dd>This is payment according to the number of <span lang="jv-Latn">bak</span>, i.e. the same as <span lang="jv-Latn">toh bayaran</span>.</dd>
-<dt><span lang="jv-Latn">umbuk</span> (‘piled’)</dt>
-<dd>A pot is formed with a stake from each player. If a player wins with <span lang="jv-Latn">metu</span>, they win half the pot. If a player wins with <span lang="jv-Latn">rabas</span>, they win the entire pot.</dd>
-<dt><span lang="jv-Latn">ceken</span></dt>
-<dd>Ad-hoc bets are made between the players, whoever wins receives the staked amount from the others.</dd>
+<dt>
+<span lang="jv-Latn">bak-bakan</span>
+</dt>
+<dd>
+This is payment according to the number of <span lang="jv-Latn">bak</span>, i.e. the same as <span lang="jv-Latn">toh bayaran</span>.
+</dd>
+<dt>
+<span lang="jv-Latn">umbuk</span> (‘piled’)
+</dt>
+<dd>
+A pot is formed with a stake from each player. If a player wins with <span lang="jv-Latn">metu</span>, they win half the pot. If a player wins with <span lang="jv-Latn">rabas</span>, they win the entire pot.
+</dd>
+<dt>
+<span lang="jv-Latn">ceken</span>
+</dt>
+<dd>
+Ad-hoc bets are made between the players, whoever wins receives the staked amount from the others.
+</dd>
 </dl>
 
 ### <span class="noun aka" lang="jv-Latn">Tantanan</span>

@@ -27,60 +27,132 @@ The special die has eight sides, each marked with the name of a character from t
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Mandarin</th>
-<th>Hokkien</th>
-<th>Older Romanization</th>
+<th>
+Name
+</th>
+<th>
+Mandarin
+</th>
+<th>
+Hokkien
+</th>
+<th>
+Older Romanization
+</th>
 </tr>
 </thead>
     <tbody>
         <tr class="red">
-            <td><span lang="zh">太平</span></td>
-            <td><span class="noun" lang="cmn-Latn">Tài Píng</span></td>
-            <td><span class="noun" lang="nan-Latn">Thài Pêng</span></td>
-            <td>Tai or Thai Peng</td>
+            <td>
+            <span lang="zh">太平</span>
+            </td>
+            <td>
+            <span class="noun" lang="cmn-Latn">Tài Píng</span>
+            </td>
+            <td>
+            <span class="noun" lang="nan-Latn">Thài Pêng</span>
+            </td>
+            <td>
+            Tai or Thai Peng
+            </td>
         </tr>
         <tr class="blue">
-            <td><span lang="zh-Hant">月寶</span>/<span lang="zh-Hans">月宝</span></td>
-            <td><span class="noun" lang="cmn-Latn">Yuè Bǎo</span></td>
-            <td><span class="noun" lang="nan-Latn">Goa̍t Pó</span></td>
-            <td>Yuet Po or Guat Poh</td>
+            <td>
+            <span lang="zh-Hant">月寶</span>/<span lang="zh-Hans">月宝</span>
+            </td>
+            <td>
+            <span class="noun" lang="cmn-Latn">Yuè Bǎo</span>
+            </td>
+            <td>
+            <span class="noun" lang="nan-Latn">Goa̍t Pó</span>
+            </td>
+            <td>
+            Yuet Po or Guat Poh
+            </td>
         </tr>
         <tr class="red">
-            <td><span lang="zh">合同</span></td>
-            <td><span class="noun" lang="cmn-Latn">Hé Tóng</span></td>
-            <td><span class="noun" lang="nan-Latn">Ha̍p Tông</span></td>
-            <td>Hup Thong or Hap Tong</td>
+            <td>
+            <span lang="zh">合同</span>
+            </td>
+            <td>
+            <span class="noun" lang="cmn-Latn">Hé Tóng</span>
+            </td>
+            <td>
+            <span class="noun" lang="nan-Latn">Ha̍p Tông</span>
+            </td>
+            <td>
+            Hup Thong or Hap Tong
+            </td>
         </tr>
         <tr class="blue">
-            <td><span lang="zh">有利</span></td>
-            <td><span class="noun" lang="cmn-Latn">Yǒu Lì</span></td>
-            <td><span class="noun" lang="nan-Latn">Iú Lī</span></td>
-            <td>Yeow Lay or Yu Li</td>
+            <td>
+            <span lang="zh">有利</span>
+            </td>
+            <td>
+            <span class="noun" lang="cmn-Latn">Yǒu Lì</span>
+            </td>
+            <td>
+            <span class="noun" lang="nan-Latn">Iú Lī</span>
+            </td>
+            <td>
+            Yeow Lay or Yu Li
+            </td>
         </tr>
         <tr class="red">
-            <td><span lang="zh">吉品</span></td>
-            <td><span class="noun" lang="cmn-Latn">Jí Pǐn</span></td>
-            <td><span class="noun" lang="nan-Latn">Kiat Phín</span></td>
-            <td>Kat Pang or Kiat Pin</td>
+            <td>
+            <span lang="zh">吉品</span>
+            </td>
+            <td>
+            <span class="noun" lang="cmn-Latn">Jí Pǐn</span>
+            </td>
+            <td>
+            <span class="noun" lang="nan-Latn">Kiat Phín</span>
+            </td>
+            <td>
+            Kat Pang or Kiat Pin
+            </td>
         </tr>
         <tr class="blue">
-            <td><span lang="zh">上招</span></td>
-            <td><span class="noun" lang="cmn-Latn">Shàng Zhāo</span></td>
-            <td><span class="noun" lang="nan-Latn">Siōng Chiau</span></td>
-            <td>Siong Chow or Siang Chiow</td>
+            <td>
+            <span lang="zh">上招</span>
+            </td>
+            <td>
+            <span class="noun" lang="cmn-Latn">Shàng Zhāo</span>
+            </td>
+            <td>
+            <span class="noun" lang="nan-Latn">Siōng Chiau</span>
+            </td>
+            <td>
+            Siong Chow or Siang Chiow
+            </td>
         </tr>
         <tr class="red">
-            <td><span lang="zh">日山</span></td>
-            <td><span class="noun" lang="cmn-Latn">Rì Shān</span></td>
-            <td><span class="noun" lang="nan-Latn">Ji̍t San</span></td>
-            <td>Yat Sun or Jit San</td>
+            <td>
+            <span lang="zh">日山</span>
+            </td>
+            <td>
+            <span class="noun" lang="cmn-Latn">Rì Shān</span>
+            </td>
+            <td>
+            <span class="noun" lang="nan-Latn">Ji̍t San</span>
+            </td>
+            <td>
+            Yat Sun or Jit San
+            </td>
         </tr>
         <tr class="blue">
-            <td><span lang="zh-Hant">音會</span>/<span lang="zh-Hans">音会</span></td>
-            <td><span class="noun" lang="cmn-Latn">Yīn Huì</span></td>
-            <td><span class="noun" lang="nan-Latn">Im Hōe</span></td>
-            <td>Im Huay</td>
+            <td>
+            <span lang="zh-Hant">音會</span>/<span lang="zh-Hans">音会</span>
+            </td>
+            <td>
+            <span class="noun" lang="cmn-Latn">Yīn Huì</span>
+            </td>
+            <td>
+            <span class="noun" lang="nan-Latn">Im Hōe</span>
+            </td>
+            <td>
+            Im Huay
+            </td>
         </tr>
     </tbody>
 </table>
@@ -109,14 +181,30 @@ Each round, the top is spun on a plate[^fn0] and covered with a bowl. While the 
 There are four kinds of bets that can be placed:
 
 <dl>
-<dt>A bet on one result</dt>
-<dd>These bets are placed inside one of the eight cells; if the chosen character comes up then the bet pays out 6&ratio;1. If any other result comes up the bet is lost.</dd>
-<dt>A bet on two results</dt>
-<dd>These bets are placed on the lines dividing the cells; if either of the adjacent characters comes up then the bet pays out 2.8&ratio;1. If any other result comes up the bet is lost. In <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span>’s version, this bet pays 3&ratio;1.</dd>
-<dt>A bet on four results</dt>
-<dd>These bets are placed on the circles between four cells; if any of the four characters comes up then the bet pays out 1&ratio;1. If any other result comes up the bet is lost.</dd>
-<dt>A corner bet</dt>
-<dd>These bets are placed in the quarter-circles in the corner of the board; if the adjacent character comes up then the bet pays out 1&ratio;1. However, the bet is only lost if either of the nearer two cells in the opposite colour comes up; in all other cases the bet remains, and may be taken back by the player. For example, if the player places their bet next to <span lang="zh" class="red">太平</span> at the top-left, it is only lost if <span lang="zh" class="blue">月宝</span> or <span lang="zh" class="blue">上招</span> come out.</dd>
+<dt>
+A bet on one result
+</dt>
+<dd>
+These bets are placed inside one of the eight cells; if the chosen character comes up then the bet pays out 6&ratio;1. If any other result comes up the bet is lost.
+</dd>
+<dt>
+A bet on two results
+</dt>
+<dd>
+These bets are placed on the lines dividing the cells; if either of the adjacent characters comes up then the bet pays out 2.8&ratio;1. If any other result comes up the bet is lost. In <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span>’s version, this bet pays 3&ratio;1.
+</dd>
+<dt>
+A bet on four results
+</dt>
+<dd>
+These bets are placed on the circles between four cells; if any of the four characters comes up then the bet pays out 1&ratio;1. If any other result comes up the bet is lost.
+</dd>
+<dt>
+A corner bet
+</dt>
+<dd>
+These bets are placed in the quarter-circles in the corner of the board; if the adjacent character comes up then the bet pays out 1&ratio;1. However, the bet is only lost if either of the nearer two cells in the opposite colour comes up; in all other cases the bet remains, and may be taken back by the player. For example, if the player places their bet next to <span lang="zh" class="red">太平</span> at the top-left, it is only lost if <span lang="zh" class="blue">月宝</span> or <span lang="zh" class="blue">上招</span> come out.
+</dd>
 </dl>
 
 ## Analysis
@@ -124,12 +212,28 @@ There are four kinds of bets that can be placed:
 The house edges on the bets are as follows:
 
 <dl>
-<dt>A bet on one result</dt>
-<dd>Pays 6&ratio;1, real odds 7&ratio;1. House edge is 12.5%.</dd>
-<dt>A bet on two results</dt>
-<dd>Pays 2.8&ratio;1, real odds 3&ratio;1. House edge is 5%. If it pays 3&ratio;1 as in <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span>’s version, then the bet is fair, which is probably why it was changed!</dd>
-<dt>A bet on four results</dt>
-<dd>Pays 1&ratio;1, which are the fair odds, unusual for a gambling game.</dd>
-<dt>A corner bet</dt>
-<dd>This wins on one option and loses on two, paying 1&ratio;1; the house edge is 12.5%.</dd>
+<dt>
+A bet on one result
+</dt>
+<dd>
+Pays 6&ratio;1, real odds 7&ratio;1. House edge is 12.5%.
+</dd>
+<dt>
+A bet on two results
+</dt>
+<dd>
+Pays 2.8&ratio;1, real odds 3&ratio;1. House edge is 5%. If it pays 3&ratio;1 as in <span class="noun" lang="cmn-Latn-pinyin">Zheng Chaolin</span>’s version, then the bet is fair, which is probably why it was changed!
+</dd>
+<dt>
+A bet on four results
+</dt>
+<dd>
+Pays 1&ratio;1, which are the fair odds, unusual for a gambling game.
+</dd>
+<dt>
+A corner bet
+</dt>
+<dd>
+This wins on one option and loses on two, paying 1&ratio;1; the house edge is 12.5%.
+</dd>
 </dl>

@@ -14,13 +14,21 @@ countries: KR
 <table>
 <thead>
 <tr>
-<th>Group</th><th>Combination</th><th>Description</th>
+<th>
+Group
+</th>
+<th>
+Combination
+</th>
+<th>
+Description
+</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <th rowspan="3" scope="row" class="sideways centered">
-<span lang="ko">광땡</span><br/>
+<span lang="ko">광땡</span>\
 <span lang="ko-Latn">gwang&shy;ttaeng</span>
 </th>
 <td>
@@ -68,7 +76,8 @@ Highest combination in the game; cannot be beaten.
 > originalUrl: "http://www.marcusrichert.com/images/hwatu/"
 > ```
 </td>
-<td></td>
+<td>
+</td>
 </tr>
 <tr>
 <td>
@@ -89,11 +98,13 @@ Highest combination in the game; cannot be beaten.
 > originalUrl: "http://www.marcusrichert.com/images/hwatu/"
 > ```
 </td>
-<td></td>
+<td>
+</td>
 </tr>
 <tr>
 <th rowspan="3" class="sideways centered" scope="row">
-<span lang="ko">땡</span> <span lang="ko-Latn">ttaeng</span>
+<span lang="ko">땡</span>\
+<span lang="ko-Latn">ttaeng</span>
 </th>
 <td>
 > [!figure]
@@ -114,7 +125,8 @@ Highest combination in the game; cannot be beaten.
 > originalUrl: "http://www.marcusrichert.com/images/hwatu/"
 > ```
 </td>
-<td></td>
+<td>
+</td>
 </tr>
 <tr class="table-warning">
 <td colspan="2" class="text-center">
@@ -141,7 +153,8 @@ Highest combination in the game; cannot be beaten.
 > originalUrl: "http://www.marcusrichert.com/images/hwatu/"
 > ```
 </td>
-<td></td>
+<td>
+</td>
 </tr>
 </tbody>
 </table>

@@ -49,34 +49,155 @@ The odds of each outcome are as follows:
 
 <table class="rule-last-col">
 <thead>
-<tr>
-<th rowspan="2">Main</th>
-<th rowspan="2">Nick</th>
-<th rowspan="2">Out</th>
-<th colspan="2">Chance</th>
-<th rowspan="2">Success</th>
-</tr>
-<tr>
-<th>Win</th>
-<th>Loss</th>
-</tr>
+    <tr>
+    <th rowspan="2">
+    Main
+    </th>
+    <th rowspan="2">
+    Nick
+    </th>
+    <th rowspan="2">
+    Out
+    </th>
+    <th colspan="2">
+    Chance
+    </th>
+    <th rowspan="2">
+    Success
+    </th>
+    </tr>
+    <tr>
+    <th>
+    Win
+    </th>
+    <th>
+    Loss
+    </th>
+    </tr>
 </thead>
 <tbody class="numeric">
-<tr><th scope="row">5</th><td>1.85%</td><td>2.78%</td><td>6.36%</td><td>5.68%</td><td>49.24%</td></tr>
-<tr><th scope="row">6</th><td>3.47%</td><td>2.89%</td><td>6.70%</td><td>7.77%</td><td>48.83%</td></tr>
-<tr><th scope="row">7</th><td>5.56%</td><td>2.78%</td><td>6.77%</td><td>9.90%</td><td>49.29%</td></tr>
-<tr><th scope="row">8</th><td>3.47%</td><td>2.89%</td><td>6.70%</td><td>7.77%</td><td>48.83%</td></tr>
-<tr><th scope="row">9</th><td>1.85%</td><td>2.78%</td><td>6.36%</td><td>5.68%</td><td>49.24%</td></tr>
+    <tr>
+        <th scope="row">
+        5
+        </th>
+        <td>
+        1.85%
+        </td>
+        <td>
+        2.78%
+        </td>
+        <td>
+        6.36%
+        </td>
+        <td>
+        5.68%
+        </td>
+        <td>
+        49.24%
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+        6
+        </th>
+        <td>
+        3.47%
+        </td>
+        <td>
+        2.89%
+        </td>
+        <td>
+        6.70%
+        </td>
+        <td>
+        7.77%
+        </td>
+        <td>
+        48.83%
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+        7
+        </th>
+        <td>
+        5.56%
+        </td>
+        <td>
+        2.78%
+        </td>
+        <td>
+        6.77%
+        </td>
+        <td>
+        9.90%
+        </td>
+        <td>
+        49.29%
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+        8
+        </th>
+        <td>
+        3.47%
+        </td>
+        <td>
+        2.89%
+        </td>
+        <td>
+        6.70%
+        </td>
+        <td>
+        7.77%
+        </td>
+        <td>
+        48.83%
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">
+        9
+        </th>
+        <td>
+        1.85%
+        </td>
+        <td>
+        2.78%
+        </td>
+        <td>
+        6.36%
+        </td>
+        <td>
+        5.68%
+        </td>
+        <td>
+        49.24%
+        </td>
+    </tr>
 </tbody>
 <tfoot class="numeric">
-<tr>
-<th scope="row">Overall</th>
-<td>16.20%</td>
-<td>14.12%</td>
-<td>32.88%</td>
-<td>36.80%</td>
-<td>49.08%</td>
-</tr>
+    <tr>
+    <th scope="row">
+    Overall
+    </th>
+    <td>
+    16.20%
+    </td>
+    <td>
+    14.12%
+    </td>
+    <td>
+    32.88%
+    </td>
+    <td>
+    36.80%
+    </td>
+    <td>
+    49.08%
+    </td>
+    </tr>
 </tfoot>
 </table>
 

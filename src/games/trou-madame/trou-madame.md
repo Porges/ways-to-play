@@ -45,63 +45,68 @@ Nine Holes [@Strutt p. 340].
 > noborder: true
 > ```
 >
-> A table-top game of Trou Madame, from @EnigmeJoyeuse [f. 8r].<br/>This depicts the thirteen-hole version of the game, known in Italian as <span lang="it" class="noun">Trúcco</span>.[@FlorioVocabolario]
+> A table-top game of Trou Madame, from @EnigmeJoyeuse [f. 8r].\
+> This depicts the thirteen-hole version of the game, known in Italian as <span lang="it" class="noun">Trúcco</span>.[@FlorioVocabolario]
 
 
 Players at the time were well aware of the double-entendres possible with such a
 name; the text accompanying the image in the book reads:
 
-<div class="multi">
-<blockquote lang="fr"> 
-Voicy comme tu dois ioüer d’adreſſe & d’heur,<br/>
-Il faut mettre au milieu de ce trou, qu’on apelle<br/>
-Trou Madame : autrement tu le perdras contre elle,<br/>
-Le milieu eſt le but, & le poinct de l’honneur.
-</blockquote>
-<p>Here is how you must play with skill and chance,<br/>
-It is necessary to put in the middle of this hole, which one calls<br/>
-Hole Madame: otherwise you will lose to her,<br/>
-The middle is the target, and the point of honour.</p>
-</div>
+> [!multi]
+> 
+> > [!lang] fr
+> >
+> > Voicy comme tu dois ioüer d’adreſſe & d’heur,\
+> > Il faut mettre au milieu de ce trou, qu’on apelle\
+> > Trou Madame : autrement tu le perdras contre elle,\
+> > Le milieu eſt le but, & le poinct de l’honneur.
+>
+> Here is how you must play with skill and chance,\
+> It is necessary to put in the middle of this hole, which one calls\
+> Hole Madame: otherwise you will lose to her,\
+> The middle is the target, and the point of honour.
 
-<div class="multi">
-<blockquote lang="fr">
-L’y mettre n’eſt pas tout : il faut auec vigueur<br/>
-Le pouſſer iuſqu’au fond : Si que la Damoiſelle<br/>
-Confeſſe que tu ſçais enfiler la venelle :<br/>
-Et que le coup eſt bon : l’on ioüe à la rigueur.
-</blockquote>
-<p>Putting it there is not all: you must push it with vigour<br/>
-Until it goes to the bottom: so that the maiden<br/>
-Confesses that you know how to thread the alley:[^fn0]<br/>
-And that the blow is good: one plays with rigour.</p>
-</div>
+> [!multi]
+> 
+> > [!lang] fr
+> >
+> > L’y mettre n’eſt pas tout : il faut auec vigueur\
+> > Le pouſſer iuſqu’au fond : Si que la Damoiſelle\
+> > Confeſſe que tu ſçais enfiler la venelle :\
+> > Et que le coup eſt bon : l’on ioüe à la rigueur.
+>
+> Putting it there is not all: you must push it with vigour\
+> Until it goes to the bottom: so that the maiden\
+> Confesses that you know how to thread the alley:[^fn0]\
+> And that the blow is good: one plays with rigour.
 
 [^fn0]: or the space beside the bed
 
-<div class="multi">
-<blockquote lang="fr">
-Demeurer en chemin, perdre courſe & carriere,<br/>
-Entrer, ſortir ſoudain, retourner en arriere,<br/>
-Sont traicts pour à iamais te faire meſpriſer.
-</blockquote>
-<p>To not make progress, to lose course and quarry,[^fn1]<br/>
-To enter, to leave suddenly, to go back,<br/>
-Are acts to make you despised forever.</p>
-</div>
+> [!multi]
+> 
+> > [!lang] fr
+> >
+> > Demeurer en chemin, perdre courſe & carriere,\
+> > Entrer, ſortir ſoudain, retourner en arriere,\
+> > Sont traicts pour à iamais te faire meſpriſer.
+>
+> To not make progress, to lose course and quarry,[^fn1]\
+> To enter, to leave suddenly, to go back,\
+> Are acts to make you despised forever.
 
 [^fn1]: Both words in their hunting sense; <span lang="fr">carrière</span> and <em>quarry</em> are synonyms in both their rocky and rabbity senses, as they are from the same root.[@DictionnaireHistorique3 251]
 
-<div class="multi">
-<blockquote lang="fr">
-Ioüant, garde toy bien vn trou pour l’autre prendre,<br/>
-Quoy que proches ils ſoient : ce ſeroit te meſprendre,<br/>
-Pour emporter le prix, faut droictement viſer.
-</blockquote>
-<p>Playing, keep well a hole for another to take,<br/>
-However near they are: that would be to mistake you,<br/>
-To win the prize, you must aim rightly.</p>
-</div>
+> [!multi]
+> 
+> > [!lang] fr 
+> > 
+> > Ioüant, garde toy bien vn trou pour l’autre prendre,\
+> > Quoy que proches ils ſoient : ce ſeroit te meſprendre,\
+> > Pour emporter le prix, faut droictement viſer.
+>
+> Playing, keep well a hole for another to take,\
+> However near they are: that would be to mistake you,\
+> To win the prize, you must aim rightly.
 
 Similar Italian games are <span lang="it" class="aka noun">Mirélla</span> (9 balls, 9 holes), <span lang="it" class="aka noun">Rúllo</span>, and <span lang="it" class="aka noun">Trúcco</span> (13 holes).[@FlorioVocabolario]
 

@@ -67,15 +67,24 @@ Firstly, there are special outcomes for rolling quadruples, ‘red’ triples, o
 <table>
 <thead>
 <tr>
-<th>Group</th>
-<th>Roll</th>
-<th>Name</th>
-<th>Translation</th>
-<th>Outcome</th>
+<th>
+Group
+</th>
+<th>
+Roll
+</th>
+<th>
+Name
+</th>
+<th>
+Translation
+</th>
+<th>
+Outcome
+</th>
 </tr>
 </thead>
 <tbody class="table-group-divider">
-
 <tr>
 <th scope="row" rowspan="6">Quads</th>
 <td><Dice type="chinese">4444</Dice></td>

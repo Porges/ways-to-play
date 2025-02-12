@@ -73,14 +73,59 @@ The will is read aloud while the character “Plum” interjects:
 The games listed are:
 
 <dl>
-<dt>In, and In</dt><dd>a dice game: [In and In](games/in-and-in/in-and-in.md)</dd>
-<dt>Gleeke</dt><dd></dd>
-<dt>Priministe</dt><dd></dd>
-<dt>Noddie</dt><dd>a predecessor of cribbage</dd>
-<dt>One and Thirtie</dt><dd></dd>
-<dt>Tickle Mee Quickly</dt><dd>a card game</dd>
-<dt>My Ladies Hole</dt><dd>a card game: [My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)</dd>
-<dt>My Sow Has Pigd</dt><dd>a card game: [My Sow (Has) Pigged](games/my-sow-pigged/my-sow-pigged.md)</dd>
-<dt>Shooe the Mare</dt><dd>a physical game: [Shoe the Mare](games/shoe-the-mare/shoe-the-mare.md)</dd>
-<dt>Blind Man Buffe</dt><dd></dd>
+<dt>
+In, and In
+</dt>
+    <dd>
+    a dice game: [In and In](games/in-and-in/in-and-in.md)
+    </dd>
+<dt>
+Gleeke
+</dt>
+    <dd>
+    </dd>
+<dt>
+Priministe
+</dt>
+    <dd>
+    </dd>
+<dt>
+Noddie
+</dt>
+    <dd>
+    a predecessor of cribbage
+    </dd>
+<dt>
+One and Thirtie
+</dt>
+    <dd></dd>
+<dt>
+Tickle Mee Quickly
+</dt>
+    <dd>
+    a card game
+    </dd>
+<dt>
+My Ladies Hole
+</dt>
+    <dd>
+    a card game: [My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)
+    </dd>
+<dt>
+My Sow Has Pigd
+</dt>
+    <dd>
+    a card game: [My Sow (Has) Pigged](games/my-sow-pigged/my-sow-pigged.md)
+    </dd>
+<dt>
+Shooe the Mare
+</dt>
+    <dd>
+    a physical game: [Shoe the Mare](games/shoe-the-mare/shoe-the-mare.md)
+    </dd>
+<dt>
+Blind Man Buffe
+</dt>
+    <dd>
+    </dd>
 </dl>

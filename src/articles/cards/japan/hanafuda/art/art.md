@@ -405,20 +405,15 @@ Despite this “image problem”, playing <span class="noun" lang="ja-Latn">Hana
 
 [^fn1]: The Japanese word <span lang="ja-Latn">shinshi</span> had originally been coined to translate the English “gentleman”,[@TheEastandtheIdeaofEurope p. 32–8] and was particularly associated with those who enthusiastically embraced Westernization during the <span class="noun" lang="ja-Latn">Meiji</span> period.
 
-<blockquote lang="ja">紳士の資格は？　弄花と蓄妾と負債と奔走。</blockquote>
+> > [!lang] ja
+> >
+> > 紳士の資格は？　弄花と蓄妾と負債と奔走。
 
-> What are the qualifications of a <span lang="ja-Latn">shinshi</span>? Gambling
-> with <span class="noun" lang="ja-Latn">Hanafuda</span>, keeping a mistress, being in debt,
-> and running about.
+> What are the qualifications of a <span lang="ja-Latn">shinshi</span>? Gambling with <span class="noun" lang="ja-Latn">Hanafuda</span>, keeping a mistress, being in debt, and running about.
 
-Another commentator remarked ironically that “if you can’t play skillfully with
-48 flower cards, you can’t be a <span lang="ja-Latn">sōninkan</span> [<span
-lang="ja">奏任官</span>, a type of official appointed by the prime minister]”.
+Another commentator remarked ironically that “if you can’t play skillfully with 48 flower cards, you can’t be a <span lang="ja-Latn">sōninkan</span> [<span lang="ja">奏任官</span>, a type of official appointed by the prime minister]”.
 
-The author and politician [<span class="noun" lang="ja-Latn">Suematsu
-Kenchō</span>](https://en.wikipedia.org/wiki/Suematsu_Kench%C5%8D) (<span
-lang="ja">末松 謙澄</span>) described the attitude at the time in his 1905
-English-language book @FantasyOfFarJapan [p. 176]:
+The author and politician [<span class="noun" lang="ja-Latn">Suematsu Kenchō</span>](https://en.wikipedia.org/wiki/Suematsu_Kench%C5%8D) (<span lang="ja">末松 謙澄</span>) described the attitude at the time in his 1905 English-language book @FantasyOfFarJapan [p. 176]:
 
 > In times gone by no game of cards having any resemblance to gambling was
 > played among the gentry; moral discipline forbade such. Since the introduction
@@ -428,9 +423,7 @@ English-language book @FantasyOfFarJapan [p. 176]:
 > somewhat in a similar way as smoking is done by ladies in European society
 > nowadays.
 
-However, despite his protestation in the book that “I do not care for playing at
-cards, but I know the methods”, he goes on to give a detailed account of the
-gameplay — far more than a casual observer would know!
+However, despite his protestation in the book that “I do not care for playing at cards, but I know the methods”, he goes on to give a detailed account of the gameplay — far more than a casual observer would know!
 
 > [!multi]
 > > [!figure]
@@ -754,18 +747,42 @@ In Korea, an altered ordering is used where the ‘November’ and ‘December�
 [^fn3]: Such as [Tensho](games/tensho/tensho.md).
 
 <ol class="columnar">
-<li>Pine</li>
-<li><strong>Willow</strong></li>
-<li>Cherry</li>
-<li>Wisteria</li>
-<li>Iris</li>
-<li><strong>Paulownia</strong></li>
-<li>Bush Clover</li>
-<li>Miscanthus</li>
-<li>Chrysanthemum</li>
-<li>Maple</li>
-<li><strong>Peony</strong></li>
-<li><strong>Plum</strong></li>
+<li>
+Pine
+</li>
+<li>
+<strong>Willow</strong>
+</li>
+<li>
+Cherry
+</li>
+<li>
+Wisteria
+</li>
+<li>
+Iris
+</li>
+<li>
+<strong>Paulownia</strong>
+</li>
+<li>
+Bush Clover
+</li>
+<li>
+Miscanthus
+</li>
+<li>
+Chrysanthemum
+</li>
+<li>
+Maple
+</li>
+<li>
+<strong>Peony</strong>
+</li>
+<li>
+<strong>Plum</strong>
+</li>
 </ol>
 
 ### <span lang="ja" id="month-1">1月</span>
@@ -987,12 +1004,21 @@ all <span class="noun" lang="ja-Latn">Hanafuda</span> patterns depict red plum b
 (<span lang="ja">紅梅</span> <span lang="ja-Latn">kōbai</span>), which became
 more popular later on:
 
-<div class="multi">
-<p lang="ja" class="vertical-rl">鴬の<br />鳴音はしるき<br />梅の花<br />色まがえとや<br />雪の降るらん</p>
-
-The nightingale’s<br />Song is clear<br />And the white plum blossom<br />Becomes lost<br />In the falling snow.[@PoemsOfTheEchigobana p. 99]
-
-</div>
+> [!multi]
+> 
+> > [!langv] ja
+> >
+> > 鴬の\
+> > 鳴音はしるき\
+> > 梅の花\
+> > 色まがえとや\
+> > 雪の降るらん
+> 
+> The nightingale’s\
+> Song is clear\
+> And the white plum blossom\
+> Becomes lost\
+> In the falling snow.[@PoemsOfTheEchigobana p. 99]
 
 ### <span lang="ja">3月</span>
 
@@ -1352,22 +1378,19 @@ The seventh month is represented by bush clover (<span lang="ja">萩</span> <Pro
 
 Bush clover is also (along with miscanthus, see the next month) considered one of the “seven flowers of autumn” (<span lang="ja">秋の七草</span>), a term which derives from a pair of poems in the <span class="noun" lang="ja-Latn">Man’yōshū</span> (book 8:1537–8):[@TheManyoshu p. 212]
 
-<div class="multi">
-    <p>
-    The flowers that blow<br />
-    In the autumn fields<br />
-    When I count them on my fingers,<br />
-    There they are—<br />
-    The flowers of seven kinds.
-    </p>
-    <p>
-    They are the bush-clover,<br />
-    The ‘tail flower’, the flowers<br />
-    Of the kuzu vine and patrinia,<br />
-    The fringed pink, and the agrimony,<br />
-    And last the blithe ‘morning face’.
-    </p>
-</div>
+> [!multi]
+>
+> The flowers that blow\
+> In the autumn fields\
+> When I count them on my fingers,\
+> There they are—\
+> The flowers of seven kinds.
+>
+> They are the bush-clover,\
+> The ‘tail flower’, the flowers\
+> Of the kuzu vine and patrinia,\
+> The fringed pink, and the agrimony,\
+> And last the blithe ‘morning face’.
 
 The bush clover is referred to in the <span class="noun" lang="ja-Latn">Man’yōshū</span> even
 more than the plum or cherry blossoms.[@ElementsOfJapaneseDesign p. 54]
@@ -1551,12 +1574,13 @@ During the festival, chrysanthemum petals are added to <span lang="ja-Latn">sake
 
 A poem by <span class="noun" lang="ja-Latn">Bashō</span> commemorates the evening of the 9th day of the 9th month, in 1691. He was staying at the temple <span class="noun" lang="ja-Latn">Gichu-ji</span> (<span lang="ja">義仲寺</span>) in a hermitage known as ‘name&shy;less hut’ (<span lang="ja">無名庵</span> <span class="noun" lang="ja-Latn">Mumyō-an</span>), when his disciple <span class="noun" lang="ja-Latn">Kawai Otokuni</span> (<span lang="ja">河合乙州</span>) came to visit him with a gift:
 
-<blockquote>
-<p><span lang="ja">草の戸や日暮てくれし菊の酒</span></p>
-</blockquote>
+> > [!lang] ja
+> >
+> > 草の戸や日暮てくれし菊の酒
 
-> this grass door—<br />dusk arrives with a present<br />of chrysanthemum
-> sake[@GreveSake]
+> this grass door—\
+> dusk arrives with a present\
+> of chrysanthemum sake[@GreveSake]
 
 > [!figure]
 >
@@ -1663,18 +1687,20 @@ lang="ja-Latn">Yoshino</span> was for cherry blossoms in the
 spring.[@FourSeasons loc. 1756] A anonymous poem from the <cite>Kokinshū</cite>
 (V: 283) celebrates the leaves floating on its surface:
 
-<div class="multi">
-<p lang="ja">
-龍田河も<br />
-みぢみだれて<br />
-流るめり<br />
-わたらば錦<br />
-なかやたえなむ
-</p>
-
-Beautiful is the Tatsuta<br />With Autumn’s brightest weaving;<br />If I cross the stream,<br />Alas! the brocade will be rudely rent.[@JapaneseFloralCalendar p. 43]
-
-</div>
+> [!multi]
+>
+> > [!lang] ja
+> >
+> > 龍田河も\
+> > みぢみだれて\
+> > 流るめり\
+> > わたらば錦\
+> > なかやたえなむ
+>
+> Beautiful is the Tatsuta\
+> With Autumn’s brightest weaving;\
+> If I cross the stream,\
+> Alas! the brocade will be rudely rent.[@JapaneseFloralCalendar p. 43]
 
 > [!figure]
 >
@@ -1693,14 +1719,21 @@ lang="ja-Latn">Fujiwara no Ietaka</span> (<span lang="ja">藤原家隆</span>,
 1158–1237), upon the finalization of the poetry collection:[@MakingShinkokinshu
 p. 318]
 
-<div class="multi">
-<p lang="ja" class="vertical-rl">
-したもみぢ<br />かつちる山の<br />ゆふしぐれ<br />ぬれてやひとり<br />鹿のなくらん
-</p>
-<p>
-From the lower branches<br />Maple leaves scatter<br />In Autumn showers on the mountain.<br />Is it because he is wet<br />That the lonely stag is belling?
-</p>
-</div>
+> [!multi]
+>
+> > [!langv] ja
+> >
+> > したもみぢ\
+> > かつちる山の\
+> > ゆふしぐれ\
+> > ぬれてやひとり\
+> > 鹿のなくらん
+>
+> From the lower branches\
+> Maple leaves scatter\
+> In Autumn showers on the mountain.\
+> Is it because he is wet\
+> That the lonely stag is belling?
 
 ### <span lang="ja">11月</span>
 

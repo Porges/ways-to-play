@@ -12,10 +12,22 @@ Under this title, I collect games where bets are placed by players, usually on a
 ## Games
 
 <ul class="columnar">
-<li>[Belangkai](games/belangkai/belangkai.md)</li>
-<li>{% gameref chobo-ichi %}</li>
-<li>[Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md)</li>
-<li>[Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md)</li>
-<li>{% gameref dadu-putar %}</li>
-<li>[Prinola](games/prinola/prinola.md)</li>
+<li>
+[Belangkai](games/belangkai/belangkai.md)
+</li>
+<li>
+{% gameref chobo-ichi %}
+</li>
+<li>
+[Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md)
+</li>
+<li>
+[Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md)
+</li>
+<li>
+{% gameref dadu-putar %}
+</li>
+<li>
+[Prinola](games/prinola/prinola.md)
+</li>
 </ul>

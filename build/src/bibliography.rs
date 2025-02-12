@@ -435,12 +435,12 @@ impl Date {
     pub fn to_iso(&self) -> String {
         match self {
             Date::JustYear(year) | Date::Year { year, .. } | Date::YearSeason { year, .. } => {
-                format!("{year}")
+                format!("{year:04}")
             }
             Date::YearMonth { year, month, .. } => format!("{year}-{month:02}"),
             Date::YearMonthDay {
                 year, month, day, ..
-            } => format!("{year}-{month:02}-{day:02}"),
+            } => format!("{year:04}-{month:02}-{day:02}"),
         }
     }
 

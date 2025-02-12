@@ -271,7 +271,7 @@ impl Templater {
     pub fn article<T: ArticleMetadata + BaseMetadata>(
         &self,
         article: &T,
-        content: Markup,
+        content: &Markup,
         breadcrumbs: &[(&str, Option<&Markup>)],
         children: Option<Markup>,
         prev_next: Option<Markup>,

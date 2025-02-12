@@ -289,7 +289,7 @@ fn render_title(r: &Reference) -> Markup {
 
     let additional_prefix = r.common().language.as_ref().map(|lang| {
             html! {
-                "in " (lang.to_name())
+                "text in " (lang.to_name())
                 meta itemprop="inLanguage" content=(lang.to_639_1().unwrap_or_else(|| lang.to_639_3())) ;
             }
         });

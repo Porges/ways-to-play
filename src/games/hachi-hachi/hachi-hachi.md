@@ -47,10 +47,16 @@ Combinations based upon sets:
 
 <dl>
 
-<dt><span lang="ja-Latn">sanbon</span> &bull; <span lang="ja">三本 (さんぼん)</span> &bull; three-of-a-kind/3</dt>
-<dd>Three cards of the same month.</dd>
+<dt>
+<span lang="ja-Latn">sanbon</span> &bull; <span lang="ja">三本 (さんぼん)</span> &bull; three-of-a-kind/3
+</dt>
+<dd>
+Three cards of the same month.
+</dd>
 
-<dt><span lang="ja-Latn">tate&shy;sanbon</span> &bull; <span lang="ja">立三本 (たてさんぼん)</span> &bull; special three-of-a-kind/3*</dt>
+<dt>
+<span lang="ja-Latn">tate&shy;sanbon</span> &bull; <span lang="ja">立三本 (たてさんぼん)</span> &bull; special three-of-a-kind/3*
+</dt>
 <dd>
 Three cards of the months of Wisteria, Iris, Bush Clover, or the three <span lang="ja-Latn">kasu</span> of Paulownia.
 This is worth more because these months cannot contribute towards the <span lang="ja-Latn">aka-tan</span> or <span lang="ja-Latn">ao-tan</span> <span lang="ja-Latn">dekiyaku</span>, so this form has a higher compensation.[^fn0]
@@ -58,36 +64,50 @@ This is worth more because these months cannot contribute towards the <span lang
 
 [^fn0]: Also written as <span lang="ja">竪三本</span> or <span lang="ja">たて三本</span>.
 
-<dt><span lang="ja-Latn">futa-sanbon</span> &bull; <span lang="ja">二三本 (ふたさんぼん)</span> &bull; two three-of-a-kind/3–3</dt>
+<dt>
+<span lang="ja-Latn">futa-sanbon</span> &bull; <span lang="ja">二三本 (ふたさんぼん)</span> &bull; two three-of-a-kind/3–3
+</dt>
 <dd>
 Two sets of three cards of the same month.[^fn1]
 </dd>
 
 [^fn1]: Also written as <span lang="ja">二三本</span>, <span lang="ja">二タ三本</span>, <span lang="ja">ふた三本</span>, <span lang="ja">双三本</span>.
 
-<dt><span lang="ja-Latn">kuttsuki</span>  &bull; <span lang="ja">喰付 (くっつき)</span> &bull; three pairs/2–2–2</dt>
+<dt>
+<span lang="ja-Latn">kuttsuki</span>  &bull; <span lang="ja">喰付 (くっつき)</span> &bull; three pairs/2–2–2
+</dt>
 <dd>
 Three pairs from three different months.[^fn2]
 </dd>
 
 [^fn2]: Also written as <span lang="ja">食付</span>, <span lang="ja">クツッキ</span>, <span lang="ja">三双</span>, <span lang="ja">相合</span>.
 
-<dt><span lang="ja-Latn">teshi</span> &bull; <span lang="ja">手四 (てし)</span>  &bull; four-of-a-kind/4</dt>
-<dd>All four cards of a single month.</dd>
+<dt>
+<span lang="ja-Latn">teshi</span> &bull; <span lang="ja">手四 (てし)</span>  &bull; four-of-a-kind/4
+</dt>
+<dd>
+All four cards of a single month.
+</dd>
 
-<dt><span lang="ja-Latn">haneken</span> &bull; <span lang="ja">はねけん</span> &bull; 2–2–3</dt>
+<dt>
+<span lang="ja-Latn">haneken</span> &bull; <span lang="ja">はねけん</span> &bull; 2–2–3
+</dt>
 <dd>
 Three cards of one month, and two pairs from two different months.[^alsowritten]
 </dd>
 
-<dt><span lang="ja-Latn">ichi-ni-shi</span> &bull; <span lang="ja">一二四</span> &bull; 1–2–4</dt>
+<dt>
+<span lang="ja-Latn">ichi-ni-shi</span> &bull; <span lang="ja">一二四</span> &bull; 1–2–4
+</dt>
 <dd>
 Four cards of one month, and a pair from another month, along with any other card.[^fn3]
 </dd>
 
 [^fn3]: Also written <span lang="ja">一弐四</span>, <span lang="ja">一にし</span>.
 
-<dt><span lang="ja-Latn">shi-sō</span> &bull; <span lang="ja">四三 (しそう)</span> &bull; 4–3</dt>
+<dt>
+<span lang="ja-Latn">shi-sō</span> &bull; <span lang="ja">四三 (しそう)</span> &bull; 4–3
+</dt>
 <dd>
 All four cards of the same month, and three cards of another month.[^fn4]
 </dd>
@@ -102,33 +122,45 @@ Combinations based upon <span lang="ja-Latn">kasu</span> cards. Remember that al
 
 <dl>
 
-<dt><span lang="ja-Latn">aka</span> &bull; <span lang="ja">赤 (あか)</span> &bull; ‘red’</dt>
+<dt>
+<span lang="ja-Latn">aka</span> &bull; <span lang="ja">赤 (あか)</span> &bull; ‘red’
+</dt>
 <dd>
 At least two ribbon cards (despite the name, the colour does not matter), and the rest <span lang="ja-Latn">kasu</span>. Note that this should not be confused with the <span lang="ja-Latn">aka-tan dekiyaku</span>.[^fn5]
 </dd>
 
 [^fn5]: Also written <span lang="ja">アカ</span>.
 
-<dt><span lang="ja-Latn">tan-ichi</span> &bull; <span lang="ja">短一</span> &bull; one ribbon</dt>
+<dt>
+<span lang="ja-Latn">tan-ichi</span> &bull; <span lang="ja">短一</span> &bull; one ribbon
+</dt>
 <dd>
 Only one ribbon card, and the rest <span lang="ja-Latn">kasu</span>.[^fn6]
 </dd>
 
 [^fn6]: Also written <span lang="ja">丹一</span>, <span lang="ja">タン一</span>, <span lang="ja">丹・1</span>.
 
-<dt><span lang="ja-Latn">tō-ichi</span> &bull; <span lang="ja">十一</span> &bull; one ten</dt>
-<dd>Only one ten-point card, and the rest <span lang="ja-Latn">kasu</span>.[^fn7]</dd>
+<dt>
+<span lang="ja-Latn">tō-ichi</span> &bull; <span lang="ja">十一</span> &bull; one ten
+</dt>
+<dd>
+Only one ten-point card, and the rest <span lang="ja-Latn">kasu</span>.[^fn7]
+</dd>
 
 [^fn7]: Have seen this written as <span lang="ja">10・一</span>.
 
-<dt><span lang="ja-Latn">pika-ichi</span> &bull; <span lang="ja">光一</span> &bull; one bright</dt>
+<dt>
+<span lang="ja-Latn">pika-ichi</span> &bull; <span lang="ja">光一</span> &bull; one bright
+</dt>
 <dd>
 Only one bright card, and the rest <span lang="ja-Latn">kasu</span>.[^fn8]
 </dd>
 
 [^fn8]: Also written <span lang="ja">ひかり一</span>, <span lang="ja">ガチャ</span>, <span lang="ja">がちや</span>, <span lang="ja">ピカ・1</span>.
 
-<dt><span lang="ja-Latn">karasu</span> &bull; <span lang="ja">カラス (からす)</span> &bull; all <span lang="ja-Latn">kasu</span></dt>
+<dt>
+<span lang="ja-Latn">karasu</span> &bull; <span lang="ja">カラス (からす)</span> &bull; all <span lang="ja-Latn">kasu</span>
+</dt>
 <dd>
 A hand consisting of only <span lang="ja-Latn">kasu</span> cards.[^fn9]
 </dd>
@@ -161,121 +193,379 @@ Thus, the highest-scoring hand possible has both <span lang="ja-Latn">shi&shy;s�
 The overall number of possible hands with combinations from each set of <span lang="ja-Latn">te&shy;yaku</span> are as follows. Each cell indicates the number of possible hands which contain both the given ‘set’ and <span lang="ja-Latn">‘kasu’ yaku</span>, as well as the overall probability (many entries round to zero). By inverting the probability of the top-left entry, we can see that a <span lang="ja-Latn">te&shy;yaku</span> is expected in about 1-in-4 dealt hands.
 
 <table class="table numeric table-sm small rule-first-col rule-last-col">
-<caption>Counts and probabilities of possible <span lang="ja-Latn">te&shy;yaku</span> combinations.</caption>
+<caption>
+Counts and probabilities of possible <span lang="ja-Latn">te&shy;yaku</span> combinations.
+</caption>
 <thead class="table-light">
 <tr>
 <th/>
-<th>No <span lang="ja-Latn">kasu yaku</span></th>
-<th><span lang="ja-Latn">Aka</span><br/>ribbons & <span lang="ja-Latn">kasu</span></th>
-<th><span lang="ja-Latn">Tan-ichi</span><br/>ribbon & <span lang="ja-Latn">kasu</span></th>
-<th><span lang="ja-Latn">Tō-ichi</span><br/>10-pt & <span lang="ja-Latn">kasu</span></th>
-<th><span lang="ja-Latn">Pika-ichi</span><br/>Bright & <span lang="ja-Latn">kasu</span></th>
-<th><span lang="ja-Latn">Karasu</span><br/>all <span lang="ja-Latn">kasu</span></th>
-<th>Total</th>
+<th>
+No <span lang="ja-Latn">kasu yaku</span>
+</th>
+<th>
+<span lang="ja-Latn">Aka</span>\
+ribbons & <span lang="ja-Latn">kasu</span>
+</th>
+<th>
+<span lang="ja-Latn">Tan-ichi</span>\
+ribbon & <span lang="ja-Latn">kasu</span>
+</th>
+<th>
+<span lang="ja-Latn">Tō-ichi</span>\
+10-pt & <span lang="ja-Latn">kasu</span>
+</th>
+<th>
+<span lang="ja-Latn">Pika-ichi</span>\
+Bright & <span lang="ja-Latn">kasu</span>
+</th>
+<th>
+<span lang="ja-Latn">Karasu</span>\
+all <span lang="ja-Latn">kasu</span>
+</th>
+<th>
+Total
+</th>
 </tr>
 </thead>
 <tbody class="table-group-divider">
 <tr>
-<th scope="row" class="table-light">No set <span lang="ja-Latn">yaku</span></th>
-<td>54&#x202f;461&#x202f;388<br/>(73.97%)</td>
-<td>4&#x202f;384&#x202f;404<br/>(5.95%)</td>
-<td>2&#x202f;414&#x202f;232<br/>(3.28%)</td>
-<td>2&#x202f;145&#x202f;984<br/>(2.91%)</td>
-<td>1&#x202f;053&#x202f;432<br/>(1.43%)</td>
-<td>826&#x202f;704<br/>(1.12%)</td>
-<td class="table-light">65&#x202f;286&#x202f;144<br/>(88.67%)</td>
+<th scope="row" class="table-light">
+No set <span lang="ja-Latn">yaku</span>
+</th>
+<td>
+54&#x202f;461&#x202f;388\
+(73.97%)
+</td>
+<td>
+4&#x202f;384&#x202f;404\
+(5.95%)
+</td>
+<td>
+2&#x202f;414&#x202f;232\
+(3.28%)
+</td>
+<td>
+2&#x202f;145&#x202f;984\
+(2.91%)
+</td>
+<td>
+1&#x202f;053&#x202f;432\
+(1.43%)
+</td>
+<td>
+826&#x202f;704\
+(1.12%)
+</td>
+<td class="table-light">
+65&#x202f;286&#x202f;144\
+(88.67%)
+</td>
 </tr>
 <tr>
-<th scope="row" class="table-light"><span lang="ja-Latn">Sanbon</span> <br/> 3</th>
-<td>4&#x202f;025&#x202f;772<br/>(5.47%)</td>
-<td>209&#x202f;436<br/>(0.28%)</td>
-<td>136&#x202f;548<br/>(0.19%)</td>
-<td>117&#x202f;240<br/>(0.16%)</td>
-<td>95&#x202f;964<br/>(0.13%)</td>
-<td>35&#x202f;040<br/>(0.05%)</td>
-<td class="table-light">4&#x202f;620&#x202f;000<br/>(6.27%)</td>
+<th scope="row" class="table-light">
+<span lang="ja-Latn">Sanbon</span>\
+ 3
+</th>
+<td>
+4&#x202f;025&#x202f;772\
+(5.47%)
+</td>
+<td>
+209&#x202f;436\
+(0.28%)
+</td>
+<td>
+136&#x202f;548\
+(0.19%)
+</td>
+<td>
+117&#x202f;240\
+(0.16%)
+</td>
+<td>
+95&#x202f;964\
+(0.13%)
+</td>
+<td>
+35&#x202f;040\
+(0.05%)
+</td>
+<td class="table-light">
+4&#x202f;620&#x202f;000\
+(6.27%)
+</td>
 </tr>
 <tr>
-<th scope="row" class="table-light"><span lang="ja-Latn">Tate&shy;sanbon</span> <br/> 3*</th>
-<td>1&#x202f;497&#x202f;072<br/>(2.03%)</td>
-<td>94&#x202f;680<br/>(0.13%)</td>
-<td>54&#x202f;936<br/>(0.07%)</td>
-<td>52&#x202f;968<br/>(0.07%)</td>
-<td>5&#x202f;904<br/>(0.01%)</td>
-<td>10&#x202f;440<br/>(0.01%)</td>
-<td class="table-light">1&#x202f;716&#x202f;000<br/>(2.33%)</td>
+<th scope="row" class="table-light">
+<span lang="ja-Latn">Tate&shy;sanbon</span>\
+3*
+</th>
+<td>
+1&#x202f;497&#x202f;072\
+(2.03%)
+</td>
+<td>
+94&#x202f;680\
+(0.13%)
+</td>
+<td>
+54&#x202f;936\
+(0.07%)
+</td>
+<td>
+52&#x202f;968\
+(0.07%)
+</td>
+<td>
+5&#x202f;904\
+(0.01%)
+</td>
+<td>
+10&#x202f;440\
+(0.01%)
+</td>
+<td class="table-light">
+1&#x202f;716&#x202f;000\
+(2.33%)
+</td>
 </tr>
 <tr>
-<th scope="row" class="table-light"><span lang="ja-Latn">Futa&shy;sanbon</span> <br/> 3–3</th>
-<td>38&#x202f;280<br/>(0.05%)</td>
-<td>1&#x202f;440<br/>(0.00%)</td>
-<td>990<br/>(0.00%)</td>
-<td>880<br/>(0.00%)</td>
-<td>570<br/>(0.00%)</td>
-<td>80<br/>(0.00%)</td>
-<td class="table-light">42&#x202f;240<br/>(0.06%)</td>
+<th scope="row" class="table-light">
+<span lang="ja-Latn">Futa&shy;sanbon</span>\
+3–3
+</th>
+<td>
+38&#x202f;280\
+(0.05%)
+</td>
+<td>
+1&#x202f;440\
+(0.00%)
+</td>
+<td>
+990\
+(0.00%)
+</td>
+<td>
+880\
+(0.00%)
+</td>
+<td>
+570\
+(0.00%)
+</td>
+<td>
+80\
+(0.00%)
+</td>
+<td class="table-light">
+42&#x202f;240\
+(0.06%)
+</td>
 </tr>
 <tr>
-<th scope="row" class="table-light"><span lang="ja-Latn">Kuttsuki</span> <br/> 2–2–2</th>
-<td>1&#x202f;473&#x202f;048<br/>(2.00%)</td>
-<td>100&#x202f;512<br/>(0.14%)</td>
-<td>52&#x202f;758<br/>(0.07%)</td>
-<td>46&#x202f;896<br/>(0.06%)</td>
-<td>23&#x202f;916<br/>(0.03%)</td>
-<td>13&#x202f;590<br/>(0.02%)</td>
-<td class="table-light">1&#x202f;710&#x202f;720<br/>(2.32%)</td>
+<th scope="row" class="table-light">
+<span lang="ja-Latn">Kuttsuki</span>\
+2–2–2
+</th>
+<td>
+1&#x202f;473&#x202f;048\
+(2.00%)
+</td>
+<td>
+100&#x202f;512\
+(0.14%)
+</td>
+<td>
+52&#x202f;758\
+(0.07%)
+</td>
+<td>
+46&#x202f;896\
+(0.06%)
+</td>
+<td>
+23&#x202f;916\
+(0.03%)
+</td>
+<td>
+13&#x202f;590\
+(0.02%)
+</td>
+<td class="table-light">
+1&#x202f;710&#x202f;720\
+(2.32%)
+</td>
 </tr>
 <tr>
-<th scope="row" class="table-light"><span lang="ja-Latn">Teshi</span> <br/> 4</th>
-<td>118&#x202f;632<br/>(0.16%)</td>
-<td>768<br/>(0.00%)</td>
-<td>1&#x202f;782<br/>(0.00%)</td>
-<td>1&#x202f;584<br/>(0.00%)</td>
-<td>2&#x202f;454<br/>(0.00%)</td>
-<td>1&#x202f;500<br/>(0.00%)</td>
-<td class="table-light">126&#x202f;720<br/>(0.17%)</td>
+<th scope="row" class="table-light">
+<span lang="ja-Latn">Teshi</span>\
+4
+</th>
+<td>
+118&#x202f;632\
+(0.16%)
+</td>
+<td>
+768\
+(0.00%)
+</td>
+<td>
+1&#x202f;782\
+(0.00%)
+</td>
+<td>
+1&#x202f;584\
+(0.00%)
+</td>
+<td>
+2&#x202f;454\
+(0.00%)
+</td>
+<td>
+1&#x202f;500\
+(0.00%)
+</td>
+<td class="table-light">
+126&#x202f;720\
+(0.17%)
+</td>
 </tr>
 <tr>
-<th scope="row" class="table-light"><span lang="ja-Latn">Haneken</span> <br/> 2-2–3</th>
-<td>84&#x202f;804<br/>(0.12%)</td>
-<td>4&#x202f;176<br/>(0.01%)</td>
-<td>2&#x202f;349<br/>(0.00%)</td>
-<td>2&#x202f;088<br/>(0.00%)</td>
-<td>1&#x202f;218<br/>(0.00%)</td>
-<td>405<br/>(0.00%)</td>
-<td class="table-light">95&#x202f;040<br/>(0.13%)</td>
+<th scope="row" class="table-light">
+<span lang="ja-Latn">Haneken</span>\
+2–2–3
+</th>
+<td>
+84&#x202f;804\
+(0.12%)
+</td>
+<td>
+4&#x202f;176\
+(0.01%)
+</td>
+<td>
+2&#x202f;349\
+(0.00%)
+</td>
+<td>
+2&#x202f;088\
+(0.00%)
+</td>
+<td>
+1&#x202f;218\
+(0.00%)
+</td>
+<td>
+405\
+(0.00%)
+</td>
+<td class="table-light">
+95&#x202f;040\
+(0.13%)
+</td>
 </tr>
 <tr>
-<th scope="row" class="table-light"><span lang="ja-Latn">Ichi-ni-shi</span> <br/> 1–2–4</th>
-<td>29&#x202f;776<br/>(0.04%)</td>
-<td>144<br/>(0.00%)</td>
-<td>486<br/>(0.00%)</td>
-<td>432<br/>(0.00%)</td>
-<td>572<br/>(0.00%)</td>
-<td>270<br/>(0.00%)</td>
-<td class="table-light">31&#x202f;680<br/>(0.04%)</td>
+<th scope="row" class="table-light">
+<span lang="ja-Latn">Ichi-ni-shi</span>\
+1–2–4
+</th>
+<td>
+29&#x202f;776\
+(0.04%)
+</td>
+<td>
+144\
+(0.00%)
+</td>
+<td>
+486\
+(0.00%)
+</td>
+<td>
+432\
+(0.00%)
+</td>
+<td>
+572\
+(0.00%)
+</td>
+<td>
+270\
+(0.00%)
+</td>
+<td class="table-light">
+31&#x202f;680\
+(0.04%)
+</td>
 </tr>
 <tr>
-<th scope="row" class="table-light"><span lang="ja-Latn">Shisō</span> <br/> 4–3</th>
-<td>500<br/>(0.00%)</td>
-<td>0<br/>(impossible)</td>
-<td>9<br/>(0.00%)</td>
-<td>8<br/>(0.00%)</td>
-<td>10<br/>(0.00%)</td>
-<td>1<br/>(0.00%)</td>
-<td class="table-light">528<br/>(0.00%)</td>
+<th scope="row" class="table-light">
+<span lang="ja-Latn">Shisō</span>\
+4–3
+</th>
+<td>
+500\
+(0.00%)
+</td>
+<td>
+0\
+(—)
+</td>
+<td>
+9\
+(0.00%)
+</td>
+<td>
+8\
+(0.00%)
+</td>
+<td>
+10\
+(0.00%)
+</td>
+<td>
+1\
+(0.00%)
+</td>
+<td class="table-light">
+528\
+(0.00%)
+</td>
 </tr>
 </tbody>
 <tfoot class="table-light table-group-divider">
 <tr>
-<th scope="row">Total</th>
-<td>61&#x202f;729&#x202f;272<br/>(83.84%)</td>
-<td>4&#x202f;795&#x202f;560<br/>(6.51%)</td>
-<td>2&#x202f;664&#x202f;090<br/>(3.62%)</td>
-<td>2&#x202f;368&#x202f;080<br/>(3.22%)</td>
-<td>1&#x202f;184&#x202f;040<br/>(1.61%)</td>
-<td>888&#x202f;030<br/>(1.21%)</td>
-<td class="table-secondary">73&#x202f;629&#x202f;072</td>
+<th scope="row">
+Total
+</th>
+<td>
+61&#x202f;729&#x202f;272\
+(83.84%)
+</td>
+<td>
+4&#x202f;795&#x202f;560\
+(6.51%)
+</td>
+<td>
+2&#x202f;664&#x202f;090\
+(3.62%)
+</td>
+<td>
+2&#x202f;368&#x202f;080\
+(3.22%)
+</td>
+<td>
+1&#x202f;184&#x202f;040\
+(1.61%)
+</td>
+<td>
+888&#x202f;030\
+(1.21%)
+</td>
+<td class="table-secondary">
+73&#x202f;629&#x202f;072
+</td>
 </tr>
 </tfoot>
 </table>
@@ -288,18 +578,33 @@ The number of <span lang="ja-Latn">deki&shy;yaku</span> is much smaller than the
 The basic set of <span lang="ja-Latn">deki&shy;yaku</span> is:
 
 <dl>
-<dt><span lang="ja-Latn">aka-tan</span> &bull; <span lang="ja">赤短 (あかたん)</span> &bull; red ribbons</dt>
-<dd>All three red <span lang="ja-Latn">tanzaku</span> with writing.</dd>
+<dt>
+<span lang="ja-Latn">aka-tan</span> &bull; <span lang="ja">赤短 (あかたん)</span> &bull; red ribbons
+</dt>
+<dd>
+All three red <span lang="ja-Latn">tanzaku</span> with writing.
+</dd>
 
-<dt><span lang="ja-Latn">ao-tan</span> &bull; <span lang="ja">青短 (あおたん)</span> &bull; blue ribbons</dt>
-<dd>All three blue <span lang="ja-Latn">tanzaku</span> (all of which have writing).</dd>
+<dt>
+<span lang="ja-Latn">ao-tan</span> &bull; <span lang="ja">青短 (あおたん)</span> &bull; blue ribbons
+</dt>
+<dd>
+All three blue <span lang="ja-Latn">tanzaku</span> (all of which have writing).
+</dd>
 
-<dt><span lang="ja-Latn">shi-kō</span> &bull; <span lang="ja">四光 (しこう)</span> &bull; four brights</dt>
-<dd>The four Bright cards (excluding the rain man).</dd>
+<dt>
+<span lang="ja-Latn">shi-kō</span> &bull; <span lang="ja">四光 (しこう)</span> &bull; four brights
+</dt>
+<dd>
+The four Bright cards (excluding the rain man).
+</dd>
 
-<dt><span lang="ja-Latn">go-kō</span> &bull; <span lang="ja">五光 (ごこう)</span> &bull; five brights</dt>
-<dd>All five Bright cards.</dd>
-
+<dt>
+<span lang="ja-Latn">go-kō</span> &bull; <span lang="ja">五光 (ごこう)</span> &bull; five brights
+</dt>
+<dd>
+All five Bright cards.
+</dd>
 </dl>
 
 ## The <span lang="ja-Latn">Yaku</span> in Depth
@@ -335,8 +640,9 @@ The <span lang="ja-Latn">yaku</span> can also be called <span lang="ja-Latn">yor
 > license: 'cc0' 
 > ```
 >
-> The ‘<span class="noun" lang="ja-Latn">Kuruma&shy;hiki</span>’ (<span lang="ja">車引き</span>, carriage-pulling) scene from <cite>Sugawara and the Secrets of Calligraphy</cite>.<br/>The three brothers can be seen at front wearing clothes bearing the plants: cherry blossoms, plum blossoms, and pine trees.<br/>An 1841 print by <span class="noun" lang="ja-Latn">[Utagawa Kunisada](https://en.wikipedia.org/wiki/Kunisada)</span> (<span lang="ja">歌川国貞</span>).
-
+> The ‘<span class="noun" lang="ja-Latn">Kuruma&shy;hiki</span>’ (<span lang="ja">車引き</span>, carriage-pulling) scene from <cite>Sugawara and the Secrets of Calligraphy</cite>.\
+> The three brothers can be seen at front wearing clothes bearing the plants: cherry blossoms, plum blossoms, and pine trees.\
+> An 1841 print by <span class="noun" lang="ja-Latn">[Utagawa Kunisada](https://en.wikipedia.org/wiki/Kunisada)</span> (<span lang="ja">歌川国貞</span>).
 
 ## Equipment
 

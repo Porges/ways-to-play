@@ -15,7 +15,7 @@ date created: 2024-12-22
 date modified: 2024-12-22
 ---
 
-<span class="noun aka" lang="th-Latn">Pai Tong</span> (<span lang="th" class="aka">ไพ่ตอง</span>, ‘<span lang="th-Latn">tong</span> cards’) is a draw-and-discard card game from Thailand, played with Thai money cards. It is also known as <span class="noun" lang="th-Latn" class="aka">Pai Phong (Thai)</span> (<span lang="th" class="aka">ไพ่ผ่อง(ไทย)</span>) or <span class="noun" lang="th-Latn" class="aka">Pai Chot</span> (<span lang="th" class="aka">ไพ่จอด</span>).[@ThaiGambling 71–6] Very similar games are also played in Kelantan in Malaysia.
+<span class="noun aka" lang="th-Latn">Pai Tong</span> (<span lang="th" class="aka">ไพ่ตอง</span>, ‘<span lang="th-Latn">tong</span> cards’) is a draw-and-discard card game from Thailand, played with Thai money cards. It is also known as <span class="noun aka" lang="th-Latn">Pai Phong (Thai)</span> (<span lang="th" class="aka">ไพ่ผ่อง(ไทย)</span>) or <span class="noun aka" lang="th-Latn">Pai Chot</span> (<span lang="th" class="aka">ไพ่จอด</span>).[@ThaiGambling 71–6] Very similar games are also played in Kelantan in Malaysia.
 
 > [!aside]
 >
@@ -101,21 +101,12 @@ The game is also played in Malaysia under the name <span class="noun aka" lang="
 
 In Malaysia it is only played with four players.
 
-To play with Mahjong tiles, use 120 tiles: all of the suited (circle, bamboo,
-character) tiles, as well as the honour (“dragon”) tiles, but no winds or
-flowers.
+To play with Mahjong tiles, use 120 tiles: all of the suited (circle, bamboo, character) tiles, as well as the honour (“dragon”) tiles, but no winds or flowers.
 
-To deal, build them into four walls of 30 tiles (15 long × 2 high), then draw
-the tiles one at a time from the wall in a clockwise direction, as in Mahjong.
+To deal, build them into four walls of 30 tiles (15 long × 2 high), then draw the tiles one at a time from the wall in a clockwise direction, as in Mahjong.
 
 Play and win as in the Thai game.
 
-A set of three identical cards or tiles is again called a <span lang="ms">tong</span>,
-a set of three mixed tiles is called a <span lang="ms">tong serong</span>
-(“crooked <span lang="ms">tong</span>”).
+A set of three identical cards or tiles is again called a <span lang="ms">tong</span>, a set of three mixed tiles is called a <span lang="ms">tong serong</span> (“crooked <span lang="ms">tong</span>”).
 
-The winning player scores 2 points + 1 point for each pure <span
-lang="ms">tong</span> they have in their hand. Thus, the scores range from only
-2 points for a hand containing four <span lang="ms">tong serong</span>, up to 6
-points for a hand containing four <span lang="ms">tong</span>. Payment may be
-collected from the other players on the basis of some fixed amount per point.
+The winning player scores 2 points + 1 point for each pure <span lang="ms">tong</span> they have in their hand. Thus, the scores range from only 2 points for a hand containing four <span lang="ms">tong serong</span>, up to 6 points for a hand containing four <span lang="ms">tong</span>. Payment may be collected from the other players on the basis of some fixed amount per point.

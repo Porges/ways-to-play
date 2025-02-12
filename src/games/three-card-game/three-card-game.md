@@ -121,72 +121,150 @@ The hand totals are counted with special gambling-specific numbers. Some of thes
 <table>
 <thead>
 <tr>
-<th>Total</th>
-<th>Standard</th>
-<th>Gambling</th>
-<th>Meaning</th>
+<th>
+Total
+</th>
+<th>
+Standard
+</th>
+<th>
+Gambling
+</th>
+<th>
+Meaning
+</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0 <span lang="ja">〇</span></td>
-<td><span lang="ja-Latn">rei</span></td>
-<td><span lang="ja-Latn">buta</span></td>
-<td>‘pig’</td>
+  <td>
+  0 <span lang="ja">〇</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">rei</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">buta</span>
+  </td>
+  <td>
+  ‘pig’
+  </td>
 </tr>
 <tr>
-<td>1 <span lang="ja">一</span></td>
-<td><span lang="ja-Latn">ichi</span></td>
-<td><span lang="ja-Latn">pin</span></td>
-<td>From Portuguese <span lang="pt">pinta</span>, ‘spot’</td>
+  <td>
+  1 <span lang="ja">一</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">ichi</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">pin</span>
+  </td>
+  <td>
+  From Portuguese <span lang="pt">pinta</span>, ‘spot’
+  </td>
 </tr>
 <tr>
-<td>2 <span lang="ja">二</span></td>
-<td><span lang="ja-Latn">ni</span></td>
-<td><span lang="ja-Latn">nizō</span></td>
-<td />
+  <td>
+  2 <span lang="ja">二</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">ni</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">nizō</span>
+  </td>
+  <td />
 </tr>
 <tr>
-<td>3 <span lang="ja">三</span></td>
-<td><span lang="ja-Latn">san</span></td>
-<td><span lang="ja-Latn">santa/sanzun</span></td>
-<td />
+  <td>
+  3 <span lang="ja">三</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">san</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">santa/sanzun</span>
+  </td>
+  <td />
 </tr>
 <tr>
-<td>4 <span lang="ja">四</span></td>
-<td><span lang="ja-Latn">shi/yon</span></td>
-<td><span lang="ja-Latn">yotsuya</span></td>
-<td>‘set of four arrows’</td>
+  <td>
+  4 <span lang="ja">四</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">shi/yon</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">yotsuya</span>
+  </td>
+  <td>
+  ‘set of four arrows’
+  </td>
 </tr>
 <tr>
-<td>5 <span lang="ja">五</span></td>
-<td><span lang="ja-Latn">go</span></td>
-<td><span lang="ja-Latn">goke/gosu</span></td>
-<td />
+  <td>
+  5 <span lang="ja">五</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">go</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">goke/gosu</span>
+  </td>
+  <td />
 </tr>
 <tr>
-<td>6 <span lang="ja">六</span></td>
-<td><span lang="ja-Latn">roku</span></td>
-<td><span lang="ja-Latn">roppō</span></td>
-<td />
+  <td>
+  6 <span lang="ja">六</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">roku</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">roppō</span>
+  </td>
+  <td />
 </tr>
 <tr>
-<td>7 <span lang="ja">七</span></td>
-<td><span lang="ja-Latn">nana/shichi</span></td>
-<td><span lang="ja-Latn">naki/shichiken</span></td>
-<td />
+  <td>
+  7 <span lang="ja">七</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">nana/shichi</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">naki/shichiken</span>
+  </td>
+  <td />
 </tr>
 <tr>
-<td>8 <span lang="ja">八</span></td>
-<td><span lang="ja-Latn">hachi</span></td>
-<td><span lang="ja-Latn">oicho</span></td>
-<td>From Portuguese <span lang="pt">oito</span>, ‘eight’</td>
+  <td>
+  8 <span lang="ja">八</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">hachi</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">oicho</span>
+  </td>
+  <td>
+  From Portuguese <span lang="pt">oito</span>, ‘eight’
+  </td>
 </tr>
 <tr>
-<td>9 <span lang="ja">九</span></td>
-<td><span lang="ja-Latn">kyū</span></td>
-<td><span lang="ja-Latn">kabu</span></td>
-<td>From Portuguese <span lang="pt">cabo</span>, ‘end’.</td>
+  <td>
+  9 <span lang="ja">九</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">kyū</span>
+  </td>
+  <td>
+  <span lang="ja-Latn">kabu</span>
+  </td>
+  <td>
+  From Portuguese <span lang="pt">cabo</span>, ‘end’.
+  </td>
 </tr>
 </tbody>
 </table>
@@ -258,48 +336,111 @@ Play with the <Cards>A–⑩</Cards> from a standard deck of cards. You will als
 <table class="numeric">
 <thead>
 <tr>
-<th>Players</th>
-<th>1 pt<br />(White)</th>
-<th>5 pt<br />(Red)</th>
-<th>10 pt<br />(Blue)</th>
-<th>Total Points</th>
+<th>
+Players
+</th>
+<th>
+1 pt\
+(White)
+</th>
+<th>
+5 pt\
+(Red)
+</th>
+<th>
+10 pt\
+(Blue)
+</th>
+<th>
+Total Points
+</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th scope="row">2</th>
-<td>10</td>
-<td>2</td>
-<td>2</td>
-<td>40</td>
+  <th scope="row">
+  2
+  </th>
+  <td>
+  10
+  </td>
+  <td>
+  2
+  </td>
+  <td>
+  2
+  </td>
+  <td>
+  40
+  </td>
 </tr>
 <tr>
-<th scope="row">3</th>
-<td>10</td>
-<td>3</td>
-<td>3</td>
-<td>55</td>
+  <th scope="row">
+  3
+  </th>
+  <td>
+  10
+  </td>
+  <td>
+  3
+  </td>
+  <td>
+  3
+  </td>
+  <td>
+  55
+  </td>
 </tr>
 <tr>
-<th scope="row">4</th>
-<td>10</td>
-<td>4</td>
-<td>4</td>
-<td>70</td>
+  <th scope="row">
+  4
+  </th>
+  <td>
+  10
+  </td>
+  <td>
+  4
+  </td>
+  <td>
+  4
+  </td>
+  <td>
+  70
+  </td>
 </tr>
 <tr>
-<th scope="row">5</th>
-<td>10</td>
-<td>5</td>
-<td>5</td>
-<td>85</td>
+  <th scope="row">
+  5
+  </th>
+  <td>
+  10
+  </td>
+  <td>
+  5
+  </td>
+  <td>
+  5
+  </td>
+  <td>
+  85
+  </td>
 </tr>
 <tr>
-<th scope="row">6</th>
-<td>10</td>
-<td>6</td>
-<td>6</td>
-<td>100</td>
+  <th scope="row">
+  6
+  </th>
+  <td>
+  10
+  </td>
+  <td>
+  6
+  </td>
+  <td>
+  6
+  </td>
+  <td>
+  100
+  </td>
 </tr>
 </tbody>
 </table>

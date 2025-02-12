@@ -98,7 +98,7 @@ fn index_to_string(mut index: u32) -> String {
 }
 
 impl Converter<'_> {
-    fn expand(&mut self, n: &[Node]) -> Result<Markup> {
+    fn expand<'a>(&mut self, n: impl IntoIterator<Item = &'a Node>) -> Result<Markup> {
         Ok(html! {
             @for child in n {
                 (self.convert(false, child)?)
@@ -306,7 +306,7 @@ impl Converter<'_> {
                     .unwrap_or((link.url.as_str(), None));
 
                 let href: Option<Cow<str>> = if path.is_empty() {
-                    Some(Cow::Borrowed(link.url.as_str()))
+                    Some(Cow::Borrowed(""))
                 } else {
                     match Url::parse(path) {
                         Ok(abs) => Some(Cow::Owned(abs.into())),
@@ -346,7 +346,13 @@ impl Converter<'_> {
             Node::LinkReference(_link_reference) => bail!("link reference not implemented"),
             Node::ImageReference(_image_reference) => bail!("image reference not implemented"),
             Node::Text(text) => {
-                html! { (self.convert_refs(&text.value)?) }
+                // normalize whitespace
+                static NORM_REGEX: std::sync::LazyLock<regex::Regex> =
+                    std::sync::LazyLock::new(|| regex::Regex::new(r"[ \t\r\n]+").unwrap());
+
+                let normed = NORM_REGEX.replace_all(&text.value, " ");
+
+                html! { (self.convert_refs(&normed)?) }
             }
             Node::Code(code) => {
                 html! {
@@ -483,6 +489,163 @@ impl Converter<'_> {
         Ok(result)
     }
 
+    fn render_figure<'a>(
+        &mut self,
+        mut metadata: ImageMetadata,
+        images: &[&markdown::mdast::Image],
+        caption: impl IntoIterator<Item = &'a Node>,
+    ) -> Result<Markup> {
+        if metadata.license.is_none() {
+            // check for a mistake
+            if metadata.author.is_some()
+                || metadata.author_given.is_some()
+                || metadata.org_name.is_some()
+            {
+                bail!("missing license in image metadata");
+            }
+
+            // otherwise it's defaulting to me
+            metadata.license = Some(License::CcByNcSa);
+            metadata.license_version = Some("4.0".to_string());
+            metadata.author_given = Some("George".to_string());
+            metadata.author_family = Some("Pollard".to_string());
+        }
+
+        let multi_classes = [
+            metadata.justify.as_deref(),
+            metadata.cram.then_some("cram"),
+            metadata.equalheight.then_some("equal-height"),
+        ]
+        .into_iter()
+        .flatten()
+        .join(" ");
+
+        let noborder = if metadata.noborder { " border-0" } else { "" };
+        let copyright_notice = metadata.copyright_notice();
+
+        let figure_classes = [
+            metadata.position.as_ref().map(|p| match p {
+                ImagePositions::Left => "left",
+                ImagePositions::Right => "right",
+                ImagePositions::Aside => "aside",
+            }),
+            metadata.size.as_ref().map(|s| match s {
+                ImageSizes::Small => "small",
+                ImageSizes::Wide => "wide",
+                ImageSizes::ExtraWide => "extra-wide",
+            }),
+        ]
+        .into_iter()
+        .flatten()
+        .join(" ");
+
+        // TODO: these need reviewing, at the moment this is copied from old code
+        // they should be divided by number of images in a row, for example
+        let sizes = match metadata.size {
+            Some(ImageSizes::Wide) =>  "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px",
+            Some(ImageSizes::ExtraWide) => "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, (max-width: 1199.98px) 800px, 1000px",
+            Some(ImageSizes::Small) |
+            None => "(max-width: 575.98px) 300px, 600px",
+        };
+
+        let intended_width = match (&metadata.position, &metadata.size) {
+            (None, Some(ImageSizes::ExtraWide)) => 1200,
+            (None, Some(ImageSizes::Wide)) => 800,
+            (None, None) => 600,
+            (None, Some(ImageSizes::Small)) => 300,
+            _ => 300,
+        };
+
+        let lightbox =
+            |id: &str, meta: &ImageManifestEntry, alt: &str, title: Option<&str>| -> Markup {
+                let srcset = meta.srcset();
+                let sizes = if srcset.is_some() { Some(sizes) } else { None };
+                html! {
+                    dialog.lightbox id=(id) {
+                        img src=(meta.url) srcset=[srcset] sizes=[sizes]
+                            width=(meta.width) height=(meta.height) loading="lazy"
+                            alt=(alt) title=[title];
+                        div.lightbox-under {
+                            p itemscope {
+                                (copyright_notice)
+                            }
+                            form method="dialog" {
+                                a href=(meta.url) role="button" target="_blank" { "Original" }
+                                button.lightbox-close { "Close" }
+                            }
+                        }
+                    }
+                }
+            };
+
+        if images.len() == 1 {
+            let img = &images[0];
+            let meta = self.resolve_image(&img.url)?;
+            let (_imgsize, imgurl) = meta.url_for_width(intended_width);
+            let srcset = meta.srcset();
+            let sizes = if srcset.is_some() { Some(sizes) } else { None };
+            let lb_id = format!("lb-{}", uuid::Uuid::new_v4().simple());
+            Ok(html! {
+                figure class=(figure_classes) itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
+                    (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
+                    a href={"#" (lb_id)} {
+                        img class={"figure-img" (noborder)}
+                            itemprop="contentUrl"
+                            src=(imgurl) alt=(&img.alt)
+                            width=(meta.width) height=(meta.height)
+                            srcset=[srcset] sizes=[sizes];
+                    }
+                    figcaption {
+                        div itemprop="caption" {
+                            (self.expand(caption)?)
+                        }
+                        p {
+                            (copyright_notice)
+                        }
+                    }
+                }
+            })
+        } else {
+            let metas = images
+                .iter()
+                .map(|img| Ok((img, self.resolve_image(&img.url)?)))
+                .collect::<Result<Vec<_>>>()?;
+
+            let copyright_hash = metas[0].1.hash.to_string();
+
+            Ok(html! {
+                figure class=(figure_classes) {
+                    @for row in metas.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
+                        div class={"multi " (multi_classes)} {
+                            @for (img, meta) in row {
+                                @let srcset = meta.srcset();
+                                @let sizes = if srcset.is_some() { Some(sizes) } else { None };
+                                @let lb_id = format!("lb-{}", uuid::Uuid::new_v4().simple());
+                                div itemscope itemtype="https://schema.org/ImageObject" itemprop="image" itemref=(copyright_hash) {
+                                    (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
+                                    a href={"#" (lb_id)} {
+                                        img class={"figure-img" (noborder)}
+                                            src=(meta.url) alt=(&img.alt) title=[&img.title]
+                                            srcset=[srcset] sizes=[sizes]
+                                            width=(meta.width) height=(meta.height);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    figcaption {
+                        div itemprop="caption" {
+                            (self.expand(caption)?)
+                        }
+                        p #(copyright_hash) {
+                            (copyright_notice)
+                        }
+                    }
+                }
+            })
+        }
+    }
+
     fn do_sections(&mut self, new_header: usize) -> Markup {
         let mut result = String::new();
         while let Some(last_header) = self.header_stack.last() {
@@ -528,7 +691,7 @@ impl Converter<'_> {
         let result = match text.name.as_deref() {
             Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
                 let attributes = extract_attributes(&text.attributes)?;
-                let empty = el_name == "br";
+                let empty = el_name == "br" || el_name == "img";
                 html! {
                     (maud::PreEscaped(format!("<{}", el_name)))
                     @for attr in &attributes {
@@ -560,6 +723,8 @@ impl Converter<'_> {
                             [Node::Text(Text { value, .. })] => value,
                             _ => eyre::bail!("<Pronounce> must have a single text child"),
                         };
+
+                        let word = url_escape::encode_path(&word);
 
                         Ok(format!("pronunciation_{lang}_{word}.mp3"))
                     })?;
@@ -662,7 +827,7 @@ impl Converter<'_> {
         let result = match flow.name.as_deref() {
             Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
                 let attributes = extract_attributes(&flow.attributes)?;
-                let empty = el_name == "br";
+                let empty = el_name == "br" || el_name == "img";
                 html! {
                     (maud::PreEscaped(format!("<{}", el_name)))
                     @for attr in attributes {
@@ -719,8 +884,7 @@ impl Converter<'_> {
                         }
                     }
 
-                    let mut metadata: ImageMetadata = if matches!(iter.peek(), Some(Node::Code(_)))
-                    {
+                    let metadata: ImageMetadata = if matches!(iter.peek(), Some(Node::Code(_))) {
                         let Some(Node::Code(yaml)) = iter.next() else {
                             unreachable!()
                         };
@@ -737,126 +901,16 @@ impl Converter<'_> {
                         Default::default()
                     };
 
-                    if metadata.license.is_none() {
-                        // check for a mistake
-                        if metadata.author.is_some()
-                            || metadata.author_given.is_some()
-                            || metadata.org_name.is_some()
-                        {
-                            bail!("missing license in image metadata");
-                        }
-
-                        // otherwise it's defaulting to me
-                        metadata.license = Some(License::CcByNcSa);
-                        metadata.license_version = Some("4.0".to_string());
-                        metadata.author_given = Some("George".to_string());
-                        metadata.author_family = Some("Pollard".to_string());
-                    }
-
-                    let mut caption: Vec<Node> = Vec::new();
+                    let mut caption: Vec<&Node> = Vec::new();
                     for next in iter {
-                        if let Node::Paragraph(p) = next {
-                            caption.push(Node::Paragraph(p.clone()));
+                        if let p @ Node::Paragraph(_) = next {
+                            caption.push(p);
                         } else {
                             eyre::bail!("figure callout should only contain paragraphs after images/metadata: {:?}", next);
                         }
                     }
 
-                    let multi_classes = [
-                        metadata.justify.as_deref(),
-                        metadata.cram.then_some("cram"),
-                        metadata.equalheight.then_some("equal-height"),
-                    ]
-                    .into_iter()
-                    .flatten()
-                    .join(" ");
-
-                    let noborder = if metadata.noborder { " border-0" } else { "" };
-                    let copyright_notice = metadata.copyright_notice();
-
-                    let figure_classes = [
-                        metadata.position.as_ref().map(|p| match p {
-                            ImagePositions::Left => "left",
-                            ImagePositions::Right => "right",
-                            ImagePositions::Aside => "aside",
-                        }),
-                        metadata.size.as_ref().map(|s| match s {
-                            ImageSizes::Small => "small",
-                            ImageSizes::Wide => "wide",
-                            ImageSizes::ExtraWide => "extra-wide",
-                        }),
-                    ]
-                    .into_iter()
-                    .flatten()
-                    .join(" ");
-
-                    let intended_width = match (&metadata.position, &metadata.size) {
-                        (None, Some(ImageSizes::ExtraWide)) => 1200,
-                        (None, Some(ImageSizes::Wide)) => 800,
-                        (None, None) => 600,
-                        (None, Some(ImageSizes::Small)) => 300,
-                        _ => 300,
-                    };
-
-                    return Ok(html! {
-                        @if images.len() == 1 {
-                            figure class=(figure_classes) itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
-                                @let img = &images[0];
-                                @let meta = self.resolve_image(&img.url)?;
-                                @let target_url = meta.sizes.as_ref().and_then(|ss| ss.iter().filter(|(w, _)| **w <= intended_width).max_by(|(w1, _), (w2, _)| w1.cmp(w2)).map(|(_, url)| url)).unwrap_or(&meta.url);
-                                dialog.lightbox id={"lb-" (meta.hash)} {
-                                    img src=(meta.url) srcset="" alt=(&img.alt) title=[&img.title] loading="lazy" width=(meta.width) height=(meta.height);
-                                    div.lightbox-under {
-                                        p itemscope {
-                                            (copyright_notice)
-                                        }
-                                        form method="dialog" {
-                                            a href=(meta.url) role="button" target="_blank" { "Original" }
-                                            button.lightbox-close { "Close" }
-                                        }
-                                    }
-                                }
-                                a href={"#lb-" (meta.hash)} {
-                                    img class={"figure-img" (noborder)}
-                                        itemprop="contentUrl"
-                                        src=(target_url) alt=(&img.alt)
-                                        width=(meta.width) height=(meta.height)
-                                        srcset="" sizes="";
-                                }
-                                figcaption {
-                                    div itemprop="caption" {
-                                        (self.expand(&caption)?)
-                                    }
-                                    p {
-                                        (copyright_notice)
-                                    }
-                                }
-                            }
-                        } @else {
-                            figure class=(figure_classes) {
-                                @for row in images.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
-                                    div class={"multi " (multi_classes)} {
-                                        @for img in row {
-                                            @let meta = self.resolve_image(&img.url)?;
-                                            div itemscope itemtype="https://schema.org/ImageObject" itemprop="image" itemref="TODO" {
-                                                // TODO: lightbox
-                                                img class={"figure-img" (noborder)} src=(meta.url) alt=(&img.alt) title=[&img.title] width=(meta.width) height=(meta.height);
-                                            }
-                                        }
-                                    }
-                                }
-                                figcaption {
-                                    div itemprop="caption" {
-                                        (self.expand(&caption)?)
-                                    }
-                                    p #{"TODO"} {
-                                        (copyright_notice)
-                                    }
-                                }
-                            }
-                        }
-
-                    });
+                    return self.render_figure(metadata, &images, caption);
                 } else if trimmed == "[!epigraph]" {
                     return Ok(html! {
                         blockquote.epigraph {

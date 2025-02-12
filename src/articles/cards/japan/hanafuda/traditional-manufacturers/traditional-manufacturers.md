@@ -77,174 +77,334 @@ Often the mark is a simplified version of the name,[^direction] or a different <
 
 ### Index of Marks
 <div class="multi">
-    <table>
-    <tbody>
-        <tr>
-        <td><img src='/small-images/marufuku.svg' class="inline-img big" alt="The Marufuku symbol" /></td>
-        <td><a href="#nintendo"><span class="noun" lang="ja-Latn">Nintendō</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/yamami.svg' class="inline-img big" alt="The Yamami symbol" /> or <img src='/small-images/kakudai.svg' class="inline-img big" alt="The Kakudai symbol" /></td>
-        <td><a href="#oishi-tengudo"><span class="noun" lang="ja-Latn">Ōishi Tengudō</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/angel-logo.svg' class="inline-img big" alt="The okina symbol" /></td>
-        <td><a href="#angel-enzeru">Angel</a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/yaguruma.svg' class="inline-img big" alt="The Yaguruma symbol" /></td>
-        <td><a href="#tamura-shogundo"><span class="noun" lang="ja-Latn">Tamura Shōgundō</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/kakumatsu.svg' class="inline-img big" alt="The Kakumatsu symbol" /></td>
-        <td><a href="#matsui-tengudo"><span class="noun" lang="ja-Latn">Matsui Tengudō</span></a></td>
-        </tr>
-        <tr>
-        <td><span lang="ja" style="font-family: 'sans-serif'">エース</span></td>
-        <td><a href="#ace-esu">Ace</a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marue.svg' class="inline-img big" alt="The Marue symbol" /></td>
-        <td><a href="#marue"><span class="noun" lang="ja-Latn">Maruē</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/yamata.svg' class="inline-img big" alt="The Yamata symbol" /></td>
-        <td><a href="#tanaka-gyokusuido"><span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/Iwata_trademark.png' class="inline-img big" alt="Iwata’s symbol" /></td>
-        <td><a href="#iwata-honten"><span class="noun" lang="ja-Latn">Iwata Honten</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/kanenaka.svg' class="inline-img big" alt="The Kanenaka symbol" /></td>
-        <td><a href="#nihon-karuta-seizo-tamada-fukushodo"><span class="noun" lang="ja-Latn">Nihon Karuta</span>/<span class="noun" lang="ja-Latn">Tamada Fukushōdō</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marujuu.svg' class="inline-img big" alt="The Marujū symbol" /></td>
-        <td><a href="#yamashiro-shoten"><span class="noun" lang="ja-Latn">Yamashiro Shōten</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/maruryu.svg' class="inline-img big" alt="The Maruryu symbol" /></td>
-        <td><a href="#ryutendo"><span class="noun" lang="ja-Latn">Ryūtendō</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marujun.svg' class="inline-img big" alt="The Marujun symbol" /></td>
-        <td><a href="#inoue-juntendo"><span class="noun" lang="ja-Latn">Inoue Juntendō</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/kanese.svg' class="inline-img big" alt="The Kanese symbol" /></td>
-        <td><a href="#nakao-seikado"><span class="noun" lang="ja-Latn">Nakao Seikadō</span></a></td>
-        </tr>
-        <tr>
-        <td>?</td>
-        <td><a href="#tsuchida-tenguya"><span class="noun" lang="ja-Latn">Tsuchida Tenguya</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/kanewe.svg' class="inline-img big" alt="The Kanewe symbol" /></td>
-        <td><a href="#usui-nikkagetsudo-kyoto-karuta"><span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span>/<span class="noun" lang="ja-Latn">Kyōto Karuta</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/heibon.svg' class="inline-img big" alt="A large coin symbol" /></td>
-        <td><a href="#heibon"><span class="noun" lang="ja-Latn">Heibon</span></a></td>
-        </tr>
-        <tr>
-        <td>?</td>
-        <td><a href="#kawakita"><span class="noun" lang="ja-Latn">Kawakita</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marusa.svg' class="inline-img big" alt="The Marusa symbol" /></td>
-        <td><a href="#kohara-honten"><span class="noun" lang="ja-Latn">Kohara Honten</span></a></td>
-        </tr>
-    </tbody>
-    </table>
-    <table>
-    <tbody>
-        <tr>
-        <td><img src='/small-images/marui.svg' class="inline-img big" alt="The Marui symbol" /></td>
-        <td><a href="#nishimura"><span class="noun" lang="ja-Latn">Nishimura</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marukei.svg' class="inline-img big" alt="The Marukei symbol" /></td>
-        <td><a href="#nakao-kokeido"><span class="noun" lang="ja-Latn">Nakao Kōkeidō</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marukyou.svg' class="inline-img big" alt="The Marukyō symbol" /></td>
-        <td><a href="#baba-keieido"><span class="noun" lang="ja-Latn">Baba Keieidō</span></a> or <a href="#kyoto-karuta"><span class="noun" lang="ja-Latn">Kyōto Karuta</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/3gourds.svg' class="inline-img big" alt="A symbol consisting of a bunch of 3 gourds" /></td>
-        <td><a href="#dai-nippon"><span class="noun" lang="ja-Latn">Dai Nippon</span></a></td>
-        </tr>
-        <tr>
-        <td>?</td>
-        <td><a href="#nippon-yugi-gangunichiyu"><span class="noun" lang="ja-Latn">Nippon Yūgi Gangu</span></a></td>
-        </tr>
-        <tr>
-        <td>?</td>
-        <td><a href="#universal"><span class="noun" lang="ja-Latn">Universal</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/kaneman.svg' class="inline-img big" alt="The Kaneman symbol" /></td>
-        <td><a href="#kawai"><span class="noun" lang="ja-Latn">Kawai</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marumatsu.svg' class="inline-img big" alt="The Marumatsu symbol" /></td>
-        <td><a href="#akata-shojoya"><span class="noun" lang="ja-Latn">Akata Shōjōya</span></a></td>
-        </tr>
-        <tr>
-        <td>?</td>
-        <td><a href="#suisando"><span class="noun" lang="ja-Latn">Suisando</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marutano.svg' class="inline-img big" alt="The Marutano symbol" /></td>
-        <td><a href="#nihon-goraku"><span class="noun" lang="ja-Latn">Nihon Goraku</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/maruei.svg' class="inline-img big" alt="The Maruei symbol" /></td>
-        <td><a href="#kyowado"><span class="noun" lang="ja-Latn">Kyōwadō</span></a> or <a href="#nishiguchi-shoten"><span class="noun" lang="ja-Latn">Nishi­&shy;guchi Shōten</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/kanekata.svg' class="inline-img big" alt="The Kanekata symbol" /></td>
-        <td><a href="#kamigataya"><span class="noun" lang="ja-Latn">Kamigataya</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marukin.svg' class="inline-img big" alt="The Marukin symbol" /></td>
-        <td><a href="#marukin"><span class="noun" lang="ja-Latn">Marukin</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marudai.svg' class="inline-img big" alt="The Marudai symbol" /></td>
-        <td><a href="#otani-shoten"><span class="noun" lang="ja-Latn">Ōtani Shōten</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/marutoku.svg' class="inline-img big" alt="The Marutoku symbol" /></td>
-        <td><a href="#tohoku-karuta"><span class="noun" lang="ja-Latn">Tōhoku Karuta</span></a></td>
-        </tr>
-        <tr>
-        <td>(none)</td>
-        <td><a href="#seieido"><span class="noun" lang="ja-Latn">Seieidō</span></a></td>
-        </tr>
-        <tr>
-        <td>?</td>
-        <td><a href="#tamei-fukujudo"><span class="noun" lang="ja-Latn">Tamei Fukujudō</span></a></td>
-        </tr>
-        <tr>
-        <td>?</td>
-        <td><a href="#sanjoya"><span class="noun" lang="ja-Latn">Sanjōya</span></a></td>
-        </tr>
-        <tr>
-        <td><img src='/small-images/maruyoshi.svg' class="inline-img big" alt="The Maruyoshi symbol" /></td>
-        <td><a href="#maruyoshi"><span class="noun" lang="ja-Latn">Maruyoshi</span></a></td>
-        </tr>
-        <tr>
-        <td>?</td>
-        <td><a href="#ito-koji-shoten"><span class="noun" lang="ja-Latn">Itō Kōji Shōten</span></a></td>
-        </tr>
-        <tr>
-        <td>—</td>
-        <td><a href="#alaska-playing-cards">Alaska playing cards</a></td>
-        </tr>
-    </tbody>
-    </table>
+<table>
+<tbody>
+<tr>
+<td>
+<img src='/small-images/marufuku.svg' class="inline-img big" alt="The Marufuku symbol" />
+</td>
+<td>
+<a href="#nintendo"><span class="noun" lang="ja-Latn">Nintendō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/yamami.svg' class="inline-img big" alt="The Yamami symbol" /> or <img src='/small-images/kakudai.svg' class="inline-img big" alt="The Kakudai symbol" />
+</td>
+<td>
+<a href="#oishi-tengudo"><span class="noun" lang="ja-Latn">Ōishi Tengudō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/angel-logo.svg' class="inline-img big" alt="The okina symbol" />
+</td>
+<td>
+<a href="#angel-enzeru">Angel</a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/yaguruma.svg' class="inline-img big" alt="The Yaguruma symbol" />
+</td>
+<td>
+<a href="#tamura-shogundo"><span class="noun" lang="ja-Latn">Tamura Shōgundō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/kakumatsu.svg' class="inline-img big" alt="The Kakumatsu symbol" />
+</td>
+<td>
+<a href="#matsui-tengudo"><span class="noun" lang="ja-Latn">Matsui Tengudō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<span lang="ja" style="font-family: 'sans-serif'">エース</span>
+</td>
+<td>
+<a href="#ace-esu">Ace</a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marue.svg' class="inline-img big" alt="The Marue symbol" />
+</td>
+<td>
+<a href="#marue"><span class="noun" lang="ja-Latn">Maruē</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/yamata.svg' class="inline-img big" alt="The Yamata symbol" />
+</td>
+<td>
+<a href="#tanaka-gyokusuido"><span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/Iwata_trademark.png' class="inline-img big" alt="Iwata’s symbol" />
+</td>
+<td>
+<a href="#iwata-honten"><span class="noun" lang="ja-Latn">Iwata Honten</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/kanenaka.svg' class="inline-img big" alt="The Kanenaka symbol" />
+</td>
+<td>
+<a href="#nihon-karuta-seizo-tamada-fukushodo"><span class="noun" lang="ja-Latn">Nihon Karuta</span>/<span class="noun" lang="ja-Latn">Tamada Fukushōdō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marujuu.svg' class="inline-img big" alt="The Marujū symbol" />
+</td>
+<td>
+<a href="#yamashiro-shoten"><span class="noun" lang="ja-Latn">Yamashiro Shōten</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/maruryu.svg' class="inline-img big" alt="The Maruryu symbol" />
+</td>
+<td>
+<a href="#ryutendo"><span class="noun" lang="ja-Latn">Ryūtendō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marujun.svg' class="inline-img big" alt="The Marujun symbol" />
+</td>
+<td>
+<a href="#inoue-juntendo"><span class="noun" lang="ja-Latn">Inoue Juntendō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/kanese.svg' class="inline-img big" alt="The Kanese symbol" />
+</td>
+<td>
+<a href="#nakao-seikado"><span class="noun" lang="ja-Latn">Nakao Seikadō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+?
+</td>
+<td>
+<a href="#tsuchida-tenguya"><span class="noun" lang="ja-Latn">Tsuchida Tenguya</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/kanewe.svg' class="inline-img big" alt="The Kanewe symbol" />
+</td>
+<td>
+<a href="#usui-nikkagetsudo-kyoto-karuta"><span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span>/<span class="noun" lang="ja-Latn">Kyōto Karuta</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/heibon.svg' class="inline-img big" alt="A large coin symbol" />
+</td>
+<td>
+<a href="#heibon"><span class="noun" lang="ja-Latn">Heibon</span></a>
+</td>
+</tr>
+<tr>
+<td>
+?
+</td>
+<td>
+<a href="#kawakita"><span class="noun" lang="ja-Latn">Kawakita</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marusa.svg' class="inline-img big" alt="The Marusa symbol" />
+</td>
+<td>
+<a href="#kohara-honten"><span class="noun" lang="ja-Latn">Kohara Honten</span></a>
+</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr>
+<td>
+<img src='/small-images/marui.svg' class="inline-img big" alt="The Marui symbol" />
+</td>
+<td>
+<a href="#nishimura"><span class="noun" lang="ja-Latn">Nishimura</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marukei.svg' class="inline-img big" alt="The Marukei symbol" />
+</td>
+<td>
+<a href="#nakao-kokeido"><span class="noun" lang="ja-Latn">Nakao Kōkeidō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marukyou.svg' class="inline-img big" alt="The Marukyō symbol" />
+</td>
+<td>
+<a href="#baba-keieido"><span class="noun" lang="ja-Latn">Baba Keieidō</span></a> or <a href="#kyoto-karuta"><span class="noun" lang="ja-Latn">Kyōto Karuta</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/3gourds.svg' class="inline-img big" alt="A symbol consisting of a bunch of 3 gourds" />
+</td>
+<td>
+<a href="#dai-nippon"><span class="noun" lang="ja-Latn">Dai Nippon</span></a>
+</td>
+</tr>
+<tr>
+<td>
+?
+</td>
+<td>
+<a href="#nippon-yugi-gangunichiyu"><span class="noun" lang="ja-Latn">Nippon Yūgi Gangu</span></a>
+</td>
+</tr>
+<tr>
+<td>
+?
+</td>
+<td>
+<a href="#universal"><span class="noun" lang="ja-Latn">Universal</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/kaneman.svg' class="inline-img big" alt="The Kaneman symbol" />
+</td>
+<td>
+<a href="#kawai"><span class="noun" lang="ja-Latn">Kawai</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marumatsu.svg' class="inline-img big" alt="The Marumatsu symbol" />
+</td>
+<td>
+<a href="#akata-shojoya"><span class="noun" lang="ja-Latn">Akata Shōjōya</span></a>
+</td>
+</tr>
+<tr>
+<td>
+?
+</td>
+<td>
+<a href="#suisando"><span class="noun" lang="ja-Latn">Suisando</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marutano.svg' class="inline-img big" alt="The Marutano symbol" />
+</td>
+<td>
+<a href="#nihon-goraku"><span class="noun" lang="ja-Latn">Nihon Goraku</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/maruei.svg' class="inline-img big" alt="The Maruei symbol" />
+</td>
+<td>
+<a href="#kyowado"><span class="noun" lang="ja-Latn">Kyōwadō</span></a> or <a href="#nishiguchi-shoten"><span class="noun" lang="ja-Latn">Nishi­&shy;guchi Shōten</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/kanekata.svg' class="inline-img big" alt="The Kanekata symbol" />
+</td>
+<td>
+<a href="#kamigataya"><span class="noun" lang="ja-Latn">Kamigataya</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marukin.svg' class="inline-img big" alt="The Marukin symbol" />
+</td>
+<td>
+<a href="#marukin"><span class="noun" lang="ja-Latn">Marukin</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marudai.svg' class="inline-img big" alt="The Marudai symbol" />
+</td>
+<td>
+<a href="#otani-shoten"><span class="noun" lang="ja-Latn">Ōtani Shōten</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/marutoku.svg' class="inline-img big" alt="The Marutoku symbol" />
+</td>
+<td>
+<a href="#tohoku-karuta"><span class="noun" lang="ja-Latn">Tōhoku Karuta</span></a>
+</td>
+</tr>
+<tr>
+<td>
+(none)
+</td>
+<td>
+<a href="#seieido"><span class="noun" lang="ja-Latn">Seieidō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+?
+</td>
+<td>
+<a href="#tamei-fukujudo"><span class="noun" lang="ja-Latn">Tamei Fukujudō</span></a>
+</td>
+</tr>
+<tr>
+<td>
+?
+</td>
+<td>
+<a href="#sanjoya"><span class="noun" lang="ja-Latn">Sanjōya</span></a>
+</td>
+</tr>
+<tr>
+<td>
+<img src='/small-images/maruyoshi.svg' class="inline-img big" alt="The Maruyoshi symbol" />
+</td>
+<td>
+<a href="#maruyoshi"><span class="noun" lang="ja-Latn">Maruyoshi</span></a>
+</td>
+</tr>
+<tr>
+<td>
+?
+</td>
+<td>
+<a href="#ito-koji-shoten"><span class="noun" lang="ja-Latn">Itō Kōji Shōten</span></a>
+</td>
+</tr>
+<tr>
+<td>
+—
+</td>
+<td>
+<a href="#alaska-playing-cards">Alaska playing cards</a>
+</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 ### Dating Decks
@@ -294,29 +454,140 @@ articles](https://japanplayingcardmuseum.com/category/0-0-cartatax-law-history/)
 provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
 
 <table class="numeric">
-<caption>Tax levied on <span class="noun" lang="ja-Latn">Hanafuda</span> sets over time.</caption>
+<caption>
+Tax levied on <span class="noun" lang="ja-Latn">Hanafuda</span> sets over time.
+</caption>
 <thead>
-    <tr>
-    <th class="text-center">Date Introduced</th>
-    <th class="text-center">Tax Amount</th>
-    </tr>
+  <tr>
+  <th class="text-center">
+  Date Introduced
+  </th>
+  <th class="text-center">
+  Tax Amount
+  </th>
+  </tr>
 </thead>
 <tbody class="table-group-divider">
-    <tr><td>July 1, 1902</td><td>20 <span lang="ja-Latn">sen</span></td></tr>
-    <tr><td>April 1, 1926</td><td>50 <span lang="ja-Latn">sen</span></td></tr>
-    <tr><td>April 1, 1940</td><td>70 <span lang="ja-Latn">sen</span></td></tr>
-    <tr><td>November 22, 1941</td><td>1½ <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>February 15, 1944</td><td>3 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>August 30, 1946</td><td>10 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>March 31, 1947</td><td>30 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>November 30, 1947</td><td>100 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>July 7, 1948</td><td>130 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>March 28, 1951</td><td>50 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>March 31, 1954</td><td>60 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>June 14, 1957</td><td>60 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>October 1, 1960</td><td>60 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>March 31, 1962</td><td>40 <span lang="ja-Latn">yen</span></td></tr>
-    <tr><td>April 1, 1989</td><td>abolished</td></tr>
+<tr>
+  <td>
+  July 1, 1902
+  </td>
+  <td>
+  20 <span lang="ja-Latn">sen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  April 1, 1926
+  </td>
+  <td>
+  50 <span lang="ja-Latn">sen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  April 1, 1940
+  </td>
+  <td>
+  70 <span lang="ja-Latn">sen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  November 22, 1941
+  </td>
+  <td>
+  1½ <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  February 15, 1944
+  </td>
+  <td>
+  3 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  August 30, 1946
+  </td>
+  <td>
+  10 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  March 31, 1947
+  </td>
+  <td>
+  30 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  November 30, 1947
+  </td>
+  <td>
+  100 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  July 7, 1948
+  </td>
+  <td>
+  130 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  March 28, 1951
+  </td>
+  <td>
+  50 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  March 31, 1954
+  </td>
+  <td>
+  60 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  June 14, 1957
+  </td>
+  <td>
+  60 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  October 1, 1960
+  </td>
+  <td>
+  60 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  March 31, 1962
+  </td>
+  <td>
+  40 <span lang="ja-Latn">yen</span>
+  </td>
+</tr>
+<tr>
+  <td>
+  April 1, 1989
+  </td>
+  <td>
+  abolished
+  </td>
+</tr>
 </tbody>
 </table>
 
@@ -407,8 +678,8 @@ lang="ja-Latn">Hanafuda</span> cards.
 > <span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">marufuku</span> mark, registered in 1900 by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō</span>.[@Trademarks1905 p. 67]
 
 <span class="noun" lang="ja-Latn">Nintendō</span> is the most prominent company that produces
-<span class="noun" lang="jp-Latn">Hanafuda</span> cards today. The company was founded in
-<span class="noun" lang="jp-Latn">Kyōto</span> in 1889 by <span class="noun" lang="ja-Latn">Yamauchi
+<span class="noun" lang="ja-Latn">Hanafuda</span> cards today. The company was founded in
+<span class="noun" lang="ja-Latn">Kyōto</span> in 1889 by <span class="noun" lang="ja-Latn">Yamauchi
 Fusajirō</span> (<span lang="ja">山内房治郎</span>), and it was run by the <span class="noun"
 lang="ja-Latn">Yamauchi</span> family for three generations until <span class="noun"
 lang="ja-Latn">Yamauchi Hiroshi</span> (<span lang="ja">山内溥</span>) stepped
@@ -432,11 +703,7 @@ down in 2002.
 > 
 > :[^fn1] <span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]
 
-A too-brief summary of their later success: after WWII, <span class="noun"
-lang="jp-Latn">Nintendō</span> managed to survive a period of crushing taxation
-on playing-card products, which wiped out many of the smaller manufacturers. In
-the second half of the 20th century they (famously!) diversified into children’s
-toys and, later on, video games.
+A too-brief summary of their later success: after WWII, <span class="noun" lang="ja-Latn">Nintendō</span> managed to survive a period of crushing taxation on playing-card products, which wiped out many of the smaller manufacturers. In the second half of the 20th century they (famously!) diversified into children’s toys and, later on, video games.
 
 <span class="noun" lang="ja-Latn">Nintendō</span>’s manufacturers mark is a circled <span
 lang="ja" class="circled">福</span> (<span lang="ja-Latn">fuku</span>,
@@ -1793,18 +2060,13 @@ Their brands included:
 
 * <span lang="ja">百萬圓</span> (<span lang="ja-Latn">hyakumanen</span>, ‘one million <span lang="ja-Latn">yen</span>’), trademarked in 1921[@Trademarks1924_18 p. 331]
 
-### <img src='/small-images/marukyou.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Baba Keieidō</span> (<span lang="ja">馬場京栄堂</span>)0
+### <img src='/small-images/marukyou.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Baba Keieidō</span> (<span lang="ja">馬場京栄堂</span>)
 
-<p>Existed in Kyōto in 1948;[@Yamaguchi p. 102] mark was a circled <span lang="ja">京</span>.</p>
+Existed in Kyōto in 1948;[@Yamaguchi p. 102] mark was a circled <span lang="ja">京</span>.
 
 ### <img src='/small-images/heibon.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Heibon</span> (<span lang="ja">平凡</span>)
 
-This <span class="noun" lang="ja-Latn">Tōkyō</span> manufacturer stopped producing shortly
-after 1972.[@ModernJapaneseWrappers p. 42] Their maker’s mark was the phrase
-<span lang="ja">天下一</span> (<span lang="ja-Latn">tenkaichi</span> ‘best in
-the world’) written inside a large [<span
-lang="ja-Latn">koban</span>](https://en.wikipedia.org/wiki/Koban_(coin)). Their
-brands included:
+This <span class="noun" lang="ja-Latn">Tōkyō</span> manufacturer stopped producing shortly after 1972.[@ModernJapaneseWrappers p. 42] Their maker’s mark was the phrase <span lang="ja">天下一</span> (<span lang="ja-Latn">tenkaichi</span> ‘best in the world’) written inside a large [<span lang="ja-Latn">koban</span>](https://en.wikipedia.org/wiki/Koban_(coin)). Their brands included:
 
 * <span lang="ja">四天王</span> (<span lang="ja-Latn">shi tennō</span> the [four heavenly kings](https://en.wikipedia.org/wiki/Four_Heavenly_Kings)), also used for <span class="noun" lang="ja-Latn">Kabufuda</span>
 * <span lang="ja">牡丹獅子</span> (<span lang="ja-Latn">botanjishi</span> ‘peony and lion’), also used for <span class="noun" lang="ja-Latn">Kabufuda</span>

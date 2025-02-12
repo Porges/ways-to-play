@@ -57,58 +57,185 @@ The following table summarizes the results for the banker:
 <table>
 <thead>
 <tr>
-<th>Name/Roll</th>
-<th>Chinese Names</th>
-<th>New York Name</th>
-<th>Outcome</th>
+<th>
+Name/Roll
+</th>
+<th>
+Chinese Names
+</th>
+<th>
+New York Name
+</th>
+<th>
+Outcome
+</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th scope="row">4–5–6<br/><Dice type="chinese">456</Dice></th>
+  <th scope="row">
+  4–5–6\
+  <Dice type="chinese">456</Dice>
+  </th>
+  <td>
+  <span lang="zh">四五六</span> ‘456’\
+  Cantonese: <span lang="yue-Latn-jyutping">si³ ng⁵ luk⁶</span>[@ChineseGames 493]
+
+  <span lang="zh">串花</span> ‘strung flowers’\
+  Cantonese: <span lang="yue-Latn-jyutping">cyun³ faa¹</span>[@ChineseGames 493]
+
+  <span lang="zh">春花</span>[@ChineseGamesOfChance 79] ‘spring flowers’\
+  Cantonese: <span lang="yue-Latn-jyutping">ceon¹ faa¹</span>
+  </td>
+  <td>
+  Head Crack
+  </td>
+  <td>
+  Win
+  </td>
+</tr>
+<tr>
+<th scope="row">
+Triple\
+<Dice type="chinese">===</Dice>
+</th>
 <td>
-<span lang="zh">四五六</span> ‘456’<br/>Cantonese: <span lang="yue-Latn-jyutping">si³ ng⁵ luk⁶</span>[@ChineseGames 493]<br/><br/>
-<span lang="zh">串花</span> ‘strung flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">cyun³ faa¹</span>[@ChineseGames 493]<br/><br/>
-<span lang="zh">春花</span>[@ChineseGamesOfChance 79] ‘spring flowers’<br/>Cantonese: <span lang="yue-Latn-jyutping">ceon¹ faa¹</span>
+<span lang="zh">圍</span> ‘enclosed’\
+Cantonese: <Pronounce  lang="yue-Latn-jyutping"  pronouncer="cuichungman" file="pronunciation_yue_圍.mp3">wai⁴</Pronounce>[@ChineseGames 493]
+
+<span lang="zh">爲屏</span>[@ChineseGamesOfChance 78] ‘build a wall’\
+Cantonese: <span lang="yue-Latn-jyutping">wai⁴ ping⁴</span>
 </td>
-<td>Head Crack</td>
-<td>Win</td>
-</tr>
-<tr>
-<th scope="row">Triple<br/><Dice type="chinese">===</Dice></th>
-<td><span lang="zh">圍</span> ‘enclosed’<br/>Cantonese: <Pronounce  lang="yue-Latn-jyutping"  pronouncer="cuichungman" file="pronunciation_yue_圍.mp3">wai⁴</Pronounce>[@ChineseGames 493]<br/><br/><span lang="zh">爲屏</span>[@ChineseGamesOfChance 78] ‘build a wall’<br/>Cantonese: <span lang="yue-Latn-jyutping">wai⁴ ping⁴</span></td>
-<td>Trips</td>
-<td>Win</td>
-</tr>
-<tr>
-<th scope="row">6 Point<br/><Dice type="chinese">==6</Dice></th>
-<td><span lang="zh">候六</span>[@ChineseGamesOfChance 79] ‘watching six’<br/><span lang="yue-Latn-jyutping">hau⁶ luk⁶</span></td>
-<td></td>
-<td>Win</td>
-</tr>
-<tr><th scope="row">5 Point<br/><Dice type="chinese">==5</Dice></th><td><span lang="zh"></span></td><td></td><td>Point of 5</td></tr>
-<tr><th scope="row">4 Point<br/><Dice type="chinese">==4</Dice></th><td><span lang="zh"></span></td><td></td><td>Point of 4</td></tr>
-<tr><th scope="row">3 Point<br/><Dice type="chinese">==3</Dice></th><td><span lang="zh"></span></td><td></td><td>Point of 3</td></tr>
-<tr><th scope="row">2 Point<br/><Dice type="chinese">==2</Dice></th><td><span lang="zh"></span></td><td></td><td>Point of 2</td></tr>
-<tr>
-<th scope="row">1 Point<br/><Dice type="chinese">==1</Dice></th>
 <td>
-<span lang="zh">一弗</span> ‘bad one’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ fat¹</span>[@ChineseGames 493]<br/><br/>
-<span lang="zh">候丁</span>[@ChineseGamesOfChance 79] ‘watching [?]’<br/><span lang="yue-Latn-jyutping">hau⁶ ding¹</span>
+Trips
 </td>
-<td>Ace Out</td><td>Loss</td>
+<td>
+Win
+</td>
 </tr>
 <tr>
-<th scope="row">1–2–3<br/><Dice type="chinese">123</Dice></th>
+<th scope="row">
+6 Point\
+<Dice type="chinese">==6</Dice>
+</th>
 <td>
-<span lang="zh">舞龍</span> ‘dragon dance’<br/>Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3">mou⁵ lung⁴</Pronounce>[@ChineseGames 493]<br/><br/>
-<span lang="zh">蛇仔</span> ‘small snake’<br/>Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3">se⁴ zai²</Pronounce>[@ChineseGames 493]<br/><br/>
-<span lang="zh">一條蛇</span>[@ChineseGamesOfChance 79] ‘one snake’<br/>Cantonese: <span lang="yue-Latn-jyutping">jat¹ tiu⁴ se⁴</span>
+<span lang="zh">候六</span>[@ChineseGamesOfChance 79] ‘watching six’\
+<span lang="yue-Latn-jyutping">hau⁶ luk⁶</span>
 </td>
-<td></td>
-<td>Loss</td>
+<td>
+</td>
+<td>
+Win
+</td>
 </tr>
-<tr><th scope="row">Nothing</th><td></td><td></td><td>Re-roll</td></tr>
+<tr>
+  <th scope="row">
+  5 Point\
+  <Dice type="chinese">==5</Dice>
+  </th>
+  <td>
+  <span lang="zh"></span>
+  </td>
+  <td>
+  </td>
+  <td>
+  Point of 5
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  4 Point\
+  <Dice type="chinese">==4</Dice>
+  </th>
+  <td>
+  <span lang="zh"></span>
+  </td>
+  <td>
+  </td>
+  <td>
+  Point of 4
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  3 Point\
+  <Dice type="chinese">==3</Dice>
+  </th>
+  <td>
+  <span lang="zh"></span>
+  </td>
+  <td>
+  </td>
+  <td>
+  Point of 3
+  </td>
+</tr>
+<tr>
+<th scope="row">
+2 Point\
+<Dice type="chinese">==2</Dice>
+</th>
+<td>
+<span lang="zh"></span>
+</td>
+<td>
+</td>
+<td>
+Point of 2
+</td>
+</tr>
+<tr>
+  <th scope="row">
+  1 Point\
+  <Dice type="chinese">==1</Dice>
+  </th>
+  <td>
+  <span lang="zh">一弗</span> ‘bad one’\
+  Cantonese: <span lang="yue-Latn-jyutping">jat¹ fat¹</span>[@ChineseGames 493]
+
+  <span lang="zh">候丁</span>[@ChineseGamesOfChance 79] ‘watching [?]’\
+  <span lang="yue-Latn-jyutping">hau⁶ ding¹</span>
+  </td>
+  <td>
+  Ace Out
+  </td>
+  <td>
+  Loss
+  </td>
+</tr>
+<tr>
+<th scope="row">
+1–2–3\
+<Dice type="chinese">123</Dice>
+</th>
+<td>
+<span lang="zh">舞龍</span> ‘dragon dance’\
+Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="CantoneseSpokenHK" file="pronunciation_yue_舞龍.mp3">mou⁵ lung⁴</Pronounce>[@ChineseGames 493]
+
+<span lang="zh">蛇仔</span> ‘small snake’\
+Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="CantoneseSpokenHK" file="pronunciation_yue_蛇仔.mp3">se⁴ zai²</Pronounce>[@ChineseGames 493]
+
+<span lang="zh">一條蛇</span>[@ChineseGamesOfChance 79] ‘one snake’\
+Cantonese: <span lang="yue-Latn-jyutping">jat¹ tiu⁴ se⁴</span>
+</td>
+<td>
+</td>
+<td>
+Loss
+</td>
+</tr>
+<tr>
+<th scope="row">
+Nothing
+</th>
+<td>
+</td>
+<td>
+</td>
+<td>
+Re-roll
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -194,19 +321,111 @@ A triplet is called a ‘storm’ (<span lang="ja">嵐</span> <Pronounce lang="j
 [^source]: Apparently this term comes from the game [<span lang="ja-Latn" class="noun">Oicho-Kabu</span>](games/three-card-game/three-card-game.md#oicho-kabu).
 
 <table>
-<caption>Table of roll payoffs for <span lang="ja-Latn">Chinchirorin</span>.</caption>
+<caption>
+Table of roll payoffs for <span lang="ja-Latn">Chinchirorin</span>.
+</caption>
 <thead>
-<tr><th>Roll</th><th>Name</th><th>Outcome</th></tr>
+  <tr>
+  <th>
+  Roll
+  </th>
+  <th>
+  Name
+  </th>
+  <th>
+  Outcome
+  </th>
+  </tr>
 </thead>
 <tbody>
-<tr><th scope="row">Triple 2–6 <Dice type="japanese">===</Dice></th><td><span lang="ja">アラシ</span> <span lang="ja-Latn">arashi</span> ‘storm’</td><td>win 3×</td></tr>
-<tr><th scope="row">4–5–6 <Dice type="japanese">456</Dice></th><td><span lang="ja">シゴロ</span> <span lang="ja-Latn">shigoro</span> ‘four five six’</td><td>win 2×</td></tr>
-<tr><th scope="row">Point 6 <Dice type="japanese">==6</Dice></th><td><span lang="ja">六の目</span> <span lang="ja-Latn">roppou no me</span> ‘eye of 6’</td><td>win 1×</td></tr>
-<tr><th scope="row">Points 2–5</th><td><span lang="ja">目</span> <span lang="ja-Latn">me</span> ‘eye’</td><td>1×</td></tr>
-<tr><th scope="row">Point 1 <Dice type="japanese">==1</Dice></th><td><span lang="ja">一の目</span> <span lang="ja-Latn">pin no me</span> ‘eye of 1’</td><td>lose 1×</td></tr>
-<tr><th scope="row">Bust</th><td><span lang="ja">目なし</span> <span lang="ja-Latn">me no nai</span> ‘no eye’</td><td>lose 1×</td></tr>
-<tr><th scope="row">1–2–3 <Dice type="japanese">123</Dice></th><td><span lang="ja">ヒフミ</span> <span lang="ja-Latn">hifumi</span> ‘one two three’</td><td>lose 2×</td></tr>
-<tr><th scope="row">Triple 1 <Dice type="japanese">111</Dice></th><td><span lang="ja">ピンゾロ</span> <span lang="ja-Latn">pinzoro</span> ‘triple ace’</td><td>lose 3×</td></tr>
+<tr>
+  <th scope="row">
+  Triple 2–6 <Dice type="japanese">===</Dice>
+  </th>
+  <td>
+  <span lang="ja">アラシ</span> <span lang="ja-Latn">arashi</span> ‘storm’
+  </td>
+  <td>
+  win 3×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  4–5–6 <Dice type="japanese">456</Dice>
+  </th>
+  <td>
+  <span lang="ja">シゴロ</span> <span lang="ja-Latn">shigoro</span> ‘four five six’
+  </td>
+  <td>
+  win 2×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  Point 6 <Dice type="japanese">==6</Dice>
+  </th>
+  <td>
+  <span lang="ja">六の目</span> <span lang="ja-Latn">roppou no me</span> ‘eye of 6’
+  </td>
+  <td>
+  win 1×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  Points 2–5
+  </th>
+  <td>
+  <span lang="ja">目</span> <span lang="ja-Latn">me</span> ‘eye’
+  </td>
+  <td>
+  1×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  Point 1 <Dice type="japanese">==1</Dice>
+  </th>
+  <td>
+  <span lang="ja">一の目</span> <span lang="ja-Latn">pin no me</span> ‘eye of 1’
+  </td>
+  <td>
+  lose 1×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  Bust
+  </th>
+  <td>
+  <span lang="ja">目なし</span> <span lang="ja-Latn">me no nai</span> ‘no eye’
+  </td>
+  <td>
+  lose 1×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  1–2–3 <Dice type="japanese">123</Dice>
+  </th>
+  <td>
+  <span lang="ja">ヒフミ</span> <span lang="ja-Latn">hifumi</span> ‘one two three’
+  </td>
+  <td>
+  lose 2×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  Triple 1 <Dice type="japanese">111</Dice>
+  </th>
+  <td>
+  <span lang="ja">ピンゾロ</span> <span lang="ja-Latn">pinzoro</span> ‘triple ace’
+  </td>
+  <td>
+  lose 3×
+  </td>
+</tr>
 </tbody>
 </table>
 
@@ -223,16 +442,67 @@ There are also variations to the main rules:
 - Each player is banker for two rounds. If on their first round the banker rolls a <Dice type="japanese">111</Dice>, busts, or rolls a <Dice type="japanese">123</Dice> then they pass on the bankership after the first round. A player can also pass on the bankership instead of taking it.
 
 <table>
-<caption>Table of roll payoffs for Underground <span lang="ja-Latn">Chinchirorin</span>.</caption>
+<caption>
+Table of roll payoffs for Underground <span lang="ja-Latn">Chinchirorin</span>.
+</caption>
 <thead>
-<tr><th>Roll</th><th>Outcome</th></tr>
+<tr>
+<th>
+Roll
+</th>
+<th>
+Outcome
+</th>
+</tr>
 </thead>
 <tbody>
-<tr><th scope="row">Triple 1 <Dice type="japanese">111</Dice></th><td>win 5×</td></tr>
-<tr><th scope="row">Triple 2–6 <Dice type="japanese">===</Dice></th><td>win 3×</td></tr>
-<tr><th scope="row">4–5–6 <Dice type="japanese">456</Dice></th><td>win 2×</td></tr>
-<tr><th scope="row">Points 1–6</th><td>1×</td></tr>
-<tr><th scope="row">Bust</th><td>lose 1×</td></tr>
-<tr><th scope="row">1–2–3 <Dice type="japanese">123</Dice></th><td>lose 2×</td></tr>
+<tr>
+<th scope="row">
+Triple 1 <Dice type="japanese">111</Dice>
+</th>
+<td>
+win 5×
+</td>
+</tr>
+<tr>
+<th scope="row">
+Triple 2–6 <Dice type="japanese">===</Dice>
+</th>
+<td>
+win 3×
+</td>
+</tr>
+<tr>
+<th scope="row">
+4–5–6 <Dice type="japanese">456</Dice>
+</th>
+<td>
+win 2×
+</td>
+</tr>
+<tr>
+  <th scope="row">
+  Points 1–6
+  </th>
+  <td>
+  1×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  Bust
+  </th>
+  <td>
+  lose 1×
+  </td>
+</tr>
+<tr>
+  <th scope="row">
+  1–2–3 <Dice type="japanese">123</Dice>
+  </th>
+  <td>
+  lose 2×
+  </td>
+</tr>
 </tbody>
 </table>

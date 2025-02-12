@@ -146,7 +146,7 @@ function Build-Builder {
 
 $builder = Join-Path $root "build/target/release/wtp-build"
 
-$draft_arg = if ($drafts) { @("--draft") } else { @() }
+[array]$draft_arg = if ($drafts) { "--draft" } else { @() }
 
 function Build-HTML {
     $env:RUST_LOG = 'info'

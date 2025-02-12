@@ -311,8 +311,29 @@ struct ImageManifestEntry {
     height: usize,
     width: usize,
     url: String,
-    // size → URL
+    // size (width) → URL
     sizes: Option<BTreeMap<usize, String>>,
+}
+
+impl ImageManifestEntry {
+    pub fn srcset(&self) -> Option<String> {
+        let Some(sizes) = &self.sizes else {
+            return None;
+        };
+
+        if sizes.is_empty() {
+            return None;
+        }
+
+        Some(sizes.iter().map(|(s, u)| format!("{u} {s}w")).join(", "))
+    }
+
+    pub fn url_for_width(&self, size: usize) -> (usize, &str) {
+        self.sizes
+            .as_ref()
+            .and_then(|sizes| sizes.range(..=size).last().map(|(s, u)| (*s, u.as_str())))
+            .unwrap_or((self.width, &self.url))
+    }
 }
 
 struct Builder {
@@ -549,7 +570,7 @@ impl Builder {
         // i.e. articles/some/path.md
         let make_rel = |path: &Path| -> Result<String> {
             let rel = path.strip_prefix(&self.base_path)?.to_string_lossy();
-            Ok(rel.replace("\\", "/"))
+            Ok(rel.replace('\\', "/"))
         };
 
         for art in &self.articles {
@@ -698,7 +719,7 @@ impl Builder {
         }
 
         self.templater
-            .article(article, content, &breadcrumbs, children, prev_next)
+            .article(article, &content, &breadcrumbs, children, prev_next)
             .wrap_err("templating article")
     }
 
