@@ -87,7 +87,7 @@ function Resize-Images {
                     Write-Debug "Skipping $path"
                 }
                 else {
-                    Write-Host "Converting $path"
+                    Write-Information "Converting $path"
                     $magick_args = $applicable_sizes | ForEach-Object { 
                         @(
                             '('
@@ -109,7 +109,7 @@ function Resize-Images {
                 }
             }
             else {
-                Write-Host "Linking $path"
+                Write-Information "Linking $path"
                 New-Item -ItemType SymbolicLink -Path $origPath -Value $absPath -ErrorAction SilentlyContinue > $null
             }
         }

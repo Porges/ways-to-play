@@ -85,100 +85,189 @@ Outcome
 </tr>
 </thead>
 <tbody class="table-group-divider">
+
 <tr>
-<th scope="row" rowspan="6">Quads</th>
-<td><Dice type="chinese">4444</Dice></td>
-<td><span lang="zh">滿園春</span></td>
-<td></td>
-<td>Win 6×</td>
+<th scope="row" rowspan="6">
+Quads
+</th>
+<td>
+<Dice type="chinese">4444</Dice>
+</td>
+<td>
+<span lang="zh">滿園春</span>
+</td>
+<td>
+</td>
+<td>
+Win 6×
+</td>
 </tr>
 <tr>
-{/* Quads */}
-<td><Dice type="chinese">6666</Dice></td>
-<td><span lang="zh">混江龍</span></td>
-<td></td>
-<td rowspan="5">Win 5×</td>
+<td>
+<Dice type="chinese">6666</Dice>
+</td>
+<td>
+<span lang="zh">混江龍</span>
+</td>
+<td>
+</td>
+<td rowspan="5">
+Win 5×
+</td>
 </tr>
 <tr>
-{/* Quads */}
-<td><Dice type="chinese">5555</Dice></td>
-<td><span lang="zh">碧牡丹</span></td>
-<td></td>
+<td>
+<Dice type="chinese">5555</Dice>
+</td>
+<td>
+<span lang="zh">碧牡丹</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-{/* Quads */}
-<td><Dice type="chinese">3333</Dice></td>
-<td><span lang="zh">雁行兒</span></td>
-<td></td>
+<td>
+<Dice type="chinese">3333</Dice>
+</td>
+<td>
+<span lang="zh">雁行兒</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-{/* Quads */}
-<td><Dice type="chinese">2222</Dice></td>
-<td><span lang="zh">拍板兒</span></td>
-<td></td>
+<td>
+<Dice type="chinese">2222</Dice>
+</td>
+<td>
+<span lang="zh">拍板兒</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-{/* Quads */}
-<td><Dice type="chinese">1111</Dice></td>
-<td><span lang="zh">滿盆星</span></td>
-<td></td>
+<td>
+<Dice type="chinese">1111</Dice>
+</td>
+<td>
+<span lang="zh">滿盆星</span>
+</td>
+<td>
+</td>
 </tr>
 
 <tr>
-<th scope="row" rowspan="5">Triple <Dice type="chinese">4</Dice></th>
-<td><Dice type="chinese">4441</Dice></td>
-<td><span lang="zh">花心動</span></td>
-<td></td>
-<td>Win 5×</td>
+<th scope="row" rowspan="5">
+Triple <Dice type="chinese">4</Dice>
+</th>
+<td>
+<Dice type="chinese">4441</Dice>
+</td>
+<td>
+<span lang="zh">花心動</span>
+</td>
+<td>
+</td>
+<td>
+Win 5×
+</td>
 </tr>
 <tr>
-{/* Triple */}
-<td><Dice type="chinese">4442</Dice></td>
-<td><span lang="zh">蝶戀花</span></td>
-<td></td>
-<td rowspan="4">Win 4×</td>
+<td>
+<Dice type="chinese">4442</Dice>
+</td>
+<td>
+<span lang="zh">蝶戀花</span>
+</td>
+<td>
+</td>
+<td rowspan="4">
+Win 4×
+</td>
 </tr>
 <tr>
-{/* Triple */}
-<td><Dice type="chinese">4443</Dice></td>
-<td><span lang="zh">紅衫兒</span></td>
-<td></td>
+<td>
+<Dice type="chinese">4443</Dice>
+</td>
+<td>
+<span lang="zh">紅衫兒</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-{/* Triple */}
-<td><Dice type="chinese">4445</Dice></td>
-<td><span lang="zh">錦上花</span></td>
-<td></td>
+<td>
+<Dice type="chinese">4445</Dice>
+</td>
+<td>
+<span lang="zh">錦上花</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-{/* Triple */}
-<td><Dice type="chinese">4446</Dice></td>
-<td><span lang="zh">銷金帳</span></td>
-<td></td>
+<td>
+<Dice type="chinese">4446</Dice>
+</td>
+<td>
+<span lang="zh">銷金帳</span>
+</td>
+<td>
+</td>
 </tr>
 
 <tr>
-<th scope="row"><Dice type="chinese">44</Dice>+Pair</th>
-<td><Dice type="chinese">44==</Dice></td>
-<td ><span lang="zh">紅葉兒</span></td>
-<td >Red Leaves</td>
-<td >Win 3×</td>
+<th scope="row">
+<Dice type="chinese">44</Dice>+Pair
+</th>
+<td>
+<Dice type="chinese">44==</Dice>
+</td>
+<td>
+<span lang="zh">紅葉兒</span>
+</td>
+<td>
+Red Leaves
+</td>
+<td>
+Win 3×
+</td>
 </tr>
 
 <tr>
-<th scope="row">Special</th>
-<td><Dice type="chinese">4456</Dice></td>
-<td><span lang="zh">節節髙</span></td>
-<td>Successively Higher</td>
-<td>Win 3×</td>
+<th scope="row">
+Special
+</th>
+<td>
+<Dice type="chinese">4456</Dice>
+</td>
+<td>
+<span lang="zh">節節髙</span>
+</td>
+<td>
+Successively Higher
+</td>
+<td>
+Win 3×
+</td>
 </tr>
 
 <tr>
-<th scope="row">Two Pairs</th>
-<td><Dice type="chinese">==</Dice>,<Dice type="chinese">==</Dice></td>
-<td><span lang="zh">素葉兒</span></td>
-<td>Plain Leaves</td>
-<td>Win 2×</td>
+<th scope="row">
+Two Pairs
+</th>
+<td>
+<Dice type="chinese">==</Dice>,<Dice type="chinese">==</Dice>
+</td>
+<td>
+<span lang="zh">素葉兒</span>
+</td>
+<td>
+Plain Leaves
+</td>
+<td>
+Win 2×
+</td>
 </tr>
 
 </tbody>
@@ -189,238 +278,545 @@ If only one <Dice type="chinese">4</Dice> was rolled, the outcome is based upon 
 <table>
 <thead>
 <tr>
-<th>Sum</th>
-<th>Roll</th>
-<th>Name</th>
-<th>Translation</th>
-<th>Outcome</th>
+<th>
+Sum
+</th>
+<th>
+Roll
+</th>
+<th>
+Name
+</th>
+<th>
+Translation
+</th>
+<th>
+Outcome
+</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td class="numeric">18</td>
-<td><Dice type="chinese">4666</Dice></td>
-<td><span lang="zh">得勝令</span></td>
-<td>Chant of Victory</td>
-<td>Win 5×</td>
+<td class="numeric">
+18
+</td>
+<td>
+<Dice type="chinese">4666</Dice>
+</td>
+<td>
+<span lang="zh">得勝令</span>
+</td>
+<td>
+Chant of Victory
+</td>
+<td>
+Win 5×
+</td>
 </tr>
 <tr>
-<td class="numeric">17</td>
-<td><Dice type="chinese">4566</Dice></td>
-<td><span lang="zh">皂羅袍</span></td>
-<td>Silky Robe</td>
-<td>Win 3×</td>
+<td class="numeric">
+17
+</td>
+<td>
+<Dice type="chinese">4566</Dice>
+</td>
+<td>
+<span lang="zh">皂羅袍</span>
+</td>
+<td>
+Silky Robe
+</td>
+<td>
+Win 3×
+</td>
 </tr>
 <tr>
-<td class="numeric">16</td>
-<td><Dice type="chinese">4556</Dice></td>
-<td><span lang="zh">雪兒梅</span></td>
-<td>Snow Plum</td>
-<td rowspan="5">Win 1×</td>
+<td class="numeric">
+16
+</td>
+<td>
+<Dice type="chinese">4556</Dice>
+</td>
+<td>
+<span lang="zh">雪兒梅</span>
+</td>
+<td>
+Snow Plum
+</td>
+<td rowspan="5">
+Win 1×
+</td>
 </tr>
 <tr>
-<td class="numeric">15</td>
-<td><Dice type="chinese">4555</Dice></td>
-<td><span lang="zh">永團圓</span></td>
-<td>Eternal Reunion</td>
+<td class="numeric">
+15
+</td>
+<td>
+<Dice type="chinese">4555</Dice>
+</td>
+<td>
+<span lang="zh">永團圓</span>
+</td>
+<td>
+Eternal Reunion
+</td>
 </tr>
 <tr>
-<td class="numeric">15</td>
-<td><Dice type="chinese">4366</Dice></td>
-<td><span lang="zh">皂[雕/鵰]旗</span></td>
-<td></td>
+<td class="numeric">
+15
+</td>
+<td>
+<Dice type="chinese">4366</Dice>
+</td>
+<td>
+<span lang="zh">皂[雕/鵰]旗</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">14</td>
-<td><Dice type="chinese">4356</Dice></td>
-<td><span lang="zh">穿花鳯</span></td>
-<td>Wearing-Flowers Phoenix</td>
+<td class="numeric">
+14
+</td>
+<td>
+<Dice type="chinese">4356</Dice>
+</td>
+<td>
+<span lang="zh">穿花鳯</span>
+</td>
+<td>
+Wearing-Flowers Phoenix
+</td>
 </tr>
 <tr>
-<td class="numeric">14</td>
-<td><Dice type="chinese">4266</Dice></td>
-<td><span lang="zh">鐵道冠</span></td>
-<td></td>
+<td class="numeric">
+14
+</td>
+<td>
+<Dice type="chinese">4266</Dice>
+</td>
+<td>
+<span lang="zh">鐵道冠</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">13</td>
-<td><Dice type="chinese">4166</Dice></td>
-<td><span lang="zh">點絳唇</span></td>
-<td></td>
-<td rowspan="2">Win 2×</td>
+<td class="numeric">
+13
+</td>
+<td>
+<Dice type="chinese">4166</Dice>
+</td>
+<td>
+<span lang="zh">點絳唇</span>
+</td>
+<td>
+</td>
+<td rowspan="2">
+Win 2×
+</td>
 </tr>
 <tr>
-<td class="numeric">13</td>
-<td><Dice type="chinese">4355</Dice></td>
-<td><span lang="zh">鳯歸雲</span></td>
-<td></td>
+<td class="numeric">
+13
+</td>
+<td>
+<Dice type="chinese">4355</Dice>
+</td>
+<td>
+<span lang="zh">鳯歸雲</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">13</td>
-<td><Dice type="chinese">4256</Dice></td>
-<td><span lang="zh">埜雞頸</span></td>
-<td>Pheasant Neck</td>
-<td>Win 3×</td>
+<td class="numeric">
+13
+</td>
+<td>
+<Dice type="chinese">4256</Dice>
+</td>
+<td>
+<span lang="zh">埜雞頸</span>
+</td>
+<td>
+Pheasant Neck
+</td>
+<td>
+Win 3×
+</td>
 </tr>
 <tr>
-<td class="numeric">12</td>
-<td><Dice type="chinese">4255</Dice></td>
-<td><span lang="zh">十二時</span></td>
-<td>12 o’clock</td>
-<td>Win 4×</td>
+<td class="numeric">
+12
+</td>
+<td>
+<Dice type="chinese">4255</Dice>
+</td>
+<td>
+<span lang="zh">十二時</span>
+</td>
+<td>
+12 o’clock
+</td>
+<td>
+Win 4×
+</td>
 </tr>
 <tr class="table-group-divider">
-<td class="numeric">12</td>
-<td><Dice type="chinese">4336</Dice></td>
-<td><span lang="zh">鷓鴣天</span></td>
-<td></td>
-<td rowspan="11"><span lang="zh">賽色</span></td>
+<td class="numeric">
+12
+</td>
+<td>
+<Dice type="chinese">4336</Dice>
+</td>
+<td>
+<span lang="zh">鷓鴣天</span>
+</td>
+<td>
+</td>
+<td rowspan="11">
+<span lang="zh">賽色</span>
+</td>
 </tr>
 <tr>
-<td class="numeric">12</td>
-<td><Dice type="chinese">4156</Dice></td>
-<td><span lang="zh">巫山一段雲</span></td>
-<td></td>
+<td class="numeric">
+12
+</td>
+<td>
+<Dice type="chinese">4156</Dice>
+</td>
+<td>
+<span lang="zh">巫山一段雲</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">11</td>
-<td><Dice type="chinese">4335</Dice></td>
-<td><span lang="zh">鵲踏枝</span></td>
-<td></td>
+<td class="numeric">
+11
+</td>
+<td>
+<Dice type="chinese">4335</Dice>
+</td>
+<td>
+<span lang="zh">鵲踏枝</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">11</td>
-<td><Dice type="chinese">4155</Dice></td>
-<td><span lang="zh">梅梢月</span></td>
-<td></td>
+<td class="numeric">
+11
+</td>
+<td>
+<Dice type="chinese">4155</Dice>
+</td>
+<td>
+<span lang="zh">梅梢月</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">11</td>
-<td><Dice type="chinese">4236</Dice></td>
-<td><span lang="zh">画眉不盡?</span></td>
-<td></td>
+<td class="numeric">
+11
+</td>
+<td>
+<Dice type="chinese">4236</Dice>
+</td>
+<td>
+<span lang="zh">画眉不盡?</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">10</td>
-<td><Dice type="chinese">4226</Dice></td>
-<td><span lang="zh">夾十兒</span></td>
-<td>Squeezed 10</td>
+<td class="numeric">
+10
+</td>
+<td>
+<Dice type="chinese">4226</Dice>
+</td>
+<td>
+<span lang="zh">夾十兒</span>
+</td>
+<td>
+Squeezed 10
+</td>
 </tr>
 <tr>
-<td class="numeric">10</td>
-<td><Dice type="chinese">4136</Dice></td>
-<td><span lang="zh">撮十兒</span></td>
-<td>Pinched 10</td>
+<td class="numeric">
+10
+</td>
+<td>
+<Dice type="chinese">4136</Dice>
+</td>
+<td>
+<span lang="zh">撮十兒</span>
+</td>
+<td>
+Pinched 10
+</td>
 </tr>
 <tr>
-<td class="numeric">10</td>
-<td><Dice type="chinese">4235</Dice></td>
-<td><span lang="zh">落梅花</span></td>
-<td></td>
+<td class="numeric">
+10
+</td>
+<td>
+<Dice type="chinese">4235</Dice>
+</td>
+<td>
+<span lang="zh">落梅花</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">9</td>
-<td><Dice type="chinese">4126</Dice></td>
-<td><span lang="zh">女冠子</span></td>
-<td></td>
+<td class="numeric">
+9
+</td>
+<td>
+<Dice type="chinese">4126</Dice>
+</td>
+<td>
+<span lang="zh">女冠子</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">9</td>
-<td><Dice type="chinese">4135</Dice></td>
-<td><span lang="zh">一剪梅</span></td>
-<td></td>
+<td class="numeric">
+9
+</td>
+<td>
+<Dice type="chinese">4135</Dice>
+</td>
+<td>
+<span lang="zh">一剪梅</span>
+</td>
+<td>
+</td>
 </tr>
 <tr>
-<td class="numeric">9</td>
-<td><Dice type="chinese">4225</Dice></td>
-<td><span lang="zh">鎖南枝</span></td>
-<td></td>
+<td class="numeric">
+9
+</td>
+<td>
+<Dice type="chinese">4225</Dice>
+</td>
+<td>
+<span lang="zh">鎖南枝</span>
+</td>
+<td>
+</td>
 </tr>
 <tr class="table-group-divider">
-<td class="numeric">9</td>
-<td><Dice type="chinese">4333</Dice></td>
-<td><span lang="zh">柳葉兒</span></td>
-<td>Willow Leaves</td>
-<td>Lose 4×</td>
+<td class="numeric">
+9
+</td>
+<td>
+<Dice type="chinese">4333</Dice>
+</td>
+<td>
+<span lang="zh">柳葉兒</span>
+</td>
+<td>
+Willow Leaves
+</td>
+<td>
+Lose 4×
+</td>
 </tr>
 <tr>
-<td class="numeric">8</td>
-<td><Dice type="chinese">4125</Dice></td>
-<td><span lang="zh">鎖頂八</span></td>
-<td>Lock Top 8</td>
-<td>Lose 3×</td>
+<td class="numeric">
+8
+</td>
+<td>
+<Dice type="chinese">4125</Dice>
+</td>
+<td>
+<span lang="zh">鎖頂八</span>
+</td>
+<td>
+Lock Top 8
+</td>
+<td>
+Lose 3×
+</td>
 </tr>
 <tr>
-<td class="numeric">8</td>
-<td><Dice type="chinese">4116</Dice></td>
-<td><span lang="zh">睜眼八</span></td>
-<td>Open Eyes 8</td>
-<td rowspan="2">Lose 2×</td>
+<td class="numeric">
+8
+</td>
+<td>
+<Dice type="chinese">4116</Dice>
+</td>
+<td>
+<span lang="zh">睜眼八</span>
+</td>
+<td>
+Open Eyes 8
+</td>
+<td rowspan="2">
+Lose 2×
+</td>
 </tr>
 <tr>
-<td class="numeric">8</td>
-<td><Dice type="chinese">4233</Dice></td>
-<td><span lang="zh">[雁/鴈]兒八</span></td>
-<td>Wild Goose 8</td>
+<td class="numeric">
+8
+</td>
+<td>
+<Dice type="chinese">4233</Dice>
+</td>
+<td>
+<span lang="zh">[雁/鴈]兒八</span>
+</td>
+<td>
+Wild Goose 8
+</td>
 </tr>
 <tr>
-<td class="numeric">7</td>
-<td><Dice type="chinese">4133</Dice></td>
-<td><span lang="zh">川七兒</span></td>
-<td>River 7</td>
-<td rowspan="3">Lose 1×</td>
+<td class="numeric">
+7
+</td>
+<td>
+<Dice type="chinese">4133</Dice>
+</td>
+<td>
+<span lang="zh">川七兒</span>
+</td>
+<td>
+River 7
+</td>
+<td rowspan="3">
+Lose 1×
+</td>
 </tr>
 <tr>
-<td class="numeric">7</td>
-<td><Dice type="chinese">4115</Dice></td>
-<td><span lang="zh">白七兒</span></td>
-<td>Staring 7</td>
+<td class="numeric">
+7
+</td>
+<td>
+<Dice type="chinese">4115</Dice>
+</td>
+<td>
+<span lang="zh">白七兒</span>
+</td>
+<td>
+Staring 7
+</td>
 </tr>
 <tr>
-<td class="numeric">7</td>
-<td><Dice type="chinese">4223</Dice></td>
-<td><span lang="zh">夾七兒</span></td>
-<td>Squeezed 7</td>
+<td class="numeric">
+7
+</td>
+<td>
+<Dice type="chinese">4223</Dice>
+</td>
+<td>
+<span lang="zh">夾七兒</span>
+</td>
+<td>
+Squeezed 7
+</td>
 </tr>
 <tr>
-<td class="numeric">6</td>
-<td><Dice type="chinese">4123</Dice></td>
-<td><span lang="zh">要孩兒</span></td>
-<td>Wanting a Child</td>
-<td>Lose 3×</td>
+<td class="numeric">
+6
+</td>
+<td>
+<Dice type="chinese">4123</Dice>
+</td>
+<td>
+<span lang="zh">要孩兒</span>
+</td>
+<td>
+Wanting a Child
+</td>
+<td>
+Lose 3×
+</td>
 </tr>
 <tr>
-<td class="numeric">6</td>
-<td><Dice type="chinese">4222</Dice></td>
-<td><span lang="zh">粉蝶兒</span></td>
-<td>White Butterfly</td>
-<td rowspan="3">Lose 1×</td>
+<td class="numeric">
+6
+</td>
+<td>
+<Dice type="chinese">4222</Dice>
+</td>
+<td>
+<span lang="zh">粉蝶兒</span>
+</td>
+<td>
+White Butterfly
+</td>
+<td rowspan="3">
+Lose 1×
+</td>
 </tr>
 <tr>
-<td class="numeric">5</td>
-<td><Dice type="chinese">4122</Dice></td>
-<td><span lang="zh">五供養</span></td>
-<td>5 Offerings</td>
+<td class="numeric">
+5
+</td>
+<td>
+<Dice type="chinese">4122</Dice>
+</td>
+<td>
+<span lang="zh">五供養</span>
+</td>
+<td>
+5 Offerings
+</td>
 </tr>
 <tr>
-<td class="numeric">5</td>
-<td><Dice type="chinese">4113</Dice></td>
-<td><span lang="zh">葫蘆兒</span></td>
-<td>Gourd</td>
+<td class="numeric">
+5
+</td>
+<td>
+<Dice type="chinese">4113</Dice>
+</td>
+<td>
+<span lang="zh">葫蘆兒</span>
+</td>
+<td>
+Gourd
+</td>
 </tr>
 <tr>
-<td class="numeric">4</td>
-<td><Dice type="chinese">4112</Dice></td>
-<td><span lang="zh">咬牙四</span></td>
-<td>Gnashing Teeth 4</td>
-<td>Lose 3×</td>
+<td class="numeric">
+4
+</td>
+<td>
+<Dice type="chinese">4112</Dice>
+</td>
+<td>
+<span lang="zh">咬牙四</span>
+</td>
+<td>
+Gnashing Teeth 4
+</td>
+<td>
+Lose 3×
+</td>
 </tr>
 <tr>
-<td class="numeric">3</td>
-<td><Dice type="chinese">4111</Dice></td>
-<td><span lang="zh">快活三</span></td>
-<td>Cheerful 3</td>
-<td>Lose 5×</td>
+<td class="numeric">
+3
+</td>
+<td>
+<Dice type="chinese">4111</Dice>
+</td>
+<td>
+<span lang="zh">快活三</span>
+</td>
+<td>
+Cheerful 3
+</td>
+<td>
+Lose 5×
+</td>
 </tr>
 </tbody>
 </table>

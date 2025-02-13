@@ -289,70 +289,148 @@ still used in modern games run under the name of Chuck-A-Luck.
 In addition to the “Chuck” bets, which are played in boxes labelled 1–6 as usual, the extended staking layout contains boxes for the following bets:
 
 <dl>
-<dt>Raffles</dt>
+<dt>
+Raffles
+</dt>
 <dd>
-<p>A “raffle” is a three-of-a-kind. There are two different raffles bets that can be made: either that any raffle will come up, which pays 29&ratio;1[^fn0] (fair odds 35&ratio;1), or else a bet can be placed on a specific raffle, which pays 179&ratio;1 (fair odds 216&ratio;1). Both bets have the same high house edge of 16.67% and so in the long-term are equivalent bets.</p>
-<p>More modern versions of the game might pay out 30&ratio;1 for any 3-of-a-kind, which has a slightly lower edge of 13.89%.</p>
+A “raffle” is a three-of-a-kind. There are two different raffles bets that can be made: either that any raffle will come up, which pays 29&ratio;1[^fn0] (fair odds 35&ratio;1), or else a bet can be placed on a specific raffle, which pays 179&ratio;1 (fair odds 216&ratio;1). Both bets have the same high house edge of 16.67% and so in the long-term are equivalent bets.
+
+More modern versions of the game might pay out 30&ratio;1 for any 3-of-a-kind, which has a slightly lower edge of 13.89%.
 </dd>
-<dt>Low (≤10) or High (≥11)</dt>
-<dd>These bets are on what the total number of pips showing on the dice will be. Both would be even bets except that they lose on a raffle. They have the same odds and pay 1&ratio;1 (fair 37&ratio;35); the house edge is the lowest on the board at 2.78%.</dd>
-<dt>Specific totals</dt>
+<dt>
+Low (≤10) or High (≥11)
+</dt>
 <dd>
-    <p>Each total is paid out at a different rate. All have extremely high house edges:</p>
-    <table class="numeric">
-        <thead>
-        <tr>
-            <th>Values</th>
-            <th>Paid</th>
-            <th>Fair</th>
-            <th>Edge</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>10, 11</td>
-            <td>5&ratio;1</td>
-            <td>7&ratio;1</td>
-            <td>25.00%</td>
-        </tr>
-        <tr>
-            <td>9, 12</td>
-            <td>5&ratio;1</td>
-            <td>7.64&ratio;1<br/>(191&ratio;25)</td>
-            <td>30.56%</td>
-        </tr>
-        <tr>
-            <td>8, 13</td>
-            <td>7&ratio;1</td>
-            <td>≈9.3&ratio;1<br/>(65&ratio;7)</td>
-            <td>22.22%</td>
-        </tr>
-        <tr>
-            <td>7, 14</td>
-            <td>11&ratio;1</td>
-            <td>13.4&ratio;1<br/>(67&ratio;5)</td>
-            <td>16.67%</td>
-        </tr>
-        <tr>
-            <td>6, 15</td>
-            <td>17&ratio;1</td>
-            <td>20.6&ratio;1<br/>(103&ratio;5)</td>
-            <td>16.67%</td>
-        </tr>
-        <tr>
-            <td>5, 16</td>
-            <td>29&ratio;1</td>
-            <td>35&ratio;1</td>
-            <td>16.67%</td>
-        </tr>
-        <tr>
-            <td>4, 17</td>
-            <td>59&ratio;1</td>
-            <td>71&ratio;1</td>
-            <td>16.67%</td>
-        </tr>
-        </tbody>
-    </table>
+These bets are on what the total number of pips showing on the dice will be. Both would be even bets except that they lose on a raffle. They have the same odds and pay 1&ratio;1 (fair 37&ratio;35); the house edge is the lowest on the board at 2.78%.
+</dd>
+<dt>
+Specific totals
+</dt>
+<dd>
+Each total is paid out at a different rate. All have extremely high house edges:
+
+<table class="numeric">
+    <thead>
+    <tr>
+        <th>
+        Values
+        </th>
+        <th>
+        Paid
+        </th>
+        <th>
+        Fair
+        </th>
+        <th>
+        Edge
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>
+        10, 11
+        </td>
+        <td>
+        5&ratio;1
+        </td>
+        <td>
+        7&ratio;1
+        </td>
+        <td>
+        25.00%
+        </td>
+    </tr>
+    <tr>
+        <td>
+        9, 12
+        </td>
+        <td>
+        5&ratio;1
+        </td>
+        <td>
+        7.64&ratio;1\
+        (191&ratio;25)
+        </td>
+        <td>
+        30.56%
+        </td>
+    </tr>
+    <tr>
+        <td>
+        8, 13
+        </td>
+        <td>
+        7&ratio;1
+        </td>
+        <td>
+        ≈9.3&ratio;1\
+        (65&ratio;7)
+        </td>
+        <td>
+        22.22%
+        </td>
+    </tr>
+    <tr>
+        <td>
+        7, 14
+        </td>
+        <td>
+        11&ratio;1
+        </td>
+        <td>
+        13.4&ratio;1\
+        (67&ratio;5)
+        </td>
+        <td>
+        16.67%
+        </td>
+    </tr>
+    <tr>
+        <td>
+        6, 15
+        </td>
+        <td>
+        17&ratio;1
+        </td>
+        <td>
+        20.6&ratio;1\
+        (103&ratio;5)
+        </td>
+        <td>
+        16.67%
+        </td>
+    </tr>
+    <tr>
+        <td>
+        5, 16
+        </td>
+        <td>
+        29&ratio;1
+        </td>
+        <td>
+        35&ratio;1
+        </td>
+        <td>
+        16.67%
+        </td>
+    </tr>
+    <tr>
+        <td>
+        4, 17
+        </td>
+        <td>
+        59&ratio;1
+        </td>
+        <td>
+        71&ratio;1
+        </td>
+        <td>
+        16.67%
+        </td>
+    </tr>
+    </tbody>
+</table>
 </dd>
 </dl>
 
@@ -376,10 +454,18 @@ In addition to the “Chuck” bets, which are played in boxes labelled 1–6 as
 Some bets seen on Hyronemus layouts are based on the sum of the dice:
 
 <dl>
-<dt>Low (&lt;10) and High (&gt;11)</dt>
-<dd>Both of these are bad bets, paying 1&ratio;1 (fair odds 1⅔&ratio;1) for a house edge of 25%.</dd>
-<dt>10 &middot; 11</dt>
-<dd>Both of these are worse bets, paying 4&ratio;1 (fair odds 7&ratio;1) for a house edge of 37.5%!</dd>
+<dt>
+Low (&lt;10) and High (&gt;11)
+</dt>
+<dd>
+Both of these are bad bets, paying 1&ratio;1 (fair odds 1⅔&ratio;1) for a house edge of 25%.
+</dd>
+<dt>
+10 &middot; 11
+</dt>
+<dd>
+Both of these are worse bets, paying 4&ratio;1 (fair odds 7&ratio;1) for a house edge of 37.5%!
+</dd>
 </dl>
 
 ### Field Bets
@@ -389,20 +475,36 @@ Other versions of the game include “field” bets, which are a bet that the di
 Examples include:
 
 <dl>
-<dt>5 &middot; 6 &middot; 7 &middot; 8 / 13 &middot; 14 &middot; 15 &middot; 16</dt>
-<dd>This field has a house edge of 3.7%.</dd>
-<dt>3 &middot; 4 &middot; 5 &middot; 6 &middot; 7 / 13 &middot; 14 &middot; 15 &middot; 16 &middot; 17 &middot; 18</dt>
-<dd>Despite having more numbers, this field excludes the common ‘8’, and has a house edge of 15.74%.</dd>
+<dt>
+5 &middot; 6 &middot; 7 &middot; 8 / 13 &middot; 14 &middot; 15 &middot; 16
+</dt>
+<dd>
+This field has a house edge of 3.7%.
+</dd>
+<dt>
+3 &middot; 4 &middot; 5 &middot; 6 &middot; 7 / 13 &middot; 14 &middot; 15 &middot; 16 &middot; 17 &middot; 18
+</dt>
+<dd>
+Despite having more numbers, this field excludes the common ‘8’, and has a house edge of 15.74%.
+</dd>
 </dl>
 
 There are also two-dice fields, where two of the three dice are coloured
 differently to the third, and the field value is based upon their total:
 
 <dl>
-<dt>2 &middot; 3 &middot; 4 &middot; 9 &middot; 10 &middot; 11 &middot; 12</dt>
-<dd>As seen on layouts produced by <a href="https://www.icollector.com/Framed-Chuck-a-Luck-Layout-with-Field-Bet-Game-was-pl_i8609509">Taylor & Co.</a> or the <a href="http://museumofgaminghistory.org/mogh.php?p=gallery&d=Gallery/Antique%20Equipment/Hazard/&i=3">K. C. Card Company</a>. The house edge on this field is 11.11%.</dd>
-<dt>2 &middot; 3 &middot; 5 &middot; 9 &middot; 10 &middot; 11 &middot; 12</dt>
-<dd>As seen on layouts produced by <a href="https://www.icollector.com/Mason-Co-Straight-Chuck-A-Luck-Layout-ca-1900_i8638281">Mason & Co</a>. The house edge on this field is 5.56%.</dd>
+<dt>
+2 &middot; 3 &middot; 4 &middot; 9 &middot; 10 &middot; 11 &middot; 12
+</dt>
+<dd>
+As seen on layouts produced by <a href="https://www.icollector.com/Framed-Chuck-a-Luck-Layout-with-Field-Bet-Game-was-pl_i8609509">Taylor & Co.</a> or the <a href="http://museumofgaminghistory.org/mogh.php?p=gallery&d=Gallery/Antique%20Equipment/Hazard/&i=3">K. C. Card Company</a>. The house edge on this field is 11.11%.
+</dd>
+<dt>
+2 &middot; 3 &middot; 5 &middot; 9 &middot; 10 &middot; 11 &middot; 12
+</dt>
+<dd>
+As seen on layouts produced by <a href="https://www.icollector.com/Mason-Co-Straight-Chuck-A-Luck-Layout-ca-1900_i8638281">Mason & Co</a>. The house edge on this field is 5.56%.
+</dd>
 </dl>
 
 ## Fairground variants
