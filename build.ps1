@@ -2,7 +2,7 @@
 param(
     [switch]$watch = $false,
     [switch]$drafts = $false,
-    [switch]$skip-build = $false
+    [switch]$skip_build = $false
 )
 
 $ErrorActionPreference = 'Stop'

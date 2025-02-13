@@ -31,7 +31,7 @@ jobs:
         export PATH="$HOME/bin:$PATH"
         # check if cache restored binary
         if [ -e 'build/target/release/wtp-build' ]; then
-          ./build.ps1 -skip-build
+          ./build.ps1 -skip_build
         else
           ./build.ps1
         fi
