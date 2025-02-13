@@ -1,12 +1,13 @@
-use std::borrow::Cow;
+use std::{borrow::Cow, collections::BTreeMap};
 
-use eyre::{Context, Result};
+use eyre::{Context, OptionExt, Result};
 use itertools::Itertools;
+use langtag::LangTagBuf;
 use maud::{html, Markup, DOCTYPE};
 use time::macros::format_description;
 use url::Url;
 
-use crate::{bib_render::RenderedBibliography, ArticleNode};
+use crate::{bib_render::RenderedBibliography, Aka, ArticleNode};
 
 pub struct Templater {
     site_url: Url,
@@ -477,6 +478,90 @@ impl Templater {
 
         self.base(
             &SimplePage::new("Games".to_string(), "/games/".into(), modification_date),
+            &[],
+            content,
+        )
+    }
+
+    pub fn names_index(&self, akas: impl Iterator<Item = Aka>) -> Result<OutputFile> {
+        let name_of = |lang: &str| -> Result<String> {
+            let name = match lang {
+                "tws" => "Teochew".to_string(),
+                p => {
+                    let known = isolang::Language::from_639_1(p)
+                        .or_else(|| isolang::Language::from_639_3(p))
+                        .ok_or_else(|| eyre::eyre!("unknown language {:?}", p))?;
+
+                    match known.to_autonym() {
+                        Some(auto) if auto != known.to_name() => {
+                            format!(
+                                r#"{} · <span class="noun" lang="{}">{}</span>"#,
+                                known.to_name(),
+                                lang,
+                                auto
+                            )
+                        }
+                        _ => known.to_name().to_string(),
+                    }
+                }
+            };
+
+            Ok(name)
+        };
+
+        let mut lang_groups: Vec<(String, String, Vec<(LangTagBuf, Markup, String)>)> = akas
+            .map(|aka| {
+                Ok((
+                    aka.language
+                        .language()
+                        .ok_or_eyre("no language")?
+                        .to_string(),
+                    (aka.language, aka.word, aka.url_path),
+                ))
+            })
+            .collect::<Result<Vec<_>>>()?
+            .into_iter()
+            .into_group_map()
+            .into_iter()
+            .map(|(l, v)| Ok((name_of(&l)?, l.to_string(), v)))
+            .collect::<Result<_>>()?;
+
+        lang_groups.sort_by_cached_key(|(name, _, _)| name.clone());
+
+        let content = html! {
+            h1 { "Game Names Index" }
+            p {
+                "This page lists all game names by language, as an index to the articles where they are discussed."
+            }
+            h2 { "Languages" }
+            ul.columnar {
+                @for (name, id, _) in &lang_groups {
+                    li {
+                        a href={"#" (id)} {
+                            (maud::PreEscaped(name))
+                        }
+                    }
+                }
+            }
+            hr;
+            @for (name, id, akas) in lang_groups {
+                h3 #(id) { (maud::PreEscaped(name)) }
+                ul.columnarr {
+                    @for (langtag, name, url) in akas {
+                        li {
+                            a href=(url) lang=(langtag) { (name) }
+                        }
+                    }
+                }
+            }
+        };
+
+        self.base(
+            &SimplePage::new(
+                "Game Names Index".to_string(),
+                "/game-names-index/".into(),
+                None, // TODO modification date?
+            ),
             &[],
             content,
         )

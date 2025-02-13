@@ -8,7 +8,7 @@ use std::{
     path::{Path, PathBuf},
     process::{self},
     str::FromStr,
-    sync::LazyLock,
+    sync::{LazyLock, Mutex},
     time::Duration,
 };
 
@@ -16,6 +16,7 @@ use bib_render::RenderedBibliography;
 use clap::Parser;
 use eyre::{bail, eyre, Context, ContextCompat, OptionExt, Result};
 use itertools::Itertools;
+use langtag::LangTagBuf;
 use markdown::{mdast, Constructs, ParseOptions};
 use maud::Markup;
 use notify::{
@@ -336,6 +337,12 @@ impl ImageManifestEntry {
     }
 }
 
+pub struct Aka {
+    pub language: LangTagBuf,
+    pub word: Markup,
+    pub url_path: String,
+}
+
 struct Builder {
     base_path: PathBuf,
     output_path: PathBuf,
@@ -594,17 +601,20 @@ impl Builder {
         &self,
         output_files: &mut Vec<OutputFile>,
         url_lookup: &BTreeMap<String, Option<&str>>,
+        akas: Vec<Aka>,
     ) -> Result<()> {
         output_files.extend([
             self.generate_article(
                 &self.load_file::<ArticleHeader>(self.base_path.join("about.md"))?,
                 url_lookup,
                 None,
+                |_, _| {},
             )?,
             self.generate_article(
                 &self.load_file::<ArticleHeader>(self.base_path.join("see-also.md"))?,
                 url_lookup,
                 None,
+                |_, _| {},
             )?,
             self.templater
                 .bibliography(&self.rendered_bibliography)
@@ -619,6 +629,9 @@ impl Builder {
                         .filter(|g| !g.is_draft() || self.output_drafts),
                 )
                 .wrap_err("generating games page")?,
+            self.templater
+                .names_index(akas.into_iter())
+                .wrap_err("generating names index")?,
         ]);
 
         output_files.push(self.sitemap(output_files).wrap_err("generating sitemap")?);
@@ -658,6 +671,7 @@ impl Builder {
         article: &File<T>,
         url_lookup: &BTreeMap<String, Option<&str>>,
         article_tree: Option<&ArticleNode>,
+        aka_handler: impl Fn(LangTagBuf, Markup),
     ) -> Result<OutputFile>
     where
         File<T>: ArticleMetadata + BaseMetadata,
@@ -669,6 +683,7 @@ impl Builder {
             &self.rendered_bibliography,
             &self.images,
             url_lookup,
+            aka_handler,
         )
         .wrap_err("rendering HTML")?;
 
@@ -718,9 +733,12 @@ impl Builder {
             prev_next = templates::render_prev_next(prev_sibling, next_sibling);
         }
 
-        self.templater
+        let output_file = self
+            .templater
             .article(article, &content, &breadcrumbs, children, prev_next)
-            .wrap_err("templating article")
+            .wrap_err("templating article")?;
+
+        Ok(output_file)
     }
 
     fn generate(&mut self) -> Result<()> {
@@ -733,12 +751,22 @@ impl Builder {
 
         let article_tree = self.build_article_tree()?;
 
+        let akas = Mutex::new(Vec::new());
+
         let articles = self
             .articles
             .par_iter()
             .filter(|a| !a.is_draft() || self.output_drafts)
             .map(|article| {
-                self.generate_article(article, &url_lookup, Some(&article_tree))
+                let push_aka = |language: LangTagBuf, word: Markup| {
+                    let aka = Aka {
+                        language,
+                        word,
+                        url_path: article.url_path.to_string(),
+                    };
+                    akas.lock().unwrap().push(aka);
+                };
+                self.generate_article(article, &url_lookup, Some(&article_tree), push_aka)
                     .wrap_err_with(|| eyre!("couldn’t export {}", article.file_path.display()))
             });
 
@@ -747,13 +775,21 @@ impl Builder {
             .par_iter()
             .filter(|a| !a.is_draft() || self.output_drafts)
             .map(|game| {
-                self.generate_article(game, &url_lookup, None)
+                let push_aka = |language: LangTagBuf, word: Markup| {
+                    let aka = Aka {
+                        language,
+                        word,
+                        url_path: game.url_path.to_string(),
+                    };
+                    akas.lock().unwrap().push(aka);
+                };
+                self.generate_article(game, &url_lookup, None, push_aka)
                     .wrap_err_with(|| eyre!("couldn’t export {}", game.file_path.display()))
             });
 
         let mut output_files = articles.chain(games).collect::<Result<Vec<_>>>()?;
 
-        self.generate_other_files(&mut output_files, &url_lookup)?;
+        self.generate_other_files(&mut output_files, &url_lookup, akas.into_inner()?)?;
         self.output_files.extend(output_files);
 
         for file in &mut self.output_files {

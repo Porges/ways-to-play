@@ -3,6 +3,7 @@ use std::{borrow::Cow, collections::BTreeMap, path::Path, sync::LazyLock};
 use eyre::{bail, eyre, Context, OptionExt, Result};
 use indexmap::IndexMap;
 use itertools::Itertools;
+use langtag::LangTagBuf;
 use markdown::mdast::{
     AttributeContent, AttributeValue, Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Text,
     Yaml,
@@ -56,6 +57,7 @@ pub fn to_html(
     bibliography: &RenderedBibliography,
     images: &ImageManifest,
     url_lookup: &BTreeMap<String, Option<&str>>,
+    aka_handler: impl Fn(LangTagBuf, Markup),
 ) -> Result<Markup> {
     let (fndefs, linkdefs) = locate_defs(node);
     Converter {
@@ -69,6 +71,7 @@ pub fn to_html(
         cite_count: 0,
         header_stack: Vec::new(),
         url_lookup,
+        aka_handler: &aka_handler,
     }
     .convert_whole(node)
 }
@@ -84,6 +87,7 @@ struct Converter<'a> {
     cite_count: usize,
     header_stack: Vec<usize>,
     url_lookup: &'a BTreeMap<String, Option<&'a str>>,
+    aka_handler: &'a dyn Fn(LangTagBuf, Markup),
 }
 
 fn index_to_string(mut index: u32) -> String {
@@ -692,6 +696,21 @@ impl Converter<'_> {
             Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
                 let attributes = extract_attributes(&text.attributes)?;
                 let empty = el_name == "br" || el_name == "img";
+                if el_name == "span"
+                    && attributes
+                        .iter()
+                        .any(|(name, value)| *name == "class" && value.contains("aka"))
+                {
+                    let lang_attr = find_attribute(&text.attributes, "lang")
+                        .map(|n| LangTagBuf::new(n.to_string()))
+                        .transpose()
+                        .wrap_err("invalid lang tag")?
+                        .unwrap_or_else(|| LangTagBuf::new("en".to_string()).unwrap());
+
+                    let markup = self.expand(&text.children)?;
+                    (self.aka_handler)(lang_attr, markup);
+                }
+
                 html! {
                     (maud::PreEscaped(format!("<{}", el_name)))
                     @for attr in &attributes {

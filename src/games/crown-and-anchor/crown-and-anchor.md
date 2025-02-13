@@ -410,7 +410,7 @@ game at funerals.[@ThaiGambling p. 86]
 
 In Khmer the game is called <span lang="km" class="aka">ខ្លាឃ្លោក</span> <span lang="km-Latn" class="aka">khlaa khlook</span> (‘tiger and gourds’),[@SEAlangKhmer] and the images are usually tiger, gourd, chicken, prawn, crab, fish. As in Thailand, gambling is illegal.
 
-### Myanmar
+#### Myanmar
 
 The name of the game appears to be <span lang="my" class="aka">ဂျောက်ဂျက်</span> <span lang="my-Latn" class="aka">gjau’ gje’</span>,[@SEAlangBurmese] but I have no other information.
 
