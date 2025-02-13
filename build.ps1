@@ -1,7 +1,8 @@
 #!/bin/env pwsh
 param(
     [switch]$watch = $false,
-    [switch]$drafts = $false
+    [switch]$drafts = $false,
+    [switch]$skip-build = $false
 )
 
 $ErrorActionPreference = 'Stop'
@@ -156,7 +157,10 @@ function Build-HTML {
 
 Copy-StaticContent
 Resize-Images
-Build-Builder
+
+if (-not $skip_build) {
+    Build-Builder
+}
 
 if ($watch) {
     $bg = Start-Job { miniserve $using:public --index index.html }

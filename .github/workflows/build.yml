@@ -21,12 +21,22 @@ jobs:
         path: public/img
         key: images-${{ hashFiles('src/**/*.png', 'src/**/*.jpe?g', 'src/**/*.gif', 'src/**/*.svg') }}
         restore-keys: images-
+    - uses: actions/cache@v4
+      id: build-cache
+      with:
+        path: build/target/release/wtp-build
+        key: build-${{ hashFiles('build/**') }}
     - name: Build site
       run: |
         export PATH="$HOME/bin:$PATH"
-        ./build.ps1
+        # check if cache restored binary
+        if [ -e 'build/target/release/wtp-build' ]; then
+          ./build.ps1 -skip-build
+        else
+          ./build.ps1
+        fi
     - name: Validate HTML
       run: |
         wget -q 'https://github.com/validator/validator/releases/download/20.6.30/vnu.linux.zip' -O vnu.linux.zip
-        unzip vnu.linux.zip
+        unzip -q vnu.linux.zip
         vnu-runtime-image/bin/vnu --skip-non-html --filterfile .vnurc public || true # do not fail build
