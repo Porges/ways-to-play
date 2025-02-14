@@ -718,13 +718,13 @@ GameOfQuadrille:
   type: book
   title: The Game of Quadrille; or Ombre by Four, With its establish’d Laws and Rules, As it is now Play’d at the French Court
   publisher-place: London
-  publisher: R. Francklin 
+  publisher: R. Francklin
   URL: https://archive.org/details/bim_eighteenth-century_the-game-of-quadrille-o_1720
 GameOfQuadrille_2e:
   type: book
   title: The Game of Quadrille; or Ombre by Four, With its establish’d Laws and Rules, To which is added, the Game of Quintille; or Ombre by Five, Both after the Old and New Manner
   publisher-place: London
-  publisher: R. Francklin 
+  publisher: R. Francklin
   edition: 2
   issued: 1728
   URL: https://archive.org/details/bim_eighteenth-century_the-game-of-quadrille-o_1728
@@ -1128,7 +1128,7 @@ MacedonianFolklore:
   URL: https://archive.org/details/macedonianfolklo00abborich
 Hyde1:
   type: book
-  title: 
+  title:
     value: De Ludis Orientalibus Libri Duo
     alt: Two Books On Oriental Games
     lang: la
@@ -2246,7 +2246,7 @@ AnimalInFarEasternArt:
   ISBN: 9004042954
 FiggiUndMuliHaa:
   type: webpage
-  title: 
+  title:
     value: "Schweizerisches Idiotikon: Figgi und Müli haa"
     lang: gsw
   language: gsw
@@ -2356,7 +2356,7 @@ GebelElSilsila:
     family: Ward
   page: 123-132
   in:
-    title: The Journal of Egyptian Archaeology 
+    title: The Journal of Egyptian Archaeology
     volume: 106
     issue: 1
     issued:
@@ -2744,11 +2744,11 @@ AnIntroductionToJapaneseTeaRitual:
   publisher-place: Albany, NY, USA
 EbashiSadakuro:
   type: webpage
-  title: 
+  title:
     value: 後世の花札図柄との異同
     lang: ja
   language: ja
-  author: 
+  author:
     - &ebashi
       given: 崇
       family: 江橋
@@ -2846,7 +2846,7 @@ Hargrave:
   ISBN: 978-0-486-41236-8
 TewazaNoKioku:
   type: book
-  title: 
+  title:
     value: 手わざの記憶
     lang: ja
   language: ja
@@ -2854,7 +2854,7 @@ TewazaNoKioku:
     - given: 健司
       family: 村上
       lang: ja
-      alt: 
+      alt:
         value: Murakami Kenji
         lang: ja-Latn
   issued:
@@ -2865,7 +2865,7 @@ TewazaNoKioku:
   publisher-place: Tōkyō, Japan
 OishiTengudoHistory4:
   type: webpage
-  title: 
+  title:
     value: 大石天狗堂口伝　第四章
     lang: ja
   language: ja
@@ -2902,7 +2902,7 @@ UmebayashiIsao:
       family: 梅林
       given: 勲
       lang: ja
-      alt: 
+      alt:
         value: Umebayashi Isao
         lang: ja-Latn
   URL: http://www.jirg.org/wp-content/themes/jirg/newsletter/download/newsletter_008.php
@@ -2964,7 +2964,7 @@ SchreiberCollection:
   URL: https://archive.org/details/catalogueofcoll00brit
 HironoriGunjin:
   type: article-journal
-  title: 
+  title:
     value: 日本と世界の行軍将棋
     lang: ja
   language: ja
@@ -2972,7 +2972,7 @@ HironoriGunjin:
     - given: 浩徳
       family: 高橋
       lang: ja
-      alt: 
+      alt:
         value: Takahashi Hironori
         lang: ja-Latn
   URL: http://id.nii.ac.jp/1297/00000560
@@ -2991,20 +2991,20 @@ MuraiSun:
     - family: 村井
       given: 省三
       lang: ja
-      alt: 
+      alt:
         value: Murai Shōzō
         lang: ja-Latn
-  title: 
+  title:
     value: 明治の花札
     lang: ja
   language: ja
   page: 160–4
-  in: 
+  in:
     issue: 9
     issued:
       year: 1974
       season: Winter
-    title: 
+    title:
       value: 別冊太陽
       lang: ja
 DevilsPictureBooks:
@@ -3031,7 +3031,7 @@ KaiOi:
     - given: 浩徳
       family: 高橋
       lang: ja
-      alt: 
+      alt:
         value: Takahashi Hironori
         lang: ja-Latn
   issued:
@@ -3648,10 +3648,10 @@ UniversalInfo:
     lang: ja
   language: ja
   in:
-    title: 
+    title:
       value: 全国百貨店有名取引業者総覧
       lang: ja
-    publisher: 
+    publisher:
       value: 百貨店新聞社
       lang: ja
     issued:
@@ -3927,8 +3927,8 @@ RancangBangun:
   type: thesis
   title:
     value: Rancang Bangun Permainan Ceki <em>Online</em>
-    lang: ban
-  language: ban
+    lang: id
+  language: id
   publisher: Universitas Udayana
   publisher-place: Denpasar, Bali, Indonesia
   issued:
@@ -3969,7 +3969,7 @@ JavanischeKartenspiele:
   URL: https://www.jstor.org/stable/23031254
   page: 45–48
   in:
-    title: 
+    title:
       value: Zeitschrift für Ethnologie
       lang: de
     volume: 46
@@ -4322,7 +4322,7 @@ TrooperMilverton:
 DraytonGrange:
   type: article-newspaper
   title: The Drayton Grange
-  page: 7–8 
+  page: 7–8
   in:
     issued:
       year: 1902
@@ -4571,7 +4571,7 @@ TableauxEtCartons:
   page: 515–525
   URL: https://www.levieuxpapier-asso.org/wp-content/uploads/2019/08/LVP-n%C2%B0-429-JUILLET-2018-TABLEAUX-ET-CARTONS-ILLUSTRE%C2%B4S.pdf
   in:
-    title: 
+    title:
       value: Le Vieux Papier
       lang: fr
     issue: 429
@@ -5334,7 +5334,7 @@ SparrowAndPigeon:
   page: 26–37
   URL: https://www.icm.gov.mo/rc/viewer/10093/2508
   in:
-    title: 
+    title:
       value: Revista de Cultura
       lang: pt
     volume: 93
@@ -5399,7 +5399,7 @@ QinYingChapter:
     - family: 趙
       given: 爾巽
       lang: zh
-      alt: 
+      alt:
         value: Zhào Ěrxùn
         lang: cmn-Latn-pinyin
 PermainanKoaPart1:
@@ -5463,7 +5463,7 @@ deClercqPehiSpel:
       lang: nl
   page: 512–516
   in:
-    title: 
+    title:
       value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
       lang: nl
     volume: 23
@@ -5804,7 +5804,7 @@ LouisMoland:
 EtienneDolet:
   type: book
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k79281z/f98.item
-  title: 
+  title:
     value: La Plaiſante, & Ioyeuse hiſtoyre du grand Geant Gargantua
     lang: fr
   language: fr
@@ -5819,7 +5819,7 @@ EtienneDolet:
 Juste1535:
   type: book
   URL: https://gallica.bnf.fr/ark:/12148/btv1b86000209/f78.item
-  title: 
+  title:
     value: La vie inestimable du grand Gargantua, pere de Pantagruel, iadis cōpoſee par L’abſtracteur de quite eſsēce
     lang: fr
   language: fr
@@ -5833,7 +5833,7 @@ Juste1535:
 Juste1542:
   type: book
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k1040342n/f134.item
-  title: 
+  title:
     value: La vie treshorrificque du grand Gargantua, pere de Pantagruel, iadis cōpoſee par M. Alcofribas abſtracteur de quinte eſſence
     lang: fr
   language: fr
@@ -6754,7 +6754,7 @@ Himly:
       given: K.
   page: 461–484
   in:
-    title: 
+    title:
       value: Zeitschrift der Deutschen Morgenländischen Gesellschaft
       lang: de
     volume: 41
@@ -7366,7 +7366,7 @@ EdoKaruta7:
     - family: 三好
       given: 裕治
       lang: ja
-      alt: 
+      alt:
         value: Miyoshi Yūji
         lang: ja-Latn
 StudyOfGames:
@@ -7532,7 +7532,7 @@ LoreAndLanguage:
   title: The Lore and Language of Schoolchildren
   URL: https://archive.org/details/lorelanguageofsc0000iona
   author:
-    - &Iona_Opie 
+    - &Iona_Opie
       given: Iona
       family: Opie
       url: https://en.wikipedia.org/wiki/Iona_and_Peter_Opie
@@ -8074,7 +8074,7 @@ DictionnaireTurcFrançais2:
   author:
     - given: Nassif
       family: Mallouf
-  publisher: 
+  publisher:
     value: Maisonneuve et Cie
     lang: fr
   publisher-place: Paris
@@ -8776,7 +8776,7 @@ GoldenOpportunity:
     - given: Tatsufumi
       family: Yamazaki
       lang: ja-Latn
-      alt: 
+      alt:
         value: 山崎 達文
         lang: ja
   page: 2–22
@@ -8890,7 +8890,7 @@ ParadoxicalSoftPower:
     - family: Xavier
       given: Paulès
       lang: fr
-      alt: 
+      alt:
         value: 包利威
         lang: zh
   URL: https://doi.org/10.1163/24522015-01102002
@@ -9020,7 +9020,7 @@ PlaisirsEnChine:
       given: Ki-tong
       family: Tcheng
       url: https://en.wikipedia.org/wiki/Chen_Jitong
-      alt: 
+      alt:
         value: 陳季同
         lang: zh-Hant
   issued: 1890
@@ -9192,10 +9192,10 @@ CountyFolklore7:
     family: Simpkins
   issued: 1914
   publisher: Sidgwick & Jackson
-  publisher-place: Londn
+  publisher-place: London
   URL: https://archive.org/details/countyfolklore07folkuoft
   notes: Search “game”.
-  series: 
+  series:
     title: Publications of the Folk-Lore Society
     volume: 71
 LuckyAdditional:
@@ -9427,7 +9427,7 @@ TurkishEnglishLexicon:
   URL: https://archive.org/details/ATurkishAndEnglishLexicon
 JeuxDeParcours:
   type: article-journal
-  title: 
+  title:
     value: Jeux de parcours du monde arabo-musulman (Afrique du Nord et Proche-Orient)
     lang: fr
   language: fr
@@ -9465,7 +9465,7 @@ TangGuoshiBu:
     alt:
       value: Lǐ Zhào
       lang: cmn-Latn-pinyin
-  issued: 
+  issued:
     year: 800
     circa: true
   URL: https://ctext.org/wiki.pl?if=en&res=311175
@@ -9480,7 +9480,7 @@ GamesOfMongolianShepherds:
   publisher: Institute of the History of Material Culture, Polish Academy of Sciences
   publisher-place: Warsaw, Poland
   issued: 1991
-  series: 
+  series:
     title: The Library of Polish Ethnography
     number: 45
 HistoryOfTab:
@@ -9524,7 +9524,7 @@ ComputerizingTab:
     family: Alshamaileh
   - given: Surya V. B.
     family: Prasath
-  in: 
+  in:
     title: International Journal of Gaming and Computer-Mediated Simulations
     volume: 10
     issue: 3
@@ -9769,10 +9769,10 @@ KKChuhong:
     value: 每日頭條
     lang: zh
   author:
-  - given: 左 
+  - given: 左
     family: 於
     lang: zh
-    alt: Yú Zuǒ 
+    alt: Yú Zuǒ
   issued:
     year: 2019
     month: 1
@@ -9945,7 +9945,7 @@ AntiquariaatArineVanDerSteur44:
   archive-URL: https://web.archive.org/web/20230708023313/https://s3.amazonaws.com/document.issuu.com/211213205622-caec7c47f2df88ea8d3e73e9d8581d60/original.file?AWSAccessKeyId=ASIATDDRE5J73MMCBSKK&Signature=Nqo3VjyDpgWWI3CxwZQ10ynIlxs%3D&x-amz-security-token=FwoGZXIvYXdzEAMaDK7Tx6O8lmUceLGIOCLZAimZ2wwzXjw7xGqCUSQlVe4l242iEgbGoXjQQ71hawhsm5h6TFMBntc1JeRqCx7UvH0c5a9s62izqtXpKNFvVAeBMpUOO8WBTPchfKT%2B20VzXcpRX5nGmXYa8X4%2F4Nx0LvaaH%2F%2BWh1PyjuANPMmyiarfuSLqLhhl6K59cTBmItFyIkomU%2BzoHsr9LXx2kLPJN0JCCwDsTklOVw291c7WOd572H8%2Fc8WyE%2FzyldmxwvmM6tH4tP4ge%2FcHTO55QC12F5DMULfgfuyjYSFsme1hrPibHRkL4VXLBL6yTFgr6cEItxnLXn98IfYt4rvemCnF%2FVSmiN6uZKYuBwNpDSmvKKeuxXYaX90T2VSDund32yM8bRh62bRZF%2F7%2BILaAaqVB89YGWIXNlhYNjsjCLWQeaQlm6NI%2BZT7qt3PJ9lXiUBYocXpR3D99GQRoSOCXghyGyqckvd1Ex%2FymsSiXh6OlBjIp9%2B64KKfNSPaMV3HjyR%2B6qRYU8LBzxDSM7XcYgEO2Zp7uXTD%2BsnSMRNI%3D&Expires=1688787150
 TresMousquetaires:
   type: book
-  title: 
+  title:
     value: Les Trois Mousquetaires
     lang: fr
   language: fr
@@ -9974,7 +9974,7 @@ ClassicalDictionaryVulgar:
   URL: https://archive.org/details/grosevulgartongue
 TheorieDesJeuxDeHasard:
   type: book
-  title: 
+  title:
     value: La Theorie des Jeux de Hasard
     lang: fr
   language: fr
@@ -10044,7 +10044,7 @@ LaLangueDeRabelais:
     family: Sainéan
     lang: fr
     url: https://en.wikipedia.org/wiki/Laz%C4%83r_%C8%98%C4%83ineanu
-    alt: 
+    alt:
       value: Lazăr Șăineanu
       lang: ro
   publisher:
@@ -10204,14 +10204,14 @@ DrieChineescheKaartspelen:
   author:
   - given: M.
     family: von Faber
-  title: 
+  title:
     value: Beschrijving van Drie Chineesche Kaartspelen
     lang: nl
   language: nl
   page: 414-422
   URL: https://books.google.co.nz/books?id=EwpJAAAAMAAJ&pg=PA413
   in:
-    title: 
+    title:
       value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
       lang: nl
     volume: 26
@@ -10262,7 +10262,7 @@ LiuboFiveHundred:
   type: chapter
   title: "<span lang='zh-Latn'>Liubo</span>: The Five-Hundred-Year Craze"
   URL: https://archive.org/details/asiangamesartofc0000unse/page/112
-  author: 
+  author:
   - given: Colin
     family: Mackenzie
   in: *asianGames
@@ -10329,7 +10329,7 @@ ANoteOnTheTLV:
     title: Harvard Journal of Asiatic Studies
     volume: 9
     issue: 3
-    issued: 
+    issued:
       year: 1947
       month: 2
 AdditionalLiuPo:
@@ -10344,7 +10344,7 @@ AdditionalLiuPo:
     title: Harvard Journal of Asiatic Studies
     volume: 15
     issue: 1
-    issued: 
+    issued:
       year: 1952
       month: 6
 BackgammonAncientIndian:
@@ -10425,7 +10425,7 @@ CasinoFromNowhere:
   type: article-journal
   title: Casino From Nowhere, to Vaguely Everywhere
   URL: https://askalexander.org/display/22506/The+Playing+Card/8
-  author: 
+  author:
   - given: Franco
     family: Pratesi
   page: 6-12
@@ -10488,7 +10488,7 @@ OnTheCards30:
   in:
     title: Games & Puzzles
     issue: 30
-    issued: 
+    issued:
       month: 11
       year: 1974
     publisher: Edu-Games
@@ -10506,7 +10506,7 @@ OnTheCards34:
   in:
     title: Games & Puzzles
     issue: 34
-    issued: 
+    issued:
       month: 3
       year: 1975
     publisher: Edu-Games
@@ -10604,7 +10604,7 @@ TheBilliardStrokeAtCroquet:
   in:
     title: The Westminster Papers
     volume: 4
-    issue: 
+    issue:
     issued:
       month: 7
       day: 1
@@ -10612,7 +10612,7 @@ TheBilliardStrokeAtCroquet:
 SketchingsWestCampton:
   type: article-journal
   title: "Sketchings: West Campton, N. Y., 9th, September, 1856"
-  author: 
+  author:
   - given: “Poppy Oil”
   URL: https://www.jstor.org/stable/25619616
   page: 317–318
@@ -10722,19 +10722,19 @@ KeepingEqual:
   title: 'On Keeping Equal: Polity and Reciprocity among the New Guinea Wape'
   URL: http://www.jstor.org/stable/3317120
   page: 4-15
-  author: 
+  author:
   - given: William E.
     family: Mitchell
-  in: 
+  in:
     title: Anthropological Quarterly
     volume: 51
     issue: 1
-    issued: 
+    issued:
       month: 1
       year: 1978
 EssayDAnalyse:
   type: book
-  title: 
+  title:
     value: Essay d’Analyse sur les Jeux de Hazard
     lang: fr
   language: fr
@@ -10755,7 +10755,7 @@ SaturdaysPost1741:
   title: 'Saturday’s Post: From the <cite>St. James’s Evening-Post</cite>, April 30. Paris, April 15 O.S.'
   page: 1
   URL: https://www.newspapers.com/article/the-derby-mercury-gambling-games-banned/127893313/
-  in: 
+  in:
     title: The Derby Mercury
     publisher-place: Derby, Derbyshire, England
     volume: 10
@@ -10767,11 +10767,11 @@ SaturdaysPost1741:
       year: 1741
 Jurisprudence5:
   type: book
-  title: 
+  title:
     value: Jurisprudence
     lang: fr
   language: fr
-  URL: https://archive.org/details/jurisprudence05unse 
+  URL: https://archive.org/details/jurisprudence05unse
   volume: 5
   publisher:
     value: Panckoucke and Liége
@@ -10891,7 +10891,7 @@ EnglishCourtier:
     URL: https://archive.org/details/ineditedtractsil00hazluoft
     issued: 1868
     original-date: 1586
-    editor: 
+    editor:
     - &W_C_Hazlitt
       given: W. Carew
       family: Hazlitt
@@ -10934,7 +10934,7 @@ ACharacter:
   title: A Character
   page: 138
   URL: https://archive.org/details/sim_gentlemans-magazine_1740-03_10_3/page/138
-  in: 
+  in:
     title: The Gentleman’s Magazine
     editor:
     - given: Sylvanus
@@ -11067,7 +11067,7 @@ ChoiceAndChance:
     title: Mathematics Teaching in the Middle School
     volume: 1
     issue: 1
-    issued: 
+    issued:
       day: 1
       month: 4
       year: 1994
@@ -11209,9 +11209,9 @@ GeorgeSherriff:
   author:
   - given: ‘Sue’
   URL: https://www.newspapers.com/article/the-des-moines-register-george-sherriff/130149427/
-  archive-URL: 
+  archive-URL:
   page: 26
-  in: 
+  in:
     title: Des Moines Sunday Register
     volume: 90
     issue: 292
@@ -11236,7 +11236,7 @@ JapanBeatsBritanAtGolf:
   title: Japan Beats Britan At Golf
   URL: https://archive.org/details/north-china-herald-1940.01.24/page/7/mode/2up
   page: 130
-  in: 
+  in:
     title: North-China Herald
     volume: 214
     issue: 3781
@@ -11702,7 +11702,7 @@ LorenzGrasberger1:
   - given: Lorenz
     family: Grasberger
     lang: de
-  publisher: 
+  publisher:
     value: Druck und Verlag der Stahel’sche Buch- und Kunsthandlung
     lang: de
   publisher-place: Würzburg, Germany
@@ -11898,7 +11898,7 @@ SeegaEgyptian:
     family: Bolton
     url: https://en.wikipedia.org/wiki/Henry_Carrington_Bolton
   page: 132-134
-  in: 
+  in:
     title: Journal of American Folklore
     volume: 3
     issue: 9
@@ -11930,7 +11930,7 @@ CountingOutRhymes:
     title: Journal of American Folklore
     volume: 1
     issue: 1
-    issued: 
+    issued:
       year: 1888
       month: 6
 MoreCountingOutRhymes:
@@ -11944,7 +11944,7 @@ MoreCountingOutRhymes:
     title: Journal of American Folklore
     volume: 10
     issue: 39
-    issued: 
+    issued:
       year: 1897
       month: 12
 GameOfGoose:
@@ -11958,7 +11958,7 @@ GameOfGoose:
     title: Journal of American Folklore
     volume: 8
     issue: 29
-    issued: 
+    issued:
       year: 1895
       month: 6
 WomenOfTheArabs:
@@ -12013,7 +12013,7 @@ EgyptianHieroglyphicDictionary1:
   issued: 1920
 LD_3:
   type: book
-  author: 
+  author:
   - &Lepsius
     given: Karl Richard
     family: Lepsius
@@ -12098,7 +12098,7 @@ IntermediateGambian:
   - given: David P.
     family: Gamble
   publisher-place: San Francisco
-  issued: 
+  issued:
     month: 6
     year: 1987
   series:
@@ -12112,7 +12112,7 @@ ChokooGameVideo:
   author:
   - given: '@pakalindingvillagemandinka5336'
   container-title: YouTube
-  issued: 
+  issued:
     year: 2020
     month: 4
     day: 28
@@ -12120,7 +12120,7 @@ PersonsAndNamesOfTheMiddleKingdom:
   type: webpage
   URL: https://pnm.uni-mainz.de/info
   title: Persons and Names of the Middle Kingdom
-  author: 
+  author:
   - given: Alexander
     family: Ilin-Tomich
   issued: 2022
@@ -12135,7 +12135,7 @@ ThirtySquareDraught:
   in:
     title: The Journal of Egyptian Archaeology
     publisher: Egypt Exploration Society
-    issued: 
+    issued:
       month: 12
       year: 1953
     volume: 39
@@ -12212,13 +12212,13 @@ WhatsTheBigDeal:
   type: article-journal
   title: 'What’s the big deal?: Aboriginal gambling in the Kimberley region'
   author:
-  - given: Ernest M.  
+  - given: Ernest M.
     family: Hunter
   - given: Randolph M.
     family: Spargo
   page: 668-672
   URL: https://onlinelibrary.wiley.com/doi/abs/10.5694/j.1326-5377.1988.tb120817.x
-  in: 
+  in:
     title: The Medical Journal of Australia
     volume: 149
     issue: 12
@@ -12394,7 +12394,7 @@ ZuiLu:
 ChuHong:
   type: book
   URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497146$5i
-  title: 
+  title:
     value: 除紅譜
     lang: zh
     alt: <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng Pǔ</span>
@@ -12426,7 +12426,7 @@ GabataAndOther:
   title: Gabata and Other Board-Games of Ethiopia and the Horn of Africa
   page: 27-42
   URL: https://doi.org/10.1080/00672708209511298
-  author: 
+  author:
   - given: Richard
     family: Pankhurst
   in:
@@ -12442,7 +12442,7 @@ SwineherdsGossip:
     alt: <span lang="cmn-Latn-pinyin">Mù Zhū Xiánhuà</span>, “Swineherd’s gossip”
   language: zh
   URL: https://ctext.org/library.pl?if=en&res=82810&remap=gb
-  author: 
+  author:
   - family: 金
     given: 学诗
     lang: zh
@@ -12469,7 +12469,7 @@ UncommonMahJiang:
     issued:
       month: 12
       year: 2017
-    editor: 
+    editor:
     - *Peter_Endebrock
 EmbarrassingTiles:
   type: article-journal
@@ -12484,7 +12484,7 @@ EmbarrassingTiles:
     volume: 35
     issue: 3
     issued:
-      month: 3 
+      month: 3
       year: 2007
 BerryChineseSuit:
   type: article-journal
@@ -12547,7 +12547,7 @@ MahjongMahjong_1:
     issued:
       month: 2
       year: 2004
-    editor: 
+    editor:
     - *Michael_Cooper
 MahjongMahjong_2:
   type: article-journal
@@ -12583,7 +12583,7 @@ FlowersAndKings:
     issued:
       month: 9
       year: 2008
-    editor: 
+    editor:
     - *Peter_Endebrock
 ModernChineseCharacterCards:
   type: article-journal
@@ -12673,7 +12673,7 @@ Cuajo:
     ISSN: *IPCS_SSN
     volume: 29
     issue: 6
-    issued: 
+    issued:
       month: 6
       year: 2001
     editor:
@@ -12690,7 +12690,7 @@ ResponseTuman:
   type: article-journal
   title: "A Response to the <i>*tuman</i> Problem"
   URL: https://askalexander.org/display/22586/The+Playing+Card/182
-  author: 
+  author:
   - given: Diane
     family: O’Donovan
   page: 158-162
@@ -12779,7 +12779,7 @@ UnsunOmbre:
   in: &IPCS_12_1
     title: *IPCS
     ISSN: *IPCS_SSN
-    issued: 
+    issued:
       month: 11
       year: 1983
     volume: 12
@@ -12915,7 +12915,7 @@ BlackAces:
 MalayMagic:
   type: book
   title: Malay Magic
-  author: 
+  author:
   - given: Walter William
     family: Skeat
   publisher: MacMillan and Co.
@@ -12965,7 +12965,7 @@ IetsOver:
   title:
     value: Iets Over Het Dobbelen in de Onder-Afdeeling Banjoeasin en Koeboestreken der Residentie Palembang
     lang: nl
-  URL: https://www.jstor.org/stable/20770162 
+  URL: https://www.jstor.org/stable/20770162
   page: 382-389
   author:
   - given: H.
@@ -12998,7 +12998,7 @@ ChaiMuiPickering:
   URL: https://archive.org/details/in.ernet.dli.2015.70589/page/n515/mode/2up
   title: “Chai Mui,” (Hok-kien “Hoah-koon”)
   author:
-  - given: W. A. 
+  - given: W. A.
     family: Pickering
     url: https://en.wikipedia.org/wiki/William_A._Pickering
   page: 54-56
@@ -13019,7 +13019,7 @@ DaunTiga:
   - family: Maxwell
     given: W. E.
   page: 24-27
-  in: 
+  in:
     title: 'Straits Branch of the Royal Asiatic Society: Notes & Queries'
     volume: 1
     issued:
@@ -13128,7 +13128,7 @@ EarSevered:
       month: 8
       year: 1961
     volume: 84
-    issue: 260 
+    issue: 260
 LivingPoor:
   type: book
   title: 'Living Poor: A Participant Observer Study of Priorities and Choices'
@@ -13154,7 +13154,7 @@ WomanStabbedToDeath:
   URL: https://archive.org/details/per_washington-post_1951-01-14_27240/page/n11
   title: Woman Stabbed to Death in Card Game Fight
   page: 12M
-  in: 
+  in:
     title: The Washington Post
     issued:
       year: 1951
@@ -13164,7 +13164,7 @@ WomanStabbedToDeath:
 CardPlayerFatalRow:
   type: article-newspaper
   title: Card Player Indicated in Fatal Row
-  URL: https://archive.org/details/per_washington-post_1959-12-15_10/page/n35 
+  URL: https://archive.org/details/per_washington-post_1959-12-15_10/page/n35
   page: C8
   in:
     title: The Washington Post
@@ -13179,7 +13179,7 @@ ManGetsTerm:
   title: Man Gets Term Of 5 to 30 Years
   URL: https://archive.org/details/per_washington-post_1960-02-27_84/page/n29
   page: B11
-  in: 
+  in:
     title: The Washington Post
     issued:
       year: 1960
@@ -13190,9 +13190,9 @@ ManGetsTerm:
 LuluLovedGame:
   type: article-newspaper
   title: Lulu Loved Game of Pitty Pat So She Used Gun To Get Her Way
-  URL: https://archive.org/details/portsmouth-daily-times-1916-10-10/page/n7 
+  URL: https://archive.org/details/portsmouth-daily-times-1916-10-10/page/n7
   page: 9
-  in: 
+  in:
     title: The Portsmouth Daily Times
     issued:
       year: 1916
@@ -13213,7 +13213,7 @@ MexicoPintoresco:
     family: Rivera Cambas
     lang: es
   publisher-place: Mexico
-  publisher: 
+  publisher:
     value: Imprenta de la Reforma
     lang: es
 MemoriasPrision:
@@ -13341,7 +13341,7 @@ GamesOfStrategy_Dresher:
     title: Mathematics Magazine
     volume: 25
     issue: 2
-    issued: 
+    issued:
       month: 12
       year: 1951
 OmbreEtLumiere:
@@ -13422,7 +13422,7 @@ HombreSurvival:
     ISSN: *IPCS_SSN
     volume: 29
     issue: 1
-    issued: 
+    issued:
       month: 8
       year: 2000
     editor:
@@ -13652,16 +13652,16 @@ MamlukRemarks:
     issued: 1973
 Morgenlandisch_1:
   type: article-journal
-  title: 
+  title:
     value: Morgenländisch oder abendländisch? Forschungen nach gewissen Spielausdrücken
     lang: de
     alt: Oriental or occidental? Research into certain game expressions
   URL: https://archive.org/details/zeitschrift43deutuoft/page/414
-  author: 
+  author:
   - *K_Himly
   page: 415-463
   language: de
-  in: 
+  in:
     title:
       value: Zeitschrift der Deutschen Morgenländischen Gesellschaft
       lang: de
@@ -13671,7 +13671,7 @@ Morgenlandisch_1:
     publisher-place: Leipzig
 Morgenlandisch_2:
   type: article-journal
-  title: 
+  title:
     value: Morgenländisch oder abendländisch? Forschungen nach gewissen Spielausdrücken (Zusätze)
     lang: de
     alt: Oriental or occidental? Research into certain game expressions (Additions)
@@ -13698,7 +13698,7 @@ Pijnappel1:
   editor:
   - given: Jan
     family: Pijnappel
-  issued: 1863  
+  issued: 1863
   publisher-place: Haarlem, Amsterdam
   publisher: Frederik Muller
 Pijnappel:
@@ -13846,7 +13846,7 @@ TheBasutos:
   publisher-place: London
 KoreasPastimes:
   type: book
-  title: "Korea’s Pastimes and Customs: A Social History"  
+  title: "Korea’s Pastimes and Customs: A Social History"
   author:
   - given: Lee
     family: E-Wha
@@ -13937,7 +13937,7 @@ AboriginalCattleStation:
   - given: Kingsley
     family: Palmer
   page: 43-59
-  in: 
+  in:
     title: Small Rural Communities
     editor:
     - given: E. A.
@@ -13977,12 +13977,12 @@ LetTheChildrenPlay:
       family: Frascarelli
     issued: 2011
     ISBN: "9788878921788"
-    publisher: 
+    publisher:
       value: L’Haramattan Italia
       lang: it
     publisher-place: Turin, Italy
     series:
-      title: 
+      title:
         value: Studi Somali
         lang: it
       volume: 14
@@ -14096,7 +14096,7 @@ IanvaLingvarvm1638:
     value: Ioannem Ianssonium
     lang: la
     alt: Joannem Janssonium
-  publisher-place: Amsterdam, Netherlands 
+  publisher-place: Amsterdam, Netherlands
   notes: Called “last edition” on the title page.
 TaylorComenius:
   type: book
@@ -14155,7 +14155,7 @@ WilliamBathe:
   series:
     title: Studies in the History of the Language Sciences
     volume: 37
-PaiPong:  
+PaiPong:
   type: book
   title:
     value: ไพ่ตอง ไพ่ผ่องไทย
@@ -14178,7 +14178,7 @@ PaiPhong1967:
   - given: เอนก
     family: บุญภักดี
     lang: th
-    alt: 
+    alt:
       value: Anok Boonpakdi
       lang: th-Latn
   URL: https://digital.library.tu.ac.th/tu_dc/frontend/Info/item/dc:174315
@@ -14199,12 +14199,12 @@ DajakschDeutsches:
   publisher-place: Amsterdam, Netherlands
 DeLampong:
   type: article-journal
-  title: 
+  title:
     value: De Lampongsche distrikten op het eiland Sumatra
     lang: nl
   URL: https://archive.org/details/tijdschriftvoor31hogoog/page/n260
   page: 245–275, 309–333
-  author: 
+  author:
   - given: W. R.
     family: van Hoëvell
   in:
@@ -14230,7 +14230,7 @@ WoordenLijstPantoen:
       lang: nl
     volume: 58
     issue: 4
-    issued: 1911 
+    issued: 1911
 ChineseGamesOfChance:
   type: book
   title: A Book on Chinese Games of Chance
@@ -14341,13 +14341,13 @@ APublicansReason:
   in:
     title: The Rambler’s Magazine
     volume: 2
-    issued: 
+    issued:
       month: 5
       year: 1784
     publisher-place: London
 Erotopolis:
   type: book
-  title:  
+  title:
     value: 'ΕΡΩΤΟΠΟΛΙΣ: the present state of Betty-land'
     alt: Erōtopolis
   author:
@@ -14436,7 +14436,7 @@ TheElizabethanPeople:
   publisher-place: New York
 PlayingCardsEmployment1:
   type: article-journal
-  title: The Antiquity and Use of Playing-Cards 
+  title: The Antiquity and Use of Playing-Cards
   page: 250–3
   URL: https://archive.org/details/repositoryofarts1020acke/page/250/mode/2up
   notes: Article continued as ‘Playing-Cards, Their Origin and Employment’
@@ -14454,7 +14454,7 @@ PlayingCardsEmployment2:
   page: 317–320
   notes: Article continued from ‘The Antiquity and Use of Playing-Cards’; much conjecture here is incorrect.
   URL: https://archive.org/details/repositoryofarts1020acke/page/316/mode/2up
-  in: 
+  in:
     title: The Repository of Arts, Literature, Fasions, Manufactures, &c (Second Series)
     volume: 10
     issue: 60
@@ -14465,7 +14465,7 @@ PlayingCardsEmployment2:
 Littre2:
   type: book
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k5406698m
-  title: 
+  title:
     lang: fr
     value: Dictionnaire de la Langue Française
   volume: 2
@@ -14562,7 +14562,7 @@ TenGamesBrewster:
   URL: https://www.jstor.org/stable/1497586
   author: [*PaulGBrewster]
   page: 146–51
-  in: 
+  in:
     title: Western Folklore
     volume: 8
     issue: 2
@@ -14714,7 +14714,7 @@ GamesInVirginia:
   author: [*PaulGBrewster]
   page: 387
   URL: https://www.jstor.org/stable/1497844
-  in: 
+  in:
     title: Western Folklore
     volume: 7
     issue: 4
@@ -14938,7 +14938,7 @@ AustinGreekBoardGames:
   page: 257–71
   in:
     title: Antiquity
-    issued: 
+    issued:
       month: 9
       year: 1940
     volume: 14
@@ -14960,7 +14960,7 @@ AustinGameBoard:
   author: [*RGAustin]
   URL: https://journals.library.wales/view/4718179/4738154/343
   page: 250–3
-  in: 
+  in:
     title: Archaeologia Cambrensis
     volume: 93
     issued: 1938
@@ -14974,7 +14974,7 @@ FourBoardGames:
     family: ‘Ad
   URL: https://www.jstor.org/stable/jj.3452813.21
   page: 325-330
-  in: 
+  in:
     title: 'The Naḥal Tanninim Dam and its Vicinity: Final Report of the 2000–2005 Excavation Seasons'
     issued: 2023
     publisher: Israel Antiquities Authority
@@ -15262,7 +15262,7 @@ TheBurman_3e:
   edition: 3
   URL: https://archive.org/details/in.ernet.dli.2015.173171
   notes: This edition revises the romanization. See Chapter 37 on chess and 38 on games.
-TheBaVenda: 
+TheBaVenda:
   type: book
   URL: https://repository.up.ac.za/handle/2263/59437
   archive-URL: https://web.archive.org/web/20230104203300/https://repository.up.ac.za/bitstream/handle/2263/59437/the_bavenda_1931.pdf?sequence=20&isAllowed=y
@@ -15331,7 +15331,7 @@ UrFirstPhases:
   - given: Leonard
     family: Woolley
     url: https://en.wikipedia.org/wiki/Leonard_Woolley
-  publisher: Penguin Books 
+  publisher: Penguin Books
   publisher-place: London and New York
   issued: 1946
 ExcavationsDeirElBahri:
@@ -15354,7 +15354,7 @@ AmongCongoCannibals:
   type: book
   title: Among Congo Cannibals
   author:
-  - given: John H. 
+  - given: John H.
     family: Weeks
   issued: 1913
   publisher: J. B. Lippincott Company
@@ -15382,11 +15382,11 @@ TribesOfKaramoja:
   title: Preliminary Studies of the Tribes of Karamoja
   author:
   - &EJ_Wayland
-    given: E. J. 
+    given: E. J.
     family: Wayland
     url: https://en.wikipedia.org/wiki/Edward_James_Wayland
   page: 187–230
-  in: 
+  in:
     title: The Journal of the Royal Anthropological Institute of Great Britain and Ireland
     volume: 61
     issued:
@@ -15477,7 +15477,7 @@ MancalaKedang:
   in:
     title:
       lang: nl
-      value: Bijdragen tot de Taal-, Land- en Volkenkunde 
+      value: Bijdragen tot de Taal-, Land- en Volkenkunde
     volume: 131
     issue: 1
     issued: 1975
@@ -15541,7 +15541,7 @@ BrettspeilWiedemann:
     publisher-place: Leiden
 IllustreradSpelbok:
   type: book
-  title: 
+  title:
     value: Illustrerad Spelbok
     lang: sv
   language: sv
@@ -15598,7 +15598,7 @@ DecodingCardano:
     family: Bellhouse
 DeVetula:
   type: book
-  title: 
+  title:
     value: 'Brunellus Vigelli, & Vetula Ovidii. Seu: Opuscula Duo Auctorum Incertorum: Prius quidem Vigelli, qui fertur, Speculum stultorum, Posterius verò libri tres de vetula, Ovidii, falsò sic dicti: Ambo ante duo propè Secula junctim publico charactere Coloniæ excusa, nunc verò denuò ex Illustri quâdam Saxoniæ Inferioris Bibliothecâ depromta, et qui ê vetusto exemplari in hanc minusculam compagem bonâ fide conformata'
     lang: la
   language: la
@@ -15622,7 +15622,7 @@ HausaSuperstitions:
   series:
     title: West African Nights’ Entertainments
     volume: 1
-AboutPersiaAndItsPeople: 
+AboutPersiaAndItsPeople:
   type: book
   title: About Persia and its People
   URL: https://archive.org/details/aboutpersiaitspe00knan
@@ -15659,7 +15659,7 @@ LesBushongo:
     volume: 2
     number: 1
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k6475837f
-  issued: 
+  issued:
     year: 1911
     month: 2
   publisher:
@@ -15675,7 +15675,7 @@ DiePangwe2:
   - given: Günter
     family: Tessmann
     url: https://en.wikipedia.org/wiki/G%C3%BCnter_Tessmann
-  publisher: 
+  publisher:
     lang: de
     value: Ernst Wasmuth
   publisher-place: Berlin
@@ -15753,7 +15753,7 @@ WhiteAfrican:
   publisher-place: Cambridge, MA, USA
   issued: 1966
   original-date:
-    year: 1937 
+    year: 1937
 HomoLudens:
   type: book
   title: Homo Ludens
@@ -15854,7 +15854,7 @@ ThroughCentralBorneo2:
   publisher-place: New York
   issued: 1920
   URL: https://archive.org/details/throughcentralbo02lumh
-  notes: See pages 247, 435. 
+  notes: See pages 247, 435.
 UnconqueredAbyssinia:
   type: book
   title: 'Unconqured Abyssinia: As it is To-day'
@@ -15942,7 +15942,7 @@ GameOfChoro:
     family: Driberg
   URL: https://www.jstor.org/stable/2787715
   page: 168–172
-  in: 
+  in:
     title: Man
     volume: 27
     issued:
@@ -16260,7 +16260,7 @@ RouecheGames:
   type: paper-conference
   title: Late Roman and Byzantine Game Boards at Aphrodisias
   page: 100–105
-  author: 
+  author:
   - given: Charlotte
     family: Roueché
   URL: https://archive.org/details/ancientboardgame0000unse/page/100
@@ -16269,7 +16269,7 @@ PavementTypology:
   type: paper-conference
   title: 'Graeco–Roman Pavement Signs and Game Boards: A British Museum Working Typology'
   page: 106–109
-  author: 
+  author:
   - *RC_Bell
   - given: C. M.
     family: Roueché
@@ -16279,7 +16279,7 @@ GamesAtVijayanagara:
   type: paper-conference
   title: 'Game Boards at Vijayanagara: A Preliminary Report'
   page: 110–115
-  author: 
+  author:
   - given: John M.
     family: Fritz
   - given: David
@@ -16290,7 +16290,7 @@ GoInChina:
   type: paper-conference
   title: Go in China
   page: 133–137
-  author: 
+  author:
   - *John_Fairbairn
   URL: https://archive.org/details/ancientboardgame0000unse/page/133
   in: *ancientBoardGamesInPerspective
@@ -16298,7 +16298,7 @@ MMBeginningsOfChess:
   type: paper-conference
   title: The Beginnings of Chess
   page: 138–157
-  author: 
+  author:
   - given: Michael
     family: Mark
   URL: https://archive.org/details/ancientboardgame0000unse/page/138
@@ -16307,7 +16307,7 @@ DatingOfChess:
   type: paper-conference
   title: Grandmasters of <i>Shatranj</i> and the Dating of Chess
   page: 158–161
-  author: 
+  author:
   - given: R. D.
     family: Keene
   URL: https://archive.org/details/ancientboardgame0000unse/page/158
@@ -16316,7 +16316,7 @@ EalesChess:
   type: paper-conference
   title: 'Changing Cultures: The Reception of Chess into Western Europe in the Middle Ages'
   page: 162–168
-  author: 
+  author:
   - given: Richard
     family: Eales
   URL: https://archive.org/details/ancientboardgame0000unse/page/162
@@ -16325,7 +16325,7 @@ SemenovGames:
   type: paper-conference
   title: Board Games in Central Asia and Iran
   page: 169–176
-  author: 
+  author:
   - given: Grigori L.
     family: Semenov
   URL: https://archive.org/details/ancientboardgame0000unse/page/169
@@ -16334,7 +16334,7 @@ StewartTabulae:
   type: paper-conference
   title: A Late Eleventh-Century <span lang="la">Tabulae</span> Set from Gloucester
   page: 235–237
-  author: 
+  author:
   - given: I. J.
     family: Stewart
   URL: https://archive.org/details/ancientboardgame0000unse/page/235
@@ -16343,7 +16343,7 @@ RussMancala:
   type: paper-conference
   title: An Overview of Mancala Rules and Variations
   page: 242–244
-  author: 
+  author:
   - given: L.
     family: Russ
   URL: https://archive.org/details/ancientboardgame0000unse/page/242
@@ -16352,7 +16352,7 @@ TownshendMancala:
   type: paper-conference
   title: The Typological Spread of the Game of Mancala
   page: 245–249
-  author: 
+  author:
   - given: Philip
     family: Townshend
   URL: https://archive.org/details/ancientboardgame0000unse/page/245
@@ -16361,7 +16361,7 @@ WalkerMancala:
   type: paper-conference
   title: Mancala Game Boards as African Symbols of Status
   page: 250–255
-  author: 
+  author:
   - given: R. A.
     family: Walker
   URL: https://archive.org/details/ancientboardgame0000unse/page/250
@@ -16370,7 +16370,7 @@ RiddlerHnefatafl:
   type: paper-conference
   title: The Pursuit of <i>Hnefatafl</i>
   page: 256–262
-  author: 
+  author:
   - given: Ian
     family: Riddler
   URL: https://archive.org/details/ancientboardgame0000unse/page/256
@@ -16379,7 +16379,7 @@ StigterRithmomachia:
   type: paper-conference
   title: 'Rithmomachia, the Philosophers’ Game: An Introduction to its History and Rules'
   page: 263–269
-  author: 
+  author:
   - given: Jurgen
     family: Stigter
   - given: Peter
@@ -16390,7 +16390,7 @@ CulinNewWorld:
   type: paper-conference
   title: Robert Stewart Culin and New World Games
   page: 270–274
-  author: 
+  author:
   - given: Bonita
     family: Freeman–Witthoft
   URL: https://archive.org/details/ancientboardgame0000unse/page/270
@@ -16671,7 +16671,7 @@ MebbenArithmomachia:
   author:
   - given: Peter
     family: Mebben
-  title: 
+  title:
     lang: de
     value: Die Arithmomachia des Abraham Ries und weitere neuzeitliche Überlieferungen der Rithmomachie
   language: de
@@ -16685,7 +16685,7 @@ Metromachie:
     family: Boutin
   - given: Pierre
     family: Parlebas
-  title: 
+  title:
     lang: fr
     value: La Métromachie ou la bataille géométrique
   language: fr
@@ -16726,7 +16726,7 @@ RomainPions:
   author:
   - given: Pascal
     family: Romain
-  title: 
+  title:
     lang: fr
     value: Les représentations des jeux de pions dans le Proche-Orient ancien et leur signification
   language: fr
@@ -16821,7 +16821,7 @@ Daldosa:
   author:
   - given: Alf
     family:  Næsheim
-  title: <span lang="no">Daldøsa</span>, an old dice game with an obscure origin 
+  title: <span lang="no">Daldøsa</span>, an old dice game with an obscure origin
   page: 9-14
   URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS4-complete.pdf#page=9
   in: *bgs4
@@ -16915,7 +16915,7 @@ AngersteinLaska:
   author:
   - given: Wolfgang
     family: Angerstein
-  title: 
+  title:
     lang: de
     value: 'Das Säulenspiel <i>Laska</i>: Renaissance einer fast vergessenen Dame-Variante mit Verbindungen zum Schach'
   language: de
@@ -16997,7 +16997,7 @@ ZollingerGansesspiels:
   author:
   - given: Manfred
     family: Zollinger
-  title: 
+  title:
     lang: de
     value: 'Zwei unbekannte Regeln des Gänsespiels: Ulisse Aldrovandi und Herzog August d.J. von Braunschweig-Lüneburg'
   language: de
@@ -17008,7 +17008,7 @@ DepaulisPions:
   type: article-journal
   author:
   - *Thierry_Depaulis
-  title: 
+  title:
     lang: fr
     value: Un jeu de pions mapuche au XVI<sup class="ordinal">e</sup> siècle
   language: fr
@@ -17049,7 +17049,7 @@ BoutinPions:
   author:
   - given: Michel
     family: Boutin
-  title: 
+  title:
     lang: fr
     value: Les jeux de pions à la Belle Époque
   language: fr
@@ -17062,7 +17062,7 @@ DepaulisDamesAncienne:
   - *Thierry_Depaulis
   - given: Jean
     family: Simonata
-  title: 
+  title:
     lang: fr
     value: La plus ancienne représentation datée de joueurs de dames (1492)
   language: fr
@@ -17074,7 +17074,7 @@ EnglishBrettspiel:
   author:
   - given: Claudia
     family: Engler
-  title: 
+  title:
     lang: de
     value: Karten-, Würfel- und Brettspiel im spätmittelalterlichen und frühneuzeitlichen Bern
   language: de
@@ -17104,7 +17104,7 @@ GoriaPlateau:
   author:
   - given: Stéphane
     family: Goria
-  title: 
+  title:
     lang: fr
     value: 'Présentation d’informations de Décisionnelles à partir de Jeux de Plateau: Illustration du Potenciel du Jeu de Dames Chinoises'
   language: fr
@@ -17295,7 +17295,7 @@ LhotePicinelli:
   author:
   - given: Jean-Marie
     family: Lhôte
-  title: 
+  title:
     lang: fr
     value: Le symbolisme des jeux chez Filippo Picinelli
   language: fr
@@ -17350,7 +17350,7 @@ BronderWurfelspiele:
   author:
   - given: Thomas
     family: Bronder
-  title: 
+  title:
     lang: de
     value: Mittelalterliche Würfelspiele mit Einsatz und Gewinn
   language: de
@@ -17438,7 +17438,7 @@ GoriaWargame:
     family: Goria
   - given: Philippe
     family: Hardy
-  title: 
+  title:
     lang: fr
     value: Le formateur et son public dans le cadre de l’élaboration d’une simulation de type wargame sur plateau
   language: fr
@@ -17623,7 +17623,7 @@ BoeotianDie:
   author:
   - given: Victoria
     family: Sabetai
-  - given: Euthymia 
+  - given: Euthymia
     family: Nikita
   title: 'A Boeotian Die in Context: Gaming Pieces, Jewellery, Seals, Spindle Whorls and Bird Bowls in a Female Burial of Status'
   page: 159-195
@@ -17634,7 +17634,7 @@ RomanGameFindsCremona:
   author:
   - given: Lynn Arslan
     family: Pitcher
-  - given: Chiara 
+  - given: Chiara
     family: Bianchi
   title: 'Roman Game Finds from Cremona (Italy)'
   page: 197-224
@@ -17695,7 +17695,7 @@ MuscolinoTriple:
   author:
   - given: Francesco
     family: Muscolino
-  title: 
+  title:
     lang: fr
     value: 'Une « Triple Enceinte » Et L’inscription Funéraire De <span lang="la">Agate Filia Comites Gattilanis</span> À Milan'
   language: fr
@@ -17866,7 +17866,7 @@ MerelsChina:
 AlmanachDesJeux:
   type: book
   issued: 1785
-  title:  
+  title:
     lang: fr
     value: Almanach des Jeux, ou Académie Portative, Contenant les Regles du Reversis, du Wisk, du Tre-Sette, du Piquet, et du Trictrac
   language: fr
@@ -17911,7 +17911,7 @@ BooksOnGamingNQ:
     title: Notes and Queries (7th Series)
     volume: 7
     issue: 181
-    issued: 
+    issued:
       month: 6
       day: 15
       year: 1889
@@ -17927,7 +17927,7 @@ BooksOnGamingNQ2:
     title: Notes and Queries (7th Series)
     volume: 7
     issue: 182
-    issued: 
+    issued:
       month: 6
       day: 22
       year: 1889
@@ -17943,7 +17943,7 @@ BooksOnGamingNQ3:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 184
-    issued: 
+    issued:
       month: 7
       day: 6
       year: 1889
@@ -17961,7 +17961,7 @@ BooksOnGamingNQ4:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 186
-    issued: 
+    issued:
       year: 1889
       month: 7
       day: 20
@@ -17977,7 +17977,7 @@ BooksOnGamingNQ5:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 188
-    issued: 
+    issued:
       year: 1889
       month: 8
       day: 3
@@ -17993,7 +17993,7 @@ BooksOnGamingNQ6:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 191
-    issued: 
+    issued:
       year: 1889
       month: 8
       day: 24
@@ -18009,7 +18009,7 @@ BooksOnGamingNQ7:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 194
-    issued: 
+    issued:
       year: 1889
       month: 9
       day: 14
@@ -18025,7 +18025,7 @@ BooksOnGamingNQ8:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 197
-    issued: 
+    issued:
       year: 1889
       month: 10
       day: 5
@@ -18041,7 +18041,7 @@ BooksOnGamingNQ9:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 201
-    issued: 
+    issued:
       year: 1889
       month: 11
       day: 2
@@ -18057,7 +18057,7 @@ BooksOnGamingNQ10:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 204
-    issued: 
+    issued:
       year: 1889
       month: 11
       day: 23
@@ -18073,7 +18073,7 @@ BooksOnGamingNQ11:
     title: Notes and Queries (7th Series)
     volume: 8
     issue: 208
-    issued: 
+    issued:
       year: 1889
       month: 12
       day: 21
@@ -18089,7 +18089,7 @@ BooksOnGamingNQ12:
     title: Notes and Queries (7th Series)
     volume: 9
     issue: 211
-    issued: 
+    issued:
       year: 1890
       month: 1
       day: 11
@@ -18105,7 +18105,7 @@ BooksOnGamingNQ13:
     title: Notes and Queries (7th Series)
     volume: 9
     issue: 217
-    issued: 
+    issued:
       year: 1890
       month: 2
       day: 22
@@ -18140,7 +18140,7 @@ CommerceOfTime:
   genre: PhD thesis
   issued: 2016
   publisher: Ohio State University
-  publisher-place: Columbus, OH, USA  
+  publisher-place: Columbus, OH, USA
 GreedForGain:
   type: chapter
   URL: https://www.academia.edu/2135669/Organizing_the_Greed_for_Gain_Alfonso_X_of_Spain_s_Law_on_Gambling_Houses
@@ -18148,7 +18148,7 @@ GreedForGain:
   - *Ulrich_Schadler
   title: 'Organizing the Greed for Gain: Alfonso X of Spain’s Law on Gambling Houses'
   page: 23-47
-  in: 
+  in:
     title: 'Religions in Play: Games, Chance and Virtual Worlds'
     issued: 2012
     editor:
@@ -18224,7 +18224,7 @@ WurfelUndWurfelspiel:
   publisher: Max Niemeyer
   publisher-place: Halle, Germany
   series:
-    title: 
+    title:
       value: Beihefte zur Zeitschrift für Romanische Philologie Herausgegeben von Dr. Gustav Gröber
       lang: de
     volume: 23
@@ -18244,7 +18244,7 @@ JongleursEtTrouveres:
   publisher: J. Albert Merklein
 RutebeufComplete:
   type: book
-  title: 
+  title:
     value: 'Oeuvres complètes de Rutebeuf: trouvère du XIII<sup class="ordinal">e</sup> siècle'
     lang: fr
   language: fr
@@ -18259,7 +18259,7 @@ ChansonsEtDits:
   type: book
   URL: https://archive.org/details/ChansonsEtDitsArtesiensDuXIIIeSi
   title:
-    value: Chansons et Dits Artésiens du XIII<sup class="ordinal">e</sup> Siècle 
+    value: Chansons et Dits Artésiens du XIII<sup class="ordinal">e</sup> Siècle
     lang: fr
   language: fr
   author:
@@ -18442,7 +18442,7 @@ ChildrensGamesAndGaming:
     title: 'Children’s Folklore: A Source Book'
     issued: 1999
     URL: https://www.jstor.org/stable/j.ctt46nskz
-    editor: 
+    editor:
     - *Brian_Sutton_Smith
     - given: Jay
       family: Mechling
@@ -18646,7 +18646,7 @@ PopAntiqHazlitt1870_1: &PopAntiqHazlitt1870_1
   URL: https://archive.org/details/popularantiquiti01bran
   publisher: John Russell Smith
   publisher-place: London
-PopAntiqHazlitt1870_2: 
+PopAntiqHazlitt1870_2:
   <<: *PopAntiqHazlitt1870_1
   volume: 2
   volume-title: Customs and Ceremonies
@@ -18730,7 +18730,7 @@ NotesOnBullensOldPlays2:
   author:
   - given: Henry Chichester
     family: Hart
-    url: https://en.wikipedia.org/wiki/Henry_Chichester_Hart 
+    url: https://en.wikipedia.org/wiki/Henry_Chichester_Hart
   page: 170-1
   URL: https://books.google.co.nz/books?id=eu24sHbvRSAC&pg=RA1-PA170
   in:
@@ -18777,7 +18777,7 @@ JamiesonScots2e_1: &JamiesonScots2e_1
   edition: 2
   author:
   - *John_Jamieson
-  - given: John 
+  - given: John
     family: Longmuir
   - given: David
     family: Donaldson
@@ -18885,7 +18885,7 @@ NotSoYdle:
   issued:
     month: 5
     year: 1992
-  URL: https://etheses.bham.ac.uk/id/eprint/3150/1/Willliams92PhD.pdf 
+  URL: https://etheses.bham.ac.uk/id/eprint/3150/1/Willliams92PhD.pdf
   archive-URL: https://web.archive.org/web/20240314080357/https://etheses.bham.ac.uk/id/eprint/3150/1/Willliams92PhD.pdf
 VowBreaker:
   type: book
@@ -18900,7 +18900,7 @@ VowBreaker:
 RapeOfTheBride:
   type: book
   title: The Rape of the Bride; or, Marriage and Hanging go by Destiny
-  URL: https://archive.org/details/bim_eighteenth-century_the-rape-of-the-bride-o_1723_0 
+  URL: https://archive.org/details/bim_eighteenth-century_the-rape-of-the-bride-o_1723_0
   issued: 1723
   publisher-place: London
 CharacterCoffeeHouse:
@@ -19066,7 +19066,7 @@ DavisIndianGames:
   type: article-journal
   title: 'Indian Games: an Historical Research'
   author:
-  - given: Andrew McFarland 
+  - given: Andrew McFarland
     family: Davis
   URL: https://archive.org/details/proceedings03esseuoft/page/n97
   page: 89-144
@@ -19317,7 +19317,7 @@ JuegosDeAzar:
     family: Lozano Armendares
     lang: es
   page: 155-181
-  in: 
+  in:
     issued:
       year: 1991
       month: 10
@@ -19379,7 +19379,7 @@ VillesExtremeOrient:
     issued: 1899
 Rabelais1741_1:
   type: book
-  title: 
+  title:
     value: 'Oeuvres de maitre François Rabelais: avec des remarques historiques et critiques de Mr. Le Duchat'
     lang: fr
   language: fr
@@ -19403,7 +19403,7 @@ Rabelais1711_1:
   author: [*rabelais]
   publisher:
     value: Henri Bordesius
-    lang: fr 
+    lang: fr
   publisher-place: Amsterdam
 SetiaDanBakti:
   type: book
@@ -19436,7 +19436,7 @@ PoemFirstMaggal:
     family: Rodima-Taylor
   - given: Martin
     family: Aucoin
-  container-title: NEH Ajami Research Project 
+  container-title: NEH Ajami Research Project
 ColonySingapore1959:
   type: book
   title: Colony of Singapore Annual Report 1959
@@ -19924,7 +19924,7 @@ SenetBoardArizona:
   author:
   - given: Irene Bald
     family: Romano
-  - given: William John 
+  - given: William John
     family: Tait
   - given: Christina
     family: Bisulca
@@ -19934,7 +19934,7 @@ SenetBoardArizona:
     family: Hodgins
   - given: Tomasz
     family: Wazny
-  in:  
+  in:
     title:
       lang: de
       value: Zeitschrift für Ägyptische Sprache und Altertumskunde
@@ -20083,7 +20083,7 @@ ChuzaNotesAndQueries:
     volume: 2
     publisher-place: London
     issue: 43
-    issued: 
+    issued:
       month: 10
       day: 22
       year: 1898
@@ -20199,7 +20199,7 @@ LynchingAtTucson:
   type: article-journal
   title: A Lynching at Tucson in 1873
   page: 233-242
-  URL: https://archive.org/details/newmexicohistori19univrich/page/233 
+  URL: https://archive.org/details/newmexicohistori19univrich/page/233
   author:
   - family: Bloom
     given: Lansing B.

@@ -287,7 +287,7 @@ fn render_title(r: &Reference) -> Markup {
         }
     };
 
-    let additional_prefix = r.common().language.as_ref().map(|lang| {
+    let additional_suffix = r.common().language.as_ref().map(|lang| {
             html! {
                 "text in " (lang.to_name())
                 meta itemprop="inLanguage" content=(lang.to_639_1().unwrap_or_else(|| lang.to_639_3())) ;
@@ -298,7 +298,7 @@ fn render_title(r: &Reference) -> Markup {
         &r.common().title,
         " [",
         "]",
-        additional_prefix,
+        additional_suffix,
         Some("alternateName"),
     );
 
@@ -432,21 +432,21 @@ fn render_lstr_alt(
     lstr: &LString,
     prefix: &str,
     suffix: &str,
-    additional_prefix: Option<Markup>,
+    additional_suffix: Option<Markup>,
     alt_item_prop: Option<&'static str>,
 ) -> Markup {
     html! {
         @if let Some(alt) = &lstr.alt {
             (prefix)
-            @if let Some(pref) = additional_prefix {
-                (pref) ": "
-            }
             span itemprop=[alt_item_prop] {
                 (maud::PreEscaped(&alt))
             }
+            @if let Some(suff) = additional_suffix {
+                 "; " (suff)
+            }
             (suffix)
-        } @else if let Some(pref) = additional_prefix {
-            (prefix) (pref) (suffix)
+        } @else if let Some(suff) = additional_suffix {
+            (prefix) (suff) (suffix)
         }
     }
 }
