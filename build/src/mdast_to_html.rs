@@ -461,9 +461,13 @@ impl Converter<'_> {
             Node::MdxJsxTextElement(mdx_jsx_text_element) => {
                 self.handle_component_text(mdx_jsx_text_element)?
             }
-            Node::MdxTextExpression(_mdx_text_expression) => todo!(),
-            Node::MdxFlowExpression(_mdx_flow_expression) => todo!(),
-            Node::MdxjsEsm(_mdxjs_esm) => todo!(),
+            Node::MdxTextExpression(_mdx_text_expression) => {
+                unreachable!("Markdown construct not enabled")
+            }
+            Node::MdxFlowExpression(_mdx_flow_expression) => {
+                unreachable!("Markdown construct not enabled")
+            }
+            Node::MdxjsEsm(_mdxjs_esm) => unreachable!("Markdown construct not enabled"),
             Node::Definition(_) => Markup::default(), // already handled
             Node::FootnoteDefinition(_) => Markup::default(), // already handled
             Node::FootnoteReference(footnote_reference) => {
@@ -1046,19 +1050,16 @@ struct ImageMetadata {
     #[serde(default)]
     noborder: bool,
 
-    #[serde(default)] // TODO - remove
-    author_family_first: bool,
-
-    #[serde(default)] // TODO - remove?
+    #[serde(default)]
     cram: bool,
 
-    #[serde(default)] // TODO - remove?
+    #[serde(default)]
     equalheight: bool,
 
-    #[serde(default)] // TODO - remove?
-    hidden: bool,
+    #[serde(default)]
+    hidden: bool, // this means to hide the copyright display
 
-    justify: Option<String>, // TODO remove?
+    justify: Option<String>,
 
     per_row: Option<usize>,
 

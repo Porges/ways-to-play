@@ -10,13 +10,13 @@ hero:
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-22
-date modified: 2025-02-08
+date modified: 2025-02-14
 aliases: [Japanese Hanafuda Brands]
 linter-yaml-title-alias: Japanese Hanafuda Brands
 ---
 
 # Japanese Hanafuda Brands
-## Identification 
+## Identification
 
 The branding system of traditional <span class="noun" lang="ja-Latn">Hanafuda</span>
 manufacturers can be confusing. Generally the top of the container (whether a
@@ -47,7 +47,7 @@ back end of the box (at top left) usually has text about the manufacturer or a
 list of brands.
 
 > [!figure]
-> 
+>
 > ![A hanafuda wrapper folded flat, showing the top face of the box and the four sides around it.](flat_wrapper.jpg)
 >
 > Anatomy of a [<span class="noun" lang="ja-Latn">Tamura Shōgundō</span>](#tamura-shogundo) <span class="noun" lang="ja-Latn">Hanafuda</span> wrapper.
@@ -61,7 +61,7 @@ the Paulownia junk cards, but on older decks it can be on a Peony or Wisteria
 
 > [!figure]
 >
-> 
+>
 > ![Three cards all featuring Paulownia flowers, with maker’s marks printed upon them.](manufacturer-marks.jpg)
 >
 > ```yaml
@@ -76,336 +76,177 @@ Often the mark is a simplified version of the name,[^direction] or a different <
 [^direction]: Also be aware that Japanese can be written in either direction; @OstasiatischeSpielkarten [p. 136] describes a deck made by a mysterious manufacturer named ‘<span class="noun" lang="ja-Latn">Dōtennin</span>’!
 
 ### Index of Marks
-<div class="multi">
-<table>
-<tbody>
-<tr>
-<td>
-<img src='/small-images/marufuku.svg' class="inline-img big" alt="The Marufuku symbol" />
-</td>
-<td>
-<a href="#nintendo"><span class="noun" lang="ja-Latn">Nintendō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/yamami.svg' class="inline-img big" alt="The Yamami symbol" /> or <img src='/small-images/kakudai.svg' class="inline-img big" alt="The Kakudai symbol" />
-</td>
-<td>
-<a href="#oishi-tengudo"><span class="noun" lang="ja-Latn">Ōishi Tengudō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/angel-logo.svg' class="inline-img big" alt="The okina symbol" />
-</td>
-<td>
-<a href="#angel-enzeru">Angel</a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/yaguruma.svg' class="inline-img big" alt="The Yaguruma symbol" />
-</td>
-<td>
-<a href="#tamura-shogundo"><span class="noun" lang="ja-Latn">Tamura Shōgundō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/kakumatsu.svg' class="inline-img big" alt="The Kakumatsu symbol" />
-</td>
-<td>
-<a href="#matsui-tengudo"><span class="noun" lang="ja-Latn">Matsui Tengudō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<span lang="ja" style="font-family: 'sans-serif'">エース</span>
-</td>
-<td>
-<a href="#ace-esu">Ace</a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marue.svg' class="inline-img big" alt="The Marue symbol" />
-</td>
-<td>
-<a href="#marue"><span class="noun" lang="ja-Latn">Maruē</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/yamata.svg' class="inline-img big" alt="The Yamata symbol" />
-</td>
-<td>
-<a href="#tanaka-gyokusuido"><span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/Iwata_trademark.png' class="inline-img big" alt="Iwata’s symbol" />
-</td>
-<td>
-<a href="#iwata-honten"><span class="noun" lang="ja-Latn">Iwata Honten</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/kanenaka.svg' class="inline-img big" alt="The Kanenaka symbol" />
-</td>
-<td>
-<a href="#nihon-karuta-seizo-tamada-fukushodo"><span class="noun" lang="ja-Latn">Nihon Karuta</span>/<span class="noun" lang="ja-Latn">Tamada Fukushōdō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marujuu.svg' class="inline-img big" alt="The Marujū symbol" />
-</td>
-<td>
-<a href="#yamashiro-shoten"><span class="noun" lang="ja-Latn">Yamashiro Shōten</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/maruryu.svg' class="inline-img big" alt="The Maruryu symbol" />
-</td>
-<td>
-<a href="#ryutendo"><span class="noun" lang="ja-Latn">Ryūtendō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marujun.svg' class="inline-img big" alt="The Marujun symbol" />
-</td>
-<td>
-<a href="#inoue-juntendo"><span class="noun" lang="ja-Latn">Inoue Juntendō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/kanese.svg' class="inline-img big" alt="The Kanese symbol" />
-</td>
-<td>
-<a href="#nakao-seikado"><span class="noun" lang="ja-Latn">Nakao Seikadō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-?
-</td>
-<td>
-<a href="#tsuchida-tenguya"><span class="noun" lang="ja-Latn">Tsuchida Tenguya</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/kanewe.svg' class="inline-img big" alt="The Kanewe symbol" />
-</td>
-<td>
-<a href="#usui-nikkagetsudo-kyoto-karuta"><span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span>/<span class="noun" lang="ja-Latn">Kyōto Karuta</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/heibon.svg' class="inline-img big" alt="A large coin symbol" />
-</td>
-<td>
-<a href="#heibon"><span class="noun" lang="ja-Latn">Heibon</span></a>
-</td>
-</tr>
-<tr>
-<td>
-?
-</td>
-<td>
-<a href="#kawakita"><span class="noun" lang="ja-Latn">Kawakita</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marusa.svg' class="inline-img big" alt="The Marusa symbol" />
-</td>
-<td>
-<a href="#kohara-honten"><span class="noun" lang="ja-Latn">Kohara Honten</span></a>
-</td>
-</tr>
-</tbody>
-</table>
-<table>
-<tbody>
-<tr>
-<td>
-<img src='/small-images/marui.svg' class="inline-img big" alt="The Marui symbol" />
-</td>
-<td>
-<a href="#nishimura"><span class="noun" lang="ja-Latn">Nishimura</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marukei.svg' class="inline-img big" alt="The Marukei symbol" />
-</td>
-<td>
-<a href="#nakao-kokeido"><span class="noun" lang="ja-Latn">Nakao Kōkeidō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marukyou.svg' class="inline-img big" alt="The Marukyō symbol" />
-</td>
-<td>
-<a href="#baba-keieido"><span class="noun" lang="ja-Latn">Baba Keieidō</span></a> or <a href="#kyoto-karuta"><span class="noun" lang="ja-Latn">Kyōto Karuta</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/3gourds.svg' class="inline-img big" alt="A symbol consisting of a bunch of 3 gourds" />
-</td>
-<td>
-<a href="#dai-nippon"><span class="noun" lang="ja-Latn">Dai Nippon</span></a>
-</td>
-</tr>
-<tr>
-<td>
-?
-</td>
-<td>
-<a href="#nippon-yugi-gangunichiyu"><span class="noun" lang="ja-Latn">Nippon Yūgi Gangu</span></a>
-</td>
-</tr>
-<tr>
-<td>
-?
-</td>
-<td>
-<a href="#universal"><span class="noun" lang="ja-Latn">Universal</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/kaneman.svg' class="inline-img big" alt="The Kaneman symbol" />
-</td>
-<td>
-<a href="#kawai"><span class="noun" lang="ja-Latn">Kawai</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marumatsu.svg' class="inline-img big" alt="The Marumatsu symbol" />
-</td>
-<td>
-<a href="#akata-shojoya"><span class="noun" lang="ja-Latn">Akata Shōjōya</span></a>
-</td>
-</tr>
-<tr>
-<td>
-?
-</td>
-<td>
-<a href="#suisando"><span class="noun" lang="ja-Latn">Suisando</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marutano.svg' class="inline-img big" alt="The Marutano symbol" />
-</td>
-<td>
-<a href="#nihon-goraku"><span class="noun" lang="ja-Latn">Nihon Goraku</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/maruei.svg' class="inline-img big" alt="The Maruei symbol" />
-</td>
-<td>
-<a href="#kyowado"><span class="noun" lang="ja-Latn">Kyōwadō</span></a> or <a href="#nishiguchi-shoten"><span class="noun" lang="ja-Latn">Nishi­&shy;guchi Shōten</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/kanekata.svg' class="inline-img big" alt="The Kanekata symbol" />
-</td>
-<td>
-<a href="#kamigataya"><span class="noun" lang="ja-Latn">Kamigataya</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marukin.svg' class="inline-img big" alt="The Marukin symbol" />
-</td>
-<td>
-<a href="#marukin"><span class="noun" lang="ja-Latn">Marukin</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marudai.svg' class="inline-img big" alt="The Marudai symbol" />
-</td>
-<td>
-<a href="#otani-shoten"><span class="noun" lang="ja-Latn">Ōtani Shōten</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/marutoku.svg' class="inline-img big" alt="The Marutoku symbol" />
-</td>
-<td>
-<a href="#tohoku-karuta"><span class="noun" lang="ja-Latn">Tōhoku Karuta</span></a>
-</td>
-</tr>
-<tr>
-<td>
-(none)
-</td>
-<td>
-<a href="#seieido"><span class="noun" lang="ja-Latn">Seieidō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-?
-</td>
-<td>
-<a href="#tamei-fukujudo"><span class="noun" lang="ja-Latn">Tamei Fukujudō</span></a>
-</td>
-</tr>
-<tr>
-<td>
-?
-</td>
-<td>
-<a href="#sanjoya"><span class="noun" lang="ja-Latn">Sanjōya</span></a>
-</td>
-</tr>
-<tr>
-<td>
-<img src='/small-images/maruyoshi.svg' class="inline-img big" alt="The Maruyoshi symbol" />
-</td>
-<td>
-<a href="#maruyoshi"><span class="noun" lang="ja-Latn">Maruyoshi</span></a>
-</td>
-</tr>
-<tr>
-<td>
-?
-</td>
-<td>
-<a href="#ito-koji-shoten"><span class="noun" lang="ja-Latn">Itō Kōji Shōten</span></a>
-</td>
-</tr>
-<tr>
-<td>
-—
-</td>
-<td>
-<a href="#alaska-playing-cards">Alaska playing cards</a>
-</td>
-</tr>
-</tbody>
-</table>
+<div class="multi text-center">
+<div>
+<a href="#nintendo"><img src='/small-images/marufuku.svg' class="inline-img big" alt="The Marufuku symbol" />\
+<span class="noun" lang="ja-Latn">Nintendō</span></a>
 </div>
+<div>
+<a href="#oishi-tengudo"><img src='/small-images/yamami.svg' class="inline-img big" alt="The Yamami symbol" /> <img src='/small-images/kakudai.svg' class="inline-img big" alt="The Kakudai symbol" />\
+<span class="noun" lang="ja-Latn">Ōishi Tengudō</span></a>
+</div>
+<div>
+<a href="#angel-enzeru"><img src='/small-images/angel-logo.svg' class="inline-img big" alt="The okina symbol" />\
+Angel</a>
+</div>
+<div>
+<a href="#tamura-shogundo"><img src='/small-images/yaguruma.svg' class="inline-img big" alt="The Yaguruma symbol" />\
+<span class="noun" lang="ja-Latn">Tamura Shōgundō</span></a>
+</div>
+<div>
+<a href="#matsui-tengudo"><img src='/small-images/kakumatsu.svg' class="inline-img big" alt="The Kakumatsu symbol" />\
+<span class="noun" lang="ja-Latn">Matsui Tengudō</span></a>
+</div>
+<div>
+<a href="#ace"><span lang="ja" style="font-family: 'sans-serif'">エース</span>\
+Ace</a>
+</div>
+<div>
+<a href="#marue"><img src='/small-images/marue.svg' class="inline-img big" alt="The Marue symbol" />\
+<span class="noun" lang="ja-Latn">Maruē</span></a>
+</div>
+<div>
+<a href="#tanaka-gyokusuido"><img src='/small-images/yamata.svg' class="inline-img big" alt="The Yamata symbol" />\
+<span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span></a>
+</div>
+<div>
+<a href="#iwata-honten"><img src='/small-images/Iwata_trademark.png' class="inline-img big" alt="Iwata’s symbol" />\
+<span class="noun" lang="ja-Latn">Iwata Honten</span></a>
+</div>
+<div>
+<a href="#nihon-karuta"><img src='/small-images/kanenaka.svg' class="inline-img big" alt="The Kanenaka symbol" />\
+<span class="noun" lang="ja-Latn">Nihon Karuta</span>, <span class="noun" lang="ja-Latn">Tamada Fukushōdō</span></a>
+</div>
+<div>
+<a href="#yamashiro-shoten"><img src='/small-images/marujuu.svg' class="inline-img big" alt="The Marujū symbol" />\
+<span class="noun" lang="ja-Latn">Yamashiro Shōten</span></a>
+</div>
+<div>
+<a href="#ryutendo"><img src='/small-images/maruryu.svg' class="inline-img big" alt="The Maruryu symbol" />\
+<span class="noun" lang="ja-Latn">Ryūtendō</span></a>
+</div>
+<div>
+<a href="#inoue-juntendo"><img src='/small-images/marujun.svg' class="inline-img big" alt="The Marujun symbol" />\
+<span class="noun" lang="ja-Latn">Inoue Juntendō</span></a>
+</div>
+<div>
+<a href="#nakao-seikado"><img src='/small-images/kanese.svg' class="inline-img big" alt="The Kanese symbol" />\
+<span class="noun" lang="ja-Latn">Nakao Seikadō</span></a>
+</div>
+<div>
+<a href="#usui-nikkagetsudo"><img src='/small-images/kanewe.svg' class="inline-img big" alt="The Kanewe symbol" />\
+<span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span>, <span class="noun" lang="ja-Latn">Kyōto Karuta</span></a>
+</div>
+<div>
+<a href="#heibon"><img src='/small-images/heibon.svg' class="inline-img big" alt="A large coin symbol" />\
+<span class="noun" lang="ja-Latn">Heibon</span></a>
+</div>
+<div>
+<a href="#kohara-honten"><img src='/small-images/marusa.svg' class="inline-img big" alt="The Marusa symbol" />\
+<span class="noun" lang="ja-Latn">Kohara Honten</span></a>
+</div>
+<div>
+<a href="#nishimura"><img src='/small-images/marui.svg' class="inline-img big" alt="The Marui symbol" />\
+<span class="noun" lang="ja-Latn">Nishimura</span></a>
+</div>
+<div>
+<a href="#nakao-kokeido"><img src='/small-images/marukei.svg' class="inline-img big" alt="The Marukei symbol" />\
+<span class="noun" lang="ja-Latn">Nakao Kōkeidō</span></a>
+</div>
+<div>
+<a href="#baba-keieido"><img src='/small-images/marukyou.svg' class="inline-img big" alt="The Marukyō symbol" />\
+<span class="noun" lang="ja-Latn">Baba Keieidō</span></a>
+</div>
+<div>
+<a href="#kyoto-karuta"><img src='/small-images/marukyou.svg' class="inline-img big" alt="The Marukyō symbol" />\
+<span class="noun" lang="ja-Latn">Kyōto Karuta</span></a>
+</div>
+<div>
+<a href="#dai-nippon"><img src='/small-images/3gourds.svg' class="inline-img big" alt="A symbol consisting of a bunch of 3 gourds" />\
+<span class="noun" lang="ja-Latn">Dai Nippon</span></a>
+</div>
+<div>
+<a href="#kawai"><img src='/small-images/kaneman.svg' class="inline-img big" alt="The Kaneman symbol" />\
+<span class="noun" lang="ja-Latn">Kawai</span></a>
+</div>
+<div>
+<a href="#akata-shojoya"><img src='/small-images/marumatsu.svg' class="inline-img big" alt="The Marumatsu symbol" />\
+<span class="noun" lang="ja-Latn">Akata Shōjōya</span></a>
+</div>
+<div>
+<a href="#nihon-goraku"><img src='/small-images/marutano.svg' class="inline-img big" alt="The Marutano symbol" />\
+<span class="noun" lang="ja-Latn">Nihon Goraku</span></a>
+</div>
+<div>
+<a href="#kyowado"><img src='/small-images/maruei.svg' class="inline-img big" alt="The Maruei symbol" />\
+<span class="noun" lang="ja-Latn">Kyōwadō</span></a>
+</div>
+<div>
+<a href="#nishiguchi-shoten"><img src='/small-images/maruei.svg' class="inline-img big" alt="The Maruei symbol" />\
+<span class="noun" lang="ja-Latn">Nishi­&shy;guchi Shōten</span></a>
+</div>
+<div>
+<a href="#kamigataya"><img src='/small-images/kanekata.svg' class="inline-img big" alt="The Kanekata symbol" />\
+<span class="noun" lang="ja-Latn">Kamigataya</span></a>
+</div>
+<div>
+<a href="#marukin"><img src='/small-images/marukin.svg' class="inline-img big" alt="The Marukin symbol" />\
+<span class="noun" lang="ja-Latn">Marukin</span></a>
+</div>
+<div>
+<a href="#otani-shoten"><img src='/small-images/marudai.svg' class="inline-img big" alt="The Marudai symbol" />\
+<span class="noun" lang="ja-Latn">Ōtani Shōten</span></a>
+</div>
+<div>
+<a href="#tohoku-karuta"><img src='/small-images/marutoku.svg' class="inline-img big" alt="The Marutoku symbol" />\
+<span class="noun" lang="ja-Latn">Tōhoku Karuta</span></a>
+</div>
+<div>
+<a href="#maruyoshi"><img src='/small-images/maruyoshi.svg' class="inline-img big" alt="The Maruyoshi symbol" />\
+<span class="noun" lang="ja-Latn">Maruyoshi</span></a>
+</div>
+<div>
+(none)\
+<a href="#seieido"><span class="noun" lang="ja-Latn">Seieidō</span></a>
+</div>
+<div>
+—\
+<a href="#alaska-playing-cards">Alaska playing cards</a>
+</div>
+<div>
+?\
+<a href="#tsuchida-tenguya"><span class="noun" lang="ja-Latn">Tsuchida Tenguya</span></a>
+</div>
+<div>
+?\
+<a href="#kawakita"><span class="noun" lang="ja-Latn">Kawakita</span></a>
+</div>
+<div>
+?\
+<a href="#nippon-yugi-gangunichiyu"><span class="noun" lang="ja-Latn">Nippon Yūgi Gangu</span></a>
+</div>
+<div>
+?\
+<a href="#universal"><span class="noun" lang="ja-Latn">Universal</span></a>
+</div>
+<div>
+?\
+<a href="#suisando"><span class="noun" lang="ja-Latn">Suisando</span></a>
+</div>
+<div>
+?\
+<a href="#tamei-fukujudo"><span class="noun" lang="ja-Latn">Tamei Fukujudō</span></a>
+</div>
+<div>
+?\
+<a href="#sanjoya"><span class="noun" lang="ja-Latn">Sanjōya</span></a>
+</div>
+<div>
+?\
+<a href="#ito-koji-shoten"><span class="noun" lang="ja-Latn">Itō Kōji Shōten</span></a>
+</div>
+</div>
+
 
 ### Dating Decks
 
@@ -626,14 +467,14 @@ Tax levied on <span class="noun" lang="ja-Latn">Hanafuda</span> sets over time.
 > > ![Two dark blue square stamps reading ‘ten yen’ in Japanese, with elaborate borders and stylized chrysanthemum flowers. Both stamps are overprinted by a single black ink stamp reading ‘Nintendo’ in Japanese.](30yen.jpg)
 > >
 > > ```yaml
-> > copyrightYear: 2023 
+> > copyrightYear: 2023
 > > authorGiven: "Fabrice"
 > > authorFamily: "Heilig"
 > > license: 'with-permission'
 > > ```
 > >
 > > Two 10 <span lang="ja-Latn">yen</span> (<span lang="ja">拾圓</span>) stamps; the deck had 30 <span lang="ja-Latn">yen</span> total, indicating that the deck was sold in 1947. The cancellation mark is <span lang="ja-Latn" class="noun">Nintendō</span>’s.
-> 
+>
 > > [!figure]
 > >
 > > ![Two very dark blue square stamps reading ‘fifty yen’ in Japanese, and with a depiction of a Japanese emperor in the centre.](100yen.jpg)
@@ -646,7 +487,7 @@ Tax levied on <span class="noun" lang="ja-Latn">Hanafuda</span> sets over time.
 > > ```
 > >
 > > Two 50 <span lang="ja-Latn">yen</span> (<span lang="ja">𠄡拾円</span>) stamps, indicating the deck was sold between 1947–48.
- 
+
 > [!figure]
 >
 > ![A long rectangular stamp coloured pink, with elaborate border and a serial number in centre.](tax_stamp_pink.jpg)
@@ -662,7 +503,7 @@ region (which contains both <span class="noun" lang="ja-Latn">Kyōto</span> and 
 lang="ja-Latn">Ōsaka</span>) is the original source of <span class="noun"
 lang="ja-Latn">Hanafuda</span> cards.
 
-### <img src='/small-images/marufuku.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nintendō</span> (<span lang="ja">任天堂</span>)
+### <img src='/small-images/marufuku.svg' alt="" class="inline-img" /> <span id="nintendo" class="noun" lang="ja-Latn">Nintendō</span> (<span lang="ja">任天堂</span>)
 
 > [!figure]
 >
@@ -700,7 +541,7 @@ down in 2002.
 >     An example of a combination <span class="noun" lang="ja-Latn">Hanafuda</span> card included with a packet of Murai Bros. cigarettes. Note that the clubs are printed in the “wrong” colour.
 >
 > Using this printing equipment they were able to produce high-quality collectible cards to include with cigarettes, and by 1894, one of these offerings was a single <span class="noun" lang="ja-Latn">Hanafuda</span> card included with each packet of cigarettes sold. These tobacco cards often featured a design which combined Western playing cards with the <span class="noun" lang="ja-Latn">Hanafuda</span> pattern. In 1904, the Japanese government nationalized the manufacture of all tobacco products,[^fn1] and <span class="noun" lang="ja-Latn">Tōyō</span> Printing was sold along with the rest of the company.[@TarHeel p. 362]
-> 
+>
 > :[^fn1] <span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]
 
 A too-brief summary of their later success: after WWII, <span class="noun" lang="ja-Latn">Nintendō</span> managed to survive a period of crushing taxation on playing-card products, which wiped out many of the smaller manufacturers. In the second half of the 20th century they (famously!) diversified into children’s toys and, later on, video games.
@@ -856,7 +697,7 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > > ```
 > >
 > > The <span lang="ja-Latn">gosho&shy;zakura</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![](Nintendo_hinode.jpg)
@@ -869,7 +710,7 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > > ```
 > >
 > > The <span lang="ja-Latn">hinode</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![An abstract image of a white plum flower on a red background.](Nintendo_hakubai.jpg)
@@ -926,7 +767,7 @@ lang="ja-Latn">Tōkyō</span>.
 >
 > <span class="noun" lang="ja-Latn">Okuno Karuta’s Shikishima Hanafuda</span>. The cards were designed by the print artist <span class="noun" lang="ja-Latn">Itō Takumi</span> (<span lang="ja">伊藤卓美</span>, <abbr title="born">b.</abbr> 1946). They are larger than normal <span class="noun" lang="ja-Latn">Hanafuda</span> and the cards are printed on flat cardboard, not wrapped with backing paper.
 
-### <img src='/small-images/yamami.svg' alt="" class="inline-img" /> <a href="https://www.tengudo.jp/" class="noun" lang="ja-Latn">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)
+### <img src='/small-images/yamami.svg' alt="" class="inline-img" /> <a href="https://www.tengudo.jp/" class="noun" lang="ja-Latn" id="oishi-tengudo">Ōishi Tengudō</a> (<span lang="ja">大石天狗堂</span>)
 
 Also based in <span class="noun" lang="ja-Latn">Kyōto</span>, <span class="noun" lang="ja-Latn">Ōishi
 Tengudō</span> produces a wide variety of traditional Japanese card games. As
@@ -984,10 +825,10 @@ lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 > position: "aside"
 > originalUrl: "https://commons.wikimedia.org/wiki/File:Takarabune_by_Hiroshige.png"
 > license: "cc0"
-> author: "MichaelMaggs" 
+> author: "MichaelMaggs"
 > ```
 >
-> The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikipedia.org/wiki/Takarabune) that carries the [seven lucky gods](https://en.wikipedia.org/wiki/Seven_Lucky_Gods), as shown in this print by [Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) (<abbr>c.</abbr> 1840). 
+> The <span lang="ja-Latn">takarabune</span> is a [mythical ship](https://en.wikipedia.org/wiki/Takarabune) that carries the [seven lucky gods](https://en.wikipedia.org/wiki/Seven_Lucky_Gods), as shown in this print by [Hiroshige](https://en.wikipedia.org/wiki/Hiroshige) (<abbr>c.</abbr> 1840).
 
 
 * <span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <span class="noun" lang="ja-Latn">Tengu</span>’), also used for <span class="noun" lang="ja-Latn">Kabu</span> and <span class="noun" lang="ja-Latn">Tehonbiki</span> cards, trademarked in 1921[@Trademarks1924_18 p. 330]
@@ -1024,13 +865,13 @@ lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 > > ![An image of a tengu mask on a gold background.](OishiTengudo.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">kintengu</span> wrapper. This is now their standard brand.
-> 
+>
 > > [!figure]
 > >
 > > ![An image of a tengu mask on a silver background.](OT_gintengu.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">gintengu</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A Hanafuda box front featuring a large Koban coin with ‘Narikin’ (newly rich) written on it.](OT_narikin.jpg)
@@ -1039,23 +880,23 @@ lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 
 > [!multi-wide]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a boat carrying seven people.](OT_takarabune.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">takarabune</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with cherry blossoms and an old street light.](OT_sakura.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">sakura</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with peonies, cherry blossoms, and other flowers.](OT_hanazukushi.jpg)
-> > 
+> >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">hanazukushi</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with a mountain and a man gazing into the distance.](OT_oeyama.jpg)
@@ -1065,25 +906,25 @@ lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
 
 > [!multi-wide]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with an image of Abaraham Lincoln.](OT_lincoln.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s Lincoln wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with an arrow striking the centre of a target.](OT_atariya.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">atariya</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper three tengu masks.](OT_santengu.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">santengu</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with flowers.](OT_shiki.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">shiki</span> wrapper.
@@ -1104,23 +945,23 @@ In conjunction with <span class="noun" lang="ja-Latn">Ganzo&shy;futo&shy;neko&sh
 >
 > ![Hanafuda cards with Japanese cats on them.](OishiTengudo_Cat.jpg)
 
-### <img src='/small-images/angel-logo.svg' alt="" class="inline-img" /> <a href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)
+### <img src='/small-images/angel-logo.svg' alt="" class="inline-img" /> <a id="angel-enzeru" href="http://www.angelplayingcards.com/product/hana.php">Angel</a> (<span lang="ja">エンゼル</span> <span lang="ja-Latn">enzeru</span>)
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![The front of a Hanafuda wrapper reading ‘genroku’ in Japanese characters and with cherry blossoms.](AngelGenroku.jpg)
 > >
 > > Angel’s <span lang="ja-Latn">Genroku</span> packaging (1970s, the current packaging is different).
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A Hanafuda wrapper with an image of an actor in Kabuki makeup and holding a sword.](Angel_Taihei.jpg)
 > >
 > > The <span lang="ja-Latn">Taihei</span> packaging.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with an image of a dragon.](Angel_Daitenryu.jpg)
 > >
 > > The <span lang="ja-Latn">Daitenryū</span> packaging.
@@ -1197,57 +1038,57 @@ lang="ja-Latn">Hanafuda</span> cards; firstly the standard pattern, with brands
 
 > [!multi-wide]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with cherry blossoms and a brazier.](TS_yozakura.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">yozakura</span> wrapper. This is an outer-box wrapper designed to contain two decks.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a palace on a lake.](TS_haruzake.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">harukaze</span> wrapper. This is an outer-boxed wrapper designed to contain two decks; [a wrapper for the individual deck can be seen above](#staticmediaflatwrapper-160054165411jpg).
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrappper with a man in military uniform.](TS_daishōgun.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">daishōgun</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a sunrise surrounded by wreaths.](TS_eiko.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">eikō</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with flowers on a wagon.](TS_hanakurabe.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">hana&shy;kurabe</span> wrapper.
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a bridge and overhanging maple leaves in autumn colours.](TS_kyō_no_nishiki.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">kyō no nishiki</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with 'manten' written in kanji.](TS_manten.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">manten</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a Japanese palace.](TS_shishinden.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>’s <span lang="ja-Latn">Shishinden</span> wrapper.
 
 > [!figure]
-> 
+>
 > ![A hanafuda wrapper with a depiction of an apprentice geisha under blossoms and autumn leaves.](Shogundo.jpg)
 >
 > ```yaml
@@ -1274,7 +1115,7 @@ They also print a revised pattern, <span class="noun" lang="ja-Latn">Nishiki</sp
 
 These are producers that do not exist any more.
 
-### <img src='/small-images/kakumatsu.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Matsui Tengudō</span> (<span lang="ja">松井天狗堂</span>)
+### <img src='/small-images/kakumatsu.svg' alt="" class="inline-img" /> <span id="matsui-tengudo" class="noun" lang="ja-Latn">Matsui Tengudō</span> (<span lang="ja">松井天狗堂</span>)
 
 > [!figure]
 >
@@ -1319,17 +1160,17 @@ square, and brands included:
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A Hanafuda wrapper with an image of a red peony on it](Matsui_Botan.jpg)
 > >
 > > The <span lang="ja-Latn">botan</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A Hanafuda wrapper with a plum blossom, pine tree, and curtain with cherry blossoms printed on it.](Matsui_3Brights.jpg)
 > >
 > > The <span lang="ja-Latn">sankō</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A Kabufuda wrapper showing the highest (9) and lowest (1) kabu cards.](Matsui_Kuppin.jpg)
@@ -1337,7 +1178,7 @@ square, and brands included:
 > > The <span lang="ja-Latn">kuppin</span> wrapper.
 
 > [!figure]
-> 
+>
 > ![A wrapper with an image of Mount Fuji and stylized cherry blossoms.](MT_FujiZakura.jpg)
 >
 > The <span lang="ja-Latn">fujizakura</span> wrapper.
@@ -1349,7 +1190,7 @@ play games with more people. The 13-month deck features bamboo as the additional
 suit, while the 14-month deck has both bamboo and lotus.
 
 > [!figure]
-> 
+>
 > ![](Matsui_13months.jpg)
 >
 > ```yaml
@@ -1376,7 +1217,7 @@ suit, while the 14-month deck has both bamboo and lotus.
 >
 > The bamboo cards from the 13-month deck. From left-to-right they are: a sixth Bright card featuring the <span lang="ja-Latn">kanji</span> for “tiger” (<span lang="ja">寅</span>), a <span lang="ja-Latn">tane</span> card with a sparrow, a <span lang="ja-Latn">tanzaku</span> card, and a <span lang="ja-Latn">kasu</span> card.
 
-### Ace (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>)
+### <span id="ace">Ace</span> (<span lang="ja">エース</span> <span lang="ja-Latn">ēsu</span>)
 
 Ace was a manufacturer based in <span class="noun" lang="ja-Latn">Kyōto</span>. Their brands
 included:[@ModernJapaneseWrappers p. 44]
@@ -1401,24 +1242,24 @@ flowers’).
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A Hanafuda wrapper with the image of a Lord Nelson on the front.](Ace_Admiral.jpg)
 > >
 > > Packaging of Ace’s <span class="noun" lang="ja-Latn">Dai Teitoku</span> brand, featuring Lord Nelson.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A Hanafuda wrapper with the image of a European nobleman on the front.](AceGrandDuke.jpg)
 > >
 > > Packaging of Ace’s <span class="noun" lang="ja-Latn">Dai Kōshaku</span> brand; this is from a <span class="noun" lang="ja-Latn">Kurofuda deck</span>.
-> 
+>
 > > [!figure]
 > >
 > > ![A Hanafuda wrapper with the image of a Japanese man in a double-breasted coat.](Ace_Saigo.jpg)
 > >
 > > Packaging of Ace’s <span class="noun" lang="ja-Latn">Dai Saigō</span> brand.
 
-### <img src='/small-images/marue.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Maruē</span> (<span lang="ja">マルエー</span>)
+### <img src='/small-images/marue.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="marue">Maruē</span> (<span lang="ja">マルエー</span>)
 
 <span class="noun" lang="ja-Latn">Maruē</span> was from the city of [<span class="noun"
 lang="ja-Latn">Mino</span>](https://en.wikipedia.org/wiki/Mino,_Gifu), in <span class="noun"
@@ -1435,21 +1276,21 @@ lang="ja-Latn">hana</span>, making this mark very punny.
 > > ![A Hanafuda wrapper with an image of cherry blossoms on the front.](Marue.jpg)
 > >
 > > Packaging for <span class="noun" lang="ja-Latn">Maruē</span>’s <span class="noun" lang="ja-Latn">Goten Sakura</span> brand (1970s).
-> 
+>
 > > [!figure]
 > >
 > > ![A Hanafuda wrapper with silver dragon on the front, wrapped in clouds.](Marue_silver_dragon.jpg)
 > >
 > > Wrapper for the <span class="noun" lang="ja-Latn">Ginryū</span> brand.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A Hanafuda wrapper with an image of a Chinese-style lion with roses.](Marue_gold_lion.jpg)
 > >
 > > Wrapper for the <span class="noun" lang="ja-Latn">Kinjishi</span> brand.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A Hanafuda wrapper with gold dragon on the front, swimming in water.](Marue_gold_dragon.jpg)
 > >
 > > Wrapper for the <span class="noun" lang="ja-Latn">Kinryū</span> brand.
@@ -1460,15 +1301,15 @@ lang="ja-Latn">hana</span>, making this mark very punny.
 > > ![A Hanafuda box with silver dragon on the front, wrapped in clouds.](Marue_silver_dragon_box.jpg)
 > >
 > > Box for the <span class="noun" lang="ja-Latn">Ginryū</span> brand.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A Hanafuda box with gold dragon, swimming in water.](Marue_gold_dragon_box.jpg)
 > >
 > > Box for the <span class="noun" lang="ja-Latn">Kinryū</span> brand.
 
 > [!figure]
-> 
+>
 > ![A Hanafuda box with a lion and roses or peonies.](Marue_gold_lion_box.jpg)
 >
 > ```yaml
@@ -1514,7 +1355,7 @@ lang="ja-Latn">Ginsuehiro</span>) and manufacturer’s mark were taken over by
 <span class="noun" lang="ja-Latn">Iwata Honten</span>.[@ModernJapaneseWrappers pp. 48–59]
 
 > [!figure]
-> 
+>
 > ![](Gyokusuido_brights.jpg)
 >
 > ```yaml
@@ -1524,7 +1365,7 @@ lang="ja-Latn">Ginsuehiro</span>) and manufacturer’s mark were taken over by
 > Five Brights from a <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span> deck.
 
 > [!figure]
-> 
+>
 > ![](Gyokusuido_brand.jpg)
 >
 > ```yaml
@@ -1563,7 +1404,7 @@ included:
 > > ```
 > >
 > > <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s <span lang="ja-Latn">fukusuke</span> brand.
-> 
+>
 > > [!figure]
 > >
 > > ![](TG_ouzeki.jpg)
@@ -1573,7 +1414,7 @@ included:
 > > ```
 > >
 > > <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s <span lang="ja-Latn">ōzeki</span> brand.
-> 
+>
 > > [!figure]
 > >
 > > ![](TG_suehiro.jpg)
@@ -1584,7 +1425,7 @@ included:
 > >
 > > <span class="noun" lang="ja-Latn">Tanaka Gyokusuidō</span>’s <span lang="ja-Latn">suehiro</span> brand.
 
-### <span class="noun" lang="ja-Latn">Iwata Honten</span> (<span lang="ja">岩田本店</span>)
+### <span id="iwata-honten" class="noun" lang="ja-Latn">Iwata Honten</span> (<span lang="ja">岩田本店</span>)
 
 > [!figure]
 >
@@ -1617,24 +1458,24 @@ Brands included:[@ModernJapaneseWrappers p. 48]
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with an image of a fan, and a gold background](kinmaiogi.jpg)
 > >
 > > The <span lang="ja-Latn">kinmaiōgi</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with an image of a fan, and a silver background](ginmaiogi.jpg)
 > >
 > > The <span lang="ja-Latn">ginmaiōgi</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with an image of a horned mask.](hannya.jpg)
 > >
 > > The <span lang="ja-Latn">hannya</span> wrapper.
 
-### <img src='/small-images/kanenaka.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nihon Karuta Seizō</span>  (<span lang="ja">日本骨牌製造</span>)/<span class="noun" lang="ja-Latn">Tamada Fukushōdō</span> (<span lang="ja">玉田福勝堂</span>)
+### <img src='/small-images/kanenaka.svg' alt="" class="inline-img" /> <span id="nihon-karuta" class="noun" lang="ja-Latn">Nihon Karuta Seizō</span>  (<span lang="ja">日本骨牌製造</span>)/<span class="noun" lang="ja-Latn">Tamada Fukushōdō</span> (<span lang="ja">玉田福勝堂</span>)
 
 > [!figure]
 >
@@ -1651,7 +1492,7 @@ Brands included:[@ModernJapaneseWrappers p. 48]
 > A <span class="noun" lang="ja-Latn">Tamada Fukushōdō</span> box depicting a storefront, from the collection of Lady Charlotte Schreiber, bequeathed to the British Museum in 1895. (This deck is briefly described in @SchreiberCollection [p. 184], under ‘Japanese #2’.)
 
 > [!figure]
-> 
+>
 > ![A box front depicting the storefront of a Japanese karuta manufacturer.](W0316_box.jpg)
 >
 > ```yaml
@@ -1738,11 +1579,11 @@ Brands of both companies have included:[@ModernJapaneseWrappers pp. 54–5]
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper featuring a fan.](TF_Fan.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Tamada Fukushōdō</span>’s <span lang="ja-Latn">higashinishiki</span> box.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper featuring a fan.](NK_higashinishiki.jpg)
@@ -1758,24 +1599,24 @@ Brands of both companies have included:[@ModernJapaneseWrappers pp. 54–5]
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with plum blossoms](NK_umejirushi.jpg)
 > >
 > > The <span lang="ja-Latn">umejirushi</span> box.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper featuring a palace and cherry blossom trees.](NK_kokonoezakura.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Nihon Karuta</span>’s <span lang="ja-Latn">kokonoezakura</span> box.
- 
+
 > [!multi-wide]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper featuring a fan.](NK_higashinishiki-1.jpg)
 > >
 > > The inner <span lang="ja-Latn">higashinishiki</span> wrapper, for a single deck.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with an image of Mount Fuji](NK_fuji.jpg)
@@ -1783,26 +1624,25 @@ Brands of both companies have included:[@ModernJapaneseWrappers pp. 54–5]
 > > ```yaml
 > > authorFamily: "琴比"
 > > authorGiven: "良哲"
-> > authorFamilyFirst: true
 > > authorLang: "ja"
 > > license: "with-permission"
-> > copyrightYear: 2021  
+> > copyrightYear: 2021
 > > ```
 > >
 > > The <span lang="ja-Latn">fuji</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with an image of Mount Fuji.](NK_kinfuji.jpg)
 > >
 > > The <span lang="ja-Latn">kinfuji</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a shining jewel.](NK_hyakumandoru.jpg)
 > >
 > > The <span lang="ja-Latn">hyakuman&shy;doru</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with a battledore paddle.](NK_oshogatsu.jpg)
@@ -1828,22 +1668,22 @@ have also produced Western-style playing cards, including their own Hana-Trump
 deck:
 
 > [!figure]
-> 
+>
 > ![Five playing cards with the Hanafuda design in center and a corresponding Western card depicted in the corners that are not occupied by the card indices.](Windmill_Brights.jpg)
 >
 > The bright cards of <span class="noun" lang="ja-Latn">Nihon Karuta</span>’s Hana-Trump deck. These are obviously based on the much older [Universal](#universal) <span class="noun" lang="ja-Latn">Trump-Hana</span> deck.
 
 
 > [!figure]
-> 
+>
 > ![Five cards, one a joker and the other four being kings with various objects depicted.](Windmill_Extra.jpg)
 >
 > The extra [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md)-related cards of <span class="noun" lang="ja-Latn">Nihon Karuta</span>’s Hana-Trump deck. There is a windmill depicted in the corners of the Joker card.
 
-### <img class="inline-img" src='/small-images/marujuu.svg' alt="" /> <span class="noun" lang="ja-Latn">Yamashiro Shōten</span> (<span lang="ja">山城商店</span>)
+### <img class="inline-img" src='/small-images/marujuu.svg' alt="" /> <span id="yamashiro-shoten" class="noun" lang="ja-Latn">Yamashiro Shōten</span> (<span lang="ja">山城商店</span>)
 
 > [!figure]
-> 
+>
 > ![](Yamashiro_trademark1.png)
 > ![](Yamashiro_trademark2.png)
 > ![](Yamashiro_trademark3.png)
@@ -1879,7 +1719,7 @@ Their brands included:
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![The front and back cover of a pamphlet](yamashiro_mushi.jpg)
 > >
 > > ```yaml
@@ -1887,7 +1727,7 @@ Their brands included:
 > > ```
 > >
 > > An uncut sheet of <span lang="ja-Latn" class="noun">Mushi</span> cards, by <span class="noun" lang="ja-Latn">Yamashiro</span>.
-> 
+>
 > > [!figure]
 > >
 > > ![The front and back cover of a pamphlet](yamashiro_pricelist_cover.jpg)
@@ -1909,12 +1749,22 @@ Their brands included:
 >
 > A box wrapper from around 1900 featuring an imaginary depiction of the <span class="noun" lang="ja-Latn">Yamashiro</span> store exterior; in reality it was nowhere near as large as this. The advertising boards at the left depict <span class="noun" lang="cmn-Latn-pinyin">Guan Yu</span> and <span class="noun" lang="cmn-Latn-pinyin">Shi Jin</span>, who represent two of the company’s brands (see trademark images at right).
 
-### <img src='/small-images/maruryu.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Ryūtendō</span> (<span lang="ja">龍天堂</span>)
+### <img src='/small-images/maruryu.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="ryutendo">Ryūtendō</span> (<span lang="ja">龍天堂</span>)
 
-Existed in <span class="noun" lang="ja-Latn">Kyōto</span> in 1948;[@Yamaguchi p. 102] mark
-was a circled <span lang="ja">龍</span> (they also possibly had another trade
-name of <span lang="ja">マルナ</span> with circled <span lang="ja"
-class="circled">名</span> as mark). Brands included:
+> [!figure]
+>
+> ![](IMG_0972.jpg)
+>
+> ```yaml
+> license: with-permission
+> position: aside
+> authorGiven: Ryan
+> authorFamily: Sartor
+> ```
+>
+> The wrapper for <span lang="ja-Latn" class="noun">Ryūtendō</span>’s <span lang="ja-Latn">kurama kintengu</span> brand.
+
+Existed in <span class="noun" lang="ja-Latn">Kyōto</span> in 1948;[@Yamaguchi p. 102] their mark was a circled <span lang="ja">龍</span> <span lang="ja-Latn">ryu</span> “dragon” (they also possibly had another trade name of <span lang="ja">マルナ</span> <span lang="jat-Latn">maruna</span> with circled <span lang="ja" class="circled">名</span> ‘<span lang="ja-Latn">na</span>’ as mark). Brands included:
 
 * <span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsutagawa</span>, ‘<span class="noun" lang="ja-Latn">Tatsuta</span> river’)
 * <span lang="ja">天龍</span> (<span lang="ja-Latn">tenryū</span>, ‘<span class="noun" lang="ja-Latn">Tenryū</span>’)
@@ -1922,12 +1772,12 @@ class="circled">名</span> as mark). Brands included:
 * <span lang="ja">鞍馬金天狗</span> (<span lang="ja-Latn">kurama kintengu</span>, ‘[<span class="noun" lang="ja-Latn">Kurama</span>](https://en.wikipedia.org/wiki/Mount_Kurama) golden tengu’; according to myth, <span class="noun" lang="ja-Latn">Kurama</span> is the home of the king of the <span lang="ja-Latn">tengu</span>)
 * <span lang="ja">福宝</span> (<span lang="ja-Latn">fukuhō</span>, ‘good fortune, treasure’)
 
-### <img src='/small-images/marujun.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Inoue Juntendō</span> (<span lang="ja">井上順天堂</span>)0
+### <img src='/small-images/marujun.svg' alt="" class="inline-img" /> <span id="inoue-juntendo" class="noun" lang="ja-Latn">Inoue Juntendō</span> (<span lang="ja">井上順天堂</span>)0
 
 Existed in <span class="noun" lang="ja-Latn">Kyōto</span> in 1948;[@Yamaguchi p. 102] mark
 was a circled <span lang="ja">順</span>.
 
-### <img src='/small-images/kanese.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nakao Seikadō</span> (<span lang="ja">中尾清花堂</span>)
+### <img src='/small-images/kanese.svg' alt="" class="inline-img" /> <span id="nakao-seikado" class="noun" lang="ja-Latn">Nakao Seikadō</span> (<span lang="ja">中尾清花堂</span>)
 
 > [!figure]
 >
@@ -1963,7 +1813,7 @@ Brands included:
 > A 1926 advertisement for <span class="noun" lang="ja-Latn">Nakao Seikadō</span>.
 
 
-### <span class="noun" lang="ja-Latn">Tsuchida Tenguya</span> (<span lang="ja">土田天狗屋</span>)
+### <span id="tsuchida-tenguya" class="noun" lang="ja-Latn">Tsuchida Tenguya</span> (<span lang="ja">土田天狗屋</span>)
 
 > [!figure]
 >
@@ -2020,7 +1870,7 @@ In the 1930s their brands included (in descending price order):
 * <span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<span lang="ja-Latn">tengu</span>’), only used for <span lang="ja-Latn">mamefuda</span>
 
 > [!figure]
-> 
+>
 > ![](Tsuchida_wrapper.jpg)
 >
 > ```yaml
@@ -2035,7 +1885,7 @@ In the 1930s their brands included (in descending price order):
 > An outer wrapper for the <span lang="ja-Latn">dai&shy;tengu</span> brand.
 
 
-### <img src='/small-images/kanewe.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span> (<span lang="ja">臼井日月堂</span>)/<span class="noun" lang="ja-Latn">Kyōto Karuta</span> (<span lang="ja">京都カルタ</span>)
+### <img src='/small-images/kanewe.svg' alt="" class="inline-img" /> <span id="usui-nikkagetsudo" class="noun" lang="ja-Latn">Usui Nikkagetsudō</span> (<span lang="ja">臼井日月堂</span>)/<span class="noun" lang="ja-Latn">Kyōto Karuta</span> (<span lang="ja">京都カルタ</span>)
 
 > [!figure]
 >
@@ -2060,11 +1910,11 @@ Their brands included:
 
 * <span lang="ja">百萬圓</span> (<span lang="ja-Latn">hyakumanen</span>, ‘one million <span lang="ja-Latn">yen</span>’), trademarked in 1921[@Trademarks1924_18 p. 331]
 
-### <img src='/small-images/marukyou.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Baba Keieidō</span> (<span lang="ja">馬場京栄堂</span>)
+### <img src='/small-images/marukyou.svg' alt="" class="inline-img" /> <span id="baba-keieido" class="noun" lang="ja-Latn">Baba Keieidō</span> (<span lang="ja">馬場京栄堂</span>)
 
 Existed in Kyōto in 1948;[@Yamaguchi p. 102] mark was a circled <span lang="ja">京</span>.
 
-### <img src='/small-images/heibon.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Heibon</span> (<span lang="ja">平凡</span>)
+### <img src='/small-images/heibon.svg' alt="" class="inline-img" /> <span id="heibon" class="noun" lang="ja-Latn">Heibon</span> (<span lang="ja">平凡</span>)
 
 This <span class="noun" lang="ja-Latn">Tōkyō</span> manufacturer stopped producing shortly after 1972.[@ModernJapaneseWrappers p. 42] Their maker’s mark was the phrase <span lang="ja">天下一</span> (<span lang="ja-Latn">tenkaichi</span> ‘best in the world’) written inside a large [<span lang="ja-Latn">koban</span>](https://en.wikipedia.org/wiki/Koban_(coin)). Their brands included:
 
@@ -2087,7 +1937,7 @@ This <span class="noun" lang="ja-Latn">Tōkyō</span> manufacturer stopped produ
 > > ```
 > >
 > > <span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">botanjishi</span> wrapper. Note the sticker indicating that the box contains <span class="noun" lang="ja-Latn">Kabufuda</span> cards.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with an image of a Japanese judge’s haircut and cherry blossoms.](Heibon_sakurahangan.jpg)
@@ -2096,11 +1946,11 @@ This <span class="noun" lang="ja-Latn">Tōkyō</span> manufacturer stopped produ
 > > license: "with-permission"
 > > copyrightYear: 2021
 > > authorFamily: "Sartor"
-> > authorGiven: "Ryan" 
+> > authorGiven: "Ryan"
 > > ```
 > >
 > > <span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">sakurahangan</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with an image of the sun rising over Mount Fuji.](Heibon_asahifuji.jpg)
@@ -2114,7 +1964,7 @@ This <span class="noun" lang="ja-Latn">Tōkyō</span> manufacturer stopped produ
 > >
 > > <span class="noun" lang="ja-Latn">Heibon</span>’s <span lang="ja-Latn">asahifuji</span> wrapper. (Low-resolution image from the side of a <span lang="ja-Latn">botanjishi</span> wrapper.)
 
-### <span class="noun" lang="ja-Latn">Kawakita</span> (<span lang="ja">川北</span>)
+### <span class="noun" lang="ja-Latn" id="kawakita">Kawakita</span> (<span lang="ja">川北</span>)
 
 <span class="noun" lang="ja-Latn">Kawakita</span> had its own brands but cards were made by
 <span class="noun" lang="ja-Latn">Yamashiro Shōten</span>. It closed after
@@ -2127,7 +1977,7 @@ This <span class="noun" lang="ja-Latn">Tōkyō</span> manufacturer stopped produ
 * <span lang="ja">大文字</span> (<span lang="ja-Latn">daimonji</span>, [a mountain in <span class="noun" lang="ja-Latn">Kyōto</span>](https://en.wikipedia.org/wiki/Gozan_no_Okuribi))
 * <span lang="ja">祇園</span> (<span lang="ja-Latn">gion</span>, the <span lang="ja-Latn">geisha</span> district of <span class="noun" lang="ja-Latn">Kyōto</span>)
 
-### <img src='/small-images/marusa.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kohara Honten</span> (<span lang="ja">小原本店</span>)
+### <img src='/small-images/marusa.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="kohara-honten">Kohara Honten</span> (<span lang="ja">小原本店</span>)
 
 <span class="noun" lang="ja-Latn">Kohara</span> was a manufacturer based in <span class="noun"
 lang="ja-Latn">Ōsaka</span> until 1980.[@ModernJapaneseWrappers p. 48] Their
@@ -2153,36 +2003,36 @@ brands included:
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with an angry ogre mask.](KH_onijirushi.jpg)
 > >
 > > The <span lang="ja-Latn">onijirushi</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with a ship sailing a flag reading “treasure” in Japanese.](KH_takarabune.jpg)
 > >
 > > The <span lang="ja-Latn">takarabune</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a warrior wearing a helmet with long horns.](KH_shoki.jpg)
 > >
 > > The <span lang="ja-Latn">shōki</span> wrapper.
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with two butterflies on it.](KHchouchou.jpg)
 > >
 > > The <span lang="ja-Latn">chōchō</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with a folded paper crane.](KHoridzuru.jpg)
 > >
 > > The <span lang="ja-Latn">oridzuru</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with bamboo, pine needles, and plum blossoms.](KHshouchikubai.jpg)
@@ -2195,26 +2045,26 @@ brands included:
 > > ![A hanafuda wrapper with a large drum and a blossom-viewing curtain.](KHyachiyo.jpg)
 > >
 > > The <span lang="ja-Latn">yachiyo</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with birds circling a whirlpool.](KHnaruto.jpg)
 > >
 > > The <span lang="ja-Latn">naruto</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a ship on it.](KHfune.jpg)
 > >
 > > The <span lang="ja-Latn">fune</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with a symbol repeated on it.](KHnarikomaya.jpg)
 > >
 > > The <span lang="ja-Latn">narikomaya</span> wrapper. The repeated symbol is <span lang="ja">イ菱</span> ‘<span lang="ja">イ</span> caltrop’, the <span lang="ja-Latn">mon</span> of the <span class="noun" lang="ja-Latn">Nakamura Ganjirō</span> line of actors.
 
-### <img src='/small-images/marukei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nakao Kōkeidō</span> (<span lang="ja">中尾晃恵堂</span>)
+### <img src='/small-images/marukei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="nakao-kokeido">Nakao Kōkeidō</span> (<span lang="ja">中尾晃恵堂</span>)
 
 A company in <span class="noun" lang="ja-Latn">Ōsaka</span> which had its cards manufactured
 by <span class="noun" lang="ja-Latn">Nihon Karuta</span>. Its mark was circled <span
@@ -2225,18 +2075,18 @@ lang="ja" class="circled">恵</span>. The only brands I know of are:
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a stylized plum tree.](NKumegae.jpg)
 > >
 > > The <span lang="ja-Latn">umegae</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a stylized pine tree.](NKmatsukaze.jpg)
 > >
 > > The <span lang="ja-Latn">matsukaze</span> wrapper.
 
-### <img src='/small-images/marui.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nishimura</span> (<span lang="ja">西村</span>)
+### <img src='/small-images/marui.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="nishimura">Nishimura</span> (<span lang="ja">西村</span>)
 
 > [!figure]
 >
@@ -2310,7 +2160,7 @@ brands included:[@ModernJapaneseWrappers pp. 54–8]
 >
 > Two <span class="noun" lang="ja-Latn">Nishimura</span> advertisements, from the December 1907 issue of the “Tokyo Toilet Trade Journal”. The advert on the right shows that they also sold <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> products.
 
-### <img src='/small-images/marukyou.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kyōto Karuta</span> (<span lang="ja">京都かるた</span>)
+### <img src='/small-images/marukyou.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="kyoto-karuta">Kyōto Karuta</span> (<span lang="ja">京都かるた</span>)
 
 A <span class="noun" lang="ja-Latn">Kyōto</span> manufacturer, founded by an ex-employee of
 <span class="noun" lang="ja-Latn">Nihon Karuta</span>. They were active in the 1960s & ’70s,
@@ -2325,7 +2175,7 @@ included:[@ModernJapaneseWrappers p. 49]
 * <span lang="ja">短冊</span> (<span lang="ja-Latn">tanzaku</span>, ‘poetry strip’)
 * <span lang="ja">ぼたん</span> (<span lang="ja-Latn">botan</span>, ‘peony’)
 
-### <img src='/small-images/3gourds.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Dai Nippon</span> (<span lang="ja">大日本</span>)
+### <img src='/small-images/3gourds.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="dai-nippon">Dai Nippon</span> (<span lang="ja">大日本</span>)
 
 A manufacturer from the city of [<span class="noun"
 lang="ja-Latn">Yōkaichi</span>](https://en.wikipedia.org/wiki/Y%C5%8Dkaichi,_Shiga)
@@ -2346,33 +2196,33 @@ Brands included:[@ModernJapaneseWrappers p. 46]
 
 > [!multi-wide]
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a man wearing tall headdress and holding a fan.](DN_hotaiko.jpg)
 > >
 > > The <span lang="ja-Latn">hōtaikō</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with a woman wearing robes.](DN_senhime.jpg)
 > >
 > > The <span lang="ja-Latn">senhime</span> wrapper.
-> 
+>
 > > [!figure]
 > >
 > > ![A hanafuda wrapper with a gold gourd on a red background and with cherry petals falling.](DN_kinhyō.jpg)
 > >
 > > The <span lang="ja-Latn">kinhyō</span> wrapper.
-> 
+>
 > > [!figure]
-> > 
+> >
 > > ![A hanafuda wrapper with a silver gourd on a blue background and with maple leaves falling.](DN_ginhyō.jpg)
 > >
 > > The <span lang="ja-Latn">ginhyō</span> wrapper.
 
-### <a href="http://www.nichiyu.net/en" class="noun" lang="ja-Latn">Nippon Yūgi Gangu/Nichiyū</a> (<span lang="ja">日本遊戯玩具</span>/<span lang="ja">ニチユー</span>)
+### <a href="http://www.nichiyu.net/en" class="noun" lang="ja-Latn" id="nippon-yugi-gangunichiyu">Nippon Yūgi Gangu/Nichiyū</a> (<span lang="ja">日本遊戯玩具</span>/<span lang="ja">ニチユー</span>)
 
 > [!figure]
-> 
+>
 > ![A red human-like Tengu with a long nose.](NYG_tengu.jpg)
 >
 > ```yaml
@@ -2408,10 +2258,10 @@ cards indicate that they were intended to be played with Hawaiian rules.
 >
 > <span class="noun" lang="ja-Latn">Nippon Yūgi</span>’s poker-format deck, possibly created for sale in <span class="noun" lang="haw">Hawai'i</span>.
 
-### Universal (<span lang="ja">ユニバーサル</span>)
+### <span id="universal">Universal</span> (<span lang="ja">ユニバーサル</span>)
 
 > [!aside]
-> 
+>
 > There was also [a Universal Playing Card Co. based in England](https://www.wopc.co.uk/alfcooke/index). As far as I can tell, the two companies were unrelated.
 
 > [!figure]
@@ -2497,12 +2347,12 @@ additional suit in games with more players.
 >
 > The reverse of the deck features a grape vine pattern. There are also two jokers included, one featuring a [<span lang="ja-Latn">kadomatsu</span>](https://en.wikipedia.org/wiki/Kadomatsu) (<span lang="ja">門松</span>), and the other with significantly less effort invested in its design. Note the small six-pointed stars in the corners, containing the letters U &amp; C intertwined.
 
-### <img src='/small-images/kaneman.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kawai</span>
+### <img src='/small-images/kaneman.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="kawai">Kawai</span>
 
 A manufacturer from <span class="noun" lang="ja-Latn">Ōsaka</span>, whose mark was <span
 lang="ja">万</span> with corner at top-right.[@OstasiatischeSpielkarten p. 135]
 
-### <img src='/small-images/marumatsu.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Akata Shōjōya</span> (<span lang="ja">赤田猩々屋</span>)
+### <img src='/small-images/marumatsu.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="akata-shojoya">Akata Shōjōya</span> (<span lang="ja">赤田猩々屋</span>)
 
 > [!figure]
 >
@@ -2536,7 +2386,7 @@ lang="ja-Latn">sake</span> ladle.
 > > ```
 > >
 > > An additional manufacturer’s card included with an <span class="noun" lang="ja-Latn">Akata Shōjōya</span> deck, produced after 1902. BnF Gallica has [high-quality scans](https://gallica.bnf.fr/ark:/12148/btv1b105093472) of this deck, and Yale University also [owns a copy](https://search.library.yale.edu/catalog/13318512).
-> 
+>
 > > [!figure]
 > >
 > > ![A newspaper ad in Japanese with pictures of Hanafuda and Western playing cards.](Akata-Newspaper.jpg)
@@ -2548,12 +2398,13 @@ lang="ja-Latn">sake</span> ladle.
 > > ```
 > >
 > > An advertisement for <span class="noun" lang="ja-Latn">Akata Shōjōya</span> cards in the <a href="https://en.wikipedia.org/wiki/Nichi_Bei_Times">Nichi Bei Times</a>, September 1921. This indicates the cards were being imported into San Francisco in the 1920s.
-### <span class="noun" lang="ja-Latn">Suisando</span> (<span lang="ja">翠山堂</span>)
+
+### <span class="noun" lang="ja-Latn" id="suisando">Suisando</span> (<span lang="ja">翠山堂</span>)
 
 A manufacturer that has a very finely-detailed deck of cards reproduced in
 @Hargrave [p. 13]. I know of no further information about them.
 
-### <img src='/small-images/marutano.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nihon Goraku</span> (<span lang="ja">日本娯楽</span>)
+### <img src='/small-images/marutano.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="nihon-goraku">Nihon Goraku</span> (<span lang="ja">日本娯楽</span>)
 
 > [!figure]
 >
@@ -2564,7 +2415,7 @@ A manufacturer that has a very finely-detailed deck of cards reproduced in
 > position: "aside"
 > license: 'with-permission'
 > authorFamily: "Richert"
-> authorGiven: "Marcus" 
+> authorGiven: "Marcus"
 > ```
 >
 > <span class="noun" lang="ja-Latn">Nihon Goraku</span>’s <span lang="ja-Latn">takejirushi</span> wrapper.
@@ -2579,7 +2430,7 @@ Their mark was circled <span lang="ja">娯</span>, and brands included:
 * <span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>), also used for <span class="noun" lang="ja-Latn">Kabufuda</span>
 * <span lang="ja">竹印</span> (<span lang="ja-Latn">takejirushi</span>, ‘bamboo brand’)
 
-### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Nishi&shy;guchi Shōten</span> (<span lang="ja">西口商店</span>)
+### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="nishiguchi-shoten">Nishi&shy;guchi Shōten</span> (<span lang="ja">西口商店</span>)
 
 > [!figure]
 >
@@ -2611,7 +2462,7 @@ Their mark was circled <span lang="ja">娯</span>, and brands included:
 * <span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)
 
 
-### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kyōwadō</span> (<span lang="ja">京和堂</span>)
+### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="kyowado">Kyōwadō</span> (<span lang="ja">京和堂</span>)
 
 A company about which I know very little. Presumably from the name they were
 based in <span class="noun" lang="ja-Latn">Kyōto</span>. Their mark was a circled <span
@@ -2623,7 +2474,7 @@ lang="ja-Latn">Nishi&shy;guchi Shōten</span>. Their brands included:
 
 [^fn3]: This is a <em>likely</em> categorization based upon the design of the box, but the maker’s mark appears to be different.
 
-### <img src='/small-images/kanekata.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Kamigataya</span> (<span lang="ja">上方屋</span>)
+### <img src='/small-images/kanekata.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="kamigataya">Kamigataya</span> (<span lang="ja">上方屋</span>)
 
 > [!figure]
 >
@@ -2668,7 +2519,7 @@ Their brands included:
 >
 > The <span lang="ja-Latn">miyako nishiki</span> wrapper, manufactured by <span class="noun" lang="ja-Latn">Nintendō</span> (credited as “<span class="noun" lang="ja-Latn">F. Yamauchi</span>”).
 
-### <img src='/small-images/marukin.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Marukin</span>
+### <img src='/small-images/marukin.svg' alt="" class="inline-img" /> <span id="marukin" class="noun" lang="ja-Latn">Marukin</span>
 
 <span class="noun" lang="ja-Latn">Marukin</span> was a company based in the city of <span class="noun"
 lang="ja-Latn">Sakata</span>, <span class="noun" lang="ja-Latn">Yamagata</span> prefecture
@@ -2677,7 +2528,7 @@ class="circled">金</span>. Brands included:
 
 * <span lang="ja">金天狗</span> (<span lang="ja-Latn">kintengu</span>, ‘golden <span class="noun" lang="ja-Latn">Tengu</span>’)
 
-### <img src='/small-images/marudai.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Ōtani Shōten</span> (<span lang="ja">大谷商店</span>)
+### <img src='/small-images/marudai.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="otani-shoten">Ōtani Shōten</span> (<span lang="ja">大谷商店</span>)
 
 <span class="noun" lang="ja-Latn">Ōtani Shōten</span> was a company based in the town of
 <span class="noun" lang="ja-Latn">Sakurai</span>, in <span class="noun" lang="ja-Latn">Shiki</span>
@@ -2691,7 +2542,7 @@ included:
   islands’, the Japanese name for the [Kuril
   Islands](https://en.wikipedia.org/wiki/Kuril_Islands))
 
-### <img src='/small-images/marutoku.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Tōhoku Karuta</span> (<span lang="ja">東北骨牌</span>)
+### <img src='/small-images/marutoku.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="tohoku-karuta">Tōhoku Karuta</span> (<span lang="ja">東北骨牌</span>)
 
 <span class="noun" lang="ja-Latn">Tōhoku</span> was a manufacturer based in the city of [<span class="noun" lang="ja-Latn">Tendō</span>](https://en.wikipedia.org/wiki/Tend%C5%8D,_Yamagata), <span class="noun" lang="ja-Latn">Yamagata</span> prefecture (<span lang="ja">山形県天童市 </span>). They originally appear to have been a manufacturer (including for <span class="noun" lang="ja-Latn">Seieidō</span>), but later outsourced production to <span class="noun" lang="ja-Latn">Tamura Shōgundō</span>. The company seems to still exist in some form as [<span class="noun" lang="ja-Latn">Tendon Shogi</span>](http://www.syougi.co.jp/).  Their manufacturer’s mark was a circled <span class="circled" lang="ja">特 </span>, and their own brands included:
 
@@ -2699,7 +2550,7 @@ included:
 * <span lang="ja">出羽桜</span> (<span lang="ja-Latn">dewa&shy;zakura</span>, ‘[<span class="noun" lang="ja-Latn">Dewa</span>](https://en.wikipedia.org/wiki/Dewa_Province) cherry’)
 * <span lang="ja">白菊</span> (<span lang="ja-Latn">shira&shy;giku</span>, ‘white chrysanthemum’)
 
-### <span class="noun" lang="ja-Latn">Seieidō</span> (<span lang="ja">精英堂</span>)
+### <span class="noun" lang="ja-Latn" id="seieido">Seieidō</span> (<span lang="ja">精英堂</span>)
 
 > [!figure]
 >
@@ -2725,7 +2576,7 @@ included:
   brand’)
 
 
-### <span class="noun" lang="ja-Latn">Tamei Fukujudō</span> (<span lang="ja">為井福寿堂</span>)
+### <span class="noun" lang="ja-Latn" id="tamei-fukujudo">Tamei Fukujudō</span> (<span lang="ja">為井福寿堂</span>)
 
 > [!figure]
 >
@@ -2744,7 +2595,7 @@ name as a mark. I only know of one brand:
 
 * <span lang="ja">弁慶</span> (<span lang="ja-Latn">benkei</span>, not printed on box)
 
-### <span class="noun" lang="ja-Latn">Sanjōya</span> (<span lang="ja">三條屋</span>)
+### <span class="noun" lang="ja-Latn" id="sanjoya">Sanjōya</span> (<span lang="ja">三條屋</span>)
 
 > [!figure]
 >
@@ -2765,23 +2616,23 @@ lang="ja-Latn">Kamigataya</span>](#kamigataya). Their mark was <span lang="ja">
 上</span> in a square. Another mark they used (for the store itself) was <span
 lang="ja">又</span> under a mountain.
 
-### <img src='/small-images/maruyoshi.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn">Maruyoshi</span> (<span lang="ja">マル芳</span>)
+### <img src='/small-images/maruyoshi.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="maruyoshi">Maruyoshi</span> (<span lang="ja">マル芳</span>)
 
 Based in <span class="noun" lang="ja-Latn">Ōsaka</span>, their mark was <span class="circled"
 lang="ja">芳</span> in a circle. I know of nothing else about this manufacturer.
 
-### <span class="noun" lang="ja-Latn">Itō Kōji Shōten</span> (<span lang="ja">伊藤幸治商店</span>)
+### <span class="noun" lang="ja-Latn" id="ito-koji-shoten">Itō Kōji Shōten</span> (<span lang="ja">伊藤幸治商店</span>)
 
 A <span class="noun" lang="ja-Latn">Kyōto</span> manufacturer, only has one deck that I know of:
 
 * <span lang="ja">近代花</span> (<span lang="ja-Latn">kindaibana</span>, ‘modern flowers’)
 
-### Alaska playing cards
+### <span id="alaska-playing-cards">Alaska playing cards</span>
 
 Alaska was a playing-card company that also manufactured some hana-trump decks. I know of nothing else about them.
 
 > [!figure]
-> 
+>
 > ![](alaska.jpg)
 >
 > ```yaml

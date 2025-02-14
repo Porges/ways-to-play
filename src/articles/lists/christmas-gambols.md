@@ -6,7 +6,6 @@ date modified: 2025-02-08
 aliases: [The Christmas Gambols (1776)]
 linter-yaml-title-alias: The Christmas Gambols (1776)
 ---
-
 #  The Christmas Gambols (1776)
 
 This poem by an otherwise unnamed “Boughton, Esq.” is featured in @PoeticalAmusementsBath2 [126–30] and contains reference to a number of games which were apparently at risk of being forgotten at the time the poem was written — however the poem is actually a sequence of sexual references.
@@ -74,7 +73,7 @@ This poem by an otherwise unnamed “Boughton, Esq.” is featured in @PoeticalA
 > Each lady has her hobby-horse,<br/>
 > &emsp;Few men without their poney;<br/>
 > May _Laugh and lie down_ be my lot,[^fn6]<br/>
-> &emsp;With _Loo, and Matrimony_.
+> &emsp;With _Loo, and Matrimony_.[^loo]
 > 
 > And, now I’ve done, this boon I crave,<br/>
 > &emsp;’Twill make my Muse to amble,<br/>
@@ -90,8 +89,10 @@ This poem by an otherwise unnamed “Boughton, Esq.” is featured in @PoeticalA
 
 [^fn3]: See: [Beggar My Neighbour](games/beggar-my-neighbour/beggar-my-neighbour.md).
 
-[^fn4]: i.e. hunt-the-slipper, a circle-game
+[^fn4]: i.e. hunt-the-slipper, a [circle-chase game](games/circle-chases/circle-chases.md).
 
 [^fn5]: “Young Wenches have a wanton sport which they call _moulding of Cocklebread: viz._ they gett upon a Table-board, and then gather-up their knees and their coates with their hands as high as they can, and then they wabble to and fro with their Buttocks as if they were kneading of Dowgh with their A[rse], and say these words, _viz._—‘My Dame is sick and gonne to bed/And I’le go mowld my Cockle-bread’.”[@RemainsOfGentilisme 43] This was apparently a remnant of a older folk-magic in which such _fundamentally_-kneaded bread would be served to the object of the girl’s desire, in order to secure their love.[@RemainsOfGentilisme 225] See also “cockle-bread” in @SexualShakespeare1 [264].
 
 [^fn6]: See: [Laugh and Lie Down](games/laugh-and-lie-down/laugh-and-lie-down.md).
+
+[^loo]: Both of these are card games.
