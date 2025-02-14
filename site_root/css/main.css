@@ -722,11 +722,6 @@ div.multi {
         }
     }
 
-    /* this feels pretty hacky */
-    &:has(p:first-child) {
-        margin-left: 1lh;
-    }
-
     &+div.multi {
         margin-top: .5rlh;
     }

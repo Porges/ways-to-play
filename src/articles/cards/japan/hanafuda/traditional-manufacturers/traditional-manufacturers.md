@@ -10,7 +10,7 @@ hero:
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-22
-date modified: 2025-02-14
+date modified: 2025-02-15
 aliases: [Japanese Hanafuda Brands]
 linter-yaml-title-alias: Japanese Hanafuda Brands
 ---
@@ -588,6 +588,12 @@ picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span
 lang="ja">丸福天狗</span>; and <span lang="ja-Latn">Miyako no Hana</span> <span
 lang="ja">都の花</span> ‘flowers of the city’.
 
+
+* <span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a
+  translation of ‘first consul’, Napoleon’s title from 1799–1804), trademarked
+  in 1901[@Trademarks1905 p. 67]
+* <span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘[<span class="noun" lang="ja-Latn">Tengu</span>](https://en.wikipedia.org/wiki/Tengu)’), trademarked in 1912[@Trademarks1924_5 p. 276]
+
 <div class="multi">
 > [!figure]
 >
@@ -600,12 +606,6 @@ lang="ja">都の花</span> ‘flowers of the city’.
 > ![A Hanafuda wrapper featuring a red figure with a big nose, holding a fan made of feathers.](Nintendo_Tengu.jpg)
 >
 > <span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">Tengu</span> packaging.
-
-> [!figure]
->
-> ![A Hanafuda wrapper with a red figure with a big nose, holding a fan made of feathers.](Nintendo_Daitengu.jpg)
->
-> <span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">Daitengu</span> packaging.
 
 > [!figure]
 >
@@ -633,20 +633,141 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 >
 > <span class="noun" lang="ja-Latn">Otafuku</span> (also known as <span class="noun" lang="ja-Latn">Okame</span>) is a traditional character associated with good luck, and often appears in <span lang="ja-Latn">kagura</span> performances alongside [<span class="noun" lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
 
-* <span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a
-  translation of ‘first consul’, Napoleon’s title from 1799–1804), trademarked
-  in 1901[@Trademarks1905 p. 67]
-* <span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>,
-  ‘moon-faced woman’), trademarked in 1900[@Trademarks1905 p. 67]
-* <span lang="ja">正宗</span> (<span lang="ja-Latn">masamune</span>, [a famous
-  swordsmith](https://en.wikipedia.org/wiki/Masamune)), trademarked in
-  1900[@Trademarks1905 p. 67]
-* <span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘<span class="noun"
-  lang="ja-Latn">Tengu</span>’), trademarked in 1912[@Trademarks1924_5 p. 276]
-* <span lang="ja">大天狗</span> (<span lang="ja-Latn">daitengu</span>, the most
-  powerful or chief type of <span class="noun" lang="ja-Latn">Tengu</span>), introduced in 1977
-* <span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’),
-  trademarked in 1900[@Trademarks1905 p. 67]
+
+* <span lang="ja">正宗</span> (<span lang="ja-Latn">Masamune</span>, [a famous swordsmith](https://en.wikipedia.org/wiki/Masamune)), trademarked in 1900[@Trademarks1905 p. 67]; no photograph, see trademark at right
+* <span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’), trademarked in 1900[@Trademarks1905 p. 67]; no photograph, see trademark at right
+* <span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>, ‘moon-faced woman’), trademarked in 1900[@Trademarks1905 p. 67]
+* <span lang="ja">大天狗</span> (<span lang="ja-Latn">daitengu</span>, the most powerful or chief type of <span class="noun" lang="ja-Latn">Tengu</span>), introduced in 1977
+* <span lang="ja">平安</span> (<span lang="ja-Latn">heian</span>, ‘peace’, also [a Japanese era name](https://en.wikipedia.org/wiki/Heian_period))
+
+> [!multi]
+>
+> > [!figure]
+> >
+> > ![A Hanafuda wrapper with a red figure with a big nose, holding a fan made of feathers.](Nintendo_Daitengu.jpg)
+> >
+> > <span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">Daitengu</span> packaging.
+>
+> > [!figure]
+> >
+> > ![A Hanafuda wrapper with a woman with a pale, round face, holding a fan.](N_otafuku.jpg)
+> >
+> > The <span lang="ja-Latn">otafuku</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_spring.jpg)
+> >
+> > The <span lang="ja-Latn">heian</span> wrapper.
+
+* <span lang="ja">福壽</span> (<span lang="ja-Latn">fukuju</span>, ‘fortune & longevity’), picturing the lucky god [<span lang="ja-Latn" class="noun">Fukurokuju</span> (<span lang="ja">福禄寿</span>)](https://en.wikipedia.org/wiki/Fukurokuju); the <span lang="ja">福</span> is also again the Nintendō maker’s mark and the character <span lang="ja">壽</span> appears on the sake cup card
+* <span lang="ja">蛭子</span> (<span lang="ja-Latn">Hiruko</span>, another another lucky god also known as [<span lang="ja-Latn" class="noun">Ebisu</span>](https://en.wikipedia.org/wiki/Ebisu_(mythology)))
+* <span lang="ja">春遊</span> (<span lang="ja-Latn">shun’yu</span>, ‘spring outing’, especially of the Emperor)
+
+> [!multi]
+>
+> > [!figure]
+> >
+> > ![TODO](N_fukuju.jpg)
+> >
+> > The <span lang="ja-Latn">fukuju</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_fishguy.jpg)
+> >
+> > The <span lang="ja-Latn">hiruko</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_shunyu.jpg)
+> >
+> > The <span lang="ja-Latn">shunyu</span> wrapper.
+
+* <span lang="ja">逰[ぶ?]かるた</span> (<span lang="ja-Latn">asobu karuta</span>, ‘playing cards’)
+* <span lang="ja">立山</span> (<span lang="ja-Latn">tateyama</span>, [one of the three holy mountains of Japan](https://en.wikipedia.org/wiki/Mount_Tate))
+* <span lang="ja">大王印</span> (<span lang="ja-Latn">daiō shirushi</span>, ‘great king brand’, I am unsure if this refers to anyone in particular)
+
+> [!multi]
+>
+> > [!figure]
+> >
+> > ![TODO](N_karuta.jpg)
+> >
+> > The <span lang="ja-Latn">asobu karuta</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_fuji.jpg)
+> >
+> > The <span lang="ja-Latn">tateyama</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_dai.jpg)
+> >
+> > The <span lang="ja-Latn">daiō shirushi</span> wrapper.
+
+* <span lang="ja">羽衣</span> (<span lang="ja-Latn">hagoromo</span>, ‘feather robe’)
+* <span lang="ja">虫</span> (<span lang="ja-Latn">mushi</span>, ‘insect’); with an image of swallows
+* <span lang="ja">?水</span> (<span lang="ja-Latn">?mizu</span>, ‘? water’, I cannot figure out the first character yet)
+
+> [!multi]
+>
+> > [!figure]
+> >
+> > ![TODO](N_grey2.jpg)
+> >
+> > The <span lang="ja-Latn">hagoromo</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_swallows.jpg)
+> >
+> > The <span lang="ja-Latn">mushi</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_grey1.jpg)
+> >
+> > The <span lang="ja-Latn">?mizu</span> wrapper.
+
+> [!figure]
+>
+> ![TODO](Konishiki1-main2.jp)
+>
+> ```yaml
+> position: aside
+> license: cc0
+> ```
+>
+> <span lang="ja-Latn">Konishiki</span> wearing his <span lang="ja-Latn">keshō-mawashi</span>.
+
+* <span lang="ja">三羽鶴</span> (<span lang="ja-Latn">sanba&shy;dzuru</span>, ‘three cranes’)
+* a wrapper picturing a cat (with no brand name), but which is probably a <span lang="ja">招き猫</span> (<span lang="ja-Latn">maneki neko</span>, ‘beckoning cat’)
+* <span lang="ja">小錦印</span> (<span lang="ja-Latn">konishiki shirushi</span>, ‘<span lang="ja-Latn">Konishiki</span> brand’), depicting a sumo wrestler’s <span lang="ja-Latn">keshō-mawashi</span>; [<span lang="ja-Latn" class="noun">Konishiki Yasokichi</span>](https://en.wikipedia.org/wiki/Konishiki_Yasokichi_I) (1866–1914) was the 17th <span lang="ja-Latn">yokozuna</span>
+
+> [!multi]
+>
+> > [!figure]
+> >
+> > ![TODO](N_cranes.jpg)
+> >
+> > The <span lang="ja-Latn">sanba&shy;dzuru</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_cat.jpg)
+> >
+> > The <span lang="ja-Latn">maneki neko</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_skirt.jpg)
+> >
+> > The <span lang="ja-Latn">konishiki shirushi</span> wrapper.
+
+
 * <span lang="ja">白梅</span> (<span lang="ja-Latn">hakubai</span>, ‘white
   plum’), not in use as of 1980
 * <span lang="ja">櫻乃山</span> (<span lang="ja-Latn">sakura no yama</span>,
@@ -657,8 +778,6 @@ brands have included:[@ModernJapaneseWrappers p. 54]
   cranes’), not in use as of 1980
 * <span lang="ja">千代桜</span> (<span lang="ja-Latn">chiyo zakura</span>,
   ‘thousand-year cherry blossoms’)
-* <span lang="ja">春遊</span> (<span lang="ja-Latn">shun’yu</span>, ‘spring
-  outing’, especially of the Emperor)
 * <span lang="ja">四光印</span> (<span lang="ja-Latn">shikōjirushi</span>, ‘four
   brights brand’), trademarked in 1916[@Trademarks1924_9 p. 286]
 * <span lang="ja">御所櫻</span> (<span lang="ja-Latn">gosho&shy;zakura</span>,
