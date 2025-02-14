@@ -2445,10 +2445,11 @@ lang="ja-Latn">Ōsaka</span>.[@UniversalInfo] Their maker’s mark on <span clas
 lang="ja-Latn">Hanafuda</span> decks was a drawstring purse (<span lang="ja">巾
 着</span> <span lang="ja-Latn">kinchaku</span>); elsewhere they used a
 six-pointed star containing “<small>UNIVERSAL</small>” or an interlocked U &amp;
-C. Their own brands included:[@ModernJapaneseWrappers pp. 59–62]
+C. Their own brands included:
 
-* <span lang="ja">ゴム花</span> (<span lang="ja-Latn">gomuhana</span>, ‘rubber flower’)
-* <span lang="ja">萬年花</span> (<span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’)
+* <span lang="ja">ゴム花</span> <span lang="ja-Latn">gomuhana</span>, ‘rubber flower’,[@ModernJapaneseWrappers pp. 59–62] for decks made with plasticised cards
+* <span lang="ja">萬年花</span> <span lang="ja-Latn">mannenhana</span>, ‘10&thinsp;000 year flower’[@ModernJapaneseWrappers pp. 59–62]
+* <span lang="ja">壺</span> <span lang="ja-Latn">tsubo</span>, depicting a vase (in yellow) like that shown on the Joker card below
 
 In addition to <span class="noun" lang="ja-Latn">Hanafuda</span>, they produced Western cards
 and Ceki cards for export. In 1935 they exported a total of 10 million
@@ -2493,6 +2494,10 @@ additional suit in games with more players.
 > [!figure]
 >
 > ![](Universal_25_brights.jpg)
+>
+> ```yaml
+> size: wide
+> ```
 >
 > The Bright cards of Universal’s <span class="noun" lang="ja-Latn">Hana-Trump</span> deck. This particular deck is listed as number “25” on the packaging.
 
@@ -2597,34 +2602,33 @@ Their mark was circled <span lang="ja">娯</span>, and brands included:
 
 ### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="nishiguchi-shoten">Nishi&shy;guchi Shōten</span> (<span lang="ja">西口商店</span>)
 
-> [!figure]
->
-> ![](Nishiguchi_trademark.png)
->
-> ```yaml
-> noborder: true
-> size: "small"
-> position: "aside"
-> license: "cc0"
-> ```
->
-> <span class="noun" lang="ja-Latn">Nishiguchi</span>’s trademark, registered on the 3rd of October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<span lang="ja"> 西口榮助</span>).[@Trademarks1924_7 p. 226]
-
-> [!figure]
->
-> ![A hanafuda wrapper showing images of hanafuda cards.](NS_otanoshimi.jpg)
->
-> ```yaml
-> size: "small"
-> position: "aside"
-> ```
->
-> The <span lang="ja-Latn">otanoshimi</span> wrapper.
-
-
 <span class="noun" lang="ja-Latn">Nishi&shy;gushi</span> also manufactured board games (such as [Gunjin Shogi](games/gunjin-shogi/gunjin-shogi.md)) Some of their decks were manufactured by <span class="noun" lang="ja-Latn">Nihon Karuta</span>. Their mark was a circled <span class="circled" lang="ja">榮</span>, the same as <span class="noun" lang="ja-Latn">Kyōwadō</span>. Brands included:
 
 * <span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)
+
+> [!multi]
+>
+> > [!figure]
+> >
+> > ![](Nishiguchi_trademark.png)
+> >
+> > ```yaml
+> > noborder: true
+> > size: "small"
+> > license: "cc0"
+> > ```
+> >
+> > <span class="noun" lang="ja-Latn">Nishiguchi</span>’s trademark, registered on the 3rd of October 1914 by <span class="noun" lang="ja-Latn">Nishiguchi Eisuke</span> (<span lang="ja"> 西口榮助</span>).[@Trademarks1924_7 p. 226]
+>
+> > [!figure]
+> >
+> > ![A hanafuda wrapper showing images of hanafuda cards.](NS_otanoshimi.jpg)
+> >
+> > ```yaml
+> > size: "small"
+> > ```
+> >
+> > The <span lang="ja-Latn">otanoshimi</span> wrapper.
 
 
 ### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="kyowado">Kyōwadō</span> (<span lang="ja">京和堂</span>)
