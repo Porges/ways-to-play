@@ -20286,3 +20286,35 @@ LesPoésiesPersonnellesReview:
     volume: 66
     issue: 263
     issued: 1941
+EnochianChess:
+  type: book
+  title: "Enochian Chess of the Golden Dawn: A Four-Handed Chess Game"
+  author:
+  - given: Chris
+    family: Zalewski
+  issued: 1994
+  publisher: Llewellyn Publications
+  publisher-place: St. Paul, MN, USA
+  ISBN: '0875428959'
+GuinnessWinners:
+  type: book
+  title: The Winner’s Guide to Games
+  author:
+  - given: Gyles
+    family: Brandreth
+  issued: 1992
+  publisher: Guinness Publishing
+  publisher-place: Enfield, Middlesex, UK
+  ISBN: '0851125085'
+DartsInEngland:
+  type: book
+  title: 'Darts in England, 1900–39: A social history'
+  author:
+  - given: Patrick
+    family: Chaplin
+  issued: 2009
+  publisher: Manchester University Press
+  publisher-place: Manchester, UK
+  ISBN: '9780719078033'
+  series:
+    title: Studies in Popular Culture
