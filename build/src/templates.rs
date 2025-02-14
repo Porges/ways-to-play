@@ -361,6 +361,10 @@ impl Templater {
 
     pub fn welcome(&self) -> Result<OutputFile> {
         let content = html! {
+            h1.page-title {
+                "Welcome to Ways To Play"
+            }
+
             p {
                 "This is a site about games, traditional and modern, that are played around the world."
             }
@@ -484,49 +488,78 @@ impl Templater {
     }
 
     pub fn names_index(&self, akas: impl Iterator<Item = Aka>) -> Result<OutputFile> {
-        let name_of = |lang: &str| -> Result<String> {
-            let name = match lang {
-                "tws" => "Teochew".to_string(),
+        let name_of = |lang: &str| -> Result<(Markup, String)> {
+            let (name, english) = match lang {
+                "tws" => (html! { "Teochew" }, "Teochew".to_string()),
                 p => {
                     let known = isolang::Language::from_639_1(p)
                         .or_else(|| isolang::Language::from_639_3(p))
                         .ok_or_else(|| eyre::eyre!("unknown language {:?}", p))?;
 
-                    match known.to_autonym() {
+                    let html = match known.to_autonym() {
                         Some(auto) if auto != known.to_name() => {
-                            format!(
-                                r#"{} · <span class="noun" lang="{}">{}</span>"#,
-                                known.to_name(),
-                                lang,
-                                auto
-                            )
+                            html! {
+                                (known.to_name())
+                                " · "
+                                span.noun lang=(p) { (auto) }
+                            }
                         }
-                        _ => known.to_name().to_string(),
-                    }
+                        _ => html! { (known.to_name()) },
+                    };
+
+                    (html, known.to_name().to_string())
                 }
             };
 
-            Ok(name)
+            Ok((
+                name,
+                format!("https://en.wikipedia.org/wiki/{}_language", english),
+            ))
         };
 
-        let mut lang_groups: Vec<(String, String, Vec<(LangTagBuf, Markup, String)>)> = akas
+        struct LangGroup {
+            lang_name: Markup,
+            lang_link: String,
+            lang_tag: String,
+            game_names: Vec<GameName>,
+        }
+
+        struct GameName {
+            lang_tag: LangTagBuf,
+            aka: Markup,
+            url: String,
+        }
+
+        let mut lang_groups: Vec<LangGroup> = akas
             .map(|aka| {
                 Ok((
                     aka.language
                         .language()
                         .ok_or_eyre("no language")?
                         .to_string(),
-                    (aka.language, aka.word, aka.url_path),
+                    GameName {
+                        lang_tag: aka.language,
+                        aka: aka.word,
+                        url: aka.url_path,
+                    },
                 ))
             })
             .collect::<Result<Vec<_>>>()?
             .into_iter()
             .into_group_map()
             .into_iter()
-            .map(|(l, v)| Ok((name_of(&l)?, l.to_string(), v)))
+            .map(|(l, game_names)| {
+                let (name, url) = name_of(&l)?;
+                Ok(LangGroup {
+                    lang_tag: l.to_string(),
+                    lang_name: name,
+                    lang_link: url,
+                    game_names,
+                })
+            })
             .collect::<Result<_>>()?;
 
-        lang_groups.sort_by_cached_key(|(name, _, _)| name.clone());
+        lang_groups.sort_by_cached_key(|lg| lg.lang_name.0.clone());
 
         let content = html! {
             h1 { "Game Names Index" }
@@ -535,21 +568,22 @@ impl Templater {
             }
             h2 { "Languages" }
             ul.columnar {
-                @for (name, id, _) in &lang_groups {
+                @for group in &lang_groups {
                     li {
-                        a href={"#" (id)} {
-                            (maud::PreEscaped(name))
+                        a href={"#" (group.lang_tag)} {
+                            (group.lang_name)
                         }
                     }
                 }
             }
             hr;
-            @for (name, id, akas) in lang_groups {
-                h3 #(id) { (maud::PreEscaped(name)) }
+            @for group in lang_groups {
+                h3 #(group.lang_tag) { a href=(group.lang_link) { (group.lang_name) } }
                 ul.columnarr {
-                    @for (langtag, name, url) in akas {
+                    @for game_name in group.game_names.into_iter().sorted_by_key(|gn| gn.aka.0.clone()) {
                         li {
-                            a href=(url) lang=(langtag) { (name) }
+                            a href=(game_name.url) lang=(game_name.lang_tag) { (game_name.aka) }
+                            // TODO: need to link to exact location
                         }
                     }
                 }

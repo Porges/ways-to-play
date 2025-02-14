@@ -759,12 +759,14 @@ impl Builder {
             .filter(|a| !a.is_draft() || self.output_drafts)
             .map(|article| {
                 let push_aka = |language: LangTagBuf, word: Markup| {
-                    let aka = Aka {
-                        language,
-                        word,
-                        url_path: article.url_path.to_string(),
-                    };
-                    akas.lock().unwrap().push(aka);
+                    if self.output_drafts || !article.is_draft() {
+                        let aka = Aka {
+                            language,
+                            word,
+                            url_path: article.url_path.to_string(),
+                        };
+                        akas.lock().unwrap().push(aka);
+                    }
                 };
                 self.generate_article(article, &url_lookup, Some(&article_tree), push_aka)
                     .wrap_err_with(|| eyre!("couldn’t export {}", article.file_path.display()))
@@ -776,12 +778,14 @@ impl Builder {
             .filter(|a| !a.is_draft() || self.output_drafts)
             .map(|game| {
                 let push_aka = |language: LangTagBuf, word: Markup| {
-                    let aka = Aka {
-                        language,
-                        word,
-                        url_path: game.url_path.to_string(),
-                    };
-                    akas.lock().unwrap().push(aka);
+                    if self.output_drafts || !game.is_draft() {
+                        let aka = Aka {
+                            language,
+                            word,
+                            url_path: game.url_path.to_string(),
+                        };
+                        akas.lock().unwrap().push(aka);
+                    }
                 };
                 self.generate_article(game, &url_lookup, None, push_aka)
                     .wrap_err_with(|| eyre!("couldn’t export {}", game.file_path.display()))
