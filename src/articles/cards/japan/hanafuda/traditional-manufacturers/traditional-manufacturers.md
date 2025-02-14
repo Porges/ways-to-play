@@ -662,7 +662,7 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 
 * <span lang="ja">福壽</span> (<span lang="ja-Latn">fukuju</span>, ‘fortune & longevity’), picturing the lucky god [<span lang="ja-Latn" class="noun">Fukurokuju</span> (<span lang="ja">福禄寿</span>)](https://en.wikipedia.org/wiki/Fukurokuju); the <span lang="ja">福</span> is also again the Nintendō maker’s mark and the character <span lang="ja">壽</span> appears on the sake cup card
 * <span lang="ja">蛭子</span> (<span lang="ja-Latn">Hiruko</span>, another another lucky god also known as [<span lang="ja-Latn" class="noun">Ebisu</span>](https://en.wikipedia.org/wiki/Ebisu_(mythology)))
-* <span lang="ja">春遊</span> (<span lang="ja-Latn">shun’yu</span>, ‘spring outing’, especially of the Emperor)
+* <span lang="ja">大福</span> (<span lang="ja-Latn">daifuku</span>, ‘great luck’), with the wrapper depicting some of the attributes of the lucky god [<span lang="ja-Latn" class="noun">Daikokuten</span>](https://en.wikipedia.org/wiki/Daikokuten)
 
 > [!multi]
 >
@@ -680,15 +680,21 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 >
 > > [!figure]
 > >
+> > ![TODO](N_bag.jpg)
+> >
+> > The <span lang="ja-Latn">daifuku</span> wrapper.
+
+* <span lang="ja">春遊</span> (<span lang="ja-Latn">shun’yu</span>, ‘spring outing’, especially of the Emperor)
+* <span lang="ja">逰[ぶ?]かるた</span> (<span lang="ja-Latn">asobu karuta</span>, ‘playing cards’)
+* <span lang="ja">立山</span> (<span lang="ja-Latn">tateyama</span>, [one of the three holy mountains of Japan](https://en.wikipedia.org/wiki/Mount_Tate))
+
+> [!multi]
+>
+> > [!figure]
+> >
 > > ![TODO](N_shunyu.jpg)
 > >
 > > The <span lang="ja-Latn">shunyu</span> wrapper.
-
-* <span lang="ja">逰[ぶ?]かるた</span> (<span lang="ja-Latn">asobu karuta</span>, ‘playing cards’)
-* <span lang="ja">立山</span> (<span lang="ja-Latn">tateyama</span>, [one of the three holy mountains of Japan](https://en.wikipedia.org/wiki/Mount_Tate))
-* <span lang="ja">大王印</span> (<span lang="ja-Latn">daiō shirushi</span>, ‘great king brand’, I am unsure if this refers to anyone in particular)
-
-> [!multi]
 >
 > > [!figure]
 > >
@@ -701,12 +707,6 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > > ![TODO](N_fuji.jpg)
 > >
 > > The <span lang="ja-Latn">tateyama</span> wrapper.
->
-> > [!figure]
-> >
-> > ![TODO](N_dai.jpg)
-> >
-> > The <span lang="ja-Latn">daiō shirushi</span> wrapper.
 
 * <span lang="ja">羽衣</span> (<span lang="ja-Latn">hagoromo</span>, ‘feather robe’)
 * <span lang="ja">虫</span> (<span lang="ja-Latn">mushi</span>, ‘insect’); with an image of swallows
@@ -734,16 +734,16 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 
 > [!figure]
 >
-> ![TODO](Konishiki1-main2.jp)
+> ![TODO](Konishiki1-main2.jpg)
 >
 > ```yaml
 > position: aside
 > license: cc0
 > ```
 >
-> <span lang="ja-Latn">Konishiki</span> wearing his <span lang="ja-Latn">keshō-mawashi</span>.
+> <span lang="ja-Latn" class="noun">Konishiki</span> wearing his <span lang="ja-Latn">keshō-mawashi</span>. It can be seen that the wrapper is a faithful representation.
 
-* <span lang="ja">三羽鶴</span> (<span lang="ja-Latn">sanba&shy;dzuru</span>, ‘three cranes’)
+* <span lang="ja">三羽鶴</span> (<span lang="ja-Latn">sanba&shy;dzuru</span>, ‘three cranes’), not in use as of 1980
 * a wrapper picturing a cat (with no brand name), but which is probably a <span lang="ja">招き猫</span> (<span lang="ja-Latn">maneki neko</span>, ‘beckoning cat’)
 * <span lang="ja">小錦印</span> (<span lang="ja-Latn">konishiki shirushi</span>, ‘<span lang="ja-Latn">Konishiki</span> brand’), depicting a sumo wrestler’s <span lang="ja-Latn">keshō-mawashi</span>; [<span lang="ja-Latn" class="noun">Konishiki Yasokichi</span>](https://en.wikipedia.org/wiki/Konishiki_Yasokichi_I) (1866–1914) was the 17th <span lang="ja-Latn">yokozuna</span>
 
@@ -767,43 +767,24 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > >
 > > The <span lang="ja-Latn">konishiki shirushi</span> wrapper.
 
-
-* <span lang="ja">白梅</span> (<span lang="ja-Latn">hakubai</span>, ‘white
-  plum’), not in use as of 1980
-* <span lang="ja">櫻乃山</span> (<span lang="ja-Latn">sakura no yama</span>,
-  ‘mountain cherry blossoms’), not in use as of 1980
-* <span lang="ja">朝日桜</span> (<span lang="ja-Latn">asahi sakura</span>,
-  ‘sunrise cherry blossoms’)
-* <span lang="ja">三羽鶴</span> (<span lang="ja-Latn">sanbazuru</span>, ‘three
-  cranes’), not in use as of 1980
-* <span lang="ja">千代桜</span> (<span lang="ja-Latn">chiyo zakura</span>,
-  ‘thousand-year cherry blossoms’)
-* <span lang="ja">四光印</span> (<span lang="ja-Latn">shikōjirushi</span>, ‘four
-  brights brand’), trademarked in 1916[@Trademarks1924_9 p. 286]
-* <span lang="ja">御所櫻</span> (<span lang="ja-Latn">gosho&shy;zakura</span>,
-  ‘imperial palace cherry blossoms’)
-* <span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)
-* <span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a
-  reference to the [<span lang="ja-Latn">waka</span> that appears on the pine
-  cards in some decks](articles/cards/japan/hanafuda/art/art.md#month-1))
-* <span lang="ja">丹頂</span> (<span lang="ja-Latn">tanchō</span>, ‘red-crested
-  crane’, that appears on the pine bright)
-
-> [!figure]
->
-> ![](Nintendo_tokiwa_box.jpg)
-> ![Some green pine trees in a misty landscape.](Nintendo_tokiwa.jpg)
->
-> ```yaml
-> orgName: "beforemario.com"
-> orgUrl: "https://beforemario.com"
-> copyrightYear: 2021
-> license: "with-permission"
-> ```
->
-> The <span lang="ja-Latn">tokiwa</span> external box and wrapper.
+* <span lang="ja">大王印</span> (<span lang="ja-Latn">daiō shirushi</span>, ‘great king brand’, I am unsure if this refers to anyone in particular)
+* another (unnamed?) seal-type wrapper
+* <span lang="ja">御所櫻</span> (<span lang="ja-Latn">gosho&shy;zakura</span>, ‘imperial palace cherry blossoms’)
 
 > [!multi]
+>
+> > [!figure]
+> >
+> > ![TODO](N_dai.jpg)
+> >
+> > The <span lang="ja-Latn">daiō shirushi</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_unk.jpg)
+> >
+> > Another seal-type wrapper.
+>
 > > [!figure]
 > >
 > > ![](Nintendo_goshozakura.jpg)
@@ -816,6 +797,23 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > > ```
 > >
 > > The <span lang="ja-Latn">gosho&shy;zakura</span> wrapper.
+
+* <span lang="ja">金龍</span> (<span lang="ja-Latn">kinryū</span>, ‘gold dragon’)
+* <span lang="ja">日乃出</span> (<span lang="ja-Latn">hinode</span>, ‘sunrise’)
+
+> [!multi]
+>
+> > [!figure]
+> >
+> > ![TODO](N_kinryu.jpg)
+> >
+> > The <span lang="ja-Latn">kinryū</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_hinode.jpg)
+> >
+> > The <span lang="ja-Latn">hinode</span> wrapper.
 >
 > > [!figure]
 > >
@@ -828,7 +826,27 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > > license: "with-permission"
 > > ```
 > >
-> > The <span lang="ja-Latn">hinode</span> wrapper.
+> > Another <span lang="ja-Latn">hinode</span> wrapper.
+
+* <span lang="ja">白梅</span> (<span lang="ja-Latn">hakubai</span>, ‘white plum’), not in use as of 1980
+* <span lang="ja">勝天狗</span> (<span lang="ja-Latn">shō&shy;tengu</span>, ‘victory Tengu’)
+* <span lang="ja">常磐</span> (<span lang="ja-Latn">tokiwa</span>, ‘eternal’, a reference to the [<span lang="ja-Latn">waka</span> that appears on the pine cards in some decks](articles/cards/japan/hanafuda/art/art.md#month-1))
+
+> [!figure]
+>
+> ![](Nintendo_tokiwa_box.jpg)
+>
+> ```yaml
+> orgName: "beforemario.com"
+> orgUrl: "https://beforemario.com"
+> copyrightYear: 2021
+> license: with-permission
+> position: aside
+> ```
+>
+> The <span lang="ja-Latn">tokiwa</span> external box.
+
+> [!multi]
 >
 > > [!figure]
 > >
@@ -842,6 +860,34 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > > ```
 > >
 > > The <span lang="ja-Latn">hakubai</span> wrapper.
+>
+> > [!figure]
+> >
+> > ![TODO](N_tengu_damaged.jpg)
+> >
+> > The <span lang="ja-Latn">shōtengu</span> wrapper (damaged at bottom right).
+>
+> > [!figure]
+> >
+> > ![Some green pine trees in a misty landscape.](Nintendo_tokiwa.jpg)
+> >
+> > ```yaml
+> > orgName: "beforemario.com"
+> > orgUrl: "https://beforemario.com"
+> > copyrightYear: 2021
+> > license: with-permission
+> > ```
+> >
+> > The <span lang="ja-Latn">tokiwa</span> wrapper.
+
+
+Others I do not have any images of include:
+* <span lang="ja">櫻乃山</span> (<span lang="ja-Latn">sakura no yama</span>, ‘mountain cherry blossoms’), not in use as of 1980
+* <span lang="ja">朝日桜</span> (<span lang="ja-Latn">asahi sakura</span>, ‘sunrise cherry blossoms’)
+* <span lang="ja">千代桜</span> (<span lang="ja-Latn">chiyo zakura</span>, ‘thousand-year cherry blossoms’)
+* <span lang="ja">四光印</span> (<span lang="ja-Latn">shikōjirushi</span>, ‘four brights brand’), trademarked in 1916[@Trademarks1924_9 p. 286]
+* <span lang="ja">丹頂</span> (<span lang="ja-Latn">tanchō</span>, ‘red-crested crane’, that appears on the pine bright)
+
 
 One interesting deck they used to produce was **Hana-Trump**, which combined
 <span class="noun" lang="ja-Latn">Hanafuda</span> cards with the cards of the international
