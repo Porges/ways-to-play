@@ -241,6 +241,7 @@ h1.page-title {
     font-size: 2.5rem;
     margin-top: 1rlh;
     line-height: 2rlh;
+    text-wrap: balance;
 
     /* The Latin portion should be italic */
     .simple {
@@ -1293,4 +1294,36 @@ iframe {
 p.informational {
     text-align: center;
     font-style: italic;
+}
+
+/*** Forms ***/
+
+form.tidy {
+    display: flex;
+    flex-direction: column;
+    gap: .5rlh;
+    max-width: 80%; /* TODO: only on big enough screens */
+    margin: auto;
+
+    & label {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    & select {
+        width: 60%;
+    }
+}
+
+@media (width <760px) {
+    form.tidy {
+        & label {
+            flex-direction: column;
+        }
+
+        & select {
+            width: unset;
+        }
+    }
 }

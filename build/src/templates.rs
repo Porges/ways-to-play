@@ -325,19 +325,23 @@ impl Templater {
 
     pub fn bibliography(&self, bib: &RenderedBibliography) -> Result<OutputFile> {
         let content = html! {
-            form {
-                label for="sort-selector" { "Sort by:" }
-                select #sort-selector {
-                    option value="name,year" selected { "default" }
-                    option value="year asc" { "year (oldest first)" }
-                    option value="year desc" { "year (newest first)" }
-                    option value="refs desc" { "number of references (most first)" }
-                    option value="refs asc" { "number of references (least first)" }
+            h1.page-title { span.simple itemprop="name" { "Bibliography of Traditional Games" } }
+            form.tidy {
+                label {
+                    "Sort by:"
+                    select #sort-selector {
+                        option value="name,year" selected { "default" }
+                        option value="year asc" { "year (oldest first)" }
+                        option value="year desc" { "year (newest first)" }
+                        option value="refs desc" { "number of references (most first)" }
+                        option value="refs asc" { "number of references (least first)" }
+                    }
                 }
             }
             p.informational {
                 (bib.len()) " works"
             }
+            hr;
             ul.reference-list #ref-list {
                 @for reference in bib.values() {
                     @let refs = 0; // TODO
@@ -361,7 +365,7 @@ impl Templater {
 
     pub fn welcome(&self) -> Result<OutputFile> {
         let content = html! {
-            h1.page-title {
+            h1.page-title itemprop="name" {
                 "Welcome to Ways To Play"
             }
 
@@ -420,7 +424,8 @@ impl Templater {
             .unique();
 
         let content = html! {
-            form #game-form {
+            h1.page-title { span.simple itemprop="name" { "Games Index" } }
+            form.tidy #game-form {
                 div {
                     label {
                         "Players: "
@@ -562,7 +567,7 @@ impl Templater {
         lang_groups.sort_by_cached_key(|lg| lg.lang_name.0.clone());
 
         let content = html! {
-            h1 { "Game Names Index" }
+            h1.page-title { span.simple itemprop="name" { "Game Names Index" } }
             p {
                 "This page lists all game names by language, as an index to the articles where they are discussed."
             }
