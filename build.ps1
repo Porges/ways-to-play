@@ -30,7 +30,7 @@ function Copy-StaticContent {
 function Resize-Images {
     $target_dir = Join-Path $public "img"
     New-Item -Path $target_dir -ItemType Directory -ErrorAction SilentlyContinue > $null
-    
+
     $target_sizes = @(300, 600, 800, 1200, 4000)
     Push-Location $src
     try {
@@ -45,14 +45,14 @@ function Resize-Images {
         }
 
         Write-Host "Found $($files.Count) images to convert"
-       
+
         $file_lookup = @{}
         $files | ForEach-Object {
             $file_lookup[[uri]::EscapeUriString($_.path)] = @{
                 hash = $_.hash
             }
         }
-        
+
         # get sizes of raster formats, quickly
         $sizes = exiftool -json -ImageHeight -ImageWidth -r -q -ext jpg -ext jpeg -ext png . 2>$null | ConvertFrom-Json
         foreach ($size in $sizes) {
@@ -62,14 +62,14 @@ function Resize-Images {
             $target.width = $size.ImageWidth
             $target.height = $size.ImageHeight
         }
-         
+
         # produce other sizes of JPEGs
         $files  | ForEach-Object -ThrottleLimit ([System.Environment]::ProcessorCount) -Parallel {
             $hash = $_.hash
             $path = $_.path
-            
+
             $absPath = Join-Path $using:src $path
-            
+
             $ext = Split-Path $path -Extension
             $origPath = Join-Path $using:target_dir "$hash$ext"
 
@@ -81,14 +81,15 @@ function Resize-Images {
                 foreach ($size in $applicable_sizes) {
                     $meta_sizes["$size"] = "/img/$hash-$size.jpg"
                 }
+                $meta_sizes["$($meta.width)"] = "/img/$hash$ext"
                 $meta.sizes = $meta_sizes
-                
+
                 if (Test-Path $origPath) {
                     Write-Debug "Skipping $path"
                 }
                 else {
                     Write-Information "Converting $path"
-                    $magick_args = $applicable_sizes | ForEach-Object { 
+                    $magick_args = $applicable_sizes | ForEach-Object {
                         @(
                             '('
                             'mpr:x'
@@ -123,12 +124,12 @@ function Resize-Images {
                 $target.height = $size.height
             }
         }
-        
+
         foreach ($x in $file_lookup.GetEnumerator()) {
             $val = $x.Value
             $val.url = "/img/$($val.hash)$(Split-Path $x.Key -Extension)"
         }
-        
+
         Set-Content -Path $image_manifest -Value ($file_lookup | ConvertTo-Json -Depth 100)
     }
     finally {
@@ -138,7 +139,7 @@ function Resize-Images {
 function Build-Builder {
     Push-Location (Join-Path $root "build")
     try {
-        cargo build --release 
+        cargo build --release
     }
     finally {
         Pop-Location

@@ -649,10 +649,18 @@ dialog.lightbox {
     &>img {
         display: block;
         max-width: 100%;
-        max-height: 100%;
         cursor: zoom-out;
+        width: auto;
+        height: auto;
 
         max-height: calc(100vh - 200px);
+    }
+
+    .lightbox-under form {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: flex-end;
     }
 }
 

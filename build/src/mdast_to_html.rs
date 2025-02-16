@@ -1,4 +1,4 @@
-use std::{borrow::Cow, collections::BTreeMap, path::Path, sync::LazyLock};
+use std::{borrow::Cow, collections::BTreeMap, fmt::Write, path::Path, sync::LazyLock};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
 use icu::locid::{langid, LanguageIdentifier};
@@ -564,27 +564,53 @@ impl Converter<'_> {
             _ => 300,
         };
 
-        let lightbox =
-            |id: &str, meta: &ImageManifestEntry, alt: &str, title: Option<&str>| -> Markup {
-                let srcset = meta.srcset();
-                let sizes = if srcset.is_some() { Some(sizes) } else { None };
-                html! {
-                    dialog.lightbox id=(id) {
-                        img src=(meta.url) srcset=[srcset] sizes=[sizes]
-                            width=(meta.width) height=(meta.height) loading="lazy"
-                            alt=(alt) title=[title];
-                        div.lightbox-under {
-                            p itemscope {
-                                (copyright_notice)
+        let lightbox = |id: &str,
+                        meta: &ImageManifestEntry,
+                        alt: &str,
+                        title: Option<&str>|
+         -> Markup {
+            // placeholder URL
+            let (_, lightbox_url) = meta.url_for_width(1200);
+            // actual srcset/sizes:
+            let srcset = meta.srcset();
+            let sizes = if srcset.is_some() {
+                match &meta.sizes {
+                    Some(sizes) => {
+                        let mut result = String::new();
+                        let last = sizes.len() - 1;
+                        for (ix, size) in sizes.keys().enumerate() {
+                            if ix == last {
+                                _ = write!(result, "{size}px");
+                            } else {
+                                _ = write!(result, "(max-width: {size}px) {size}px, ");
                             }
-                            form method="dialog" {
-                                a href=(meta.url) role="button" target="_blank" { "Original" }
-                                button.lightbox-close { "Close" }
-                            }
+                        }
+
+                        Some(result)
+                    }
+                    None => None,
+                }
+            } else {
+                None
+            };
+
+            html! {
+                dialog.lightbox id=(id) {
+                    img src=(lightbox_url) srcset=[srcset] sizes=[sizes]
+                        width=(meta.width) height=(meta.height) loading="lazy"
+                        alt=(alt) title=[title];
+                    div.lightbox-under {
+                        p itemscope {
+                            (copyright_notice)
+                        }
+                        form method="dialog" {
+                            a href=(meta.url) role="button" target="_blank" { "Full Size (" (meta.width) " × " (meta.height) " pixels)" }
+                            button.lightbox-close { "Close" }
                         }
                     }
                 }
-            };
+            }
+        };
 
         if images.len() == 1 {
             let img = &images[0];

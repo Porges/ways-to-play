@@ -710,7 +710,7 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 
 * <span lang="ja">羽衣</span> (<span lang="ja-Latn">hagoromo</span>, ‘feather robe’)
 * <span lang="ja">虫</span> (<span lang="ja-Latn">mushi</span>, ‘insect’); with an image of swallows
-* <span lang="ja">?水</span> (<span lang="ja-Latn">?mizu</span>, ‘? water’, I cannot figure out the first character yet)
+* <span lang="ja">菊水</span> (<span lang="ja-Latn">kikusui</span>, ‘floating chrysanthemum’)
 
 > [!multi]
 >
@@ -730,7 +730,7 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > >
 > > ![TODO](N_grey1.jpg)
 > >
-> > The <span lang="ja-Latn">?mizu</span> wrapper.
+> > The <span lang="ja-Latn">kikusui</span> wrapper.
 
 > [!figure]
 >
