@@ -14,7 +14,6 @@ date modified: 2025-02-15
 aliases: [Japanese Hanafuda Brands]
 linter-yaml-title-alias: Japanese Hanafuda Brands
 ---
-
 # Japanese Hanafuda Brands
 ## Identification
 

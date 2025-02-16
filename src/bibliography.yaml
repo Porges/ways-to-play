@@ -5262,9 +5262,10 @@ ItsAFineWorld:
 JavaanseKaartspelen:
   type: book
   title:
-    value: "Javaanse Kaartspelen: bijdrage tot de beschrijving van land en volk"
+    value: Javaanse Kaartspelen
     lang: nl
     alt: Javanese Card Games
+  subtitle: bijdrage tot de beschrijving van land en volk
   language: nl
   author:
     - given: Tjan Tjoe

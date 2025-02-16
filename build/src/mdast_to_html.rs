@@ -216,25 +216,26 @@ impl Converter<'_> {
                 let what = m.name("what").map(|m| m.as_str());
                 let direct_link = direct_link(entry, what);
 
+                let linked_what = what.map(|what| {
+                    if let Some(direct_link) = direct_link {
+                        html! {
+                            a href=(direct_link) { (what) }
+                        }
+                    } else {
+                        html! { (what) }
+                    }
+                });
+
                 html! {
                     span.citation.inline #(cite_anchor) {
                         @if let Some(inline_cite) = &entry.inline_cite {
-                            a href={"#ref-" (id)} {
-                                (inline_cite(what))
-                            }
+                            (inline_cite(&format!("#ref-{id}"), linked_what))
                         } @else {
                             a.index href={"#ref-" (id)} {
                                 "[" (ref_indicator) "]"
                             }
-
-                            @if let Some(what) = what {
-                                " ("
-                                @if let Some(direct_link) = direct_link {
-                                    a href=(direct_link) { (what) }
-                                } @else {
-                                    (what)
-                                }
-                                ")"
+                            @if let Some(linked_what) = linked_what {
+                                " (" (linked_what) ")"
                             }
                         }
                     }

@@ -1,13 +1,13 @@
 ---
 title: '<span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>'
-originalTitle: <span lang="hi">तीन दो पाँच</span>
 players: 3
 countries: IN
 equipment: Card game (standard deck)
-aliases: ['<span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>']
+aliases:
+  - '<span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>'
 linter-yaml-title-alias: '<span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>'
 date created: 2024-12-18
-date modified: 2025-02-08
+date modified: 2025-02-16
 ---
 
 # <span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>

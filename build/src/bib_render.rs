@@ -1,4 +1,4 @@
-use std::collections::BTreeMap;
+use std::{borrow::Cow, collections::BTreeMap};
 
 use maud::{html, Markup};
 use num_format::{Locale, ToFormattedString};
@@ -19,7 +19,7 @@ pub struct RenderedEntry {
     pub name_key: String,
 
     pub reference: Markup,
-    pub inline_cite: Option<Box<dyn Fn(Option<&str>) -> Markup + Send + Sync>>,
+    pub inline_cite: Option<Box<dyn Fn(&str, Option<Markup>) -> Markup + Send + Sync>>,
     pub url: Option<String>,
 }
 
@@ -63,18 +63,25 @@ pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
     result
 }
 
-fn inline_cite(reference: &Reference) -> Option<Box<dyn Fn(Option<&str>) -> Markup + Send + Sync>> {
+fn inline_cite(
+    reference: &Reference,
+) -> Option<Box<dyn Fn(&str, Option<Markup>) -> Markup + Send + Sync>> {
     match &reference {
         Reference::Book(book) => {
+            // render only title, not subtitle
             let before = render_lstr_cite(&book.common.title, None, None, None);
-            Some(Box::new(move |info: Option<&str>| -> Markup {
-                html! {
-                    (before)
-                    @if let Some(info) = info {
-                        " (" (info) ")"
+            Some(Box::new(
+                move |ref_id: &str, info: Option<Markup>| -> Markup {
+                    html! {
+                        a href=(ref_id) {
+                            (before)
+                        }
+                        @if let Some(info) = info {
+                            " (" (info) ")"
+                        }
                     }
-                }
-            }))
+                },
+            ))
         }
         Reference::JournalArticle(JournalArticle {
             common: Common { author, .. },
@@ -103,19 +110,21 @@ fn inline_cite(reference: &Reference) -> Option<Box<dyn Fn(Option<&str>) -> Mark
             ..
         }) if !author.is_empty() => {
             let a = author.first().unwrap();
-            let before = html! {
+            let author_summary = html! {
                 (a.family.as_deref().unwrap_or(&a.given))
-                " (" (issued.year())
             };
-
-            let after = html! { ")" };
-            Some(Box::new(move |info: Option<&str>| {
+            let year = issued.year();
+            Some(Box::new(move |ref_id: &str, info: Option<Markup>| {
                 html! {
-                    (before)
+                    a href=(ref_id) {
+                        (author_summary)
+                    }
+                    " ("
+                    (year)
                     @if let Some(info) = info {
                         ", " (info)
                     }
-                    (after)
+                    ")"
                 }
             }))
         }
@@ -316,7 +325,7 @@ fn render_title(r: &Reference) -> Markup {
         }
     });
 
-    let rest = render_lstr_alt(
+    let title_alt = render_lstr_alt(
         &r.common().title,
         " [",
         "]",
@@ -325,15 +334,28 @@ fn render_title(r: &Reference) -> Markup {
     );
 
     if matches!(r, Reference::Book(_) | Reference::Thesis(_)) {
-        let title = render_lstr_just_cite(&r.common().title, None, Some("name"));
+        let mut title_lstr = Cow::Borrowed(&r.common().title);
+        if let Reference::Book(b) = r {
+            if let Some(subtitle) = &b.subtitle {
+                title_lstr = Cow::Owned(LString {
+                    value: format!("{}: {}", title_lstr.value, subtitle),
+                    lang: title_lstr.lang.clone(),
+                    alt: title_lstr.alt.clone(),
+                });
+            }
+        }
+
+        let title = render_lstr_just_cite(&title_lstr, None, Some("name"));
 
         html! {
             @if let Some(url) = &r.common().url {
-                a href=(url) itemprop="url" { (title) }
+                a href=(url) itemprop="url" {
+                    (title)
+                }
             } @else {
                 (title)
             }
-            (rest)
+            (title_alt)
             (archive_url)
             @if let Reference::Book(b) = r {
                 @if let Some(vol) = &b.volume {
@@ -371,7 +393,7 @@ fn render_title(r: &Reference) -> Markup {
                 (title)
             }
             "’"
-            (rest)
+            (title_alt)
             (archive_url)
         }
     }

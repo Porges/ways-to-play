@@ -13,7 +13,7 @@ aliases:
   - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2025-02-08
+date modified: 2025-02-16
 linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
@@ -5950,8 +5950,8 @@ them, I do not know of any other sets of rules recorded online.
 
 * [Cholek Tiga](games/cholek-tiga/cholek-tiga.md) (‘draw three’), a Malaysian game for two or three players[@BabaMalayDictionary p. 214][@ChikiCards p. 125]
 * [Pèi](games/pei/pei.md), a Javanese game for three players where the goal is to collect specific scoring combinations[@JavaanseKaartspelen p. 58–70]
-* {% gameref thothit %}, a Javanese game for three players where the goal is to capture identical pairs[@JavaanseKaartspelen p. 71–2]
-* {% gameref enthit %}, a similar Javanese game for three players where the goal is to capture identical quadruplets[@JavaanseKaartspelen p. 74]
+* [<span lang="jv-Latn" class="noun aka">Thothit</span>](games/thothit/thothit.md), a Javanese game for three players where the goal is to capture identical pairs[@JavaanseKaartspelen p. 71–2]
+* [<span lang="jv-Latn" class="noun aka">Enthit</span>](games/thothit/thothit.md#enthit), a similar Javanese game for three players where the goal is to capture identical quadruplets[@JavaanseKaartspelen p. 74]
 * {% gameref thothit-kuna %}, an older and slower version of the game[@JavaanseKaartspelen p. 74]
 * {% gameref thothit-yogyakarta %}, a luck-based Javanese game for three players[@JavaanseKaartspelen p. 73]
 * {% gameref thit-thit-dulit %}, a luck-based Javanese game for two players[@JavaanseKaartspelen p. 73]

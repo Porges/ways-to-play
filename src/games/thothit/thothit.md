@@ -1,27 +1,32 @@
 ---
-title: Thothit
-titleLang: jv-Latn
-originalTitle: <span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span>
+title: '<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun aka">Thothit</span>'
 equipment: Card game (Ceki)
 players: 3
 countries: ID
 subgames:
-- title: Enthit
-  titleLang: jv-Latn
-- title: Thothit Kuna
-  titleLang: jv-Latn
-  players: [4, 6]
+  - title: Enthit
+    titleLang: jv-Latn
+  - title: Thothit Kuna
+    titleLang: jv-Latn
+    players:
+      - 4
+      - 6
 date created: 2024-12-22
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases:
+  - '<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun aka">Thothit</span>'
+  - <span lang="jv-Latn" class="noun aka">Thothit</span>
+linter-yaml-title-alias: '<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun aka">Thothit</span>'
 ---
+# <span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun aka">Thothit</span>
 
 <span lang="jv-Latn" class="noun aka">Thothit</span> (<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a [fishing game](articles/families/fishing-games/fishing-games.md) from Java for three players,  played with [Ceki cards](articles/cards/ceki/ceki.md). The goal is to collect matching pairs of cards, especially red-stamped ones.
 
 > [!aside]
-> 
+>
 > The name is given as <span lang="jv-Latn" class="noun aka">Ṭoṭit</span> in older orthography. I wonder if this could be derived from Hokkien <span lang="nan">𨑨迌</span> <span lang="nan-Latn">thit-thô</span> ‘to play’?
 
-First, I describe the game as played in [Surakarta](https://en.wikipedia.org/wiki/Surakarta) in the early 20th century, based upon the description in @JavaanseKaartspelen [p. 71–2]. In Yogyakarta this game is known as <span lang="jv-Latn" class="noun aka">Ceweng</span> ‘to pull something towards oneself’, and <span lang="jv-Latn" class="noun">Thothit</span> refers to a different, simpler, game ({% gameref thothit-yogyakarta %}).
+First, I describe the game as played in [Surakarta](https://en.wikipedia.org/wiki/Surakarta) in the early 20th century, based upon the description in @JavaanseKaartspelen [71–2]. In Yogyakarta this game is known as <span lang="jv-Latn" class="noun aka">Ceweng</span> ‘to pull something towards oneself’, and <span lang="jv-Latn" class="noun">Thothit</span> refers to a different, simpler, game ({% gameref thothit-yogyakarta %}).
 
 ## Setup
 
@@ -61,9 +66,7 @@ According to @JavaanseKaartspelen [p. 72], among Chinese people in Surakarta the
 
 * Captured cards are left face-up so that other players can see them.
 
-* If there is an identical pair on the table, as well as another card of the same
-rank, the identical pair cannot be broken up before the other card is taken. If
-this is done, the player who does it cannot win the round.
+* If there is an identical pair on the table, as well as another card of the same rank, the identical pair cannot be broken up before the other card is taken. If this is done, the player who does it cannot win the round.
 
 ### Sid Sackson’s description
 
@@ -75,7 +78,7 @@ He gives the following rules for playing with different numbers of players: for 
 
 He also offers simplified scoring: score one point per _identical_ pair. As an advanced rule, score 3 points for _identical_ pairs of <Cards>9</Cards> and 2 points for _identical_ pairs of <Cards>1</Cards>.
 
-### <span lang="jv-Latn" class="noun aka">Enthit</span>
+### <span lang="jv-Latn" class="noun aka" id="enthit">Enthit</span>
 
 <span lang="jv-Latn" class="noun">Enthit</span>[^fn0] is a very similar game from Yogyakarta where the goal is to form identical quadruplets instead of pairs.[@JavaanseKaartspelen p. 74] For this, two <span lang="jv-Latn">kepala</span> are used, giving 120 cards.
 

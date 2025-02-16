@@ -217,6 +217,8 @@ pub struct Book {
     #[serde(flatten)]
     pub common: Common,
 
+    pub subtitle: Option<String>,
+
     pub issued: Option<Date>,
 
     pub edition: Option<NumberOrString>,
