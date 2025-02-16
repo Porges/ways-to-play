@@ -4,6 +4,8 @@ use std::{
 };
 
 use icu::{
+    casemap::{CaseMapper, TitlecaseMapper},
+    collator::{Collator, CollatorOptions, Numeric, Strength},
     experimental::displaynames::LanguageDisplayNames,
     locid::{
         locale,
@@ -14,6 +16,8 @@ use icu::{
 
 pub struct Intl {
     english_display_names: LanguageDisplayNames,
+    english_collator: Collator,
+    titlecase_mapper: TitlecaseMapper<CaseMapper>,
     other_display_names: Mutex<BTreeMap<Language, Option<String>>>,
 }
 
@@ -24,7 +28,7 @@ impl Intl {
         let english_display_names = LanguageDisplayNames::try_new(&locale, options).unwrap();
 
         let mut other_display_names = BTreeMap::new();
-        // backfill missing values
+        // backfill some missing values
         other_display_names.insert(language!("cmn"), Some("官话".into()));
         other_display_names.insert(language!("ewe"), Some("Eʋegbe".into()));
         other_display_names.insert(language!("gez"), Some("ግዕዝ".into()));
@@ -36,9 +40,16 @@ impl Intl {
         other_display_names.insert(language!("tws"), Some("潮州話".into()));
         other_display_names.insert(language!("wuu"), Some("吳語".into()));
 
+        let mut collator_options = CollatorOptions::new();
+        collator_options.strength = Some(Strength::Primary);
+        collator_options.numeric = Some(Numeric::On);
+        let english_collator = Collator::try_new(&locale, collator_options).unwrap();
+
         Self {
+            english_collator,
             english_display_names,
             other_display_names: Mutex::new(other_display_names),
+            titlecase_mapper: TitlecaseMapper::new(),
         }
     }
 
@@ -46,6 +57,7 @@ impl Intl {
         self.english_display_names.of(language).or_else(|| {
             match language.as_str() {
                 "cmn" => "Mandarin Chinese",
+                "gup" => "Kunwinjku", // other dialects as well but this is the only one used so far
                 "kew" => "Kewa",
                 "kxd" => "Brunei Malay",
                 "mbw" => "Maring",
@@ -56,6 +68,7 @@ impl Intl {
                 "stv" => "Siltʼe",
                 "tws" => "Teochew",
                 "urh" => "Urhobo",
+                "wni" => "Comorian (Ndzwani)",
                 _ => return None,
             }
             .into()
@@ -75,6 +88,27 @@ impl Intl {
                     .and_then(|display_names| display_names.of(*key).map(str::to_string))
             })
             .clone()
+    }
+
+    pub fn collator_english(&self) -> &Collator {
+        &self.english_collator
+    }
+
+    pub fn collator_for(&self, language: Language) -> Collator {
+        let mut collator_options = CollatorOptions::new();
+        collator_options.strength = Some(Strength::Primary);
+        collator_options.numeric = Some(Numeric::On);
+        let data_locale = Locale::from(language).into();
+        Collator::try_new(&data_locale, collator_options)
+            .ok()
+            .unwrap_or_else(|| Collator::try_new(&Default::default(), collator_options).unwrap())
+    }
+
+    pub fn titlecase(&self, language: Language, text: &str) -> String {
+        let locale = Locale::from(language).into();
+        let options = Default::default();
+        self.titlecase_mapper
+            .titlecase_segment_to_string(text, &locale, options)
     }
 }
 

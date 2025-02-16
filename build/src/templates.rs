@@ -551,7 +551,8 @@ impl Templater {
             })
             .collect::<Result<_>>()?;
 
-        lang_groups.sort_by_cached_key(|lg| lg.lang_name.0.clone());
+        let collator = INTL.collator_english();
+        lang_groups.sort_by(|a, b| collator.compare(&a.lang_name.0, &b.lang_name.0));
 
         let content = html! {
             h1.page-title { span.simple itemprop="name" { "Game Names Index" } }
@@ -572,10 +573,13 @@ impl Templater {
             @for group in lang_groups {
                 h3 #(group.lang_tag) { a href=(group.lang_link) { (group.lang_name) } }
                 ul.columnarr {
-                    @for game_name in group.game_names.into_iter().sorted_by_key(|gn| gn.aka.0.clone()) {
+                    @let collator = INTL.collator_for(group.lang_tag);
+                    @for game_name in group.game_names.into_iter().sorted_by(|a, b| collator.compare(&a.aka.0, &b.aka.0)) {
                         li {
-                            a href=(game_name.url) lang=(game_name.lang_id) { (game_name.aka) }
                             // TODO: need to link to exact location
+                            a href=(game_name.url) lang=(game_name.lang_id) {
+                                (INTL.titlecase(game_name.lang_id.language, &game_name.aka.0))
+                            }
                         }
                     }
                 }
