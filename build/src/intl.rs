@@ -32,11 +32,13 @@ impl Intl {
         other_display_names.insert(language!("cmn"), Some("官话".into()));
         other_display_names.insert(language!("ewe"), Some("Eʋegbe".into()));
         other_display_names.insert(language!("gez"), Some("ግዕዝ".into()));
+        other_display_names.insert(language!("gsw"), Some("Schwiizerdütsch".into()));
         other_display_names.insert(language!("kxd"), Some("Bahasa Melayu Brunei".into()));
         other_display_names.insert(language!("mak"), Some("ᨅᨔ ᨆᨀᨔᨑ".into()));
         other_display_names.insert(language!("mcm"), Some("Papia Kristang".into()));
         other_display_names.insert(language!("nan"), Some("閩南語".into()));
         other_display_names.insert(language!("rng"), Some("XiRonga".into()));
+        other_display_names.insert(language!("st"), Some("Sesotho".into()));
         other_display_names.insert(language!("tws"), Some("潮州話".into()));
         other_display_names.insert(language!("wuu"), Some("吳語".into()));
 
@@ -62,6 +64,7 @@ impl Intl {
                 "kxd" => "Brunei Malay",
                 "mbw" => "Maring",
                 "mcm" => "Kristang",
+                "mfa" => "Kelantan–Pattani Malay",
                 "mnk" => "Mandinka",
                 "mnr" => "Mono",
                 "rng" => "Ronga",

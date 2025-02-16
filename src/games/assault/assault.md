@@ -10,7 +10,7 @@ aliases: [Assault]
 linter-yaml-title-alias: Assault
 ---
 # Assault
-<span class="aka">Assault</span> is a traditional board game for two players that used to be popular throughout Europe. In English it is commonly known by the Spanish name <span lang="es" class="aka">Asalto</span>.
+<span class="aka">Assault</span> is a traditional board game for two players that used to be popular throughout Europe. In English it is also commonly known by the Spanish name <span lang="es">Asalto</span>.
 
 Assault was probably derived from the game of [Fox & Geese](games/fox-and-geese/fox-and-geese.md), with which it shares a board. The play of the game is similar, but the object in Assault is for one side to achieve a particular arrangement of their pieces — although it is still possible to win by “trapping” like in [Fox & Geese](games/fox-and-geese/fox-and-geese.md).
 
@@ -28,7 +28,7 @@ Assault was probably derived from the game of [Fox & Geese](games/fox-and-geese/
 > > ```
 > >
 > > Reprint of an old German Assault board. Black lines indicate paths that the Attacker may not use.
-> 
+>
 > > [!figure]
 > >
 > > ![](1324594001.jpg)
@@ -55,7 +55,7 @@ In other languages and countries it is known as:
 
 The presentation of the game usually has a militaristic theme, often celebrating some recent engagement.
 
-## Setup 
+## Setup
 
 > [!figure]
 >
@@ -118,7 +118,7 @@ Many small variations of the board have been published. Some are displayed here.
 > > ```
 > >
 > > A board without most diagonals (as found [here](https://boardgamegeek.com/image/5069937/miscellaneous-game-compilation)).
-> 
+>
 > > [!figure]
 > >
 > > ![](fuchs_und_henne.svg)
@@ -127,8 +127,8 @@ Many small variations of the board have been published. Some are displayed here.
 > > noborder: true
 > > ```
 > >
-> > A board variant for [<span lang="de" class="aka">Fuchs und Henne</span>](https://web.archive.org/web/20120817104138/http://www.holznerspiele.de/anleitung.html), played with 20 attackers which are set up on all the lower points. 
-> 
+> > A board variant for [<span lang="de" class="aka">Fuchs und Henne</span>](https://web.archive.org/web/20120817104138/http://www.holznerspiele.de/anleitung.html), played with 20 attackers which are set up on all the lower points.
+>
 > > [!figure]
 > >
 > > ![](2_contra_20.svg)
@@ -137,7 +137,7 @@ Many small variations of the board have been published. Some are displayed here.
 > > noborder: true
 > > ```
 > >
-> > A board variant for [<span lang="de" class="aka">2 Contra 20</span>](https://boardgamegeek.com/image/6417481/asalto) (published by A.  Eggenweiler), played with 20 attackers which are set up on all the lower points. 
+> > A board variant for [<span lang="de" class="aka">2 Contra 20</span>](https://boardgamegeek.com/image/6417481/asalto) (published by A.  Eggenweiler), played with 20 attackers which are set up on all the lower points.
 
 ### <span class="aka">Royal Garrison</span>
 
@@ -162,7 +162,7 @@ all points outside the fortress. Play is otherwise the same as Assault.
 Another version of the “Royal Garrison” board connected all diagonals:
 
 > [!figure]
-> 
+>
 > ![](royal_garrison.svg)
 >
 > ```yaml

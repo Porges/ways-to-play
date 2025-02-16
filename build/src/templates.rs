@@ -6,6 +6,8 @@ use itertools::Itertools;
 use maud::{html, Markup, DOCTYPE};
 use time::macros::format_description;
 use url::Url;
+use url_escape::percent_encoding::AsciiSet;
+use url_escape::FRAGMENT;
 
 use crate::intl::INTL;
 use crate::{bib_render::RenderedBibliography, Aka, ArticleNode};
@@ -554,6 +556,10 @@ impl Templater {
         let collator = INTL.collator_english();
         lang_groups.sort_by(|a, b| collator.compare(&a.lang_name.0, &b.lang_name.0));
 
+        // in addition to the default fragment escaping we also need to escape `-`,
+        // see: https://developer.mozilla.org/en-US/docs/Web/URI/Fragment/Text_fragments
+        const FRAGMENT_TEXT: &AsciiSet = &FRAGMENT.add(b'-');
+
         let content = html! {
             h1.page-title { span.simple itemprop="name" { "Game Names Index" } }
             p {
@@ -576,9 +582,10 @@ impl Templater {
                     @let collator = INTL.collator_for(group.lang_tag);
                     @for game_name in group.game_names.into_iter().sorted_by(|a, b| collator.compare(&a.aka.0, &b.aka.0)) {
                         li {
-                            // TODO: need to link to exact location
-                            a href=(game_name.url) lang=(game_name.lang_id) {
-                                (INTL.titlecase(game_name.lang_id.language, &game_name.aka.0))
+                            a href={(game_name.url) "#:~:text=" (url_escape::encode(&game_name.aka.0, FRAGMENT_TEXT))}
+                              lang=(game_name.lang_id) {
+                                // assuming that titlecase doesn't introduce HTML injection
+                                (maud::PreEscaped(INTL.titlecase(game_name.lang_id.language, &game_name.aka.0)))
                             }
                         }
                     }
