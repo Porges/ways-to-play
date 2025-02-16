@@ -1,12 +1,15 @@
 ---
-title: Shoe the Mare
+title: "Shoe the Mare "
 players:
     minimum: 1
 equipment: Physical
 countries: GB
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-16
+aliases: ["Shoe the Mare "]
+linter-yaml-title-alias: "Shoe the Mare "
 ---
+# Shoe the Mare 
 
 <span class="aka">Shoe the (Wild) Mare</span>, or the <span class="aka">Shoeing of the (Wild) Mare</span> is a 17th-century English physical game of unclear form, as there are conflicting accounts of what the game comprised. It was popular during the Christmas season.
 

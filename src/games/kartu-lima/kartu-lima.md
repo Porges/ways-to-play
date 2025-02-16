@@ -48,14 +48,14 @@ There are various ways to make bets on the game. The first type is <span lang="j
 
 Instead of winning the whole pot, a method called <span lang="jv-Latn">undhuh-undhuh</span> (‘pickings’) may be followed. In this case the winner only wins back the amount that each player staked (e.g. if everyone staked 5¢, then the winner takes 5¢ from the pot). One pot is built and will last for a number of rounds equal to the number of players. It can also be agreed than anyone who wins a second round in a row instantly takes the remainder of the pot, and a new one is created. If they win a third or subsequent consecutive round, they continue to win whole pots until their winning streak is ended.
 
-{/*
+> [!todo]
  this section is very unclear in the book…
 Usually the pot method is only followed for the first game (which I understand
 to mean until the pot is taken). After this a method called <span
 lang="jv-Latn">bal-balan</span> (‘bales’) is followed, whereby each player
 places any bet amount they want in front of themselves, but it must be at least
 the stake amount using during <span lang="jv-Latn">wudhon tengah</span>.
-*/}
+
 
 Another possible bet is <span lang="jv-Latn">pethitan</span> (“tapering points”?): if a player leads a <span lang="jv-Latn">dika</span> to the last round and it is not beaten, they win the bet; if it is killed, the killer takes the bet.
 

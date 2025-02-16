@@ -1,20 +1,25 @@
 ---
-title: Sixteen Soldiers
+title: '<span lang="ja">十六武蔵</span> · Sixteen Soldiers'
 originalTitle: <span lang="ja">十六武蔵</span>
 mainImage: SC86494.jpg
 players: 2
 equipment: Board game
 countries: JP
 subgames:
-- title: Sixteen Pursue the General
-  originalTitle: <span lang="zh">十六趕將軍</span>
-  countries: CN
-- title: Water Drowns the Monk
-  originalTitle: <span lang="zh">水淹和尚</span>
-  countries: CN
+  - title: Sixteen Pursue the General
+    originalTitle: <span lang="zh">十六趕將軍</span>
+    countries: CN
+  - title: Water Drowns the Monk
+    originalTitle: <span lang="zh">水淹和尚</span>
+    countries: CN
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases:
+  - '<span lang="ja">十六武蔵</span> · Sixteen Soldiers'
+  - Sixteen Soldiers
+linter-yaml-title-alias: '<span lang="ja">十六武蔵</span> · Sixteen Soldiers'
 ---
+# <span lang="ja">十六武蔵</span> · Sixteen Soldiers
 
 Sixteen Soldiers (<span lang="ja">十六武蔵</span> <Pronounce lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_十六武蔵.mp3">jūroku musashi</Pronounce>) is an asymmetric capturing game from Japan.
 

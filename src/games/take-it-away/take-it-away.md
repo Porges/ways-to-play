@@ -7,11 +7,12 @@ subgames:
 - title: Acquisitions
   players: 2
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases: [Take It Away]
+linter-yaml-title-alias: Take It Away
 ---
-
-<span class="aka">Take It Away</span> is a game for 2–4 players invented by Sid Sackson,[@Gamut pp.
-142–3] in which players try to achieve the highest score by capturing from a
+# Take It Away
+<span class="aka">Take It Away</span> is a game for 2–4 players invented by Sid Sackson,[@Gamut 142–3] in which players try to achieve the highest score by capturing from a
 shared set of pieces on the board.
 
 ## Play

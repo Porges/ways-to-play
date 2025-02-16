@@ -4,8 +4,11 @@ players:
   min: 2
   max: 5
 date created: 2024-12-18
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases: [Leap-Frog]
+linter-yaml-title-alias: Leap-Frog
 ---
+# Leap-Frog
 
 Leap-Frog is a game for two or more players in which the object is to capture
 the most pieces from a board containing identical pieces.

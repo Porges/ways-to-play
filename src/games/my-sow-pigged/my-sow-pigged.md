@@ -3,8 +3,11 @@ title: My Sow (Has) Pigged
 equipment: Card game (standard deck)
 countries: GB
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-16
+aliases: [My Sow (Has) Pigged]
+linter-yaml-title-alias: My Sow (Has) Pigged
 ---
+# My Sow (Has) Pigged
 
 <span class="aka">My Sow Has Pigged</span> is an English game that was already described as ‘obsolete’ in the 19th century.[@TheAmericanHoyle3 p. 484] It seems to have been popular from the 17th to 18th centuries.  It was at first a gambling game, and then later a children’s game, and was played with a standard 52-card deck.
 

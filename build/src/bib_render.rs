@@ -67,9 +67,9 @@ fn inline_cite(
     reference: &Reference,
 ) -> Option<Box<dyn Fn(&str, Option<Markup>) -> Markup + Send + Sync>> {
     match &reference {
-        Reference::Book(book) => {
+        Reference::Book(Book { common, .. }) | Reference::Thesis(Thesis { common, .. }) => {
             // render only title, not subtitle
-            let before = render_lstr_cite(&book.common.title, None, None, None);
+            let before = render_lstr_cite(&common.title, None, None, None);
             Some(Box::new(
                 move |ref_id: &str, info: Option<Markup>| -> Markup {
                     html! {
@@ -86,11 +86,6 @@ fn inline_cite(
         Reference::JournalArticle(JournalArticle {
             common: Common { author, .. },
             periodical: Periodical { issued, .. },
-            ..
-        })
-        | Reference::Thesis(Thesis {
-            common: Common { author, .. },
-            issued,
             ..
         })
         | Reference::Chapter(Chapter {
@@ -335,14 +330,24 @@ fn render_title(r: &Reference) -> Markup {
 
     if matches!(r, Reference::Book(_) | Reference::Thesis(_)) {
         let mut title_lstr = Cow::Borrowed(&r.common().title);
-        if let Reference::Book(b) = r {
-            if let Some(subtitle) = &b.subtitle {
+
+        // Attach subtitle, if any
+        match r {
+            Reference::Book(Book {
+                subtitle: Some(subtitle),
+                ..
+            })
+            | Reference::Thesis(Thesis {
+                subtitle: Some(subtitle),
+                ..
+            }) => {
                 title_lstr = Cow::Owned(LString {
                     value: format!("{}: {}", title_lstr.value, subtitle),
                     lang: title_lstr.lang.clone(),
                     alt: title_lstr.alt.clone(),
                 });
             }
+            _ => {}
         }
 
         let title = render_lstr_just_cite(&title_lstr, None, Some("name"));

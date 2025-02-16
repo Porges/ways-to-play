@@ -10,9 +10,11 @@ players:
     min: 2
 equipment: Dice game
 date created: 2025-01-26
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases: ["Ship, Captain, and Crew"]
+linter-yaml-title-alias: "Ship, Captain, and Crew"
 ---
-
+# Ship, Captain, and Crew
 <span class="aka">Ship, Captain, and Crew</span> is a simple dice game for any number of people.
 
 There are a few similar games that go under the same name, but the main goal is always to roll a Ship (<Dice>6</Dice>), Captain (<Dice>5</Dice>), and Crew (<Dice>4</Dice>), in that order.

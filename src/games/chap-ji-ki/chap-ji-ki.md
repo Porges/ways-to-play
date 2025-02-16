@@ -3,8 +3,11 @@ title: Chap Ji Ki
 country: Singapore
 draft: true
 date created: 2024-12-18
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases: [Chap Ji Ki]
+linter-yaml-title-alias: Chap Ji Ki
 ---
+# Chap Ji Ki
 
 Occasionally called <span lang="ms" class="aka">chapdiki</span>,[@ThePhilippineIslands 405] or in Spanish <span lang="es" class="aka">chabdiqui</span>.[@CuestionesFilipinas 170]
 

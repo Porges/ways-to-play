@@ -1,14 +1,18 @@
 ---
-title: Tensho
-titleLang: ja-Latn
-originalTitle: <span lang="ja">テンショ</span>
+title: '<span lang="ja">テンショ</span> · <span lang="ja-Latn" class="noun">Tensho</span>'
 draft: true
+date created: 2024-12-22
+date modified: 2025-02-16
+aliases:
+  - '<span lang="ja">テンショ</span> · <span lang="ja-Latn" class="noun">Tensho</span>'
+  - <span lang="ja-Latn" class="noun">Tensho</span>
+linter-yaml-title-alias: '<span lang="ja">テンショ</span> · <span lang="ja-Latn" class="noun">Tensho</span>'
 ---
+# <span lang="ja">テンショ</span> · <span lang="ja-Latn" class="noun">Tensho</span>
 
-<span lang="ja-Latn" class="noun">Tensho</span> (<span lang="ja">テンショ</span>) is a <span lang="ja-Latn" class="noun">Hanafuda</span> game from <span
+<span lang="ja-Latn" class="noun aka">Tensho</span> (<span lang="ja" class="aka">テンショ</span>) is a <span lang="ja-Latn" class="noun">Hanafuda</span> game from <span
 lang="ja-Latn" class="noun">Nagoya</span> in Japan. It is played with an unusual
-deck ordering and <span lang="ja-Latn">yaku</span> that are not found in other
-<span lang="ja-Latn" class="noun">Hanafuda</span> games.
+deck ordering and <span lang="ja-Latn">yaku</span> that are not found in other <span lang="ja-Latn" class="noun">Hanafuda</span> games.
 
 ## History
 
@@ -23,10 +27,11 @@ A Japanese Department of Justice report from 1927[@NagoyaReport f. 13–15, 52�
 [^fn0]: I have not yet identified the precise style of deck used.
 
 
-{/*
-アカ
-ドロ
-*/}
+> [!todo]
+> 
+> アカ
+> ドロ
+
 
 <table>
 <thead>

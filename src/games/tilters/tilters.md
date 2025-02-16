@@ -5,10 +5,13 @@ countries: US
 players:
     min: 2
     max: 4
+aliases: [Tilters]
+linter-yaml-title-alias: Tilters
+date created: 2024-12-18
+date modified: 2025-02-16
 ---
-
-Tilters is a trick-taking game played with a custom 50-card deck of cards called
-Yankee’s Notion cards.[@Hoyle1857 p. 142–3]
+# Tilters
+<span class="aka">Tilters</span> is a trick-taking game played with a custom 50-card deck of cards called Yankee’s Notion cards.[@Hoyle1857 p. 142–3]
 
 ## Setup
 

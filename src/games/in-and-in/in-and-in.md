@@ -4,8 +4,11 @@ players: [2,3]
 equipment: Dice game
 countries: GB
 date created: 2024-12-18
-date modified: 2025-01-23
+date modified: 2025-02-16
+aliases: [In and In]
+linter-yaml-title-alias: In and In
 ---
+# In and In
 
 <span class="aka">In and In</span>, also spelled <span class="aka">Inn and Inn</span>, was an English dice gambling game.
 The earliest descriptions of this game are from the 17th century, but by the 18th, Oliver Goldsmith described it as a game which was “now exploded, [that] employed our sharping ancestors”.[@LifeOfRichardNash p. 57]

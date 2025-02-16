@@ -12,7 +12,12 @@ subgames:
       players: 4 
     - title: Four-Handed Chivalry
       players: 4
+aliases: [The Camelot Family]
+linter-yaml-title-alias: The Camelot Family
+date created: 2024-12-18
+date modified: 2025-02-16
 ---
+# The Camelot Family
 
 Chivalry, Camelot, Cam, and Camette are members of a series of related 2-player
 games originally developed by George Parker (of Parker Brothers fame).

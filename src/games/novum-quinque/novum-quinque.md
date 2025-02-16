@@ -4,8 +4,11 @@ equipment: Dice game
 players: any
 countries: GB,FR,DE
 date created: 2024-12-22
-date modified: 2025-01-17
+date modified: 2025-02-16
+aliases: [Novum Quinque]
+linter-yaml-title-alias: Novum Quinque
 ---
+# Novum Quinque
 
 This gambling dice game was popular from the 16th to 18th centuries, especially in France, where it was called <span lang="fr" class="aka noun">Quinque-nove</span>.[@EssayDAnalyse p. 173] In English sources it is sometimes simply called <span class="aka">Novum</span>, otherwise <span class="aka">Novum Quinque</span>, or <span class="aka">Quinque Nove</span>.
 

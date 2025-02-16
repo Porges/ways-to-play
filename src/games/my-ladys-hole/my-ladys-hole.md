@@ -5,8 +5,11 @@ players:
 equipment: Card game (standard deck)
 countries: GB
 date created: 2024-12-22
-date modified: 2025-01-21
+date modified: 2025-02-16
+aliases: [My Lady’s Hole]
+linter-yaml-title-alias: My Lady’s Hole
 ---
+# My Lady’s Hole
 
 <span class="aka">My Lady’s Hole</span> was an English card game popular during the 18th century.
 

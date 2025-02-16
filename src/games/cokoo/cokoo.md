@@ -3,8 +3,11 @@ title: Cokoo
 players: 2
 countries: GM
 date created: 2024-12-18
-date modified: 2024-12-23
+date modified: 2025-02-16
+aliases: [Cokoo]
+linter-yaml-title-alias: Cokoo
 ---
+# Cokoo
 
 <span lang="mnk" class="aka noun">Cokoo</span>[@MandinkaEnglish 12][@IntermediateGambian 23] (also written Chokō,[@AncientCeylon 604] Chukoo, or Chokoo[@ChokooGameVideo]) is a game from The Gambia; the name itself seems to be <a href="https://en.wikipedia.org/wiki/Mandinka_language">Mandinkan</a>. 
 

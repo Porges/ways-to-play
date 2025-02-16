@@ -1,11 +1,14 @@
 ---
-title: Kōnane
-titleLang: haw
+title: <span lang="haw" class="noun">Kōnane</span>
 players: 2
 countries: US
 date created: 2024-12-22
-date modified: 2025-01-22
+date modified: 2025-02-16
+aliases:
+  - <span lang="haw" class="noun">Kōnane</span>
+linter-yaml-title-alias: <span lang="haw" class="noun">Kōnane</span>
 ---
+# <span lang="haw" class="noun">Kōnane</span>
 
 <span class="noun" lang="haw">Kōnane</span> (sometimes also called <span
 lang="haw">mū</span>, which is also used to refer to draughts) is a traditional

@@ -2,8 +2,11 @@
 title: Cetro
 players: 2
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases: [Cetro]
+linter-yaml-title-alias: Cetro
 ---
+# Cetro
 
 Cetro is a [traversal game](articles/families/traversal-games/traversal-games.md) for two players that was  published at the start of the 20th century in Germany by J. W. Spear & Son.
 

@@ -1,12 +1,15 @@
 ---
-title: Chuza
+title: '<span lang="es" class="noun">Chuza</span>'
 titleLang: es
 countries: MX,US
 equipment: Gambling game (special equipment)
 players: banking
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases: ['<span lang="es" class="noun">Chuza</span>']
+linter-yaml-title-alias: '<span lang="es" class="noun">Chuza</span>'
 ---
+# <span lang="es" class="noun">Chuza</span>
 
 <span lang="es" class="aka noun">Chuza</span> or <span lang="es" class="aka noun">Chusas</span> (‘owls’) was a gambling game popular in the 19th century in both Mexico and New Mexico, and similar to [Roulette](games/roulette/roulette.md).
 

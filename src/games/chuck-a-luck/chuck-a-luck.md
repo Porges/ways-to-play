@@ -11,8 +11,11 @@ hero:
         orgName: "Potter & Potter Auctions"
     originalUrl: "https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx"
 date created: 2024-12-22
-date modified: 2025-01-17
+date modified: 2025-02-16
+aliases: [Chuck-a-Luck]
+linter-yaml-title-alias: Chuck-a-Luck
 ---
+# Chuck-a-Luck
 
 Chuck-A-Luck was a simple dicing game popular in the United States in the mid to
 late 19th century and early 20th century. It began as a portable soldier’s game

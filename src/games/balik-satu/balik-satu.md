@@ -520,7 +520,7 @@ Ad-hoc bets are made between the players, whoever wins receives the staked amoun
 </dd>
 </dl>
 
-### <span class="noun aka" lang="jv-Latn">Tantanan</span>
+### <span class="noun aka" lang="jv-Latn" id="tantanan">Tantanan</span>
 
 This is another game described as being played in Surakarta in Java during the 1940s.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <span class="noun" lang="ms">Balik Satu</span> and is thus a faster game.
 

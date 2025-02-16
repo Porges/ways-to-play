@@ -4,8 +4,12 @@ players: 2
 equipment: Board game (simple equipment)
 countries: CN,IN,KR,TH,MN,MY
 date created: 2024-12-22
-date modified: 2025-01-22
+date modified: 2025-02-16
+aliases:
+  - Horseshoe
+linter-yaml-title-alias: Horseshoe
 ---
+# Horseshoe
 
 This is a simple blocking game for children that seems to originate from China, where it is known by many names. Because the board is shaped like the Chinese character ‘<span lang="zh">区</span>’ (‘area’), it is known as ‘<code>区</code> character game’ (<span lang="zh" class="aka">区字棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">qū zì qí</span>). Other names include ‘crotch game’ (<span lang="zh-Hant" class="aka">褲襠棋</span>/<span lang="zh-Hans" class="aka">裤裆棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh" class="aka">剪刀棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">jiǎndāo qí</span>). 
 

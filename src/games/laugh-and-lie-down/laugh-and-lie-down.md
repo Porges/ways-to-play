@@ -1,11 +1,14 @@
 ---
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-16
 title: Laugh and Lie Down
 players: [4, 5]
 equipment: Card game (standard deck)
 countries: GB
+aliases: [Laugh and Lie Down]
+linter-yaml-title-alias: Laugh and Lie Down
 ---
+# Laugh and Lie Down
 
 Laugh and Lie Down is a [fishing game](articles/families/fishing-games/fishing-games.md) for five (or four) players from the 17th century.[^fn0] The only known description of the rules of this game is from Francis Willughby’s <cite>Book of Games</cite>.[@FrancisWillughby p. 138] but also appears that same year in a humorous tract.[@APublicansReason]
 

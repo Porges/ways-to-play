@@ -29,10 +29,10 @@ In games where cards are played from both hand and stock, after playing a card f
 - played with two-colour chess cards: 
     - [Fishing for Hairtails](games/fishing-for-hairtails/fishing-for-hairtails.md)
 - played with [Ceki cards](articles/cards/ceki/ceki.md):
-    - {% gameref cholek-tiga %}
-    - {% gameref enthit %}
-    - {% gameref thothit %}
-    - {% gameref thothit-kuna %}
+    - [<span class="noun" lang="ms">Cholek Tiga</span>](games/cholek-tiga/cholek-tiga.md)
+    - [<span lang="jv-Latn" class="noun">Enthit</span>](games/thothit/thothit.md#enthit)
+    - [<span lang="jv-Latn" class="noun">Thothit</span>](games/thothit/thothit.md)
+    - [<span lang="jv-Latn" class="noun">Thothit Kuna</span>](games/thothit/thothit.md#thothit-kuna)
 - many [Hanafuda](articles/cards/japan/hanafuda/hanafuda.md) games (which I have yet to document) also fall into this category
 
 The last type are luck-based games where all cards are turned from the stock.  These are commonly gambling or children’s games:
@@ -40,8 +40,8 @@ The last type are luck-based games where all cards are turned from the stock.  T
 - played with standard cards:
     - [Kings](games/kings/kings.md)
 - played with [Ceki cards](articles/cards/ceki/ceki.md):
-    - {% gameref thothit-yogyakarta %}
-    - {% gameref thit-thit-dulit %}
+    - [<span lang="jv-Latn" class="noun">Thothit Yogyakarta</span>](games/kings/kings.md#thothit-yogya)
+    - [<span lang="jv-Latn" class="noun">Thit-Thit-Dulit</span>](games/kings/kings.md#thit-thit-dulit)
 
 >[!todo]
 >

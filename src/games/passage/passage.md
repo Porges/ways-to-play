@@ -5,9 +5,11 @@ players: 2
 mainImage: 314D003a.jpg
 countries: FR,GB
 date created: 2025-01-26
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases: [Passage]
+linter-yaml-title-alias: Passage
 ---
-
+# Passage
 <span class="aka">Passage</span> is an old dice gambling game for two players.[@CompleatGamester p. 167] In French it was called <span lang="fr" class="aka">passe-dix</span> ‘pass-ten’, similarly in Italian <span lang="it" class="aka">passadiéci</span>,[@QueenAnnaFlorio 360] and in German <span lang="de" class="aka">Paschen</span>. It has also been called ‘<span class="aka">pass-dice</span>’.[@AnnalsOfGaming 45] 
 
 > [!figure]

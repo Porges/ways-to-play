@@ -1,11 +1,18 @@
 ---
-title: Fishing for Hairtails
+title: '<span lang="zh">釣白魚</span> · Fishing for Hairtails'
 originalTitle: <span lang="zh">釣白魚</span>
-players: [2,3]
+players:
+  - 2
+  - 3
 equipment: Card game (two-colour chess cards)
 date created: 2024-12-18
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases:
+  - '<span lang="zh">釣白魚</span> · Fishing for Hairtails'
+  - Fishing For Hairtails
+linter-yaml-title-alias: '<span lang="zh">釣白魚</span> · Fishing for Hairtails'
 ---
+# <span lang="zh">釣白魚</span> · Fishing for Hairtails
 
 Fishing for Hairtails <span lang="zh-Hant">釣白魚</span> (Hokkien: <span lang="nan-Latn">tiò pe̍h-hî</span>) is a Hokkien [fishing game](articles/families/fishing-games/fishing-games.md) for two or three players that is played with two-colour chess cards, which are sometimes called <span lang="zh-Hant">釣魚牌</span> ‘fishing cards’.  It may also be called <span lang="zh-Hant">白魚賭</span> ‘hairtail gambling’ or simply <span lang="zh-Hant">釣魚</span> ‘fishing’.
 

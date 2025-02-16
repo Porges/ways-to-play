@@ -1,22 +1,25 @@
 ---
-title: Sampen
-titleLang: jv-Latn
+title: '<span lang="jv-Latn" class="noun">Sampen</span>'
 players:
-    min: 2
-    max: 8
+  min: 2
+  max: 8
 equipment: Card game (Ceki)
 subgames:
-- title: Thothit Banyuwangi
-  titleLang: jv-Latn
-  players:
-    min: 2
-    max: 7
-- title: Sèmbrèh
-  titleLang: jv-Latn
-  players: 5
+  - title: Thothit Banyuwangi
+    titleLang: jv-Latn
+    players:
+      min: 2
+      max: 7
+  - title: Sèmbrèh
+    titleLang: jv-Latn
+    players: 5
 date created: 2024-12-18
-date modified: 2025-01-17
+date modified: 2025-02-16
+aliases:
+  - '<span lang="jv-Latn" class="noun">Sampen</span>'
+linter-yaml-title-alias: '<span lang="jv-Latn" class="noun">Sampen</span>'
 ---
+# <span lang="jv-Latn" class="noun">Sampen</span>
 
 <span lang="jv-Latn" class="noun aka">Sampèn</span> is a simple luck-based gambling game played in Java using [Ceki cards](articles/cards/ceki/ceki.md).[@JavaanseKaartspelen p. 56–7] It is also described as being played in China.[@CardGamesAroundTheWorld p. 5]
 
@@ -121,4 +124,4 @@ This game is also called <span lang="jv-Latn">Sèmbrèh</span> in East and Centr
 
 ## See Also
 
-{%gameref tantanan %} is also called <span lang="jv-Latn" class="noun">Sampèn</span>.
+[<span lang="jv-Latn" class="noun">Tantanan</span>](games/balik-satu/balik-satu.md#tantanan) is also known as <span lang="jv-Latn" class="noun">Sampèn</span>.

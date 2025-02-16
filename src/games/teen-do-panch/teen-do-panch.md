@@ -9,7 +9,6 @@ linter-yaml-title-alias: '<span lang="hi">तीन दो पाँच</span> �
 date created: 2024-12-18
 date modified: 2025-02-16
 ---
-
 # <span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>
 
 <span lang="hi-Latn" class="noun aka">Teen Do Pānch</span> (<span lang="hi" class="aka">तीन दो पाँच</span> <span lang="hi-Latn">tīn dō pānch</span>) is a three-player card game from India. The name of the game means “<span class="aka">Three Two Five</span>” in Hindi.

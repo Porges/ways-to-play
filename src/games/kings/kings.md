@@ -14,8 +14,11 @@ subgames:
   countries: ID
   equipment: Card game (Ceki)
 date created: 2024-12-18
-date modified: 2025-01-23
+date modified: 2025-02-16
+aliases: [Kings]
+linter-yaml-title-alias: Kings
 ---
+# Kings
 
 <span class="aka">Kings</span> is a luck-based card game from New Guinea. It plays similarly to a fishing game, only there are no decisions to be made.
 
@@ -51,7 +54,7 @@ The cards (aside from the <Cards>K</Cards>s) are then collected and shuffled and
 >
 > The shortening of the deck to 48 cards makes me wonder if this is a game derived from a Japanese source, as there are other games played in New Guinea which do have a known Japanese origin. A [Hanafuda](articles/cards/japan/hanafuda/hanafuda.md) deck has (12×4=) 48 cards in it, and the gameplay of Kings is remniscent of many <span lang="ja-Latn" class="noun">Hanafuda</span> fishing games, where cards are paired to capture them from a central pool.
 
-## <span lang="jv-Latn">Thothit Yogyakarta</span>
+## <span lang="jv-Latn" id="thothit-yogya">Thothit Yogyakarta</span>
 
 A very similar game but played with [Ceki cards](articles/cards/ceki/ceki.md) is known in [Yogyakarta](https://en.wikipedia.org/wiki/Yogyakarta) as <span lang="jv-Latn" class="noun aka">Thothit</span>[^fn0] (there is also a different game which was called {% gameref thothit %} in Surakarta; see that article for details).
 
@@ -69,7 +72,7 @@ Beginning with the starting player, each player draws a card from the stock and 
 
 Once all the cards have been played (and thus all cards captured), the players total up their points. Two _identical_ matching cards are worth 10 points, and each red-stamped card is also worth an additional 10 points. The player with the highest score wins, takes any payment from the others, and then becomes the starting player for the next round.
 
-## <span lang="jv-Latn">Thit-Thit-Dulit</span>
+## <span lang="jv-Latn" id="thit-thit-dulit">Thit-Thit-Dulit</span>
 
 <span lang="jv-Latn" class="noun aka">Thit-Thit-Dulit</span> is an even simpler version of the game for two players, again played in Yogyakarta with a deck of 60 <span lang="jv-Latn">ceki</span> cards.
 

@@ -1,5 +1,5 @@
 ---
-title: Cholek Tiga
+title: '<span class="noun" lang="ms">Cholek Tiga</span>'
 titleLang: ms
 players: [2, 3]
 hero:
@@ -11,10 +11,13 @@ hero:
     identifier: "1900515673"
     originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
 date created: 2024-12-22
-date modified: 2025-01-22
+date modified: 2025-02-16
+aliases: ['<span class="noun" lang="ms">Cholek Tiga</span>']
+linter-yaml-title-alias: '<span class="noun" lang="ms">Cholek Tiga</span>'
 ---
+# <span class="noun" lang="ms">Cholek Tiga</span>
 
-<span class="noun" lang="ms">Cholek Tiga</span> (‘draw three’) is a Peranakan fishing game for two or three players, played with [Cherki cards](articles/cards/ceki/ceki.md).
+<span class="noun aka" lang="ms">Cholek Tiga</span> (‘draw three’) is a Peranakan fishing game for two or three players, played with [Cherki cards](articles/cards/ceki/ceki.md).
 
 The description below is based on @ChikiCards [p. 125–7]:
 

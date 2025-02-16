@@ -94,7 +94,7 @@ Suit Yourself
 
 <ul class="columnar">
 <li>
-{% gameref sampen %}
+[<span lang="jv-Latn" class="noun">Sampen</span>](games/sampen/sampen.md)
 </li>
 <li>
 Cha Kau Tsz’
@@ -106,7 +106,7 @@ Khanhoo
 Kowah
 </li>
 <li>
-{% gameref thothit %}
+[Thothit](games/thothit/thothit.md#sackson)
 </li>
 <li>
 [Kabu](games/three-card-game/three-card-game.md#kabu)

@@ -1,33 +1,30 @@
 ---
-title: Trou Madame
+title: '<span lang="fr" class="noun">Trou Madame</span>'
 titleLang: fr
 draft: true
+aliases: ['<span lang="fr" class="noun">Trou Madame</span>']
+linter-yaml-title-alias: '<span lang="fr" class="noun">Trou Madame</span>'
+date created: 2024-12-22
+date modified: 2025-02-16
 ---
+# <span lang="fr" class="noun">Trou Madame</span>
 
 Also called “<span class="aka">Nine Holes</span>” in English.
 
 In Scots, <span lang="sco" class="aka">Trulis</span>.[@SupplementToJamieson 247]
 
-{/*
 
 See also Nine Holes/Bumble Puppy
 
 https://www.alamy.com/stock-photo-youths-playing-bumble-puppy-or-nine-holes-near-the-templa-of-vesta-57292455.html
 https://georgianera.wordpress.com/2018/06/28/skittles-and-nine-holes-or-bumble-puppy-sporting-pastimes-in-the-georgian-era/
 
-*/}
-
-{/*
 https://shakespeareillustration.org/2016/07/01/trol-my-dames-costume-temp-eliz-from-specimen/
 https://www.istockphoto.com/vector/nine-holes-gm175396716-20296398
-*/}
 
-{/*
 Mirélla
 
 https://archive.org/details/gri_33125008510097/page/n325/mode/2up?q=%22my+ladies+hole%22
-
-*/}
 
 
 Nine Holes [@Strutt p. 340].

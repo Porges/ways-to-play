@@ -1,5 +1,5 @@
 ---
-title: Prinola
+title: '<span lang="fil" class="noun">Prinola</span>'
 titleLang: fil
 players: banking
 equipment: Dice game
@@ -13,8 +13,11 @@ subgames:
   countries: JP
   originalTitle: <span lang="ja" class="aka">樗蒲一</span>
 date created: 2024-12-18
-date modified: 2025-01-24
+date modified: 2025-02-16
+aliases: ['<span lang="fil" class="noun">Prinola</span>']
+linter-yaml-title-alias: '<span lang="fil" class="noun">Prinola</span>'
 ---
+# <span lang="fil" class="noun">Prinola</span>
 
 <span lang="fil" class="noun aka">Prinola</span> is a [simple staking game](games/simple-staking-games/simple-staking-games.md) that used to be played in the Philippines. The name is derived from the Spanish <span lang="es">pirinola</span>, a spinning-top or teetotum.
 
@@ -56,7 +59,7 @@ Alternately, the teetotum can also be decorated with animals or other images, in
 
 Players place their stakes on any of the partitions on the layout. The banker then spins the teetotum. Any players who selected the square that the teetotum shows win 4× their stake. All other stakes are lost.
 
-## <span lang="id">Dadu Putar</span>
+## <span lang="id" id="dadu-putar">Dadu Putar</span>
 
 > [!figure]
 > 
@@ -95,7 +98,7 @@ In Indonesia the game has been called <Pronounce lang="id"  class="noun aka" pro
 >
 > @IetsOver [p. 382] has reference for this game
 
-## <span lang="ja-Latn" class="noun">Chobo-Ichi</span>
+## <span lang="ja-Latn" class="noun" id="chobo-ichi">Chobo-Ichi</span>
 
 The Japanese game of <span lang="ja-Latn" class="aka noun">Chobo-Ichi</span> (<span lang="ja" class="aka">樗蒲一</span>) is the same but played with a single die instead of a teetotum. The name means something like “gamble on one outcome”.
 

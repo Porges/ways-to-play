@@ -1,12 +1,17 @@
 ---
-title: Yasasukari
+title: '<span lang="ja">八道行成</span> · <span lang="ja-Latn" class="noun">Yasasukari</span>'
 titleLang: ja-Latn
 mainImage: Yasasukari.jpg
 originalTitle: <span lang="ja">八道行成</span>
 players: 2
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases:
+  - '<span lang="ja">八道行成</span> · <span lang="ja-Latn" class="noun">Yasasukari</span>'
+  - <span lang="ja-Latn" class="noun">Yasasukari</span>
+linter-yaml-title-alias: '<span lang="ja">八道行成</span> · <span lang="ja-Latn" class="noun">Yasasukari</span>'
 ---
+# <span lang="ja">八道行成</span> · <span lang="ja-Latn" class="noun">Yasasukari</span>
 
 <span lang="ja-Latn" class="noun">Yasakukari</span> (<span lang="ja">八道行成</span>, also pronounced <span lang="ja-Latn">yasugari</span> or <span lang="ja-Latn">yasukari</span>) is an old board game, played in Japan, of the Fox and Geese family.[@KoreanGames p. 77]
 

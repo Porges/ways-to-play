@@ -11,19 +11,21 @@ linter-yaml-title-alias: The Games of <cite>Gargantua</cite> (1534—)
 
 One of the most famous historical lists of games is that found in Chaper 22 of <a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais"><span class="noun" lang="fr">François Rabelais</span></a>’ <a href="https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel"><cite lang="fr">Gargantua</cite></a>, first published in 1534. In the original French the list contained 216 games, but in each translation the games that are named were changed and often expanded upon. Many of the games are either invented by Rabelais, or are games for which we no longer know the rules.
 
-An in-depth examination of the games in the list lies [below the table](#the-list-in-depth). 🚧 This article, more than most, is a
-work-in-progress. 🚧
+An in-depth examination of the games in the list lies [below the table](#the-list-in-depth).
+
 
 The first five columns give the lists from five different French editions; the
 remaining columns are from translations into English.
 
 The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (German, 1590) are given beneath the table as they diverge significantly.
 
-🚧 Note that the entries in the Screech column are out of sync with the others and I haven’t had time to match them up yet. 🚧
+🚧 This article, more than most, is a work-in-progress. Note that the entries in the Screech column are out of sync with the others and I haven’t had time to match them up yet. 🚧
 
 ⚠️ This table is very wide and might scroll horizontally. My notes are at the far right.
 
-{/* Putnam doesn’t attempt translation */}
+> [!todo]
+> 
+> Putnam doesn’t attempt translation
 
 <div class="full-width scroller">
 <table class="small">

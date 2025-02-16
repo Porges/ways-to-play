@@ -693,19 +693,15 @@ contact them!
 >
 > The <span class="noun" lang="ja-Latn">Kintoki</span> card, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>. He is depicted carrying an axe and wearing a shirt with the character <span lang="ja">金</span> (<span lang="ja-Latn">kin</span>, ‘gold’) on it.
 
-This is another regional pattern called {% pronounce lang="ja-Latn"
-word="Awa­-bana" pronouncer="poyotan" file="pronunciation_ja_阿波花.mp3" %}
-(<span lang="ja">阿波花</span>) or {% pronounce lang="ja-Latn"
-word="Kintoki­-bana" pronouncer="poyotan" file='pronunciation_ja_金時花.mp3' %}
+This is another regional pattern called <Pronounce lang="ja-Latn" pronouncer="poyotan" file="pronunciation_ja_阿波花.mp3">Awa-bana</Pronounce>
+(<span lang="ja">阿波花</span>) or <Pronounce lang="ja-Latn" pronouncer="poyotan" file='pronunciation_ja_金時花.mp3'>Kintoki­-bana</Pronounce>
 (<span lang="ja">金時花</span>). It originated in <span class="noun"
 lang="ja-Latn">Awa</span> province, in what is now <span class="noun"
 lang="ja-Latn">Tokushima</span> prefecture.
 
 Like the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern, some of the <span class="noun"
 lang="ja-Latn">Awa-­bana</span> carry poems (in fact, they carry the same
-poems). The deck also contains an extra card which features the titular {%
-pronounce noun="true" lang="ja-Latn" pronouncer="renad"
-file='pronunciation_ja_kintoki.mp3' word="Kintoki" %} (<span lang="ja">金時
+poems). The deck also contains an extra card which features the titular <Pronounce noun="true" lang="ja-Latn" pronouncer="renad" file='pronunciation_ja_kintoki.mp3'>Kintoki</Pronounce> (<span lang="ja">金時
 </span>), [a legendary strong-boy also known as <span class="noun"
 lang="ja-Latn">Kintarō</span>](https://en.wikipedia.org/wiki/Kintar%C5%8D).
 
@@ -1406,7 +1402,9 @@ prohibited.[@FourSeasons loc. 4261] Wild game such as boar and deer were not
 included: either they escaped the imagination of the Emperor, or they were too
 important as food sources for commoners.
 
-{/* Deer is associated with bush clover but instead we have a boar? But also deer are renowned for being separated from their lovers... */}
+> [!todo]
+> 
+> Deer is associated with bush clover but instead we have a boar? But also deer are renowned for being separated from their lovers...
 
 ### <span lang="ja">8月</span>
 

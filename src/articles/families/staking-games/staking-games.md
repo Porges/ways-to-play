@@ -16,7 +16,7 @@ Under this title, I collect games where bets are placed by players, usually on a
 [Belangkai](games/belangkai/belangkai.md)
 </li>
 <li>
-{% gameref chobo-ichi %}
+[<span lang="ja-Latn" class="noun">Chobo-Ichi</span>](games/prinola/prinola.md#chobo-ichi)
 </li>
 <li>
 [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md)
@@ -25,7 +25,7 @@ Under this title, I collect games where bets are placed by players, usually on a
 [Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md)
 </li>
 <li>
-{% gameref dadu-putar %}
+[<span lang="id" class="noun">Dadu Putar</span>](games/prinola/prinola.md#dadu-putar)
 </li>
 <li>
 [Prinola](games/prinola/prinola.md)

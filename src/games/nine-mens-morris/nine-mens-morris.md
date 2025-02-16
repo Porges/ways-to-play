@@ -8,9 +8,11 @@ subgames:
   lasker-morris: Lasker Morris
   twelve-mens-morris: Twelve Men’s Morris
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases: [Nine Men’s Morris]
+linter-yaml-title-alias: Nine Men’s Morris
 ---
-
+# Nine Men’s Morris
 Nine Men’s Morris is an ancient [mill game](articles/families/mill-games/mill-games.md)  dating at least from Roman times. It is the most prominent of all the mill games, played all around the world, but particularly in central European countries. Other variations of the game — such as [Shax](games/shax/shax.md) or [Morabaraba](games/morabaraba/morabaraba.md) — are also played in several African countries.
 
 In addition to being a game, the board itself was used as some kind of talisman or symbol; @MerylsBoardEnigma [p. 330] collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.

@@ -1,5 +1,5 @@
 ---
-title: Pai Tong
+title: '<span lang="th">ไพ่ตอง</span> · <span lang="th-Latn" class="noun">Pai Tong</span>'
 titleLang: th-Latn
 originalTitle: <span lang="th">ไพ่ตอง</span>
 players: 
@@ -12,8 +12,11 @@ subgames:
   countries: MY
 equipment: Card game (Ceki)
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases: ['<span lang="th">ไพ่ตอง</span> · <span lang="th-Latn" class="noun">Pai Tong</span>']
+linter-yaml-title-alias: '<span lang="th">ไพ่ตอง</span> · <span lang="th-Latn" class="noun">Pai Tong</span>'
 ---
+# <span lang="th">ไพ่ตอง</span> · <span lang="th-Latn" class="noun">Pai Tong</span>
 
 <span class="noun aka" lang="th-Latn">Pai Tong</span> (<span lang="th" class="aka">ไพ่ตอง</span>, ‘<span lang="th-Latn">tong</span> cards’) is a draw-and-discard card game from Thailand, played with Thai money cards. It is also known as <span class="noun aka" lang="th-Latn">Pai Phong (Thai)</span> (<span lang="th" class="aka">ไพ่ผ่อง(ไทย)</span>) or <span class="noun aka" lang="th-Latn">Pai Chot</span> (<span lang="th" class="aka">ไพ่จอด</span>).[@ThaiGambling 71–6] Very similar games are also played in Kelantan in Malaysia.
 

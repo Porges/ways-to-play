@@ -6,8 +6,11 @@ players:
 equipment: Card game (standard deck)
 countries: GB
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases: [Whehee]
+linter-yaml-title-alias: Whehee
 ---
+# Whehee
 
 Whehee is a 17th-century English children’s card game described in Francis Willughby’s (1635–1672) “Book of Games”, where it was entered by an unidentified young person.[@FrancisWillughby p. 160]
 

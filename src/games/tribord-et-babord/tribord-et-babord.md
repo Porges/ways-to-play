@@ -1,11 +1,14 @@
 ---
-title: Tribord et Bâbord
-titleLang: fr
-mainImage: 'TribordBoard.png'
+title: '<span lang="fr" class="noun">Tribord et Bâbord</span>'
+mainImage: TribordBoard.png
 players: 2
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases:
+  - '<span lang="fr" class="noun">Tribord et Bâbord</span>'
+linter-yaml-title-alias: '<span lang="fr" class="noun">Tribord et Bâbord</span>'
 ---
+# <span lang="fr" class="noun">Tribord et Bâbord</span>
 
 The French game of <span class="noun" lang="fr">Tribord et Bâbord</span> (‘Starboard and Port’) is a 19th-century dice gambling game for two players.
 

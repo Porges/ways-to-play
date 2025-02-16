@@ -7,9 +7,11 @@ subgames:
 - title: X-ceter-O
 - title: Chung Toi
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases: [Three Men’s Morris]
+linter-yaml-title-alias: Three Men’s Morris
 ---
-
+# Three Men’s Morris
 <span class="aka">Three Men’s Morris</span> is an ancient [mill game](articles/families/mill-games/mill-games.md) for two players.
 
 ## Play

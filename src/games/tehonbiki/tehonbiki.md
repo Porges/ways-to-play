@@ -1,6 +1,5 @@
 ---
-title: Tehonbiki
-titleLang: ja-Latn
+title: '<span lang="ja">手本引き</span> · <span lang="ja-Latn" class="noun">Tehonbiki</span>'
 originalTitle: <span lang="ja">手本引き</span>
 draft: true
 players: banking
@@ -10,8 +9,14 @@ subgames:
   - title: Daun Empat
     titleLang: id
 date created: 2024-12-22
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases:
+  - '<span lang="ja">手本引き</span> · <span lang="ja-Latn" class="noun">Tehonbiki</span>'
+  - <span lang="ja-Latn" class="noun">Tehonbiki</span>
+linter-yaml-title-alias: '<span lang="ja">手本引き</span> · <span lang="ja-Latn" class="noun">Tehonbiki</span>'
 ---
+# <span lang="ja">手本引き</span> · <span lang="ja-Latn" class="noun">Tehonbiki</span>
+
 <span lang="ja-Latn" class="noun aka">Tehonbiki</span> (<span lang="ja" class="aka">手本引き</span>, meaning something like ‘draw an example’) is a traditional Japanese gambling game that is played with sets of six cards.
 
 The goal of the game is for the players to guess the card which the dealer has chosen; the fact that the dealer must _choose_ the card and not select one at random turns this into a game of psychology rather than one of pure chance.
@@ -141,7 +146,7 @@ Tehonbiki can also be played with dice (TODO).
 
 This game from Singapore, whose name means ‘long Chap Ji Ki’ was a <span lang="ja-Latn" class="noun">Tehonbiki</span>-like variation of the main {% gameref chap-ji-ki %} lottery game.[@GamblingGamesOfMalaya p. 113–5] It was also known as <span lang="nan" class="aka">十二支現場</span> <span lang="nan-Latn" class="aka">cha̍p jī ki hiān-tiûⁿ</span> (‘12 characters on the spot’), or <span lang="ms" class="noun aka">Tok Tok</span>, an onomatopœia for the sound of rapping on the table.[@NyonyaMosaic p. 129]
 
-This variant of the game was played with {%a four-colour-cards %}; each player receives 12 cards, one of each of six types in two colours (the soldier cards are left out).
+This variant of the game was played with [Four Colour Cards](articles/cards/china/four-colour-cards/four-colour-cards.md); each player receives 12 cards, one of each of six types in two colours (the soldier cards are left out).
 
 ## <span lang="id" class="noun aka">Daun Empat</span>
 

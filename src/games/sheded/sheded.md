@@ -1,9 +1,16 @@
 ---
-title: Sheded
+title: '<span lang="ti">ሸደድ</span> · <span lang="ti-Latn" class="noun">Sheded</span>'
 titleLang: ti-Latn
 originalTitle: <span lang="ti">ሸደድ</span>
 countries: ET,ER
+aliases:
+  - '<span lang="ti">ሸደድ</span> · <span lang="ti-Latn" class="noun">Sheded</span>'
+  - <span lang="ti-Latn" class="noun">Sheded</span>
+linter-yaml-title-alias: '<span lang="ti">ሸደድ</span> · <span lang="ti-Latn" class="noun">Sheded</span>'
+date created: 2024-12-18
+date modified: 2025-02-16
 ---
+# <span lang="ti">ሸደድ</span> · <span lang="ti-Latn" class="noun">Sheded</span>
 
 > [!figure]
 >

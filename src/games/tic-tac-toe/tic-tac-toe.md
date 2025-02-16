@@ -4,9 +4,11 @@ mainImage: '5072574617_9afa5ee9ae_o.jpg'
 players: 2
 equipment: Pen and paper
 date created: 2024-12-22
-date modified: 2025-01-17
+date modified: 2025-02-16
+aliases: [Tic-Tac-Toe]
+linter-yaml-title-alias: Tic-Tac-Toe
 ---
-
+# Tic-Tac-Toe
 <span class="aka">Tic-Tac-Toe</span> is a simple game for two players that is well-known to result in a draw if played ‘rationally’. Unlike most board games, pieces cannot be moved or removed once placed, making it an ideal game to play with pen & paper.
 
 
@@ -45,18 +47,7 @@ slate pencil”.
 >
 > The small merels board with diagonals.
 
-However, there is an early antecedent of a game which is equivalent in play, if
-not in presentation. [Alfonso X of
-Castile’s](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile) <cite>Book of
-Games</cite>[@AlfonsoGames], published in 1283, includes the game <span
-lang="es">alquerque de tres</span> which is played on a small merels board with
-diagonals. Each player has three pawns which they place on the board one at a
-time, taking turns. If a player can form three in a line then they win;
-otherwise it is a tie. Later historians (even including {%a
-hjr-murray%}[@Murray2]) have muddied the waters by describing this game as a
-three-men’s-morris game where the pieces can be moved after being placed, but
-this is not supported by the original manuscript.[@DimensionsOfBookOfGames p.
-609]
+However, there is an early antecedent of a game which is equivalent in play, if not in presentation. [Alfonso X of Castile’s](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile) <cite>Book of Games</cite>[@AlfonsoGames], published in 1283, includes the game <span lang="es">alquerque de tres</span> which is played on a small merels board with diagonals. Each player has three pawns which they place on the board one at a time, taking turns. If a player can form three in a line then they win; otherwise it is a tie. Later historians (even including [H. J. R. Murray](articles/people/hjr-murray.md)[@Murray2]) have muddied the waters by describing this game as a three-men’s-morris game where the pieces can be moved after being placed, but this is not supported by the original manuscript.[@DimensionsOfBookOfGames p. 609]
 
 > [!figure]
 >
@@ -248,7 +239,9 @@ You know this, right?
 
 See, e.g. @Gardner1 [pp. 37–46].
 
-{/* It is claimed that “yih” 弈 is an old name for the game. No, this is go, or maybe something older. */}
+> [!todo]
+> 
+> It is claimed (somewhere that I cannot locate right now) that “yih” 弈 is an old name for the game. No, this is go, or maybe something older.
 
 ## Variants
 

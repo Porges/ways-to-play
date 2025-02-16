@@ -1,16 +1,22 @@
 ---
-title: Tab
-titleLang: ar-Latn
-originalTitle: <span lang="ar">الطاب</span>
+title: '<span lang="ar">الطاب</span> · <span lang="ar-Latn" class="noun">Tab</span>'
 draft: true
 countries: EG,IR,TR,KM,SO
+aliases:
+  - '<span lang="ar">الطاب</span> · <span lang="ar-Latn" class="noun">Tab</span>'
+linter-yaml-title-alias: '<span lang="ar">الطاب</span> · <span lang="ar-Latn" class="noun">Tab</span>'
+date created: 2024-12-22
+date modified: 2025-02-16
 ---
+# <span lang="ar">الطاب</span> · <span lang="ar-Latn" class="noun">Tab</span>
 
 - <span lang="ar">الطاب</span> (<span lang="ar-Latn">āl-ṭāb</span>) or <span lang="ar">لعب الطاب القصب</span> (<span lang="ar-Latn">lʿb āl-ṭāb āl-qṣb</span>)[@Hyde2 p. 217] (“tab reed game”)
 - <span lang="ar">طاب و دك</span> (<span lang="ar-Latn">ṭāb wa-duk</span>)[@ReisebeschreibungNachArabien p. 172] (“tab with mound”?)[^fn0]
-- Persian: <span lang="fa" class="aka">بازی قمیش</span> (<span lang="fa-Latn" class="aka">bâzi qamish</span>) ‘reed game’[^fn1]{/*An odd coincidence is that <span lang="fa">قمیش</span> <span lang="fa-Latn" class="aka">qamish</span> is used for the reed of a reed instrument, and another word for this is <span lang="fa">زبانه</span> (translit?), which now translates into English as “tab”. */}
+- Persian: <span lang="fa" class="aka">بازی قمیش</span> (<span lang="fa-Latn" class="aka">bâzi qamish</span>) ‘reed game’[^fn1]
 - Ottoman Turkish: <span lang="ota" class="aka">قامش اویون</span>[@TurkishEnglishLexicon p. 1423] (modern Turkish <span lang="tr" class="aka">kamış oyun</span>), ‘reed game’ [^fn2]
 - Comorian (Ndzuani): <span lang="wni-Arab" class="aka">ستة</span> (<span lang="wni-Latn" class="aka">sitta</span>) ‘six’
+
+> An odd coincidence is that <span lang="fa">قمیش</span> <span lang="fa-Latn" class="aka">qamish</span> is used for the reed of a reed instrument, and another word for this is <span lang="fa">زبانه</span> (translit?), which now translates into English also as “tab”?
 
 [^fn0]: The book has <span lang="ar-Latn">tâb u dúk</span>.
 

@@ -1,14 +1,18 @@
 ---
-title: The Pigeon Lottery
-originalTitle: <span lang="zh-Hant">白鴿票</span>
+title: <span lang="zh-Hant">白鴿票</span> · The Pigeon Lottery
 mainImage: MingLeeDuw.jpg
 hero:
-    image: MingLeeDuw.jpg
+  image: MingLeeDuw.jpg
 subgames:
-    - title: Keno
+  - title: Keno
 date created: 2024-12-22
-date modified: 2025-01-17
+date modified: 2025-02-16
+aliases:
+  - <span lang="zh-Hant">白鴿票</span> · The Pigeon Lottery
+  - Pigeon Lottery
+linter-yaml-title-alias: <span lang="zh-Hant">白鴿票</span> · The Pigeon Lottery
 ---
+# <span lang="zh-Hant">白鴿票</span> · The Pigeon Lottery
 
 The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="GeraldYang" file="pronunciation_yue_白鴿票.mp3" class="aka">baak⁶ gaap³ piu³</Pronounce>) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
 

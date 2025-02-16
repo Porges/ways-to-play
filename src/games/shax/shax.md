@@ -1,11 +1,14 @@
 ---
-title: Shax
+title: '<span lang="so" class="noun">Shax</span>'
 players: 2
 equipment: Board game (simple equipment)
 countries: SO
 date created: 2024-12-18
-date modified: 2025-01-16
+date modified: 2025-02-16
+aliases: ['<span lang="so" class="noun">Shax</span>']
+linter-yaml-title-alias: '<span lang="so" class="noun">Shax</span>'
 ---
+# <span lang="so" class="noun">Shax</span>
 
 <Pronounce file="pronunciation_so_shax.mp3" lang="so" noun="true"
 pronouncer="ahmed_aw_abdi" class="aka">Shax</Pronounce> is a [mill game](articles/families/mill-games/mill-games.md) from Somalia. In central and southern regions of Somalia it is called <span lang="so" class="aka">jare</span> (‘cut’).[@IntroductionToShax p. 1] Unlike most mill games, captures cannot be made during the placement phase.

@@ -3,8 +3,12 @@ title: Teeko
 players: 2
 equipment: Board game
 countries: US
+aliases: [Teeko]
+linter-yaml-title-alias: Teeko
+date created: 2024-12-18
+date modified: 2025-02-16
 ---
-
+# Teeko
 Teeko is a game for two players by John Scarne.
 
 ## History

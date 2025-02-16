@@ -1,5 +1,5 @@
 ---
-title: '<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun aka">Thothit</span>'
+title: '<span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun">Thothit</span>'
 equipment: Card game (Ceki)
 players: 3
 countries: ID
@@ -14,11 +14,11 @@ subgames:
 date created: 2024-12-22
 date modified: 2025-02-16
 aliases:
-  - '<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun aka">Thothit</span>'
+  - '<span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun">Thothit</span>'
   - <span lang="jv-Latn" class="noun aka">Thothit</span>
-linter-yaml-title-alias: '<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun aka">Thothit</span>'
+linter-yaml-title-alias: '<span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun">Thothit</span>'
 ---
-# <span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun aka">Thothit</span>
+# <span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun">Thothit</span>
 
 <span lang="jv-Latn" class="noun aka">Thothit</span> (<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a [fishing game](articles/families/fishing-games/fishing-games.md) from Java for three players,  played with [Ceki cards](articles/cards/ceki/ceki.md). The goal is to collect matching pairs of cards, especially red-stamped ones.
 
@@ -26,7 +26,7 @@ linter-yaml-title-alias: '<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</spa
 >
 > The name is given as <span lang="jv-Latn" class="noun aka">Ṭoṭit</span> in older orthography. I wonder if this could be derived from Hokkien <span lang="nan">𨑨迌</span> <span lang="nan-Latn">thit-thô</span> ‘to play’?
 
-First, I describe the game as played in [Surakarta](https://en.wikipedia.org/wiki/Surakarta) in the early 20th century, based upon the description in @JavaanseKaartspelen [71–2]. In Yogyakarta this game is known as <span lang="jv-Latn" class="noun aka">Ceweng</span> ‘to pull something towards oneself’, and <span lang="jv-Latn" class="noun">Thothit</span> refers to a different, simpler, game ({% gameref thothit-yogyakarta %}).
+First, I describe the game as played in [Surakarta](https://en.wikipedia.org/wiki/Surakarta) in the early 20th century, based upon the description in @JavaanseKaartspelen [71–2]. In Yogyakarta this game is known as <span lang="jv-Latn" class="noun aka">Ceweng</span> ‘to pull something towards oneself’, and <span lang="jv-Latn" class="noun">Thothit</span> refers to a different, simpler, game ([<span lang="jv-Latn" class="noun">Thothit Yogyakarta</span>](games/kings/kings.md#thothit-yogya)).
 
 ## Setup
 
@@ -68,9 +68,9 @@ According to @JavaanseKaartspelen [p. 72], among Chinese people in Surakarta the
 
 * If there is an identical pair on the table, as well as another card of the same rank, the identical pair cannot be broken up before the other card is taken. If this is done, the player who does it cannot win the round.
 
-### Sid Sackson’s description
+### <span id="sackson">Sid Sackson’s description</span>
 
-[Sid Sackson](articles/people/sid-sackson.md) describes the game in @CardGamesAroundTheWorld [p. 11–2].  However, he misses the second part of the player’s turn (turning a card from the stock).
+[Sid Sackson](articles/people/sid-sackson.md) describes the game in @CardGamesAroundTheWorld [11–2].  However, he misses the second part of the player’s turn (turning a card from the stock).
 
 The rules are given in terms of standard playing cards: from two decks, take the <Cards>shdA–9</Cards> and <Cards>cJQK</Cards>, giving 60 cards. The <Cards>AJQK</Cards> cards are all considered to be <Cards>1</Cards> and thus match.
 
@@ -80,7 +80,7 @@ He also offers simplified scoring: score one point per _identical_ pair. As an a
 
 ### <span lang="jv-Latn" class="noun aka" id="enthit">Enthit</span>
 
-<span lang="jv-Latn" class="noun">Enthit</span>[^fn0] is a very similar game from Yogyakarta where the goal is to form identical quadruplets instead of pairs.[@JavaanseKaartspelen p. 74] For this, two <span lang="jv-Latn">kepala</span> are used, giving 120 cards.
+<span lang="jv-Latn" class="noun">Enthit</span>[^fn0] is a very similar game from Yogyakarta where the goal is to form identical quadruplets instead of pairs.[@JavaanseKaartspelen 74] For this, two <span lang="jv-Latn">kepala</span> are used, giving 120 cards.
 
 [^fn0]: Old orthography: <span lang="jv-Latn" class="aka">Enṭit</span>.
 
@@ -88,7 +88,7 @@ Deal 14 cards each and 12 to the table. Play as in the description above.  Captu
 
 For scoring, each identical quadruplet (<span lang="jv">ꦲꦺꦤ꧀ꦛꦶꦠ꧀</span>(?) <span lang="jv-Latn">enthit</span>) of black cards is worth 50 points. An identical pair of black cards is worth 10 points. An identical red quadruplet (<span lang="jv">ꦲꦺꦤ꧀ꦛꦶꦠ꧀ ꦲꦧꦁ</span> <span lang="jv-Latn">enthit abang</span>) is worth 100 points, and a pair of identical red-stamped cards 20 points. A single red-stamped card by itself scores 10 points.
 
-### <span lang="jv-Latn" class="noun aka">Thothit Kuna</span>
+### <span lang="jv-Latn" class="noun aka" id="thothit-kuna">Thothit Kuna</span>
 
 <span lang="jv-Latn" class="noun">Thothit Kuna</span>,[^fn1] or ‘ancient’ <span lang="jv-Latn" class="noun">Thothit</span> is a form of the game previously played at the Surakarta court.[@JavaanseKaartspelen p. 74–5] It is mostly the same as the game described above but uses more cards and so takes longer to play.
 

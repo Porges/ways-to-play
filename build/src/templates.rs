@@ -471,16 +471,16 @@ impl Templater {
                 @for game in games_all {
                     li data-name=(game.title_string()) data-countries=(game.countries().iter().map(|c| c.alpha2).join(",")) data-players=[game.players()] data-equipment=[game.equipment()] {
                         a href=(game.url_path()) {
+                            @if game.is_draft() {
+                                "🚧"
+                            }
+
                             span.noun lang=[game.title_lang()] {
                                 (game.title_markup())
                             }
 
                             @if let Some(original_title) = game.original_title() {
-                                " (" (original_title) ")"
-                            }
-
-                            @if game.is_draft() {
-                                " 🚧"
+                                " · " (original_title)
                             }
                         }
                     }

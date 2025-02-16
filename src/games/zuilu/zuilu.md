@@ -7,13 +7,13 @@ equipment: Dice game
 players: any
 mainImage: 52423713.jpg
 date created: 2024-12-22
-date modified: 2025-02-08
+date modified: 2025-02-16
 aliases: ['<span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>']
 linter-yaml-title-alias: '<span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>'
 ---
 # <span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>
 
-<span lang="cmn-Latn-pinyin" class="noun aka">Zuì Lǜ</span> (<span lang="zh" class="aka">醉綠</span>, ‘drunken green’) was a very old Chinese drinking game from the late Ming period that is played with five dice. At a later stage it was known as <span lang="zh" class="aka">合歡</span> <span lang="cmn-Latn-pinyin" class="noun aka">Héhuān</span>, ‘happy union’.[@BettingOnEmpire p. 42]
+<span lang="cmn-Latn-pinyin" class="noun aka">Zuì Lǜ</span> (<span lang="zh" class="aka">醉綠</span>, ‘drunken green’) was a very old Chinese drinking game from the late [Ming](https://en.wikipedia.org/wiki/Ming_dynasty) period that was played with five dice. At a later stage it was known as <span lang="zh" class="aka">合歡</span> <span lang="cmn-Latn-pinyin" class="noun aka">Héhuān</span>, ‘happy union’.[@BettingOnEmpire 42]
 
 > [!figure]
 >
@@ -31,13 +31,13 @@ linter-yaml-title-alias: '<span lang="zh">醉綠</span> · <span lang="cmn-Latn-
 Rules for the game appear in the book <cite lang="zh">醉緑圖</cite> <cite>Drunken Green Diagrams</cite> by a <span lang="zh">張光</span> <span lang="cmn-Latn-pinyin" class="noun">Zhāng Guāng</span>, and this work is included in [the 1646 edition](https://curiosity.lib.harvard.edu/chinese-rare-books/catalog/49-990067678380203941) of the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html) collection, first compiled during the Ming period (1368–1644).[@ZuiLu] This (very short) instructional text is available transcribed on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102#%E9%86%89%E7%B7%91%E5%9C%96):
 
 
-> [!lang] zh
-> 
-> 醉緑用五箇骰子擲先以一色相賽得一點者先擲得六點者㝡後擲不必賽其餘復賽如前\
-> 擲色以三同為主除三同外但以餘二色計之得么么二二三三四四五五點為賞采賞二杯么六二六三六四六五六為罰采罰一杯六六罰二杯得么二二三三四四五之類為賽色得三同六點為罰色罰一杯不賽獨三同六點么么二二三三四四五五為賞采賞二杯擲者罰一杯\
-> 擲出五星聚奎者賞依金谷酒數\
-> 賽色點數相同者罰賽者二杯多一點二點賞一杯少一點二點罰一杯\
-> 賞色在手仍即自擲如擲出賽色方許下次人賽擲出散色方許下次人擲不限擲數
+> > [!lang] zh
+> >
+> > 醉緑用五箇骰子擲先以一色相賽得一點者先擲得六點者㝡後擲不必賽其餘復賽如前\
+> > 擲色以三同為主除三同外但以餘二色計之得么么二二三三四四五五點為賞采賞二杯么六二六三六四六五六為罰采罰一杯六六罰二杯得么二二三三四四五之類為賽色得三同六點為罰色罰一杯不賽獨三同六點么么二二三三四四五五為賞采賞二杯擲者罰一杯\
+> > 擲出五星聚奎者賞依金谷酒數\
+> > 賽色點數相同者罰賽者二杯多一點二點賞一杯少一點二點罰一杯\
+> > 賞色在手仍即自擲如擲出賽色方許下次人賽擲出散色方許下次人擲不限擲數
 
 I am unable to translate the rules,[^fn0] but the scoring combinations are listed below.
 
@@ -48,7 +48,7 @@ The general scheme is that rolling 5-of-a-kind gives out 5 drinks, 4-of-a-kind 3
 Rolling the ‘competition’ outcome means that there is some comparison done involving the ‘point’ of the roll (the sum of the two dice that are not part of the triple). However, I am not sure at the moment how this works.
 
 > [!aside]
-> 
+>
 > Some translations below are from @PersonalLuck [p. 426].
 
 <table>

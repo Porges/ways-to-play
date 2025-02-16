@@ -1,15 +1,20 @@
 ---
-title: Pèi
+title: '<span lang="jv">ꦥꦺꦲꦶ</span> · <span lang="jv-Latn" class="noun">Pèi</span>'
 titleLang: jv-Latn
 originalTitle: <span lang="jv">ꦥꦺꦲꦶ</span>
 players: 3
 equipment: Card game (Ceki)
 countries: ID
 subgames:
-- title: Pèi Magelang
+  - title: Pèi Magelang
 date created: 2024-12-18
-date modified: 2025-01-21
+date modified: 2025-02-16
+aliases:
+  - '<span lang="jv">ꦥꦺꦲꦶ</span> · <span lang="jv-Latn" class="noun">Pèi</span>'
+  - <span lang="jv-Latn" class="noun">Pèi</span>
+linter-yaml-title-alias: '<span lang="jv">ꦥꦺꦲꦶ</span> · <span lang="jv-Latn" class="noun">Pèi</span>'
 ---
+# <span lang="jv">ꦥꦺꦲꦶ</span> · <span lang="jv-Latn" class="noun">Pèi</span>
 
 <span lang="jv-Latn" class="noun aka">Pèi</span> (<span lang="jv" class="aka">ꦥꦺꦲꦶ</span>) was a [fishing game](articles/families/fishing-games/fishing-games.md) for three players from Java, which used [Ceki cards](articles/cards/ceki/ceki.md). The goal of the game is to capture specific scoring combinations.
 
@@ -99,10 +104,9 @@ This combination is formed from one of each of the three red-stamped cards. It i
 #### <span lang="jv-Latn">Pang Kéyang</span> (<span lang="jv">ꦥꦁ​​ꦏꦺꦪꦁ​ </span> <span lang="jv-Latn">pang kéyang</span>)
 
 
-
 > [!aside]
 >
-> In Javanese, <span lang="jv-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Hokkien: <Pronounce lang="nan-Latn"  pronouncer="chihchao" file="pronunciation_nan_碰.mp3">pōng</Pronounce>, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See the {%a glossary#pong %} page for more.
+> In Javanese, <span lang="jv-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Hokkien: <Pronounce lang="nan-Latn"  pronouncer="chihchao" file="pronunciation_nan_碰.mp3">pōng</Pronounce>, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See the [glossary](articles/glossary.md#pong) page for more.
 > 
 > <span lang="jv-Latn">Kéyang</span> is the name of the 9 of myriads card. I am uncertain what it means.
 

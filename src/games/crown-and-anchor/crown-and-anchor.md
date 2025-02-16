@@ -1,5 +1,5 @@
 ---
-title: Crown & Anchor
+title: "Crown & Anchor "
 mainImage: 'CA_StGeorge.jpg'
 players: banking
 countries: IN,NP,CN,AU,GB,VN,TH,LA,ID,MM,MY,BN,JM,BM,NZ,CA,KH,MG,BT,BD
@@ -11,9 +11,12 @@ subgames:
   originalTitle: <span lang="yue">八㪥</span>
   equipment: Dice game
   countries: CN
-date modified: 2024-12-23
+date modified: 2025-02-16
 date created: 2024-12-18
+aliases: ["Crown & Anchor "]
+linter-yaml-title-alias: "Crown & Anchor "
 ---
+# Crown & Anchor 
 
 <span class="aka">Crown & Anchor</span> is a dice game that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world. The game play is equivalent to that of [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md), but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.
 

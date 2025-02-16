@@ -1,12 +1,15 @@
 ---
-title: Mū Tōrere
+title: '<span lang="mi" class="noun">Mū Tōrere</span>'
 titleLang: mi
 players: 2
 equipment: Board game (simple equipment)
 countries: NZ
 date created: 2024-12-18
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases: ['<span lang="mi" class="noun">Mū Tōrere</span>']
+linter-yaml-title-alias: '<span lang="mi" class="noun">Mū Tōrere</span>'
 ---
+# <span lang="mi" class="noun">Mū Tōrere</span>
 
 <span lang="mi" class="noun aka">Mū Tōrere</span> is a traditional Māori blocking game from New Zealand.
 

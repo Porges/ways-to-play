@@ -1,10 +1,12 @@
 ---
-title: Under Seven or Over Seven
+title: Under Seven Over Seven
 equipment: Dice game
 date created: 2024-12-18
-date modified: 2025-02-03
+date modified: 2025-02-16
+aliases: [Under Seven Over Seven]
+linter-yaml-title-alias: Under Seven Over Seven
 ---
-
+# Under Seven Over Seven
 Under Seven or Over Seven is a simple dice game that used to be played in England as an (illegal) attraction at race courses or fairs.[@ChelseaBuns]
 
 It is sometimes simply known as “Unders and Overs”.[@UndersAndOvers] The earliest mention I have found of it in newspapers is from 1803.[@usos1803]

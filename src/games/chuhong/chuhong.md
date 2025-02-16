@@ -1,5 +1,5 @@
 ---
-title: Chú Hóng
+title: '<span lang="zh">除紅</span> · <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng</span>'
 titleLang: cmn-Latn-pinyin
 originalTitle: <span lang="zh">除紅</span>
 equipment: Dice game
@@ -7,10 +7,15 @@ players: any
 countries: CN
 mainImage: instructions.png
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases:
+  - '<span lang="zh">除紅</span> · <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng</span>'
+  - <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng</span>
+linter-yaml-title-alias: '<span lang="zh">除紅</span> · <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng</span>'
 ---
+# <span lang="zh">除紅</span> · <span lang="cmn-Latn-pinyin" class="noun">Chú Hóng</span>
 
-<span lang="cmn-Latn-pinyin" class="aka noun">Chú Hóng</span> (<span lang="zh" class="aka">除紅</span>, ‘exclude reds’) was a dice game played over 600 years ago in China. It apparently originated during the <a href="https://en.wikipedia.org/wiki/Liao_dynasty">Liao dynasty</a> (916-1125) of northern China and was popular during the <a href="https://en.wikipedia.org/wiki/Song_dynasty">Song</a> (960–1279); @PersonalLuck describes it as “perfected in Yuan times” (1279–1368).[@PsychologyChineseGambling p. 21] It has also been called <span lang="zh" class="aka">豬窩</span> ‘pigsty’ (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">zhū wō</span>),[@PsychologyChineseGambling p. 23] <span lang="zh" class="aka">朱窩</span> ‘vermillion nest’ (same pronunciation; ‘vermillion’ and ‘pig’ are homophones), or <span lang="zh" class="aka">豬婆龍</span> ‘dragon sow’, a name of the <a href="https://en.wikipedia.org/wiki/Chinese_alligator">Chinese alligator</a>.[@KKChuhong]
+<span lang="cmn-Latn-pinyin" class="aka noun">Chú Hóng</span> (<span lang="zh" class="aka">除紅</span>, ‘exclude reds’) was a dice game played over 600 years ago in China. It apparently originated during the <a href="https://en.wikipedia.org/wiki/Liao_dynasty">Liao dynasty</a> (916-1125) of northern China and was popular during the <a href="https://en.wikipedia.org/wiki/Song_dynasty">Song</a> (960–1279); @PersonalLuck describes it as “perfected in Yuan times” (1279–1368).[@PsychologyChineseGambling p. 21] It has also been called <span lang="zh" class="aka">豬窩</span> ‘pigsty’ (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">zhū wō</span>),[@PsychologyChineseGambling p. 23] <span lang="zh" class="aka">朱窩</span> ‘vermillion nest’ (same pronunciation; ‘vermillion’ and ‘pig’ are homophones), or <span lang="zh" class="aka">豬婆龍</span> ‘dragon sow’ — a name for the <a href="https://en.wikipedia.org/wiki/Chinese_alligator">Chinese alligator</a>.[@KKChuhong]
 
 ## History
 
@@ -35,13 +40,12 @@ The instructional text forms part of the <span lang="zh">說郛</span> [<span la
 
 [^fn1]: See @ChuHong for a 1646 edition.
 
-{/*
-See:
-- https://www.digital.archives.go.jp/img/3743276, No. 4, pg. 53
-- https://www.digital.archives.go.jp/img/629453, No. 11, pg. 2
-- https://www.digital.archives.go.jp/img/4426763, No. 10, pg. 10 (note that previous game is Liubo!)
-
-*/}
+> [!todo]
+>
+> See:
+> - https://www.digital.archives.go.jp/img/3743276, No. 4, pg. 53
+> - https://www.digital.archives.go.jp/img/629453, No. 11, pg. 2
+> - https://www.digital.archives.go.jp/img/4426763, No. 10, pg. 10 (note that previous game is Liubo!)
 
 For reference purposes, an example reproduction of this book can be found in @CompleteCollectionOfBooksContinued102 [p. 609–20] and the transcribed text of the <span lang="cmn-Latn-pinyin" class="noun">Sìkù Quánshū</span> version can be seen on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102).
 

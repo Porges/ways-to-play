@@ -320,6 +320,7 @@ pub struct Patent {
 pub struct Thesis {
     #[serde(flatten)]
     pub common: Common,
+    pub subtitle: Option<String>,
     pub genre: Option<String>,
     pub issued: Date,
     pub volume: Option<u32>,

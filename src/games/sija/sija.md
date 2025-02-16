@@ -1,12 +1,17 @@
 ---
-title: Sīja
+title: <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
 titleLang: ar-Latn
-originalTitle: <span lang="ar">سيجة</span> 
+originalTitle: <span lang="ar">سيجة</span>
 draft: true
 countries: EG
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-16
+aliases:
+  - <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
+  - <span lang="ar-Latn" class="noun">Sīja</span>
+linter-yaml-title-alias: <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
 ---
+# <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
 
 > [!figure]
 > 
@@ -19,11 +24,10 @@ date modified: 2025-01-23
 >
 > Men playing Sīja in the 1940s. Image from @HarvardCamp.
 
-{/*
-Copyright was never renewed, so this is public domain: https://onlinebooks.library.upenn.edu/webbin/cinfo/archaeology
-
-Anything published before January 1, 1964 and whose copyright was not renewed is in the public domain. –https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/United_States#General_rules
-*/}
+> [!todo]
+> 
+> Copyright was never renewed, so this is public domain: https://onlinebooks.library.upenn.edu/webbin/cinfo/archaeology
+> Anything published before January 1, 1964 and whose copyright was not renewed is in the public domain. –https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/United_States#General_rules
 
 This game is usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources, rarely <span lang="ar-Latn" class="noun aka">Seejeh</span>[@Keats_2 p. 97] or <span lang="ar-Latn" class="noun aka">Sutreng</span>.[@Keats_2 p. 97][^fn0]
 

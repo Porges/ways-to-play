@@ -146,7 +146,7 @@ NineMensDice:
     - family: Schädler
       given: Ulrich
   page: 112-116
-  URL: http://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=109
+  URL: https://bgsj.ludus-opuscula.org/PDF_Files/BGS3-complete.pdf#page=109
   in: &bgs3
     title: Board Games Studies
     volume: 3
@@ -173,7 +173,7 @@ Ascher87:
     - family: Ascher
       given: Marcia
   page: 90-100
-  URL: http://www.jstor.org/stable/2690304
+  URL: https://www.jstor.org/stable/2690304
   in:
     title: Mathematics Magazine
     volume: 60
@@ -190,7 +190,7 @@ Best17:
       given: Elsdon
       url: https://en.wikipedia.org/wiki/Elsdon_Best
   page: 14-15
-  URL: http://www.jstor.org/stable/2788164
+  URL: https://www.jstor.org/stable/2788164
   in:
     title: Man
     volume: 17
@@ -205,7 +205,7 @@ Straffin95:
       family: Straffin
       suffix: Jr.
   page: 382-386
-  URL: http://www.jstor.org/stable/2690929
+  URL: https://www.jstor.org/stable/2690929
   in:
     title: Mathematics Magazine
     volume: 68
@@ -221,7 +221,7 @@ Straffin95_2:
       family: Straffin
       suffix: Jr.
   page: 65
-  URL: http://www.jstor.org/stable/2691405
+  URL: https://www.jstor.org/stable/2691405
   in:
     title: Mathematics Magazine
     volume: 69
@@ -250,7 +250,7 @@ Newell59:
     - family: Newell
       given: W. H.
   page: 29-30
-  URL: http://www.jstor.org/stable/2796540
+  URL: https://www.jstor.org/stable/2796540
   in:
     title: Man
     volume: 59
@@ -291,7 +291,7 @@ Hackler86:
     - family: Hackler
       given: Rhoda E. A.
   page: 1–12
-  URL: http://hdl.handle.net/10524/548
+  URL: https://hdl.handle.net/10524/548
   in:
     title: The Hawaiian Journal of History
     volume: 20
@@ -305,7 +305,7 @@ Jackson92:
     - family: Jackson
       given: Frances
   page: 45–54
-  URL: http://hdl.handle.net/10524/200
+  URL: https://hdl.handle.net/10524/200
   in:
     title: The Hawaiian Journal of History
     volume: 26
@@ -434,7 +434,7 @@ SomaliGames:
     - family: Marin
       given: G.
   page: 499-511
-  URL: http://www.jstor.org/stable/2843934
+  URL: https://www.jstor.org/stable/2843934
   in:
     title: The Journal of the Royal Anthropological Institute of Great Britain and
       Ireland
@@ -504,7 +504,7 @@ CulinHawaiian:
   author:
   - *Stewart_Culin
   page: 201-247
-  URL: http://www.jstor.org/stable/658394
+  URL: https://www.jstor.org/stable/658394
   in:
     title: American Anthropologist
     volume: 1 # TODO (New Series)
@@ -518,7 +518,7 @@ CulinPhilippine:
   author:
   - *Stewart_Culin
   page: 643–656
-  URL: http://www.jstor.org/stable/659313
+  URL: https://www.jstor.org/stable/659313
   in:
     title: American Anthropologist (New Series)
     volume: 2
@@ -1773,7 +1773,7 @@ Figmill:
     - family: Heist
       given: William W.
   page: 303–306
-  URL: http://www.jstor.org/stable/536157
+  URL: https://www.jstor.org/stable/536157
   in:
     publisher: American Folklore Society
     title: The Journal of American Folklore
@@ -1900,7 +1900,7 @@ SportsAndGamesOfSinghalese:
     - family: Ludovici
       given: Leopold
   page: 17–41
-  URL: http://hdl.handle.net/2027/mdp.39015020463454&view=1up&seq=41
+  URL: https://hdl.handle.net/2027/mdp.39015020463454&view=1up&seq=41
   in:
     publisher: Ceylon Times Press
     publisher-place: Colombo, Sri Lanka
@@ -4706,7 +4706,7 @@ CelebratingCricket:
     - given: Frank E.
       family: Manning
   page: 616–632
-  URL: http://www.jstor.org/stable/644305
+  URL: https://www.jstor.org/stable/644305
   in:
     title: American Ethnologist
     volume: 8
@@ -5069,7 +5069,7 @@ ModernEgyptians:
 AdjiBoto:
   type: article-journal
   title: Adjiboto, an African Game of the Bush-Negroes of Dutch Guiana
-  URL: http://www.jstor.org/stable/2789486
+  URL: https://www.jstor.org/stable/2789486
   author:
     - &MJ_Herskovits
       given: Melville J.
@@ -6077,7 +6077,7 @@ GameOfLeaves:
   author:
   - *Andrew_Lo
   page: 389–406
-  URL: http://www.jstor.org/stable/1559494
+  URL: https://www.jstor.org/stable/1559494
   in:
     title: Bulletin of the School of Oriental and African Studies, University of
       London
@@ -6689,7 +6689,8 @@ DrawingTheNumbersForTheBankTicket:
 BettingOnEmpire:
   type: thesis
   URL: https://web.archive.org/web/20160221195946id_/http://openscholarship.wustl.edu/cgi/viewcontent.cgi?article=1662&context=art_sci_etds
-  title: "Betting on Empire: A Socio-Cultural History of Gambling in Late-Qing China"
+  title: Betting on Empire
+  subtitle: A Socio-Cultural History of Gambling in Late-Qing China
   author:
     - given: En
       family: Li
@@ -7683,7 +7684,7 @@ InnerTempleMasque:
       family: Middleton
       url: https://en.wikipedia.org/wiki/Thomas_Middleton
   issued: 1619
-  URL: http://name.umdl.umich.edu/A07503.0001.001
+  URL: https://name.umdl.umich.edu/A07503.0001.001
   publisher: Iohn Brovvne
   publisher-place: London
 GreekEnglishLexicon:
@@ -7916,7 +7917,7 @@ SocialHeat:
     - given: Hans
       family: Steinmüller
       lang: de
-  URL: http://www.jstor.org/stable/23011371
+  URL: https://www.jstor.org/stable/23011371
   page: 263–280
   in:
     title: The Journal of the Royal Anthropological Institute
@@ -8822,7 +8823,7 @@ EthnographicPsychology:
     - given: Graham R.
       family: Davidson
   page: 270–294
-  URL: http://www.jstor.org/stable/40332212
+  URL: https://www.jstor.org/stable/40332212
   in:
     title: Oceania
     volume: 49
@@ -9077,7 +9078,7 @@ CulinMahjong:
   author:
   - *Stewart_Culin
   page: 153–168
-  URL: http://www.jstor.com/stable/26460002
+  URL: https://www.jstor.com/stable/26460002
   in:
     title: The Brooklyn Museum Quarterly
     volume: 11
@@ -9292,7 +9293,7 @@ PatternChangesChanges:
     - given: Anthony J.
       family: Pickles
   issued: 2013
-  URL: http://hdl.handle.net/10023/3389
+  URL: https://hdl.handle.net/10023/3389
   publisher: University of St Andrews
   publisher-place: St Andrews, Fife, Scotland
 WaitingForCompany:
@@ -10086,7 +10087,7 @@ PhilipSkippon:
   volume: 6
 EncycloBasset:
   type: webpage
-  URL: http://hdl.handle.net/2027/spo.did2222.0001.115
+  URL: https://hdl.handle.net/2027/spo.did2222.0001.115
   archive-URL: https://web.archive.org/web/20230517033917/https://quod.lib.umich.edu/d/did/did2222.0001.115?view=text;rgn=main
   title: Basset
   author:
@@ -10721,7 +10722,7 @@ MoneyGames:
 KeepingEqual:
   type: article-journal
   title: 'On Keeping Equal: Polity and Reciprocity among the New Guinea Wape'
-  URL: http://www.jstor.org/stable/3317120
+  URL: https://www.jstor.org/stable/3317120
   page: 4-15
   author:
   - given: William E.
@@ -12190,7 +12191,7 @@ HunterGatherersState:
   genre: PhD thesis
   publisher: Australian National University
   publisher-place: Canberra, ACT, Australia
-  URL: http://hdl.handle.net/1885/116808
+  URL: https://hdl.handle.net/1885/116808
   issued:
     month: 4
     year: 1982
@@ -12943,7 +12944,7 @@ SomeNotesMalayCardGames:
   - &RO_Winstedt
     given: R. O.
     family: Winstedt
-  URL: http://www.jstor.org/stable/41561623
+  URL: https://www.jstor.org/stable/41561623
   page: 85-88
   in:
     title: Journal of the Straits Branch of the Royal Asiatic Society
@@ -12987,7 +12988,7 @@ VocabularyDusun:
   - given: H. L. E.
     family: Luering
   page: 1-29
-  URL: http://www.jstor.org/stable/41561584
+  URL: https://www.jstor.org/stable/41561584
   in:
     title: Journal of the Straits Branch of the Royal Asiatic Society
     volume: 30
@@ -13247,7 +13248,7 @@ TheHistoryOfCardGames:
 HowToPlayChiki:
   title: How To Play Chiki
   type: webpage
-  URL: http://hdl.handle.net/2196/00-0000-0000-0012-A2F9-1
+  URL: https://hdl.handle.net/2196/00-0000-0000-0012-A2F9-1
   archive-URL: https://web.archive.org/web/20231107072932/https://www.elararchive.org/uncategorized/SO_6887d9a4-3c0f-4aff-8d8a-65610aa4682c/
   container-title: Endangered Languages Archive
   issued:
@@ -13646,7 +13647,7 @@ MamlukRemarks:
   - given: Kamal
     family: Abu-Deeb
   page: 106-128
-  URL: http://www.jstor.org/stable/751160
+  URL: https://www.jstor.org/stable/751160
   in:
     title: Journal of the Warburg and Courtald Institutes
     volume: 36
@@ -13947,7 +13948,7 @@ AboriginalCattleStation:
       family: Fisk
     issued: 1982
     ISBN: "0909150796"
-    URL: http://hdl.handle.net/1885/210161
+    URL: https://hdl.handle.net/1885/210161
     publisher: Development Studies Centre, Australian National University
     publisher-place: Canberra, Australia
     series:
@@ -13991,7 +13992,7 @@ LaneMorra:
   type: webpage
   title: "Arabic–English Lexicon by Edward William Lane (d. 1876): <span lang='ar'>خرج</span>"
   container-title: The Arabic Lexicon
-  URL: http://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/#f01499
+  URL: https://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/#f01499
   archive-URL: https://web.archive.org/web/20240109002154/http://arabiclexicon.hawramani.com/%d8%ae%d8%b1%d8%ac/#f01499
   author:
   - *Ikram_Hawramani
@@ -18137,7 +18138,7 @@ CommerceOfTime:
   author:
   - given: Ashley
     family: Powers
-  URL: http://rave.ohiolink.edu/etdc/view?acc_num=osu1469089012
+  URL: https://rave.ohiolink.edu/etdc/view?acc_num=osu1469089012
   genre: PhD thesis
   issued: 2016
   publisher: Ohio State University
@@ -19343,7 +19344,7 @@ ChicagoBans26:
 CatalogueBalinese2:
   type: book
   title: Catalogue of Balinese manuscripts in the library of the University of Leiden and other collections in the Netherlands
-  URL: http://hdl.handle.net/1887.1/item:112189
+  URL: https://hdl.handle.net/1887.1/item:112189
   author:
   - given: H. I. R.
     family: Hinzler
@@ -19832,7 +19833,7 @@ Lacombe3:
 Watts1958:
   type: article-journal
   title: The <cite lang="fr">Encyclopédie Méthodique</cite>
-  URL: http://www.jstor.org/stable/460254
+  URL: https://www.jstor.org/stable/460254
   author:
   - given: George B.
     family: Watts
@@ -20153,7 +20154,7 @@ AutonomyAndRelatedness:
   publisher: Australian National University
   publisher-place: Canberra, Australia
   title: 'Autonomy and Relatedness: an ethnography of Wik people of Aurukun, Western Cape York Peninsula'
-  URL: http://hdl.handle.net/1885/10999
+  URL: https://hdl.handle.net/1885/10999
   notes: Section on gambling, page 129 onwards.
 CliffordMalay3:
   type: book

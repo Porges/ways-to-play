@@ -2,8 +2,11 @@
 title: Hazard
 equipment: Dice game
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases: [Hazard]
+linter-yaml-title-alias: Hazard
 ---
+# Hazard
 
 <span class="aka">Hazard</span> is a very old dice game — in fact, it was the name of the game before the word “hazard” meant anything else in English, and the modern meaning of the word is derived from the <em>hazardous</em> nature of the game. It has also been spelled <span class="aka">Hasard</span>, <span class="aka">Hassard</span>, or <span class="aka">Hazzard</span>.
 

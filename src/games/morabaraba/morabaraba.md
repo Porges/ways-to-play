@@ -1,19 +1,22 @@
 ---
-title: Morabaraba
-titleLang: st
+title: <span lang="st" class="noun">Morabaraba</span>
 players: 2
 equipment: Board game (simple equipment)
 countries: ZA,LS,BW,MZ,SZ,ZW
-mainImage: '16908233_1262123897217460_4095342219718819840_n.jpg'
+mainImage: 16908233_1262123897217460_4095342219718819840_n.jpg
 hero:
-  image: '16908233_1262123897217460_4095342219718819840_n.jpg'
+  image: 16908233_1262123897217460_4095342219718819840_n.jpg
   copyrightYear: 2017
-  author: "mk11photography"
-  license: "with-permission"
-  originalUrl: "https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624"
+  author: mk11photography
+  license: with-permission
+  originalUrl: https://www.facebook.com/mosqk11photography/photos/a.138455416598153/261924027584624
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-16
+aliases:
+  - <span lang="st" class="noun">Morabaraba</span>
+linter-yaml-title-alias: <span lang="st" class="noun">Morabaraba</span>
 ---
+# <span lang="st" class="noun">Morabaraba</span>
 
 > [!figure]
 >

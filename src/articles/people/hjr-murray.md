@@ -58,7 +58,7 @@ or <i>saddeh</i> refer to simple mills, not the ‘running mill’ formation.
 >
 > <strong>3.5.32</strong> (p. 48): citation could be misleading there are two articles by Goddard, @Goddard1901 has no reference to Trique.
 
-**§4.9.3** (p. 94): Murray mistakenly suggests that <span lang="ms">tjeki</span> (i.e. {%a ceki%}) is the same as the game <span lang="ms">chuki</span>.
+**§4.9.3** (p. 94): Murray mistakenly suggests that <span lang="ms">tjeki</span> (i.e. [Ceki](articles/cards/ceki/ceki.md)) is the same as the game <span lang="ms">chuki</span>.
 
 ### “Books and articles consulted”
 
