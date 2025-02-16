@@ -19,7 +19,7 @@ pub struct RenderedEntry {
     pub name_key: String,
 
     pub reference: Markup,
-    pub inline_cite: Option<Markup>,
+    pub inline_cite: Option<Box<dyn Fn(Option<&str>) -> Markup + Send + Sync>>,
     pub url: Option<String>,
 }
 
@@ -63,9 +63,19 @@ pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
     result
 }
 
-fn inline_cite(reference: &Reference) -> Option<Markup> {
+fn inline_cite(reference: &Reference) -> Option<Box<dyn Fn(Option<&str>) -> Markup + Send + Sync>> {
     match &reference {
-        Reference::Book(book) => Some(render_lstr_cite(&book.common.title, None, None, None)),
+        Reference::Book(book) => {
+            let before = render_lstr_cite(&book.common.title, None, None, None);
+            Some(Box::new(move |info: Option<&str>| -> Markup {
+                html! {
+                    (before)
+                    @if let Some(info) = info {
+                        " (" (info) ")"
+                    }
+                }
+            }))
+        }
         Reference::JournalArticle(JournalArticle {
             common: Common { author, .. },
             periodical: Periodical { issued, .. },
@@ -93,10 +103,21 @@ fn inline_cite(reference: &Reference) -> Option<Markup> {
             ..
         }) if !author.is_empty() => {
             let a = author.first().unwrap();
-            Some(html! {
+            let before = html! {
                 (a.family.as_deref().unwrap_or(&a.given))
-                " (" (issued.year()) ")"
-            })
+                " (" (issued.year())
+            };
+
+            let after = html! { ")" };
+            Some(Box::new(move |info: Option<&str>| {
+                html! {
+                    (before)
+                    @if let Some(info) = info {
+                        ", " (info)
+                    }
+                    (after)
+                }
+            }))
         }
         _ => None,
     }

@@ -173,38 +173,35 @@ The same rhyme and name were also used for an unrelated game, using a circular b
 
 There seems to be a distinction we can draw between languages that have folkish names and those that have more functional names derived from the outward appearance or goal of the game.
 
-{% aside %}@SkeatTitTatTo also gives the Frisian name “<span
-lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but
-after examining his source,[@Koolman p. 410] it is the name of a different game
-similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with
-its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>.
-Interestingly, “<span lang="id" class="aka">Tik-Tak-Tuk</span>” is also the name of the game in Indonesian.{% endaside %}
+> [!aside]
+>
+> @SkeatTitTatTo also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but after examining his source,[@Koolman p. 410] it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “<span lang="id" class="aka">Tik-Tak-Tuk</span>” is also the name of the game in Indonesian.
 
 In the ‘folkish’ group we have examples like the Dutch ‘<span lang="nl" class="aka">tik tak tol</span>’,[@Fiske p. 122] or ‘<span class="aka" lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and the Swedish ‘<span lang="sv" class="aka">tripp, trapp, trull</span>’.[@Fiske p. 137]
 
 Like the English names, one Dutch name (<span lang="nl" class="aka">boter, melk, kaas</span>) is derived from a rhyme:[@WinningWaysV3 p. 732]
 
-> [!multi]
-> 
-> > [!lang] nl
-> > 
-> > Boter, melk, kaas,\
-> > ik ben de baas.
->
-> Butter, milk, cheese,\
-> I am the boss.
+> > [!multi]
+> >
+> > > [!lang] nl
+> > >
+> > > Boter, melk, kaas,\
+> > > ik ben de baas.
+> >
+> > Butter, milk, cheese,\
+> > I am the boss.
 
 Sweden had a similar rhyme:[@GamesOfTheGods p. 163]
 
-> [!multi]
->
-> > [!lang] sv
+> > [!multi]
+> >
+> > > [!lang] sv
+> > >
+> > > Tripp, trapp, trull,\
+> > > min kvarn är full.
 > >
 > > Tripp, trapp, trull,\
-> > min kvarn är full.
->
-> Tripp, trapp, trull,\
-> my mill is full.
+> > my mill is full.
 
 In the ‘functional’ group of names are those like the Arabic <span lang="ar" class="aka">لعبة إكس-أو</span> ‘the <i>X</i>–<i>O</i> game’; or the Chinese <span lang="zh" class="aka">圈圈叉叉</span> ‘circles &amp; crosses’, or <span lang="zh" class="aka">井字棋</span> ‘<code>井</code> character game’.
 
@@ -306,7 +303,7 @@ From this it can be seen that the game is the same as tic-tac-toe. Each row, col
 
 ### <span class="aka">JAM</span>
 
-This is another isomorphic variant invented by John Michon.[@TheGameOfJAM] It is the [projective geometry dual](https://en.wikipedia.org/wiki/Duality_(projective_geometry)) of the standard game, where each cell is replaced by a line and each winning line by a point, in such a way that each cell-line intersects the appropriate winning-line points.  
+This is another isomorphic variant invented by John Michon.[@TheGameOfJAM] It is the [projective geometry dual](https://en.wikipedia.org/wiki/Duality_(projective_geometry)) of the standard game, where each cell is replaced by a line and each winning line by a point, in such a way that each cell-line intersects the appropriate winning-line points.
 
 If this is confusing, muse upon the following diagram: the red solid vertical line represents the middle cell of the Tic-Tac-Toe board; it crosses four points (winning lines). The four blue dashed lines are the corner cells, which cross three points (winning lines) each, and the four green dotted lines are the side-centre cells, which cross two points (winning lines) each.
 
@@ -326,7 +323,7 @@ To play, players take turns claiming an entire line, which crosses several point
 
 Yet another isomorphic variant is played as follows:[@WinningWaysV3 p. 732]
 
-Write down the nine words ‘Spit’, ‘Not’, ‘So’, ‘Fat’, ‘Fop’, ‘As’, ‘If’, ‘In’, and ‘Pan’ on separate pieces of paper. The players take turns taking a single card. A player wins if they collect all the cards with a given letter (e.g.  ‘In’, ‘If’, and ‘Spit’ would win since these are all the words containing ‘i’).  
+Write down the nine words ‘Spit’, ‘Not’, ‘So’, ‘Fat’, ‘Fop’, ‘As’, ‘If’, ‘In’, and ‘Pan’ on separate pieces of paper. The players take turns taking a single card. A player wins if they collect all the cards with a given letter (e.g.  ‘In’, ‘If’, and ‘Spit’ would win since these are all the words containing ‘i’).
 
 This can be shown to be the same game in the following way (note that the number of letters in each word is the same as the number of lines that can be formed through that square):
 
@@ -393,7 +390,7 @@ This can be shown to be the same game in the following way (note that the number
 <span>S</span><span>O</span>
 </td>
 <td>
-<span>F</span><span>O</span><span>P</span> 
+<span>F</span><span>O</span><span>P</span>
 </td>
 <td>
 <strong>O</strong>

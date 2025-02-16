@@ -131,10 +131,6 @@ impl Converter<'_> {
                 .unwrap()
         });
 
-        static RE1: LazyLock<regex::Regex> = LazyLock::new(|| {
-            regex::Regex::new(r"\[@(?<id>(_|[^\s\p{P}])+)(\s+(?<what>[^\]]+))?\]").unwrap()
-        });
-
         let mut insert_ref = |id: &str| -> (String, String) {
             self.cite_count += 1;
             let cite_anchor = format!("cite-{}", self.cite_count);
@@ -173,6 +169,11 @@ impl Converter<'_> {
 
         let mut missing = Vec::new();
 
+        // parenthesized citations
+        static RE1: LazyLock<regex::Regex> = LazyLock::new(|| {
+            regex::Regex::new(r"\[@(?<id>(_|[^\s\p{P}])+)(\s+(?<what>[^\]]+))?\]").unwrap()
+        });
+
         let t1 = RE1.replace_all(&text, |m: &Captures<'_>| {
             let id = m.name("id").unwrap().as_str();
             if let Some(entry) = self.bibliography.get(id) {
@@ -203,6 +204,7 @@ impl Converter<'_> {
             }
         });
 
+        // inline citations
         static RE2: LazyLock<regex::Regex> = LazyLock::new(|| {
             regex::Regex::new(r"@(?<id>(_|[^\s\p{P}])+)(\s+\[(?<what>[^\]]+)\])?").unwrap()
         });
@@ -218,22 +220,22 @@ impl Converter<'_> {
                     span.citation.inline #(cite_anchor) {
                         @if let Some(inline_cite) = &entry.inline_cite {
                             a href={"#ref-" (id)} {
-                                (inline_cite)
+                                (inline_cite(what))
                             }
                         } @else {
                             a.index href={"#ref-" (id)} {
                                 "[" (ref_indicator) "]"
                             }
-                        }
 
-                        @if let Some(what) = what {
-                            " ("
-                            @if let Some(direct_link) = direct_link {
-                                a href=(direct_link) { (what) }
-                            } @else {
-                                (what)
+                            @if let Some(what) = what {
+                                " ("
+                                @if let Some(direct_link) = direct_link {
+                                    a href=(direct_link) { (what) }
+                                } @else {
+                                    (what)
+                                }
+                                ")"
                             }
-                            ")"
                         }
                     }
                 }
