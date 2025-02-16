@@ -15,10 +15,8 @@ Nine Men’s Morris is an ancient [mill game](articles/families/mill-games/mill-
 
 In addition to being a game, the board itself was used as some kind of talisman or symbol; @MerylsBoardEnigma [p. 330] collects nearly a thousand examples of inscribed mill boards from around the world. Many of these are in vertical positions on walls where they could not possibly have been used for games, and their purpose is at the moment not well understood.
 
-## Play
-
 > [!figure]
-> 
+>
 > ![People playing a large nine men’s morris game outdoors on a very large cloth with the board painted on it. They are playing on the grass surrounded by pavilions and onlookers.](9245498309_0bbb716a9e_o.jpg)
 >
 > ```yaml
@@ -32,6 +30,8 @@ In addition to being a game, the board itself was used as some kind of talisman 
 > ```
 >
 > A large-format Nine Men’s Morris game being played at a festival in Hungary.
+
+## Play
 
 > [!figure]
 >
@@ -49,7 +49,7 @@ The game (as most mill games) is split into two phases. During the first
 one of the vacant points on the board. Once all the pieces have been placed, the
 movement phase begins. In this part of the game, players take turns moving a
 single piece along a line to another vacant point. Once a player is reduced to
-three pieces, their pieces can ‘fly’ and move to any empty point on the board. 
+three pieces, their pieces can ‘fly’ and move to any empty point on the board.
 
 Throughout the game, each time a player forms a mill they remove any piece of
 their opponent’s that is not part of a mill. If all their opponent’s pieces are
@@ -68,7 +68,7 @@ When played on a board with diagonals, mills are not usually permitted to be mad
 > [!multi-extra-wide]
 >
 > > [!figure]
-> > 
+> >
 > > ![A weathered Nine Men’s Morris board scratched into a rock.](DSCF0525.jpg)
 > >
 > > ```yaml
@@ -76,8 +76,8 @@ When played on a board with diagonals, mills are not usually permitted to be mad
 > > ```
 > >
 > > A Nine Men’s Morris board of unknown age in the Roman Agora, Athens.
->  
-> 
+>
+>
 > > [!figure]
 > >
 > > ![](8238351242_37e76bbc44_o.jpg)
@@ -161,7 +161,7 @@ In France the game was in the past called <span lang="fr">marelles</span> (from
 which we get the English ‘merels’), probably deriving from a word meaning “small
 stone” or “token”.[^hopscotch]
 
-[^hopscotch]: The <span lang="fr">marelles</span> name currently refers to hopscotch, due to the stones tossed upon the diagram. 
+[^hopscotch]: The <span lang="fr">marelles</span> name currently refers to hopscotch, due to the stones tossed upon the diagram.
 
 > [!figure]
 >
@@ -173,7 +173,7 @@ stone” or “token”.[^hopscotch]
 > license: "cc0"
 > orgName: 'Bibliothèque nationale de France'
 > orgLang: "fr"
-> orgAbbr: 'BnF' 
+> orgAbbr: 'BnF'
 > ```
 >
 > Text of the French Templar rule from an early 14th-century manuscript edition (with quoted passage highlighted).
@@ -204,7 +204,7 @@ game through their contact with the Arabic-speaking world:[^chateau]
 It is unclear _why_ mill games were permitted by the Templars, but, reading the rest of the passage (not quoted above), the intent of the Rule seems to be to prevent playing games for money — bets were allowed to be placed on games, but only with worthless items such as wooden tent pegs. Viewed in this light, perhaps mill games were considered less susceptible to gambling, and therefore permissible.
 
 > [!todo]
-> 
+>
 >it has been suggested (?) that the tripartite board was taken as supportive of the trinity, or reminiscent of the First Temple of Jerusalem
 
 In 1283 it appeared in the Castilian king [Alfonso X](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile)’s <cite lang="es">Libro de los Juegos</cite> (<cite>Book of Games</cite>), where in addition to the standard game, rules for playing with dice are given ([see below](#with-dice)).
@@ -342,7 +342,7 @@ morrice in the Churchyard on Sundaie”.[@MetropoliticalVisitation p. 497]
 > > ```
 > >
 > > A Nine Men’s Morris board alongside what seems to be a [Daldøs](games/daldos/daldos.md) board, on a barrel-end from the wreck of the English warship ‘[Mary Rose](https://en.wikipedia.org/wiki/Mary_Rose)’ (1545).
-> 
+>
 > > [!figure]
 > >
 > > ![A peasant boy holding a Nine Men’s Morris board.](82-001079.jpg)
@@ -364,7 +364,7 @@ as [Twelve Men’s Morris](#twelve-mens-morris).[^dedoze]
 
 [^dedoze]: Rules for a game called <span lang="es">alquerque de doze</span>, sometimes translated as Twelve Men’s Morris, are given in Alfonso X’s <cite>Book of Games</cite>, but it describes a game of a different form.
 
-### Nomenclature 
+### Nomenclature
 
 Other English names for the game have included:
 
@@ -434,11 +434,11 @@ In other languages it has been called:
 * Urdu: <span lang="ur" class="aka">نو گوٹی</span> (<span lang="ur-Latn" class="aka">nau guṭī</span>) ‘nine pieces’[@GuptaD p. 145]
 
  > [!todo]
- > 
+ >
  > Germany runs a ‘world’ league, the “<span class="noun" lang="de">[Weltmühlespiel Dachverband](http://www.muehlespiel.eu/)</span>”.
 
 > [!todo]
-> Kannada:  https://www.youtube.com/watch?v=Cj_199Dl57c 
+> Kannada:  https://www.youtube.com/watch?v=Cj_199Dl57c
 
 [^fn3]: “Horse” is the usual term for a game piece.
 
@@ -452,7 +452,7 @@ In other languages it has been called:
 >
 > Persian: دوز نه تایی
 > dvz noh tʾyi
-> flat 9 triads 
+> flat 9 triads
 
 > [!figure]
 >
@@ -464,7 +464,7 @@ In other languages it has been called:
 > authorFamily: "Broadhurst"
 > copyrightYear: 2016
 > license: "with-permission"
-> originalUrl: "https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html" 
+> originalUrl: "https://ckenb.blogspot.com/2016/07/details-chateau-du-moulin.html"
 > ```
 >
 > A <span lang="fr">jeu du moulin</span> in the south-west wall of the <span class="noun" lang="fr">Château du Moulin</span> (<span class="noun" lang="fr">Loir-et-Cher</span>, France). Built between 1480–1501, this is a punny reference to the name of the original owner, <span class="noun" lang="fr">Philippe du Moulin</span>. There is another Three Men’s Morris board on the eastern wall, and the nearby <span class="noun" lang="fr">Château de Gien</span> has a similar motif.[@MerylsBoardEnigma p. 103]
@@ -572,7 +572,7 @@ Schädler offers the following interpretation:[@NineMensDice][^disagrees]
 
 1. During the placement phase, no mills may be made.
 2. During the movement phase, each player rolls three dice before moving a
-   piece. If they roll any of the special rolls <Dice>654</Dice>, <Dice>633</Dice>, <Dice>522</Dice>, or <Dice>411</Dice>, they may ‘fly’ a piece from anywhere on the board to complete a mill (or two mills). For any other result, the player moves as normal. 
+   piece. If they roll any of the special rolls <Dice>654</Dice>, <Dice>633</Dice>, <Dice>522</Dice>, or <Dice>411</Dice>, they may ‘fly’ a piece from anywhere on the board to complete a mill (or two mills). For any other result, the player moves as normal.
 
 
 ### <span id="lasker-morris">Lasker Morris</span>
@@ -589,40 +589,40 @@ With perfect play the game is a draw.[@SolvingLaskerMorris][@UltraStrongMorris]
 
 > [!todo]
 > ## Commerical Variants
-> 
+>
 > ### Mozog
-> 
+>
 > > [!aside]
 > >
 > > The game was originally patented (US [4,579,347](https://patents.google.com/patent/US4579347A)) in a slightly different form, with a more complex board. In this version each player had 14 pieces.
-> > 
+> >
 > > > [!figure]
 > >
 > > ![](mozog.svg)
 > >
 > > ```yaml
-> > 
+> >
 > > ```
 > >
 > > > The board from the patent was of a more complex construction, but with fewer squares. >
-> 
+>
 > > [!figure]
 > >
 > > ![](mozog-published.svg)
 > >
 > > The Mozog board as published has 7 nested squares, giving 56 points.
-> 
+>
 > [Mozog](https://boardgamegeek.com/boardgame/22075/mozog) is a variant created in
 > 1984 by Wilhelm Reman, and it is played on a custom board. Each player has 20
 > pieces, and play is as in Nine Men’s Morris except that mills may not be made
 > along the dotted lines on the board. The game is over when one player is reduced
 > to two pieces.
-> 
+>
 > ### Trencho
-> 
+>
 > Trencho was a variant published by Chad Valley in 1916 that was billed as “An
 > Australian War-Game as Played in the Camps & Trenches”.
-> 
+>
 > > [!figure]
 > >
 > > ![](trencho.svg)
@@ -632,18 +632,18 @@ With perfect play the game is a draw.[@SolvingLaskerMorris][@UltraStrongMorris]
 > > ```
 > >
 > > Trencho is played on a modified large mill board. The game was published with (at least) two different configurations.
-> 
+>
 > Trencho is played on a modified mill board where only two shortened diagonals
 > are present. Mills are called “trenches”.
-> 
+>
 > The game is played as usual except:
-> 
+>
 > * Upon forming a trench, a player may either remove an opponent’s piece or
 >   restore one of their own. If they replace a piece it may not complete a
 >   trench.
 > * A trench may not be formed again in the same position by the same three
 >   pieces.
-> 
+>
 > > [!figure]
 > >
 > > ![](nma_149016_ma45226671_trencho_board_game.jpg)

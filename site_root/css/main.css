@@ -1294,6 +1294,7 @@ iframe {
 p.informational {
     text-align: center;
     font-style: italic;
+    margin-bottom: .5lh;
 }
 
 /*** Forms ***/
@@ -1301,9 +1302,10 @@ p.informational {
 form.tidy {
     display: flex;
     flex-direction: column;
-    gap: .5rlh;
-    max-width: 80%; /* TODO: only on big enough screens */
+    gap: .5lh;
+    max-width: 80%;
     margin: auto;
+    margin-top: 2lh;
 
     & label {
         width: 100%;
@@ -1318,6 +1320,8 @@ form.tidy {
 
 @media (width <760px) {
     form.tidy {
+        max-width: 100%;
+
         & label {
             flex-direction: column;
         }

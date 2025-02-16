@@ -8,7 +8,7 @@ linter-yaml-title-alias: Francis Willughby’s <cite>Book of Games</cite> (1665�
 ---
 # Francis Willughby’s <cite>Book of Games</cite> (1665–70)
 
-<a href="https://en.wikipedia.org/wiki/Francis_Willughby">Francis Willughby</a>’s <cite>Book of Games</cite> is an unfinished and unpublished manuscript written by the author in the years leading up to his death. It collects games played by both children and adults — some sections of the manuscript are written by an unidentified child, probably one of his children.
+<a href="https://en.wikipedia.org/wiki/Francis_Willughby">Francis Willughby</a>’s so-called <cite>“Book” of Games</cite> is really an unfinished and unpublished manuscript written by the author in the years leading up to his death. It collects games played by both children and adults — some sections of the manuscript are written by an unidentified child, probably one of his children.
 
 In the order given in the manuscript, the sections are:[^fn0]
 
@@ -33,7 +33,7 @@ In the order given in the manuscript, the sections are:[^fn0]
     - A New Cribbidge or Nodde
     - Double Hand Cribbidge
     - Ruffe & Trump
-    - Gleeke 
+    - Gleeke
     - Beast, or Le Beste
     - Loosing Lodum
     - Winning Loadum

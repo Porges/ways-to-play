@@ -15,8 +15,8 @@ use std::{
 use bib_render::RenderedBibliography;
 use clap::Parser;
 use eyre::{bail, eyre, Context, ContextCompat, OptionExt, Result};
+use icu::locid::LanguageIdentifier;
 use itertools::Itertools;
-use langtag::LangTagBuf;
 use markdown::{mdast, Constructs, ParseOptions};
 use maud::Markup;
 use notify::{
@@ -36,6 +36,7 @@ use walkdir::WalkDir;
 mod bib_render;
 mod bib_to_csl;
 mod bibliography;
+mod intl;
 mod mdast_to_html;
 mod nvec;
 mod templates;
@@ -338,7 +339,7 @@ impl ImageManifestEntry {
 }
 
 pub struct Aka {
-    pub language: LangTagBuf,
+    pub lang_id: LanguageIdentifier,
     pub word: Markup,
     pub url_path: String,
 }
@@ -671,7 +672,7 @@ impl Builder {
         article: &File<T>,
         url_lookup: &BTreeMap<String, Option<&str>>,
         article_tree: Option<&ArticleNode>,
-        aka_handler: impl Fn(LangTagBuf, Markup),
+        aka_handler: impl Fn(LanguageIdentifier, Markup),
     ) -> Result<OutputFile>
     where
         File<T>: ArticleMetadata + BaseMetadata,
@@ -758,10 +759,10 @@ impl Builder {
             .par_iter()
             .filter(|a| !a.is_draft() || self.output_drafts)
             .map(|article| {
-                let push_aka = |language: LangTagBuf, word: Markup| {
+                let push_aka = |language: LanguageIdentifier, word: Markup| {
                     if self.output_drafts || !article.is_draft() {
                         let aka = Aka {
-                            language,
+                            lang_id: language,
                             word,
                             url_path: article.url_path.to_string(),
                         };
@@ -777,10 +778,10 @@ impl Builder {
             .par_iter()
             .filter(|a| !a.is_draft() || self.output_drafts)
             .map(|game| {
-                let push_aka = |language: LangTagBuf, word: Markup| {
+                let push_aka = |language: LanguageIdentifier, word: Markup| {
                     if self.output_drafts || !game.is_draft() {
                         let aka = Aka {
-                            language,
+                            lang_id: language,
                             word,
                             url_path: game.url_path.to_string(),
                         };

@@ -1,12 +1,13 @@
-use std::{borrow::Cow, collections::BTreeMap};
+use std::borrow::Cow;
 
-use eyre::{Context, OptionExt, Result};
+use eyre::{Context, Result};
+use icu::locid::{subtags::Language, LanguageIdentifier};
 use itertools::Itertools;
-use langtag::LangTagBuf;
 use maud::{html, Markup, DOCTYPE};
 use time::macros::format_description;
 use url::Url;
 
+use crate::intl::INTL;
 use crate::{bib_render::RenderedBibliography, Aka, ArticleNode};
 
 pub struct Templater {
@@ -325,7 +326,7 @@ impl Templater {
 
     pub fn bibliography(&self, bib: &RenderedBibliography) -> Result<OutputFile> {
         let content = html! {
-            h1.page-title { span.simple itemprop="name" { "Bibliography of Traditional Games" } }
+            h1.page-title { span.simple itemprop="name" { "A Bibliography of Traditional Games" } }
             form.tidy {
                 label {
                     "Sort by:"
@@ -338,10 +339,10 @@ impl Templater {
                     }
                 }
             }
+            hr;
             p.informational {
                 (bib.len()) " works"
             }
-            hr;
             ul.reference-list #ref-list {
                 @for reference in bib.values() {
                     @let refs = 0; // TODO
@@ -354,7 +355,7 @@ impl Templater {
 
         self.base(
             &SimplePage::new(
-                "Bibliography of Traditional Games".to_string(),
+                "A Bibliography of Traditional Games".to_string(),
                 "/bibliography/".into(),
                 None, // TODO - bibliography modification date
             ),
@@ -493,44 +494,34 @@ impl Templater {
     }
 
     pub fn names_index(&self, akas: impl Iterator<Item = Aka>) -> Result<OutputFile> {
-        let name_of = |lang: &str| -> Result<(Markup, String)> {
-            let (name, english) = match lang {
-                "tws" => (html! { "Teochew" }, "Teochew".to_string()),
-                p => {
-                    let known = isolang::Language::from_639_1(p)
-                        .or_else(|| isolang::Language::from_639_3(p))
-                        .ok_or_else(|| eyre::eyre!("unknown language {:?}", p))?;
-
-                    let html = match known.to_autonym() {
-                        Some(auto) if auto != known.to_name() => {
-                            html! {
-                                (known.to_name())
-                                " · "
-                                span.noun lang=(p) { (auto) }
-                            }
+        let name_of = |lang: Language| -> Result<Markup> {
+            match INTL.english_name(lang) {
+                Some(name) => {
+                    if let Some(auto_name) = INTL.autonym(lang) {
+                        if auto_name != name {
+                            return Ok(
+                                html! { (name) " · " span.noun lang=(lang) { (auto_name) } },
+                            );
                         }
-                        _ => html! { (known.to_name()) },
-                    };
+                    }
 
-                    (html, known.to_name().to_string())
+                    Ok(html! { (name) })
                 }
-            };
-
-            Ok((
-                name,
-                format!("https://en.wikipedia.org/wiki/{}_language", english),
-            ))
+                None => {
+                    eyre::bail!("Unknown language: {}", lang)
+                }
+            }
         };
 
         struct LangGroup {
             lang_name: Markup,
             lang_link: String,
-            lang_tag: String,
+            lang_tag: Language,
             game_names: Vec<GameName>,
         }
 
         struct GameName {
-            lang_tag: LangTagBuf,
+            lang_id: LanguageIdentifier,
             aka: Markup,
             url: String,
         }
@@ -538,12 +529,9 @@ impl Templater {
         let mut lang_groups: Vec<LangGroup> = akas
             .map(|aka| {
                 Ok((
-                    aka.language
-                        .language()
-                        .ok_or_eyre("no language")?
-                        .to_string(),
+                    aka.lang_id.language,
                     GameName {
-                        lang_tag: aka.language,
+                        lang_id: aka.lang_id,
                         aka: aka.word,
                         url: aka.url_path,
                     },
@@ -554,11 +542,10 @@ impl Templater {
             .into_group_map()
             .into_iter()
             .map(|(l, game_names)| {
-                let (name, url) = name_of(&l)?;
                 Ok(LangGroup {
-                    lang_tag: l.to_string(),
-                    lang_name: name,
-                    lang_link: url,
+                    lang_name: name_of(l)?,
+                    lang_tag: l,
+                    lang_link: format!("https://en.wikipedia.org/wiki/ISO_639:{}", l),
                     game_names,
                 })
             })
@@ -587,7 +574,7 @@ impl Templater {
                 ul.columnarr {
                     @for game_name in group.game_names.into_iter().sorted_by_key(|gn| gn.aka.0.clone()) {
                         li {
-                            a href=(game_name.url) lang=(game_name.lang_tag) { (game_name.aka) }
+                            a href=(game_name.url) lang=(game_name.lang_id) { (game_name.aka) }
                             // TODO: need to link to exact location
                         }
                     }

@@ -10,6 +10,7 @@ use crate::{
         LString, MagazineArticle, NewspaperArticle, NumberOrString, Pagination, Periodical, Person,
         Reference, Thesis, WebPage,
     },
+    intl::INTL,
     nvec::OneOrMore,
 };
 
@@ -288,11 +289,11 @@ fn render_title(r: &Reference) -> Markup {
     };
 
     let additional_suffix = r.common().language.as_ref().map(|lang| {
-            html! {
-                "text in " (lang.to_name())
-                meta itemprop="inLanguage" content=(lang.to_639_1().unwrap_or_else(|| lang.to_639_3())) ;
-            }
-        });
+        html! {
+            "text in " (INTL.english_name(lang.language).unwrap())
+            meta itemprop="inLanguage" content=(lang);
+        }
+    });
 
     let rest = render_lstr_alt(
         &r.common().title,
@@ -422,7 +423,7 @@ fn render_lstr_just_span(
     item_prop: Option<&'static str>,
 ) -> Markup {
     html! {
-        span class=[class] itemprop=[item_prop] lang=[lstr.lang.as_deref()] {
+        span class=[class] itemprop=[item_prop] lang=[lstr.lang.as_ref()] {
             (maud::PreEscaped(&lstr.value))
         }
     }
@@ -469,7 +470,7 @@ fn render_lstr_just_cite(
     item_prop: Option<&'static str>,
 ) -> Markup {
     html! {
-        cite class=[class] itemprop=[item_prop] lang=[lstr.lang.as_deref()] {
+        cite class=[class] itemprop=[item_prop] lang=[lstr.lang.as_ref()] {
             (maud::PreEscaped(&lstr.value))
         }
     }

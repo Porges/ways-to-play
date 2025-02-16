@@ -1,7 +1,6 @@
 use std::{collections::BTreeMap, convert::Infallible, str::FromStr};
 
-use isolang::Language;
-use langtag::LangTagBuf;
+use icu::locid::LanguageIdentifier;
 use num_format::ToFormattedString;
 use serde::{
     de::{self, Visitor},
@@ -137,7 +136,7 @@ pub struct Common {
     #[serde(rename = "archive-URL")]
     pub archive_url: Option<String>,
 
-    pub language: Option<Language>,
+    pub language: Option<LanguageIdentifier>,
 
     pub notes: Option<String>,
     pub warnings: Option<String>,
@@ -508,7 +507,7 @@ impl Date {
 #[derive(Debug, Clone)]
 pub struct LString {
     pub value: String,
-    pub lang: Option<LangTagBuf>,
+    pub lang: Option<LanguageIdentifier>,
     pub alt: Option<String>,
 }
 
@@ -557,7 +556,7 @@ impl<'de> Deserialize<'de> for LString {
             where
                 A: de::MapAccess<'de>,
             {
-                let mut value = None;
+                let mut value: Option<String> = None;
                 let mut lang = None;
                 let mut alt = None;
 
@@ -575,7 +574,7 @@ impl<'de> Deserialize<'de> for LString {
                                 return Err(de::Error::duplicate_field("lang"));
                             }
 
-                            lang = match LangTagBuf::new(v) {
+                            lang = match LanguageIdentifier::try_from_bytes(v.as_bytes()) {
                                 Ok(l) => Some(l),
                                 Err(e) => return Err(de::Error::custom(e)),
                             };

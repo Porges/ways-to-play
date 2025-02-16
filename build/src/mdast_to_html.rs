@@ -1,9 +1,9 @@
 use std::{borrow::Cow, collections::BTreeMap, path::Path, sync::LazyLock};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
+use icu::locid::{langid, LanguageIdentifier};
 use indexmap::IndexMap;
 use itertools::Itertools;
-use langtag::LangTagBuf;
 use markdown::mdast::{
     AttributeContent, AttributeValue, Blockquote, MdxJsxFlowElement, MdxJsxTextElement, Node, Text,
     Yaml,
@@ -57,7 +57,7 @@ pub fn to_html(
     bibliography: &RenderedBibliography,
     images: &ImageManifest,
     url_lookup: &BTreeMap<String, Option<&str>>,
-    aka_handler: impl Fn(LangTagBuf, Markup),
+    aka_handler: impl Fn(LanguageIdentifier, Markup),
 ) -> Result<Markup> {
     let (fndefs, linkdefs) = locate_defs(node);
     Converter {
@@ -87,7 +87,7 @@ struct Converter<'a> {
     cite_count: usize,
     header_stack: Vec<usize>,
     url_lookup: &'a BTreeMap<String, Option<&'a str>>,
-    aka_handler: &'a dyn Fn(LangTagBuf, Markup),
+    aka_handler: &'a dyn Fn(LanguageIdentifier, Markup),
 }
 
 fn index_to_string(mut index: u32) -> String {
@@ -706,10 +706,10 @@ impl Converter<'_> {
                         .any(|(name, value)| *name == "class" && value.contains("aka"))
                 {
                     let lang_attr = find_attribute(&text.attributes, "lang")
-                        .map(|n| LangTagBuf::new(n.to_string()))
+                        .map(|n| LanguageIdentifier::try_from_bytes(n.as_bytes()))
                         .transpose()
-                        .wrap_err("invalid lang tag")?
-                        .unwrap_or_else(|| LangTagBuf::new("en".to_string()).unwrap());
+                        .map_err(|e| eyre!("invalid lang tag {e}"))?
+                        .unwrap_or_else(|| langid!("en"));
 
                     let markup = self.expand(&text.children)?;
                     (self.aka_handler)(lang_attr, markup);
