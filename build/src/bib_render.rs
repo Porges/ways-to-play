@@ -19,9 +19,12 @@ pub struct RenderedEntry {
     pub name_key: String,
 
     pub reference: Markup,
-    pub inline_cite: Option<Box<dyn Fn(&str, Option<Markup>) -> Markup + Send + Sync>>,
+    pub inline_cite: Option<InlineCiteRenderer>,
     pub url: Option<String>,
 }
+
+// takes the reference ID (for href) and the optional info (page number etc)
+pub type InlineCiteRenderer = Box<dyn Fn(&str, Option<Markup>) -> Markup + Send + Sync>;
 
 pub type RenderedBibliography = BTreeMap<String, RenderedEntry>;
 
@@ -63,9 +66,7 @@ pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
     result
 }
 
-fn inline_cite(
-    reference: &Reference,
-) -> Option<Box<dyn Fn(&str, Option<Markup>) -> Markup + Send + Sync>> {
+fn inline_cite(reference: &Reference) -> Option<InlineCiteRenderer> {
     match &reference {
         Reference::Book(Book { common, .. }) | Reference::Thesis(Thesis { common, .. }) => {
             // render only title, not subtitle
@@ -315,7 +316,7 @@ fn render_title(r: &Reference) -> Markup {
 
     let additional_suffix = r.common().language.as_ref().map(|lang| {
         html! {
-            "text in " (INTL.english_name(lang.language).unwrap())
+            "text in " (INTL.english_name(lang).unwrap())
             meta itemprop="inLanguage" content=(lang);
         }
     });

@@ -13,8 +13,7 @@ linter-yaml-title-alias: Hazard
 The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Spanish <span lang="es">azar</span> and Middle French <span lang="fr" class="aka">hasard</span>. The original game which was called <span lang="es">azar</span> in Alfonso X’s @AlfonsoGames (1283) used three dice; the version described here was at the time possibly called <span lang="es" class="aka">azar con dos dados</span>.[@GreedForGain 15]
 
 > [!todo]
-> Sometimes ‘hazard’ refers to the specific die roll of {%dice 44%}. 
-> CANNOT FIND MY SOURCE FOR THIS
+> Sometimes ‘hazard’ refers to the specific die roll of <Dice>44</Dice>... CANNOT FIND MY SOURCE FOR THIS
 
 The game described here has also been called <span class="aka">Crabs</span> or <span class="aka">Krabs</span>.[@TheorieDesJeuxDeHasard] Later French books seem to believe that the game was of English origin.[@TheorieDesJeuxDeHasard p. 8]
 
@@ -28,7 +27,7 @@ The <abbr class="initialism">OED</abbr> has a somewhat amusing definition of the
 A gambling game with two dice in which the chances are complicated by a number of arbitrary rules.
 </blockquote>
 
-Rules for the game appear in {%a hoyle,Hoyle’s%} from the 1775 Charles Jones edition,[^fn2] when Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
+Rules for the game appear in [Hoyle’s](articles/lists/hoyle.md) from the 1775 Charles Jones edition,[^fn2] when Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
 
 [^fn2]: The <abbr class="initialism">OED</abbr> cites the 1778 _Thomas_ Jones edition, but this is a later piracy of the Charles Jones version.
 

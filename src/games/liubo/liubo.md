@@ -1,13 +1,17 @@
 ---
-title: Liubo
+title: '<span lang="zh">六博</span> · Liubo'
 originalTitle: <span lang="zh">六博</span>
 draft: true
 players: 2
 equipment: Board game
 countries: CN
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-02-17
+aliases:
+  - '<span lang="zh">六博</span> · Liubo'
+linter-yaml-title-alias: '<span lang="zh">六博</span> · Liubo'
 ---
+# <span lang="zh">六博</span> · Liubo
 
 > [!figure]
 >
@@ -55,17 +59,17 @@ The “shamanistic” poem <span lang="cmn-Latn-pinyin" class="noun">Zhāo Hún<
 成梟而牟，呼五白些。
 </blockquote>
 
-{/*
-* FAKE (copilot) “The chessboard is covered with six kinds of pieces. They are divided into two armies, which advance and press each other. When the pieces are arranged in the shape of a bird, the five white pieces are called out.” (Witter Bynner)
-*/}
+> [!todo]
+> 
+> FAKE TRANSLATION (copilot) “The chessboard is covered with six kinds of pieces. They are divided into two armies, which advance and press each other. When the pieces are arranged in the shape of a bird, the five white pieces are called out.” (Witter Bynner)
 
 This is interpreted in several different ways by various translators:
 
-> With bamboo sticks and ivory draughtsmen,<br/>
-> There is the game <span lang="zh-Latn">liu-po</span>.<br/>
-> Dividing into groups and proceeding together,<br/>
-> Forcefully they threaten each other.<br/>
-> Having become <span lang="zh-Latn">hsiao</span> <span lang="zh">梟</span> (i.e., in the lead) and going to win double,<br/>
+> With bamboo sticks and ivory draughtsmen,\
+> There is the game <span lang="zh-Latn">liu-po</span>.\
+> Dividing into groups and proceeding together,\
+> Forcefully they threaten each other.\
+> Having become <span lang="zh-Latn">hsiao</span> <span lang="zh">梟</span> (i.e., in the lead) and going to win double,\
 > One shouts for the ‘five-white’ <span lang="zh">五白</span>…[@ANoteOnTheTLV p. 204]
 
 > Then with bamboo dice and ivory pieces the game of Liu Po is begun;<br/>

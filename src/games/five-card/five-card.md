@@ -6,8 +6,11 @@ subgames:
 - title: Bullfighting
   originalTitle: <span lang="yue">鬥牛</span>
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-17
+aliases: [Five Card]
+linter-yaml-title-alias: Five Card
 ---
+# Five Card
 
 <span class="aka">Five Card</span> is a game that is similar to the Japanese [Oicho Kabu](games/three-card-game/three-card-game.md#oicho-kabu). It is played both in Japan, where it probably originated, as well as amongst Aboriginal people in the north of Australia.
 
@@ -17,7 +20,7 @@ The Australian game is almost certainly — like other <span lang="ja-Latn">
 
 [^fn0]: Formerly ‘Bamyili’.
 
-Strong linguistic evidence for the Japanese origin of the Aboriginal game is the name used by the [Kunwinjku](https://en.wikipedia.org/wiki/Kunwinjku_people)[^fn1] people,[@HunterGatherersState p. 291] or other groups around [Maningrida](https://en.wikipedia.org/wiki/Maningrida,_Northern_Territory),[@CardGamesToPokerMachines p. 101] where this five-card variant of the game is called <span lang="gup" class="aka">butakat</span> or <span class="aka" lang="gup">buta</span>. This is not a Kunwinjku term,[^fn2] but the slang word for ‘zero’ amongst Japanese gamblers (see the [Oicho Kabu](games/three-card-game/three-card-game.md#oicho-kabu) article for more on Japanese terminology), and relates to an important aspect of the game.
+Strong linguistic evidence for the Japanese origin of the Aboriginal game is the name used by the [Kunwinjku](https://en.wikipedia.org/wiki/Kunwinjku_people)[^fn1] people,[@HunterGatherersState p. 291] or other groups around [Maningrida](https://en.wikipedia.org/wiki/Maningrida,_Northern_Territory),[@CardGamesToPokerMachines p. 101] where this five-card variant of the game is called <span lang="gup" class="aka">butakat</span> or <span class="aka" lang="gup">buta</span>. This is not a Kunwinjku term,[^fn2] but the slang word for ‘zero’ amongst Japanese gamblers (see the [Oicho Kabu](games/three-card-game/three-card-game.md#oicho-kabu) article for more on Japanese terminology), and relates to an important aspect of that game.
 
 [^fn1]: Formerly ‘Gunwinggu’.
 
@@ -31,7 +34,9 @@ See: @EthnographicPsychology
 
 [^fn3]
 
-[^fn3]: @CardGamesAmongAborigines also says that the Chinese name of the game is said to be <span lang="zh-Latn">luk luk fāt</span>. I have not been able to find a Chinese game under this name yet, but it could be something along the lines of <span lang="zh">祿祿發</span>/<span lang="zh">路路發</span>, with Cantonese pronunciation <span lang="yue-Latn-jyutping">luk⁶ luk⁶ fat¹</span>/<span lang="yue-Latn-jyutping">lou⁶ lou⁶ fat¹</span>, which is very similar to ‘668’ in pronunciation. This number is still used in the name of card game brands.{/* Could this be the source of the "sticks" game given in some places? */}
+[^fn3]: @CardGamesAmongAborigines also says that the Chinese name of the game is said to be <span lang="zh-Latn">luk luk fāt</span>. I have not been able to find a Chinese game under this name yet, but it could be something along the lines of <span lang="zh">祿祿發</span>/<span lang="zh">路路發</span>, with Cantonese pronunciation <span lang="yue-Latn-jyutping">luk⁶ luk⁶ fat¹</span>/<span lang="yue-Latn-jyutping">lou⁶ lou⁶ fat¹</span>, which is very similar to ‘668’ in pronunciation. This number is still used in the name of card game brands. 
+
+> [!todo] (Re above footnote, Could this be the source of the "sticks" game given in some places?)
 
 @CardGamesAmongAborigines [p. 250]  Also called "putkad" or "tent" (10).
 

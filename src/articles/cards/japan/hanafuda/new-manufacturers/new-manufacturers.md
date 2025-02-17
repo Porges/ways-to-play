@@ -93,6 +93,10 @@ available in a plain version, or one that has indices to aid new players.
 >
 > ![Five hanafuda cards drawn in a minimalistic but realistic style.](Hanami.jpg)
 >
+>```yaml
+> noborder: true
+> ```
+>
 > The five Bright cards of the <span class="noun" lang="ja-Latn">Hanami Hanafuda</span> deck.
 
 
@@ -152,19 +156,24 @@ are larger and longer than normal playing cards.
 
 ## [<span class="noun" lang="ja-Latn">NISHIKI</span> <span lang="ja">錦</span>](https://www.etsy.com/shop/nishikie)
 
-This redesign by <span class="noun" lang="ja-Latn">Hanako</span> of [estudio
-artes](http://www.estudio-artes.com/) produced the only 3-way standard/<span class="noun"
-lang="ja-Latn">Hanafuda</span>/<span class="noun" lang="ja-Latn">Kabufuda</span> deck that I
-know of, which is printed on poker-sized cards. There is also a <span class="noun"
+This redesign by <span class="noun" lang="ja-Latn">Hanako</span> of [estudio artes](http://www.estudio-artes.com/) produced the only 3-way standard/<span class="noun"
+lang="ja-Latn">Hanafuda</span>/<span class="noun" lang="ja-Latn">Kabufuda</span> deck that I know of, which is printed on poker-sized cards. There is also a <span class="noun"
 lang="ja-Latn">Hanafuda</span>-only deck, in a traditional format.
 
-{/* by Hanako: https://profile.ameba.jp/ameba/estudio-artes */}
+> [!todo]
+> by Hanako: https://profile.ameba.jp/ameba/estudio-artes 
 
 > [!figure]
 >
 > ![](NishikiFuda.jpg)
->
+> 
+> ```yaml
+> noborder: true
+> ```
+> 
 > The 5 Bright cards of the combination <span class="noun" lang="ja-Latn">Nishiki Fuda</span> deck. The cards from A–10 have Japanese numerals for use as <span class="noun" lang="ja-Latn">Kabufuda</span> cards.
+
+
 
 > [!figure]
 >

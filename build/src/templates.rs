@@ -1,7 +1,9 @@
 use std::borrow::Cow;
+use std::collections::HashMap;
+use std::sync::Arc;
 
 use eyre::{Context, Result};
-use icu::locid::{subtags::Language, LanguageIdentifier};
+use icu::locid::LanguageIdentifier;
 use itertools::Itertools;
 use maud::{html, Markup, DOCTYPE};
 use time::macros::format_description;
@@ -326,7 +328,11 @@ impl Templater {
         )
     }
 
-    pub fn bibliography(&self, bib: &RenderedBibliography) -> Result<OutputFile> {
+    pub fn bibliography(
+        &self,
+        bib: &RenderedBibliography,
+        mut cites: HashMap<String, Vec<Arc<(Markup, String)>>>,
+    ) -> Result<OutputFile> {
         let content = html! {
             h1.page-title { span.simple itemprop="name" { "A Bibliography of Traditional Games" } }
             form.tidy {
@@ -346,10 +352,23 @@ impl Templater {
                 (bib.len()) " works"
             }
             ul.reference-list #ref-list {
-                @for reference in bib.values() {
-                    @let refs = 0; // TODO
-                    li data-year=[&reference.iso_date] data-name=(reference.name_key) data-refs=(refs) {
+                @for (key, reference) in bib {
+                    @let cites = cites.remove(key);
+                    li
+                        data-year=[&reference.iso_date]
+                        data-name=(reference.name_key)
+                        data-refs=(cites.as_ref().map(|cs| cs.len()).unwrap_or_default())
+                    {
                         (reference.reference)
+                        @if let Some(cites) = cites {
+                            ul.backreferences {
+                                @for it in cites.into_iter().sorted_by_cached_key(|x| x.0.0.clone()) {
+                                    li {
+                                        a href=(it.1) { (it.0) }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -496,7 +515,7 @@ impl Templater {
     }
 
     pub fn names_index(&self, akas: impl Iterator<Item = Aka>) -> Result<OutputFile> {
-        let name_of = |lang: Language| -> Result<Markup> {
+        let name_of = |lang: &LanguageIdentifier| -> Result<Markup> {
             match INTL.english_name(lang) {
                 Some(name) => {
                     if let Some(auto_name) = INTL.autonym(lang) {
@@ -518,20 +537,20 @@ impl Templater {
         struct LangGroup {
             lang_name: Markup,
             lang_link: String,
-            lang_tag: Language,
+            lang_tag: LanguageIdentifier,
             game_names: Vec<GameName>,
         }
 
         struct GameName {
             lang_id: LanguageIdentifier,
             aka: Markup,
-            url: String,
+            url: Arc<String>,
         }
 
         let mut lang_groups: Vec<LangGroup> = akas
             .map(|aka| {
                 Ok((
-                    aka.lang_id.language,
+                    INTL.language_without_script(&aka.lang_id),
                     GameName {
                         lang_id: aka.lang_id,
                         aka: aka.word,
@@ -543,11 +562,14 @@ impl Templater {
             .into_iter()
             .into_group_map()
             .into_iter()
-            .map(|(l, game_names)| {
+            .map(|(lang_tag, game_names)| {
                 Ok(LangGroup {
-                    lang_name: name_of(l)?,
-                    lang_tag: l,
-                    lang_link: format!("https://en.wikipedia.org/wiki/ISO_639:{}", l),
+                    lang_name: name_of(&lang_tag)?,
+                    lang_link: format!(
+                        "https://en.wikipedia.org/wiki/ISO_639:{}",
+                        lang_tag.language
+                    ),
+                    lang_tag,
                     game_names,
                 })
             })
@@ -579,7 +601,7 @@ impl Templater {
             @for group in lang_groups {
                 h3 #(group.lang_tag) { a href=(group.lang_link) { (group.lang_name) } }
                 ul.columnarr {
-                    @let collator = INTL.collator_for(group.lang_tag);
+                    @let collator = INTL.collator_for(group.lang_tag.language);
                     @for game_name in group.game_names.into_iter().sorted_by(|a, b| collator.compare(&a.aka.0, &b.aka.0)) {
                         li {
                             a href={(game_name.url) "#:~:text=" (url_escape::encode(&game_name.aka.0, FRAGMENT_TEXT))}

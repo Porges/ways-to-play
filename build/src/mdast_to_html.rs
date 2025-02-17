@@ -16,6 +16,7 @@ use url::Url;
 
 use crate::{
     bib_render::{RenderedBibliography, RenderedEntry},
+    intl::INTL,
     ImageManifest, ImageManifestEntry,
 };
 
@@ -57,7 +58,8 @@ pub fn to_html(
     bibliography: &RenderedBibliography,
     images: &ImageManifest,
     url_lookup: &BTreeMap<String, Option<&str>>,
-    aka_handler: impl Fn(LanguageIdentifier, Markup),
+    mut aka_handler: impl FnMut(LanguageIdentifier, Markup),
+    mut cite_handler: impl FnMut(&str),
 ) -> Result<Markup> {
     let (fndefs, linkdefs) = locate_defs(node);
     Converter {
@@ -71,7 +73,8 @@ pub fn to_html(
         cite_count: 0,
         header_stack: Vec::new(),
         url_lookup,
-        aka_handler: &aka_handler,
+        aka_handler: &mut aka_handler,
+        cite_handler: &mut cite_handler,
     }
     .convert_whole(node)
 }
@@ -87,7 +90,8 @@ struct Converter<'a> {
     cite_count: usize,
     header_stack: Vec<usize>,
     url_lookup: &'a BTreeMap<String, Option<&'a str>>,
-    aka_handler: &'a dyn Fn(LanguageIdentifier, Markup),
+    aka_handler: &'a mut dyn FnMut(LanguageIdentifier, Markup),
+    cite_handler: &'a mut dyn FnMut(&str),
 }
 
 fn index_to_string(mut index: u32) -> String {
@@ -270,6 +274,10 @@ impl Converter<'_> {
             }
         };
 
+        for id in self.used_bib.keys() {
+            (self.cite_handler)(id);
+        }
+
         Ok(result)
     }
 
@@ -319,11 +327,8 @@ impl Converter<'_> {
                         Ok(abs) => Some(Cow::Owned(abs.into())),
                         Err(url::ParseError::RelativeUrlWithoutBase) => {
                             if let Some(dest) = self.url_lookup.get(path) {
-                                if let Some(actual_url) = dest {
-                                    Some(Cow::Borrowed(actual_url)) // not draft
-                                } else {
-                                    None // draft
-                                }
+                                // if dest is None it's a draft and we don't want to link to it
+                                dest.map(Cow::Borrowed)
                             } else {
                                 bail!("unknown relative URL: {}", path);
                             }
@@ -735,9 +740,8 @@ impl Converter<'_> {
                         .any(|(name, value)| *name == "class" && value.contains("aka"))
                 {
                     let lang_attr = find_attribute(&text.attributes, "lang")
-                        .map(|n| LanguageIdentifier::try_from_bytes(n.as_bytes()))
-                        .transpose()
-                        .map_err(|e| eyre!("invalid lang tag {e}"))?
+                        .map(|l| INTL.parse_lang_tag(l))
+                        .transpose()?
                         .unwrap_or_else(|| langid!("en"));
 
                     let markup = self.expand(&text.children)?;
@@ -768,6 +772,17 @@ impl Converter<'_> {
                     .map(|_| " noun")
                     .unwrap_or_default();
 
+                let class = find_attribute(&text.attributes, "class")
+                    .map(|c| format!(" {}", c))
+                    .unwrap_or_default();
+
+                let rendered_children = self.expand(&text.children)?;
+
+                if class.contains("aka") {
+                    let langid = INTL.parse_lang_tag(lang)?;
+                    (self.aka_handler)(langid, rendered_children.clone());
+                }
+
                 let file = find_attribute(&text.attributes, "file")
                     .map(|v| Ok(v.to_string()))
                     .unwrap_or_else(|| {
@@ -787,8 +802,8 @@ impl Converter<'_> {
 
                 html! {
                     audio preload="none" src={"/audio/" (file)} {}
-                    span class={"pronunciation" (noun)} lang=(lang) title=(title) onclick="this.previousSibling.play()" {
-                        (self.expand(&text.children)?)
+                    span class={"pronunciation" (noun) (class)} lang=(lang) title=(title) onclick="this.previousSibling.play()" {
+                        (rendered_children)
                     }
                 }
             }

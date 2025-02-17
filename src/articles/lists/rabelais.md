@@ -8429,18 +8429,16 @@ pinch his conk
 
 ## The list in depth
 
-{/* 
-tables games: https://gallica.bnf.fr/ark:/12148/bpt6k98003639.texteImage
-*/}
 
-{/* 
-
-images, including chapifou https://www.istockphoto.com/vector/rabelais-games-of-gargantua-jeu-du-chapifou-gm538491410-95775259
-
-from:
+> [!todo]
+>
+> tables games: https://gallica.bnf.fr/ark:/12148/bpt6k98003639.texteImage
+> 
+> images, including chapifou https://www.istockphoto.com/vector/rabelais-games-of-gargantua-jeu-du-chapifou-gm538491410-95775259
+> 
+> from:
 https://babel.hathitrust.org/cgi/pt?id=uc1.e0000012021&view=1up&seq=95
-
-*/}
+> 
 
 Commentators who have written about the games in the list include:
 

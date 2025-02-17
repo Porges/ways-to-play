@@ -44,16 +44,12 @@ Each time they roll one of their own symbols, they mark it with a token. A
 symbol can only be marked off once.
 
 The first time a player marks off one of their symbols, their opponent pays them
-1× the stake, the second time (called {%pronounce lang="fr" word="radoub"
-pronouncer="marois" %}, ‘refitting’ the ship), they are paid 2×, and the third
-time (called the <Pronounce lang="fr"  pronouncer="spl0uf">prise</Pronounce>,
-‘capture’), they win 4× the stake.
+1× the stake, the second time (called <Pronounce lang="fr" pronouncer="marois">radoub</Pronounce>, ‘refitting’ the ship), they are paid 2×, and the third
+time (called the <Pronounce lang="fr"  pronouncer="spl0uf">prise</Pronounce>, ‘capture’), they win 4× the stake.
 
 If they roll a symbol that is already marked off, they are paid 1× the stake.
 
-Each time they roll one of their opponent’s symbols, they pay them 1× the stake
-(this is called the <Pronounce lang="fr"  pronouncer="spl0uf">écueil</Pronounce>,
-‘reef’).
+Each time they roll one of their opponent’s symbols, they pay them 1× the stake (this is called the <Pronounce lang="fr"  pronouncer="spl0uf">écueil</Pronounce>, ‘reef’).
 
 If a player doesn’t manage to roll a single one of their own symbols in their
 three attempts, this is called <span lang="fr">naufrage</span> (‘shipwreck’),

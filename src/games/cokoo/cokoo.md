@@ -9,7 +9,7 @@ linter-yaml-title-alias: Cokoo
 ---
 # Cokoo
 
-<span lang="mnk" class="aka noun">Cokoo</span>[@MandinkaEnglish 12][@IntermediateGambian 23] (also written Chokō,[@AncientCeylon 604] Chukoo, or Chokoo[@ChokooGameVideo]) is a game from The Gambia; the name itself seems to be <a href="https://en.wikipedia.org/wiki/Mandinka_language">Mandinkan</a>. 
+<span lang="mnk" class="aka noun">Cokoo</span>[@MandinkaEnglish 12][@IntermediateGambian 23] (also written Chokō,[@AncientCeylon 604] Chukoo, or Chokoo[@ChokooGameVideo]) is a game from The Gambia; the name itself seems to be <a href="https://en.wikipedia.org/wiki/Mandinka_language">Mandinkan</a>.
 
 This game was first described in print in the early 20th century,[@AncientCeylon 604] and it is still played today.[@ChokooGameVideo] Sometimes it has been referred to as “African checkers”,[@LiberianTribes fig. 100] but that name is also used to refer to other games such as those of the [Mancala family](articles/families/mancala-games/mancala-games.md).
 
@@ -35,7 +35,7 @@ It is not stated by the key source, but presumably the players may also move a s
 
 ## Similar games
 
-[Yoote](games/yoote/yoote.md)  is a very similar game from neighbouring Senegal, which lacks the “dropping” phase of Chokoo. [Sīja](games/sija/sija.md) is also very similar but capture is by enclosure rather than jumping. [Kōnane](games/konane/konane.md) also has similar gameplay.
+[Yoote](games/yoote/yoote.md)  is a very similar game from neighbouring Senegal, which lacks the “dropping” phase of Chokoo. [Sīja](games/sija/sija.md) is also very similar but capture is by enclosure rather than jumping. [Kōnane](games/konane/konane.md) from Hawaiʻi also has similar jumping gameplay.
 
 ## See also
 

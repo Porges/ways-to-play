@@ -56,7 +56,7 @@ The cards (aside from the <Cards>K</Cards>s) are then collected and shuffled and
 
 ## <span lang="jv-Latn" id="thothit-yogya">Thothit Yogyakarta</span>
 
-A very similar game but played with [Ceki cards](articles/cards/ceki/ceki.md) is known in [Yogyakarta](https://en.wikipedia.org/wiki/Yogyakarta) as <span lang="jv-Latn" class="noun aka">Thothit</span>[^fn0] (there is also a different game which was called {% gameref thothit %} in Surakarta; see that article for details).
+A very similar game but played with [Ceki cards](articles/cards/ceki/ceki.md) is known in [Yogyakarta](https://en.wikipedia.org/wiki/Yogyakarta) as <span lang="jv-Latn" class="noun aka">Thothit</span>[^fn0] (there is also a different game which was called [<span lang="jv-Latn" class="noun">Thothit</span>](games/thothit/thothit.md) in Surakarta; see that article for details).
 
 [^fn0]: Older Romanizations spell this <span lang="jv-Latn" class="noun aka">Ṭoṭit</span>.
 

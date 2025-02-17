@@ -597,7 +597,7 @@ Oriental magpie, which is the national bird of Korea.
 > > size: "small"
 > > ```
 > >
-> > The <span lang="ko">무지개</span> ({% pronounce word="mujigae" lang="ko-Latn" file="pronunciation_ko_무지개.mp3" pronouncer="fairybel" %}, ‘rainbow’) brand <span class="noun" lang="ko-Latn">Hwatu</span> deck (on left) features a Korean magpie (<span lang="ko">까치</span> <Pronounce file="pronunciation_ko_까치.mp3" lang="ko-Latn" pronouncer="goeun" >kkachi</Pronounce>), instead of the usual lesser cuckoo as shown on the Daiso <span class="noun" lang="ko-Latn">Hwatu</span>-format deck.
+> > The <span lang="ko">무지개</span> (<Pronounce lang="ko-Latn" file="pronunciation_ko_무지개.mp3" pronouncer="fairybel">mujigae</Pronounce>, ‘rainbow’) brand <span class="noun" lang="ko-Latn">Hwatu</span> deck (on left) features a Korean magpie (<span lang="ko">까치</span> <Pronounce file="pronunciation_ko_까치.mp3" lang="ko-Latn" pronouncer="goeun" >kkachi</Pronounce>), instead of the usual lesser cuckoo as shown on the Daiso <span class="noun" lang="ko-Latn">Hwatu</span>-format deck.
 > 
 > > [!figure]
 > >
@@ -630,8 +630,8 @@ it now appears to be extinct.
 
 ### <span class="noun" lang="ja-Latn">Echigo-bana</span>
 
-The regional {% pronounce pronouncer="poyotan" word="Echigo-bana" lang="ja-Latn"
-file="pronunciation_ja_越後花.mp3" %} (<span lang="ja">越後花</span> ‘Echigo
+The regional <Pronounce pronouncer="poyotan" lang="ja-Latn"
+file="pronunciation_ja_越後花.mp3">Echigo-bana</Pronounce> (<span lang="ja">越後花</span> ‘Echigo
 flowers’) pattern is based on designs that are older than the standard pattern.
 The most obvious difference is that all the cards are overpainted with gold and
 silver in various patterns.
@@ -643,19 +643,13 @@ silver in various patterns.
 > The 5 Brights of the <span lang="ja-Latn">Echigo-bana</span> pattern, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
 
 Some of the <span lang="ja-Latn">kasu</span> cards also carry short poems (<span
-lang="ja">短歌</span> {%pronounce pronouncer="akitomo" word="tanka" lang="ja-Latn"
- file="pronunciation_ja_短歌.mp3" %}). Poetry is a common sight on traditional
-Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints
-above — and often provides more context to the images. The poems of the <span class="noun"
-lang="ja-Latn">Echigo-bana</span> will be examined in more detail below.
-
+lang="ja">短歌</span> <Pronounce pronouncer="akitomo" lang="ja-Latn" file="pronunciation_ja_短歌.mp3">tanka</Pronounce>). Poetry is a common sight on traditional Japanese art — as seen on the <span lang="ja-Latn">kachō-ga</span> prints above — and often provides more context to the images. The poems of the <span class="noun"
+lang="ja-Latn">Echigo-bana</span> will be examined in more detail below as part of examining the cards of the deck.
 ### <span class="noun" lang="ja-Latn">Echigo-kobana</span>
 
-The {% pronounce lang="ja-Latn" word="Echigo-kobana" file="pronunciation_ja_越後小花.mp3"
- pronouncer="poyotan" %} (<span lang="ja">越後小花</span> ‘Echigo small
-flowers’) pattern is similar to the <span class="noun" lang="ja-Latn">Echigo-bana</span>, but
-with very small cards measuring approximately 3&nbsp;cm × 4.5&nbsp;cm (1⅛″ ×
-1¾″).
+The <Pronounce lang="ja-Latn" file="pronunciation_ja_越後小花.mp3"
+ pronouncer="poyotan">Echigo-kobana</Pronounce> (<span lang="ja">越後小花</span> ‘Echigo small flowers’) pattern is similar to the <span class="noun" lang="ja-Latn">Echigo-bana</span>, but
+with very small cards measuring approximately 3&nbsp;cm × 4.5&nbsp;cm (1⅛″ × 1¾″).
 
 > [!figure]
 >
@@ -663,10 +657,7 @@ with very small cards measuring approximately 3&nbsp;cm × 4.5&nbsp;cm (1⅛″ 
 >
 > The 5 Brights of the <span lang="ja-Latn">Echigo-kobana</span> pattern, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
 
-Because of the small size, there are no poems on this deck. However, it does
-contain four extra cards. Any special rules for the deck, including the use of
-these extra cards, are unknown — <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> even
-includes a note with every deck sold asking for anyone who knows the rules to
+Because of the small size, there are no poems on this deck. However, it does contain four extra cards. Any special rules for the deck, including the use of these extra cards, are unknown — the manufacturer <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> even includes a note with every deck sold asking for anyone who knows the rules to
 contact them!
 
 > [!figure]
@@ -678,7 +669,6 @@ contact them!
 > ```
 >
 > The four extra cards of an <span lang="ja-Latn">Echigo-kobana</span> deck by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>.
-
 
 ### <span class="noun" lang="ja-Latn">Awa-­bana</span>/<span class="noun" lang="ja-Latn">Kintoki­-bana</span>
 
@@ -693,9 +683,7 @@ contact them!
 >
 > The <span class="noun" lang="ja-Latn">Kintoki</span> card, by <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>. He is depicted carrying an axe and wearing a shirt with the character <span lang="ja">金</span> (<span lang="ja-Latn">kin</span>, ‘gold’) on it.
 
-This is another regional pattern called <Pronounce lang="ja-Latn" pronouncer="poyotan" file="pronunciation_ja_阿波花.mp3">Awa-bana</Pronounce>
-(<span lang="ja">阿波花</span>) or <Pronounce lang="ja-Latn" pronouncer="poyotan" file='pronunciation_ja_金時花.mp3'>Kintoki­-bana</Pronounce>
-(<span lang="ja">金時花</span>). It originated in <span class="noun"
+This is another regional pattern called <Pronounce lang="ja-Latn" pronouncer="poyotan" file="pronunciation_ja_阿波花.mp3">Awa-bana</Pronounce> (<span lang="ja">阿波花</span>) or <Pronounce lang="ja-Latn" pronouncer="poyotan" file='pronunciation_ja_金時花.mp3'>Kintoki­-bana</Pronounce> (<span lang="ja">金時花</span>). It originated in <span class="noun"
 lang="ja-Latn">Awa</span> province, in what is now <span class="noun"
 lang="ja-Latn">Tokushima</span> prefecture.
 
@@ -732,7 +720,7 @@ examples of these can be found in the [article about new <span lang="ja-Latn" cl
 
 ## The Cards in Depth
 
-Firstly, a short note about the ordering of the deck: while nominally the cards start in ‘January’, at the time the deck was created Japan’s calendar was based upon the lunisolar Chinese calendar, which started in what is now February. This explains why ‘March’ is the month of the cherry blossom when — according to the current calendar — it should be April,[^peak] and why ‘August’ shows the full moon when the full moon festival (<span lang="ja">月見</span> {% pronounce pronouncer="skent" word="tsukimi" lang="ja-Latn" file="pronunciation_ja_月見.mp3" %}) actually falls in September–October.
+Firstly, a short note about the ordering of the deck: while nominally the cards start in ‘January’, at the time the deck was created Japan’s calendar was based upon the lunisolar Chinese calendar, which started in what is now February. This explains why ‘March’ is the month of the cherry blossom when — according to the current calendar — it should be April,[^peak] and why ‘August’ shows the full moon when the full moon festival (<span lang="ja">月見</span> <Pronounce pronouncer="skent" lang="ja-Latn" file="pronunciation_ja_月見.mp3">tsukimi</Pronounce>) actually falls in September–October.
 
 [^peak]: In Kyoto from the 11th to 13th centuries, the average peak of the cherry blossom season was April 17th.[@FourSeasons loc. 484]
 
@@ -1795,7 +1783,7 @@ preserved in the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern.
 
 On the <span class="noun" lang="ja-Latn">Echigo-kobana</span>’s “rain man” card, the figure has a bushy tail and appears to be either a <span lang="ja-Latn">kitsune</span>, a Japanese fox/spirit; or a <span lang="ja-Latn">tanuki</span>, the raccoon-dog. I am not sure of the significance of this.
 
-The “lightning card” mentioned above is the red-coloured <span lang="ja-Latn">kasu</span> card, which is usually called the ogre card in Japanese (<span lang="ja">鬼札</span> {%pronounce  pronouncer="strawberrybrown" word="onifuda" lang="ja-Latn" file="pronunciation_ja_鬼札.mp3" %}). The drums, which are visible in some patterns, are an attribute of the thunder god {% pronounce noun="true" lang="ja-Latn" word="Raijin" pronouncer="kaori410f" file="pronunciation_ja_雷神.mp3" %} (<span lang="ja">雷神</span>).
+The “lightning card” mentioned above is the red-coloured <span lang="ja-Latn">kasu</span> card, which is usually called the ogre card in Japanese (<span lang="ja">鬼札</span> <Pronounce  pronouncer="strawberrybrown" lang="ja-Latn" file="pronunciation_ja_鬼札.mp3">onifuda</Pronounce>). The drums, which are visible in some patterns, are an attribute of the thunder god <Pronounce noun="true" lang="ja-Latn" pronouncer="kaori410f" file="pronunciation_ja_雷神.mp3">Raijin</Pronounce> (<span lang="ja">雷神</span>).
 
 > [!figure]
 >

@@ -12,10 +12,9 @@ The most obvious modern version of this game is ‘Duck, Duck, Goose’.
 
 ## History
 
-Games of this type date at least from Roman times. The Greek scholar [Julius Pollux](https://en.wikipedia.org/wiki/Julius_Pollux) wrote of a game called <span lang="el-polyton-Latn">schoinofílíndá</span> (<span lang="el-polyton">σχοινοφῖλίνδᾶ</span>)[^also] in his proto-encyclopædia <cite>Onomasticon</cite> (<span
-lang="el-polyton">Ὀνομαστικὸν</span>, <abbr>c.</abbr> 200 <abbr>CE</abbr>):
+Games of this type date at least from Roman times. The Greek scholar [Julius Pollux](https://en.wikipedia.org/wiki/Julius_Pollux) wrote of a game called <span lang="grc-Latn" class="aka">schoinofílíndá</span> (<span lang="grc" class="aka">σχοινοφῖλίνδᾶ</span>)[^also] in his proto-encyclopædia <cite>Onomasticon</cite> (<span lang="grc">Ὀνομαστικὸν</span>, <abbr>c.</abbr> 200 <abbr>CE</abbr>):
 
-[^also]: Also written <span lang="el-monoton">σχοινοφιλίνδα</span> or <span lang="el-monoton">σχοινοβιλίνδα</span>.[@GreekEnglishLexicon p. 1459]
+[^also]: Also written <span lang="grc-monoton">σχοινοφιλίνδα</span> or <span lang="grc-monoton">σχοινοβιλίνδα</span>.[@GreekEnglishLexicon p. 1459]
 
 Ή δέ σχοινοφιλίνδα, κάθηται κύκλος, είς δέ σχοινίον έχων λαθών παρά τω τίθησι·
 κάν μέν άγνοήση έκενος παρ' ώ κεϊται, περιθέων περί τον κύκλον τύπτεται, εί δέ
@@ -24,7 +23,7 @@ lang="el-polyton">Ὀνομαστικὸν</span>, <abbr>c.</abbr> 200 <abbr>CE<
 > ἡ δὲ σχοινοφιλίνδα, κάθηται κύκλος, εἷς δὲ σχοινίον ἔχων ἐλθὼν παρ’ αὐτῷ
 > τίθησι· κἂν μὲν ἀγνοήσῃ ἐκεῖνος παρ’ ᾧ κεῖται, περιθέων περὶ τὸν κύκλον
 > τύπτεται, εἰ δὲ μάθοι περιελαύνει τὸν θέοντα τύπτων [Book 9, 115][^notranslation]
- 
+
 [^notranslation]: Unfortunately I do not yet have a good translation of this passage.
 
 See Italian translation: @CostanzaPolluce
@@ -48,7 +47,7 @@ Drop-Handkerchief[@GommeI p. 110]
 Cat After Mouse or Threading The Needle[@GommeI p. 64][@Strutt p. 337]
 
 > [!figure]
-> 
+>
 > ![](lettertomylove.jpg)
 >
 > ```yaml
@@ -62,13 +61,13 @@ Drop Handkerchief 4th most popular game at Lousville playgrounds in 1901.[@Louis
 
 ---
 
-German description: @LorenzGrasberger1 [p. 52], Das Plumpsackspiel 
+German description: @LorenzGrasberger1 [p. 52], Das Plumpsackspiel
 
-spellings: @GreekEnglishLexicon [p. 1459]  
+spellings: @GreekEnglishLexicon [p. 1459]
 
-Drop-Cloth 
+Drop-Cloth
 
-French <span lang="fr">jeu de mouchoir</span>, Dutch <span lang="nl">zakdoekje leggen</span> (in Flanders <span lang="nl-BE">zakdoek leggen</span>).
+French <span lang="fr" class="aka">jeu de mouchoir</span>, Dutch <span lang="nl" class="aka">zakdoekje leggen</span> (in Flanders <span lang="nl-BE" class="aka">zakdoek leggen</span>).
 
 @MannersAncientGreece1 [p. 154] - Schœnophilinda.
 

@@ -20320,3 +20320,14 @@ DartsInEngland:
   ISBN: '9780719078033'
   series:
     title: Studies in Popular Culture
+ReclassifyingNan:
+  type: document
+  title: 'Reclassifying ISO 639-3 [nan]: An Empirical Approach to Mutual Intelligibility and Ethnolinguistic Distinctions'
+  URL: https://github.com/KIRINPUTRA/reclassifying-ISO-639-3-nan/tree/main?tab=readme-ov-file
+  # This is the author of the change request but perhaps not the document?
+  # author:
+  # - given: Hok Chû
+  #   family: Tiuⁿ
+  #   alt: <span lang="nan-TW">張復聚</span>
+  #   lang: nan-Latn-TW-pehoeji
+  issued: 2021

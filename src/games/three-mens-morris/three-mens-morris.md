@@ -40,7 +40,7 @@ After placing all their pieces, if no one has already won the game, the players 
 
 Three Men’s Morris has also been called “<span class="aka">Ovid’s Game</span>”, based on its similarity to a game that is alluded to in Ovid’s [<cite lang="la">Ars Amatoria</cite>.](https://en.wikipedia.org/wiki/Ars_Amatoria)[@WinningWaysV3 p.  736]
 
-The name Three Men’s Morris seems to be a modern invention, based on the name [Nine Men’s Morris](games/nine-mens-morris/nine-mens-morris.md). In the past it was known by other names in England, such as “<span class="aka">Knockings In and Out</span>”.[@NotesOnTheAbbey p.  20][@OnTheIndoorGamesOfSchoolBoys p. 321] 
+The name Three Men’s Morris seems to be a modern invention, based on the name [Nine Men’s Morris](games/nine-mens-morris/nine-mens-morris.md). In the past it was known by other names in England, such as “<span class="aka">Knockings In and Out</span>”.[@NotesOnTheAbbey p.  20][@OnTheIndoorGamesOfSchoolBoys p. 321]
 
 As evidenced by the many boards carved into stone walls and seats in cathedrals and monasteries, the game was played in England over a long period — [Murray](articles/people/hjr-murray.md)[@Murray2 p. 41] dates it from after the Norman conquest in the 11th century, and states that it was “well established by 1300.” However, the game seems to have declined until in the 19th century it was not well known in England; English visitors to Ireland during this period describe it as an Irish game.
 
@@ -56,7 +56,7 @@ A game that appears to be Three Men’s Morris appears in [Alfonso X’s <cite>B
 
 In Italy it has been called <span lang="it" class="aka">riga de tre</span> ‘line of three’,[@IlGiocoDeGliScacchi p. 35] <span lang="it" class="aka">smerelli</span>, <span lang="it" class="aka">mulino</span>, <span lang="it" class="aka">semplice mulinello</span>, <span lang="it" class="aka">filo</span>, <span lang="it" class="aka">filetto</span>, or <span lang="it" class="aka">tavoletta</span>.[@Murray2 p. 41] In France, it has been called <span lang="fr" class="aka">mérelles</span>, <span lang="fr" class="aka">marelles</span>,[@NoticeDesÉmaux p.  381] or <span lang="fr" class="aka">carré chinois</span> ‘Chinese square’.[@DictionnaireHistorique7 p. 279]
 
-The game is known as <span lang="fil" class="noun aka">Tapatan</span> in the Philippines,[@Zaslavsky p. 6] or <span lang="yue-Hans-HK" class="aka">六卒棋</span> (<span lang="yue-Latn-jyutping" class="aka">luk⁶ zeot¹ kei⁴</span> ‘six man game’) in southern China.[@CulinPhilippine p. 648][^fn2]
+The game is known as <span lang="fil" class="noun aka">Tapatan</span> in the Philippines,[@Zaslavsky p. 6] or <span lang="yue" class="aka">六卒棋</span> (<span lang="yue-Latn-jyutping" class="aka">luk⁶ zeot¹ kei⁴</span> ‘six man game’) in southern China.[@CulinPhilippine p. 648][^fn2]
 
 [^fn2]: Note that @Bell confuses its sources here and claims that Hyde states that “<span class="aka noun">Luk Tsut K’i</span>” was played in the time of Confucius.
 
@@ -70,7 +70,7 @@ In Hindi it is called <span lang="hi" class="aka">तीन गोटी</span> 
 
 In Malayalam it is called <span lang="ml" class="aka">നിര</span> (<span lang="ml-Latn" class="aka">niṟa</span>) ‘line’, <span lang="ml" class="aka">പടവെട്ടു</span> (<span lang="ml-Latn" class="aka">paṭaveṭṭu</span>) or <span lang="ml" class="aka">പട</span> (<span lang="ml-Latn">paṭa</span>) ‘battle’, or <span lang="ml" class="aka">കല്ലുകളി</span> (<span lang="ml-Latn" class="aka">kallukaḷi</span>) ‘stone game’ (although this is usually used for knucklebones).[@InterestingGameVideo] Pieces can either be placed[@InterestingGameVideo] or start on the sides of the board.[@NiraVideo]
 
-It is also played across Africa: in Madagascar it is called <span lang="mg" class="aka">fanorona telo</span> ‘three-[Fanorona](games/fanorona/fanorona.md)’;[@Murray2 p. 42] in Nigeria ([Urhobo](https://en.wikipedia.org/wiki/Urhobo_language)) <span lang="urh" class="aka">epelle</span>;[@Murray2 §3.3.18, p. 42] and in Somalia <span lang="so" class="aka">jara-badakh</span> (‘reed […]’?).[@SomaliGames 505][^fn4] 
+It is also played across Africa: in Madagascar it is called <span lang="mg" class="aka">fanorona telo</span> ‘three-[Fanorona](games/fanorona/fanorona.md)’;[@Murray2 p. 42] in Nigeria ([Urhobo](https://en.wikipedia.org/wiki/Urhobo_language)) <span lang="urh" class="aka">epelle</span>;[@Murray2 §3.3.18, p. 42] and in Somalia <span lang="so" class="aka">jara-badakh</span> (‘reed […]’?).[@SomaliGames 505][^fn4]
 
 [^fn4]: In Marin’s orthography this is <span lang="so" class="aka">dʒara-badàχ</span>. It is also variously spelled <span lang="so" class="aka">jara-badàkh</span>,[@Murray2 §3.1.10, p. 40] <span lang="so" class="aka">jarabadach</span>,[@GamesOfManyNations 18], <span lang="so" class="aka">carabawg</span>.[@Murray2 §3.3.17, p. 42]
 

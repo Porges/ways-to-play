@@ -12,10 +12,10 @@ subgames:
       - 4
       - 6
 date created: 2024-12-22
-date modified: 2025-02-16
+date modified: 2025-02-17
 aliases:
   - '<span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun">Thothit</span>'
-  - <span lang="jv-Latn" class="noun aka">Thothit</span>
+  - <span lang="jv-Latn" class="noun">Thothit</span>
 linter-yaml-title-alias: '<span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun">Thothit</span>'
 ---
 # <span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun">Thothit</span>

@@ -42,5 +42,7 @@ The games mentioned are:
 - Dice games:
     - <span lang="fr">poulain</span>
     - <span lang="fr">lymechon</span>
-    - <span lang="fr">gobelet</span> {/* maybe Treygobet? OED: ?1565   Enterlude of Youth sig. C.iii   Syr I can teache you to play at the dice At the quenes game and at the Iryshe The Treygobet and the hasarde also And many other games mo. */}
+    - <span lang="fr">gobelet</span>[^treygobet]
     - <span lang="fr">nycque nocque</span>
+
+[^treygobet]: Maybe this is “treygobet”? The OED has: “?1565: <cite>Enterlude of Youth</cite> sig. C.iii — Syr I can teache you to play at the dice At the quenes game and at the Iryshe The Treygobet and the hasarde also And many other games mo.”

@@ -1,7 +1,7 @@
 ---
 title: Chinese Cards
 date created: 2024-12-18
-date modified: 2025-02-08
+date modified: 2025-02-17
 aliases: [Chinese Cards]
 linter-yaml-title-alias: Chinese Cards
 ---
@@ -10,28 +10,28 @@ linter-yaml-title-alias: Chinese Cards
 As the probable country of origin of playing cards, China has a long history of
 card-playing and many different varieties.
 
-The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard Mandarin Chinese: <Pronounce lang="cmn-Latn-pinyin" pronouncer="LofZRules" file="pronunciation_zh_牌.mp3">pái</Pronounce>), does not distinguish between different forms of card-like games and equally applies to paper or cardboard cards, bamboo sticks, or bone, ivory, or plastic Mahjong tiles. In many adjacent countries and languages adjacent to China, a derived or related term is used in the local language. Below I list some examples, ordered by number of speakers:
+The pan-Chinese word for playing cards, <span lang="zh">牌</span> (Standard Mandarin Chinese: <Pronounce lang="cmn-Latn-pinyin" pronouncer="LofZRules" file="pronunciation_zh_牌.mp3">pái</Pronounce>), does not distinguish between different forms of card-like games and equally applies to paper or cardboard cards, bamboo sticks, or bone, ivory, or plastic Mahjong tiles.
 
-* Chinese: <span lang="zh">牌</span> <span lang="cmn-Latn-pinyin">pái</span> (Mandarin)
-* Vietnamese: <span lang="vi">bài</span> [76M]
-* Thai: <span lang="th">ไพ่</span> (<Pronounce lang="th-Latn" file="pronunciation_th_ไพ.mp3" pronouncer="Ghee">pâi</Pronounce>) [44M]
-* Burmese: <span lang="my">ဖဲ</span> (<span lang="my-Latn">hpai</span>) [33M]
-* Lao: <span lang="lo">ໄພ້</span> (<span lang="lo-Latn">pʰâi</span>) [30M]
-* Khmer: <span lang="km">បៀ</span> ({% pronounce lang="km-Latn" word="bie"
-  file="pronunciation_km_បៀ.mp3" pronouncer="chetanachey" %}) {/* 16M */}
-* [Zhuang:](https://en.wikipedia.org/wiki/Zhuang_languages) <span lang="za-Latn">bej</span> or <span lang="zhn-Latn">paih</span>/<span lang="zhn-Latn">paij₂</span> (Nong Zhuang)[@ZCELexicon] {/* 16M */}
-* [Bouyei:](https://en.wikipedia.org/wiki/Bouyei_language) <span lang="pcc">pai²</span>[@DictionnaireDioiFrancais p. 365]  {/* 2.7M */} {/* TODO: this is not the modern way to write the tones */}
-* [Tai Lue:](https://en.wikipedia.org/wiki/Tai_Lue_language) <span lang="khb">ᦘᦻᧉ</span> (<span lang="khb-Latn">pʰaaj⁶</span>)[@DaiLueDictionary] {/* 550k */}
-* [Bru:](https://en.wikipedia.org/wiki/Bru_language) <span lang="bru">ບາຍ</span> (<span lang="bru-Latn">bai</span>)[@BruDictionary] {/* 300k */}
-* [Kayan:](https://en.wikipedia.org/wiki/Padaung_language) <span lang="pdu-Latn">phaǐ₁</span>[@KayanDictionary] {/* 130k */}
-* [Dungan:](https://en.wikipedia.org/wiki/Dungan_language) <span lang="dng">пэ</span> (<span lang="dng-Latn">pe</span>) {/* 110k */}
-* [Chin:](https://en.wikipedia.org/wiki/Falam_language) <span lang="cfm">phe₂</span> (Falam)[@ChinFalamDictionary]; <span lang="cbl">phe₁</span> or <span lang="cbl">phe₃</span> (Bualkhaw)[@ChinBualkhawDictionary] {/* 107k */}
-* [Rawang:](https://en.wikipedia.org/wiki/Rawang_language) <span lang="raw">pày</span>[@RawangDictionary] {/* 63k */}
-* [Kayaw:](https://en.wikipedia.org/wiki/Kayaw_language) <span lang="kvl-Latn">be₁</span>[@KayawDictionary] {/* 17k */}
+In many adjacent countries and languages adjacent to China, it seems that a derived or related term is used in the local language (although, I am not a linguist!). Below I list some examples, ordered by number of speakers (speaker count derived from Wikipedia):
+
+* Chinese: <span lang="zh">牌</span> — Mandarin (1.1 billion) <span lang="cmn-Latn-pinyin">pái</span>, Cantonese (85M) <span lang="yue-Latn-jyutping">paai⁴</span>, Hokkien (20M?) <span lang="nan-Latn-pehoeji">pâi</span>, Teochew (15M?) <span lang="nan-Latn-pengim">bai⁵</span>, Wu <span lang="wuu-Latn">⁶ba</span>
+* Vietnamese (76M): <span lang="vi">bài</span>
+* Thai (44M): <span lang="th">ไพ่</span> (<Pronounce lang="th-Latn" file="pronunciation_th_ไพ.mp3" pronouncer="Ghee">pâi</Pronounce>)
+* Burmese (33M): <span lang="my">ဖဲ</span> (<span lang="my-Latn">hpai</span>)
+* Lao (30M): <span lang="lo">ໄພ້</span> (<span lang="lo-Latn">pʰâi</span>)
+* Khmer (16M): <span lang="km">បៀ</span> (<Pronounce lang="km-Latn" file="pronunciation_km_បៀ.mp3" pronouncer="chetanachey">bie</Pronounce>)
+* [Zhuang](https://en.wikipedia.org/wiki/Zhuang_languages) (16M): <span lang="za-Latn">bej</span> or <span lang="zhn-Latn">paih</span>/<span lang="zhn-Latn">paij₂</span> (Nong Zhuang)[@ZCELexicon]
+* [Bouyei](https://en.wikipedia.org/wiki/Bouyei_language) (2.7M): <span lang="pcc">pai²</span>[@DictionnaireDioiFrancais p. 365]
+* [Tai Lue](https://en.wikipedia.org/wiki/Tai_Lue_language) (550k): <span lang="khb">ᦘᦻᧉ</span> (<span lang="khb-Latn">pʰaaj⁶</span>)[@DaiLueDictionary]
+* [Bru](https://en.wikipedia.org/wiki/Bru_language) (300k): <span lang="bru">ບາຍ</span> (<span lang="bru-Latn">bai</span>)[@BruDictionary]
+* [Kayan](https://en.wikipedia.org/wiki/Padaung_language) (130k): <span lang="pdu-Latn">phaǐ₁</span>[@KayanDictionary]
+* [Dungan](https://en.wikipedia.org/wiki/Dungan_language) (110k): <span lang="dng">пэ</span> (<span lang="dng-Latn">pe</span>)
+* [Chin](https://en.wikipedia.org/wiki/Falam_language) (107k): <span lang="cfm">phe₂</span> (Falam)[@ChinFalamDictionary]; <span lang="cbl">phe₁</span> or <span lang="cbl">phe₃</span> (Bualkhaw)[@ChinBualkhawDictionary]
+* [Rawang](https://en.wikipedia.org/wiki/Rawang_language) (63k): <span lang="raw">pày</span>[@RawangDictionary]
+* [Kayaw](https://en.wikipedia.org/wiki/Kayaw_language) (17k): <span lang="kvl-Latn">be₁</span>[@KayawDictionary]
 
 Unusually, Japan does not use cards derived from Chinese examples, but instead
-from European (specifically Portuguese) cards (see {%a japan, the page about
-Japanese cards %} for more).
+from European (specifically Portuguese) cards (see [the page about Japanese cards](articles/cards/japan/japan.md) for more).
 
 ## Types of cards
 
@@ -49,21 +49,19 @@ Those derived from **[<span lang="cmn-Latn-pinyin" class="noun">Xiàngqí</span>
   * Red cards (<span lang="zh">紅牌</span>), also called Double Gold cards (<span lang="zh">雙金牌</span> <span lang="cmn-Latn-pinyin">shuāng jīn pái</span>)
   * Malaysian <span lang="ms" class="noun">Chap Ji Kee</span>
   * Vietnamese Chrysanthemum cards, <span lang="vi">bài tam cúc</span>
-  
+
 Those derived from **dice**:
 * Chinese dominoes (<span lang="zh">天九牌</span> <span lang="cmn-Latn-pinyin">tiān jiǔ pái</span>)
 * 15-Point Cards (<span lang="zh">十五湖</span> <span lang="cmn-Latn-pinyin">shíwǔ hú</span>)
 * Sichuan domino cards (<span lang="zh">川牌</span>)
 
-{/*
-
-domino card image: https://www.prm.ox.ac.uk/collections-online#/item/prm-object-65212
-
-https://www.prm.ox.ac.uk/collections-online#/item/prm-object-171321
-
-women playing: https://doi.org/10.25549/impa-m56453
-
-*/}
+> [!todo]
+>
+> domino card image: https://www.prm.ox.ac.uk/collections-online#/item/prm-object-65212
+> 
+> https://www.prm.ox.ac.uk/collections-online#/item/prm-object-171321
+> 
+> women playing: https://doi.org/10.25549/impa-m56453
 
 Those derived from paper **money**/banknotes:
 * Four-Suited money cards, of which most types are extinct:
@@ -74,7 +72,7 @@ Those derived from paper **money**/banknotes:
   * Vietnamese <span lang="vi">bài bất</span>
 * Three-Suited money cards:
   * The standard type (usually called <span lang="zh">東莞紙牌</span> <span lang="cmn-Latn-pinyin">dōngguǎn zhǐpái</span>); Thai money cards are essentially identical
-  * {%a ceki,Ceki cards%}, used in Malaysia, Singapore, Indonesia
+  * [Ceki cards](articles/cards/ceki/ceki.md), used in Malaysia, Singapore, Indonesia
   * Mahjong tiles and cards
   * Nantong long cards (<span lang="zh">南通长牌</span>)
   * Vietnamese <span lang="vi">bài tổ tôm</span>
@@ -86,4 +84,4 @@ Those that are numbered or use **characters** (<span lang="zh">字牌</span> <sp
 * Luzhou Big Two cards <span lang="zh">泸州大贰</span>, from Luzhou city, Sichuan province
 * Leshan round cards <span lang="zh">樂山圈牌</span>, from Leshan city, Sichuan province
 
-{/* Those that resemble flies from a distance */}
+<span hidden="hidden">Those that resemble flies from a distance.</span>

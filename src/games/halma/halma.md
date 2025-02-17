@@ -12,7 +12,7 @@ date modified: 2024-12-21
 
 George Monks, an American surgeon, developed the game after his brother (Robert Monks) saw the game “Hoppity” while on a trip to England.[@HalmaHistory] Monks was awarded US patent [383,653](https://patents.google.com/patent/US383653A) for the game.
 
-The game was named Halma by Thomas Hill (Robert Monks’ father-in-law) from the Ancient Greek <span lang="el-polyton">ἅλμα</span> (<span lang="el-polyton-Latn">hálma</span>), ‘jump’.
+The game was named Halma by Thomas Hill (Robert Monks’ father-in-law) from the Ancient Greek <span lang="grc">ἅλμα</span> (<span lang="grc-Latn">hálma</span>), ‘jump’.
 
 The game was first published by E.I. Horsman in the USA. Milton Bradley also published the game under the name ‘Halma’ for three years until they were forced to change their version to ‘Eckha’.[^brodley][@BradleysGames p. 3] Parker Brothers claims that George Monks later sold his patent to them.
 

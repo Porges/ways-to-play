@@ -106,7 +106,7 @@ In addition, the <Cards>1</Cards> of <span lang="ja-Latn">pao</span> (<Cards>cA<
 > noborder: true
 > ```
 >
-> The wild cards: <Cards>1</Cards> of <span lang="ja-Latn">pao</span> and {% cards '2' %} of <span lang="ja-Latn">ouru</span>.
+> The wild cards: <Cards>1</Cards> of <span lang="ja-Latn">pao</span> and <Cards>2</Cards> of <span lang="ja-Latn">ouru</span>.
 
 There are two other special cases that allow more than one card of the same rank
 to be played:

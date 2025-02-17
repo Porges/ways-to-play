@@ -2,13 +2,13 @@
 
 use std::{
     borrow::{Borrow, Cow},
-    collections::{BTreeMap, HashSet},
+    collections::{BTreeMap, HashMap, HashSet},
     ffi::OsStr,
     io::Write,
     path::{Path, PathBuf},
     process::{self},
     str::FromStr,
-    sync::{LazyLock, Mutex},
+    sync::{Arc, LazyLock, Mutex},
     time::Duration,
 };
 
@@ -341,7 +341,7 @@ impl ImageManifestEntry {
 pub struct Aka {
     pub lang_id: LanguageIdentifier,
     pub word: Markup,
-    pub url_path: String,
+    pub url_path: Arc<String>,
 }
 
 struct Builder {
@@ -401,6 +401,21 @@ impl Builder {
     }
 
     fn load(&mut self) -> Result<()> {
+        self.load_bib()?;
+
+        self.articles = self.load_files("articles")?;
+        self.games = self.load_files("games")?;
+
+        info!(
+            "Loaded {} articles, {} games",
+            self.articles.len(),
+            self.games.len()
+        );
+
+        Ok(())
+    }
+
+    fn load_bib(&mut self) -> Result<()> {
         let target_bib = self.base_path.join("bibliography.yaml");
 
         let converted_bib = process::Command::new("yq")
@@ -420,16 +435,6 @@ impl Builder {
 
         info!("Writing CSL for Obsidian plugin");
         std::fs::write(self.base_path.join("../bib.json"), csl.to_string())?;
-
-        self.articles = self.load_files("articles")?;
-        self.games = self.load_files("games")?;
-
-        info!(
-            "Loaded {} articles, {} games",
-            self.articles.len(),
-            self.games.len()
-        );
-
         Ok(())
     }
 
@@ -603,6 +608,7 @@ impl Builder {
         output_files: &mut Vec<OutputFile>,
         url_lookup: &BTreeMap<String, Option<&str>>,
         akas: Vec<Aka>,
+        cites: HashMap<String, Vec<Arc<(Markup, String)>>>,
     ) -> Result<()> {
         output_files.extend([
             self.generate_article(
@@ -610,15 +616,17 @@ impl Builder {
                 url_lookup,
                 None,
                 |_, _| {},
+                |_| {},
             )?,
             self.generate_article(
                 &self.load_file::<ArticleHeader>(self.base_path.join("see-also.md"))?,
                 url_lookup,
                 None,
                 |_, _| {},
+                |_| {},
             )?,
             self.templater
-                .bibliography(&self.rendered_bibliography)
+                .bibliography(&self.rendered_bibliography, cites)
                 .wrap_err("generating bibliography")?,
             self.templater
                 .welcome()
@@ -672,7 +680,8 @@ impl Builder {
         article: &File<T>,
         url_lookup: &BTreeMap<String, Option<&str>>,
         article_tree: Option<&ArticleNode>,
-        aka_handler: impl Fn(LanguageIdentifier, Markup),
+        aka_handler: impl FnMut(LanguageIdentifier, Markup),
+        cite_handler: impl FnMut(&str),
     ) -> Result<OutputFile>
     where
         File<T>: ArticleMetadata + BaseMetadata,
@@ -685,6 +694,7 @@ impl Builder {
             &self.images,
             url_lookup,
             aka_handler,
+            cite_handler,
         )
         .wrap_err("rendering HTML")?;
 
@@ -753,24 +763,50 @@ impl Builder {
         let article_tree = self.build_article_tree()?;
 
         let akas = Mutex::new(Vec::new());
+        let cites: Mutex<HashMap<String, Vec<Arc<(Markup, String)>>>> = Default::default();
 
         let articles = self
             .articles
             .par_iter()
             .filter(|a| !a.is_draft() || self.output_drafts)
             .map(|article| {
+                let mut my_akas = Vec::new();
                 let push_aka = |language: LanguageIdentifier, word: Markup| {
-                    if self.output_drafts || !article.is_draft() {
-                        let aka = Aka {
-                            lang_id: language,
-                            word,
-                            url_path: article.url_path.to_string(),
-                        };
-                        akas.lock().unwrap().push(aka);
-                    }
+                    my_akas.push((language, word));
                 };
-                self.generate_article(article, &url_lookup, Some(&article_tree), push_aka)
-                    .wrap_err_with(|| eyre!("couldn’t export {}", article.file_path.display()))
+
+                let mut my_cites: HashSet<String> = HashSet::new();
+                let push_cite = |ref_id: &str| {
+                    my_cites.insert(ref_id.to_string());
+                };
+
+                let result = self
+                    .generate_article(
+                        article,
+                        &url_lookup,
+                        Some(&article_tree),
+                        push_aka,
+                        push_cite,
+                    )
+                    .wrap_err_with(|| eyre!("couldn’t export {}", article.file_path.display()))?;
+
+                let my_path = Arc::new(article.url_path.to_string());
+                akas.lock()
+                    .unwrap()
+                    .extend(my_akas.into_iter().map(|(lang, word)| Aka {
+                        lang_id: lang,
+                        word,
+                        url_path: my_path.clone(),
+                    }));
+
+                let cite_ref =
+                    Arc::new((article.metadata.title.clone(), article.url_path.to_string()));
+                let mut cites = cites.lock().unwrap();
+                for my_cite in my_cites {
+                    cites.entry(my_cite).or_default().push(cite_ref.clone());
+                }
+
+                Ok(result)
             });
 
         let games = self
@@ -778,23 +814,49 @@ impl Builder {
             .par_iter()
             .filter(|a| !a.is_draft() || self.output_drafts)
             .map(|game| {
+                let mut my_akas = Vec::new();
                 let push_aka = |language: LanguageIdentifier, word: Markup| {
-                    if self.output_drafts || !game.is_draft() {
-                        let aka = Aka {
-                            lang_id: language,
-                            word,
-                            url_path: game.url_path.to_string(),
-                        };
-                        akas.lock().unwrap().push(aka);
-                    }
+                    my_akas.push((language, word));
                 };
-                self.generate_article(game, &url_lookup, None, push_aka)
-                    .wrap_err_with(|| eyre!("couldn’t export {}", game.file_path.display()))
+
+                let mut my_cites = HashSet::new();
+                let push_cite = |ref_id: &str| {
+                    my_cites.insert(ref_id.to_string());
+                };
+
+                let result = self
+                    .generate_article(game, &url_lookup, None, push_aka, push_cite)
+                    .wrap_err_with(|| eyre!("couldn’t export {}", game.file_path.display()))?;
+
+                let my_path = Arc::new(game.url_path.to_string());
+                akas.lock()
+                    .unwrap()
+                    .extend(my_akas.into_iter().map(|(lang, word)| Aka {
+                        lang_id: lang,
+                        word,
+                        url_path: my_path.clone(),
+                    }));
+
+                let cite_ref = Arc::new((
+                    game.metadata.article_meta.title.clone(),
+                    game.url_path.to_string(),
+                ));
+                let mut cites = cites.lock().unwrap();
+                for my_cite in my_cites {
+                    cites.entry(my_cite).or_default().push(cite_ref.clone());
+                }
+
+                Ok(result)
             });
 
         let mut output_files = articles.chain(games).collect::<Result<Vec<_>>>()?;
 
-        self.generate_other_files(&mut output_files, &url_lookup, akas.into_inner()?)?;
+        self.generate_other_files(
+            &mut output_files,
+            &url_lookup,
+            akas.into_inner()?,
+            cites.into_inner()?,
+        )?;
         self.output_files.extend(output_files);
 
         for file in &mut self.output_files {
@@ -903,18 +965,23 @@ fn main() -> Result<()> {
                     info!("File {:?}: {}", ev.event.kind, ev.event.paths[0].display());
                     let kind = ev.event.kind;
                     let path = ev.event.paths.into_iter().next().unwrap();
-                    match kind {
-                        EventKind::Create(CreateKind::File) => {
-                            builder.file_created(path)?;
+
+                    if path.extension() == Some(OsStr::new("md")) {
+                        match kind {
+                            EventKind::Create(CreateKind::File) => {
+                                builder.file_created(path)?;
+                            }
+                            EventKind::Modify(_) => {
+                                builder.file_modified(path)?;
+                            }
+                            EventKind::Remove(RemoveKind::File) => {
+                                builder.file_removed(&path)?;
+                            }
+                            EventKind::Access(_) | EventKind::Create(_) | EventKind::Remove(_) => {}
+                            other => warn!("unhandled event: {:?}", other),
                         }
-                        EventKind::Modify(_) => {
-                            builder.file_modified(path)?;
-                        }
-                        EventKind::Remove(RemoveKind::File) => {
-                            builder.file_removed(&path)?;
-                        }
-                        EventKind::Access(_) | EventKind::Create(_) | EventKind::Remove(_) => {}
-                        other => warn!("unhandled event: {:?}", other),
+                    } else if path.file_name() == Some(OsStr::new("bibliography.yaml")) {
+                        builder.load_bib()?;
                     }
                 }
 

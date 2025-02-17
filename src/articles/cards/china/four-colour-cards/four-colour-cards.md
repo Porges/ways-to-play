@@ -179,7 +179,7 @@ rook nine
 <span lang="zh">四色正</span>
 </td>
 <td>
-Hokkien: <span lang="nan-Latn">sù sek chiàⁿ</span>
+Hokkien: <span lang="nan-Latn-pehoeji">sù sek chiàⁿ</span>
 </td>
 <td>
 four colour straight
@@ -191,7 +191,7 @@ four colour straight
 <span lang="zh">大符</span>
 </td>
 <td>
-Teochew: <span lang="tws-Latn">dua7 hu5</span>, Hokkien: <span lang="nan-Latn">tōa hû</span>
+Teochew: <span lang="nan-Latn-pengim">dua7 hu5</span>, Hokkien: <span lang="nan-Latn-pehoeji">tōa hû</span>
 </td>
 <td>
 large symbols
@@ -203,7 +203,7 @@ large symbols
 <span lang="zh">小符</span>
 </td>
 <td>
-Teochew: <span lang="tws-Latn">siê2 hu5</span>, Hokkien: <span lang="nan-Latn">sió hû</span>
+Teochew: <span lang="nan-Latn-pengim">siê2 hu5</span>, Hokkien: <span lang="nan-Latn-pehoeji">sió hû</span>
 </td>
 <td>
 small symbols

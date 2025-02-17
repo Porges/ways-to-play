@@ -2,7 +2,7 @@
 title: '<span lang="th">ไพ่ตอง</span> · <span lang="th-Latn" class="noun">Pai Tong</span>'
 titleLang: th-Latn
 originalTitle: <span lang="th">ไพ่ตอง</span>
-players: 
+players:
     min: 2
     max: 7
 countries: TH
@@ -60,11 +60,11 @@ Shuffle the cards, and deal six cards to all players, then a second round of six
 
 The first player starts the game by discarding any card face-up. Play proceeds with the next player in an anti-clockwise direction.
 
-On a player’s turn they draw one card from either the top of discard pile or the top of the stock, and then — unless they have won the game by completing their hand — they discard one. 
+On a player’s turn they draw one card from either the top of discard pile or the top of the stock, and then — unless they have won the game by completing their hand — they discard one.
 
 The goal of the game is to form a complete hand of 12 cards, comprising four sets of three. Each set must consist of three cards of the same rank.A set of three identical cards of the same rank is called a **<span lang="th-Latn">tong</span>** (<span lang="th">ตอง</span>),[^fn0] and a set of three different cards is called a **head** (<span lang="th">เศียร</span> <span lang="th-Latn">siian</span>). A set of two identical cards and one other is called a **group** (<span lang="th">พวก</span> <span lang="th-Latn">phuak</span>). Heads and <span lang="th-Latn">tong</span>s are worth more in the scoring.
 
-[^fn0]: This term — possibly derived from the Chinese <span lang="zh">同</span> (Hokkien: <span lang="nan-Latn">tông</span>; Teochew: <span lang="tws-Latn">tong⁵</span> Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>; Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.
+[^fn0]: This term — possibly derived from the Chinese <span lang="zh">同</span> (Hokkien: <span lang="nan-Latn-pehoeji">tông</span>; Teochew: <span lang="nan-Latn-pengim">tong⁵</span> Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>; Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.
 
 For the purposes of forming heads, the honour cards or aces are grouped into two sets; one set comprises the two red stamped cards and the 1 Myriads, and other set is made up of the other three cards. To form a head using these cards requires them to be of the same set.
 
@@ -73,7 +73,7 @@ After a player has discarded a card and before the next player picks up a card, 
 There are possibly variants in play here for the final card:
 
 To win by completing the 4 sets of cards (called <span lang="th">กิน</span> <span lang="th-Latn">kin</span> ‘eating’), the final card must be drawn from the deck.
- 
+
 If a player only requires one card to win, they may take the winning card from
 *any* player’s discard to complete their hand. If multiple players try to claim
 the same card to win, the next one in seating order takes it.
@@ -90,7 +90,7 @@ Scoring possibilities for the winner are as follows. I have found these the hard
 * <span lang="th">เก็งข้าง</span> ‘side guess’ (฿4): [might involve placing a card open while waiting?]
 * <span lang="th">สี่ดองมืด</span> ‘concealed (dark) 4 tong’ (฿16): a hand consisting of 4 tongs, with none of them exposed
 * <span lang="th">สี่ตองผ่อง</span> ‘open (bright) 4 tong’ (฿8): a hand consisting of 4 tongs, with at least one exposed
-{/** [unsure of next one ???] (฿4, 8, 12, 16, 20, 24)*/}
+> [!todo]  [unsure of next one ???] (฿4, 8, 12, 16, 20, 24)
 * <span lang="th">สามดับ</span> ‘three out’ (฿12): one set of anything, with the remaining eight cards being of a single rank, winning on a ninth to form three tongs
 * <span lang="th">สามแดง</span> ‘three reds’ (฿40): one set of anything, with the remaining eight being red-stamped cards, winning on a ninth to form three tongs
 * ช่องขาว ‘white slot’ (฿40): no joker, [waiting for something?]
@@ -100,9 +100,7 @@ Scoring possibilities for the winner are as follows. I have found these the hard
 
 ## Pong
 
-The game is also played in Malaysia under the name <span class="noun aka" lang="ms">Pong</span>. In @GamblingGamesOfMalaya [p. 137–8] it is described as being played with Mahjong tiles, but I think it is probably also played with {%a ceki%}. According to the book, it is played in the state of [Kelantan](https://en.wikipedia.org/wiki/Kelantan), which is adjacent to Thailand.
-
-In Malaysia it is only played with four players.
+The game is also played in Malaysia under the name <span class="noun aka" lang="ms">Pong</span>. In @GamblingGamesOfMalaya [p. 137–8] it is described as being played with Mahjong tiles, but I think it is probably also played with [Ceki cards](articles/cards/ceki/ceki.md). According to the book, it is played in the Malaysian state of [Kelantan](https://en.wikipedia.org/wiki/Kelantan), which is adjacent to Thailand. The game as reported there is only played with four players.
 
 To play with Mahjong tiles, use 120 tiles: all of the suited (circle, bamboo, character) tiles, as well as the honour (“dragon”) tiles, but no winds or flowers.
 

@@ -69,7 +69,7 @@ There are several different kinds of bets that can be made. I present the someha
 
 * **Fan**, a bet on a single outcome, paying 3&ratio;1
   * <span lang="zh">番</span>, Cantonese <span lang="yue-Latn-jyutping">faan¹</span>, or <span lang="zh">孤(番)</span> <span lang="yue-Latn-jyutping">gu¹ (faan¹)</span> ‘grasping (at turns)’[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
-  * Vietnamese: <span lang="vi-Hani">番</span> <span lang="vi">fan</span> 
+  * Vietnamese: <span lang="vi-Hani">番</span> <span lang="vi">fan</span>
 * **Kwok**, a bet on two outcomes, paying 1&ratio;1
   * <span lang="zh">角</span> ‘corner’, Cantonese <span lang="yue-Latn-jyutping">gok³</span>, Mandarin <span lang="cmn-Latn-pinyin">jiǎo</span>[@GamblingGamesOfMalaya p. 123][@GamblingInChinaReconsidered p. 183]
   * in older sources a bet on two numbers on opposite sides of the board is called <span lang="zh">川</span>, Cantonese <span lang="yue-Latn-jyutping">cyun¹</span>,[@GamblingGamesOfMalaya p. 123] nowadays this is treated uniformly
@@ -79,7 +79,7 @@ There are several different kinds of bets that can be made. I present the someha
   * <span lang="zh">念</span> ‘worry’, Cantonese <span lang="yue-Latn-jyutping">nim⁶</span>
   * <span lang="zh">黏</span> ‘stick (to the side of)’ Cantonese <span lang="yue-Latn-jyutping">nim⁴/nim¹</span>, Hokkien: <span lang="nan-Latn">liâm</span>[@GamblingGamesOfMalaya p. 123]
   * in older sources this bet on two opposite numbers is called <span lang="zh">同</span>, Cantonese <span lang="yue-Latn-jyutping">tung⁴</span>;[@GamblingGamesOfMalaya p. 123] nowadays this is treated uniformly
-  * Vietnamese: <span lang="vi-Hani">念</span> <span lang="vi">niệm</span> 
+  * Vietnamese: <span lang="vi-Hani">念</span> <span lang="vi">niệm</span>
 * **Hong**, a bet on a single outcome and two others to push, called:
   * <span lang="yue">正(頭)</span>, Cantonese <span lang="yue-Latn-jyutping">zing³ tau⁴</span> ‘straight (side)’,[@GamblingGamesOfMalaya p. 119][@ChinaAHistoryOfTheLaws p. 386] [refers to the working face of a coal mine?]
   * <span lang="zh">大眼</span> (although GGoM has 眠) ‘big eyes’[@GamblingGamesOfMalaya p. 119]
@@ -89,9 +89,9 @@ In modern casino games the Hong bet is usually removed, and two additional bets 
 
 * **Nga Tan**, a bet on two outcomes, paying 1&ratio;2, and one other to push
   * <span lang="zh">丫攤</span> ‘booth’
-  * Vietnamese: <span lang="vi-Hani">通</span> <span lang="vi">thông</span> ‘across’ or <span lang="vi-Hani">丫</span> <span lang="vi">nha</span> 
+  * Vietnamese: <span lang="vi-Hani">通</span> <span lang="vi">thông</span> ‘across’ or <span lang="vi-Hani">丫</span> <span lang="vi">nha</span>
 * **SSH** or **Sheh-Sam-Hong**, a bet on three outcomes, paying 1&ratio;3
-  * <span lang="zh">射三紅</span> ‘shooting three rows’, Cantonese <span lang="yue-Latn-jyutping">se⁶ saam¹ hung⁴</span>, Mandarin <span lang="cmn-Latn-pinyin">shèsānhóng</span>[@GamblingInChinaReconsidered p. 184] 
+  * <span lang="zh">射三紅</span> ‘shooting three rows’, Cantonese <span lang="yue-Latn-jyutping">se⁶ saam¹ hung⁴</span>, Mandarin <span lang="cmn-Latn-pinyin">shèsānhóng</span>[@GamblingInChinaReconsidered p. 184]
   * Vietnamese: <span lang="vi-Hani">三门</span> <span lang="vi">ba cửa</span> ‘three doors’
 
 Other non-traditional bets permitted in online games include:
@@ -200,7 +200,7 @@ photo: https://doi.org/10.25549/impa-m19599
 
 ## Fan-Tan in the Malay Archipelago
 
-As pointed out by @ParadoxicalSoftPower [193], the game is distinctively Cantonese and most strongly associated with the migration of people from Guangdong throughout the 19th and 20th centuries. As such, it appears only rarely in places where the dominant Chinese influence was Teochew, Hokkien, or Hakka.[@ParadoxicalSoftPower 194] Thus, the game was not well-known in the Malay Archipelago, although references to it do exist. 
+As pointed out by @ParadoxicalSoftPower [193], the game is distinctively Cantonese and most strongly associated with the migration of people from Guangdong throughout the 19th and 20th centuries. As such, it appears only rarely in places where the dominant Chinese influence was Teochew, Hokkien, or Hakka.[@ParadoxicalSoftPower 194] Thus, the game was not well-known in the Malay Archipelago, although references to it do exist.
 
 {/*
 
@@ -215,11 +215,11 @@ Although they initially populated the mining centers of western Borneo and Bangk
 */}
 
 
-In Thai the game has been called <span lang="th" class="aka">เล่นถั่ว</span> <span lang="th-Latn" class="aka">len thua</span> ‘beans game’,[^fn1] <span lang="th" class="aka">กำถั่ว</span>  <span lang="th-Latn" class="aka">kam thua</span> ‘beans handful’, <span lang="th" class="aka">โปกำ</span> <span class="aka" lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span class="aka" lang="th">ถั่ว</span> <Pronounce lang="th-Latn" class="aka"  file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton">thua</Pronounce> ‘beans’. A variant played with only odd/even outcomes seems to have been called Thamtat (unknown transliteration).[@OnSiameseLiterature 384] The Khmer (<span lang="km" class="aka">ធួ</span> or <span lang="km" class="aka">ថួ</span>, <span lang="km-Latn" class="aka">thuə</span>)[@SEAlangKhmer] and Lao (<span lang="lo" class="aka">ຖົ່ວ</span> <span lang="lo-Latn">thūa</span> ‘beans’) names are clearly related to the Thai ones.
+In Thai the game has been called <span lang="th" class="aka">เล่นถั่ว</span> <span lang="th-Latn" class="aka">len thua</span> ‘beans game’,[^fn1] <span lang="th" class="aka">กำถั่ว</span>  <span lang="th-Latn" class="aka">kam thua</span> ‘beans handful’, <span lang="th" class="aka">โปกำ</span> <span class="aka" lang="th-Latn">pokam</span> ‘handful gambling’(?), or simply <span class="aka" lang="th">ถั่ว</span> <Pronounce lang="th-Latn" class="aka"  file="pronunciation_th_ถั่ว.mp3" pronouncer="skyton">thua</Pronounce> ‘beans’. A variant played with only odd/even outcomes seems to have been called Thamtat (unknown transliteration).[@OnSiameseLiterature 384] The Khmer (<span lang="km" class="aka">ធួ</span> or <span lang="km" class="aka">ថួ</span>, <span lang="km-Latn" class="aka">thuə</span>)[@SEAlangKhmer] and Lao (<span lang="lo" class="aka">ຖົ່ວ</span> <span lang="lo-Latn" class="aka">thūa</span> ‘beans’) names are clearly related to the Thai ones.
 
 [^fn1]: Given as <span lang="th-Latn" class="aka">Len Thoa</span> in older works.[@OnSiameseLiterature 383]
 
-Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a children’s game,[^fn2] called in Buginese <span lang="bug" class="aka">(ᨆ)ᨀᨙᨌᨛ</span> <span lang="bug-Latn" class="aka">(ma)kéce</span>[@BoegineeschWoordenboek 24][^fn3], or in Makassarese <span lang="mak">(ᨕ)ᨀᨙᨌᨙ</span> <span lang="mak-Latn" class="aka">(a)kécé</span>[@MakassaarschWoordenboek 32][^fn4] In this version, the game is for four players only; each player sits on one side, and the remainder of the counting-out determines the winning player.[GamesAndDances 332–3]
+Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a children’s game,[^fn2] called in Buginese <span lang="bug" class="aka">(ᨆ)ᨀᨙᨌᨛ</span> <span lang="bug-Latn" class="aka">(ma)kéce</span>[@BoegineeschWoordenboek 24][^fn3], or in Makassarese <span lang="mak">(ᨕ)ᨀᨙᨌᨙ</span> <span lang="mak-Latn" class="aka">(a)kécé</span>.[@MakassaarschWoordenboek 32][^fn4] In this version, the game is for four players only; each player sits on one side, and the remainder of the counting-out determines the winning player.[@GamesAndDances 332–3]
 
 [^fn2]: I would assume that it was also played by adults, but I don’t have any evidence to cite for that.
 
@@ -236,7 +236,7 @@ Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a c
 In Balinese the game was called <span class="aka" lang="ban">ᬓᭂᬍᬲᬦ᭄</span> <span class="aka" lang="ban-Latn">kelesan</span> or <span class="aka" lang="ban">ᬫᬓᭂᬍᬲ᭄</span> <span class="aka" lang="ban-Latn">makeles</span>; {/* https://dictionary.basabali.org/w/index.php?title=Kelesan&uselang=en */} and probably in Javanese <span lang="jv">ꦏꦺꦕꦺꦏ꧀</span> <span class="aka" lang="jv-Latn">kècèk</span>.[@GamesAndDances 333][@ContemporaryIndonesian 152][@MakassaarschWoordenboek 32]
 
 {/*
-Balinese might also use "(ma)keles" 
+Balinese might also use "(ma)keles"
 
 keles/kelesan/makeles @KamusBaliIndonesia 357
 

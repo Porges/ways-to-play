@@ -2,10 +2,14 @@
 title: Faro
 draft: true
 players: banking
+aliases: [Faro]
+linter-yaml-title-alias: Faro
+date created: 2024-12-18
+date modified: 2025-02-17
 ---
+# Faro
 
-
-{/* DOI is broken: https://doi.org/10.25549/chs-m11411 */}
+> [!todo] DOI is broken: https://doi.org/10.25549/chs-m11411
 
 > [!figure]
 >

@@ -72,7 +72,7 @@ In 1849, a traveller from Yunnan province visited Guangdong and reported that:
 In the late 19th century, the game was also known as <span lang="cmn-Latn-pinyin" class="aka">xiǎowéixìng</span> <span lang="zh" class="aka">小闈姓</span> ‘small surname guessing lottery’,[@BettingOnEmpire p. 85] after the main <span lang="cmn-Latn-pinyin">wéixìng</span> <span lang="zh">闈姓</span> ‘surname guessing lottery’, which was based upon guessing the surnames of people who passed the [imperial service examinations.](https://en.wikipedia.org/wiki/Imperial_examination)
 
 > [!todo]
-> 
+>
 > Li Hongzhang (<span lang="zh">李鴻章</span>), governor-general of Guangdong, and his successor Deshou (<span lang="zh">德壽</span>), made legal all forms of gambling under license from 1899–1903, but this was reversed by subsequent governor-general Cen Chunxuan (<span lang="zh">岑春煊</span>).[@BettingOnEmpire p. 336]
 
 > [!todo]
@@ -95,10 +95,10 @@ In the late 19th century, the game was also known as <span lang="cmn-Latn-pinyin
 >
 >  In fact, according to Zhao Lifeng's testimony that "Qin Ying banned white pigeon tickets in Guangdong in the ninth year of Jiaqing", it can be assumed that white pigeon tickets existed in Guangdong in the ninth year of Jiaqing (February 11, 1804-January 30, 1805) and were transmitted from Macao. This is because, in fact, during the Qian-Jia period, Chinese officials at various levels of government in Guangdong Province, Guangzhou Prefecture, and Xiangshan County repeatedly ordered the Portuguese chiefs of Macau, the "yi mu", to prohibit "gambling events" among the Chinese and foreign residents of Macau. (42) Although the information does not explicitly mention the name of the "gambling events", the author, after a comprehensive study, believes that these "gambling events" were caused by the introduction of the Western lottery from Portugal and the Chinese lottery, or pigeon tickets, which were inspired by the Chinese. For example, on the seventh day of the third month of the tenth year of Jiaqing (April 6, 1805), Peng Zhaolin, the governor of Xiangshan, investigated "the incident of the gambling of the foreign merchants by opening bids," issuing a circular saying: "If the people are confused to buy the bids by opening bids, they are forbidden to do so. [If you do not comply with the law, or if you still have a case of crowded bidding, the county will visit the case and report it to the Grand Constabulary for investigation and serious punishment." (43) From the text of this prohibition, it can be inferred that "the incident of the lottery of a foreign merchant" had already occurred and was prohibited by order of the county magistrate who was far away from Xiangshan County. Since the lottery was first issued in 1810, it is clear that this was not a lottery for Ren Ci Tang. The "bid" mentioned in the article for "opening" and "buying" is an abbreviation of "white pigeon bid (ticket)". The name of the "Pigeon Ticket" in the Macao Government Gazette of May 22, 1872 is "Lotaria de China", which means "Chinese Lottery". (44) It can be seen that the "Lotaria de China" is a Chinese lottery. (44) It can be seen that the "white pigeon (ticket)" is a product of the Portuguese lottery principle and then modified in the Chinese way, so it is called "Chinese lottery" or "Chinese lottery". Moreover, pigeons are mostly gray, with brown and white being the minority. The common name for pigeons as "white pigeons" is unique to Cantonese, and is the result of a phonetic change from the ancient name for pigeons, "卧式鴿". (45) The pronunciation or writing of "ticket" as "biao" is also a phenomenon still retained in the Cantonese dialect. For example, in Hong Kong, the Cantonese language still refers to "horse tickets" as "馬標 (ticket)" and "winning horse tickets" as "中馬標 (ticket)". This proves that the "Chinese lottery" or "Chinese lottery", which originated from the Portuguese lottery and was created in Macau, Guangdong, was created and officially named by the Cantonese.
 
-What is known for certain is that it was first legalized in Macau by [<span class="noun" lang="pt">João Maria Ferreira do Amaral</span>](https://en.wikipedia.org/wiki/Jo%C3%A3o_Maria_Ferreira_do_Amaral) (1803–1849), who authorized the game in January 1847 upon the request of local Chinese businessmen.[@GamesOfChanceInMacau2 p. 110] Macau had been declared a free port in 1845, hoping to increase trade and business under competition from the recently-established British colony at Hong Kong (1842). Despite this, Macau was still in decline and Amaral was under pressure to raise revenue. Attempts by Amaral to introduce new taxes were unpopular and had even led to [an armed revolt](https://en.wikipedia.org/wiki/Revolt_of_the_Faiti%C3%B5es) in October 1846. Thus, a system was devised whereby monopoly rights for important goods (including pork and beef, fish, salt, oysters and opium) were sold or auctioned off.  Gambling monopolies were a logical extension of this idea. 
+What is known for certain is that it was first legalized in Macau by [<span class="noun" lang="pt">João Maria Ferreira do Amaral</span>](https://en.wikipedia.org/wiki/Jo%C3%A3o_Maria_Ferreira_do_Amaral) (1803–1849), who authorized the game in January 1847 upon the request of local Chinese businessmen.[@GamesOfChanceInMacau2 p. 110] Macau had been declared a free port in 1845, hoping to increase trade and business under competition from the recently-established British colony at Hong Kong (1842). Despite this, Macau was still in decline and Amaral was under pressure to raise revenue. Attempts by Amaral to introduce new taxes were unpopular and had even led to [an armed revolt](https://en.wikipedia.org/wiki/Revolt_of_the_Faiti%C3%B5es) in October 1846. Thus, a system was devised whereby monopoly rights for important goods (including pork and beef, fish, salt, oysters and opium) were sold or auctioned off.  Gambling monopolies were a logical extension of this idea.
 
 The Macau Senate were unhappy with a number of the decisions made by the
-governor, and complained directly to Lisbon that, among other things, 
+governor, and complained directly to Lisbon that, among other things,
 
 > … the Chinese were given license to operate lotteries inside the city, a thing
 > that the same Government which allowed it had just two months before forbidden
@@ -185,7 +185,7 @@ The area where the tickets were to be drawn, and where the bank’s capital was 
 > > ```
 > >
 > > Drawing of tickets (Australia, 1873).[@DrawingTheNumbersForTheBankTicket]
-> 
+>
 > > [!figure]
 > >
 > > ![A closer-in drawing than the previous one: a small crowd of people gathered outside the bars of a bank. Inside a Chinese man is pinning up characters onto a board. In the crowd a man and a small girl are both holding tickets. On a table inside the bank is a chest with four bowls around it and long knives standing endwise on the table. A depiction of a ticket is inset.](drawing_the_lottery.jpg)
@@ -209,11 +209,11 @@ Another feature that was sometimes used that allowed players to feel like they h
 > Lai Biao: merging into round numbers
 > Pan Hou: start of a set
 > Zhuang: guessing
-> 
+>
 > a formation on 13 characters: foot of a ghost
 > 14: belly of a ghost (circle of characters)
 > 14?: picture of a hundred children
-> 
+>
 > abacus: two parallel rows
 > brocade: concentric rows
 > rotten firewood case: rugged rows
@@ -588,7 +588,7 @@ Despite the existence of other very similar games in China, such as the ‘mount
 > Mark Twain visits a Chinese lottery. Note brush in the right hand.[@RoughingIt p. 396]
 
 According to @EncyclopediaOfKeno, the game was introduced to the Western United
-States in the mid-19th century, and had reached the Eastern cities by 1870. 
+States in the mid-19th century, and had reached the Eastern cities by 1870.
 
 Mentions of “Chinese lotteries” begin to appear in Californian newspapers from
 the 1860s, and sometime around 1863 Mark Twain mentioned the game in a report
@@ -618,7 +618,7 @@ By the time <span lang="cmn-Latn-pinyin" class="noun">Liang Qichao</span> visite
 >
 > FoolsOfFortuneOrGamblingAndGamblers
 > ticket = 10¢
-> 
+>
 > 5 = 20¢
 > 6 = $3.25
 > 10 = $297
@@ -643,7 +643,7 @@ World War II, the army forced the closure of many lotteries to stop servicemen
 stationed on the West Coast from spending their money on gambling; most did not
 re-open after the war.[@WhenChinatownHadItsOwnLotteries]
 
-Other banks (often termed “companies” on 20th-century tickets) I have [seen](https://web.archive.org/web/20071006145040/http://www.chinesecol.com/treasure5.html) include:[^fn3] American Co. (Chinese title <span lang="zh">花旗夜廠</span>), Liberty Co. (<span lang="zh">自由日廠</span>), Sun Set Co. (<span lang="zh">順式日廠</span>), Cleveland Co. (<span lang="zh">企李倫夜廠</span>), New World Co. (<span lang="zh">新世界夜廠</span>), and Oregon Co. (<span lang="zh">柯利近日廠</span>). In the Penn Museum are bundles of 19th-century tickets from [Lee Kee Co.](https://www.penn.museum/collections/object/100724) (<span lang="zh">利記廠</span>) and [Tai Kee Co.](https://www.penn.museum/collections/object/265515) (<span lang="zh">泰記厰</span>).  Californian companies included [Fook Tai](https://calisphere.org/item/ark:/13030/hb1t1n982s/) (<span lang="zh">泰福夜厰</span>), [The Sun](https://www.abebooks.co.uk/Vintage-Chinese-lottery-tickets-Fook-Tai/10106995025/bd) (?), [Lee Tai](https://calisphere.org/item/ark:/13030/hb3j49n63p/) (<span lang="zh">利泰日厰</span>), [Boston](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?order=2&brand=oac4) (<span lang="zh">保市頓</span>), and [American Co.](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?order=4&brand=oac4) (<span lang="zh">花旗</span>). 
+Other banks (often termed “companies” on 20th-century tickets) I have [seen](https://web.archive.org/web/20071006145040/http://www.chinesecol.com/treasure5.html) include:[^fn3] American Co. (Chinese title <span lang="zh">花旗夜廠</span>), Liberty Co. (<span lang="zh">自由日廠</span>), Sun Set Co. (<span lang="zh">順式日廠</span>), Cleveland Co. (<span lang="zh">企李倫夜廠</span>), New World Co. (<span lang="zh">新世界夜廠</span>), and Oregon Co. (<span lang="zh">柯利近日廠</span>). In the Penn Museum are bundles of 19th-century tickets from [Lee Kee Co.](https://www.penn.museum/collections/object/100724) (<span lang="zh">利記廠</span>) and [Tai Kee Co.](https://www.penn.museum/collections/object/265515) (<span lang="zh">泰記厰</span>).  Californian companies included [Fook Tai](https://calisphere.org/item/ark:/13030/hb1t1n982s/) (<span lang="zh">泰福夜厰</span>), [The Sun](https://www.abebooks.co.uk/Vintage-Chinese-lottery-tickets-Fook-Tai/10106995025/bd) (?), [Lee Tai](https://calisphere.org/item/ark:/13030/hb3j49n63p/) (<span lang="zh">利泰日厰</span>), [Boston](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?order=2&brand=oac4) (<span lang="zh">保市頓</span>), and [American Co.](https://oac.cdlib.org/ark:/13030/hb3j49n63p/?order=4&brand=oac4) (<span lang="zh">花旗</span>).
 
 [^fn3]: The suffix of the ticket title in Chinese here indicates whether the ticket was for a day (<span lang="zh">日</span>) or night (<span lang="zh">夜</span>) draw.
 
@@ -664,13 +664,13 @@ and the proprietors charged.[@PoliceCourtsAChineseLottery]
 > [!todo]
 > https://trove.nla.gov.au/newspaper/article/5749196/212600
 > 6 = 2s 6d
-> 
+>
 >1864
 > https://trove.nla.gov.au/newspaper/article/5734118
 > 5 = 1s 2d
 > 7 = £4 8s 6d
 > 10 = £84
-> 
+>
 > 1873 https://trove.nla.gov.au/newspaper/article/60447577/5734094
 > 5 = 1s 2d
 > 6 = 9s
@@ -678,17 +678,17 @@ and the proprietors charged.[@PoliceCourtsAChineseLottery]
 > 8 = £21
 > 9 = £42
 > 10 = £71
-> 
+>
 > 1876
 > @InAChineseLotteryShop
-> 
+>
 > 5 = 1s
 > 7 = £3 15s
 > 10 = £75
 
 The first explicit mention of the game that I have found under the name “pak-a-pu” is in 1873, when a case was brought against the proprietors of the Heng Hi store on Little Bourke Street in Melbourne for running a pak-a-pu bank.[@TheChineseGamblingHouses] The bank was known as the “No. 6” or “You Lee” lottery. Picking all ten numbers on a sixpenny ticket would return £75. A similar case was brought against the “No. 2” or “Shing Lee” lottery in 1874.[@TheChineseLotteryCases] Both banks were reported to carry a capital of £300, which is also reported elsewhere as the standard amount carried (and usually limited the maximum payouts).
 
-There were perhaps attempts by the banks to make themselves publicly acceptable, as in 1874 the “Chinese Pak-Cup-Pew Trading Company” made a donation of £100 towards the hospital in Melbourne.[@PakCupPewHospital] 
+There were perhaps attempts by the banks to make themselves publicly acceptable, as in 1874 the “Chinese Pak-Cup-Pew Trading Company” made a donation of £100 towards the hospital in Melbourne.[@PakCupPewHospital]
 
 In any case, despite suppression, the game became very popular in Melbourne: in 1876 it was reported that there were 25 agents operating in the area between Swanston and Russell streets.[@InAChineseLotteryShop p. 7]
 
@@ -819,10 +819,12 @@ With the game seeming to be on the verge of becoming legal, in 1904, the “Gami
 During parliamentary debate on the proposed bill,
 
 > Mr Hone Heke[^heke] wanted to know why the Chinese were to be limited in their games and recreations, when lotteries at church bazaars were allowed to proceed without interference.
-> 
-> Mr [W. Fraser](https://en.wikipedia.org/wiki/William_Fraser_(New_Zealand_politician,_born_1840)) thought it was right to punish Europeans found in a Chinese gambling house, but seeing that Europeans were allowed to participate in various games of chance, he objected to punishing Chinese for doing the same thing.[@HoneHekePakAPoo]
+>
+> Mr W. Fraser[^wfraser] thought it was right to punish Europeans found in a Chinese gambling house, but seeing that Europeans were allowed to participate in various games of chance, he objected to punishing Chinese for doing the same thing.[@HoneHekePakAPoo]
 
-[^heke]: i.e. [<span class="noun" lang="mi">Hōne Heke Ngāpua</span>,](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke_Ng%C4%81pua) great-nephew of the more famous [<span class="noun" lang="mi">Hōne Heke Pōkai</span>.](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke)
+[^heke]: i.e. [<span class="noun" lang="mi">Hōne Heke Ngāpua</span>](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke_Ng%C4%81pua), a Liberal party member and great-nephew of the more famous [<span class="noun" lang="mi">Hōne Heke Pōkai</span>.](https://en.wikipedia.org/wiki/H%C5%8Dne_Heke)
+
+[^wfraser]: [William Fraser](https://en.wikipedia.org/wiki/William_Fraser_(New_Zealand_politician,_born_1840)), at this point an independent, later a member of the conservative Reform party.
 
 As noted in that last paragraph, it was often considered that the game was suitable for Chinese people but not Europeans. [Robin Hyde](https://en.wikipedia.org/wiki/Robin_Hyde), writing later in 1934, noted:
 
@@ -910,7 +912,7 @@ More evidence for this is that, although Fan-Tan is a feature of several stories
 ### In South Africa
 
 According to @TheBantuInTheCity [p. 219], four syndicates were operating
-throughout the Johannesburg area in 1935. 
+throughout the Johannesburg area in 1935.
 
 ### In Canada
 
@@ -979,13 +981,13 @@ A newspaper report of the time shows the confused reaction to Crane’s August a
 
 > Pike—“Does the license ask for keno? Do they intend to play keno or Chinese
 > keno?”
-> 
+>
 > Boyd—“Try and find a definition for keno?”
-> 
+>
 > Pike—“I can show you one in [Corpus
 > Juris](https://en.wikipedia.org/wiki/Corpus_Juris) and it does not include the
 > Chinese game.”
-> 
+>
 > Boyd—“Does it include the games played in places on Virginia street. Any time
 > you take numbered balls out of—”
 >
