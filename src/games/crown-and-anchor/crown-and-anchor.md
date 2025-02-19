@@ -16,9 +16,11 @@ date created: 2024-12-18
 aliases: ["Crown & Anchor "]
 linter-yaml-title-alias: "Crown & Anchor "
 ---
-# Crown & Anchor 
+# Crown & Anchor
 
-<span class="aka">Crown & Anchor</span> is a dice game that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world. The game play is equivalent to that of [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md), but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.
+<span class="aka">Crown & Anchor</span> is a dice game using three special dice that is probably most famous as being popular with British and “Colonial” servicemen in the early 20th century, but today it is played in many locations around the world.
+
+The game play is equivalent to that of [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md), but the pips on the dice and the numbers on the staking-table are replaced by symbols: the titular 👑&#xfe0e; crown and ⚓&#xfe0e; anchor, and the playing-card suits: <Cards>s</Cards> spade, <Cards>c</Cards> club, <Cards>d</Cards> diamond, and <Cards>h</Cards> heart.
 
 > [!figure]
 >
@@ -28,7 +30,7 @@ linter-yaml-title-alias: "Crown & Anchor "
 > originalUrl: https://averweij.web.cern.ch/crownanchor.htm
 > authorGiven: Arjan
 > authorFamily: Verweij
-> license: with-permission 
+> license: with-permission
 > ```
 >
 > Crown & Anchor dice from the early 20th century.
@@ -38,7 +40,7 @@ linter-yaml-title-alias: "Crown & Anchor "
 
 > [!epigraph]
 >
-> ‘It’s a fair game,’ he was saying; ‘it’s a fair game. The wee boy has the same chance as the old man, and the old man as the wee boy.’[@ItsAFineWorld p. 210] 
+> ‘It’s a fair game,’ he was saying; ‘it’s a fair game. The wee boy has the same chance as the old man, and the old man as the wee boy.’[@ItsAFineWorld p. 210]
 
 Please note that the following is (necessarily, for me) biased toward
 English-language sources. It is entirely possible the game has a longer history
@@ -55,7 +57,7 @@ elsewhere; for the moment, at least, I cannot say.
 > originalUrl: https://collections.museumsvictoria.com.au/items/387918
 > authorFamily: Morrow
 > authorGiven: Sandra
-> orgName: Museums Victoria  
+> orgName: Museums Victoria
 > ```
 >
 > A Crown & Anchor mat purchased in Colombo (Sri Lanka) in 1915 and used by Australian troops while in transport.
@@ -81,7 +83,7 @@ Other variants were developed through the 19th century: In 1842, the <cite>Punch
 > position: aside
 > authorGiven: Arjan
 > authorFamily: Verweij
-> license: with-permission 
+> license: with-permission
 > ```
 >
 > Modern versions of “anchor & sun” dice.
@@ -109,7 +111,7 @@ An interesting patent lodged in England in 1895 (see image) indicates that the c
 >
 > ```yaml
 > noborder: true
-> license: "cc0" 
+> license: "cc0"
 > ```
 >
 > An image from the patent for the game “Stars and Stripes”.
@@ -133,9 +135,9 @@ References from the end of the Boer War period refer to returning British soldie
 ### World War I
 
 > [!figure]
-> 
+>
 > ![](6089711.jpg)
-> 
+>
 > ```yaml
 > license: cc0
 > originalUrl: https://www.awm.gov.au/collection/E04801
@@ -181,8 +183,8 @@ At the beginning of WWI the game was, at least at first, still unfamiliar to man
 > ```yaml
 > size: wide
 > license: cc0
-> originalUrl: https://www.awm.gov.au/collection/C607?image=1 
-> orgName: Australian War Memorial 
+> originalUrl: https://www.awm.gov.au/collection/C607?image=1
+> orgName: Australian War Memorial
 > ```
 >
 > Australians playing Crown & Anchor aboard HMAT Medic, <abbr>c.</abbr> 1919.
@@ -286,7 +288,7 @@ A version of the game played by workers constructing Scotland’s hydro-electric
 >
 > ```yaml
 > noborder: true
-> size: wide 
+> size: wide
 > ```
 >
 > Countries known to play Crown & Anchor.
@@ -303,10 +305,10 @@ discussed in the [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md) article.
 >
 > ```yaml
 > position: aside
-> originalUrl: https://averweij.web.cern.ch/hoo-hey-how.htm 
+> originalUrl: https://averweij.web.cern.ch/hoo-hey-how.htm
 > authorGiven: Arjan
 > authorFamily: Verweij
-> license: with-permission 
+> license: with-permission
 > ```
 >
 > Modern Chinese dice.
@@ -346,10 +348,10 @@ The Vietnamese game has a similar æsthetic to the Chinese version, including th
 >
 > ```yaml
 > position: aside
-> originalUrl: https://averweij.web.cern.ch/sunanchor.htm 
+> originalUrl: https://averweij.web.cern.ch/sunanchor.htm
 > authorGiven: Arjan
 > authorFamily: Verweij
-> license: with-permission 
+> license: with-permission
 > ```
 >
 > Modern Vietnamese dice, made out of paper.
@@ -365,7 +367,7 @@ The Vietnamese game has a similar æsthetic to the Chinese version, including th
 > license: stock-image
 > orgName: Shutterstock.com
 > originalUrl: https://www.shutterstock.com/image-photo/traditional-vietnamese-game-bau-cua-tom-541065277
-> identifier: '541065082' 
+> identifier: '541065082'
 > ```
 >
 > Three dice as used in the Vietnamese game.
@@ -381,10 +383,10 @@ I have little information about the game in Thailand other than that the paraphe
 >
 > ```yaml
 > position: aside
-> originalUrl: https://averweij.web.cern.ch/hoo-hey-how.htm 
+> originalUrl: https://averweij.web.cern.ch/hoo-hey-how.htm
 > authorGiven: Arjan
 > authorFamily: Verweij
-> license: with-permission 
+> license: with-permission
 > ```
 >
 > Modern Thai dice.
@@ -422,7 +424,7 @@ The name of the game appears to be <span lang="my" class="aka">ဂျောက�
 Again I have little information about the game here. Some images of the game being played in Laos follow. Interestingly, both photos show a board with Thai names.
 
 > [!multi-wide]
-> 
+>
 > > [!figure]
 > >
 > > ![Children crowded around a table, staking money on the spaces.](8373019722_76fabf1dfc_o.jpg)
@@ -436,7 +438,7 @@ Again I have little information about the game here. Some images of the game bei
 > > ```
 > >
 > > Children playing with a Thai-produced board in Laos.
-> 
+>
 > > [!figure]
 > >
 > > ![A man places a large die into a dice tower above a staking table.](14740162634_e123789f25_o.jpg)
@@ -465,9 +467,9 @@ In current times, the game is called <span lang="hi" class="aka">झंडी �
 Gambling remains illegal in most of India but the game is commonly played during [<span class="noun" lang="hi-Latn">Diwali</span>](https://en.wikipedia.org/wiki/Diwali).
 
 > [!figure]
-> 
+>
 > ![](shutterstock_1958829937.svg)
-> 
+>
 > ```yaml
 > license: stock-image
 > orgName: Shutterstock.com
@@ -477,7 +479,7 @@ Gambling remains illegal in most of India but the game is commonly played during
 > ```
 >
 > An example of a staking layout for <span class="noun" lang="hi-Latn">Jhaṇḍī Muṇḍā</span>.
-> 
+>
 > Note that the heart is presented with the same orientation as the spade; this appears to be a typical feature (see more examples: [1](https://www.alamy.com/stock-photo-traditional-gambling-in-indian-village-on-a-festival-132646298.html), [2](https://www.alamy.com/stock-photo-children-playing-gambling-game-bahundanda-village-lamjung-district-27979377.html)).
 
 The names of the symbols are (in Hindi):
@@ -511,10 +513,10 @@ The names of the symbols are (in Hindi):
 >
 > ```yaml
 > position: aside
-> originalUrl: https://averweij.web.cern.ch/nepal.htm 
+> originalUrl: https://averweij.web.cern.ch/nepal.htm
 > authorGiven: Arjan
 > authorFamily: Verweij
-> license: with-permission 
+> license: with-permission
 > ```
 >
 > Modern dice for the Nepalese game.
@@ -539,10 +541,10 @@ Some Nepali names for the playing-card symbols are:
 >
 > ```yaml
 > position: aside
-> originalUrl: https://averweij.web.cern.ch/hoo-hey-how.htm 
+> originalUrl: https://averweij.web.cern.ch/hoo-hey-how.htm
 > authorGiven: Arjan
 > authorFamily: Verweij
-> license: with-permission 
+> license: with-permission
 > ```
 >
 > Modern Malaysian dice.
@@ -573,7 +575,7 @@ As in many cultures, gambling is often associated with religious festivals.  Whi
 > copyrightYear: 2011
 > originalUrl: https://www.flickr.com/photos/wtpg/15100534169/
 > ```
-> 
+>
 > A game being played with 6 dice and 12 squares (including one featuring the [Teletubbies](https://en.wikipedia.org/wiki/Teletubbies)!) at <span class="noun" lang="id">Pura Samuan Tiga</span> temple; note the men wearing traditional Balinese dress including [<span lang="ban-Latn">udeng</span>](https://en.wikipedia.org/wiki/National_costume_of_Indonesia#:~:text=Malay%20men%27s%20headgear-,Udeng,-%2C%20Balinese%20men%27s%20headgear).
 
 In the Balinese game, bets can be placed spanning two symbols.
@@ -582,7 +584,7 @@ In the Balinese game, bets can be placed spanning two symbols.
 > what is the bet return here?
 
 > [!todo]
-> Javanese game: https://www.britishmuseum.org/collection/object/A_As-5302 
+> Javanese game: https://www.britishmuseum.org/collection/object/A_As-5302
 
 Some of the sets of symbols used are:
 
@@ -609,7 +611,7 @@ Some of the sets of symbols used are:
 > > ```
 > >
 > > A game being played in Bali: bets are placed…
-> 
+>
 > > [!figure]
 > >
 > > ![](shutterstock_1350321164.jpg)
@@ -657,7 +659,7 @@ The game is still played today in Jamaica.
 > license: cc-by-nd
 > licenseVersion: '2.0'
 > author: Lisa
-> copyrightYear: 2006 
+> copyrightYear: 2006
 > ```
 >
 > A busy game being played during the Cup Match in Bermuda.
@@ -682,7 +684,7 @@ As with [Chuck-a-Luck](games/chuck-a-luck/chuck-a-luck.md), the game has been ad
 > author: Damien D.
 > copyrightYear: 2009
 > licenseVersion: '2.0'
-> license: cc-by-sa 
+> license: cc-by-sa
 > ```
 >
 > A Crown & Anchor wheel in Toronto.

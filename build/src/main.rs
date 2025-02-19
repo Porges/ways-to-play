@@ -175,6 +175,8 @@ impl YamlHeader for ArticleHeader {
 
         let order = take_header(header, "order");
 
+        let _aliases = take_header(header, "aliases"); // Obsidian-specific
+
         Ok(ArticleHeader {
             title,
             title_string,
@@ -221,9 +223,9 @@ pub struct ArticleHeader {
     title_lang: Option<String>,
     original_title: Option<Markup>,
     date_modified: Option<time::Date>,
-    date_created: Option<time::Date>,
     draft: bool,
     order: Option<String>,
+    date_created: Option<time::Date>, // unused as of yet
 }
 
 impl<T: Borrow<ArticleHeader>> BaseMetadata for File<T> {
@@ -608,7 +610,7 @@ impl Builder {
         output_files: &mut Vec<OutputFile>,
         url_lookup: &BTreeMap<String, Option<&str>>,
         akas: Vec<Aka>,
-        cites: HashMap<String, Vec<Arc<(Markup, String)>>>,
+        cites: HashMap<String, Vec<(Arc<Markup>, String)>>,
     ) -> Result<()> {
         output_files.extend([
             self.generate_article(
@@ -616,14 +618,14 @@ impl Builder {
                 url_lookup,
                 None,
                 |_, _| {},
-                |_| {},
+                |_, _| {},
             )?,
             self.generate_article(
                 &self.load_file::<ArticleHeader>(self.base_path.join("see-also.md"))?,
                 url_lookup,
                 None,
                 |_, _| {},
-                |_| {},
+                |_, _| {},
             )?,
             self.templater
                 .bibliography(&self.rendered_bibliography, cites)
@@ -681,7 +683,7 @@ impl Builder {
         url_lookup: &BTreeMap<String, Option<&str>>,
         article_tree: Option<&ArticleNode>,
         aka_handler: impl FnMut(LanguageIdentifier, Markup),
-        cite_handler: impl FnMut(&str),
+        cite_handler: impl FnMut(&str, &str),
     ) -> Result<OutputFile>
     where
         File<T>: ArticleMetadata + BaseMetadata,
@@ -763,7 +765,7 @@ impl Builder {
         let article_tree = self.build_article_tree()?;
 
         let akas = Mutex::new(Vec::new());
-        let cites: Mutex<HashMap<String, Vec<Arc<(Markup, String)>>>> = Default::default();
+        let cites: Mutex<HashMap<String, Vec<(Arc<Markup>, String)>>> = Default::default();
 
         let articles = self
             .articles
@@ -775,9 +777,9 @@ impl Builder {
                     my_akas.push((language, word));
                 };
 
-                let mut my_cites: HashSet<String> = HashSet::new();
-                let push_cite = |ref_id: &str| {
-                    my_cites.insert(ref_id.to_string());
+                let mut my_cites: HashMap<String, String> = Default::default();
+                let push_cite = |ref_id: &str, cite_id: &str| {
+                    my_cites.insert(ref_id.to_string(), cite_id.to_string());
                 };
 
                 let result = self
@@ -790,6 +792,7 @@ impl Builder {
                     )
                     .wrap_err_with(|| eyre!("couldn’t export {}", article.file_path.display()))?;
 
+                let my_title = Arc::new(article.metadata.title.clone());
                 let my_path = Arc::new(article.url_path.to_string());
                 akas.lock()
                     .unwrap()
@@ -799,11 +802,10 @@ impl Builder {
                         url_path: my_path.clone(),
                     }));
 
-                let cite_ref =
-                    Arc::new((article.metadata.title.clone(), article.url_path.to_string()));
                 let mut cites = cites.lock().unwrap();
-                for my_cite in my_cites {
-                    cites.entry(my_cite).or_default().push(cite_ref.clone());
+                for (ref_id, cite_id) in my_cites {
+                    let cite = (my_title.clone(), format!("{}#{}", my_path, cite_id));
+                    cites.entry(ref_id).or_default().push(cite);
                 }
 
                 Ok(result)
@@ -819,15 +821,16 @@ impl Builder {
                     my_akas.push((language, word));
                 };
 
-                let mut my_cites = HashSet::new();
-                let push_cite = |ref_id: &str| {
-                    my_cites.insert(ref_id.to_string());
+                let mut my_cites: HashMap<String, String> = Default::default();
+                let push_cite = |ref_id: &str, cite_id: &str| {
+                    my_cites.insert(ref_id.to_string(), cite_id.to_string());
                 };
 
                 let result = self
                     .generate_article(game, &url_lookup, None, push_aka, push_cite)
                     .wrap_err_with(|| eyre!("couldn’t export {}", game.file_path.display()))?;
 
+                let my_title = Arc::new(game.metadata.article_meta.title.clone());
                 let my_path = Arc::new(game.url_path.to_string());
                 akas.lock()
                     .unwrap()
@@ -842,8 +845,9 @@ impl Builder {
                     game.url_path.to_string(),
                 ));
                 let mut cites = cites.lock().unwrap();
-                for my_cite in my_cites {
-                    cites.entry(my_cite).or_default().push(cite_ref.clone());
+                for (ref_id, cite_id) in my_cites {
+                    let cite = (my_title.clone(), format!("{}#{}", my_path, cite_id));
+                    cites.entry(ref_id).or_default().push(cite);
                 }
 
                 Ok(result)

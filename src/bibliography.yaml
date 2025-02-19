@@ -1637,8 +1637,8 @@ KKS135:
     month: 10
     day: 31
   container-title: Waka Poetry
-  URL: http://www.wakapoetry.net/kks-iii-135/
-  archive-URL: https://web.archive.org/web/20230514123135/http://www.wakapoetry.net/kks-iii-135/
+  URL: https://www.wakapoetry.net/kks-iii-135/
+  archive-URL: https://web.archive.org/web/20230514123135/https://www.wakapoetry.net/kks-iii-135/
 SKKS442:
   type: webpage
   title: "SKKS IV: 442"
@@ -1651,7 +1651,7 @@ SKKS442:
     day: 16
   container-title: Waka Poetry
   URL: https://www.wakapoetry.net/skks-iv-422/
-  archive-URL: https://web.archive.org/web/20220924183425/http://www.wakapoetry.net/skks-iv-422/
+  archive-URL: https://web.archive.org/web/20220924183425/https://www.wakapoetry.net/skks-iv-422/
 GreveSake:
   type: webpage
   title: Ricewine (sake)
@@ -1845,6 +1845,7 @@ NaresGlossary:
   author:
     - given: Robert
       family: Nares
+      url: https://en.wikipedia.org/wiki/Robert_Nares
   issued:
     year: 1822
   publisher: Rivington & Co.
@@ -2123,7 +2124,7 @@ OldTswana:
   author:
     - family: Cole
       given: Desmond T.
-  URL: http://dx.doi.org/10.1080/02572117.1990.10586868
+  URL: https://dx.doi.org/10.1080/02572117.1990.10586868
   page: 345–353
   in:
     title: South African Journal of African Languages
@@ -5775,6 +5776,7 @@ CatalogueOfPrintsAndDrawingsI:
   author:
     - family: Stephens
       given: Frederic
+      url: https://en.wikipedia.org/wiki/Frederic_George_Stephens
   volume: "3 (part 2)"
   volume-title: 1751 to circa 1760
   issued:
@@ -7979,7 +7981,8 @@ ReizeNaarArabie:
     lang: nl
   language: nl
   author:
-    - given: Carsten
+    - &Carsten_Niebuhr
+      given: Carsten
       family: Niebuhr
       lang: de
       url: https://en.wikipedia.org/wiki/Carsten_Niebuhr
@@ -7993,11 +7996,7 @@ ReisebeschreibungNachArabien:
     lang: de
   language: de
   volume: 1
-  author:
-    - given: Carsten
-      family: Niebuhr
-      lang: de
-      url: https://en.wikipedia.org/wiki/Carsten_Niebuhr
+  author: [*Carsten_Niebuhr]
   issued: 1774
   publisher: Nicolaus Moͤller
   publisher-place: Copenhagen
@@ -9921,7 +9920,7 @@ GeneralizingGalileo:
   - given: Vassilios
     family: Hombas
   page: 643–702
-  URL: http://dx.doi.org/10.1080/0020739X.2011.618549
+  URL: https://dx.doi.org/10.1080/0020739X.2011.618549
   in:
     title: International Journal of Mathematical Education in Science and Technology
     volume: 43
@@ -10121,6 +10120,7 @@ LifeOfRichardNash:
   author:
   - given: Oliver
     family: Goldsmith
+    url: https://en.wikipedia.org/wiki/Oliver_Goldsmith
   issued: 1762
   publisher-place: London
   edition: 2
@@ -11876,7 +11876,7 @@ BoardGamesAncientFiction:
 BedouinHeritage:
   type: chapter
   title: Games as Bedouin Heritage for All Generations
-  URL: http://dx.doi.org/10.1007/978-94-6209-950-0_10
+  URL: https://dx.doi.org/10.1007/978-94-6209-950-0_10
   author:
   - given: Ada
     family: Katsap
@@ -12452,7 +12452,7 @@ SwineherdsGossip:
       value: Jīn Xuéshī
       lang: cmn-Latn-pinyin
   issued: 1783
-  notes: See text extracted and explained <a href="https://zhuanlan.zhihu.com/p/615258261">here</a>.
+  notes: See text extracted and explained <a href="https://zhuanlan.zhihu.com/p/615258261">here</a>, and <a href="https://www.chessvariants.com/xiangqivariants.dir/3kingdoms.html">here</a>.
   # extract on the portion about Ma Diao
 UncommonMahJiang:
   type: article-journal
@@ -12758,12 +12758,11 @@ TravelsThroughArabia_1:
   type: book
   URL: https://archive.org/details/bim_eighteenth-century_travels-through-arabia-_niebuhr-carsten_1792_1
   title: Travels through Arabia, and other countries in the East, performed by M. Niebuhr
-  author:
-  - given: M.
-    family: Niebuhr
+  author: [*Carsten_Niebuhr]
   translator:
   - given: Robert
     family: Heron
+    url: https://en.wikipedia.org/wiki/Robert_Heron_(writer)
   volume: 1
   issued: 1792
   original-date:
@@ -12874,6 +12873,7 @@ JeuDeLHombre_1709:
     lang: fr
   publisher-place: Paris
   issued: 1709
+  notes: The British museum also has <a href="https://www.britishmuseum.org/collection/object/P_1876-1014-1081?selectedImageId=1613067861">nice photos</a> of their copy of this.
 JohnCragge:
   type: article-journal
   title: John Cragge’s <cite>The Wits Interpreter</cite>
@@ -12908,7 +12908,7 @@ BlackAces:
   - given: Oliver R.
     family: Baker
   page: 13-16
-  URL: http://dx.doi.org/10.1080/0895769X.2013.749156
+  URL: https://dx.doi.org/10.1080/0895769X.2013.749156
   in:
     title: 'ANQ: A Quarterly Journal of Short Articles, Notes, and Reviews'
     volume: 26
@@ -13875,14 +13875,27 @@ JapanscheRijk:
   title:
     lang: nl
     value: Bijdrage tot de kennis van het Japansche rijk
+  language: nl
   author:
-  - given: J. F.
-    family: van Overmeer Fischer
+  - &Overmeer_Fisscher
+    given: J. F.
+    family: van Overmeer Fisscher
     lang: nl
   URL: https://archive.org/details/bijdragetotdeken00over
   publisher: J. Müller & Comp.
   publisher-place: Amsterdam
   issued: 1833
+OvermeerFisscherCollection:
+  type: book
+  title:
+    lang: nl
+    value: Beredeneerde catalogus van eene fraaie verzaeling Japansche voorwerpen
+  language: nl
+  author: [*Overmeer_Fisscher]
+  URL: https://gallica.bnf.fr/ark:/12148/btv1b10501681d
+  issued: 1829
+  notes: See page 36r for a few games. Note that there are other (different) copies of this catalogue in other collections. See, for example, [GB 891 SC43](https://royalasiaticarchives.org/index.php/catalogue-of-the-japanese-collection-of-j-f-van-overmeer-fisscher) in the Royal Asiatic Society archives.
+  publisher-place: Nagasaki, Japan
 LiberianTribes:
   type: book
   title: Tribes of the Liberian Hinterland
@@ -14018,6 +14031,7 @@ JanuaLinguarum1641:
   - given: J. A.
     family: Comenio
     alt: John Amos Comenius
+    url: https://en.wikipedia.org/wiki/John_Amos_Comenius
   translator:
   - given: Thomas
     family: Horn
@@ -14044,6 +14058,7 @@ IanvaAvreaReserata1676:
   - given: I. A.
     family: Comenii
     alt: John Amos Comenius
+    url: https://en.wikipedia.org/wiki/John_Amos_Comenius
 IanvaAvreaReserata1644:
   type: book
   title:
@@ -14055,6 +14070,7 @@ IanvaAvreaReserata1644:
   - given: I. A.
     family: Comenii
     alt: John Amos Comenius
+    url: https://en.wikipedia.org/wiki/John_Amos_Comenius
   translator:
   - given: Nathanaele
     family: Dhuëz
@@ -14075,6 +14091,7 @@ JanuaLinguarum1661:
   - given: J. A.
     family: Comenii
     alt: John Amos Comenius
+    url: https://en.wikipedia.org/wiki/John_Amos_Comenius
   translator:
   - given: Nathanaele
     family: Duesio
@@ -14093,6 +14110,7 @@ IanvaLingvarvm1638:
   - given: I. A.
     family: Comenii
     alt: John Amos Comenius
+    url: https://en.wikipedia.org/wiki/John_Amos_Comenius
   issued: 1638
   publisher:
     value: Ioannem Ianssonium
@@ -14109,6 +14127,7 @@ TaylorComenius:
   - given: J. A.
     family: Comenii
     alt: John Amos Comenius
+    url: https://en.wikipedia.org/wiki/John_Amos_Comenius
   URL: https://editions.mml.ox.ac.uk/editions/comenius/
   issued:
     year: 1662
@@ -14125,6 +14144,7 @@ IanvaAvrea1649:
   - given: I. A.
     family: Comenii
     alt: John Amos Comenius
+    url: https://en.wikipedia.org/wiki/John_Amos_Comenius
   translator:
   - given: Theodoro Simonio
     family: Holsato
@@ -14164,7 +14184,7 @@ PaiPong:
     lang: th
     alt: <span lang="th-Latn">Pai Pong, Pai Phong Thai</span>
   issued: 2005
-  notes: Images of this book(let) can be found <a href="http://themissingbooks.lnwshop.com/product/2011/%E0%B9%84%E0%B8%9E%E0%B9%88%E0%B8%95%E0%B8%AD%E0%B8%87-%E0%B9%84%E0%B8%9E%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9F%E0%B8%A3%E0%B8%B5">here</a>.
+  notes: Images of this book(let) can be found <a href="https://themissingbooks.lnwshop.com/product/2011/%E0%B9%84%E0%B8%9E%E0%B9%88%E0%B8%95%E0%B8%AD%E0%B8%87-%E0%B9%84%E0%B8%9E%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9F%E0%B8%A3%E0%B8%B5">here</a>.
   author:
   - family: รตานนท์
     given: '?'
@@ -15236,6 +15256,7 @@ HistoryOfJava:
   author:
   - given: Thomas Stamford
     family: Raffles
+    url: https://en.wikipedia.org/wiki/Stamford_Raffles
 TheBurman_2e:
   title: 'The Burman: His Life and Notions'
   type: book
@@ -17879,6 +17900,7 @@ AlmanachDesJeux:
   author:
   - given: François-André Danican
     family: Philidor
+    url: https://en.wikipedia.org/wiki/Fran%C3%A7ois-Andr%C3%A9_Danican_Philidor
 RulesOfReversis:
   type: book
   title: Rules of Reversis, as played in the fasionable circles
@@ -18239,8 +18261,10 @@ JongleursEtTrouveres:
     lang: fr
   language: fr
   editor:
-  - given: Achille
+  - &Achille_Jubinal
+    given: Achille
     family: Jubinal
+    url: https://en.wikipedia.org/wiki/Achille_Jubinal
   publisher-place: Paris
   issued: 1835
   publisher: J. Albert Merklein
@@ -18250,9 +18274,7 @@ RutebeufComplete:
     value: 'Oeuvres complètes de Rutebeuf: trouvère du XIII<sup class="ordinal">e</sup> siècle'
     lang: fr
   language: fr
-  editor:
-  - given: Achille
-    family: Jubinal
+  editor: [*Achille_Jubinal]
   issued: 1874
   edition: 2
   volume: 1
@@ -18267,6 +18289,7 @@ ChansonsEtDits:
   author:
   - given: Alfred
     family: Jeanroy
+    url: https://en.wikipedia.org/wiki/Alfred_Jeanroy
   - given: Henri
     family: Guy
   issued: 1898
@@ -19425,7 +19448,7 @@ PoemFirstMaggal:
   type: webpage
   title: Poem of the First Màggal
   issued: 2022
-  URL: http://sites.bu.edu/nehajami/the-four-languages/wolof/wolof-manuscripts/wolofalu-maggal-gu-njekk-gi/
+  URL: https://sites.bu.edu/nehajami/the-four-languages/wolof/wolof-manuscripts/wolofalu-maggal-gu-njekk-gi/
   archive-URL: https://web.archive.org/web/20240428100649/https://sites.bu.edu/nehajami/the-four-languages/wolof/wolof-manuscripts/wolofalu-maggal-gu-njekk-gi/
   author:
   - given: Fallou
@@ -19752,6 +19775,7 @@ ResearchesSinger:
 AlembertMathematiques3:
   type: book
   title: Dictionnaire des Jeux
+  language: fr
   editor:
   - given: Jacques
     family: Charles
@@ -20267,6 +20291,7 @@ PoemeMoralise:
   author:
   - given: Gaston
     family: Raynaud
+    url: https://en.wikipedia.org/wiki/Gaston_Raynaud
     lang: fr
   URL: https://www.jstor.org/stable/45042094
   page: 442-484
@@ -20281,6 +20306,7 @@ LesPoésiesPersonnellesReview:
   author:
   - given: Julia
     family: Bastin
+    url: https://en.wikipedia.org/wiki/Julia_Bastin
   page: 398-407
   URL: https://www.jstor.org/stable/45045327
   in:

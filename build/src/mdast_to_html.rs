@@ -59,7 +59,7 @@ pub fn to_html(
     images: &ImageManifest,
     url_lookup: &BTreeMap<String, Option<&str>>,
     mut aka_handler: impl FnMut(LanguageIdentifier, Markup),
-    mut cite_handler: impl FnMut(&str),
+    mut cite_handler: impl FnMut(&str, &str),
 ) -> Result<Markup> {
     let (fndefs, linkdefs) = locate_defs(node);
     Converter {
@@ -91,7 +91,7 @@ struct Converter<'a> {
     header_stack: Vec<usize>,
     url_lookup: &'a BTreeMap<String, Option<&'a str>>,
     aka_handler: &'a mut dyn FnMut(LanguageIdentifier, Markup),
-    cite_handler: &'a mut dyn FnMut(&str),
+    cite_handler: &'a mut dyn FnMut(&str, &str),
 }
 
 fn index_to_string(mut index: u32) -> String {
@@ -274,8 +274,8 @@ impl Converter<'_> {
             }
         };
 
-        for id in self.used_bib.keys() {
-            (self.cite_handler)(id);
+        for (id, cites) in &self.used_bib {
+            (self.cite_handler)(&id, &cites[0]);
         }
 
         Ok(result)

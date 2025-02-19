@@ -331,7 +331,7 @@ impl Templater {
     pub fn bibliography(
         &self,
         bib: &RenderedBibliography,
-        mut cites: HashMap<String, Vec<Arc<(Markup, String)>>>,
+        mut cites: HashMap<String, Vec<(Arc<Markup>, String)>>,
     ) -> Result<OutputFile> {
         let content = html! {
             h1.page-title { span.simple itemprop="name" { "A Bibliography of Traditional Games" } }
@@ -342,8 +342,8 @@ impl Templater {
                         option value="name,year" selected { "default" }
                         option value="year asc" { "year (oldest first)" }
                         option value="year desc" { "year (newest first)" }
-                        option value="refs desc" { "number of references (most first)" }
-                        option value="refs asc" { "number of references (least first)" }
+                        option value="refs desc" { "references (most first)" }
+                        option value="refs asc" { "references (least first)" }
                     }
                 }
             }

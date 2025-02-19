@@ -12,19 +12,22 @@ date modified: 2025-02-16
 ---
 # <span lang="ti">ሸደድ</span> · <span lang="ti-Latn" class="noun">Sheded</span>
 
+This is a game from Ethiopia and Eritrea which involves throwing six or more
+two-sided sticks, that each have one side marked. Depending on how many marked
+sides come up, the player may undergo a truth-or-dare style ‘punishment’.
+
 > [!figure]
 >
 > ![](../../maps/Sheded.svg)
 >
 > ```yaml
-> position: "aside"
+> position: aside
+> noborder: true
 > ```
 >
 > Countries where the game is played.
 
-This is a game from Ethiopia and Eritrea which involves throwing six or more
-two-sided sticks, that each have one side marked. Depending on how many marked
-sides come up, the player may undergo a truth-or-dare style ‘punishment’.
+
 
 I have found little information about this game outside of dictionaries, and any
 more information about this game would be greatly appreciated!

@@ -31,7 +31,7 @@ It was probably a physical game played by men, also mentioned in a poem (“A Ne
 
 In [Nicholas Breton](https://en.wikipedia.org/wiki/Nicholas_Breton)’s @Fantasticks [17], it is mentioned in the section on Christmas:[^fn1]
 
-[^fn1]: Although in the later reworking @TwelveMoneths [4], it is mentioned under the chapter for January, as part of the [twelve days of Christmas](https://en.wikipedia.org/wiki/Twelve_Days_of_Christmas).
+[^fn1]: In the later reworking @TwelveMoneths [4], it is mentioned under the chapter for January, as part of the [twelve days of Christmas](https://en.wikipedia.org/wiki/Twelve_Days_of_Christmas).
 
 > It is now Christmas, and not a Cup of Drinke must passe without a Caroll, the Beasts, Fowls, and Fish, come to a generall execution, and the Corne is ground to dust for the Bakehouse, and the Pastry: Cards and Dice purge many a purse, and the Youth shew their agility in shooing of the wild Mare: now good cheere and welcome, and God be with you, and I thank you: and against the new yeare, provide for the presents: the Lord of Mis-rule is no meane man for his time, and the ghests of the high Table must lacke no Wine: the lusty bloods must looke about them like men, and piping and dauncing puts away much melancholy: […]
 
@@ -76,7 +76,7 @@ A similar game is described in @Gallovidian_1e [426] under the name of:
 
 > <span lang="sco" class="aka">Shoing the Auld Mare</span>.—A dangerous kind of sport; a beam of wood is slung between two ropes, a person gets on to this, and contrives to steady himself, until he goes through a number of antics; if he can do this he _shoes the auld mare_, if he cannot do it, he generally tumbles to the ground, and gets hurt with the fall.
 
-The “suspended” version seems to be particular to Scotland, another account names the game <span lang="gd" class="aka">Crudhadh an Capuill Bhain</span> “Shoeing the White Mare”, or <span lang="gd" class="aka">An Lair Bhreabain</span> “The Kicking Mare”:[@GamesDiversionsArgyleshire 197]
+The “suspended” version seems to be particular to Scotland. Another account reports it under the name <span lang="gd" class="aka">Crudhadh an Capuill Bhain</span> “Shoeing the White Mare”, or <span lang="gd" class="aka">An Lair Bhreabain</span> “The Kicking Mare”:[@GamesDiversionsArgyleshire 197]
 
 > A beam is suspended from the roof by two ropes of about equal length, and high enough from the ground to prevent any one astride of it touching the floor with his feet. The feat consists in keeping your seat on this white mare without touching the ropes. When it is called “shoeing the mare,” the rider is supposed to be the smith, and has a piece of wood in his hand which represents his hammer, with the hammer he was supposed to drive in the nails of the shoes, striking the lower part of the beam four times eight blows. He who could complete the shoeing of the horse without being thrown off was of course a master of smithcraft. When it was merely riding “the kicking mare,” the rider was provided with a wand with which he struck at his lively mount in all directions, and the more quickly and more variously he could do this without falling off, he was considered all the better rider. It generally ended in a tumble, exciting the merriment of the spectators.
 
@@ -88,7 +88,11 @@ The “suspended” version seems to be particular to Scotland, another account 
 
 However, this seems to be entirely his own supposition.
 
-Another 19th-century author remembers it as a circle chase where “if my boyish recollections be correct, this game is played by a number standing in a ring, holding hands, with one outside the ring, who drops a handkerchief behind any one he pleases; and the point is, to be sharp in observing if it be dropped behind you, and then to be quick in overtaking the dropper before he arrives at your place—the only practical allusion to a horse being in the activity”.[@ChristmasCustomsInMounmouthshire] See [Circle Chases](games/circle-chases/circle-chases.md) for more on these types of games.
+Another 19th-century author remembers it as a circle chase where:[@ChristmasCustomsInMounmouthshire] 
+
+>if my boyish recollections be correct, this game is played by a number standing in a ring, holding hands, with one outside the ring, who drops a handkerchief behind any one he pleases; and the point is, to be sharp in observing if it be dropped behind you, and then to be quick in overtaking the dropper before he arrives at your place—the only practical allusion to a horse being in the activity.
+
+See [Circle Chases](games/circle-chases/circle-chases.md) for more on these types of games.
 
 ## Other references
 

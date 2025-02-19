@@ -11,7 +11,7 @@ linter-yaml-title-alias: Horseshoe
 ---
 # Horseshoe
 
-This is a simple blocking game for children that seems to originate from China, where it is known by many names. Because the board is shaped like the Chinese character ‘<span lang="zh">区</span>’ (‘area’), it is known as ‘<code>区</code> character game’ (<span lang="zh" class="aka">区字棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">qū zì qí</span>). Other names include ‘crotch game’ (<span lang="zh-Hant" class="aka">褲襠棋</span>/<span lang="zh-Hans" class="aka">裤裆棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh" class="aka">剪刀棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">jiǎndāo qí</span>). 
+<span class="aka">Horseshoe</span> is a simple blocking boardgame for children that seems to originate from China, where it is known by many names.
 
 > [!figure]
 >
@@ -24,10 +24,11 @@ This is a simple blocking game for children that seems to originate from China, 
 >
 > Countries mentioned in this article.
 
+Because the board is shaped like the Chinese character ‘<span lang="zh">区</span>’ (‘area’), it is known as ‘<code>区</code> character game’ (<span lang="zh" class="aka">区字棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">qū zì qí</span>). Other names include ‘crotch game’ (<span lang="zh-Hant" class="aka">褲襠棋</span>/<span lang="zh-Hans" class="aka">裤裆棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh" class="aka">剪刀棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">jiǎndāo qí</span>).
 
 The board is simple enough to be drawn with a finger into dirt or sand, and can
 be played with any two sets of two distinctive pieces: rocks, shell, bottlecaps,
-etc.
+or anything else that the players have to hand.
 
 > [!figure]
 >
@@ -38,9 +39,11 @@ etc.
 > size: "small"
 > ```
 >
-> A “standardized” board with places for the pieces to go.<br/>The normal Chinese board is the same as this, only drawn without circles.
+> A “standardized” board with places for the pieces to go.
+>
+> The usual Chinese board is the same as this, only drawn without circles.
 
-In English the game has no standard name, not being widespread, but it has been called “<span class="aka">horseshoe</span>”, or also “<span class="aka">bar</span>”.[@MeditoBoxFront]
+In English the game has no standard name, not being widespread, but it has been called “horseshoe”, or also “<span class="aka">bar</span>”.[@MeditoBoxFront]
 
 In Cantonese it is called ‘cleft lip game’ (<span lang="yue" class="aka">崩口棋</span> <span lang="yue-Latn-jyutping" class="aka">bong¹ hau² kei⁴</span>),[@KoreanGames p.  100][@PangHauKiImage][^culintranslit] because of the shape of the board. In Hindi it is called <span lang="hi-Latn" class="aka">do-guṭī</span> (<span lang="hi" class="aka">दो गुटी</span> ‘two pieces’, perhaps Urdu <span lang="ur" class="aka">دو گتھی</span>).[@GuptaD p. 143]
 
@@ -63,7 +66,7 @@ In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span 
 > > ```
 > >
 > > A Korean board, after @KoreanGames [p. 100].
-> 
+>
 > > [!figure]
 > >
 > > ![](Thai_board_2.svg)
@@ -73,8 +76,8 @@ In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span 
 > > ```
 > >
 > > A Thai board, as found [online](https://web.archive.org/web/20220809031306/https://shopee.co.th/%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-Dead-End-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87-wooden-family-board-games-i.92760471.11313361650).
-> 
-> 
+>
+>
 > > [!figure]
 > >
 > > ![](Thai_board.svg)
@@ -94,7 +97,7 @@ This theme is also known in the Mongolian version of the game, where the circula
 
 
 > [!todo]
-> 
+>
 > <span lang="pa">ਦੋਗੁਟਿ</span> Punjabi?
 
 

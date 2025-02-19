@@ -8,9 +8,9 @@ linter-yaml-title-alias: Hazard
 ---
 # Hazard
 
-<span class="aka">Hazard</span> is a very old dice game — in fact, it was the name of the game before the word “hazard” meant anything else in English, and the modern meaning of the word is derived from the <em>hazardous</em> nature of the game. It has also been spelled <span class="aka">Hasard</span>, <span class="aka">Hassard</span>, or <span class="aka">Hazzard</span>.
+<span class="aka">Hazard</span> is a very old dice game — in fact, it was the name of the game before the word “hazard” meant anything else in English, and the modern meaning of the word is derived from the <em>hazardous</em> nature of the game.
 
-The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, via Spanish <span lang="es">azar</span> and Middle French <span lang="fr" class="aka">hasard</span>. The original game which was called <span lang="es">azar</span> in Alfonso X’s @AlfonsoGames (1283) used three dice; the version described here was at the time possibly called <span lang="es" class="aka">azar con dos dados</span>.[@GreedForGain 15]
+It has also been spelled <span class="aka">Hasard</span>, <span class="aka">Hassard</span>, or <span class="aka">Hazzard</span>. The word originally comes from Arabic <span lang="ar">الزهر</span> (<span lang="ar">اَلزَّهْر</span>) <span lang="ar-Latn">al-zahr</span> ‘the flowers’, a name for dice, and came into English via Spanish <span lang="es">azar</span> and Middle French <span lang="fr" class="aka">hasard</span>. The original game which was called <span lang="es">azar</span> in Alfonso X’s @AlfonsoGames (1283) used three dice; the version described here was at the time possibly called <span lang="es" class="aka">azar con dos dados</span>, “hazard with two dice”.[@GreedForGain 15]
 
 > [!todo]
 > Sometimes ‘hazard’ refers to the specific die roll of <Dice>44</Dice>... CANNOT FIND MY SOURCE FOR THIS
@@ -19,7 +19,7 @@ The game described here has also been called <span class="aka">Crabs</span> or <
 
 Charles Cotton says that Hazard is the “moſt bewitching Game that is plaid on the dice; for when a man begins to play he knows not when to leave off”,[@CompleatGamester p. 172][^fn1] and that “Hazzard is a proper name for this game; for it ſpeedily makes a man or undoes him; in the twinkling of an eye either a Man or a Mouſe.”[@CompleatGamester p. 168]
 
-[^fn1]: This page misnumbered 127 instead of 172.
+[^fn1]: Note that this page in the citation is misnumbered 127 instead of 172.
 
 The <abbr class="initialism">OED</abbr> has a somewhat amusing definition of the game:
 
@@ -27,7 +27,7 @@ The <abbr class="initialism">OED</abbr> has a somewhat amusing definition of the
 A gambling game with two dice in which the chances are complicated by a number of arbitrary rules.
 </blockquote>
 
-Rules for the game appear in [Hoyle’s](articles/lists/hoyle.md) from the 1775 Charles Jones edition,[^fn2] when Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
+Rules for the game appear in [Hoyle’s](articles/lists/hoyle.md) from the 1775 Charles Jones edition,[^fn2] in which Hazard was added to the existing text.[@HoylesGamesImproved1775 p. 223]
 
 [^fn2]: The <abbr class="initialism">OED</abbr> cites the 1778 _Thomas_ Jones edition, but this is a later piracy of the Charles Jones version.
 

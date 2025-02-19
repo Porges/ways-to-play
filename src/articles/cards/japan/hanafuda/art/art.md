@@ -6,10 +6,10 @@ hero:
     image: 'DP135571.jpg'
     license: 'cc0'
     originalUrl: 'https://www.metmuseum.org/art/collection/search/37303'
-    organization: 
+    organization:
         orgName: "Metropolitan Museum of Art"
 date created: 2024-12-18
-date modified: 2025-02-08
+date modified: 2025-02-18
 aliases: [The History & Art of Hanafuda]
 linter-yaml-title-alias: The History & Art of Hanafuda
 ---
@@ -119,7 +119,7 @@ lang="ja-Latn">uta-awase</span>). At first it was a competition like the others,
 where the poem was treated as an <em>object</em> to be chosen and presented by
 the competitor, the poet might not even be present, and more attention was paid
 to the accompanying costumes and music than the quality of the
-poetry.[@BrocadeByNight p. 242] 
+poetry.[@BrocadeByNight p. 242]
 
 The poetry competition was highly ritualized, where the result of a contest was
 not only about who could compose the better poem; on average, authors of a
@@ -310,7 +310,19 @@ At the moment it is unclear exactly how the <span class="noun" lang="ja-Latn">Ha
 
 ### Banning & Legalization
 
-Sometime after their introduction, <span class="noun" lang="ja-Latn">Hanafuda</span> games were restricted as part of a total ban on gambling introduced during the <span class="noun" lang="ja-Latn">Kansei</span> Reforms[^prohibition] (1787–1793). This ban was to remain in place for nearly 200 years until, in 1886, a bookstore owner in <span class="noun" lang="ja-Latn">Ōsaka</span> named <span class="noun" lang="ja-Latn">Maeda Kihei</span> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling <span class="noun" lang="ja-Latn">Hanafuda</span>.
+Sometime after their introduction, <span class="noun" lang="ja-Latn">Hanafuda</span> games were restricted as part of a total ban on gambling introduced during the <span class="noun" lang="ja-Latn">Kansei</span> Reforms[^prohibition] (1787–1793).
+
+As a Dutch warehouse master living on [Dejima](https://en.wikipedia.org/wiki/Dejima) in the 1820s wrote:[@JapanscheRijk 202]
+
+> [!multi]
+>
+> > > [!lang] nl
+> > >
+> > > Alle kans- of waagspel, of het eigenlijk gezegde dobbelen, is ten strengste verboden; doch er zijn sommige plaatsen, waar dit in het verborgen geschiedt, want in het openbaar mag men noch dobbelsteenen noch speelkaarten vertoonen.
+>
+> All games of chance or gambling, or properly speaking dicing, are strictly prohibited; but there are some places where this is done in secret, for in public one may show neither dice nor playing cards.
+
+This ban was to remain in place for nearly a century until, in 1886, a bookstore owner in <span class="noun" lang="ja-Latn">Ōsaka</span> named <span class="noun" lang="ja-Latn">Maeda Kihei</span> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling <span class="noun" lang="ja-Latn">Hanafuda</span>.
 
 [^prohibition]: During the <span class="noun" lang="ja-Latn">Kansei</span> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.[@SatireWithinKibyōshi p. 44]
 
@@ -376,7 +388,7 @@ In addition to the retail stores, a specialized wholesale store was opened in th
 > > ```
 > >
 > > A newspaper advertisement depicting the outside of the <span class="noun" lang="ja-Latn">Ginza</span> <span class="noun" lang="ja-Latn">Kamigataya</span> store, 1889. The large die was added to the store in December 1886.
-> 
+>
 > > [!figure]
 > >
 > > ![A Japanese storefront, open to the street, with a large die shop marker.](Nakagataya.jpg)
@@ -436,7 +448,7 @@ However, despite his protestation in the book that “I do not care for playing 
 > > ```
 > >
 > > A Westernized gentleman playing cards with <span lang="ja-Latn">geisha</span>, all of them wearing playing-card themed clothing. Note cigarette and ashtray.[@MaedaBook p. 25]
-> 
+>
 > > [!figure]
 > >
 > > ![](./Maeda_family.png)
@@ -447,7 +459,7 @@ However, despite his protestation in the book that “I do not care for playing 
 > > ```
 > >
 > > Apparently a family playing with <span class="noun" lang="ja-Latn">Hanafuda</span> cards.[@MaedaBook p. 13]
- 
+
 > [!aside]
 >
 > <span class="noun" lang="ja-Latn">Murai</span>’s main competitor was <span class="noun" lang="ja-Latn">Iwaya</span> (<span lang="ja-Latn">岩谷商会</span>), run by <span class="noun" lang="ja-Latn">Iwaya Matsuhei</span> (<span lang="ja">岩谷松平</span>), who had a more nationalistic outlook. Interestingly, the iconography of their cigarette brands overlaps significantly with that of later <span class="noun" lang="ja-Latn">Hanafuda</span> brands — some examples include <span lang="ja-Latn">dai&shy;tengu</span> (<span lang="ja">大天狗</span> “large tengu”), <span class="noun" lang="ja-Latn">Fuji</span> (<span lang="ja">冨士</span>), and <span lang="ja-Latn">hinode</span> (<span lang="ja">日乃出</span> “sunrise”) — and their chief logo was that of a red <span class="noun" lang="ja-Latn">Tengu</span>, which is also strongly associated with <span class="noun" lang="ja-Latn">Hanafuda</span>. It is unclear to me whether there is any real link here or if the coincidence simply reflects the conventionality of traditional Japanese art.
@@ -598,7 +610,7 @@ Oriental magpie, which is the national bird of Korea.
 > > ```
 > >
 > > The <span lang="ko">무지개</span> (<Pronounce lang="ko-Latn" file="pronunciation_ko_무지개.mp3" pronouncer="fairybel">mujigae</Pronounce>, ‘rainbow’) brand <span class="noun" lang="ko-Latn">Hwatu</span> deck (on left) features a Korean magpie (<span lang="ko">까치</span> <Pronounce file="pronunciation_ko_까치.mp3" lang="ko-Latn" pronouncer="goeun" >kkachi</Pronounce>), instead of the usual lesser cuckoo as shown on the Daiso <span class="noun" lang="ko-Latn">Hwatu</span>-format deck.
-> 
+>
 > > [!figure]
 > >
 > > ![Two Hanafuda cards, the first depicting a man wearing Japanese dress, the second wearing Korean.](Japan_vs_Korean_man.jpg)
@@ -861,7 +873,7 @@ In the <span lang="ja-Latn">Echigo-bana</span> pattern, the <span lang="ja-Latn"
 > [!multi]
 >
 > > [!langv] ja
-> > 
+> >
 > > ときはなる\
 > > 松のみどりも\
 > > 春くれば\
@@ -878,9 +890,9 @@ The <span lang="ja-Latn">Awa-bana kasu</span> carries a shortened reference to
 this poem, announcing that spring is here:
 
 > [!multi]
-> 
+>
 > > [!langv] ja
-> > 
+> >
 > > とき𛂞き𛂞\
 > > みどり
 >
@@ -902,7 +914,7 @@ this poem, announcing that spring is here:
 > > ```
 > >
 > > <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
-> 
+>
 > > [!figure]
 > >
 > > ![The kasu cards of the Awa-bana pattern which bears a poem.](awa_tanka_1.jpg)
@@ -989,7 +1001,7 @@ all <span class="noun" lang="ja-Latn">Hanafuda</span> patterns depict red plum b
 more popular later on:
 
 > [!multi]
-> 
+>
 > > [!langv] ja
 > >
 > > 鴬の\
@@ -997,7 +1009,7 @@ more popular later on:
 > > 梅の花\
 > > 色まがえとや\
 > > 雪の降るらん
-> 
+>
 > The nightingale’s\
 > Song is clear\
 > And the white plum blossom\
@@ -1057,7 +1069,7 @@ The third month is represented by cherry trees in bloom (<span lang="ja">桜</sp
 
 The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">mi&shy;yoshino</span> <span lang="ja">みよしの</span> ‘beautiful <span class="noun" lang="ja-Latn">Yoshino</span>’,[^fn4] which is a sobriquet for the mountainous area of <span class="noun" lang="ja-Latn">Yoshino</span> (<span lang="ja">吉野</span>) in <span class="noun" lang="ja-Latn">Nara</span> prefecture, famous for its cherry blossoms. The term <span lang="ja-Latn">miyoshino</span> is [often used to refer to this location](http://www.wakapoetry.net/?s=miyosino) in the imperial poetry collections.
 
-[^fn4]: Some older cards spell this phrase differently, some examples are: <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>. Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja"> す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md) <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>). 
+[^fn4]: Some older cards spell this phrase differently, some examples are: <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>. Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja"> す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md) <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
 
 In 1688, [<span class="noun" lang="ja-Latn">Matsuo
 Bashō</span>](https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D) (<span lang="ja">松尾芭蕉</span>),
@@ -1085,11 +1097,11 @@ Rather than <span lang="ja-Latn">hanami</span>, some older non-standard designs 
 > > orgName: "Worshipful Company of the Makers of Playing Cards"
 > > orgAbbr: "WCMPC"
 > > originalUrl: "http://www.playingcardmakerscollection.co.uk/Cardhtml/W0329.html"
-> > license: "with-permission" 
+> > license: "with-permission"
 > > ```
 > >
 > > A <span lang="ja-Latn">bugaku</span> scene from a combination card produced by <span class="noun" lang="ja-Latn">Tenguya Tsutida</span>.
-> 
+>
 > > [!figure]
 > >
 > > ![](cherry_bugaku2.jpg)
@@ -1103,7 +1115,7 @@ Rather than <span lang="ja-Latn">hanami</span>, some older non-standard designs 
 > > ```
 > >
 > > A <span lang="ja-Latn">bugaku</span> scene from a non-standard card by an unknown manufacturer.
-> 
+>
 > > [!figure]
 > >
 > > ![](cherry_bugaku3.jpg)
@@ -1197,7 +1209,7 @@ The <span lang="ja-Latn">tanka</span> on the <span lang="ja-Latn">kasu</span> ca
 
 > [!todo]
 >
-> TODO: an image showing upside-down wisteria 
+> TODO: an image showing upside-down wisteria
 
 In Korean contexts, the non-<span lang="ja-Latn">tane</span> wisteria cards are almost always shown upside-down, so that the plants are presented in the same manner as the bush clover in the seventh month. The cards are also referred to as <span lang="ko">흑싸리</span>, “black bush clover”, possibly because wisteria is not native to Korea. The <span lang="ja-Latn">tane</span> card is never shown inverted.
 
@@ -1391,7 +1403,7 @@ included: either they escaped the imagination of the Emperor, or they were too
 important as food sources for commoners.
 
 > [!todo]
-> 
+>
 > Deer is associated with bush clover but instead we have a boar? But also deer are renowned for being separated from their lovers...
 
 ### <span lang="ja">8月</span>
@@ -1449,7 +1461,7 @@ constructed.[@WorldOfTheShiningPrince p. 170]
 > > ```
 > >
 > > <span lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards, with <span lang="ja-Latn">tanka</span>.
-> 
+>
 > > [!figure]
 > >
 > > ![The kasu cards of the Awa-bana pattern which bears a different portion of the poem.](awa_junk_8.jpg)
@@ -1553,7 +1565,7 @@ The <span lang="ja-Latn">Awa-bana kasu</span> carry a shortened version, with th
 > [!aside]
 >
 > A story invented by <span class="noun" lang="ja-Latn">Tendai</span> monks in the 14th-century <span class="noun" lang="ja-Latn">Taiheiki</span> (<span lang="ja">太平記</span> ‘Chronicle of Great Peace’) provides retroactive justification for the festival:[@ChigoJapanese pp. 958–9] King <span class="noun" lang="cmn-Latn-pinyin">Mu</span>’s (<span lang="zh">周穆王</span>) favourite, a young boy, is banished to a remote mountain. Following the king’s advice, he recites passages of the Buddhist Lotus Sūtra and inscribes them upon chrysanthemum flowers. Dew collecting on the flowers drips into the river from which he drinks. Eight hundred years later he has not aged a day, and he returns to court as the legendary <span class="noun" lang="cmn-Latn-pinyin">Peng Zu</span> (<span lang="zh">彭祖</span>) during the reign of King <span class="noun" lang="cmn-Latn-pinyin">Wen</span> (<span lang="zh">周文王</span>, <abbr title="reigned">r.</abbr> 1112–1050 <abbr>BCE</abbr>), who subsequently institutes the festival.
-    
+
 The ninth month is represented by chrysanthemum (<span lang="ja">菊</span> <Pronounce  pronouncer="akitomo" lang="ja-Latn" file="pronunciation_ja_菊.mp3">kiku</Pronounce>). The <span lang="ja-Latn">tane</span> card depicts a sake cup, which is an implement of <Pronounce pronouncer="skent" lang="ja-Latn" file="pronunciation_ja_重陽.mp3">chōyō</Pronounce> <span lang="ja"> 重陽</span>, the chrysanthemum festival, which is held on the 9th day of the 9th month. Because chrysanthemum blooms for a long time, it had become a symbol of long life in China, and the festival was introduced into Japan by the court of Emperor <span class="noun" lang="ja-Latn">Kanmu</span> (<span lang="ja">桓武天皇</span>, 735–806).[@FourSeasons loc. 1214]
 
 During the festival, chrysanthemum petals are added to <span lang="ja-Latn">sake</span> and consumed. The sake cup (<span lang="ja">杯</span> <span lang="ja-Latn">sakazuki</span>) pictured on the card has the character <span lang="ja">壽/寿</span> (<Pronounce pronouncer="strawberrybrown" lang="ja-Latn" file="pronunciation_ja_寿.mp3">kotobuki</Pronounce>), meaning ‘long life’, written on it in a cursive script.
@@ -1570,7 +1582,7 @@ A poem by <span class="noun" lang="ja-Latn">Bashō</span> commemorates the eveni
 
 > [!figure]
 >
-> 
+>
 > ![A very stylized image of a chrysanthemum with 16 petals radiating outward.](Imperial_Seal_of_Japan.svg)
 >
 > ```yaml
@@ -1622,7 +1634,7 @@ the imperial family (who use a 14-petal version).
 
 > [!figure]
 >
-> 
+>
 > ![Maple trees with their leaves showing a bright red-orange colour.](Tatsutagawa.jpg)
 >
 > ```yaml
@@ -1636,7 +1648,7 @@ the imperial family (who use a 14-petal version).
 >
 > Maple trees along the banks of the <span class="noun" lang="ja-Latn">Tatsuta-gawa</span> in autumn.
 
-        
+
 The tenth month is represented by autumn leaves/maple (<span lang="ja">紅葉</span> <span lang="ja-Latn">momiji</span>/<Pronounce pronouncer="El55" lang="ja-Latn" file='pronunciation_ja_紅葉.mp3'>kōyō</Pronounce>). The <span lang="ja-Latn">tane</span> card features a deer who is looking back over its shoulder, sometimes inspecting a twig. A reference to this card, the ‘10-point deer’ (<span lang="ja">鹿十</span> <span lang="ja-Latn">shikato</span>) has thus become a slang term <span lang="ja-Latn">shikato</span> (<span lang="ja">しかと</span>) meaning to ignore or neglect.
 
 > [!figure]
@@ -1768,7 +1780,7 @@ The man pictured on the bright card is the poet <span class="noun" lang="ja-Latn
 On older decks, a different “rain man” is pictured. On these cards, the man is
 running in the rain with the umbrella closed around his head. This feature is
 preserved in the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern.
-    
+
 > [!figure]
 >
 > ![A card with a picture of a figure carrying an umbrella and walking away from the viewer. The figure has a fluffy orange tail.](ekb_rainman.jpg)
@@ -1805,7 +1817,7 @@ can be seen in many decks of the standard pattern.
 > [!multi]
 > > [!figure]
 > >
-> > 
+> >
 > > ![](hanafuda-musashino-09.pdf-000.jpg)
 > >
 > > ```yaml
@@ -1813,10 +1825,10 @@ can be seen in many decks of the standard pattern.
 > > ```
 > >
 > > A dramatic fishing scene, from @DevilsPictureBooks.
-> 
+>
 > > [!figure]
 > >
-> > 
+> >
 > > ![Hands extending from a cloud dangle a hooked rope towards a floating drum.](raijin_card_sun.jpg)
 > >
 > > ```yaml
@@ -1824,7 +1836,7 @@ can be seen in many decks of the standard pattern.
 > > ```
 > >
 > > A key-block print of the <span class="noun" lang="ja-Latn">Raijin</span> scene, from @MuraiSun.
-> 
+>
 > > [!figure]
 > >
 > > ![](kaikinki-hanafuda11.pdf-000.jpg)
@@ -1861,7 +1873,7 @@ can be seen in many decks of the standard pattern.
 
 > [!aside]
 >
-> Curiously, the paulownia genus was given its scientific name by Philipp Franz von Siebold, a German botanist who also collected various playing cards from Japan, including [a very early <span class="noun" lang="ja-Latn">Hanafuda</span> deck.](https://www.rekihaku.ac.jp/up-cgi/getimgrd.pl?tn=1&ti=2047&h=./history/w11614825036_3149&ch=1&p=param/pfvs/db_param&o=1&k=50&sf=0&so=&im=0&li=10&fn=0.jpg) 
+> Curiously, the paulownia genus was given its scientific name by Philipp Franz von Siebold, a German botanist who also collected various playing cards from Japan, including [a very early <span class="noun" lang="ja-Latn">Hanafuda</span> deck.](https://www.rekihaku.ac.jp/up-cgi/getimgrd.pl?tn=1&ti=2047&h=./history/w11614825036_3149&ch=1&p=param/pfvs/db_param&o=1&k=50&sf=0&so=&im=0&li=10&fn=0.jpg)
 
 > [!figure]
 >
@@ -1944,7 +1956,7 @@ One of the <span lang="ja-Latn">kasu</span> cards is usually coloured, often yel
 
 > [!multi]
 > > [!figure]
-> > 
+> >
 > > ![A small Hanafuda card depicting Paulownia with a large red streak across it.](ekb_junk_12.jpg)
 > >
 > > ```yaml
@@ -1952,7 +1964,7 @@ One of the <span lang="ja-Latn">kasu</span> cards is usually coloured, often yel
 > > ```
 > >
 > > One of the Paulownia cards of the <span class="noun" lang="ja-Latn">Echigo-kobana</span> pattern has a <span lang="ja-Latn">tanzaku</span>.
-> 
+>
 > > [!figure]
 > >
 > > ![A Hanafuda card depicting Paulownia with a red cloud at the top of it.](awa_junk_12.jpg)

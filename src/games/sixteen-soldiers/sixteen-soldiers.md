@@ -21,7 +21,7 @@ linter-yaml-title-alias: '<span lang="ja">十六武蔵</span> · Sixteen Soldier
 ---
 # <span lang="ja">十六武蔵</span> · Sixteen Soldiers
 
-Sixteen Soldiers (<span lang="ja">十六武蔵</span> <Pronounce lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_十六武蔵.mp3">jūroku musashi</Pronounce>) is an asymmetric capturing game from Japan.
+Sixteen Soldiers (<span lang="ja">十六武蔵</span> <Pronounce lang="ja-Latn"  pronouncer="mezashi" file="pronunciation_ja_十六武蔵.mp3">jūroku musashi</Pronounce>) is an asymmetric capturing game from Japan. Similar games (also described here) are played in China and Tibet.
 
 > [!figure]
 >

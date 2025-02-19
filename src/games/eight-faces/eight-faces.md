@@ -3,7 +3,7 @@ title: '<span lang="zh">八面</span> · Eight Faces'
 mainImage: pek-bin.svg
 players: banking
 countries: CN,MY,SG
-originalTitle: 
+originalTitle:
 date created: 2024-12-18
 date modified: 2025-02-16
 aliases:
@@ -13,7 +13,9 @@ linter-yaml-title-alias: '<span lang="zh">八面</span> · Eight Faces'
 ---
 # <span lang="zh">八面</span> · Eight Faces
 
-<span class="aka">Eight Faces</span> (<span lang="zh" class="aka">八面</span>, Mandarin <span lang="cmn-Latn-pinyin" class="aka">bā miàn</span>, Hokkien <span lang="nan-Latn" class="aka">peh bīn</span>) is (or was) a simple staking game played with a special eight-sided teetotum (<span lang="zh">陀螺</span>, Mandarin <span lang="cmn-Latn">tuóluó</span>, Hokkien <span lang="nan-Latn">tolo</span>). It is also called <span lang="zh" class="aka">小花会</span> (Mandarin <span lang="cmn-Latn-pinyin" class="aka">xiǎohuāhuì</span>, ‘small <span class="noun" lang="cmn-Latn">Huāhuì</span>’), as it uses a subset of characters from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game.[@郑超麟回忆录]
+<span class="aka">Eight Faces</span> (<span lang="zh" class="aka">八面</span>, Mandarin <span lang="cmn-Latn-pinyin" class="aka">bā miàn</span>, Hokkien <span lang="nan-Latn" class="aka">peh bīn</span>) is (or was) a simple Chinese staking game played with a special eight-sided teetotum (<span lang="zh">陀螺</span>, Mandarin <span lang="cmn-Latn">tuóluó</span>, Hokkien <span lang="nan-Latn">tolo</span>).
+
+It is also called <span lang="zh" class="aka">小花会</span> (Mandarin <span lang="cmn-Latn-pinyin" class="aka">xiǎohuāhuì</span>, ‘small <span class="noun" lang="cmn-Latn">Huāhuì</span>’), as it uses a subset of characters from the <span class="noun" lang="cmn-Latn">Huāhuì</span> (<span lang="zh">花會</span>) lottery game.[@郑超麟回忆录]
 
 > [!aside]
 >

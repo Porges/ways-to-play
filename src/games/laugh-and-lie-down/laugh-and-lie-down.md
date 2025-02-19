@@ -10,9 +10,9 @@ linter-yaml-title-alias: Laugh and Lie Down
 ---
 # Laugh and Lie Down
 
-Laugh and Lie Down is a [fishing game](articles/families/fishing-games/fishing-games.md) for five (or four) players from the 17th century.[^fn0] The only known description of the rules of this game is from Francis Willughby’s <cite>Book of Games</cite>.[@FrancisWillughby p. 138] but also appears that same year in a humorous tract.[@APublicansReason]
+Laugh and Lie Down is an English [fishing game](articles/families/fishing-games/fishing-games.md) for five (or four) players from the 17th century.
 
-[^fn0]: By 1784 it was being described as “old-fashioned”.[@ObservationsOnSomeOldFashionedGames p. 134]
+The only known description of the rules of this game is from Francis Willughby’s <cite>Book of Games</cite>.[@FrancisWillughby 138] but also appears that same year in a humorous tract.[@APublicansReason] 
 
 An early reference to the game appers in a 1603 pamphlet[@PopishImpostures 116] where it is mentioned as “laugh, and lye downe”.
 
@@ -20,6 +20,7 @@ In some cases the name is implied to have sexual meaning, for example in the pam
 
 > There are other Games, which seem compos’d on Purpose to shock the Modesty, or, at least to give an _unlucky_ Bias to the Ideas of the younger Part of box Sexes. To name two of these will be sufficient, as my own Delicacy will not suffer me to dwell long upon them. And, indeed, I could not have persuaded myself to have gone thus far, but that I think any Female Reader, into whose Hands this Letter may happen to fall, will _easily_ be intreated to suffer her Eyes to jump over the following Words in Italics, viz. _Laugh and lie down_, and _[My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)_.
 
+By 1784 it was being described as “old-fashioned”.[@ObservationsOnSomeOldFashionedGames p. 134]
 ## Play
 
 The game is played using a standard deck of 52 cards. The standard game is for five players.

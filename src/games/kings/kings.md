@@ -20,7 +20,7 @@ linter-yaml-title-alias: Kings
 ---
 # Kings
 
-<span class="aka">Kings</span> is a luck-based card game from New Guinea. It plays similarly to a fishing game, only there are no decisions to be made.
+<span class="aka">Kings</span> is a luck-based card game from New Guinea. It plays similarly to a [fishing game](articles/families/fishing-games/fishing-games.md), only there are no decisions to be made.
 
 The description below is based upon @ThreeNativeCardGames [p. 52–3].
 

@@ -10,10 +10,9 @@ date modified: 2025-01-17
 ---
 # Aces in the Pot
 
-<span class="aka">Ace(s) in the Pot</span> is a simple gambling game which requires no skill and two dice. It has also been called <span class="aka">Pot Luck</span>.[@WithSkullAndBones]
+<span class="aka">Ace(s) in the Pot</span> is a simple 19th-century gambling game which requires no skill and two dice.
 
-The earliest mention I have found of this game is in the 1885 edition of
-@TheAmericanHoyle13 [p. 467].
+It has also been called <span class="aka">Pot Luck</span>,[@WithSkullAndBones] and the earliest mention I have found of this game is in the 1885 edition of @TheAmericanHoyle13 [p. 467].
 
 > [!aside]
 >

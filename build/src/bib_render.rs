@@ -275,15 +275,39 @@ fn render_people(
                         (family_str, given_str)
                     };
                     (first)(name_sep)(second)
+                    @if let Some(suffix) = &person.suffix {
+                        (name_sep)(suffix)
+                    }
                 };
 
                 @let full_name = if let Some(family) = family {
                     if reverse_first && is_first {
-                        html! { bdi { (family) } ", " bdi { (given) } }
+                        html! {
+                            bdi { (family) }
+                            ", "
+                            bdi { (given) }
+                            @if let Some(suffix) = &person.suffix {
+                                ", " (suffix)
+                            }
+                        }
                     } else if family_last {
-                        html!{ bdi { (given) (name_sep) (family) } }
+                        html!{
+                            bdi {
+                                (given) (name_sep) (family)
+                                @if let Some(suffix) = &person.suffix {
+                                    (name_sep) (suffix)
+                                }
+                            }
+                        }
                     } else {
-                        html!{ bdi { (family) (name_sep) (given) } }
+                        html!{
+                            bdi {
+                                (family) (name_sep) (given)
+                                @if let Some(suffix) = &person.suffix {
+                                    (name_sep) (suffix)
+                                }
+                            }
+                        }
                     }
                 } else {
                     html!{ bdi { (given) } }

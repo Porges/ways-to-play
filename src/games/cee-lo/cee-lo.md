@@ -17,7 +17,9 @@ linter-yaml-title-alias: Cee-Lo
 ---
 # Cee-Lo
 
-<span class="aka">Cee-Lo</span> is a gambling game played with three dice. The English name is apparently derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’; Mandarin: <Pronounce lang="cmn-Latn-pinyin"  pronouncer="MarvinMeow" file="pronunciation_zh_四五六.mp3">sì wǔ liù</Pronounce>, Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3">si³ ng⁵ luk⁶</Pronounce>, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>, Shanghainese: <span lang="wuu-Latn" class="aka">⁵sy ⁶ng ⁸loq</span>),[^fn0]  which is the highest roll in the game. Some books refer to it as “<span class="aka">Strung Flowers</span>”, another Chinese name for the highest roll;[@Bell vol. 1, p. 145] others call it “<span class="aka">Four Five Six</span>”, “<span class="aka">See Low</span>”,[@DiceGamesFrey p. 51] or simply the “<span class="aka">Three-Dice Game</span>”.[@ScarneOnDice p. 345]
+<span class="aka">Cee-Lo</span> is a gambling game of Chinese origin played with three dice. It is popular as a street gambling game in the United States.
+
+The English name is apparently derived from the Chinese phrase <span lang="zh">四五六</span> (‘four five six’; Mandarin: <Pronounce lang="cmn-Latn-pinyin"  pronouncer="MarvinMeow" file="pronunciation_zh_四五六.mp3">sì wǔ liù</Pronounce>, Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="CantoneseSpokenHK" file="pronunciation_yue_四五六.mp3">si³ ng⁵ luk⁶</Pronounce>, Hokkien: <span lang="nan-Latn">sì gō͘ la̍k</span>, Shanghainese: <span lang="wuu-Latn" class="aka">⁵sy ⁶ng ⁸loq</span>),[^fn0]  which is the highest roll in the game. Some books refer to it as “<span class="aka">Strung Flowers</span>”, another Chinese name for the highest roll;[@Bell vol. 1, p. 145] others call it “<span class="aka">Four Five Six</span>”, “<span class="aka">See Low</span>”,[@DiceGamesFrey p. 51] or simply the “<span class="aka">Three-Dice Game</span>”.[@ScarneOnDice p. 345]
 
 [^fn0]: In New York’s Chinatown the Shanghai restaurant “Say Eng Look”[@Frommers95 110] at one point existed (5 East Broadway) across <a href="https://en.wikipedia.org/wiki/Chatham_Square">the square</a> from another Shanghai restaurant named “4–5–6”.[@AChinatownFind] The grandson of the owner of the latter now owns <a href="http://www.456shanghai.com/">a different 4–5–6 restaurant</a> in Mott Street.[@456NextGeneration]
 
@@ -29,7 +31,7 @@ In Japan the game is called <span lang="ja" class="aka">チンチロ(リン)</sp
 
 [^fn1]: It is also the noise made by the pine cricket (<span lang="ja">松虫</span> <span lang="ja-Latn">matsu&shy;mushi</span>).
 
-As of 2022, the game remains explicitly illegal — under the name “<span class="aka">Luk Kow</span>” — in Malaysia[@MalaysiaCommonGamingHousesAct p. 29] and Brunei,[@LawsOfBrunei p. 21] and as “<span class="aka">See Goh Lak</span>” in Singapore.[@SingaporeGamesOfChanceAndSkill] 
+As of 2022, the game remains explicitly illegal (under the name “<span class="aka">Luk Kow</span>”) in Malaysia[@MalaysiaCommonGamingHousesAct 29] and Brunei,[@LawsOfBrunei 21] and as “<span class="aka">See Goh Lak</span>” in Singapore.[@SingaporeGamesOfChanceAndSkill]
 
 It is possible the game is derived from a Ming-era game called <span lang="zh-Hant" class="aka">鬭腰</span>/<span lang="zh-Hans" class="aka">鬥腰</span> (Mandarin: <span lang="cmn-Latn-pinyin" class="aka">Dòu Yāo</span>) ‘fighting for the purse’, where the way to make a ‘point’ was the same.[@BettingOnEmpire p. 42] This game is described by <span class="noun" lang="cmn-Latn-pinyin">Pān Zhīhéng</span> in his work about dice games @LiuboPu, but I have not yet been able to translate this. At the very least the special throws <Dice type="chinese">456</Dice> and <Dice type="chinese">123</Dice> are mentioned in this work.
 
@@ -43,7 +45,7 @@ A **point** is a result of a pair along with any other non-matching number, the 
 
 The traditional method of play is as follows.
 
-One player at a time acts as the banker (<span lang="zh">莊</span>, Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="robertlam88" file="pronunciation_yue_莊.mp3">zong¹</Pronounce>, Hokkien: <Pronounce lang="nan-Latn"  file="pronunciation_nan_莊.mp3" pronouncer="FlyingBlank">chong</Pronounce>, Mandarin: <Pronounce  lang="cmn-Latn"  pronouncer="Eflong" file="pronunciation_zh_莊.mp3">zhuāng</Pronounce>). 
+One player at a time acts as the banker (<span lang="zh">莊</span>, Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="robertlam88" file="pronunciation_yue_莊.mp3">zong¹</Pronounce>, Hokkien: <Pronounce lang="nan-Latn"  file="pronunciation_nan_莊.mp3" pronouncer="FlyingBlank">chong</Pronounce>, Mandarin: <Pronounce  lang="cmn-Latn"  pronouncer="Eflong" file="pronunciation_zh_莊.mp3">zhuāng</Pronounce>).
 
 The banker first puts up their stake. Each player in turn then has a chance to _cover_ or _fade_ the banker’s bet, by placing a stake equivalent to some portion of the banker’s bet. The stake that each player places is how much they stand to win or lose on this round. Once the banker’s bet is matched, or each player has had a turn to place a stake, the banker takes back any remaining uncovered bet, and begins the round. Players who did not place any stake will not play in this round.
 
@@ -244,7 +246,7 @@ Re-roll
 
 > [!todo]
 >
->  ဝိုက် 'wai' in Burmese also means a set of 3… 
+>  ဝိုက် 'wai' in Burmese also means a set of 3…
 
 If the banker establishes a point of 2–5, each other player in turn rolls the dice
 until they roll a result that counts. If it is higher than the banker’s point,
@@ -437,9 +439,9 @@ The game is featured in many titles of the
 
 #### <span class="aka">Underground <span lang="ja-Latn">Chinchirorin</span></span>
 
-This version of the game is played in [<cite>Kaiji: Against All Rules</cite>](https://en.wikipedia.org/wiki/Kaiji:_Against_All_Rules) (2011).  The payoffs are again different, with <Dice type="japanese">111</Dice> becoming the highest roll.
+This version of the game is played in the manga/anime series [<cite>Kaiji: Against All Rules</cite>](https://en.wikipedia.org/wiki/Kaiji:_Against_All_Rules) (2011).  The payoffs are again different, with <Dice type="japanese">111</Dice> becoming the highest roll.
 
-There are also variations to the main rules:
+There are several variations to the main rules:
 
 - The banker has no automatic wins; the players always have a chance to equal or beat their roll. Whoever has the higher roll wins the amount according to their ‘outcome’ in the table below.
 - Each player is banker for two rounds. If on their first round the banker rolls a <Dice type="japanese">111</Dice>, busts, or rolls a <Dice type="japanese">123</Dice> then they pass on the bankership after the first round. A player can also pass on the bankership instead of taking it.
