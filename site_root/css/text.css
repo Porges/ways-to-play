@@ -183,19 +183,23 @@ cite[lang]:lang(zh):not(:lang(zh-Latn)) {
 
   &::before {
     content: '《';
+    font-variant-east-asian: normal;
   }
 
   &::after {
     content: '》';
+    font-variant-east-asian: normal;
   }
 
   cite {
     &::before {
       content: '〈 ';
+      font-variant-east-asian: normal;
     }
 
     &::after {
       content: '〉';
+      font-variant-east-asian: normal;
     }
   }
 }
@@ -206,20 +210,24 @@ cite[lang]:lang(ko):not(:lang(ko-Latn)) {
   font-style: inherit;
 
   &::before {
-    content: '『'
+    content: '『';
+    font-variant-east-asian: normal;
   }
 
   &::after {
-    content: '』'
+    content: '』';
+    font-variant-east-asian: normal;
   }
 
   cite {
     &::before {
-      content: '「'
+      content: '「';
+      font-variant-east-asian: normal;
     }
 
     &::after {
-      content: '」'
+      content: '」';
+      font-variant-east-asian: normal;
     }
   }
 }

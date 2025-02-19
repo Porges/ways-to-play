@@ -1,23 +1,39 @@
 ---
-title: Sīja
+title: <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
 titleLang: ar-Latn
-originalTitle: <span lang="ar">سيجة</span> 
+originalTitle: <span lang="ar">سيجة</span>
 draft: true
 countries: EG
+date created: 2024-12-22
+date modified: 2025-02-16
+aliases:
+  - <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
+  - <span lang="ar-Latn" class="noun">Sīja</span>
+linter-yaml-title-alias: <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
 ---
+# <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
 
-{% image position="aside" src="Seega_1940s.jpg" alt="A photo of two men seated on the sand with a seega board and pieces between them. They are dressed in white clothes and children are watching them play." license="cc0" %}
-Men playing Sīja in the 1940s. Image from @HarvardCamp.
-{% imageEnd %}
-<!--
-Copyright was never renewed, so this is public domain: https://onlinebooks.library.upenn.edu/webbin/cinfo/archaeology
+> [!figure]
+> 
+> ![A photo of two men seated on the sand with a seega board and pieces between them. They are dressed in white clothes and children are watching them play.](Seega_1940s.jpg)
+>
+> ```yaml
+> position: "aside"
+> license: "cc0"
+> ```
+>
+> Men playing Sīja in the 1940s. Image from @HarvardCamp.
 
-Anything published before January 1, 1964 and whose copyright was not renewed is in the public domain. –https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/United_States#General_rules
--->
+> [!todo]
+> 
+> Copyright was never renewed, so this is public domain: https://onlinebooks.library.upenn.edu/webbin/cinfo/archaeology
+> Anything published before January 1, 1964 and whose copyright was not renewed is in the public domain. –https://commons.wikimedia.org/wiki/Commons:Copyright_rules_by_territory/United_States#General_rules
 
-This game is usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources, rarely <span lang="ar-Latn" class="noun aka">Seejeh</span>[@Keats_2 p. 97] or <span lang="ar-Latn" class="noun aka">Sutreng</span>.[@Keats_2 p. 97]{%fn%}Note that in @AncientEgyptiansAtPlay [p. 154] it is mistakenly stated that Hyde discusses the game; the names actually appear in Keats’ commentary on his translation. The layout of Keats’ book is idiosyncratic so it is not entirely clear from the text.{%endfn%}
+This game is usually called <span lang="ar-Latn" class="noun aka">Seega</span> in English sources, rarely <span lang="ar-Latn" class="noun aka">Seejeh</span>[@Keats_2 p. 97] or <span lang="ar-Latn" class="noun aka">Sutreng</span>.[@Keats_2 p. 97][^fn0]
 
-In Arabic it is variously called <span lang="ar" class="aka">سِيجَة</span> <span lang="ar-Latn" class="aka">sīja</span>; <span lang="ar class="aka"">سيجة</span> {%pronounce word="sīja" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجة.mp3" class="aka" %}; <span lang="ar" class="aka">سيجا</span> {%pronounce word="sījā" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجا.mp3" class="aka" %}; or (in Egypt? there was some specific location here) <span lang="ar" class="aka">شيزة</span> {%pronounce word="shiza" lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_شيزة.mp3" class="aka" %}.
+[^fn0]: Note that in @AncientEgyptiansAtPlay [p. 154] it is mistakenly stated that Hyde discusses the game; the names actually appear in Keats’ commentary on his translation. The layout of Keats’ book is idiosyncratic so it is not entirely clear from the text.
+
+In Arabic it is variously called <span lang="ar" class="aka">سِيجَة</span> <span lang="ar-Latn" class="aka">sīja</span>; <span lang="ar" class="aka">سيجة</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجة.mp3" class="aka">sīja</Pronounce>; <span lang="ar" class="aka">سيجا</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجا.mp3" class="aka">sījā</Pronounce>; or (in Egypt? there was some specific location here) <span lang="ar" class="aka">شيزة</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_شيزة.mp3" class="aka">shiza</Pronounce>.
 
 See: @BedouinHeritage, @ModernEgyptians [p. 318], @GebelElSilsila, @SeegaEgyptian
 
@@ -35,7 +51,7 @@ Shantarad or Bub in @SomaliGames [p. 505]
 
 See also [@ArabGamesAndPuzzles]
 
-<!--
+{/*
 
 هناك ثلاث ألعاب تحمل اسم السيجة وهم:
 ١- السيجة الصغيرة وهي:
@@ -50,15 +66,15 @@ See also [@ArabGamesAndPuzzles]
 
 https://www.youtube.com/watch?v=WvPX0mYlB3g
 
--->
+*/}
 
-<!--
+{/*
 
 لعبة السيجه أو الشيزه كما يطلق عليها كبار السن في منطقة تبوك شمال السعودية, لعبة شعبية ذات شهرة واسعة ولها قوانينها الخاصة بها, وخططها أشبه ما تكون بإستراتيجية حربية تنتهي ب  أكل السيجه  حسن الطالعي رصد لنا في التقرير التالي  كل زوايا اللعبه
 
 https://www.youtube.com/watch?v=eKqPC19j_n0
 
--->
+*/}
 
 
 ## Yoté
@@ -95,4 +111,4 @@ Dara also in [@JeuxChezTouaregs].
 
 ## See also
 
-{% gameref cokoo %} is a very similar game.
+[Cokoo](games/cokoo/cokoo.md) is a very similar game.

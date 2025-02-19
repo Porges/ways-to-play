@@ -1,13 +1,17 @@
 ---
 title: Stewart Culin
-order: 50
+order: culin
+date created: 2024-12-18
+date modified: 2025-02-08
+aliases:
+  - Stewart Culin
+  - Culin
+linter-yaml-title-alias: Stewart Culin
 ---
 
-<p class="lead">
-<a href="https://en.wikipedia.org/wiki/Stewart_Culin">Stewart Culin</a> (1858–1959) was a prominent games historian, especially of East and South-East Asian and Native American games.
-</p>
+# Stewart Culin
 
-<!-- excerpt -->
+<a href="https://en.wikipedia.org/wiki/Stewart_Culin">Stewart Culin</a> (1858–1959) was a prominent games historian, especially of East and South-East Asian and Native American games.
 
 ## Games-related works
 
@@ -16,14 +20,14 @@ order: 50
     - republished in 1958 under the title @GamesOfTheOrient
 - 1895: @ChineseGames
 - 1896: @CulinChess
-- 1899: Hawaiian Games[@CulinHawaiian]
-- 1900: Philippine Games[@CulinPhilippine]
+- 1899: “Hawaiian Games”, an article: @CulinHawaiian
+- 1900: “Philippine Games”, an article: @CulinPhilippine
 - 1907: @CulinNorthAmericanIndians
-- 1924: Mah-Jong[@CulinMahjong]
+- 1924: “Mah-Jong”, an article: @CulinMahjong
 
 ## ‘Deciphered’ Games
 
-Culin usually only presents names and terms in their transliterated form. For Chinese, it seems that the most common dictionary he used was the @TonicDictionary, so they are almost always presented in Cantonese pronunciation.
+Culin usually only presents names and terms in their transliterated form. For Chinese, it seems that the most common dictionary he used was the @TonicDictionary, so they are almost always presented with Cantonese pronunciation.
 
 🚧 This section is currently incomplete. 🚧
 

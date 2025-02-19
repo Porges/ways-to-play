@@ -3,26 +3,42 @@ on:
   pull_request:
     branches:
     - main
-    
+
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
     - uses: actions/checkout@v4
-
-    - name: Cache image files
-      uses: actions/cache@v4
+      with:
+        fetch-depth: 0
+    - name: Install pre-reqs
+      run: |
+        sudo apt-get install -y exiftool libfuse2
+        mkdir "$HOME/bin"
+        wget -q 'https://imagemagick.org/archive/binaries/magick' -O "$HOME/bin/magick"
+        chmod +x "$HOME/bin/magick"
+    - uses: actions/cache@v4
+      id: image-cache
       with:
         path: public/img
-        key: ${{ runner.os }}-images-${{ hashFiles('src/**/*.png', 'src/**/*.jpe?g', 'src/**/*.gif', 'src/**/*.svg') }}
-        restore-keys: ${{ runner.os }}-images-
-
-    - uses: actions/setup-node@v4
+        key: images-${{ hashFiles('src/**/*.png', 'src/**/*.jpe?g', 'src/**/*.gif', 'src/**/*.svg') }}
+        restore-keys: images-
+    - uses: actions/cache@v4
+      id: build-cache
       with:
-        node-version: '18'
-        cache: 'npm'
-
-    - run: npm install 
-    - run: npm run-script build
-      env:
-        CI: true
+        path: build/target/release/wtp-build
+        key: build-${{ hashFiles('build/**') }}
+    - name: Build site
+      run: |
+        export PATH="$HOME/bin:$PATH"
+        # check if cache restored binary
+        if [ -e 'build/target/release/wtp-build' ]; then
+          ./build.ps1 -skip_build
+        else
+          ./build.ps1
+        fi
+    - name: Validate HTML
+      run: |
+        wget -q 'https://github.com/validator/validator/releases/download/20.6.30/vnu.linux.zip' -O vnu.linux.zip
+        unzip -q vnu.linux.zip
+        vnu-runtime-image/bin/vnu --skip-non-html --filterfile .vnurc public || true # do not fail build

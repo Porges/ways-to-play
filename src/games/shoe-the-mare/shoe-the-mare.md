@@ -1,65 +1,68 @@
 ---
-title: Shoe the Mare
+title: "Shoe the Mare "
 players:
     minimum: 1
 equipment: Physical
-countries: UK
+countries: GB
+date created: 2024-12-22
+date modified: 2025-02-16
+aliases: ["Shoe the Mare "]
+linter-yaml-title-alias: "Shoe the Mare "
 ---
+# Shoe the Mare 
 
-<p class="lead"><span class="aka">Shoe the (Wild) Mare</span>, or the <span class="aka">Shoeing of the (Wild) Mare</span> is a 17th-century English physical game of unclear form, as there are conflicting accounts of what the game comprised. It was popular during the Christmas season.</p>
+<span class="aka">Shoe the (Wild) Mare</span>, or the <span class="aka">Shoeing of the (Wild) Mare</span> is a 17th-century English physical game of unclear form, as there are conflicting accounts of what the game comprised. It was popular during the Christmas season.
 
 ## Accounts
 
-In 1616 it appears in [Ben Johnson](https://en.wikipedia.org/wiki/Ben_Jonson)’s masque [<cite>Love Restored</cite>](https://en.wikipedia.org/wiki/Love_Restored):[@BenJonson1616 990]{%fn%}In some later editions this mistakenly appears as “shooting the wild Mare”.[@BenJonson1716_3]{%endfn%}
+In 1616 it appears in [Ben Johnson](https://en.wikipedia.org/wiki/Ben_Jonson)’s masque [<cite>Love Restored</cite>](https://en.wikipedia.org/wiki/Love_Restored):[@BenJonson1616 990][^fn0]
+
+[^fn0]: In some later editions this mistakenly appears as “shooting the wild Mare”.[@BenJonson1716_3]
 
 > Are these your court-sports ! would I had kept me to my gamboles o’ the countrey still, selling of fish, short service, shooing the wild mare, or rosting of Robin red-brest.
 
 
-
 It was probably a physical game played by men, also mentioned in a poem (“A New-yeares gift sent to Sir Simeon Steward”) published by [Robert Herrick](https://en.wikipedia.org/wiki/Robert_Herrick_(poet)) in 1648:[@Hesperides 146]
 
-<blockquote>
-<p>Of Christmas sports, the <em>Wassell-boule</em>,<br/>
-That tost up, after <em>Fox-i’th’hole</em>:<br/>
-Of <em>Blind-man-buffe</em>, and of the care<br/>
-That young men have to shooe the <em>Mare</em>:
-</p>
-</blockquote>
+> Of Christmas sports, the _Wassell-boule_,\
+> That tost up, after _Fox-i’th’hole_:\
+> Of _Blind-man-buffe_, and of the care\
+> That young men have to shooe the _Mare_:
 
-In [Nicholas Breton](https://en.wikipedia.org/wiki/Nicholas_Breton)’s @Fantasticks [17], it is mentioned in the section on Christmas:{%fn%}Although in the later reworking @TwelveMoneths [4], it is mentioned under the chapter for January, as part of the [twelve days of Christmas](https://en.wikipedia.org/wiki/Twelve_Days_of_Christmas).{%endfn%}
+In [Nicholas Breton](https://en.wikipedia.org/wiki/Nicholas_Breton)’s @Fantasticks [17], it is mentioned in the section on Christmas:[^fn1]
+
+[^fn1]: In the later reworking @TwelveMoneths [4], it is mentioned under the chapter for January, as part of the [twelve days of Christmas](https://en.wikipedia.org/wiki/Twelve_Days_of_Christmas).
 
 > It is now Christmas, and not a Cup of Drinke must passe without a Caroll, the Beasts, Fowls, and Fish, come to a generall execution, and the Corne is ground to dust for the Bakehouse, and the Pastry: Cards and Dice purge many a purse, and the Youth shew their agility in shooing of the wild Mare: now good cheere and welcome, and God be with you, and I thank you: and against the new yeare, provide for the presents: the Lord of Mis-rule is no meane man for his time, and the ghests of the high Table must lacke no Wine: the lusty bloods must looke about them like men, and piping and dauncing puts away much melancholy: […]
 
 The 1680 poem “Batt upon Batt” has:[@BattUponBatt 5]
 
-> Our _Batt_ can dance, play at high Jinks with Dice,<br/>
-> At any primitive Orthodoxal Vice.<br/>
-> Shooing the wild Mare, tumbling the young Wenches,<br/>
+> Our _Batt_ can dance, play at high Jinks with Dice,\
+> At any primitive Orthodoxal Vice.\
+> Shooing the wild Mare, tumbling the young Wenches,\
 > Drinking all night, and Sleeping on the Benches.
 
 It also appears in another poem (“To my Friend Mr. John Anderson”) by <a href="https://en.wikipedia.org/wiki/Charles_Cotton">Charles Cotton</a> published posthumously in 1689:[@PoemsOnSeveralOccasions 378]
 
-<blockquote>
-<p>&emsp;We have too errant <em>Knights</em> so stout,<br/>
-&emsp;As honest <em>Hobinel</em> and <em>Clout</em>,<br/>
-With many an other stiff and sturdy Lout,<br/>
-&emsp;&emsp;&emsp;That <a href="https://www.thearma.org/essays/wasters.htm">play at wasters</a>,<br/>
-&emsp;Shooe the wild Mare, and lick the board,<br/>
-&emsp;That for stiff Tuck, or cutting Sword,<br/>
-For Man, or Woman, care not of a <em>Turd</em>,<br/>
-&emsp;&emsp;&emsp;But their own <em>Masters</em>.</p>
-</blockquote>
+> &emsp;We have too errant _Knights_ so stout,\
+> &emsp;As honest _Hobinel_ and _Clout_,\
+> With many an other stiff and sturdy Lout,\
+> &emsp;&emsp;&emsp;That <a href="https://www.thearma.org/essays/wasters.htm">play at wasters</a>,\
+> &emsp;Shooe the wild Mare, and lick the board,\
+> &emsp;That for stiff Tuck, or cutting Sword,\
+> For Man, or Woman, care not of a _Turd_,\
+> &emsp;&emsp;&emsp;But their own _Masters_.
 
-An old nursery rhyme of unknown date runs:[@GammerGurtonsGarland 52]{%fn%}[John Bellenden Ker](https://en.wikipedia.org/wiki/John_Bellenden_Ker_Gawler) gives a masterfully absurd interpretation of this poem as a heathen Saxon invection against Catholic monks, see: @AoPPSupplement [257].{%endfn%}
+An old nursery rhyme of unknown date runs:[@GammerGurtonsGarland 52][^fn2]
 
-<blockquote>
-<p>Shoe the colt,<br/>
-Shoe the colt,<br/>
-&emsp;Shoe the wild mare;<br/>
-Here a nail,<br/>
-There a nail,<br/>
-&emsp;Yet she goes bare.</p>
-</blockquote>
+[^fn2]: [John Bellenden Ker](https://en.wikipedia.org/wiki/John_Bellenden_Ker_Gawler) gives a masterfully absurd interpretation of this poem as a heathen Saxon invection against Catholic monks, see: @AoPPSupplement [257].
+
+> Shoe the colt,\
+> Shoe the colt,\
+> &emsp;Shoe the wild mare;\
+> Here a nail,\
+> There a nail,\
+> &emsp;Yet she goes bare.
 
 ## The Game
 
@@ -73,7 +76,7 @@ A similar game is described in @Gallovidian_1e [426] under the name of:
 
 > <span lang="sco" class="aka">Shoing the Auld Mare</span>.—A dangerous kind of sport; a beam of wood is slung between two ropes, a person gets on to this, and contrives to steady himself, until he goes through a number of antics; if he can do this he _shoes the auld mare_, if he cannot do it, he generally tumbles to the ground, and gets hurt with the fall.
 
-The “suspended” version seems to be particular to Scotland, another account names the game <span lang="gd" class="aka">Crudhadh an Capuill Bhain</span> “Shoeing the White Mare”, or <span lang="gd" class="aka">An Lair Bhreabain</span> “The Kicking Mare”:[@GamesDiversionsArgyleshire 197]
+The “suspended” version seems to be particular to Scotland. Another account reports it under the name <span lang="gd" class="aka">Crudhadh an Capuill Bhain</span> “Shoeing the White Mare”, or <span lang="gd" class="aka">An Lair Bhreabain</span> “The Kicking Mare”:[@GamesDiversionsArgyleshire 197]
 
 > A beam is suspended from the roof by two ropes of about equal length, and high enough from the ground to prevent any one astride of it touching the floor with his feet. The feat consists in keeping your seat on this white mare without touching the ropes. When it is called “shoeing the mare,” the rider is supposed to be the smith, and has a piece of wood in his hand which represents his hammer, with the hammer he was supposed to drive in the nails of the shoes, striking the lower part of the beam four times eight blows. He who could complete the shoeing of the horse without being thrown off was of course a master of smithcraft. When it was merely riding “the kicking mare,” the rider was provided with a wand with which he struck at his lively mount in all directions, and the more quickly and more variously he could do this without falling off, he was considered all the better rider. It generally ended in a tumble, exciting the merriment of the spectators.
 
@@ -85,7 +88,11 @@ The “suspended” version seems to be particular to Scotland, another account 
 
 However, this seems to be entirely his own supposition.
 
-Another 19th-century author remembers it as a circle chase where “if my boyish recollections be correct, this game is played by a number standing in a ring, holding hands, with one outside the ring, who drops a handkerchief behind any one he pleases; and the point is, to be sharp in observing if it be dropped behind you, and then to be quick in overtaking the dropper before he arrives at your place—the only practical allusion to a horse being in the activity”.[@ChristmasCustomsInMounmouthshire] See {%gameref circle-chases %} for more on these types of games.
+Another 19th-century author remembers it as a circle chase where:[@ChristmasCustomsInMounmouthshire] 
+
+>if my boyish recollections be correct, this game is played by a number standing in a ring, holding hands, with one outside the ring, who drops a handkerchief behind any one he pleases; and the point is, to be sharp in observing if it be dropped behind you, and then to be quick in overtaking the dropper before he arrives at your place—the only practical allusion to a horse being in the activity.
+
+See [Circle Chases](games/circle-chases/circle-chases.md) for more on these types of games.
 
 ## Other references
 

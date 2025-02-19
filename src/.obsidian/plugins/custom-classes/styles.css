@@ -1,0 +1,25 @@
+/* src/styles.css */
+h2.settings-header {
+  font-size: 18px;
+  margin-left: -10px;
+  font-weight: 900;
+  margin-top: 60px;
+}
+h2.settings-header:nth-of-type(2) {
+  margin-top: 71.25px;
+}
+.cc-container {
+  white-space: nowrap;
+  display: inline-block;
+}
+.cc-container > div.cc-renderer > * {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  white-space: normal;
+}
+.cc-container > div.cc-renderer ul,
+.cc-container > div.cc-renderer ol {
+  padding-inline-start: 24px;
+}

@@ -1,0 +1,37 @@
+{
+  "callouts": {
+    "custom": [
+      "figure"
+    ],
+    "settings": {
+      "figure": [
+        {
+          "changes": {
+            "icon": "lucide-image"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "161, 106, 73"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "161, 106, 73"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

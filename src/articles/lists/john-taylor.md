@@ -1,48 +1,60 @@
 ---
 title: <cite>Taylor’s Motto</cite> (1621)
 order: 1621
+date created: 2024-12-18
+date modified: 2025-02-08
+aliases: [<cite>Taylor’s Motto</cite> (1621)]
+linter-yaml-title-alias: <cite>Taylor’s Motto</cite> (1621)
 ---
+# <cite>Taylor’s Motto</cite> (1621)
 
-{%image position="aside" src="motto.jpg" alt="A man standing upon a rock, straddling a glob, with a churning sea around him. He is looking at the sun."
-license="cc0" originalUrl="https://artmuseum.princeton.edu/collections/objects/46096" orgName="Princeton University Art Museum" %}
-Frontispiece to Taylor’s <cite>Motto</cite> (1621).
-{% imageEnd %}
+
+> [!figure]
+>
+> ![A man standing upon a rock, straddling a globe, with a churning sea around him. He is looking at the sun.](motto.jpg)
+>
+> ```yaml
+> position: "aside"
+> license: "cc0"
+> originalUrl: "https://artmuseum.princeton.edu/collections/objects/46096"
+> orgName: "Princeton University Art Museum"
+> ```
+>
+> Frontispiece to Taylor’s <cite>Motto</cite> (1621).
 
 [John Taylor](https://en.wikipedia.org/wiki/John_Taylor_(poet)) (1578–1653) was
 an English poet who gave himself the epithet “the Water-Poet”. His work
-<cite>Taylor’s Motto</cite> was published in 1621, and contains a list of games, as follows:
+<cite>Taylor’s Motto</cite> was published in 1621, and contains a list of games in one verse, as follows:
 
-<blockquote>
-The Prodigals estate, like to a flux,<br/>
-The Mercer, Draper, and the Silkman sucks:<br/>
-The Taylor, Millainer, Dogs, Drabs and Dice,<br/>
-Trey-trip, or Passage, or The most at thrice;<br/>
-At Irish, Tick-tack, Doublets, Draughts or Chesse,<br/>
-He flings his money free with carelessenesse:<br/>
-At Nouum, Mumchance, mischance, (chuse ye which<br/>
-At One and thirty, or at Poore and rich,<br/>
-Ruffe, slam, Trump, nody, whisk, hole, Sant, Newcut.<br/>
-Vnto the keeping of foure Knaues he'le put<br/>
-His whole estate, at Loadum, or at Gleeke<br/>
-At Tickle-me-quickly, he's a merry Greeke,<br/>
-At Primefisto, Post and payre, Primero,<br/>
-Maw, Whip-her-ginny, he•s a lib'rall Hero;<br/>
-At My-sow-pigg'd, and (Reader neuer doubt ye,<br/>
-He's skil'd in all games, except) Looke about ye.<br/>
-Bowles, shoue-groate, tennis, no game comes amis,<br/>
-His purse a nurse for any body is;<br/>
-Caroches, Coaches, and Tobacconists,<br/>
-All sorts of people freely from his fists<br/>
-His vaine expences daily sucke and soake,<br/>
-And his himselfe sucks onely drinke and smoake,<br/>
-And thus the Prodigall, himselfe alone,<br/>
-Giues suck to thousands, and himselfe sucks none.[@TaylorsMotto]
-</blockquote>
+> The Prodigals estate, like to a flux,\
+> The Mercer, Draper, and the Silkman sucks:\
+> The Taylor, Millainer, Dogs, Drabs and Dice,\
+> Trey-trip, or Passage, or The most at thrice;\
+> At Irish, Tick-tack, Doublets, Draughts or Chesse,\
+> He flings his money free with carelessenesse:\
+> At Nouum, Mumchance, mischance, (chuse ye which\
+> At One and thirty, or at Poore and rich,\
+> Ruffe, slam, Trump, nody, whisk, hole, Sant, Newcut.\
+> Vnto the keeping of foure Knaues he'le put\
+> His whole estate, at Loadum, or at Gleeke\
+> At Tickle-me-quickly, he's a merry Greeke,\
+> At Primefisto, Post and payre, Primero,\
+> Maw, Whip-her-ginny, he•s a lib'rall Hero;\
+> At My-sow-pigg'd, and (Reader neuer doubt ye,\
+> He's skil'd in all games, except) Looke about ye.\
+> Bowles, shoue-groate, tennis, no game comes amis,\
+> His purse a nurse for any body is;\
+> Caroches, Coaches, and Tobacconists,\
+> All sorts of people freely from his fists\
+> His vaine expences daily sucke and soake,\
+> And his himselfe sucks onely drinke and smoake,\
+> And thus the Prodigall, himselfe alone,\
+> Giues suck to thousands, and himselfe sucks none.[@TaylorsMotto]
 
 The named games are:
 - Dice games:
     - Trey-Trip
-    - Passage: see {%gameref passage %}
+    - Passage: see [Passage](games/passage/passage.md)
     - The Most at Thrice
 - Tables games:
     - Irish
@@ -62,7 +74,7 @@ The named games are:
     - Trump
     - Nody
     - Whisk
-    - Hole: {%gameref my-ladys-hole%}
+    - Hole: probably [My Lady’s Hole](games/my-ladys-hole/my-ladys-hole.md)
     - Sant
     - Newcut
     - Loadum
@@ -73,7 +85,7 @@ The named games are:
     - Primero
     - Maw
     - Whip-her-ginny
-    - My-sow-pigg’d: {%gameref my-sow-pigged%}
+    - My-sow-pigg’d: [My Sow (Has) Pigged](games/my-sow-pigged/my-sow-pigged.md)
 - Physical games:
     - Bowles
     - Shoue-groate
