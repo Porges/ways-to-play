@@ -13,12 +13,14 @@ aliases:
   - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2025-02-16
+date modified: 2025-02-19
 linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
 
-Ceki (Javanese <span lang="jv">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore. They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
+Ceki (Javanese <span lang="jv">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore.
+
+They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
 
 “Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong) cards’).
 
@@ -98,9 +100,9 @@ During the colonial era, cards were manufactured in Europe by Dutch companies an
 > size: wide
 > ```
 >
-> Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps [Pèi](games/pei/pei.md) (there are probably too many cards in the centre for it to be {% gameref thothit %}).
+> Javanese card players, by Jean Demmeni (1866–1939). There are three players playing a fishing game, perhaps [Pèi](games/pei/pei.md); there are probably too many cards in the centre for it to be [<span lang="jv-Latn" class="noun">Thothit</span>](games/thothit/thothit.md).
 
-In Bali, the game is widely played and has “a large if not fanatical following”,[@TransitionalDemocracy p. 170] despite gambling being illegal. Cards are readily available at many convenience stores.
+In Bali, the game is widely played and has “a large if not fanatical following”,[@TransitionalDemocracy 170] despite gambling being illegal. Cards are readily available at many roadside convenience stores.
 
 > [!figure]
 >
@@ -5948,18 +5950,18 @@ them, I do not know of any other sets of rules recorded online.
 
 **Fishing** games (where players capture cards from a central pool):
 
-* [Cholek Tiga](games/cholek-tiga/cholek-tiga.md) (‘draw three’), a Malaysian game for two or three players[@BabaMalayDictionary p. 214][@ChikiCards p. 125]
-* [Pèi](games/pei/pei.md), a Javanese game for three players where the goal is to collect specific scoring combinations[@JavaanseKaartspelen p. 58–70]
-* [<span lang="jv-Latn" class="noun">Thothit</span>](games/thothit/thothit.md), a Javanese game for three players where the goal is to capture identical pairs[@JavaanseKaartspelen p. 71–2]
-* [<span lang="jv-Latn" class="noun">Enthit</span>](games/thothit/thothit.md#enthit), a similar Javanese game for three players where the goal is to capture identical quadruplets[@JavaanseKaartspelen p. 74]
-* {% gameref thothit-kuna %}, an older and slower version of the game[@JavaanseKaartspelen p. 74]
-* {% gameref thothit-yogyakarta %}, a luck-based Javanese game for three players[@JavaanseKaartspelen p. 73]
-* {% gameref thit-thit-dulit %}, a luck-based Javanese game for two players[@JavaanseKaartspelen p. 73]
+* [Cholek Tiga](games/cholek-tiga/cholek-tiga.md) (‘draw three’), a Malaysian game for two or three players[@BabaMalayDictionary 214][@ChikiCards 125]
+* [Pèi](games/pei/pei.md), a Javanese game for three players where the goal is to collect specific scoring combinations[@JavaanseKaartspelen 58–70]
+* [<span lang="jv-Latn" class="noun">Thothit</span>](games/thothit/thothit.md), a Javanese game for three players where the goal is to capture identical pairs[@JavaanseKaartspelen 71–2]
+* [<span lang="jv-Latn" class="noun">Enthit</span>](games/thothit/thothit.md#enthit), a similar Javanese game for three players where the goal is to capture identical quadruplets[@JavaanseKaartspelen 74]
+* [<span lang="jv-Latn" class="noun">Thothit Kuna</span>](games/thothit/thothit.md#thothit-kuna), an older and slower version of the game[@JavaanseKaartspelen 74]
+* [<span lang="jv-Latn" class="noun">Thothit Yogyakarta</span>](games/kings/kings.md#thothit-yogya), a luck-based Javanese game for three players[@JavaanseKaartspelen 73]
+* [Thit-Thit-Dulit](games/kings/kings.md#thit-thit-dulit), a luck-based Javanese game for two players[@JavaanseKaartspelen 73]
 
 **Simple** gambling games:
 
 * [Sampen](games/sampen/sampen.md) is a gambling game from Java that requires no skill
-* {% gameref thothit-banyuwangi %} is a similar game[@JavaanseKaartspelen p. 76]
+* [<span lang="jv-Latn" class="noun">Thothit Banyuwangi</span>](games/sampen/sampen.md#thothit-banyuwangi) is a similar game[@JavaanseKaartspelen p. 76]
 
 **Trick-taking** games:
 
@@ -5968,15 +5970,15 @@ them, I do not know of any other sets of rules recorded online.
 **Draw & discard** games (like Mahjong):
 
 * [Balik Satu](games/balik-satu/balik-satu.md) (‘turn one’), a Malaysian game with no fixed number of players[@BabaMalayDictionary p. 214][@ChikiCards p. 122]
-* {% gameref balik-lima-belas %}[@ChikiCards p. 127]/Balek Lima Belair[@BabaMalayDictionary p. 124]/Bukak Lima Blas Leh[@TheBabas p. 167] (‘turn fifteen’), an alternate method of scoring Balik Satu
-* {% gameref chot %}/Chote/Choke/Kiong, a four-player game[@BabaMalayDictionary p. 214][@ChikiCards p. 127][@TheBabas p. 167]
-* {% gameref gonggong %}, a Javan game for four or six players[@JavaanseKaartspelen p. 94–7]
-* {% gameref tantanan %}, a fast-playing Javan game for four players[@JavaanseKaartspelen p. 98]
+* [Balik Lima Belas](games/balik-satu/balik-satu.md#balik-lima-belas)[@ChikiCards p. 127]/Balek Lima Belair[@BabaMalayDictionary p. 124]/Bukak Lima Blas Leh[@TheBabas p. 167] (‘turn fifteen’), an alternate method of scoring Balik Satu
+* [Chot](games/balik-satu/balik-satu.md#chot)/Chote/Choke/Kiong, a similar four-player game[@BabaMalayDictionary p. 214][@ChikiCards p. 127][@TheBabas p. 167]
+* [<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong), a Javan game for four or six players[@JavaanseKaartspelen p. 94–7]
+* [<span class="noun" lang="jv-Latn">Tantanan</span>](games/balik-satu/balik-satu.md#tantanan), a fast-playing Javan game for four players[@JavaanseKaartspelen p. 98]
 * [Pong](games/pai-tong/pai-tong.md) a Malaysian version of a Thai game, played by four people, also played with Mahjong tiles
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
-* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui[^fn3] which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn">pat tùi</span>),[^fn4] in which case the game could be something similar to {%gameref tantanan%}.
+* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui[^fn3] which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn">pat tùi</span>),[^fn4] in which case the game could be something similar to [<span class="noun" lang="jv-Latn">Tantanan</span>](games/balik-satu/balik-satu.md#tantanan).
 * Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary p. 214]
 * Tongkeng, a game for two people[@BabaMalayDictionary p. 215]
 * Cho It and Chochot[@SomeNotesMalayCardGames p. 88] — could Chochot be the same as Chot or Thothit?
@@ -5985,7 +5987,7 @@ Other games from Malaysia/Singapore, for which I have no rules, are:
 
 [^fn4]: This possibility raised in @Morgenlandisch_2 [p. 572].
 
-In some descriptions, Ceki is itself a game (a variant of [Balik Satu](games/balik-satu/balik-satu.md)) and the cards called by other names such as <span lang="jv-Latn">ijo</span>. @BlikJavaansche_2 [p. 499] gives the games <span lang="jv-Latn">koa</span>, <span lang="jv-Latn">koa-baq</span>, <span lang="jv-Latn">koa-gonggong</span> ({%gameref gonggong%}), <span lang="jv-Latn">pehi</span> ([Pèi](games/pei/pei.md)?), <span lang="jv-Latn">patui</span>, <span lang="jv-Latn">panghao</span>, and <span lang="jv-Latn">cĕki</span>, but without explanations.
+In some descriptions, Ceki is itself a game (a variant of [Balik Satu](games/balik-satu/balik-satu.md)) and the cards called by other names such as <span lang="jv-Latn">ijo</span>. @BlikJavaansche_2 [p. 499] gives the games <span lang="jv-Latn">koa</span>, <span lang="jv-Latn">koa-baq</span>, <span lang="jv-Latn">koa-gonggong</span> ([<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong)), <span lang="jv-Latn">pehi</span> ([Pèi](games/pei/pei.md)?), <span lang="jv-Latn">patui</span>, <span lang="jv-Latn">panghao</span>, and <span lang="jv-Latn">cĕki</span>, but without explanations.
 
 ## Manufacturers & Brands
 

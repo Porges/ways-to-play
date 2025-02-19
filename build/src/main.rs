@@ -176,6 +176,7 @@ impl YamlHeader for ArticleHeader {
         let order = take_header(header, "order");
 
         let _aliases = take_header(header, "aliases"); // Obsidian-specific
+        let _linter_alias = take_header(header, "linter-yaml-title-alias"); // Obsidian-specific
 
         Ok(ArticleHeader {
             title,
@@ -631,7 +632,7 @@ impl Builder {
                 .bibliography(&self.rendered_bibliography, cites)
                 .wrap_err("generating bibliography")?,
             self.templater
-                .welcome()
+                .welcome(output_files)
                 .wrap_err("generating welcome page")?,
             self.templater
                 .games(
@@ -674,7 +675,12 @@ impl Builder {
         }
         result.push_str("</urlset>\n");
 
-        Ok(OutputFile::new("/sitemap.xml", result, most_recent))
+        Ok(OutputFile::new(
+            "/sitemap.xml",
+            result,
+            most_recent,
+            maud::PreEscaped("Sitemap".to_string()),
+        ))
     }
 
     fn generate_article<T>(
@@ -840,10 +846,6 @@ impl Builder {
                         url_path: my_path.clone(),
                     }));
 
-                let cite_ref = Arc::new((
-                    game.metadata.article_meta.title.clone(),
-                    game.url_path.to_string(),
-                ));
                 let mut cites = cites.lock().unwrap();
                 for (ref_id, cite_id) in my_cites {
                     let cite = (my_title.clone(), format!("{}#{}", my_path, cite_id));

@@ -1,7 +1,6 @@
 use std::{collections::BTreeMap, convert::Infallible, str::FromStr};
 
 use icu::locid::LanguageIdentifier;
-use num_format::ToFormattedString;
 use serde::{
     de::{self, Visitor},
     Deserialize, Deserializer,
@@ -9,7 +8,7 @@ use serde::{
 use serde_with::serde_as;
 use time::Month;
 
-use crate::bib_render::ordinal;
+use crate::{bib_render::ordinal, intl::INTL};
 
 #[derive(Deserialize, Debug, Default)]
 #[serde(transparent)]
@@ -657,7 +656,7 @@ impl NumberOrString {
             NumberOrString::Str(s) => s.clone(),
             NumberOrString::Num(n) => {
                 if locale {
-                    n.to_formatted_string(&num_format::Locale::en)
+                    INTL.format_number(*n)
                 } else {
                     n.to_string()
                 }

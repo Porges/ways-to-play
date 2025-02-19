@@ -1,7 +1,6 @@
 use std::{borrow::Cow, collections::BTreeMap};
 
 use maud::{html, Markup};
-use num_format::{Locale, ToFormattedString};
 use time::macros::format_description;
 
 use crate::{
@@ -126,10 +125,6 @@ fn inline_cite(reference: &Reference) -> Option<InlineCiteRenderer> {
         }
         _ => None,
     }
-}
-
-fn format_num(num: u64) -> String {
-    num.to_formatted_string(&Locale::en)
 }
 
 fn book_item_type(book: &Book) -> &'static str {
@@ -776,7 +771,7 @@ fn render_periodical(key: &str, p: &Periodical) -> Markup {
                 " "
                 span itemscope itemtype="https://schema.org/PublicationIssue" itemprop="isPartOf" {
                     link itemprop="isPartOf" href={"#"(key)"-volume"};
-                    "(" span itemprop="issueNumber" { (format_num(issue as u64)) } ")"
+                    "(" span itemprop="issueNumber" { (INTL.format_number(issue)) } ")"
                     (date_part)
                 }
             }
@@ -788,7 +783,7 @@ fn render_periodical(key: &str, p: &Periodical) -> Markup {
                 " "
                 span itemscope itemtype="https://schema.org/PublicationIssue" itemprop="isPartOf" {
                     link itemprop="isPartOf" href={"#"(key)"-periodical"};
-                    "(" span itemprop="issueNumber" { (format_num(issue as u64)) } ")"
+                    "(" span itemprop="issueNumber" { (INTL.format_number(issue)) } ")"
                     (date_part)
                 }
             }

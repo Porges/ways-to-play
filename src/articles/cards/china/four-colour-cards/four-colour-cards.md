@@ -2,7 +2,9 @@
 title: '<span lang="zh">四色牌</span> · Four Colour Cards'
 draft: true
 date created: 2024-12-18
-date modified: 2025-02-08
+date modified: 2025-02-19
+aliases: ['<span lang="zh">四色牌</span> · Four Colour Cards']
+linter-yaml-title-alias: '<span lang="zh">四色牌</span> · Four Colour Cards'
 ---
 # <span lang="zh">四色牌</span> · Four Colour Cards
 
@@ -158,7 +160,7 @@ dried group/line/army?
 Hokkien: <span lang="nan-Latn">cha̍p jī ki</span>
 </td>
 <td>
-12 cards; see {% gameref chap-ji-ki-panjang %}
+12 cards; see [Chap Ji Ki Panjang](games/tehonbiki/tehonbiki.md#chap-ji-ki-panjang)
 </td>
 </tr>
 

@@ -204,8 +204,8 @@ There are 9 <Pronounce pronouncer="yasuo"  lang="ja-Latn" file="pronunciation_ja
 
 #### <span lang="ja-Latn">Tanzaku</span> cards
 
-There are 10 {% pronounce pronouncer="skent" word="tanzaku" lang="ja-Latn"
-file="pronunciation_ja_短冊.mp3" %} (<span lang="ja">短冊</span>) cards, usually
+There are 10 <Pronounce pronouncer="skent" lang="ja-Latn"
+file="pronunciation_ja_短冊.mp3">tanzaku</Pronounce> (<span lang="ja">短冊</span>) cards, usually
 worth 5 points each. These are the cards with the coloured ‘scrolls’ on them.
 Small pieces of paper were used to write poems on at poetry competitions (see
 the image below). For some games these are further subdivided into three
@@ -255,11 +255,9 @@ lang="ja-Latn">tanzaku</span>.
 #### <span lang="ja-Latn">Kasu</span> cards
 
 The remaining 24 cards that aren’t in one of the previous categories are called
-{%pronounce pronouncer="poyotan" word="kasu" lang="ja-Latn"
-file="pronunciation_ja_滓.mp3" %} (<span lang="ja">滓</span>, ‘dregs’ or
-‘junk’). They are usually worth a single point each. The first ten months have
-two <span lang="ja-Latn">kasu</span> cards, but November has only one, and
-December has three.
+<Pronounce pronouncer="poyotan" lang="ja-Latn"
+file="pronunciation_ja_滓.mp3">kasu</Pronounce> (<span lang="ja">滓</span>, ‘dregs’ or ‘junk’). They are usually worth a single point each. The first ten months have
+two <span lang="ja-Latn">kasu</span> cards, but November has only one, and December has three.
 
 These cards can be identified by their lack of distinguishing features. The odd
 one out is the “lightning card” of the November month, which is printed with a

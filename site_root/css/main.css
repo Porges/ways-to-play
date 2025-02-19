@@ -1191,6 +1191,11 @@ p.informational {
 
 .recently-updated-time {
     font-size: var(--font-size-sm);
+    white-space: nowrap;
+}
+
+p.george {
+    text-align: right;
 }
 
 /** Next/previous article **/

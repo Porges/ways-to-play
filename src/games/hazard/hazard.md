@@ -213,18 +213,13 @@ When played against a bank, the game needed to be made unfair in some way so tha
 
 [^fn3]: I do not yet have details about how this change was made.
 
-{/*
-@TheorieDesJeuxDeHasard suggests that some numbers were made into … TODO
+> [!todo]
+>  @TheorieDesJeuxDeHasard suggests that some numbers were made into … TODO
+>  I cannot find this supposed section now!
 
-I cannot find this supposed section now!
+> [!todo]
+> Interesting entry on Hazard here: https://archive.org/details/bub_gb_LclKAAAAcAAJ/page/396/mode/2up?q=hazard
 
-*/}
-
-{/*
-
-Interesting entry on Hazard here: https://archive.org/details/bub_gb_LclKAAAAcAAJ/page/396/mode/2up?q=hazard
-
-*/}
 
 ## See also
 

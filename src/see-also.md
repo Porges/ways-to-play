@@ -5,6 +5,8 @@ date created: 2024-12-18
 date modified: 2025-02-03
 ---
 
+Here is a collection of other sites about games.
+
 Aside from the others that are already cited in the [Bibliography](https://games.porg.es/bibliography), these sites are worth visiting individually. I link them here also in an attempt to combat the loss of information over time; if any of these links stops working then they should still be able to be found on Internet Archive. Links to archives of now-dead sites are marked with †.
 
 **[Ancient Games](https://web.archive.org/web/20221205194033/https://www.ancientgames.org/)†** was a website by Eli Gurevich about games from the ancient world. It had many high-quality images not seen elsewhere.

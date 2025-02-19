@@ -108,9 +108,9 @@ Cards
 </tbody>
 </table>
 
-### <span lang="jv-Latn">Thothit Banyuwangi</span>
+### <span lang="jv-Latn" id="thothit-banyuwangi">Thothit Banyuwangi</span>
 
-This similar game named <span lang="jv-Latn" class="noun aka">Thothit</span> is played in Banyuwangi, East Java. It is different from other games called {% gameref thothit %}.[@JavaanseKaartspelen p. 74]
+This similar game named <span lang="jv-Latn" class="noun aka">Thothit</span> is played in Banyuwangi, East Java. It is different from other games called [<span lang="jv-Latn" class="noun">Thothit</span>](games/thothit/thothit.md).[@JavaanseKaartspelen p. 74]
 
 A single deck of 60 cards is used, and it is played by up to seven players.
 

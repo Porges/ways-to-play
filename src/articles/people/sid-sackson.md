@@ -145,7 +145,7 @@ Sechs und Sechzig
 [Bézique](games/bezique/bezique.md)
 </li>
 <li>
-{%gameref polish-bezique%}
+[Polish Bézique](games/bezique/bezique.md)
 </li>
 <li>
 Jass

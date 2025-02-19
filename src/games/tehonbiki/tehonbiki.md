@@ -142,7 +142,7 @@ instead the past outcomes can be recorded on a piece of paper.
 
 Tehonbiki can also be played with dice (TODO).
 
-## <span lang="ms" class="noun aka">Chap Ji Ki Panjang</span>
+## <span lang="ms" class="noun aka" id="chap-ji-ki-panjang">Chap Ji Ki Panjang</span>
 
 This game from Singapore, whose name means ‘long Chap Ji Ki’ was a <span lang="ja-Latn" class="noun">Tehonbiki</span>-like variation of the main {% gameref chap-ji-ki %} lottery game.[@GamblingGamesOfMalaya p. 113–5] It was also known as <span lang="nan" class="aka">十二支現場</span> <span lang="nan-Latn" class="aka">cha̍p jī ki hiān-tiûⁿ</span> (‘12 characters on the spot’), or <span lang="ms" class="noun aka">Tok Tok</span>, an onomatopœia for the sound of rapping on the table.[@NyonyaMosaic p. 129]
 

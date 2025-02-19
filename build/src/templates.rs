@@ -1,3 +1,4 @@
+use core::str;
 use std::borrow::Cow;
 use std::collections::HashMap;
 use std::sync::Arc;
@@ -6,6 +7,7 @@ use eyre::{Context, Result};
 use icu::locid::LanguageIdentifier;
 use itertools::Itertools;
 use maud::{html, Markup, DOCTYPE};
+use regex::Regex;
 use time::macros::format_description;
 use url::Url;
 use url_escape::percent_encoding::AsciiSet;
@@ -17,7 +19,9 @@ use crate::{bib_render::RenderedBibliography, Aka, ArticleNode};
 pub struct Templater {
     site_url: Url,
 }
+
 pub struct OutputFile {
+    pub title: Markup,
     pub url_path: Cow<'static, str>,
     pub content: Vec<u8>,
     pub write_to_disk: bool,
@@ -29,12 +33,14 @@ impl OutputFile {
         url_path: impl Into<Cow<'static, str>>,
         content: impl Into<Vec<u8>>,
         last_modified: Option<time::Date>,
+        title: Markup,
     ) -> Self {
         Self {
             url_path: url_path.into(),
             content: content.into(),
             write_to_disk: true,
             last_modified,
+            title,
         }
     }
 }
@@ -271,6 +277,7 @@ impl Templater {
             metadata.url_path().to_owned(),
             content.into_string(),
             metadata.modification_date(),
+            metadata.title_markup().clone(),
         ))
     }
 
@@ -385,7 +392,35 @@ impl Templater {
         )
     }
 
-    pub fn welcome(&self) -> Result<OutputFile> {
+    pub fn welcome(&self, all_files: &[OutputFile]) -> Result<OutputFile> {
+        let recently_updated = all_files
+            .iter()
+            .sorted_by_key(|f| f.last_modified)
+            .rev()
+            .take(30);
+
+        let regex = Regex::new("(<header.*?</header>|<footer.*?</footer>|<dialog.*?</dialog>|<h2 id=\"references\">.*$)").unwrap();
+        let segmenter = icu::segmenter::WordSegmenter::new_auto();
+        let long_pages = all_files
+            .iter()
+            .sorted_by_key(|f| f.content.len())
+            .rev()
+            .take(30)
+            .map(|f| {
+                let string_content = str::from_utf8(&f.content).unwrap();
+                let without_dialogs_and_references = regex.replace_all(string_content, "");
+                let text_value = crate::string_value_of_html(&without_dialogs_and_references);
+                let mut word_count = 0;
+                let mut iter = segmenter.segment_str(&text_value);
+                while iter.next().is_some() {
+                    word_count += iter.is_word_like() as u64;
+                }
+                (f, word_count)
+            })
+            .sorted_by_key(|(_, wc)| *wc)
+            .rev()
+            .take(20);
+
         let content = html! {
             h1.page-title itemprop="name" {
                 "Welcome to Ways To Play"
@@ -409,9 +444,37 @@ impl Templater {
             p {
                 "For other sites about games, please visit the " strong { a href="/see-also/" { "See Also" } } " page."
             }
-        };
 
-        // TODO: recently updated/longest pages
+            p.george {
+                "— George"
+            }
+
+            h2 { "Recently updated" }
+            ul.columnar-large {
+                @let format = format_description!("[year]-[month]-[day]");
+                @for file in recently_updated {
+                    @let date = file.last_modified.unwrap().format(format)?;
+                    li {
+                        a href=(file.url_path) { (file.title) }
+                        span.recently-updated-time {
+                            " (" time.relative datetime=(date) { (date) } ")"
+                        }
+                    }
+                }
+            }
+
+            h2 { "Longest pages" }
+            ul.columnar-large {
+                @for (file, words) in long_pages {
+                    li {
+                        a href=(file.url_path) { (file.title) }
+                        span.recently-updated-time {
+                            " (" (INTL.format_number(words)) " words)"
+                        }
+                    }
+                }
+            }
+        };
 
         self.base(
             &SimplePage::new("Welcome".to_string(), "/".into(), None),

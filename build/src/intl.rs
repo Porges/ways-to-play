@@ -5,9 +5,11 @@ use std::{
 };
 
 use eyre::Result;
+use fixed_decimal::FixedDecimal;
 use icu::{
     casemap::{CaseMapper, TitlecaseMapper},
     collator::{Collator, CollatorOptions, Numeric, Strength},
+    decimal::FixedDecimalFormatter,
     experimental::displaynames::{LanguageDisplayNames, RegionDisplayNames},
     locid::{
         langid, locale,
@@ -23,6 +25,7 @@ pub struct Intl {
     english_display_names: LanguageDisplayNames,
     english_specific_names: HashMap<LanguageIdentifier, &'static str>,
     autonym_display_names: Mutex<HashMap<LanguageIdentifier, Option<String>>>,
+    number_formatter: FixedDecimalFormatter,
 }
 
 impl Intl {
@@ -78,6 +81,8 @@ impl Intl {
         let region_options = Default::default();
         let english_region_names = RegionDisplayNames::try_new(&locale, region_options).unwrap();
 
+        let number_options = Default::default();
+        let number_formatter = FixedDecimalFormatter::try_new(&locale, number_options).unwrap();
         Self {
             english_collator,
             english_display_names,
@@ -85,6 +90,7 @@ impl Intl {
             english_region_names,
             autonym_display_names: Mutex::new(autonym_display_names),
             titlecase_mapper: TitlecaseMapper::new(),
+            number_formatter,
         }
     }
 
@@ -168,6 +174,10 @@ impl Intl {
     pub fn parse_lang_tag(&self, input: &str) -> Result<LanguageIdentifier> {
         LanguageIdentifier::try_from_bytes(input.as_bytes())
             .map_err(|e| eyre::eyre!("invalid language tag `{input}`: {e}"))
+    }
+
+    pub fn format_number(&self, num: impl Into<FixedDecimal>) -> String {
+        self.number_formatter.format_to_string(&num.into())
     }
 }
 

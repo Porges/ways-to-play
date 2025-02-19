@@ -387,7 +387,7 @@ A song about the game runs:
 > With great dishonour\
 > With great loss of blood.
 
-### <span class="noun aka" lang="ms">Balik Lima Belas</span>
+### <span class="noun aka" lang="ms" id="balik-lima-belas">Balik Lima Belas</span>
 
 > [!aside]
 >
@@ -400,7 +400,7 @@ At the end of each round, instead of drawing one card as in <span class="noun" l
 In this form of the game the red-stamped cards do not score extra, but bonuses for winning by completing a <span lang="ms">mata</span> (<span
 lang="ms">ayam</span> or <span lang="ms">kandang</span>) still apply.
 
-### <span class="noun aka" lang="ms">Chot</span>
+### <span class="noun aka" lang="ms" id="chot">Chot</span>
 
 > [!aside]
 >

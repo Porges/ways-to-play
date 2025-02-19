@@ -275,7 +275,7 @@ impl Converter<'_> {
         };
 
         for (id, cites) in &self.used_bib {
-            (self.cite_handler)(&id, &cites[0]);
+            (self.cite_handler)(id, &cites[0]);
         }
 
         Ok(result)
