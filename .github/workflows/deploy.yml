@@ -50,8 +50,10 @@ jobs:
         vnu-runtime-image/bin/vnu --skip-non-html --filterfile .vnurc public || true # do not fail build
 
     - name: Deploy to Neocities
-      uses: bcomnes/deploy-to-neocities@v2
+      uses: bcomnes/deploy-to-neocities@v3
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: false
         dist_dir: public
+        preview_before_deploy: true
+        neocities_supporter: true
