@@ -5,38 +5,535 @@ draft: true
 aliases: [John Amos Comenius (1629—)]
 linter-yaml-title-alias: John Amos Comenius (1629—)
 date created: 2024-12-22
-date modified: 2025-02-08
+date modified: 2025-02-20
 ---
 
 # John Amos Comenius (1629—)
 
-John Amos Comenius first published <cite lang="la">Janua Linguarum Reserata</cite> (<cite>The Door of Languages Unlocked</cite>) in 1629. It contains a series of 1000 sentences in Latin, which were then translated into other languages by subsequent authors.[^fn0]
+John Amos Comenius first published <cite lang="la">Janua Linguarum Reserata</cite> (<cite>The Door of Languages Unlocked</cite>) in 1631. It contains a series of 1000 sentences in Latin, which were then translated into other languages by subsequent authors.[^fn0]
 
 [^fn0]: Comenius was inspired by the earlier <cite lang="la">Janua Linguarum</cite> (<cite>The Door of Languages</cite>) by William Bathe, first published in Salamanca in 1611, and then in English in 1617.[@IanvaLingvarvm1617] This earlier book mentions dice games in passing but provides nothing like a list of games. For more about William Bathe’s work, see @WilliamBathe.
 
 Chapter 96 (“<span lang="la">De Ludicris</span>”) contains a list of board and card games in sentence 941. As such, the translations of this passage are useful to see what games were being played in different countries at this time. Here I give a selection from several different editions.
 
-An edition of 1638 has Latin, German (which I am not yet confident enough to transcribe), and French:[@IanvaLingvarvm1638 250]
+The earliest (unauthorized) English edition was published the same year, in 1631, under the title @PortaLinguarum1631.
 
-<blockquote lang="la">
-Facetiis, dicteriis, ac ænigmatibus certare, ingeniosum est; Pilâ, Sphærâ & Conis, Trocho, Sclopo, Globulis, Myindâ, par impar, &c. puerile: Chartis lusoriis, Talis (Tesseris) Aleâ (Fritillo) aleatorium: Latrunculis, operosum.
-</blockquote>
+Another English edition in 1636 as @JanuaLinguarum1636.
 
-<blockquote lang="fr">
-C’est une chose ingenieuse, <i>qui appartient à gens d’esprit & d’entendement,</i> que de combattre à qui dira plus de faceties, de subtilités, <i>de paroles aiguës,</i> & d’enigmes; mais c’est une chose puerile, <i>c’est à faire à des enfants,</i> de jouër à la Paulme, <i>à la pelote à la estieuf,</i> à la Courte boule & aux Quilles, au Sabot, <i>à la trompe, à la toupie,</i> à la Sarbatane, aux Boulettes, à Tastons, <i>à lignettes</i>: Et à des joueurs, <i>des gens qui ne font autre mestier que de jouër,</i> de jouër aux Cartes, aux Dés, au Trictrac, <i>aux dés sur le tablier</i>: C’est une chose laborieuse, <i>penible,</i> que de jouer aux Eschecs.
-</blockquote>
+An edition of 1638 has Latin, German (of which my transcription might be incorrect, since it is from Fraktur), and French (the italics seem to be additional interpolations):[@IanvaLingvarvm1638 250]
 
-An English edition of 1641 gives (braces are footnotes, bracketed insertions in the translation are original):
+> > [!lang] la
+> >
+> > Facetiis, dicteriis, ac ænigmatibus certare, ingeniosum est; Pilâ, Sphærâ & Conis, Trocho, Sclopo, Globulis, Myindâ, par impar, &c. puerile: Chartis lusoriis, Talis (*Tesseris*) Aleâ (*Fritillo*) aleatorium: Latrunculis, operosum.
 
-<blockquote lang="la">
-Facetiis, dicteriis, ac ænigmatibus certare, ingeniosum est: pilâ datatim missâ, {*: Vel reticulo in sparristerio} sphærâ & conis, globulis, empusâ, par impar, myindâ, astragalismo, vel trocho, sclopo, vel igne missili, puerile {d: Ogibus lusitant puella & puellæ} Chartis lusoriis, talis, tesseris, aleâ,{†: Ubi monas, dyas, trias [ternio], quaternio, pentas, senio, heptas, ennoas, decas ⁊ alii jactus habentur felices, alii infelices} fritillo, aleatorium: Latrunculis, operosum.[@JanuaLinguarum1641 120]
-</blockquote>
+> > [!lang] de
+> >
+> > Mit Schimppffreden, mit scharffsinnigen Sprüchen (geschickten instigen schwäncken) und Kätzeln streiten, ist Scharffsinnig: mit  dem Ball, der Kugel unnd den Kegeln, mit dem Kreusel, mit Klatzschröhren (vauströhren) mit Käulichen, der Blindenkuhe, gerade oder ungerade spielen, ist Kindisch: Mit Karten, mit Würffeln, im Bretspiel, (durch den Würsselstrüchter) ist Spitzbübisch: Mit den Schachtsteinen, ist mühesam.
 
-<blockquote>
-To strive who shall get the better in merry conceits, quips [frumps] and riddles, is a witty thing: to play at stool-ball {*: Or with a racket in a tennis-court [bowling-alley].} [hand-ball], at scale-bones, at bowls, at fox in the hole, at even and od, at blind-man buff [blind bob], at cockall, or with a top or gyg, with a potgun or squib, this is childish [boyes play]: To play at cards, tables, dice,{† Ace, deus, tray, cater, cink, sise, seventh, eighth, ninth, tenth: some are counted lucky throws [casts], some unlucky.} or any game of hazzard, with a dice-box or a paire of tables, this is the trick of a gamester: to play at chesse, is toilsome.[@JanuaLinguarum1641 312]
-</blockquote>
+> > [!lang] fr
+> >
+> > C’est une chose ingenieuse, <i>qui appartient à gens d’esprit & d’entendement,</i> que de combattre à qui dira plus de faceties, de subtilités, <i>de paroles aiguës,</i> & d’enigmes; mais c’est une chose puerile, <i>c’est à faire à des enfants,</i> de jouër à la Paulme, <i>à la pelote à la estieus,</i> à la Courte boule & aux Quilles, au Sabot, <i>à la trompe, à la toupie,</i> à la Sarbatane, aux Boulettes, à Tastons, <i>à lignettes</i>: Et à des joueurs, <i>des gens qui ne font autre mestier que de jouër,</i> de jouër aux Cartes, aux Dés, au Trictrac, <i>aux dés sur le tablier</i>: C’est une chose laborieuse, <i>penible,</i> que de jouer aux Eschecs.
 
-A quadrilingual edition of 1644 by Nathanaël Duëz has Latin, German, French, and Italian:[@IanvaAvreaReserata1644 305] 
+Here we see the following correspondences:
+
+<div class="scroller full-width">
+<table style="table-layout: fixed" class="small">
+<thead>
+<tr>
+<th colspan="3">
+@PortaLinguarum1631 [214]\
+tr. John Anchoran, 1631
+</th>
+<th colspan="2">
+@JanuaLinguarum1636 [n233]\
+tr. Thomas Horne, 1636
+</th>
+<th colspan="3">
+@IanvaLingvarvm1638 [250]\
+ed. [Jan Janssonius](https://en.wikipedia.org/wiki/Jan_Janssonius), 1638
+</th>
+<th colspan="2">
+@JanuaLinguarum1641 [120,311]\
+ed. John Robotham, 1641
+</th>
+</tr>
+<tr>
+<th>
+Latin
+</th>
+<th>
+English
+</th>
+<th>
+French
+</th>
+<th>
+Latin
+</th>
+<th>
+English
+</th>
+<th>
+Latin
+</th>
+<th>
+German
+</th>
+<th>
+French
+</th>
+<th>
+Latin
+</th>
+<th>
+English
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span lang="la">Pilâ</span>\
+ball
+</td>
+<td>
+balls
+</td>
+<td>
+<span lang="fr">a la paulme</span>
+</td>
+<td>
+<span lang="la">pilâ</span>\
+ball
+</td>
+<td>
+ball
+</td>
+<td>
+<span lang="la">Pilâ</span>\
+ball
+</td>
+<td>
+<span lang="de">Ball</span>\
+ball
+</td>
+<td>
+<span lang="fr">à la Paulme, à la pelote, à l’estieus</span>\
+hand-ball
+</td>
+<td>
+<span lang="la">pilâ datatim missâ</span>
+</td>
+<td>
+to play at stool-ball [*hand-ball*]
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Sphęrâ & Conis</span>\
+ball and cones
+</td>
+<td>
+bowles, rundels, and cones
+</td>
+<td>
+<span lang="fr">a la boule</span>
+</td>
+<td>
+<span lang="la">sphærâ & conis</span>\
+ball and cones
+</td>
+<td>
+bowles or skittles
+</td>
+<td>
+<span lang="la">Sphærâ & Conis</span>\
+ball and cones
+</td>
+<td>
+<span lang="de">der Kugel unnd den Kegeln</span>
+</td>
+<td>
+<span lang="fr">à la Courte boule & aux Quilles</span>
+</td>
+<td>
+<span lang="la">sphærâ & conis</span>
+</td>
+<td>
+at scale-bones
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Trocho</span>\
+wheel
+</td>
+<td>
+tops
+</td>
+<td>
+<span lang="fr">au sabot, a la toupie</span>
+</td>
+<td>
+<span lang="la">trocho</span>
+</td>
+<td>
+a top
+</td>
+<td>
+<span lang="la">Trocho</span>
+</td>
+<td>
+<span lang="de">Kreusel</span>
+</td>
+<td>
+<span lang="fr">au Sabot, à la trompe, à la toupie</span>\
+shoe
+</td>
+<td>
+<span lang="la">vel trocho [_turbine_]</span>
+</td>
+<td>
+with a top or gyg
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Sclopo</span>
+</td>
+<td>
+puffings of the checkes, at petlets
+</td>
+<td>
+—
+</td>
+<td>
+<span lang="la">sclopo</span>\
+peashooter; <span lang="la">Sclopo</span> is given as “trunk”, an old name for a peashooter, in the 1729 English translation of Comenius’ other work <cite>Orbis Pictus</cite>[@OrbisPictus1729]
+</td>
+<td>
+elderne gun\
+“elder-gun”, popgun[@ShakespeareGlossary 67]
+</td>
+<td>
+<span lang="la">Sclopo</span>\
+peashooter
+</td>
+<td>
+<span lang="de">Klatzschröhren</span>\
+“ball tube” = peashooter; modern German <span lang="de">Blasrohr</span>, blowpipe
+</td>
+<td>
+<span lang="fr">à la Sarbatane</span>\
+blowpipe; modern French <span lang="fr">sarbacane</span>, also an archaic English word, originally from the Arabic <span lang="ar"> سبطانة</span> <span lang="ar-Latn">sabaṭāna</span>, “blowpipe”
+</td>
+<td>
+<span lang="la">sclopo, vel igne missili</span>
+</td>
+<td>
+with a pot-gun or squib
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Globulis</span>
+</td>
+<td>
+little round bowles
+</td>
+<td>
+<span lang="fr">aux boulets</span>
+</td>
+<td>
+<span lang="la">globulis</span>\
+small balls
+</td>
+<td>
+rebounding stones
+</td>
+<td>
+<span lang="la">Globulis</span>\
+small balls
+</td>
+<td>
+<span lang="de">Käulichen</span>\
+small balls — see <span lang="de">kaule</span> in @FrühneuhochdeutschesWörterbuch
+</td>
+<td>
+<span lang="fr">aux Boulettes</span>\
+small balls
+</td>
+<td>
+<span lang="la">globulis</span>
+</td>
+<td>
+at bowls
+</td>
+</tr>
+
+<tr>
+<td colspan="8">
+</td>
+<td>
+<span lang="la">empusâ</span>
+</td>
+<td>
+at fox in the hole\
+footnote: “hopping on one leg”
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Myindâ</span>
+</td>
+<td>
+hood man blinde or blinde man buffe
+</td>
+<td>
+—
+</td>
+<td>
+<span lang="la">myindâ</span>\
+blind-man’s buff[@DictionaryGreekAndRoman_2 201]
+</td>
+<td>
+blind man buffe
+</td>
+<td>
+<span lang="la">Myindâ</span>\
+blind-man’s buff
+</td>
+<td>
+<span lang="de">Blindenkuhe</span>\
+‘blind cow’
+</td>
+<td>
+<span lang="fr">à Tastons</span>\
+modern French <span lang="fr">tâtonner</span>, to feel one’s way, grope around in the dark
+</td>
+<td>
+<span lang="la">myindâ</span>
+</td>
+<td>
+at blind-man buff [_blind hob_]
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">par impar</span>\
+even and odd
+</td>
+<td>
+—
+</td>
+<td>
+—
+</td>
+<td>
+<span lang="la">par impar</span>\
+even and odd
+</td>
+<td>
+even or odd
+</td>
+<td>
+<span lang="la">par impar</span>\
+even and odd
+</td>
+<td>
+<span lang="de">gerade oder ungerade</span>\
+even and odd
+</td>
+<td>
+<span lang="fr">à lignettes</span>(?)
+</td>
+<td>
+<span lang="la">par impar</span>
+</td>
+<td>
+at even and od
+</td>
+</tr>
+
+<tr>
+<td colspan="8">
+</td>
+<td>
+<span lang="la">astragalismo</span>
+</td>
+<td>
+at cockall
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Chartis lusoriis</span>
+</td>
+<td>
+charts
+</td>
+<td>
+<span lang="fr">aux chartes</span>
+</td>
+<td>
+<span lang="la">chartis lusoriis</span>\
+playing cards
+</td>
+<td>
+cards
+</td>
+<td>
+<span lang="la">Chartis lusoriis</span>\
+playing cards
+</td>
+<td>
+<span lang="de">Karten</span>\
+cards
+</td>
+<td>
+<span lang="fr">Cartes</span>\
+cards
+</td>
+<td>
+<span lang="la">Chartis lusoriis</span>
+</td>
+<td>
+at cards
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Talis seu Tesseris</span>
+</td>
+<td>
+cockall\
+=jacks
+</td>
+<td>
+<span lang="fr">aux osselets</span>
+</td>
+<td>
+<span lang="la">talis [tesseris]</span>\
+knucklebones
+</td>
+<td>
+dice
+</td>
+<td>
+<span lang="la">Talis (Tesseris)</span>\
+knucklebones
+</td>
+<td>
+<span lang="de">Würffeln</span>\
+dice
+</td>
+<td>
+<span lang="fr">Dés</span>\
+dice
+</td>
+<td>
+<span lang="la">talis, tesseris</span>
+</td>
+<td>
+tables, dice, or any game of hazard
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Aleâ seu Fritillo</span>
+</td>
+<td>
+dice play
+</td>
+<td>
+<span lang="fr">aux dez, ou jeu d’hazard, ou au tablier</span>
+</td>
+<td>
+<span lang="la">aleâ (fritillo)</span>\
+dice (dicing box)
+</td>
+<td>
+tables
+</td>
+<td>
+<span lang="la">Aleâ (Fritillo)</span>\
+dice (dicing box)
+</td>
+<td>
+<span lang="de">Bretspiel</span>\
+boardgame
+</td>
+<td>
+<span lang="fr">Trictrac</span>\
+a table game
+</td>
+<td>
+<span lang="la">aleâ, fritillo</span>
+</td>
+<td>
+with a dice-box or a paire of tables
+</td>
+</tr>
+
+<tr>
+<td>
+<span lang="la">Latrunculis</span>
+</td>
+<td>
+chesse or tables
+</td>
+<td>
+<span lang="fr">aux eschets</span>
+</td>
+<td>
+<span lang="la">latrunculis</span>
+</td>
+<td>
+chesse
+</td>
+<td>
+<span lang="la">Latrunculis</span>
+</td>
+<td>
+<span lang="de">Schachtsteinen</span>\
+stone-chess
+</td>
+<td>
+<span lang="fr">Eschecs</span>\
+chess
+</td>
+<td>
+<span lang="la">latrunculis</span>
+</td>
+<td>
+chesse
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+An English edition of 1641 gives (footnotes and the bracketed insertions in the translation are original):
+
+> > [!lang] la
+> >
+> > Facetiis, dicteriis, ac ænigmatibus certare, ingeniosum est: pilâ datatim missâ, {\*: Vel reticulo in sparristerio.} sphærâ & conis, globulis, empusâ, par impar, myindâ, astragalismo, vel trocho [*turbine*], sclopo, vel igne missili, puerile {d: Ogibus lusitant puella & puellæ.} Chartis lusoriis, talis, tesseris, aleâ,{†: Ubi monas, dyas, trias [*ternio*], quaternio, pentas, senio, heptas, ennoas, decas ⁊ alii jactus habentur felices, alii infelices.} fritillo, aleatorium: Latrunculis, operosum.[@JanuaLinguarum1641 120–1]
+
+> To strive who shall get the better in merry conceits, quips [*frumps*] and riddles, is a witty thing: to play at stool-ball {\*: Or with a racket in a tennis-court [bowling-alley].} [*hand-ball*], at scale-bones, at bowls, at fox in the hole,{c: Hopping on one leg.} at even and od, at blind-man buff [*blind hob*], at cockall, or with a top or gyg, with a potgun or squib, this is childish [*boyes play*]:{d: Such as boyes and girls or modders play at.} To play at cards, tables, dice,{†: Ace, deus, tray, cater, cink, sise, seventh, eighth, ninth, tenth: some are counted lucky throws [*casts*], some unlucky.} or any game of hazzard, with a dice-box or a paire of tables, this is the trick of a gamester: to play at chesse, is toilsome.[@JanuaLinguarum1641 312]
+
+
+A quadrilingual edition of 1644 by Nathanaël Duëz has Latin, German, French, and Italian:[@IanvaAvreaReserata1644 305]
 
 <blockquote lang="la">
 Facetiis, dicteriis ac ænigmatibus certare, ingeniosum est: pilâ cum reticulo

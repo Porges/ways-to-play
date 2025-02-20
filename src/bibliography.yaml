@@ -4864,28 +4864,28 @@ HuaHuiBrunei:
 SEAlangJavanese:
   type: webpage
   title: SEAlang library Balinese dictionary
-  URL: http://sealang.net/java/dictionary.htm
+  URL: https://sealang.net/java/dictionary.htm
   publisher: SEAlang
   issued:
     year: 2010
 SEAlangBurmese:
   type: webpage
   title: SEAlang library Burmese dictionary
-  URL: http://sealang.net/burmese/dictionary.htm
+  URL: https://sealang.net/burmese/dictionary.htm
   publisher: SEAlang
   issued:
     year: 2006
 SEAlangKhmer:
   type: webpage
   title: SEAlang library Khmer dictionary
-  URL: http://sealang.net/khmer/dictionary.htm
+  URL: https://sealang.net/khmer/dictionary.htm
   publisher: SEAlang
   issued:
     year: 2007
 SEAlangBalinese:
   type: webpage
   title: SEAlang library Balinese dictionary
-  URL: http://sealang.net/bali/dictionary.htm
+  URL: https://sealang.net/bali/dictionary.htm
   publisher: SEAlang
   issued:
     year: 2011
@@ -8442,6 +8442,7 @@ DictionnaireHistorique9:
   language: fr
   author: [*Jean_Baptiste]
   volume: 9
+  volume-title: R–S
   issued: 1880
   publisher: L. Favre
   publisher-place: Niort
@@ -14042,6 +14043,7 @@ JanuaLinguarum1641:
   publisher: R. Young
   issued: 1641
   publisher-place: London
+  notes: An expansion of the Thomas Horne translation by John Robotham.
 IanvaAvreaReserata1676:
   type: book
   URL: https://books.google.co.nz/books?id=VT-717AalgcC
@@ -14100,11 +14102,44 @@ JanuaLinguarum1661:
     lang: la
   publisher-place: Amsterdam, Netherlands
   URL: https://books.google.co.nz/books?id=Hy9QAAAAcAAJ
+JanuaLinguarum1636:
+  type: book
+  title: '<span lang="la">Janua Linguarum Reserata</span>'
+  subtitle: or, A Seed-Plot of All Languages and Sciences
+  edition: 3
+  author:
+  - given: A.
+    family: Comenius
+  translator:
+  - given: Thomas
+    family: Horne
+  publisher: Robert Young
+  publisher-place: London, UK
+  issued: 1636
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_janua-linguarum-reserata_komensky-jan-amos_1636
+PortaLinguarum1631:
+  type: book
+  title: <span lang="la">Porta Linguarum Trilinguis Reserata et Aperta</span>/The Gate of Tongues Unlocked and Opened
+  subtitle: or else A Seminarie or Seed-plot of all Tongues and Sciences
+  issued: 1631
+  publisher: George Miller
+  publisher-place: London, UK
+  author:
+  - given: Jan Amos
+    family: Komenský
+    lang: cs
+    url: https://en.wikipedia.org/wiki/John_Amos_Comenius
+  translator:
+  - given: John
+    family: Anchoran
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_porta-linguarum-trilingu_komensk-jan-amos_1631_0
+  notes: A second edition <a href="https://leme.library.utoronto.ca/lexicons/368/">was published in 1633</a>.
 IanvaLingvarvm1638:
   type: book
   title:
-    value: 'Ianva Lingvarvm Reserata Avrea; Sive Seminarivm Linvarvm & Scientiarum omnium: Hoc est Compoendiosa Latinam (& quamlibet aliam) Linguam'
+    value: Ianva Lingvarvm Reserata Avrea
     lang: la
+  subtitle: '; Sive Seminarivm Linvarvm & Scientiarum omnium: Hoc est Compoendiosa Latinam (& quamlibet aliam) Linguam'
   URL: https://books.google.co.nz/books?id=64ZQAAAAcAAJ
   author:
   - given: I. A.
@@ -14117,7 +14152,7 @@ IanvaLingvarvm1638:
     lang: la
     alt: Joannem Janssonium
   publisher-place: Amsterdam, Netherlands
-  notes: Called “last edition” on the title page.
+  notes: Called “latest edition” on the title page.
 TaylorComenius:
   type: book
   title:
@@ -20357,3 +20392,82 @@ ReclassifyingNan:
   #   alt: <span lang="nan-TW">張復聚</span>
   #   lang: nan-Latn-TW-pehoeji
   issued: 2021
+OrbisPictus1887:
+  type: book
+  title: The <cite lang="la">Orbis Pictus</cite> of John Amos Comenius
+  issued: 1887
+  publisher: C. W. Bardeen
+  publisher-place: Syracuse, NY, USA
+OrbisPictus1729:
+  type: book
+  title: John Amos Comenius’s Visible World
+  subtitle: Or, a Nomenclature, and Pictures of all the Chief Things that are in the World, and of Mens Employments therein
+  author:
+  - given: John Amos
+    family: Comenius
+  translator:
+  - given: Charles
+    family: Hoole
+    url: https://en.wikipedia.org/wiki/Charles_Hoole
+  edition: 11
+  URL: https://archive.org/details/bim_eighteenth-century_joh-amos-comenii-orbis-_comenius-johann-amos_1729
+  issued: 1729
+  publisher-place: London, UK
+  publisher: Aaron Ward
+DictionaryGreekAndRoman_2:
+  type: book
+  title: A Dictionary of Greek and Roman Antiquities
+  editor:
+    - &William_Smith_lexico
+      given: William
+      family: Smith
+      url: https://en.wikipedia.org/wiki/William_Smith_(lexicographer)
+    - &William_Wayte
+      given: William
+      family: Wayte
+      url: https://en.wikipedia.org/wiki/William_Wayte
+    - &GE_Marindin
+      given: George Eden
+      family: Marindin
+  volume: 2
+  edition: 3
+  URL: https://archive.org/details/adictionarygree01smitgoog
+  issued: 1891
+  publisher: John Murray
+  publisher-place: 'London, UK'
+DictionaryGreekAndRoman_1:
+  type: book
+  title: A Dictionary of Greek and Roman Antiquities
+  editor:
+  - *William_Smith_lexico
+  - *William_Wayte
+  - *GE_Marindin
+  volume: 1
+  edition: 3
+  URL: https://archive.org/details/adictionarygree00smitgoog
+  issued: 1890
+  publisher: John Murray
+  publisher-place: 'London, UK'
+FrühneuhochdeutschesWörterbuch:
+  type: webpage
+  title:
+    lang: de
+    value: Frühneuhochdeutsches Wörterbuch
+    alt: <span lang="en">Early Modern High German Dictionary</span>
+  language: de
+  publisher:
+    value: Niedersächsische Staats- und Universitätsbibliothek Göttingen
+    lang: de
+  issued: 2024
+  URL: https://fwb-online.de/
+ShakespeareGlossary:
+  type: book
+  title: A Shakespeare Glossary
+  author:
+  - given: C. T.
+    family: Onions
+    url: https://en.wikipedia.org/wiki/Charles_Talbut_Onions
+  publisher: University of Oxford
+  publisher-place: London
+  URL: https://archive.org/details/cu31924072134673
+  issued: 1911

@@ -71,7 +71,7 @@ impl<'a, const N: usize, A> TryFrom<&'a [A]> for AtLeast<'a, N, A> {
     }
 }
 
-impl<'a, const N: usize, A> IntoIterator for AtLeast<'a, N, A> {
+impl<'a, const N: usize, A> IntoIterator for &AtLeast<'a, N, A> {
     type Item = &'a A;
     type IntoIter = Chain<std::slice::Iter<'a, A>, std::slice::Iter<'a, A>>;
 
