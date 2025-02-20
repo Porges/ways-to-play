@@ -190,10 +190,15 @@ fn render_warnings_and_notes(reference: &Reference) -> Markup {
 fn render_authors(r: &Reference) -> Markup {
     html! {
         @if let Ok(authors) = r.authors().try_into() {
-            (render_people(authors, true, "author"))
+            (render_people(&authors, true, "author"))
         }
         @else if let Ok(editors) = r.editors().try_into() {
-            (render_people(editors, true, "editor"))
+            (render_people(&editors, true, "editor"))
+            @if editors.len() > 1 {
+                " (" abbr title="editors" { "eds." } ")"
+            } @else {
+                " (" abbr title="editor" { "ed." } ")"
+            }
         }
         @else if let Some(publisher) = r.publisher() {
             span itemscope itemtype="https://schema.org/Organization" itemprop="author" {
@@ -234,7 +239,7 @@ pub fn needs_space(lang: Option<&str>) -> bool {
 }
 
 fn render_people(
-    people: OneOrMore<Person>,
+    people: &OneOrMore<Person>,
     reverse_first: bool,
     item_prop: &'static str,
 ) -> Markup {
@@ -550,7 +555,7 @@ fn render_editor(r: &Reference) -> Markup {
             // if author was not present we would have shown the editor as the author
             @if let Ok(editors) = r.editors().try_into() {
                 ", edited by "
-                (render_people(editors, false, "editor"))
+                (render_people(&editors, false, "editor"))
             }
         }
     }
@@ -560,7 +565,7 @@ fn render_translator(r: &Reference) -> Markup {
     html! {
         @if let Ok(translators) = r.common().translator.as_slice().try_into() {
             ", translated by "
-            (render_people(translators, false, "translator"))
+            (render_people(&translators, false, "translator"))
         }
     }
 }
@@ -602,7 +607,7 @@ fn render_series(r: &Reference) -> Markup {
                 @let editors: OneOrMore<_> = editors;
                 ", series editor"
                 @if editors.len() > 1 { "s " } @else { " " }
-                (render_people(editors, false, "editor"))
+                (render_people(&editors, false, "editor"))
             }
         }
     }
@@ -662,7 +667,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                 ". "
 
                 @if let Ok(editor) = periodical.editor.as_slice().try_into() {
-                    "Edited by " (render_people(editor, false, "editor")) ". "
+                    "Edited by " (render_people(&editor, false, "editor")) ". "
                 }
             }
         }
@@ -729,10 +734,10 @@ fn render_book(key: &str, book: &Book, item_prop: &str) -> Markup {
         span itemscope itemtype=(book_item_type(book)) itemprop=(item_prop) {
             (render_title(bookr))
             @if let Ok(authors) = bookr.authors().try_into() {
-                ", " (render_people(authors, false, "author"))
+                ", " (render_people(&authors, false, "author"))
             }
             @if let Ok(editors) = bookr.editors().try_into() {
-                ", edited by " (render_people(editors, false, "editor"))
+                ", edited by " (render_people(&editors, false, "editor"))
             }
             (render_series(bookr))
             ". "
