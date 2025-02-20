@@ -14064,8 +14064,9 @@ IanvaAvreaReserata1676:
 IanvaAvreaReserata1644:
   type: book
   title:
-    value: Ianva Avrea Reserata Qvatvor Lingvarvm, Sive compendiosa Methodvs Latinam, Germanicam, Gallicam & Italicam
+    value: Ianva Avrea Reserata Qvatvor Lingvarvm
     lang: la
+  subtitle: ', Sive compendiosa Methodvs Latinam, Germanicam, Gallicam & Italicam'
   issued: 1644
   edition: 2
   author:
