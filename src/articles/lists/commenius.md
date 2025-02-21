@@ -23,7 +23,7 @@ English editions are:
 Dutch editions are:
 - @IanvaLingvarvm1638 by [Jan Janssonius](https://en.wikipedia.org/wiki/Jan_Janssonius) (1638)
 - @IanvaAvreaReserata1644 by Nathanaele Dhuëz (2nd edition, 1644)
-- @JanuaLinguarum1661 also by Dhuëz (3rd edition, 1661) 483–5[^bolte]
+- @JanuaLinguarum1661 [483–5] also by Dhuëz (3rd edition, 1661)[^bolte]
 
 [^bolte]: The transcription of identical text from a later 1673 edition in @ZeugnisseGeschichteKinderspiele [394] has helped with the reading of the Fraktur here.
 
