@@ -1,21 +1,22 @@
 ---
-title: New Hanafuda Brands
+title: New Hanafuda & Hwatu
 order: 4
 hero:
-    image: ../intro/16201732242_8d1d3ed19d_o.jpg
-    alt: A pile of hanafuda cards.
-    author: Japanexpertna.se
-    copyrightYear: 2015
-    license: cc-by-sa
-    licenseVersion: '2.0'
-    originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
+  image: ../intro/16201732242_8d1d3ed19d_o.jpg
+  alt: A pile of hanafuda cards.
+  author: Japanexpertna.se
+  copyrightYear: 2015
+  license: cc-by-sa
+  licenseVersion: "2.0"
+  originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-27
-date modified: 2025-02-08
-aliases: [New Hanafuda Brands]
-linter-yaml-title-alias: New Hanafuda Brands
+date modified: 2025-02-22
+aliases:
+  - New Hanafuda & Hwatu
+linter-yaml-title-alias: New Hanafuda & Hwatu
 ---
 
-# New Hanafuda Brands
+# New Hanafuda & Hwatu
 
 In the internet era there are now many <span class="noun" lang="ja-Latn">Hanafuda</span>
 brands that are produced on a small scale. Most of the production is outsourced
@@ -356,3 +357,18 @@ In 2023, the video game company [Brownies](https://en.wikipedia.org/wiki/Brownie
 > ```
 >
 > The 5 Brights of the Brownies deck.
+
+## HWATU Flower Cards
+
+These are redesigned version of Korean <span lang="ko-Latn" class="noun">Hwatu</span> cards by Spanish designer ‘blvr’. They can be purchased [on their Etsy store](https://www.etsy.com/nz/listing/1043547560/hwatu-flower-cards-korean-traditional).
+
+> [!figure]
+>
+> ![](Spanish_Hwatu.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "wide"
+> ```
+>
+> The 5 Brights of the HWATU Flower Cards deck.
