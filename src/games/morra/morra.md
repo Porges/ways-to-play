@@ -1,5 +1,5 @@
 ---
-title: Morra
+title: ""
 titleLang: it
 players: 2
 draft: true
@@ -16,7 +16,7 @@ subgames:
   countries: CN,HK
   originalTitle: 猜枚
 date created: 2024-12-18
-date modified: 2025-01-23
+date modified: 2025-02-22
 ---
 
 This is a finger-guessing game which English is usually known by its Italian name of “<span class="aka" lang="it">morra</span>”.[@MacedonianFolklore p. 297] However, it has been around for a long time and very similar games are played in many countries throughout the world; in Latin it was known as <span lang="la" class="aka">micatio</span>[@StudyOfGames p.  65] or <span lang="la" class="aka">micare digitis</span>.[@IlGiuocoDellaMorra]
@@ -44,6 +44,8 @@ see correspondence [@GameOfMicatioDigitorum] [@MicatioDigitorumLetter][@MicatioD
 >
 > Two Greek girls playing Morra, on a water-pot (<span lang="grc-Latn">hydria</span>), <abbr>c.</abbr> 500 <abbr>BCE</abbr>. From @AtlasClassicalAntiquities [p. 150].
 
+
+In @JanuaLinguarum1661 [484] where other games are described as “childish” (<span lang="la">puerile</span>), “gamerly” (?, <span lang="la">aleatorium</span>), or “tedious” (<span lang="la">tædiosum</span>), <span lang="la">digitis micare</span> is described simply as “Italian” (<span lang="la">Italorum</span>).
 
 See also: @PrimitiveCulture [p. 74]
 

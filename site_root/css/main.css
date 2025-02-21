@@ -107,7 +107,8 @@ body {
 
 main {
     display: grid;
-    margin-bottom: 2rlh; /* footer must use margin-top auto */
+    margin-bottom: 2rlh;
+    /* footer must use margin-top auto */
 
     /* minmax(0, 1fr) here makes the column 'definitely sized',
        see: https://css-tricks.com/preventing-a-grid-blowout/
@@ -198,7 +199,7 @@ p {
 }
 
 /* lead paragraph of articles */
-p.last-updated + p {
+p.last-updated+p {
     hyphens: none;
 
     font-weight: 350;
@@ -319,6 +320,7 @@ nav.site {
 }
 
 @media (width >=1161px) {
+
     nav.site,
     #site-footer {
         flex-direction: row;
@@ -855,12 +857,15 @@ table {
     }
 
     tbody>tr> :is(th, td)[rowspan] {
+        border-left: 1px dashed var(--colour-light);
+        border-right: 1px dashed var(--colour-light);
+
         &:first-child {
-            border-right: 1px dashed var(--colour-light);
+            border-left: none;
         }
 
         &:last-child {
-            border-left: 1px dashed var(--colour-light);
+            border-right: none;
         }
     }
 

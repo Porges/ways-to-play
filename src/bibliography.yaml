@@ -14086,8 +14086,9 @@ IanvaAvreaReserata1644:
 JanuaLinguarum1661:
   type: book
   title:
-    value: Janua Linguarum Reserata Quinque-Linguis, Sinve compendiosa Methodus Latinam, Gallicam, Italicam, Hispanicam & Germanicam
+    value: Janua Linguarum Reserata Quinque-Linguis
     lang: la
+  subtitle: ', Sinve compendiosa Methodus Latinam, Gallicam, Italicam, Hispanicam & Germanicam'
   issued: 1661
   edition: 3
   author:
@@ -20472,3 +20473,30 @@ ShakespeareGlossary:
   publisher-place: London
   URL: https://archive.org/details/cu31924072134673
   issued: 1911
+ZeugnisseGeschichteKinderspiele:
+  type: article-journal
+  title:
+    value: Zeugnisse zur Geschichte unserer Kinderspiele
+    lang: de
+  language: de
+  author:
+  - given: Johannes
+    family: Bolte
+    lang: de
+    url: https://en.wikipedia.org/wiki/Johannes_Bolte
+  page: 381–414
+  URL: https://dlibra.bibliotekaelblaska.pl/Content/51897/04.pdf#page=23
+  archive-URL: https://web.archive.org/web/20250221210620/https://dlibra.bibliotekaelblaska.pl/Content/51897/04.pdf
+  in:
+    title:
+      value: Zeitschrift des Vereins für Volkskunde
+      lang: de
+    editor:
+    - given: Karl
+      family: Weinhold
+      lang: de
+      url: https://en.wikipedia.org/wiki/Karl_Weinhold
+    volume: 19
+    issue: 4
+    issued: 1909
+  notes: Many, many games referenced in here.
