@@ -660,7 +660,7 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 > > The <span lang="ja-Latn">heian</span> wrapper.
 
 * <span lang="ja">福壽</span> (<span lang="ja-Latn">fukuju</span>, ‘fortune & longevity’), picturing the lucky god [<span lang="ja-Latn" class="noun">Fukurokuju</span> (<span lang="ja">福禄寿</span>)](https://en.wikipedia.org/wiki/Fukurokuju); the <span lang="ja">福</span> is also again the Nintendō maker’s mark and the character <span lang="ja">壽</span> appears on the sake cup card
-* <span lang="ja">蛭子</span> (<span lang="ja-Latn">Hiruko</span>, another another lucky god also known as [<span lang="ja-Latn" class="noun">Ebisu</span>](https://en.wikipedia.org/wiki/Ebisu_(mythology)))
+* <span lang="ja">蛭子</span> (<span lang="ja-Latn">Hiruko</span>, another lucky god also known as [<span lang="ja-Latn" class="noun">Ebisu</span>](https://en.wikipedia.org/wiki/Ebisu_(mythology)))
 * <span lang="ja">大福</span> (<span lang="ja-Latn">daifuku</span>, ‘great luck’), with the wrapper depicting some of the attributes of the lucky god [<span lang="ja-Latn" class="noun">Daikokuten</span>](https://en.wikipedia.org/wiki/Daikokuten)
 
 > [!multi]
@@ -897,6 +897,10 @@ month of the <span class="noun" lang="ja-Latn">Hanafuda</span> deck:
 >
 > ![The 5 bright cards from a Hana-Trump deck, which are hanafuda cards printed on the center of the standard international playing card deck.](HanaTrump_5Brights.jpg)
 >
+> ```yaml
+> noborder: true
+> ```
+>
 > The 5 Brights of <span class="noun" lang="ja-Latn">Nintendō</span>’s “Hana-Trump” deck.
 
 
@@ -905,6 +909,10 @@ Because there are four more cards in the standard deck compared to the <span cla
 > [!figure]
 >
 > ![Four additional cards corresponding to the Kings of the standard deck, and one joker card.](HanaTrump_Extra.jpg)
+>
+> ```yaml
+> noborder: true
+> ```
 >
 > The extra cards of <span class="noun" lang="ja-Latn">Nintendō</span>’s “Hana-Trump” deck.  From left-to-right, after the joker, these are: a blindfolded samurai, with text reading <span lang="ja"><q>不見出</q></span> (88 sets have a piece labelled <span lang="ja"><q>不見転</q></span>, ‘loose morals’); a <span lang="ja-Latn">gunbai</span> (<span lang="ja">軍配</span>), a military leader’s fan which is nowadays used by sumo referees, which is inscribed <span lang="ja"><q>跡絶之章</q></span> (88 sets have a piece labelled <span lang="ja"><q>両桐絶体之章</q></span>); a rice winnowing basket (<span lang="ja">箕</span> <span lang="ja-Latn">mi</span>) inscribed <span lang="ja"><q>手役之章</q></span> (hand-<span lang="ja-Latn">yaku</span> prize); and an award medal reading <span lang="ja"><q>吟見勲賞</q></span> (<span lang="ja-Latn">Ginmi Kunshō</span>, ‘<span lang="ja-Latn">Ginmi</span> Medal’), which is a prize for the ‘top player’ (<span lang="ja-Latn">Ginmi</span>, usually spelt <span lang="ja">吟味</span>, 88 sets have a piece labelled <span lang="ja">銀見勲章</span>).
 
@@ -1639,7 +1647,7 @@ Brands included:[@ModernJapaneseWrappers p. 48]
 > >
 > > The <span lang="ja-Latn">hannya</span> wrapper.
 
-### <img src='/small-images/kanenaka.svg' alt="" class="inline-img" /> <span id="nihon-karuta" class="noun" lang="ja-Latn">Nihon Karuta Seizō</span>  (<span lang="ja">日本骨牌製造</span>)/<span class="noun" lang="ja-Latn">Tamada Fukushōdō</span> (<span lang="ja">玉田福勝堂</span>)
+### <img src='/small-images/kanenaka.svg' alt="" class="inline-img" /> <span id="nihon-karuta" class="noun" lang="ja-Latn">Nihon Karuta Seizō</span>  (<span lang="ja">日本骨牌製造</span>) & <span class="noun" lang="ja-Latn">Tamada Fukushōdō</span> (<span lang="ja">玉田福勝堂</span>)
 
 > [!figure]
 >
