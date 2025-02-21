@@ -667,6 +667,7 @@ impl Converter<'_> {
                                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
                                     a href={"#" (lb_id)} {
                                         img class={"figure-img" (noborder)}
+                                            itemprop="contentUrl"
                                             src=(meta.url) alt=(&img.alt) title=[&img.title]
                                             srcset=[srcset] sizes=[sizes]
                                             width=(meta.width) height=(meta.height);
