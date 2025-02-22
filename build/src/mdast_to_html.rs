@@ -13,6 +13,7 @@ use regex::Captures;
 use serde::Deserialize;
 use serde_json::Map;
 use url::Url;
+use uuid::{uuid, Uuid};
 
 use crate::{
     bib_render::{RenderedBibliography, RenderedEntry},
@@ -620,13 +621,18 @@ impl Converter<'_> {
             }
         };
 
+        static LB_NAMESPACE: Uuid = uuid!("cf4e05ba-49cd-4a99-98e8-cb1acfcf9f93");
+
         if images.len() == 1 {
             let img = &images[0];
             let meta = self.resolve_image(&img.url)?;
             let (_imgsize, imgurl) = meta.url_for_width(intended_width);
             let srcset = meta.srcset();
             let sizes = if srcset.is_some() { Some(sizes) } else { None };
-            let lb_id = format!("lb-{}", uuid::Uuid::new_v4().simple());
+            let lb_id = format!(
+                "lb-{}",
+                Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple()
+            );
             Ok(html! {
                 figure class=(figure_classes) itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
@@ -662,7 +668,7 @@ impl Converter<'_> {
                             @for (img, meta) in row {
                                 @let srcset = meta.srcset();
                                 @let sizes = if srcset.is_some() { Some(sizes) } else { None };
-                                @let lb_id = format!("lb-{}", uuid::Uuid::new_v4().simple());
+                                @let lb_id = format!("lb-{}", Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple());
                                 div itemscope itemtype="https://schema.org/ImageObject" itemprop="image" itemref=(copyright_hash) {
                                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
                                     a href={"#" (lb_id)} {

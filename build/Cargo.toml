@@ -30,5 +30,5 @@ tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 url = "2.5.4"
 url-escape = "0.1.1"
-uuid = { version = "1.13.0", features = ["fast-rng", "v4"] }
+uuid = { version = "1.13.0", features = ["fast-rng", "v5"] }
 walkdir = "2.5.0"
