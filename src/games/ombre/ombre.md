@@ -7,7 +7,7 @@ countries: FR,ES,GB,ID
 aliases: [Ombre]
 linter-yaml-title-alias: Ombre
 date created: 2025-01-26
-date modified: 2025-02-17
+date modified: 2025-02-23
 ---
 # Ombre
 
@@ -49,8 +49,7 @@ Refs: @GameOfOmbre; @PopesGameOfOmbre; @CourtGamester.
 
 ## Omi
 
-Makassarese
-terms:
+Makassarese terms:
 tuwi ᨈᨘᨓᨗ - a pair [p. 349], hence patuwi (8 pair) the name of a game. patuwi also means blow away (see also Par Tui in the IPCS Malacca article, Patoewi in the dictionaries). Derived from Chinese (Hokkien) 八對 pat tùi ‘eight pair’.
 mata ᨆᨈ - eye, as in other languages
 tau ᨈᨕᨘ - (human) the cards called lotijiyang, lamboesoe, tjina, bawi, tikara, djobong. (i.e. the aces)
@@ -67,6 +66,23 @@ manila ᨆᨊᨗᨒ - manille [p. 250]
 sapadila ᨔᨄᨉᨗᨒ - spadille [p. 559]
 tunggeng ᨈᨘᨂᨙ - to go solo [p. 275]
 
+Acehnese: https://archive.org/details/woordenboekdera00unkngoog
+sikalilawa - clubs 
+siruncien - diamonds (Dutch ruiten)
+sikupan - spades (Dutch schoppen)
+siluhok - hearts
+
+Malay: https://archive.org/details/afu7941.0001.001.umich.edu/page/522/mode/2up?q=+kaartspel
+ritin: diamonds (from Dutch ruiten)
+sekopong: spades (Dutch schoppen)
+
+
+Makassarese are in: @MakassaarschWoordenboek
+Buginese are in: @BoegineeschWoordenboek:
+
+See: @MatthesOmi
+
+Omi also called "Cento e uno" in Lombardy & South-Austria? @WilsenOmi
 ## See Also
 
 @Guritipau, @Marimba

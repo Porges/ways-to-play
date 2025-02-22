@@ -6146,7 +6146,8 @@ BoegineeschWoordenboek:
     lang: nl
   language: nl
   author:
-    - family: Matthes
+    - &Matthes
+      family: Matthes
       given: Benjamin Frederik
       lang: nl
   issued:
@@ -6156,14 +6157,12 @@ BoegineeschWoordenboek:
 MakassaarschWoordenboek:
   type: book
   URL: https://books.google.co.nz/books?id=0qQDAAAAMAAJ
+  archive-URL: https://archive.org/details/b30095967
   title:
     value: Makassaarsch–Hollandsch woordenboek
     lang: nl
   language: nl
-  author:
-    - family: Matthes
-      given: Benjamin Frederik
-      lang: nl
+  author: [*Matthes]
   issued:
     year: 1859
   publisher: Frederik Muller
@@ -12926,18 +12925,6 @@ MalayMagic:
   issued: 1900
   notes: Note that errata is included in this edition. The section on games starts on page 483.
   URL: https://archive.org/details/malaymagicbeingi00skea
-MalayCardGames:
-  type: article-journal
-  title: Malay Card Games
-  URL: https://www.jstor.org/stable/2842859
-  author:
-  - given: W.
-    family: S.
-  page: 136-139
-  in:
-    title: The Journal of the Anthropological Institute of Great Britain and Ireland
-    volume: 27
-    issued: 1898
 SomeNotesMalayCardGames:
   type: article-journal
   title: Some Notes on Malay Card Games
@@ -13038,6 +13025,36 @@ DaunTiga_2:
     family: S.
   page: 57
   in: *SBRAS_NQ_2
+MalayCustomsInSelangor:
+  type: article-journal
+  title: 'Malay Customs in Selangor: Card-Games'
+  author:
+  - given: W.
+    family: S.
+  page: 210-212
+  URL: https://archive.org/details/selangorjournal02unkngoog/page/n225/mode/2up
+  in:
+    title: The Selangor Journal
+    volume: 5
+    issue: 13
+    publisher-place: Kuala Lumpur
+    issued:
+      year: 1897
+      month: 3
+      day: 3
+MalayCardGames:
+  type: article-journal
+  title: Malay Card Games
+  URL: https://www.jstor.org/stable/2842859
+  author:
+  - given: W.
+    family: S.
+  page: 136-139
+  in:
+    title: The Journal of the Anthropological Institute of Great Britain and Ireland
+    volume: 27
+    issued: 1898
+  notes: The original for this was @MalayCustomsInSelangor.
 MalayJongkak:
   type: article-journal
   title: Note on the Malay Game ‘Jongkak’
@@ -20641,3 +20658,31 @@ SchlegelWoordenboek4:
   <<: *SchlegelWoordenboek1
   volume: 4
   URL: https://hdl.handle.net/2027/uc1.$c199157
+MatthesOmi:
+  type: article-journal
+  title:
+    value: Korte Beschrijving van het Celebesche Kaartspel, Genaamd Omi
+    lang: nl
+  language: nl
+  page: 525-527
+  URL: https://books.google.co.nz/books?id=0pJUAAAAcAAJ&pg=PA525
+  author: [*Matthes]
+  in:
+    title: *Tijd
+    volume: 11
+    issued: 1862
+WilsenOmi:
+  type: article-journal
+  title:
+    value: Nog iets over het Omi-spel
+    lang: nl
+  language: nl
+  URL: https://archive.org/details/tijdschriftvoor37unkngoog/page/192
+  author:
+  - given: F. C.
+    family: Wilsen
+  page: 192
+  in:
+    title: *Tijd
+    volume: 13
+    issued: 1864

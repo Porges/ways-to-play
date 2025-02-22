@@ -22,5 +22,9 @@ date modified: 2025-02-17
 > ```
 >
 > A game of Faro, circa 1900 (photograph by C. C. Pierce, 1861–1946).
- 
- 
+
+
+Other names/variations:
+- German Stus/Stoß?/Stossen (Greek stoss?: https://forum.wordreference.com/threads/stoss-card-game.3844965/)
+  - See drescription https://de.wikipedia.org/wiki/Sto%C3%9F_(Gl%C3%BCcksspiel)
+- Javanese: ꦕꦶꦠꦺꦴꦠꦶꦂ citotir https://archive.org/details/javaanschnederdu00geri/page/442/mode/2up?q=Javaanse+kaartspel, said to be the same as Stossen

@@ -8,7 +8,7 @@ countries: ID
 subgames:
   - title: Pèi Magelang
 date created: 2024-12-18
-date modified: 2025-02-22
+date modified: 2025-02-23
 aliases:
   - '<span lang="jv">ꦥꦺꦲꦶ</span> · <span lang="jv-Latn" class="noun">Pèi</span>'
   - <span lang="jv-Latn" class="noun">Pèi</span>
@@ -63,7 +63,7 @@ The player with the highest score is <span lang="jv-Latn">ngeté</span> (‘paym
 
 There are five possible scoring combinations. (When there are multiple Javanese names given, the first is in the everyday <span lang="jv-Latn">ngoko</span> register and the second is in the polite <span lang="jv-Latn">krama</span> register; [see the Javanese Wikipedia article for more](https://en.wikipedia.org/wiki/Javanese_language#Registers).)
 
-#### Black Thirteen (<span lang="jv">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦶꦉꦁ​ </span> <span lang="jv-Latn">bunci ireng</span>)
+#### Black Thirteen (<span lang="jv">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦶꦉꦁ​ </span> <span lang="jv-Latn">bunci ireng</span> · <span lang="jv">ꦧꦸꦚ꧀ꦕꦶ​ꦕꦶꦩꦷ</span> <span lang="jv-Latn">bunci cimii</span>)
 
 This combination consists of the first three cards of the coin suit, in order.  The combination may be extended by capturing more of the coin cards in _unbroken_ sequence. This gives 13 points per card in the sequence, so three cards scores 39, four cards scores 42, etc.
 
@@ -173,6 +173,10 @@ This combination is formed from one of each of the 1 of coins, 9 of strings, and
 > The cards for <span lang="jv-Latn">Macan</span>.
 
 ### Possible bets
+
+> [!todo]
+>
+> ꦛꦼꦊꦁ = theleng is the word for "point" in Javanese? https://archive.org/details/javaanschnederdu00geri/page/1010/mode/2up?q=Javaanse+kaartspel
 
 Firstly, the game can be played without a stake (<span lang="jv-Latn">jentolan</span> ‘stings’?); in this case, whoever loses becomes the dealer and must shuffle, deal, and count for the next round.
 
