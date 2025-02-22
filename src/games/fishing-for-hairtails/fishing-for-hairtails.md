@@ -6,7 +6,7 @@ players:
   - 3
 equipment: Card game (two-colour chess cards)
 date created: 2024-12-18
-date modified: 2025-02-16
+date modified: 2025-02-22
 aliases:
   - '<span lang="zh">釣白魚</span> · Fishing for Hairtails'
   - Fishing For Hairtails
@@ -16,7 +16,9 @@ linter-yaml-title-alias: '<span lang="zh">釣白魚</span> · Fishing for Hairta
 
 Fishing for Hairtails <span lang="zh-Hant">釣白魚</span> (Hokkien: <span lang="nan-Latn">tiò pe̍h-hî</span>) is a Hokkien [fishing game](articles/families/fishing-games/fishing-games.md) for two or three players that is played with two-colour chess cards, which are sometimes called <span lang="zh-Hant">釣魚牌</span> ‘fishing cards’.  It may also be called <span lang="zh-Hant">白魚賭</span> ‘hairtail gambling’ or simply <span lang="zh-Hant">釣魚</span> ‘fishing’.
 
-The hairtail is [<cite>Trichiurus lepturus</cite>,](https://en.wikipedia.org/wiki/Largehead_hairtail) called the <span lang="ms">layur</span> throughout the Malay Archipelago. Legend has it that when one of these fish is caught, another one catches its tail, and so on, until the whole shoal is pulled up out of the water. This is compared to the way that cards are captured in this game. The reality is not as dramatic as that, but when they are being caught the hairtails do have a tendency to latch onto each other (see image at @タチウオの共食い), and it is possible to use hairtail tails as bait for them.
+In Java (Indonesia), the name <span lang="jv">ꦥꦺꦲꦶ</span> <span lang="jv-Latn">pèhi</span> (<span lang="jv">ꦥꦺꦃꦱꦶ</span> <span lang="jv-Latn">pèhsi</span>) also referred to [a related game](games/pei/pei.md) played with [Ceki cards](articles/cards/ceki/ceki.md).[@deClercqPehiSpel]
+
+The “hairtail” is the fish [<cite>Trichiurus lepturus</cite>,](https://en.wikipedia.org/wiki/Largehead_hairtail) also called the <span lang="ms">layur</span> throughout the Malay Archipelago. Legend has it that when one of these fish is caught, another one catches its tail, and so on, until the whole shoal is pulled up out of the water. This is compared to the way that cards are captured in this game. The reality is not as dramatic as that, but when they are being caught the hairtails do have a tendency to latch onto each other (see image at @タチウオの共食い), and it is possible to use hairtail tails as bait for them.
 
 When many friends come to visit in succession, it is also compared to the way hairtails latch onto each other, and there is a saying <span lang="zh-Hant">白魚相咬尾</span> (Hokkien: <span lang="nan-Latn">pe̍h-hî sio kā bóe</span>) “hairtails biting each other” to describe situations like that.
 
@@ -35,17 +37,17 @@ The description below is based upon @YoungCeki [p. 293–5] and @DrieChineescheK
 > 一方有難，八方追著啃
 >
 > 釣帶魚時，會發生一種神奇現象。《海錯圖》畫的就是這個場景：一隻帶魚咬鉤後，另一隻會咬住它的尾巴，一起被提出水。
-> 
+>
 > 這可不是瞎說的，今天人們釣帶魚時，仍能看到這種奇觀，有時甚至能一次提起三四條帶魚。閩南有漁諺「白魚相咬尾」、「白魚連尾釣」即此。
-> 
+>
 > 原文網址：https://kknews.cc/food/mpov422.html
-> 
+>
 > When one side is in trouble, all sides follow
-> 
+>
 > When fishing for striped bass, a magical phenomenon occurs. This is the scene depicted in The Sea of Mistakes, where one striped bass bites the hook and then another bites its tail and is lifted out of the water together.
-> 
+>
 > This is not just nonsense, as people can still see this spectacle when fishing for striped bass today, sometimes even lifting three or four fish at a time. There is a fishing proverb in Minnan that says "white fish bite each other's tails" and "white fish caught with tails".
-> 
+>
 > Original website: https://kknews.cc/food/mpov422.html
 >
 > Translated with www.DeepL.com/Translator (free version)

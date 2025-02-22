@@ -1,7 +1,9 @@
 ---
 title: Glossary of Games Terminology
 date created: 2024-12-22
-date modified: 2025-01-23
+date modified: 2025-02-22
+aliases: [Glossary of Games Terminology]
+linter-yaml-title-alias: Glossary of Games Terminology
 ---
 # Glossary of Games Terminology
 
@@ -15,6 +17,8 @@ eyes
     A group of cards in [Kànhǔ](games/kanhu/kanhu.md) is called an ‘eye’ (<span lang="zh">眼</span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  file="pronunciation_yue_眼.mp3" pronouncer="diniskachonchan">ngaan⁵</Pronounce>).[@CulinMahjong p. 156] In other games combinations are called called ‘ox’ (<span lang="zh">牛</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁴</span>).[@GamblingGamesOfMalaya p. 88] I wonder if both terms are derived by modifying ‘pair’ (<span lang="zh">偶</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁵</span>)?[@TonicDictionary p. 323]
 
     In Mahjong the ‘eye’ is the pair that is required to make a complete hand.
+    
+	The ‘eye’ terminology is also used in Malay (<span lang="ms">mata</span>).
     </dd>
 
 <dt id="mournival">

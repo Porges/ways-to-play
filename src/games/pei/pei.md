@@ -8,7 +8,7 @@ countries: ID
 subgames:
   - title: Pèi Magelang
 date created: 2024-12-18
-date modified: 2025-02-16
+date modified: 2025-02-22
 aliases:
   - '<span lang="jv">ꦥꦺꦲꦶ</span> · <span lang="jv-Latn" class="noun">Pèi</span>'
   - <span lang="jv-Latn" class="noun">Pèi</span>
@@ -18,6 +18,8 @@ linter-yaml-title-alias: '<span lang="jv">ꦥꦺꦲꦶ</span> · <span lang="jv-
 
 <span lang="jv-Latn" class="noun aka">Pèi</span> (<span lang="jv" class="aka">ꦥꦺꦲꦶ</span>) was a [fishing game](articles/families/fishing-games/fishing-games.md) for three players from Java, which used [Ceki cards](articles/cards/ceki/ceki.md). The goal of the game is to capture specific scoring combinations.
 
+The game was also called <span lang="jv">ꦥꦺꦲꦶ</span> <span lang="jv-Latn">pèhi</span> or <span lang="jv">ꦥꦺꦃꦱꦶ</span> <span lang="jv-Latn">pèhsi</span>;[@deClercqPehiSpel] thus the name might be derived from the Hokkien <span lang="nan">白魚</span> <span lang="nan-Latn-pehoeji">pe̍h-hî</span>.
+
 The description below is based upon @JavaanseKaartspelen [p. 58–70].
 
 According to the article, at that time the game was usually played on the ground or on a mat, but women played it at a table. Amongst older people it was considered a refined game, and luck or misfortune in the game was considered to correspond to luck or misfortune in the rest of a player’s life.
@@ -26,7 +28,9 @@ The game as played in Surakarta and Yogyakarta was the same, but different termi
 
 ## Play
 
-The game is played by three players with two sets of <span lang="ms">ceki</span> cards (120 cards total). If there are four players, then three will take part in the game while the fourth player acts as the dealer and point-counter (<span lang="jv-Latn">makao</span> in Surakarta or <span lang="jv-Latn">matang atusi</span> in Yogyakarta).
+The game is played by three players with two sets of <span lang="ms">ceki</span>
+
+cards (120 cards total). If there are four players, then three will take part in the game while the fourth player acts as the dealer and point-counter (<span lang="jv-Latn">makao</span> in Surakarta or <span lang="jv-Latn">matang atusi</span> in Yogyakarta).
 
 To decide seating order, each player is dealt two cards; the sum of their values determines (from highest to lowest) who will be <span lang="jv">ꦫꦗ</span> <span lang="jv-Latn">raja</span> ‘king’, <span lang="jv">ꦥꦠꦶꦃ</span> <span lang="jv-Latn">patih</span> ‘councillor’, and <span lang="jv">ꦲꦸꦚꦶꦏ꧀</span> <span lang="jv-Latn">unyik</span> ‘last’.
 
@@ -37,7 +41,7 @@ The dealer then arranges the cards in the centre of the table by rank to make th
 The top card of the stock is then turned face-up next to it. This will be the last card drawn and thus will go to the <span lang="jv-Latn">unyik</span>. The <span lang="jv-Latn">unyik</span> can then use this to plan their last move of the round.
 
 > [!todo]
->  Strategy: they should try to keep a matching card in hand so that TODO 
+>  Strategy: they should try to keep a matching card in hand so that TODO
 
 The <span lang="jv-Latn">patih</span> is then permitted to look at the top card of the deck, which will be the second-to-last card drawn and thus their last card of the round, but it is not shown to the other players, and is replaced upon the top of the deck.
 
@@ -57,7 +61,7 @@ The player with the highest score is <span lang="jv-Latn">ngeté</span> (‘paym
 
 ### Scoring Combinations
 
-There are five possible scoring combinations.
+There are five possible scoring combinations. (When there are multiple Javanese names given, the first is in the everyday <span lang="jv-Latn">ngoko</span> register and the second is in the polite <span lang="jv-Latn">krama</span> register; [see the Javanese Wikipedia article for more](https://en.wikipedia.org/wiki/Javanese_language#Registers).)
 
 #### Black Thirteen (<span lang="jv">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦶꦉꦁ​ </span> <span lang="jv-Latn">bunci ireng</span>)
 
@@ -81,7 +85,7 @@ The maximum score possible would be all 9 cards for 113 points.
 > The first three cards of the coin suit must be obtained in order to score <span lang="jv-Latn">bunci ireng</span>.
 
 
-#### Red Thirteen (<span lang="jv">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦧꦁ​ </span> <span lang="jv-Latn">bunci abang</span>)
+#### Red Thirteen (<span lang="jv">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦧꦁ​ </span> <span lang="jv-Latn">bunci abang</span> · <span lang="jv">ꦧꦸꦚ꧀ꦕꦶ​ꦲꦧꦿꦶꦠ꧀</span> <span lang="jv-Latn">bunci abrit</span>)
 
 This combination is formed from one of each of the three red-stamped cards. It is worth 13 points per card, so at least 39 points. Any additional cards of the same type add 13 points each.
 
@@ -103,11 +107,12 @@ This combination is formed from one of each of the three red-stamped cards. It i
 
 #### <span lang="jv-Latn">Pang Kéyang</span> (<span lang="jv">ꦥꦁ​​ꦏꦺꦪꦁ​ </span> <span lang="jv-Latn">pang kéyang</span>)
 
+Sometimes simply <span lang="jv">ꦏꦺꦪꦁ</span> <span lang="jv-Latn">kéyang</span>.
 
 > [!aside]
 >
 > In Javanese, <span lang="jv-Latn">pang</span> means ‘branch’. Here however, it is probably a borrowing from the Chinese <span lang="zh">碰</span> (Hokkien: <Pronounce lang="nan-Latn"  pronouncer="chihchao" file="pronunciation_nan_碰.mp3">pōng</Pronounce>, Cantonese: <span lang="yue-Latn-jyutping">pung³</span>). See the [glossary](articles/glossary.md#pong) page for more.
-> 
+>
 > <span lang="jv-Latn">Kéyang</span> is the name of the 9 of myriads card. I am uncertain what it means.
 
 This combination is formed from one of each of White Flower, 8 of strings, and 9 of myriads. It scores 12 points per card (base 36 points), and 12 for each additional card.
@@ -127,7 +132,9 @@ This combination is formed from one of each of White Flower, 8 of strings, and 9
 >
 > The cards for <span lang="jv-Latn">Pang Kéyang</span>.
 
-#### Coin <span lang="jv-Latn">Pang</span> (<span lang="jv">ꦥꦁ​​ꦥꦶꦕꦶꦱ꧀ </span> <span lang="jv-Latn">pang picis</span>) 
+#### Coin <span lang="jv-Latn">Pang</span> (<span lang="jv">ꦥꦁ​​ꦥꦶꦕꦶꦱ꧀ </span> <span lang="jv-Latn">pang picis</span>)
+
+Sometimes simply <span lang="jv">ꦥꦁ​</span> <span lang="jv-Latn">pang</span>.
 
 This combination is formed from one of each of the 8 of coins, 2 of strings, and 2 of myriads. It scores 11 points per card (33 points), and 11 for each additional card.
 
@@ -146,7 +153,7 @@ This combination is formed from one of each of the 8 of coins, 2 of strings, and
 >
 > The cards for <span lang="jv-Latn">Pang Picis</span>.
 
-#### Tiger (<span lang="jv">ꦩꦕꦤ꧀</span> <span lang="jv-Latn">macan</span>)
+#### Tiger (<span lang="jv">ꦩꦕꦤ꧀</span> <span lang="jv-Latn">macan</span> · <span lang="jv">ꦱꦶꦩ</span> <span lang="jv-Latn">sima</span>)
 
 This combination is formed from one of each of the 1 of coins, 9 of strings, and 1 of myriads. It scores 10 points per card (30 points), and 10 for each additional card.
 

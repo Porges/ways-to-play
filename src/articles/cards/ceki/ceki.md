@@ -13,7 +13,7 @@ aliases:
   - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2025-02-19
+date modified: 2025-02-22
 linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
@@ -22,9 +22,9 @@ Ceki (Javanese <span lang="jv">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">�
 
 They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
 
-“Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong) cards’).
+“Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong) cards’). They are sometimes also referred to as <span lang="id">kartu jawa</span> (“Javan cards”) in other parts of Indonesia.
 
-[^spelling]: The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script. The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian p. 48] “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jv-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jv-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53]
+[^spelling]: The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script.[@CliffordMalay3 334] The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian 48] “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jv-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jv-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53] Another thing to note is that one 16th-century Chinese–Malay dictionary defines the Chinese <span lang="zh">棋</span> ‘game, chess’ with the Malay <span lang="zh">竹吉</span> (Mandarin: <span lang="cmn-Latn-pinyin">zhújí</span>), which one source suggests is <span lang="ms">ceki</span>,[@ChineseMalaccaMalay 734] but perhaps this is better understood as <span lang="ms">cuki</span>,[@ChineseLoanwordsSchlegel 404] “a kind of draughts-game with black and white stones.”[@Pijnappel I, 116]
 
 > [!todo]
 >
@@ -32,9 +32,11 @@ They were originally derived from Chinese 3-suited money cards (particularly the
 
 [^daun]: <span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”.
 
-The cards might also have been referred to in the past in Malay as <span lang="ms">kiya</span>[^kiya] or <span lang="ms">kiya-kiya</span>, meaning ‘fish’. This could refer to the fish symbology which is used on some decks of Chinese origin.
+The cards might also have been referred to in the past in Malay as <span lang="ms">kiya</span>[^kiya] or <span lang="ms">kiya-kiya</span>, meaning ‘fish’. This could refer to the fish symbology which is used on some decks of Chinese origin, or is actually derived from the Hokkien <span lang="nan">枝仔</span> <span lang="nan-Latn-pehoeji">ki-á</span>, “twigs”.[^cjk]
 
-[^kiya]: <span lang="ms">Kija</span> or <span lang="ms-Arab">كيا</span>[@Pijnappel p. 96] in older orthographies.
+[^cjk]: The name <span lang="nan">十二枝仔</span> is also used for [Chap Ji Ki](games/chap-ji-ki/chap-ji-ki.md).[@ChineseLoanwordsSchlegel 397]
+
+[^kiya]: <span lang="ms">Kija</span> or <span lang="ms-Arab">كيا</span>[@Pijnappel II, 96] in older orthographies.
 
 Games that used these type of cards were originally played throughout the Malaysian Archipelago. They are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity p. 555]
 
@@ -89,7 +91,17 @@ Amongst [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (or <span lang
 
 In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and Bali, all of which have historically had a large Chinese influence. In Javanese the cards are also known as <span lang="jv-Latn">kertu cilik</span> (‘small cards’).[@JavaneseEnglish p. 365]
 
-During the colonial era, cards were manufactured in Europe by Dutch companies and exported to Indonesia. (See the [manufacturers](#manufacturers-brands) section below.) Ceki cards were also prohibited from being imported (from European manufacturers) into some areas, such as Sulawesi, “for reasons of public safety”.[@Title39_48 p. 1013]
+During the colonial era, cards were manufactured in Europe by Dutch companies and exported to Indonesia. (See the [manufacturers](#manufacturers-brands) section below.)
+
+From 1898 (and earlier?), Ceki was explicitly permitted (upon the purchase of a license for a gambling house) by the Dutch authorities.[@Staatsblad1898 23:2][^aswell]
+
+[^aswell]: Alongside “<span lang="nl">Soe Sik</span>” (Hokkien: <span lang="nan-Latn-pehoeji">sù sek</span>, [four colour cards](articles/cards/china/four-colour-cards/four-colour-cards.md)), “<span lang="nl">Khoa O</span>” (Hokkien: <span lang="nan-Latn">khòaⁿ ô͘</span>, [<span lang="cmn-Latn-pinyin" class="noun">Kànhǔ</span>](games/kanhu/kanhu.md)), “<span lang="nl">Tio Peh Hi</span>” (Hokkien: <span lang="nan-Latn-pehoeji">tiò pe̍h-hî</span>, [Fishing For Hairtails](games/fishing-for-hairtails/fishing-for-hairtails.md)), “<span lang="nl">Tsap O</span>” (Hokkien: <span lang="nan-Latn-pehoeji">cha̍p ô͘</span>), “<span lang="nl">Tshe Kam</span>” (?), and the European games [21](games/blackjack/blackjack.md) and [31](games/thirty-one/thirty-one.md).
+
+> [!todo]
+>
+> See also a different list here: https://books.google.co.nz/books?id=gdsrAQAAMAAJ
+
+By the 1940s Ceki cards were prohibited from being imported (from European manufacturers) into some areas, such as Sulawesi, “for reasons of public safety”.[@Title39_48 p. 1013]
 
 > [!figure]
 >
@@ -856,7 +868,7 @@ from Hokkien/Teochew
 </td>
 <td>
 <span lang="mcm">yoh</span>\
-(Hokkien <span lang="nan-Latn">io</span>)
+(Hokkien <span lang="nan-Latn-pehoeji">io</span>)
 </td>
 <td>
 <span lang="min">hiu/iyu</span> ‘shark’, looks like a fin
@@ -1833,7 +1845,7 @@ two
 > [!todo] ---M/S---
 <td>
 <span lang="ms">ji</span>\
-(Hokkien jī)
+(Hokkien <span lang="nan-Latn-pehoeji">jī</span>)
 </td>
 <td>
 <span lang="ms">lĕkok</span>\
@@ -1845,7 +1857,7 @@ notched
 </td>
 <td>
 <span lang="mcm">gee</span>\
-(Hokkien jī)
+(Hokkien <span lang="nan-Latn-pehoeji">jī</span>)
 </td>
 <td>
 <span lang="min">bengkok</span> ‘crooked’
@@ -2357,7 +2369,7 @@ three
 > [!todo] ---M/S---
 <td>
 <span lang="ms">sa</span>\
-(Hokkien saⁿ)
+(Hokkien <span lang="nan-Latn-pehoeji">saⁿ</span>)
 </td>
 <td>
 <span lang="ms">sêrong</span>\
@@ -2369,7 +2381,7 @@ askew
 </td>
 <td>
 <span lang="mcm">sar</span>\
-(Hokkien saⁿ)
+(Hokkien <span lang="nan-Latn-pehoeji">saⁿ</span>)
 </td>
 <td>
 <span lang="min">jarum</span> ‘needle’
@@ -2896,7 +2908,7 @@ four
 <td>
 > [!todo] ---M/S---
 <span lang="ms">si</span>\
-(Hokkien sì)
+(Hokkien <span lang="nan-Latn-pehoeji">sì</span>)
 </td>
 <td>
 <span lang="ms">kĕpâla bûlat</span>\
@@ -2908,7 +2920,7 @@ round head
 </td>
 <td>
 <span lang="mcm">see</span>\
-(Hokkien sì)
+(Hokkien <span lang="nan-Latn-pehoeji">sì</span>)
 </td>
 <td>
 <span lang="min">suduang</span> ‘spoon’(?)
@@ -3066,7 +3078,8 @@ split [betel nut?]
 </td>
 <td>
 <span lang="ban">ᬩᭂᬲᬃ</span>\
-<span lang="ban-Latn">besar</span>
+<span lang="ban-Latn">besar</span>\
+large
 </td>
 <td>
 <span lang="ban">ᬩᭂᬮᬄ</span>\
@@ -3074,12 +3087,14 @@ split [betel nut?]
 </td>
 <td>
 <span lang="ban">ᬩᭂᬮᬄ</span>\
-<span lang="ban-Latn">belah</span>
+<span lang="ban-Latn">belah</span>\
+large
 </td>
 > [!todo] ---Lombok---
 <td>
 <span lang="sas">ᬩᭂᬲᬃ</span>\
-<span lang="sas-Latn">besar</span>
+<span lang="sas-Latn">besar</span>\
+large
 </td>
 <td>
 <span lang="sas">ᬕᭀᬩᭀᬕ᭄ᬩᭂᬲᬃ</span>\
@@ -3408,7 +3423,7 @@ five
 > [!todo] ---M/S---
 <td>
 <span lang="ms">go</span>\
-(Hokkien gō͘)
+(Hokkien <span lang="nan-Latn-pehoeji">gō͘</span>)
 </td>
 <td>
 <span lang="ms">mâta dûa</span>\
@@ -3420,7 +3435,7 @@ two eyes
 </td>
 <td>
 <span lang="mcm">goh</span>\
-(Hokkien gō͘)
+(Hokkien <span lang="nan-Latn-pehoeji">gō͘</span>)
 </td>
 <td>
 <span lang="min">babi</span> ‘pig’ (looks like nostrils)
@@ -3915,7 +3930,7 @@ six
 > [!todo] ---M/S---
 <td>
 <span lang="ms">lak</span>\
-(Hokkien la̍k)
+(Hokkien <span lang="nan-Latn-pehoeji">la̍k</span>)
 </td>
 <td>
 <span lang="ms">lak</span>\
@@ -3927,7 +3942,7 @@ six
 </td>
 <td>
 <span lang="mcm">lak</span>\
-(Hokkien la̍k)
+(Hokkien <span lang="nan-Latn-pehoeji">la̍k</span>)
 </td>
 <td>
 <span lang="min">kapik</span> ‘grill’
@@ -4422,7 +4437,7 @@ seven
 > [!todo] ---M/S---
 <td>
 <span lang="ms">jit</span>\
-(Hokkien chhit)
+(Hokkien <span lang="nan-Latn-pehoeji">chhit</span>)
 </td>
 <td>
 <span lang="ms">chit</span>\
@@ -4434,7 +4449,7 @@ seven
 </td>
 <td>
 <span lang="ms">chit</span>\
-(Hokkien chhit)
+(Hokkien <span lang="nan-Latn-pehoeji">chhit</span>)
 </td>
 <td>
 <span lang="min">sisiak</span> ‘scales’
@@ -4927,7 +4942,7 @@ eight
 > [!todo] ---M/S---
 <td>
 <span lang="ms">puek</span>\
-(Hokkien poeh)
+(Hokkien <span lang="nan-Latn-pehoeji">poeh</span>)
 </td>
 <td>
 <span lang="ms">mâta sâtu</span>\
@@ -5122,7 +5137,8 @@ eight
 eight
 </td>
 <td>
-<span lang="id">delapan mata</span>
+<span lang="id">delapan mata</span>\
+eight eyes
 </td>
 > [!todo] ---Maluku---
 <td>
@@ -5130,7 +5146,8 @@ eight
 </td>
 > [!todo] ---Timor---
 <td>
-<span lang="id">delapan</span>
+<span lang="id">delapan</span>\
+eight
 </td>
 </tr>
 
@@ -5427,7 +5444,7 @@ nine
 > [!todo] ---M/S---
 <td>
 <span lang="ms">kau</span>\
-(Hokkien káu)
+(Hokkien <span lang="nan-Latn-pehoeji">káu</span>)
 </td>
 <td>
 <span lang="ms">ânjing</span>\
@@ -5439,7 +5456,7 @@ dog?
 </td>
 <td>
 <span lang="ms">kau</span>\
-(Hokkien káu)
+(Hokkien <span lang="nan-Latn-pehoeji">káu</span>)
 </td>
 <td>
 <span lang="min">tali</span> ‘rope’
@@ -5978,12 +5995,12 @@ them, I do not know of any other sets of rules recorded online.
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
-* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui[^fn3] which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn">pat tùi</span>),[^fn4] in which case the game could be something similar to [<span class="noun" lang="jv-Latn">Tantanan</span>](games/balik-satu/balik-satu.md#tantanan).
+* Pak Tui, which is described as a solitaire game in @BabaMalayDictionary [p. 215]. This is probably also the Patui[^fn3] which is mentioned by Mayer[@BlikJavaansche_2 p. 499] and Matthes. The name might be from the Chinese <span lang="nan">八對</span> ‘eight pairs’ (Hokkien <span lang="nan-Latn-pehoeji">pat tùi</span>),[^fn4] in which case the game could be something similar to [<span class="noun" lang="jv-Latn">Tantanan</span>](games/balik-satu/balik-satu.md#tantanan).
 * Choke/Chote (Ramay), a game for more than four players[@BabaMalayDictionary p. 214]
 * Tongkeng, a game for two people[@BabaMalayDictionary p. 215]
 * Cho It and Chochot[@SomeNotesMalayCardGames p. 88] — could Chochot be the same as Chot or Thothit?
 
-[^fn3]: Patoei or <span lang="ms-Arab">ڤتوي</span>[@Pijnappel p. 58] in older orthographies, probably also equivalent to <span lang="rej-Latn">ptu’i</span> <span lang="rej">ꤶ꥓ꤳꥈꥆꥇ</span> in [Rejang](https://en.wikipedia.org/wiki/Rejang_language).[@MaterialsRejang 92]
+[^fn3]: Patoei or <span lang="ms-Arab">ڤتوي</span>[@Pijnappel II, 58] in older orthographies, probably also equivalent to <span lang="rej-Latn">ptu’i</span> <span lang="rej">ꤶ꥓ꤳꥈꥆꥇ</span> in [Rejang](https://en.wikipedia.org/wiki/Rejang_language).[@MaterialsRejang 92]
 
 [^fn4]: This possibility raised in @Morgenlandisch_2 [p. 572].
 

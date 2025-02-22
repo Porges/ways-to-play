@@ -40,6 +40,7 @@ In the Philippines, it has been known as <span lang="fil" class="aka">capona</sp
 >
 > “Sketches in Our Chinese Quarter: Fan Tan Playing, and A Chinese Restaurant”, as depicted in the <cite>Australasian Sketcher</cite>.[@SketchesInOurChineseQuarter]
 
+See also this for more terms: https://babel.hathitrust.org/cgi/pt?id=uc1.$c199154&seq=300&q1=rouge
 
 The play of the game is straightforward. The game master or croupier —  called <span lang="zh-Hant">揸攤人</span>/<span lang="zh-Hans">揸摊人</span> (Mandarin: <span lang="cmn-Latn-pinyin">zhā tān rén</span>) or <span lang="zh-Hant">攤官</span>/<span lang="zh-Hans">摊官</span> (Mandarin: <span lang="cmn-Latn-pinyin">tān guān</span>, Cantonese: <span lang="yue-Latn-jyutping">taan¹ gun¹</span>) — sits or stands at one end of the table.  Before them, they have a large pile of small identical objects; traditionally Chinese cash coins (<span lang="zh">釐</span>) were used, but more recently white buttons or white stones similar to go stones have been used. The game master has a cup called the ‘spreading cup’ <span lang="zh-Hant">攤盅</span>/<span lang="zh-Hans">摊盅</span> which is used to take a random number of items from the large pile and cover them while bets are placed.
 
@@ -108,6 +109,8 @@ Other non-traditional bets permitted in online games include:
 
 [^fn0]: The Vietnamese names for small/big seem to be transliterations of some Chinese language, and are not native Vietnamese words. I haven’t actually spotted any using characters on the board, and instead a large letter S/B is used, but these are what would be there if characters were used instead.
 
+
+Note: see malay game under: @CliffordMalay1 [78], "API"
 
 ## History
 

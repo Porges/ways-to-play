@@ -13704,6 +13704,7 @@ Pijnappel1:
   issued: 1863
   publisher-place: Haarlem, Amsterdam
   publisher: Frederik Muller
+  notes: Two volumes bound as one.
 Pijnappel:
   type: book
   URL: https://archive.org/details/ahy2565.0001.001.umich.edu
@@ -13717,6 +13718,7 @@ Pijnappel:
   issued: 1875
   publisher-place: Haarlem, Amsterdam
   publisher: Frederik Muller
+  notes: Two volumes bound as one.
 MaleischNederlandsch_2:
   type: book
   URL: https://archive.org/details/afh0364.0002.001.umich.edu
@@ -20217,20 +20219,72 @@ AutonomyAndRelatedness:
   title: 'Autonomy and Relatedness: an ethnography of Wik people of Aurukun, Western Cape York Peninsula'
   URL: https://hdl.handle.net/1885/10999
   notes: Section on gambling, page 129 onwards.
+CliffordMalay1:
+  type: book
+  title: A Dictionary of the Malay language
+  subtitle: Malay—English
+  URL: https://archive.org/details/adictionarymala00swetgoog
+  author:
+  - &Hugh_Clifford
+    given: Hugh
+    family: Clifford
+    url: https://en.wikipedia.org/wiki/Hugh_Clifford_(colonial_administrator)
+  - &Frank_Swettenham
+    given: Frank Athelstane
+    family: Swettenham
+    url: https://en.wikipedia.org/wiki/Frank_Swettenham
+  issued: 1894
+  volume: 1
+  volume-title: The Letter “A”
+  publisher-place: Taiping, Perak
+  publisher: Government Printing Office
+CliffordMalay2:
+  type: book
+  title: A Dictionary of the Malay language
+  subtitle: Malay—English
+  URL: https://archive.org/details/adictionarymala00swetgoog
+  author:
+  - *Hugh_Clifford
+  - *Frank_Swettenham
+  issued: 1895
+  volume: 2
+  volume-title: The Letter “B”
+  publisher-place: Taiping, Perak
+  publisher: Government Printing Office
 CliffordMalay3:
   type: book
   title: A Dictionary of the Malay language
   URL: https://archive.org/details/adictionarymala00swetgoog
   author:
-  - given: Hugh
-    family: Clifford
-    url: https://en.wikipedia.org/wiki/Hugh_Clifford_(colonial_administrator)
-  - given: Frank Athelstane
-    family: Swettenham
-    url: https://en.wikipedia.org/wiki/Frank_Swettenham
+  - *Hugh_Clifford
+  - *Frank_Swettenham
   issued: 1897
   volume: 3
   volume-title: The Letter “Ch”
+  publisher-place: Taiping, Perak
+  publisher: Government Printing Office
+CliffordMalay4:
+  type: book
+  title: A Dictionary of the Malay language
+  URL: https://archive.org/details/adictionarymala00swetgoog
+  author:
+  - *Hugh_Clifford
+  - *Frank_Swettenham
+  issued: 1897
+  volume: 3
+  volume-title: The Letters “D”, “E”, and “F”
+  publisher-place: Taiping, Perak
+  publisher: Government Printing Office
+CliffordMalay5:
+  type: book
+  title: A Dictionary of the Malay language
+  URL: https://archive.org/details/adictionarymala00swetgoog
+  author:
+  - *Hugh_Clifford
+  - *Frank_Swettenham
+  issued: 1902
+  volume: 3
+  volume-title: The Letter “G”
   publisher-place: Taiping, Perak
   publisher: Government Printing Office
 StevensComprehensiveIndonesian:
@@ -20500,3 +20554,90 @@ ZeugnisseGeschichteKinderspiele:
     issue: 4
     issued: 1909
   notes: Many, many games referenced in here.
+ChineseMalaccaMalay:
+  type: article-journal
+  title: A Chinese Vocabulary of Malacca Malay Words and Phrases Collected between A.D. 1403 and 1511 (?)
+  author:
+  - given: E. D.
+    family: Edwards
+    url: https://en.wikipedia.org/wiki/Evangeline_Edwards
+  - given: C. O.
+    family: Blagden
+    url: https://en.wikipedia.org/wiki/Charles_Otto_Blagden
+  page: 715-749
+  URL: https://www.jstor.org/stable/607205
+  in:
+    title: Bulletin of the School of Oriental Studies
+    publisher: University of London
+    volume: 6
+    issue: 3
+    issued: 1931
+MinangkabauschMaleischNederlandsch:
+  type: book
+  title:
+    value: Minangkabausch–Maleisch–Nederlandsch woordenboek
+    lang: nl
+  language: nl
+  author:
+  - given: J. L.
+    family: van der Toorn
+  issued: 1891
+  publisher: Martinus Nijhoff
+  publisher-place: The Hague, The Netherlands
+  URL: https://archive.org/details/minangkabauschm00toorgoog
+Staatsblad1898:
+  type: book
+  title:
+    lang: nl
+    value: Staatsblad van Nederlandisch-Indië, over het jaar 1898
+  language: nl
+  URL: https://books.google.co.nz/books?id=Zo9BAAAAYAAJ
+  publisher:
+    value: Landsdrukkerij
+    lang: nl
+  publisher-place: Batavia, Dutch East Indies
+  issued: 1899
+ChineseLoanwordsSchlegel:
+  type: article-journal
+  title: Chinese Loanwords in the Malay Language
+  author:
+  - &Gustav_Schlegel
+    given: Gustav
+    family: Schlegel
+    lang: nl
+    url: https://en.wikipedia.org/wiki/Gustaaf_Schlegel
+  page: 391-405
+  URL: https://archive.org/details/1tungpaoto01corduoft/page/390
+  in:
+    title: <span lang="zh">通報</span> T‘oung Pao
+    volume: 1
+    publisher: E. J. Brill
+    publisher-place: Leide
+    issued: 1890
+    editor:
+    - *Gustav_Schlegel
+    - given: Henri
+      family: Cordier
+      lang: fr
+      url: https://en.wikipedia.org/wiki/Henri_Cordier
+SchlegelWoordenboek1: &SchlegelWoordenboek1
+  type: book
+  title:
+    value: Nederlandsch–Chineesch Woordenboek
+    lang: nl
+  subtitle: met de transcriptie der Chineese Karakters in het Tsiang-Tsiu Dialekt
+  language: nl
+  author: [*Gustav_Schlegel]
+  issued: 1886
+  publisher: E. J. Brill
+  publisher-place: Leiden
+  volume: 1
+  URL: https://hdl.handle.net/2027/uc1.$c199154
+SchlegelWoordenboek3:
+  <<: *SchlegelWoordenboek1
+  volume: 3
+  URL: https://hdl.handle.net/2027/mdp.39015030048360
+SchlegelWoordenboek4:
+  <<: *SchlegelWoordenboek1
+  volume: 4
+  URL: https://hdl.handle.net/2027/uc1.$c199157

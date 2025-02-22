@@ -2,7 +2,7 @@
 title: '<span lang="zh">四色牌</span> · Four Colour Cards'
 draft: true
 date created: 2024-12-18
-date modified: 2025-02-19
+date modified: 2025-02-22
 aliases: ['<span lang="zh">四色牌</span> · Four Colour Cards']
 linter-yaml-title-alias: '<span lang="zh">四色牌</span> · Four Colour Cards'
 ---
@@ -36,7 +36,7 @@ English
 <span lang="zh">四色</span>
 </td>
 <td>
-Hokkien: <span lang="nan-Latn">sù sek</span>
+Hokkien: <span lang="nan-Latn-pehoeji">sù sek</span>
 </td>
 <td>
 Four Colour
@@ -48,7 +48,7 @@ Four Colour
 <span lang="zh">什湖</span>
 </td>
 <td>
-Hokkien: <span lang="nan-Latn">cha̍p ô͘</span>
+Hokkien: <span lang="nan-Latn-pehoeji">cha̍p ô͘</span>
 </td>
 <td>
 ten points
@@ -193,7 +193,8 @@ four colour straight
 <span lang="zh">大符</span>
 </td>
 <td>
-Teochew: <span lang="nan-Latn-pengim">dua7 hu5</span>, Hokkien: <span lang="nan-Latn-pehoeji">tōa hû</span>
+Teochew: <span lang="nan-Latn-pengim">dua⁷ hu⁵</span>\
+Hokkien: <span lang="nan-Latn-pehoeji">tōa hû</span>
 </td>
 <td>
 large symbols
@@ -205,7 +206,8 @@ large symbols
 <span lang="zh">小符</span>
 </td>
 <td>
-Teochew: <span lang="nan-Latn-pengim">siê2 hu5</span>, Hokkien: <span lang="nan-Latn-pehoeji">sió hû</span>
+Teochew: <span lang="nan-Latn-pengim">siê² hu⁵</span>\
+Hokkien: <span lang="nan-Latn-pehoeji">sió hû</span>
 </td>
 <td>
 small symbols
