@@ -22,7 +22,7 @@ notify-debouncer-full = "0.5.0"
 rayon = "1.10.0"
 regex = "1.11.1"
 saphyr = "0.0.3"
-serde = { version = "1.0.217", features = ["derive"] }
+serde = { version = "1.0.218", features = ["derive"] }
 serde_json = "1.0.134"
 serde_with = "3.12.0"
 time = { version = "0.3.37", features = ["parsing", "macros", "formatting"] }
@@ -30,5 +30,5 @@ tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 url = "2.5.4"
 url-escape = "0.1.1"
-uuid = { version = "1.13.0", features = ["fast-rng", "v5"] }
+uuid = { version = "1.14.0", features = ["v5"] }
 walkdir = "2.5.0"
