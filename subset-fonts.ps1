@@ -8,7 +8,7 @@ $ErrorActionPreference = "Stop"
 #  'abvs', 'akhn', 'blwf', 'blwm', 'blws', 'calt',
 #  'ccmp', 'cfar', 'chws', 'cjct', 'clig', 'cswh',
 #  'curs', 'dist', 'dnom', 'fin2', 'fin3', 'fina',
-#  'frac', 'half', 'haln', 'halt', 'init', 'isol', 
+#  'frac', 'half', 'haln', 'halt', 'init', 'isol',
 #  'jalt', 'kern', 'liga', 'ljmo', 'locl', 'ltra',
 #  'ltrm', 'mark', 'med2', 'medi', 'mkmk', 'mset',
 #  'nukt', 'numr', 'pref', 'pres', 'pstf', 'psts',
@@ -82,30 +82,30 @@ foreach ($font in $fonts.GetEnumerator()) {
         if ($range -eq $null) {
             throw "no such block $block"
         }
-        
+
         return "U+$($range.FirstCodePoint.ToString("x4"))-$(($range.FirstCodePoint + $range.Length - 1).ToString("x4"))"
     }
 
     foreach ($subset in $subsets.GetEnumerator()) {
-        $name = $subset.Key 
+        $name = $subset.Key
         echo "$name - $($subset.Value.Blocks)"
         $whitelist = ($subset.Value.Blocks | %{ whitelistFromBlock($_) }) -join ','
         if ($subset.Value.ContainsKey('Additional')) {
             $whitelist += ",$($subset.Value.Additional)"
         }
-        
+
         $features = @()
         if ($subset.Value.ContainsKey('Features')) {
             $features = @("--layout-features+=$($subset.Value.Features)")
             echo $features
         }
-        
+
         foreach ($file in Get-ChildItem -Filter '*.woff2' -File) {
             $targetFile = Join-Path "../../fonts/$fontName" ($file.Name -replace "-", "-$name-")
             pyftsubset $file --unicodes=$whitelist --flavor=woff2 --harfbuzz-repacker --output-file=$targetFile `
                 @features `
                 --drop-tables+=Silt # --drop-tables+=name --drop-tables+=post
-           
+
             echo "/* $name ($($subset.Value.Blocks -join ', ')) */" >> $css
             echo "@font-face {" >> $css
             echo "    font-family: '$fontFamily';" >> $css
@@ -125,6 +125,6 @@ foreach ($font in $fonts.GetEnumerator()) {
             echo "}" >> $css
         }
     }
-    
+
     popd
 }
