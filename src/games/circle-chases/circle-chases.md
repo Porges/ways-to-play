@@ -3,7 +3,7 @@ title: Circle Chases
 equipment: Physical
 draft: true
 date created: 2024-12-18
-date modified: 2025-01-22
+date modified: 2025-02-23
 ---
 
 Under this title, I collect several children’s games which are very similar and involve most of the players sitting or standing in a circle while another player walks around the outside of it until they choose someone (with or without their knowing, according to the game), who must then chase them.
@@ -88,3 +88,5 @@ in Khmer(!) លាក់កន្សែង , see http://sealang.net/khmer/
 
 
 <span lang="sco" class="aka">Allicomgreenyie</span>[@SupplementToJamieson 11]
+
+Maori: https://archive.org/details/teikamauiornewze00tayl/page/348/mode/2up?q=game

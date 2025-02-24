@@ -55,6 +55,8 @@ mata ᨆᨈ - eye, as in other languages
 tau ᨈᨕᨘ - (human) the cards called lotijiyang, lamboesoe, tjina, bawi, tikara, djobong. (i.e. the aces)
 buyang = paper
 
+Tuwi is given here as "a game between two other players outside of the main game" https://archive.org/details/afh0364.0001.001.umich.edu/page/430/mode/2up?q=%22pakau%22
+
 Omi words:
 boelaeng bulang ᨅᨘᨒᨕᨙ - one of the suits (gold coins) of Omi [p. 220]
 basattoe basatu ᨅᨔᨈᨘ - basta [p. 229]

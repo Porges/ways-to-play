@@ -5445,7 +5445,7 @@ YoungCeki:
   page: 269–302
   URL: https://books.google.co.nz/books?id=BSUDAAAAYAAJ&pg=PA269
   in:
-    title: &Tijd
+    title: &Tijds_Ind_T_L
       value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
       lang: nl
     volume: 31
@@ -5465,9 +5465,7 @@ deClercqPehiSpel:
       lang: nl
   page: 512–516
   in:
-    title:
-      value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
-      lang: nl
+    title: *Tijds_Ind_T_L
     volume: 23
     issued:
       year: 1876
@@ -9639,8 +9637,11 @@ OnTheGrammars:
       month: 4
     volume: 89
     editor:
-    - given: Sylvanus
+    - &Sylvanus_Urban
+      given: Sylvanus
       family: Urban
+      alt: Edward Cave
+      url: https://en.wikipedia.org/wiki/Edward_Cave
     publisher: John Nichols and Son
     publisher-place: London
 MicatioDigitorumDescribed:
@@ -9655,9 +9656,7 @@ MicatioDigitorumDescribed:
     issued:
       month: 2
       year: 1831
-    editor:
-    - given: Sylvanus
-      family: Urban
+    editor: [*Sylvanus_Urban]
     volume: 101
     publisher: J. B. Nichols and Son
     publisher-place: London
@@ -9674,9 +9673,7 @@ MicatioDigitorumLetter:
     issued:
       month: 1
       year: 1831
-    editor:
-    - given: Sylvanus
-      family: Urban
+    editor: [*Sylvanus_Urban]
     volume: 101
     publisher: J. B. Nichols and Son
     publisher-place: London
@@ -9693,9 +9690,7 @@ GameOfMicatioDigitorum:
     issued:
       month: 12
       year: 1830
-    editor:
-    - given: Sylvanus
-      family: Urban
+    editor: [*Sylvanus_Urban]
     volume: 100
     publisher: J. B. Nichols and Son
     publisher-place: London
@@ -10938,9 +10933,7 @@ ACharacter:
   URL: https://archive.org/details/sim_gentlemans-magazine_1740-03_10_3/page/138
   in:
     title: The Gentleman’s Magazine
-    editor:
-    - given: Sylvanus
-      family: Urban
+    editor: [*Sylvanus_Urban]
     publisher-place: London
     publisher: E. Cave
     volume: 10
@@ -12735,7 +12728,7 @@ Simaloerese:
   URL: https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
   archive-URL: https://web.archive.org/web/20240130222315/https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
   in:
-    title: *Tijd
+    title: *Tijds_Ind_D_L
     volume: 58
     issued: 1919
 PapaliEaMorabaRaba:
@@ -12933,6 +12926,7 @@ SomeNotesMalayCardGames:
     given: R. O.
     family: Winstedt
   URL: https://www.jstor.org/stable/41561623
+  archive-URL: https://archive.org/details/journalofstrait451906roya/page/85
   page: 85-88
   in:
     title: Journal of the Straits Branch of the Royal Asiatic Society
@@ -13004,6 +12998,7 @@ ChaiMuiPickering:
 DaunTiga:
   type: article-journal
   URL: https://archive.org/details/in.ernet.dli.2015.70588/page/n383/mode/2up
+  # another copy: https://archive.org/details/dli.ministry.15754
   title: Daun tiga ’lei
   author:
   - family: Maxwell
@@ -18780,9 +18775,7 @@ ChristmasCustomsInMounmouthshire:
       year: 1842
       month: 1
     volume: 17
-    editor:
-    - given: Sylvanus
-      family: Urban
+    editor: [*Sylvanus_Urban]
     publisher: William Pickering; John Bowyer Nichols and Son
     publisher-place: London
 BattUponBatt:
@@ -20667,8 +20660,8 @@ MatthesOmi:
   page: 525-527
   URL: https://books.google.co.nz/books?id=0pJUAAAAcAAJ&pg=PA525
   author: [*Matthes]
-  in:
-    title: *Tijd
+  in: &Tijds_Ind_T_L_11
+    title: *Tijds_Ind_T_L
     volume: 11
     issued: 1862
 WilsenOmi:
@@ -20683,6 +20676,101 @@ WilsenOmi:
     family: Wilsen
   page: 192
   in:
-    title: *Tijd
+    title: *Tijds_Ind_T_L
     volume: 13
     issued: 1864
+TylorGeographical:
+  type: article-journal
+  title: Remarks on the Geographical Distribution of Games
+  author: [*EB_Tylor]
+  URL: https://www.jstor.org/stable/2841865
+  page: 23–30
+  in:
+    title: The Journal of the Anthropological Institute of Great Britain and Ireland
+    volume: 9
+    issued: 1880
+TylorPatolli:
+  type: article-journal
+  URL: https://www.jstor.org/stable/2841019
+  title: On the Game of Patolli in Ancient Mexico, and its Probably Asiatic Origin
+  author: [*EB_Tylor]
+  page: 116-131
+  in:
+    title: The Journal of the Anthropological Institute of Great Britain and Ireland
+    volume: 8
+    issued: 1879
+ErasmusPatolli:
+  type: article-journal
+  title: Patolli, Pachisi, and the Limitation of Possibilities
+  URL: https://www.jstor.org/stable/3628563
+  author:
+  - given: Charles John
+    family: Erasmus
+  page: 369-387
+  in:
+    title: Southwestern Journal of Anthropology
+    volume: 6
+    issue: 4
+    issued:
+      year: 1950
+      season: Winter
+GamesInCulture:
+  type: article-journal
+  title: Games in Culture
+  author:
+  - given: John M.
+    family: Roberts
+  - given: Malcolm J.
+    family: Arth
+  - given: Robert R.
+    family: Bush
+  page: 597-605
+  URL: https://www.jstor.org/stable/667148
+  in:
+    title: American Anthropologist (New Series)
+    volume: 61
+    issue: 4
+    issued:
+      year: 1959
+      month: 8
+CareyBeadwork:
+  type: article-journal
+  URL: https://www.jstor.org/stable/4422706
+  title: A Beadwork Gaming Board from North-West India
+  page: 59-61
+  author:
+  - given: Margret A.
+    family: Carey
+  in:
+    title: The British Museum Quarterly
+    volume: 24
+    issue: 1 # or 2?
+    issued:
+      year: 1961
+      month: 8
+ChineseLondon:
+  type: article-magazine
+  title: Chinese London and its Opium Dens
+  page: 272-282
+  author:
+  - given: James
+    family: Platt
+  notes: See page 280 for description of cards.
+  URL: https://archive.org/details/gentlemansmagaz220unkngoog/page/272
+  in:
+    title: The Gentleman’s Magazine
+    issued: 1895
+    editor: [*Sylvanus_Urban]
+    publisher-place: London
+    volume: 279
+BakkersBonerate:
+  type: article-journal
+  title:
+    value: De Eilanden Bonerate en Kalao
+    lang: nl
+  author:
+  - given: J. A.
+    family: Bakkers
+  in: *Tijds_Ind_T_L_11
+  URL: https://hdl.handle.net/2027/mdp.39015010962465?urlappend=%3Bseq=229%3Bownerid=13510798886835254-251
+  page: 215-264
