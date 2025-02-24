@@ -1,9 +1,4 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "typescript.enablePromptUseWorkspaceTsdk": true,
-  "files.exclude": {
-    "**/node_modules/": true
-  },
   "[markdown]": {
     "editor.wordWrapColumn": 80,
     "editor.wordWrap": "bounded",
