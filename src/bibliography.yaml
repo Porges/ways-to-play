@@ -663,7 +663,7 @@ PegMeryll:
     - given: R. S.
       family: Baker
   page: 127-134
-  URL: https://babel.hathitrust.org/cgi/pt?id=uc1.b3018386&view=1up&seq=235
+  URL: https://hdl.handle.net/2027/uc1.b3018386?urlappend=%3Bseq=235%3Bownerid=9007199272485441-239
   in:
     title: Associated Architectural Societies’ Reports & Papers
     volume: 11
@@ -12728,7 +12728,7 @@ Simaloerese:
   URL: https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
   archive-URL: https://web.archive.org/web/20240130222315/https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
   in:
-    title: *Tijds_Ind_D_L
+    title: *Tijds_Ind_T_L
     volume: 58
     issued: 1919
 PapaliEaMorabaRaba:
@@ -20774,3 +20774,4 @@ BakkersBonerate:
   in: *Tijds_Ind_T_L_11
   URL: https://hdl.handle.net/2027/mdp.39015010962465?urlappend=%3Bseq=229%3Bownerid=13510798886835254-251
   page: 215-264
+  notes: See page 234 about Ombre.

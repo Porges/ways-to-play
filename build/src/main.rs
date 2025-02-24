@@ -426,6 +426,13 @@ impl Builder {
             .output()
             .context("Running `yq` to convert bibliography")?;
 
+        if !converted_bib.status.success() {
+            bail!(
+                "`yq` failed: {}",
+                String::from_utf8_lossy(&converted_bib.stderr)
+            );
+        }
+
         let bibliography = serde_json::from_slice(&converted_bib.stdout)?;
         self.rendered_bibliography = bib_render::to_rendered(&bibliography);
 
