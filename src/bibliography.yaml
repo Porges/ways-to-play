@@ -13364,6 +13364,7 @@ OmbreEtLumiere:
   title:
     value: 'Ombre et Lumière: Un Peu de Lumière sur L’hombre (1)'
     lang: fr
+  language: fr
   author:
   - *Thierry_Depaulis
   URL: https://askalexander.org/display/22573/The+Playing+Card/119
@@ -13383,6 +13384,7 @@ OmbreEtLumiere2:
   title:
     value: 'Un Peu de Lumière sur L’hombre (2)'
     lang: fr
+  language: fr
   author:
   - *Thierry_Depaulis
   URL: https://askalexander.org/display/22554/The+Playing-Card+Vol+16/12
@@ -13402,6 +13404,7 @@ OmbreEtLumiere3:
   title:
     value: 'Un Peu de Lumière sur L’hombre (3)'
     lang: fr
+  language: fr
   author:
   - *Thierry_Depaulis
   URL: https://askalexander.org/display/22554/The+Playing-Card+Vol+16/52
@@ -20768,6 +20771,7 @@ BakkersBonerate:
   title:
     value: De Eilanden Bonerate en Kalao
     lang: nl
+  language: nl
   author:
   - given: J. A.
     family: Bakkers
@@ -20775,3 +20779,22 @@ BakkersBonerate:
   URL: https://hdl.handle.net/2027/mdp.39015010962465?urlappend=%3Bseq=229%3Bownerid=13510798886835254-251
   page: 215-264
   notes: See page 234 about Ombre.
+Anecdotes:
+  type: article-magazine
+  title:
+    value: Geschiedkundige Anecdotes Aangaande het Speelen
+    lang: nl
+  language: nl
+  URL: https://resolver.kb.nl/resolve?urn=dpo:7382:mpeg21:0196
+  page: 188-190
+  in:
+    title:
+      value: Vaderlandsche Bibliotheek van Wetenschap, Kunst en Smaak
+      lang: nl
+    issued: 1789
+    volume: 4
+    issue: 2
+    publisher:
+      value: Koninklijke Bibliotheek
+      lang: nl
+    publisher-place: The Hague, The Netherlands

@@ -27,7 +27,7 @@ In France, the @JeuDeLHombre_1674 was published in 1674, and then reprinted in r
 
 [^fn1]: A later edition is available online: @BaptisteTheatrum7 [p. 301].
 
-All of these early sources agree that the game was originally from Spain. However, there are no Spanish rulebooks konwn from this early period aside from one book published in 1669.[@OmbreEtLumiere2 p. 10] This book — entitled <cite lang="es">Leyes, y Constituciones del juego del Hombre, compuestas, y aora nuevamente recopiladas por el Doctor Benedicto Clauco</cite> (<cite>Laws, and Constitutions of the Game of Hombre, composed, and now newly compiled by Doctor Benedicto Clauco</cite>) — appears to interpolate commentary with the contents of an earlier book published in 1631, of which no extant copies are known.[@OmbreEtLumiere2 p. 11] However, it only includes rules only for the four-player version of the game, which de Luca would describe as the ‘primitive’ form in 1671. 
+All of these early sources agree that the game was originally from Spain. However, there are no Spanish rulebooks konwn from this early period aside from one book published in 1669.[@OmbreEtLumiere2 p. 10] This book — entitled <cite lang="es">Leyes, y Constituciones del juego del Hombre, compuestas, y aora nuevamente recopiladas por el Doctor Benedicto Clauco</cite> (<cite>Laws, and Constitutions of the Game of Hombre, composed, and now newly compiled by Doctor Benedicto Clauco</cite>) — appears to interpolate commentary with the contents of an earlier book published in 1631, of which no extant copies are known.[@OmbreEtLumiere2 p. 11] However, it only includes rules only for the four-player version of the game, which de Luca would describe as the ‘primitive’ form in 1671.
 
 Somewhat ironically, Quadrille — a later four-player development of Ombre — would eclipse Ombre, until the arrival of Whist, which took Quadrille’s place.[@ObservationsOnTheAntiquityOfCardPlaying p. 145]
 
@@ -36,7 +36,7 @@ Somewhat ironically, Quadrille — a later four-player development of Ombre�
 **Equipment**: Ombre is played with a 40 card deck, in modern usage the standard international deck containing only <Cards>A234567JQK</Cards> in each suit (lacking <Cards>8</Cards>s, <Cards>9</Cards>s, and <Cards>10</Cards>s).
 
 
-@ObservationsOnTheAntiquityOfCardPlaying 
+@ObservationsOnTheAntiquityOfCardPlaying
 
 Refs: @GameOfOmbre; @PopesGameOfOmbre; @CourtGamester.
 
@@ -69,7 +69,7 @@ sapadila ᨔᨄᨉᨗᨒ - spadille [p. 559]
 tunggeng ᨈᨘᨂᨙ - to go solo [p. 275]
 
 Acehnese: https://archive.org/details/woordenboekdera00unkngoog
-sikalilawa - clubs 
+sikalilawa - clubs
 siruncien - diamonds (Dutch ruiten)
 sikupan - spades (Dutch schoppen)
 siluhok - hearts
@@ -82,7 +82,7 @@ sekopong: spades (Dutch schoppen)
 Makassarese are in: @MakassaarschWoordenboek
 Buginese are in: @BoegineeschWoordenboek:
 
-See: @MatthesOmi
+See: @MatthesOmi, @BakkersBonerate [234].
 
 Omi also called "Cento e uno" in Lombardy & South-Austria? @WilsenOmi
 ## See Also

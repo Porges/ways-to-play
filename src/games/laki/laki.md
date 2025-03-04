@@ -1,11 +1,14 @@
 ---
-title: Laki
+title: '<span class="noun" lang="tpi">Laki</span>'
 titleLang: tpi
 draft: true
 equipment: Card game (standard deck)
 date created: 2025-02-20
-date modified: 2025-02-23
+date modified: 2025-03-04
+aliases: ['<span class="noun" lang="tpi">Laki</span>']
+linter-yaml-title-alias: '<span class="noun" lang="tpi">Laki</span>'
 ---
+# <span class="noun" lang="tpi">Laki</span>
 
 <span class="aka noun" lang="tpi">Laki</span> is a card game that is also known as <span class="aka">Lucky</span>,[@LuckyAdditional] <span class="aka noun" lang="tpi">Tri-Lif</span>,[@LakiCharms p. 30] or <span class="aka noun" lang="tpi">Tri-Lip</span>.[@CardPlayingGende p. 247]
 
@@ -15,7 +18,7 @@ In Malay it can be called <span lang="ms" class="aka">daun tiga (lei)</span> ‘
 
 daun tiga lei: https://archive.org/details/dli.bengal.10689.17757/page/n333/mode/2up?q=%22tiga+lei%22
 
-[^fn0]: @GamblingGamesOfMalaya has <span lang="nan" class="aka">打九</span>.
+[^fn0]: @GamblingGamesOfMalaya has <span lang="nan" class="aka">打九</span>, which has the same meaning. <span lang="zh">打牌</span> can generally mean to play cards.
 
 phah káu pâi video! https://www.youtube.com/watch?v=nnL8oMR3Z3c
 pakau = phah káu: https://archive.org/details/mobot31753002412044/page/n169/mode/2up?q=%22pakau%22
