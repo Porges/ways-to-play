@@ -1,5 +1,8 @@
 {
   "enabledCssSnippets": [
     "custom"
-  ]
+  ],
+  "cssTheme": "AnuPpuccin",
+  "monospaceFontFamily": "Source Code Pro",
+  "theme": "system"
 }
