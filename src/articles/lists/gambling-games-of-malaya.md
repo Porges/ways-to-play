@@ -2,7 +2,7 @@
 title: <cite>Gambling Games of Malaya</cite> (1955)
 order: 1955
 date created: 2024-12-18
-date modified: 2025-02-08
+date modified: 2025-03-10
 aliases: [<cite>Gambling Games of Malaya</cite> (1955)]
 linter-yaml-title-alias: <cite>Gambling Games of Malaya</cite> (1955)
 ---
@@ -38,7 +38,7 @@ The games listed in the book are as follows.
     - Oh Peh Pai
 - Pair
 - Sam Sam Cheong or Lushun Poker
-- Three Cards, Sam Cheon, Pa Kau, or Daun Tiga
+- Three Cards, Sam Cheon, Pa Kau, or Daun Tiga (see [the Three-Card Game](games/three-card-game/three-card-game.md))
 - Koo Kiew, Ten Kiew, or Soo Kiew
 - Tau Ngau
 - Twenty One

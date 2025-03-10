@@ -4,7 +4,7 @@ titleLang: tpi
 draft: true
 equipment: Card game (standard deck)
 date created: 2025-02-20
-date modified: 2025-03-04
+date modified: 2025-03-10
 aliases: ['<span class="noun" lang="tpi">Laki</span>']
 linter-yaml-title-alias: '<span class="noun" lang="tpi">Laki</span>'
 ---
@@ -15,8 +15,6 @@ linter-yaml-title-alias: '<span class="noun" lang="tpi">Laki</span>'
 See: @ThreeMoreNewGuineanCardGames
 
 In Malay it can be called <span lang="ms" class="aka">daun tiga (lei)</span> ‘three leaves’,[@MalayMagic p. 492] or <span lang="ms" class="aka">pakau</span>[@MalayMagic p. 492] — probably from Hokkien <span lang="nan" class="aka">拍九</span>[^fn0] <span lang="nan-Latn" class="aka">phah káu</span> ‘hit nine’.[@ChineseLoanWordsMalay p. 52] See also @SomeNotesMalayCardGames [138], @IetsOver [p. 388] (pakau, djaé tiga). Pakau is also used in the Dusun language.[@VocabularyDusun p. 22] See @DaunTiga, @DaunTiga_2, @GamblingGamesOfMalaya [p. 70].
-
-
 
 daun tiga lei: https://archive.org/details/dli.bengal.10689.17757/page/n333/mode/2up?q=%22tiga+lei%22
 

@@ -11,8 +11,11 @@ subgames:
   titleLang: en
   countries: US
 date created: 2024-12-18
-date modified: 2025-01-23
+date modified: 2025-03-10
+aliases: [The Three-Card Game]
+linter-yaml-title-alias: The Three-Card Game
 ---
+# The Three-Card Game
 
 This page discusses variants of what — for lack of a better term — I call the ‘three-card game’. The game is played with a deck of cards and the goal is to achieve a score as close to 9 as possible. It dates from at least the late [Ming dynasty](https://en.wikipedia.org/wiki/Ming_dynasty) (<abbr>c.</abbr> 1580–1600), but has spread to many countries, with one route in particular originating in Japan, passing down through the Malay Archipelago, and arriving in Aboriginal communities in the Northern Territory of Australia. The most widespread version of the game today is the casino game which evolved in Europe and is known as Baccarat.
 
@@ -38,6 +41,7 @@ I don’t yet know of any other Chinese references to the game, so the game may 
 
 The facts of the Chinese game at this point were: it was played with a money-suited deck of thirty cards ranking 1–9 in 3 suits (coins, strings, and myriads), and the goal was to get a total as close to 9 as possible. The 3 honour or ‘flower’ (<span lang="zh">花</span>) cards were also used and could count as one or zero.
 
+See @XuYeziPu
 (https://iiif.lib.harvard.edu/manifests/view/drs:428497656$67i)
 
 Within the next hundred years, Portuguese sailors had taken the game to Japan (possibly picking it up from the Portuguese port at Macau, from which one of the earliest European games also takes its name).[^fn2] It is unclear whether or not the game was played in Europe at this time, but the lack of other references to it makes it seem unlikely.

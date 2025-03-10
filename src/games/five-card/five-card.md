@@ -26,7 +26,7 @@ Strong linguistic evidence for the Japanese origin of the Aboriginal game is the
 
 [^fn2]: Kunwinjku numbers are easily identifiable and work on a base-5 system; the word for five is <span lang="gup">kunbidkudji</span>.
 
-In Japan it now known as <span lang="ja" class="aka">五枚株</span> (<span lang="ja-Latn" class="aka">gomai kabu</span>, ‘five card <span lang="ja-Latn">kabu</span>’).
+In Japan it is now known as <span lang="ja" class="aka">五枚株</span> (<span lang="ja-Latn" class="aka">gomai kabu</span>, ‘five card <span lang="ja-Latn">kabu</span>’).
 
 See: @EthnographicPsychology
 
@@ -46,6 +46,8 @@ See: @EthnographicPsychology
 The equivalent game played with Chinese dominoes is known as Bullfighting (<span lang="yue" class="aka">鬥牛</span>, Cantonese: <span lang="yue-Latn-jyutping" class="aka">dau³ ngau⁴</span>).[^fn4] It can also be played with domino cards or mahjong tiles, and has been played throughout Malaysia.[@GamblingGamesOfMalaya p. 88] It remains illegal in Singapore except as part of social gambling.[@SingaporeGamesOfChanceAndSkill]
 
 [^fn4]: This is often transliterated <span lang="yue-Latn-jyutping" class="aka">Tau Ngau</span>. I think also that perhaps <span lang="yue-Latn-jyutping">ngau⁴</span> (<span lang="yue">牛</span>) ‘bull’ is a pun on <span lang="yue-Latn-jyutping">ngau⁵</span> (<span lang="yue">偶</span>) ‘pair’, so that the original name of the game is really ‘comparing pairs’. The book @ThingsChinese [p. 584] mentions the domino card game <span lang="yue-Latn">ngaú-p‘áí</span>, presumably <span lang="zh">牛牌</span> “bull cards”, but with no further information. It is possible this is the same game.
+
+Compare also: https://anthonylesq.blogspot.com/2017/01/koo-kiew-che-jiu-chinese-gambling-game.html
 
 It is possible that the Chinese game is the original source of the Japanese one, but it is not clear to me at this point due to differences in the the way that they are played.
 
