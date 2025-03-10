@@ -16,7 +16,13 @@ See: @ThreeMoreNewGuineanCardGames
 
 In Malay it can be called <span lang="ms" class="aka">daun tiga (lei)</span> ‘three leaves’,[@MalayMagic p. 492] or <span lang="ms" class="aka">pakau</span>[@MalayMagic p. 492] — probably from Hokkien <span lang="nan" class="aka">拍九</span>[^fn0] <span lang="nan-Latn" class="aka">phah káu</span> ‘hit nine’.[@ChineseLoanWordsMalay p. 52] See also @SomeNotesMalayCardGames [138], @IetsOver [p. 388] (pakau, djaé tiga). Pakau is also used in the Dusun language.[@VocabularyDusun p. 22] See @DaunTiga, @DaunTiga_2, @GamblingGamesOfMalaya [p. 70].
 
+
+
 daun tiga lei: https://archive.org/details/dli.bengal.10689.17757/page/n333/mode/2up?q=%22tiga+lei%22
+
+this is (in modern Malay/Indonesian) "tiga helai" - see https://archive.org/details/bub_gb_GlvjfbswQy4C/page/536/mode/2up?q=%22tiga+elai%22, https://babel.hathitrust.org/cgi/pt?id=hvd.32044086552031&seq=108&q1=%22daun+tiga%22
+"lei" is the Baba Malay pronunciation: https://www.jstor.org/stable/41493568?read-now=1&seq=12#page_scan_tab_contents
+on this page "pakau" is equated with "permainan tiga helai" https://id.wiktionary.org/wiki/pakau
 
 [^fn0]: @GamblingGamesOfMalaya has <span lang="nan" class="aka">打九</span>, which has the same meaning. <span lang="zh">打牌</span> can generally mean to play cards.
 

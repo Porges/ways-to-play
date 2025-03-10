@@ -3,6 +3,6 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "players": "number"
+    "players": "text"
   }
 }
