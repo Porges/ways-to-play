@@ -551,7 +551,12 @@ impl Templater {
             }
             ul.columnar #games-list {
                 @for game in games_all {
-                    li data-name=(game.title_string()) data-countries=(game.countries().iter().map(|c| c.alpha2).join(",")) data-players=[game.players()] data-equipment=[game.equipment()] {
+                    li
+                        data-name=(game.title_string())
+                        data-countries=(game.countries().iter().map(|c| c.alpha2).join(","))
+                        data-players=[game.players()]
+                        data-equipment=[game.equipment()]
+                    {
                         a href=(game.url_path()) {
                             @if game.is_draft() {
                                 "🚧"
@@ -563,6 +568,23 @@ impl Templater {
 
                             @if let Some(original_title) = game.original_title() {
                                 " · " (original_title)
+                            }
+                        }
+
+                        @if let Some(e) = game.equipment() {
+                            " "
+                            @if e.contains("Hanafuda") {
+                                span title="Hanafuda game" { "🎴" }
+                            } @else if e.starts_with("Card") {
+                                span title="Card game" { "🃏" }
+                            } @else if e.starts_with("Dice") {
+                                span title="Dice game" { "🎲" }
+                            } @else if e.starts_with("Board") {
+                                span title="Board game" { "♟️" }
+                            } @else if e.starts_with("Hand") {
+                                span title="Hand game" { "🖐️" }
+                            } @else if e.starts_with("Pen") {
+                                span title="Pen & paper game" { "✏️" }
                             }
                         }
                     }
