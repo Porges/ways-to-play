@@ -366,8 +366,15 @@ fn render_title(r: &Reference) -> Markup {
                 subtitle: Some(subtitle),
                 ..
             }) => {
+                let prefixed: Cow<'_, str> =
+                    if subtitle.starts_with(|x: char| x.is_ascii_punctuation()) {
+                        subtitle.into()
+                    } else {
+                        format!(": {}", subtitle).into()
+                    };
+
                 title_lstr = Cow::Owned(LString {
-                    value: format!("{}: {}", title_lstr.value, subtitle),
+                    value: format!("{}{}", title_lstr.value, prefixed),
                     lang: title_lstr.lang.clone(),
                     alt: title_lstr.alt.clone(),
                 });
