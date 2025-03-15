@@ -12,7 +12,7 @@ linter-yaml-title-alias: Whehee
 ---
 # Whehee
 
-Whehee is a 17th-century English children’s card game described in Francis Willughby’s (1635–1672) “Book of Games”, where it was entered by an unidentified young person.[@FrancisWillughby p. 160]
+Whehee is a 17th-century English children’s card game described in Francis Willughby’s (1635–1672) “Book of Games”, where it was entered by an unidentified young person.[@FrancisWillughby 160]
 
 ## Rules
 

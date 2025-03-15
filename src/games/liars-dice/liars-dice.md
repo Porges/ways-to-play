@@ -4,9 +4,18 @@ draft: true
 equipment: Dice game
 players:
     min: 2
+aliases: [Liar’s Dice]
+linter-yaml-title-alias: Liar’s Dice
+date created: 2025-02-20
+date modified: 2025-03-16
 ---
+# Liar’s Dice
 
-<span class="aka">Liar’s Dice</span> (originally <span class="aka">Liar Dice</span>, rarely <span class="aka">Lying Dice</span> or <span class="aka">Lie Dice</span>) is a game that has been played for many years and in many variations. At the end of the 20th century it spawned a number of commercial variations. The original game is usually described as a two-player game, but can be extended to any number of players, although with too many it loses appeal.
+<span class="aka">Liar’s Dice</span>  is a game that has been played for many years and in many variations, including several commercial variants in the end of the 20th century, the most famous probably being “Perudo”.
+
+The name of the game was originally <span class="aka">Liar Dice</span>, and is rarely reported as <span class="aka">Lying Dice</span> or <span class="aka">Lie Dice</span>.
+
+The original game is in fact usually described as a two-player game, but can be extended to any number of players, although with too many it loses appeal.
 
 ## History
 
@@ -18,7 +27,7 @@ players:
 >
 > 1916?: https://archive.org/details/in.ernet.dli.2015.150016/page/n159/mode/2up?q=%22liar+dice%22 No! This is 1961, and the book is incorrectly printed!
 
-The earliest reference to the game I have found is from 1934, when the game appeared in the famous American [Harry’s New York Bar](https://en.wikipedia.org/wiki/Harry%27s_New_York_Bar) in Paris. At this time it was already described as a game that had “long […] been popular in the Far East”.[@AmericanBarsInParis] In this version it is described as a game for two players, played with poker dice.
+The earliest reference to the game I have found is from 1934, when the game was being played in the famous American [Harry’s New York Bar](https://en.wikipedia.org/wiki/Harry%27s_New_York_Bar) in Paris. At this time it was already described as a game that had “long […] been popular in the Far East”.[@AmericanBarsInParis] In this version it is described as a game for two players, played with poker dice.
 
 > [!todo]
 >
@@ -27,39 +36,53 @@ The earliest reference to the game I have found is from 1934, when the game appe
 >
 > 1934: https://www.newspapers.com/article/santa-cruz-sentinel-american-bars-in-par/130149404/
 
-In 1936, it is mentioned in the Philippines,[@SportsInTheOrient] and by 1939 reported in Des Moines, Iowa.[@GeorgeSherriff] In that year a novel titled <cite>Liar Dice</cite> was published. This was a detective story set in [Tianjin](https://en.wikipedia.org/wiki/Tianjin), written by a man who had previously worked in the city.[@LiarDiceMoser]
+In 1936, it is mentioned in the Philippines,[@SportsInTheOrient] and by 1939 reported in Des Moines, Iowa.[@GeorgeSherriff] In that year a novel titled <cite>Liar Dice</cite> was published by one John Moser. This was a detective story set in [Tianjin](https://en.wikipedia.org/wiki/Tianjin); Moser had previously worked in the city.[@LiarDiceMoser]
 
-Mentions of the game begin to pick up after this: in 1940 the British golf team played it with the Japanese team in Shanghai,[@JapanBeatsBritanAtGolf] while British tobacconist [Richard Dobson](https://en.wikipedia.org/wiki/Richard_Dobson_(businessman)) also reported it at the Shanghai Country Club.[@ChinaCycle p. 176] In the same year it is mentioned as being played by locals at Cebu in the Philippines.[@CrossWindsOfEmpire p. 176] In 1941 it is reported at US Air Force bases on Midway and Wake Islands,[@TheBreretonDiaries p. 14, 16] and it seems to have become particularly associated with air force members on both sides of the Atlantic: a 1942 biography of Air Marshal [Arthur Harris](https://en.wikipedia.org/wiki/Arthur_Harris) even claims that he invented the game.[@CurrentBiography1942 p. 334] It was also popular in the army — in 1946 Harris’ counterpart[^fn0] Field Marshal [Viscount Montgomery](https://en.wikipedia.org/wiki/Bernard_Montgomery) is described as teaching the “British game” to Americans.[@MontyRollsBones] In 1951, at the same time that Montgomery was Deputy to the Supreme Allied Commander Europe,[^fn1] the Air Deputy was Air Marshal [Hugh Saunders](https://en.wikipedia.org/wiki/Hugh_Saunders_(RAF_officer)), who was also said to have “phenomenal luck” at Liar’s Dice.[@PhenomenalLuck]
+References to the game begin to pick up after this: in 1940 the British and Japanese golf teams played it together in Shanghai,[@JapanBeatsBritanAtGolf] while British tobacconist [Richard Dobson](https://en.wikipedia.org/wiki/Richard_Dobson_(businessman)) also reported it at the Shanghai Country Club.[@ChinaCycle 176] In the same year it is mentioned as being played by locals at Cebu in the Philippines.[@CrossWindsOfEmpire 176]
+
+In 1941 it is reported at US Air Force bases on Midway and Wake Islands,[@TheBreretonDiaries 14, 16] and it seems to have become particularly associated with air force members on both sides of the Atlantic: a 1942 biography of Air Marshal [Arthur Harris](https://en.wikipedia.org/wiki/Arthur_Harris) even claims that he invented the game.[@CurrentBiography1942 334] It was also popular in the army — in 1946 Harris’ counterpart[^fn0] Field Marshal [Viscount Montgomery](https://en.wikipedia.org/wiki/Bernard_Montgomery) is described as teaching the “British game” to Americans.[@MontyRollsBones] In 1951, at the same time that Montgomery was Deputy to the Supreme Allied Commander Europe,[^fn1] the Air Deputy was Air Marshal [Hugh Saunders](https://en.wikipedia.org/wiki/Hugh_Saunders_(RAF_officer)), who was also said to have “phenomenal luck” at Liar’s Dice.[@PhenomenalLuck]
 
 [^fn0]: Harris was promoted to Marshal of the Royal Air Force in 1946.
 
 [^fn1]: At that time, [Dwight D. Eisenhower](https://en.wikipedia.org/wiki/Dwight_D._Eisenhower).
 
-It was also popular with journalists, appearing in 1940 across [Kuching](https://en.wikipedia.org/wiki/Kuching),[@ActionInTheEast p. 20] Singapore,[@SettingSunOfJapan p. 209] and in 1942 in a fictional Tokyo.[@YearOfWrath p. 52] 
+It was also popular with journalists, appearing in 1940 across [Kuching](https://en.wikipedia.org/wiki/Kuching),[@ActionInTheEast 20] Singapore,[@SettingSunOfJapan 209] and in 1942 in a fictional Tokyo.[@YearOfWrath 52] 
 
 In 1942, one writer stated that “anyone who has spent some time in China or the Philippines” would know of the game, while their correspondent described some restrictions on the game: that only one number of dice could be altered, and that following players must use the same number of throws.[@GallopingIvories]
 
-At the end of the Second World War the game began to appear in reference works for the first time, at first in the 1944 @ModernHoyle1944 [p. 235], where it was described as “very popular in the United States Army”. The instructions described the two-player game with a screen, as in the earliest 1934 reference.
+At the end of the Second World War the game began to appear in reference works for the first time, at first in the 1944 @ModernHoyle1944 [235], where it was described as “very popular in the United States Army”. The instructions described the two-player game with a screen, as in the earliest 1934 reference.
 
 1976: @ComeUp [p. 17–26], and its later expansion @WorldsBestDiceGames1981 [p. 25–50]
 
----
 
-@RulesForLiarsDice
+## Commercialization
 
-@MBLiarsDice
+In 1974 the game was published by the E. S. Lowe company (purchased by Milton Bradley in 1973),[@RulesForLiarsDice] and Milton Bradley would continue to publish the game throughout the ’80s.[@MBLiarsDice]
 
-@LiarsDice2002
+Other publishers include Endless Games (2002).[@LiarsDice2002]
 
-history: https://opinionatedgamers.com/2015/07/13/sdj-re-reviews-15-bluff-a-k-a-liars-dice-or-call-my-bluff/
+Some more history: @LiarsDiceReview
 
----
+## Versions of the Game
 
-1939, John Moser book, https://archive.org/details/millards-1939.09.30/page/184/mode/2up?q=%22liar+dice%22
+No matter what, all games are played with five dice (poker or standard).
+### The 2-player game
 
-1939: https://archive.org/details/sim_saturday-review_1939-09-16_20_21/page/n17/mode/2up?q=%22liar+dice%22
+Played by two people with a screen and poker dice.[@AmericanBarsInParis] Each player rolls the dice then claims what they have. "3 shakes to a leg" – do they roll multiple times before announcing or do they have to announce after each, and play alternates with each claiming a higher result? Best of three legs wins.
+
+The 1947 Hoyle description seems to follow this
+### The 1942 game
+
+Played with poker dice by any number.
 
 1942, different version in that you cannot lie about your whole hand: https://archive.org/details/adventure-v-107-n-02-1942-06/page/122/mode/2up?q=%22liar+dice%22
+
+Each player gets three rolls. However, once someone has stood on a result, the remaining players must achieve a better result in equal or fewer rolls... and if someone stands on a higher result then the rest of the players have to beat theirs in equal or fewer. (e.g. starting player gets 2 Aces in 2 rolls and next player gets 3 Aces in 1 roll, the rest of the players have only one roll each).
+
+In addition you can only change _one_ number into another. e.g. all Aces to 2s.
+
+---
+
 
 1942: https://archive.org/details/sim_saturday-evening-post_1942-09-12_215_11/page/120/mode/2up?q=%22liar+dice%22&view=theater
 
@@ -270,7 +293,7 @@ https://www.sfgate.com/local-donotuse/article/San-Francisco-underground-dice-sce
 
 ## Dudo
 
-Earliest reference I can find are from the late 1950s: [@BufferDinnerDudo] & [@IncasAndOtherMen p. 47] (c. 1956).
+Earliest reference I can find are from the late 1950s: [@BuffetDinnerDudo] & [@IncasAndOtherMen p. 47] (c. 1956).
 
 @RulesForLiarsDice [p. 2] describes an early version of the game.
 

@@ -1,10 +1,14 @@
 ---
-title: Lián Pó
-titleLang: nan-Latn
-originalTitle: <span lang="nan">輦寶</span>
-
+title: '<span lang="nan">輦寶</span> · <span lang="nan-Latn" class="noun">Lián Pó</span>'
 draft: true
+aliases:
+  - '<span lang="nan">輦寶</span> · <span lang="nan-Latn" class="noun">Lián Pó</span>'
+  - <span lang="nan-Latn" class="noun">Lián Pó</span>
+linter-yaml-title-alias: '<span lang="nan">輦寶</span> · <span lang="nan-Latn" class="noun">Lián Pó</span>'
+date created: 2025-02-20
+date modified: 2025-03-16
 ---
+# <span lang="nan">輦寶</span> · <span lang="nan-Latn" class="noun">Lián Pó</span>
 
 <span lang="nan-Latn" class="noun aka">Lián Pó</span> <span lang="nan" class="aka">輦寶</span>[^fn0] is a gambling game played with a distinctive spinner.
 

@@ -1,5 +1,5 @@
 ---
-title: Fan-Tan
+title: '<span lang="yue">番攤</span> · <span class="aka">Fan-Tan</span>'
 originalTitle: <span lang="yue">番攤</span>
 draft: true
 countries: US,GB,NZ,AU,HK,CN,TH,MY,SG,PH,MO,KH,LA
@@ -8,11 +8,16 @@ subgames:
   titleLang: ban-Latn
   originalTitle: <span lang="ban" class="aka">ᬘᬼᬩᭀᬦ᭄ᬢᬂ</span>
   countries: ID
+date created: 2025-02-20
+date modified: 2025-03-16
+aliases: ['<span lang="yue">番攤</span> · <span class="aka">Fan-Tan</span>']
+linter-yaml-title-alias: '<span lang="yue">番攤</span> · <span class="aka">Fan-Tan</span>'
 ---
+# <span lang="yue">番攤</span> · <span class="aka">Fan-Tan</span>
 
 <span class="aka">Fan-Tan</span> is a Cantonese gambling game that became very popular amongst the Chinese diaspora in the 19th century. It is now rare, but was once played in many countries in Southeast Asia and the Pacific.
 
-The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> <Pronounce lang="yue-Latn" class="aka"  pronouncer="potatokash" file="pronunciation_yue_番攤.mp3">faan¹ taan¹</Pronounce> (‘repeatedly dividing’); in Hokkien it is known as simply <span lang="nan" class="aka">攤</span> <Pronounce lang="nan-Latn"  class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207">thoaⁿ</Pronounce>,[@GamblingGamesOfMalaya 118] to divide into equal parts.[@Douglas1899 p. 563b]
+The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> <Pronounce lang="yue-Latn" class="aka"  pronouncer="potatokash" file="pronunciation_yue_番攤.mp3">faan¹ taan¹</Pronounce> (‘repeatedly dividing’). In Hokkien it is called simply  <span lang="nan" class="aka">攤</span> <Pronounce lang="nan-Latn"  class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207">thoaⁿ</Pronounce>,[@GamblingGamesOfMalaya 118] ‘to divide into equal parts’.[@Douglas1899 p. 563b]
 
 
 In the Philippines, it has been known as <span lang="fil" class="aka">capona</span>.[@CulinPhilippine p. 650]
@@ -21,7 +26,7 @@ In the Philippines, it has been known as <span lang="fil" class="aka">capona</sp
 >
 > ![](../../maps/Fantan.svg)
 >
-> Countries where Fan-Tan has been played, after @ParadoxicalSoftPower [p. 195], but extended with additional countries located by the author.
+> Countries where Fan-Tan has been played, after @ParadoxicalSoftPower [195], but extended with additional countries located by the author.
 
 ## The Game
 
@@ -174,7 +179,7 @@ The version played with a top was known in Bali as <span lang="ban" class="aka">
 
 ---
 
-Fan-tan was viewed as a fairer and safer game than mahjong or the [Pigeon Lottery](games/pigeon-lottery/pigeon-lottery.md) and [Huahui](games/huahui/huahui.md). A 1910 dragon-boat folk song gives the advice (as quoted in[@UnderstandingCanton p. 216]):
+Fan-tan was viewed as a fairer and safer game than mahjong or the [Pigeon Lottery](games/pigeon-lottery/pigeon-lottery.md) and [Huahui](games/huahui/huahui.md). A 1910 dragon-boat folk song gives the advice (as quoted in @UnderstandingCanton [216]):
 
 > Only fan tan is played with great fairness. You can bet on the odds [of one to four] as you wish. If you lose, it is entirely up to you to decide if you would like to continue to stake. With only ten per cent of a stake taken away [by the bookmaker] as the charge, a winning bet is paid 90 percent of the total stake money [placed on winning number]. ‘Shop lottery’ and ‘mountain lottery’ [are also fairly played] as there are two hundred characters from which a better can choose at his will, without being misled or cheated. The drawing of the odds is conducted in the open [to ensure no room for swindling]. A lottery winner is by no means unfairly treated for receiving as prize money 80 per cent of the total money staked in a draw. The national treasure, as a result, has become heavily dependent on this source of revenue. The government, in consequence, is doing whatever it can to perpetuate the existence [of these forms of gambling].
 
@@ -222,7 +227,7 @@ In Thai the game has been called <span lang="th" class="aka">เล่นถั�
 
 [^fn1]: Given as <span lang="th-Latn" class="aka">Len Thoa</span> in older works.[@OnSiameseLiterature 383]
 
-Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a children’s game,[^fn2] called in Buginese <span lang="bug" class="aka">(ᨆ)ᨀᨙᨌᨛ</span> <span lang="bug-Latn" class="aka">(ma)kéce</span>[@BoegineeschWoordenboek 24][^fn3], or in Makassarese <span lang="mak">(ᨕ)ᨀᨙᨌᨙ</span> <span lang="mak-Latn" class="aka">(a)kécé</span>.[@MakassaarschWoordenboek 32][^fn4] In this version, the game is for four players only; each player sits on one side, and the remainder of the counting-out determines the winning player.[@GamesAndDances 332–3]
+Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a children’s game,[^fn2] called in Buginese <span lang="bug" class="aka">(ᨆ)ᨀᨙᨌᨛ</span> <span lang="bug-Latn" class="aka">(ma)kéce</span>[@BoegineeschWoordenboek 24],[^fn3] or in Makassarese <span lang="mak">(ᨕ)ᨀᨙᨌᨙ</span> <span lang="mak-Latn" class="aka">(a)kécé</span>.[@MakassaarschWoordenboek 32][^fn4] In this version, the game is for four players only; each player sits on one side, and the remainder of the counting-out determines the winning player.[@GamesAndDances 332–3]
 
 [^fn2]: I would assume that it was also played by adults, but I don’t have any evidence to cite for that.
 
@@ -230,7 +235,7 @@ Amongst the people of Southern Sulawesi, a variation of Fan-Tan was known as a c
 
 [^fn4]: Old: aketje.
 
-, Javanese or Dayak[^fn5] kecek[^fn6].
+, Javanese or Dayak[^fn5] kecek.[^fn6]
 
 [^fn5]: The @DajakschDeutsches [260] says “<span lang="de" class="noun">KETJEK, das Ketjekspiel; s. die Beschreibung desselben unter <i>baketjek</i></span>”, but contains no such entry!
 

@@ -43,6 +43,7 @@ The facts of the Chinese game at this point were: it was played with a money-sui
 
 See @XuYeziPu
 (https://iiif.lib.harvard.edu/manifests/view/drs:428497656$67i)
+Transcription of this here: https://zhuanlan.zhihu.com/p/615943490
 
 Within the next hundred years, Portuguese sailors had taken the game to Japan (possibly picking it up from the Portuguese port at Macau, from which one of the earliest European games also takes its name).[^fn2] It is unclear whether or not the game was played in Europe at this time, but the lack of other references to it makes it seem unlikely.
 

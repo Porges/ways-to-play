@@ -1,32 +1,34 @@
 ---
-title: ""
-titleLang: it
+title: '<span lang="it" class="noun">Morra</span>'
 players: 2
 draft: true
 countries: IT,FR,DE
 hero:
-    image: morra.jpg
-    license: cc0
-    author: Bartolomeo Pinelli
+  image: morra.jpg
+  license: cc0
+  author: Bartolomeo Pinelli
 equipment: Hand game
 subgames:
-- title: Caai¹ Mui⁴⁻²
-  slug: caai1-mui42
-  titleLang: yue-Latn-jyutping
-  countries: CN,HK
-  originalTitle: 猜枚
+  - title: Caai¹ Mui⁴⁻²
+    slug: caai1-mui42
+    titleLang: yue-Latn-jyutping
+    countries: CN,HK
+    originalTitle: 猜枚
 date created: 2024-12-18
-date modified: 2025-02-22
+date modified: 2025-03-16
+aliases:
+  - '<span lang="it" class="noun">Morra</span>'
+linter-yaml-title-alias: '<span lang="it" class="noun">Morra</span>'
 ---
+# <span lang="it" class="noun">Morra</span>
 
-This is a finger-guessing game which English is usually known by its Italian name of “<span class="aka" lang="it">morra</span>”.[@MacedonianFolklore p. 297] However, it has been around for a long time and very similar games are played in many countries throughout the world; in Latin it was known as <span lang="la" class="aka">micatio</span>[@StudyOfGames p.  65] or <span lang="la" class="aka">micare digitis</span>.[@IlGiuocoDellaMorra]
+This is a finger-guessing game which English is usually known by its Italian name of “<span class="aka" lang="it">morra</span>”.[@MacedonianFolklore 297] However, it has been around for a long time and very similar games are played in many countries throughout the world; in Latin it was known as <span lang="la" class="aka">micatio</span>[@StudyOfGames 65] or <span lang="la" class="aka">micare digitis</span>.[@IlGiuocoDellaMorra]
 
-In Ancient Greek it was called ‘finger crossing’ (<span lang="grc" class="aka">ἡ ἐπάλλαξις τῶν δακτύλων</span> <span lang="grc-Latn" class="aka">hē epállaxis tôn daktúlōn</span>, or <span lang="grc" class="aka">δακτύλων ἐπάλλαξις</span> <span lang="grc-Latn" class="aka">daktúlōn epállaxis</span>).[@AtlasClassicalAntiquities p. 151] In this time it was usually played with a rod or wand, which was held with the left hand. In modern Greek it is called <span lang="el" class="aka">μόρρα</span>, after the Italian name.
+In Ancient Greek it was called ‘finger crossing’ (<span lang="grc" class="aka">ἡ ἐπάλλαξις τῶν δακτύλων</span> <span lang="grc-Latn" class="aka">hē epállaxis tôn daktúlōn</span>, or <span lang="grc" class="aka">δακτύλων ἐπάλλαξις</span> <span lang="grc-Latn" class="aka">daktúlōn epállaxis</span>).[@AtlasClassicalAntiquities 151] In this time it was usually played with a rod or wand, which was held with the left hand. In modern Greek it is called <span lang="el" class="aka">μόρρα</span>, after the Italian name.
 
-In French it is called <span lang="fr" class="aka">mourre</span>. In German it was once called <span lang="de" class="aka">Munke</span>,[@IuKiaoLi p. 285] although it is now known as <span lang="de" class="aka">Mora</span> or <span lang="de" class="aka">Morra</span> after the Italian.
+In French it is called <span lang="fr" class="aka">mourre</span>. In German it was once called <span lang="de" class="aka">Munke</span>,[@IuKiaoLi 285] although it is also now known as <span lang="de" class="aka">Mora</span> or <span lang="de" class="aka">Morra</span> after the Italian.
 
-In Italy to play the game was <span lang="it">givocare alla mora</span>
-In Lombardy it was called <span lang="lmo" class="aka">buttàre al tocco</span>.[@GameOfMicatioDigitorum p. 509]
+In Italy to play the game was <span lang="it">givocare alla mora</span>; in Lombardy it was called <span lang="lmo" class="aka">buttàre al tocco</span>.[@GameOfMicatioDigitorum p. 509]
 
 ## Play
 
