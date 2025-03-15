@@ -73,6 +73,8 @@ span[lang]:not(.noun):is(
   /*  Latin */
   [lang|=lg],
   /*  Luganda */
+  [lang|=lmo],
+  /*  Lombard */
   [lang|=loz],
   /*  Lozi */
   [lang|=lun],
