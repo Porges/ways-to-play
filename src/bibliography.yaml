@@ -9093,7 +9093,8 @@ GamesOfTheOrient:
   publisher-place: Rutland, Vermont & Tokyo, Japan
 UnderstandingCanton:
   type: book
-  title: "Understanding Canton: Rethinking Popular Culture in the Republican Period"
+  title: Understanding Canton
+  subtitle: Rethinking Popular Culture in the Republican Period
   author:
     - given: Virgil K. Y.
       family: Ho
@@ -11101,9 +11102,9 @@ NZMathsPig:
   title: Greedy Pig
   publisher: Ministry of Education
   publisher-place: New Zealand
-BufferDinnerDudo:
+BuffetDinnerDudo:
   type: article-newspaper
-  title: Buffer Dinner Is Given as Farewell Party
+  title: Buffet Dinner Is Given as Farewell Party
   page: 13
   URL: https://www.newspapers.com/article/casper-star-tribune-buffet-dinner-is-giv/130149603/
   in:
@@ -11200,7 +11201,7 @@ SportsInTheOrient:
       year: 1936
 GeorgeSherriff:
   type: article-newspaper
-  title: Thru the Shops wtih Sue
+  title: Thru the Shops with Sue
   author:
   - given: ‘Sue’
   URL: https://www.newspapers.com/article/the-des-moines-register-george-sherriff/130149427/
@@ -20798,3 +20799,16 @@ Anecdotes:
       value: Koninklijke Bibliotheek
       lang: nl
     publisher-place: The Hague, The Netherlands
+LiarsDiceReview:
+  type: webpage
+  title: 'SdJ Re-Reviews #15: Bluff (a.k.a. Liar’s Dice or Call My Bluff)'
+  URL: https://opinionatedgamers.com/2015/07/13/sdj-re-reviews-15-bluff-a-k-a-liars-dice-or-call-my-bluff/
+  archive-URL: https://web.archive.org/web/20231201223148/https://opinionatedgamers.com/2015/07/13/sdj-re-reviews-15-bluff-a-k-a-liars-dice-or-call-my-bluff/
+  author:
+  - given: Chris
+    family: Way
+  container-title: The Opinionated Gamers
+  issued:
+    year: 2015
+    month: 7
+    day: 13
