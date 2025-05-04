@@ -5,13 +5,19 @@ use std::{
 };
 
 use eyre::Result;
-use fixed_decimal::FixedDecimal;
+use fixed_decimal::Decimal;
 use icu::{
-    casemap::{CaseMapper, TitlecaseMapper},
-    collator::{Collator, CollatorOptions, Numeric, Strength},
-    decimal::FixedDecimalFormatter,
-    experimental::displaynames::{LanguageDisplayNames, RegionDisplayNames},
-    locid::{
+    casemap::{TitlecaseMapper, TitlecaseMapperBorrowed},
+    collator::{
+        options::{CollatorOptions, Strength},
+        preferences::CollationNumericOrdering,
+        Collator, CollatorBorrowed, CollatorPreferences,
+    },
+    decimal::{DecimalFormatter, DecimalFormatterPreferences},
+    experimental::displaynames::{
+        DisplayNamesPreferences, LanguageDisplayNames, RegionDisplayNames,
+    },
+    locale::{
         langid, locale,
         subtags::{variant, Language, Region, Variants},
         LanguageIdentifier, Locale,
@@ -20,19 +26,23 @@ use icu::{
 
 pub struct Intl {
     english_region_names: RegionDisplayNames,
-    english_collator: Collator,
-    titlecase_mapper: TitlecaseMapper<CaseMapper>,
+    english_collator: CollatorBorrowed<'static>,
+    titlecase_mapper: TitlecaseMapperBorrowed<'static>,
     english_display_names: LanguageDisplayNames,
     english_specific_names: HashMap<LanguageIdentifier, &'static str>,
     autonym_display_names: Mutex<HashMap<LanguageIdentifier, Option<String>>>,
-    number_formatter: FixedDecimalFormatter,
+    number_formatter: DecimalFormatter,
 }
 
 impl Intl {
     pub fn new() -> Self {
-        let locale = locale!("en-GB").into();
+        let locale: Locale = locale!("en-GB").into();
         let options = Default::default();
-        let english_display_names = LanguageDisplayNames::try_new(&locale, options).unwrap();
+
+        let display_names_prefs = DisplayNamesPreferences::from(&locale);
+
+        let english_display_names =
+            LanguageDisplayNames::try_new(display_names_prefs, options).unwrap();
 
         let mut english_specific_names = HashMap::new();
         // add some missing values as well as extensions/overrides
@@ -73,16 +83,21 @@ impl Intl {
         autonym_display_names.insert(langid!("st"), Some("Sesotho".into()));
         autonym_display_names.insert(langid!("wuu"), Some("吳語".into()));
 
-        let mut collator_options = CollatorOptions::new();
+        let mut collator_options = CollatorOptions::default();
         collator_options.strength = Some(Strength::Primary);
-        collator_options.numeric = Some(Numeric::On);
-        let english_collator = Collator::try_new(&locale, collator_options).unwrap();
+        let mut collator_prefs = CollatorPreferences::from(&locale);
+        collator_prefs.numeric_ordering = Some(CollationNumericOrdering::True);
+        let english_collator = Collator::try_new(collator_prefs, collator_options).unwrap();
 
         let region_options = Default::default();
-        let english_region_names = RegionDisplayNames::try_new(&locale, region_options).unwrap();
+        let english_region_names =
+            RegionDisplayNames::try_new(display_names_prefs, region_options).unwrap();
 
         let number_options = Default::default();
-        let number_formatter = FixedDecimalFormatter::try_new(&locale, number_options).unwrap();
+        let dec_formatter_prefs = DecimalFormatterPreferences::from(&locale);
+        let number_formatter =
+            DecimalFormatter::try_new(dec_formatter_prefs, number_options).unwrap();
+
         Self {
             english_collator,
             english_display_names,
@@ -143,25 +158,27 @@ impl Intl {
             .or_insert_with_key(|key| {
                 let locale = Locale::from(key.language).into();
                 let options = Default::default();
-                LanguageDisplayNames::try_new(&locale, options)
+                LanguageDisplayNames::try_new(locale, options)
                     .ok()
                     .and_then(|display_names| display_names.of(key.language).map(str::to_string))
             })
             .clone()
     }
 
-    pub fn collator_english(&self) -> &Collator {
+    pub fn collator_english(&self) -> &CollatorBorrowed<'static> {
         &self.english_collator
     }
 
-    pub fn collator_for(&self, language: Language) -> Collator {
-        let mut collator_options = CollatorOptions::new();
-        collator_options.strength = Some(Strength::Primary);
-        collator_options.numeric = Some(Numeric::On);
-        let data_locale = Locale::from(language).into();
-        Collator::try_new(&data_locale, collator_options)
-            .ok()
-            .unwrap_or_else(|| Collator::try_new(&Default::default(), collator_options).unwrap())
+    pub fn collator_for(&self, language: Language) -> CollatorBorrowed<'static> {
+        let mut opts = CollatorOptions::default();
+        opts.strength = Some(Strength::Primary);
+        let mut prefs: CollatorPreferences = Locale::from(language).into();
+        prefs.numeric_ordering = Some(CollationNumericOrdering::True);
+        Collator::try_new(prefs, opts).ok().unwrap_or_else(|| {
+            let mut def: CollatorPreferences = Default::default();
+            def.numeric_ordering = Some(CollationNumericOrdering::True);
+            Collator::try_new(def, opts).unwrap()
+        })
     }
 
     pub fn titlecase(&self, language: Language, text: &str) -> String {
@@ -172,11 +189,11 @@ impl Intl {
     }
 
     pub fn parse_lang_tag(&self, input: &str) -> Result<LanguageIdentifier> {
-        LanguageIdentifier::try_from_bytes(input.as_bytes())
+        LanguageIdentifier::try_from_utf8(input.as_bytes())
             .map_err(|e| eyre::eyre!("invalid language tag `{input}`: {e}"))
     }
 
-    pub fn format_number(&self, num: impl Into<FixedDecimal>) -> String {
+    pub fn format_number(&self, num: impl Into<Decimal>) -> String {
         self.number_formatter.format_to_string(&num.into())
     }
 }

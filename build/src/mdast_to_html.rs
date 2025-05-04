@@ -1,7 +1,7 @@
 use std::{borrow::Cow, collections::BTreeMap, fmt::Write, path::Path, sync::LazyLock};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
-use icu::locid::{langid, LanguageIdentifier};
+use icu::locale::{langid, LanguageIdentifier};
 use indexmap::IndexMap;
 use itertools::Itertools;
 use markdown::mdast::{

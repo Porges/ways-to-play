@@ -15,7 +15,7 @@ use std::{
 use bib_render::RenderedBibliography;
 use clap::Parser;
 use eyre::{bail, eyre, Context, ContextCompat, OptionExt, Result};
-use icu::locid::LanguageIdentifier;
+use icu::locale::LanguageIdentifier;
 use itertools::Itertools;
 use markdown::{mdast, Constructs, ParseOptions};
 use maud::Markup;

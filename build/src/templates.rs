@@ -4,7 +4,7 @@ use std::collections::HashMap;
 use std::sync::Arc;
 
 use eyre::{Context, Result};
-use icu::locid::LanguageIdentifier;
+use icu::locale::LanguageIdentifier;
 use itertools::Itertools;
 use maud::{html, Markup, DOCTYPE};
 use regex::Regex;
@@ -400,7 +400,8 @@ impl Templater {
             .take(30);
 
         let regex = Regex::new("(<header.*?</header>|<footer.*?</footer>|<dialog.*?</dialog>|<h2 id=\"references\">.*$)").unwrap();
-        let segmenter = icu::segmenter::WordSegmenter::new_auto();
+        let word_break_invariant_options = Default::default();
+        let segmenter = icu::segmenter::WordSegmenter::new_auto(word_break_invariant_options);
         let long_pages = all_files
             .iter()
             .sorted_by_key(|f| f.content.len())

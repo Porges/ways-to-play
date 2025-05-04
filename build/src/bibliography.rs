@@ -1,6 +1,6 @@
 use std::{collections::BTreeMap, convert::Infallible, str::FromStr};
 
-use icu::locid::LanguageIdentifier;
+use icu::locale::LanguageIdentifier;
 use serde::{
     de::{self, Visitor},
     Deserialize, Deserializer,
@@ -576,7 +576,7 @@ impl<'de> Deserialize<'de> for LString {
                                 return Err(de::Error::duplicate_field("lang"));
                             }
 
-                            lang = match LanguageIdentifier::try_from_bytes(v.as_bytes()) {
+                            lang = match LanguageIdentifier::try_from_utf8(v.as_bytes()) {
                                 Ok(l) => Some(l),
                                 Err(e) => return Err(de::Error::custom(e)),
                             };
