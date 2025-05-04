@@ -2,6 +2,8 @@
 name = "wtp-build"
 version = "0.1.0"
 edition = "2021"
+publish = false
+license = "MIT"
 
 [dependencies]
 ammonia = "4.0.0"
