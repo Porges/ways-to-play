@@ -3,19 +3,24 @@ title: Gresco
 equipment: Dice game
 draft: true
 date created: 2024-12-18
-date modified: 2024-12-22
+date modified: 2025-03-16
+aliases: [Gresco]
+linter-yaml-title-alias: Gresco
 ---
+# Gresco
 
-<span class="aka">Gresco</span> is a very old dice game, dating from at least the 13th century.
+<span class="aka">Gresco</span> is a very old dice game, dating from at least the 13th century. It was played in Western Europe, including France, England, and Spain.
 
-In English sources, it is mentioned as early as 1605 in @EastwardHoe [p. 56].[^fn0] In [<cite>The New Academy</cite>](articles/lists/new-academy.md) it is described as a card game, but I think this is probably a joke; the character who mentions it says that she knows it only by “hear-say” and lists it alongside “primofistula”!
+In English sources, it is mentioned as early as 1605 in @EastwardHoe [p. 56].[^fn0] In [<cite>The New Academy</cite>](articles/lists/new-academy.md) (1640) it is described as a card game, but I think this is probably a joke; the character who mentions it says that she knows it only by “hear-say” and lists it alongside “primofistula”!
 In Florio’s Italian–English dictionary of 1611[^fn1] it is definitively mentioned alongside [Hazard](games/hazard/hazard.md) as a dice game.[@QueenAnnaFlorio 45, 303, 463]
 
 [^fn0]: Nare claims it as a card game[@NaresGlossary 213] probably based upon its proximity to [Primero](games/primero/primero.md) here, but they are associated by being both gambling games.
 
 [^fn1]: It is not mentioned in his earlier dictionary of 1598.[@WorldeOfWordes]
 
-My best guess is that it is the same as the French game <span lang="fr">la Griesche</span>, which is most famously described in several poems by [Rutebeuf](https://en.wikipedia.org/wiki/Rutebeuf) (fl. 1245–85) entitled <cite lang="fr">Li diz de la Griesche d’yver</cite> (<cite>The tale of the Griesche of Winter</cite>), and <cite lang="fr">La Griesche d’estei</cite> (<cite>The Griesche of Summer</cite>).[@CommerceOfTime] Griesche also appears in [Rabelais’ list of games](articles/lists/rabelais.md); some scholars [who?] believe that this refers to a game of shuttle-cock (the word has this meaning in Anjou; see @RutebeufComplete [p. 26-8], but I disagree with him identifying blanc=zara=griesche), but a dice game fits the context there more easily.
+My best guess is that it is the same as the French game <span lang="fr">la Griesche</span>, which is most famously described in several poems by the <span lang="fr">trouvère</span> [Rutebeuf](https://en.wikipedia.org/wiki/Rutebeuf) (fl. 1245–85) entitled <cite lang="fr">Li diz de la Griesche d’yver</cite> (<cite>The tale of the Griesche of Winter</cite>), and <cite lang="fr">La Griesche d’estei</cite> (<cite>The Griesche of Summer</cite>).[@CommerceOfTime] Griesche also appears in [Rabelais’ list of games](articles/lists/rabelais.md); some scholars [who?] believe that this refers to a game of shuttle-cock,[^shuttlecock] but a dice game fits the context there more easily.
+
+[^shuttlecock]: The word has this meaning in Anjou; see @RutebeufComplete [26-8], but I disagree with him identifying <span lang="fr">blanc=zara=griesche</span>.
 
 > [!todo]
 > , and <cite lang="fr">Li diz des ribaux de greive</cite>?
@@ -69,7 +74,7 @@ https://www.persee.fr/search?ta=article&q=griesche
 
 The main meaning was Greek.[@DictionnaireHistorique6 427] The “pricking” meaning seems to have come from nettles.
 
-This in turn is probably the same game as <span lang="es" class="aka">guirguiesca</span>, which is described in [Alfonso X](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile)’s @AlfonsoGames of 1283, where sufficiently-detailed rules are supplied. It earlier appears in <span lang="es">El libro de las tafurerias</span> (1276 <abbr>CE</abbr>),[^fn4] a law code regarding gambling games which was also produced upon the command of Alfonso X.[@GreedForGain 1] Here <span lang="es" class="aka">gargista</span> was described as a game which could legally be played for money — as long as other rules were followed. Various manuscripts of this code give 11 different spellings of the name, but none of them the same as <span lang="es" class="aka">guirguiesca</span>.[@GreedForGain 18][^fn5]
+This in turn is probably the same game as <span lang="es" class="aka">guirguiesca</span>, which is described in [Alfonso X](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile)’s @AlfonsoGames of 1283, where sufficiently-detailed rules are supplied. It earlier appears in <span lang="es">El libro de las tafurerias</span> (1276 <abbr>CE</abbr>),[^fn4] a law code regarding gambling games which was also produced upon the command of Alfonso X.[@GreedForGain 1] Here <span lang="es" class="aka">gargista</span> was described as a game which could legally be played for money — as long as prescribed rules were followed. Various manuscripts of this code give eleven different spellings of the name, but none of them the same as <span lang="es" class="aka">guirguiesca</span>.[@GreedForGain 18][^fn5]
 
 [^fn4]: Often also referred to as the <cite lang="es">Ordenamiento de las tafurerias</cite>, or in modern Spanish <cite lang="es">El libro de las tahurerías</cite>.
 
