@@ -5,7 +5,6 @@ use std::{
 };
 
 use eyre::Result;
-use fixed_decimal::Decimal;
 use icu::{
     casemap::{TitlecaseMapper, TitlecaseMapperBorrowed},
     collator::{
@@ -13,7 +12,7 @@ use icu::{
         preferences::CollationNumericOrdering,
         Collator, CollatorBorrowed, CollatorPreferences,
     },
-    decimal::{DecimalFormatter, DecimalFormatterPreferences},
+    decimal::{input::Decimal, DecimalFormatter, DecimalFormatterPreferences},
     experimental::displaynames::{
         DisplayNamesPreferences, LanguageDisplayNames, RegionDisplayNames,
     },

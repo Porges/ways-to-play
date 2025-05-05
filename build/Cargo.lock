@@ -2503,7 +2503,6 @@ dependencies = [
  "clap",
  "dunce",
  "eyre",
- "fixed_decimal",
  "icu",
  "icu_provider 2.0.0-beta2",
  "indexmap 2.9.0",
