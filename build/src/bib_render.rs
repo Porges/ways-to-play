@@ -135,6 +135,14 @@ fn book_item_type(book: &Book) -> &'static str {
     }
 }
 
+fn thesis_item_type(thesis: &Thesis) -> &'static str {
+    if thesis.volume.is_none() {
+        "https://schema.org/Thesis"
+    } else {
+        "https://schema.org/Thesis https://schema.org/PublicationVolume"
+    }
+}
+
 fn item_type(reference: &Reference) -> &'static str {
     match reference {
         Reference::ConferencePaper(_) | Reference::JournalArticle(_) => {
@@ -144,10 +152,10 @@ fn item_type(reference: &Reference) -> &'static str {
             "https://schema.org/Article"
         }
         Reference::Book(b) => book_item_type(b),
+        Reference::Thesis(t) => thesis_item_type(t),
         Reference::Chapter(_) => "https://schema.org/Chapter",
         Reference::Patent(_) | Reference::Document(_) => "https://schema.org/CreativeWork",
         Reference::WebPage(_) => "https://schema.org/WebPage",
-        Reference::Thesis(_) => "https://schema.org/Thesis",
     }
 }
 
@@ -394,15 +402,15 @@ fn render_title(r: &Reference) -> Markup {
             }
             (title_alt)
             (archive_url)
-            @if let Reference::Book(b) = r {
-                @if let Some(vol) = &b.volume {
-                    " volume "
-                    span itemProp="volumeNumber" { (vol.to_string(true)) }
-                    @if let Some(vol_title) = &b.volume_title {
-                        ": ‘" (render_lstr(vol_title, None, None, None)) "’"
-                    }
+            @if let Reference::Book(Book { volume: Some(vol), volume_title, ..}) |
+                Reference::Thesis(Thesis { volume: Some(vol), volume_title, .. }) = r {
+                " volume "
+                span itemProp="volumeNumber" { (vol.to_string(true)) }
+                @if let Some(vol_title) = &volume_title {
+                    ": ‘" (render_lstr(vol_title, None, None, None)) "’"
                 }
-
+            }
+            @if let Reference::Book(b) = r {
                 @if let Some(edition) = &b.edition {
                     " ("
                     span itemprop="bookEdition" {

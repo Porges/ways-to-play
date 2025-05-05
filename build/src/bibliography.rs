@@ -322,7 +322,9 @@ pub struct Thesis {
     pub subtitle: Option<String>,
     pub genre: Option<String>,
     pub issued: Date,
-    pub volume: Option<u32>,
+    pub volume: Option<NumberOrString>,
+    #[serde(rename = "volume-title")]
+    pub volume_title: Option<LString>,
     pub publisher: Option<LString>,
     #[serde(rename = "publisher-place")]
     pub publisher_place: Option<LString>,
