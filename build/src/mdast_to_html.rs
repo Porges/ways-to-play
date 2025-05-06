@@ -604,16 +604,16 @@ impl Converter<'_> {
             };
 
             html! {
-                dialog.lightbox id=(id) {
+                dialog.lightbox id=(id) vocab="" {
                     img src=(lightbox_url) srcset=[srcset] sizes=[sizes]
                         width=(meta.width) height=(meta.height) loading="lazy"
                         alt=(alt) title=[title];
                     div.lightbox-under {
-                        p itemscope {
+                        p {
                             (copyright_notice)
                         }
                         form method="dialog" {
-                            a href=(meta.url) role="button" target="_blank" { "Full Size (" (meta.width) " × " (meta.height) " pixels)" }
+                            a property="" href=(meta.url) role="button" target="_blank" { "Full Size (" (meta.width) " × " (meta.height) " pixels)" }
                             button.lightbox-close { "Close" }
                         }
                     }
@@ -634,17 +634,17 @@ impl Converter<'_> {
                 Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple()
             );
             Ok(html! {
-                figure class=(figure_classes) itemprop="image" itemscope itemtype="https://schema.org/ImageObject" {
+                figure class=(figure_classes) property="image" typeof="ImageObject" {
                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
-                    a href={"#" (lb_id)} {
+                    a property="" href={"#" (lb_id)} {
                         img class={"figure-img" (noborder)}
-                            itemprop="contentUrl"
+                            property="contentUrl"
                             src=(imgurl) alt=(&img.alt)
                             width=(meta.width) height=(meta.height)
                             srcset=[srcset] sizes=[sizes];
                     }
                     figcaption {
-                        div itemprop="caption" {
+                        div property="caption" {
                             (self.expand(caption)?)
                         }
                         p {
@@ -659,8 +659,6 @@ impl Converter<'_> {
                 .map(|img| Ok((img, self.resolve_image(&img.url)?)))
                 .collect::<Result<Vec<_>>>()?;
 
-            let copyright_hash = metas[0].1.hash.to_string();
-
             Ok(html! {
                 figure class=(figure_classes) {
                     @for row in metas.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
@@ -669,24 +667,30 @@ impl Converter<'_> {
                                 @let srcset = meta.srcset();
                                 @let sizes = if srcset.is_some() { Some(sizes) } else { None };
                                 @let lb_id = format!("lb-{}", Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple());
-                                div itemscope itemtype="https://schema.org/ImageObject" itemprop="image" itemref=(copyright_hash) {
+                                div property="image" typeof="ImageObject" {
                                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
-                                    a href={"#" (lb_id)} {
+                                    a property="" href={"#" (lb_id)} {
                                         img class={"figure-img" (noborder)}
-                                            itemprop="contentUrl"
+                                            property="contentUrl"
                                             src=(meta.url) alt=(&img.alt) title=[&img.title]
                                             srcset=[srcset] sizes=[sizes]
                                             width=(meta.width) height=(meta.height);
+                                    }
+                                    // TODO: try to reduce repetition,
+                                    // but Google doesn't appear to support rdfa:copy
+                                    span hidden="hidden" {
+                                        (copyright_notice)
                                     }
                                 }
                             }
                         }
                     }
-                    figcaption {
-                        div itemprop="caption" {
+                    // can't figure out how to share this - rdfa:copy doesn't appear to work
+                    figcaption vocab="" {
+                        div {
                             (self.expand(caption)?)
                         }
-                        p #(copyright_hash) {
+                        p {
                             (copyright_notice)
                         }
                     }
@@ -1175,17 +1179,17 @@ impl ImageMetadata {
         let hidden = if self.hidden { Some("hidden") } else { None };
         let license = self.license_info();
         html! {
-            span itemprop="copyrightNotice" hidden=[hidden] {
+            span property="copyrightNotice" hidden=[hidden] {
                 @if !matches!(self.license, Some(License::Cc0)) {
                     "© "
                 }
                 @if let Some(copyright_year) = self.copyright_year {
-                    span itemprop="copyrightYear" { (copyright_year) }
+                    span property="copyrightYear" { (copyright_year) }
                     " "
                 }
                 @if let Some(copyright_holder) = self.copyright_holder() {
                     @if let Some(original_url) = &self.original_url {
-                        a href=(original_url) { (copyright_holder) }
+                        a property="" href=(original_url) { (copyright_holder) }
                     } @else {
                         (copyright_holder)
                     }
@@ -1216,20 +1220,20 @@ impl ImageMetadata {
         }
     }
 
-    fn organization(&self, itemprop: &str) -> Markup {
+    fn organization(&self, prop: &str) -> Markup {
         if let Some(org_name) = &self.org_name {
             let content = if let Some(org_abbr) = &self.org_abbr {
                 html! {
-                    meta itemprop="name" content=(org_name);
+                    meta property="name" content=(org_name);
                     abbr title=(org_name) { (org_abbr) }
                 }
             } else {
-                html! { span itemprop="name" { (org_name) } }
+                html! { span property="name" { (org_name) } }
             };
             html! {
-                span itemscope itemtype="https://schema.org/Organization" lang=[&self.org_lang] itemprop=(itemprop) {
+                span property=(prop) typeof="Organization" lang=[&self.org_lang] {
                     @if let Some(url) = &self.org_url {
-                        a href=(url) { (content) }
+                        a property="" href=(url) { (content) }
                     } @else {
                         (content)
                     }
@@ -1240,31 +1244,31 @@ impl ImageMetadata {
         }
     }
 
-    fn person(&self, itemprop: &str) -> Markup {
+    fn person(&self, prop: &str) -> Markup {
         html! {
-            span itemscope itemtype="https://schema.org/Person" itemprop=(itemprop) {
+            span property=(prop) typeof="Person" {
                 @if self.org_name.is_some() {
                     (self.organization("worksFor")) "/"
                 }
-                span itemprop="name" lang=[&self.author_lang] {
+                span property="name" lang=[&self.author_lang] {
                     @if let Some(name) = &self.author {
                         (name)
                     }
 
                     @if crate::bib_render::family_last(self.author_lang.as_deref()) {
                         @if let Some(given) = &self.author_given {
-                            span itemprop="givenName" { (given) }
+                            span property="givenName" { (given) }
                         }
                         " "
                         @if let Some(family) = &self.author_family {
-                            span itemprop="familyName" { (family) }
+                            span property="familyName" { (family) }
                         }
                     } @else {
                         @if let Some(family) = &self.author_family {
-                            span itemprop="familyName" { (family) }
+                            span property="familyName" { (family) }
                         }
                         @if let Some(given) = &self.author_given {
-                            span itemprop="givenName" { (given) }
+                            span property="givenName" { (given) }
                         }
                     }
                 }
@@ -1276,7 +1280,7 @@ impl ImageMetadata {
         let cc = |name: &str, title: &str, content: Markup| -> Markup {
             let version = self.license_version.as_deref().unwrap_or("4.0");
             html! {
-                a itemprop="license" href={"https://creativecommons.org/licenses/" (name) "/" (version) "/"}
+                a property="license" href={"https://creativecommons.org/licenses/" (name) "/" (version) "/"}
                 title={"Licensed under the Creative Commons " (title) " license " (version)} {
                     (content)
                 }
@@ -1295,13 +1299,13 @@ impl ImageMetadata {
                 html! {
                     span {
                         "used in accordance with "
-                        a href=[&self.terms_url] itemprop="license" { "terms" }
+                        a property="license" href=[&self.terms_url] { "terms" }
                     }
                 }
             }
             License::Cc0 => {
                 html! {
-                    a itemprop="license" href="https://creativecommons.org/publicdomain/mark/1.0/" title="Public Domain" {
+                    a property="license" href="https://creativecommons.org/publicdomain/mark/1.0/" title="Public Domain" {
                         (CC0)
                     }
                 }

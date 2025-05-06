@@ -111,7 +111,7 @@ fn inline_cite(reference: &Reference) -> Option<InlineCiteRenderer> {
             let year = issued.year();
             Some(Box::new(move |ref_id: &str, info: Option<Markup>| {
                 html! {
-                    a href=(ref_id) {
+                    a property="" href=(ref_id) {
                         (author_summary)
                     }
                     " ("
@@ -129,40 +129,36 @@ fn inline_cite(reference: &Reference) -> Option<InlineCiteRenderer> {
 
 fn book_item_type(book: &Book) -> &'static str {
     if book.volume.is_none() {
-        "https://schema.org/Book"
+        "Book"
     } else {
-        "https://schema.org/Book https://schema.org/PublicationVolume"
+        "Book PublicationVolume"
     }
 }
 
 fn thesis_item_type(thesis: &Thesis) -> &'static str {
     if thesis.volume.is_none() {
-        "https://schema.org/Thesis"
+        "Thesis"
     } else {
-        "https://schema.org/Thesis https://schema.org/PublicationVolume"
+        "Thesis PublicationVolume"
     }
 }
 
 fn item_type(reference: &Reference) -> &'static str {
     match reference {
-        Reference::ConferencePaper(_) | Reference::JournalArticle(_) => {
-            "https://schema.org/ScholarlyArticle"
-        }
-        Reference::NewspaperArticle(_) | Reference::MagazineArticle(_) => {
-            "https://schema.org/Article"
-        }
+        Reference::ConferencePaper(_) | Reference::JournalArticle(_) => "ScholarlyArticle",
+        Reference::NewspaperArticle(_) | Reference::MagazineArticle(_) => "Article",
         Reference::Book(b) => book_item_type(b),
         Reference::Thesis(t) => thesis_item_type(t),
-        Reference::Chapter(_) => "https://schema.org/Chapter",
-        Reference::Patent(_) | Reference::Document(_) => "https://schema.org/CreativeWork",
-        Reference::WebPage(_) => "https://schema.org/WebPage",
+        Reference::Chapter(_) => "Chapter",
+        Reference::Patent(_) | Reference::Document(_) => "CreativeWork",
+        Reference::WebPage(_) => "WebPage",
     }
 }
 
 fn render_ref(key: &str, reference: &Reference) -> Markup {
     html! {
         (render_warnings_and_notes(reference))
-        p #{"ref-" (key)} itemscope itemtype=(item_type(reference)) itemprop="citation" {
+        p #{"ref-" (key)} property="citation" typeof=(item_type(reference)) {
             (render_authors(reference))
             " (" (render_date(reference)) "). "
             (render_title(reference))
@@ -209,7 +205,7 @@ fn render_authors(r: &Reference) -> Markup {
             }
         }
         @else if let Some(publisher) = r.publisher() {
-            span itemscope itemtype="https://schema.org/Organization" itemprop="author" {
+            span property="author" typeof="Organization"  {
                 (render_lstr(publisher, Some("noun"), Some("name"), Some("alternateName")))
             }
         }
@@ -254,8 +250,8 @@ fn render_people(
     let total = people.len();
     html! {
         @for (ix, person) in people.into_iter().enumerate() {
-            @let given = html! { span itemProp="givenName" { (person.given) } };
-            @let family = person.family.as_deref().map(|f| html! { span itemProp="familyName" { (f) } });
+            @let given = html! { span property="givenName" { (person.given) } };
+            @let family = person.family.as_deref().map(|f| html! { span property="familyName" { (f) } });
             @let needs_space = needs_space(person.lang.as_deref());
             @let family_last = family_last(person.lang.as_deref());
             @let is_first = ix == 0;
@@ -270,11 +266,11 @@ fn render_people(
             }
 
             span.noun
-                itemscope itemprop=(item_prop) itemtype="https://schema.org/Person"
+                property=(item_prop) typeof="Person"
                 lang=[person.lang.as_deref()] {
 
                 // hidden name
-                meta itemprop="name" content={
+                meta property="name" content={
                     @let given_str = person.given.as_str();
                     @let family_str = person.family.as_deref().unwrap_or("");
                     @let (first, second) = if family_last {
@@ -323,7 +319,7 @@ fn render_people(
 
                 // (linked) name
                 @if let Some(url) = &person.url {
-                    a href=(url) itemprop="sameAs" { (full_name) }
+                    a property="sameAs" href=(url) { (full_name) }
                 } @else {
                     (full_name)
                 }
@@ -341,7 +337,7 @@ fn render_title(r: &Reference) -> Markup {
     let archive_url = html! {
         @if let Some(archive_url) = &r.common().archive_url {
             " ["
-            a href=(archive_url) itemprop="archivedAt" { "archived" }
+            a property="archivedAt" href=(archive_url) { "archived" }
             "]"
         }
     };
@@ -349,7 +345,7 @@ fn render_title(r: &Reference) -> Markup {
     let additional_suffix = r.common().language.as_ref().map(|lang| {
         html! {
             "text in " (INTL.english_name(lang).unwrap())
-            meta itemprop="inLanguage" content=(lang);
+            meta property="inLanguage" content=(lang);
         }
     });
 
@@ -394,7 +390,7 @@ fn render_title(r: &Reference) -> Markup {
 
         html! {
             @if let Some(url) = &r.common().url {
-                a href=(url) itemprop="url" {
+                a property="url" href=(url) {
                     (title)
                 }
             } @else {
@@ -405,7 +401,7 @@ fn render_title(r: &Reference) -> Markup {
             @if let Reference::Book(Book { volume: Some(vol), volume_title, ..}) |
                 Reference::Thesis(Thesis { volume: Some(vol), volume_title, .. }) = r {
                 " volume "
-                span itemProp="volumeNumber" { (vol.to_string(true)) }
+                span property="volumeNumber" { (vol.to_string(true)) }
                 @if let Some(vol_title) = &volume_title {
                     ": ‘" (render_lstr(vol_title, None, None, None)) "’"
                 }
@@ -413,7 +409,7 @@ fn render_title(r: &Reference) -> Markup {
             @if let Reference::Book(b) = r {
                 @if let Some(edition) = &b.edition {
                     " ("
-                    span itemprop="bookEdition" {
+                    span property="bookEdition" {
                         @match edition {
                             NumberOrString::Num(n) => {
                                 (ordinal(*n)) " edition"
@@ -433,7 +429,7 @@ fn render_title(r: &Reference) -> Markup {
         html! {
             "‘"
             @if let Some(url) = &r.common().url {
-                a href=(url) itemprop="url" { (title) }
+                a property="url" href=(url) { (title) }
             } @else {
                 (title)
             }
@@ -460,7 +456,7 @@ fn render_date(reference: &Reference) -> Markup {
 
     html! {
         @if let Some(date) = date {
-            time itemprop="datePublished" datetime=(date.to_iso()) {
+            time property="datePublished" datetime=(date.to_iso()) {
                 @if date.attr().circa {
                     abbr title="circa" { "c." }
                     " "
@@ -508,10 +504,10 @@ fn render_lstr(
 fn render_lstr_just_span(
     lstr: &LString,
     class: Option<&'static str>,
-    item_prop: Option<&'static str>,
+    prop: Option<&'static str>,
 ) -> Markup {
     html! {
-        span class=[class] itemprop=[item_prop] lang=[lstr.lang.as_ref()] {
+        span class=[class] property=[prop] lang=[lstr.lang.as_ref()] {
             (maud::PreEscaped(&lstr.value))
         }
     }
@@ -522,12 +518,12 @@ fn render_lstr_alt(
     prefix: &str,
     suffix: &str,
     additional_suffix: Option<Markup>,
-    alt_item_prop: Option<&'static str>,
+    alt_prop: Option<&'static str>,
 ) -> Markup {
     html! {
         @if let Some(alt) = &lstr.alt {
             (prefix)
-            span itemprop=[alt_item_prop] {
+            span property=[alt_prop] {
                 (maud::PreEscaped(&alt))
             }
             @if let Some(suff) = additional_suffix {
@@ -555,10 +551,10 @@ fn render_lstr_cite(
 fn render_lstr_just_cite(
     lstr: &LString,
     class: Option<&'static str>,
-    item_prop: Option<&'static str>,
+    prop: Option<&'static str>,
 ) -> Markup {
     html! {
-        cite class=[class] itemprop=[item_prop] lang=[lstr.lang.as_ref()] {
+        cite class=[class] property=[prop] lang=[lstr.lang.as_ref()] {
             (maud::PreEscaped(&lstr.value))
         }
     }
@@ -596,10 +592,10 @@ fn render_series(r: &Reference) -> Markup {
 
     html! {
         "; "
-        span itemscope itemtype="https://schema.org/BookSeries" itemprop="isPartOf" {
+        span property="isPartOf" typeof="BookSeries" {
             @let title = render_lstr(&series.title, None, Some("name"), Some("alternateName"));
             @if let Some(url) = &series.url {
-                a href=(url) itemprop="url" { (title) }
+                a property="url" href=(url) { (title) }
             } @else {
                 (title)
             }
@@ -607,7 +603,7 @@ fn render_series(r: &Reference) -> Markup {
                 " ("
                 abbr.initialism { "ISSN" }
                 " "
-                span itemprop="issn" { (issn.to_string(false)) }
+                span property="issn" { (issn.to_string(false)) }
                 ")"
             }
             @if let Some(volume) = &series.volume {
@@ -676,7 +672,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                         Pagination::Num(n) => n.to_string(),
                     };
 
-                    span itemprop="pagination" { (pagination) }
+                    span property="pagination" { (pagination) }
                 }
 
                 ". "
@@ -701,7 +697,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                         Pagination::Num(n) => n.to_string(),
                     };
 
-                    span itemprop="pagination" { (pagination) }
+                    span property="pagination" { (pagination) }
                     " in "
                 } @else {
                     "In "
@@ -715,7 +711,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
         }) => html! {
             @if let Some(title) = container_title {
                 "On the website "
-                span itemscope itemtype="https://schema.org/WebSite" itemprop="isPartOf" {
+                span property="isPartOf" typeof="WebSite"{
                     (render_lstr_cite(title, None, Some("name"), Some("alternateName")))
                 }
 
@@ -727,7 +723,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                     @let iso_date = access_date.format(format_description!("[year]-[month]-[day]")).unwrap();
                     @let nice_date = format!("{}, {} {} {}", access_date.weekday(), ordinal(access_date.day() as u64), access_date.month(), access_date.year());
                     " (accessed "
-                    time itemprop="lastReviewed" datetime=(iso_date) { (nice_date) }
+                    time property="lastReviewed" datetime=(iso_date) { (nice_date) }
                     ")"
                 }
 
@@ -746,7 +742,7 @@ fn render_book(key: &str, book: &Book, item_prop: &str) -> Markup {
     let bookr = &Reference::Book(book.clone());
     let key = key.to_string() + "-book";
     html! {
-        span itemscope itemtype=(book_item_type(book)) itemprop=(item_prop) {
+        span property=(item_prop) typeof=(book_item_type(book)) {
             (render_title(bookr))
             @if let Ok(authors) = bookr.authors().try_into() {
                 ", " (render_people(&authors, false, "author"))
@@ -766,7 +762,7 @@ fn render_periodical(key: &str, p: &Periodical) -> Markup {
     let date_part = if matches!(p.issued, Date::YearMonthDay { .. } | Date::YearMonth { .. }) {
         html! {
             ", "
-            time itemprop="datePublished" datetime=(p.issued.to_iso()) {
+            time property="datePublished" datetime=(p.issued.to_iso()) {
                 (p.issued.explicit(true))
             }
         }
@@ -777,53 +773,53 @@ fn render_periodical(key: &str, p: &Periodical) -> Markup {
     html! {
         @match (p.issue, &p.volume) {
             (Some(issue), Some(volume)) => {
-                span itemscope itemtype="https://schema.org/Periodical" itemid={"#"(key)"-periodical"} {
-                    link itemprop="publisher" href={"#"(key)"-publisher"};
+                span typeof="Periodical" resource={"#"(key)"-periodical"} {
+                    link property="publisher" href={"#"(key)"-publisher"};
                     (render_lstr_cite(&p.title, None, Some("name"), Some("alternateName")))
                 }
                 " "
-                span itemscope itemtype="https://schema.org/PublicationVolume" itemid={"#"(key)"-volume"} {
-                    link itemprop="isPartOf" href={"#"(key)"-periodical"};
+                span typeof="PublicationVolume" resource={"#"(key)"-volume"} {
+                    link property="isPartOf" href={"#"(key)"-periodical"};
                     abbr title="volume" { "vol." }
                     " "
-                    span itemprop="volumeNumber" { (volume.to_string(true)) }
+                    span property="volumeNumber" { (volume.to_string(true)) }
                 }
                 " "
-                span itemscope itemtype="https://schema.org/PublicationIssue" itemprop="isPartOf" {
-                    link itemprop="isPartOf" href={"#"(key)"-volume"};
-                    "(" span itemprop="issueNumber" { (INTL.format_number(issue)) } ")"
+                span typeof="PublicationIssue" property="isPartOf" {
+                    link property="isPartOf" href={"#"(key)"-volume"};
+                    "(" span property="issueNumber" { (INTL.format_number(issue)) } ")"
                     (date_part)
                 }
             }
             (Some(issue), None) => {
-                span itemscope itemtype="https://schema.org/Periodical" itemid={"#"(key)"-periodical"} {
-                    link itemprop="publisher" href={"#"(key)"-publisher"};
+                span typeof="Periodical" resource={"#"(key)"-periodical"} {
+                    link property="publisher" href={"#"(key)"-publisher"};
                     (render_lstr_cite(&p.title, None, Some("name"), Some("alternateName")))
                 }
                 " "
-                span itemscope itemtype="https://schema.org/PublicationIssue" itemprop="isPartOf" {
-                    link itemprop="isPartOf" href={"#"(key)"-periodical"};
-                    "(" span itemprop="issueNumber" { (INTL.format_number(issue)) } ")"
+                span typeof="PublicationIssue" property="isPartOf" {
+                    link property="isPartOf" href={"#"(key)"-periodical"};
+                    "(" span property="issueNumber" { (INTL.format_number(issue)) } ")"
                     (date_part)
                 }
             }
             (None, Some(volume)) => {
-                span itemscope itemtype="https://schema.org/Periodical" itemid={"#"(key)"-periodical"} {
-                    link itemprop="publisher" href={"#"(key)"-publisher"};
+                span typeof="Periodical" resource={"#"(key)"-periodical"} {
+                    link property="publisher" href={"#"(key)"-publisher"};
                     (render_lstr_cite(&p.title, None, Some("name"), Some("alternateName")))
                 }
                 " "
-                span itemscope itemtype="https://schema.org/PublicationVolume" itemprop="isPartOf" {
-                    link itemprop="isPartOf" href={"#"(key)"-periodical"};
+                span typeof="PublicationVolume" property="isPartOf" {
+                    link property="isPartOf" href={"#"(key)"-periodical"};
                     abbr title="volume" { "vol." }
                     " "
-                    span itemprop="volumeNumber" { (volume.to_string(true)) }
+                    span property="volumeNumber" { (volume.to_string(true)) }
                     (date_part)
                 }
             }
             (None, None) => {
-                span itemscope itemtype="https://schema.org/Periodical" itemprop="isPartOf" {
-                    link itemprop="publisher" href={"#"(key)"-publisher"};
+                span typeof="Periodical" property="isPartOf" {
+                    link property="publisher" href={"#"(key)"-publisher"};
                     (render_lstr_cite(&p.title, None, Some("name"), Some("alternateName")))
                     (date_part)
                 }
@@ -899,7 +895,7 @@ fn render_publisher(key: &str, r: &Reference) -> Markup {
     }
 
     html! {
-        span itemprop="publisher" itemscope itemtype="https://schema.org/Organization" itemid={"#"(key)"-publisher"} {
+        span property="publisher" typeof="Organization" resource={"#"(key)"-publisher"} {
             @if let Some(publisher) = publisher {
                 (render_lstr(publisher, Some("noun"), Some("name"), Some("alternateName")))
                 @if place.is_none() {
@@ -934,8 +930,8 @@ fn render_isbn(r: &Reference) -> Markup {
             " "
             @let isbn = isbn.0.hyphenate().unwrap();
             abbr.initialism { "ISBN" } ": "
-            a href={"https://www.worldcat.org/isbn/"(isbn)} {
-                span itemprop="isbn" { (isbn) }
+            a property="" href={"https://www.worldcat.org/isbn/"(isbn)} {
+                span property="isbn" { (isbn) }
             }
             ". "
         }

@@ -140,7 +140,7 @@ impl Templater {
 
         let content = html! {
             (DOCTYPE)
-            html lang="en" prefix="og: https://ogp.me/ns#" {
+            html lang="en" prefix="og: https://ogp.me/ns# schema: https://schema.org/ foaf: http://xmlns.com/foaf/0.1/" {
                 head {
                     meta charset="utf-8";
                     link rel="shortcut icon" type="image/png" href="/favicon.png" ;
@@ -182,10 +182,10 @@ impl Templater {
                       "})(window, document, 'clarity', 'script', 'gzk1ekbi1n');"
                     }
                 }
-                body itemscope itemtype="https://schema.org/WebPage" {
-                    div itemprop="isPartOf" itemscope itemtype="https://schema.org/WebSite" {
-                        meta itemprop="url" content=(self.site_url);
-                        meta itemprop="name" content="Ways To Play";
+                body vocab="https://schema.org/" typeof="WebPage" {
+                    div property="isPartOf" typeof="WebSite" {
+                        meta property="url" content=(self.site_url);
+                        meta property="name" content="Ways To Play";
                     }
                     header {
                         nav.site {
@@ -207,15 +207,15 @@ impl Templater {
 
                         @if !breadcrumbs.is_empty() {
                             nav.breadcrumbs aria-label="breadcrumb" {
-                                ol itemscope itemtype="https://schema.org/BreadcrumbList" itemprop="breadcrumb" {
+                                ol property="breadcrumb" typeof="BreadcrumbList" {
                                     @for (ix, (url, name)) in breadcrumbs.iter().enumerate() {
-                                        li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" {
-                                            meta itemprop="position" content=(ix + 1);
-                                            a href=(url) itemprop="item" {
+                                        li property="itemListElement" typeof="ListItem" {
+                                            meta property="position" content=(ix + 1);
+                                            a property="item" href=(url) {
                                                 @if let Some(name) = name {
-                                                    span itemprop="name" { (name) }
+                                                    span property="name" { (name) }
                                                 } @else {
-                                                    span itemprop="name" { "…" }
+                                                    span property="name" { "…" }
                                                 }
                                             }
                                         }
@@ -236,34 +236,40 @@ impl Templater {
                         " "
                         span {
                             "© "
-                            span #author-outer
-                                itemscope
-                                itemprop="copyrightHolder author publisher"
-                                itemtype="https://schema.org/Person" {
-                                link href="https://porg.es" itemprop="url";
-                                link href="https://bsky.app/profile/porg.es" itemprop="sameAs";
-                                span #author {
-                                    span itemprop="name" {
-                                        span itemprop="givenName" { "George" }
+                            span resource="#me"
+                                property="copyrightHolder author publisher"
+                                typeof="Person" {
+                                span {
+                                    span property="name" {
+                                        span property="givenName" { "George" }
                                         " "
-                                        span itemprop="familyName" { "Pollard" }
+                                        span property="familyName" { "Pollard" }
                                     }
                                 }
+                                link property="url sameAs" href="https://porg.es";
+                                link property="sameAs" href="https://bsky.app/profile/porg.es";
+                                meta property="email" content="porges@porg.es";
                             }
 
                             " "
 
-                            a href="https://creativecommons.org/licenses/by-nc-sa/4.0" itemprop="license" rel="license"
+                            a href="https://creativecommons.org/licenses/by-nc-sa/4.0" rel="license"
                                 title="Licensed under the Creative Commons Attribution Non-Commercial Share-Alike license, 4.0" {
                                 "🅭🅯🄏🄎"
                             }
 
                             " · Feedback? Contact me on "
-                            a href="https://toot.cafe/@porges" rel="me" { "Mastodon" }
+                            span vocab="" {
+                                a rel="me" href="https://bsky.app/profile/porg.es" { "Bluesky" }
+                            }
                             "/"
-                            a href="https://bsky.app/profile/porg.es" rel="me" { "Bluesky" }
+                            span vocab="" {
+                                a rel="me" href="https://toot.cafe/@porges" { "Mastodon" }
+                            }
                             ", "
-                            a href="mailto:porges@porg.es?subject=Ways%20To%20Play" rel="me" target="_blank" { "email me" }
+                            span vocab="" {
+                                a rel="me" href="mailto:porges@porg.es?subject=Ways%20To%20Play" target="_blank" { "email me" }
+                            }
                             ", or "
                             a href="https://github.com/Porges/ways-to-play/discussions/new" { "leave a note on GitHub" }
                             "."
@@ -293,12 +299,13 @@ impl Templater {
             article,
             breadcrumbs,
             html! {
-                article itemprop="mainEntity" itemscope itemtype="https://schema.org/Article" itemref="author-outer" {
-                    h1.page-title itemprop="headline" {
+                article property="mainEntity" typeof="https://schema.org/Article" {
+                    link property="copyrightHolder author publisher" href="#me";
+                    h1.page-title property="headline" {
                         @if let Some(original_title) = article.original_title() {
                             (original_title) " · "
                         }
-                        span.simple itemprop="name" { (article.title_markup()) }
+                        span.simple property="name" { (article.title_markup()) }
                         @if article.is_draft() {
                             " 🚧"
                         }
@@ -306,7 +313,7 @@ impl Templater {
                     @if let Some(mod_date) = article.date_modified() {
                         p.last-updated {
                             "Last updated: "
-                            time itemprop="dateModified" datetime=(mod_date) {
+                            time property="dateModified" datetime=(mod_date) {
                                 (mod_date.format(&format_description!("[weekday repr:long], [day padding:none] [month repr:long] [year]"))?)
                             }
                             "."
@@ -341,7 +348,7 @@ impl Templater {
         mut cites: HashMap<String, Vec<(Arc<Markup>, String)>>,
     ) -> Result<OutputFile> {
         let content = html! {
-            h1.page-title { span.simple itemprop="name" { "A Bibliography of Traditional Games" } }
+            h1.page-title { span.simple property="name" { "A Bibliography of Traditional Games" } }
             form.tidy {
                 label {
                     "Sort by:"
@@ -423,7 +430,7 @@ impl Templater {
             .take(20);
 
         let content = html! {
-            h1.page-title itemprop="name" {
+            h1.page-title property="name" {
                 "Welcome to Ways To Play"
             }
 
@@ -510,7 +517,7 @@ impl Templater {
             .unique();
 
         let content = html! {
-            h1.page-title { span.simple itemprop="name" { "Games Index" } }
+            h1.page-title { span.simple property="name" { "Games Index" } }
             form.tidy #game-form {
                 div {
                     label {
@@ -669,7 +676,7 @@ impl Templater {
         const FRAGMENT_TEXT: &AsciiSet = &FRAGMENT.add(b'-');
 
         let content = html! {
-            h1.page-title { span.simple itemprop="name" { "Game Names Index" } }
+            h1.page-title { span.simple property="name" { "Game Names Index" } }
             p {
                 "This page lists all game names by language, as an index to the articles where they are discussed."
             }
@@ -753,7 +760,7 @@ pub fn render_prev_next(prev: Option<&ArticleNode>, next: Option<&ArticleNode>) 
         nav.prev-next aria-label="Nearby Articles" {
             @if let Some(prev) = prev {
                 @if let Some(name) = prev.name {
-                    a href=(prev.url_path) rel="prev" {
+                    a rel="prev" href=(prev.url_path) {
                         span.prevNextArticle { "Previous Article" }
                         br;
                         (name)
@@ -763,7 +770,7 @@ pub fn render_prev_next(prev: Option<&ArticleNode>, next: Option<&ArticleNode>) 
 
             @if let Some(next) = next {
                 @if let Some(name) = next.name {
-                    a href=(next.url_path) rel="next" {
+                    a rel="next" href=(next.url_path){
                         span.prevNextArticle { "Next Article" }
                         br;
                         (name)

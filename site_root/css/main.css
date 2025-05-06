@@ -621,7 +621,7 @@ caption {
 
     color: var(--colour-dark);
 
-    p:has(span[itemprop='copyrightNotice']) {
+    p:has(span[property='copyrightNotice']) {
         margin-top: .5rlh;
     }
 }
@@ -1092,7 +1092,7 @@ dl {
         }
     }
 
-    span[itemprop='isbn'] {
+    span[property='isbn'] {
         font-family: 'ocrb';
         font-size: .8em;
         color: var(--colour-secondary);
@@ -1129,7 +1129,7 @@ ul.backreferences {
 
 /*** Licensing symbols ***/
 
-a[itemprop="license"] {
+a[property="license"] {
     font-style: normal;
     text-decoration: none;
 }
@@ -1289,8 +1289,8 @@ iframe {
     }
 
     /* Show URLs where important */
-    span[itemprop="copyrightNotice"] {
-        a[itemprop="url"] {
+    span[property="copyrightNotice"] {
+        a[property="url"] {
             &::after {
                 content: ' (' attr(href) ')';
             }
