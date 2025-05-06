@@ -140,7 +140,7 @@ impl Templater {
 
         let content = html! {
             (DOCTYPE)
-            html lang="en" prefix="og: https://ogp.me/ns# schema: https://schema.org/ foaf: http://xmlns.com/foaf/0.1/" {
+            html lang="en" prefix="og: https://ogp.me/ns# schema: http://schema.org/ cc: http://creativecommons.org/ns# dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/" {
                 head {
                     meta charset="utf-8";
                     link rel="shortcut icon" type="image/png" href="/favicon.png" ;

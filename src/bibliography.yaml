@@ -283,6 +283,7 @@ VoyageToPacific:
   publisher: W. and A. Strahan
   publisher-place: London, England, UK
   URL: https://archive.org/details/voyagetopacifico03cook
+  identifiers: [ ark:/13960/t7mp54w69 ]
 Hackler86:
   type: article-journal
   title: Alliance or Cession? Missing Letter from Kamehameha I to King George III
@@ -322,6 +323,7 @@ AVoyageRoundTheWorld:
   publisher: Van Winkle, Wiley & Co.
   publisher-place: New York, NY, USA
   URL: https://archive.org/details/avoyageroundwor00campgoog
+  identifiers: [ ark:/13960/t7fr00v6f ]
 Emory24:
   type: book
   title: "The island of Lanai: A survey of native culture"
@@ -348,6 +350,7 @@ Brigham08:
   publisher: Bishop Museum Press
   publisher-place: Honolulu, Hawaiʻi
   URL: https://archive.org/details/ancienthawaiian01briggoog
+  identifiers: [ ark:/13960/t9d513m88 ]
   series:
     title: Memoirs of the Bernice Pauahi Bishop Museum of Polynesian
       Ethnology and Natural History
@@ -369,10 +372,12 @@ Ellis17:
   publisher: Hawaiian Gazette Company
   publisher-place: Honolulu, Hawaiʻi
   URL: https://archive.org/details/journalofwilliam000434mbp
+  identifiers: [ ark:/13960/t3st7f903 ]
 AdlerMagic:
   type: book
   title: Magic House of Numbers
   URL: https://archive.org/details/B-001-001-881
+  identifiers: [ ark:/13960/t01z9kf8w ]
   edition: 2
   author:
     - given: Irving
@@ -476,6 +481,7 @@ BritishSomaliland:
   issued:
     year: 1912
   URL: https://archive.org/details/in.ernet.dli.2015.81470
+  identifiers: [ ark:/13960/t75t91r5n ]
 IntroductionToShax:
   type: document
   title: An Introduction to Shax
@@ -498,6 +504,7 @@ KoreanGames:
   publisher: University of Pennsylvania
   publisher-place: Philadelphia, PA, USA
   URL: https://archive.org/details/koreangameswith01culigoog
+  identifiers: [ ark:/13960/t1pg2586d ]
 CulinHawaiian:
   type: article-journal
   title: Hawaiian Games
@@ -538,6 +545,7 @@ TsuniGoam:
   publisher: Trübner & Co
   publisher-place: Ludgate Hill, London, England, UK
   URL: https://archive.org/details/tsunillgoamsupre00hahnuoft
+  identifiers: [ ark:/13960/t8df6pb1q ]
 GuptaCalcutta:
   type: article-journal
   title: A Type of Sedentary Game in the Punjab
@@ -546,6 +554,7 @@ GuptaCalcutta:
       given: Hem Chandra
   page: 510–513
   URL: https://archive.org/stream/in.ernet.dli.2015.94751/2015.94751.The-Calcutta-Review--Vol-6january-march1923#page/n531/mode/2up
+  identifiers: [ ark:/13960/t3713f19f ]
   in:
     title: The Calcutta Review
     volume: 6
@@ -559,6 +568,7 @@ GuptaB:
       given: Hem Chandra
   page: 71–74
   URL: https://archive.org/stream/mobot31753002183942#page/n215/mode/2up
+  identifiers: [ ark:/13960/t7rn41s5r ]
   in:
     title: Journal of the Asiatic Society of Bengal
     volume: 19 # TODO (New Series)
@@ -572,6 +582,7 @@ GuptaC:
       given: Hem Chandra
   page: 165–169
   URL: https://archive.org/stream/in.ernet.dli.2015.281621/2015.281621.Journal-Of#page/n385/mode/2up
+  identifiers: [ ark:/13960/t9382vh75 ]
   in:
     title: Journal of the Asiatic Society of Bengal
     volume: 20 # TODO (New Series)
@@ -1939,7 +1950,7 @@ UseOfMorabara:
     - family: Moloi
       given: Tshele J
   page: 585–591
-  URL: https://dx.doi.org/10.5901/mjss.2014.v5n27p585
+  URL: https://doi.org/10.5901/mjss.2014.v5n27p585
   in:
     title: Mediterranean Journal of Social Sciences
     volume: 5
@@ -2124,7 +2135,7 @@ OldTswana:
   author:
     - family: Cole
       given: Desmond T.
-  URL: https://dx.doi.org/10.1080/02572117.1990.10586868
+  URL: https://doi.org/10.1080/02572117.1990.10586868
   page: 345–353
   in:
     title: South African Journal of African Languages
@@ -2332,8 +2343,10 @@ AncientEgyptiansAtPlay:
   type: book
   title: Ancient Egyptians at Play
   author:
-    - family: Crist
+    - &Walter_Crist
+      family: Crist
       given: Walter
+      url: https://orcid.org/0000-0002-5460-9511
     - family: Dunn-Vaturi
       given: Anne-Elizabeth
     - &Alex_de_Voogt
@@ -5168,7 +5181,7 @@ HistoryOfThe107th:
   author:
     - given: Gerald F.
       family: Jacobson
-  URL: https://hdl.handle.net/2027/mdp.39015027341364
+  URL: https://doi.org/2027/mdp.39015027341364
   publisher: Seventh Regiment Armory
   publisher-place: New York
   issued:
@@ -5194,6 +5207,7 @@ YearOfChivalry:
   publisher: Simpkin, Marshall, Hamilton, Kent & Co.
   publisher-place: London
   URL: https://hdl.handle.net/2027/uc2.ark:/13960/t25b02s9t
+  identifiers: [ ark:/13960/t25b02s9t ]
 HullDown:
   type: book
   title: "Hull Down: Reminiscences of Wind-jammers, Troops and Travellers"
@@ -5345,7 +5359,7 @@ SparrowAndPigeon:
 GamesOfChanceInMacau1:
   type: article-journal
   title: 'A History of Games of Chance in Macau: Part 1 — Introduction'
-  URL: https://dx.doi.org/10.2139/ssrn.2263185
+  URL: https://doi.org/10.2139/ssrn.2263185
   author:
     - given: Jorge
       family: Godinho
@@ -5362,7 +5376,7 @@ GamesOfChanceInMacau2:
     - given: Jorge
       family: Godinho
   page: 107–117
-  URL: https://dx.doi.org/10.2139/ssrn.2263191
+  URL: https://doi.org/10.2139/ssrn.2263191
   in:
     title: Gaming Law Review and Economics
     volume: 17
@@ -9916,7 +9930,7 @@ GeneralizingGalileo:
   - given: Vassilios
     family: Hombas
   page: 643–702
-  URL: https://dx.doi.org/10.1080/0020739X.2011.618549
+  URL: https://doi.org/10.1080/0020739X.2011.618549
   in:
     title: International Journal of Mathematical Education in Science and Technology
     volume: 43
@@ -11831,9 +11845,7 @@ CityPlay:
   ISBN: '0813515777'
 DebunkingSenet:
   type: article-journal
-  author:
-  - given: Walter
-    family: Crist
+  author: [*Walter_Crist]
   title: Debunking the Diffusion of <span lang="egy-Latn">Senet</span>
   URL: https://doi.org/10.2478/bgs-2021-0002
   page: 13-27
@@ -11841,9 +11853,7 @@ DebunkingSenet:
 PassingSenet:
   type: article-journal
   title: 'Passing from the Middle to the New Kingdom: A <span lang="egy-Latn">Senet</span> Board in the Rosicrucian Egyptian Museum'
-  author:
-  - given: Walter
-    family: Crist
+  author: [*Walter_Crist]
   URL: https://doi.org/10.1177/0307513319896288
   page: 107-113
   in:
@@ -11870,7 +11880,7 @@ BoardGamesAncientFiction:
 BedouinHeritage:
   type: chapter
   title: Games as Bedouin Heritage for All Generations
-  URL: https://dx.doi.org/10.1007/978-94-6209-950-0_10
+  URL: https://doi.org/10.1007/978-94-6209-950-0_10
   author:
   - given: Ada
     family: Katsap
@@ -12902,7 +12912,7 @@ BlackAces:
   - given: Oliver R.
     family: Baker
   page: 13-16
-  URL: https://dx.doi.org/10.1080/0895769X.2013.749156
+  URL: https://doi.org/10.1080/0895769X.2013.749156
   in:
     title: 'ANQ: A Quarterly Journal of Short Articles, Notes, and Reviews'
     volume: 26
@@ -17529,6 +17539,7 @@ RichterSeven:
   - &Jonas_Richter
     given: Jonas
     family: Richter
+    lang: de
     url: https://orcid.org/0000-0002-2924-6026
   title: 'The Game of Seven: Glückshaus and Related Dice Games'
   page: 65-97

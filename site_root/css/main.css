@@ -1092,10 +1092,17 @@ dl {
         }
     }
 
-    span[property='isbn'] {
+    .isbn {
         font-family: 'ocrb';
         font-size: .8em;
         color: var(--colour-secondary);
+    }
+
+    .id {
+        font-family: monospace;
+        a {
+            color: var(--colour-secondary);
+        }
     }
 }
 

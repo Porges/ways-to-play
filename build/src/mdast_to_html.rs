@@ -604,16 +604,14 @@ impl Converter<'_> {
             };
 
             html! {
-                dialog.lightbox id=(id) vocab="" {
+                dialog.lightbox id=(id) {
                     img src=(lightbox_url) srcset=[srcset] sizes=[sizes]
                         width=(meta.width) height=(meta.height) loading="lazy"
                         alt=(alt) title=[title];
                     div.lightbox-under {
-                        p {
-                            (copyright_notice)
-                        }
+                        p { }
                         form method="dialog" {
-                            a property="" href=(meta.url) role="button" target="_blank" { "Full Size (" (meta.width) " × " (meta.height) " pixels)" }
+                            a href=(meta.url) role="button" target="_blank" { "Full Size (" (meta.width) " × " (meta.height) " pixels)" }
                             button.lightbox-close { "Close" }
                         }
                     }
@@ -634,7 +632,7 @@ impl Converter<'_> {
                 Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple()
             );
             Ok(html! {
-                figure class=(figure_classes) property="image" typeof="ImageObject" {
+                figure class=(figure_classes) property="image" typeof="ImageObject cc:Work" {
                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
                     a property="" href={"#" (lb_id)} {
                         img class={"figure-img" (noborder)}
@@ -654,10 +652,16 @@ impl Converter<'_> {
                 }
             })
         } else {
+            let caption = self.expand(caption)?;
             let metas = images
                 .iter()
                 .map(|img| Ok((img, self.resolve_image(&img.url)?)))
                 .collect::<Result<Vec<_>>>()?;
+
+            let caption_id = format!(
+                "caption-{}",
+                Uuid::new_v5(&LB_NAMESPACE, caption.0.as_bytes()).simple()
+            );
 
             Ok(html! {
                 figure class=(figure_classes) {
@@ -667,7 +671,7 @@ impl Converter<'_> {
                                 @let srcset = meta.srcset();
                                 @let sizes = if srcset.is_some() { Some(sizes) } else { None };
                                 @let lb_id = format!("lb-{}", Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple());
-                                div property="image" typeof="ImageObject" {
+                                div property="image" typeof="ImageObject cc:Work" {
                                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
                                     a property="" href={"#" (lb_id)} {
                                         img class={"figure-img" (noborder)}
@@ -686,9 +690,9 @@ impl Converter<'_> {
                         }
                     }
                     // can't figure out how to share this - rdfa:copy doesn't appear to work
-                    figcaption vocab="" {
+                    figcaption resource={"#" (caption_id)} {
                         div {
-                            (self.expand(caption)?)
+                            (caption)
                         }
                         p {
                             (copyright_notice)
@@ -1189,7 +1193,7 @@ impl ImageMetadata {
                 }
                 @if let Some(copyright_holder) = self.copyright_holder() {
                     @if let Some(original_url) = &self.original_url {
-                        a property="" href=(original_url) { (copyright_holder) }
+                        a property="cc:attributionURL" href=(original_url) { (copyright_holder) }
                     } @else {
                         (copyright_holder)
                     }
@@ -1279,10 +1283,15 @@ impl ImageMetadata {
     fn license_info(&self) -> Markup {
         let cc = |name: &str, title: &str, content: Markup| -> Markup {
             let version = self.license_version.as_deref().unwrap_or("4.0");
+            let url = format!("https://creativecommons.org/licenses/{name}/{version}/");
             html! {
-                a property="license" href={"https://creativecommons.org/licenses/" (name) "/" (version) "/"}
-                title={"Licensed under the Creative Commons " (title) " license " (version)} {
-                    (content)
+                span property="cc:license" typeof="cc:License" {
+                    link property="cc:legalcode" href=(url);
+                }
+                a property="license"
+                  href=(url)
+                  title={"Licensed under the Creative Commons " (title) " license " (version)} {
+                  (content)
                 }
             }
         };

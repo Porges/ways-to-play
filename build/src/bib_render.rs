@@ -27,6 +27,41 @@ pub type InlineCiteRenderer = Box<dyn Fn(&str, Option<Markup>) -> Markup + Send 
 
 pub type RenderedBibliography = BTreeMap<String, RenderedEntry>;
 
+fn backfill_doi(reference: &Reference) -> Cow<'_, Reference> {
+    if reference.doi().is_none() {
+        if let Some(url) = reference.common().url.as_deref() {
+            if let Some(doi) = url.strip_prefix("https://doi.org/") {
+                let mut r = reference.clone();
+                r.common_mut().identifiers.insert(format!("doi:{doi}"));
+                return Cow::Owned(r);
+            }
+        }
+    }
+
+    Cow::Borrowed(reference)
+}
+
+fn backfill_handle(reference: &Reference) -> Cow<'_, Reference> {
+    if reference.hdl().is_none() {
+        if let Some(url) = reference.common().url.as_deref() {
+            if let Some(hdl) = url.strip_prefix("https://hdl.handle.net/") {
+                // n2t doesn't handle handles with query strings
+                if !hdl.contains('?') {
+                    let mut r = reference.clone();
+                    if let Some((_, ark)) = hdl.split_once("ark:") {
+                        r.common_mut().identifiers.insert(format!("ark:{ark}"));
+                    } else {
+                        r.common_mut().identifiers.insert(format!("hdl:{hdl}"));
+                    }
+                    return Cow::Owned(r);
+                }
+            }
+        }
+    }
+
+    Cow::Borrowed(reference)
+}
+
 pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
     let mut result = BTreeMap::new();
     for (key, reference) in &bib.references {
@@ -48,7 +83,9 @@ pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
             .or_else(|| reference.publisher().map(|l| l.value.clone()))
             .unwrap_or_default();
 
-        let reference = render_ref(key, reference);
+        let reference = backfill_doi(reference);
+        let reference = backfill_handle(&reference);
+        let reference = render_ref(key, &reference);
 
         result.insert(
             key.clone(),
@@ -129,36 +166,64 @@ fn inline_cite(reference: &Reference) -> Option<InlineCiteRenderer> {
 
 fn book_item_type(book: &Book) -> &'static str {
     if book.volume.is_none() {
-        "Book"
+        "Book bibo:Book"
     } else {
-        "Book PublicationVolume"
+        "Book bibo:Book PublicationVolume"
     }
 }
 
 fn thesis_item_type(thesis: &Thesis) -> &'static str {
     if thesis.volume.is_none() {
-        "Thesis"
+        "Thesis bibo:Thesis"
     } else {
-        "Thesis PublicationVolume"
+        "Thesis bibo:Thesis PublicationVolume"
     }
 }
 
 fn item_type(reference: &Reference) -> &'static str {
     match reference {
-        Reference::ConferencePaper(_) | Reference::JournalArticle(_) => "ScholarlyArticle",
+        Reference::ConferencePaper(_) => "ScholarlyArticle bibo:AcademicArticle",
+        Reference::JournalArticle(_) => "ScholarlyArticle bibo:AcademicArticle",
         Reference::NewspaperArticle(_) | Reference::MagazineArticle(_) => "Article",
         Reference::Book(b) => book_item_type(b),
         Reference::Thesis(t) => thesis_item_type(t),
-        Reference::Chapter(_) => "Chapter",
-        Reference::Patent(_) | Reference::Document(_) => "CreativeWork",
-        Reference::WebPage(_) => "WebPage",
+        Reference::Chapter(_) => "Chapter bibo:Chapter",
+        Reference::Patent(_) => "CreativeWork bibo:Patent",
+        Reference::Document(_) => "CreativeWork bibo:Document",
+        Reference::WebPage(_) => "WebPage bibo:Webpage",
     }
+}
+
+fn item_resource(reference: &Reference) -> Option<String> {
+    if let Some(doi) = reference.doi() {
+        // DOI can be treated as a URN, since it is registered
+        return Some(format!("urn:{doi}"));
+    }
+
+    match reference {
+        // Reference books with ISBNs via URN
+        Reference::Book(Book {
+            isbn: Some(isbn), ..
+        }) => return Some(format!("urn:isbn:{}", isbn.0)),
+        Reference::JournalArticle(JournalArticle {
+            common: Common { url: Some(url), .. },
+            ..
+        }) => {
+            // use a stable URI as resource identifier
+            if url.starts_with("https://jstor.org/stable/") {
+                return Some(url.clone());
+            }
+        }
+        _ => {}
+    }
+
+    None
 }
 
 fn render_ref(key: &str, reference: &Reference) -> Markup {
     html! {
         (render_warnings_and_notes(reference))
-        p #{"ref-" (key)} property="citation" typeof=(item_type(reference)) {
+        p property="citation" #{"ref-" (key)} resource=[item_resource(reference)] typeof=(item_type(reference)) {
             (render_authors(reference))
             " (" (render_date(reference)) "). "
             (render_title(reference))
@@ -172,6 +237,7 @@ fn render_ref(key: &str, reference: &Reference) -> Markup {
             (render_publisher(key, reference))
             (render_isbn(reference))
             (render_original(reference))
+            (render_identifiers(reference))
         }
     }
 }
@@ -194,10 +260,10 @@ fn render_warnings_and_notes(reference: &Reference) -> Markup {
 fn render_authors(r: &Reference) -> Markup {
     html! {
         @if let Ok(authors) = r.authors().try_into() {
-            (render_people(&authors, true, "author"))
+            (render_people(&authors, true, "author dcterms:creator"))
         }
         @else if let Ok(editors) = r.editors().try_into() {
-            (render_people(&editors, true, "editor"))
+            (render_people(&editors, true, "editor bibo:editor"))
             @if editors.len() > 1 {
                 " (" abbr title="editors" { "eds." } ")"
             } @else {
@@ -242,21 +308,27 @@ pub fn needs_space(lang: Option<&str>) -> bool {
     }
 }
 
-fn render_people(
-    people: &OneOrMore<Person>,
-    reverse_first: bool,
-    item_prop: &'static str,
-) -> Markup {
+fn person_resource(person: &Person) -> Option<String> {
+    // use Wikipedia page or ORCID, etc
+    if let Some(url) = person.url.as_deref() {
+        return Some(url.to_string());
+    }
+
+    None
+}
+
+fn render_people(people: &OneOrMore<Person>, reverse_first: bool, prop: &'static str) -> Markup {
     let total = people.len();
     html! {
         @for (ix, person) in people.into_iter().enumerate() {
-            @let given = html! { span property="givenName" { (person.given) } };
-            @let family = person.family.as_deref().map(|f| html! { span property="familyName" { (f) } });
+            @let given = html! { span property="givenName foaf:givenName" { (person.given) } };
+            @let family = person.family.as_deref().map(|f| html! { span property="familyName foaf:familyName" { (f) } });
             @let needs_space = needs_space(person.lang.as_deref());
             @let family_last = family_last(person.lang.as_deref());
             @let is_first = ix == 0;
             @let is_last = ix == total - 1;
             @let name_sep = if needs_space && family.is_some() { " " } else { "" };
+            @let resource = person_resource(person);
 
             // separator
             @if !is_first {
@@ -266,11 +338,13 @@ fn render_people(
             }
 
             span.noun
-                property=(item_prop) typeof="Person"
+                property=(prop)
+                resource=[resource]
+                typeof="Person foaf:Person"
                 lang=[person.lang.as_deref()] {
 
                 // hidden name
-                meta property="name" content={
+                meta property="name foaf:name" content={
                     @let given_str = person.given.as_str();
                     @let family_str = person.family.as_deref().unwrap_or("");
                     @let (first, second) = if family_last {
@@ -345,7 +419,7 @@ fn render_title(r: &Reference) -> Markup {
     let additional_suffix = r.common().language.as_ref().map(|lang| {
         html! {
             "text in " (INTL.english_name(lang).unwrap())
-            meta property="inLanguage" content=(lang);
+            meta property="inLanguage dcterms:language" content=(lang);
         }
     });
 
@@ -354,7 +428,7 @@ fn render_title(r: &Reference) -> Markup {
         " [",
         "]",
         additional_suffix,
-        Some("alternateName"),
+        Some("alternateName dcterms:alternative"),
     );
 
     if matches!(r, Reference::Book(_) | Reference::Thesis(_)) {
@@ -386,7 +460,7 @@ fn render_title(r: &Reference) -> Markup {
             _ => {}
         }
 
-        let title = render_lstr_just_cite(&title_lstr, None, Some("name"));
+        let title = render_lstr_just_cite(&title_lstr, None, Some("name dcterms:title"));
 
         html! {
             @if let Some(url) = &r.common().url {
@@ -401,7 +475,7 @@ fn render_title(r: &Reference) -> Markup {
             @if let Reference::Book(Book { volume: Some(vol), volume_title, ..}) |
                 Reference::Thesis(Thesis { volume: Some(vol), volume_title, .. }) = r {
                 " volume "
-                span property="volumeNumber" { (vol.to_string(true)) }
+                span property="volumeNumber bibo:volume" { (vol.to_string(true)) }
                 @if let Some(vol_title) = &volume_title {
                     ": ‘" (render_lstr(vol_title, None, None, None)) "’"
                 }
@@ -409,7 +483,7 @@ fn render_title(r: &Reference) -> Markup {
             @if let Reference::Book(b) = r {
                 @if let Some(edition) = &b.edition {
                     " ("
-                    span property="bookEdition" {
+                    span property="bookEdition bibo:edition" {
                         @match edition {
                             NumberOrString::Num(n) => {
                                 (ordinal(*n)) " edition"
@@ -424,7 +498,11 @@ fn render_title(r: &Reference) -> Markup {
             }
         }
     } else {
-        let title = render_lstr_just_span(&r.common().title, Some("noun"), Some("name headline"));
+        let title = render_lstr_just_span(
+            &r.common().title,
+            Some("noun"),
+            Some("name headline dcterms:title"),
+        );
 
         html! {
             "‘"
@@ -456,7 +534,7 @@ fn render_date(reference: &Reference) -> Markup {
 
     html! {
         @if let Some(date) = date {
-            time property="datePublished" datetime=(date.to_iso()) {
+            time property="datePublished dcterms:issued" datetime=(date.to_iso()) {
                 @if date.attr().circa {
                     abbr title="circa" { "c." }
                     " "
@@ -672,7 +750,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                         Pagination::Num(n) => n.to_string(),
                     };
 
-                    span property="pagination" { (pagination) }
+                    span property="pagination bibo:pages" { (pagination) }
                 }
 
                 ". "
@@ -697,13 +775,13 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                         Pagination::Num(n) => n.to_string(),
                     };
 
-                    span property="pagination" { (pagination) }
+                    span property="pagination bibo:pages" { (pagination) }
                     " in "
                 } @else {
                     "In "
                 }
 
-                (render_book(key, book, "isPartOf"))
+                (render_book(key, book, "isPartOf dcterms:isPartOf"))
             }
         }
         Reference::WebPage(WebPage {
@@ -711,8 +789,8 @@ fn render_container(key: &str, r: &Reference) -> Markup {
         }) => html! {
             @if let Some(title) = container_title {
                 "On the website "
-                span property="isPartOf" typeof="WebSite"{
-                    (render_lstr_cite(title, None, Some("name"), Some("alternateName")))
+                span property="isPartOf dcterms:isPartOf" typeof="WebSite bibo:Website"{
+                    (render_lstr_cite(title, None, Some("name dcterms:title"), Some("alternateName")))
                 }
 
                 @if let Some(archive_url) = r.common().archive_url.as_ref()
@@ -895,9 +973,9 @@ fn render_publisher(key: &str, r: &Reference) -> Markup {
     }
 
     html! {
-        span property="publisher" typeof="Organization" resource={"#"(key)"-publisher"} {
+        span property="publisher dcterms:publisher" typeof="Organization foaf:Organization" resource={"#"(key)"-publisher"} {
             @if let Some(publisher) = publisher {
-                (render_lstr(publisher, Some("noun"), Some("name"), Some("alternateName")))
+                (render_lstr(publisher, Some("noun foaf:name"), Some("name"), Some("alternateName")))
                 @if place.is_none() {
                     @if !publisher.value.ends_with('.') {
                         ". "
@@ -919,7 +997,7 @@ fn render_publisher(key: &str, r: &Reference) -> Markup {
 fn render_genre(r: &Reference) -> Markup {
     html! {
         @if let Reference::Thesis(Thesis{genre: Some(g), ..}) = r {
-            (g) ", "
+            span property="degree" typeof="bibo:ThesisDegree" { (g) } ", "
         }
     }
 }
@@ -928,10 +1006,24 @@ fn render_isbn(r: &Reference) -> Markup {
     html! {
         @if let Reference::Book(Book{isbn: Some(isbn), ..}) = r {
             " "
-            @let isbn = isbn.0.hyphenate().unwrap();
+            @let nice_isbn = isbn.0.hyphenate().unwrap();
             abbr.initialism { "ISBN" } ": "
-            a property="" href={"https://www.worldcat.org/isbn/"(isbn)} {
-                span property="isbn" { (isbn) }
+            a.isbn property="sameAs" href={"https://www.worldcat.org/isbn/"(isbn.0)} {
+                span property="isbn bibo:isbn" { (nice_isbn) }
+            }
+            ". "
+        }
+    }
+}
+
+fn render_identifiers(r: &Reference) -> Markup {
+    html! {
+        @for id in &r.common().identifiers {
+            " "
+            span.id {
+                a property="sameAs" href={"https://n2t.net/"(id)} {
+                    span property="dcterms:identifier" { (id) }
+                }
             }
             ". "
         }

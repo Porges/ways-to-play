@@ -1,4 +1,8 @@
-use std::{collections::BTreeMap, convert::Infallible, str::FromStr};
+use std::{
+    collections::{BTreeMap, BTreeSet},
+    convert::Infallible,
+    str::FromStr,
+};
 
 use icu::locale::LanguageIdentifier;
 use serde::{
@@ -16,7 +20,7 @@ pub struct Bibliography {
     pub references: BTreeMap<String, Reference>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(tag = "type")]
 pub enum Reference {
     #[serde(rename = "article-journal")]
@@ -51,6 +55,22 @@ pub enum Reference {
 }
 
 impl Reference {
+    pub fn doi(&self) -> Option<&str> {
+        self.common()
+            .identifiers
+            .iter()
+            .find(|s| s.starts_with("doi:"))
+            .map(|s| &s[4..])
+    }
+
+    pub fn hdl(&self) -> Option<&str> {
+        self.common()
+            .identifiers
+            .iter()
+            .find(|s| s.starts_with("hdl:"))
+            .map(|s| &s[4..])
+    }
+
     pub fn common(&self) -> &Common {
         match self {
             Reference::JournalArticle(x) => &x.common,
@@ -63,6 +83,21 @@ impl Reference {
             Reference::Thesis(x) => &x.common,
             Reference::ConferencePaper(x) => &x.common,
             Reference::Patent(x) => &x.common,
+        }
+    }
+
+    pub fn common_mut(&mut self) -> &mut Common {
+        match self {
+            Reference::JournalArticle(x) => &mut x.common,
+            Reference::NewspaperArticle(x) => &mut x.common,
+            Reference::MagazineArticle(x) => &mut x.common,
+            Reference::Book(x) => &mut x.common,
+            Reference::Chapter(x) => &mut x.common,
+            Reference::Document(x) => &mut x.common,
+            Reference::WebPage(x) => &mut x.common,
+            Reference::Thesis(x) => &mut x.common,
+            Reference::ConferencePaper(x) => &mut x.common,
+            Reference::Patent(x) => &mut x.common,
         }
     }
 
@@ -132,6 +167,10 @@ pub struct Common {
 
     #[serde(rename = "URL")]
     pub url: Option<String>,
+
+    #[serde(default)]
+    pub identifiers: BTreeSet<String>,
+
     #[serde(rename = "archive-URL")]
     pub archive_url: Option<String>,
 
@@ -142,7 +181,7 @@ pub struct Common {
 }
 
 #[serde_as]
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct JournalArticle {
     #[serde(flatten)]
@@ -154,7 +193,7 @@ pub struct JournalArticle {
     pub periodical: Periodical,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct NewspaperArticle {
     #[serde(flatten)]
@@ -165,7 +204,7 @@ pub struct NewspaperArticle {
     pub periodical: Periodical,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct MagazineArticle {
     #[serde(flatten)]
@@ -177,7 +216,7 @@ pub struct MagazineArticle {
 }
 
 #[serde_as]
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Periodical {
     pub title: LString,
@@ -198,7 +237,7 @@ pub struct Periodical {
     pub issn: Option<NumberOrString>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 #[serde(untagged)]
 pub enum Pagination {
@@ -250,7 +289,7 @@ pub struct Book {
     pub editor: Vec<Person>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Chapter {
     #[serde(flatten)]
@@ -263,7 +302,7 @@ pub struct Chapter {
 }
 
 #[serde_as]
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct WebPage {
     #[serde(flatten)]
@@ -285,7 +324,7 @@ pub struct WebPage {
     pub publisher_place: Option<LString>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct ConferencePaper {
     #[serde(flatten)]
@@ -298,7 +337,7 @@ pub struct ConferencePaper {
     // TODO: conference date?
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Patent {
     #[serde(flatten)]
@@ -314,7 +353,7 @@ pub struct Patent {
     pub application_number: Option<NumberOrString>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Thesis {
     #[serde(flatten)]
@@ -330,7 +369,7 @@ pub struct Thesis {
     pub publisher_place: Option<LString>,
 }
 
-#[derive(Deserialize, Debug)]
+#[derive(Deserialize, Debug, Clone)]
 #[serde(deny_unknown_fields)]
 pub struct Document {
     #[serde(flatten)]
