@@ -1,8 +1,13 @@
 # Language stuff
 .* Language tag should omit the default script for the language.
-Bad value “(cmn-Latn-pinyin|tws(-Latn)?|el-polyton-Latn|grc)” for attribute “lang” on element .*
+Bad value “(cmn-Latn-pinyin|nan-Latn-(pehoeji|pengim|TW-tailo)|nan-teochew|tws(-Latn)?|el-polyton-Latn|grc)” for attribute “lang” on element .*
 # <dialog> -related bits
 The “dialog” element is not supported in all browsers. .*
 Bad value “dialog” for attribute “method” on element “form”.
 # “Unnecessary” roles
 The “searchbox” role is unnecessary for an “input” element that has no “list” attribute and whose type is “search”.
+# Don’t care if things are not in NFC
+Text run is not in Unicode Normalization Form C.
+The value of attribute “.*” on element “.*” from namespace “http://www.w3.org/1999/xhtml” is not in Unicode Normalization Form C.
+# Years <1000 are ok
+Potentially bad value “0\d\d\d” for attribute “datetime” on element “time”: Year may be mistyped.

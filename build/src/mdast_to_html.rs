@@ -1,4 +1,11 @@
-use std::{borrow::Cow, collections::BTreeMap, fmt::Write, path::Path, sync::LazyLock};
+use std::{
+    borrow::Cow,
+    cell::RefCell,
+    collections::{BTreeMap, HashSet},
+    fmt::Write,
+    path::Path,
+    sync::LazyLock,
+};
 
 use eyre::{bail, eyre, Context, OptionExt, Result};
 use icu::locale::{langid, LanguageIdentifier};
@@ -76,6 +83,7 @@ pub fn to_html(
         url_lookup,
         aka_handler: &mut aka_handler,
         cite_handler: &mut cite_handler,
+        lightboxes: Default::default(),
     }
     .convert_whole(node)
 }
@@ -93,6 +101,7 @@ struct Converter<'a> {
     url_lookup: &'a BTreeMap<String, Option<&'a str>>,
     aka_handler: &'a mut dyn FnMut(LanguageIdentifier, Markup),
     cite_handler: &'a mut dyn FnMut(&str, &str),
+    lightboxes: RefCell<HashSet<String>>, // only want to emit one lightbox per image
 }
 
 fn index_to_string(mut index: u32) -> String {
@@ -573,11 +582,17 @@ impl Converter<'_> {
             _ => 300,
         };
 
+        let caption = self.expand(caption)?;
+
         let lightbox = |id: &str,
                         meta: &ImageManifestEntry,
                         alt: &str,
                         title: Option<&str>|
          -> Markup {
+            if !self.lightboxes.borrow_mut().insert(id.to_string()) {
+                return Markup::default();
+            }
+
             // placeholder URL
             let (_, lightbox_url) = meta.url_for_width(1200);
             // actual srcset/sizes:
@@ -643,7 +658,7 @@ impl Converter<'_> {
                     }
                     figcaption {
                         div property="caption" {
-                            (self.expand(caption)?)
+                            (caption)
                         }
                         p {
                             (copyright_notice)
@@ -652,7 +667,6 @@ impl Converter<'_> {
                 }
             })
         } else {
-            let caption = self.expand(caption)?;
             let metas = images
                 .iter()
                 .map(|img| Ok((img, self.resolve_image(&img.url)?)))
