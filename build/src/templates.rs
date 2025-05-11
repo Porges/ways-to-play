@@ -211,7 +211,7 @@ impl Templater {
                                     @for (ix, (url, name)) in breadcrumbs.iter().enumerate() {
                                         li property="itemListElement" typeof="ListItem" {
                                             meta property="position" content=(ix + 1);
-                                            a property="item" href=(url) {
+                                            a property="item" typeof="WebPage" href=(url) {
                                                 @if let Some(name) = name {
                                                     span property="name" { (name) }
                                                 } @else {
