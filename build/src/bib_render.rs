@@ -1061,7 +1061,7 @@ fn render_publisher(key: &str, r: &Reference) -> Markup {
 fn render_genre(r: &Reference) -> Markup {
     html! {
         @if let Reference::Thesis(Thesis{genre: Some(g), ..}) = r {
-            span property="degree" typeof="bibo:ThesisDegree" { (g) } ", "
+            span property="inSupportOf bibo:degree" typeof="bibo:ThesisDegree" { (g) } ", "
         }
     }
 }
