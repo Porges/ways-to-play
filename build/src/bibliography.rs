@@ -55,20 +55,11 @@ pub enum Reference {
 }
 
 impl Reference {
-    pub fn doi(&self) -> Option<&str> {
+    pub fn identifier(&self, prefix: &str) -> Option<&str> {
         self.common()
             .identifiers
             .iter()
-            .find(|s| s.starts_with("doi:"))
-            .map(|s| &s[4..])
-    }
-
-    pub fn hdl(&self) -> Option<&str> {
-        self.common()
-            .identifiers
-            .iter()
-            .find(|s| s.starts_with("hdl:"))
-            .map(|s| &s[4..])
+            .find_map(|s| s.strip_prefix(prefix))
     }
 
     pub fn common(&self) -> &Common {
@@ -178,6 +169,85 @@ pub struct Common {
 
     pub notes: Option<String>,
     pub warnings: Option<String>,
+}
+
+impl Common {
+    /// a resource identifier, compatible with RDFa resource
+    pub fn resource_id(&self) -> Option<String> {
+        self.identifiers
+            .iter()
+            .find_map(|id| identifier_info(id).resource_id)
+    }
+}
+
+pub struct IdentifierInfo {
+    /// strong resource identifier, compatible with RDFa resource
+    pub resource_id: Option<String>,
+
+    /// property names for this identifier
+    pub property: &'static str,
+
+    /// URL to be tied to this identifier
+    pub url: String,
+
+    /// is this a digital identifier? - used for formatting purposes
+    pub digital: bool,
+    pub presentation_form: Option<String>,
+}
+
+pub fn identifier_info(id: &str) -> IdentifierInfo {
+    if let Some(doi) = id.strip_prefix("doi:") {
+        IdentifierInfo {
+            url: format!("https://doi.org/{doi}"),
+            resource_id: Some(format!("urn:doi:{doi}")),
+            property: "bibo:doi",
+            digital: true,
+            presentation_form: None,
+        }
+    } else if let Some(isbn) = id.strip_prefix("isbn:") {
+        let nice_isbn = isbn::Isbn::from_str(isbn)
+            .and_then(|isbn| isbn.hyphenate())
+            .unwrap();
+        IdentifierInfo {
+            url: format!("https://www.worldcat.org/isbn/{isbn}"),
+            resource_id: Some(format!("urn:isbn:{isbn}")),
+            property: "isbn bibo:isbn",
+            digital: false,
+            presentation_form: Some(nice_isbn.to_string()),
+        }
+    } else if let Some(issn) = id.strip_prefix("issn:") {
+        IdentifierInfo {
+            url: format!("https://www.worldcat.org/issn/{issn}"),
+            resource_id: Some(format!("urn:issn:{issn}")),
+            property: "issn bibo:issn",
+            digital: false,
+            presentation_form: None,
+        }
+    } else if let Some(hdl) = id.strip_prefix("hdl:") {
+        IdentifierInfo {
+            url: format!("https://hdl.handle.net/{hdl}"),
+            resource_id: None,
+            property: "bibo:handle fabio:hasHandle",
+            digital: true,
+            presentation_form: None,
+        }
+    } else if let Some(lccn) = id.strip_prefix("lccn:") {
+        IdentifierInfo {
+            url: format!("https://n2t.net/lccn:{lccn}"),
+            resource_id: None,
+            property: "bibo:lccn",
+            digital: false,
+            presentation_form: None,
+        }
+    } else {
+        IdentifierInfo {
+            url: format!("https://n2t.net/{id}"),
+            resource_id: None,
+            property: "dcterms:identifier",
+            digital: true,
+            presentation_form: None,
+        }
+    }
 }
 
 #[serde_as]

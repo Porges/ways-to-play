@@ -5,9 +5,9 @@ use time::macros::format_description;
 
 use crate::{
     bibliography::{
-        Bibliography, Book, Chapter, Common, ConferencePaper, Date, Document, JournalArticle,
-        LString, MagazineArticle, NewspaperArticle, NumberOrString, Pagination, Periodical, Person,
-        Reference, Thesis, WebPage,
+        identifier_info, Bibliography, Book, Chapter, Common, ConferencePaper, Date, Document,
+        JournalArticle, LString, MagazineArticle, NewspaperArticle, NumberOrString, Pagination,
+        Periodical, Person, Reference, Thesis, WebPage,
     },
     intl::INTL,
     nvec::OneOrMore,
@@ -27,8 +27,26 @@ pub type InlineCiteRenderer = Box<dyn Fn(&str, Option<Markup>) -> Markup + Send 
 
 pub type RenderedBibliography = BTreeMap<String, RenderedEntry>;
 
+fn backfill_isbn(reference: &Reference) -> Cow<'_, Reference> {
+    match reference {
+        Reference::Book(Book {
+            isbn: Some(isbn), ..
+        }) => {
+            let mut result = reference.clone();
+            result
+                .common_mut()
+                .identifiers
+                .insert(format!("isbn:{}", isbn.0));
+            return Cow::Owned(result);
+        }
+        _ => {}
+    }
+
+    Cow::Borrowed(reference)
+}
+
 fn backfill_doi(reference: &Reference) -> Cow<'_, Reference> {
-    if reference.doi().is_none() {
+    if reference.identifier("doi:").is_none() {
         if let Some(url) = reference.common().url.as_deref() {
             if let Some(doi) = url.strip_prefix("https://doi.org/") {
                 let mut r = reference.clone();
@@ -42,7 +60,7 @@ fn backfill_doi(reference: &Reference) -> Cow<'_, Reference> {
 }
 
 fn backfill_handle(reference: &Reference) -> Cow<'_, Reference> {
-    if reference.hdl().is_none() {
+    if reference.identifier("hdl:").is_none() {
         if let Some(url) = reference.common().url.as_deref() {
             if let Some(hdl) = url.strip_prefix("https://hdl.handle.net/") {
                 // n2t doesn't handle handles with query strings
@@ -84,6 +102,7 @@ pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
             .unwrap_or_default();
 
         let reference = backfill_doi(reference);
+        let reference = backfill_isbn(&reference);
         let reference = backfill_handle(&reference);
         let reference = render_ref(key, &reference);
 
@@ -166,17 +185,9 @@ fn inline_cite(reference: &Reference) -> Option<InlineCiteRenderer> {
 
 fn book_item_type(book: &Book) -> &'static str {
     if book.volume.is_none() {
-        "Book bibo:Book"
+        "Book bibo:Book fabio:Book"
     } else {
-        "Book bibo:Book PublicationVolume"
-    }
-}
-
-fn thesis_item_type(thesis: &Thesis) -> &'static str {
-    if thesis.volume.is_none() {
-        "Thesis bibo:Thesis"
-    } else {
-        "Thesis bibo:Thesis PublicationVolume"
+        "Book PublicationVolume bibo:Book fabio:Book"
     }
 }
 
@@ -184,22 +195,36 @@ fn item_type(reference: &Reference) -> &'static str {
     match reference {
         Reference::ConferencePaper(_) => "ScholarlyArticle bibo:AcademicArticle",
         Reference::JournalArticle(_) => "ScholarlyArticle bibo:AcademicArticle",
-        Reference::NewspaperArticle(_) | Reference::MagazineArticle(_) => "Article",
-        Reference::Book(b) => book_item_type(b),
-        Reference::Thesis(t) => thesis_item_type(t),
-        Reference::Chapter(_) => "Chapter bibo:Chapter",
-        Reference::Patent(_) => "CreativeWork bibo:Patent",
-        Reference::Document(_) => "CreativeWork bibo:Document",
-        Reference::WebPage(_) => "WebPage bibo:Webpage",
+        Reference::NewspaperArticle(_) => "Article bibo:Article fabio:NewspaperArticle",
+        Reference::MagazineArticle(_) => "Article bibo:Article fabio:MagazineArticle",
+        Reference::Book(b) => {
+            if b.volume.is_none() {
+                "Book bibo:Book fabio:Book"
+            } else {
+                "Book PublicationVolume bibo:Book fabio:Book"
+            }
+        }
+        Reference::Thesis(t) => {
+            if t.volume.is_none() {
+                "Thesis bibo:Thesis fabio:Thesis"
+            } else {
+                "Thesis PublicationVolume bibo:Thesis fabio:Thesis"
+            }
+        }
+        Reference::Chapter(_) => "Chapter bibo:Chapter fabio:BookChapter",
+        Reference::Patent(p) => {
+            if p.issued.is_some() {
+                "CreativeWork bibo:Patent fabio:Patent"
+            } else {
+                "CreativeWork bibo:Patent fabio:PatentApplication"
+            }
+        }
+        Reference::Document(_) => "CreativeWork bibo:Document fabio:Work",
+        Reference::WebPage(_) => "WebPage bibo:Webpage fabio:WebPage",
     }
 }
 
 fn item_resource(reference: &Reference) -> Option<String> {
-    if let Some(doi) = reference.doi() {
-        // DOI can be treated as a URN, since it is registered
-        return Some(format!("urn:{doi}"));
-    }
-
     match reference {
         // Reference books with ISBNs via URN
         Reference::Book(Book {
@@ -235,9 +260,8 @@ fn render_ref(key: &str, reference: &Reference) -> Markup {
             (render_container(key, reference))
             (render_genre(reference))
             (render_publisher(key, reference))
-            (render_isbn(reference))
-            (render_original(reference))
             (render_identifiers(reference))
+            (render_original(reference))
         }
     }
 }
@@ -539,7 +563,7 @@ fn render_date(reference: &Reference) -> Markup {
                     abbr title="circa" { "c." }
                     " "
                 }
-                (date.year().to_string())
+                span property="fabio:hasPublicationYear" { (date.year().to_string()) }
                 @if date.attr().old_style {
                     " ["
                     abbr title="old-style" { "OS" }
@@ -670,8 +694,8 @@ fn render_series(r: &Reference) -> Markup {
 
     html! {
         "; "
-        span property="isPartOf" typeof="BookSeries" {
-            @let title = render_lstr(&series.title, None, Some("name"), Some("alternateName"));
+        span property="isPartOf dcterms:isPartOf frbr:partOf" typeof="BookSeries bibo:Series fabio:BookSeries" {
+            @let title = render_lstr(&series.title, None, Some("name dcterms:title"), Some("alternateName"));
             @if let Some(url) = &series.url {
                 a property="url" href=(url) { (title) }
             } @else {
@@ -681,7 +705,7 @@ fn render_series(r: &Reference) -> Markup {
                 " ("
                 abbr.initialism { "ISSN" }
                 " "
-                span property="issn" { (issn.to_string(false)) }
+                span property="issn bibo:issn" { (issn.to_string(false)) }
                 ")"
             }
             @if let Some(volume) = &series.volume {
@@ -736,8 +760,16 @@ fn render_container(key: &str, r: &Reference) -> Markup {
         | Reference::MagazineArticle(MagazineArticle {
             page, periodical, ..
         }) => {
+            let pt = if matches!(r, Reference::JournalArticle(_)) {
+                PeriodicalType::Journal
+            } else if matches!(r, Reference::NewspaperArticle(_)) {
+                PeriodicalType::NewsPaper
+            } else {
+                PeriodicalType::Magazine
+            };
+
             html! {
-                (render_periodical(key, periodical))
+                (render_periodical(key, periodical, pt))
                 @if let Some(page) = page {
                     @if matches!(page, Pagination::Num(_)) {
                         ": page "
@@ -789,7 +821,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
         }) => html! {
             @if let Some(title) = container_title {
                 "On the website "
-                span property="isPartOf dcterms:isPartOf" typeof="WebSite bibo:Website"{
+                span property="isPartOf dcterms:isPartOf frbr:partOf" typeof="WebSite bibo:Website fabio:WebSite"{
                     (render_lstr_cite(title, None, Some("name dcterms:title"), Some("alternateName")))
                 }
 
@@ -801,7 +833,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                     @let iso_date = access_date.format(format_description!("[year]-[month]-[day]")).unwrap();
                     @let nice_date = format!("{}, {} {} {}", access_date.weekday(), ordinal(access_date.day() as u64), access_date.month(), access_date.year());
                     " (accessed "
-                    time property="lastReviewed" datetime=(iso_date) { (nice_date) }
+                    time property="lastReviewed fabio:hasDepositDate" datetime=(iso_date) { (nice_date) }
                     ")"
                 }
 
@@ -820,7 +852,7 @@ fn render_book(key: &str, book: &Book, item_prop: &str) -> Markup {
     let bookr = &Reference::Book(book.clone());
     let key = key.to_string() + "-book";
     html! {
-        span property=(item_prop) typeof=(book_item_type(book)) {
+        span property=(item_prop) typeof=(book_item_type(book)) resource=[bookr.common().resource_id()] {
             (render_title(bookr))
             @if let Ok(authors) = bookr.authors().try_into() {
                 ", " (render_people(&authors, false, "author"))
@@ -836,7 +868,13 @@ fn render_book(key: &str, book: &Book, item_prop: &str) -> Markup {
     }
 }
 
-fn render_periodical(key: &str, p: &Periodical) -> Markup {
+enum PeriodicalType {
+    Journal,
+    NewsPaper,
+    Magazine,
+}
+
+fn render_periodical(key: &str, p: &Periodical, pt: PeriodicalType) -> Markup {
     let date_part = if matches!(p.issued, Date::YearMonthDay { .. } | Date::YearMonth { .. }) {
         html! {
             ", "
@@ -848,56 +886,82 @@ fn render_periodical(key: &str, p: &Periodical) -> Markup {
         Markup::default()
     };
 
+    let periodical_resource = if let Some(issn) = &p.issn {
+        format!("urn:issn:{}", issn.to_string(false))
+    } else {
+        format!("#{key}-periodical")
+    };
+
+    let periodical_type = match pt {
+        PeriodicalType::Journal => "Periodical bibo:Journal fabio:Journal",
+        PeriodicalType::NewsPaper => "Periodical bibo:Newspaper fabio:Newspaper",
+        PeriodicalType::Magazine => "Periodical bibo:Magazine fabio:Magazine",
+    };
+
+    let volume_type = match pt {
+        PeriodicalType::Journal => "PublicationVolume bibo:CollectedDocument fabio:JournalVolume",
+        PeriodicalType::NewsPaper => {
+            "PublicationVolume bibo:CollectedDocument fabio:NewspaperVolume"
+        }
+        PeriodicalType::Magazine => "PublicationVolume bibo:CollectedDocument fabio:MagazineVolume",
+    };
+
+    let issue_type = match pt {
+        PeriodicalType::Journal => "PublicationIssue bibo:Issue fabio:JournalIssue",
+        PeriodicalType::NewsPaper => "PublicationIssue bibo:Issue fabio:NewspaperIssue",
+        PeriodicalType::Magazine => "PublicationIssue bibo:Issue fabio:MagazineIssue",
+    };
+
     html! {
         @match (p.issue, &p.volume) {
             (Some(issue), Some(volume)) => {
-                span typeof="Periodical" resource={"#"(key)"-periodical"} {
-                    link property="publisher" href={"#"(key)"-publisher"};
+                span typeof=(periodical_type) resource=(periodical_resource) {
+                    link property="publisher dc:publisher" href={"#"(key)"-publisher"};
                     (render_lstr_cite(&p.title, None, Some("name"), Some("alternateName")))
                 }
                 " "
-                span typeof="PublicationVolume" resource={"#"(key)"-volume"} {
-                    link property="isPartOf" href={"#"(key)"-periodical"};
+                span typeof=(volume_type) resource={"#"(key)"-volume"} {
+                    link property="isPartOf frbr:partOf" href=(periodical_resource);
                     abbr title="volume" { "vol." }
                     " "
-                    span property="volumeNumber" { (volume.to_string(true)) }
+                    span property="volumeNumber bibo:volume" { (volume.to_string(true)) }
                 }
                 " "
-                span typeof="PublicationIssue" property="isPartOf" {
-                    link property="isPartOf" href={"#"(key)"-volume"};
-                    "(" span property="issueNumber" { (INTL.format_number(issue)) } ")"
+                span typeof=(issue_type) property="isPartOf frbr:partOf" {
+                    link property="isPartOf frbr:partOf" href={"#"(key)"-volume"};
+                    "(" span property="issueNumber bibo:issue" { (INTL.format_number(issue)) } ")"
                     (date_part)
                 }
             }
             (Some(issue), None) => {
-                span typeof="Periodical" resource={"#"(key)"-periodical"} {
-                    link property="publisher" href={"#"(key)"-publisher"};
+                span typeof=(periodical_type) resource=(periodical_resource) {
+                    link property="publisher dc:publisher" href={"#"(key)"-publisher"};
                     (render_lstr_cite(&p.title, None, Some("name"), Some("alternateName")))
                 }
                 " "
-                span typeof="PublicationIssue" property="isPartOf" {
-                    link property="isPartOf" href={"#"(key)"-periodical"};
-                    "(" span property="issueNumber" { (INTL.format_number(issue)) } ")"
+                span typeof=(issue_type) property="isPartOf frbr:partOf" {
+                    link property="isPartOf frbr:partOf" href=(periodical_resource);
+                    "(" span property="issueNumber bibo:issue" { (INTL.format_number(issue)) } ")"
                     (date_part)
                 }
             }
             (None, Some(volume)) => {
-                span typeof="Periodical" resource={"#"(key)"-periodical"} {
-                    link property="publisher" href={"#"(key)"-publisher"};
+                span typeof=(periodical_type) resource=(periodical_resource) {
+                    link property="publisher dc:publisher" href={"#"(key)"-publisher"};
                     (render_lstr_cite(&p.title, None, Some("name"), Some("alternateName")))
                 }
                 " "
-                span typeof="PublicationVolume" property="isPartOf" {
-                    link property="isPartOf" href={"#"(key)"-periodical"};
+                span typeof=(volume_type) property="isPartOf frbr:partOf" {
+                    link property="isPartOf" href=(periodical_resource);
                     abbr title="volume" { "vol." }
                     " "
-                    span property="volumeNumber" { (volume.to_string(true)) }
+                    span property="volumeNumber bibo:volume" { (volume.to_string(true)) }
                     (date_part)
                 }
             }
             (None, None) => {
-                span typeof="Periodical" property="isPartOf" {
-                    link property="publisher" href={"#"(key)"-publisher"};
+                span typeof=(periodical_type) resource=(periodical_resource) property="isPartOf frbr:partOf" {
+                    link property="publisher dc:publisher" href={"#"(key)"-publisher"};
                     (render_lstr_cite(&p.title, None, Some("name"), Some("alternateName")))
                     (date_part)
                 }
@@ -1019,10 +1083,19 @@ fn render_isbn(r: &Reference) -> Markup {
 fn render_identifiers(r: &Reference) -> Markup {
     html! {
         @for id in &r.common().identifiers {
+            @let info = identifier_info(id);
             " "
-            span.id {
-                a property="sameAs" href={"https://n2t.net/"(id)} {
-                    span property="dcterms:identifier" { (id) }
+            @if info.digital {
+                span.id {
+                    a property="sameAs" href=(info.url) {
+                        span property=(info.property) { (info.presentation_form.as_deref().unwrap_or(id)) }
+                    }
+                }
+            } @else {
+                @let (prefix, suffix) = id.split_once(':').unwrap();
+                abbr.initialism { (prefix.to_ascii_uppercase()) } ": "
+                a.isbn property="sameAs" href=(info.url) {
+                    span property=(info.property) { (info.presentation_form.as_deref().unwrap_or(suffix)) }
                 }
             }
             ". "

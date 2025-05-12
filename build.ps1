@@ -1,4 +1,5 @@
 #!/bin/env pwsh
+#Requires -Version 7.2
 param(
     [switch]$watch = $false,
     [switch]$drafts = $false,
@@ -6,6 +7,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
+$PSNativeCommandUseErrorActionPreference = $true
 
 $env:LC_ALL = "C.UTF-8"
 $env:MAGICK_THREAD_LIMIT = 1

@@ -35,7 +35,7 @@ pub struct Intl {
 
 impl Intl {
     pub fn new() -> Self {
-        let locale: Locale = locale!("en-GB").into();
+        let locale: Locale = locale!("en-GB");
         let options = Default::default();
 
         let display_names_prefs = DisplayNamesPreferences::from(&locale);

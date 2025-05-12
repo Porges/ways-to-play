@@ -140,9 +140,10 @@ impl Templater {
 
         let content = html! {
             (DOCTYPE)
-            html lang="en" prefix="og: https://ogp.me/ns# schema: http://schema.org/ cc: http://creativecommons.org/ns# dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/" {
+            html lang="en" typeof="schema:WebPage" prefix="og: https://ogp.me/ns# schema: http://schema.org/ cc: http://creativecommons.org/ns# dcterms: http://purl.org/dc/terms/ bibo: http://purl.org/ontology/bibo/ fabio: http://purl.org/spar/fabio/ pro: http://purl.org/spar/pro/ frbr: http://purl.org/vocab/frbr/core# biro: http://purl.org/spar/biro/ co: http://purl.org/co/ datacite: http://purl.org/spar/datacite/" {
                 head {
                     meta charset="utf-8";
+                    base href=(url);
                     link rel="shortcut icon" type="image/png" href="/favicon.png" ;
                     link rel="preload" href="/fonts/sourceserif4/SourceSerif4Variable-Latin-Roman.ttf.woff2" as="font" type="font/woff2" crossorigin;
                     link rel="preload" href="/fonts/sourceserif4/SourceSerif4Variable-Latin-Italic.ttf.woff2" as="font" type="font/woff2" crossorigin;
@@ -182,15 +183,15 @@ impl Templater {
                       "})(window, document, 'clarity', 'script', 'gzk1ekbi1n');"
                     }
                 }
-                body vocab="https://schema.org/" typeof="WebPage" {
-                    div property="isPartOf" typeof="WebSite" {
-                        meta property="url" content=(self.site_url);
-                        meta property="name" content="Ways To Play";
-                    }
+                body vocab="http://schema.org/" {
                     header {
                         nav.site {
                             div {
-                              a.brand href="/" { "Ways to Play" }
+                              span property="isPartOf" typeof="WebSite" resource=(self.site_url) {
+                                a.brand property="url" href=(self.site_url) {
+                                    span property="name" { "Ways to Play" }
+                                }
+                              }
                               ul.under-brand {
                                 li { a href="/articles/" { "Articles" } }
                                 li { a href="/games/" { "Games" } }
@@ -198,7 +199,7 @@ impl Templater {
                             }
                             form #search-box role="search" method="get" action="https://duckduckgo.com/" target="_top" {
                               span.simple {
-                                  input type="search" role="searchbox" name="q" required placeholder="Search this site" aria-label="Search this site";
+                                  input type="search" name="q" required placeholder="Search this site" aria-label="Search this site";
                                   button type="submit" { "\u{1F50D}\u{FE0E}" }
                               }
                               input type="hidden" name="sites" value="games.porg.es";
@@ -299,7 +300,7 @@ impl Templater {
             article,
             breadcrumbs,
             html! {
-                article property="mainEntity" typeof="https://schema.org/Article" {
+                article property="mainEntity" typeof="http://schema.org/Article" {
                     link property="copyrightHolder author publisher" href="#me";
                     h1.page-title property="headline" {
                         @if let Some(original_title) = article.original_title() {
@@ -368,7 +369,7 @@ impl Templater {
             ul.reference-list #ref-list {
                 @for (key, reference) in bib {
                     @let cites = cites.remove(key);
-                    li
+                    li typeof="biro:BibliographicReference"
                         data-year=[&reference.iso_date]
                         data-name=(reference.name_key)
                         data-refs=(cites.as_ref().map(|cs| cs.len()).unwrap_or_default())

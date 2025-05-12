@@ -10,4 +10,4 @@ The “searchbox” role is unnecessary for an “input” element that has no �
 Text run is not in Unicode Normalization Form C.
 The value of attribute “.*” on element “.*” from namespace “http://www.w3.org/1999/xhtml” is not in Unicode Normalization Form C.
 # Years <1000 are ok
-Potentially bad value “0...” for attribute “datetime” on element “time”: Year may be mistyped.
+Potentially bad value “0...” for attribute “datetime” on element “time”.*

@@ -533,8 +533,9 @@ impl Converter<'_> {
             // otherwise it's defaulting to me
             metadata.license = Some(License::CcByNcSa);
             metadata.license_version = Some("4.0".to_string());
-            metadata.author_given = Some("George".to_string());
-            metadata.author_family = Some("Pollard".to_string());
+            metadata.author_given = Some("George".into());
+            metadata.author_family = Some("Pollard".into());
+            metadata.author_resource = Some("#me".into());
         }
 
         let multi_classes = [
@@ -1136,9 +1137,10 @@ struct ImageMetadata {
 
     per_row: Option<usize>,
 
+    author_resource: Option<Cow<'static, str>>,
     author: Option<String>,
-    author_given: Option<String>,
-    author_family: Option<String>,
+    author_given: Option<Cow<'static, str>>,
+    author_family: Option<Cow<'static, str>>,
     author_lang: Option<String>,
 
     org_name: Option<String>,
@@ -1264,7 +1266,7 @@ impl ImageMetadata {
 
     fn person(&self, prop: &str) -> Markup {
         html! {
-            span property=(prop) typeof="Person" {
+            span property=(prop) typeof="Person" resource=[&self.author_resource] {
                 @if self.org_name.is_some() {
                     (self.organization("worksFor")) "/"
                 }
@@ -1299,10 +1301,7 @@ impl ImageMetadata {
             let version = self.license_version.as_deref().unwrap_or("4.0");
             let url = format!("https://creativecommons.org/licenses/{name}/{version}/");
             html! {
-                span property="cc:license" typeof="cc:License" {
-                    link property="cc:legalcode" href=(url);
-                }
-                a property="license"
+                a property="license cc:license"
                   href=(url)
                   title={"Licensed under the Creative Commons " (title) " license " (version)} {
                   (content)
