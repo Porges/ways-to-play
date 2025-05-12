@@ -484,7 +484,7 @@ fn render_title(r: &Reference) -> Markup {
             _ => {}
         }
 
-        let title = render_lstr_just_cite(&title_lstr, None, Some("name dcterms:title"));
+        let title = render_lstr_just_cite(&title_lstr, None, Some("name"));
 
         html! {
             @if let Some(url) = &r.common().url {
@@ -525,7 +525,7 @@ fn render_title(r: &Reference) -> Markup {
         let title = render_lstr_just_span(
             &r.common().title,
             Some("noun"),
-            Some("name headline dcterms:title"),
+            Some("name headline"),
         );
 
         html! {
@@ -695,7 +695,7 @@ fn render_series(r: &Reference) -> Markup {
     html! {
         "; "
         span property="isPartOf dcterms:isPartOf frbr:partOf" typeof="BookSeries bibo:Series fabio:BookSeries" {
-            @let title = render_lstr(&series.title, None, Some("name dcterms:title"), Some("alternateName"));
+            @let title = render_lstr(&series.title, None, Some("name"), Some("alternateName"));
             @if let Some(url) = &series.url {
                 a property="url" href=(url) { (title) }
             } @else {
@@ -822,7 +822,7 @@ fn render_container(key: &str, r: &Reference) -> Markup {
             @if let Some(title) = container_title {
                 "On the website "
                 span property="isPartOf dcterms:isPartOf frbr:partOf" typeof="WebSite bibo:Website fabio:WebSite"{
-                    (render_lstr_cite(title, None, Some("name dcterms:title"), Some("alternateName")))
+                    (render_lstr_cite(title, None, Some("name"), Some("alternateName")))
                 }
 
                 @if let Some(archive_url) = r.common().archive_url.as_ref()
@@ -1061,7 +1061,11 @@ fn render_publisher(key: &str, r: &Reference) -> Markup {
 fn render_genre(r: &Reference) -> Markup {
     html! {
         @if let Reference::Thesis(Thesis{genre: Some(g), ..}) = r {
-            span property="inSupportOf bibo:degree" typeof="bibo:ThesisDegree" { (g) } ", "
+            span property="inSupportOf" {
+                span property="bibo:degree" typeof="bibo:ThesisDegree" { 
+                    span property="dcterms:title" { (g) }
+                }
+            } ", "
         }
     }
 }
