@@ -5,21 +5,25 @@ use html5ever::{
     interface::TreeSink,
     tendril::{StrTendril, TendrilSink},
 };
+use icu::locale::LanguageIdentifier;
 
+#[derive(Clone)]
 enum SubjectNode {
     Url(url::Url),
     Blank(String),
 }
 
+#[derive(Clone)]
 enum ObjectNode {
     Url(url::Url),
     Blank(String),
     Literal(Literal),
 }
 
+#[derive(Clone)]
 struct Literal {
     datatype: Option<String>,
-    language: Option<String>,
+    language: Option<LanguageIdentifier>,
     value: String,
 }
 
@@ -238,10 +242,7 @@ struct RDFaContext {
     mappings: elsa::FrozenBTreeMap<String, String>,
     // incomplete_triples
     // list mapping
-
-    // TODO: this should be a real value
-    language: Option<String>,
-
+    language: Option<LanguageIdentifier>,
     default_vocab: Option<url::Url>,
 }
 

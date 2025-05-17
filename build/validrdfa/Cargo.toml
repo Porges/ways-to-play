@@ -8,4 +8,5 @@ publish = false
 derive_more = { version = "2.0.1", features = ["display", "from_str"] }
 elsa = "1.11.2"
 html5ever = "0.31.0"
+icu = { version = "2.0.0-beta2" }
 url = "2.5.4"
