@@ -7418,6 +7418,23 @@ TylorAnthropology:
   publisher: MacMillan and Co.
   publisher-place: London
   issued: 1881
+TylorLotGames:
+  type: book
+  title: 'On American lot-games as evidence of Asiatic intercourse before the time of Columbus'
+  author: [*EB_Tylor]
+  URL: https://archive.org/details/cihm_17851
+  issued: 1896
+  ISBN: 0665178514
+  publisher: E. J. Brill
+  publisher-place: Leiden
+  identifiers:
+  - ark:/13960/t56d6df5n
+  # - oclc:record:1042019819
+  series:
+    title:
+      value: Internationales Archiv für Ethnographie
+      lang: de
+    volume: 9
 IlGiuocoDellaMorra:
   type: article-magazine
   title:
