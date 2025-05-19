@@ -5,8 +5,17 @@ edition = "2024"
 publish = false
 
 [dependencies]
-derive_more = { version = "2.0.1", features = ["display", "from_str"] }
+curie = "0.1.3"
+derive_more = { version = "2.0.1", features = ["display", "error", "from", "from_str"] }
 elsa = "1.11.2"
 html5ever = "0.31.0"
 icu = { version = "2.0.0-beta2" }
+indexmap = "2.9.0"
+itertools = "0.14.0"
+oxiri = "0.2.11"
+oxrdf = "0.2.4"
 url = "2.5.4"
+
+[dev-dependencies]
+insta = "1.43.1"
+oxttl = "0.1.8"
