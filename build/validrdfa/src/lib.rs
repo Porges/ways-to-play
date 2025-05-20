@@ -548,7 +548,6 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
     }
 
     fn emit_output(&self, tr: TripleRef) {
-        println!("Emitting: {tr}");
         self.output_graph.borrow_mut().insert(tr);
     }
 
