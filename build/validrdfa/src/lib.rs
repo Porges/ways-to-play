@@ -4,263 +4,41 @@ use std::rc::Rc;
 use std::{borrow::Cow, cell::Cell, str::FromStr};
 
 use curie::{Curie, ExpansionError, PrefixMapping};
-use html5ever::{
-    QualName,
-    interface::TreeSink,
-    tendril::{StrTendril, TendrilSink},
-};
 use icu::locale::LanguageIdentifier;
 use itertools::Itertools;
 use oxiri::Iri;
 use oxrdf::{Graph, NamedOrBlankNode, TripleRef};
-
-type Handle = usize;
-
-#[derive(
-    derive_more::FromStr, derive_more::Display, Clone, Copy, PartialEq, PartialOrd, Eq, Ord,
-)]
-enum RDFaAttribute {
-    Vocab,
-    Typeof,
-    Property,
-    Resource,
-    Prefix,
-    Content,
-    About,
-    Rel,
-    Rev,
-    Datatype,
-    Inlist,
-    Href,
-    Src,
-    Datetime,
-    Lang,
-}
-struct HTMLElement {
-    name: QualName,
-    attrs: elsa::FrozenBTreeMap<RDFaAttribute, Box<StrTendril>>,
-    xmlns: elsa::FrozenBTreeMap<String, String>,
-    children: elsa::FrozenVec<Box<html5ever::interface::NodeOrText<Handle>>>,
-}
-
-#[derive(Default)]
-struct RDFaTree {
-    root: Cell<Option<Handle>>,
-    nodes: elsa::FrozenVec<Box<HTMLElement>>,
-    errors: elsa::FrozenVec<Box<Cow<'static, str>>>,
-    base: RefCell<Option<StrTendril>>,
-}
-
-impl RDFaTree {
-    fn new() -> Self {
-        Self::default()
-    }
-}
-
-impl TreeSink for RDFaTree {
-    type Handle = Handle;
-
-    type Output = Self;
-
-    type ElemName<'a> = &'a QualName;
-
-    fn finish(self) -> Self::Output {
-        self
-    }
-
-    fn parse_error(&self, msg: Cow<'static, str>) {
-        self.errors.push(Box::new(msg));
-    }
-
-    fn get_document(&self) -> Self::Handle {
-        // root
-        usize::MAX
-    }
-
-    fn elem_name<'a>(&'a self, target: &'a Self::Handle) -> Self::ElemName<'a> {
-        &self.nodes[*target].name
-    }
-
-    fn create_element(
-        &self,
-        name: html5ever::QualName,
-        attrs: Vec<html5ever::Attribute>,
-        _flags: html5ever::interface::ElementFlags,
-    ) -> Self::Handle {
-        if name.prefix.is_none() && name.local.as_ref() == "base" {
-            if let Some(href) = attrs
-                .iter()
-                .find(|x| x.name.prefix.is_none() && x.name.local.as_ref() == "href")
-            {
-                *self.base.borrow_mut() = Some(href.value.clone());
-            }
-        }
-
-        let el = Box::new(HTMLElement {
-            name,
-            xmlns: attrs
-                .iter()
-                .filter_map(|attr| {
-                    if attr.name.prefix.as_deref() == Some("xmlns") {
-                        Some((attr.name.local.to_string(), attr.value.to_string()))
-                    } else {
-                        None
-                    }
-                })
-                .collect(),
-            attrs: attrs
-                .into_iter()
-                .filter_map(|attr| {
-                    if attr.name.prefix.is_none() {
-                        Some((
-                            RDFaAttribute::from_str(&attr.name.local).ok()?,
-                            Box::new(attr.value),
-                        ))
-                    } else {
-                        None
-                    }
-                })
-                .collect(),
-            children: Default::default(),
-        });
-        let handle = self.nodes.len();
-        self.nodes.push(el);
-        handle
-    }
-
-    fn create_comment(&self, _text: html5ever::tendril::StrTendril) -> Self::Handle {
-        // ignored
-        usize::MAX - 1
-    }
-
-    fn create_pi(
-        &self,
-        _target: html5ever::tendril::StrTendril,
-        _data: html5ever::tendril::StrTendril,
-    ) -> Self::Handle {
-        // ignored
-        usize::MAX - 1
-    }
-
-    fn append(&self, parent: &Self::Handle, child: html5ever::interface::NodeOrText<Self::Handle>) {
-        if *parent == usize::MAX - 1 {
-            // ignored
-        } else if *parent == usize::MAX {
-            // root
-            match child {
-                html5ever::interface::NodeOrText::AppendNode(handle) => {
-                    self.root.set(Some(handle));
-                }
-                html5ever::interface::NodeOrText::AppendText(_) => unimplemented!(),
-            }
-        } else {
-            self.nodes[*parent].children.push(Box::new(child));
-        }
-    }
-
-    fn append_based_on_parent_node(
-        &self,
-        _element: &Self::Handle,
-        _prev_element: &Self::Handle,
-        _child: html5ever::interface::NodeOrText<Self::Handle>,
-    ) {
-        unimplemented!()
-    }
-
-    fn append_doctype_to_document(
-        &self,
-        _name: html5ever::tendril::StrTendril,
-        _public_id: html5ever::tendril::StrTendril,
-        _system_id: html5ever::tendril::StrTendril,
-    ) {
-        unreachable!()
-    }
-
-    fn get_template_contents(&self, _target: &Self::Handle) -> Self::Handle {
-        unreachable!()
-    }
-
-    fn same_node(&self, x: &Self::Handle, y: &Self::Handle) -> bool {
-        x == y
-    }
-
-    fn set_quirks_mode(&self, _mode: html5ever::interface::QuirksMode) {
-        // do nothing
-    }
-
-    fn append_before_sibling(
-        &self,
-        _sibling: &Self::Handle,
-        _new_node: html5ever::interface::NodeOrText<Self::Handle>,
-    ) {
-        unimplemented!()
-    }
-
-    fn add_attrs_if_missing(&self, target: &Self::Handle, attrs: Vec<html5ever::Attribute>) {
-        let existing_attrs = &self.nodes[*target].attrs;
-        for attr in attrs {
-            if !attr.name.ns.is_empty() {
-                continue;
-            }
-
-            let Some(attr_name) = RDFaAttribute::from_str(&attr.name.local).ok() else {
-                continue;
-            };
-
-            existing_attrs.insert(attr_name, Box::new(attr.value));
-        }
-    }
-
-    fn remove_from_parent(&self, _target: &Self::Handle) {
-        unimplemented!()
-    }
-
-    fn reparent_children(&self, _node: &Self::Handle, _new_parent: &Self::Handle) {
-        unimplemented!()
-    }
-}
+use scraper::{ElementRef, Html};
 
 pub fn parse(
     input: &str,
-    base: Iri<String>,
+    mut base: Iri<String>,
     output_graph: &mut Graph,
     processor_graph: &mut Graph,
 ) -> Result<(), Error> {
     let get_err = || -> Result<(), Error> {
-        let sink = RDFaTree::new();
-        let opts = html5ever::ParseOpts {
-            tree_builder: html5ever::tree_builder::TreeBuilderOpts {
-                drop_doctype: true,
-                ..Default::default()
-            },
-            ..Default::default()
-        };
-
-        let parse = html5ever::parse_document(sink, opts);
-        let result = parse.one(input);
-        if !result.errors.is_empty() {
-            for err in result.errors.iter() {
+        let doc = Html::parse_document(input);
+        if !doc.errors.is_empty() {
+            for err in doc.errors.iter() {
                 println!("Error: {}", err);
             }
         }
-        println!("No errors found: {} nodes", result.nodes.len());
         let mut proc = RDFaProcessor::new(output_graph, processor_graph);
 
-        let base = result
-            .base
-            .take()
-            .map(|i| {
-                Iri::parse(i.to_string()).map_err(|source| Error::IriParseError {
-                    source,
-                    iri: i.to_string(),
-                })
-            })
-            .transpose()?
-            .unwrap_or(base);
+        let base_sel = scraper::selector::Selector::parse("html>head>base").unwrap();
+
+        if let Some(base_el) = doc.select(&base_sel).next() {
+            if let Some(base_href) = base_el.attr("href") {
+                base =
+                    Iri::parse(base_href.to_string()).map_err(|source| Error::IriParseError {
+                        source,
+                        iri: base_href.to_string(),
+                    })?;
+            }
+        }
 
         let eval_context = EvaluationContext::new(base);
-
-        proc.run(eval_context, result)?;
+        proc.run(eval_context, doc)?;
         Ok(())
     }();
 
@@ -398,16 +176,13 @@ impl<'b> LocalScope<'b> {
         Ok(oxrdf::NamedNode::new_unchecked(Iri::parse_unchecked(iri).into_inner()).into())
     }
 
-    fn safecuri_or_curie_or_iri(
-        &self,
-        value: StrTendril,
-    ) -> Result<Option<NamedOrBlankNode>, Error> {
+    fn safecuri_or_curie_or_iri(&self, value: &str) -> Result<Option<NamedOrBlankNode>, Error> {
         self.curie_or_iri(value, true)
     }
 
     fn curie_or_iri(
         &self,
-        value: StrTendril,
+        value: &str,
         allow_safecurie_and_relative_iri: bool,
     ) -> Result<Option<NamedOrBlankNode>, Error> {
         // “When the value is surrounded by square brackets,
@@ -532,7 +307,7 @@ impl<'b> LocalScope<'b> {
         }
     }
 
-    fn term_or_curie_or_absiri_s(&self, value: StrTendril) -> Result<Vec<NamedOrBlankNode>, Error> {
+    fn term_or_curie_or_absiri_s(&self, value: &str) -> Result<Vec<NamedOrBlankNode>, Error> {
         let mut result = Vec::new();
         for value in value.split_ascii_whitespace() {
             if let Some(iri) = self.term_or_curie_or_absiri(value)? {
@@ -678,6 +453,7 @@ pub fn initial_context() -> &'static PrefixMapping {
             ("", "http://www.w3.org/1999/xhtml/vocab#"),
             // W3C documents
             ("as", "https://www.w3.org/ns/activitystreams#"),
+            ("cal", "http://www.w3.org/2002/12/cal/icaltzd#"),
             ("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#"),
             ("rdfa", "http://www.w3.org/ns/rdfa#"),
             ("xhv", "http://www.w3.org/1999/xhtml/vocab#"),
@@ -753,64 +529,19 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
         }
     }
 
-    fn run(&mut self, eval_context: EvaluationContext, tree: RDFaTree) -> Result<(), Error> {
-        let mut nodes = tree.nodes.into_vec();
+    fn run(&mut self, eval_context: EvaluationContext, html: Html) -> Result<(), Error> {
+        // TODO: we need a marker on the stack to emit list elements
+        let mut stack = vec![(0, html.root_element(), Rc::new(eval_context))];
 
-        let text_content = |nodes: &[Box<HTMLElement>], node: Handle| -> String {
-            let mut result = String::new();
-            let root = html5ever::interface::NodeOrText::AppendNode(node);
-            let mut stack = vec![&root];
+        let host = HTMLHost {};
 
-            while let Some(next) = stack.pop() {
-                match next {
-                    html5ever::interface::NodeOrText::AppendNode(h) => {
-                        stack.extend(
-                            nodes[*h]
-                                .children
-                                .iter()
-                                .collect::<Vec<_>>()
-                                .into_iter()
-                                .rev(),
-                        );
-                    }
-                    html5ever::interface::NodeOrText::AppendText(tendril) => {
-                        result.push_str(tendril);
-                    }
+        while let Some((depth, element, ctx)) = stack.pop() {
+            let ctx = Rc::new(self.process_element(&ctx, element, &host)?);
+            for child in element.children().rev() {
+                if let Some(elref) = ElementRef::wrap(child) {
+                    stack.push((depth + 1, elref, ctx.clone()));
                 }
             }
-
-            result
-        };
-
-        let mut stack = Vec::new();
-        let root = tree.root.take().unwrap();
-        let host = HTMLHost {};
-        // TODO: we need a marker on the stack to emit list elements
-        stack.push((0, root, Rc::new(eval_context)));
-        while let Some((depth, node, ctx)) = stack.pop() {
-            let attrs = std::mem::take(&mut nodes[node].attrs);
-            let xmlns = std::mem::take(&mut nodes[node].xmlns);
-            let ctx = Rc::new(self.process_element(
-                &ctx,
-                attrs.into_map(),
-                xmlns.into_map(),
-                depth == 0,
-                || text_content(&nodes, node),
-                &host,
-            )?);
-
-            let to_push: Vec<_> = nodes[node]
-                .children
-                .iter()
-                .filter_map(|child| match *child {
-                    html5ever::interface::NodeOrText::AppendNode(h) => {
-                        Some((depth + 1, h, ctx.clone()))
-                    }
-                    html5ever::interface::NodeOrText::AppendText(_) => None,
-                })
-                .collect();
-
-            stack.extend(to_push.into_iter().rev());
         }
 
         Ok(())
@@ -825,10 +556,7 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
     fn process_element(
         &mut self,
         eval_context: &EvaluationContext,
-        mut attrs: BTreeMap<RDFaAttribute, Box<StrTendril>>,
-        xmlns: BTreeMap<String, String>,
-        element_is_root: bool,
-        element_text: impl FnOnce() -> String,
+        element: scraper::ElementRef,
         host: impl HostLanguage,
     ) -> Result<EvaluationContext, Error> {
         let emit_warning = |pgtype: PGType, msg: String| {
@@ -836,26 +564,28 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
             emit_processor(&mut pg, pgtype, &msg);
         };
 
+        let el = element.value();
+        // RDFa + HTML
+        let is_root_element = el.name() == "html" || el.name() == "head" || el.name() == "body";
+
         // 1.
         let mut local = LocalScope::new(eval_context, &emit_warning);
-        let handle_iri =
-            |value: Option<Box<StrTendril>>| -> Result<Option<oxrdf::NamedNode>, Error> {
-                let Some(value) = value else { return Ok(None) };
-                let iri =
-                    eval_context
-                        .base
-                        .resolve(&value)
-                        .map_err(|source| Error::IriParseError {
-                            source,
-                            iri: value.to_string(),
-                        })?;
-                let node = oxrdf::NamedNode::new_unchecked(iri.into_inner());
-                Ok(Some(node))
-            };
+        let handle_iri = |value: Option<&str>| -> Result<Option<oxrdf::NamedNode>, Error> {
+            let Some(value) = value else { return Ok(None) };
+            let iri = eval_context
+                .base
+                .resolve(value)
+                .map_err(|source| Error::IriParseError {
+                    source,
+                    iri: value.to_string(),
+                })?;
+            let node = oxrdf::NamedNode::new_unchecked(iri.into_inner());
+            Ok(Some(node))
+        };
 
         // 2.0
         // “Next the current element is examined for any change to the default vocabulary via @vocab.
-        if let Some(vocab) = handle_iri(attrs.remove(&RDFaAttribute::Vocab))? {
+        if let Some(vocab) = handle_iri(el.attr("vocab"))? {
             // “If @vocab is present and contains a value, the local default vocabulary is updated according
             //  to the section on CURIE and IRI Processing.
             if !vocab.as_str().is_empty() {
@@ -875,38 +605,49 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
         // 3.
         // “Next, the current element is examined for IRI mappings and these are added to the local list of IRI mappings.
         //  Note that an IRI mapping will simply overwrite any current mapping in the list that has the same name;
-        if !xmlns.is_empty() {
-            // TODO: is this correct?
+        let xmlns_prefixes = el
+            .attrs
+            .iter()
+            .filter(|(qn, _)| qn.prefix.as_deref() == Some("xmlns"))
+            .map(|(qn, val)| (qn.local.as_ref(), val.as_ref()))
+            .collect::<Vec<_>>();
+
+        let prefixes = el
+            .attr("prefix")
+            .map(|x| {
+                x.split_ascii_whitespace()
+                    .tuples()
+                    .map(|(prefix, value)| {
+                        if let Some(prefix) = prefix.strip_suffix(':') {
+                            Ok((prefix, value))
+                        } else {
+                            Err(Error::NoColonPrefix)
+                        }
+                    })
+                    .collect::<Result<Vec<_>, Error>>()
+            })
+            .transpose()?
+            .unwrap_or_default();
+
+        if !xmlns_prefixes.is_empty() || !prefixes.is_empty() {
             let mut mappings = PrefixMapping::default();
+
             // note that we do not set_default, this would define a "no prefix" mapping
             // which is MUST NOT in RDFa
+
+            // clone parent
             for (prefix, value) in local.iri_mappings.mappings() {
                 mappings.add_prefix(prefix, value).unwrap(); // already checked
             }
-            for (prefix, iri) in xmlns {
-                mappings.add_prefix(&prefix, &iri).unwrap();
-            }
-            local.iri_mappings = Rc::new(mappings);
-        }
-        if let Some(prefixes) = attrs.remove(&RDFaAttribute::Prefix) {
-            // TODO: "the value to be mapped MUST be converted to lower case"
 
-            let mut mappings = PrefixMapping::default();
-
-            // note that we do not set_default, this would define a "no prefix" mapping
-            // which is MUST NOT in RDFa
-
-            for (prefix, value) in local.iri_mappings.mappings() {
-                mappings.add_prefix(prefix, value).unwrap(); // already checked
+            // add XMLNS (must be first)
+            for (prefix, iri) in xmlns_prefixes {
+                mappings.add_prefix(prefix, iri).expect("TODO");
             }
 
-            // TODO: a rdfa:prefixRedefinition triple should be emitted if redefinition occurs
-            for (prefix, value) in prefixes.split_ascii_whitespace().tuples() {
-                if let Some(prefix) = prefix.strip_suffix(':') {
-                    mappings.add_prefix(prefix, value)?;
-                } else {
-                    return Err(Error::NoColonPrefix);
-                }
+            // add others (after XMLNS)
+            for (prefix, iri) in prefixes {
+                mappings.add_prefix(prefix, iri).expect("TODO");
             }
 
             local.iri_mappings = Rc::new(mappings);
@@ -915,55 +656,51 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
         // 4. Language
         // “The current element is also parsed for any language information,
         //  and if present, current language is set accordingly;
-        if let Some(lang) = attrs.remove(&RDFaAttribute::Lang) {
+        if let Some(lang) = el.attr("xml:lang").or(el.attr("lang")) {
             // TODO: should come from HostLanguage?
-            // TODO: needs to handle xml:lang as well
-            local.current_language = Some(Rc::new(LanguageIdentifier::from_str(lang.as_ref())?));
+            local.current_language = Some(Rc::new(LanguageIdentifier::from_str(lang)?));
         }
 
         let handle_safecurie_or_curie_or_iri =
-            |value: Option<Box<StrTendril>>| -> Result<Option<NamedOrBlankNode>, Error> {
+            |value: Option<&str>| -> Result<Option<NamedOrBlankNode>, Error> {
                 let Some(value) = value else { return Ok(None) };
-                local.safecuri_or_curie_or_iri(*value)
+                local.safecuri_or_curie_or_iri(value)
             };
 
         let handle_term_or_curie_or_absiri_s =
-            |value: Option<Box<StrTendril>>| -> Result<Option<Vec<NamedOrBlankNode>>, Error> {
+            |value: Option<&str>| -> Result<Option<Vec<NamedOrBlankNode>>, Error> {
                 let Some(value) = value else { return Ok(None) };
-                Ok(Some(local.term_or_curie_or_absiri_s(*value)?))
+                Ok(Some(local.term_or_curie_or_absiri_s(value)?))
             };
 
         let handle_term_or_curie_or_absiri =
-            |value: Option<Box<StrTendril>>| -> Result<Option<NamedOrBlankNode>, Error> {
+            |value: Option<&str>| -> Result<Option<NamedOrBlankNode>, Error> {
                 let Some(value) = value else { return Ok(None) };
-                local.term_or_curie_or_absiri(&value)
+                local.term_or_curie_or_absiri(value)
             };
 
-        let rel: Option<Vec<oxrdf::NamedNode>> =
-            handle_term_or_curie_or_absiri_s(attrs.remove(&RDFaAttribute::Rel))?
-                .map(|refs| self.exclude_bnodes("@rel", refs));
+        let rel: Option<Vec<oxrdf::NamedNode>> = handle_term_or_curie_or_absiri_s(el.attr("rel"))?
+            .map(|refs| self.exclude_bnodes("@rel", refs));
 
-        let rev: Option<Vec<oxrdf::NamedNode>> =
-            handle_term_or_curie_or_absiri_s(attrs.remove(&RDFaAttribute::Rev))?
-                .map(|refs| self.exclude_bnodes("@rev", refs));
+        let rev: Option<Vec<oxrdf::NamedNode>> = handle_term_or_curie_or_absiri_s(el.attr("rev"))?
+            .map(|refs| self.exclude_bnodes("@rev", refs));
 
         let property: Option<Vec<oxrdf::NamedNode>> =
-            handle_term_or_curie_or_absiri_s(attrs.remove(&RDFaAttribute::Property))?
+            handle_term_or_curie_or_absiri_s(el.attr("property"))?
                 .map(|refs| self.exclude_bnodes("@property", refs));
 
-        let datatype = handle_term_or_curie_or_absiri(attrs.remove(&RDFaAttribute::Datatype))?;
-        let content = attrs.remove(&RDFaAttribute::Content);
-        let inlist = attrs.remove(&RDFaAttribute::Inlist).is_some();
+        let datatype = handle_term_or_curie_or_absiri(el.attr("datatype"))?;
+        let content = el.attr("content");
+        let inlist = el.attr("inlist").is_some();
 
         let about: Option<Rc<oxrdf::Subject>> =
-            handle_safecurie_or_curie_or_iri(attrs.remove(&RDFaAttribute::About))?
-                .map(|x| Rc::new(x.into()));
+            handle_safecurie_or_curie_or_iri(el.attr("about"))?.map(|x| Rc::new(x.into()));
 
-        let type_of = handle_term_or_curie_or_absiri_s(attrs.remove(&RDFaAttribute::Typeof))?;
+        let type_of = handle_term_or_curie_or_absiri_s(el.attr("typeof"))?;
 
-        let resource = handle_safecurie_or_curie_or_iri(attrs.remove(&RDFaAttribute::Resource))?;
-        let href = handle_iri(attrs.remove(&RDFaAttribute::Href))?;
-        let src = handle_iri(attrs.remove(&RDFaAttribute::Src))?;
+        let resource = handle_safecurie_or_curie_or_iri(el.attr("resource"))?;
+        let href = handle_iri(el.attr("href"))?;
+        let src = handle_iri(el.attr("src"))?;
 
         // read from the "resource attributes"
         let resource_iri: Option<Rc<oxrdf::Subject>> = resource
@@ -989,7 +726,7 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
                     // “otherwise, if the element is the root element of the document,
                     //  then act as if there is an empty @about present,
                     //  and process it according to the rule for @about, above;
-                    .or(element_is_root.then(|| Rc::new(local.empty_curie().into())))
+                    .or(is_root_element.then(|| Rc::new(local.empty_curie().into())))
                     // “otherwise, if parent object is present, new subject is set to the value of parent object.
                     .or_else(|| eval_context.parent_object.clone());
 
@@ -1004,7 +741,7 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
                             // “otherwise, if the element is the root element of the document,
                             //  then act as if there is an empty @about present
                             //  and process it according to the previous rule;
-                            .or(element_is_root.then(|| Rc::new(local.empty_curie().into())));
+                            .or(is_root_element.then(|| Rc::new(local.empty_curie().into())));
                     } else {
                         local.typed_resource =
                             // “otherwise by using the resource from @resource, if present, obtained according to the section on CURIE and IRI Processing;
@@ -1040,7 +777,7 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
                         //  if the element is the root element of the document,
                         //  then act as if there is an empty @about present,
                         //  and process it according to the rule for @about, above;
-                        element_is_root.then(|| Rc::new(local.empty_curie().into()))
+                        is_root_element.then(|| Rc::new(local.empty_curie().into()))
                         // “otherwise, if @typeof is present,
                         //  then new subject is set to be a newly created bnode;
                         .or(type_of.is_some().then(|| Rc::new(oxrdf::BlankNode::default().into())))
@@ -1081,7 +818,7 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
             // “If no resource is provided then the first match from the following rules will apply:
             if local.new_subject.is_none() {
                 // “if the element is the root element of the document
-                if element_is_root {
+                if is_root_element {
                     // “then act as if there is an empty @about present,
                     //  and process it according to the rule for @about, above;
                     local.new_subject = Some(Rc::new(local.empty_curie().into()));
@@ -1166,30 +903,34 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
                 else {
                     // “If present, @rel may contain one or more resources, obtained according to the section on
                     // CURIE and IRI Processing each of which is used to generate a triple as follows:
-                    for full_iri in rel.unwrap_or_default() {
-                        self.emit_output(TripleRef::new(
-                            //  subject = new subject
-                            local.new_subject.as_ref().unwrap().as_ref(),
-                            //  predicate = full IRI
-                            full_iri.as_ref(),
-                            //  object = current object resource
-                            current_object_resource.as_ref(),
-                        ));
+                    if let Some(sub) = local.new_subject.as_deref() {
+                        for full_iri in rel.unwrap_or_default() {
+                            self.emit_output(TripleRef::new(
+                                //  subject = new subject
+                                sub,
+                                //  predicate = full IRI
+                                full_iri.as_ref(),
+                                //  object = current object resource
+                                current_object_resource.as_ref(),
+                            ));
+                        }
                     }
                 }
 
-                for full_iri in rev.unwrap_or_default() {
-                    // “If present, @rev may contain one or more resources,
-                    //  obtained according to the section on CURIE and IRI Processing
-                    // each of which is used to generate a triple as follows:
-                    self.emit_output(TripleRef::new(
-                        //  subject = current object resource
-                        current_object_resource.as_ref(),
-                        //  predicate = full IRI
-                        full_iri.as_ref(),
-                        //  object = new subject
-                        local.new_subject.as_ref().unwrap().as_ref(),
-                    ));
+                if let Some(sub) = local.new_subject.as_deref() {
+                    for full_iri in rev.unwrap_or_default() {
+                        // “If present, @rev may contain one or more resources,
+                        //  obtained according to the section on CURIE and IRI Processing
+                        // each of which is used to generate a triple as follows:
+                        self.emit_output(TripleRef::new(
+                            //  subject = current object resource
+                            current_object_resource.as_ref(),
+                            //  predicate = full IRI
+                            full_iri.as_ref(),
+                            //  object = new subject
+                            sub,
+                        ));
+                    }
                 }
             }
             // 10.
@@ -1243,9 +984,9 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
         if let Some(properties) = property {
             let lang = local.current_language.as_ref().map(|l| l.to_string());
             let content_val = content
-                .as_deref()
-                .map(|c| Cow::Borrowed(c.as_ref()))
-                .unwrap_or_else(|| Cow::Owned(element_text()));
+                .map(Cow::Borrowed)
+                .unwrap_or_else(|| Cow::Owned(element.text().join("")));
+            let mut serialized: String = String::new();
 
             let current_property_value: oxrdf::TermRef = if let Some(datatype) = &datatype {
                 match datatype {
@@ -1274,7 +1015,15 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
                             //  the element itself, and giving it a datatype of XMLLiteral in the vocabulary
                             //  http://www.w3.org/1999/02/22-rdf-syntax-ns#. The format of the resulting
                             //  serialized content is as defined in Exclusive XML Canonicalization Version 1.0 [XML-EXC-C14N].
-                            todo!()
+                            serialized = element.inner_html();
+                            oxrdf::LiteralRef::new_typed_literal(&serialized, datatype).into()
+                            // TODO: incorrect, needs to be c14n'd
+                        } else if datatype.as_str()
+                            == "http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML"
+                        {
+                            serialized = element.inner_html();
+                            oxrdf::LiteralRef::new_typed_literal(&serialized, datatype).into()
+                            // TODO: incorrect, needs to be c14n'd
                         } else {
                             // “as a typed literal if @datatype is present, does not have an empty value according
                             //  to the section on CURIE and IRI Processing, and is not set to XMLLiteral in the
@@ -1323,15 +1072,17 @@ impl<'o, 'p> RDFaProcessor<'o, 'p> {
                 todo!()
             } else {
                 // “Otherwise the current property value is used to generate a triple as follows:
-                for property in properties {
-                    self.emit_output(TripleRef::new(
-                        // subject = new subject
-                        local.new_subject.as_ref().unwrap().as_ref(),
-                        // predicate = full IRI
-                        property.as_ref(),
-                        // object = current property value
-                        current_property_value,
-                    ));
+                if let Some(sub) = local.new_subject.as_deref() {
+                    for property in properties {
+                        self.emit_output(TripleRef::new(
+                            // subject = new subject
+                            sub,
+                            // predicate = full IRI
+                            property.as_ref(),
+                            // object = current property value
+                            current_property_value,
+                        ));
+                    }
                 }
             }
         }

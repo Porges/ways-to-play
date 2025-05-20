@@ -1,0 +1,8 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0213.html
+---
+@base <file:///0213.html> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+<http://www.example.org/> dc11:title "E = mc2: The Most Urgent Problem of Our Time" .

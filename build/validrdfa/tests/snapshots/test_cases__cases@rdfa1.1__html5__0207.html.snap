@@ -1,0 +1,15 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0207.html
+---
+@base <file:///0207.html> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cal: <http://www.w3.org/2002/12/cal/icaltzd#> .
+<#event1> a cal:Vevent ;
+	cal:dtend "2006-10-23"^^xsd:date ;
+	cal:dtstart "2006-10-21"^^xsd:date ;
+	cal:location "Iona, UK" ;
+	cal:summary "Weekend off in Iona" ;
+	cal:url <http://freetime.example.org/> .

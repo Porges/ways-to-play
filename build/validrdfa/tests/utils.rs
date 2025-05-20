@@ -29,6 +29,10 @@ pub fn serialize_graph(mut graph: Graph, base: &str) -> String {
 
         if let oxrdf::TermRef::NamedNode(n) = triple.object {
             add_prefix(n.as_str());
+        } else if let oxrdf::TermRef::Literal(l) = triple.object {
+            if !l.is_plain() {
+                add_prefix(l.datatype().as_str());
+            }
         }
     }
 

@@ -4,4 +4,5 @@ expression: "utils::serialize_graph(output_graph, base.as_str(),)"
 input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0014.html
 ---
 @base <file:///0014.html> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 <http://example.org/foo> <http://example.org/bar> 10 .

@@ -1,6 +1,5 @@
 ---
 source: validrdfa/tests/test-cases.rs
-assertion_line: 23
 expression: "utils::serialize_graph(output_graph, base.as_str(),)"
 input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0190.html
 ---
