@@ -1,0 +1,10 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0091.html
+---
+@base <file:///0091.html> .
+@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
+_:ff61fda24b26ac9d xhv:definition "a bi-pedal primate" ;
+	xhv:foo "Milky Way" ;
+	xhv:note "confused animal" .

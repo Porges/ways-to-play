@@ -1,0 +1,11 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0007.html
+---
+@base <file:///0007.html> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<photo1.jpg> dc11:creator <http://www.blogger.com/profile/1109404> ;
+	dc11:title "Portrait of Mark" .
+<http://www.blogger.com/profile/1109404> foaf:img <photo1.jpg> .

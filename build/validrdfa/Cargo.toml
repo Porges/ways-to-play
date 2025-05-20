@@ -14,8 +14,9 @@ indexmap = "2.9.0"
 itertools = "0.14.0"
 oxiri = "0.2.11"
 oxrdf = "0.2.4"
+scraper = "0.23.1"
 url = "2.5.4"
 
 [dev-dependencies]
-insta = "1.43.1"
+insta = { version = "1.43.1", features = ["glob"] }
 oxttl = "0.1.8"

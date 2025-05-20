@@ -1,0 +1,9 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0117.html
+---
+@base <file:///0117.html> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+<http://www.example.org/tc117.xhtml#fragment> dc11:contributor "Mark Birbeck" ;
+	dc11:title "Test 0117" .

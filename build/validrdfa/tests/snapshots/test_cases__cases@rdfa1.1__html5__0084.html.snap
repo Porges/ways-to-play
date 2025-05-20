@@ -1,0 +1,15 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0084.html
+---
+@base <file:///0084.html> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<http://danbri.org/foaf.rdf#danbri> a foaf:Person ;
+	foaf:knows <http://www.example.org/#somebody> ;
+	foaf:name "Dan Brickley" .
+<http://www.example.org/#somebody> foaf:knows <http://danbri.org/foaf.rdf#danbri> , _:cc471934fbc5a2e3 .
+_:cc471934fbc5a2e3 foaf:knows <http://www.example.org/#somebody> ;
+	foaf:mailbox <mailto:ivan@w3.org> ;
+	foaf:name "Ivan Herman" .

@@ -1,0 +1,12 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0059.html
+---
+@base <file:///0059.html> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<> dc11:creator <http://www.example.org/#fabien> , <http://www.example.org/#manu> ;
+	dc11:publisher <http://www.example.org/#fabien> , <http://www.example.org/#manu> .
+<http://www.example.org/#fabien> foaf:name "Fabien Gandon" .
+<http://www.example.org/#manu> foaf:name "Manu Sporny" .

@@ -1,0 +1,7 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0014.html
+---
+@base <file:///0014.html> .
+<http://example.org/foo> <http://example.org/bar> 10 .

@@ -1,0 +1,10 @@
+---
+source: validrdfa/tests/test-cases.rs
+expression: "utils::serialize_graph(output_graph, base.as_str(),)"
+input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0104.html
+---
+@base <file:///0104.html> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+<#interfenestration> <http://www.example.org/size> _:16969c5e307c63ad .
+_:16969c5e307c63ad <http://www.example.org/unit> "character" ;
+	rdf:value "17" .
