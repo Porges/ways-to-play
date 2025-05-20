@@ -1,7 +1,7 @@
 use std::cell::RefCell;
-use std::collections::{BTreeMap, HashSet};
+use std::collections::HashSet;
 use std::rc::Rc;
-use std::{borrow::Cow, cell::Cell, str::FromStr};
+use std::{borrow::Cow, str::FromStr};
 
 use curie::{Curie, ExpansionError, PrefixMapping};
 use icu::locale::LanguageIdentifier;
@@ -217,7 +217,7 @@ impl<'b> LocalScope<'b> {
                 // “otherwise, the value is processed as an IRI.
                 Err(curie_err) => {
                     let iri_result = if allow_safecurie_and_relative_iri {
-                        self.eval_context.base.resolve(&value)
+                        self.eval_context.base.resolve(value)
                     } else {
                         Iri::parse(value.to_string())
                     };
@@ -303,7 +303,7 @@ impl<'b> LocalScope<'b> {
                 }))
             }
         } else {
-            Ok(self.curie_or_iri(value.into(), false)?)
+            Ok(self.curie_or_iri(value, false)?)
         }
     }
 
