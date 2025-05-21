@@ -1,10 +1,12 @@
 use std::collections::HashSet;
 
 use itertools::Itertools;
-use oxrdf::{Graph, graph::CanonicalizationAlgorithm};
+use oxrdf::Graph;
 
-pub fn serialize_graph(mut graph: Graph, base: &str) -> String {
-    graph.canonicalize(CanonicalizationAlgorithm::Unstable);
+pub fn serialize_graph(graph: Graph, base: &str) -> String {
+    // NB: we use rdf_canon here because the one provided by oxrdf hangs
+    let idents = rdf_canon::issue_graph_with::<sha2::Sha256>(&graph, &Default::default()).unwrap();
+    let graph = rdf_canon::relabel_graph(&graph, &idents).unwrap();
 
     let mut output = Vec::new();
     let mut ttl = oxttl::TurtleSerializer::new().with_base_iri(base).unwrap();
@@ -12,7 +14,7 @@ pub fn serialize_graph(mut graph: Graph, base: &str) -> String {
     // slow but makes test output nicer
     let mut prefixes_to_use = HashSet::new();
     let mut add_prefix = |full_iri: &str| {
-        if let Some((known_prefix, iri)) = validrdfa::initial_context()
+        if let Some((known_prefix, iri)) = html2rdf::initial_context_prefixes()
             .mappings()
             .find(|(prefix, iri)| !prefix.is_empty() && full_iri.starts_with(*iri))
         {
@@ -59,4 +61,25 @@ pub fn serialize_graph(mut graph: Graph, base: &str) -> String {
     ttl.finish().unwrap();
 
     String::from_utf8_lossy(&output).into_owned()
+}
+
+#[allow(unused)]
+pub fn assert_graph(html: &str, ttl: &str) {
+    let mut output_graph = Graph::new();
+    let mut processor_graph = Graph::new();
+    let base = oxiri::Iri::parse("http://example.org/".into()).unwrap();
+    html2rdf::parse(html, base.clone(), &mut output_graph, &mut processor_graph).unwrap();
+
+    let mut ttl_graph = Graph::new();
+    {
+        let ttl_rdf = oxttl::TurtleParser::new().for_slice(ttl.as_bytes());
+        for triple in ttl_rdf {
+            ttl_graph.insert(&triple.unwrap());
+        }
+    }
+
+    let output = serialize_graph(output_graph, base.as_str());
+    let ttl_output = serialize_graph(ttl_graph, base.as_str());
+
+    pretty_assertions::assert_eq!(output, ttl_output);
 }

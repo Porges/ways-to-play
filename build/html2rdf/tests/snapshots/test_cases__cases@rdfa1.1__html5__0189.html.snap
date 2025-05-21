@@ -1,9 +1,0 @@
----
-source: validrdfa/tests/test-cases.rs
-expression: "utils::serialize_graph(output_graph, base.as_str(),)"
-input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0189.html
----
-@base <file:///0189.html> .
-@prefix rdfa: <http://www.w3.org/ns/rdfa#> .
-<> rdfa:usesVocabulary <http://www.example.org/vocab#> .
-<http://www.example.org/software> <http://www.example.org/vocab#license> <http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231> .

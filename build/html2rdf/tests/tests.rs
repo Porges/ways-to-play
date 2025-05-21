@@ -1,6 +1,6 @@
+use html2rdf::parse;
 use oxiri::Iri;
 use oxrdf::Graph;
-use validrdfa::parse;
 
 mod utils;
 
@@ -50,7 +50,7 @@ fn property_test() {
     @prefix rdf: <//www.w3.org/1999/02/22-rdf-syntax-ns#> .
     @prefix rdfa: <//www.w3.org/ns/rdfa#> .
     <> rdfa:usesVocabulary schema: .
-    _:8980d83310720900 a schema:Book ;
+    _:c14n0 a schema:Book ;
     	schema:name "bar" .
     "##);
 }

@@ -1,8 +1,0 @@
----
-source: validrdfa/tests/test-cases.rs
-expression: "utils::serialize_graph(output_graph, base.as_str(),)"
-input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0038.html
----
-@base <file:///0038.html> .
-@prefix foaf: <http://xmlns.com/foaf/0.1/> .
-<http://sw-app.org/img/mic_2007_01.jpg> foaf:depicts <http://sw-app.org/mic.xhtml#i> .

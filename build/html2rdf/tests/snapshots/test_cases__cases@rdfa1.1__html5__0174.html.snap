@@ -1,7 +1,0 @@
----
-source: validrdfa/tests/test-cases.rs
-expression: "utils::serialize_graph(output_graph, base.as_str(),)"
-input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0174.html
----
-@base <file:///0174.html> .
-<http://example.org/jd> <http://www.w3.org/2006/vcard/ns#fn> "John Doe" .

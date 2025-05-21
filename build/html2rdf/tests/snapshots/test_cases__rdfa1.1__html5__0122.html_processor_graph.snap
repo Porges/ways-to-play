@@ -1,0 +1,10 @@
+---
+source: html2rdf/tests/test-cases.rs
+expression: "utils::serialize_graph(processor_graph, base.as_str(),)"
+---
+@base <http://rdfa.info/test-suite/test-cases/rdfa1.1/html5/0122.html> .
+@prefix dc: <//purl.org/dc/terms/> .
+@prefix rdf: <//www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfa: <//www.w3.org/ns/rdfa#> .
+_:c14n0 a rdfa:UnresolvedCurie ;
+	dc:description "CURIE uses default prefix but none is defined: []" .

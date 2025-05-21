@@ -1,8 +1,0 @@
----
-source: validrdfa/tests/test-cases.rs
-expression: "utils::serialize_graph(output_graph, base.as_str(),)"
-input_file: validrdfa/tests/rdfa.github.io/test-suite/test-cases/rdfa1.1/html5/0069.html
----
-@base <file:///0069.html> .
-@prefix xhv: <http://www.w3.org/1999/xhtml/vocab#> .
-<> xhv:next <0070.html> .

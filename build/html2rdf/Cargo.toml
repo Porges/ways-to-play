@@ -12,8 +12,13 @@ indexmap = "2.9.0"
 itertools = "0.14.0"
 oxiri = "0.2.11"
 oxrdf = "0.2.4"
+oxsdatatypes = "0.2.2"
+rdf-canon = "0.15.1"
 scraper = "0.23.1"
 
 [dev-dependencies]
 insta = { version = "1.43.1", features = ["glob"] }
 oxttl = "0.1.8"
+pretty_assertions = "1.4.1"
+rstest = { version = "0.25.0", default-features = false, features = ["crate-name"] }
+sha2 = "0.10.9"
