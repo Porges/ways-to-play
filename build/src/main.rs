@@ -389,10 +389,16 @@ impl Builder {
             ..Constructs::default()
         };
 
+        let url = if !output_drafts {
+            "https://games.porg.es/"
+        } else {
+            "http://127.0.0.1:8080/"
+        };
+
         Ok(Self {
             base_path,
             output_path,
-            templater: Templater::new(Url::parse("https://games.porg.es/").unwrap()),
+            templater: Templater::new(Url::parse(url).unwrap()),
             articles: Vec::new(),
             games: Vec::new(),
             output_files: Vec::new(),

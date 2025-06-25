@@ -613,16 +613,15 @@ Myriads
 For each card in the table below I show (in left-to-right order):
 
 1. a card from a 19th-century deck collected in @ChineseOfTheStraitsSettlements,
-2. a card from a different 19th-century deck from @YoungCeki [p. 300] (as reproduced in @JavaanseKaartspelen),
-3. a card from a deck produced by Harmsen Verweij & Dunlop (after 1933), a Dutch company,[^fn0]
-4. a 1940s deck collected in @JavaanseKaartspelen,
-5. and then a modern card from a deck purchased in Bali in 2019 (clearly derived from #3).
+2. a card from a 20th-century deck as used in Singapore, produced by Guan Huat under the Double Elephant (<span lang="zh">雙象</span>) brand (seemingly related to #1),
+3. a card from a different 19th-century deck from @YoungCeki [p. 300] (as reproduced in @JavaanseKaartspelen),
+4. a card from a deck produced by Harmsen Verweij & Dunlop (after 1933), a Dutch company,[^fn0]
+5. a 1940s deck collected in @JavaanseKaartspelen,
+6. and then a modern card from a deck purchased in Bali in 2019 (clearly derived from #3).
 
 [^fn0]: The cards as depicted in @BlikJavaansche_2 (pl. XVI) are identical to these.
 
-Modern Malaysian & Singaporean decks (of which I have no samples[^yet]) are closer in style to the #1 deck.
-
-[^yet]: Yet! Can you help with this? Contact me!
+Thus the first two represent a Malaysian/Singaporean style and the last four an Indonesian style.
 
 Each card in the deck has its own name as listed in the table below.  The translations in the table are mostly from the [SEAlang](http://sealang.net) dictionaries; any mistakes are my own.[^fn1] In Malaysia/Singapore the names are based on the Hokkien names of the cards — a combination of suit and rank — but as we move in a south-easterly direction along the Malay Archipelago (the table below is listed roughly in this order), the names diverge further and further from this original source, and most cards have nicknames that are based upon their appearance rather than their numeric value.
 
@@ -697,7 +696,7 @@ The names in the **Makassar** column have been assigned based upon comparisons w
 <table class="rule-first-col small">
 <thead>
 <tr>
-<th style="min-width: 200px">
+<th style="min-width: 300px">
 </th>
 <th>
 Thailand
@@ -933,6 +932,7 @@ human
 > [!figure]
 >
 > ![](DOT.jpg)
+> ![](SOT.jpg)
 > ![](KOT.jpg)
 > ![](OOT.jpg)
 > ![](NOT.jpg)
@@ -1090,6 +1090,7 @@ big red
 > [!figure]
 >
 > ![](DWF.jpg)
+> ![](SWF.jpg)
 > ![](KWF.jpg)
 > ![](OWF.jpg)
 > ![](NWF.jpg)
@@ -1239,6 +1240,7 @@ woman
 > [!figure]
 >
 > ![](DRF.jpg)
+> ![](SRF.jpg)
 > ![](KRF.jpg)
 > ![](ORF.jpg)
 > ![](NRF.jpg)
@@ -1380,6 +1382,7 @@ keys?
 > [!figure]
 >
 > ![](DC1.jpg)
+> ![](SC1.jpg)
 > ![](KC1.jpg)
 > ![](OC1.jpg)
 > ![](NC1.jpg)
@@ -1534,6 +1537,7 @@ plaited mat
 > [!figure]
 >
 > ![](DS1.jpg)
+> ![](SS1.jpg)
 > ![](KS1.jpg)
 > ![](OS1.jpg)
 > ![](NS1.jpg)
@@ -1688,6 +1692,7 @@ long
 > [!figure]
 >
 > ![](DM1.jpg)
+> ![](SM1.jpg)
 > ![](KM1.jpg)
 > ![](OM1.jpg)
 > ![](NM1.jpg)
@@ -1920,6 +1925,7 @@ notched
 > [!figure]
 >
 > ![](DC2.jpg)
+> ![](SC2.jpg)
 > ![](KC2.jpg)
 > ![](OC2.jpg)
 > ![](NC2.jpg)
@@ -2079,6 +2085,7 @@ two coins
 > [!figure]
 >
 > ![](DS2.jpg)
+> ![](SS2.jpg)
 > ![](KS2.jpg)
 > ![](OS2.jpg)
 > ![](NS2.jpg)
@@ -2212,6 +2219,7 @@ having a bent back
 > [!figure]
 >
 > ![](DM2.jpg)
+> ![](SM2.jpg)
 > ![](KM2.jpg)
 > ![](OM2.jpg)
 > ![](NM2.jpg)
@@ -2442,6 +2450,7 @@ askew
 > [!figure]
 >
 > ![](DC3.jpg)
+> ![](SC3.jpg)
 > ![](KC3.jpg)
 > ![](OC3.jpg)
 > ![](NC3.jpg)
@@ -2597,6 +2606,7 @@ three drums
 > [!figure]
 >
 > ![](DS3.jpg)
+> ![](SS3.jpg)
 > ![](KS3.jpg)
 > ![](OS3.jpg)
 > ![](NS3.jpg)
@@ -2752,6 +2762,7 @@ shrimp
 > [!figure]
 >
 > ![](DM3.jpg)
+> ![](SM3.jpg)
 > ![](KM3.jpg)
 > ![](OM3.jpg)
 > ![](NM3.jpg)
@@ -2981,6 +2992,7 @@ round head
 > [!figure]
 >
 > ![](DC4.jpg)
+> ![](SC4.jpg)
 > ![](KC4.jpg)
 > ![](OC4.jpg)
 > ![](NC4.jpg)
@@ -3127,6 +3139,7 @@ large
 > [!figure]
 >
 > ![](DS4.jpg)
+> ![](SS4.jpg)
 > ![](KS4.jpg)
 > ![](OS4.jpg)
 > ![](NS4.jpg)
@@ -3275,6 +3288,7 @@ waist
 > [!figure]
 >
 > ![](DM4.jpg)
+> ![](SM4.jpg)
 > ![](KM4.jpg)
 > ![](OM4.jpg)
 > ![](NM4.jpg)
@@ -3496,6 +3510,7 @@ two eyes
 > [!figure]
 >
 > ![](DC5.jpg)
+> ![](SC5.jpg)
 > ![](KC5.jpg)
 > ![](OC5.jpg)
 > ![](NC5.jpg)
@@ -3648,6 +3663,7 @@ navel
 > [!figure]
 >
 > ![](DS5.jpg)
+> ![](SS5.jpg)
 > ![](KS5.jpg)
 > ![](OS5.jpg)
 > ![](NS5.jpg)
@@ -3781,6 +3797,7 @@ big eye
 > [!figure]
 >
 > ![](DM5.jpg)
+> ![](SM5.jpg)
 > ![](KM5.jpg)
 > ![](OM5.jpg)
 > ![](NM5.jpg)
@@ -4003,6 +4020,7 @@ six
 > [!figure]
 >
 > ![](DC6.jpg)
+> ![](SC6.jpg)
 > ![](KC6.jpg)
 > ![](OC6.jpg)
 > ![](NC6.jpg)
@@ -4149,6 +4167,7 @@ six
 > [!figure]
 >
 > ![](DS6.jpg)
+> ![](SS6.jpg)
 > ![](KS6.jpg)
 > ![](OS6.jpg)
 > ![](NS6.jpg)
@@ -4287,6 +4306,7 @@ bamboo
 > [!figure]
 >
 > ![](DM6.jpg)
+> ![](SM6.jpg)
 > ![](KM6.jpg)
 > ![](OM6.jpg)
 > ![](NM6.jpg)
@@ -4510,6 +4530,7 @@ seven
 > [!figure]
 >
 > ![](DC7.jpg)
+> ![](SC7.jpg)
 > ![](KC7.jpg)
 > ![](OC7.jpg)
 > ![](NC7.jpg)
@@ -4652,6 +4673,7 @@ flag
 > [!figure]
 >
 > ![](DS7.jpg)
+> ![](SS7.jpg)
 > ![](KS7.jpg)
 > ![](OS7.jpg)
 > ![](NS7.jpg)
@@ -4789,6 +4811,7 @@ an instrument or bird-like decoration
 > [!figure]
 >
 > ![](DM7.jpg)
+> ![](SM7.jpg)
 > ![](KM7.jpg)
 > ![](OM7.jpg)
 > ![](NM7.jpg)
@@ -5015,6 +5038,7 @@ one eye
 > [!figure]
 >
 > ![](DC8.jpg)
+> ![](SC8.jpg)
 > ![](KC8.jpg)
 > ![](OC8.jpg)
 > ![](NC8.jpg)
@@ -5156,6 +5180,7 @@ eight
 > [!figure]
 >
 > ![](DS8.jpg)
+> ![](SS8.jpg)
 > ![](KS8.jpg)
 > ![](OS8.jpg)
 > ![](NS8.jpg)
@@ -5296,6 +5321,7 @@ sweet
 > [!figure]
 >
 > ![](DM8.jpg)
+> ![](SM8.jpg)
 > ![](KM8.jpg)
 > ![](OM8.jpg)
 > ![](NM8.jpg)
@@ -5517,6 +5543,7 @@ dog?
 > [!figure]
 >
 > ![](DC9.jpg)
+> ![](SC9.jpg)
 > ![](KC9.jpg)
 > ![](OC9.jpg)
 > ![](NC9.jpg)
@@ -5675,6 +5702,7 @@ rupees
 > [!figure]
 >
 > ![](DS9.jpg)
+> ![](SS9.jpg)
 > ![](KS9.jpg)
 > ![](OS9.jpg)
 > ![](NS9.jpg)
@@ -5823,6 +5851,7 @@ red nine?
 > [!figure]
 >
 > ![](DM9.jpg)
+> ![](SM9.jpg)
 > ![](KM9.jpg)
 > ![](OM9.jpg)
 > ![](NM9.jpg)
