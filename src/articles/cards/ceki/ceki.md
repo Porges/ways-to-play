@@ -13,7 +13,7 @@ aliases:
   - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2025-02-22
+date modified: 2025-07-02
 linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
