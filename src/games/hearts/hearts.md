@@ -1,10 +1,13 @@
 ---
-title: ""
+title: Hearts
 draft: true
 equipment: Card game (standard deck)
 date created: 2025-05-20
-date modified: 2025-07-04
+date modified: 2025-07-05
+aliases: [Hearts]
+linter-yaml-title-alias: Hearts
 ---
+# Hearts
 
 Refs: [@CardGamesAroundTheWorld, p. 63]
 
