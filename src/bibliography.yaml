@@ -2231,7 +2231,8 @@ WinningWaysV3:
   volume: 3
   edition: 2
   author:
-    - given: Elwyn
+    - &Elwyn_Berlekamp
+      given: Elwyn
       family: Berlekamp
       url: https://en.wikipedia.org/wiki/Elwyn_Berlekamp
     - given: John
@@ -21015,3 +21016,37 @@ MockTempest:
   publisher-place: London
   publisher: William Cademan
   issued: 1675
+MisereDotsAndBoxes:
+  type: chapter
+  title: Narrow misère Dots-and-Boxes
+  author:
+  - given: Sébastien
+    family: Collette
+  - given: Erik D.
+    family: Demaine
+  - given: Martin L.
+    family: Demaine
+  - given: Stefan
+    family: Langerman
+  URL: https://library.slmath.org/books/Book63/files/131104-Demaine.pdf
+  page: 57-64
+  in: &GamesOfNoChance4
+    title: Games of No Chance 4
+    editor: [*Richard_J_Nowakowski]
+    publisher: Cambridge University Press
+    issued: 2015
+    ISBN: '978-1-107-01103-8'
+    URL: https://library.slmath.org/books/Book63/
+    series:
+      title: MSRI Publications
+      volume: 63
+DotsAndBoxes:
+  type: book
+  title: The Dots-and-Boxes Game
+  subtitle: Sophisticated Child’s Play
+  author: [*Elwyn_Berlekamp]
+  publisher: A K Peters
+  publisher-place: Massachusetts, USA
+  issued: 2000
+  ISBN: '1568811292'
+  URL: https://doi.org/10.1201/b14452
