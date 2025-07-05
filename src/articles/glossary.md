@@ -57,3 +57,7 @@ tong
     - Also used in Australia amongst Aboriginal groups who play games such as [Kuns](games/kuns/kuns.md).[@ANoteOnKuns p. 42][@WhatsTheBigDeal p. 668][@CardGamesToPokerMachines p. 137–8]
     </dd>
 </dl>
+
+
+> [!todo]
+> A similar concept to tong in Nepali: जिताउरी jitauri, "Winner's gift"

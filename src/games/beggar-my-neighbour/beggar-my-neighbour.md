@@ -5,7 +5,7 @@ players:
     min: 2
     max: 10
 date created: 2024-12-18
-date modified: 2025-02-08
+date modified: 2025-07-04
 aliases: [Beggar My Neighbour]
 linter-yaml-title-alias: Beggar My Neighbour
 ---
@@ -18,16 +18,30 @@ linter-yaml-title-alias: Beggar My Neighbour
 >
 > This is the first card game that my grandfather ever taught me!
 
-It is mentioned as early as 1603 by the British playwright [Thomas Heywood](https://en.wikipedia.org/wiki/Thomas_Heywood) under the name “<span class="aka">Knave out of Doors</span>” in his play <cite>A Woman Killed with Kindness</cite> (1603, published 1607).[@ThomasHeywood p. 5] A song about the [Rump Parliament](https://en.wikipedia.org/wiki/Rump_Parliament) called <cite>The Rebells Reign</cite> (from some time between 1639–61) also refers to the game under this name:
+It is mentioned as early as 1603 by the British playwright [Thomas Heywood](https://en.wikipedia.org/wiki/Thomas_Heywood) under the name “<span class="aka">Knave out of Doors</span>” in his play <cite>A Woman Killed with Kindness</cite> (1603, published 1607).[@ThomasHeywood 5] A song about the [Rump Parliament](https://en.wikipedia.org/wiki/Rump_Parliament) called <cite>The Rebells Reign</cite> (from some time between 1639–61) also refers to the game under this name:
 
 > The Parliament sate as snug as a Cat,\
 > &emsp;And were playing for mine and yours ;\
 > Sweep-stakes was their Game, till _Oliver_ came,\
-> &emsp;And turn’d it to Knave out of doors.[@Rump p. 317]
+> &emsp;And turn’d it to Knave out of doors.[@Rump 317]
 
-It is called “<span class="aka">Beat the Knave out of Doors</span>” in 1739,[@EighthChampion p. 4][^serious] and appears under the name “<span class="aka">Drive the Knave out of Doors</span>” in 1751.[@ALetterFromMrsMidnight p. 245]
+It is called “<span class="aka">Beat the Knave out of Doors</span>” in 1739,[@EighthChampion 4][^serious] and appears under the name “<span class="aka">Drive the Knave out of Doors</span>” in 1751.[@ALetterFromMrsMidnight 245]
 
-[^serious]: It also appears under this name in the 1754 tract @SeriousReflections [p. 15].
+Possibly most famously it appears in Dickens’ <cite>Great Expectations</cite> (1861):[@WhatDoYouPlayBoy]
+
+> “Let me see you play cards with this boy”
+> 
+> “With this boy! Why he is a common labouring-boy!”
+> 
+> I thought I overhead Miss Havisham answer — only it seemed so unlikely — “Well? You can break his heart.”
+> 
+> “What do you play, boy?” asked Estella of myself, with the greatest disdain.
+> 
+> “Nothing but beggar my neighbour, miss.”
+> 
+> “Beggar him,” said Miss Havisham to Estella. So we sat down to cards.
+
+[^serious]: It also appears under this name in the 1754 tract @SeriousReflections [15].
 
 A wonderful defence of this simple game as the ideal playing-card game may be found in the Meerut Universal Magazine.[@MUMagazine]
 
@@ -48,6 +62,7 @@ On the other hand, if the player playing on top of the face card turns up anothe
 
 The last player left with any cards is the winner.
 
+Note that it is possible for the game to become stuck in a loop, where the game will never end.[@NonTerminatingBeggar] The question of whether or not this was possible was raised by [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) as an “anti-Hilbert question”.[@PaulhusBeggar]
 ## A Variant?
 
 A game named <span class="aka">Knocking Dolly Out O’ Bed</span> is described in @LondonStreetGames [p. 14], which seems to be a variation on the game, with card values: <Cards>K</Cards>=3, <Cards>J</Cards>=2, <Cards>Q</Cards>=1, <Cards>A</Cards>=0. However, it is unclear how the game should function with a 0-valued card!

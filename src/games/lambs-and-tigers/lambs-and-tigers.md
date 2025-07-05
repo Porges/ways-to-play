@@ -2,6 +2,8 @@
 title: Lambs & Tigers
 draft: true
 players: 2
+date created: 2025-05-20
+date modified: 2025-07-04
 ---
 
 > [!figure]
@@ -24,3 +26,5 @@ In [Acehnese](https://en.wikipedia.org/wiki/Acehnese_language), it is called <sp
 Bagh Chal as well:
 
 @TigerGoatsDraw
+
+Bagh Chal in Nepali https://archive.org/details/in.ernet.dli.2015.146785/page/n443

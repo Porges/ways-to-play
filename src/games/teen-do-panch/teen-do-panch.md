@@ -7,19 +7,20 @@ aliases:
   - '<span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>'
 linter-yaml-title-alias: '<span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>'
 date created: 2024-12-18
-date modified: 2025-02-16
+date modified: 2025-07-04
 ---
 # <span lang="hi">तीन दो पाँच</span> · <span lang="hi-Latn" class="noun">Teen Do Pānch</span>
 
-<span lang="hi-Latn" class="noun aka">Teen Do Pānch</span> (<span lang="hi" class="aka">तीन दो पाँच</span> <span lang="hi-Latn">tīn dō pānch</span>) is a three-player card game from India. The name of the game means “<span class="aka">Three Two Five</span>” in Hindi.
+<span lang="hi-Latn" class="noun aka">Teen Do Pānch</span> (<span lang="hi" class="aka">तीन दो पाँच</span> <span lang="hi-Latn">tīn dō pānch</span>) is a three-player card game from India. The name of the game means “<span class="aka">Three Two Five</span>” in Hindi.[^pactindo]
+
+[^pactindo]: I have also seen this as _pāc-tin-don_.[@MaharashtraStateGazetteersKolabaDistrict 177]
 
 Ten tricks are played, and each player must make a certain number depending on
 their position in relation to the dealer.
 
 ## Setup
 
-From a standard deck, remove all cards except for <Cards>8–A</Cards> in each
-suit, plus the <Cards>h7</Cards> and <Cards>s7</Cards>, leaving 30 cards total.
+From a standard deck, remove all cards except for <Cards>8–A</Cards> in each suit, plus the <Cards>h7</Cards> and <Cards>s7</Cards>, leaving 30 cards total.
 
 ## Play
 

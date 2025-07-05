@@ -1,11 +1,11 @@
 ---
-title: Chinese Cards
+title: Chinese Playing Cards
 date created: 2024-12-18
-date modified: 2025-02-17
-aliases: [Chinese Cards]
-linter-yaml-title-alias: Chinese Cards
+date modified: 2025-07-03
+aliases: [Chinese Playing Cards]
+linter-yaml-title-alias: Chinese Playing Cards
 ---
-# Chinese Cards
+# Chinese Playing Cards
 
 As the probable country of origin of playing cards, China has a long history of
 card-playing and many different varieties.

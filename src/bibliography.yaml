@@ -20840,3 +20840,165 @@ LiarsDiceReview:
     year: 2015
     month: 7
     day: 13
+QuantifyingSnakesAndLadders:
+  type: article-journal
+  title: Quantifying the Vices and Virtues of Snakes and Ladders Through Time
+  author:
+    - given: Eleanor A.
+      family: Dauenhauer
+    - given: Paul J.
+      family: Dauenhauer
+  URL: https://doi.org/10.2478/bgs-2024-0001
+  archive-URL: https://web.archive.org/web/20250415113135/https://sciendo.com/article/10.2478/bgs-2024-0001
+  page: 1-38
+  in: &bgs_18
+    title: Board Game Studies
+    volume: 18
+    issued:
+      year: 2024
+      month: 10
+DepaulisEarlyMancala:
+  type: article-journal
+  title: Early Mancala and <i>Tāb</i> Boards Found in Israel (and in Some Other Countries)
+  author: [*Thierry_Depaulis]
+  page: 39-60
+  URL: https://doi.org/10.2478/bgs-2024-0002
+  archive-URL: https://web.archive.org/web/20250417092029/https://sciendo.com/article/10.2478/bgs-2024-0002
+  in: *bgs_18
+ChessAndFreedom:
+  type: article-journal
+  title: Chess and Freedom
+  author:
+  - given: Bernd-Peter
+    family: Lange
+  page: 61-73
+  in: *bgs_18
+  URL: https://doi.org/10.2478/bgs-2024-0003
+  archive-URL: https://web.archive.org/web/20250429225638/https://sciendo.com/article/10.2478/bgs-2024-0003
+DiscoveringDadu:
+  type: article-journal
+  title: 'Discovering Dadu: A Ludemic Enigma from South Asia'
+  author:
+  - given: Jacob
+    family: Schmidt-Madsen
+  page: 74-118
+  in: *bgs_18
+  URL: https://doi.org/10.2478/bgs-2024-0004
+  archive-URL: https://web.archive.org/web/20250415153713/https://sciendo.com/article/10.2478/bgs-2024-0004
+CulturalCupid:
+  type: article-journal
+  title: 'Cultural Transmission in Printed Games of Cupid: Tracing Lines of Descent'
+  author:
+  - given: Adrian
+    family: Seville
+  - *Alex_de_Voogt
+  page: 119-139
+  in: *bgs_18
+  URL: https://doi.org/10.2478/bgs-2024-0005
+  archive-URL: https://web.archive.org/web/20250429100623/https://sciendo.com/article/10.2478/bgs-2024-0005
+MyanmarStreetGamesI:
+  type: webpage
+  title: Traditional Myanmar street games explained
+  URL: https://www.frontiermyanmar.net/en/traditional-myanmar-street-games-explained/
+  archive-URL: https://web.archive.org/web/20180903065141/https://frontiermyanmar.net/en/traditional-myanmar-street-games-explained
+  author:
+  - given: Jared
+    family: Downing
+  container-title: Frontier Myanmar
+  issued:
+    year: 2018
+    month: 9
+    day: 1
+MyanmarStreetGamesII:
+  type: webpage
+  title: 'Traditional Myanmar street games: Part II'
+  URL: https://www.frontiermyanmar.net/en/traditional-myanmar-street-games-part-ii/
+  archive-URL: https://web.archive.org/web/20180910112931/https://frontiermyanmar.net/en/traditional-myanmar-street-games-part-ii
+  author:
+  - given: Jared
+    family: Downing
+  container-title: Frontier Myanmar
+  issued:
+    year: 2018
+    month: 9
+    day: 9
+UniverseIsAGame:
+  type: webpage
+  title: The Universe is a Game
+  URL: https://chintandiaries.blogspot.com/2024/01/the-universe-is-game.html
+  container-title: Chintan Diaries
+  author:
+  - given: Hrishikesh
+    family: Kulkarni
+  issued:
+    year: 2024
+    month: 01
+    day: 12
+  archive-URL: https://web.archive.org/web/20250703043648/https://chintandiaries.blogspot.com/2024/01/the-universe-is-game.html
+NonTerminatingBeggar:
+  type: document
+  title: A Non-Terminating Game of Beggar-My-Neighbor
+  URL: https://doi.org/10.48550/arXiv.2403.13855
+  author:
+  - given: Brayden
+    family: Casella
+  - given: Philip M.
+    family: Anderson
+  - given: Michael
+    family: Kleber
+  - given: Richard P.
+    family: Mann
+  - given: Reed
+    family: Nessler
+  - given: William
+    family: Rucklidge
+  - given: Samuel G.
+    family: Williams
+  - given: Nicolas
+    family: Wu
+  publisher: arXiv
+  issued:
+    year: 2024
+    month: 03
+    day: 19
+PaulhusBeggar:
+  type: article-journal
+  title: Beggar My Neighbour
+  author:
+  - given: Marc M.
+    family: Paulhus
+  page: 162-165
+  URL: https://www.jstor.org/stable/2589054
+  in:
+    title: The American Mathematical Monthly
+    volume: 106
+    issue: 2
+    issued:
+      year: 1999
+      month: 2
+WhatDoYouPlayBoy:
+  type: article-journal
+  title: '“What do you play, boy?”: Card Games in <cite>Great Expectations</cite>'
+  author:
+  - given: Kristen L.
+    family: Parkinson
+  page: 119-138
+  URL: https://www.jstor.org/stable/45292262
+  in:
+    title: Dickens Quarterly
+    volume: 27
+    issue: 2
+    issued:
+      year: 2010
+      month: 6
+MaharashtraStateGazetteersKolabaDistrict:
+  type: book
+  title: Kolaba District
+  series:
+    title: Maharashtra State Gazetteers
+  issued: 1964
+  publisher: Government of Maharashtra
+  edition: 2
+  original-date: 1883
+  URL: https://archive.org/details/dli.csl.3270
+  notes: See page 177 onwards about games.
