@@ -12751,6 +12751,7 @@ Simaloerese:
   title:
     lang: nl
     value: Simaloerese Sprookjes, Overleveringen, Raadsels en Spelen
+    alt: Simeulue Folktales, Folklore, Riddles, and Games
   language: nl
   page: 1-14
   URL: https://kitlv-docs.library.leiden.edu/open/Metamorfoze/TBG/MMKITLV01_PDF_TS2332_1919_58.pdf
@@ -21002,3 +21003,15 @@ MaharashtraStateGazetteersKolabaDistrict:
   original-date: 1883
   URL: https://archive.org/details/dli.csl.3270
   notes: See page 177 onwards about games.
+MockTempest:
+  type: book
+  URL: https://archive.org/details/bim_early-english-books-1641-1700_the-mock-tempest-_duffet-thomas_1675
+  title: The Mock-Tempest
+  subtitle: ': or the Enchanted Castle'
+  author:
+  - given: Thomas
+    family: Duffet
+    url: https://en.wikipedia.org/wiki/Thomas_Duffet
+  publisher-place: London
+  publisher: William Cademan
+  issued: 1675

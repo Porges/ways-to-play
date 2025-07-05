@@ -4,7 +4,8 @@ aliases:
   - '<span lang="mr">भिकार सावकार</span> · <span lang="mr-Latn" class="noun">Bhikār Sāvkār</span>'
 linter-yaml-title-alias: '<span lang="mr">भिकार सावकार</span> · <span lang="mr-Latn" class="noun">Bhikār Sāvkār</span>'
 date created: 2025-07-03
-date modified: 2025-07-03
+date modified: 2025-07-05
+equipment: Card game (standard deck)
 ---
 # <span lang="mr">भिकार सावकार</span> · <span lang="mr-Latn" class="noun">Bhikār Sāvkār</span>
 

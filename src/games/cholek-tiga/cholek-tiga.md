@@ -1,19 +1,23 @@
 ---
 title: '<span class="noun" lang="ms">Cholek Tiga</span>'
 titleLang: ms
-players: [2, 3]
+players:
+  - 2
+  - 3
 hero:
-    image: '../balik-satu/shutterstock_1900515673.jpg'
-    license: "stock-image"
-    organization:
-        orgName: "Shutterstock.com"
-    author: "khooiay"
-    identifier: "1900515673"
-    originalUrl: "https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673"
+  image: ../balik-satu/shutterstock_1900515673.jpg
+  license: stock-image
+  organization:
+    orgName: Shutterstock.com
+  author: khooiay
+  identifier: "1900515673"
+  originalUrl: https://www.shutterstock.com/image-photo/rows-antique-nyonya-tiles-pink-flowers-1900515673
 date created: 2024-12-22
-date modified: 2025-02-16
-aliases: ['<span class="noun" lang="ms">Cholek Tiga</span>']
+date modified: 2025-07-05
+aliases:
+  - '<span class="noun" lang="ms">Cholek Tiga</span>'
 linter-yaml-title-alias: '<span class="noun" lang="ms">Cholek Tiga</span>'
+equipment: Card game (Ceki)
 ---
 # <span class="noun" lang="ms">Cholek Tiga</span>
 

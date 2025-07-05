@@ -5,8 +5,10 @@ players:
   max: 5
 date created: 2024-12-18
 date modified: 2025-02-16
-aliases: [Leap-Frog]
+aliases:
+  - Leap-Frog
 linter-yaml-title-alias: Leap-Frog
+equipment: Board game
 ---
 # Leap-Frog
 

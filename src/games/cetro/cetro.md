@@ -3,8 +3,10 @@ title: Cetro
 players: 2
 date created: 2024-12-22
 date modified: 2025-02-16
-aliases: [Cetro]
+aliases:
+  - Cetro
 linter-yaml-title-alias: Cetro
+equipment: Board game
 ---
 # Cetro
 

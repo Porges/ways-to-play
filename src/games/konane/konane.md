@@ -1,12 +1,13 @@
 ---
-title: <span lang="haw" class="noun">Kōnane</span>
+title: '<span lang="haw" class="noun">Kōnane</span>'
 players: 2
 countries: US
 date created: 2024-12-22
-date modified: 2025-02-16
+date modified: 2025-07-05
 aliases:
-  - <span lang="haw" class="noun">Kōnane</span>
-linter-yaml-title-alias: <span lang="haw" class="noun">Kōnane</span>
+  - '<span lang="haw" class="noun">Kōnane</span>'
+linter-yaml-title-alias: '<span lang="haw" class="noun">Kōnane</span>'
+equipment: Board game
 ---
 # <span lang="haw" class="noun">Kōnane</span>
 
