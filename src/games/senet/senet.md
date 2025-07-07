@@ -1,19 +1,22 @@
 ---
-title: Senet
-originalTitle: <span lang="egy">𓊃𓐰𓈖𓐰𓏏𓏠</span>
+title: '<span lang="egy">𓊃𓐰𓈖𓐰𓏏𓏠</span> · <span lang="egy-Latn" class="noun">Senet</span>'
 draft: true
 equipment: Board game
 countries: EG
 hero:
-    image: D6n3F4iWwAIgNpL.jpg
-    license: with-permission
-    author:
-        given: Walter
-        family: Crist
-    originalUrl: https://twitter.com/CuseKicks/status/1128706691825045510/photo/1
+  image: D6n3F4iWwAIgNpL.jpg
+  license: with-permission
+  author:
+    given: Walter
+    family: Crist
+  originalUrl: https://twitter.com/CuseKicks/status/1128706691825045510/photo/1
 date created: 2024-12-22
-date modified: 2024-12-22
+date modified: 2025-07-07
+aliases:
+  - '<span lang="egy">𓊃𓐰𓈖𓐰𓏏𓏠</span> · <span lang="egy-Latn" class="noun">Senet</span>'
+linter-yaml-title-alias: '<span lang="egy">𓊃𓐰𓈖𓐰𓏏𓏠</span> · <span lang="egy-Latn" class="noun">Senet</span>'
 ---
+# <span lang="egy">𓊃𓐰𓈖𓐰𓏏𓏠</span> · <span lang="egy-Latn" class="noun">Senet</span>
 
 In terms of longevity, <span class="aka noun" lang="egy-Latn">Senet</span> (<span lang="egy" class="aka">𓊃𓐰𓈖𓐰𓏏𓏠</span>) is possibly the most popular game of all time.
 

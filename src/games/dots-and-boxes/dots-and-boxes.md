@@ -27,3 +27,5 @@ https://www.flickr.com/photos/ericahargreave/3717552926/
 Other refs:
 - @MisereDotsAndBoxes
 - @DotsAndBoxes
+
+Note that Berlekamp is possibly the first person to name it "Dots and Boxes" and had been lecturing on the topic since 1953. https://archive.org/details/facultybulletinpv5659penn/page/n715

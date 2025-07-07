@@ -18,3 +18,4 @@ See:
 - @MahjongMahjong_1
 - @MahjongMahjong_2
 - @FlowersAndKings
+- @FosterOnMahJong

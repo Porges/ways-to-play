@@ -1,10 +1,12 @@
 ---
 title: '<span lang="ms" class="noun">Belangkai</span>'
 players: banking
-aliases: ['<span lang="ms" class="noun">Belangkai</span>']
+aliases:
+  - '<span lang="ms" class="noun">Belangkai</span>'
 linter-yaml-title-alias: '<span lang="ms" class="noun">Belangkai</span>'
 date created: 2024-12-22
-date modified: 2025-02-08
+date modified: 2025-07-07
+equipment: Dice game (non-standard dice)
 ---
 
 # <span lang="ms" class="noun">Belangkai</span>

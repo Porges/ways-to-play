@@ -4,16 +4,18 @@ mainImage: chuk-a-luck_bank_club_reno_nevada.jpg
 countries: US
 players: banking
 hero:
-    image: 'Potter_GrandHazard.jpeg'
-    copyrightYear: 2018
-    license: "with-permission"
-    organization: 
-        orgName: "Potter & Potter Auctions"
-    originalUrl: "https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx"
+  image: Potter_GrandHazard.jpeg
+  copyrightYear: 2018
+  license: with-permission
+  organization:
+    orgName: Potter & Potter Auctions
+  originalUrl: https://auctions.potterauctions.com/will___finck_hand_painted_oil_cloth_grand_hazard_l-lot9830.aspx
 date created: 2024-12-22
 date modified: 2025-02-16
-aliases: [Chuck-a-Luck]
+aliases:
+  - Chuck-a-Luck
 linter-yaml-title-alias: Chuck-a-Luck
+equipment: Dice game
 ---
 # Chuck-a-Luck
 

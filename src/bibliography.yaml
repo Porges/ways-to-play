@@ -7891,8 +7891,10 @@ CompleteHoyle97:
   type: book
   title: Foster’s Complete Hoyle
   author:
-    - given: Robert Frederick
+    - &RF_Foster
+      given: Robert Frederick
       family: Foster
+      url: https://en.wikipedia.org/wiki/Robert_Frederick_Foster
   edition: 3
   issued: 1897
   publisher: Frederick A. Stokes Company
@@ -7902,9 +7904,7 @@ CompleteHoyle97:
 CompleteHoyle09:
   type: book
   title: Foster’s Complete Hoyle
-  author:
-    - given: Robert Frederick
-      family: Foster
+  author: [*RF_Foster]
   issued: 1909
   publisher: Frederick A. Stokes Company
   publisher-place: New York
@@ -21050,3 +21050,23 @@ DotsAndBoxes:
   issued: 2000
   ISBN: '1568811292'
   URL: https://doi.org/10.1201/b14452
+BYNYouTube:
+  type: webpage
+  title: Indian Card Games | Beggar your Neighbour | Bhikar Savkar | 2 player card game
+  container-title: YouTube
+  URL: https://www.youtube.com/watch?v=8o2rzrEae9c
+  archive-URL: https://web.archive.org/web/20240708041031/https://www.youtube.com/watch?v=8o2rzrEae9c&feature=youtu.be
+  author:
+  - given: Indian Card Games
+  issued:
+    year: 2020
+    month: 5
+    day: 26
+FosterOnMahJong:
+  type: book
+  title: Foster on Mah Jong
+  URL: https://archive.org/details/bwb_Y0-ACE-714
+  issued: 1924
+  publisher: Dodd, Mead and Company
+  publisher-place: New York
+  author: [*RF_Foster]

@@ -4,7 +4,7 @@ aliases:
   - '<span lang="mr">भिकार सावकार</span> · <span lang="mr-Latn" class="noun">Bhikār Sāvkār</span>'
 linter-yaml-title-alias: '<span lang="mr">भिकार सावकार</span> · <span lang="mr-Latn" class="noun">Bhikār Sāvkār</span>'
 date created: 2025-07-03
-date modified: 2025-07-05
+date modified: 2025-07-07
 equipment: Card game (standard deck)
 ---
 # <span lang="mr">भिकार सावकार</span> · <span lang="mr-Latn" class="noun">Bhikār Sāvkār</span>
@@ -20,9 +20,13 @@ Any number of players can play with a standard deck (or decks, if many people ar
 
 All the cards are dealt out one at a time. Each player holds their cards face down in their hands and on their turn, plays a single card unseen from the top of their deck into a central face-up pile. 
 
-There are two ways by which a player captures the central pile:
-- If the suit of the played card matches the suit of the previous card on the pile, then the player who played the card with the higher rank wins the whole pile. They shuffle the pile and add it to the bottom of their personal deck.
+Sources describe different ways in which the central pile can be captured.
+
+The more interesting version is:[@UniverseIsAGame][@BYNYouTube]
+- If the suit of the played card matches the suit of the previous card on the pile, then the player who played the card with the _higher_ rank wins the whole pile.
 - If the rank of the played card matches the previous one, and the _colour_ of the cards is the same (black or red), then the player who played the second card also captures the whole pile.
+
+The simpler version is that the central pile is captured when the rank of the played card matches that of the previous card. In this case the player who played the second card captures the whole pile. They shuffle it and add it to the bottom of their personal deck. In this case, the game is basically the same as [Snap](games/snap/snap.md), only without snapping.
 
 A player who captures the pile restarts the game by playing a card.
 
