@@ -3,17 +3,19 @@ title: The Three-Card Game
 draft: true
 countries: JP,AU,US
 subgames:
-- title: Oicho-Kabu
-  titleLang: ja-Latn
-  originalTitle: <span lang="ja">おいちょかぶ</span>
-  countries: JP
-- title: Kabu
-  titleLang: en
-  countries: US
+  - title: Oicho-Kabu
+    titleLang: ja-Latn
+    originalTitle: <span lang="ja">おいちょかぶ</span>
+    countries: JP
+  - title: Kabu
+    titleLang: en
+    countries: US
 date created: 2024-12-18
 date modified: 2025-03-10
-aliases: [The Three-Card Game]
+aliases:
+  - The Three-Card Game
 linter-yaml-title-alias: The Three-Card Game
+equipment: Card game (standard deck)
 ---
 # The Three-Card Game
 
@@ -31,7 +33,7 @@ This page discusses variants of what — for lack of a better term — I
 
 The earliest reference that I know of is that of <span lang="cmn-Latn-pinyin" class="noun">Pān Zhīhéng</span> (<span lang="zh">潘之恒</span>, 1556–1622), a late Ming-era poet who mentioned the game <span lang="zh" class="aka">扯三章</span>/<span lang="zh" class="aka">扯三張</span>[^fn0]  (‘draw 3 cards’) in passing while describing the rules of the game <span lang="zh">扯三章</span> (‘draw 5 cards’, for which, see the [Five Card](games/five-card/five-card.md) article). The rules are not explicitly given (he simply states <span lang="zh">扯三張例俱如前</span> ‘drawing 3 cards: rules as above’ after a subsection of the 5-card rules), but it is clear from the context that the game is essentially the same as the more recent versions given below.[@XuYeziPu_2] <span lang="cmn-Latn-pinyin" class="noun">Pān</span> also describes the game being played for drinks:[@XuYeziPu_2 281]
 
-[^fn0]: The first name is used in the @YeziPu, the second in @XuYeziPu.
+[^fn0]: The first name is used in @YeziPu, the second in @XuYeziPu.
 
 > In the <span lang="zh-Latn">wuzi</span> year [<span lang="zh">戊子</span>, here 1588], I was with his lordship the Vice Minister of War Wang Shizhen [<span lang="zh">王世贞</span>, 1526–90][^fn1] in his official residence in the auxiliary capital Nanjing. We drank and wrote poetry together every day. When a few rounds had passed, he would have cards brought out,and we would play the game ‘Drawing Three Cards’. Each one would take turns being the ‘banker’, and the others would gather round and play against him. There would be complete wins or losses, or a mixture of both. Those who lost would drink a large cup. Sometimes, one of the players would try to get up and escape, feeling unable to drink anymore. If he was really inebriated, we would not chase him. If he was pretending, we would stop him. If someone was the sole winner, others would feel dissatisfied, and he would have to play against everyone again. All gave shouts of delight and had a wonderful time. His lordship would sometimes be in his cups, and would tell his two pages to help him retire. The guests would then continue with his sons and play to their hearts’ delight. These sessions were frequent, but each time the game provided fresh delights. There is just no better drinking game than this.
 
