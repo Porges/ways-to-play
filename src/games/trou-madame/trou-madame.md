@@ -5,7 +5,7 @@ draft: true
 aliases: ['<span lang="fr" class="noun">Trou Madame</span>']
 linter-yaml-title-alias: '<span lang="fr" class="noun">Trou Madame</span>'
 date created: 2024-12-22
-date modified: 2025-02-16
+date modified: 2025-07-08
 ---
 # <span lang="fr" class="noun">Trou Madame</span>
 
@@ -108,3 +108,38 @@ name; the text accompanying the image in the book reads:
 Similar Italian games are <span lang="it" class="aka noun">Mirélla</span> (9 balls, 9 holes), <span lang="it" class="aka noun">Rúllo</span>, and <span lang="it" class="aka noun">Trúcco</span> (13 holes).[@FlorioVocabolario]
 
 https://archive.org/details/bim_early-english-books-1641-1700_vocabulario-italiano-e-i_florio-giovanni_1690/page/n29/mode/2up?q=%22lady%27s+hole%22
+
+
+In @LeCuriexAlmanach, one “Baron de Courte-molle”[^courte] expounds:
+
+[^courte]: something like “Baron Short-Soft”
+
+> [!multi]
+> 
+> > [!lang] fr 
+> > 
+> > Le Trou-madame estant par l’amour inventé,\
+> > &emsp;D’y Ioüer je suis si tenté,\
+> > Que souvent je m’y porte avec ardeur extrême;\
+> > &emsp;Ie m’y montre toûjours dispos,\
+> > &emsp;Et peu pour y joüer de mesme,\
+> > &emsp;Rencontrent l’endroit à propos.\
+> > Ma boule a de la pente, & je connais la place,\
+> > &emsp;Où l’on entre de bonne grace:\
+> > &emsp;L’Essay le prouve jusqu’au point,\
+> > &emsp;Que quan j’ay l’object qui m’enflâme,\
+> > La Belle vous dira que ie ne manque point,\
+> > &emsp;A mettre dans le Trou-madame.
+> 
+> The Trou-Madame, being invented by love,\
+> &emsp;To play of it I am so tempted,\
+> That often I approach with extreme ardour;\
+> &emsp;I always show myself ready,\
+> &emsp;And few can play it the same,\
+> &emsp;Meeting the appropriate spot.\
+> My ball is on the slope, and I know the place,\
+> &emsp;Where one enters with good grace:\
+> &emsp;The attempt proves it until the point,\
+> &emsp;That when I have the object which inflames me,\
+> The Beauty will tell you that I do not fail,\
+> &emsp;To put it in the Trou-Madame.

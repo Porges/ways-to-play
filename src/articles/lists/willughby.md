@@ -34,7 +34,7 @@ In the order given in the manuscript, the sections are:[^fn0]
     - Double Hand Cribbidge
     - Ruffe & Trump
     - Gleeke
-    - Beast, or Le Beste
+    - [Beast](games/beast/beast.md), or Le Beste
     - Loosing Lodum
     - Winning Loadum
     - Ging or Seven Cards

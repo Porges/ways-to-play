@@ -18958,17 +18958,19 @@ Fantasticks:
 LeCuriexAlmanach:
   type: book
   title:
-    value: Le Curieux Almanach pour L’An de Grace 1768
+    value: Le Curieux Almanach pour L’An de Grace 1678
+    alt: The curious almanac for the year of our Lord 1678
     lang: fr
   language: fr
   publisher: Chez Laurens Machuël
   publisher-place: Rouen, France
   issued: 1678
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k1519560f
-  notes: Nice engravings of games.
+  notes: 'Nice engravings of games: Billiards, Cards (Beste), Quilles, Dames, Chess, Odd & Even, Morra, Bowls, Malle.'
   author:
   - given: Angelo
     family: Casaretta
+    lang: it
 FrancisBeaumontJohnFletcher:
   type: book
   title: Comedies and Tragedies written by Francis Beaumont and John Fletcher Gentlemen

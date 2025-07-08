@@ -71,6 +71,8 @@ Some nice quotes maybe here:
 - https://archive.org/details/the-new-monthly-belle-assemblee-volume-22-january-june-1845/page/176/mode/2up?q=%22game+with+their+fingers%22
 - https://archive.org/details/newmonthlymagaz60unkngoog/page/462/mode/2up?q=%22game+with+their+fingers%22
 
+Poem in @LeCuriexAlmanach [30]...
+
 ## <span lang="yue-Latn-jyutping" class="aka">Caai¹ Mui⁴⁻²</span> (<span lang="yue" class="aka">猜枚</span>)
 
 This is a game which is known as <span lang="zh" class="aka">猜枚</span>[@TipcatAndOtherChineseGames] (Cantonese: <span lang="yue-Latn-jyutping" class="aka">caai¹ mui⁴⁻²</span>; Hokkien: <span lang="nan-Latn" class="aka">chhai mûi</span>; Mandarin: <span lang="cmn-Latn-pinyin" class="aka">cāi méi</span>) ‘guess the count’,[^fn0] <span lang="yue" class="aka">猜碼</span>[@AFunSouthernChineseGame] (Cantonese: <span class="aka" lang="yue-Latn-jyutping">caai¹ maa⁵</span>) ‘guess the number’, or <span lang="zh" class="aka">猜拳</span>[@TonicDictionary p. 191] (Cantonese: <span lang="yue-Latn-jyutping" class="aka">caai¹ kyun⁴</span>; Hokkien: <span lang="nan-Latn" class="aka">chhai kûn</span>; Mandarin: <span class="aka" lang="cmn-Latn-pinyin">cāi quán</span>) ‘guess the fist’.[^fn1] A variant using two hands where a hand can only be open or shut is also called “15, 20” <span lang="zh" class="aka">十五二十</span>, or “15, 15, …” , and the player must guess correctly twice.[@ShiwuShiwu]
