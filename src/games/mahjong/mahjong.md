@@ -8,7 +8,7 @@ aliases:
   - Mahjong
 linter-yaml-title-alias: '<span lang="zh">麻雀</span> · Mahjong'
 date created: 2024-12-18
-date modified: 2025-02-17
+date modified: 2025-07-08
 ---
 # <span lang="zh">麻雀</span> · Mahjong
 
@@ -19,3 +19,5 @@ See:
 - @MahjongMahjong_2
 - @FlowersAndKings
 - @FosterOnMahJong
+
+https://archive.org/details/mah-jongg/page/14/mode/2up

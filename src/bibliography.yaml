@@ -21070,3 +21070,37 @@ FosterOnMahJong:
   publisher: Dodd, Mead and Company
   publisher-place: New York
   author: [*RF_Foster]
+MahjongWong:
+  type: book
+  title: Mahjong
+  subtitle: House Rules from Across the Asian Diaspora
+  author:
+  - given: Nicole
+    family: Wong
+  ISBN: '9781958417638'
+  publisher: Hardie Grant
+  publisher-place: Berkeley, CA, USA
+MahJongg:
+  type: book
+  title: Mah Jongg
+  author:
+  - given: “East Wind”
+  issued:
+    year: 1924
+    month: 5
+  publisher-place: London
+  publisher: H. P. Gibson & Sons
+  edition: 2
+MahJonggCavallaro:
+  type: book
+  title: Mah-Jongg
+  subtitle: from Shanghai to Miami Beach
+  author:
+  - given: Christina
+    family: Cavallaro
+  - given: Anita
+    family: Luu
+  ISBN: '0811847330'
+  issued: 2005
+  publisher: Chronicle Books
+  publisher-place: San Francisco, CA, USA
