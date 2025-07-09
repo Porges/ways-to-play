@@ -476,3 +476,5 @@ Chickens have also been trained to ‘play’ the game.[@CrossOutALandmark][@The
 
 Some general references for the game are @OxfordBG [112–3], @Bell [vol. 1, p. 91], and
 @Murray2 [§3.2.1, p. 40].
+
+Gardner has further discussion on variants in @WheelsLife [94–105].

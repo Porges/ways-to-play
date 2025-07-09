@@ -1384,6 +1384,8 @@ Gardner1:
     year: 1959
   publisher: The University of Chicago Press
   publisher-place: Chicago, USA
+  ISBN: '0226282546'
+  URL: https://archive.org/details/martin-gardner-mathematical-games/01%20Hexaflexagons%20and%20Other%20Mathematical%20Diversions/
 KamehamehaAndHisWarrior:
   type: book
   title: Kamehameha and his warrior Kekūhaupiʻo
@@ -21106,3 +21108,21 @@ MahJonggCavallaro:
   issued: 2005
   publisher: Chronicle Books
   publisher-place: San Francisco, CA, USA
+KnottedDoughnuts:
+  type: book
+  title: Knotted Doughnuts and Other Mathematical Entertainments
+  publisher: W. H. Freeman and Company
+  publisher-place: New York, NY, USA
+  author: [*Martin_Gardner]
+  issued: 1986
+  ISBN: '0716717948'
+  URL: https://archive.org/details/martin-gardner-mathematical-games/11%20Knotted%20Doughnuts%20and%20Other%20Mathematical%20Entertainments
+WheelsLife:
+  type: book
+  title: Wheels, Life, and Other Mathematical Amusements
+  author: [*Martin_Gardner]
+  issued: 1983
+  publisher: W. H. Freeman and Company
+  publisher-place: New York, NY, USA
+  URL: https://archive.org/details/martin-gardner-mathematical-games/10%20Wheels%2C%20Life%2C%20and%20Other%20Mathematical%20Amusements
+  ISBN: '0716715880'

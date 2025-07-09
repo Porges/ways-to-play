@@ -5,10 +5,10 @@ players: 2
 draft: true
 equipment: Pen and paper
 date created: 2025-05-20
-date modified: 2025-07-05
+date modified: 2025-07-09
 ---
 
-<span class="aka">Dots and Boxes</span> is also referred to as simply “<span class="aka">Dots</span>”, “<span class="aka">Boxes</span>”, or “<span class="aka">Dot-Boxes</span>”.[@LondonStreetGames p. 134]
+<span class="aka">Dots and Boxes</span> is also referred to as simply “<span class="aka">Dots</span>”, “<span class="aka">Boxes</span>”, or “<span class="aka">Dot-Boxes</span>”.[@LondonStreetGames p. 134] Sometimes it is also called <span class="aka">Dots and Squares</span>.[@KnottedDoughnuts 232]
 
 This well-known game was invented in 1889 by the French mathematician <a lang="fr" class="noun" href="https://en.wikipedia.org/wiki/%C3%89douard_Lucas">Édouard Lucas</a>, and was at first named <span lang="fr" class="aka">La Pipopipette</span>.
 
