@@ -1,15 +1,15 @@
 ---
-title: <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
+title: '<span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>'
 titleLang: ar-Latn
 originalTitle: <span lang="ar">سيجة</span>
 draft: true
 countries: EG
 date created: 2024-12-22
-date modified: 2025-02-16
+date modified: 2025-07-09
 aliases:
-  - <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
+  - '<span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>'
   - <span lang="ar-Latn" class="noun">Sīja</span>
-linter-yaml-title-alias: <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
+linter-yaml-title-alias: '<span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>'
 ---
 # <span lang="ar">سيجة</span> · <span lang="ar-Latn" class="noun">Sīja</span>
 
@@ -35,9 +35,17 @@ This game is usually called <span lang="ar-Latn" class="noun aka">Seega</span> i
 
 In Arabic it is variously called <span lang="ar" class="aka">سِيجَة</span> <span lang="ar-Latn" class="aka">sīja</span>; <span lang="ar" class="aka">سيجة</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجة.mp3" class="aka">sīja</Pronounce>; <span lang="ar" class="aka">سيجا</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_سيجا.mp3" class="aka">sījā</Pronounce>; or (in Egypt? there was some specific location here) <span lang="ar" class="aka">شيزة</span> <Pronounce  lang="ar-Latn" pronouncer="Ad7am" file="pronunciation_ar_شيزة.mp3" class="aka">shiza</Pronounce>.
 
+Sija also the name of a cactus in Sanskrit? https://archive.org/details/in.ernet.dli.2015.53326/mode/2up?q=%22seeja%22
+
 See: @BedouinHeritage, @ModernEgyptians [p. 318], @GebelElSilsila, @SeegaEgyptian
 
 @Murray2 [§4.1.7], leaping variant @Murray2 [§4.4.3], citing @AncientCeylon [p. 604], where Chokō is also described
+
+See @TopOfThePyramid.
+
+in a story: https://archive.org/details/folktalesofegypt00elsh/page/23/mode/2up?q=bedouin+seega
+
+example game: https://archive.org/details/youngfolkscyclo01bostgoog/mode/2up?q=bedouin+seega
 
 https://ar.wikipedia.org/wiki/%D8%B3%D9%8A%D8%AC%D8%A9_(%D9%84%D8%B9%D8%A8%D8%A9)
 
@@ -108,6 +116,10 @@ https://www.persee.fr/doc/jafr_0399-0346_1988_num_58_1_2247
 Possibly the same as <span lang="so">kubbad</span>[@SomaliEnglishThesaurus p. 99]/<span lang="so">kurobodo</span>[@SomaliEnglishDictionary p. 87]/<span lang="so">koruböddo</span>/<span lang="so">korkaböd</span>[@SomaliGames p.  506].
 
 Dara also in [@JeuxChezTouaregs].
+
+## Commercial
+
+See "seejeh" https://archive.org/details/Games-Magazine-January-February-1979-images/page/4/mode/2up also mentioned in Gamut of Games https://archive.org/details/gamutofgames0000sack/mode/2up?q=%22seejeh%22 and published in Israel too https://archive.org/details/americangames00alex/mode/2up?q=%22seejeh%22 - was sold by Smithsonian https://archive.org/details/smithsonian-1970-2010/1970-1979/1978/Smithsonian%20v08n11%20%281978-02%29%20%28Gale%29/mode/2up?q=%22seejeh%22 - more about it here https://archive.org/details/TheJerusalemPost1976IsraelEnglish/Dec%2010%201976%2C%20The%20Jerusalem%20Post%2C%20%2313882%2C%20Israel%20%28en%29/mode/2up?q=%22seejeh%22 and here https://archive.org/details/TheNewYorkTimes1976USAEnglish/Dec%2013%201976%2C%20The%20New%20York%20Times%2C%20%2343423%2C%20USA%20%28en%29/mode/2up?q=%22seejeh%22
 
 ## See also
 

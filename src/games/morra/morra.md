@@ -15,7 +15,7 @@ subgames:
     countries: CN,HK
     originalTitle: 猜枚
 date created: 2024-12-18
-date modified: 2025-03-16
+date modified: 2025-07-09
 aliases:
   - '<span lang="it" class="noun">Morra</span>'
 linter-yaml-title-alias: '<span lang="it" class="noun">Morra</span>'
@@ -48,6 +48,8 @@ see correspondence [@GameOfMicatioDigitorum] [@MicatioDigitorumLetter][@MicatioD
 
 
 In @JanuaLinguarum1661 [484] where other games are described as “childish” (<span lang="la">puerile</span>), “gamerly” (?, <span lang="la">aleatorium</span>), or “tedious” (<span lang="la">tædiosum</span>), <span lang="la">digitis micare</span> is described simply as “Italian” (<span lang="la">Italorum</span>).
+
+Description in London: https://archive.org/details/sim_good-words-and-sunday-magazine_1899_40/page/120/mode/2up?q=game
 
 See also: @PrimitiveCulture [p. 74]
 

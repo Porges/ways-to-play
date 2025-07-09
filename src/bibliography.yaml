@@ -21126,3 +21126,21 @@ WheelsLife:
   publisher-place: New York, NY, USA
   URL: https://archive.org/details/martin-gardner-mathematical-games/10%20Wheels%2C%20Life%2C%20and%20Other%20Mathematical%20Amusements
   ISBN: '0716715880'
+TopOfThePyramid:
+  type: article-magazine
+  title: The Top of the Great Pyramid
+  author:
+  - given: Hugh
+    family: Macmillan
+    url: https://en.wikipedia.org/wiki/Hugh_Macmillan_(minister)
+  page: 672-676
+  URL: https://archive.org/details/sim_good-words-and-sunday-magazine_1897_38/page/672
+  in:
+    title: Good Words
+    editor:
+    - given: Donald
+      family: Macleod
+    publisher: Isbister and Company
+    publisher-place: London
+    issued: 1897
+    volume: 38
