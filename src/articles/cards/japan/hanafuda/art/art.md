@@ -9,7 +9,7 @@ hero:
     organization:
         orgName: "Metropolitan Museum of Art"
 date created: 2024-12-18
-date modified: 2025-02-18
+date modified: 2025-08-06
 aliases: [The History & Art of Hanafuda]
 linter-yaml-title-alias: The History & Art of Hanafuda
 ---
@@ -1232,6 +1232,10 @@ In Korean contexts, the non-<span lang="ja-Latn">tane</span> wisteria cards are 
 > ```
 >
 > The cards for May depict iris flowers. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
+
+> [!aside]
+> 
+> The Nintendo DS was codenamed the “IRIS”, since it was originally slated to be the fifth generation Game Boy (the Iris being the fifth month); the design was later changed to compete with Sony’s PSP.[@GorgesOkada 97]
 
 The fifth month is represented by iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" lang="ja-Latn" file="pronunciation_ja_菖蒲.mp3">ayame</Pronounce>); a nickname for the month is <Pronounce pronouncer="skent" lang="ja-Latn" file="pronunciation_ja_葱.mp3">negi</Pronounce> (<span lang="ja">葱</span>, ‘scallion/leek’).[@HanaAwase]
 

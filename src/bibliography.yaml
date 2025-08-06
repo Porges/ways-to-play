@@ -21144,3 +21144,20 @@ TopOfThePyramid:
     publisher-place: London
     issued: 1897
     volume: 38
+GorgesOkada:
+  type: article-magazine
+  title: 'In The Chair: Satoru Okada'
+  author: &Florent_Gorges
+  - given: Florent
+    family: Gorges
+  page: 92-97
+  URL: https://archive.org/details/retro-gamer-uk-2016/Retro%20Gamer%20UK%20163/page/92/mode/2up
+  in:
+    title: Retro Gamer UK
+    issue: 163
+    issued: 2016
+    publisher: Future Publishing
+    editor:
+    - given: Darran
+      family: Jones
+    ISSN: '17423155'
