@@ -21161,3 +21161,19 @@ GorgesOkada:
     - given: Darran
       family: Jones
     ISSN: '17423155'
+CompassOfMahJong:
+  type: book
+  title:
+    value: The Compass of Mah Jong
+    alt: <span lang='zh'>麻雀指南針</span>
+  author:
+  - given: Moy Fong
+    family: Gee
+    alt:
+      value: 朱梅芳
+      lang: zh
+  - given: W. L.
+    family: McIver
+  issued: 1938
+  publisher-place: Wellington, New Zealand
+  publisher: Gee Brothers (<span lang='zh'>枝兄弟公司</span>?)
