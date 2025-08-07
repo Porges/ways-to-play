@@ -4,7 +4,7 @@ players: 2
 equipment: Board game (simple equipment)
 countries: CN,IN,KR,TH,MN,MY
 date created: 2024-12-22
-date modified: 2025-02-16
+date modified: 2025-08-07
 aliases:
   - Horseshoe
 linter-yaml-title-alias: Horseshoe
@@ -45,7 +45,9 @@ or anything else that the players have to hand.
 
 In English the game has no standard name, not being widespread, but it has been called “horseshoe”, or also “<span class="aka">bar</span>”.[@MeditoBoxFront]
 
-In Cantonese it is called ‘cleft lip game’ (<span lang="yue" class="aka">崩口棋</span> <span lang="yue-Latn-jyutping" class="aka">bong¹ hau² kei⁴</span>),[@KoreanGames p.  100][@PangHauKiImage][^culintranslit] because of the shape of the board. In Hindi it is called <span lang="hi-Latn" class="aka">do-guṭī</span> (<span lang="hi" class="aka">दो गुटी</span> ‘two pieces’, perhaps Urdu <span lang="ur" class="aka">دو گتھی</span>).[@GuptaD p. 143]
+In Cantonese it is called ‘cleft lip game’ (<span lang="yue" class="aka">崩口棋</span> <span lang="yue-Latn-jyutping" class="aka">bong¹ hau² kei⁴</span>),[@KoreanGames p.  100][@PangHauKiImage][^culintranslit] because of the shape of the board. In Hindi it is called <span lang="hi-Latn" class="aka">do-guṭī</span> (<span lang="hi" class="aka">दो गुटी</span> ‘two pieces’, perhaps Urdu <span lang="ur" class="aka">دو گتھی</span>).[@GuptaD p. 143][^corrupted]
+
+[^corrupted]: A corrupted (and unplayable) version of this game appears in @GamesOfTheWorld [265] under the name “Do-quti”.
 
 [^culintranslit]: In older books (such as Culin’s) this is transliterated as <span lang="yue-Latn" class="aka">pong hau k’i</span>.
 
