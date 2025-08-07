@@ -6721,7 +6721,8 @@ BettingOnEmpire:
   title: Betting on Empire
   subtitle: A Socio-Cultural History of Gambling in Late-Qing China
   author:
-    - given: En
+    - &En_Li
+      given: En
       family: Li
   issued:
     year: 2015
@@ -6730,6 +6731,19 @@ BettingOnEmpire:
   publisher: Washington University
   publisher-place: St. Louis, MO, USA
   genre: PhD thesis
+BettingOnCivilService:
+  type: book
+  title: Betting on the Civil Service Examinations
+  subtitle: The Lottery in Late Qing China
+  author: [*En_Li]
+  issued: 2023
+  ISBN: '9780674293830'
+  publisher: Harvard University Asia Center
+  publisher-place: Cambridge, MA, USA
+  URL: https://doi.org/10.2307/jj.17331648
+  series:
+    title: Harvard East Asian Monographs
+    number: 463
 CulturalGamesBotswana:
   type: thesis
   title: "Cultural games and mathematics teaching: a study of teachers in Botswana"
