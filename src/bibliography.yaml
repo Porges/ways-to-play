@@ -6074,8 +6074,9 @@ NagoyaReport:
 LuRong:
   type: book
   title:
-    value: 菽园杂记
-    lang: zh-Hans
+    value: 菽園雜記
+    lang: zh-Hant
+    alt: Random Jottings from a Bean Garden
   language: zh
   volume: 3
   URL: https://ctext.org/library.pl?if=en&file=89214&page=90&remap=gb
@@ -6088,6 +6089,18 @@ LuRong:
         lang: cmn-Latn-pinyin
   issued:
     year: 1475
+    circa: true
+  series:
+    title:
+      value: 墨海金壺
+      lang: zh-Hant
+      alt: Golden Jar of the Ink Sea
+    editor:
+    - given: 張海
+      family: 鵬
+      lang: zh-Hant
+      alt: Zhang Haipeng
+      url: http://www.chinaknowledge.de/History/Qing/personszhanghaipeng.html
 GameOfLeaves:
   type: article-journal
   title: "The Game of Leaves: An Inquiry into the Origin of Chinese Playing Cards"
@@ -20737,6 +20750,18 @@ TylorPatolli:
     title: The Journal of the Anthropological Institute of Great Britain and Ireland
     volume: 8
     issued: 1879
+TylorBackgammonAztecs:
+  type: article-magazine
+  title: Backgammon Among the Aztecs
+  author: [*EB_Tylor]
+  page: 142-150
+  URL: https://archive.org/details/macmillansmagazi39macmuoft/page/142
+  in:
+    title: Macmillan’s Magazine
+    volume: 39
+    issued:
+      year: 1878
+      month: 12
 ErasmusPatolli:
   type: article-journal
   title: Patolli, Pachisi, and the Limitation of Possibilities
@@ -21082,6 +21107,7 @@ MahjongWong:
   - given: Nicole
     family: Wong
   ISBN: '9781958417638'
+  issued: 2025
   publisher: Hardie Grant
   publisher-place: Berkeley, CA, USA
 MahJongg:
@@ -21177,3 +21203,67 @@ CompassOfMahJong:
   issued: 1938
   publisher-place: Wellington, New Zealand
   publisher: Gee Brothers (<span lang='zh'>枝兄弟公司</span>?)
+AroundTheWorld:
+  type: book
+  title: Around the World in 80 Games
+  author:
+  - given: Marcus
+    family: du Sautoy
+    url: https://en.wikipedia.org/wiki/Marcus_du_Sautoy
+  publisher: 4th Estate
+  ISBN: '9780008525927'
+  publisher-place: London, UK
+  issued: 2023
+WorldOfChess:
+  type: book
+  title: The World of Chess
+  author:
+  - given: Anthony
+    family: Saidy
+  - given: Norman
+    family: Lessing
+  issued: 1974
+  publisher: Random House
+  publisher-place: NY, USA
+  ISBN: '039448777X'
+ConquistaDeMexico:
+  type: book
+  title:
+    value: La istoria de las Indias
+    lang: es
+  subtitle: y conquista de Mexico
+  URL: https://archive.org/details/laistoriadelasin00lpez
+  issued: 1552
+  notes: '<a href="https://archive.org/details/laistoriadelasin00lpez/page/n339/mode/2up?q=%22patolli%22">Discusses Patollo/Patoliztli</a>.'
+  author:
+  - &Lopez_Francisco
+    family: López de Gómara
+    given: Francisco
+    lang: es
+    url: https://en.wikipedia.org/wiki/Francisco_L%C3%B3pez_de_G%C3%B3mara
+  publisher-place: Zaragoza, Spain
+PleasantConquest:
+  type: book
+  title: The Pleasant Historie of the Conquest of the West India, now called new Spaine
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_the-pleasant-historie-of_lopez-de-gomara-francis_1596
+  author: [*Lopez_Francisco]
+  translator:
+  - given: Thomas
+    family: Nicholas
+  issued: 1596
+  publisher: Thomas Creede
+  publisher-place: London, UK
+NativeRacesNA:
+  type: book
+  title: The Native Races of the Pacific States of North America
+  issued: 1875
+  publisher: Longmans, Green, and Co.
+  publisher-place: London
+  author:
+  - given: Hubert Howe
+    family: Bancroft
+    url: https://en.wikipedia.org/wiki/Hubert_Howe_Bancroft
+  volume: 2
+  volume-title: Civilized Nations
+  URL: https://archive.org/details/nativeracespaci02bancgoog
+  notes: Patolli p. 300.
