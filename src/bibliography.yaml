@@ -10703,8 +10703,10 @@ KnaveOfHarts:
   title: The Knave of Harts
   URL: https://archive.org/details/completeworksofs02rowl/page/60
   author:
-  - given: Samuel
+  - &Samuel_Rowlands
+    given: Samuel
     family: Rowlands
+    url: https://en.wikipedia.org/wiki/Samuel_Rowlands
   in:
     title: The Complete Works of Samuel Rowlands, 1598–1628, Now First Collected
     volume: 2
@@ -16154,6 +16156,7 @@ FiveLinesPritchett:
   author:
   - given: W. Kendrick
     family: Pritchett
+    url: https://en.wikipedia.org/wiki/William_K._Pritchett
   page: 187–215
   URL: https://www.jstor.org/stable/25010573
   in:
@@ -18046,8 +18049,8 @@ BooksOnGamingNQ:
   page: 461-2
   URL: https://archive.org/details/sim_notes-and-queries_1889-06-15_7_181/page/461
   in:
-    title: Notes and Queries (7th Series)
-    volume: 7
+    title: Notes and Queries
+    volume: 7 (Series 7)
     issue: 181
     issued:
       month: 6
@@ -18062,8 +18065,8 @@ BooksOnGamingNQ2:
   page: 481-2
   URL: https://archive.org/details/sim_notes-and-queries_1889-06-22_7_182/page/481
   in:
-    title: Notes and Queries (7th Series)
-    volume: 7
+    title: Notes and Queries
+    volume: 7 (Series 7)
     issue: 182
     issued:
       month: 6
@@ -18078,8 +18081,8 @@ BooksOnGamingNQ3:
   page: 3-4
   URL: https://archive.org/details/sim_notes-and-queries_1889-07-06_8_184/page/3
   in:
-    title: Notes and Queries (7th Series)
-    volume: 8
+    title: Notes and Queries
+    volume: 8 (Series 7)
     issue: 184
     issued:
       month: 7
@@ -18096,8 +18099,8 @@ BooksOnGamingNQ4:
   page: 42-3
   URL: https://archive.org/details/sim_notes-and-queries_1889-07-20_8_186/page/42/mode/2up
   in:
-    title: Notes and Queries (7th Series)
-    volume: 8
+    title: Notes and Queries
+    volume: 8 (Series 7)
     issue: 186
     issued:
       year: 1889
@@ -18112,8 +18115,8 @@ BooksOnGamingNQ5:
   page: 83-84
   URL: https://archive.org/details/sim_notes-and-queries_1889-08-03_8_188/page/83
   in:
-    title: Notes and Queries (7th Series)
-    volume: 8
+    title: Notes and Queries
+    volume: 8 (Series 7)
     issue: 188
     issued:
       year: 1889
@@ -18128,8 +18131,8 @@ BooksOnGamingNQ6:
   page: 144-5
   URL: https://archive.org/details/sim_notes-and-queries_1889-08-24_8_191/page/144
   in:
-    title: Notes and Queries (7th Series)
-    volume: 8
+    title: Notes and Queries
+    volume: 8 (Series 7)
     issue: 191
     issued:
       year: 1889
@@ -18144,8 +18147,8 @@ BooksOnGamingNQ7:
   page: 201-2
   URL: https://archive.org/details/sim_notes-and-queries_1889-09-14_8_194/page/201
   in:
-    title: Notes and Queries (7th Series)
-    volume: 8
+    title: Notes and Queries
+    volume: 8 (Series 7)
     issue: 194
     issued:
       year: 1889
@@ -18160,8 +18163,8 @@ BooksOnGamingNQ8:
   page: 262-4
   URL: https://archive.org/details/sim_notes-and-queries_1889-10-05_8_197/page/262
   in:
-    title: Notes and Queries (7th Series)
-    volume: 8
+    title: Notes and Queries
+    volume: 8 (Series 7)
     issue: 197
     issued:
       year: 1889
@@ -18176,8 +18179,8 @@ BooksOnGamingNQ9:
   page: 343-4
   URL: https://archive.org/details/sim_notes-and-queries_1889-11-02_8_201/page/343
   in:
-    title: Notes and Queries (7th Series)
-    volume: 8
+    title: Notes and Queries
+    volume: 8 (Series 7)
     issue: 201
     issued:
       year: 1889
@@ -19814,6 +19817,35 @@ FactsAndSpeculations:
   publisher-place: London
   issued: 1848
   URL: https://archive.org/details/factsspeculation00chat
+FactsAndSpeculationsReview:
+  type: article-magazine
+  title: The History of Playing-Cards
+  notes: This is a review of <cite>Facts and Speculations on the Origin and History of Playing Cards</cite>, in this bibliography.
+  page: 357-364
+  URL: https://archive.org/details/gentlemansmagaz103unkngoog/page/357
+  in:
+    title: The Gentleman’s Magazine (New Series)
+    issued:
+      year: 1849
+      month: 4
+    volume: 31
+    publisher: John Bowyer Nichols and Son
+    publisher-place: London
+    editor: [*Sylvanus_Urban]
+TarocchiCards:
+  type: article-magazine
+  title: Tarocchi Cards
+  URL: https://archive.org/details/gentlemansmagaz103unkngoog/page/491
+  page: 491-493
+  in:
+    title: The Gentleman’s Magazine (New Series)
+    issued:
+      year: 1849
+      month: 5
+    volume: 31
+    publisher: John Bowyer Nichols and Son
+    publisher-place: London
+    editor: [*Sylvanus_Urban]
 Allemagne1:
   type: book
   title:
@@ -21281,3 +21313,507 @@ NativeRacesNA:
   volume-title: Civilized Nations
   URL: https://archive.org/details/nativeracespaci02bancgoog
   notes: Patolli p. 300.
+ExpositionOfBridge:
+  type: article-magazine
+  title: The Exposition of Bridge
+  author:
+  - &JS_McTear
+    given: J. S.
+    family: McTear
+  page: 16-27
+  URL: https://archive.org/details/gentlemansmagaz375unkngoog/page/n30
+  in:
+    title: The Gentleman’s Magazine
+    volume: 293
+    issued:
+      year: 1902
+      month: 7
+    editor: [*Sylvanus_Urban]
+    publisher-place: London
+    publisher: Chatto & Windus
+AGamblingSuperstition:
+  type: article-magazine
+  title: A Gambling Superstition
+  page: 219-233
+  URL: https://archive.org/details/gentlemansmagaz85unkngoog/page/219
+  author:
+  - given: Richard A.
+    family: Proctor
+    url: https://en.wikipedia.org/wiki/Richard_A._Proctor
+  in:
+    title: The Gentleman’s Magazine
+    issued:
+      year: 1879
+    publisher: Chatto & Windus
+    publisher-place: London
+    editor: [*Sylvanus_Urban]
+    volume: 244
+GleekForgotten:
+  type: article-magazine
+  title: 'Gleek: A Forgotten Old Card Game'
+  page: 358-367
+  URL: https://archive.org/details/gentlemansmagaz152unkngoog/page/358
+  author: [*JS_McTear]
+  in:
+    title: The Gentleman’s Magazine
+    issued:
+      year: 1899
+    publisher: Chatto & Windus
+    publisher-place: London
+    editor: [*Sylvanus_Urban]
+    volume: 287
+JackKnave:
+  type: article-magazine
+  title: Jack=Knave
+  author: [*JS_McTear]
+  page: 145
+  URL: https://archive.org/details/s9notesqueries09londuoft/page/145
+  in:
+    title: Notes and Queries
+    volume: 9 (Series 9)
+    issued:
+      month: 2
+      day: 22
+      year: 1902
+    publisher-place: London
+    publisher: John C. Francis
+Rubber:
+  type: article-magazine
+  title: Rubber
+  author: [*JS_McTear]
+  page: 345
+  URL: https://archive.org/details/s9notesqueries09londuoft/page/345
+  in:
+    title: Notes and Queries
+    volume: 9 (Series 9)
+    issued:
+      month: 5
+      day: 3
+      year: 1902
+    publisher-place: London
+    publisher: John C. Francis
+HPLCardTerms:
+  type: article-magazine
+  title: Card Terms
+  author:
+  - given: H. P.
+    family: L.
+  page: 468
+  URL: https://archive.org/details/s10notesqueries10londuoft/s10notesqueries10londuoft/page/468
+  in:
+    title: Notes and Queries
+    volume: 10 (Series 10)
+    issue: 259
+    issued:
+      month: 12
+      day: 12
+      year: 1908
+    publisher-place: London
+    publisher: John C. Francis and J. Edward Francis
+McTearCardTerms:
+  type: article-magazine
+  title: Card Terms [reply to H. P. L.]
+  author: [*JS_McTear]
+  page: 77
+  URL: https://archive.org/details/s10notesqueries11londuoft/s10notesqueries11londuoft/page/77
+  in:
+    title: Notes and Queries
+    volume: 11 (Series 10)
+    issue: 265
+    issued:
+      month: 1
+      day: 23
+      year: 1909
+    publisher-place: London
+    publisher: John C. Francis and J. Edward Francis
+McTearPrimero1:
+  type: article-magazine
+  title: Primero
+  author: [*JS_McTear]
+  page: 1-3
+  URL: https://archive.org/details/s11notesqueries08londuoft/s11notesqueries08londuoft/page/n5
+  in:
+    title: Notes and Queries
+    volume: 7 (Series 11)
+    issue: 158
+    issued:
+      month: 1
+      day: 4
+      year: 1913
+    publisher-place: London
+    publisher: John C. Francis and J. Edward Francis
+McTearPrimero2:
+  type: article-magazine
+  title: Primero [part 2]
+  author: [*JS_McTear]
+  page: 23-24
+  URL: https://archive.org/details/s11notesqueries08londuoft/s11notesqueries08londuoft/page/n27
+  in:
+    title: Notes and Queries
+    volume: 7 (Series 11)
+    issue: 159
+    issued:
+      month: 1
+      day: 11
+      year: 1913
+    publisher-place: London
+    publisher: John C. Francis and J. Edward Francis
+McTearPrimero3:
+  type: article-magazine
+  title: Primero [part 3]
+  author: [*JS_McTear]
+  page: 41-43
+  URL: https://archive.org/details/s11notesqueries08londuoft/s11notesqueries08londuoft/page/n46
+  in:
+    title: Notes and Queries
+    volume: 7 (Series 11)
+    issue: 160
+    issued:
+      month: 1
+      day: 18
+      year: 1913
+    publisher-place: London
+    publisher: John C. Francis and J. Edward Francis
+HIBPrimero:
+  type: article-magazine
+  title: Primero [reply to J. S. McTear]
+  author:
+  - given: H. I.
+    family: B.
+  page: 94
+  URL: https://archive.org/details/s11notesqueries08londuoft/s11notesqueries08londuoft/page/n101
+  in:
+    title: Notes and Queries
+    volume: 7 (Series 11)
+    issue: 162
+    issued:
+      month: 2
+      day: 2
+      year: 1913
+    publisher-place: London
+    publisher: John C. Francis and J. Edward Francis
+McTearPrimero4:
+  type: article-magazine
+  title: Primero [reply to H. I. B.]
+  author: [*JS_McTear]
+  page: 177
+  URL: https://archive.org/details/s11notesqueries08londuoft/s11notesqueries08londuoft/page/n180
+  in:
+    title: Notes and Queries
+    volume: 7 (Series 11)
+    issue: 166
+    issued:
+      month: 3
+      day: 1
+      year: 1913
+    publisher-place: London
+    publisher: John C. Francis and J. Edward Francis
+McTearBirkieBeggar:
+  type: article-magazine
+  title: Birkie and Beggar-My-Neighbour
+  author: [*JS_McTear]
+  page: 468-469
+  URL: https://archive.org/details/s9notesqueries01londuoft/page/468
+  in:
+    title: Notes and Queries
+    volume: 1 (Series 9)
+    issue: 24
+    issued:
+      day: 11
+      month: 6
+      year: 1898
+    publisher: John C. Francis
+    publisher-place: London
+McTearBrelan:
+  type: article-magazine
+  title: Brelan
+  author: [*JS_McTear]
+  page: 114
+  URL: https://archive.org/details/s10notesqueries05londuoft/s10notesqueries05londuoft/page/114
+  in:
+    title: Notes and Queries
+    volume: 5 (Series 10)
+    issue: 111
+    issued:
+      day: 10
+      month: 2
+      year: 1906
+    publisher: John C. Francis and J. Edward Francis
+    publisher-place: London
+PierpointBrelan:
+  type: article-magazine
+  title: Brelan
+  author:
+  - given: Robert
+    family: Pierpoint
+  page: 177
+  URL: https://archive.org/details/s10notesqueries05londuoft/s10notesqueries05londuoft/page/176
+  in:
+    title: Notes and Queries
+    volume: 5 (Series 10)
+    issue: 114
+    issued:
+      day: 3
+      month: 3
+      year: 1906
+    publisher: John C. Francis and J. Edward Francis
+    publisher-place: London
+McTearOnGames:
+  type: article-magazine
+  title: 'On Games: A Dialogue'
+  author: [*JS_McTear]
+  page: 386-401
+  URL: https://archive.org/details/gentlemansmagazi294unse/page/386
+  in:
+    title: The Gentleman’s Magazine
+    volume: 294
+    issued: 1903
+    publisher: Chatto & Windus
+    editor: [*Sylvanus_Urban]
+PamKnaveOfClubs:
+  type: article-journal
+  title: Pam=Knave of Clubs
+  author: [*JS_McTear]
+  URL: https://archive.org/details/sim_notes-and-queries_1902-07-26_10_239/page/66
+  page: 66
+  in:
+    title: Notes and Queries
+    volume: 10 (Series 9)
+    issue: 239
+    issued:
+      day: 26
+      month: 7
+      year: 1902
+    publisher: MacMillan & Co
+    publisher-place: London
+FortunesOfNigel:
+  type: book
+  title: The Fortunes of Nigel
+  URL: https://archive.org/details/rbanms.1068.fortunesofnigel0000sirw_k2i6
+  author:
+  - given: Walter
+    family: Scott
+    url: https://en.wikipedia.org/wiki/Walter_Scott
+  editor:
+  - given: Stanley V.
+    family: Makower
+  issued: 1911
+  publisher: The Clarendon Press
+  publisher-place: Oxford
+  original-date:
+    year: 1822
+  notes: Game of Gleek discussed on p. 243; see also corresponding endnote on p. 581.
+LudicSelf:
+  type: book
+  title: The Ludic Self in Seventeenth-Century English Literature
+  URL: https://archive.org/details/ludicselfinseven0000nard
+  series:
+    title: SUNY series, The Margins of Literature
+    editor:
+    - given: Mihai I.
+      family: Spariosu
+  author:
+  - given: Anna K.
+    family: Nardo
+  issued: 1991
+  publisher: State University of New York Press
+  ISBN: '0791407217'
+Theophilus_1e:
+  type: book
+  title: Memoirs of the Lives, Intrigues, and Comical Adventures of the Most Famous Gamesters and Celebrated Sharpers in the Reigns of Charles II, James II, William III, and Queen Anne
+  author:
+  - &Theophilus_Lucas
+    given: Theophilus
+    family: Lucas
+    url: https://en.wikipedia.org/wiki/Theophilus_Lucas
+  publisher-place: London
+  publisher: Jonas Brown
+  issued: 1714
+  URL: https://archive.org/details/bim_eighteenth-century_memoirs-of-the-lives-in_lucas-theophilus_1714_2
+Theophilus_2e:
+  type: book
+  title: Memoirs of the Lives, Intrigues, and Comical Adventures of the Most Famous Gamesters and Celebrated Sharpers in the Reigns of Charles II, James II, William III, and Queen Anne
+  author: [*Theophilus_Lucas]
+  edition: 2
+  publisher: Jonas Brown
+  issued: 1714
+  publisher-place: London
+  URL: https://archive.org/details/bim_eighteenth-century_the-memoirs-of-the-lives_lucas-theophilus_1714
+Theophilus_3e:
+  type: book
+  title: Authentick Memoirs Relating to the Lives and Adventures of the most Eminent Gamesters and Sharpers, from the Restoration of King Charles
+  edition: 3
+  author: [*Theophilus_Lucas]
+  publisher-place: London
+  issued: 1744
+  URL: https://archive.org/details/bim_eighteenth-century_authentick-memoirs-relat_lucas-theophilus_1744
+PackOfPatentees:
+  type: book
+  title: A Pack of Patentees
+  subtitle: Opened. Shuffled. Cut. Dealt. And played.
+  issued: 1641
+  URL: https://name.umdl.umich.edu/A90502.0001.001
+  publisher-place: London
+ParkerChineseGames:
+  type: article-magazine
+  title: Chinese Games and Sports
+  URL: https://archive.org/details/sim_badminton-magazine-of-sports-and-pastimes_1897-05_4_22/page/561
+  page: 561-573
+  author:
+  - given: E. H.
+    family: Parker
+  in:
+    title: The Badminton Magazine
+    volume: 4
+    issue: 22
+    issued:
+      year: 1897
+      month: 5
+ChurchFarEast:
+  type: article-magazine
+  title: Games of the Far East
+  URL: https://archive.org/details/sim_badminton-magazine-of-sports-and-pastimes_1896-10_3_15/page/428
+  notes: This is mostly a re-hash of Culin’s <cite>Korean Games</cite>.
+  author:
+  - given: '[Professor]'
+    family: Church
+  page: 428-441
+  in:
+    title: The Badminton Magazine
+    volume: 3
+    issue: 15
+    issued:
+      year: 1896
+      month: 10
+KindHartsDreame:
+  type: book
+  title: Kind-Harts Dreame
+  subtitle: Conteining five Apparitions, with their Invectives against abuses raigning
+  author:
+  - given: Henrie
+    family: Chettle
+    url: https://en.wikipedia.org/wiki/Henry_Chettle
+  publisher: William Wright
+  publisher-place: London
+  issued: 1592
+  URL: https://archive.org/details/bim_early-english-books-1641-1700_kind-harts-dreame_chettle-h_1592
+  notes: Mentions Macke, Maw, Ruffe, Noddy, and Trumpe.
+ReturnFromPernassus:
+  type: book
+  title: The Return from Pernassus
+  subtitle: Or, The Scourge of Simony
+  publisher-place: London
+  issued: 1606
+  publisher: John Wright
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_the-returne-from-pernass_parnassus_1606
+  notes: The introduction mentions Primero, Passage, Post & Payre, Saint, Loeadam, Noddy, Primero.
+SirGylesGoosecappe:
+  type: book
+  title: 'Sir Gyles Goosecappe, Knight'
+  publisher: Edward Blount
+  author:
+  - given: George
+    family: Chapman
+    url: https://en.wikipedia.org/wiki/George_Chapman
+  issued: 1606
+  publisher-place: London
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_sir-gyles-goosecappe-kni_goosecappe-sir-syles_1606
+  notes: The authorship is attributed; see Parrott (1906). Mentions Noddy (at least).
+AuthorshipOfGoosecappe:
+  type: article-journal
+  title: The Authorship of “Sir Gyles Goosecappe”
+  page: 25-37
+  author:
+  - given: T. M.
+    family: Parrott
+    url: https://en.wikipedia.org/wiki/Thomas_Marc_Parrott
+  URL: https://doi.org/10.1086/386696
+  in:
+    title: Modern Philology
+    volume: 4
+    issue: 1
+    issued:
+      month: 7
+      year: 1906
+WestwardHoe:
+  type: book
+  title: West-Ward Hoe
+  author:
+  - given: Thomas
+    family: Decker
+  - given: John
+    family: Webster
+  publisher-place: London
+  publisher: John Hodges
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_west-ward-hoe_dekker-thomas-a_1607
+  issued: 1607
+  notes: Noddy is played.
+KindGossips:
+  type: book
+  title: A whole crew of kind Gossips, all met to be merry
+  publisher: John Deane
+  publisher-place: London
+  issued: 1609
+  author: [*Samuel_Rowlands]
+  notes: B3; Noddy, Dublets, Novum, Passage, New-cut.
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_a-whole-crew-of-kind-gos_rowlands-samuel_1609
+CoryatsCrudities:
+  type: book
+  title: Coryats Crudities
+  author:
+  - given: Thomas
+    family: Coryat
+    url: https://en.wikipedia.org/wiki/Thomas_Coryat
+  URL: https://archive.org/details/coryatscrudities00cory
+  notes: I3; Ruffe, Gleeke, Noddy.
+  issued: 1611
+  publisher: W. S.
+  publisher-place: London
+LettingOfHumours:
+  type: book
+  publisher-place: London
+  issued: 1600
+  author: [*Samuel_Rowlands]
+  title: The Letting of Humors
+  subtitle: Blood in the Head-Vaine
+  publisher: W. White
+  notes: This book was originally ordered to be burned (see Cressy, 2005). The poem “Satyres” mentions Loggets, Nine-holes, Ten-pinnes, Foot-ball, Ticktake, Irish, Noddy, Maw, Ruffe, Hot-cockles, Leap-frog, Blindman-buffe, Shove-groat, Venter-poynt, Crosse & pile.
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_the-letting-of-humors-bl_rowlands-samuel_1600
+  # URL: https://archive.org/details/bim_early-english-books-1475-1640_the-letting-of-humours-_rowlands-samuel_1613
+CressyBookBurning:
+  type: article-journal
+  title: Book Burning in Tudor and Stuart England
+  author:
+  - given: David
+    family: Cressy
+  page: 359-374
+  URL: https://www.jstor.org/stable/20477359
+  in:
+    title: The Sixteenth Century Journal
+    volume: 36
+    issue: 2
+    issued: 2005
+ConnyCatching:
+  type: book
+  title: The Defence of Conny Catching
+  subtitle: Or, A Confutation of those two injurious Pamphlets published by R.G. against the practictioners of many Nimble-witted and mysticall Sciences
+  author:
+  - given: Cuthbert
+    family: Cunny-catcher
+  issued: 1592
+  publisher-place: London
+  publisher: John Busbie
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_the-defence-of-conny-cat_1592
+  notes: Mentions Dequoy, Mumchaunce, Catch-dolt, Oure le bourse, Non est possible, Dutch Noddie, Irish One and Thirtie.
+SchooleOfSlovenrie:
+  type: book
+  title: The Schoole of Slovenrie
+  subtitle: Or, Cato turnd wrong side outward
+  author:
+  - given: R.
+    family: F.
+  issued: 1605
+  publisher-place: London
+  publisher: Valentine Simmes
+  URL: https://archive.org/details/bim_early-english-books-1475-1640_dedekind-friedrich_the-schoole-of-slovenrie_1605
+  notes: A translation of Friedrich Dedekind’s <cite>Grobianus et Grobiana</cite> (1554). Page 36 (chapter 9) mentions Ruffe, Noddie, and Pinke (the Latin original does not mention games by name).
