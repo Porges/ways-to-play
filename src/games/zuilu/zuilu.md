@@ -7,7 +7,7 @@ equipment: Dice game
 players: any
 mainImage: 52423713.jpg
 date created: 2024-12-22
-date modified: 2025-02-16
+date modified: 2025-08-09
 aliases: ['<span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>']
 linter-yaml-title-alias: '<span lang="zh">醉綠</span> · <span lang="cmn-Latn-pinyin" class="noun">Zuì Lǜ</span>'
 ---
@@ -28,8 +28,9 @@ linter-yaml-title-alias: '<span lang="zh">醉綠</span> · <span lang="cmn-Latn-
 >
 > Diagrams from the instruction manual.
 
-Rules for the game appear in the book <cite lang="zh">醉緑圖</cite> <cite>Drunken Green Diagrams</cite> by a <span lang="zh">張光</span> <span lang="cmn-Latn-pinyin" class="noun">Zhāng Guāng</span>, and this work is included in [the 1646 edition](https://curiosity.lib.harvard.edu/chinese-rare-books/catalog/49-990067678380203941) of the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html) collection, first compiled during the Ming period (1368–1644).[@ZuiLu] This (very short) instructional text is available transcribed on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102#%E9%86%89%E7%B7%91%E5%9C%96):
+I suspect that the otherwise-unexplained <span lang="zh">緑</span> ‘green’ in the title is a pun on the number 6 (<span lang="zh">六</span>), since it is pronounced the same or similarly in all Chinese languages. In this game, rolling a 6 is what causes a player to obtain penalty drinks.
 
+Rules for the game appear in the book <cite lang="zh">醉緑圖</cite> <cite>Drunken Green Diagrams</cite> by a <span lang="zh">張光</span> <span lang="cmn-Latn-pinyin" class="noun">Zhāng Guāng</span>, and this work is included in [the 1646 edition](https://curiosity.lib.harvard.edu/chinese-rare-books/catalog/49-990067678380203941) of the <span lang="zh">說郛</span> [<span lang="cmn-Latn-pinyin" class="noun">Shuōfú</span>](http://www.chinaknowledge.de/Literature/Diverse/shuofu.html) collection, first compiled during the Ming period (1368–1644).[@ZuiLu] This (very short) instructional text is available transcribed on [WikiSource](https://zh.wikisource.org/wiki/%E8%AA%AC%E9%83%9B_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B7102#%E9%86%89%E7%B7%91%E5%9C%96):
 
 > > [!lang] zh
 > >
@@ -39,19 +40,136 @@ Rules for the game appear in the book <cite lang="zh">醉緑圖</cite> <cite>Dru
 > > 賽色點數相同者罰賽者二杯多一點二點賞一杯少一點二點罰一杯\
 > > 賞色在手仍即自擲如擲出賽色方許下次人賽擲出散色方許下次人擲不限擲數
 
-I am unable to translate the rules,[^fn0] but the scoring combinations are listed below.
 
-[^fn0]: Yet! Any assistance would be appreciated.
+An attempted summary of the above rules is as follows. (I do not speak Chinese so this might be inaccurate.)
 
-The general scheme is that rolling 5-of-a-kind gives out 5 drinks, 4-of-a-kind 3 drinks, rolling a 6 means you are penalized 1 drink. However each of these outcomes has its own name, so they fill up the majority of the table. A summarized table follows the main one.
+## Play
 
-Rolling the ‘competition’ outcome means that there is some comparison done involving the ‘point’ of the roll (the sum of the two dice that are not part of the triple). However, I am not sure at the moment how this works.
+The game is played with five dice. To decide who starts, each player rolls a die a single time; whoever rolls a one goes first, whoever rolls a six goes last (anyone else can keep rolling until they are allocated a position).
+
+On each player’s turn they roll all the dice. If they roll three of a kind (or the special roll of 1–5) then they have a scoring (winning, losing, or neutral) outcome. The result of the throw is determined by examining the two leftover dice:
+- a pair of 1s, 2s, 3s, 4s, or 5s is a winning roll, earning two cups
+- a pair of 6s is a losing roll, gaining a penalty of two cups
+- a 6 and any other number is also a losing roll, gaining a penalty of one cup
+- in addition, if the triple is all 6s, this is also a penalty of one cup, and it is a “losing roll” unless the other two dice were a winning pair (in which case they earn two cups but also a penalty of one cup)
+- if the other two dice are not a pair, then it is a “competing” roll; if the sum of the two dice beats the last competing roll made by someone else then the player earns one cup, if less they are penalized one cup, if _equal_ then they are penalized two cups
+
+If a player rolls a winning roll then they keep rolling; if a losing or neutral roll they pass the dice on.
+
+A table summarizing these outcomes:
+
+<table>
+<thead>
+    <tr>
+        <th>
+        Roll
+        </th>
+        <th>
+        Outcome
+        </th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>
+        <Dice type="chinese">12345</Dice><br/>
+	    One of each
+        </td>
+        <td>
+        Win: 5 cups of wine
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <Dice type="chinese">=====</Dice><br/>
+        Five of a kind
+        </td>
+        <td>
+        Win: 5 cups, penalty of 1 if any <Dice type="chinese">6</Dice>
+        </td>
+        </tr>
+    <tr>
+        <td>
+        <Dice type="chinese">====</Dice>+<Dice type="chinese">q</Dice><br/>
+        Four of a kind
+        </td>
+        <td>
+        Win: 3 cups, penalty of 1 if any <Dice type="chinese">6</Dice>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <Dice type="chinese">===</Dice>+<Dice type="chinese">==</Dice> (no <Dice type="chinese">6</Dice>)<br/>
+        A pair (with triple)
+        </td>
+        <td>
+        Win: 2 cups
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <Dice type="chinese">666</Dice>+<Dice type="chinese">==</Dice><br/>
+        Pair with triple six
+        </td>
+        <td>
+        Win: 2 cups, penalty of 1
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <Dice type="chinese">666</Dice>+<Dice type="chinese">qq</Dice>
+        </td>
+        <td>
+        Lose: penalty of 1
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <Dice type="chinese">===</Dice>+<Dice type="chinese">66</Dice><br/>
+        Pair of sixes (with triple)
+        </td>
+        <td>
+        Lose: penalty of 2
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <Dice type="chinese">===</Dice>+<Dice type="chinese">6q</Dice><br/>
+        One six (with triple)
+        </td>
+        <td>
+        Lose: penalty of 1
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <Dice type="chinese">===</Dice>+<Dice type="chinese">qq</Dice><br/>
+        Triple
+        </td>
+        <td>
+        Neutral: competition
+        </td>
+    </tr>
+    <tr>
+        <td>
+        Anything else
+        </td>
+        <td>
+        Neutral: pass 
+        </td>
+    </tr>
+</tbody>
+</table>
+
+
+All of the four- and five-of-a-kind rolls, as well as the special 1-5 roll, have special names, as follows:
 
 > [!aside]
 >
 > Some translations below are from @PersonalLuck [p. 426].
 
-<table>
+<div class="wide">
+<table class="small">
 <thead>
     <tr>
         <th>
@@ -64,7 +182,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
         Translation
         </th>
         <th>
-        Outcome
+        Award
         </th>
     </tr>
 </thead>
@@ -77,9 +195,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">群英入轂</span>
     </td>
     <td>
+    Heroes in a chariot
     </td>
     <td>
-    Give out 5 glasses of wine
+    +5
     </td>
     </tr>
     <tr>
@@ -90,10 +209,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">五星聚奎</span>
     </td>
     <td>
-    5 Star Alignment
+    Five star alignment
     </td>
     <td>
-    Give out 5
+     +5
     </td>
     </tr>
     <tr>
@@ -106,7 +225,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -119,7 +238,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -132,7 +251,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+     +3
     </td>
     </tr>
     <tr>
@@ -145,7 +264,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -158,7 +277,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -171,7 +290,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 5
+    +5
     </td>
     </tr>
     <tr>
@@ -184,7 +303,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -197,7 +316,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -210,7 +329,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -223,7 +342,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -234,9 +353,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">八柱擎天</span>
     </td>
     <td>
+    Eight pillars holding up the sky
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -244,13 +364,14 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <Dice type="chinese">33333</Dice>
     </td>
     <td>
-    <span lang="zh">陶柳三眼</span>
+    <span lang="zh">陶柳三眠</span>
     </td>
     <td>
-    … three eyes
+    […?] three sleeps\
+    (A silkworm molts three times)
     </td>
     <td>
-    Give out 5
+    +5
     </td>
     </tr>
     <tr>
@@ -261,9 +382,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">月夜南飛</span>
     </td>
     <td>
+    Moonlit night, flying south
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -274,9 +396,11 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">夢合巫山</span>
     </td>
     <td>
+    Dream meeting in Wushan\
+    (A reference to a story of meeting [Yaoji](https://en.wikipedia.org/wiki/Yaoji) in a dream?[@WaleyTemple 65])
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -287,9 +411,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">落紅飛鷰</span>
     </td>
     <td>
+    Falling (red) flowers, soaring swallows
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -300,9 +425,11 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">花壓玉欄</span>
     </td>
     <td>
+    Flowers against the jade railing<br/>
+    (Maybe a reference to [a poem](https://www.gushiwen.cn/shiwenv_60723906a821.aspx) by [Wei Zhuang](https://en.wikipedia.org/wiki/Wei_Zhuang)?)
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -313,9 +440,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">霜空鴈字</span>
     </td>
     <td>
+    Geese like writing in the frosty sky
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -326,9 +454,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">丹鳳聮飛</span>
     </td>
     <td>
+    Red phoenixes flying together
     </td>
     <td>
-    Give out 5
+    +5
     </td>
     </tr>
     <tr>
@@ -336,12 +465,13 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <Dice type="chinese">44144</Dice>
     </td>
     <td>
-    <span lang="zh">蔡蕚向陽</span>
+    <span lang="zh">葵蕚向陽</span>
     </td>
     <td>
+    Sunflowers (?) facing the sun
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -352,9 +482,11 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">雙蝶穿花</span>
     </td>
     <td>
+     A pair of butterflies dancing amongst flowers<br/>
+     (a common scene in Chinese art)
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -365,9 +497,11 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">落霞飛鶩</span>
     </td>
     <td>
+	 Sunset’s glow and flying ducks<br/>
+	(A reference to Wang Bo’s <a href="https://en.wikipedia.org/wiki/Tengwang_Ge_Xu"><cite>Preface to the Pavilion of Prince Teng</cite></a>)
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -378,9 +512,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">梅飄花徑</span>
     </td>
     <td>
+    Plum blossoms falling on the garden path
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -394,7 +529,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     Six Girls Trampling Flowers
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -405,9 +540,11 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">江城梅落</span>
     </td>
     <td>
+    River City blossom-fall\
+    (A nickname for [Wuhan](https://en.wikipedia.org/wiki/Wuhan))
     </td>
     <td>
-    Give out 5
+    +5
     </td>
     </tr>
     <tr>
@@ -421,7 +558,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     Five Clouds Lifting the Sun
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -432,9 +569,14 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <span lang="zh">合璧連珠</span>
     </td>
     <td>
+    Jade joined, pearls strung\
+    (A reference to [Ban Gu](https://en.wikipedia.org/wiki/Ban_Gu)’s line upon a celestial conjunction:\
+    <span lang="zh">日月如合璧，五星如连珠</span>\
+    “The sun and moon are like a pair of jade discs;\
+    the five planets like a string of pearls.”)
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -447,7 +589,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -460,7 +602,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3
+    +3
     </td>
     </tr>
     <tr>
@@ -473,7 +615,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -487,7 +629,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     Six Demons Come to Earth
     </td>
     <td>
-    Give out 5, drink one
+    +5, &minus;1
     </td>
     </tr>
     <tr>
@@ -501,7 +643,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     Fair Sun in the Midst of Heaven
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -515,7 +657,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     Two Men Fight for the Throne
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -528,7 +670,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -542,7 +684,7 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <a href="https://en.wikipedia.org/wiki/Twenty-Eight_Mansions">Twenty-Eight Mansions</a>
     </td>
     <td>
-    Give out 3, drink one
+    +3, &minus;1
     </td>
     </tr>
     <tr>
@@ -555,145 +697,10 @@ Rolling the ‘competition’ outcome means that there is some comparison done i
     <td>
     </td>
     <td>
-    Give out 3, drink one
-    </td>
-    </tr>
-    <tr>
-    <td colspan="3">
-    <Dice type="chinese">===</Dice>+<Dice type="chinese">==</Dice> (no <Dice type="chinese">6</Dice>)
-    </td>
-    <td>
-    Give out 2
-    </td>
-    </tr>
-    <tr>
-    <td colspan="3">
-    <Dice type="chinese">666</Dice>+<Dice type="chinese">==</Dice>
-    </td>
-    <td>
-    Give out 2, drink one
-    </td>
-    </tr>
-    <tr>
-    <td colspan="3">
-    <Dice type="chinese">666</Dice>+<Dice type="chinese">qq</Dice>
-    </td>
-    <td>
-    Give out one, drink one
-    </td>
-    </tr>
-    <tr>
-    <td colspan="3">
-    <Dice type="chinese">===</Dice>+<Dice type="chinese">66</Dice>
-    </td>
-    <td>
-    Drink 2
-    </td>
-    </tr>
-    <tr>
-    <td colspan="3">
-    <Dice type="chinese">===</Dice>+<Dice type="chinese">6q</Dice>
-    </td>
-    <td>
-    Drink one
-    </td>
-    </tr>
-    <tr>
-    <td colspan="3">
-    <Dice type="chinese">===</Dice>+<Dice type="chinese">qq</Dice>
-    </td>
-    <td>
-    Competition
+    +3, &minus;1
     </td>
     </tr>
 </tbody>
 </table>
+</div>
 
-Here is a summarized version without the names:
-
-<table>
-<thead>
-    <tr>
-        <th>
-        Roll
-        </th>
-        <th>
-        Outcome
-        </th>
-    </tr>
-</thead>
-<tbody>
-    <tr>
-        <td>
-        <Dice type="chinese">12345</Dice>
-        </td>
-        <td>
-        Give out 5 glasses of wine
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <Dice type="chinese">=====</Dice>
-        </td>
-        <td>
-        Give out 5, drink one if any <Dice type="chinese">6</Dice>
-        </td>
-        </tr>
-    <tr>
-        <td>
-        <Dice type="chinese">====</Dice>+<Dice type="chinese">q</Dice>
-        </td>
-        <td>
-        Give out 3, drink one if any <Dice type="chinese">6</Dice>
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <Dice type="chinese">===</Dice>+<Dice type="chinese">==</Dice> (no <Dice type="chinese">6</Dice>)
-        </td>
-        <td>
-        Give out 2
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <Dice type="chinese">666</Dice>+<Dice type="chinese">==</Dice>
-        </td>
-        <td>
-        Give out 2, drink one
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <Dice type="chinese">666</Dice>+<Dice type="chinese">qq</Dice>
-        </td>
-        <td>
-        Give out one, drink one
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <Dice type="chinese">===</Dice>+<Dice type="chinese">66</Dice>
-        </td>
-        <td>
-        Drink 2
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <Dice type="chinese">===</Dice>+<Dice type="chinese">6q</Dice>
-        </td>
-        <td>
-        Drink one
-        </td>
-    </tr>
-    <tr>
-        <td>
-        <Dice type="chinese">===</Dice>+<Dice type="chinese">qq</Dice>
-        </td>
-        <td>
-        Competition
-        </td>
-    </tr>
-</tbody>
-</table>

@@ -21873,3 +21873,14 @@ Gilles1750_1:
   issued: 1750
   URL: https://archive.org/details/bub_gb_MEisUkO9-nYC
   volume: 1
+WaleyTemple:
+  type: book
+  title: The Temple and Other Poems
+  URL: https://archive.org/details/templeotherpoems0000arth_c5c7
+  author:
+  - given: Arthur
+    family: Waley
+    url: https://en.wikipedia.org/wiki/Arthur_Waley
+  publisher-place: London
+  publisher: George Allen & Unwin
+  issued: 1923
