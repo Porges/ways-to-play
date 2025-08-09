@@ -21817,3 +21817,59 @@ SchooleOfSlovenrie:
   publisher: Valentine Simmes
   URL: https://archive.org/details/bim_early-english-books-1475-1640_dedekind-friedrich_the-schoole-of-slovenrie_1605
   notes: A translation of Friedrich Dedekind’s <cite>Grobianus et Grobiana</cite> (1554). Page 36 (chapter 9) mentions Ruffe, Noddie, and Pinke (the Latin original does not mention games by name).
+Gilles1650:
+  type: book
+  title:
+    value: Les Origines de la Langue Françoise
+  author:
+  - &Gilles_Menage
+    family: Ménage
+    given: Gilles
+    url: https://en.wikipedia.org/wiki/Gilles_M%C3%A9nage
+  publisher-place: Paris
+  publisher:
+    value: Augustin Courbé
+    lang: fr
+  URL: https://archive.org/details/fre_b1887888
+  issued: 1650
+Gilles1694:
+  type: book
+  title:
+    value: Dictionaire Etymologique
+    lang: fr
+  subtitle: Ou, Origines de la Langue Françoise
+  author: [*Gilles_Menage]
+  publisher-place: Paris
+  publisher:
+    value: Jean Anisson
+    lang: fr
+  issued: 1694
+  URL: https://archive.org/details/bub_gb_HTBHAAAAcAAJ
+Gilles1750_2:
+  type: book
+  title:
+    value: Dictionaire Etymologique de la Langue Françoise
+    lang: fr
+  edition: 2
+  author: [*Gilles_Menage]
+  publisher-place: Paris
+  publisher:
+    value: Briasson
+    lang: fr
+  issued: 1750
+  URL: https://archive.org/details/bub_gb_HsFIAAAAcAAJ
+  volume: 2
+Gilles1750_1:
+  type: book
+  title:
+    value: Dictionaire Etymologique de la Langue Françoise
+    lang: fr
+  edition: 2
+  author: [*Gilles_Menage]
+  publisher-place: Paris
+  publisher:
+    value: Briasson
+    lang: fr
+  issued: 1750
+  URL: https://archive.org/details/bub_gb_MEisUkO9-nYC
+  volume: 1
