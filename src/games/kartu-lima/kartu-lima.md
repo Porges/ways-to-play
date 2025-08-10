@@ -2,19 +2,20 @@
 title: '<span lang="jv-Latn" class="noun">Kartu Lima</span>'
 countries: ID
 titleLang: jv-Latn
-draft: true
+draft: false
 players:
-    min: 5
-    max: 9
+  min: 5
+  max: 9
 equipment: Card game (Ceki)
-aliases: ['<span lang="jv-Latn" class="noun">Kartu Lima</span>']
+aliases:
+  - '<span lang="jv-Latn" class="noun">Kartu Lima</span>'
 linter-yaml-title-alias: '<span lang="jv-Latn" class="noun">Kartu Lima</span>'
 date created: 2024-12-27
-date modified: 2025-02-08
+date modified: 2025-08-10
 ---
 # <span lang="jv-Latn" class="noun">Kartu Lima</span>
 
-<span class="noun" lang="jv-Latn">Kartu Lima</span> (‘five cards’) was an unusual trick-taking game from Java, which was played with [Ceki cards](articles/cards/ceki/ceki.md).[@JavaanseKaartspelen p. 46–57] The same game has also been described under the name <span class="noun" lang="jv-Latn">Tepu</span>.[@JavanischeKartenspiele p. 47]
+<span class="noun" lang="jv-Latn">Kartu Lima</span> (‘five cards’) was an unusual trick-taking game from Java, which was played with [Ceki cards](articles/cards/ceki/ceki.md).[@JavaanseKaartspelen 46–57] The same game has also been described under the name <span class="noun" lang="jv-Latn">Tepu</span>.[@JavanischeKartenspiele 47]
 
 The game below was described as being played in Surakarta. The version played in Yogyakarta was slightly different and is described afterwards.
 
@@ -28,13 +29,13 @@ Cut for the highest card (Red Flower, Old Thousand, or 1 Myriads counting 10 and
 
 ## Play
 
-The starting player can lead any card to a trick. The subsequent players try to ‘kill’ (<span lang="jv">ꦩꦠꦼꦤꦶ</span> <span lang="jv-Latn">mateni</span> or formal <span lang="jv-Latn">mejahi</span>) the led card by playing one of _equal or higher_ rank, within the same group (see below).
+The starting player can lead any card to a trick. The subsequent players try to ‘kill’ (<span lang="jv">ꦩꦠꦼꦤꦶ</span> <span lang="jv-Latn">mateni</span> or formal <span lang="jv-Latn">mejahi</span>) the led card by playing one of _equal or higher_ rank, within the same group (see the “Card Groups” section below).
 
 A player does not have to beat the card led but _must_ play one of the same group if possible. If they have no cards in the same group they toss in any card face-down (<span lang="jv-Latn">mberi</span>).
 
 The highest card (or last card of equal value) played to the trick wins it, and the player who played it leads to the next trick. The aim of the game is to be the winner of the _last_ (fifth) trick played. The outcomes of the previous tricks do not count towards winning at all.
 
-The winner of the round is called the <span lang="jv-Latn">banjiran</span> (‘flooded’), and shuffles and deals for the next round. If they win a second game they are called <span lang="jv-Latn">mbanjir</span> (‘abundance’?), and if a third and fourth, <span lang="jv-Latn">ladoe</span> (‘eruption’?).
+The winner of the round is called the <span lang="jv-Latn">banjiran</span> (‘flooded’), and shuffles and deals for the next round. If they win a second game they are called <span lang="jv-Latn">mbanjir</span> (‘flooding’?), and if a third and fourth, <span lang="jv-Latn">ladhu</span> (‘volcanic flood’).
 
 A pair of top-ranking cards in one hand, i.e. a pair of any <span lang="jv-Latn">dika</span>, or the 9 of Strings or Coins, the 4 of Coins, or the Old Thousand, is unbeatable if led, and is called a <span lang="jv-Latn">mraji</span>.
 
@@ -46,19 +47,14 @@ Another variation is that any player who is dealt five Myriads cards can reveal 
 
 There are various ways to make bets on the game. The first type is <span lang="jv-Latn">wudhon tengah</span> (‘middle bet’); before each round, every player places the same stake (e.g. 5 or 10 cents) as a pot in the middle of the table. The winner of the round takes the whole pot. A new pot is made for each round.
 
-Instead of winning the whole pot, a method called <span lang="jv-Latn">undhuh-undhuh</span> (‘pickings’) may be followed. In this case the winner only wins back the amount that each player staked (e.g. if everyone staked 5¢, then the winner takes 5¢ from the pot). One pot is built and will last for a number of rounds equal to the number of players. It can also be agreed than anyone who wins a second round in a row instantly takes the remainder of the pot, and a new one is created. If they win a third or subsequent consecutive round, they continue to win whole pots until their winning streak is ended.
+Instead of winning the whole pot, a method called <span lang="jv-Latn">undhuh-undhuh</span> (‘pickings’) may be followed. In this case the winner only wins back the amount that each player staked (e.g. if everyone staked 5¢, then the winner takes 5¢ from the pot). One pot is built and will last for a number of rounds equal to the number of players. It can also be agreed than anyone who wins a second round in a row instantly takes the remainder of the pot (in this case 20¢), and a new one is created. In this case, if they win a third or subsequent consecutive round (i.e. they are <span lang="jv-Latn">ladhu</span>), they continue to win entire pots (in this case 25¢) until their winning streak is ended. Losers may “ante up” by adding an additional stake to the pot, called a <span lang="jv-Latn">tomprang</span>; if the winner wins again they win the normal stake plus any <span lang="jv-Latn">tomprang</span>. (It is unclear to me from the description how exactly this functions.)
 
-> [!todo]
- this section is very unclear in the book…
-Usually the pot method is only followed for the first game (which I understand
-to mean until the pot is taken). After this a method called <span
-lang="jv-Latn">bal-balan</span> (‘bales’) is followed, whereby each player
-places any bet amount they want in front of themselves, but it must be at least
-the stake amount using during <span lang="jv-Latn">wudhon tengah</span>.
+According to the description, the pot (<span lang="jv-Latn">wudhon tengah</span>) method is used for the first game (by which I understand, until the pot is emptied). After this a method called <span
+lang="jv-Latn">bal-balan</span> (‘bolts’ or ‘bales’) is followed, whereby the other players bet against the <span lang="jv-Latn">banjiran</span>: each player places any bet amount they want in front of themselves (not in a pot). Their stake must be at least the stake amount using during the <span lang="jv-Latn">wudhon tengah</span> game and no more than double what the <span lang="jv-Latn">banjiran</span> won. After this, if the <span lang="jv-Latn">banjiran</span> wins again, they win all the stakes. If another player wins, they win their stake back, and also the stakes from the other players (up to the amount which they themselves staked).
 
+Another possible type of bet is <span lang="jv-Latn">pethitan</span> (“tapering point/tip”): if a player leads a <span lang="jv-Latn">dika</span> to the last round and it is not beaten, they win the whole pot; if it is beaten, the killer takes the whole pot.
 
-Another possible bet is <span lang="jv-Latn">pethitan</span> (“tapering points”?): if a player leads a <span lang="jv-Latn">dika</span> to the last round and it is not beaten, they win the bet; if it is killed, the killer takes the bet.
-
+An optional rule is that anyone who is dealt a hand of five <span lang="jv-Latn">Cina cilik</span> can reveal their hand and win the entire pot.
 ### Roosters
 
 Players may also make bets on specific cards, called “roosters” (<span lang="jv-Latn">jagoan</span>, formal <span lang="jv-Latn">sawungan</span>).
@@ -69,6 +65,12 @@ The second method is called “steady roosters” (<span lang="jv-Latn">jagoan t
 
 ### Side Bets
 
+Optional side bets which can be made by players are as follows. In each case the player wins they amount they staked from the others who are participating.
+
+- <span lang="jv-Latn">Gor-goran</span> (‘neglected’): guessing the top card of the undealt pack by playing a card from your own hand
+- <span lang="jv-Latn">Kucingan, bedoran, kasutan, pil, kèk, pong</span>: in each of these bets the person who has a <span lang="jv-Latn">kucing</span> (white flower), a <span lang="jv-Latn">bedor</span> (1 strings), a <span lang="jv-Latn">kasut</span> (1 coins), a <span lang="jv-Latn">dhimpil</span> (2 myriads), a <span lang="jv-Latn">dèngkèk</span> (2 strings), or a <span lang="jv-Latn">plompong</span> (2 coins), respectively, wins the bet. If two players have the required card the bets are not paid out, and must start again in the next round.
+- <span lang="jv-Latn">Lemon</span> (‘manure’): the players add up the value of their cards, counting WF/1C/1S as 1, RF/OT/1M as 10, and discarding the tens digit. Whoever has the highest (closest to 9) remaining is the winner. (This is reminiscent of the [three-card game](games/three-card-game/three-card-game.md).)
+- <span lang="jv-Latn">Totohan abang-ireng</span>: according to the description this was already obsolete in the 1940s; the player guesses if the top undealt card is “red” or “black”. All the red-stamped cards, the myriads, and the strings 5, 7–9 count as “red”; all the others (the coins, the strings 1–4, 6, and white flower) are counted as “black”. The reds are thus the <span lang="jv-Latn">Cina cilik</span> (plus the 1M), and the <span lang="jv-Latn">Lintrik cilik</span> and the blacks everything else.
 
 ## Card groups
 
@@ -429,3 +431,7 @@ In Yogyarkarta these were referred to as “Secadiningrat”, after <a href="htt
 * <span lang="jv-Latn">obor</span> (torch)
 </dd>
 </dl>
+
+## <span lang="jv-Latn" class="noun">Kertu lima Yogyakarta</span>
+
+(This section is as yet incomplete.)

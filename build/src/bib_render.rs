@@ -522,11 +522,7 @@ fn render_title(r: &Reference) -> Markup {
             }
         }
     } else {
-        let title = render_lstr_just_span(
-            &r.common().title,
-            Some("noun"),
-            Some("name headline"),
-        );
+        let title = render_lstr_just_span(&r.common().title, Some("noun"), Some("name headline"));
 
         html! {
             "‘"
@@ -1062,7 +1058,7 @@ fn render_genre(r: &Reference) -> Markup {
     html! {
         @if let Reference::Thesis(Thesis{genre: Some(g), ..}) = r {
             span property="inSupportOf" {
-                span property="bibo:degree" typeof="bibo:ThesisDegree" { 
+                span property="bibo:degree" typeof="bibo:ThesisDegree" {
                     span property="dcterms:title" { (g) }
                 }
             } ", "
