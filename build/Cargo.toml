@@ -14,7 +14,7 @@ eyre = "0.6.12"
 icu = { version = "2.0.0-beta2", features = ["experimental", "serde"] }
 icu_provider = { version = "2.0.0-beta2", features = ["sync"] }
 indexmap = "2.7.1"
-isbn = { version = "0.4.0" }
+isbn = { version = "0.6.0" }
 itertools = "0.14.0"
 markdown = "1.0.0-alpha"
 maud = "0.27.0"
