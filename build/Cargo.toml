@@ -16,7 +16,7 @@ icu_provider = { version = "2.0.0", features = ["sync"] }
 indexmap = "2.10.0"
 isbn = { version = "0.6.0" }
 itertools = "0.14.0"
-markdown = "1.0.0-alpha"
+markdown = "1.0.0"
 maud = "0.27.0"
 notify = "8.2.0"
 notify-debouncer-full = "0.6.0"
