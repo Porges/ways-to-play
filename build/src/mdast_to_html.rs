@@ -773,7 +773,7 @@ impl Converter<'_> {
                     let lang_attr = find_attribute(&text.attributes, "lang")
                         .map(|l| INTL.parse_lang_tag(l))
                         .transpose()?
-                        .unwrap_or_else(|| langid!("en"));
+                        .unwrap_or(langid!("en"));
 
                     let markup = self.expand(&text.children)?;
                     (self.aka_handler)(lang_attr, markup);

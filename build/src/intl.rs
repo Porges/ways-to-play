@@ -180,7 +180,7 @@ impl Intl {
         })
     }
 
-    pub fn titlecase(&self, language: Language, text: &str) -> String {
+    pub fn titlecase<'s>(&self, language: Language, text: &'s str) -> Cow<'s, str> {
         let locale = Locale::from(language).into();
         let options = Default::default();
         self.titlecase_mapper
