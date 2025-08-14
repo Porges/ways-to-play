@@ -22,7 +22,7 @@ notify = "8.0.0"
 notify-debouncer-full = "0.5.0"
 rayon = "1.10.0"
 regex = "1.11.1"
-saphyr = "0.0.3"
+saphyr = "0.0.6"
 serde = { version = "1.0.218", features = ["derive"] }
 serde_json = "1.0.134"
 serde_with = "3.12.0"

@@ -25,6 +25,7 @@ use notify::{
 };
 use notify_debouncer_full::{new_debouncer, DebounceEventResult};
 use rayon::iter::{IntoParallelRefIterator, ParallelIterator};
+use saphyr::LoadableYamlNode;
 use serde::Deserialize;
 use templates::{ArticleMetadata, BaseMetadata, GameMetadata, OutputFile, Templater};
 use time::UtcOffset;
@@ -67,13 +68,13 @@ struct File<M> {
     metadata: M,
 }
 
-type Header = BTreeMap<String, saphyr::Yaml>;
+type Header<'a> = BTreeMap<String, saphyr::Yaml<'a>>;
 
 trait YamlHeader: Sized {
     fn from_header(header: &mut Header) -> Result<Self>;
 }
 
-fn take_header(header: &mut Header, key: &str) -> saphyr::Yaml {
+fn take_header<'a>(header: &mut Header<'a>, key: &str) -> saphyr::Yaml<'a> {
     header.remove(key).unwrap_or(saphyr::Yaml::BadValue)
 }
 
@@ -187,7 +188,7 @@ impl YamlHeader for ArticleHeader {
             date_created,
             draft,
             order: order
-                .as_i64()
+                .as_integer()
                 .map(|i| i.to_string())
                 .or_else(|| order.into_string()),
         })
@@ -523,8 +524,8 @@ impl Builder {
             .into_iter()
             .next()
             .ok_or_eyre("empty YAML header")?
-            .into_hash()
-            .ok_or_eyre("YAML header wasn't a hash")?;
+            .into_mapping()
+            .ok_or_eyre("YAML header wasn't a mapping")?;
 
         let mut header = header
             .into_iter()
@@ -565,7 +566,7 @@ impl Builder {
         })
     }
 
-    fn build_article_tree(&self) -> Result<ArticleNode> {
+    fn build_article_tree(&self) -> Result<ArticleNode<'_>> {
         let mut tree = ArticleNode::default();
         for article in &self.articles {
             let mut node = &mut tree;

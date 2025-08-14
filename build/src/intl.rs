@@ -108,7 +108,7 @@ impl Intl {
         }
     }
 
-    pub fn english_name(&self, language: &LanguageIdentifier) -> Option<Cow<str>> {
+    pub fn english_name<'s>(&'s self, language: &LanguageIdentifier) -> Option<Cow<'s, str>> {
         if let Some(&name) = self.english_specific_names.get(language) {
             return Some(name.into());
         }

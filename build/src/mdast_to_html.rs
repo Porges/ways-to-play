@@ -17,6 +17,7 @@ use markdown::mdast::{
 };
 use maud::{html, Markup};
 use regex::Captures;
+use saphyr::{LoadableYamlNode, Scalar};
 use serde::Deserialize;
 use serde_json::Map;
 use url::Url;
@@ -1392,15 +1393,17 @@ fn yaml_to_json(input: Vec<saphyr::Yaml>) -> Result<serde_json::Value> {
 
 fn yaml_node_to_string(yaml: saphyr::Yaml) -> Result<String> {
     let result = match yaml {
-        saphyr::Yaml::String(x) => x,
-        saphyr::Yaml::Real(x) => x,
-        saphyr::Yaml::Integer(x) => x.to_string(),
-        saphyr::Yaml::Boolean(x) => x.to_string(),
-        saphyr::Yaml::Array(_) => bail!("unexpected array as key value"),
-        saphyr::Yaml::Hash(_) => bail!("unexpected hash as key value"),
+        saphyr::Yaml::Value(Scalar::String(x)) => x.into_owned(),
+        saphyr::Yaml::Value(Scalar::FloatingPoint(x)) => x.0.to_string(),
+        saphyr::Yaml::Value(Scalar::Integer(x)) => x.to_string(),
+        saphyr::Yaml::Value(Scalar::Boolean(x)) => x.to_string(),
+        saphyr::Yaml::Sequence(_) => bail!("unexpected array as key value"),
+        saphyr::Yaml::Mapping(_) => bail!("unexpected hash as key value"),
         saphyr::Yaml::Alias(_) => bail!("unexpected alias as key value"),
-        saphyr::Yaml::Null => bail!("unexpected null as key value"),
+        saphyr::Yaml::Value(Scalar::Null) => bail!("unexpected null as key value"),
         saphyr::Yaml::BadValue => bail!("bad value"),
+        saphyr::Yaml::Tagged(_, _) => bail!("unexpected tagged value as key value"),
+        saphyr::Yaml::Representation(_, _, _) => bail!("unexpected representation as key value"),
     };
 
     Ok(result)
@@ -1408,23 +1411,25 @@ fn yaml_node_to_string(yaml: saphyr::Yaml) -> Result<String> {
 
 fn yaml_node_to_json(yaml: saphyr::Yaml) -> Result<serde_json::Value> {
     let result: serde_json::Value = match yaml {
-        saphyr::Yaml::Real(x) => str::parse::<f64>(&x)?.into(),
-        saphyr::Yaml::Integer(x) => x.into(),
-        saphyr::Yaml::String(x) => x.into(),
-        saphyr::Yaml::Boolean(x) => x.into(),
-        saphyr::Yaml::Array(vec) => vec
+        saphyr::Yaml::Value(Scalar::FloatingPoint(x)) => x.0.into(),
+        saphyr::Yaml::Value(Scalar::Integer(x)) => x.into(),
+        saphyr::Yaml::Value(Scalar::String(x)) => x.into(),
+        saphyr::Yaml::Value(Scalar::Boolean(x)) => x.into(),
+        saphyr::Yaml::Sequence(vec) => vec
             .into_iter()
             .map(yaml_node_to_json)
             .collect::<Result<Vec<_>>>()?
             .into(),
-        saphyr::Yaml::Hash(linked_hash_map) => linked_hash_map
+        saphyr::Yaml::Mapping(linked_hash_map) => linked_hash_map
             .into_iter()
             .map(|(k, v)| Ok((yaml_node_to_string(k)?, yaml_node_to_json(v)?)))
             .collect::<Result<Map<_, _>>>()?
             .into(),
         saphyr::Yaml::Alias(_) => todo!(),
-        saphyr::Yaml::Null => serde_json::Value::Null,
+        saphyr::Yaml::Value(Scalar::Null) => serde_json::Value::Null,
         saphyr::Yaml::BadValue => eyre::bail!("bad value"),
+        saphyr::Yaml::Representation(_, _, _) => bail!("representation"),
+        saphyr::Yaml::Tagged(_, _) => bail!("tagged value"),
     };
 
     Ok(result)
