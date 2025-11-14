@@ -20,21 +20,14 @@ linter-yaml-title-alias: The History & Art of Hanafuda
 
 ## Origins
 
-In their original form, <span lang="ja-Latn">mono-awase</span> were courtly competitions in which various objects were compared as to their qualities or unique attributes:[^awase-term] objects that were judged in these competitions included artefacts such as fans or paintings;[@BrocadeByNight p. 242] flowers and plants (chrysanthemums, iris roots,[@WorldOfTheShiningPrince p. 163] wild pinks); animals (insects, song&shy;birds[@WorldOfTheShiningPrince p. 163]); incense; tea[@AnIntroductionToJapaneseTeaRitual p. 26]; or — what we are most interested in here — shells.
+Imagine two teams of Japanese courtiers dressed in opposing colours, competing in front of the rest of the court for prestige and influence — being judged not on their martial ability but for their æsthetic sensibility to curate and choose. Their goal was to present, with accompanying poem, the best representative of a selected category: flowers, animals, birds, artefacts, or tea. These were <span lang="ja-Latn">mono-awase</span> — courtly competitions which formed a central part of aristocratic culture.[^awase-term]
+
+The idea was simple: players would bring a chosen item and argue for its superior qualities or unique attributes. Items that could be judged in these competitions ranged from craftworks such as fans or paintings,[@BrocadeByNight 242] products including various types of incense or tea,[@AnIntroductionToJapaneseTeaRitual 26] through to natural specimens: flowers and plants (particularly chrysanthemums, iris roots,[@WorldOfTheShiningPrince 163] wild pinks), and animals both wild and domesticated (singing insects and songbirds[@WorldOfTheShiningPrince 163]). But it is the category of _shells_ which most interests us here, as it would — eventually — lead to <span class="noun" lang="ja-Latn">Hanafuda</span>.
 
 [^awase-term]: The same terminology of <span lang="ja-Latn">awase</span> was also used for sports such as cock-fighting.[@WorldOfTheShiningPrince p. 165]
 
-The competitions were generally organized between two teams, named Left (who
-started the game, and usually had higher-ranking members)[^lhs] and Right, and
-consisted of a series of rounds in which each team would present one item at a
-time, often with accompanying poem. Another format involved the presentation of
-a selection of objects on a miniature artificial garden or island called a <span
-lang="ja-Latn">suhama</span> (<span lang="ja">洲浜</span>), which was
-constructed especially for the competition and which could be made out of
-expensive wood or precious metals. The teams were outfitted in different
-colours — the Left in warm colours, orange or purple, the Right in cool,
-yellow or blue — and their accompaniments could also be chosen to match the
-team colours.[@GoldenShells p. 90]
+These competitions were generally organized between two teams named Left (who
+initiated the game, and usually was the team with higher-ranking members)[^lhs] and Right. The format was a series of rounds in which each team would present one item at a time, often with accompanying poem. Another style of game involved the presentation of a selection of objects on a miniature artificial garden or island called a <span lang="ja-Latn">suhama</span> (<span lang="ja">洲浜</span>), which was constructed especially for the competition and which could be made out of expensive wood or precious metals. The teams were outfitted in different colours — the Left in warm colours, orange or purple, the Right in cool, yellow or blue — and their accompaniments could also be chosen to match the team colours.[@GoldenShells 90]
 
 [^lhs]: In Japan, the left-hand side was traditionally considered the dominant or “masculine” side (see the [naming of shells below](#kai-awase-to-kai-oi)), the opposite of European tradition. In the <span class="noun" lang="ja-Latn">Heian</span> period, the Minister of the Left (<span lang="ja">左大臣</span>) outranked the Minister of the Right (<span lang="ja">右大臣</span>).
 
@@ -52,10 +45,7 @@ team colours.[@GoldenShells p. 90]
 >
 > A depiction of the full-moon competition including two <span lang="ja-Latn">suhama</span>, from an edition of unknown date.
 
-In 966, Emperor Murakami held a <span lang="ja-Latn">mono-awase</span>
-competition on the 15th of the 8th month (the most important full moon of the
-year). The construction of each team’s <span lang="ja-Latn">suhama</span> is
-recorded in the [<cite lang="ja-Latn">Eiga Monogatari</cite>](https://en.wikipedia.org/wiki/Eiga_Monogatari):
+On the night of the great autumn moon in 966 (which always fell on the 15th day of the 8th month in the lunisolar calendar), Emperor Murakami staged a lavish <span lang="ja-Latn">mono-awase</span> contest. The construction of each team’s <span lang="ja-Latn">suhama</span> is recorded in the [<cite lang="ja-Latn">Eiga Monogatari</cite>](https://en.wikipedia.org/wiki/Eiga_Monogatari):
 
 > Both sides worked furiously, determined not to be outdone. The contestants
 > from the Office of Painting submitted a painted landscape tray depicting
@@ -66,17 +56,11 @@ recorded in the [<cite lang="ja-Latn">Eiga Monogatari</cite>](https://en.wikiped
 > Near the insects there was a poem.
 >
 > The Office of Palace Works presented an interesting tray, carved with great
-> ingenuity to resemble a high tide, which they had planted with artifical
+> ingenuity to resemble a high tide, which they had planted with artificial
 > flowers and carved bamboo and pines. Their poem was attached to a spray of
-> fresh <span
-> lang="ja-Latn">[ominaeshi](https://en.wikipedia.org/wiki/Patrinia)</span>.[@JapaneseAristocraticLife
-> p. 92]
+> fresh <span lang="ja-Latn">[ominaeshi](https://en.wikipedia.org/wiki/Patrinia)</span>.[@JapaneseAristocraticLife p. 92]
 
-These elaborate competitions could run all day; another famous competition held
-by Emperor Murakami six years earlier (on the 30th day of the 3rd month of 960),
-ran from 4 p.m. until dawn, when the drunken winning team exited while singing
-and dancing. A courtier’s diary recorded the elaborate preparations made at the
-palace:[@MuseInCompetition pp. 214–217]
+These elaborate competitions could run all night. Another famous competition held by Emperor Murakami six years earlier — on the 30th day of the 3rd month of 960 — ran from 4 p.m. until it ended at sunrise with the winning team staggering out of the palace drunk, singing and dancing. A courtier’s diary records the elaborate preparations made for the participants:[@MuseInCompetition pp. 214–217]
 
 > […] Special care was taken on this occasion as many eminent people of refined
 > taste would be attending the event, and so new plants and flowers were
@@ -154,18 +138,7 @@ Later, during what <span class="noun" lang="ja-Latn">Ito Setsuko</span> terms th
 
 The earliest recorded <Pronounce lang="ja-Latn" pronouncer="skent" file="pronunciation_ja_貝合わせ.mp3" >kai-awase</Pronounce> (<span lang="ja">貝合せ</span>, ‘shell competition’) contest dates from 1040, and was held at [the Ise shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) by [Emperor Go-Suzaku](https://en.wikipedia.org/wiki/Emperor_Go-Suzaku)’s first daughter, Princess <span class="noun" lang="ja-Latn">Nagako</span>. This was a competition very much in the spirit of the other <span lang="ja-Latn">mono-awase</span> games, and consisted of twenty rounds, each shell being presented with an accompanying poem.[@JapaneseGamesOfMemory p. 269]
 
-<span lang="ja-Latn">Kai-awase</span> developed from this early
-comparing-competition form into a completely different style of game called
-<span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell
-covering’) that was based upon collecting matching pairs of shells. <span
-lang="ja-Latn">Kai-awase</span> itself died out and there is no record of any
-competitions taking place after the <span class="noun" lang="ja-Latn">Heian</span>
-period.[@JapaneseGamesOfMemory p. 270] However, by the <span class="noun"
-lang="ja-Latn">Edo</span> period, the two terms would be conflated, with <span
-lang="ja-Latn">kai-awase</span> being used for the matching game as
-well,[@KaiOi][@JapaneseGamesOfMemory p. 270] and today <span
-lang="ja-Latn">kai-awase</span> is the term most commonly used for replica game
-sets.
+<span lang="ja-Latn">Kai-awase</span> developed from this early comparing-competition form into a completely different style of game called <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell covering’) that was based upon collecting matching pairs of shells. <span lang="ja-Latn">Kai-awase</span> itself died out and there is no record of any competitions taking place after the <span class="noun" lang="ja-Latn">Heian</span> period.[@JapaneseGamesOfMemory p. 270] However, by the <span class="noun" lang="ja-Latn">Edo</span> period, the two terms would be conflated, with <span lang="ja-Latn">kai-awase</span> being used for the matching game as well,[@KaiOi][@JapaneseGamesOfMemory p. 270] and today <span lang="ja-Latn">kai-awase</span> is the term most commonly used for replica game sets.
 
 > [!figure]
 >
@@ -198,7 +171,7 @@ sets.
 
 Unlike <span lang="ja-Latn">kai-awase</span>, the new game was exclusively played with clam (<span lang="ja">蛤</span>) shells, and it offered definitive terms for deciding the winner. In one method of play, the left-hand sides of the shells — also termed the “male” (<span lang="ja">陽</span> <span lang="ja-Latn">yō</span> = yang) or ‘ground’ (<span lang="ja">地</span>) shells — were arranged face-down on the ground. The right-hand sides — the “female” (<span lang="ja">陰</span> <span lang="ja-Latn">in</span> = yin) or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell bucket’) one-by-one and the players would attempt to match them with those on the floor.[@GoldenShells p. 92] Whoever was the first to point out a (successful) match would capture both halves of the shell, and the winner was the player who collected the most shells.
 
-Early instructional books for women from the <span class="noun" lang="ja-Latn">Muromachi</span> period (1392–1573) include rules that state that the game is played with twelve shells,[^video] which should be arranged in a circle on the ground, and that the drawn shell should be placed in the centre, with the pointed end (“head”) directed towards the highest-ranking person in the room.[@JapaneseGamesOfMemory p. 270] Evidently the game could get physical, as those same books warn that “to quarrel and remove shells by force is something that only men and courtesans do.”
+Early instructional books for women from the <span class="noun" lang="ja-Latn">Muromachi</span> period (1392–1573) include rules that state that the game is played with twelve shells,[^video] which should be arranged in a circle on the ground, and that the drawn shell should be placed in the centre, with the pointed end (“head”) directed towards the highest-ranking person in the room.[@JapaneseGamesOfMemory p. 270] The game could apparently grow heated: those same manuals warned their readers that “to quarrel and remove shells by force is something that only men and courtesans do.”
 
 [^video]: A video showing how this game would have been played can be seen [here](https://www.youtube.com/watch?v=fe4_bz-okxM).
 
@@ -253,7 +226,7 @@ Later the game set itself turned into a luxury item: the interior of the shells 
 >
 > An 18th-century <span lang="ja-Latn">kai-ōi</span> set. The paired boxes are the <span lang="ja-Latn">kai-oke</span>, and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
 
-During the 17th century, a personal <span lang="ja-Latn">kai-ōi</span> set became a standard component of a noble bride’s wedding gifts, as the joining of the matching shells was symbolic of the join&shy;ing of husband and wife in marriage. However, the elaborate sets with their hand-painted and gilded interiors must have been ex&shy;pen&shy;sive to create and only owned by the richest of families. Indeed, at times restrictions were put in place so that <em>only</em> noble families of the upper ranks were permitted to include the game in their bridal trousseaux.[@JapaneseGamesOfMemory p. 265] When the time came to hand over the wedding gifts, it was customary for the <span lang="ja-Latn">kai-oke</span> to be the first item presented,[@JapaneseGamesOfMemory p. 265] and they were eventually to become the most important of all the gifts given to the bride.[@GoldenOpportunity p. 11] This custom eventually died out as samurai culture was ended during the late 19th century.[@GoldenOpportunity p. 11]
+By the 17th century, a personal <span lang="ja-Latn">kai-ōi</span> set became a standard component of a noble bride’s wedding gifts. The sets carried symbolic weight as the joining of the matching shells echoed the joining of husband and wife in marriage. However, the elaborate sets with their hand-painted and gilded interiors must have been expensive to create and only owned by the richest of families. Indeed, at times restrictions were put in place so that <em>only</em> noble families of the upper ranks were permitted to include the game in their bridal trousseaux.[@JapaneseGamesOfMemory p. 265] When the time came to hand over the wedding gifts, it was customary for the <span lang="ja-Latn">kai-oke</span> to be the first item presented,[@JapaneseGamesOfMemory p. 265] and they were eventually to become the most important of all the gifts given to the bride.[@GoldenOpportunity p. 11] This custom faded away as samurai culture declined and was eventually abolished in the late 19th century.[@GoldenOpportunity p. 11]
 
 In this role, miniature <span lang="ja-Latn">kai-oke</span> can be found in [<span lang="ja-Latn">hina-matsuri</span>](https://en.wikipedia.org/wiki/Hinamatsuri)
 col&shy;lections, and these are still produced for this purpose today.
@@ -736,9 +709,9 @@ Firstly, a short note about the ordering of the deck: while nominally the cards 
 
 [^peak]: In Kyoto from the 11th to 13th centuries, the average peak of the cherry blossom season was April 17th.[@FourSeasons loc. 484]
 
-However, even with these modifications the eleventh (willow) and twelfth (paulownia) months are in the wrong place. The eleventh month depicts rain, willows, and a frog, all of which are associated with summer.
+However, even with these modifications the eleventh (willow) and twelfth (paulownia) months seem to appear in the ‘wrong’ place. The willow cards also depict heavy rain and a frog, both of which are associated with summer.
 
-In Korea, an altered ordering is used where the ‘November’ and ‘December’ months are switched. There is also another ordering used in Japan which might be called the “<span class="noun" lang="ja-Latn">Nagoya</span> ordering”, as it is used in several games from that region.[^fn3] This ordering (with differences in **bold**) is:
+In Korea, an altered ordering is used where the ‘November’ and ‘December’ months are switched, so that the willow cards come last. There is also another ordering used in Japan which might be called the “<span class="noun" lang="ja-Latn">Nagoya</span> ordering”, as it is used in several games from that region.[^fn3] This ordering (with differences in **bold**) is:
 
 [^fn3]: Such as [Tensho](games/tensho/tensho.md).
 
@@ -815,7 +788,7 @@ Maple
 >
 > An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <span class="noun" lang="ja-Latn">Hōrai</span> pattern: plum and pine trees with cranes, atop a large turtle.
 
-The first month is represented by pine trees (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" lang="ja-Latn" file="pronunciation_ja_松.mp3">matsu</Pronounce>). The bright card shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity, so they are a common combination in Japanese art; the mythical [Mount <span class="noun" lang="ja-Latn">Hōrai</span>](https://en.wikipedia.org/wiki/Mount_Penglai), a dwelling-place of immortals, is depicted as wooded with pine trees and populated by cranes.
+The first month is represented by pine trees (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" lang="ja-Latn" file="pronunciation_ja_松.mp3">matsu</Pronounce>). The bright card shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity. Their combination evokes the mythical [Mount <span class="noun" lang="ja-Latn">Hōrai</span>](https://en.wikipedia.org/wiki/Mount_Penglai), a dwelling-place of immortals, which is depicted as wooded with pine trees and populated by cranes.
 
 > [!figure]
 >
@@ -862,7 +835,7 @@ The text on the <span lang="ja-Latn">tanzaku</span> reads <span lang="ja-Latn">a
 
 [^unclear]: The meaning of this phrase is usually said to be “unclear”, even by <span class="noun" lang="ja-Latn">Hanafuda</span> manufacturers. Some derive a meaning like ‘clearly good’ based on reading <span lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span> show <span lang="ja-Latn">akayoroshi</span> alongside <span lang="ja-Latn">aoyoroshi</span> (‘blue is good’) indicating that <span lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).
 
-In the <span lang="ja-Latn">Echigo-bana</span> pattern, the <span lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span> composed by <span class="noun" lang="ja-Latn">[Mina­moto no Mune­yuki](https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki)</span>[^minamoto] (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of Emperor <span class="noun" lang="ja-Latn">Uda</span> . It is featured as Poem 24 in the ‘Spring’ section of the <Pronounce pronouncer="skent" lang="ja-Latn" file='pronunciation_ja_古今和歌集.mp3' noun="true">Kokin Wakashū</Pronounce> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”):
+In the <span lang="ja-Latn">Echigo-bana</span> pattern, the <span lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span> composed by <span class="noun" lang="ja-Latn">[Mina­moto no Mune­yuki](https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki)</span>[^minamoto] (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of Emperor <span class="noun" lang="ja-Latn">Uda</span>. The <Pronounce pronouncer="skent" lang="ja-Latn" file='pronunciation_ja_古今和歌集.mp3' noun="true">Kokin Wakashū</Pronounce> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”) preserves this poem as in its ‘Spring’ section (#24):
 
 [^minamoto]: <span class="noun" lang="ja-Latn">Mina­moto no Mune­yuki</span> (<abbr title="died">d.</abbr> 983) was a poet of the Heian period, and named one of the ‘Thirty-Six Immortals of Poetry’.
 
@@ -1071,20 +1044,13 @@ The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-
 
 [^fn4]: Some older cards spell this phrase differently, some examples are: <span lang="ja">みよし𛂙</span>, <span lang="ja">美よし𛂙</span>, or <span lang="ja">みよし𛂜</span>. Other phrases seen on the cherry <span lang="ja-Latn">tanzaku</span> include <span lang="ja"> す𛀙𛂦𛃰</span> (<span lang="ja">すがわら</span> <span lang="ja-Latn">sugawara</span>), or <span lang="ja">宇良す</span> (<span lang="ja">うらす</span> <span lang="ja-Latn">urasu</span>). Both of these are references to the [Hachi-Hachi](games/hachi-hachi/hachi-hachi.md) <span lang="ja-Latn">yaku</span> ‘<span lang="ja">うらすがわら</span>’ (<span lang="ja-Latn">urasugawara</span>).
 
-In 1688, [<span class="noun" lang="ja-Latn">Matsuo
-Bashō</span>](https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D) (<span lang="ja">松尾芭蕉</span>),
-Japan’s most famed composer of <span lang="ja-Latn">hokku</span>, visited <span class="noun" lang="ja-Latn">Yoshino</span> during
-his travels but found himself unable to compose a single poem, overwhelmed by
-the pressure of trying to live up to his predecessors.[@NarrowRoad p. 84] One of
-them, <span class="noun" lang="ja-Latn">Yasuhara Teishitsu</span> (<span lang="ja">安原貞室</span>), had composed what <span class="noun" lang="ja-Latn">Bashō</span> considered to be
-the “finest <span lang="ja-Latn">hokku</span> ever
-written”:[@TheClassicTraditionOfHaiku p. 8]
+In 1688, [<span class="noun" lang="ja-Latn">Matsuo Bashō</span>](https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D) (<span lang="ja">松尾芭蕉</span>), Japan’s most celebrated composer of <span lang="ja-Latn">hokku</span>, visited <span class="noun" lang="ja-Latn">Yoshino</span> during his travels but found himself unable to compose even a single poem. Despite the mountainside being covered in cherry blossoms, he was overwhelmed by the pressure of trying to live up to his predecessors.[@NarrowRoad p. 84] One of them, <span class="noun" lang="ja-Latn">Yasuhara Teishitsu</span> (<span lang="ja">安原貞室</span>), had composed what <span class="noun" lang="ja-Latn">Bashō</span> considered to be the “finest <span lang="ja-Latn">hokku</span> ever written”:[@TheClassicTraditionOfHaiku p. 8]
 
 > Look at that! and that!<br />
 > Is all I can say of the blossoms<br />
 > At Yoshino mountain.
 
-Rather than <span lang="ja-Latn">hanami</span>, some older non-standard designs depict a [<span lang="ja-Latn">bugaku</span>](https://en.wikipedia.org/wiki/Bugaku) (<span lang="ja">舞楽</span>) scene, featuring a special large drum that is decorated with a flame motif (<span lang="ja">火焔太鼓</span> <span lang="ja-Latn">kaendaiko</span>).
+Rather than <span lang="ja-Latn">hanami</span>, some older non-standard designs depict a [<span lang="ja-Latn">bugaku</span>](https://en.wikipedia.org/wiki/Bugaku) (<span lang="ja">舞楽</span>) scene, featuring a special large drum that is decorated with a flame motif (known as a <span lang="ja">火焔太鼓</span> <span lang="ja-Latn">kaendaiko</span>).
 
 > [!multi]
 >
@@ -1165,7 +1131,7 @@ Rather than <span lang="ja-Latn">hanami</span>, some older non-standard designs 
 >
 > Wisteria in bloom.
 
-The fourth month is represented by wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" lang="ja-Latn" file='pronunciation_ja_藤.mp3'>fuji</Pronounce>). These cards are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronounce pronouncer="usako_usagiclub" lang="ja-Latn" file="pronunciation_ja_黒豆.mp3">kuromame</Pronounce>), due to their appearance. This month shows the tran&shy;sition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronounce pronouncer="forsmith" lang="ja-Latn" file="pronunciation_ja_ホトトギス.mp3">hototogisu</Pronounce>) is a bird of summer,[@FourSeasons loc. 1065] while wisteria is associated with the passage of spring into summer;[@FourSeasons loc. 1021] it is also known as the ‘two-season plant’ (<span lang="ja">二季草</span> <span lang="ja-Latn">niki&shy;sou</span>). Like the bush warbler and spring, the first cry of the cuckoo was considered to announce the beginning of summer. By the time of the <span class="noun" lang="ja-Latn">Edo</span> period, this was perhaps more of a poetic dream than reality; the poet [<span class="noun" lang="ja-Latn">Buson</span>](https://en.wikipedia.org/wiki/Yosa_Buson) remarked that he had only heard the bird twice, despite living in Kyoto for 20 years.[@TheClassicTraditionOfHaiku 56]
+The fourth month is represented by wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" lang="ja-Latn" file='pronunciation_ja_藤.mp3'>fuji</Pronounce>). These cards are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronounce pronouncer="usako_usagiclub" lang="ja-Latn" file="pronunciation_ja_黒豆.mp3">kuromame</Pronounce>), due to their appearance. This month shows the transition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronounce pronouncer="forsmith" lang="ja-Latn" file="pronunciation_ja_ホトトギス.mp3">hototogisu</Pronounce>) is a bird of summer,[@FourSeasons loc. 1065] while wisteria is associated with the passage of spring into summer;[@FourSeasons loc. 1021] it is also known as the ‘two-season plant’ (<span lang="ja">二季草</span> <span lang="ja-Latn">niki&shy;sō</span>). Like the bush warbler and spring, the first cry of the cuckoo was considered to announce the beginning of summer. By the time of the <span class="noun" lang="ja-Latn">Edo</span> period, this was perhaps more of a poetic dream than reality; the poet [<span class="noun" lang="ja-Latn">Buson</span>](https://en.wikipedia.org/wiki/Yosa_Buson) remarked that he had only heard the bird twice, despite living in Kyoto for 20 years.[@TheClassicTraditionOfHaiku 56]
 
 The cuckoo swooping in front of the moon is a common motif in Japanese art. It is tempting to claim that this may be a reference to the tale of <span class="noun" lang="ja-Latn">Yorimasa</span> from the <span class="noun" lang="ja-Latn">Heike Monogatari</span>,[@HeikeMonogatari pp. 161–3] but the oldest decks do not have a moon on this card.
 
@@ -1181,7 +1147,7 @@ The cuckoo swooping in front of the moon is a common motif in Japanese art. It i
 
 The <span lang="ja-Latn">tanka</span> on the <span lang="ja-Latn">kasu</span> cards is similar to Poem 135 from the Summer section of the <span class="noun" lang="ja-Latn">Kokinshū</span>,[^differs] perhaps written by <span class="noun" lang="ja-Latn">Kakinomoto no Hitomaro</span> <span lang="ja">柿本 人麻呂</span>. The poem again focuses on the transition from spring (represented by wisteria) to summer (represented by the arrival of the cuckoo):
 
-[^differs]: The poem on the card differs slightly in that the last line starts with <span lang="ja-Latn">ima ya</span> <span lang="ja">今や</span> instead of <span lang="ja-Latn">itu ka</span> <span lang="ja">いつか</span>.[@PoemsOfTheEchigobana p. 100]
+[^differs]: The poem on the card differs slightly in that the last line starts with <span lang="ja-Latn">ima ya</span> <span lang="ja">今や</span> instead of <span lang="ja-Latn">itsu ka</span> <span lang="ja">いつか</span>.[@PoemsOfTheEchigobana p. 100]
 
 > [!multi]
 >
@@ -1234,14 +1200,14 @@ In Korean contexts, the non-<span lang="ja-Latn">tane</span> wisteria cards are 
 > The cards for May depict iris flowers. There is one <span lang="ja-Latn">tane</span> card, one red <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
 > [!aside]
-> 
+>
 > The Nintendo DS was codenamed the “IRIS”, since it was originally slated to be the fifth generation Game Boy (the Iris being the fifth month); the design was later changed to compete with Sony’s PSP.[@GorgesOkada 97]
 
 The fifth month is represented by iris (<span lang="ja">菖蒲</span> <Pronounce pronouncer="akitomo" lang="ja-Latn" file="pronunciation_ja_菖蒲.mp3">ayame</Pronounce>); a nickname for the month is <Pronounce pronouncer="skent" lang="ja-Latn" file="pronunciation_ja_葱.mp3">negi</Pronounce> (<span lang="ja">葱</span>, ‘scallion/leek’).[@HanaAwase]
 
 The bridge shown on the <span lang="ja-Latn">tane</span> card is a reference to the ‘eight bridges’ (<span lang="ja">八橋</span> <Pronounce pronouncer="poyotan" lang="ja-Latn" file="pronunciation_ja_八橋.mp3">yatsu&shy;hashi</Pronounce>) featured in an episode of the [<cite>Tales of Ise</cite>](https://en.wikipedia.org/wiki/The_Tales_of_Ise) (<cite lang="ja"> 伊勢物語</cite> <span lang="ja-Latn">Ise Monogatari</span>), in which the unnamed protagonist[^assumed] of the story comes across a braided river that is crossed by overlapping planks forming a zig-zag bridge. Challenged to compose a poem on the subject “a traveller’s sentiments”, he recites the following:
 
-[^assumed]: Traditionally this is presumed to be the poet [<span class="noun" lang="ja-Latn">Ariwara no Narihira</span>](https://en.wikipedia.org/wiki/Ariwara_no_Narihira) (<span lang="ja">在原 業平</span>).
+[^assumed]: Traditionally this is presumed to be the poet [<span class="noun" lang="ja-Latn">Ariwara no Narihira</span>](https://en.wikipedia.org/wiki/Ariwara_no_Narihira) (<span lang="ja">在原業平</span>).
 
 > [!multi]
 >
@@ -1306,10 +1272,54 @@ This poem, which appears in full on the <span lang="ja-Latn">kasu</span> cards o
 >
 > The cards for June show peony flowers. There is one <span lang="ja-Latn">tane</span> card, one blue/purple <span lang="ja-Latn">tanzaku</span> card, and two <span lang="ja-Latn">kasu</span> cards.
 
-The sixth month is represented by the tree peony (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" lang="ja-Latn" file="pronunciation_ja_牡丹.mp3">botan</Pronounce>). The peony was a much later introduction to Japan than the plants shown on the other cards, being brought over from China in the 8th century.[@FlowersAndGardensOfJapan p. 159]
+Tree peonies (<span lang="ja">牡丹</span> <Pronounce pronouncer="ryomasakamoto" lang="ja-Latn" file="pronunciation_ja_牡丹.mp3">botan</Pronounce>) mark the sixth month — large fragrant flowers which arrived late to Japan’s poetic tradition, imported from China in the 8th century.[@FlowersAndGardensOfJapan p. 159]
 
-The flower was considered to be almost too bold for poetry, and those poems
-which do exist usually mention its striking colour, size, or Chinese origins.
+While in China the peony was revered as the ‘king of flowers’, in Japan it was considered to be almost _too_ bold for poetry. Those poems which do exist usually mention its striking colour, size, or Chinese origins.
+
+A poem by one Kanchō (<span lang="ja">管鳥</span>, d. 1818) included in the collection <cite>Akegarasu</cite> (<span lang="ja">明烏</span>, 1773, edited by Kitō and Buson):
+
+> [!multi]
+>
+> <p lang="ja">唐音も少しいひたき牡丹哉</p>
+>
+> the peonies bloom:\
+> I wish I could speak\
+> a little Chinese[@PeonAndPeony]
+
+
+It is also known as the ‘queen of a hundred flowers’ (<span lang="ja">百花の王</span>) and often paired with the lion — the ‘king of a hundred beasts’ (<span lang="ja">百獣の王</span>). But on the cards, the peony is shown alongside a butterfly.
+
+Ambivalence toward the flower persisted well into the Edo period. The poet [Kyoriku](https://en.wikipedia.org/wiki/Morikawa_Kyoriku)[^hyoroku] (<span lang="ja">許六</span>, a student of Bashō’s, d. 1715), in a series of poems comparing flowers to women (1704):[@Kyoriku]
+
+[^hyoroku]: Or Kyoroku; accidentally given as “Hyoroku” in @FlowersAndGardensOfJapan [160].
+
+> [!multi]
+>
+> <p lang="ja">牡丹は、寵愛時を得たる妾の、天下にはゞかれる、心なげに打ちほこり、常は嫉妬我執のいかりふかくして、靑天にむかつて吐息をつきたる風情に似たり。</p>
+>
+> The tree peony is like a favoured concubine, revered throughout the land, who carries herself with a carefree pride, yet whose heart is ever filled with deep jealousy and attachment, sighing towards the blue heavens.[^machinetrans]
+
+[^machinetrans]: This is, unfortunately, a machine translation.
+
+Buson (1716–84), perhaps with Kyoriku’s poem in mind, wrote instead (1780):
+
+> [!multi]
+>
+> <p lang="ja">虹を吐て開かんとする牡丹哉</p>
+>
+> ready to open\
+> and breathe forth a rainbow\
+> a peony flower[@PathOfFloweringThorn 125]
+
+“Ready to breathe forth a rainbow” is an idiom referring to someone who is buzzing with energy. But Buson’s most famous poem on the peony refers to the end of the flowering season (1769):
+
+> [!multi]
+>
+> <p lang="ja">牡丹散て打かさなりぬ二三片</p>
+>
+> the peony has fallen—\
+> lying upon one another\
+> two or three petals[@PathOfFloweringThorn 128]
 
 ### <span lang="ja">7月</span>
 
@@ -1364,7 +1374,7 @@ which do exist usually mention its striking colour, size, or Chinese origins.
 >
 > One common species of bush clover in Japan is [<cite>Lespedeza thunbergii</cite>](https://en.wikipedia.org/wiki/Lespedeza_thunbergii), named after the Swedish botanist Carl Peter Thunberg who visited Japan from 1775–6. Oddly enough, Thunberg also collected some <span lang="ja-Latn">karuta</span> decks during his stay, and was probably the first European to take one back to Europe. His decks are now [in the Swedish Museum of Ethnography in Stockholm](http://collections.smvk.se/carlotta-em/web/object/1000639). (Thanks to Marcus Richert for pointing out this connection.)
 
-The seventh month is represented by bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" lang="ja-Latn" file="pronunciation_ja_萩.mp3">hagi</Pronounce>). These cards are also nicknamed ‘red bean’ (<span lang="ja">赤豆</span> <span lang="ja-Latn">akamame</span>/<span lang="ja">小豆</span> <Pronounce pronouncer="poyotan" lang="ja-Latn" file="pronunciation_ja_赤豆.mp3">azuki</Pronounce>). Bush clover is very strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.
+The seventh month is represented by bush clover (<span lang="ja">萩</span> <Pronounce pronouncer="strawberrybrown" lang="ja-Latn" file="pronunciation_ja_萩.mp3">hagi</Pronounce>). Players also nicknamed the cards ‘red bean’ (<span lang="ja">赤豆</span> <span lang="ja-Latn">akamame</span>/<span lang="ja">小豆</span> <Pronounce pronouncer="poyotan" lang="ja-Latn" file="pronunciation_ja_赤豆.mp3">azuki</Pronounce>) due to their imagery. Bush clover is very strongly associated with autumn — the Japanese character <span lang="ja">萩</span> is a composition of <span lang="ja">秋</span> ‘autumn’ and <span lang="ja">艹</span> (full form <span lang="ja">艸</span>) ‘grass’.
 
 > [!figure]
 >
@@ -1760,7 +1770,7 @@ p. 318]
 
 The eleventh month is represented by willow (<span lang="ja">柳</span> <Pronounce pronouncer="akitomo" lang="ja-Latn" file="pronunciation_ja_柳.mp3">yanagi</Pronounce>); it is also often referred to as ‘rain’ (<span lang="ja">雨</span> <Pronounce pronouncer="strawberrybrown" lang="ja-Latn" file="pronunciation_ja_雨.mp3">ame</Pronounce>) or ‘drizzle’ (<span lang="ja"> 時雨</span> <Pronounce pronouncer="akitomo" lang="ja-Latn" file="pronunciation_ja_時雨.mp3">shigure</Pronounce>).
 
-These cards have a strange relationship with the other cards — in many games they have special powers, or they are valued lower than the cards of other months. For ex&shy;ample, the bright of November will often score less than the other four brights, and in some games the “lightning card” has special powers, such as being able to match any other card.
+These cards have a strange relationship with the other cards — in many games they have special powers, or they are valued lower than the cards of other months. For ex&shy;ample, the bright of November will often score less than the other four Brights, and in some games the “lightning card” has special powers, such as being able to match any other card.
 
 > [!aside]
 >
@@ -1779,7 +1789,9 @@ These cards have a strange relationship with the other cards — in many gam
 > > license: "with-permission"
 > > ```
 
-The man pictured on the bright card is the poet <span class="noun" lang="ja-Latn">Ono no Michikaze</span> (<span lang="ja">小野道風</span>), who is considered to be one of the founders of Japanese calligraphy. The jumping frog re&shy;calls an episode in his life: he had failed seven times to achieve a promotion and was considering abandoning his attempts. One day, walking beside a stream, he saw a frog attempting to jump onto a willow branch. Seven times it jumped, and seven times it failed. On the eighth attempt, the frog reached the branch successfully. <span class="noun" lang="ja-Latn">Michikaze</span> was thus inspired to persevere with his attempts.[@AnimalInFarEasternArt pp. 86–7]
+The scene shown on the Bright card depicts a famous Japanese parable: the man is the poet <span class="noun" lang="ja-Latn">Ono no Michikaze</span> (<span lang="ja">小野道風</span>), considered to be one of the founders of Japanese calligraphy. After seven repeated failures to achieve a promotion, <span class="noun" lang="ja-Latn">Michikaze</span> was considering abandoning his attempts. One day, walking beside a stream, he saw a frog attempting to jump onto a willow branch. Seven times it jumped, and seven times it failed. On the eighth attempt, the frog reached the branch successfully. <span class="noun" lang="ja-Latn">Michikaze</span> was thus inspired to persevere with his attempts.[@AnimalInFarEasternArt pp. 86–7][^bruce]
+
+[^bruce]: In Scottish folklore, the similar story of [Robert the Bruce](https://en.wikipedia.org/wiki/Robert_the_Bruce) seeing a spider attempting to weave a web relates the same moral lesson.
 
 On older decks, a different “rain man” is pictured. On these cards, the man is
 running in the rain with the umbrella closed around his head. This feature is
@@ -1812,11 +1824,7 @@ The “lightning card” mentioned above is the red-coloured <span lang="ja-Latn
 >
 > In this <span class="noun" lang="ja-Latn">Ōtsu-e</span>, <span class="noun" lang="ja-Latn">Raijin</span> attempts to recover his drum.
 
-In some older decks, the lightning card depicts a scene derived from [<span class="noun"
-lang="ja-Latn">Ōtsu-e</span> prints](https://en.wikipedia.org/wiki/Otsu-e)
-(<span lang="ja">大津絵</span>), where <span class="noun" lang="ja-Latn">Raijin</span> is
-attempting to ‘fish’ back a drum that he has dropped. Remnants of this design
-can be seen in many decks of the standard pattern.
+In some older decks, the Lightning Card depicts a scene derived from [<span class="noun" lang="ja-Latn">Ōtsu-e</span> prints](https://en.wikipedia.org/wiki/Otsu-e) (<span lang="ja">大津絵</span>), where <span class="noun" lang="ja-Latn">Raijin</span> is attempting to ‘fish’ back a drum that he has dropped. Remnants of this design can be seen in many decks of the standard pattern.
 
 > [!multi]
 > > [!figure]

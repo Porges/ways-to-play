@@ -5,9 +5,4 @@
     "editor.wrappingStrategy": "advanced",
     "editor.wrappingIndent": "same"
   },
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#113333",
-    "titleBar.activeBackground": "#184747",
-    "titleBar.activeForeground": "#F6FCFC"
-  },
 }

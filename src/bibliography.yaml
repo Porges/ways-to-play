@@ -21884,3 +21884,46 @@ WaleyTemple:
   publisher-place: London
   publisher: George Allen & Unwin
   issued: 1923
+Kyoriku:
+  type: webpage
+  title:
+    value: 森川許六『風俗文選』より、「百花ノ譜」
+    lang: ja
+  container-title:
+    value: 跡見群芳譜
+    lang: ja
+  issued: 2006
+  author:
+  - given: Hidemasa
+    family: Shimada
+    lang: ja-Latn
+  URL: http://www.atomigunpofu.jp/literary%20works/Japan_pre-modern/kyoriku_fuzokumonzen_hyakkafu.html
+  archive-URL: https://web.archive.org/web/20251114233546/http://www.atomigunpofu.jp/literary%20works/Japan_pre-modern/kyoriku_fuzokumonzen_hyakkafu.html
+PathOfFloweringThorn:
+  type: book
+  title: The Path of Flowering Thorn
+  subtitle: The Life and Poetry of Yosa Buson
+  author:
+  - given: Makoto
+    family: Ueda
+    lang: ja-Latn
+  issued: 1998
+  URL: https://archive.org/details/pathoffloweringt0000mako
+  publisher: Stanford University Press
+  publisher-place: Stanford, California
+  ISBN: '0804730423'
+PeonAndPeony:
+  type: article-magazine
+  title: The Peon and the Peony
+  author:
+  - given: Robin D.
+    family: Gill
+  in:
+    title: Simply Haiku
+    issued:
+      year: 2005
+      season: Summer
+    volume: 3
+    issue: 2
+  URL: https://simplyhaiku.thehaikufoundation.org/SHv3n2/inContext/inContext_v3n2.html
+  archive-URL: https://web.archive.org/web/20240913211636/http://simplyhaiku.thehaikufoundation.org/SHv3n2/inContext/inContext_v3n2.html
