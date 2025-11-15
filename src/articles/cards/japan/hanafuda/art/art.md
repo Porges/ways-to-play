@@ -16,11 +16,15 @@ linter-yaml-title-alias: The History & Art of Hanafuda
 
 # The History & Art of Hanafuda
 
-<span class="noun" lang="ja-Latn">Hanafuda</span> cards first appeared in Japan in the middle of the <Pronounce lang="ja-Latn"  noun="true" pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868), but the distant origins of <span class="noun" lang="ja-Latn">Hanafuda</span> cards lie in much older “object-comparing games” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) that had been played since the <Pronounce lang="ja-Latn"  noun="true" pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> period (<span lang="ja">平安</span>, 794–1185).
+<span class="noun" lang="ja-Latn">Hanafuda</span> (“flower cards”) are striking. Their bright, colourful designs depict twelve months of flowers, birds, and natural scenes. Drifts of cherry blossoms fall across one card, the full moon glows on another, while a poet shelters beneath his umbrella in the rain. But where do they come from?
 
-## Origins
+A search for antecedents takes us back centuries — before playing cards were even introduced to the island of Japan — to the aristocratic “object-comparing” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) games of the <Pronounce lang="ja-Latn" noun="true" pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> era (<span lang="ja">平安</span>, 794–1185).
 
-Imagine two teams of Japanese courtiers dressed in opposing colours, competing in front of the rest of the court for prestige and influence — being judged not on their martial ability but for their æsthetic sensibility to curate and choose. Their goal was to present, with accompanying poem, the best representative of a selected category: flowers, animals, birds, artefacts, or tea. These were <span lang="ja-Latn">mono-awase</span> — courtly competitions which formed a central part of aristocratic culture.[^awase-term]
+The cards themselves first appeared in the middle of the <Pronounce lang="ja-Latn" noun="true" pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868). But the long path from courtly contests to mass-produced playing cards was neither direct nor inevitable.
+
+## Contested Origins
+
+Picture two teams of Japanese courtiers dressed in opposing colours, competing in front of the rest of the court for prestige and influence — being judged not on their martial ability but for their æsthetic sensibility to curate and choose. Their goal was to present, with accompanying poem, the best representative of a selected category, which could be a food, flower, animal, or artefact. This was the game of <span lang="ja-Latn">mono-awase</span> — a contest of æsthetic judgement which helped to define what it meant to be cultured, and  which formed an integral part of aristocratic culture.[^awase-term]
 
 The idea was simple: players would bring a chosen item and argue for its superior qualities or unique attributes. Items that could be judged in these competitions ranged from craftworks such as fans or paintings,[@BrocadeByNight 242] products including various types of incense or tea,[@AnIntroductionToJapaneseTeaRitual 26] through to natural specimens: flowers and plants (particularly chrysanthemums, iris roots,[@WorldOfTheShiningPrince 163] wild pinks), and animals both wild and domesticated (singing insects and songbirds[@WorldOfTheShiningPrince 163]). But it is the category of _shells_ which most interests us here, as it would — eventually — lead to <span class="noun" lang="ja-Latn">Hanafuda</span>.
 
@@ -97,26 +101,20 @@ crystal.”[@BrocadeByNight p. 243][^scoring-tracks]
 
 ### An aside about <span lang="ja-Latn">Uta-awase</span>
 
-Out of all the types of competition, the most esteemed was to eventually be the
-poetry match (<span lang="ja">歌合わせ</span> <span
-lang="ja-Latn">uta-awase</span>). At first it was a competition like the others,
-where the poem was treated as an <em>object</em> to be chosen and presented by
-the competitor, the poet might not even be present, and more attention was paid
-to the accompanying costumes and music than the quality of the
-poetry.[@BrocadeByNight p. 242]
+Of all the types of competition, poetry matches (<span lang="ja">歌合わせ</span> <span lang="ja-Latn">uta-awase</span>) eventually became the most esteemed. At first they were competitions in the same manner as the others, where the poem was treated as an <em>object</em> to be chosen and presented by the competitor, where the poet might not even be present at the event, and more attention was paid to the accompanying costumes and music than the quality of the poetry.[@BrocadeByNight 242]
 
 The poetry competition was highly ritualized, where the result of a contest was
 not only about who could compose the better poem; on average, authors of a
 higher rank were more likely to win. In some cases, the winner of a round was
 decided by convention, and furthermore, some poems could not lose. The first
 poem presented by the Left team, a poem complimenting the host, or a poem by the
-Emperor himself would <em>at worst</em> result in a draw.[@UtaawaseJudgments p.
+Emperor himself would <em>at worst</em> result in a draw.[@UtaawaseJudgments
 102] At one competition [Emperor <span class="noun"
 lang="ja-Latn">Uda</span>](https://en.wikipedia.org/wiki/Emperor_Uda) (<span
 lang="ja">宇多天皇</span>) awarded his own poem a draw, stating “how can an
-imperial poem lose?”[@BrocadeByNight p. 244]
+imperial poem lose?”[@BrocadeByNight 244]
 
-Later, during what <span class="noun" lang="ja-Latn">Ito Setsuko</span> terms the “silver age” of <span lang="ja-Latn">uta-awase</span>,[@MuseInCompetition p. 207] the work of the poet became more important, and poetry competitions were held without the extravagant <span lang="ja-Latn">suhama</span>. The competitions became more austere and aware of the world outside the courtly realm; in 1083 a planned grand competition was cancelled as it was thought to be inappropriate given the unrest at the time.[^genpei] Smaller and more intimate competitions were held with poetry as their focus. This doesn’t mean that the proceedings were any less elaborate; the largest competition of this type involved nine poets competing over 1500 rounds.
+Later, during what author <span class="noun" lang="ja-Latn">Ito Setsuko</span> terms the “silver age” of <span lang="ja-Latn">uta-awase</span>,[@MuseInCompetition 207] the work of the poet became more important, and poetry competitions were held without the extravagant <span lang="ja-Latn">suhama</span>. The competitions became more austere and aware of the world outside the courtly realm; in 1083 a planned grand competition was cancelled as it was thought to be inappropriate given the unrest at the time.[^genpei] Smaller and more intimate competitions were held with poetry as their focus. This doesn’t mean that the proceedings were any less elaborate; the largest competition of this type involved nine poets competing over 1500 rounds.
 
 [^genpei]: i.e., the [<span class="noun" lang="ja-Latn">Genpei</span> war.](https://en.wikipedia.org/wiki/Genpei_War)
 
@@ -136,9 +134,11 @@ Later, during what <span class="noun" lang="ja-Latn">Ito Setsuko</span> terms th
 
 ### <span lang="ja-Latn">Kai-awase</span> to <span lang="ja-Latn">Kai-ōi</span>
 
+While poetry competitions evolved toward greater pomp and complexity, another category of <span lang="ja-Latn">mono-awase</span> was taking a different path.
+
 The earliest recorded <Pronounce lang="ja-Latn" pronouncer="skent" file="pronunciation_ja_貝合わせ.mp3" >kai-awase</Pronounce> (<span lang="ja">貝合せ</span>, ‘shell competition’) contest dates from 1040, and was held at [the Ise shrine](https://en.wikipedia.org/wiki/Ise_Grand_Shrine) by [Emperor Go-Suzaku](https://en.wikipedia.org/wiki/Emperor_Go-Suzaku)’s first daughter, Princess <span class="noun" lang="ja-Latn">Nagako</span>. This was a competition very much in the spirit of the other <span lang="ja-Latn">mono-awase</span> games, and consisted of twenty rounds, each shell being presented with an accompanying poem.[@JapaneseGamesOfMemory p. 269]
 
-<span lang="ja-Latn">Kai-awase</span> developed from this early comparing-competition form into a completely different style of game called <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell covering’) that was based upon collecting matching pairs of shells. <span lang="ja-Latn">Kai-awase</span> itself died out and there is no record of any competitions taking place after the <span class="noun" lang="ja-Latn">Heian</span> period.[@JapaneseGamesOfMemory p. 270] However, by the <span class="noun" lang="ja-Latn">Edo</span> period, the two terms would be conflated, with <span lang="ja-Latn">kai-awase</span> being used for the matching game as well,[@KaiOi][@JapaneseGamesOfMemory p. 270] and today <span lang="ja-Latn">kai-awase</span> is the term most commonly used for replica game sets.
+<span lang="ja-Latn">Kai-awase</span> developed from this early comparing-competition form into a completely different style of game called <span lang="ja-Latn">kai-ōi</span> (<span lang="ja">貝覆い</span>, ‘shell covering’) that was based upon collecting matching pairs of shells. <span lang="ja-Latn">Kai-awase</span> itself died out and there is no record of any competitions taking place after the <span class="noun" lang="ja-Latn">Heian</span> period.[@JapaneseGamesOfMemory 270] By the <span class="noun" lang="ja-Latn">Edo</span> period, these two terms would be conflated, with <span lang="ja-Latn">kai-awase</span> being used for the matching game as well,[@KaiOi][@JapaneseGamesOfMemory 270] and today <span lang="ja-Latn">kai-awase</span> is the term most commonly used for replica game sets.
 
 > [!figure]
 >
@@ -169,13 +169,13 @@ The earliest recorded <Pronounce lang="ja-Latn" pronouncer="skent" file="pronunc
 >
 > Four generations of women playing <span lang="ja-Latn" >kai-ōi</span>.<br />From <cite lang="ja">女有職莩文庫</cite> (1866), by <span class="noun" lang="ja-Latn">Okada Tamayama</span> (<span lang="ja">岡田玉山</span>).
 
-Unlike <span lang="ja-Latn">kai-awase</span>, the new game was exclusively played with clam (<span lang="ja">蛤</span>) shells, and it offered definitive terms for deciding the winner. In one method of play, the left-hand sides of the shells — also termed the “male” (<span lang="ja">陽</span> <span lang="ja-Latn">yō</span> = yang) or ‘ground’ (<span lang="ja">地</span>) shells — were arranged face-down on the ground. The right-hand sides — the “female” (<span lang="ja">陰</span> <span lang="ja-Latn">in</span> = yin) or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell bucket’) one-by-one and the players would attempt to match them with those on the floor.[@GoldenShells p. 92] Whoever was the first to point out a (successful) match would capture both halves of the shell, and the winner was the player who collected the most shells.
+Unlike <span lang="ja-Latn">kai-awase</span>, the new game was exclusively played with clam (<span lang="ja">蛤</span>) shells, and it offered definitive terms for deciding the winner. In one method of play, the left-hand sides of the shells — also termed the “male” (<span lang="ja">陽</span> <span lang="ja-Latn">yō</span> = yang) or ‘ground’ (<span lang="ja">地</span>) shells — were arranged face-down on the ground. The right-hand sides — the “female” (<span lang="ja">陰</span> <span lang="ja-Latn">in</span> = yin) or ‘coming out’ (<span lang="ja">出</span>) shells — were then drawn from their <span lang="ja-Latn">kai-oke</span> (<span lang="ja">貝桶</span>, ‘shell bucket’) one-by-one and the players would attempt to match them with those on the floor.[@GoldenShells 92] Whoever was the first to point out a (successful) match would capture both halves of the shell, and the winner was the player who collected the most shells.
 
-Early instructional books for women from the <span class="noun" lang="ja-Latn">Muromachi</span> period (1392–1573) include rules that state that the game is played with twelve shells,[^video] which should be arranged in a circle on the ground, and that the drawn shell should be placed in the centre, with the pointed end (“head”) directed towards the highest-ranking person in the room.[@JapaneseGamesOfMemory p. 270] The game could apparently grow heated: those same manuals warned their readers that “to quarrel and remove shells by force is something that only men and courtesans do.”
+Early instructional books for women from the <span class="noun" lang="ja-Latn">Muromachi</span> period (1392–1573) include rules that state that the game is played with twelve shells,[^video] which should be arranged in a circle on the ground, and that the drawn shell should be placed in the centre, with the pointed end (“head”) directed towards the highest-ranking person in the room.[@JapaneseGamesOfMemory 270] The game could apparently grow heated: those same manuals warned their readers that “to quarrel and remove shells by force is something that only men and courtesans do.”
 
 [^video]: A video showing how this game would have been played can be seen [here](https://www.youtube.com/watch?v=fe4_bz-okxM).
 
-The monk <span lang="ja-Latn" class="noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</span> (<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in Idleness</cite>, published around 1330:[@EssaysInIdleness p. 130]
+The monk <span lang="ja-Latn" class="noun">[Kenkō](https://en.wikipedia.org/wiki/Yoshida_Kenk%C5%8D)</span> (<span lang="ja">兼好</span>, <abbr title="died">d.</abbr> <abbr title="circa">c.</abbr> 1352) also offered guidance in his book <cite>Essays in Idleness</cite>, published around 1330:[@EssaysInIdleness 130]
 
 > [!aside]
 >
@@ -190,9 +190,9 @@ The monk <span lang="ja-Latn" class="noun">[Kenkō](https://en.wikipedia.org/wik
 > shells from distant players but limit themselves to those close at hand, yet
 > they manage to acquire a large number.
 
-While later depictions (such as the images above) usually represent the game as only played by women, diary entries and paintings from the time show that the game was originally played by everyone, often in mixed teams. Losing teams would also request re-matches to try to beat the victorious team.[@JapaneseGamesOfMemory p. 257]
+While later depictions (such as the images above) usually represent the game as only played by women, diary entries and paintings from the time show that the game was originally played by everyone, often in mixed teams. Losing teams would also request re-matches to try to beat the victorious team.[@JapaneseGamesOfMemory 257]
 
-Records of the imperial household indicate that the shell-matching game was played formally nearly five hundred times over the period 1481–1589, sometimes as many as nine times a month.[@JapaneseGamesOfMemory p. 257]
+Records of the imperial household indicate that the shell-matching game was played formally nearly five hundred times over the period 1481–1589, sometimes as many as nine times a month.[@JapaneseGamesOfMemory 257]
 
 > [!figure]
 >
@@ -207,9 +207,9 @@ Records of the imperial household indicate that the shell-matching game was play
 >
 > This early depiction from the 16th-century scroll <cite>Tale of Brief Slumbers</cite> <cite lang="ja">うたたね草紙</cite> shows a mixed group playing <span lang="ja-Latn">kai-ōi</span> (at left).
 
-When played with many shells, the game must have been difficult, since the clues that point to a match are solely the subtle shades and contours of the shell, and the only way to test if shells truly match is to pick them up and attempt to join them together. In fact, white shells with few markings were specifically selected to make the game as difficult as possible.[@GoldenOpportunity p. 11] Considering that traditional sets could contain up to 360 shells,[^modern] this was a game for a class of person who had a lot of leisure time on their hands.
+When played with many shells, the game must have been difficult, since the clues that point to a match are solely the subtle shades and contours of the shell, and the only way to test if shells truly match is to pick them up and attempt to join them together. In fact, white shells with few markings were specifically selected to make the game as difficult as possible.[@GoldenOpportunity 11] Considering that traditional sets could contain up to 360 shells,[^modern] this was a game for a class of person who had a lot of leisure time on their hands.
 
-[^modern]: Modern replicas usually only have around 54, but an elaborate set produced between 2013–2015 by forty-six artisans in [<span lang="ja-Latn" class="noun">Wajima</span>](https://en.wikipedia.org/wiki/Wajima,_Ishikawa) contains 720 shells featuring Australian wild flowers.[@GoldenOpportunity p. 4]
+[^modern]: Modern replicas usually only have around 54, but an elaborate set produced between 2013–2015 by forty-six artisans in [<span lang="ja-Latn" class="noun">Wajima</span>](https://en.wikipedia.org/wiki/Wajima,_Ishikawa) contains 720 shells featuring Australian wild flowers.[@GoldenOpportunity 4]
 
 Later the game set itself turned into a luxury item: the interior of the shells was at first decorated with matching fabrics, and then elaborately painted or even gilded. These matching images were used to confirm a correct match after both shells were selected. After the <span class="noun" lang="ja-Latn">Kamakura</span> period (1333), it became common to illustrate the shells with matching scenes from the [Tale of Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) (<span lang="ja">源氏物語</span> <Pronounce file="pronunciation_ja_源氏物語.mp3" pronouncer="straycat88" lang="ja-Latn">Genji Monogatari</Pronounce>) — the game is also played in Chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem; these types of the game would eventually evolve into the <span lang="ja-Latn">uta-garuta</span> (<span lang="ja">歌骨牌</span>) poetry cards.
 
@@ -226,7 +226,7 @@ Later the game set itself turned into a luxury item: the interior of the shells 
 >
 > An 18th-century <span lang="ja-Latn">kai-ōi</span> set. The paired boxes are the <span lang="ja-Latn">kai-oke</span>, and half of each shell pair was stored in each bucket. The shells are decorated with painted scenes.
 
-By the 17th century, a personal <span lang="ja-Latn">kai-ōi</span> set became a standard component of a noble bride’s wedding gifts. The sets carried symbolic weight as the joining of the matching shells echoed the joining of husband and wife in marriage. However, the elaborate sets with their hand-painted and gilded interiors must have been expensive to create and only owned by the richest of families. Indeed, at times restrictions were put in place so that <em>only</em> noble families of the upper ranks were permitted to include the game in their bridal trousseaux.[@JapaneseGamesOfMemory p. 265] When the time came to hand over the wedding gifts, it was customary for the <span lang="ja-Latn">kai-oke</span> to be the first item presented,[@JapaneseGamesOfMemory p. 265] and they were eventually to become the most important of all the gifts given to the bride.[@GoldenOpportunity p. 11] This custom faded away as samurai culture declined and was eventually abolished in the late 19th century.[@GoldenOpportunity p. 11]
+By the 17th century, a personal <span lang="ja-Latn">kai-ōi</span> set became a standard component of a noble bride’s wedding gifts. The sets carried symbolic weight as the joining of the matching shells echoed the joining of husband and wife in marriage. However, the elaborate sets with their hand-painted and gilded interiors must have been expensive to create and only owned by the richest of families. Indeed, at times restrictions were put in place so that <em>only</em> noble families of the upper ranks were permitted to include the game in their bridal trousseaux.[@JapaneseGamesOfMemory 265] When the time came to hand over the wedding gifts, it was customary for the <span lang="ja-Latn">kai-oke</span> to be the first item presented,[@JapaneseGamesOfMemory 265] and they were eventually to become the most important of all the gifts given to the bride.[@GoldenOpportunity 11] This custom faded away as samurai culture declined and was eventually abolished in the late 19th century.[@GoldenOpportunity 11]
 
 In this role, miniature <span lang="ja-Latn">kai-oke</span> can be found in [<span lang="ja-Latn">hina-matsuri</span>](https://en.wikipedia.org/wiki/Hinamatsuri)
 col&shy;lections, and these are still produced for this purpose today.
@@ -254,6 +254,8 @@ col&shy;lections, and these are still produced for this purpose today.
 
 ### <span lang="ja-Latn">Hana-awase</span>
 
+The painted shells with their matching pairs, the poetry, and the seasonal themes would all be recombined in a new form with the introduction of (Portuguese) playing cards to Japan in the mid 16th century.
+
 <span class="noun" lang="ja-Latn">Hanafuda</span> seem to originate in a combination of the themes of <span lang="ja-Latn">kai-awase</span> — matching sets, poetry, conventionalized art — with the ideas introduced by the Portuguese playing cards — a regular structure of *suits* divided into different *ranks*.
 
 The two distinct schools of playing-card games first combined in the form of <span lang="ja-Latn">hana-awase</span> (<span lang="ja">花合せ</span>) decks. These early 18th century ancestors of <span class="noun" lang="ja-Latn">Hanafuda</span> (such as the deck pictured below) show a very regular configuration of cards for each flower, which evolved during the 18th and 19th centuries into the unusual configuration of the <span class="noun" lang="ja-Latn">Hanafuda</span> deck.
@@ -277,13 +279,13 @@ The two distinct schools of playing-card games first combined in the form of <sp
 While decks such as the above are obviously for a different style of game, most of the imagery that would become part of the <span
 lang="ja-Latn">hanafuda</span> deck was already present.
 
-At the moment it is unclear exactly how the <span class="noun" lang="ja-Latn">Hanafuda</span> deck was developed from the <span lang="ja-Latn">hana-awase</span> cards.[^fn0] It seems that at some point an enterprising manufacturer began to produce a stripped-down version that Japanese <span class="noun" lang="ja-Latn">Hanafuda</span> scholar <span class="noun" lang="ja-Latn">Ebashi Takashi</span> (<span lang="ja">江橋崇</span>) calls the <span class="noun" lang="ja-Latn">Musashino</span> (<span lang="ja">武蔵野</span>) deck.
+At the moment it is unclear exactly how the <span class="noun" lang="ja-Latn">Hanafuda</span> deck was developed from the <span lang="ja-Latn">hana-awase</span> cards.[^fn0] It seems that at some point an enterprising manufacturer began to produce a stripped-down version that Japanese <span class="noun" lang="ja-Latn">Hanafuda</span> scholar <span class="noun" lang="ja-Latn">Ebashi Takashi</span> (<span lang="ja">江橋崇</span>) calls the <span class="noun" lang="ja-Latn">Musashino</span> (<span lang="ja">武蔵野</span>) deck. But because of the illegality of gaming at this time, evidence is scarce.
 
 [^fn0]: I hope to expand on this in future!
 
 ### Banning & Legalization
 
-Sometime after their introduction, <span class="noun" lang="ja-Latn">Hanafuda</span> games were restricted as part of a total ban on gambling introduced during the <span class="noun" lang="ja-Latn">Kansei</span> Reforms[^prohibition] (1787–1793).
+Some time after their introduction, <span class="noun" lang="ja-Latn">Hanafuda</span> games were restricted as part of a total ban on gambling introduced during the <span class="noun" lang="ja-Latn">Kansei</span> Reforms[^prohibition] (1787–1793).
 
 As a Dutch warehouse master living on [Dejima](https://en.wikipedia.org/wiki/Dejima) in the 1820s wrote:[@JapanscheRijk 202]
 
@@ -295,11 +297,11 @@ As a Dutch warehouse master living on [Dejima](https://en.wikipedia.org/wiki/Dej
 >
 > All games of chance or gambling, or properly speaking dicing, are strictly prohibited; but there are some places where this is done in secret, for in public one may show neither dice nor playing cards.
 
-This ban was to remain in place for nearly a century until, in 1886, a bookstore owner in <span class="noun" lang="ja-Latn">Ōsaka</span> named <span class="noun" lang="ja-Latn">Maeda Kihei</span> (<span lang="ja">前田喜兵衛</span>) decided to open a store selling <span class="noun" lang="ja-Latn">Hanafuda</span>.
-
 [^prohibition]: During the <span class="noun" lang="ja-Latn">Kansei</span> Reforms, gambling was prohibited by the <span lang="ja">博奕賭ノ勝負禁止ノ儀ニ付触書</span>, promulgated by Matsudaira Sadanobu on the 12th of January, 1788.[@SatireWithinKibyōshi p. 44]
 
-Things had already begun to change in 1885, after a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.[@EbashiHanafuda pp. 189–192] <span class="noun" lang="ja-Latn">Maeda Kihei</span>[^rogue] became convinced through his reading of legal texts that the selling of <span class="noun" lang="ja-Latn">Hanafuda</span> was not actually prohibited, and he moved to <span class="noun" lang="ja-Latn">Tōkyō</span> in December 1885 with a plan to open a <span class="noun" lang="ja-Latn">Hana&shy;fuda</span> shop. However, he found that the local landlords refused to let to him, believing his business illegal, and he was unable to convince news&shy;papers to print his advertisements. In order to prove himself correct, he came up with a cunning plan: he officially petitioned the <span class="noun" lang="ja-Latn">Tōkyō</span> police to ban the sale of <span class="noun" lang="ja-Latn">Hana&shy;fuda</span>. His petition was declined, the police stating that the sale of <span class="noun" lang="ja-Latn">Hana&shy;fuda</span> was legal, and later that month he opened his first shop in the <span class="noun" lang="ja-Latn">Yagenbori</span> neighbourhood of [Chūō](https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo) district in <span class="noun" lang="ja-Latn">Tōkyō</span> (<span lang="ja">中央区薬研堀町</span>, now part of <span class="noun" lang="ja-Latn">Higashi–Nihonbashi</span>).  The shop was named “<Pronounce lang="ja-Latn" noun="true" pronouncer="poyotan" file="pronunciation_ja_上方屋.mp3" >Kamigataya</Pronounce>” (<span lang="ja">上方屋</span>, ‘<span class="noun" lang="ja-Latn">Kyōto</span> region store’).[@EbashiHanafuda pp. 189–192][@OpeningKamigataya]
+This ban was to remain in place for nearly a century. By 1885, the landscape began to shift, when a ban on Western playing cards (<span lang="ja">西洋かるた</span> <span lang="ja-Latn">seiyō karuta</span>) was lifted due to complaints from foreign officials.[@EbashiHanafuda pp. 189–192] A bookstore owner in <span class="noun" lang="ja-Latn">Ōsaka</span> named <span class="noun" lang="ja-Latn">Maeda Kihei</span> (<span lang="ja">前田喜兵衛</span>) took note.[^rogue] Through his careful reading of legal texts he became convinced that the selling of <span class="noun" lang="ja-Latn">Hanafuda</span> was not actually explicitly prohibited. So, in December 1885 he moved to <span class="noun" lang="ja-Latn">Tōkyō</span> with a plan to open a shop openly selling <span class="noun" lang="ja-Latn">Hanafuda</span> cards.
+
+But <span class="noun" lang="ja-Latn">Tōkyō</span> was not so easily convinced. Local landlords refused to let to him, believing his proposed business illegal, and he was unable to convince newspapers to print his advertisements. In order to prove himself correct, he devised a cunning plan: he officially petitioned the <span class="noun" lang="ja-Latn">Tōkyō</span> police to ban the sale of <span class="noun" lang="ja-Latn">Hanafuda</span>. His petition was declined, the police stating that the sale of <span class="noun" lang="ja-Latn">Hana&shy;fuda</span> was legal. Armed with this confirmation, he opened his first shop later that month in the <span class="noun" lang="ja-Latn">Yagenbori</span> neighbourhood of [Chūō](https://en.wikipedia.org/wiki/Ch%C5%AB%C5%8D,_Tokyo) district in <span class="noun" lang="ja-Latn">Tōkyō</span> (<span lang="ja">中央区薬研堀町</span>, now part of <span class="noun" lang="ja-Latn">Higashi–Nihonbashi</span>).  The shop was named “<Pronounce lang="ja-Latn" noun="true" pronouncer="poyotan" file="pronunciation_ja_上方屋.mp3" >Kamigataya</Pronounce>” (<span lang="ja">上方屋</span>, ‘<span class="noun" lang="ja-Latn">Kyōto</span> region store’).[@EbashiHanafuda pp. 189–192][@OpeningKamigataya]
 
 [^rogue]: <span class="noun" lang="ja-Latn">Kihei</span> appears to have been something of a rogue: he is somewhat infamous in the philately community for selling collections of counterfeit stamps to unsuspecting tourists.
 
@@ -317,7 +319,7 @@ Things had already begun to change in 1885, after a ban on Western playing cards
 >
 > Ever the promotor, at the end of 1887, <span class="noun" lang="ja-Latn">Maeda</span> published this <span lang="ja-Latn">sugoroku</span> game based on the story of his struggle to open a store selling playing cards. The track spirals in a counter-clockwise direction to the centre of the board, where the final square (marked <span lang="ja">上り</span>) shows Japanese and Western cards and dice celebrating together.
 
-<span class="noun" lang="ja-Latn">Kamigataya</span> was thus the first store to openly sell <span class="noun" lang="ja-Latn">Hanafuda</span>. A month later, <span class="noun" lang="ja-Latn">Maeda</span> opened a second branch of <span class="noun" lang="ja-Latn">Kamigataya</span> in <span class="noun" lang="ja-Latn">Muromachi</span> district (<span lang="ja">室町</span>), and this was quickly followed by a third store in <span class="noun" lang="ja-Latn">Ginza</span> (<span lang="ja">銀座</span>) in March. To promote the opening of the <span class="noun" lang="ja-Latn">Ginza</span> store, <span class="noun" lang="ja-Latn">Maeda</span> also staged a <span class="noun" lang="ja-Latn">Hanafuda</span>-themed play in March 1886, which was held at the <span class="noun" lang="ja-Latn">Chitose</span> theatre (now called the [<span class="noun" lang="ja-Latn">Meiji-za</span>](https://en.wikipedia.org/wiki/Meiji-za)).
+Success came quickly. A month later, <span class="noun" lang="ja-Latn">Maeda</span> opened a second branch of <span class="noun" lang="ja-Latn">Kamigataya</span> in <span class="noun" lang="ja-Latn">Muromachi</span> district (<span lang="ja">室町</span>), and this was soon followed by a third store in <span class="noun" lang="ja-Latn">Ginza</span> (<span lang="ja">銀座</span>) in March. To promote the opening of the <span class="noun" lang="ja-Latn">Ginza</span> store, <span class="noun" lang="ja-Latn">Maeda</span> also staged a <span class="noun" lang="ja-Latn">Hanafuda</span>-themed play in March 1886, which was held at the <span class="noun" lang="ja-Latn">Chitose</span> theatre (now called the [<span class="noun" lang="ja-Latn">Meiji-za</span>](https://en.wikipedia.org/wiki/Meiji-za)).
 
 > [!figure]
 >
@@ -788,7 +790,9 @@ Maple
 >
 > An elaborate 19th century <span lang="ja-Latn">kimono</span> with Mount <span class="noun" lang="ja-Latn">Hōrai</span> pattern: plum and pine trees with cranes, atop a large turtle.
 
-The first month is represented by pine trees (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" lang="ja-Latn" file="pronunciation_ja_松.mp3">matsu</Pronounce>). The bright card shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity. Their combination evokes the mythical [Mount <span class="noun" lang="ja-Latn">Hōrai</span>](https://en.wikipedia.org/wiki/Mount_Penglai), a dwelling-place of immortals, which is depicted as wooded with pine trees and populated by cranes.
+The first month is represented by pine trees (<span lang="ja">松</span> <Pronounce pronouncer="_ai_" lang="ja-Latn" file="pronunciation_ja_松.mp3">matsu</Pronounce>), which of all plants is most strongly associated with the Japanese new year. The pine is associated with winter and snow, so these cards show the lingering influence of winter during this period. The first week of the new year is known as the ‘pine week’ (<span lang="ja">松の内</span> <span lang="ja-Latn">matsu no uchi</span>), and even today Japanese households are decorated with sprigs of pine at their entranceways in the form of the [<span lang="ja-Latn">kadomatsu</span>](https://en.wikipedia.org/wiki/Kadomatsu) (<span lang="ja">門松</span> ‘gate pine’). A traditional festival that was held on the first Day of the Rat of the new year (<span lang="ja">子の日の宴</span> <span lang="ja-Latn">nenohi no en</span>) involved nobles venturing out to uproot small pine trees.[@WorldOfTheShiningPrince 168]
+
+The bright card shows a crane and pine trees, with the sun rising in the background. Both the crane and the pine are symbols of longevity. Their combination evokes the mythical [Mount <span class="noun" lang="ja-Latn">Hōrai</span>](https://en.wikipedia.org/wiki/Mount_Penglai), a dwelling-place of immortals, which is depicted as wooded with pine trees and populated by cranes.
 
 > [!figure]
 >
@@ -805,43 +809,9 @@ The first month is represented by pine trees (<span lang="ja">松</span> <Pronou
 >
 > The [Japanese crane](https://en.wikipedia.org/wiki/Red-crowned_crane) has a red crest.
 
-The pine is associated with winter and snow, so these cards show the lingering
-influence of winter during the new year. The first week of the new year is known
-as the ‘pine week’ (<span lang="ja">松の内</span> <span lang="ja-Latn">matsu no
-uchi</span>), and the traditional festival that was held on the first Day of the
-Rat of the new year (<span lang="ja">子の日の宴</span> <span
-lang="ja-Latn">nenohi no en</span>) involved uprooting small pine
-trees.[@WorldOfTheShiningPrince p. 168]
 
-> [!figure]
->
-> ![A card with a pine tree and a red ribbon](pine_urasu.jpg)
->
-> ```yaml
-> noborder: true
-> position: "left"
-> size: "small"
-> orgName: "Japan Playing Card Museum"
-> orgAbbr: "JPCM"
-> originalUrl: "https://japanplayingcardmuseum.com/image/hachihachi-hanafuda16.pdf"
-> license: "with-permission"
-> ```
->
-> An old pine <span lang="ja-Latn">tanzaku</span> card with inscription reading <span lang="ja-Latn">urasu</span> (<span lang="ja">宇良す</span>), the name of a <span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">yaku</span>. Produced by <span lang="ja">現〇商会</span>.
 
-The text on the <span lang="ja-Latn">tanzaku</span> reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.[^hentaigana] This means ‘red is good’ and was an older name of a <span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">yaku</span> (scoring com&shy;bin&shy;ation) which is now called <span lang="ja-Latn">akatan</span>.[^unclear] Cards from vintage decks can carry older names for this <span lang="ja-Latn">yaku</span>, such as <span lang="ja-Latn">urasu</span>, or sometimes simply <span lang="ja">正月/初月</span>, indicating the first lunar month.
-
-[^hentaigana]: The writing on the <span lang="ja-Latn">tanzaku</span> uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.
-
-[^unclear]: The meaning of this phrase is usually said to be “unclear”, even by <span class="noun" lang="ja-Latn">Hanafuda</span> manufacturers. Some derive a meaning like ‘clearly good’ based on reading <span lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span> show <span lang="ja-Latn">akayoroshi</span> alongside <span lang="ja-Latn">aoyoroshi</span> (‘blue is good’) indicating that <span lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).
-
-In the <span lang="ja-Latn">Echigo-bana</span> pattern, the <span lang="ja-Latn">kasu</span> cards carry a <span lang="ja-Latn">tanka</span> composed by <span class="noun" lang="ja-Latn">[Mina­moto no Mune­yuki](https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki)</span>[^minamoto] (<span lang="ja">源宗于</span>) at a poetry competition organized by the Empress during the reign of Emperor <span class="noun" lang="ja-Latn">Uda</span>. The <Pronounce pronouncer="skent" lang="ja-Latn" file='pronunciation_ja_古今和歌集.mp3' noun="true">Kokin Wakashū</Pronounce> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”) preserves this poem as in its ‘Spring’ section (#24):
-
-[^minamoto]: <span class="noun" lang="ja-Latn">Mina­moto no Mune­yuki</span> (<abbr title="died">d.</abbr> 983) was a poet of the Heian period, and named one of the ‘Thirty-Six Immortals of Poetry’.
-
-> [!aside]
->
-> @PoemsOfTheEchigobana [p. 4] notes that in the standard design printed by Nintendo and <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>, the card is missing the <span lang="ja">も</span> on the second ‘line’.
+The poet <span class="noun" lang="ja-Latn">[Mina­moto no Mune­yuki](https://en.wikipedia.org/wiki/Minamoto_no_Muneyuki)</span>[^minamoto] (<span lang="ja">源宗于</span>) captured the transitional period of the pine at the new year with a <span lang="ja-Latn">tanka</span> presented at a poetry competition organized by the Empress during the reign of Emperor <span class="noun" lang="ja-Latn">Uda</span>. The <Pronounce pronouncer="skent" lang="ja-Latn" file='pronunciation_ja_古今和歌集.mp3' noun="true">Kokin Wakashū</Pronounce> (<cite lang="ja">古今和歌集</cite> “Collection of Old and New Poems”) preserves this poem in its ‘Spring’ section (#24):
 
 > [!multi]
 >
@@ -859,8 +829,13 @@ In the <span lang="ja-Latn">Echigo-bana</span> pattern, the <span lang="ja-Latn"
 > deepens into new richness\
 > now that springtime has arrived.[@KokinWakashu p. 18]
 
-The <span lang="ja-Latn">Awa-bana kasu</span> carries a shortened reference to
-this poem, announcing that spring is here:
+[^minamoto]: <span class="noun" lang="ja-Latn">Mina­moto no Mune­yuki</span> (<abbr title="died">d.</abbr> 983) was a poet of the Heian period, and named one of the ‘Thirty-Six Immortals of Poetry’.
+
+This poem appears on the <span lang="ja-Latn">kasu</span> cards of the <span lang="ja-Latn">Echigo-bana</span> pattern. The <span lang="ja-Latn">Awa-bana kasu</span> also carries a shortened reference to this poem, announcing that spring is here:
+
+> [!aside]
+>
+> @PoemsOfTheEchigobana [p. 4] notes that in the standard design printed by Nintendo and <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>, the card is missing the <span lang="ja">も</span> on the second ‘line’.
 
 > [!multi]
 >
@@ -898,6 +873,29 @@ this poem, announcing that spring is here:
 > >
 > > An <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> card, with a shortened version of the same <span lang="ja-Latn">tanka</span> (the other <span lang="ja-Latn">kasu</span> card bears the same phrases).
 
+> [!figure]
+>
+> ![A card with a pine tree and a red ribbon](pine_urasu.jpg)
+>
+> ```yaml
+> noborder: true
+> position: "left"
+> size: "small"
+> orgName: "Japan Playing Card Museum"
+> orgAbbr: "JPCM"
+> originalUrl: "https://japanplayingcardmuseum.com/image/hachihachi-hanafuda16.pdf"
+> license: "with-permission"
+> ```
+>
+> An old pine <span lang="ja-Latn">tanzaku</span> card with inscription reading <span lang="ja-Latn">urasu</span> (<span lang="ja">宇良す</span>), the name of a <span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">yaku</span>. Produced by <span lang="ja">現〇商会</span>.
+
+The text on the <span lang="ja-Latn">tanzaku</span> reads <span lang="ja-Latn">akayoroshi</span> <span lang="ja">あ𛀙よろし</span>.[^hentaigana] This means ‘red is good’ and was an older name of a <span class="noun" lang="ja-Latn">Hachi-Hachi</span> <span lang="ja-Latn">yaku</span> (scoring com&shy;bin&shy;ation) which is now called <span lang="ja-Latn">akatan</span>.[^unclear] Cards from vintage decks can carry older names for this <span lang="ja-Latn">yaku</span>, such as <span lang="ja-Latn">urasu</span>, or sometimes simply <span lang="ja">正月/初月</span>, indicating the first lunar month.
+
+[^hentaigana]: The writing on the <span lang="ja-Latn">tanzaku</span> uses a rare <span lang="ja-Latn">hentaigana</span> character for <span lang="ja-Latn">ka</span>, which is usually written <span lang="ja">か</span>. It may not render correctly on your device.
+
+[^unclear]: The meaning of this phrase is usually said to be “unclear”, even by <span class="noun" lang="ja-Latn">Hanafuda</span> manufacturers. Some derive a meaning like ‘clearly good’ based on reading <span lang="ja-Latn">aka</span> as a short form of <span lang="ja-Latn">akiraka ni</span> (‘clearly’). However, old listings of <span lang="ja-Latn">yaku</span> show <span lang="ja-Latn">akayoroshi</span> alongside <span lang="ja-Latn">aoyoroshi</span> (‘blue is good’) indicating that <span lang="ja-Latn">aka</span> should be read straightforwardly as <span lang="ja">赤</span> (‘red’).
+
+
 ### <span lang="ja">2月</span>
 
 > [!figure]
@@ -934,17 +932,17 @@ this poem, announcing that spring is here:
 >
 > The cards for February feature plum trees in blossom. There is one <span lang="ja-Latn">tane</span> card, one <span lang="ja-Latn">tanzaku</span> card (with text), and two <span lang="ja-Latn">kasu</span> cards. The text on the <span lang="ja-Latn">tanzaku</span> is the same as that on January’s.
 
-The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" lang="ja-Latn" file="pronunciation_ja_梅.mp3">ume</Pronounce>). The <span lang="ja-Latn">tane</span> has a bush warbler–plum blossom combination that has been associated with spring since very early times, dating at least from the <Pronounce pronouncer="monekuson" lang="ja-Latn" file="pronunciation_ja_万葉集.mp3" noun="true">Man’yōshū</Pronounce> (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’, a book of poetry compiled during the <span class="noun" lang="ja-Latn">Nara</span> period sometime after 759).[@FourSeasons loc. 978]
+The second month is represented by plum trees in blossom (<span lang="ja">梅</span> <Pronounce pronouncer="akitomo" lang="ja-Latn" file="pronunciation_ja_梅.mp3">ume</Pronounce>), paired with the bush warbler (<span lang="ja">鶯</span> <span lang="ja-Latn">uguisu</span>). This combination has announced spring in Japanese poetry since the <Pronounce pronouncer="monekuson" lang="ja-Latn" file="pronunciation_ja_万葉集.mp3" noun="true">Man’yōshū</Pronounce> (<cite lang="ja">万葉集</cite> ‘Collection of Ten Thousand Leaves’) was compiled in the 8th century (<span class="noun" lang="ja-Latn">Nara</span> period, after 759).[@FourSeasons loc. 978] The bush warbler was praised for its song, and one of its cries is said to repeat <span lang="ja-Latn">hō-hoke-kyō</span>, the Japanese name of the [Lotus Sutra](https://en.wikipedia.org/wiki/Lotus_Sutra) (<span lang="ja">法華経</span> <span lang="ja-Latn">hokekyō</span>).
 
-Despite being a tree introduced from China, the plum blossom was the favoured flower in poetry and art during the <span class="noun" lang="ja-Latn">Nara</span> period; the native cherry blossom would only become more popular during the <span class="noun" lang="ja-Latn">Heian</span> period:[@FourSeasons loc. 997] after a famous plum tree that was planted by Emperor <span class="noun" lang="ja-Latn">Kanmu</span> at the imperial palace had died, Emperor <span class="noun" lang="ja-Latn">Ninmyō</span> replaced it with a cherry tree[^cherrytree] in 834.[@HandbookForJapan p. 301]
+The plum blossom enjoyed a privileged position in early Japanese culture. Despite being a tree introduced from China, the plum blossom was the favoured flower in poetry and art during the <span class="noun" lang="ja-Latn">Nara</span> period; the native cherry blossom would only become more popular during the <span class="noun" lang="ja-Latn">Heian</span> period.[@FourSeasons loc. 997] This shift was also visible literally: after a famous plum tree that was planted by Emperor <span class="noun" lang="ja-Latn">Kanmu</span> at the imperial palace had died, Emperor <span class="noun" lang="ja-Latn">Ninmyō</span> replaced it with a cherry tree[^cherrytree] in 834.[@HandbookForJapan p. 301] But the plum retained its place as the first of the year’s new blossoms, blooming even as the snow still lingered.
 
 [^cherrytree]: This cherry tree has been replanted several times since then, and is called the <span lang="ja-Latn">sakon no sakura</span> (<span lang="ja">左近桜</span> ‘left-side cherry’).
 
-The bush warbler (<span lang="ja">鶯</span> <span lang="ja-Latn">uguisu</span>) was praised for its song, and one of its cries is said to repeat the phrase <span lang="ja-Latn">hō-hoke-kyō</span>, the Japanese name of the [Lotus Sutra](https://en.wikipedia.org/wiki/Lotus_Sutra) (<span lang="ja">法華経</span> <span lang="ja-Latn">hokekyō</span>). The first cry of the bush warbler was considered to announce the beginning of spring:
+The first cry of the bush warbler announced the arrival of spring as surely as the flowers, as the poet [<span class="noun" lang="ja-Latn">Ōe no Chisato</span>](https://en.wikipedia.org/wiki/%C5%8Ce_no_Chisato) (<span lang="ja">大江千里</span>) expressed during a competition in the <span class="noun" lang="ja-Latn">Kanpyō</span> era (889–898):
 
 > [!aside]
 >
-> This is Poem 14 from the ‘Spring 1’ section of the <span class="noun" lang="ja-Latn">Kokinshū</span>. It was composed by [<span class="noun" lang="ja-Latn">Ōe no Chisato</span>](https://en.wikipedia.org/wiki/%C5%8Ce_no_Chisato) (<span lang="ja">大江千里</span>) during a competition in the <span class="noun" lang="ja-Latn">Kanpyō</span> era (889–898).
+> This is Poem 14 from the ‘Spring 1’ section of the <span class="noun" lang="ja-Latn">Kokinshū</span>.
 
 > [!multi]
 >
