@@ -21974,3 +21974,67 @@ GinaShaw:
     family: Shaw
   ISBN: '0593093798'
   publisher: Penguin Workshop
+McAlpineChiptunes:
+  type: book
+  title: Bits and Pieces
+  subtitle: A History of Chiptunes
+  author:
+  - given: Kenneth B.
+    family: McAlpine
+  publisher: Oxford University Press
+  issued: 2019
+  ISBN: '9780190496098'
+NicholsNintendo:
+  type: book
+  title: 'Nintendo: Playing with Power'
+  author:
+  - given: Randy
+    family: Nichols
+  issued: 2023
+  publisher: Taylor & Francis
+  ISBN: '9781003816829'
+FirestoneNintendo:
+  type: book
+  title: 'Nintendo: The Company and its Founders'
+  author:
+  - given: Mary
+    family: Firestone
+  issued: 2011
+  ISBN: '9781617148095'
+  publisher: ABDO
+BrownTetris:
+  type: book
+  title: "Tetris: The Games People Play"
+  author:
+  - given: Brian “Box”
+    family: Brown
+  publisher: First Second
+  issued: 2016
+  ISBN: '9781250145895'
+ThomasNintendo:
+  type: book
+  title: "Nintendo Innovator: Hiroshi Yamauchi"
+  author:
+  - given: Rachael L.
+    family: Thomas
+  publisher: ABDO
+  issued: 2019
+  ISBN: "9781532159961"
+GreenNintendo:
+  type: book
+  title: Nintendo
+  author:
+  - given: Sara
+    family: Green
+  issued: 2016
+  publisher: Bellwether Media
+  ISBN: '9781681031750'
+KohlerPowerUp:
+  type: book
+  title: 'Power-Up: How Japanese Video Games Gave the World an Extra Life'
+  author:
+  - given: Chris
+    family: Kohler
+  issued: 2016
+  publisher: Courier Dover
+  ISBN: '9780486801490'
