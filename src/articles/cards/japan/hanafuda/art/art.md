@@ -9,7 +9,7 @@ hero:
     organization:
         orgName: "Metropolitan Museum of Art"
 date created: 2024-12-18
-date modified: 2025-08-06
+date modified: 2025-11-16
 aliases: [The History & Art of Hanafuda]
 linter-yaml-title-alias: The History & Art of Hanafuda
 ---
@@ -1289,7 +1289,7 @@ A poem by one Kanchō (<span lang="ja">管鳥</span>, d. 1818) included in the c
 
 It is also known as the ‘queen of a hundred flowers’ (<span lang="ja">百花の王</span>) and often paired with the lion — the ‘king of a hundred beasts’ (<span lang="ja">百獣の王</span>). But on the cards, the peony is shown alongside a butterfly.
 
-Ambivalence toward the flower persisted well into the Edo period. The poet [Kyoriku](https://en.wikipedia.org/wiki/Morikawa_Kyoriku)[^hyoroku] (<span lang="ja">許六</span>, a student of Bashō’s, d. 1715), in a series of poems comparing flowers to women (1704):[@Kyoriku]
+Ambivalence toward the flower persisted well into the Edo period. The poet [Kyoriku](https://en.wikipedia.org/wiki/Morikawa_Kyoriku)[^hyoroku] (<span lang="ja">許六</span>, a student of Bashō’s, d. 1715) wrote in a series of poems comparing flowers to women (1704):[@Kyoriku]
 
 [^hyoroku]: Or Kyoroku; accidentally given as “Hyoroku” in @FlowersAndGardensOfJapan [160].
 
@@ -1320,6 +1320,8 @@ Buson (1716–84), perhaps with Kyoriku’s poem in mind, wrote instead (1780):
 > the peony has fallen—\
 > lying upon one another\
 > two or three petals[@PathOfFloweringThorn 128]
+
+With the fall of these petals, the season of the peony ended, and we again return to Japan’s native flora.
 
 ### <span lang="ja">7月</span>
 
@@ -1415,10 +1417,6 @@ meat in 675, only cattle, horses, dogs, monkeys, and chickens were
 prohibited.[@FourSeasons loc. 4261] Wild game such as boar and deer were not
 included: either they escaped the imagination of the Emperor, or they were too
 important as food sources for commoners.
-
-> [!todo]
->
-> Deer is associated with bush clover but instead we have a boar? But also deer are renowned for being separated from their lovers...
 
 ### <span lang="ja">8月</span>
 
