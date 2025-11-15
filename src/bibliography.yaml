@@ -21927,3 +21927,50 @@ PeonAndPeony:
     issue: 2
   URL: https://simplyhaiku.thehaikufoundation.org/SHv3n2/inContext/inContext_v3n2.html
   archive-URL: https://web.archive.org/web/20240913211636/http://simplyhaiku.thehaikufoundation.org/SHv3n2/inContext/inContext_v3n2.html
+GameOverSheff:
+  type: book
+  title: Game Over, Press Start to Continue
+  subtitle: How Nintendo Conquered the World
+  author:
+  - given: David
+    family: Sheff
+  ISBN: '0966961706'
+  URL: https://archive.org/details/0966961706
+  issued: 1999
+  publisher: GamePress
+  publisher-place: Wilton, CT, USA
+RothmanYamauchi:
+  type: article-magazine
+  title: 'Takes: Nintendo’s Hiroshi Yamauchi'
+  author:
+  - given: Joshua
+    family: Rothman
+  in:
+    title: The New Yorker
+    issued:
+      year: 2013
+      month: 9
+      day: 20
+  URL: https://www.newyorker.com/books/double-take/takes-nintendos-hiroshi-yamauchi
+MasterOfPlay:
+  type: article-magazine
+  author:
+  - given: Nick
+    family: Paumgarten
+  title: Master of Play
+  in:
+    title: The New Yorker
+    issued:
+      year: 2010
+      month: 12
+      day: 12
+  URL: https://www.newyorker.com/magazine/2010/12/20/master-of-play
+GinaShaw:
+  type: book
+  title: What Is Nintendo?
+  issued: 2021
+  author:
+  - given: Gina
+    family: Shaw
+  ISBN: '0593093798'
+  publisher: Penguin Workshop

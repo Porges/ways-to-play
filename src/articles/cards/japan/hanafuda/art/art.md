@@ -470,9 +470,23 @@ In 1904, the Japanese government nationalized[^nationalized] the manufacture of 
 >
 > Fronts and backs of combination tobacco cards produced by <span class="noun" lang="ja-Latn">Murai</span> Brothers, prior to 1904. The hand-written markings on the backs possibly indicate that they were adapted to be used as <span class="noun" lang="ja-Latn">Iroha</span> cards.
 
-> [!todo]
-> ## Traditional Methods of Manufacture
-> Often manufactured by <span lang="ja-Latn">kuge</span> nobles,[@GrantsToKugeNobles] as they were very poor. Iwakura’s family had even resorted to renting out their house as a gambling den[@EmperorOfJapan p. 4] (although he was later very successful — he was excluded from the grants cited previously.)
+## Traditional Methods of Manufacture
+
+Before the mass-production era, <span class="noun" lang="ja-Latn">Hanafuda</span> cards were made by hand using traditional Japanese papermaking and printing techniques. The process was labour-intensive and required great skill.
+
+Traditional types of paper made from fibres such as paper mulberry (<span lang="ja-Latn">kōzo</span>)[^bark] were used in the construction process. Rougher, heavier paper was used for the internal core of the card, which would then be coated with higher quality white paper which had been printed with the black outlines using a woodblock press. Glue was also made heavier with the addition of powdered clay or stone, to give extra heft to the cards. After this, the colour of the cards was added using stencils and brushes, then the cards were cut and the rear of the cards back-pasted with contrasting paper, and the edges folded over. A final step in the process was to run the cards through a roller to polish them and provide the curvature expected by the players.
+
+[^bark]: _Not_, as is often incorrectly repeated, cards drawn upon the bark of the mulberry tree or “made from crushed mulberry bark”![@MasterOfPlay][@GinaShaw 6] The best paper was made from the inner bark of paper mulberry, just as ‘normal’ paper is manufactured from wood such as pine — as if books are printed on “crushed pine”. Neither, for that matter, did Nintendō founder Fusajiro Yamauchi create paper from scratch with the power of his “will”, as described in @GameOverSheff [14] — which seems to be the original source that eventually transmuted into the mulberry-bark claim.
+
+At the end of the Edo period, these cards were often manufactured by <span lang="ja-Latn">kuge</span> nobles — the non-military aristocratic class which surrounded the court. Despite holding aristocratic rank they were often very poor:
+
+> Among the lower ranks of the Court Nobles, many were so poverty-stricken that they had to rely for subsistence on menial labour. One of the commonest kinds of such labour was the manufacture of <span lang="ja-Latn">hana-garuta</span> and <span lang="ja-Latn">uta-garuta</span>.[@GrantsToKugeNobles]
+
+Card-making offered these impoverished nobles a way to survive. The financial desperation of the family of [Iwakura Tomomi](https://en.wikipedia.org/wiki/Iwakura_Tomomi) (1825–83) — later to be one of the leading figures of the Meiji restoration — was such that they had even resorted to renting out their house as a gambling den.[@EmperorOfJapan 4][^excluded]
+
+[^excluded]: He himself was excluded from the grants mentioned in the just-cited article.
+
+The tradition of hand-made cards would not survive long into the modern era. With rising taxation many of these enterprises would close or become consolidated into larger companies, and machine-produced cards would become the norm after the end of the second world war.
 
 ### Taxation, Decline, and Revival
 
