@@ -13,7 +13,7 @@ aliases:
   - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2025-07-02
+date modified: 2025-11-17
 linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
@@ -46,7 +46,7 @@ At some point they were also called “8–9 cards”, in Malay <span lang="ms-L
 
 [^pekak]: Perhaps also <span lang="ms-Arab">ڤيكق</span> <span lang="ms-Latn">pékak</span>?[@MaleischNederlandsch_2 456]
 
-[^thai]: Note that the name <span lang="th">ไพ่งาแปดเก้า</span> <span lang="th-Latn">phai nga paet kao</span> is also mentioned in the source; this is “8–9 bone cards” where “bone cards” could be a calque of the Chinese <span lang="zh">骨牌</span> which means ‘dominos’ or sometimes ‘playing cards’.
+[^thai]: Note that the name <span lang="th">ไพ่งาแปดเก้า</span> <span lang="th-Latn">phai nga paet kao</span> is also mentioned in the source; this is “8–9 bone cards” where “bone cards” could be a calque of the Chinese <span lang="zh">骨牌</span> which means ‘dominos’ or sometimes ‘playing cards’. See also the name <span lang="th">แปด เก้า</span> <span lang="th-Latn">paet kao</span>.[@Pallegoix 239]
 
 [^oicho-kabu]: Is there any remote connection to [Oicho Kabu](games/three-card-game/three-card-game.md#oicho-kabu) here?
 
@@ -160,9 +160,9 @@ These terms might come from a Chinese language term for the number nine, which i
 
 Each deck, or <span lang="ms">kepala</span> (literally ‘head’, Javanese <span lang="jv">ꦏꦥꦭ</span> <span lang="jv-Latn">kapala</span>), contains 60 cards: 30 unique cards, each appearing twice. The 30 cards comprise three suits running from <Cards>1–9</Cards> (27 cards), along with three ‘honour cards’ (two of which are marked with red stamps). Many Ceki games require multiple <span lang="ms">kepala</span> to play, often two sets (giving 120 cards).
 
-In Banyuwangi, Java a deck is referred to as a <span lang="jv">ꦫꦚ꧀ꦕꦏ꧀</span> <span lang="jv-Latn">rancak</span> ‘piece of wood’ or ‘set of instruments’.[@JavaanseKaartspelen p. 74] In Thai, a deck is called a <span lang="th">สํารับ</span> <span lang="th-Latn">sam&shy;rap</span> (literally ‘condiment tray’).
+In Banyuwangi, Java a deck is referred to as a <span lang="jv">ꦫꦚ꧀ꦕꦏ꧀</span> <span lang="jv-Latn">rancak</span> ‘piece of wood’ or ‘set of instruments’.[@JavaanseKaartspelen 74] In Thai, a deck is called a <span lang="th">สํารับ</span> <span lang="th-Latn">sam&shy;rap</span> (literally ‘condiment tray’).
 
-The three suits have various region-specific names.[@ChikiCards p. 119] I use the terms ‘Coins’, ‘Strings’, and ‘Myriads’ for consistency with articles about other money-suited cards.
+The three suits have various region-specific names.[@ChikiCards 119] I use the terms ‘Coins’, ‘Strings’, and ‘Myriads’ for consistency with articles about other money-suited cards.
 
 <dl>
 <dt>
@@ -614,7 +614,7 @@ For each card in the table below I show (in left-to-right order):
 
 1. a card from a 19th-century deck collected in @ChineseOfTheStraitsSettlements,
 2. a card from a 20th-century deck as used in Singapore, produced by Guan Huat under the Double Elephant (<span lang="zh">雙象</span>) brand (seemingly related to #1),
-3. a card from a different 19th-century deck from @YoungCeki [p. 300] (as reproduced in @JavaanseKaartspelen),
+3. a card from a different 19th-century deck from @YoungCeki [300] (as reproduced in @JavaanseKaartspelen),
 4. a card from a deck produced by Harmsen Verweij & Dunlop (after 1933), a Dutch company,[^fn0]
 5. a 1940s deck collected in @JavaanseKaartspelen,
 6. and then a modern card from a deck purchased in Bali in 2019 (clearly derived from #3).
@@ -627,22 +627,28 @@ Each card in the deck has its own name as listed in the table below.  The transl
 
 [^fn1]: According to some sources, the word “<span lang="jv-Latn">cina</span>” referring to a Chinese person is now considered a potentially derogatory term. For example, the Indonesian government no longer uses it in official communications, since the term was dropped from official usage by presidential decree in 2014.[@CinaOrTionghua]
 
-The names in the **Makassar** column have been assigned based upon comparisons with the other names given; the source — being a dictionary — does not show which card maps to which name. I have not been able to figure out a satisfactory assignment for the following names:
-<span lang="mak">ᨁᨚᨌᨗ</span> <span lang="mak-Latn">goncing</span>[@MakassaarschWoordenboek p. 76] ‘scissors’;
-<span lang="mak">ᨁᨑᨗᨁᨗ</span> <span lang="mak-Latn">garigi</span>[@MakassaarschWoordenboek p. 79] [?];
-<span lang="mak">ᨄᨄ</span> <span lang="mak-Latn">pampang</span>[@MakassaarschWoordenboek p. 98] ‘across’;
-<span lang="mak">ᨄᨚᨄᨚᨀ</span> <span lang="mak-Latn">popokang</span>[@MakassaarschWoordenboek p. 99] ‘sorceress’;[^fn2]
-<span lang="mak">ᨄᨙᨔᨚ</span> <span lang="mak-Latn">peso</span>[@MakassaarschWoordenboek p. 140] ‘lame’;
-<span lang="mak">ᨅᨘᨀᨘ</span> <span lang="mak-Latn">buku</span>[@MakassaarschWoordenboek p. 148] ‘bone’;
-<span lang="mak">ᨅᨚᨈᨘᨓᨒ</span> <span lang="mak-Latn">bontuwala</span>[@MakassaarschWoordenboek p. 173] Bontoala, a place near Makassar, also the name of a type of large kris;
-<span lang="mak">ᨅᨓᨗ</span> <span lang="mak-Latn">bawi</span>[@MakassaarschWoordenboek p. 221] ‘pig’;
-<span lang="mak">ᨆᨉᨘᨑ</span> <span lang="mak-Latn">mandura</span>[@MakassaarschWoordenboek p. 249] [?];
-<span lang="mak">ᨌᨄᨗ</span> <span lang="mak-Latn">capi</span>[@MakassaarschWoordenboek p. 385] ‘deformed’, also ‘cow’;
-<span lang="mak">ᨍᨘᨀᨘᨕᨙᨍ</span> <span lang="mak-Latn">juku-éja</span>[@MakassaarschWoordenboek p. 402] ‘red fish’;
-<span lang="mak">ᨍᨚᨅᨚ</span> <span lang="mak-Latn">jobong</span>[@MakassaarschWoordenboek p. 408] [?];
-<span lang="mak">ᨑᨚᨅᨙ</span> <span lang="mak-Latn">rombéng</span>[@MakassaarschWoordenboek p. 444] ‘long hair’;
-<span lang="mak">ᨔᨄᨗ</span> <span lang="mak-Latn">sapi</span>[@MakassaarschWoordenboek p. 554] ‘cow’;
-<span lang="mak">ᨔᨗᨄᨗ</span> <span lang="mak-Latn">sipi</span>[@MakassaarschWoordenboek p. 557] ‘pinch’.
+The names in the **Makassar** column have been assigned by me based upon comparisons with the other names given; the source I have — being a dictionary — does not show which card maps to which name.[^ones] I have not been able to figure out a satisfactory assignment for the following names:
+<span lang="mak">ᨁᨚᨌᨗ</span> <span lang="mak-Latn">goncing</span>[@MakassaarschWoordenboek 76] ‘scissors’;
+<span lang="mak">ᨄᨚᨄᨚᨀ</span> <span lang="mak-Latn">popokang</span>[@MakassaarschWoordenboek 99] ‘sorceress’;[^fn2]
+<span lang="mak">ᨅᨘᨀᨘ</span> <span lang="mak-Latn">buku</span>[@MakassaarschWoordenboek 148] ‘bone, knot, gnarl’;
+<span lang="mak">ᨅᨚᨈᨘᨓᨒ</span> <span lang="mak-Latn">bontuwala</span>[@MakassaarschWoordenboek 173] Bontoala, a place near Makassar, also the name of a type of large kris;
+<span lang="mak">ᨆᨉᨘᨑ</span> <span lang="mak-Latn">mandura</span>[@MakassaarschWoordenboek 249] Madurese?;
+<span lang="mak">ᨑᨚᨅᨙ</span> <span lang="mak-Latn">rombéng</span>[@MakassaarschWoordenboek 444] ‘long hair’;
+<span lang="mak">ᨌᨄᨗ</span> <span lang="mak-Latn">capi</span>[@MakassaarschWoordenboek 385] ‘cow’;
+<span lang="mak">ᨔᨄᨗ</span> <span lang="mak-Latn">sapi</span>[@MakassaarschWoordenboek 554] ‘cow’;
+<span lang="mak">ᨄᨄ</span> <span lang="mak-Latn">pampang</span>[@MakassaarschWoordenboek 98] ‘across’;
+<span lang="mak">ᨔᨗᨄᨗ</span> <span lang="mak-Latn">sipi</span>[@MakassaarschWoordenboek 557] ‘pinch/claw’.
+<span lang="mak">ᨍᨘᨀᨘᨕᨙᨍ</span> <span lang="mak-Latn">juku-éja</span>[@MakassaarschWoordenboek 402] red fish (Nemipterus hexodon).
+
+[^ones]: There is at least one hint in that the 6 rank-1/honour cards are listed.[@MakassaarschWoordenboek 354] But this might only confuse matters as some of them don’t seem to fit very well!
+
+> [!todo]
+>
+> In Buginese:
+> - <span lang="bug">ᨁᨚᨁᨚᨔᨚ</span> <span lang="bug-Latn">gogoso</span>[@BoegineeschWoordenboek 54]
+> - <span lang="bug">ᨌᨄᨗ</span> <span lang="bug-Latn">capi</span>[@BoegineeschWoordenboek 421] ‘cow’
+> - <span lang="bug">ᨔᨄᨗ</span> <span lang="bug-Latn">sapi</span>[@BoegineeschWoordenboek 680] ‘cow’
+> - <span lang="bug">ᨔᨗᨄᨗ</span> <span lang="bug-Latn">sipi</span>[@BoegineeschWoordenboek 684] ‘pinch/claw’
 
 [^fn2]: Not just any sorceress, but one that sends out her head and entrails at night, leaving her body behind! In Minangkabau this is called a ‘<span lang="min" class="noun">Palasik Panangga</span>’, or a ‘<span lang="ms" class="noun">Penanggalan</span>’ in Malay. For more information, see @Penanggalan.
 
@@ -658,7 +664,7 @@ The names in the **Makassar** column have been assigned based upon comparisons w
 >
 > These names are a combination of the rank (derived from Hokkien number names) and
 > either the suit name or some nickname based on the middle portion of the
-> card,[@ChikiCards p. 121] which is slightly bigger there than in the Indonesian
+> card,[@ChikiCards 121] which is slightly bigger there than in the Indonesian
 > version.
 >
 > </dd>
@@ -701,7 +707,7 @@ The names in the **Makassar** column have been assigned based upon comparisons w
 <th>
 Thailand
 </th>
-<th colspan="4">
+<th colspan="7">
 Malaysia/Singapore
 </th>
 <th>
@@ -740,7 +746,17 @@ Cards
 General
 </th>
 <th>
-Older (Malay)\
+Hokkien Chinese (1886)[@YoungCeki 300]
+</th>
+<th>
+Indo-Chinese (1886)[@YoungCeki 300]\
+(women)
+</th>
+<th>
+Colloquial Malay (1886)[@YoungCeki 300]
+</th>
+<th>
+Malay\
 (1894)[@CliffordMalay3 334]
 </th>
 <th>
@@ -831,6 +847,10 @@ Makassar\
 (1859)[@MakassaarschWoordenboek]
 </th>
 <th>
+Buginese\
+(1874)[@BoegineeschWoordenboek]
+</th>
+<th>
 Manado\
 (1876)[@HetMaleischderMolukken]
 </th>
@@ -855,6 +875,12 @@ Honours & Rank 1
 > [!todo] ---MALAY---
 <td>
 <span lang="ms">yu</span> or <span lang="ms">yeo</span>, from Hokkien/Teochew
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 </td>
 <td>
 <span lang="ms">iu</span> (modern <span lang="ms">ayu</span>)\
@@ -968,6 +994,19 @@ large ace
 or <span lang="ms">yu pinding</span>
 </td>
 <td>
+<span lang="nan">10 老千</span>\
+<span lang="nan-Latn-pehoeji">10 lāu chheng</span>\
+10 old thousand
+</td>
+<td>
+<span lang="ms">yo lau can</span>\
+from Hokkien
+</td>
+<td>
+10 <span lang="ms">raja</span>\
+10 king
+</td>
+<td>
 <span lang="ms">iu mêrah bĕsar</span>\
 <span lang="ms-Arab">ايو ميره بسر</span>\
 large red/king ace
@@ -1066,7 +1105,7 @@ red/big king
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨒᨚᨌᨗᨐ</span>\
-<span lang="mak-Latn">lociyang</span>[@MakassaarschWoordenboek p. 508]\
+<span lang="mak-Latn">lociyang</span>[@MakassaarschWoordenboek 508]\
 from Hokkien
 </td>
 <td>
@@ -1116,6 +1155,19 @@ nun ace
 <td>
 <span lang="ms">yu kuching</span>\
 cat ace
+</td>
+<td>
+<span lang="nan">白花</span>\
+<span lang="nan-Latn-pehoeji">pe̍h hoa</span>\
+white flower
+</td>
+<td>
+<span lang="ms">yo kucing</span>\
+cat ace
+</td>
+<td>
+<span lang="ms">1 kucing</span>\
+1 cat
 </td>
 <td>
 <span lang="ms">iu kûching</span>\
@@ -1218,8 +1270,10 @@ chakra
 </td>
 > [!todo] ---Sulawesi---
 <td>
-<span lang="mak"></span>
-<span lang="mak-Latn"></span>
+[dubious location]\
+<span lang="mak">ᨍᨚᨅᨚ</span>\
+<span lang="mak-Latn">jobong</span>[@MakassaarschWoordenboek 408]\
+prostitute
 </td>
 <td>
 <span lang="id">kukis</span>
@@ -1270,6 +1324,19 @@ lady ace
 <td>
 <span lang="ms">yu nyonya</span>\
 (娘仔?) ace
+</td>
+<td>
+<span lang="nan">紅花</span>\
+<span lang="nan-Latn-pehoeji">âng hoa</span>\
+red flower
+</td>
+<td>
+<span lang="ms">yo pret/prit</span>\
+one ?
+</td>
+<td>
+<span lang="ms">10 pinci</span>\
+10 ?
 </td>
 <td>
 <span lang="ms">iu mêrah s’krat</span>\
@@ -1361,8 +1428,10 @@ keys?
 </td>
 > [!todo] ---Sulawesi---
 <td>
-<span lang="mak"></span>
-<span lang="mak-Latn"></span>
+[dubious location]\
+<span lang="mak">ᨅᨓᨗ</span>\
+<span lang="mak-Latn">bawi</span>[@MakassaarschWoordenboek 221]\
+pig
 </td>
 <td>
 <span lang="id">kapala</span>
@@ -1412,6 +1481,19 @@ secondary ace
 <td>
 <span lang="ms">yu kasut</span>\
 slipper ace (looks like a Nyonya slipper)
+</td>
+<td>
+<span lang="nan">一箍</span>\
+<span lang="nan-Latn-pehoeji">it kho͘</span>\
+one coin
+</td>
+<td>
+<span lang="ms">yo kasut</span>\
+slipper ace
+</td>
+<td>
+<span lang="ms">1 kasut</span>\
+1 slipper
 </td>
 <td>
 <span lang="ms">iu kâsut</span>\
@@ -1514,7 +1596,7 @@ reel
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨈᨗᨀᨑ</span>\
-<span lang="mak-Latn">tikara</span>[@MakassaarschWoordenboek p. 276]
+<span lang="mak-Latn">tikara</span>[@MakassaarschWoordenboek 276]
 </td>
 <td>
 <span lang="id">tikar</span>\
@@ -1567,7 +1649,20 @@ needle ace
 <td>
 <span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span>\
 long or bird ace\
-(In Indonesian, bird is also slang for penis.)[@IndonesianIdioms p. 62]
+(In Indonesian, bird is also slang for penis.)[@IndonesianIdioms 62]
+</td>
+<td>
+<span lang="nan">幺條</span>\
+<span lang="nan-Latn-pehoeji">io tiâu</span>\
+long ace
+</td>
+<td>
+<span lang="ms">yo panjang</span>\
+long ace
+</td>
+<td>
+<span lang="ms">1 bedor</span>\
+1 arrow-head (from Javanese)
 </td>
 <td>
 <span lang="ms">iu pli</span>\
@@ -1589,7 +1684,8 @@ long shark
 > [!todo] ---Java---
 <td>
 <span lang="jv">ꦧꦼꦢꦺꦴꦂ</span>\
-<span lang="jv-Latn">bêdor</span>
+<span lang="jv-Latn">bêdor</span>\
+a large spear-shaped arrow-head[@HistoryOfJava_1e 297]
 </td>
 <td>
 <span lang="jv-Latn">(iyo) bedor</span>
@@ -1668,7 +1764,7 @@ long
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨒᨅᨘᨔᨘ</span>\
-<span lang="mak-Latn">lambusu</span>[@MakassaarschWoordenboek p. 496]\
+<span lang="mak-Latn">lambusu</span>[@MakassaarschWoordenboek 496]\
 straight
 </td>
 <td>
@@ -1719,6 +1815,19 @@ mouse ace\
 <td>
 <span lang="ms">yu hue sio</span>\
 from Hokkien ‘monk’ <span lang="nan">和尚</span>
+</td>
+<td>
+<span lang="nan">一萬</span>\
+<span lang="nan-Latn-pehoeji">it bān</span>\
+one myriad
+</td>
+<td>
+<span lang="ms">yo nona</span>\
+lady ace
+</td>
+<td>
+<span lang="ms">10 petih</span>\
+(=<span lang="ms">patih</span>, vice-regent?)
 </td>
 <td>
 <span lang="ms">iu lîchin</span>\
@@ -1821,7 +1930,7 @@ China
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨌᨗᨊ</span>\
-<span lang="mak-Latn">cina</span>[@MakassaarschWoordenboek p. 391]\
+<span lang="mak-Latn">cina</span>[@MakassaarschWoordenboek 391]\
 China
 </td>
 <td>
@@ -1851,6 +1960,12 @@ two
 <td>
 <span lang="ms">ji</span>\
 (Hokkien <span lang="nan-Latn-pehoeji">jī</span>)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 </td>
 <td>
 <span lang="ms">lĕkok</span>\
@@ -1955,6 +2070,19 @@ shocked two
 <td>
 <span lang="ms">ji hitam</span> or <span lang="ms">ji bulat</span>\
 black or round two
+</td>
+<td>
+<span lang="nan">二餅</span>\
+<span lang="nan-Latn-pehoeji">jī piáⁿ</span>\
+two rounds
+</td>
+<td>
+<span lang="ms">ji wajik</span>\
+three diamond
+</td>
+<td>
+<span lang="ms">2 dimpil plompong</span>\
+2 ? ?
 </td>
 <td>
 <span lang="ms">lĕkok lâmah</span>\
@@ -2064,7 +2192,7 @@ two drums
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨄᨗᨌᨗᨉᨘᨓ</span>\
-<span lang="mak-Latn">picing duwa</span>[@MakassaarschWoordenboek p. 113]\
+<span lang="mak-Latn">picing duwa</span>[@MakassaarschWoordenboek 113]\
 two coins
 </td>
 <td>
@@ -2111,6 +2239,19 @@ two <a href="https://en.wikipedia.org/wiki/Angada">Angada</a> (a legendary monke
 <td>
 <span lang="ms">ji burung</span>\
 bird two
+</td>
+<td>
+<span lang="nan">二條</span>\
+<span lang="nan-Latn-pehoeji">jī tiâu</span>\
+two longs
+</td>
+<td>
+<span lang="ms">ji bengkok</span>\
+crooked two
+</td>
+<td>
+<span lang="ms">2 dimpil dengkek</span>\
+2 ? ?
 </td>
 <td>
 <span lang="ms">lĕkok lêrek</span>\
@@ -2246,6 +2387,19 @@ two people
 <span lang="ms">ji ban</span>
 </td>
 <td>
+<span lang="nan">二萬</span>\
+<span lang="nan-Latn-pehoeji">jī bān</span>\
+two myriad
+</td>
+<td>
+<span lang="ms">ji kutil</span>\
+wart two
+</td>
+<td>
+<span lang="ms">2 dimpil cina</span>\
+2 ? Chinese
+</td>
+<td>
 <span lang="ms">lĕkok cîna</span>\
 <span lang="ms-Arab">لكوق چين</span>\
 notched Chinese
@@ -2345,7 +2499,7 @@ angled
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨀᨚᨉᨙ</span>\
-<span lang="mak-Latn">kondé</span>[@MakassaarschWoordenboek p. 27]\
+<span lang="mak-Latn">kondé</span>[@MakassaarschWoordenboek 27]\
 Chinese bun hairstyle
 </td>
 <td>
@@ -2378,6 +2532,12 @@ three
 <td>
 <span lang="ms">sa</span>\
 (Hokkien <span lang="nan-Latn-pehoeji">saⁿ</span>)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 </td>
 <td>
 <span lang="ms">sêrong</span>\
@@ -2480,6 +2640,19 @@ three big eyes
 <td>
 <span lang="ms">sa batik</span>\
 batik three
+</td>
+<td>
+<span lang="nan">三餅</span>\
+<span lang="nan-Latn-pehoeji">saⁿ piáⁿ</span>\
+three rounds
+</td>
+<td>
+<span lang="ms">san wajik</span>\
+three diamond
+</td>
+<td>
+<span lang="ms">3 jarum wajik</span>\
+3 needle diamond
 </td>
 <td>
 <span lang="ms">sêrong wâjik</span>\
@@ -2638,6 +2811,19 @@ three short birds
 shrimp three
 </td>
 <td>
+<span lang="nan">三條</span>\
+<span lang="nan-Latn-pehoeji">saⁿ tiâu</span>\
+three longs
+</td>
+<td>
+<span lang="ms">san udang</span>\
+three shrimp
+</td>
+<td>
+<span lang="ms">3 jarum gunung</span>\
+3 needle mountain
+</td>
+<td>
 <span lang="ms">sêrong gûnong</span>\
 <span lang="ms-Arab">سيروڠ ݢونڠ</span>\
 askew mountain
@@ -2789,6 +2975,19 @@ three people
 <span lang="ms">sa ban</span>
 </td>
 <td>
+<span lang="nan">三萬</span>\
+<span lang="nan-Latn-pehoeji">saⁿ bān</span>\
+three myriad
+</td>
+<td>
+<span lang="ms">san jarum</span>\
+three needle
+</td>
+<td>
+<span lang="ms">3 jarum cina</span>\
+3 needle China
+</td>
+<td>
 <span lang="ms">sêrong jârum</span>\
 <span lang="ms-Arab">سيروڠ جارم</span>\
 askew needle
@@ -2883,7 +3082,7 @@ needle
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨍᨑᨘ</span>\
-<span lang="mak-Latn">jarung</span>[@MakassaarschWoordenboek p. 416]\
+<span lang="mak-Latn">jarung</span>[@MakassaarschWoordenboek 416]\
 nail
 </td>
 <td>
@@ -2920,6 +3119,12 @@ four
 > [!todo] ---M/S---
 <span lang="ms">si</span>\
 (Hokkien <span lang="nan-Latn-pehoeji">sì</span>)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 </td>
 <td>
 <span lang="ms">kĕpâla bûlat</span>\
@@ -3018,6 +3223,19 @@ four eggplants
 <td>
 <span lang="ms">si hitam</span>\
 black four
+</td>
+<td>
+<span lang="nan">四餅</span>\
+<span lang="nan-Latn-pehoeji">sì piáⁿ</span>\
+four rounds
+</td>
+<td>
+<span lang="ms">si tambur</span>\
+four drum
+</td>
+<td>
+<span lang="ms">4 tambur</span>\
+four drum
 </td>
 <td>
 <span lang="ms">kĕpâla bûlat gĕrôbok</span>\
@@ -3171,6 +3389,19 @@ four hanging breasts
 white four
 </td>
 <td>
+<span lang="nan">四條</span>\
+<span lang="nan-Latn-pehoeji">sì tiâu</span>\
+four longs
+</td>
+<td>
+<span lang="ms">si pingang</span>\
+4 ?
+</td>
+<td>
+<span lang="ms">4 cawang</span>\
+4 ?
+</td>
+<td>
 <span lang="ms">kĕpâla bûlat sûngkap</span>\
 <span lang="ms-Arab">كڤلا بولة سوڠكڤ</span>\
 round head loose hair
@@ -3191,7 +3422,7 @@ waist
 <td>
 <span lang="jv">ꦕꦮꦁ</span>\
 <span lang="jv-Latn">cawang</span>\
-forked
+forked/branching
 </td>
 <td>
 <span lang="jv-Latn">gapet</span>
@@ -3265,8 +3496,6 @@ waist
 </td>
 > [!todo] ---Sulawesi---
 <td>
-<span lang="mak"></span>
-<span lang="mak-Latn"></span>
 </td>
 <td>
 <span lang="id">putus</span>\
@@ -3313,6 +3542,19 @@ four people
 > [!todo] ---M/S---
 <td>
 <span lang="ms">si ban</span>
+</td>
+<td>
+<span lang="nan">四萬</span>\
+<span lang="nan-Latn-pehoeji">sì bān</span>\
+four myriad
+</td>
+<td>
+<span lang="ms">si kondé</span>\
+four bun (hairstyle)
+</td>
+<td>
+<span lang="ms">4 cina</span>\
+Chinese 4
 </td>
 <td>
 <span lang="ms">kĕpâla bûlat sundul</span>\
@@ -3440,6 +3682,12 @@ five
 (Hokkien <span lang="nan-Latn-pehoeji">gō͘</span>)
 </td>
 <td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 <span lang="ms">mâta dûa</span>\
 <span lang="ms-Arab">ماة دوا</span>\
 two eyes
@@ -3536,6 +3784,19 @@ five watermelons
 <td>
 <span lang="ms">go pending</span>\
 pending five
+</td>
+<td>
+<span lang="nan">五餅</span>\
+<span lang="nan-Latn-pehoeji">gō͘ piáⁿ</span>\
+five rounds
+</td>
+<td>
+<span lang="ms">guó puser</span>\
+five ?
+</td>
+<td>
+<span lang="ms">5 kantong</span>\
+5 ?
 </td>
 <td>
 <span lang="ms">mâta dûa kĕlôning</span>\
@@ -3640,7 +3901,7 @@ boat
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨄᨚᨌᨗ</span>\
-<span lang="mak-Latn">poci</span>[@MakassaarschWoordenboek p. 114]\
+<span lang="mak-Latn">poci</span>[@MakassaarschWoordenboek 114]\
 navel
 </td>
 <td>
@@ -3689,6 +3950,19 @@ five birds
 <td>
 <span lang="ms">go burung</span>\
 bird five
+</td>
+<td>
+<span lang="nan">五條</span>\
+<span lang="nan-Latn-pehoeji">gō͘ tiâu</span>\
+five longs
+</td>
+<td>
+<span lang="ms">guó itam</span>\
+five black
+</td>
+<td>
+<span lang="ms">5 lintrik</span>\
+5 rows?
 </td>
 <td>
 <span lang="ms">mâta dûa lêrek</span>\
@@ -3776,7 +4050,7 @@ big eye
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨁᨚᨁᨚᨔᨚ</span>\
-<span lang="mak-Latn">gogoso</span>[@MakassaarschWoordenboek p. 69]\
+<span lang="mak-Latn">gogoso</span>[@MakassaarschWoordenboek 69]\
 <a href="https://www.dreamstime.com/buras-traditional-food-west-south-sulawesi-indonesia-gogos-made-thick-glutinous-rice-then-wrapped-banana-leaves-image276176098">a dish of sticky rice cooked in bamboo leaves</a>
 </td>
 <td>
@@ -3822,6 +4096,19 @@ five people
 > [!todo] ---M/S---
 <td>
 <span lang="ms">go ban</span>
+</td>
+<td>
+<span lang="nan">五萬</span>\
+<span lang="nan-Latn-pehoeji">gō͘ bān</span>\
+five myriad
+</td>
+<td>
+<span lang="ms">guó babi</span>\
+five pig
+</td>
+<td>
+<span lang="ms">5 babi</span>\
+5 pig
 </td>
 <td>
 <span lang="ms">mâta dûa cîna</span>\
@@ -3918,8 +4205,6 @@ person pig
 </td>
 > [!todo] ---Sulawesi---
 <td>
-<span lang="mak"></span>
-<span lang="mak-Latn"></span>
 </td>
 <td>
 <span lang="id">babi (pai tuwa)</span>
@@ -3948,6 +4233,12 @@ six
 <td>
 <span lang="ms">lak</span>\
 (Hokkien <span lang="nan-Latn-pehoeji">la̍k</span>)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 </td>
 <td>
 <span lang="ms">lak</span>\
@@ -4048,6 +4339,19 @@ six eyes
 black six
 </td>
 <td>
+<span lang="nan">六餅</span>\
+<span lang="nan-Latn-pehoeji">la̍k piáⁿ</span>\
+six rounds
+</td>
+<td>
+<span lang="ms">lak krok</span>\
+six ?
+</td>
+<td>
+<span lang="ms">6 krok</span>\
+6 ?
+</td>
+<td>
 <span lang="ms">lak kroh</span>\
 <span lang="ms-Arab">لق كروه</span>\
 ? six
@@ -4145,8 +4449,8 @@ six coins
 </td>
 > [!todo] ---Sulawesi---
 <td>
-<span lang="mak">ᨕᨊ</span>\
-<span lang="mak-Latn">anang</span>[@MakassaarschWoordenboek p. 653]\
+<span lang="mak">ᨕᨊᨕᨊ</span>\
+<span lang="mak-Latn">anang-anang</span>[@MakassaarschWoordenboek 653]\
 six
 </td>
 <td>
@@ -4197,6 +4501,19 @@ chiselled six
 <td>
 <span lang="ms">lak putih</span>\
 white six
+</td>
+<td>
+<span lang="nan">六條</span>\
+<span lang="nan-Latn-pehoeji">la̍k tiâu</span>\
+six longs
+</td>
+<td>
+<span lang="ms">lak bambu</span>\
+six bamboo
+</td>
+<td>
+<span lang="ms">6 klejo</span>\
+?
 </td>
 <td>
 <span lang="ms">lak tâli</span>\
@@ -4251,7 +4568,7 @@ grilled sweet
 <td>
 <span lang="ban">ᬓᬼᬦ᭄ᬢᬾᬂ</span>\
 <span lang="ban-Latn">klenténg</span>\
-Chinese temple (onomatopœic: bells)[@IndonesianIdioms p. 160]
+Chinese temple (onomatopœic: bells)[@IndonesianIdioms 160]
 </td>
 <td>
 <span lang="ban">ᬧᭂᬗ᭄ᬓ</span>\
@@ -4280,8 +4597,6 @@ bamboo
 </td>
 > [!todo] ---Sulawesi---
 <td>
-<span lang="mak"></span>
-<span lang="mak-Latn"></span>
 </td>
 <td>
 <span lang="id">bêlah buluh</span>\
@@ -4331,6 +4646,19 @@ six people
 > [!todo] ---M/S---
 <td>
 <span lang="ms">lak ban</span>
+</td>
+<td>
+<span lang="nan">六萬</span>\
+<span lang="nan-Latn-pehoeji">la̍k bān</span>\
+six myriad
+</td>
+<td>
+<span lang="ms">lak orang</span>\
+six person
+</td>
+<td>
+<span lang="ms">6 orang</span>\
+6 person
 </td>
 <td>
 <span lang="ms">lak chantek</span>\
@@ -4428,8 +4756,8 @@ building [temple?]
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨅᨒ</span>\
-<span lang="mak-Latn">bala</span>[@MakassaarschWoordenboek p. 200]\
-house [see bottom of card]
+<span lang="mak-Latn">bala</span>[@MakassaarschWoordenboek 200]\
+house
 </td>
 <td>
 <span lang="id">lakban</span>
@@ -4458,6 +4786,12 @@ seven
 <td>
 <span lang="ms">jit</span>\
 (Hokkien <span lang="nan-Latn-pehoeji">chhit</span>)
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 </td>
 <td>
 <span lang="ms">chit</span>\
@@ -4558,6 +4892,19 @@ seven fans
 black or leaf seven
 </td>
 <td>
+<span lang="nan">七餅</span>\
+<span lang="nan-Latn-pehoeji">chhit piáⁿ</span>\
+seven rounds
+</td>
+<td>
+<span lang="ms">cit mendera</span>\
+seven ?
+</td>
+<td>
+<span lang="ms">7 sisir kero</span>\
+7 comb ?
+</td>
+<td>
 <span lang="ms">chit sûngkai</span>\
 <span lang="ms-Arab">چية سوڠكي</span>\
 <a href="https://en.wikipedia.org/wiki/Peronema"><cite lang="la">Peronema canescens</cite></a> (a leafy plant) seven
@@ -4652,7 +4999,7 @@ flag
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨅᨉᨙᨑ</span>\
-<span lang="mak-Latn">bandéra</span>[@MakassaarschWoordenboek p. 175]\
+<span lang="mak-Latn">bandéra</span>[@MakassaarschWoordenboek 175]\
 flag
 </td>
 <td>
@@ -4699,6 +5046,19 @@ seven birds
 <td>
 <span lang="ms">jit burung</span>\
 bird seven
+</td>
+<td>
+<span lang="nan">七條</span>\
+<span lang="nan-Latn-pehoeji">chhit tiâu</span>\
+seven longs
+</td>
+<td>
+<span lang="ms">cit burung</span>\
+bird seven
+</td>
+<td>
+<span lang="ms">7 sisir lintrik</span>\
+7 comb ?
 </td>
 <td>
 <span lang="ms">chit halus</span>\
@@ -4838,6 +5198,19 @@ seven people
 <span lang="ms">jit ban</span>
 </td>
 <td>
+<span lang="nan">七萬</span>\
+<span lang="nan-Latn-pehoeji">chhit bān</span>\
+seven myriad
+</td>
+<td>
+<span lang="ms">cit setan</span>\
+devil seven
+</td>
+<td>
+<span lang="ms">7 sisir cina</span>\
+7 Chinese comb
+</td>
+<td>
 <span lang="ms">chit kâsar</span>\
 <span lang="ms-Arab">چية كاسر</span>\
 coarse seven
@@ -4968,6 +5341,12 @@ eight
 (Hokkien <span lang="nan-Latn-pehoeji">poeh</span>)
 </td>
 <td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 <span lang="ms">mâta sâtu</span>\
 <span lang="ms-Arab">ماة ساتو</span>\
 one eye
@@ -5066,6 +5445,19 @@ eight eyes
 cockle eight
 </td>
 <td>
+<span lang="nan">八餅</span>\
+<span lang="nan-Latn-pehoeji">peh piáⁿ</span>\
+eight rounds
+</td>
+<td>
+<span lang="ms">pé delapan</span>\
+eight (Hokkien) eight (Malay)
+</td>
+<td>
+<span lang="ms">8 picis</span>\
+8 pennies
+</td>
+<td>
 <span lang="ms">mâta sâtu plong</span>\
 <span lang="ms-Arab">ماة ساتو ڤلوڠ</span>\
 ? one eye
@@ -5157,7 +5549,7 @@ eight
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨔᨁᨈᨘᨍᨘ</span>\
-<span lang="mak-Latn">sagantuju</span>[@MakassaarschWoordenboek p. 551]\
+<span lang="mak-Latn">sagantuju</span>[@MakassaarschWoordenboek 551]\
 eight
 </td>
 <td>
@@ -5211,6 +5603,19 @@ chiselled eight
 <span lang="ms">puek menak</span>\
 noble eight\
 (Menak is a title for an aristocrat.)
+</td>
+<td>
+<span lang="nan">八條</span>\
+<span lang="nan-Latn-pehoeji">peh tiâu</span>\
+eight longs
+</td>
+<td>
+<span lang="ms">péh manis</span>\
+eight sweet
+</td>
+<td>
+<span lang="ms">8 lintrik</span>\
+8 rows?
 </td>
 <td>
 <span lang="ms">mâta sâtu bengkok</span>\
@@ -5300,8 +5705,9 @@ sweet
 </td>
 > [!todo] ---Sulawesi---
 <td>
-<span lang="mak"></span>
-<span lang="mak-Latn"></span>
+<span lang="mak">ᨄᨙᨔᨚ</span>\
+<span lang="mak-Latn">peso</span>[@MakassaarschWoordenboek 140]\
+lame (probably by homonym)
 </td>
 <td>
 <span lang="id">manis</span>
@@ -5346,6 +5752,19 @@ eight people
 > [!todo] ---M/S---
 <td>
 <span lang="ms">puek ban</span>
+</td>
+<td>
+<span lang="nan">八萬</span>\
+<span lang="nan-Latn-pehoeji">peh bān</span>\
+eight myriad
+</td>
+<td>
+<span lang="ms">pé botak</span>\
+eight ?
+</td>
+<td>
+<span lang="ms">8 cina</span>\
+Chinese 8
 </td>
 <td>
 <span lang="ms">mâta sâtu kĕrbau</span>\
@@ -5473,6 +5892,12 @@ nine
 (Hokkien <span lang="nan-Latn-pehoeji">káu</span>)
 </td>
 <td>
+</td>
+<td>
+</td>
+<td>
+</td>
+<td>
 <span lang="ms">ânjing</span>\
 <span lang="ms-Arab">انجيڠ</span>\
 dog?
@@ -5569,6 +5994,19 @@ nine <a href="https://en.wikipedia.org/wiki/Diospyros_decandra"><cite>Diospyros 
 <td>
 <span lang="ms">kau hitam</span>\
 black nine
+</td>
+<td>
+<span lang="nan">九餅</span>\
+<span lang="nan-Latn-pehoeji">káu piáⁿ</span>\
+nine rounds
+</td>
+<td>
+<span lang="ms">kau glundung</span>\
+bald(?) nine
+</td>
+<td>
+<span lang="ms">9 glinding</span>\
+9 ?
 </td>
 <td>
 <span lang="ms">ânjing pîtis</span>\
@@ -5679,7 +6117,7 @@ a <a href="https://en.wikipedia.org/wiki/Gada_(mace)">mace</a>
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨑᨘᨄᨗᨐ</span>\
-<span lang="mak-Latn">rupiya</span>[@MakassaarschWoordenboek p. 440]\
+<span lang="mak-Latn">rupiya</span>[@MakassaarschWoordenboek 440]\
 rupees
 </td>
 <td>
@@ -5728,6 +6166,19 @@ red nine
 <td>
 <span lang="ms">kau merah</span>\
 red nine
+</td>
+<td>
+<span lang="nan">九條</span>\
+<span lang="nan-Latn-pehoeji">káu tiâu</span>\
+nine longs
+</td>
+<td>
+<span lang="ms">kau méra</span>\
+red nine
+</td>
+<td>
+<span lang="ms">9 lintrik</span>\
+9 rows?
 </td>
 <td>
 <span lang="ms">ânjing hâti</span>\
@@ -5829,7 +6280,7 @@ shining/red
 > [!todo] ---Sulawesi---
 <td>
 <span lang="mak">ᨀᨓᨚᨅ</span>\
-<span lang="mak-Latn">kawo-bang</span>[@MakassaarschWoordenboek p. 63]\
+<span lang="mak-Latn">kawo-bang</span>[@MakassaarschWoordenboek 63]\
 red nine?
 </td>
 <td>
@@ -5875,7 +6326,21 @@ nine people
 </td>
 > [!todo] ---M/S---
 <td>
-<span lang="ms">kau ban</span>
+<span lang="ms">kau ban</span>\
+nine myriad
+</td>
+<td>
+<span lang="nan">九萬</span>\
+<span lang="nan-Latn-pehoeji">káu bān</span>\
+nine myriad
+</td>
+<td>
+<span lang="ms">kau ronggeng</span>\
+dancing girl nine
+</td>
+<td>
+<span lang="ms">9 keang</span>\
+9 ?
 </td>
 <td>
 <span lang="ms">ânjing kau</span>\
@@ -5897,7 +6362,8 @@ genteel rope
 > [!todo] ---Java---
 <td>
 <span lang="jv">ꦒꦁꦕꦶꦤ</span>\
-<span lang="jv-Latn">gang cina</span>
+<span lang="jv-Latn">gang cina</span>\
+gap China
 </td>
 <td>
 <span lang="jv-Latn">keyang</span>
@@ -5965,8 +6431,9 @@ from Hokkien ‘nine’ (<span lang="nan-Latn">káu</span>)?
 </td>
 > [!todo] ---Sulawesi---
 <td>
-<span lang="mak"></span>
-<span lang="mak-Latn"></span>
+<span lang="mak">ᨁᨑᨗᨁᨗ</span>\
+<span lang="mak-Latn">garigi</span>[@MakassaarschWoordenboek 79]\
+? (by comparison with entries on right)
 </td>
 <td>
 <span lang="id">gargaji (baduri)</span>

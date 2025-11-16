@@ -6184,8 +6184,8 @@ BoegineeschWoordenboek:
   publisher-place: Amsterdam, The Netherlands
 MakassaarschWoordenboek:
   type: book
-  URL: https://books.google.co.nz/books?id=0qQDAAAAMAAJ
-  archive-URL: https://archive.org/details/b30095967
+  #URL: https://books.google.co.nz/books?id=0qQDAAAAMAAJ
+  URL: https://archive.org/details/b30095967
   title:
     value: Makassaarsch–Hollandsch woordenboek
     lang: nl
@@ -15358,6 +15358,19 @@ NativeGamesOfCentralAfrica:
     issued:
       month: 12
       year: 1913
+HistoryOfJava_1e:
+  type: book
+  URL: https://archive.org/details/b22012382_0001
+  title: The History of Java
+  volume: 1
+  edition: 1
+  publisher: John Murray
+  publisher-place: London
+  issued: 1817
+  author:
+  - given: Thomas Stamford
+    family: Raffles
+    url: https://en.wikipedia.org/wiki/Stamford_Raffles
 HistoryOfJava:
   type: book
   URL: https://archive.org/details/historyjava00raffgoog
@@ -22127,3 +22140,26 @@ SaundersPureLand:
     - given: Yukio
       family: Lippit
   URL: https://www.academia.edu/75843083/Birds_Flowers_and_Botany_in_Sakai_H%C5%8Ditsus_Pure_Land_Garden
+MalayGames:
+  type: article-journal
+  title: Malay Games
+  author:
+  - given: D. F. A.
+    family: Hervey
+  page: 284-304
+  in:
+    title: The Journal of the Anthropological Institute of Great Britain and Ireland
+    volume: 33
+    issued: 1903
+  URL: https://archive.org/details/sim_royal-anthropological-institute-of-great-britain-ireland_1903_33/page/284
+Pallegoix:
+  type: book
+  title:
+    value: Dictionarium linguae Thai, sive siamensis interpretatione latina, gallica et anglica illustratum
+    lang: la
+  author:
+  - family: Pallegoix
+    given: Jean Baptiste
+  URL: https://archive.org/details/ahq1047.0001.001.umich.edu
+  issued: 1854
+  publisher-place: Paris
