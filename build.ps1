@@ -57,8 +57,11 @@ function Resize-Images {
 
         # get sizes of raster formats, quickly
         $sizes = exiftool -json -ImageHeight -ImageWidth -r -q -ext jpg -ext jpeg -ext png . 2>$null | ConvertFrom-Json
+        Write-Host "Got sizes for $($sizes.Count) raster images"
+        # backfill them
         foreach ($size in $sizes) {
             # Starts with "./"
+            [System.Diagnostics.Debug]::Assert($size.SourceFile.StartsWith('./'))
             $path = $size.SourceFile.Substring(2)
             $target = $file_lookup[[uri]::EscapeUriString($path)]
             $target.width = $size.ImageWidth

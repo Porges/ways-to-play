@@ -274,12 +274,31 @@ The two distinct schools of playing-card games first combined in the form of <sp
 > license: "with-permission"
 > ```
 >
-> Some of the cards from a <span lang="ja-Latn">hana-awase</span> deck produced circa 1704 (at least before 1710). This type of deck originally contained 400 cards but many are missing, and the extant set pictured here comprises cards from several different packs. Note the chrysanthemum with <span lang="ja-Latn">sake</span> cup in the third card on the top row.
+> Some of the cards from a <span lang="ja-Latn">hana-awase</span> deck produced circa 1704 (at least before 1710, according to Ebashi). This type of deck originally contained 400 cards but many are missing, and the extant set pictured here comprises cards from several different packs. Note the chrysanthemum with <span lang="ja-Latn">sake</span> cup in the third card on the top row.
 
-While decks such as the above are obviously for a different style of game, most of the imagery that would become part of the <span
-lang="ja-Latn">hanafuda</span> deck was already present.
+While decks such as the above are obviously for a different style of game, most of the imagery that would become part of the <span lang="ja-Latn">hanafuda</span> deck was already present.
 
-At the moment it is unclear exactly how the <span class="noun" lang="ja-Latn">Hanafuda</span> deck was developed from the <span lang="ja-Latn">hana-awase</span> cards.[^fn0] It seems that at some point an enterprising manufacturer began to produce a stripped-down version that Japanese <span class="noun" lang="ja-Latn">Hanafuda</span> scholar <span class="noun" lang="ja-Latn">Ebashi Takashi</span> (<span lang="ja">江橋崇</span>) calls the <span class="noun" lang="ja-Latn">Musashino</span> (<span lang="ja">武蔵野</span>) deck. But because of the illegality of gaming at this time, evidence is scarce.
+> [!figure]
+>
+> ![](hanafuda-hanaawase05.jpg)
+>
+> ```yaml
+> noborder: true
+> size: "extra-wide"
+> copyrightYear: 2019
+> orgName: "Japan Playing Card Museum"
+> orgAbbr: "JPCM"
+> originalUrl: "http://jpcm.sub.jp/home/image/hanafuda-hanaawase05.pdf"
+> license: "with-permission"
+> ```
+>
+> Selecting only the 12 flowers used in <span lang="ja-Latn" class="noun">hanafuda</span> from the above <span lang="ja-Latn">hana-awase</span> deck shows that most of the imagery that would become part of the <span lang="ja-Latn" class="noun">hanafuda</span> deck was already present. Note, however, the peacock with peony in the 6th month and the rabbit in the 7th, neither of which appear in <span lang="ja-Latn" class="noun">hanafuda</span>.
+
+While “virtually all major painting lineages produced cycles of birds and flowers of the twelve months”,[@SaundersPureLand 127] it is unclear exactly where the _specific_ imagery of the cards derives from. The most famous 12-month “cycle” which pairs animals and plants is that of the poet Fujiwara no Teika (1162–1241),[^teika] but it does not correspond closely to the pairings which were selected for the deck.
+
+[^teika]: Teika’s pairings are: willow & bush warbler, cherry & pheasant, wisteria & skylark, deutzia & cuckoo, mandarin & moorhen, pinks & cormorant, maiden flower & magpies, bush clover & geese, eulalia & quail, chrysanthemum & crane, loquat & plover, and plum & waterfowl.[@SaundersPureLand 127] There is perhaps more alignment with the school of artists who followed the Qing (i.e. Chinese) artist [Shen Nanpin](https://en.wikipedia.org/wiki/Shen_Quan) (c. 1682–1760), whose works became popular in Japan in the Edo period; note, for example, Ishizaki Gensho’s <cite>Flowers and Birds after Shen Nanpin</cite> with its pairing of the phoenix & paulownia tree.[@SaundersPureLand 128–9] But even this is not a close match, and that particular combination is a feature of the [Kanō school](https://en.wikipedia.org/wiki/Kan%C5%8D_school). It is perhaps worth noting that [one <span lang="ja-Latn">hana-awase</span> deck](https://jpcm.sub.jp/home/image/hanafuda-hanaawase09.pdf) has been attributed to [Kanō Hōgai](https://en.wikipedia.org/wiki/Kan%C5%8D_H%C5%8Dgai) (1828–88).
+
+Thus, at the moment it is not obvious exactly how the <span class="noun" lang="ja-Latn">Hanafuda</span> deck was developed from the <span lang="ja-Latn">hana-awase</span> cards.[^fn0] It seems that at some point an enterprising manufacturer began to produce a stripped-down version that Japanese <span class="noun" lang="ja-Latn">Hanafuda</span> scholar <span class="noun" lang="ja-Latn">Ebashi Takashi</span> (<span lang="ja">江橋崇</span>) calls the <span class="noun" lang="ja-Latn">Musashino</span> (<span lang="ja">武蔵野</span>) deck, which should perhaps be considered a pattern in its own right. But because of the illegality of gaming at this time, evidence is scarce.
 
 [^fn0]: I hope to expand on this in future!
 
@@ -476,7 +495,7 @@ Before the mass-production era, <span class="noun" lang="ja-Latn">Hanafuda</span
 
 Traditional types of paper made from fibres such as paper mulberry (<span lang="ja-Latn">kōzo</span>)[^bark] were used in the construction process. Rougher, heavier paper was used for the internal core of the card, which would then be coated with higher quality white paper which had been printed with the black outlines using a woodblock press. Glue was also made heavier with the addition of powdered clay or stone, to give extra heft to the cards. After this, the colour of the cards was added using stencils and brushes, then the cards were cut and the rear of the cards back-pasted with contrasting paper, and the edges folded over. A final step in the process was to run the cards through a roller to polish them and provide the curvature expected by the players.
 
-[^bark]: _Not_, as is often incorrectly repeated, cards “painted upon mulberry tree bark” or “made from crushed mulberry bark”![@MasterOfPlay][@GinaShaw 6][@McAlpineChiptunes 103][@NicholsNintendo][@FirestoneNintendo 16][@BrownTetris][@ThomasNintendo 6][@GreenNintendo 6][@KohlerPowerUp 26] The best paper was made from the inner bark of paper mulberry, just as ‘normal’ paper is manufactured from wood such as pine — as if books are printed on “crushed pine”. Neither, for that matter, did Nintendō founder Fusajiro Yamauchi create paper from scratch with the power of his “will”, as described in @GameOverSheff [14] — which seems to be the original source that eventually transmuted into the mulberry-bark claim.
+[^bark]: _Not_, as is often incorrectly repeated, cards “painted upon mulberry tree bark”, made of “mulberry paste”, or “from crushed mulberry bark”![@MasterOfPlay][@GinaShaw 6][@McAlpineChiptunes 103][@NicholsNintendo][@FirestoneNintendo 16][@BrownTetris][@ThomasNintendo 6][@GreenNintendo 6][@KohlerPowerUp 26][@PlayingToWiin 3][@SutherlandNintendo 6][@Smartbomb][@SantosNintendo 9][@PercyDisruptors 111] The best paper was made from the inner bark of paper mulberry, just as ‘normal’ paper is manufactured from wood such as pine — as if books are printed on “crushed pine”. (@HouzeMythologies [157] gets the distinction correct!) Neither, for that matter, did Nintendō founder Fusajiro Yamauchi create paper from scratch with the power of his “will”, as described in @GameOverSheff [14] — which seems to be the original source that eventually transmuted into the mulberry-bark claim.
 
 At the end of the Edo period, these cards were often manufactured by <span lang="ja-Latn">kuge</span> nobles — the non-military aristocratic class which surrounded the court. Despite holding aristocratic rank they were often very poor:
 
@@ -1143,9 +1162,13 @@ Rather than <span lang="ja-Latn">hanami</span>, some older non-standard designs 
 >
 > Wisteria in bloom.
 
-The fourth month is represented by wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" lang="ja-Latn" file='pronunciation_ja_藤.mp3'>fuji</Pronounce>). These cards are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronounce pronouncer="usako_usagiclub" lang="ja-Latn" file="pronunciation_ja_黒豆.mp3">kuromame</Pronounce>), due to their appearance. This month shows the transition from spring to summer; the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronounce pronouncer="forsmith" lang="ja-Latn" file="pronunciation_ja_ホトトギス.mp3">hototogisu</Pronounce>) is a bird of summer,[@FourSeasons loc. 1065] while wisteria is associated with the passage of spring into summer;[@FourSeasons loc. 1021] it is also known as the ‘two-season plant’ (<span lang="ja">二季草</span> <span lang="ja-Latn">niki&shy;sō</span>). Like the bush warbler and spring, the first cry of the cuckoo was considered to announce the beginning of summer. By the time of the <span class="noun" lang="ja-Latn">Edo</span> period, this was perhaps more of a poetic dream than reality; the poet [<span class="noun" lang="ja-Latn">Buson</span>](https://en.wikipedia.org/wiki/Yosa_Buson) remarked that he had only heard the bird twice, despite living in Kyoto for 20 years.[@TheClassicTraditionOfHaiku 56]
+The fourth month is represented by wisteria (<span lang="ja">藤</span> <Pronounce pronouncer="kaoring" lang="ja-Latn" file='pronunciation_ja_藤.mp3'>fuji</Pronounce>), its cascading purple blooms paired with the lesser cuckoo (<span lang="ja">ホトトギス</span> <Pronounce pronouncer="forsmith" lang="ja-Latn" file="pronunciation_ja_ホトトギス.mp3">hototogisu</Pronounce>). Together they mark the transition from spring to summer: the cuckoo is a bird of summer,[@FourSeasons loc. 1065] while wisteria is associated with the passage of spring into summer;[@FourSeasons loc. 1021] it is also known as the ‘two-season plant’ (<span lang="ja">二季草</span> <span lang="ja-Latn">niki&shy;sō</span>).
+
+Like the bush warbler and spring, the first cry of the cuckoo was considered to announce the beginning of summer. By the time of the <span class="noun" lang="ja-Latn">Edo</span> period, this was perhaps more of a poetic dream than reality; the poet [<span class="noun" lang="ja-Latn">Buson</span>](https://en.wikipedia.org/wiki/Yosa_Buson) remarked that he had only heard the bird twice, despite living in Kyoto for 20 years.[@TheClassicTraditionOfHaiku 56]
 
 The cuckoo swooping in front of the moon is a common motif in Japanese art. It is tempting to claim that this may be a reference to the tale of <span class="noun" lang="ja-Latn">Yorimasa</span> from the <span class="noun" lang="ja-Latn">Heike Monogatari</span>,[@HeikeMonogatari pp. 161–3] but the oldest decks do not have a moon on this card.
+
+These cards are also nicknamed ‘black bean’ (<span lang="ja">黒豆</span> <Pronounce pronouncer="usako_usagiclub" lang="ja-Latn" file="pronunciation_ja_黒豆.mp3">kuromame</Pronounce>), due to their appearance, and in contrast to the ‘red bean’ cards of the 7th month.
 
 > [!figure]
 >

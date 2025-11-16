@@ -22038,3 +22038,92 @@ KohlerPowerUp:
   issued: 2016
   publisher: Courier Dover
   ISBN: '9780486801490'
+PlayingToWiin:
+  type: book
+  title: Playing to Wiin
+  subtitle: Nintendo and the Video Game Industry’s Greatest Comeback
+  author:
+  - given: Daniel
+    family: Sloan
+  publisher: John Wiley & Sons
+  issued: 2011
+  ISBN: '9780470826935'
+SutherlandNintendo:
+  type: book
+  title: The Story of Nintendo
+  author:
+  - given: Adam
+    family: Sutherland
+  issued: 2012
+  publisher: Rosen Publishing Group
+  ISBN: '9781448870967'
+  URL: https://books.google.com/books?id=a_xgEAAAQBAJ
+Smartbomb:
+  type: book
+  title: Smartbomb
+  subtitle: The Quest for Art, Entertainment, and Big Bucks in the Videogame Revolution
+  author:
+  - given: Heather
+    family: Chaplin
+  - given: Aaron
+    family: Ruby
+  issued: 2006
+  publisher: Hachette UK
+  ISBN: '9781565128354'
+  URL: https://books.google.com/books?id=tF7EEAAAQBAJ
+SantosNintendo:
+  type: article-magazine
+  title: The 100-Year Chronicles of Nintendo
+  author:
+  - given: Wayne
+    family: Santos
+  page: 8-12
+  in:
+    title: GameAxis Unwired
+    issue: 16
+    ISSN: '0219-872X'
+    issued:
+      year: 2004
+      month: 12
+  URL: https://books.google.com/books?id=HekDAAAAMBAJ&pg=PA9
+PercyDisruptors:
+  type: book
+  title: The Disruptors
+  subtitle: How 15 Successful Businesses Defied the Norm
+  author:
+  - given: Sally
+    family: Percy
+  issued: 2024
+  publisher: Kogan Page Publishers
+  ISBN: '9781398616493'
+  URL: https://books.google.com/books?id=qTQZEQAAQBAJ
+HouzeMythologies:
+  type: book
+  title: New Mythologies in Design and Culture
+  subtitle: Reading Signs and Symbols in the Visual Landscape
+  author:
+  - given: Rebecca
+    family: Houze
+  publisher: Bloomsbury Publishing
+  issued: 2016
+  ISBN: '9781474277716'
+  URL: https://books.google.com/books?id=YCy1CwAAQBAJ
+SaundersPureLand:
+  type: chapter
+  title: Birds, Flowers, and Botany in Sakai Hōitsu’s Pure Land Garden
+  author:
+  - given: Rachel
+    family: Saunders
+  page: 101-172
+  in:
+    title: Painting Edo
+    subtitle: Japanese Art from the Feinberg Collection
+    issued: 2020
+    ISBN: '978-0-300-25089-3'
+    publisher: Harvard Art Museums
+    author:
+    - given: Rachel
+      family: Saunders
+    - given: Yukio
+      family: Lippit
+  URL: https://www.academia.edu/75843083/Birds_Flowers_and_Botany_in_Sakai_H%C5%8Ditsus_Pure_Land_Garden
