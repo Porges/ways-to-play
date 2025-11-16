@@ -10,7 +10,7 @@ hero:
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-22
-date modified: 2025-02-15
+date modified: 2025-11-17
 aliases: [Japanese Hanafuda Brands]
 linter-yaml-title-alias: Japanese Hanafuda Brands
 ---
