@@ -15,16 +15,12 @@ aliases: [Japanese Hanafuda Brands]
 linter-yaml-title-alias: Japanese Hanafuda Brands
 ---
 # Japanese Hanafuda Brands
-## Identification
 
-The branding system of traditional <span class="noun" lang="ja-Latn">Hanafuda</span>
-manufacturers can be confusing. Generally the top of the container (whether a
-box or wrapper) will have a brand, which indicates the quality of the cards, and
-the <em>type</em> of cards is written on the front end of the container. For
-example, a box of <span class="noun" lang="ja-Latn">Nintendō</span> cards with Napoleon on
-the front indicates their highest-quality card, but it could contain either
-<span class="noun" lang="ja-Latn">Hanafuda</span> or <span class="noun" lang="ja-Latn">Kabufuda</span>
-cards.
+For over a century, dozens of Japanese manufacturers have produced <span class="noun" lang="ja-Latn">Hanafuda</span> cards, each competing for customers using distinctive branding and art styles. Understanding these manufacturers — their marks, brands, and histories — is essential for collectors, historians, and anyone seeking to identify and attempt to date vintage decks. This guide covers both current producers and the many extinct companies whose cards can still be found circulating today.
+
+## Identifying a Deck
+
+The branding system of traditional <span class="noun" lang="ja-Latn">Hanafuda</span> manufacturers can be confusing. Commonly, the top of the container (box or wrapper) displays a brand name which generally indicates the quality of the cards inside. Meanwhile the front end identifies the card <em>type</em>. For example, a box of <span class="noun" lang="ja-Latn">Nintendō</span> cards with a portrait of Napoleon on the top indicates that it contains their highest-quality cards, but that doesn’t prove what is inside: it could contain either <span class="noun" lang="ja-Latn">Hanafuda</span> or <span class="noun" lang="ja-Latn">Kabufuda</span> cards (it is worth noting that <span class="noun" lang="ja-Latn">Nintendō Mushi</span> cards often use a sticker on the top to indicate the box contents).
 
 > [!figure]
 >
@@ -36,14 +32,9 @@ cards.
 >
 > The end of a <span class="noun" lang="ja-Latn">Nintendō</span> wrapper indicating that it contains standard (<span lang="ja">八々花</span> <span lang="ja-Latn">hachihachibana</span>) Hanafuda cards, with black (<span lang="ja">黒</span>) backs.
 
-Traditionally, decks were boxed in sets of two, usually one with black backs and
-the other with red backs. The outer box containing the two decks would have a
-wider image on the front, and then each deck inside the box would be wrapped
-individually. An example wrapper is shown folded flat below. The front end of
-the box (at bottom right) is as discussed above. The sides of the box show the
-manufacturer’s other brands, and sometimes awards that they have won, and the
-back end of the box (at top left) usually has text about the manufacturer or a
-list of brands.
+Traditionally, decks were boxed in sets of two, usually pairing one deck with black backing paper along with another having red backing paper. The outer box containing the two decks side-by-side then has enough width to display a wider image on the front (often a variation of the box image), and each deck inside the box would be wrapped individually.
+
+An example wrapper for a deck is shown folded flat below. The front end of the box (at bottom right) is as discussed above. The sides of the wrapper display the packaging of other brands from the manufacturer and sometimes awards that they have won, and the rear end of the wrapper (at top left) usually has text about the manufacturer or a list of brands.
 
 > [!figure]
 >
@@ -54,9 +45,7 @@ list of brands.
 
 ### Manufacturer’s Marks
 
-Within the deck, the manufacturer’s name or mark is nowadays always on one of
-the Paulownia junk cards, but on older decks it can be on a Peony or Wisteria
-(for an example, see [below](#oishi-tengudo)), or another card entirely.
+Within the deck, the manufacturer’s name or mark typically appears on the yellow Paulownia “junk” card. On older decks, however, it might appear on a Peony or Wisteria (see [below](#oishi-tengudo) for an example), or even on an entirely different card.
 
 > [!figure]
 >
@@ -67,14 +56,20 @@ the Paulownia junk cards, but on older decks it can be on a Peony or Wisteria
 > size: "small"
 > ```
 >
-> Manufacturer’s marks from <span class="noun" lang="ja-Latn">Nintendō</span>, Angel, and <span class="noun" lang="ja-Latn">Maruē</span>.
+> Examples of manufacturer’s marks as they appear on the Paulownia card (from left to right): <span class="noun" lang="ja-Latn">Nintendō</span>, Angel, and <span class="noun" lang="ja-Latn">Maruē</span>.
 
+Manufacturer’s marks typically consist of a character enclosed within a geometric shape. The character might be a simplified version of the company name,[^direction] or some other favourable term. When spoken aloud, both the shape and the character are ‘read’ together, so that <span class="noun" lang="ja-Latn">Nintendō</span>’s mark — a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle — is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “[Circle K](https://en.wikipedia.org/wiki/Circle_K)”.
 
-Often the mark is a simplified version of the name,[^direction] or a different <span lang="ja-Latn">kanji</span>, usually combined with a geometric shape. When pronouncing the mark the shape is usually also ‘read’, so that <span class="noun" lang="ja-Latn">Nintendō</span>’s mark—a stylized <span lang="ja">福</span> (<span lang="ja-Latn">fuku</span> ‘good fortune’) inside a circle—is read <span lang="ja-Latn">maru-fuku</span> ‘circle-fuku’, much like the brand “[Circle K](https://en.wikipedia.org/wiki/Circle_K)”. The same can also be done with the square  (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), a corner at top-right (┐) can be described as a carpenter’s square  (<span lang="ja">矩 </span> <span lang="ja-Latn">kane</span>), and a corner pointing upwards (∧) is called a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
+Common shapes include: the circle (<span lang="ja">丸</span> <span lang="ja-Latn">maru</span>), square (<span lang="ja">角</span> <span lang="ja-Latn">kaku</span>), carpenter’s square or corner at top-right (┐) (<span lang="ja">矩 </span> <span lang="ja-Latn">kane</span>), and an upward-pointing corner (∧), referred to as a mountain (<span lang="ja">山</span> <span lang="ja-Latn">yama</span>).
+
+However, there are many exceptions to these conventions, and some manufacturers use symbols that function more like logos.
 
 [^direction]: Also be aware that Japanese can be written in either direction; @OstasiatischeSpielkarten [p. 136] describes a deck made by a mysterious manufacturer named ‘<span class="noun" lang="ja-Latn">Dōtennin</span>’!
 
 ### Index of Marks
+
+The following index provides quick navigation to each manufacturer’s section based upon their specific maker’s mark(s). Click any symbol to jump straight to the detailed entry:
+
 <div class="multi text-center">
 <div>
 <a href="#nintendo"><img src='/small-images/marufuku.svg' class="inline-img big" alt="The Marufuku symbol" />\
@@ -249,9 +244,7 @@ Ace</a>
 
 ### Dating Decks
 
-Dating old decks can be difficult. As manufacturers have not published any
-information about when certain brands or decks were produced, we can only go via
-public information. Some suggested methods are:
+Dating old decks can be difficult, as manufacturers have published little information about when certain brands or patterns were produced. Thus, we can only go via publicly-available information. However, several clues can help to narrow down the age of a deck:
 
 > [!figure]
 >
@@ -265,33 +258,18 @@ public information. Some suggested methods are:
 > A <span class="noun" lang="ja-Latn">Nintendō</span> blank card indicating the date of manufacture (2012–01–24).
 
 
-* With recent <span class="noun" lang="ja-Latn">Nintendō</span> decks, the blank card
-  included has a 6-digit date of manufacture printed on it. This is the only
-  case I know where the date is explicitly marked.
-* Otherwise, the most accurate method of dating is to use tax stamps (see
-  below), if the deck has any still present. This only works for decks produced
-  up to 1989, when the tax on playing-cards was removed.
-* For more recent decks, barcodes can give some clues: Japanese barcodes
-  beginning with <span class="barcode">49⋯</span> have been used since 1978, but
-  barcodes beginning with <span class="barcode">45⋯</span> were introduced in
-  1992.
-* Japanese written in a right-to-left ordering generally indicates that the deck
-  would have been made before the end of <abbr title="World War Two">WWII</abbr>
-  (from here on, I use the term ‘pre-war’). Thus, <span lang="ja">任天堂</span>
-  is written <bdo dir="rtl" lang="ja">任天堂</bdo> on very old decks.
-  <em>However</em>, some manufacturers such as <span class="noun" lang="ja-Latn">Ōishi
-  Tengudō</span> or <span class="noun" lang="ja-Latn">Nihon Karuta</span> have persisted in
-  using right-to-left ordering even into the present era.
+* **Explicit dates**: on recent <span class="noun" lang="ja-Latn">Nintendō</span> decks, the blank card included has a 6-digit date of manufacture printed on it. This is the only case I know where the date is explicitly marked.
+* **Tax stamps**: the most reliable dating method for older is to examine their tax stamps (see below), if the deck has any still present. This works for decks produced from 1902 up until the playing-card tax was abolished in 1989.
+* **Text direction**: Japanese text written right-to-left generally indicates that the deck was made before the end of <abbr title="World War Two">WWII</abbr> (from here on, I use the term ‘pre-war’). Thus, <span lang="ja">任天堂</span> is written <bdo dir="rtl" lang="ja">任天堂</bdo> on very old decks. <em>However</em>, some manufacturers (such as <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> or <span class="noun" lang="ja-Latn">Nihon Karuta</span>) have persisted in using right-to-left ordering even into the modern era, so this indication must be used with caution.
+* **Barcodes**: for more recent decks, barcodes can give some clues: Japanese barcodes beginning with <span class="barcode">49⋯</span> have been used since 1978, but barcodes beginning with <span class="barcode">45⋯</span> were introduced in 1992.
 
 ### Tax Stamps
 
-For most of the 20th century, <span class="noun" lang="ja-Latn">Hanafuda</span> cards were
-taxed by the Japanese government. This tax has changed over time and thus can be
-used to identify the time period during which a deck was sold.
+For most of the 20th century, <span class="noun" lang="ja-Latn">Hanafuda</span> cards were taxed by the Japanese government. Because the tax rate changed frequently, stamps can help to identify when a deck was sold. Unfortunately, many second-hand decks will not retain the tax stamps that were present at the time they were purchased.
 
-The following table is summarized from [a series of
+The following table summarizes the tax rates over time, based on [a series of
 articles](https://japanplayingcardmuseum.com/category/0-0-cartatax-law-history/)
-provided by <span class="noun" lang="ja-Latn">Ebashi</span> on his website:
+provided by <span class="noun" lang="ja-Latn">Ebashi</span>:
 
 <table class="numeric">
 <caption>
@@ -496,11 +474,7 @@ Tax levied on <span class="noun" lang="ja-Latn">Hanafuda</span> sets over time.
 
 ## Current Manufacturers
 
-All current Japanese manufacturers that I know of are based in <span class="noun"
-lang="ja-Latn">Kyōto</span> prefecture. The <span class="noun" lang="ja-Latn">Kansai</span>
-region (which contains both <span class="noun" lang="ja-Latn">Kyōto</span> and <span class="noun"
-lang="ja-Latn">Ōsaka</span>) is the original source of <span class="noun"
-lang="ja-Latn">Hanafuda</span> cards.
+All current Japanese manufacturers that I know of are based in <span class="noun" lang="ja-Latn">Kyōto</span> prefecture. This continues a long tradition: the <span class="noun" lang="ja-Latn">Kansai</span> region (which includes both <span class="noun" lang="ja-Latn">Kyōto</span> and <span class="noun" lang="ja-Latn">Ōsaka</span>) has been the centre of <span class="noun" lang="ja-Latn">Hanafuda</span> production since the appearance of the cards.
 
 ### <img src='/small-images/marufuku.svg' alt="" class="inline-img" /> <span id="nintendo" class="noun" lang="ja-Latn">Nintendō</span> (<span lang="ja">任天堂</span>)
 
@@ -517,17 +491,9 @@ lang="ja-Latn">Hanafuda</span> cards.
 >
 > <span class="noun" lang="ja-Latn">Nintendō</span>’s <span lang="ja-Latn">marufuku</span> mark, registered in 1900 by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō</span>.[@Trademarks1905 p. 67]
 
-<span class="noun" lang="ja-Latn">Nintendō</span> is the most prominent company that produces
-<span class="noun" lang="ja-Latn">Hanafuda</span> cards today. The company was founded in
-<span class="noun" lang="ja-Latn">Kyōto</span> in 1889 by <span class="noun" lang="ja-Latn">Yamauchi
-Fusajirō</span> (<span lang="ja">山内房治郎</span>), and it was run by the <span class="noun"
-lang="ja-Latn">Yamauchi</span> family for three generations until <span class="noun"
-lang="ja-Latn">Yamauchi Hiroshi</span> (<span lang="ja">山内溥</span>) stepped
-down in 2002.
+<span class="noun" lang="ja-Latn">Nintendō</span> is the most prominent company that produces <span class="noun" lang="ja-Latn">Hanafuda</span> cards today. The company was founded in <span class="noun" lang="ja-Latn">Kyōto</span> in 1889 by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō</span> (<span lang="ja">山内房治郎</span>), and it was run by the <span class="noun" lang="ja-Latn">Yamauchi</span> family for three generations until <span class="noun" lang="ja-Latn">Yamauchi Hiroshi</span> (<span lang="ja">山内溥</span>) stepped down in 2002.
 
-> [!todo]: this seems dubious.
->
-> In the early days of the company,  <span class="noun" lang="ja-Latn">Fusajirō</span> joined forces with the “tobacco king” <span class="noun" lang="ja-Latn">Murai Kichibei</span> (<span lang="ja">村井吉兵衛</span>) who had founded the <span class="noun" lang="ja-Latn">Murai</span> Brothers tobacco company in 1892. Like <span class="noun" lang="ja-Latn">Nintendō</span>, who were one of the first companies to produce Western-style cards in Japan, <span class="noun" lang="ja-Latn">Murai</span> Bros. was a company that was incorporating Western elements: they were operating in conjunction with American tobacco companies, and many of their cigarette brands bore English titles. Together the two companies invested to purchase printing equipment from an American company in New York that had been taken over by the <abbr title="United States Playing Card Company">USPCC</abbr>, and formed a venture called “Tōyō Printing”[^fn0] (<span lang="ja">東洋印刷</span>).[@EbashiCigaretteCards]
+> [!todo]: the following information seems dubious.
 >
 > :[^fn0] In some sources this is given in its translated form as the “Oriental Printing Company”.
 >
@@ -543,13 +509,9 @@ down in 2002.
 >
 > :[^fn1] <span class="noun" lang="ja-Latn">Kichibei</span> was compensated massively for being pushed out of the industry and later founded a bank, among many other enterprises.[@JapanInTheTaishoEra p. 632]
 
-A too-brief summary of their later success: after WWII, <span class="noun" lang="ja-Latn">Nintendō</span> managed to survive a period of crushing taxation on playing-card products, which wiped out many of the smaller manufacturers. In the second half of the 20th century they (famously!) diversified into children’s toys and, later on, video games.
+A brief summary of their later success: after WWII, <span class="noun" lang="ja-Latn">Nintendō</span> managed to survive a period of crushing taxation on playing-card products, which wiped out many of the smaller manufacturers. In the second half of the 20th century they (famously!) diversified into children’s toys and, later on, video games.
 
-<span class="noun" lang="ja-Latn">Nintendō</span>’s manufacturers mark is a circled <span
-lang="ja" class="circled">福</span> (<span lang="ja-Latn">fuku</span>,
-‘fortune’). This was originally the trade-name (<span lang="ja">屋号</span>
-[<span lang="ja-Latn">yagō</span>](https://en.wikipedia.org/wiki/Yag%C5%8D)) of
-the <span class="noun" lang="ja-Latn">Yamauchi</span> family.
+<span class="noun" lang="ja-Latn">Nintendō</span>’s manufacturer’s mark is a circled <span lang="ja" class="circled">福</span> (<span lang="ja-Latn">fuku</span>, ‘fortune’). This was originally the trade-name (<span lang="ja">屋号</span> [<span lang="ja-Latn">yagō</span>](https://en.wikipedia.org/wiki/Yag%C5%8D)) of the <span class="noun" lang="ja-Latn">Yamauchi</span> family.
 
 > [!figure]
 >
@@ -578,20 +540,12 @@ the <span class="noun" lang="ja-Latn">Yamauchi</span> family.
 >
 > Some early <span class="noun" lang="ja-Latn">Nintendō</span> trademarks, registered in 1900 by <span class="noun" lang="ja-Latn">Yamauchi Fusajirō</span>.[@Trademarks1905 p. 67] Note that at this time <span class="noun" lang="ja-Latn">Nintendō</span> had not yet started using the stylized form of the <span lang="ja-Latn">marufuku</span> symbol.
 
-In the past <span class="noun" lang="ja-Latn">Nintendō</span> produced many varieties of
-local cards or <span class="noun" lang="ja-Latn">Mekuri</span> cards, but today they only
-produce <span class="noun" lang="ja-Latn">Hanafuda</span> and <span class="noun"
-lang="ja-Latn">Kabufuda</span> cards. Their current brands are: <span
-lang="ja-Latn">Daitōryō</span> <span lang="ja">大統領</span> (featuring a
-picture of Napoleon); <span lang="ja-Latn">Marufuku Tengu</span> <span
-lang="ja">丸福天狗</span>; and <span lang="ja-Latn">Miyako no Hana</span> <span
-lang="ja">都の花</span> ‘flowers of the city’.
+In the past <span class="noun" lang="ja-Latn">Nintendō</span> produced many varieties of local-pattern <span class="noun" lang="ja-Latn">Hanafuda</span> cards or <span class="noun" lang="ja-Latn">Mekuri</span> cards, but today they only produce <span class="noun" lang="ja-Latn">Hanafuda</span> and <span class="noun" lang="ja-Latn">Kabufuda</span> cards. Their current brands are:
 
+* <span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a translation of ‘first consul’, Napoleon’s title from 1799–1804), trademarked in 1901[@Trademarks1905 p. 67]
+* <span lang="ja">(丸福)天狗</span> (<span lang="ja-Latn">(Marufuku)tengu</span>, ‘Marufuku [<span class="noun" lang="ja-Latn">Tengu</span>](https://en.wikipedia.org/wiki/Tengu)’), trademarked in 1912[@Trademarks1924_5 p. 276]
+* <span lang="ja">都の花</span> (<span lang="ja-Latn">Miyako no Hana</span>  ‘flowers of the city’); presumably Kyōto
 
-* <span lang="ja">大統領</span> (<span lang="ja-Latn">daitōryō</span>, a
-  translation of ‘first consul’, Napoleon’s title from 1799–1804), trademarked
-  in 1901[@Trademarks1905 p. 67]
-* <span lang="ja">天狗</span> (<span lang="ja-Latn">tengu</span>, ‘[<span class="noun" lang="ja-Latn">Tengu</span>](https://en.wikipedia.org/wiki/Tengu)’), trademarked in 1912[@Trademarks1924_5 p. 276]
 
 <div class="multi">
 > [!figure]
@@ -614,8 +568,7 @@ lang="ja">都の花</span> ‘flowers of the city’.
 
 </div>
 
-Other <span class="noun" lang="ja-Latn">Nintendō</span> <span class="noun" lang="ja-Latn">Hanafuda</span>
-brands have included:[@ModernJapaneseWrappers p. 54]
+Brands which <span class="noun" lang="ja-Latn">Nintendō</span> used to produce in the past include:[@ModernJapaneseWrappers 54]
 
 > [!figure]
 >
@@ -632,9 +585,8 @@ brands have included:[@ModernJapaneseWrappers p. 54]
 >
 > <span class="noun" lang="ja-Latn">Otafuku</span> (also known as <span class="noun" lang="ja-Latn">Okame</span>) is a traditional character associated with good luck, and often appears in <span lang="ja-Latn">kagura</span> performances alongside [<span class="noun" lang="ja-Latn">Hyottoko</span>](https://en.wikipedia.org/wiki/Hyottoko).
 
-
-* <span lang="ja">正宗</span> (<span lang="ja-Latn">Masamune</span>, [a famous swordsmith](https://en.wikipedia.org/wiki/Masamune)), trademarked in 1900[@Trademarks1905 p. 67]; no photograph, see trademark at right
-* <span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’), trademarked in 1900[@Trademarks1905 p. 67]; no photograph, see trademark at right
+* <span lang="ja">正宗</span> (<span lang="ja-Latn">Masamune</span>, [a famous swordsmith](https://en.wikipedia.org/wiki/Masamune)), trademarked in 1900[@Trademarks1905 p. 67]; see trademark at right
+* <span lang="ja">大将</span> (<span lang="ja-Latn">taishō</span>, ‘general’), trademarked in 1900[@Trademarks1905 p. 67]; see trademark at right
 * <span lang="ja">お多福</span> (<span lang="ja-Latn">otafuku</span>, ‘moon-faced woman’), trademarked in 1900[@Trademarks1905 p. 67]
 * <span lang="ja">大天狗</span> (<span lang="ja-Latn">daitengu</span>, the most powerful or chief type of <span class="noun" lang="ja-Latn">Tengu</span>), introduced in 1977
 * <span lang="ja">平安</span> (<span lang="ja-Latn">heian</span>, ‘peace’, also [a Japanese era name](https://en.wikipedia.org/wiki/Heian_period))
@@ -984,12 +936,9 @@ older cards, such as the <span class="noun" lang="ja-Latn">Unsun</span> deck.
 > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s manufacturer’s mark, on a Wisteria card from an old <span class="noun" lang="ja-Latn">Narikin</span> deck.
 
 
-Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top,
-but on some decks (e.g. <span class="noun" lang="ja-Latn">Echigo-kobana</span>), they have
-used <span lang="ja">大</span> in a square. In the past they have also used
-circled <span class="circled" lang="ja">高</span>. Brands produced by <span class="noun"
-lang="ja-Latn">Ōishi Tengudō</span> have included:[@ModernJapaneseWrappers pp.
-57–8]
+Their main manufacturer’s mark is <span lang="ja">み</span> with corner at top, but on some decks (e.g. <span class="noun" lang="ja-Latn">Echigo-kobana</span>), they have used <span lang="ja">大</span> in a square. In the past they have also used circled <span class="circled" lang="ja">高</span>.
+
+<span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s product line has featured the following brands:[@ModernJapaneseWrappers pp. 57–8]
 
 > [!figure]
 >
@@ -1147,7 +1096,7 @@ Angel currently produces <span class="noun" lang="ja-Latn">Hanafuda</span> and <
 * <span lang="ja">千鳥</span> (<span lang="ja-Latn">chidori</span> ‘numerous birds’)
 * <span lang="ja">元禄</span> (<span lang="ja-Latn">Genroku</span>, an era which spanned 1688–1704)
 
-Other brands produced in the past included:[@ModernJapaneseWrappers p. 45]
+Historical brands include:[@ModernJapaneseWrappers p. 45]
 
 * <span lang="ja">玉将</span> (<span lang="ja-Latn">gyokushō</span>, ‘king of the lesser player’, a <span class="noun" lang="ja-Latn">Shōgi</span> term)
 * <span lang="ja">翁</span> (<span lang="ja-Latn">okina</span>, ‘old man’, the name of [a special ritual <span class="noun" lang="ja-Latn">Noh</span> play](https://www.the-noh.com/en/plays/data/program_067.html))
@@ -1287,7 +1236,7 @@ They also print a revised pattern, <span class="noun" lang="ja-Latn">Nishiki</sp
 
 ## Extinct Manufacturers
 
-These are producers that do not exist any more.
+The following manufactuerers were once producers of <span class="noun" lang="ja-Latn">Hanafuda</span> cards but have since ceased production. Many of their decks can still be found circulating.
 
 ### <img src='/small-images/kakumatsu.svg' alt="" class="inline-img" /> <span id="matsui-tengudo" class="noun" lang="ja-Latn">Matsui Tengudō</span> (<span lang="ja">松井天狗堂</span>)
 
@@ -1320,8 +1269,9 @@ Since closing, <span class="noun" lang="ja-Latn">Matsui Tengudō</span> decks no
 >
 > The 5 Bright cards from a deck produced by <span class="noun" lang="ja-Latn">Matsui Shigeo</span> to demonstrate his printing technique (1978). This deck was produced as part of a demonstration for members of the International Playing Card Society.
 
-<span class="noun" lang="ja-Latn">Matsui</span>’s mark was <span lang="ja">松</span> in a
-square, and brands included:
+<span class="noun" lang="ja-Latn">Matsui</span>’s mark was <span lang="ja">松</span> in a square.
+
+Known brands produced were:
 
 * <span lang="ja">鳳凰</span> (<span lang="ja-Latn">hōō</span>, the Japanese phoenix)
 * <span lang="ja">龍虎</span> (<span lang="ja-Latn">ryū ko</span>, ‘dragon and tiger’), also used for <span class="noun" lang="ja-Latn">Kabu</span>, <span class="noun" lang="ja-Latn">Tehonbiki</span>, and <span class="noun" lang="ja-Latn">Komaru</span> cards
@@ -1358,10 +1308,7 @@ square, and brands included:
 > The <span lang="ja-Latn">fujizakura</span> wrapper.
 
 
-<span class="noun" lang="ja-Latn">Matsui</span> also produced custom extended <span class="noun"
-lang="ja-Latn">Hanafuda</span> decks with 13 and 14 months, which can be used to
-play games with more people. The 13-month deck features bamboo as the additional
-suit, while the 14-month deck has both bamboo and lotus.
+<span class="noun" lang="ja-Latn">Matsui</span> also produced custom extended <span class="noun" lang="ja-Latn">Hanafuda</span> decks with 13 and 14 months, which can be used to play games with more people. The 13-month deck features bamboo as the additional suit, while the 14-month deck has both bamboo and lotus.
 
 > [!figure]
 >
@@ -1491,7 +1438,6 @@ lang="ja-Latn">hana</span>, making this mark very punny.
 > ```
 >
 > Box for the <span class="noun" lang="ja-Latn">Kinjishi</span> brand.
-
 
 Brands produced by <span class="noun" lang="ja-Latn">Maruē</span> included:[@ModernJapaneseWrappers p. 52]
 
@@ -1875,7 +1821,7 @@ A <span class="noun" lang="ja-Latn">Kyōto</span> manufacturer that existed from
 
 In addition to <span lang="ja-Latn" class="noun">Hanafuda</span> cards, they also produced <span lang="ja-Latn" class="noun">Kabufuda</span> and <span lang="ja-Latn" class="noun">Mekuri</span> cards.
 
-Their brands included:
+Brands of both companies have included:
 
 * <span lang="ja">金坊主</span> (<span lang="ja-Latn">kinbōzu</span>, ‘gold
   baldy’, ‘baldy’ being a nickname for a priest)
@@ -2022,7 +1968,7 @@ square.
 > Wrapper, maker’s mark (on Wisteria), and advertising card from a <span lang="ja-Latn">dai&shy;tengu</span> deck.
 
 
-In the 1930s their brands included (in descending price order):
+In the 1930s they offered the following brands (in descending price order):
 
 * <span lang="ja">花の譽</span> (<span lang="ja-Latn">hana no homare</span>, ‘flower’s honour’)
 * <span lang="ja">福天狗</span> (<span lang="ja-Latn">fuku&shy;tengu</span>, ‘lucky <span lang="ja-Latn">tengu</span>’), also used for <span lang="ja-Latn">mushi-</span>, <span lang="ja-Latn">kabu-</span>, <span lang="ja-Latn">mekuri-</span>, and <span lang="ja-Latn">mamefuda</span>
@@ -2602,7 +2548,7 @@ A manufacturer that has a very finely-detailed deck of cards reproduced in
 
 <span class="noun" lang="ja-Latn">Nihon Goraku</span> was founded in 1945 as <span class="noun" lang="ja-Latn">Takahashi Shōten</span> (<span lang="ja">高橋商店</span>), was renamed <span class="noun" lang="ja-Latn">Nishinihon Koppai</span> (<span lang="ja">西日本骨 牌</span>) in 1966, and became <span class="noun" lang="ja-Latn">Nihon Goraku</span> in 1968.[@NihonGoraku] They were based in <span class="noun" lang="ja-Latn">Shinhama</span>, [<span class="noun" lang="ja-Latn">Onomichi</span> city](https://en.wikipedia.org/wiki/Onomichi,_Hiroshima), <span class="noun" lang="ja-Latn">Hiroshima</span> (<span lang="ja">広島県尾道市新浜</span>), and originally had their cards manufactured by <span class="noun" lang="">Kyōto Karuta</span>. Nowadays the company imports musical instruments.
 
-Their mark was circled <span lang="ja">娯</span>, and brands included:
+Their mark was a circled <span lang="ja">娯</span>. Their brands were:
 
 * <span lang="ja">山伏</span> (<span lang="ja-Latn">yamabushi</span>, a mountain-dwelling hermit, practitioner of [<span class="noun" lang="ja-Latn">Shugendō</span>](https://en.wikipedia.org/wiki/Shugend%C5%8D))
 * <span lang="ja">福の神</span> (<span lang="ja-Latn">fuku no kami</span>, ‘god of fortune’, the name of a recurring character in [<span lang="ja-Latn">kyōgen</span>](https://en.wikipedia.org/wiki/Ky%C5%8Dgen) and also the title of a play)
@@ -2823,8 +2769,7 @@ Alaska was a playing-card company that also manufactured some hana-trump decks. 
 
 ## Unknown
 
-The following brands are by unknown manufacturers. Any help identifying them
-would be greatly appreciated!
+The following brands appear on decks whos manufacturers who have not yet been identified. If you have information about any of these feel free to contact me to help complete this catalogue.
 
 * <span lang="ja">𛂁𛁲゙𛁈𛀸</span>/<span lang="ja">な𛁲゙𛁈𛀸</span>/<span lang="ja">なでしこ</span> (<span lang="ja-Latn">nadeshiko</span>, ‘pink’ (the flower))
 * <span lang="ja">勝力士</span> (<span lang="ja-Latn">katsu rikishi</span>, ‘winning sumo wrestler’)
