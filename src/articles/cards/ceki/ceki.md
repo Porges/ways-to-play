@@ -18,9 +18,13 @@ linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
 
-Ceki (Javanese <span lang="jv">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>), Chi Kee/Cherki, or Koa cards are widely used in Indonesia and parts of Malaysia and Singapore.
+Ceki cards are traditional playing cards that are still widely used in Indonesia, and to a lesser extent in Malaysia and Singapore. The name Ceki (Javanese <span lang="jv">ꦕꦼꦏꦶ</span>, Balinese <span lang="ban">ᬘᭂᬓᬶ</span>) also appears as Chi Kee, Cherki, or Koa, depending on region and language.
 
-They were originally derived from Chinese 3-suited money cards (particularly the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
+The cards were originally derived from Chinese 3-suited money cards (particularly of the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
+
+Games that used these type of cards were originally played throughout the Malaysian Archipelago. They are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity 555] Although these type of cards are not referred to in Thailand as “ceki” cards, I include them in the discussion below for comparison purposes.
+
+## Names and Terminology
 
 “Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong) cards’). They are sometimes also referred to as <span lang="id">kartu jawa</span> (“Javan cards”) in other parts of Indonesia.
 
@@ -32,15 +36,11 @@ They were originally derived from Chinese 3-suited money cards (particularly the
 
 [^daun]: <span lang="ms">Daun</span>, literally meaning ‘leaf’, is nearly equivalent in usage to the Hokkien <span lang="nan">枝</span>, meaning twig or cards, or other long objects. Thus the full expansion of <span lang="ms">daun ceki</span> is somewhat tautological, meaning “one-card cards”.
 
-The cards might also have been referred to in the past in Malay as <span lang="ms">kiya</span>[^kiya] or <span lang="ms">kiya-kiya</span>, meaning ‘fish’. This could refer to the fish symbology which is used on some decks of Chinese origin, or is actually derived from the Hokkien <span lang="nan">枝仔</span> <span lang="nan-Latn-pehoeji">ki-á</span>, “twigs”.[^cjk]
+The cards might also have been referred to in the past in Malay as <span lang="ms">kiya</span>[^kiya] or <span lang="ms">kiya-kiya</span>, meaning ‘fish’. I have two ideas about how this came about: it could refer to the fish symbology which is used on some decks of Chinese origin, or it could be derived from the Hokkien <span lang="nan">枝仔</span> <span lang="nan-Latn-pehoeji">ki-á</span>, “twigs”.[^cjk] Several games also carry fishing-themed names so it could also be in reference to that.
 
 [^cjk]: The name <span lang="nan">十二枝仔</span> is also used for [Chap Ji Ki](games/chap-ji-ki/chap-ji-ki.md).[@ChineseLoanwordsSchlegel 397]
 
 [^kiya]: <span lang="ms">Kija</span> or <span lang="ms-Arab">كيا</span>[@Pijnappel II, 96] in older orthographies.
-
-Games that used these type of cards were originally played throughout the Malaysian Archipelago. They are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity p. 555]
-
-Although these type of cards are not referred to in Thailand as “ceki” cards, I include them in the discussion below for comparison.
 
 At some point they were also called “8–9 cards”, in Malay <span lang="ms-Latn">pakau-pakau</span> (<span lang="ms-Arab"><bdi>باكو٢</bdi></span>,[^pekak] literally ‘8–9s’, which adapts the names of Chinese numerals).[@Pijnappel1 161] A similar name was also known in Thailand — <span lang="th">ไพ่แปดเก้า</span> <span lang="th-Latn">phai paet kao</span>,[@PaiPhong1967 9] literally “8–9 cards”[^thai] — so it might be a Hokkien/Teochew name that eventually disappeared.[^oicho-kabu]
 
@@ -158,35 +158,35 @@ These terms might come from a Chinese language term for the number nine, which i
 
 ## The Deck
 
-The cards run <Cards>1–9</Cards> in three suits, and there are three ‘honour cards’, giving 30 different cards. Each deck, or <span lang="ms">kepala</span> (literally ‘head’, Javanese <span lang="jv">ꦏꦥꦭ</span> <span lang="jv-Latn">kapala</span>), contains two copies of each card, giving 60 total. In Banyuwangi, Java it is called a <span lang="jv">ꦫꦚ꧀ꦕꦏ꧀</span> <span lang="jv-Latn">rancak</span> ‘piece of wood’ or ‘set of instruments’.[@JavaanseKaartspelen p. 74] In Thai a deck is called a <span lang="th">สํารับ</span> <span lang="th-Latn">sam&shy;rap</span> (literally ‘condiment tray’). Many Ceki games require multiple <span lang="ms">kepala</span> to play, often two sets (giving 120 cards).
+Each deck, or <span lang="ms">kepala</span> (literally ‘head’, Javanese <span lang="jv">ꦏꦥꦭ</span> <span lang="jv-Latn">kapala</span>), contains 60 cards: 30 unique cards, each appearing twice. The 30 cards comprise three suits running from <Cards>1–9</Cards> (27 cards), along with three ‘honour cards’ (two of which are marked with red stamps). Many Ceki games require multiple <span lang="ms">kepala</span> to play, often two sets (giving 120 cards).
 
-The three suits have various names.[@ChikiCards p. 119] ‘Coins’, ‘strings’, and
-‘myriads’ are the terms I use for consistency across different types of
-money-suited cards.
+In Banyuwangi, Java a deck is referred to as a <span lang="jv">ꦫꦚ꧀ꦕꦏ꧀</span> <span lang="jv-Latn">rancak</span> ‘piece of wood’ or ‘set of instruments’.[@JavaanseKaartspelen p. 74] In Thai, a deck is called a <span lang="th">สํารับ</span> <span lang="th-Latn">sam&shy;rap</span> (literally ‘condiment tray’).
+
+The three suits have various region-specific names.[@ChikiCards p. 119] I use the terms ‘Coins’, ‘Strings’, and ‘Myriads’ for consistency with articles about other money-suited cards.
 
 <dl>
 <dt>
-Names for Coins
+Coins
 </dt>
 <dd>
-* <span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (from Hokkien <span lang="nan">餅</span> ‘round thing’), or <span lang="ms">tong</span> (from Hokkien <span lang="nan">筒</span> ‘barrel’);
-* in Thai, <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> ‘vegetable’.
+* Malay: <span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (Hokkien <span lang="nan">餅</span> ‘round thing’), <span lang="ms">tong</span> (Hokkien <span lang="nan">筒</span> ‘barrel’)
+* Thai: <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> ‘vegetable’
 </dd>
 <dt>
-Names for Strings
+Strings
 </dt>
 <dd>
-* <span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (from Hokkien <span lang="nan">索</span> ‘rope’), or <span lang="ms">tiau</span> (from Hokkien <span lang="nan">條</span> ‘long/thin object’);
-* in Java, <span lang="jv-Latn">lintrik</span> (<span lang="jv">ꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?);[@JavanischeKartenspiele]
-* in Thai, <span lang="th">นก</span> <span lang="th-Latn">nok</span> ‘birds’.[@PaiPhong1967 28]
+* Malay: <span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (Hokkien <span lang="nan">索</span> ‘rope’), <span lang="ms">tiau</span> (Hokkien <span lang="nan">條</span> ‘long/thin object’)
+* Javanese: <span lang="jv-Latn">lintrik</span> (<span lang="jv">ꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?)[@JavanischeKartenspiele]
+* Thai: <span lang="th">นก</span> <span lang="th-Latn">nok</span> ‘birds’[@PaiPhong1967 28]
 </dd>
 <dt>
-Names for Myriads (Numbers)
+Myriads (Numbers)
 </dt>
 <dd>
-* <span lang="ms">ban</span> (from Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), or <span lang="ms">cina</span> (‘Chinese’);
-* in Java, <span lang="jv-Latn">wong</span> (<span lang="jv">ꦮꦺꦴꦁ</span> ‘people’);[@JavanischeKartenspiele]
-* in Thai, <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘people’.
+* Malay: <span lang="ms">ban</span> (Hokkien <span lang="nan-Latn">bān</span> <span lang="nan">萬/万</span> ‘myriad’), <span lang="ms">cina</span> (‘Chinese’)
+* Javanese: <span lang="jv-Latn">wong</span> (<span lang="jv">ꦮꦺꦴꦁ</span> ‘people’)[@JavanischeKartenspiele]
+* Thai: <span lang="th">คน</span> <span lang="th-Latn">khon</span> ‘people’
 </dd>
 </dl>
 
