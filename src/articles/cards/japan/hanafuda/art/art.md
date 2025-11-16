@@ -9,7 +9,7 @@ hero:
     organization:
         orgName: "Metropolitan Museum of Art"
 date created: 2024-12-18
-date modified: 2025-11-16
+date modified: 2025-11-17
 aliases: [The History & Art of Hanafuda]
 linter-yaml-title-alias: The History & Art of Hanafuda
 ---
@@ -114,9 +114,9 @@ lang="ja-Latn">Uda</span>](https://en.wikipedia.org/wiki/Emperor_Uda) (<span
 lang="ja">宇多天皇</span>) awarded his own poem a draw, stating “how can an
 imperial poem lose?”[@BrocadeByNight 244]
 
-Later, during what author <span class="noun" lang="ja-Latn">Ito Setsuko</span> terms the “silver age” of <span lang="ja-Latn">uta-awase</span>,[@MuseInCompetition 207] the work of the poet became more important, and poetry competitions were held without the extravagant <span lang="ja-Latn">suhama</span>. The competitions became more austere and aware of the world outside the courtly realm; in 1083 a planned grand competition was cancelled as it was thought to be inappropriate given the unrest at the time.[^genpei] Smaller and more intimate competitions were held with poetry as their focus. This doesn’t mean that the proceedings were any less elaborate; the largest competition of this type involved nine poets competing over 1500 rounds.
+Later, during what author <span class="noun" lang="ja-Latn">Ito Setsuko</span> terms the “silver age” of <span lang="ja-Latn">uta-awase</span>,[@MuseInCompetition 207] the work of the poet became more important, and poetry competitions were held without the extravagant <span lang="ja-Latn">suhama</span>. The competitions became more austere and aware of the world outside the courtly realm; in 1083 a planned grand competition was cancelled as it was thought to be inappropriate given the unrest at the time.[^unrest] Smaller and more intimate competitions were held with poetry as their focus. This doesn’t mean that the proceedings were any less elaborate; the largest competition of this type involved nine poets competing over 1500 rounds.
 
-[^genpei]: i.e., the [<span class="noun" lang="ja-Latn">Genpei</span> war.](https://en.wikipedia.org/wiki/Genpei_War)
+[^unrest]: perhaps the [<span class="noun" lang="ja-Latn">Gosannen</span> War.](https://en.wikipedia.org/wiki/Gosannen_War)
 
 > [!figure]
 >
@@ -211,7 +211,7 @@ When played with many shells, the game must have been difficult, since the clues
 
 [^modern]: Modern replicas usually only have around 54, but an elaborate set produced between 2013–2015 by forty-six artisans in [<span lang="ja-Latn" class="noun">Wajima</span>](https://en.wikipedia.org/wiki/Wajima,_Ishikawa) contains 720 shells featuring Australian wild flowers.[@GoldenOpportunity 4]
 
-Later the game set itself turned into a luxury item: the interior of the shells was at first decorated with matching fabrics, and then elaborately painted or even gilded. These matching images were used to confirm a correct match after both shells were selected. After the <span class="noun" lang="ja-Latn">Kamakura</span> period (1333), it became common to illustrate the shells with matching scenes from the [Tale of Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) (<span lang="ja">源氏物語</span> <Pronounce file="pronunciation_ja_源氏物語.mp3" pronouncer="straycat88" lang="ja-Latn">Genji Monogatari</Pronounce>) — the game is also played in Chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem; these types of the game would eventually evolve into the <span lang="ja-Latn">uta-garuta</span> (<span lang="ja">歌骨牌</span>) poetry cards.
+Later the game set itself turned into a luxury item: the interior of the shells was at first decorated with matching fabrics, and then elaborately painted or even gilded. These matching images were used to confirm a correct match after both shells were selected. After the <span class="noun" lang="ja-Latn">Kamakura</span> period (1185–1333), it became common to illustrate the shells with matching scenes from the [Tale of Genji](https://en.wikipedia.org/wiki/The_Tale_of_Genji) (<span lang="ja">源氏物語</span> <Pronounce file="pronunciation_ja_源氏物語.mp3" pronouncer="straycat88" lang="ja-Latn">Genji Monogatari</Pronounce>) — the game is also played in Chapter 45 of the novel itself. Other designs included shells with half of a poem in each, so that the matching pair could be read as a complete poem; these types of the game would eventually evolve into the <span lang="ja-Latn">uta-garuta</span> (<span lang="ja">歌骨牌</span>) poetry cards.
 
 > [!figure]
 >
@@ -520,7 +520,7 @@ Starting in the late 20th century, <span class="noun" lang="ja-Latn">Hanafuda</s
 
 While Japan produces many new types of <span class="noun" lang="ja-Latn">Hanafuda</span> <em>cards</em>, in Korea <span class="noun" lang="ko-Latn">Hwatu</span> <em>games</em> appear to be much more popular than their Japanese counterparts, and several films about gambling with <span class="noun" lang="ko-Latn">Hwatu</span> — most prominently the [<cite lang="ko-Latn">Tazza</cite>](https://en.wikipedia.org/wiki/Tazza:_The_High_Rollers) series (2006, 2014, 2019) — have been box-office successes.
 
-Image search results on Instagram (as of writing in 2021) for the hashtags [`#花札`](https://www.instagram.com/explore/tags/%E8%8A%B1%E6%9C%AD/) and [`#화투`](https://www.instagram.com/explore/tags/%ED%99%94%ED%88%AC/) show about twice as many Korean-tagged images, despite Korea having only a third of the number of Instagram users that Japan has.[@JapaneseInstagramUsers][@KoreanInstagramUsers] The content of the images also gives many clues to the game’s popularity: Korean images often show games in progress, and many times being played for money, whereas Japanese images are often just of the cards themselves, focusing on their æsthetic value.
+Image search results on Instagram (as of writing in 2021) for the hashtags [`#花札`](https://www.instagram.com/explore/tags/%E8%8A%B1%E6%9C%AD/) and [`#화투`](https://www.instagram.com/explore/tags/%ED%99%94%ED%88%AC/) showed about twice as many Korean-tagged images, despite Korea having only a third of the number of Instagram users that Japan has.[@JapaneseInstagramUsers][@KoreanInstagramUsers] The content of the images also gave many clues to the game’s popularity: Korean images often show games in progress, and many times being played for money, whereas Japanese images are often just of the cards themselves, focusing on their æsthetic value.
 
 ## The Art of the Cards
 
