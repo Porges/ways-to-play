@@ -18,7 +18,7 @@ linter-yaml-title-alias: The History & Art of Hanafuda
 
 <span class="noun" lang="ja-Latn">Hanafuda</span> (“flower cards”) are striking. Their bright, colourful designs depict twelve months of flowers, birds, and natural scenes. Drifts of cherry blossoms fall across one card, the full moon glows on another, while a poet shelters beneath his umbrella in the rain. But where do they come from?
 
-A search for antecedents takes us back centuries — before playing cards were even introduced to the island of Japan — to the aristocratic “object-comparing” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) games of the <Pronounce lang="ja-Latn" noun="true" pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> era (<span lang="ja">平安</span>, 794–1185).
+A search for antecedents takes us back centuries — before playing cards were even introduced to the islands of Japan — to the aristocratic “object-comparing” (<span lang="ja">物合わせ</span> <Pronounce lang="ja-Latn"  file="pronunciation_ja_物合わせ.mp3" pronouncer="poyotan">mono-awase</Pronounce>) games of the <Pronounce lang="ja-Latn" noun="true" pronouncer="skent" file="pronunciation_ja_平安.mp3">Heian</Pronounce> era (<span lang="ja">平安</span>, 794–1185).
 
 The cards themselves first appeared in the middle of the <Pronounce lang="ja-Latn" noun="true" pronouncer="Nipponese" file="pronunciation_ja_江戸.mp3">Edo</Pronounce> period (<span lang="ja">江戸</span>, 1603–1868). But the long path from courtly contests to mass-produced playing cards was neither direct nor inevitable.
 

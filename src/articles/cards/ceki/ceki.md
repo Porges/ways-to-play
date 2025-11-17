@@ -847,10 +847,6 @@ Makassar\
 (1859)[@MakassaarschWoordenboek]
 </th>
 <th>
-Buginese\
-(1874)[@BoegineeschWoordenboek]
-</th>
-<th>
 Manado\
 (1876)[@HetMaleischderMolukken]
 </th>
