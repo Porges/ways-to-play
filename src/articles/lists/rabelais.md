@@ -24,7 +24,7 @@ The lists of Nicolaas Jarichides Wieringa (Dutch, 1682) and Johann Fischarts (Ge
 ⚠️ This table is very wide and might scroll horizontally. My notes are at the far right.
 
 > [!todo]
-> 
+>
 > Putnam doesn’t attempt translation
 
 <div class="full-width scroller">
@@ -918,6 +918,7 @@ teetotum
 one, two, buckle my shoe
 </td>
 <td>
+a teetotum game: take, nothing, stake, all
 </td>
 </tr>
 
@@ -8433,12 +8434,12 @@ pinch his conk
 > [!todo]
 >
 > tables games: https://gallica.bnf.fr/ark:/12148/bpt6k98003639.texteImage
-> 
+>
 > images, including chapifou https://www.istockphoto.com/vector/rabelais-games-of-gargantua-jeu-du-chapifou-gm538491410-95775259
-> 
+>
 > from:
 https://babel.hathitrust.org/cgi/pt?id=uc1.e0000012021&view=1up&seq=95
-> 
+>
 
 Commentators who have written about the games in the list include:
 
@@ -8490,12 +8491,12 @@ triomphe</span>, and <span lang="fr">l’écarté</span>.[@JeuxDeGargantua p. 26
 
 Urquhart gives “the beast” for this term, which was actually the name of a
 gambling game (called in French <span lang="fr">la bête</span>) in which the
-term was used. Perhaps he was aware of this. 
+term was used. Perhaps he was aware of this.
 
 </dd>
 </dl>
 
-## Nicolaas Jarichides Wiringa’s list 
+## Nicolaas Jarichides Wiringa’s list
 
 As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](https://www.let.leidenuniv.nl/Dutch/Renaissance/Rabelais1682.html#121)).
 
