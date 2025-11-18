@@ -6182,6 +6182,7 @@ BoegineeschWoordenboek:
     year: 1874
   publisher: C. A. Spin & Zoon
   publisher-place: Amsterdam, The Netherlands
+  notes: See page 1060 for a list of games.
 MakassaarschWoordenboek:
   type: book
   #URL: https://books.google.co.nz/books?id=0qQDAAAAMAAJ
@@ -10268,7 +10269,8 @@ DrieChineescheKaartspelen:
     lang: nl
   language: nl
   page: 414-422
-  URL: https://books.google.co.nz/books?id=EwpJAAAAMAAJ&pg=PA413
+  #URL: https://books.google.co.nz/books?id=EwpJAAAAMAAJ&pg=PA413
+  URL: https://archive.org/details/tijdschriftvoor35unkngoog/page/413
   in:
     title:
       value: Tijdschrift voor Indische Taal-, Land- en Volkenkunde
@@ -14322,6 +14324,25 @@ PaiPhong1967:
   publisher: Excise Department Printing House
   publisher-place: Wat Sommanat Vihara, Bangkok, Thailand
   notes: This is a <a href="https://en.wikipedia.org/wiki/Cremation_volume">cremation volume</a>.
+SchadeeDajakVervolg:
+  type: article-journal
+  language: nl
+  title:
+    value: Bijdrage tot de kennis van den Godsdienst der Dajaks van Landak en Tajan (Vervolg)
+    lang: nl
+  author:
+  - given: M. C.
+    family: Schadee
+  page: 616-647
+  URL: https://archive.org/details/bijdragentotdet30unkngoog/page/616/mode/2up
+  in:
+    title:
+      value: Bijdragen tot de taal-, land- en volkenkunde van Nederlandsch-Indië
+      lang: nl
+    issued: 1906
+    volume: 7
+    issue: 6
+  notes: Games starting on page 621.
 DajakschDeutsches:
   type: book
   URL: https://archive.org/details/dajackschdeutsc00hardgoog
@@ -22163,3 +22184,32 @@ Pallegoix:
   URL: https://archive.org/details/ahq1047.0001.001.umich.edu
   issued: 1854
   publisher-place: Paris
+VanEckXI:
+  type: article-journal
+  title:
+    value: 'Schetsen uit het Volksleven in Nederl. Oost-Indië: XI, Mangkasaren en Boegineezen'
+    lang: nl
+  author:
+  - given: R.
+    family: van Eck
+  page: 1020-1040
+  URL: https://archive.org/details/deindischegidsv00meyigoog/page/1020
+  in:
+    title:
+      value: De Indische Gids
+      lang: nl
+    volume: 3
+    issued: 1881
+DictionarySundanese:
+  type: book
+  title: A Dictionary of the Sunda Language of Java
+  author:
+  - given: Jonathan
+    family: Rigg
+  issued: 1862
+  series:
+    title:
+      value: Verhandelingen van het Bataviaasch Genootschap der Kunsten en Wetenschappen
+      lang: nl
+    volume: 29
+  notes: Search for ‘game’, for example.

@@ -212,7 +212,7 @@ Another feature that was sometimes used that allowed players to feel like they h
 >
 > a formation on 13 characters: foot of a ghost
 > 14: belly of a ghost (circle of characters)
-> 14?: picture of a hundred children
+> 14?: picture of a hundred children (probably 百子圖)
 >
 > abacus: two parallel rows
 > brocade: concentric rows

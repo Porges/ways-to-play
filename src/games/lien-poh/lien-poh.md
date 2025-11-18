@@ -18,6 +18,8 @@ Sometimes simply poeh: [@20thBritishMalaya 161]
 
 In [Kelantan](https://en.wikipedia.org/wiki/Kelantan) it was called <span lang="mfa" class="noun aka">Ewok</span>,[@GamblingGamesOfMalaya p. 121] and in Makassarese <span lang="mak" class="aka">ᨈᨚᨀᨚᨈᨚᨀᨚ</span> <span lang="mak-Latn" class="aka">toko-toko</span>,[@MakassaarschWoordenboek p. 270] Buginese <span lang="bug" class="aka">ᨈᨚᨃᨚᨈᨚᨃᨚ</span> <span lang="bug-Latn" class="aka">tongko-tongko</span> (‘covering’).[@BoegineeschWoordenboek p. 286]
 
+See [@BoegineeschWoordenboek p. 270] for 'tang', 300 for 'toemba', 344 for 'tang-tjowang', 381 for 'taoe', 585 for 'leyang', 813 for 'o-tang', 889 for 'oleyang'. Also @VanEckXI [1027].
+
 In Malay it can be called simply <span lang="ms">po</span>, from Hokkien <span lang="nan">寶</span> <span lang="nan-Latn">pó</span>.[@ChineseLoanWordsMalay p. 52]
 
 

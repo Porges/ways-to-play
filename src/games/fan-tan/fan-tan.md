@@ -19,6 +19,8 @@ linter-yaml-title-alias: '<span lang="yue">番攤</span> · <span class="aka">Fa
 
 The English name for this game is derived from the Cantonese <span lang="yue" class="aka">番攤</span> <Pronounce lang="yue-Latn" class="aka"  pronouncer="potatokash" file="pronunciation_yue_番攤.mp3">faan¹ taan¹</Pronounce> (‘repeatedly dividing’). In Hokkien it is called simply  <span lang="nan" class="aka">攤</span> <Pronounce lang="nan-Latn"  class="aka" file="pronunciation_nan_攤.mp3" pronouncer="690518207">thoaⁿ</Pronounce>,[@GamblingGamesOfMalaya 118] ‘to divide into equal parts’.[@Douglas1899 p. 563b]
 
+Another name here:
+https://archive.org/details/javageographisc03vethgoog/mode/2up?q=%22Chineesche+kaartspel%22
 
 In the Philippines, it has been known as <span lang="fil" class="aka">capona</span>.[@CulinPhilippine p. 650]
 
