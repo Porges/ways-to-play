@@ -14,13 +14,13 @@ linter-yaml-title-alias: <span lang="zh-Hant">白鴿票</span> · The Pigeon Lot
 ---
 # <span lang="zh-Hant">白鴿票</span> · The Pigeon Lottery
 
-The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="GeraldYang" file="pronunciation_yue_白鴿票.mp3" class="aka">baak⁶ gaap³ piu³</Pronounce>) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty, and which in the 19th and 20th centuries was spread throughout countries bordering the Pacific Ocean by Chinese emigrants.
+The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="GeraldYang" file="pronunciation_yue_白鴿票.mp3" class="aka">baak⁶ gaap³ piu³</Pronounce>) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty. In the 19th and 20th centuries, Chinese emigrants spread the game throughout countries bordering the Pacific Ocean.
 
-The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Eventually the game became known under the modern name of Keno, which is now played in casinos around the world.
+The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Today, the game survives worldwide in casinos under its modern name: Keno.
 
 > [!aside]
 >
-> Older romanizations include <span lang="yue-Latn" class="aka">pak kap piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn" class="aka">pák kòp piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn" class="aka">baahk gáap piu</span>, <span lang="yue-Latn" class="aka">paâk káap p'iu</span>, or <span lang="yue-Latn" class="aka">pai ko p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and this further proves the Cantonese origin of the game (see e.g.  @SparrowAndPigeon, although I find some of his other (original) conclusions to be dubious).
+> Older romanizations include <span lang="yue-Latn" class="aka">pak kap piew</span>,[@GamblingGamesOfMalaya p. 48] <span lang="yue-Latn" class="aka">pák kòp piú</span>,[@ChineseInAmerica p. 6] <span lang="yue-Latn" class="aka">baahk gáap piu</span>, <span lang="yue-Latn" class="aka">paâk káap p'iu</span>, or <span lang="yue-Latn" class="aka">pai ko p’iao</span>.[@AustralianWords p. 391] While <span lang="zh-Hant">白鴿</span> is sometimes translated as “white pigeon” from Mandarin, it is the standard Cantonese name for pigeon, and this further proves the Cantonese origin of the game.[@SparrowAndPigeon]
 
 In European sources, the game is often referred to as simply “the Chinese lottery”. The transliteration of the game is usually given as “<span class="aka">pak-a-poo</span>” (most common in New Zealand) or “<span class="aka">pak-a(h)-pu</span>” (most common in Australia). In London (particularly centred around the Chinese community in Pennyfields, Poplar) it was referred to as “puk-a-pu” or “puk-a-poo”, and in South Africa “pa-ka-pu”.[@TheBantuInTheCity p. 423] Other variants are “pak-a-peu”,[@PakAPeuAtLawrence] “puck-a-pu”, “pukka-poo”, or “pac-a-poo”. In Macau it is given with the Portuguese romanization of “<span lang="pt" class="aka">pacapio</span>”, which remains standard in current usage (previous terms include <span lang="pt">p’u-pio</span>[@ACidadeMaisPitoresca]). In the USA it was at first referred to as “<span class="aka">boc hop bu</span>”[@NYTimes18870127] before picking up a variety of the other names mentioned above, as well as “Bock Ka Pian”,[@WhatTheHeathenPlays] but in Hawaiʻi it was referred to as “<span class="aka">pakapio</span>”.[@Pakapio]
 
@@ -42,25 +42,25 @@ that it had only become quasi-legal through subterfuge (for example, see
 
 ## Early origins
 
-It is sometimes fancifully claimed that the name of the game is due the the
-method of ticket selection, in that supposedly originally white pigeons were
-used to choose winning tickets, but that is not possible given the way the game
-is played; it is *not* a lottery where one or more tickets are selected to be
-winners.
+Several origin stories circulate about where and when the game was invented, though most are unverifiable.
 
-One Chinese origin story says that the name is because white pigeons were used to transmit the results from gambling houses to the bettors.[@GrammarOfTheChineseLanguage2 p. 157] Another dates the game to the foundation of the Han dynasty, saying that it was invented by [<span lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span>](https://en.wikipedia.org/wiki/Zhang_Liang_(Western_Han)) (<span lang="zh">張良</span>, <abbr title="circa">c.</abbr>&nbsp;251–189 <abbr>BCE</abbr>),[^fn0] advisor to [Emperor <span class="noun" lang="cmn-Latn-pinyin">Gāozǔ</span>,](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han) in order to raise money for the support of the army when a city was beseiged.[@GrammarOfTheChineseLanguage2 p. 156] While <span lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a lottery to raise funds, it seems to be unlikely to be identical to the modern game. For one thing, the <cite>Thousand Character Classic</cite> upon which the game is based is traditionally dated to the [Liang dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 <abbr>CE</abbr>).
+It is sometimes fancifully claimed that the name of the game is due to the method of ticket selection, in that supposedly winning tickets were chosen by trained white pigeons. However, this explanation is not possible given the way the game is played; it is *not* a lottery where one or more tickets are selected to be winners.
+
+One Chinese origin story relates that the name was applied because white pigeons were used to transmit the results from gambling houses to the bettors.[@GrammarOfTheChineseLanguage2 p. 157] Another dates the game to the foundation of the Han dynasty, saying that it was invented by [<span lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span>](https://en.wikipedia.org/wiki/Zhang_Liang_(Western_Han)) (<span lang="zh">張良</span>, <abbr title="circa">c.</abbr>&nbsp;251–189 <abbr>BCE</abbr>),[^fn0] advisor to [Emperor <span class="noun" lang="cmn-Latn-pinyin">Gāozǔ</span>,](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han) in order to raise money for the support of the army when a city was beseiged.[@GrammarOfTheChineseLanguage2 p. 156] While <span lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a lottery to raise funds, it seems to be unlikely to be identical to the modern game. For one thing, the <cite>Thousand Character Classic</cite> upon which the game is based is traditionally dated to the [Liang dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 <abbr>CE</abbr>).
 
 [^fn0]: Older sources transliterate his name as Cheung Leung.
 
-The true origin of the game apparently lies in gambling that was carried out as part of the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span lang="yue-Latn-jyutping">baak⁶ gap³ wui²</span>) which was held in Guangdong.  Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span lang="zh">佛山</span>), and groups of pigeons were numbered using the opening characters from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>).[^fn1] Bets were made on which group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the pigeons were dropped entirely and a game was developed based on characters being drawn at random.
+Another, more believable, explanation appears to lie in the early-Qing “white pigeon festival” (<span lang="zh-Hant">白鴿會</span> Cantonese: <span lang="yue-Latn-jyutping">baak⁶ gap³ wui²</span>) which was held in Guangdong.  Pigeons were raced from [Qingyuan](https://en.wikipedia.org/wiki/Qingyuan) (<span lang="zh">清遠</span>) to [Foshan](https://en.wikipedia.org/wiki/Foshan) (<span lang="zh">佛山</span>), and groups of pigeons were numbered using the opening characters from the [<cite>Thousand Character Classic</cite>](https://en.wikipedia.org/wiki/Thousand_Character_Classic) (<span lang="zh">千字文</span>).[^fn1] Spectators bet upon which group of pigeons would return intact.[@BettingOnEmpire p. 84] Eventually the pigeons were dropped entirely and a game was developed based on characters being drawn at random.
 
 [^fn1]: This system of enumeration has also been used to number volumes of books and other objects, including in the instructions for assembly kit-set furniture.[@RepresentingHainingStreet1 p. 53]
+
+However, Macau historian Tán Shìbǎo argues that the name <span lang="zh">白鴿</span> <span lang="yue-Latn-jyutping">baak⁶ gap³</span> ‘white pigeon’ was really invented as a homophonic cover for the “true” name <span lang="zh">博合</span> <span lang="yue-Latn-jyutping">bok³ hap⁶</span> ‘match betting’,[@SparrowAndPigeon] as there is no evidence connecting the gambling game with the earlier pigeon races.
 
 ## Known history
 
 According to the [<cite>Draft History of <span class="noun" lang="cmn-Latn-pinyin">Qing</span></cite>](https://en.wikipedia.org/wiki/Draft_History_of_Qing),[@QinYingChapter] the official <span class="noun" lang="cmn-Latn-pinyin">Qin Ying</span> (<span lang="zh">秦瀛</span>, 1743–1821) banned pigeon tickets in Guangdong in the “ninth year of [<span class="noun" lang="cmn-Latn-pinyin">Jiaqing</span>](https://en.wikipedia.org/wiki/Jiaqing_Emperor)” (1804/5), so the game must have existed at this point.[@SparrowAndPigeon]
 
-In 1849, a traveller from Yunnan province visited Guangdong and reported that:
+By mid-century, the game had become widespread. In 1849, a traveller from Yunnan province visited Guangdong and reported that:
 
 > In the western part of the provincial capital Guangzhou, people in Henan area
 > developed cunning ways to operate the “white pigeon” lottery. Even women and
@@ -566,10 +566,7 @@ The trend over time has been to increase the payouts on the higher end, which ma
 >
 > Countries where the game was played in the past (before becoming Keno); locations with particular reports highlighted.
 
-The game traveled everywhere that Chinese people migrated to. In particular, it
-seems to have been popular in places with goldfields where Chinese men came to
-work in the late 19th century: San Francisco in the USA, British Columbia in
-Canada, Victoria in Australia, and Otago in New Zealand.
+Chinese emigrants brought the game everywhere that they settled, particularly to goldfield regions where young Chinese men came to work in the late 19th century: San Francisco in the USA, British Columbia in Canada, Victoria in Australia, and Otago in New Zealand.
 
 Despite the existence of other very similar games in China, such as the ‘mountain lottery’ (<span lang="zh">山票</span> Mandarin: <span lang="cmn-Latn-pinyin">shān piào</span>, Cantonese: <span lang="yue-Latn-jyutping">saan¹ piu³</span>), the pigeon lottery was the only one that was successfully popularized amongst Europeans.[@BettingOnEmpire p. 193] Conversely, in countries such as Malaya, where the game was legal during the [Japanese occupation](https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya) (1941–42), the pigeon lottery was apparently never as popular as Chee Fah or Chee Tam (games based upon selecting one out of 36 or 80 characters, respectively).[@GamblingGamesOfMalaya p. 48]
 
@@ -722,7 +719,9 @@ This article was accompanied by what has been called the “most scandalous and 
 
 ### In New Zealand
 
-As in Australia, racist depictions of Chinese gambling were common. And yet, while newspaper reports often decried gambling and gamblers, others came to the defence of the game. Here I focus more heavily on the counter-current, as it is all too easy to find examples of the former.
+The game’s legal status in New Zealand followed a tortuous path: banned in Otago from 1862 and nationwide in 1881, challenged in courts throughout the 1900s, and finally definitively prohibited in 1907. It remained illegal until 1977, though enforcement was often inconsistent.
+
+Throughout this period, public opinion was divided. As in Australia, racist depictions of Chinese gambling were common. And yet, while newspaper reports often decried gambling and gamblers, others came to the defence of the game. Here I focus more heavily on the counter-current, as it is all too easy to find examples of the former.
 
 #### Legality and Hypocrisy
 
@@ -921,12 +920,9 @@ there were more than 15 pigeon lotteries operating in Vancouver.[@BettingOnEmpir
 
 ## Globalization, or Kenoization
 
-The “Chinese lottery” was to become Europeanized — and therefore, acceptable —
-through its adoption and development by American casino operators in the early
-20th century. It is probable that there were many such attempts to adapt the game by
-both Chinese and Americans looking to popularize it,[^eugene] but here I recount what
-appears to be the main thread of popularization which led to widespread
-commercial implementation of Keno.
+While the Chinese game faced suppression around the Pacific, American casino and game operators saw an opportunity. The “Chinese lottery” was to become Europeanized — and therefore, acceptable — through its adoption and development by white Americans in the early 20th century. By divorcing the game from its origins, they could capitalize on a proven format while avoiding the stigma attached to “Chinese” games.
+
+It is probable that there were many such attempts to adapt the game by both Chinese and Americans looking to popularize it,[^eugene] but here I recount what appears to be the main thread of popularization which led to widespread commercial implementation of Keno.
 
 [^eugene]: For example, Eugene Diullo, Harrah’s first keno manager, learned the game growing up in the mining town of [Ely,](https://en.wikipedia.org/wiki/Ely,_Nevada)[@EveryLightWasOn p. 125] but this was still at the time the Chinese game.
 
