@@ -28,9 +28,7 @@ The game as played in Surakarta and Yogyakarta was the same, but different termi
 
 ## Play
 
-The game is played by three players with two sets of <span lang="ms">ceki</span>
-
-cards (120 cards total). If there are four players, then three will take part in the game while the fourth player acts as the dealer and point-counter (<span lang="jv-Latn">makao</span> in Surakarta or <span lang="jv-Latn">matang atusi</span> in Yogyakarta).
+The game is played by three players with two sets of <span lang="ms">ceki</span> cards (120 cards total). If there are four players, then three will take part in the game while the fourth player acts as the dealer and point-counter (<span lang="jv-Latn">makao</span> in Surakarta or <span lang="jv-Latn">matang atusi</span> in Yogyakarta).
 
 To decide seating order, each player is dealt two cards; the sum of their values determines (from highest to lowest) who will be <span lang="jv">ꦫꦗ</span> <span lang="jv-Latn">raja</span> ‘king’, <span lang="jv">ꦥꦠꦶꦃ</span> <span lang="jv-Latn">patih</span> ‘councillor’, and <span lang="jv">ꦲꦸꦚꦶꦏ꧀</span> <span lang="jv-Latn">unyik</span> ‘last’.
 
