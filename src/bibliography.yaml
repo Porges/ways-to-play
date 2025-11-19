@@ -13769,6 +13769,23 @@ Morgenlandisch_2:
     issue: 4
     issued: 1889
     publisher-place: Leipzig
+Morgenlandisch_extras:
+  type: article-journal
+  title:
+    value: Bemerkungen zu den Aufsätzen „Morgenländisch oder Abendländisch“ in Bd. XLIII S. 415 ff. und S. 555 ff.
+    lang: de
+  URL: https://archive.org/details/zeitschrift44deutuoft/page/478
+  language: de
+  author: [*K_Himly]
+  page: 478-479
+  in:
+    title:
+      value: Zeitschrift der Deutschen Morgenländischen Gesellschaft
+      lang: de
+    volume: 44
+    issue: 3
+    issued: 1890
+    publisher-place: Leipzig
 Pijnappel1:
   type: book
   URL: https://archive.org/details/maleischnederdu00klingoog
