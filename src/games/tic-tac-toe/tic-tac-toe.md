@@ -28,13 +28,7 @@ linter-yaml-title-alias: Tic-Tac-Toe
 
 ## History
 
-The origins of tic-tac-toe are unclear. Many sources claim that it dates from
-antiquity, but to me it seems like a more recent invention—a degenerate version
-of Three Men’s Morris. Mentions of it only appear in the 19th century, and the
-game is very well suited to being played with chalk on slates—such as were used
-by children in schools during this period. Indeed, @BerkshirePhrases [p. 164]
-describes the game as “the first game taught to children when they can use a
-slate pencil”.
+The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but the evidence to me suggests a more recent invention. Possibly it appeared as a degenerate version of Three Men’s Morris. Written references to the game only appear in the 19th century, and the game is particularly well-suited to being played with chalk on slates — standard equipment for schoolchildren during this period. Indeed, @BerkshirePhrases [p. 164] describes it as “the first game taught to children when they can use a slate pencil”.
 
 > [!figure]
 >
@@ -47,7 +41,9 @@ slate pencil”.
 >
 > The small merels board with diagonals.
 
-However, there is an early antecedent of a game which is equivalent in play, if not in presentation. [Alfonso X of Castile’s](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile) <cite>Book of Games</cite>[@AlfonsoGames], published in 1283, includes the game <span lang="es">alquerque de tres</span> which is played on a small merels board with diagonals. Each player has three pawns which they place on the board one at a time, taking turns. If a player can form three in a line then they win; otherwise it is a tie. Later historians (even including [H. J. R. Murray](articles/people/hjr-murray.md)[@Murray2]) have muddied the waters by describing this game as a three-men’s-morris game where the pieces can be moved after being placed, but this is not supported by the original manuscript.[@DimensionsOfBookOfGames p. 609]
+However, there is an early antecedent: a game equivalent in play, if not in presentation. [Alfonso X of Castile’s](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile) <cite>Book of Games</cite>[@AlfonsoGames], published in 1283, includes the game <span lang="es">alquerque de tres</span> which is played on a small merels board with diagonals. Each player has three pawns which they place on the board one at a time, taking turns. If a player can form three-in-a-row then they win; otherwise it is a tie.
+
+Later historians (even including [H. J. R. Murray](articles/people/hjr-murray.md)[@Murray2]) have muddied the waters by describing this game as a three-men’s-morris game where the pieces can be moved after being placed, but this is not supported by the original manuscript.[@DimensionsOfBookOfGames p. 609] Thus, it is functionally equivalent to modern tic-tac-toe.
 
 > [!figure]
 >
@@ -59,11 +55,10 @@ However, there is an early antecedent of a game which is equivalent in play, if 
 >
 > This image from Alfonso X’s <cite>Book of Games</cite> shows that <span lang="es">alquerque de tres</span> was considered a children’s game.
 
-Some of the earliest known written references to Tic-Tac-Toe in English occur in Charles Babbage’s unpublished manuscript <cite>Essays on the Philosophy of Analysis</cite> (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the game is never mentioned by name.[@SourcesInRecreationalMathematics] In 1842, ‘tit-tat-to’ again occurs in his notebooks, when he conceptualizes an automaton that would play the game against a human.[@SourcesInRecreationalMathematics][@ICommencedAnExamination]
+The earliest known written references to Tic-Tac-Toe in English occur in Charles Babbage’s unpublished manuscript <cite>Essays on the Philosophy of Analysis</cite> (1812–1820, now held in the British Library as Add. MS&nbsp;37202), although the game is never mentioned by name.[@SourcesInRecreationalMathematics] Two decades later, in 1842, ‘tit-tat-to’ again occurs in his notebooks, when he conceptualizes an automaton that would play the game against a human — a very early vision of automated game-playing.[@SourcesInRecreationalMathematics][@ICommencedAnExamination]
 
-It also appears in 1818 in an article on the [Lancasterian
-system](https://en.wikipedia.org/wiki/Monitorial_System), discussing children’s
-games:[@LancasterianSystem]
+Another early reference appears in 1818 in an article on the [Lancasterian
+system](https://en.wikipedia.org/wiki/Monitorial_System), during a discussion of children’s games:[@LancasterianSystem]
 
 > One boy who is acquainted with the popular game of <i>checkers</i>, <i>fox and
 > geese</i>, <i>tit-tat-to</i>, <i>hop skip and jump</i>, and a thousand other
@@ -233,24 +228,28 @@ In Greek it is called <span lang="el" class="aka">τρίλιζα</span> (<span l
 
 ## Play
 
-You know this, right?
+Two players take turns marking spaces in a 3×3 grid, one using the symbol ‘X’ and the writing ‘O’. Traditionally the starting player uses the ‘X’. The first player to place three of their marks in a horizontal, vertical, or diagonal row wins. If all nine spaces are filled without either player achieving three-in-a-row, the game ends in a draw (drawn games are referred to as “cat’s games”, supposing that the cat won them).
+
+With perfect play from both sides, the game always ends in a draw — a fact shown by Babbage’s original analysis in the 19th century, but which is also obvious from playing the game a few times.
 
 ## Strategy
 
 See, e.g. @Gardner1 [pp. 37–46].
 
 > [!todo]
-> 
+>
 > It is claimed (somewhere that I cannot locate right now) that “yih” 弈 is an old name for the game. No, this is go, or maybe something older.
 
 ## Variants
+
+The following variants are mathematically isomorphic to tic-tac-toe — that is, they have identical structure (and thus, strategy) despite appearing completely different.
 
 ### <span class="aka">The 15 Game</span>
 This game is also known as “<span class="aka">Number Scrabble</span>”[@TheGameOfJAM] or “<span class="aka">Pick15</span>”.
 
 To play: Write down the numbers from 1–9 on a piece of paper. Each turn, a player claims a number for themselves by marking it, and a number can only be claimed by one player. The first player to claim 3 numbers that add to 15 is the winner.
 
-This game is isomorphic to the game of tic-tac-toe. Astonishingly, this form was invented by Babbage in his initial analysis of the game.[@MathematicalWorkOfBabbage p. 127]
+Astonishingly, this isomorphic form was invented by Babbage in his initial analysis of the game.[@MathematicalWorkOfBabbage p. 127]
 
 To show the equivalence, write down the numbers in the form of the (unique) 3&times;3 magic square:
 
@@ -296,7 +295,7 @@ From this it can be seen that the game is the same as tic-tac-toe. Each row, col
 
 ### <span class="aka">JAM</span>
 
-This is another isomorphic variant invented by John Michon.[@TheGameOfJAM] It is the [projective geometry dual](https://en.wikipedia.org/wiki/Duality_(projective_geometry)) of the standard game, where each cell is replaced by a line and each winning line by a point, in such a way that each cell-line intersects the appropriate winning-line points.
+This variant was invented by John Michon.[@TheGameOfJAM] It is the [projective geometry dual](https://en.wikipedia.org/wiki/Duality_(projective_geometry)) of the standard game, where each cell is replaced by a line and each winning line by a point, in such a way that each cell-line intersects the appropriate winning-line points.
 
 If this is confusing, muse upon the following diagram: the red solid vertical line represents the middle cell of the Tic-Tac-Toe board; it crosses four points (winning lines). The four blue dashed lines are the corner cells, which cross three points (winning lines) each, and the four green dotted lines are the side-centre cells, which cross two points (winning lines) each.
 
@@ -314,7 +313,7 @@ To play, players take turns claiming an entire line, which crosses several point
 
 ### <span class="aka">Spit</span>
 
-Yet another isomorphic variant is played as follows:[@WinningWaysV3 p. 732]
+Yet another variant is played as follows:[@WinningWaysV3 p. 732]
 
 Write down the nine words ‘Spit’, ‘Not’, ‘So’, ‘Fat’, ‘Fop’, ‘As’, ‘If’, ‘In’, and ‘Pan’ on separate pieces of paper. The players take turns taking a single card. A player wins if they collect all the cards with a given letter (e.g.  ‘In’, ‘If’, and ‘Spit’ would win since these are all the words containing ‘i’).
 
@@ -425,16 +424,9 @@ This can be shown to be the same game in the following way (note that the number
 
 ## Automatic Players
 
-Being a simple game, Tic-Tac-Toe is easily programmed, and so was one of the
-first automated games. As noted above, Charles Babbage studied the problem but
-never built an actual machine.
+Being a simple game with a finite game tree, Tic-Tac-Toe is both easily programmed and ideal for early automation experiments, and so became one of the first games to be played by machines. As noted above, Charles Babbage studied the problem but never built an actual machine.
 
-The earliest fully automated player was constructed by a Frank T. Freeland of
-Philadelphia, who described its implementation in an 1879 journal
-article.[@AutomaticTTT] According to the article, the machine was built and
-exhibited in 1878 before being moved to the University of Pennsylvania. Its
-whereabouts (if it still exists) are currently unknown.[^freeland] This machine predates any other
-implementations by some 70 years!
+The earliest fully automated player was constructed by a Frank T. Freeland of Philadelphia, who described its implementation in an 1879 journal article.[@AutomaticTTT] According to the article, the machine was built and exhibited in 1878 before being moved to the University of Pennsylvania. Its whereabouts (if it still exists) are currently unknown.[^freeland] This machine predates any other implementations by some 70 years!
 
 [^freeland]: For more about Freeland, see @VictorianTTT.
 
