@@ -12373,7 +12373,7 @@ YeziPu:
   title:
     lang: zh
     value: 葉子譜
-    alt: <span lang="cmn-Latn-pinyin" class="noun">Yèzi Pǔ</span>
+    alt: <span lang="cmn-Latn-pinyin" class="noun">Yèzi Pǔ</span>, Manual of Leaves
   language: zh
   URL: https://iiif.lib.harvard.edu/manifests/view/drs:428497656$54i
   issued: 1646
@@ -12405,7 +12405,7 @@ XuYeziPu:
   title:
     lang: zh
     value: 續葉子譜
-    alt: <span lang="cmn-Latn-pinyin" class="noun">Xù Yèzi Pǔ</span>
+    alt: <span lang="cmn-Latn-pinyin" class="noun">Xù Yèzi Pǔ</span>, Sequel to Manual of Leaves
   language: zh
   issued: 1646
   author:
