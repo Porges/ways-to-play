@@ -4,7 +4,7 @@ mainImage: '5072574617_9afa5ee9ae_o.jpg'
 players: 2
 equipment: Pen and paper
 date created: 2024-12-22
-date modified: 2025-02-16
+date modified: 2025-11-20
 aliases: [Tic-Tac-Toe]
 linter-yaml-title-alias: Tic-Tac-Toe
 ---
@@ -28,7 +28,7 @@ linter-yaml-title-alias: Tic-Tac-Toe
 
 ## History
 
-The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but the evidence to me suggests a more recent invention. Possibly it appeared as a degenerate version of Three Men’s Morris. Written references to the game only appear in the 19th century, and the game is particularly well-suited to being played with chalk on slates — standard equipment for schoolchildren during this period. Indeed, @BerkshirePhrases [p. 164] describes it as “the first game taught to children when they can use a slate pencil”.
+The origins of tic-tac-toe are unclear. Many sources claim that it dates from antiquity, but the evidence to me suggests a more recent invention. Possibly it appeared as a degenerate version of Three Men’s Morris. Written references to the game only appear in the 19th century, and the game is particularly well-suited to being played with chalk on slates — standard equipment for schoolchildren during this period. Indeed, @BerkshirePhrases [164] describes it as “the first game taught to children when they can use a slate pencil”.
 
 > [!figure]
 >
@@ -43,7 +43,7 @@ The origins of tic-tac-toe are unclear. Many sources claim that it dates from an
 
 However, there is an early antecedent: a game equivalent in play, if not in presentation. [Alfonso X of Castile’s](https://en.wikipedia.org/wiki/Alfonso_X_of_Castile) <cite>Book of Games</cite>[@AlfonsoGames], published in 1283, includes the game <span lang="es">alquerque de tres</span> which is played on a small merels board with diagonals. Each player has three pawns which they place on the board one at a time, taking turns. If a player can form three-in-a-row then they win; otherwise it is a tie.
 
-Later historians (even including [H. J. R. Murray](articles/people/hjr-murray.md)[@Murray2]) have muddied the waters by describing this game as a three-men’s-morris game where the pieces can be moved after being placed, but this is not supported by the original manuscript.[@DimensionsOfBookOfGames p. 609] Thus, it is functionally equivalent to modern tic-tac-toe.
+Later historians (even including [H. J. R. Murray](articles/people/hjr-murray.md)[@Murray2]) have muddied the waters by describing this game as a three-men’s-morris game where the pieces can be moved after being placed, but this is not supported by the original manuscript.[@DimensionsOfBookOfGames 609] Thus, it is functionally equivalent to modern tic-tac-toe.
 
 > [!figure]
 >
@@ -68,7 +68,7 @@ system](https://en.wikipedia.org/wiki/Monitorial_System), during a discussion of
 In 1830, [Robert Taylor](https://en.wikipedia.org/wiki/Robert_Taylor_(Radical))
 (an anti-clerical Radical, nicknamed “the Devil’s chaplain”) used tic-tac-toe as
 an example of a children’s game in his sermon “The Star of
-Bethlehem”:[@DevilsPulpit p. 7]
+Bethlehem”:[@DevilsPulpit 7]
 
 > Just as a fool, who has but seen the diagrams and delineations in the elements
 > of Euclid, will make himself dead sure that all the mathematics in the world
@@ -93,7 +93,7 @@ Bethlehem”:[@DevilsPulpit p. 7]
 
 ## Terminology
 
-In English, tic-tac-toe has gone by many names. It has been variously called ‘tit-tat-to(e)’, ‘tic(k)-tac(k)-to(e)’, ‘<span class="aka">(n)oughts &amp; crosses</span>’, ‘<span class="aka">crisscross</span>’, ‘<span class="aka">tip-tap-toe</span>’,[@Teesdale p. 136][@NotesAndQueriesS8V12 p. 333] ‘<span class="aka">Exeter’s Nose</span>’ (a pun on ‘<i>X</i>s and <i>O</i>s’),[@SourcesInRecreationalMathematics] ‘<span class="aka">oxen-crosses</span>’[@LondonStreetGames p. 134], or ‘<span class="aka">kit-cat-cannio</span>’.[@SuffolkWords p.  200]
+In English, tic-tac-toe has gone by many names. It has been variously called ‘tit-tat-to(e)’, ‘tic(k)-tac(k)-to(e)’, ‘<span class="aka">(n)oughts &amp; crosses</span>’, ‘<span class="aka">crisscross</span>’, ‘<span class="aka">tip-tap-toe</span>’,[@Teesdale 136][@NotesAndQueriesS8V12 333] ‘<span class="aka">Exeter’s Nose</span>’ (a pun on ‘<i>X</i>s and <i>O</i>s’),[@SourcesInRecreationalMathematics] ‘<span class="aka">oxen-crosses</span>’[@LondonStreetGames 134], or ‘<span class="aka">kit-cat-cannio</span>’.[@SuffolkWords 200]
 
 Several of these names derive from old counting-out rhymes — think ‘eeny meeny
 miny mo’ — that begin with ‘tit, tat, toe’. These rhymes date from at least the
@@ -113,10 +113,10 @@ The fullest expression of this rhyme is along the lines of:
 > Stick one down,<br />
 > Stick one in the old man’s crown![^fn0]
 
-[^fn0]: Some sources (e.g. @NurseryWitch [p. 374]) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.
+[^fn0]: Some sources (e.g. @NurseryWitch [374]) give this last line as “… in the old man’s (burial-)ground!”; I have no idea what this means.
 
 
-Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to any set of three lined-up objects — in [F. W. N. Bayley](https://en.wikipedia.org/wiki/F._W._N._Bayley)’s 1842 adaptation of the gruesome [Bluebeard](https://en.wikipedia.org/wiki/Bluebeard) fairy-tale, Mrs.  Bluebeard discovers that her husband has murdered his six previous wives, and:[@ComicNurseryTales p. 19]
+Aside from its use as a counting-out rhyme, ‘tit-tat-to’ was used to refer to any set of three lined-up objects — in [F. W. N. Bayley](https://en.wikipedia.org/wiki/F._W._N._Bayley)’s 1842 adaptation of the gruesome [Bluebeard](https://en.wikipedia.org/wiki/Bluebeard) fairy-tale, Mrs.  Bluebeard discovers that her husband has murdered his six previous wives, and:[@ComicNurseryTales 19]
 
 > […] —ah! no more!<br />
 > She bumps her body down on the floor;<br />
@@ -153,19 +153,19 @@ This usage of referring to neatly-aligned triplets is still current with the Swe
 > license: 'cc0'
 > ```
 >
-> Children playing a <em>different</em> game of ‘tick-tack-toe’.<br/>F. J. Shields, as reproduced in @MagazineOfArt [p. 136].
+> Children playing a <em>different</em> game of ‘tick-tack-toe’.<br/>F. J. Shields, as reproduced in @MagazineOfArt [136].
 
-The same rhyme and name were also used for an unrelated game, using a circular board, in which a player would attempt to locate high-scoring sections of a circle while blindfolded.[@GamesBookForBoysAndGirls p. 55]
+The same rhyme and name were also used for an unrelated game, using a circular board, in which a player would attempt to locate high-scoring sections of a circle while blindfolded.[@GamesBookForBoysAndGirls 55]
 
 There seems to be a distinction we can draw between languages that have folkish names and those that have more functional names derived from the outward appearance or goal of the game.
 
 > [!aside]
 >
-> @SkeatTitTatTo also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but after examining his source,[@Koolman p. 410] it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “<span lang="id" class="aka">Tik-Tak-Tuk</span>” is also the name of the game in Indonesian.
+> @SkeatTitTatTo also gives the Frisian name “<span lang="ofs">Tik-Tak-Tuk</span>” as a possible source for the English phrase, but after examining his source,[@Koolman 410] it is the name of a different game similar to <span lang="de">Rösselsprungrätsel</span>. However, it does come with its own rhyming phrase: <span lang="nl">„tik-tak-tuk, hê sitt in ’t huk”</span>. Interestingly, “<span lang="id" class="aka">Tik-Tak-Tuk</span>” is also the name of the game in Indonesian.
 
-In the ‘folkish’ group we have examples like the Dutch ‘<span lang="nl" class="aka">tik tak tol</span>’,[@Fiske p. 122] or ‘<span class="aka" lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and the Swedish ‘<span lang="sv" class="aka">tripp, trapp, trull</span>’.[@Fiske p. 137]
+In the ‘folkish’ group we have examples like the Dutch ‘<span lang="nl" class="aka">tik tak tol</span>’,[@Fiske 122] or ‘<span class="aka" lang="nl">boter-kaas-en-eieren</span>’ (‘butter cheese and eggs’); and the Swedish ‘<span lang="sv" class="aka">tripp, trapp, trull</span>’.[@Fiske 137]
 
-Like the English names, one Dutch name (<span lang="nl" class="aka">boter, melk, kaas</span>) is derived from a rhyme:[@WinningWaysV3 p. 732]
+Like the English names, one Dutch name (<span lang="nl" class="aka">boter, melk, kaas</span>) is derived from a rhyme:[@WinningWaysV3 732]
 
 > > [!multi]
 > >
@@ -177,7 +177,7 @@ Like the English names, one Dutch name (<span lang="nl" class="aka">boter, melk,
 > > Butter, milk, cheese,\
 > > I am the boss.
 
-Sweden had a similar rhyme:[@GamesOfTheGods p. 163]
+Sweden had a similar rhyme:[@GamesOfTheGods 163]
 
 > > [!multi]
 > >
@@ -234,7 +234,29 @@ With perfect play from both sides, the game always ends in a draw — a fact
 
 ## Strategy
 
-See, e.g. @Gardner1 [pp. 37–46].
+The strategy of tic-tac-toe is straightforward enough to be completely solved. The first player can force a win only if the second player makes a mistake; otherwise, optimal play will always result in a draw.[^xkcd]
+
+[^xkcd]: As Randall Munroe ([xkcd #832](https://xkcd.com/832/)) states: “The only winning move is to play, perfectly, waiting for your oppenent to make a mistake.”
+
+A nice analysis of winning strategies can be found in @Gardner1, as Gardner focuses on optimizing the _opportunity_ to win (pages 45–6).
+
+Randall Munroe also produced this ‘map’ of optimal moves, which can be followed to ensure a draw:
+
+> [!figure]
+>
+> ![](tic_tac_toe_large.png)
+>
+> ```yaml
+> originalUrl: "https://xkcd.com/832/"
+> license: "cc-by-nc"
+> authorGiven: Randall
+> authorFamily: Munroe
+> licenseVersion: "2.5"
+> copyrightYear: 2010
+> ```
+>
+> A map of optimal moves in tic-tac-toe, from [xkcd comic #832](https://xkcd.com/832/).
+
 
 > [!todo]
 >
@@ -249,7 +271,7 @@ This game is also known as “<span class="aka">Number Scrabble</span>”[@TheGa
 
 To play: Write down the numbers from 1–9 on a piece of paper. Each turn, a player claims a number for themselves by marking it, and a number can only be claimed by one player. The first player to claim 3 numbers that add to 15 is the winner.
 
-Astonishingly, this isomorphic form was invented by Babbage in his initial analysis of the game.[@MathematicalWorkOfBabbage p. 127]
+Astonishingly, this isomorphic form was invented by Babbage in his initial analysis of the game.[@MathematicalWorkOfBabbage 127]
 
 To show the equivalence, write down the numbers in the form of the (unique) 3&times;3 magic square:
 
@@ -313,7 +335,7 @@ To play, players take turns claiming an entire line, which crosses several point
 
 ### <span class="aka">Spit</span>
 
-Yet another variant is played as follows:[@WinningWaysV3 p. 732]
+Yet another variant is played as follows:[@WinningWaysV3 732]
 
 Write down the nine words ‘Spit’, ‘Not’, ‘So’, ‘Fat’, ‘Fop’, ‘As’, ‘If’, ‘In’, and ‘Pan’ on separate pieces of paper. The players take turns taking a single card. A player wins if they collect all the cards with a given letter (e.g.  ‘In’, ‘If’, and ‘Spit’ would win since these are all the words containing ‘i’).
 
@@ -449,7 +471,7 @@ Later (but still early, in the computing world) implementations of the game incl
 * <cite>Relay Moe</cite>[@RelayMoe] (relay-based, 1956), the first to
   be programmed with a variable strategy and with a chance of making a mistake
 
-Chickens have also been trained to ‘play’ the game.[@CrossOutALandmark][@TheChickenVanishes][@ChinatownFairIsBack] The first of these games, “Bird Brain”, was developed in the late 1970s by Animal Behavior Enterprises, a company founded by Marian &amp; Keller Breland, who were students of [B. F.  Skinner](https://en.wikipedia.org/wiki/B._F._Skinner), the behavioural psychologist.[@TheMouseWhoReinforced  p. 73] In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.[@BirdBrainManual]
+Chickens have also been trained to ‘play’ the game.[@CrossOutALandmark][@TheChickenVanishes][@ChinatownFairIsBack] The first of these games, “Bird Brain”, was developed in the late 1970s by Animal Behavior Enterprises, a company founded by Marian &amp; Keller Breland, who were students of [B. F.  Skinner](https://en.wikipedia.org/wiki/B._F._Skinner), the behavioural psychologist.[@TheMouseWhoReinforced 73] In reality, the game is rigged—the chicken only ever pushes a single button, and the move to be played is chosen by a computer.[@BirdBrainManual]
 
 > [!figure]
 >
