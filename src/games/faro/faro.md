@@ -28,3 +28,8 @@ Other names/variations:
 - German Stus/Stoß?/Stossen (Greek stoss?: https://forum.wordreference.com/threads/stoss-card-game.3844965/)
   - See drescription https://de.wikipedia.org/wiki/Sto%C3%9F_(Gl%C3%BCcksspiel)
 - Javanese: ꦕꦶꦠꦺꦴꦠꦶꦂ citotir https://archive.org/details/javaanschnederdu00geri/page/442/mode/2up?q=Javaanse+kaartspel, said to be the same as Stossen
+
+
+> mirandole. A term in the card game of faro, meaning to play only one card at a time and not double your bets. Faro (pharaon) is a simple French gambling game in which a banker plays individually against any number of players and winning depends on the matching of cards. To stake en routé is to bet repeatedly on the same lucky card. Paroli means to double bets on the same card, indicated by bending down the corners of the card. To punt is to place a bet against the bank.
+
+https://www.jstor.org/stable/24757207?read-now=1&seq=1#page_scan_tab_contents

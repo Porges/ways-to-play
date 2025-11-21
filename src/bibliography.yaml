@@ -17370,6 +17370,22 @@ DeVoogtMakonn:
   page: 147-152
   URL: https://bgsj.ludus-opuscula.org/Home/ArticleDetails/104
   in: *bgs8
+DeVoogtDames:
+  type: article-journal
+  title: '<span lang="fr">Jeu de dames</span>: A Game for Women in Renaissance Europe'
+  author:
+  - *Alex_de_Voogt
+  - given: Wim
+    family: van Mourik
+  page: 152-164
+  URL: https://www.jstor.org/stable/26431528
+  in:
+    title: Early Modern Women
+    volume: 12
+    issue: 1
+    issued:
+      year: 2017
+      season: Fall
 StoepChessQueen:
   type: article-journal
   author:
@@ -22435,8 +22451,7 @@ ChessGoEdgelessness:
       month: 1
 GroupsGrid:
   type: chapter
-  title: Groups on the Grid
-  #subtitle: <span lang="zh-Latn">Weiqi</span> Cultures in Song–Yuan–Ming China
+  title: 'Groups on the Grid: <span lang="zh-Latn">Weiqi</span> Cultures in Song–Yuan–Ming China'
   author:
   - given: Zach
     family: Berge–Becker
@@ -22665,3 +22680,61 @@ TrickyGame:
     title: Oriens Extremus
     volume: 55
     issued: 2016
+NameOfNim:
+  type: article-journal
+  title: The Name of the Game of Nim
+  author:
+  - given: Alan S. C.
+    family: Ross
+  URL: https://www.jstor.org/stable/3608940
+  page: 119-120
+  in:
+    title: The Mathematical Gazette
+    volume: 37
+    issue: 320
+    issued:
+      year: 1953
+      month: 5
+PrehistoryOfNim:
+  type: article-journal
+  title: A Prehistory of Nim
+  author:
+  - given: Lisa
+    family: Rougetet
+  page: 358-363
+  URL: https://www.jstor.org/stable/10.4169/college.math.j.45.5.358
+  in:
+    title: The College Mathematics Journal
+    volume: 45
+    issue: 5
+    issued:
+      month: 11
+      year: 2014
+PeranakanKelantan:
+  type: article-journal
+  title: Peranakan Chinese in Northeast Kelantan with special reference to Chinese Religion
+  author:
+  - given: Tan
+    family: Chee-Beng
+  page: 26-52
+  URL: https://www.jstor.org/stable/41492910
+  in:
+    title: Journal of the Malaysian Branch of the Royal Asiatic Society
+    volume: 55
+    issue: 242
+    issued: 1982
+LivingCarriers:
+  type: article-journal
+  title: 'Living Carriers in the East: Chinese <span lang="es">Cargadores</span> in Nineteenth-Century Manila'
+  author:
+  - given: Jely A.
+    family: Galang
+  page: 71-108
+  URL: https://www.jstor.org/stable/48650523
+  in:
+    title: "Philippine Studies: Historical & Ethnographic Variants"
+    volume: 69
+    issue: 1
+    issued:
+      year: 2021
+      month: 3
