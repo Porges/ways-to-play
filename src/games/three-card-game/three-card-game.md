@@ -468,3 +468,25 @@ The game ends when a player is unable to pay their debts as they have run out of
 In Australia the game was played with standard “international” playing cards. There it is also called <span class="aka">cabul-card</span> or <span class="aka">two-three card</span>.[@WhatsTheBigDeal 668]
 
 ## The European Game
+
+Macao:
+
+In a letter from Madame de Gallatin[^gallatin]  to [Frederick II (Landgrave of Hesse-Kassel)](https://en.wikipedia.org/wiki/Frederick_II,_Landgrave_of_Hesse-Kassel), dated the 2nd of February 1774:[@BriefeVoltaire 198]
+
+[^gallatin]: née Susanne Vaudenet, married Abraham Gallatin of Pregny in 1732.[@AdamsGallatin 5] A near neighbour of Voltaire.
+
+> [!multi]
+>
+> <p lang="fr">
+> Je connois le Cavagnol L’ayant joüé tout vn hiver chez feu M<sup>r</sup> de Gauffecourt a Montbrillant. Je dinois hier chez notre ami avec M<sup>r</sup> le Comte de Schevalof General Russe, à qui on atribuoit d’avoir apporté le jeu du Macao a Genêve. Comme on L'a péffendu ici il a bien voulu que l’on crû que c’étoit Lui qui L’avoit apporté, mais il me dit que cetoit vne Dame d’ici qui L’avoit aporté d’Italie, il part dans deux jours pour la Russie.
+> </p>
+>
+> I am familiar with Cavagnole, having played it for a whole winter at the late Monsieur de Gauffecourt’s home in Montbrillant. I was dining yesterday at our friend’s with Count Shuvalov, a Russian General, who was credited with having brought the game of Macao to Geneva.[^shuvalov] As it has been forbidden here, he was quite happy for people to believe it was he who had brought it, but he told me it was a local lady who had brought it from Italy. He leaves for Russia in two days.
+
+[^shuvalov]: Perhaps [Ivan Ivanovich Shuvalov](https://en.wikipedia.org/wiki/Ivan_Shuvalov), who was made general in 1760 but actually refused the title of ‘Count’.
+
+Catherine the Great hosted a Macao game in February 1778 in which each player who achieved a ‘9’ would win a diamond from a box on the table.[@KahnCatherine] William Coxe, visiting Russia later that year in August, also describes seeing her playing the game at court in St Petersburg.[@Coxe_1 490–505] Notably, Coxe does not describe the game in any way, indicating that it must have been familiar to his readers.
+
+Mentioned in @BanKartenSpiel [1049], @BanKartenSpiel2.
+
+in @DOrvillePrecis [395], the game is listed with the note that its history ‘does not go back very far’.

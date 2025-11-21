@@ -22230,3 +22230,109 @@ DictionarySundanese:
       lang: nl
     volume: 29
   notes: Search for ‘game’, for example.
+BriefeVoltaire:
+  type: article-journal
+  author:
+  - given: E.
+    family: Stengel
+  title:
+    value: Ungedruckte Briefe Voltaire’s an Friedrich den Grossen und an den Landgrafen von Hessen-Kassel nebst Auszügen aus dem Briefwechsel der Madame de Gallatin an den Landgrafen
+    lang: de
+    alt: Unpublished letters of Voltaire to Frederick the Great and to the Landgrave of Hesse-Kassel together with excerpts from the correspondence of Madame de Gallatin to the Landgrave
+  page: 71–96, 173–218
+  URL: https://archive.org/details/zeitschriftfrf07wiesuoft/page/n84
+  in:
+    title:
+      value: Zeitschrift für neufranzösische Sprache und Literatur
+      lang: de
+    issued:
+      year: 1885
+      month: 9
+      day: 15
+    volume: 7
+    issue: 3
+AdamsGallatin:
+  type: book
+  title: The Life of Albert Gallatin
+  URL: https://www.gutenberg.org/ebooks/45654
+  issued: 1879
+  publisher: J. B. Lippincott & Co.
+  author:
+  - given: Henry
+    family: Adams
+KahnCatherine:
+  type: book
+  title: 'Catherine the Great: Selected Letters'
+  ISBN: '9780191056130'
+  author:
+  - given: Andrew
+    family: Kahn
+  - given: Kelsey
+    family: Rubin–Detlev
+  issued: 2018
+  series:
+    title: Oxford World’s Classics
+  publisher: Oxford University Press
+Coxe_1:
+  type: book
+  title: Travels into Poland, Russian, Sweden, and Denmark
+  author:
+  - given: William
+    family: Coxe
+    url: https://en.wikipedia.org/wiki/William_Coxe_(historian)
+  URL: https://archive.org/details/b28772660_0001
+  issued: 1784
+  volume: 1
+  publisher: T. Cadell
+  publisher-place: London
+BanKartenSpiel:
+  type: article-magazine
+  title:
+    value: 'Ein Brief über die Frage: Ist es rathsam, das kartenspiel aus unfern Gefellschaften zu vergrängen?'
+    lang: de
+  page: 1041–1056
+  language: de
+  URL: https://archive.org/details/hannoverischesma21slsn/page/505
+  in:
+    title:
+      value: 'Hannoverisches Magazin'
+      lang: de
+    volume: 21
+    issue: 66
+    issued:
+      year: 1783
+      month: 9
+      day: 18
+      OS: true
+BanKartenSpiel2:
+  type: article-magazine
+  title:
+    value: 'Ein Brief über die Frage: Ist es rathsam, das kartenspiel aus unfern Gefellschaften zu vergrängen? (Schluß)'
+    lang: de
+  URL: https://archive.org/details/hannoverischesma21slsn/page/513
+  page: 1057–1062
+  language: de
+  in:
+    title:
+      value: 'Hannoverisches Magazin'
+      lang: de
+    volume: 21
+    issue: 67
+    issued:
+      year: 1783
+      month: 9
+      day: 22
+      OS: true
+DOrvillePrecis:
+  type: book
+  title:
+    value: Precis d’une histoire générale de la vie privée des François
+    lang: fr
+  language: fr
+  URL: https://archive.org/details/bub_gb_jVR7uljHUsUC
+  author:
+  - given: Contant
+    family: d’Orville
+    url: https://fr.wikipedia.org/wiki/Andr%C3%A9-Guillaume_Contant_d%27Orville
+  issued: 1779
+  publisher-place: Paris

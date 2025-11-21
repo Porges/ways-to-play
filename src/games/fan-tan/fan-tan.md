@@ -389,3 +389,6 @@ Totog: https://archive.org/details/soendaneesch-hollandsch-woordenboek/page/706/
 > maen totog (Kad. = Kadipatèn Mangkunagaran), a game, in which one throws a lance at a given target
 
 (ma)togtog @KamusBaliIndonesia 735
+
+
+Account ( abit racist): https://www.sabrizain.org/malaya/library/yellowwhite.pdf
