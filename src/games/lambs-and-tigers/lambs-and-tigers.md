@@ -28,3 +28,5 @@ Bagh Chal as well:
 @TigerGoatsDraw
 
 Bagh Chal in Nepali https://archive.org/details/in.ernet.dli.2015.146785/page/n443
+
+Tibet: @PeopleOfTibet [214].

@@ -8658,6 +8658,16 @@ GamesOfTheTibetans:
     title: FF Communications
     volume: 77
     number: 187
+PeopleOfTibet:
+  type: book
+  title: The People of Tibet
+  author:
+  - given: Charles
+    family: Bell
+    url: https://en.wikipedia.org/wiki/Charles_Alfred_Bell
+  publisher: Oxford University Press
+  issued: 1928
+  URL: https://archive.org/details/PeopleTibet
 Tawula:
   type: book
   title: "<span lang='ar-Latn'>Tāwula</span>: A Study in Arabic Folklore"
@@ -9920,6 +9930,19 @@ ChenHongshou:
   publisher: Ashgate
   series:
     title: Visual Culture in Early Modernity
+ChenHongshou2:
+  type: article-journal
+  author:
+  - given: Tamara Heimarck
+    family: Bentley
+  title: Authenticity and the Expanding Market in Cheng Hongshou’s Seventeenth-Century Printed Playing Cards
+  page: 147-188
+  URL: https://www.jstor.org/stable/40599610
+  in:
+    title: Artibus Asiae
+    volume: 69
+    issue: 1
+    issued: 2009
 GamesAndGamingEMD:
   type: book
   title: "Games and Gaming in Early Modern Drama: Stakes and Hazards"
@@ -19288,6 +19311,7 @@ DavisIndianGames2:
 WaltesLeonard:
   type: chapter
   title: Why <i>Waltes</i> Was a Woman’s Game
+  URL: https://www.jstor.org/stable/jj.33676916.7
   author:
   - given: Kevin
     family: Leonard
@@ -19311,6 +19335,7 @@ AncientPatolli:
   - *BarbaraVoorhies
   page: 197-218
   in: *PrehistoricMesoamerica
+  URL: https://www.jstor.org/stable/jj.33676916.17
 HowYouPlaySpades:
   type: webpage
   title: How You Play Spades Is How You Play Life
@@ -22336,3 +22361,307 @@ DOrvillePrecis:
     url: https://fr.wikipedia.org/wiki/Andr%C3%A9-Guillaume_Contant_d%27Orville
   issued: 1779
   publisher-place: Paris
+MahjongAttitude:
+  type: article-journal
+  author:
+  - given: Elisabeth
+    family: Papineau
+  - given: Michael
+    family: Black
+  page: 29-42
+  title: 'Mah-jong, a Game with Attitude: Expression of an alternative culture'
+  URL: https://www.jstor.org/stable/43392895
+  in:
+    title: China Perspectives
+    issue: 28
+    issued: 2000
+WeiqiChinese:
+  type: article-journal
+  author:
+  - given: Elisabeth
+    family: Papineau
+  - given: Michael
+    family: Black
+  page: 43-55
+  URL: https://www.jstor.org/stable/24050924
+  title: The game of <span lang="zh-Latn">weiqi</span>, a Chinese way of seeing the world
+  in:
+    title: China Perspectives
+    issue: 33
+    issued: 2001
+CobbGo:
+  type: article-journal
+  title: The Game of Go
+  #subtitle: An Unexpected Path to Enlightenment
+  author:
+  - given: William S.
+    family: Cobb
+  page: 199-213
+  URL: https://www.jstor.org/stable/44362178
+  in:
+    title: The Eastern Buddhist
+    volume: 30 (New Series)
+    issue: 2
+    issued: 1997
+SchumerGo:
+  type: article-journal
+  title: Life and Death on the Go Board
+  author:
+  - given: Peter
+    family: Schumer
+  page: 16-19
+  URL: https://www.jstor.org/stable/25678352
+  in:
+    title: Math Horizons
+    volume: 9
+    issue: 3
+    issued:
+      year: 2002
+      month: 2
+ChessGoEdgelessness:
+  type: article-journal
+  title: Chess, Go, and Edgelessness
+  author:
+  - given: Fred G.
+    family: Stockton
+  page: 142-145
+  URL: https://www.jstor.org/stable/27826423
+  in:
+    title: American Scientist
+    volume: 40
+    issue: 1
+    issued:
+      year: 1952
+      month: 1
+GroupsGrid:
+  type: chapter
+  title: Groups on the Grid
+  #subtitle: <span lang="zh-Latn">Weiqi</span> Cultures in Song–Yuan–Ming China
+  author:
+  - given: Zach
+    family: Berge–Becker
+  page: 22-39
+  URL: https://www.jstor.org/stable/jj.23996201.6
+  in: &GamesChineseSinophone
+    title: Games and Play in Chinese and Sinophone Cultures
+    issued: 2024
+    URL: https://www.jstor.org/stable/jj.23996201
+    ISBN: '978-0-295-75241-9'
+    editor:
+    - given: Li
+      family: Guo
+    - given: Douglas
+      family: Eyman
+    - given: Hongmei
+      family: Sun
+    publisher: University of Washington Press
+GuardePaz:
+  type: chapter
+  title: 'Newly Discovered Game Board Rock Carvings in Hong Kong: Apotropaic Symbolism or Ludic Culture?'
+  author:
+  - given: César
+    family: Guarde-Paz
+  page: 40-57
+  URL: https://www.jstor.org/stable/jj.23996201.7
+  in: *GamesChineseSinophone
+SplendidJourneys:
+  type: chapter
+  title: 'Splendid Journeys: The Board Games of a Late Qing Scholar'
+  author:
+  - given: Rania
+    family: Huntington
+  page: 58-77
+  URL: https://www.jstor.org/stable/jj.23996201.8
+  in: *GamesChineseSinophone
+CourtesanKickball:
+  type: chapter
+  title: 'Exclusive Pleasures on the Cheap: Yuan Dynasty <span lang="zh-Latn">Sanqu</span> Songs on Courtesan Kickball'
+  author:
+  - given: Patricia
+    family: Sieber
+  page: 78-99
+  URL: https://www.jstor.org/stable/jj.23996201.9
+  in: *GamesChineseSinophone
+GamesErotic:
+  type: chapter
+  title: 'Games in Late Ming and Early Qing Erotic Literature'
+  author:
+  - given: Jie
+    family: Guo
+  page: 100-116
+  URL: https://www.jstor.org/stable/jj.23996201.10
+  in: *GamesChineseSinophone
+GreenBower:
+  type: chapter
+  title: 'The Courtesans’ Drinking Games in <cite>The Dream in the Green Bower</cite>'
+  author:
+  - given: Li
+    family: Guo
+  page: 100-116
+  URL: https://www.jstor.org/stable/jj.23996201.11
+  in: *GamesChineseSinophone
+GhostlyDicing:
+  type: chapter
+  title: 'Ghostly Dicing: Gambling Games and Deception in Ming–Qing Short Stories'
+  author:
+  - given: Jiayi
+    family: Chen
+  page: 138-156
+  URL: https://www.jstor.org/stable/jj.23996201.12
+  in: *GamesChineseSinophone
+PlayingJourney:
+  type: chapter
+  title: 'Playing <cite>Journey to the West</cite>'
+  author:
+  - given: Hongmei
+    family: Sun
+  page: 157-172
+  URL: https://www.jstor.org/stable/jj.23996201.13
+  in: *GamesChineseSinophone
+MancalaAsNim:
+  type: article-journal
+  title: Mancala as Nim
+  author:
+  - given: Whitney Rhianna
+    family: Fillers
+  - given: Bill
+    family: Linderman
+  - given: Andrew
+    family: Simoson
+  URL: https://www.jstor.org/stable/10.4169/college.math.j.45.5.350
+  page: 350-356
+  in:
+    title: The College Mathematics Journal
+    volume: 45
+    issue: 5
+    issued:
+      year: 2014
+      month: 11
+MancalaRemainder:
+  type: article-journal
+  title: Solitaire Mancala Games and the Chinese Remainder Theorem
+  author:
+  - given: Brant
+    family: Jones
+  - given: Laura
+    family: Taalman
+  - given: Anthony
+    family: Tongen
+  page: 706-724
+  URL: https://www.jstor.org/stable/10.4169/amer.math.monthly.120.08.706
+  in:
+    title: The American Mathematical Monthly
+    volume: 120
+    issue: 8
+    issued:
+      year: 2013
+      month: 10
+MancalaMatrices:
+  type: article-journal
+  title: Mancala Matrices
+  author:
+  - given: Laura
+    family: Taalman
+  - given: Anthony
+    family: Tongen
+  - given: B.
+    family: Warren
+  - given: F.
+    family: Wyrick–Flax
+  - given: I.
+    family: Yoon
+  page: 273-283
+  URL: https://www.jstor.org/stable/10.4169/college.math.j.44.4.273
+  in:
+    title: The College Mathematics Journal
+    volume: 44
+    issue: 4
+    issued:
+      year: 2013
+      month: 9
+ChenShaoYong:
+  type: article-journal
+  title: 'Shen Yong’s (1011–77) “Great Chant on Observing <span lang="zh-Latn">Weiqi</span>”: An Archetype of Neo-Confucian Poetry'
+  author:
+  - given: Zu-yan
+    family: Chen
+  page: 199-221
+  URL: https://www.jstor.org/stable/20064478
+  in:
+    title: Journal of the American Oriental Society
+    volume: 126
+    issue: 2
+    issued: 2006
+GameOfSim:
+  type: article-journal
+  title: 'The Game of Sim: A Winning Strategy for the Second Player'
+  author:
+  - given: Ernest
+    family: Mead
+  - given: Alexander
+    family: Rosa
+  - given: Charlotte
+    family: Huang
+  page: 243-247
+  URL: https://www.jstor.org/stable/2688046
+  in:
+    title: Mathematics Magazine
+    volume: 47
+    issue: 5
+    issued:
+      year: 1974
+      month: 11
+PlayingAtEmpire:
+  type: article-journal
+  title: 'Playing at Empire: The Ludic Fantasy of <span lang="ja-Latn">Sugoroku</span> in Early-Twentieth-Century Japan'
+  author:
+  - given: Charlotte
+    family: Eubanks
+  page: 36-57
+  URL: https://doi.org/10.5749/vergstudglobasia.2.2.0036
+  in:
+    title: 'Verge: Studies in Global Asias'
+    issued:
+      year: 2016
+      season: Fall
+    volume: 2
+    issue: 2
+DicingAndDivination:
+  type: article-journal
+  title: Dicing and Divination in Early China
+  author:
+  - given: Mark Edward
+    family: Lewis
+  URL: https://sino-platonic.org/complete/spp121_dicing_divination_china.pdf
+  archive-URL: https://web.archive.org/web/20250929214118/https://sino-platonic.org/complete/spp121_dicing_divination_china.pdf
+  in:
+    title: Sino-Platonic Papers
+    issue: 121
+    issued:
+      year: 2002
+      month: 7
+ShengguanTu:
+  type: article-journal
+  title: The Chinese Game of <span lang="zh-Latn">Shengguan tu</span>
+  author:
+  - given: Carole
+    family: Morgan
+  page: 517-532
+  URL: https://www.jstor.org/stable/4132278
+  in:
+    title: Journal of the American Oriental Society
+    volume: 124
+    issue: 3
+    issued: 2004
+TrickyGame:
+  type: article-journal
+  title: 'A Tricky Game: A Re-evaluation of <span lang="zh-Latn">Liubo</span> <span lang="zh">六博</span> Based Upon Archaeological and Textual Evidence'
+  author:
+  - given: Armin
+    family: Selbitschka
+  page: 105-166
+  URL: https://www.jstor.org/stable/26402201
+  in:
+    title: Oriens Extremus
+    volume: 55
+    issued: 2016
