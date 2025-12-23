@@ -909,7 +909,7 @@ impl Converter<'_> {
 
                 html! {
                     span.dice {
-                        @for c in children.into_iter().intersperse(html! { "\u{2009}" }) {
+                        @for c in Itertools::intersperse(children.into_iter(), html! { "\u{2009}" }) {
                             (c)
                         }
                     }

@@ -39,6 +39,20 @@ fn backfill_isbn(reference: &Reference) -> Cow<'_, Reference> {
                 .insert(format!("isbn:{}", isbn.0));
             return Cow::Owned(result);
         }
+        Reference::Chapter(
+            c @ Chapter {
+                book: b @ Book {
+                    isbn: Some(isbn), ..
+                },
+                ..
+            },
+        ) => {
+            let mut b = b.clone();
+            b.common.identifiers.insert(format!("isbn:{}", isbn.0));
+            let mut result = c.clone();
+            result.book = b;
+            return Cow::Owned(Reference::Chapter(result));
+        }
         _ => {}
     }
 
