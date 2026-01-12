@@ -115,7 +115,8 @@ GreatShogi:
   publisher-place: Bromley, Kent, England, UK
 Hanafuda:
   type: book
-  title: "Hanafuda: The Flower Card Game"
+  title: Hanafuda
+  subtitle: The Flower Card Game
   issued:
     year: 2010
     month: 11
@@ -1067,6 +1068,7 @@ RiichiBook1:
 HanamiHanafuda:
   type: book
   title: Hanafuda Games
+  subtitle: Hanami Edition
   author:
     - given: Jason
       family: Johnson
@@ -10471,7 +10473,8 @@ ChuTzuEarlyChinese:
       number: 2
 HachiHachi:
   type: book
-  title: "Hachi Hachi (Eighty-Eight): Japanese Card Game"
+  title: Hachi Hachi (Eighty-Eight)
+  subtitle: Japanese Card Game
   author:
   - given: “Stray Sheep”
     alt:
@@ -10482,7 +10485,8 @@ HachiHachi:
   issued: 1948
 Gimmi88:
   type: book
-  title: "Gimmi 88: The Popular Japanese Card Game"
+  title: Gimmi 88
+  subtitle: The Popular Japanese Card Game
   publisher: The Katagiri Brothers
   author:
   - given: N.
@@ -22887,3 +22891,131 @@ LeBacara:
     value: Béthune et Plon
     lang: fr
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k5401850x/f40.double
+CurriculumOfVira:
+  type: webpage
+  title: A Curriculum of Vira
+  author:
+    - family: Smith
+      given: Z. D.
+  issued:
+    year: 2019
+  URL: https://blog.zdsmith.com/pages/a-curriculum-of-vira.html
+  archive-URL: https://web.archive.org/web/20191228040401/https://blog.zdsmith.com/posts/a-curriculum-of-vira.html
+  container-title: Subset Park
+HanafudaNoKihon:
+  type: book
+  title:
+    value: 花札の基本
+    lang: ja
+    alt: Hanafuda Basics
+  ISBN: '9784806914549'
+  editor:
+  - family: 山本
+    given: 茂
+    lang: ja
+    alt: Yamamoto Shigeru
+  issued: 2014
+  publisher:
+    value: つちや書店
+    lang: ja
+    alt: Tsuchiya Shoten
+Hanafuda28:
+  type: book
+  title:
+    value: 花札ゲーム28種
+    lang: ja
+    alt: 28 Hanafuda Games
+  issued: 1983
+  publisher:
+    value: 佐藤道亮
+    lang: ja
+    alt: Satō Michiaki
+  author:
+  - given: 一
+    family: 竹村
+    lang: ja
+    alt: Takemura Hajime
+  edition: 10
+  original-date:
+    year: 1975
+TsuyamaHanafuda:
+  type: book
+  title:
+    value: 花札
+    lang: ja
+    alt: Hanafuda
+  author:
+  - family: 津山
+    given: 一郎
+    lang: ja
+    alt: Tsuyama Ichirō
+  issued: 1951
+  edition: 3
+  publisher:
+    value: 竹内有二
+    lang: ja
+    alt: Takeuchi Yūji
+TrumpHanafuda:
+  type: book
+  title:
+    value: トランプ·花札ゲーム
+    lang: ja
+    alt: Trump and Hanafuda Games
+  author:
+  - given: 萬平
+    family: 大野
+    lang: ja
+    alt: Ōno Manpei
+  issued: 1971
+  publisher:
+    value: 永岡貞市
+    lang: ja
+    alt: Sadaichi Nagaoka
+  publisher-place: Osaka, Japan
+IchinoseHanafuda:
+  type: book
+  title:
+    value: 新しい花札入門
+    lang: ja
+    alt: New Introduction to Hanafuda
+  author:
+  - given: 武志
+    family: 一ノ瀬
+    lang: ja
+    alt: Ichinose Takeshi
+  URL: https://www5d.biglobe.ne.jp/~sak/kotengame/atarasii_hanafuda_nyuumon_7.pdf
+  issued: 2014
+  edition: 7
+DOI861681:
+  type: book
+  title:
+    value: 花かるた使用法
+    alt: How to Play Hanafuda
+    lang: ja
+  author:
+  - given: 山人
+    family: 竹窓
+    lang: ja
+    alt: Chikusō Yamato[?]
+  URL: https://doi.org/10.11501/861681
+  issued: 1886
+  publisher:
+    value: 上方屋
+    lang: ja
+    alt: Kamigataya
+DOI861682:
+  type: book
+  title:
+    value: '花かるた使用法: 一名・八十八独案'
+    lang: ja
+    alt: How to Play Hanafuda, or, A Guide to Hachi-Hachi
+  URL: https://doi.org/10.11501/861682
+  author:
+  - given: 八八居士
+    lang: ja
+    alt: ‘Eighty-Eight Layman’
+  publisher:
+    value: 駸々堂
+    lang: ja
+  issued: 1888
+  notes: Possibly a <span lang="ja">前田多門</span> <span lang="ja-Latn" class="noun">Maeda Tamon</span> writing under a pseudonym — the same title is referenced in Culin’s <cite>Games of the Orient</cite> (133). Note however that the most famous person by that name was not born at the right time…
