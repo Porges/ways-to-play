@@ -22738,3 +22738,135 @@ LivingCarriers:
     issued:
       year: 2021
       month: 3
+CreisselBat:
+  type: article-journal
+  title:
+    value: 'Deux Jeux de Cartes Popularies en Pays d’Annam: Le Tam Cúc et le Bất'
+    lang: fr
+  author:
+  - given: René
+    family: de Creissel
+    lang: fr
+  in:
+    title:
+      value: Indochine, hebomadaire illustré
+      lang: fr
+    issued:
+      year: 1944
+      month: 11
+      day: 30
+  page: 11-14
+  URL: https://www.entreprises-coloniales.fr/inde-indochine/Jeux_cartes_Annam.pdf
+  archive-URL: https://web.archive.org/web/20251227140241/https://www.entreprises-coloniales.fr/inde-indochine/Jeux_cartes_Annam.pdf
+  language: fr
+DurwellCochinchine:
+  type: article-journal
+  title:
+    value: Le Jeu en Cochinchine
+    lang: fr
+  author:
+  - given: Georges
+    family: Dürwell
+  page: 5-26
+  in:
+    title:
+      value: Bulletin de la Société des Études Indochinoises
+      lang: fr
+    issued: 1901
+  URL: https://revues.vietnamica.online/version2/bsei/le-jeu-en-cochinchine_1901_semestre_1/
+  language: fr
+BrebionCochinchinois:
+  type: article-journal
+  author:
+  - given: Ant.
+    family: Brébion
+  title:
+    value: Passe-temps et Jeux Indochinois
+    lang: fr
+  page: 499-532
+  in:
+    title:
+      value: Revue Indochinoise
+      lang: fr
+    volume: 15 (new series)
+    issue: 5
+    issued:
+      year: 1911
+      month: 5
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k44109234/f514.item
+  language: fr
+DumoutierMouers:
+  type: article-journal
+  title:
+    value: 'Mœurs d’Annam: Pratiques et Croyances Populaires'
+    lang: fr
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k4410688f/f17.item
+  page: 289-290
+  author:
+  - family: Dumoutier
+    given: Gustave
+    lang: fr
+  in:
+    title:
+      value: Revue Indo-Chinoise
+      lang: fr
+    issued:
+      year: 1900
+      month: 3
+      day: 19
+  language: fr
+SiamJeux:
+  type: article-journal
+  language: fr
+  title:
+    value: 'Siam: Les Jeux de hasard'
+    lang: fr
+  page: 354-355
+  author:
+  - given: C.
+    family: Mus.
+  in:
+    title:
+      value: Revue Indochinoise
+      lang: fr
+    volume: 25 (new series)
+    issued:
+      year: 1916
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k44109145/f181.item
+CMus2:
+  type: article-journal
+  title:
+    lang: fr
+    value: 'II. — Inde anglaise et Siam'
+  language: fr
+  author:
+  - given: C.
+    family: Mus.
+  page: 674-678
+  notes: Games section from page 677.
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k44109286/f699.item
+  in:
+    title:
+      value: Revue Indochinoise
+      lang: fr
+    volume: 20 (new series)
+    issued:
+      year: 1913
+Jeu36Betes:
+  type: article-journal
+  title:
+    lang: fr
+    value: Le jeu des trente-six bêtes
+  language: fr
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k4410683c/f124.item
+  page: 99-100
+  in:
+    title:
+      value: Revue Indochinoise
+      lang: fr
+    volume: 3 (new series)
+    issued:
+      year: 1900
+      month: 1
+      day: 22
+    issue: 66
