@@ -22870,3 +22870,20 @@ Jeu36Betes:
       month: 1
       day: 22
     issue: 66
+LeBacara:
+  type: book
+  title:
+    value: 'Le Bacara et le Craps'
+    lang: fr
+  author:
+  - given: Auguste
+    family: Barthélemy
+    lang: fr
+    url: https://en.wikipedia.org/wiki/Auguste-Marseille_Barth%C3%A9lemy
+  issued: 1843
+  language: fr
+  publisher-place: Paris
+  publisher:
+    value: Béthune et Plon
+    lang: fr
+  URL: https://gallica.bnf.fr/ark:/12148/bpt6k5401850x/f40.double
