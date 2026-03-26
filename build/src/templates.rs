@@ -46,8 +46,11 @@ impl OutputFile {
 }
 
 pub trait BaseMetadata {
+    /// Title for display on page
     fn title_markup(&self) -> &Markup;
-    fn title_string(&self) -> &str;
+
+    /// Title for insertion into <title>
+    fn title_without_tags(&self) -> &Markup;
 
     fn title_lang(&self) -> Option<&str> {
         None
@@ -69,7 +72,6 @@ pub trait BaseMetadata {
 }
 
 struct SimplePage {
-    title_string: String,
     title_markup: Markup,
     url_path: Cow<'static, str>,
     last_modified: Option<time::Date>,
@@ -82,7 +84,6 @@ impl SimplePage {
         last_modified: Option<time::Date>,
     ) -> Self {
         Self {
-            title_string: title.to_string(),
             title_markup: html! { (title) },
             url_path,
             last_modified,
@@ -95,8 +96,8 @@ impl BaseMetadata for SimplePage {
         &self.title_markup
     }
 
-    fn title_string(&self) -> &str {
-        &self.title_string
+    fn title_without_tags(&self) -> &Markup {
+        &self.title_markup
     }
 
     fn url_path(&self) -> &str {
@@ -157,9 +158,9 @@ impl Templater {
                     //meta name="generator" content="Eleventy";
                     meta name="theme-color" content="#000000";
                     meta name="robots" content="noai,noimageai";
-                    title { (metadata.title_string()) " · Ways To Play" }
+                    title { (metadata.title_without_tags()) " · Ways To Play" }
                     meta property="og:site_name" content="Ways To Play";
-                    meta property="og:title" content=(metadata.title_string()) lang=[metadata.title_lang()];
+                    meta property="og:title" content=(metadata.title_without_tags()) lang=[metadata.title_lang()];
                     meta property="og:url" content=(url);
                     @if let Some(og_type) = metadata.og_type() {
                         meta property="og:type" content=(og_type);
@@ -418,7 +419,7 @@ impl Templater {
             .map(|f| {
                 let string_content = str::from_utf8(&f.content).unwrap();
                 let without_dialogs_and_references = regex.replace_all(string_content, "");
-                let text_value = crate::string_value_of_html(&without_dialogs_and_references);
+                let text_value = crate::html_without_tags(&without_dialogs_and_references).0;
                 let mut word_count = 0;
                 let mut iter = segmenter.segment_str(&text_value);
                 while iter.next().is_some() {
@@ -496,7 +497,7 @@ impl Templater {
         &self,
         games: impl Iterator<Item = &'a T>,
     ) -> Result<OutputFile> {
-        let games_all = Vec::from_iter(games.sorted_by_key(|g| g.title_string()));
+        let games_all = Vec::from_iter(games.sorted_by_key(|g| &g.title_without_tags().0));
         let modification_date = games_all.iter().filter_map(|g| g.modification_date()).max();
 
         let player_options = games_all
@@ -561,7 +562,7 @@ impl Templater {
             ul.columnar #games-list {
                 @for game in games_all {
                     li
-                        data-name=(game.title_string())
+                        data-name=(game.title_without_tags())
                         data-countries=(game.countries().iter().map(|c| c.alpha2).join(","))
                         data-players=[game.players()]
                         data-equipment=[game.equipment()]

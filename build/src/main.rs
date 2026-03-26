@@ -89,14 +89,14 @@ fn sanitized_html(value: &str) -> Markup {
     maud::PreEscaped(AMMONIA.clean(value).to_string())
 }
 
-fn string_value_of_html(value: &str) -> String {
+fn html_without_tags(value: &str) -> Markup {
     static AMMONIA: LazyLock<ammonia::Builder> = LazyLock::new(|| {
         let mut builder = ammonia::Builder::new();
         builder.tags(HashSet::new()); // strip all tags
         builder
     });
 
-    AMMONIA.clean(value).to_string()
+    maud::PreEscaped(AMMONIA.clean(value).to_string())
 }
 
 #[cfg(test)]
@@ -112,9 +112,9 @@ mod sanitization_tests {
     }
 
     #[test]
-    pub fn test_string_value_of_html() {
+    pub fn test_html_without_tags() {
         assert_eq!(
-            string_value_of_html("simple <a href='something'>link</a>"),
+            html_without_tags("simple <a href='something'>link</a>").0,
             "simple link"
         );
     }
@@ -157,7 +157,7 @@ impl YamlHeader for ArticleHeader {
             );
         }
 
-        let title_string = string_value_of_html(&title.0);
+        let title_no_tags = html_without_tags(&title.0);
 
         let date_created = take_header(header, "date created")
             .as_str()
@@ -180,7 +180,7 @@ impl YamlHeader for ArticleHeader {
 
         Ok(ArticleHeader {
             title,
-            title_string,
+            title_no_tags,
             title_lang,
             original_title,
             date_modified,
@@ -220,7 +220,7 @@ impl YamlHeader for GameHeader {
 
 pub struct ArticleHeader {
     title: Markup,
-    title_string: String,
+    title_no_tags: Markup,
     title_lang: Option<String>,
     original_title: Option<Markup>,
     date_modified: Option<time::Date>,
@@ -234,8 +234,8 @@ impl<T: Borrow<ArticleHeader>> BaseMetadata for File<T> {
         &self.metadata.borrow().title
     }
 
-    fn title_string(&self) -> &str {
-        &self.metadata.borrow().title_string
+    fn title_without_tags(&self) -> &Markup {
+        &self.metadata.borrow().title_no_tags
     }
 
     fn title_lang(&self) -> Option<&str> {
@@ -572,7 +572,7 @@ impl Builder {
                 .metadata
                 .order
                 .as_deref()
-                .unwrap_or(&article.metadata.title_string);
+                .unwrap_or(&article.metadata.title_no_tags.0);
 
             node.url_path = &article.url_path;
             node.draft = article.metadata.draft;
