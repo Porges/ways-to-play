@@ -6,7 +6,6 @@ use std::{
     ffi::OsStr,
     io::Write,
     path::{Path, PathBuf},
-    process::{self},
     str::FromStr,
     sync::{Arc, LazyLock, Mutex},
     time::Duration,
@@ -108,7 +107,7 @@ mod sanitization_tests {
     pub fn test_sanitized_html() {
         assert_eq!(
             sanitized_html("simple <a href='something'>link</a>").0,
-            "simple <a href='something'>link</a>"
+            "simple <a href=\"something\" rel=\"noopener noreferrer\">link</a>"
         );
     }
 
@@ -427,20 +426,9 @@ impl Builder {
 
     fn load_bib(&mut self) -> Result<()> {
         let target_bib = self.base_path.join("bibliography.yaml");
+        let bib_file = std::fs::File::open(target_bib).wrap_err("opening bibliography.yaml")?;
 
-        let converted_bib = process::Command::new("yq")
-            .args([OsStr::new("-o"), OsStr::new("json"), target_bib.as_os_str()])
-            .output()
-            .context("Running `yq` to convert bibliography")?;
-
-        if !converted_bib.status.success() {
-            bail!(
-                "`yq` failed: {}",
-                String::from_utf8_lossy(&converted_bib.stderr)
-            );
-        }
-
-        let bibliography = serde_json::from_slice(&converted_bib.stdout)?;
+        let bibliography = serde_saphyr::from_reader(bib_file)?;
         self.rendered_bibliography = bib_render::to_rendered(&bibliography);
 
         info!(

@@ -586,6 +586,8 @@ fn render_date(reference: &Reference) -> Markup {
     }
 }
 
+/// Returns the number as an ordinal:
+///
 pub fn ordinal(n: u64) -> String {
     let mut num = n.to_string();
     num.push_str(if num.ends_with("1") && !num.ends_with("11") {
@@ -599,6 +601,25 @@ pub fn ordinal(n: u64) -> String {
     });
 
     num
+}
+
+#[cfg(test)]
+mod test {
+    use super::ordinal;
+
+    #[test]
+    fn test_ordinal() {
+        assert_eq!(ordinal(0), "0th");
+        assert_eq!(ordinal(1), "1st");
+        assert_eq!(ordinal(2), "2nd");
+        assert_eq!(ordinal(3), "3rd");
+        assert_eq!(ordinal(4), "4th");
+        assert_eq!(ordinal(10), "10th");
+        assert_eq!(ordinal(11), "11th");
+        assert_eq!(ordinal(12), "12th");
+        assert_eq!(ordinal(13), "13th");
+        assert_eq!(ordinal(123), "123rd");
+    }
 }
 
 fn render_lstr(

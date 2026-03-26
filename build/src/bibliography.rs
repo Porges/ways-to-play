@@ -1,4 +1,5 @@
 use std::{
+    borrow::Cow,
     collections::{BTreeMap, BTreeSet},
     convert::Infallible,
     str::FromStr,
@@ -673,8 +674,8 @@ impl<'de> Deserialize<'de> for LString {
                 let mut lang = None;
                 let mut alt = None;
 
-                while let Some((k, v)) = map.next_entry()? {
-                    match k {
+                while let Some((k, v)) = map.next_entry::<Cow<'de, str>, String>()? {
+                    match k.as_ref() {
                         "value" => {
                             if value.is_some() {
                                 return Err(de::Error::duplicate_field("value"));
@@ -699,7 +700,7 @@ impl<'de> Deserialize<'de> for LString {
 
                             alt = Some(v);
                         }
-                        _ => return Err(de::Error::unknown_field(k, &["value", "lang", "alt"])),
+                        _ => return Err(de::Error::unknown_field(&k, &["value", "lang", "alt"])),
                     }
                 }
 
@@ -715,6 +716,8 @@ impl<'de> Deserialize<'de> for LString {
     }
 }
 
+// isbn::Isbn implements serialize/deserialize weirdly,
+// we want to to go to/from a string, so wrap it
 #[derive(Debug, Clone)]
 pub struct Isbn(pub isbn::Isbn);
 
