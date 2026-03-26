@@ -6,31 +6,31 @@ publish = false
 license = "MIT"
 
 [dependencies]
-ammonia = "4.1.1"
-celes = "2.6.0"
-clap = { version = "4.5.45", features = ["derive"] }
+ammonia = "4.1.2"
+celes = "2.8.2"
+clap = { version = "4.6.0", features = ["derive"] }
 dunce = "1.0.5"
 eyre = "0.6.12"
-icu = { version = "2.0.0", features = ["experimental", "serde"] }
-icu_provider = { version = "2.0.0", features = ["sync"] }
-indexmap = "2.10.0"
-isbn = { version = "0.6.0" }
+icu = { version = "2.1.1", features = ["experimental", "serde"] }
+icu_provider = { version = "2.1.1", features = ["sync"] }
+indexmap = "2.13.0"
+isbn = { version = "0.8.20260326" }
 itertools = "0.14.0"
 markdown = "1.0.0"
 maud = "0.27.0"
 notify = "8.2.0"
-notify-debouncer-full = "0.6.0"
+notify-debouncer-full = "0.7.0"
 rayon = "1.11.0"
-regex = "1.11.1"
+regex = "1.12.3"
 saphyr = "0.0.6"
-serde = { version = "1.0.219", features = ["derive"] }
-serde_json = "1.0.142"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.149"
 serde-saphyr = { version = "0.0.22" }
-serde_with = "3.14.0"
-time = { version = "0.3.41", features = ["parsing", "macros", "formatting"] }
-tracing = "0.1.41"
-tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
-url = "2.5.4"
+serde_with = "3.18.0"
+time = { version = "0.3.47", features = ["parsing", "macros", "formatting"] }
+tracing = "0.1.44"
+tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
+url = "2.5.8"
 url-escape = "0.1.1"
-uuid = { version = "1.18.0", features = ["v5"] }
+uuid = { version = "1.22.0", features = ["v5"] }
 walkdir = "2.5.0"
