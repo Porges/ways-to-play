@@ -748,8 +748,8 @@ LawsAndPractice:
   issued:
     year: 1877
   author:
-    - family: Charles Henry Wharton
-      given: Meehan
+    - family: Meehan
+      given: Charles Henry Wharton
   URL: https://archive.org/details/lawspracticeofga00meeh
 EvolutionOfWhist:
   type: book
@@ -879,7 +879,7 @@ WhistUniversal:
     - given: George William
       family: Pettes
   publisher: Ticknor and Company
-  publisher-place: 211 Tremont Street, Boston, NY, USA
+  publisher-place: 211 Tremont Street, Boston, MA, USA
 AmericanCardPlayer:
   type: book
   title: The American Card Player
@@ -967,8 +967,8 @@ PhilosophyOfWhist:
   type: book
   title: The Philosophy of Whist
   author:
-    - given: Pole
-      family: William
+    - given: William
+      family: Pole
   issued:
     year: 1889
   edition: 5
@@ -1486,7 +1486,7 @@ TalesOfIse:
   title: "Tales of Ise: Lyrical Episodes from Tenth-Century Japan"
   author:
     - given: Helen
-      family: McCollough
+      family: McCullough
   issued:
     year: 1968
   publisher: Stanford University Press
@@ -1497,7 +1497,7 @@ KokinWakashu:
   title: "Kokin Wakashū: The First Imperial Anthology of Japanese Poetry"
   author:
     - given: Helen
-      family: McCollough
+      family: McCullough
   issued:
     year: 1985
   publisher: Stanford University Press
@@ -1634,8 +1634,8 @@ Teesdale:
   type: book
   title: A glossary of provincial words used in Teesdale, in the county of Durham
   author:
-    - given: Dinsdale
-      family: Frederick
+    - given: Frederick
+      family: Dinsdale
   issued:
     year: 1849
   publisher: J. R. Smith
@@ -1654,9 +1654,9 @@ KKS135:
   container-title: Waka Poetry
   URL: https://www.wakapoetry.net/kks-iii-135/
   archive-URL: https://web.archive.org/web/20230514123135/https://www.wakapoetry.net/kks-iii-135/
-SKKS442:
+SKKS422:
   type: webpage
-  title: "SKKS IV: 442"
+  title: "SKKS IV: 422"
   author:
     - given: Thomas
       family: McAuley
@@ -1847,7 +1847,7 @@ HeikeMonogatari:
   title: Heike Monogatari
   author:
     - given: Helen
-      family: McCollough
+      family: McCullough
   issued:
     year: 1988
   URL: https://books.google.co.nz/books?id=D5Oqj3TsMlUC
@@ -3533,7 +3533,7 @@ BrocadeByNight:
     classic poetry"
   type: book
   author:
-    - family: McCollough
+    - family: McCullough
       given: Helen Craig
   ISBN: 0-8047-1246-8
   issued:
@@ -3826,7 +3826,7 @@ GamblingGamesOfMalaya:
     year: 1955
 NyonyaMosaic:
   type: book
-  title: "A Nyonya Mosaic: Memoirs of a Paranakan Childhood"
+  title: "A Nyonya Mosaic: Memoirs of a Peranakan Childhood"
   author:
     - family: Gwee
       given: William
@@ -4881,7 +4881,7 @@ HuaHuiBrunei:
   container-title: The Daily Brunei Resources
 SEAlangJavanese:
   type: webpage
-  title: SEAlang library Balinese dictionary
+  title: SEAlang library Javanese dictionary
   URL: https://sealang.net/java/dictionary.htm
   publisher: SEAlang
   issued:
@@ -5931,7 +5931,7 @@ BrownGargantua:
   translator:
     - given: Andrew
       family: Brown
-  publisher: Hersperus Press
+  publisher: Hesperus Press
   publisher-place: London, England
   issued:
     year: 2003
@@ -5971,7 +5971,7 @@ Pakapio:
       year: 1886
       month: 12
       day: 2
-    title: The Honoulu Advertiser
+    title: The Honolulu Advertiser
     publisher-place: Honolulu, Hawaiʻi
 JeuxDeGargantua:
   type: article-journal
@@ -6011,7 +6011,7 @@ Fischarts:
 Yasukaki:
   type: webpage
   URL: https://www.asahi-net.or.jp/~rp9h-tkhs/dg_yasukari.htm
-  archive-URL: https://web.archive.org/web/20220809095626/https://www.penn.museum/collections/object/333423
+  archive-URL: https://web.archive.org/web/20220930063243/https://www.asahi-net.or.jp/~rp9h-tkhs/dg_yasukari.htm
   title:
     value: 八道行成
     lang: ja

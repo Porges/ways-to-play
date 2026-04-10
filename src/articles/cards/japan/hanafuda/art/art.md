@@ -1550,7 +1550,7 @@ lang="ja-Latn">Echigo-bana</span> <span lang="ja-Latn">kasu</span> cards is
 > Musashi Plain, where\
 > From among the fields of grass\
 > Emerges moonlight.\
-> [@SKKS442]
+> [@SKKS422]
 
 The <span lang="ja-Latn">Awa-bana kasu</span> carry a shortened version, with the two cards carrying mirror versions:
 
