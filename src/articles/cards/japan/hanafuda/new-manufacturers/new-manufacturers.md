@@ -20,7 +20,7 @@ linter-yaml-title-alias: New Hanafuda & Hwatu
 
 In the internet era there are now many <span class="noun" lang="ja-Latn">Hanafuda</span>
 brands that are produced on a small scale. Most of the production is outsourced
-to larger firms, and the designs aren’t made by the themselves. Thanks to the
+to larger firms, and the designs aren’t made by themselves. Thanks to the
 rise of crowdfunding, the variety of designs has greatly expanded from the
 traditional patterns.
 
@@ -136,7 +136,7 @@ site ‘tumblbug’.
 
 > [!figure]
 >
-> ![The 5 brights of the Nyangtu deck, featuring cats interposed into the traditional cards.](Meongtu.jpg)
+> ![The 5 brights of the Meongtu deck, featuring dogs interposed into the traditional cards.](Meongtu.jpg)
 >
 > Jamaistore’s <span lang="ko">멍투</span> (<span lang="ko-Latn">meongtu</span>, ‘woof fight’) deck (2017).
 
@@ -360,7 +360,7 @@ In 2023, the video game company [Brownies](https://en.wikipedia.org/wiki/Brownie
 
 ## HWATU Flower Cards
 
-These are redesigned version of Korean <span lang="ko-Latn" class="noun">Hwatu</span> cards by Spanish designer ‘blvr’. They can be purchased [on their Etsy store](https://www.etsy.com/nz/listing/1043547560/hwatu-flower-cards-korean-traditional).
+These are a redesigned version of Korean <span lang="ko-Latn" class="noun">Hwatu</span> cards by Spanish designer ‘blvr’. They can be purchased [on their Etsy store](https://www.etsy.com/nz/listing/1043547560/hwatu-flower-cards-korean-traditional).
 
 > [!figure]
 >
