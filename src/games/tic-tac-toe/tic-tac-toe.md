@@ -228,7 +228,7 @@ In Greek it is called <span lang="el" class="aka">τρίλιζα</span> (<span l
 
 ## Play
 
-Two players take turns marking spaces in a 3×3 grid, one using the symbol ‘X’ and the writing ‘O’. Traditionally the starting player uses the ‘X’. The first player to place three of their marks in a horizontal, vertical, or diagonal row wins. If all nine spaces are filled without either player achieving three-in-a-row, the game ends in a draw (drawn games are referred to as “cat’s games”, supposing that the cat won them).
+Two players take turns marking spaces in a 3×3 grid, one using the symbol ‘X’ and the other writing ‘O’. Traditionally the starting player uses the ‘X’. The first player to place three of their marks in a horizontal, vertical, or diagonal row wins. If all nine spaces are filled without either player achieving three-in-a-row, the game ends in a draw (drawn games are referred to as “cat’s games”, supposing that the cat won them).
 
 With perfect play from both sides, the game always ends in a draw — a fact shown by Babbage’s original analysis in the 19th century, but which is also obvious from playing the game a few times.
 
@@ -236,7 +236,7 @@ With perfect play from both sides, the game always ends in a draw — a fact
 
 The strategy of tic-tac-toe is straightforward enough to be completely solved. The first player can force a win only if the second player makes a mistake; otherwise, optimal play will always result in a draw.[^xkcd]
 
-[^xkcd]: As Randall Munroe ([xkcd #832](https://xkcd.com/832/)) states: “The only winning move is to play, perfectly, waiting for your oppenent to make a mistake.”
+[^xkcd]: As Randall Munroe ([xkcd #832](https://xkcd.com/832/)) states: “The only winning move is to play, perfectly, waiting for your opponent to make a mistake.”
 
 A nice analysis of winning strategies can be found in @Gardner1, as Gardner focuses on optimizing the _opportunity_ to win (pages 45–6).
 
