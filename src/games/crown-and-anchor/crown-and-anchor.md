@@ -229,7 +229,7 @@ Another report from Gallipoli in 1916 also mentions it being played in trenches,
 and indicates that it was associated with “colonials” (Australians and New
 Zealanders):[@AnInterestingNarrative]
 
-> I am satisifed there is as much chance of stopping colonials gambling as old
+> I am satisfied there is as much chance of stopping colonials gambling as old
 > Canute had of stopping the tide rising. I have see them playing “crown and
 > anchor,” a great game with them (don’t know if you ever saw it) in all sorts
 > of unlikely places, even on the fire step in first line trenches. It was funny
@@ -243,7 +243,7 @@ Zealanders):[@AnInterestingNarrative]
 In 1917 it was described as being played by “colonial” New Zealanders at an English <abbr title="non-commissioned officer">NCO</abbr> school:[@AtAnEnglishNCOSchool]
 
 > Colonial slang appears strange to the “Tommy,” […] an invitation to a game of
-> “pounds, coins, or browns” lets one know that the popoular gambling game of
+> “pounds, coins, or browns” lets one know that the popular gambling game of
 > “crown and anchor,” for anything from a £1 note to a penny, is in progress.
 
 In 1916, one author reported that a local toy store in Boulogne was selling game sets to English troops.[@YearOfChivalry p. 66]
@@ -530,7 +530,7 @@ Some Nepali names for the playing-card symbols are:
 
 * spade: <span lang="ne">सुरथ</span> <span lang="ne-Latn">surath</span>
 * club: <span lang="ne">चीड</span> <span lang="ne-Latn">chid</span> (‘pine’)
-* diamond <span lang="ne">इँट</span> <span lang="ne-Latn">itta</span> (‘brick’)
+* diamond: <span lang="ne">इँट</span> <span lang="ne-Latn">itta</span> (‘brick’)
 * heart: <span lang="ne">पान</span> <span lang="ne-Latn">pana</span> (‘betel leaf’)
 
 ### Malaysia and Brunei
