@@ -14,7 +14,7 @@ linter-yaml-title-alias: <span lang="zh-Hant">白鴿票</span> · The Pigeon Lot
 ---
 # <span lang="zh-Hant">白鴿票</span> · The Pigeon Lottery
 
-The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票 </span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="GeraldYang" file="pronunciation_yue_白鴿票.mp3" class="aka">baak⁶ gaap³ piu³</Pronounce>) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty. In the 19th and 20th centuries, Chinese emigrants spread the game throughout countries bordering the Pacific Ocean.
+The Pigeon Lottery (<span lang="zh-Hant" class="aka">白鴿票</span>/<span lang="zh-Hans" class="aka">白鸽票</span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  pronouncer="GeraldYang" file="pronunciation_yue_白鴿票.mp3" class="aka">baak⁶ gaap³ piu³</Pronounce>) is a gambling game that originated in <span class="noun" lang="cmn-Latn-pinyin">Guangdong</span> during the late Qing dynasty. In the 19th and 20th centuries, Chinese emigrants spread the game throughout countries bordering the Pacific Ocean.
 
 The recent history of the game is often a story of racism and hypocrisy: as a Chinese gambling game, Chinese migrants were punished for running the game while at the same time gambling games favoured by Europeans were permitted. In the 20th century the game was adapted by Americans who profited from a now-legal game even as the Chinese game was suppressed. Today, the game survives worldwide in casinos under its modern name: Keno.
 
@@ -46,7 +46,7 @@ Several origin stories circulate about where and when the game was invented, tho
 
 It is sometimes fancifully claimed that the name of the game is due to the method of ticket selection, in that supposedly winning tickets were chosen by trained white pigeons. However, this explanation is not possible given the way the game is played; it is *not* a lottery where one or more tickets are selected to be winners.
 
-One Chinese origin story relates that the name was applied because white pigeons were used to transmit the results from gambling houses to the bettors.[@GrammarOfTheChineseLanguage2 p. 157] Another dates the game to the foundation of the Han dynasty, saying that it was invented by [<span lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span>](https://en.wikipedia.org/wiki/Zhang_Liang_(Western_Han)) (<span lang="zh">張良</span>, <abbr title="circa">c.</abbr>&nbsp;251–189 <abbr>BCE</abbr>),[^fn0] advisor to [Emperor <span class="noun" lang="cmn-Latn-pinyin">Gāozǔ</span>,](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han) in order to raise money for the support of the army when a city was beseiged.[@GrammarOfTheChineseLanguage2 p. 156] While <span lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a lottery to raise funds, it seems to be unlikely to be identical to the modern game. For one thing, the <cite>Thousand Character Classic</cite> upon which the game is based is traditionally dated to the [Liang dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 <abbr>CE</abbr>).
+One Chinese origin story relates that the name was applied because white pigeons were used to transmit the results from gambling houses to the bettors.[@GrammarOfTheChineseLanguage2 p. 157] Another dates the game to the foundation of the Han dynasty, saying that it was invented by [<span lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span>](https://en.wikipedia.org/wiki/Zhang_Liang_(Western_Han)) (<span lang="zh">張良</span>, <abbr title="circa">c.</abbr>&nbsp;251–189 <abbr>BCE</abbr>),[^fn0] advisor to [Emperor <span class="noun" lang="cmn-Latn-pinyin">Gāozǔ</span>,](https://en.wikipedia.org/wiki/Emperor_Gaozu_of_Han) in order to raise money for the support of the army when a city was besieged.[@GrammarOfTheChineseLanguage2 p. 156] While <span lang="cmn-Latn-pinyin" class="noun">Zhāng Liáng</span> may have really used a lottery to raise funds, it seems to be unlikely to be identical to the modern game. For one thing, the <cite>Thousand Character Classic</cite> upon which the game is based is traditionally dated to the [Liang dynasty](https://en.wikipedia.org/wiki/Liang_dynasty) (502–557 <abbr>CE</abbr>).
 
 [^fn0]: Older sources transliterate his name as Cheung Leung.
 
@@ -634,7 +634,7 @@ By the time <span lang="cmn-Latn-pinyin" class="noun">Liang Qichao</span> visite
 >
 > Interior of a Chinese lottery & casino in California, 1938, during a police raid. Ink and brushes are provided to mark the chosen numbers, and on the floor lie discarded losing tickets.
 
-In Seattle, some known banks known in the 20th century were named: Union, N.P.,
+In Seattle, some banks known in the 20th century were named: Union, N.P.,
 Shanghai, New American, and Wing Tien.[@WhenChinatownHadItsOwnLotteries] During
 World War II, the army forced the closure of many lotteries to stop servicemen
 stationed on the West Coast from spending their money on gambling; most did not
