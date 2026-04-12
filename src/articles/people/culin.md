@@ -11,7 +11,7 @@ linter-yaml-title-alias: Stewart Culin
 
 # Stewart Culin
 
-<a href="https://en.wikipedia.org/wiki/Stewart_Culin">Stewart Culin</a> (1858–1959) was a prominent games historian, especially of East and South-East Asian and Native American games.
+<a href="https://en.wikipedia.org/wiki/Stewart_Culin">Stewart Culin</a> (1858–1929) was a prominent games historian, especially of East and South-East Asian and Native American games.
 
 ## Games-related works
 
