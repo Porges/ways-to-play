@@ -33,7 +33,7 @@ Possibly most famously it appears in Dickens’ <cite>Great Expectations</cite> 
 > 
 > “With this boy! Why he is a common labouring-boy!”
 > 
-> I thought I overhead Miss Havisham answer — only it seemed so unlikely — “Well? You can break his heart.”
+> I thought I overheard Miss Havisham answer — only it seemed so unlikely — “Well? You can break his heart.”
 > 
 > “What do you play, boy?” asked Estella of myself, with the greatest disdain.
 > 
@@ -54,7 +54,7 @@ A wonderful defence of this simple game as the ideal playing-card game may be fo
 
 To play, all cards are dealt out to the players. Players do not look at their cards but instead hold them face down in a pile. When it is a player’s turn, they turn up the top card of their pile and play it face-up to the middle.
 
-If the played card is not a face-card, then the next player plays a card, and this continues until a face-card is turned up. Once this happens, the follwing player must play a number of cards until they play their own face card, or the required number is met. The number of cards to be played is determined by the rank of the face-card: for a <Cards>J</Cards>, one card must be played, for a <Cards>Q</Cards> two, <Cards>K</Cards> three, and <Cards>A</Cards> four. If jokers are being used they can count for five cards.
+If the played card is not a face-card, then the next player plays a card, and this continues until a face-card is turned up. Once this happens, the following player must play a number of cards until they play their own face card, or the required number is met. The number of cards to be played is determined by the rank of the face-card: for a <Cards>J</Cards>, one card must be played, for a <Cards>Q</Cards> two, <Cards>K</Cards> three, and <Cards>A</Cards> four. If jokers are being used they can count for five cards.
 
 If the player playing on top of the face card either meets the number without turning up another face card or runs out of cards, then the player who played the last face card captures the whole pile and adds it to the bottom of their pile. They then restart the game by playing a card from the top of their pile.
 
