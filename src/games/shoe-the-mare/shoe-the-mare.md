@@ -15,7 +15,7 @@ linter-yaml-title-alias: "Shoe the Mare "
 
 ## Accounts
 
-In 1616 it appears in [Ben Johnson](https://en.wikipedia.org/wiki/Ben_Jonson)’s masque [<cite>Love Restored</cite>](https://en.wikipedia.org/wiki/Love_Restored):[@BenJonson1616 990][^fn0]
+In 1616 it appears in [Ben Jonson](https://en.wikipedia.org/wiki/Ben_Jonson)’s masque [<cite>Love Restored</cite>](https://en.wikipedia.org/wiki/Love_Restored):[@BenJonson1616 990][^fn0]
 
 [^fn0]: In some later editions this mistakenly appears as “shooting the wild Mare”.[@BenJonson1716_3]
 
@@ -55,7 +55,7 @@ It also appears in another poem (“To my Friend Mr. John Anderson”) by <a hre
 
 An old nursery rhyme of unknown date runs:[@GammerGurtonsGarland 52][^fn2]
 
-[^fn2]: [John Bellenden Ker](https://en.wikipedia.org/wiki/John_Bellenden_Ker_Gawler) gives a masterfully absurd interpretation of this poem as a heathen Saxon invection against Catholic monks, see: @AoPPSupplement [257].
+[^fn2]: [John Bellenden Ker](https://en.wikipedia.org/wiki/John_Bellenden_Ker_Gawler) gives a masterfully absurd interpretation of this poem as a heathen Saxon invective against Catholic monks, see: @AoPPSupplement [257].
 
 > Shoe the colt,\
 > Shoe the colt,\

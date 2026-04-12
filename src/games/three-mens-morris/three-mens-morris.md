@@ -76,7 +76,7 @@ It is also played across Africa: in Madagascar it is called <span lang="mg" clas
 
 In Arabic it has been called <span lang="ar" class="aka">دريس اثلاثة</span> (<span lang="ar-Latn" class="aka">drīs ath-thalātha</span>).[^fn5][@ReisebeschreibungNachArabien 172][@Murray2 41]
 
-[^fn5]: Neibuhr uses “<span lang="ar-Latn">drîs et talâte</span>”.
+[^fn5]: Niebuhr uses “<span lang="ar-Latn">drîs et talâte</span>”.
 
 The game is also sometimes called <span class="aka">Hopscotch</span>, in @MathematicalRecreationsMaurice [p. 290], but I think that name is better reserved for [Picaria](games/picaria/picaria.md).[^fn6]
 

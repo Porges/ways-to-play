@@ -50,7 +50,7 @@ The staking layout also bears these four symbols.
 
 The banker spins the teetotum and covers it with another bowl. Players then place their bets on the outcome in appropriate parts of the layout. Bets can be placed on a single outcome by placing it within a particular section, or on two outcomes by placing the stake on a dividing line between two sections.
 
-Any players who have chosen a bet that matches the outcome win. If they placed a bid on a single outcome they win 3× back, if they placed a bid on two outcomes they win 1× back.[@TheBelangkasGame] All other stakes are lost.
+Any players who have chosen a bet that matches the outcome win. If they placed a bet on a single outcome they win 3× back, if they placed a bet on two outcomes they win 1× back.[@TheBelangkasGame] All other stakes are lost.
 
 @GamblingGamesOfMalaya gives the more precise (harsh) returns of 2.7× and 0.9×.  More modern versions might pay 2.85×/2.9× and .95×.[@KingCrab]
 

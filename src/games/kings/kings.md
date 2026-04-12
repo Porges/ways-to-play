@@ -68,7 +68,7 @@ To decide the starting player, one player draws a card at random, then counts ar
 
 The cards are shuffled and placed face-down in a pile to form the stock.
 
-Beginning with the starting player, each player draws a card from the stock and tries to match any other cards in the pool by rank. All <Cards>1</Cards> and honour cards are considered to be of the same rank. If there is a matching card then they player captures both cards and places them in front of themselves. If there is no matching card then the player places the drawn card face-up as part of the pool.
+Beginning with the starting player, each player draws a card from the stock and tries to match any other cards in the pool by rank. All <Cards>1</Cards> and honour cards are considered to be of the same rank. If there is a matching card then the player captures both cards and places them in front of themselves. If there is no matching card then the player places the drawn card face-up as part of the pool.
 
 Once all the cards have been played (and thus all cards captured), the players total up their points. Two _identical_ matching cards are worth 10 points, and each red-stamped card is also worth an additional 10 points. The player with the highest score wins, takes any payment from the others, and then becomes the starting player for the next round.
 
