@@ -26,7 +26,7 @@ date modified: 2025-02-16
 
 The earliest reference to this game I have found is from John Scarne, who wrote about the game in 1945.[@ScarneOnDice 357] It is also sometimes called <span class="aka">Greedy Pig</span>[@NZMathsPig] or <span class="aka">Pig-Out</span>.
 
-The simplest form of the game is as follows: on each player’s turn, they roll one dice and count the number of points shown as their score (e.g. a roll of <Dice>6</Dice> counts as 6 points). They may keep rolling and adding points to their total for that turn as long as they want, but if the die ever shows a <Dice>1</Dice>, they lose all accumulated points for that turn and pass the die to the next player. Otherwise, if they stop their turn before rolling a <Dice>1</Dice>, then they add their points for that turn to their total points.
+The simplest form of the game is as follows: on each player’s turn, they roll one die and count the number of points shown as their score (e.g. a roll of <Dice>6</Dice> counts as 6 points). They may keep rolling and adding points to their total for that turn as long as they want, but if the die ever shows a <Dice>1</Dice>, they lose all accumulated points for that turn and pass the die to the next player. Otherwise, if they stop their turn before rolling a <Dice>1</Dice>, then they add their points for that turn to their total points.
 
 The first player to exceed 100 total points is the winner. To make the game fair, a full final round should be completed (e.g. if the second player gets 100 points, then the third, fourth, … player should still take their turn afterward), so that every player has the same number of turns overall. If multiple players achieve 100 points, then the highest score wins.
 
@@ -52,7 +52,7 @@ In this variant, players must choose the number of times they will roll the dice
 
 ## <span class="aka">Skunk</span>
 
-Skunk[@ChoiceAndChance] is a variation where all players share the same roll, and there are exactly five rounds played. To begin, each player prepares a score sheet by writing the letters `SKUNK` across the top. They will record their score for the first round beneath the `S`, the second beneath the `N`, and so on.
+Skunk[@ChoiceAndChance] is a variation where all players share the same roll, and there are exactly five rounds played. To begin, each player prepares a score sheet by writing the letters `SKUNK` across the top. They will record their score for the first round beneath the `S`, the second beneath the `K`, and so on.
 
 All players start each round by standing, while one of them rolls two dice. If the roll has a  <Dice>1</Dice>, any standing players have _skunked_ and score 0 for the round (cross off their score). Otherwise, the points are added to each standing player’s total for that round (write them in a column beneath the letter for the round). The players may sit down after any die roll, and the rolls continue for the round until all players have sat down or skunked.
 

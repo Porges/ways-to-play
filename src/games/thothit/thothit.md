@@ -34,7 +34,7 @@ Use a single <span lang="jv-Latn">kepala</span> of <span lang="jv-Latn">ceki</sp
 
 Seats can be selected by choosing three pairs of cards and then dealing one of each pair to the players and the other of each pair to the seats; the players then sit in the matching seats. Alternatively, they can be allocated according to social rank. In Javanese play, the highest-ranking player should sit facing the front door of the house.
 
-Once seats are chosen, the first player must be selected. This can be done by dealing each player two cards; however has the highest total value — discarding tens — is the starting player. For example if one player has the cards <Cards>7–8</Cards>, for a total of 15, would have a value of 5; a player holding <Cards>1–5</Cards>, for a total of 6, would beat them.
+Once seats are chosen, the first player must be selected. This can be done by dealing each player two cards; whoever has the highest total value — discarding tens — is the starting player. For example if one player has the cards <Cards>7–8</Cards>, for a total of 15, would have a value of 5; a player holding <Cards>1–5</Cards>, for a total of 6, would beat them.
 
 The first player is called the <span lang="jv">ꦫꦗ</span> <span lang="jv-Latn">raja</span> ‘king’, the second (seated to their right) is called <span lang="jv">ꦥꦠꦶꦃ</span> <span lang="jv-Latn">patih</span> ‘king’s advisor’, and the last player (on the <span lang="jv-Latn">raja</span>’s left) is called <span lang="jv">ꦲꦸꦚꦶꦏ꧀</span> <span lang="jv-Latn">unyik</span> ‘last’.
 
