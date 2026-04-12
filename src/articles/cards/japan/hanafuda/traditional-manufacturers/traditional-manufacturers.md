@@ -259,7 +259,7 @@ Dating old decks can be difficult, as manufacturers have published little inform
 
 
 * **Explicit dates**: on recent <span class="noun" lang="ja-Latn">Nintendō</span> decks, the blank card included has a 6-digit date of manufacture printed on it. This is the only case I know where the date is explicitly marked.
-* **Tax stamps**: the most reliable dating method for older is to examine their tax stamps (see below), if the deck has any still present. This works for decks produced from 1902 up until the playing-card tax was abolished in 1989.
+* **Tax stamps**: the most reliable dating method for older decks is to examine their tax stamps (see below), if the deck has any still present. This works for decks produced from 1902 up until the playing-card tax was abolished in 1989.
 * **Text direction**: Japanese text written right-to-left generally indicates that the deck was made before the end of <abbr title="World War Two">WWII</abbr> (from here on, I use the term ‘pre-war’). Thus, <span lang="ja">任天堂</span> is written <bdo dir="rtl" lang="ja">任天堂</bdo> on very old decks. <em>However</em>, some manufacturers (such as <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> or <span class="noun" lang="ja-Latn">Nihon Karuta</span>) have persisted in using right-to-left ordering even into the modern era, so this indication must be used with caution.
 * **Barcodes**: for more recent decks, barcodes can give some clues: Japanese barcodes beginning with <span class="barcode">49⋯</span> have been used since 1978, but barcodes beginning with <span class="barcode">45⋯</span> were introduced in 1992.
 
@@ -926,7 +926,7 @@ older cards, such as the <span class="noun" lang="ja-Latn">Unsun</span> deck.
 
 > [!figure]
 >
-> ![A card with wistera showing the manufacturer’s mark.](Oishi_Mark.jpg)
+> ![A card with wisteria showing the manufacturer’s mark.](Oishi_Mark.jpg)
 >
 > ```yaml
 > size: "small"
@@ -1030,7 +1030,7 @@ Their main manufacturer’s mark is <span lang="ja">み</span> with corner at to
 > [!multi-wide]
 > > [!figure]
 > >
-> > ![A hanafuda wrapper with an image of Abaraham Lincoln.](OT_lincoln.jpg)
+> > ![A hanafuda wrapper with an image of Abraham Lincoln.](OT_lincoln.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s Lincoln wrapper.
 >
@@ -1042,7 +1042,7 @@ Their main manufacturer’s mark is <span lang="ja">み</span> with corner at to
 >
 > > [!figure]
 > >
-> > ![A hanafuda wrapper three tengu masks.](OT_santengu.jpg)
+> > ![A hanafuda wrapper with three tengu masks.](OT_santengu.jpg)
 > >
 > > <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>’s <span lang="ja-Latn">santengu</span> wrapper.
 >
@@ -1236,7 +1236,7 @@ They also print a revised pattern, <span class="noun" lang="ja-Latn">Nishiki</sp
 
 ## Extinct Manufacturers
 
-The following manufactuerers were once producers of <span class="noun" lang="ja-Latn">Hanafuda</span> cards but have since ceased production. Many of their decks can still be found circulating.
+The following manufacturers were once producers of <span class="noun" lang="ja-Latn">Hanafuda</span> cards but have since ceased production. Many of their decks can still be found circulating.
 
 ### <img src='/small-images/kakumatsu.svg' alt="" class="inline-img" /> <span id="matsui-tengudo" class="noun" lang="ja-Latn">Matsui Tengudō</span> (<span lang="ja">松井天狗堂</span>)
 
@@ -2714,7 +2714,7 @@ included:
 >
 > <span class="noun" lang="ja-Latn">Tamei</span>’s trademark, registered on the 8th of January 1900 by <span class="noun" lang="ja-Latn">Tamei Tatsunosuke</span> (<span lang="ja">為井辰之 助</span>).[@Trademarks1905 p. 67]
 
-Tamei was founded around 1900 and unusally used a romanized version of their
+Tamei was founded around 1900 and unusually used a romanized version of their
 name as a mark. I only know of one brand:
 
 * <span lang="ja">弁慶</span> (<span lang="ja-Latn">benkei</span>, not printed on box)
@@ -2769,7 +2769,7 @@ Alaska was a playing-card company that also manufactured some hana-trump decks. 
 
 ## Unknown
 
-The following brands appear on decks whos manufacturers who have not yet been identified. If you have information about any of these feel free to contact me to help complete this catalogue.
+The following brands appear on decks whose manufacturers who have not yet been identified. If you have information about any of these feel free to contact me to help complete this catalogue.
 
 * <span lang="ja">𛂁𛁲゙𛁈𛀸</span>/<span lang="ja">な𛁲゙𛁈𛀸</span>/<span lang="ja">なでしこ</span> (<span lang="ja-Latn">nadeshiko</span>, ‘pink’ (the flower))
 * <span lang="ja">勝力士</span> (<span lang="ja-Latn">katsu rikishi</span>, ‘winning sumo wrestler’)

@@ -50,7 +50,7 @@ There are various ways to make bets on the game. The first type is <span lang="j
 Instead of winning the whole pot, a method called <span lang="jv-Latn">undhuh-undhuh</span> (‘pickings’) may be followed. In this case the winner only wins back the amount that each player staked (e.g. if everyone staked 5¢, then the winner takes 5¢ from the pot). One pot is built and will last for a number of rounds equal to the number of players. It can also be agreed than anyone who wins a second round in a row instantly takes the remainder of the pot (in this case 20¢), and a new one is created. In this case, if they win a third or subsequent consecutive round (i.e. they are <span lang="jv-Latn">ladhu</span>), they continue to win entire pots (in this case 25¢) until their winning streak is ended. Losers may “ante up” by adding an additional stake to the pot, called a <span lang="jv-Latn">tomprang</span>; if the winner wins again they win the normal stake plus any <span lang="jv-Latn">tomprang</span>. (It is unclear to me from the description how exactly this functions.)
 
 According to the description, the pot (<span lang="jv-Latn">wudhon tengah</span>) method is used for the first game (by which I understand, until the pot is emptied). After this a method called <span
-lang="jv-Latn">bal-balan</span> (‘bolts’ or ‘bales’) is followed, whereby the other players bet against the <span lang="jv-Latn">banjiran</span>: each player places any bet amount they want in front of themselves (not in a pot). Their stake must be at least the stake amount using during the <span lang="jv-Latn">wudhon tengah</span> game and no more than double what the <span lang="jv-Latn">banjiran</span> won. After this, if the <span lang="jv-Latn">banjiran</span> wins again, they win all the stakes. If another player wins, they win their stake back, and also the stakes from the other players (up to the amount which they themselves staked).
+lang="jv-Latn">bal-balan</span> (‘bolts’ or ‘bales’) is followed, whereby the other players bet against the <span lang="jv-Latn">banjiran</span>: each player places any bet amount they want in front of themselves (not in a pot). Their stake must be at least the stake amount used during the <span lang="jv-Latn">wudhon tengah</span> game and no more than double what the <span lang="jv-Latn">banjiran</span> won. After this, if the <span lang="jv-Latn">banjiran</span> wins again, they win all the stakes. If another player wins, they win their stake back, and also the stakes from the other players (up to the amount which they themselves staked).
 
 Another possible type of bet is <span lang="jv-Latn">pethitan</span> (“tapering point/tip”): if a player leads a <span lang="jv-Latn">dika</span> to the last round and it is not beaten, they win the whole pot; if it is beaten, the killer takes the whole pot.
 
@@ -65,7 +65,7 @@ The second method is called “steady roosters” (<span lang="jv-Latn">jagoan t
 
 ### Side Bets
 
-Optional side bets which can be made by players are as follows. In each case the player wins they amount they staked from the others who are participating.
+Optional side bets which can be made by players are as follows. In each case the player wins the amount they staked from the others who are participating.
 
 - <span lang="jv-Latn">Gor-goran</span> (‘neglected’): guessing the top card of the undealt pack by playing a card from your own hand
 - <span lang="jv-Latn">Kucingan, bedoran, kasutan, pil, kèk, pong</span>: in each of these bets the person who has a <span lang="jv-Latn">kucing</span> (white flower), a <span lang="jv-Latn">bedor</span> (1 strings), a <span lang="jv-Latn">kasut</span> (1 coins), a <span lang="jv-Latn">dhimpil</span> (2 myriads), a <span lang="jv-Latn">dèngkèk</span> (2 strings), or a <span lang="jv-Latn">plompong</span> (2 coins), respectively, wins the bet. If two players have the required card the bets are not paid out, and must start again in the next round.
@@ -400,7 +400,7 @@ Meaning “cross-eyed”:
 Myriad cards other than the 1 Myriads
 </dt>
 <dd>
-In Yogyarkarta these were referred to as “Secadiningrat”, after <a href="https://id.wikipedia.org/wiki/Tan_Jin_Sing">Tan Jin Sing</a> (c.  1760–1831), an official of Chinese descent who held the title Radèn Tumenggung Secadiningrat from 1813.
+In Yogyakarta these were referred to as “Secadiningrat”, after <a href="https://id.wikipedia.org/wiki/Tan_Jin_Sing">Tan Jin Sing</a> (c.  1760–1831), an official of Chinese descent who held the title Radèn Tumenggung Secadiningrat from 1813.
 </dd>
 <dt>
 <span lang="jv-Latn">Tambur</span> (4 Coins)

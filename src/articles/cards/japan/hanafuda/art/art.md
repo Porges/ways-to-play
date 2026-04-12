@@ -1051,7 +1051,7 @@ more popular later on:
 > orgName: "Library of Congress"
 > ```
 >
-> <cite>Third Month: Blossom-Viewing in Askukayama</cite><cite lang="ja">三月飛鳥山花見</cite> by <span class="noun" lang="ja-Latn">Kitao Shigemasa</span> (<span lang="ja">北尾 重政</span>, 1739–1820).
+> <cite>Third Month: Blossom-Viewing in Asukayama</cite><cite lang="ja">三月飛鳥山花見</cite> by <span class="noun" lang="ja-Latn">Kitao Shigemasa</span> (<span lang="ja">北尾 重政</span>, 1739–1820).
 
 > [!figure]
 >
@@ -1069,7 +1069,7 @@ more popular later on:
 >
 > The <span class="noun" lang="ja-Latn">Yoshino</span> mountainside with cherry trees in bloom.
 
-The third month is represented by cherry trees in bloom (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" lang="ja-Latn" file='pronunciation_ja_桜.mp3'>sakura</Pronounce>). Blossom-viewing (<span lang="ja">花見</span> <Pronounce pronouncer="samchie" lang="ja-Latn" file="pronunciation_ja_花見.mp3">hanami</Pronounce>), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period. The curtains (<span lang="ja">幕</span> <Pronounce pronouncer="skent" lang="ja-Latn" file='pronunciation_ja_幕.mp3'>maku</Pronounce>) that are shown on the bright card are there provide privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the left. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.
+The third month is represented by cherry trees in bloom (<span lang="ja">桜</span> <Pronounce pronouncer="strawberrybrown" lang="ja-Latn" file='pronunciation_ja_桜.mp3'>sakura</Pronounce>). Blossom-viewing (<span lang="ja">花見</span> <Pronounce pronouncer="samchie" lang="ja-Latn" file="pronunciation_ja_花見.mp3">hanami</Pronounce>), parti­cularly of cherry blossoms, is a custom that dates back to the Heian period. The curtains (<span lang="ja">幕</span> <Pronounce pronouncer="skent" lang="ja-Latn" file='pronunciation_ja_幕.mp3'>maku</Pronounce>) that are shown on the bright card are there to provide privacy whilst viewing cherry blossoms. An example of their use can be seen in the image on the left. It was common to use striped fabric, particularly in red &amp; white, while nobility would use curtains bearing their family crest.
 
 The <span lang="ja-Latn">tanzaku</span> of the March cards reads <span lang="ja-Latn">mi&shy;yoshino</span> <span lang="ja">みよしの</span> ‘beautiful <span class="noun" lang="ja-Latn">Yoshino</span>’,[^fn4] which is a sobriquet for the mountainous area of <span class="noun" lang="ja-Latn">Yoshino</span> (<span lang="ja">吉野</span>) in <span class="noun" lang="ja-Latn">Nara</span> prefecture, famous for its cherry blossoms. The term <span lang="ja-Latn">miyoshino</span> is [often used to refer to this location](http://www.wakapoetry.net/?s=miyosino) in the imperial poetry collections.
 
@@ -1729,7 +1729,7 @@ tree, the leaves on the other cards appear to be floating on water. This could
 be a reference to the <span class="noun" lang="ja-Latn">Tatsuta</span> river (<span
 lang="ja">竜田川</span>), which was as famous for autumn foliage as <span class="noun"
 lang="ja-Latn">Yoshino</span> was for cherry blossoms in the
-spring.[@FourSeasons loc. 1756] A anonymous poem from the <cite>Kokinshū</cite>
+spring.[@FourSeasons loc. 1756] An anonymous poem from the <cite>Kokinshū</cite>
 (V: 283) celebrates the leaves floating on its surface:
 
 > [!multi]

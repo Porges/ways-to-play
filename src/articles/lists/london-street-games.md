@@ -2135,7 +2135,7 @@ Numbers
 Dot-Boxes (Dots): see [Dots and Boxes](games/dots-and-boxes/dots-and-boxes.md)
 </li>
 <li>
-All Over the Wolrd
+All Over the World
 </li>
 <li>
 Stepping-Stones

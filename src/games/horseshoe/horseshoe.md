@@ -27,7 +27,7 @@ linter-yaml-title-alias: Horseshoe
 Because the board is shaped like the Chinese character ‘<span lang="zh">区</span>’ (‘area’), it is known as ‘<code>区</code> character game’ (<span lang="zh" class="aka">区字棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">qū zì qí</span>). Other names include ‘crotch game’ (<span lang="zh-Hant" class="aka">褲襠棋</span>/<span lang="zh-Hans" class="aka">裤裆棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">kùdāng qí</span>), or ‘scissor game’ (<span lang="zh" class="aka">剪刀棋</span>, Mandarin: <span lang="cmn-Latn-pinyin" class="aka">jiǎndāo qí</span>).
 
 The board is simple enough to be drawn with a finger into dirt or sand, and can
-be played with any two sets of two distinctive pieces: rocks, shell, bottlecaps,
+be played with any two sets of two distinctive pieces: rocks, shells, bottlecaps,
 or anything else that the players have to hand.
 
 > [!figure]

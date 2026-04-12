@@ -64,7 +64,7 @@ The named games are:
     - Draughts
     - Chess
 - Card games:
-    - Nouumm
+    - Nouum
     - Mumchance
     - Mischance
     - One and Thirty

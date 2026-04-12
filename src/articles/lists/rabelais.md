@@ -9,7 +9,7 @@ linter-yaml-title-alias: The Games of <cite>Gargantua</cite> (1534—)
 
 # The Games of <cite>Gargantua</cite> (1534—)
 
-One of the most famous historical lists of games is that found in Chaper 22 of <a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais"><span class="noun" lang="fr">François Rabelais</span></a>’ <a href="https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel"><cite lang="fr">Gargantua</cite></a>, first published in 1534. In the original French the list contained 216 games, but in each translation the games that are named were changed and often expanded upon. Many of the games are either invented by Rabelais, or are games for which we no longer know the rules.
+One of the most famous historical lists of games is that found in Chapter 22 of <a href="https://en.wikipedia.org/wiki/Fran%C3%A7ois_Rabelais"><span class="noun" lang="fr">François Rabelais</span></a>’ <a href="https://en.wikipedia.org/wiki/Gargantua_and_Pantagruel"><cite lang="fr">Gargantua</cite></a>, first published in 1534. In the original French the list contained 216 games, but in each translation the games that are named were changed and often expanded upon. Many of the games are either invented by Rabelais, or are games for which we no longer know the rules.
 
 An in-depth examination of the games in the list lies [below the table](#the-list-in-depth).
 
@@ -8496,7 +8496,7 @@ term was used. Perhaps he was aware of this.
 </dd>
 </dl>
 
-## Nicolaas Jarichides Wiringa’s list
+## Nicolaas Jarichides Wieringa’s list
 
 As found in @AllDeGeestigeWerken [p. 76] (transcription is from [this site](https://www.let.leidenuniv.nl/Dutch/Renaissance/Rabelais1682.html#121)).
 
@@ -9302,7 +9302,7 @@ i.e. <span lang="fr">prime</span>, from Rabelais’ list
 Den Picarder
 </dt>
 <dd>
-i.e. <span lang="fr">la pircardie</span>, from Rabelais’ list
+i.e. <span lang="fr">la picardie</span>, from Rabelais’ list
 </dd>
 <dt lang="de">
 Ticke tack
