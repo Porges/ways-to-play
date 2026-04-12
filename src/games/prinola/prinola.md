@@ -79,7 +79,7 @@ In Indonesia the game has been called <Pronounce lang="id"  class="noun aka" pro
 
 > [!figure]
 >
-> ![A black-and-white photo of a group of people, mostly men, standing and seated around a mat on the ground. One man is spining a teetotum in a dish, other players are placing coins on the mat inside squares marked with dice symbols.](20.500.11840_1366529.jpg)
+> ![A black-and-white photo of a group of people, mostly men, standing and seated around a mat on the ground. One man is spinning a teetotum in a dish, other players are placing coins on the mat inside squares marked with dice symbols.](20.500.11840_1366529.jpg)
 >
 > ```yaml
 > identifier: "TM-10018006_REPRO"
