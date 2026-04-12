@@ -143,7 +143,7 @@ eagle, baby, turtle (and 6th?).[@FoolsOfFortuneOrGamblingAndGamblers p. 283]
 > A Mustang layout, from Kernan Manufacturing’s @KernanCatalogue [p. 19].
 
 
-It is possible that it was one  one of these pictorial versions that was taken
+It is possible that it was one of these pictorial versions that was taken
 and adopted by the British as [Crown & Anchor](games/crown-and-anchor/crown-and-anchor.md).
 
 > [!figure]
@@ -163,16 +163,16 @@ and adopted by the British as [Crown & Anchor](games/crown-and-anchor/crown-and-
 
 > [!figure]
 > 
-> ![A layout board titled Cubic Mutal Pool and with six cells with horses depicted, named: Pilot, Arab, Canada, Eclipse, Rover, and Saxton.](CubicMutualPool.jpg)
+> ![A layout board titled Cubic Mutual Pool and with six cells with horses depicted, named: Pilot, Arab, Canada, Eclipse, Rover, and Saxton.](CubicMutualPool.jpg)
 >
 > ```yaml
 > license: "cc0"
 > ```
 >
-> A Cubic Mutal Pool layout, from Kernan Manufacturing’s @KernanCatalogue [p. 20].
+> A Cubic Mutual Pool layout, from Kernan Manufacturing’s @KernanCatalogue [p. 20].
 
 
-The came was also transmuted into a horse-racing form, played using dice with
+The game was also transmuted into a horse-racing form, played using dice with
 sides marked <Cards>PACERS</Cards>. Under the name “Cubic Mutual Pool”, this was
 played as early as 1888.[@CubicMutualPool]
 
@@ -565,7 +565,7 @@ the dice rolls has been manipulated to provide the operator extra income. The
 house edge on the wheel on the right below, with 48 sectors, is 14.583%. The
 edge on the wheel at left, with 54 sectors, is 12.963%.[^intended]
 
-[^intended]: Or at least, it is intended to be. The wheel represented here seems to have an error where one 5 has been switched with a 3, so the edge on those two numbers is different. (Scarne[@ScarneGambling pp. 501–3] miscalculates the house edge on this wheel as 22.22%, as it seems has was working from a different version than shown in the photo in his book.)
+[^intended]: Or at least, it is intended to be. The wheel represented here seems to have an error where one 5 has been switched with a 3, so the edge on those two numbers is different. (Scarne[@ScarneGambling pp. 501–3] miscalculates the house edge on this wheel as 22.22%, as it seems he was working from a different version than shown in the photo in his book.)
 
 In general the more doubles or triples on the wheel, the worse the odds are for
 the players.
@@ -594,7 +594,7 @@ the players.
 > > originalUrl: "https://commons.wikimedia.org/wiki/File:Gambling_wheel_by_H._C._Evans_and_Co.,_Chicago_-_Bayernhof_Museum_-_DSC06276.JPG"
 > > ```
 > >
-> > An H. C. Evans & Co. Big Six wheel at the Baryernhof Museum.
+> > An H. C. Evans & Co. Big Six wheel at the Bayernhof Museum.
 
 ### Chuck-a-Luck log
 
