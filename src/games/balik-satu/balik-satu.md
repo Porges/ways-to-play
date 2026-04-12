@@ -528,7 +528,7 @@ The game is played by four people with one full set of 60 cards. Each player is 
 
 In this reduced game, a player must form three pairs to win, and one pair must be identical (a <span lang="jv-Latn">bak</span>). All honour cards are considered to be rank 1, so can be paired with other rank-1 cards.
 
-Waiting for a one card to win is called <span lang="jv-Latn">tan</span>, as in <span class="noun" lang="ms">Balik Satu</span>. Waiting for a identical card is called <span lang="jv-Latn">tan nokang</span>, waiting for any card of the same rank is called <span lang="jv-Latn">tan kowah</span>.
+Waiting for one card to win is called <span lang="jv-Latn">tan</span>, as in <span class="noun" lang="ms">Balik Satu</span>. Waiting for an identical card is called <span lang="jv-Latn">tan nokang</span>, waiting for any card of the same rank is called <span lang="jv-Latn">tan kowah</span>.
 
 Scoring is performed the same as the <span lang="jv-Latn">toh bayaran</span> method of <span class="noun" lang="jv-Latn">Gonggong</span>, above.
 

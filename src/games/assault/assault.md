@@ -99,7 +99,7 @@ The defender’s pieces move in a similar way, but are not required to move in a
 >
 > A defending piece may make multiple consecutive jumps.
 
-The goal of the attacker is to occupy every point of the fortress, or to surround their defender’s pieces so that they cannot move. The goal of the defender is to reduce the attacker to eight pieces so that they cannot achieve their goal. The first player to achieve their goal wins.
+The goal of the attacker is to occupy every point of the fortress, or to surround the defender’s pieces so that they cannot move. The goal of the defender is to reduce the attacker to eight pieces so that they cannot achieve their goal. The first player to achieve their goal wins.
 
 ## Variants
 

@@ -14,7 +14,7 @@ Here I collect some terms instead of reëxplaining them in many articles, as wel
 eyes
 </dt>
     <dd>
-    A group of cards in [Kànhǔ](games/kanhu/kanhu.md) is called an ‘eye’ (<span lang="zh">眼</span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  file="pronunciation_yue_眼.mp3" pronouncer="diniskachonchan">ngaan⁵</Pronounce>).[@CulinMahjong p. 156] In other games combinations are called called ‘ox’ (<span lang="zh">牛</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁴</span>).[@GamblingGamesOfMalaya p. 88] I wonder if both terms are derived by modifying ‘pair’ (<span lang="zh">偶</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁵</span>)?[@TonicDictionary p. 323]
+    A group of cards in [Kànhǔ](games/kanhu/kanhu.md) is called an ‘eye’ (<span lang="zh">眼</span> Cantonese: <Pronounce lang="yue-Latn-jyutping"  file="pronunciation_yue_眼.mp3" pronouncer="diniskachonchan">ngaan⁵</Pronounce>).[@CulinMahjong p. 156] In other games combinations are called ‘ox’ (<span lang="zh">牛</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁴</span>).[@GamblingGamesOfMalaya p. 88] I wonder if both terms are derived by modifying ‘pair’ (<span lang="zh">偶</span> Cantonese: <span lang="yue-Latn-jyutping">ngau⁵</span>)?[@TonicDictionary p. 323]
 
     In Mahjong the ‘eye’ is the pair that is required to make a complete hand.
     

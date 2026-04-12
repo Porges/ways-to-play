@@ -66,7 +66,7 @@ The goal of the game is to form a complete hand of 12 cards, comprising four set
 
 [^fn0]: This term — possibly derived from the Chinese <span lang="zh">同</span> (Hokkien: <span lang="nan-Latn-pehoeji">tông</span>; Teochew: <span lang="nan-Latn-pengim">tong⁵</span> Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>; Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.
 
-For the purposes of forming heads, the honour cards or aces are grouped into two sets; one set comprises the two red stamped cards and the 1 Myriads, and other set is made up of the other three cards. To form a head using these cards requires them to be of the same set.
+For the purposes of forming heads, the honour cards or aces are grouped into two sets; one set comprises the two red stamped cards and the 1 Myriads, and the other set is made up of the other three cards. To form a head using these cards requires them to be of the same set.
 
 After a player has discarded a card and before the next player picks up a card, any player can claim the discarded card to complete a <span lang="th-Latn">tong</span> by calling “pong”. The claiming player takes the discard and must expose all cards forming the <span lang="th-Latn">tong</span> face-up on the table, then finishes their turn by discarding as usual. (This disrupts the normal order of play, and play continues from the player on their right.)
 
