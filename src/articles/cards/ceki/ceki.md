@@ -22,7 +22,7 @@ Ceki cards are traditional playing cards that are still widely used in Indonesia
 
 The cards were originally derived from Chinese 3-suited money cards (particularly of the “Water Margin” type), and over time and distance the imagery on the cards developed into smaller, simpler, and more abstract forms, while retaining the original deck structure.
 
-Games that used these type of cards were originally played throughout the Malaysian Archipelago. They are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity 555] Although these type of cards are not referred to in Thailand as “ceki” cards, I include them in the discussion below for comparison purposes.
+Games played with these cards were originally found throughout the Malay Archipelago. They are also played amongst members of “reterritorialized” Indonesian Chinese communities within mainland China.[@BalineseChineseCommunity 555] Although the cards are not referred to in Thailand as “ceki” cards, I include them in the discussion below for comparison purposes.
 
 ## Names and Terminology
 
@@ -136,7 +136,7 @@ The game is particularly popular amongst the Minangkabau people of West Sumatra,
 
 [^hotel]: This building was later to become the [Hotel Ambacang](https://en.wikipedia.org/wiki/Hotel_Ambacang), which was destroyed in the [2009 Sumatran earthquakes](https://en.wikipedia.org/wiki/2009_Sumatra_earthquakes). The company also had offices in Java & Sulawesi (previously known as Celebes).
 
-In the Minang language, they game and cards are called Koa (sometimes spelt Kuwa or Kowah, <span lang="ms-Arab">كوا</span> in old Malay orthography).[@MalayEnglishWilkinson p. 542] The Minangkabau go so far as to say “<span lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1] In Buginese and Makassarese, both spoken in South Sulawesi, the game is also called <span lang="bug-Latn">kowa</span> (<span lang="bug">ᨀᨚᨓ</span> in Lontara script),[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46] after a term which is used in the game.
+In the Minang language, the game and cards are called Koa (sometimes spelt Kuwa or Kowah, <span lang="ms-Arab">كوا</span> in old Malay orthography).[@MalayEnglishWilkinson p. 542] The Minangkabau go so far as to say “<span lang="id">kalau ga bisa main KOA berarti bukan orang Minang</span>”: “if you can’t play Koa, it’s means you’re not a Minang”.[@PermainanKoaPart1] In Buginese and Makassarese, both spoken in South Sulawesi, the game is also called <span lang="bug-Latn">kowa</span> (<span lang="bug">ᨀᨚᨓ</span> in Lontara script),[@MakassaarschWoordenboek p. 63][@BoegineeschWoordenboek p. 46] after a term which is used in the game.
 
 These terms might come from a Chinese language term for the number nine, which is how many cards the players need to complete their hand in the most common form of the game in these areas.
 
@@ -160,7 +160,7 @@ These terms might come from a Chinese language term for the number nine, which i
 
 Each deck, or <span lang="ms">kepala</span> (literally ‘head’, Javanese <span lang="jv">ꦏꦥꦭ</span> <span lang="jv-Latn">kapala</span>), contains 60 cards: 30 unique cards, each appearing twice. The 30 cards comprise three suits running from <Cards>1–9</Cards> (27 cards), along with three ‘honour cards’ (two of which are marked with red stamps). Many Ceki games require multiple <span lang="ms">kepala</span> to play, often two sets (giving 120 cards).
 
-In Banyuwangi, Java a deck is referred to as a <span lang="jv">ꦫꦚ꧀ꦕꦏ꧀</span> <span lang="jv-Latn">rancak</span> ‘piece of wood’ or ‘set of instruments’.[@JavaanseKaartspelen 74] In Thai, a deck is called a <span lang="th">สํารับ</span> <span lang="th-Latn">sam&shy;rap</span> (literally ‘condiment tray’).
+In Banyuwangi, Java, a deck is referred to as a <span lang="jv">ꦫꦚ꧀ꦕꦏ꧀</span> <span lang="jv-Latn">rancak</span> ‘piece of wood’ or ‘set of instruments’.[@JavaanseKaartspelen 74] In Thai, a deck is called a <span lang="th">สํารับ</span> <span lang="th-Latn">sam&shy;rap</span> (literally ‘condiment tray’).
 
 The three suits have various region-specific names.[@ChikiCards 119] I use the terms ‘Coins’, ‘Strings’, and ‘Myriads’ for consistency with articles about other money-suited cards.
 
@@ -3992,7 +3992,7 @@ big pig
 <span lang="jv-Latn">tholo</span>
 </td>
 <td>
-<span lang="jv-Latn">lima linktrik, pecuk</span>
+<span lang="jv-Latn">lima lintrik, pecuk</span>
 </td>
 <td>
 <span lang="jv-Latn">babi lintrik</span>\
@@ -4116,11 +4116,11 @@ Chinese two eyes
 governor
 
 <span lang="mcm">europeano</span>\
-european
+European
 </td>
 <td>
 <span lang="mcm">ropianu</span>\
-european
+European
 </td>
 <td>
 <span lang="min">babi aluih</span> \
@@ -6483,7 +6483,7 @@ them, I do not know of any other sets of rules recorded online.
 * [Chot](games/balik-satu/balik-satu.md#chot)/Chote/Choke/Kiong, a similar four-player game[@BabaMalayDictionary p. 214][@ChikiCards p. 127][@TheBabas p. 167]
 * [<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong), a Javan game for four or six players[@JavaanseKaartspelen p. 94–7]
 * [<span class="noun" lang="jv-Latn">Tantanan</span>](games/balik-satu/balik-satu.md#tantanan), a fast-playing Javan game for four players[@JavaanseKaartspelen p. 98]
-* [Pong](games/pai-tong/pai-tong.md) a Malaysian version of a Thai game, played by four people, also played with Mahjong tiles
+* [Pong](games/pai-tong/pai-tong.md), a Malaysian version of a Thai game, played by four people, also played with Mahjong tiles
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
@@ -6494,9 +6494,9 @@ Other games from Malaysia/Singapore, for which I have no rules, are:
 
 [^fn3]: Patoei or <span lang="ms-Arab">ڤتوي</span>[@Pijnappel II, 58] in older orthographies, probably also equivalent to <span lang="rej-Latn">ptu’i</span> <span lang="rej">ꤶ꥓ꤳꥈꥆꥇ</span> in [Rejang](https://en.wikipedia.org/wiki/Rejang_language).[@MaterialsRejang 92]
 
-[^fn4]: This possibility raised in @Morgenlandisch_2 [p. 572].
+[^fn4]: This possibility was raised in @Morgenlandisch_2 [p. 572].
 
-In some descriptions, Ceki is itself a game (a variant of [Balik Satu](games/balik-satu/balik-satu.md)) and the cards called by other names such as <span lang="jv-Latn">ijo</span>. @BlikJavaansche_2 [p. 499] gives the games <span lang="jv-Latn">koa</span>, <span lang="jv-Latn">koa-baq</span>, <span lang="jv-Latn">koa-gonggong</span> ([<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong)), <span lang="jv-Latn">pehi</span> ([Pèi](games/pei/pei.md)?), <span lang="jv-Latn">patui</span>, <span lang="jv-Latn">panghao</span>, and <span lang="jv-Latn">cĕki</span>, but without explanations.
+In some descriptions, Ceki is itself a game (a variant of [Balik Satu](games/balik-satu/balik-satu.md)) and the cards are called by other names such as <span lang="jv-Latn">ijo</span>. @BlikJavaansche_2 [p. 499] gives the games <span lang="jv-Latn">koa</span>, <span lang="jv-Latn">koa-baq</span>, <span lang="jv-Latn">koa-gonggong</span> ([<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong)), <span lang="jv-Latn">pehi</span> ([Pèi](games/pei/pei.md)?), <span lang="jv-Latn">patui</span>, <span lang="jv-Latn">panghao</span>, and <span lang="jv-Latn">cĕki</span>, but without explanations.
 
 ## Manufacturers & Brands
 
