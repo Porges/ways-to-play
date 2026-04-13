@@ -23109,3 +23109,27 @@ CristLudusCoriovalli:
   in:
     title: Antiquity
     issued: 2026
+CulinStreetGames:
+  type: article-journal
+  title: Street Games of Boys in Brooklyn, N. Y.
+  author: [*Stewart_Culin]
+  URL: https://www.jstor.org/stable/534007
+  page: 221–237
+  in:
+    title: The Journal of American Folklore
+    volume: 4
+    issue: 14
+    issued:
+      year: 1891
+CulinMancala:
+  type: article-journal
+  title: "Mancala: The National Game of Africa"
+  author: [*Stewart_Culin]
+  URL: https://archive.org/details/mancalanationalg00culi
+  page: 595–607
+  in:
+    title: Report of the U.S. National Museum
+    issued:
+      year: 1894
+    publisher: Government Printing Office
+    publisher-place: Washington, DC, USA
