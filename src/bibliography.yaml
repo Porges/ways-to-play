@@ -7420,7 +7420,7 @@ EdoKaruta7:
 StudyOfGames:
   type: book
   title: The Study of Games
-  author:
+  editor:
     - given: Elliott M.
       family: Avedon
     - *Brian_Sutton_Smith
@@ -23133,3 +23133,273 @@ CulinMancala:
       year: 1894
     publisher: Government Printing Office
     publisher-place: Washington, DC, USA
+BrewsterChildrensGames:
+  type: chapter
+  title: Children’s Games and Rhymes
+  author: [*PaulGBrewster]
+  URL: https://archive.org/details/frankcbrowncolle00fran/page/29
+  page: 29–219
+  in:
+    title: The Frank C. Brown Collection of North Carolina Folklore
+    volume: 1
+    issued:
+      year: 1952
+    publisher: Duke University Press
+    publisher-place: Durham, NC, USA
+BrewsterNigerianGames:
+  type: article-journal
+  title: Some Nigerian Games, with their Parallels and Analogues
+  author: [*PaulGBrewster]
+  URL: https://www.persee.fr/doc/jafr_0037-9166_1954_num_24_1_1860
+  page: 25–48
+  in:
+    title:
+      value: Journal de la Société des Africanistes
+      lang: fr
+    volume: 24
+    issue: 1
+    issued:
+      year: 1954
+BrewsterSagargote:
+  type: article-journal
+  title: The Indian Game of Sagargote (Kooka)
+  author:
+    - *PaulGBrewster
+    - family: Patel
+      given: J. S.
+  URL: https://digi.evifa.de/viewer/!image/1552306885147/196/-/
+  page: 186–190
+  in:
+    title:
+      value: Zeitschrift für Ethnologie
+      lang: de
+    volume: 82
+    issued: 1957
+BrewsterWorldwideGame:
+  type: article-journal
+  title: A Worldwide Game and an Indian Legend
+  author: [*PaulGBrewster]
+  URL: https://archive.org/details/eastern-anthropologist_may-august-1961_14_2/page/192
+  page: 192–193
+  in:
+    title: Eastern Anthropologist
+    volume: 14
+    issue: 2
+    issued:
+      year: 1961
+BrewsterTurkishGames:
+  type: article-journal
+  title: A Sampling of Games from Turkey
+  author: [*PaulGBrewster]
+  URL: https://www.jstor.org/stable/29754199
+  page: 15–20
+  in:
+    title: East and West
+    volume: 11
+    issue: 1
+    issued:
+      year: 1960
+      month: 3
+BrewsterSahbiIddi:
+  type: article-journal
+  title: "The Game of Ṡáḥbi Iddi Ʒăi̯ậţ: Some Parallels and Analogues"
+  author: [*PaulGBrewster]
+  page: 239–244
+  URL: https://archive.org/details/Hesperis/Hesperis42-1955/page/239
+  in:
+    title:
+      lang: fr
+      value: Hespéris
+    volume: 42
+    issued: 1955
+    publisher-place: Paris, France
+SoGBrewsterImportance:
+  type: chapter
+  title: The Importance of the Collecting and Study of Games
+  author: [*PaulGBrewster]
+  page: 9–18
+  in: &StudyOfGames
+    title: The Study of Games
+    URL: https://archive.org/details/in.ernet.dli.2015.112077
+    issued: 1971
+    publisher: John Wiley & Sons
+    publisher-place: New York, NY, USA
+    editor:
+      - given: Elliott M.
+        family: Avedon
+      - *Brian_Sutton_Smith
+    ISBN: '0471038393'
+SoGBrewsterShakespeare:
+  type: chapter
+  title: Games and Sports in Shakespeare
+  author: [*PaulGBrewster]
+  page: 27–47
+  in: *StudyOfGames
+SoGTylorHistory:
+  type: chapter
+  title: The History of Games
+  author: [*EB_Tylor]
+  page: 63–76
+  in: *StudyOfGames
+SoGTylorLotGames:
+  type: chapter
+  title: On American Lot-Games, as Evidence of Asiatic Intercourse Before the Time of Columbus
+  author: [*EB_Tylor]
+  page: 77–93
+  in: *StudyOfGames
+SoGCulinMancala:
+  type: chapter
+  title: "Mancala, the National Game of Africa"
+  author: [*Stewart_Culin]
+  page: 94–102
+  in: *StudyOfGames
+SoGCulinAmericanIndian:
+  type: chapter
+  title: American Indian Games
+  author: [*Stewart_Culin]
+  page: 103–108
+  in: *StudyOfGames
+SoGErasmusPatolli:
+  type: chapter
+  title: "Patolli, Pachisi, and the Limitation of Possibilities"
+  author:
+    - given: Charles J.
+      family: Erasmus
+  page: 109–129
+  in: *StudyOfGames
+SoGGoldstein:
+  type: chapter
+  title: "Strategy in Counting Out: An Ethnographic Folklore Field Study"
+  author:
+    - given: Kenneth S.
+      family: Goldstein
+  page: 167–178
+  in: *StudyOfGames
+SoGHoward:
+  type: chapter
+  title: Marble Games of Australian Children
+  author:
+    - given: Dorothy
+      family: Howard
+  page: 179–193
+  in: *StudyOfGames
+SoGSuttonSmithKissing:
+  type: chapter
+  title: The Kissing Games of Adolescents in Ohio
+  author: [*Brian_Sutton_Smith]
+  page: 194–216
+  in: *StudyOfGames
+SoGPaxson:
+  type: chapter
+  title: War Gaming
+  author:
+    - given: E. W.
+      family: Paxson
+  page: 278–301
+  in: *StudyOfGames
+SoGColeman:
+  type: chapter
+  title: Learning Through Games
+  author:
+    - given: James S.
+      family: Coleman
+  page: 322–325
+  in: *StudyOfGames
+SoGKraft:
+  type: chapter
+  title: Pedagogical Futility in Fun and Games
+  author:
+    - given: Ivor
+      family: Kraft
+  page: 326–329
+  in: *StudyOfGames
+SoGCarlson:
+  type: chapter
+  title: Games in the Classroom
+  author:
+    - given: Elliott
+      family: Carlson
+  page: 330–339
+  in: *StudyOfGames
+SoGRavich:
+  type: chapter
+  title: The Use of an Interpersonal Game-Test in Conjoint Marital Psychotherapy
+  author:
+    - given: Robert A.
+      family: Ravich
+  page: 352–364
+  in: *StudyOfGames
+SoGGumpMei:
+  type: chapter
+  title: Active Games for Physically Handicapped Children
+  author:
+    - given: Paul V.
+      family: Gump
+    - given: Yung-Huo
+      family: Mei
+  page: 365–370
+  in: *StudyOfGames
+SoGAvedon:
+  type: chapter
+  title: Using Recreative Games for Therapeutic Purposes
+  author:
+    - given: Elliott M.
+      family: Avedon
+  page: 371–375
+  in: *StudyOfGames
+SoGGumpSuttonSmith:
+  type: chapter
+  title: The “It” Role in Children's Games
+  author:
+    - given: Paul V.
+      family: Gump
+    - *Brian_Sutton_Smith
+  page: 390–397
+  in: *StudyOfGames
+SoGRedlGumpSuttonSmith:
+  type: chapter
+  title: The Dimensions of Games
+  author:
+    - given: Fritz
+      family: Redl
+    - given: Paul V.
+      family: Gump
+    - *Brian_Sutton_Smith
+  page: 408–418
+  in: *StudyOfGames
+SoGAvedonStructural:
+  type: chapter
+  title: The Structural Elements of Games
+  author:
+    - given: Elliott M.
+      family: Avedon
+  page: 419–426
+  in: *StudyOfGames
+SoGReider:
+  type: chapter
+  title: "Chess, Oedipus, and the Mater Dolorosa"
+  author:
+    - given: Norman
+      family: Reider
+  page: 440–464
+  in: *StudyOfGames
+SoGRobertsSuttonSmith:
+  type: chapter
+  title: Child Training and Game Involvement
+  author:
+    - given: John M.
+      family: Roberts
+    - *Brian_Sutton_Smith
+  page: 465–487
+  in: *StudyOfGames
+SoGAchievement:
+  type: chapter
+  title: Achievement and Strategic Competence
+  author:
+    - *Brian_Sutton_Smith
+    - given: Virginia J.
+      family: Crandall
+    - given: John M.
+      family: Roberts
+  page: 488–497
+  in: *StudyOfGames
