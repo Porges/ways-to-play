@@ -1884,7 +1884,7 @@ Brands of both companies have included:
 >
 > The wrapper for <span lang="ja-Latn" class="noun">Ryūtendō</span>’s <span lang="ja-Latn">kurama kintengu</span> brand.
 
-Existed in <span class="noun" lang="ja-Latn">Kyōto</span> in 1948;[@Yamaguchi p. 102] their mark was a circled <span lang="ja">龍</span> <span lang="ja-Latn">ryu</span> “dragon” (they also possibly had another trade name of <span lang="ja">マルナ</span> <span lang="jat-Latn">maruna</span> with circled <span lang="ja" class="circled">名</span> ‘<span lang="ja-Latn">na</span>’ as mark). Brands included:
+Existed in <span class="noun" lang="ja-Latn">Kyōto</span> in 1948;[@Yamaguchi p. 102] their mark was a circled <span lang="ja">龍</span> <span lang="ja-Latn">ryu</span> “dragon” (they also possibly had another trade name of <span lang="ja">マルナ</span> <span lang="ja-Latn">maruna</span> with circled <span lang="ja" class="circled">名</span> ‘<span lang="ja-Latn">na</span>’ as mark). Brands included:
 
 * <span lang="ja">龍田川</span> (<span lang="ja-Latn">tatsutagawa</span>, ‘<span class="noun" lang="ja-Latn">Tatsuta</span> river’)
 * <span lang="ja">天龍</span> (<span lang="ja-Latn">tenryū</span>, ‘<span class="noun" lang="ja-Latn">Tenryū</span>’)
@@ -2489,7 +2489,7 @@ lang="ja">万</span> with corner at top-right.[@OstasiatischeSpielkarten p. 135]
 > license: "cc0"
 > ```
 >
-> <span class="noun" lang="ja-Latn">Aakata Shōjōya</span>’s trademark, registered on the 24th of April 1900 by <span class="noun" lang="ja-Latn">Akada Hanjirō</span> (<span lang="ja">赤田 半次郎</span>).[@Trademarks1905 p. 67]
+> <span class="noun" lang="ja-Latn">Akata Shōjōya</span>’s trademark, registered on the 24th of April 1900 by <span class="noun" lang="ja-Latn">Akada Hanjirō</span> (<span lang="ja">赤田 半次郎</span>).[@Trademarks1905 p. 67]
 
 A <span class="noun" lang="ja-Latn">Kyōto</span> manufacturer whose mark was <span lang="ja">
 松</span> in a circle. Their mascot was a <span
@@ -2557,7 +2557,7 @@ Their mark was a circled <span lang="ja">娯</span>. Their brands were:
 
 ### <img src='/small-images/maruei.svg' alt="" class="inline-img" /> <span class="noun" lang="ja-Latn" id="nishiguchi-shoten">Nishi&shy;guchi Shōten</span> (<span lang="ja">西口商店</span>)
 
-<span class="noun" lang="ja-Latn">Nishi&shy;gushi</span> also manufactured board games (such as [Gunjin Shogi](games/gunjin-shogi/gunjin-shogi.md)) Some of their decks were manufactured by <span class="noun" lang="ja-Latn">Nihon Karuta</span>. Their mark was a circled <span class="circled" lang="ja">榮</span>, the same as <span class="noun" lang="ja-Latn">Kyōwadō</span>. Brands included:
+<span class="noun" lang="ja-Latn">Nishi&shy;guchi</span> also manufactured board games (such as [Gunjin Shogi](games/gunjin-shogi/gunjin-shogi.md)) Some of their decks were manufactured by <span class="noun" lang="ja-Latn">Nihon Karuta</span>. Their mark was a circled <span class="circled" lang="ja">榮</span>, the same as <span class="noun" lang="ja-Latn">Kyōwadō</span>. Brands included:
 
 * <span lang="ja">おたのしみ</span> (<span lang="ja-Latn">otanoshimi</span>, ‘enjoyment’)
 

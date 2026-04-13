@@ -214,7 +214,7 @@ to play at stool-ball [*hand-ball*]
 <span lang="la">pilâ paganicâ</span>
 </td>
 <td>
-<span lang="fr">à la longue paume ou à la balle a à main</span>
+<span lang="fr">à la longue paume ou à la balle à main</span>
 </td>
 <td>
 <span lang="de">mit dem handballen spielen</span>

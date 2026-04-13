@@ -1981,7 +1981,7 @@ The wood of the paulownia is light and strong and often used for boxes; it is
 very fast-growing and also somewhat fire-proof, so was useful as a storage
 material. Older high-quality <span class="noun" lang="ja-Latn">Hanafuda</span> decks came
 encased in an outer box of paulownia wood. The manufacturer <span class="noun"
-lang="ja-Latn">Ōishi Tengudo</span> still boxes many of their decks in this way.
+lang="ja-Latn">Ōishi Tengudō</span> still boxes many of their decks in this way.
 
 > [!figure]
 >
