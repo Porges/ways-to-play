@@ -23019,3 +23019,93 @@ DOI861682:
     lang: ja
   issued: 1888
   notes: Possibly a <span lang="ja">前田多門</span> <span lang="ja-Latn" class="noun">Maeda Tamon</span> writing under a pseudonym — the same title is referenced in Culin’s <cite>Games of the Orient</cite> (133). Note however that the most famous person by that name was not born at the right time…
+CristFacilitatingInteraction:
+  type: article-journal
+  title: "Facilitating Interaction: Board Games as Social Lubricants in the Ancient Near East"
+  author:
+    - *Walter_Crist
+    - *Alex_de_Voogt
+    - family: Dunn-Vaturi
+      given: Anne-Elizabeth
+  URL: https://doi.org/10.1111/ojoa.12084
+  page: 179–196
+  in:
+    title: Oxford Journal of Archaeology
+    volume: 35
+    issue: 2
+    issued:
+      year: 2016
+CristPlayingAgainstComplexity:
+  type: article-journal
+  title: "Playing against Complexity: Board Games as Social Strategy in Bronze Age Cyprus"
+  author: [*Walter_Crist]
+  URL: https://doi.org/10.1016/j.jaa.2019.101078
+  in:
+    title: Journal of Anthropological Archaeology
+    volume: 55
+    issued:
+      year: 2019
+CristDigitalLudeme:
+  type: article-journal
+  title: "The Digital Ludeme Project: Combining Archaeological and Computational Methods for the Study of Ancient Board Games"
+  author:
+    - *Walter_Crist
+    - family: Soemers
+      given: Dennis J.N.J.
+  URL: https://doi.org/10.1016/j.jasrep.2023.104005
+  in:
+    title: "Journal of Archaeological Science: Reports"
+    volume: 49
+    issued: 2023
+CristLudiiGamesDatabase:
+  type: article-journal
+  title: "The Ludii Games Database: A Resource for Computational and Cultural Research on Traditional Board Games"
+  author:
+    - *Walter_Crist
+    - family: Stephenson
+      given: Matthew
+    - family: Piette
+      given: Éric
+    - family: Browne
+      given: Cameron
+  URL: https://digitalhumanities.org/dhq/vol/18/4/000756/000756.html
+  in:
+    title: Digital Humanities Quarterly
+    volume: 18
+    issue: 4
+    issued: 2024
+CristHerdingWithTheHounds:
+  type: article-journal
+  title: "Herding with the Hounds: The Game of Fifty-eight Holes in the Abşeron Peninsula"
+  author:
+    - *Walter_Crist
+    - family: Abdullayev
+      given: Rahman
+  URL: https://doi.org/10.1017/eaa.2024.24
+  page: 61–80
+  in:
+    title: European Journal of Archaeology
+    volume: 28
+    issue: 1
+    issued: 2025
+CristLudusCoriovalli:
+  type: article-journal
+  title: "Ludus Coriovalli: Using Artificial Intelligence-driven Simulations to Identify Rules for an Ancient Board Game"
+  author:
+    - *Walter_Crist
+    - family: Piette
+      given: Éric
+    - family: Jeneson
+      given: Karen
+    - family: Soemers
+      given: Dennis J.N.J.
+    - family: Stephenson
+      given: Matthew
+    - family: van Goor
+      given: Lul
+    - family: Browne
+      given: Cameron
+  URL: https://doi.org/10.15184/aqy.2025.10264
+  in:
+    title: Antiquity
+    issued: 2026
