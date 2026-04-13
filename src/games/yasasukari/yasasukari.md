@@ -13,19 +13,23 @@ linter-yaml-title-alias: '<span lang="ja">八道行成</span> · <span lang="ja-
 ---
 # <span lang="ja">八道行成</span> · <span lang="ja-Latn" class="noun">Yasasukari</span>
 
-<span lang="ja-Latn" class="noun">Yasakukari</span> (<span lang="ja">八道行成</span>, also pronounced <span lang="ja-Latn">yasugari</span> or <span lang="ja-Latn">yasukari</span>) is an old board game, played in Japan, of the Fox and Geese family.[@KoreanGames p. 77]
+<span lang="ja-Latn" class="noun">Yasasukari</span> (<span lang="ja">八道行成</span>, also pronounced <span lang="ja-Latn">yasugari</span> or <span lang="ja-Latn">yasukari</span>) is an old board game, played in Japan, of the Fox and Geese family.[@KoreanGames p. 77]
 
 > [!aside]
 >
 > It was possibly played China as well, but I have not been able to find any more information about this yet.
 
-The game is named in the book <cite>[Wamyō Ruijushō](https://en.wikipedia.org/wiki/Wamy%C5%8D_Ruijush%C5%8D)</cite> (<span lang="ja">倭名類聚抄</span>, ‘Japanese names, classified and annotated’), published in 938, so it was played in Japan since at least the <span lang="ja-Latn" class="noun">Heian</span> period. The name of the game also appears in the fifth-century [<cite>Mahāparinirvāṇa sūtra</cite>](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra), where it is described as a game to avoid,[@Lusthaus p. 205][^fn0] but it is possible that this might not refer to the same game.
+The game is named in the book <cite>[Wamyō Ruijushō](https://en.wikipedia.org/wiki/Wamy%C5%8D_Ruijush%C5%8D)</cite> (<span lang="ja">倭名類聚抄</span>, ‘Japanese names, classified and annotated’), published in 938, so it was played in Japan since at least the <span lang="ja-Latn" class="noun">Heian</span> period. The name of the game also appears in the fifth-century Nirvana Sutra ([<cite>Mahāparinirvāṇa sūtra</cite>](https://en.wikipedia.org/wiki/Mah%C4%81y%C4%81na_Mah%C4%81parinirv%C4%81%E1%B9%87a_S%C5%ABtra), chapter 19), where it is described as a game to avoid,[@Lusthaus p. 205][^fn0] but it is possible that this might not refer to the same game.
 
-[^fn0]: For other games that the Buddha says to avoid, see @EarliestKnownList. 
+
+
+The characters can also be read <span lang="ja-Latn">hachidōgyōjō</span>, and often appears this way in translations of the sutra; but the first name given in this article is how the game is referred to in Japan.
+
+[^fn0]: For other games that the Buddha says to avoid, see @EarliestKnownList. One potential reason to avoid it is that the name overlaps with the Buddhist technical term <span lang="ja">八道行</span> ‘following the eightfold path’. The <span lang="ja">八道</span> ‘eightfold path’ is more commonly referred to as the <span lang="ja">八正道</span> ‘noble eightfold path’.
 
 > [!todo]
-> 
-> https://suttacentral.net/dn1/en/sujato?lang=en&layout=linebyline&reference=none&notes=asterisk&highlight=true&script=latin 
+>
+> https://suttacentral.net/dn1/en/sujato?lang=en&layout=linebyline&reference=none&notes=asterisk&highlight=true&script=latin
 
 ## Play
 
