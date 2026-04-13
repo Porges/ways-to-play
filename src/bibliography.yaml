@@ -17588,7 +17588,7 @@ BronderWurfelspiele:
     value: Mittelalterliche Würfelspiele mit Einsatz und Gewinn
   language: de
   page: 1-27
-  URL: https://sciendo.com/article/10.1515/bgs-2018-0001
+  URL: https://sciendo.com/article/10.2478/bgs-2018-0001
   in: &bgs12
     title: Board Game Studies
     volume: 12
@@ -17605,7 +17605,7 @@ DepaulisAncientAmericanI:
   - *Thierry_Depaulis
   title: 'Ancient American Board Games, I: From Teotihuacan to the Great Plains'
   page: 29-55
-  URL: https://sciendo.com/article/10.1515/bgs-2018-0002
+  URL: https://sciendo.com/article/10.2478/bgs-2018-0002
   in: *bgs12
 OkoshiMancala:
   type: article-journal
@@ -17615,7 +17615,7 @@ OkoshiMancala:
   - *Alex_de_Voogt
   title: 'Mancala in Surinamese Maroon Communities: The Expedition of Melville J. Herskovits'
   page: 57-73
-  URL: https://sciendo.com/article/10.1515/bgs-2018-0003
+  URL: https://sciendo.com/article/10.2478/bgs-2018-0003
   in: *bgs12
 DeshmukhIndia:
   type: article-journal
@@ -17624,7 +17624,7 @@ DeshmukhIndia:
     family: Deshmukh
   title: Culture of Sedentary Play in India – The Space Context
   page: 65-80
-  URL: https://sciendo.com/article/10.1515/bgs-2018-0004
+  URL: https://sciendo.com/article/10.2478/bgs-2018-0004
   in: *bgs12
 LangeKrieg:
   type: article-journal
@@ -17636,7 +17636,7 @@ LangeKrieg:
     value: Agon und Ares. Der Krieg und die Spiele
   language: de
   page: 81-86
-  URL: https://sciendo.com/article/10.1515/bgs-2018-0005
+  URL: https://sciendo.com/article/10.2478/bgs-2018-0005
   in: *bgs12
 DeVoogtComoros:
   type: article-journal
@@ -17644,7 +17644,7 @@ DeVoogtComoros:
   - *Alex_de_Voogt
   title: 'The Comoros: a confluence of board game histories'
   page: 1-13
-  URL: https://sciendo.com/article/10.1515/bgs-2019-0001
+  URL: https://sciendo.com/article/10.2478/bgs-2019-0001
   in: &bgs13
     title: Board Game Studies
     volume: 13
@@ -17662,7 +17662,7 @@ MarkovVerney:
     family: Markov
   title: 'A game that never was: Verney’s duodecimal chess'
   page: 15-20
-  URL: https://sciendo.com/article/10.1515/bgs-2019-0002
+  URL: https://sciendo.com/article/10.2478/bgs-2019-0002
   in: *bgs13
 GoriaWargame:
   type: article-journal
@@ -17676,7 +17676,7 @@ GoriaWargame:
     value: Le formateur et son public dans le cadre de l’élaboration d’une simulation de type wargame sur plateau
   language: fr
   page: 21-65
-  URL: https://sciendo.com/article/10.1515/bgs-2019-0003
+  URL: https://sciendo.com/article/10.2478/bgs-2019-0003
   in: *bgs13
 RichterSeven:
   type: article-journal
@@ -17688,7 +17688,7 @@ RichterSeven:
     url: https://orcid.org/0000-0002-2924-6026
   title: 'The Game of Seven: Glückshaus and Related Dice Games'
   page: 65-97
-  URL: https://sciendo.com/article/10.1515/bgs-2019-0004
+  URL: https://sciendo.com/article/10.2478/bgs-2019-0004
   in: *bgs13
 ParlettMagie:
   type: article-journal
@@ -17696,14 +17696,14 @@ ParlettMagie:
   - *David_Parlett
   title: 'Lizzie Magie: America’s First Lady of Games'
   page: 99-109
-  URL: https://sciendo.com/article/10.1515/bgs-2019-0005
+  URL: https://sciendo.com/article/10.2478/bgs-2019-0005
   in: *bgs13
 DugganGeese:
   type: article-journal
   author: [*Eddie_Duggan]
   title: 'Chasing Geese: on the trail of fourteen British-published copies of The Royal Pastime of Cupid, or Entertaining Game of the Snake'
   page: 111-158
-  URL: https://sciendo.com/article/10.1515/bgs-2019-0006
+  URL: https://sciendo.com/article/10.2478/bgs-2019-0006
   in: *bgs13
 DonaldDuckHoliday:
   type: article-journal
@@ -17712,7 +17712,7 @@ DonaldDuckHoliday:
     family: van Heeswijk
   title: 'Donald Duck Holiday Game: A numerical analysis of a Game of the Goose role-playing variant'
   page: 1-15
-  URL: https://sciendo.com/article/10.1515/bgs-2020-0001
+  URL: https://sciendo.com/article/10.2478/bgs-2020-0001
   in: &bgs14
     title: Board Game Studies
     volume: 14
@@ -17730,7 +17730,7 @@ HeynMieroslawski:
     family: Heyn
   title: 'Wrested from Oblivion: General Ludwik Mierosławski’s Strategy Game Rediscovered'
   page: 17-42
-  URL: https://sciendo.com/article/10.1515/bgs-2020-0002
+  URL: https://sciendo.com/article/10.2478/bgs-2020-0002
   in: *bgs14
 MarkovTurkish:
   type: article-journal
@@ -17741,7 +17741,7 @@ MarkovTurkish:
     family: Härtel
   title: 'Turkish Great Chess and Chinese Whispers: Misadventures of a Chess Variant'
   page: 43-60
-  URL: https://sciendo.com/article/10.1515/bgs-2020-0003
+  URL: https://sciendo.com/article/10.2478/bgs-2020-0003
   in: *bgs14
 PriceCatan:
   type: article-journal
@@ -17750,7 +17750,7 @@ PriceCatan:
     family: Price
   title: 'The Sellers of Catan: The Impact of the <cite>Settlers of Catan</cite> on the United States Leisure and Business Landscape, 1995–2019'
   page: 61-82
-  URL: https://sciendo.com/article/10.1515/bgs-2020-0004
+  URL: https://sciendo.com/article/10.2478/bgs-2020-0004
   in: *bgs14
 SucklingSaratoga:
   type: article-journal
@@ -17759,7 +17759,7 @@ SucklingSaratoga:
     family: Suckling
   title: 'Simulating Saratoga: How Saratoga-Themed Board Games Function as Experiential Historiography'
   page: 83-108
-  URL: https://sciendo.com/article/10.1515/bgs-2020-0005
+  URL: https://sciendo.com/article/10.2478/bgs-2020-0005
   in: *bgs14
 PavsicMonopoly:
   type: article-journal
@@ -17768,7 +17768,7 @@ PavsicMonopoly:
     family: Pavšič
   title: 'Remembering Yugoslavia: Board Game Monopoly and Cultural Memory'
   page: 109-126
-  URL: https://sciendo.com/article/10.1515/bgs-2020-0006
+  URL: https://sciendo.com/article/10.2478/bgs-2020-0006
   in: *bgs14
 DepaulisBeforeUr:
   type: article-journal
@@ -17776,7 +17776,7 @@ DepaulisBeforeUr:
   - *Thierry_Depaulis
   title: Board Games Before Ur?
   page: 127-144
-  URL: https://sciendo.com/article/10.1515/bgs-2020-0007
+  URL: https://sciendo.com/article/10.2478/bgs-2020-0007
   in: *bgs14
 DeVoogtMancalaMisconceptions:
   type: article-journal
@@ -17784,7 +17784,7 @@ DeVoogtMancalaMisconceptions:
   - *Alex_de_Voogt
   title: 'Misconceptions in the History of Mancala Games: Antiquity and Ubiquity'
   page: 1-12
-  URL: https://sciendo.com/article/10.1515/bgs-2021-0001
+  URL: https://sciendo.com/article/10.2478/bgs-2021-0001
   in: *bgs15
 CruxAndCruciform:
   type: article-journal
@@ -17793,14 +17793,14 @@ CruxAndCruciform:
     family: Schmidt-Madsen
   title: 'The Crux of the Cruciform: Retracing the Early History of Chaupar and Pachisi'
   page: 29-77
-  URL: https://sciendo.com/article/10.1515/bgs-2021-0003
+  URL: https://sciendo.com/article/10.2478/bgs-2021-0003
   in: *bgs15
 DugganTafl:
   type: article-journal
   author: [*Eddie_Duggan]
   title: 'A Game on the Edge: An Attempt to Unravel the Gordian Knot of <i>tafl</i> Games'
   page: 99-132
-  URL: https://sciendo.com/article/10.1515/bgs-2021-0005
+  URL: https://sciendo.com/article/10.2478/bgs-2021-0005
   in: *bgs15
 ReframingPlay:
   type: article-journal
