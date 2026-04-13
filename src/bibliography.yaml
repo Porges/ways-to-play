@@ -778,7 +778,7 @@ LawsAndPrinciplesOfWhist:
   title: The Laws and Principles of Whist
   issued:
     year: 1881
-  publisher: Joh Wurtele Lovell
+  publisher: John Wurtele Lovell
   publisher-place: 24 Bond Street, New York, NY, USA
   author:
     - given: Henry “Cavendish”
@@ -931,7 +931,7 @@ PopesGameOfOmbre:
   URL: https://archive.org/details/macmillansmagaz12unkngoog/page/262/mode/2up
   in:
     publisher: Macmillan and Co
-    publisher-place: 29 & 30, Bedford Street, Convent Garden, London, England, UK
+    publisher-place: 29 & 30, Bedford Street, Covent Garden, London, England, UK
     title: Macmillan’s Magazine
     volume: 29
     issue: 171
@@ -1301,7 +1301,7 @@ MagazineOfArt:
   page: 133–137
   URL: https://archive.org/details/magazineofart07unse
   in:
-    publisher: Cassel and Company
+    publisher: Cassell and Company
     publisher-place: London, Paris, and New York
     title: The Magazine of Art
     volume: 7
@@ -1316,7 +1316,7 @@ NurseryWitch:
   page: 371–375
   URL: https://archive.org/details/ourmonthly00unkngoog
   in:
-    publisher: The Presbytarian Magazine Company
+    publisher: The Presbyterian Magazine Company
     publisher-place: Cincinnati
     title: Our Monthly
     volume: 3
@@ -1512,7 +1512,7 @@ NoteOnAMissingLink:
   page: 54–56
   in: &IPCS_16_2
     ISSN: &IPCS_SSN 1752-671x #used to be? 0305-2133
-    title: &IPCS Journal of the International Playing-Card Society
+    title: &IPCS The Playing-Card
     volume: 16
     issue: 2
     issued:
@@ -1919,7 +1919,7 @@ SportsAndGamesOfSinghalese:
   URL: https://hdl.handle.net/2027/mdp.39015020463454&view=1up&seq=41
   in:
     publisher: Ceylon Times Press
-    publisher-place: Colombo, Sri Lanka
+    publisher-place: Colombo, Ceylon
     title: The Journal of the Ceylon Branch of the Royal Asiatic Society of Great
       Britain & Ireland
     volume: 5
@@ -2995,7 +2995,7 @@ HironoriGunjin:
         value: Takahashi Hironori
         lang: ja-Latn
   URL: http://id.nii.ac.jp/1297/00000560
-  page: 101–76
+  page: 101–176
   in:
     publisher: Osaka University of Commerce
     title: Bulletin of the Amusement Industry Research Institute
@@ -3289,7 +3289,7 @@ TarHeel:
   type: article-journal
   title: Tar Heel Tobacconist in Tokyo, 1899–1904
   author:
-    - family: Durdern
+    - family: Durden
       given: Robert F.
   URL: https://www.jstor.org/stable/23529457
   page: 347–363
@@ -3393,7 +3393,7 @@ TimeOfCannibals:
     year: 1994
   author:
     - given: David B.
-      family: Coplin
+      family: Coplan
   publisher: The University Of Chicago Press
   publisher-place: Chicago
   URL: https://archive.org/details/intimeofcannibal0000copl
@@ -3458,7 +3458,7 @@ DRGCompany:
 EmperorOfJapan:
   type: book
   URL: https://archive.org/details/emperorofjapanme00keen
-  title: "Emperor of Japan: Meiji and His world, 1852–1912"
+  title: "Emperor of Japan: Meiji and His World, 1852–1912"
   author:
     - given: Donald
       family: Keene
@@ -5305,7 +5305,7 @@ JavaanseKaartspelen:
 JavaanseKaartspelenReview:
   type: article-journal
   title:
-    value: "Tjan Tjoe Siem: Javaansche Kaartspelen: bidrage tot de beschrijving van land en volk"
+    value: "Tjan Tjoe Siem: Javaansche Kaartspelen: bijdrage tot de beschrijving van land en volk"
     lang: nl
   language: nl
   author:
@@ -6000,7 +6000,7 @@ Fischarts:
   URL: https://archive.org/details/johannfischarts00fiscgoog/page/258
   author:
     - given: Johann
-      family: Fischarts
+      family: Fischart
       lang: de
   issued:
     year: 1891
@@ -6371,7 +6371,7 @@ CluthaPolitical:
   page: 3
   in:
     title: Clutha Leader
-    publisher-place: Balcutha, Otago, New Zealand
+    publisher-place: Balclutha, Otago, New Zealand
     volume: 8
     issue: 408
     issued:
@@ -6525,7 +6525,7 @@ MexicoAroundMe:
       family: Miller
   issued:
     year: 1937
-  publisher: Reynald & Hitchcock
+  publisher: Reynal & Hitchcock
   publisher-place: New York, NY, USA
   URL: https://books.google.co.nz/books?id=XlUzAQAAIAAJ
 ScarneOnDice:
@@ -7448,7 +7448,7 @@ TylorAnthropology:
   title: 'Anthropology: an introduction to the study of man and civilization'
   URL: https://archive.org/details/anthropologyintr00tylouoft
   author: [*EB_Tylor]
-  publisher: MacMillan and Co.
+  publisher: Macmillan and Co.
   publisher-place: London
   issued: 1881
 TylorLotGames:
@@ -7527,7 +7527,7 @@ OneToZero:
   publisher-place: New York
   translator:
     - given: Lowell
-      family: Blair
+      family: Bair
   ISBN: "0670373958"
 BeniHasan:
   type: book
@@ -7557,8 +7557,8 @@ LondonStreetGames:
   title: London Street Games
   URL: https://archive.org/details/londonstreetgame00doug
   author:
-    - given: Douglas
-      family: Norman
+    - given: Norman
+      family: Douglas
       url: https://en.wikipedia.org/wiki/Norman_Douglas
   issued: 1916
   publisher: St. Catherine Press
@@ -7875,7 +7875,7 @@ LouisvilleSummerPlaygrounds:
 UndersAndOvers:
   type: document
   title: Rules for Playing Unders and Overs
-  publisher: "Department of Racing, Gaming & Liquor: Goverment of Western Australia"
+  publisher: "Department of Racing, Gaming & Liquor: Government of Western Australia"
   URL: https://www.dlgsc.wa.gov.au/docs/default-source/racing-gaming-and-liquor/gaming/rules-of-the-game/unders-and-overs-rules.pdf
   archive-URL: https://web.archive.org/web/20230923014616/https://www.dlgsc.wa.gov.au/docs/default-source/racing-gaming-and-liquor/gaming/rules-of-the-game/unders-and-overs-rules.pdf
   issued: 2022
@@ -8248,7 +8248,8 @@ NoticeDesÉmaux:
   publisher-place: Paris
   author:
     - given: Léon
-      family: de la Borde
+      family: de Laborde
+      url: https://en.wikipedia.org/wiki/Léon_de_Laborde
   issued: 1853
   publisher: Vinchon
 DictionnaireAncienne3:
@@ -8542,7 +8543,7 @@ ThingsChinese:
   edition: 4
   issued: 1903
   publisher: Kelly & Walsh
-  publisher-place: Hongkong, Shanghai, Yokohama, and Sinapore
+  publisher-place: Hongkong, Shanghai, Yokohama, and Singapore
 PlayboysIllustratedTreasury:
   type: book
   title: Playboy’s Illustrated Treasury of Gambling
@@ -9450,7 +9451,7 @@ LawAndRacism:
       year: 1995
 PersistenceAndChange:
   type: article-journal
-  title: Persistance and Change in Cantonese-American Gambling
+  title: Persistence and Change in Cantonese-American Gambling
   author:
     - given: Milton L.
       family: Barnett
@@ -9937,7 +9938,7 @@ ChenHongshou2:
   author:
   - given: Tamara Heimarck
     family: Bentley
-  title: Authenticity and the Expanding Market in Cheng Hongshou’s Seventeenth-Century Printed Playing Cards
+  title: Authenticity and the Expanding Market in Chen Hongshou’s Seventeenth-Century Printed Playing Cards
   page: 147-188
   URL: https://www.jstor.org/stable/40599610
   in:
@@ -10002,7 +10003,7 @@ GeneralizingGalileo:
   author:
   - given: Vassilios
     family: Hombas
-  page: 643–702
+  page: 643–646
   URL: https://doi.org/10.1080/0020739X.2011.618549
   in:
     title: International Journal of Mathematical Education in Science and Technology
@@ -10368,7 +10369,7 @@ SenetTarot:
   URL: http://bentylightgarden.com/Senet_Tarot_I_151016.pdf
 DisquisitionOnBoyi:
   type: article-journal
-  title: We Yao’s Disquisition on <span lang="zh-Latn">boyi</span>
+  title: Wei Yao’s Disquisition on <span lang="zh-Latn">boyi</span>
   author:
   - given: Y. Edmund
     family: Lien
@@ -11464,7 +11465,7 @@ ChinaCycle:
     family: Dobson
     url: https://en.wikipedia.org/wiki/Richard_Dobson_(businessman)
   URL: https://archive.org/details/in.ernet.dli.2015.81915
-  publisher: MacMillan & Co.
+  publisher: Macmillan & Co.
   issued: 1946
   publisher-place: London
 GallopingIvories:
@@ -12068,7 +12069,7 @@ HarvardCamp:
     title: Archaeology
     volume: 2
     issue: 4
-    publisher: Archaeological Insitute of America
+    publisher: Archaeological Institute of America
     issued:
       month: 12
       year: 1949
@@ -12147,7 +12148,7 @@ TopographicalBibliography_1:
   - given: Rosalind L. B.
     family: Moss
   edition: 2
-  publisher: Griffith Insitute, Ashmolean Museum
+  publisher: Griffith Institute, Ashmolean Museum
   publisher-place: Oxford
   issued: 1970
   original-date: 1960
@@ -12231,7 +12232,7 @@ WreszinksiAtlas1:
   language: de
   author:
   - given: Walter
-    family: Wreszinkski
+    family: Wreszinski
   volume: 1
   URL: https://digi.ub.uni-heidelberg.de/diglit/wreszinski1923bd1
   publisher-place: Leipzig
@@ -12326,7 +12327,7 @@ CardGamesToPokerMachines:
   publisher-place: Haymarket, NSW, Australia
 IndonesianIdioms:
   type: book
-  title: 'Indonesian Idioms and Expressions: Colloquial Indeonesian at Work'
+  title: 'Indonesian Idioms and Expressions: Colloquial Indonesian at Work'
   author:
   - given: Christopher
     family: Torchia
@@ -13003,7 +13004,7 @@ MalayMagic:
   author:
   - given: Walter William
     family: Skeat
-  publisher: MacMillan and Co.
+  publisher: Macmillan and Co.
   publisher-place: London
   issued: 1900
   notes: Note that errata is included in this edition. The section on games starts on page 483.
@@ -13755,7 +13756,7 @@ MamlukRemarks:
   page: 106-128
   URL: https://www.jstor.org/stable/751160
   in:
-    title: Journal of the Warburg and Courtald Institutes
+    title: Journal of the Warburg and Courtauld Institutes
     volume: 36
     issued: 1973
 Morgenlandisch_1:
@@ -13992,7 +13993,7 @@ JapanAndHerPeople:
   author:
     - *Andrew_Steinmetz
   URL: https://archive.org/details/in.ernet.dli.2015.173287
-  publisher: Routledge, Warnes, and Routledge
+  publisher: Routledge, Warne, and Routledge
   publisher-place: London
   issued: 1859
 JapanscheRijk:
@@ -14118,7 +14119,7 @@ LetTheChildrenPlay:
     issued: 2011
     ISBN: "9788878921788"
     publisher:
-      value: L’Haramattan Italia
+      value: L’Harmattan Italia
       lang: it
     publisher-place: Turin, Italy
     series:
@@ -14586,7 +14587,7 @@ PoeticalAmusementsBath2:
   URL: https://hdl.handle.net/2027/njp.32101037041769
 FiveNewPlayes:
   type: book
-  title: 'Five New Playes, viz. The English Moor, or The Mock-Marraige; The Love-Sick Court, or The Ambitious Politique; Covent Garden Weeded; The New Academy, or The New Exchange; The Queen and Concubine'
+  title: 'Five New Playes, viz. The English Moor, or The Mock-Marriage; The Love-Sick Court, or The Ambitious Politique; Covent Garden Weeded; The New Academy, or The New Exchange; The Queen and Concubine'
   author:
   - given: Richard
     family: Brome
@@ -14601,8 +14602,8 @@ MysteriesOfLoveAndEloquence:
   edition: 3
   publisher-place: London
   author:
-  - given: Phillips
-    family: Edward
+  - given: Edward
+    family: Phillips
     url: https://en.wikipedia.org/wiki/Edward_Phillips
   URL: https://archive.org/details/bim_early-english-books-1641-1700_the-mysteries-of-love-_phillips-edward_1685
 RemainsOfGentilisme:
@@ -14643,7 +14644,7 @@ PlayingCardsEmployment1:
   URL: https://archive.org/details/repositoryofarts1020acke/page/250/mode/2up
   notes: Article continued as ‘Playing-Cards, Their Origin and Employment’
   in:
-    title: The Repository of Arts, Literature, Fasions, Manufactures, &c (Second Series)
+    title: The Repository of Arts, Literature, Fashions, Manufactures, &c (Second Series)
     volume: 10
     issue: 59
     issued:
@@ -14657,7 +14658,7 @@ PlayingCardsEmployment2:
   notes: Article continued from ‘The Antiquity and Use of Playing-Cards’; much conjecture here is incorrect.
   URL: https://archive.org/details/repositoryofarts1020acke/page/316/mode/2up
   in:
-    title: The Repository of Arts, Literature, Fasions, Manufactures, &c (Second Series)
+    title: The Repository of Arts, Literature, Fashions, Manufactures, &c (Second Series)
     volume: 10
     issue: 60
     issued:
@@ -15158,7 +15159,7 @@ ZenosTable:
     issued: 1934
 AustinGameBoard:
   type: article-journal
-  title: A Roman Game-Board from Holt, Deneighshire
+  title: A Roman Game-Board from Holt, Denbighshire
   author: [*RGAustin]
   URL: https://journals.library.wales/view/4718179/4738154/343
   page: 250–3
@@ -15284,7 +15285,7 @@ GamesCaliforniaIndians:
   author:
   - given: A. L.
     family: Kroeber
-  page: 272–27
+  page: 272–277
   URL: https://www.jstor.org/stable/660743
   in:
     title: American Anthropologist (New Series)
@@ -15313,7 +15314,7 @@ SportsAndGamesAmericanRevolution:
   title: Sports and Games of the American Revolution
   author:
   - given: Bonnie S.
-    family: Lebetter
+    family: Ledbetter
   page: 29–40
   URL: https://www.jstor.org/stable/43609001
   in:
@@ -15378,7 +15379,7 @@ PrichardCroquet: #owned
   - given: D. M. C.
     family: Prichard
   ISBN: '0304307599'
-  publisher: Cassel
+  publisher: Cassell
   publisher-place: London
   issued: 1981
 AkambaEastAfrica:
@@ -15397,7 +15398,7 @@ AkambaEastAfrica:
 GwerinFfristial:
   type: article-journal
   title:
-    value: Gwrin Ffristial A Thawlbwrdd
+    value: Gwerin Ffristial A Thawlbwrdd
     lang: cy
   URL: https://journals.library.wales/view/1386666/1412278/190
   page: 185–205
@@ -15675,7 +15676,7 @@ FourVariationsMancala:
   page: 205–14
   URL: https://www.jstor.org/stable/40459232
   author:
-  - given: Russel D.
+  - given: Russell D.
     family: Fernald
   in:
     title: Anthropos
@@ -15739,7 +15740,7 @@ BrettspeilWiedemann:
   type: paper-conference
   page: 37-61
   title:
-    value: Das Brettspeil bei den alten Aegyptern
+    value: Das Brettspiel bei den alten Aegyptern
     lang: de
   language: de
   author:
@@ -15856,7 +15857,7 @@ PersiaAndItsPeople:
   URL: https://archive.org/details/persiaitspeople00syke_0
   issued: 1910
   publisher-place: New York
-  publisher: The MacMillan Company
+  publisher: The Macmillan Company
 LesBushongo:
   type: book
   title:
@@ -16073,7 +16074,7 @@ ThroughCentralBorneo2:
   notes: See pages 247, 435.
 UnconqueredAbyssinia:
   type: book
-  title: 'Unconqured Abyssinia: As it is To-day'
+  title: 'Unconquered Abyssinia: As it is To-day'
   author:
   - given: Charles F.
     family: Rey
@@ -16146,7 +16147,7 @@ LusheiKuki:
   - given: John
     family: Shakespear
   issued: 1912
-  publisher: MacMillan and Co.
+  publisher: Macmillan and Co.
   publisher-place: London
   URL: https://archive.org/details/lusheikukiclans00shak/lusheikukiclans00shak
   notes: See “Amusements”, page 38.
@@ -21680,7 +21681,7 @@ PamKnaveOfClubs:
       day: 26
       month: 7
       year: 1902
-    publisher: MacMillan & Co
+    publisher: Macmillan & Co
     publisher-place: London
 FortunesOfNigel:
   type: book
