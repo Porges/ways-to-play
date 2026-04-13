@@ -12,7 +12,7 @@ linter-yaml-title-alias: Laugh and Lie Down
 
 Laugh and Lie Down is an English [fishing game](articles/families/fishing-games/fishing-games.md) for five (or four) players from the 17th century.
 
-The only known description of the rules of this game is from Francis Willughby’s <cite>Book of Games</cite>.[@FrancisWillughby 138] but also appears that same year in a humorous tract.[@APublicansReason] 
+The only known description of the rules of this game is from Francis Willughby’s <cite>Book of Games</cite>,[@FrancisWillughby 138] but also appears that same year in a humorous tract.[@APublicansReason] 
 
 An early reference to the game appears in a 1603 pamphlet[@PopishImpostures 116] where it is mentioned as “laugh, and lye downe”.
 
@@ -42,7 +42,7 @@ Cards from the hand may be placed directly into a player’s captured cards in t
 
 When only one player is left with any cards, the round is finished. That player may not play any more cards even if they are able. All the remaining cards in the pool as well as that player’s hand are given to the dealer as captured cards.
 
-Whoever matched the last pair of the game wins 5 from the pot.
+Whoever matched the last pair of the game wins 5 stakes from the pot.
 
 Any player who failed to obtain 4 pairs must pay one stake to the pot for each pair they missed the target by. Any players that took more than 4 pairs take one stake from the pot for each pair they exceeded the target by.
 
