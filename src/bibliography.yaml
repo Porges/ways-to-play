@@ -12939,13 +12939,7 @@ JeuDeLHombre_1682:
   issued: 1682
   URL: https://gallica.bnf.fr/ark:/12148/bpt6k9616360q
   edition: 2
-  author:
-    - &Antoine_Gombaud
-      given: Antoine
-      family: Gombaud
-      alt: Chevalier de Méré
-      lang: fr
-      url: https://en.wikipedia.org/wiki/Antoine_Gombaud
+  author: [ *Antoine_Gombaud ]
 JeuDeLHombre_1709:
   type: book
   URL: https://archive.org/details/lejeudelhombrea00civigoog
@@ -23404,3 +23398,24 @@ SoGAchievement:
       family: Roberts
   page: 488–497
   in: *StudyOfGames
+JavaanschHandwoordenboek:
+  type: book
+  title:
+    value: Javaansch–Nederduitsch handwoordenboek
+    lang: nl
+  language: nl
+  author:
+    - given: Johann Friedrich Carl
+      family: Gericke
+      lang: nl
+  editor:
+    - given: Taco
+      family: Roorda
+      lang: nl
+    - given: Albert Cornelis
+      family: Vreede
+      lang: nl
+  publisher: J. Müller
+  publisher-place: Amsterdam
+  issued: 1875
+  URL: https://archive.org/details/javaanschnederdu00geri

@@ -1,7 +1,7 @@
 #!/bin/env pwsh
 
 Set-StrictMode -Version 3.0
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = 'Stop'
 
 # Features included by default by pyftsubset are:
 # ['BUZZ', 'Buzz', 'HARF', 'Harf', 'abvf', 'abvm',
@@ -18,48 +18,48 @@ $ErrorActionPreference = "Stop"
 #  'vrt2']
 
 $fonts = [ordered]@{
-    "charis" = @{
-        "Dir" = "Charis_SIL"
-        "Family" = "Charis SIL"
-        "Subsets" = [ordered]@{
+    'charis'       = @{
+        'Dir'     = 'Charis_SIL'
+        'Family'  = 'Charis SIL'
+        'Subsets' = [ordered]@{
             # This operates as a fallback for missing characters in SS4.
             # e.g. COMBINING VERTICAL LINE ABOVE
             # both the base character and the combining one are required
-            "LatinFallback" = @{
-                "Blocks" = @("BasicLatin", "CombiningDiacriticalMarks")
+            'LatinFallback' = @{
+                'Blocks' = @('BasicLatin', 'CombiningDiacriticalMarks')
             }
             # Mediaeval & Egyptological
-            "Historical" = @{
-                "Blocks" = @("LatinExtendedD")
+            'Historical'    = @{
+                'Blocks' = @('LatinExtendedD')
             }
         }
     }
-    "sourceserif4" = @{
-        "Family" = "Source Serif 4"
-        "Dir" = "SourceSerif4"
-        "Subsets" = [ordered]@{
-            "Latin" = @{
-                "Features" = "ordn,smcp,c2sc,subs,sups,case,kern,onum,tnum"
+    'sourceserif4' = @{
+        'Family'  = 'Source Serif 4'
+        'Dir'     = 'SourceSerif4'
+        'Subsets' = [ordered]@{
+            'Latin'           = @{
+                'Features' = 'ordn,smcp,c2sc,subs,sups,case,kern,onum,tnum'
                 # diacritical marks must be included here or they won't combine
-                "Blocks" = @("BasicLatin", "GeneralPunctuation", "Latin1Supplement", "CombiningDiacriticalMarks")
+                'Blocks'   = @('BasicLatin', 'GeneralPunctuation', 'Latin1Supplement', 'CombiningDiacriticalMarks')
             }
             # Don't need smcp/c2sc for these
-            "LatinExt" = @{
-                "Blocks" = @("LatinExtendedA", "SpacingModifierLetters", "IpaExtensions")
+            'LatinExt'        = @{
+                'Blocks' = @('LatinExtendedA', 'SpacingModifierLetters', 'IpaExtensions')
             }
             # Chinese (Pinyin & Jyutping) transliteration
-            "ChineseTranslit" = @{
-                "Blocks" = @( "LatinExtendedB", "SuperscriptsandSubscripts")
+            'ChineseTranslit' = @{
+                'Blocks' = @( 'LatinExtendedB', 'SuperscriptsandSubscripts')
             }
             # Vietnamese and Indic transliteration
-            "VietIndic" = @{
-                "Blocks" = @("LatinExtendedAdditional")
+            'VietIndic'       = @{
+                'Blocks' = @('LatinExtendedAdditional')
             }
-            "Cyrillic" = @{
-                "Blocks" = @("Cyrillic")
+            'Cyrillic'        = @{
+                'Blocks' = @('Cyrillic')
             }
-            "Greek" = @{
-                "Blocks" = @("GreekandCoptic")
+            'Greek'           = @{
+                'Blocks' = @('GreekandCoptic')
             }
         }
     }
@@ -71,25 +71,25 @@ foreach ($font in $fonts.GetEnumerator()) {
     $fontFamily = $font.Value.Family
     $subsets = $font.Value.Subsets
 
-    pushd "input-fonts/$dir"
+    Push-Location "input-fonts/$dir"
     mkdir -p "../../fonts/$fontName"
 
     $css = "../../fonts/$fontName.css"
-    echo "" > $css # blank it
+    Write-Output '' > $css # blank it
 
     function whitelistFromBlock([string]$block) {
         $range = [System.Text.Unicode.UnicodeRanges]::$block
-        if ($range -eq $null) {
+        if ($null -eq $range) {
             throw "no such block $block"
         }
 
-        return "U+$($range.FirstCodePoint.ToString("x4"))-$(($range.FirstCodePoint + $range.Length - 1).ToString("x4"))"
+        return "U+$($range.FirstCodePoint.ToString('x4'))-$(($range.FirstCodePoint + $range.Length - 1).ToString('x4'))"
     }
 
     foreach ($subset in $subsets.GetEnumerator()) {
         $name = $subset.Key
-        echo "$name - $($subset.Value.Blocks)"
-        $whitelist = ($subset.Value.Blocks | %{ whitelistFromBlock($_) }) -join ','
+        Write-Output "$name - $($subset.Value.Blocks)"
+        $whitelist = ($subset.Value.Blocks | ForEach-Object { whitelistFromBlock($_) }) -join ','
         if ($subset.Value.ContainsKey('Additional')) {
             $whitelist += ",$($subset.Value.Additional)"
         }
@@ -97,34 +97,35 @@ foreach ($font in $fonts.GetEnumerator()) {
         $features = @()
         if ($subset.Value.ContainsKey('Features')) {
             $features = @("--layout-features+=$($subset.Value.Features)")
-            echo $features
+            Write-Output $features
         }
 
         foreach ($file in Get-ChildItem -Filter '*.woff2' -File) {
-            $targetFile = Join-Path "../../fonts/$fontName" ($file.Name -replace "-", "-$name-")
+            $targetFile = Join-Path "../../fonts/$fontName" ($file.Name -replace '-', "-$name-")
             pyftsubset $file --unicodes=$whitelist --flavor=woff2 --harfbuzz-repacker --output-file=$targetFile `
                 @features `
                 --drop-tables+=Silt # --drop-tables+=name --drop-tables+=post
 
-            echo "/* $name ($($subset.Value.Blocks -join ', ')) */" >> $css
-            echo "@font-face {" >> $css
-            echo "    font-family: '$fontFamily';" >> $css
-            echo "    src: local('$fontFamily'), url('/fonts/$fontName/$(Split-Path -Leaf $targetFile)') format('woff2');" >> $css
-            if ($subset.Value.ContainsKey("Display")) {
-                echo "    font-display: $($subset.Value.Display);" >> $css
-            } else {
-                echo "    font-display: swap;" >> $css
+            Write-Output "/* $name ($($subset.Value.Blocks -join ', ')) */" >> $css
+            Write-Output '@font-face {' >> $css
+            Write-Output "    font-family: '$fontFamily';" >> $css
+            Write-Output "    src: url('/fonts/$fontName/$(Split-Path -Leaf $targetFile)') format('woff2');" >> $css
+            if ($subset.Value.ContainsKey('Display')) {
+                Write-Output "    font-display: $($subset.Value.Display);" >> $css
             }
-            if ($file.Name -like "*Italic*") {
-                echo "    font-style: italic;" >> $css
+            else {
+                Write-Output '    font-display: swap;' >> $css
             }
-            if ($file.Name -like "*Bold*") {
-                echo "    font-weight: bold;" >> $css
+            if ($file.Name -like '*Italic*') {
+                Write-Output '    font-style: italic;' >> $css
             }
-            echo "    unicode-range: $whitelist;" >> $css
-            echo "}" >> $css
+            if ($file.Name -like '*Bold*') {
+                Write-Output '    font-weight: bold;' >> $css
+            }
+            Write-Output "    unicode-range: $whitelist;" >> $css
+            Write-Output '}' >> $css
         }
     }
 
-    popd
+    Pop-Location
 }

@@ -20,7 +20,7 @@ linter-yaml-title-alias: '<span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span 
 ---
 # <span lang="jv">ꦛꦺꦴꦛꦶꦠ꧀</span> · <span lang="jv-Latn" class="noun">Thothit</span>
 
-<span lang="jv-Latn" class="noun aka">Thothit</span> (<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>) is a [fishing game](articles/families/fishing-games/fishing-games.md) from Java for three players,  played with [Ceki cards](articles/cards/ceki/ceki.md). The goal is to collect matching pairs of cards, especially red-stamped ones.
+<span lang="jv-Latn" class="noun aka">Thothit</span> (<span lang="jv" class="aka">ꦛꦺꦴꦛꦶꦠ꧀</span>)[@JavaanschHandwoordenboek 1010] is a [fishing game](articles/families/fishing-games/fishing-games.md) from Java for three players,  played with [Ceki cards](articles/cards/ceki/ceki.md). The goal is to collect matching pairs of cards, especially red-stamped ones.
 
 > [!aside]
 >

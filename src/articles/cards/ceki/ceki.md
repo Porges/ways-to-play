@@ -13,7 +13,7 @@ aliases:
   - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2025-11-17
+date modified: 2026-06-11
 linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
@@ -1017,7 +1017,7 @@ egg
 </td>
 <td>
 <span lang="min">danau rezeki, hiu/babak</span>\
-[chapter?] shark
+lake of fortune, shark/round (of a game)
 </td>
 > [!todo] ---Java---
 <td>
@@ -1145,7 +1145,8 @@ big red
 <td>
 <span lang="th">เอี่ยวชี</span>\
 <span lang="th-Latn">iao chi</span>\
-nun ace
+nun ace\
+(Buddhist nuns wear white; opposed to the red ‘lady’)
 </td>
 > [!todo] ---M/S---
 <td>
@@ -1471,7 +1472,8 @@ shoe ace
 
 <span lang="th">เอี่ยวรอง</span>\
 <span lang="th-Latn">iao rong</span>\
-secondary ace
+shoe ace\
+(<span lang="th-Latn">rong</span> probably short for <span lang="th-Latn">rong-thao</span>)
 </td>
 > [!todo] ---M/S---
 <td>
@@ -1645,7 +1647,7 @@ needle ace
 <td>
 <span lang="ms">yu panjang</span> or <span lang="ms">yu burung</span>\
 long or bird ace\
-(In Indonesian, bird is also slang for penis.)[@IndonesianIdioms 62]
+(In Indonesian, bird is also slang for penis,[@IndonesianIdioms 62] probably derived from Chinese <span lang="zh">鳥≈屌</span> ‘bird≈penis’.)
 </td>
 <td>
 <span lang="nan">幺條</span>\
@@ -1663,7 +1665,8 @@ long ace
 <td>
 <span lang="ms">iu pli</span>\
 <span lang="ms-Arab">ايو ڤلي</span>\
-? ace
+<span lang="ms">pli</span> ace\
+(possibly <span lang="ms">pelir</span> ‘penis’)
 </td>
 <td>
 <span lang="mcm">pau</span>\
@@ -2074,7 +2077,7 @@ two rounds
 </td>
 <td>
 <span lang="ms">ji wajik</span>\
-three diamond
+two diamond
 </td>
 <td>
 <span lang="ms">2 dimpil plompong</span>\
@@ -2228,7 +2231,7 @@ two coins
 > [!todo] ---Thai---
 <td>
 <span lang="th">สององคต</span>\
-<span lang="th-Latn">song (ongkot?)</span>\
+<span lang="th-Latn">song Ongkhot</span>\
 two <a href="https://en.wikipedia.org/wiki/Angada">Angada</a> (a legendary monkey with an immovable leg)
 </td>
 > [!todo] ---M/S---
@@ -2830,7 +2833,7 @@ shrimp
 </td>
 <td>
 <span lang="mcm">kambrang, kotek, cucuk</span>\
-shrimp, penis, thorn
+shrimp, tail/short, prick/thorn
 </td>
 <td>
 <span lang="min">jarum gadang</span>\
@@ -3236,7 +3239,7 @@ four drum
 <td>
 <span lang="ms">kĕpâla bûlat gĕrôbok</span>\
 <span lang="ms-Arab">كڤلا بولة ݢروبق</span>\
-round head crockery chest
+round head cupboard
 </td>
 <td>
 <span lang="mcm">manuco/rã</span>\
@@ -3336,15 +3339,18 @@ large
 <span lang="mak-Latn"></span>
 </td>
 <td>
-<span lang="id">as</span>
+<span lang="id">as</span>\
+ace
 </td>
 > [!todo] ---Maluku---
 <td>
-<span lang="id">tambur</span>
+<span lang="id">tambur</span>\
+drum
 </td>
 > [!todo] ---Timor---
 <td>
-<span lang="id">ekor</span>
+<span lang="id">ekor</span>\
+tail
 </td>
 </tr>
 
@@ -3499,7 +3505,8 @@ cut
 </td>
 > [!todo] ---Maluku---
 <td>
-<span lang="id">putus pinggang</span>
+<span lang="id">putus pinggang</span>\
+cut waist
 </td>
 > [!todo] ---Timor---
 <td>
@@ -3559,7 +3566,7 @@ round head ?
 </td>
 <td>
 <span lang="mcm">ryiami/curto</span>\
-short
+?/short
 </td>
 <td>
 <span lang="mcm">nyami</span>\
@@ -3650,15 +3657,18 @@ steamed rice flour balls
 <span lang="mak-Latn"></span>
 </td>
 <td>
-<span lang="id">kondei</span>
+<span lang="id">kondei</span>\
+hair-bun
 </td>
 > [!todo] ---Maluku---
 <td>
-<span lang="id">kondei</span>
+<span lang="id">kondei</span>\
+hair-bun
 </td>
 > [!todo] ---Timor---
 <td>
-<span lang="id">kondei</span>
+<span lang="id">kondei</span>\
+hair-bun
 </td>
 </tr>
 
@@ -3884,7 +3894,8 @@ boat
 </td>
 > [!todo] ---Lombok---
 <td>
-<span lang="sas-Latn">perahu</span>
+<span lang="sas-Latn">perahu</span>\
+ship
 </td>
 <td>
 <span lang="sas">ᬧᬳᬸ</span>\
@@ -3901,7 +3912,8 @@ boat
 navel
 </td>
 <td>
-<span lang="id">prahu</span>
+<span lang="id">prahu</span>\
+ship
 </td>
 > [!todo] ---Maluku---
 <td>
@@ -4000,7 +4012,7 @@ pig [unknown]
 </td>
 <td>
 <span lang="jv-Latn">cucuk babi</span>\
-thorn ping
+thorn pig
 </td>
 > [!todo] ---Bali---
 <td>
@@ -4160,7 +4172,7 @@ person pig
 <td>
 <span lang="ban">ᬩᭀᬗ᭄ᬓᬃ</span>\
 <span lang="ban-Latn">bongkar</span>\
-[unload: forklift?]
+dismantle/demolish/unload
 </td>
 <td>
 <span lang="ban">ᬩᭀᬗ᭄ᬓᬃ</span>\
@@ -4176,7 +4188,8 @@ person pig
 </td>
 <td>
 <span lang="ban">ᬘᬗ᭄ᬕᬄ</span>\
-<span lang="ban-Latn">canggah</span>
+<span lang="ban-Latn">canggah</span>\
+forked branch/two-pointed support, trestle
 </td>
 <td>
 <span lang="ban">ᬧᭀᬮᬓ᭄</span>\
@@ -4396,7 +4409,7 @@ curry-comb
 <td>
 <span lang="ban">ᬦ᭄ᬬᭂᬫ᭄</span>\
 <span lang="ban-Latn">nyem</span>\
-[pun on six?]
+six (playful form)
 </td>
 <td>
 <span lang="ban">ᬧᬶᬲ᭄ᬦᭂᬫ᭄</span>\
@@ -4596,7 +4609,7 @@ bamboo
 </td>
 <td>
 <span lang="id">bêlah buluh</span>\
-wide stripes
+split bamboo
 
 <span lang="id">tarabei</span>
 </td>
@@ -4756,15 +4769,18 @@ building [temple?]
 house
 </td>
 <td>
-<span lang="id">lakban</span>
+<span lang="id">lakban</span>\
+from Hokkien
 </td>
 > [!todo] ---Maluku---
 <td>
-<span lang="id">lakban</span>
+<span lang="id">lakban</span>\
+from Hokkien
 </td>
 > [!todo] ---Timor---
 <td>
-<span lang="id">lakban</span>
+<span lang="id">lakban</span>\
+from Hokkien
 </td>
 </tr>
 
@@ -4921,7 +4937,7 @@ flag scales
 <td>
 <span lang="jv">ꦫꦺꦪꦧ꧀ꦭꦪꦂ</span>\
 <span lang="jv-Latn">réyab layar</span>\
-sweep hair, sail
+sweeping hair, sail
 </td>
 <td>
 <span lang="jv-Latn">geper</span>
@@ -4947,7 +4963,7 @@ sail
 <td>
 <span lang="ban">ᬧᬓᬸ</span>\
 <span lang="ban-Latn">paku</span>\
-[fern or nail?]
+fern/nail
 </td>
 <td>
 <span lang="ban">ᬧᬶᬲ᭄ᬢᬸ</span>\
@@ -4999,15 +5015,18 @@ flag
 flag
 </td>
 <td>
-<span lang="id">bandéra</span>
+<span lang="id">bandéra</span>\
+flag
 </td>
 > [!todo] ---Maluku---
 <td>
-<span lang="id">bulu ayam</span>
+<span lang="id">bulu ayam</span>\
+cock feather
 </td>
 > [!todo] ---Timor---
 <td>
-<span lang="id">bandéra</span>
+<span lang="id">bandéra</span>\
+flag
 </td>
 </tr>
 
@@ -5255,37 +5274,37 @@ China seven
 <td>
 <span lang="ban">ᬭᬶᬗ᭄ᬕᬶᬢ᭄</span>\
 <span lang="ban-Latn">ringgit</span>\
-serrated
+<span lang="ban-Latn">wayang</span> puppet/serrated
 </td>
 <td>
 <span lang="ban">ᬭᬶᬗ᭄ᬕᬶᬢ᭄</span>\
 <span lang="ban-Latn">ringgit</span>\
-serrated
+<span lang="ban-Latn">wayang</span> puppet/serrated
 </td>
 <td>
 <span lang="ban">ᬭᬶᬗ᭄ᬕᬶᬢ᭄</span>\
 <span lang="ban-Latn">ringgit</span>\
-serrated
+<span lang="ban-Latn">wayang</span> puppet/serrated
 </td>
 <td>
 <span lang="ban">ᬭᬶᬗ᭄ᬕᬶᬢ᭄</span>\
 <span lang="ban-Latn">ringgit</span>\
-serrated
+<span lang="ban-Latn">wayang</span> puppet/serrated
 </td>
 <td>
 <span lang="ban">ᬭᬶᬗ᭄ᬕᬶᬢ᭄</span>\
 <span lang="ban-Latn">ringgit</span>\
-serrated
+<span lang="ban-Latn">wayang</span> puppet/serrated
 </td>
 <td>
 <span lang="ban">ᬭᬶᬗ᭄ᬕᬶᬢ᭄</span>\
 <span lang="ban-Latn">ringgit (bagus)</span>\
-(fine) serrated
+(fine) <span lang="ban-Latn">wayang</span> puppet/serrated
 </td>
 <td>
 <span lang="ban">ᬭᬶᬗ᭄ᬕᬶᬢ᭄</span>\
 <span lang="ban-Latn">ringgit</span>\
-serrated
+<span lang="ban-Latn">wayang</span> puppet/serrated
 </td>
 > [!todo] ---Lombok---
 <td>
@@ -5498,7 +5517,7 @@ dented [<a href="https://en.wikipedia.org/wiki/Songkok">peci</a> or coin?]
 <td>
 <span lang="ban">ᬲᭂᬓᬸᬢᬸᬲ᭄</span>\
 <span lang="ban-Latn">sekutus</span>\
-[adj:eight?]
+set of eight
 </td>
 <td>
 <span lang="ban">ᬧᬶᬲ᭄ᬢᬸᬲ᭄</span>\
@@ -5756,7 +5775,7 @@ eight myriad
 </td>
 <td>
 <span lang="ms">pé botak</span>\
-eight ?
+bald eight
 </td>
 <td>
 <span lang="ms">8 cina</span>\
@@ -5896,7 +5915,8 @@ nine
 <td>
 <span lang="ms">ânjing</span>\
 <span lang="ms-Arab">انجيڠ</span>\
-dog?
+dog\
+(Hokkien <span lang="nan-Latn-pehoeji">káu</span> is a homophone for <span lang="nan">九</span> ‘nine’ and ‘dog’ <span lang="nan">狗</span>.)
 </td>
 <td>
 —
@@ -6007,7 +6027,7 @@ bald(?) nine
 <td>
 <span lang="ms">ânjing pîtis</span>\
 <span lang="ms-Arab">انجيڠ بيتس</span>\
-dog? cash
+dog cash
 </td>
 <td>
 <span lang="mcm">Mōru</span>\
@@ -6102,7 +6122,8 @@ a <a href="https://en.wikipedia.org/wiki/Gada_(mace)">mace</a>
 </td>
 <td>
 <span lang="sas">ᬕᬵᬤ</span>\
-<span lang="sas-Latn">gada</span>
+<span lang="sas-Latn">gada</span>\
+mace
 </td>
 > [!todo] ---Borneo---
 <td>
@@ -6117,7 +6138,8 @@ a <a href="https://en.wikipedia.org/wiki/Gada_(mace)">mace</a>
 rupees
 </td>
 <td>
-<span lang="id">roda</span>
+<span lang="id">roda</span>\
+wheel
 </td>
 > [!todo] ---Maluku---
 <td>
@@ -6179,7 +6201,7 @@ red nine
 <td>
 <span lang="ms">ânjing hâti</span>\
 <span lang="ms-Arab">انجيڠ هاتي</span>\
-dog? heart/liver
+dog heart/liver
 </td>
 <td>
 <span lang="mcm">botol/bottle/whisky</span>\
@@ -6277,15 +6299,16 @@ shining/red
 <td>
 <span lang="mak">ᨀᨓᨚᨅ</span>\
 <span lang="mak-Latn">kawo-bang</span>[@MakassaarschWoordenboek 63]\
-red nine?
+red nine
 </td>
 <td>
 <span lang="id">kacang</span>\
-[bean/clitoris?]
+bean
 </td>
 > [!todo] ---Maluku---
 <td>
-<span lang="id">meirah kacang</span>
+<span lang="id">meirah kacang</span>\
+red bean
 </td>
 > [!todo] ---Timor---
 <td>
@@ -6341,7 +6364,7 @@ dancing girl nine
 <td>
 <span lang="ms">ânjing kau</span>\
 <span lang="ms-Arab">انجيڠ كاو</span>\
-dog? nine
+dog nine
 </td>
 <td>
 <span lang="mcm">Mary, Mérri, Maria, Kau Mary</span>\
@@ -6402,15 +6425,17 @@ from Hokkien ‘nine’ (<span lang="nan-Latn">káu</span>)?
 <td>
 <span lang="ban">ᬚᭂᬭᬶᬂ</span>\
 <span lang="ban-Latn">jering</span>\
-[upright?]
+stand upright
 </td>
 <td>
 <span lang="ban">ᬚᭂᬭᬶᬂ</span>\
-<span lang="ban-Latn">jering</span>
+<span lang="ban-Latn">jering</span>\
+stand upright
 </td>
 <td>
 <span lang="ban">ᬚᭂᬭᬶᬂ</span>\
-<span lang="ban-Latn">jering</span>
+<span lang="ban-Latn">jering</span>\
+stand upright
 </td>
 > [!todo] ---Lombok---
 <td>
@@ -6429,18 +6454,21 @@ from Hokkien ‘nine’ (<span lang="nan-Latn">káu</span>)?
 <td>
 <span lang="mak">ᨁᨑᨗᨁᨗ</span>\
 <span lang="mak-Latn">garigi</span>[@MakassaarschWoordenboek 79]\
-? (by comparison with entries on right)
+<span lang="mak-Latn">gerigi</span> = serrated (saw-like) 
 </td>
 <td>
-<span lang="id">gargaji (baduri)</span>
+<span lang="id">gargaji (baduri)</span>\
+saw (thorny/serrated)
 </td>
 > [!todo] ---Maluku---
 <td>
-<span lang="id">gargaji (baduri)</span>
+<span lang="id">gargaji (baduri)</span>\
+saw (thorny/serrated)
 </td>
 > [!todo] ---Timor---
 <td>
-<span lang="id">suwanggi</span>
+<span lang="id">suwanggi</span>\
+a vampiric witch that flies at night 
 </td>
 </tr>
 
