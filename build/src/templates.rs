@@ -14,7 +14,13 @@ use url_escape::percent_encoding::AsciiSet;
 use url_escape::FRAGMENT;
 
 use crate::intl::INTL;
-use crate::{bib_render::RenderedBibliography, Aka, ArticleNode};
+use crate::{bib_render::RenderedBibliography, db::ArticleNode};
+
+pub struct Aka {
+    pub lang_id: LanguageIdentifier,
+    pub word: Markup,
+    pub url_path: Arc<String>,
+}
 
 pub struct Templater {
     site_url: Url,
@@ -697,7 +703,11 @@ impl Templater {
                 h3 #(group.lang_tag) { a href=(group.lang_link) { (group.lang_name) } }
                 ul.columnarr {
                     @let collator = INTL.collator_for(group.lang_tag.language);
-                    @for game_name in group.game_names.into_iter().sorted_by(|a, b| collator.compare(&a.aka.0, &b.aka.0)) {
+                    @for game_name in group.game_names.into_iter().sorted_by(|a, b| {
+                        collator
+                            .compare(&a.aka.0, &b.aka.0)
+                            .then_with(|| a.url.cmp(&b.url))
+                    }) {
                         li {
                             a href={(game_name.url) "#:~:text=" (url_escape::encode(&game_name.aka.0, FRAGMENT_TEXT))}
                               lang=(game_name.lang_id) {
@@ -729,15 +739,15 @@ pub fn render_article_tree(root: &str, tree: &ArticleNode, render_drafts: bool) 
 
     Some(html! {
         ul.article-list {
-            @for (name, value) in tree.children.iter().sorted_by_key(|(_, c)| c.order) {
+            @for (name, value) in tree.children.iter().sorted_by_key(|(_, c)| &c.order) {
                 @if !value.draft || render_drafts {
                     @let path = root.to_string() + name + "/";
                     li {
-                        @if let Some(name) = value.name {
+                        @if let Some(name) = &value.name {
                             a href=(path) {
-                                (name)
-                                @if let Some(orig_name) = value.original_name {
-                                    " (" (orig_name) ")"
+                                (maud::PreEscaped(name))
+                                @if let Some(orig_name) = &value.original_name {
+                                    " (" (maud::PreEscaped(orig_name)) ")"
                                 }
                                 @if value.draft {
                                     " 🚧"
@@ -761,21 +771,21 @@ pub fn render_prev_next(prev: Option<&ArticleNode>, next: Option<&ArticleNode>) 
     Some(html! {
         nav.prev-next aria-label="Nearby Articles" {
             @if let Some(prev) = prev {
-                @if let Some(name) = prev.name {
-                    a rel="prev" href=(prev.url_path) {
+                @if let Some(name) = &prev.name {
+                    a rel="prev" href=(&prev.url_path) {
                         span.prevNextArticle { "Previous Article" }
                         br;
-                        (name)
+                        (maud::PreEscaped(name))
                     }
                 }
             }
 
             @if let Some(next) = next {
-                @if let Some(name) = next.name {
-                    a rel="next" href=(next.url_path){
+                @if let Some(name) = &next.name {
+                    a rel="next" href=(&next.url_path){
                         span.prevNextArticle { "Next Article" }
                         br;
-                        (name)
+                        (maud::PreEscaped(name))
                     }
                 }
             }

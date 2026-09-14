@@ -34,3 +34,4 @@ url = "2.5.8"
 url-escape = "0.1.1"
 uuid = { version = "1.22.0", features = ["v5"] }
 walkdir = "2.5.0"
+salsa = "=0.27.0"
