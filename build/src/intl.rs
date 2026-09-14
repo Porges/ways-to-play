@@ -14,7 +14,8 @@ use icu::{
     },
     decimal::{input::Decimal, DecimalFormatter, DecimalFormatterPreferences},
     experimental::displaynames::{
-        DisplayNamesPreferences, LanguageDisplayNames, RegionDisplayNames,
+        multi::{LanguageDisplayNames, RegionDisplayNames},
+        DisplayNamesPreferences,
     },
     locale::{
         langid, locale,

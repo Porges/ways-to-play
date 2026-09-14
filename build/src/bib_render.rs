@@ -247,12 +247,11 @@ fn item_resource(reference: &Reference) -> Option<String> {
         Reference::JournalArticle(JournalArticle {
             common: Common { url: Some(url), .. },
             ..
-        }) => {
+        })
             // use a stable URI as resource identifier
-            if url.starts_with("https://jstor.org/stable/") {
+            if url.starts_with("https://jstor.org/stable/") => {
                 return Some(url.clone());
             }
-        }
         _ => {}
     }
 
@@ -602,26 +601,6 @@ pub fn ordinal(n: u64) -> String {
 
     num
 }
-
-#[cfg(test)]
-mod test {
-    use super::ordinal;
-
-    #[test]
-    fn test_ordinal() {
-        assert_eq!(ordinal(0), "0th");
-        assert_eq!(ordinal(1), "1st");
-        assert_eq!(ordinal(2), "2nd");
-        assert_eq!(ordinal(3), "3rd");
-        assert_eq!(ordinal(4), "4th");
-        assert_eq!(ordinal(10), "10th");
-        assert_eq!(ordinal(11), "11th");
-        assert_eq!(ordinal(12), "12th");
-        assert_eq!(ordinal(13), "13th");
-        assert_eq!(ordinal(123), "123rd");
-    }
-}
-
 fn render_lstr(
     lstr: &LString,
     class: Option<&'static str>,
@@ -1160,5 +1139,24 @@ fn render_original(r: &Reference) -> Markup {
             }
             "."
         }
+    }
+}
+
+#[cfg(test)]
+mod test {
+    use super::ordinal;
+
+    #[test]
+    fn test_ordinal() {
+        assert_eq!(ordinal(0), "0th");
+        assert_eq!(ordinal(1), "1st");
+        assert_eq!(ordinal(2), "2nd");
+        assert_eq!(ordinal(3), "3rd");
+        assert_eq!(ordinal(4), "4th");
+        assert_eq!(ordinal(10), "10th");
+        assert_eq!(ordinal(11), "11th");
+        assert_eq!(ordinal(12), "12th");
+        assert_eq!(ordinal(13), "13th");
+        assert_eq!(ordinal(123), "123rd");
     }
 }

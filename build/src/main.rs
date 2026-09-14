@@ -17,6 +17,7 @@ use salsa::Setter;
 use time::UtcOffset;
 use tracing::{debug, error, info, warn};
 use tracing_subscriber::{fmt::format::FmtSpan, EnvFilter};
+use url::Url;
 use walkdir::WalkDir;
 
 mod bib_render;
@@ -52,27 +53,6 @@ struct Args {
 
     #[arg(short, long)]
     watch: bool,
-}
-
-#[cfg(test)]
-mod sanitization_tests {
-    use super::*;
-
-    #[test]
-    pub fn test_sanitized_html() {
-        assert_eq!(
-            sanitized_html("simple <a href='something'>link</a>").0,
-            "simple <a href=\"something\" rel=\"noopener noreferrer\">link</a>"
-        );
-    }
-
-    #[test]
-    pub fn test_html_without_tags() {
-        assert_eq!(
-            html_without_tags("simple <a href='something'>link</a>").0,
-            "simple link"
-        );
-    }
 }
 
 fn classify_path(rel_path: &Path) -> Option<FileKind> {
@@ -266,7 +246,7 @@ fn main() -> Result<()> {
         base_path.clone(),
         output_path.clone(),
         args.draft,
-        url.to_string(),
+        Url::parse(url).unwrap(),
     );
 
     let mut files_map = load_source_files(&db, &base_path)?;
@@ -400,4 +380,25 @@ fn main() -> Result<()> {
     }
 
     Ok(())
+}
+
+#[cfg(test)]
+mod sanitization_tests {
+    use super::*;
+
+    #[test]
+    pub fn test_sanitized_html() {
+        assert_eq!(
+            sanitized_html("simple <a href='something'>link</a>").0,
+            "simple <a href=\"something\" rel=\"noopener noreferrer\">link</a>"
+        );
+    }
+
+    #[test]
+    pub fn test_html_without_tags() {
+        assert_eq!(
+            html_without_tags("simple <a href='something'>link</a>").0,
+            "simple link"
+        );
+    }
 }

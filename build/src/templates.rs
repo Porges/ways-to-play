@@ -22,8 +22,8 @@ pub struct Aka {
     pub url_path: Arc<String>,
 }
 
-pub struct Templater {
-    site_url: Url,
+pub struct Templater<'a> {
+    site_url: &'a Url,
 }
 
 pub struct OutputFile {
@@ -129,8 +129,8 @@ pub trait GameMetadata {
     fn equipment(&self) -> Option<&str>;
 }
 
-impl Templater {
-    pub fn new(site_url: Url) -> Self {
+impl<'a> Templater<'a> {
+    pub fn new(site_url: &'a Url) -> Self {
         Self { site_url }
     }
 
@@ -499,9 +499,9 @@ impl Templater {
         )
     }
 
-    pub fn games<'a, T: BaseMetadata + ArticleMetadata + GameMetadata + 'a>(
+    pub fn games<'g, T: BaseMetadata + ArticleMetadata + GameMetadata + 'g>(
         &self,
-        games: impl Iterator<Item = &'a T>,
+        games: impl Iterator<Item = &'g T>,
     ) -> Result<OutputFile> {
         let games_all = Vec::from_iter(games.sorted_by_key(|g| &g.title_without_tags().0));
         let modification_date = games_all.iter().filter_map(|g| g.modification_date()).max();

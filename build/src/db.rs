@@ -9,7 +9,7 @@ use icu::locale::LanguageIdentifier;
 use itertools::Itertools;
 use markdown::{Constructs, ParseOptions};
 use maud::Markup;
-use salsa::Accumulator;
+use salsa::{Accumulator, SalsaValue};
 use url::Url;
 
 use saphyr::LoadableYamlNode;
@@ -101,32 +101,41 @@ pub enum FileKind {
 
 #[salsa::input]
 pub struct SourceFile {
+    #[returns(deref)]
     pub path: PathBuf,
+    #[returns(copy)]
     pub kind: FileKind,
+    #[returns(deref)]
     pub text: String,
 }
 
 #[salsa::input]
 pub struct SourceSet {
+    #[returns(deref)]
     pub files: Vec<SourceFile>,
 }
 
 #[salsa::input]
 pub struct BibliographySource {
+    #[returns(deref)]
     pub text: String,
 }
 
 #[salsa::input]
 pub struct ImageManifestSource {
+    #[returns(deref)]
     pub json: String,
 }
 
 #[salsa::input]
 pub struct BuildConfig {
+    #[returns(deref)]
     pub base_path: PathBuf,
+    #[returns(deref)]
     pub output_path: PathBuf,
+    #[returns(copy)]
     pub output_drafts: bool,
-    pub base_url: String,
+    pub base_url: Url,
 }
 
 #[salsa::accumulator]
@@ -137,7 +146,7 @@ pub struct Aka(pub LanguageIdentifier, pub String, pub String);
 #[derive(Clone, Debug, PartialEq, Eq)]
 pub struct Cite(pub String, pub String, pub String);
 
-#[derive(Clone, PartialEq, Eq, Hash, Debug, salsa::Update)]
+#[derive(Clone, PartialEq, Eq, Hash, Debug)]
 pub struct UrlMeta {
     pub url_path: String,
     pub title: String,
@@ -148,14 +157,14 @@ pub struct UrlMeta {
     pub draft: bool,
 }
 
-#[derive(Clone, PartialEq, Eq, Debug, salsa::Update)]
+#[derive(Clone, PartialEq, Eq, Debug, SalsaValue)]
 pub struct ArticleMeta {
     pub url_meta: UrlMeta,
     pub date_modified: Option<time::Date>,
     pub date_created: Option<time::Date>,
 }
 
-#[derive(Clone, PartialEq, Eq, Debug, salsa::Update)]
+#[derive(Clone, PartialEq, Eq, Debug, SalsaValue)]
 pub struct GameMeta {
     pub article_meta: ArticleMeta,
     pub countries: Vec<celes::Country>,
@@ -163,7 +172,7 @@ pub struct GameMeta {
     pub players: Option<String>,
 }
 
-#[derive(Default, Debug, Clone, PartialEq, Eq, salsa::Update)]
+#[derive(Default, Debug, Clone, PartialEq, Eq, SalsaValue)]
 pub struct ArticleNode {
     pub name: Option<String>,
     pub original_name: Option<String>,
@@ -173,7 +182,7 @@ pub struct ArticleNode {
     pub draft: bool,
 }
 
-#[derive(Clone, PartialEq, Eq, Debug, salsa::Update)]
+#[derive(Clone, PartialEq, Eq, Debug, SalsaValue)]
 pub struct OutputPage {
     pub title: String,
     pub url_path: String,
@@ -248,35 +257,32 @@ pub fn markdown_constructs() -> Constructs {
     }
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn parsed(db: &dyn Db, file: SourceFile) -> Result<Arc<markdown::mdast::Node>, String> {
     let parse_options = ParseOptions {
         constructs: markdown_constructs(),
         ..ParseOptions::default()
     };
-    let text = file.text(db);
-    markdown::to_mdast(&text, &parse_options)
+    markdown::to_mdast(file.text(db), &parse_options)
         .map(Arc::new)
         .map_err(|e| format!("couldn't parse {}: {e}", file.path(db).display()))
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn rendered_bibliography(db: &dyn Db, bib: BibliographySource) -> Result<RenderedBib, String> {
-    let text = bib.text(db);
-    let bibliography: crate::bibliography::Bibliography =
-        serde_saphyr::from_str(&text).map_err(|e| format!("parsing bibliography.yaml: {e}"))?;
+    let bibliography: crate::bibliography::Bibliography = serde_saphyr::from_str(bib.text(db))
+        .map_err(|e| format!("parsing bibliography.yaml: {e}"))?;
     Ok(RenderedBib(Arc::new(bib_render::to_rendered(
         &bibliography,
     ))))
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn image_lookup(
     db: &dyn Db,
     manifest: ImageManifestSource,
 ) -> Result<Arc<ImageManifest>, String> {
-    let text = manifest.json(db);
-    serde_json::from_str(&text)
+    serde_json::from_str(manifest.json(db))
         .map(Arc::new)
         .map_err(|e| format!("parsing image manifest: {e}"))
 }
@@ -302,7 +308,7 @@ fn parse_yaml_header(ast: &markdown::mdast::Node) -> Result<Header<'static>, Str
         .collect::<Result<_, _>>()
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn url_meta(db: &dyn Db, file: SourceFile) -> Result<UrlMeta, String> {
     let ast = parsed(db, file)?;
     let mut header = parse_yaml_header(&ast)?;
@@ -345,7 +351,7 @@ pub fn url_meta(db: &dyn Db, file: SourceFile) -> Result<UrlMeta, String> {
         .or_else(|| order_val.into_string())
         .unwrap_or_else(|| title_no_tags.0.clone());
 
-    let url_path = compute_url_path(&file.path(db));
+    let url_path = compute_url_path(file.path(db));
 
     Ok(UrlMeta {
         url_path,
@@ -358,7 +364,7 @@ pub fn url_meta(db: &dyn Db, file: SourceFile) -> Result<UrlMeta, String> {
     })
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn article_meta(db: &dyn Db, file: SourceFile) -> Result<ArticleMeta, String> {
     let ast = parsed(db, file)?;
     let mut header = parse_yaml_header(&ast)?;
@@ -383,7 +389,7 @@ pub fn article_meta(db: &dyn Db, file: SourceFile) -> Result<ArticleMeta, String
     })
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn game_meta(db: &dyn Db, file: SourceFile) -> Result<GameMeta, String> {
     let art_meta = article_meta(db, file)?;
     let ast = parsed(db, file)?;
@@ -395,7 +401,7 @@ pub fn game_meta(db: &dyn Db, file: SourceFile) -> Result<GameMeta, String> {
         .split(',')
         .filter(|s| !s.is_empty())
         .map(celes::Country::from_str)
-        .collect::<Result<Vec<celes::Country>, &'static str>>()
+        .collect::<Result<Vec<celes::Country>, celes::CountryParseError>>()
         .map_err(|e| format!("error parsing countries: {e}"))?;
 
     let equipment = take_header(&mut header, "equipment").into_string();
@@ -409,7 +415,7 @@ pub fn game_meta(db: &dyn Db, file: SourceFile) -> Result<GameMeta, String> {
     })
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn url_lookup(
     db: &dyn Db,
     source_set: SourceSet,
@@ -420,7 +426,7 @@ pub fn url_lookup(
     for file in source_set.files(db) {
         let kind = file.kind(db);
         if kind == FileKind::Article || kind == FileKind::Game {
-            let meta = url_meta(db, file)?;
+            let meta = url_meta(db, *file)?;
             let key = file.path(db).to_string_lossy().replace('\\', "/");
             let val = if !meta.draft || output_drafts {
                 Some(meta.url_path.clone())
@@ -433,12 +439,12 @@ pub fn url_lookup(
     Ok(lookup)
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn article_tree(db: &dyn Db, source_set: SourceSet) -> Result<ArticleNode, String> {
     let mut tree = ArticleNode::default();
     for file in source_set.files(db) {
         if file.kind(db) == FileKind::Article {
-            let meta = url_meta(db, file)?;
+            let meta = url_meta(db, *file)?;
             let mut node = &mut tree;
             for part in meta.url_path.trim_matches('/').split('/') {
                 node = node.children.entry(part.to_string()).or_default();
@@ -553,7 +559,7 @@ impl GameMetadata for GameView {
     }
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn render_article(
     db: &dyn Db,
     file: SourceFile,
@@ -571,7 +577,7 @@ pub fn render_article(
     let lookup = url_lookup(db, source_set, config)?;
 
     let (content, akas, cites) =
-        mdast_to_html::to_html(&base_path, &full_path, &ast, &bib_rendered, &img, &lookup)
+        mdast_to_html::to_html(base_path, &full_path, &ast, &bib_rendered, &img, &lookup)
             .map_err(|e| format!("rendering HTML for {}: {e}", full_path.display()))?;
 
     let kind = file.kind(db);
@@ -651,7 +657,7 @@ pub fn render_article(
         .map(|(u, n)| (u.as_str(), n.as_ref()))
         .collect();
 
-    let templater = Templater::new(Url::parse(&config.base_url(db)).unwrap());
+    let templater = Templater::new(config.base_url(db));
     let output_file = if kind == FileKind::Game {
         let g_meta = game_meta(db, file)?;
         let view = GameView {
@@ -704,7 +710,7 @@ pub fn render_article(
     }))
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn all_articles(
     db: &dyn Db,
     source_set: SourceSet,
@@ -716,18 +722,18 @@ pub fn all_articles(
     let mut pages = Vec::new();
 
     for file in source_set.files(db) {
-        let meta = url_meta(db, file)?;
+        let meta = url_meta(db, *file)?;
         if meta.draft && !output_drafts {
             continue;
         }
-        let page = render_article(db, file, source_set, bib, manifest, config)?;
+        let page = render_article(db, *file, source_set, bib, manifest, config)?;
         pages.push(page);
     }
 
     Ok(Arc::new(pages))
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn bibliography_page(
     db: &dyn Db,
     source_set: SourceSet,
@@ -749,7 +755,7 @@ pub fn bibliography_page(
     }
 
     let rendered_bib = rendered_bibliography(db, bib)?;
-    let templater = Templater::new(Url::parse(&config.base_url(db)).unwrap());
+    let templater = Templater::new(config.base_url(db));
     let output_file = templater
         .bibliography(&rendered_bib, cites_map)
         .map_err(|e| format!("generating bibliography: {e}"))?;
@@ -762,7 +768,7 @@ pub fn bibliography_page(
     }))
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn names_index(
     db: &dyn Db,
     source_set: SourceSet,
@@ -779,7 +785,7 @@ pub fn names_index(
         url_path: Arc::new(aka.2.clone()),
     });
 
-    let templater = Templater::new(Url::parse(&config.base_url(db)).unwrap());
+    let templater = Templater::new(config.base_url(db));
     let output_file = templater
         .names_index(akas_iter)
         .map_err(|e| format!("generating names index: {e}"))?;
@@ -792,7 +798,7 @@ pub fn names_index(
     }))
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn games_index(
     db: &dyn Db,
     source_set: SourceSet,
@@ -803,7 +809,7 @@ pub fn games_index(
 
     for file in source_set.files(db) {
         if file.kind(db) == FileKind::Game {
-            let meta = game_meta(db, file)?;
+            let meta = game_meta(db, *file)?;
             if !meta.article_meta.url_meta.draft || output_drafts {
                 let view = GameView {
                     base: ArticleView {
@@ -831,7 +837,7 @@ pub fn games_index(
         }
     }
 
-    let templater = Templater::new(Url::parse(&config.base_url(db)).unwrap());
+    let templater = Templater::new(config.base_url(db));
     let output_file = templater
         .games(games.iter())
         .map_err(|e| format!("generating games index: {e}"))?;
@@ -844,7 +850,7 @@ pub fn games_index(
     }))
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn welcome(
     db: &dyn Db,
     source_set: SourceSet,
@@ -860,7 +866,7 @@ pub fn welcome(
         }
     }
 
-    let templater = Templater::new(Url::parse(&config.base_url(db)).unwrap());
+    let templater = Templater::new(config.base_url(db));
     let output_file = templater
         .welcome(&output_files)
         .map_err(|e| format!("generating welcome page: {e}"))?;
@@ -873,7 +879,7 @@ pub fn welcome(
     }))
 }
 
-#[salsa::tracked]
+#[salsa::tracked(returns(clone))]
 pub fn sitemap(
     db: &dyn Db,
     source_set: SourceSet,
