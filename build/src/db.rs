@@ -1,5 +1,6 @@
 use std::{
     collections::{BTreeMap, HashMap, HashSet},
+    fmt::Write,
     path::{Path, PathBuf},
     str::FromStr,
     sync::{Arc, LazyLock},
@@ -160,8 +161,8 @@ pub struct UrlMeta {
 #[derive(Clone, PartialEq, Eq, Debug, SalsaValue)]
 pub struct ArticleMeta {
     pub url_meta: UrlMeta,
-    pub date_modified: Option<time::Date>,
-    pub date_created: Option<time::Date>,
+    pub date_modified: Option<jiff::civil::Date>,
+    pub date_created: Option<jiff::civil::Date>,
 }
 
 #[derive(Clone, PartialEq, Eq, Debug, SalsaValue)]
@@ -187,7 +188,7 @@ pub struct OutputPage {
     pub title: String,
     pub url_path: String,
     pub content: Vec<u8>,
-    pub last_modified: Option<time::Date>,
+    pub last_modified: Option<jiff::civil::Date>,
 }
 
 impl OutputPage {
@@ -370,15 +371,14 @@ pub fn article_meta(db: &dyn Db, file: SourceFile) -> Result<ArticleMeta, String
     let mut header = parse_yaml_header(&ast)?;
     let u_meta = url_meta(db, file)?;
 
-    let ymd = time::macros::format_description!("[year]-[month]-[day]");
     let date_created = take_header(&mut header, "date created")
         .as_str()
-        .map(|s| time::Date::parse(s, ymd))
+        .map(jiff::civil::Date::from_str)
         .transpose()
         .map_err(|e| format!("parsing 'date created': {e}"))?;
     let date_modified = take_header(&mut header, "date modified")
         .as_str()
-        .map(|s| time::Date::parse(s, ymd))
+        .map(jiff::civil::Date::from_str)
         .transpose()
         .map_err(|e| format!("parsing 'date modified': {e}"))?;
 
@@ -471,7 +471,7 @@ pub struct ArticleView {
     pub original_title: Option<Markup>,
     pub url_path: String,
     pub draft: bool,
-    pub date_modified: Option<time::Date>,
+    pub date_modified: Option<jiff::civil::Date>,
 }
 
 impl BaseMetadata for ArticleView {
@@ -496,13 +496,13 @@ impl BaseMetadata for ArticleView {
     fn is_draft(&self) -> bool {
         self.draft
     }
-    fn modification_date(&self) -> Option<time::Date> {
+    fn modification_date(&self) -> Option<jiff::civil::Date> {
         self.date_modified
     }
 }
 
 impl ArticleMetadata for ArticleView {
-    fn date_modified(&self) -> Option<time::Date> {
+    fn date_modified(&self) -> Option<jiff::civil::Date> {
         self.date_modified
     }
 }
@@ -536,13 +536,13 @@ impl BaseMetadata for GameView {
     fn is_draft(&self) -> bool {
         self.base.is_draft()
     }
-    fn modification_date(&self) -> Option<time::Date> {
+    fn modification_date(&self) -> Option<jiff::civil::Date> {
         self.base.modification_date()
     }
 }
 
 impl ArticleMetadata for GameView {
-    fn date_modified(&self) -> Option<time::Date> {
+    fn date_modified(&self) -> Option<jiff::civil::Date> {
         self.base.date_modified()
     }
 }
@@ -914,7 +914,6 @@ pub fn sitemap(
     files_for_sitemap.push(games_page.to_output_file());
     files_for_sitemap.push(names_page.to_output_file());
 
-    let iso_format = time::macros::format_description!("[year]-[month]-[day]");
     let mut most_recent = None;
     let mut result = String::new();
     result.push_str("<?xml version=\"1.0\" encoding=\"utf-8\"?>\n");
@@ -926,11 +925,7 @@ pub fn sitemap(
         result.push_str("</loc>");
         if let Some(last_mod) = file.last_modified {
             result.push_str("<lastmod>");
-            result.push_str(
-                &last_mod
-                    .format(&iso_format)
-                    .map_err(|e| format!("formatting sitemap date: {e}"))?,
-            );
+            write!(&mut result, "{}", last_mod).unwrap();
             result.push_str("</lastmod>");
         }
         result.push_str("</url>\n");

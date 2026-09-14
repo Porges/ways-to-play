@@ -16,23 +16,22 @@ icu_provider = { version = "2.1.1", features = ["sync"] }
 indexmap = "2.13.0"
 isbn = { version = "0.8.20260326" }
 itertools = "0.15"
+jiff = { version = "0.2.37", features = ["serde"] }
 markdown = "1.0.0"
 maud = "0.27.0"
 notify = "8.2.0"
 notify-debouncer-full = "0.7.0"
 rayon = "1.11.0"
 regex = "1.13.1"
+salsa = "0.28.2"
 saphyr = "0.0.12"
 serde = { version = "1.0.228", features = ["derive"] }
-serde_json = "1.0.149"
 serde-saphyr = "1.2.0"
+serde_json = "1.0.149"
 serde_with = "3.18.0"
-time = { version = "0.3.47", features = ["parsing", "macros", "formatting"] }
 tracing = "0.1.44"
 tracing-subscriber = { version = "0.3.23", features = ["env-filter"] }
 url = "2.5.8"
 url-escape = "0.1.1"
 uuid = { version = "1.22.0", features = ["v5"] }
 walkdir = "2.5.0"
-salsa = "0.28.2"
-derive_more = { version = "2.1.1", features = ["debug"] }

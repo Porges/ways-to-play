@@ -8,11 +8,11 @@ use icu::locale::LanguageIdentifier;
 use itertools::Itertools;
 use maud::{html, Markup, DOCTYPE};
 use regex::Regex;
-use time::macros::format_description;
 use url::Url;
 use url_escape::percent_encoding::AsciiSet;
 use url_escape::FRAGMENT;
 
+use crate::bib_render::ordinal_suffix;
 use crate::intl::INTL;
 use crate::{bib_render::RenderedBibliography, db::ArticleNode};
 
@@ -31,14 +31,14 @@ pub struct OutputFile {
     pub url_path: Cow<'static, str>,
     pub content: Vec<u8>,
     pub write_to_disk: bool,
-    pub last_modified: Option<time::Date>,
+    pub last_modified: Option<jiff::civil::Date>,
 }
 
 impl OutputFile {
     pub fn new(
         url_path: impl Into<Cow<'static, str>>,
         content: impl Into<Vec<u8>>,
-        last_modified: Option<time::Date>,
+        last_modified: Option<jiff::civil::Date>,
         title: Markup,
     ) -> Self {
         Self {
@@ -74,20 +74,20 @@ pub trait BaseMetadata {
 
     fn is_draft(&self) -> bool;
 
-    fn modification_date(&self) -> Option<time::Date>;
+    fn modification_date(&self) -> Option<jiff::civil::Date>;
 }
 
 struct SimplePage {
     title_markup: Markup,
     url_path: Cow<'static, str>,
-    last_modified: Option<time::Date>,
+    last_modified: Option<jiff::civil::Date>,
 }
 
 impl SimplePage {
     pub fn new(
         title: String,
         url_path: Cow<'static, str>,
-        last_modified: Option<time::Date>,
+        last_modified: Option<jiff::civil::Date>,
     ) -> Self {
         Self {
             title_markup: html! { (title) },
@@ -114,13 +114,13 @@ impl BaseMetadata for SimplePage {
         false
     }
 
-    fn modification_date(&self) -> Option<time::Date> {
+    fn modification_date(&self) -> Option<jiff::civil::Date> {
         self.last_modified
     }
 }
 
 pub trait ArticleMetadata {
-    fn date_modified(&self) -> Option<time::Date>;
+    fn date_modified(&self) -> Option<jiff::civil::Date>;
 }
 
 pub trait GameMetadata {
@@ -322,7 +322,9 @@ impl<'a> Templater<'a> {
                         p.last-updated {
                             "Last updated: "
                             time property="dateModified" datetime=(mod_date) {
-                                (mod_date.format(&format_description!("[weekday repr:long], [day padding:none] [month repr:long] [year]"))?)
+                                (mod_date.strftime("%A, %-d"))
+                                (ordinal_suffix(mod_date.day()))
+                                (mod_date.strftime(" %B %Y"))
                             }
                             "."
                         }
@@ -467,9 +469,8 @@ impl<'a> Templater<'a> {
 
             h2 { "Recently updated" }
             ul.columnar-large {
-                @let format = format_description!("[year]-[month]-[day]");
                 @for file in recently_updated {
-                    @let date = file.last_modified.unwrap().format(format)?;
+                    @let date = file.last_modified.unwrap().to_string();
                     li {
                         a href=(file.url_path) { (file.title) }
                         span.recently-updated-time {

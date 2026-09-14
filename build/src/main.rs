@@ -11,10 +11,10 @@ use std::{
 
 use clap::Parser;
 use eyre::{eyre, Context, Result};
+use jiff::{civil::Time, tz::TimeZone};
 use notify::EventKind;
 use notify_debouncer_full::{new_debouncer, DebounceEventResult};
 use salsa::Setter;
-use time::UtcOffset;
 use tracing::{debug, error, info, warn};
 use tracing_subscriber::{fmt::format::FmtSpan, EnvFilter};
 use url::Url;
@@ -182,11 +182,10 @@ fn generate_and_output(
             .wrap_err_with(|| eyre!("creating file {}", out_file_path.display()))?;
         f.write_all(&page.content)?;
         if let Some(mod_date) = page.last_modified {
-            let datetime = time::OffsetDateTime::new_in_offset(
-                mod_date,
-                time::Time::from_hms(0, 0, 0)?,
-                UtcOffset::UTC,
-            );
+            let datetime = mod_date
+                .to_datetime(Time::midnight())
+                .to_zoned(TimeZone::UTC)
+                .unwrap();
             f.set_modified(datetime.into())?;
         }
 

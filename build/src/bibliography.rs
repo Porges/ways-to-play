@@ -6,14 +6,14 @@ use std::{
 };
 
 use icu::locale::LanguageIdentifier;
+use jiff::ToSpan;
 use serde::{
     de::{self, Visitor},
     Deserialize, Deserializer,
 };
 use serde_with::serde_as;
-use time::Month;
 
-use crate::{bib_render::ordinal, intl::INTL};
+use crate::{bib_render::ordinal_suffix, intl::INTL};
 
 #[derive(Deserialize, Debug, Default)]
 #[serde(transparent)]
@@ -573,46 +573,37 @@ impl Date {
                 day,
                 attr,
             } => {
-                let date = time::Date::from_calendar_date(
-                    year as i32,
-                    Month::try_from(month).unwrap(),
-                    day,
-                )
-                .map_err(|_| format!("invalid date: {year}-{month:02}-{day:02}"))
-                .unwrap();
+                let date = jiff::civil::Date::new(year as i16, month as i8, day as i8)
+                    .map_err(|_| format!("invalid date: {year}-{month:02}-{day:02}"))
+                    .unwrap();
 
                 // NB: this only handles old-style English dates
-                let weekday = if attr.old_style {
+                let weekday_date = if attr.old_style {
                     let year = if month < 3 || month == 3 && day < 25 {
                         year + 1
                     } else {
                         year
                     };
 
-                    time::Date::from_calendar_date(
-                        year as i32,
-                        Month::try_from(month).unwrap(),
-                        day,
-                    )
-                    .unwrap()
-                    .weekday()
-                    .nth_next(11)
+                    jiff::civil::Date::new(year as i16, month as i8, day as i8).unwrap() + 11.days()
                 } else {
-                    date.weekday()
+                    date
                 };
 
                 format!(
-                    "{}, {} {} {}{}",
-                    weekday,
-                    ordinal(date.day() as u64),
-                    date.month(),
-                    date.year(),
+                    "{}, {}{}{}{}",
+                    weekday_date.strftime("%A"),
+                    date.strftime("%-d"),
+                    ordinal_suffix(date.day()),
+                    date.strftime(" %B %Y"),
                     if attr.old_style { " [OS]" } else { "" } // TODO: HTML
                 )
             }
             Date::YearMonth { year, month, .. } => {
-                let month = Month::try_from(month).unwrap();
-                format!("{month} {year}")
+                let date = jiff::civil::Date::new(year as i16, month as i8, 1)
+                    .map_err(|_| format!("invalid date: {year}-{month:02}-01"))
+                    .unwrap();
+                date.strftime("%B %Y").to_string()
             }
         }
     }
@@ -776,5 +767,189 @@ impl NumberOrString {
                 }
             }
         }
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn explicit_formats_year_and_partial_dates() {
+        assert_eq!(Date::JustYear(2024).explicit(false), "2024");
+        assert_eq!(Date::JustYear(2024).explicit(true), "");
+        assert_eq!(
+            Date::YearMonth {
+                year: 2024,
+                month: 2,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "February 2024"
+        );
+        assert_eq!(
+            Date::YearSeason {
+                year: 2024,
+                season: "Spring".into(),
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Spring 2024"
+        );
+    }
+
+    #[test]
+    fn explicit_formats_regular_date() {
+        let date = Date::YearMonthDay {
+            year: 2024,
+            month: 2,
+            day: 29,
+            attr: DateAttributes::default(),
+        };
+
+        assert_eq!(date.explicit(false), "Thursday, 29th February 2024");
+    }
+
+    #[test]
+    fn ordinal_suffixes_are_correct() {
+        assert_eq!(ordinal_suffix(1), "st");
+        assert_eq!(ordinal_suffix(2), "nd");
+        assert_eq!(ordinal_suffix(3), "rd");
+        assert_eq!(ordinal_suffix(4), "th");
+        assert_eq!(ordinal_suffix(11), "th");
+        assert_eq!(ordinal_suffix(12), "th");
+        assert_eq!(ordinal_suffix(13), "th");
+        assert_eq!(ordinal_suffix(21), "st");
+        assert_eq!(ordinal_suffix(22), "nd");
+        assert_eq!(ordinal_suffix(23), "rd");
+        assert_eq!(ordinal_suffix(31), "st");
+    }
+
+    #[test]
+    fn explicit_formats_ordinal_dates() {
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 2024,
+                month: 1,
+                day: 1,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Monday, 1st January 2024"
+        );
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 2024,
+                month: 2,
+                day: 2,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Friday, 2nd February 2024"
+        );
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 2024,
+                month: 3,
+                day: 3,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Sunday, 3rd March 2024"
+        );
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 2024,
+                month: 4,
+                day: 4,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Thursday, 4th April 2024"
+        );
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 2024,
+                month: 12,
+                day: 11,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Wednesday, 11th December 2024"
+        );
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 2024,
+                month: 12,
+                day: 21,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Saturday, 21st December 2024"
+        );
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 2024,
+                month: 12,
+                day: 22,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Sunday, 22nd December 2024"
+        );
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 2024,
+                month: 12,
+                day: 23,
+                attr: DateAttributes::default(),
+            }
+            .explicit(false),
+            "Monday, 23rd December 2024"
+        );
+    }
+
+    #[test]
+    fn old_style_date_offset_correct() {
+        let os_attr = DateAttributes {
+            old_style: true,
+            ..DateAttributes::default()
+        };
+
+        // Thursday, 7th May 1741
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 1741,
+                month: 5,
+                day: 7,
+                attr: os_attr,
+            }
+            .explicit(false),
+            "Thursday, 7th May 1741 [OS]"
+        );
+
+        // Monday, 18th September 1783
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 1783,
+                month: 9,
+                day: 18,
+                attr: os_attr,
+            }
+            .explicit(false),
+            "Monday, 18th September 1783 [OS]"
+        );
+
+        // Friday, 22nd September 1783
+        assert_eq!(
+            Date::YearMonthDay {
+                year: 1783,
+                month: 9,
+                day: 22,
+                attr: os_attr,
+            }
+            .explicit(false),
+            "Friday, 22nd September 1783 [OS]"
+        );
     }
 }
