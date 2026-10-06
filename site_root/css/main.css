@@ -550,19 +550,23 @@ div.scroller {
 }
 
 /* Each image is mounted individually. Bordered photographs sit directly on the
-   page; borderless images get a white plate. Both get album-style corner tucks:
-   an outer frame masked to its corners. */
-figure a:has(> .figure-img) {
-    --tuck-gap: 3px;
-    --tuck-size: 12px;
+   page; borderless images get a white plate, and a row of them shares one.
+   Mounts get album-style corner tucks: an outer frame masked to its corners. */
+figure .mount {
     display: block;
     position: relative;
     box-sizing: border-box;
     width: fit-content;
     max-width: 100%;
     margin-inline: auto;
+}
 
-    &:has(> .figure-img.border-0) {
+figure :is(.mount, .multi.plated) {
+    --tuck-inset: -3px;
+    --tuck-size: 12px;
+
+    &.plated {
+        --tuck-inset: -4px;
         padding: .5rlh;
         border: 1px solid var(--colour-light);
         background-color: var(--colour-figure);
@@ -571,69 +575,36 @@ figure a:has(> .figure-img) {
     &::before {
         content: "";
         position: absolute;
-        inset: calc(-1 * var(--tuck-gap));
+        inset: var(--tuck-inset);
         border: 1px solid var(--colour-light);
         pointer-events: none;
         mask: conic-gradient(at var(--tuck-size) var(--tuck-size), transparent 75%, #000 0) 0 0 / calc(100% - var(--tuck-size)) calc(100% - var(--tuck-size));
-    }
-
-    &:has(> .figure-img.border-0)::before {
-        inset: calc(-1px - var(--tuck-gap));
     }
 }
 
-/* A row of borderless images within one figure shares a single plate. */
-figure:not(.extra-wide) > div.multi:has(.figure-img.border-0) {
-    --tuck-gap: 3px;
-    --tuck-size: 12px;
+figure .multi.plated {
     position: relative;
-    padding: .5rlh;
-    border: 1px solid var(--colour-light);
-    background-color: var(--colour-figure);
 
-    &::before {
-        content: "";
-        position: absolute;
-        inset: calc(-1px - var(--tuck-gap));
-        border: 1px solid var(--colour-light);
-        pointer-events: none;
-        mask: conic-gradient(at var(--tuck-size) var(--tuck-size), transparent 75%, #000 0) 0 0 / calc(100% - var(--tuck-size)) calc(100% - var(--tuck-size));
-    }
-
-    a:has(> .figure-img) {
-        padding: 0;
-        border: none;
-        background-color: transparent;
-
-        &::before {
-            content: none;
-        }
+    .mount::before {
+        content: none;
     }
 }
 
 @media (width >=702px) {
-    figure.wide > div.multi:has(.figure-img.border-0)::before {
+    figure.wide .mount {
+        width: auto;
+    }
+
+    /* Wide plates swap the tucks for a double rule above and below. */
+    figure.wide .plated::before {
         inset-inline: -1px;
         border-inline: none;
         mask: none;
     }
-}
-
-@media (width >=702px) {
-    figure.wide a:has(> .figure-img) {
-        width: auto;
-
-        /* Wide plates swap the tucks for a double rule above and below. */
-        &:has(> .figure-img.border-0)::before {
-            inset-inline: -1px;
-            border-inline: none;
-            mask: none;
-        }
-    }
 
     /* Extra-wide figures sit in a full-bleed white band instead of plates;
        the text stays at figure width. */
-    :where(figure, div.multi:has(> figure)):where(.extra-wide) {
+    :is(figure, div.multi).extra-wide {
         position: relative;
         isolation: isolate;
         padding-block: .5rlh;
@@ -648,7 +619,7 @@ figure:not(.extra-wide) > div.multi:has(.figure-img.border-0) {
             pointer-events: none;
         }
 
-        &:is(figure, div.multi).extra-wide a:has(> .figure-img) {
+        & :is(.mount, .multi.plated) {
             padding: 0;
             border: none;
             background-color: transparent;
@@ -665,7 +636,7 @@ figure {
     flex-direction: column;
     align-self: stretch;
     --max-h: 450px;
-    /* Size to the image; figcaption is excluded via `contain: inline-size`. */
+    /* Size to the image; caption and credit are excluded via `contain: inline-size`. */
     width: fit-content;
     max-width: 100%;
     margin-left: auto;
@@ -783,69 +754,54 @@ caption {
     caption-side: bottom;
 }
 
-figcaption {
-    /* Flatten the caption so the credit line can sit directly under the image. */
-    display: contents;
+/* Credit line directly under the image: attribution then licence, right-aligned;
+   the licence wraps beneath if they don't fit. */
+figure>p.credit {
+    /* don’t let the credit widen the figure */
+    contain: inline-size;
+    margin-top: .25rlh;
+    color: var(--colour-secondary);
+    font-size: .6875rem;
+    font-weight: 350;
+    line-height: 1.5;
 
-    >div {
-        order: 2;
-        /* don’t let the caption widen the figure */
-        contain: inline-size;
-        margin-top: .5rlh;
+    a {
+        color: inherit;
     }
 
-    >p:has(>span[property='copyrightNotice']:not([hidden])) {
-        order: 1;
-        contain: inline-size;
-        margin-top: .125rlh;
-        color: var(--colour-secondary);
-        font-size: .6875rem;
-        font-weight: 350;
-        line-height: 1.5;
+    >span {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 0 .75em;
         text-align: right;
-        text-wrap: pretty;
+        overflow-wrap: anywhere;
 
-        a {
-            color: inherit;
-        }
-
-        >span[property='copyrightNotice'] {
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            justify-content: flex-end;
-            gap: 0 .75em;
-            text-align: right;
-            overflow-wrap: anywhere;
-
-            /* Credit then licence on one line; if they don't fit, the licence
-               wraps beneath. */
-            .image-attribution {
-                flex: 0 1 auto;
-                min-width: 0;
-            }
-
-            .image-license {
-                flex: 0 1 auto;
-                min-width: 0;
-
-                a[property~='cc:license'],
-                a[aria-label='Public Domain'] {
-                    font-size: .75rem;
-                    line-height: 1;
-                    white-space: nowrap;
-                    display: inline-block;
-                    text-decoration: none;
-                    opacity: .6;
-
-                    &:hover,
-                    &:focus-visible {
-                        opacity: 1;
-                    }
-                }
-            }
+        >* {
+            flex: 0 1 auto;
+            min-width: 0;
         }
     }
+
+    .image-license a[aria-label] {
+        font-size: .75rem;
+        line-height: 1;
+        white-space: nowrap;
+        display: inline-block;
+        text-decoration: none;
+        opacity: .6;
+
+        &:hover,
+        &:focus-visible {
+            opacity: 1;
+        }
+    }
+}
+
+figcaption {
+    /* don’t let the caption widen the figure */
+    contain: inline-size;
 }
 
 figcaption,
@@ -859,10 +815,6 @@ caption {
     text-wrap: balance;
 
     color: var(--colour-dark);
-
-    p:has(span[property='copyrightNotice']) {
-        margin-top: .5rlh;
-    }
 }
 
 dialog.lightbox {

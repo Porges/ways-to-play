@@ -553,7 +553,11 @@ impl Converter<'_> {
         .join(" ");
 
         let noborder = if metadata.noborder { " border-0" } else { "" };
-        let copyright_notice = metadata.copyright_notice();
+        // Borderless images are mounted on a white plate; a row of them shares one.
+        let plated = metadata.noborder;
+        let copyright_notice = metadata.copyright_notice(true);
+        // Hidden notices carry metadata only, so get no visible credit line.
+        let show_credit = !metadata.hidden;
 
         let figure_classes = [
             metadata.position.as_ref().map(|p| match p {
@@ -648,20 +652,20 @@ impl Converter<'_> {
             Ok(html! {
                 figure class=(figure_classes) property="image" typeof="ImageObject cc:Work" {
                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
-                    a property="" href={"#" (lb_id)} {
+                    a.mount.plated[plated] property="" href={"#" (lb_id)} {
                         img class={"figure-img" (noborder)}
                             property="contentUrl"
                             src=(imgurl) alt=(&img.alt)
                             width=(meta.width) height=(meta.height)
                             srcset=[srcset] sizes=[sizes];
                     }
-                    figcaption {
-                        div property="caption" {
-                            (caption)
-                        }
-                        p {
-                            (copyright_notice)
-                        }
+                    @if show_credit {
+                        p.credit { (copyright_notice) }
+                    } @else {
+                        (copyright_notice)
+                    }
+                    figcaption property="caption" {
+                        (caption)
                     }
                 }
             })
@@ -671,23 +675,18 @@ impl Converter<'_> {
                 .map(|img| Ok((img, self.resolve_image(&img.url)?)))
                 .collect::<Result<Vec<_>>>()?;
 
-            let caption_id = format!(
-                "caption-{}",
-                Uuid::new_v5(&LB_NAMESPACE, caption.0.as_bytes()).simple()
-            );
-
             Ok(html! {
                 figure class=(figure_classes) {
                     @for row in metas.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
                         @let row_ars = row.iter().map(|(_, meta)| aspect_ratio(meta)).collect_vec();
-                        div class={"multi " (multi_classes)} {
+                        div.multi.plated[plated] class=(multi_classes) {
                             @for (ix, (img, meta)) in row.iter().enumerate() {
                                 @let srcset = meta.srcset();
                                 @let sizes = srcset.is_some().then(|| image_sizes(&metadata, Some(&multi_classes), &row_ars, ix));
                                 @let lb_id = format!("lb-{}", Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple());
                                 div property="image" typeof="ImageObject cc:Work" {
                                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
-                                    a property="" href={"#" (lb_id)} {
+                                    a.mount property="" href={"#" (lb_id)} {
                                         img class={"figure-img" (noborder)}
                                             property="contentUrl"
                                             src=(meta.url) alt=(&img.alt) title=[&img.title]
@@ -703,14 +702,13 @@ impl Converter<'_> {
                             }
                         }
                     }
-                    // can't figure out how to share this - rdfa:copy doesn't appear to work
-                    figcaption resource={"#" (caption_id)} {
-                        div {
-                            (caption)
-                        }
-                        p {
-                            (copyright_notice)
-                        }
+                    // Each image above carries its own (hidden) notice; this
+                    // visible copy is presentation only, so carries no RDFa.
+                    @if show_credit {
+                        p.credit { (metadata.copyright_notice(false)) }
+                    }
+                    figcaption {
+                        (caption)
                     }
                 }
             })
@@ -1327,22 +1325,22 @@ const NC: char = '\u{1f10f}';
 const ND: char = '⊜';
 
 impl ImageMetadata {
-    fn copyright_notice(&self) -> Markup {
+    fn copyright_notice(&self, rdfa: bool) -> Markup {
         let hidden = if self.hidden { Some("hidden") } else { None };
-        let license = self.license_info();
+        let license = self.license_info(rdfa);
         html! {
-            span property="copyrightNotice" hidden=[hidden] {
+            span property=[rdfa.then_some("copyrightNotice")] hidden=[hidden] {
                 span.image-attribution {
                     @if !matches!(self.license, Some(License::Cc0)) {
                         "© "
                     }
                     @if let Some(copyright_year) = self.copyright_year {
-                        span property="copyrightYear" { (copyright_year) }
+                        span property=[rdfa.then_some("copyrightYear")] { (copyright_year) }
                         " "
                     }
-                    @if let Some(copyright_holder) = self.copyright_holder() {
+                    @if let Some(copyright_holder) = self.copyright_holder(rdfa) {
                         @if let Some(original_url) = &self.original_url {
-                            a property="cc:attributionURL" href=(original_url) { (copyright_holder) }
+                            a property=[rdfa.then_some("cc:attributionURL")] href=(original_url) { (copyright_holder) }
                         } @else {
                             (copyright_holder)
                         }
@@ -1358,34 +1356,34 @@ impl ImageMetadata {
         }
     }
 
-    fn copyright_holder(&self) -> Option<Markup> {
+    fn copyright_holder(&self, rdfa: bool) -> Option<Markup> {
         if self.org_name.is_some() {
             if self.author.is_some() || self.author_given.is_some() {
-                Some(self.person("creator"))
+                Some(self.person("creator", rdfa))
             } else {
-                Some(self.organization("copyrightHolder"))
+                Some(self.organization("copyrightHolder", rdfa))
             }
         } else if self.author.is_some() || self.author_given.is_some() {
-            Some(self.person("copyrightHolder creator"))
+            Some(self.person("copyrightHolder creator", rdfa))
         } else {
             None
         }
     }
 
-    fn organization(&self, prop: &str) -> Markup {
+    fn organization(&self, prop: &str, rdfa: bool) -> Markup {
         if let Some(org_name) = &self.org_name {
             let content = if let Some(org_abbr) = &self.org_abbr {
                 html! {
-                    meta property="name" content=(org_name);
+                    @if rdfa { meta property="name" content=(org_name); }
                     abbr title=(org_name) { (org_abbr) }
                 }
             } else {
-                html! { span property="name" { (org_name) } }
+                html! { span property=[rdfa.then_some("name")] { (org_name) } }
             };
             html! {
-                span property=(prop) typeof="Organization" lang=[&self.org_lang] {
+                span property=[rdfa.then_some(prop)] typeof=[rdfa.then_some("Organization")] lang=[&self.org_lang] {
                     @if let Some(url) = &self.org_url {
-                        a property="" href=(url) { (content) }
+                        a property=[rdfa.then_some("")] href=(url) { (content) }
                     } @else {
                         (content)
                     }
@@ -1396,31 +1394,31 @@ impl ImageMetadata {
         }
     }
 
-    fn person(&self, prop: &str) -> Markup {
+    fn person(&self, prop: &str, rdfa: bool) -> Markup {
         html! {
-            span property=(prop) typeof="Person" resource=[&self.author_resource] {
+            span property=[rdfa.then_some(prop)] typeof=[rdfa.then_some("Person")] resource=[self.author_resource.as_ref().filter(|_| rdfa)] {
                 @if self.org_name.is_some() {
-                    (self.organization("worksFor")) "/"
+                    (self.organization("worksFor", rdfa)) "/"
                 }
-                span property="name" lang=[&self.author_lang] {
+                span property=[rdfa.then_some("name")] lang=[&self.author_lang] {
                     @if let Some(name) = &self.author {
                         (name)
                     }
 
                     @if crate::bib_render::family_last(self.author_lang.as_deref()) {
                         @if let Some(given) = &self.author_given {
-                            span property="givenName" { (given) }
+                            span property=[rdfa.then_some("givenName")] { (given) }
                         }
                         " "
                         @if let Some(family) = &self.author_family {
-                            span property="familyName" { (family) }
+                            span property=[rdfa.then_some("familyName")] { (family) }
                         }
                     } @else {
                         @if let Some(family) = &self.author_family {
-                            span property="familyName" { (family) }
+                            span property=[rdfa.then_some("familyName")] { (family) }
                         }
                         @if let Some(given) = &self.author_given {
-                            span property="givenName" { (given) }
+                            span property=[rdfa.then_some("givenName")] { (given) }
                         }
                     }
                 }
@@ -1428,12 +1426,12 @@ impl ImageMetadata {
         }
     }
 
-    fn license_info(&self) -> Markup {
+    fn license_info(&self, rdfa: bool) -> Markup {
         let cc = |name: &str, title: &str, content: Markup| -> Markup {
             let version = self.license_version.as_deref().unwrap_or("4.0");
             let url = format!("https://creativecommons.org/licenses/{name}/{version}/");
             html! {
-                a property="license cc:license"
+                a property=[rdfa.then_some("license cc:license")]
                   href=(url)
                   aria-label={"Creative Commons " (title) " " (version)}
                   title={"Licensed under the Creative Commons " (title) " license " (version)} {
@@ -1454,13 +1452,13 @@ impl ImageMetadata {
                 html! {
                     span {
                         "used in accordance with "
-                        a property="license" href=[&self.terms_url] { "terms" }
+                        a property=[rdfa.then_some("license")] href=[&self.terms_url] { "terms" }
                     }
                 }
             }
             License::Cc0 => {
                 html! {
-                    a property="license" href="https://creativecommons.org/publicdomain/mark/1.0/" title="Public Domain" aria-label="Public Domain" {
+                    a property=[rdfa.then_some("license")] href="https://creativecommons.org/publicdomain/mark/1.0/" title="Public Domain" aria-label="Public Domain" {
                         (CC0)
                     }
                 }
@@ -1527,7 +1525,7 @@ mod test {
             license: Some(License::CcByNcSa),
             ..ImageMetadata::default()
         };
-        let notice = metadata.copyright_notice().into_string();
+        let notice = metadata.copyright_notice(true).into_string();
         let attribution_end = notice.find("Catalogue identifier</span></span>").unwrap();
         let license_start = notice.find("<span class=\"image-license\">").unwrap();
         assert!(attribution_end < license_start);
@@ -1538,13 +1536,35 @@ mod test {
     }
 
     #[test]
+    fn image_notice_without_rdfa_has_no_rdfa_attributes() {
+        let metadata = ImageMetadata {
+            org_name: Some("Archive".into()),
+            org_abbr: Some("A".into()),
+            org_url: Some("https://example.org/".into()),
+            author_given: Some("Given".into()),
+            author_family: Some("Family".into()),
+            author_resource: Some("#author".into()),
+            original_url: Some("https://example.org/original".into()),
+            copyright_year: Some(1900),
+            license: Some(License::CcBy),
+            ..ImageMetadata::default()
+        };
+        let notice = metadata.copyright_notice(false).into_string();
+        for attr in ["property=", "typeof=", "resource=", "<meta"] {
+            assert!(!notice.contains(attr), "{attr} in {notice}");
+        }
+        assert!(notice.contains("Family"));
+        assert!(notice.contains("aria-label=\"Creative Commons Attribution 4.0\""));
+    }
+
+    #[test]
     fn image_notice_keeps_permission_and_hidden_metadata() {
         let metadata = ImageMetadata {
             license: Some(License::WithPermission),
             hidden: true,
             ..ImageMetadata::default()
         };
-        let notice = metadata.copyright_notice().into_string();
+        let notice = metadata.copyright_notice(true).into_string();
         assert!(notice.contains("property=\"copyrightNotice\" hidden"));
         assert!(notice.contains("<span class=\"image-license\">used with permission</span>"));
     }
