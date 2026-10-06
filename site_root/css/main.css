@@ -549,16 +549,48 @@ div.scroller {
     margin-top: 1rlh;
 }
 
-:where(figure, div.multi:has(> figure)) {
-    position: relative;
-    --plate-padding: .5rlh;
+/* Each image is mounted individually. Bordered photographs sit directly on the
+   page; borderless images get a white plate. Both get album-style corner tucks:
+   an outer frame masked to its corners. */
+figure a:has(> .figure-img) {
     --tuck-gap: 3px;
     --tuck-size: 12px;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: fit-content;
+    max-width: 100%;
+    margin-inline: auto;
+
+    &:has(> .figure-img.border-0) {
+        padding: .5rlh;
+        border: 1px solid var(--colour-light);
+        background-color: var(--colour-figure);
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        inset: calc(-1 * var(--tuck-gap));
+        border: 1px solid var(--colour-light);
+        pointer-events: none;
+        mask: conic-gradient(at var(--tuck-size) var(--tuck-size), transparent 75%, #000 0) 0 0 / calc(100% - var(--tuck-size)) calc(100% - var(--tuck-size));
+    }
+
+    &:has(> .figure-img.border-0)::before {
+        inset: calc(-1px - var(--tuck-gap));
+    }
+}
+
+/* A row of borderless images within one figure shares a single plate. */
+figure:not(.extra-wide) > div.multi:has(.figure-img.border-0) {
+    --tuck-gap: 3px;
+    --tuck-size: 12px;
+    position: relative;
     padding: .5rlh;
     border: 1px solid var(--colour-light);
     background-color: var(--colour-figure);
 
-    /* Album-style corner tucks: an outer frame masked to its corners. */
     &::before {
         content: "";
         position: absolute;
@@ -567,17 +599,64 @@ div.scroller {
         pointer-events: none;
         mask: conic-gradient(at var(--tuck-size) var(--tuck-size), transparent 75%, #000 0) 0 0 / calc(100% - var(--tuck-size)) calc(100% - var(--tuck-size));
     }
+
+    a:has(> .figure-img) {
+        padding: 0;
+        border: none;
+        background-color: transparent;
+
+        &::before {
+            content: none;
+        }
+    }
 }
 
-/* A group, including figures with their own image rows, shares one plate. */
-:where(figure, div.multi:has(> figure)) :where(figure, div.multi:has(> figure)) {
-    --plate-padding: 0px;
-    padding: 0;
-    border: none;
-    background-color: transparent;
+@media (width >=702px) {
+    figure.wide > div.multi:has(.figure-img.border-0)::before {
+        inset-inline: -1px;
+        border-inline: none;
+        mask: none;
+    }
+}
 
-    &::before {
-        content: none;
+@media (width >=702px) {
+    figure.wide a:has(> .figure-img) {
+        width: auto;
+
+        /* Wide plates swap the tucks for a double rule above and below. */
+        &:has(> .figure-img.border-0)::before {
+            inset-inline: -1px;
+            border-inline: none;
+            mask: none;
+        }
+    }
+
+    /* Extra-wide figures sit in a full-bleed white band instead of plates;
+       the text stays at figure width. */
+    :where(figure, div.multi:has(> figure)):where(.extra-wide) {
+        position: relative;
+        isolation: isolate;
+        padding-block: .5rlh;
+
+        &::before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            inset: 0 -100vw;
+            border-block: 1px solid var(--colour-light);
+            background-color: var(--colour-figure);
+            pointer-events: none;
+        }
+
+        &:is(figure, div.multi).extra-wide a:has(> .figure-img) {
+            padding: 0;
+            border: none;
+            background-color: transparent;
+
+            &::before {
+                content: none;
+            }
+        }
     }
 }
 
@@ -705,23 +784,20 @@ caption {
 }
 
 figcaption {
-    /* don’t let the caption widen the figure */
-    contain: inline-size;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+    /* Flatten the caption so the credit line can sit directly under the image. */
+    display: contents;
 
     >div {
-        padding-bottom: .5rlh;
+        order: 2;
+        /* don’t let the caption widen the figure */
+        contain: inline-size;
+        margin-top: .5rlh;
     }
 
     >p:has(>span[property='copyrightNotice']:not([hidden])) {
-        margin-top: auto;
-        margin-inline: calc(-1 * var(--plate-padding));
-        margin-bottom: calc(-1 * var(--plate-padding));
-        padding: .125rlh var(--plate-padding);
-        border-top: 1px solid var(--colour-light);
-        background-color: var(--colour-reading);
+        order: 1;
+        contain: inline-size;
+        margin-top: .125rlh;
         color: var(--colour-secondary);
         font-size: .6875rem;
         font-weight: 350;
@@ -737,27 +813,25 @@ figcaption {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            justify-content: space-between;
-            gap: 0 1em;
-            text-align: left;
+            justify-content: flex-end;
+            gap: 0 .75em;
+            text-align: right;
             overflow-wrap: anywhere;
 
-            /* Licence sits visually on the left; source order keeps the
-               attribution first for screen readers and plain text. */
+            /* Credit then licence on one line; if they don't fit, the licence
+               wraps beneath. */
             .image-attribution {
-                flex: 1 1 10em;
+                flex: 0 1 auto;
                 min-width: 0;
-                text-align: right;
             }
 
             .image-license {
-                order: -1;
-                margin-right: auto;
-                text-align: left;
+                flex: 0 1 auto;
+                min-width: 0;
 
                 a[property~='cc:license'],
                 a[aria-label='Public Domain'] {
-                    font-size: .875rem;
+                    font-size: .75rem;
                     line-height: 1;
                     white-space: nowrap;
                     display: inline-block;
@@ -943,6 +1017,15 @@ div.full-width {
     /* without footnotes */
     div.full-width {
         left: calc(-0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - var(--figure-wide-overlap)) - var(--figure-wide-overlap));
+        /* a band of reading surface across the faded margins */
+        margin-top: var(--base-unit);
+        padding-block: .25lh;
+        border-block: 3px double var(--colour-light);
+        background-color: var(--colour-reading);
+
+        >table {
+            margin-top: 0;
+        }
     }
 }
 

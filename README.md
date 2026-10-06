@@ -3,13 +3,15 @@
 The colour palette lives in `site_root/css/main.css`. The text column and header
 use near-white paper against warmer off-white page margins; on wider screens the
 column’s edges fade into the margins, and narrow screens use the near-white
-paper throughout. Figures and
-their captions use separate white plates. Image groups
-share a plate; images retain their original colours without blending or masking.
-Small corner tucks sit just outside the border, like an old photograph album.
-Licence icons or terms occupy the left of a bottom metadata strip, with credits
-on the right, separated from the caption by a fine rule.
-The strip uses the reading background and smaller, lighter secondary-colour text.
+paper throughout. Each image is mounted individually: bordered photographs sit
+directly on the page, borderless images sit on a white plate, and both have
+small album-style corner tucks. Images keep their original colours without
+blending or masking. Wide plates have a double rule above and below instead of
+tucks, and extra-wide figures sit in a full-bleed white band instead of plates.
+Full-width tables sit in a near-white band with a double rule above and below.
+A small right-aligned credit line sits directly under each image, above the
+caption: the attribution, then licence icons or terms, which wrap beneath when
+they don't fit. Its text is smaller, lighter and in the secondary colour.
 The surfaces have dark-mode counterparts, and printed pages use white paper.
 
 ### Tips
