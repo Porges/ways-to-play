@@ -1332,27 +1332,27 @@ impl ImageMetadata {
         let license = self.license_info();
         html! {
             span property="copyrightNotice" hidden=[hidden] {
-                @if !matches!(self.license, Some(License::Cc0)) {
-                    "© "
-                }
-                @if let Some(copyright_year) = self.copyright_year {
-                    span property="copyrightYear" { (copyright_year) }
-                    " "
-                }
-                @if let Some(copyright_holder) = self.copyright_holder() {
-                    @if let Some(original_url) = &self.original_url {
-                        a property="cc:attributionURL" href=(original_url) { (copyright_holder) }
-                    } @else {
-                        (copyright_holder)
+                span.image-attribution {
+                    @if !matches!(self.license, Some(License::Cc0)) {
+                        "© "
                     }
-
-                    @if !license.0.is_empty() {
-                        ", "
+                    @if let Some(copyright_year) = self.copyright_year {
+                        span property="copyrightYear" { (copyright_year) }
+                        " "
+                    }
+                    @if let Some(copyright_holder) = self.copyright_holder() {
+                        @if let Some(original_url) = &self.original_url {
+                            a property="cc:attributionURL" href=(original_url) { (copyright_holder) }
+                        } @else {
+                            (copyright_holder)
+                        }
+                    }
+                    @if let Some(identifier) = &self.identifier {
+                        " " span.image-identifier { (identifier) }
                     }
                 }
-                (license)
-                @if let Some(identifier) = &self.identifier {
-                    ": " span.image-identifier { (identifier) }
+                @if !license.0.is_empty() {
+                    span.image-license { (license) }
                 }
             }
         }
@@ -1435,6 +1435,7 @@ impl ImageMetadata {
             html! {
                 a property="license cc:license"
                   href=(url)
+                  aria-label={"Creative Commons " (title) " " (version)}
                   title={"Licensed under the Creative Commons " (title) " license " (version)} {
                   (content)
                 }
@@ -1459,7 +1460,7 @@ impl ImageMetadata {
             }
             License::Cc0 => {
                 html! {
-                    a property="license" href="https://creativecommons.org/publicdomain/mark/1.0/" title="Public Domain" {
+                    a property="license" href="https://creativecommons.org/publicdomain/mark/1.0/" title="Public Domain" aria-label="Public Domain" {
                         (CC0)
                     }
                 }
@@ -1517,6 +1518,36 @@ fn extract_attributes(attributes: &[AttributeContent]) -> Result<Vec<(&str, &str
 #[cfg(test)]
 mod test {
     use super::*;
+
+    #[test]
+    fn image_notice_separates_attribution_and_license() {
+        let metadata = ImageMetadata {
+            author: Some("Image creator".into()),
+            identifier: Some("Catalogue identifier".into()),
+            license: Some(License::CcByNcSa),
+            ..ImageMetadata::default()
+        };
+        let notice = metadata.copyright_notice().into_string();
+        let attribution_end = notice.find("Catalogue identifier</span></span>").unwrap();
+        let license_start = notice.find("<span class=\"image-license\">").unwrap();
+        assert!(attribution_end < license_start);
+        assert!(notice
+            .contains("aria-label=\"Creative Commons Attribution-NonCommercial-ShareAlike 4.0\""));
+        assert!(notice.contains("property=\"license cc:license\""));
+        assert!(!notice.contains(", "));
+    }
+
+    #[test]
+    fn image_notice_keeps_permission_and_hidden_metadata() {
+        let metadata = ImageMetadata {
+            license: Some(License::WithPermission),
+            hidden: true,
+            ..ImageMetadata::default()
+        };
+        let notice = metadata.copyright_notice().into_string();
+        assert!(notice.contains("property=\"copyrightNotice\" hidden"));
+        assert!(notice.contains("<span class=\"image-license\">used with permission</span>"));
+    }
 
     #[test]
     fn indicator() {

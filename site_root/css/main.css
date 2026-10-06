@@ -42,19 +42,21 @@
 
     color-scheme: light dark;
 
-    /* via: https://coolors.co/palette/1a3d84-6d85a8-e6e6e9-333333-0a0908-fdfffc-fadfdb-cc0000-004733-fbc823 */
-    --colour-primary: light-dark(#1a3d84, #6d85a8);
-    --colour-secondary: #6d85a8;
-    --colour-light: light-dark(#e6e6e9, #333333);
-    --colour-dark: light-dark(#333333, #e6e6e9);
-    --colour-black: light-dark(#0a0908, #fdfffc);
-    --colour-white: light-dark(#fdfffc, #0a0908);
+    --colour-primary: light-dark(#24499b, #a8c1ff);
+    --colour-secondary: light-dark(#52616e, #a1b6c2);
+    --colour-light: light-dark(#dedbd4, #343e45);
+    --colour-dark: light-dark(#454b50, #ced5d9);
+    --colour-black: light-dark(#252a2e, #edf0f2);
+    --colour-white: light-dark(#f8f5ef, #171d21);
+    --colour-reading: light-dark(#fcfaf7, #1c2328);
+    /* Separate image plates preserve white-backed scans without tinting them. */
+    --colour-figure: light-dark(#ffffff, #222a30);
 
-    --colour-accent: #fadfdb;
+    --colour-accent: light-dark(#f8e2d8, #382b27);
 
-    --red: #CC0000;
-    --blue: #0000CC;
-    --green: #004733;
+    --red: light-dark(#ac3225, #f08d7d);
+    --blue: light-dark(#0000cc, #99adff);
+    --green: light-dark(#004733, #80c5a6);
     --colour-yellow: #fbc823;
 
     /* Overridden by media queries */
@@ -86,6 +88,12 @@ xxl: 1400px;
 
 body {
     -webkit-font-smoothing: antialiased;
+    color: var(--colour-black);
+    background-color: var(--colour-reading);
+
+    @media (width >=702px) {
+        background-color: var(--colour-white);
+    }
 }
 
 input,
@@ -100,24 +108,34 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: clip;
 
     /* can query for cqw */
     container-type: inline-size;
 }
 
 main {
+    position: relative;
+    isolation: isolate;
     display: grid;
-    margin-bottom: 2rlh;
-    /* footer must use margin-top auto */
+    flex-grow: 1;
+    align-content: start;
+    padding-bottom: 2rlh;
+    /* grows so the reading surface reaches the footer */
 
     /* minmax(0, 1fr) here makes the column 'definitely sized',
        see: https://css-tricks.com/preventing-a-grid-blowout/
     */
     grid-template-columns: .5rlh [content-start] minmax(0, 1fr) [content-end] .5rlh;
 
-    &:has(>article) {
-        border-top: 1px solid var(--colour-light);
-        margin-top: -1px;
+    &::before {
+        content: "";
+        position: absolute;
+        grid-column: content-start / content-end;
+        inset: 0 -.5rlh;
+        z-index: -1;
+        background-color: var(--colour-reading);
+        pointer-events: none;
     }
 
     &>* {
@@ -147,6 +165,22 @@ section {
     main {
         grid-template-columns:
             minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--figure-wide-overlap) minmax(1rlh, 1fr);
+
+        &::before {
+            --reading-fade: 10rlh;
+            inset-inline: calc(-3rlh - var(--reading-fade));
+            background: linear-gradient(to right,
+                    transparent,
+                    color-mix(in srgb, var(--colour-reading) 15%, transparent) calc(var(--reading-fade) * .25),
+                    color-mix(in srgb, var(--colour-reading) 50%, transparent) calc(var(--reading-fade) * .5),
+                    color-mix(in srgb, var(--colour-reading) 85%, transparent) calc(var(--reading-fade) * .75),
+                    var(--colour-reading) var(--reading-fade),
+                    var(--colour-reading) calc(100% - var(--reading-fade)),
+                    color-mix(in srgb, var(--colour-reading) 85%, transparent) calc(100% - var(--reading-fade) * .75),
+                    color-mix(in srgb, var(--colour-reading) 50%, transparent) calc(100% - var(--reading-fade) * .5),
+                    color-mix(in srgb, var(--colour-reading) 15%, transparent) calc(100% - var(--reading-fade) * .25),
+                    transparent);
+        }
     }
 }
 
@@ -305,6 +339,11 @@ a {
 
 
 /*** Header & Footer ***/
+body>header {
+    background-color: var(--colour-reading);
+    border-bottom: 1px solid var(--colour-light);
+}
+
 nav.site,
 #site-footer {
     display: flex;
@@ -414,7 +453,7 @@ nav.breadcrumbs {
     border-top: 1px solid var(--colour-light);
     margin-top: -1px;
 
-    background-color: var(--colour-white);
+    background-color: var(--colour-reading);
 
     ol {
         padding-left: 0;
@@ -510,10 +549,46 @@ div.scroller {
     margin-top: 1rlh;
 }
 
+:where(figure, div.multi:has(> figure)) {
+    position: relative;
+    --plate-padding: .5rlh;
+    --tuck-gap: 3px;
+    --tuck-size: 12px;
+    padding: .5rlh;
+    border: 1px solid var(--colour-light);
+    background-color: var(--colour-figure);
+
+    /* Album-style corner tucks: an outer frame masked to its corners. */
+    &::before {
+        content: "";
+        position: absolute;
+        inset: calc(-1px - var(--tuck-gap));
+        border: 1px solid var(--colour-light);
+        pointer-events: none;
+        mask: conic-gradient(at var(--tuck-size) var(--tuck-size), transparent 75%, #000 0) 0 0 / calc(100% - var(--tuck-size)) calc(100% - var(--tuck-size));
+    }
+}
+
+/* A group, including figures with their own image rows, shares one plate. */
+:where(figure, div.multi:has(> figure)) :where(figure, div.multi:has(> figure)) {
+    --plate-padding: 0px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+
+    &::before {
+        content: none;
+    }
+}
+
 figure {
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
     --max-h: 450px;
     /* Size to the image; figcaption is excluded via `contain: inline-size`. */
     width: fit-content;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 
@@ -591,6 +666,7 @@ figure {
         &.extra-wide {
             clear: both;
             width: auto;
+            max-width: none;
 
             margin-left: calc(-1 * var(--figure-wide-overlap));
             /* bias it to the right a bit */
@@ -631,6 +707,71 @@ caption {
 figcaption {
     /* don’t let the caption widen the figure */
     contain: inline-size;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    >div {
+        padding-bottom: .5rlh;
+    }
+
+    >p:has(>span[property='copyrightNotice']:not([hidden])) {
+        margin-top: auto;
+        margin-inline: calc(-1 * var(--plate-padding));
+        margin-bottom: calc(-1 * var(--plate-padding));
+        padding: .125rlh var(--plate-padding);
+        border-top: 1px solid var(--colour-light);
+        background-color: var(--colour-reading);
+        color: var(--colour-secondary);
+        font-size: .6875rem;
+        font-weight: 350;
+        line-height: 1.5;
+        text-align: right;
+        text-wrap: pretty;
+
+        a {
+            color: inherit;
+        }
+
+        >span[property='copyrightNotice'] {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0 1em;
+            text-align: left;
+            overflow-wrap: anywhere;
+
+            /* Licence sits visually on the left; source order keeps the
+               attribution first for screen readers and plain text. */
+            .image-attribution {
+                flex: 1 1 10em;
+                min-width: 0;
+                text-align: right;
+            }
+
+            .image-license {
+                order: -1;
+                margin-right: auto;
+                text-align: left;
+
+                a[property~='cc:license'],
+                a[aria-label='Public Domain'] {
+                    font-size: .875rem;
+                    line-height: 1;
+                    white-space: nowrap;
+                    display: inline-block;
+                    text-decoration: none;
+                    opacity: .6;
+
+                    &:hover,
+                    &:focus-visible {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
 }
 
 figcaption,
@@ -651,6 +792,8 @@ caption {
 }
 
 dialog.lightbox {
+    color: var(--colour-black);
+    background-color: var(--colour-figure);
     max-width: calc(100cqw - 20px);
     max-height: calc(100vh - 20px);
     margin: auto;
@@ -697,7 +840,7 @@ blockquote {
     }
 
     footer {
-        color: black;
+        color: var(--colour-black);
         margin-top: calc(.5rlh - 1px);
         border-top: 1px solid var(--colour-light);
         text-align: right;
@@ -935,7 +1078,7 @@ table {
         thead {
             position: sticky;
             top: 0;
-            background-color: white;
+            background-color: var(--colour-reading);
             /* TODO */
         }
     }
@@ -1032,7 +1175,10 @@ article {
         /* offset to the right, plus a gutter of 1 */
         margin-right: calc(-1 * var(--footnote-width) - 1rlh);
 
-        border: none;
+        /* the border shorthand would remove a figure’s plate border */
+        &:not(figure) {
+            border: none;
+        }
 
         /* Margin-bottom used here instead of margin-top
             because we always want the top
@@ -1210,7 +1356,7 @@ hr {
 
     &::after {
         color: var(--colour-secondary);
-        background-color: white;
+        background-color: var(--colour-reading);
         content: '•';
         padding: 0 .5em;
         position: relative;
@@ -1316,6 +1462,12 @@ iframe {
 
 /*** Print removals ***/
 @media print {
+
+    :root {
+        color-scheme: light;
+        --colour-white: #ffffff;
+        --colour-reading: #ffffff;
+    }
 
     .under-brand,
     #search-box,
