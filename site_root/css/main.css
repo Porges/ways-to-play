@@ -728,6 +728,9 @@ div.multi {
         /* items should all get the same amount of size */
         /* start at minimum and grow*/
         flex: 1 1 0px;
+    }
+
+    &>:is(figure, :has(.figure-img)) {
         /* don't let the images' definite widths force wrapping */
         min-width: 0;
     }
