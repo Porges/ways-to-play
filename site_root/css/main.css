@@ -511,8 +511,9 @@ div.scroller {
 }
 
 figure {
-    /* This is so figcaption can be limited to width of content. */
-    display: table;
+    --max-h: 450px;
+    /* Size to the image; figcaption is excluded via `contain: inline-size`. */
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
 
@@ -522,12 +523,14 @@ figure {
     break-inside: avoid;
 
     .figure-img {
+        /* Aspect ratio from the width/height attributes, so the size is known
+           before the image loads (avoids layout shift). */
+        --ar: calc(attr(width type(<number>), 1) / attr(height type(<number>), 1));
         display: block;
+        box-sizing: border-box;
+        width: calc(var(--max-h) * var(--ar));
         max-width: 100%;
-        max-height: 450px;
         height: auto;
-        width: auto;
-        object-fit: contain;
         margin: auto;
 
         cursor: zoom-in;
@@ -538,15 +541,28 @@ figure {
     }
 
     &.extra-small {
-        .figure-img {
-            max-height: 100px;
-        }
+        --max-h: 100px;
     }
 
     &.small {
-        .figure-img {
-            max-height: 200px;
-        }
+        --max-h: 200px;
+    }
+
+    &:where(:has(> .multi)) {
+        width: auto;
+    }
+}
+
+/* Fallback for browsers without typed attr(). */
+@supports not (width: calc(attr(width type(<number>), 1) * 1px)) {
+    figure .figure-img {
+        width: auto;
+        max-height: var(--max-h);
+        object-fit: contain;
+    }
+
+    figure:is(.wide, .extra-wide) .figure-img {
+        max-height: unset;
     }
 }
 
@@ -574,6 +590,7 @@ figure {
         &.wide,
         &.extra-wide {
             clear: both;
+            width: auto;
 
             margin-left: calc(-1 * var(--figure-wide-overlap));
             /* bias it to the right a bit */
@@ -581,7 +598,7 @@ figure {
 
             /* we know this won’t be too tall because it’s wide */
             .figure-img {
-                max-height: unset;
+                width: 100%;
                 border-width: 2px;
             }
         }
@@ -606,11 +623,18 @@ figure {
 }
 
 
-figcaption,
 caption {
     display: table-caption;
     caption-side: bottom;
+}
 
+figcaption {
+    /* don’t let the caption widen the figure */
+    contain: inline-size;
+}
+
+figcaption,
+caption {
     margin-top: .5rlh;
 
     font-size: var(--font-size-sm);
@@ -704,6 +728,8 @@ div.multi {
         /* items should all get the same amount of size */
         /* start at minimum and grow*/
         flex: 1 1 0px;
+        /* don't let the images' definite widths force wrapping */
+        min-width: 0;
     }
 
     &.equal-height {
@@ -718,6 +744,13 @@ div.multi {
 
     &+div.multi {
         margin-top: .5rlh;
+    }
+
+    .figure-img {
+        /* definite size from the aspect ratio (height capped at --max-h),
+           so intrinsic sizing doesn't wait for the image to load */
+        width: calc(var(--max-h, 450px) * var(--ar));
+        max-width: 100%;
     }
 }
 
