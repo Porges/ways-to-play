@@ -8,16 +8,22 @@ use icu::locale::LanguageIdentifier;
 use itertools::Itertools;
 use maud::{html, Markup, DOCTYPE};
 use regex::Regex;
-use time::macros::format_description;
 use url::Url;
 use url_escape::percent_encoding::AsciiSet;
 use url_escape::FRAGMENT;
 
+use crate::bib_render::ordinal_suffix;
 use crate::intl::INTL;
-use crate::{bib_render::RenderedBibliography, Aka, ArticleNode};
+use crate::{bib_render::RenderedBibliography, db::ArticleNode};
 
-pub struct Templater {
-    site_url: Url,
+pub struct Aka {
+    pub lang_id: LanguageIdentifier,
+    pub word: Markup,
+    pub url_path: Arc<String>,
+}
+
+pub struct Templater<'a> {
+    site_url: &'a Url,
 }
 
 pub struct OutputFile {
@@ -25,14 +31,14 @@ pub struct OutputFile {
     pub url_path: Cow<'static, str>,
     pub content: Vec<u8>,
     pub write_to_disk: bool,
-    pub last_modified: Option<time::Date>,
+    pub last_modified: Option<jiff::civil::Date>,
 }
 
 impl OutputFile {
     pub fn new(
         url_path: impl Into<Cow<'static, str>>,
         content: impl Into<Vec<u8>>,
-        last_modified: Option<time::Date>,
+        last_modified: Option<jiff::civil::Date>,
         title: Markup,
     ) -> Self {
         Self {
@@ -68,20 +74,20 @@ pub trait BaseMetadata {
 
     fn is_draft(&self) -> bool;
 
-    fn modification_date(&self) -> Option<time::Date>;
+    fn modification_date(&self) -> Option<jiff::civil::Date>;
 }
 
 struct SimplePage {
     title_markup: Markup,
     url_path: Cow<'static, str>,
-    last_modified: Option<time::Date>,
+    last_modified: Option<jiff::civil::Date>,
 }
 
 impl SimplePage {
     pub fn new(
         title: String,
         url_path: Cow<'static, str>,
-        last_modified: Option<time::Date>,
+        last_modified: Option<jiff::civil::Date>,
     ) -> Self {
         Self {
             title_markup: html! { (title) },
@@ -108,13 +114,13 @@ impl BaseMetadata for SimplePage {
         false
     }
 
-    fn modification_date(&self) -> Option<time::Date> {
+    fn modification_date(&self) -> Option<jiff::civil::Date> {
         self.last_modified
     }
 }
 
 pub trait ArticleMetadata {
-    fn date_modified(&self) -> Option<time::Date>;
+    fn date_modified(&self) -> Option<jiff::civil::Date>;
 }
 
 pub trait GameMetadata {
@@ -123,8 +129,8 @@ pub trait GameMetadata {
     fn equipment(&self) -> Option<&str>;
 }
 
-impl Templater {
-    pub fn new(site_url: Url) -> Self {
+impl<'a> Templater<'a> {
+    pub fn new(site_url: &'a Url) -> Self {
         Self { site_url }
     }
 
@@ -316,7 +322,9 @@ impl Templater {
                         p.last-updated {
                             "Last updated: "
                             time property="dateModified" datetime=(mod_date) {
-                                (mod_date.format(&format_description!("[weekday repr:long], [day padding:none] [month repr:long] [year]"))?)
+                                (mod_date.strftime("%A, %-d"))
+                                (ordinal_suffix(mod_date.day()))
+                                (mod_date.strftime(" %B %Y"))
                             }
                             "."
                         }
@@ -461,9 +469,8 @@ impl Templater {
 
             h2 { "Recently updated" }
             ul.columnar-large {
-                @let format = format_description!("[year]-[month]-[day]");
                 @for file in recently_updated {
-                    @let date = file.last_modified.unwrap().format(format)?;
+                    @let date = file.last_modified.unwrap().to_string();
                     li {
                         a href=(file.url_path) { (file.title) }
                         span.recently-updated-time {
@@ -493,9 +500,9 @@ impl Templater {
         )
     }
 
-    pub fn games<'a, T: BaseMetadata + ArticleMetadata + GameMetadata + 'a>(
+    pub fn games<'g, T: BaseMetadata + ArticleMetadata + GameMetadata + 'g>(
         &self,
-        games: impl Iterator<Item = &'a T>,
+        games: impl Iterator<Item = &'g T>,
     ) -> Result<OutputFile> {
         let games_all = Vec::from_iter(games.sorted_by_key(|g| &g.title_without_tags().0));
         let modification_date = games_all.iter().filter_map(|g| g.modification_date()).max();
@@ -697,7 +704,11 @@ impl Templater {
                 h3 #(group.lang_tag) { a href=(group.lang_link) { (group.lang_name) } }
                 ul.columnarr {
                     @let collator = INTL.collator_for(group.lang_tag.language);
-                    @for game_name in group.game_names.into_iter().sorted_by(|a, b| collator.compare(&a.aka.0, &b.aka.0)) {
+                    @for game_name in group.game_names.into_iter().sorted_by(|a, b| {
+                        collator
+                            .compare(&a.aka.0, &b.aka.0)
+                            .then_with(|| a.url.cmp(&b.url))
+                    }) {
                         li {
                             a href={(game_name.url) "#:~:text=" (url_escape::encode(&game_name.aka.0, FRAGMENT_TEXT))}
                               lang=(game_name.lang_id) {
@@ -729,15 +740,15 @@ pub fn render_article_tree(root: &str, tree: &ArticleNode, render_drafts: bool) 
 
     Some(html! {
         ul.article-list {
-            @for (name, value) in tree.children.iter().sorted_by_key(|(_, c)| c.order) {
+            @for (name, value) in tree.children.iter().sorted_by_key(|(_, c)| &c.order) {
                 @if !value.draft || render_drafts {
                     @let path = root.to_string() + name + "/";
                     li {
-                        @if let Some(name) = value.name {
+                        @if let Some(name) = &value.name {
                             a href=(path) {
-                                (name)
-                                @if let Some(orig_name) = value.original_name {
-                                    " (" (orig_name) ")"
+                                (maud::PreEscaped(name))
+                                @if let Some(orig_name) = &value.original_name {
+                                    " (" (maud::PreEscaped(orig_name)) ")"
                                 }
                                 @if value.draft {
                                     " 🚧"
@@ -761,21 +772,21 @@ pub fn render_prev_next(prev: Option<&ArticleNode>, next: Option<&ArticleNode>) 
     Some(html! {
         nav.prev-next aria-label="Nearby Articles" {
             @if let Some(prev) = prev {
-                @if let Some(name) = prev.name {
-                    a rel="prev" href=(prev.url_path) {
+                @if let Some(name) = &prev.name {
+                    a rel="prev" href=(&prev.url_path) {
                         span.prevNextArticle { "Previous Article" }
                         br;
-                        (name)
+                        (maud::PreEscaped(name))
                     }
                 }
             }
 
             @if let Some(next) = next {
-                @if let Some(name) = next.name {
-                    a rel="next" href=(next.url_path){
+                @if let Some(name) = &next.name {
+                    a rel="next" href=(&next.url_path){
                         span.prevNextArticle { "Next Article" }
                         br;
-                        (name)
+                        (maud::PreEscaped(name))
                     }
                 }
             }

@@ -1,7 +1,6 @@
-use std::{borrow::Cow, collections::BTreeMap};
+use std::{borrow::Cow, collections::BTreeMap, str::FromStr};
 
 use maud::{html, Markup};
-use time::macros::format_description;
 
 use crate::{
     bibliography::{
@@ -247,12 +246,11 @@ fn item_resource(reference: &Reference) -> Option<String> {
         Reference::JournalArticle(JournalArticle {
             common: Common { url: Some(url), .. },
             ..
-        }) => {
+        })
             // use a stable URI as resource identifier
-            if url.starts_with("https://jstor.org/stable/") {
+            if url.starts_with("https://jstor.org/stable/") => {
                 return Some(url.clone());
             }
-        }
         _ => {}
     }
 
@@ -592,9 +590,9 @@ pub fn ordinal(n: u64) -> String {
     let mut num = n.to_string();
     num.push_str(if num.ends_with("1") && !num.ends_with("11") {
         "st"
-    } else if num.ends_with("2") && !num.ends_with("12") {
+    } else if n % 10 == 2 && n % 100 != 12 {
         "nd"
-    } else if num.ends_with("3") && !num.ends_with("13") {
+    } else if n % 10 == 3 && n % 100 != 13 {
         "rd"
     } else {
         "th"
@@ -603,22 +601,15 @@ pub fn ordinal(n: u64) -> String {
     num
 }
 
-#[cfg(test)]
-mod test {
-    use super::ordinal;
-
-    #[test]
-    fn test_ordinal() {
-        assert_eq!(ordinal(0), "0th");
-        assert_eq!(ordinal(1), "1st");
-        assert_eq!(ordinal(2), "2nd");
-        assert_eq!(ordinal(3), "3rd");
-        assert_eq!(ordinal(4), "4th");
-        assert_eq!(ordinal(10), "10th");
-        assert_eq!(ordinal(11), "11th");
-        assert_eq!(ordinal(12), "12th");
-        assert_eq!(ordinal(13), "13th");
-        assert_eq!(ordinal(123), "123rd");
+pub fn ordinal_suffix(n: i8) -> &'static str {
+    if n % 10 == 1 && n % 100 != 11 {
+        "st"
+    } else if n % 10 == 2 && n % 100 != 12 {
+        "nd"
+    } else if n % 10 == 3 && n % 100 != 13 {
+        "rd"
+    } else {
+        "th"
     }
 }
 
@@ -860,11 +851,14 @@ fn render_container(key: &str, r: &Reference) -> Markup {
                     .and_then(|u| u.strip_prefix("https://web.archive.org/web/"))
                     .and_then(|u| u.split_once('/'))
                     .map(|(pref, _)| &pref[..8]) {
-                    @let access_date = time::Date::parse(archive_url, format_description!("[year][month][day]")).unwrap();
-                    @let iso_date = access_date.format(format_description!("[year]-[month]-[day]")).unwrap();
-                    @let nice_date = format!("{}, {} {} {}", access_date.weekday(), ordinal(access_date.day() as u64), access_date.month(), access_date.year());
+                    @let access_date = jiff::civil::Date::from_str(archive_url).unwrap();
+                    @let iso_date = access_date.to_string();
                     " (accessed "
-                    time property="lastReviewed fabio:hasDepositDate" datetime=(iso_date) { (nice_date) }
+                    time property="lastReviewed fabio:hasDepositDate" datetime=(iso_date) {
+                        (access_date.strftime("%A, %-d"))
+                        (ordinal_suffix(access_date.day()))
+                        (access_date.strftime(" %B %Y"))
+                    }
                     ")"
                 }
 
@@ -1160,5 +1154,24 @@ fn render_original(r: &Reference) -> Markup {
             }
             "."
         }
+    }
+}
+
+#[cfg(test)]
+mod test {
+    use super::ordinal;
+
+    #[test]
+    fn test_ordinal() {
+        assert_eq!(ordinal(0), "0th");
+        assert_eq!(ordinal(1), "1st");
+        assert_eq!(ordinal(2), "2nd");
+        assert_eq!(ordinal(3), "3rd");
+        assert_eq!(ordinal(4), "4th");
+        assert_eq!(ordinal(10), "10th");
+        assert_eq!(ordinal(11), "11th");
+        assert_eq!(ordinal(12), "12th");
+        assert_eq!(ordinal(13), "13th");
+        assert_eq!(ordinal(123), "123rd");
     }
 }

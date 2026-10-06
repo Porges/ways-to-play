@@ -58,18 +58,22 @@ pub fn locate_defs(node: &Node) -> (BTreeMap<String, Vec<Node>>, BTreeMap<String
     (fndefs, linkdefs)
 }
 
+pub type HtmlRender = (
+    Markup,
+    Vec<(LanguageIdentifier, Markup)>,
+    Vec<(String, String)>,
+);
+
 pub fn to_html(
     content_root: &Path,
     file_path: &Path,
     node: &Node,
     bibliography: &RenderedBibliography,
     images: &ImageManifest,
-    url_lookup: &BTreeMap<String, Option<&str>>,
-    mut aka_handler: impl FnMut(LanguageIdentifier, Markup),
-    mut cite_handler: impl FnMut(&str, &str),
-) -> Result<Markup> {
+    url_lookup: &BTreeMap<String, Option<String>>,
+) -> Result<HtmlRender> {
     let (fndefs, linkdefs) = locate_defs(node);
-    Converter {
+    let mut converter = Converter {
         content_root,
         file_path,
         fndefs,
@@ -80,11 +84,12 @@ pub fn to_html(
         cite_count: 0,
         header_stack: Vec::new(),
         url_lookup,
-        aka_handler: &mut aka_handler,
-        cite_handler: &mut cite_handler,
+        collected_akas: Vec::new(),
+        collected_cites: Vec::new(),
         lightboxes: Default::default(),
-    }
-    .convert_whole(node)
+    };
+    let html = converter.convert_whole(node)?;
+    Ok((html, converter.collected_akas, converter.collected_cites))
 }
 
 struct Converter<'a> {
@@ -97,9 +102,9 @@ struct Converter<'a> {
     used_bib: IndexMap<String, Vec<String>>, // need to preserve insertion order
     cite_count: usize,
     header_stack: Vec<usize>,
-    url_lookup: &'a BTreeMap<String, Option<&'a str>>,
-    aka_handler: &'a mut dyn FnMut(LanguageIdentifier, Markup),
-    cite_handler: &'a mut dyn FnMut(&str, &str),
+    url_lookup: &'a BTreeMap<String, Option<String>>,
+    collected_akas: Vec<(LanguageIdentifier, Markup)>,
+    collected_cites: Vec<(String, String)>,
     lightboxes: RefCell<HashSet<String>>, // only want to emit one lightbox per image
 }
 
@@ -284,7 +289,8 @@ impl Converter<'_> {
         };
 
         for (id, cites) in &self.used_bib {
-            (self.cite_handler)(id, &cites[0]);
+            self.collected_cites
+                .push((id.to_string(), cites[0].clone()));
         }
 
         Ok(result)
@@ -337,7 +343,7 @@ impl Converter<'_> {
                         Err(url::ParseError::RelativeUrlWithoutBase) => {
                             if let Some(dest) = self.url_lookup.get(path) {
                                 // if dest is None it's a draft and we don't want to link to it
-                                dest.map(Cow::Borrowed)
+                                dest.as_deref().map(Cow::Borrowed)
                             } else {
                                 bail!("unknown relative URL: {}", path);
                             }
@@ -768,7 +774,7 @@ impl Converter<'_> {
                         .unwrap_or(langid!("en"));
 
                     let markup = self.expand(&text.children)?;
-                    (self.aka_handler)(lang_attr, markup);
+                    self.collected_akas.push((lang_attr, markup));
                 }
 
                 html! {
@@ -803,7 +809,8 @@ impl Converter<'_> {
 
                 if class.contains("aka") {
                     let langid = INTL.parse_lang_tag(lang)?;
-                    (self.aka_handler)(langid, rendered_children.clone());
+                    self.collected_akas
+                        .push((langid, rendered_children.clone()));
                 }
 
                 let file = find_attribute(&text.attributes, "file")
