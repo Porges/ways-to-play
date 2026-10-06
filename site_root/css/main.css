@@ -776,12 +776,17 @@ figure>p.credit {
         justify-content: flex-end;
         gap: 0 .75em;
         text-align: right;
-        overflow-wrap: anywhere;
+        overflow-wrap: break-word;
 
         >* {
             flex: 0 1 auto;
             min-width: 0;
         }
+    }
+
+    /* Catalogue numbers like `1/1-003979-G` shouldn't split at their hyphens. */
+    .image-identifier {
+        white-space: nowrap;
     }
 
     .image-license a[aria-label] {
