@@ -17,9 +17,11 @@ jobs:
         packages: exiftool libfuse2t64
         version: 1.0
     - name: Install latest ImageMagick
+      env:
+        GH_TOKEN: ${{ github.token }}
       run: |
         mkdir "$HOME/bin"
-        wget -q 'https://imagemagick.org/archive/binaries/magick' -O "$HOME/bin/magick"
+        gh release download --repo ImageMagick/ImageMagick --pattern '*-gcc-x86_64.AppImage' --output "$HOME/bin/magick"
         chmod +x "$HOME/bin/magick"
     - uses: actions/cache@v4
       id: image-cache
