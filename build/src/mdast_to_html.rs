@@ -565,15 +565,6 @@ impl Converter<'_> {
         .flatten()
         .join(" ");
 
-        // TODO: these need reviewing, at the moment this is copied from old code
-        // they should be divided by number of images in a row, for example
-        let sizes = match metadata.size {
-            Some(ImageSizes::Wide) =>  "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, 800px",
-            Some(ImageSizes::ExtraWide) => "(max-width: 575.98px) 300px, (max-width: 991.98px) 600px, (max-width: 1199.98px) 800px, 1000px",
-            Some(ImageSizes::Small) |
-            None => "(max-width: 575.98px) 300px, 600px",
-        };
-
         let intended_width = match (&metadata.position, &metadata.size) {
             (None, Some(ImageSizes::ExtraWide)) => 1200,
             (None, Some(ImageSizes::Wide)) => 800,
@@ -641,7 +632,9 @@ impl Converter<'_> {
             let meta = self.resolve_image(&img.url)?;
             let (_imgsize, imgurl) = meta.url_for_width(intended_width);
             let srcset = meta.srcset();
-            let sizes = if srcset.is_some() { Some(sizes) } else { None };
+            let sizes = srcset
+                .is_some()
+                .then(|| image_sizes(&metadata, None, &[aspect_ratio(meta)], 0));
             let lb_id = format!(
                 "lb-{}",
                 Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple()
@@ -680,10 +673,11 @@ impl Converter<'_> {
             Ok(html! {
                 figure class=(figure_classes) {
                     @for row in metas.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
+                        @let row_ars = row.iter().map(|(_, meta)| aspect_ratio(meta)).collect_vec();
                         div class={"multi " (multi_classes)} {
-                            @for (img, meta) in row {
+                            @for (ix, (img, meta)) in row.iter().enumerate() {
                                 @let srcset = meta.srcset();
-                                @let sizes = if srcset.is_some() { Some(sizes) } else { None };
+                                @let sizes = srcset.is_some().then(|| image_sizes(&metadata, Some(&multi_classes), &row_ars, ix));
                                 @let lb_id = format!("lb-{}", Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple());
                                 div property="image" typeof="ImageObject cc:Work" {
                                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
@@ -1105,6 +1099,141 @@ fn find_attribute<'a>(atts: &'a [AttributeContent], name: &'static str) -> Optio
     })
 }
 
+fn aspect_ratio(meta: &ImageManifestEntry) -> f64 {
+    meta.width as f64 / meta.height.max(1) as f64
+}
+
+// Layout constants mirroring `site_root/css/main.css`. If the figure layout
+// there changes, these must be updated to match.
+const NARROW_MAX: &str = "701.98px";
+const MEDIUM_MAX: &str = "1160.98px";
+const NARROW_BREAKPOINT: f64 = 702.0;
+/// `main` grid gutters below the narrow breakpoint (.5rlh either side).
+const NARROW_GUTTERS: f64 = 27.0;
+const MULTI_GAP: f64 = 13.5;
+const CRAM_GAP: f64 = 1.0;
+const MAX_HEIGHT: f64 = 450.0;
+const SMALL_MAX_HEIGHT: f64 = 200.0;
+
+/// Computes the `sizes` attribute for image `ix` within a row of images
+/// whose aspect ratios are `row_ars`. `multi_classes` is `None` for a
+/// single-image figure, otherwise the classes applied to the `div.multi` row.
+///
+/// Widths assume footnotes are present (which widens wide figures at the
+/// largest breakpoint), so they are upper bounds rather than exact.
+fn image_sizes(
+    metadata: &ImageMetadata,
+    multi_classes: Option<&str>,
+    row_ars: &[f64],
+    ix: usize,
+) -> String {
+    let wide = matches!(metadata.size, Some(ImageSizes::Wide));
+    let extra_wide = matches!(metadata.size, Some(ImageSizes::ExtraWide));
+    let small = matches!(metadata.size, Some(ImageSizes::Small));
+    let side = matches!(
+        metadata.position,
+        Some(ImagePositions::Left | ImagePositions::Right)
+    );
+    let aside = matches!(metadata.position, Some(ImagePositions::Aside));
+    let has_multi_class =
+        |c: &str| multi_classes.is_some_and(|m| m.split_whitespace().any(|x| x == c));
+    let multi_wide = has_multi_class("wide");
+    let multi_extra_wide = has_multi_class("extra-wide");
+
+    let ar = row_ars[ix];
+    let n = row_ars.len() as f64;
+    let (gap, fraction) = match multi_classes {
+        None => (0.0, 1.0),
+        Some(_) => (
+            if has_multi_class("cram") {
+                CRAM_GAP
+            } else {
+                MULTI_GAP
+            },
+            if has_multi_class("equal-height") {
+                ar / row_ars.iter().sum::<f64>()
+            } else {
+                1.0 / n
+            },
+        ),
+    };
+    let total_gap = (n - 1.0) * gap;
+    let height_cap = ar * if small { SMALL_MAX_HEIGHT } else { MAX_HEIGHT };
+    // single wide images are only constrained by width above the narrow breakpoint
+    let uncapped = multi_classes.is_none() && (wide || extra_wide);
+    let width_in = |content: f64| {
+        let w = (content - total_gap) * fraction;
+        if uncapped {
+            w
+        } else {
+            w.min(height_cap)
+        }
+    };
+
+    let medium_content: f64 = if wide || extra_wide {
+        648.0
+    } else if side {
+        621.0
+    } else {
+        594.0
+    };
+    let medium_content = if multi_wide || multi_extra_wide {
+        medium_content.max(648.0)
+    } else {
+        medium_content
+    };
+
+    let large_content: f64 = if wide {
+        837.0
+    } else if extra_wide {
+        1107.0
+    } else if aside {
+        405.0
+    } else if side {
+        675.0
+    } else {
+        594.0
+    };
+    let large_content = large_content.max(if multi_extra_wide {
+        1107.0
+    } else if multi_wide {
+        756.0
+    } else {
+        0.0
+    });
+
+    let mut result = String::new();
+
+    // below the narrow breakpoint, the content column is the viewport minus gutters
+    let fixed = NARROW_GUTTERS + total_gap;
+    let fraction_rounded = (fraction * 10_000.0).ceil() / 10_000.0;
+    let fluid = if fraction_rounded >= 1.0 {
+        format!("calc(100vw - {fixed}px)")
+    } else {
+        format!("calc((100vw - {fixed}px) * {fraction_rounded})")
+    };
+    // viewport width at which the height cap starts to apply
+    let cap_viewport = (height_cap / fraction + fixed).ceil();
+    if cap_viewport < NARROW_BREAKPOINT {
+        _ = write!(
+            result,
+            "(max-width: {cap_viewport}px) {fluid}, (max-width: {NARROW_MAX}) {}px, ",
+            height_cap.ceil()
+        );
+    } else {
+        _ = write!(result, "(max-width: {NARROW_MAX}) {fluid}, ");
+    }
+
+    let medium = width_in(medium_content).ceil();
+    let large = width_in(large_content).ceil();
+    if medium != large {
+        _ = write!(result, "(max-width: {MEDIUM_MAX}) {medium}px, ");
+    }
+    _ = write!(result, "{large}px");
+
+    result
+}
+
 #[derive(Deserialize, Default)]
 #[serde(deny_unknown_fields, rename_all = "camelCase")]
 struct ImageMetadata {
@@ -1388,5 +1517,67 @@ mod test {
         assert_eq!(index_to_string(1), "A");
         assert_eq!(index_to_string(26), "Z");
         assert_eq!(index_to_string(27), "AA");
+    }
+
+    #[test]
+    fn sizes_single_portrait() {
+        // 450px height cap → 300px wide; capped once viewport ≥ 327px
+        let m = ImageMetadata::default();
+        assert_eq!(
+            image_sizes(&m, None, &[2.0 / 3.0], 0),
+            "(max-width: 327px) calc(100vw - 27px), (max-width: 701.98px) 300px, 300px"
+        );
+    }
+
+    #[test]
+    fn sizes_single_landscape() {
+        let m = ImageMetadata::default();
+        assert_eq!(
+            image_sizes(&m, None, &[2.0], 0),
+            "(max-width: 701.98px) calc(100vw - 27px), 594px"
+        );
+    }
+
+    #[test]
+    fn sizes_single_wide_is_uncapped() {
+        let m = ImageMetadata {
+            size: Some(ImageSizes::Wide),
+            ..Default::default()
+        };
+        assert_eq!(
+            image_sizes(&m, None, &[1.0], 0),
+            "(max-width: 477px) calc(100vw - 27px), (max-width: 701.98px) 450px, (max-width: 1160.98px) 648px, 837px"
+        );
+    }
+
+    #[test]
+    fn sizes_multi_row() {
+        let m = ImageMetadata::default();
+        assert_eq!(
+            image_sizes(&m, Some(""), &[2.0, 2.0, 2.0], 1),
+            "(max-width: 701.98px) calc((100vw - 54px) * 0.3334), 189px"
+        );
+    }
+
+    #[test]
+    fn sizes_multi_equal_height() {
+        let m = ImageMetadata::default();
+        assert_eq!(
+            image_sizes(&m, Some("cram equal-height"), &[1.0, 3.0], 1),
+            "(max-width: 701.98px) calc((100vw - 28px) * 0.75), 445px"
+        );
+    }
+
+    #[test]
+    fn sizes_aside_small() {
+        let m = ImageMetadata {
+            size: Some(ImageSizes::Small),
+            position: Some(ImagePositions::Aside),
+            ..Default::default()
+        };
+        assert_eq!(
+            image_sizes(&m, Some(""), &[1.0, 1.0], 0),
+            "(max-width: 441px) calc((100vw - 40.5px) * 0.5), (max-width: 701.98px) 200px, (max-width: 1160.98px) 200px, 196px"
+        );
     }
 }
