@@ -6,7 +6,7 @@ hero:
 subgames:
   - title: Keno
 date created: 2024-12-22
-date modified: 2025-02-16
+date modified: 2026-10-07
 aliases:
   - <span lang="zh-Hant">白鴿票</span> · The Pigeon Lottery
   - Pigeon Lottery
@@ -579,6 +579,7 @@ Despite the existence of other very similar games in China, such as the ‘mount
 > ```yaml
 > noborder: true
 > position: "aside"
+> lineart: true
 > license: "cc0"
 > ```
 >
@@ -845,6 +846,7 @@ In any case, McGowan’s 1904 bill was subsequently withdrawn and this version o
 > ```yaml
 > position: "aside"
 > noborder: true
+> lineart: true
 > orgName: "Papers Past"
 > originalUrl: "https://paperspast.natlib.govt.nz/newspapers/free-lance/1906/11/03/5"
 > license: "cc0"
@@ -861,6 +863,7 @@ In any case, McGowan’s 1904 bill was subsequently withdrawn and this version o
 > orgName: "Papers Past"
 > originalUrl: "https://paperspast.natlib.govt.nz/newspapers/free-lance/1904/08/27/5"
 > license: "cc0"
+> lineart: true
 > ```
 >
 > This 1904 cartoon from <cite>The Free Lance</cite> protests against the inconsistent application of gambling laws, whilst still portraying a Chinese man in a racist manner.
