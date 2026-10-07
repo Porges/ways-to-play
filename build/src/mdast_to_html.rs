@@ -847,6 +847,7 @@ impl Converter<'_> {
                 ImageSizes::Wide => "wide",
                 ImageSizes::ExtraWide => "extra-wide",
             }),
+            metadata.caption_beside.then_some("caption-beside"),
         ]
         .into_iter()
         .flatten()
@@ -1553,6 +1554,10 @@ struct ImageMetadata {
 
     #[serde(default)]
     hidden: bool, // this means to hide the copyright display
+
+    // set the caption beside the image when there is room
+    #[serde(default)]
+    caption_beside: bool,
 
     justify: Option<String>,
 

@@ -28,6 +28,7 @@ The branding system of traditional <span class="noun" lang="ja-Latn">Hanafuda</s
 >
 > ```yaml
 > size: "small"
+> captionBeside: true
 > ```
 >
 > The end of a <span class="noun" lang="ja-Latn">Nintendō</span> wrapper indicating that it contains standard (<span lang="ja">八々花</span> <span lang="ja-Latn">hachihachibana</span>) Hanafuda cards, with black (<span lang="ja">黒</span>) backs.

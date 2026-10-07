@@ -1843,7 +1843,7 @@ preserved in the <span class="noun" lang="ja-Latn">Echigo-bana</span> pattern.
 >
 > ```yaml
 > size: "small"
-> position: "left"
+> captionBeside: true
 > ```
 >
 > The <span class="noun" lang="ja-Latn">Echigo-kobana</span> “rain man” appears to be some kind of animal.

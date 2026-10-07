@@ -902,6 +902,30 @@ figure>.plate {
     display: contents;
 }
 
+/* An inline figure whose caption sits beside the image when there is room,
+   and wraps beneath it otherwise. */
+figure.caption-beside {
+    width: auto;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: start;
+    gap: .5rlh .75rlh;
+
+    >.plate {
+        display: block;
+        flex: none;
+        max-width: 100%;
+    }
+
+    figcaption {
+        flex: 0 1 12em;
+        min-width: 8em;
+        margin-top: 0;
+        text-align: left;
+        text-wrap: pretty;
+    }
+}
+
 /* Credit line directly under the image: attribution then licence, right-aligned;
    the licence wraps beneath if they don't fit. */
 figure>.plate>p.credit {
