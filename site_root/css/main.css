@@ -63,6 +63,12 @@
     --figure-wide-overlap: 0;
     --heading-protrude: 0;
 
+    /* gap between the text column and the notes column */
+    --note-gap: 2rlh;
+    /* where the ditch’s shaded edge sits, measured from the end of the text */
+    --ditch-offset: 1.2rlh;
+    --ditch-shadow: light-dark(rgb(60 50 30 / .28), rgb(0 0 0 / .6));
+
     --expand-size: calc(var(--base-unit) + var(--figure-wide-overlap) + var(--text-width) + var(--base-unit) + var(--footnote-width) + var(--base-unit));
     /* this ends up being 1161px */
 }
@@ -163,6 +169,8 @@ section {
     }
 
     main {
+        /* width of each outer grid column (from the edge of the text block to the window edge) */
+        --outer-gutter: max(1rlh, 0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - var(--figure-wide-overlap)));
         grid-template-columns:
             minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--figure-wide-overlap) minmax(1rlh, 1fr);
 
@@ -195,8 +203,27 @@ section {
 
         /* We need more space on the right if footnotes are present */
         &:has(.footnote, .aside) {
+            --outer-gutter: max(1rlh, 0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - var(--note-gap) - var(--footnote-width)));
             grid-template-columns:
-                minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] 1rlh var(--footnote-width) minmax(1rlh, 1fr);
+                minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--note-gap) var(--footnote-width) minmax(1rlh, 1fr);
+
+            /* the notes margin is a ditch: shaded from the right-hand edge of the text.
+               Stacking: the extra-wide shadow (−2) sits under the ditch (−1), so it
+               only shows below the band; overhang shadows and borders (0) sit on it. */
+            &::after {
+                content: "";
+                position: absolute;
+                z-index: -1;
+                inset: 0;
+                grid-column: content-end / -1;
+                margin-left: var(--ditch-offset);
+                background-color: var(--colour-white);
+                /* shaded by the text on its left and by the header above */
+                box-shadow:
+                    inset 10px 0 12px -10px var(--ditch-shadow),
+                    inset 0 10px 12px -10px var(--ditch-shadow);
+                pointer-events: none;
+            }
         }
     }
 }
@@ -590,16 +617,37 @@ figure .multi.plated {
     }
 }
 
+/* Images in table cells are bare: no plate or tucks.
+   (:is() matches the specificity of the plate rule above.) */
+:is(td, th) figure :is(.mount, .multi.plated) {
+    &.plated {
+        padding: 0;
+        border: none;
+        background-color: transparent;
+    }
+
+    &::before {
+        content: none;
+    }
+}
+
 @media (width >=702px) {
-    figure.wide .mount {
+    figure.wide > .mount {
         width: auto;
     }
 
-    /* Wide plates swap the tucks for a double rule above and below. */
+    /* Wide plates have no tucks, just the plate’s own border. */
     figure.wide .plated::before {
-        inset-inline: -1px;
-        border-inline: none;
-        mask: none;
+        content: none;
+    }
+
+    /* Centre the content of a wide or aside figure in a column no wider than
+       its images, so the caption and credit line up with the image edges. */
+    figure:is(.wide, .aside) {
+        display: grid;
+        grid-template-columns: minmax(0, max-content);
+        justify-content: center;
+        align-content: start;
     }
 
     /* Extra-wide figures sit in a full-bleed white band instead of plates;
@@ -613,7 +661,7 @@ figure .multi.plated {
             content: "";
             position: absolute;
             z-index: -1;
-            inset: 0 -100vw;
+            inset: 0 calc(-1 * var(--outer-gutter));
             border-block: 1px solid var(--colour-light);
             background-color: var(--colour-figure);
             pointer-events: none;
@@ -742,8 +790,71 @@ figure {
             }
 
             &.extra-wide {
-                margin-right: calc(-1 * var(--footnote-width) - var(--base-unit));
+                margin-right: calc(-1 * var(--footnote-width) - var(--note-gap));
             }
+        }
+
+        /* anything overhanging the text bridges the ditch, casting a shadow into it
+           (extra-wide figures are full-bleed bands, so they already bridge it) */
+        :is(figure.right, figure.wide, div.wide):not(.aside) {
+            --overhang: var(--figure-wide-overlap);
+            --overhang-pad: .5rlh;
+            position: relative;
+            background-color: var(--colour-reading);
+            /* match the gap between the credit and the caption;
+               the right padding extends outwards so the content stays put */
+            padding-block: .5rlh;
+            padding-right: var(--overhang-pad);
+            margin-right: calc(-1 * var(--overhang) - var(--overhang-pad));
+            border-start-end-radius: .2rlh;
+            border-end-end-radius: .2rlh;
+
+            &::after {
+                content: "";
+                position: absolute;
+                /* above the ditch; the shadow is only drawn outside this box */
+                z-index: 0;
+                inset-block: 0;
+                right: 0;
+                width: calc(var(--overhang) + var(--overhang-pad) - var(--ditch-offset));
+                border-radius: inherit;
+                /* one diagonal shadow so the corner is as dark as the edges */
+                box-shadow: 6px 6px 10px -6px var(--ditch-shadow);
+                pointer-events: none;
+            }
+
+            figure&.wide {
+                --overhang: calc(2 * var(--figure-wide-overlap));
+            }
+
+            /* outline the protruding part, fading in from slightly inside the ditch edge */
+            &::before {
+                --fade-in: 1.5rlh;
+                content: "";
+                position: absolute;
+                z-index: 0;
+                inset-block: 0;
+                right: 0;
+                width: calc(var(--overhang) + var(--overhang-pad) - var(--ditch-offset) + var(--fade-in));
+                box-sizing: border-box;
+                border: 1px solid var(--colour-light);
+                border-left: none;
+                border-radius: inherit;
+                mask: linear-gradient(to right, transparent, #000 var(--fade-in));
+                pointer-events: none;
+            }
+        }
+
+        /* the extra-wide band casts its shadow only where it crosses the ditch */
+        :is(figure, div.multi).extra-wide::after {
+            content: "";
+            position: absolute;
+            z-index: -2;
+            inset-block: 0;
+            left: calc(100% - var(--footnote-width) - var(--note-gap) + var(--ditch-offset));
+            right: calc(-1 * var(--outer-gutter));
+            box-shadow: 0 8px 10px -8px var(--ditch-shadow);
+            pointer-events: none;
         }
     }
 }
@@ -948,14 +1059,9 @@ div.multi {
 @media (width >=1161px) {
     main:has(.footnote, .aside) {
         div {
-            &.wide {
-                /* bias it to the right a bit */
-                margin-right: calc(-1 * var(--figure-wide-overlap));
-            }
-
             &.extra-wide {
                 margin-left: calc(-1 * var(--figure-wide-overlap));
-                margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+                margin-right: calc(-1 * var(--footnote-width) - var(--note-gap));
             }
         }
     }
@@ -973,7 +1079,7 @@ div.full-width {
 
     /* without footnotes */
     div.full-width {
-        left: calc(-0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - var(--figure-wide-overlap)) - var(--figure-wide-overlap));
+        left: calc(-1 * var(--outer-gutter) - var(--figure-wide-overlap));
         /* a band of reading surface across the faded margins */
         margin-top: var(--base-unit);
         padding-block: .25lh;
@@ -990,7 +1096,12 @@ div.full-width {
 
     /* with footnotes */
     main:has(.footnote, .aside) div.full-width {
-        left: calc(-0.5 * (100cqw - var(--figure-wide-overlap) - var(--text-width) - 1rlh - var(--footnote-width)) - var(--figure-wide-overlap));
+        left: calc(-1 * var(--outer-gutter) - var(--figure-wide-overlap));
+
+        /* The band scrolls, so a pseudo-element shadow would be clipped; its own
+           shadow is pushed right so that it starts at the ditch edge (anything
+           past the window edge is ink overflow and doesn’t scroll). */
+        box-shadow: calc(100cqw - var(--outer-gutter) - var(--footnote-width) - var(--note-gap) + var(--ditch-offset)) 8px 10px -8px var(--ditch-shadow);
     }
 }
 
@@ -1212,8 +1323,8 @@ article {
 
         width: var(--footnote-width);
 
-        /* offset to the right, plus a gutter of 1 */
-        margin-right: calc(-1 * var(--footnote-width) - 1rlh);
+        /* offset into the notes column */
+        margin-right: calc(-1 * var(--footnote-width) - var(--note-gap));
 
         /* the border shorthand would remove a figure’s plate border */
         &:not(figure) {
@@ -1229,6 +1340,12 @@ article {
 
     .footnote {
         text-wrap: balance;
+    }
+
+    /* a note floated straight after something overhanging the ditch would
+       otherwise sit hard against its base */
+    :is(figure.wide, div.wide, .extra-wide, div.full-width)+:is(.footnote, .aside) {
+        margin-top: 1rlh;
     }
 }
 
