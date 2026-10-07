@@ -238,6 +238,17 @@ fn bare_locator(what: &str) -> Option<&str> {
     (!what.is_empty()).then_some(what)
 }
 
+/// Ends a citation group in note form with a full stop, unless its margin
+/// or popover form (which differ for “ibid.”) already ends with one.
+fn note_sentence(group: Markup, ends: EndsWithPeriod) -> Markup {
+    html! {
+        (group)
+        @if !ends.margin && !ends.popover { "." }
+        @else if !ends.popover { span.ibid-expanded hidden { "." } }
+        @else if !ends.margin { span.ibid { "." } }
+    }
+}
+
 fn linked_what(entry: &RenderedEntry, what: &str) -> Markup {
     let what_html = maud::PreEscaped(what.to_string());
     match direct_link(entry, Some(what)) {
@@ -253,31 +264,31 @@ impl Converter<'_> {
         // Citations written directly against a footnote reference are moved
         // into that footnote, rather than getting a note of their own.
         let mut texts: BTreeMap<usize, String> = BTreeMap::new();
-        let mut extras: BTreeMap<usize, String> = BTreeMap::new();
+        let mut extras: BTreeMap<usize, (String, String)> = BTreeMap::new();
         if self.cite_mode == CiteMode::Note {
             for (ix, node) in nodes.iter().enumerate() {
                 if !matches!(node, Node::FootnoteReference(_)) {
                     continue;
                 }
 
-                let mut extra = String::new();
+                let (mut leading, mut trailing) = (String::new(), String::new());
                 if let Some(Node::Text(before)) = ix.checked_sub(1).map(|i| nodes[i]) {
                     let value = texts.get(&(ix - 1)).unwrap_or(&before.value).clone();
                     if let Some(m) = CITE_GROUP_AT_END.find(&value) {
-                        extra.push_str(m.as_str());
+                        leading.push_str(m.as_str());
                         texts.insert(ix - 1, value[..m.start()].to_string());
                     }
                 }
 
                 if let Some(Node::Text(after)) = nodes.get(ix + 1) {
                     if let Some(m) = CITE_GROUP_AT_START.find(&after.value) {
-                        extra.push_str(m.as_str());
+                        trailing.push_str(m.as_str());
                         texts.insert(ix + 1, after.value[m.end()..].to_string());
                     }
                 }
 
-                if !extra.is_empty() {
-                    extras.insert(ix, extra);
+                if !leading.is_empty() || !trailing.is_empty() {
+                    extras.insert(ix, (leading, trailing));
                 }
             }
         }
@@ -287,7 +298,7 @@ impl Converter<'_> {
                 @if let (Node::Text(text), Some(value)) = (child, texts.get(&ix)) {
                     (self.convert(false, &Node::Text(Text { value: value.clone(), position: text.position.clone() }))?)
                 } @else if let Node::FootnoteReference(fr) = child {
-                    (self.render_footnote(&fr.identifier, extras.get(&ix).map(String::as_str))?)
+                    (self.render_footnote(&fr.identifier, extras.get(&ix))?)
                 } @else {
                     (self.convert(false, child)?)
                 }
@@ -306,7 +317,7 @@ impl Converter<'_> {
         result
     }
 
-    fn render_footnote(&mut self, id: &str, extra_cites: Option<&str>) -> Result<Markup> {
+    fn render_footnote(&mut self, id: &str, adjacent_cites: Option<&(String, String)>) -> Result<Markup> {
         if self.in_footnote {
             bail!("footnotes cannot be nested: {id}");
         }
@@ -320,13 +331,29 @@ impl Converter<'_> {
         };
 
         let children = p.children.clone();
+        let parse = |raw: &str| {
+            let escaped = pre_escape(&NORM_WHITESPACE.replace_all(raw, " "));
+            parse_cites(&escaped).into_iter().map(|(id, what)| (id.to_owned(), what.map(str::to_owned))).collect::<Vec<_>>()
+        };
+        let (leading, trailing) = adjacent_cites.map_or((vec![], vec![]), |(l, t)| (parse(l), parse(t)));
+        fn borrowed(cites: &[(String, Option<String>)]) -> Vec<(&str, Option<&str>)> {
+            cites.iter().map(|(id, what)| (id.as_str(), what.as_deref())).collect()
+        }
+
         self.in_footnote = true;
         self.begin_note();
         let body = self.with_cite_mode(CiteMode::Inline, |s| {
-            let mut body = s.expand(&children)?.into_string();
-            if let Some(raw) = extra_cites {
-                let escaped = pre_escape(&NORM_WHITESPACE.replace_all(raw, " "));
-                let (group, _) = s.render_cite_group(&parse_cites(&escaped), false)?;
+            // citations written before the marker open the note, in note form
+            let mut body = if leading.is_empty() {
+                String::new()
+            } else {
+                let (group, ends) = s.render_cite_group(&borrowed(&leading), true)?;
+                format!("{} ", note_sentence(group, ends).into_string())
+            };
+            body.push_str(&s.expand(&children)?.into_string());
+            // those written after it close the note, as a parenthetical
+            if !trailing.is_empty() {
+                let (group, _) = s.render_cite_group(&borrowed(&trailing), false)?;
                 append_parenthetical(&mut body, &group.into_string(), "");
             }
             Ok(maud::PreEscaped(body))
@@ -497,12 +524,7 @@ impl Converter<'_> {
                         // the note marker follows any punctuation (Chicago 14.26)
                         out.truncate(out.trim_end().len());
                         out.push_str(punct);
-                        let body = html! {
-                            (group)
-                            @if !ends.margin && !ends.popover { "." }
-                            @else if !ends.popover { span.ibid-expanded hidden { "." } }
-                            @else if !ends.margin { span.ibid { "." } }
-                        };
+                        let body = note_sentence(group, ends);
                         out.push_str(&self.note(body).into_string());
                     }
                     CiteMode::Inline => {
@@ -1872,6 +1894,20 @@ Brocade:
         assert!(html.contains(&format!(
             r#"Also cock-fighting (<span class="citation" id="cite-1">{SHINING_PRINCE_FULL}, 165</span>). See (<span class="citation" id="cite-2">{SHINING_PRINCE_SHORT}, 170</span>) too (<span class="citation" id="cite-3">{BROCADE_FULL}, 242</span>).</span>"#
         )));
+    }
+
+    #[test]
+    fn citations_before_a_footnote_marker_open_the_note() {
+        let html = render(concat!(
+            "Awase contests.[@Brocade 242][^a]\n\n",
+            "[^a]: Also cock-fighting.[@ShiningPrince 165]\n",
+        ))
+        .unwrap();
+
+        assert_eq!(html.matches(r#"class="footnote-indicator""#).count(), 1);
+        assert!(html.contains(&format!(
+            r#"data-n="1"><span class="citation" id="cite-1">{BROCADE_FULL}, 242</span>. Also cock-fighting (<span class="citation" id="cite-2">{SHINING_PRINCE_FULL}, 165</span>).</span>"#
+        )), "{html}");
     }
 
     #[test]
