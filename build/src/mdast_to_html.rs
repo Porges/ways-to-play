@@ -929,17 +929,19 @@ impl Converter<'_> {
             Ok(html! {
                 figure class=(figure_classes) property="image" typeof="ImageObject cc:Work" {
                     (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
-                    a.mount.plated[plated] property="" href={"#" (lb_id)} {
-                        img class={"figure-img" (noborder)}
-                            property="contentUrl"
-                            src=(imgurl) alt=(&img.alt)
-                            width=(meta.width) height=(meta.height)
-                            srcset=[srcset] sizes=[sizes];
-                    }
-                    @if show_credit {
-                        p.credit { (copyright_notice) }
-                    } @else {
-                        (copyright_notice)
+                    div.plate {
+                        a.mount.plated[plated] property="" href={"#" (lb_id)} {
+                            img class={"figure-img" (noborder)}
+                                property="contentUrl"
+                                src=(imgurl) alt=(&img.alt)
+                                width=(meta.width) height=(meta.height)
+                                srcset=[srcset] sizes=[sizes];
+                        }
+                        @if show_credit {
+                            p.credit { (copyright_notice) }
+                        } @else {
+                            (copyright_notice)
+                        }
                     }
                     figcaption property="caption" {
                         (caption)
@@ -954,35 +956,37 @@ impl Converter<'_> {
 
             Ok(html! {
                 figure class=(figure_classes) {
-                    @for row in metas.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
-                        @let row_ars = row.iter().map(|(_, meta)| aspect_ratio(meta)).collect_vec();
-                        div.multi.plated[plated] class=(multi_classes) {
-                            @for (ix, (img, meta)) in row.iter().enumerate() {
-                                @let srcset = meta.srcset();
-                                @let sizes = srcset.is_some().then(|| image_sizes(&metadata, Some(&multi_classes), &row_ars, ix));
-                                @let lb_id = format!("lb-{}", Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple());
-                                div property="image" typeof="ImageObject cc:Work" {
-                                    (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
-                                    a.mount property="" href={"#" (lb_id)} {
-                                        img class={"figure-img" (noborder)}
-                                            property="contentUrl"
-                                            src=(meta.url) alt=(&img.alt) title=[&img.title]
-                                            srcset=[srcset] sizes=[sizes]
-                                            width=(meta.width) height=(meta.height);
-                                    }
-                                    // TODO: try to reduce repetition,
-                                    // but Google doesn't appear to support rdfa:copy
-                                    span hidden="hidden" {
-                                        (copyright_notice)
+                    div.plate {
+                        @for row in metas.chunks(metadata.per_row.unwrap_or(usize::MAX)) {
+                            @let row_ars = row.iter().map(|(_, meta)| aspect_ratio(meta)).collect_vec();
+                            div.multi.plated[plated] class=(multi_classes) {
+                                @for (ix, (img, meta)) in row.iter().enumerate() {
+                                    @let srcset = meta.srcset();
+                                    @let sizes = srcset.is_some().then(|| image_sizes(&metadata, Some(&multi_classes), &row_ars, ix));
+                                    @let lb_id = format!("lb-{}", Uuid::new_v5(&LB_NAMESPACE, meta.url.as_bytes()).simple());
+                                    div property="image" typeof="ImageObject cc:Work" {
+                                        (lightbox(&lb_id, meta, &img.alt, img.title.as_deref()))
+                                        a.mount property="" href={"#" (lb_id)} {
+                                            img class={"figure-img" (noborder)}
+                                                property="contentUrl"
+                                                src=(meta.url) alt=(&img.alt) title=[&img.title]
+                                                srcset=[srcset] sizes=[sizes]
+                                                width=(meta.width) height=(meta.height);
+                                        }
+                                        // TODO: try to reduce repetition,
+                                        // but Google doesn't appear to support rdfa:copy
+                                        span hidden="hidden" {
+                                            (copyright_notice)
+                                        }
                                     }
                                 }
                             }
                         }
-                    }
-                    // Each image above carries its own (hidden) notice; this
-                    // visible copy is presentation only, so carries no RDFa.
-                    @if show_credit {
-                        p.credit { (metadata.copyright_notice(false)) }
+                        // Each image above carries its own (hidden) notice; this
+                        // visible copy is presentation only, so carries no RDFa.
+                        @if show_credit {
+                            p.credit { (metadata.copyright_notice(false)) }
+                        }
                     }
                     figcaption {
                         (caption)

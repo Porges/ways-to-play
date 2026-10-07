@@ -262,7 +262,7 @@ body {
 /* Secondary text. Alegreya Sans only covers Latin; anything else falls back to the body fonts. */
 figcaption,
 caption,
-figure>p.credit,
+figure>.plate>p.credit,
 blockquote footer,
 .last-updated,
 .reference-note,
@@ -649,7 +649,7 @@ figure .multi.plated {
 }
 
 @media (width >=702px) {
-    figure.wide > .mount {
+    figure.wide > .plate > .mount {
         width: auto;
     }
 
@@ -738,7 +738,7 @@ figure {
         --max-h: 200px;
     }
 
-    &:where(:has(> .multi)) {
+    &:where(:has(> .plate > .multi)) {
         width: auto;
     }
 }
@@ -882,9 +882,14 @@ caption {
     caption-side: bottom;
 }
 
+/* Groups the image with its credit line; only aside figures lay it out. */
+figure>.plate {
+    display: contents;
+}
+
 /* Credit line directly under the image: attribution then licence, right-aligned;
    the licence wraps beneath if they don't fit. */
-figure>p.credit {
+figure>.plate>p.credit {
     /* don’t let the credit widen the figure */
     contain: inline-size;
     margin-top: .25rlh;
@@ -1360,6 +1365,48 @@ article {
 
     .footnote {
         text-wrap: balance;
+    }
+
+    /* set apart like an aside note, lined up with the notes beside it;
+       the caption sits beside the image when there is room for it */
+    figure.aside {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: start;
+        align-items: start;
+        /* the row gap stands in for the caption’s top margin once it wraps */
+        gap: .5rlh .75rlh;
+        box-sizing: border-box;
+        border-left: 1px solid var(--colour-light);
+        padding: .5rlh .75rlh .5rlh .5rlh;
+        position: relative;
+        isolation: isolate;
+
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: -1;
+            background: var(--colour-reading);
+            mask-image:
+                linear-gradient(to right, black 50%, transparent),
+                linear-gradient(to bottom, transparent, black .5rlh, black calc(100% - .5rlh), transparent);
+            mask-composite: intersect;
+        }
+
+        >.plate {
+            display: block;
+            flex: none;
+            max-width: 100%;
+        }
+
+        figcaption {
+            flex: 1 1 8em;
+            min-width: 8em;
+            margin-top: 0;
+            text-align: left;
+            text-wrap: pretty;
+        }
     }
 
     /* a note floated straight after something overhanging the ditch would
