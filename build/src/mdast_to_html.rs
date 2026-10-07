@@ -799,6 +799,17 @@ impl Converter<'_> {
                     return Ok(Markup::default());
                 }
 
+                // `<dt>…</dt>` and `<dd>…</dd>` on consecutive lines parse as a
+                // paragraph of inline elements; they must not be wrapped in `<p>`.
+                let is_definition_entry = paragraph.children.iter().all(|child| match child {
+                    Node::MdxJsxTextElement(e) => matches!(e.name.as_deref(), Some("dt" | "dd")),
+                    Node::Text(t) => t.value.trim().is_empty(),
+                    _ => false,
+                });
+                if is_definition_entry {
+                    return self.expand(&paragraph.children);
+                }
+
                 html! { p { (self.expand(&paragraph.children)?) } }
             }
             Node::MdxJsxFlowElement(mdx_jsx_flow_element) => {
@@ -1890,6 +1901,14 @@ Brocade:
     const SHINING_PRINCE_SHORT: &str = r##"<bdi>Morris</bdi>, <a href="#ref-ShiningPrince"><cite>World of the Shining Prince</cite></a>"##;
     const BROCADE_FULL: &str = r##"<bdi>Helen Craig McCullough</bdi>, <a href="#ref-Brocade"><cite>Brocade by Night: ‘Kokin Wakashū’ and the Court Style</cite></a> (1985)"##;
     const BROCADE_SHORT: &str = r##"<bdi>McCullough</bdi>, <a href="#ref-Brocade"><cite>Brocade by Night</cite></a>"##;
+
+    #[test]
+    fn definition_entries_are_not_wrapped_in_paragraphs() -> Result<()> {
+        let html = render("<dl>\n\n<dt>term</dt>\n<dd>definition</dd>\n\n</dl>\n")?;
+        assert!(html.contains("<dt>term</dt>"), "{html}");
+        assert!(!html.contains("<p><dt>"), "{html}");
+        Ok(())
+    }
 
     /// The marker and opening of note `n`.
     fn note(n: usize) -> String {
