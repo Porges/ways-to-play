@@ -86,6 +86,7 @@ pub fn to_html(
         in_footnote: false,
         note_count: 0,
         popover_only_depth: 0,
+        hoisted_notes: None,
         prev_note: None,
         note_cites: None,
         header_stack: Vec::new(),
@@ -133,6 +134,10 @@ struct Converter<'a> {
     /// they take no part in “ibid.” runs or in deciding where a work is
     /// first cited in full.
     popover_only_depth: usize,
+    /// Notes collected from a side-by-side block, to be placed before it:
+    /// a note floated from within one of its columns would land beside
+    /// that column rather than in the margin.
+    hoisted_notes: Option<Vec<Markup>>,
     /// The single work (and locator) cited by the previous note, for “ibid.”
     prev_note: Option<(String, Option<String>)>,
     /// Citations made so far in the note being rendered, if any.
@@ -370,10 +375,35 @@ impl Converter<'_> {
         self.note_count += 1;
         let n = self.note_count;
         let id = format!("note-{n}");
+        let note = html! {
+            span.footnote #(id) role="note" popover data-n=(n) { (body) }
+        };
+        let note = match &mut self.hoisted_notes {
+            // notes in tables stay as popovers where they are
+            Some(hoisted) if self.popover_only_depth == 0 => {
+                hoisted.push(note);
+                Markup::default()
+            }
+            _ => note,
+        };
         html! {
             button.footnote-indicator type="button" popovertarget=(id) aria-label={"Note " (n)} { (n) }
-            span.footnote #(id) role="note" popover data-n=(n) { (body) }
+            (note)
         }
+    }
+
+    /// Renders the content of a side-by-side block, returning it along with
+    /// the notes that should be placed before the block.
+    fn expand_hoisting_notes(&mut self, nodes: &[Node]) -> Result<(Markup, Markup)> {
+        let outer = self.hoisted_notes.replace(Vec::new());
+        let body = self.expand(nodes);
+        let notes = std::mem::replace(&mut self.hoisted_notes, outer).unwrap_or_default();
+        // a nested block’s notes go before the outermost block
+        if let Some(outer) = &mut self.hoisted_notes {
+            outer.extend(notes);
+            return Ok((body?, Markup::default()));
+        }
+        Ok((body?, html! { @for note in notes { (note) } }))
     }
 
     /// Records a citation, returning its anchor and whether the work has
@@ -1302,28 +1332,18 @@ impl Converter<'_> {
                             (self.expand(&blockquote.children[1..])?)
                         }
                     });
-                } else if trimmed == "[!multi]" {
+                } else if let Some(class) = match trimmed {
+                    "[!multi]" => Some(None),
+                    "[!multi-equal]" => Some(Some("equal")),
+                    "[!multi-wide]" => Some(Some("wide")),
+                    "[!multi-extra-wide]" => Some(Some("extra-wide")),
+                    _ => None,
+                } {
+                    let (body, notes) = self.expand_hoisting_notes(&blockquote.children[1..])?;
                     return Ok(html! {
-                        div.multi {
-                            (self.expand(&blockquote.children[1..])?)
-                        }
-                    });
-                } else if trimmed == "[!multi-equal]" {
-                    return Ok(html! {
-                        div.multi.equal {
-                            (self.expand(&blockquote.children[1..])?)
-                        }
-                    });
-                } else if trimmed == "[!multi-wide]" {
-                    return Ok(html! {
-                        div.multi.wide {
-                            (self.expand(&blockquote.children[1..])?)
-                        }
-                    });
-                } else if trimmed == "[!multi-extra-wide]" {
-                    return Ok(html! {
-                        div.multi.extra-wide {
-                            (self.expand(&blockquote.children[1..])?)
+                        (notes)
+                        div.multi class=[class] {
+                            (body)
                         }
                     });
                 } else if trimmed == "[!game]" {
@@ -2026,6 +2046,29 @@ Brocade:
         assert!(html.contains(&format!(
             r#"<span class="citation" id="cite-2">{SHINING_PRINCE_SHORT}, 165</span>"#
         )), "{html}");
+    }
+
+    #[test]
+    fn notes_in_side_by_side_blocks_are_placed_before_the_block() {
+        let html = render(concat!(
+            "> [!multi]\n",
+            ">\n",
+            "> Left.[^a]\n",
+            ">\n",
+            "> > [!multi]\n",
+            "> >\n",
+            "> > Inner.[^b]\n",
+            "\n",
+            "[^a]: First.\n\n",
+            "[^b]: Second.\n",
+        ))
+        .unwrap();
+
+        let first = html.find(r#"<span class="footnote" id="note-1""#).expect(&html);
+        let second = html.find(r#"<span class="footnote" id="note-2""#).expect(&html);
+        let block = html.find(r#"<div class="multi">"#).expect(&html);
+        assert!(first < second && second < block, "{html}");
+        assert!(html.contains(r#"Left.<button class="footnote-indicator" type="button" popovertarget="note-1""#), "{html}");
     }
 
     #[test]
