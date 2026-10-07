@@ -45,6 +45,6 @@ jobs:
         fi
     - name: Validate HTML
       run: |
-        wget -q 'https://github.com/validator/validator/releases/download/20.6.30/vnu.linux.zip' -O vnu.linux.zip
+        wget -q 'https://github.com/validator/validator/releases/download/latest/vnu.linux.zip' -O vnu.linux.zip
         unzip -q vnu.linux.zip
         vnu-runtime-image/bin/vnu --skip-non-html --filterfile .vnurc public || true # do not fail build
