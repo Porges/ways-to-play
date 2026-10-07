@@ -267,6 +267,7 @@ blockquote footer,
 .last-updated,
 .reference-note,
 .reference-warning,
+.recently-updated-time,
 .footnote {
     font-family: "Alegreya Sans", var(--fonts-body);
     font-weight: 400;
@@ -1213,6 +1214,15 @@ div:has(table.sticky-header) {
 
 /*** Columns ***/
 
+[class^=columnar] {
+    /* wide enough that later columns’ hanging markers clear the text before them */
+    column-gap: 1.5lh;
+
+    &>li {
+        break-inside: avoid;
+    }
+}
+
 .columnar {
     columns: 2;
 }
@@ -1371,7 +1381,7 @@ table.numeric>:is(tbody, tfoot)>tr>:is(th, td),
 }
 
 /*** Lists ***/
-article {
+main {
 
     *+ul,
     *+ol {
@@ -1383,6 +1393,7 @@ article {
     ol {
         li::marker {
             color: var(--colour-primary);
+            font-variant-numeric: tabular-nums;
         }
 
         ul,
@@ -1392,6 +1403,29 @@ article {
             li::marker {
                 color: var(--colour-secondary);
             }
+        }
+    }
+
+    ul {
+        list-style-type: "•\2002";
+
+        ul {
+            list-style-type: "–\2002";
+
+            ul {
+                list-style-type: "◦\2002";
+            }
+        }
+    }
+
+    /* Separate top-level items so that wrapped ones don’t run together. In a
+       list with sub-lists, only the groups are separated. Nested and
+       multi-column lists stay tight. */
+    :is(ul, ol):not([class^=columnar], .reference-list, .backreferences, .article-list, li *) {
+        &:not(:has(>li>:is(ul, ol)))>li+li,
+        &>li:has(>:is(ul, ol))+li,
+        &>li+li:has(>:is(ul, ol)) {
+            margin-top: .25lh;
         }
     }
 }
@@ -1791,6 +1825,7 @@ p.informational {
 
 .recently-updated-time {
     font-size: var(--font-size-sm);
+    color: var(--colour-secondary);
     white-space: nowrap;
 }
 
