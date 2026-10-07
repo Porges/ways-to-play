@@ -920,6 +920,7 @@ older cards, such as the <span class="noun" lang="ja-Latn">Unsun</span> deck.
 >
 > ```yaml
 > noborder: true
+> lineart: true
 > size: "small"
 > position: "aside"
 > license: "cc0"
@@ -1130,6 +1131,7 @@ of <span class="noun" lang="ja-Latn">Nintendō</span>’s (above).
 > ```yaml
 > size: "small"
 > noborder: true
+> lineart: true
 > position: "aside"
 > license: "cc0"
 > ```
@@ -1461,6 +1463,7 @@ Brands produced by <span class="noun" lang="ja-Latn">Maruē</span> included:[@Mo
 >
 > ```yaml
 > noborder: true
+> lineart: true
 > size: "small"
 > position: "aside"
 > license: "cc0"

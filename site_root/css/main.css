@@ -634,12 +634,14 @@ figure .multi.plated {
     }
 }
 
-/* Line art keeps its mount and tucks but not the plate: its white ground
+/* Line art keeps its tucks but not the plate: its white ground
    multiplies into the page, so the ink sits directly on it. */
 figure.line-art {
     /* :is() matches the specificity of the plate rule */
     :is(.mount, .multi.plated).plated {
-        border-color: transparent;
+        --tuck-inset: -3px;
+        padding: 0;
+        border: none;
         background-color: transparent;
     }
 
