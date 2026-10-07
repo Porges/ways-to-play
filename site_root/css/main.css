@@ -1466,6 +1466,28 @@ span.footnote:popover-open {
 }
 
 aside.footnote {
+    /* asides are commentary rather than references, so they stand out
+       from the plain notes */
+    border: none;
+    border-left: 1px solid var(--colour-light);
+    padding: .25rlh .75rlh .25rlh .5rlh;
+    font-size: calc(var(--font-size-sm) * 1.0625);
+    position: relative;
+    isolation: isolate;
+
+    /* a tint that is solid against the rule and feathered elsewhere */
+    &::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background: var(--colour-reading);
+        mask-image:
+            linear-gradient(to right, black 50%, transparent),
+            linear-gradient(to bottom, transparent, black .5rlh, black calc(100% - .5rlh), transparent);
+        mask-composite: intersect;
+    }
+
     &::before {
         content: "¶\2002";
         float: left;
