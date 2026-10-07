@@ -175,8 +175,9 @@ section {
             minmax(1rlh, 1fr) var(--figure-wide-overlap) [content-start] var(--text-width) [content-end] var(--figure-wide-overlap) minmax(1rlh, 1fr);
 
         &::before {
-            --reading-fade: 10rlh;
-            inset-inline: calc(-3rlh - var(--reading-fade));
+            --reading-fade: min(10rlh, max(0px, calc(var(--outer-gutter) + var(--figure-wide-overlap) - 3rlh)));
+            grid-column: 1 / -1;
+            inset-inline: 0;
             background: linear-gradient(to right,
                     transparent,
                     color-mix(in srgb, var(--colour-reading) 15%, transparent) calc(var(--reading-fade) * .25),
