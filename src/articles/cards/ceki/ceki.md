@@ -13,7 +13,7 @@ aliases:
   - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2026-06-11
+date modified: 2026-10-07
 linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
@@ -6549,6 +6549,7 @@ In some descriptions, Ceki is itself a game (a variant of [Balik Satu](games/bal
 > noborder: true
 > originalUrl: "https://opac.perpusnas.go.id/uploaded_files/dokumen_isi3/Terbitan%20Berkala/Sin_Po_1922_03_20_001.pdf"
 > license: cc0
+> lineart: true
 > ```
 >
 > Newspaper advertisement in [<span class="noun" lang="id">Sin Po</span>](https://en.wikipedia.org/wiki/Sin_Po_(newspaper)), 20th March 1922, for <span lang="fr" class="noun">Mesmaekers Frères</span>’ <span class="noun" lang="id">Dua Macan</span> (‘two tigers’) brand ceki cards (<span lang="id">kartoe tjeki</span>), being sold by Handel Mij. (also publishers of the newspaper).

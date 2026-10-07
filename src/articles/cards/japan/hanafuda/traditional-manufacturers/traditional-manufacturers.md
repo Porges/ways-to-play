@@ -1917,6 +1917,7 @@ was a circled <span lang="ja">順</span>.
 > size: "small"
 > position: "aside"
 > license: "cc0"
+> lineart: true
 > ```
 >
 > <span class="noun" lang="ja-Latn">Nakao Seikadō</span>’s trademark, registered on the 12th of July 1894 by <span class="noun" lang="ja-Latn">Nakao Kiyosuke</span> (<span lang="ja">中尾清 助</span>).[@Trademarks1905 p. 66]
@@ -1952,6 +1953,7 @@ Brands included:
 > noborder: true
 > position: "aside"
 > license: "cc0"
+> lineart: true
 > ```
 >
 > <span class="noun" lang="ja-Latn">Tsuchida Tenguya</span>’s trademark, registered on the 16th of April 1894 by <span class="noun" lang="ja-Latn">Tsuchida Tsurumatsu</span> (<span lang="ja">土田鶴松</span>).[@Trademarks1905 p. 66]
@@ -2025,6 +2027,7 @@ In the 1930s they offered the following brands (in descending price order):
 > size: "small"
 > position: "aside"
 > license: "cc0"
+> lineart: true
 > ```
 >
 > <span class="noun" lang="ja-Latn">Usui Nikkagetsudō</span>’s trademark, registered on the 9th of October 1894 by <span class="noun" lang="ja-Latn">Usui Iwajirō</span> (<span lang="ja">臼 井岩次郎</span>).[@Trademarks1905 p. 66]
@@ -2286,6 +2289,7 @@ brands included:[@ModernJapaneseWrappers pp. 54–8]
 > license: "cc0"
 > originalUrl: "http://www.tga-j.org/documents/i/627/detail.html"
 > orgName: "日本粧業会 資料館"
+> lineart: true
 > ```
 >
 > Two <span class="noun" lang="ja-Latn">Nishimura</span> advertisements, from the December 1907 issue of the “Tokyo Toilet Trade Journal”. The advert on the right shows that they also sold <span class="noun" lang="ja-Latn">Ōishi Tengudō</span> products.
@@ -2617,6 +2621,7 @@ lang="ja-Latn">Nishi&shy;guchi Shōten</span>. Their brands included:
 > ```yaml
 > noborder: true
 > position: "aside"
+> lineart: true
 > license: "cc0"
 > ```
 >
@@ -2719,6 +2724,7 @@ included:
 > ```yaml
 > noborder: true
 > position: "aside"
+> lineart: true
 > license: "cc0"
 > ```
 >
@@ -2739,6 +2745,7 @@ name as a mark. I only know of one brand:
 > noborder: true
 > size: "small"
 > position: "aside"
+> lineart: true
 > license: "cc0"
 > ```
 >
