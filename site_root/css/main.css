@@ -1672,7 +1672,17 @@ dl {
 
     dt {
         margin-top: 1lh;
-        font-weight: bolder;
+        font-family: "Alegreya Sans", var(--fonts-body);
+        font-size-adjust: ex-height 0.475;
+        font-weight: 700;
+        color: var(--colour-primary);
+    }
+
+    /* a fine rule between entries, when some run to several paragraphs */
+    &:has(>dd>p+*)>dd+dt {
+        margin-top: .5lh;
+        padding-top: .5lh;
+        border-top: 1px solid var(--colour-light);
     }
 
     dd {
