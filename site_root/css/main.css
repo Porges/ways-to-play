@@ -980,7 +980,7 @@ dialog.lightbox {
 blockquote {
     padding-left: 1lh;
     color: var(--colour-dark);
-    font-size: .9375rem;
+    font-size: .9375em;
 
     text-align: start;
 
@@ -997,7 +997,8 @@ blockquote {
     }
 
     footer {
-        font-size: var(--font-size-sm);
+        /* --font-size-sm relative to the quote */
+        font-size: calc(.8125em / .9375);
         color: var(--colour-black);
         margin-top: calc(.5rlh - 1px);
         border-top: 1px solid var(--colour-light);
