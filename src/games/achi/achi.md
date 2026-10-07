@@ -5,7 +5,7 @@ equipment: Board game (simple equipment)
 countries: GH,NG
 players: 2
 date created: 2024-12-18
-date modified: 2025-02-08
+date modified: 2026-10-07
 aliases:
   - Achi
   - '<span lang="ee" class="noun">Achi</span>'
@@ -31,6 +31,7 @@ It is possible that the name should really be transcribed <span lang="ee">adji</
 > noborder: true
 > size: small
 > position: aside
+> lineart: true
 > ```
 >
 > <span class="noun" lang="ee">Achi</span> is played on the medium-sized mill board.
@@ -46,6 +47,7 @@ A valid mill, like in other mill games, consists of three pieces in a straight l
 > ```yaml
 > noborder: true
 > size: small
+> lineart: true
 > ```
 >
 > Two examples of valid mills; the two-piece mill is unique to <span class="noun" lang="ee">Achi</span>.

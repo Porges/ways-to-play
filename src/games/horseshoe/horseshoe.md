@@ -4,7 +4,7 @@ players: 2
 equipment: Board game (simple equipment)
 countries: CN,IN,KR,TH,MN,MY
 date created: 2024-12-22
-date modified: 2025-08-07
+date modified: 2026-10-07
 aliases:
   - Horseshoe
 linter-yaml-title-alias: Horseshoe
@@ -20,6 +20,7 @@ linter-yaml-title-alias: Horseshoe
 > ```yaml
 > noborder: true
 > position: "aside"
+> lineart: true
 > ```
 >
 > Countries mentioned in this article.
@@ -37,6 +38,7 @@ or anything else that the players have to hand.
 > ```yaml
 > noborder: true
 > size: "small"
+> lineart: true
 > ```
 >
 > A “standardized” board with places for the pieces to go.
@@ -65,6 +67,7 @@ In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span 
 > >
 > > ```yaml
 > > noborder: true
+> > lineart: true
 > > ```
 > >
 > > A Korean board, after @KoreanGames [p. 100].
@@ -75,6 +78,7 @@ In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span 
 > >
 > > ```yaml
 > > noborder: true
+> > lineart: true
 > > ```
 > >
 > > A Thai board, as found [online](https://web.archive.org/web/20220809031306/https://shopee.co.th/%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%80%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B8%95%E0%B8%81%E0%B8%96%E0%B8%B1%E0%B8%87-Dead-End-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B9%80%E0%B8%81%E0%B8%A1%E0%B9%84%E0%B8%A1%E0%B9%89-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%80%E0%B8%AA%E0%B8%A3%E0%B8%B4%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%92%E0%B8%99%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3-%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%A1%E0%B8%AD%E0%B8%87-wooden-family-board-games-i.92760471.11313361650).
@@ -86,6 +90,7 @@ In Korea it is known as <span lang="ko-Latn" class="aka">umulgonu</span> (<span 
 > >
 > > ```yaml
 > > noborder: true
+> > lineart: true
 > > ```
 > >
 > > A Thai board, after @KoreanGames [p. 100].
@@ -112,6 +117,7 @@ This theme is also known in the Mongolian version of the game, where the circula
 > ```yaml
 > size: "small"
 > noborder: true
+> lineart: true
 > ```
 >
 > The initial placement of the pieces.

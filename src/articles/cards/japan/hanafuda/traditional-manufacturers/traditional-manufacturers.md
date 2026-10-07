@@ -10,7 +10,7 @@ hero:
     licenseVersion: '2.0'
     originalUrl: https://www.flickr.com/photos/68532869@N08/16201732242
 date created: 2024-12-22
-date modified: 2025-11-17
+date modified: 2026-10-07
 aliases: [Japanese Hanafuda Brands]
 linter-yaml-title-alias: Japanese Hanafuda Brands
 ---
@@ -1638,6 +1638,7 @@ Brands included:[@ModernJapaneseWrappers p. 48]
 > noborder: true
 > position: "aside"
 > license: "cc0"
+> lineart: true
 > ```
 >
 > Some early <span class="noun" lang="ja-Latn">Tamada</span> trademarks, registered in 1899 by <span class="noun" lang="ja-Latn">Tamada Yasunosuke</span> (<span lang="ja">玉田安之助 </span>).[@Trademarks1905 p. 66]
@@ -1650,6 +1651,7 @@ Brands included:[@ModernJapaneseWrappers p. 48]
 > ```yaml
 > noborder: true
 > position: "aside"
+> lineart: true
 > license: "cc0"
 > ```
 >
@@ -1817,6 +1819,7 @@ deck:
 > ```yaml
 > noborder: true
 > position: "aside"
+> lineart: true
 > license: "cc0"
 > ```
 >
@@ -2237,6 +2240,7 @@ lang="ja" class="circled">恵</span>. The only brands I know of are:
 > ```yaml
 > noborder: true
 > position: "aside"
+> lineart: true
 > license: "cc0"
 > ```
 >
