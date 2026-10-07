@@ -29,16 +29,16 @@
 }
 
 :root {
-    font-size: 1.125rem;
+    font-size: 1.0625rem;
     line-height: 1.5;
 
     --font-size: 1rem;
     --base-unit: 1.5rem;
-    --text-width: 22rlh;
+    --text-width: 20rlh;
     --footnote-width: 15rlh;
 
-    --font-size-sm: .75rem;
-    --line-height-sm: .75rlh;
+    --font-size-sm: .8125rem;
+    --line-height-sm: .8rlh;
 
     color-scheme: light dark;
 
@@ -229,14 +229,18 @@ section {
 }
 
 /*** Text setup ***/
-body {
-    font-family:
+:root {
+    --fonts-body:
         "Source Serif 4",
         "Charis SIL",
         "NKS30",
         serif,
         "cc-icons",
         "UniHentaiKana";
+}
+
+body {
+    font-family: var(--fonts-body);
 
     font-weight: 380;
     font-optical-sizing: auto;
@@ -253,6 +257,23 @@ body {
     font-kerning: normal;
     font-variant-numeric: oldstyle-nums;
     font-variant-ligatures: common-ligatures contextual;
+}
+
+/* Secondary text. Alegreya Sans only covers Latin; anything else falls back to the body fonts. */
+figcaption,
+caption,
+figure>p.credit,
+.footnote {
+    font-family: "Alegreya Sans", var(--fonts-body);
+    font-weight: 400;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    /* Match Source Serif’s x-height, so that font-size ratios are visual ratios. */
+    font-size-adjust: ex-height 0.475;
+
+    /* Alegreya’s `sups` lacks capitals and brackets, which citations need. */
+    sup {
+        font-family: var(--fonts-body);
+    }
 }
 
 p {
@@ -308,6 +329,21 @@ h1.page-title {
     }
 }
 
+
+/* Heading scale: ×1.25 steps from the body size (h1 is set above). */
+h2 {
+    font-size: 1.5625rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 1rem;
+}
 
 h2 {
     margin-left: var(--heading-protrude);
@@ -873,7 +909,6 @@ figure>p.credit {
     margin-top: .25rlh;
     color: var(--colour-secondary);
     font-size: .6875rem;
-    font-weight: 350;
     line-height: 1.5;
 
     a {
@@ -1305,6 +1340,7 @@ article {
     color: var(--colour-black);
 
     font-size: var(--font-size-sm);
+    line-height: var(--line-height-sm);
     text-align: left;
 
     border-top: dotted 1px var(--colour-light);

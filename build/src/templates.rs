@@ -154,8 +154,10 @@ impl<'a> Templater<'a> {
                     link rel="shortcut icon" type="image/png" href="/favicon.png" ;
                     link rel="preload" href="/fonts/sourceserif4/SourceSerif4Variable-Latin-Roman.ttf.woff2" as="font" type="font/woff2" crossorigin;
                     link rel="preload" href="/fonts/sourceserif4/SourceSerif4Variable-Latin-Italic.ttf.woff2" as="font" type="font/woff2" crossorigin;
+                    link rel="preload" href="/fonts/alegreyasans/AlegreyaSans-Latin-Regular.woff2" as="font" type="font/woff2" crossorigin;
                     link rel="stylesheet" href="/fonts/sourceserif4.css" type="text/css" ;
                     link rel="stylesheet" href="/fonts/charis.css" type="text/css" ;
+                    link rel="stylesheet" href="/fonts/alegreyasans.css" type="text/css" ;
                     link rel="stylesheet" href="/css/main.css" type="text/css" ;
                     link rel="stylesheet" href="/css/text.css" type="text/css" ;
                     link rel="canonical" href=(url);

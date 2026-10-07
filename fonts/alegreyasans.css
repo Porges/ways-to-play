@@ -1,0 +1,65 @@
+
+/* Latin (BasicLatin, GeneralPunctuation, Latin1Supplement, CombiningDiacriticalMarks) */
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/fonts/alegreyasans/AlegreyaSans-Latin-Bold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: bold;
+    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+0300-036f;
+}
+/* Latin (BasicLatin, GeneralPunctuation, Latin1Supplement, CombiningDiacriticalMarks) */
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/fonts/alegreyasans/AlegreyaSans-Latin-BoldItalic.woff2') format('woff2');
+    font-display: swap;
+    font-style: italic;
+    font-weight: bold;
+    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+0300-036f;
+}
+/* Latin (BasicLatin, GeneralPunctuation, Latin1Supplement, CombiningDiacriticalMarks) */
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/fonts/alegreyasans/AlegreyaSans-Latin-Italic.woff2') format('woff2');
+    font-display: swap;
+    font-style: italic;
+    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+0300-036f;
+}
+/* Latin (BasicLatin, GeneralPunctuation, Latin1Supplement, CombiningDiacriticalMarks) */
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/fonts/alegreyasans/AlegreyaSans-Latin-Regular.woff2') format('woff2');
+    font-display: swap;
+    unicode-range: U+0000-007f,U+2000-206f,U+0080-00ff,U+0300-036f;
+}
+/* LatinExt (LatinExtendedA, LatinExtendedB, LatinExtendedAdditional, SpacingModifierLetters) */
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/fonts/alegreyasans/AlegreyaSans-LatinExt-Bold.woff2') format('woff2');
+    font-display: swap;
+    font-weight: bold;
+    unicode-range: U+0100-017f,U+0180-024f,U+1e00-1eff,U+02b0-02ff;
+}
+/* LatinExt (LatinExtendedA, LatinExtendedB, LatinExtendedAdditional, SpacingModifierLetters) */
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/fonts/alegreyasans/AlegreyaSans-LatinExt-BoldItalic.woff2') format('woff2');
+    font-display: swap;
+    font-style: italic;
+    font-weight: bold;
+    unicode-range: U+0100-017f,U+0180-024f,U+1e00-1eff,U+02b0-02ff;
+}
+/* LatinExt (LatinExtendedA, LatinExtendedB, LatinExtendedAdditional, SpacingModifierLetters) */
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/fonts/alegreyasans/AlegreyaSans-LatinExt-Italic.woff2') format('woff2');
+    font-display: swap;
+    font-style: italic;
+    unicode-range: U+0100-017f,U+0180-024f,U+1e00-1eff,U+02b0-02ff;
+}
+/* LatinExt (LatinExtendedA, LatinExtendedB, LatinExtendedAdditional, SpacingModifierLetters) */
+@font-face {
+    font-family: 'Alegreya Sans';
+    src: url('/fonts/alegreyasans/AlegreyaSans-LatinExt-Regular.woff2') format('woff2');
+    font-display: swap;
+    unicode-range: U+0100-017f,U+0180-024f,U+1e00-1eff,U+02b0-02ff;
+}

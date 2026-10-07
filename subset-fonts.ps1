@@ -63,6 +63,21 @@ $fonts = [ordered]@{
             }
         }
     }
+    # Secondary text: captions, credits, footnotes.
+    # Anything outside these subsets falls back to Source Serif 4.
+    'alegreyasans' = @{
+        'Family'  = 'Alegreya Sans'
+        'Dir'     = 'AlegreyaSans'
+        'Subsets' = [ordered]@{
+            'Latin'    = @{
+                'Features' = 'ordn,smcp,c2sc,case,kern,onum,pnum'
+                'Blocks'   = @('BasicLatin', 'GeneralPunctuation', 'Latin1Supplement', 'CombiningDiacriticalMarks')
+            }
+            'LatinExt' = @{
+                'Blocks' = @('LatinExtendedA', 'LatinExtendedB', 'LatinExtendedAdditional', 'SpacingModifierLetters')
+            }
+        }
+    }
 }
 
 foreach ($font in $fonts.GetEnumerator()) {
@@ -72,7 +87,7 @@ foreach ($font in $fonts.GetEnumerator()) {
     $subsets = $font.Value.Subsets
 
     Push-Location "input-fonts/$dir"
-    mkdir -p "../../fonts/$fontName"
+    New-Item -ItemType Directory -Force "../../fonts/$fontName" | Out-Null
 
     $css = "../../fonts/$fontName.css"
     Write-Output '' > $css # blank it
