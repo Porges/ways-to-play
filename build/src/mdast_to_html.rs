@@ -848,6 +848,7 @@ impl Converter<'_> {
                 ImageSizes::ExtraWide => "extra-wide",
             }),
             metadata.caption_beside.then_some("caption-beside"),
+            metadata.lineart.then_some("line-art"),
         ]
         .into_iter()
         .flatten()
@@ -1545,6 +1546,10 @@ struct ImageMetadata {
 
     #[serde(default)]
     noborder: bool,
+
+    // black-and-white line art: dark ink on a light ground
+    #[serde(default)]
+    lineart: bool,
 
     #[serde(default)]
     cram: bool,

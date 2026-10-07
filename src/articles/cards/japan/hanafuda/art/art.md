@@ -438,6 +438,7 @@ However, despite his protestation in the book that “I do not care for playing 
 > >
 > > ```yaml
 > > noborder: true
+> > lineart: true
 > > license: 'cc0'
 > > ```
 > >
@@ -449,6 +450,7 @@ However, despite his protestation in the book that “I do not care for playing 
 > >
 > > ```yaml
 > > noborder: true
+> > lineart: true
 > > license: 'cc0'
 > > ```
 > >

@@ -34,6 +34,7 @@ The only source I have found for the game is that of Stewart Culin. He also stat
 > ```yaml
 > license: "cc0"
 > noborder: true
+> lineart: true
 > size: "wide"
 > ```
 >

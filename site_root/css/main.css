@@ -634,6 +634,20 @@ figure .multi.plated {
     }
 }
 
+/* Line art keeps its mount and tucks but not the plate: its white ground
+   multiplies into the page, so the ink sits directly on it. */
+figure.line-art {
+    /* :is() matches the specificity of the plate rule */
+    :is(.mount, .multi.plated).plated {
+        border-color: transparent;
+        background-color: transparent;
+    }
+
+    .figure-img.border-0 {
+        mix-blend-mode: multiply;
+    }
+}
+
 /* Images in table cells are bare: no plate or tucks.
    (:is() matches the specificity of the plate rule above.) */
 :is(td, th) figure :is(.mount, .multi.plated) {
@@ -1447,6 +1461,11 @@ article {
             display: block;
             flex: none;
             max-width: 100%;
+        }
+
+        /* the figure is isolated, so give line art the page to multiply into */
+        &.line-art {
+            background-color: var(--colour-white);
         }
 
         figcaption {

@@ -485,6 +485,7 @@ All current Japanese manufacturers that I know of are based in <span class="noun
 >
 > ```yaml
 > noborder: true
+> lineart: true
 > size: "small"
 > position: "aside"
 > license: "cc0"
@@ -534,6 +535,7 @@ A brief summary of their later success: after WWII, <span class="noun" lang="ja-
 >
 > ```yaml
 > noborder: true
+> lineart: true
 > position: "aside"
 > perRow: 2
 > license: "cc0"
