@@ -265,6 +265,8 @@ caption,
 figure>p.credit,
 blockquote footer,
 .last-updated,
+.reference-note,
+.reference-warning,
 .footnote {
     font-family: "Alegreya Sans", var(--fonts-body);
     font-weight: 400;
@@ -1493,22 +1495,6 @@ aside.footnote {
         float: left;
         color: var(--red);
     }
-
-    &.reference-warning {
-        margin-top: 0;
-
-        &::before {
-            content: "⚠\2002";
-        }
-    }
-
-    &.reference-note {
-        margin-top: 0;
-
-        &::before {
-            content: "\2139\2002";
-        }
-    }
 }
 
 /*** DLs ***/
@@ -1540,6 +1526,24 @@ dl {
 
         &>p {
             text-indent: -1.5lh;
+        }
+
+        /* a bibliography note or warning, set beneath its reference */
+        &>:is(.reference-note, .reference-warning) {
+            text-indent: 0;
+            font-size: var(--font-size-sm);
+            line-height: var(--line-height-sm);
+            color: var(--colour-dark);
+            margin-top: .25lh;
+
+            &::before {
+                content: "\2139\2002";
+                color: var(--red);
+            }
+        }
+
+        &>.reference-warning::before {
+            content: "⚠\2002";
         }
 
         &::marker {

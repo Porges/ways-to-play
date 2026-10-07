@@ -462,7 +462,6 @@ fn item_resource(reference: &Reference) -> Option<String> {
 
 fn render_ref(key: &str, reference: &Reference) -> Markup {
     html! {
-        (render_warnings_and_notes(reference))
         p property="citation" #{"ref-" (key)} resource=[item_resource(reference)] typeof=(item_type(reference)) {
             (render_authors(reference))
             " (" (render_date(reference)) "). "
@@ -478,18 +477,19 @@ fn render_ref(key: &str, reference: &Reference) -> Markup {
             (render_identifiers(reference))
             (render_original(reference))
         }
+        (render_warnings_and_notes(reference))
     }
 }
 
 fn render_warnings_and_notes(reference: &Reference) -> Markup {
     html! {
         @if let Some(warns) = &reference.common().warnings {
-            aside.reference-warning.footnote {
+            p.reference-warning {
                 (maud::PreEscaped(warns))
             }
         }
         @if let Some(notes) = &reference.common().notes {
-            aside.reference-note.footnote {
+            p.reference-note {
                 (maud::PreEscaped(notes))
             }
         }
