@@ -1314,7 +1314,9 @@ A poem by one Kanchō (<span lang="ja">管鳥</span>, d. 1818) included in the c
 
 > [!multi]
 >
-> <p lang="ja">唐音も少しいひたき牡丹哉</p>
+> > [!lang] ja
+> >
+> > 唐音も少しいひたき牡丹哉
 >
 > the peonies bloom:\
 > I wish I could speak\
@@ -1329,7 +1331,9 @@ Ambivalence toward the flower persisted well into the Edo period. The poet [Kyor
 
 > [!multi]
 >
-> <p lang="ja">牡丹は、寵愛時を得たる妾の、天下にはゞかれる、心なげに打ちほこり、常は嫉妬我執のいかりふかくして、靑天にむかつて吐息をつきたる風情に似たり。</p>
+> > [!lang] ja
+> >
+> > 牡丹は、寵愛時を得たる妾の、天下にはゞかれる、心なげに打ちほこり、常は嫉妬我執のいかりふかくして、靑天にむかつて吐息をつきたる風情に似たり。
 >
 > The tree peony is like a favoured concubine, revered throughout the land, who carries herself with a carefree pride, yet whose heart is ever filled with deep jealousy and attachment, sighing towards the blue heavens.[^machinetrans]
 
@@ -1339,7 +1343,9 @@ Buson (1716–84), perhaps with Kyoriku’s poem in mind, wrote instead (1780):
 
 > [!multi]
 >
-> <p lang="ja">虹を吐て開かんとする牡丹哉</p>
+> > [!lang] ja
+> >
+> > 虹を吐て開かんとする牡丹哉
 >
 > ready to open\
 > and breathe forth a rainbow\
@@ -1349,7 +1355,9 @@ Buson (1716–84), perhaps with Kyoriku’s poem in mind, wrote instead (1780):
 
 > [!multi]
 >
-> <p lang="ja">牡丹散て打かさなりぬ二三片</p>
+> > [!lang] ja
+> >
+> > 牡丹散て打かさなりぬ二三片
 >
 > the peony has fallen—\
 > lying upon one another\
@@ -1733,7 +1741,7 @@ spring.[@FourSeasons loc. 1756] An anonymous poem from the <cite>Kokinshū</cite
 
 > [!multi]
 >
-> > [!lang] ja
+> > [!langv] ja
 > >
 > > 龍田河も\
 > > みぢみだれて\

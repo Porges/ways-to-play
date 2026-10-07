@@ -1073,6 +1073,16 @@ div.multi {
         margin-top: .5rlh;
     }
 
+    /* side-by-side texts and translations: set like blockquotes */
+    &:has(> p, > div[lang]) {
+        color: var(--colour-dark);
+        font-size: .9375em;
+
+        &>blockquote {
+            font-size: 1em;
+        }
+    }
+
     .figure-img {
         /* definite size from the aspect ratio (height capped at --max-h),
            so intrinsic sizing doesn't wait for the image to load */
