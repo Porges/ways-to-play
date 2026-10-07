@@ -576,6 +576,13 @@ p:empty {
     height: 1em;
     margin-bottom: -1px;
 
+    /* symbols are black ink; the Neocities badge is in colour */
+    @media screen and (prefers-color-scheme: dark) {
+        &:not([src*="Neocities"]) {
+            filter: invert(1) hue-rotate(180deg);
+        }
+    }
+
     &.big {
         height: 2em;
     }
@@ -646,6 +653,13 @@ figure.line-art {
 
     .figure-img.border-0 {
         mix-blend-mode: multiply;
+
+        /* invert so the ground goes black and screens into the dark
+           page; hue-rotate keeps any colour roughly the same hue */
+        @media screen and (prefers-color-scheme: dark) {
+            filter: invert(1) hue-rotate(180deg);
+            mix-blend-mode: screen;
+        }
     }
 }
 
