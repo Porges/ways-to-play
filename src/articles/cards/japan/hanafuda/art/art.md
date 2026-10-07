@@ -864,27 +864,6 @@ The poet <span class="noun" lang="ja-Latn">[Mina­moto no Mune­yuki](https://en
 
 [^minamoto]: <span class="noun" lang="ja-Latn">Mina­moto no Mune­yuki</span> (<abbr title="died">d.</abbr> 983) was a poet of the Heian period, and named one of the ‘Thirty-Six Immortals of Poetry’.
 
-This poem appears on the <span lang="ja-Latn">kasu</span> cards of the <span lang="ja-Latn">Echigo-bana</span> pattern. The <span lang="ja-Latn">Awa-bana kasu</span> also carries a shortened reference to this poem, announcing that spring is here:
-
-> [!aside]
->
-> @PoemsOfTheEchigobana [p. 4] notes that in the standard design printed by Nintendo and <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>, the card is missing the <span lang="ja">も</span> on the second ‘line’.
-
-> [!multi]
->
-> > [!langv] ja
-> >
-> > とき𛂞き𛂞\
-> > みどり
->
-> > [!langv] ja
-> >
-> > 常磐木は\
-> > 緑
->
-> The unchanging tree\
-> is green.
-
 > [!multi]
 > > [!figure]
 > >
@@ -906,13 +885,33 @@ This poem appears on the <span lang="ja-Latn">kasu</span> cards of the <span lan
 > >
 > > An <span lang="ja-Latn">Awa-bana</span> <span lang="ja-Latn">kasu</span> card, with a shortened version of the same <span lang="ja-Latn">tanka</span> (the other <span lang="ja-Latn">kasu</span> card bears the same phrases).
 
+This poem appears on the <span lang="ja-Latn">kasu</span> cards of the <span lang="ja-Latn">Echigo-bana</span> pattern. The <span lang="ja-Latn">Awa-bana kasu</span> also carries a shortened reference to this poem, announcing that spring is here:
+
+> [!aside]
+>
+> @PoemsOfTheEchigobana [p. 4] notes that in the standard design printed by Nintendo and <span class="noun" lang="ja-Latn">Ōishi Tengudō</span>, the card is missing the <span lang="ja">も</span> on the second ‘line’.
+
+> [!multi]
+>
+> > [!langv] ja
+> >
+> > とき𛂞き𛂞\
+> > みどり
+>
+> > [!langv] ja
+> >
+> > 常磐木は\
+> > 緑
+>
+> The unchanging tree\
+> is green.
+
 > [!figure]
 >
 > ![A card with a pine tree and a red ribbon](pine_urasu.jpg)
 >
 > ```yaml
 > noborder: true
-> position: "left"
 > size: "small"
 > orgName: "Japan Playing Card Museum"
 > orgAbbr: "JPCM"

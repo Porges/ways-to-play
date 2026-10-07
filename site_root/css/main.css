@@ -758,16 +758,6 @@ figure {
 
 @media (width >=702px) {
     figure {
-        &.left {
-            clear: left;
-            float: left;
-            margin-right: .5rlh;
-            margin-left: calc(-1 * var(--figure-wide-overlap));
-
-            /* helps stop text wrapping badly */
-            margin-bottom: .5rlh;
-        }
-
         &.right {
             clear: right;
             float: right;
@@ -872,6 +862,31 @@ figure {
             right: calc(-1 * var(--outer-gutter));
             box-shadow: 0 8px 10px -8px var(--ditch-shadow);
             pointer-events: none;
+        }
+    }
+}
+
+/* Once the left gutter is roomy enough, left figures hang entirely in it,
+   beside the text and shrunk to fit; otherwise they sit in the text like any
+   other figure. The negative margin leaves the float no footprint, so the
+   text runs past it unwrapped. */
+@media (width >=1381px) {
+    figure.left {
+        --margin-room: calc(var(--outer-gutter) + var(--figure-wide-overlap) - 2rlh);
+        float: left;
+        clear: left;
+        width: var(--margin-room);
+        max-width: none;
+        margin: 0 0 1rlh calc(-1 * var(--margin-room) - 1rlh);
+
+        /* hug the text */
+        >.plate>.mount {
+            margin-right: 0;
+        }
+
+        figcaption {
+            text-align: right;
+            text-wrap: pretty;
         }
     }
 }
