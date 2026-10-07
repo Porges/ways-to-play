@@ -433,10 +433,9 @@ nav.site {
 #site-footer {
     margin-top: auto;
     padding: .5rlh 1rlh .5rlh 1rlh;
-    border-top: 1px dotted var(--colour-secondary);
-    background-color: var(--colour-accent);
+    background-color: var(--colour-light);
     color: var(--colour-dark);
-    font-style: italic;
+    font-size: var(--font-size-sm);
 }
 
 nav.site {
@@ -1636,6 +1635,7 @@ dl {
 /*** References ***/
 
 .reference-list {
+    font-size: .9375em;
     padding-left: 1.5lh;
 
     &>li {
