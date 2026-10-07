@@ -157,6 +157,10 @@ pub struct Common {
 
     pub title: LString,
 
+    /// Shortened title for subsequent citations in notes; derived from `title` when absent.
+    #[serde(rename = "title-short", alias = "short-title")]
+    pub title_short: Option<String>,
+
     #[serde(rename = "URL")]
     pub url: Option<String>,
 

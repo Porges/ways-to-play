@@ -13,6 +13,9 @@ pub fn to_csl(bib: &Bibliography) -> Value {
             "title".to_string(),
             entry.common().title.value.as_str().into(),
         );
+        if let Some(short) = &entry.common().title_short {
+            obj.insert("title-short".to_string(), short.as_str().into());
+        }
         obj.insert(
             "author".to_string(),
             entry

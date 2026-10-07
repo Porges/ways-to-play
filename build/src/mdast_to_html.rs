@@ -16,7 +16,6 @@ use markdown::mdast::{
     Yaml,
 };
 use maud::{html, Markup};
-use regex::Captures;
 use serde::Deserialize;
 use url::Url;
 use uuid::{uuid, Uuid};
@@ -82,6 +81,11 @@ pub fn to_html(
         img_manifest: images,
         used_bib: Default::default(),
         cite_count: 0,
+        noted: Default::default(),
+        cite_mode: CiteMode::Note,
+        in_footnote: false,
+        prev_note: None,
+        note_cites: None,
         header_stack: Vec::new(),
         url_lookup,
         collected_akas: Vec::new(),
@@ -90,6 +94,16 @@ pub fn to_html(
     };
     let html = converter.convert_whole(node)?;
     Ok((html, converter.collected_akas, converter.collected_cites))
+}
+
+/// How parenthetical citations are rendered in the current context.
+#[derive(Clone, Copy, PartialEq, Eq)]
+enum CiteMode {
+    /// Each group of citations becomes a numbered note.
+    Note,
+    /// Citations are written into the surrounding text: used inside notes,
+    /// captions, tables, and headings, where a numbered note cannot go.
+    Inline,
 }
 
 struct Converter<'a> {
@@ -101,6 +115,13 @@ struct Converter<'a> {
     bibliography: &'a RenderedBibliography,
     used_bib: IndexMap<String, Vec<String>>, // need to preserve insertion order
     cite_count: usize,
+    noted: HashSet<String>, // works already cited in full on this page
+    cite_mode: CiteMode,
+    in_footnote: bool,
+    /// The single work (and locator) cited by the previous note, for “ibid.”
+    prev_note: Option<(String, Option<String>)>,
+    /// Citations made so far in the note being rendered, if any.
+    note_cites: Option<Vec<(String, Option<String>)>>,
     header_stack: Vec<usize>,
     url_lookup: &'a BTreeMap<String, Option<String>>,
     collected_akas: Vec<(LanguageIdentifier, Markup)>,
@@ -108,180 +129,381 @@ struct Converter<'a> {
     lightboxes: RefCell<HashSet<String>>, // only want to emit one lightbox per image
 }
 
-fn index_to_string(mut index: u32) -> String {
-    let mut result = String::new();
-    while index > 0 {
-        let num = (index - 1) % 26;
-        result = String::from(char::from_u32('A' as u32 + num).unwrap()) + &result;
-        index = (index - num) / 26;
+const CITE: &str = r"\[@(?:_|[^\s\p{P}])+(?:\s+[^\]]+)?\]";
+
+static CITE_GROUP_AT_END: LazyLock<regex::Regex> =
+    LazyLock::new(|| regex::Regex::new(&format!(r"{CITE}(?:\s*{CITE})*\s*$")).unwrap());
+
+static CITE_GROUP_AT_START: LazyLock<regex::Regex> =
+    LazyLock::new(|| regex::Regex::new(&format!(r"^\s*{CITE}(?:\s*{CITE})*")).unwrap());
+
+static NORM_WHITESPACE: LazyLock<regex::Regex> =
+    LazyLock::new(|| regex::Regex::new(r"[ \t\r\n]+").unwrap());
+
+/// Escapes text for direct inclusion in HTML.
+fn pre_escape(text: &str) -> String {
+    text.replace('&', "&amp;").replace('<', "&lt;")
+}
+
+/// Splits a run of parenthetical citations into (id, locator) pairs.
+fn parse_cites(group: &str) -> Vec<(&str, Option<&str>)> {
+    static ONE: LazyLock<regex::Regex> = LazyLock::new(|| {
+        regex::Regex::new(r"\[@(?<id>(_|[^\s\p{P}])+)(\s+(?<what>[^\]]+))?\]").unwrap()
+    });
+
+    ONE.captures_iter(group)
+        .map(|m| {
+            (
+                m.name("id").unwrap().as_str(),
+                m.name("what").map(|w| w.as_str()),
+            )
+        })
+        .collect()
+}
+
+/// Generates a direct link to the cited page, where the source supports it.
+fn direct_link(entry: &RenderedEntry, what: Option<&str>) -> Option<String> {
+    static ARCHIVE_URL: LazyLock<regex::Regex> =
+        LazyLock::new(|| regex::Regex::new(r"^https?://archive\.org/details/[^/]+").unwrap());
+
+    static GOOGLE_URL: LazyLock<regex::Regex> = LazyLock::new(|| {
+        regex::Regex::new(r"^https?://books\.google(\.com|\.co\.nz|\.com\.au)/books\?id=\w+")
+            .unwrap()
+    });
+
+    let (Some(what), Some(url)) = (what, &entry.url) else {
+        return None;
+    };
+
+    let what = bare_locator(what)?;
+    if what.chars().all(|c| c.is_ascii_digit()) {
+        if let Some(m) = ARCHIVE_URL.find(url) {
+            return Some(format!("{}/page/{what}", m.as_str()));
+        }
+
+        if let Some(m) = GOOGLE_URL.find(url) {
+            return Some(format!("{}&pg=PA{what}", m.as_str()));
+        }
     }
 
-    result
+    None
+}
+
+/// Appends a parenthetical citation to running text. A citation that follows
+/// the end of a sentence moves inside it: “Text. [cite]” → “Text (cite).”
+fn append_parenthetical(out: &mut String, group: &str, punct: &str) {
+    out.truncate(out.trim_end().len());
+    let moved = out
+        .ends_with(['.', '!', '?'])
+        .then(|| out.pop().unwrap());
+    // the text may start mid-paragraph (after an inline element), so always space
+    if !out.ends_with(['(', '[']) {
+        out.push(' ');
+    }
+    out.push('(');
+    out.push_str(group);
+    out.push(')');
+    if let Some(moved) = moved {
+        out.push(moved);
+        if !matches!(punct, "." | "!" | "?") {
+            out.push_str(punct);
+        }
+    } else {
+        out.push_str(punct);
+    }
+}
+
+/// Normalises a locator for display: Chicago omits “p.”/“pp.” before page
+/// numbers. An empty locator is dropped.
+fn bare_locator(what: &str) -> Option<&str> {
+    static PAGES: LazyLock<regex::Regex> =
+        LazyLock::new(|| regex::Regex::new(r"^pp?\.\s*").unwrap());
+    let what = what.trim();
+    let what = PAGES.find(what).map_or(what, |m| &what[m.end()..]);
+    (!what.is_empty()).then_some(what)
+}
+
+fn linked_what(entry: &RenderedEntry, what: &str) -> Markup {
+    let what_html = maud::PreEscaped(what.to_string());
+    match direct_link(entry, Some(what)) {
+        Some(link) => html! { a href=(link) { (what_html) } },
+        None => what_html,
+    }
 }
 
 impl Converter<'_> {
     fn expand<'a>(&mut self, n: impl IntoIterator<Item = &'a Node>) -> Result<Markup> {
+        let nodes: Vec<&Node> = n.into_iter().collect();
+
+        // Citations written directly against a footnote reference are moved
+        // into that footnote, rather than getting a note of their own.
+        let mut texts: BTreeMap<usize, String> = BTreeMap::new();
+        let mut extras: BTreeMap<usize, String> = BTreeMap::new();
+        if self.cite_mode == CiteMode::Note {
+            for (ix, node) in nodes.iter().enumerate() {
+                if !matches!(node, Node::FootnoteReference(_)) {
+                    continue;
+                }
+
+                let mut extra = String::new();
+                if let Some(Node::Text(before)) = ix.checked_sub(1).map(|i| nodes[i]) {
+                    let value = texts.get(&(ix - 1)).unwrap_or(&before.value).clone();
+                    if let Some(m) = CITE_GROUP_AT_END.find(&value) {
+                        extra.push_str(m.as_str());
+                        texts.insert(ix - 1, value[..m.start()].to_string());
+                    }
+                }
+
+                if let Some(Node::Text(after)) = nodes.get(ix + 1) {
+                    if let Some(m) = CITE_GROUP_AT_START.find(&after.value) {
+                        extra.push_str(m.as_str());
+                        texts.insert(ix + 1, after.value[m.end()..].to_string());
+                    }
+                }
+
+                if !extra.is_empty() {
+                    extras.insert(ix, extra);
+                }
+            }
+        }
+
         Ok(html! {
-            @for child in n {
-                (self.convert(false, child)?)
+            @for (ix, child) in nodes.iter().enumerate() {
+                @if let (Node::Text(text), Some(value)) = (child, texts.get(&ix)) {
+                    (self.convert(false, &Node::Text(Text { value: value.clone(), position: text.position.clone() }))?)
+                } @else if let Node::FootnoteReference(fr) = child {
+                    (self.render_footnote(&fr.identifier, extras.get(&ix).map(String::as_str))?)
+                } @else {
+                    (self.convert(false, child)?)
+                }
             }
         })
     }
 
-    fn convert_refs(&mut self, text: &str) -> Result<Markup> {
-        static QUICKRE: LazyLock<regex::Regex> =
-            LazyLock::new(|| regex::Regex::new(r"[&<]").unwrap());
+    fn with_cite_mode<T>(
+        &mut self,
+        mode: CiteMode,
+        f: impl FnOnce(&mut Self) -> Result<T>,
+    ) -> Result<T> {
+        let prev = std::mem::replace(&mut self.cite_mode, mode);
+        let result = f(self);
+        self.cite_mode = prev;
+        result
+    }
 
-        // first, pre-escape any HTML special chars
-        let text = QUICKRE.replace_all(text, |m: &regex::Captures<'_>| {
-            match m.get(0).unwrap().as_str() {
-                "&" => "&amp;",
-                "<" => "&lt;",
-                _ => unreachable!(),
-            }
-        });
+    fn render_footnote(&mut self, id: &str, extra_cites: Option<&str>) -> Result<Markup> {
+        if self.in_footnote {
+            bail!("footnotes cannot be nested: {id}");
+        }
 
-        static ARCHIVE_URL: LazyLock<regex::Regex> =
-            LazyLock::new(|| regex::Regex::new(r"^https?://archive\.org/details/[^/]+").unwrap());
-
-        static GOOGLE_URL: LazyLock<regex::Regex> = LazyLock::new(|| {
-            regex::Regex::new(r"^https?://books\.google(\.com|\.co\.nz|\.com\.au)/books\?id=\w+")
-                .unwrap()
-        });
-
-        let mut insert_ref = |id: &str| -> (String, String) {
-            self.cite_count += 1;
-            let cite_anchor = format!("cite-{}", self.cite_count);
-            let entry = self.used_bib.entry(id.to_owned());
-            let ix = entry.index() + 1;
-            entry.or_default().push(cite_anchor.clone());
-            let ref_indicator = index_to_string(ix as u32);
-            (cite_anchor, ref_indicator)
+        let Some(children) = self.fndefs.get(id) else {
+            bail!("unknown footnote reference: {id}");
         };
 
-        // generate a direct link to the page
-        let direct_link = |entry: &RenderedEntry, what: Option<&str>| -> Option<String> {
-            let (Some(what), Some(url)) = (what, &entry.url) else {
-                return None;
-            };
-
-            let what = what.strip_prefix("p. ").unwrap_or(what);
-            if what.chars().all(|c| c.is_ascii_digit()) {
-                if let Some(m) = ARCHIVE_URL.find(url) {
-                    let mut link = m.as_str().to_string();
-                    link.push_str("/page/");
-                    link.push_str(what);
-                    return Some(link);
-                }
-
-                if let Some(m) = GOOGLE_URL.find(url) {
-                    let mut link = m.as_str().to_string();
-                    link.push_str("&pg=PA");
-                    link.push_str(what);
-                    return Some(link);
-                }
-            }
-
-            None
+        let [Node::Paragraph(p)] = children.as_slice() else {
+            bail!("unexpected footnote content (should be one paragraph): {children:?}");
         };
 
-        let mut missing = Vec::new();
-
-        // parenthesized citations
-        static RE1: LazyLock<regex::Regex> = LazyLock::new(|| {
-            regex::Regex::new(r"\[@(?<id>(_|[^\s\p{P}])+)(\s+(?<what>[^\]]+))?\]").unwrap()
+        let children = p.children.clone();
+        self.in_footnote = true;
+        self.begin_note();
+        let body = self.with_cite_mode(CiteMode::Inline, |s| {
+            let mut body = s.expand(&children)?.into_string();
+            if let Some(raw) = extra_cites {
+                let escaped = pre_escape(&NORM_WHITESPACE.replace_all(raw, " "));
+                let (group, _) = s.render_cite_group(&parse_cites(&escaped), false)?;
+                append_parenthetical(&mut body, &group.into_string(), "");
+            }
+            Ok(maud::PreEscaped(body))
         });
+        self.end_note();
+        self.in_footnote = false;
 
-        let t1 = RE1.replace_all(&text, |m: &Captures<'_>| {
-            let id = m.name("id").unwrap().as_str();
-            if let Some(entry) = self.bibliography.get(id) {
-                let (cite_anchor, ref_indicator) = insert_ref(id);
-                let what = m.name("what").map(|m| m.as_str());
-                let direct_link = direct_link(entry, what);
+        Ok(html! {
+            span.footnote-indicator { }
+            span.footnote role="note" { (body?) }
+        })
+    }
+
+    /// Records a citation, returning its anchor and whether the work has
+    /// already been cited in full in this page’s notes.
+    fn insert_ref(&mut self, id: &str) -> String {
+        self.cite_count += 1;
+        let cite_anchor = format!("cite-{}", self.cite_count);
+        self.used_bib
+            .entry(id.to_owned())
+            .or_default()
+            .push(cite_anchor.clone());
+        cite_anchor
+    }
+
+    fn begin_note(&mut self) {
+        self.note_cites = Some(Vec::new());
+    }
+
+    /// Finishes a note, remembering its work if it cited exactly one.
+    fn end_note(&mut self) {
+        let cites = self.note_cites.take().unwrap_or_default();
+        self.prev_note = match cites.as_slice() {
+            [first, ..] if cites.iter().all(|(id, _)| *id == first.0) => cites.last().cloned(),
+            _ => None,
+        };
+    }
+
+    /// Renders a run of citations in note form, separated by semicolons.
+    /// The first citation in a note becomes “ibid.” when the previous note
+    /// cited only the same work; `capitalise` gives “Ibid.” instead.
+    /// Also returns whether the result already ends with a full stop.
+    fn render_cite_group(
+        &mut self,
+        cites: &[(&str, Option<&str>)],
+        capitalise: bool,
+    ) -> Result<(Markup, bool)> {
+        let missing: Vec<&str> = cites
+            .iter()
+            .map(|(id, _)| *id)
+            .filter(|id| !self.bibliography.contains_key(*id))
+            .collect();
+        if !missing.is_empty() {
+            bail!("missing bibliography entry: {:?}", missing);
+        }
+
+        let mut rendered = Vec::new();
+        let mut ends_with_period = false;
+        for (id, what) in cites {
+            let what = &what.and_then(bare_locator);
+            let anchor = self.insert_ref(id);
+            let entry = self.bibliography.get(*id).unwrap();
+            let ibid = self.note_cites.as_ref().is_some_and(|c| c.is_empty())
+                && self.prev_note.as_ref().is_some_and(|(prev, _)| prev == id);
+            let first = self.noted.insert(id.to_string());
+            let cite = if ibid {
+                let same_place = self.prev_note.as_ref().unwrap().1.as_deref() == *what;
+                let what = what.filter(|_| !same_place);
+                ends_with_period = what.is_none_or(|w| w.ends_with('.'));
                 html! {
-                    sup.citation #(cite_anchor) {
-                        a.index href={"#ref-" (id)} {
-                            (ref_indicator)
-                        }
-
+                    span.citation #(anchor) {
+                        a href={"#ref-" (id)} lang="la" { @if capitalise { "Ibid." } @else { "ibid." } }
                         @if let Some(what) = what {
-                            "\u{202f}("
-                            @if let Some(direct_link) = direct_link {
-                                a href=(direct_link) { (what) }
-                            } @else {
-                                (what)
-                            }
-                            ")"
+                            ", " (linked_what(entry, what))
                         }
                     }
                 }
-                .into_string()
             } else {
-                missing.push(id.to_owned());
-                String::new()
-            }
-        });
-
-        // inline citations
-        static RE2: LazyLock<regex::Regex> = LazyLock::new(|| {
-            regex::Regex::new(r"@(?<id>(_|[^\s\p{P}])+)(\s+\[(?<what>[^\]]+)\])?").unwrap()
-        });
-
-        let t2 = RE2.replace_all(&t1, |m: &Captures<'_>| {
-            let id = m.name("id").unwrap().as_str();
-            if let Some(entry) = self.bibliography.get(id) {
-                let (cite_anchor, ref_indicator) = insert_ref(id);
-                let what = m.name("what").map(|m| m.as_str());
-                let direct_link = direct_link(entry, what);
-
-                let linked_what = what.map(|what| {
-                    if let Some(direct_link) = direct_link {
-                        html! {
-                            a href=(direct_link) { (what) }
-                        }
-                    } else {
-                        html! { (what) }
-                    }
-                });
-
+                ends_with_period = what.is_some_and(|w| w.ends_with('.'));
                 html! {
+                    span.citation #(anchor) {
+                        @if first { (entry.note_full) } @else { (entry.note_short) }
+                        @if let Some(what) = what {
+                            ", " (linked_what(entry, what))
+                        }
+                    }
+                }
+            };
+            if let Some(note_cites) = &mut self.note_cites {
+                note_cites.push((id.to_string(), what.map(str::to_string)));
+            }
+            rendered.push(cite);
+        }
+
+        Ok((
+            html! {
+                @for (ix, cite) in rendered.into_iter().enumerate() {
+                    @if ix > 0 { "; " }
+                    (cite)
+                }
+            },
+            ends_with_period,
+        ))
+    }
+
+    fn convert_refs(&mut self, text: &str) -> Result<Markup> {
+        static RE: LazyLock<regex::Regex> = LazyLock::new(|| {
+            regex::Regex::new(&format!(
+                r"(?<group>{CITE}(?:\s*{CITE})*)(?<punct>[.,;:!?]?)|@(?<id>(_|[^\s\p{{P}}])+)(\s+\[(?<what>[^\]]+)\])?"
+            ))
+            .unwrap()
+        });
+
+        let text = pre_escape(text);
+        let mut out = String::new();
+        let mut last = 0;
+        for m in RE.captures_iter(&text) {
+            let whole = m.get(0).unwrap();
+            out.push_str(&text[last..whole.start()]);
+            last = whole.end();
+
+            if let Some(group) = m.name("group") {
+                let punct = m.name("punct").unwrap().as_str();
+                let cites = parse_cites(group.as_str());
+                match self.cite_mode {
+                    CiteMode::Note => {
+                        self.begin_note();
+                        let result = self.render_cite_group(&cites, true);
+                        self.end_note();
+                        let (group, ends_with_period) = result?;
+                        // the note marker follows any punctuation (Chicago 14.26)
+                        out.truncate(out.trim_end().len());
+                        out.push_str(punct);
+                        let note = html! {
+                            span.footnote-indicator { }
+                            span.footnote role="note" {
+                                (group) @if !ends_with_period { "." }
+                            }
+                        };
+                        out.push_str(&note.into_string());
+                    }
+                    CiteMode::Inline => {
+                        let (group, _) = self.render_cite_group(&cites, false)?;
+                        append_parenthetical(&mut out, &group.into_string(), punct);
+                    }
+                }
+            } else {
+                // inline citation, as part of the text
+                let id = m.name("id").unwrap().as_str();
+                let Some(entry) = self.bibliography.get(id) else {
+                    bail!("missing bibliography entry: {:?}", [id]);
+                };
+
+                let cite_anchor = self.insert_ref(id);
+                let what = m
+                    .name("what")
+                    .and_then(|w| bare_locator(w.as_str()))
+                    .map(|w| linked_what(entry, w));
+                let cite = html! {
                     span.citation.inline #(cite_anchor) {
                         @if let Some(inline_cite) = &entry.inline_cite {
-                            (inline_cite(&format!("#ref-{id}"), linked_what))
+                            (inline_cite(&format!("#ref-{id}"), what))
                         } @else {
-                            a.index href={"#ref-" (id)} {
-                                "[" (ref_indicator) "]"
-                            }
-                            @if let Some(linked_what) = linked_what {
-                                " (" (linked_what) ")"
+                            (entry.note_short)
+                            @if let Some(what) = what {
+                                " (" (what) ")"
                             }
                         }
                     }
-                }
-                .into_string()
-            } else {
-                missing.push(id.to_owned());
-                String::new()
+                };
+                out.push_str(&cite.into_string());
             }
-        });
-
-        if missing.is_empty() {
-            Ok(maud::PreEscaped(t2.into_owned()))
-        } else {
-            bail!("missing bibliography entry: {:?}", missing)
         }
+        out.push_str(&text[last..]);
+
+        Ok(maud::PreEscaped(out))
     }
 
     fn convert_whole(&mut self, root: &Node) -> Result<Markup> {
+        let bibliography = self.bibliography;
         let result = html! {
             (self.convert(false, root)?)
             (self.do_sections(0))
             @if !self.used_bib.is_empty() {
                 h2 #references { "References" }
-                ol.reference-list type="A" {
-                    @for (id, _cites) in &self.used_bib {
+                ul.reference-list {
+                    @for id in self.used_bib.keys().sorted_by_cached_key(|id| {
+                        let entry = bibliography.get(*id).unwrap();
+                        (entry.name_key.to_lowercase(), entry.iso_date.clone())
+                    }) {
                         li {
-                            (self.bibliography.get(id).unwrap().reference)
+                            (bibliography.get(id).unwrap().reference)
                         }
                     }
                 }
@@ -394,7 +616,8 @@ impl Converter<'_> {
                 todo!()
             }
             Node::Heading(heading) => {
-                let children = self.expand(&heading.children)?;
+                let children =
+                    self.with_cite_mode(CiteMode::Inline, |s| s.expand(&heading.children))?;
                 match heading.depth {
                     1 => {
                         // we will synthesize the h1 later
@@ -433,23 +656,23 @@ impl Converter<'_> {
                     _ => unreachable!(),
                 }
             }
-            Node::Table(table) => {
-                html! {
+            Node::Table(table) => self.with_cite_mode(CiteMode::Inline, |s| {
+                Ok(html! {
                     @let mut children = table.children.iter();
                     table {
                         thead {
                             @if let Some(c) = children.next() {
-                                (self.convert(true, c)?)
+                                (s.convert(true, c)?)
                             }
                         }
                         tbody {
                             @for c in children {
-                                (self.convert(false, c)?)
+                                (s.convert(false, c)?)
                             }
                         }
                     }
-                }
-            }
+                })
+            })?,
             Node::TableRow(table_row) => {
                 html! {
                     tr {
@@ -494,23 +717,7 @@ impl Converter<'_> {
             Node::Definition(_) => Markup::default(), // already handled
             Node::FootnoteDefinition(_) => Markup::default(), // already handled
             Node::FootnoteReference(footnote_reference) => {
-                if let Some(children) = self.fndefs.get(&footnote_reference.identifier) {
-                    match children.as_slice() {
-                        [Node::Paragraph(p)] => html! {
-                            span.footnote-indicator { }
-                            span.footnote role="note" { (self.expand(&p.children.clone())?) }
-                        },
-                        _ => bail!(
-                            "unexpected footnote content (should be one paragraph): {:?}",
-                            children
-                        ),
-                    }
-                } else {
-                    bail!(
-                        "unknown footnote reference: {}",
-                        footnote_reference.identifier
-                    )
-                }
+                self.render_footnote(&footnote_reference.identifier, None)?
             }
             // These should be handled by higher-level methods
             Node::Toml(_toml) => Markup::default(),
@@ -583,7 +790,7 @@ impl Converter<'_> {
             _ => 300,
         };
 
-        let caption = self.expand(caption)?;
+        let caption = self.with_cite_mode(CiteMode::Inline, |s| s.expand(caption))?;
 
         let lightbox = |id: &str,
                         meta: &ImageManifestEntry,
@@ -946,9 +1153,12 @@ impl Converter<'_> {
             if let Some(Node::Text(t)) = p.children.first() {
                 let trimmed = t.value.trim();
                 if trimmed == "[!aside]" {
+                    let body = self.with_cite_mode(CiteMode::Inline, |s| {
+                        s.expand(&blockquote.children[1..])
+                    })?;
                     return Ok(html! {
                         aside role="note" class="footnote" {
-                            (self.expand(&blockquote.children[1..])?)
+                            (body)
                         }
                     });
                 } else if trimmed.starts_with("[!todo]") {
@@ -1517,6 +1727,140 @@ fn extract_attributes(attributes: &[AttributeContent]) -> Result<Vec<(&str, &str
 mod test {
     use super::*;
 
+    const BIBLIOGRAPHY: &str = r#"
+ShiningPrince:
+  type: book
+  author:
+    - family: Morris
+      given: Ivan
+  title: The World of the Shining Prince
+  subtitle: Court Life in Ancient Japan
+  issued:
+    year: 1979
+Brocade:
+  type: book
+  author:
+    - family: McCullough
+      given: Helen Craig
+  title: "Brocade by Night: ‘Kokin Wakashū’ and the Court Style"
+  issued:
+    year: 1985
+"#;
+
+    fn render(markdown: &str) -> Result<String> {
+        let bib: crate::bibliography::Bibliography = serde_saphyr::from_str(BIBLIOGRAPHY)?;
+        let bib = crate::bib_render::to_rendered(&bib);
+        let options = markdown::ParseOptions {
+            constructs: markdown::Constructs {
+                gfm_footnote_definition: true,
+                gfm_label_start_footnote: true,
+                ..markdown::Constructs::default()
+            },
+            ..markdown::ParseOptions::default()
+        };
+        let node = markdown::to_mdast(markdown, &options).map_err(|e| eyre!("{e}"))?;
+        let html = to_html(
+            Path::new("."),
+            Path::new("test.md"),
+            &node,
+            &bib,
+            &ImageManifest::default(),
+            &BTreeMap::new(),
+        )?;
+        Ok(html.0.into_string())
+    }
+
+    const SHINING_PRINCE_FULL: &str = r##"<bdi>Ivan Morris</bdi>, <a href="#ref-ShiningPrince"><cite>The World of the Shining Prince</cite></a> (1979)"##;
+    const SHINING_PRINCE_SHORT: &str = r##"<bdi>Morris</bdi>, <a href="#ref-ShiningPrince"><cite>World of the Shining Prince</cite></a>"##;
+    const BROCADE_FULL: &str = r##"<bdi>Helen Craig McCullough</bdi>, <a href="#ref-Brocade"><cite>Brocade by Night: ‘Kokin Wakashū’ and the Court Style</cite></a> (1985)"##;
+    const BROCADE_SHORT: &str = r##"<bdi>McCullough</bdi>, <a href="#ref-Brocade"><cite>Brocade by Night</cite></a>"##;
+
+    #[test]
+    fn citations_in_text_become_notes_full_then_short() {
+        let html = render(
+            "Cards were played[@ShiningPrince 165]. Poems[@Brocade 10]. Later[@ShiningPrince 170] [@Brocade 242], too.",
+        )
+        .unwrap();
+
+        assert_eq!(html.matches(r#"class="footnote-indicator""#).count(), 3);
+        assert!(html.contains(&format!(
+            r#"played.<span class="footnote-indicator"></span><span class="footnote" role="note"><span class="citation" id="cite-1">{SHINING_PRINCE_FULL}, 165</span>.</span>"#
+        )));
+        assert!(html.contains(&format!(
+            r#"Later,<span class="footnote-indicator"></span><span class="footnote" role="note"><span class="citation" id="cite-3">{SHINING_PRINCE_SHORT}, 170</span>; <span class="citation" id="cite-4">{BROCADE_SHORT}, 242</span>.</span> too."#
+        )));
+    }
+
+    #[test]
+    fn citations_in_footnotes_are_inline_and_adjacent_citations_merge() {
+        let html = render(concat!(
+            "Awase contests.[^a][@Brocade 242]\n\n",
+            "[^a]: Also cock-fighting.[@ShiningPrince 165] See[@ShiningPrince 170] too.\n",
+        ))
+        .unwrap();
+
+        assert_eq!(html.matches(r#"class="footnote-indicator""#).count(), 1);
+        assert!(html.contains(&format!(
+            r#"Also cock-fighting (<span class="citation" id="cite-1">{SHINING_PRINCE_FULL}, 165</span>). See (<span class="citation" id="cite-2">{SHINING_PRINCE_SHORT}, 170</span>) too (<span class="citation" id="cite-3">{BROCADE_FULL}, 242</span>).</span>"#
+        )));
+    }
+
+    #[test]
+    fn repeated_work_in_consecutive_notes_becomes_ibid() {
+        let html = render(concat!(
+            "A[@ShiningPrince 165]. B[@ShiningPrince 165]. C[@ShiningPrince 170]. ",
+            "D[@ShiningPrince 170] [@Brocade 242]. E[@Brocade 242]. F.[^a]\n\n",
+            "[^a]: Compare[@Brocade 250] here. *Brocade*.[@Brocade 251]\n",
+        ))
+        .unwrap();
+
+        let ibid = |n: usize, id: &str, text: &str| {
+            format!(r##"<span class="citation" id="cite-{n}"><a href="#ref-{id}" lang="la">{text}</a>"##)
+        };
+        // same place: no locator
+        assert!(html.contains(&format!("{}</span></span>", ibid(2, "ShiningPrince", "Ibid."))));
+        // different place: locator kept
+        assert!(html.contains(&format!("{}, 170</span>.</span>", ibid(3, "ShiningPrince", "Ibid."))));
+        // the first citation of a group can be ibid.
+        assert!(html.contains(&format!("{}</span>; ", ibid(4, "ShiningPrince", "Ibid."))));
+        // but not after a note citing two works
+        assert!(html.contains(&format!(
+            r#"<span class="citation" id="cite-6">{BROCADE_SHORT}, 242</span>"#
+        )));
+        // lower-case mid-sentence inside a footnote
+        assert!(html.contains(&format!("Compare ({}, 250</span>) here.", ibid(7, "Brocade", "ibid."))));
+        // moved inside the sentence, spaced after an inline element
+        assert!(html.contains(&format!(
+            r#"<em>Brocade</em> (<span class="citation" id="cite-8">{BROCADE_SHORT}, 251</span>).</span>"#
+        )));
+    }
+
+    #[test]
+    fn page_prefixes_are_stripped_from_locators() {
+        assert_eq!(bare_locator("p. 165"), Some("165"));
+        assert_eq!(bare_locator("pp.  3–4"), Some("3–4"));
+        assert_eq!(bare_locator("p. "), None);
+        assert_eq!(bare_locator("pl. VII"), Some("pl. VII"));
+        assert_eq!(bare_locator("plate 3"), Some("plate 3"));
+
+        let html = render("A[@ShiningPrince p. 165]. B[@ShiningPrince p. ].").unwrap();
+        assert!(html.contains(&format!("{SHINING_PRINCE_FULL}, 165</span>.</span>")));
+        assert!(html.contains(r#"lang="la">Ibid.</a></span></span>"#), "{html}");
+    }
+
+    #[test]
+    fn nested_footnotes_are_rejected() {
+        let err = render("Text.[^a]\n\n[^a]: Note.[^b]\n\n[^b]: Inner.\n").unwrap_err();
+        assert!(err.to_string().contains("nested"), "{err}");
+    }
+
+    #[test]
+    fn references_are_unnumbered_and_sorted_by_name() {
+        let html = render("First[@ShiningPrince]. Second[@Brocade].").unwrap();
+        let list = &html[html.find(r#"<ul class="reference-list">"#).unwrap()..];
+        assert!(list.find("ref-Brocade").unwrap() < list.find("ref-ShiningPrince").unwrap());
+    }
+
     #[test]
     fn image_notice_separates_attribution_and_license() {
         let metadata = ImageMetadata {
@@ -1567,14 +1911,6 @@ mod test {
         let notice = metadata.copyright_notice(true).into_string();
         assert!(notice.contains("property=\"copyrightNotice\" hidden"));
         assert!(notice.contains("<span class=\"image-license\">used with permission</span>"));
-    }
-
-    #[test]
-    fn indicator() {
-        assert_eq!(index_to_string(0), "");
-        assert_eq!(index_to_string(1), "A");
-        assert_eq!(index_to_string(26), "Z");
-        assert_eq!(index_to_string(27), "AA");
     }
 
     #[test]

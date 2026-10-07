@@ -270,7 +270,7 @@ figure>p.credit,
     /* Match Source Serif’s x-height, so that font-size ratios are visual ratios. */
     font-size-adjust: ex-height 0.475;
 
-    /* Alegreya’s `sups` lacks capitals and brackets, which citations need. */
+    /* Alegreya’s `sups` covers only digits and “p”, so superscripts such as ordinals use the body font. */
     sup {
         font-family: var(--fonts-body);
     }
@@ -531,22 +531,6 @@ nav.breadcrumbs {
 
             display: inline;
         }
-    }
-}
-
-/*** Citations ***/
-
-sup.citation {
-    /* show citations using real 'sups' feature */
-    font-size: unset;
-    vertical-align: unset;
-    font-variant-position: super;
-
-    color: var(--colour-secondary);
-
-    a {
-        color: var(--colour-secondary);
-        text-decoration: none;
     }
 }
 
@@ -1462,8 +1446,12 @@ dl {
     &>li {
         margin-top: .5lh;
 
+        &>p {
+            text-indent: -1.5lh;
+        }
+
         &::marker {
-            color: var(--colour-secondary);
+            content: none;
         }
     }
 
@@ -1477,18 +1465,6 @@ dl {
         font-family: monospace;
         a {
             color: var(--colour-secondary);
-        }
-    }
-}
-
-#ref-list {
-    &>li {
-        &>p {
-            text-indent: -1.5lh;
-        }
-
-        &::marker {
-            content: none;
         }
     }
 }

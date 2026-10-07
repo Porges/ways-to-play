@@ -1,5 +1,6 @@
 use std::{borrow::Cow, collections::BTreeMap, str::FromStr};
 
+use itertools::Itertools;
 use maud::{html, Markup};
 
 use crate::{
@@ -19,6 +20,12 @@ pub struct RenderedEntry {
     pub reference: Markup,
     pub inline_cite: Option<InlineCiteRenderer>,
     pub url: Option<String>,
+
+    /// Citation form for a work’s first appearance in a page’s notes:
+    /// names, main title, and year, linked to the full reference.
+    pub note_full: Markup,
+    /// Citation form for later appearances: family names and short title.
+    pub note_short: Markup,
 }
 
 // takes the reference ID (for href) and the optional info (page number etc)
@@ -94,11 +101,17 @@ fn backfill_handle(reference: &Reference) -> Cow<'_, Reference> {
 }
 
 pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
+    // Short forms that would be ambiguous fall back to the full main title.
+    let short_key = |r: &Reference| (note_names(r).map(|n| n.short_text), short_title(r));
+    let short_counts = bib.references.values().map(short_key).counts();
+
     let mut result = BTreeMap::new();
     for (key, reference) in &bib.references {
         let inline_cite = inline_cite(reference);
         let url = reference.common().url.clone();
         let iso_date = reference.iso_date();
+        let ambiguous = short_counts[&short_key(reference)] > 1;
+        let (note_full, note_short) = note_forms(key, reference, ambiguous);
 
         // generate name sort key
         let name_key = reference
@@ -112,7 +125,9 @@ pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
                     .map(|a| format!("{} {}", a.family.as_deref().unwrap_or_default(), a.given))
             })
             .or_else(|| reference.publisher().map(|l| l.value.clone()))
-            .unwrap_or_default();
+            .unwrap_or_default()
+            .trim()
+            .to_string();
 
         let reference = backfill_doi(reference);
         let reference = backfill_isbn(&reference);
@@ -127,11 +142,199 @@ pub fn to_rendered(bib: &Bibliography) -> RenderedBibliography {
                 reference,
                 inline_cite,
                 url,
+                note_full,
+                note_short,
             },
         );
     }
 
     result
+}
+
+struct NoteNames {
+    full: Markup,
+    short: Markup,
+    short_text: String,
+}
+
+fn join_names(names: &[Markup]) -> Markup {
+    let total = names.len();
+    html! {
+        @if total > 3 {
+            (names[0]) " et al."
+        } @else {
+            @for (ix, name) in names.iter().enumerate() {
+                @if ix > 0 {
+                    @if ix < total - 1 { ", " }
+                    @else if total > 2 { ", and " }
+                    @else { " and " }
+                }
+                (name)
+            }
+        }
+    }
+}
+
+fn person_natural(p: &Person) -> Markup {
+    let lang = p.lang.as_deref();
+    let sep = if needs_space(lang) { " " } else { "" };
+    html! {
+        bdi lang=[lang] {
+            @match &p.family {
+                Some(family) if family_last(lang) => { (p.given) (sep) (family) }
+                Some(family) => { (family) (sep) (p.given) }
+                None => { (p.given) }
+            }
+        }
+    }
+}
+
+fn person_short(p: &Person) -> &str {
+    p.family.as_deref().unwrap_or(&p.given)
+}
+
+fn note_names(r: &Reference) -> Option<NoteNames> {
+    let (people, suffix) = if !r.authors().is_empty() {
+        (r.authors(), "")
+    } else if !r.editors().is_empty() {
+        let suffix = if r.editors().len() > 1 { " (eds.)" } else { " (ed.)" };
+        (r.editors(), suffix)
+    } else if let Some(publisher) = r.publisher() {
+        let name = render_lstr_just_span(publisher, Some("noun"), None);
+        return Some(NoteNames {
+            full: name.clone(),
+            short: name,
+            short_text: publisher.value.clone(),
+        });
+    } else {
+        return None;
+    };
+
+    let full: Vec<Markup> = people.iter().map(person_natural).collect();
+    let short: Vec<Markup> = people
+        .iter()
+        .map(|p| html! { bdi lang=[p.lang.as_deref()] { (person_short(p)) } })
+        .collect();
+    Some(NoteNames {
+        full: html! { (join_names(&full)) (suffix) },
+        short: join_names(&short),
+        short_text: people.iter().map(person_short).join("|"),
+    })
+}
+
+/// Finds the colon introducing a subtitle, ignoring any inside HTML tags.
+fn subtitle_colon(title: &str) -> Option<usize> {
+    let mut in_tag = false;
+    for (ix, c) in title.char_indices() {
+        match c {
+            '<' => in_tag = true,
+            '>' => in_tag = false,
+            ':' if !in_tag && title[ix + 1..].starts_with(' ') => return Some(ix),
+            _ => {}
+        }
+    }
+    None
+}
+
+/// Derives a short title (per Chicago 14.30) by dropping any subtitle and,
+/// for English titles, a leading article.
+fn derive_short_title(title: &LString) -> String {
+    let mut short = title.value.as_str();
+    if let Some(ix) = subtitle_colon(short) {
+        short = &short[..ix];
+    }
+
+    let english = title
+        .lang
+        .as_ref()
+        .is_none_or(|l| l.language.as_str() == "en");
+    if english {
+        for article in ["The ", "A ", "An "] {
+            if let Some(rest) = short.strip_prefix(article) {
+                if !rest.trim().is_empty() {
+                    return capitalise_first(rest.trim_end());
+                }
+                break;
+            }
+        }
+    }
+
+    short.trim_end().to_string()
+}
+
+/// Upper-cases the first character of text, skipping any leading markup tags.
+fn capitalise_first(s: &str) -> String {
+    let mut in_tag = false;
+    for (ix, c) in s.char_indices() {
+        match c {
+            '<' => in_tag = true,
+            '>' => in_tag = false,
+            _ if in_tag => {}
+            _ => {
+                let mut out = String::with_capacity(s.len());
+                out.push_str(&s[..ix]);
+                out.extend(c.to_uppercase());
+                out.push_str(&s[ix + c.len_utf8()..]);
+                return out;
+            }
+        }
+    }
+    s.to_string()
+}
+
+fn short_title(r: &Reference) -> String {
+    let common = r.common();
+    common
+        .title_short
+        .clone()
+        .unwrap_or_else(|| derive_short_title(&common.title))
+}
+
+/// Renders the first-citation and subsequent-citation forms used in notes.
+fn note_forms(key: &str, r: &Reference, ambiguous: bool) -> (Markup, Markup) {
+    let title = &r.common().title;
+    let is_book = matches!(r, Reference::Book(_) | Reference::Thesis(_));
+    let render_title = |value: &str| {
+        let lstr = LString {
+            value: value.to_string(),
+            lang: title.lang.clone(),
+            alt: None,
+        };
+        if is_book {
+            render_lstr_just_cite(&lstr, None, None)
+        } else {
+            html! { "‘" (render_lstr_just_span(&lstr, None, None)) "’" }
+        }
+    };
+
+    let href = format!("#ref-{key}");
+    let names = note_names(r);
+    let year = r
+        .iso_date()
+        .and_then(|d| d.split('-').next().map(str::to_string))
+        .filter(|y| !y.is_empty());
+
+    let full = html! {
+        @if let Some(names) = &names { (names.full) ", " }
+        a href=(href) { (render_title(&title.value)) }
+        (render_lstr_alt(title, " [", "]", None, None))
+        @if let Some(year) = &year { " (" (year) ")" }
+    };
+
+    let short = if ambiguous {
+        html! {
+            @if let Some(names) = &names { (names.short) ", " }
+            a href=(href) { (render_title(&title.value)) }
+            @if let Some(year) = &year { " (" (year) ")" }
+        }
+    } else {
+        html! {
+            @if let Some(names) = &names { (names.short) ", " }
+            a href=(href) { (render_title(&short_title(r))) }
+        }
+    };
+
+    (full, short)
 }
 
 fn inline_cite(reference: &Reference) -> Option<InlineCiteRenderer> {
@@ -1159,7 +1362,47 @@ fn render_original(r: &Reference) -> Markup {
 
 #[cfg(test)]
 mod test {
-    use super::ordinal;
+    use icu::locale::langid;
+
+    use super::{derive_short_title, ordinal};
+    use crate::bibliography::LString;
+
+    fn short(value: &str) -> String {
+        derive_short_title(&LString::from(value.to_string()))
+    }
+
+    #[test]
+    fn short_title_drops_subtitle_and_leading_article() {
+        assert_eq!(short("The World of the Shining Prince"), "World of the Shining Prince");
+        assert_eq!(short("Brocade by Night: ‘Kokin Wakashū’ and the Court Style"), "Brocade by Night");
+        assert_eq!(short("An Introduction to Japanese Tea Ritual"), "Introduction to Japanese Tea Ritual");
+        assert_eq!(short("The"), "The");
+    }
+
+    #[test]
+    fn short_title_capitalises_after_dropping_article() {
+        assert_eq!(short("A history of playing-cards"), "History of playing-cards");
+        assert_eq!(short("The <i>kabufuda</i> decks"), "<i>Kabufuda</i> decks");
+        assert_eq!(short("the lowercase title"), "the lowercase title");
+    }
+
+    #[test]
+    fn short_title_ignores_colons_inside_markup() {
+        assert_eq!(
+            short(r#"<span title="note: here">Games</span>: Rules"#),
+            r#"<span title="note: here">Games</span>"#
+        );
+    }
+
+    #[test]
+    fn short_title_keeps_articles_in_other_languages() {
+        let title = LString {
+            value: "A Coruña: historia".to_string(),
+            lang: Some(langid!("gl")),
+            alt: None,
+        };
+        assert_eq!(derive_short_title(&title), "A Coruña");
+    }
 
     #[test]
     fn test_ordinal() {
