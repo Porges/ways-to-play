@@ -1373,23 +1373,94 @@ aside.footnote {
     margin-top: 1rlh;
 }
 
-/*** Counters ***/
+/*** Note markers and popovers ***/
 
-article {
-    /* counter-reset on body gives messed up results because of some weird interaction with container-type */
-    counter-reset: fn;
-}
+/* Each note is a popover, opened from its marker. Wide screens show notes
+   in the margin instead, except within tables. */
 
-.footnote-indicator::before {
-    counter-increment: fn;
-    content: counter(fn);
+.footnote-indicator {
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0 0 0 .05em;
+    font: inherit;
     font-variant-position: super;
+    line-height: 1;
     color: var(--red);
+    cursor: pointer;
+
+    &:focus-visible {
+        outline: 1px solid var(--red);
+        outline-offset: 1px;
+    }
 }
 
 span.footnote::before {
-    content: counter(fn) "\2004·\2004";
+    content: attr(data-n) "\2004·\2004";
     color: var(--red);
+}
+
+span.footnote:popover-open {
+    /* a sheet along the bottom of the viewport, unless anchoring is supported */
+    inset: auto 0 0 0;
+    margin: 0 auto;
+    width: min(32rem, 100%);
+    max-height: 50vh;
+    padding: .5rlh 1rlh;
+
+    background: var(--colour-reading);
+    border: 1px solid var(--colour-light);
+    box-shadow: 0 .25rem 1rem rgb(0 0 0 / 0.2);
+}
+
+@supports (position-area: block-end) {
+    span.footnote:popover-open {
+        inset: auto;
+        margin: .25rlh 0;
+        width: min(24rem, 100vw - 2rem);
+        position-area: block-end span-all;
+        position-try-fallbacks: flip-block;
+    }
+}
+
+/* in a popover there is no previous note for “ibid.” to refer to */
+span.footnote:popover-open {
+    .ibid {
+        display: none;
+    }
+
+    .ibid-expanded {
+        display: inline;
+    }
+}
+
+@media (width >=1161px) {
+    span.footnote:not(:popover-open, table *) {
+        display: block;
+        position: static;
+        inset: auto;
+        height: auto;
+        overflow: visible;
+        padding: 0;
+        background: none;
+    }
+
+    .footnote-indicator:not(table *) {
+        pointer-events: none;
+        cursor: auto;
+    }
+}
+
+@media print {
+    span.footnote:not(:popover-open) {
+        display: block;
+        position: static;
+        inset: auto;
+        height: auto;
+        overflow: visible;
+        padding: 0;
+        background: none;
+    }
 }
 
 aside.footnote {

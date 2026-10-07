@@ -84,6 +84,8 @@ pub fn to_html(
         noted: Default::default(),
         cite_mode: CiteMode::Note,
         in_footnote: false,
+        note_count: 0,
+        table_depth: 0,
         prev_note: None,
         note_cites: None,
         header_stack: Vec::new(),
@@ -102,8 +104,16 @@ enum CiteMode {
     /// Each group of citations becomes a numbered note.
     Note,
     /// Citations are written into the surrounding text: used inside notes,
-    /// captions, tables, and headings, where a numbered note cannot go.
+    /// captions, and headings, where a numbered note cannot go.
     Inline,
+}
+
+/// Whether a rendered citation group already ends with a full stop: in the
+/// margin, where “ibid.” can be used, and in a popover, where it cannot.
+#[derive(Clone, Copy)]
+struct EndsWithPeriod {
+    margin: bool,
+    popover: bool,
 }
 
 struct Converter<'a> {
@@ -118,6 +128,10 @@ struct Converter<'a> {
     noted: HashSet<String>, // works already cited in full on this page
     cite_mode: CiteMode,
     in_footnote: bool,
+    note_count: usize,
+    /// Notes in tables appear only as popovers, so they take no part in
+    /// “ibid.” runs or in deciding where a work is first cited in full.
+    table_depth: usize,
     /// The single work (and locator) cited by the previous note, for “ibid.”
     prev_note: Option<(String, Option<String>)>,
     /// Citations made so far in the note being rendered, if any.
@@ -319,10 +333,19 @@ impl Converter<'_> {
         self.end_note();
         self.in_footnote = false;
 
-        Ok(html! {
-            span.footnote-indicator { }
-            span.footnote role="note" { (body?) }
-        })
+        Ok(self.note(body?))
+    }
+
+    /// Wraps a note’s body with its marker. The note is a popover, which
+    /// wide screens instead show in the margin unless it is in a table.
+    fn note(&mut self, body: Markup) -> Markup {
+        self.note_count += 1;
+        let n = self.note_count;
+        let id = format!("note-{n}");
+        html! {
+            button.footnote-indicator type="button" popovertarget=(id) aria-label={"Note " (n)} { (n) }
+            span.footnote #(id) role="note" popover data-n=(n) { (body) }
+        }
     }
 
     /// Records a citation, returning its anchor and whether the work has
@@ -344,6 +367,9 @@ impl Converter<'_> {
     /// Finishes a note, remembering its work if it cited exactly one.
     fn end_note(&mut self) {
         let cites = self.note_cites.take().unwrap_or_default();
+        if self.table_depth > 0 {
+            return;
+        }
         self.prev_note = match cites.as_slice() {
             [first, ..] if cites.iter().all(|(id, _)| *id == first.0) => cites.last().cloned(),
             _ => None,
@@ -352,13 +378,14 @@ impl Converter<'_> {
 
     /// Renders a run of citations in note form, separated by semicolons.
     /// The first citation in a note becomes “ibid.” when the previous note
-    /// cited only the same work; `capitalise` gives “Ibid.” instead.
-    /// Also returns whether the result already ends with a full stop.
+    /// cited only the same work; `capitalise` gives “Ibid.” instead. As a
+    /// popover has no visible previous note, “ibid.” is accompanied by a
+    /// short form for popovers to show instead.
     fn render_cite_group(
         &mut self,
         cites: &[(&str, Option<&str>)],
         capitalise: bool,
-    ) -> Result<(Markup, bool)> {
+    ) -> Result<(Markup, EndsWithPeriod)> {
         let missing: Vec<&str> = cites
             .iter()
             .map(|(id, _)| *id)
@@ -368,29 +395,53 @@ impl Converter<'_> {
             bail!("missing bibliography entry: {:?}", missing);
         }
 
+        let in_table = self.table_depth > 0;
         let mut rendered = Vec::new();
-        let mut ends_with_period = false;
+        let mut ends = EndsWithPeriod {
+            margin: false,
+            popover: false,
+        };
         for (id, what) in cites {
             let what = &what.and_then(bare_locator);
             let anchor = self.insert_ref(id);
             let entry = self.bibliography.get(*id).unwrap();
-            let ibid = self.note_cites.as_ref().is_some_and(|c| c.is_empty())
+            let ibid = !in_table
+                && self.note_cites.as_ref().is_some_and(|c| c.is_empty())
                 && self.prev_note.as_ref().is_some_and(|(prev, _)| prev == id);
-            let first = self.noted.insert(id.to_string());
+            let first = if in_table {
+                !self.noted.contains(*id)
+            } else {
+                self.noted.insert(id.to_string())
+            };
+            let what_ends = what.is_some_and(|w| w.ends_with('.'));
             let cite = if ibid {
                 let same_place = self.prev_note.as_ref().unwrap().1.as_deref() == *what;
-                let what = what.filter(|_| !same_place);
-                ends_with_period = what.is_none_or(|w| w.ends_with('.'));
+                let ibid_what = what.filter(|_| !same_place);
+                ends = EndsWithPeriod {
+                    margin: ibid_what.is_none_or(|w| w.ends_with('.')),
+                    popover: what_ends,
+                };
                 html! {
                     span.citation #(anchor) {
-                        a href={"#ref-" (id)} lang="la" { @if capitalise { "Ibid." } @else { "ibid." } }
-                        @if let Some(what) = what {
-                            ", " (linked_what(entry, what))
+                        span.ibid {
+                            a href={"#ref-" (id)} lang="la" { @if capitalise { "Ibid." } @else { "ibid." } }
+                            @if let Some(what) = ibid_what {
+                                ", " (linked_what(entry, what))
+                            }
+                        }
+                        span.ibid-expanded hidden {
+                            (entry.note_short)
+                            @if let Some(what) = what {
+                                ", " (linked_what(entry, what))
+                            }
                         }
                     }
                 }
             } else {
-                ends_with_period = what.is_some_and(|w| w.ends_with('.'));
+                ends = EndsWithPeriod {
+                    margin: what_ends,
+                    popover: what_ends,
+                };
                 html! {
                     span.citation #(anchor) {
                         @if first { (entry.note_full) } @else { (entry.note_short) }
@@ -413,7 +464,7 @@ impl Converter<'_> {
                     (cite)
                 }
             },
-            ends_with_period,
+            ends,
         ))
     }
 
@@ -441,17 +492,17 @@ impl Converter<'_> {
                         self.begin_note();
                         let result = self.render_cite_group(&cites, true);
                         self.end_note();
-                        let (group, ends_with_period) = result?;
+                        let (group, ends) = result?;
                         // the note marker follows any punctuation (Chicago 14.26)
                         out.truncate(out.trim_end().len());
                         out.push_str(punct);
-                        let note = html! {
-                            span.footnote-indicator { }
-                            span.footnote role="note" {
-                                (group) @if !ends_with_period { "." }
-                            }
+                        let body = html! {
+                            (group)
+                            @if !ends.margin && !ends.popover { "." }
+                            @else if !ends.popover { span.ibid-expanded hidden { "." } }
+                            @else if !ends.margin { span.ibid { "." } }
                         };
-                        out.push_str(&note.into_string());
+                        out.push_str(&self.note(body).into_string());
                     }
                     CiteMode::Inline => {
                         let (group, _) = self.render_cite_group(&cites, false)?;
@@ -656,23 +707,19 @@ impl Converter<'_> {
                     _ => unreachable!(),
                 }
             }
-            Node::Table(table) => self.with_cite_mode(CiteMode::Inline, |s| {
-                Ok(html! {
-                    @let mut children = table.children.iter();
+            Node::Table(table) => {
+                self.table_depth += 1;
+                let mut children = table.children.iter();
+                let head = children.next().map(|c| self.convert(true, c)).transpose();
+                let body: Result<Vec<Markup>> = children.map(|c| self.convert(false, c)).collect();
+                self.table_depth -= 1;
+                html! {
                     table {
-                        thead {
-                            @if let Some(c) = children.next() {
-                                (s.convert(true, c)?)
-                            }
-                        }
-                        tbody {
-                            @for c in children {
-                                (s.convert(false, c)?)
-                            }
-                        }
+                        thead { @if let Some(head) = head? { (head) } }
+                        tbody { @for row in body? { (row) } }
                     }
-                })
-            })?,
+                }
+            }
             Node::TableRow(table_row) => {
                 html! {
                     tr {
@@ -1130,13 +1177,17 @@ impl Converter<'_> {
             Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
                 let attributes = extract_attributes(&flow.attributes)?;
                 let empty = el_name == "br" || el_name == "img";
+                let is_table = el_name == "table";
+                self.table_depth += usize::from(is_table);
+                let children = self.expand(&flow.children);
+                self.table_depth -= usize::from(is_table);
                 html! {
                     (maud::PreEscaped(format!("<{}", el_name)))
                     @for attr in attributes {
                         " " (attr.0) (maud::PreEscaped("=\"")) (attr.1) (maud::PreEscaped("\""))
                     }
                     (maud::PreEscaped(">"))
-                    (self.expand(&flow.children)?)
+                    (children?)
                     @if !empty {
                         (maud::PreEscaped(format!("</{}>", el_name)))
                     }
@@ -1754,6 +1805,11 @@ Brocade:
             constructs: markdown::Constructs {
                 gfm_footnote_definition: true,
                 gfm_label_start_footnote: true,
+                gfm_table: true,
+                html_flow: false,
+                html_text: false,
+                mdx_jsx_flow: true,
+                mdx_jsx_text: true,
                 ..markdown::Constructs::default()
             },
             ..markdown::ParseOptions::default()
@@ -1775,6 +1831,13 @@ Brocade:
     const BROCADE_FULL: &str = r##"<bdi>Helen Craig McCullough</bdi>, <a href="#ref-Brocade"><cite>Brocade by Night: ‘Kokin Wakashū’ and the Court Style</cite></a> (1985)"##;
     const BROCADE_SHORT: &str = r##"<bdi>McCullough</bdi>, <a href="#ref-Brocade"><cite>Brocade by Night</cite></a>"##;
 
+    /// The marker and opening of note `n`.
+    fn note(n: usize) -> String {
+        format!(
+            r#"<button class="footnote-indicator" type="button" popovertarget="note-{n}" aria-label="Note {n}">{n}</button><span class="footnote" id="note-{n}" role="note" popover data-n="{n}">"#
+        )
+    }
+
     #[test]
     fn citations_in_text_become_notes_full_then_short() {
         let html = render(
@@ -1784,10 +1847,12 @@ Brocade:
 
         assert_eq!(html.matches(r#"class="footnote-indicator""#).count(), 3);
         assert!(html.contains(&format!(
-            r#"played.<span class="footnote-indicator"></span><span class="footnote" role="note"><span class="citation" id="cite-1">{SHINING_PRINCE_FULL}, 165</span>.</span>"#
+            r#"played.{}<span class="citation" id="cite-1">{SHINING_PRINCE_FULL}, 165</span>.</span>"#,
+            note(1)
         )));
         assert!(html.contains(&format!(
-            r#"Later,<span class="footnote-indicator"></span><span class="footnote" role="note"><span class="citation" id="cite-3">{SHINING_PRINCE_SHORT}, 170</span>; <span class="citation" id="cite-4">{BROCADE_SHORT}, 242</span>.</span> too."#
+            r#"Later,{}<span class="citation" id="cite-3">{SHINING_PRINCE_SHORT}, 170</span>; <span class="citation" id="cite-4">{BROCADE_SHORT}, 242</span>.</span> too."#,
+            note(3)
         )));
     }
 
@@ -1815,20 +1880,38 @@ Brocade:
         .unwrap();
 
         let ibid = |n: usize, id: &str, text: &str| {
-            format!(r##"<span class="citation" id="cite-{n}"><a href="#ref-{id}" lang="la">{text}</a>"##)
+            format!(r##"<span class="citation" id="cite-{n}"><span class="ibid"><a href="#ref-{id}" lang="la">{text}</a>"##)
         };
-        // same place: no locator
-        assert!(html.contains(&format!("{}</span></span>", ibid(2, "ShiningPrince", "Ibid."))));
+        let expanded = |what: &str| format!(r#"<span class="ibid-expanded" hidden>{what}</span>"#);
+        // same place: no locator, but popovers give the short form and full stop
+        assert!(html.contains(&format!(
+            "{}</span>{}</span>{}</span>",
+            ibid(2, "ShiningPrince", "Ibid."),
+            expanded(&format!("{SHINING_PRINCE_SHORT}, 165")),
+            expanded(".")
+        )));
         // different place: locator kept
-        assert!(html.contains(&format!("{}, 170</span>.</span>", ibid(3, "ShiningPrince", "Ibid."))));
+        assert!(html.contains(&format!(
+            "{}, 170</span>{}</span>.</span>",
+            ibid(3, "ShiningPrince", "Ibid."),
+            expanded(&format!("{SHINING_PRINCE_SHORT}, 170"))
+        )));
         // the first citation of a group can be ibid.
-        assert!(html.contains(&format!("{}</span>; ", ibid(4, "ShiningPrince", "Ibid."))));
+        assert!(html.contains(&format!(
+            "{}</span>{}</span>; ",
+            ibid(4, "ShiningPrince", "Ibid."),
+            expanded(&format!("{SHINING_PRINCE_SHORT}, 170"))
+        )));
         // but not after a note citing two works
         assert!(html.contains(&format!(
             r#"<span class="citation" id="cite-6">{BROCADE_SHORT}, 242</span>"#
         )));
         // lower-case mid-sentence inside a footnote
-        assert!(html.contains(&format!("Compare ({}, 250</span>) here.", ibid(7, "Brocade", "ibid."))));
+        assert!(html.contains(&format!(
+            "Compare ({}, 250</span>{}</span>) here.",
+            ibid(7, "Brocade", "ibid."),
+            expanded(&format!("{BROCADE_SHORT}, 250"))
+        )));
         // moved inside the sentence, spaced after an inline element
         assert!(html.contains(&format!(
             r#"<em>Brocade</em> (<span class="citation" id="cite-8">{BROCADE_SHORT}, 251</span>).</span>"#
@@ -1845,7 +1928,35 @@ Brocade:
 
         let html = render("A[@ShiningPrince p. 165]. B[@ShiningPrince p. ].").unwrap();
         assert!(html.contains(&format!("{SHINING_PRINCE_FULL}, 165</span>.</span>")));
-        assert!(html.contains(r#"lang="la">Ibid.</a></span></span>"#), "{html}");
+        assert!(html.contains(&format!(
+            r#"lang="la">Ibid.</a></span><span class="ibid-expanded" hidden>{SHINING_PRINCE_SHORT}</span></span>"#
+        )), "{html}");
+    }
+
+    #[test]
+    fn notes_in_tables_skip_ibid_and_first_citations() {
+        let html = render(concat!(
+            "A[@ShiningPrince 165].\n\n",
+            "<table><tr><td>\n\n",
+            "X[@ShiningPrince 165]. Y[@Brocade 1].\n\n",
+            "</td></tr></table>\n\n",
+            "B[@ShiningPrince 165]. C[@Brocade 2].\n\n",
+            "| Roll | Name |\n|---|---|\n| 1 | Z[@Brocade 3] |\n",
+        ))
+        .unwrap();
+
+        // not ibid. after the note before the table
+        assert!(html.contains(&format!(
+            r#"<span class="citation" id="cite-2">{SHINING_PRINCE_SHORT}, 165</span>"#
+        )));
+        // in full, as the first citation…
+        assert!(html.contains(&format!(r#"<span class="citation" id="cite-3">{BROCADE_FULL}, 1</span>"#)));
+        // …but the table note neither breaks an ibid. run…
+        assert!(html.contains(r#"<span class="citation" id="cite-4"><span class="ibid">"#), "{html}");
+        // …nor counts as the first citation outside the table
+        assert!(html.contains(&format!(r#"<span class="citation" id="cite-5">{BROCADE_FULL}, 2</span>"#)));
+        // Markdown tables don’t use ibid. either
+        assert!(html.contains(&format!(r#"<span class="citation" id="cite-6">{BROCADE_SHORT}, 3</span>"#)), "{html}");
     }
 
     #[test]
