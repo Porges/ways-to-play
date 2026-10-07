@@ -1377,7 +1377,8 @@ aside.footnote {
 /*** Note markers and popovers ***/
 
 /* Each note is a popover, opened from its marker. Wide screens show notes
-   in the margin instead, except within tables. */
+   in the margin instead, except within tables and multi-column lists,
+   whose floats cannot escape their column. */
 
 .footnote-indicator {
     appearance: none;
@@ -1436,7 +1437,7 @@ span.footnote:popover-open {
 }
 
 @media (width >=1161px) {
-    span.footnote:not(:popover-open, table *) {
+    span.footnote:not(:popover-open, :is(table, [class^=columnar]) *) {
         display: block;
         position: static;
         inset: auto;
@@ -1446,7 +1447,7 @@ span.footnote:popover-open {
         background: none;
     }
 
-    .footnote-indicator:not(table *) {
+    .footnote-indicator:not(:is(table, [class^=columnar]) *) {
         pointer-events: none;
         cursor: auto;
     }

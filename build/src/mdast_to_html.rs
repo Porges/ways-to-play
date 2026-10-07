@@ -85,7 +85,7 @@ pub fn to_html(
         cite_mode: CiteMode::Note,
         in_footnote: false,
         note_count: 0,
-        table_depth: 0,
+        popover_only_depth: 0,
         prev_note: None,
         note_cites: None,
         header_stack: Vec::new(),
@@ -129,9 +129,10 @@ struct Converter<'a> {
     cite_mode: CiteMode,
     in_footnote: bool,
     note_count: usize,
-    /// Notes in tables appear only as popovers, so they take no part in
-    /// “ibid.” runs or in deciding where a work is first cited in full.
-    table_depth: usize,
+    /// Notes in tables and multi-column blocks appear only as popovers, so
+    /// they take no part in “ibid.” runs or in deciding where a work is
+    /// first cited in full.
+    popover_only_depth: usize,
     /// The single work (and locator) cited by the previous note, for “ibid.”
     prev_note: Option<(String, Option<String>)>,
     /// Citations made so far in the note being rendered, if any.
@@ -367,7 +368,7 @@ impl Converter<'_> {
     /// Finishes a note, remembering its work if it cited exactly one.
     fn end_note(&mut self) {
         let cites = self.note_cites.take().unwrap_or_default();
-        if self.table_depth > 0 {
+        if self.popover_only_depth > 0 {
             return;
         }
         self.prev_note = match cites.as_slice() {
@@ -395,7 +396,7 @@ impl Converter<'_> {
             bail!("missing bibliography entry: {:?}", missing);
         }
 
-        let in_table = self.table_depth > 0;
+        let popover_only = self.popover_only_depth > 0;
         let mut rendered = Vec::new();
         let mut ends = EndsWithPeriod {
             margin: false,
@@ -405,10 +406,10 @@ impl Converter<'_> {
             let what = &what.and_then(bare_locator);
             let anchor = self.insert_ref(id);
             let entry = self.bibliography.get(*id).unwrap();
-            let ibid = !in_table
+            let ibid = !popover_only
                 && self.note_cites.as_ref().is_some_and(|c| c.is_empty())
                 && self.prev_note.as_ref().is_some_and(|(prev, _)| prev == id);
-            let first = if in_table {
+            let first = if popover_only {
                 !self.noted.contains(*id)
             } else {
                 self.noted.insert(id.to_string())
@@ -708,11 +709,11 @@ impl Converter<'_> {
                 }
             }
             Node::Table(table) => {
-                self.table_depth += 1;
+                self.popover_only_depth += 1;
                 let mut children = table.children.iter();
                 let head = children.next().map(|c| self.convert(true, c)).transpose();
                 let body: Result<Vec<Markup>> = children.map(|c| self.convert(false, c)).collect();
-                self.table_depth -= 1;
+                self.popover_only_depth -= 1;
                 html! {
                     table {
                         thead { @if let Some(head) = head? { (head) } }
@@ -1177,10 +1178,13 @@ impl Converter<'_> {
             Some(el_name) if el_name.starts_with(|c: char| c.is_ascii_lowercase()) => {
                 let attributes = extract_attributes(&flow.attributes)?;
                 let empty = el_name == "br" || el_name == "img";
-                let is_table = el_name == "table";
-                self.table_depth += usize::from(is_table);
+                let popover_only = el_name == "table"
+                    || attributes
+                        .iter()
+                        .any(|(k, v)| *k == "class" && v.split_whitespace().any(|c| c.starts_with("columnar")));
+                self.popover_only_depth += usize::from(popover_only);
                 let children = self.expand(&flow.children);
-                self.table_depth -= usize::from(is_table);
+                self.popover_only_depth -= usize::from(popover_only);
                 html! {
                     (maud::PreEscaped(format!("<{}", el_name)))
                     @for attr in attributes {
@@ -1957,6 +1961,21 @@ Brocade:
         assert!(html.contains(&format!(r#"<span class="citation" id="cite-5">{BROCADE_FULL}, 2</span>"#)));
         // Markdown tables don’t use ibid. either
         assert!(html.contains(&format!(r#"<span class="citation" id="cite-6">{BROCADE_SHORT}, 3</span>"#)), "{html}");
+    }
+
+    #[test]
+    fn notes_in_columnar_blocks_skip_ibid() {
+        let html = render(concat!(
+            "A[@ShiningPrince 165].\n\n",
+            "<div class=\"columnar\">\n\n",
+            "- X[@ShiningPrince 165]\n",
+            "</div>\n",
+        ))
+        .unwrap();
+
+        assert!(html.contains(&format!(
+            r#"<span class="citation" id="cite-2">{SHINING_PRINCE_SHORT}, 165</span>"#
+        )), "{html}");
     }
 
     #[test]
