@@ -311,6 +311,16 @@ impl<'a> Templater<'a> {
             html! {
                 article property="mainEntity" typeof="http://schema.org/Article" {
                     link property="copyrightHolder author publisher" href="#me";
+                    @if let Some(mod_date) = article.date_modified() {
+                        p.last-updated {
+                            "Updated "
+                            time property="dateModified" datetime=(mod_date) {
+                                (mod_date.strftime("%A, %-d"))
+                                (ordinal_suffix(mod_date.day()))
+                                (mod_date.strftime(" %B %Y"))
+                            }
+                        }
+                    }
                     h1.page-title property="headline" {
                         @if let Some(original_title) = article.original_title() {
                             (original_title) " · "
@@ -318,17 +328,6 @@ impl<'a> Templater<'a> {
                         span.simple property="name" { (article.title_markup()) }
                         @if article.is_draft() {
                             " 🚧"
-                        }
-                    }
-                    @if let Some(mod_date) = article.date_modified() {
-                        p.last-updated {
-                            "Last updated: "
-                            time property="dateModified" datetime=(mod_date) {
-                                (mod_date.strftime("%A, %-d"))
-                                (ordinal_suffix(mod_date.day()))
-                                (mod_date.strftime(" %B %Y"))
-                            }
-                            "."
                         }
                     }
                     (content)

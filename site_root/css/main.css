@@ -263,6 +263,8 @@ body {
 figcaption,
 caption,
 figure>p.credit,
+blockquote footer,
+.last-updated,
 .footnote {
     font-family: "Alegreya Sans", var(--fonts-body);
     font-weight: 400;
@@ -281,17 +283,14 @@ p {
 }
 
 /* lead paragraph of articles */
-p.last-updated+p {
+h1.page-title+p {
     hyphens: none;
 
     font-weight: 350;
-    font-size: 1.25rem;
+    font-size: 1.1875rem;
 
-    /* Push out RHS by same amount as figure */
-    /* margin-right: calc(-2 * var(--figure-wide-overlap)); */
-
-    text-align: center;
-    text-wrap: balance;
+    text-align: start;
+    text-wrap: pretty;
 
     color: var(--colour-dark)
 }
@@ -316,17 +315,13 @@ h6 {
 }
 
 h1.page-title {
-    font-weight: bolder;
+    font-weight: 600;
+    letter-spacing: -0.01em;
     text-align: center;
     font-size: 2.5rem;
     margin-top: 1rlh;
     line-height: 2rlh;
     text-wrap: balance;
-
-    /* The Latin portion should be italic */
-    .simple {
-        font-style: italic;
-    }
 }
 
 
@@ -985,6 +980,7 @@ dialog.lightbox {
 blockquote {
     padding-left: 1lh;
     color: var(--colour-dark);
+    font-size: .9375rem;
 
     text-align: start;
 
@@ -1001,6 +997,7 @@ blockquote {
     }
 
     footer {
+        font-size: var(--font-size-sm);
         color: var(--colour-black);
         margin-top: calc(.5rlh - 1px);
         border-top: 1px solid var(--colour-light);
@@ -1537,13 +1534,23 @@ hr {
 /** Metadata **/
 .last-updated {
     color: var(--colour-dark);
-    font-size: var(--font-size-sm);
-    line-height: .5rlh;
-    font-style: italic;
-    font-weight: 350;
-    text-align: right;
-    margin-top: .5rlh;
-    margin-bottom: .5rlh;
+    font-size: .75rem;
+    line-height: 1rlh;
+    letter-spacing: .02em;
+    text-align: end;
+    margin-top: .25rlh;
+    margin-bottom: 0;
+}
+
+/* sits at the top of the notes column */
+@media (width >=1161px) {
+    .last-updated {
+        float: right;
+        width: var(--footnote-width);
+        margin-right: calc(-1 * var(--footnote-width) - var(--note-gap));
+        margin-top: 1rlh;
+        text-align: start;
+    }
 }
 
 p.informational {
