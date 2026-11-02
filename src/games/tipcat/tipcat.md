@@ -7,6 +7,8 @@ https://www.newspapers.com/clip/115810208/tipcat-played-in-india/
 
 Maybe: qulli @AmharicEnglish1 [p. 671].
 
+Leslau describes the Tigrinya herders’ game yalel, in which a short stick is flipped into the air with another stick; it resembles tipcat.[@LeslauDocumentsTigrigna pp. 342–344]
+
 [@TipcatAndOtherChineseGames]
 
 ದೊಡ್ಡೆ  (doḍḍe) - bat used at tipcat: http://www.aa.tufs.ac.jp/~tjun/data/kandic/kannada-english_dictionary.pdf

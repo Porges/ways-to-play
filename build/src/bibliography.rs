@@ -172,8 +172,19 @@ pub struct Common {
 
     pub language: Option<LanguageIdentifier>,
 
+    pub access: Option<AccessStatus>,
+
     pub notes: Option<String>,
     pub warnings: Option<String>,
+}
+
+#[derive(Deserialize, Debug, Clone, Copy, PartialEq, Eq)]
+#[serde(rename_all = "kebab-case")]
+pub enum AccessStatus {
+    Open,
+    FreeToRead,
+    Restricted,
+    NoOnlineCopyFound,
 }
 
 impl Common {
@@ -777,6 +788,36 @@ impl NumberOrString {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn bibliography_parses_access_metadata() {
+        let bibliography: Bibliography = serde_saphyr::from_str(
+            r#"
+Example:
+  type: book
+  title: Example
+  access: free-to-read
+"#,
+        )
+        .unwrap();
+
+        let reference = bibliography.references.get("Example").unwrap();
+        assert_eq!(reference.common().access, Some(AccessStatus::FreeToRead));
+    }
+
+    #[test]
+    fn bibliography_rejects_unknown_access_metadata() {
+        let result = serde_saphyr::from_str::<Bibliography>(
+            r#"
+Example:
+  type: book
+  title: Example
+  access: partial
+"#,
+        );
+
+        assert!(result.is_err());
+    }
 
     #[test]
     fn explicit_formats_year_and_partial_dates() {

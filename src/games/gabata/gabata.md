@@ -11,4 +11,6 @@ The Ge'ez name is @ComparativeGeez [p. 5]
 
 See: @AmharicEnglish2 [p. 1574], p. 1721, p. 1857, 2186 (2), 2241
 
+@CohenJeuxAbyssins [pp. 491–495]
+
 @GabataAndOther

@@ -7,6 +7,8 @@ date modified: 2025-07-09
 
 Ge'z: @ComparativeGeez [p. 354]
 
+@CohenJeuxAbyssins [pp. 487–488]
+
 @AmharicEnglish2 [p. 1783]: diboš
 
 Kautan - @SomaliGames

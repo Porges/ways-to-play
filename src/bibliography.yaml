@@ -8166,13 +8166,124 @@ ComparativeGeez:
   URL: https://archive.org/details/leslau-comparative-dictionary-of-geez-1987
   title: Comparative Dictionary of Geʽez
   author:
-    - given: Wolf
+    - &Wolf_Leslau
+      given: Wolf
       family: Leslau
       url: https://en.wikipedia.org/wiki/Wolf_Leslau
   issued: 1987
   publisher: Otto Harrassowitz
   publisher-place: Wiesbaden
   ISBN: "3447025921"
+LeslauTigreGames:
+  type: article-journal
+  title: Tigre games
+  author: [*Wolf_Leslau]
+  access: restricted
+  page: 61-68
+  URL: https://www.jstor.org/stable/41299495
+  in:
+    title:
+      value: Rassegna di studi etiopici
+      lang: it
+    volume: 17
+    issued: 1961
+MittwochAbessinischeKinderspiele:
+  type: book
+  title:
+    value: "Abessinische Kinderspiele: amharische Texte"
+    lang: de
+  access: free-to-read
+  author:
+    - given: Eugen
+      family: Mittwoch
+  issued: 1910
+  publisher: Gedruckt in der Reichsdruckerei
+  publisher-place: Berlin
+  URL: https://catalog.hathitrust.org/Record/001326876
+CohenJeuxAbyssins:
+  type: article-journal
+  title:
+    value: Jeux abyssins
+    lang: fr
+  access: free-to-read
+  author:
+    - given: Marcel
+      family: Cohen
+  page: 463-497
+  URL: https://books.google.com/books?id=n4En23Tz0a8C&pg=PA463
+  in:
+    title:
+      value: Journal asiatique
+      lang: fr
+    volume: 18
+    issued: 1911
+    publisher: Imprimerie Nationale
+    publisher-place: Paris
+  notes: >-
+    Game inventory (section — pages): I, hide-and-seek, 465–466; II, blind
+    man’s buff, 467–468; III, cat and mouse, 468–469; IV, serpent game,
+    469–472; V, Alahoy, 473–477; VI, pinching game, 477–478; VII, La folie,
+    VIII, paired rounds, and IX, games of strength, 478–479; X, ball games,
+    479–482; XI, polo, 482–484; XII, Qencaft, 485; XIII, Tab, 485–486; XIV,
+    Akandura, 486–487; XV, knucklebones, 487–488; XVI, javelin throwing, 488;
+    XVII, swing, 488–489; XVIII, hoop, and XIX, doll, 489; XX, shoulder
+    carrying, 489–490; XXI, Sukt, 490–491; XXII, chess, cards, and gabata,
+    491–495.
+GriauleJeuxEtDivertissementsAbyssins:
+  type: book
+  title:
+    value: Jeux et divertissements abyssins
+    lang: fr
+  access: restricted
+  author:
+    - given: Marcel
+      family: Griaule
+  issued: 1935
+  publisher: Ernest Leroux
+  publisher-place: Paris
+  URL: https://catalogue.bnf.fr/ark:/12148/cb321944133.public
+# Other game leads in Leslau, Documents tigrigna, "Jeux" (printed pp. 333–346;
+# starts at PDF p. 184): "tirage au sort" procedures (pp. 333–337), including
+# straw drawing, a wet-sided stone, stacked hands, and a counting-out rhyme;
+# Muisukat (pp. 337–339; OCR spelling uncertain), a finger-counting lot game;
+# Sakkyi (pp. 339–341; transliteration uncertain), a team ball-and-bat game;
+# Tambi (pp. 344–346), a village ball-and-stick game. Names/page divisions
+# follow OCR running headers and should be checked against the scan.
+LeslauDocumentsTigrigna:
+  type: book
+  title:
+    value: "Documents tigrigna (éthiopien septentrional): grammaire et textes"
+    lang: fr
+  access: open
+  author: [*Wolf_Leslau]
+  issued: 1941
+  publisher: C. Klincksieck
+  publisher-place: Paris
+  URL: https://archive.org/details/wolf-leslau-documents-tigrigna-ethiopien-septentrional-tigrinya-grammar
+LeslauEthiopicDocumentsGurage:
+  type: book
+  title: "Ethiopic Documents: Gurage"
+  author: [*Wolf_Leslau]
+  issued: 1950
+  access: restricted
+  notes: The game is discussed on pp. 69–71.
+  publisher: Viking Fund
+  publisher-place: New York
+  URL: https://books.google.com/books?id=22zRAAAAMAAJ
+RodenLeTribuDeiMensa:
+  type: book
+  title:
+    value: "Le tribù dei Mensa: storia, legge e costumi"
+    lang: it
+  author:
+    - given: Karl Gustaf
+      family: Rodén
+  issued: 1913
+  access: free-to-read
+  notes: Mentions Uad-arbāʿ, a ball game (p. 63), and férsit, a dice game (p. 181).
+  publisher: Evangeliska Fosterlands-Stiftelsens Förlags-Expedition
+  publisher-place: Stockholm
+  URL: https://books.google.com/books?id=UltCAQAAMAAJ
 AmharicEnglish1:
   type: book
   title: Amharic-English Dictionary
@@ -12507,6 +12618,16 @@ LoYeziPu:
     volume: 31
     issue: 2
     issued: 2002
+PankhurstHistoryPrinciplesChess:
+  type: book
+  title: History and Principles of Ethiopian Chess
+  URL: https://www.jstor.org/stable/41967474
+  author:
+  - given: Richard
+    family: Pankhurst
+  issued: 1971
+  publisher: Institute of Ethiopian Studies, Haile Sellassie I University
+  publisher-place: Addis Ababa
 GabataAndOther:
   type: article-journal
   title: Gabata and Other Board-Games of Ethiopia and the Horn of Africa

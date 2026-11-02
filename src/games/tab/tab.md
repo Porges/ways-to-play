@@ -26,6 +26,8 @@ date modified: 2025-02-16
 
 See also: @JeuxDeParcours (many other games listed here), @HistoryOfTab, @ComputerizingTab, @ModernEgyptians [p. 317], @BedouinHeritage
 
+Cohen describes an Amharic lot-casting game called *Tab*[@CohenJeuxAbyssins pp. 485–486]. It may be related, but it is not yet clear whether it is the same game as this reed game.
+
 Called deleb in @SomaliGames [p. 508], see https://www.persee.fr/doc/ista_0000-0000_1993_act_495_1_2880
 
 The Somali children’s game <span lang="so" class="aka">imbili</span> also uses the names from this game.[@LetTheChildrenPlay p. 215]

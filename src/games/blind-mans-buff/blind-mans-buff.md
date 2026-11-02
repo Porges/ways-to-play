@@ -10,6 +10,8 @@ draft: true
 
 In Simalurese 'bekŏaٴ‎ ‎kŏa<sup>ء</sup>‎'.[@Simaloerese 12]
 
+@CohenJeuxAbyssins [pp. 467–468]
+
 https://digitalcollections.universiteitleiden.nl/view/item/843973?solr_nav%5Bid%5D=5bd09b05dbd67d8ce257&solr_nav%5Bpage%5D=0&solr_nav%5Boffset%5D=6
 
 maybe?
