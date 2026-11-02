@@ -28,6 +28,8 @@ See also: @JeuxDeParcours (many other games listed here), @HistoryOfTab, @Comput
 
 Cohen describes an Amharic lot-casting game called *Tab*[@CohenJeuxAbyssins pp. 485–486]. It may be related, but it is not yet clear whether it is the same game as this reed game.
 
+Guidi records an Amharic game under ጣብ, equated with አርጴ, played with six split reeds[@GuidiVocabolarioAmaricoItaliano col. 816]. Its throwing pieces and title outcomes resemble the stick-tossing form of Sheded, though this alone does not establish that the games are identical.
+
 Called deleb in @SomaliGames [p. 508], see https://www.persee.fr/doc/ista_0000-0000_1993_act_495_1_2880
 
 The Somali children’s game <span lang="so" class="aka">imbili</span> also uses the names from this game.[@LetTheChildrenPlay p. 215]

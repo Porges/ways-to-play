@@ -11,6 +11,8 @@ Ge'z: @ComparativeGeez [p. 354]
 
 @AmharicEnglish2 [p. 1783]: diboš
 
+Guidi describes a game under the uncertain reading *quàlamšáś* in which five small stones are thrown and caught[@GuidiVocabolarioAmaricoItaliano p. 237]. This sounds like a form of knucklebones.
+
 Kautan - @SomaliGames
 
 Nepali? https://archive.org/details/in.ernet.dli.2015.146785/page/n495

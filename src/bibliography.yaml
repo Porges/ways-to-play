@@ -8161,6 +8161,22 @@ LexiconLinguaeAethiopicae:
   publisher: T. O. Weigel
   publisher-place: Leipzig, Germany
   URL: https://books.google.co.nz/books?id=aitRAAAAcAAJ
+GuidiVocabolarioAmaricoItaliano:
+  type: book
+  title:
+    value: Vocabolario amarico-italiano
+    lang: it
+  author:
+    - given: Ignazio
+      family: Guidi
+  issued: 1901
+  publisher: Casa editrice italiana
+  publisher-place: Roma
+  URL: https://archive.org/details/vocabolarioamari00guid
+  access: open
+  notes: >-
+    Under ጣብ, equated with አርጴ, the entry describes a game with six split
+    reeds tossed to win the titles "king" or Ras (col. 816).
 ComparativeGeez:
   type: book
   URL: https://archive.org/details/leslau-comparative-dictionary-of-geez-1987
