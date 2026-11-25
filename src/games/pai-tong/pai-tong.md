@@ -34,7 +34,8 @@ linter-yaml-title-alias: '<span lang="th">ไพ่ตอง</span> · <span lan
 
 The game is played with six or seven people and uses two full decks of
 money-suited cards (120 cards total, four copies of each card). Any style of
-card will work.
+card will work. For the prediction scores, each player also needs a separate
+set containing one of each of the 30 card faces.
 
 In Thailand playing cards are produced by government monopoly, so all decks are
 the same. Under the Gambling Act of 1935, the game may not be played for money without explicit permission.[@PaiPong]
@@ -80,23 +81,27 @@ the same card to win, the next one in seating order takes it.
 
 ### Scoring
 
-Scoring possibilities for the winner are as follows. I have found these the hardest thing to translate so the following may not be accurate. Corrections are welcome!
+Scoring possibilities for the winner are as follows.[@PaiPong 33–50] I have found these the hardest thing to translate so the following may not be accurate. Corrections are welcome!
 
-* <span lang="th">ถลก</span> ‘scalp’ (฿4): to self-draw the winning card into a tong
-* <span lang="th">กินเศียร</span> ‘eat the head’ (฿4): to self-draw the winning card into a head, while having 3 other heads
+For the prediction scores, each player chooses a card from their additional set and keeps it face down in front of them.[@PaiPong 28–9]
+
+* <span lang="th">ถลก</span> ‘self-draw’ (฿4): to draw the winning card oneself
+* <span lang="th">กินเศียร</span> ‘eat the head’ (฿4): to complete a head with the winning card, while having 3 other heads
 * <span lang="th">3 ตองกินเศียร</span> ‘3 tongs eat the head’ or <span lang="th">เขียวเปรี้ยว</span> ‘sour greens’ (฿4): drawing to complete a head while having 3 tongs
 * <span lang="th">3 เศียรกินตอง</span> ‘3 heads eat the tong’ or <span lang="th">เขียวหวาน</span> ‘sweet greens’ (฿4): drawing to complete a tong while having 3 heads
-* <span lang="th">เก็งตรง</span> ‘straight guess’ (฿8): [might involve placing a card open while waiting?]
-* <span lang="th">เก็งข้าง</span> ‘side guess’ (฿4): [might involve placing a card open while waiting?]
-* <span lang="th">สี่ดองมืด</span> ‘concealed (dark) 4 tong’ (฿16): a hand consisting of 4 tongs, with none of them exposed
+* <span lang="th">เก็งตรง</span> ‘exact prediction’ (฿8): to win by completing a pair with a card matching the prediction
+* <span lang="th">เก็งข้าง</span> ‘side prediction’ (฿4): to win by completing a pair with a different card of the same rank as the predicted card
+* <span lang="th">สี่ตองมืด</span> ‘concealed (dark) 4 tong’ (฿16): a hand consisting of 4 tongs, with none of them exposed
 * <span lang="th">สี่ตองผ่อง</span> ‘open (bright) 4 tong’ (฿8): a hand consisting of 4 tongs, with at least one exposed
 > [!todo]  [unsure of next one ???] (฿4, 8, 12, 16, 20, 24)
-* <span lang="th">สามดับ</span> ‘three out’ (฿12): one set of anything, with the remaining eight cards being of a single rank, winning on a ninth to form three tongs
+* <span lang="th">สามตับ</span> (possibly ‘three rows’[^tap]) (฿12): one set of anything, with the remaining eight cards being of a single rank, winning on a ninth to form three tongs
 * <span lang="th">สามแดง</span> ‘three reds’ (฿40): one set of anything, with the remaining eight being red-stamped cards, winning on a ninth to form three tongs
 * ช่องขาว ‘white slot’ (฿40): no joker, [waiting for something?]
 * ทุบขาว ‘beat white’ (฿16): no joker, [not sure of difference to previous?]
-* <span lang="th">พวกเดียวกันทั้งมือ</span> ‘all friends hand’ (฿30): four identical heads
+* <span lang="th">พวกเดียวกันทั้งมือ</span> ‘one family throughout the hand’ (฿30): all cards belong to the same rank, with jokers allowed
 * <span lang="th">เอี่ยวทั้งมือ</span> ‘all ace hand’ (฿20): all cards are aces
+
+[^tap]: <span lang="th">ตับ</span> can refer to things arranged in a row, though its intended sense in this name is uncertain. See the [Office of the Royal Society](http://legacy.orst.go.th/?knowledges=%E0%B8%95%E0%B8%B1%E0%B8%9A-%E0%B9%92-%E0%B9%92%E0%B9%93-%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%99-%E0%B9%92%E0%B9%95%E0%B9%95%E0%B9%95).
 
 ## Pong
 

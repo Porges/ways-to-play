@@ -14476,13 +14476,16 @@ PaiPong:
   title:
     value: ไพ่ตอง ไพ่ผ่องไทย
     lang: th
-    alt: <span lang="th-Latn">Pai Pong, Pai Phong Thai</span>
+    alt: <span lang="th-Latn">Pai Tong, Pai Phong Thai</span>
   issued: 2005
-  notes: Images of this book(let) can be found <a href="https://themissingbooks.lnwshop.com/product/2011/%E0%B9%84%E0%B8%9E%E0%B9%88%E0%B8%95%E0%B8%AD%E0%B8%87-%E0%B9%84%E0%B8%9E%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2-%E0%B8%AD%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%9F%E0%B8%A3%E0%B8%B5">here</a>.
+  notes: The <a href="http://library.nlt.go.th:8991/F?func=direct&amp;doc_number=000300491&amp;local_base=NLT01">National Library of Thailand</a> catalogues a 2004 issue; this copy is the second printing, dated February 2005.
   author:
   - family: รตานนท์
-    given: '?'
+    given: สายศรี
     lang: th
+    alt:
+      value: Saisi Ratanon
+      lang: th-Latn
 PaiPhong1967:
   type: book
   title:
