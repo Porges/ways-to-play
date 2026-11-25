@@ -19340,6 +19340,26 @@ CampagneAuTonkin:
   publisher:
     value: Hachette et Cie
     lang: fr
+GiaiMaBiAnToTom1:
+  type: webpage
+  title:
+    value: Giải mã bí ẩn Tổ Tôm (1)
+    lang: vi
+  language: vi
+  author:
+  - given: Gia Anh
+    family: Trần
+    lang: vi
+  container-title:
+    value: Nhịp Cầu Thế Giới Online
+    lang: vi
+  issued:
+    year: 2010
+    month: 12
+    day: 23
+  URL: https://nhipcauthegioi.hu/Van-hoa/GIAI-MA-BI-AN-TO-TOM-1-2697.html
+  archive-URL: https://web.archive.org/web/20260615085626/https://nhipcauthegioi.hu/Van-hoa/GIAI-MA-BI-AN-TO-TOM-1-2697.html
+  access: free-to-read
 UllmanBuccaBucca:
   type: article-journal
   title: Bucca, Bucca
