@@ -14504,6 +14504,17 @@ PaiPhong1967:
   publisher: Excise Department Printing House
   publisher-place: Wat Sommanat Vihara, Bangkok, Thailand
   notes: This is a <a href="https://en.wikipedia.org/wiki/Cremation_volume">cremation volume</a>.
+PaiPhongManual:
+  type: book
+  title:
+    value: คู่มือการเล่นไพ่ไทย
+    lang: th
+    alt: Guide to playing Thai cards
+  issued: 2022
+  notes: The year refers to the online upload; the manual itself is undated. Its rules and worked examples closely follow Wongnasri and Chansiri (2017), in this bibliography.
+  publisher: Playing Card Factory, Excise Department
+  URL: 'https://playingcard.or.th/wp-content/uploads/2022/11/คู่มือเล่น-ไพ่ผ่องไทย-2024.pdf'
+  archive-URL: 'https://web.archive.org/web/20261111110313/https://playingcard.or.th/wp-content/uploads/2022/11/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B9%80%E0%B8%A5%E0%B9%88%E0%B8%99-%E0%B9%84%E0%B8%9E%E0%B9%88%E0%B8%9C%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%84%E0%B8%97%E0%B8%A2-2024.pdf'
 SchadeeDajakVervolg:
   type: article-journal
   language: nl

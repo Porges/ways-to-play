@@ -37,7 +37,10 @@ linter-yaml-title-alias: '<span lang="th">ไพ่ตอง</span> · <span lan
 The game is played by 4–7 people and uses two full sets of
 money-suited cards (120 cards total, four copies of each card). Any style of card will work. If using the ‘prediction’ bets described below, each player also needs a separate set of their own containing one of each of the 30 card faces. If playing the ‘joker’ game described below, some decks apparently contain additional cards (which I have not seen anywhere); or else, existing cards from the deck are designated as jokers.
 
-In Thailand playing cards are produced by government monopoly, so all decks are the same. Under the Gambling Act of 1935, the game may not be played for money without explicit permission.[@PaiPong]
+In Thailand playing cards are produced by government monopoly, so all decks are the same. Under the Gambling Act of 1935, the game may not be played for money without explicit permission.[@PaiPong] 
+The Playing Card Factory’s manual describes a six- or seven-player game played on a mat, with each player using a stick to draw cards from the stock.[@PaiPhongManual 1][^stick]
+
+[^stick]: This is presumably an anti-cheating measure.
 
 > [!figure]
 >
@@ -66,13 +69,13 @@ The goal of the game is to form a complete hand which comprises four sets of thr
 
 [^fn0]: This term — possibly derived from the Chinese <span lang="zh">同</span> (Hokkien: <span lang="nan-Latn-pehoeji">tông</span>; Teochew: <span lang="nan-Latn-pengim">tong⁵</span>; Mandarin: <span lang="cmn-Latn-pinyin">tóng</span>; Cantonese: <span lang="yue-Latn-jyutping">tung⁴</span>) ‘same; identical’ — is also used in other card games to describe a triplet, or a number with three identical digits.
 
-The honour and ace cards are grouped into two sets; one set comprises the two red stamped cards and the 1 Myriads, and the other set is made up of the other three cards. Sources differ on whether or not these honour and ace cards can be combined to form a head; some rules allow this, others do not.[@PaiPhong1967 33–5][@ThaiGambling 72–5]
+The honour and ace cards are grouped into two sets; one set comprises the two red stamped cards and the 1 Myriads, and the other set is made up of the other three cards. Sources differ on whether or not these honour and ace cards can be combined to form a head; some rules allow this, others do not.[@PaiPhong1967 33–5][@ThaiGambling 72–5][@PaiPhongManual 2]
 
 If a player draws and reveals a card that matches two identical cards in another player’s hand, that player may claim the card to complete a <span lang="th-Latn">tong</span> by calling “<span lang="th-Latn">phong</span>” (<span lang="th">ผ่อง</span>). The claiming player takes the card and must expose all cards forming the <span lang="th-Latn">tong</span> face-up on the table, then finishes their turn by discarding as usual. (This disrupts the normal order of play, and play continues from the player on their right.)
 
 Finally, if a player only requires one card to win, they may take the turned-up card even if they are not completing a <span lang="th-Latn">tong</span>; this is called <span lang="th">กิน</span> <span lang="th-Latn">kin</span> ‘eating’. If multiple players want to claim the same card to win, the higher-scoring win takes precendence; in the case of a tie, the next player in seating order takes it.
 
-It is important to note that a prior player’s discard may not be taken to win the game.[@PaiPhong1967 35–6] All wins are on cards drawn from the deck, either by the player drawing a winning card or claiming a winning card from someone else.
+It is important to note that a prior player’s discard may not be taken to win the game.[@PaiPhong1967 35–6] The winning card must come from the stock, either drawn by the winner or turned up by another player.[@PaiPhongManual 1–2]
 
 ## The game with jokers
 
@@ -86,7 +89,7 @@ It is important to note that a prior player’s discard may not be taken to win 
 > size: small
 > ```
 >
-> The mouse ace (<span lang="th">เอี่ยวหนู</span> <span lang="th-Latn">iao nu</span>), often used as a permanent joker.
+> The mouse ace (<span lang="th">เอี่ยวหนู</span> <span lang="th-Latn">iao nu</span>), often used as a permanent joker. The Thai numeral <span lang="th">๑</span> (‘one’) curls like a mouse’s tail, giving the card its name.
 
 For the joker game, there are multiple methods for determining which cards are jokers:
 
@@ -122,9 +125,59 @@ Possible scoring hands are as follows; the actual scoring schedules follow as th
 * **Four heads** (<span lang="th">กินเศียร</span> <span lang="th-Latn">kin siian</span>): having three heads and completing the fourth with a winning card.[@PaiPhong1967 40–1][@PaiPong 34][@ThaiGambling 73]
 * **Three <span lang="th-Latn">tong</span> and a head** (<span lang="th">3 ตองกินเศียร</span> <span lang="th-Latn">sam tong kin siian</span>) or ‘sour greens’ (<span lang="th">เขียวเปรี้ยว</span> <span lang="th-Latn">khiao priao</span>): have 3 tongs and win on a card that completes a final head.[@PaiPhong1967 59][@PaiPong 35–36][@ThaiGambling 75]
 * **Three heads and a <span lang="th-Latn">tong</span>** (<span lang="th">3 เศียรกินตอง</span> <span lang="th-Latn">sam siian kin tong</span>) or ‘sweet greens’ (<span lang="th">เขียวหวาน</span> <span lang="th-Latn">khiao wan</span>): have 3 heads and win on a card that completes a final <span lang="th-Latn">tong</span>.[@PaiPhong1967 59][@PaiPong 35–36][@ThaiGambling 75]
-* **Three <span lang="th-Latn">tong</span>s of one rank** (<span lang="th">สามตับ</span> <span lang="th-Latn">sam tap</span>): two <span lang="th-Latn">tong</span>s, one set of anything, completing a third <span lang="th-Latn">tong</span> to win.
-   - **Three Reds** (<span lang="th">สามแดง</span> <span lang="th-Latn">sam daeng</span>) is a <span lang="th-Latn">tong</span> of each of the red-stamped cards (and must win by completing a <span lang="th-Latn">tong</span>). When playing with jokers, at least one ‘natural’ card is required in each red set.[@PaiPhong1967 59–60, 62–63][@PaiPong 42–43]
-   - **Three <span lang="th-Latn">ngong</span>** (<span lang="th">สามง่อง</span> <span lang="th-Latn">sam ngong</span>) is a <span lang="th-Latn">tong</span> of each of <span lang="th-Latn">iao yao</span>, <span lang="th-Latn">song ongkhot</span>, and <span lang="th-Latn">sam nok</span>, plus another set. The winning card completes the third qualifying <span lang="th-Latn">tong</span>.[@PaiPhong1967 61–62]
+* **Three <span lang="th-Latn">tong</span>s of one rank** (<span lang="th">สามตับ</span> <span lang="th-Latn">sam tap</span>): two <span lang="th-Latn">tong</span>s, one set of anything, completing a third <span lang="th-Latn">tong</span> to win. All 3 <span lang="th-Latn">tong</span>s are of the same rank.
+   - > [!figure]
+     >
+     > ![Red nine](red-nine.jpg)
+     > ![Red nine](red-nine.jpg)
+     > ![Red nine](red-nine.jpg)
+     > ![Red lady ace](red-lady-ace.jpg)
+     > ![Red lady ace](red-lady-ace.jpg)
+     > ![Red lady ace](red-lady-ace.jpg)
+     > ![Red king ace](red-king-ace.jpg)
+     > ![Red king ace](red-king-ace.jpg)
+     > ![Red king ace](red-king-ace.jpg)
+     > ![Seven of Coins](seven-coins.jpg)
+     > ![Seven of Strings](seven-strings.jpg)
+     > ![Seven of Myriads](seven-myriads.jpg)
+     >
+     > ```yaml
+     > position: aside
+     > noborder: true
+     > cram: true
+     > perRow: 6
+     > ```
+     >
+     > **Three Reds**, with a head of sevens as the fourth set.
+
+     **Three Reds** (<span lang="th">สามแดง</span> <span lang="th-Latn">sam daeng</span>) is a <span lang="th-Latn">tong</span> of each of the red-stamped cards (and must win by completing a <span lang="th-Latn">tong</span>). When playing with jokers, at least one ‘natural’ card is required in each red set.[@PaiPhong1967 59–60, 62–63][@PaiPong 42–43]
+
+   - > [!figure]
+     >
+     > ![Long ace](long-ace.jpg)
+     > ![Long ace](long-ace.jpg)
+     > ![Long ace](long-ace.jpg)
+     > ![Two of Strings](two-strings.jpg)
+     > ![Two of Strings](two-strings.jpg)
+     > ![Two of Strings](two-strings.jpg)
+     > ![Three of Strings](three-strings.jpg)
+     > ![Three of Strings](three-strings.jpg)
+     > ![Three of Strings](three-strings.jpg)
+     > ![Seven of Coins](seven-coins.jpg)
+     > ![Seven of Strings](seven-strings.jpg)
+     > ![Seven of Myriads](seven-myriads.jpg)
+     >
+     > ```yaml
+     > position: aside
+     > noborder: true
+     > cram: true
+     > perRow: 6
+     > ```
+     >
+     > **Three <span lang="th-Latn">ngong</span>**, with a head of sevens as the fourth set.
+
+     **Three <span lang="th-Latn">ngong</span>** (<span lang="th">สามง่อง</span> <span lang="th-Latn">sam ngong</span>) is a <span lang="th-Latn">tong</span> of each of <span lang="th-Latn">iao yao</span>, <span lang="th-Latn">song ongkhot</span>, and <span lang="th-Latn">sam nok</span>, plus another set. The winning card completes the third qualifying <span lang="th-Latn">tong</span>.[@PaiPhong1967 61–62]
+
 * **Four of a face** (<span lang="th">กินสี่ตัว</span> <span lang="th-Latn">kin si tua</span>): two sets of anything and five cards of a single rank, three of them identical, winning on the fourth identical card. In the joker game, the count can go higher (5 of a face, possibly up to 12 of a face), and all cards of that face across the hand are counted, not just those in the final set. All jokers that are used *as that rank* are counted.[@PaiPhong1967 38, 58][@PaiPong 40–1][@ThaiGambling 73]
 * **One family throughout** (<span lang="th">พวกเดียวกันทั้งมือ</span> <span lang="th-Latn">phuak diao kan thang mue</span>): 11 cards of the same rank, winning on a 12th.
    - **All <span lang="th-Latn">iao</span>** (<span lang="th">เอี่ยวทั้งมือ</span> <span lang="th-Latn">iao thang mue</span>): 11 ace/honour cards, winning on a 12th. Jokers may substitute in either hand.[@PaiPong 46–47][@ThaiGambling 74]
@@ -134,128 +187,6 @@ In the joker game the following hands are added, where **white** means ‘withou
 * **White gap** (<span lang="th">ช่องขาว</span> <span lang="th-Latn">chong khao</span>): the same as **fill the gap** but with no jokers in the hand.
 * **White smash** (<span lang="th">ทุบขาว</span> <span lang="th-Latn">thup khao</span>): the same as **smash** but with no jokers in the hand.
 
-Both sample hands use a head of sevens as their fourth set.
-
-**Three reds**
-
-> [!multi-equal]
->
-> > [!figure]
-> >
-> > ![](red-nine.jpg)
-> > ![](red-nine.jpg)
-> > ![](red-nine.jpg)
-> >
-> > ```yaml
-> > noborder: true
-> > cram: true
-> > size: "small"
-> > ```
-> >
-> > Red nine
->
-> > [!figure]
-> >
-> > ![](red-lady-ace.jpg)
-> > ![](red-lady-ace.jpg)
-> > ![](red-lady-ace.jpg)
-> >
-> > ```yaml
-> > noborder: true
-> > cram: true
-> > size: "small"
-> > ```
-> >
-> > Red lady ace
->
-> > [!figure]
-> >
-> > ![](red-king-ace.jpg)
-> > ![](red-king-ace.jpg)
-> > ![](red-king-ace.jpg)
-> >
-> > ```yaml
-> > noborder: true
-> > cram: true
-> > size: "small"
-> > ```
-> >
-> > Red king ace
->
-> > [!figure]
-> >
-> > ![](seven-coins.jpg)
-> > ![](seven-strings.jpg)
-> > ![](seven-myriads.jpg)
-> >
-> > ```yaml
-> > noborder: true
-> > cram: true
-> > size: "small"
-> > ```
-> >
-> > Head of sevens
-
-**Three <span lang="th-Latn">ngong</span>**
-
-> [!multi-equal]
->
-> > [!figure]
-> >
-> > ![](long-ace.jpg)
-> > ![](long-ace.jpg)
-> > ![](long-ace.jpg)
-> >
-> > ```yaml
-> > noborder: true
-> > cram: true
-> > size: "small"
-> > ```
-> >
-> > Long ace (<span lang="th-Latn">iao yao</span>)
->
-> > [!figure]
-> >
-> > ![](two-strings.jpg)
-> > ![](two-strings.jpg)
-> > ![](two-strings.jpg)
-> >
-> > ```yaml
-> > noborder: true
-> > cram: true
-> > size: "small"
-> > ```
-> >
-> > <span lang="th-Latn">Song Ongkhot</span> (2 of Strings)
->
-> > [!figure]
-> >
-> > ![](three-strings.jpg)
-> > ![](three-strings.jpg)
-> > ![](three-strings.jpg)
-> >
-> > ```yaml
-> > noborder: true
-> > cram: true
-> > size: "small"
-> > ```
-> >
-> > Three birds (<span lang="th-Latn">sam nok</span>)
->
-> > [!figure]
-> >
-> > ![](seven-coins.jpg)
-> > ![](seven-strings.jpg)
-> > ![](seven-myriads.jpg)
-> >
-> > ```yaml
-> > noborder: true
-> > cram: true
-> > size: "small"
-> > ```
-> >
-> > Head of sevens
-
 [^tap]: <span lang="th">ตับ</span> can refer to things arranged in a row, though its intended sense in this name is uncertain. See the [Office of the Royal Society](http://legacy.orst.go.th/?knowledges=%E0%B8%95%E0%B8%B1%E0%B8%9A-%E0%B9%92-%E0%B9%92%E0%B9%93-%E0%B9%80%E0%B8%A1%E0%B8%A9%E0%B8%B2%E0%B8%A2%E0%B8%99-%E0%B9%92%E0%B9%95%E0%B9%95%E0%B9%95).
 
 Other scoring features are:
@@ -264,8 +195,8 @@ Other scoring features are:
 
 For the ‘prediction’ scores, a the start of the hand, before dealing, each player chooses a card from their additional set and keeps it face down in front of them.[@PaiPong 28–9] If they complete their win with a card that matches they score extra:
 
-* **Exact guess** (<span lang="th">เก็งตรง</span>): to win with a card exactly matching the prediction
-* **Side guess** (<span lang="th">เก็งข้าง</span>): to win with a card of the same rank as the predicted card
+* **Exact guess** (<span lang="th">เก็งตรง</span>): to win with a card whose face exactly matches the prediction
+* **Side guess** (<span lang="th">เก็งข้าง</span>): to win with a card whose face is different to the prediction, but of the same rank
 * **House-card win** (<span lang="th">กินตัวหิ้ง</span> <span lang="th-Latn">kin tua hing</span>): similarly, a win on a card matching one secretly chosen by the house before play.[@PaiPhong1967 43]
 
 ### Fixed payments
