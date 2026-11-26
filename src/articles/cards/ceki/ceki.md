@@ -170,7 +170,7 @@ Coins
 </dt>
 <dd>
 * Malay: <span lang="ms">hitam</span> (‘black’), [<span lang="ms">batik</span>](https://en.wikipedia.org/wiki/Batik), <span lang="ms">piah</span> (Hokkien <span lang="nan">餅</span> ‘round thing’), <span lang="ms">tong</span> (Hokkien <span lang="nan">筒</span> ‘barrel’)
-* Thai: <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> ‘vegetable’
+* Thai: <span lang="th">ผัก</span> <span lang="th-Latn">phak</span> (‘vegetable’), <span lang="th">ตา</span> <span lang="th-Latn">ta</span> (‘eyes’)[@PaiPhong1967 29]
 </dd>
 <dt>
 Strings
@@ -178,7 +178,7 @@ Strings
 <dd>
 * Malay: <span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (Hokkien <span lang="nan">索</span> ‘rope’), <span lang="ms">tiau</span> (Hokkien <span lang="nan">條</span> ‘long/thin object’)
 * Javanese: <span lang="jv-Latn">lintrik</span> (<span lang="jv">ꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?)[@JavanischeKartenspiele]
-* Thai: <span lang="th">นก</span> <span lang="th-Latn">nok</span> ‘birds’[@PaiPhong1967 28]
+* Thai: <span lang="th">นก</span> <span lang="th-Latn">nok</span> (‘birds’), <span lang="th">เชือก</span> <span lang="th-Latn">chueak</span> (‘rope’), <span lang="th">เซาะ</span> <span lang="th-Latn">so</span> (‘cord’, probably from Hokkien <span lang="nan">索</span> <span lang="nan-Latn-pehoeji">sok</span> ‘rope’)[@PaiPhong1967 28–9]
 </dd>
 <dt>
 Myriads (Numbers)
@@ -2063,7 +2063,7 @@ eyes two
 
 <span lang="th">สองตาโต</span>\
 <span lang="th-Latn">song ta to</span>\
-shocked two
+two big eyes
 </td>
 > [!todo] ---M/S---
 <td>
@@ -4504,7 +4504,7 @@ delicate six
 
 <span lang="th">หกเซาะ</span>\
 <span lang="th-Latn">hok so</span>\
-chiselled six
+six of cords
 </td>
 > [!todo] ---M/S---
 <td>
@@ -5611,7 +5611,7 @@ delicate eight
 
 <span lang="th">แปดเซาะ</span>\
 <span lang="th-Latn">paet so</span>\
-chiselled eight
+eight of cords
 </td>
 > [!todo] ---M/S---
 <td>
