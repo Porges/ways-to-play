@@ -119,6 +119,8 @@ Other non-traditional bets permitted in online games include:
 
 Note: see malay game under: @CliffordMalay1 [78], "API"
 
+Seems to be called po/tepo. Corners: Bakul, Chut, Kuli.
+
 ## History
 
 Legalized in Macau on the 16th of February, 1846.[@GamblingDynamism p. 195]

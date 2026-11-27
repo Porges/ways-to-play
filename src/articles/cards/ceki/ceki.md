@@ -13,7 +13,7 @@ aliases:
   - Cherki cards
   - Ceki cards
 date created: 2024-12-18
-date modified: 2026-10-07
+date modified: 2026-11-27
 linter-yaml-title-alias: Ceki cards
 ---
 # Ceki cards
@@ -26,7 +26,7 @@ Games played with these cards were originally found throughout the Malay Archipe
 
 ## Names and Terminology
 
-“Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong) cards’). They are sometimes also referred to as <span lang="id">kartu jawa</span> (“Javan cards”) in other parts of Indonesia.
+“Ceki”[^spelling] probably originally referred only to a game played with the cards; the cards were referred to in Malay as <span lang="ms">daun ceki</span> (‘ceki cards’).[^daun] More modern names used in Indonesia are <span lang="id">kartu ceki</span>, <span lang="id">kartu cilik</span> (‘small cards’ — European cards are ‘big cards’), <span lang="id">kartu cina</span> (‘Chinese cards’), or <span lang="id">kartu gonggong</span> (‘[<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong) cards’). They are sometimes also referred to as <span lang="id">kartu jawa</span> (“Javan cards”) in other parts of Indonesia. The Javanese <span lang="jv-Latn">kêrtu</span> (<span lang="jv">ꦏꦼꦂꦠꦸ</span>, ‘cards’) metathesized to <span lang="jv-Latn">krêtu</span> (<span lang="jv">ꦏꦽꦠꦸ</span>) has also been used in Malay as <span lang="ms">krêtu</span> (<span lang="ms-Arab">كريتو</span>) to refer to the cards and the game.[@BaoesastraDjawa][@CliffordMalay3 335]
 
 [^spelling]: The spelling Cherki seems to be more common in Malaysia and Singapore. It can also be written <span class="noun" lang="id">Tjeki</span> in older Indonesian orthographies or <span lang="ms-Arab">چکي</span> in Jawi script.[@CliffordMalay3 334] The word apparently comes from Amoy (Hokkien) Chinese <span lang="nan-Latn">chít ki</span> (<span lang="nan">一枝</span>),[@LoanWordsIndonesian 48] “one card”, perhaps referring to the pick-one/play-one nature of the most common Ceki games. A similar origin is suggested by @ChaquiAndPartui, who gives <span lang="nan-Latn">jī ki</span> ‘two cards’ (<span lang="nan">二枝</span>). @GamblingGamesOfMalaya gives the name as <span lang="nan">織箕</span> ‘weave baskets’ (<span lang="nan-Latn">chitki</span>) but I have not found this elsewhere; perhaps it is a phonetic back-formation. Other spellings I have seen include <span lang="id">cuki</span>,[@SomeImaginativeFunctions p. 72] <span lang="id">cekian</span>[@BaliHandbook p. 174] or <span lang="jv-Latn">tyekén</span>[@InPlaceOfSlavery p. 160] or <span lang="jv-Latn">sikiah</span>,[@JavaneseEnglish p. 679] or <span lang="ms">chĕki</span>.[@ChineseLoanWordsMalay p. 53] Another thing to note is that one 16th-century Chinese–Malay dictionary defines the Chinese <span lang="zh">棋</span> ‘game, chess’ with the Malay <span lang="zh">竹吉</span> (Mandarin: <span lang="cmn-Latn-pinyin">zhújí</span>), which one source suggests is <span lang="ms">ceki</span>,[@ChineseMalaccaMalay 734] but this is probably <span lang="ms">cuki</span>,[@ChineseLoanwordsSchlegel 404] “a kind of draughts-game with black and white stones.”[@Pijnappel I, 116][@BoegineeschWoordenboek 417]
 
@@ -44,9 +44,15 @@ The cards might also have been referred to in the past in Malay as <span lang="m
 
 At some point they were also called “8–9 cards”, in Malay <span lang="ms-Latn">pakau-pakau</span> (<span lang="ms-Arab"><bdi>باكو٢</bdi></span>,[^pekak] literally ‘8–9s’, which adapts the names of Chinese numerals).[@Pijnappel1 161] A similar name was also known in Thailand — <span lang="th">ไพ่แปดเก้า</span> <span lang="th-Latn">phai paet kao</span>,[@PaiPhong1967 9] literally “8–9 cards”[^thai] — so it might be a Hokkien/Teochew name that eventually disappeared.[^oicho-kabu]
 
+[Raja Ali Haji](https://en.wikipedia.org/wiki/Raja_Ali_Haji), writing in Riau in 1865, also mentions a game named <span lang="ms">pakau</span>: “<span lang="ms" class="noun">Raja-raja berhadapan duduk, bermain cabut, pakau dan kiuk</span>” (‘The rulers sat facing one another, playing <span lang="ms">cabut</span>,[^cabut] <span lang="ms">pakau</span> and <span lang="ms">kiuk</span>[^kiuk]’).[@SalasilahMelayuDanBugis 182:30]
+
+[^cabut]: A game like Twenty-One/Thirty-One.[@SomeNotesMalayCardGames 86]
+
+[^kiuk]: Uncertain.
+
 [^pekak]: Perhaps also <span lang="ms-Arab">ڤيكق</span> <span lang="ms-Latn">pékak</span>?[@MaleischNederlandsch_2 456]
 
-[^thai]: Note that the name <span lang="th">ไพ่งาแปดเก้า</span> <span lang="th-Latn">phai nga paet kao</span> is also mentioned in the source; this is “8–9 bone cards” where “bone cards” could be a calque of the Chinese <span lang="zh">骨牌</span> which means ‘dominos’ or sometimes ‘playing cards’. See also the name <span lang="th">แปด เก้า</span> <span lang="th-Latn">paet kao</span>.[@Pallegoix 239]
+[^thai]: Note that the name <span lang="th">ไพ่งาแปดเก้า</span> <span lang="th-Latn">phai nga paet kao</span> is also mentioned in the source; this is “8–9 bone cards” where “bone cards” could be a calque of the Chinese <span lang="zh">骨牌</span> which means ‘dominos’ or sometimes ‘playing cards’. See also the name <span lang="th">แปด เก้า</span> <span lang="th-Latn">paet kao</span>.[@Pallegoix 239, 528]
 
 [^oicho-kabu]: Is there any remote connection to [Oicho Kabu](games/three-card-game/three-card-game.md#oicho-kabu) here?
 
@@ -81,7 +87,7 @@ are closer to their ancestral forms than those used in Indonesia.
 >
 >  An exhibition game using Cherki cards being played in Penang, Malaysia.
 
-In the past the game was played by all levels of society; records of the palace expenditure of the [Sultan Abdul Hamid Halim of Kedah](https://en.wikipedia.org/wiki/Abdul_Hamid_Halim_of_Kedah) (1864–1943) from 1896–99 indicate that he enjoyed gambling with Ceki.[@MemoryOfTheWorldRegister p. 58]
+In the past the game was played by all levels of society; records of the palace expenditure of the [Sultan Abdul Hamid Halim of Kedah](https://en.wikipedia.org/wiki/Abdul_Hamid_Halim_of_Kedah) (1864–1943) from 1896–99 indicate that he enjoyed gambling with Ceki.[@MemoryOfTheWorldRegister 58]
 
 More recent accounts from Malaysia & Singapore indicate that the game was almost exclusively played by women, and in modern times it has nearly died out. @TheBabas reported that by the 1980s it was only possible to get cards in Melaka. However, there are ongoing efforts to preserve and repopularize the game.
 
@@ -90,6 +96,8 @@ Amongst [Kristang](https://en.wikipedia.org/wiki/Kristang_people) (or <span lang
 ## Indonesia
 
 In Indonesia, Ceki games are still popular, especially in Sumatra, Java, and Bali, all of which have historically had a large Chinese influence. In Javanese the cards are also known as <span lang="jv-Latn">kertu cilik</span> (‘small cards’).[@JavaneseEnglish p. 365]
+
+A 1792 letter from Sultan Muhyiuddin Abdul Gafur of Buton (off south-eastern Sulawesi), lists <span lang="ms">cengki</span> among other objects: “<span lang="ms">dan main2 cengki jua adanya</span>” (‘and there were also cengki playing cards’).[@WarkahWarkahSultanButon 202, 220, 223] Here <span lang="ms">céngki</span> (<span lang="ms-Arab">چڠکي</span>, usually ‘lucky’) seems to refer to the game.
 
 During the colonial era, cards were manufactured in Europe by Dutch companies and exported to Indonesia. (See the [manufacturers](#manufacturers-brands) section below.)
 
@@ -100,6 +108,10 @@ From 1898 (and earlier?), Ceki was explicitly permitted (upon the purchase of a 
 > [!todo]
 >
 > See also a different list here: https://books.google.co.nz/books?id=gdsrAQAAMAAJ
+
+On Flores in eastern Indonesia, the <cite lang="ms">Hikayat Kerajaan Sikka</cite>, compiled between 1925 and 1953, has: “<span lang="ms">sebab ada kebanyakan perempuan suka suka ceki atau bale satu dan gonggong</span>” (‘because many women liked playing ceki or bale satu[^balesatu] and gonggong’).[@HikayatKerajaanSikka 218]
+
+[^balesatu]: Probably [Balik Satu](games/balik-satu/balik-satu.md); [<span lang="ms">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong) is a similar game.
 
 By the 1940s Ceki cards were prohibited from being imported (from European manufacturers) into some areas, such as Sulawesi, “for reasons of public safety”.[@Title39_48 p. 1013]
 
@@ -178,7 +190,7 @@ Strings
 <dd>
 * Malay: <span lang="ms">manek</span> (‘bead’), <span lang="ms">sok</span> (Hokkien <span lang="nan">索</span> ‘rope’), <span lang="ms">tiau</span> (Hokkien <span lang="nan">條</span> ‘long/thin object’)
 * Javanese: <span lang="jv-Latn">lintrik</span> (<span lang="jv">ꦤ꧀ꦠꦿꦶꦏ</span> ‘rows’?)[@JavanischeKartenspiele]
-* Thai: <span lang="th">นก</span> <span lang="th-Latn">nok</span> (‘birds’), <span lang="th">เชือก</span> <span lang="th-Latn">chueak</span> (‘rope’), <span lang="th">เซาะ</span> <span lang="th-Latn">so</span> (‘cord’, probably from Hokkien <span lang="nan">索</span> <span lang="nan-Latn-pehoeji">sok</span> ‘rope’)[@PaiPhong1967 28–9]
+* Thai: <span lang="th">นก</span> <span lang="th-Latn">nok</span> (‘birds’), <span lang="th">เชือก</span> <span lang="th-Latn">chueak</span> (‘rope’), <span lang="th">เซาะ</span> <span lang="th-Latn">so</span> (‘cord’, probably from Hokkien <span lang="nan-Latn-pehoeji">sok</span>)[@PaiPhong1967 28–9]
 </dd>
 <dt>
 Myriads (Numbers)
@@ -651,6 +663,8 @@ The names in the **Makassar** column have been assigned by me based upon compari
 > - <span lang="bug">ᨔᨗᨄᨗ</span> <span lang="bug-Latn">sipi</span>[@BoegineeschWoordenboek 684] ‘pinch/claw’
 
 [^fn2]: Not just any sorceress, but one that sends out her head and entrails at night, leaving her body behind! In Minangkabau this is called a ‘<span lang="min" class="noun">Palasik Panangga</span>’, or a ‘<span lang="ms" class="noun">Penanggalan</span>’ in Malay. For more information, see @Penanggalan.
+
+[^kapik]: Compare Minangkabau <span lang="min">gapi</span>, which Van der Toorn’s 1891 dictionary glosses as ‘also the name of a playing card in the Koa game’.[@MinangkabauschMaleischNederlandsch 325] It seems related to Malay <span lang="ms">kapit</span> ‘tool for gripping’ and <span lang="ms">gapit</span> ‘clamp’.
 
 ⚠️ The table is *very wide* and might scroll horizontally.
 
@@ -4262,7 +4276,7 @@ six
 (Hokkien <span lang="nan-Latn-pehoeji">la̍k</span>)
 </td>
 <td>
-<span lang="min">kapik</span> ‘grill’
+<span lang="min">kapik</span> ‘grill’[^kapik]
 </td>
 > [!todo] ---Java---
 <td>
@@ -6506,12 +6520,18 @@ them, I do not know of any other sets of rules recorded online.
 
 **Draw & discard** games (like Mahjong):
 
-* [Balik Satu](games/balik-satu/balik-satu.md) (‘turn one’), a Malaysian game with no fixed number of players[@BabaMalayDictionary p. 214][@ChikiCards p. 122]
-* [Balik Lima Belas](games/balik-satu/balik-satu.md#balik-lima-belas)[@ChikiCards p. 127]/Balek Lima Belair[@BabaMalayDictionary p. 124]/Bukak Lima Blas Leh[@TheBabas p. 167] (‘turn fifteen’), an alternate method of scoring Balik Satu
-* [Chot](games/balik-satu/balik-satu.md#chot)/Chote/Choke/Kiong, a similar four-player game[@BabaMalayDictionary p. 214][@ChikiCards p. 127][@TheBabas p. 167]
-* [<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong), a Javan game for four or six players[@JavaanseKaartspelen p. 94–7]
-* [<span class="noun" lang="jv-Latn">Tantanan</span>](games/balik-satu/balik-satu.md#tantanan), a fast-playing Javan game for four players[@JavaanseKaartspelen p. 98]
-* [Pong](games/pai-tong/pai-tong.md), a Malaysian version of a Thai game, played by four people, also played with Mahjong tiles
+* Aiming to form a hand of 15 (5 sets of 3):
+  * [Balik Satu](games/balik-satu/balik-satu.md) (‘turn one’), a Malaysian game with no fixed number of players[@BabaMalayDictionary p. 214][@ChikiCards p. 122]
+  * [Balik Lima Belas](games/balik-satu/balik-satu.md#balik-lima-belas)[@ChikiCards p. 127]/Balek Lima Belair[@BabaMalayDictionary p. 124]/Bukak Lima Blas Leh[@TheBabas p. 167] (‘turn fifteen’), an alternate method of scoring Balik Satu
+  * [Chot](games/balik-satu/balik-satu.md#chot)/Chote/Choke/Kiong, a similar four-player game[@BabaMalayDictionary p. 214][@ChikiCards p. 127][@TheBabas p. 167]
+  * [<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong), a Javan game for four or six players[@JavaanseKaartspelen p. 94–7]
+* Aiming to form a hand of 12 (4 sets of 3):
+  * [Pai Tong/Phong](games/pai-tong/pai-tong.md), a Thai game
+  * [Pong](games/pai-tong/pai-tong.md), the Malay version played by four people, also played with Mahjong tiles
+* Aiming to form a hand of 9 (3 sets of 3):
+  * The game that is itself referred to as Ceki or [<span class="noun" lang="jv-Latn">Koa</span>](games/koa/koa.md)
+* Aiming to form a hand of 6 (2 sets of 3):
+  * [<span class="noun" lang="jv-Latn">Tantanan</span>](games/balik-satu/balik-satu.md#tantanan), a fast-playing Javan game for four players[@JavaanseKaartspelen p. 98]
 
 Other games from Malaysia/Singapore, for which I have no rules, are:
 
@@ -6524,7 +6544,7 @@ Other games from Malaysia/Singapore, for which I have no rules, are:
 
 [^fn4]: This possibility was raised in @Morgenlandisch_2 [p. 572].
 
-In some descriptions, Ceki is itself a game (a variant of [Balik Satu](games/balik-satu/balik-satu.md)) and the cards are called by other names such as <span lang="jv-Latn">ijo</span>. @BlikJavaansche_2 [p. 499] gives the games <span lang="jv-Latn">koa</span>, <span lang="jv-Latn">koa-baq</span>, <span lang="jv-Latn">koa-gonggong</span> ([<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong)), <span lang="jv-Latn">pehi</span> ([Pèi](games/pei/pei.md)?), <span lang="jv-Latn">patui</span>, <span lang="jv-Latn">panghao</span>, and <span lang="jv-Latn">cĕki</span>, but without explanations.
+In some descriptions, Ceki is itself a game (a variant of [Balik Satu](games/balik-satu/balik-satu.md)) and the cards are called by other names such as <span lang="jv-Latn">ijo</span>. @BlikJavaansche_2 [p. 499] gives the games <span lang="jv-Latn">koa</span>, <span lang="jv-Latn">koa-baq</span>, <span lang="jv-Latn">koa-gonggong</span> ([<span class="noun" lang="jv-Latn">Gonggong</span>](games/balik-satu/balik-satu.md#gonggong)), <span lang="jv-Latn">pehi</span> ([Pèi](games/pei/pei.md)?), <span lang="jv-Latn">patui</span>, <span lang="jv-Latn">panghao</span> (possibly the Chinese <span lang="zh">碰和</span>?), and <span lang="jv-Latn">cĕki</span>, but without explanations.
 
 ## Manufacturers & Brands
 

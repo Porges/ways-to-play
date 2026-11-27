@@ -302,7 +302,7 @@ value (1–9 points), and the red-stamped cards are worth more:
 > > ```
 > >
 > > Red Nine scores 10 points.
-> 
+>
 > > [!figure]
 > >
 > > ![](../../articles/cards/ceki/CRF.jpg)
@@ -314,7 +314,7 @@ value (1–9 points), and the red-stamped cards are worth more:
 > > ```
 > >
 > > Nyonya scores 11 points.
-> 
+>
 > > [!figure]
 > >
 > > ![](../../articles/cards/ceki/COT.jpg)
@@ -376,7 +376,7 @@ A song about the game runs:
 > [!multi]
 >
 > > [!lang] mcm
-> > 
+> >
 > > Bom bom filo\
 > > Nao bai djoga chiqui\
 > > Com grande de bergonha\
@@ -395,7 +395,7 @@ A song about the game runs:
 
 <span class="noun" lang="ms">Balik Lima Belas</span> (‘draw fifteen’) is an alternate scoring mechanism for <span class="noun" lang="ms">Balik Satu</span>.
 
-At the end of each round, instead of drawing one card as in <span class="noun" lang="ms">Balik Satu</span>, the winner draws fifteen cards from the stock. They must use these cards to try to improve their sets into <span lang="ms">mata</span> by swapping cards of equivalent rank, as in the <span lang="ms">kena</span> rule of <span class="noun" lang="ms">Balik Satu</span>. Scoring is calculated as one point for winning plus one for each <span lang="ms">mata</span> (so, always at least two points). 
+At the end of each round, instead of drawing one card as in <span class="noun" lang="ms">Balik Satu</span>, the winner draws fifteen cards from the stock. They must use these cards to try to improve their sets into <span lang="ms">mata</span> by swapping cards of equivalent rank, as in the <span lang="ms">kena</span> rule of <span class="noun" lang="ms">Balik Satu</span>. Scoring is calculated as one point for winning plus one for each <span lang="ms">mata</span> (so, always at least two points).
 
 In this form of the game the red-stamped cards do not score extra, but bonuses for winning by completing a <span lang="ms">mata</span> (<span
 lang="ms">ayam</span> or <span lang="ms">kandang</span>) still apply.
@@ -406,7 +406,7 @@ lang="ms">ayam</span> or <span lang="ms">kandang</span>) still apply.
 >
 > Note that the sources are a little unclear and contradictory, so I have attempted to harmonize this description.
 
-<span class="noun" lang="ms">Chot</span> or <span class="noun aka" lang="ms">Kiong</span> is a version played with four players in partnerships, with partners sitting opposite each other. Three decks of cards are used (180 cards). 
+<span class="noun" lang="ms">Chot</span> or <span class="noun aka" lang="ms">Kiong</span> (probably from Hokkien <span lang="nan">共</span> <span lang="nan-Latn-pehoeji">kiōng</span>, ‘together’) is a version played with four players in partnerships, with partners sitting opposite each other. Three decks of cards are used (180 cards).
 
 The game is scored using two different tokens. Traditionally two sizes of seed such as those of the <span lang="ms">assam</span> (tamarind) and <span lang="ms">saga</span> ([<cite>Adenanthera pavonina</cite>](https://en.wikipedia.org/wiki/Adenanthera_pavonina)) trees,[@ChikiCards p. 127] or black and white marbles (<span lang="ms">pichi</span>)[@TheBabas p. 167] are used. The smaller (or white) tokens count as one point and the larger (or black) as ten points.
 
@@ -423,7 +423,7 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 <span class="noun" lang="jv-Latn">Gonggong</span> (from Makassarese <span lang="mak" class="aka">ᨁᨚᨁᨚ</span>) is a very similar game. It was reported in South Sulawesi in the 19th century.[@MakassaarschWoordenboek p. 69] In the 1940s it is recorded in Java, where it is described as being played mostly by women.[@JavaanseKaartspelen p. 94–97] A game of this name  was also played by Javan emigrants in Suriname up until at least the 1970s.
 
 > [!figure]
-> 
+>
 > ![A black-and-white photograph of ten people sitting in a circle on a mat, mostly men, several are wearing pork-pie hats. They are holding cards, and in the centre of the mat is a plate holding ceki cards.](74334415_1705918149541872_2426033331075284992_n.jpg)
 >
 > ```yaml
@@ -439,7 +439,7 @@ Once a fixed number of <span lang="ms">bangkong</span> have been completed, the 
 
 The game as played in Surakarta was described as follows:
 
-It is played with six sets of cards (180 cards) for four players, or eight sets (240 cards) for six players. Deal 14 cards each and play as with <span class="noun" lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called a <span lang="jv-Latn">bak</span>) must be completed.
+It is played with six sets of cards (180 cards) for four players, or eight sets (240 cards) for six players. Deal 14 cards each and play as with <span class="noun" lang="ms">Balik Satu</span>. In order to win, again at least one triplet (called a <span lang="jv">ꦧꦏ꧀</span> <span lang="jv-Latn">bak</span>, probably from Hokkien <span lang="nan">目</span> <span lang="nan-Latn-pehoeji">ba̍k</span>, ‘eye/links in a chain’) must be completed.
 
 Waiting for a specific card to win (to complete a <span lang="jv-Latn">bak</span>) is called <span lang="jv-Latn">ceki nocog</span>, and is announced by placing one coin on the table. Waiting for any card of a particular rank is called <span lang="jv-Latn">ceki kowah</span> and is announced by placing two coins on top of each other.
 
@@ -524,11 +524,15 @@ Ad-hoc bets are made between the players, whoever wins receives the staked amoun
 
 This is another game described as being played in Surakarta in Java during the 1940s.[@JavaanseKaartspelen p. 97–8] It is played with fewer cards than <span class="noun" lang="ms">Balik Satu</span> and is thus a faster game.
 
-The game is played by four people with one full set of 60 cards. Each player is dealt five cards. 
+The game is played by four people with one full set of 60 cards. Each player is dealt five cards.
 
 In this reduced game, a player must form three pairs to win, and one pair must be identical (a <span lang="jv-Latn">bak</span>). All honour cards are considered to be rank 1, so can be paired with other rank-1 cards.
 
-Waiting for one card to win is called <span lang="jv-Latn">tan</span>, as in <span class="noun" lang="ms">Balik Satu</span>. Waiting for an identical card is called <span lang="jv-Latn">tan nokang</span>, waiting for any card of the same rank is called <span lang="jv-Latn">tan kowah</span>.
+Waiting for one card to win is called <span lang="jv-Latn">tan</span>, as in <span class="noun" lang="ms">Balik Satu</span>. Waiting for an identical card is called <span lang="jv-Latn">tan nokang</span>,[^nokang] waiting for any card of the same rank is called <span lang="jv-Latn">tan kowah</span>.[^kowah]
+
+[^nokang]: Possibly from Hokkien <span lang="nan">等兩仝</span> <span lang="nan-Latn-pehoeji">tán nō kāng</span>, ‘wait two same’.
+
+[^kowah]: More tentatively, this may be from Hokkien <span lang="nan">寬</span> <span lang="nan-Latn-pehoeji">khoan/khoaⁿ</span>, ‘wide/broad/easy’; <span lang="nan">闊</span> <span lang="nan-Latn-pehoeji">khoah</span>, ‘broad’; <span lang="nan">款</span> <span lang="nan-Latn-pehoeji">khoán</span>, ‘kind/category’; or <span lang="nan">括</span> <span lang="nan-Latn-pehoeji">koah</span>, ‘group/lot’.
 
 Scoring is performed the same as the <span lang="jv-Latn">toh bayaran</span> method of <span class="noun" lang="jv-Latn">Gonggong</span>, above.
 

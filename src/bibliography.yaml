@@ -5297,6 +5297,7 @@ JavaanseKaartspelen:
   publisher: A. C. Nix & Co.
   issued:
     year: 1941
+  URL: https://resolver.kb.nl/resolve?urn=MMKB31:032685000
   series:
     title:
       value: "Verhandelingen van het Koninklijk Bataviaasch Genootschap van Kunsten en Wetenschappen"
@@ -12510,6 +12511,19 @@ JavaneseEnglish:
   publisher: Periplus Editions
   publisher-place: Singapore
   ISBN: '079460000X'
+BaoesastraDjawa:
+  type: book
+  title:
+    value: Baoesastra Djawa
+    lang: jv
+  language: jv
+  author:
+    - given: W. J. S.
+      family: Poerwadarminta
+  publisher: J. B. Wolters
+  publisher-place: Batavia
+  issued: 1939
+  URL: https://www.sastra.org/bahasa-dan-budaya/kamus-dan-leksikon/793-bausastra-jawa-poerwadarminta-1939-75-bagian-13-k
 ChineseLoanWordsMalay:
   type: article-journal
   title: Chinese Loan-Words in Malay
@@ -13351,6 +13365,17 @@ Douglas1899:
   publisher: Presbyterian Church of England
   publisher-place: London
   URL: https://archive.org/details/chineseenglishdict00doug
+Barclay1923:
+  type: book
+  title: Supplement to Dictionary of the Vernacular or Spoken Language of Amoy
+  author:
+  - given: Thomas
+    family: Barclay
+  issued: 1923
+  publisher: The Commercial Press, Limited
+  publisher-place: Shanghai
+  URL: https://archive.org/details/chineseenglish00doug
+  notes: The linked 1970 reprint binds Douglas’s 1873 dictionary and Barclay’s separately paginated 1923 supplement in one volume.
 EarSevered:
   type: article-newspaper
   title: Ear Severed With Bayonet Is Kept Alive Under Owner’s Collarbone
@@ -20942,11 +20967,59 @@ ChineseMalaccaMalay:
     volume: 6
     issue: 3
     issued: 1931
+WarkahWarkahSultanButon:
+  type: article-journal
+  title:
+    value: Warkah-Warkah Sultan Buton Muhyiuddin Abdul Gafur kepada Kompeni Belanda, Koleksi Universiteitsbibliotheek Leiden
+    lang: ms
+    alt: 'Letters from Sultan Muhyiuddin Abdul Gafur of Buton to the Dutch East India Company: Leiden University Library Collection'
+  language: ms
+  author:
+  - given: Surya
+    family: Suryadi
+  page: 187-239
+  URL: https://www.ukm.my/jatma/wp-content/uploads/makalah/SARI/SARI-2007-2500-12.pdf.pdf
+  in:
+    title: SARI
+    volume: 25
+    issued: 2007
+HikayatKerajaanSikka:
+  type: document
+  title:
+    value: Hikayat Kerajaan Sikka
+    lang: ms
+    alt: Chronicle of the Kingdom of Sikka
+  language: ms
+  author:
+  - given: Dominicus Dionitius Pareira
+    family: Kondi
+  publisher: Malay Concordance Project
+  issued: 2009
+  URL: https://mcp.anu.edu.au/N/Sikka_bib.html
+  notes: Digital transcription of manuscript 64 in E. Douglas Lewis’s inventory, compiled 1925–53.
+SalasilahMelayuDanBugis:
+  type: book
+  title:
+    value: Salasilah Melayu dan Bugis
+    lang: ms
+    alt: Malay and Bugis Genealogy
+  language: ms
+  author:
+  - given: Raja Ali Haji
+    family: bin Raja Haji Ahmad
+  editor:
+  - given: Mohd. Yusof Md. Nor
+  issued: 1984
+  publisher: Fajar Bakti
+  publisher-place: Kuala Lumpur
+  URL: https://mcp.anu.edu.au/N/M%26B_bib.html
+  notes: Malay Concordance Project transcription of the 1984 edition of the text composed in 1865.
 MinangkabauschMaleischNederlandsch:
   type: book
   title:
     value: Minangkabausch–Maleisch–Nederlandsch woordenboek
     lang: nl
+    alt: Minangkabau–Malay–Dutch Dictionary
   language: nl
   author:
   - given: J. L.
